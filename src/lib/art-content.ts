@@ -1,10 +1,10 @@
-// art-content.ts — the authored content for the Art vertical's first vertical
+// art-content.ts, the authored content for the Art vertical's first vertical
 // slice: the Modern era → Cubism movement → Les Demoiselles d'Avignon work →
 // Picasso artist. Ported from the mockup (art-data.jsx). All other eras/
 // movements render a "coming soon" state until authored.
 //
 // Numbers carried over from the mockup are FLAGGED where they look like
-// generated filler (see audits/art-vertical.md §8) — verify before shipping.
+// generated filler (see audits/art-vertical.md §8), verify before shipping.
 // Images use Wikimedia Special:FilePath URLs with a palette fallback.
 
 import { ART_ACCENTS } from './art-data'
@@ -15,7 +15,7 @@ export type Palette = [string, string, string]
 // frame a deliberate landscape *detail* of a tall work without cutting content.
 export interface HeroImage { src: string; focus?: string }
 
-// Verified image URLs — resolved via the MediaWiki API and load-checked (200,
+// Verified image URLs, resolved via the MediaWiki API and load-checked (200,
 // image/*) on 2026-05-23. The earlier mockup filenames mostly 404'd (wrong names;
 // curly vs straight apostrophe; Commons doesn't host works still in copyright).
 //
@@ -27,7 +27,7 @@ export interface HeroImage { src: string; focus?: string }
 //  • Guernica (1937) is NOT US public domain → it is NEVER inline; it renders as
 //    a restricted reference (degraded treatment) in the reader.
 export const ART_IMG = {
-  // EN-tier (US public domain, pre-1931 — inline OK)
+  // EN-tier (US public domain, pre-1931, inline OK)
   // SELF-HOSTED: the en scan carries a pale canvas/frame border (a gray band along
   // the top, thin edges elsewhere); trimmed so the painting fills the frame. 1907,
   // US-PD (pre-1931). Source: en Les_Demoiselles_d'Avignon, cropped to the canvas.
@@ -48,7 +48,7 @@ export const ART_IMG = {
   manetDejeuner: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg/1280px-Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg',
   courbetStudio: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Courbet_LAtelier_du_peintre.jpg/1280px-Courbet_LAtelier_du_peintre.jpg',
   // The institution the whole era revolts against: the packed floor-to-ceiling
-  // Salon hang (Martini after Ramberg, 1787 — PD worldwide; the hang barely
+  // Salon hang (Martini after Ramberg, 1787, PD worldwide; the hang barely
   // changed by 1850) and the smooth academic nude it rewarded (Cabanel, 1863).
   // SELF-HOSTED: the Met scan sits on a dark mount and carries an engraved caption
   // strip; both were trimmed so the artwork FILLS a card frame (cover-crop) rather
@@ -70,15 +70,15 @@ export const ART_IMG = {
   boccioniCity: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_City_Rises_by_Umberto_Boccioni_1910.jpg/1280px-The_City_Rises_by_Umberto_Boccioni_1910.jpg',
   duchampFountain: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg/1280px-Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg',
   grisBreakfast: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/1914_Gris_Le_Petit_D%C3%A9jeuner.jpg',
-  // EN-tier (US public domain, pre-1931 — inline OK)
+  // EN-tier (US public domain, pre-1931, inline OK)
   braqueFruitDish: 'https://upload.wikimedia.org/wikipedia/en/6/63/Braque_fruitdish_glass.jpg',
   picassoHorta: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Pablo_Picasso%2C_1909%2C_Maisons_%C3%A0_Horta_%28Houses_on_the_Hill%2C_Horta_de_Ebro%29%2C_oil_on_canvas%2C_65_x_81_cm%2C_private_collection.jpg/1280px-Pablo_Picasso%2C_1909%2C_Maisons_%C3%A0_Horta_%28Houses_on_the_Hill%2C_Horta_de_Ebro%29%2C_oil_on_canvas%2C_65_x_81_cm%2C_private_collection.jpg',
   braqueViolinJug: 'https://upload.wikimedia.org/wikipedia/en/0/0b/Georges_Braque%2C_1909-10%2C_Pitcher_and_Violin%2C_oil_on_canvas%2C_116.8_x_73.2_cm%2C_Kunstmuseum_Basel.jpg',
   metzingerTea: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Jean_Metzinger%2C_Le_go%C3%BBter%2C_Tea_Time%2C_1911%2C_75.9_x_70.2_cm%2C_Philadelphia_Museum_of_Art.jpg/1280px-Jean_Metzinger%2C_Le_go%C3%BBter%2C_Tea_Time%2C_1911%2C_75.9_x_70.2_cm%2C_Philadelphia_Museum_of_Art.jpg',
   picassoThreeMusicians: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Pablo_Picasso%2C_1921%2C_Nous_autres_musiciens_%28Three_Musicians%29%2C_oil_on_canvas%2C_204.5_x_188.3_cm%2C_Philadelphia_Museum_of_Art.jpg/1280px-Pablo_Picasso%2C_1921%2C_Nous_autres_musiciens_%28Three_Musicians%29%2C_oil_on_canvas%2C_204.5_x_188.3_cm%2C_Philadelphia_Museum_of_Art.jpg',
-  // RESTRICTED — Guernica (1937), NOT US public domain → degraded reference only
+  // RESTRICTED, Guernica (1937), NOT US public domain → degraded reference only
   guernica: 'https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg',
-  // SELF-HOSTED — Still Life with Chair Caning (1912) is US public domain (pre-1931)
+  // SELF-HOSTED, Still Life with Chair Caning (1912) is US public domain (pre-1931)
   // but Wikimedia hosts NO copy of it (Commons can't until France-PD in 2044; no en
   // fair-use file exists). A faithful repro is served from public/art/ instead, the
   // one art figure not on Wikimedia. Subject + tier confirmed by eye (born-verified).
@@ -109,7 +109,7 @@ export const ART_IMG = {
   // SELF-HOSTED: Daumier's Gargantua lithograph (1831, PD worldwide), trimmed off
   // its cream paper margin + the engraved title strip so the scene fills the frame.
   daumierGargantua: '/art/gargantua.jpg',
-  // SELF-HOSTED: Courbet's The Stone Breakers (1849, PD worldwide — Courbet d.1877).
+  // SELF-HOSTED: Courbet's The Stone Breakers (1849, PD worldwide, Courbet d.1877).
   // The ORIGINAL was destroyed in the bombing of Dresden, Feb 1945; shown here as a
   // desaturated record of the lost work (an archival stand-in, not the painting).
   courbetStoneBreakers: '/art/stone-breakers.jpg',
@@ -144,7 +144,7 @@ export const ART_IMG = {
   degasAbsinthe: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg/1280px-Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg',
   caillebotteParisStreet: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg/1280px-Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg',
   morisotCradle: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Berthe_Morisot_008.jpg/1280px-Berthe_Morisot_008.jpg',
-  // Break "before" — the academy's porcelain ideal (Bouguereau, NOT Cabanel; Realism uses Cabanel)
+  // Break "before", the academy's porcelain ideal (Bouguereau, NOT Cabanel; Realism uses Cabanel)
   bouguereauVenus: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/William-Adolphe_Bouguereau_%281825-1905%29_-_The_Birth_of_Venus_%281879%29.jpg/1280px-William-Adolphe_Bouguereau_%281825-1905%29_-_The_Birth_of_Venus_%281879%29.jpg',
   // Canon thumbnails (500px)
   renoirGrenouillere: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Auguste_Renoir_-_La_Grenouill%C3%A8re_-_Google_Art_Project.jpg/500px-Auguste_Renoir_-_La_Grenouill%C3%A8re_-_Google_Art_Project.jpg',
@@ -233,7 +233,7 @@ export interface ArtLineageChip { label: string; mode: 'art' | 'civ' | 'war'; im
 export interface ArtLineage { parents: ArtLineageChip[]; children: ArtLineageChip[] }
 
 // ─────────────────────────────────────────────────────────────
-// Era — Modern (1850–1970)
+// Era, Modern (1850–1970)
 // ─────────────────────────────────────────────────────────────
 export interface EraMovement {
   id: string
@@ -273,9 +273,9 @@ export interface ArtEraContent {
   movements: EraMovement[]
   anchorPainters: AnchorPainter[]
   lineage: ArtLineage
-  // "Why this is a break" — explicit contrast with the predecessor era (see WhatChanged).
+  // "Why this is a break", explicit contrast with the predecessor era (see WhatChanged).
   whatChanged?: WhatChanged
-  // "The manifesto" — the era's founding document, if it had one (rare at era altitude).
+  // "The manifesto", the era's founding document, if it had one (rare at era altitude).
   manifesto?: Manifesto
   // The era's own long-form narrative: chaptered prose entered via the "Read the
   // full story" button under the hook. The prose itself lives in the reader
@@ -297,15 +297,15 @@ export const MODERN_ERA: ArtEraContent = {
   heroCredit: 'Van Gogh, The Starry Night, 1889 · MoMA · public domain worldwide',
   stats: [
     { v: '120 yrs', k: 'Span' },
-    { v: '18', k: 'Major movements' }, // FLAG: only 10 listed below — reconcile
+    { v: '18', k: 'Major movements' }, // FLAG: only 10 listed below, reconcile
     { v: '~600', k: 'Canonical works' }, // FLAG: fuzzy filler
   ],
   tensions: [
-    { side: 'tradition', label: 'The Academies', color: ART_ACCENTS.amber, motto: 'Beauty has rules, and we know them.', detail: 'Salons, royal academies, art schools — the institutions that defined what a painting was supposed to look like.' },
+    { side: 'tradition', label: 'The Academies', color: ART_ACCENTS.amber, motto: 'Beauty has rules, and we know them.', detail: 'Salons, royal academies, art schools, the institutions that defined what a painting was supposed to look like.' },
     { side: 'rupture', label: 'The Avant-Gardes', color: ART_ACCENTS.violet, motto: 'Make it new. Then make it newer.', detail: 'A century of small magazines, group manifestos, gallerists, and a Paris café full of arguments.' },
   ],
   movements: [
-    { id: 'real', name: 'Realism', range: '1848–1870', accent: ART_ACCENTS.amber, size: 'm', hook: 'Paint your own century — laborers and peasants, given the wall the Salon kept for gods.', palette: ['#8a7a4a', '#4a3c22', '#14100a'], imageUrl: ART_IMG.milletGleaners, credit: 'Millet, The Gleaners, 1857 · Musée d’Orsay, Paris' },
+    { id: 'real', name: 'Realism', range: '1848–1870', accent: ART_ACCENTS.amber, size: 'm', hook: 'Paint your own century, laborers and peasants, given the wall the Salon kept for gods.', palette: ['#8a7a4a', '#4a3c22', '#14100a'], imageUrl: ART_IMG.milletGleaners, credit: 'Millet, The Gleaners, 1857 · Musée d’Orsay, Paris' },
     { id: 'imp', name: 'Impressionism', range: '1860s–1886', accent: ART_ACCENTS.blue, size: 'l', hook: 'Painting the LIGHT instead of the thing. Outdoors. Quick.', palette: ['#3a6a8a', '#c8c050', '#1c2a30'], imageUrl: ART_IMG.impressionSunrise, credit: 'Monet, Impression, Sunrise · Musée Marmottan Monet, Paris' },
     { id: 'postimp', name: 'Post-Impressionism', range: '1886–1905', accent: ART_ACCENTS.green, size: 'm', hook: 'Putting the structure back. Cézanne in Aix, Van Gogh in Arles, Gauguin in Tahiti.', palette: ['#5a7042', '#8a7848', '#1c1a12'], imageUrl: ART_IMG.vanGoghSelf, portrait: true, credit: 'Van Gogh, Self-Portrait, 1889 · Musée d’Orsay, Paris' },
     { id: 'fauv', name: 'Fauvism', range: '1905–1908', accent: ART_ACCENTS.rust, size: 's', hook: 'Color off the leash. Matisse, three years, four canvases, done.', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'], imageUrl: ART_IMG.matisseHat, portrait: true, credit: 'Matisse, Woman with a Hat, 1905 · SFMOMA, San Francisco' },
@@ -333,22 +333,22 @@ export const MODERN_ERA: ArtEraContent = {
     before: {
       img: ART_IMG.davidHoratii,
       title: 'Before · David, Oath of the Horatii (1784)',
-      caption: 'What "great painting" had meant: a clear story from antiquity, idealized heroic bodies, textbook one-point perspective, the finish flawless — art as a window onto a noble world.',
+      caption: 'What "great painting" had meant: a clear story from antiquity, idealized heroic bodies, textbook one-point perspective, the finish flawless, art as a window onto a noble world.',
     },
     after: {
       img: ART_IMG.kandinskyComp7,
       title: 'After · Kandinsky, Composition VII (1913)',
-      caption: 'No legible subject, no window — colour, line and force alone. Within two generations, painting had stopped depicting the visible world.',
+      caption: 'No legible subject, no window, colour, line and force alone. Within two generations, painting had stopped depicting the visible world.',
     },
     prose: [
-      'Before 1850, everyone agreed what painting was for. It opened a window onto a recognizable world — gods, heroes, saints, history — rendered with idealized bodies, believable space and a finish that hid every brushstroke. David’s Oath of the Horatii is that ideal made law: three brothers throw out their arms to swear on the swords their father holds aloft, the architecture recedes in textbook perspective, the drama crystal clear.',
-      'The modern era is the slow-motion demolition of that agreement. Realism put real labourers where the gods had been; Impressionism dissolved solid form into light; Cubism broke the single viewpoint; then Kandinsky took the last step and dissolved the subject altogether. The boats, waves and apocalyptic riders he began with vanish into pure colour and line — a picture that refuses to be a window onto anything but itself.',
-      'That is the thread that makes 1850–1970 one era and not a string of unrelated styles: each movement attacks a different rule of the old picture — its subjects, its space, its surface, its very duty to depict — until almost nothing of the window is left. Modern art isn’t a single look. It is the century painting spent taking itself apart.',
+      'Before 1850, everyone agreed what painting was for. It opened a window onto a recognizable world, gods, heroes, saints, history, rendered with idealized bodies, believable space and a finish that hid every brushstroke. David’s Oath of the Horatii is that ideal made law: three brothers throw out their arms to swear on the swords their father holds aloft, the architecture recedes in textbook perspective, the drama crystal clear.',
+      'The modern era is the slow-motion demolition of that agreement. Realism put real labourers where the gods had been; Impressionism dissolved solid form into light; Cubism broke the single viewpoint; then Kandinsky took the last step and dissolved the subject altogether. The boats, waves and apocalyptic riders he began with vanish into pure colour and line, a picture that refuses to be a window onto anything but itself.',
+      'That is the thread that makes 1850–1970 one era and not a string of unrelated styles: each movement attacks a different rule of the old picture, its subjects, its space, its surface, its very duty to depict, until almost nothing of the window is left. Modern art isn’t a single look. It is the century painting spent taking itself apart.',
     ],
   },
   sections: [
-    { id: 'land', eyebrow: 'Lay of the land', dateLabel: 'c. 1850', title: 'The world before the revolt', blurb: 'One ladder, owned by the State — and the modern world quietly loading the gun to kick it over.', progress: 0 },
-    { id: 'salon', eyebrow: 'The setup', dateLabel: '1850–1870', title: 'The Salon and its enemies', blurb: 'Who gets to decide what a painting is for — and the painters who stopped asking permission.', progress: 1 / 7 },
+    { id: 'land', eyebrow: 'Lay of the land', dateLabel: 'c. 1850', title: 'The world before the revolt', blurb: 'One ladder, owned by the State, and the modern world quietly loading the gun to kick it over.', progress: 0 },
+    { id: 'salon', eyebrow: 'The setup', dateLabel: '1850–1870', title: 'The Salon and its enemies', blurb: 'Who gets to decide what a painting is for, and the painters who stopped asking permission.', progress: 1 / 7 },
     { id: 'light', eyebrow: 'Impressionism', dateLabel: '1860s–1886', title: 'Painting the light', blurb: 'A handful of friends quit painting the thing and start painting the light falling on it.', progress: 2 / 7 },
     { id: 'structure', eyebrow: 'Post-Impressionism', dateLabel: '1886–1905', title: 'Putting the structure back', blurb: 'Cézanne, Van Gogh and Gauguin decide light was not enough, and go looking for what holds a picture up.', progress: 3 / 7 },
     { id: 'break', eyebrow: 'Fauvism & Cubism', dateLabel: '1905–1914', title: 'Breaking the picture', blurb: 'First color comes off the leash, then perspective itself is repealed. The window shatters.', progress: 4 / 7 },
@@ -359,7 +359,7 @@ export const MODERN_ERA: ArtEraContent = {
 }
 
 // City hubs for the era "where it happened" map. Coordinates are SVG viewBox
-// units (0–340 wide, 0–224 tall — a schematic, not true geography), with the
+// units (0–340 wide, 0–224 tall, a schematic, not true geography), with the
 // Atlantic divider at x≈120. Each hub carries the movement(s) that happened
 // there; the two `hub` cities (Paris, then New York) are the era's centers of
 // gravity, joined on the map by the c.1940 migration arc.
@@ -376,7 +376,7 @@ export interface ModernHub {
   movAnchor?: 'start' | 'middle' | 'end' // movement labels can align differently to the name
   movDy?: number // movement-label offset below the dot
 }
-// Every label reads "● City" — dot, then the city name on the same line (name to
+// Every label reads "● City", dot, then the city name on the same line (name to
 // the right). Movements sit one line below. Coordinates are tuned so the right-
 // hand names don't run off the 340-wide canvas or into a neighbor.
 export const MODERN_MAP_HUBS: ModernHub[] = [
@@ -390,7 +390,7 @@ export const MODERN_MAP_HUBS: ModernHub[] = [
 ]
 
 // ─────────────────────────────────────────────────────────────
-// Movement — Cubism (1907–1922)
+// Movement, Cubism (1907–1922)
 // ─────────────────────────────────────────────────────────────
 export interface MovementWork {
   id: string
@@ -407,15 +407,15 @@ export interface MovementWork {
 export interface MovementArtist { id: string; name: string; role: string; years: string; palette: Palette; photo?: string }
 export interface MovementParallel { year: number; movement: string; place: string; blurb: string }
 // A canonical work in the movement's full checklist (the count behind the
-// "Canonical works" stat). Name · artist · year only — no descriptions. `wiki`
+// "Canonical works" stat). Name · artist · year only, no descriptions. `wiki`
 // is a born-verified link to the work's OWN Wikipedia article, set only when one
 // exists (no artist-page fallbacks). `img` is a born-verified thumbnail of the
 // work (US-PD; all canon works pre-1931), tapped to open the lightbox.
 export interface CanonWork { year: number; name: string; artist: string; wiki?: string; img?: string; nsfw?: boolean; note?: string }
 
-// "Why this is a break" — the explicit contrast that proves this is genuinely a NEW
+// "Why this is a break", the explicit contrast that proves this is genuinely a NEW
 // era/movement, not a relabel. `before` = a representative work of what came just
-// before (often OUTSIDE our corpus — e.g. the academic Salon art Realism rejected);
+// before (often OUTSIDE our corpus, e.g. the academic Salon art Realism rejected);
 // `after` = a work of this era/movement. `prose` names the concrete rules that
 // changed (subjects, finish, scale, viewpoint), not vibes. Both images born-verified;
 // prose is gated like all narrative. Rendered as a side-by-side visual contrast +
@@ -427,17 +427,17 @@ export interface WhatChanged {
   prose: string[]
 }
 
-// "The manifesto" — the movement's founding document in its own words (or, when a
+// "The manifesto", the movement's founding document in its own words (or, when a
 // movement deliberately had none, the story of that silence: `absent: true`).
 // Quotes are born-verified against the real text and fact-checked like any prose.
 export interface Manifesto {
   heading?: string   // defaults to "The manifesto" (or "No manifesto" when absent)
-  absent?: boolean   // the movement issued no manifesto (e.g. Cubism) — prose tells why
+  absent?: boolean   // the movement issued no manifesto (e.g. Cubism), prose tells why
   title?: string     // the document's name
   author?: string    // who wrote it
   dateLabel?: string // year(s)
   venue?: string     // where it first appeared
-  quotes?: string[]  // verified excerpt lines — the actual manifesto words
+  quotes?: string[]  // verified excerpt lines, the actual manifesto words
   prose: string[]    // house voice: what it claimed and why it mattered
   sourceUrl?: string   // link to the actual full text (born-verified to resolve + be the right doc)
   sourceLabel?: string // link label (defaults to "Read the full manifesto")
@@ -471,9 +471,9 @@ export interface ArtMovementContent {
   // One-line italic summary under the influence-flow diagram (what fed in → what
   // it handed on). Falls back to nothing when omitted.
   influenceSummary?: string
-  // "Why this is a break" — explicit contrast with the predecessor (see WhatChanged).
+  // "Why this is a break", explicit contrast with the predecessor (see WhatChanged).
   whatChanged?: WhatChanged
-  // "The manifesto" — the movement's founding document in its own words (see Manifesto).
+  // "The manifesto", the movement's founding document in its own words (see Manifesto).
   manifesto?: Manifesto
   // The full canonical-works checklist (the count behind the "Canonical works"
   // stat). Browsable as a plain list on the movement page; no descriptions.
@@ -497,7 +497,7 @@ export const CUBISM: ArtMovementContent = {
     'For about a decade, two painters in Paris worked so closely that they had to sign the backs of each other’s canvases just to remember whose was whose. What they did, in essence, was repeal the law of single-point perspective that had ruled European painting since 1420. The picture stopped pretending to be a window.',
   heroImage: ART_IMG.girlWithMandolin,
   heroCredit: 'Picasso · Girl with a Mandolin (MoMA) · Portrait of Kahnweiler (Art Institute of Chicago) · 1910',
-  // A portrait diptych — two analytic-Cubism works side by side represent the
+  // A portrait diptych, two analytic-Cubism works side by side represent the
   // movement without cropping either (the genre-pairing pattern).
   heroImages: [
     { src: ART_IMG.girlWithMandolin, focus: '50% 14%' },
@@ -516,11 +516,11 @@ export const CUBISM: ArtMovementContent = {
     { id: 'demoiselles', year: 1907, name: 'Les Demoiselles d’Avignon', artist: 'Picasso', place: 'Paris', size: 'xl', blurb: 'Five women, five sets of impossible angles, masks where the faces should be. Even his friends thought he had lost it.', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], imageUrl: ART_IMG.demoiselles, credit: 'Picasso, Les Demoiselles d’Avignon · MoMA, New York' },
     { id: 'three-women', year: 1908, name: 'Three Women', artist: 'Picasso', place: 'Paris', size: 'm', blurb: 'The morning after the Demoiselles. The faces calm into masks; the bodies harden into carved, rust-red blocks.', palette: ['#a8482a', '#5a2418', '#1a0c08'], imageUrl: ART_IMG.threeWomen, credit: 'Picasso, Three Women, 1908 · Hermitage Museum, St Petersburg' },
     { id: 'horta', year: 1909, name: 'Houses on the Hill, Horta', artist: 'Picasso', place: 'Catalonia', size: 'l', blurb: 'Picasso paints a Spanish village as nesting cubes. The summer everyone agrees this is now a movement.', palette: ['#a08a4a', '#5a4a1c', '#1a1a14'], imageUrl: ART_IMG.picassoHorta, credit: 'Picasso, Houses on the Hill, Horta de Ebro · Museum Berggruen, Berlin' },
-    { id: 'kahnweiler', year: 1910, name: 'Portrait of Daniel-Henry Kahnweiler', artist: 'Picasso', place: 'Paris', size: 'm', blurb: 'Their dealer, in shards. Analytic Cubism arrives — monochrome, angular, almost unreadable.', palette: ['#5a4a3a', '#2a221c', '#0a0606'], imageUrl: ART_IMG.kahnweiler, credit: 'Picasso, Portrait of Kahnweiler · Art Institute of Chicago' },
+    { id: 'kahnweiler', year: 1910, name: 'Portrait of Daniel-Henry Kahnweiler', artist: 'Picasso', place: 'Paris', size: 'm', blurb: 'Their dealer, in shards. Analytic Cubism arrives, monochrome, angular, almost unreadable.', palette: ['#5a4a3a', '#2a221c', '#0a0606'], imageUrl: ART_IMG.kahnweiler, credit: 'Picasso, Portrait of Kahnweiler · Art Institute of Chicago' },
     { id: 'violin-jug', year: 1910, name: 'Violin and Jug', artist: 'Braque', place: 'Paris', size: 'm', blurb: 'Braque takes the still life apart. A nail in the corner of the canvas points to what was supposed to be the trompe-l’œil.', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.braqueViolinJug, credit: 'Braque, Violin and Jug · Kunstmuseum Basel' },
     { id: 'chair-caning', year: 1912, name: 'Still Life with Chair Caning', artist: 'Picasso', place: 'Paris', size: 'l', blurb: 'A piece of oilcloth printed with chair caning, glued to the canvas. Collage is born; painting will never be only paint again.', palette: ['#b89055', '#3a3020', '#1a1208'], imageUrl: ART_IMG.chairCaning, credit: 'Picasso, Still Life with Chair Caning · Musée Picasso, Paris' },
-    { id: 'the-portuguese', year: 1911, name: 'The Portuguese', artist: 'Braque', place: 'Paris', size: 'm', blurb: 'Braque stencils letters straight onto the canvas — the first time type sits on the surface as pure form, and the hinge toward collage.', palette: ['#9a8458', '#4a3f28', '#15110a'], imageUrl: ART_IMG.portuguese, credit: 'Braque, The Portuguese, 1911 · Kunstmuseum Basel' },
-    { id: 'gris-breakfast', year: 1914, name: 'Breakfast', artist: 'Juan Gris', place: 'Paris', size: 'm', blurb: 'Gris turns Cubism into a system — pasted wood-grain paper, a torn newspaper, his own name hidden in the headline.', palette: ['#3a6a7a', '#8a6b3a', '#1c2a2e'], imageUrl: ART_IMG.grisLunch, credit: 'Gris, Breakfast (Le Petit Déjeuner), 1914 · MoMA, New York' },
+    { id: 'the-portuguese', year: 1911, name: 'The Portuguese', artist: 'Braque', place: 'Paris', size: 'm', blurb: 'Braque stencils letters straight onto the canvas, the first time type sits on the surface as pure form, and the hinge toward collage.', palette: ['#9a8458', '#4a3f28', '#15110a'], imageUrl: ART_IMG.portuguese, credit: 'Braque, The Portuguese, 1911 · Kunstmuseum Basel' },
+    { id: 'gris-breakfast', year: 1914, name: 'Breakfast', artist: 'Juan Gris', place: 'Paris', size: 'm', blurb: 'Gris turns Cubism into a system, pasted wood-grain paper, a torn newspaper, his own name hidden in the headline.', palette: ['#3a6a7a', '#8a6b3a', '#1c2a2e'], imageUrl: ART_IMG.grisLunch, credit: 'Gris, Breakfast (Le Petit Déjeuner), 1914 · MoMA, New York' },
     { id: 'three-musicians', year: 1921, name: 'Three Musicians', artist: 'Picasso', place: 'Fontainebleau', size: 'l', blurb: 'Picasso revisits Cubism as a synthetic, decorative language. Flat planes, bright colors, almost a poster.', palette: ['#c8a72a', '#7a1422', '#1c0a08'], imageUrl: ART_IMG.picassoThreeMusicians, credit: 'Picasso, Three Musicians, 1921 · Philadelphia Museum of Art' },
   ],
   artists: [
@@ -555,9 +555,9 @@ export const CUBISM: ArtMovementContent = {
   manifesto: {
     absent: true,
     prose: [
-      'Cubism is the great exception — the movement with no manifesto at all. The two men who invented it, Picasso and Braque, published almost nothing: no program, no slogans, barely an interview. They worked in deliberate near-silence, roped together like mountaineers, and let the paintings do the arguing.',
+      'Cubism is the great exception, the movement with no manifesto at all. The two men who invented it, Picasso and Braque, published almost nothing: no program, no slogans, barely an interview. They worked in deliberate near-silence, roped together like mountaineers, and let the paintings do the arguing.',
       'The theory came from other hands entirely. The first real book on the movement, Du Cubisme (1912), was written by two second-wave painters, Albert Gleizes and Jean Metzinger, not by Picasso or Braque. The poet and critic Guillaume Apollinaire, Cubism’s loudest champion, followed with Les Peintres cubistes (1913). And a whole public-facing group, the Salon Cubists of the Section d’Or, exhibited and explained themselves in the open while the two inventors stayed cagey.',
-      'So Cubism’s “manifesto” is really a book by its followers and an essay by a friendly critic — the movement explained from the outside in. The silence is the point: Cubism made its case in pictures, not paragraphs.',
+      'So Cubism’s “manifesto” is really a book by its followers and an essay by a friendly critic, the movement explained from the outside in. The silence is the point: Cubism made its case in pictures, not paragraphs.',
     ],
     sourceUrl: 'https://projects.mcah.columbia.edu/arthumanities/websites/picmon/pdf/art_hum_reading_46.pdf',
     sourceLabel: 'Read Du Cubisme (Gleizes & Metzinger, 1912)',
@@ -575,9 +575,9 @@ export const CUBISM: ArtMovementContent = {
       caption: 'What Picasso did instead: five women built from jagged planes and mask-faces, shown from several angles at once, the deep illusionistic space flattened against the surface.',
     },
     prose: [
-      'For five hundred years a painting was a window. You stood in one place, the picture opened onto a believable space, and the painter’s job was to hide the seams — to make a flat cloth read as a room you could step into. Ingres’s odalisque is that tradition at its most polished: one viewpoint, one idealized body, every brushstroke buffed away.',
-      'Les Demoiselles d’Avignon smashes the window. The five figures are assembled from hard angular shards; two of the faces are African masks; and bodies are shown from several positions at the same time — a back and a face that no single observer could ever see together. The illusion of depth is gone, pressed flat against the canvas.',
-      'That is why Cubism is a new movement and not a new style. It didn’t change how the window looked — it threw the window out. Once a painting could hold many viewpoints at once and admit it was a flat made thing, the single fixed eye that had governed Western art since the Renaissance was finished, and nearly every abstraction that followed walked through the hole Picasso and Braque tore open.',
+      'For five hundred years a painting was a window. You stood in one place, the picture opened onto a believable space, and the painter’s job was to hide the seams, to make a flat cloth read as a room you could step into. Ingres’s odalisque is that tradition at its most polished: one viewpoint, one idealized body, every brushstroke buffed away.',
+      'Les Demoiselles d’Avignon smashes the window. The five figures are assembled from hard angular shards; two of the faces are African masks; and bodies are shown from several positions at the same time, a back and a face that no single observer could ever see together. The illusion of depth is gone, pressed flat against the canvas.',
+      'That is why Cubism is a new movement and not a new style. It didn’t change how the window looked, it threw the window out. Once a painting could hold many viewpoints at once and admit it was a flat made thing, the single fixed eye that had governed Western art since the Renaissance was finished, and nearly every abstraction that followed walked through the hole Picasso and Braque tore open.',
     ],
   },
   canon: [
@@ -613,16 +613,16 @@ export const CUBISM: ArtMovementContent = {
     { year: 1921, name: 'Three Musicians', artist: 'Picasso', wiki: "Three Musicians (Picasso)", img: ART_IMG.picassoThreeMusicians },
   ],
   sections: [
-    { id: 'before', eyebrow: 'Setting', dateLabel: '1906–1908', title: 'Before the cube', blurb: 'A dead painter, a stolen stone head, a room of looted masks — the three things Picasso could not stop looking at.', progress: 1 / 6 },
+    { id: 'before', eyebrow: 'Setting', dateLabel: '1906–1908', title: 'Before the cube', blurb: 'A dead painter, a stolen stone head, a room of looted masks, the three things Picasso could not stop looking at.', progress: 1 / 6 },
     { id: 'analytic', eyebrow: 'The partnership', dateLabel: '1909–1911', title: 'Two men, one rope', blurb: 'Picasso and Braque climb the mountain roped together, faceting the world into brown and gray shards.', progress: 2 / 6 },
-    { id: 'shards', eyebrow: 'The hermetic peak', dateLabel: '1911–1912', title: 'The world in shards', blurb: 'The pictures get so abstract even the painters get nervous — and the public meets Cubism in a room they were not ready for.', progress: 3 / 6 },
+    { id: 'shards', eyebrow: 'The hermetic peak', dateLabel: '1911–1912', title: 'The world in shards', blurb: 'The pictures get so abstract even the painters get nervous, and the public meets Cubism in a room they were not ready for.', progress: 3 / 6 },
     { id: 'paper', eyebrow: 'A new technique', dateLabel: '1912–1914', title: 'Pasted paper', blurb: 'They glue a scrap of oilcloth to a canvas, and five centuries of painting-as-illusion quietly end.', progress: 4 / 6 },
     { id: 'public', eyebrow: 'The second wave', dateLabel: '1911–1914', title: 'Cubism goes public', blurb: 'The Salon Cubists exhibit, theorise and scandalise, and a freight train of it reaches New York.', progress: 5 / 6 },
     { id: 'after', eyebrow: 'The war and after', dateLabel: '1914–1922', title: 'Mobilisation', blurb: 'In August 1914 the founders are scattered to the front. What they had built was already loose in the world.', progress: 1 },
   ],
 }
 
-// Influence Ribbon tracks — artists across years, dots at works, derived for the
+// Influence Ribbon tracks, artists across years, dots at works, derived for the
 // movement page's signature visual. (Track = artist; axis = years 1907–1922.)
 export const CUBISM_RIBBON = {
   startYear: 1907,
@@ -655,7 +655,7 @@ export const CUBISM_RIBBON = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Movement — Realism (1848–1870). The Modern era's opening revolt.
+// Movement, Realism (1848–1870). The Modern era's opening revolt.
 // Authored through the art content pipeline (fact pack → Opus draft → 5 critic
 // gates → revise); narrative in movement-narratives.tsx under 'real'.
 // ─────────────────────────────────────────────────────────────
@@ -670,7 +670,7 @@ export const REALISM: ArtMovementContent = {
   chain: { name: 'Movements of the Modern era', index: 1, total: 10 },
   hook: 'Courbet hangs a stone-breaker where the Salon kept its gods.',
   hookLong:
-    'Around 1848 a handful of painters made a deliberate movement out of an almost rude idea: paint the real, ordinary, contemporary world — laborers, peasants, the urban poor — at the size and seriousness the academy had always reserved for myth and kings. It was the first shot in the whole modern revolt, and everything restless that follows is still answering it.',
+    'Around 1848 a handful of painters made a deliberate movement out of an almost rude idea: paint the real, ordinary, contemporary world, laborers, peasants, the urban poor, at the size and seriousness the academy had always reserved for myth and kings. It was the first shot in the whole modern revolt, and everything restless that follows is still answering it.',
   heroImage: ART_IMG.courbetBurial,
   heroFit: 'cover',
   heroFocus: '50% 52%',
@@ -681,19 +681,19 @@ export const REALISM: ArtMovementContent = {
     { v: 'Paris', k: 'Centered on' },
   ],
   factions: [
-    { side: 'realists', label: 'The Realists', color: ART_ACCENTS.amber, members: ['Courbet', 'Millet', 'Daumier', 'Bonheur'], detail: 'No manifesto-signing club — a loose front who agreed on one thing: paint the real, contemporary world, at full scale and dead serious.' },
-    { side: 'academy', label: 'The Academy', color: '#7c6f5a', members: ['The Salon jury', 'Cabanel', 'Bouguereau'], detail: 'The State-run ladder that ranked gods and kings at the top and modern life at the bottom — and policed the one show in France where a career was made.' },
+    { side: 'realists', label: 'The Realists', color: ART_ACCENTS.amber, members: ['Courbet', 'Millet', 'Daumier', 'Bonheur'], detail: 'No manifesto-signing club, a loose front who agreed on one thing: paint the real, contemporary world, at full scale and dead serious.' },
+    { side: 'academy', label: 'The Academy', color: '#7c6f5a', members: ['The Salon jury', 'Cabanel', 'Bouguereau'], detail: 'The State-run ladder that ranked gods and kings at the top and modern life at the bottom, and policed the one show in France where a career was made.' },
   ],
   works: [
     { id: 'gargantua', year: 1831, name: 'Gargantua', artist: 'Daumier', place: 'Paris', size: 'm', blurb: 'Daumier draws the king as a gluttonous giant gorging on his subjects’ taxes. It earned the cartoonist six months in jail.', palette: ['#8a8074', '#4a4038', '#16120e'], imageUrl: ART_IMG.daumierGargantua, credit: 'Daumier, Gargantua, 1831 · lithograph · Bibliothèque nationale de France' },
     { id: 'stone-breakers', year: 1849, name: 'The Stone Breakers', artist: 'Courbet', place: 'Ornans', size: 'm', blurb: 'Two laborers breaking rock, life-size and dead serious. The original was destroyed in 1945; only reproductions survive.', palette: ['#7a7064', '#42382c', '#15110c'], imageUrl: ART_IMG.courbetStoneBreakers, credit: 'Courbet, The Stone Breakers, 1849 · destroyed 1945 (formerly Gemäldegalerie, Dresden)' },
-    { id: 'burial', year: 1850, name: 'A Burial at Ornans', artist: 'Courbet', place: 'Ornans', size: 'xl', blurb: 'A whole village funeral painted ten feet tall and twenty-two wide — the scale the Salon kept for the death of a Greek hero.', palette: ['#6b6354', '#39322a', '#120f0c'], imageUrl: ART_IMG.courbetBurial, credit: 'Courbet, A Burial at Ornans, 1849–50 · Musée d’Orsay, Paris' },
-    { id: 'sower', year: 1850, name: 'The Sower', artist: 'Millet', place: 'Barbizon', size: 'm', blurb: 'A lone peasant striding a dusk field, flinging seed. Monumental, almost menacing — two years after the poor toppled a throne.', palette: ['#5a5238', '#332c1e', '#100c08'], imageUrl: ART_IMG.milletSower, credit: 'Millet, The Sower, 1850 · Museum of Fine Arts, Boston' },
+    { id: 'burial', year: 1850, name: 'A Burial at Ornans', artist: 'Courbet', place: 'Ornans', size: 'xl', blurb: 'A whole village funeral painted ten feet tall and twenty-two wide, the scale the Salon kept for the death of a Greek hero.', palette: ['#6b6354', '#39322a', '#120f0c'], imageUrl: ART_IMG.courbetBurial, credit: 'Courbet, A Burial at Ornans, 1849–50 · Musée d’Orsay, Paris' },
+    { id: 'sower', year: 1850, name: 'The Sower', artist: 'Millet', place: 'Barbizon', size: 'm', blurb: 'A lone peasant striding a dusk field, flinging seed. Monumental, almost menacing, two years after the poor toppled a throne.', palette: ['#5a5238', '#332c1e', '#100c08'], imageUrl: ART_IMG.milletSower, credit: 'Millet, The Sower, 1850 · Museum of Fine Arts, Boston' },
     { id: 'studio', year: 1855, name: 'The Painter’s Studio', artist: 'Courbet', place: 'Paris', size: 'l', blurb: 'Courbet at his easel, all of contemporary society sorted into one room. The world’s fair refused it; he built his own tent.', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.courbetStudio, credit: 'Courbet, The Painter’s Studio, 1855 · Musée d’Orsay, Paris' },
-    { id: 'horse-fair', year: 1855, name: 'The Horse Fair', artist: 'Bonheur', place: 'Paris', size: 'l', blurb: 'The Paris horse market at full gallop — draft horses rearing, handlers straining. You can nearly hear the hooves.', palette: ['#8a7a52', '#4a3c22', '#15110a'], imageUrl: ART_IMG.bonheurHorseFair, credit: 'Bonheur, The Horse Fair, 1852–55 · The Metropolitan Museum of Art, New York' },
-    { id: 'gleaners', year: 1857, name: 'The Gleaners', artist: 'Millet', place: 'Barbizon', size: 'l', blurb: 'Three of the poorest women bent over a stripped field, gathering the grain the reapers dropped — painted at the size of heroes.', palette: ['#a8915a', '#5a4a2a', '#1a1410'], imageUrl: ART_IMG.milletGleaners, credit: 'Millet, The Gleaners, 1857 · Musée d’Orsay, Paris' },
+    { id: 'horse-fair', year: 1855, name: 'The Horse Fair', artist: 'Bonheur', place: 'Paris', size: 'l', blurb: 'The Paris horse market at full gallop, draft horses rearing, handlers straining. You can nearly hear the hooves.', palette: ['#8a7a52', '#4a3c22', '#15110a'], imageUrl: ART_IMG.bonheurHorseFair, credit: 'Bonheur, The Horse Fair, 1852–55 · The Metropolitan Museum of Art, New York' },
+    { id: 'gleaners', year: 1857, name: 'The Gleaners', artist: 'Millet', place: 'Barbizon', size: 'l', blurb: 'Three of the poorest women bent over a stripped field, gathering the grain the reapers dropped, painted at the size of heroes.', palette: ['#a8915a', '#5a4a2a', '#1a1410'], imageUrl: ART_IMG.milletGleaners, credit: 'Millet, The Gleaners, 1857 · Musée d’Orsay, Paris' },
     { id: 'angelus', year: 1859, name: 'The Angelus', artist: 'Millet', place: 'Barbizon', size: 'm', blurb: 'Two peasants pause to pray at the evening bell, tiny under an enormous sky. One of the most reproduced images of the century.', palette: ['#7a6a44', '#3e3320', '#12100a'], imageUrl: ART_IMG.milletAngelus, credit: 'Millet, The Angelus, 1857–59 · Musée d’Orsay, Paris' },
-    { id: 'carriage', year: 1864, name: 'The Third-Class Carriage', artist: 'Daumier', place: 'Paris', size: 'l', blurb: 'The cheapest class of a railway car, packed with the urban poor — tired, dignified, unsentimental. Modern life, no pity.', palette: ['#53412c', '#2a1f14', '#0c0805'], imageUrl: ART_IMG.daumierCarriage, credit: 'Daumier, The Third-Class Carriage, c.1862–64 · The Metropolitan Museum of Art, New York' },
+    { id: 'carriage', year: 1864, name: 'The Third-Class Carriage', artist: 'Daumier', place: 'Paris', size: 'l', blurb: 'The cheapest class of a railway car, packed with the urban poor, tired, dignified, unsentimental. Modern life, no pity.', palette: ['#53412c', '#2a1f14', '#0c0805'], imageUrl: ART_IMG.daumierCarriage, credit: 'Daumier, The Third-Class Carriage, c.1862–64 · The Metropolitan Museum of Art, New York' },
   ],
   artists: [
     { id: 'courbet', name: 'Courbet', role: 'The firebrand', years: '1819–1877', palette: ['#6b6354', '#39322a', '#120f0c'], photo: ART_IMG.courbetPhoto },
@@ -705,7 +705,7 @@ export const REALISM: ArtMovementContent = {
   ],
   parallels: [
     { year: 1848, movement: 'Pre-Raphaelites', place: 'London', blurb: 'Seven young British painters band together to revolt against academic polish and paint with sharp-eyed truth to nature.' },
-    { year: 1855, movement: 'Exposition Universelle', place: 'Paris', blurb: 'A world’s fair with a grand official art show — and Courbet’s rival one-man Pavilion of Realism pitched right beside it.' },
+    { year: 1855, movement: 'Exposition Universelle', place: 'Paris', blurb: 'A world’s fair with a grand official art show, and Courbet’s rival one-man Pavilion of Realism pitched right beside it.' },
     { year: 1857, movement: 'Realism on trial', place: 'Paris', blurb: 'Flaubert’s Madame Bovary and Baudelaire’s Les Fleurs du Mal are prosecuted for offending public morals. The unvarnished now unsettles in print, too.' },
     { year: 1863, movement: 'Salon des Refusés', place: 'Paris', blurb: 'The jury’s rejects get their own overflow show; Manet’s Déjeuner sur l’herbe turns scandal into the next revolt.' },
   ],
@@ -731,12 +731,12 @@ export const REALISM: ArtMovementContent = {
     venue: 'preface to the catalogue of his Pavilion of Realism, Paris',
     quotes: [
       'The title of Realist was thrust upon me just as the title of Romantic was imposed upon the men of 1830.',
-      'To be in a position to translate the customs, the ideas, the appearance of my epoch, according to my own estimation; to be not only a painter, but a man as well; in short, to create living art — this is my goal.',
+      'To be in a position to translate the customs, the ideas, the appearance of my epoch, according to my own estimation; to be not only a painter, but a man as well; in short, to create living art, this is my goal.',
     ],
     prose: [
-      'Realism’s manifesto is not a sheet with a dozen signatures. It is a single page Courbet wrote to hand out at the door of his own tent — the Pavilion of Realism he threw up beside the 1855 world’s fair after its jury rejected his two biggest canvases (the Painter’s Studio and the Burial). A manifesto smuggled in as an exhibition catalogue.',
-      'What it claims is the whole movement in miniature: he did not pick the label, he accepted it; and his one aim is to paint his own century exactly as he finds it — its people, its manners, its look — with no gods borrowed from myth and nothing prettied up. Art made of the present tense. Living art.',
-      'A Burial at Ornans had already made that argument in paint five years earlier (its own read in this app); this page just says out loud what the ten-foot canvas had said in oil. The picture declared it first. The catalogue gave it words — and a name.',
+      'Realism’s manifesto is not a sheet with a dozen signatures. It is a single page Courbet wrote to hand out at the door of his own tent, the Pavilion of Realism he threw up beside the 1855 world’s fair after its jury rejected his two biggest canvases (the Painter’s Studio and the Burial). A manifesto smuggled in as an exhibition catalogue.',
+      'What it claims is the whole movement in miniature: he did not pick the label, he accepted it; and his one aim is to paint his own century exactly as he finds it, its people, its manners, its look, with no gods borrowed from myth and nothing prettied up. Art made of the present tense. Living art.',
+      'A Burial at Ornans had already made that argument in paint five years earlier (its own read in this app); this page just says out loud what the ten-foot canvas had said in oil. The picture declared it first. The catalogue gave it words, and a name.',
     ],
     sourceUrl: 'https://www.gettydocents.org/wp-content/uploads/Gustave-Courbet-Realist-Manifesto.pdf',
     sourceLabel: 'Read Courbet’s Realist Manifesto (1855)',
@@ -751,12 +751,12 @@ export const REALISM: ArtMovementContent = {
     after: {
       img: ART_IMG.courbetBurial,
       title: 'After · Courbet, A Burial at Ornans (1850)',
-      caption: 'What Courbet did instead: real villagers at a real funeral, ten feet tall and twenty-two wide — the scale reserved for gods — in blunt, palpable paint.',
+      caption: 'What Courbet did instead: real villagers at a real funeral, ten feet tall and twenty-two wide, the scale reserved for gods, in blunt, palpable paint.',
     },
     prose: [
-      'For two centuries French painting ran on a ladder. At the top: history and myth — gods, heroes, saints, kings. At the bottom: ordinary life. The Salon, the one official show that made or broke a career, rewarded the top of the ladder polished to a porcelain shine. Cabanel’s Venus is the perfect specimen — a flawless nude floating on a decorative wave, every brushstroke sanded away, the eroticism made respectable by calling her a goddess. The Emperor hung it in his own collection.',
-      'Courbet took the giant canvas size that the academy reserved for the death of a hero and spent it on a village funeral. No goddess, no allegory, no heaven opening overhead — just his own provincial neighbors in mud-black mourning clothes, ringed around an open grave, the paint laid on thick with brush and palette knife so you can see and almost feel every stroke. The faces are plain. The dog is bored. Nothing is idealized.',
-      'That is the whole argument of Realism, and it is why it counts as a new movement rather than a new style: the present — ordinary, unbeautiful, contemporary — deserves the scale and seriousness art had always saved for myth. Cabanel and Courbet hung in the same Paris a few years apart, and they are on opposite planets. The break wasn’t a new brush or a new color. It was throwing out the ladder.',
+      'For two centuries French painting ran on a ladder. At the top: history and myth, gods, heroes, saints, kings. At the bottom: ordinary life. The Salon, the one official show that made or broke a career, rewarded the top of the ladder polished to a porcelain shine. Cabanel’s Venus is the perfect specimen, a flawless nude floating on a decorative wave, every brushstroke sanded away, the eroticism made respectable by calling her a goddess. The Emperor hung it in his own collection.',
+      'Courbet took the giant canvas size that the academy reserved for the death of a hero and spent it on a village funeral. No goddess, no allegory, no heaven opening overhead, just his own provincial neighbors in mud-black mourning clothes, ringed around an open grave, the paint laid on thick with brush and palette knife so you can see and almost feel every stroke. The faces are plain. The dog is bored. Nothing is idealized.',
+      'That is the whole argument of Realism, and it is why it counts as a new movement rather than a new style: the present, ordinary, unbeautiful, contemporary, deserves the scale and seriousness art had always saved for myth. Cabanel and Courbet hung in the same Paris a few years apart, and they are on opposite planets. The break wasn’t a new brush or a new color. It was throwing out the ladder.',
     ],
   },
   canon: [
@@ -787,24 +787,24 @@ export const REALISM: ArtMovementContent = {
     { year: 1863, name: 'The Laundress', artist: 'Daumier', wiki: "The Laundress (Daumier)", img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Honor%C3%A9_Daumier_-_The_Washerwoman_-_WGA05957.jpg/500px-Honor%C3%A9_Daumier_-_The_Washerwoman_-_WGA05957.jpg' },
     { year: 1863, name: 'Shepherdess with her Flock', artist: 'Millet', wiki: "Shepherdess with her Flock", img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Jean-Fran%C3%A7ois_Millet_Pastora.jpg/500px-Jean-Fran%C3%A7ois_Millet_Pastora.jpg' },
     { year: 1864, name: 'Souvenir de Mortefontaine', artist: 'Corot', wiki: "Souvenir de Mortefontaine", img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Souvenir_de_Mortefontaine_-_Jean-Baptiste_Camille_Corot_-_Mus%C3%A9e_du_Louvre_Peintures_MI_692_bis_-_photo_2.jpg/500px-Souvenir_de_Mortefontaine_-_Jean-Baptiste_Camille_Corot_-_Mus%C3%A9e_du_Louvre_Peintures_MI_692_bis_-_photo_2.jpg' },
-    // The Origin of the World — kept + linked, but with NO inline thumbnail and an
+    // The Origin of the World, kept + linked, but with NO inline thumbnail and an
     // "explicit" tag, so tapping through to Courbet's explicit work is informed, not a surprise.
     { year: 1866, name: 'The Origin of the World', artist: 'Courbet', wiki: "L'Origine du monde", nsfw: true },
     { year: 1869, name: 'Woman with a Pearl', artist: 'Corot', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Camille_Corot_-_Woman_with_a_Pearl.jpg/500px-Camille_Corot_-_Woman_with_a_Pearl.jpg' },
     { year: 1872, name: 'The Trout', artist: 'Courbet', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Courbet_-_La_truite_Musee_Orsay.jpg/500px-Courbet_-_La_truite_Musee_Orsay.jpg' },
   ],
   sections: [
-    { id: 'why', eyebrow: 'The demand', dateLabel: '1848', title: 'Why Realism', blurb: 'A revolution puts ordinary people in the foreground of history — and a generation of painters asks why they’re only ever scenery.', progress: 1 / 6 },
+    { id: 'why', eyebrow: 'The demand', dateLabel: '1848', title: 'Why Realism', blurb: 'A revolution puts ordinary people in the foreground of history, and a generation of painters asks why they’re only ever scenery.', progress: 1 / 6 },
     { id: 'gauntlet', eyebrow: 'Courbet', dateLabel: '1849–1850', title: 'Courbet’s gauntlet', blurb: 'Two laborers breaking rock and a whole village funeral, painted at the scale the Salon kept for gods. The scandal of dignifying nobodies.', progress: 2 / 6 },
     { id: 'pavilion', eyebrow: 'The manifesto', dateLabel: '1855', title: 'The Pavilion and the Manifesto', blurb: 'Refused by the world’s fair, Courbet builds his own tent across the street, charges admission, and gives the movement its name.', progress: 3 / 6 },
-    { id: 'peasants', eyebrow: 'Millet', dateLabel: '1850–1859', title: 'Millet’s peasants', blurb: 'Out at Barbizon, the quiet half of Realism paints the rural poor as fact and as sacrament — and frightens the critics doing it.', progress: 4 / 6 },
-    { id: 'city', eyebrow: 'Daumier', dateLabel: '1831–1864', title: 'Daumier’s city', blurb: 'A caricaturist jailed for mocking the king drags Realism into the modern town — its crowds, its politicians, its third-class poor.', progress: 5 / 6 },
+    { id: 'peasants', eyebrow: 'Millet', dateLabel: '1850–1859', title: 'Millet’s peasants', blurb: 'Out at Barbizon, the quiet half of Realism paints the rural poor as fact and as sacrament, and frightens the critics doing it.', progress: 4 / 6 },
+    { id: 'city', eyebrow: 'Daumier', dateLabel: '1831–1864', title: 'Daumier’s city', blurb: 'A caricaturist jailed for mocking the king drags Realism into the modern town, its crowds, its politicians, its third-class poor.', progress: 5 / 6 },
     { id: 'reach', eyebrow: 'Bonheur & after', dateLabel: '1853–1877', title: 'Bonheur, and the reach', blurb: 'The most celebrated woman painter of the century, the handoff to Impressionism, and the price Courbet paid for his politics.', progress: 1 },
   ],
 }
 
 // ─────────────────────────────────────────────────────────────
-// Movement — Impressionism (1860s–1886). The Modern era's second movement.
+// Movement, Impressionism (1860s–1886). The Modern era's second movement.
 // Authored through the art content pipeline (fact pack → Opus draft → 5 critic
 // gates → reconcile → revise); narrative in movement-narratives.tsx under 'imp'.
 // ─────────────────────────────────────────────────────────────
@@ -819,7 +819,7 @@ export const IMPRESSIONISM: ArtMovementContent = {
   chain: { name: 'Movements of the Modern era', index: 2, total: 10 },
   hook: 'A critic sneered that wallpaper was more finished. They wore the insult as a name.',
   hookLong:
-    'In the Paris of the 1870s these were the canvases the jury rejected and the public came to laugh at — pictures that looked unfinished, smeared, dashed-off, wrong. Their makers were a quarrelsome cooperative who never agreed on a creed, never signed a manifesto, and got their very name from a man making fun of them. This is how a generation that could see the brand-new modern city — its boulevards, railway stations and Sunday boating parties — fought a decade-long war with the official machine that refused to let them paint it, invented a way of putting light itself on canvas, and then, having finally won, woke to find a younger painter had hung the picture that made them, suddenly, look like the past.',
+    'In the Paris of the 1870s these were the canvases the jury rejected and the public came to laugh at, pictures that looked unfinished, smeared, dashed-off, wrong. Their makers were a quarrelsome cooperative who never agreed on a creed, never signed a manifesto, and got their very name from a man making fun of them. This is how a generation that could see the brand-new modern city, its boulevards, railway stations and Sunday boating parties, fought a decade-long war with the official machine that refused to let them paint it, invented a way of putting light itself on canvas, and then, having finally won, woke to find a younger painter had hung the picture that made them, suddenly, look like the past.',
   heroImage: ART_IMG.impressionSunrise,
   heroFit: 'cover',
   heroFocus: '50% 50%',
@@ -830,17 +830,17 @@ export const IMPRESSIONISM: ArtMovementContent = {
     { v: 'Paris', k: 'Centered on' },
   ],
   factions: [
-    { side: 'independents', label: 'The Independents', color: ART_ACCENTS.blue, members: ['Monet', 'Renoir', 'Pissarro', 'Degas', 'Morisot', 'Cassatt'], detail: 'No creed, no manifesto — a quarrelsome cooperative (the Société Anonyme) bound by one thing: a wall of their own, outside the Salon, where the modern world could hang unjudged.' },
-    { side: 'academy', label: 'The Salon', color: '#7c6f5a', members: ['The Salon jury', 'Bouguereau', 'Gérôme', 'Cabanel'], detail: 'The one State-run show that made or broke a French career — guarded by a jury that prized noble subjects and a porcelain, invisible finish, and read the visible brushstroke as proof a picture wasn’t done.' },
+    { side: 'independents', label: 'The Independents', color: ART_ACCENTS.blue, members: ['Monet', 'Renoir', 'Pissarro', 'Degas', 'Morisot', 'Cassatt'], detail: 'No creed, no manifesto, a quarrelsome cooperative (the Société Anonyme) bound by one thing: a wall of their own, outside the Salon, where the modern world could hang unjudged.' },
+    { side: 'academy', label: 'The Salon', color: '#7c6f5a', members: ['The Salon jury', 'Bouguereau', 'Gérôme', 'Cabanel'], detail: 'The one State-run show that made or broke a French career, guarded by a jury that prized noble subjects and a porcelain, invisible finish, and read the visible brushstroke as proof a picture wasn’t done.' },
   ],
   works: [
-    { id: 'grenouillere', year: 1869, name: 'La Grenouillère', artist: 'Monet', place: 'Bougival', size: 'm', blurb: 'Monet and Renoir set up side by side at a floating river café and each came back with a chop of quick blue-and-white strokes that reads as real moving water — the new way of seeing, invented on the spot.', palette: ['#3a6a8a', '#c8c050', '#1c2a30'], imageUrl: ART_IMG.monetGrenouillere, credit: 'Monet, La Grenouillère, 1869 · The Metropolitan Museum of Art, New York' },
+    { id: 'grenouillere', year: 1869, name: 'La Grenouillère', artist: 'Monet', place: 'Bougival', size: 'm', blurb: 'Monet and Renoir set up side by side at a floating river café and each came back with a chop of quick blue-and-white strokes that reads as real moving water, the new way of seeing, invented on the spot.', palette: ['#3a6a8a', '#c8c050', '#1c2a30'], imageUrl: ART_IMG.monetGrenouillere, credit: 'Monet, La Grenouillère, 1869 · The Metropolitan Museum of Art, New York' },
     { id: 'impression-sunrise', year: 1872, name: 'Impression, Sunrise', artist: 'Monet', place: 'Le Havre', size: 'm', blurb: 'A hazy harbor at dawn, sky and water melting into one soft murk, the sun a single fierce dab of orange. A critic mocked the title; the movement took the joke for its name.', palette: ['#3a6a8a', '#c8c050', '#1c2a30'], imageUrl: ART_IMG.impressionSunrise, credit: 'Monet, Impression, Sunrise, 1872 · Musée Marmottan Monet, Paris' },
-    { id: 'cradle', year: 1872, name: 'The Cradle', artist: 'Morisot', place: 'Paris', size: 'm', blurb: 'Morisot’s sister Edma watches her own sleeping daughter through gauze netting painted in a few translucent breaths — the female world observed from inside it, by a founding member of the movement.', palette: ['#9aa0a4', '#5a6066', '#1a1e22'], imageUrl: ART_IMG.morisotCradle, credit: 'Morisot, The Cradle, 1872 · Musée d’Orsay, Paris' },
-    { id: 'dance-class', year: 1874, name: 'The Dance Class', artist: 'Degas', place: 'Paris', size: 'm', blurb: 'A rehearsal room seen at a tilt, the floor tipping toward you, dancers scattered off-center like a snapshot — Japanese cropping, the caught instant, and not a square inch of open air.', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.degasDanceClass, credit: 'Degas, The Dance Class, 1874 · The Metropolitan Museum of Art, New York' },
+    { id: 'cradle', year: 1872, name: 'The Cradle', artist: 'Morisot', place: 'Paris', size: 'm', blurb: 'Morisot’s sister Edma watches her own sleeping daughter through gauze netting painted in a few translucent breaths, the female world observed from inside it, by a founding member of the movement.', palette: ['#9aa0a4', '#5a6066', '#1a1e22'], imageUrl: ART_IMG.morisotCradle, credit: 'Morisot, The Cradle, 1872 · Musée d’Orsay, Paris' },
+    { id: 'dance-class', year: 1874, name: 'The Dance Class', artist: 'Degas', place: 'Paris', size: 'm', blurb: 'A rehearsal room seen at a tilt, the floor tipping toward you, dancers scattered off-center like a snapshot, Japanese cropping, the caught instant, and not a square inch of open air.', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.degasDanceClass, credit: 'Degas, The Dance Class, 1874 · The Metropolitan Museum of Art, New York' },
     { id: 'absinthe', year: 1876, name: 'L’Absinthe', artist: 'Degas', place: 'Paris', size: 'm', blurb: 'Two hollow figures shoved into the corner of a café, the foreground a zig-zag of empty tables, the one note of color the milky-green glass. The loneliness of the modern city, told without comfort.', palette: ['#6a6a58', '#34342a', '#0e0e0a'], imageUrl: ART_IMG.degasAbsinthe, credit: 'Degas, L’Absinthe, 1875–76 · Musée d’Orsay, Paris' },
-    { id: 'moulin-galette', year: 1876, name: 'Bal du moulin de la Galette', artist: 'Renoir', place: 'Paris', size: 'l', blurb: 'A Montmartre dance garden dappled with sun through the trees, crowded with a happy Sunday throng — modern leisure painted at the scale the Salon kept for history.', palette: ['#b07a62', '#5a3a2a', '#1a0e0a'], imageUrl: ART_IMG.renoirMoulinGalette, credit: 'Renoir, Bal du moulin de la Galette, 1876 · Musée d’Orsay, Paris' },
-    { id: 'gare-saint-lazare', year: 1877, name: 'The Gare Saint-Lazare', artist: 'Monet', place: 'Paris', size: 'l', blurb: 'Steam, glass and iron under a station roof — Monet makes the dirtiest, newest machinery of the modern city into a study of light dissolving in vapor.', palette: ['#5a6a72', '#2e3a42', '#0e1014'], imageUrl: ART_IMG.monetGareSaintLazare, credit: 'Monet, La Gare Saint-Lazare, 1877 · Musée d’Orsay, Paris' },
+    { id: 'moulin-galette', year: 1876, name: 'Bal du moulin de la Galette', artist: 'Renoir', place: 'Paris', size: 'l', blurb: 'A Montmartre dance garden dappled with sun through the trees, crowded with a happy Sunday throng, modern leisure painted at the scale the Salon kept for history.', palette: ['#b07a62', '#5a3a2a', '#1a0e0a'], imageUrl: ART_IMG.renoirMoulinGalette, credit: 'Renoir, Bal du moulin de la Galette, 1876 · Musée d’Orsay, Paris' },
+    { id: 'gare-saint-lazare', year: 1877, name: 'The Gare Saint-Lazare', artist: 'Monet', place: 'Paris', size: 'l', blurb: 'Steam, glass and iron under a station roof, Monet makes the dirtiest, newest machinery of the modern city into a study of light dissolving in vapor.', palette: ['#5a6a72', '#2e3a42', '#0e1014'], imageUrl: ART_IMG.monetGareSaintLazare, credit: 'Monet, La Gare Saint-Lazare, 1877 · Musée d’Orsay, Paris' },
     { id: 'paris-street', year: 1877, name: 'Paris Street; Rainy Day', artist: 'Caillebotte', place: 'Paris', size: 'xl', blurb: 'Well-dressed Parisians under umbrellas crossing a wet, gleaming boulevard, the cobbles and a wedge of new apartment block rendered with almost architectural precision. Haussmann’s city as the subject.', palette: ['#5a6a72', '#2e3a42', '#0e1014'], imageUrl: ART_IMG.caillebotteParisStreet, credit: 'Caillebotte, Paris Street; Rainy Day, 1877 · Art Institute of Chicago' },
     { id: 'boating-party', year: 1881, name: 'Luncheon of the Boating Party', artist: 'Renoir', place: 'Chatou', size: 'l', blurb: 'A riverside lunch on a balcony, friends and a little dog, light sieving through a striped awning onto wine and skin. The warmth and ease of the new Sunday leisure, at full scale.', palette: ['#b07a62', '#5a3a2a', '#1a0e0a'], imageUrl: ART_IMG.renoirBoatingParty, credit: 'Renoir, Luncheon of the Boating Party, 1880–81 · The Phillips Collection, Washington' },
   ],
@@ -859,7 +859,7 @@ export const IMPRESSIONISM: ArtMovementContent = {
   parallels: [
     { year: 1863, movement: 'Salon des Refusés', place: 'Paris', blurb: 'The jury’s rejects get their own overflow show; Manet’s Déjeuner sur l’herbe turns scandal into a rallying point for the young.' },
     { year: 1872, movement: 'Japonisme', place: 'Paris', blurb: 'The critic Philippe Burty names the craze for Japanese woodblock prints, whose flat color and radical cropping are quietly rewiring French composition.' },
-    { year: 1886, movement: 'La Grande Jatte', place: 'Paris', blurb: 'Seurat hangs his pointillist epic at the eighth and final Impressionist show — the loose instant answered by the slow, systematic dot.' },
+    { year: 1886, movement: 'La Grande Jatte', place: 'Paris', blurb: 'Seurat hangs his pointillist epic at the eighth and final Impressionist show, the loose instant answered by the slow, systematic dot.' },
     { year: 1886, movement: 'Durand-Ruel in New York', place: 'New York', blurb: 'The dealer ships the unsold movement across the Atlantic; America buys what Paris still mocks, and the U.S. market opens.' },
   ],
   lineage: {
@@ -876,13 +876,13 @@ export const IMPRESSIONISM: ArtMovementContent = {
       { label: 'Fauvism', mode: 'art', img: ART_IMG.matisseHat, palette: ['#b03a3a', '#5a1c1c', '#1a0808'], note: 'took: bright unmixed color, set it on fire' },
     ],
   },
-  influenceSummary: 'Impressionism took Realism’s permission to paint the present, Manet’s blunt modern eye, the Barbizon habit of working outdoors, and the flat daring of the Japanese print — and used them to put fleeting light itself on canvas, handing the loosened brushstroke straight to Post-Impressionism.',
+  influenceSummary: 'Impressionism took Realism’s permission to paint the present, Manet’s blunt modern eye, the Barbizon habit of working outdoors, and the flat daring of the Japanese print, and used them to put fleeting light itself on canvas, handing the loosened brushstroke straight to Post-Impressionism.',
   manifesto: {
     absent: true,
     prose: [
-      'Most of the movements in this era arrive with a manifesto in hand — a printed declaration in which the artists state, in plain language, what they are for and what they are against. The Realists had one (Courbet’s catalogue statement, run up like a flag). The Futurists, the Surrealists, nearly everyone who follows, would publish a creed before they published a second painting. Impressionism is the great exception. There is no Impressionist manifesto: no founding document, no signed program, no agreed list of beliefs — because there was never a single agreed belief to write down. They were a cooperative bound together by what they were against (the Salon’s locked door) far more than by any shared doctrine, and they couldn’t even hold that coalition together for eight shows running.',
-      'And so the one thing they all share — their name — was not chosen by them at all. It was thrown at them by a hostile critic as a joke, and they shrugged and kept it. A movement with no creed, named by an enemy, held together by exclusion rather than by faith. The thing that should have been a weakness — no party line, no orthodoxy — turns out to be why the work is so various: a Monet harbor, a Degas rehearsal room, a Morisot nursery and a Cassatt mother and child barely look like members of the same school, because there was no school, only a shared front in a long argument with a jury.',
-      'The closest anyone came to writing the creed they never wrote was a sympathetic outsider. In 1876, to coincide with the second exhibition, the critic Edmond Duranty — a Realist novelist, a Café Guerbois regular and a close friend of Degas — published a slim pamphlet called La Nouvelle Peinture (“The New Painting”): the first serious attempt to explain these painters to a baffled public. Duranty argued that the new art should abandon the studio-isolated, decorative figure posed like an ornament, and instead show people inseparable from their real surroundings — that, set among the things of a real life, even a person’s back ought to betray a temperament, an age, a social class. But the painters never signed it, never commissioned it, never adopted it; it was Duranty’s own essay, in his own voice, and tellingly he never once used the word “Impressionism.” The nearest thing Impressionism has to a manifesto is a pamphlet the Impressionists didn’t write, didn’t sign, and which pointedly declined to call them what the world would.',
+      'Most of the movements in this era arrive with a manifesto in hand, a printed declaration in which the artists state, in plain language, what they are for and what they are against. The Realists had one (Courbet’s catalogue statement, run up like a flag). The Futurists, the Surrealists, nearly everyone who follows, would publish a creed before they published a second painting. Impressionism is the great exception. There is no Impressionist manifesto: no founding document, no signed program, no agreed list of beliefs, because there was never a single agreed belief to write down. They were a cooperative bound together by what they were against (the Salon’s locked door) far more than by any shared doctrine, and they couldn’t even hold that coalition together for eight shows running.',
+      'And so the one thing they all share, their name, was not chosen by them at all. It was thrown at them by a hostile critic as a joke, and they shrugged and kept it. A movement with no creed, named by an enemy, held together by exclusion rather than by faith. The thing that should have been a weakness, no party line, no orthodoxy, turns out to be why the work is so various: a Monet harbor, a Degas rehearsal room, a Morisot nursery and a Cassatt mother and child barely look like members of the same school, because there was no school, only a shared front in a long argument with a jury.',
+      'The closest anyone came to writing the creed they never wrote was a sympathetic outsider. In 1876, to coincide with the second exhibition, the critic Edmond Duranty, a Realist novelist, a Café Guerbois regular and a close friend of Degas, published a slim pamphlet called La Nouvelle Peinture (“The New Painting”): the first serious attempt to explain these painters to a baffled public. Duranty argued that the new art should abandon the studio-isolated, decorative figure posed like an ornament, and instead show people inseparable from their real surroundings, that, set among the things of a real life, even a person’s back ought to betray a temperament, an age, a social class. But the painters never signed it, never commissioned it, never adopted it; it was Duranty’s own essay, in his own voice, and tellingly he never once used the word “Impressionism.” The nearest thing Impressionism has to a manifesto is a pamphlet the Impressionists didn’t write, didn’t sign, and which pointedly declined to call them what the world would.',
     ],
     sourceUrl: 'https://arthistorians.info/durantyl/',
     sourceLabel: 'Read about Duranty’s “The New Painting” (1876)',
@@ -892,61 +892,61 @@ export const IMPRESSIONISM: ArtMovementContent = {
     before: {
       img: ART_IMG.bouguereauVenus,
       title: 'Before · Bouguereau, The Birth of Venus (1879)',
-      caption: 'A porcelain Salon goddess, every brushstroke sanded away, lit by a light that comes from nowhere real — the academy’s ideal of finish and idealized light, never alive in any real minute of any real day.',
+      caption: 'A porcelain Salon goddess, every brushstroke sanded away, lit by a light that comes from nowhere real, the academy’s ideal of finish and idealized light, never alive in any real minute of any real day.',
     },
     after: {
       img: ART_IMG.impressionSunrise,
       title: 'After · Monet, Impression, Sunrise (1872)',
-      caption: 'A real harbor at a real dawn caught in a few quick visible strokes, the sun a single fierce dab of orange, finished on the spot in one fleeting moment — “unfinished” by every rule the academy lived by.',
+      caption: 'A real harbor at a real dawn caught in a few quick visible strokes, the sun a single fierce dab of orange, finished on the spot in one fleeting moment, “unfinished” by every rule the academy lived by.',
     },
     prose: [
-      'Realism had already won the subject fight a generation earlier — it dragged ordinary modern life up onto the big canvas and made it a fit thing to paint. Impressionism’s break is a different one, and a subtler one: a break over three things the academy held sacred — finish, light, and time. Set the Salon’s poreless goddess beside Monet’s harbor and you can watch all three quarrels happen at once.',
-      'Start with finish and the stroke. The academic surface is licked — worked and reworked until the paint is seamless and the hand that made it has vanished, so you see a window onto a world, never a layer of pigment. Monet does the opposite on purpose: he leaves the stroke showing, so you can read the speed of his hand in every dab and the sun is plainly a few licks of loaded paint. Then light and color. The academic flesh glows under a soft, even, invented studio light, and its shadows are darker tones of the same skin color; Monet paints the light that was genuinely landing on the water at that one dawn, and builds his shadows from color — blues and violets — not from black. Local color, the label color, gives way to the color that light actually makes.',
-      'And finally time, the deepest break of all. The academic picture is outside of time: a posed, eternal, idealized tableau no clock ever ticked through. Monet paints a single passing instant — this dawn, this minute, the mist about to lift — and paints it fast enough to catch it before it goes. The honest caveat is that one limb of this break is not universal: most of the Impressionists abandoned the studio for the riverbank to catch that light in the open air, but Degas never did — he kept the studio and broke the academy on subject, cropping and the caught modern instant instead. So the break is light, finish, and the fleeting moment; open-air painting is its strongest single limb, not the whole of it. What was universal was the verdict the academy handed down on all of them in one word — unfinished — which the Impressionists decided was the truest thing they could be.',
+      'Realism had already won the subject fight a generation earlier, it dragged ordinary modern life up onto the big canvas and made it a fit thing to paint. Impressionism’s break is a different one, and a subtler one: a break over three things the academy held sacred, finish, light, and time. Set the Salon’s poreless goddess beside Monet’s harbor and you can watch all three quarrels happen at once.',
+      'Start with finish and the stroke. The academic surface is licked, worked and reworked until the paint is seamless and the hand that made it has vanished, so you see a window onto a world, never a layer of pigment. Monet does the opposite on purpose: he leaves the stroke showing, so you can read the speed of his hand in every dab and the sun is plainly a few licks of loaded paint. Then light and color. The academic flesh glows under a soft, even, invented studio light, and its shadows are darker tones of the same skin color; Monet paints the light that was genuinely landing on the water at that one dawn, and builds his shadows from color, blues and violets, not from black. Local color, the label color, gives way to the color that light actually makes.',
+      'And finally time, the deepest break of all. The academic picture is outside of time: a posed, eternal, idealized tableau no clock ever ticked through. Monet paints a single passing instant, this dawn, this minute, the mist about to lift, and paints it fast enough to catch it before it goes. The honest caveat is that one limb of this break is not universal: most of the Impressionists abandoned the studio for the riverbank to catch that light in the open air, but Degas never did, he kept the studio and broke the academy on subject, cropping and the caught modern instant instead. So the break is light, finish, and the fleeting moment; open-air painting is its strongest single limb, not the whole of it. What was universal was the verdict the academy handed down on all of them in one word, unfinished, which the Impressionists decided was the truest thing they could be.',
     ],
   },
   canon: [
-    { year: 1863, name: 'Le Déjeuner sur l’herbe', artist: 'Manet', img: ART_IMG.manetDejeuner, note: 'A naked woman picnicking with two clothed men, staring straight out with no mythological alibi. Its scandal at the 1863 Salon des Refusés announced that modern life could be a serious subject — and lit the fuse for the whole movement.' },
+    { year: 1863, name: 'Le Déjeuner sur l’herbe', artist: 'Manet', img: ART_IMG.manetDejeuner, note: 'A naked woman picnicking with two clothed men, staring straight out with no mythological alibi. Its scandal at the 1863 Salon des Refusés announced that modern life could be a serious subject, and lit the fuse for the whole movement.' },
     { year: 1863, name: 'Olympia', artist: 'Manet', img: ART_IMG.manetOlympia, note: 'A nude who is plainly a contemporary courtesan, not a goddess, meeting your eye in flat, blunt paint. The shock of the 1865 Salon, and the work that made Manet the reluctant father-figure the younger painters gathered around.' },
-    { year: 1869, name: 'La Grenouillère', artist: 'Monet', img: ART_IMG.monetGrenouillere, note: 'Painted on the spot beside Renoir at a river café, the water reduced to quick separate dashes — the loose, broken-color sketch treated as a finished picture. This is the new way of seeing being invented in real time.' },
-    { year: 1869, name: 'La Grenouillère', artist: 'Renoir', img: ART_IMG.renoirGrenouillere, note: 'Renoir’s view of the same spot, easel to easel with Monet across the summer of 1869 — the twin canvas that shows two friends working out Impressionism together, stroke for stroke.' },
+    { year: 1869, name: 'La Grenouillère', artist: 'Monet', img: ART_IMG.monetGrenouillere, note: 'Painted on the spot beside Renoir at a river café, the water reduced to quick separate dashes, the loose, broken-color sketch treated as a finished picture. This is the new way of seeing being invented in real time.' },
+    { year: 1869, name: 'La Grenouillère', artist: 'Renoir', img: ART_IMG.renoirGrenouillere, note: 'Renoir’s view of the same spot, easel to easel with Monet across the summer of 1869, the twin canvas that shows two friends working out Impressionism together, stroke for stroke.' },
     { year: 1872, name: 'Impression, Sunrise', artist: 'Monet', img: ART_IMG.impressionSunrise, note: 'A hazy harbor at dawn with a single orange dab of sun. A hostile critic seized on the loose title to mock the whole show; the painters wore “Impressionism” as their name. The picture that christened the movement.' },
-    { year: 1872, name: 'The Cradle', artist: 'Morisot', img: ART_IMG.morisotCradle, note: 'Morisot’s sister Edma watching her own sleeping daughter through gauzy netting, painted in a few translucent breaths. The female world observed from inside it by a founding member — the signature work of what a respectable woman was allowed to show.' },
+    { year: 1872, name: 'The Cradle', artist: 'Morisot', img: ART_IMG.morisotCradle, note: 'Morisot’s sister Edma watching her own sleeping daughter through gauzy netting, painted in a few translucent breaths. The female world observed from inside it by a founding member, the signature work of what a respectable woman was allowed to show.' },
     { year: 1873, name: 'Hoarfrost', artist: 'Pissarro', img: ART_IMG.pissarroHoarfrost, note: 'A frost-stiff field built from broken strokes and colored shadows, hung in the first 1874 exhibition, where a critic sneered it was all palette-scrapings. Pure Impressionist landscape by the one painter who showed in all eight exhibitions.' },
-    { year: 1874, name: 'Boulevard des Capucines', artist: 'Monet', img: ART_IMG.monetBoulevardCapucines, note: 'The new Paris boulevard seen from an upstairs window, the crowd dissolved into flecks of paint — Haussmann’s city as pure modern motion. Shown at the first Impressionist exhibition, 1874.' },
-    { year: 1874, name: 'The Dance Class', artist: 'Degas', img: ART_IMG.degasDanceClass, note: 'A rehearsal seen at a tilt, dancers scattered off-center like a snapshot — Japanese cropping and the caught, ungraceful instant, with no plein air at all. Degas’s indoor Impressionism at its purest.' },
-    { year: 1875, name: 'The Floor Planers', artist: 'Caillebotte', img: ART_IMG.caillebotteFloorPlaners, note: 'Three shirtless workmen scraping a parquet floor, muscled and anonymous — rejected by the Salon as vulgar, then a sensation at the 1876 exhibition. Modern urban labor at unflinching scale.' },
-    { year: 1875, name: 'Woman with a Parasol', artist: 'Monet', img: ART_IMG.monetParasol, note: 'Madame Monet and their son on a windy rise, seen from below against a racing sky — a full figure painted quickly in the open air, light and movement chosen over likeness.' },
-    { year: 1875, name: 'Eugène Manet on the Isle of Wight', artist: 'Morisot', img: ART_IMG.morisotIsleWight, note: 'Her husband seated at a window, the garden beyond compressed into bright strokes — a woman painting a man hemmed into a domestic interior, quietly inverting the era’s usual gaze.' },
-    { year: 1872, name: 'The Bridge at Villeneuve-la-Garenne', artist: 'Sisley', img: ART_IMG.sisleyBridge, note: 'A sunlit river bridge in clear, calm, broken light — Sisley, the group’s most single-minded pure landscapist, doing the one thing he did better than almost anyone.' },
+    { year: 1874, name: 'Boulevard des Capucines', artist: 'Monet', img: ART_IMG.monetBoulevardCapucines, note: 'The new Paris boulevard seen from an upstairs window, the crowd dissolved into flecks of paint, Haussmann’s city as pure modern motion. Shown at the first Impressionist exhibition, 1874.' },
+    { year: 1874, name: 'The Dance Class', artist: 'Degas', img: ART_IMG.degasDanceClass, note: 'A rehearsal seen at a tilt, dancers scattered off-center like a snapshot, Japanese cropping and the caught, ungraceful instant, with no plein air at all. Degas’s indoor Impressionism at its purest.' },
+    { year: 1875, name: 'The Floor Planers', artist: 'Caillebotte', img: ART_IMG.caillebotteFloorPlaners, note: 'Three shirtless workmen scraping a parquet floor, muscled and anonymous, rejected by the Salon as vulgar, then a sensation at the 1876 exhibition. Modern urban labor at unflinching scale.' },
+    { year: 1875, name: 'Woman with a Parasol', artist: 'Monet', img: ART_IMG.monetParasol, note: 'Madame Monet and their son on a windy rise, seen from below against a racing sky, a full figure painted quickly in the open air, light and movement chosen over likeness.' },
+    { year: 1875, name: 'Eugène Manet on the Isle of Wight', artist: 'Morisot', img: ART_IMG.morisotIsleWight, note: 'Her husband seated at a window, the garden beyond compressed into bright strokes, a woman painting a man hemmed into a domestic interior, quietly inverting the era’s usual gaze.' },
+    { year: 1872, name: 'The Bridge at Villeneuve-la-Garenne', artist: 'Sisley', img: ART_IMG.sisleyBridge, note: 'A sunlit river bridge in clear, calm, broken light, Sisley, the group’s most single-minded pure landscapist, doing the one thing he did better than almost anyone.' },
     { year: 1876, name: 'Bal du moulin de la Galette', artist: 'Renoir', img: ART_IMG.renoirMoulinGalette, note: 'A Montmartre dance garden dappled with sun falling through the trees, painted at the size the Salon kept for history. The great warm crowd-scene of the movement, and modern leisure made monumental.' },
-    { year: 1876, name: 'L’Absinthe', artist: 'Degas', img: ART_IMG.degasAbsinthe, note: 'Two hollow figures shoved into the corner of a café, the foreground all empty tables, the one note of color a milky-green glass — the loneliness of the modern city, and the source of an uproar when it was shown in London in 1893, where critics called it a study in degradation.' },
-    { year: 1876, name: 'Floods at Port-Marly', artist: 'Sisley', img: ART_IMG.sisleyFloods, note: 'Floodwater turning a village street into a still mirror of the sky — quiet, exact, and now counted the high point of his art, though his prices only soared after he died poor.' },
-    { year: 1877, name: 'The Gare Saint-Lazare', artist: 'Monet', img: ART_IMG.monetGareSaintLazare, note: 'Steam, glass and iron under a station roof — Monet turns the dirtiest new machinery of the city into a study of light dissolving in vapor. Modernity itself as the subject, shown at the 1877 exhibition.' },
-    { year: 1877, name: 'Paris Street; Rainy Day', artist: 'Caillebotte', img: ART_IMG.caillebotteParisStreet, note: 'A huge, cool, almost photographic canvas of Parisians under umbrellas on a wet new boulevard — Haussmann’s rebuilt city as subject, rendered with an architectural precision the looser Impressionists never aimed for.' },
-    { year: 1878, name: 'Little Girl in a Blue Armchair', artist: 'Cassatt', img: ART_IMG.cassattBlueArmchair, note: 'A bored child sprawled sideways in an armchair, a small dog asleep nearby — childhood caught unposed and ungraceful. Cassatt’s breakthrough, painted the year before her 1879 debut with the group — Degas, who had brought her in, even worked on the background himself.' },
-    { year: 1874, name: 'A Box at the Théâtre des Italiens', artist: 'Gonzalès', img: ART_IMG.gonzalesLoge, note: 'An elegant couple in a theatre box, painted in the new manner by Manet’s only formal pupil — evidence that the circle’s women, so often dropped from the story, were working at its center.' },
-    { year: 1881, name: 'The Little Dancer Aged Fourteen', artist: 'Degas', img: ART_IMG.degasLittleDancer, note: 'A two-thirds-size wax sculpture of a ballet student in a real tutu and real hair, so lifelike it disturbed the 1881 exhibition — critics called her a repulsive monster who belonged in a natural-history museum. Now, in its bronze casts, one of the most beloved objects of the century.' },
-    { year: 1881, name: 'Luncheon of the Boating Party', artist: 'Renoir', img: ART_IMG.renoirBoatingParty, note: 'Friends and a little dog at a riverside lunch, light sieving through a striped awning onto wine and skin — the warmth and ease of the new Sunday leisure, painted at full scale.' },
-    { year: 1882, name: 'A Bar at the Folies-Bergère', artist: 'Manet', img: ART_IMG.manetBar, note: 'A barmaid facing us, the whole glittering hall behind her in a mirror that doesn’t quite add up. Manet’s last great painting — modern life and modern doubt in a single canvas.' },
-    { year: 1891, name: 'Haystacks (End of Summer)', artist: 'Monet', img: ART_IMG.monetHaystacks, note: 'The same grainstacks painted again and again at different hours and seasons, then hung together so the light itself — not the hay — becomes the subject. Impressionism pushed to its serial extreme.' },
-    { year: 1893, name: 'The Child’s Bath', artist: 'Cassatt', img: ART_IMG.cassattChildBath, note: 'A woman and child seen from a high, flattened, Japanese-print angle, the two heads bent together over a basin — Cassatt’s masterpiece of the mother-and-child theme she made her own.' },
-    { year: 1893, name: 'Rouen Cathedral', artist: 'Monet', img: ART_IMG.monetCathedral, note: 'The cathedral front dissolved into pure colored light, one of a series tracking the same façade from dawn to dusk — solid stone turned into nothing but atmosphere.' },
-    { year: 1897, name: 'Boulevard Montmartre', artist: 'Pissarro', img: ART_IMG.pissarroBoulevard, note: 'The grand boulevard seen from a hotel window across the seasons — the eldest Impressionist, late in life, painting the modern city he had helped make a fit subject thirty years earlier.' },
+    { year: 1876, name: 'L’Absinthe', artist: 'Degas', img: ART_IMG.degasAbsinthe, note: 'Two hollow figures shoved into the corner of a café, the foreground all empty tables, the one note of color a milky-green glass, the loneliness of the modern city, and the source of an uproar when it was shown in London in 1893, where critics called it a study in degradation.' },
+    { year: 1876, name: 'Floods at Port-Marly', artist: 'Sisley', img: ART_IMG.sisleyFloods, note: 'Floodwater turning a village street into a still mirror of the sky, quiet, exact, and now counted the high point of his art, though his prices only soared after he died poor.' },
+    { year: 1877, name: 'The Gare Saint-Lazare', artist: 'Monet', img: ART_IMG.monetGareSaintLazare, note: 'Steam, glass and iron under a station roof, Monet turns the dirtiest new machinery of the city into a study of light dissolving in vapor. Modernity itself as the subject, shown at the 1877 exhibition.' },
+    { year: 1877, name: 'Paris Street; Rainy Day', artist: 'Caillebotte', img: ART_IMG.caillebotteParisStreet, note: 'A huge, cool, almost photographic canvas of Parisians under umbrellas on a wet new boulevard, Haussmann’s rebuilt city as subject, rendered with an architectural precision the looser Impressionists never aimed for.' },
+    { year: 1878, name: 'Little Girl in a Blue Armchair', artist: 'Cassatt', img: ART_IMG.cassattBlueArmchair, note: 'A bored child sprawled sideways in an armchair, a small dog asleep nearby, childhood caught unposed and ungraceful. Cassatt’s breakthrough, painted the year before her 1879 debut with the group, Degas, who had brought her in, even worked on the background himself.' },
+    { year: 1874, name: 'A Box at the Théâtre des Italiens', artist: 'Gonzalès', img: ART_IMG.gonzalesLoge, note: 'An elegant couple in a theatre box, painted in the new manner by Manet’s only formal pupil, evidence that the circle’s women, so often dropped from the story, were working at its center.' },
+    { year: 1881, name: 'The Little Dancer Aged Fourteen', artist: 'Degas', img: ART_IMG.degasLittleDancer, note: 'A two-thirds-size wax sculpture of a ballet student in a real tutu and real hair, so lifelike it disturbed the 1881 exhibition, critics called her a repulsive monster who belonged in a natural-history museum. Now, in its bronze casts, one of the most beloved objects of the century.' },
+    { year: 1881, name: 'Luncheon of the Boating Party', artist: 'Renoir', img: ART_IMG.renoirBoatingParty, note: 'Friends and a little dog at a riverside lunch, light sieving through a striped awning onto wine and skin, the warmth and ease of the new Sunday leisure, painted at full scale.' },
+    { year: 1882, name: 'A Bar at the Folies-Bergère', artist: 'Manet', img: ART_IMG.manetBar, note: 'A barmaid facing us, the whole glittering hall behind her in a mirror that doesn’t quite add up. Manet’s last great painting, modern life and modern doubt in a single canvas.' },
+    { year: 1891, name: 'Haystacks (End of Summer)', artist: 'Monet', img: ART_IMG.monetHaystacks, note: 'The same grainstacks painted again and again at different hours and seasons, then hung together so the light itself, not the hay, becomes the subject. Impressionism pushed to its serial extreme.' },
+    { year: 1893, name: 'The Child’s Bath', artist: 'Cassatt', img: ART_IMG.cassattChildBath, note: 'A woman and child seen from a high, flattened, Japanese-print angle, the two heads bent together over a basin, Cassatt’s masterpiece of the mother-and-child theme she made her own.' },
+    { year: 1893, name: 'Rouen Cathedral', artist: 'Monet', img: ART_IMG.monetCathedral, note: 'The cathedral front dissolved into pure colored light, one of a series tracking the same façade from dawn to dusk, solid stone turned into nothing but atmosphere.' },
+    { year: 1897, name: 'Boulevard Montmartre', artist: 'Pissarro', img: ART_IMG.pissarroBoulevard, note: 'The grand boulevard seen from a hotel window across the seasons, the eldest Impressionist, late in life, painting the modern city he had helped make a fit subject thirty years earlier.' },
   ],
   sections: [
-    { id: 'why', eyebrow: 'The wall', dateLabel: '1860s', title: 'The world that said no', blurb: 'A generation can see the modern city — boulevards, stations, Sunday crowds — but the one official show that makes a career won’t let them paint it.', progress: 1 / 7 },
-    { id: 'eye', eyebrow: 'The technique', dateLabel: '1869', title: 'Paint what you actually see', blurb: 'Plein air, broken color, the death of black, the visible stroke — and two friends inventing the new way side by side at a river café.', progress: 2 / 7 },
+    { id: 'why', eyebrow: 'The wall', dateLabel: '1860s', title: 'The world that said no', blurb: 'A generation can see the modern city, boulevards, stations, Sunday crowds, but the one official show that makes a career won’t let them paint it.', progress: 1 / 7 },
+    { id: 'eye', eyebrow: 'The technique', dateLabel: '1869', title: 'Paint what you actually see', blurb: 'Plein air, broken color, the death of black, the visible stroke, and two friends inventing the new way side by side at a river café.', progress: 2 / 7 },
     { id: 'name', eyebrow: 'The name', dateLabel: 'April 1874', title: 'The seascape they laughed at', blurb: 'Their own show in a borrowed studio, a hazy harbor called Impression, and a critic who turned the title into a joke they decided to wear.', progress: 3 / 7 },
-    { id: 'group', eyebrow: 'The group', dateLabel: '1874–1886', title: 'A cooperative at war with itself', blurb: 'Eight shows, Degas the engine and the earthquake, and the dealer who bet everything on them twice — and was saved by America.', progress: 4 / 7 },
-    { id: 'women', eyebrow: 'The women', dateLabel: '1870s–1886', title: 'The women, in the rooms they were allowed', blurb: 'Morisot, Cassatt and Gonzalès — founders and operators who did brilliant work against a wall of access the men never had to feel.', progress: 5 / 7 },
-    { id: 'degas', eyebrow: 'The indoor eye', dateLabel: '1874–1886', title: 'Degas and the indoor eye', blurb: 'The man who never went outdoors: dancers, laundresses, the café, the bath — Japanese cropping and the caught, off-balance modern instant.', progress: 6 / 7 },
-    { id: 'last', eyebrow: 'The end', dateLabel: '1886–1926', title: 'The last show', blurb: 'Late triumphs, Monet’s serial light, the final 1886 show where Seurat’s dots ended it — and France hanging them at last, twenty-three years late.', progress: 1 },
+    { id: 'group', eyebrow: 'The group', dateLabel: '1874–1886', title: 'A cooperative at war with itself', blurb: 'Eight shows, Degas the engine and the earthquake, and the dealer who bet everything on them twice, and was saved by America.', progress: 4 / 7 },
+    { id: 'women', eyebrow: 'The women', dateLabel: '1870s–1886', title: 'The women, in the rooms they were allowed', blurb: 'Morisot, Cassatt and Gonzalès, founders and operators who did brilliant work against a wall of access the men never had to feel.', progress: 5 / 7 },
+    { id: 'degas', eyebrow: 'The indoor eye', dateLabel: '1874–1886', title: 'Degas and the indoor eye', blurb: 'The man who never went outdoors: dancers, laundresses, the café, the bath, Japanese cropping and the caught, off-balance modern instant.', progress: 6 / 7 },
+    { id: 'last', eyebrow: 'The end', dateLabel: '1886–1926', title: 'The last show', blurb: 'Late triumphs, Monet’s serial light, the final 1886 show where Seurat’s dots ended it, and France hanging them at last, twenty-three years late.', progress: 1 },
   ],
 }
 
 // ─────────────────────────────────────────────────────────────
-// Movement — Post-Impressionism (1886–1905). The Modern era's third movement.
+// Movement, Post-Impressionism (1886–1905). The Modern era's third movement.
 // Authored through the art content pipeline (fact pack → Opus draft → 5 critic
 // gates → reconcile → revise); narrative in movement-narratives.tsx under 'postimp'.
 // Keyed as 'postimp' (matching MODERN_ERA.movements + the router slug
@@ -963,7 +963,7 @@ export const POST_IMP: ArtMovementContent = {
   chain: { name: 'Movements of the Modern era', index: 3, total: 10 },
   hook: 'Five painters who never agreed about anything got grouped together by an English critic in a London gallery twenty-four years after the youngest of them had painted his best picture.',
   hookLong:
-    '“Post-Impressionism” is one of the strangest labels in art history, because the people inside it were not a movement, did not meet, did not write a manifesto, and were mostly dead by the time anyone called them this. Roger Fry — an English critic with a London gallery to fill in the autumn of 1910 — needed an umbrella name for a roomful of French pictures that came after Impressionism but weren’t Fauvism or Cubism yet. He picked Post-Impressionists almost on the fly, and the name stuck to five very different painters working in five different cities, mostly in disagreement with one another, all of them answering Impressionism in their own way. Cézanne wanted weight. Van Gogh wanted feeling. Gauguin wanted flat color and symbol. Seurat wanted science. Toulouse-Lautrec wanted the modern dance hall. Five answers, one room.',
+    '“Post-Impressionism” is one of the strangest labels in art history, because the people inside it were not a movement, did not meet, did not write a manifesto, and were mostly dead by the time anyone called them this. Roger Fry, an English critic with a London gallery to fill in the autumn of 1910, needed an umbrella name for a roomful of French pictures that came after Impressionism but weren’t Fauvism or Cubism yet. He picked Post-Impressionists almost on the fly, and the name stuck to five very different painters working in five different cities, mostly in disagreement with one another, all of them answering Impressionism in their own way. Cézanne wanted weight. Van Gogh wanted feeling. Gauguin wanted flat color and symbol. Seurat wanted science. Toulouse-Lautrec wanted the modern dance hall. Five answers, one room.',
   heroImage: ART_IMG.seuratGrandeJatte,
   heroFit: 'cover',
   heroFocus: '50% 50%',
@@ -974,18 +974,18 @@ export const POST_IMP: ArtMovementContent = {
     { v: 'Paris → Tahiti', k: 'Centered on' },
   ],
   factions: [
-    { side: 'anchors', label: 'The Anchors', color: ART_ACCENTS.green, members: ['Cézanne', 'Van Gogh', 'Gauguin', 'Seurat', 'Lautrec'], detail: 'The five painters Roger Fry put on the wall in London in 1910 — Cézanne building weight in Aix, Van Gogh charging color with feeling in Arles, Gauguin flattening symbol in Pont-Aven and Tahiti, Seurat doing color by formula in Paris, Lautrec painting Montmartre at midnight. They worked in five cities, mostly never met, and were all dead by the time Fry named them.' },
-    { side: 'field', label: 'The Field', color: ART_ACCENTS.amber, members: ['Bernard', 'Sérusier', 'Bonnard', 'Vuillard', 'Denis', 'Signac', 'Cassatt', 'Morisot', 'Redon', 'Rousseau'], detail: 'The wider cast around the five — Émile Bernard and Sérusier carrying Gauguin’s lesson back to Paris, the Nabis (Bonnard, Vuillard, Denis) painting flat-color interiors, Signac codifying Divisionism after Seurat’s death, Cassatt and the late Morisot working at the center, Redon’s Symbolist dreamworld, Henri Rousseau the self-taught outsider the avant-garde adopted as a forerunner.' },
+    { side: 'anchors', label: 'The Anchors', color: ART_ACCENTS.green, members: ['Cézanne', 'Van Gogh', 'Gauguin', 'Seurat', 'Lautrec'], detail: 'The five painters Roger Fry put on the wall in London in 1910, Cézanne building weight in Aix, Van Gogh charging color with feeling in Arles, Gauguin flattening symbol in Pont-Aven and Tahiti, Seurat doing color by formula in Paris, Lautrec painting Montmartre at midnight. They worked in five cities, mostly never met, and were all dead by the time Fry named them.' },
+    { side: 'field', label: 'The Field', color: ART_ACCENTS.amber, members: ['Bernard', 'Sérusier', 'Bonnard', 'Vuillard', 'Denis', 'Signac', 'Cassatt', 'Morisot', 'Redon', 'Rousseau'], detail: 'The wider cast around the five, Émile Bernard and Sérusier carrying Gauguin’s lesson back to Paris, the Nabis (Bonnard, Vuillard, Denis) painting flat-color interiors, Signac codifying Divisionism after Seurat’s death, Cassatt and the late Morisot working at the center, Redon’s Symbolist dreamworld, Henri Rousseau the self-taught outsider the avant-garde adopted as a forerunner.' },
   ],
   works: [
-    { id: 'bathers-asnieres', year: 1884, name: 'Bathers at Asnières', artist: 'Seurat', place: 'Paris', size: 'l', blurb: 'Working-class Parisians sunning themselves on the Seine, six and a half feet tall and nearly ten wide — Salon-scale dignity for a riverbank picnic, and the canvas that opened the first jury-free Salon des Indépendants.', palette: ['#5a7a8a', '#8a8048', '#1c2630'], imageUrl: ART_IMG.seuratBathersAsnieres, credit: 'Seurat, Bathers at Asnières, 1884 · National Gallery, London' },
-    { id: 'grande-jatte', year: 1886, name: 'A Sunday on La Grande Jatte', artist: 'Seurat', place: 'Paris', size: 'xl', blurb: 'Two years of work and millions of tiny separate dots — stiff Parisians under flat dappled light, the painting that quietly buried Impressionism at the 8th and last Impressionist show.', palette: ['#3a6a4a', '#c8b84a', '#1c2a18'], imageUrl: ART_IMG.seuratGrandeJatte, credit: 'Seurat, A Sunday on La Grande Jatte, 1884–86 · Art Institute of Chicago' },
-    { id: 'vision-sermon', year: 1888, name: 'Vision after the Sermon', artist: 'Gauguin', place: 'Pont-Aven', size: 'm', blurb: 'Breton women in white coiffes coming out of mass, eyes closed in prayer, while Jacob wrestles the angel on a field of pure flat red. Imagination put on the canvas as its own zone — Synthetism made visible.', palette: ['#a8322a', '#5a1c14', '#1a0808'], imageUrl: ART_IMG.gauguinVision, credit: 'Gauguin, Vision after the Sermon, 1888 · Scottish National Gallery, Edinburgh' },
-    { id: 'bedroom-arles', year: 1888, name: 'Bedroom in Arles', artist: 'Van Gogh', place: 'Arles', size: 'm', blurb: 'His own small bedroom at the Yellow House — lemon yellow, cobalt blue, brick red, the floor tipped up at the viewer. Painted to welcome Gauguin, who arrived weeks later for the worst nine weeks of either man’s life.', palette: ['#c8a72a', '#3a4a8a', '#1a1408'], imageUrl: ART_IMG.vanGoghBedroomArles, credit: 'Van Gogh, Bedroom in Arles, 1888 · Van Gogh Museum, Amsterdam' },
-    { id: 'starry-night', year: 1889, name: 'The Starry Night', artist: 'Van Gogh', place: 'Saint-Rémy', size: 'l', blurb: 'A cypress, a sleeping village and a swirling sky painted in his asylum room at Saint-Paul-de-Mausole, the view from his window remade from memory and imagination. The most reproduced picture in Western art after the Mona Lisa, made in spite of the suffering — not because of it.', palette: ['#2a3a6a', '#c8b84a', '#0e1428'], imageUrl: ART_IMG.starryNight, credit: 'Van Gogh, The Starry Night, 1889 · Museum of Modern Art, New York' },
+    { id: 'bathers-asnieres', year: 1884, name: 'Bathers at Asnières', artist: 'Seurat', place: 'Paris', size: 'l', blurb: 'Working-class Parisians sunning themselves on the Seine, six and a half feet tall and nearly ten wide, Salon-scale dignity for a riverbank picnic, and the canvas that opened the first jury-free Salon des Indépendants.', palette: ['#5a7a8a', '#8a8048', '#1c2630'], imageUrl: ART_IMG.seuratBathersAsnieres, credit: 'Seurat, Bathers at Asnières, 1884 · National Gallery, London' },
+    { id: 'grande-jatte', year: 1886, name: 'A Sunday on La Grande Jatte', artist: 'Seurat', place: 'Paris', size: 'xl', blurb: 'Two years of work and millions of tiny separate dots, stiff Parisians under flat dappled light, the painting that quietly buried Impressionism at the 8th and last Impressionist show.', palette: ['#3a6a4a', '#c8b84a', '#1c2a18'], imageUrl: ART_IMG.seuratGrandeJatte, credit: 'Seurat, A Sunday on La Grande Jatte, 1884–86 · Art Institute of Chicago' },
+    { id: 'vision-sermon', year: 1888, name: 'Vision after the Sermon', artist: 'Gauguin', place: 'Pont-Aven', size: 'm', blurb: 'Breton women in white coiffes coming out of mass, eyes closed in prayer, while Jacob wrestles the angel on a field of pure flat red. Imagination put on the canvas as its own zone, Synthetism made visible.', palette: ['#a8322a', '#5a1c14', '#1a0808'], imageUrl: ART_IMG.gauguinVision, credit: 'Gauguin, Vision after the Sermon, 1888 · Scottish National Gallery, Edinburgh' },
+    { id: 'bedroom-arles', year: 1888, name: 'Bedroom in Arles', artist: 'Van Gogh', place: 'Arles', size: 'm', blurb: 'His own small bedroom at the Yellow House, lemon yellow, cobalt blue, brick red, the floor tipped up at the viewer. Painted to welcome Gauguin, who arrived weeks later for the worst nine weeks of either man’s life.', palette: ['#c8a72a', '#3a4a8a', '#1a1408'], imageUrl: ART_IMG.vanGoghBedroomArles, credit: 'Van Gogh, Bedroom in Arles, 1888 · Van Gogh Museum, Amsterdam' },
+    { id: 'starry-night', year: 1889, name: 'The Starry Night', artist: 'Van Gogh', place: 'Saint-Rémy', size: 'l', blurb: 'A cypress, a sleeping village and a swirling sky painted in his asylum room at Saint-Paul-de-Mausole, the view from his window remade from memory and imagination. The most reproduced picture in Western art after the Mona Lisa, made in spite of the suffering, not because of it.', palette: ['#2a3a6a', '#c8b84a', '#0e1428'], imageUrl: ART_IMG.starryNight, credit: 'Van Gogh, The Starry Night, 1889 · Museum of Modern Art, New York' },
     { id: 'card-players', year: 1895, name: 'The Card Players', artist: 'Cézanne', place: 'Aix-en-Provence', size: 'm', blurb: 'Two Aix farm laborers at a small table, a bottle between them, looking at their cards in total silence. Peasant gravity given the seriousness Caravaggio would have given a saint.', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.cezanneCardPlayers, credit: 'Cézanne, The Card Players, 1894–95 · Musée d’Orsay, Paris' },
     { id: 'moulin-rouge', year: 1895, name: 'At the Moulin Rouge', artist: 'Toulouse-Lautrec', place: 'Paris', size: 'l', blurb: 'A cabaret table at midnight, regulars in the foreground, and the dancer May Milton’s face looming up at the canvas edge, lit a lurid green from below. Japanese-print cropping applied to the Montmartre night.', palette: ['#8a7a4a', '#4a3a22', '#15110a'], imageUrl: ART_IMG.lautrecMoulinRouge, credit: 'Toulouse-Lautrec, At the Moulin Rouge, 1892–95 · Art Institute of Chicago' },
-    { id: 'where-do-we-come-from', year: 1898, name: 'Where Do We Come From? What Are We? Where Are We Going?', artist: 'Gauguin', place: 'Tahiti', size: 'xl', blurb: 'A twelve-foot mural Gauguin painted as his testament before an arsenic suicide attempt he survived. Read right-to-left — a baby, an adult reaching for a fruit, an old woman. Birth, life, death.', palette: ['#3a5a4a', '#8a7848', '#1c2418'], imageUrl: ART_IMG.gauguinWhereDoWeComeFrom, credit: 'Gauguin, Where Do We Come From? What Are We? Where Are We Going?, 1897–98 · Museum of Fine Arts, Boston' },
+    { id: 'where-do-we-come-from', year: 1898, name: 'Where Do We Come From? What Are We? Where Are We Going?', artist: 'Gauguin', place: 'Tahiti', size: 'xl', blurb: 'A twelve-foot mural Gauguin painted as his testament before an arsenic suicide attempt he survived. Read right-to-left, a baby, an adult reaching for a fruit, an old woman. Birth, life, death.', palette: ['#3a5a4a', '#8a7848', '#1c2418'], imageUrl: ART_IMG.gauguinWhereDoWeComeFrom, credit: 'Gauguin, Where Do We Come From? What Are We? Where Are We Going?, 1897–98 · Museum of Fine Arts, Boston' },
     { id: 'mont-sainte-victoire-lauves', year: 1904, name: 'Mont Sainte-Victoire seen from Les Lauves', artist: 'Cézanne', place: 'Aix-en-Provence', size: 'l', blurb: 'A mountain put back together as architecture, built from blocky planes of color set side by side like masonry. He painted it about thirty times in oil; the late versions stripped almost everything else away.', palette: ['#5a7042', '#8a7848', '#1c1a12'], imageUrl: ART_IMG.cezanneMontSainteVictoireLauves, credit: 'Cézanne, Mont Sainte-Victoire seen from Les Lauves, 1902–04 · Philadelphia Museum of Art' },
   ],
   artists: [
@@ -1001,15 +1001,15 @@ export const POST_IMP: ArtMovementContent = {
     { id: 'denis', name: 'Denis', role: 'The theorist', years: '1870–1943', palette: ['#6a7a5a', '#3a4028', '#10120a'], photo: ART_IMG.denisPhoto },
   ],
   parallels: [
-    { year: 1886, movement: '8th Impressionist Exhibition', place: 'Paris', blurb: 'The eighth and last Impressionist group show, above the Maison Dorée on rue Laffitte — where Seurat hung La Grande Jatte and the Impressionist project quietly broke open.' },
-    { year: 1888, movement: 'Le Talisman', place: 'Pont-Aven', blurb: 'Paul Sérusier paints a tiny landscape on a cigar-box lid under Gauguin’s instruction — pure color, no naturalism. His Académie Julian classmates name it Le Talisman and call themselves the Nabis.' },
-    { year: 1903, movement: 'Salon d’Automne founded', place: 'Paris', blurb: 'A new annual show that quickly becomes modernism’s home — and the venue for the 1907 Cézanne retrospective that lit the fuse for Cubism.' },
-    { year: 1907, movement: 'Cézanne retrospective', place: 'Paris', blurb: 'One year after his death, the Salon d’Automne mounts the full Cézanne show — about 56 works. Picasso, Braque, Matisse, Derain all walk through it and come out changed.' },
+    { year: 1886, movement: '8th Impressionist Exhibition', place: 'Paris', blurb: 'The eighth and last Impressionist group show, above the Maison Dorée on rue Laffitte, where Seurat hung La Grande Jatte and the Impressionist project quietly broke open.' },
+    { year: 1888, movement: 'Le Talisman', place: 'Pont-Aven', blurb: 'Paul Sérusier paints a tiny landscape on a cigar-box lid under Gauguin’s instruction, pure color, no naturalism. His Académie Julian classmates name it Le Talisman and call themselves the Nabis.' },
+    { year: 1903, movement: 'Salon d’Automne founded', place: 'Paris', blurb: 'A new annual show that quickly becomes modernism’s home, and the venue for the 1907 Cézanne retrospective that lit the fuse for Cubism.' },
+    { year: 1907, movement: 'Cézanne retrospective', place: 'Paris', blurb: 'One year after his death, the Salon d’Automne mounts the full Cézanne show, about 56 works. Picasso, Braque, Matisse, Derain all walk through it and come out changed.' },
     { year: 1910, movement: 'Manet and the Post-Impressionists', place: 'London', blurb: 'Roger Fry opens his Grafton Galleries show on 8 November and gives the five painters the name that stuck. Every one of them was already dead.' },
   ],
   lineage: {
     parents: [
-      { label: 'Impressionism', mode: 'art', img: ART_IMG.monetWaterLilies, palette: ['#3a6a8a', '#c8c050', '#1c2a30'], note: 'gave: the loosened stroke and modern subject — but only the eye' },
+      { label: 'Impressionism', mode: 'art', img: ART_IMG.monetWaterLilies, palette: ['#3a6a8a', '#c8c050', '#1c2a30'], note: 'gave: the loosened stroke and modern subject, but only the eye' },
       { label: 'Manet', mode: 'art', img: ART_IMG.manetDejeuner, palette: ['#6a5a4a', '#332820', '#0e0a06'], note: 'gave: the borrowed elder, the original modern scandal' },
       { label: 'Japanese prints', mode: 'art', img: ART_IMG.hokusaiWave, palette: ['#2a5a6a', '#1c3a42', '#0a1418'], note: 'gave: flat color, hard contours, off-center cropping' },
       { label: 'Chevreul / Rood color theory', mode: 'civ', img: ART_IMG.chevreulColorWheel, palette: ['#a83232', '#3a5a8a', '#0a0a0a'], note: 'gave: optical mixing as a science Seurat could use' },
@@ -1021,13 +1021,13 @@ export const POST_IMP: ArtMovementContent = {
       { label: 'Abstraction', mode: 'art', img: ART_IMG.kandinskyComp7, palette: ['#1d4ed8', '#d6cf3f', '#bf2f25'], note: 'took: color and form cut free of the subject' },
     ],
   },
-  influenceSummary: 'Post-Impressionism took Impressionism’s loosened stroke and Manet’s modern eye, added the flat color of Japanese prints and the optical science of Chevreul and Rood, and used them to put weight, feeling, meaning and method back into the picture — handing Cézanne to Cubism, Van Gogh and Gauguin to Fauvism and Expressionism, and the whole of it to the abstraction that followed.',
+  influenceSummary: 'Post-Impressionism took Impressionism’s loosened stroke and Manet’s modern eye, added the flat color of Japanese prints and the optical science of Chevreul and Rood, and used them to put weight, feeling, meaning and method back into the picture, handing Cézanne to Cubism, Van Gogh and Gauguin to Fauvism and Expressionism, and the whole of it to the abstraction that followed.',
   manifesto: {
     absent: true,
     prose: [
-      'Post-Impressionism is the great absence among the era’s manifestos — there isn’t one. The five painters Roger Fry put on the wall in 1910 never met as a group, never signed a program, never even used the word about themselves. Cézanne worked alone in Provence; Van Gogh in Arles, Saint-Rémy, Auvers; Gauguin in Pont-Aven and then Tahiti; Seurat in Paris; Lautrec in Montmartre. They mostly never met (Van Gogh and Gauguin at the Yellow House in 1888 is the famous, terrible exception). By the time anyone called them a movement, four of the five were already dead.',
-      'So the “founding documents” of Post-Impressionism are surrogates, written for it from the outside. The first is Roger Fry’s catalogue for Manet and the Post-Impressionists at the Grafton Galleries (London, 8 November 1910 – 15 January 1911) — drafted at speed with Desmond MacCarthy as a defense of unfamiliar pictures, the page that named the movement and stuck the name. The second is a private letter Cézanne wrote to a young painter called Émile Bernard on 15 April 1904, kept now at the Courtauld in London. In one sentence — “treat nature by means of the cylinder, the sphere, the cone” — Cézanne handed Picasso, Braque, and a century of art-historical surveys the line they would quote when they needed to make him the father of modern art.',
-      'Neither was meant as a manifesto. Fry’s catalogue is a critic’s defense of a show; Cézanne’s letter is a sketcher’s advice to a younger painter. But between them they are what Post-Impressionism has — a critic gave the room its name and a private letter gave it its theorem, and the five painters who were nominally inside it had nothing to say about either.',
+      'Post-Impressionism is the great absence among the era’s manifestos, there isn’t one. The five painters Roger Fry put on the wall in 1910 never met as a group, never signed a program, never even used the word about themselves. Cézanne worked alone in Provence; Van Gogh in Arles, Saint-Rémy, Auvers; Gauguin in Pont-Aven and then Tahiti; Seurat in Paris; Lautrec in Montmartre. They mostly never met (Van Gogh and Gauguin at the Yellow House in 1888 is the famous, terrible exception). By the time anyone called them a movement, four of the five were already dead.',
+      'So the “founding documents” of Post-Impressionism are surrogates, written for it from the outside. The first is Roger Fry’s catalogue for Manet and the Post-Impressionists at the Grafton Galleries (London, 8 November 1910 – 15 January 1911), drafted at speed with Desmond MacCarthy as a defense of unfamiliar pictures, the page that named the movement and stuck the name. The second is a private letter Cézanne wrote to a young painter called Émile Bernard on 15 April 1904, kept now at the Courtauld in London. In one sentence, “treat nature by means of the cylinder, the sphere, the cone”, Cézanne handed Picasso, Braque, and a century of art-historical surveys the line they would quote when they needed to make him the father of modern art.',
+      'Neither was meant as a manifesto. Fry’s catalogue is a critic’s defense of a show; Cézanne’s letter is a sketcher’s advice to a younger painter. But between them they are what Post-Impressionism has, a critic gave the room its name and a private letter gave it its theorem, and the five painters who were nominally inside it had nothing to say about either.',
     ],
     sourceUrl: 'https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne#Letter_to_%C3%89mile_Bernard,_15_April_1904',
     sourceLabel: 'Read about Cézanne’s letter to Émile Bernard (15 April 1904)',
@@ -1045,58 +1045,58 @@ export const POST_IMP: ArtMovementContent = {
       caption: 'A mountain put back together as architecture, built from blocky planes of color set side by side like masonry. Where Impressionism dissolved the world, Cézanne rebuilds it.',
     },
     prose: [
-      'Impressionism had taught a generation to paint light — the flicker of shadow on snow, an orange sun smearing across a gray harbor at dawn. It put the instant on canvas, and it did it brilliantly. But the instant is weightless. It doesn’t stay. By the late 1880s the younger painters could see something the elders had missed: the architecture that lasts, the feeling of a picture, the thing it is actually about. The break is not a new technique. It is the return of everything Impressionism had let go of.',
-      'Set Monet’s late Water Lilies beside Cézanne’s Mont Sainte-Victoire and the argument is visible in two glances. Monet has dissolved a pond into reflections — sky and lily and water bleed into each other; there is no edge, no architecture, almost no figure. Cézanne, the same years, is doing the opposite in front of his mountain — building it back together out of small blocky strokes of color set side by side like masonry, until the canvas reads as planes of weight before it reads as landscape. The mountain refuses to dissolve.',
-      'And it isn’t only Cézanne. The objection ran four ways, one anchor against each. Cézanne wanted weight — a mountain has weight; light passing over a mountain does not. Van Gogh wanted feeling — a wheatfield is yellow at noon, but what does that yellow do to the man standing in it? Gauguin wanted meaning — a Breton peasant in church doesn’t see a Bible story; she imagines one, and how do you paint that? Seurat wanted method — the Impressionists were eyeballing optical mixing by instinct; what if you did it properly, by formula? Lautrec wanted the modern night — not Renoir’s sunlit Sunday afternoon but the same dance hall at midnight under flat green gaslight. Five answers to one question, all of them refusing to settle for what the eye alone could catch.',
+      'Impressionism had taught a generation to paint light, the flicker of shadow on snow, an orange sun smearing across a gray harbor at dawn. It put the instant on canvas, and it did it brilliantly. But the instant is weightless. It doesn’t stay. By the late 1880s the younger painters could see something the elders had missed: the architecture that lasts, the feeling of a picture, the thing it is actually about. The break is not a new technique. It is the return of everything Impressionism had let go of.',
+      'Set Monet’s late Water Lilies beside Cézanne’s Mont Sainte-Victoire and the argument is visible in two glances. Monet has dissolved a pond into reflections, sky and lily and water bleed into each other; there is no edge, no architecture, almost no figure. Cézanne, the same years, is doing the opposite in front of his mountain, building it back together out of small blocky strokes of color set side by side like masonry, until the canvas reads as planes of weight before it reads as landscape. The mountain refuses to dissolve.',
+      'And it isn’t only Cézanne. The objection ran four ways, one anchor against each. Cézanne wanted weight, a mountain has weight; light passing over a mountain does not. Van Gogh wanted feeling, a wheatfield is yellow at noon, but what does that yellow do to the man standing in it? Gauguin wanted meaning, a Breton peasant in church doesn’t see a Bible story; she imagines one, and how do you paint that? Seurat wanted method, the Impressionists were eyeballing optical mixing by instinct; what if you did it properly, by formula? Lautrec wanted the modern night, not Renoir’s sunlit Sunday afternoon but the same dance hall at midnight under flat green gaslight. Five answers to one question, all of them refusing to settle for what the eye alone could catch.',
     ],
   },
   canon: [
-    { year: 1884, name: 'Bathers at Asnières', artist: 'Seurat', wiki: 'Bathers at Asnières', img: ART_IMG.seuratBathersAsnieres, note: 'Working-class Parisians sunning themselves on the Seine, painted at Salon scale — about six and a half feet tall, nearly ten wide. Rejected by the Salon of 1884 and hung instead at the first jury-free Salon des Indépendants. Seurat was 24.' },
-    { year: 1886, name: 'A Sunday on La Grande Jatte', artist: 'Seurat', wiki: "A Sunday Afternoon on the Island of La Grande Jatte", img: ART_IMG.seuratGrandeJatte, note: 'Two years of work and millions of tiny separate dots of pure color. Debuted at the 8th and last Impressionist Exhibition in May 1886 — the canvas that quietly buried its parents and christened Divisionism in front of a hostile room.' },
-    { year: 1888, name: 'Vision after the Sermon', artist: 'Gauguin', wiki: 'Vision After the Sermon', img: ART_IMG.gauguinVision, note: 'Breton women in starched coiffes coming out of mass, eyes closed in prayer; Jacob and the angel wrestling above them on a field of pure flat red. The breakthrough Synthetist picture — meaning painted as its own zone, separate from the world.' },
-    { year: 1888, name: 'Bedroom in Arles', artist: 'Van Gogh', wiki: 'Bedroom in Arles', img: ART_IMG.vanGoghBedroomArles, note: 'His own small room at the Yellow House — lemon yellow walls, cobalt shutters, brick red floor. Painted to welcome Gauguin, who would arrive in October for nine weeks that destroyed the friendship. The first of three versions; this is the original.' },
-    { year: 1888, name: 'Sunflowers', artist: 'Van Gogh', wiki: 'Sunflowers (Van Gogh series)', img: ART_IMG.vanGoghSunflowers, note: 'Fifteen single-stalked sunflowers in a yellow vase against a yellow wall, painted as decoration for the spare bedroom he prepared for Gauguin. Yellow on yellow on yellow — Van Gogh’s great chromatic gamble, made in the heat of Arles.' },
-    { year: 1888, name: 'The Night Café', artist: 'Van Gogh', wiki: 'The Night Café', img: ART_IMG.vanGoghNightCafe, note: 'An all-night café in Arles with billiard table, sallow gaslight, and four lonely drinkers. Van Gogh wrote that he had tried to express the terrible passions of humanity by means of red and green — a place where one could ruin oneself, go mad, or commit a crime.' },
-    { year: 1888, name: 'Café Terrace at Night', artist: 'Van Gogh', wiki: 'Café Terrace at Night', img: ART_IMG.vanGoghCafeTerraceNight, note: 'The terrace of a café in Arles under a starry sky, painted on the spot at night with a candle in his hatband. The cobalt blue and citron yellow are the same key as the bedroom — colors keyed to feeling, not to optics.' },
-    { year: 1889, name: 'Self-Portrait with Bandaged Ear', artist: 'Van Gogh', wiki: 'Self-Portrait with Bandaged Ear', img: ART_IMG.vanGoghBandagedEar, note: 'Painted in January 1889, three weeks after he cut off most of his left ear and delivered it to a woman at a brothel (long known only as “Rachel,” later identified as Gabrielle Berlatier). Pipe in mouth, fur cap, a Japanese print on the wall behind him — the great unflinching face of post-traumatic 1889.' },
-    { year: 1889, name: 'The Yellow Christ', artist: 'Gauguin', wiki: 'The Yellow Christ', img: ART_IMG.gauguinYellowChrist, note: 'A wooden polychrome crucifix from a Pont-Aven chapel transplanted into a Breton autumn field, with three peasant women in white coiffes praying at its feet. The picture turned yellow because Gauguin painted Brittany to look like the imagined gold of his head — symbol over fact.' },
+    { year: 1884, name: 'Bathers at Asnières', artist: 'Seurat', wiki: 'Bathers at Asnières', img: ART_IMG.seuratBathersAsnieres, note: 'Working-class Parisians sunning themselves on the Seine, painted at Salon scale, about six and a half feet tall, nearly ten wide. Rejected by the Salon of 1884 and hung instead at the first jury-free Salon des Indépendants. Seurat was 24.' },
+    { year: 1886, name: 'A Sunday on La Grande Jatte', artist: 'Seurat', wiki: "A Sunday Afternoon on the Island of La Grande Jatte", img: ART_IMG.seuratGrandeJatte, note: 'Two years of work and millions of tiny separate dots of pure color. Debuted at the 8th and last Impressionist Exhibition in May 1886, the canvas that quietly buried its parents and christened Divisionism in front of a hostile room.' },
+    { year: 1888, name: 'Vision after the Sermon', artist: 'Gauguin', wiki: 'Vision After the Sermon', img: ART_IMG.gauguinVision, note: 'Breton women in starched coiffes coming out of mass, eyes closed in prayer; Jacob and the angel wrestling above them on a field of pure flat red. The breakthrough Synthetist picture, meaning painted as its own zone, separate from the world.' },
+    { year: 1888, name: 'Bedroom in Arles', artist: 'Van Gogh', wiki: 'Bedroom in Arles', img: ART_IMG.vanGoghBedroomArles, note: 'His own small room at the Yellow House, lemon yellow walls, cobalt shutters, brick red floor. Painted to welcome Gauguin, who would arrive in October for nine weeks that destroyed the friendship. The first of three versions; this is the original.' },
+    { year: 1888, name: 'Sunflowers', artist: 'Van Gogh', wiki: 'Sunflowers (Van Gogh series)', img: ART_IMG.vanGoghSunflowers, note: 'Fifteen single-stalked sunflowers in a yellow vase against a yellow wall, painted as decoration for the spare bedroom he prepared for Gauguin. Yellow on yellow on yellow, Van Gogh’s great chromatic gamble, made in the heat of Arles.' },
+    { year: 1888, name: 'The Night Café', artist: 'Van Gogh', wiki: 'The Night Café', img: ART_IMG.vanGoghNightCafe, note: 'An all-night café in Arles with billiard table, sallow gaslight, and four lonely drinkers. Van Gogh wrote that he had tried to express the terrible passions of humanity by means of red and green, a place where one could ruin oneself, go mad, or commit a crime.' },
+    { year: 1888, name: 'Café Terrace at Night', artist: 'Van Gogh', wiki: 'Café Terrace at Night', img: ART_IMG.vanGoghCafeTerraceNight, note: 'The terrace of a café in Arles under a starry sky, painted on the spot at night with a candle in his hatband. The cobalt blue and citron yellow are the same key as the bedroom, colors keyed to feeling, not to optics.' },
+    { year: 1889, name: 'Self-Portrait with Bandaged Ear', artist: 'Van Gogh', wiki: 'Self-Portrait with Bandaged Ear', img: ART_IMG.vanGoghBandagedEar, note: 'Painted in January 1889, three weeks after he cut off most of his left ear and delivered it to a woman at a brothel (long known only as “Rachel” later identified as Gabrielle Berlatier). Pipe in mouth, fur cap, a Japanese print on the wall behind him, the great unflinching face of post-traumatic 1889.' },
+    { year: 1889, name: 'The Yellow Christ', artist: 'Gauguin', wiki: 'The Yellow Christ', img: ART_IMG.gauguinYellowChrist, note: 'A wooden polychrome crucifix from a Pont-Aven chapel transplanted into a Breton autumn field, with three peasant women in white coiffes praying at its feet. The picture turned yellow because Gauguin painted Brittany to look like the imagined gold of his head, symbol over fact.' },
     { year: 1889, name: 'The Starry Night', artist: 'Van Gogh', wiki: 'The Starry Night', img: ART_IMG.starryNight, note: 'A cypress, a sleeping village and a swirling sky, painted in June 1889 in his room at the Saint-Paul-de-Mausole asylum. The most reproduced picture in Western art after the Mona Lisa, and Van Gogh painted it locked up.' },
-    { year: 1890, name: 'Wheatfield with Crows', artist: 'Van Gogh', wiki: 'Wheatfield with Crows', img: ART_IMG.vanGoghWheatfieldCrows, note: 'A field of wheat under a roiling blue-black sky, a flock of crows lifting off, three paths forking away. Often called his last painting; the Van Gogh Museum no longer treats it that way — but it remains the picture the legend wants it to be.' },
-    { year: 1892, name: 'Spirit of the Dead Watching (Manaò tupapaú)', artist: 'Gauguin', wiki: 'Manaò tupapaú', img: ART_IMG.gauguinSpiritDead, note: 'A young Tahitian girl lying face-down on a bed under a yellow blanket, watched by a dark spirit figure. The model was Teha’amana, Gauguin’s adolescent “wife” at the time. One of his most famous Tahitian canvases — and one whose biography does not sand down.' },
+    { year: 1890, name: 'Wheatfield with Crows', artist: 'Van Gogh', wiki: 'Wheatfield with Crows', img: ART_IMG.vanGoghWheatfieldCrows, note: 'A field of wheat under a roiling blue-black sky, a flock of crows lifting off, three paths forking away. Often called his last painting; the Van Gogh Museum no longer treats it that way, but it remains the picture the legend wants it to be.' },
+    { year: 1892, name: 'Spirit of the Dead Watching (Manaò tupapaú)', artist: 'Gauguin', wiki: 'Manaò tupapaú', img: ART_IMG.gauguinSpiritDead, note: 'A young Tahitian girl lying face-down on a bed under a yellow blanket, watched by a dark spirit figure. The model was Teha’amana, Gauguin’s adolescent “wife” at the time. One of his most famous Tahitian canvases, and one whose biography does not sand down.' },
     { year: 1891, name: 'The Circus', artist: 'Seurat', wiki: 'The Circus (Seurat)', img: ART_IMG.seuratCircus, note: 'A circus ring with a bareback rider on a galloping white horse, a clown in the foreground, the audience climbing into bleachers behind. Unfinished at Seurat’s sudden death in March 1891 at age 31; the final demonstration of pointillism by the painter who built it.' },
-    { year: 1891, name: 'Moulin Rouge: La Goulue', artist: 'Toulouse-Lautrec', wiki: 'Moulin Rouge: La Goulue', img: ART_IMG.lautrecMoulinPoster, note: 'A color lithograph that made the medium. Three flat zones: a yellow ground, La Goulue’s white frilled bloomers at the center, the audience as a black silhouetted frieze behind her. Glued to Paris walls in November 1891 — the entire 20th-century commercial poster descends from this single sheet.' },
+    { year: 1891, name: 'Moulin Rouge: La Goulue', artist: 'Toulouse-Lautrec', wiki: 'Moulin Rouge: La Goulue', img: ART_IMG.lautrecMoulinPoster, note: 'A color lithograph that made the medium. Three flat zones: a yellow ground, La Goulue’s white frilled bloomers at the center, the audience as a black silhouetted frieze behind her. Glued to Paris walls in November 1891, the entire 20th-century commercial poster descends from this single sheet.' },
     { year: 1895, name: 'At the Moulin Rouge', artist: 'Toulouse-Lautrec', wiki: 'At the Moulin Rouge', img: ART_IMG.lautrecMoulinRouge, note: 'Five regulars around a center table at the famous cabaret; Lautrec himself painted in the background beside his tall cousin Gabriel; the dancer May Milton’s face looms up at the right edge, lit a lurid green from below. Japanese-print cropping applied to the dance hall at midnight.' },
-    { year: 1895, name: 'The Card Players', artist: 'Cézanne', wiki: 'The Card Players', img: ART_IMG.cezanneCardPlayers, note: 'Two Aix farm laborers at a small wooden table, a bottle between them, looking at their cards in total silence. The Orsay version is the smallest and most reproduced of five; a fifth version sold privately in 2011 for between $250 and $320 million — at the time the highest price ever paid for a painting.' },
-    { year: 1894, name: 'In the Salon at the Rue des Moulins', artist: 'Toulouse-Lautrec', wiki: 'In the Salon at the Rue des Moulins', img: ART_IMG.lautrecSalonRueMoulins, note: 'Three women on red plush sofas inside a legal Paris brothel, dressed in long camisoles, bored, waiting between customers. No leer, no judgment — the women are people, off the clock. Painted from inside the building Lautrec had more or less moved into.' },
-    { year: 1898, name: 'Where Do We Come From? What Are We? Where Are We Going?', artist: 'Gauguin', wiki: 'Where Do We Come From? What Are We? Where Are We Going?', img: ART_IMG.gauguinWhereDoWeComeFrom, note: 'A twelve-foot mural painted in Tahiti as his testament before an attempted suicide by arsenic in late 1897. He intended it read right-to-left — a baby on the right, an adult reaching for a fruit in the center, an old woman on the left. Birth, life, death.' },
-    { year: 1899, name: 'Still Life with Apples and Oranges', artist: 'Cézanne', wiki: 'Still Life with Apples and Oranges', img: ART_IMG.cezanneAppleOranges, note: 'A heaped white cloth, a patterned drape, a fruit bowl, a jug, apples and oranges spilling toward the viewer — and a table tipped just enough that nothing should sit on it. The still life rebuilt as a structure of planes.' },
-    { year: 1890, name: 'Boy in the Red Vest', artist: 'Cézanne', wiki: 'The Boy in the Red Vest', img: ART_IMG.cezanneBoyRedVest, note: 'A young Italian model called Michelangelo di Rosa, in a vivid red waistcoat, leaning his head on his fist. One of four versions; the Bührle Foundation canvas is the most famous — stolen in 2008 in the largest art robbery in Swiss history, recovered in Serbia in 2012.' },
-    { year: 1893, name: 'The Child’s Bath', artist: 'Cassatt', wiki: "The Child's Bath", img: ART_IMG.cassattChildBath, note: 'A mother in a striped dress bending forward to wash her young child’s feet in a white china basin, seen from a high angle that flattens the floor into pattern. Cassatt’s signature canvas of the mother-and-child theme she made her own — overtly indebted to Japanese prints.' },
+    { year: 1895, name: 'The Card Players', artist: 'Cézanne', wiki: 'The Card Players', img: ART_IMG.cezanneCardPlayers, note: 'Two Aix farm laborers at a small wooden table, a bottle between them, looking at their cards in total silence. The Orsay version is the smallest and most reproduced of five; a fifth version sold privately in 2011 for between $250 and $320 million, at the time the highest price ever paid for a painting.' },
+    { year: 1894, name: 'In the Salon at the Rue des Moulins', artist: 'Toulouse-Lautrec', wiki: 'In the Salon at the Rue des Moulins', img: ART_IMG.lautrecSalonRueMoulins, note: 'Three women on red plush sofas inside a legal Paris brothel, dressed in long camisoles, bored, waiting between customers. No leer, no judgment, the women are people, off the clock. Painted from inside the building Lautrec had more or less moved into.' },
+    { year: 1898, name: 'Where Do We Come From? What Are We? Where Are We Going?', artist: 'Gauguin', wiki: 'Where Do We Come From? What Are We? Where Are We Going?', img: ART_IMG.gauguinWhereDoWeComeFrom, note: 'A twelve-foot mural painted in Tahiti as his testament before an attempted suicide by arsenic in late 1897. He intended it read right-to-left, a baby on the right, an adult reaching for a fruit in the center, an old woman on the left. Birth, life, death.' },
+    { year: 1899, name: 'Still Life with Apples and Oranges', artist: 'Cézanne', wiki: 'Still Life with Apples and Oranges', img: ART_IMG.cezanneAppleOranges, note: 'A heaped white cloth, a patterned drape, a fruit bowl, a jug, apples and oranges spilling toward the viewer, and a table tipped just enough that nothing should sit on it. The still life rebuilt as a structure of planes.' },
+    { year: 1890, name: 'Boy in the Red Vest', artist: 'Cézanne', wiki: 'The Boy in the Red Vest', img: ART_IMG.cezanneBoyRedVest, note: 'A young Italian model called Michelangelo di Rosa, in a vivid red waistcoat, leaning his head on his fist. One of four versions; the Bührle Foundation canvas is the most famous, stolen in 2008 in the largest art robbery in Swiss history, recovered in Serbia in 2012.' },
+    { year: 1893, name: 'The Child’s Bath', artist: 'Cassatt', wiki: "The Child's Bath", img: ART_IMG.cassattChildBath, note: 'A mother in a striped dress bending forward to wash her young child’s feet in a white china basin, seen from a high angle that flattens the floor into pattern. Cassatt’s signature canvas of the mother-and-child theme she made her own, overtly indebted to Japanese prints.' },
     { year: 1888, name: 'The Talisman', artist: 'Sérusier', wiki: 'The Talisman (Sérusier)', img: ART_IMG.serusierTalisman, note: 'A tiny 10½ × 8½-inch panel painted on a cigar-box lid in October 1888 in the Bois d’Amour at Pont-Aven, under Gauguin’s direct instruction to use pure color and no naming. Sérusier’s classmates at the Académie Julian named it Le Talisman and called themselves the Nabis.' },
-    { year: 1890, name: 'Portrait of Félix Fénéon', artist: 'Signac', wiki: 'Portrait of Félix Fénéon', img: ART_IMG.signacFelixFeneon, note: 'The critic who had named Néo-Impressionnisme in 1886 rendered as a dapper top-hatted profile against a swirling, dot-by-dot field of colored arabesques. The canonical Signac — Divisionism turned into propaganda.' },
-    { year: 1881, name: 'Eugène Manet and His Daughter at Bougival', artist: 'Morisot', wiki: 'Berthe Morisot', img: ART_IMG.morisotLate, note: 'Manet’s younger brother seated in a garden with their daughter Julie — painted by Morisot in her late, dissolution-prone brushwork. She kept painting through the early Post-Impressionist decade and died in 1895; her death certificate listed her occupation as “no profession.”' },
-    { year: 1893, name: 'Mother and Sister of the Artist', artist: 'Vuillard', img: ART_IMG.vuillardMotherSister, note: 'Vuillard’s mother — a Paris corsetmaker — and his sister Marie in a small interior at home, the sister half-absorbed into the floral wallpaper. The intimate, pattern-soaked Nabi interior at its purest; about 18 × 22 inches, MoMA.' },
-    { year: 1893, name: 'The Muses', artist: 'Denis', wiki: 'Maurice Denis', img: ART_IMG.denisMuses, note: 'Nine women — the Muses, distinguished by the slightest of attributes — set in a flat decorative grove of chestnut trees in the park at Saint-Germain-en-Laye. The Nabis’ theorist working his own program: “a flat surface covered with colors assembled in a certain order.”' },
-    { year: 1882, name: 'The Eye, Like a Strange Balloon', artist: 'Redon', wiki: 'Odilon Redon', img: ART_IMG.redonNoir, note: 'A floating eye-balloon drifting upward through the dark, from his series for Edgar Allan Poe. One of Redon’s noirs — the disturbing charcoal lithographs of the Symbolist phase he ran from the 1870s until about 1895, before switching to luminous color.' },
-    { year: 1905, name: 'Vase of Flowers', artist: 'Redon', wiki: 'Odilon Redon', img: ART_IMG.redonPastel, note: 'A late luminous bouquet on a dark ground — the photographic negative of the early noirs. From about 1895 Redon switched from charcoal to pastel and oil, and the floating eye and spider-faced creatures gave way to color so saturated it almost burns.' },
-    { year: 1914, name: 'The Cyclops', artist: 'Redon', wiki: 'The Cyclops (Redon)', img: ART_IMG.redonCyclops, note: 'A single-eyed giant peering over a rocky cliff at the reclining nymph Galatea — Symbolist subject in late Redon color, a bouquet keyed to mythology. The Kröller-Müller record gives c.1914.' },
-    { year: 1910, name: 'The Dream', artist: 'Rousseau', wiki: 'The Dream (Rousseau)', img: ART_IMG.rousseauDream, note: 'A nude on a Louis-Philippe sofa stranded in a moonlit jungle of his own invention, a snake-charmer piping among the leaves. Painted in 1910 — Rousseau’s last and largest jungle picture; he died on 2 September of that year. The avant-garde elected him their outsider forerunner.' },
-    { year: 1925, name: 'Nude in the Bath', artist: 'Bonnard', img: ART_IMG.bonnardNudeBath, note: 'His lifelong companion Marthe submerged in a clawfoot tub under shifting violet, rose and orange light. Bonnard painted her in the bath over and over from 1925 onward — the late Nabi interior carried fifty years past its founding.' },
+    { year: 1890, name: 'Portrait of Félix Fénéon', artist: 'Signac', wiki: 'Portrait of Félix Fénéon', img: ART_IMG.signacFelixFeneon, note: 'The critic who had named Néo-Impressionnisme in 1886 rendered as a dapper top-hatted profile against a swirling, dot-by-dot field of colored arabesques. The canonical Signac, Divisionism turned into propaganda.' },
+    { year: 1881, name: 'Eugène Manet and His Daughter at Bougival', artist: 'Morisot', wiki: 'Berthe Morisot', img: ART_IMG.morisotLate, note: 'Manet’s younger brother seated in a garden with their daughter Julie, painted by Morisot in her late, dissolution-prone brushwork. She kept painting through the early Post-Impressionist decade and died in 1895; her death certificate listed her occupation as “no profession.”' },
+    { year: 1893, name: 'Mother and Sister of the Artist', artist: 'Vuillard', img: ART_IMG.vuillardMotherSister, note: 'Vuillard’s mother, a Paris corsetmaker, and his sister Marie in a small interior at home, the sister half-absorbed into the floral wallpaper. The intimate, pattern-soaked Nabi interior at its purest; about 18 × 22 inches, MoMA.' },
+    { year: 1893, name: 'The Muses', artist: 'Denis', wiki: 'Maurice Denis', img: ART_IMG.denisMuses, note: 'Nine women, the Muses, distinguished by the slightest of attributes, set in a flat decorative grove of chestnut trees in the park at Saint-Germain-en-Laye. The Nabis’ theorist working his own program: “a flat surface covered with colors assembled in a certain order.”' },
+    { year: 1882, name: 'The Eye, Like a Strange Balloon', artist: 'Redon', wiki: 'Odilon Redon', img: ART_IMG.redonNoir, note: 'A floating eye-balloon drifting upward through the dark, from his series for Edgar Allan Poe. One of Redon’s noirs, the disturbing charcoal lithographs of the Symbolist phase he ran from the 1870s until about 1895, before switching to luminous color.' },
+    { year: 1905, name: 'Vase of Flowers', artist: 'Redon', wiki: 'Odilon Redon', img: ART_IMG.redonPastel, note: 'A late luminous bouquet on a dark ground, the photographic negative of the early noirs. From about 1895 Redon switched from charcoal to pastel and oil, and the floating eye and spider-faced creatures gave way to color so saturated it almost burns.' },
+    { year: 1914, name: 'The Cyclops', artist: 'Redon', wiki: 'The Cyclops (Redon)', img: ART_IMG.redonCyclops, note: 'A single-eyed giant peering over a rocky cliff at the reclining nymph Galatea, Symbolist subject in late Redon color, a bouquet keyed to mythology. The Kröller-Müller record gives c.1914.' },
+    { year: 1910, name: 'The Dream', artist: 'Rousseau', wiki: 'The Dream (Rousseau)', img: ART_IMG.rousseauDream, note: 'A nude on a Louis-Philippe sofa stranded in a moonlit jungle of his own invention, a snake-charmer piping among the leaves. Painted in 1910, Rousseau’s last and largest jungle picture; he died on 2 September of that year. The avant-garde elected him their outsider forerunner.' },
+    { year: 1925, name: 'Nude in the Bath', artist: 'Bonnard', img: ART_IMG.bonnardNudeBath, note: 'His lifelong companion Marthe submerged in a clawfoot tub under shifting violet, rose and orange light. Bonnard painted her in the bath over and over from 1925 onward, the late Nabi interior carried fifty years past its founding.' },
   ],
   sections: [
     { id: 'why', eyebrow: 'Paris · 1886', dateLabel: 'Why the eye wasn’t enough', title: 'After the moment, the structure', blurb: 'Impressionism caught the dazzle; what it couldn’t catch was weight. At the last Impressionist show, the next generation walks in.', progress: 1 / 8 },
-    { id: 'five', eyebrow: '1886–1905', dateLabel: 'The five who weren’t a group', title: 'Cézanne, Van Gogh, Gauguin, Seurat, Lautrec', blurb: 'Five painters in five cities, mostly hating each other, each answering Impressionism a different way. The list isn’t a movement — it’s a label, applied later.', progress: 2 / 8 },
-    { id: 'cezanne', eyebrow: 'Aix-en-Provence · 1870s–1906', dateLabel: 'The mountain refuses to dissolve', title: 'Cézanne — the cylinder, the sphere, the cone', blurb: 'A banker’s son in Provence, painting a mountain over and over, building the world out of planes. When he died, the young painters in Paris discovered him. Cubism started six months later.', progress: 3 / 8 },
-    { id: 'van-gogh', eyebrow: 'Arles · 1888–1890', dateLabel: 'Color as feeling', title: 'Van Gogh — the yellow house, the wheat, the gun', blurb: 'A late starter who painted his life — under 900 canvases in about ten years — and died at 37 in a wheatfield outside Paris, having sold barely anything in his lifetime.', progress: 4 / 8 },
-    { id: 'gauguin', eyebrow: 'Pont-Aven · 1886; Tahiti · 1891–1903', dateLabel: 'Flat color, big symbol', title: 'Gauguin — Pont-Aven, Tahiti, the colonial question', blurb: 'An ex-stockbroker who walked out of his marriage, found his style in Brittany, then sailed to Tahiti chasing a fantasy that was a French colony in real life. The pictures matter. The biography is harder.', progress: 5 / 8 },
+    { id: 'five', eyebrow: '1886–1905', dateLabel: 'The five who weren’t a group', title: 'Cézanne, Van Gogh, Gauguin, Seurat, Lautrec', blurb: 'Five painters in five cities, mostly hating each other, each answering Impressionism a different way. The list isn’t a movement, it’s a label, applied later.', progress: 2 / 8 },
+    { id: 'cezanne', eyebrow: 'Aix-en-Provence · 1870s–1906', dateLabel: 'The mountain refuses to dissolve', title: 'Cézanne, the cylinder, the sphere, the cone', blurb: 'A banker’s son in Provence, painting a mountain over and over, building the world out of planes. When he died, the young painters in Paris discovered him. Cubism started six months later.', progress: 3 / 8 },
+    { id: 'van-gogh', eyebrow: 'Arles · 1888–1890', dateLabel: 'Color as feeling', title: 'Van Gogh, the yellow house, the wheat, the gun', blurb: 'A late starter who painted his life, under 900 canvases in about ten years, and died at 37 in a wheatfield outside Paris, having sold barely anything in his lifetime.', progress: 4 / 8 },
+    { id: 'gauguin', eyebrow: 'Pont-Aven · 1886; Tahiti · 1891–1903', dateLabel: 'Flat color, big symbol', title: 'Gauguin, Pont-Aven, Tahiti, the colonial question', blurb: 'An ex-stockbroker who walked out of his marriage, found his style in Brittany, then sailed to Tahiti chasing a fantasy that was a French colony in real life. The pictures matter. The biography is harder.', progress: 5 / 8 },
     { id: 'seurat-lautrec', eyebrow: 'Paris · 1884–1901', dateLabel: 'Theory and the dance hall', title: 'Seurat’s dots, Lautrec’s posters', blurb: 'Two Paris painters who could not have been more different in temperament, both dead in their thirties. Seurat made color a science. Lautrec made the modern poster a fine art.', progress: 6 / 8 },
-    { id: 'nabis', eyebrow: 'Paris · 1888–1905', dateLabel: 'The Nabis and the wider field', title: 'Bonnard, Vuillard, Denis — and the cast around them', blurb: 'Around the five anchors orbits a wider cast — a younger group called the Nabis, plus Morisot, Signac, Redon, Cassatt. The room gets crowded.', progress: 7 / 8 },
+    { id: 'nabis', eyebrow: 'Paris · 1888–1905', dateLabel: 'The Nabis and the wider field', title: 'Bonnard, Vuillard, Denis, and the cast around them', blurb: 'Around the five anchors orbits a wider cast, a younger group called the Nabis, plus Morisot, Signac, Redon, Cassatt. The room gets crowded.', progress: 7 / 8 },
     { id: 'fry', eyebrow: 'London · 8 November 1910', dateLabel: 'Roger Fry hangs a show', title: 'How a category got its name', blurb: 'A London critic with a gallery to fill needs a name for a roomful of French pictures. He picks one on the fly. It is the name we still use.', progress: 1 },
   ],
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Les Demoiselles d'Avignon (1907)
+// Work, Les Demoiselles d'Avignon (1907)
 // ─────────────────────────────────────────────────────────────
 export interface WorkSection { id: string; eyebrow: string; dateLabel: string; title: string; blurb: string; progress: number }
 export interface ProvenanceEntry { year: string; who: string; place: string; note: string; price: string | null; museum?: boolean }
@@ -1105,7 +1105,7 @@ export interface WorkFigure { name: string; role: string; palette: Palette }
 // the list). `where` is a short, scannable location phrase ("Center foreground,
 // low"); `label` names the thing; `detail` is why it matters. We do NOT crop or
 // pin the image: any coordinate is authored blind (we can't see where it lands),
-// so it's unreliable by construction — words are the one thing we can place
+// so it's unreliable by construction, words are the one thing we can place
 // accurately. The legacy x/y/w/h are kept optional + unused (locked 2026-05-25).
 export interface CanvasAnnotation { label: string; where?: string; detail?: string; x?: string; y?: string; w?: number; h?: number }
 
@@ -1135,7 +1135,7 @@ export interface ArtWorkContent {
   heroFit?: 'cover' | 'contain'
   heroFocus?: string
   heroImages?: HeroImage[]
-  heroAspect?: number // source image W/H — used to frame the "Look closer" region crops
+  heroAspect?: number // source image W/H, used to frame the "Look closer" region crops
   // rights: drives the inline-figure treatment. PD-US for pre-1931 works.
   rights: 'pd-us' | 'in-copyright'
   stats: ArtStat[]
@@ -1167,7 +1167,7 @@ export const DEMOISELLES: ArtWorkContent = {
   heroImage: ART_IMG.demoiselles,
   heroCredit: 'Picasso, Les Demoiselles d’Avignon, 1907 · MoMA',
   heroAspect: 0.966,
-  // The work page hero shows the WHOLE painting (≈square) — contain, never cropped.
+  // The work page hero shows the WHOLE painting (≈square), contain, never cropped.
   heroFit: 'contain',
   rights: 'pd-us',
   stats: [
@@ -1182,15 +1182,15 @@ export const DEMOISELLES: ArtWorkContent = {
     { id: 'hidden', eyebrow: 'Nine years rolled up', dateLabel: '1907–1916', title: 'The painting goes away', blurb: 'Picasso rolls it up. It is shown only once, in 1916. Most painters who go on to make Cubism never see it.', progress: 0.74 },
     { id: 'legacy', eyebrow: 'What happened next', dateLabel: '1916–today', title: 'The painting that broke the picture', blurb: 'Bought by a couturier, sold to MoMA in 1939, and slowly recognized as the canvas where modern art changed gear.', progress: 0.95 },
   ],
-  // FLAG: provenance prices below are from the mockup — verify before shipping.
+  // FLAG: provenance prices below are from the mockup, verify before shipping.
   provenance: [
     { year: '1907–1924', who: 'Pablo Picasso (the artist)', place: 'Bateau-Lavoir, Paris', note: 'Rolled up in the studio. Shown publicly once, briefly, at the Salon d’Antin in 1916.', price: null },
-    { year: '1924', who: 'Jacques Doucet', place: 'Paris', note: 'Couturier and book collector. Buys the canvas for 25,000 francs — a modest price for what it would become; within months it was appraised at ten times that.', price: '25,000 ₣ (1924)' },
+    { year: '1924', who: 'Jacques Doucet', place: 'Paris', note: 'Couturier and book collector. Buys the canvas for 25,000 francs, a modest price for what it would become; within months it was appraised at ten times that.', price: '25,000 ₣ (1924)' },
     { year: '1924–1929', who: 'Doucet collection', place: 'Paris', note: 'Hangs at the foot of Doucet’s staircase. Visitors complained about climbing past it.', price: null },
     { year: '1929–1937', who: 'Mme Jacques Doucet', place: 'Paris', note: 'On Doucet’s death in 1929 the painting passes to his widow, who holds it for eight years before selling.', price: null },
     { year: '1937', who: 'Jacques Seligmann & Co.', place: 'New York', note: 'The widow sells it on; the New York gallery shows it, looking for an institutional buyer.', price: null },
-    { year: '1939', who: 'Museum of Modern Art', place: 'New York', note: 'MoMA buys the painting for $24,000 through the Lillie P. Bliss Bequest — raising $18,000 by selling a Degas (Jockeys on Horseback before Distant Hills) and the rest from the dealers Germain Seligman and César de Hauke.', price: '$24,000 (1939)', museum: true },
-    { year: '1939–today', who: 'Museum of Modern Art', place: 'New York', note: 'On near-continuous view; it rarely travels. Insured value undisclosed — long treated as effectively priceless.', price: 'never resold', museum: true },
+    { year: '1939', who: 'Museum of Modern Art', place: 'New York', note: 'MoMA buys the painting for $24,000 through the Lillie P. Bliss Bequest, raising $18,000 by selling a Degas (Jockeys on Horseback before Distant Hills) and the rest from the dealers Germain Seligman and César de Hauke.', price: '$24,000 (1939)', museum: true },
+    { year: '1939–today', who: 'Museum of Modern Art', place: 'New York', note: 'On near-continuous view; it rarely travels. Insured value undisclosed, long treated as effectively priceless.', price: 'never resold', museum: true },
   ],
   figures: [
     { name: 'Picasso', role: 'The painter', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
@@ -1202,9 +1202,9 @@ export const DEMOISELLES: ArtWorkContent = {
   ],
   annotations: [
     { label: 'Archaic faces · the left figures', where: 'The figures at left', detail: 'The two central figures are calm and almond-eyed, lifted from the ancient Iberian stone heads Picasso had studied at the Louvre (he even owned two stolen fragments). The far-left woman, turned in true profile, is different again: scholars read her face as Egyptian or southern Asian in style. Either way, he is reaching past the Renaissance to older, pre-classical sources.' },
-    { label: 'African mask · right-most figures', where: 'The two figures at right', detail: 'The two figures on the right wear faces like carved African masks — gouged, striated, deliberately other. Picasso had just been hit hard by Fang and Kota masks at the Trocadéro ethnographic museum; here a “beautiful nude” is given a mask for a face.' },
-    { label: 'Still life, faceted form (Cézanne)', where: 'Bottom center, below the figures', detail: 'The wedge of fruit at the bottom is built from blunt, faceted planes — pure Cézanne, whose late work taught Picasso to construct a picture out of solid geometric blocks instead of smooth illusion.' },
-    { label: 'Two views at once', where: 'The crouching figure, lower right', detail: 'The crouching figure shows you her muscular back and — twisted impossibly round — her masked face at the same instant. There is no single spot you could stand to see this, which is exactly the point: Cubism abolishes the one fixed viewpoint a painting had assumed for 500 years.' },
+    { label: 'African mask · right-most figures', where: 'The two figures at right', detail: 'The two figures on the right wear faces like carved African masks, gouged, striated, deliberately other. Picasso had just been hit hard by Fang and Kota masks at the Trocadéro ethnographic museum; here a “beautiful nude” is given a mask for a face.' },
+    { label: 'Still life, faceted form (Cézanne)', where: 'Bottom center, below the figures', detail: 'The wedge of fruit at the bottom is built from blunt, faceted planes, pure Cézanne, whose late work taught Picasso to construct a picture out of solid geometric blocks instead of smooth illusion.' },
+    { label: 'Two views at once', where: 'The crouching figure, lower right', detail: 'The crouching figure shows you her muscular back and, twisted impossibly round, her masked face at the same instant. There is no single spot you could stand to see this, which is exactly the point: Cubism abolishes the one fixed viewpoint a painting had assumed for 500 years.' },
   ],
   lineage: {
     parents: [ { label: 'Cézanne’s Bathers', mode: 'art' }, { label: 'Iberian sculpture', mode: 'art' }, { label: 'African masks', mode: 'art' }, { label: 'Belle Époque Paris', mode: 'civ' } ],
@@ -1213,7 +1213,7 @@ export const DEMOISELLES: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Portrait of Daniel-Henry Kahnweiler (1910): the textbook Analytic
+// Work, Portrait of Daniel-Henry Kahnweiler (1910): the textbook Analytic
 // Cubism canvas, a foil to the Demoiselles. Annotation pins verified on the
 // painting 2026-05-24. Chapter prose lives in the section reader (NARRATIVES.kahnweiler).
 // ─────────────────────────────────────────────────────────────
@@ -1234,7 +1234,7 @@ export const KAHNWEILER: ArtWorkContent = {
   acquired: 'Acquired 1948',
   accent: ART_ACCENTS.violet,
   chain: { name: 'Works of Cubism', index: 2, total: 9 },
-  hook: 'A real man — Picasso’s own dealer — dissolved into a shimmer of brown-and-gray facets you have to decode.',
+  hook: 'A real man, Picasso’s own dealer, dissolved into a shimmer of brown-and-gray facets you have to decode.',
   heroImage: ART_IMG.kahnweiler,
   heroCredit: 'Picasso, Portrait of Daniel-Henry Kahnweiler, 1910 · Art Institute of Chicago',
   heroAspect: 0.717,
@@ -1247,23 +1247,23 @@ export const KAHNWEILER: ArtWorkContent = {
   sections: [
     { id: 'dealer', eyebrow: 'The man', dateLabel: '1907–1910', title: 'The dealer who bankrolled Cubism', blurb: 'A young German walks into a Paris backwater, signs the painters nobody else will touch, and becomes the quiet engine behind Cubism.', progress: 0.1 },
     { id: 'analytic', eyebrow: 'The style', dateLabel: '1909–1911', title: 'Cubism, three years on', blurb: 'By 1910 Picasso and Braque are roped together, faceting the whole visible world into a shimmer of brown and gray.', progress: 0.3 },
-    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Finding the man in the facets', blurb: 'The wave of hair, two almond eyes, the clasped hands — the footholds that turn a gray scaffold back into a seated man.', progress: 0.55 },
-    { id: 'sitting', eyebrow: 'The edge of legible', dateLabel: 'Autumn 1910', title: 'Sitting for a near-abstraction', blurb: 'Many sittings push the portrait to the brink of unreadability — and then, deliberately, it stops just short.', progress: 0.78 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Finding the man in the facets', blurb: 'The wave of hair, two almond eyes, the clasped hands, the footholds that turn a gray scaffold back into a seated man.', progress: 0.55 },
+    { id: 'sitting', eyebrow: 'The edge of legible', dateLabel: 'Autumn 1910', title: 'Sitting for a near-abstraction', blurb: 'Many sittings push the portrait to the brink of unreadability, and then, deliberately, it stops just short.', progress: 0.78 },
     { id: 'seized', eyebrow: 'Afterlife', dateLabel: '1914–1948', title: 'Seized, scattered, saved', blurb: 'War turns Kahnweiler into an enemy alien; his whole collection is confiscated and auctioned, and the portrait drifts toward Chicago.', progress: 0.95 },
   ],
   provenance: [
-    { year: '1910', who: 'Daniel-Henry Kahnweiler', place: 'Paris', note: 'Acquired straight from Picasso — the dealer owned his own portrait.', price: null },
+    { year: '1910', who: 'Daniel-Henry Kahnweiler', place: 'Paris', note: 'Acquired straight from Picasso, the dealer owned his own portrait.', price: null },
     { year: '1914', who: 'Sequestered by the French state', place: 'Paris', note: 'A German citizen caught abroad when war broke out, Kahnweiler could not return; his stock was seized as enemy property.', price: null },
-    { year: '1921', who: 'Isaac Grünewald', place: 'Hôtel Drouot, Paris', note: 'Lot 84 in the first forced sequestration auction — bought by the Swedish painter Isaac Grünewald.', price: null },
+    { year: '1921', who: 'Isaac Grünewald', place: 'Hôtel Drouot, Paris', note: 'Lot 84 in the first forced sequestration auction, bought by the Swedish painter Isaac Grünewald.', price: null },
     { year: 'c. 1929', who: 'Earl Horter', place: 'Philadelphia', note: 'The American artist and collector Earl Horter.', price: null },
     { year: '1934', who: 'Mrs. Gilbert W. Chapman', place: 'Chicago', note: 'Bought by the Chicago collector then known as Mrs. Charles Goodspeed.', price: null },
-    { year: '1948', who: 'Art Institute of Chicago', place: 'Chicago', note: 'Her gift, in memory of Charles B. Goodspeed — now a landmark of the museum’s Cubism.', price: null, museum: true },
+    { year: '1948', who: 'Art Institute of Chicago', place: 'Chicago', note: 'Her gift, in memory of Charles B. Goodspeed, now a landmark of the museum’s Cubism.', price: null, museum: true },
   ],
   figures: [],
   annotations: [
-    { x: '61%', y: '12%', w: 30, h: 18, label: 'The wave of hair', detail: 'Start at the top: that patch of fine diagonal hatching is Kahnweiler’s neatly combed, wavy hair — one of the few passages Picasso leaves almost describable, a foothold before the rest dissolves.' },
+    { x: '61%', y: '12%', w: 30, h: 18, label: 'The wave of hair', detail: 'Start at the top: that patch of fine diagonal hatching is Kahnweiler’s neatly combed, wavy hair, one of the few passages Picasso leaves almost describable, a foothold before the rest dissolves.' },
     { x: '50%', y: '22%', w: 32, h: 24, label: 'His eyes, looking out', detail: 'Below the hair, two dark almond eyes and the ridge of a nose surface out of the facets. Find the face looking back and the whole gray scaffold suddenly reads as a seated man.' },
-    { x: '52%', y: '89%', w: 42, h: 20, label: 'The clasped hands', detail: 'At the very bottom, a cluster of pale interlocking blocks resolves into his hands, folded in his lap. Picasso pins the figure down with hair and hands — top and bottom — and lets everything between them break apart.' },
+    { x: '52%', y: '89%', w: 42, h: 20, label: 'The clasped hands', detail: 'At the very bottom, a cluster of pale interlocking blocks resolves into his hands, folded in his lap. Picasso pins the figure down with hair and hands, top and bottom, and lets everything between them break apart.' },
   ],
   lineage: {
     parents: [ { label: 'Cézanne', mode: 'art' }, { label: 'African & Oceanic art', mode: 'art' }, { label: 'Les Demoiselles', mode: 'art' } ],
@@ -1272,7 +1272,7 @@ export const KAHNWEILER: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Still Life with Chair Caning (1912): the first Cubist collage and the
+// Work, Still Life with Chair Caning (1912): the first Cubist collage and the
 // hinge between Analytic and Synthetic Cubism. Self-hosted image (no Wikimedia
 // copy exists); Look-closer crops verified against the 1043×796 repro 2026-05-24.
 // Chapter prose lives in the section reader (NARRATIVES['chair-caning']).
@@ -1306,15 +1306,15 @@ export const CHAIR_CANING: ArtWorkContent = {
   ],
   sections: [
     { id: 'setting', eyebrow: 'Lay of the land', dateLabel: 'Winter 1912', title: 'The dead end of the facets', blurb: 'Three years of faceting has left Picasso and Braque at the edge of a cliff: a few more shards and the picture dissolves into pure pattern. They need a way back to the world.', progress: 0.08 },
-    { id: 'making', eyebrow: 'Spring 1912', dateLabel: 'May 1912', title: 'The morning he stopped painting', blurb: 'On a small oval canvas Picasso reaches not for a brush but for a strip of machine-printed oilcloth and a length of rope — and glues them down.', progress: 0.32 },
-    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'A café table, seen from above', blurb: 'It reads as chaos until you spot the tabletop: a newspaper, a pipe, a wineglass, a slice of lemon — and the chair you would sit on, printed onto cloth.', progress: 0.56 },
-    { id: 'break', eyebrow: 'The break', dateLabel: '1912', title: 'Five centuries of illusion, over', blurb: 'The moment a real object lands on the canvas, painting stops having to pretend. Collage is born — and four months later Braque takes the next step.', progress: 0.78 },
+    { id: 'making', eyebrow: 'Spring 1912', dateLabel: 'May 1912', title: 'The morning he stopped painting', blurb: 'On a small oval canvas Picasso reaches not for a brush but for a strip of machine-printed oilcloth and a length of rope, and glues them down.', progress: 0.32 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'A café table, seen from above', blurb: 'It reads as chaos until you spot the tabletop: a newspaper, a pipe, a wineglass, a slice of lemon, and the chair you would sit on, printed onto cloth.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1912', title: 'Five centuries of illusion, over', blurb: 'The moment a real object lands on the canvas, painting stops having to pretend. Collage is born, and four months later Braque takes the next step.', progress: 0.78 },
     { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1912–today', title: 'The little oval that opened the century', blurb: 'It is the size of a sheet of paper, Picasso never sold it, and almost every glued, taped or bolted-together artwork since descends from it.', progress: 0.95 },
   ],
   provenance: [
-    { year: '1912–1973', who: 'Pablo Picasso (the artist)', place: 'Paris', note: 'Picasso kept his own breakthrough. The little oval stayed in his personal collection for sixty-one years — he never put it up for sale.', price: null },
+    { year: '1912–1973', who: 'Pablo Picasso (the artist)', place: 'Paris', note: 'Picasso kept his own breakthrough. The little oval stayed in his personal collection for sixty-one years, he never put it up for sale.', price: null },
     { year: '1973', who: 'Estate of Pablo Picasso', place: 'Mougins / Paris', note: 'Picasso dies without a will. A vast hoard of work he had held back his whole life passes to his heirs, and the French state takes years to inventory it.', price: null },
-    { year: '1979', who: 'French national collections (by dation)', place: 'Paris', note: 'France lets heirs pay inheritance tax in artworks rather than cash — the dation. This canvas is among the works that pass to the nation, forming the core of a future Picasso museum.', price: 'paid as estate tax' },
+    { year: '1979', who: 'French national collections (by dation)', place: 'Paris', note: 'France lets heirs pay inheritance tax in artworks rather than cash, the dation. This canvas is among the works that pass to the nation, forming the core of a future Picasso museum.', price: 'paid as estate tax' },
     { year: '1985', who: 'Musée national Picasso-Paris', place: 'Paris (Hôtel Salé)', note: 'The museum opens in a grand 17th-century mansion once built on a salt-tax fortune. The little oval, still framed in its piece of rope, has hung there since.', price: null, museum: true },
   ],
   figures: [
@@ -1324,10 +1324,10 @@ export const CHAIR_CANING: ArtWorkContent = {
     { name: 'Kurt Schwitters', role: 'The heir, in glued trash', palette: ['#8a3a2a', '#2a1c16', '#0a0606'] },
   ],
   annotations: [
-    { x: '30%', y: '34%', w: 34, h: 18, label: 'The letters JOU', detail: 'Big black painted capitals: J-O-U, the first three letters of journal — French for newspaper (and literally “daily”). A café kept its papers on a rack; here one lies on the table. Viewers have long enjoyed the wink to jouer, “to play” — the game of the whole picture.' },
-    { x: '28%', y: '64%', w: 32, h: 28, label: 'The printed chair caning', detail: 'This woven lattice is the trick at the center of the work. It is not real cane, and it is not painted — it is a strip of cheap oilcloth, machine-printed to imitate the rattan seat of a bistro chair, glued straight onto the canvas. A factory-made fake, standing in for the chair you would sit on.' },
-    { x: '50%', y: '90%', w: 52, h: 16, label: 'The rope frame', detail: 'A length of ordinary rope, glued around the oval edge. It reads two ways at once: the carved rim of a little round café table seen from above, and the gilt edge of a picture frame. Picasso lets you choose — and so blurs the line between an object and a picture of one.' },
-    { x: '60%', y: '44%', w: 42, h: 38, label: 'The still life, in facets', detail: 'Everything else is hand-painted illusion in the brown-gray shards of Analytic Cubism: a stemmed wineglass, a pipe, a knife, a slice of lemon, a scalloped white form (a shell, or the frilled edge of a napkin — scholars read it both ways) — the remains of a drink and a light meal, dissolving into planes. The old painted fakery sits right beside the glued-on real thing.' },
+    { x: '30%', y: '34%', w: 34, h: 18, label: 'The letters JOU', detail: 'Big black painted capitals: J-O-U, the first three letters of journal, French for newspaper (and literally “daily”). A café kept its papers on a rack; here one lies on the table. Viewers have long enjoyed the wink to jouer, “to play”, the game of the whole picture.' },
+    { x: '28%', y: '64%', w: 32, h: 28, label: 'The printed chair caning', detail: 'This woven lattice is the trick at the center of the work. It is not real cane, and it is not painted, it is a strip of cheap oilcloth, machine-printed to imitate the rattan seat of a bistro chair, glued straight onto the canvas. A factory-made fake, standing in for the chair you would sit on.' },
+    { x: '50%', y: '90%', w: 52, h: 16, label: 'The rope frame', detail: 'A length of ordinary rope, glued around the oval edge. It reads two ways at once: the carved rim of a little round café table seen from above, and the gilt edge of a picture frame. Picasso lets you choose, and so blurs the line between an object and a picture of one.' },
+    { x: '60%', y: '44%', w: 42, h: 38, label: 'The still life, in facets', detail: 'Everything else is hand-painted illusion in the brown-gray shards of Analytic Cubism: a stemmed wineglass, a pipe, a knife, a slice of lemon, a scalloped white form (a shell, or the frilled edge of a napkin, scholars read it both ways), the remains of a drink and a light meal, dissolving into planes. The old painted fakery sits right beside the glued-on real thing.' },
   ],
   lineage: {
     parents: [ { label: 'Analytic Cubism', mode: 'art' }, { label: 'Cézanne', mode: 'art' }, { label: 'Braque', mode: 'art' }, { label: 'Industrial mass production', mode: 'civ' } ],
@@ -1336,7 +1336,7 @@ export const CHAIR_CANING: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Houses on the Hill, Horta de Ebro (1909): the landscape summer where
+// Work, Houses on the Hill, Horta de Ebro (1909): the landscape summer where
 // Analytic Cubism crystallised. Image en-tier (picassoHorta); Look-closer crops
 // verified against the 1280×1025 repro 2026-05-24. Prose: NARRATIVES['horta'].
 // ─────────────────────────────────────────────────────────────
@@ -1368,17 +1368,17 @@ export const HORTA: ArtWorkContent = {
     { v: 'Berggruen', k: 'Now at' },
   ],
   sections: [
-    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: 'Summer 1909', title: 'Why he went back to Horta', blurb: 'Broke, exhausted and stuck, Picasso flees Paris for the baked Catalan village of an old friend — a town of cube-shaped houses that turns out to be the perfect laboratory.', progress: 0.08 },
-    { id: 'making', eyebrow: 'The summer', dateLabel: 'Jun–Sep 1909', title: 'Painting the village as blocks', blurb: 'He reduces the houses to nested geometric solids, tilts every plane, and — famously — brings home photographs to prove the cubes were really there.', progress: 0.32 },
-    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'A town built from geometry', blurb: 'Ochre cubes climbing a hill, roofs flattened into facets, the mountain behind broken into the same planes — and one stubborn patch of green.', progress: 0.56 },
-    { id: 'breakthrough', eyebrow: 'The breakthrough', dateLabel: '1909–1910', title: 'The summer it became a movement', blurb: 'This is where the shock of the Demoiselles hardens into a method. Cézanne’s advice, made real on a hillside — the launch pad for everything Picasso and Braque do next.', progress: 0.78 },
-    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1909–today', title: 'The Picasso MoMA let go', blurb: 'A Rockefeller treasure, bequeathed to MoMA — and then, to some critics’ horror, quietly sold off, ending up a star of a Berlin museum.', progress: 0.95 },
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: 'Summer 1909', title: 'Why he went back to Horta', blurb: 'Broke, exhausted and stuck, Picasso flees Paris for the baked Catalan village of an old friend, a town of cube-shaped houses that turns out to be the perfect laboratory.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The summer', dateLabel: 'Jun–Sep 1909', title: 'Painting the village as blocks', blurb: 'He reduces the houses to nested geometric solids, tilts every plane, and, famously, brings home photographs to prove the cubes were really there.', progress: 0.32 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'A town built from geometry', blurb: 'Ochre cubes climbing a hill, roofs flattened into facets, the mountain behind broken into the same planes, and one stubborn patch of green.', progress: 0.56 },
+    { id: 'breakthrough', eyebrow: 'The breakthrough', dateLabel: '1909–1910', title: 'The summer it became a movement', blurb: 'This is where the shock of the Demoiselles hardens into a method. Cézanne’s advice, made real on a hillside, the launch pad for everything Picasso and Braque do next.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1909–today', title: 'The Picasso MoMA let go', blurb: 'A Rockefeller treasure, bequeathed to MoMA, and then, to some critics’ horror, quietly sold off, ending up a star of a Berlin museum.', progress: 0.95 },
   ],
   provenance: [
     { year: '1909', who: 'Pablo Picasso (the artist)', place: 'Horta de Sant Joan, Catalonia', note: 'Painted over the summer in his friend Pallarès’s village, then rolled up and carried back to Paris.', price: null },
     { year: 'by the 1970s', who: 'Nelson A. Rockefeller', place: 'New York', note: 'The canvas enters the celebrated modern collection of the oil heir, New York governor and future US vice-president.', price: null },
-    { year: '1979', who: 'Museum of Modern Art', place: 'New York', note: 'Bequeathed to MoMA on Rockefeller’s death — for decades one of the museum’s landmark early Cubist paintings.', price: null, museum: true },
-    { year: '2003', who: 'Sold by MoMA (via Acquavella)', place: 'New York', note: 'In a deaccession that appalled some critics, MoMA sold the Horta — reported at $12–15 million — through Acquavella Galleries to raise acquisition funds.', price: '≈ $12–15m (2003)' },
+    { year: '1979', who: 'Museum of Modern Art', place: 'New York', note: 'Bequeathed to MoMA on Rockefeller’s death, for decades one of the museum’s landmark early Cubist paintings.', price: null, museum: true },
+    { year: '2003', who: 'Sold by MoMA (via Acquavella)', place: 'New York', note: 'In a deaccession that appalled some critics, MoMA sold the Horta, reported at $12–15 million, through Acquavella Galleries to raise acquisition funds.', price: '≈ $12–15m (2003)' },
     { year: '2003–today', who: 'Museum Berggruen', place: 'Berlin', note: 'The Berlin-born dealer-collector Heinz Berggruen buys it from the MoMA sale and adds it to his collection, by then the state-owned Museum Berggruen, which calls it one of its most significant works.', price: null, museum: true },
   ],
   figures: [
@@ -1388,10 +1388,10 @@ export const HORTA: ArtWorkContent = {
     { name: 'Gertrude Stein', role: 'Patron, early champion', palette: ['#8a3a4a', '#2a1c1c', '#0a0606'] },
   ],
   annotations: [
-    { x: '46%', y: '56%', w: 42, h: 34, label: 'Houses as cubes', detail: 'The heart of the picture: the village’s flat-roofed houses, stripped down to bare ochre blocks — cubes, wedges, prisms — stacked and tilted up the slope. Picasso throws out the fussy detail and keeps only the geometry, the lesson he took from Cézanne: build the world out of solid shapes.' },
-    { x: '64%', y: '20%', w: 52, h: 24, label: 'The hill, faceted too', detail: 'The mountain behind is broken into the same angular planes as the buildings. Village and hillside rhyme; nature and architecture are made of one geometry. There is no soft, hazy distance — the far hill is pulled up flat against the houses.' },
+    { x: '46%', y: '56%', w: 42, h: 34, label: 'Houses as cubes', detail: 'The heart of the picture: the village’s flat-roofed houses, stripped down to bare ochre blocks, cubes, wedges, prisms, stacked and tilted up the slope. Picasso throws out the fussy detail and keeps only the geometry, the lesson he took from Cézanne: build the world out of solid shapes.' },
+    { x: '64%', y: '20%', w: 52, h: 24, label: 'The hill, faceted too', detail: 'The mountain behind is broken into the same angular planes as the buildings. Village and hillside rhyme; nature and architecture are made of one geometry. There is no soft, hazy distance, the far hill is pulled up flat against the houses.' },
     { x: '30%', y: '46%', w: 30, h: 26, label: 'A roof becomes a plane', detail: 'Follow a single house and watch a roof flatten into a tilted facet, a wall into another, the two meeting at an impossible angle. Picasso lights each plane from a different, unfixable direction, so the cube reads as solid and as flat at the same time.' },
-    { x: '12%', y: '33%', w: 24, h: 26, label: 'The one green note', detail: 'A patch of cool green — vegetation — clings to the left edge: almost the only green in a picture of relentless ochre and gray. In all that dry, faceted geometry it is the one hint of organic life, though Picasso gives it the same angular planes as everything else.' },
+    { x: '12%', y: '33%', w: 24, h: 26, label: 'The one green note', detail: 'A patch of cool green, vegetation, clings to the left edge: almost the only green in a picture of relentless ochre and gray. In all that dry, faceted geometry it is the one hint of organic life, though Picasso gives it the same angular planes as everything else.' },
   ],
   lineage: {
     parents: [ { label: 'Cézanne', mode: 'art' }, { label: 'Les Demoiselles', mode: 'art' }, { label: 'Catalan hill towns', mode: 'civ' } ],
@@ -1400,9 +1400,9 @@ export const HORTA: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Violin and Jug (Braque, 1909–10): the textbook Analytic Cubism still
+// Work, Violin and Jug (Braque, 1909–10): the textbook Analytic Cubism still
 // life, and the painted trompe-l'œil nail. Image en-tier (braqueViolinJug, low-
-// res but the only clean copy — crops kept large); verified 2026-05-24.
+// res but the only clean copy, crops kept large); verified 2026-05-24.
 // Prose: NARRATIVES['violin-jug'].
 // ─────────────────────────────────────────────────────────────
 export const VIOLIN_JUG: ArtWorkContent = {
@@ -1422,11 +1422,11 @@ export const VIOLIN_JUG: ArtWorkContent = {
   acquired: 'Gift of Raoul La Roche',
   accent: ART_ACCENTS.violet,
   chain: { name: 'Works of Cubism', index: 5, total: 9 },
-  hook: 'Braque shattered a violin and a jug into a fog of brown facets — then, at the top, painted one perfectly real nail to hold it all up.',
+  hook: 'Braque shattered a violin and a jug into a fog of brown facets, then, at the top, painted one perfectly real nail to hold it all up.',
   heroImage: ART_IMG.braqueViolinJug,
   heroCredit: 'Braque, Violin and Jug, 1909–10 · Kunstmuseum Basel',
   heroAspect: 0.63,
-  // The work is a tall portrait canvas — show the whole thing, never cropped.
+  // The work is a tall portrait canvas, show the whole thing, never cropped.
   heroFit: 'contain',
   rights: 'pd-us',
   stats: [
@@ -1435,16 +1435,16 @@ export const VIOLIN_JUG: ArtWorkContent = {
     { v: 'Basel', k: 'Now at' },
   ],
   sections: [
-    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1909–1910', title: 'The other half of Cubism', blurb: 'Everyone remembers Picasso. But Cubism took two — and the quieter, more methodical half was a house-painter’s son from Normandy named Georges Braque.', progress: 0.08 },
-    { id: 'making', eyebrow: 'The winter', dateLabel: 'Winter 1909–10', title: 'Faceting a violin', blurb: 'Braque takes a violin and a jug and shatters them into a near-colourless shimmer of planes — the purest example of the style he and Picasso were building.', progress: 0.3 },
-    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Find the nail, then the violin', blurb: 'Start at the top with the one solid thing — a painted nail — then hunt down the scroll, the strings and the body of the violin surfacing out of the rubble.', progress: 0.55 },
-    { id: 'nail', eyebrow: 'The point', dateLabel: 'The picture', title: 'Why paint a perfect nail', blurb: 'In the most radical painting in Europe, Braque planted one old-fashioned illusion — a joke, a foothold, and a quiet hint of the collage revolution two years off.', progress: 0.78 },
-    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1910–today', title: 'How it got to Basel', blurb: 'A Swiss banker who bought Cubism when nobody else would gave his collection to his home city — which is why the textbook Analytic Cubist still life hangs in Basel.', progress: 0.95 },
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1909–1910', title: 'The other half of Cubism', blurb: 'Everyone remembers Picasso. But Cubism took two, and the quieter, more methodical half was a house-painter’s son from Normandy named Georges Braque.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The winter', dateLabel: 'Winter 1909–10', title: 'Faceting a violin', blurb: 'Braque takes a violin and a jug and shatters them into a near-colourless shimmer of planes, the purest example of the style he and Picasso were building.', progress: 0.3 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Find the nail, then the violin', blurb: 'Start at the top with the one solid thing, a painted nail, then hunt down the scroll, the strings and the body of the violin surfacing out of the rubble.', progress: 0.55 },
+    { id: 'nail', eyebrow: 'The point', dateLabel: 'The picture', title: 'Why paint a perfect nail', blurb: 'In the most radical painting in Europe, Braque planted one old-fashioned illusion, a joke, a foothold, and a quiet hint of the collage revolution two years off.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1910–today', title: 'How it got to Basel', blurb: 'A Swiss banker who bought Cubism when nobody else would gave his collection to his home city, which is why the textbook Analytic Cubist still life hangs in Basel.', progress: 0.95 },
   ],
   provenance: [
     { year: '1909–10', who: 'Georges Braque (the artist)', place: 'Paris', note: 'Painted in Montmartre over the winter, at the height of the daily Picasso–Braque exchange.', price: null },
     { year: 'from 1921', who: 'Raoul La Roche', place: 'Paris / Basel', note: 'The Basel-born banker and friend of Le Corbusier buys heavily at the 1921 Kahnweiler sequestration sale (Braque’s dealer stock, seized in the war), building one of the deepest private Cubist collections.', price: null },
-    { year: '1952–63', who: 'Kunstmuseum Basel', place: 'Basel', note: 'La Roche gives his Cubist collection to his home city’s museum in stages, across three donations — making Basel a stronghold of the movement.', price: null, museum: true },
+    { year: '1952–63', who: 'Kunstmuseum Basel', place: 'Basel', note: 'La Roche gives his Cubist collection to his home city’s museum in stages, across three donations, making Basel a stronghold of the movement.', price: null, museum: true },
   ],
   figures: [
     { name: 'Braque', role: 'The painter', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
@@ -1453,9 +1453,9 @@ export const VIOLIN_JUG: ArtWorkContent = {
     { name: 'Raoul La Roche', role: 'The collector who saved it', palette: ['#3a4a8b', '#d6cf3f', '#1a1a1a'] },
   ],
   annotations: [
-    { x: '52%', y: '9%', w: 52, h: 15, label: 'The painted nail', detail: 'Start at the very top. That is a nail — painted with old-fashioned, photographic realism, casting a neat little shadow, as if it were pinning the whole picture to the wall. It is the one perfectly solid, real-looking thing in the painting, and Braque put it there on purpose.' },
+    { x: '52%', y: '9%', w: 52, h: 15, label: 'The painted nail', detail: 'Start at the very top. That is a nail, painted with old-fashioned, photographic realism, casting a neat little shadow, as if it were pinning the whole picture to the wall. It is the one perfectly solid, real-looking thing in the painting, and Braque put it there on purpose.' },
     { x: '50%', y: '64%', w: 58, h: 40, label: 'The violin', detail: 'Below the nail the violin surfaces out of the rubble: the curled scroll near the center, the strings, and lower down the unmistakable curves of the body with its f-holes. Braque, who loved music, lets you half-find the instrument and then lose it again in the facets.' },
-    { x: '33%', y: '33%', w: 46, h: 30, label: 'The jug', detail: 'Above the violin, a pale faceted shape with a rounded lip is the jug. It is dissolving into the same brown-gray planes as everything around it — readable for a second, then gone: exactly the brink of legibility Analytic Cubism likes to walk.' },
+    { x: '33%', y: '33%', w: 46, h: 30, label: 'The jug', detail: 'Above the violin, a pale faceted shape with a rounded lip is the jug. It is dissolving into the same brown-gray planes as everything around it, readable for a second, then gone: exactly the brink of legibility Analytic Cubism likes to walk.' },
   ],
   lineage: {
     parents: [ { label: 'Cézanne', mode: 'art' }, { label: 'Houses at Horta', mode: 'art' }, { label: 'Trompe-l’œil', mode: 'art' } ],
@@ -1464,7 +1464,7 @@ export const VIOLIN_JUG: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Three Women (1908): the year Picasso spent digesting the Demoiselles,
+// Work, Three Women (1908): the year Picasso spent digesting the Demoiselles,
 // fusing three nudes into one carved, rust-red mass. Self-hosted (US-PD 1908).
 // Look-closer crops verified against the 961×1088 repro. Prose: NARRATIVES['three-women'].
 // ─────────────────────────────────────────────────────────────
@@ -1485,7 +1485,7 @@ export const THREE_WOMEN: ArtWorkContent = {
   acquired: 'Acquired 1948',
   accent: ART_ACCENTS.violet,
   chain: { name: 'Works of Cubism', index: 6, total: 9 },
-  hook: 'The year after the Demoiselles, Picasso fused three nudes into a single carved, rust-red mass — and quietly worked out what the explosion had been for.',
+  hook: 'The year after the Demoiselles, Picasso fused three nudes into a single carved, rust-red mass, and quietly worked out what the explosion had been for.',
   heroImage: ART_IMG.threeWomen,
   heroCredit: 'Picasso, Three Women, 1908 · Hermitage Museum, St Petersburg',
   heroAspect: 0.883,
@@ -1497,10 +1497,10 @@ export const THREE_WOMEN: ArtWorkContent = {
     { v: 'Hermitage', k: 'Now at' },
   ],
   sections: [
-    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: 'Winter 1907–08', title: 'After the bomb', blurb: 'With the Demoiselles rolled up in the corner, Picasso spends a year working out what the explosion was for — and keeps going back to a room of carved African masks.', progress: 0.08 },
-    { id: 'making', eyebrow: 'The work', dateLabel: '1907–08', title: 'Three figures, one block', blurb: 'He paints, scrapes back and repaints, fusing three nudes into a single mass of rust-red planes — as if the picture were carved rather than brushed.', progress: 0.32 },
-    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Bodies like hewn wood', blurb: 'Mask-faces, interlocking limbs, a palette of fired clay — and one sliver of green. How to find the three women in the geometry.', progress: 0.56 },
-    { id: 'primitivism', eyebrow: 'The source', dateLabel: '1907–08', title: 'Borrowed from the carvers', blurb: 'Where the mask-faces came from — and the harder question, still argued over, about a European taking them.', progress: 0.78 },
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: 'Winter 1907–08', title: 'After the bomb', blurb: 'With the Demoiselles rolled up in the corner, Picasso spends a year working out what the explosion was for, and keeps going back to a room of carved African masks.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The work', dateLabel: '1907–08', title: 'Three figures, one block', blurb: 'He paints, scrapes back and repaints, fusing three nudes into a single mass of rust-red planes, as if the picture were carved rather than brushed.', progress: 0.32 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Bodies like hewn wood', blurb: 'Mask-faces, interlocking limbs, a palette of fired clay, and one sliver of green. How to find the three women in the geometry.', progress: 0.56 },
+    { id: 'primitivism', eyebrow: 'The source', dateLabel: '1907–08', title: 'Borrowed from the carvers', blurb: 'Where the mask-faces came from, and the harder question, still argued over, about a European taking them.', progress: 0.78 },
     { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1908–today', title: 'A Russian buys the future', blurb: 'Bought by a Moscow textile baron, seized by the Revolution, and locked for decades behind the Iron Curtain in the Hermitage.', progress: 0.95 },
   ],
   provenance: [
@@ -1516,10 +1516,10 @@ export const THREE_WOMEN: ArtWorkContent = {
     { name: 'Kahnweiler', role: 'The dealer', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
   ],
   annotations: [
-    { x: '48%', y: '20%', w: 46, h: 22, label: 'A monumental head', detail: 'The central figure’s head, tipped back with raised arms: heavy almond eyes, a blunt nose, the whole face simplified into a few carved planes. There is no expression to read — Picasso wants a mask, not a person, a head you could imagine cut from wood.' },
-    { x: '75%', y: '34%', w: 40, h: 26, label: 'A mask for a face', detail: 'The right-hand figure’s face is the clearest mask of the three — gouged, frontal, deliberately “other,” lifted from the carved African sculpture Picasso had been staring at. A beautiful nude is given the face of a carved mask.' },
+    { x: '48%', y: '20%', w: 46, h: 22, label: 'A monumental head', detail: 'The central figure’s head, tipped back with raised arms: heavy almond eyes, a blunt nose, the whole face simplified into a few carved planes. There is no expression to read, Picasso wants a mask, not a person, a head you could imagine cut from wood.' },
+    { x: '75%', y: '34%', w: 40, h: 26, label: 'A mask for a face', detail: 'The right-hand figure’s face is the clearest mask of the three, gouged, frontal, deliberately “other” lifted from the carved African sculpture Picasso had been staring at. A beautiful nude is given the face of a carved mask.' },
     { x: '42%', y: '58%', w: 54, h: 32, label: 'Carved from one block', detail: 'Where the three bodies meet, you can barely tell whose limb is whose: thighs, shoulders and arms lock into a single faceted mass of rust and ochre. The picture reads less like three figures than one solid thing chiselled into shape.' },
-    { x: '14%', y: '20%', w: 26, h: 26, label: 'A breath of green', detail: 'At the edges, slivers of cool green press in against all that fired-clay red — nearly the only color in the picture that isn’t earth. It is the one note of air around a group otherwise packed as tight as masonry.' },
+    { x: '14%', y: '20%', w: 26, h: 26, label: 'A breath of green', detail: 'At the edges, slivers of cool green press in against all that fired-clay red, nearly the only color in the picture that isn’t earth. It is the one note of air around a group otherwise packed as tight as masonry.' },
   ],
   lineage: {
     parents: [ { label: 'Les Demoiselles', mode: 'art' }, { label: 'African sculpture', mode: 'art' }, { label: 'Cézanne', mode: 'art' } ],
@@ -1528,7 +1528,7 @@ export const THREE_WOMEN: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — The Portuguese (Braque, 1911): the first stencilled letters in Cubism.
+// Work, The Portuguese (Braque, 1911): the first stencilled letters in Cubism.
 // Self-hosted (US-PD 1911). Crops verified against the 824×1206 repro.
 // Prose: NARRATIVES['the-portuguese'].
 // ─────────────────────────────────────────────────────────────
@@ -1549,7 +1549,7 @@ export const THE_PORTUGUESE: ArtWorkContent = {
   acquired: 'Gift of Raoul La Roche',
   accent: ART_ACCENTS.violet,
   chain: { name: 'Works of Cubism', index: 7, total: 9 },
-  hook: 'Braque dissolved a guitar player into a haze of brown facets — then stencilled the letters “D BAL” across the top, and printed type walked into painting for good.',
+  hook: 'Braque dissolved a guitar player into a haze of brown facets, then stencilled the letters “D BAL” across the top, and printed type walked into painting for good.',
   heroImage: ART_IMG.portuguese,
   heroCredit: 'Braque, The Portuguese, 1911 · Kunstmuseum Basel',
   heroAspect: 0.683,
@@ -1561,16 +1561,16 @@ export const THE_PORTUGUESE: ArtWorkContent = {
     { v: 'Basel', k: 'Now at' },
   ],
   sections: [
-    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1911', title: 'Roped to Picasso, still', blurb: 'A year on from Violin and Jug, Braque and Picasso have faceted the world almost to vapour — and Braque is about to let a printed word into the fog.', progress: 0.08 },
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1911', title: 'Roped to Picasso, still', blurb: 'A year on from Violin and Jug, Braque and Picasso have faceted the world almost to vapour, and Braque is about to let a printed word into the fog.', progress: 0.08 },
     { id: 'making', eyebrow: 'The work', dateLabel: 'Summer 1911', title: 'A musician, dissolved', blurb: 'A Portuguese guitarist Braque remembered from a bar, broken into a shimmer of brown planes so fine the figure nearly vanishes.', progress: 0.32 },
     { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Find “D BAL”, then the guitar', blurb: 'Start with the stencilled letters at the top, then hunt down the head and the guitar surfacing from the haze.', progress: 0.56 },
-    { id: 'letters', eyebrow: 'The point', dateLabel: '1911', title: 'The day type walked in', blurb: 'Why a few stencilled letters were a revolution — flat, real, mass-produced, sitting on the surface, and pointing straight at collage.', progress: 0.78 },
+    { id: 'letters', eyebrow: 'The point', dateLabel: '1911', title: 'The day type walked in', blurb: 'Why a few stencilled letters were a revolution, flat, real, mass-produced, sitting on the surface, and pointing straight at collage.', progress: 0.78 },
     { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1911–today', title: 'Basel, again', blurb: 'Like Violin and Jug, it owes its home to one Swiss banker who bought Cubism before the world agreed it was art.', progress: 0.95 },
   ],
   provenance: [
     { year: '1911', who: 'Georges Braque (the artist)', place: 'Paris / Céret', note: 'Painted partly in the Pyrenean town of Céret, where Braque and Picasso spent the summer working side by side.', price: null },
     { year: 'from 1921', who: 'Raoul La Roche', place: 'Paris / Basel', note: 'The Basel-born banker and Le Corbusier’s friend buys it at the 1921 Kahnweiler sequestration sale (Braque’s dealer stock, seized as enemy property in the war), part of his deep Cubist collection.', price: null },
-    { year: '1952–63', who: 'Kunstmuseum Basel', place: 'Basel', note: 'Donated with the rest of La Roche’s Cubist holdings, in stages — making Basel a stronghold of the movement.', price: null, museum: true },
+    { year: '1952–63', who: 'Kunstmuseum Basel', place: 'Basel', note: 'Donated with the rest of La Roche’s Cubist holdings, in stages, making Basel a stronghold of the movement.', price: null, museum: true },
   ],
   figures: [
     { name: 'Braque', role: 'The painter', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
@@ -1579,10 +1579,10 @@ export const THE_PORTUGUESE: ArtWorkContent = {
     { name: 'Raoul La Roche', role: 'The collector who saved it', palette: ['#3a4a8b', '#d6cf3f', '#1a1a1a'] },
   ],
   annotations: [
-    { x: '66%', y: '20%', w: 58, h: 34, label: 'Stencilled letters', detail: 'Across the top, in crisp block capitals, the letters “D BAL” (from GRAND BAL — a dance-hall poster) and below them a scatter of stencilled numbers. They are stencilled — sharp, flat, mechanical — and they sit dead on the surface, refusing to join the faceted haze behind them. This is the move the whole picture is famous for.' },
-    { x: '46%', y: '28%', w: 54, h: 24, label: 'The musician’s head', detail: 'Below the lettering, a rounded mass of paler planes is the player’s head and shoulders, tipped slightly, almost lost in the shimmer. Braque gives you just enough — a curve, a shadow — to feel a person is there before he dissolves again.' },
+    { x: '66%', y: '20%', w: 58, h: 34, label: 'Stencilled letters', detail: 'Across the top, in crisp block capitals, the letters “D BAL” (from GRAND BAL, a dance-hall poster) and below them a scatter of stencilled numbers. They are stencilled, sharp, flat, mechanical, and they sit dead on the surface, refusing to join the faceted haze behind them. This is the move the whole picture is famous for.' },
+    { x: '46%', y: '28%', w: 54, h: 24, label: 'The musician’s head', detail: 'Below the lettering, a rounded mass of paler planes is the player’s head and shoulders, tipped slightly, almost lost in the shimmer. Braque gives you just enough, a curve, a shadow, to feel a person is there before he dissolves again.' },
     { x: '40%', y: '74%', w: 52, h: 28, label: 'The guitar', detail: 'Lower center, the diagonal strings and the soft curve of a sound-hole give away the guitar across the musician’s lap. It is the firmest representational object in the picture, the thing that tells you this is a seated player and not pure abstraction.' },
-    { x: '55%', y: '50%', w: 44, h: 26, label: 'Planes that bleed', detail: 'Everywhere, edges that should belong to the figure open and leak into the background, so body and air are built from the same broken brown light — the Analytic-Cubism trick called passage, here pushed nearly to the point of vapour.' },
+    { x: '55%', y: '50%', w: 44, h: 26, label: 'Planes that bleed', detail: 'Everywhere, edges that should belong to the figure open and leak into the background, so body and air are built from the same broken brown light, the Analytic-Cubism trick called passage, here pushed nearly to the point of vapour.' },
   ],
   lineage: {
     parents: [ { label: 'Violin and Jug', mode: 'art' }, { label: 'Cézanne', mode: 'art' }, { label: 'Café posters', mode: 'civ' } ],
@@ -1591,7 +1591,7 @@ export const THE_PORTUGUESE: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Breakfast / Le Petit Déjeuner (Juan Gris, 1914): the model Synthetic-
+// Work, Breakfast / Le Petit Déjeuner (Juan Gris, 1914): the model Synthetic-
 // Cubism papier collé. Self-hosted higher-res (Gris PD worldwide, d.1927).
 // Crops verified against the 833×1128 repro. Prose: NARRATIVES['gris-breakfast'].
 // ─────────────────────────────────────────────────────────────
@@ -1624,15 +1624,15 @@ export const GRIS_BREAKFAST: ArtWorkContent = {
     { v: 'MoMA', k: 'Now at' },
   ],
   sections: [
-    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1912–14', title: 'The third man', blurb: 'While the founders improvised, a quiet Spaniard named Juan Gris turned Cubism from an instinct into a system — and joined the collage revolution they had started.', progress: 0.08 },
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1912–14', title: 'The third man', blurb: 'While the founders improvised, a quiet Spaniard named Juan Gris turned Cubism from an instinct into a system, and joined the collage revolution they had started.', progress: 0.08 },
     { id: 'making', eyebrow: 'The work', dateLabel: '1914', title: 'Pasted, not painted', blurb: 'Gris glues down two kinds of printed wood-grain paper and a strip of real wallpaper, then draws and paints the breakfast table on top of them.', progress: 0.32 },
-    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'A table you can actually read', blurb: 'Coffee pot, cup, glasses, a newspaper — far more legible than the founders ever allowed, with a joke folded into the headline.', progress: 0.56 },
-    { id: 'system', eyebrow: 'The point', dateLabel: '1914', title: 'Cubism made rigorous', blurb: 'Where Picasso and Braque felt their way, Gris calculated — clean, locked, almost architectural. The most orderly Cubism anyone made.', progress: 0.78 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'A table you can actually read', blurb: 'Coffee pot, cup, glasses, a newspaper, far more legible than the founders ever allowed, with a joke folded into the headline.', progress: 0.56 },
+    { id: 'system', eyebrow: 'The point', dateLabel: '1914', title: 'Cubism made rigorous', blurb: 'Where Picasso and Braque felt their way, Gris calculated, clean, locked, almost architectural. The most orderly Cubism anyone made.', progress: 0.78 },
     { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1914–today', title: 'The short, bright career', blurb: 'Gris died at forty with his reputation still catching up; his Breakfast now hangs at MoMA as the textbook Synthetic-Cubist collage.', progress: 0.95 },
   ],
   provenance: [
     { year: '1914', who: 'Juan Gris (the artist)', place: 'Paris', note: 'Made early in 1914 (the collaged newspaper is dated February), during Gris’s great burst of papiers collés.', price: null },
-    { year: 'from 1914', who: 'Daniel-Henry Kahnweiler', place: 'Paris', note: 'Gris was under contract to Kahnweiler — the same dealer who backed Picasso and Braque — until the war scattered them.', price: null },
+    { year: 'from 1914', who: 'Daniel-Henry Kahnweiler', place: 'Paris', note: 'Gris was under contract to Kahnweiler, the same dealer who backed Picasso and Braque, until the war scattered them.', price: null },
     { year: '1948', who: 'Museum of Modern Art', place: 'New York', note: 'Bought from Galerie Louise Leiris (Kahnweiler’s reconstituted gallery) through the Lillie P. Bliss Bequest; now among MoMA’s core Cubist holdings, the model of how collage rebuilt the still life.', price: null, museum: true },
   ],
   figures: [
@@ -1643,8 +1643,8 @@ export const GRIS_BREAKFAST: ArtWorkContent = {
   ],
   annotations: [
     { x: '42%', y: '78%', w: 42, h: 16, label: 'His name in the headline', detail: 'A torn strip of newspaper reads “…OURN…”, from the masthead of Le Journal, and read aloud it puns on the painter’s own first name: Juan sounds like that fragment in French. Just below, “…ZA GRIS” gives his surname (gris means “gray”). His whole name, signed inside the picture as a scrap of newsprint.' },
-    { x: '56%', y: '55%', w: 40, h: 24, label: 'The cup and saucer', detail: 'Dead center, a white coffee cup and saucer are drawn with almost old-fashioned, rounded clarity — solid, shaded, completely readable. Gris lets you have the real object, then surrounds it with flat pasted planes, so realism and abstraction share one table.' },
-    { x: '33%', y: '40%', w: 40, h: 26, label: 'The coffee pot', detail: 'To the left, the tall pale shape of a coffee pot or pitcher rises out of the composition. Notice how Gris splits it down a clean vertical seam — light on one side, shadow on the other — slicing a single object into two views without ever losing it.' },
+    { x: '56%', y: '55%', w: 40, h: 24, label: 'The cup and saucer', detail: 'Dead center, a white coffee cup and saucer are drawn with almost old-fashioned, rounded clarity, solid, shaded, completely readable. Gris lets you have the real object, then surrounds it with flat pasted planes, so realism and abstraction share one table.' },
+    { x: '33%', y: '40%', w: 40, h: 26, label: 'The coffee pot', detail: 'To the left, the tall pale shape of a coffee pot or pitcher rises out of the composition. Notice how Gris splits it down a clean vertical seam, light on one side, shadow on the other, slicing a single object into two views without ever losing it.' },
     { x: '30%', y: '86%', w: 46, h: 18, label: 'Imitation wood-grain', detail: 'That wood-grain is not painted: the tabletop, the legs at the bottom, and the strips behind are cheap, factory-printed wood-grain paper, glued down (Gris used two different kinds). A mass-produced fake of timber, standing in for the real café table: collage doing the work paint used to do.' },
   ],
   lineage: {
@@ -1654,7 +1654,7 @@ export const GRIS_BREAKFAST: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Three Musicians (Picasso, 1921, the Philadelphia version): the grand
+// Work, Three Musicians (Picasso, 1921, the Philadelphia version): the grand
 // summation of Synthetic Cubism. Image en-tier (picassoThreeMusicians).
 // Crops verified against the 1280×1385 repro. Prose: NARRATIVES['three-musicians'].
 // ─────────────────────────────────────────────────────────────
@@ -1675,7 +1675,7 @@ export const THREE_MUSICIANS: ArtWorkContent = {
   acquired: 'A. E. Gallatin Collection, 1952',
   accent: ART_ACCENTS.violet,
   chain: { name: 'Works of Cubism', index: 9, total: 9 },
-  hook: 'Picasso’s farewell to Cubism’s heroic decade: three masked players built from flat, bright planes — collage remembered in pure paint, and a quiet elegy for lost friends.',
+  hook: 'Picasso’s farewell to Cubism’s heroic decade: three masked players built from flat, bright planes, collage remembered in pure paint, and a quiet elegy for lost friends.',
   heroImage: ART_IMG.picassoThreeMusicians,
   heroCredit: 'Picasso, Three Musicians, 1921 · Philadelphia Museum of Art',
   heroAspect: 0.924,
@@ -1688,14 +1688,14 @@ export const THREE_MUSICIANS: ArtWorkContent = {
   ],
   sections: [
     { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1921', title: 'Ten years on', blurb: 'Cubism is no longer a scandal but a style; the war is over, the old circle scattered, and Picasso sits down to paint its summation in a rented garage.', progress: 0.08 },
-    { id: 'making', eyebrow: 'The work', dateLabel: 'Summer 1921', title: 'Painted like cut paper', blurb: 'Two near-identical giants, built from flat interlocking planes of bright color — the look of pasted paper, achieved in pure paint.', progress: 0.32 },
+    { id: 'making', eyebrow: 'The work', dateLabel: 'Summer 1921', title: 'Painted like cut paper', blurb: 'Two near-identical giants, built from flat interlocking planes of bright color, the look of pasted paper, achieved in pure paint.', progress: 0.32 },
     { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Three masked players', blurb: 'A violin, a clarinet and an accordion: a Harlequin, a Pierrot and a robed monk, staring out of a shallow brown room.', progress: 0.56 },
-    { id: 'elegy', eyebrow: 'The point', dateLabel: '1921', title: 'A portrait of ghosts', blurb: 'The three masks are widely read as Picasso and two poet friends — one dead, one turned monk — which makes this bright picture a quiet elegy.', progress: 0.78 },
-    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1921–today', title: 'Two versions, two cities', blurb: 'He painted it twice in the same summer; one hangs in New York, this one in Philadelphia — the grand last word of Cubism’s great decade.', progress: 0.95 },
+    { id: 'elegy', eyebrow: 'The point', dateLabel: '1921', title: 'A portrait of ghosts', blurb: 'The three masks are widely read as Picasso and two poet friends, one dead, one turned monk, which makes this bright picture a quiet elegy.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1921–today', title: 'Two versions, two cities', blurb: 'He painted it twice in the same summer; one hangs in New York, this one in Philadelphia, the grand last word of Cubism’s great decade.', progress: 0.95 },
   ],
   provenance: [
     { year: '1921', who: 'Pablo Picasso (the artist)', place: 'Fontainebleau', note: 'Painted over the summer in the garage of a rented villa, in two large versions at once.', price: null },
-    { year: 'by the 1930s', who: 'A. E. Gallatin', place: 'New York', note: 'The American collector hangs it in his Gallery of Living Art at New York University (renamed the Museum of Living Art in 1936) — one of the first places Americans could see modern art for free.', price: null },
+    { year: 'by the 1930s', who: 'A. E. Gallatin', place: 'New York', note: 'The American collector hangs it in his Gallery of Living Art at New York University (renamed the Museum of Living Art in 1936), one of the first places Americans could see modern art for free.', price: null },
     { year: '1943–52', who: 'Philadelphia Museum of Art', place: 'Philadelphia', note: 'Gallatin gives his collection to the museum in 1943 (when NYU reclaimed the gallery space); the bequest is completed on his death in 1952. A centrepiece of the Cubist rooms.', price: null, museum: true },
   ],
   figures: [
@@ -1705,9 +1705,9 @@ export const THREE_MUSICIANS: ArtWorkContent = {
     { name: 'A. E. Gallatin', role: 'The collector', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
   ],
   annotations: [
-    { x: '50%', y: '22%', w: 82, h: 20, label: 'Three masks', detail: 'Across the top, three masked faces stare straight out: the diamond-costumed Harlequin at left, the white Pierrot in a black domino mask at center, a hooded monk at right. They are flat, frontal and unreadable — carnival masks, not portraits, which is part of why the picture feels haunted.' },
+    { x: '50%', y: '22%', w: 82, h: 20, label: 'Three masks', detail: 'Across the top, three masked faces stare straight out: the diamond-costumed Harlequin at left, the white Pierrot in a black domino mask at center, a hooded monk at right. They are flat, frontal and unreadable, carnival masks, not portraits, which is part of why the picture feels haunted.' },
     { x: '38%', y: '31%', w: 52, h: 24, label: 'The instruments', detail: 'A violin in the hands of the Harlequin at left, a clarinet held to the Pierrot’s mouth at center, and an accordion worked by the robed monk at right: the “music” of three musicians, rendered as flat brown and black shapes. You read the instruments by their silhouettes, the way you’d read a paper cut-out.' },
-    { x: '30%', y: '64%', w: 34, h: 28, label: 'Flat shapes, cut and laid down', detail: 'The Harlequin’s costume is a field of orange-and-cream diamonds, built as flat interlocking planes with hard edges — exactly the look of pasted colored paper. Nine years after Chair Caning, Picasso paints collage instead of gluing it.' },
+    { x: '30%', y: '64%', w: 34, h: 28, label: 'Flat shapes, cut and laid down', detail: 'The Harlequin’s costume is a field of orange-and-cream diamonds, built as flat interlocking planes with hard edges, exactly the look of pasted colored paper. Nine years after Chair Caning, Picasso paints collage instead of gluing it.' },
   ],
   lineage: {
     parents: [ { label: 'Chair Caning', mode: 'art' }, { label: 'Synthetic Cubism', mode: 'art' }, { label: 'Commedia dell’arte', mode: 'civ' } ],
@@ -1716,7 +1716,7 @@ export const THREE_MUSICIANS: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Artist — Picasso (1881–1973)
+// Artist, Picasso (1881–1973)
 // ─────────────────────────────────────────────────────────────
 export interface ArtistPeriod { id: string; label: string; range: string; color: string; summary: string; size: 's' | 'm' | 'l' }
 export interface ArtistKeyWork { year: number; name: string; period: string; hook: string }
@@ -1763,7 +1763,7 @@ export const PICASSO: ArtArtistContent = {
   chain: { name: 'Cubist artists', index: 1, total: 6 },
   hook: 'The most famous artist of the twentieth century, and the one who decided what the rest of it would have to argue with.',
   hookLong:
-    'Picasso made roughly 50,000 works in his lifetime — paintings, drawings, sculptures, ceramics, prints, costumes. He invented Cubism with Braque, then walked away from it. He painted in classical styles in the 1920s, made the most famous antiwar painting of the century in 1937, and was wealthy by forty and a millionaire long before the end. He outlived most of his contemporaries and rivals.',
+    'Picasso made roughly 50,000 works in his lifetime, paintings, drawings, sculptures, ceramics, prints, costumes. He invented Cubism with Braque, then walked away from it. He painted in classical styles in the 1920s, made the most famous antiwar painting of the century in 1937, and was wealthy by forty and a millionaire long before the end. He outlived most of his contemporaries and rivals.',
   heroImage: ART_IMG.picassoPhoto,
   heroCredit: 'Photograph · Wikimedia Commons',
   heroFocus: '50% 22%',
@@ -1815,7 +1815,7 @@ export const PICASSO: ArtArtistContent = {
 
 // Lookups for routing (only authored entities resolve; others ⇒ coming-soon).
 // ─────────────────────────────────────────────────────────────
-// Work — A Burial at Ornans (1850). The flagship Realism work read. Authored
+// Work, A Burial at Ornans (1850). The flagship Realism work read. Authored
 // through the art content pipeline (fact pack → Opus → 5 gates → revise);
 // chapter prose in art-section-reader.tsx NARRATIVES.burial. Annotations placed
 // against the real panorama (gate 6, 2026-05-25).
@@ -1837,7 +1837,7 @@ export const BURIAL: ArtWorkContent = {
   acquired: 'Given by Juliette Courbet, 1881',
   accent: ART_ACCENTS.amber,
   chain: { name: 'Works of Realism', index: 3, total: 9 },
-  hook: 'A whole village funeral, painted ten feet tall — the scale the Salon kept for the death of kings.',
+  hook: 'A whole village funeral, painted ten feet tall, the scale the Salon kept for the death of kings.',
   heroImage: ART_IMG.courbetBurial,
   heroCredit: 'Courbet, A Burial at Ornans, 1849–50 · Musée d’Orsay, Paris',
   heroAspect: 2.18,
@@ -1849,16 +1849,16 @@ export const BURIAL: ArtWorkContent = {
     { v: 'Orsay', k: 'Now at' },
   ],
   sections: [
-    { id: 'town', eyebrow: 'Ornans · 1848', dateLabel: '1848', title: 'The town and the grave', blurb: 'The most ordinary death there is — a relative’s funeral in a backwater town — and Courbet decides to paint it at the size Europe kept for kings.', progress: 0.08 },
-    { id: 'frieze', eyebrow: 'The canvas', dateLabel: '1849–50', title: 'Forty neighbors at the scale of kings', blurb: 'Ten feet tall, twenty-two wide: a long frieze of real townsfolk around an open grave — the gravedigger, the skull, the red beadles, the indifferent dog, the Ornans cliff.', progress: 0.34 },
-    { id: 'salon', eyebrow: 'Paris · 1850–51', dateLabel: '1850–51', title: 'The bomb in the Salon', blurb: 'Hung beside The Stone Breakers in the official Salon, the country funeral detonates — ugliness, monstrous scale, and the shadow of 1848.', progress: 0.58 },
+    { id: 'town', eyebrow: 'Ornans · 1848', dateLabel: '1848', title: 'The town and the grave', blurb: 'The most ordinary death there is, a relative’s funeral in a backwater town, and Courbet decides to paint it at the size Europe kept for kings.', progress: 0.08 },
+    { id: 'frieze', eyebrow: 'The canvas', dateLabel: '1849–50', title: 'Forty neighbors at the scale of kings', blurb: 'Ten feet tall, twenty-two wide: a long frieze of real townsfolk around an open grave, the gravedigger, the skull, the red beadles, the indifferent dog, the Ornans cliff.', progress: 0.34 },
+    { id: 'salon', eyebrow: 'Paris · 1850–51', dateLabel: '1850–51', title: 'The bomb in the Salon', blurb: 'Hung beside The Stone Breakers in the official Salon, the country funeral detonates, ugliness, monstrous scale, and the shadow of 1848.', progress: 0.58 },
     { id: 'romanticism', eyebrow: 'Courbet’s verdict', dateLabel: '1850s', title: 'The burial of Romanticism', blurb: 'What Courbet meant by his famous line, and why this canvas is Realism’s public birth five years before the 1855 manifesto.', progress: 0.8 },
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1881–today', title: 'Afterlife', blurb: 'Juliette Courbet gives it to the nation in 1881; the Louvre to the Musée d’Orsay in 1986; the canvas where modern art’s subject cracked open.', progress: 0.96 },
   ],
   provenance: [
     { year: '1849–1877', who: 'Gustave Courbet (the artist)', place: 'Ornans / Paris', note: 'Painted 1849–50 in Ornans; shown at the Salon of 1850–51; it stayed with the artist until his death in Swiss exile in 1877.', price: null },
     { year: '1877–1881', who: 'The Courbet family', place: 'Ornans', note: 'After Courbet died in exile in Switzerland in 1877, the enormous canvas remained with his family.', price: null },
-    { year: '1881', who: 'Juliette Courbet (his sister)', place: 'Paris', note: 'Donates the painting to the French State — the very canvas the State’s official Salon had recoiled from thirty years earlier.', price: 'gift to the nation', museum: true },
+    { year: '1881', who: 'Juliette Courbet (his sister)', place: 'Paris', note: 'Donates the painting to the French State, the very canvas the State’s official Salon had recoiled from thirty years earlier.', price: 'gift to the nation', museum: true },
     { year: '1881–1986', who: 'Musée du Louvre', place: 'Paris', note: 'Enters the national collections; for decades hangs in the Louvre, among the history paintings it had once mocked.', price: null, museum: true },
     { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Orsay opens in a converted railway station, the Louvre’s 19th-century collection crosses the river to fill it. On permanent view.', price: 'never sold', museum: true },
   ],
@@ -1870,12 +1870,12 @@ export const BURIAL: ArtWorkContent = {
     { name: 'The Ornans townsfolk', role: 'The sitters', palette: ['#6a7250', '#3a3c28', '#14140e'] },
   ],
   annotations: [
-    { label: 'The hole everyone is here for', where: 'Center foreground, low — the bare turned earth', detail: 'The whole crowd is gathered around this — not a coffin, not a cross, but an open grave painted as a flat black wedge with almost no depth, a void dropped into the dead center where a hero ought to be. The gravedigger kneels patiently beside it in his shirtsleeves, and on the turned earth lie a skull and a scatter of bones, dug up to make room: the bluntest reminder of death there is, with no allegory and no scythe.' },
-    { label: 'The one thing pointing up', where: 'Upper left, held against the gray sky', detail: 'A bearer holds a crucifix aloft against the flat gray sky — the single strong vertical in a painting that is otherwise all horizontal line. In a Salon history painting the heavens would open behind it; here the sky just stays gray and gives nothing back.' },
-    { label: 'The loudest color in the room', where: 'Left of center, with the clergy — the two figures in red', detail: 'The figures in vivid red are beadles — minor parish officers who keep order at services. Courbet gave the grandest color in the whole painting (the red a history painter would save for a cardinal or a king) to two small-town church ushers with frankly ordinary faces.' },
-    { label: 'Two men wearing the wrong decade', where: 'Center, in white stockings and knee breeches', detail: 'Among the men in 1840s mourning black stand two old fellows in the suits and knee breeches of 1793 — the dress of the First Republic, half a century out of fashion. They are real sitters (friends of Courbet’s grandfather): veterans of the Revolution planted in the crowd. In 1850, two years after the barricades, that detail did not feel safe.' },
-    { label: 'Grief on the right, a dog who doesn’t care', where: 'The right half (the women); the white dog, center-right foreground', detail: 'The women are massed on the right, some pressing handkerchiefs to their faces — the only open grief in the picture (the artist’s own sisters Juliette, Zoé and Zélie are among them). And down in front, back turned to the whole solemn business, a small dog sniffs off toward the edge, completely indifferent. No history painter would have let that animal stay; Courbet gave it the front row.' },
-    { label: 'The real rock behind the real people', where: 'The pale band across the top, behind the crowd', detail: 'That pale, chalky wall of limestone is not invented scenery — it is the actual escarpment of the Ornans valley, Courbet’s hometown geology placed behind his hometown neighbors. Almost the same value as the sky, it refuses to recede; it stands up as a near-featureless wall that presses the figures flat against the viewer.' },
+    { label: 'The hole everyone is here for', where: 'Center foreground, low, the bare turned earth', detail: 'The whole crowd is gathered around this, not a coffin, not a cross, but an open grave painted as a flat black wedge with almost no depth, a void dropped into the dead center where a hero ought to be. The gravedigger kneels patiently beside it in his shirtsleeves, and on the turned earth lie a skull and a scatter of bones, dug up to make room: the bluntest reminder of death there is, with no allegory and no scythe.' },
+    { label: 'The one thing pointing up', where: 'Upper left, held against the gray sky', detail: 'A bearer holds a crucifix aloft against the flat gray sky, the single strong vertical in a painting that is otherwise all horizontal line. In a Salon history painting the heavens would open behind it; here the sky just stays gray and gives nothing back.' },
+    { label: 'The loudest color in the room', where: 'Left of center, with the clergy, the two figures in red', detail: 'The figures in vivid red are beadles, minor parish officers who keep order at services. Courbet gave the grandest color in the whole painting (the red a history painter would save for a cardinal or a king) to two small-town church ushers with frankly ordinary faces.' },
+    { label: 'Two men wearing the wrong decade', where: 'Center, in white stockings and knee breeches', detail: 'Among the men in 1840s mourning black stand two old fellows in the suits and knee breeches of 1793, the dress of the First Republic, half a century out of fashion. They are real sitters (friends of Courbet’s grandfather): veterans of the Revolution planted in the crowd. In 1850, two years after the barricades, that detail did not feel safe.' },
+    { label: 'Grief on the right, a dog who doesn’t care', where: 'The right half (the women); the white dog, center-right foreground', detail: 'The women are massed on the right, some pressing handkerchiefs to their faces, the only open grief in the picture (the artist’s own sisters Juliette, Zoé and Zélie are among them). And down in front, back turned to the whole solemn business, a small dog sniffs off toward the edge, completely indifferent. No history painter would have let that animal stay; Courbet gave it the front row.' },
+    { label: 'The real rock behind the real people', where: 'The pale band across the top, behind the crowd', detail: 'That pale, chalky wall of limestone is not invented scenery, it is the actual escarpment of the Ornans valley, Courbet’s hometown geology placed behind his hometown neighbors. Almost the same value as the sky, it refuses to recede; it stands up as a near-featureless wall that presses the figures flat against the viewer.' },
   ],
   lineage: {
     parents: [ { label: 'Dutch group portrait', mode: 'art' }, { label: 'The 1848 Revolution', mode: 'civ' }, { label: 'The Stone Breakers', mode: 'art' } ],
@@ -1884,7 +1884,7 @@ export const BURIAL: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Impression, Sunrise (Monet, 1872) — the first IMPRESSIONISM work.
+// Work, Impression, Sunrise (Monet, 1872), the first IMPRESSIONISM work.
 // Authored through the art content pipeline (fact pack → Opus draft → 5 critic
 // gates → reconcile → revise); narrative in art-section-reader.tsx under
 // 'impression-sunrise' (Is… prefix).
@@ -1906,7 +1906,7 @@ export const IMPRESSION_SUNRISE: ArtWorkContent = {
   acquired: 'Gift of Eugène and Victorine Donop de Monchy, 1940',
   accent: ART_ACCENTS.blue,
   chain: { name: 'Works of Impressionism', index: 2, total: 9 },
-  hook: 'A foggy little dawn sketch a critic said wallpaper was more finished than — and the insult named the movement.',
+  hook: 'A foggy little dawn sketch a critic said wallpaper was more finished than, and the insult named the movement.',
   heroImage: ART_IMG.impressionSunrise,
   heroCredit: 'Monet, Impression, Sunrise, 1872 · Musée Marmottan Monet, Paris',
   heroAspect: 1.31, // 48 × 63 cm → W/H ≈ 1.31
@@ -1918,15 +1918,15 @@ export const IMPRESSION_SUNRISE: ArtWorkContent = {
     { v: 'Marmottan', k: 'Now at' },
   ],
   sections: [
-    { id: 'le-havre', eyebrow: 'Le Havre', dateLabel: '1872', title: 'Home port at war’s end', blurb: 'Monet returns from London exile to his home harbour — where Turner and Whistler’s dissolved-form fog meets his own modern, smoking, working port at dawn.', progress: 0.08 },
-    { id: 'the-morning', eyebrow: 'A hotel window', dateLabel: '13 Nov 1872 · 7:35 a.m.', title: '7:35 a.m., a hotel window', blurb: 'One rapid dawn impression from a hotel window — the sun that vanishes in greyscale, the broken reflection, and the forensic-astronomy detective work that dated it to a specific morning.', progress: 0.32 },
-    { id: 'the-name', eyebrow: 'Paris', dateLabel: '25 April 1874', title: 'Wallpaper more finished than that seascape', blurb: 'Nadar’s old studio, catalogue No. 98, and Leroy’s mocking Charivari review — followed four days later by a friendly critic who used the same word approvingly.', progress: 0.56 },
-    { id: 'the-break', eyebrow: 'Why it broke the rules', dateLabel: 'Then & now', title: 'Not the first, but the one that named it', blurb: 'Impression over finish, sensation over description, the modern industrial subject, and colour-contrast over brightness — four breaks carried by one small canvas.', progress: 0.8 },
+    { id: 'le-havre', eyebrow: 'Le Havre', dateLabel: '1872', title: 'Home port at war’s end', blurb: 'Monet returns from London exile to his home harbour, where Turner and Whistler’s dissolved-form fog meets his own modern, smoking, working port at dawn.', progress: 0.08 },
+    { id: 'the-morning', eyebrow: 'A hotel window', dateLabel: '13 Nov 1872 · 7:35 a.m.', title: '7:35 a.m., a hotel window', blurb: 'One rapid dawn impression from a hotel window, the sun that vanishes in greyscale, the broken reflection, and the forensic-astronomy detective work that dated it to a specific morning.', progress: 0.32 },
+    { id: 'the-name', eyebrow: 'Paris', dateLabel: '25 April 1874', title: 'Wallpaper more finished than that seascape', blurb: 'Nadar’s old studio, catalogue No. 98, and Leroy’s mocking Charivari review, followed four days later by a friendly critic who used the same word approvingly.', progress: 0.56 },
+    { id: 'the-break', eyebrow: 'Why it broke the rules', dateLabel: 'Then & now', title: 'Not the first, but the one that named it', blurb: 'Impression over finish, sensation over description, the modern industrial subject, and colour-contrast over brightness, four breaks carried by one small canvas.', progress: 0.8 },
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1878–today', title: 'Sold for a song, stolen at gunpoint, immortal', blurb: 'A bankruptcy auction sells it for 210 francs; an armed gang walks it out of the Marmottan in 1985; it comes back damaged, gets conserved, and rehangs in 1991.', progress: 0.96 },
   ],
   provenance: [
-    { year: '1874–1878', who: 'Ernest Hoschedé (department-store magnate, early Impressionist patron)', place: 'Paris', note: 'Bought from Monet not long after the first Impressionist exhibition for 800 francs — the painting’s first owner.', price: '800 francs' },
-    { year: '1878', who: 'Dr Georges de Bellio (Romanian-born homeopathic physician, an earliest Impressionist collector)', place: 'Paris (Hôtel Drouot)', note: 'Bought at the forced auction of the bankrupt Hoschedé’s collection — for 210 francs, about a quarter of what Hoschedé had paid four years earlier. The famous figure behind the "sold for a song" story.', price: '210 francs' },
+    { year: '1874–1878', who: 'Ernest Hoschedé (department-store magnate, early Impressionist patron)', place: 'Paris', note: 'Bought from Monet not long after the first Impressionist exhibition for 800 francs, the painting’s first owner.', price: '800 francs' },
+    { year: '1878', who: 'Dr Georges de Bellio (Romanian-born homeopathic physician, an earliest Impressionist collector)', place: 'Paris (Hôtel Drouot)', note: 'Bought at the forced auction of the bankrupt Hoschedé’s collection, for 210 francs, about a quarter of what Hoschedé had paid four years earlier. The famous figure behind the "sold for a song" story.', price: '210 francs' },
     { year: '1894–1940', who: 'Victorine de Bellio + Eugène Donop de Monchy', place: 'Paris', note: 'De Bellio’s daughter Victorine and her husband Eugène inherit the painting on the doctor’s death in 1894 and keep it through the next two generations.', price: null },
     { year: '1940–today', who: 'Musée Marmottan Monet', place: 'Paris', note: 'The Donop de Monchys give the painting to the Académie des Beaux-Arts; it enters the Musée Marmottan in Paris’s 16th arrondissement (inv. 4014). Stolen at gunpoint in October 1985, recovered five years later in Corsica with damp damage, conserved, and back on view in 1991. On permanent view.', price: 'gift to the nation', museum: true },
   ],
@@ -1940,13 +1940,13 @@ export const IMPRESSION_SUNRISE: ArtWorkContent = {
     { name: 'Margaret Livingstone', role: 'Neuroscientist · equiluminance', palette: ['#6a7250', '#3a3c28', '#14140e'] },
   ],
   annotations: [
-    { label: 'The sun — and the trail it drops', where: 'Upper area, a little above centre and slightly right of centre', detail: 'That small orange disk is the sun, low over the water through morning mist. Follow it straight down and you’ll find its reflection — not a smooth column of light but a broken, flickering streak of orange dabs on the gray water, the way a real reflection shatters on a moving surface. Both the sun and this trail were the very last marks Monet added, dropped warm onto a cool gray field.' },
-    { label: 'The brightest thing that isn’t bright', where: 'That same orange sun, upper area, slightly right of centre', detail: 'The sun looks like it blazes, but it’s almost exactly as bright as the gray sky around it — it only pops because of its warm orange colour against the cool gray. The proof: imagine the whole picture as a black-and-white copy, colour drained away. The sun nearly disappears into the sky. Its punch is a colour punch, not a brightness one — and that mismatch is why it seems to faintly shimmer: the part of your vision that pins down position can’t lock onto a sun it can’t even detect in gray, so your eye keeps re-aiming and never quite settles.' },
-    { label: 'Two boats, fading into the morning', where: 'Lower portion, toward the centre', detail: 'Two dark little boats sit low on the water, each with a figure aboard — somebody rowing or standing. The nearer one is a touch sharper; the farther one is fainter, half-dissolved into the haze. Don’t count too hard: the boats and figures are deliberately vague, painted as silhouettes, not described in detail. That softness is the point — it’s what the eye actually catches at dawn.' },
-    { label: 'A ghost-fleet of masts', where: 'Background, toward the left', detail: 'Those faint vertical lines rising against the misty sky on the left are the masts of sailing ships at anchor in the outer harbour — including the tall, slim masts of the fast cargo clippers. Monet doesn’t draw the rigging; he barely suggests the poles. They’re a pale gray-blue ghost-fleet, there and not-there, exactly as a forest of masts looks across the water through morning fog.' },
-    { label: 'The working port is the whole point', where: 'A drifting smoke-plume on the left; cranes and derricks on the right', detail: 'This is an industrial harbour on both sides. To the left, beyond the masts, a plume of smoke drifts across the sky, leaning on a faint wind. To the right, look for the hazy shapes of dockside cranes and derricks (the tall arms that load cargo) and factory chimneys trailing more smoke. It’s not a pretty timeless seascape — it’s a modern working port at dawn, and the smoke and machinery are the subject, not background clutter.' },
-    { label: 'Paint that doesn’t pretend to be water', where: 'Across the lower half — the whole stretch of harbour surface', detail: 'The water is brushed in quick, loose horizontal strokes, wet and slithery, with no attempt to render individual waves or careful reflections. You can see the speed in it. This open, "unfinished" handling is exactly what critics attacked — one said wallpaper was more finished than this — but it’s deliberate: Monet wanted the liveness of a fleeting morning, which a slow polish would have killed.' },
-    { label: 'Where the sea and sky stop being two things', where: 'The middle band, where water meets sky', detail: 'Try to find the horizon line and you’ll struggle. Monet lets the gray water and the gray sky blur into each other in the haze, so there’s barely a seam between them. That dissolving of solid edges — the trick he absorbed from Turner and Whistler’s foggy Thames in London — is the whole atmosphere of the painting: a world softened into coloured air at first light.' },
+    { label: 'The sun, and the trail it drops', where: 'Upper area, a little above centre and slightly right of centre', detail: 'That small orange disk is the sun, low over the water through morning mist. Follow it straight down and you’ll find its reflection, not a smooth column of light but a broken, flickering streak of orange dabs on the gray water, the way a real reflection shatters on a moving surface. Both the sun and this trail were the very last marks Monet added, dropped warm onto a cool gray field.' },
+    { label: 'The brightest thing that isn’t bright', where: 'That same orange sun, upper area, slightly right of centre', detail: 'The sun looks like it blazes, but it’s almost exactly as bright as the gray sky around it, it only pops because of its warm orange colour against the cool gray. The proof: imagine the whole picture as a black-and-white copy, colour drained away. The sun nearly disappears into the sky. Its punch is a colour punch, not a brightness one, and that mismatch is why it seems to faintly shimmer: the part of your vision that pins down position can’t lock onto a sun it can’t even detect in gray, so your eye keeps re-aiming and never quite settles.' },
+    { label: 'Two boats, fading into the morning', where: 'Lower portion, toward the centre', detail: 'Two dark little boats sit low on the water, each with a figure aboard, somebody rowing or standing. The nearer one is a touch sharper; the farther one is fainter, half-dissolved into the haze. Don’t count too hard: the boats and figures are deliberately vague, painted as silhouettes, not described in detail. That softness is the point, it’s what the eye actually catches at dawn.' },
+    { label: 'A ghost-fleet of masts', where: 'Background, toward the left', detail: 'Those faint vertical lines rising against the misty sky on the left are the masts of sailing ships at anchor in the outer harbour, including the tall, slim masts of the fast cargo clippers. Monet doesn’t draw the rigging; he barely suggests the poles. They’re a pale gray-blue ghost-fleet, there and not-there, exactly as a forest of masts looks across the water through morning fog.' },
+    { label: 'The working port is the whole point', where: 'A drifting smoke-plume on the left; cranes and derricks on the right', detail: 'This is an industrial harbour on both sides. To the left, beyond the masts, a plume of smoke drifts across the sky, leaning on a faint wind. To the right, look for the hazy shapes of dockside cranes and derricks (the tall arms that load cargo) and factory chimneys trailing more smoke. It’s not a pretty timeless seascape, it’s a modern working port at dawn, and the smoke and machinery are the subject, not background clutter.' },
+    { label: 'Paint that doesn’t pretend to be water', where: 'Across the lower half, the whole stretch of harbour surface', detail: 'The water is brushed in quick, loose horizontal strokes, wet and slithery, with no attempt to render individual waves or careful reflections. You can see the speed in it. This open, "unfinished" handling is exactly what critics attacked, one said wallpaper was more finished than this, but it’s deliberate: Monet wanted the liveness of a fleeting morning, which a slow polish would have killed.' },
+    { label: 'Where the sea and sky stop being two things', where: 'The middle band, where water meets sky', detail: 'Try to find the horizon line and you’ll struggle. Monet lets the gray water and the gray sky blur into each other in the haze, so there’s barely a seam between them. That dissolving of solid edges, the trick he absorbed from Turner and Whistler’s foggy Thames in London, is the whole atmosphere of the painting: a world softened into coloured air at first light.' },
   ],
   lineage: {
     parents: [ { label: 'Turner', mode: 'art' }, { label: 'Whistler', mode: 'art' }, { label: 'Manet', mode: 'art' } ],
@@ -1955,7 +1955,7 @@ export const IMPRESSION_SUNRISE: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — La Grenouillère (Monet, 1869). The Impressionist method invented
+// Work, La Grenouillère (Monet, 1869). The Impressionist method invented
 // side by side with Renoir on the Seine, across the summer of 1869.
 // Authored through the art content pipeline; narrative under 'grenouillere'.
 // ─────────────────────────────────────────────────────────────
@@ -1976,7 +1976,7 @@ export const GRENOUILLERE: ArtWorkContent = {
   acquired: 'H. O. Havemeyer Collection, bequest of Mrs. H. O. Havemeyer, 1929',
   accent: ART_ACCENTS.blue,
   chain: { name: 'Works of Impressionism', index: 1, total: 9 },
-  hook: 'Two broke friends spent a summer on the Seine, easels next to each other — and worked out how to paint moving sun-struck water as paint.',
+  hook: 'Two broke friends spent a summer on the Seine, easels next to each other, and worked out how to paint moving sun-struck water as paint.',
   heroImage: ART_IMG.monetGrenouillere,
   heroCredit: 'Monet, La Grenouillère, 1869 · The Metropolitan Museum of Art, New York',
   heroAspect: 1.34, // 74.6 × 99.7 cm → W/H ≈ 1.336
@@ -1989,14 +1989,14 @@ export const GRENOUILLERE: ArtWorkContent = {
   ],
   sections: [
     { id: 'seine', eyebrow: 'Croissy · summer 1869', dateLabel: '1869', title: 'Croissy, summer 1869', blurb: 'Monet at Saint-Michel, Renoir at Voisins, both broke; the new Saint-Lazare railway puts Paris’s working class on the river for the afternoon, and the floating café "La Grenouillère" is where they all go.', progress: 0.08 },
-    { id: 'making', eyebrow: 'Two easels', dateLabel: 'July–Sept 1869', title: 'Two friends, one method', blurb: 'Monet & Renoir set up easels next to each other across the summer — not on a single day. The pochades they paint there invent a working method that will later be named Impressionism.', progress: 0.32 },
-    { id: 'looking', eyebrow: 'The canvas', dateLabel: '74.6 × 99.7 cm', title: 'What’s in the picture', blurb: 'The floating café, the round wooden "Camembert" island, day-trippers without faces, dark rowboats, small bathers in the water on the left, a band of dappled trees overhead — and water in jabs of separate color.', progress: 0.56 },
-    { id: 'break', eyebrow: 'Why it broke the rules', dateLabel: 'Then & now', title: 'A method, not a movement (yet)', blurb: 'Four breaks: sketch-as-finished-picture, paint that reads as moving water, figures-as-marks, modern leisure as a fit subject — the working method of Impressionism, found before the name.', progress: 0.8 },
+    { id: 'making', eyebrow: 'Two easels', dateLabel: 'July–Sept 1869', title: 'Two friends, one method', blurb: 'Monet & Renoir set up easels next to each other across the summer, not on a single day. The pochades they paint there invent a working method that will later be named Impressionism.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '74.6 × 99.7 cm', title: 'What’s in the picture', blurb: 'The floating café, the round wooden "Camembert" island, day-trippers without faces, dark rowboats, small bathers in the water on the left, a band of dappled trees overhead, and water in jabs of separate color.', progress: 0.56 },
+    { id: 'break', eyebrow: 'Why it broke the rules', dateLabel: 'Then & now', title: 'A method, not a movement (yet)', blurb: 'Four breaks: sketch-as-finished-picture, paint that reads as moving water, figures-as-marks, modern leisure as a fit subject, the working method of Impressionism, found before the name.', progress: 0.8 },
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1870–today', title: 'A lost tableau, three transcripts', blurb: 'The big Salon version, rejected in 1870, ends up in the Berlin Arnhold collection and is lost in WWII. The three surviving on-the-spot pochades sit in the Met, the Nationalmuseum (Stockholm) and the National Gallery (London).', progress: 0.96 },
   ],
   provenance: [
-    { year: '1869–c.1880s', who: 'Claude Monet (the artist)', place: 'France', note: 'Painted on the spot at La Grenouillère, Croissy-sur-Seine, summer 1869 — one of several pochades Monet wrote to Bazille about that season.', price: null },
-    { year: 'c.1880s–1897', who: 'Édouard / Suzanne Manet, then Durand-Ruel circle', place: 'Paris', note: 'Tentatively passed to Manet’s widow Suzanne Leenhoff after his death (1883); circulated through Paul Durand-Ruel’s gallery in the 1880s–90s — the chain has some hedge in the documentation.', price: null },
+    { year: '1869–c.1880s', who: 'Claude Monet (the artist)', place: 'France', note: 'Painted on the spot at La Grenouillère, Croissy-sur-Seine, summer 1869, one of several pochades Monet wrote to Bazille about that season.', price: null },
+    { year: 'c.1880s–1897', who: 'Édouard / Suzanne Manet, then Durand-Ruel circle', place: 'Paris', note: 'Tentatively passed to Manet’s widow Suzanne Leenhoff after his death (1883); circulated through Paul Durand-Ruel’s gallery in the 1880s–90s, the chain has some hedge in the documentation.', price: null },
     { year: '1897–1929', who: 'H. O. and Louisine Havemeyer', place: 'New York', note: 'The great American Impressionist collectors bought it 27 September 1897 (~12,500 francs), guided by their friend Mary Cassatt. Held in their Fifth Avenue collection for three decades.', price: '~12,500 fr' },
     { year: '1929–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Louisine Havemeyer’s 1929 bequest brings hundreds of Impressionist canvases into the Met, this one among them (acc. 29.100.112). On permanent view.', price: 'bequest', museum: true },
   ],
@@ -2007,12 +2007,12 @@ export const GRENOUILLERE: ArtWorkContent = {
     { name: 'H. O. & Louisine Havemeyer', role: 'American collectors who bought it', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
   ],
   annotations: [
-    { label: 'The floating café and its little round island', where: 'Middle distance, dead center — the round wooded island and the wooden gangplank running out to the flat platform', detail: 'That fat round green island in the middle is the one locals nicknamed "Le Camembert," after the round French cheese. The narrow wooden gangplank running out from it leads to the rectangular floating platform — the bathing-and-dance pavilion of La Grenouillère itself, where everyone is hanging out. Monet paints the planking as broad horizontal slabs of olive green and warm gray, no fussy plank-by-plank detail; the whole pavilion reads as a flat stage, the people on it as a cast.' },
-    { label: 'Clerks and shopgirls with no faces', where: 'On the platform and along the gangplank, just above center', detail: 'Look for the dark-suited figures clustered on the platform and walking the gangplank. They’re Parisian day-trippers in their Sunday best — clerks, shopgirls, students — out from the city by train for the afternoon. They’re painted only a few inches high, as wedges of dark paint with pale highlights, with no faces at all. From across the river in glare, this is exactly what a small crowd looks like — silhouettes, not portraits.' },
-    { label: 'Tilted hulls in the foreground', where: 'Lower left foreground, along the bank — the prows of several boats jutting out', detail: 'Those tilted dark wedges with pale ribs along the bottom-left are the bows of rowboats and skiffs tied along the riverbank — long-bellied wooden boats you’d rent for the afternoon. Monet paints them as solid dark masses with little pale highlights along the gunwale (the boat’s upper edge) catching the sun. They are the heaviest, darkest paint in the picture, anchoring the corner.' },
-    { label: 'A few brushstrokes that happen to be people in the river', where: 'Middle distance on the LEFT side of the canvas — small figures in the water, just past the rowboats and over toward the floating pavilion', detail: 'Half-immersed in the water on the LEFT side of the picture, well back from the bank and just shy of the floating pavilion, is a small cluster of bathers — men and women in white or dark shirts, standing waist-deep on a hot afternoon. They are easy to miss because they’re small and set back. Each one is only a few broken brushstrokes. They have no faces.' },
-    { label: 'Choppy water in separate dashes of color', where: 'The whole lower two-thirds of the canvas — the entire stretch of river surface', detail: 'This is the technical headline of the picture. Look closely and the water is not painted as a smooth pane or a mirror — it’s slate blue, emerald, white, ochre, and dark brown, slashed across in short, separate, mostly-horizontal jabs of unmixed paint. Where the trees on the far bank reflect, Monet doesn’t paint a mirrored shape — he paints continuous horizontal bars in the colors of the reflection. Step back and your eye does the mixing on its own.' },
-    { label: 'Summer foliage in unblended greens', where: 'The upper third — the dense band of trees on the far bank', detail: 'The whole top third of the canvas is trees — dense summer foliage on the far bank, painted in unblended greens and yellow-greens with dapples of warm light and pockets of dark shadow stitched into them. There is essentially no sky visible above; the picture’s light isn’t coming down from a blue band overhead, it is bouncing up off the water.' },
+    { label: 'The floating café and its little round island', where: 'Middle distance, dead center, the round wooded island and the wooden gangplank running out to the flat platform', detail: 'That fat round green island in the middle is the one locals nicknamed "Le Camembert," after the round French cheese. The narrow wooden gangplank running out from it leads to the rectangular floating platform, the bathing-and-dance pavilion of La Grenouillère itself, where everyone is hanging out. Monet paints the planking as broad horizontal slabs of olive green and warm gray, no fussy plank-by-plank detail; the whole pavilion reads as a flat stage, the people on it as a cast.' },
+    { label: 'Clerks and shopgirls with no faces', where: 'On the platform and along the gangplank, just above center', detail: 'Look for the dark-suited figures clustered on the platform and walking the gangplank. They’re Parisian day-trippers in their Sunday best, clerks, shopgirls, students, out from the city by train for the afternoon. They’re painted only a few inches high, as wedges of dark paint with pale highlights, with no faces at all. From across the river in glare, this is exactly what a small crowd looks like, silhouettes, not portraits.' },
+    { label: 'Tilted hulls in the foreground', where: 'Lower left foreground, along the bank, the prows of several boats jutting out', detail: 'Those tilted dark wedges with pale ribs along the bottom-left are the bows of rowboats and skiffs tied along the riverbank, long-bellied wooden boats you’d rent for the afternoon. Monet paints them as solid dark masses with little pale highlights along the gunwale (the boat’s upper edge) catching the sun. They are the heaviest, darkest paint in the picture, anchoring the corner.' },
+    { label: 'A few brushstrokes that happen to be people in the river', where: 'Middle distance on the LEFT side of the canvas, small figures in the water, just past the rowboats and over toward the floating pavilion', detail: 'Half-immersed in the water on the LEFT side of the picture, well back from the bank and just shy of the floating pavilion, is a small cluster of bathers, men and women in white or dark shirts, standing waist-deep on a hot afternoon. They are easy to miss because they’re small and set back. Each one is only a few broken brushstrokes. They have no faces.' },
+    { label: 'Choppy water in separate dashes of color', where: 'The whole lower two-thirds of the canvas, the entire stretch of river surface', detail: 'This is the technical headline of the picture. Look closely and the water is not painted as a smooth pane or a mirror, it’s slate blue, emerald, white, ochre, and dark brown, slashed across in short, separate, mostly-horizontal jabs of unmixed paint. Where the trees on the far bank reflect, Monet doesn’t paint a mirrored shape, he paints continuous horizontal bars in the colors of the reflection. Step back and your eye does the mixing on its own.' },
+    { label: 'Summer foliage in unblended greens', where: 'The upper third, the dense band of trees on the far bank', detail: 'The whole top third of the canvas is trees, dense summer foliage on the far bank, painted in unblended greens and yellow-greens with dapples of warm light and pockets of dark shadow stitched into them. There is essentially no sky visible above; the picture’s light isn’t coming down from a blue band overhead, it is bouncing up off the water.' },
   ],
   lineage: {
     parents: [ { label: 'Manet · Déjeuner', mode: 'art' }, { label: 'Barbizon plein air', mode: 'art' }, { label: 'Saint-Lazare railway', mode: 'civ' } ],
@@ -2021,7 +2021,7 @@ export const GRENOUILLERE: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — The Cradle (Morisot, 1872). Morisot's sister Edma watching her own
+// Work, The Cradle (Morisot, 1872). Morisot's sister Edma watching her own
 // sleeping daughter Blanche; debuted at the FIRST Impressionist Exhibition 1874.
 // ─────────────────────────────────────────────────────────────
 export const CRADLE: ArtWorkContent = {
@@ -2041,7 +2041,7 @@ export const CRADLE: ArtWorkContent = {
   acquired: 'Bought by the Louvre from Blanche Pontillon Forget in 1930, 300,000 francs; transferred to the Musée d’Orsay 1986',
   accent: ART_ACCENTS.blue,
   chain: { name: 'Works of Impressionism', index: 3, total: 9 },
-  hook: 'Berthe Morisot’s sister Edma watching her own sleeping daughter through a veil of paint — by the only woman to show at the first Impressionist exhibition.',
+  hook: 'Berthe Morisot’s sister Edma watching her own sleeping daughter through a veil of paint, by the only woman to show at the first Impressionist exhibition.',
   heroImage: ART_IMG.morisotCradle,
   heroCredit: 'Morisot, The Cradle, 1872 · Musée d’Orsay, Paris',
   heroAspect: 0.83, // 56 × 46.5 cm portrait → W/H ≈ 0.83
@@ -2053,33 +2053,33 @@ export const CRADLE: ArtWorkContent = {
     { v: 'Orsay', k: 'Now at' },
   ],
   sections: [
-    { id: 'sister', eyebrow: 'Two sisters', dateLabel: '1869–1872', title: 'The sister who quit, and the one who didn’t', blurb: 'Berthe and Edma both trained as painters; Edma — the more praised early on — quit on her marriage in 1869. Berthe, who didn’t, painted her sister into one of the most famous paintings of motherhood ever made.', progress: 0.08 },
-    { id: 'making', eyebrow: 'The wall of access', dateLabel: '1872', title: 'The room she could observe', blurb: 'A respectable bourgeois woman in 1872 Paris could not sit alone in a café, go backstage at the ballet, or stand at the Folies-Bergère bar. Morisot painted what she could see — the nursery — and turned the access-wall into a method.', progress: 0.32 },
+    { id: 'sister', eyebrow: 'Two sisters', dateLabel: '1869–1872', title: 'The sister who quit, and the one who didn’t', blurb: 'Berthe and Edma both trained as painters; Edma, the more praised early on, quit on her marriage in 1869. Berthe, who didn’t, painted her sister into one of the most famous paintings of motherhood ever made.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The wall of access', dateLabel: '1872', title: 'The room she could observe', blurb: 'A respectable bourgeois woman in 1872 Paris could not sit alone in a café, go backstage at the ballet, or stand at the Folies-Bergère bar. Morisot painted what she could see, the nursery, and turned the access-wall into a method.', progress: 0.32 },
     { id: 'looking', eyebrow: 'The canvas', dateLabel: '56 × 46.5 cm', title: 'Edma, the gauze, and the baby through it', blurb: 'Edma seated on the left in a dark blue jacket, the cradle hung with translucent white gauze on the right, the sleeping Blanche just visible through the veil. The lightest, most translucent touch in the whole movement.', progress: 0.56 },
-    { id: 'show', eyebrow: 'First Impressionist Exhibition', dateLabel: 'April 1874', title: 'The only woman in the show', blurb: 'Listed in the catalogue at 800 francs and did NOT sell. Morisot — the only woman among the 30 artists — exhibited nine works in the show that gave the movement its name; she married Eugène Manet (Édouard’s brother) eight months later.', progress: 0.8 },
+    { id: 'show', eyebrow: 'First Impressionist Exhibition', dateLabel: 'April 1874', title: 'The only woman in the show', blurb: 'Listed in the catalogue at 800 francs and did NOT sell. Morisot, the only woman among the 30 artists, exhibited nine works in the show that gave the movement its name; she married Eugène Manet (Édouard’s brother) eight months later.', progress: 0.8 },
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1875–today', title: 'The sister who didn’t quit put it there', blurb: 'Descended within the family to Blanche herself; the Louvre bought it from Blanche Forget in 1930 for 300,000 francs; transferred to the Musée d’Orsay 1986. On permanent view.', progress: 0.96 },
   ],
   provenance: [
     { year: '1872–1874', who: 'Berthe Morisot (the artist)', place: 'Paris', note: 'Painted in 1872; kept by the artist. She married Eugène Manet (Édouard’s brother) on 22 December 1874, after the spring 1874 exhibition.', price: null },
     { year: '1874', who: 'Société Anonyme · 1st Impressionist Exhibition', place: 'Paris (35 bd des Capucines)', note: 'Listed in the catalogue at 800 francs. Did not sell. Morisot was the only woman among the thirty exhibitors.', price: '800 fr (listed; unsold)' },
-    { year: '1874–1930', who: 'Berthe Morisot → Eugène Manet → Julie Manet → Edma Pontillon → Blanche Pontillon Forget', place: 'Paris', note: 'Stayed in the family through the next two generations and ultimately came to Blanche Pontillon Forget — the very baby asleep in the cradle in the picture.', price: null },
-    { year: '1930–1986', who: 'Musée du Louvre', place: 'Paris', note: 'Bought from Blanche Pontillon Forget in 1930 for 300,000 francs — the State finally paying for what it had been offered for 800 fifty-six years earlier.', price: '300,000 fr', museum: true },
+    { year: '1874–1930', who: 'Berthe Morisot → Eugène Manet → Julie Manet → Edma Pontillon → Blanche Pontillon Forget', place: 'Paris', note: 'Stayed in the family through the next two generations and ultimately came to Blanche Pontillon Forget, the very baby asleep in the cradle in the picture.', price: null },
+    { year: '1930–1986', who: 'Musée du Louvre', place: 'Paris', note: 'Bought from Blanche Pontillon Forget in 1930 for 300,000 francs, the State finally paying for what it had been offered for 800 fifty-six years earlier.', price: '300,000 fr', museum: true },
     { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'Transferred from the Louvre when the Orsay opened in 1986. On permanent view.', price: null, museum: true },
   ],
   figures: [
     { name: 'Berthe Morisot', role: 'The painter', palette: ['#9aa0a4', '#5a6066', '#1a1e22'] },
     { name: 'Edma Pontillon (née Morisot)', role: 'Her sister, the figure in the painting', palette: ['#6a5a7a', '#332a3e', '#0e0a16'] },
     { name: 'Blanche Pontillon', role: 'Edma’s daughter, the baby in the cradle', palette: ['#e4d6c0', '#a08858', '#3a2a14'] },
-    { name: 'Eugène Manet', role: 'Édouard’s brother — Morisot married him Dec 1874', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Eugène Manet', role: 'Édouard’s brother, Morisot married him Dec 1874', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
     { name: 'Édouard Manet', role: 'The reluctant patriarch (NOT her husband)', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
   ],
   annotations: [
-    { label: 'The whole picture is one act of looking', where: 'Left two-thirds — the seated woman in the dark blue jacket', detail: 'Find her eyes first; they’re aimed down and to the viewer’s right, into the cradle. Her near arm (the one closer to you) is bent up so that her hand rests against her cheek, fingers curled under her chin; her other arm reaches forward to lay its hand on the cradle’s lower rail. One hand at her face, one hand on the rail. It’s the posture of a person who has stopped doing anything and is simply watching. The diagonal of her gaze, meeting the diagonal of the cradle’s gauze sloping up to its peak on the right, is the picture’s main compositional X.' },
-    { label: 'A curtain made by not quite painting one', where: 'Right third — the white drape that covers the entire cradle, peaking at the right edge', detail: 'That whole pale veil over the cot is translucent white gauze, the period’s standard cradle netting against flies and dust. Look at how it’s painted: a handful of rapid, thin, oyster-white passes, dragged loose enough that in places the warmer ground underneath glimmers through. At arm’s length the strokes resolve into fabric — into the unmistakable softness of real gauze in folds. Step closer and they come apart into individual brushstrokes again. That oscillation is the picture’s signature technical move.' },
-    { label: 'Blanche, just visible', where: 'Inside the upper portion of the draped cradle, under the gauze, on the right side of the canvas', detail: 'Look hard at the upper portion of the drape — the part nearer the peak on the right — and you’ll start to make out, under the gauze, the soft paler oval of the sleeping infant’s closed eyes, and lower, the suggestion of a tiny fisted hand. That is Blanche Pontillon, born 1871, asleep here at perhaps a year old. Morisot has painted the sheer fabric AND the thing on the other side of it in the same passage, with neither cancelling the other.' },
-    { label: 'Mother and child make the same shape', where: 'Edma’s bent near arm (left side of canvas, hand at her cheek) and Blanche’s bent little arm (inside the cradle, on the right)', detail: 'Look at Edma’s near arm — elbow tucked, hand up to her cheek — then look at the baby’s bent little arm under the gauze, tucked up near her face. They are, very nearly, the same shape. Two bent elbows, two raised hands, mirrored across the divide of the veil. That match is hidden in the geometry, not declared in words — Morisot trusts you to find it.' },
-    { label: 'One dark mass that lets everything else sing', where: 'Edma’s dark blue jacket (left two-thirds) and the white-veiled cradle (right third)', detail: 'Almost the entire picture is made of whites, oysters, pale greys and one quiet flesh tone. The single anchoring dark note is Edma’s jacket — and it isn’t black. Look longer at it: it’s a deep saturated navy-indigo, with a small white lace ruffle at the collar and a thin black ribbon at her throat. That dark blue mass is the gravitational center of the canvas: it lets all the white air around it read as pure light.' },
-    { label: 'A nursery with the door shut and the noise turned off', where: 'The sheer pale curtain falling in from the upper-left corner; the plain darker wall behind Edma', detail: 'The room is deliberately almost empty, and Morisot has emptied it with intent. The sheer vertical curtain falling in from the upper-left is painted in exactly the same translucent handling as the cradle’s gauze on the right — both veils of paint bracket Edma between them. Behind her: no wallpaper pattern, no frame, no mantel — just a quiet darker field. Soft daylight from the upper-left; no hard shadow anywhere.' },
+    { label: 'The whole picture is one act of looking', where: 'Left two-thirds, the seated woman in the dark blue jacket', detail: 'Find her eyes first; they’re aimed down and to the viewer’s right, into the cradle. Her near arm (the one closer to you) is bent up so that her hand rests against her cheek, fingers curled under her chin; her other arm reaches forward to lay its hand on the cradle’s lower rail. One hand at her face, one hand on the rail. It’s the posture of a person who has stopped doing anything and is simply watching. The diagonal of her gaze, meeting the diagonal of the cradle’s gauze sloping up to its peak on the right, is the picture’s main compositional X.' },
+    { label: 'A curtain made by not quite painting one', where: 'Right third, the white drape that covers the entire cradle, peaking at the right edge', detail: 'That whole pale veil over the cot is translucent white gauze, the period’s standard cradle netting against flies and dust. Look at how it’s painted: a handful of rapid, thin, oyster-white passes, dragged loose enough that in places the warmer ground underneath glimmers through. At arm’s length the strokes resolve into fabric, into the unmistakable softness of real gauze in folds. Step closer and they come apart into individual brushstrokes again. That oscillation is the picture’s signature technical move.' },
+    { label: 'Blanche, just visible', where: 'Inside the upper portion of the draped cradle, under the gauze, on the right side of the canvas', detail: 'Look hard at the upper portion of the drape, the part nearer the peak on the right, and you’ll start to make out, under the gauze, the soft paler oval of the sleeping infant’s closed eyes, and lower, the suggestion of a tiny fisted hand. That is Blanche Pontillon, born 1871, asleep here at perhaps a year old. Morisot has painted the sheer fabric AND the thing on the other side of it in the same passage, with neither cancelling the other.' },
+    { label: 'Mother and child make the same shape', where: 'Edma’s bent near arm (left side of canvas, hand at her cheek) and Blanche’s bent little arm (inside the cradle, on the right)', detail: 'Look at Edma’s near arm, elbow tucked, hand up to her cheek, then look at the baby’s bent little arm under the gauze, tucked up near her face. They are, very nearly, the same shape. Two bent elbows, two raised hands, mirrored across the divide of the veil. That match is hidden in the geometry, not declared in words, Morisot trusts you to find it.' },
+    { label: 'One dark mass that lets everything else sing', where: 'Edma’s dark blue jacket (left two-thirds) and the white-veiled cradle (right third)', detail: 'Almost the entire picture is made of whites, oysters, pale greys and one quiet flesh tone. The single anchoring dark note is Edma’s jacket, and it isn’t black. Look longer at it: it’s a deep saturated navy-indigo, with a small white lace ruffle at the collar and a thin black ribbon at her throat. That dark blue mass is the gravitational center of the canvas: it lets all the white air around it read as pure light.' },
+    { label: 'A nursery with the door shut and the noise turned off', where: 'The sheer pale curtain falling in from the upper-left corner; the plain darker wall behind Edma', detail: 'The room is deliberately almost empty, and Morisot has emptied it with intent. The sheer vertical curtain falling in from the upper-left is painted in exactly the same translucent handling as the cradle’s gauze on the right, both veils of paint bracket Edma between them. Behind her: no wallpaper pattern, no frame, no mantel, just a quiet darker field. Soft daylight from the upper-left; no hard shadow anywhere.' },
   ],
   lineage: {
     parents: [ { label: 'Manet · scandals', mode: 'art' }, { label: 'Dutch interiors', mode: 'art' }, { label: 'The wall of access', mode: 'civ' } ],
@@ -2088,7 +2088,7 @@ export const CRADLE: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Bal du moulin de la Galette (Renoir, 1876). Sunday at a Montmartre
+// Work, Bal du moulin de la Galette (Renoir, 1876). Sunday at a Montmartre
 // dance garden, modern leisure painted at history-painting scale.
 // ─────────────────────────────────────────────────────────────
 export const MOULIN_GALETTE: ArtWorkContent = {
@@ -2108,7 +2108,7 @@ export const MOULIN_GALETTE: ArtWorkContent = {
   acquired: 'Caillebotte bequest, 1896 (Luxembourg → Louvre 1929 → Jeu de Paume 1947 → Musée d’Orsay 1986)',
   accent: ART_ACCENTS.blue,
   chain: { name: 'Works of Impressionism', index: 5, total: 9 },
-  hook: 'A Sunday at a Montmartre dance garden, painted at the size the Salon kept for history — and given to a crowd of working-class Parisians at four o’clock.',
+  hook: 'A Sunday at a Montmartre dance garden, painted at the size the Salon kept for history, and given to a crowd of working-class Parisians at four o’clock.',
   heroImage: ART_IMG.renoirMoulinGalette,
   heroCredit: 'Renoir, Bal du moulin de la Galette, 1876 · Musée d’Orsay, Paris',
   heroAspect: 1.34, // 131 × 175 cm → W/H ≈ 1.336
@@ -2120,17 +2120,17 @@ export const MOULIN_GALETTE: ArtWorkContent = {
     { v: 'Orsay', k: 'Now at' },
   ],
   sections: [
-    { id: 'montmartre', eyebrow: 'Montmartre', dateLabel: '1876', title: 'Sunday at the windmill', blurb: 'The Moulin de la Galette was an open-air dance garden at the foot of two surviving Debray windmills (Blute-Fin and Radet) — a Sunday spot for the working-class Montmartre crowd of seamstresses, milliners, clerks and journeymen.', progress: 0.08 },
-    { id: 'making', eyebrow: 'A class provocation at history-painting scale', dateLabel: '1876', title: 'Paint the Sunday at the size of a king', blurb: 'Nearly six feet wide — the canvas Europe kept for the death of generals — spent on shopgirls dancing. The provocation was the scale, the dappled sun was the method.', progress: 0.32 },
+    { id: 'montmartre', eyebrow: 'Montmartre', dateLabel: '1876', title: 'Sunday at the windmill', blurb: 'The Moulin de la Galette was an open-air dance garden at the foot of two surviving Debray windmills (Blute-Fin and Radet), a Sunday spot for the working-class Montmartre crowd of seamstresses, milliners, clerks and journeymen.', progress: 0.08 },
+    { id: 'making', eyebrow: 'A class provocation at history-painting scale', dateLabel: '1876', title: 'Paint the Sunday at the size of a king', blurb: 'Nearly six feet wide, the canvas Europe kept for the death of generals, spent on shopgirls dancing. The provocation was the scale, the dappled sun was the method.', progress: 0.32 },
     { id: 'looking', eyebrow: 'The canvas', dateLabel: '131 × 175 cm', title: 'What you find in the crowd', blurb: 'The dancing couple at the centre, the seated friends in the right foreground (Goeneutte, Rivière, Estelle Samary), the pink-violet sunspots on a dark jacket, the unlit paper-globe lanterns strung overhead.', progress: 0.56 },
-    { id: 'show', eyebrow: '3rd Impressionist Exhibition', dateLabel: 'April 1877', title: 'The third show, not the Salon', blurb: 'Hung at the 3rd Impressionist Exhibition, rue Le Peletier, April 1877 — NOT the Salon. Some critics scornful, Georges Rivière (in his journal L’Impressionniste) wrote the great defense.', progress: 0.8 },
-    { id: 'afterlife', eyebrow: 'After', dateLabel: '1879–today', title: 'The bequest that finally took it inside', blurb: 'Caillebotte bought it from Renoir in 1879 and left it to France in his will. Accepted in 1896, hung at the Luxembourg — the first Impressionist room in a French public museum. To the Louvre 1929, Jeu de Paume 1947, Orsay 1986.', progress: 0.96 },
+    { id: 'show', eyebrow: '3rd Impressionist Exhibition', dateLabel: 'April 1877', title: 'The third show, not the Salon', blurb: 'Hung at the 3rd Impressionist Exhibition, rue Le Peletier, April 1877, NOT the Salon. Some critics scornful, Georges Rivière (in his journal L’Impressionniste) wrote the great defense.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1879–today', title: 'The bequest that finally took it inside', blurb: 'Caillebotte bought it from Renoir in 1879 and left it to France in his will. Accepted in 1896, hung at the Luxembourg, the first Impressionist room in a French public museum. To the Louvre 1929, Jeu de Paume 1947, Orsay 1986.', progress: 0.96 },
   ],
   provenance: [
     { year: '1876–1879', who: 'Pierre-Auguste Renoir', place: 'Paris', note: 'Painted in Renoir’s rue Cortot studio, around the corner from the Moulin de la Galette itself; shown at the 3rd Impressionist Exhibition, April 1877.', price: null },
-    { year: '1879–1894', who: 'Gustave Caillebotte', place: 'Paris', note: 'Caillebotte — engineer-painter, patron, and the group’s banker — bought the canvas from Renoir in 1879 (NOT a commission). He held it in his collection until his death.', price: 'sale' },
+    { year: '1879–1894', who: 'Gustave Caillebotte', place: 'Paris', note: 'Caillebotte, engineer-painter, patron, and the group’s banker, bought the canvas from Renoir in 1879 (NOT a commission). He held it in his collection until his death.', price: 'sale' },
     { year: '1894–1896', who: 'The French State (in negotiation)', place: 'Paris', note: 'Caillebotte left his Impressionist collection to France in his will; the Académie des Beaux-Arts resisted, with Gérôme reportedly leading the objection. After negotiation only 38 of the bequeathed works were accepted in 1896; this canvas was among them.', price: null },
-    { year: '1896–today', who: 'Musée du Luxembourg → Musée du Louvre → Musée du Jeu de Paume → Musée d’Orsay', place: 'Paris', note: 'Unveiled in the Caillebotte room at the Musée du Luxembourg, February 1897 — the first time the Impressionists hung in a French public museum, twenty-three years after the first show. Louvre 1929; Jeu de Paume 1947; Orsay 1986. On permanent view.', price: 'gift to the nation', museum: true },
+    { year: '1896–today', who: 'Musée du Luxembourg → Musée du Louvre → Musée du Jeu de Paume → Musée d’Orsay', place: 'Paris', note: 'Unveiled in the Caillebotte room at the Musée du Luxembourg, February 1897, the first time the Impressionists hung in a French public museum, twenty-three years after the first show. Louvre 1929; Jeu de Paume 1947; Orsay 1986. On permanent view.', price: 'gift to the nation', museum: true },
   ],
   figures: [
     { name: 'Pierre-Auguste Renoir', role: 'The painter', palette: ['#b07a62', '#5a3a2a', '#1a0e0a'] },
@@ -2140,13 +2140,13 @@ export const MOULIN_GALETTE: ArtWorkContent = {
     { name: 'Estelle Samary', role: 'Neighborhood model, the woman in the striped dress', palette: ['#a87880', '#5a3a4a', '#1a0e10'] },
   ],
   annotations: [
-    { label: 'The dancing couple, dead center', where: 'Middle ground, roughly the center of the canvas, slightly left', detail: 'Find them just behind the seated table group: a couple dancing, the woman in a pale pink dress with her back partly to us, her partner facing her. They are not the loudest figures in the picture — Renoir is subtler than that — but they’re the structural anchor. The painting is about dancing, and here, almost at dead center, is a couple dancing. Don’t try to name them; they’re part of the soft middle-ground crowd, deliberately unspecified, the type rather than the individual. Once you find them, the whole composition snaps into place around them.' },
+    { label: 'The dancing couple, dead center', where: 'Middle ground, roughly the center of the canvas, slightly left', detail: 'Find them just behind the seated table group: a couple dancing, the woman in a pale pink dress with her back partly to us, her partner facing her. They are not the loudest figures in the picture, Renoir is subtler than that, but they’re the structural anchor. The painting is about dancing, and here, almost at dead center, is a couple dancing. Don’t try to name them; they’re part of the soft middle-ground crowd, deliberately unspecified, the type rather than the individual. Once you find them, the whole composition snaps into place around them.' },
     { label: 'The seated friends, front right', where: 'Lower-right corner of the canvas', detail: 'A small round café table with a green wine bottle and glasses, three of Renoir’s friends around it, painted with noticeably more definition than the dancing crowd behind. The man in profile in the straw boater is the painter Norbert Goeneutte. The man facing us, leaning forward, is the writer Georges Rivière. The young woman leaning back against the bench in the striped pink-and-blue dress is Estelle Samary, a neighborhood model. These are Renoir’s actual Sunday afternoon, pinned down in the corner of the picture.' },
-    { label: 'A coin of sunlight on a dark suit', where: 'Lower foreground, on the back of the man in the dark jacket leaning into the picture', detail: 'Look for a clear pink-violet patch on the back of the dark suit — the same color as nothing else in the picture except other sunspots. Up close it looks like a bizarre mauve smear sitting on the cloth; from across a room it reads instantly as a coin of afternoon sunlight falling through leaves. This is the painting’s signature trick: dappled sun painted as discrete dabs of warm color, not as a general golden wash.' },
-    { label: 'Lanterns waiting for nightfall', where: 'Upper third of the canvas, strung between the trees on wires', detail: 'Round paper-globe lanterns are strung overhead between the acacia trees that close over the garden. They are unlit — it’s still daylight, mid-afternoon — but they’re set up to light the place when the sun goes down and the dancing carries into the evening. They are the only lighting fixtures on the canvas (no gas lamps on posts, no standing fixtures — just these paper globes on wires).' },
-    { label: 'A pink-and-blue rhyme across the front', where: 'Lower-right (seated) and lower-left (dancing)', detail: 'Two young women are wearing striped pink-and-blue dresses, mirrored across the bottom of the canvas. In the front right, Estelle Samary leans back against the bench in one. In the front left, Renoir’s model Margot dances in another. Renoir liked to compose with rhymes — colors and shapes echoed across a picture — and this is the most visible one in the painting.' },
-    { label: 'No pure white, no hard black', where: 'Everywhere across the canvas', detail: 'Scan the picture for pure white. You won’t find any. The "white" dresses are pale pink, lilac, and soft blue. Now scan for hard black shadows. Also gone — the "black" suits are warm grays and slightly-purpled blacks, and the shadows on the ground are warm, not cold. By keeping the extremes off the canvas, Renoir lets every color belong to the warm afternoon air.' },
-    { label: 'Edges that blur on purpose', where: 'The whole middle-ground crowd, especially the dancers receding into the trees', detail: 'Try to find a sharp drawn edge anywhere in the dancing crowd. There almost isn’t one. Faces are soft, dresses bleed into the air around them, the far crowd dissolves into atmosphere. This is deliberate — Renoir is painting the way the eye really sees a moving crowd in shifting light: you focus on one face at a time and the rest blurs at the edges of your attention.' },
+    { label: 'A coin of sunlight on a dark suit', where: 'Lower foreground, on the back of the man in the dark jacket leaning into the picture', detail: 'Look for a clear pink-violet patch on the back of the dark suit, the same color as nothing else in the picture except other sunspots. Up close it looks like a bizarre mauve smear sitting on the cloth; from across a room it reads instantly as a coin of afternoon sunlight falling through leaves. This is the painting’s signature trick: dappled sun painted as discrete dabs of warm color, not as a general golden wash.' },
+    { label: 'Lanterns waiting for nightfall', where: 'Upper third of the canvas, strung between the trees on wires', detail: 'Round paper-globe lanterns are strung overhead between the acacia trees that close over the garden. They are unlit, it’s still daylight, mid-afternoon, but they’re set up to light the place when the sun goes down and the dancing carries into the evening. They are the only lighting fixtures on the canvas (no gas lamps on posts, no standing fixtures, just these paper globes on wires).' },
+    { label: 'A pink-and-blue rhyme across the front', where: 'Lower-right (seated) and lower-left (dancing)', detail: 'Two young women are wearing striped pink-and-blue dresses, mirrored across the bottom of the canvas. In the front right, Estelle Samary leans back against the bench in one. In the front left, Renoir’s model Margot dances in another. Renoir liked to compose with rhymes, colors and shapes echoed across a picture, and this is the most visible one in the painting.' },
+    { label: 'No pure white, no hard black', where: 'Everywhere across the canvas', detail: 'Scan the picture for pure white. You won’t find any. The "white" dresses are pale pink, lilac, and soft blue. Now scan for hard black shadows. Also gone, the "black" suits are warm grays and slightly-purpled blacks, and the shadows on the ground are warm, not cold. By keeping the extremes off the canvas, Renoir lets every color belong to the warm afternoon air.' },
+    { label: 'Edges that blur on purpose', where: 'The whole middle-ground crowd, especially the dancers receding into the trees', detail: 'Try to find a sharp drawn edge anywhere in the dancing crowd. There almost isn’t one. Faces are soft, dresses bleed into the air around them, the far crowd dissolves into atmosphere. This is deliberate, Renoir is painting the way the eye really sees a moving crowd in shifting light: you focus on one face at a time and the rest blurs at the edges of your attention.' },
   ],
   lineage: {
     parents: [ { label: 'Manet · modern life', mode: 'art' }, { label: 'Rococo crowd scenes', mode: 'art' }, { label: 'Haussmann Sunday', mode: 'civ' } ],
@@ -2155,7 +2155,7 @@ export const MOULIN_GALETTE: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Paris Street; Rainy Day (Caillebotte, 1877). The cool, almost-photographic
+// Work, Paris Street; Rainy Day (Caillebotte, 1877). The cool, almost-photographic
 // vast canvas of Parisians under umbrellas at a Haussmann boulevard intersection.
 // ─────────────────────────────────────────────────────────────
 export const PARIS_STREET: ArtWorkContent = {
@@ -2175,7 +2175,7 @@ export const PARIS_STREET: ArtWorkContent = {
   acquired: 'Charles H. and Mary F. S. Worcester Collection, 1964 (acc. 1964.336)',
   accent: ART_ACCENTS.blue,
   chain: { name: 'Works of Impressionism', index: 8, total: 9 },
-  hook: 'A nine-foot canvas of bourgeois Parisians under umbrellas at a wet Haussmann intersection — painted so cool and so sharp it was the LEAST Impressionist picture in the third Impressionist show.',
+  hook: 'A nine-foot canvas of bourgeois Parisians under umbrellas at a wet Haussmann intersection, painted so cool and so sharp it was the LEAST Impressionist picture in the third Impressionist show.',
   heroImage: ART_IMG.caillebotteParisStreet,
   heroCredit: 'Caillebotte, Paris Street; Rainy Day, 1877 · Art Institute of Chicago',
   heroAspect: 1.3, // 212.2 × 276.2 cm → W/H ≈ 1.302
@@ -2188,15 +2188,15 @@ export const PARIS_STREET: ArtWorkContent = {
   ],
   sections: [
     { id: 'haussmann', eyebrow: 'Haussmann’s Paris', dateLabel: '1853–1877', title: 'The rebuilt city as subject', blurb: 'Baron Haussmann’s twenty-year gut-and-rebuild of Paris created the long cream boulevards and the wedge intersections that Caillebotte painted. The specific intersection: Place de Dublin (then Carrefour de Moscou), east of Gare Saint-Lazare.', progress: 0.08 },
-    { id: 'making', eyebrow: 'An engineer-painter', dateLabel: '1876–77', title: 'Built like a building', blurb: 'Caillebotte the wealthy engineer-painter (no Salon battles needed; he financed several Impressionist shows). Nine feet wide, built on one-point perspective with a vanishing point above the central lamppost — almost architectural precision.', progress: 0.32 },
+    { id: 'making', eyebrow: 'An engineer-painter', dateLabel: '1876–77', title: 'Built like a building', blurb: 'Caillebotte the wealthy engineer-painter (no Salon battles needed; he financed several Impressionist shows). Nine feet wide, built on one-point perspective with a vanishing point above the central lamppost, almost architectural precision.', progress: 0.32 },
     { id: 'looking', eyebrow: 'The canvas', dateLabel: '212.2 × 276.2 cm', title: 'What’s on a nine-foot rainy boulevard', blurb: 'The bourgeois couple under one pale lavender-grey umbrella; the cropped man at the right edge; the wedge-shaped Haussmann apartment block; the wet cobblestones; the umbrellas against a flat overcast; the cool gray-tan palette without a warm color anywhere.', progress: 0.56 },
-    { id: 'show', eyebrow: '3rd Impressionist Exhibition', dateLabel: 'April 1877', title: 'The least Impressionist picture in the show', blurb: 'One of the largest and most thoroughly designed pictures in the 3rd Impressionist Exhibition (Renoir’s Galette was nearly six feet wide alongside). Its cool sharp-edged style was the show’s outlier — modern Paris rendered with the discipline of an engineer.', progress: 0.8 },
-    { id: 'afterlife', eyebrow: 'After', dateLabel: '1894–today', title: 'Family, Chrysler, the AIC', blurb: 'NOT in the Caillebotte bequest (which went to France) — stayed in the Caillebotte family (Martial → Geneviève Chardeau) to 1950, then Walter P. Chrysler Jr. 1954/55, Wildenstein 1964, Art Institute of Chicago 1964 (acc. 1964.336). On permanent view.', progress: 0.96 },
+    { id: 'show', eyebrow: '3rd Impressionist Exhibition', dateLabel: 'April 1877', title: 'The least Impressionist picture in the show', blurb: 'One of the largest and most thoroughly designed pictures in the 3rd Impressionist Exhibition (Renoir’s Galette was nearly six feet wide alongside). Its cool sharp-edged style was the show’s outlier, modern Paris rendered with the discipline of an engineer.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1894–today', title: 'Family, Chrysler, the AIC', blurb: 'NOT in the Caillebotte bequest (which went to France), stayed in the Caillebotte family (Martial → Geneviève Chardeau) to 1950, then Walter P. Chrysler Jr. 1954/55, Wildenstein 1964, Art Institute of Chicago 1964 (acc. 1964.336). On permanent view.', progress: 0.96 },
   ],
   provenance: [
     { year: '1877–1894', who: 'Gustave Caillebotte (the artist)', place: 'Paris', note: 'Painted in his studio in 1876–77; hung at the 3rd Impressionist Exhibition, April 1877. Held by the artist for the rest of his life.', price: null },
-    { year: '1894–1950', who: 'Martial & Marie Caillebotte → Geneviève Chardeau (née Caillebotte)', place: 'Paris', note: 'Inherited by Gustave’s brother Martial on his death (1894), then by descent through the Caillebotte family — including a long deposit at the Château de Montglat — into the next generation.', price: null },
-    { year: '1954/55', who: 'Walter P. Chrysler Jr.', place: 'New York', note: 'Bought from the Caillebotte family by the great American collector Walter Chrysler in 1954 or 1955 — one of the canvases that left France in the postwar resale wave.', price: 'sale' },
+    { year: '1894–1950', who: 'Martial & Marie Caillebotte → Geneviève Chardeau (née Caillebotte)', place: 'Paris', note: 'Inherited by Gustave’s brother Martial on his death (1894), then by descent through the Caillebotte family, including a long deposit at the Château de Montglat, into the next generation.', price: null },
+    { year: '1954/55', who: 'Walter P. Chrysler Jr.', place: 'New York', note: 'Bought from the Caillebotte family by the great American collector Walter Chrysler in 1954 or 1955, one of the canvases that left France in the postwar resale wave.', price: 'sale' },
     { year: '1964', who: 'Wildenstein & Co. → Art Institute of Chicago', place: 'New York / Chicago', note: 'Sold via Wildenstein in 1964 to the Art Institute of Chicago (Charles H. and Mary F. S. Worcester Collection fund); accessioned 1964.336. On permanent view, Gallery 201.', price: 'sale', museum: true },
   ],
   figures: [
@@ -2205,13 +2205,13 @@ export const PARIS_STREET: ArtWorkContent = {
     { name: 'Walter P. Chrysler Jr.', role: 'Bought it from the Caillebotte family', palette: ['#6a6a5a', '#3a3a2e', '#0e0e08'] },
   ],
   annotations: [
-    { label: 'The couple — well-dressed, half-bored, walking past you', where: 'Just right of center foreground, walking toward you under a single pale lavender-grey umbrella', detail: 'The two best-dressed strangers in the picture. The umbrella sheltering them is lavender-grey / pale blue-grey, NOT black — the Art Institute’s varnish cleaning confirmed the cool light tone; under a century of yellowed varnish it had read nearly black, but the cleaned canvas reads pale. The man on the woman’s right in a tall black top hat and dark overcoat; the woman on his left in a small dark hat with a soft veil, a single earring catching a dab of light, a fur-trimmed coat. They are not looking at each other or at you. They are walking past, with the slightly-faraway expression of two people who do this every morning. Their identities are unknown.' },
-    { label: 'Half a man, photograph-style', where: 'Right edge of the canvas, walking past the couple in the opposite direction', detail: 'A third figure — top hat, dark overcoat, umbrella — sliced abruptly by the right edge of the picture. You see his left side, his arm, his umbrella; the other half is simply gone. Up until the 1860s no respectable European painting did this. To crop a person in half on the canvas edge was something that happened in photographs, where a passerby would wander into the lens and end up bisected at the frame’s edge. Caillebotte lifted the trick on purpose.' },
-    { label: 'The wedge — still standing in Paris today', where: 'Upper center of the canvas, behind the gas lamppost, where two streets peel away', detail: 'The narrow apex of a six-floor cream-stone apartment block points straight at you, like the prow of a ship. Two streets — rue de Turin to one side, rue de Moscou to the other — open out around it. Six floors. Wrought-iron balconies on the regulation second and fifth floors. Mansard roof on top. Go to the Place de Dublin in the 8th arrondissement today and you can still find it.' },
-    { label: 'The morning after rain — pavement still shining', where: 'The lower quarter of the canvas — the whole foreground ground', detail: 'Roughly the bottom fourth of the painting is wet cobblestones — gray-blue, individually rendered, each stone catching a faint dab of light reflected off the overcast sky. No puddles, no streaming water; the storm is over. But the city hasn’t dried yet. Caillebotte lightens the top edge of each stone by exactly one value, and that single-value lift is what reads as reflective surface. Stone by stone, across the lower fourth of a nine-foot canvas.' },
-    { label: 'Umbrellas against a sky, not against rain', where: 'Spread across the picture — at least five or six open, in the foreground and middle ground', detail: 'Almost every figure is under a plain dark umbrella — EXCEPT the central couple’s, which is the picture’s one cool note of pale lavender-grey. They’re protecting against the threat of more rain, not against rain in progress. And look at the figures — nobody has a cast shadow of any consequence. The sky is a flat, even overcast that lights everything from all directions at once. The umbrellas are pointed at a damp ceiling of cloud.' },
-    { label: 'A single point pulls every line into depth', where: 'Just above and to the right of the central gas lamppost, on the horizon line', detail: 'Follow the curbs of the wet pavement. Follow the rooflines on the right. Follow the cornices and the upper window courses. They all run, ruler-straight, toward a single point a little above and right of the central lamppost. This is one-point perspective at its plainest — every line that runs away from you converging on one vanishing point on the horizon. Renaissance painters worked this out in fifteenth-century Florence; almost nobody flaunts it. Caillebotte, an engineer, flaunts it.' },
-    { label: 'A picture in cool colors only', where: 'The whole canvas — sky, stones, walls, clothes', detail: 'Look for a warm color anywhere in the picture. Not a soft pink, not a yellow, not an orange, not a red. There isn’t one. Cool grays, slate blue, oyster white, dull black, the dark green of the cast-iron lamppost, the pale lavender-grey of the central umbrella, a single muted-green note on the wagon. The entire human range of warm color has been refused — on purpose. Caillebotte is telling you, by elimination, what kind of light a wet Paris morning has: the kind that drains color out of the city and leaves only its values.' },
+    { label: 'The couple, well-dressed, half-bored, walking past you', where: 'Just right of center foreground, walking toward you under a single pale lavender-grey umbrella', detail: 'The two best-dressed strangers in the picture. The umbrella sheltering them is lavender-grey / pale blue-grey, NOT black, the Art Institute’s varnish cleaning confirmed the cool light tone; under a century of yellowed varnish it had read nearly black, but the cleaned canvas reads pale. The man on the woman’s right in a tall black top hat and dark overcoat; the woman on his left in a small dark hat with a soft veil, a single earring catching a dab of light, a fur-trimmed coat. They are not looking at each other or at you. They are walking past, with the slightly-faraway expression of two people who do this every morning. Their identities are unknown.' },
+    { label: 'Half a man, photograph-style', where: 'Right edge of the canvas, walking past the couple in the opposite direction', detail: 'A third figure, top hat, dark overcoat, umbrella, sliced abruptly by the right edge of the picture. You see his left side, his arm, his umbrella; the other half is simply gone. Up until the 1860s no respectable European painting did this. To crop a person in half on the canvas edge was something that happened in photographs, where a passerby would wander into the lens and end up bisected at the frame’s edge. Caillebotte lifted the trick on purpose.' },
+    { label: 'The wedge, still standing in Paris today', where: 'Upper center of the canvas, behind the gas lamppost, where two streets peel away', detail: 'The narrow apex of a six-floor cream-stone apartment block points straight at you, like the prow of a ship. Two streets, rue de Turin to one side, rue de Moscou to the other, open out around it. Six floors. Wrought-iron balconies on the regulation second and fifth floors. Mansard roof on top. Go to the Place de Dublin in the 8th arrondissement today and you can still find it.' },
+    { label: 'The morning after rain, pavement still shining', where: 'The lower quarter of the canvas, the whole foreground ground', detail: 'Roughly the bottom fourth of the painting is wet cobblestones, gray-blue, individually rendered, each stone catching a faint dab of light reflected off the overcast sky. No puddles, no streaming water; the storm is over. But the city hasn’t dried yet. Caillebotte lightens the top edge of each stone by exactly one value, and that single-value lift is what reads as reflective surface. Stone by stone, across the lower fourth of a nine-foot canvas.' },
+    { label: 'Umbrellas against a sky, not against rain', where: 'Spread across the picture, at least five or six open, in the foreground and middle ground', detail: 'Almost every figure is under a plain dark umbrella, EXCEPT the central couple’s, which is the picture’s one cool note of pale lavender-grey. They’re protecting against the threat of more rain, not against rain in progress. And look at the figures, nobody has a cast shadow of any consequence. The sky is a flat, even overcast that lights everything from all directions at once. The umbrellas are pointed at a damp ceiling of cloud.' },
+    { label: 'A single point pulls every line into depth', where: 'Just above and to the right of the central gas lamppost, on the horizon line', detail: 'Follow the curbs of the wet pavement. Follow the rooflines on the right. Follow the cornices and the upper window courses. They all run, ruler-straight, toward a single point a little above and right of the central lamppost. This is one-point perspective at its plainest, every line that runs away from you converging on one vanishing point on the horizon. Renaissance painters worked this out in fifteenth-century Florence; almost nobody flaunts it. Caillebotte, an engineer, flaunts it.' },
+    { label: 'A picture in cool colors only', where: 'The whole canvas, sky, stones, walls, clothes', detail: 'Look for a warm color anywhere in the picture. Not a soft pink, not a yellow, not an orange, not a red. There isn’t one. Cool grays, slate blue, oyster white, dull black, the dark green of the cast-iron lamppost, the pale lavender-grey of the central umbrella, a single muted-green note on the wagon. The entire human range of warm color has been refused, on purpose. Caillebotte is telling you, by elimination, what kind of light a wet Paris morning has: the kind that drains color out of the city and leaves only its values.' },
   ],
   lineage: {
     parents: [ { label: 'Haussmann’s Paris', mode: 'civ' }, { label: 'The photograph', mode: 'civ' }, { label: 'One-point perspective', mode: 'art' } ],
@@ -2220,7 +2220,7 @@ export const PARIS_STREET: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — The Dance Class (Degas, 1874, Met). Indoor Impressionism;
+// Work, The Dance Class (Degas, 1874, Met). Indoor Impressionism;
 // Japonisme cropping, the caught off-balance moment.
 // ─────────────────────────────────────────────────────────────
 export const DANCE_CLASS: ArtWorkContent = {
@@ -2240,7 +2240,7 @@ export const DANCE_CLASS: ArtWorkContent = {
   acquired: 'Bequest of Mrs. Harry Payne Bingham, 1986 (acc. 1987.47.1)',
   accent: ART_ACCENTS.blue,
   chain: { name: 'Works of Impressionism', index: 4, total: 9 },
-  hook: 'A ballet class with no ballet in it — scratching, twisting, waiting, an old man with a stick — Impressionism’s most honest argument about work.',
+  hook: 'A ballet class with no ballet in it, scratching, twisting, waiting, an old man with a stick, Impressionism’s most honest argument about work.',
   heroImage: ART_IMG.degasDanceClass,
   heroCredit: 'Degas, The Dance Class, 1874 · The Metropolitan Museum of Art, New York',
   heroAspect: 0.92, // 76.8 × 83.2 cm → W/H ≈ 0.923 (near-square, slight portrait)
@@ -2252,15 +2252,15 @@ export const DANCE_CLASS: ArtWorkContent = {
     { v: 'Met', k: 'Now at' },
   ],
   sections: [
-    { id: 'rehearsal', eyebrow: 'Paris Opéra', dateLabel: '1870s', title: 'The work, not the gala', blurb: 'A 1870s Paris Opéra rehearsal room: the ballet workforce of *petits rats* (the young dancers) and their stage mothers, the coercive economy of the wealthy *abonnés* (subscribers) — Degas painted the labour, not the show.', progress: 0.08 },
+    { id: 'rehearsal', eyebrow: 'Paris Opéra', dateLabel: '1870s', title: 'The work, not the gala', blurb: 'A 1870s Paris Opéra rehearsal room: the ballet workforce of *petits rats* (the young dancers) and their stage mothers, the coercive economy of the wealthy *abonnés* (subscribers), Degas painted the labour, not the show.', progress: 0.08 },
     { id: 'making', eyebrow: 'A commission', dateLabel: '1873–74', title: 'Commissioned by Faure, painted over an earlier figure', blurb: 'The baritone Jean-Baptiste Faure commissioned it in 1873; Degas delivered it in November 1874 for 5,000 francs. X-ray shows the ballet master at right was painted OVER an earlier, unidentified dance master figure.', progress: 0.32 },
     { id: 'looking', eyebrow: 'The canvas', dateLabel: '83.2 × 76.8 cm', title: 'A rehearsal room caught mid-yawn', blurb: 'The tipped-up floor, the dancers scattered off-centre in unposed moments (scratching, twisting, waiting), Jules Perrot at the right leaning on his stick, the watering can on the floor, the stage mothers at the upper right by the doorway.', progress: 0.56 },
-    { id: 'show', eyebrow: '2nd Impressionist Exhibition', dateLabel: 'April 1876', title: 'Lent by Faure to the 2nd show, not the 1st', blurb: 'Faure loaned it to the 2nd Impressionist Exhibition (April 1876) — NOT the 1st (1874). Degas was the show’s organiser as well as its most uncomfortable member. His indoor Impressionism on the wall.', progress: 0.8 },
+    { id: 'show', eyebrow: '2nd Impressionist Exhibition', dateLabel: 'April 1876', title: 'Lent by Faure to the 2nd show, not the 1st', blurb: 'Faure loaned it to the 2nd Impressionist Exhibition (April 1876), NOT the 1st (1874). Degas was the show’s organiser as well as its most uncomfortable member. His indoor Impressionism on the wall.', progress: 0.8 },
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1898–today', title: 'Faure → Durand-Ruel → Payne → the Met', blurb: 'Faure sold it to Durand-Ruel in February 1898 (10,000 fr); Durand-Ruel resold it to the American collector Colonel Oliver H. Payne in April 1898 (~$25,000); descended through the Payne/Bingham family until Mrs Bingham’s bequest to the Met in 1986. The Met and Orsay canvases are SEPARATE related paintings, not versions of the same picture.', progress: 0.96 },
   ],
   provenance: [
-    { year: '1874–1898', who: 'Jean-Baptiste Faure (commissioned)', place: 'Paris', note: 'The baritone Faure — the leading French opera singer of his day — commissioned the picture from Degas in 1873 and took delivery in November 1874 for 5,000 francs; loaned to the 2nd Impressionist Exhibition (1876).', price: '5,000 fr (commission)' },
-    { year: '1898', who: 'Paul Durand-Ruel (dealer)', place: 'Paris', note: 'Faure sold it to Durand-Ruel on 19 February 1898 for 10,000 francs — a two-step sale, NOT direct artist-to-collector.', price: '10,000 fr' },
+    { year: '1874–1898', who: 'Jean-Baptiste Faure (commissioned)', place: 'Paris', note: 'The baritone Faure, the leading French opera singer of his day, commissioned the picture from Degas in 1873 and took delivery in November 1874 for 5,000 francs; loaned to the 2nd Impressionist Exhibition (1876).', price: '5,000 fr (commission)' },
+    { year: '1898', who: 'Paul Durand-Ruel (dealer)', place: 'Paris', note: 'Faure sold it to Durand-Ruel on 19 February 1898 for 10,000 francs, a two-step sale, NOT direct artist-to-collector.', price: '10,000 fr' },
     { year: '1898–1917', who: 'Colonel Oliver H. Payne (Standard Oil)', place: 'New York', note: 'Durand-Ruel resold it to Colonel Oliver H. Payne on 4 April 1898 for approximately $25,000, a fast dealer’s margin and a watershed moment in the American Impressionist market.', price: '~$25,000' },
     { year: '1917–1986', who: 'The Payne / Bingham family', place: 'New York', note: 'Passed from Colonel Payne to his nephew Harry Payne Bingham, and then to Mrs Harry Payne Bingham; held in the family for nearly seven decades.', price: null },
     { year: '1986–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Bequeathed by Mrs Bingham in 1986; accessioned 1987.47.1. On permanent view. The SEPARATE Musée d’Orsay version of the same subject is a related but distinct canvas, not a copy or version of this one.', price: 'bequest', museum: true },
@@ -2273,13 +2273,13 @@ export const DANCE_CLASS: ArtWorkContent = {
     { name: 'Col. Oliver H. Payne / Mrs Bingham', role: 'American buyer · then family bequest', palette: ['#6a7250', '#3a3c28', '#14140e'] },
   ],
   annotations: [
-    { label: 'The legend in the corner', where: 'Right foreground, the elderly man in a brown jacket', detail: 'The white-haired man at the right, leaning his weight forward onto a long walking stick, is Jules Perrot — once one of the great male stars of European ballet, partner of Marie Taglioni, choreographer of Giselle’s ghost-act. By 1874 he was sixty-four, retired, and teaching to keep busy. He is the one figure painted with full portrait care: every other face is sketched, his is finished. (He is also a second draft: X-ray shows Degas first painted an earlier, unidentified dance master in this spot, then painted Perrot over him.)' },
-    { label: 'The unposed second', where: 'Across the middle group of dancers in pale tutus', detail: 'Don’t look for a graceful pose. Look for the opposite — the small unguarded gestures painters before Degas would have edited out. One girl has reached an arm up to scratch the back of her neck. Another is twisted around to talk to a neighbour. Another is bent forward, adjusting a slipper. Several are leaning on the dance bar, just waiting. The picture’s whole argument is sitting in those little human gestures.' },
-    { label: 'Standing on a hinge', where: 'The whole floor of the rehearsal room', detail: 'Notice how the wooden floor seems to rear up toward you, as if you were leaning over a balcony rather than seated quietly in a corner. The floor doesn’t recede politely into the back of the room; it tilts, throwing the dancers out across its surface like a tray. This off-axis, tipped-up floor is a compositional trick Degas learned from Japanese woodblock prints (ukiyo-e) flooding Paris in his decade — the deliberate cut-off and the high tilted viewpoint, borrowed on purpose.' },
-    { label: 'Sliced by the frame', where: 'Far right edge of the canvas', detail: 'Look at the very right edge. The picture slices a dancer in half: you see a sliver of tutu, a shoulder, the side of a face — and then nothing. The canvas stops in the middle of a person, as if a camera shutter caught her on her way out of frame. Painters in 1874 didn’t do this; figures were supposed to be complete inside the picture. The trick is again from Japanese prints.' },
-    { label: 'Factory-floor evidence', where: 'On the floorboards, just to the left of the central group', detail: 'That small dull-metal cylindrical object near the dancers’ feet is a watering can. It is there because the rehearsal-room floor had to be sprinkled with water before class so the dancers wouldn’t slip on the bare boards. Degas paints it with the seriousness of a Dutch still life — documentary evidence that this is a workplace. Factory floors had buckets. Rehearsal floors had watering cans.' },
-    { label: 'Posted at the threshold', where: 'Upper right of the canvas, near the doorway opening into the secondary room', detail: 'Look up to the upper right, near where the back wall opens through a doorway into a further room. In dark dresses and hats, in shadow on benches, sit several women — the stage mothers, working-class Paris parents who came with their dancing daughters to every rehearsal. They are posted by the door not because their presence kept anyone out — it didn’t; the wealthy male abonnés (subscribers) had backstage access bought into their subscription, and a mother on a bench couldn’t revoke a ticket — but because their presence let a working-class family keep up the appearance of supervision.' },
-    { label: 'A private love note to the patron', where: 'Back wall, behind the dancers, partly visible', detail: 'On the back wall, half-screened by the central column and the cluster of dancers, you can just read the printed title of an opera poster: Guillaume Tell — Rossini’s opera about the Swiss crossbow archer. This is Degas’s private courtesy to his patron Jean-Baptiste Faure, who commissioned the painting and was famous in Paris as the leading baritone in the title role.' },
+    { label: 'The legend in the corner', where: 'Right foreground, the elderly man in a brown jacket', detail: 'The white-haired man at the right, leaning his weight forward onto a long walking stick, is Jules Perrot, once one of the great male stars of European ballet, partner of Marie Taglioni, choreographer of Giselle’s ghost-act. By 1874 he was sixty-four, retired, and teaching to keep busy. He is the one figure painted with full portrait care: every other face is sketched, his is finished. (He is also a second draft: X-ray shows Degas first painted an earlier, unidentified dance master in this spot, then painted Perrot over him.)' },
+    { label: 'The unposed second', where: 'Across the middle group of dancers in pale tutus', detail: 'Don’t look for a graceful pose. Look for the opposite, the small unguarded gestures painters before Degas would have edited out. One girl has reached an arm up to scratch the back of her neck. Another is twisted around to talk to a neighbour. Another is bent forward, adjusting a slipper. Several are leaning on the dance bar, just waiting. The picture’s whole argument is sitting in those little human gestures.' },
+    { label: 'Standing on a hinge', where: 'The whole floor of the rehearsal room', detail: 'Notice how the wooden floor seems to rear up toward you, as if you were leaning over a balcony rather than seated quietly in a corner. The floor doesn’t recede politely into the back of the room; it tilts, throwing the dancers out across its surface like a tray. This off-axis, tipped-up floor is a compositional trick Degas learned from Japanese woodblock prints (ukiyo-e) flooding Paris in his decade, the deliberate cut-off and the high tilted viewpoint, borrowed on purpose.' },
+    { label: 'Sliced by the frame', where: 'Far right edge of the canvas', detail: 'Look at the very right edge. The picture slices a dancer in half: you see a sliver of tutu, a shoulder, the side of a face, and then nothing. The canvas stops in the middle of a person, as if a camera shutter caught her on her way out of frame. Painters in 1874 didn’t do this; figures were supposed to be complete inside the picture. The trick is again from Japanese prints.' },
+    { label: 'Factory-floor evidence', where: 'On the floorboards, just to the left of the central group', detail: 'That small dull-metal cylindrical object near the dancers’ feet is a watering can. It is there because the rehearsal-room floor had to be sprinkled with water before class so the dancers wouldn’t slip on the bare boards. Degas paints it with the seriousness of a Dutch still life, documentary evidence that this is a workplace. Factory floors had buckets. Rehearsal floors had watering cans.' },
+    { label: 'Posted at the threshold', where: 'Upper right of the canvas, near the doorway opening into the secondary room', detail: 'Look up to the upper right, near where the back wall opens through a doorway into a further room. In dark dresses and hats, in shadow on benches, sit several women, the stage mothers, working-class Paris parents who came with their dancing daughters to every rehearsal. They are posted by the door not because their presence kept anyone out, it didn’t; the wealthy male abonnés (subscribers) had backstage access bought into their subscription, and a mother on a bench couldn’t revoke a ticket, but because their presence let a working-class family keep up the appearance of supervision.' },
+    { label: 'A private love note to the patron', where: 'Back wall, behind the dancers, partly visible', detail: 'On the back wall, half-screened by the central column and the cluster of dancers, you can just read the printed title of an opera poster: Guillaume Tell, Rossini’s opera about the Swiss crossbow archer. This is Degas’s private courtesy to his patron Jean-Baptiste Faure, who commissioned the painting and was famous in Paris as the leading baritone in the title role.' },
   ],
   lineage: {
     parents: [ { label: 'Japanese ukiyo-e', mode: 'art' }, { label: 'Paris Opéra workforce', mode: 'civ' }, { label: 'Dutch genre interior', mode: 'art' } ],
@@ -2288,7 +2288,7 @@ export const DANCE_CLASS: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — L'Absinthe (Degas, 1875–76, Orsay). Two real sitters at a café,
+// Work, L'Absinthe (Degas, 1875–76, Orsay). Two real sitters at a café,
 // the empty foreground as the picture's argument.
 // ─────────────────────────────────────────────────────────────
 export const ABSINTHE: ArtWorkContent = {
@@ -2308,7 +2308,7 @@ export const ABSINTHE: ArtWorkContent = {
   acquired: 'Camondo bequest, 1911 (Louvre 1911 → Musée d’Orsay 1986)',
   accent: ART_ACCENTS.blue,
   chain: { name: 'Works of Impressionism', index: 6, total: 9 },
-  hook: 'Two real sitters who weren’t drinking, posed in a Pigalle café — and then mocked seventeen years later in London as a study in degradation.',
+  hook: 'Two real sitters who weren’t drinking, posed in a Pigalle café, and then mocked seventeen years later in London as a study in degradation.',
   heroImage: ART_IMG.degasAbsinthe,
   heroCredit: 'Degas, L’Absinthe (Dans un café), 1875–76 · Musée d’Orsay, Paris',
   heroAspect: 0.74, // 92 × 68.5 cm (H × W) → W/H ≈ 0.745 portrait
@@ -2321,16 +2321,16 @@ export const ABSINTHE: ArtWorkContent = {
   ],
   sections: [
     { id: 'cafe', eyebrow: 'Place Pigalle', dateLabel: '1875–76', title: 'The Nouvelle-Athènes', blurb: 'The Café de la Nouvelle-Athènes on the Place Pigalle, the late-1870s Impressionist hangout (NOT the older Café Guerbois); the demi-monde; absinthe as a cheap, potent, faintly disreputable green spirit and its cultural charge.', progress: 0.08 },
-    { id: 'making', eyebrow: 'Two sitters', dateLabel: '1875–76', title: 'Two real friends who weren’t drinking', blurb: 'Degas got two friends to pose: the actress Ellen Andrée at the table (she was NOT an absinthe drinker in real life — clarified in her 1921 interview with Félix Fénéon); and the artist Marcellin Desboutin beside her (his glass holds mazagran — a cold coffee, not absinthe).', progress: 0.32 },
+    { id: 'making', eyebrow: 'Two sitters', dateLabel: '1875–76', title: 'Two real friends who weren’t drinking', blurb: 'Degas got two friends to pose: the actress Ellen Andrée at the table (she was NOT an absinthe drinker in real life, clarified in her 1921 interview with Félix Fénéon); and the artist Marcellin Desboutin beside her (his glass holds mazagran, a cold coffee, not absinthe).', progress: 0.32 },
     { id: 'looking', eyebrow: 'The canvas', dateLabel: '92 × 68.5 cm', title: 'The empty foreground is the argument', blurb: 'Two figures shoved off into the upper right; a zig-zag of empty marble café tables marching in from the lower-left foreground; the drained gray-brown palette pierced by one charged note of milky-green absinthe; Andrée’s lowered off-into-nothing stare under a broad pale lavender-grey hat; Desboutin’s dark jacket and clay pipe.', progress: 0.56 },
-    { id: 'show', eyebrow: 'Paris 1876 → London 1893', dateLabel: '1876 / 1893', title: '1876 in Paris, 1893 in London', blurb: 'Shown at the 2nd Impressionist Exhibition Paris April 1876 with little fuss. 17 YEARS later, exhibited at the Grafton Gallery, London — and Victorian critics (including Walter Crane) savaged it as a study in degradation. The London showing FIXED its English title; Andrée had to publicly clarify she wasn’t a drinker.', progress: 0.8 },
+    { id: 'show', eyebrow: 'Paris 1876 → London 1893', dateLabel: '1876 / 1893', title: '1876 in Paris, 1893 in London', blurb: 'Shown at the 2nd Impressionist Exhibition Paris April 1876 with little fuss. 17 YEARS later, exhibited at the Grafton Gallery, London, and Victorian critics (including Walter Crane) savaged it as a study in degradation. The London showing FIXED its English title; Andrée had to publicly clarify she wasn’t a drinker.', progress: 0.8 },
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1876–today', title: 'From Captain Henry Hill of Brighton to the Orsay', blurb: 'Deschamps → Captain Henry Hill of Brighton (private collector, NOT a "Sussex club"; held 1876–92) → Reid → Kay → Comte Isaac de Camondo → Louvre 1911 (Camondo bequest) → Orsay 1986. On permanent view.', progress: 0.96 },
   ],
   provenance: [
     { year: '1876', who: 'Charles W. Deschamps (dealer)', place: 'London', note: 'Acquired soon after the painting’s Paris debut at the 2nd Impressionist Exhibition.', price: null },
-    { year: '1876–1892', who: 'Captain Henry Hill', place: 'Brighton, England', note: 'A retired English military tailor and private collector — NOT a "Sussex club" — hung the picture in his Brighton house, where it sat for sixteen years.', price: 'private sale' },
+    { year: '1876–1892', who: 'Captain Henry Hill', place: 'Brighton, England', note: 'A retired English military tailor and private collector, NOT a "Sussex club", hung the picture in his Brighton house, where it sat for sixteen years.', price: 'private sale' },
     { year: '1892–1911', who: 'Alex Reid → Arthur Kay → Comte Isaac de Camondo', place: 'Glasgow → Edinburgh → Paris', note: 'Sold via the Glasgow dealer Alex Reid; bought by the Scottish collector Arthur Kay (who fielded the worst of the 1893 Grafton Gallery scandal); on to the Paris-based Comte Isaac de Camondo.', price: null },
-    { year: '1911–1986', who: 'Musée du Louvre', place: 'Paris', note: 'Bequeathed by Camondo on his death in 1911 — the Louvre formally inherited the picture that Victorian London had refused. On permanent view.', price: 'bequest', museum: true },
+    { year: '1911–1986', who: 'Musée du Louvre', place: 'Paris', note: 'Bequeathed by Camondo on his death in 1911, the Louvre formally inherited the picture that Victorian London had refused. On permanent view.', price: 'bequest', museum: true },
     { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'Transferred from the Louvre to the newly opened Musée d’Orsay in 1986 (RF 1984). On permanent view.', price: null, museum: true },
   ],
   figures: [
@@ -2342,12 +2342,12 @@ export const ABSINTHE: ArtWorkContent = {
     { name: 'Comte Isaac de Camondo', role: 'Paris collector · bequeathed it to the Louvre', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
   ],
   annotations: [
-    { label: 'Two people, pushed off into one corner', where: 'Upper-right portion of the canvas — well above centre, well right of centre', detail: 'Find the two figures and notice how little of the picture they take up. Together they fill maybe a third of the canvas, jammed into the upper-right corner. Most paintings of two people put them in the middle. Degas refused. By shoving them off into one corner and giving the rest of the canvas to empty tables, he made the composition itself the argument — these two are not the centre of anything.' },
-    { label: 'The one charged note of colour', where: 'On the table directly in front of the seated woman, upper right', detail: 'Look at the tall stemmed glass in front of Andrée. Its liquid is pale, slightly cloudy, faintly green — milky rather than vivid. This is absinthe after the louche, the moment when ice water has been dripped through sugar into the spirit and turned it cloudy. This small glass is the only piece of charged colour in the whole picture — everything else is drained gray and dusty brown.' },
-    { label: 'A staircase of nothing', where: 'Across the lower-left half of the canvas, marching in from the corner', detail: 'Look at the foreground tables. Notice how they zig-zag: three or four marble tabletops at jagged angles, like a small staircase of stone slabs climbing from the lower-left corner up and into the figures’ table. They are nearly bare — one of them has a folded newspaper, and that’s it. No drinks, no plates, no people. This whole big empty foreground is the picture’s largest visual fact.' },
-    { label: 'A stare into the middle distance', where: 'Andrée’s face — the seated woman in the pale dress, upper right — under the broad light hat', detail: 'Look at her eyes. They’re lowered, turned slightly to one side, fixed on nothing in particular. The broad brim of her pale lavender-gray hat throws a soft shadow across the upper part of her face, dimming the eyes further. She isn’t looking at her drink. She isn’t looking at the man beside her. She isn’t looking at us. That blank, internal middle-distance stare is the painting’s emotional centre.' },
-    { label: 'The man looking off in the other direction', where: 'Right edge of the canvas, beside and slightly behind Andrée', detail: 'Find the bearded man. He’s a denser, more solid figure than she is — a thick, dark, almost black jacket painted in heavy strokes, a battered tall hat pushed back on his head, a beard that takes over the lower half of his face. In his hand is a long-stemmed clay pipe. His eyes are turned off to the right, out of the picture entirely. He and Andrée are looking in opposite directions — two people at the same table, twice as alone.' },
-    { label: 'A room with the colour wiped off', where: 'Across the whole picture — wall, tables, floor, figures', detail: 'Stand back and look at the whole canvas as a field of colour. Cool grays in the wall and the tabletops, warm browns in the floor, a near-black in Desboutin’s jacket, a dusty pink in Andrée’s jacket, a soft lavender-gray in her hat, and that one faint milky off-green in her glass. No reds. No bright blues. No sunlight — this is gas-lit interior, painted in the yellowish low light of nineteenth-century cafés. The figures are nearly the same colour as the wall behind them.' },
+    { label: 'Two people, pushed off into one corner', where: 'Upper-right portion of the canvas, well above centre, well right of centre', detail: 'Find the two figures and notice how little of the picture they take up. Together they fill maybe a third of the canvas, jammed into the upper-right corner. Most paintings of two people put them in the middle. Degas refused. By shoving them off into one corner and giving the rest of the canvas to empty tables, he made the composition itself the argument, these two are not the centre of anything.' },
+    { label: 'The one charged note of colour', where: 'On the table directly in front of the seated woman, upper right', detail: 'Look at the tall stemmed glass in front of Andrée. Its liquid is pale, slightly cloudy, faintly green, milky rather than vivid. This is absinthe after the louche, the moment when ice water has been dripped through sugar into the spirit and turned it cloudy. This small glass is the only piece of charged colour in the whole picture, everything else is drained gray and dusty brown.' },
+    { label: 'A staircase of nothing', where: 'Across the lower-left half of the canvas, marching in from the corner', detail: 'Look at the foreground tables. Notice how they zig-zag: three or four marble tabletops at jagged angles, like a small staircase of stone slabs climbing from the lower-left corner up and into the figures’ table. They are nearly bare, one of them has a folded newspaper, and that’s it. No drinks, no plates, no people. This whole big empty foreground is the picture’s largest visual fact.' },
+    { label: 'A stare into the middle distance', where: 'Andrée’s face, the seated woman in the pale dress, upper right, under the broad light hat', detail: 'Look at her eyes. They’re lowered, turned slightly to one side, fixed on nothing in particular. The broad brim of her pale lavender-gray hat throws a soft shadow across the upper part of her face, dimming the eyes further. She isn’t looking at her drink. She isn’t looking at the man beside her. She isn’t looking at us. That blank, internal middle-distance stare is the painting’s emotional centre.' },
+    { label: 'The man looking off in the other direction', where: 'Right edge of the canvas, beside and slightly behind Andrée', detail: 'Find the bearded man. He’s a denser, more solid figure than she is, a thick, dark, almost black jacket painted in heavy strokes, a battered tall hat pushed back on his head, a beard that takes over the lower half of his face. In his hand is a long-stemmed clay pipe. His eyes are turned off to the right, out of the picture entirely. He and Andrée are looking in opposite directions, two people at the same table, twice as alone.' },
+    { label: 'A room with the colour wiped off', where: 'Across the whole picture, wall, tables, floor, figures', detail: 'Stand back and look at the whole canvas as a field of colour. Cool grays in the wall and the tabletops, warm browns in the floor, a near-black in Desboutin’s jacket, a dusty pink in Andrée’s jacket, a soft lavender-gray in her hat, and that one faint milky off-green in her glass. No reds. No bright blues. No sunlight, this is gas-lit interior, painted in the yellowish low light of nineteenth-century cafés. The figures are nearly the same colour as the wall behind them.' },
   ],
   lineage: {
     parents: [ { label: 'Manet · café scene', mode: 'art' }, { label: 'Zola · L’Assommoir', mode: 'civ' }, { label: 'Demi-monde Paris', mode: 'civ' } ],
@@ -2356,7 +2356,7 @@ export const ABSINTHE: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — Luncheon of the Boating Party (Renoir, 1880–81, Phillips).
+// Work, Luncheon of the Boating Party (Renoir, 1880–81, Phillips).
 // Friends at the Maison Fournaise on the Île de Chatou.
 // ─────────────────────────────────────────────────────────────
 export const BOATING_PARTY: ArtWorkContent = {
@@ -2376,7 +2376,7 @@ export const BOATING_PARTY: ArtWorkContent = {
   acquired: 'Bought from Durand-Ruel by Duncan Phillips, 1923, $125,000',
   accent: ART_ACCENTS.blue,
   chain: { name: 'Works of Impressionism', index: 9, total: 9 },
-  hook: 'Fourteen friends at the end of a summer lunch on a Seine balcony — the warmest large picture Impressionism ever painted, assembled across a whole season.',
+  hook: 'Fourteen friends at the end of a summer lunch on a Seine balcony, the warmest large picture Impressionism ever painted, assembled across a whole season.',
   heroImage: ART_IMG.renoirBoatingParty,
   heroCredit: 'Renoir, Luncheon of the Boating Party, 1880–81 · The Phillips Collection, Washington DC',
   heroAspect: 1.35, // 130.2 × 175.6 cm → W/H ≈ 1.349
@@ -2388,16 +2388,16 @@ export const BOATING_PARTY: ArtWorkContent = {
     { v: 'Phillips', k: 'Now at' },
   ],
   sections: [
-    { id: 'chatou', eyebrow: 'Île de Chatou', dateLabel: '1880', title: 'The Maison Fournaise on the Seine', blurb: 'The Île de Chatou — Île des Impressionnistes today — and the Maison Fournaise restaurant on the river, a 30-minute train ride from Paris’s Gare Saint-Lazare; the *canotage* (boating) subculture; modern middle-class leisure as subject.', progress: 0.08 },
-    { id: 'making', eyebrow: 'A canvas of friends', dateLabel: '1880–81', title: 'Assembled across a summer, sitting by sitting', blurb: 'Renoir asked his friends to pose, working at the Maison Fournaise across the summer and autumn of 1880–81. NOT one balcony lunch — pose by pose, friend by friend, built into a single warm scene at history-painting scale.', progress: 0.32 },
+    { id: 'chatou', eyebrow: 'Île de Chatou', dateLabel: '1880', title: 'The Maison Fournaise on the Seine', blurb: 'The Île de Chatou, Île des Impressionnistes today, and the Maison Fournaise restaurant on the river, a 30-minute train ride from Paris’s Gare Saint-Lazare; the *canotage* (boating) subculture; modern middle-class leisure as subject.', progress: 0.08 },
+    { id: 'making', eyebrow: 'A canvas of friends', dateLabel: '1880–81', title: 'Assembled across a summer, sitting by sitting', blurb: 'Renoir asked his friends to pose, working at the Maison Fournaise across the summer and autumn of 1880–81. NOT one balcony lunch, pose by pose, friend by friend, built into a single warm scene at history-painting scale.', progress: 0.32 },
     { id: 'looking', eyebrow: 'The canvas', dateLabel: '130.2 × 175.6 cm', title: 'Fourteen friends, twelve firmly named', blurb: 'Aline Charigot kissing a little dog (lower left); Caillebotte sitting backwards in his chair (lower right); Ellen Andrée raising a glass at the centre; Charles Ephrussi the banker-critic in his top hat at the rear; the striped awning overhead; the wine-and-fruit still life across the table; boats on the Seine glimpsed through the railings.', progress: 0.56 },
-    { id: 'show', eyebrow: '7th Impressionist Exhibition', dateLabel: 'March 1882', title: 'The hit of the seventh show', blurb: 'Shown at the 7th Impressionist Exhibition, March 1882 — three critics named it best in show. Durand-Ruel had already bought it from Renoir in February 1881 for 6,000 francs and would hold it for 42 years.', progress: 0.8 },
-    { id: 'afterlife', eyebrow: 'After', dateLabel: '1881–today', title: 'Duncan Phillips’s twelve-year pursuit', blurb: 'Held by Durand-Ruel for 42 years; Duncan Phillips chased it from 1911 onward; bought it from Durand-Ruel in 1923 for $125,000. The Phillips Collection — a private collection-museum opened in 1921 — has held it on permanent view ever since. Renoir + Aline married in 1890, NINE years later (not "right after").', progress: 0.96 },
+    { id: 'show', eyebrow: '7th Impressionist Exhibition', dateLabel: 'March 1882', title: 'The hit of the seventh show', blurb: 'Shown at the 7th Impressionist Exhibition, March 1882, three critics named it best in show. Durand-Ruel had already bought it from Renoir in February 1881 for 6,000 francs and would hold it for 42 years.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1881–today', title: 'Duncan Phillips’s twelve-year pursuit', blurb: 'Held by Durand-Ruel for 42 years; Duncan Phillips chased it from 1911 onward; bought it from Durand-Ruel in 1923 for $125,000. The Phillips Collection, a private collection-museum opened in 1921, has held it on permanent view ever since. Renoir + Aline married in 1890, NINE years later (not "right after").', progress: 0.96 },
   ],
   provenance: [
-    { year: '1881–1923', who: 'Galerie Paul Durand-Ruel', place: 'Paris / New York', note: 'Bought from Renoir by Durand-Ruel in February 1881 for 6,000 francs — the baseline for the picture’s eventual price climb. Held in the gallery for 42 years.', price: '6,000 fr' },
-    { year: '1911–1923', who: 'Duncan Phillips (pursuing)', place: 'Washington DC', note: 'The American collector Duncan Phillips chased the picture from 1911 onward — a twelve-year pursuit before he finally pried it loose.', price: null },
-    { year: '1923–today', who: 'The Phillips Collection', place: 'Washington DC', note: 'Bought from Durand-Ruel in 1923 for $125,000 (then a famous price). Hung in the Phillips — a private collection-museum opened in 1921 — on permanent view ever since. Aline Charigot, the woman with the dog, eventually married Renoir in 1890 (NINE years after this picture, not "right after"); they had three sons, including the filmmaker Jean Renoir.', price: '$125,000', museum: true },
+    { year: '1881–1923', who: 'Galerie Paul Durand-Ruel', place: 'Paris / New York', note: 'Bought from Renoir by Durand-Ruel in February 1881 for 6,000 francs, the baseline for the picture’s eventual price climb. Held in the gallery for 42 years.', price: '6,000 fr' },
+    { year: '1911–1923', who: 'Duncan Phillips (pursuing)', place: 'Washington DC', note: 'The American collector Duncan Phillips chased the picture from 1911 onward, a twelve-year pursuit before he finally pried it loose.', price: null },
+    { year: '1923–today', who: 'The Phillips Collection', place: 'Washington DC', note: 'Bought from Durand-Ruel in 1923 for $125,000 (then a famous price). Hung in the Phillips, a private collection-museum opened in 1921, on permanent view ever since. Aline Charigot, the woman with the dog, eventually married Renoir in 1890 (NINE years after this picture, not "right after"); they had three sons, including the filmmaker Jean Renoir.', price: '$125,000', museum: true },
   ],
   figures: [
     { name: 'Pierre-Auguste Renoir', role: 'The painter', palette: ['#b07a62', '#5a3a2a', '#1a0e0a'] },
@@ -2409,13 +2409,13 @@ export const BOATING_PARTY: ArtWorkContent = {
     { name: 'Duncan Phillips', role: 'The American collector who pursued it 12 years', palette: ['#6a7280', '#3a3a48', '#10101a'] },
   ],
   annotations: [
-    { label: 'The girl with the dog', where: 'Lower-left, at the table', detail: 'A young woman in a dark hat — Aline Charigot, twenty-one years old, Renoir’s then-girlfriend — leans down toward a small fluffy dog she is holding up at her chin and kissing on the nose. The dog (a Brussels griffon / affenpinscher type) is the only animal in the picture, and it is getting the picture’s most undivided affection. She wouldn’t marry Renoir for another nine years; she’s a girlfriend here, not a fiancée.' },
-    { label: 'The patron in the corner', where: 'Lower-right, seated at the table', detail: 'A muscular man in a white sleeveless singlet and a straw boater hat, straddling a chair backwards with his arms folded over the back, gazes across the picture toward Aline. This is Gustave Caillebotte — a serious painter himself, a competitive sailor, and the wealthy friend who bailed out his fellow Impressionists by buying their work when nobody else would. Renoir putting him in the foreground in boating dress, posed informally on a turned-around chair, is a quiet thank-you.' },
-    { label: 'The actress in the centre', where: 'Centre of the picture, at the table', detail: 'A woman in a pale dress holds a tall glass up to her face — sometimes read as raised to her ear, sometimes as raised in a toast. This is Ellen Andrée, an actress who sat for half the Impressionist circle through the 1870s and 80s. If she looks familiar, that’s because she’s the same model who appears in Degas’s L’Absinthe (1875–76); the picture’s Ellen Andrée and this one’s are the same woman on either side of the same circle of friends.' },
-    { label: 'The banker-critic at the back', where: 'Right side, rear of the picture', detail: 'Look for the one top hat in the painting — the formal black silk cylinder a man wore when dressing up — at the right rear. That’s Charles Ephrussi, a banker, an art critic, and the editor of the leading French art magazine of the day, the Gazette des beaux-arts. He’s overdressed for a lunch on a balcony, and that’s the point: he’s a city gentleman who has come out to slum it on the river with the painters.' },
-    { label: 'Veronese’s curtain', where: 'Across the top of the picture', detail: 'The whole top of the canvas is filled by a red-and-white striped awning — the cloth canopy stretched over the balcony to shade the table from the high summer sun. It does a lot of work. It casts dappled, slightly tinted light over everybody underneath. It locks the group into a single shared space. And it is Renoir’s deliberate nod to the parted curtains overhead in Paolo Veronese’s huge sixteenth-century banquet paintings — the Renaissance machinery dragged into a modern Sunday lunch on the Seine.' },
-    { label: 'The lunch is over, nobody’s leaving', where: 'Foreground, along the table', detail: 'Look along the white tablecloth at the bottom: half-empty wine bottles, drained glasses, grapes spilled across a napkin, the remains of fruit. Renoir paints every transparent bottle as a small jewel — the light passing through the dark red into the white cloth below. The whole still life is the picture’s quiet announcement that lunch is already finished; the cast is in the lingering, end-of-meal, talking-and-laughing stage. The dishes haven’t been cleared because nobody wants to leave.' },
-    { label: 'The actual reason everyone is here', where: 'Background, between the figures, just above the railings', detail: 'Look through the gaps between the people at the back, just above the painted railings: faint shapes of slim rowing skiffs on the river. Two or three are suggested, no more. They’re easy to miss, and that’s almost the joke — those boats are the reason for the Maison Fournaise, for the balcony, for the train out from Paris, for the canotage subculture, and for all fourteen of these people being on this balcony at all.' },
+    { label: 'The girl with the dog', where: 'Lower-left, at the table', detail: 'A young woman in a dark hat, Aline Charigot, twenty-one years old, Renoir’s then-girlfriend, leans down toward a small fluffy dog she is holding up at her chin and kissing on the nose. The dog (a Brussels griffon / affenpinscher type) is the only animal in the picture, and it is getting the picture’s most undivided affection. She wouldn’t marry Renoir for another nine years; she’s a girlfriend here, not a fiancée.' },
+    { label: 'The patron in the corner', where: 'Lower-right, seated at the table', detail: 'A muscular man in a white sleeveless singlet and a straw boater hat, straddling a chair backwards with his arms folded over the back, gazes across the picture toward Aline. This is Gustave Caillebotte, a serious painter himself, a competitive sailor, and the wealthy friend who bailed out his fellow Impressionists by buying their work when nobody else would. Renoir putting him in the foreground in boating dress, posed informally on a turned-around chair, is a quiet thank-you.' },
+    { label: 'The actress in the centre', where: 'Centre of the picture, at the table', detail: 'A woman in a pale dress holds a tall glass up to her face, sometimes read as raised to her ear, sometimes as raised in a toast. This is Ellen Andrée, an actress who sat for half the Impressionist circle through the 1870s and 80s. If she looks familiar, that’s because she’s the same model who appears in Degas’s L’Absinthe (1875–76); the picture’s Ellen Andrée and this one’s are the same woman on either side of the same circle of friends.' },
+    { label: 'The banker-critic at the back', where: 'Right side, rear of the picture', detail: 'Look for the one top hat in the painting, the formal black silk cylinder a man wore when dressing up, at the right rear. That’s Charles Ephrussi, a banker, an art critic, and the editor of the leading French art magazine of the day, the Gazette des beaux-arts. He’s overdressed for a lunch on a balcony, and that’s the point: he’s a city gentleman who has come out to slum it on the river with the painters.' },
+    { label: 'Veronese’s curtain', where: 'Across the top of the picture', detail: 'The whole top of the canvas is filled by a red-and-white striped awning, the cloth canopy stretched over the balcony to shade the table from the high summer sun. It does a lot of work. It casts dappled, slightly tinted light over everybody underneath. It locks the group into a single shared space. And it is Renoir’s deliberate nod to the parted curtains overhead in Paolo Veronese’s huge sixteenth-century banquet paintings, the Renaissance machinery dragged into a modern Sunday lunch on the Seine.' },
+    { label: 'The lunch is over, nobody’s leaving', where: 'Foreground, along the table', detail: 'Look along the white tablecloth at the bottom: half-empty wine bottles, drained glasses, grapes spilled across a napkin, the remains of fruit. Renoir paints every transparent bottle as a small jewel, the light passing through the dark red into the white cloth below. The whole still life is the picture’s quiet announcement that lunch is already finished; the cast is in the lingering, end-of-meal, talking-and-laughing stage. The dishes haven’t been cleared because nobody wants to leave.' },
+    { label: 'The actual reason everyone is here', where: 'Background, between the figures, just above the railings', detail: 'Look through the gaps between the people at the back, just above the painted railings: faint shapes of slim rowing skiffs on the river. Two or three are suggested, no more. They’re easy to miss, and that’s almost the joke, those boats are the reason for the Maison Fournaise, for the balcony, for the train out from Paris, for the canotage subculture, and for all fourteen of these people being on this balcony at all.' },
   ],
   lineage: {
     parents: [ { label: 'Veronese · banquets', mode: 'art' }, { label: 'Île de Chatou', mode: 'civ' }, { label: 'Modern leisure', mode: 'civ' } ],
@@ -2424,7 +2424,7 @@ export const BOATING_PARTY: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Work — The Gare Saint-Lazare (Monet, 1877, Orsay). The iron-and-glass
+// Work, The Gare Saint-Lazare (Monet, 1877, Orsay). The iron-and-glass
 // cathedral of modern Paris; steam, smoke, the industrial subject.
 // ─────────────────────────────────────────────────────────────
 export const GARE_SAINT_LAZARE: ArtWorkContent = {
@@ -2444,7 +2444,7 @@ export const GARE_SAINT_LAZARE: ArtWorkContent = {
   acquired: 'Caillebotte bequest, 1894/1896 (Luxembourg → Louvre 1929 → Jeu de Paume 1947 → Musée d’Orsay 1986)',
   accent: ART_ACCENTS.blue,
   chain: { name: 'Works of Impressionism', index: 7, total: 9 },
-  hook: 'Monet pointed his easel at a train station and decided the steam — the soft moving body of weather under the iron — was the painting.',
+  hook: 'Monet pointed his easel at a train station and decided the steam, the soft moving body of weather under the iron, was the painting.',
   heroImage: ART_IMG.monetGareSaintLazare,
   heroCredit: 'Monet, La Gare Saint-Lazare, 1877 · Musée d’Orsay, Paris',
   heroAspect: 1.4, // 75 × 105 cm (H × W) → W/H = 1.4
@@ -2456,17 +2456,17 @@ export const GARE_SAINT_LAZARE: ArtWorkContent = {
     { v: 'Orsay', k: 'Now at' },
   ],
   sections: [
-    { id: 'station', eyebrow: 'Paris · 1877', dateLabel: '1877', title: 'The iron-and-glass cathedral of modern Paris', blurb: 'Claude Monet (1840–1926) pointed his easel at the Gare Saint-Lazare — by then Paris’s busiest station, the gateway to the Seine resorts Monet had painted for a decade. The iron-and-glass train shed roof, the steam, the coal — the new industrial architecture as fit subject.', progress: 0.08 },
+    { id: 'station', eyebrow: 'Paris · 1877', dateLabel: '1877', title: 'The iron-and-glass cathedral of modern Paris', blurb: 'Claude Monet (1840–1926) pointed his easel at the Gare Saint-Lazare, by then Paris’s busiest station, the gateway to the Seine resorts Monet had painted for a decade. The iron-and-glass train shed roof, the steam, the coal, the new industrial architecture as fit subject.', progress: 0.08 },
     { id: 'making', eyebrow: 'Rented studio, formal permission', dateLabel: 'Jan–April 1877', title: 'Permission to paint inside the shed', blurb: 'Early 1877 Monet rented a Paris studio nearby and got formal permission to set up his easel inside the train shed itself. The 1877 series ran to about 12 canvases (Fogg, NGL, Orsay, Art Institute Chicago, Pola Museum…). The colourful "trains stoked / platforms cleared" anecdotes are Monet’s later reminiscences, not flat fact.', progress: 0.32 },
-    { id: 'looking', eyebrow: 'The canvas', dateLabel: '75 × 105 cm', title: 'Steam as the subject, the rest as setting', blurb: 'The dark iron-girder roof overhead, two black locomotives on the tracks (left and centre), a great soft central plume of steam fusing into the dark vault, Haussmannian apartment buildings hazed at the upper right, small porter/passenger figures along the platform — and a broken-color steam plume that dissolves only at arm’s length.', progress: 0.56 },
-    { id: 'show', eyebrow: '3rd Impressionist Exhibition', dateLabel: 'April 1877', title: 'Seven of the series on one wall', blurb: 'Monet hung seven canvases from the Gare series at the 3rd Impressionist Exhibition (NOT all twelve). This Orsay version was almost certainly among them. Reception split — some critics saw a hopeful celebration of modernity, others sneered.', progress: 0.8 },
-    { id: 'afterlife', eyebrow: 'After', dateLabel: '1878–today', title: 'Caillebotte buys it for 685 francs', blurb: 'Caillebotte bought it from Monet on 10 March 1878 for 685 francs — an act in a distressed market (Hoschedé’s collection was being liquidated through several sales that spring, with the main bankruptcy auction at Hôtel Drouot 5–6 June 1878). Then via Caillebotte’s 1894 will and the 1896 bequest negotiation: France accepted 38 of 67 works (the rejected 29 offered back in 1904 and 1908 and refused both times). To the Luxembourg 1896, Louvre 1929, Jeu de Paume 1947, Musée d’Orsay 1986. RF 2775. On permanent view.', progress: 0.96 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '75 × 105 cm', title: 'Steam as the subject, the rest as setting', blurb: 'The dark iron-girder roof overhead, two black locomotives on the tracks (left and centre), a great soft central plume of steam fusing into the dark vault, Haussmannian apartment buildings hazed at the upper right, small porter/passenger figures along the platform, and a broken-color steam plume that dissolves only at arm’s length.', progress: 0.56 },
+    { id: 'show', eyebrow: '3rd Impressionist Exhibition', dateLabel: 'April 1877', title: 'Seven of the series on one wall', blurb: 'Monet hung seven canvases from the Gare series at the 3rd Impressionist Exhibition (NOT all twelve). This Orsay version was almost certainly among them. Reception split, some critics saw a hopeful celebration of modernity, others sneered.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1878–today', title: 'Caillebotte buys it for 685 francs', blurb: 'Caillebotte bought it from Monet on 10 March 1878 for 685 francs, an act in a distressed market (Hoschedé’s collection was being liquidated through several sales that spring, with the main bankruptcy auction at Hôtel Drouot 5–6 June 1878). Then via Caillebotte’s 1894 will and the 1896 bequest negotiation: France accepted 38 of 67 works (the rejected 29 offered back in 1904 and 1908 and refused both times). To the Luxembourg 1896, Louvre 1929, Jeu de Paume 1947, Musée d’Orsay 1986. RF 2775. On permanent view.', progress: 0.96 },
   ],
   provenance: [
     { year: '1877–1878', who: 'Claude Monet (the artist)', place: 'Paris', note: 'Painted in early 1877 from inside the shed, with formal permission, then finished in his nearby rented studio. Shown at the 3rd Impressionist Exhibition, April 1877, as one of seven Gare Saint-Lazare canvases on the wall.', price: null },
     { year: '1878–1894', who: 'Gustave Caillebotte', place: 'Paris', note: 'Bought from Monet on 10 March 1878 for 685 francs, a few months before Ernest Hoschedé’s catastrophic bankruptcy auction on 5–6 June 1878 sent Impressionist prices into freefall. Held by Caillebotte for the rest of his life.', price: '685 fr' },
     { year: '1894–1896', who: 'The French State (in negotiation)', place: 'Paris', note: 'Caillebotte’s will left 67 Impressionist paintings to France; after a two-year wrangle the Académie des Beaux-Arts accepted only 38 of them in 1896 (the rejected 29 were offered back to the family in 1904 and 1908 and refused both times). This canvas was among the 38 accepted.', price: null },
-    { year: '1896–today', who: 'Musée du Luxembourg → Musée du Louvre → Musée du Jeu de Paume → Musée d’Orsay', place: 'Paris', note: 'Unveiled in the Caillebotte room at the Musée du Luxembourg, February 1897 — the first time the Impressionists hung in a French public museum. Louvre 1929; Jeu de Paume 1947; Musée d’Orsay 1986 (RF 2775). On permanent view.', price: 'gift to the nation', museum: true },
+    { year: '1896–today', who: 'Musée du Luxembourg → Musée du Louvre → Musée du Jeu de Paume → Musée d’Orsay', place: 'Paris', note: 'Unveiled in the Caillebotte room at the Musée du Luxembourg, February 1897, the first time the Impressionists hung in a French public museum. Louvre 1929; Jeu de Paume 1947; Musée d’Orsay 1986 (RF 2775). On permanent view.', price: 'gift to the nation', museum: true },
   ],
   figures: [
     { name: 'Claude Monet', role: 'The painter', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
@@ -2476,12 +2476,12 @@ export const GARE_SAINT_LAZARE: ArtWorkContent = {
     { name: 'Jean-Léon Gérôme', role: 'Academic painter; led the 1894 bequest objection', palette: ['#6a6a5a', '#3a3a2e', '#0e0e08'] },
   ],
   annotations: [
-    { label: 'The dark vault of girders', where: 'The entire upper third of the canvas, top edge inward', detail: 'Look up. The dark beams cutting diagonally across the top of the picture are the iron girders of the train shed’s roof — the structural ribs of a great cast-iron skeleton holding up panes of dirty glass. The blue-grays you see between the girders are weak daylight leaking through the smoke-streaked glass. Monet painted the roof from underneath, from inside the shed, so this whole upper band is a kind of metal cathedral ceiling — the cathedral of modern Paris is iron, not stone.' },
-    { label: 'Two engines, left and centre', where: 'The lower middle of the picture, on the platform floor', detail: 'Two locomotives — the engine cars of the trains — sit on parallel tracks pointing roughly toward you. The closer one is on the left, a darker, sharper black mass with the faint suggestion of a smokestack and boiler. The farther one is just to the right of it, set back, fainter through the haze, its body half-erased by the steam it’s producing. They aren’t drawn in detail — no rivets, no nameplates — they’re solid silhouettes, more like dark blocks than rendered machines.' },
-    { label: 'The painting’s real subject', where: 'The centre of the canvas, rising from the engines up toward the roof', detail: 'A great soft cloud of steam fills the heart of the picture, rising from the locomotives below and billowing up under the iron roof. Get close and you can see Monet has built it out of dabs of nearly white paint, pale yellow, soft blue, and feathered gray edges. Now back up two paces. The separate dabs vanish; the dabs of white and blue and gray fuse in your eye into a single moving body of vapor. That arm’s-length blending is the broken-color trick — colors laid down side by side on the canvas, mixed by the viewer’s eye at viewing distance, not by Monet on the palette.' },
-    { label: 'The city beyond the shed', where: 'Upper right, beyond the steam', detail: 'Look to the right side of the cloud, toward the upper right of the canvas, and you can just make out pale rectangular shapes — the Haussmannian apartment buildings of the rue de Rome, the bourgeois Paris streets right outside the open end of the shed. They are hazed almost to ghosts here, half-erased by the steam, but they’re there. They tell you the shed is open at the far end and the city is right outside — the painting is not a sealed interior, it’s a room facing out.' },
-    { label: 'Porters and passengers in dabs', where: 'Low in the picture, at the platform edge near the engines', detail: 'Along the platform near the engines you can find a handful of small figures — porters, passengers, railway crew — picked out in quick brushstroke-sized dabs. They have no faces; they barely have shoulders. Monet has given them just enough mark to register as human scale, so you can tell how big the engines and the shed are.' },
-    { label: 'Where the shed ends and the daylight begins', where: 'The contrast between the dark upper interior and the pale far-right back', detail: 'Trace your eye from the dark iron roof at the upper left across to the pale, hazed apartments at the upper right, and you can feel where the shed ends. Under the roof on the left it is dark — the vault of iron and dirty glass keeps the light low. Out at the far end, where the shed opens onto the rail yard and the city, the light brightens. That contrast — dim interior against bright opening — is the architectural logic of any cathedral-scaled hall: dark vault, light beyond the doors.' },
+    { label: 'The dark vault of girders', where: 'The entire upper third of the canvas, top edge inward', detail: 'Look up. The dark beams cutting diagonally across the top of the picture are the iron girders of the train shed’s roof, the structural ribs of a great cast-iron skeleton holding up panes of dirty glass. The blue-grays you see between the girders are weak daylight leaking through the smoke-streaked glass. Monet painted the roof from underneath, from inside the shed, so this whole upper band is a kind of metal cathedral ceiling, the cathedral of modern Paris is iron, not stone.' },
+    { label: 'Two engines, left and centre', where: 'The lower middle of the picture, on the platform floor', detail: 'Two locomotives, the engine cars of the trains, sit on parallel tracks pointing roughly toward you. The closer one is on the left, a darker, sharper black mass with the faint suggestion of a smokestack and boiler. The farther one is just to the right of it, set back, fainter through the haze, its body half-erased by the steam it’s producing. They aren’t drawn in detail, no rivets, no nameplates, they’re solid silhouettes, more like dark blocks than rendered machines.' },
+    { label: 'The painting’s real subject', where: 'The centre of the canvas, rising from the engines up toward the roof', detail: 'A great soft cloud of steam fills the heart of the picture, rising from the locomotives below and billowing up under the iron roof. Get close and you can see Monet has built it out of dabs of nearly white paint, pale yellow, soft blue, and feathered gray edges. Now back up two paces. The separate dabs vanish; the dabs of white and blue and gray fuse in your eye into a single moving body of vapor. That arm’s-length blending is the broken-color trick, colors laid down side by side on the canvas, mixed by the viewer’s eye at viewing distance, not by Monet on the palette.' },
+    { label: 'The city beyond the shed', where: 'Upper right, beyond the steam', detail: 'Look to the right side of the cloud, toward the upper right of the canvas, and you can just make out pale rectangular shapes, the Haussmannian apartment buildings of the rue de Rome, the bourgeois Paris streets right outside the open end of the shed. They are hazed almost to ghosts here, half-erased by the steam, but they’re there. They tell you the shed is open at the far end and the city is right outside, the painting is not a sealed interior, it’s a room facing out.' },
+    { label: 'Porters and passengers in dabs', where: 'Low in the picture, at the platform edge near the engines', detail: 'Along the platform near the engines you can find a handful of small figures, porters, passengers, railway crew, picked out in quick brushstroke-sized dabs. They have no faces; they barely have shoulders. Monet has given them just enough mark to register as human scale, so you can tell how big the engines and the shed are.' },
+    { label: 'Where the shed ends and the daylight begins', where: 'The contrast between the dark upper interior and the pale far-right back', detail: 'Trace your eye from the dark iron roof at the upper left across to the pale, hazed apartments at the upper right, and you can feel where the shed ends. Under the roof on the left it is dark, the vault of iron and dirty glass keeps the light low. Out at the far end, where the shed opens onto the rail yard and the city, the light brightens. That contrast, dim interior against bright opening, is the architectural logic of any cathedral-scaled hall: dark vault, light beyond the doors.' },
   ],
   lineage: {
     parents: [ { label: 'Turner · Rain Steam Speed', mode: 'art' }, { label: 'Manet · railway', mode: 'art' }, { label: 'Haussmann’s Paris', mode: 'civ' } ],
@@ -2490,7 +2490,7 @@ export const GARE_SAINT_LAZARE: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────────────────
-// The Stone Breakers (Courbet, 1849) — ArtWorkContent
+// The Stone Breakers (Courbet, 1849), ArtWorkContent
 // Drafted by the AUTHOR agent in the gated art pipeline. Same field shape as
 // BURIAL (src/lib/art-content.ts ~1390). To be integrated by the coordinator
 // into art-content.ts after the critic gates pass. Section ids match the
@@ -2510,11 +2510,11 @@ export const STONE_BREAKERS: ArtWorkContent = {
   eraId: 'mod',
   medium: 'Oil on canvas',
   dimensions: '5 ft 5 in × 8 ft 5 in',
-  location: 'Destroyed 1945 — formerly Gemäldegalerie, Dresden',
+  location: 'Destroyed 1945, formerly Gemäldegalerie, Dresden',
   acquired: 'Lost in WWII, February 1945 (museum status: missing, presumed destroyed)',
   accent: ART_ACCENTS.amber,
   chain: { name: 'Works of Realism', index: 2, total: 9 },
-  hook: 'Two road laborers breaking rock, life-size and dead serious — the scale the Salon kept for gods, spent on men with holes in their shoes. The original is gone; only reproductions survive.',
+  hook: 'Two road laborers breaking rock, life-size and dead serious, the scale the Salon kept for gods, spent on men with holes in their shoes. The original is gone; only reproductions survive.',
   heroImage: ART_IMG.courbetStoneBreakers,
   heroCredit: 'Courbet, The Stone Breakers, 1849 · destroyed 1945, formerly Gemäldegalerie, Dresden',
   heroAspect: 1.56, // 257 × 165 cm → W/H ≈ 1.558
@@ -2526,17 +2526,17 @@ export const STONE_BREAKERS: ArtWorkContent = {
     { v: 'Destroyed 1945', k: 'Now' },
   ],
   sections: [
-    { id: 'road', eyebrow: 'Near Maisières · 1849', dateLabel: '1849', title: 'Two men on a road', blurb: 'Courbet stops his carriage to watch two laborers break stones, sees “the most complete expression of poverty,” and asks them to his studio the next morning — to paint them life-size.', progress: 0.08 },
-    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1849', title: 'A boy, an old man, and two hidden faces', blurb: 'The straining youth with the basket, the kneeling old man with the hammer, the patched clothes and cracked clogs — and the one decision that runs the whole picture: you never see either face.', progress: 0.32 },
-    { id: 'salon', eyebrow: 'Paris · 1850–51', dateLabel: '1850–51', title: 'The Burial’s twin', blurb: 'Hung in the same Salon as A Burial at Ornans — two monumental Courbets, one program, delivered as a single coordinated assault on what serious painting was allowed to be about.', progress: 0.56 },
+    { id: 'road', eyebrow: 'Near Maisières · 1849', dateLabel: '1849', title: 'Two men on a road', blurb: 'Courbet stops his carriage to watch two laborers break stones, sees “the most complete expression of poverty” and asks them to his studio the next morning, to paint them life-size.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1849', title: 'A boy, an old man, and two hidden faces', blurb: 'The straining youth with the basket, the kneeling old man with the hammer, the patched clothes and cracked clogs, and the one decision that runs the whole picture: you never see either face.', progress: 0.32 },
+    { id: 'salon', eyebrow: 'Paris · 1850–51', dateLabel: '1850–51', title: 'The Burial’s twin', blurb: 'Hung in the same Salon as A Burial at Ornans, two monumental Courbets, one program, delivered as a single coordinated assault on what serious painting was allowed to be about.', progress: 0.56 },
     { id: 'meaning', eyebrow: 'Dignity vs pity', dateLabel: '1850s–1865', title: '“The first socialist painting”?', blurb: 'Proudhon read it as a manifesto for the laboring poor; Courbet swore he’d simply painted what he saw. Why the refusal of pity is exactly what gives the two men their weight.', progress: 0.78 },
-    { id: 'afterlife', eyebrow: 'After', dateLabel: '1945–today', title: 'A painting that only survives as a photograph', blurb: 'Dresden, the last months of the war, and a masterpiece lost — the museum lists it as “missing.” Why the image you can see is gray, and what it means to read a work that no longer exists.', progress: 0.96 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1945–today', title: 'A painting that only survives as a photograph', blurb: 'Dresden, the last months of the war, and a masterpiece lost, the museum lists it as “missing.” Why the image you can see is gray, and what it means to read a work that no longer exists.', progress: 0.96 },
   ],
   provenance: [
     { year: '1849–1850s', who: 'Gustave Courbet (the artist)', place: 'Ornans / Paris', note: 'Painted in 1849 after meeting two stone breakers on the road near Maisières; shown at the Salon of 1850–51 alongside A Burial at Ornans.', price: null },
     { year: '19th–20th c.', who: 'Private hands → German collections', place: 'France → Germany', note: 'The canvas passed out of Courbet’s hands and eventually into German collections, entering the Dresden picture gallery.', price: null },
-    { year: 'by the 20th c.–1945', who: 'Gemäldegalerie, Dresden', place: 'Dresden', note: 'Held by the Dresden state picture gallery — one of the great public homes for the painting before the war.', price: null, museum: true },
-    { year: 'February 1945', who: 'Lost in WWII', place: 'near Dresden', note: 'Lost in the last months of the war. By the standard account it was on a transport moving pictures toward Königstein Fortress when the convoy was bombed, destroyed with more than 150 other pictures; one scholar (Raskin, 1988) argues it had already gone missing in 1944. The museum lists it as “missing,” presumed destroyed.', price: 'destroyed', museum: true },
+    { year: 'by the 20th c.–1945', who: 'Gemäldegalerie, Dresden', place: 'Dresden', note: 'Held by the Dresden state picture gallery, one of the great public homes for the painting before the war.', price: null, museum: true },
+    { year: 'February 1945', who: 'Lost in WWII', place: 'near Dresden', note: 'Lost in the last months of the war. By the standard account it was on a transport moving pictures toward Königstein Fortress when the convoy was bombed, destroyed with more than 150 other pictures; one scholar (Raskin, 1988) argues it had already gone missing in 1944. The museum lists it as “missing” presumed destroyed.', price: 'destroyed', museum: true },
   ],
   figures: [
     { name: 'Courbet', role: 'The painter', palette: ['#6b6354', '#39322a', '#120f0c'] },
@@ -2546,12 +2546,12 @@ export const STONE_BREAKERS: ArtWorkContent = {
     { name: 'Francis Wey', role: 'Got the “I saw them” letter', palette: ['#5a4a32', '#2e2418', '#0e0a06'] },
   ],
   annotations: [
-    { label: 'The boy with the basket', where: 'Left, the standing figure seen from behind', detail: 'A young man — too young, really, for this work — strains under a heavy basket of broken stone, his whole body torqued by the weight. You see his back and the nape of his neck; his face is turned away from you entirely. His white shirt has split open at the shoulder blade, a leather strap crosses his back, and his trousers and shoes are coming apart. Courbet gives you his effort and his rags, and withholds the one thing that would let you feel sorry for him: his face.' },
-    { label: 'The old man with the hammer', where: 'Right of center, kneeling on one knee', detail: 'An old man — Courbet said about seventy — kneels on a pad of straw with a long-handled hammer raised over his shoulder, caught at the top of its arc, an instant before it falls on the stone. He is too old, really, for this work either, which is the quiet point: between the boy and the old man there is no prime-of-life in this picture, only the start of a hard life and the end of one. His face is hidden under the brim of a battered straw hat; like the boy, he is all labor and no expression.' },
-    { label: 'The two hidden faces', where: 'Both heads — the boy’s turned away, the old man’s under the hat', detail: 'This is the decision that runs the whole painting. Neither man looks at you; neither face is visible. A contemporary critic complained that Courbet had “suppressed the two heads.” He had — on purpose. A visible, pleading face turns a laborer into a sympathetic individual you pity. Two hidden faces leave you only the bodies and the work, which is harder to feel sentimental about and harder to look away from.' },
-    { label: 'Patched clothes and cracked clogs', where: 'Low — the old man’s trousers and wooden sabots', detail: 'Look at the clothing close and you find the poverty rendered as fact, not pathos: trousers patched and re-patched, a striped waistcoat, and on the old man’s feet wooden sabots (clogs) so split you can almost see the heel through them. When the picture reached Paris, the press caricatured these clogs, drawing them comically huge — a tell that the real offense was making this kind of poverty big and serious at all.' },
-    { label: 'The pot at the edge', where: 'Far right, at ground level by the rocks', detail: 'Off to the right, easy to miss, sits a small dark cooking pot with a little bread beside it — presumably the men’s meal, set down in the dirt where they work. It is the only soft, domestic note in the picture, and it is parked at the very margin, almost out of frame: even lunch is an afterthought to the rock.' },
-    { label: 'The wall of hill behind them', where: 'The whole upper canvas — the dark bank, a sliver of sky at upper right', detail: 'There is almost no sky. A steep, dark bank fills nearly the entire top of the canvas, leaving only a thin wedge of pale light in the upper right corner. The hill presses the two men forward to the very front of the picture, with no horizon to look off into and no air to breathe. A landscape would have given them a distance; Courbet gives them a wall. They are pinned between the rock they break and the rock that rises behind them.' },
+    { label: 'The boy with the basket', where: 'Left, the standing figure seen from behind', detail: 'A young man, too young, really, for this work, strains under a heavy basket of broken stone, his whole body torqued by the weight. You see his back and the nape of his neck; his face is turned away from you entirely. His white shirt has split open at the shoulder blade, a leather strap crosses his back, and his trousers and shoes are coming apart. Courbet gives you his effort and his rags, and withholds the one thing that would let you feel sorry for him: his face.' },
+    { label: 'The old man with the hammer', where: 'Right of center, kneeling on one knee', detail: 'An old man, Courbet said about seventy, kneels on a pad of straw with a long-handled hammer raised over his shoulder, caught at the top of its arc, an instant before it falls on the stone. He is too old, really, for this work either, which is the quiet point: between the boy and the old man there is no prime-of-life in this picture, only the start of a hard life and the end of one. His face is hidden under the brim of a battered straw hat; like the boy, he is all labor and no expression.' },
+    { label: 'The two hidden faces', where: 'Both heads, the boy’s turned away, the old man’s under the hat', detail: 'This is the decision that runs the whole painting. Neither man looks at you; neither face is visible. A contemporary critic complained that Courbet had “suppressed the two heads.” He had, on purpose. A visible, pleading face turns a laborer into a sympathetic individual you pity. Two hidden faces leave you only the bodies and the work, which is harder to feel sentimental about and harder to look away from.' },
+    { label: 'Patched clothes and cracked clogs', where: 'Low, the old man’s trousers and wooden sabots', detail: 'Look at the clothing close and you find the poverty rendered as fact, not pathos: trousers patched and re-patched, a striped waistcoat, and on the old man’s feet wooden sabots (clogs) so split you can almost see the heel through them. When the picture reached Paris, the press caricatured these clogs, drawing them comically huge, a tell that the real offense was making this kind of poverty big and serious at all.' },
+    { label: 'The pot at the edge', where: 'Far right, at ground level by the rocks', detail: 'Off to the right, easy to miss, sits a small dark cooking pot with a little bread beside it, presumably the men’s meal, set down in the dirt where they work. It is the only soft, domestic note in the picture, and it is parked at the very margin, almost out of frame: even lunch is an afterthought to the rock.' },
+    { label: 'The wall of hill behind them', where: 'The whole upper canvas, the dark bank, a sliver of sky at upper right', detail: 'There is almost no sky. A steep, dark bank fills nearly the entire top of the canvas, leaving only a thin wedge of pale light in the upper right corner. The hill presses the two men forward to the very front of the picture, with no horizon to look off into and no air to breathe. A landscape would have given them a distance; Courbet gives them a wall. They are pinned between the rock they break and the rock that rises behind them.' },
   ],
   lineage: {
     parents: [
@@ -2568,7 +2568,7 @@ export const STONE_BREAKERS: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// The Painter's Studio (Courbet, 1854–55) — ArtWorkContent
+// The Painter's Studio (Courbet, 1854–55), ArtWorkContent
 // Built to the EXACT shape of BURIAL (art-content.ts). Drop into ART_WORK_CONTENT.
 // kind: WORK · chain "Works of Realism" 5 of 9 · accent amber.
 // ─────────────────────────────────────────────────────────────
@@ -2589,7 +2589,7 @@ export const STUDIO: ArtWorkContent = {
   acquired: 'Bought for the Louvre by public subscription, 1920; to the Musée d’Orsay, 1986',
   accent: ART_ACCENTS.amber,
   chain: { name: 'Works of Realism', index: 5, total: 9 },
-  hook: 'A whole society sorted into one room, with the painter dead-center — and a subtitle that calls itself, on purpose, a “real allegory.”',
+  hook: 'A whole society sorted into one room, with the painter dead-center, and a subtitle that calls itself, on purpose, a “real allegory.”',
   heroImage: ART_IMG.courbetStudio,
   heroCredit: 'Courbet, The Painter’s Studio, 1855 · Musée d’Orsay, Paris',
   heroAspect: 1.66,
@@ -2601,17 +2601,17 @@ export const STUDIO: ArtWorkContent = {
     { v: 'Orsay', k: 'Now at' },
   ],
   sections: [
-    { id: 'refusal', eyebrow: 'Paris · 1855', dateLabel: '1855', title: 'The world’s fair says no', blurb: 'The biggest show on Earth opens in Paris and refuses Courbet’s two largest canvases — this one and A Burial at Ornans — so he builds his own tent across the road and hangs them there himself.', progress: 0.08 },
-    { id: 'allegory', eyebrow: 'The subtitle', dateLabel: '1854–55', title: 'A “real allegory” of seven years', blurb: 'What it means to call a painting both real and an allegory at once — and why the painter sits dead-center, painting a landscape with his back to the whole crowd.', progress: 0.32 },
+    { id: 'refusal', eyebrow: 'Paris · 1855', dateLabel: '1855', title: 'The world’s fair says no', blurb: 'The biggest show on Earth opens in Paris and refuses Courbet’s two largest canvases, this one and A Burial at Ornans, so he builds his own tent across the road and hangs them there himself.', progress: 0.08 },
+    { id: 'allegory', eyebrow: 'The subtitle', dateLabel: '1854–55', title: 'A “real allegory” of seven years', blurb: 'What it means to call a painting both real and an allegory at once, and why the painter sits dead-center, painting a landscape with his back to the whole crowd.', progress: 0.32 },
     { id: 'reading', eyebrow: 'Look closer', dateLabel: 'The canvas', title: 'The walk across the room', blurb: 'Center, then right, then left: the self-portrait at the easel, the “shareholders” who back him, and the “other world” of the poor and the powerful he claims as his subject.', progress: 0.56 },
-    { id: 'cast', eyebrow: 'Who’s in it', dateLabel: '1848–1855', title: 'Naming the room', blurb: 'Baudelaire reading in the corner, Proudhon the radical, Bruyas the collector who helped shape the picture’s whole idea — and the wide-hatted poacher on the left that half of art history reads as the Emperor.', progress: 0.8 },
-    { id: 'afterlife', eyebrow: 'After', dateLabel: '1855–today', title: 'Afterlife', blurb: 'The tent loses money, the painting is too big to sell, and seventy years later France buys it back by public subscription — Courbet’s testament, hanging in the Orsay.', progress: 0.96 },
+    { id: 'cast', eyebrow: 'Who’s in it', dateLabel: '1848–1855', title: 'Naming the room', blurb: 'Baudelaire reading in the corner, Proudhon the radical, Bruyas the collector who helped shape the picture’s whole idea, and the wide-hatted poacher on the left that half of art history reads as the Emperor.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1855–today', title: 'Afterlife', blurb: 'The tent loses money, the painting is too big to sell, and seventy years later France buys it back by public subscription, Courbet’s testament, hanging in the Orsay.', progress: 0.96 },
   ],
   provenance: [
     { year: '1855–1877', who: 'Gustave Courbet (the artist)', place: 'Paris / Ornans', note: 'Painted 1854–55; refused by the 1855 Exposition Universelle jury and shown instead in Courbet’s own Pavilion of Realism. The vast, near-unsellable canvas stayed with the artist until his death in Swiss exile in 1877.', price: null },
     { year: '1877–1881', who: 'The Courbet estate', place: 'France', note: 'After Courbet died in exile, the enormous painting passed through his estate; too large and too political to find an easy buyer.', price: null },
-    { year: '1881–1919', who: 'Private hands', place: 'France', note: 'Held privately for decades — exactly the fate (a foreign sale, a breakup) a national-treasure painting risks when it is this hard to house.', price: null },
-    { year: '1920', who: 'Musée du Louvre', place: 'Paris', note: 'Bought for the French national museums by a public subscription, with the Société des Amis du Louvre — the nation raising the money to keep Courbet’s testament in France.', price: 'public subscription', museum: true },
+    { year: '1881–1919', who: 'Private hands', place: 'France', note: 'Held privately for decades, exactly the fate (a foreign sale, a breakup) a national-treasure painting risks when it is this hard to house.', price: null },
+    { year: '1920', who: 'Musée du Louvre', place: 'Paris', note: 'Bought for the French national museums by a public subscription, with the Société des Amis du Louvre, the nation raising the money to keep Courbet’s testament in France.', price: 'public subscription', museum: true },
     { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Orsay opens in a converted railway station, the Louvre’s 19th-century collection crosses the river to fill it. On permanent view.', price: 'never sold', museum: true },
   ],
   figures: [
@@ -2623,14 +2623,14 @@ export const STUDIO: ArtWorkContent = {
     { name: 'The poacher (left)', role: 'Often read as Napoleon III', palette: ['#53412c', '#2a1f14', '#0c0805'] },
   ],
   annotations: [
-    { label: 'The painter, painting the wrong thing', where: 'Dead center — the seated man at the easel', detail: 'Courbet sits at his easel in the exact middle of the canvas, palette in hand, and the picture he is working on is not a portrait or a Bible scene but a plain green river landscape — a view of the Loue valley back home near Ornans. He is showing you what Realism does: turns its back on the whole theatrical room of human society behind him and paints the unremarkable real world instead. The self-portrait that runs the painting has the painter looking away from almost everyone in it.' },
-    { label: 'A nude with nowhere to be', where: 'Just behind Courbet, standing — the pale figure with a white sheet', detail: 'A naked model stands at Courbet’s shoulder, a white drapery slipping down her hip to the floor. The joke is that she has no job here: he is painting a landscape, so she is a model with nothing to model for — the academic nude (the idealized naked body the official schools drilled endlessly) standing idle behind a painter who would rather paint a riverbank. She is the old kind of subject, watching the new kind get made.' },
-    { label: 'The only one really looking', where: 'At the foot of the easel — the small boy in a smock', detail: 'A small peasant boy in a pale smock stands right at the easel, head tipped back, watching the landscape appear. In a room of forty adults posing, networking, reading, brooding, the child is the one figure giving the act of painting his whole open attention — the unschooled eye, the viewer Courbet actually wants.' },
+    { label: 'The painter, painting the wrong thing', where: 'Dead center, the seated man at the easel', detail: 'Courbet sits at his easel in the exact middle of the canvas, palette in hand, and the picture he is working on is not a portrait or a Bible scene but a plain green river landscape, a view of the Loue valley back home near Ornans. He is showing you what Realism does: turns its back on the whole theatrical room of human society behind him and paints the unremarkable real world instead. The self-portrait that runs the painting has the painter looking away from almost everyone in it.' },
+    { label: 'A nude with nowhere to be', where: 'Just behind Courbet, standing, the pale figure with a white sheet', detail: 'A naked model stands at Courbet’s shoulder, a white drapery slipping down her hip to the floor. The joke is that she has no job here: he is painting a landscape, so she is a model with nothing to model for, the academic nude (the idealized naked body the official schools drilled endlessly) standing idle behind a painter who would rather paint a riverbank. She is the old kind of subject, watching the new kind get made.' },
+    { label: 'The only one really looking', where: 'At the foot of the easel, the small boy in a smock', detail: 'A small peasant boy in a pale smock stands right at the easel, head tipped back, watching the landscape appear. In a room of forty adults posing, networking, reading, brooding, the child is the one figure giving the act of painting his whole open attention, the unschooled eye, the viewer Courbet actually wants.' },
     { label: 'The cat that doesn’t care', where: 'On the floor near Courbet’s feet, center-low', detail: 'A white cat crouches on the bare floor by the painter’s feet, attending to nothing. It is the same flick of nerve as the bored dog in A Burial at Ornans (which has its own read in this app): a small indifferent animal dropped into a solemn, self-important scene, quietly refusing to be impressed by any of it.' },
-    { label: 'Baudelaire, reading in the corner', where: 'Far right edge, bent over a large book', detail: 'At the extreme right, almost falling off the canvas, a man sits hunched over a big open book, absorbed, ignoring the whole gathering. That is the poet Charles Baudelaire, copied from a portrait Courbet had painted of him in 1847 — the “shareholders” side’s patron saint, present but lost in his reading, the way poets are.' },
-    { label: 'The wide-hatted poacher (the Emperor?)', where: 'Left foreground — the seated man in a broad hat with hunting dogs', detail: 'Over on the dark left side sits a man in a broad-brimmed hat with hunting dogs at his feet, dressed as a poacher. Many readers, then and since, take him for Napoleon III — France’s emperor — slipped in among “the people who live off death,” identified by the hunting dogs and the curled moustache. Courbet’s own letter never names him, and X-rays show the figure was reworked later, so treat the imperial reading as the famous interpretation it is, not a caption Courbet signed.' },
-    { label: 'Cast-offs on the studio floor', where: 'Lower-left foreground, on the bare boards', detail: 'Scattered on the floor at the bottom-left lie a guitar, a dagger, and a plumed cavalier’s hat — the dressing-up box of Romanticism (the swashbuckling, exotic, high-drama painting Courbet was burying). Tossed aside on the boards of the “real” world, they read as the discarded props of the kind of art he refused to make.' },
-    { label: 'The crucified mannequin', where: 'Up in the shadows on the dark left side, behind the standing figures', detail: 'Strung up in the gloom on the left hangs a lay figure — an artist’s mannequin, the jointed, stuffed studio dummy academic painters draped and posed in place of a living body. Courbet has trussed his with the arms wrenched back so it reads unmistakably as a body on a cross. A crucified dummy, pinned up on the side of the room he gave to misery and the dead: the death of academic art itself, the lifeless stand-in for the real body nailed up in the shadows while the new kind of painting happens, alive, in the light at the center.' },
+    { label: 'Baudelaire, reading in the corner', where: 'Far right edge, bent over a large book', detail: 'At the extreme right, almost falling off the canvas, a man sits hunched over a big open book, absorbed, ignoring the whole gathering. That is the poet Charles Baudelaire, copied from a portrait Courbet had painted of him in 1847, the “shareholders” side’s patron saint, present but lost in his reading, the way poets are.' },
+    { label: 'The wide-hatted poacher (the Emperor?)', where: 'Left foreground, the seated man in a broad hat with hunting dogs', detail: 'Over on the dark left side sits a man in a broad-brimmed hat with hunting dogs at his feet, dressed as a poacher. Many readers, then and since, take him for Napoleon III, France’s emperor, slipped in among “the people who live off death” identified by the hunting dogs and the curled moustache. Courbet’s own letter never names him, and X-rays show the figure was reworked later, so treat the imperial reading as the famous interpretation it is, not a caption Courbet signed.' },
+    { label: 'Cast-offs on the studio floor', where: 'Lower-left foreground, on the bare boards', detail: 'Scattered on the floor at the bottom-left lie a guitar, a dagger, and a plumed cavalier’s hat, the dressing-up box of Romanticism (the swashbuckling, exotic, high-drama painting Courbet was burying). Tossed aside on the boards of the “real” world, they read as the discarded props of the kind of art he refused to make.' },
+    { label: 'The crucified mannequin', where: 'Up in the shadows on the dark left side, behind the standing figures', detail: 'Strung up in the gloom on the left hangs a lay figure, an artist’s mannequin, the jointed, stuffed studio dummy academic painters draped and posed in place of a living body. Courbet has trussed his with the arms wrenched back so it reads unmistakably as a body on a cross. A crucified dummy, pinned up on the side of the room he gave to misery and the dead: the death of academic art itself, the lifeless stand-in for the real body nailed up in the shadows while the new kind of painting happens, alive, in the light at the center.' },
   ],
   lineage: {
     parents: [ { label: 'A Burial at Ornans', mode: 'art' }, { label: 'The 1848 Revolution', mode: 'civ' }, { label: 'Dutch group portrait', mode: 'art' } ],
@@ -2638,10 +2638,10 @@ export const STUDIO: ArtWorkContent = {
   },
 }
 
-// Millet, The Sower (1850) — ArtWorkContent (Realism works chain, index 4 of 9).
+// Millet, The Sower (1850), ArtWorkContent (Realism works chain, index 4 of 9).
 // Author draft for the gated art pipeline. Copies the BURIAL shape exactly.
 // NOTE: ART_IMG.milletSower (the Google Art Project / Wikimedia file) is the
-// MUSEUM OF FINE ARTS, BOSTON version — credit confirmed correct. The which-
+// MUSEUM OF FINE ARTS, BOSTON version, credit confirmed correct. The which-
 // canvas-hung-at-the-Salon question (Boston vs Yamanashi) is handled as a debate
 // in the prose, not asserted here. See sower-factpack.md.
 
@@ -2662,11 +2662,11 @@ export const SOWER: ArtWorkContent = {
   acquired: 'Gift of Quincy Adams Shaw, 1917',
   accent: ART_ACCENTS.amber,
   chain: { name: 'Works of Realism', index: 4, total: 9 },
-  hook: 'A lone peasant strides a dusk field flinging seed — life-size, dark, almost menacing, two years after the poor toppled a throne.',
+  hook: 'A lone peasant strides a dusk field flinging seed, life-size, dark, almost menacing, two years after the poor toppled a throne.',
   heroImage: ART_IMG.milletSower,
   heroCredit: 'Millet, The Sower, 1850 · Museum of Fine Arts, Boston',
   heroAspect: 0.813,
-  heroFit: 'contain', // the work is a PORTRAIT canvas — show the whole figure, never cropped
+  heroFit: 'contain', // the work is a PORTRAIT canvas, show the whole figure, never cropped
   rights: 'pd-us',
   stats: [
     { v: '1850', k: 'Painted' },
@@ -2675,17 +2675,17 @@ export const SOWER: ArtWorkContent = {
   ],
   sections: [
     { id: 'barbizon', eyebrow: 'Gruchy · Paris · Barbizon', dateLabel: '1814–1850', title: 'The farm boy who left for the field', blurb: 'A real peasant’s son trains as a painter, flees a cholera epidemic in Paris, and settles in a forest village to do the one thing the art world ranked dead last: paint the people he grew up with.', progress: 0.1 },
-    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1850', title: 'The man on the hill', blurb: 'Six feet of striding peasant, dark as a silhouette, flinging seed down a dusk slope — the sowing arm, the shadowed face, the diagonal, the tiny ploughman behind. Slow down and look.', progress: 0.36 },
-    { id: 'salon', eyebrow: 'Paris · 1850–51', dateLabel: '1850–51', title: 'A peasant in the temple', blurb: 'Hung in the official Salon the same season as Courbet’s village funeral and stone-breakers, the giant sower frightened a Paris still raw from 1848 — a field hand made monumental read like a threat.', progress: 0.6 },
-    { id: 'meaning', eyebrow: 'What it means', dateLabel: '1850s', title: 'Monument, sermon, or menace', blurb: 'Peasant as monument; the oldest parable in the West; a class threat in frightened eyes — and a painter who kept insisting he was not a socialist, only painting the truth of the soil.', progress: 0.82 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1850', title: 'The man on the hill', blurb: 'Six feet of striding peasant, dark as a silhouette, flinging seed down a dusk slope, the sowing arm, the shadowed face, the diagonal, the tiny ploughman behind. Slow down and look.', progress: 0.36 },
+    { id: 'salon', eyebrow: 'Paris · 1850–51', dateLabel: '1850–51', title: 'A peasant in the temple', blurb: 'Hung in the official Salon the same season as Courbet’s village funeral and stone-breakers, the giant sower frightened a Paris still raw from 1848, a field hand made monumental read like a threat.', progress: 0.6 },
+    { id: 'meaning', eyebrow: 'What it means', dateLabel: '1850s', title: 'Monument, sermon, or menace', blurb: 'Peasant as monument; the oldest parable in the West; a class threat in frightened eyes, and a painter who kept insisting he was not a socialist, only painting the truth of the soil.', progress: 0.82 },
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1851–today', title: 'Afterlife', blurb: 'An American buys it off the Salon wall, it crosses the Atlantic to Boston, and a young Dutchman named Van Gogh spends his whole life copying it. The versions question, and the long road.', progress: 0.97 },
   ],
   provenance: [
     { year: '1850', who: 'Jean-François Millet (the artist)', place: 'Barbizon', note: 'Painted at Barbizon in 1850 and shown at the Paris Salon of 1850–51. Millet made a nearly identical second version the same year (now in Japan); which exact canvas hung at the Salon is debated.', price: null },
-    { year: 'c. 1851–52', who: 'William Morris Hunt', place: 'Paris / Boston', note: 'The American painter William Morris Hunt saw The Sower at the Salon, bought it from Millet, and went to live near him at Barbizon for about two years. Hunt became the great early champion of Millet in the United States — the reason so much Millet ended up in Boston.', price: 'sold by the artist' },
+    { year: 'c. 1851–52', who: 'William Morris Hunt', place: 'Paris / Boston', note: 'The American painter William Morris Hunt saw The Sower at the Salon, bought it from Millet, and went to live near him at Barbizon for about two years. Hunt became the great early champion of Millet in the United States, the reason so much Millet ended up in Boston.', price: 'sold by the artist' },
     { year: '1874', who: 'Quincy Adams Shaw', place: 'Boston', note: 'Hunt sold the painting through the Boston dealers Doll and Richards to the collector Quincy Adams Shaw (1825–1908), one of the largest private holders of Millet anywhere.', price: 'sold to a collector' },
-    { year: '1917', who: 'Museum of Fine Arts, Boston', place: 'Boston', note: 'After Shaw’s death his heirs — Quincy Adams Shaw, Jr. and Mrs. Marian Shaw Haughton — gave the painting to the MFA. On view there ever since.', price: 'gift to the museum', museum: true },
-    { year: 'today', who: 'Museum of Fine Arts, Boston', place: 'Boston', note: 'Accession 17.1485. The famous version — the one reproduced everywhere, including this app — hangs permanently in the MFA’s 19th-century galleries.', price: 'never sold', museum: true },
+    { year: '1917', who: 'Museum of Fine Arts, Boston', place: 'Boston', note: 'After Shaw’s death his heirs, Quincy Adams Shaw, Jr. and Mrs. Marian Shaw Haughton, gave the painting to the MFA. On view there ever since.', price: 'gift to the museum', museum: true },
+    { year: 'today', who: 'Museum of Fine Arts, Boston', place: 'Boston', note: 'Accession 17.1485. The famous version, the one reproduced everywhere, including this app, hangs permanently in the MFA’s 19th-century galleries.', price: 'never sold', museum: true },
   ],
   figures: [
     { name: 'Millet', role: 'The peasant painter', palette: ['#a8915a', '#5a4a2a', '#1a1410'] },
@@ -2695,12 +2695,12 @@ export const SOWER: ArtWorkContent = {
     { name: 'Van Gogh', role: 'Copied it his whole life', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
   ],
   annotations: [
-    { label: 'The striding giant', where: 'The whole foreground — the dark figure walking toward you down the slope', detail: 'A single peasant fills almost the entire canvas, pitched diagonally downhill, his leading leg driving forward and down the slope while the trailing leg stretches back up the rise, weight tipping toward you. He is painted so dark and so large that he reads less as a man than as a silhouette cut out of the dusk — monumental, looming, and a little menacing. There is no one else near him at his scale; the whole picture is built to make this one field hand enormous.' },
-    { label: 'The sowing arm, caught mid-throw', where: 'His right arm, flung across his body to the left; the seed in the air', detail: 'His right arm is swept all the way across his chest, the hand open, just past the instant of the throw — you are seeing the follow-through, the seed scattering off into the furrows. It is the single most active gesture in the picture, and Millet froze it at the most violent point of the arc, which is why the figure feels like it is moving even though it is paint.' },
-    { label: 'The seed-bag at his hip', where: 'His left hand, holding a sack of grain against his left side', detail: 'His left hand grips a coarse sack or apron of seed slung at his hip — the supply his right hand keeps dipping into and flinging. It anchors the lower-left of the figure and explains the whole motion: reach in, stride, throw, repeat, all the way down the field.' },
-    { label: 'The face that isn’t there', where: 'Under the soft hat, upper-center of the figure', detail: 'A soft, floppy hat is pulled down low, and the face beneath it is sunk in shadow — barely a feature legible, no eyes to meet. He is almost faceless, and that is the point: not a portrait of a particular man but Labor itself, anonymous and a little frightening, walking straight at you.' },
-    { label: 'The legs, bound in straw and mud', where: 'His lower legs and feet', detail: 'Blue trousers, a rust-brown jacket — and the lower legs and feet wrapped in straw or rag and caked in the same dark earth he treads. These are not boots for a portrait. They are the real protection a man ties on to walk a cold, broken field at the end of the day.' },
-    { label: 'The tiny world behind him', where: 'Far upper right (ploughman and oxen, warm sky) and upper left (birds)', detail: 'Up the slope, very small, a man drives a team of oxen finishing the ploughing, with the last warm orange light of dusk and a sunlit bank behind him. At the upper left, a scatter of birds lifts off — already after the seed. These miniature figures do two jobs: they tell you it is the close of the working day, and by being so small they make the foreground sower colossal.' },
+    { label: 'The striding giant', where: 'The whole foreground, the dark figure walking toward you down the slope', detail: 'A single peasant fills almost the entire canvas, pitched diagonally downhill, his leading leg driving forward and down the slope while the trailing leg stretches back up the rise, weight tipping toward you. He is painted so dark and so large that he reads less as a man than as a silhouette cut out of the dusk, monumental, looming, and a little menacing. There is no one else near him at his scale; the whole picture is built to make this one field hand enormous.' },
+    { label: 'The sowing arm, caught mid-throw', where: 'His right arm, flung across his body to the left; the seed in the air', detail: 'His right arm is swept all the way across his chest, the hand open, just past the instant of the throw, you are seeing the follow-through, the seed scattering off into the furrows. It is the single most active gesture in the picture, and Millet froze it at the most violent point of the arc, which is why the figure feels like it is moving even though it is paint.' },
+    { label: 'The seed-bag at his hip', where: 'His left hand, holding a sack of grain against his left side', detail: 'His left hand grips a coarse sack or apron of seed slung at his hip, the supply his right hand keeps dipping into and flinging. It anchors the lower-left of the figure and explains the whole motion: reach in, stride, throw, repeat, all the way down the field.' },
+    { label: 'The face that isn’t there', where: 'Under the soft hat, upper-center of the figure', detail: 'A soft, floppy hat is pulled down low, and the face beneath it is sunk in shadow, barely a feature legible, no eyes to meet. He is almost faceless, and that is the point: not a portrait of a particular man but Labor itself, anonymous and a little frightening, walking straight at you.' },
+    { label: 'The legs, bound in straw and mud', where: 'His lower legs and feet', detail: 'Blue trousers, a rust-brown jacket, and the lower legs and feet wrapped in straw or rag and caked in the same dark earth he treads. These are not boots for a portrait. They are the real protection a man ties on to walk a cold, broken field at the end of the day.' },
+    { label: 'The tiny world behind him', where: 'Far upper right (ploughman and oxen, warm sky) and upper left (birds)', detail: 'Up the slope, very small, a man drives a team of oxen finishing the ploughing, with the last warm orange light of dusk and a sunlit bank behind him. At the upper left, a scatter of birds lifts off, already after the seed. These miniature figures do two jobs: they tell you it is the close of the working day, and by being so small they make the foreground sower colossal.' },
   ],
   lineage: {
     parents: [ { label: 'Barbizon landscape', mode: 'art' }, { label: 'The 1848 Revolution', mode: 'civ' }, { label: 'The Parable of the Sower', mode: 'civ' } ],
@@ -2708,7 +2708,7 @@ export const SOWER: ArtWorkContent = {
   },
 }
 
-// The Gleaners (Jean-François Millet, 1857) — ArtWorkContent
+// The Gleaners (Jean-François Millet, 1857), ArtWorkContent
 // Author draft for the art-content pipeline. Matches the BURIAL shape in src/lib/art-content.ts.
 // Facts verified in gleaners-factpack.md (fact ledger). Dimensions ft/in only (house rule).
 // Defers movement-level material to the REALISM movement object; goes deeper on THIS work.
@@ -2730,7 +2730,7 @@ export const GLEANERS: ArtWorkContent = {
   acquired: 'Bequeathed to the Louvre by Mme Pommery, 1891',
   accent: ART_ACCENTS.amber,
   chain: { name: 'Works of Realism', index: 7, total: 9 },
-  hook: 'Three of the poorest women bent over a stripped field, gathering the grain the reapers dropped — and the bourgeois Salon saw a threat.',
+  hook: 'Three of the poorest women bent over a stripped field, gathering the grain the reapers dropped, and the bourgeois Salon saw a threat.',
   heroImage: ART_IMG.milletGleaners,
   heroCredit: 'Millet, The Gleaners, 1857 · Musée d’Orsay, Paris',
   heroAspect: 1.33,
@@ -2742,17 +2742,17 @@ export const GLEANERS: ArtWorkContent = {
     { v: 'Orsay', k: 'Now at' },
   ],
   sections: [
-    { id: 'gleaning', eyebrow: 'The custom', dateLabel: 'centuries', title: 'Gleaning: the right of the poorest', blurb: 'Before the painting, the practice — the ancient, regulated, vanishing right of the poorest to enter a harvested field and gather the grain the reapers left on the ground.', progress: 0.08 },
-    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1857', title: 'Three bent backs and a harvest they don’t share', blurb: 'Look hard: three women stooped over the stubble in blue, red, and yellow caps — and behind them, in golden light, the overflowing harvest they are not part of.', progress: 0.34 },
-    { id: 'salon', eyebrow: 'Paris · 1857', dateLabel: '1857', title: 'The Salon takes fright', blurb: 'Hung in the official exhibition, three poor women gathering scraps read to the propertied classes as “the three Fates of Poverty” and a whiff of 1793 — the rural poor made dignified, and dangerous.', progress: 0.58 },
-    { id: 'meaning', eyebrow: 'What Millet meant', dateLabel: '1850s', title: 'Sympathy without sentiment', blurb: 'Millet gives the poor the seriousness of art without prettifying them — and whether that was a political act or simple human truth is a fight that has never settled.', progress: 0.8 },
+    { id: 'gleaning', eyebrow: 'The custom', dateLabel: 'centuries', title: 'Gleaning: the right of the poorest', blurb: 'Before the painting, the practice, the ancient, regulated, vanishing right of the poorest to enter a harvested field and gather the grain the reapers left on the ground.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1857', title: 'Three bent backs and a harvest they don’t share', blurb: 'Look hard: three women stooped over the stubble in blue, red, and yellow caps, and behind them, in golden light, the overflowing harvest they are not part of.', progress: 0.34 },
+    { id: 'salon', eyebrow: 'Paris · 1857', dateLabel: '1857', title: 'The Salon takes fright', blurb: 'Hung in the official exhibition, three poor women gathering scraps read to the propertied classes as “the three Fates of Poverty” and a whiff of 1793, the rural poor made dignified, and dangerous.', progress: 0.58 },
+    { id: 'meaning', eyebrow: 'What Millet meant', dateLabel: '1850s', title: 'Sympathy without sentiment', blurb: 'Millet gives the poor the seriousness of art without prettifying them, and whether that was a political act or simple human truth is a fight that has never settled.', progress: 0.8 },
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1889–today', title: 'Afterlife', blurb: 'The despised picture sells for a hundred times its first price, becomes one of the most reproduced images ever made, and ends bequeathed to the nation that recoiled from it.', progress: 0.96 },
   ],
   provenance: [
-    { year: '1857', who: 'Jean-François Millet (the artist)', place: 'Barbizon / Paris', note: 'Painted in Barbizon and shown at the Salon of 1857. Short of money, Millet sold it for 3,000 francs — below his 4,000-franc asking price.', price: '3,000 francs' },
-    { year: 'by 1880s', who: 'Ferdinand Bischoffsheim', place: 'Paris', note: 'By the 1880s the once-scandalous canvas had risen into a Paris banker’s collection — the picture the Salon had recoiled from now a sought-after asset.', price: null },
-    { year: '1889', who: 'Auction → Mme Pommery', place: 'Paris', note: 'Sold at auction for 300,000 francs — a hundredfold jump in about thirty years. Within a week it was announced that the champagne-house owner Jeanne-Alexandrine Louise Pommery had acquired it.', price: '300,000 francs' },
-    { year: '1891', who: 'Musée du Louvre', place: 'Paris', note: 'On Pommery’s death the painting was bequeathed to the Louvre per the terms of her will — given, free, to the nation whose official Salon had once treated it as a threat.', price: 'bequest to the nation', museum: true },
+    { year: '1857', who: 'Jean-François Millet (the artist)', place: 'Barbizon / Paris', note: 'Painted in Barbizon and shown at the Salon of 1857. Short of money, Millet sold it for 3,000 francs, below his 4,000-franc asking price.', price: '3,000 francs' },
+    { year: 'by 1880s', who: 'Ferdinand Bischoffsheim', place: 'Paris', note: 'By the 1880s the once-scandalous canvas had risen into a Paris banker’s collection, the picture the Salon had recoiled from now a sought-after asset.', price: null },
+    { year: '1889', who: 'Auction → Mme Pommery', place: 'Paris', note: 'Sold at auction for 300,000 francs, a hundredfold jump in about thirty years. Within a week it was announced that the champagne-house owner Jeanne-Alexandrine Louise Pommery had acquired it.', price: '300,000 francs' },
+    { year: '1891', who: 'Musée du Louvre', place: 'Paris', note: 'On Pommery’s death the painting was bequeathed to the Louvre per the terms of her will, given, free, to the nation whose official Salon had once treated it as a threat.', price: 'bequest to the nation', museum: true },
     { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Musée d’Orsay opens in the converted Gare d’Orsay railway station, the Louvre’s 19th-century collection crosses the river to fill it. The Gleaners goes with it, and is on permanent view.', price: 'never sold since', museum: true },
   ],
   figures: [
@@ -2763,12 +2763,12 @@ export const GLEANERS: ArtWorkContent = {
     { name: 'Van Gogh', role: 'Worshipped Millet', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
   ],
   annotations: [
-    { label: 'The three bent backs', where: 'Foreground, across the lower third', detail: 'Three women work the stripped field in a slow diagonal — and the picture’s whole feeling lives in their backs. The two on the left are folded almost double, hands down at the stubble; the one on the right is the most nearly upright of the three (still stooped, never standing straight), as if pausing to ease a back that has been bent all day. Millet gives you the labor as posture: you can feel the ache without a single grimace, because the bodies do all the talking.' },
-    { label: 'Blue, red, yellow — the only loud color', where: 'The three caps / headscarves', detail: 'Look at the caps: blue on the left woman, red on the center one, a warm yellow-gold on the woman at right. In a field of dust-browns and faded grays those three notes are the brightest color in the painting — the primary colors handed not to a goddess’s robe but to three field-workers’ headscarves. The eye finds them first and then has nowhere grander to go.' },
-    { label: 'What they’re actually holding', where: 'The women’s hands and aprons', detail: 'Now look at the harvest of the gleaners themselves: the right-hand woman holds a thin little bundle of stalks; the center woman has a small bunch tucked at her apron. After a full day bent over the ground, this is the yield — a few fistfuls of grain the reapers happened to drop. The meagreness is the point. They are gathering what the harvest threw away.' },
-    { label: 'The harvest they don’t share', where: 'The sunlit middle distance, behind the women', detail: 'Behind the three, the field is golden and overflowing: tall round stacks of grain, a loaded cart, long rows of sheaves, and a busy crew bringing the crop in under a hazy late-summer sun. This is the rich harvest — and the three women in front have no part in it. Millet split the canvas in two: grinding poverty stooped in the cool near-ground, abundance blazing in the warm distance, the bare stripped field between them like a moat.' },
-    { label: 'The man on the horse', where: 'Far right, among the working crew', detail: 'Small and easy to miss at the right edge of the busy distance sits a figure on horseback — by the usual reading the farm’s mounted overseer, watching the work get done. He is tiny, but once you find him the social order of the field snaps into place: someone owns this harvest and supervises it on horseback, and the three women bent in front own none of it and gather its leavings on foot.' },
-    { label: 'The low flat horizon', where: 'The top quarter of the canvas', detail: 'There are no mountains, no drama, no opening heaven — just a low, flat horizon with farm buildings and a hazy sky, the unremarkable countryside around Barbizon. Millet refuses scenery the way Courbet refuses it: nature here is not a backdrop for feeling, just the plain ground these people work, going on being ground.' },
+    { label: 'The three bent backs', where: 'Foreground, across the lower third', detail: 'Three women work the stripped field in a slow diagonal, and the picture’s whole feeling lives in their backs. The two on the left are folded almost double, hands down at the stubble; the one on the right is the most nearly upright of the three (still stooped, never standing straight), as if pausing to ease a back that has been bent all day. Millet gives you the labor as posture: you can feel the ache without a single grimace, because the bodies do all the talking.' },
+    { label: 'Blue, red, yellow, the only loud color', where: 'The three caps / headscarves', detail: 'Look at the caps: blue on the left woman, red on the center one, a warm yellow-gold on the woman at right. In a field of dust-browns and faded grays those three notes are the brightest color in the painting, the primary colors handed not to a goddess’s robe but to three field-workers’ headscarves. The eye finds them first and then has nowhere grander to go.' },
+    { label: 'What they’re actually holding', where: 'The women’s hands and aprons', detail: 'Now look at the harvest of the gleaners themselves: the right-hand woman holds a thin little bundle of stalks; the center woman has a small bunch tucked at her apron. After a full day bent over the ground, this is the yield, a few fistfuls of grain the reapers happened to drop. The meagreness is the point. They are gathering what the harvest threw away.' },
+    { label: 'The harvest they don’t share', where: 'The sunlit middle distance, behind the women', detail: 'Behind the three, the field is golden and overflowing: tall round stacks of grain, a loaded cart, long rows of sheaves, and a busy crew bringing the crop in under a hazy late-summer sun. This is the rich harvest, and the three women in front have no part in it. Millet split the canvas in two: grinding poverty stooped in the cool near-ground, abundance blazing in the warm distance, the bare stripped field between them like a moat.' },
+    { label: 'The man on the horse', where: 'Far right, among the working crew', detail: 'Small and easy to miss at the right edge of the busy distance sits a figure on horseback, by the usual reading the farm’s mounted overseer, watching the work get done. He is tiny, but once you find him the social order of the field snaps into place: someone owns this harvest and supervises it on horseback, and the three women bent in front own none of it and gather its leavings on foot.' },
+    { label: 'The low flat horizon', where: 'The top quarter of the canvas', detail: 'There are no mountains, no drama, no opening heaven, just a low, flat horizon with farm buildings and a hazy sky, the unremarkable countryside around Barbizon. Millet refuses scenery the way Courbet refuses it: nature here is not a backdrop for feeling, just the plain ground these people work, going on being ground.' },
   ],
   lineage: {
     parents: [
@@ -2786,7 +2786,7 @@ export const GLEANERS: ArtWorkContent = {
   },
 }
 
-// The Angelus (Jean-François Millet, 1857–59) — ArtWorkContent
+// The Angelus (Jean-François Millet, 1857–59), ArtWorkContent
 // Author draft for the art-content pipeline. Matches the BURIAL shape in src/lib/art-content.ts.
 // Facts verified in angelus-factpack.md (fact ledger). Dimensions ft/in only (house rule).
 // Defers movement-level material to the REALISM movement object; goes deeper on THIS work.
@@ -2809,11 +2809,11 @@ export const ANGELUS: ArtWorkContent = {
   acquired: 'Bequeathed by Alfred Chauchard, 1910',
   accent: ART_ACCENTS.amber,
   chain: { name: 'Works of Realism', index: 8, total: 9 },
-  hook: 'Two peasants stop digging potatoes to pray at the evening bell — tiny under an enormous sky — and the small canvas becomes one of the most reproduced images of the century.',
+  hook: 'Two peasants stop digging potatoes to pray at the evening bell, tiny under an enormous sky, and the small canvas becomes one of the most reproduced images of the century.',
   heroImage: ART_IMG.milletAngelus,
   heroCredit: 'Millet, The Angelus, 1857–59 · Musée d’Orsay, Paris',
   heroAspect: 1.19,
-  heroFit: 'contain', // a small ~1.19:1 canvas — show the whole field + sky, never cropped
+  heroFit: 'contain', // a small ~1.19:1 canvas, show the whole field + sky, never cropped
   rights: 'pd-us',
   stats: [
     { v: '1857–59', k: 'Painted' },
@@ -2821,19 +2821,19 @@ export const ANGELUS: ArtWorkContent = {
     { v: 'Orsay', k: 'Now at' },
   ],
   sections: [
-    { id: 'bell', eyebrow: 'The evening bell', dateLabel: '1857', title: 'The bell that stops the work', blurb: 'What the Angelus actually is — a prayer rung from the church three times a day — and why a memory of his grandmother stopping work at the sound of it is the seed of this whole small painting.', progress: 0.08 },
-    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1857–59', title: 'Two bowed heads under an enormous sky', blurb: 'Slow down and look: the man with his hat in his hands, the woman with her hands clasped, the potato basket, the fork in the dirt, the wheelbarrow, the speck of a church on the horizon — and the vast dusk sky pressing it all flat.', progress: 0.34 },
+    { id: 'bell', eyebrow: 'The evening bell', dateLabel: '1857', title: 'The bell that stops the work', blurb: 'What the Angelus actually is, a prayer rung from the church three times a day, and why a memory of his grandmother stopping work at the sound of it is the seed of this whole small painting.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1857–59', title: 'Two bowed heads under an enormous sky', blurb: 'Slow down and look: the man with his hat in his hands, the woman with her hands clasped, the potato basket, the fork in the dirt, the wheelbarrow, the speck of a church on the horizon, and the vast dusk sky pressing it all flat.', progress: 0.34 },
     { id: 'reception', eyebrow: 'A quiet start', dateLabel: '1857–1870s', title: 'The commission that fell through', blurb: 'It began as a job for a Boston collector who never collected it, under a different title about a potato harvest. The fame came slowly, and then all at once.', progress: 0.58 },
     { id: 'meaning', eyebrow: 'What it means', dateLabel: '1850s', title: 'Piety, or poverty, or both', blurb: 'Millet said it came from remembering his grandmother praying in the fields. The world turned it into a sentimental devotional postcard. The gap between those two readings is the whole argument about this picture.', progress: 0.8 },
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1889–today', title: 'Afterlife', blurb: 'A trans-Atlantic bidding war, a record price, a trip to America and back; Dalí’s lifelong conviction that the basket hid a child’s coffin; the most reproduced image of its century; and the long road to the Orsay.', progress: 0.96 },
   ],
   provenance: [
-    { year: '1857–59', who: 'Jean-François Millet (the artist)', place: 'Barbizon', note: 'Painted at Barbizon. Begun as a commission for the Boston collector Thomas Gold Appleton under the title “Prayer for the Potato Crop”; Appleton never collected it, so Millet reworked the canvas — by most accounts adding the small church tower on the horizon — retitled it The Angelus, and sold it on the open market.', price: null },
+    { year: '1857–59', who: 'Jean-François Millet (the artist)', place: 'Barbizon', note: 'Painted at Barbizon. Begun as a commission for the Boston collector Thomas Gold Appleton under the title “Prayer for the Potato Crop”; Appleton never collected it, so Millet reworked the canvas, by most accounts adding the small church tower on the horizon, retitled it The Angelus, and sold it on the open market.', price: null },
     { year: '1860s–1880s', who: 'A chain of private collectors', place: 'France', note: 'As Millet’s reputation soared in the years after his death in 1875, the once-modest canvas passed through a series of private owners at steadily climbing prices, eventually entering the collection of the French copper magnate Eugène Secrétan.', price: null },
-    { year: '1 July 1889', who: 'Secrétan sale → American Art Association', place: 'Paris', note: 'At the auction of Secrétan’s collection (Galerie Sedelmeyer, timed to the 1889 Exposition Universelle), a bidding war broke out between Antonin Proust, fighting to keep it for the Louvre, and the American Art Association of New York. Bidding reached 553,000 francs. France nominally won — but the government refused to fund the purchase, so the painting passed to the under-bidding Americans and was shipped to the United States.', price: '553,000 francs' },
-    { year: '1889–1890', who: 'American Art Association', place: 'New York / United States', note: 'The Association exhibited the painting in America, where it drew large, paying crowds — a single small canvas treated as a touring marvel.', price: null },
-    { year: '1890', who: 'Alfred Chauchard', place: 'Paris', note: 'The Paris department-store magnate Alfred Chauchard (a founder of the Grands Magasins du Louvre) bought it back for France — for about 800,000 francs (some sources say 750,000) — returning the painting across the Atlantic.', price: '≈800,000 francs' },
-    { year: '1910', who: 'Musée du Louvre', place: 'Paris', note: 'Chauchard bequeathed his collection to the State; after his death in 1909 the gift was formally accepted into the Louvre on 15 January 1910 — the picture given, free, to the nation that had failed to buy it at auction.', price: 'bequest to the nation', museum: true },
+    { year: '1 July 1889', who: 'Secrétan sale → American Art Association', place: 'Paris', note: 'At the auction of Secrétan’s collection (Galerie Sedelmeyer, timed to the 1889 Exposition Universelle), a bidding war broke out between Antonin Proust, fighting to keep it for the Louvre, and the American Art Association of New York. Bidding reached 553,000 francs. France nominally won, but the government refused to fund the purchase, so the painting passed to the under-bidding Americans and was shipped to the United States.', price: '553,000 francs' },
+    { year: '1889–1890', who: 'American Art Association', place: 'New York / United States', note: 'The Association exhibited the painting in America, where it drew large, paying crowds, a single small canvas treated as a touring marvel.', price: null },
+    { year: '1890', who: 'Alfred Chauchard', place: 'Paris', note: 'The Paris department-store magnate Alfred Chauchard (a founder of the Grands Magasins du Louvre) bought it back for France, for about 800,000 francs (some sources say 750,000), returning the painting across the Atlantic.', price: '≈800,000 francs' },
+    { year: '1910', who: 'Musée du Louvre', place: 'Paris', note: 'Chauchard bequeathed his collection to the State; after his death in 1909 the gift was formally accepted into the Louvre on 15 January 1910, the picture given, free, to the nation that had failed to buy it at auction.', price: 'bequest to the nation', museum: true },
     { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Musée d’Orsay opens in the converted Gare d’Orsay railway station, the Louvre’s 19th-century collection crosses the river to fill it. The Angelus goes with it, and is on permanent view.', price: 'never sold since', museum: true },
   ],
   figures: [
@@ -2844,12 +2844,12 @@ export const ANGELUS: ArtWorkContent = {
     { name: 'Van Gogh', role: 'Worshipped Millet; copied it', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
   ],
   annotations: [
-    { label: 'The man, hat in his hands', where: 'Left of center, standing, head bowed', detail: 'The man stands stock-still with his head dropped and his hat taken off and held in both hands at his waist — the exact posture Millet remembered from his grandmother, who prayed “with cap in hand.” He has interrupted himself mid-job; the prayer simply stopped him where he stood. His face is barely legible in the dusk, which is the point: this is not a portrait of a particular pious man but the gesture of stopping itself.' },
-    { label: 'The woman, hands clasped', where: 'Right of center, standing, head bowed', detail: 'She faces him across the basket, head bent lower than his, her hands pressed together at her chest in the plainest gesture of prayer there is. A white cap, a dark dress, a worn apron. The two of them make a quiet matched pair — both stilled, both bowed, both anonymous — and the small gap of empty field between them is where the whole hush of the picture lives.' },
-    { label: 'The basket of potatoes', where: 'On the ground between them, at their feet', detail: 'A low woven basket of potatoes sits in the turned earth between the two figures — the day’s dug crop, set down the instant the bell rang. It is the most ordinary object imaginable, and it became the most argued-over: this is the basket Salvador Dalí would later insist was painted over a small child’s coffin (see the afterlife chapter). For now, it is potatoes.' },
-    { label: 'The fork, the barrow, the dropped tools', where: 'A digging fork upright at lower left; a wheelbarrow and sacks at the right edge', detail: 'Down at the lower left a digging fork stands jammed upright in the broken ground, exactly where the man left off; off to the right, half in shadow behind the woman, sit a wheelbarrow and sacks already loaded with the harvest. Together with the basket they finish the inventory of the labor — fork, basket, barrow, sacks, the unglamorous gear of a hard day digging potatoes — and every piece of it is dropped, not packed. That is how Millet tells you, without a word, that work was happening here a second ago and will resume the second the prayer is done.' },
-    { label: 'The church on the horizon', where: 'On the far horizon, slightly right of center, behind and between the two figures', detail: 'Look hard at the flat far horizon and you will find it: a tiny church spire, no taller than a pin, on the far horizon, slightly right of center, behind and between the two figures. That speck is the source of everything — the bell ringing from it is what stopped these two where they stand. By most accounts Millet added this little tower when he reworked the painting, and it is the single detail that turns a potato field into a prayer.' },
-    { label: 'The enormous sky', where: 'The top two-thirds of the canvas', detail: 'Most of the painting is sky — a vast, pale, dusk-flushed expanse that fills roughly the top two-thirds and presses the two small bodies down into a thin band of dark earth at the bottom. There are no mountains, no drama, no opening heaven; just the huge low evening pressing on two tiny figures, which is exactly how small a person feels alone in a field when the light is going.' },
+    { label: 'The man, hat in his hands', where: 'Left of center, standing, head bowed', detail: 'The man stands stock-still with his head dropped and his hat taken off and held in both hands at his waist, the exact posture Millet remembered from his grandmother, who prayed “with cap in hand.” He has interrupted himself mid-job; the prayer simply stopped him where he stood. His face is barely legible in the dusk, which is the point: this is not a portrait of a particular pious man but the gesture of stopping itself.' },
+    { label: 'The woman, hands clasped', where: 'Right of center, standing, head bowed', detail: 'She faces him across the basket, head bent lower than his, her hands pressed together at her chest in the plainest gesture of prayer there is. A white cap, a dark dress, a worn apron. The two of them make a quiet matched pair, both stilled, both bowed, both anonymous, and the small gap of empty field between them is where the whole hush of the picture lives.' },
+    { label: 'The basket of potatoes', where: 'On the ground between them, at their feet', detail: 'A low woven basket of potatoes sits in the turned earth between the two figures, the day’s dug crop, set down the instant the bell rang. It is the most ordinary object imaginable, and it became the most argued-over: this is the basket Salvador Dalí would later insist was painted over a small child’s coffin (see the afterlife chapter). For now, it is potatoes.' },
+    { label: 'The fork, the barrow, the dropped tools', where: 'A digging fork upright at lower left; a wheelbarrow and sacks at the right edge', detail: 'Down at the lower left a digging fork stands jammed upright in the broken ground, exactly where the man left off; off to the right, half in shadow behind the woman, sit a wheelbarrow and sacks already loaded with the harvest. Together with the basket they finish the inventory of the labor, fork, basket, barrow, sacks, the unglamorous gear of a hard day digging potatoes, and every piece of it is dropped, not packed. That is how Millet tells you, without a word, that work was happening here a second ago and will resume the second the prayer is done.' },
+    { label: 'The church on the horizon', where: 'On the far horizon, slightly right of center, behind and between the two figures', detail: 'Look hard at the flat far horizon and you will find it: a tiny church spire, no taller than a pin, on the far horizon, slightly right of center, behind and between the two figures. That speck is the source of everything, the bell ringing from it is what stopped these two where they stand. By most accounts Millet added this little tower when he reworked the painting, and it is the single detail that turns a potato field into a prayer.' },
+    { label: 'The enormous sky', where: 'The top two-thirds of the canvas', detail: 'Most of the painting is sky, a vast, pale, dusk-flushed expanse that fills roughly the top two-thirds and presses the two small bodies down into a thin band of dark earth at the bottom. There are no mountains, no drama, no opening heaven; just the huge low evening pressing on two tiny figures, which is exactly how small a person feels alone in a field when the light is going.' },
   ],
   lineage: {
     parents: [
@@ -2866,9 +2866,9 @@ export const ANGELUS: ArtWorkContent = {
   },
 }
 
-// Gargantua (Honoré Daumier, 1831) — ArtWorkContent
+// Gargantua (Honoré Daumier, 1831), ArtWorkContent
 // Drop into src/lib/art-content.ts after BURIAL. Matches the BURIAL shape exactly.
-// NOTE: this is a LITHOGRAPH (a print), not an oil — medium/dimensions/provenance
+// NOTE: this is a LITHOGRAPH (a print), not an oil, medium/dimensions/provenance
 // adapted honestly to a print: seizure + suppression history rather than an
 // ownership chain. Facts: see gargantua-factpack.md (fact ledger).
 
@@ -2884,12 +2884,12 @@ export const GARGANTUA: ArtWorkContent = {
   era: 'Modern',
   eraId: 'mod',
   medium: 'Lithograph',
-  dimensions: '8.5 in × 12 in', // image, landscape (~21.4 × 30.5 cm); figures vary by impression — see fact ledger
+  dimensions: '8.5 in × 12 in', // image, landscape (~21.4 × 30.5 cm); figures vary by impression, see fact ledger
   location: 'Bibliothèque nationale de France, Paris',
   acquired: 'Few impressions survive the 1831 seizure; held by the BnF and other print rooms',
   accent: ART_ACCENTS.amber,
   chain: { name: 'Works of Realism', index: 1, total: 9 },
-  hook: 'A cartoon of the king as a giant eating the poor’s taxes and excreting medals — it cost the artist six months in jail.',
+  hook: 'A cartoon of the king as a giant eating the poor’s taxes and excreting medals, it cost the artist six months in jail.',
   heroImage: ART_IMG.daumierGargantua,
   heroCredit: 'Daumier, Gargantua, 1831 · lithograph · Bibliothèque nationale de France',
   heroAspect: 1.44,
@@ -2903,17 +2903,17 @@ export const GARGANTUA: ArtWorkContent = {
   sections: [
     { id: 'king', eyebrow: 'Paris · 1830–31', dateLabel: '1830–31', title: 'The Citizen King and the war of the press', blurb: 'A revolution puts a bourgeois “King of the French” on the throne; a young caricaturist and his fearless publisher declare war on him in cheap printed pictures.', progress: 0.08 },
     { id: 'looking', eyebrow: 'The print', dateLabel: '1831', title: 'The giant, the plank, and the excreted honors', blurb: 'Read the image inch by inch: the pear-headed king gorging, the ramp of tribute-bearers feeding his mouth, the destitute crowd, and the medals dropping out the other end.', progress: 0.34 },
-    { id: 'trial', eyebrow: 'The reckoning', dateLabel: '1831–33', title: 'Six months for a drawing', blurb: 'The print is seized on sight, the stone smashed, three men charged with insulting the king — and Daumier, after a suspended sentence, ends up in Sainte-Pélagie prison.', progress: 0.58 },
-    { id: 'meaning', eyebrow: 'What it invented', dateLabel: '1831', title: 'The birth of the modern political cartoon', blurb: 'Why this one banned sheet matters: a fine-art print medium turned into a cheap mass weapon for the poor’s grievance — the template every editorial cartoonist still works from.', progress: 0.8 },
+    { id: 'trial', eyebrow: 'The reckoning', dateLabel: '1831–33', title: 'Six months for a drawing', blurb: 'The print is seized on sight, the stone smashed, three men charged with insulting the king, and Daumier, after a suspended sentence, ends up in Sainte-Pélagie prison.', progress: 0.58 },
+    { id: 'meaning', eyebrow: 'What it invented', dateLabel: '1831', title: 'The birth of the modern political cartoon', blurb: 'Why this one banned sheet matters: a fine-art print medium turned into a cheap mass weapon for the poor’s grievance, the template every editorial cartoonist still works from.', progress: 0.8 },
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1833–today', title: 'From caricaturist to the painter of the poor', blurb: 'The surviving impressions, the censorship that followed, and Daumier’s long road from jailed cartoonist to the Realist painter of The Third-Class Carriage.', progress: 0.96 },
   ],
   // A print has no ownership chain; this is its publication-and-suppression history.
   provenance: [
     { year: 'Dec 1831', who: 'Drawn by Honoré Daumier for Charles Philipon’s satirical world', place: 'Paris', note: 'Daumier draws the king as Gargantua on a lithographic stone; the sheet is put out through Gabriel Aubert’s caricature shop in the Galerie Véro-Dodat, the storefront of Philipon’s La Caricature press.', price: null },
-    { year: 'late Dec 1831', who: 'Seized by the police', place: 'Paris', note: 'On appearing in Aubert’s shop window the print is banned and confiscated almost at once. Police order the lithographic stone destroyed and the remaining proofs (printed copies pulled from the stone) seized — so the print barely circulates. By the careful scholarly account it was sold as a separate sheet and never ran inside La Caricature, though some museums (e.g. Yale) still catalogue their impression as “from the journal La Caricature.”', price: 'suppressed' },
-    { year: '22–23 Feb 1832', who: 'Daumier, Aubert (publisher) & Delaporte (printer) on trial', place: 'Paris', note: 'All three charged under the November 1830 press law with arousing hatred and contempt of the king’s government and offending the king’s person (lèse-majesté). Daumier is held chiefly responsible; sentenced to six months and a 500-franc fine — at first suspended. (Daumier was not the lone martyr: Philipon, who steered the whole campaign, was himself repeatedly prosecuted, convicted, and jailed for his anti-Louis-Philippe satire.)', price: null },
+    { year: 'late Dec 1831', who: 'Seized by the police', place: 'Paris', note: 'On appearing in Aubert’s shop window the print is banned and confiscated almost at once. Police order the lithographic stone destroyed and the remaining proofs (printed copies pulled from the stone) seized, so the print barely circulates. By the careful scholarly account it was sold as a separate sheet and never ran inside La Caricature, though some museums (e.g. Yale) still catalogue their impression as “from the journal La Caricature.”', price: 'suppressed' },
+    { year: '22–23 Feb 1832', who: 'Daumier, Aubert (publisher) & Delaporte (printer) on trial', place: 'Paris', note: 'All three charged under the November 1830 press law with arousing hatred and contempt of the king’s government and offending the king’s person (lèse-majesté). Daumier is held chiefly responsible; sentenced to six months and a 500-franc fine, at first suspended. (Daumier was not the lone martyr: Philipon, who steered the whole campaign, was himself repeatedly prosecuted, convicted, and jailed for his anti-Louis-Philippe satire.)', price: null },
     { year: '1832–33', who: 'Honoré Daumier (in prison)', place: 'Sainte-Pélagie, Paris', note: 'After he keeps needling the regime the suspended term is activated; Daumier is arrested and serves from 30 August 1832, released 14 February 1833. He goes on drawing inside.', price: null },
-    { year: 'today', who: 'Bibliothèque nationale de France & other print rooms', place: 'Paris / Yale / San Francisco / etc.', note: 'Because the police were largely successful, very few impressions survive. The ones that do are held by the BnF and a handful of museum print collections — a banned cartoon that became a treasured object.', price: 'never sold', museum: true },
+    { year: 'today', who: 'Bibliothèque nationale de France & other print rooms', place: 'Paris / Yale / San Francisco / etc.', note: 'Because the police were largely successful, very few impressions survive. The ones that do are held by the BnF and a handful of museum print collections, a banned cartoon that became a treasured object.', price: 'never sold', museum: true },
   ],
   figures: [
     { name: 'Daumier', role: 'The cartoonist', palette: ['#7a7064', '#42382c', '#15110c'] },
@@ -2921,12 +2921,12 @@ export const GARGANTUA: ArtWorkContent = {
     { name: 'Louis-Philippe', role: 'The “Citizen King”', palette: ['#8a8074', '#4a4038', '#16120e'] },
   ],
   annotations: [
-    { label: 'The pear-headed giant', where: 'Upper left — the enormous seated king', detail: 'King Louis-Philippe drawn as Gargantua, Rabelais’s gluttonous giant: a vast bloated body splayed in a low chair, belly enormous, mouth gaping open to be fed. His head is the famous pear — round-cheeked, tapering to a tuft — Charles Philipon’s mocking “poire” (French slang for “fathead”) made monstrous. The biggest, fattest thing in the picture is the king, and all he does is eat.' },
-    { label: 'The plank running into his mouth', where: 'The long diagonal ramp, lower-right up to the king’s face', detail: 'A steep plank or gangway runs from the ground all the way up to the king’s open mouth — a conveyor belt of tribute. It is the spine of the whole image: everything the poor have travels up this ramp and disappears into the giant. The single line that turns a fat man into an economic machine.' },
-    { label: 'The tribute-bearers and the basket', where: 'On the plank and at its foot', detail: 'Tiny laborers trudge up the plank hauling baskets and sacks of coins; at the bottom one bends double over a great hamper, loading the king’s next mouthful. They are drawn small and bent — the scale gap between the giant and the people feeding him is the joke. Their money goes up; it does not come back.' },
-    { label: 'The destitute crowd', where: 'Massed at the right', detail: 'A ragged throng of common people crowds the right edge — the source of the squeezed wealth, thin and shabby where the king is gorged. This is where the taxes come from: the bottom of the country, emptied to fill the top.' },
-    { label: 'The excreted honors', where: 'Below / beneath the king’s seat, with the scrambling officials', detail: 'Out the other end of the giant come not waste but documents — patents, commissions, ribbons, decorations — and a knot of well-dressed officials and cronies scrambles to gather them up. The savage core of the cartoon: the people’s money goes in one end and jobs, medals and favours for the privileged drop out the other. Trickle-up, drawn literally.' },
-    { label: 'The government building', where: 'Lower left, behind the scrambling officials', detail: 'A government building closes the lower left — widely identified as the Palais Bourbon, the seat of the Chamber of Deputies (the lower house of France’s parliament) — toward which the favour-laden officials hurry off: the bureaucracy and legislature on the receiving end of the king’s bounty. The circuit is complete: from the poor, into the king, out to the state’s own insiders.' },
+    { label: 'The pear-headed giant', where: 'Upper left, the enormous seated king', detail: 'King Louis-Philippe drawn as Gargantua, Rabelais’s gluttonous giant: a vast bloated body splayed in a low chair, belly enormous, mouth gaping open to be fed. His head is the famous pear, round-cheeked, tapering to a tuft, Charles Philipon’s mocking “poire” (French slang for “fathead”) made monstrous. The biggest, fattest thing in the picture is the king, and all he does is eat.' },
+    { label: 'The plank running into his mouth', where: 'The long diagonal ramp, lower-right up to the king’s face', detail: 'A steep plank or gangway runs from the ground all the way up to the king’s open mouth, a conveyor belt of tribute. It is the spine of the whole image: everything the poor have travels up this ramp and disappears into the giant. The single line that turns a fat man into an economic machine.' },
+    { label: 'The tribute-bearers and the basket', where: 'On the plank and at its foot', detail: 'Tiny laborers trudge up the plank hauling baskets and sacks of coins; at the bottom one bends double over a great hamper, loading the king’s next mouthful. They are drawn small and bent, the scale gap between the giant and the people feeding him is the joke. Their money goes up; it does not come back.' },
+    { label: 'The destitute crowd', where: 'Massed at the right', detail: 'A ragged throng of common people crowds the right edge, the source of the squeezed wealth, thin and shabby where the king is gorged. This is where the taxes come from: the bottom of the country, emptied to fill the top.' },
+    { label: 'The excreted honors', where: 'Below / beneath the king’s seat, with the scrambling officials', detail: 'Out the other end of the giant come not waste but documents, patents, commissions, ribbons, decorations, and a knot of well-dressed officials and cronies scrambles to gather them up. The savage core of the cartoon: the people’s money goes in one end and jobs, medals and favours for the privileged drop out the other. Trickle-up, drawn literally.' },
+    { label: 'The government building', where: 'Lower left, behind the scrambling officials', detail: 'A government building closes the lower left, widely identified as the Palais Bourbon, the seat of the Chamber of Deputies (the lower house of France’s parliament), toward which the favour-laden officials hurry off: the bureaucracy and legislature on the receiving end of the king’s bounty. The circuit is complete: from the poor, into the king, out to the state’s own insiders.' },
   ],
   lineage: {
     parents: [
@@ -2943,7 +2943,7 @@ export const GARGANTUA: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// The Third-Class Carriage (Daumier, c.1862–64) — ArtWorkContent
+// The Third-Class Carriage (Daumier, c.1862–64), ArtWorkContent
 // EXACT BURIAL shape. Drop into src/lib/art-content.ts as `CARRIAGE`
 // and register in ART_WORK_CONTENT. Authored gates-first; see
 // audits/art-pipeline/realism-works/carriage-factpack.md for the ledger.
@@ -2966,7 +2966,7 @@ export const CARRIAGE: ArtWorkContent = {
   acquired: 'The H.O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929',
   accent: ART_ACCENTS.amber,
   chain: { name: 'Works of Realism', index: 9, total: 9 },
-  hook: 'The cheapest seats on the new railway, packed with the urban poor — tired, dignified, and painted by a man the world only knew as a cartoonist.',
+  hook: 'The cheapest seats on the new railway, packed with the urban poor, tired, dignified, and painted by a man the world only knew as a cartoonist.',
   heroImage: ART_IMG.daumierCarriage,
   heroCredit: 'Daumier, The Third-Class Carriage, c.1862–64 · The Metropolitan Museum of Art, New York',
   heroAspect: 1.38,
@@ -2978,16 +2978,16 @@ export const CARRIAGE: ArtWorkContent = {
     { v: 'The Met', k: 'Now at' },
   ],
   sections: [
-    { id: 'rail', eyebrow: 'Paris · the railway age', dateLabel: 'c.1862', title: 'The cheapest seats on a moving machine', blurb: 'A new machine — the railway — has thrown the poor of a whole city into one crowded box. France’s most famous cartoonist quietly picks up a brush to paint it.', progress: 0.08 },
-    { id: 'looking', eyebrow: 'The canvas', dateLabel: 'c.1862–64', title: 'Three people, and a hundred behind them', blurb: 'A nursing mother, an old woman with a basket, a sleeping boy — and rows of anonymous passengers dissolving into the dim car. Dignity, and no pity at all.', progress: 0.34 },
-    { id: 'unfinished', eyebrow: 'Behind the paint', dateLabel: 'c.1862–64', title: 'The grid he never painted over', blurb: 'This canvas was abandoned half-done — so the ruled grid and the drawing underneath show right through. A rare X-ray into exactly how a picture was built.', progress: 0.58 },
-    { id: 'meaning', eyebrow: 'What it’s doing', dateLabel: '1860s', title: 'Realism gets on the train', blurb: 'Courbet painted the village, Millet the fields. Daumier paints the modern city — its crowds, its anonymity, its tenderness — without a drop of sentimentality.', progress: 0.8 },
-    { id: 'afterlife', eyebrow: 'After', dateLabel: '1878–today', title: 'Famous as a cartoonist, blind, and broke', blurb: 'Barely sold in his lifetime, going blind in a borrowed house, Daumier dies poor in 1879. Then an American collector buys this canvas — and leaves it to New York.', progress: 0.96 },
+    { id: 'rail', eyebrow: 'Paris · the railway age', dateLabel: 'c.1862', title: 'The cheapest seats on a moving machine', blurb: 'A new machine, the railway, has thrown the poor of a whole city into one crowded box. France’s most famous cartoonist quietly picks up a brush to paint it.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: 'c.1862–64', title: 'Three people, and a hundred behind them', blurb: 'A nursing mother, an old woman with a basket, a sleeping boy, and rows of anonymous passengers dissolving into the dim car. Dignity, and no pity at all.', progress: 0.34 },
+    { id: 'unfinished', eyebrow: 'Behind the paint', dateLabel: 'c.1862–64', title: 'The grid he never painted over', blurb: 'This canvas was abandoned half-done, so the ruled grid and the drawing underneath show right through. A rare X-ray into exactly how a picture was built.', progress: 0.58 },
+    { id: 'meaning', eyebrow: 'What it’s doing', dateLabel: '1860s', title: 'Realism gets on the train', blurb: 'Courbet painted the village, Millet the fields. Daumier paints the modern city, its crowds, its anonymity, its tenderness, without a drop of sentimentality.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1878–today', title: 'Famous as a cartoonist, blind, and broke', blurb: 'Barely sold in his lifetime, going blind in a borrowed house, Daumier dies poor in 1879. Then an American collector buys this canvas, and leaves it to New York.', progress: 0.96 },
   ],
   provenance: [
-    { year: 'c.1862–64', who: 'Honoré Daumier (the artist)', place: 'Paris / Valmondois', note: 'Painted but left unfinished — the canvas still carries the ruled transfer grid. Daumier’s oils barely sold in his lifetime; he was known as a newspaper cartoonist, and this picture stayed an unsold studio canvas.', price: null },
+    { year: 'c.1862–64', who: 'Honoré Daumier (the artist)', place: 'Paris / Valmondois', note: 'Painted but left unfinished, the canvas still carries the ruled transfer grid. Daumier’s oils barely sold in his lifetime; he was known as a newspaper cartoonist, and this picture stayed an unsold studio canvas.', price: null },
     { year: '1879–1913', who: 'The art market, after Daumier’s death', place: 'France / New York', note: 'Daumier died in poverty in 1879. The exact chain of hands the canvas passed through before reaching America is not securely documented; what is certain is where it landed.', price: null },
-    { year: '1913', who: 'Louisine Havemeyer (wife of sugar magnate H. O. Havemeyer)', place: 'New York', note: 'The great American collector — guided for years by her friend Mary Cassatt, the American painter who championed French Impressionism — buys the painting, reportedly for about $40,000, bringing it into the collection that did more than any other to put modern French painting in New York.', price: '~$40,000' },
+    { year: '1913', who: 'Louisine Havemeyer (wife of sugar magnate H. O. Havemeyer)', place: 'New York', note: 'The great American collector, guided for years by her friend Mary Cassatt, the American painter who championed French Impressionism, buys the painting, reportedly for about $40,000, bringing it into the collection that did more than any other to put modern French painting in New York.', price: '~$40,000' },
     { year: '1929', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'On Louisine Havemeyer’s death the canvas enters the Met by bequest, as part of the H. O. Havemeyer Collection (Bequest of Mrs. H. O. Havemeyer, 1929). In the collection ever since.', price: 'bequest', museum: true },
   ],
   figures: [
@@ -2999,12 +2999,12 @@ export const CARRIAGE: ArtWorkContent = {
     { name: 'Camille Corot', role: 'The friend who kept him afloat', palette: ['#6a7250', '#3a3c28', '#14140e'] },
   ],
   annotations: [
-    { label: 'The mother and the baby', where: 'Front bench, far left', detail: 'A young woman sits at the left end of the bench, head bowed, cradling an infant wrapped in her lap. Hers is one of the most tenderly worked passages in the whole picture — lit softly by the windows behind her — and it is doing the quiet emotional work of the painting: ordinary, unposed care, given the same weight as anything else in the frame.' },
-    { label: 'The old woman and her basket', where: 'Front bench, dead center', detail: 'The most finished face in the painting belongs to the old woman in the middle, framed by a pale cream head-wrap — a hood of light cloth that is the single brightest passage in this dark picture, so your eye lands on her first of all. Beneath it: a face deeply lined, eyes forward, exhausted, both hands folded over the handle of a woven wicker basket on her lap. She is not grieving or pleading or telling a story — she is just sitting, the way people sit on a long ride, and that flat ordinariness is exactly the point.' },
-    { label: 'The sleeping boy', where: 'Front bench, right end', detail: 'At the right end of the bench a boy has slumped over asleep, head dropped, the way children give out on a long journey. A dark box or chest — luggage — sits in the lower-right corner beside him. He completes the little family unit on the front bench: youth, motherhood, and age, three ages of the poor, lined up on one hard seat.' },
-    { label: 'The crowd, dissolving backward', where: 'The whole upper register, behind the bench', detail: 'Behind the front three, rows of anonymous passengers — men in tall hats and caps, women in bonnets — recede into the dim car, and the farther back they go the sketchier and more ghostly the faces become (the unfinished paint exaggerates it). Nobody back there is an individual; they are the crowd, the mass of the modern city packed into a moving box.' },
-    { label: 'The two windows', where: 'Upper left', detail: 'Two pale rectangles of window are the only real light in the carriage. Everything else is brown, low, and enclosed. The light falls forward onto the three figures on the front bench and leaves the back of the car in murk — which is why your eye lands on the mother, the old woman, and the boy before it even registers the crowd.' },
-    { label: 'The grid he never painted over', where: 'Across the unfinished passages — clearest in the upper-left window area', detail: 'Look closely and you can see straight ruled lines and the drawn contours of figures showing right through the thin paint. This is the squaring grid — the scaffolding an artist drew to copy and enlarge a composition accurately — which was supposed to vanish under the finished paint. The picture was abandoned before that happened, so the bones of the method are left bare on the surface.' },
+    { label: 'The mother and the baby', where: 'Front bench, far left', detail: 'A young woman sits at the left end of the bench, head bowed, cradling an infant wrapped in her lap. Hers is one of the most tenderly worked passages in the whole picture, lit softly by the windows behind her, and it is doing the quiet emotional work of the painting: ordinary, unposed care, given the same weight as anything else in the frame.' },
+    { label: 'The old woman and her basket', where: 'Front bench, dead center', detail: 'The most finished face in the painting belongs to the old woman in the middle, framed by a pale cream head-wrap, a hood of light cloth that is the single brightest passage in this dark picture, so your eye lands on her first of all. Beneath it: a face deeply lined, eyes forward, exhausted, both hands folded over the handle of a woven wicker basket on her lap. She is not grieving or pleading or telling a story, she is just sitting, the way people sit on a long ride, and that flat ordinariness is exactly the point.' },
+    { label: 'The sleeping boy', where: 'Front bench, right end', detail: 'At the right end of the bench a boy has slumped over asleep, head dropped, the way children give out on a long journey. A dark box or chest, luggage, sits in the lower-right corner beside him. He completes the little family unit on the front bench: youth, motherhood, and age, three ages of the poor, lined up on one hard seat.' },
+    { label: 'The crowd, dissolving backward', where: 'The whole upper register, behind the bench', detail: 'Behind the front three, rows of anonymous passengers, men in tall hats and caps, women in bonnets, recede into the dim car, and the farther back they go the sketchier and more ghostly the faces become (the unfinished paint exaggerates it). Nobody back there is an individual; they are the crowd, the mass of the modern city packed into a moving box.' },
+    { label: 'The two windows', where: 'Upper left', detail: 'Two pale rectangles of window are the only real light in the carriage. Everything else is brown, low, and enclosed. The light falls forward onto the three figures on the front bench and leaves the back of the car in murk, which is why your eye lands on the mother, the old woman, and the boy before it even registers the crowd.' },
+    { label: 'The grid he never painted over', where: 'Across the unfinished passages, clearest in the upper-left window area', detail: 'Look closely and you can see straight ruled lines and the drawn contours of figures showing right through the thin paint. This is the squaring grid, the scaffolding an artist drew to copy and enlarge a composition accurately, which was supposed to vanish under the finished paint. The picture was abandoned before that happened, so the bones of the method are left bare on the surface.' },
   ],
   lineage: {
     parents: [ { label: 'Realism', mode: 'art' }, { label: 'Daumier’s railway lithographs', mode: 'art' }, { label: 'Dutch genre painting', mode: 'art' } ],
@@ -3013,7 +3013,7 @@ export const CARRIAGE: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
-// The Horse Fair (Rosa Bonheur, 1852–55) — ArtWorkContent
+// The Horse Fair (Rosa Bonheur, 1852–55), ArtWorkContent
 // Drop into src/lib/art-content.ts (matches the BURIAL shape exactly)
 // and register in ART_WORK_CONTENT. Dimensions FT/IN only, never cm.
 // ─────────────────────────────────────────────────────────────
@@ -3034,7 +3034,7 @@ export const HORSE_FAIR: ArtWorkContent = {
   acquired: 'Gift of Cornelius Vanderbilt, 1887',
   accent: ART_ACCENTS.amber,
   chain: { name: 'Works of Realism', index: 6, total: 9 },
-  hook: 'Eight feet tall and over sixteen wide — the scale the Salon kept for the death of kings, spent on draft horses at a Paris market.',
+  hook: 'Eight feet tall and over sixteen wide, the scale the Salon kept for the death of kings, spent on draft horses at a Paris market.',
   heroImage: ART_IMG.bonheurHorseFair,
   heroCredit: 'Bonheur, The Horse Fair, 1852–55 · The Metropolitan Museum of Art, New York',
   heroAspect: 2.07,
@@ -3046,19 +3046,19 @@ export const HORSE_FAIR: ArtWorkContent = {
     { v: 'The Met', k: 'Now at' },
   ],
   sections: [
-    { id: 'market', eyebrow: 'Paris · 1850–52', dateLabel: '1850–52', title: 'The market and the trousers', blurb: 'A working animal-painter wants the rawest horse subject in Paris — so she gets a police permit to dress as a man and spends eighteen months sketching the Boulevard de l’Hôpital horse market.', progress: 0.08 },
+    { id: 'market', eyebrow: 'Paris · 1850–52', dateLabel: '1850–52', title: 'The market and the trousers', blurb: 'A working animal-painter wants the rawest horse subject in Paris, so she gets a police permit to dress as a man and spends eighteen months sketching the Boulevard de l’Hôpital horse market.', progress: 0.08 },
     { id: 'looking', eyebrow: 'The canvas', dateLabel: '1852–55', title: 'Eight feet of muscle and dust', blurb: 'Read the painting itself: the dark horse rearing left of center, the rolling grey Percherons beside it, the twisting mounted handler, the left-to-right churn of horse and handler, the clouds of dust, the plane trees, the far dome of the Salpêtrière.', progress: 0.34 },
-    { id: 'salon', eyebrow: 'The Salon · 1853', dateLabel: '1853', title: 'Horses at the scale of kings', blurb: 'The Salon of 1853 meets a market scene blown up to history-painting size — and instead of recoiling, the critics cheer. Instant, international fame.', progress: 0.58 },
+    { id: 'salon', eyebrow: 'The Salon · 1853', dateLabel: '1853', title: 'Horses at the scale of kings', blurb: 'The Salon of 1853 meets a market scene blown up to history-painting size, and instead of recoiling, the critics cheer. Instant, international fame.', progress: 0.58 },
     { id: 'bonheur', eyebrow: 'Rosa Bonheur', dateLabel: '1822–1899', title: 'The most famous woman painter alive', blurb: 'The animalière who out-earned the men, ran her own château and menagerie, was decorated by the Empress, and lived four decades with Nathalie Micas. A working professional, not a curiosity.', progress: 0.8 },
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1854–today', title: 'Afterlife', blurb: 'Gambart tours it through Britain and has it engraved for the masses; Vanderbilt buys it in 1887 and gives it to New York; a half-size sister hangs in London. The picture that conquered two continents.', progress: 0.96 },
   ],
   provenance: [
     { year: '1852–1854', who: 'Rosa Bonheur (the artist)', place: 'Paris', note: 'Painted 1852–55; first shown at the Salon of 1853, then finished and reworked. Bonheur sold it to her dealer in 1854.', price: null },
-    { year: '1854–1857', who: 'Ernest Gambart (art dealer)', place: 'London', note: 'The Belgian-born London dealer buys it from the artist for 40,000 French francs, tours it through Britain as a paying attraction, and has it engraved for mass sale — turning one canvas into a print empire.', price: '40,000 francs' },
+    { year: '1854–1857', who: 'Ernest Gambart (art dealer)', place: 'London', note: 'The Belgian-born London dealer buys it from the artist for 40,000 French francs, tours it through Britain as a paying attraction, and has it engraved for mass sale, turning one canvas into a print empire.', price: '40,000 francs' },
     { year: '1857–1866', who: 'William Parkinson Wright', place: 'England', note: 'Passes to the English collector Wright after Gambart’s tour and reproduction campaign.', price: null },
-    { year: '1866–1887', who: 'Alexander Turney Stewart', place: 'New York', note: 'Crosses the Atlantic into the collection of A. T. Stewart, the New York department-store magnate — one of the richest men in America.', price: null },
-    { year: '1887', who: 'Cornelius Vanderbilt II', place: 'New York', note: 'Buys it for $53,000 at the estate auction of Stewart’s widow — and immediately gives it to the Metropolitan Museum of Art, just steps from his own Fifth Avenue mansion.', price: '$53,000', museum: true },
-    { year: '1887–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Gift of Cornelius Vanderbilt, 1887 (accession 87.25). On permanent view ever since — one of the most-visited paintings in the building.', price: 'gift to the museum', museum: true },
+    { year: '1866–1887', who: 'Alexander Turney Stewart', place: 'New York', note: 'Crosses the Atlantic into the collection of A. T. Stewart, the New York department-store magnate, one of the richest men in America.', price: null },
+    { year: '1887', who: 'Cornelius Vanderbilt II', place: 'New York', note: 'Buys it for $53,000 at the estate auction of Stewart’s widow, and immediately gives it to the Metropolitan Museum of Art, just steps from his own Fifth Avenue mansion.', price: '$53,000', museum: true },
+    { year: '1887–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Gift of Cornelius Vanderbilt, 1887 (accession 87.25). On permanent view ever since, one of the most-visited paintings in the building.', price: 'gift to the museum', museum: true },
   ],
   figures: [
     { name: 'Rosa Bonheur', role: 'The painter', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
@@ -3066,12 +3066,12 @@ export const HORSE_FAIR: ArtWorkContent = {
     { name: 'Ernest Gambart', role: 'Dealer; toured + engraved it', palette: ['#6b6354', '#39322a', '#120f0c'] },
   ],
   annotations: [
-    { label: 'The dark horse rearing, and the rolling greys', where: 'Center: a near-black horse left of center, the pale greys to its right', detail: 'The sharpest spike of motion is the dark, near-black horse just left of center, reared straight up off its front hooves with its head flung back and forelegs clawing the air — the single animal that has truly gone vertical. Right beside it, the brightest mass on the whole canvas: two big, pale, dappled-grey draft horses — the heavy French farm breed called a Percheron — not rearing but wheeling and rolling at a hard trot, the most fully-lit thing in the picture. The dark horse gives the rear; the greys give the unstoppable bulk. Bonheur gave the center of a sixteen-foot painting — the spot a history painter saved for a hero or a saint — to panicking workhorses.' },
-    { label: 'The diagonal stampede', where: 'Running left-to-right across the whole canvas', detail: 'Nothing in this picture stands still. The horses and their handlers pour across the canvas in a single churning diagonal, surging from the upper left down toward the lower right — a dark horse rearing at left of center, a chestnut straining beside it, the greys wheeling in the middle, more animals crowding off to the right. There is no calm row of figures the way there is in a posed group portrait; there is a moving river of muscle, and you read it the way you’d read a real crowd of spooked animals: fast, and a little alarmed.' },
-    { label: 'The mounted handler, twisting in his saddle', where: 'Center, on horseback, in a blue smock', detail: 'The figure that really arrests you sits right in the thick of it: a mounted handler in a blue smock, wrenched around in his saddle, one arm reaching back, his whole torso fighting the pull of the animals he is trying to hold. He is the human pivot of the picture — the still axis the stampede turns around — and his strain is painted as carefully as the horses’. Down at the lower left a second handler in a red cap throws his weight against a halter, the one warm spot of color low in the churn; others on foot are dwarfed by the beasts. None of them are posing; they are working, and mostly losing. The painting is about labor as much as horseflesh — the sheer physical job of moving a ton of frightened animal down a public street. (By a long-repeated tradition, that figure on horseback is sometimes said to be Bonheur’s own self-portrait — a popular suggestion, not a proven fact.)' },
-    { label: 'The dust', where: 'Low, around the horses’ legs and hooves', detail: 'Down at the bottom, around the churning hooves, the ground dissolves into clouds of pale, kicked-up dust. It’s painted loosely, almost smudged, so the legs of the horses seem to vanish into it — which is exactly how a real stampeding crowd looks, the footing lost in its own grit. The dust is the painting’s proof of motion: you don’t just see the horses move, you see what their movement throws into the air.' },
-    { label: 'The far dome of the Salpêtrière', where: 'Far left, low on the horizon, a faint grey dome', detail: 'Off in the distance at the upper left, almost lost behind the haze and the trees, sits a pale grey dome and turret. That is the chapel dome of the Salpêtrière — a sprawling old Paris hospital and asylum on the Left Bank — and it fixes the scene to a real place: the horse market really was held just outside it, on the Boulevard de l’Hôpital. This is not an invented arena. It’s a specific Tuesday on a specific Paris street.' },
-    { label: 'The wall of plane trees', where: 'Across the whole background, behind the horses', detail: 'Behind the surging animals runs a long screen of trees — the plane trees that lined the boulevard — closing off the back of the picture in a band of dusty green and brown under a heavy, weather-blown sky. They do the job the cliff does in a Courbet: they stop the eye from escaping into deep distance and press the whole stampede forward, up against you, so the horses feel like they’re coming off the canvas and into your lap.' },
+    { label: 'The dark horse rearing, and the rolling greys', where: 'Center: a near-black horse left of center, the pale greys to its right', detail: 'The sharpest spike of motion is the dark, near-black horse just left of center, reared straight up off its front hooves with its head flung back and forelegs clawing the air, the single animal that has truly gone vertical. Right beside it, the brightest mass on the whole canvas: two big, pale, dappled-grey draft horses, the heavy French farm breed called a Percheron, not rearing but wheeling and rolling at a hard trot, the most fully-lit thing in the picture. The dark horse gives the rear; the greys give the unstoppable bulk. Bonheur gave the center of a sixteen-foot painting, the spot a history painter saved for a hero or a saint, to panicking workhorses.' },
+    { label: 'The diagonal stampede', where: 'Running left-to-right across the whole canvas', detail: 'Nothing in this picture stands still. The horses and their handlers pour across the canvas in a single churning diagonal, surging from the upper left down toward the lower right, a dark horse rearing at left of center, a chestnut straining beside it, the greys wheeling in the middle, more animals crowding off to the right. There is no calm row of figures the way there is in a posed group portrait; there is a moving river of muscle, and you read it the way you’d read a real crowd of spooked animals: fast, and a little alarmed.' },
+    { label: 'The mounted handler, twisting in his saddle', where: 'Center, on horseback, in a blue smock', detail: 'The figure that really arrests you sits right in the thick of it: a mounted handler in a blue smock, wrenched around in his saddle, one arm reaching back, his whole torso fighting the pull of the animals he is trying to hold. He is the human pivot of the picture, the still axis the stampede turns around, and his strain is painted as carefully as the horses’. Down at the lower left a second handler in a red cap throws his weight against a halter, the one warm spot of color low in the churn; others on foot are dwarfed by the beasts. None of them are posing; they are working, and mostly losing. The painting is about labor as much as horseflesh, the sheer physical job of moving a ton of frightened animal down a public street. (By a long-repeated tradition, that figure on horseback is sometimes said to be Bonheur’s own self-portrait, a popular suggestion, not a proven fact.)' },
+    { label: 'The dust', where: 'Low, around the horses’ legs and hooves', detail: 'Down at the bottom, around the churning hooves, the ground dissolves into clouds of pale, kicked-up dust. It’s painted loosely, almost smudged, so the legs of the horses seem to vanish into it, which is exactly how a real stampeding crowd looks, the footing lost in its own grit. The dust is the painting’s proof of motion: you don’t just see the horses move, you see what their movement throws into the air.' },
+    { label: 'The far dome of the Salpêtrière', where: 'Far left, low on the horizon, a faint grey dome', detail: 'Off in the distance at the upper left, almost lost behind the haze and the trees, sits a pale grey dome and turret. That is the chapel dome of the Salpêtrière, a sprawling old Paris hospital and asylum on the Left Bank, and it fixes the scene to a real place: the horse market really was held just outside it, on the Boulevard de l’Hôpital. This is not an invented arena. It’s a specific Tuesday on a specific Paris street.' },
+    { label: 'The wall of plane trees', where: 'Across the whole background, behind the horses', detail: 'Behind the surging animals runs a long screen of trees, the plane trees that lined the boulevard, closing off the back of the picture in a band of dusty green and brown under a heavy, weather-blown sky. They do the job the cliff does in a Courbet: they stop the eye from escaping into deep distance and press the whole stampede forward, up against you, so the horses feel like they’re coming off the canvas and into your lap.' },
   ],
   lineage: {
     parents: [
