@@ -21,18 +21,18 @@ const FORT_DONELSON_NARR: Record<string, Narr> = {
     blocks: [
       { locator: {
         eyebrow: 'Where and when',
-        frame: { lonMin: -90.3, lonMax: -85.6, latMin: 35.4, latMax: 37.6 },
+        frame: { lonMin: -88.6, lonMax: -85.7, latMin: 35.7, latMax: 37.5 },
         states: [
-          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -86.9, labelLat: 37.3 },
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -87.8, labelLat: 37.3 },
           { name: 'Kentucky' }, { name: 'Alabama' }, { name: 'Mississippi' }, { name: 'Illinois' },
         ],
         dots: [
-          { name: 'Fort Donelson', date: 'Feb 11–16, 1862', lat: 36.49, lon: -87.86, heavy: true, anchor: 'start' },
-          { name: 'Fort Henry', lat: 36.33, lon: -88.11, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Fort Donelson · Feb 11–16, 1862', lat: 36.49, lon: -87.86, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Nashville', lat: 36.17, lon: -86.78, color: '#8a8175', anchor: 'start' },
-          { name: 'Columbus, KY', lat: 36.76, lon: -89.11, color: '#8a8175', anchor: 'end' },
+          { name: 'Bowling Green, KY', lat: 36.99, lon: -86.44, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

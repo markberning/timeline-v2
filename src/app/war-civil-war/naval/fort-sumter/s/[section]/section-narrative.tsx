@@ -19,10 +19,11 @@ const FORT_SUMTER_NARR: Record<string, Narr> = {
           { name: 'North Carolina' }, { name: 'Georgia' },
         ],
         dots: [
-          { name: 'Fort Sumter', date: 'Apr 12–14, 1861', lat: 32.752, lon: -79.874, heavy: true, anchor: 'start' },
+          { name: 'Fort Sumter · Apr 12–14, 1861', lat: 32.752, lon: -79.874, heavy: true, anchor: 'middle', dy: -30 },
           { name: 'Montgomery, AL', lat: 32.361, lon: -86.279, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

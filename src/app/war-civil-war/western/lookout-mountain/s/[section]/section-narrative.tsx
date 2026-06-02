@@ -19,11 +19,11 @@ const LOOKOUT_MOUNTAIN_NARR: Record<string, Narr> = {
           { name: 'Georgia' }, { name: 'Alabama' }, { name: 'North Carolina' }, { name: 'Virginia' },
         ],
         dots: [
-          { name: 'Lookout Mountain', date: 'Nov 24, 1863', lat: 35.009, lon: -85.342, heavy: true, anchor: 'middle', dy: 24 },
-          { name: 'Brown\'s Ferry', lat: 35.06, lon: -85.398, color: '#8a8175', anchor: 'end' },
+          { name: 'Lookout Mountain · Nov 24, 1863', lat: 35.009, lon: -85.342, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Missionary Ridge', lat: 35.033, lon: -85.246, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

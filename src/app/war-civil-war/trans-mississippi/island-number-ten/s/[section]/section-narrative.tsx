@@ -19,12 +19,13 @@ const ISLAND_NUMBER_TEN_NARR: Record<string, Narr> = {
           { name: 'Tennessee' }, { name: 'Kentucky' }, { name: 'Illinois' }, { name: 'Arkansas' },
         ],
         dots: [
-          { name: 'Island No. 10', date: 'Feb 28 – Apr 8, 1862', lat: 36.57, lon: -89.52, heavy: true, anchor: 'end' },
+          { name: 'Island No. 10 · Feb 28 – Apr 8, 1862', lat: 36.57, lon: -89.52, heavy: true, anchor: 'start' },
           { name: 'Columbus, KY', lat: 36.76, lon: -88.99, color: '#8a8175', anchor: 'end' },
           { name: 'Cairo, IL', lat: 37, lon: -89.18, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'Fort Donelson', lat: 36.48, lon: -87.86, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

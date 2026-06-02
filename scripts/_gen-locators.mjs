@@ -161,7 +161,9 @@ function stateLabelPos(frame, P, dots) {
 function buildBlock(b) {
   const refs = trimRefs(b.battle, b.refs)
   b = { ...b, refs }
-  const dots = [{ ...b.battle, heavy: true, date: b.date }, ...b.refs]
+  // battle label = title + date on ONE line (drop a leading article for the map label)
+  const battleName = b.battle.name.replace(/^the\s+/i, '') + ' · ' + b.date
+  const dots = [{ ...b.battle, name: battleName, heavy: true }, ...b.refs]
   const frame = buildFrame(dots)
   const P = projector(frame)
   const slPos = stateLabelPos(frame, P, dots)

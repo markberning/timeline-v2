@@ -19,10 +19,11 @@ const STONES_RIVER_NARR: Record<string, Narr> = {
           { name: 'Kentucky' }, { name: 'Alabama' }, { name: 'Georgia' }, { name: 'Virginia' },
         ],
         dots: [
-          { name: 'Stones River', date: 'Dec 31, 1862–Jan 2, 1863', lat: 35.848, lon: -86.432, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Stones River · Dec 31, 1862–Jan 2, 1863', lat: 35.848, lon: -86.432, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Nashville', lat: 36.166, lon: -86.782, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 

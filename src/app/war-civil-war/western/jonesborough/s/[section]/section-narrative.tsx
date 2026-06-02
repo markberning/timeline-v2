@@ -19,11 +19,12 @@ const JONESBOROUGH_NARR: Record<string, Narr> = {
           { name: 'Tennessee' }, { name: 'Alabama' }, { name: 'South Carolina' }, { name: 'North Carolina' },
         ],
         dots: [
-          { name: 'Jonesborough', date: 'Aug 31 – Sep 1, 1864', lat: 33.522, lon: -84.354, heavy: true, anchor: 'middle', dy: 24 },
-          { name: 'Lovejoy\'s Station', lat: 33.42, lon: -84.315, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Jonesborough · Aug 31 – Sep 1, 1864', lat: 33.522, lon: -84.354, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Lovejoy\'s Station', lat: 33.42, lon: -84.315, color: '#8a8175', anchor: 'start' },
           { name: 'Atlanta', lat: 33.749, lon: -84.388, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 

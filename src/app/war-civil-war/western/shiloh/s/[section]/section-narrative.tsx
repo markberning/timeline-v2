@@ -21,18 +21,18 @@ const SHILOH_NARR: Record<string, Narr> = {
     blocks: [
       { locator: {
         eyebrow: 'Where and when',
-        frame: { lonMin: -89.9, lonMax: -86.5, latMin: 34.2, latMax: 37.3 },
+        frame: { lonMin: -89.3, lonMax: -87.5, latMin: 34.4, latMax: 35.7 },
         states: [
-          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -89, labelLat: 36.9 },
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -88, labelLat: 34.6 },
           { name: 'Mississippi' }, { name: 'Alabama' }, { name: 'Kentucky' },
         ],
         dots: [
-          { name: 'Shiloh', date: 'Apr 6–7, 1862', lat: 35.14, lon: -88.34, heavy: true, anchor: 'middle', dy: 24 },
-          { name: 'Savannah', lat: 35.217, lon: -88.247, color: '#8a8175', anchor: 'middle', dy: 20 },
-          { name: 'Corinth', lat: 34.934, lon: -88.522, color: '#8a8175', anchor: 'middle', dy: 20 },
-          { name: 'Fort Donelson', lat: 36.487, lon: -87.849, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Shiloh · Apr 6–7, 1862', lat: 35.14, lon: -88.34, heavy: true, anchor: 'start' },
+          { name: 'Savannah', lat: 35.217, lon: -88.247, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Corinth', lat: 34.934, lon: -88.522, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

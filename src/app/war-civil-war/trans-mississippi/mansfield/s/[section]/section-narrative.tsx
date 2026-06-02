@@ -20,12 +20,12 @@ const MANSFIELD_NARR: Record<string, Narr> = {
           { name: 'Texas' }, { name: 'Arkansas' }, { name: 'Mississippi' },
         ],
         dots: [
-          { name: 'Mansfield (Sabine Crossroads)', date: 'Apr 8, 1864', lat: 31.97, lon: -93.7, heavy: true, anchor: 'start' },
-          { name: 'Grand Ecore', lat: 31.83, lon: -93.09, color: '#8a8175', anchor: 'start' },
+          { name: 'Mansfield (Sabine Crossroads) · Apr 8, 1864', lat: 31.97, lon: -93.7, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Shreveport', lat: 32.52, lon: -93.75, color: '#8a8175', anchor: 'middle', dy: -16 },
-          { name: 'Natchitoches', lat: 31.76, lon: -93.09, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Natchitoches', lat: 31.76, lon: -93.09, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

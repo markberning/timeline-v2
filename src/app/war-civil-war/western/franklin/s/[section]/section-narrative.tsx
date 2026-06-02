@@ -19,12 +19,13 @@ const FRANKLIN_NARR: Record<string, Narr> = {
           { name: 'Kentucky' }, { name: 'Alabama' }, { name: 'Mississippi' }, { name: 'Georgia' },
         ],
         dots: [
-          { name: 'Franklin', date: 'Nov 30, 1864', lat: 35.9251, lon: -86.8689, heavy: true, anchor: 'middle', dy: -30 },
-          { name: 'Spring Hill', lat: 35.7551, lon: -86.93, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Franklin · Nov 30, 1864', lat: 35.9251, lon: -86.8689, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Spring Hill', lat: 35.7551, lon: -86.93, color: '#8a8175', anchor: 'end' },
           { name: 'Nashville', lat: 36.1627, lon: -86.7816, color: '#8a8175', anchor: 'middle', dy: -16 },
-          { name: 'Columbia', lat: 35.6151, lon: -87.0353, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Columbia', lat: 35.6151, lon: -87.0353, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

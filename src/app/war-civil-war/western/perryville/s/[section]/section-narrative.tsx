@@ -19,11 +19,12 @@ const PERRYVILLE_NARR: Record<string, Narr> = {
           { name: 'Tennessee' }, { name: 'Virginia' }, { name: 'Ohio' }, { name: 'Indiana' },
         ],
         dots: [
-          { name: 'Perryville', date: 'Oct 8, 1862', lat: 37.655, lon: -84.963, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Perryville · Oct 8, 1862', lat: 37.655, lon: -84.963, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Richmond, KY', lat: 37.748, lon: -84.295, color: '#8a8175', anchor: 'start' },
           { name: 'Frankfort', lat: 38.201, lon: -84.873, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 

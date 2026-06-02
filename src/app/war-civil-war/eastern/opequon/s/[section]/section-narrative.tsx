@@ -14,18 +14,17 @@ const OPEQUON_NARR: Record<string, Narr> = {
     blocks: [
       { locator: {
         eyebrow: 'Where and when',
-        frame: { lonMin: -79.8, lonMax: -75.4, latMin: 36.3, latMax: 40.2 },
+        frame: { lonMin: -78.8, lonMax: -76.4, latMin: 38.4, latMax: 39.7 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.6, labelLat: 36.8 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77, labelLat: 39.5 },
           { name: 'West Virginia' }, { name: 'Maryland' }, { name: 'Pennsylvania' }, { name: 'Kentucky' },
         ],
         dots: [
-          { name: 'Third Winchester (Opequon)', date: 'Sep 19, 1864', lat: 39.18, lon: -78.17, heavy: true, anchor: 'middle', dy: -30 },
-          { name: 'Washington', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'middle', dy: -16 },
-          { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'middle', dy: 20 },
-          { name: 'Petersburg', lat: 37.228, lon: -77.4, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Third Winchester (Opequon) · Sep 19, 1864', lat: 39.18, lon: -78.17, heavy: true, anchor: 'start' },
+          { name: 'Washington', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

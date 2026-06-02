@@ -19,10 +19,11 @@ export const FORTS_JACKSON_NARR: Record<string, Narr> = {
           { name: 'Mississippi' }, { name: 'Alabama' }, { name: 'Texas' }, { name: 'Arkansas' },
         ],
         dots: [
-          { name: 'Forts Jackson & St. Philip', date: 'Apr 18–28, 1862', lat: 29.355, lon: -89.595, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Forts Jackson & St. Philip · Apr 18–28, 1862', lat: 29.355, lon: -89.595, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'New Orleans', lat: 29.951, lon: -90.071, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 

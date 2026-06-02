@@ -20,19 +20,19 @@ const FIRST_WINCHESTER_NARR: Record<string, Narr> = {
     blocks: [
       { locator: {
         eyebrow: 'Where and when',
-        frame: { lonMin: -79.5, lonMax: -75.8, latMin: 36.7, latMax: 40 },
+        frame: { lonMin: -78.8, lonMax: -76.4, latMin: 37.8, latMax: 39.7 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.5, labelLat: 37.1 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.2, labelLat: 38 },
           { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Pennsylvania' },
         ],
         dots: [
-          { name: 'First Winchester', date: 'May 25, 1862', lat: 39.185, lon: -78.163, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'First Winchester · May 25, 1862', lat: 39.185, lon: -78.163, heavy: true, anchor: 'middle', dy: -30 },
           { name: 'Front Royal', lat: 38.917, lon: -78.194, color: '#8a8175', anchor: 'end' },
           { name: 'Washington, D.C.', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'start' },
-          { name: 'Fredericksburg', lat: 38.301, lon: -77.461, color: '#8a8175', anchor: 'middle', dy: 20 },
-          { name: 'Richmond', lat: 37.541, lon: -77.436, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Fredericksburg', lat: 38.301, lon: -77.461, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

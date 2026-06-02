@@ -19,11 +19,12 @@ export const MALVERN_HILL_NARR: Record<string, Narr> = {
           { name: 'Maryland' }, { name: 'North Carolina' }, { name: 'West Virginia' }, { name: 'Pennsylvania' },
         ],
         dots: [
-          { name: 'Malvern Hill', date: 'Jul 1, 1862', lat: 37.36, lon: -77.19, heavy: true, anchor: 'end' },
+          { name: 'Malvern Hill · Jul 1, 1862', lat: 37.36, lon: -77.19, heavy: true, anchor: 'start' },
           { name: 'Harrison\'s Landing', lat: 37.3, lon: -77.07, color: '#8a8175', anchor: 'start' },
           { name: 'Richmond', lat: 37.54, lon: -77.44, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

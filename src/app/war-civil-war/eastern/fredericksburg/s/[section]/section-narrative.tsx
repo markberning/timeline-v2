@@ -19,11 +19,12 @@ const FREDERICKSBURG_NARR: Record<string, Narr> = {
           { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' },
         ],
         dots: [
-          { name: 'Fredericksburg', date: 'Dec 11–15, 1862', lat: 38.301, lon: -77.461, heavy: true, anchor: 'end' },
+          { name: 'Fredericksburg · Dec 11–15, 1862', lat: 38.301, lon: -77.461, heavy: true, anchor: 'middle', dy: -30 },
           { name: 'Washington, D.C.', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'middle', dy: -16 },
-          { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

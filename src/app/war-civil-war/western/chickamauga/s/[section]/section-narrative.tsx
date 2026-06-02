@@ -19,12 +19,13 @@ const CHICKAMAUGA_NARR: Record<string, Narr> = {
           { name: 'Tennessee' }, { name: 'Alabama' }, { name: 'North Carolina' },
         ],
         dots: [
-          { name: 'Chickamauga', date: 'Sep 18–20, 1863', lat: 34.93, lon: -85.27, heavy: true, anchor: 'end' },
+          { name: 'Chickamauga · Sep 18–20, 1863', lat: 34.93, lon: -85.27, heavy: true, anchor: 'start' },
           { name: 'Chattanooga, TN', lat: 35.05, lon: -85.31, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'Tennessee River', lat: 35.05, lon: -85.18, color: '#8a8175', anchor: 'start' },
           { name: 'Atlanta, GA', lat: 33.75, lon: -84.39, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

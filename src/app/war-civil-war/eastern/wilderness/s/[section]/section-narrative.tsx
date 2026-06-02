@@ -13,19 +13,20 @@ const WILDERNESS_NARR: Record<string, Narr> = {
     blocks: [
       { locator: {
         eyebrow: 'Where and when',
-        frame: { lonMin: -78.7, lonMax: -76.9, latMin: 37.7, latMax: 38.9 },
+        frame: { lonMin: -78.5, lonMax: -76.7, latMin: 37.7, latMax: 38.9 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.2, labelLat: 38.8 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77.2, labelLat: 38.8 },
           { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' }, { name: 'Tennessee' },
         ],
         dots: [
-          { name: 'the Wilderness', date: 'May 5–7, 1864', lat: 38.32, lon: -77.73, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Wilderness · May 5–7, 1864', lat: 38.32, lon: -77.73, heavy: true, anchor: 'end' },
           { name: 'Germanna Ford', lat: 38.408, lon: -77.747, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'Spotsylvania Court House', lat: 38.195, lon: -77.588, color: '#8a8175', anchor: 'start' },
           { name: 'Fredericksburg', lat: 38.3032, lon: -77.4605, color: '#8a8175', anchor: 'start' },
-          { name: 'Orange Court House', lat: 38.245, lon: -78.111, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
+
 
 
 

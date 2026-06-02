@@ -50,12 +50,13 @@ const GB_NARR: Record<string, Narr> = {
           { name: 'Maryland' }, { name: 'Virginia' }, { name: 'West Virginia' }, { name: 'New Jersey' },
         ],
         dots: [
-          { name: 'Gettysburg', date: 'Jul 1–3, 1863', lat: 39.811, lon: -77.231, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Gettysburg · Jul 1–3, 1863', lat: 39.811, lon: -77.231, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Cashtown', lat: 39.836, lon: -77.363, color: '#8a8175', anchor: 'end' },
           { name: 'Chambersburg', lat: 39.938, lon: -77.661, color: '#8a8175', anchor: 'end' },
           { name: 'Harrisburg', lat: 40.273, lon: -76.886, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
       { h: 'Late spring, 1863', eyebrow: 'Setting' },
       { p: `In May of 1863, Robert E. Lee did something his army had never done. He decided to invade the United States.` },

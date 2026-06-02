@@ -19,10 +19,11 @@ export const GAINES_MILL_NARR: Record<string, Narr> = {
           { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' }, { name: 'Pennsylvania' },
         ],
         dots: [
-          { name: 'Gaines\' Mill', date: 'Jun 27, 1862', lat: 37.57, lon: -77.29, heavy: true, anchor: 'start' },
+          { name: 'Gaines\' Mill · Jun 27, 1862', lat: 37.57, lon: -77.29, heavy: true, anchor: 'start' },
           { name: 'Richmond', lat: 37.5407, lon: -77.436, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

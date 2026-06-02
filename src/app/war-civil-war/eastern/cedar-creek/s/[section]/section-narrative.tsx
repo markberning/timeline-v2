@@ -26,11 +26,12 @@ const CEDAR_CREEK_NARR: Record<string, Narr> = {
           { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Pennsylvania' },
         ],
         dots: [
-          { name: 'Cedar Creek', date: 'Oct 19, 1864', lat: 38.998, lon: -78.407, heavy: true, anchor: 'end' },
+          { name: 'Cedar Creek · Oct 19, 1864', lat: 38.998, lon: -78.407, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Winchester', lat: 39.185, lon: -78.164, color: '#8a8175', anchor: 'end' },
           { name: 'Washington, D.C.', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

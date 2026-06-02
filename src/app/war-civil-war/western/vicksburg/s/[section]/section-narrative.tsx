@@ -13,17 +13,17 @@ const VICKSBURG_NARR: Record<string, Narr> = {
     blocks: [
       { locator: {
         eyebrow: 'Where and when',
-        frame: { lonMin: -92.4, lonMax: -89, latMin: 29.9, latMax: 33.2 },
+        frame: { lonMin: -91.5, lonMax: -89.6, latMin: 31.7, latMax: 32.9 },
         states: [
-          { name: 'Mississippi', tone: 'focus', label: 'MISSISSIPPI', labelLon: -89.9, labelLat: 30.3 },
+          { name: 'Mississippi', tone: 'focus', label: 'MISSISSIPPI', labelLon: -91, labelLat: 31.8 },
           { name: 'Louisiana' }, { name: 'Arkansas' }, { name: 'Tennessee' }, { name: 'Alabama' },
         ],
         dots: [
-          { name: 'Vicksburg', date: 'May 18 – Jul 4, 1863', lat: 32.352, lon: -90.878, heavy: true, anchor: 'middle', dy: -30 },
-          { name: 'Jackson, MS', lat: 32.299, lon: -90.184, color: '#8a8175', anchor: 'middle', dy: -16 },
-          { name: 'Port Hudson', lat: 30.708, lon: -91.265, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Vicksburg · May 18 – Jul 4, 1863', lat: 32.352, lon: -90.878, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Jackson, MS', lat: 32.299, lon: -90.184, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

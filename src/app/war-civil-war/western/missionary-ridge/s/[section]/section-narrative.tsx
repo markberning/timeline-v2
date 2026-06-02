@@ -19,11 +19,12 @@ const MISSIONARY_RIDGE_NARR: Record<string, Narr> = {
           { name: 'Georgia' }, { name: 'Alabama' }, { name: 'Kentucky' }, { name: 'North Carolina' },
         ],
         dots: [
-          { name: 'Missionary Ridge', date: 'Nov 25, 1863', lat: 35.02, lon: -85.24, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Missionary Ridge · Nov 25, 1863', lat: 35.02, lon: -85.24, heavy: true, anchor: 'middle', dy: -30 },
           { name: 'Chickamauga', lat: 34.93, lon: -85.29, color: '#8a8175', anchor: 'end' },
           { name: 'Atlanta', lat: 33.749, lon: -84.388, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

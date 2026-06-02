@@ -19,11 +19,12 @@ const SECOND_PETERSBURG_NARR: Record<string, Narr> = {
           { name: 'North Carolina' }, { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Tennessee' },
         ],
         dots: [
-          { name: 'Petersburg', date: 'Jun 15–18, 1864', lat: 37.228, lon: -77.401, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Petersburg · Jun 15–18, 1864', lat: 37.228, lon: -77.401, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'James River (Windmill Point)', lat: 37.313, lon: -77.021, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

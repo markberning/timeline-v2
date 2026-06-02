@@ -13,18 +13,18 @@ export const GLORIETA_PASS_NARR: Record<string, Narr> = {
     blocks: [
       { locator: {
         eyebrow: 'Where and when',
-        frame: { lonMin: -107.6, lonMax: -103.9, latMin: 34.6, latMax: 36.4 },
+        frame: { lonMin: -106.5, lonMax: -104.2, latMin: 35.1, latMax: 36.4 },
         states: [
-          { name: 'New Mexico', tone: 'focus', label: 'NEW MEXICO', labelLon: -104.9, labelLat: 34.8 },
+          { name: 'New Mexico', tone: 'focus', label: 'NEW MEXICO', labelLon: -104.8, labelLat: 35.3 },
           { name: 'Colorado' }, { name: 'Texas' }, { name: 'Arizona' }, { name: 'Oklahoma' },
         ],
         dots: [
-          { name: 'Glorieta Pass', date: 'Mar 26–28, 1862', lat: 35.57, lon: -105.73, heavy: true, anchor: 'start' },
-          { name: 'Santa Fe', lat: 35.687, lon: -105.937, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Glorieta Pass · Mar 26–28, 1862', lat: 35.57, lon: -105.73, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Santa Fe', lat: 35.687, lon: -105.937, color: '#8a8175', anchor: 'end' },
           { name: 'Fort Union', lat: 35.905, lon: -104.842, color: '#8a8175', anchor: 'start' },
-          { name: 'Albuquerque', lat: 35.085, lon: -106.651, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 
