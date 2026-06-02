@@ -16,14 +16,15 @@ const OPEQUON_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.8, lonMax: -76.4, latMin: 38.4, latMax: 39.7 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77, labelLat: 39.5 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77.8, labelLat: 38.6 },
           { name: 'West Virginia' }, { name: 'Maryland' }, { name: 'Pennsylvania' }, { name: 'Kentucky' },
         ],
         dots: [
-          { name: 'Third Winchester (Opequon) · Sep 19, 1864', lat: 39.18, lon: -78.17, heavy: true, anchor: 'start' },
+          { name: 'Third Winchester (Opequon)', date: 'Sep 19, 1864', lat: 39.18, lon: -78.17, heavy: true, anchor: 'middle', dy: -30 },
           { name: 'Washington', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

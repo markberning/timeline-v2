@@ -23,15 +23,16 @@ export const BULL_RUN_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.8, lonMax: -75.7, latMin: 36.9, latMax: 39.6 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.5, labelLat: 37.2 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.3, labelLat: 38.2 },
           { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' }, { name: 'Pennsylvania' },
         ],
         dots: [
-          { name: 'Bull Run (Manassas) · Jul 21, 1861', lat: 38.815, lon: -77.522, heavy: true, anchor: 'start' },
+          { name: 'Bull Run (Manassas)', date: 'Jul 21, 1861', lat: 38.815, lon: -77.522, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Washington, D.C.', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

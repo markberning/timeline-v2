@@ -15,14 +15,15 @@ const VICKSBURG_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -91.5, lonMax: -89.6, latMin: 31.7, latMax: 32.9 },
         states: [
-          { name: 'Mississippi', tone: 'focus', label: 'MISSISSIPPI', labelLon: -91, labelLat: 31.8 },
+          { name: 'Mississippi', tone: 'focus', label: 'MISSISSIPPI', labelLon: -89.9, labelLat: 32.8 },
           { name: 'Louisiana' }, { name: 'Arkansas' }, { name: 'Tennessee' }, { name: 'Alabama' },
         ],
         dots: [
-          { name: 'Vicksburg · May 18 – Jul 4, 1863', lat: 32.352, lon: -90.878, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Vicksburg', date: 'May 18 – Jul 4, 1863', lat: 32.352, lon: -90.878, heavy: true, anchor: 'middle', dy: -30 },
           { name: 'Jackson, MS', lat: 32.299, lon: -90.184, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

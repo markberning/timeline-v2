@@ -46,16 +46,17 @@ const GB_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.3, lonMax: -76.3, latMin: 39.3, latMax: 40.8 },
         states: [
-          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -77.8, labelLat: 40.6 },
+          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78, labelLat: 40.6 },
           { name: 'Maryland' }, { name: 'Virginia' }, { name: 'West Virginia' }, { name: 'New Jersey' },
         ],
         dots: [
-          { name: 'Gettysburg · Jul 1–3, 1863', lat: 39.811, lon: -77.231, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Gettysburg', date: 'Jul 1–3, 1863', lat: 39.811, lon: -77.231, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Cashtown', lat: 39.836, lon: -77.363, color: '#8a8175', anchor: 'end' },
           { name: 'Chambersburg', lat: 39.938, lon: -77.661, color: '#8a8175', anchor: 'end' },
           { name: 'Harrisburg', lat: 40.273, lon: -76.886, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
       { h: 'Late spring, 1863', eyebrow: 'Setting' },

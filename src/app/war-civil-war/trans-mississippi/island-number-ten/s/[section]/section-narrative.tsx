@@ -15,16 +15,17 @@ const ISLAND_NUMBER_TEN_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -90.3, lonMax: -87, latMin: 36, latMax: 37.5 },
         states: [
-          { name: 'Missouri', tone: 'focus', label: 'MISSOURI', labelLon: -87.9, labelLat: 37.3 },
+          { name: 'Missouri', tone: 'focus', label: 'MISSOURI', labelLon: -89.8, labelLat: 37.3 },
           { name: 'Tennessee' }, { name: 'Kentucky' }, { name: 'Illinois' }, { name: 'Arkansas' },
         ],
         dots: [
-          { name: 'Island No. 10 · Feb 28 – Apr 8, 1862', lat: 36.57, lon: -89.52, heavy: true, anchor: 'start' },
+          { name: 'Island No. 10', date: 'Feb 28 – Apr 8, 1862', lat: 36.57, lon: -89.52, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Columbus, KY', lat: 36.76, lon: -88.99, color: '#8a8175', anchor: 'end' },
           { name: 'Cairo, IL', lat: 37, lon: -89.18, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'Fort Donelson', lat: 36.48, lon: -87.86, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

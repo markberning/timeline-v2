@@ -16,16 +16,17 @@ const SPOTSYLVANIA_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.6, lonMax: -76.6, latMin: 37, latMax: 38.8 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.1, labelLat: 37.2 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.3, labelLat: 37.3 },
           { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' }, { name: 'Tennessee' },
         ],
         dots: [
-          { name: 'Spotsylvania Court House · May 8–21, 1864', lat: 38.196, lon: -77.589, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Spotsylvania Court House', date: 'May 8–21, 1864', lat: 38.196, lon: -77.589, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'The Wilderness', lat: 38.268, lon: -77.741, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'North Anna River', lat: 38.017, lon: -77.611, color: '#8a8175', anchor: 'end' },
           { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

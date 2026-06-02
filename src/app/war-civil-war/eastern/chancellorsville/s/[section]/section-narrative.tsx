@@ -15,16 +15,17 @@ const CHANCELLORSVILLE_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.8, lonMax: -76.8, latMin: 37, latMax: 38.8 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.3, labelLat: 37.2 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.5, labelLat: 37.3 },
           { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' },
         ],
         dots: [
-          { name: 'Chancellorsville · Apr 30 – May 6, 1863', lat: 38.3106, lon: -77.6461, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Chancellorsville', date: 'Apr 30 – May 6, 1863', lat: 38.3106, lon: -77.6461, heavy: true, anchor: 'middle', dy: -30 },
           { name: 'Fredericksburg', lat: 38.3032, lon: -77.4605, color: '#8a8175', anchor: 'start' },
           { name: 'Gordonsville', lat: 38.1376, lon: -78.1836, color: '#8a8175', anchor: 'end' },
           { name: 'Richmond', lat: 37.5407, lon: -77.436, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

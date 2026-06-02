@@ -22,14 +22,15 @@ const CRATER_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.3, lonMax: -76.5, latMin: 36.7, latMax: 38 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77.8, labelLat: 36.9 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.8, labelLat: 37.8 },
           { name: 'North Carolina' }, { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Tennessee' },
         ],
         dots: [
-          { name: 'Crater · Jul 30, 1864', lat: 37.212, lon: -77.393, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Crater', date: 'Jul 30, 1864', lat: 37.212, lon: -77.393, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 

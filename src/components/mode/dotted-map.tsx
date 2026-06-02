@@ -123,8 +123,12 @@ export function DottedMap({
               <g key={`d${i}`}>
                 <circle cx={x} cy={y} r={r} fill={col} />
                 <circle cx={x} cy={y} r={r + 3.5} fill="none" stroke={alpha(col, 0.25)} strokeWidth={2} />
-                {d.name && <text x={tx} y={ty} fontFamily={MONO} fontSize={d.heavy ? 17 : 14.5} fontWeight={d.heavy ? 700 : 500} fill="var(--foreground)" textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={6} strokeLinejoin="round">{d.name}</text>}
-                {d.date && <text x={tx} y={ty + 16} fontFamily={MONO} fontSize={12.5} fontWeight={600} fill={alpha(col, 0.95)} textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={5} strokeLinejoin="round">{d.date}</text>}
+                {d.name && (
+                  <text x={tx} y={ty} fontFamily={MONO} textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={6} strokeLinejoin="round">
+                    <tspan fontSize={d.heavy ? 17 : 14.5} fontWeight={d.heavy ? 700 : 500} fill="var(--foreground)">{d.name}</tspan>
+                    {d.date && <tspan dx={9} fontSize={12.5} fontWeight={600} fill={alpha(col, 0.95)}>{d.date}</tspan>}
+                  </text>
+                )}
               </g>
             )
           })}

@@ -15,15 +15,16 @@ const NASHVILLE_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -87.5, lonMax: -85.7, latMin: 35.3, latMax: 36.6 },
         states: [
-          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -86.2, labelLat: 36.4 },
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -86, labelLat: 36.4 },
           { name: 'Kentucky' }, { name: 'Alabama' }, { name: 'Georgia' }, { name: 'Mississippi' },
         ],
         dots: [
-          { name: 'Nashville · Dec 15–16, 1864', lat: 36.1, lon: -86.78, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Nashville', date: 'Dec 15–16, 1864', lat: 36.1, lon: -86.78, heavy: true, anchor: 'middle', dy: -30 },
           { name: 'Franklin', lat: 35.925, lon: -86.869, color: '#8a8175', anchor: 'end' },
           { name: 'Murfreesboro', lat: 35.846, lon: -86.39, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

@@ -15,14 +15,15 @@ const LOOKOUT_MOUNTAIN_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -86.2, lonMax: -84.4, latMin: 34.4, latMax: 35.6 },
         states: [
-          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -84.9, labelLat: 34.5 },
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -85.9, labelLat: 35.5 },
           { name: 'Georgia' }, { name: 'Alabama' }, { name: 'North Carolina' }, { name: 'Virginia' },
         ],
         dots: [
-          { name: 'Lookout Mountain · Nov 24, 1863', lat: 35.009, lon: -85.342, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Lookout Mountain', date: 'Nov 24, 1863', lat: 35.009, lon: -85.342, heavy: true, anchor: 'end' },
           { name: 'Missionary Ridge', lat: 35.033, lon: -85.246, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

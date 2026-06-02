@@ -22,15 +22,16 @@ const CEDAR_CREEK_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -79.1, lonMax: -76.4, latMin: 38.4, latMax: 39.7 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77.1, labelLat: 39.5 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77.7, labelLat: 38.6 },
           { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Pennsylvania' },
         ],
         dots: [
-          { name: 'Cedar Creek · Oct 19, 1864', lat: 38.998, lon: -78.407, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Cedar Creek', date: 'Oct 19, 1864', lat: 38.998, lon: -78.407, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Winchester', lat: 39.185, lon: -78.164, color: '#8a8175', anchor: 'end' },
           { name: 'Washington, D.C.', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

@@ -104,8 +104,10 @@ for (const file of FILES.sort()) {
       const tx = x + (anchor === 'end' ? -(dx ?? 11) : anchor === 'middle' ? (dx ?? 0) : (dx ?? 11))
       const ty = y + (dy ?? (date ? -2 : 5))
       const fs = heavy ? 17 : 14.5
-      boxes.push(box(name, tx, ty, fs, anchor))
-      if (date) boxes.push(box(date, tx, ty + 16, 12.5, anchor))
+      let w = name.length * charW(fs)
+      if (date) w += 9 + date.length * charW(12.5) // date drawn inline on the same line
+      const left = anchor === 'end' ? tx - w : anchor === 'middle' ? tx - w / 2 : tx
+      boxes.push({ left, right: left + w, top: ty - 0.82 * fs, bottom: ty + 0.25 * fs, text: name + (date ? ' ' + date : '') })
     }
     // state labels
     for (const o of parseArrayObjects(body, 'states')) {

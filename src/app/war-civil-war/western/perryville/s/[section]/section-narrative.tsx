@@ -15,15 +15,16 @@ const PERRYVILLE_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -85.6, lonMax: -83.7, latMin: 37.2, latMax: 38.7 },
         states: [
-          { name: 'Kentucky', tone: 'focus', label: 'KENTUCKY', labelLon: -84.2, labelLat: 38.5 },
+          { name: 'Kentucky', tone: 'focus', label: 'KENTUCKY', labelLon: -84, labelLat: 38.5 },
           { name: 'Tennessee' }, { name: 'Virginia' }, { name: 'Ohio' }, { name: 'Indiana' },
         ],
         dots: [
-          { name: 'Perryville · Oct 8, 1862', lat: 37.655, lon: -84.963, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Perryville', date: 'Oct 8, 1862', lat: 37.655, lon: -84.963, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Richmond, KY', lat: 37.748, lon: -84.295, color: '#8a8175', anchor: 'start' },
           { name: 'Frankfort', lat: 38.201, lon: -84.873, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 

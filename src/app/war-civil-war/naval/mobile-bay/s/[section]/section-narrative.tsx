@@ -15,14 +15,15 @@ const MOBILE_BAY_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -89, lonMax: -87.2, latMin: 29.6, latMax: 30.8 },
         states: [
-          { name: 'Alabama', tone: 'focus', label: 'ALABAMA', labelLon: -88.5, labelLat: 29.7 },
+          { name: 'Alabama', tone: 'focus', label: 'ALABAMA', labelLon: -87.5, labelLat: 30.7 },
           { name: 'Mississippi' }, { name: 'Florida' }, { name: 'Georgia' }, { name: 'Tennessee' },
         ],
         dots: [
-          { name: 'Mobile Bay · Aug 5, 1864', lat: 30.23, lon: -88.02, heavy: true, anchor: 'start' },
+          { name: 'Mobile Bay', date: 'Aug 5, 1864', lat: 30.23, lon: -88.02, heavy: true, anchor: 'start' },
           { name: 'Fort Gaines (Dauphin Island)', lat: 30.25, lon: -88.12, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

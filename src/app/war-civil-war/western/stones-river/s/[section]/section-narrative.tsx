@@ -15,14 +15,15 @@ const STONES_RIVER_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -87.5, lonMax: -85.7, latMin: 35.3, latMax: 36.7 },
         states: [
-          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -86.2, labelLat: 36.5 },
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -86, labelLat: 36.5 },
           { name: 'Kentucky' }, { name: 'Alabama' }, { name: 'Georgia' }, { name: 'Virginia' },
         ],
         dots: [
-          { name: 'Stones River · Dec 31, 1862–Jan 2, 1863', lat: 35.848, lon: -86.432, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Stones River', date: 'Dec 31, 1862–Jan 2, 1863', lat: 35.848, lon: -86.432, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Nashville', lat: 36.166, lon: -86.782, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 

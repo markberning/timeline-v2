@@ -16,15 +16,16 @@ const PORT_HUDSON_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -92.3, lonMax: -90.5, latMin: 30, latMax: 31.5 },
         states: [
-          { name: 'Louisiana', tone: 'focus', label: 'LOUISIANA', labelLon: -91, labelLat: 31.3 },
+          { name: 'Louisiana', tone: 'focus', label: 'LOUISIANA', labelLon: -92, labelLat: 30.3 },
           { name: 'Mississippi' }, { name: 'Arkansas' }, { name: 'Texas' },
         ],
         dots: [
-          { name: 'Port Hudson · May 22 – Jul 9, 1863', lat: 30.717, lon: -91.282, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Port Hudson', date: 'May 22 – Jul 9, 1863', lat: 30.717, lon: -91.282, heavy: true, anchor: 'start' },
           { name: 'Baton Rouge', lat: 30.458, lon: -91.14, color: '#8a8175', anchor: 'start' },
           { name: 'Red River confluence', lat: 31.008, lon: -91.642, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 

@@ -15,16 +15,17 @@ const CHICKAMAUGA_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -86.2, lonMax: -83.5, latMin: 33.1, latMax: 35.7 },
         states: [
-          { name: 'Georgia', tone: 'focus', label: 'GEORGIA', labelLon: -85.5, labelLat: 33.4 },
+          { name: 'Georgia', tone: 'focus', label: 'GEORGIA', labelLon: -83.9, labelLat: 34.9 },
           { name: 'Tennessee' }, { name: 'Alabama' }, { name: 'North Carolina' },
         ],
         dots: [
-          { name: 'Chickamauga · Sep 18–20, 1863', lat: 34.93, lon: -85.27, heavy: true, anchor: 'start' },
+          { name: 'Chickamauga', date: 'Sep 18–20, 1863', lat: 34.93, lon: -85.27, heavy: true, anchor: 'start' },
           { name: 'Chattanooga, TN', lat: 35.05, lon: -85.31, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'Tennessee River', lat: 35.05, lon: -85.18, color: '#8a8175', anchor: 'start' },
           { name: 'Atlanta, GA', lat: 33.75, lon: -84.39, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

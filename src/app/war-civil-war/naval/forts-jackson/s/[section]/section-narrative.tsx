@@ -15,14 +15,15 @@ export const FORTS_JACKSON_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -90.7, lonMax: -88.9, latMin: 28.9, latMax: 30.5 },
         states: [
-          { name: 'Louisiana', tone: 'focus', label: 'LOUISIANA', labelLon: -89.4, labelLat: 30.3 },
+          { name: 'Louisiana', tone: 'focus', label: 'LOUISIANA', labelLon: -90.4, labelLat: 29.3 },
           { name: 'Mississippi' }, { name: 'Alabama' }, { name: 'Texas' }, { name: 'Arkansas' },
         ],
         dots: [
-          { name: 'Forts Jackson & St. Philip · Apr 18–28, 1862', lat: 29.355, lon: -89.595, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Forts Jackson & St. Philip', date: 'Apr 18–28, 1862', lat: 29.355, lon: -89.595, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'New Orleans', lat: 29.951, lon: -90.071, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 

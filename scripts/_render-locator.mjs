@@ -6,6 +6,7 @@ import { readFileSync, writeFileSync, mkdirSync, globSync } from 'node:fs'
 import { US_STATE_OUTLINES } from '../src/lib/us-state-outlines.ts'
 
 const BG = '#22201e', FGc = '#ece6da', ACCENT = '#7c3aed'
+const THEATRE_ACCENT = { eastern: '#7c3aed', western: '#1d4ed8', naval: '#b44d3b', 'trans-mississippi': '#d97706' }
 const alpha = (hex, a) => { const h = hex.replace('#', ''); return `rgba(${parseInt(h.slice(0,2),16)},${parseInt(h.slice(2,4),16)},${parseInt(h.slice(4,6),16)},${a})` }
 const FG = (a) => alpha(FGc, a)
 const GRAY = FG(0.42), FAINT = FG(0.22), GRID = FG(0.06), water = alpha('#0ea5e9', 0.9)
@@ -23,6 +24,8 @@ const only = process.argv.slice(2).filter(a => !a.startsWith('-'))
 
 for (const file of FILES.sort()) {
   const slug = file.match(/war-civil-war\/[^/]+\/([^/]+)\//)[1]
+  const theatre = file.match(/war-civil-war\/([^/]+)\//)[1]
+  const accent = THEATRE_ACCENT[theatre] || ACCENT
   if (only.length && !only.includes(slug)) continue
   const locs = extractLocators(readFileSync(file, 'utf8'))
   if (!locs.length) continue
@@ -47,7 +50,7 @@ for (const file of FILES.sort()) {
   const stateD = (name) => (US_STATE_OUTLINES[name] || []).flatMap(poly => poly.map(ringD)).join(' ')
   const ordered = [...states].sort((a, b) => (a.tone === 'focus' ? 1 : 0) - (b.tone === 'focus' ? 1 : 0))
   for (const st of ordered) {
-    const stroke = st.tone === 'focus' ? alpha(ACCENT, 0.9) : st.tone === 'faint' ? FAINT : GRAY
+    const stroke = st.tone === 'focus' ? alpha(accent, 0.9) : st.tone === 'faint' ? FAINT : GRAY
     parts.push(`<path d="${stateD(st.name)}" fill="none" stroke="${stroke}" stroke-width="${st.tone === 'focus' ? 2 : 1.7}" stroke-dasharray="1.5 5.5" stroke-linecap="round" stroke-linejoin="round"/>`)
   }
   // rivers
@@ -63,21 +66,23 @@ for (const file of FILES.sort()) {
   }
   // state labels
   for (const st of states.filter(s => s.label)) {
-    const fill = st.tone === 'focus' ? alpha(ACCENT, 0.95) : FG(0.55)
+    const fill = st.tone === 'focus' ? alpha(accent, 0.95) : FG(0.55)
     parts.push(text(esc(st.label), X(st.labelLon), Y(st.labelLat), st.labelSize ?? 19, 'middle', fill, 5.5, 700, 1.8))
   }
   // dots
   for (const o of arrObjs(body, 'dots')) {
     const name = str(o, 'name'); const lat = num(o, 'lat'), lon = num(o, 'lon')
-    const col = (o.match(/color:\s*'([^']*)'/) || [])[1] || ACCENT
+    const col = (o.match(/color:\s*'([^']*)'/) || [])[1] || accent
     const anchor = str(o, 'anchor') ?? 'start'; const dx = num(o, 'dx'), dy = num(o, 'dy'); const heavy = has(o, 'heavy'); const date = str(o, 'date')
     const x = X(lon), y = Y(lat), r = heavy ? 6 : 4.5
     const tx = x + (anchor === 'end' ? -(dx ?? 11) : anchor === 'middle' ? (dx ?? 0) : (dx ?? 11))
     const ty = y + (dy ?? (date ? -2 : 5))
     parts.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r}" fill="${col}"/>`)
     parts.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r + 3.5}" fill="none" stroke="${alpha(col, 0.25)}" stroke-width="2"/>`)
-    if (name) parts.push(text(esc(name), tx, ty, heavy ? 17 : 14.5, anchor, FGc, 6, heavy ? 700 : 500))
-    if (date) parts.push(text(esc(date), tx, ty + 16, 12.5, anchor, alpha(col, 0.95), 5, 600))
+    if (name) {
+      const dtsp = date ? `<tspan dx="9" font-size="12.5" font-weight="600" fill="${alpha(col, 0.95)}">${esc(date)}</tspan>` : ''
+      parts.push(`<text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" font-family="Menlo, monospace" text-anchor="${anchor}" stroke="${BG}" stroke-width="6" stroke-linejoin="round" paint-order="stroke"><tspan font-size="${heavy ? 17 : 14.5}" font-weight="${heavy ? 700 : 500}" fill="${FGc}">${esc(name)}</tspan>${dtsp}</text>`)
+    }
   }
   parts.push('</svg>')
   writeFileSync(`/tmp/loc-svg/${slug}.svg`, parts.join('\n'))

@@ -15,15 +15,16 @@ const COLD_HARBOR_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.5, lonMax: -76.5, latMin: 37, latMax: 38.8 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77, labelLat: 38.6 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77, labelLat: 38.2 },
           { name: 'Maryland' }, { name: 'North Carolina' }, { name: 'West Virginia' }, { name: 'Pennsylvania' },
         ],
         dots: [
-          { name: 'Cold Harbor · May 31 – Jun 12, 1864', lat: 37.55, lon: -77.15, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Cold Harbor', date: 'May 31 – Jun 12, 1864', lat: 37.55, lon: -77.15, heavy: true, anchor: 'middle', dy: -30 },
           { name: 'Richmond', lat: 37.541, lon: -77.436, color: '#8a8175', anchor: 'end' },
           { name: 'Rapidan River', lat: 38.3, lon: -77.78, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 

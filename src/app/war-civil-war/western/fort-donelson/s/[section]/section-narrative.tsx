@@ -23,15 +23,16 @@ const FORT_DONELSON_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -88.6, lonMax: -85.7, latMin: 35.7, latMax: 37.5 },
         states: [
-          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -87.8, labelLat: 37.3 },
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -86.2, labelLat: 36.4 },
           { name: 'Kentucky' }, { name: 'Alabama' }, { name: 'Mississippi' }, { name: 'Illinois' },
         ],
         dots: [
-          { name: 'Fort Donelson · Feb 11–16, 1862', lat: 36.49, lon: -87.86, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Fort Donelson', date: 'Feb 11–16, 1862', lat: 36.49, lon: -87.86, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Nashville', lat: 36.17, lon: -86.78, color: '#8a8175', anchor: 'start' },
           { name: 'Bowling Green, KY', lat: 36.99, lon: -86.44, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

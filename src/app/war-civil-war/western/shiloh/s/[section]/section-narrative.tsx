@@ -23,15 +23,16 @@ const SHILOH_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -89.3, lonMax: -87.5, latMin: 34.4, latMax: 35.7 },
         states: [
-          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -88, labelLat: 34.6 },
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -89, labelLat: 35.5 },
           { name: 'Mississippi' }, { name: 'Alabama' }, { name: 'Kentucky' },
         ],
         dots: [
-          { name: 'Shiloh · Apr 6–7, 1862', lat: 35.14, lon: -88.34, heavy: true, anchor: 'start' },
+          { name: 'Shiloh', date: 'Apr 6–7, 1862', lat: 35.14, lon: -88.34, heavy: true, anchor: 'start' },
           { name: 'Savannah', lat: 35.217, lon: -88.247, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'Corinth', lat: 34.934, lon: -88.522, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

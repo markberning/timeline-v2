@@ -15,15 +15,16 @@ export const MALVERN_HILL_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.2, lonMax: -76.4, latMin: 36.8, latMax: 38 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77.7, labelLat: 36.9 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77.9, labelLat: 37 },
           { name: 'Maryland' }, { name: 'North Carolina' }, { name: 'West Virginia' }, { name: 'Pennsylvania' },
         ],
         dots: [
-          { name: 'Malvern Hill · Jul 1, 1862', lat: 37.36, lon: -77.19, heavy: true, anchor: 'start' },
+          { name: 'Malvern Hill', date: 'Jul 1, 1862', lat: 37.36, lon: -77.19, heavy: true, anchor: 'start' },
           { name: 'Harrison\'s Landing', lat: 37.3, lon: -77.07, color: '#8a8175', anchor: 'start' },
           { name: 'Richmond', lat: 37.54, lon: -77.44, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

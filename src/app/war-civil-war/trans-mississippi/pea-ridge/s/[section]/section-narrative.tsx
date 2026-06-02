@@ -15,15 +15,16 @@ const PEA_RIDGE_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -94.9, lonMax: -92.6, latMin: 35.5, latMax: 37.6 },
         states: [
-          { name: 'Arkansas', tone: 'focus', label: 'ARKANSAS', labelLon: -93.2, labelLat: 35.8 },
+          { name: 'Arkansas', tone: 'focus', label: 'ARKANSAS', labelLon: -93, labelLat: 35.9 },
           { name: 'Missouri' }, { name: 'Oklahoma' }, { name: 'Tennessee' }, { name: 'Mississippi' },
         ],
         dots: [
-          { name: 'Pea Ridge · Mar 7–8, 1862', lat: 36.45, lon: -94.03, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Pea Ridge', date: 'Mar 7–8, 1862', lat: 36.45, lon: -94.03, heavy: true, anchor: 'end' },
           { name: 'Fayetteville, AR', lat: 36.06, lon: -94.16, color: '#8a8175', anchor: 'end' },
           { name: 'Wilson\'s Creek', lat: 37.1, lon: -93.41, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 

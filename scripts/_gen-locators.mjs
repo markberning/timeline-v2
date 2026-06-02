@@ -5,6 +5,19 @@
 // by eye via _render-locator.mjs). Idempotent: skips files that already have a locator.
 // Run: node scripts/_gen-locators.mjs [--dry]
 import { readFileSync, writeFileSync, globSync } from 'node:fs'
+import { US_STATE_OUTLINES } from '../src/lib/us-state-outlines.ts'
+
+// ray-cast point-in-polygon over a state's outline rings
+function pointInState(lon, lat, stateName) {
+  let inside = false
+  for (const poly of US_STATE_OUTLINES[stateName] || []) for (const ring of poly) {
+    for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+      const xi = ring[i][0], yi = ring[i][1], xj = ring[j][0], yj = ring[j][1]
+      if (((yi > lat) !== (yj > lat)) && (lon < (xj - xi) * (lat - yi) / (yj - yi) + xi)) inside = !inside
+    }
+  }
+  return inside
+}
 
 const DRY = process.argv.includes('--dry')
 const data = JSON.parse(readFileSync('/tmp/estab-data.json', 'utf8'))
@@ -89,10 +102,10 @@ function labelBoxes(x, y, placement, name, date, heavy) {
   const ty = y + (placement.dy ?? (date ? -2 : 5))
   const span = (w) => placement.anchor === 'end' ? [tx - w, tx] : placement.anchor === 'middle' ? [tx - w / 2, tx + w / 2] : [tx, tx + w]
   const box = (l, r, cy, f) => ({ left: l - 2, right: r + 2, top: cy - 0.82 * f - 1, bottom: cy + 0.25 * f + 1 })
-  const [nl, nr] = span(name.length * charW(fs))
-  const boxes = [box(nl, nr, ty, fs)]
-  if (date) { const [dl, dr] = span(date.length * charW(12.5)); boxes.push(box(dl, dr, ty + 16, 12.5)) }
-  return boxes
+  let w = name.length * charW(fs)
+  if (date) w += 9 + date.length * charW(12.5) // date drawn inline on the same line
+  const [nl, nr] = span(w)
+  return [box(nl, nr, ty, fs)]
 }
 const overlapArea = (a, b) => Math.max(0, Math.min(a.right, b.right) - Math.max(a.left, b.left)) * Math.max(0, Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top))
 
@@ -141,16 +154,20 @@ function fmtDot(name, lat, lon, opts) {
   return `          { ${parts.join(', ')} },`
 }
 
-function stateLabelPos(frame, P, dots) {
-  // place the focus-state label in the emptiest corner band (inset), away from dots
-  const cand = [
-    { lon: frame.lonMin + (frame.lonMax - frame.lonMin) * 0.27, lat: frame.latMax - (frame.latMax - frame.latMin) * 0.12 },
-    { lon: frame.lonMax - (frame.lonMax - frame.lonMin) * 0.27, lat: frame.latMax - (frame.latMax - frame.latMin) * 0.12 },
-    { lon: frame.lonMin + (frame.lonMax - frame.lonMin) * 0.27, lat: frame.latMin + (frame.latMax - frame.latMin) * 0.12 },
-    { lon: frame.lonMax - (frame.lonMax - frame.lonMin) * 0.27, lat: frame.latMin + (frame.latMax - frame.latMin) * 0.12 },
-  ]
-  let best = cand[0], bestD = -1
-  for (const c of cand) {
+function stateLabelPos(frame, P, dots, focusState) {
+  // candidate grid across the frame, INSIDE the focus state (so the name sits on
+  // land, never in the sea/gulf); pick the one farthest from the dots.
+  const onLand = [], anywhere = []
+  for (let fx = 0.16; fx <= 0.84; fx += 0.085) for (let fy = 0.12; fy <= 0.88; fy += 0.1) {
+    const lon = frame.lonMin + (frame.lonMax - frame.lonMin) * fx
+    const lat = frame.latMax - (frame.latMax - frame.latMin) * fy
+    const c = { lon, lat }
+    anywhere.push(c)
+    if (pointInState(lon, lat, focusState)) onLand.push(c)
+  }
+  const pool = onLand.length ? onLand : anywhere
+  let best = pool[0], bestD = -1
+  for (const c of pool) {
     const cx = P.X(c.lon), cy = P.Y(c.lat)
     const d = Math.min(...dots.map(dt => Math.hypot(P.X(dt.lon) - cx, P.Y(dt.lat) - cy)))
     if (d > bestD) { bestD = d; best = c }
@@ -161,12 +178,12 @@ function stateLabelPos(frame, P, dots) {
 function buildBlock(b) {
   const refs = trimRefs(b.battle, b.refs)
   b = { ...b, refs }
-  // battle label = title + date on ONE line (drop a leading article for the map label)
-  const battleName = b.battle.name.replace(/^the\s+/i, '') + ' · ' + b.date
-  const dots = [{ ...b.battle, name: battleName, heavy: true }, ...b.refs]
+  // battle = title + date; the renderer draws the date inline (same line) in the
+  // theatre accent colour. Drop a leading article for the bare map label.
+  const dots = [{ ...b.battle, name: b.battle.name.replace(/^the\s+/i, ''), heavy: true, date: b.date }, ...b.refs]
   const frame = buildFrame(dots)
   const P = projector(frame)
-  const slPos = stateLabelPos(frame, P, dots)
+  const slPos = stateLabelPos(frame, P, dots, b.focusState)
   // state label box (middle-anchored, letter-spaced) as a placement obstacle
   const slFs = 19, slW = b.focusState.length * (charW(slFs) + 1.8), slx = P.X(slPos.lon), sly = P.Y(slPos.lat)
   const stateBox = [{ left: slx - slW / 2 - 2, right: slx + slW / 2 + 2, top: sly - 0.82 * slFs - 2, bottom: sly + 0.25 * slFs + 2 }]

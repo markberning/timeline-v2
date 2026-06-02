@@ -15,15 +15,16 @@ const SECOND_PETERSBURG_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.1, lonMax: -76.3, latMin: 36.7, latMax: 38 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.8, labelLat: 37.8 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.6, labelLat: 37.8 },
           { name: 'North Carolina' }, { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Tennessee' },
         ],
         dots: [
-          { name: 'Petersburg · Jun 15–18, 1864', lat: 37.228, lon: -77.401, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Petersburg', date: 'Jun 15–18, 1864', lat: 37.228, lon: -77.401, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'James River (Windmill Point)', lat: 37.313, lon: -77.021, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

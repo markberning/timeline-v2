@@ -15,16 +15,17 @@ const SECOND_BULL_RUN_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.9, lonMax: -75.8, latMin: 36.9, latMax: 39.6 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.6, labelLat: 37.2 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.3, labelLat: 37.4 },
           { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Pennsylvania' }, { name: 'North Carolina' },
         ],
         dots: [
-          { name: 'Second Bull Run · Aug 28–30, 1862', lat: 38.812, lon: -77.524, heavy: true, anchor: 'start' },
+          { name: 'Second Bull Run', date: 'Aug 28–30, 1862', lat: 38.812, lon: -77.524, heavy: true, anchor: 'end' },
           { name: 'Washington, D.C.', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'Rappahannock River', lat: 38.37, lon: -77.67, color: '#8a8175', anchor: 'end' },
           { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

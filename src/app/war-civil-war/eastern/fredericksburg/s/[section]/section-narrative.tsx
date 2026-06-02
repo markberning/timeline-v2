@@ -15,15 +15,16 @@ const FREDERICKSBURG_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.8, lonMax: -75.7, latMin: 36.9, latMax: 39.6 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78, labelLat: 39.3 },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.3, labelLat: 39.3 },
           { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' },
         ],
         dots: [
-          { name: 'Fredericksburg · Dec 11–15, 1862', lat: 38.301, lon: -77.461, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Fredericksburg', date: 'Dec 11–15, 1862', lat: 38.301, lon: -77.461, heavy: true, anchor: 'end' },
           { name: 'Washington, D.C.', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 
