@@ -5,7 +5,7 @@
 // theme sections (causes → how it was fought → what it became → the reckoning),
 // the war beyond the firing line. Reads the THEMES from the shared roster
 // (src/lib/civil-war-roster.ts) — the same sections placed on the home spine.
-// Palette: green (mockup ACCENTS.green). All 17 sections are built and live (the
+// Palette: green (mockup ACCENTS.otbf). All 17 sections are built and live (the
 // arc runs causes → hard war → turning point → total war → aftermath). No
 // Timeline/Dossier toggle (it's a subject list, not a two-view battle theatre) —
 // breadcrumb only, the timeline spine.
@@ -16,7 +16,7 @@ import { BattleCard, CordTimeline } from '@/components/mode/war-battle-card'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 import { THEMES } from '@/lib/civil-war-roster'
 
-const ACCENT = ACCENTS.green
+const ACCENT = ACCENTS.otbf
 
 const TYPE_LABEL: Record<string, string> = { CAUSE: 'Cause', POLITICS: 'Politics', SOCIETY: 'Society', AFTERMATH: 'Aftermath', BATTLE: 'Battle' }
 

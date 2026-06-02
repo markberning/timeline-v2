@@ -3,7 +3,7 @@
 // THEME section — The Emancipation Proclamation (Off the Battlefield, kind=theme).
 // NOTE: 'use client' is REQUIRED — this page reads ACCENTS (a value exported from
 // a 'use client' module); in a server component that import resolves to a client
-// reference and ACCENTS.green is undefined, so the accent silently falls back to
+// reference and ACCENTS.otbf is undefined, so the accent silently falls back to
 // violet. Any war page that passes an ACCENTS color must be a client component.
 // First non-battle section built through the war content pipeline (fact pack →
 // author(Opus) → fact-check + storytelling critic(Sonnet) → revise). A theme is
@@ -94,7 +94,7 @@ export default function EmancipationThemePage() {
       theatreId="offfield"
       battleId="th-emancipation"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/emancipation-hero-ls.jpg"
       heroPalette={['#3a342a', '#23201a', '#0a0806']}
       heroCredit={`"Watch Meeting — Dec. 31st 1862 — Waiting for the Hour" · after William Tolman Carlton, 1863 · Heard & Moseley carte-de-visite, Boston · Library of Congress (via Wikimedia Commons) · public domain`}

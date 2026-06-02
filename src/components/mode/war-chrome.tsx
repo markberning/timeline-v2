@@ -25,6 +25,7 @@ export const ACCENTS = {
   rust: '#b44d3b',   // Confederate, Day 3, Naval
   violet: '#7c3aed', // Industrial Wars / Civil War, Day 2, Eastern
   green: '#047857',  // Cold War & after
+  otbf: '#d96a26',   // Off the Battlefield — burnt orange (was reusing green)
 }
 export const CIVIL_WAR_ACCENT = ACCENTS.violet
 

@@ -114,7 +114,7 @@ export default function GuerrillaWarThemePage() {
       theatreId="offfield"
       battleId="th-atrocity"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/guerrilla-war-fort-pillow-massacre.jpg"
       heroPalette={["#2e211c","#1e1714","#0a0706"]}
       heroCredit={`Unsigned · wood engraving · 1864 · *Harper's Weekly* (Apr 30, 1864), via Wikimedia Commons · public domain`}

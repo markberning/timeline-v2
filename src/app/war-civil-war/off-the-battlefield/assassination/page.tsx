@@ -106,7 +106,7 @@ export default function AssassinationThemePage() {
       theatreId="offfield"
       battleId="th-assassination"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/assassination-fords-theatre.jpg"
       heroPalette={["#241c1c","#161112","#080606"]}
       heroCredit={`Currier & Ives · hand-colored lithograph · 1865 · Library of Congress, Prints & Photographs Division · public domain`}

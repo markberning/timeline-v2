@@ -108,7 +108,7 @@ export default function FreedomStruggleThemePage() {
       theatreId="offfield"
       battleId="th-freedomstruggle"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/freedom-struggle-hero-ls.jpg"
       heroPalette={['#3a322a', '#221d18', '#0a0806']}
       heroCredit={`sketched by Theodore R. Davis · wood engraving, *Harper's Weekly* · 1869 · Library of Congress, Prints & Photographs Division (via Wikimedia Commons) · public domain`}

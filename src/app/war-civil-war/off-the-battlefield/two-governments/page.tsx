@@ -159,7 +159,7 @@ export default function TwoGovernmentsThemePage() {
       theatreId="offfield"
       battleId="th-twogov"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/two-governments-hero.jpg"
       heroPalette={["#1a1208","#2a2418","#0a0806"]}
       heroCredit={`Currier & Ives · 1861 · Library of Congress Prints & Photographs · public domain`}

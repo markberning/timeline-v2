@@ -102,7 +102,7 @@ export default function IroncladsThemePage() {
       theatreId="offfield"
       battleId="th-ironclads"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/ironclads-hero-monitor-merrimac-combat.jpg"
       heroPalette={["#3a2c1e","#23201a","#0a0806"]}
       heroCredit={`Currier & Ives · hand-colored lithograph · 1862 · The Metropolitan Museum of Art (Commons) · public domain (CC0; published 1862, pre-1929)`}

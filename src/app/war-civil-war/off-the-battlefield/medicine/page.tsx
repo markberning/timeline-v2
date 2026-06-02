@@ -120,7 +120,7 @@ export default function MedicineThemePage() {
       theatreId="offfield"
       battleId="th-medicine"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/medicine-hero-field-hospital.jpg"
       heroPalette={["#2a2826","#1a1917","#080808"]}
       heroCredit={`James F. Gibson · albumen photograph (glass-negative) · 1862 · Library of Congress, Prints & Photographs Division · public domain`}

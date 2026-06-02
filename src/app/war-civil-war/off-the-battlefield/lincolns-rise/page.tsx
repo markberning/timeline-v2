@@ -111,7 +111,7 @@ export default function LincolnsRiseThemePage() {
       theatreId="offfield"
       battleId="th-lincoln1860"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/lincolns-rise-hero-cooper-union-brady.jpg"
       heroPalette={["#2b2218","#3a3026","#0c0a07"]}
       heroCredit={`Mathew B. Brady · February 27, 1860 · Library of Congress · public domain`}

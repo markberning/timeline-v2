@@ -124,7 +124,7 @@ export default function CottonDiplomacyThemePage() {
       theatreId="offfield"
       battleId="th-diplomacy"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/cotton-diplomacy-hero-trent-seizure.jpg"
       heroPalette={["#2a3438","#1c2426","#0a0c0d"]}
       heroCredit={`Popular Graphic Arts · hand-colored lithograph · pre-1931 · Library of Congress, Prints & Photographs Division (pga.08085) · public domain`}

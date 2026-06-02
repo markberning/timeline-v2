@@ -4,7 +4,7 @@
 // The causes-phase OPENER of the war: the economic root the whole conflict grows
 // from. NOTE: 'use client' is REQUIRED — this page reads ACCENTS (a value exported
 // from a 'use client' module); in a server component that import resolves to a
-// client reference and ACCENTS.green is undefined, so the accent silently falls
+// client reference and ACCENTS.otbf is undefined, so the accent silently falls
 // back to violet. Any war page that passes an ACCENTS color must be a client
 // component. Built through the war content pipeline (fact pack → author(Opus) →
 // fact-check + storytelling critic(Sonnet) → revise). Source + gate records:
@@ -105,7 +105,7 @@ export default function SlaveryCottonThemePage() {
       theatreId="offfield"
       battleId="th-slavery"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/slavery-cotton-hero.jpg"
       heroPalette={['#4a3d2c', '#2a2118', '#0a0705']}
       heroCredit="Eyre Crowe, “Slaves Waiting for Sale, Richmond, Virginia,” 1861 · public domain"

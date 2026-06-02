@@ -99,7 +99,7 @@ export default function HomeFrontThemePage() {
       theatreId="offfield"
       battleId="th-homefront"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/home-front-hero-asylum-burning.jpg"
       heroPalette={["#2c2a26","#1c1a17","#0a0908"]}
       heroCredit={`Harper's Weekly · wood engraving · 1863 · Library of Congress Prints &`}

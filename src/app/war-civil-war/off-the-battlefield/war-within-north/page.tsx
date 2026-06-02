@@ -120,7 +120,7 @@ export default function WarWithinNorthThemePage() {
       theatreId="offfield"
       battleId="th-northwithin"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/war-within-north-true-issue.jpg"
       heroPalette={["#22272e","#161a1f","#080a0c"]}
       heroCredit={`Currier & Ives · hand-colored lithograph · 1864 · Library of Congress, Prints & Photographs Division · public domain`}

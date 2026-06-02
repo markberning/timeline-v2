@@ -113,7 +113,7 @@ export default function PrisonsThemePage() {
       theatreId="offfield"
       battleId="th-prisons"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/prisons-hero-issuing-rations.jpg"
       heroPalette={["#2c2a1e","#1c1a14","#0a0806"]}
       heroCredit={`A.J. Riddle · albumen photograph · 1864 · Library of Congress, Prints & Photographs Division (via Wikimedia Commons) · public domain`}

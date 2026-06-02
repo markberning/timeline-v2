@@ -130,7 +130,7 @@ export default function ReckoningThemePage() {
       theatreId="offfield"
       battleId="th-reckoning"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/reckoning-hero-richmond-ruins.jpg"
       heroPalette={["#2a2724","#1a1816","#080808"]}
       heroCredit={`unattributed (LOC Civil War collection) · albumen photograph (glass negative) · 1865 · Library of Congress, Prints & Photographs Division · public domain`}

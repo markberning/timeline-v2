@@ -141,7 +141,7 @@ export default function RoadToWarThemePage() {
       theatreId="offfield"
       battleId="th-road"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/road-to-war-hero-reynolds-map.jpg"
       heroPalette={["#5b3a1c","#2c3a24","#0f0c06"]}
       heroCredit={`William C. Reynolds & J. C. Jones · 1856 · Library of Congress Geography & Map Division · public domain`}

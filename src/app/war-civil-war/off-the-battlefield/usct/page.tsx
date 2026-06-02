@@ -129,7 +129,7 @@ export default function UsctThemePage() {
       theatreId="offfield"
       battleId="th-usct"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/usct-hero-soldier-family.jpg"
       heroPalette={["#2e2616","#1e1a12","#0a0806"]}
       heroCredit={`Unidentified photographer · quarter-plate ambrotype, hand-colored · between 1863 and 1865 · Library of Congress, Liljenquist Family Collection (LC-DIG-ppmsca-36454) · public domain (no known restrictions; created 1863–65)`}

@@ -347,7 +347,7 @@ function build(cfg) {
   const dir = cfg.dir || 'off-the-battlefield'
   const theatreId = cfg.theatreId || 'offfield'
   const theatreHref = cfg.theatreHref || `/war-civil-war/${dir}`
-  const accentExpr = cfg.accentExpr || 'ACCENTS.green'
+  const accentExpr = cfg.accentExpr || 'ACCENTS.otbf'
   const endHref = cfg.endHref || theatreHref
   const page = `'use client'
 

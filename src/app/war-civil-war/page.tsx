@@ -160,7 +160,7 @@ const OTBF_PHASES: [string, string][] = [
 function OffFieldTab() {
   return (
     <div className="p-page">
-      <a className="p-storycard" href="/war-civil-war/off-the-battlefield">
+      <a className="p-storycard otbf" href="/war-civil-war/off-the-battlefield">
         <div className="row">
           <span className="chip"><span className="sq" /><span className="p-label">Off the battlefield</span></span>
           <span className="p-label">17 chapters</span>

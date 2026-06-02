@@ -100,7 +100,7 @@ export default function NewWayOfWarThemePage() {
       theatreId="offfield"
       battleId="th-tech"
       theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      accent={ACCENTS.otbf}
       heroImage="/war-img/new-way-of-war-hero-railroad-bridge.jpg"
       heroPalette={["#4a3a26","#2c2418","#0d0a06"]}
       heroCredit={`Andrew J. Russell · albumen print photograph · 1864 · Wikimedia Commons (U.S. National Archives) · public domain`}
