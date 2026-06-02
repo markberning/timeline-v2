@@ -153,8 +153,8 @@
 .war-skin .p-bt .bh { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
 .war-skin .p-bt .bh b { font: 600 15.5px/1.18 var(--serif); color: var(--ink); }
 .war-skin .p-bt .bh .th { font: 500 9.5px/1 var(--mono); color: var(--muted); flex: 0 0 auto; text-transform: uppercase; letter-spacing: .04em; }
-.war-skin .p-bt .place { font: 400 10.5px/1.3 var(--mono); color: var(--muted); margin-top: 3px; }
-.war-skin .p-bt .note { font: 400 12.5px/1.4 var(--sans); color: var(--ink-soft); margin-top: 5px; }
+.war-skin .p-bt .place { display: block; font: 400 10.5px/1.3 var(--mono); color: var(--muted); margin-top: 3px; }
+.war-skin .p-bt .note { display: block; font: 400 12.5px/1.4 var(--sans); color: var(--ink-soft); margin-top: 5px; }
 .war-skin .p-bt mark { background: transparent; color: var(--confed); font-weight: 700; }
 .war-skin .p-empty { text-align: center; color: var(--muted); font: 400 13px/1.5 var(--sans); padding: 30px 0; }
 
