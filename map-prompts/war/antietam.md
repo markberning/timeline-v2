@@ -23,19 +23,19 @@ copied from `wilsons-creek.md` rule 4, 2026-06-01).
 
 September 1862 — Lee's first invasion of the North, the Maryland Campaign. A wide operational march map (not a battlefield close-up).
 
-Terrain, left (west) to right (east):
-- A light-blue river runs along the BOTTOM of the map from the lower-left, bending southeast and off the lower-right edge, labeled "Potomac" — the border the armies cross.
-- A small gray town marker labeled "Harpers Ferry" sits ON the river in the lower-left, where it bends.
-- A pale-tan mountain ridge runs vertically (north–south) down the CENTER of the map, labeled "South Mountain" — the long barrier between the two armies.
-- A small gray town marker labeled "Frederick" sits to the RIGHT (east) of the ridge, in open ground.
-- A small gray town marker labeled "Sharpsburg" sits to the LEFT (west) of the ridge, near the top-center, close to the Potomac.
+Terrain:
+- A light-blue river runs across the LOWER HALF of the map, entering from the left edge and bending southeast off the lower-right edge, labeled "Potomac". The land BELOW the river (south) is Virginia; the land ABOVE it (north) is Maryland.
+- A small gray town marker labeled "Harpers Ferry" sits ON the river toward the lower-left, where it bends.
+- A pale-tan mountain ridge runs vertically (north–south) down the CENTER-LEFT, labeled "South Mountain".
+- A small gray town marker labeled "Frederick" sits to the RIGHT (east) of the ridge, north of the river, in open ground.
+- A small gray town marker labeled "Sharpsburg" near the TOP-CENTER, west of South Mountain, close to the river.
 
-Movements:
-- One bold rust-red arrow, labeled "Lee", crosses the Potomac from the lower-right, curves up to Frederick, then bends WEST across South Mountain to Sharpsburg — the main Confederate march.
-- A shorter rust-red branch splits off that arrow near Frederick and curves down to the southwest to Harpers Ferry (leave this branch unlabeled).
-- One bold BLUE arrow (no label) follows from the lower-right behind Lee, through Frederick, and pushes WEST against South Mountain — McClellan's pursuit forcing the passes.
+Movements (three arrows, each clearly labeled):
+- "Lee": one bold rust-red arrow that BEGINS in the lower-right BELOW the Potomac (the Virginia side), CROSSES the river heading north to Frederick, then bends WEST across South Mountain to Sharpsburg. The river crossing must be clearly visible — the arrow starts south of the blue river and passes over it.
+- "Jackson": a second bold rust-red arrow that branches off near Frederick, heads southwest, RECROSSES the Potomac, and ends at Harpers Ferry.
+- "McClellan": one bold BLUE arrow that follows from the lower-right (southeast), behind Lee, up to Frederick and then pushes WEST against South Mountain.
 
-Six labels only: Potomac, Harpers Ferry, South Mountain, Frederick, Sharpsburg, Lee. Nothing else.
+This operational map carries EIGHT labels (more than the usual six is allowed here) — keep each one BIG, bold, and spread over open pale ground: Potomac, Harpers Ferry, South Mountain, Frederick, Sharpsburg, Lee, Jackson, McClellan. Nothing else.
 
 ## Map antietam-cornfield
 
