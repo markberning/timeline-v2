@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "parse": "tsx scripts/parse-narratives.ts && tsx scripts/build-war-search.ts",
-    "parse:index": "tsx scripts/parse-narratives.ts --search-index-only && tsx scripts/build-war-search.ts",
+    "parse": "tsx scripts/parse-narratives.ts && tsx scripts/build-content-search.ts",
+    "parse:index": "tsx scripts/parse-narratives.ts --search-index-only && tsx scripts/build-content-search.ts",
     "gate": "tsx scripts/lint-links.ts --strict --no-slugs && tsx scripts/lint-density.ts --strict",
     "prebuild": "npm run gate && npm run parse",
     "dev": "next dev",

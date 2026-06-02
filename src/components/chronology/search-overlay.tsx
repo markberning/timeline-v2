@@ -229,7 +229,7 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
 
         {results.map(result => {
           const color = result.color ?? REGION_COLORS[result.region] ?? '#6b7280'
-          const isWar = result.type === 'war'
+          const typed = !!result.type // war/art: sections aren't numbered "chapters"
           return (
             <div key={result.tlId} className="mb-5">
               {/* Source header */}
@@ -246,9 +246,11 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
               {/* Chapter / section results */}
               {result.chapters.map(ch => (
                 <div key={ch.number} className="ml-4 mb-3">
-                  <div className="text-[11px] font-bold uppercase tracking-wider text-foreground/40 mb-1">
-                    {isWar ? ch.title : `Ch ${ch.number} · ${ch.title}`}
-                  </div>
+                  {(typed ? ch.title : true) && (
+                    <div className="text-[11px] font-bold uppercase tracking-wider text-foreground/40 mb-1">
+                      {typed ? ch.title : `Ch ${ch.number} · ${ch.title}`}
+                    </div>
+                  )}
                   {ch.matches.map((sentence, i) => (
                     <button
                       key={i}

@@ -1,16 +1,19 @@
-// Merge WAR prose into the corpus search index.
+// Merge WAR + ART prose into the corpus search index.
 //
-// War content (46 battle narratives + the Off-the-Battlefield themes + the
-// How-the-War-Was-Fought chapters) is NOT markdown — it's hand-authored TSX
-// `NARR` Records rendered by <BattleSectionReader>. The civ search index is
-// built by parse-narratives.ts from content/*.json; this script runs AFTER it,
-// AST-parses every war file that imports BattleSectionReader, extracts the
-// prose, and appends `type:'war'` entries to public/search-index.json.
+// War content (46 battle narratives + Off-the-Battlefield themes + How-the-War-
+// Was-Fought chapters) is hand-authored TSX `NARR` Records rendered by
+// <BattleSectionReader>; art content is structured data in src/lib/art-content.ts.
+// Neither runs through the civ markdown pipeline, so neither was searchable. The
+// civ index is built by parse-narratives.ts from content/*.json; this script runs
+// AFTER it and appends:
+//   • type:'war' — AST-parsed from every file importing BattleSectionReader
+//   • type:'art' — imported from the ART_*_CONTENT registries, prose harvested
+// to public/search-index.json.
 //
-// Idempotent: it strips any prior non-civ entries before appending, so it can
-// run repeatedly (it's chained after every `npm run parse`).
+// Idempotent: strips any prior non-civ entries before appending, so it can run
+// repeatedly (chained after every `npm run parse`). Music has no real content yet.
 //
-// See audits/war-pilot-civil-war.md (reader-engine note) for why war lives
+// See audits/war-pilot-civil-war.md (reader-engine note) for why war/art live
 // outside the civ pipeline.
 
 import { readFileSync, writeFileSync, existsSync, readdirSync, statSync } from 'node:fs'
@@ -35,8 +38,17 @@ const GROUPS: Record<string, { color: string; sectioned: boolean; label: string 
 // Prose-bearing keys inside a section / block / meanwhile object.
 const PROSE_KEYS = new Set(['p', 'h', 'cap', 'body'])
 
+// Prose-bearing keys anywhere in the ART content objects (everything else —
+// ids, colours, coords, image urls, years, prices — is skipped).
+const ART_ACCENT = '#7c3aed'
+const ART_PROSE_KEYS = new Set([
+  'hook', 'hookLong', 'blurb', 'note', 'detail', 'summary', 'intro', 'body', 'prose',
+  'quotes', 'motto', 'eyebrow', 'title', 'influenceSummary', 'where', 'label', 'caption',
+  'cap', 'author', 'dateLabel', 'name', 'artist', 'shortName', 'medium', 'location', 'role',
+])
+
 interface Chapter { number: number; title: string; sentences: string[]; sectionId?: string }
-interface Entry { tlId: string; label: string; region: string; color: string; type: 'war'; theatre: string; href: string; chapters: Chapter[] }
+interface Entry { tlId: string; label: string; region: string; color: string; type: 'war' | 'art'; theatre: string; href: string; chapters: Chapter[] }
 
 function walkFiles(dir: string, out: string[] = []): string[] {
   for (const name of readdirSync(dir)) {
@@ -145,7 +157,43 @@ function extractSections(narr: ts.ObjectLiteralExpression): { id: string; title:
   return sections
 }
 
-function main() {
+// Recursively pull prose strings out of an ART content object: collect any
+// string whose immediate key is in ART_PROSE_KEYS; recurse through everything
+// else (objects + arrays) so nested sections/manifesto/whatChanged/lineage are
+// reached. Arrays inherit their parent key so `prose: [...]`/`quotes: [...]`
+// string members are collected.
+function harvestArt(node: unknown, keyHint: string, out: string[]): void {
+  if (typeof node === 'string') { if (ART_PROSE_KEYS.has(keyHint)) out.push(node); return }
+  if (Array.isArray(node)) { for (const el of node) harvestArt(el, keyHint, out); return }
+  if (node && typeof node === 'object') { for (const [k, v] of Object.entries(node)) harvestArt(v, k, out); return }
+}
+
+async function artEntries(): Promise<Entry[]> {
+  const { ART_ERA_CONTENT, ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT } =
+    await import('../src/lib/art-content.ts')
+  const out: Entry[] = []
+  const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
+
+  const push = (obj: any, href: string, theatre: string, chapterTitle: string) => {
+    const strings: string[] = []
+    harvestArt(obj, '', strings)
+    const sentences = strings.flatMap(toSentences)
+    if (!sentences.length) return
+    out.push({
+      tlId: `art-${href.replace(/\//g, '-').replace(/^-/, '')}`,
+      label: obj.name ?? obj.id, region: 'art', color: ART_ACCENT, type: 'art',
+      theatre, href, chapters: [{ number: 1, title: chapterTitle, sentences }],
+    })
+  }
+
+  for (const e of Object.values(ART_ERA_CONTENT) as any[]) push(e, `/art/${e.id}`, 'Western Art · Era', e.range ?? '')
+  for (const m of Object.values(ART_MOVEMENT_CONTENT) as any[]) push(m, `/art/${m.eraId}/${m.id}`, 'Western Art · Movement', m.range ?? '')
+  for (const w of Object.values(ART_WORK_CONTENT) as any[]) push(w, `/art/${w.eraId}/${w.movementId}/${w.id}`, `Western Art · ${cap(w.movement ?? 'Work')}`, [w.artist, w.year].filter(Boolean).join(' · '))
+  for (const a of Object.values(ART_ARTIST_CONTENT) as any[]) push(a, `/art/artist/${a.id}`, 'Western Art · Artist', a.years ?? '')
+  return out
+}
+
+async function main() {
   const files = walkFiles(WAR_ROOT).filter(f => readFileSync(f, 'utf-8').includes('import { BattleSectionReader'))
   const entries: Entry[] = []
 
@@ -175,14 +223,16 @@ function main() {
     entries.push({ tlId: `war-${group}-${slug}`, label, region: group, color: meta.color, type: 'war', theatre: meta.label, href: base, chapters })
   }
 
-  // Merge: keep civ entries (no `type`), drop any prior war/art, append fresh war.
+  const art = await artEntries()
+
+  // Merge: keep civ entries (no `type`), drop any prior war/art, append fresh.
   const existing: any[] = existsSync(INDEX_PATH) ? JSON.parse(readFileSync(INDEX_PATH, 'utf-8')) : []
   const civ = existing.filter(e => !e.type)
-  const merged = [...civ, ...entries]
+  const merged = [...civ, ...entries, ...art]
   writeFileSync(INDEX_PATH, JSON.stringify(merged))
-  const sentences = entries.reduce((n, e) => n + e.chapters.reduce((m, c) => m + c.sentences.length, 0), 0)
+  const count = (arr: Entry[]) => arr.reduce((n, e) => n + e.chapters.reduce((m, c) => m + c.sentences.length, 0), 0)
   const sizeMB = (Buffer.byteLength(JSON.stringify(merged)) / 1024 / 1024).toFixed(1)
-  console.log(`[war-search] +${entries.length} war entries (${sentences} sentences) → ${INDEX_PATH} (${civ.length} civ + ${entries.length} war, ${sizeMB} MB)`)
+  console.log(`[content-search] +${entries.length} war (${count(entries)} sent.) +${art.length} art (${count(art)} sent.) → ${INDEX_PATH} (${civ.length} civ + ${entries.length} war + ${art.length} art, ${sizeMB} MB)`)
 }
 
 main()
