@@ -12,10 +12,6 @@ import { useEffect, useRef, useState } from 'react'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 
-// concrete theatre hexes for the breadcrumb's accent math (alpha()); the bp-*
-// styling reads the CSS-var theatre colors instead.
-const TH_HEX: Record<Theatre, string> = { east: '#c79cd0', west: '#84c089', tmis: '#d8b25a', naval: '#5fb0cc' }
-
 // ---- inline icons (shared with the war home) ----
 const I = {
   back: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6" /></svg>,
@@ -134,7 +130,7 @@ export function BattleDossier({ data }: { data: BattleData }) {
 
       {/* where-am-I trail — kept as the existing dual-action breadcrumb
           (each crumb links, and tapping opens the theatre/battle jump dropdown) */}
-      <WarBreadcrumb crumbs={data.crumbs} accent={TH_HEX[data.theatre]} bare />
+      <WarBreadcrumb crumbs={data.crumbs} accent={accent} bare />
 
       {/* editorial masthead */}
       <div className="bp-mast">
