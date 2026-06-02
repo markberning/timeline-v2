@@ -44,8 +44,7 @@ type Theatre = {
 // Eastern theatre — every Major battle as a leader-line callout, co-located
 // engagements grouped under one dot (Petersburg hosts four; the Spotsylvania
 // knot three). Labels fan left over the Appalachians and right onto an Atlantic
-// rail; built battles link, the four unbuilt (Five Forks, Fort Stedman, 3rd
-// Petersburg, Appomattox) are plain text.
+// rail. Every battle is built, so every callout links to its dossier.
 const E = '/war-civil-war/eastern'
 // Geo frame is tight on the states (so they fill the map); the labels live in
 // fixed screen-space side gutters (labelXFrac/labelYFrac), and geoInset reserves
@@ -63,7 +62,7 @@ const EAST_CALLOUTS: Callout[] = [
     sub: [{ text: '1st Winchester', href: `${E}/first-winchester` }, { text: 'Opequon (3rd)', href: `${E}/opequon` }, { text: 'Cedar Creek', href: `${E}/cedar-creek` }] },
   { lat: 38.81, lon: -77.52, label: 'Bull Run', labelXFrac: LX, labelYFrac: 0.55, anchor: 'end',
     sub: [{ text: '1st Bull Run', href: `${E}/bull-run` }, { text: '2nd Bull Run', href: `${E}/second-bull-run` }] },
-  { lat: 37.36, lon: -78.80, label: 'Appomattox', labelXFrac: LX, labelYFrac: 0.84, anchor: 'end' },
+  { lat: 37.36, lon: -78.80, label: 'Appomattox', href: `${E}/appomattox`, labelXFrac: LX, labelYFrac: 0.84, anchor: 'end' },
   // right column
   { lat: 38.31, lon: -77.64, label: 'Chancellorsville', href: `${E}/chancellorsville`, labelXFrac: 0.80, labelYFrac: 0.06, anchor: 'middle',
     sub: [{ text: 'The Wilderness', href: `${E}/wilderness` }, { text: 'Spotsylvania', href: `${E}/spotsylvania` }] },
@@ -71,14 +70,14 @@ const EAST_CALLOUTS: Callout[] = [
   { lat: 37.55, lon: -77.30, label: "Gaines' Mill", href: `${E}/gaines-mill`, labelXFrac: 0.74, labelYFrac: 0.72, anchor: 'start',
     sub: [{ text: 'Malvern Hill', href: `${E}/malvern-hill` }, { text: 'Cold Harbor', href: `${E}/cold-harbor` }] },
   // bottom-center
-  { lat: 37.23, lon: -77.40, label: 'Petersburg', href: `${E}/second-petersburg`, heavy: true, labelXFrac: 0.5, labelYFrac: 0.80, anchor: 'middle',
-    sub: [{ text: 'The Crater', href: `${E}/crater` }, { text: 'Five Forks' }, { text: 'Fort Stedman · 3rd' }] },
+  { lat: 37.23, lon: -77.40, label: 'Petersburg', href: `${E}/second-petersburg`, heavy: true, labelXFrac: 0.5, labelYFrac: 0.69, anchor: 'middle',
+    sub: [{ text: 'The Crater', href: `${E}/crater` }, { text: 'Five Forks', href: `${E}/five-forks` }, { text: 'Fort Stedman', href: `${E}/fort-stedman` }, { text: '3rd Petersburg', href: `${E}/third-petersburg` }] },
 ]
 
 // Western theatre — the river war + the drive to Atlanta and the sea. Chattanooga
 // groups its campaign (Chickamauga, Lookout Mountain, Missionary Ridge); Vicksburg
 // carries Champion Hill, Nashville carries Franklin. Bentonville (NC) and Fort
-// Blakeley (AL) are the unbuilt 1865 endgame.
+// Blakeley (AL) close the 1865 endgame.
 const W2 = '/war-civil-war/western'
 const WEST_FRAME: Frame = { lonMin: -91.5, lonMax: -77.5, latMin: 30.0, latMax: 38.2 }
 const WEST_CALLOUTS: Callout[] = [
@@ -98,9 +97,9 @@ const WEST_CALLOUTS: Callout[] = [
   { lat: 35.02, lon: -85.30, label: 'Chattanooga', labelXFrac: RX, labelYFrac: 0.50, anchor: 'start',
     sub: [{ text: 'Chickamauga', href: `${W2}/chickamauga` }, { text: 'Lookout Mountain', href: `${W2}/lookout-mountain` }, { text: 'Missionary Ridge', href: `${W2}/missionary-ridge` }] },
   { lat: 33.52, lon: -84.35, label: 'Jonesborough', href: `${W2}/jonesborough`, labelXFrac: RX, labelYFrac: 0.84, anchor: 'start' },
-  // far-east + deep-south endgame (unbuilt)
-  { lat: 35.30, lon: -78.32, label: 'Bentonville', labelXFrac: 0.92, labelYFrac: 0.44, anchor: 'end' },
-  { lat: 30.73, lon: -87.92, label: 'Fort Blakeley', labelXFrac: 0.42, labelYFrac: 0.92, anchor: 'middle' },
+  // far-east + deep-south endgame
+  { lat: 35.30, lon: -78.32, label: 'Bentonville', href: `${W2}/bentonville`, labelXFrac: 0.92, labelYFrac: 0.44, anchor: 'end' },
+  { lat: 30.73, lon: -87.92, label: 'Fort Blakeley', href: `${W2}/fort-blakeley`, labelXFrac: 0.42, labelYFrac: 0.92, anchor: 'middle' },
 ]
 
 // Trans-Mississippi — the vast war west of the river, from the Missouri border
@@ -108,7 +107,7 @@ const WEST_CALLOUTS: Callout[] = [
 const T2 = '/war-civil-war/trans-mississippi'
 const TMIS_FRAME: Frame = { lonMin: -107, lonMax: -87, latMin: 29.0, latMax: 40.0 }
 const TMIS_CALLOUTS: Callout[] = [
-  { lat: 39.01, lon: -94.59, label: 'Westport', labelXFrac: 0.50, labelYFrac: 0.07, anchor: 'middle' },
+  { lat: 39.01, lon: -94.59, label: 'Westport', href: `${T2}/westport`, labelXFrac: 0.50, labelYFrac: 0.07, anchor: 'middle' },
   { lat: 36.38, lon: -89.46, label: 'Island No. Ten', href: `${T2}/island-number-ten`, labelXFrac: 0.80, labelYFrac: 0.62, anchor: 'middle' },
   { lat: 37.10, lon: -93.41, label: "Wilson's Creek", href: `${T2}/wilsons-creek`, labelXFrac: 0.55, labelYFrac: 0.30, anchor: 'end' },
   { lat: 36.45, lon: -94.03, label: 'Pea Ridge', href: `${T2}/pea-ridge`, labelXFrac: 0.55, labelYFrac: 0.50, anchor: 'end' },
@@ -122,7 +121,7 @@ const TMIS_CALLOUTS: Callout[] = [
 const N2 = '/war-civil-war/naval'
 const NAVAL_FRAME: Frame = { lonMin: -91, lonMax: -76, latMin: 28.2, latMax: 35.4 }
 const NAVAL_CALLOUTS: Callout[] = [
-  { lat: 33.97, lon: -77.92, label: 'Fort Fisher', labelXFrac: 0.82, labelYFrac: 0.14, anchor: 'middle' },
+  { lat: 33.97, lon: -77.92, label: 'Fort Fisher', href: `${N2}/second-fort-fisher`, labelXFrac: 0.82, labelYFrac: 0.14, anchor: 'middle' },
   { lat: 32.75, lon: -79.87, label: 'Fort Sumter', href: `${N2}/fort-sumter`, heavy: true, labelXFrac: 0.74, labelYFrac: 0.46, anchor: 'start' },
   { lat: 30.23, lon: -88.02, label: 'Mobile Bay', href: `${N2}/mobile-bay`, labelXFrac: 0.34, labelYFrac: 0.86, anchor: 'middle' },
   { lat: 29.35, lon: -89.46, label: 'Forts Jackson & St. Philip', href: `${N2}/forts-jackson`, labelXFrac: 0.10, labelYFrac: 0.93, anchor: 'start' },

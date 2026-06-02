@@ -74,6 +74,7 @@ export interface Crumb {
   options?: CrumbOption[] // when present, the crumb is an interactive dropdown (theatre switch / battle jump)
   active?: boolean // dropdown crumb that is the current page's leaf — gets accent emphasis (else gray)
   currentLabel?: string // option label to check (✓) when the button shows a SHORT label (e.g. button "ACW", current option "American Civil War")
+  scopeToggle?: { scopedLabel: string; allOptions: CrumbOption[] } // when set, the menu carries a [scopedLabel | All] toggle: `options` is the scoped (this-theatre) list, `allOptions` is every battle. Defaults to scoped.
   color?: string // fixed pill colour overriding the page accent (e.g. the ACW war crumb's oxblood signature)
   accentBar?: string // thread accent: render as a square rectangle with a colored left bar (the mode crumb)
   icon?: string // small leading emblem (e.g. /thread-icons/{kind}.webp)
@@ -212,6 +213,9 @@ export function WarViewToggle({ view, onView }: { view: View; onView: (v: View) 
 const MENU_W = 252
 function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel = 168 }: { crumb: Crumb; chip: string; faint: string; muted: string; accent: string; emphasized: boolean; maxLabel?: number }) {
   const [open, setOpen] = useState(false)
+  // Battle/Event crumb only: a [this-theatre | All] scope toggle. Defaults to the
+  // scoped (current-theatre) list; "All" swaps in every theatre's battles.
+  const [scope, setScope] = useState<'scoped' | 'all'>('scoped')
   const [pos, setPos] = useState<{ left: number; top: number }>({ left: 0, top: 0 })
   const wrapRef = useRef<HTMLSpanElement>(null)
   const menuRef = useRef<HTMLDivElement>(null)
@@ -292,7 +296,19 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
             background: 'var(--background)', border, borderRadius: 10,
             boxShadow: '0 10px 28px rgba(0,0,0,0.20)', padding: 5,
           }}>
-            {crumb.options!.map((o, oi) => {
+            {crumb.scopeToggle && (
+              <div style={{ position: 'sticky', top: 0, zIndex: 1, margin: '-5px -5px 5px', padding: '6px 6px 7px', background: 'var(--background)', borderBottom: border }}>
+                <div style={{ display: 'flex', gap: 3, padding: 3, background: chip, borderRadius: 999, border: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)' }}>
+                  {([['scoped', crumb.scopeToggle.scopedLabel], ['all', 'All battles']] as const).map(([k, lbl]) => {
+                    const on = scope === k
+                    return (
+                      <button key={k} onClick={() => setScope(k)} style={{ flex: 1, appearance: 'none', border: 'none', cursor: 'pointer', background: on ? 'color-mix(in srgb, var(--foreground) 12%, var(--background))' : 'transparent', color: on ? 'var(--foreground)' : muted, fontFamily: SANS, fontSize: 11, fontWeight: on ? 700 : 500, padding: '5px 8px', borderRadius: 999, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{lbl}</button>
+                    )
+                  })}
+                </div>
+              </div>
+            )}
+            {(crumb.scopeToggle && scope === 'all' ? crumb.scopeToggle.allOptions : crumb.options!).map((o, oi) => {
               const dot = o.color ? <span style={{ flexShrink: 0, width: 7, height: 7, borderRadius: 999, background: o.color }} /> : null
               if (o.heading) return (
                 <div key={`h${oi}`} style={{ display: 'flex', alignItems: 'center', gap: 7, padding: '9px 10px 4px', marginTop: oi === 0 ? 0 : 4, borderTop: oi === 0 ? 'none' : border, fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 0.8, textTransform: 'uppercase', color: o.color || faint }}>

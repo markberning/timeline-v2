@@ -96,6 +96,20 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
     ...(!theatre || theatre === 'offfield' ? THEMES.map(t => ({ _k: t.year * 100 + t.m, label: t.name, href: t.href, disabled: !t.href, color: THEATRE_DOT.offfield, date: t.href ? t.date : undefined })) : []),
   ].sort((a, b) => a._k - b._k).map(({ _k, ...o }) => o)
 
+  // The "All battles" scope for the battle-jump toggle: every theatre's Major
+  // battles, grouped under a theatre heading (chronological within each), so from
+  // inside one theatre you can still reach any battle in another.
+  const GEO_ORDER: Theatre[] = ['east', 'west', 'tmis', 'naval']
+  const GEO_HEAD: Record<string, string> = { east: 'Eastern', west: 'Western', tmis: 'Trans-Mississippi', naval: 'Naval & Coastal' }
+  const jumpAll: CrumbOption[] = GEO_ORDER.flatMap(th => [
+    { label: GEO_HEAD[th], heading: true, color: THEATRE_DOT[th] } as CrumbOption,
+    ...MAJORS.filter(b => b.theatre === th).sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))
+      .map(b => ({ label: b.name, href: b.href, disabled: !b.href, color: THEATRE_DOT[b.theatre], date: b.href ? `${b.mo} ${b.year}` : undefined })),
+  ])
+  // The toggle only makes sense on a geographic theatre (where "scoped" ≠ "all");
+  // not on Off-the-Battlefield (themes) or the Military Story (chapters).
+  const geoTheatre = !!theatre && theatre !== 'offfield' && theatre !== 'howfought'
+
   // On the military pillar, the leaf jump is the 5 chapters (their own short
   // chronological list), not the 60-item battle+theme list.
   const chapterJump: CrumbOption[] = CHAPTERS.map(c => ({ label: c.name, href: c.href, disabled: !c.href, color: THEATRE_DOT.howfought, date: c.href ? c.date : undefined }))
@@ -127,7 +141,8 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
     // it to a plain dropdown and drop the dual-action affordance.
     { label: 'ACW', short: 'ACW', color: onAcwHome ? WAR_ACCENT : undefined, href: '/war-civil-war', options: warOptions, currentLabel: 'American Civil War' },
     { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, href: theatre ? firstHref(theatre) : undefined, options: theatreOptions, active: !!theatre && !battleId },
-    { label: battleLabel, currentLabel: battleFull, options: theatre === 'howfought' ? chapterJump : jump, active: !!battleId },
+    { label: battleLabel, currentLabel: battleFull, options: theatre === 'howfought' ? chapterJump : jump, active: !!battleId,
+      scopeToggle: geoTheatre ? { scopedLabel: THEATRE_TRAIL_SHORT[theatre as string] ?? activeTheatre?.label ?? 'Theatre', allOptions: jumpAll } : undefined },
   ]
 }
 
