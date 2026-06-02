@@ -40,10 +40,10 @@ const STANDFIRST = 'Four years, some ten thousand engagements, and three-quarter
 
 // theatre key → display label + accent (README theatre colors)
 const THEATRE: Record<string, { label: string; color: string }> = {
-  east: { label: 'Eastern', color: 'var(--confed)' },
-  west: { label: 'Western', color: 'var(--union)' },
-  tmis: { label: 'Trans-Miss', color: '#C89A3F' },
-  naval: { label: 'Naval', color: '#4F8A7A' },
+  east: { label: 'Eastern', color: 'var(--th-east)' },
+  west: { label: 'Western', color: 'var(--th-west)' },
+  tmis: { label: 'Trans-Miss', color: 'var(--th-tmis)' },
+  naval: { label: 'Naval', color: 'var(--th-naval)' },
 }
 const CHIPS: { k: string; label: string; color?: string }[] = [{ k: 'All', label: 'All' }, ...Object.entries(THEATRE).map(([k, v]) => ({ k, label: v.label, color: v.color }))]
 
@@ -132,8 +132,9 @@ function BattlesTab({ theatre, query }: { theatre: string; query: string }) {
             <div key={yr}>
               <div className="p-yr"><span className="ylab">{yr}</span><span className="yline" /></div>
               {list.filter(b => b.year === yr).map(b => (
-                <a className={'p-bt' + (b.size === 'l' || b.size === 'xl' ? ' key' : '')} key={b.id} href={b.href}>
-                  <span className="bh"><b className="p-serif">{hl(b.name, q)}</b><span className="th">{THEATRE[b.theatre]?.label}</span></span>
+                <a className={'p-bt' + (b.size === 'l' || b.size === 'xl' ? ' key' : '')} key={b.id} href={b.href}
+                  style={{ ['--dot' as string]: THEATRE[b.theatre]?.color }}>
+                  <span className="bh"><b className="p-serif">{hl(b.name, q)}</b><span className="th" style={{ color: THEATRE[b.theatre]?.color }}>{THEATRE[b.theatre]?.label}</span></span>
                   <span className="place">{hl(b.place, q)}</span>
                   <span className="note">{b.hook}</span>
                 </a>
