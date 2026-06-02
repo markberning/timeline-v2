@@ -11,7 +11,7 @@ import { civilWarCrumbs } from '@/components/mode/theatre-page'
 const ACCENT = ACCENTS.amber // Trans-Mississippi theatre
 const CRUMBS = civilWarCrumbs({ theatre: 'tmis', battleId: 't-westport' })
 
-const HERO_IMG = '/war-img/westport-hero.jpg' // born-verified follow-up; gradient fallback for now
+const HERO_IMG = '/war-img/westport-hero.jpg' // "Battle Ground of Westport, Oct 23 64" — period map from Hinton, Rebel Invasion of Missouri and Kansas (1865); public domain
 const HERO_PAL = ['#3a3320', '#5a2a32', '#100506']
 
 const ARMIES = [

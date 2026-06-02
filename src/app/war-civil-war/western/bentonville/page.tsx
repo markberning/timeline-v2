@@ -12,7 +12,7 @@ import { civilWarCrumbs } from '@/components/mode/theatre-page'
 const ACCENT = ACCENTS.blue
 const CRUMBS = civilWarCrumbs({ theatre: 'west', battleId: 'w-bentonville' })
 
-const HERO_IMG = '/war-img/bentonville-hero.jpg'
+const HERO_IMG = '/war-img/bentonville-hero.jpg' // "U.S. Army at Bentonville, March 19" — Harper's Weekly wood engraving from a William Waud sketch, Apr 15, 1865; public domain
 const ARMIES = [
   { side: 'Union', label: 'Armies of Georgia & the Tennessee', size: '~60,000 troops', commander: 'Sherman (Slocum & Howard)', note: 'Marching in two wings a day apart, one wing caught alone.', color: ACCENTS.blue },
   { side: 'Confederacy', label: 'Scraped-together command', size: '~20,000 troops', commander: 'Gen. Joseph E. Johnston', note: 'The last fragments of the West, concentrated for one last attack.', color: ACCENTS.rust },
