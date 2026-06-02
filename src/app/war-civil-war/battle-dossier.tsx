@@ -124,7 +124,7 @@ export function BattleDossier({ data }: { data: BattleData }) {
     <div className="war-skin" style={{ ['--accent' as string]: accent } as React.CSSProperties}>
       {/* sticky header */}
       <header className="p-hdr">
-        <a className="back" href={data.backHref || '/war-civil-war'} aria-label="Back">{I.back}</a>
+        <a className="back" href="/war-civil-war" aria-label="Back to the American Civil War">{I.back}</a>
         <div className="wm"><b>American Civil War</b><span>Stuff Happened · War</span></div>
         <ThemeSwitch />
         <button className="p-iconbtn" onClick={() => setSearch(true)} aria-label="Search">{I.search}</button>
@@ -146,7 +146,7 @@ export function BattleDossier({ data }: { data: BattleData }) {
       {data.hero.credit && <div className="p-credit">{data.hero.credit}</div>}
 
       {/* sticky tab bar */}
-      <div className="p-subnav" ref={subnavRef}>
+      <div className="p-subnav below-crumb" ref={subnavRef}>
         <div className="p-seg">
           {TABS.map(t => (
             <button key={t.id} className={tab === t.id ? 'on' : ''} onClick={() => changeTab(t.id)}>{t.label}</button>
