@@ -258,8 +258,11 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
                       onClick={() => {
                         if (result.href) {
                           // war/art: navigate to the section page (or the entry's
-                          // page if it isn't split into section routes)
-                          window.location.href = ch.sectionId ? `${result.href}/s/${ch.sectionId}` : result.href
+                          // page if it isn't split into section routes) and pass a
+                          // snippet so SearchScroll finds + flashes the paragraph
+                          const base = ch.sectionId ? `${result.href}/s/${ch.sectionId}` : result.href
+                          const shl = sentence.slice(0, 60).trim()
+                          window.location.href = `${base}/?shl=${encodeURIComponent(shl)}`
                         } else {
                           // civ: pass a unique snippet so the reader scrolls to + highlights the paragraph
                           const snippet = sentence.slice(0, 60).trim()

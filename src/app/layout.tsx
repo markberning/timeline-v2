@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Lora } from "next/font/google";
 import "./globals.css";
 import { OfflineRegistrar } from "@/components/offline-registrar";
 import { GlobalImageZoom } from "@/components/global-image-zoom";
+import { SearchScroll } from "@/components/search-scroll";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,6 +55,7 @@ export default function RootLayout({
         <OfflineRegistrar />
         <div className="app-shell">{children}</div>
         <GlobalImageZoom />
+        <SearchScroll />
       </body>
     </html>
   );
