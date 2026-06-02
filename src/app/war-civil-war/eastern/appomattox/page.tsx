@@ -18,7 +18,7 @@ const ARMIES = [
   { side: 'Union', label: 'Armies of the Potomac & the James', size: '~63,000', commander: 'Lt. Gen. Ulysses S. Grant', note: 'Ran Lee’s army to ground and got infantry across the road west by a thirty-mile forced march.', color: ACCENTS.blue },
   { side: 'Confederacy', label: 'Army of Northern Virginia', size: '~26,000', commander: 'Gen. Robert E. Lee', note: 'Starving and surrounded, made one last dawn attack to reopen the road, then surrendered.', color: ACCENTS.rust },
 ]
-const CAS = { union: 164, csa: 500, civ: 0 }
+const CAS = { union: 152, csa: 500, civ: 0 }
 const FIGURES = [
   { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: 'With Petersburg fallen and his army starving, Lee ran west hoping to reach North Carolina, only to find Union infantry across the road at Appomattox after a last dawn attack failed. Rather than spend his men in a hopeless fight, he rode to the McLean house and surrendered the Army of Northern Virginia, ending four years of war in Virginia.' },
   { name: 'John B. Gordon', role: 'II Corps, CSA', side: 'C', img: '/war-img/cmdr/gordon.jpg', blurb: 'Gordon led the Confederate dawn attack on April 9, breaking through Sheridan’s cavalry and briefly opening the road west before massed Union infantry appeared beyond the ridge. He sent Lee word that his command had been fought to a frazzle and could do nothing more, and three days later he answered Chamberlain’s salute as his men stacked their arms.' },

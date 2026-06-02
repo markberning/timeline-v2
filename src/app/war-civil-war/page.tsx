@@ -133,7 +133,7 @@ const THEATRE_DATA: Theatre[] = [
     id: 'east', name: 'Eastern', longName: 'Eastern Theatre', color: ACCENTS.violet, span: '1861–1865',
     region: 'Virginia · Maryland · Pennsylvania', summary: 'The political war. Between the two capitals, Lee was at his best — and where the war finally ended.',
     intro: "The Eastern Theatre was the war's most-watched front, fought largely in the 110-mile corridor between the two capitals, Washington and Richmond. Here Robert E. Lee's Army of Northern Virginia held off a rotating cast of Union generals and twice invaded the North, only to be turned back at Antietam and Gettysburg. Because both capitals and most of the newspapers sat in this corridor, a win in Virginia carried outsized political weight even as the war was being decided out West. It was also where the war ended, with Lee's surrender at Appomattox in April 1865.",
-    peakArmies: '120k vs 75k', casualties: 230000, battlesCount: majorCount('east'), commanderRotation: 'Seven Union commanders, then Grant',
+    peakArmies: '120k vs 75k', casualties: 400000, battlesCount: majorCount('east'), commanderRotation: 'Seven Union commanders, then Grant',
     href: '/war-civil-war/eastern', states: ['Virginia', 'Maryland', 'Pennsylvania'], labelLon: -79.3, labelLat: 38.5,
     dots: [
       { name: 'Gettysburg', lat: 39.83, lon: -77.23, heavy: true, anchor: 'end' },
@@ -148,7 +148,7 @@ const THEATRE_DATA: Theatre[] = [
     id: 'west', name: 'Western', longName: 'Western Theatre', color: ACCENTS.blue, span: '1861–1865',
     region: 'Kentucky · Tennessee · Mississippi · Georgia', summary: 'Where the Union actually won the war. Grant took the rivers and split the Confederacy in two.',
     intro: "The Western Theatre is where the Union actually won the war. Its highways were the rivers (the Tennessee, the Cumberland, and above all the Mississippi), and Ulysses S. Grant rose by taking them, splitting the Confederacy in two when Vicksburg fell in July 1863. From the river war the fighting rolled into the Confederate heartland at Shiloh, Stones River, Chickamauga, and the rail hub of Chattanooga. From there William T. Sherman drove on Atlanta and marched to the sea, wrecking the South's ability to keep an army in the field.",
-    peakArmies: '110k vs 80k', casualties: 195000, battlesCount: majorCount('west'), commanderRotation: 'Grant rises, then Sherman',
+    peakArmies: '110k vs 80k', casualties: 300000, battlesCount: majorCount('west'), commanderRotation: 'Grant rises, then Sherman',
     href: '/war-civil-war/western', states: ['Kentucky', 'Tennessee', 'Mississippi', 'Georgia', 'Alabama'], labelLon: -86.4, labelLat: 34.3,
     frame: WEST_FRAME, callouts: WEST_CALLOUTS,
     dots: [
@@ -163,7 +163,7 @@ const THEATRE_DATA: Theatre[] = [
     id: 'tmis', name: 'Trans-Miss', longName: 'Trans-Mississippi', color: ACCENTS.amber, span: '1861–1865',
     region: 'Arkansas · Louisiana · Texas · Missouri', summary: 'The sprawling, half-forgotten war west of the great river.',
     intro: "The Trans-Mississippi was the sprawling, half-forgotten war west of the great river. It opened with a vicious fight for Missouri, a slave state the Union could not afford to lose, and spread across Arkansas, Louisiana, the Indian Territory, and out to the New Mexico desert, where a Confederate grab for the Southwest died at Glorieta Pass. Once Union gunboats closed the Mississippi at Vicksburg and Port Hudson in 1863, the theatre was cut off from the rest of the Confederacy. Its armies fought on in isolation and held out longer than any other front, not surrendering until the summer of 1865.",
-    peakArmies: '30k vs 20k', casualties: 30000, battlesCount: majorCount('tmis'), commanderRotation: 'Mostly forgotten',
+    peakArmies: '30k vs 20k', casualties: 35000, battlesCount: majorCount('tmis'), commanderRotation: 'Mostly forgotten',
     href: '/war-civil-war/trans-mississippi', states: ['Arkansas', 'Louisiana', 'Texas', 'Missouri'], labelLon: -93.7, labelLat: 33.4,
     frame: TMIS_FRAME, callouts: TMIS_CALLOUTS,
     dots: [
@@ -175,8 +175,8 @@ const THEATRE_DATA: Theatre[] = [
   {
     id: 'naval', name: 'Naval', longName: 'Naval & Coastal', color: ACCENTS.rust, span: '1861–1865',
     region: 'Atlantic · Gulf · the Mississippi', summary: 'The Anaconda — blockade, ironclads, and slowly strangling Southern trade.',
-    intro: "The naval war was a slow strangulation. From the first weeks the U.S. Navy threw a blockade (nicknamed the 'Anaconda') around 3,500 miles of Confederate coast, choking off the cotton the South sold and the arms it needed to buy. Port by port the Union closed the door: New Orleans and the river forts in 1862, Mobile Bay in 1864, and finally Fort Fisher, which sealed Wilmington, the last open harbor, in early 1865. It was also a revolution in warship design, as the duel of the ironclads at Hampton Roads in 1862 made every wooden navy on earth obsolete overnight.",
-    peakArmies: '700+ ships', casualties: 10000, battlesCount: majorCount('naval'), commanderRotation: 'Farragut, Porter, Du Pont',
+    intro: "The naval war was a slow strangulation. From the first weeks the U.S. Navy threw a blockade — the seaward jaw of Winfield Scott's 'Anaconda' plan — around 3,500 miles of Confederate coast, choking off the cotton the South sold and the arms it needed to buy. Port by port the Union closed the door: New Orleans and the river forts in 1862, Mobile Bay in 1864, and finally Fort Fisher, which sealed Wilmington, the last open harbor, in early 1865. It was also a revolution in warship design, as the duel of the ironclads at Hampton Roads in 1862 made every wooden navy on earth obsolete overnight.",
+    peakArmies: '700+ ships', casualties: 8000, battlesCount: majorCount('naval'), commanderRotation: 'Farragut, Porter, Du Pont',
     href: '/war-civil-war/naval', states: ['North Carolina', 'South Carolina', 'Florida'], labelLon: -80.0, labelLat: 30.5,
     frame: NAVAL_FRAME, callouts: NAVAL_CALLOUTS,
     dots: [
@@ -259,7 +259,7 @@ function WarGlance() {
           </div>
           <div style={{ padding: '20px 16px 22px', borderTop: `1px solid ${BORDER}` }}>
             <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 12 }}>
-              <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: FAINT, textTransform: 'uppercase' }}>Casualties (est.)</span>
+              <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: FAINT, textTransform: 'uppercase' }}>Death toll (est.)</span>
               <div style={{ fontFamily: SERIF, fontSize: 14, letterSpacing: -0.2 }}><span style={{ fontWeight: 500 }}>{num(total)}</span><span style={{ color: MUTED }}> dead</span></div>
             </div>
             <div style={{ display: 'flex', height: 26, borderRadius: 4, overflow: 'hidden', border: `1px solid ${BORDER}` }}>
@@ -380,7 +380,7 @@ function TheatresInteractive() {
             <div style={{ marginTop: 12, paddingTop: 11, borderTop: `1px solid ${border}`, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '4px 12px', fontFamily: SANS, fontSize: 10.5, color: muted }}>
               <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{at.battlesCount}</span> battles</div>
               <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{at.peakArmies}</span></div>
-              <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{num(at.casualties ?? 0)}</span> dead</div>
+              <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>~{num(at.casualties ?? 0)}</span> casualties (est.)</div>
             </div>
             <div style={{ marginTop: 6, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12, color: faint }}>{at.commanderRotation}</div>
           </>
