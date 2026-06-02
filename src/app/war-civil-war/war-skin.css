@@ -392,12 +392,15 @@
 
 /* narrative landings (OTBF + Military Story): masthead accents ride --accent
    (OTBF burnt-orange / Military stone) instead of the home's confed red */
-.war-skin .rd-land .p-mast .p-eyebrow { color: var(--accent); }
-.war-skin .rd-land .p-stand::first-letter { color: var(--accent); }
-.war-skin .rd-land .p-lead { font: 400 16px/1.6 var(--serif); color: var(--ink-soft); margin: 0 0 6px; }
+/* NOTE: .rd-land sits on the SAME element as .war-skin (class="war-skin rd-land"),
+   so these MUST be compound (.war-skin.rd-land), not descendant (.war-skin .rd-land)
+   — a space here matches nothing and the overrides silently don't apply. */
+.war-skin.rd-land .p-mast .p-eyebrow { color: var(--accent); }
+.war-skin.rd-land .p-stand::first-letter { color: var(--accent); }
+.war-skin.rd-land .p-lead { font: 400 16px/1.6 var(--serif); color: var(--ink-soft); margin: 0 0 6px; }
 /* chapter numbers ride the page accent (stone on the Military Story), not the
    default confed red/orange */
-.war-skin .rd-land .p-chap .no { color: var(--accent); }
+.war-skin.rd-land .p-chap .no { color: var(--accent); }
 
 /* theme switch in header */
 .war-skin .p-themeswitch { display: inline-flex; background: var(--paper-3); border-radius: 20px; padding: 3px; gap: 2px; flex: 0 0 auto; }
