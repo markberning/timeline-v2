@@ -19,17 +19,18 @@
 // served cache-first, so without a version bump returning visitors keep the old
 // cached copy forever (e.g. the wave-2 emblems stayed gold after a recolor).
 // Bumping wipes the prior shell cache on activate, forcing a fresh fetch.
-const SHELL_CACHE = 'offline-shell-v3'
+const SHELL_CACHE = 'offline-shell-v4'
 const TL_CACHE_PREFIX = 'offline-tl-'
 const TL_CACHE_SUFFIX = '-v1'
 
-// On localhost we let the SW install and handle download/delete
-// messages (so the library sheet actually works in dev), but its fetch
-// handler bails out immediately so Next.js HMR + dev-server chunks
-// aren't intercepted.
-const IS_DEV_HOST =
-  self.location.hostname === 'localhost' ||
-  self.location.hostname === '127.0.0.1'
+// In dev we let the SW install and handle download/delete messages (so the
+// library sheet works in dev), but its fetch handler bails out immediately so
+// Next.js HMR + dev-server chunks aren't intercepted and stale-cached.
+// "Dev" = any host that isn't the production domain. This MUST cover a phone
+// hitting `npm run dev` over the LAN IP (e.g. 192.168.x.x): those are not
+// localhost, so the old check treated them as prod and served CSS cache-first,
+// pinning stale styles on the device. Only *.stuffhappened.com is production.
+const IS_DEV_HOST = !/(^|\.)stuffhappened\.com$/.test(self.location.hostname)
 
 function tlCacheName(tlId) {
   return `${TL_CACHE_PREFIX}${tlId}${TL_CACHE_SUFFIX}`
