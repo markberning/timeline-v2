@@ -1,21 +1,23 @@
 'use client'
 
-// Shared reader for a single battle "section" (a chapter of a battle story).
-// Every battle supplies its own section data (Record<id, Narr>); this renders the
-// breadcrumb + sticky header + article + Meanwhile card + next-section link.
-// Used by Gettysburg, Antietam, and every battle to come.
+// Shared reader for a single narrative "section" — a chapter of a battle story,
+// an Off-the-Battlefield theme, or a Military-Story chapter. Each page supplies
+// its own section data (Record<id, Narr>); this renders the war-skin chrome
+// (editorial header + dual-action breadcrumb) + optional hero + sticky reading
+// header + article + Meanwhile card + next/end link. REDESIGN (feat/war-redesign):
+// lives inside .war-skin; accent rides --accent. Content lives in the page files,
+// not here — this component is pure presentation.
 
+import '../../app/war-civil-war/war-skin.css'
 import { useState } from 'react'
-import { WarBreadcrumb, alpha, CHROME_TOP, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
+import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
+import { WarHeader } from '@/components/mode/war-header'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 import { MAJORS, CHAPTERS, type Theatre } from '@/lib/civil-war-roster'
-
-const MONTH_FULL: Record<string, string> = { Jan: 'January', Feb: 'February', Mar: 'March', Apr: 'April', May: 'May', Jun: 'June', Jul: 'July', Aug: 'August', Sep: 'September', Sept: 'September', Oct: 'October', Nov: 'November', Dec: 'December' }
 import { Lightbox } from '@/components/lightbox'
 import { DottedMap, type Frame, type StateSpec, type Dot, type FreeLabel } from '@/components/mode/dotted-map'
 
-const SANS = 'var(--font-geist-sans)'
-const SERIF = 'var(--font-lora)'
+const MONTH_FULL: Record<string, string> = { Jan: 'January', Feb: 'February', Mar: 'March', Apr: 'April', May: 'May', Jun: 'June', Jul: 'July', Aug: 'August', Sep: 'September', Sept: 'September', Oct: 'October', Nov: 'November', Dec: 'December' }
 
 export type Block =
   | { h: string; eyebrow?: string }
@@ -33,8 +35,6 @@ export interface Narr {
   meanwhile?: { region: string; title: string; body: string }
 }
 
-const proseStyle: React.CSSProperties = { fontFamily: SERIF, fontSize: 17, lineHeight: 1.62, letterSpacing: '-0.01em', margin: 0, color: 'var(--foreground)' }
-
 // Render inline markup in prose: [text](/href) links (accent-coloured, underlined —
 // how the "How the War Was Fought" chapters reach down into the battle dossiers),
 // **bold** spans, and *italic* spans (the house convention for titles/emphasis).
@@ -50,16 +50,14 @@ function emph(text: string, base: number): React.ReactNode[] {
     return seg
   })
 }
-function fmt(text: string, accent?: string): React.ReactNode {
+function fmt(text: string): React.ReactNode {
   if (!/[*[]/.test(text)) return text
   const linkRe = /\[([^\]]+)\]\((\/[^\s)]+)\)/g
   const out: React.ReactNode[] = []
   let last = 0, m: RegExpExecArray | null
   while ((m = linkRe.exec(text)) !== null) {
     if (m.index > last) out.push(...emph(text.slice(last, m.index), last))
-    out.push(
-      <a key={`l${m.index}`} href={m[2]} style={{ color: accent ?? 'inherit', textDecoration: 'underline', textDecorationThickness: 1, textUnderlineOffset: 2, fontWeight: 500 }}>{m[1]}</a>,
-    )
+    out.push(<a key={`l${m.index}`} className="lnk" href={m[2]}>{m[1]}</a>)
     last = m.index + m[0].length
   }
   if (last < text.length) out.push(...emph(text.slice(last), last))
@@ -80,8 +78,8 @@ export function BattleSectionReader({
   endHref?: string; endKicker?: string; endLabel?: string
   // optional full-bleed hero (themes use it; battle sections usually don't)
   heroImage?: string; heroPalette?: [string, string, string] | string[]; heroCredit?: string
-  // per-image crop tuning: objectPosition + zoom for the 240px hero band (tall
-  // portraits like Lincoln's Cooper Union plate clip the head at the default)
+  // per-image crop tuning: objectPosition + zoom for the hero band (tall portraits
+  // like Lincoln's Cooper Union plate clip the head at the default)
   heroFocus?: string; heroScale?: number
 }) {
   const ids = Object.keys(sections)
@@ -99,7 +97,6 @@ export function BattleSectionReader({
   // sticky-header subtitle: the section title, unless it just repeats the battle
   // name (single-section theme/military-story pages) — then show the eyebrow.
   const subtitle = n.title && n.title !== battleName ? n.title : (n.eyebrow ?? '')
-  const muted = (pct: number) => `color-mix(in srgb, var(--foreground) ${pct}%, transparent)`
   // single-page chapters (the 5 Military-Story chapters) have no within-page
   // "next section"; link to the next chapter in the CHAPTERS sequence instead.
   const chapterIdx = battleId ? CHAPTERS.findIndex(c => c.id === battleId) : -1
@@ -126,141 +123,136 @@ export function BattleSectionReader({
       ]
     : baseCrumbs
 
+  // header back-arrow: up to the battle overview (multi-section battles), else to
+  // the parent spine (themes → Off the Battlefield, chapters → Military Story).
+  const headerBack = ids.length > 1 ? battleHref : (endHref ?? theatreHref)
+
   return (
-    <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarBreadcrumb accent={accent} crumbs={crumbs} />
+    <div className="war-skin" style={{ ['--accent' as string]: accent } as React.CSSProperties}>
+      <WarHeader backHref={headerBack} />
+
+      {/* where-am-I trail — the dual-action breadcrumb (each crumb links, and
+          tapping opens the theatre/battle/chapter jump dropdown) */}
+      <WarBreadcrumb crumbs={crumbs} accent={accent} bare />
+
       {heroImage && (
         <>
-          <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: heroPalette[2] }}>
+          <div className="rd-hero">
             {heroFailed
-              ? <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(135deg, ${heroPalette[0]}, ${heroPalette[1]} 55%, ${heroPalette[2]})` }} />
-              : <img src={heroImage} alt="" onError={() => setHeroFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: heroFocus, transform: `scale(${heroScale})`, transformOrigin: 'center', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />}
-            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0) 28%, rgba(8,8,8,0.88) 100%)' }} />
-            <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '16px 18px', color: '#fff' }}>
-              <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: `color-mix(in srgb, ${accent} 45%, white)`, textTransform: 'uppercase', textShadow: '0 1px 3px rgba(0,0,0,0.7)' }}>{n.eyebrow}</div>
-              <h1 style={{ margin: '6px 0 0', fontFamily: SERIF, fontSize: 28, lineHeight: 1.06, letterSpacing: -0.5, fontWeight: 500, textShadow: '0 2px 12px rgba(0,0,0,0.55)' }}>{n.title}</h1>
+              ? <div className="fb" style={{ background: `linear-gradient(135deg, ${heroPalette[0]}, ${heroPalette[1]} 55%, ${heroPalette[2]})` }} />
+              // eslint-disable-next-line @next/next/no-img-element
+              : <img src={heroImage} alt="" onError={() => setHeroFailed(true)} style={{ objectPosition: heroFocus, transform: `scale(${heroScale})`, transformOrigin: 'center' }} />}
+            <div className="fade" />
+            <div className="cap">
+              <div className="ey">{n.eyebrow}</div>
+              <h1>{n.title}</h1>
             </div>
           </div>
-          {heroCredit && <div style={{ padding: '7px 16px 0', fontFamily: SANS, fontSize: 10, letterSpacing: 0.2, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>{heroCredit}</div>}
+          {heroCredit && <div className="p-credit">{heroCredit}</div>}
         </>
       )}
-      <div style={{ position: 'sticky', top: CHROME_TOP, zIndex: 7, background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 12px' }}>
-          <button aria-label="Back" onClick={() => history.back()} style={{ width: 32, height: 32, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', background: 'color-mix(in srgb, var(--foreground) 6%, transparent)', borderRadius: 999, color: 'var(--foreground)', cursor: 'pointer' }}>
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
-          </button>
-          {/* Sticky header: accent bar at left, battle name on top, then a quiet meta
-              line — accent-colored italic subtitle · muted date. */}
-          <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'stretch', gap: 10 }}>
-            <div style={{ width: 3, borderRadius: 2, background: accent, flexShrink: 0 }} />
-            <div style={{ minWidth: 0, flex: 1 }}>
-              <div style={{ fontFamily: SERIF, fontSize: 21, fontWeight: 600, lineHeight: 1.1, letterSpacing: '-0.3px', color: 'var(--foreground)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{battleName}</div>
-              {(dateLine || subtitle) && (
-                <div style={{ fontFamily: SERIF, fontSize: 15, lineHeight: 1.3, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', marginTop: 2 }}>
-                  {subtitle && <span style={{ fontStyle: 'italic', color: accent }}>{subtitle}</span>}
-                  {dateLine && subtitle && <span style={{ color: muted(30) }}>{'   ·   '}</span>}
-                  {dateLine && <span style={{ fontFamily: SANS, fontSize: 11, fontWeight: 600, letterSpacing: 0.2, color: muted(50) }}>{dateLine}</span>}
-                </div>
-              )}
-            </div>
+
+      {/* sticky reading header */}
+      <div className="rd-head">
+        <div className="in">
+          <div className="bar" />
+          <div className="bd">
+            <div className="nm">{battleName}</div>
+            {(dateLine || subtitle) && (
+              <div className="meta">
+                {subtitle && <span className="sub">{subtitle}</span>}
+                {dateLine && subtitle && <span className="dot">{'   ·   '}</span>}
+                {dateLine && <span className="dt">{dateLine}</span>}
+              </div>
+            )}
           </div>
         </div>
       </div>
 
-      <div style={{ maxWidth: 640, margin: '0 auto', padding: '0 18px 48px' }}>
-        <article style={{ paddingTop: 18 }}>
+      <div className="rd-wrap">
+        <article className="rd-art">
           {n.blocks.map((b, i) => {
             if ('h' in b) return (
-              <div key={i} style={{ marginTop: i === 0 ? 0 : 26, marginBottom: 10 }}>
-                {b.eyebrow && <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: accent, marginBottom: 3 }}>{b.eyebrow}</div>}
-                <h2 style={{ fontFamily: SERIF, fontWeight: 500, fontSize: 22, lineHeight: 1.15, letterSpacing: '-0.3px', margin: 0 }}>{b.h}</h2>
+              <div key={i} className="rd-h" style={i === 0 ? { marginTop: 0 } : undefined}>
+                {b.eyebrow && <div className="ey">{b.eyebrow}</div>}
+                <h2>{b.h}</h2>
               </div>
             )
             if ('locator' in b) return (
-              <div key={i} style={{ margin: '18px 0 4px' }}>
+              <div key={i} className="rd-map">
                 <DottedMap accent={accent} {...b.locator} />
               </div>
             )
             if ('pill' in b) return (
-              // a "go read that story" link, between paragraphs, as an accent pill
-              <a key={i} href={b.pill} style={{
-                display: 'flex', alignItems: 'center', gap: 9, margin: '18px 0', padding: '10px 14px',
-                borderRadius: 12, border: `1px solid ${alpha(accent, 0.4)}`, background: alpha(accent, 0.07),
-                textDecoration: 'none', color: 'inherit',
-              }}>
-                <span aria-hidden style={{ flexShrink: 0, width: 22, height: 22, borderRadius: 999, background: alpha(accent, 0.16), color: accent, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13 }}>→</span>
-                <span style={{ minWidth: 0, flex: 1 }}>
-                  <span style={{ display: 'block', fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>Read the full story</span>
-                  <span style={{ display: 'block', fontFamily: SERIF, fontSize: 15.5, fontWeight: 500, color: accent, lineHeight: 1.2, marginTop: 1 }}>{b.plabel}</span>
+              <a key={i} className="rd-pill" href={b.pill}>
+                <span className="ic" aria-hidden>→</span>
+                <span className="tx">
+                  <span className="k">Read the full story</span>
+                  <span className="l">{b.plabel}</span>
                 </span>
               </a>
             )
             if ('fig' in b) return (
-              <figure key={i} style={{ margin: '20px 0' }} data-no-zoom>
+              <figure key={i} className="rd-fig" data-no-zoom>
                 <div
-                  onClick={figFailed[i] ? undefined : () => setLb({ src: b.fig, cap: b.cap })}
-                  style={{ borderRadius: 6, overflow: 'hidden', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', border: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)', cursor: figFailed[i] ? 'default' : 'zoom-in' }}>
-                  {!figFailed[i] && <img src={b.fig} alt="" onError={() => setFigFailed(f => ({ ...f, [i]: true }))} style={{ display: 'block', width: '100%', height: 'auto' }} />}
+                  className={'frame' + (figFailed[i] ? ' dead' : '')}
+                  onClick={figFailed[i] ? undefined : () => setLb({ src: b.fig, cap: b.cap })}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  {!figFailed[i] && <img src={b.fig} alt="" onError={() => setFigFailed(f => ({ ...f, [i]: true }))} style={{ width: '100%', height: 'auto' }} />}
                 </div>
-                <figcaption style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 13, lineHeight: 1.45, color: 'color-mix(in srgb, var(--foreground) 65%, transparent)', marginTop: 8 }}>
-                  {b.cap} <span style={{ fontFamily: SANS, fontStyle: 'normal', fontSize: 10.5, color: 'color-mix(in srgb, var(--foreground) 42%, transparent)' }}>· {b.credit}</span>
-                </figcaption>
+                <figcaption>{b.cap} <span className="cr">· {b.credit}</span></figcaption>
               </figure>
             )
-            if (b.q) return (
-              <p key={i} style={{ ...proseStyle, margin: '16px 0', padding: '14px 16px 14px 18px', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', borderLeft: `3px solid ${accent}`, borderRadius: '0 6px 6px 0', fontStyle: 'italic', fontSize: 16, lineHeight: 1.55 }}>{fmt(b.p, accent)}</p>
-            )
-            if (b.i) return (
-              <p key={i} style={{ ...proseStyle, marginTop: 14, fontStyle: 'italic', color: 'color-mix(in srgb, var(--foreground) 62%, transparent)' }}>{fmt(b.p, accent)}</p>
-            )
+            if (b.q) return <p key={i} className="q">{fmt(b.p)}</p>
+            if (b.i) return <p key={i} className="it">{fmt(b.p)}</p>
             const drop = firstP
             firstP = false
             return (
-              <p key={i} style={{ ...proseStyle, marginTop: 12 }}>
-                {drop && <span style={{ float: 'left', fontFamily: SERIF, fontWeight: 500, fontSize: 50, lineHeight: 0.82, color: accent, paddingRight: 8, marginTop: 4 }}>{b.p.charAt(0)}</span>}
-                {fmt(drop ? b.p.slice(1) : b.p, accent)}
+              <p key={i}>
+                {drop && <span className="drop">{b.p.charAt(0)}</span>}
+                {fmt(drop ? b.p.slice(1) : b.p)}
               </p>
             )
           })}
         </article>
 
         {n.meanwhile && (
-          <div style={{ marginTop: 28, border: '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)', borderRadius: 12, padding: '14px 16px', background: 'color-mix(in srgb, var(--foreground) 4%, transparent)' }}>
-            <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>Meanwhile in {n.meanwhile.region}</div>
-            <div style={{ fontFamily: SERIF, fontSize: 16, fontStyle: 'italic', marginTop: 3 }}>{n.meanwhile.title}</div>
-            <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 75%, transparent)', marginTop: 3 }}>{n.meanwhile.body}</div>
+          <div className="rd-meanwhile">
+            <div className="k">Meanwhile in {n.meanwhile.region}</div>
+            <div className="t">{n.meanwhile.title}</div>
+            <div className="b">{n.meanwhile.body}</div>
           </div>
         )}
 
         {next ? (
-          <a href={`${battleHref}/s/${nextId}`} style={{ marginTop: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, border: `1px solid ${alpha(accent, 0.4)}`, borderRadius: 12, padding: '14px 16px', background: alpha(accent, 0.06), textDecoration: 'none', color: 'inherit' }}>
+          <a className="rd-next" href={`${battleHref}/s/${nextId}`}>
             <div style={{ minWidth: 0 }}>
-              <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: accent }}>Next section</div>
-              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.25, marginTop: 2 }}>{next.title}</div>
+              <div className="k">Next section</div>
+              <div className="t">{next.title}</div>
             </div>
-            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: accent }} aria-hidden>→</span>
+            <span className="arr" aria-hidden>→</span>
           </a>
         ) : nextChapter?.href ? (
-          <a href={nextChapter.href} style={{ marginTop: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, border: `1px solid ${alpha(accent, 0.4)}`, borderRadius: 12, padding: '14px 16px', background: alpha(accent, 0.06), textDecoration: 'none', color: 'inherit' }}>
+          <a className="rd-next" href={nextChapter.href}>
             <div style={{ minWidth: 0 }}>
-              <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: accent }}>Next chapter</div>
-              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.25, marginTop: 2 }}>{nextChapter.short ?? nextChapter.name}</div>
+              <div className="k">Next chapter</div>
+              <div className="t">{nextChapter.short ?? nextChapter.name}</div>
             </div>
-            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: accent }} aria-hidden>→</span>
+            <span className="arr" aria-hidden>→</span>
           </a>
         ) : (
-          <a href={endHref ?? battleHref} style={{ marginTop: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, border: '1px solid color-mix(in srgb, var(--foreground) 16%, transparent)', borderRadius: 12, padding: '14px 16px', background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', textDecoration: 'none', color: 'inherit' }}>
+          <a className="rd-next end" href={endHref ?? battleHref}>
             <div>
-              <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>{endKicker ?? `End of ${battleName}`}</div>
-              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.2, marginTop: 2 }}>{endLabel ?? 'Back to the battle'}</div>
+              <div className="k">{endKicker ?? `End of ${battleName}`}</div>
+              <div className="t">{endLabel ?? 'Back to the battle'}</div>
             </div>
-            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }} aria-hidden>↩</span>
+            <span className="arr" aria-hidden>↩</span>
           </a>
         )}
       </div>
-      {/* zoomable lightbox — pinch / double-tap / pan (shared with the civ + art readers); maps + photos are tap-to-zoom */}
-      {lb && <Lightbox src={lb.src} alt="" caption={lb.cap} onClose={() => setLb(null)} />}
 
+      {/* zoomable lightbox — pinch / double-tap / pan (shared with the civ + art readers) */}
+      {lb && <Lightbox src={lb.src} alt="" caption={lb.cap} onClose={() => setLb(null)} />}
     </div>
   )
 }

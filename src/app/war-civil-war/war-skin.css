@@ -320,6 +320,82 @@
 .war-skin .bp-foot a .sub { display: block; font: 600 9px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 5px; }
 .war-skin .bp-foot a .arr { flex: 0 0 auto; color: var(--muted); }
 
+/* ===================== NARRATIVE READER (.rd-*) =====================
+   Shared by battle section chapters, Off-the-Battlefield themes, and the
+   Military-Story chapters. Accent rides --accent (set per page to the theatre /
+   OTBF / war-level color); prose is Spectral, the house serif. */
+
+/* hero band: full-bleed image, title + eyebrow overlaid */
+.war-skin .rd-hero { position: relative; height: 248px; overflow: hidden; background: var(--paper-3); }
+.war-skin .rd-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: sepia(.16) saturate(.9) contrast(1.04); }
+.war-skin .rd-hero .fb { position: absolute; inset: 0; }
+.war-skin .rd-hero .fade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 26%, rgba(8, 8, 8, .9) 100%); }
+.war-skin .rd-hero .cap { position: absolute; left: 0; right: 0; bottom: 0; padding: 16px 18px; color: #fff; }
+.war-skin .rd-hero .cap .ey { font: 700 10px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: color-mix(in srgb, var(--accent) 60%, white); text-shadow: 0 1px 3px rgba(0, 0, 0, .7); }
+.war-skin .rd-hero .cap h1 { font: 500 30px/1.04 var(--serif); letter-spacing: -.012em; margin: 6px 0 0; text-shadow: 0 2px 12px rgba(0, 0, 0, .55); }
+
+/* sticky reading header: accent rule · battle name · subtitle + date */
+.war-skin .rd-head { position: sticky; top: var(--hdr); z-index: 18; background: var(--glass); -webkit-backdrop-filter: blur(14px) saturate(140%); backdrop-filter: blur(14px) saturate(140%); border-bottom: 1px solid var(--line-soft); }
+.war-skin .rd-head .in { display: flex; align-items: stretch; gap: 10px; padding: 9px 14px; }
+.war-skin .rd-head .bar { width: 3px; border-radius: 2px; background: var(--accent); flex: 0 0 auto; }
+.war-skin .rd-head .bd { min-width: 0; flex: 1; align-self: center; }
+.war-skin .rd-head .nm { font: 600 20px/1.1 var(--serif); color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; letter-spacing: -.01em; }
+.war-skin .rd-head .meta { font: 400 15px/1.3 var(--serif); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 1px; }
+.war-skin .rd-head .meta .sub { font-style: italic; color: var(--accent); }
+.war-skin .rd-head .meta .dot { color: var(--muted); opacity: .55; }
+.war-skin .rd-head .meta .dt { font: 600 11px/1 var(--mono); letter-spacing: .02em; color: var(--muted); }
+
+/* article column */
+.war-skin .rd-wrap { max-width: 640px; margin: 0 auto; padding: 0 18px 56px; }
+.war-skin .rd-art { padding-top: 20px; }
+.war-skin .rd-art p { font: 400 17px/1.62 var(--serif); letter-spacing: -.003em; color: var(--ink); margin: 12px 0 0; }
+.war-skin .rd-art p .drop { float: left; font: 500 50px/.82 var(--serif); color: var(--accent); padding-right: 8px; margin-top: 4px; }
+.war-skin .rd-art p.q { margin: 16px 0; padding: 14px 16px 14px 18px; background: var(--chip); border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; font-style: italic; font-size: 16px; line-height: 1.55; }
+.war-skin .rd-art p.it { font-style: italic; color: var(--ink-soft); }
+.war-skin .rd-art a.lnk { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; font-weight: 500; }
+.war-skin .rd-h { margin: 26px 0 10px; }
+.war-skin .rd-h:first-child { margin-top: 0; }
+.war-skin .rd-h .ey { font: 700 9.5px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+.war-skin .rd-h h2 { font: 500 22px/1.15 var(--serif); letter-spacing: -.01em; color: var(--ink); margin: 0; }
+
+/* figure: full image, caption + credit */
+.war-skin .rd-fig { margin: 20px 0; }
+.war-skin .rd-fig .frame { border-radius: 6px; overflow: hidden; background: var(--chip); border: 1px solid var(--line-soft); cursor: zoom-in; }
+.war-skin .rd-fig .frame.dead { cursor: default; }
+.war-skin .rd-fig figcaption { font: italic 400 13px/1.45 var(--serif); color: var(--ink-soft); margin-top: 8px; }
+.war-skin .rd-fig figcaption .cr { font: 400 10.5px/1.4 var(--mono); font-style: normal; letter-spacing: .02em; color: var(--muted); }
+
+/* locator-map wrapper */
+.war-skin .rd-map { margin: 18px 0 4px; }
+
+/* "read the full story" pill */
+.war-skin .rd-pill { display: flex; align-items: center; gap: 9px; margin: 18px 0; padding: 10px 14px; border-radius: 12px; border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent); background: color-mix(in srgb, var(--accent) 8%, transparent); text-decoration: none; color: inherit; }
+.war-skin .rd-pill .ic { flex: 0 0 auto; width: 22px; height: 22px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); display: flex; align-items: center; justify-content: center; font-size: 13px; }
+.war-skin .rd-pill .tx { min-width: 0; flex: 1; }
+.war-skin .rd-pill .tx .k { display: block; font: 700 8.5px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.war-skin .rd-pill .tx .l { display: block; font: 500 15.5px/1.2 var(--serif); color: var(--accent); margin-top: 2px; }
+
+/* "meanwhile in…" card */
+.war-skin .rd-meanwhile { margin-top: 28px; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; background: var(--chip); }
+.war-skin .rd-meanwhile .k { font: 700 9.5px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.war-skin .rd-meanwhile .t { font: italic 400 16px/1.3 var(--serif); color: var(--ink); margin-top: 4px; }
+.war-skin .rd-meanwhile .b { font: 400 13.5px/1.5 var(--serif); color: var(--ink-soft); margin-top: 3px; }
+
+/* next / end link */
+.war-skin .rd-next { margin-top: 28px; display: flex; align-items: center; justify-content: space-between; gap: 12px; border-radius: 12px; padding: 14px 16px; text-decoration: none; color: inherit; border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent); background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.war-skin .rd-next.end { border-color: var(--line); background: var(--chip); }
+.war-skin .rd-next .k { font: 700 9.5px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+.war-skin .rd-next.end .k { color: var(--muted); }
+.war-skin .rd-next .t { font: 400 17px/1.25 var(--serif); color: var(--ink); margin-top: 3px; }
+.war-skin .rd-next .arr { flex: 0 0 auto; font: 600 20px/1 var(--sans); color: var(--accent); }
+.war-skin .rd-next.end .arr { color: var(--muted); }
+
+/* narrative landings (OTBF + Military Story): masthead accents ride --accent
+   (OTBF burnt-orange / Military stone) instead of the home's confed red */
+.war-skin .rd-land .p-mast .p-eyebrow { color: var(--accent); }
+.war-skin .rd-land .p-stand::first-letter { color: var(--accent); }
+.war-skin .rd-land .p-lead { font: 400 16px/1.6 var(--serif); color: var(--ink-soft); margin: 0 0 6px; }
+
 /* theme switch in header */
 .war-skin .p-themeswitch { display: inline-flex; background: var(--paper-3); border-radius: 20px; padding: 3px; gap: 2px; flex: 0 0 auto; }
 .war-skin .p-themeswitch button { width: 30px; height: 26px; border-radius: 18px; display: flex; align-items: center; justify-content: center; color: var(--muted); }
