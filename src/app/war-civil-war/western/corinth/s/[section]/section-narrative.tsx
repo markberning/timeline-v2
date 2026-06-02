@@ -15,8 +15,10 @@ const CORINTH_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -90.9, lonMax: -87.5, latMin: 34.2, latMax: 35.9 },
         states: [
-          { name: 'Mississippi', tone: 'focus', label: 'MISSISSIPPI', labelLon: -89.5, labelLat: 34.5 },
-          { name: 'Tennessee' }, { name: 'Alabama' }, { name: 'Arkansas' },
+          { name: 'Mississippi', tone: 'focus', label: 'MISSISSIPPI', labelLon: -90.6, labelLat: 34.4 },
+          { name: 'Tennessee', label: 'TENNESSEE', labelLon: -89.1, labelLat: 35.7, labelSize: 13 },
+          { name: 'Alabama', label: 'ALABAMA', labelLon: -87.9, labelLat: 34.4, labelSize: 13 },
+          { name: 'Arkansas', label: 'ARKANSAS', labelLon: -90.6, labelLat: 35.7, labelSize: 13 },
         ],
         dots: [
           { name: 'Corinth', date: 'Oct 3–4, 1862', lat: 34.934, lon: -88.522, heavy: true, anchor: 'middle', dy: 24 },

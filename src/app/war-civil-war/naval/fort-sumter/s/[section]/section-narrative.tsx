@@ -15,8 +15,9 @@ const FORT_SUMTER_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -89.5, lonMax: -76.7, latMin: 29.4, latMax: 35.7 },
         states: [
-          { name: 'South Carolina', tone: 'focus', label: 'SOUTH CAROLINA', labelLon: -83.1, labelLat: 34.9 },
-          { name: 'North Carolina' }, { name: 'Georgia' },
+          { name: 'South Carolina', tone: 'focus', label: 'SOUTH CAROLINA', labelLon: -82.8, labelLat: 34.6 },
+          { name: 'North Carolina', label: 'NORTH CAROLINA', labelLon: -78.2, labelLat: 35.1, labelSize: 13 },
+          { name: 'Georgia', label: 'GEORGIA', labelLon: -82.8, labelLat: 31, labelSize: 13 },
         ],
         dots: [
           { name: 'Fort Sumter', date: 'Apr 12–14, 1861', lat: 32.752, lon: -79.874, heavy: true, anchor: 'middle', dy: -30 },

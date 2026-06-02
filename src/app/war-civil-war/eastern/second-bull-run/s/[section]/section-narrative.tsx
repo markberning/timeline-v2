@@ -15,8 +15,11 @@ const SECOND_BULL_RUN_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.9, lonMax: -75.8, latMin: 36.9, latMax: 39.6 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.3, labelLat: 37.4 },
-          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Pennsylvania' }, { name: 'North Carolina' },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.6, labelLat: 37.2 },
+          { name: 'Maryland', label: 'MARYLAND', labelLon: -76.2, labelLat: 38.5, labelSize: 13 },
+          { name: 'West Virginia', label: 'WEST VIRGINIA', labelLon: -78.6, labelLat: 39.3, labelSize: 13 },
+          { name: 'Pennsylvania' },
+          { name: 'North Carolina' },
         ],
         dots: [
           { name: 'Second Bull Run', date: 'Aug 28–30, 1862', lat: 38.812, lon: -77.524, heavy: true, anchor: 'middle', dy: 24 },

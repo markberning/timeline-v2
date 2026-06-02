@@ -23,9 +23,15 @@ const WESTPORT_NARR: Record<string, Narr> = {
         caption: 'Westport sat just south of Kansas City, on the Missouri side of the line with Kansas. Major General Sterling Price marched his Army of Missouri up from Arkansas through the heart of the state, past St. Louis and Jefferson City, until two Union forces closing from the west and the east finally pinned him against the Big Blue River in the southwest corner of Missouri.',
         frame: { lonMin: -96.4, lonMax: -88.4, latMin: 35.6, latMax: 40.8 },
         states: [
-          { name: 'Missouri', tone: 'focus', label: 'MISSOURI', labelLon: -92.6, labelLat: 39.9 },
-          { name: 'Kansas' }, { name: 'Arkansas' }, { name: 'Iowa' }, { name: 'Illinois' },
-          { name: 'Kentucky' }, { name: 'Tennessee' }, { name: 'Nebraska' }, { name: 'Oklahoma' },
+          { name: 'Missouri', tone: 'focus', label: 'MISSOURI', labelLon: -94.2, labelLat: 36.5 },
+          { name: 'Kansas', label: 'KANSAS', labelLon: -95.6, labelLat: 37.8, labelSize: 13 },
+          { name: 'Arkansas', label: 'ARKANSAS', labelLon: -90.8, labelLat: 36.1, labelSize: 13 },
+          { name: 'Iowa' },
+          { name: 'Illinois', label: 'ILLINOIS', labelLon: -91.3, labelLat: 40.3, labelSize: 13 },
+          { name: 'Kentucky', label: 'KENTUCKY', labelLon: -89.4, labelLat: 36.5, labelSize: 13 },
+          { name: 'Tennessee', label: 'TENNESSEE', labelLon: -89.4, labelLat: 36.1, labelSize: 13 },
+          { name: 'Nebraska', label: 'NEBRASKA', labelLon: -95.6, labelLat: 40.3, labelSize: 13 },
+          { name: 'Oklahoma', label: 'OKLAHOMA', labelLon: -95.6, labelLat: 36.1, labelSize: 13 },
         ],
         dots: [
           { name: 'Westport', date: 'Oct 23, 1864', lat: 39.05, lon: -94.59, heavy: true, anchor: 'start' },

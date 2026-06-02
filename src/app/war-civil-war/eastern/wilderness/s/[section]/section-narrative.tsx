@@ -15,11 +15,14 @@ const WILDERNESS_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.5, lonMax: -76.7, latMin: 37.7, latMax: 38.9 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.2, labelLat: 37.9 },
-          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' }, { name: 'Tennessee' },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.3, labelLat: 37.8 },
+          { name: 'Maryland', label: 'MARYLAND', labelLon: -76.9, labelLat: 38.8, labelSize: 13 },
+          { name: 'West Virginia' },
+          { name: 'North Carolina' },
+          { name: 'Tennessee' },
         ],
         dots: [
-          { name: 'Wilderness', date: 'May 5–7, 1864', lat: 38.32, lon: -77.73, heavy: true, anchor: 'end' },
+          { name: 'Wilderness', date: 'May 5–7, 1864', lat: 38.32, lon: -77.73, heavy: true, anchor: 'end', dateBelow: true },
           { name: 'Germanna Ford', lat: 38.408, lon: -77.747, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'Spotsylvania Court House', lat: 38.195, lon: -77.588, color: '#8a8175', anchor: 'start' },
           { name: 'Fredericksburg', lat: 38.3032, lon: -77.4605, color: '#8a8175', anchor: 'start' },

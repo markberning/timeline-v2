@@ -15,8 +15,11 @@ export const GAINES_MILL_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.3, lonMax: -76.5, latMin: 37, latMax: 38.2 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78, labelLat: 38.1 },
-          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' }, { name: 'Pennsylvania' },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.1, labelLat: 38.1 },
+          { name: 'Maryland' },
+          { name: 'West Virginia' },
+          { name: 'North Carolina' },
+          { name: 'Pennsylvania' },
         ],
         dots: [
           { name: 'Gaines\' Mill', date: 'Jun 27, 1862', lat: 37.57, lon: -77.29, heavy: true, anchor: 'start' },

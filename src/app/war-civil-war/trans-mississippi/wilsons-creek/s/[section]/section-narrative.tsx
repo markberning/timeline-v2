@@ -16,9 +16,15 @@ const WILSONS_CREEK_NARR: Record<string, Narr> = {
         caption: 'Wilson’s Creek sits in the southwest corner of Missouri, about ten miles below Springfield. It was the first big battle west of the Mississippi, fought three weeks after Bull Run in Virginia and quickly nicknamed “the Bull Run of the West.”',
         frame: { lonMin: -96.2, lonMax: -88.4, latMin: 35.7, latMax: 40.7 },
         states: [
-          { name: 'Missouri', tone: 'focus', label: 'MISSOURI', labelLon: -92.7, labelLat: 39.8 },
-          { name: 'Arkansas' }, { name: 'Kansas' }, { name: 'Iowa' }, { name: 'Illinois' },
-          { name: 'Kentucky' }, { name: 'Tennessee' }, { name: 'Nebraska' }, { name: 'Oklahoma' },
+          { name: 'Missouri', tone: 'focus', label: 'MISSOURI', labelLon: -95.4, labelLat: 40.2 },
+          { name: 'Arkansas', label: 'ARKANSAS', labelLon: -90.3, labelLat: 36.2, labelSize: 13 },
+          { name: 'Kansas', label: 'KANSAS', labelLon: -95.4, labelLat: 38.2, labelSize: 13 },
+          { name: 'Iowa' },
+          { name: 'Illinois', label: 'ILLINOIS', labelLon: -91.2, labelLat: 40.2, labelSize: 13 },
+          { name: 'Kentucky', label: 'KENTUCKY', labelLon: -89.3, labelLat: 36.6, labelSize: 13 },
+          { name: 'Tennessee' },
+          { name: 'Nebraska' },
+          { name: 'Oklahoma', label: 'OKLAHOMA', labelLon: -95.4, labelLat: 36.2, labelSize: 13 },
         ],
         dots: [
           { name: 'Wilson’s Creek', date: 'Aug 10, 1861', lat: 37.10, lon: -93.41, heavy: true, anchor: 'start' },

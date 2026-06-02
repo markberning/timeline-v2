@@ -15,8 +15,11 @@ const SECOND_PETERSBURG_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.1, lonMax: -76.3, latMin: 36.7, latMax: 38 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.6, labelLat: 37.8 },
-          { name: 'North Carolina' }, { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Tennessee' },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.5, labelLat: 37.9 },
+          { name: 'North Carolina' },
+          { name: 'Maryland' },
+          { name: 'West Virginia' },
+          { name: 'Tennessee' },
         ],
         dots: [
           { name: 'Petersburg', date: 'Jun 15–18, 1864', lat: 37.228, lon: -77.401, heavy: true, anchor: 'middle', dy: 24 },

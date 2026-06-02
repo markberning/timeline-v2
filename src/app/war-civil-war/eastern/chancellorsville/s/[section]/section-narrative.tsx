@@ -15,8 +15,10 @@ const CHANCELLORSVILLE_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.8, lonMax: -76.8, latMin: 37, latMax: 38.8 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.5, labelLat: 37.3 },
-          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.6, labelLat: 37.2 },
+          { name: 'Maryland', label: 'MARYLAND', labelLon: -77, labelLat: 38.6, labelSize: 13 },
+          { name: 'West Virginia' },
+          { name: 'North Carolina' },
         ],
         dots: [
           { name: 'Chancellorsville', date: 'Apr 30 – May 6, 1863', lat: 38.3106, lon: -77.6461, heavy: true, anchor: 'middle', dy: -30 },

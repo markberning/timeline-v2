@@ -15,8 +15,11 @@ const FRANKLIN_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -87.8, lonMax: -86, latMin: 35.1, latMax: 36.7 },
         states: [
-          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -87.5, labelLat: 36.5 },
-          { name: 'Kentucky' }, { name: 'Alabama' }, { name: 'Mississippi' }, { name: 'Georgia' },
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -87.6, labelLat: 36.5 },
+          { name: 'Kentucky' },
+          { name: 'Alabama' },
+          { name: 'Mississippi' },
+          { name: 'Georgia' },
         ],
         dots: [
           { name: 'Franklin', date: 'Nov 30, 1864', lat: 35.9251, lon: -86.8689, heavy: true, anchor: 'middle', dy: -30 },

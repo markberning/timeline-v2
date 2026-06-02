@@ -22,8 +22,10 @@ const FIRST_WINCHESTER_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.8, lonMax: -76.4, latMin: 37.8, latMax: 39.7 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.4, labelLat: 38.1 },
-          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Pennsylvania' },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.6, labelLat: 38 },
+          { name: 'Maryland', label: 'MARYLAND', labelLon: -77.4, labelLat: 39.5, labelSize: 13 },
+          { name: 'West Virginia', label: 'WEST VIRGINIA', labelLon: -78.6, labelLat: 39.5, labelSize: 13 },
+          { name: 'Pennsylvania' },
         ],
         dots: [
           { name: 'First Winchester', date: 'May 25, 1862', lat: 39.185, lon: -78.163, heavy: true, anchor: 'middle', dy: -30 },

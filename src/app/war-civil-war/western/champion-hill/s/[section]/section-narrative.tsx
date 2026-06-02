@@ -22,11 +22,14 @@ const CHAMPION_HILL_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -91.5, lonMax: -89.6, latMin: 31.7, latMax: 32.9 },
         states: [
-          { name: 'Mississippi', tone: 'focus', label: 'MISSISSIPPI', labelLon: -89.9, labelLat: 32.8 },
-          { name: 'Tennessee' }, { name: 'Arkansas' }, { name: 'Louisiana' }, { name: 'Alabama' },
+          { name: 'Mississippi', tone: 'focus', label: 'MISSISSIPPI', labelLon: -91.3, labelLat: 31.8 },
+          { name: 'Tennessee' },
+          { name: 'Arkansas' },
+          { name: 'Louisiana', label: 'LOUISIANA', labelLon: -91.3, labelLat: 32.8, labelSize: 13 },
+          { name: 'Alabama' },
         ],
         dots: [
-          { name: 'Champion Hill', date: 'May 16, 1863', lat: 32.2786, lon: -90.4381, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Champion Hill', date: 'May 16, 1863', lat: 32.2786, lon: -90.4381, heavy: true, anchor: 'middle', dy: 24, dateBelow: true },
           { name: 'Jackson', lat: 32.2988, lon: -90.1848, color: '#8a8175', anchor: 'start' },
           { name: 'Vicksburg', lat: 32.3526, lon: -90.8779, color: '#8a8175', anchor: 'end' },
         ],

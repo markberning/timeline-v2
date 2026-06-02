@@ -16,7 +16,10 @@ const MOBILE_BAY_NARR: Record<string, Narr> = {
         frame: { lonMin: -89, lonMax: -87.2, latMin: 29.6, latMax: 30.8 },
         states: [
           { name: 'Alabama', tone: 'focus', label: 'ALABAMA', labelLon: -87.5, labelLat: 30.7 },
-          { name: 'Mississippi' }, { name: 'Florida' }, { name: 'Georgia' }, { name: 'Tennessee' },
+          { name: 'Mississippi', label: 'MISSISSIPPI', labelLon: -88.8, labelLat: 30.7, labelSize: 13 },
+          { name: 'Florida', label: 'FLORIDA', labelLon: -87.4, labelLat: 30.3, labelSize: 13 },
+          { name: 'Georgia' },
+          { name: 'Tennessee' },
         ],
         dots: [
           { name: 'Mobile Bay', date: 'Aug 5, 1864', lat: 30.23, lon: -88.02, heavy: true, anchor: 'start' },

@@ -16,8 +16,11 @@ const SPOTSYLVANIA_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.6, lonMax: -76.6, latMin: 37, latMax: 38.8 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.3, labelLat: 37.3 },
-          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' }, { name: 'Tennessee' },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.4, labelLat: 37.2 },
+          { name: 'Maryland', label: 'MARYLAND', labelLon: -76.8, labelLat: 38.6, labelSize: 13 },
+          { name: 'West Virginia' },
+          { name: 'North Carolina' },
+          { name: 'Tennessee' },
         ],
         dots: [
           { name: 'Spotsylvania Court House', date: 'May 8–21, 1864', lat: 38.196, lon: -77.589, heavy: true, anchor: 'middle', dy: 24 },

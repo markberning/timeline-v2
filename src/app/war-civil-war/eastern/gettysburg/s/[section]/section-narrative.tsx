@@ -46,8 +46,11 @@ const GB_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -78.3, lonMax: -76.3, latMin: 39.3, latMax: 40.8 },
         states: [
-          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78, labelLat: 40.6 },
-          { name: 'Maryland' }, { name: 'Virginia' }, { name: 'West Virginia' }, { name: 'New Jersey' },
+          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78.1, labelLat: 40.7 },
+          { name: 'Maryland', label: 'MARYLAND', labelLon: -76.5, labelLat: 39.4, labelSize: 13 },
+          { name: 'Virginia' },
+          { name: 'West Virginia', label: 'WEST VIRGINIA', labelLon: -78.1, labelLat: 39.4, labelSize: 13 },
+          { name: 'New Jersey' },
         ],
         dots: [
           { name: 'Gettysburg', date: 'Jul 1–3, 1863', lat: 39.811, lon: -77.231, heavy: true, anchor: 'middle', dy: 24 },

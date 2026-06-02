@@ -20,8 +20,11 @@ const FORT_FISHER2_NARR: Record<string, Narr> = {
         caption: 'Fort Fisher sat at the tip of a long, narrow peninsula at the mouth of the Cape Fear River, about 18 miles (29 km) below the city of Wilmington, North Carolina. The fort guarded the river entrance that fed Wilmington, the last major port the Confederacy still held, and through it the blockade runners that kept Robert E. Lee’s army supplied. Take the fort, and the river, the city, and the supply line all closed behind it.',
         frame: { lonMin: -81.0, lonMax: -75.4, latMin: 33.0, latMax: 36.8 },
         states: [
-          { name: 'North Carolina', tone: 'focus', label: 'NORTH CAROLINA', labelLon: -79.6, labelLat: 35.4 },
-          { name: 'South Carolina' }, { name: 'Virginia' }, { name: 'Tennessee' }, { name: 'Georgia' },
+          { name: 'North Carolina', tone: 'focus', label: 'NORTH CAROLINA', labelLon: -80.1, labelLat: 36.4 },
+          { name: 'South Carolina', label: 'SOUTH CAROLINA', labelLon: -80.4, labelLat: 33.4, labelSize: 13 },
+          { name: 'Virginia' },
+          { name: 'Tennessee' },
+          { name: 'Georgia' },
         ],
         dots: [
           { name: 'Fort Fisher', date: 'Jan 13–15, 1865', lat: 33.97, lon: -77.92, heavy: true, anchor: 'start' },

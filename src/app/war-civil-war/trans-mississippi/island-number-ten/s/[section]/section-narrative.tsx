@@ -15,8 +15,11 @@ const ISLAND_NUMBER_TEN_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -90.3, lonMax: -87, latMin: 36, latMax: 37.5 },
         states: [
-          { name: 'Missouri', tone: 'focus', label: 'MISSOURI', labelLon: -89.8, labelLat: 37.3 },
-          { name: 'Tennessee' }, { name: 'Kentucky' }, { name: 'Illinois' }, { name: 'Arkansas' },
+          { name: 'Missouri', tone: 'focus', label: 'MISSOURI', labelLon: -90, labelLat: 37.4 },
+          { name: 'Tennessee', label: 'TENNESSEE', labelLon: -88.6, labelLat: 36.2, labelSize: 13 },
+          { name: 'Kentucky', label: 'KENTUCKY', labelLon: -87.4, labelLat: 37.4, labelSize: 13 },
+          { name: 'Illinois', label: 'ILLINOIS', labelLon: -88.6, labelLat: 37.4, labelSize: 13 },
+          { name: 'Arkansas' },
         ],
         dots: [
           { name: 'Island No. 10', date: 'Feb 28 – Apr 8, 1862', lat: 36.57, lon: -89.52, heavy: true, anchor: 'start' },

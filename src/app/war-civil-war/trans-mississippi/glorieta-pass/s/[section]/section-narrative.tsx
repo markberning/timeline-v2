@@ -15,8 +15,11 @@ export const GLORIETA_PASS_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -106.5, lonMax: -104.2, latMin: 35.1, latMax: 36.4 },
         states: [
-          { name: 'New Mexico', tone: 'focus', label: 'NEW MEXICO', labelLon: -105.5, labelLat: 36.2 },
-          { name: 'Colorado' }, { name: 'Texas' }, { name: 'Arizona' }, { name: 'Oklahoma' },
+          { name: 'New Mexico', tone: 'focus', label: 'NEW MEXICO', labelLon: -104.5, labelLat: 35.2 },
+          { name: 'Colorado' },
+          { name: 'Texas' },
+          { name: 'Arizona' },
+          { name: 'Oklahoma' },
         ],
         dots: [
           { name: 'Glorieta Pass', date: 'Mar 26–28, 1862', lat: 35.57, lon: -105.73, heavy: true, anchor: 'middle', dy: 24 },

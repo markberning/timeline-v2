@@ -16,8 +16,10 @@ const MANSFIELD_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -94.3, lonMax: -92.5, latMin: 31.3, latMax: 33 },
         states: [
-          { name: 'Louisiana', tone: 'focus', label: 'LOUISIANA', labelLon: -92.8, labelLat: 32.8 },
-          { name: 'Texas' }, { name: 'Arkansas' }, { name: 'Mississippi' },
+          { name: 'Louisiana', tone: 'focus', label: 'LOUISIANA', labelLon: -92.7, labelLat: 32.8 },
+          { name: 'Texas', label: 'TEXAS', labelLon: -94.1, labelLat: 31.5, labelSize: 13 },
+          { name: 'Arkansas' },
+          { name: 'Mississippi' },
         ],
         dots: [
           { name: 'Mansfield (Sabine Crossroads)', date: 'Apr 8, 1864', lat: 31.97, lon: -93.7, heavy: true, anchor: 'middle', dy: 24 },

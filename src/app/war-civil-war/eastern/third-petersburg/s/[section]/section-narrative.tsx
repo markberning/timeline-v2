@@ -23,8 +23,10 @@ const PETERSBURG3_NARR: Record<string, Narr> = {
         caption: 'Petersburg sits about 23 miles (37 km) south of Richmond, the Confederate capital, on the Appomattox River. Whoever held Petersburg held the railroads that fed Richmond, so for nine months Grant pinned Lee against both cities behind miles of trench. On April 1 Sheridan broke the Confederate right at Five Forks, out to the southwest; the next dawn the whole Union line came forward.',
         frame: { lonMin: -79.6, lonMax: -75.6, latMin: 36.2, latMax: 38.6 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.2, labelLat: 37.9 },
-          { name: 'North Carolina' }, { name: 'West Virginia' }, { name: 'Maryland' },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.1, labelLat: 36.6 },
+          { name: 'North Carolina', label: 'NORTH CAROLINA', labelLon: -79.2, labelLat: 36.4, labelSize: 13 },
+          { name: 'West Virginia' },
+          { name: 'Maryland', label: 'MARYLAND', labelLon: -76.1, labelLat: 38.4, labelSize: 13 },
         ],
         dots: [
           { name: 'Petersburg', date: 'Apr 2, 1865', lat: 37.23, lon: -77.40, heavy: true, anchor: 'start' },

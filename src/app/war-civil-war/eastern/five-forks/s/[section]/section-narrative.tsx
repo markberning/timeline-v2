@@ -22,8 +22,10 @@ const FIVE_FORKS_NARR: Record<string, Narr> = {
         caption: 'Five Forks was a plain country crossroads in Dinwiddie County, southwest of Petersburg, where five roads met in the woods. About three miles north of it ran the South Side Railroad, the last open rail line feeding Robert E. Lee’s army inside Petersburg. Hold the crossroads, and you held the railroad. Lose it, and the siege was over.',
         frame: { lonMin: -79.4, lonMax: -76.4, latMin: 36.6, latMax: 38.3 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.3, labelLat: 37.9 },
-          { name: 'North Carolina' }, { name: 'West Virginia' }, { name: 'Maryland' },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.2, labelLat: 38.1 },
+          { name: 'North Carolina' },
+          { name: 'West Virginia' },
+          { name: 'Maryland' },
         ],
         dots: [
           { name: 'Five Forks', date: 'Apr 1, 1865', lat: 37.16, lon: -77.61, heavy: true, anchor: 'end' },

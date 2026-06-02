@@ -16,8 +16,10 @@ const PORT_HUDSON_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -92.3, lonMax: -90.5, latMin: 30, latMax: 31.5 },
         states: [
-          { name: 'Louisiana', tone: 'focus', label: 'LOUISIANA', labelLon: -92, labelLat: 30.3 },
-          { name: 'Mississippi' }, { name: 'Arkansas' }, { name: 'Texas' },
+          { name: 'Louisiana', tone: 'focus', label: 'LOUISIANA', labelLon: -92.1, labelLat: 30.2 },
+          { name: 'Mississippi', label: 'MISSISSIPPI', labelLon: -90.7, labelLat: 31.4, labelSize: 13 },
+          { name: 'Arkansas' },
+          { name: 'Texas' },
         ],
         dots: [
           { name: 'Port Hudson', date: 'May 22 – Jul 9, 1863', lat: 30.717, lon: -91.282, heavy: true, anchor: 'middle', dy: 24 },

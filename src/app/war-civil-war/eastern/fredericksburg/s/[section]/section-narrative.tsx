@@ -16,7 +16,9 @@ const FREDERICKSBURG_NARR: Record<string, Narr> = {
         frame: { lonMin: -78.8, lonMax: -75.7, latMin: 36.9, latMax: 39.6 },
         states: [
           { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.3, labelLat: 39.3 },
-          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' },
+          { name: 'Maryland', label: 'MARYLAND', labelLon: -76.1, labelLat: 38.5, labelSize: 13 },
+          { name: 'West Virginia', label: 'WEST VIRGINIA', labelLon: -78.5, labelLat: 39.1, labelSize: 13 },
+          { name: 'North Carolina' },
         ],
         dots: [
           { name: 'Fredericksburg', date: 'Dec 11–15, 1862', lat: 38.301, lon: -77.461, heavy: true, anchor: 'middle', dy: -30 },

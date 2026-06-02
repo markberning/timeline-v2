@@ -15,8 +15,11 @@ const MISSIONARY_RIDGE_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -86.2, lonMax: -83.5, latMin: 33.1, latMax: 35.7 },
         states: [
-          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -84.2, labelLat: 35.4 },
-          { name: 'Georgia' }, { name: 'Alabama' }, { name: 'Kentucky' }, { name: 'North Carolina' },
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -84, labelLat: 35.4 },
+          { name: 'Georgia', label: 'GEORGIA', labelLon: -83.8, labelLat: 34.6, labelSize: 13 },
+          { name: 'Alabama', label: 'ALABAMA', labelLon: -85.9, labelLat: 33.4, labelSize: 13 },
+          { name: 'Kentucky' },
+          { name: 'North Carolina', label: 'NORTH CAROLINA', labelLon: -84.3, labelLat: 35, labelSize: 13 },
         ],
         dots: [
           { name: 'Missionary Ridge', date: 'Nov 25, 1863', lat: 35.02, lon: -85.24, heavy: true, anchor: 'middle', dy: -30 },

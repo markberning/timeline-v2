@@ -99,15 +99,20 @@ for (const file of FILES.sort()) {
       const name = str(o, 'name'); if (name == null) continue
       const lat = num(o, 'lat'), lon = num(o, 'lon')
       const anchor = str(o, 'anchor') ?? 'start'
-      const dx = num(o, 'dx'), dy = num(o, 'dy'), heavy = has(o, 'heavy'), date = str(o, 'date')
+      const dx = num(o, 'dx'), dy = num(o, 'dy'), heavy = has(o, 'heavy'), date = str(o, 'date'), dateBelow = has(o, 'dateBelow')
       const x = X(lon), y = Y(lat)
       const tx = x + (anchor === 'end' ? -(dx ?? 11) : anchor === 'middle' ? (dx ?? 0) : (dx ?? 11))
       const ty = y + (dy ?? (date ? -2 : 5))
       const fs = heavy ? 17 : 14.5
-      let w = name.length * charW(fs)
-      if (date) w += 9 + date.length * charW(fs) // date drawn inline, same size as the title
-      const left = anchor === 'end' ? tx - w : anchor === 'middle' ? tx - w / 2 : tx
-      boxes.push({ left, right: left + w, top: ty - 0.82 * fs, bottom: ty + 0.25 * fs, text: name + (date ? ' ' + date : '') })
+      const mkBox = (w, cy) => { const left = anchor === 'end' ? tx - w : anchor === 'middle' ? tx - w / 2 : tx; return { left, right: left + w, top: cy - 0.82 * fs, bottom: cy + 0.25 * fs, text: name } }
+      if (date && dateBelow) { // title line + date wrapped to a second line
+        boxes.push(mkBox(name.length * charW(fs), ty))
+        boxes.push(mkBox(date.length * charW(fs), ty + (heavy ? 20 : 18)))
+      } else {
+        let w = name.length * charW(fs)
+        if (date) w += 9 + date.length * charW(fs) // date inline on the same line
+        boxes.push(mkBox(w, ty))
+      }
     }
     // state labels
     for (const o of parseArrayObjects(body, 'states')) {

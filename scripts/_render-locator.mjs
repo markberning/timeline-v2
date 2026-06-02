@@ -73,15 +73,17 @@ for (const file of FILES.sort()) {
   for (const o of arrObjs(body, 'dots')) {
     const name = str(o, 'name'); const lat = num(o, 'lat'), lon = num(o, 'lon')
     const col = (o.match(/color:\s*'([^']*)'/) || [])[1] || accent
-    const anchor = str(o, 'anchor') ?? 'start'; const dx = num(o, 'dx'), dy = num(o, 'dy'); const heavy = has(o, 'heavy'); const date = str(o, 'date')
+    const anchor = str(o, 'anchor') ?? 'start'; const dx = num(o, 'dx'), dy = num(o, 'dy'); const heavy = has(o, 'heavy'); const date = str(o, 'date'); const dateBelow = has(o, 'dateBelow')
     const x = X(lon), y = Y(lat), r = heavy ? 6 : 4.5
+    const fs = heavy ? 17 : 14.5
     const tx = x + (anchor === 'end' ? -(dx ?? 11) : anchor === 'middle' ? (dx ?? 0) : (dx ?? 11))
     const ty = y + (dy ?? (date ? -2 : 5))
     parts.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r}" fill="${col}"/>`)
     parts.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r + 3.5}" fill="none" stroke="${alpha(col, 0.25)}" stroke-width="2"/>`)
     if (name) {
-      const dtsp = date ? `<tspan dx="9" font-size="${heavy ? 17 : 14.5}" font-weight="600" fill="${alpha(col, 0.95)}">${esc(date)}</tspan>` : ''
-      parts.push(`<text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" font-family="Menlo, monospace" text-anchor="${anchor}" stroke="${BG}" stroke-width="6" stroke-linejoin="round" paint-order="stroke"><tspan font-size="${heavy ? 17 : 14.5}" font-weight="${heavy ? 700 : 500}" fill="${FGc}">${esc(name)}</tspan>${dtsp}</text>`)
+      const dtInline = (date && !dateBelow) ? `<tspan dx="9" font-size="${fs}" font-weight="600" fill="${alpha(col, 0.95)}">${esc(date)}</tspan>` : ''
+      parts.push(`<text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" font-family="Menlo, monospace" text-anchor="${anchor}" stroke="${BG}" stroke-width="6" stroke-linejoin="round" paint-order="stroke"><tspan font-size="${fs}" font-weight="${heavy ? 700 : 500}" fill="${FGc}">${esc(name)}</tspan>${dtInline}</text>`)
+      if (date && dateBelow) parts.push(`<text x="${tx.toFixed(1)}" y="${(ty + (heavy ? 20 : 18)).toFixed(1)}" font-family="Menlo, monospace" font-size="${fs}" font-weight="600" text-anchor="${anchor}" fill="${alpha(col, 0.95)}" stroke="${BG}" stroke-width="6" stroke-linejoin="round" paint-order="stroke">${esc(date)}</text>`)
     }
   }
   parts.push('</svg>')

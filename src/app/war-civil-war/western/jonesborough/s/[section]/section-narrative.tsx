@@ -15,8 +15,11 @@ const JONESBOROUGH_NARR: Record<string, Narr> = {
         eyebrow: 'Where and when',
         frame: { lonMin: -85.3, lonMax: -83.5, latMin: 32.9, latMax: 34.2 },
         states: [
-          { name: 'Georgia', tone: 'focus', label: 'GEORGIA', labelLon: -85, labelLat: 33.1 },
-          { name: 'Tennessee' }, { name: 'Alabama' }, { name: 'South Carolina' }, { name: 'North Carolina' },
+          { name: 'Georgia', tone: 'focus', label: 'GEORGIA', labelLon: -85.1, labelLat: 33 },
+          { name: 'Tennessee' },
+          { name: 'Alabama' },
+          { name: 'South Carolina' },
+          { name: 'North Carolina' },
         ],
         dots: [
           { name: 'Jonesborough', date: 'Aug 31 – Sep 1, 1864', lat: 33.522, lon: -84.354, heavy: true, anchor: 'middle', dy: 24 },

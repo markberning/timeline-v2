@@ -18,7 +18,7 @@ export type Tone = 'focus' | 'gray' | 'faint'
 export type StateSpec = { name: string; tone?: Tone; color?: string; fill?: boolean; label?: string; labelLon?: number; labelLat?: number; labelSize?: number }
 // anchor 'middle' centers the label horizontally on the dot (for placing a title
 // directly above/below it via dy) — use all four sides of the dot to dodge clutter.
-export type Dot = { name?: string; date?: string; lat: number; lon: number; anchor?: 'start' | 'end' | 'middle'; dx?: number; dy?: number; heavy?: boolean; color?: string }
+export type Dot = { name?: string; date?: string; lat: number; lon: number; anchor?: 'start' | 'end' | 'middle'; dx?: number; dy?: number; heavy?: boolean; color?: string; dateBelow?: boolean }
 // A leader-line callout: a dot at the true site, its label floated into open
 // space and joined by a thin leader. `sub` lists co-located engagements (one per
 // line). Any label/sub line with an href becomes a tappable link to that page.
@@ -124,10 +124,13 @@ export function DottedMap({
                 <circle cx={x} cy={y} r={r} fill={col} />
                 <circle cx={x} cy={y} r={r + 3.5} fill="none" stroke={alpha(col, 0.25)} strokeWidth={2} />
                 {d.name && (
-                  <text x={tx} y={ty} fontFamily={MONO} textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={6} strokeLinejoin="round">
-                    <tspan fontSize={d.heavy ? 17 : 14.5} fontWeight={d.heavy ? 700 : 500} fill="var(--foreground)">{d.name}</tspan>
-                    {d.date && <tspan dx={9} fontSize={d.heavy ? 17 : 14.5} fontWeight={600} fill={alpha(col, 0.95)}>{d.date}</tspan>}
-                  </text>
+                  <>
+                    <text x={tx} y={ty} fontFamily={MONO} textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={6} strokeLinejoin="round">
+                      <tspan fontSize={d.heavy ? 17 : 14.5} fontWeight={d.heavy ? 700 : 500} fill="var(--foreground)">{d.name}</tspan>
+                      {d.date && !d.dateBelow && <tspan dx={9} fontSize={d.heavy ? 17 : 14.5} fontWeight={600} fill={alpha(col, 0.95)}>{d.date}</tspan>}
+                    </text>
+                    {d.date && d.dateBelow && <text x={tx} y={ty + (d.heavy ? 20 : 18)} fontFamily={MONO} fontSize={d.heavy ? 17 : 14.5} fontWeight={600} fill={alpha(col, 0.95)} textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={6} strokeLinejoin="round">{d.date}</text>}
+                  </>
                 )}
               </g>
             )

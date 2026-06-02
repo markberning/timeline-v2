@@ -22,8 +22,11 @@ const BLAKELEY_NARR: Record<string, Narr> = {
         caption: 'Fort Blakeley stood on high ground above the rivers north of Mobile Bay, in Baldwin County, Alabama, about six miles above its sister work at Spanish Fort. Major General Edward Canby (North) landed his army on the eastern shore of the bay and pushed up it, taking Spanish Fort first and then closing on Blakeley, the last earthwork guarding the back door to Mobile.',
         frame: { lonMin: -88.8, lonMax: -86.6, latMin: 29.8, latMax: 31.6 },
         states: [
-          { name: 'Alabama', tone: 'focus', label: 'ALABAMA', labelLon: -87.5, labelLat: 31.2 },
-          { name: 'Mississippi' }, { name: 'Florida' }, { name: 'Georgia' }, { name: 'Tennessee' },
+          { name: 'Alabama', tone: 'focus', label: 'ALABAMA', labelLon: -86.9, labelLat: 31.4 },
+          { name: 'Mississippi', label: 'MISSISSIPPI', labelLon: -88.6, labelLat: 31.4, labelSize: 13 },
+          { name: 'Florida', label: 'FLORIDA', labelLon: -87.3, labelLat: 31, labelSize: 13 },
+          { name: 'Georgia' },
+          { name: 'Tennessee' },
         ],
         dots: [
           { name: 'Fort Blakeley', date: 'Apr 9, 1865', lat: 30.74, lon: -87.91, heavy: true, anchor: 'middle', dy: -30 },
@@ -95,5 +98,5 @@ const BLAKELEY_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={BLAKELEY_NARR} id={id} slug="fort-blakeley" battleName="Fort Blakeley" theatreId="west" theatreHref="/war-civil-war/western" battleId="w-blakeley" />
+  return <BattleSectionReader sections={BLAKELEY_NARR} id={id} slug="fort-blakeley" battleName="Fort Blakeley" theatreId="west" theatreHref="/war-civil-war/western" battleId="w-blakeley" accent="#1d4ed8" />
 }

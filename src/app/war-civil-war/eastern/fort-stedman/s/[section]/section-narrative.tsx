@@ -24,12 +24,14 @@ const FORT_STEDMAN_NARR: Record<string, Narr> = {
         caption: 'Petersburg sits about 23 miles (37 km) south of Richmond, the rail hub that kept both the Confederate capital and Lee’s army fed. For nine months two armies had faced each other across miles of trenches here. Gordon’s target was Grant’s supply base at City Point, downriver to the northeast, where the Appomattox meets the James.',
         frame: { lonMin: -79.4, lonMax: -76.6, latMin: 36.7, latMax: 38.1 },
         states: [
-          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.6, labelLat: 37.7 },
-          { name: 'North Carolina' }, { name: 'Maryland' },
-          { name: 'West Virginia' }, { name: 'Delaware' },
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.3, labelLat: 38 },
+          { name: 'North Carolina' },
+          { name: 'Maryland' },
+          { name: 'West Virginia' },
+          { name: 'Delaware' },
         ],
         dots: [
-          { name: 'Petersburg', date: 'Mar 25, 1865', lat: 37.23, lon: -77.40, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Fort Stedman (Petersburg)', date: 'Mar 25, 1865', lat: 37.23, lon: -77.40, heavy: true, anchor: 'middle', dy: 24, dateBelow: true },
           { name: 'Richmond', lat: 37.54, lon: -77.43, color: '#8a8175', anchor: 'end' },
           { name: 'City Point', lat: 37.32, lon: -77.29, color: '#8a8175', anchor: 'end' },
           { name: 'Appomattox C.H.', lat: 37.38, lon: -78.80, color: '#8a8175', anchor: 'end' },

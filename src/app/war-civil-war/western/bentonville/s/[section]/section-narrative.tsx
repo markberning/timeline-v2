@@ -25,11 +25,14 @@ const BENTONVILLE_NARR: Record<string, Narr> = {
         caption: 'Bentonville sits in the flat pine country of central North Carolina, on the Goldsboro Road near Mill Creek. William T. Sherman was driving northeast out of South Carolina toward Goldsboro, where two more Union armies waited to join him. Joseph E. Johnston (South) gathered the scraps of the Confederacy in the West and threw them at one wing of Sherman’s column here, a long day’s march short of the junction.',
         frame: { lonMin: -79.6, lonMax: -77.0, latMin: 34.8, latMax: 36.4 },
         states: [
-          { name: 'North Carolina', tone: 'focus', label: 'NORTH CAROLINA', labelLon: -78.6, labelLat: 36.1 },
-          { name: 'South Carolina' }, { name: 'Virginia' }, { name: 'Georgia' }, { name: 'Tennessee' },
+          { name: 'North Carolina', tone: 'focus', label: 'NORTH CAROLINA', labelLon: -77.3, labelLat: 36.2 },
+          { name: 'South Carolina' },
+          { name: 'Virginia' },
+          { name: 'Georgia' },
+          { name: 'Tennessee' },
         ],
         dots: [
-          { name: 'Bentonville', date: 'Mar 19–21, 1865', lat: 35.31, lon: -78.32, heavy: true, anchor: 'end' },
+          { name: 'Bentonville', date: 'Mar 19–21, 1865', lat: 35.31, lon: -78.32, heavy: true, anchor: 'end', dateBelow: true },
           { name: 'Goldsboro', lat: 35.38, lon: -77.99, color: '#8a8175', anchor: 'start' },
           { name: 'Raleigh', lat: 35.78, lon: -78.64, color: '#8a8175', anchor: 'end' },
           { name: 'Smithfield', lat: 35.51, lon: -78.34, color: '#8a8175', anchor: 'end' },
