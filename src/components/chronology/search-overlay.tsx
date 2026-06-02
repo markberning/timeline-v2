@@ -14,16 +14,26 @@ interface SearchEntry {
   tlId: string
   label: string
   region: string
-  chapters: { number: number; title: string; sentences: string[] }[]
+  // war/art entries carry these; civ entries omit them (type defaults to civ)
+  type?: 'war' | 'art' | 'music'
+  color?: string   // explicit accent (war theatre / art); else REGION_COLORS[region]
+  href?: string    // base page href for non-civ entries
+  theatre?: string // section label shown beside the title (e.g. "Eastern Theatre")
+  chapters: { number: number; title: string; sentences: string[]; sectionId?: string }[]
 }
 
 interface SearchResult {
   tlId: string
   label: string
   region: string
+  type?: 'war' | 'art' | 'music'
+  color?: string
+  href?: string
+  theatre?: string
   chapters: {
     number: number
     title: string
+    sectionId?: string
     matches: string[] // matched sentences
   }[]
 }
@@ -57,12 +67,12 @@ function searchIndex(index: SearchEntry[], query: string, limit = 150): SearchRe
         }
       }
       if (matches.length > 0) {
-        chapMatches.push({ number: ch.number, title: ch.title, matches })
+        chapMatches.push({ number: ch.number, title: ch.title, sectionId: ch.sectionId, matches })
       }
     }
 
     if (chapMatches.length > 0) {
-      results.push({ tlId: entry.tlId, label: entry.label, region: entry.region, chapters: chapMatches })
+      results.push({ tlId: entry.tlId, label: entry.label, region: entry.region, type: entry.type, color: entry.color, href: entry.href, theatre: entry.theatre, chapters: chapMatches })
     }
   }
 
@@ -180,7 +190,7 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
             autoFocus
             value={query}
             onChange={e => setQuery(e.target.value)}
-            placeholder="Search all civilizations..."
+            placeholder="Search civilizations, wars & art..."
             className="flex-1 bg-transparent text-[16px] font-[family-name:var(--font-lora)] italic outline-none placeholder:text-foreground/30"
           />
           {query && (
@@ -199,7 +209,7 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
           <div className="text-[11px] text-foreground/40 mt-2">
             {totalMatches === 0
               ? 'No results'
-              : `${totalMatches} match${totalMatches !== 1 ? 'es' : ''} across ${results.length} civ${results.length !== 1 ? 's' : ''}`
+              : `${totalMatches} match${totalMatches !== 1 ? 'es' : ''} across ${results.length} source${results.length !== 1 ? 's' : ''}`
             }
           </div>
         )}
@@ -218,31 +228,41 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
         )}
 
         {results.map(result => {
-          const color = REGION_COLORS[result.region] ?? '#6b7280'
+          const color = result.color ?? REGION_COLORS[result.region] ?? '#6b7280'
+          const isWar = result.type === 'war'
           return (
             <div key={result.tlId} className="mb-5">
-              {/* Civ header */}
+              {/* Source header */}
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: color }} />
                 <span className="text-[13px] font-bold" style={{ color }}>
                   {result.label}
                 </span>
+                {result.theatre && (
+                  <span className="text-[10px] uppercase tracking-wider text-foreground/35">{result.theatre}</span>
+                )}
               </div>
 
-              {/* Chapter results */}
+              {/* Chapter / section results */}
               {result.chapters.map(ch => (
                 <div key={ch.number} className="ml-4 mb-3">
                   <div className="text-[11px] font-bold uppercase tracking-wider text-foreground/40 mb-1">
-                    Ch {ch.number} · {ch.title}
+                    {isWar ? ch.title : `Ch ${ch.number} · ${ch.title}`}
                   </div>
                   {ch.matches.map((sentence, i) => (
                     <button
                       key={i}
                       className="block w-full text-left py-1.5 text-[13px] leading-snug text-foreground/65 border-b border-foreground/5 last:border-b-0 cursor-pointer"
                       onClick={() => {
-                        // Pass a unique snippet from this sentence so the reader finds the exact paragraph
-                        const snippet = sentence.slice(0, 60).trim()
-                        window.location.href = `/civ/${result.tlId}/?chapter=${ch.number}&highlight=${encodeURIComponent(query.trim())}&snippet=${encodeURIComponent(snippet)}`
+                        if (result.href) {
+                          // war/art: navigate to the section page (or the entry's
+                          // page if it isn't split into section routes)
+                          window.location.href = ch.sectionId ? `${result.href}/s/${ch.sectionId}` : result.href
+                        } else {
+                          // civ: pass a unique snippet so the reader scrolls to + highlights the paragraph
+                          const snippet = sentence.slice(0, 60).trim()
+                          window.location.href = `/civ/${result.tlId}/?chapter=${ch.number}&highlight=${encodeURIComponent(query.trim())}&snippet=${encodeURIComponent(snippet)}`
+                        }
                       }}
                     >
                       <HighlightedText text={sentence} query={query.trim()} />
