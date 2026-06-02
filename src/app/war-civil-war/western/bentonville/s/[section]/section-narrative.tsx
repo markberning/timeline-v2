@@ -29,10 +29,10 @@ const BENTONVILLE_NARR: Record<string, Narr> = {
           { name: 'South Carolina' }, { name: 'Virginia' }, { name: 'Georgia' }, { name: 'Tennessee' },
         ],
         dots: [
-          { name: 'Bentonville', date: 'Mar 19–21, 1865', lat: 35.31, lon: -78.32, heavy: true, anchor: 'start' },
-          { name: 'Goldsboro', lat: 35.38, lon: -77.99, color: '#8a8175', anchor: 'start', dy: -16 },
+          { name: 'Bentonville', date: 'Mar 19–21, 1865', lat: 35.31, lon: -78.32, heavy: true, anchor: 'end' },
+          { name: 'Goldsboro', lat: 35.38, lon: -77.99, color: '#8a8175', anchor: 'start' },
           { name: 'Raleigh', lat: 35.78, lon: -78.64, color: '#8a8175', anchor: 'end' },
-          { name: 'Smithfield', lat: 35.51, lon: -78.34, color: '#8a8175', anchor: 'start' },
+          { name: 'Smithfield', lat: 35.51, lon: -78.34, color: '#8a8175', anchor: 'end' },
         ],
       } },
       { p: 'By the early spring of 1865, the war the South had started to protect slavery was visibly ending, and everyone could read the arithmetic. Robert E. Lee was pinned in the trenches around Petersburg, Virginia, his army wasting away. And in the Carolinas, William T. Sherman was loose. He had burned a path across Georgia to the sea, taken Savannah as a Christmas gift for Abraham Lincoln, then turned north into South Carolina, the cradle of secession, and wrecked it. Now he was in North Carolina, marching for the town of Goldsboro, where two more Union armies were waiting to fold into his. Once they joined, he would have well over eighty thousand men and a clear road into Lee’s rear.' },
