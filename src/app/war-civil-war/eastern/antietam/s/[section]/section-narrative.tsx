@@ -22,15 +22,15 @@ const ANTIETAM_NARR: Record<string, Narr> = {
       { locator: {
         eyebrow: 'Where and when · September 1862',
         caption: 'Sharpsburg sits in western Maryland, on Antietam Creek a few miles above the Potomac. Lee crossed into Maryland near Frederick, sent Jackson back across the river to take the Union garrison at Harpers Ferry, then pulled his scattered army together at Sharpsburg, a long day’s march north of Washington.',
-        frame: { lonMin: -80.4, lonMax: -74.6, latMin: 37.1, latMax: 40.6 },
+        frame: { lonMin: -78.6, lonMax: -76.2, latMin: 38.5, latMax: 39.9 },
         states: [
           { name: 'Maryland', tone: 'focus', label: 'MARYLAND', labelLon: -76.5, labelLat: 38.7 },
           { name: 'Virginia' }, { name: 'Pennsylvania' }, { name: 'West Virginia' },
           { name: 'Delaware' }, { name: 'New Jersey' }, { name: 'Ohio' },
         ],
         dots: [
-          { name: 'Sharpsburg', date: 'Sept 17, 1862', lat: 39.46, lon: -77.75, heavy: true, anchor: 'start' },
-          { name: 'Frederick', lat: 39.41, lon: -77.41, color: '#8a8175', anchor: 'end' },
+          { name: 'Sharpsburg', date: 'Sept 17, 1862', lat: 39.46, lon: -77.75, heavy: true, anchor: 'start', dy: -12 },
+          { name: 'Frederick', lat: 39.41, lon: -77.41, color: '#8a8175', anchor: 'start' },
           { name: 'Harpers Ferry', lat: 39.32, lon: -77.74, color: '#8a8175', anchor: 'start' },
           { name: 'Washington', lat: 38.91, lon: -77.04, color: '#8a8175', anchor: 'end' },
         ],

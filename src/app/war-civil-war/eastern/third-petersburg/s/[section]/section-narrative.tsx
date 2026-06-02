@@ -29,7 +29,7 @@ const PETERSBURG3_NARR: Record<string, Narr> = {
         dots: [
           { name: 'Petersburg', date: 'Apr 2, 1865', lat: 37.23, lon: -77.40, heavy: true, anchor: 'start' },
           { name: 'Richmond', lat: 37.54, lon: -77.44, color: '#8a8175', anchor: 'end' },
-          { name: 'Five Forks', lat: 37.13, lon: -77.62, color: '#8a8175', anchor: 'start' },
+          { name: 'Five Forks', lat: 37.13, lon: -77.62, color: '#8a8175', anchor: 'end' },
           { name: 'Appomattox C.H.', lat: 37.38, lon: -78.80, color: '#8a8175', anchor: 'end' },
         ],
       } },

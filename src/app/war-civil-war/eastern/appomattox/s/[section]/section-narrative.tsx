@@ -21,7 +21,7 @@ const APPOMATTOX_NARR: Record<string, Narr> = {
       { locator: {
         eyebrow: 'Where and when · April 1865',
         caption: 'For nine months the two armies had been locked around Petersburg, the rail hub twenty miles below Richmond that fed both the Confederate capital and Lee’s army. When the line there finally broke, Lee abandoned both cities and ran west, hoping to swing south toward North Carolina. The Union army cut him off near a crossroads village called Appomattox Court House, about ninety miles to the west.',
-        frame: { lonMin: -81.6, lonMax: -75.4, latMin: 36.0, latMax: 39.4 },
+        frame: { lonMin: -79.9, lonMax: -76.6, latMin: 36.6, latMax: 38.3 },
         states: [
           { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -79.2, labelLat: 37.9 },
           { name: 'West Virginia' }, { name: 'North Carolina' },
