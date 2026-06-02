@@ -15,21 +15,24 @@ const HERO_IMG = '/war-img/antietam-hero.jpg' // Kurz & Allison chromolithograph
 const HERO_PAL = ['#3a2a1c', '#5a2a32', '#100506']
 
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Potomac', size: '~87,000', commander: 'Maj. Gen. George B. McClellan', note: 'Held back his reserves — committed less than three-quarters of his army.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '~38,000', commander: 'Gen. Robert E. Lee', note: 'Outnumbered two to one — and committed every man he had.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Army of the Potomac', size: '~87,000', commander: 'Maj. Gen. George B. McClellan', note: 'Held back his reserves; committed less than three-quarters of his army.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '~38,000', commander: 'Gen. Robert E. Lee', note: 'Outnumbered two to one, and committed every man he had.', color: ACCENTS.rust },
 ]
 const CAS = { union: 12410, csa: 10316, civ: 0 }
 const FIGURES = [
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' }, { name: 'T. J. Jackson', role: 'Left wing, CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg' },
-  { name: 'J. Longstreet', role: 'Right wing, CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg' }, { name: 'A. P. Hill', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/ap-hill.jpg' },
-  { name: 'G. McClellan', role: 'Cmdr., Potomac', side: 'U', img: '/war-img/cmdr/mcclellan.jpg' }, { name: 'J. Hooker', role: 'I Corps, Union', side: 'U', img: '/war-img/cmdr/hooker.jpg' },
-  { name: 'A. Burnside', role: 'IX Corps, Union', side: 'U', img: '/war-img/cmdr/burnside.jpg' },
+  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: 'Carrying the war north for the first time, Lee split his outnumbered army to seize Harpers Ferry, then concentrated at Sharpsburg and fought all day with his back to the Potomac and nothing in reserve. He held his ground by the barest margin and slipped back into Virginia the next night, his bid for a victory on Northern soil spent.' },
+  { name: 'Thomas J. “Stonewall” Jackson', role: 'Left wing, CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg', blurb: 'Detached to take Harpers Ferry, Jackson captured its garrison of more than 12,000 men on September 15, the largest surrender of United States troops in the war, then hurried his wing north to reach the field in time. He held Lee’s left through the morning slaughter in the Cornfield and sprang the trap in the West Woods that wrecked a Union division in twenty minutes.' },
+  { name: 'James Longstreet', role: 'Right wing, CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg', blurb: 'Longstreet held the Confederate center and right through the day’s heaviest pressure, steadying the line around the Sunken Road as Union assaults tore at it. His work at Sharpsburg earned him the name Lee used ever after: his “old war horse.”' },
+  { name: 'A. P. Hill', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/ap-hill.jpg', blurb: 'Left at Harpers Ferry to handle the surrender, Hill drove his Light Division roughly 17 miles to Sharpsburg in a single afternoon, some of his men in Union blue captured at the garrison. They reached the field at the last possible moment and slammed into Burnside’s exposed flank, saving Lee’s right from collapse.' },
+  { name: 'George B. McClellan', role: 'Cmdr., Potomac', side: 'U', img: '/war-img/cmdr/mcclellan.jpg', blurb: 'Handed a lost copy of Lee’s own marching orders, McClellan brought more than 87,000 men against Lee’s 38,000 and still believed himself outnumbered. He attacked in disconnected pieces, kept a whole corps in reserve as Lee’s line broke, and let the beaten army escape across the Potomac; Lincoln relieved him in November.' },
+  { name: 'Joseph Hooker', role: 'I Corps, Union', side: 'U', img: '/war-img/cmdr/hooker.jpg', blurb: 'Hooker opened the battle at dawn, driving his I Corps south into Miller’s Cornfield in the morning’s first and bloodiest assault. A few hours in he was shot through the foot and carried from the field, and his attack stalled behind him.' },
+  { name: 'Ambrose Burnside', role: 'IX Corps, Union', side: 'U', img: '/war-img/cmdr/burnside.jpg', blurb: 'Burnside spent much of the afternoon forcing a narrow stone bridge that a few hundred Georgians held against his whole corps, though the creek could be waded nearby. He finally crossed and pushed toward Sharpsburg into Lee’s rear, only to be thrown back by A. P. Hill’s late arrival; the bridge has carried his name ever since.' },
 ]
 const SECTIONS = [
-  { id: 'lost-order', eyebrow: 'Lee invades the North', title: 'The Lost Order', blurb: 'Lee (South) invades the North. A Union soldier finds Lee’s battle plan wrapped around three cigars — and McClellan (North) sits on it for eighteen hours.' },
+  { id: 'lost-order', eyebrow: 'Lee invades the North', title: 'The Lost Order', blurb: 'Lee invades the North. A Union soldier finds Lee’s battle plan wrapped around three cigars, and McClellan sits on it for eighteen hours.' },
   { id: 'cornfield', eyebrow: 'The morning', title: 'The Cornfield', blurb: 'Dawn slaughter at Miller’s Cornfield and the Dunker Church; 2,200 men fall in the West Woods in about twenty minutes.' },
-  { id: 'bridge', eyebrow: 'Midday & afternoon', title: 'The Bloody Lane & the Bridge', blurb: 'The center breaks at the Sunken Road — but the reserves never move. A. P. Hill (South) arrives from Harpers Ferry just in time to save Lee.' },
-  { id: 'bloodiest', eyebrow: 'The cost & the meaning', title: 'The bloodiest day', blurb: '22,726 casualties in a single day. Brady’s photographs of the dead — and five days later, the Emancipation Proclamation.' },
+  { id: 'bridge', eyebrow: 'Midday & afternoon', title: 'The Bloody Lane & the Bridge', blurb: 'The center breaks at the Sunken Road, but the reserves never move. A. P. Hill (South) arrives from Harpers Ferry just in time to save Lee.' },
+  { id: 'bloodiest', eyebrow: 'The cost & the meaning', title: 'The bloodiest day', blurb: '22,726 casualties in a single day. Brady photographs the dead, and five days later comes the Emancipation Proclamation.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'lost-order': '/war-img/antietam-lost-order.jpg',
@@ -127,7 +130,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union strategic victory · the road to Emancipation</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Tactically the bloodiest day in American history was close to a draw — the Union lost more men, and Lee’s army escaped intact back across the Potomac. Strategically it was decisive: Lee’s first invasion of the North was turned back, handing Lincoln the victory he had been waiting for. Five days later he issued the preliminary Emancipation Proclamation, changing what the war was for and ending any real hope of British or French recognition of the Confederacy. McClellan’s refusal to pursue the beaten enemy cost him his command that November.
+          Tactically the bloodiest day in American history was close to a draw: the Union lost more men, and Lee’s army escaped intact back across the Potomac. Strategically it was decisive. Lee’s first invasion of the North was turned back, handing Lincoln the victory he had been waiting for. Five days later he issued the preliminary Emancipation Proclamation, changing what the war was for and ending any real hope of British or French recognition of the Confederacy. McClellan’s refusal to pursue the beaten enemy cost him his command that November.
         </p>
       </div>
     </div>
@@ -136,18 +139,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}
