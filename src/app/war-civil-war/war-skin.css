@@ -138,6 +138,11 @@
 .war-skin .p-chap .yr { font: 400 11px/1 var(--mono); color: var(--muted); flex: 0 0 auto; }
 .war-skin .p-chap .arr { flex: 0 0 auto; color: var(--muted); }
 
+/* ---- off-the-field phase headings (bigger than the rows, no double rule) ---- */
+.war-skin .p-phasegrp { margin-top: 26px; }
+.war-skin .p-phase { font: 600 21px/1.15 var(--serif); color: var(--ink); margin: 0 0 2px; }
+.war-skin .p-phasegrp .p-chap:first-of-type { border-top: 0; padding-top: 10px; }
+
 /* ---- theatres ---- */
 .war-skin .p-theatres { display: flex; flex-direction: column; gap: 10px; }
 .war-skin .p-th { border: 1px solid var(--line); border-radius: 9px; background: var(--paper-2); padding: 15px; transition: border-color .15s; text-decoration: none; color: inherit; display: block; }
@@ -224,6 +229,89 @@
 .war-skin .p-cmdcard.u .meta { color: var(--union); }
 .war-skin .p-cmdcard.c .meta { color: var(--confed); }
 .war-skin .p-cmdcard .ep { display: block; margin-top: 3px; font: italic 400 11.5px/1.35 var(--serif); color: var(--muted); }
+
+/* ===================== BATTLE PAGE (.bp-*) =====================
+   Tabbed dossier (At a glance / Commanders / Outcome / Narrative). Decorative
+   accents read from --accent (set per-battle to the theatre color); the two
+   SIDES keep the union/confed palette. Ported from the design handoff and
+   adapted to riding `.dark` + real commander photos. */
+.war-skin .bp-crumbs { display: flex; align-items: center; gap: 7px; padding: 12px 18px; font: 600 11.5px/1 var(--sans); flex-wrap: wrap; }
+.war-skin .bp-crumbs a { color: var(--ink-soft); text-decoration: none; }
+.war-skin .bp-crumbs .sep { color: var(--muted); opacity: .65; font: 400 13px/1 var(--serif); }
+.war-skin .bp-crumbs .cur { color: var(--muted); }
+
+.war-skin .bp-mast { padding: 16px 18px 2px; }
+.war-skin .bp-mast .p-eyebrow { color: var(--accent); }
+.war-skin .bp-title { font: 600 32px/1.05 var(--serif); letter-spacing: -.01em; color: var(--ink); margin: 11px 0 12px; text-wrap: balance; }
+.war-skin .bp-meta { font: 500 12px/1.5 var(--mono); color: var(--muted); letter-spacing: .02em; }
+
+/* glance: stat strip */
+.war-skin .bp-stats { display: grid; grid-template-columns: repeat(3, 1fr); margin-bottom: 20px; }
+.war-skin .bp-stats .st { text-align: center; padding: 2px 6px; border-left: 1px solid var(--line-soft); }
+.war-skin .bp-stats .st:first-child { border-left: 0; }
+.war-skin .bp-stats .st b { display: block; font: 500 21px/1.05 var(--serif); color: var(--ink); }
+.war-skin .bp-stats .st.win.u b { color: var(--union); }
+.war-skin .bp-stats .st.win.c b { color: var(--confed); }
+.war-skin .bp-stats .st span { display: block; font: 600 9px/1.2 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-top: 7px; }
+
+/* glance: the two armies */
+.war-skin .bp-vs { display: flex; flex-direction: column; }
+.war-skin .bp-side { border: 1px solid var(--line); border-radius: 10px; background: var(--paper-2); padding: 15px; }
+.war-skin .bp-side .tag { font: 700 10.5px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; display: flex; align-items: center; gap: 7px; }
+.war-skin .bp-side .tag .sq { width: 12px; height: 9px; border-radius: 1px; }
+.war-skin .bp-side.u .tag { color: var(--union); } .war-skin .bp-side.u .tag .sq { background: var(--union); }
+.war-skin .bp-side.c .tag { color: var(--confed); } .war-skin .bp-side.c .tag .sq { background: var(--confed); }
+.war-skin .bp-side .force { font: 600 18px/1.12 var(--serif); margin: 10px 0 3px; color: var(--ink); }
+.war-skin .bp-side .str { font: 600 12px/1 var(--mono); color: var(--ink-soft); }
+.war-skin .bp-side .cmd { font: 400 12.5px/1.3 var(--sans); color: var(--muted); margin-top: 7px; }
+.war-skin .bp-side .sidenote { font: italic 400 13px/1.45 var(--serif); color: var(--ink-soft); margin-top: 10px; }
+.war-skin .bp-vsbadge { align-self: center; margin: 8px 0; width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; font: italic 400 12px/1 var(--serif); color: var(--muted); background: var(--paper); }
+.war-skin .bp-note { font: 400 13.5px/1.55 var(--serif); color: var(--ink-soft); margin-top: 18px; border-left: 2px solid var(--accent); padding-left: 14px; }
+.war-skin .bp-note b { font-weight: 600; font-style: normal; color: var(--ink); }
+.war-skin .bp-cas { margin-top: 18px; }
+.war-skin .bp-cas .bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; margin-bottom: 9px; }
+.war-skin .bp-cas .bar i { height: 100%; }
+.war-skin .bp-cas .legend { display: flex; gap: 14px; flex-wrap: wrap; }
+.war-skin .bp-cas .legend span { display: inline-flex; align-items: center; gap: 6px; font: 500 11px/1 var(--sans); color: var(--ink-soft); }
+.war-skin .bp-cas .legend span i { width: 9px; height: 9px; border-radius: 2px; }
+
+/* commanders: photo rows */
+.war-skin .bp-cmd { display: flex; gap: 14px; padding: 17px 0; border-top: 1px solid var(--line-soft); align-items: flex-start; }
+.war-skin .bp-cmd:first-of-type { border-top: 0; padding-top: 2px; }
+.war-skin .bp-cmd .pic { width: 58px; height: 58px; border-radius: 50%; flex: 0 0 auto; overflow: hidden; background: linear-gradient(135deg, #3a2e21, #1c1814); border: 1px solid var(--line); }
+.war-skin .bp-cmd .pic img { width: 100%; height: 100%; object-fit: cover; object-position: center 18%; }
+.war-skin .bp-cmd .bd { flex: 1; min-width: 0; }
+.war-skin .bp-cmd .bd .nm { font: 600 16px/1.1 var(--serif); color: var(--ink); }
+.war-skin .bp-cmd .bd .role { display: flex; align-items: center; gap: 8px; margin: 6px 0 9px; }
+.war-skin .bp-cmd .bd .role .sd { font: 700 8.5px/1 var(--sans); letter-spacing: .07em; padding: 3px 7px; border-radius: 999px; color: #fff; flex: 0 0 auto; }
+.war-skin .bp-cmd.u .bd .role .sd { background: var(--union); }
+.war-skin .bp-cmd.c .bd .role .sd { background: var(--confed); }
+.war-skin .bp-cmd .bd .role .rl { font: 600 9px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.war-skin .bp-cmd .bd .bio { font: 400 12.5px/1.5 var(--sans); color: var(--ink-soft); }
+
+/* outcome */
+.war-skin .bp-outcome { border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 10px; background: var(--paper-2); padding: 16px; }
+.war-skin .bp-outcome .vt { display: flex; align-items: center; gap: 10px; font: 600 15.5px/1.25 var(--serif); margin-bottom: 11px; color: var(--ink); }
+.war-skin .bp-outcome .vt .ck { width: 22px; height: 22px; border-radius: 50%; background: var(--accent); color: #fff; display: flex; align-items: center; justify-content: center; flex: 0 0 auto; }
+.war-skin .bp-outcome p { font: 400 13.5px/1.55 var(--sans); color: var(--ink-soft); margin: 0; }
+
+/* narrative section list */
+.war-skin .bp-narr { display: flex; flex-direction: column; gap: 10px; }
+.war-skin .bp-nsec { display: flex; gap: 13px; border: 1px solid var(--line); border-radius: 10px; background: var(--paper-2); padding: 14px 15px; align-items: flex-start; text-decoration: none; color: inherit; }
+.war-skin .bp-nsec .no { font: 400 16px/1 var(--mono); color: var(--accent); flex: 0 0 auto; width: 18px; padding-top: 1px; }
+.war-skin .bp-nsec .bd { flex: 1; min-width: 0; }
+.war-skin .bp-nsec .bd .ey { font: 600 9px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.war-skin .bp-nsec .bd .t { font: 600 16px/1.2 var(--serif); margin: 5px 0 4px; color: var(--ink); }
+.war-skin .bp-nsec .bd .d { font: 400 12.5px/1.42 var(--sans); color: var(--muted); }
+.war-skin .bp-nsec .thumb { flex: 0 0 auto; width: 64px; height: 50px; border-radius: 7px; overflow: hidden; background: linear-gradient(135deg, #3a2e21, #1c1814); align-self: center; }
+.war-skin .bp-nsec .thumb img { width: 100%; height: 100%; object-fit: cover; object-position: center 42%; }
+.war-skin .bp-nsec .chev { color: var(--muted); flex: 0 0 auto; align-self: center; }
+
+/* footer */
+.war-skin .bp-foot { padding: 22px 18px 60px; border-top: 1px solid var(--line-soft); margin-top: 10px; }
+.war-skin .bp-foot a { display: flex; align-items: center; justify-content: space-between; gap: 14px; font: 600 14px/1.25 var(--serif); color: var(--ink); text-decoration: none; }
+.war-skin .bp-foot a .sub { display: block; font: 600 9px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 5px; }
+.war-skin .bp-foot a .arr { flex: 0 0 auto; color: var(--muted); }
 
 /* theme switch in header */
 .war-skin .p-themeswitch { display: inline-flex; background: var(--paper-3); border-radius: 20px; padding: 3px; gap: 2px; flex: 0 0 auto; }

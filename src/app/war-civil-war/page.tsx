@@ -173,8 +173,8 @@ function OffFieldTab() {
         const items = THEMES.filter(t => t.phase === k)
         if (!items.length) return null
         return (
-          <div key={k}>
-            <div className="p-yr"><span className="ylab" style={{ fontSize: 13 }}>{label}</span><span className="yline" /></div>
+          <div className="p-phasegrp" key={k}>
+            <h3 className="p-phase p-serif">{label}</h3>
             {items.map(t => (
               <a className="p-chap" key={t.id} href={t.href}>
                 <span className="bd"><b className="p-serif">{t.short ?? t.name}</b><span>{t.hook}</span></span>
