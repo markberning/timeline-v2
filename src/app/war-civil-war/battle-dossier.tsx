@@ -10,6 +10,11 @@
 import './war-skin.css'
 import { useEffect, useRef, useState } from 'react'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
+import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
+
+// concrete theatre hexes for the breadcrumb's accent math (alpha()); the bp-*
+// styling reads the CSS-var theatre colors instead.
+const TH_HEX: Record<Theatre, string> = { east: '#c79cd0', west: '#84c089', tmis: '#d8b25a', naval: '#5fb0cc' }
 
 // ---- inline icons (shared with the war home) ----
 const I = {
@@ -37,7 +42,8 @@ export type Side = 'u' | 'c'
 
 export type BattleData = {
   theatre: Theatre
-  crumbs: { label: string; href?: string }[]
+  crumbs: Crumb[]            // from civilWarCrumbs() — carries the jump dropdown
+  backHref?: string          // back-arrow target (defaults to the war home)
   eyebrow: string            // "Battle · Naval & Coastal"
   title: string
   date: string
@@ -119,22 +125,16 @@ export function BattleDossier({ data }: { data: BattleData }) {
     <div className="war-skin" style={{ ['--accent' as string]: accent } as React.CSSProperties}>
       {/* sticky header */}
       <header className="p-hdr">
-        <a className="back" href={data.crumbs[0]?.href || '/war-civil-war'} aria-label="Back">{I.back}</a>
+        <a className="back" href={data.backHref || '/war-civil-war'} aria-label="Back">{I.back}</a>
         <div className="wm"><b>American Civil War</b><span>Stuff Happened · War</span></div>
         <ThemeSwitch />
         <button className="p-iconbtn" onClick={() => setSearch(true)} aria-label="Search">{I.search}</button>
         <button className="p-iconbtn" onClick={() => setMenu(true)} aria-label="Menu">{I.menu}</button>
       </header>
 
-      {/* breadcrumb */}
-      <div className="bp-crumbs">
-        {data.crumbs.map((c, i) => (
-          <span key={i} style={{ display: 'contents' }}>
-            {i > 0 && <span className="sep">›</span>}
-            {c.href ? <a href={c.href}>{c.label}</a> : <span className="cur">{c.label}</span>}
-          </span>
-        ))}
-      </div>
+      {/* where-am-I trail — kept as the existing dual-action breadcrumb
+          (each crumb links, and tapping opens the theatre/battle jump dropdown) */}
+      <WarBreadcrumb crumbs={data.crumbs} accent={TH_HEX[data.theatre]} bare />
 
       {/* editorial masthead */}
       <div className="bp-mast">

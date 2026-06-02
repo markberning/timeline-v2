@@ -7,14 +7,11 @@
 // came by accident during the surrender salute.
 
 import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const DATA: BattleData = {
   theatre: 'naval',
-  crumbs: [
-    { label: 'ACW', href: '/war-civil-war' },
-    { label: 'Naval', href: '/war-civil-war/naval' },
-    { label: 'Fort Sumter' },
-  ],
+  crumbs: civilWarCrumbs({ theatre: 'naval', battleId: 'n-sumter' }),
   eyebrow: 'Battle · Naval & Coastal',
   title: 'Battle of Fort Sumter',
   date: 'April 12–14, 1861',

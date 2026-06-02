@@ -88,18 +88,15 @@ export interface Crumb {
 // opens its jump dropdown, and the menu items navigate. Earlier this was a split
 // pill (label navigates · chevron opens); flattened to text for a lighter bar.
 // applies across War (ACW/theatre rungs) and Art (era/movement/work).
-export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT }: { crumbs: Crumb[]; accent?: string }) {
+export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, bare = false }: { crumbs: Crumb[]; accent?: string; bare?: boolean }) {
   const bar = 'color-mix(in srgb, var(--background) 92%, transparent)'
   const border = '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)'
   const muted = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
   const faint = 'color-mix(in srgb, var(--foreground) 38%, transparent)'
   const chip = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
   const ell: React.CSSProperties = { minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }
-  return (
-    <div style={{ position: 'sticky', top: 0, zIndex: 8 }}>
-      {/* tier 1: the persistent thread switcher (Home · Civ · War · Art · Music) */}
-      <ThreadBar />
-      {/* tier 2: where-am-I within this thread (war/art drilldown trail) */}
+  // tier 2: the where-am-I trail (war/art drilldown), with dropdown crumbs.
+  const trail = (
     <div style={{
       background: bar,
       backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
@@ -128,6 +125,15 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT }: { crumbs: C
         })}
       </nav>
     </div>
+  )
+  // bare = just the trail (the new hamburger header owns tier-1; no ThreadBar,
+  // no own sticky wrapper). Full = the legacy stacked ThreadBar + trail.
+  if (bare) return trail
+  return (
+    <div style={{ position: 'sticky', top: 0, zIndex: 8 }}>
+      {/* tier 1: the persistent thread switcher (Home · Civ · War · Art · Music) */}
+      <ThreadBar />
+      {trail}
     </div>
   )
 }
