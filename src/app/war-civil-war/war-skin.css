@@ -144,7 +144,7 @@
 .war-skin .p-tl::before { content: ''; position: absolute; left: 4px; top: 6px; bottom: 6px; width: 2px; background: var(--line); }
 .war-skin .p-yr { display: flex; align-items: center; gap: 10px; margin: 18px 0 8px; }
 .war-skin .p-yr:first-child { margin-top: 2px; }
-.war-skin .p-yr .ylab { font: 600 13px/1 var(--mono); color: var(--ink); background: var(--paper); padding: 2px 0; }
+.war-skin .p-yr .ylab { font: 700 19px/1 var(--mono); color: var(--ink); background: var(--paper); padding: 2px 0; letter-spacing: .01em; }
 .war-skin .p-yr .yline { flex: 1; height: 1px; background: var(--line-soft); }
 .war-skin .p-bt { position: relative; padding: 11px 0; border-top: 1px solid var(--line-soft); text-decoration: none; color: inherit; display: block; }
 .war-skin .p-bt:first-of-type { border-top: 0; }
