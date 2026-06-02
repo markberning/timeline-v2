@@ -10,7 +10,7 @@
 
 import '../war-skin.css'
 import { WarBreadcrumb, WAR_ACCENT } from '@/components/mode/war-chrome'
-import { WarHeader } from '@/components/mode/war-header'
+import { WarHeader, WAR_ICONS } from '@/components/mode/war-header'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 import { CHAPTERS } from '@/lib/civil-war-roster'
 
@@ -32,7 +32,7 @@ export default function HowTheWarWasFoughtPage() {
       </div>
       <div className="p-credit">“Battle of Chattanooga” · Thure de Thulstrup (L. Prang &amp; Co.) · 1880 · public domain</div>
 
-      <div className="p-page">
+      <div className="p-page" style={{ paddingBottom: 12 }}>
         <p className="p-lead">Five chapters, 1861 to 1865 — the war as its commanders saw it unfold.</p>
         {spine.map((c, i) => {
           const yr = (c.date.match(/\d{4}/) || [''])[0]
@@ -48,12 +48,11 @@ export default function HowTheWarWasFoughtPage() {
                 <span className="yr p-mono">Soon</span>
               </div>
         })}
-        <a className="rd-next end" href="/war-civil-war">
-          <div style={{ minWidth: 0 }}>
-            <div className="k">Back to the war</div>
-            <div className="t">American Civil War</div>
-          </div>
-          <span className="arr" aria-hidden>↩</span>
+      </div>
+      <div className="bp-foot">
+        <a href="/war-civil-war">
+          <span>Part of <b className="p-serif">the American Civil War</b><span className="sub">All battles &amp; theatres</span></span>
+          <span className="arr">{WAR_ICONS.arr}</span>
         </a>
       </div>
     </div>

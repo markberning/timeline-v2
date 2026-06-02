@@ -9,7 +9,7 @@
 
 import '../war-skin.css'
 import { WarBreadcrumb } from '@/components/mode/war-chrome'
-import { WarHeader } from '@/components/mode/war-header'
+import { WarHeader, WAR_ICONS } from '@/components/mode/war-header'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 import { ACCENTS } from '@/components/mode/war-chrome'
 import { THEMES } from '@/lib/civil-war-roster'
@@ -37,7 +37,7 @@ export default function OffTheBattlefieldPage() {
       </div>
       <div className="p-credit">Thomas Nast, “Emancipation” (Harper’s Weekly, 1863) · public domain</div>
 
-      <div className="p-page">
+      <div className="p-page" style={{ paddingBottom: 12 }}>
         <p className="p-lead">The threads off the firing line, in the order they shaped the war — from the cotton economy that caused it to the reckoning that followed.</p>
         {OTBF_PHASES.map(([k, label]) => {
           const items = THEMES.filter(t => t.phase === k)
@@ -59,12 +59,11 @@ export default function OffTheBattlefieldPage() {
             </div>
           )
         })}
-        <a className="rd-next end" href="/war-civil-war">
-          <div style={{ minWidth: 0 }}>
-            <div className="k">Back to the war</div>
-            <div className="t">American Civil War</div>
-          </div>
-          <span className="arr" aria-hidden>↩</span>
+      </div>
+      <div className="bp-foot">
+        <a href="/war-civil-war">
+          <span>Part of <b className="p-serif">the American Civil War</b><span className="sub">All battles &amp; theatres</span></span>
+          <span className="arr">{WAR_ICONS.arr}</span>
         </a>
       </div>
     </div>
