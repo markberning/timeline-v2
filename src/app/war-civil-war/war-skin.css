@@ -17,9 +17,9 @@
   --eyebrow: #5c61a0;
   /* theatre palette (distinct from the union/confed SIDE colors) */
   --th-east: #8a5b86;   /* plum */
-  --th-west: #5f7d4e;   /* sage */
+  --th-west: #4e8a52;   /* green */
   --th-tmis: #b3852f;   /* gold */
-  --th-naval: #3f8074;  /* teal */
+  --th-naval: #2c7d99;  /* cyan-teal */
   --glass: rgba(244, 238, 226, .82);
   --chip: rgba(34, 32, 30, .05);
   --w-shadow: 0 1px 2px rgba(0, 0, 0, .05), 0 8px 24px rgba(0, 0, 0, .05);
@@ -49,9 +49,9 @@
   --confed: #df8158;
   --eyebrow: #9ea4e6;
   --th-east: #c79cd0;
-  --th-west: #9fbb84;
+  --th-west: #84c089;
   --th-tmis: #d8b25a;
-  --th-naval: #6fb6a4;
+  --th-naval: #5fb0cc;
   --glass: rgba(34, 32, 30, .82);
   --chip: rgba(241, 234, 221, .07);
   --w-shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 10px 30px rgba(0, 0, 0, .35);
@@ -104,7 +104,7 @@
 .war-skin .p-filter::-webkit-scrollbar { display: none; }
 .war-skin .p-filter .f { flex: 0 0 auto; font: 600 11.5px/1 var(--sans); letter-spacing: .02em; color: var(--ink-soft); padding: 8px 13px; border-radius: 20px; border: 1px solid var(--line); background: transparent; white-space: nowrap; transition: all .15s; }
 .war-skin .p-filter .f .dot { display: inline-block; width: 7px; height: 7px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
-.war-skin .p-filter .f.on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.war-skin .p-filter .f.on { background: var(--chipc, var(--ink)); color: #fff; border-color: var(--chipc, var(--ink)); }
 .war-skin .p-filter .f.on .dot { display: none; }
 
 .war-skin .p-bsearch { display: flex; align-items: center; gap: 8px; margin: 10px 14px 0; background: var(--chip); border: 1px solid var(--line-soft); border-radius: 11px; padding: 10px 12px; color: var(--muted); }

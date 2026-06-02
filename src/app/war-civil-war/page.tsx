@@ -201,7 +201,8 @@ export default function WarHome() {
             </div>
             <div className="p-filter">
               {CHIPS.map(c => (
-                <button key={c.k} className={'f' + (thFilter === c.k ? ' on' : '')} onClick={() => setThFilter(c.k)}>
+                <button key={c.k} className={'f' + (thFilter === c.k ? ' on' : '')} onClick={() => setThFilter(c.k)}
+                  style={{ ['--chipc' as string]: c.color } as React.CSSProperties}>
                   {c.color && <span className="dot" style={{ background: c.color }} />}{c.label}
                 </button>
               ))}
