@@ -274,6 +274,22 @@ are gated content):
    simultaneity is a real story beat — not the default. Same no-box label style as
    the schematic maps (filled text + background-colour halo). Reference config:
    the Wilson's Creek `fight-for-missouri` opener.
+   **LABEL PLACEMENT — use ALL FOUR SIDES of each dot (locked 2026-06-01, user
+   directive "use all 4 sides of the dot to move title text around").** A dot's
+   title is NOT stuck on the right. Put each label on the side of its dot that
+   faces OPEN space, away from the other dots: `anchor:'start'` = right,
+   `anchor:'end'` = left, and `anchor:'middle'` + `dy` = centered ABOVE (negative
+   dy) or BELOW (positive dy, e.g. `dy:24` for a heavy dot's title+date directly
+   under it). Never let labels pile on one side while space sits empty (that was the
+   recurring "needlessly packed" defect). Also **tighten the `frame` to the dot
+   cluster** — an over-wide frame collapses real geographic separation into a few
+   pixels and bunches everything in the middle; a tighter frame spreads close dots
+   apart. **Verify BOTH ways, every time:** `node scripts/_check-locator-labels.mjs`
+   (deterministic overlap / off-edge check) AND
+   `node scripts/_render-locator.mjs <slug>` → `qlmanage -t -s 760 -o /tmp/loc-png
+   /tmp/loc-svg/<slug>.svg` → read the PNG (the checker passes "bunched but not
+   touching"; only the render catches clustering). See
+   [[reference_locator_map_render_harness]].
 6b. **Map review — a GATE with a HARD REGEN CAP, not a glance (hardened
    2026-05-30, user directive).** Every generated map is reviewed like the fact-
    checker reviews prose — for **accuracy first**, not just label hygiene. A
