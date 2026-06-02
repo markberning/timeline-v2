@@ -152,7 +152,7 @@ export function BattleDossier({ data }: { data: BattleData }) {
       </div>
 
       {/* active tab */}
-      <div className="p-page" key={tab}>
+      <div className="p-page bp-body" key={tab}>
         {tab === 'glance' && (
           <>
             <div className="bp-stats">
