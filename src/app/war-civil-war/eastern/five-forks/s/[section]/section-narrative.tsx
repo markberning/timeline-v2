@@ -26,8 +26,8 @@ const FIVE_FORKS_NARR: Record<string, Narr> = {
           { name: 'North Carolina' }, { name: 'West Virginia' }, { name: 'Maryland' },
         ],
         dots: [
-          { name: 'Five Forks', date: 'Apr 1, 1865', lat: 37.16, lon: -77.61, heavy: true, anchor: 'start' },
-          { name: 'Dinwiddie C.H.', lat: 37.08, lon: -77.59, color: '#8a8175', anchor: 'end' },
+          { name: 'Five Forks', date: 'Apr 1, 1865', lat: 37.16, lon: -77.61, heavy: true, anchor: 'end' },
+          { name: 'Dinwiddie C.H.', lat: 37.08, lon: -77.59, color: '#8a8175', anchor: 'start' },
           { name: 'Petersburg', lat: 37.23, lon: -77.40, color: '#8a8175', anchor: 'middle', dy: -16 },
           { name: 'Richmond', lat: 37.54, lon: -77.44, color: '#8a8175', anchor: 'start' },
           { name: 'Appomattox C.H.', lat: 37.38, lon: -78.80, color: '#8a8175', anchor: 'end' },
