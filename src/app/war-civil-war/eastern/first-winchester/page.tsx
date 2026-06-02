@@ -14,19 +14,19 @@ const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-winchester1' })
 const HERO_IMG = '/war-img/first-winchester-hero.jpg'
 const ARMIES = [
   { side: 'Union', label: 'Banks’s command', size: '~6,500 troops', commander: 'Maj. Gen. Nathaniel Banks', note: 'A political general outmarched and outfought at every turn.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of the Valley', size: '~16,000 troops', commander: 'Maj. Gen. T. J. Jackson', note: '“Stonewall” Jackson’s hard-marching “foot cavalry.”', color: ACCENTS.rust },
+  { side: 'Confederacy', label: 'Army of the Valley', size: '~16,000 troops', commander: 'Maj. Gen. Thomas J. Jackson', note: '“Stonewall” Jackson’s hard-marching “foot cavalry.”', color: ACCENTS.rust },
 ]
 const CAS = { union: 2019, csa: 400 }
 const FIGURES = [
-  { name: 'T. J. Jackson', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg' },
-  { name: 'R. Taylor', role: 'Brigade, CSA', side: 'C', img: '/war-img/cmdr/richard-taylor.jpg' },
-  { name: 'R. Ewell', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/ewell.jpg' },
-  { name: 'N. Banks', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/banks.jpg' },
+  { name: 'Thomas J. “Stonewall” Jackson', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg', blurb: 'Jackson brought roughly 16,000 men up out of the morning fog on May 25 and split his attack, driving up the Valley Turnpike against the Union right while sending Ewell against the left. When the line on Bowers Hill held, he loosed Taylor’s Louisianans in the flank charge that broke Banks’s army and routed it through Winchester, the signature victory of his Shenandoah Valley Campaign.' },
+  { name: 'Richard Taylor', role: 'Brigade, CSA', side: 'C', img: '/war-img/cmdr/richard-taylor.jpg', blurb: 'Taylor swung his roughly 2,000 Louisianans wide around the Union right and, when Federal artillery found them, rode out in front of the brigade and led it up Bowers Hill at a steady walk. The charge rolled up the Union flank and unhinged Banks’s whole position, the blow that turned the fight into a rout.' },
+  { name: 'Richard S. Ewell', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/ewell.jpg', blurb: 'Ewell drove up the Front Royal Pike against the Union left, east of town, pressing the brigade dug in on Camp Hill. His push pinned that flank in place while Taylor’s charge broke the right, so the collapse came from both ends at once.' },
+  { name: 'Nathaniel P. Banks', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/banks.jpg', blurb: 'A Massachusetts politician handed a general’s stars, Banks had been outmarched all week and made a last stand on the hills south of Winchester to buy time for his wagon train. When Taylor’s charge cracked his right, his army broke and fled north through the streets, abandoning the supplies that earned him the mocking name “Commissary Banks.”' },
 ]
 const SECTIONS = [
-  { id: 'the-valley', eyebrow: 'Jackson’s campaign', title: 'The Valley Campaign', blurb: 'The Shenandoah is a granary and an invasion route; Jackson’s (South) mission is to tie down Union armies far from Richmond.' },
+  { id: 'the-valley', eyebrow: 'Jackson’s campaign', title: 'The Valley Campaign', blurb: 'The Shenandoah is a granary and an invasion route; Jackson’s mission is to tie down Union armies far from Richmond.' },
   { id: 'the-rout', eyebrow: 'May 25', title: 'The Rout of Banks', blurb: 'A dawn attack and Taylor’s (South) flank charge roll up Banks (North) on Bowers Hill and send his army fleeing through the town.' },
-  { id: 'commissary-banks', eyebrow: 'The aftermath', title: 'Commissary Banks', blurb: 'Banks flees across the Potomac, leaving a mountain of supplies; the Valley triumph helps save Richmond — brilliance in defense of slavery.' },
+  { id: 'commissary-banks', eyebrow: 'The aftermath', title: 'What Banks Left Behind', blurb: 'Banks flees across the Potomac, leaving a mountain of supplies; the Valley triumph helps save Richmond, brilliance in defense of slavery.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-valley': '/war-img/first-winchester-valley.png',
@@ -122,7 +122,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate victory · the Valley triumph</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Jackson’s dawn attack and Taylor’s flank charge broke Banks’s army and routed it north through the streets of Winchester and across the Potomac, with a fortune in captured supplies left behind (earning Banks the mocking name “Commissary Banks”). It was the climax of Jackson’s Shenandoah Valley Campaign — a small army running circles around larger ones — which tied down tens of thousands of Union troops and helped keep them from reinforcing the drive on Richmond. The brilliance, though, served a war fought to preserve slavery.
+          Jackson’s dawn attack and Taylor’s flank charge broke Banks’s army and routed it north through the streets of Winchester and across the Potomac, with a fortune in captured supplies left behind (earning Banks the mocking name “Commissary Banks”). It was the climax of Jackson’s Shenandoah Valley Campaign, a small army running circles around larger ones, which tied down tens of thousands of Union troops and helped keep them from reinforcing the drive on Richmond. The brilliance, though, served a war fought to preserve slavery.
         </p>
       </div>
     </div>
@@ -131,18 +131,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

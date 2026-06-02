@@ -14,26 +14,26 @@ const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-cedarcreek' })
 
 const HERO_IMG = '/war-img/cedar-creek-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Shenandoah', size: '~31,000 troops', commander: 'Sheridan', note: 'Routed in its sleep at dawn — then rallied by a general riding the wrong way down the Pike.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of the Valley', size: '~21,000 troops', commander: 'Early', note: 'Burst from the fog and nearly won by breakfast — then halted, and lost it all by dark.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Army of the Shenandoah', size: '~31,000 troops', commander: 'Sheridan', note: 'Routed in its sleep at dawn, then rallied by a general riding the wrong way down the Pike.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of the Valley', size: '~21,000 troops', commander: 'Early', note: 'Burst from the fog and nearly won by breakfast, then halted, and lost it all by dark.', color: ACCENTS.rust },
 ]
 const CAS = { union: 5700, csa: 2900 }
 const FIGURES = [
-  { name: 'P. H. Sheridan', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/sheridan.jpg' },
-  { name: 'H. G. Wright', role: 'VI Corps, Union', side: 'U', img: '/war-img/cmdr/wright.jpg' },
-  { name: 'G. Crook', role: 'Army of W. Va., Union', side: 'U', img: '/war-img/cmdr/crook.jpg' },
-  { name: 'G. A. Custer', role: 'Cavalry, Union', side: 'U', img: '/war-img/cmdr/custer.jpg' },
-  { name: 'W. H. Emory', role: 'XIX Corps, Union', side: 'U', img: '/war-img/cmdr/emory.jpg' },
-  { name: 'J. A. Early', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/early.jpg' },
-  { name: 'J. B. Gordon', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/gordon.jpg' },
-  { name: 'S. D. Ramseur', role: 'Div., CSA †', side: 'C', img: '/war-img/cmdr/ramseur.jpg' },
+  { name: 'Philip H. Sheridan', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/sheridan.jpg', blurb: 'Sheridan was away at Winchester when his army was routed at dawn, returning from a meeting in Washington. He galloped roughly a dozen miles south down the Valley Pike against the current of his own fleeing men, rallied the broken army by the force of his arrival, and launched the afternoon counterattack that took the whole field back by dark.' },
+  { name: 'Horatio G. Wright', role: 'VI Corps, Union', side: 'U', img: '/war-img/cmdr/wright.jpg', blurb: 'As commander of the VI Corps, Wright was left in charge of the entire army in Sheridan’s absence, with his headquarters at Belle Grove. Surprised in the fog, he could only fight a delaying withdrawal through the morning, was painfully wounded in the chin, and held what he could together until Sheridan reached the field.' },
+  { name: 'George Crook', role: 'Army of W. Va., Union', side: 'U', img: '/war-img/cmdr/crook.jpg', blurb: 'Crook’s Army of West Virginia held the exposed Union left and took the first and worst of the dawn assault, its camps overrun while most of the men were still asleep. His battered command was held in reserve for the afternoon counterattack after being shattered in the morning.' },
+  { name: 'George A. Custer', role: 'Cavalry, Union', side: 'U', img: '/war-img/cmdr/custer.jpg', blurb: 'Custer anchored the far Union right with his cavalry division during the afternoon counterattack. His charge curled around the Confederate left toward the Cedar Creek bridge, Early’s line of retreat, and the threat to that escape route broke the Confederate army’s nerve and turned its withdrawal into a rout.' },
+  { name: 'William H. Emory', role: 'XIX Corps, Union', side: 'U', img: '/war-img/cmdr/emory.jpg', blurb: 'Emory commanded the XIX Corps, which was driven back through its own camps when the Confederate artillery opened on it in the early morning. His corps re-formed under Sheridan and formed part of the main infantry line in the counterattack that retook the field.' },
+  { name: 'Jubal A. Early', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/early.jpg', blurb: 'Early staked the whole campaign on a surprise dawn attack, splitting his outnumbered army into three columns that came out of the fog and routed two Union corps in their sleep. His advance then halted in the middle of the morning, the pause that let Sheridan ride back and reverse the day, and his Army of the Valley was destroyed as a fighting force by dark.' },
+  { name: 'John B. Gordon', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/gordon.jpg', blurb: 'Gordon scouted the Union position from the heights of Massanutten Mountain and devised the flank march that opened the battle, leading the column that hit the exposed Union left. He blamed the “fatal halting” that followed for converting the morning’s victory into the evening’s defeat, a charge he and Early feuded over for the rest of their lives.' },
+  { name: 'Stephen D. Ramseur', role: 'Div., CSA †', side: 'C', img: '/war-img/cmdr/ramseur.jpg', blurb: 'Ramseur held the Confederate line through the afternoon and was shot through both lungs as his division tried to make a stand, his third horse of the day going down under him. Captured in the retreat, he was carried to Belle Grove and died the next day with his old West Point friends, now Union officers, at his side.' },
 ]
 const SECTIONS = [
-  { id: 'the-breadbasket-burning', eyebrow: 'The Shenandoah', title: 'The valley they came to burn', blurb: 'The Valley was Lee’s (South) breadbasket and his road north — a slave economy with Belle Grove at its center. Sheridan (North) burned it, then camped in the ruins.' },
-  { id: 'the-dawn-surprise', eyebrow: 'October 19, dawn', title: 'The morning the Confederacy almost won', blurb: 'Early’s (South) army comes out of the fog and routs two Union corps in their tents — then, fatally, stops to plunder the camps.' },
+  { id: 'the-breadbasket-burning', eyebrow: 'The Shenandoah', title: 'The valley they came to burn', blurb: 'The Valley was Lee’s breadbasket and his road north, a slave economy with Belle Grove at its center. Sheridan (North) burned it, then camped in the ruins.' },
+  { id: 'the-dawn-surprise', eyebrow: 'October 19, dawn', title: 'The morning the Confederacy almost won', blurb: 'Early’s (South) army comes out of the fog and routs two Union corps in their tents, then, fatally, stops to plunder the camps.' },
   { id: 'sheridans-ride', eyebrow: 'The rally', title: 'Sheridan rides down the Pike', blurb: 'Away at Winchester, Sheridan (North) gallops south against the flood of his own fleeing men, re-forming a broken army by the force of his arrival.' },
-  { id: 'the-counterattack', eyebrow: 'Late afternoon', title: 'Sheridan takes it all back', blurb: 'A general counterattack stalls until Custer’s (North) cavalry curls around the Confederate left toward the Cedar Creek bridge — and Early’s (South) army disintegrates.' },
-  { id: 'what-it-won', eyebrow: 'The meaning', title: 'What the victory secured', blurb: 'Cedar Creek ended the Valley as Lee’s breadbasket and invasion route — and the slave plantation at the center of the field is the proof of what the war was for.' },
+  { id: 'the-counterattack', eyebrow: 'Late afternoon', title: 'Sheridan takes it all back', blurb: 'A general counterattack stalls until Custer’s (North) cavalry curls around the Confederate left toward the Cedar Creek bridge, and Early’s army disintegrates.' },
+  { id: 'what-it-won', eyebrow: 'The meaning', title: 'What the victory secured', blurb: 'Cedar Creek ended the Valley as Lee’s breadbasket and invasion route, and the slave plantation at the center of the field is the proof of what the war was for.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-breadbasket-burning': '/war-img/cmdr/early.jpg',
@@ -131,7 +131,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · the Valley secured for good</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          A near-total Confederate triumph at dawn reversed into a crushing Union victory by dusk. Early’s army came out of the fog and routed two Union corps in their sleep — then halted, and the pause gave Sheridan time to ride in from Winchester, rally his broken army, and take it all back by dark. The win destroyed the Army of the Valley as a fighting force, ended the Shenandoah’s use as Lee’s breadbasket and invasion road, and — three weeks before the 1864 election — helped clinch the result that carried the war through to the end of slavery.
+          A near-total Confederate triumph at dawn reversed into a crushing Union victory by dusk. Early’s army came out of the fog and routed two Union corps in their sleep, then halted, and the pause gave Sheridan time to ride in from Winchester, rally his broken army, and take it all back by dark. The win destroyed the Army of the Valley as a fighting force, ended the Shenandoah’s use as Lee’s breadbasket and invasion road, and, three weeks before the 1864 election, helped clinch the result that carried the war through to the end of slavery.
         </p>
       </div>
     </div>
@@ -140,18 +140,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

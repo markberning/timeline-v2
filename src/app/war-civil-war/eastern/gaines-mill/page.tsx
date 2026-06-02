@@ -14,21 +14,21 @@ const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-gainesmill' })
 const HERO_IMG = '/war-img/gaines-mill-hero.jpg'
 const ARMIES = [
   { side: 'Union', label: 'V Corps, Army of the Potomac', size: '~34,000 troops', commander: 'Brig. Gen. Fitz John Porter', note: 'Held an isolated line north of the river against twice his number.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '~57,000 troops', commander: 'Gen. Robert E. Lee', note: 'Lee’s first battle in command — and his costliest gamble of the week.', color: ACCENTS.rust },
+  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '~57,000 troops', commander: 'Gen. Robert E. Lee', note: 'Lee’s first battle in command, and his costliest gamble of the week.', color: ACCENTS.rust },
 ]
 const CAS = { union: 6837, csa: 7993 }
 const FIGURES = [
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' },
-  { name: 'J. Longstreet', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg' },
-  { name: 'A. P. Hill', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/ap-hill.jpg' },
-  { name: 'J. B. Hood', role: 'Brigade, CSA', side: 'C', img: '/war-img/cmdr/hood.jpg' },
-  { name: 'F. J. Porter', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/fj-porter.jpg' },
-  { name: 'G. McClellan', role: 'Army cmdr., Union', side: 'U', img: '/war-img/cmdr/mcclellan.jpg' },
+  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: 'In his first battle commanding the Army of Northern Virginia, Lee crossed the bulk of his force over the Chickahominy to destroy Porter’s isolated corps, leaving only a thin screen to bluff McClellan in front of Richmond. His attacks went in piecemeal all afternoon and were shot to pieces until a single coordinated assault at dusk finally broke the Union line, his first victory, won at a cost heavier than his enemy’s.' },
+  { name: 'James Longstreet', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg', blurb: 'Longstreet held the Confederate right opposite Porter’s southern flank, ordered in at first as a diversion to hold the line until Jackson arrived. In the dusk assault his division pressed hard against the Union left as Hood’s brigade pierced the center, helping collapse a position that had held for hours.' },
+  { name: 'A. P. Hill', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/ap-hill.jpg', blurb: 'Hill threw his roughly 12,000-man Light Division at Boatswain’s Swamp in the first major assault of the afternoon, around 2:30 p.m., rather than wait for the rest of the army to come up. His brigades crossed the open ground and climbed into the guns alone, losing more than 2,000 men for no lasting ground.' },
+  { name: 'John Bell Hood', role: 'Brigade, CSA', side: 'C', img: '/war-img/cmdr/hood.jpg', blurb: 'Leading the Texas Brigade in Whiting’s division, Hood sent his men down the slope and up the deadly hillside without firing a shot, refusing to let them stop and lose momentum under fire. His charge broke through all three of Porter’s tiers at dusk and took the crest, at the cost of more than a thousand men in his and Law’s brigades together.' },
+  { name: 'Fitz John Porter', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/fj-porter.jpg', blurb: 'Porter chose and held a tiered line behind Boatswain’s Swamp, banking 96 guns on the plateau and beating back assault after assault through the afternoon against more than twice his number. His corps held until the coordinated dusk attack broke it, then pulled south across the Chickahominy in the dark to cover the retreat McClellan had already ordered.' },
+  { name: 'George B. McClellan', role: 'Army cmdr., Union', side: 'U', img: '/war-img/cmdr/mcclellan.jpg', blurb: 'McClellan had decided to abandon the drive on Richmond before the battle began, casting Porter as a rearguard to buy time for the withdrawal. Directing by telegraph from south of the river, certain he was outnumbered when he held the larger army, he fed Porter only a trickle of help and let two-thirds of his force sit idle in front of a thin Confederate screen.' },
 ]
 const SECTIONS = [
-  { id: 'lee-attacks', eyebrow: 'The Seven Days', title: 'Lee Takes the Offensive', blurb: 'With McClellan (North) at Richmond’s gates, Lee (South) attacks, aiming to crush Porter’s (North) corps isolated north of the Chickahominy.' },
-  { id: 'boatswains-swamp', eyebrow: 'June 27', title: 'The Line at Boatswain’s Swamp', blurb: 'Porter holds a tiered line behind a boggy ravine; hours of piecemeal Confederate assaults are shot to pieces crossing it.' },
-  { id: 'hoods-breakthrough', eyebrow: 'Dusk', title: 'Hood Breaks the Line', blurb: 'A coordinated dusk assault, Hood’s (South) Texans at the point, finally breaks through — and McClellan’s retreat from Richmond is sealed.' },
+  { id: 'lee-attacks', eyebrow: 'The Seven Days', title: 'Lee Takes the Offensive', blurb: 'With McClellan at Richmond’s gates, Lee attacks, aiming to crush Porter’s (North) corps isolated north of the Chickahominy.' },
+  { id: 'boatswains-swamp', eyebrow: 'June 27', title: 'The Line at Boatswain’s Swamp', blurb: 'Porter holds a tiered line behind a boggy ravine, and hours of piecemeal Confederate assaults are shot to pieces crossing it.' },
+  { id: 'hoods-breakthrough', eyebrow: 'Dusk', title: 'Hood Breaks the Line', blurb: 'A coordinated dusk assault, Hood’s (South) Texans at the point, finally breaks through, and McClellan’s retreat from Richmond is sealed.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'lee-attacks': '/war-img/gaines-mill-sevendays.png',
@@ -124,7 +124,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate victory · Lee turns the tide</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          In his first battle commanding the army, Lee hurled costly wave after wave at Fitz John Porter’s strong line behind Boatswain’s Swamp, until a coordinated dusk assault — spearheaded by Hood’s Texas Brigade — finally broke it. It was Lee’s first victory and the turning point of the Seven Days: McClellan had already decided to retreat, and Gaines’ Mill confirmed it, ending the Union drive on Richmond in 1862. The cost was appalling, and it set the pattern — aggressive, bloody, effective — for the army Lee would lead for three more years.
+          In his first battle commanding the army, Lee hurled costly wave after wave at Fitz John Porter’s strong line behind Boatswain’s Swamp, until a coordinated dusk assault, spearheaded by Hood’s Texas Brigade, finally broke it. It was Lee’s first victory and the turning point of the Seven Days: McClellan had already decided to retreat, and Gaines’ Mill confirmed it, ending the Union drive on Richmond in 1862. The cost was appalling, and it set the pattern (aggressive, bloody, effective) for the army Lee would lead for three more years.
         </p>
       </div>
     </div>
@@ -133,18 +133,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

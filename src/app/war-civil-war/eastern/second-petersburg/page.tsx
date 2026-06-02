@@ -14,24 +14,24 @@ const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-petersburg2' })
 
 const HERO_IMG = '/war-img/second-petersburg-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Potomac + XVIII Corps', size: '~16,000 → ~67,000 troops', commander: 'Grant, Meade & Smith', note: 'Stole a march on Lee and found the city open — then waited a night too long.', color: ACCENTS.blue },
+  { side: 'Union', label: 'Army of the Potomac + XVIII Corps', size: '~16,000 → ~67,000 troops', commander: 'Grant, Meade & Smith', note: 'Stole a march on Lee and found the city open, then waited a night too long.', color: ACCENTS.blue },
   { side: 'Confederacy', label: 'Petersburg garrison / Army of Northern Virginia', size: '~2,200 → 20,000+ troops', commander: 'Beauregard, then Lee', note: 'Held a nearly empty line by bluff until Lee finally came running.', color: ACCENTS.rust },
 ]
 const CAS = { union: 11000, csa: 3600 }
 const FIGURES = [
-  { name: 'U. S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg' },
-  { name: 'G. G. Meade', role: 'Army of the Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg' },
-  { name: 'W. F. Smith', role: 'XVIII Corps, Union', side: 'U', img: '/war-img/cmdr/wf-smith.jpg' },
-  { name: 'W. S. Hancock', role: 'II Corps, Union', side: 'U', img: '/war-img/cmdr/hancock.jpg' },
-  { name: 'E. W. Hinks', role: 'USCT Div., Union', side: 'U', img: '/war-img/cmdr/hinks.jpg' },
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' },
-  { name: 'P.G.T. Beauregard', role: 'Petersburg, CSA', side: 'C', img: '/war-img/cmdr/beauregard.jpg' },
+  { name: 'Ulysses S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg', blurb: 'Grant conceived and executed the campaign’s masterstroke, slipping the whole Army of the Potomac out of its lines at Cold Harbor and across the James to reach Petersburg from the rear. When the assaults stalled and the city dug in, he ordered one last charge on June 18, watched it fail, then called off the attacks and settled in for the siege he had hoped to avoid.' },
+  { name: 'George G. Meade', role: 'Army of the Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg', blurb: 'Meade commanded the Army of the Potomac under Grant and took direct charge of the assaults from June 16 onward. He pushed the June 18 attacks hard and saw them broken against the works, then conceded in his official report that he could not report more success and ordered the army to dig in.' },
+  { name: 'William F. Smith', role: 'XVIII Corps, Union', side: 'U', img: '/war-img/cmdr/wf-smith.jpg', blurb: 'Smith’s XVIII Corps struck first on June 15 and carried the eastern Dimmock Line, laying Petersburg open by nightfall. Then he chose to halt in the dark rather than push the last mile into the city, the hesitation that most accounts call the costliest missed chance of the campaign.' },
+  { name: 'Winfield S. Hancock', role: 'II Corps, Union', side: 'U', img: '/war-img/cmdr/hancock.jpg', blurb: 'Hancock’s II Corps arrived on the evening of June 15 with the fresh troops that could have finished the job, but his orders had miscarried and he never learned Petersburg was the objective until a message reached him from Smith. As the ranking officer he deferred to Smith’s decision to wait, then fought on through the 16th before his unhealed Gettysburg wound forced him to give up command.' },
+  { name: 'Edward W. Hinks', role: 'USCT Div., Union', side: 'U', img: '/war-img/cmdr/hinks.jpg', blurb: 'Hinks led the division of United States Colored Troops that spearheaded the June 15 advance, fighting through a roadblock at Baylor’s farm and then storming Batteries 6 through 11 of the Dimmock Line. His men, many of them formerly enslaved, took nearly a mile of the works that enslaved hands had been forced to build.' },
+  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: 'For most of the battle Lee did not believe Grant had crossed the James, and he held the Army of Northern Virginia north of the river while Petersburg nearly fell. Once his son confirmed where the Union army had gone, he rushed divisions south, and his lead troops reached the field by midday on June 18, in time to make the city unstormable and force Grant into a siege.' },
+  { name: 'P.G.T. Beauregard', role: 'Petersburg, CSA', side: 'C', img: '/war-img/cmdr/beauregard.jpg', blurb: 'Beauregard held Petersburg for four days with a fraction of Grant’s strength, beginning with about 2,200 men spread ten feet apart along the line. Trading ground for time, he pulled back to fresh entrenchments each night and bluffed the Federals into hesitating until Lee arrived, a defense generally reckoned his finest hour.' },
 ]
 const SECTIONS = [
-  { id: 'the-stolen-march', eyebrow: 'Petersburg', title: 'The stolen march to the back door', blurb: 'After Cold Harbor, Grant (North) slips the whole army across the James to seize the rail hub that feeds Richmond — while Lee (South) looks the wrong way and Beauregard (South) holds an empty line by bluff.' },
-  { id: 'the-open-door', eyebrow: 'June 15', title: 'The day the freedmen took the slaveholders’ wall', blurb: 'Hinks’s (North) USCT — many formerly enslaved — storm and carry the Dimmock Line that enslaved hands were forced to build. The cause of the war stands on the parapet, in blue.' },
-  { id: 'the-hesitation', eyebrow: 'June 15–16', title: 'The open door nobody walked through', blurb: 'Smith (North) stops at dark and Hancock (North), without orders, defers. Two corps stand outside an undefended city and wait for dawn — and Beauregard (South) digs in overnight.' },
-  { id: 'the-door-slams', eyebrow: 'June 17–18', title: 'The bloodiest minutes and the start of the siege', blurb: 'Piecemeal assaults fail, the 1st Maine (North) is annihilated, Lee (South) finally arrives — and the open-field war gives way to a nine-and-a-half-month siege.' },
+  { id: 'the-stolen-march', eyebrow: 'Petersburg', title: 'The stolen march to the back door', blurb: 'After Cold Harbor, Grant slips the whole army across the James to seize the rail hub that feeds Richmond, while Lee looks the wrong way and Beauregard (South) holds an empty line by bluff.' },
+  { id: 'the-open-door', eyebrow: 'June 15', title: 'The day the freedmen took the slaveholders’ wall', blurb: 'Hinks’s (North) USCT, many of them formerly enslaved, storm and carry the Dimmock Line that enslaved hands were forced to build. The cause of the war stands on the parapet, in blue.' },
+  { id: 'the-hesitation', eyebrow: 'June 15–16', title: 'The open door nobody walked through', blurb: 'Smith (North) stops at dark and Hancock (North), without orders, defers. Two corps stand outside an undefended city and wait for dawn, while Beauregard (South) digs in overnight.' },
+  { id: 'the-door-slams', eyebrow: 'June 17–18', title: 'The bloodiest minutes and the start of the siege', blurb: 'Piecemeal assaults fail, the 1st Maine (North) is annihilated, Lee finally arrives, and the open-field war gives way to a nine-and-a-half-month siege.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-stolen-march': '/war-img/second-petersburg-overview.png',
@@ -128,7 +128,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate victory · the siege begins</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Grant’s stolen march across the James was one of the great feats of the war, and on June 15 the formerly enslaved soldiers of Hinks’s division tore open the line that enslaved hands had been forced to build — laying Petersburg bare. Then the war-shortening chance died in the pause behind the firing line: Smith’s exhaustion, Hancock’s lost order, a night of waiting outside an empty city. By the time the assaults were forced home on June 18 the door had slammed shut, the 1st Maine was annihilated against the works, and Grant called off the charges. What began here was the longest siege of the war — nine and a half months, ending only at Appomattox.
+          Grant’s stolen march across the James was one of the great feats of the war, and on June 15 the formerly enslaved soldiers of Hinks’s division tore open the line that enslaved hands had been forced to build, laying Petersburg bare. Then the war-shortening chance died in the pause behind the firing line: Smith’s exhaustion, Hancock’s lost order, a night of waiting outside an empty city. By the time the assaults were forced home on June 18 the door had slammed shut, the 1st Maine was annihilated against the works, and Grant called off the charges. What began here was the longest siege of the war: nine and a half months, ending only at Appomattox.
         </p>
       </div>
     </div>
@@ -137,18 +137,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

@@ -15,23 +15,23 @@ const HERO_IMG = '/war-img/bull-run-hero.jpg' // Kurz & Allison chromolithograph
 const HERO_PAL = ['#2f3a24', '#5a2a32', '#100506']
 
 const ARMIES = [
-  { side: 'Union', label: 'Army of Northeastern Virginia', size: '~35,000', commander: 'Brig. Gen. Irvin McDowell', note: 'A green army shoved forward before it was ready — its 90-day enlistments about to run out.', color: ACCENTS.blue },
+  { side: 'Union', label: 'Army of Northeastern Virginia', size: '~35,000', commander: 'Brig. Gen. Irvin McDowell', note: 'A green army shoved forward before it was ready, its 90-day enlistments about to run out.', color: ACCENTS.blue },
   { side: 'Confederacy', label: 'Armies of the Potomac & Shenandoah', size: '~32,000', commander: 'Beauregard & Johnston', note: 'Reinforced just in time by the first army ever rushed to a battlefield by rail.', color: ACCENTS.rust },
 ]
 const CAS = { union: 2896, csa: 1982, civ: 0 }
 const FIGURES = [
-  { name: 'I. McDowell', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/mcdowell.jpg' },
-  { name: 'W. T. Sherman', role: 'Brigade, Union', side: 'U', img: '/war-img/cmdr/sherman.jpg' },
-  { name: 'P.G.T. Beauregard', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/beauregard.jpg' },
-  { name: 'J. E. Johnston', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/je-johnston.jpg' },
-  { name: 'T. J. Jackson', role: 'Brigade, CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg' },
-  { name: 'B. Bee', role: 'Brigade, CSA', side: 'C', img: '/war-img/cmdr/bee.jpg' },
+  { name: 'Irvin McDowell', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/mcdowell.jpg', blurb: 'McDowell built a smart plan, a wide flank march across Sudley Springs Ford to roll up the Confederate left, and saw it nearly win the war before noon. His green army marched too slowly to spring the surprise and came apart in the afternoon, and he was relieved of command within days of the rout.' },
+  { name: 'William T. Sherman', role: 'Brigade, Union', side: 'U', img: '/war-img/cmdr/sherman.jpg', blurb: 'Then a colonel commanding a brigade, Sherman found an unguarded ford upstream of the Stone Bridge, crossed around mid-morning, and struck the Confederate line on Matthews Hill to help drive it back. His men joined the failing Union effort on Henry House Hill in the afternoon and fell back with the rest when the line broke.' },
+  { name: 'P.G.T. Beauregard', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/beauregard.jpg', blurb: 'The hero of Fort Sumter held Manassas Junction along Bull Run and planned his own flank attack on the Union left, only to be beaten to the punch by McDowell. With the senior Johnston leaving him tactical command of the field, Beauregard fed brigades onto Henry House Hill and steadied the line that won the day.' },
+  { name: 'Joseph E. Johnston', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/je-johnston.jpg', blurb: 'Johnston slipped his army out of the Shenandoah Valley and rushed it east by rail, the first time in history trains carried troops to a major battle. As the senior officer present he yielded battlefield command to Beauregard and spent the day funneling his arriving brigades toward the fight on the Confederate left.' },
+  { name: 'Thomas J. Jackson', role: 'Brigade, CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg', blurb: 'Jackson posted his fresh Virginia brigade on the reverse slope of Henry House Hill, sheltering his infantry behind the crest while his guns did the killing, and stood firm while the rest of the Confederate left fell apart. It was here that Bee pointed to him and gave him the name he carried the rest of the war: Stonewall.' },
+  { name: 'Barnard Bee', role: 'Brigade, CSA', side: 'C', img: '/war-img/cmdr/bee.jpg', blurb: 'Bee rushed his brigade to Matthews Hill to help hold off the Union flank march, then fell back to Henry House Hill where, trying to rally his shattered men, he pointed at Jackson and spoke the most famous line of the war. He was mortally wounded minutes later and died the next day, the highest-ranking officer killed at the battle.' },
 ]
 const SECTIONS = [
-  { id: 'on-to-richmond', eyebrow: 'The 90-day war', title: 'On to Richmond', blurb: 'A half-trained army is marched toward Richmond to win the war in an afternoon — with congressmen and picnickers riding out to watch.' },
-  { id: 'the-flank-march', eyebrow: 'Morning, July 21', title: 'The Flank March', blurb: 'McDowell’s (North) wide swing across Sudley Ford works — by midday the rebels are driven back and it looks like a Union victory.' },
-  { id: 'stone-wall', eyebrow: 'Henry House Hill', title: 'There Stands Jackson', blurb: 'The Confederate line holds on Henry House Hill, Jackson (South) earns a nickname, and a bedridden widow becomes the war’s first civilian killed.' },
-  { id: 'the-rout', eyebrow: 'The Great Skedaddle', title: 'The Rout', blurb: 'Fresh rebels off the trains break the Union right; the retreat dissolves into panic — and both nations wake to a long, terrible war.' },
+  { id: 'on-to-richmond', eyebrow: 'The 90-day war', title: 'On to Richmond', blurb: 'A half-trained army is marched toward Richmond to win the war in an afternoon, with congressmen and picnickers riding out to watch.' },
+  { id: 'the-flank-march', eyebrow: 'Morning, July 21', title: 'The Flank March', blurb: 'McDowell’s (North) wide swing across Sudley Ford works: by midday the rebels are driven back and it looks like a Union victory.' },
+  { id: 'stone-wall', eyebrow: 'Henry House Hill', title: 'There Stands Jackson', blurb: 'The Confederate line holds on Henry House Hill, Jackson earns a nickname, and a bedridden widow becomes the war’s first civilian killed.' },
+  { id: 'the-rout', eyebrow: 'The Great Skedaddle', title: 'The Rout', blurb: 'Fresh rebels off the trains break the Union right; the retreat dissolves into panic, and both nations wake to a long, terrible war.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'on-to-richmond': '/war-img/bull-run-campaign.png',
@@ -129,7 +129,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate victory · the short war dies</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          A Union plan that nearly worked collapsed into the war’s first great rout, green troops fleeing back toward Washington past the carriages of picnicking spectators. Tactically it was a clear Confederate win — but its deepest result was a change of mind on both sides: the dream of a quick, bloodless war died on Henry House Hill. The North fired McDowell, called George McClellan east to build a real army, and braced for a long fight; the South, dangerously elated, came away with a new hero named Stonewall.
+          A Union plan that nearly worked collapsed into the war’s first great rout, green troops fleeing back toward Washington past the carriages of picnicking spectators. Tactically it was a clear Confederate win, but its deepest result was a change of mind on both sides: the dream of a quick, bloodless war died on Henry House Hill. The North fired McDowell, called George McClellan east to build a real army, and braced for a long fight; the South, dangerously elated, came away with a new hero named Stonewall.
         </p>
       </div>
     </div>
@@ -138,18 +138,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

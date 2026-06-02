@@ -18,20 +18,20 @@ const ARMIES = [
 ]
 const CAS = { union: 12738, csa: 5287 }
 const FIGURES = [
-  { name: 'U. S. Grant', role: 'General-in-chief', side: 'U', img: '/war-img/cmdr/grant.jpg' },
-  { name: 'G. G. Meade', role: 'Army of the Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg' },
-  { name: 'W. S. Hancock', role: 'II Corps, Union', side: 'U', img: '/war-img/cmdr/hancock.jpg' },
-  { name: 'H. G. Wright', role: 'VI Corps, Union', side: 'U', img: '/war-img/cmdr/wright.jpg' },
-  { name: '"Baldy" Smith', role: 'XVIII Corps, Union', side: 'U', img: '/war-img/cmdr/wf-smith.jpg' },
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' },
-  { name: 'R. H. Anderson', role: 'First Corps, CSA', side: 'C', img: '/war-img/cmdr/anderson.jpg' },
+  { name: 'Ulysses S. Grant', role: 'General-in-chief', side: 'U', img: '/war-img/cmdr/grant.jpg', blurb: 'Riding with the Army of the Potomac as general-in-chief of all United States armies, Grant ordered the June 3 dawn assault on Lee’s finished works in the belief the Confederate line could be broken. It failed in about an hour, and he called it off around noon; years later he wrote that he had always regretted ordering the last assault at Cold Harbor.' },
+  { name: 'George G. Meade', role: 'Army of the Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg', blurb: 'As commander of the Army of the Potomac, Meade passed Grant’s order down the line and set three corps charging west from Old Cold Harbor on June 3. He thought the attack against entrenched infantry was close to suicidal but did not press the objection on Grant.' },
+  { name: 'Winfield Scott Hancock', role: 'II Corps, Union', side: 'U', img: '/war-img/cmdr/hancock.jpg', blurb: 'Hancock’s II Corps held the southern end of the assault and drove clean through Breckinridge’s front, the only real lodgment won inside the Confederate works that morning. A counterattack threw his men back out with heavy loss, and the one breakthrough of the day was gone in minutes.' },
+  { name: 'Horatio G. Wright', role: 'VI Corps, Union', side: 'U', img: '/war-img/cmdr/wright.jpg', blurb: 'Wright’s VI Corps attacked in the center on June 3, advanced a short distance into heavy fire, and bogged down well short of the trench. Rather than feed his men into the works he had them stop and dig in.' },
+  { name: 'William F. “Baldy” Smith', role: 'XVIII Corps, Union', side: 'U', img: '/war-img/cmdr/wf-smith.jpg', blurb: 'Smith’s XVIII Corps, on loan from the Army of the James, charged on the northern flank and was funneled into ravines swept by fire from the sides, the deadliest sector of the field. He thought the order suicidal and afterward called it an order to slaughter his best troops.' },
+  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: 'Lee used the day Grant gave him on June 2 to have the Army of Northern Virginia dig some seven miles of fieldworks, laid out so its sections could rake each other’s fronts. Behind that line his outnumbered army broke the June 3 assault and inflicted one of the most lopsided defeats of the war.' },
+  { name: 'Richard H. Anderson', role: 'First Corps, CSA', side: 'C', img: '/war-img/cmdr/anderson.jpg', blurb: 'Anderson commanded Lee’s First Corps, holding the center of the entrenched Confederate line on June 3. His sector, like most of the works, turned back the Union attack with little ground gained against it.' },
 ]
 const SECTIONS = [
-  { id: 'the-crossroads', eyebrow: 'Cold Harbor · A harbor with no water', title: 'Why Two Armies Raced for a Virginia Tavern', blurb: 'Grant (North) slides southeast one more time and both armies race for a crossroads on the doorstep of Richmond — the capital of a slaveholding republic Lee (South) was sworn to shield.' },
-  { id: 'the-trench', eyebrow: 'The works · Lee digs, Grant waits', title: 'How the Field Turned Into a Fort', blurb: 'A late II Corps postpones the attack a full day; Lee (South) uses it to finish seven miles of fieldworks — dug in part by enslaved hands — while every hour the Federals wait makes June 3 deadlier.' },
-  { id: 'the-assault', eyebrow: 'June 3 · The charge into the works', title: 'Sorting the Slaughter From the Legend', blurb: 'Three corps step off into the fog and the trench; Hancock (North) breaks through and is thrown out, Smith (North) is butchered in a fire-swept ravine — and the famous "7,000 in twenty minutes" turns out to be myth.' },
-  { id: 'between-the-lines', eyebrow: 'June 4–12 · The men left in front of the works', title: 'The First Taste of the War That Was Coming', blurb: 'A week of head-down trench stalemate foreshadows World War I; out in no-man’s-land, the June 3 wounded die for days while Grant (North) and Lee (South) deadlock over a truce.' },
-  { id: 'the-pivot', eyebrow: 'The reckoning · What the slaughter set up', title: 'Two Trenches, One War', blurb: 'Grant (North) calls himself "Butcher"-bait and regrets the assault — yet the failure forces the James crossing and the Petersburg siege that United States Colored Troops would spearhead, ending the slave republic the trench was dug to defend.' },
+  { id: 'the-crossroads', eyebrow: 'Cold Harbor · A harbor with no water', title: 'Why Two Armies Raced for a Virginia Tavern', blurb: 'Grant slides southeast one more time and both armies race for a crossroads on the doorstep of Richmond, the capital of a slaveholding republic Lee was sworn to shield.' },
+  { id: 'the-trench', eyebrow: 'The works · Lee digs, Grant waits', title: 'How the Field Turned Into a Fort', blurb: 'A late II Corps postpones the attack a full day. Lee uses it to finish seven miles of fieldworks, dug in part by enslaved hands, while every hour the Federals wait makes June 3 deadlier.' },
+  { id: 'the-assault', eyebrow: 'June 3 · The charge into the works', title: 'Sorting the Slaughter From the Legend', blurb: 'Three corps step off into the fog and the trench. Hancock (North) breaks through and is thrown out, Smith (North) is cut down in a fire-swept ravine, and the famous “7,000 in twenty minutes” turns out to be myth.' },
+  { id: 'between-the-lines', eyebrow: 'June 4–12 · The men left in front of the works', title: 'The First Taste of the War That Was Coming', blurb: 'A week of head-down trench stalemate foreshadows World War I. Out in no-man’s-land, the June 3 wounded die for days while Grant and Lee deadlock over a truce.' },
+  { id: 'the-pivot', eyebrow: 'The reckoning · What the slaughter set up', title: 'Two Trenches, One War', blurb: 'Grant regrets the assault and the press calls him a butcher, yet the failure forces the James crossing and the Petersburg siege that United States Colored Troops would spearhead, ending the slave republic the trench was dug to defend.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-crossroads': '/war-img/cold-harbor-overview.png',
@@ -129,7 +129,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate victory · the most criticized day of Grant’s career</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          The June 3 dawn assault failed utterly to break Lee’s seven miles of finished trench, and cost the Army of the Potomac its most one-sided beating since Fredericksburg — roughly 12,000–13,000 casualties across the twelve days against perhaps 4,500–5,300 Confederate, for, in Grant’s own words, no advantage whatever. The famous “7,000 in twenty minutes” is a myth, but the lopsidedness was real. And the very failure forced the move that won the war: Grant slipped the army across the James and swung on Petersburg — a siege spearheaded by United States Colored Troops that ended the Confederacy, and slavery with it.
+          The June 3 dawn assault failed utterly to break Lee’s seven miles of finished trench, and cost the Army of the Potomac its most one-sided beating since Fredericksburg: roughly 12,000 to 13,000 casualties across the twelve days against perhaps 4,500 to 5,300 Confederate, for, in Grant’s own words, no advantage whatever. The famous “7,000 in twenty minutes” is a myth, but the lopsidedness was real. And the very failure forced the move that won the war. Grant slipped the army across the James and swung on Petersburg, a siege spearheaded by United States Colored Troops that ended the Confederacy, and slavery with it.
         </p>
       </div>
     </div>
@@ -138,18 +138,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

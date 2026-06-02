@@ -14,26 +14,26 @@ const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-crater' })
 
 const HERO_IMG = '/war-img/crater-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Potomac', size: '~8,500 engaged', commander: 'Burnside’s IX Corps', note: 'Dug a tunnel under the war, blew a perfect breach — and poured into the hole instead of through it.', color: ACCENTS.blue },
+  { side: 'Union', label: 'Army of the Potomac', size: '~8,500 engaged', commander: 'Burnside’s IX Corps', note: 'Dug a tunnel under the war and blew a perfect breach, then poured into the hole instead of through it.', color: ACCENTS.blue },
   { side: 'Confederacy', label: 'Army of Northern Virginia', size: '~6,100 engaged', commander: 'Lee', note: 'Lost a fort in its sleep at dawn, then sealed the gap and turned the pit into a killing ground.', color: ACCENTS.rust },
 ]
 const CAS = { union: 3800, csa: 1500 }
 const FIGURES = [
-  { name: 'A. E. Burnside', role: 'IX Corps, Union', side: 'U', img: '/war-img/cmdr/burnside.jpg' },
-  { name: 'E. Ferrero', role: 'USCT Div., Union', side: 'U', img: '/war-img/cmdr/ferrero.jpg' },
-  { name: 'H. Pleasants', role: '48th PA · the mine', side: 'U', img: '/war-img/cmdr/pleasants.jpg' },
-  { name: 'J. H. Ledlie', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/ledlie.jpg' },
-  { name: 'U. S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg' },
-  { name: 'G. G. Meade', role: 'Army of the Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg' },
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' },
-  { name: 'W. Mahone', role: 'Counterattack, CSA', side: 'C', img: '/war-img/cmdr/mahone.jpg' },
+  { name: 'Ambrose E. Burnside', role: 'IX Corps, Union', side: 'U', img: '/war-img/cmdr/burnside.jpg', blurb: 'Burnside owned the sector and the mine plan, and meant to lead with his one trained division, the USCT, until Meade and Grant overruled him the day before. He was censured by the court of inquiry, relieved of his corps within weeks, and never held a field command again.' },
+  { name: 'Edward Ferrero', role: 'USCT Div., Union', side: 'U', img: '/war-img/cmdr/ferrero.jpg', blurb: 'Ferrero’s 4th Division of United States Colored Troops drilled the assault for two weeks, then was pulled from the lead the day before and fed in late, taking the heaviest losses on the field. Ferrero himself spent the battle in a bombproof behind the lines, by multiple accounts drinking, while his men died in the pit.' },
+  { name: 'Henry Pleasants', role: '48th PA · the mine', side: 'U', img: '/war-img/cmdr/pleasants.jpg', blurb: 'A mining engineer in civilian life, Pleasants designed and drove the 511-foot gallery his coal-miner regiment hand-dug under the Confederate salient, ventilating it with a hidden furnace. He had no part in the failed assault and was the one man praised for the day, brevetted brigadier general for the tunnel.' },
+  { name: 'James H. Ledlie', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/ledlie.jpg', blurb: 'Ledlie’s untrained 1st Division drew the lead by lot and poured into the crater instead of around it, drowning the attack at the bottom of a 30-foot pit. Ledlie spent the battle a mile back in a bombproof, drinking, and resigned his commission in disgrace early in 1865.' },
+  { name: 'Ulysses S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg', blurb: 'Grant backed Meade’s order pulling the Black division from the lead, fearing the army would be blamed if they were slaughtered going in first. He called the Crater the saddest affair he had witnessed in the war, and an opportunity for carrying fortifications he never expected to see again.' },
+  { name: 'George G. Meade', role: 'Army of the Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg', blurb: 'Meade commanded the Army of the Potomac and ordered Burnside, the day before the assault, not to lead with the trained USCT division. A Joint Committee of Congress later laid much of the blame on him for reversing the plan and forcing the change.' },
+  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: 'Lee lost a stretch of his Petersburg line in an instant when the mine blew at dawn, killing some 300 of his men where they slept. His army sealed the breach within the hour and held, and the siege he was defending lasted eight more months.' },
+  { name: 'William Mahone', role: 'Counterattack, CSA', side: 'C', img: '/war-img/cmdr/mahone.jpg', blurb: 'Mahone brought up the brigades that sealed the gap and ringed the crater, turning the pit into what he called a turkey shoot. He also appears to have tried to stop the killing of surrendering Black soldiers, with several accounts crediting him with saving prisoners his men were murdering.' },
 ]
 const SECTIONS = [
   { id: 'the-mine', eyebrow: 'Petersburg', title: 'A Tunnel Under the War', blurb: 'A stalled siege drives men underground; the 48th Pennsylvania (North) hand-digs a 511-foot gallery under Elliott’s Salient (South) and packs it with four tons of powder.' },
-  { id: 'pulled-from-the-lead', eyebrow: 'The night before', title: 'The Division Trained, Then Taken Out', blurb: 'Ferrero’s (North) USCT drill the attack for two weeks; the day before, Meade (North) and Grant (North) pull them from the lead over optics, and a straw hands it to Ledlie’s (North) untrained men.' },
+  { id: 'pulled-from-the-lead', eyebrow: 'The night before', title: 'The Division Trained, Then Taken Out', blurb: 'Ferrero’s (North) USCT drill the attack for two weeks; the day before, Meade (North) and Grant pull them from the lead over optics, and a straw hands it to Ledlie’s (North) untrained men.' },
   { id: 'the-pit', eyebrow: 'Dawn, July 30', title: 'The Hole the Assault Drowned In', blurb: 'The mine blows a clean breach; Ledlie’s (North) men pour into the crater instead of around it, and Mahone (South) seals the gap and rings the pit.' },
-  { id: 'the-massacre', eyebrow: 'The crater rim', title: 'Murdered After Surrender', blurb: 'The USCT take the heaviest losses on the field; surrendering and wounded Black soldiers are killed — confirmed by Confederate witnesses, not Northern accusation.' },
-  { id: 'what-it-meant', eyebrow: 'The reckoning', title: 'A Breakthrough Thrown Into a Hole', blurb: 'A 2.5-to-1 loss, a wasted breach, a court of inquiry — and the engineer of the mine the one man praised. Petersburg holds eight more months.' },
+  { id: 'the-massacre', eyebrow: 'The crater rim', title: 'Murdered After Surrender', blurb: 'The USCT take the heaviest losses on the field, and surrendering and wounded Black soldiers are killed, confirmed by Confederate witnesses, not Northern accusation.' },
+  { id: 'what-it-meant', eyebrow: 'The reckoning', title: 'A Breakthrough Thrown Into a Hole', blurb: 'A 2.5-to-1 loss, a wasted breach, a court of inquiry, and the engineer of the mine the one man praised. Petersburg holds eight more months.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-mine': '/war-img/crater-overview.png',
@@ -131,7 +131,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate victory · a breakthrough thrown into a hole</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          The Union mine worked perfectly — four tons of powder blew a clean breach in Lee’s line at dawn, nearly undefended for the crucial first quarter-hour. Then the army threw it away: the untrained division that drew the lead by lot poured into the crater instead of around it and drowned at the bottom of a 30-foot pit while Mahone sealed the gap. The Union lost roughly two and a half times what the Confederates did, the heaviest share falling on the USCT division pulled from the lead the day before — and, when the line broke, surrendering Black soldiers were murdered. The siege ground on eight more months. Petersburg did not fall until April 1865.
+          The Union mine worked perfectly: four tons of powder blew a clean breach in Lee’s line at dawn, nearly undefended for the crucial first quarter-hour. Then the army threw it away. The untrained division that drew the lead by lot poured into the crater instead of around it and drowned at the bottom of a 30-foot pit while Mahone sealed the gap. The Union lost roughly two and a half times what the Confederates did, the heaviest share falling on the USCT division pulled from the lead the day before, and when the line broke, surrendering Black soldiers were murdered. The siege ground on eight more months. Petersburg did not fall until April 1865.
         </p>
       </div>
     </div>
@@ -140,18 +140,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

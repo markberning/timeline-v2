@@ -14,25 +14,25 @@ const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-chancellorsville' 
 
 const HERO_IMG = '/war-img/chancellorsville-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Potomac', size: '~130,000 troops', commander: 'Hooker', note: 'Marched the bigger army behind Lee — then lost its nerve in the woods.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '~60,000 troops', commander: 'Lee', note: 'Outnumbered two to one, split the army twice, and won — at a price it could not afford.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Army of the Potomac', size: '~130,000 troops', commander: 'Maj. Gen. Joseph Hooker', note: 'Marched the bigger army behind Lee, then lost its nerve in the woods.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '~60,000 troops', commander: 'Gen. Robert E. Lee', note: 'Outnumbered two to one, split the army twice, and won at a price it could not afford.', color: ACCENTS.rust },
 ]
 const CAS = { union: 17300, csa: 13000 }
 const FIGURES = [
-  { name: 'J. Hooker', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/hooker.jpg' },
-  { name: 'J. Sedgwick', role: 'VI Corps, Union', side: 'U', img: '/war-img/cmdr/sedgwick.jpg' },
-  { name: 'O. O. Howard', role: 'XI Corps, Union', side: 'U', img: '/war-img/cmdr/howard.jpg' },
-  { name: 'D. Couch', role: 'II Corps, Union', side: 'U', img: '/war-img/cmdr/couch.jpg' },
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' },
-  { name: '"Stonewall" Jackson', role: 'Second Corps, CSA †', side: 'C', img: '/war-img/cmdr/jackson.jpg' },
-  { name: 'J.E.B. Stuart', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/stuart.jpg' },
+  { name: 'Joseph Hooker', role: 'Cmdr., Potomac', side: 'U', img: '/war-img/cmdr/hooker.jpg', blurb: 'Hooker rebuilt a beaten army and marched roughly twice Lee’s numbers across the rivers and behind the Confederate line, one of the best-conceived operations the Army of the Potomac ever attempted. Then he lost his nerve in the Wilderness, pulled back from the open ground he had reached, was concussed by a cannonball against his own headquarters porch on May 3, and quit the campaign with tens of thousands of men who had barely fired a shot.' },
+  { name: 'John Sedgwick', role: 'VI Corps, Union', side: 'U', img: '/war-img/cmdr/sedgwick.jpg', blurb: 'Sedgwick held the lower crossings below Fredericksburg, first as the loud feint meant to pin Lee in place. On May 3 he stormed Marye’s Heights in the Second Battle of Fredericksburg and pushed west toward Lee’s rear, only to be stopped cold at Salem Church and pulled back across the Rappahannock at Banks’ Ford.' },
+  { name: 'Oliver O. Howard', role: 'XI Corps, Union', side: 'U', img: '/war-img/cmdr/howard.jpg', blurb: 'Howard held the far western end of the Union line, the unanchored flank hanging in the air, and left it facing the wrong way despite warnings that the enemy was moving beyond it. When Jackson’s corps burst out of the woods at dusk on May 2, his XI Corps was overrun from the side and lost around 2,500 men in minutes.' },
+  { name: 'Darius N. Couch', role: 'II Corps, Union', side: 'U', img: '/war-img/cmdr/couch.jpg', blurb: 'Couch was Hooker’s senior subordinate and came away from the May 1 withdrawal believing his commanding general was a whipped man. When the concussed Hooker would not give up command on May 3, the army was left paralyzed at the top, and Couch refused to serve under him again.' },
+  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: 'Outnumbered better than two to one, Lee divided his army twice in two days in front of a stronger enemy, sending Jackson on the flank march that wrecked the Union right while he held the center with a sliver of men. It is fairly called his perfect battle, won at the cost of a fifth of his army and Stonewall Jackson, and it became the springboard for the invasion that ended at Gettysburg.' },
+  { name: 'Thomas "Stonewall" Jackson', role: 'Second Corps, CSA †', side: 'C', img: '/war-img/cmdr/jackson.jpg', blurb: 'Jackson took his entire Second Corps on a roughly twelve-mile march around the Union army and shattered Howard’s XI Corps from the side at dusk on May 2, the most famous maneuver of the war. Scouting ahead in the dark for a night attack, he was shot by his own men, lost his left arm, and died of pneumonia eight days later.' },
+  { name: 'J.E.B. Stuart', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/stuart.jpg', blurb: 'Stuart’s scouts found the open Union flank that made the whole flank march possible. After Jackson fell, the cavalryman who had never commanded infantry in a pitched battle took over the Second Corps overnight and renewed the assault on May 3, massing guns on captured Hazel Grove and driving the Union line inward on the crossroads.' },
 ]
 const SECTIONS = [
-  { id: 'the-plan', eyebrow: 'Hooker’s great gamble', title: 'The Finest Army on the Planet', blurb: 'Hooker (North) swings the bigger army behind Lee (South) — a brilliant plan that marches two-to-one numbers into a forest that erases the edge.' },
-  { id: 'lee-divides', eyebrow: 'The audacity of the outnumbered', title: 'Splitting an Army Already Too Small', blurb: 'Outnumbered two to one, Lee (South) divides his force twice in two days — and Stuart’s (South) scouts find the open Union flank that makes it possible.' },
-  { id: 'the-flank-march', eyebrow: 'Dusk on the Orange Turnpike', title: 'Jackson Comes Out of the Woods', blurb: 'Jackson (South) marches twelve miles unseen and shatters Howard’s (North) XI Corps from the side in under an hour — the war’s most famous maneuver.' },
-  { id: 'jackson-falls', eyebrow: 'The cost of the masterpiece', title: 'Shot by His Own Men', blurb: 'Jackson (South) is wounded by his own men in the dark; Stuart (South) takes the corps, Hooker (North) is concussed on his own porch, and the Union line buckles.' },
-  { id: 'hooker-quits', eyebrow: 'A victory too expensive to keep', title: 'The General Loses His Nerve', blurb: 'Hooker (North) quits with the bigger army intact. Lee wins his masterpiece — and pays with a fifth of his army and Stonewall Jackson, dead by May 10.' },
+  { id: 'the-plan', eyebrow: 'Hooker’s great gamble', title: 'The Finest Army on the Planet', blurb: 'Hooker (North) swings the bigger army behind Lee, a brilliant plan that marches two-to-one numbers into a forest that erases the edge.' },
+  { id: 'lee-divides', eyebrow: 'The audacity of the outnumbered', title: 'Splitting an Army Already Too Small', blurb: 'Outnumbered two to one, Lee divides his force twice in two days, and Stuart’s (South) scouts find the open Union flank that makes it possible.' },
+  { id: 'the-flank-march', eyebrow: 'Dusk on the Orange Turnpike', title: 'Jackson Comes Out of the Woods', blurb: 'Jackson marches twelve miles unseen and shatters Howard’s (North) XI Corps from the side in under an hour, the war’s most famous maneuver.' },
+  { id: 'jackson-falls', eyebrow: 'The cost of the masterpiece', title: 'Shot by His Own Men', blurb: 'Jackson is wounded by his own men in the dark; Stuart (South) takes the corps, Hooker (North) is concussed on his own porch, and the Union line buckles.' },
+  { id: 'hooker-quits', eyebrow: 'A victory too expensive to keep', title: 'The General Loses His Nerve', blurb: 'Hooker (North) quits with the bigger army intact. Lee wins his masterpiece and pays with a fifth of his army and Stonewall Jackson, dead by May 10.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-plan': '/war-img/chancellorsville-overview.png',
@@ -130,33 +130,32 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate victory · Lee’s masterpiece, and his most expensive win</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Hooker marched roughly twice Lee’s numbers across the rivers and behind the Confederate army — one of the best-conceived operations the Army of the Potomac ever attempted — and then lost his nerve in the tangled woods of the Wilderness. Outnumbered two to one, Lee divided his army twice, sent Jackson on a twelve-mile flank march that shattered an entire Union corps, and out-nerved a larger, better-positioned foe. It is fairly called his perfect battle. But the word masterpiece hides the bill: a fifth of his army gone, and Stonewall Jackson shot by his own men in the dark, dead of pneumonia eight days later. The victory was the launching pad for the invasion that ended at Gettysburg.
+          Hooker marched roughly twice Lee’s numbers across the rivers and behind the Confederate army, one of the best-conceived operations the Army of the Potomac ever attempted, and then lost his nerve in the tangled woods of the Wilderness. Outnumbered two to one, Lee divided his army twice, sent Jackson on a twelve-mile flank march that shattered an entire Union corps, and out-nerved a larger, better-positioned foe. It is fairly called his perfect battle. But the word masterpiece hides the bill: a fifth of his army gone, and Stonewall Jackson shot by his own men in the dark, dead of pneumonia eight days later. The victory was the launching pad for the invasion that ended at Gettysburg.
         </p>
       </div>
     </div>
   )
 }
 
-function FigureImg({ src }: { src: string }) {
-  const [failed, setFailed] = useState(false)
-  if (!src || failed) return null
-  return <img src={src} alt="" onError={() => setFailed(true)} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />
-}
-
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
-                <FigureImg src={f.img} />
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+                {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

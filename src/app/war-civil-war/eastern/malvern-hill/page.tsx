@@ -18,17 +18,17 @@ const ARMIES = [
 ]
 const CAS = { union: 3000, csa: 5500 }
 const FIGURES = [
-  { name: 'F. J. Porter', role: 'On the field, Union', side: 'U', img: '/war-img/cmdr/fj-porter.jpg' },
-  { name: 'H. J. Hunt', role: 'Artillery, Union', side: 'U', img: '/war-img/cmdr/hunt.jpg' },
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' },
-  { name: 'D. H. Hill', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/dh-hill.jpg' },
-  { name: 'J. Magruder', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/magruder.jpg' },
-  { name: 'T. J. Jackson', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg' },
+  { name: 'Fitz John Porter', role: 'On the field, Union', side: 'U', img: '/war-img/cmdr/fj-porter.jpg', blurb: 'With McClellan off inspecting the landing downriver, Porter was the de facto Union commander on Malvern Hill, his V Corps holding the crest and the ridge around the guns. He posted the infantry, fed in reinforcements as the charges came, and ran the defense that broke every Confederate assault.' },
+  { name: 'Henry J. Hunt', role: 'Artillery, Union', side: 'U', img: '/war-img/cmdr/hunt.jpg', blurb: 'As chief of artillery, Hunt gathered the Union batteries side by side and tier on tier along the crest, all of them looking down the open northern slope. His massed guns fired first, fired from above, and broke charge after charge before the attackers could ever close to musket range.' },
+  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: 'Having chased the Union army across the Peninsula all week, Lee believed one more blow might shatter it and ordered the assault despite the murderous ground. His plan depended on his cannon silencing Hunt first; the guns never managed it, and the infantry walked uphill into the slaughter anyway.' },
+  { name: 'Daniel Harvey Hill', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/dh-hill.jpg', blurb: 'Hill rode out that morning, studied the massed Union guns, and warned the others to leave the hill alone; he was overruled. He sent five brigades up the slope himself and watched them shot down, and afterward gave the day the line it has carried ever since: it was not war, it was murder.' },
+  { name: 'John B. Magruder', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/magruder.jpg', blurb: 'Magruder reached the field hours late, sent the wrong way by a mismarked road, then arrived amid the confusion and threw his men forward around 5:30 in the afternoon. His piecemeal brigade attacks from the right were broken by the Union guns and rifle fire and forced back to where they started.' },
+  { name: 'Thomas J. “Stonewall” Jackson', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg', blurb: 'Jackson held the Confederate left, lining up batteries that were mostly powerless to subdue the Union fire from above. Late in the day his brigades went forward on D. H. Hill’s left into the same futile frontal assaults and took heavy losses for nothing.' },
 ]
 const SECTIONS = [
-  { id: 'the-retreat', eyebrow: 'The Seven Days’ end', title: 'The Hill Above the James', blurb: 'After a week of Lee’s (South) hammering, McClellan (North) retreats to the James; the rearguard makes a stand on Malvern Hill, guns massed on the crest.' },
-  { id: 'it-was-murder', eyebrow: 'July 1', title: 'It Was Not War', blurb: 'Lee’s confused, piecemeal assaults charge uphill into the massed Union guns and are slaughtered — “not war,” said D.H. Hill (South), “it was murder.”' },
-  { id: 'richmond-saved', eyebrow: 'The aftermath', title: 'Richmond Saved', blurb: 'The Union wins the field — and retreats anyway. The Seven Days end with Richmond saved: a strategic Confederate triumph despite the tactical defeat.' },
+  { id: 'the-retreat', eyebrow: 'The Seven Days’ end', title: 'The Hill Above the James', blurb: 'After a week of Lee’s hammering, McClellan retreats to the James; the rearguard makes a stand on Malvern Hill, guns massed on the crest.' },
+  { id: 'it-was-murder', eyebrow: 'July 1', title: 'It Was Not War', blurb: 'Lee’s confused, piecemeal assaults charge uphill into the massed Union guns and are slaughtered. “Not war,” said D.H. Hill (South), “it was murder.”' },
+  { id: 'richmond-saved', eyebrow: 'The aftermath', title: 'Richmond Saved', blurb: 'The Union wins the field and retreats anyway. The Seven Days end with Richmond saved: a strategic Confederate triumph despite the tactical defeat.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-retreat': '/war-img/malvern-hill-retreat.png',
@@ -124,7 +124,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union tactical victory · the retreat continues</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          On a commanding hill above the James, the Union artillery chief Henry Hunt massed scores of guns and shredded Lee’s confused, piecemeal assaults across open ground — D.H. Hill called it “not war, it was murder.” Yet McClellan, absent aboard a gunboat, ordered the retreat to continue anyway, ending the Seven Days. The maddening truth: the Union won the field and lost the campaign. In a single week Lee had driven McClellan away from Richmond — a strategic Confederate triumph bought at a terrible, and sometimes pointless, cost.
+          On a commanding hill above the James, the Union artillery chief Henry Hunt (North) massed scores of guns and shredded Lee’s confused, piecemeal assaults across open ground; D.H. Hill (South) called it “not war, it was murder.” Yet McClellan, absent aboard a gunboat, ordered the retreat to continue anyway, ending the Seven Days. The Union won the field and lost the campaign. In a single week Lee had driven McClellan away from Richmond, a strategic Confederate triumph bought at a terrible, and sometimes pointless, cost.
         </p>
       </div>
     </div>
@@ -133,18 +133,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

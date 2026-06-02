@@ -14,26 +14,26 @@ const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-fredericksburg' })
 
 const HERO_IMG = '/war-img/fredericksburg-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Potomac', size: '~114,000 engaged', commander: 'Burnside', note: 'Brought the bigger army and lost more than twice as many men — for nothing.', color: ACCENTS.blue },
+  { side: 'Union', label: 'Army of the Potomac', size: '~114,000 engaged', commander: 'Burnside', note: 'Brought the bigger army and lost more than twice as many men, for nothing.', color: ACCENTS.blue },
   { side: 'Confederacy', label: 'Army of Northern Virginia', size: '~72,500 engaged', commander: 'Lee', note: 'Handed the high ground by a late supply train, and made the enemy pay for every yard.', color: ACCENTS.rust },
 ]
 const CAS = { union: 12653, csa: 5377 }
 const FIGURES = [
-  { name: 'A. E. Burnside', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/burnside.jpg' },
-  { name: 'E. V. Sumner', role: 'Grand Div., Union', side: 'U', img: '/war-img/cmdr/sumner.jpg' },
-  { name: 'W. B. Franklin', role: 'Grand Div., Union', side: 'U', img: '/war-img/cmdr/franklin.jpg' },
-  { name: 'J. Hooker', role: 'Grand Div., Union', side: 'U', img: '/war-img/cmdr/hooker.jpg' },
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' },
-  { name: 'J. Longstreet', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg' },
-  { name: 'T. J. Jackson', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg' },
-  { name: 'J.E.B. Stuart', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/stuart.jpg' },
+  { name: 'Ambrose E. Burnside', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/burnside.jpg', blurb: 'Reluctant in the command he had twice refused, Burnside built his plan on speed and lost it when the pontoon bridges arrived more than a week late, giving Lee time to fortify the heights. His garbled December 13 orders turned a planned diversion into the main attack, and he sent wave after wave into the stone wall at Marye’s Heights until fourteen charges had failed and his army had lost more than twice as many men as the South.' },
+  { name: 'Edwin V. Sumner', role: 'Right Grand Div., Union', side: 'U', img: '/war-img/cmdr/sumner.jpg', blurb: 'Sumner commanded the Right Grand Division, the wing thrown at Marye’s Heights in front of the town. His II Corps led the doomed assaults up the open slope, feeding brigade after brigade into the killing ground behind the stone wall.' },
+  { name: 'William B. Franklin', role: 'Left Grand Div., Union', side: 'U', img: '/war-img/cmdr/franklin.jpg', blurb: 'Franklin led the Left Grand Division of nearly sixty thousand men, the wing Burnside meant to deliver the main blow against Lee’s southern flank. Reading his vague orders cautiously, he committed only Meade’s single division to the one breakthrough of the day and let it be driven back unsupported.' },
+  { name: 'Joseph Hooker', role: 'Center Grand Div., Union', side: 'U', img: '/war-img/cmdr/hooker.jpg', blurb: 'Hooker held the Center Grand Division in reserve and was ordered to throw it at Marye’s Heights once the earlier attacks had failed. He protested the assault as hopeless, sent his men up anyway under orders, and watched them shattered like the rest before dark.' },
+  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: 'Handed weeks to prepare by the late Union bridges, Lee dug his Army of Northern Virginia into the hills behind Fredericksburg and let the enemy come to him. He won the most lopsided defensive victory of his career, then noted that it had gained him nothing, not a foot of ground beyond where his lines already stood.' },
+  { name: 'James Longstreet', role: 'First Corps, CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg', blurb: 'Longstreet held the Confederate center on Marye’s Heights, packing infantry several ranks deep in the sunken road behind a stone wall. His artillerist had promised that a chicken could not live on the field below, and through fourteen charges not one Union soldier reached the wall.' },
+  { name: 'Thomas J. “Stonewall” Jackson', role: 'Second Corps, CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg', blurb: 'Jackson held the Confederate right at the southern end of the line, where a swampy gap left between two brigades was the army’s one real weakness. Meade’s division broke clean through it before Jackson’s reserves counterattacked, sealed the hole, and drove the unsupported Federals back across the railroad.' },
+  { name: 'J.E.B. Stuart', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/stuart.jpg', blurb: 'Stuart screened and guarded Jackson’s exposed right flank at the southern end of the field with his cavalry and horse artillery. His young artillerist John Pelham, with as few as one or two guns, raked the advancing Union line lengthwise and held up the whole southern attack until he was ordered to withdraw.' },
 ]
 const SECTIONS = [
-  { id: 'the-bridges-that-came-late', eyebrow: 'The original sin', title: 'A Battle Half-Lost Before a Shot', blurb: 'Burnside’s (North) whole plan was speed; the pontoon bridges arrived a week late, and Lee (South) used the gift to fortify the heights.' },
+  { id: 'the-bridges-that-came-late', eyebrow: 'The original sin', title: 'A Battle Half-Lost Before a Shot', blurb: 'Burnside’s (North) whole plan was speed; the pontoon bridges arrived a week late, and Lee used the gift to fortify the heights.' },
   { id: 'crossing-under-fire', eyebrow: 'House to house', title: 'The Contested River and the Sack of the Town', blurb: 'Barksdale’s (South) snipers shoot the engineers off the boats; a rowboat assault under fire clears the bank in the war’s first urban fight.' },
-  { id: 'the-gap-and-the-wall', eyebrow: 'Two battles, one day', title: 'Meade’s Breakthrough and the Stone Wall', blurb: 'Meade (North) pierces the only gap in Jackson’s (South) line and loses it for lack of help, while fourteen charges die in front of Marye’s Heights.' },
+  { id: 'the-gap-and-the-wall', eyebrow: 'Two battles, one day', title: 'Meade’s Breakthrough and the Stone Wall', blurb: 'Meade (North) pierces the only gap in Jackson’s line and loses it for lack of help, while fourteen charges die in front of Marye’s Heights.' },
   { id: 'the-frozen-field', eyebrow: 'The night after', title: 'The Wounded, the Cold, and the Contested Angel', blurb: 'Thousands of wounded freeze in the open under fire; the “Angel of Marye’s Heights” survives only in a single account written seventeen years later.' },
-  { id: 'tactical-win-strategic-nothing', eyebrow: 'The cost & the meaning', title: 'A Battle, Gained — and What It Bought No One', blurb: '~18,000 fall; the bigger army loses more than twice as many. Lee wins and knows it decided nothing — three weeks before emancipation.' },
+  { id: 'tactical-win-strategic-nothing', eyebrow: 'The cost & the meaning', title: 'A Battle Gained, and What It Bought No One', blurb: '~18,000 fall; the bigger army loses more than twice as many. Lee wins and knows it decided nothing, three weeks before emancipation.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-bridges-that-came-late': '/war-img/cmdr/burnside.jpg',
@@ -131,7 +131,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Decisive Confederate victory · a strategic dead end</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          A logistics failure handed Lee the high ground before the battle began, and Burnside’s own garbled orders turned the planned diversion in front of the town into the main slaughter: fourteen brigade-by-brigade charges into the stone wall at Marye’s Heights, and not one man reached it. The numerically superior Union army lost more than twice as many men as the South and gained nothing but a name for futile frontal assault. Lee won the battle and knew it had decided nothing. And it was fought in the final weeks before the Emancipation Proclamation took effect on January 1, 1863 — turning the war openly into a war against slavery, the freedom enslaved people around Fredericksburg had already been crossing the river to claim.
+          A logistics failure handed Lee the high ground before the battle began, and Burnside’s own garbled orders turned the planned diversion in front of the town into the main slaughter: fourteen brigade-by-brigade charges into the stone wall at Marye’s Heights, and not one man reached it. The numerically superior Union army lost more than twice as many men as the South and gained nothing but a name for futile frontal assault. Lee won the battle and knew it had decided nothing. It was fought in the final weeks before the Emancipation Proclamation took effect on January 1, 1863, turning the war openly into a war against slavery, the freedom enslaved people around Fredericksburg had already been crossing the river to claim.
         </p>
       </div>
     </div>
@@ -146,18 +146,23 @@ function FigureImg({ src }: { src: string }) {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 <FigureImg src={f.img} />
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

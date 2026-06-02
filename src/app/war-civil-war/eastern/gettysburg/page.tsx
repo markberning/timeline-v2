@@ -18,8 +18,8 @@ const HERO_IMG = '/war-img/gettysburg-hero.jpg' // Thure de Thulstrup, 1887 (PD)
 const HERO_PAL = ['#3a2a1c', '#7a1422', '#100506']
 
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Potomac', size: '93,921', commander: 'Maj. Gen. George G. Meade', note: 'Newly in command — Meade took over the army just three days before the battle.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '71,699', commander: 'Gen. Robert E. Lee', note: 'On the offensive — Lee’s second and deepest invasion of the North.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Army of the Potomac', size: '93,921', commander: 'Maj. Gen. George G. Meade', note: 'Newly in command. Meade took over the army just three days before the battle.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '71,699', commander: 'Gen. Robert E. Lee', note: 'On the offensive: Lee’s second and deepest invasion of the North.', color: ACCENTS.rust },
 ]
 const CAS = { union: 23055, csa: 28063, civ: 1 }
 const FIGURES = [
@@ -32,11 +32,11 @@ const FIGURES = [
   { name: 'Joshua L. Chamberlain', role: 'Col., 20th Maine', side: 'U', img: '/war-img/cmdr/chamberlain.jpg', blurb: "A college professor in uniform, Chamberlain held the far Union left at Little Round Top on the second day. Out of ammunition and about to be overrun, his 20th Maine fixed bayonets and charged downhill, saving the flank." },
 ]
 const SECTIONS = [
-  { id: 'setting', eyebrow: 'Lay of the land', title: 'How they got there', blurb: 'Lee (South) marches north. The armies converge blindly toward a Pennsylvania crossroads town with ten roads.', cas: null, day: null },
+  { id: 'setting', eyebrow: 'Lay of the land', title: 'How they got there', blurb: 'Lee marches north. The armies converge blindly toward a Pennsylvania crossroads town with ten roads.', cas: null, day: null },
   { id: 'mcpherson', eyebrow: 'Day 1 · July 1', title: 'McPherson’s Ridge', blurb: 'Heth (South) blunders into Buford (North). Reynolds (North) is killed. By evening the Union has been pushed back to Cemetery Hill.', cas: 15500, day: 1 },
   { id: 'hooks', eyebrow: 'Day 2 · July 2', title: 'The Hooks', blurb: 'Longstreet (South) swings around to hit the Union left. The 20th Maine holds at the end of the line.', cas: 19500, day: 2 },
   { id: 'pickett', eyebrow: 'Day 3 · July 3', title: 'Pickett’s Charge', blurb: 'Twelve thousand five hundred men across three-quarters of a mile of open ground. About half do not come back.', cas: 15000, day: 3 },
-  { id: 'aftermath', eyebrow: 'Aftermath', title: 'The retreat & the Address', blurb: 'Lee (South) withdraws south through ten days of rain. Five months later Lincoln (North) dedicates the cemetery in two minutes.', cas: null, day: null },
+  { id: 'aftermath', eyebrow: 'Aftermath', title: 'The retreat & the Address', blurb: 'Lee withdraws south through ten days of rain. Five months later Lincoln dedicates the cemetery in two minutes.', cas: null, day: null },
 ]
 const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
   setting: { size: 'm', date: '1863', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
@@ -149,7 +149,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · the Confederacy’s high-water mark</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Lee’s deepest invasion of the North was broken in three days, at a cost of roughly 50,000 casualties on both sides — and the very next morning, far to the west, Vicksburg surrendered to Grant. The two defeats together are remembered as the war’s turning point: the Army of Northern Virginia never mounted a major offensive into Union territory again. Yet Meade let Lee’s wrecked army slip back across the Potomac, the chance to end the war that summer went with it, and the fighting ground on for nearly two more years.
+          Lee’s deepest invasion of the North was broken in three days, at a cost of roughly 50,000 casualties on both sides, and the very next morning, far to the west, Vicksburg surrendered to Grant. The two defeats together are remembered as the war’s turning point: the Army of Northern Virginia never mounted a major offensive into Union territory again. Yet Meade let Lee’s wrecked army slip back across the Potomac, the chance to end the war that summer went with it, and the fighting ground on for nearly two more years.
         </p>
       </div>
     </div>
@@ -158,9 +158,9 @@ function OutcomePill() {
 
 // Per-day explanations shown below the map; also drive the interactive filter.
 const DAYS = [
-  { n: 1, title: 'Day 1 · July 1', sub: 'McPherson’s Ridge', text: 'Confederate divisions marching in from the northwest blunder into Union cavalry along McPherson’s Ridge. Both armies rush troops toward the sound of the guns; Gen. Reynolds (North) is killed early. By evening the outnumbered Union forces are driven back through the town — but they rally onto the high ground south of it, the hills and ridges that form the fishhook.' },
-  { n: 2, title: 'Day 2 · July 2', sub: 'The hooks', text: 'Lee (South) strikes both ends of the fishhook at once. On the south, Longstreet (South) drives his men into Devil’s Den, the Wheatfield, the Peach Orchard, and Little Round Top — where Chamberlain (North) and his 20th Maine hold the very end of the Union line. On the northern barb, Ewell (South) claws at Culp’s Hill. The line bends everywhere and breaks nowhere.' },
-  { n: 3, title: 'Day 3 · July 3', sub: 'Pickett’s Charge', text: 'After the largest artillery bombardment of the war, Lee (South) gambles on the center. Roughly 12,500 men — Pickett’s Charge — step off across three-quarters of a mile of open ground toward the Angle on Cemetery Ridge. Canister and rifle fire shred them; the handful who reach the wall (the “high-water mark”) are killed or captured. The charge fails, and Lee’s invasion with it.' },
+  { n: 1, title: 'Day 1 · July 1', sub: 'McPherson’s Ridge', text: 'Confederate divisions marching in from the northwest blunder into Union cavalry along McPherson’s Ridge. Both armies rush troops toward the sound of the guns; Maj. Gen. John Reynolds (North) is killed early. By evening the outnumbered Union forces are driven back through the town, but they rally onto the high ground south of it, the hills and ridges that form the fishhook.' },
+  { n: 2, title: 'Day 2 · July 2', sub: 'The hooks', text: 'Lee strikes both ends of the fishhook at once. On the south, Longstreet (South) drives his men into Devil’s Den, the Wheatfield, the Peach Orchard, and Little Round Top, where Chamberlain (North) and his 20th Maine hold the very end of the Union line. On the northern barb, Ewell (South) claws at Culp’s Hill. The line bends everywhere and breaks nowhere.' },
+  { n: 3, title: 'Day 3 · July 3', sub: 'Pickett’s Charge', text: 'After the largest artillery bombardment of the war, Lee gambles on the center. Roughly 12,500 men, Pickett’s Charge, step off across three-quarters of a mile of open ground toward the Angle on Cemetery Ridge. Canister and rifle fire shred them; the handful who reach the wall (the “high-water mark”) are killed or captured. The charge fails, and Lee’s invasion with it.' },
 ]
 
 // Interactive SVG fishhook battlefield diagram — tap a day to spotlight its
@@ -237,7 +237,7 @@ function Fishhook() {
         <g opacity={dayOp(3)} style={grp}>
           <line x1="102" y1="158" x2="156" y2="158" stroke={rust} strokeWidth={3} markerEnd="url(#ah-rust)" />
           <rect x="157" y="154.5" width="6.5" height="6.5" transform="rotate(45 160.25 157.75)" fill={rust} />
-          <Lbl x={168} y={150} color={rust}>the Angle — high-water mark</Lbl>
+          <Lbl x={168} y={150} color={rust}>the Angle · high-water mark</Lbl>
         </g>
 
         {/* compass */}

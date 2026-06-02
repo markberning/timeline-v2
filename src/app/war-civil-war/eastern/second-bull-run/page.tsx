@@ -14,26 +14,26 @@ const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-bullrun2' })
 
 const HERO_IMG = '/war-img/second-bull-run-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of Virginia', size: '~65,000 troops', commander: 'Pope', note: 'A brand-new army under a boastful stranger — marched onto ground it had bled for once already.', color: ACCENTS.blue },
+  { side: 'Union', label: 'Army of Virginia', size: '~65,000 troops', commander: 'Pope', note: 'A brand-new army under a boastful stranger, marched onto ground it had bled for once already.', color: ACCENTS.blue },
   { side: 'Confederacy', label: 'Army of Northern Virginia', size: '~50,000 troops', commander: 'Lee', note: 'Split in two, marched fifty miles, and reunited on the field to spring the trap.', color: ACCENTS.rust },
 ]
 const CAS = { union: 14462, csa: 8400 }
 const FIGURES = [
-  { name: 'John Pope', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/pope.jpg' },
-  { name: 'I. McDowell', role: 'Corps, Union', side: 'U', img: '/war-img/cmdr/mcdowell.jpg' },
-  { name: 'F. Sigel', role: 'Corps, Union', side: 'U', img: '/war-img/cmdr/sigel.jpg' },
-  { name: 'F. J. Porter', role: 'Corps, Union', side: 'U', img: '/war-img/cmdr/fj-porter.jpg' },
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' },
-  { name: '"Stonewall" Jackson', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg' },
-  { name: 'J. Longstreet', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg' },
-  { name: 'J.E.B. Stuart', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/stuart.jpg' },
+  { name: 'John Pope', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/pope.jpg', blurb: 'Pope commanded the new Army of Virginia and convinced himself the enemy was beaten and fleeing, so he threw his divisions at Jackson’s dug-in line one at a time and brushed aside repeated warnings that Longstreet’s wing was massing on his flank. When that flank attack came on August 30 his army was driven back toward Washington, and within two weeks he was relieved and sent west to fight Indians.' },
+  { name: 'Irvin McDowell', role: 'Corps, Union', side: 'U', img: '/war-img/cmdr/mcdowell.jpg', blurb: 'McDowell, who had lost the first battle on this same ground a year before, led a corps under Pope and was handed a cavalry dispatch reporting Longstreet’s column arriving, then pocketed it for hours. His shifting of Reynolds’s division away from Chinn Ridge helped strip the Union left just before Longstreet’s assault landed.' },
+  { name: 'Franz Sigel', role: 'Corps, Union', side: 'U', img: '/war-img/cmdr/sigel.jpg', blurb: 'Sigel’s I Corps was the only Union force in position at daybreak on August 29 and made the first attacks against Jackson’s line behind the railroad embankment, which were beaten back. His men fought again the next day trying to slow Longstreet’s avalanche.' },
+  { name: 'Fitz John Porter', role: 'Corps, Union', side: 'U', img: '/war-img/cmdr/fj-porter.jpg', blurb: 'Porter, whose V Corps faced Longstreet’s hidden wing, held back from attacking what he sensed was a strong enemy on his front and was made the scapegoat for the defeat. He was court-martialed and dismissed in 1863, a conviction later judged unjust and overturned.' },
+  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: 'Lee split his outnumbered army, sent Jackson on a wide march into Pope’s rear, and gambled that he could reunite his two wings on the battlefield before Pope destroyed either half. The gamble paid off completely, and the victory emboldened him to cross the Potomac for his first invasion of the North.' },
+  { name: 'Thomas “Stonewall” Jackson', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg', blurb: 'Jackson marched his wing roughly fifty miles around Pope’s flank, captured and burned the great Union supply depot at Manassas Junction, then dug in behind an unfinished railroad grade and held off two days of frontal assaults. He pinned Pope’s whole army in place until Lee’s other wing could arrive and strike.' },
+  { name: 'James Longstreet', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg', blurb: 'Longstreet brought Lee’s second wing through Thoroughfare Gap and deployed it unseen on Jackson’s right, on the exposed flank of Pope’s army. On the afternoon of August 30 he launched some 25,000 to 28,000 men in what is generally reckoned the largest mass assault of the war, rolling up the Union left.' },
+  { name: 'J.E.B. Stuart', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/stuart.jpg', blurb: 'Stuart’s cavalry screened Jackson’s long flank march so Pope never saw it coming, and during the battle his troopers stirred up dust to fake marching columns and confuse the Union command. After Longstreet’s assault Stuart pressed the pursuit of the retreating Federals across Bull Run.' },
 ]
 const SECTIONS = [
-  { id: 'same-ground-again', eyebrow: 'The second time on the same field', title: 'A New Army, an Old Battlefield', blurb: 'Lincoln (North) builds a new army under Pope (North); Lee (South) shifts north to wreck it — on the exact ground of the first battle.' },
-  { id: 'the-long-march', eyebrow: 'Fifty miles around the back', title: 'Jackson Burns the Supply Depot', blurb: 'Jackson (South) marches fifty miles into Pope’s (North) rear, takes the great depot at Manassas Junction, feasts, and burns the rest.' },
-  { id: 'the-railroad-cut', eyebrow: 'Throwing an army at a wall', title: 'The Wall Behind the Railroad', blurb: 'Pope (North) hurls divisions piecemeal at Jackson’s (South) dug-in line — while Longstreet’s (South) wing slips unseen onto the flank.' },
+  { id: 'same-ground-again', eyebrow: 'The second time on the same field', title: 'A New Army, an Old Battlefield', blurb: 'Lincoln builds a new army under Pope (North); Lee shifts north to wreck it, on the exact ground of the first battle.' },
+  { id: 'the-long-march', eyebrow: 'Fifty miles around the back', title: 'Jackson Burns the Supply Depot', blurb: 'Jackson marches fifty miles into Pope’s (North) rear, takes the great depot at Manassas Junction, feasts, and burns the rest.' },
+  { id: 'the-railroad-cut', eyebrow: 'Throwing an army at a wall', title: 'The Wall Behind the Railroad', blurb: 'Pope (North) hurls divisions piecemeal at Jackson’s dug-in line while Longstreet’s wing slips unseen onto the flank.' },
   { id: 'the-hammer-falls', eyebrow: 'Twenty-eight thousand men at once', title: 'Longstreet’s Avalanche', blurb: 'Longstreet (South) unleashes the war’s largest mass assault into the exposed Union left; rearguard stands buy the army its escape.' },
-  { id: 'the-road-to-antietam', eyebrow: 'The defeat that set up emancipation', title: 'What the Victory Unleashed', blurb: '~22,000 fall. Pope (North) is finished; Porter (North) is scapegoated — and the defeat opens the road to Antietam and emancipation.' },
+  { id: 'the-road-to-antietam', eyebrow: 'The defeat that set up emancipation', title: 'What the Victory Unleashed', blurb: 'About 22,000 fall. Pope (North) is finished and Porter (North) is scapegoated, and the defeat opens the road to Antietam and emancipation.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'same-ground-again': '/war-img/cmdr/pope.jpg',
@@ -131,33 +131,32 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate victory · the road to Antietam opens</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Lee split his army, sent Jackson on a fifty-mile march to burn Pope’s supply depot at Manassas Junction, then reunited his wings on the field and crushed the Union left with Longstreet’s massive August-30 assault. The Union army was driven back to the Washington defenses at a cost of roughly 22,000 combined casualties. The victory emboldened Lee to invade the North — leading straight to Antietam, after which Lincoln issued the Preliminary Emancipation Proclamation, turning the war into a war against slavery. The forgotten defeat that set the whole sequence in motion.
+          Lee split his army, sent Jackson on a fifty-mile march to burn Pope’s supply depot at Manassas Junction, then reunited his wings on the field and crushed the Union left with Longstreet’s massive August 30 assault. The Union army was driven back to the Washington defenses at a cost of roughly 22,000 combined casualties. The victory emboldened Lee to invade the North, leading straight to Antietam, after which Lincoln issued the Preliminary Emancipation Proclamation, turning the war into a war against slavery. It was the forgotten defeat that set the whole sequence in motion.
         </p>
       </div>
     </div>
   )
 }
 
-function FigureImg({ src }: { src: string }) {
-  const [failed, setFailed] = useState(false)
-  if (!src || failed) return null
-  return <img src={src} alt="" onError={() => setFailed(true)} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />
-}
-
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
-                <FigureImg src={f.img} />
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+                {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}
