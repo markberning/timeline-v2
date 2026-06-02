@@ -23,9 +23,9 @@ const ARMIES = [
 ]
 const CAS = { union: 23055, csa: 28063, civ: 1 }
 const FIGURES = [
-  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: "Fresh off his masterpiece at Chancellorsville and deep in Northern territory, Lee gambled on smashing the Union line head-on. When the second day's attacks failed, he ordered a frontal assault on the center over Longstreet's objections, and never invaded the North again." },
+  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: "Fresh off a smashing victory at Chancellorsville and deep in Northern territory, Lee gambled on breaking the Union line head-on. When the second day's attacks failed, he ordered a frontal assault on the center over Longstreet's objections, and never invaded the North again." },
   { name: 'James Longstreet', role: 'Lt. Gen., CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg', blurb: "Lee's senior corps commander argued for swinging around the Union left and fighting on the defensive rather than attacking the heights. Overruled, he reluctantly launched the second-day assault and then the doomed charge on the third." },
-  { name: 'George Pickett', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/pickett.jpg', blurb: "His fresh Virginia division spearheaded the climactic third-day assault on Cemetery Ridge — joined by Pettigrew's and Trimble's divisions — that still bears his name. Of the roughly 12,500 men who stepped off across an open mile, about half never came back." },
+  { name: 'George Pickett', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/pickett.jpg', blurb: "His fresh Virginia division spearheaded the climactic third-day assault on Cemetery Ridge, joined by Pettigrew's and Trimble's divisions, that still bears his name. Of the roughly 12,500 men who stepped off across three-quarters of a mile of open ground, about half never came back." },
   { name: 'George G. Meade', role: 'Cmdr., Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg', blurb: "Handed command of the Army of the Potomac just three days before the battle, Meade fought a careful defensive fight on excellent ground, holding the fishhook line against three days of attacks to win the biggest battle of the war." },
   { name: 'Winfield S. Hancock', role: 'Corps, Union', side: 'U', img: '/war-img/cmdr/hancock.jpg', blurb: "Sent ahead on the first day to judge the ground, Hancock chose the high ground south of town and steadied the broken line. He anchored the Union center and was badly wounded helping repulse Pickett's Charge." },
   { name: 'John Buford', role: 'Cav., Union', side: 'U', img: '/war-img/cmdr/buford.jpg', blurb: "His cavalry division reached Gettysburg first and fought a dismounted delaying action on the ridges west of town, buying the hours the Union infantry needed to reach and hold the heights." },
@@ -73,7 +73,7 @@ function HeroImg() {
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.75) 100%)' }} />
       <div style={{ position: 'absolute', top: 10, right: 12, fontFamily: SANS, fontSize: 9, color: 'rgba(255,255,255,0.7)', background: 'rgba(0,0,0,0.4)', padding: '3px 7px', borderRadius: 4 }}>Thure de Thulstrup, 1887 · chromolithograph</div>
       <div style={{ position: 'absolute', left: 16, right: 16, bottom: 14 }}>
-        <Eyebrow color="#c4b5fd">Battle · Eastern Theatre battles · 5 of 8</Eyebrow>
+        <Eyebrow color="#c4b5fd">Battle · Eastern Theatre</Eyebrow>
         <h1 style={{ margin: '6px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 30, lineHeight: 1.05, letterSpacing: -0.5, color: '#fff' }}>Battle of Gettysburg</h1>
         <div style={{ fontFamily: SERIF, fontSize: 14, color: 'rgba(255,255,255,0.82)', marginTop: 4 }}>July 1–3, 1863 · Adams County, Pennsylvania</div>
       </div>
@@ -149,7 +149,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · the Confederacy’s high-water mark</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Lee’s deepest invasion of the North was broken in three days, at a cost of roughly 50,000 casualties on both sides, and the very next morning, far to the west, Vicksburg surrendered to Grant. The two defeats together are remembered as the war’s turning point: the Army of Northern Virginia never mounted a major offensive into Union territory again. Yet Meade let Lee’s wrecked army slip back across the Potomac, the chance to end the war that summer went with it, and the fighting ground on for nearly two more years.
+The Army of Northern Virginia had marched north to win foreign recognition and breathing room for a Confederacy built on slavery. Instead Lee’s deepest invasion was broken in three days, at a cost of roughly 50,000 casualties on both sides, and the next day, July 4th, far to the west, the Confederate river stronghold of Vicksburg surrendered to Grant. The two defeats together are remembered as the war’s turning point: the Army of Northern Virginia never mounted a major offensive into Union territory again. Yet Meade let Lee’s wrecked army slip back across the Potomac, the chance to end the war that summer went with it, and the fighting ground on for nearly two more years.
         </p>
       </div>
     </div>
