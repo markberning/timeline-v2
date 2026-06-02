@@ -202,7 +202,7 @@ function CommandersTab() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <span className="pic"><img src={c.portrait} alt="" /></span>
             <b>{c.name}</b>
-            <span className="meta">{c.side === 'U' ? 'Union' : 'Confederate'} · {c.appearances.length} battles</span>
+            <span className="meta">{c.appearances.length} battles</span>
             <span className="ep">{c.epithet}</span>
           </a>
         ))}
