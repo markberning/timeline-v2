@@ -12,6 +12,7 @@ import './war-skin.css'
 import { useEffect, useMemo, useState } from 'react'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
 import { CHAPTERS, MAJORS } from '@/lib/civil-war-roster'
+import { TheatresTab } from './theatres-tab'
 
 // ---- inline icons (replace prototype's PI set) ----
 const I = {
@@ -193,21 +194,21 @@ export default function WarHome() {
           </div>
         ))}
         {tab === 'battles' && (
-          <>
-            <div className="p-bsearch">
-              {I.search}
-              <input value={bq} onChange={e => setBq(e.target.value)} placeholder="Find your battle" />
-              {bq && <button className="clr" onClick={() => setBq('')} aria-label="Clear">{I.close}</button>}
-            </div>
-            <div className="p-filter">
-              {CHIPS.map(c => (
-                <button key={c.k} className={'f' + (thFilter === c.k ? ' on' : '')} onClick={() => setThFilter(c.k)}
-                  style={{ ['--chipc' as string]: c.color } as React.CSSProperties}>
-                  {c.color && <span className="dot" style={{ background: c.color }} />}{c.label}
-                </button>
-              ))}
-            </div>
-          </>
+          <div className="p-bsearch">
+            {I.search}
+            <input value={bq} onChange={e => setBq(e.target.value)} placeholder="Find your battle" />
+            {bq && <button className="clr" onClick={() => setBq('')} aria-label="Clear">{I.close}</button>}
+          </div>
+        )}
+        {(tab === 'battles' || tab === 'theatres') && (
+          <div className="p-filter">
+            {CHIPS.map(c => (
+              <button key={c.k} className={'f' + (thFilter === c.k ? ' on' : '')} onClick={() => setThFilter(c.k)}
+                style={{ ['--chipc' as string]: c.color } as React.CSSProperties}>
+                {c.color && <span className="dot" style={{ background: c.color }} />}{c.label}
+              </button>
+            ))}
+          </div>
         )}
       </div>
 
@@ -215,7 +216,7 @@ export default function WarHome() {
       {tab === 'story' && <StoryTab />}
       {tab === 'battles' && <BattlesTab theatre={thFilter} query={bq} />}
       {tab === 'offfield' && <Placeholder label="Off the Field" />}
-      {tab === 'theatres' && <Placeholder label="Theatres" />}
+      {tab === 'theatres' && <TheatresTab active={thFilter} goBattles={k => { setThFilter(k); setTab('battles') }} />}
       {tab === 'commanders' && <Placeholder label="Commanders" />}
       {tab === 'facts' && <Placeholder label="Facts" />}
 
