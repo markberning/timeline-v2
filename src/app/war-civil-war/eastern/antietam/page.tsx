@@ -7,6 +7,7 @@
 
 import { useState } from 'react'
 import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha } from '@/components/mode/war-chrome'
+import { CommandersStrip } from '@/components/mode/commanders-strip'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-antietam' })
@@ -137,33 +138,6 @@ function OutcomePill() {
   )
 }
 
-function CommandersStrip() {
-  return (
-    <div style={{ padding: '14px 16px' }}>
-      <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
-        {FIGURES.map(f => {
-          const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
-          return (
-            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
-              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
-                {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
-              </div>
-              <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
-                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
-                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
-                </div>
-                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
-              </div>
-            </div>
-          )
-        })}
-      </div>
-    </div>
-  )
-}
-
 function Thumb({ file, w, h }: { file: string; w: number; h: number }) {
   const [failed, setFailed] = useState(false)
   return (
@@ -213,7 +187,7 @@ export default function AntietamPage() {
         ]} />
         <HeroImg />
         <div id="sec-glance" style={secTop}><AtAGlance /></div>
-        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip figures={FIGURES} accent={ACCENT} /></div>
         <div id="sec-outcome" style={secTop}><OutcomePill /></div>
         <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
