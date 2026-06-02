@@ -59,7 +59,7 @@ export interface TheatreData {
 // <body>, outside .war-skin, so the --th-* CSS vars can't resolve here). These
 // are the light-mode/saturated variants, legible on both menu backgrounds.
 const THEATRE_DOT: Record<string, string> = {
-  east: '#8a5b86', west: '#4e8a52', tmis: '#b3852f', naval: '#2c7d99', offfield: ACCENTS.green, howfought: WAR_ACCENT,
+  east: '#8a5b86', west: '#4e8a52', tmis: '#b3852f', naval: '#2c7d99', offfield: '#d96a26', howfought: WAR_ACCENT,
 }
 
 // Compact ancestor labels for the breadcrumb trail (keep it narrow on a phone);
