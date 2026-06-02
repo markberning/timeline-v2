@@ -103,6 +103,11 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, bare = false 
       backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
       borderBottom: border, padding: '5px 8px 5px 12px', display: 'flex', alignItems: 'center', gap: 8,
       height: 50, boxSizing: 'border-box',
+      // bare = under the war-skin hamburger header: stick just below it so the
+      // jump dropdowns stay reachable at any scroll depth. (--hdr is the header
+      // height inside .war-skin; falls back for any non-skin caller.) The fixed
+      // 50px height lets the next sticky bar offset by exactly that.
+      ...(bare ? { position: 'sticky' as const, top: 'var(--hdr, 52px)', zIndex: 25 } : null),
     }}>
       <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflowX: 'auto', overflowY: 'hidden', whiteSpace: 'nowrap', scrollbarWidth: 'none' }}>
         {crumbs.map((c, i) => {

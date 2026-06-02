@@ -127,13 +127,30 @@ export function BattleSectionReader({
   // the parent spine (themes → Off the Battlefield, chapters → Military Story).
   const headerBack = ids.length > 1 ? battleHref : (endHref ?? theatreHref)
 
+  // Carry the new war-skin theatre palette through the narratives: derive the
+  // accent from the theatre rather than the per-page hex (the section pages still
+  // hardcode the old violet/rust). The CSS var adapts light/dark and drives the
+  // prose + breadcrumb; DottedMap does color math (alpha()) so it needs a concrete
+  // hex (the dark-mode value, the default theme). offfield → OTBF orange; howfought
+  // and anything unmapped keeps its passed accent (e.g. the Military stone).
+  const THEATRE_ACCENT: Record<string, { v: string; hex: string }> = {
+    east: { v: 'var(--th-east)', hex: '#c79cd0' },
+    west: { v: 'var(--th-west)', hex: '#84c089' },
+    tmis: { v: 'var(--th-tmis)', hex: '#d8b25a' },
+    naval: { v: 'var(--th-naval)', hex: '#5fb0cc' },
+    offfield: { v: 'var(--otbf)', hex: '#d96a26' },
+  }
+  const ta = THEATRE_ACCENT[theatreId as string]
+  const accentVar = ta ? ta.v : accent   // CSS --accent + breadcrumb (var ok)
+  const accentHex = ta ? ta.hex : accent // DottedMap (needs a concrete color)
+
   return (
-    <div className="war-skin" style={{ ['--accent' as string]: accent } as React.CSSProperties}>
+    <div className="war-skin" style={{ ['--accent' as string]: accentVar } as React.CSSProperties}>
       <WarHeader backHref={headerBack} />
 
       {/* where-am-I trail — the dual-action breadcrumb (each crumb links, and
           tapping opens the theatre/battle/chapter jump dropdown) */}
-      <WarBreadcrumb crumbs={crumbs} accent={accent} bare />
+      <WarBreadcrumb crumbs={crumbs} accent={accentVar} bare />
 
       {heroImage && (
         <>
@@ -180,7 +197,7 @@ export function BattleSectionReader({
             )
             if ('locator' in b) return (
               <div key={i} className="rd-map">
-                <DottedMap accent={accent} {...b.locator} />
+                <DottedMap accent={accentHex} {...b.locator} />
               </div>
             )
             if ('pill' in b) return (

@@ -63,10 +63,10 @@ export type Commander = { name: string; role: string; side: Side; img: string; b
 export type Section = { id: string; eyebrow: string; title: string; blurb: string; img?: string }
 
 const TABS = [
-  { id: 'glance', label: 'At a glance' },
-  { id: 'commanders', label: 'Commanders' },
-  { id: 'outcome', label: 'Outcome' },
   { id: 'narrative', label: 'Narrative' },
+  { id: 'commanders', label: 'Commanders' },
+  { id: 'glance', label: 'At a glance' },
+  { id: 'outcome', label: 'Outcome' },
 ]
 const num = (n: number) => n.toLocaleString('en-US')
 
@@ -102,7 +102,7 @@ function Hero({ hero }: { hero: BattleData['hero'] }) {
 }
 
 export function BattleDossier({ data }: { data: BattleData }) {
-  const [tab, setTab] = useState('glance')
+  const [tab, setTab] = useState('narrative')
   const [menu, setMenu] = useState(false)
   const [search, setSearch] = useState(false)
   const subnavRef = useRef<HTMLDivElement>(null)
