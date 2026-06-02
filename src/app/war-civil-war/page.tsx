@@ -4,13 +4,14 @@
 // header + slide-in menu, editorial masthead + hero, two-row tab bar
 // (Story · Battles · Off the Field / Theatres · Commanders · Facts), content
 // swapped one tab at a time. Skin tokens live in ./war-skin.css under .war-skin,
-// riding the app's global `.dark` class. INCREMENT 1: shell + Story tab live;
-// the other five tabs are placeholders pending their own passes.
+// riding the app's global `.dark` class.
+// INCREMENT 2: Story + Battles (timeline + "Find your battle" filter + theatre
+// chips) live; Off the Field / Theatres / Commanders / Facts still placeholders.
 
 import './war-skin.css'
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
-import { CHAPTERS } from '@/lib/civil-war-roster'
+import { CHAPTERS, MAJORS } from '@/lib/civil-war-roster'
 
 // ---- inline icons (replace prototype's PI set) ----
 const I = {
@@ -37,6 +38,27 @@ const MENU = [
 
 const STANDFIRST = 'Four years, some ten thousand engagements, and three-quarters of a million dead settled whether the United States would survive, and whether it would survive half-slave.'
 
+// theatre key → display label + accent (README theatre colors)
+const THEATRE: Record<string, { label: string; color: string }> = {
+  east: { label: 'Eastern', color: 'var(--confed)' },
+  west: { label: 'Western', color: 'var(--union)' },
+  tmis: { label: 'Trans-Miss', color: '#C89A3F' },
+  naval: { label: 'Naval', color: '#4F8A7A' },
+}
+const CHIPS: { k: string; label: string; color?: string }[] = [{ k: 'All', label: 'All' }, ...Object.entries(THEATRE).map(([k, v]) => ({ k, label: v.label, color: v.color }))]
+
+// state abbreviation → full name, so "tennessee" matches a place ending ", TN"
+const PSTATES: Record<string, string> = {
+  SC: 'south carolina', VA: 'virginia', MO: 'missouri', TN: 'tennessee', AR: 'arkansas', LA: 'louisiana',
+  MD: 'maryland', KY: 'kentucky', MS: 'mississippi', PA: 'pennsylvania', GA: 'georgia', AL: 'alabama',
+  NC: 'north carolina', FL: 'florida', NM: 'new mexico', WV: 'west virginia', KS: 'kansas',
+}
+const hay = (b: typeof MAJORS[number]) => {
+  const m = b.place.match(/,\s*([A-Z]{2})\.?$/)
+  const full = m ? (PSTATES[m[1]] || '') : ''
+  return `${b.name} ${b.place} ${THEATRE[b.theatre]?.label ?? ''} ${full}`.toLowerCase()
+}
+
 function ThemeSwitch() {
   const [dark, setDark] = useState(true)
   useEffect(() => { setDark(document.documentElement.classList.contains('dark')) }, [])
@@ -53,6 +75,13 @@ function ThemeSwitch() {
       <button className={dark ? 'on' : ''} onClick={() => set(true)} aria-label="Dark mode">{I.moon}</button>
     </div>
   )
+}
+
+function hl(text: string, q: string) {
+  if (!q) return text
+  const i = text.toLowerCase().indexOf(q)
+  if (i < 0) return text
+  return <>{text.slice(0, i)}<mark>{text.slice(i, i + q.length)}</mark>{text.slice(i + q.length)}</>
 }
 
 function StoryTab() {
@@ -81,18 +110,54 @@ function StoryTab() {
   )
 }
 
-function Placeholder({ label }: { label: string }) {
+function BattlesTab({ theatre, query }: { theatre: string; query: string }) {
+  const q = query.trim().toLowerCase()
+  const list = useMemo(() => {
+    let l = [...MAJORS].sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))
+    if (theatre !== 'All') l = l.filter(b => b.theatre === theatre)
+    if (q) l = l.filter(b => hay(b).includes(q))
+    return l
+  }, [theatre, q])
+  const years = [...new Set(list.map(b => b.year))]
+
   return (
     <div className="p-page">
-      <div className="p-empty">{label} is coming in the next pass of the redesign.</div>
+      <div className="p-sechead">
+        <h2 className="p-label">{q ? `Matching “${query}”` : (theatre === 'All' ? 'Every battle' : `${THEATRE[theatre]?.label} theatre`)}</h2>
+        <span className="ct">{list.length} battle{list.length !== 1 ? 's' : ''}</span>
+      </div>
+      {list.length ? (
+        <div className="p-tl">
+          {years.map(yr => (
+            <div key={yr}>
+              <div className="p-yr"><span className="ylab">{yr}</span><span className="yline" /></div>
+              {list.filter(b => b.year === yr).map(b => (
+                <a className={'p-bt' + (b.size === 'l' || b.size === 'xl' ? ' key' : '')} key={b.id} href={b.href}>
+                  <span className="bh"><b className="p-serif">{hl(b.name, q)}</b><span className="th">{THEATRE[b.theatre]?.label}</span></span>
+                  <span className="place">{hl(b.place, q)}</span>
+                  <span className="note">{b.hook}</span>
+                </a>
+              ))}
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="p-empty">No battles match “{query}”.<br />Try a name like “Gettysburg” or a place like “Tennessee”.</div>
+      )}
     </div>
   )
+}
+
+function Placeholder({ label }: { label: string }) {
+  return <div className="p-page"><div className="p-empty">{label} is coming in the next pass of the redesign.</div></div>
 }
 
 export default function WarHome() {
   const [tab, setTab] = useState('story')
   const [menu, setMenu] = useState(false)
   const [search, setSearch] = useState(false)
+  const [bq, setBq] = useState('')
+  const [thFilter, setThFilter] = useState('All')
 
   return (
     <div className="war-skin">
@@ -117,7 +182,7 @@ export default function WarHome() {
       </div>
       <div className="p-credit">Storming Fort Wagner · Kurz &amp; Allison · public domain</div>
 
-      {/* sticky two-row tab bar */}
+      {/* sticky two-row tab bar (+ battle filter on the Battles tab) */}
       <div className="p-subnav">
         {TAB_ROWS.map((row, ri) => (
           <div className="p-seg" key={ri}>
@@ -126,11 +191,27 @@ export default function WarHome() {
             ))}
           </div>
         ))}
+        {tab === 'battles' && (
+          <>
+            <div className="p-bsearch">
+              {I.search}
+              <input value={bq} onChange={e => setBq(e.target.value)} placeholder="Find your battle" />
+              {bq && <button className="clr" onClick={() => setBq('')} aria-label="Clear">{I.close}</button>}
+            </div>
+            <div className="p-filter">
+              {CHIPS.map(c => (
+                <button key={c.k} className={'f' + (thFilter === c.k ? ' on' : '')} onClick={() => setThFilter(c.k)}>
+                  {c.color && <span className="dot" style={{ background: c.color }} />}{c.label}
+                </button>
+              ))}
+            </div>
+          </>
+        )}
       </div>
 
       {/* active tab */}
       {tab === 'story' && <StoryTab />}
-      {tab === 'battles' && <Placeholder label="Battles" />}
+      {tab === 'battles' && <BattlesTab theatre={thFilter} query={bq} />}
       {tab === 'offfield' && <Placeholder label="Off the Field" />}
       {tab === 'theatres' && <Placeholder label="Theatres" />}
       {tab === 'commanders' && <Placeholder label="Commanders" />}
