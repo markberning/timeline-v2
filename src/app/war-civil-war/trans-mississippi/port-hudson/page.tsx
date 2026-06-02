@@ -17,23 +17,23 @@ const HERO_PAL = ['#3a3320', '#5a2a32', '#100506']
 
 const ARMIES = [
   { side: 'Union', label: 'Army of the Gulf', size: '~30,000', commander: 'Maj. Gen. Nathaniel P. Banks', note: 'A four-to-one advantage that the ground refused to honor.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Port Hudson garrison', size: '~6,800–7,500', commander: 'Maj. Gen. Franklin Gardner', note: 'Dug into a bluff and a ring of dirt — and prepared to eat its mules.', color: ACCENTS.rust },
+  { side: 'Confederacy', label: 'Port Hudson garrison', size: '~6,800–7,500', commander: 'Maj. Gen. Franklin Gardner', note: 'Dug into a bluff and a ring of dirt, and prepared to eat its mules.', color: ACCENTS.rust },
 ]
 // Casualty framing is hedged per the fact pack: the assaults' battle counts are
 // kept SEPARATE from the campaign's ~4,000–5,000 disease toll; no single hard
 // Union grand total is asserted. Bar shows the two doomed-assault battle tolls.
 const CAS = { union: 3787, csa: 282 }
 const FIGURES = [
-  { name: 'N. P. Banks', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/banks.jpg' },
-  { name: 'D. G. Farragut', role: 'Fleet, Union', side: 'U', img: '/war-img/cmdr/farragut.jpg' },
-  { name: 'F. Gardner', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/gardner.jpg' },
+  { name: 'Nathaniel P. Banks', role: 'Cmdr., Army of the Gulf', side: 'U', img: '/war-img/cmdr/banks.jpg', blurb: 'A political general ordered by Washington to open the lower Mississippi, Banks brought roughly four times Gardner’s numbers against Port Hudson and never solved the ground. He spent two head-on assaults, on May 27 and June 14, to take nothing, then settled into the 48-day siege that finally starved the fort into surrender once Vicksburg fell upstream.' },
+  { name: 'David G. Farragut', role: 'Fleet, Union', side: 'U', img: '/war-img/cmdr/farragut.jpg', blurb: 'The admiral who had taken New Orleans the year before tried to handle Port Hudson from the water, running seven ships under the bluff guns on the night of March 14, 1863. Only his flagship Hartford and one gunboat got through; the rest were turned back and the frigate Mississippi burned and blew apart, proving the fort could not be pried off the river by a fleet.' },
+  { name: 'Franklin Gardner', role: 'Cmdr., garrison', side: 'C', img: '/war-img/cmdr/gardner.jpg', blurb: 'A New York-born professional soldier who had married into Louisiana and joined the Confederacy, Gardner held the bluff with fewer than 7,500 men against an army four times his size. He repulsed both of Banks’s assaults and held out 48 days on mule meat and rats, surrendering only on July 9 once he had confirmed that Vicksburg upstream was already gone.' },
 ]
 const SECTIONS = [
-  { id: 'the-last-lock', eyebrow: 'The river’s last lock', title: 'The Last Lock on the Mississippi', blurb: 'Why one bluff above a hairpin bend held the war’s last Confederate stretch of the river — and why Gardner (South) could not afford to lose it.' },
+  { id: 'the-last-lock', eyebrow: 'The river’s last lock', title: 'The Last Lock on the Mississippi', blurb: 'Why one bluff above a hairpin bend held the war’s last Confederate stretch of the river, and why Gardner (South) could not afford to lose it.' },
   { id: 'the-night-run', eyebrow: 'Farragut runs the guns', title: 'Running the Batteries by Night', blurb: 'Farragut (North) tries to steam past the bluff in the dark; the USS Mississippi burns and blows apart, and one ship gets through.' },
   { id: 'the-doomed-charges', eyebrow: 'The futile assaults', title: 'The Charges Into the Ravines', blurb: 'Banks (North) throws his army at the works twice and is slaughtered; the Louisiana Native Guard charge the bluff, and Cailloux falls leading them.' },
-  { id: 'the-starving-siege', eyebrow: 'Forty days in the wilderness of death', title: 'The Siege and the Surrender', blurb: 'The guns stop and the hunger starts; the garrison eats its mules, dogs, and rats — until news comes down the river from Vicksburg.' },
-  { id: 'the-meaning', eyebrow: 'What it opened', title: 'The River Whole, and a Question Answered', blurb: 'The Mississippi runs Union end to end, the Confederacy is split in two — and the formerly enslaved have answered whether they would fight.' },
+  { id: 'the-starving-siege', eyebrow: 'Forty days in the wilderness of death', title: 'The Siege and the Surrender', blurb: 'The guns stop and the hunger starts; the garrison eats its mules, dogs, and rats, until news comes down the river from Vicksburg.' },
+  { id: 'the-meaning', eyebrow: 'What it opened', title: 'The River Whole, and a Question Answered', blurb: 'The Mississippi runs Union end to end, the Confederacy is split in two, and the formerly enslaved have answered whether they would fight.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-last-lock': '/war-img/port-hudson-overview.png',
@@ -135,7 +135,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · the river runs whole</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Port Hudson surrendered on July 9, 1863, five days after Vicksburg fell — and it surrendered <em>because</em> Vicksburg fell, the fort having lost the only thing it existed to defend. Its capture, paired with Vicksburg’s, gave the Union the entire Mississippi River, severed the Trans-Mississippi from the rest of the Confederacy, and ended the longest true siege in American military history at 48 days. Its deepest mark, though, was made on May 27, when the Louisiana Native Guard’s doomed charge — and Captain André Cailloux’s death leading it — became one of the war’s first public proofs that Black soldiers, many of them formerly enslaved, would stand and fight for their own freedom.
+          Port Hudson surrendered on July 9, 1863, five days after Vicksburg fell, and it surrendered <em>because</em> Vicksburg fell, the fort having lost the only thing it existed to defend. Its capture, paired with Vicksburg’s, gave the Union the entire Mississippi River, severed the Trans-Mississippi from the rest of the Confederacy, and ended the longest true siege in American military history at 48 days. Its deepest mark, though, was made on May 27, when the Louisiana Native Guard’s doomed charge, and Captain André Cailloux’s death leading it, became one of the war’s first public proofs that Black soldiers, many of them formerly enslaved, would stand and fight for their own freedom.
         </p>
       </div>
     </div>
@@ -144,18 +144,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

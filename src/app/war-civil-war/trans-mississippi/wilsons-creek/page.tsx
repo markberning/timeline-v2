@@ -20,11 +20,11 @@ const ARMIES = [
 ]
 const CAS = { union: 1317, csa: 1222, civ: 0 }
 const FIGURES = [
-  { name: 'N. Lyon', role: 'Cmdr., Union †', side: 'U', img: '/war-img/cmdr/lyon.jpg' },
-  { name: 'F. Sigel', role: 'Column, Union', side: 'U', img: '/war-img/cmdr/sigel.jpg' },
-  { name: 'S. Sturgis', role: 'Union', side: 'U', img: '/war-img/cmdr/sturgis.jpg' },
-  { name: 'S. Price', role: 'Missouri St. Guard', side: 'C', img: '/war-img/cmdr/price.jpg' },
-  { name: 'B. McCulloch', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/mcculloch.jpg' },
+  { name: 'Nathaniel Lyon', role: 'Cmdr., Union †', side: 'U', img: '/war-img/cmdr/lyon.jpg', blurb: 'Lyon commanded the outnumbered Army of the West and chose to attack a force roughly twice his size rather than give up Springfield. He led a counterattack in person as the Union center wavered and was shot through the heart, becoming the first Union general killed in combat in the war.' },
+  { name: 'Franz Sigel', role: 'Column, Union', side: 'U', img: '/war-img/cmdr/sigel.jpg', blurb: 'Sigel proposed the pincer plan and led the smaller flanking column on a wide loop to strike the Confederate camp from the south. His men mistook a gray-clad Louisiana regiment for friendly troops and held their fire; one volley at close range shattered his column, and Sigel fled, losing five of his six guns.' },
+  { name: 'Samuel D. Sturgis', role: 'Union', side: 'U', img: '/war-img/cmdr/sturgis.jpg', blurb: 'Sturgis commanded one of Lyon’s brigades and inherited the whole army the moment Lyon was killed. He beat back one more Confederate assault, then made the only sound call left and pulled the battered Union force off Bloody Hill in good order.' },
+  { name: 'Sterling Price', role: 'Missouri St. Guard', side: 'C', img: '/war-img/cmdr/price.jpg', blurb: 'Price led the Missouri State Guard, the larger half of the Confederate force, and organized the repeated assaults up the south face of Bloody Hill. He was wounded in the side during the fighting but stayed in the saddle, and after the victory marched his Missourians north alone when he and McCulloch could not agree on what to do next.' },
+  { name: 'Benjamin McCulloch', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/mcculloch.jpg', blurb: 'McCulloch held overall command of the combined Confederate and Arkansas troops and organized the counterattack that destroyed Sigel’s column. He won the field but refused to pursue the retreating enemy, pleading exhaustion and empty cartridge boxes, and was himself killed seven months later at Pea Ridge.' },
 ]
 const SECTIONS = [
   { id: 'fight-for-missouri', eyebrow: 'The border state', title: 'The Fight for Missouri', blurb: 'Why a slave state on the border could decide the war, and how Nathaniel Lyon (North) seized Missouri by force and chased the secessionists south.' },
@@ -135,18 +135,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

@@ -14,18 +14,18 @@ const CRUMBS = civilWarCrumbs({ theatre: 'tmis', battleId: 't-island10' })
 const HERO_IMG = '/war-img/island-number-ten-hero.jpg'
 const ARMIES = [
   { side: 'Union', label: 'Army of the Mississippi & gunboats', size: '~23,000 troops', commander: 'Pope & Foote', note: 'Dug a canal through a swamp and ran gunboats past the guns in the dark.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Island No. 10 garrison', size: '~7,000 troops', commander: 'McCown, then Mackall', note: 'Fortified the river bend — and were trapped behind their own defenses.', color: ACCENTS.rust },
+  { side: 'Confederacy', label: 'Island No. 10 garrison', size: '~7,000 troops', commander: 'McCown, then Mackall', note: 'Fortified the river bend, and were trapped behind their own defenses.', color: ACCENTS.rust },
 ]
 
 const FIGURES = [
-  { name: 'J. Pope', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/pope.jpg' },
-  { name: 'A. H. Foote', role: 'Gunboats, Union', side: 'U', img: '/war-img/cmdr/foote.jpg' },
-  { name: 'H. Walke', role: 'USS Carondelet', side: 'U', img: '/war-img/cmdr/walke.jpg' },
-  { name: 'W. Mackall', role: 'Surrendered, CSA', side: 'C', img: '/war-img/cmdr/mackall.jpg' },
-  { name: 'J. McCown', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/mccown.jpg' },
+  { name: 'John Pope', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/pope.jpg', blurb: 'Pope took the soft target first, besieging and seizing New Madrid and its 33 guns, then solved the river he could not cross by sending his engineers to dig a canal through flooded swamp around the island. When the gunboats finally ran the batteries, he ferried his men over and cut the one escape road at Tiptonville, bagging the whole garrison for a few dozen casualties and making himself a national name.' },
+  { name: 'Andrew Hull Foote', role: 'Gunboats, Union', side: 'U', img: '/war-img/cmdr/foote.jpg', blurb: 'Foote brought his Western Gunboat Flotilla of ironclads and mortar rafts up opposite the island on March 15 and spent three weeks trying to pound it into surrender from a safe distance, with little to show for it. Reluctant to risk his fragile boats, he was talked into letting them run the guns, and it was to Foote and his flotilla that the island finally struck its colors on April 8.' },
+  { name: 'Henry Walke', role: 'USS Carondelet', side: 'U', img: '/war-img/cmdr/walke.jpg', blurb: 'Walke volunteered to take the ironclad Carondelet first past the batteries and armored her with barge planks, anchor chain, and a hay-piled coal barge for the run. On the stormy night of April 4, his boat was hit just twice and reached the safe water below the island unscathed, proving a warship could barrel past fixed shore guns rather than duel them.' },
+  { name: 'William W. Mackall', role: 'Surrendered, CSA', side: 'C', img: '/war-img/cmdr/mackall.jpg', blurb: 'Mackall took command of Island Number Ten only around March 31, inheriting a position his superiors still believed secure as the ground gave way beneath it. When Pope crossed the river and raced to cut the road south, there was no move left, and Mackall surrendered the garrison unconditionally near Tiptonville around 2 a.m. on April 8.' },
+  { name: 'John P. McCown', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/mccown.jpg', blurb: 'McCown held New Madrid until Pope’s heavy siege guns arrived sooner than he expected, then gave up the town under cover of a rainstorm, spiking some cannon and abandoning the rest. He pulled his troops back to Island Number Ten but was relieved of command at the end of March, handing the doomed position to Mackall just before the trap closed.' },
 ]
 const SECTIONS = [
-  { id: 'the-gibraltar', eyebrow: 'The river fortress', title: 'The Gibraltar of the River', blurb: 'After Columbus is outflanked, Island No. 10 becomes the next cork in the Mississippi — and Pope (North) means to pull it.' },
+  { id: 'the-gibraltar', eyebrow: 'The river fortress', title: 'The Gibraltar of the River', blurb: 'After Columbus is outflanked, Island No. 10 becomes the next cork in the Mississippi, and Pope (North) means to pull it.' },
   { id: 'the-canal', eyebrow: 'The engineering feat', title: 'The Canal Through the Swamp', blurb: 'With the guns and current blocking the fleet, Pope’s men dig a 12-mile canal, and gunboats run the batteries in a thunderstorm.' },
   { id: 'the-trap', eyebrow: 'April 7–8', title: 'The Trap Springs', blurb: 'Ferried across the river, Pope cuts the escape road at Tiptonville; thousands surrender for the cost of a few dozen Union dead.' },
 ]
@@ -61,7 +61,7 @@ function HeroImg() {
 function CasBlock() {
   return (
     <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-      Fewer than 80 combined battle casualties — the prize here was the river, not blood. About <strong style={{ fontWeight: 600 }}>4,500 Confederates were captured</strong> when the trap closed.
+      Fewer than 80 combined battle casualties: the prize here was the river, not blood. About <strong style={{ fontWeight: 600 }}>4,500 Confederates were captured</strong> when the trap closed.
     </div>
   )
 }
@@ -116,7 +116,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · the upper Mississippi opens</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          At almost no cost in blood, the Union cracked the fortress blocking the Mississippi — Pope’s men cut a canal through flooded swamp, gunboats ran the batteries by night, and the trapped garrison surrendered by the thousands. The victory opened the river south toward Memphis (which fell within weeks) and tightened the Anaconda strategy strangling the Confederacy. It made John Pope’s reputation — and sent him east to a far worse fate at Second Bull Run.
+          At almost no cost in blood, the Union cracked the fortress blocking the Mississippi: Pope’s men cut a canal through flooded swamp, gunboats ran the batteries by night, and the trapped garrison surrendered by the thousands. The victory opened the river south toward Memphis (which fell within weeks) and tightened the Anaconda strategy strangling the Confederacy. It made John Pope’s reputation, and sent him east to a far worse fate at Second Bull Run.
         </p>
       </div>
     </div>
@@ -125,18 +125,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

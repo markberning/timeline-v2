@@ -16,22 +16,22 @@ const HERO_IMG = '/war-img/glorieta-pass-hero.jpg' // National Guard Heritage pa
 const HERO_PAL = ['#7a5a2a', '#5a3a22', '#100a06']
 
 const ARMIES = [
-  { side: 'Union', label: 'Colorado & New Mexico volunteers', size: '~1,300', commander: 'Col. John P. Slough', note: 'Force-marched from Colorado to save the territory — and slipped a column over the mesa.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of New Mexico', size: '~1,300', commander: 'Lt. Col. William Scurry', note: 'Texans chasing a road to the Pacific — who won the field and lost everything else.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Colorado & New Mexico volunteers', size: '~1,300', commander: 'Col. John P. Slough', note: 'Force-marched from Colorado to save the territory, then slipped a column over the mesa.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of New Mexico', size: '~1,300', commander: 'Lt. Col. William Scurry', note: 'Texans chasing a road to the Pacific, who won the field and lost everything else.', color: ACCENTS.rust },
 ]
 const CAS = { union: 75, csa: 190, civ: 0 }
 const FIGURES = [
-  { name: 'J. P. Slough', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/slough.jpg' },
-  { name: 'J. Chivington', role: 'Raid, Union', side: 'U', img: '/war-img/cmdr/chivington.jpg' },
-  { name: 'M. Chaves', role: 'Guide, Union', side: 'U', img: '/war-img/cmdr/chaves.jpg' },
-  { name: 'E. Canby', role: 'Dept., Union', side: 'U', img: '/war-img/cmdr/canby.jpg' },
-  { name: 'H. H. Sibley', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/sibley.jpg' },
-  { name: 'C. Pyron', role: 'Field, CSA', side: 'C', img: '/war-img/cmdr/pyron.jpg' },
+  { name: 'John P. Slough', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/slough.jpg', blurb: 'Slough led the Colorado and New Mexico force down from Fort Union and devised the two-prong plan for March 28, pushing up the Santa Fe Trail himself while a column went over the mesa behind the enemy. He lost the ground at Pigeon’s Ranch and pulled back, but the column he detached burned the Confederate supply train and won the campaign that same afternoon.' },
+  { name: 'John M. Chivington', role: 'Raid, Union', side: 'U', img: '/war-img/cmdr/chivington.jpg', blurb: 'A former Methodist minister, Chivington led the Union advance that broke Pyron’s vanguard in Apache Canyon on March 26, then commanded the detachment that climbed Glorieta Mesa on the 28th and dropped into the Confederate rear. His men overwhelmed the guard at Johnson’s Ranch and destroyed the entire Texan supply train; two years later he led the Sand Creek Massacre.' },
+  { name: 'Manuel Chaves', role: 'Guide, Union', side: 'U', img: '/war-img/cmdr/chaves.jpg', blurb: 'Chaves was a New Mexican frontiersman and an officer in the territory’s own Union volunteers who knew the mountain country no Coloradan or Texan did. He guided Chivington’s column up and over Glorieta Mesa to the vantage point above Johnson’s Ranch, the move that made the supply-train raid possible.' },
+  { name: 'Edward R. S. Canby', role: 'Dept., Union', side: 'U', img: '/war-img/cmdr/canby.jpg', blurb: 'Canby commanded all Union forces in the territory and held Fort Craig astride the Confederate line of march after the fight at Valverde, denying Sibley the supplies he had come to capture. As the Texans retreated he closed in along the Rio Grande, helping force their ruinous march back to Texas.' },
+  { name: 'Henry Hopkins Sibley', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/sibley.jpg', blurb: 'Sibley conceived the whole campaign and sold it to Jefferson Davis: march Texans up the Rio Grande, take New Mexico, and reach for California and the Pacific. He was not on the field at Glorieta, and after the supply train burned he ordered the abandonment of New Mexico and the long retreat south, bringing barely 1,500 of his roughly 2,500 men home.' },
+  { name: 'Charles L. Pyron', role: 'Field, CSA', side: 'C', img: '/war-img/cmdr/pyron.jpg', blurb: 'Pyron led the Confederate vanguard that collided with Chivington in Apache Canyon on March 26, opening the battle by accident. His outnumbered Texans were flanked off two successive lines and driven back west, leaving dozens captured, before the main armies came up.' },
 ]
 const SECTIONS = [
-  { id: 'the-dream', eyebrow: 'The grab for the West', title: 'The Dream of the Pacific', blurb: 'The Confederates march up the Rio Grande to take New Mexico and reach California — and the Colorado volunteers force-march to stop them.' },
+  { id: 'the-dream', eyebrow: 'The grab for the West', title: 'The Dream of the Pacific', blurb: 'The Confederates march up the Rio Grande to take New Mexico and reach California, and the Colorado volunteers force-march to stop them.' },
   { id: 'the-battle', eyebrow: 'March 26–28', title: 'The Gettysburg of the West', blurb: 'In the canyon and at Pigeon’s Ranch, Scurry’s (South) Texans drive the Union back and win the field.' },
-  { id: 'the-wagons', eyebrow: 'The decisive stroke', title: 'The Wagons at Johnson’s Ranch', blurb: 'While the armies fight, a Union column crosses the mesa and burns the entire Confederate supply train — winning the campaign by losing the battle.' },
+  { id: 'the-wagons', eyebrow: 'The decisive stroke', title: 'The Wagons at Johnson’s Ranch', blurb: 'While the armies fight, a Union column crosses the mesa and burns the entire Confederate supply train, winning the campaign by losing the battle.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-dream': '/war-img/cmdr/sibley.jpg',
@@ -137,18 +137,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

@@ -14,22 +14,22 @@ const HERO_IMG = '/war-img/pea-ridge-hero.jpg' // Kurz & Allison chromolithograp
 const HERO_PAL = ['#3a3320', '#5a2a32', '#100506']
 
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Southwest', size: '~10,250', commander: 'Brig. Gen. Samuel R. Curtis', note: 'Dug in facing south — then coolly turned the whole army around to face north.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of the West', size: '~16,000', commander: 'Maj. Gen. Earl Van Dorn', note: 'Marched all night to attack from behind — and stranded his own ammunition doing it.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Army of the Southwest', size: '~10,250', commander: 'Brig. Gen. Samuel R. Curtis', note: 'Dug in facing south, then coolly turned the whole army around to face north.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of the West', size: '~16,000', commander: 'Maj. Gen. Earl Van Dorn', note: 'Marched all night to attack from behind, and stranded his own ammunition doing it.', color: ACCENTS.rust },
 ]
 const CAS = { union: 1384, csa: 2000, civ: 0 }
 const FIGURES = [
-  { name: 'S. R. Curtis', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/curtis.jpg' },
-  { name: 'F. Sigel', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/sigel.jpg' },
-  { name: 'E. A. Carr', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/carr.jpg' },
-  { name: 'E. Van Dorn', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/van-dorn.jpg' },
-  { name: 'S. Price', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/price.jpg' },
-  { name: 'B. McCulloch', role: 'Wing, CSA †', side: 'C', img: '/war-img/cmdr/mcculloch.jpg' },
-  { name: 'J. McIntosh', role: 'Brigade, CSA †', side: 'C', img: '/war-img/cmdr/mcintosh.jpg' },
-  { name: 'A. Pike', role: 'Indian Terr., CSA', side: 'C', img: '/war-img/cmdr/pike.jpg' },
+  { name: 'Samuel R. Curtis', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/curtis.jpg', blurb: 'A trained engineer, Curtis chased Price’s Missourians out of the state and dug in along Little Sugar Creek, only to wake on March 7 with Van Dorn’s army in his rear. He turned his whole Army of the Southwest about-face to the north, held through the first day, and on the second drove the out-of-ammunition Confederates from the field.' },
+  { name: 'Franz Sigel', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/sigel.jpg', blurb: 'Sigel was slow getting his divisions away from Bentonville on the approach, and his rear guard was brushed back as the campaign opened. On the second day he redeemed it, massing some twenty guns west of Elkhorn Tavern and directing the bombardment that silenced the Confederate batteries and opened the way for Curtis’s advance.' },
+  { name: 'Eugene A. Carr', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/carr.jpg', blurb: 'Carr held the Telegraph Road and Elkhorn Tavern against Price’s far larger wing through the whole first day, giving ground grudgingly across one line after another. Shot three times and still refusing to leave the field, he bought Curtis the hours he needed and later received the Medal of Honor for the stand.' },
+  { name: 'Earl Van Dorn', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/van-dorn.jpg', blurb: 'Van Dorn united Price’s and McCulloch’s feuding commands into one army and marched it all night around Curtis to attack from the rear. The flank march stranded his own ammunition wagons far behind the lines, and when his guns ran dry on the second day he was beaten and pulled the army out of Arkansas entirely.' },
+  { name: 'Sterling Price', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/price.jpg', blurb: 'Price led the Missouri wing up the Telegraph Road and drove Carr back through four lines to seize Elkhorn Tavern by nightfall, the deepest the Confederates ever got into Curtis’s position. He was wounded during the fighting but stayed in command, and lost the ground again on the second day for lack of ammunition.' },
+  { name: 'Benjamin McCulloch', role: 'Wing, CSA †', side: 'C', img: '/war-img/cmdr/mcculloch.jpg', blurb: 'A former Texas Ranger who had feuded with Price all winter, McCulloch led the western wing toward Leetown and opened well, his cavalry overrunning a Union battery. Riding forward in his black civilian suit to scout the line himself, he was shot dead by a Union skirmisher in mid-morning.' },
+  { name: 'James McIntosh', role: 'Brigade, CSA †', side: 'C', img: '/war-img/cmdr/mcintosh.jpg', blurb: 'McIntosh took command of the western wing the instant McCulloch fell and tried to keep the attack moving. Leading an advance from the front, he was killed by the same Union skirmishers less than fifteen minutes later, leaving the wing without either of its top two commanders.' },
+  { name: 'Albert Pike', role: 'Indian Terr., CSA', side: 'C', img: '/war-img/cmdr/pike.jpg', blurb: 'A lawyer and poet with no real combat experience, Pike led the only sizable Native American force in a major Civil War battle, raised in Indian Territory under treaties he had helped negotiate. With the wing’s senior officers dead, captured, or lost, command fell to him by default, and he could do little but gather the wreckage and order a withdrawal.' },
 ]
 const SECTIONS = [
-  { id: 'the-armies-gather', eyebrow: 'After Wilson’s Creek', title: 'The Fight Moves South', blurb: 'The long fight for Missouri drives south into Arkansas, where Van Dorn (South) unites two armies to take the state back — after a march that wrecks them.' },
+  { id: 'the-armies-gather', eyebrow: 'After Wilson’s Creek', title: 'The Fight Moves South', blurb: 'The long fight for Missouri drives south into Arkansas, where Van Dorn (South) unites two armies to take the state back after a march that wrecks them.' },
   { id: 'around-the-army', eyebrow: 'March 7', title: 'The Army That Turned Around', blurb: 'Van Dorn loops clear around the Union to attack from behind; Curtis (North) calmly turns to face him, and two Confederate generals die in minutes.' },
   { id: 'out-of-ammunition', eyebrow: 'March 8 & after', title: 'The Guns Fall Silent', blurb: 'The Confederate guns go quiet for lack of ammunition stranded by their own march. Missouri is secured, and the war moves east.' },
 ]
@@ -128,7 +128,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Decisive Union victory · Missouri secured</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Curtis’s outnumbered army turned completely around to meet Van Dorn’s attack from the rear and broke it — helped by the deaths of two Confederate generals and an army that ran out of ammunition because its supply train was stranded by its own flank march. Pea Ridge secured Missouri for the Union for the rest of the war; the largest Confederate bid to take the border state failed for good. Within weeks Van Dorn hauled his army east of the Mississippi, leaving Arkansas stripped and the Trans-Mississippi a backwater.
+          Curtis’s outnumbered army turned completely around to meet Van Dorn’s attack from the rear and broke it, helped by the deaths of two Confederate generals and an army that ran out of ammunition because its supply train was stranded by its own flank march. Pea Ridge secured Missouri for the Union for the rest of the war, and the largest Confederate bid to take the border state failed for good. Within weeks Van Dorn hauled his army east of the Mississippi, leaving Arkansas stripped and the Trans-Mississippi a backwater.
         </p>
       </div>
     </div>
@@ -137,18 +137,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

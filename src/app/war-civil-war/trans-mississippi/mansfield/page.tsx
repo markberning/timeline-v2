@@ -17,7 +17,7 @@ const HERO_IMG = '/war-img/mansfield-hero.jpg'
 const HERO_PAL = ['#3a3320', '#4a2a1a', '#100806']
 
 const ARMIES = [
-  { side: 'Union', label: 'Red River expedition', size: '~12,000 engaged', commander: 'Maj. Gen. Nathaniel P. Banks', note: 'An army strung out for miles on one road — only its head could fight.', color: ACCENTS.blue },
+  { side: 'Union', label: 'Red River expedition', size: '~12,000 engaged', commander: 'Maj. Gen. Nathaniel P. Banks', note: 'An army strung out for miles on one road; only its head could fight.', color: ACCENTS.blue },
   { side: 'Confederacy', label: 'District of West Louisiana', size: '~8,800–11,000', commander: 'Maj. Gen. Richard Taylor', note: 'Outnumbered overall, but waiting where the road let him be bigger.', color: ACCENTS.rust },
 ]
 // Casualty framing per fact pack: Union ≈ 2,100–2,235 with ~1,500 captured/missing
@@ -25,19 +25,19 @@ const ARMIES = [
 // returns). Bar shows the round figures; ranges noted below it.
 const CAS = { union: 2235, csa: 1000 }
 const FIGURES = [
-  { name: 'N. P. Banks', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/banks.jpg' },
-  { name: 'W. B. Franklin', role: 'Infantry col., Union', side: 'U', img: '/war-img/cmdr/franklin.jpg' },
-  { name: 'T. E. G. Ransom', role: 'XIII Corps, Union', side: 'U', img: '/war-img/cmdr/ransom.jpg' },
-  { name: 'D. D. Porter', role: 'Fleet, Union', side: 'U', img: '/war-img/cmdr/dd-porter.jpg' },
-  { name: 'R. Taylor', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/richard-taylor.jpg' },
-  { name: 'A. Mouton †', role: 'Division, CSA', side: 'C', img: '/war-img/cmdr/mouton.jpg' },
-  { name: 'Prince de Polignac', role: 'Division, CSA', side: 'C', img: '/war-img/cmdr/polignac.jpg' },
+  { name: 'Nathaniel P. Banks', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/banks.jpg', blurb: 'Banks pushed his army up a single road toward Shreveport against the warnings of his own cavalry commander and decided to fight at the clearing south of Mansfield even after being told a full battle there would go badly. When the front collapsed he rode into the retreat and pleaded with his men to stand, and they ran past him; the defeat broke his Red River Campaign and effectively ended his military career.' },
+  { name: 'William B. Franklin', role: 'XIX Corps, Union', side: 'U', img: '/war-img/cmdr/franklin.jpg', blurb: 'Franklin commanded the XIX Corps and was the senior field general under Banks during the advance. He was wounded in the leg in the fighting but stayed on the field in command, and the bulk of his corps, including Emory’s division, was still intact to backstop the rout down the road.' },
+  { name: 'Thomas E. G. Ransom', role: 'XIII Corps, Union', side: 'U', img: '/war-img/cmdr/ransom.jpg', blurb: 'Ransom led the leading infantry detachment, the XIII Corps troops at the head of the column who took the worst of the assault. He was wounded trying to rally the wreck as the Confederate crescent folded his line in from both flanks.' },
+  { name: 'David Dixon Porter', role: 'Fleet, Union', side: 'U', img: '/war-img/cmdr/dd-porter.jpg', blurb: 'Porter’s gunboat fleet had carried the expedition up the Red River, but Banks left the river for the inland road, so the fleet was not present at the battle. After the defeat the falling river nearly stranded his squadron, which escaped only when soldiers dammed the rapids to float the boats over.' },
+  { name: 'Richard Taylor', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/richard-taylor.jpg', blurb: 'Taylor chose the clearing south of Mansfield as the place to make his stand and waited for two hours while the Union column piled up in front of his crescent. When he ordered the assault around four o’clock, his concentrated army wrecked the head of a force that outnumbered him across the theater, winning one of the most lopsided victories of the Trans-Mississippi war.' },
+  { name: 'Alfred Mouton †', role: 'Division, CSA', side: 'C', img: '/war-img/cmdr/mouton.jpg', blurb: 'Mouton led the opening Confederate charge east of the road, straight into the Union line on Honeycutt Hill, and was killed in the first rush along with several of his regimental commanders. A Louisiana native and slaveholding sugar planter, he died about three miles from the town he was defending.' },
+  { name: 'Prince de Polignac', role: 'Division, CSA', side: 'C', img: '/war-img/cmdr/polignac.jpg', blurb: 'Camille de Polignac, a French nobleman who had crossed an ocean to fight for the Confederacy, inherited Mouton’s division by battlefield promotion the moment Mouton fell. He pressed the shattered division onward and helped drive the broken Union front south into its own jammed wagon train.' },
 ]
 const SECTIONS = [
-  { id: 'the-river-and-the-cotton', eyebrow: 'Red River, 1864', title: 'The River and the Cotton', blurb: 'Why a Union army was 150 miles up a Louisiana river — to take Shreveport, warn off the French in Mexico, and seize the slave-grown cotton Banks (North) reached for.' },
+  { id: 'the-river-and-the-cotton', eyebrow: 'Red River, 1864', title: 'The River and the Cotton', blurb: 'Why a Union army was 150 miles up a Louisiana river: to take Shreveport, warn off the French in Mexico, and seize the slave-grown cotton Banks (North) reached for.' },
   { id: 'the-narrow-road', eyebrow: 'April 8, morning', title: 'One Road Through the Pines', blurb: 'Banks’s column strung out for miles on a single stage road; Taylor (South) waited at a clearing, counting not the totals but the road, where a smaller army could be bigger at the point of contact.' },
   { id: 'the-rout', eyebrow: 'April 8, ~4 p.m.', title: 'The Crescent Closes', blurb: 'Two hours of waiting, then Mouton (South) charges and falls; Walker (South) wraps the flank; the Union line breaks and slams into its own wagon train on the one road.' },
-  { id: 'what-it-cost', eyebrow: 'The reckoning', title: 'The Campaign Breaks on a Back Road', blurb: 'A lopsided Confederate win, Mouton dead three miles from home, Emory’s (North) backstop the only southern edge — and every aim of the campaign, cotton included, gone.' },
+  { id: 'what-it-cost', eyebrow: 'The reckoning', title: 'The Campaign Breaks on a Back Road', blurb: 'A lopsided Confederate win, Mouton dead three miles from home, Emory’s (North) backstop the only southern edge, and every aim of the campaign, cotton included, gone.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-river-and-the-cotton': '/war-img/cmdr/banks.jpg',
@@ -82,7 +82,7 @@ function CasualtiesBar() {
         <span><span style={{ color: ACCENTS.rust }}>■</span> Confederacy ~{num(CAS.csa)}</span>
       </div>
       <div style={{ fontFamily: SANS, fontSize: 10.5, lineHeight: 1.45, color: 'color-mix(in srgb, var(--foreground) 52%, transparent)', marginTop: 6 }}>
-        Union ≈ 2,100–2,235, with some 1,500 captured or missing — the fingerprint of a rout, not a stand-up fight. Confederate ≈ 1,000 (Kirby Smith’s estimate; no precise returns were recorded).
+        Union ≈ 2,100–2,235, with some 1,500 captured or missing, the fingerprint of a rout, not a stand-up fight. Confederate ≈ 1,000 (Kirby Smith’s estimate; no precise returns were recorded).
       </div>
     </div>
   )
@@ -138,7 +138,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate victory · the campaign breaks</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          On April 8, 1864, Maj. Gen. Richard Taylor (South), outnumbered across the theater, concentrated his army against the head of Maj. Gen. Nathaniel Banks’s (North) strung-out column and shattered it on a single narrow road through the Louisiana pines. The disproportion flipped the usual Civil War arithmetic — the <em>attacker</em> lost roughly half what the defender did, who saw some 1,500 men marched off as prisoners. Mansfield broke the Union’s Red River Campaign, and every one of its four aims died with it: no Shreveport, no flag planted in Texas, no 100,000 bales of slave-grown cotton, no expanded pro-Union government. The whole bungled expedition effectively ended Banks’s military career.
+          On April 8, 1864, Maj. Gen. Richard Taylor (South), outnumbered across the theater, concentrated his army against the head of Maj. Gen. Nathaniel Banks’s (North) strung-out column and shattered it on a single narrow road through the Louisiana pines. The disproportion flipped the usual Civil War arithmetic: the attacker lost roughly half what the defender did, who saw some 1,500 men marched off as prisoners. Mansfield broke the Union’s Red River Campaign, and every one of its four aims died with it: no Shreveport, no flag planted in Texas, no 100,000 bales of slave-grown cotton, no expanded pro-Union government. The whole bungled expedition effectively ended Banks’s military career.
         </p>
       </div>
     </div>
@@ -147,18 +147,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}
