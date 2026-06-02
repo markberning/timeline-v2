@@ -22,7 +22,7 @@ const FORT_STEDMAN_NARR: Record<string, Narr> = {
       { locator: {
         eyebrow: 'Where and when · March 1865',
         caption: 'Petersburg sits about 23 miles (37 km) south of Richmond, the rail hub that kept both the Confederate capital and Lee’s army fed. For nine months two armies had faced each other across miles of trenches here. Gordon’s target was Grant’s supply base at City Point, downriver to the northeast, where the Appomattox meets the James.',
-        frame: { lonMin: -79.6, lonMax: -75.4, latMin: 36.3, latMax: 39.0 },
+        frame: { lonMin: -79.4, lonMax: -76.6, latMin: 36.7, latMax: 38.1 },
         states: [
           { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.6, labelLat: 37.7 },
           { name: 'North Carolina' }, { name: 'Maryland' },
