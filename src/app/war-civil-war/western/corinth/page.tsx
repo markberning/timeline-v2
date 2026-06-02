@@ -13,23 +13,23 @@ const CRUMBS = civilWarCrumbs({ theatre: 'west', battleId: 'w-corinth' })
 
 const HERO_IMG = '/war-img/corinth-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Mississippi (Corinth garrison)', size: '~23,000 troops', commander: 'Rosecrans', note: 'Dug in behind a close inner ring of earthwork forts — and let the attack bleed out against it.', color: ACCENTS.blue },
+  { side: 'Union', label: 'Army of the Mississippi (Corinth garrison)', size: '~23,000 troops', commander: 'Rosecrans', note: 'Dug in behind a close inner ring of earthwork forts, and let the attack bleed out against it.', color: ACCENTS.blue },
   { side: 'Confederacy', label: 'Army of West Tennessee', size: '~22,000 troops', commander: 'Van Dorn & Price', note: 'Won the first day, then threw itself at the works and lost roughly twice what it inflicted.', color: ACCENTS.rust },
 ]
 const CAS = { union: 2520, csa: 4500 }
 const FIGURES = [
-  { name: 'W. S. Rosecrans', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/rosecrans.jpg' },
-  { name: 'U. S. Grant', role: 'Dept. cmd., Union', side: 'U', img: '/war-img/cmdr/grant.jpg' },
-  { name: 'J. B. McPherson', role: 'Reinforcements, Union', side: 'U', img: '/war-img/cmdr/mcpherson.jpg' },
-  { name: 'W. T. Sherman', role: 'Memphis, Union', side: 'U', img: '/war-img/cmdr/sherman.jpg' },
-  { name: 'E. Van Dorn', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/van-dorn.jpg' },
-  { name: 'S. Price', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/price.jpg' },
+  { name: 'William S. Rosecrans', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/rosecrans.jpg', blurb: 'Rosecrans held Corinth with about 23,000 men, having spent his weeks of occupation strengthening a close inner ring of earthwork forts just outside town. He let Van Dorn batter himself against that line on October 4, broke the assault at Battery Robinett and Battery Powell, and came out of the battle a Northern hero.' },
+  { name: 'Ulysses S. Grant', role: 'Dept. cmd., Union', side: 'U', img: '/war-img/cmdr/grant.jpg', blurb: 'Grant ran the wider western theater from his headquarters at Jackson, Tennessee, with his forces scattered between Corinth, Memphis, and Bolivar. He did not command on the field at Corinth, but the victory secured his rear and freed him to turn south toward the campaign against Vicksburg.' },
+  { name: 'James B. McPherson', role: 'Reinforcements, Union', side: 'U', img: '/war-img/cmdr/mcpherson.jpg', blurb: 'McPherson marched a reinforcement column from Jackson toward the fighting at Grant’s order. He reached Corinth around four in the afternoon on October 4, too late to fight but in time to make Van Dorn’s position hopeless and stiffen the pursuit.' },
+  { name: 'William T. Sherman', role: 'Memphis, Union', side: 'U', img: '/war-img/cmdr/sherman.jpg', blurb: 'Sherman held Memphis with roughly 7,000 men, one of the scattered pieces of Grant’s command that Van Dorn hoped to beat before they could concentrate. He stayed at his post on the Mississippi and did not take part in the battle itself.' },
+  { name: 'Earl Van Dorn', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/van-dorn.jpg', blurb: 'Van Dorn gathered about 22,000 men into the Army of West Tennessee and gambled on retaking the junction before the Union could mass against him. He won the first day, then threw his infantry at the inner earthworks on October 4, lost roughly twice what he inflicted, and retreated west toward the Hatchie.' },
+  { name: 'Sterling Price', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/price.jpg', blurb: 'Price brought his Army of the West to join Van Dorn after the fight at Iuka, and led a wing of the combined force at Corinth. His troops drove deepest on October 4, briefly seizing Battery Powell before a Union counterattack threw them back out.' },
 ]
 const SECTIONS = [
   { id: 'the-crossroads', eyebrow: 'Corinth', title: 'The Crossroads of the Confederacy', blurb: 'Two railroads cross at one small town; Van Dorn (South) gathers 22,000 men to take it back from Rosecrans (North).' },
-  { id: 'october-third', eyebrow: 'October 3', title: "Van Dorn's Good Day", blurb: 'The Confederates drive the Federals back through the old outer works — and run out of daylight one hour short of a breakthrough.' },
-  { id: 'battery-robinett', eyebrow: 'October 4', title: 'The Ditch at Battery Robinett', blurb: "Van Dorn's gamble bleeds out against the inner earthwork line; Col. Rogers (South) falls on the parapet, and the assault is shattered." },
-  { id: 'what-it-protected', eyebrow: 'The meaning', title: 'What the Victory Protected', blurb: 'The junction stays Union, freeing Grant for Vicksburg — and on the town’s edge, a camp of freed people proves what the war was for.' },
+  { id: 'october-third', eyebrow: 'October 3', title: "Van Dorn's Good Day", blurb: 'The Confederates drive the Federals back through the old outer works, then run out of daylight one hour short of a breakthrough.' },
+  { id: 'battery-robinett', eyebrow: 'October 4', title: 'The Ditch at Battery Robinett', blurb: "Van Dorn's gamble bleeds out against the inner earthwork line; Colonel Rogers (South) falls on the parapet, and the assault is shattered." },
+  { id: 'what-it-protected', eyebrow: 'The meaning', title: 'What the Victory Protected', blurb: 'The junction stays Union, freeing Grant for Vicksburg, and on the town’s edge a camp of freed people proves what the war was for.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-crossroads': '/war-img/cmdr/van-dorn.jpg',
@@ -126,7 +126,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · the crossroads held</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Van Dorn won the first day, driving the Federals back through the old outer works — then bled his army white on October 4 against the close inner ring of earthwork forts, losing roughly twice what he inflicted at the ditch before Battery Robinett. The junction stayed in Union hands for the rest of the war, the last serious Confederate bid for the western rail line collapsed, and Grant was freed to turn south toward Vicksburg. And on the edge of the same town, a camp of self-freed people was proving, in human form, exactly what the war was being fought over.
+          Van Dorn won the first day, driving the Federals back through the old outer works, then bled his army white on October 4 against the close inner ring of earthwork forts, losing roughly twice what he inflicted at the ditch before Battery Robinett. The junction stayed in Union hands for the rest of the war, the last serious Confederate bid for the western rail line collapsed, and Grant was freed to turn south toward Vicksburg. On the edge of the same town, a camp of self-freed people was proving, in human form, exactly what the war was being fought over.
         </p>
       </div>
     </div>
@@ -135,18 +135,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

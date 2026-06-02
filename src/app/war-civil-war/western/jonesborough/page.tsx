@@ -14,24 +14,24 @@ const CRUMBS = civilWarCrumbs({ theatre: 'west', battleId: 'w-jonesborough' })
 const HERO_IMG = '/war-img/jonesborough-hero.jpg'
 const ARMIES = [
   { side: 'Union', label: 'Military Division of the Mississippi', size: '~20,000+ engaged', commander: 'Sherman · Howard · Davis', note: 'Howard’s Army of the Tennessee led the way; Davis’s XIV Corps made the break.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Tennessee', size: '~12,000 on Sept 1', commander: 'Hood (Hardee in the field)', note: 'Sent to clear the Federals off Atlanta’s last railroad — and stretched too thin to hold it.', color: ACCENTS.rust },
+  { side: 'Confederacy', label: 'Army of Tennessee', size: '~12,000 on Sept 1', commander: 'Hood (Hardee in the field)', note: 'Sent to clear the Federals off Atlanta’s last railroad, then stretched too thin to hold it.', color: ACCENTS.rust },
 ]
 const CAS = { union: 1150, csa: 2200 }
 const FIGURES = [
-  { name: 'W. T. Sherman', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/sherman.jpg' },
-  { name: 'O. O. Howard', role: 'Army of the Tennessee', side: 'U', img: '/war-img/cmdr/howard.jpg' },
-  { name: 'J. C. Davis', role: 'XIV Corps, Union', side: 'U', img: '/war-img/cmdr/jc-davis.jpg' },
-  { name: 'J. A. Logan', role: 'XV Corps, Union', side: 'U', img: '/war-img/cmdr/logan.jpg' },
-  { name: 'J. B. Hood', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/hood.jpg' },
-  { name: 'W. J. Hardee', role: 'Field cmdr., CSA', side: 'C', img: '/war-img/cmdr/hardee.jpg' },
-  { name: 'D. C. Govan', role: 'Brigade, CSA †', side: 'C', img: '/war-img/cmdr/govan.jpg' },
+  { name: 'William T. Sherman', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/sherman.jpg', blurb: 'Rather than storm Atlanta’s works, Sherman swung the bulk of his three armies south and west to cut the Macon & Western Railroad, the city’s last open supply line, near Jonesborough. When the line was torn up and Hood gave up the city, he wired Washington the four words that turned the Northern mood: “Atlanta is ours, and fairly won.”' },
+  { name: 'Oliver O. Howard', role: 'Army of the Tennessee', side: 'U', img: '/war-img/cmdr/howard.jpg', blurb: 'Howard pushed the Army of the Tennessee across the Flint River and reached the railroad first, digging his men in on a ridge west of the town before the Confederates came up. His entrenched line broke the August 31 attack at roughly ten-to-one cost and held the Confederates off the rails.' },
+  { name: 'Jefferson C. Davis', role: 'XIV Corps, Union', side: 'U', img: '/war-img/cmdr/jc-davis.jpg', blurb: 'Davis, the Union general of that unfortunate name and no relation to the Confederate president, sent his XIV Corps against the salient in Hardee’s thinned line on September 1 and broke clean through it. The assault swallowed the brigade holding the apex, capturing its general and roughly 600 men.' },
+  { name: 'John A. Logan', role: 'XV Corps, Union', side: 'U', img: '/war-img/cmdr/logan.jpg', blurb: 'Logan’s XV Corps held the right of Howard’s entrenched line on August 31 and helped throw back the Confederate charge. On September 1 his corps pressed in from the west as Davis broke the salient, adding pressure on the far face of Govan’s apex.' },
+  { name: 'John Bell Hood', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/hood.jpg', blurb: 'Hood sent Hardee to drive the Federals off the last railroad, then in the small hours recalled half that force to Atlanta against an assault that never came. With the rail line cut, he ordered Atlanta abandoned the night of September 1, burning his stores and marching his army out to fight again at Franklin and Nashville.' },
+  { name: 'William J. Hardee', role: 'Field cmdr., CSA', side: 'C', img: '/war-img/cmdr/hardee.jpg', blurb: 'Handed two corps to clear the railroad, Hardee saw his August 31 attack break against Howard’s works and his men refuse a second charge. Stripped of half his force overnight, he held a two-mile front with about 12,000 men on September 1, lost the salient, and slipped his battered corps south in the dark to save it from being trapped.' },
+  { name: 'Daniel C. Govan', role: 'Brigade, CSA †', side: 'C', img: '/war-img/cmdr/govan.jpg', blurb: 'Govan’s Arkansas brigade held the apex of the salient where Hardee’s thinned line bent toward the enemy, the weakest point on the field. When the XIV Corps closed on it from two sides on September 1, the brigade was surrounded, and Govan himself was captured with roughly 600 of his men and about eight guns.' },
 ]
 const SECTIONS = [
-  { id: 'the-last-railroad', eyebrow: 'The stakes', title: 'The Last Railroad Into Atlanta', blurb: 'Sherman (North) has cut every line into the city but one; he swings his armies south to break the Macon & Western near Jonesborough — and Atlanta cannot be held without it.' },
-  { id: 'hardees-stand', eyebrow: 'August 31', title: 'Hardee’s Stand', blurb: 'Hood (South) sends Hardee (South) to drive the Federals off the railroad; the charge breaks against Howard’s (North) entrenchments at roughly ten-to-one cost — and the men will not charge again.' },
-  { id: 'the-line-breaks', eyebrow: 'September 1', title: 'The Line Breaks', blurb: 'Stretched thin with half his force recalled, Hardee’s (South) salient gives way; the XIV Corps under Jefferson C. Davis (the Union general, not the Confederate president) swallows Govan’s (South) brigade whole.' },
-  { id: 'atlanta-is-ours', eyebrow: 'September 2–3', title: 'Atlanta Is Ours', blurb: 'With the last railroad cut, Hood (South) abandons the city in the night; Sherman’s (North) four-word telegram detonates the case against the war and turns the 1864 election.' },
-  { id: 'what-it-decided', eyebrow: 'The meaning', title: 'What It Decided', blurb: 'Jonesborough opened the road to the March to the Sea and the largest emancipation event in U.S. history — and to Ebenezer Creek, where the same Davis (North) left hundreds of the freed to drown.' },
+  { id: 'the-last-railroad', eyebrow: 'The stakes', title: 'The Last Railroad Into Atlanta', blurb: 'Sherman has cut every line into the city but one. He swings his armies south to break the Macon & Western near Jonesborough, and Atlanta cannot be held without it.' },
+  { id: 'hardees-stand', eyebrow: 'August 31', title: 'Hardee’s Stand', blurb: 'Hood (South) sends Hardee (South) to drive the Federals off the railroad. The charge breaks against Howard’s (North) entrenchments at roughly ten-to-one cost, and the men will not charge again.' },
+  { id: 'the-line-breaks', eyebrow: 'September 1', title: 'The Line Breaks', blurb: 'Stretched thin with half his force recalled, Hardee’s (South) salient gives way. The XIV Corps under Jefferson C. Davis (the Union general, not the Confederate president) swallows Govan’s (South) brigade whole.' },
+  { id: 'atlanta-is-ours', eyebrow: 'September 2–3', title: 'Atlanta Is Ours', blurb: 'With the last railroad cut, Hood (South) abandons the city in the night. Sherman’s four-word telegram detonates the case against the war and turns the 1864 election.' },
+  { id: 'what-it-decided', eyebrow: 'The meaning', title: 'What It Decided', blurb: 'Jonesborough opened the road to the March to the Sea and the largest emancipation event in U.S. history, and to Ebenezer Creek, where the same Davis (North) left hundreds of the freed to drown.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-last-railroad': '/war-img/jonesborough-overview.png',
@@ -129,7 +129,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · the fall of Atlanta</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Jonesborough cut the Macon &amp; Western, the last railroad into Atlanta, and forced Hood (South) to abandon the city the night of September 1; Atlanta fell on September 2. It was the decisive, climactic battle of the Atlanta Campaign — and one of the most politically consequential of the war. Its fall reversed Northern morale overnight, secured Lincoln’s reelection in a campaign that was, at bottom, an election about slavery, and opened the road to the March to the Sea.
+          Jonesborough cut the Macon &amp; Western, the last railroad into Atlanta, and forced Hood (South) to abandon the city the night of September 1; Atlanta fell on September 2. It was the decisive, climactic battle of the Atlanta Campaign, and one of the most politically consequential of the war. Its fall reversed Northern morale overnight, secured Lincoln’s reelection in a campaign that was, at bottom, an election about slavery, and opened the road to the March to the Sea.
         </p>
       </div>
     </div>
@@ -138,18 +138,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

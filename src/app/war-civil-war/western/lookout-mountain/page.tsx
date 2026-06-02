@@ -13,22 +13,22 @@ const CRUMBS = civilWarCrumbs({ theatre: 'west', battleId: 'w-lookout' })
 
 const HERO_IMG = '/war-img/lookout-mountain-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Hooker’s ad-hoc force', size: '~10,000 troops', commander: 'Grant (overall) · Hooker (leading)', note: 'Three divisions scraped from three corps — ordered only to feint, they climbed instead.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Tennessee (detachment)', size: '~8,700 on paper', commander: 'Bragg (overall) · Stevenson (on the mountain)', note: 'A mile of cliff held by too few men — thinned by Bragg days before the blow.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Hooker’s ad-hoc force', size: '~10,000 troops', commander: 'Grant (overall) · Hooker (leading)', note: 'Three divisions scraped from three corps. Ordered only to feint, they climbed instead.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of Tennessee (detachment)', size: '~8,700 on paper', commander: 'Bragg (overall) · Stevenson (on the mountain)', note: 'A mile of cliff held by too few men, thinned by Bragg days before the blow.', color: ACCENTS.rust },
 ]
 const CAS = { union: 671, csa: 1251 }
 const FIGURES = [
-  { name: 'U. S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg' },
-  { name: 'J. Hooker', role: 'Led assault, Union', side: 'U', img: '/war-img/cmdr/hooker.jpg' },
-  { name: 'J. W. Geary', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/geary.jpg' },
-  { name: 'P. J. Osterhaus', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/osterhaus.jpg' },
-  { name: 'B. Bragg', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/bragg.jpg' },
-  { name: 'E. C. Walthall', role: 'Brigade, CSA', side: 'C', img: '/war-img/cmdr/walthall.jpg' },
+  { name: 'Ulysses S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg', blurb: 'In overall command at Chattanooga, Grant planned a three-day breakout to crack the ring of heights around the city and meant Lookout Mountain only as a feint to set up the main blow on Missionary Ridge. He thought the fight on the cliffs was overrated, called the whole thing “all poetry” in his memoirs, and never counted it as much of a battle.' },
+  { name: 'Joseph Hooker', role: 'Led assault, Union', side: 'U', img: '/war-img/cmdr/hooker.jpg', blurb: 'Ordered only to demonstrate against the mountain, Hooker sent roughly 10,000 men up its steep western face instead and turned the feint into the climb that took the slope. His patchwork force of three divisions swept the thin defenders off the Cravens House bench and handed him a clean, low-cost win that redeemed a year dented by Chancellorsville.' },
+  { name: 'John W. Geary', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/geary.jpg', blurb: 'Geary led the main column that crossed Lookout Creek near Wauhatchie and climbed to the foot of the palisade, then wheeled north and east to sweep the mountain face from the flank. His drive rolled up Walthall’s outnumbered line and broke the Confederate stand at the Cravens House.' },
+  { name: 'Peter J. Osterhaus', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/osterhaus.jpg', blurb: 'A German-born veteran of the failed 1848 revolutions, Osterhaus brought a XV Corps division that had been stranded on the wrong side of the river when the pontoon bridge tore apart, and was attached to Hooker for the day. His men supported the crossing of Lookout Creek and the sweep across the slope.' },
+  { name: 'Braxton Bragg', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/bragg.jpg', blurb: 'Bragg held the heights around Chattanooga after Chickamauga, but thinned the Lookout Mountain garrison in the days before the attack, trusting the cliffs to defend themselves. When the slope gave way he wrote off the mountain, pulling his men down overnight to concentrate on Missionary Ridge.' },
+  { name: 'Edward C. Walthall', role: 'Brigade, CSA', side: 'C', img: '/war-img/cmdr/walthall.jpg', blurb: 'Walthall’s Mississippi brigade were the forward defenders who took the first blow on the western and northern slope. Hit from the flank by a force several times their size and blinded by fog, his men fought a delaying action from rock to rock and folded back to the Cravens House, where most of those captured that day were taken.' },
 ]
 const SECTIONS = [
-  { id: 'the-army-under-the-mountain', eyebrow: 'The trap and the plan', title: 'The Army Under the Mountain', blurb: 'Grant (North) plans a three-day breakout; Hooker (North) is ordered only to feint at a mountain held by far too few of Bragg’s (South) men.' },
+  { id: 'the-army-under-the-mountain', eyebrow: 'The trap and the plan', title: 'The Army Under the Mountain', blurb: 'Grant plans a three-day breakout; Hooker (North) is ordered only to feint at a mountain held by far too few of Bragg’s (South) men.' },
   { id: 'into-the-fog', eyebrow: 'The climb', title: 'Across the Creek and Into the Cloud', blurb: 'Geary (North) crosses Lookout Creek and sweeps the north face from the flank; Walthall’s (South) thin line breaks at the Cravens House in the fog.' },
-  { id: 'the-battle-above-the-clouds', eyebrow: 'The legend and the deflation', title: 'The Battle Above the Clouds', blurb: 'An army watches a fight it cannot see; Meigs (North) names the legend on the spot — and Grant (North) later calls the whole thing “all poetry.”' },
+  { id: 'the-battle-above-the-clouds', eyebrow: 'The legend and the deflation', title: 'The Battle Above the Clouds', blurb: 'An army watches a fight it cannot see. Meigs (North) names the legend on the spot, and Grant later calls the whole thing “all poetry.”' },
   { id: 'the-flag-at-dawn', eyebrow: 'The empty summit and the hand-off', title: 'The Flag at Dawn', blurb: 'Bragg (South) abandons the summit overnight under a lunar eclipse; the 8th Kentucky (North) raises the flag on a height nobody fought for, opening the road to Atlanta.' },
 ]
 const SECTION_IMG: Record<string, string> = {
@@ -126,7 +126,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · a small fight wearing a giant’s name</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Ordered only to demonstrate against Lookout Mountain, Hooker sent roughly 10,000 men up its steep north face, turned the thin, outnumbered defenders off the Cravens House bench, and took over a thousand prisoners for under 700 losses of his own. The summit was never stormed — the palisade cliff-line couldn’t be climbed, and Bragg pulled his men off overnight, under a total lunar eclipse, to concentrate on Missionary Ridge. At dawn the 8th Kentucky raised the flag on an already-abandoned peak. Tactically a clean, low-cost win; strategically one piece of lifting the siege of Chattanooga, opening the rail gateway to the Deep South and the road to Atlanta. Grant called it “all poetry.” The legend outran the modest fighting — but the door it helped open was real.
+          Ordered only to demonstrate against Lookout Mountain, Hooker sent roughly 10,000 men up its steep north face, turned the thin, outnumbered defenders off the Cravens House bench, and took over a thousand prisoners for under 700 losses of his own. The summit was never stormed: the palisade cliff-line could not be climbed, and Bragg pulled his men off overnight, under a total lunar eclipse, to concentrate on Missionary Ridge. At dawn the 8th Kentucky raised the flag on an already-abandoned peak. Tactically a clean, low-cost win; strategically one piece of lifting the siege of Chattanooga, opening the rail gateway to the Deep South and the road to Atlanta. Grant called it “all poetry.” The legend outran the modest fighting, but the door it helped open was real.
         </p>
       </div>
     </div>
@@ -141,18 +141,23 @@ function FigureImg({ src }: { src: string }) {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 <FigureImg src={f.img} />
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

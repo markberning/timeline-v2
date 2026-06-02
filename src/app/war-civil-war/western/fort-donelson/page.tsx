@@ -17,23 +17,23 @@ const HERO_IMG = '/war-img/fort-donelson-hero.jpg' // Kurz & Allison chromolitho
 const HERO_PAL = ['#22303a', '#3a2a2a', '#0a0e10']
 
 const ARMIES = [
-  { side: 'Union', label: 'Grant’s army & gunboats', size: '~25,000', commander: 'Brig. Gen. Ulysses S. Grant', note: 'Backed by Foote’s river gunboats — and willing to demand everything.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Fort Donelson garrison', size: '~17,000', commander: 'Floyd, Pillow & Buckner', note: 'Three generals who could not agree — two of whom fled in the night.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Grant’s army & gunboats', size: '~25,000', commander: 'Brig. Gen. Ulysses S. Grant', note: 'Backed by Foote’s river gunboats, and willing to demand everything.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Fort Donelson garrison', size: '~17,000', commander: 'Floyd, Pillow & Buckner', note: 'Three generals who could not agree, two of whom fled in the night.', color: ACCENTS.rust },
 ]
 const CAS = { union: 2700, csa: 2000, civ: 0 }
 const FIGURES = [
-  { name: 'U. S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg' },
-  { name: 'A. H. Foote', role: 'Gunboats, Union', side: 'U', img: '/war-img/cmdr/foote.jpg' },
-  { name: 'C. F. Smith', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/cf-smith.jpg' },
-  { name: 'S. B. Buckner', role: 'Surrendered, CSA', side: 'C', img: '/war-img/cmdr/buckner.jpg' },
-  { name: 'J. B. Floyd', role: 'Fled, CSA', side: 'C', img: '/war-img/cmdr/floyd.jpg' },
-  { name: 'G. Pillow', role: 'Fled, CSA', side: 'C', img: '/war-img/cmdr/pillow.jpg' },
-  { name: 'N. B. Forrest', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/forrest.jpg' },
+  { name: 'Ulysses S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg', blurb: 'Grant marched his army the dozen miles overland from Fort Henry and pressed the siege from the land side after the gunboats were beaten off the river. When the Confederate breakout broke his right, he read the captured soldiers’ packed knapsacks for what they were, ordered an attack all along the line, and the next morning demanded an unconditional surrender that bagged the whole garrison.' },
+  { name: 'Andrew H. Foote', role: 'Gunboats, Union', side: 'U', img: '/war-img/cmdr/foote.jpg', blurb: 'Foote brought his flotilla of ironclads and timberclads up the Cumberland on February 14 and closed to within 400 yards of the fort, the same play that had taken Fort Henry. The water batteries on the bluff poured plunging fire into his decks, shot away the steering of two ironclads, and wounded Foote in the foot as a shot tore through his flagship’s pilot house, driving the fleet back downriver.' },
+  { name: 'Charles F. Smith', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/cf-smith.jpg', blurb: 'Ordered by Grant to take the fort, Smith led his division up the icy slope against the outer works on the Confederate right, rode out in front where his men could see him, and seized the entrenchments held by the thinned-out 30th Tennessee. His foothold inside the outer line made the next morning’s defense look hopeless and helped force the surrender.' },
+  { name: 'Simon B. Buckner', role: 'Surrendered, CSA', side: 'C', img: '/war-img/cmdr/buckner.jpg', blurb: 'Left holding the garrison after Floyd and Pillow fled, Buckner sent Grant, his old West Point friend, a note asking for terms and got the demand for unconditional surrender instead. He called the terms ungenerous but bowed to the overwhelming force against him and gave up the fort and its army on February 16.' },
+  { name: 'John B. Floyd', role: 'Fled, CSA', side: 'C', img: '/war-img/cmdr/floyd.jpg', blurb: 'The senior commander inside the fort, Floyd had been U.S. Secretary of War before the war and feared prosecution if the North took him prisoner. Rather than face the surrender, he handed command to Pillow and escaped before dawn on February 16, taking the only steamboat and his two Virginia regiments with him.' },
+  { name: 'Gideon J. Pillow', role: 'Fled, CSA', side: 'C', img: '/war-img/cmdr/pillow.jpg', blurb: 'Pillow led the February 15 breakout that drove back the Union right and threw open the road to Nashville, then ordered his men to stop and march back into the trenches, closing the escape they had just opened. When Floyd passed him the command that night, Pillow passed it on to Buckner and slipped across the Cumberland in a small boat.' },
+  { name: 'Nathan B. Forrest', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/forrest.jpg', blurb: 'Forrest screened the army with his cavalry through the siege and refused to be surrendered, saying he had not come to give up his command. On the night before the capitulation he led about 700 of his horsemen out through the waist-deep icy backwater of Lick Creek and rode clear of the trap, finding no enemy in the way.' },
 ]
 const SECTIONS = [
-  { id: 'the-rivers', eyebrow: 'The western strategy', title: 'The Rivers into the South', blurb: 'Two rivers run like highways into the Confederacy. Fort Henry falls to the gunboats; Grant (North) marches on its sister fort, Donelson.' },
-  { id: 'the-gunboats', eyebrow: 'February 14', title: 'The Gunboats Repulsed', blurb: 'Foote’s (North) ironclads steam up to pound the fort — and the fort’s river guns beat them back down the Cumberland.' },
-  { id: 'the-breakout', eyebrow: 'February 15', title: 'The Escape That Wasn’t', blurb: 'A Confederate attack tears open an escape road — and then Pillow (South) orders his men back into the trenches, throwing it away.' },
+  { id: 'the-rivers', eyebrow: 'The western strategy', title: 'The Rivers into the South', blurb: 'Two rivers run like highways into the Confederacy. Fort Henry falls to the gunboats; Grant marches on its sister fort, Donelson.' },
+  { id: 'the-gunboats', eyebrow: 'February 14', title: 'The Gunboats Repulsed', blurb: 'Foote’s (North) ironclads steam up to pound the fort, and the fort’s river guns beat them back down the Cumberland.' },
+  { id: 'the-breakout', eyebrow: 'February 15', title: 'The Escape That Wasn’t', blurb: 'A Confederate attack tears open an escape road, and then Pillow (South) orders his men back into the trenches, throwing it away.' },
   { id: 'unconditional-surrender', eyebrow: 'February 16', title: 'Unconditional Surrender', blurb: 'Floyd and Pillow flee in the night; Forrest rides out through icy water; Buckner (South) is left to surrender to his old friend Grant.' },
 ]
 const SECTION_IMG: Record<string, string> = {
@@ -132,7 +132,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Decisive Union victory · the West cracks open</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Grant’s demand for “unconditional surrender” gave the North its first major victory of the war and a new hero — and bagged an entire Confederate army, the largest mass surrender on the continent to that point. With the river forts gone, the Confederacy’s western line collapsed: Nashville, the first Confederate state capital to fall, was abandoned within days. The road into the heart of the South was open.
+          Grant’s demand for “unconditional surrender” gave the North its first major victory of the war and a new hero, and bagged an entire Confederate army, the largest mass surrender on the continent to that point. With the river forts gone, the Confederacy’s western line collapsed: Nashville, the first Confederate state capital to fall, was abandoned within days. The road into the heart of the South was open.
         </p>
       </div>
     </div>
@@ -141,18 +141,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

@@ -13,25 +13,25 @@ const CRUMBS = civilWarCrumbs({ theatre: 'west', battleId: 'w-chickamauga' })
 
 const HERO_IMG = '/war-img/chickamauga-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Cumberland', size: '~60,000 troops', commander: 'Rosecrans', note: 'Cut in half by one mistaken order — saved from ruin by the man who would not leave the field.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Tennessee', size: '~65,000 troops', commander: 'Bragg', note: 'Won the rare battle where it outnumbered the North — then bled more than the army it beat.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Army of the Cumberland', size: '~60,000 troops', commander: 'Rosecrans', note: 'Cut in half by one mistaken order, and saved from ruin by the man who would not leave the field.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of Tennessee', size: '~65,000 troops', commander: 'Bragg', note: 'Won the rare battle where it outnumbered the North, then bled more than the army it beat.', color: ACCENTS.rust },
 ]
 const CAS = { union: 16170, csa: 18454 }
 const FIGURES = [
-  { name: 'W. S. Rosecrans', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/rosecrans.jpg' },
-  { name: 'G. H. Thomas', role: 'Corps, Union · "the Rock"', side: 'U', img: '/war-img/cmdr/thomas.jpg' },
-  { name: 'G. Granger', role: 'Reserve, Union', side: 'U', img: '/war-img/cmdr/granger.jpg' },
-  { name: 'P. H. Sheridan', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/sheridan.jpg' },
-  { name: 'B. Bragg', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/bragg.jpg' },
-  { name: 'J. Longstreet', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg' },
-  { name: 'L. Polk', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/polk.jpg' },
-  { name: 'N. B. Forrest', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/forrest.jpg' },
+  { name: 'William S. Rosecrans', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/rosecrans.jpg', blurb: 'Rosecrans had maneuvered Bragg out of Chattanooga without a battle, then let his army stay strung out in the Georgia woods. On the second day he relayed an order to plug a gap that was not there, opening a real one exactly where Longstreet struck, and was swept off the field with half his army back toward Chattanooga.' },
+  { name: 'George H. Thomas', role: 'Corps, Union · the Rock', side: 'U', img: '/war-img/cmdr/thomas.jpg', blurb: 'A Virginian who chose the Union, Thomas held the army’s left through the morning behind the log breastworks at Kelly Field. When the right collapsed he gathered the wreckage on Snodgrass Hill and Horseshoe Ridge and held until dark, earning the name the Rock of Chickamauga and turning a rout into an orderly retreat.' },
+  { name: 'Gordon Granger', role: 'Reserve, Union', side: 'U', img: '/war-img/cmdr/granger.jpg', blurb: 'Posted to the north to guard the roads, Granger marched his Reserve Corps toward the sound of the guns without waiting for orders. He reached Thomas at the breaking point and fed Steedman’s fresh brigades into the line on Horseshoe Ridge just as the defenders’ cartridges gave out.' },
+  { name: 'Philip H. Sheridan', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/sheridan.jpg', blurb: 'Sheridan held a division on the Union right when Longstreet’s column burst through the gap. His command was caught in the rout and swept off the field, and he spent the rest of his life answering for Chickamauga.' },
+  { name: 'Braxton Bragg', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/bragg.jpg', blurb: 'Bragg drew Rosecrans into the woods and won the field, the only major Confederate victory in the West. Then he refused the pursuit Forrest and Longstreet demanded, besieged Chattanooga instead, and tore his own command apart in the recriminations that followed.' },
+  { name: 'James Longstreet', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg', blurb: 'Longstreet brought his divisions by rail from Lee’s army in Virginia and took command of Bragg’s left wing. At about 11:10 on September 20 he sent a massed column of roughly eight brigades straight into the gap Wood had just left, breaking the Union right and routing half the army.' },
+  { name: 'Leonidas Polk', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/polk.jpg', blurb: 'Polk commanded the Confederate right wing and was ordered to open the September 20 assault at dawn. His attack went in roughly four hours late against Thomas’s fortified left and made little headway, and Bragg suspended him afterward and blamed him for the lost chance.' },
+  { name: 'Nathan Bedford Forrest', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/forrest.jpg', blurb: 'Forrest’s troopers fired the first shots at Reed’s Bridge and then fought dismounted alongside the infantry. Riding on the heels of the fleeing Federals afterward, he pressed Bragg furiously to finish them, and raged when the order to pursue never came.' },
 ]
 const SECTIONS = [
-  { id: 'the-maneuver', eyebrow: 'The bloodless prize', title: 'How Rosecrans Took Chattanooga Without a Fight', blurb: 'Rosecrans (North) levers Bragg (South) out of the gateway city without a battle — then finds his own army strung out in the Georgia woods.' },
+  { id: 'the-maneuver', eyebrow: 'The bloodless prize', title: 'How Rosecrans Took Chattanooga Without a Fight', blurb: 'Rosecrans (North) levers Bragg (South) out of the gateway city without a battle, then finds his own army strung out in the Georgia woods.' },
   { id: 'the-woods', eyebrow: 'A battle nobody could see', title: 'Groping Toward Each Other in the Timber', blurb: 'Bragg (South) turns to fight; the two armies feed brigades blindly into forest so thick no one can see the battle. A bloody draw in the dark.' },
   { id: 'the-gap', eyebrow: 'The hole in the line', title: 'One Order, One Column, and the Union Right Comes Apart', blurb: 'A mistaken order pulls Wood (North) out of line just as Longstreet (South) strikes the spot; half the army routs off the field.' },
-  { id: 'the-rock', eyebrow: 'The man who would not leave', title: 'Thomas Holds Snodgrass Hill', blurb: 'Thomas (North) — a Virginian who chose the Union — rallies the wreckage on the high ground and holds until dark, turning a rout into a retreat.' },
+  { id: 'the-rock', eyebrow: 'The man who would not leave', title: 'Thomas Holds Snodgrass Hill', blurb: 'Thomas (North), a Virginian who chose the Union, rallies the wreckage on the high ground and holds until dark, turning a rout into a retreat.' },
   { id: 'the-reckoning', eyebrow: 'The cost & the meaning', title: 'The Bloodiest Day in the West and What It Bought', blurb: '~34,000 fall in the second-bloodiest battle of the war. Bragg (South) wins the field, loses more men, and throws the victory away.' },
 ]
 const SECTION_IMG: Record<string, string> = {
@@ -130,7 +130,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate tactical win · strategic failure</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          A single mistaken order opened a quarter-mile gap in the Union center exactly where Longstreet’s massed column struck, and half the Army of the Cumberland routed off the field — the most complete battlefield victory the South ever won in the West. But George Thomas held Snodgrass Hill until dark and turned a rout into an orderly retreat, and the Confederates lost more men winning than the army they beat. Bragg refused the pursuit Forrest and Longstreet demanded, besieged Chattanooga instead, and tore his own command apart in the recriminations that followed. Two months later Grant broke the siege and took the gateway south anyway. The only major Confederate victory in the West was also one of the costliest mistakes it ever made.
+          A single mistaken order opened a quarter-mile gap in the Union center exactly where Longstreet’s massed column struck, and half the Army of the Cumberland routed off the field. It was the most complete battlefield victory the South ever won in the West. But George Thomas held Snodgrass Hill until dark and turned a rout into an orderly retreat, and the Confederates lost more men winning than the army they beat. Bragg refused the pursuit Forrest and Longstreet demanded, besieged Chattanooga instead, and tore his own command apart in the recriminations that followed. Two months later Grant broke the siege and took the gateway south anyway. The only major Confederate victory in the West was also one of the costliest mistakes it ever made.
         </p>
       </div>
     </div>
@@ -145,18 +145,23 @@ function FigureImg({ src }: { src: string }) {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 <FigureImg src={f.img} />
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

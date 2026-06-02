@@ -14,28 +14,28 @@ const CRUMBS = civilWarCrumbs({ theatre: 'west', battleId: 'w-nashville' })
 
 const HERO_IMG = '/war-img/nashville-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Cumberland (+ detachments)', size: '~55,000 troops', commander: 'Thomas', note: 'The deliberate Virginian his own superiors had a replacement riding toward — then he won the most complete victory of the war.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Tennessee', size: 'outnumbered ~2-to-1', commander: 'Hood', note: 'The wreck of Franklin, dug in outside a fortress city — too weak to attack, too proud to run.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Army of the Cumberland (+ detachments)', size: '~55,000 troops', commander: 'Thomas', note: 'The deliberate Virginian his own superiors had a replacement riding toward, then he won the most complete victory of the war.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of Tennessee', size: 'outnumbered ~2-to-1', commander: 'Hood', note: 'The wreck of Franklin, dug in outside a fortress city, too weak to attack and too proud to run.', color: ACCENTS.rust },
 ]
 const CAS = { union: 3000, csa: 6000 }
 const FIGURES = [
-  { name: 'G. H. Thomas', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/thomas.jpg' },
-  { name: 'J. M. Schofield', role: 'XXIII Corps, Union', side: 'U', img: '/war-img/cmdr/schofield.jpg' },
-  { name: 'J. B. Steedman', role: 'USCT assault, Union', side: 'U', img: '/war-img/cmdr/steedman.jpg' },
-  { name: 'J. H. Wilson', role: 'Cavalry, Union', side: 'U', img: '/war-img/cmdr/jh-wilson.jpg' },
-  { name: 'T. J. Wood', role: 'IV Corps, Union', side: 'U', img: '/war-img/cmdr/wood.jpg' },
-  { name: 'J. B. Hood', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/hood.jpg' },
-  { name: 'A. P. Stewart', role: 'Corps (left), CSA', side: 'C', img: '/war-img/cmdr/ap-stewart.jpg' },
-  { name: 'B. F. Cheatham', role: 'Corps (right), CSA', side: 'C', img: '/war-img/cmdr/cheatham.jpg' },
-  { name: 'S. D. Lee', role: 'Corps (center), CSA', side: 'C', img: '/war-img/cmdr/sd-lee.jpg' },
-  { name: 'N. B. Forrest', role: 'Cavalry, CSA (absent)', side: 'C', img: '/war-img/cmdr/forrest.jpg' },
+  { name: 'George H. Thomas', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/thomas.jpg', blurb: 'Thomas refused to attack until his army and its cavalry were fully ready, weathering an ice storm and a stream of furious telegrams while his own superiors started a replacement toward him. When the thaw came he swung a grand right wheel onto Hood’s flank and over two days destroyed the Army of Tennessee, the most complete field victory of the war.' },
+  { name: 'John M. Schofield', role: 'XXIII Corps, Union', side: 'U', img: '/war-img/cmdr/schofield.jpg', blurb: 'Schofield, who had fought the delaying actions at Spring Hill and Franklin that bought Thomas the time to gather his force, held his XXIII Corps in reserve behind the wheeling right on December 15. On the 16th he was moved up on the Union right to fill the gap between Smith and Wilson and add weight to the blow against Hood’s left.' },
+  { name: 'James B. Steedman', role: 'USCT assault, Union', side: 'U', img: '/war-img/cmdr/steedman.jpg', blurb: 'Steedman opened December 15 with a loud feint against Hood’s right that pinned Confederate troops at the wrong end of the field. The next day his command, including the U.S. Colored Troops, made the bloody assault on Overton Hill that drew Confederate reserves eastward as the real blow fell in the west.' },
+  { name: 'James H. Wilson', role: 'Cavalry, Union', side: 'U', img: '/war-img/cmdr/jh-wilson.jpg', blurb: 'Wilson commanded the rebuilt Union cavalry that Thomas had waited to refit, and it formed the outer edge of the great right wheel, much of it fighting dismounted as it swung west and then south around Hood’s flank. After the rout he pressed the pursuit hard down the pikes, fought off only by Forrest’s rearguard.' },
+  { name: 'Thomas J. Wood', role: 'IV Corps, Union', side: 'U', img: '/war-img/cmdr/wood.jpg', blurb: 'Wood led the IV Corps, the largest in Thomas’s army, against the Confederate right and Overton Hill on December 16. His first assault was thrown back at the abatis with heavy loss, but he renewed the attack as the rest of Hood’s line collapsed and helped turn the day into a rout.' },
+  { name: 'John Bell Hood', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/hood.jpg', blurb: 'Hood brought the wreckage of his army, broken at Franklin two weeks before, up to the edge of Nashville and dug in, too weak to attack the fortress city and unwilling to retreat. Over two days Thomas collapsed his line and destroyed the Army of Tennessee; Hood resigned his command the following month.' },
+  { name: 'Alexander P. Stewart', role: 'Corps (left), CSA', side: 'C', img: '/war-img/cmdr/ap-stewart.jpg', blurb: 'Stewart held the Confederate left, the western end of Hood’s line, anchored on a chain of five detached redoubts. The Union right wheel rolled up those forts one after another on December 15, and when Shy’s Hill fell the next day his flank disintegrated and the whole army came apart.' },
+  { name: 'Benjamin F. Cheatham', role: 'Corps (right), CSA', side: 'C', img: '/war-img/cmdr/cheatham.jpg', blurb: 'Cheatham held the Confederate right, the eastern end of the line, where Steedman’s feint struck on December 15 and the U.S. Colored Troops charged Overton Hill on the 16th. His men held the hill against repeated assaults, but the troops drawn there to do it left the far end of the army fatally thin.' },
+  { name: 'Stephen D. Lee', role: 'Corps (center), CSA', side: 'C', img: '/war-img/cmdr/sd-lee.jpg', blurb: 'Lee held the center of Hood’s line between Stewart on the left and Cheatham on the right. As the flanks gave way his corps was caught in the general collapse on December 16, and he was among those covering the retreat south toward Tupelo.' },
+  { name: 'Nathan Bedford Forrest', role: 'Cavalry, CSA (absent)', side: 'C', img: '/war-img/cmdr/forrest.jpg', blurb: 'Hood’s best cavalryman was not at the battle at all, detached toward Murfreesboro to raid the railroad while his eyes and striking power were needed most. Forrest rejoined the broken army afterward and ran the rearguard down the pikes, the only thing that kept any organized piece of it together during the retreat.' },
 ]
 const SECTIONS = [
-  { id: 'the-standoff', eyebrow: 'Nashville', title: 'An army too weak to attack, too proud to run', blurb: 'Hood (South), his army wrecked at Franklin, digs a thin line outside a fortress city he cannot take — and waits for Thomas (North) to come out.' },
-  { id: 'the-sledgehammer-telegrams', eyebrow: 'December 8–14', title: 'The general everyone wanted to fire', blurb: 'An ice storm freezes Thomas (North) in place while Grant (North) sends Logan (North) to relieve him — and the most decisive victory of the war is about to be won by a man already half-fired.' },
+  { id: 'the-standoff', eyebrow: 'Nashville', title: 'An army too weak to attack, too proud to run', blurb: 'Hood (South), his army wrecked at Franklin, digs a thin line outside a fortress city he cannot take, and waits for Thomas (North) to come out.' },
+  { id: 'the-sledgehammer-telegrams', eyebrow: 'December 8–14', title: 'The general everyone wanted to fire', blurb: 'An ice storm freezes Thomas (North) in place while Grant sends Logan (North) to relieve him, and the most decisive victory of the war is about to be won by a man already half-fired.' },
   { id: 'the-right-wheel', eyebrow: 'December 15', title: 'The door swings shut on Hood’s left', blurb: 'Steedman’s (North) feint pins Hood’s right while Wilson’s cavalry (North) and Smith’s (North) infantry wheel down onto Stewart’s (South) flank, overrunning five redoubts in sequence.' },
-  { id: 'overton-hill', eyebrow: 'December 16', title: 'The hill the freedmen charged', blurb: 'Steedman’s (North) U.S. Colored Troops assault the strongest works on the field, the 13th USCT taking the battle’s heaviest loss — and winning even Holtzclaw’s (South) acknowledgment.' },
-  { id: 'the-army-destroyed', eyebrow: 'December 16 evening', title: 'The line rolled up west to east', blurb: 'Shy’s Hill falls, Stewart’s (South) flank disintegrates, and the last Confederate field army in the West dissolves into rout — saved from total ruin only by Forrest’s (South) rearguard.' },
+  { id: 'overton-hill', eyebrow: 'December 16', title: 'The hill the freedmen charged', blurb: 'Steedman’s (North) U.S. Colored Troops assault the strongest works on the field, the 13th USCT taking the battle’s heaviest loss and winning even Holtzclaw’s (South) acknowledgment.' },
+  { id: 'the-army-destroyed', eyebrow: 'December 16 evening', title: 'The line rolled up west to east', blurb: 'Shy’s Hill falls, Stewart’s (South) flank disintegrates, and the last Confederate field army in the West dissolves into rout, saved from total ruin only by Forrest’s (South) rearguard.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-standoff': '/war-img/nashville-overview.png',
@@ -133,7 +133,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Decisive Union victory · the last western army erased</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Over two days Thomas’s grand right wheel collapsed Hood’s left, and on December 16 the line broke and the Army of Tennessee dissolved into one of the most complete routs of the war — about 6,000 lost, the bulk of them prisoners. It was one of the few times a whole field army was not merely beaten but destroyed, done in part by the U.S. Colored Troops who charged Overton Hill. Hood resigned within weeks, and the West was decided.
+          Over two days Thomas’s grand right wheel collapsed Hood’s left, and on December 16 the line broke and the Army of Tennessee dissolved into one of the most complete routs of the war: about 6,000 lost, the bulk of them prisoners. It was one of the few times a whole field army was not merely beaten but destroyed, done in part by the U.S. Colored Troops who charged Overton Hill. Hood resigned within weeks, and the West was decided.
         </p>
       </div>
     </div>
@@ -142,18 +142,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

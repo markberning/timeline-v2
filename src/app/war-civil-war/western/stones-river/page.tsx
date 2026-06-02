@@ -13,24 +13,24 @@ const CRUMBS = civilWarCrumbs({ theatre: 'west', battleId: 'w-stonesriver' })
 
 const HERO_IMG = '/war-img/stones-river-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Cumberland', size: '~43,400 troops', commander: 'Rosecrans', note: 'Surprised at dawn and folded back three miles — but it would not retreat.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Tennessee', size: '~35,000 troops', commander: 'Bragg', note: 'Struck first and thought it had won — then bled itself white on January 2.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Army of the Cumberland', size: '~43,400 troops', commander: 'Rosecrans', note: 'Surprised at dawn and folded back three miles, but it would not retreat.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of Tennessee', size: '~35,000 troops', commander: 'Bragg', note: 'Struck first and thought it had won, then bled itself white on January 2.', color: ACCENTS.rust },
 ]
 const CAS = { union: 12906, csa: 11739 }
 const FIGURES = [
-  { name: 'W. S. Rosecrans', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/rosecrans.jpg' },
-  { name: 'G. H. Thomas', role: 'Center, Union', side: 'U', img: '/war-img/cmdr/thomas.jpg' },
-  { name: 'P. H. Sheridan', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/sheridan.jpg' },
-  { name: 'A. M. McCook', role: 'Right Wing, Union', side: 'U', img: '/war-img/cmdr/mccook.jpg' },
-  { name: 'B. Bragg', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/bragg.jpg' },
-  { name: 'W. J. Hardee', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/hardee.jpg' },
-  { name: 'L. Polk', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/polk.jpg' },
-  { name: 'J. C. Breckinridge', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/breckinridge.jpg' },
+  { name: 'William S. Rosecrans', role: 'Cmdr., Cumberland', side: 'U', img: '/war-img/cmdr/rosecrans.jpg', blurb: 'Rosecrans was caught off balance when Bragg struck his right at dawn on December 31, his chief of staff killed at his side by a cannonball as the two rode the lines. He refused his officers’ advice to retreat, held the army together near the Nashville Pike, and seized the high ground east of the river that decided the battle two days later.' },
+  { name: 'George H. Thomas', role: 'Center, Union', side: 'U', img: '/war-img/cmdr/thomas.jpg', blurb: 'Thomas held the Union center near the pike and railroad as the right wing collapsed around him, turning back Polk’s piecemeal attacks with heavy loss to the Confederates. When the council of war debated retreat that night, he was among those who backed Rosecrans in deciding to stay and fight it out.' },
+  { name: 'Philip H. Sheridan', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/sheridan.jpg', blurb: 'Sheridan’s division dug in among the cedar brakes and stood for roughly four hours in the sector the soldiers named the Slaughter Pen, buying the time the rest of the army needed to form a new line. All three of his brigade commanders were killed and more than a third of his men fell before he pulled back, his ammunition gone.' },
+  { name: 'Alexander M. McCook', role: 'Right Wing, Union', side: 'U', img: '/war-img/cmdr/mccook.jpg', blurb: 'McCook commanded the Union right wing, posted in open ground with its flank anchored on nothing, and bore the full weight of Hardee’s dawn attack. His men were caught at their cook fires and folded back roughly three miles before the line finally stiffened near the pike.' },
+  { name: 'Braxton Bragg', role: 'Cmdr., Tennessee', side: 'C', img: '/war-img/cmdr/bragg.jpg', blurb: 'Bragg struck first on December 31, bent the Union line nearly double, and wired Richmond that he had won. When the enemy was still there two days later, he ordered Breckinridge into a doomed charge against his general’s protest, then withdrew his bled-white army south toward Tullahoma.' },
+  { name: 'William J. Hardee', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/hardee.jpg', blurb: 'Hardee, the army’s ablest tactician and author of its drill manual, led the dawn assault that swept out of the cedars and crumpled the Union right. His attack drove McCook’s wing back three miles before Sheridan’s stand and the line near the pike halted the Confederate advance.' },
+  { name: 'Leonidas Polk', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/polk.jpg', blurb: 'Polk’s corps struck the Union center to keep Thomas from reinforcing the collapsing right, but his attacks went in piecemeal and were turned back at heavy cost. His repeated assaults on the Round Forest, the salient the soldiers called Hell’s Half Acre, could not break the one piece of the original Union line that never gave ground.' },
+  { name: 'John C. Breckinridge', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/breckinridge.jpg', blurb: 'A former Vice President of the United States, Breckinridge protested Bragg’s January 2 order to storm the Union-held hill as suicidal, then led the charge when he was overruled. Roughly fifty massed Union guns on the far bank tore his division apart in under an hour, nearly destroying the Kentucky Orphan Brigade in the process.' },
 ]
 const SECTIONS = [
-  { id: 'the-armies-face-off', eyebrow: 'Two mirror-image plans', title: 'The Year Turns at Murfreesboro', blurb: 'Rosecrans (North) marches out of Nashville; Bragg (South) turns to face him — and both generals plan the identical dawn attack.' },
+  { id: 'the-armies-face-off', eyebrow: 'Two mirror-image plans', title: 'The Year Turns at Murfreesboro', blurb: 'Rosecrans (North) marches out of Nashville; Bragg (South) turns to face him, and both generals plan the identical dawn attack.' },
   { id: 'the-dawn-blow', eyebrow: 'December 31, before breakfast', title: 'The Confederate Jackknife', blurb: 'Hardee (South) strikes first and folds the Union right back three miles; Sheridan (North) bleeds for four hours in the Slaughter Pen to save the army.' },
-  { id: 'the-new-years-pause', eyebrow: 'January 1', title: 'The Day Nobody Moved', blurb: 'A day almost nothing happens — and the Emancipation Proclamation takes effect over a battlefield that has no idea its whole meaning just changed.' },
+  { id: 'the-new-years-pause', eyebrow: 'January 1', title: 'The Day Nobody Moved', blurb: 'A day almost nothing happens, and the Emancipation Proclamation takes effect over a battlefield that has no idea its whole meaning just changed.' },
   { id: 'breckinridges-charge', eyebrow: 'January 2, four o’clock', title: 'The Charge at McFadden’s Ford', blurb: 'Bragg (South) orders Breckinridge (South) into an assault his own general calls suicidal; fifty massed Union guns annihilate it in under an hour.' },
   { id: 'the-cost-and-the-meaning', eyebrow: 'The cost & the meaning', title: 'A Hard-Earned Victory', blurb: '~25,000 fall in three days at one of the highest casualty rates of the war. Bragg retreats; the North gets the win that backstops emancipation.' },
 ]
@@ -130,33 +130,32 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · the win that backstopped emancipation</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Bragg’s dawn surprise folded the Union right back three miles and very nearly destroyed Rosecrans’s army before breakfast, but the line held near the Nashville Pike and refused to retreat. After a strange, still New Year’s Day, Bragg threw away a division in Breckinridge’s doomed January 2 charge, then withdrew. The fighting was as concentrated as any in the war — one of its highest casualty rates — but the meaning was in the timing: Stones River was the first major Union victory of the Emancipation Proclamation era, handing Lincoln a desperately needed win at the exact moment the war became, in law, a war to end slavery.
+          Bragg’s dawn surprise folded the Union right back three miles and very nearly destroyed Rosecrans’s army before breakfast, but the line held near the Nashville Pike and refused to retreat. After a strange, still New Year’s Day, Bragg threw away a division in Breckinridge’s doomed January 2 charge, then withdrew. The fighting was as concentrated as any in the war, one of its highest casualty rates, but the meaning was in the timing: Stones River was the first major Union victory of the Emancipation Proclamation era, handing Lincoln a desperately needed win at the exact moment the war became, in law, a war to end slavery.
         </p>
       </div>
     </div>
   )
 }
 
-function FigureImg({ src }: { src: string }) {
-  const [failed, setFailed] = useState(false)
-  if (!src || failed) return null
-  return <img src={src} alt="" onError={() => setFailed(true)} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />
-}
-
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
-                <FigureImg src={f.img} />
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+                {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

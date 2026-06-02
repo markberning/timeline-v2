@@ -13,22 +13,22 @@ const CRUMBS = civilWarCrumbs({ theatre: 'west', battleId: 'w-shiloh' })
 
 const HERO_IMG = '/war-img/shiloh-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Armies of the Tennessee & Ohio', size: '~66,000 troops', commander: 'Grant & Buell', note: 'Caught unentrenched at dawn — saved by the river and the night.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of the Mississippi', size: '~44,000 troops', commander: 'A.S. Johnston, then Beauregard', note: 'Attacked first and nearly won — until their commander bled to death.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Armies of the Tennessee & Ohio', size: '~66,000 troops', commander: 'Grant & Buell', note: 'Caught unentrenched at dawn, saved by the river and the night.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of the Mississippi', size: '~44,000 troops', commander: 'A.S. Johnston, then Beauregard', note: 'Attacked first and nearly won, until their commander bled to death.', color: ACCENTS.rust },
 ]
 const CAS = { union: 13047, csa: 10699 }
 const FIGURES = [
-  { name: 'U. S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg' },
-  { name: 'W. T. Sherman', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/sherman.jpg' },
-  { name: 'D. C. Buell', role: 'Army of the Ohio', side: 'U', img: '/war-img/cmdr/buell.jpg' },
-  { name: 'B. Prentiss', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/prentiss.jpg' },
-  { name: 'A. S. Johnston', role: 'Cmdr., CSA †', side: 'C', img: '/war-img/cmdr/as-johnston.jpg' },
-  { name: 'P.G.T. Beauregard', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/beauregard.jpg' },
-  { name: 'B. Bragg', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/bragg.jpg' },
-  { name: 'N. B. Forrest', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/forrest.jpg' },
+  { name: 'Ulysses S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg', blurb: 'Caught with his army unentrenched and scattered in its camps, Grant reached Pittsburg Landing mid-morning to find the first day going badly and steadied the broken line by the river at dusk. He refused to retreat across the Tennessee, attacked at first light on April 7 with the fresh men who had crossed overnight, and drove the Confederates off the field.' },
+  { name: 'William T. Sherman', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/sherman.jpg', blurb: 'Commanding the division nearest Shiloh Church, Sherman took the leading edge of the dawn attack, was wounded twice and had three horses shot under him while rallying his men. His stubborn fighting retreat slowed the Confederate advance and bought the army the time it needed to survive the first day.' },
+  { name: 'Don Carlos Buell', role: 'Army of the Ohio', side: 'U', img: '/war-img/cmdr/buell.jpg', blurb: 'Buell’s Army of the Ohio, marching to link up with Grant, reached the river the evening of April 6 and ferried roughly 18,000 fresh men across overnight. His divisions led the counterattack at dawn on April 7 that turned the second day into a Union victory.' },
+  { name: 'Benjamin Prentiss', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/prentiss.jpg', blurb: 'Prentiss held the center along the farm lane that became known as the Hornet’s Nest, beating back charge after charge for most of the afternoon. Surrounded at last by massed artillery and infantry, he and roughly 2,200 men surrendered near dusk, the largest Union capitulation of the day.' },
+  { name: 'Albert Sidney Johnston', role: 'Cmdr., CSA †', side: 'C', img: '/war-img/cmdr/as-johnston.jpg', blurb: 'The senior Confederate commander in the West, Johnston marched his army out of Corinth to surprise Grant and nearly destroyed him on the first day. Leading an attack near the Peach Orchard in the afternoon, he was shot behind the knee and bled to death, the highest-ranking officer on either side killed in combat in the war.' },
+  { name: 'P.G.T. Beauregard', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/beauregard.jpg', blurb: 'Johnston’s second-in-command, Beauregard took over when Johnston was killed and halted the attacks at dusk, certain he would finish Grant in the morning, even wiring Richmond that he had won a complete victory. Outnumbered by the reinforcements that crossed overnight, he was driven back the next day and retreated to Corinth.' },
+  { name: 'Braxton Bragg', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/bragg.jpg', blurb: 'Bragg commanded one of the Confederate corps and threw brigade after brigade at the Hornet’s Nest in piecemeal frontal attacks that were shredded against the line. His refusal to flank the position instead of charging it head-on cost the Confederates heavily in time and blood.' },
+  { name: 'Nathan Bedford Forrest', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/forrest.jpg', blurb: 'Forrest scouted the river himself the night of April 6 and saw Buell’s reinforcements crossing, a warning his superiors ignored. Covering the retreat on April 8, he ambushed the pursuing Union force at Fallen Timbers and, riding too far in, was shot at close range but galloped out alive.' },
 ]
 const SECTIONS = [
-  { id: 'the-surprise', eyebrow: 'Dawn, April 6', title: 'The Surprise at Pittsburg Landing', blurb: 'Grant’s (North) unentrenched army is overrun at dawn; Sherman (North) makes a stand as the camps fall.' },
+  { id: 'the-surprise', eyebrow: 'Dawn, April 6', title: 'The Surprise at Pittsburg Landing', blurb: 'Grant’s unentrenched army is overrun at dawn; Sherman makes a stand as the camps fall.' },
   { id: 'the-hornets-nest', eyebrow: 'The center holds', title: 'The Hornet’s Nest', blurb: 'Prentiss (North) holds a sunken lane for six hours; Johnston (South) bleeds to death; the line clings to the river by dusk.' },
   { id: 'the-second-day', eyebrow: 'April 7', title: 'Buell Arrives', blurb: 'Fresh divisions cross the river overnight and the Union counterattacks, driving the Confederates back to Corinth.' },
   { id: 'the-reckoning', eyebrow: 'The cost & the meaning', title: 'The Bloodiest Day Yet', blurb: '~23,700 fall in two days. The short-war illusion dies in the West; Grant is blamed, then vindicated.' },
@@ -128,7 +128,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · the war turns total</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          A Confederate surprise nearly destroyed Grant’s army on the first day, but the line held by the river at nightfall, and fresh troops under Buell turned the second day into a counterattack that drove the enemy back to Corinth. The cost stunned the country: more men fell in two days than in all the war’s earlier battles combined, killing forever the idea of a short, bloodless war in the West. Grant, blamed and nearly relieved, survived — to take Vicksburg the next year and, in the end, the whole Confederacy.
+          A Confederate surprise nearly destroyed Grant’s army on the first day, but the line held by the river at nightfall, and fresh troops under Buell turned the second day into a counterattack that drove the enemy back to Corinth. The cost stunned the country: more men fell in two days than in all the war’s earlier battles combined, killing forever the idea of a short, bloodless war in the West. Grant, blamed and nearly relieved, survived to take Vicksburg the next year and, in the end, the whole Confederacy.
         </p>
       </div>
     </div>
@@ -137,18 +137,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

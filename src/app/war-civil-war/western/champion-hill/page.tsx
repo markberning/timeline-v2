@@ -14,24 +14,24 @@ const CRUMBS = civilWarCrumbs({ theatre: 'west', battleId: 'w-championhill' })
 
 const HERO_IMG = '/war-img/champion-hill-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Tennessee', size: '~32,000 troops', commander: 'Grant', note: 'Bigger on paper — but two of three corps barely fought; the day was a near-even fight.', color: ACCENTS.blue },
+  { side: 'Union', label: 'Army of the Tennessee', size: '~32,000 troops', commander: 'Grant', note: 'Bigger on paper, but two of three corps barely fought; the day was a near-even fight.', color: ACCENTS.blue },
   { side: 'Confederacy', label: 'Army of Mississippi', size: '~22,000–23,000 troops', commander: 'Pemberton', note: 'Strung along a ridge under contradictory orders; lost the hill, the road, and a whole division.', color: ACCENTS.rust },
 ]
 const CAS = { union: 2457, csa: 3840 }
 const FIGURES = [
-  { name: 'U. S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg' },
-  { name: 'J. B. McPherson', role: 'XVII Corps, Union', side: 'U', img: '/war-img/cmdr/mcpherson.jpg' },
-  { name: 'A. P. Hovey', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/hovey.jpg' },
-  { name: 'J. A. Logan', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/logan.jpg' },
-  { name: 'J. C. Pemberton', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/pemberton.jpg' },
-  { name: 'J. S. Bowen', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/bowen.jpg' },
-  { name: 'W. W. Loring', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/loring.jpg' },
+  { name: 'Ulysses S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg', blurb: 'Loose in the interior of Mississippi with his supply line cut, Grant reached the field around ten in the morning and aimed his blow at the exposed northern flank up the Jackson Road, where the road home ran. He won the day with barely half his army, two of his three corps hardly firing a shot, and broke Pemberton in the open before the siege of Vicksburg ever began.' },
+  { name: 'James B. McPherson', role: 'XVII Corps, Union', side: 'U', img: '/war-img/cmdr/mcpherson.jpg', blurb: 'McPherson commanded the XVII Corps and took tactical charge of the main attack, swinging Logan’s division up onto the right to turn Stevenson’s flank. His corps and Hovey’s lone division did almost all of the Union fighting on a day the other two corps stood nearly idle.' },
+  { name: 'Alvin P. Hovey', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/hovey.jpg', blurb: 'Hovey’s division led the climb up the Jackson Road and carried the bald crest around one o’clock, then was thrown back down it by Bowen’s counterattack before reserves restored the ground. His men paid the heaviest price of the day, and Hovey gave the place the name that stuck: the hill of death.' },
+  { name: 'John A. Logan', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/logan.jpg', blurb: 'Logan’s division pushed up the northern line and helped break Stevenson’s left, then planted itself squarely across the Jackson Road. Without quite realizing it at the time, his men had blocked the Confederate army’s one direct road to its crossing over Baker’s Creek, which would cut off a whole enemy division by nightfall.' },
+  { name: 'John C. Pemberton', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/pemberton.jpg', blurb: 'Caught between contradictory orders to hold Vicksburg and to strike Grant’s supply line, Pemberton marched his army into the open and strung it along the ridge at Champion Hill. He lost the crest, the crossroads, and his best road home, and fell back into Vicksburg a full division short to stand the siege that ended the campaign.' },
+  { name: 'John S. Bowen', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/bowen.jpg', blurb: 'Bowen led the finest division in Pemberton’s army, Missourians and Arkansans, in a savage counterattack that retook the crest and the crossroads and drove the Federals nearly to the Champion house. He had too few men to hold what he had won, and Grant’s fresh reserve took the ground back for good.' },
+  { name: 'William W. Loring', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/loring.jpg', blurb: 'Loring held the southern end of the line and refused Pemberton’s repeated orders to march north and shore up the collapsing left, then moved far too late to matter. Cut off from the last bridge in the retreat, he marched his whole division clear around the Union army to join Johnston, and never reached Vicksburg at all.' },
 ]
 const SECTIONS = [
-  { id: 'the-crossroads-hill', eyebrow: 'Champion Hill · The hinge', title: 'The Hill That Held the Road Home', blurb: 'Grant (North) turns west toward Vicksburg; Pemberton (South) waits on a ridge covering three roads — and one bald crest commands them all.' },
-  { id: 'the-jackson-road', eyebrow: 'Champion Hill · The blow falls', title: 'Up the Jackson Road, Onto the Crest', blurb: 'Grant lands the blow on the exposed flank; Hovey (North) and Logan (North) carry the crest by one o’clock — Hovey’s men call it the hill of death.' },
-  { id: 'the-hill-changes-hands', eyebrow: 'Champion Hill · The counterattack', title: 'Bowen’s Charge and the Crest Retaken', blurb: 'Bowen (South) throws the South’s best division back up the slope and retakes the hill — until Grant’s reserve under Crocker (North) takes it for good.' },
-  { id: 'the-lost-division', eyebrow: 'Champion Hill · The doom of the city', title: 'Across Baker’s Creek, and the Division Lost Forever', blurb: 'Pemberton (South) escapes over one bridge — but Loring’s (South) whole division is cut off and marches out of the war, dooming Vicksburg.' },
+  { id: 'the-crossroads-hill', eyebrow: 'Champion Hill · The hinge', title: 'The Hill That Held the Road Home', blurb: 'Grant turns west toward Vicksburg; Pemberton (South) waits on a ridge covering three roads, and one bald crest commands them all.' },
+  { id: 'the-jackson-road', eyebrow: 'Champion Hill · The blow falls', title: 'Up the Jackson Road, Onto the Crest', blurb: 'Grant lands the blow on the exposed flank; Hovey (North) and Logan (North) carry the crest by one o’clock, and Hovey’s men call it the hill of death.' },
+  { id: 'the-hill-changes-hands', eyebrow: 'Champion Hill · The counterattack', title: 'Bowen’s Charge and the Crest Retaken', blurb: 'Bowen (South) throws the South’s best division back up the slope and retakes the hill, until Grant’s reserve under Crocker (North) takes it for good.' },
+  { id: 'the-lost-division', eyebrow: 'Champion Hill · The doom of the city', title: 'Across Baker’s Creek, and the Division Lost Forever', blurb: 'Pemberton (South) escapes over one bridge, but Loring’s (South) whole division is cut off and marches out of the war, dooming Vicksburg.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'the-crossroads-hill': '/war-img/champion-hill-overview.png',
@@ -128,7 +128,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Decisive Union victory · the day that doomed Vicksburg</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Grant beat Pemberton in the open in a near-even fight, landing his blow on the exposed Jackson-Road flank, carrying the seventy-five-foot crest by one o’clock, losing it to Bowen’s savage counterattack, and taking it back for good with his reserve. With his only good escape road cut, Pemberton fell back toward Vicksburg — and an entire Confederate division under Loring, unable to reach the last bridge, marched out of the war without a battle to show for it. The siege and the July 4 surrender followed within weeks. Champion Hill is the battle where the campaign to split the slaveholders’ republic in half was actually decided.
+          Grant beat Pemberton in the open in a near-even fight, landing his blow on the exposed Jackson-Road flank, carrying the seventy-five-foot crest by one o’clock, losing it to Bowen’s savage counterattack, and taking it back for good with his reserve. With his only good escape road cut, Pemberton fell back toward Vicksburg, and an entire Confederate division under Loring, unable to reach the last bridge, marched out of the war without a battle to show for it. The siege and the July 4 surrender followed within weeks. Champion Hill is the battle where the campaign to split the slaveholders’ republic in half was actually decided.
         </p>
       </div>
     </div>
@@ -143,18 +143,23 @@ function FigureImg({ src }: { src: string }) {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 <FigureImg src={f.img} />
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

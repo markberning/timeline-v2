@@ -15,23 +15,23 @@ const CRUMBS = civilWarCrumbs({ theatre: 'west', battleId: 'w-franklin' })
 
 const HERO_IMG = '/war-img/franklin-hero.jpg'
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Ohio', size: '~27,000 troops', commander: 'Schofield', note: 'Dug in behind a strong arc of works, its back to the Harpeth River.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Tennessee', size: '~27,000 troops', commander: 'Hood', note: 'Sent ~20,000 men across two miles of open ground in a doomed frontal charge.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Army of the Ohio', size: '~27,000 troops', commander: 'Maj. Gen. John M. Schofield', note: 'Dug in behind a strong arc of works, its back to the Harpeth River.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of Tennessee', size: '~27,000 troops', commander: 'Lt. Gen. John Bell Hood', note: 'Sent ~20,000 men across two miles of open ground in a frontal charge.', color: ACCENTS.rust },
 ]
 const CAS = { union: 2326, csa: 6252 }
 const FIGURES = [
-  { name: 'J. M. Schofield', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/schofield.jpg' },
-  { name: 'E. Opdycke', role: 'Brigade, Union', side: 'U', img: '/war-img/cmdr/opdycke.jpg' },
-  { name: 'J. B. Hood', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/hood.jpg' },
-  { name: 'P. R. Cleburne', role: 'Div., CSA †', side: 'C', img: '/war-img/cmdr/cleburne.jpg' },
-  { name: 'N. B. Forrest', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/forrest.jpg' },
-  { name: 'B. F. Cheatham', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/cheatham.jpg' },
+  { name: 'John M. Schofield', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/schofield.jpg', blurb: 'Schofield slipped his whole army past Hood’s in the dark at Spring Hill, then reached Franklin and threw up a strong arc of works with the Harpeth River at his back. He held the line through five hours of assault, got his wagon trains across the river, and withdrew to Nashville after dark, exactly as he had planned.' },
+  { name: 'Emerson Opdycke', role: 'Brigade, Union', side: 'U', img: '/war-img/cmdr/opdycke.jpg', blurb: 'Opdycke had flatly refused to post his brigade out on the exposed forward line, holding it in reserve about two hundred yards behind the Carter House instead. When the Confederates broke through the gap at the Columbia Pike, his men were exactly where they were needed, and his counterattack sealed the one breach in the Union line.' },
+  { name: 'John Bell Hood', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/hood.jpg', blurb: 'Hood marched the Army of Tennessee north on a gamble to reverse the loss of Atlanta, trapped Schofield at Spring Hill, then let him escape in the night. The next afternoon at Franklin he ordered some twenty thousand men across two miles of open ground into fortified works, with almost no artillery, over the objections of his own generals.' },
+  { name: 'Patrick R. Cleburne', role: 'Div., CSA †', side: 'C', img: '/war-img/cmdr/cleburne.jpg', blurb: 'Cleburne, the army’s most respected combat general, drove his division through the gap at the Columbia Pike and into the Carter House yard in the day’s deepest penetration. He was killed on foot after his horse was shot, somewhere in front of the cotton gin; eleven months earlier he had proposed freeing and arming enslaved men, and his own government buried the idea.' },
+  { name: 'Nathan Bedford Forrest', role: 'Cavalry, CSA', side: 'C', img: '/war-img/cmdr/forrest.jpg', blurb: 'Forrest had found a crossing of the Harpeth and argued for a flanking move to turn Schofield out of his works rather than charge them head-on. Hood overruled him and ordered the frontal assault anyway.' },
+  { name: 'Benjamin F. Cheatham', role: 'Corps, CSA', side: 'C', img: '/war-img/cmdr/cheatham.jpg', blurb: 'Cheatham’s corps led the main assault on the Union center, the divisions of Cleburne and Brown driving for the Columbia Pike. He is reported to have warned Hood before the charge that he did not like the look of the well-fortified position, and was overruled.' },
 ]
 const SECTIONS = [
-  { id: 'spring-hill', eyebrow: 'November 29', title: 'The Night the Army Walked Past', blurb: 'Hood (South) traps Schofield (North) on the Columbia Pike at Spring Hill — then lets the whole Union army slip past in the dark.' },
+  { id: 'spring-hill', eyebrow: 'November 29', title: 'The Night the Army Walked Past', blurb: 'Hood (South) traps Schofield (North) on the Columbia Pike at Spring Hill, then lets the whole Union army slip past in the dark.' },
   { id: 'the-open-ground', eyebrow: 'November 30', title: 'Twenty Thousand Men, Two Miles, No Cover', blurb: 'Schofield (North) digs in with the Harpeth at his back; Hood (South) orders a frontal charge across two miles of open field, with almost no guns.' },
   { id: 'the-cotton-gin', eyebrow: 'The five hours', title: 'The Breach at the Carter House', blurb: 'A momentary break-in at the Columbia Pike is sealed by Opdycke (North); the Army of Tennessee bleeds to death at the cotton gin, losing six generals.' },
-  { id: 'what-it-cost', eyebrow: 'The reckoning', title: 'The Dead on the Porch', blurb: 'Four dead generals laid out at Carnton; Cleburne (South), who had proposed freeing the slaves, falls — and what the South would not give up.' },
+  { id: 'what-it-cost', eyebrow: 'The reckoning', title: 'The Dead on the Porch', blurb: 'Four dead generals laid out at Carnton; Cleburne (South), who had proposed freeing the slaves, falls, and what the South would not give up.' },
 ]
 const SECTION_IMG: Record<string, string> = {
   'spring-hill': '/war-img/cmdr/hood.jpg',
@@ -128,7 +128,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · the Army of Tennessee wrecks itself</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          After letting Schofield’s army slip past him at Spring Hill the night before, Hood ordered some twenty thousand men to charge two miles of open ground at dug-in Federals, with almost no artillery to clear the way. The line broke in for a moment at the Columbia Pike and was sealed shut by Opdycke’s counterattack; then the charge became a five-hour slaughter at the works. Hood lost roughly three times what Schofield did — and six generals — while failing to take the position. Schofield withdrew to Nashville as planned, where two weeks later Hood’s shattered army was destroyed outright.
+          After letting Schofield’s (North) army slip past him at Spring Hill the night before, Hood (South) ordered some twenty thousand men to charge two miles of open ground at dug-in Federals, with almost no artillery to clear the way. The line broke in for a moment at the Columbia Pike and was sealed shut by Opdycke’s (North) counterattack; then the charge became a five-hour slaughter at the works. Hood lost roughly three times what Schofield did, and six generals, while failing to take the position. Schofield withdrew to Nashville as planned, where two weeks later Hood’s shattered army was destroyed outright.
         </p>
       </div>
     </div>
@@ -137,18 +137,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}
