@@ -99,6 +99,7 @@ export function BattleSectionReader({
   // sticky-header subtitle: the section title, unless it just repeats the battle
   // name (single-section theme/military-story pages) — then show the eyebrow.
   const subtitle = n.title && n.title !== battleName ? n.title : (n.eyebrow ?? '')
+  const muted = (pct: number) => `color-mix(in srgb, var(--foreground) ${pct}%, transparent)`
   // single-page chapters (the 5 Military-Story chapters) have no within-page
   // "next section"; link to the next chapter in the CHAPTERS sequence instead.
   const chapterIdx = battleId ? CHAPTERS.findIndex(c => c.id === battleId) : -1
@@ -148,12 +149,20 @@ export function BattleSectionReader({
           <button aria-label="Back" onClick={() => history.back()} style={{ width: 32, height: 32, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', background: 'color-mix(in srgb, var(--foreground) 6%, transparent)', borderRadius: 999, color: 'var(--foreground)', cursor: 'pointer' }}>
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
           </button>
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: 9, flexWrap: 'wrap', minWidth: 0 }}>
-              <span style={{ fontFamily: SERIF, fontSize: 20, fontWeight: 600, lineHeight: 1.12, letterSpacing: '-0.3px', color: accent }}>{battleName}</span>
-              {dateLine && <span style={{ fontFamily: SERIF, fontSize: 20, fontWeight: 500, lineHeight: 1.12, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>{dateLine}</span>}
+          {/* Sticky header: accent bar at left, battle name on top, then a quiet meta
+              line — accent-colored italic subtitle · muted date. */}
+          <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'stretch', gap: 10 }}>
+            <div style={{ width: 3, borderRadius: 2, background: accent, flexShrink: 0 }} />
+            <div style={{ minWidth: 0, flex: 1 }}>
+              <div style={{ fontFamily: SERIF, fontSize: 21, fontWeight: 600, lineHeight: 1.1, letterSpacing: '-0.3px', color: 'var(--foreground)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{battleName}</div>
+              {(dateLine || subtitle) && (
+                <div style={{ fontFamily: SERIF, fontSize: 15, lineHeight: 1.3, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', marginTop: 2 }}>
+                  {subtitle && <span style={{ fontStyle: 'italic', color: accent }}>{subtitle}</span>}
+                  {dateLine && subtitle && <span style={{ color: muted(30) }}>{'   ·   '}</span>}
+                  {dateLine && <span style={{ fontFamily: SANS, fontSize: 11, fontWeight: 600, letterSpacing: 0.2, color: muted(50) }}>{dateLine}</span>}
+                </div>
+              )}
             </div>
-            {subtitle && <div style={{ fontFamily: SANS, fontSize: 17, lineHeight: 1.3, fontWeight: 500, color: 'color-mix(in srgb, var(--foreground) 82%, transparent)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', marginTop: 3 }}>{subtitle}</div>}
           </div>
         </div>
       </div>
@@ -251,6 +260,7 @@ export function BattleSectionReader({
       </div>
       {/* zoomable lightbox — pinch / double-tap / pan (shared with the civ + art readers); maps + photos are tap-to-zoom */}
       {lb && <Lightbox src={lb.src} alt="" caption={lb.cap} onClose={() => setLb(null)} />}
+
     </div>
   )
 }
