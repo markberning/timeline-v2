@@ -31,6 +31,7 @@ const WILDERNESS_NARR: Record<string, Narr> = {
 
 
 
+
       { h: 'Why a general would choose to fight in a place nobody could see', eyebrow: 'May 4' },
       { p: 'One thing to fix in your head first, because the rest of the story leans on it. By 1864 the United States had split in two and was three years into a civil war. Eleven southern states had seceded (broken away) and formed their own country, the Confederacy (called here “the South”), and they were fighting the states that stayed loyal to the old United States, the Union (“the North”). Officers in this story are tagged with the side they fought for: (North) for the Union, (South) for the Confederacy.' },
       { p: 'The Wilderness was not a place you would pick for a battle. It was a place you would pick to get lost in. A few miles west of Fredericksburg, Virginia, in Spotsylvania and Orange counties, the land went bad in a particular way: a dense, second-growth thicket of scrub oak, pine, and tangled underbrush so thick that a man could not see more than a few yards in any direction. Whole armies would disappear into it. The National Park Service has a phrase for what the fighting there became, “bushwhacking on a grand scale,” isolated little knife-fights between small clumps of men who could not find the rest of their own army, all of them “confused by the bewildering forest.”' },

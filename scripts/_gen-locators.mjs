@@ -103,7 +103,7 @@ function labelBoxes(x, y, placement, name, date, heavy) {
   const span = (w) => placement.anchor === 'end' ? [tx - w, tx] : placement.anchor === 'middle' ? [tx - w / 2, tx + w / 2] : [tx, tx + w]
   const box = (l, r, cy, f) => ({ left: l - 2, right: r + 2, top: cy - 0.82 * f - 1, bottom: cy + 0.25 * f + 1 })
   let w = name.length * charW(fs)
-  if (date) w += 9 + date.length * charW(12.5) // date drawn inline on the same line
+  if (date) w += 9 + date.length * charW(fs) // date drawn inline, same size as the title
   const [nl, nr] = span(w)
   return [box(nl, nr, ty, fs)]
 }

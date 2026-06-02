@@ -80,7 +80,7 @@ for (const file of FILES.sort()) {
     parts.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r}" fill="${col}"/>`)
     parts.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r + 3.5}" fill="none" stroke="${alpha(col, 0.25)}" stroke-width="2"/>`)
     if (name) {
-      const dtsp = date ? `<tspan dx="9" font-size="12.5" font-weight="600" fill="${alpha(col, 0.95)}">${esc(date)}</tspan>` : ''
+      const dtsp = date ? `<tspan dx="9" font-size="${heavy ? 17 : 14.5}" font-weight="600" fill="${alpha(col, 0.95)}">${esc(date)}</tspan>` : ''
       parts.push(`<text x="${tx.toFixed(1)}" y="${ty.toFixed(1)}" font-family="Menlo, monospace" text-anchor="${anchor}" stroke="${BG}" stroke-width="6" stroke-linejoin="round" paint-order="stroke"><tspan font-size="${heavy ? 17 : 14.5}" font-weight="${heavy ? 700 : 500}" fill="${FGc}">${esc(name)}</tspan>${dtsp}</text>`)
     }
   }

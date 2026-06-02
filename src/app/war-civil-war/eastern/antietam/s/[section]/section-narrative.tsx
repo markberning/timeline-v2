@@ -22,7 +22,7 @@ const ANTIETAM_NARR: Record<string, Narr> = {
       { locator: {
         eyebrow: 'Where and when · September 1862',
         caption: 'Sharpsburg sits in western Maryland, on Antietam Creek a few miles above the Potomac. Lee crossed into Maryland near Frederick, sent Jackson back across the river to take the Union garrison at Harpers Ferry, then pulled his scattered army together at Sharpsburg, a long day’s march north of Washington.',
-        frame: { lonMin: -78.6, lonMax: -76.2, latMin: 38.5, latMax: 39.9 },
+        frame: { lonMin: -79.1, lonMax: -76.2, latMin: 38.5, latMax: 39.9 },
         states: [
           { name: 'Maryland', tone: 'focus', label: 'MARYLAND', labelLon: -76.5, labelLat: 38.7 },
           { name: 'Virginia' }, { name: 'Pennsylvania' }, { name: 'West Virginia' },

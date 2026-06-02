@@ -20,10 +20,11 @@ const OPEQUON_NARR: Record<string, Narr> = {
           { name: 'West Virginia' }, { name: 'Maryland' }, { name: 'Pennsylvania' }, { name: 'Kentucky' },
         ],
         dots: [
-          { name: 'Third Winchester (Opequon)', date: 'Sep 19, 1864', lat: 39.18, lon: -78.17, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Third Winchester (Opequon)', date: 'Sep 19, 1864', lat: 39.18, lon: -78.17, heavy: true, anchor: 'start' },
           { name: 'Washington', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'start' },
         ],
       } },
+
 
 
 

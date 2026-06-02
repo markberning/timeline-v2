@@ -19,11 +19,12 @@ const CORINTH_NARR: Record<string, Narr> = {
           { name: 'Tennessee' }, { name: 'Alabama' }, { name: 'Arkansas' },
         ],
         dots: [
-          { name: 'Corinth', date: 'Oct 3–4, 1862', lat: 34.934, lon: -88.522, heavy: true, anchor: 'start' },
+          { name: 'Corinth', date: 'Oct 3–4, 1862', lat: 34.934, lon: -88.522, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Shiloh', lat: 35.147, lon: -88.335, color: '#8a8175', anchor: 'start' },
           { name: 'Memphis', lat: 35.149, lon: -90.048, color: '#8a8175', anchor: 'end' },
         ],
       } },
+
 
 
 

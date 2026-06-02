@@ -29,6 +29,7 @@ const MOBILE_BAY_NARR: Record<string, Narr> = {
 
 
 
+
       { p: 'By the summer of 1864, the Confederacy was a house with most of its doors nailed shut. The Union navy had spent three years choking off the Southern coast with a blockade, a wall of warships parked off an enemy’s harbors to stop anything from sailing in or out. The point of it was economic strangulation: keep cotton from getting out to be sold, and keep guns, medicine, and manufactured goods from getting in. By August 1864, the blockade had sealed nearly every important harbor on the Gulf of Mexico. Nearly.' },
       { p: 'The one big exception, east of the Mississippi River, was Mobile, Alabama. Mobile Bay was the last major Gulf port still in Confederate hands, and that made it the Gulf’s surviving hub for the blockade-runners, the fast, low-slung ships that made a living slipping through the Union wall in the dark, carrying cotton out and contraband cargo back in. As long as Mobile stayed open, the South had a working back door on the Gulf. Closing it would slam that door and tighten the noose one more notch.' },
       { p: 'The Confederacy fought to preserve and extend slavery, and the blockade-runners feeding through Mobile were the supply line of a republic built on enslaved labor. The door was a door for that.' },

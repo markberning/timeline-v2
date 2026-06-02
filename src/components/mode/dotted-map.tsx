@@ -126,7 +126,7 @@ export function DottedMap({
                 {d.name && (
                   <text x={tx} y={ty} fontFamily={MONO} textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={6} strokeLinejoin="round">
                     <tspan fontSize={d.heavy ? 17 : 14.5} fontWeight={d.heavy ? 700 : 500} fill="var(--foreground)">{d.name}</tspan>
-                    {d.date && <tspan dx={9} fontSize={12.5} fontWeight={600} fill={alpha(col, 0.95)}>{d.date}</tspan>}
+                    {d.date && <tspan dx={9} fontSize={d.heavy ? 17 : 14.5} fontWeight={600} fill={alpha(col, 0.95)}>{d.date}</tspan>}
                   </text>
                 )}
               </g>

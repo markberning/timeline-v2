@@ -30,6 +30,7 @@ const FRANKLIN_NARR: Record<string, Narr> = {
 
 
 
+
       { h: 'How Hood lost his prey before he ever fought for it', eyebrow: 'November 29' },
       { p: 'Why roughly twenty thousand men charged two miles of open field into a wall of dug-in guns at dusk begins the night before, on a road in the dark, where an entire Union army walked right past the Confederates who had come to trap it.' },
       { p: 'In September 1864, Atlanta fell to the Union army of Major General William T. Sherman. The Confederate Army of Tennessee, one of the South’s two great field armies, had failed to hold it, and its commander, Lieutenant General John Bell Hood (South), made a long shot dressed up as a strategy. Rather than chase Sherman (who was, in fact, about to turn the other way and march for the sea), Hood drove his army north, gambling that an invasion of Tennessee and a threat toward the Ohio River might pull Sherman back, rally a sagging cause, and win back ground the South had lost.' },

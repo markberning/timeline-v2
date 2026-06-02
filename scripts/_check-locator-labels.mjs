@@ -105,7 +105,7 @@ for (const file of FILES.sort()) {
       const ty = y + (dy ?? (date ? -2 : 5))
       const fs = heavy ? 17 : 14.5
       let w = name.length * charW(fs)
-      if (date) w += 9 + date.length * charW(12.5) // date drawn inline on the same line
+      if (date) w += 9 + date.length * charW(fs) // date drawn inline, same size as the title
       const left = anchor === 'end' ? tx - w : anchor === 'middle' ? tx - w / 2 : tx
       boxes.push({ left, right: left + w, top: ty - 0.82 * fs, bottom: ty + 0.25 * fs, text: name + (date ? ' ' + date : '') })
     }

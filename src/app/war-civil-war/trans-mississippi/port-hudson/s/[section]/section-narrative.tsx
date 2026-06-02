@@ -20,11 +20,12 @@ const PORT_HUDSON_NARR: Record<string, Narr> = {
           { name: 'Mississippi' }, { name: 'Arkansas' }, { name: 'Texas' },
         ],
         dots: [
-          { name: 'Port Hudson', date: 'May 22 – Jul 9, 1863', lat: 30.717, lon: -91.282, heavy: true, anchor: 'start' },
+          { name: 'Port Hudson', date: 'May 22 – Jul 9, 1863', lat: 30.717, lon: -91.282, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Baton Rouge', lat: 30.458, lon: -91.14, color: '#8a8175', anchor: 'start' },
           { name: 'Red River confluence', lat: 31.008, lon: -91.642, color: '#8a8175', anchor: 'middle', dy: -16 },
         ],
       } },
+
 
 
 
