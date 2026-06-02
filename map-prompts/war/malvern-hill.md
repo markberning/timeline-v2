@@ -14,6 +14,8 @@ Battle maps in the clean modern textbook style (Hal Jespersen / NPS look). Gener
 
 ---
 
+**LABEL PLACEMENT — applies to EVERY label on EVERY map (critical):** Each label, together with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides. NO label may touch, be clipped by, or run off any edge — pull every edge-hugging name inward toward open ground. No two labels may overlap or touch each other. When a label cannot sit in clear open space right beside the place or arrow it names without colliding with another label, an arrow, troop blocks, or the edge, move it to the nearest open area and draw a THIN GRAY LEADER LINE from the label to its dot/marker so the link stays obvious. River and water labels must be SOLID and STRONG (a deep, readable blue), never pale, faint, or washed-out; if blue-on-water would be low-contrast, set the river name on open ground beside the water with a halo instead.
+
 ## Map malvern-hill-retreat
 
 The Army of the Potomac's retreat from Richmond to Harrison's Landing, July 1862 — showing the full strategic arc the narrative traces in **the-retreat** and **richmond-saved**. A strategic map, north up.
@@ -22,6 +24,8 @@ Place a gray city block in the upper-left labeled **Richmond**. Draw the James R
 
 Six labels: Richmond, James R., Malvern Hill, Harrison's Landing, Lee. (The gunboats carry no label — keep total labeled elements at five so the crest labels on the companion map can carry more weight.)
 
+
+**LABEL PLACEMENT (round 3, HARD RULE — earlier draws clipped labels at the edges):** Compose the ENTIRE map — all terrain, water, arrows, dots, AND every label — within the central 82% of the canvas, leaving a blank parchment margin around all four edges that NOTHING enters. No label, box, or halo may touch or cross into that outer margin band. Print every place name and every commander name EXACTLY ONCE — never repeat any label anywhere on the map. Where a feature sits toward the edge of the scene, set its label INWARD toward the center and join it to the feature with a thin gray leader line. No two labels may overlap or touch.
 ## Map malvern-hill
 
 July 1, 1862 — the tactical battle: Union guns on the crest of Malvern Hill break every Confederate uphill assault. Serves **it-was-murder**. A close-in tactical map, north up.

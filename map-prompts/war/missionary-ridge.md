@@ -14,6 +14,8 @@ Battle maps in the clean modern textbook style (Hal Jespersen / NPS look). Gener
 
 ---
 
+**LABEL PLACEMENT — applies to EVERY label on EVERY map (critical):** Each label, together with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides. NO label may touch, be clipped by, or run off any edge — pull every edge-hugging name inward toward open ground. No two labels may overlap or touch each other. When a label cannot sit in clear open space right beside the place or arrow it names without colliding with another label, an arrow, troop blocks, or the edge, move it to the nearest open area and draw a THIN GRAY LEADER LINE from the label to its dot/marker so the link stays obvious. River and water labels must be SOLID and STRONG (a deep, readable blue), never pale, faint, or washed-out; if blue-on-water would be low-contrast, set the river name on open ground beside the water with a halo instead.
+
 ## Map missionary-ridge-overview
 
 Late November 1863 — the ground at Chattanooga: the trapped Union city in the west, the long Confederate ridge to the east, and the two flanks where Grant means to win. A strategic overview, north up.
@@ -22,6 +24,8 @@ Draw the Tennessee River as a flat light-blue band curling across the upper-LEFT
 
 Six labels only: Chattanooga, Missionary Ridge, Orchard Knob, Tunnel Hill, Rossville Gap.
 
+
+**LABEL PLACEMENT (round 3, HARD RULE — earlier draws clipped labels at the edges):** Compose the ENTIRE map — all terrain, water, arrows, dots, AND every label — within the central 82% of the canvas, leaving a blank parchment margin around all four edges that NOTHING enters. No label, box, or halo may touch or cross into that outer margin band. Print every place name and every commander name EXACTLY ONCE — never repeat any label anywhere on the map. Where a feature sits toward the edge of the scene, set its label INWARD toward the center and join it to the feature with a thin gray leader line. No two labels may overlap or touch. Render "Tennessee River" in solid strong blue.
 ## Map missionary-ridge
 
 November 25, 1863 — the Army of the Cumberland charges from Orchard Knob, overruns the rifle pits at the base, then surges spontaneously straight up the slope and breaks Bragg's center on the crest. The decisive center assault, north up.

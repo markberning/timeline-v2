@@ -14,6 +14,8 @@ Battle maps in the clean modern textbook style (Hal Jespersen / NPS look). Gener
 
 ---
 
+**LABEL PLACEMENT — applies to EVERY label on EVERY map (critical):** Each label, together with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides. NO label may touch, be clipped by, or run off any edge — pull every edge-hugging name inward toward open ground. No two labels may overlap or touch each other. When a label cannot sit in clear open space right beside the place or arrow it names without colliding with another label, an arrow, troop blocks, or the edge, move it to the nearest open area and draw a THIN GRAY LEADER LINE from the label to its dot/marker so the link stays obvious. River and water labels must be SOLID and STRONG (a deep, readable blue), never pale, faint, or washed-out; if blue-on-water would be low-contrast, set the river name on open ground beside the water with a halo instead.
+
 ## Map gaines-mill-sevendays
 
 June 26–27, 1862 — Lee's plan: crush Porter's isolated corps north of the Chickahominy before McClellan realizes the Confederate force south of the river is a bluff. A strategic overview, north up.
@@ -22,6 +24,8 @@ Place a gray city block in the lower-LEFT corner labeled "Richmond". Draw the Ch
 
 Six labels only: Richmond, Chickahominy R., Mechanicsville, Porter, Lee, Grapevine Bridge.
 
+
+**LABEL PLACEMENT (text-readability sweep 2026-06-01):** Every label, with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides — none may touch, be clipped by, or run off any edge. Render "Chickahominy R." in SOLID strong blue (not pale or faint), set beside the water on open pale ground with a halo so it reads cleanly. No two labels may overlap or touch.
 ## Map gaines-mill
 
 June 27, 1862 — The battle: Porter's three-tier defense behind Boatswain's Swamp holds all afternoon until Hood's Texas Brigade punches through at dusk. A tactical map, north up.

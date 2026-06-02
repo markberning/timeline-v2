@@ -14,6 +14,8 @@ Battle maps in the clean modern textbook style (Hal Jespersen / NPS look). Gener
 
 ---
 
+**LABEL PLACEMENT — applies to EVERY label on EVERY map (critical):** Each label, together with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides. NO label may touch, be clipped by, or run off any edge — pull every edge-hugging name inward toward open ground. No two labels may overlap or touch each other. When a label cannot sit in clear open space right beside the place or arrow it names without colliding with another label, an arrow, troop blocks, or the edge, move it to the nearest open area and draw a THIN GRAY LEADER LINE from the label to its dot/marker so the link stays obvious. River and water labels must be SOLID and STRONG (a deep, readable blue), never pale, faint, or washed-out; if blue-on-water would be low-contrast, set the river name on open ground beside the water with a halo instead.
+
 ## Map champion-hill-overview
 
 May 16, 1863 — the ground that decided the Vicksburg campaign: a crossroads on the road home, wedged between Grant's army coming from Jackson in the east and the fortress of Vicksburg in the west. The orientation map, north up.
@@ -24,6 +26,8 @@ Show no fighting yet — this is the lay of the land. Keep the three roads clear
 
 Six labels only: Jackson, Vicksburg, Champion Hill, Bakers Creek, Jackson Road, Raymond Road.
 
+
+**LABEL PLACEMENT (text-readability sweep 2026-06-01):** Every label, with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides — none may touch, be clipped by, or run off any edge. These labels currently touch or run off an edge and MUST be pulled inward with a clear margin (use a thin gray leader line to their dots if that is the only way to keep them clear): Vicksburg. No two labels may overlap or touch.
 ## Map champion-hill
 
 Midday, May 16, 1863 — the hill of death: Hovey's blue assault carries the crest from the north, Bowen's rust counterattack retakes it, and the ground changes hands several times in a few savage hours. A zoomed-in view of the crest, north up.

@@ -14,6 +14,8 @@ Battle maps in the clean modern textbook style (Hal Jespersen / NPS look). Gener
 
 ---
 
+**LABEL PLACEMENT — applies to EVERY label on EVERY map (critical):** Each label, together with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides. NO label may touch, be clipped by, or run off any edge — pull every edge-hugging name inward toward open ground. No two labels may overlap or touch each other. When a label cannot sit in clear open space right beside the place or arrow it names without colliding with another label, an arrow, troop blocks, or the edge, move it to the nearest open area and draw a THIN GRAY LEADER LINE from the label to its dot/marker so the link stays obvious. River and water labels must be SOLID and STRONG (a deep, readable blue), never pale, faint, or washed-out; if blue-on-water would be low-contrast, set the river name on open ground beside the water with a halo instead.
+
 ## Map crater-overview
 
 The siege setting outside Petersburg, summer 1864 — the two trench lines locked together only about 100 yards apart, the coal miners' mine driven under the Confederate strongpoint, and the high ground waiting behind it. A setting overview, north up.
@@ -22,6 +24,8 @@ Run the two siege lines roughly north-to-south down the middle of the field, fac
 
 Six labels only: Elliott's Salient, the mine, Cemetery Hill, Jerusalem Plank Road, Petersburg.
 
+
+**LABEL PLACEMENT (round 3, HARD RULE — earlier draws clipped labels at the edges):** Compose the ENTIRE map — all terrain, water, arrows, dots, AND every label — within the central 82% of the canvas, leaving a blank parchment margin around all four edges that NOTHING enters. No label, box, or halo may touch or cross into that outer margin band. Print every place name and every commander name EXACTLY ONCE — never repeat any label anywhere on the map. Where a feature sits toward the edge of the scene, set its label INWARD toward the center and join it to the feature with a thin gray leader line. No two labels may overlap or touch.
 ## Map crater-the-assault
 
 Dawn, July 30, 1864 — the mine blows Elliott's Salient out of the earth and the Union assault piles down into the pit instead of going around it; the late USCT charge goes in behind, and Mahone's counterattack seals the gap. A tactical overview, north up.

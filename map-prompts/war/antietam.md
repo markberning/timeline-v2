@@ -19,6 +19,8 @@ copied from `wilsons-creek.md` rule 4, 2026-06-01).
 
 ---
 
+**LABEL PLACEMENT — applies to EVERY label on EVERY map (critical):** Each label, together with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides. NO label may touch, be clipped by, or run off any edge — pull every edge-hugging name inward toward open ground. No two labels may overlap or touch each other. When a label cannot sit in clear open space right beside the place or arrow it names without colliding with another label, an arrow, troop blocks, or the edge, move it to the nearest open area and draw a THIN GRAY LEADER LINE from the label to its dot/marker so the link stays obvious. River and water labels must be SOLID and STRONG (a deep, readable blue), never pale, faint, or washed-out; if blue-on-water would be low-contrast, set the river name on open ground beside the water with a halo instead.
+
 ## Map antietam-campaign
 
 September 1862 — Lee's first invasion of the North, the Maryland Campaign. A wide operational march map (not a battlefield close-up).
@@ -37,6 +39,8 @@ Movements (three arrows, each clearly labeled):
 
 This operational map carries EIGHT labels (more than the usual six is allowed here) — keep each one BIG, bold, and spread over open pale ground: Potomac, Harpers Ferry, South Mountain, Frederick, Sharpsburg, Lee, Jackson, McClellan. Nothing else.
 
+
+**LABEL PLACEMENT (round 3, HARD RULE — earlier draws clipped labels at the edges):** Compose the ENTIRE map — all terrain, water, arrows, dots, AND every label — within the central 82% of the canvas, leaving a blank parchment margin around all four edges that NOTHING enters. No label, box, or halo may touch or cross into that outer margin band. Print every place name and every commander name EXACTLY ONCE — never repeat any label anywhere on the map. Where a feature sits toward the edge of the scene, set its label INWARD toward the center and join it to the feature with a thin gray leader line. No two labels may overlap or touch.
 ## Map antietam-cornfield
 
 Dawn, September 17, 1862 — the morning fight at the north end of the field. A zoomed-in tactical view, NOT the whole battle.

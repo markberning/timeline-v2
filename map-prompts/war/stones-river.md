@@ -14,6 +14,8 @@ Battle maps in the clean modern textbook style (Hal Jespersen / NPS look). Gener
 
 ---
 
+**LABEL PLACEMENT — applies to EVERY label on EVERY map (critical):** Each label, together with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides. NO label may touch, be clipped by, or run off any edge — pull every edge-hugging name inward toward open ground. No two labels may overlap or touch each other. When a label cannot sit in clear open space right beside the place or arrow it names without colliding with another label, an arrow, troop blocks, or the edge, move it to the nearest open area and draw a THIN GRAY LEADER LINE from the label to its dot/marker so the link stays obvious. River and water labels must be SOLID and STRONG (a deep, readable blue), never pale, faint, or washed-out; if blue-on-water would be low-contrast, set the river name on open ground beside the water with a halo instead.
+
 ## Map stones-river-overview
 
 The two armies bed down astride Stones River west of Murfreesboro the night of December 30, 1862, while Wheeler's Confederate cavalry rides clear around the Union rear to wreck the supply line back to Nashville. A pre-battle strategic overview, north up.
@@ -22,6 +24,8 @@ Draw Stones River as a flat light-blue band running roughly south-to-north up th
 
 Six labels only: Stones River, Murfreesboro, Nashville Pike, Nashville & Chattanooga Railroad, LaVergne, Wheeler.
 
+
+**LABEL PLACEMENT (text-readability sweep 2026-06-01):** Every label, with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides — none may touch, be clipped by, or run off any edge. These labels currently touch or run off an edge and MUST be pulled inward with a clear margin (use a thin gray leader line to their dots if that is the only way to keep them clear): Nashville & Chattanooga Railroad; Wheeler. Render "Stones River" in SOLID strong blue (not pale or faint), set beside the water on open pale ground with a halo so it reads cleanly. No two labels may overlap or touch.
 ## Map stones-river
 
 Dawn, December 31, 1862 — Bragg's surprise attack out of the cedars wheels the Union right back three miles like a closing jackknife, until Sheridan's stand and the Round Forest near the pike bend the line into an L that will not break. A day-one tactical overview, north up.

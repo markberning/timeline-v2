@@ -14,6 +14,8 @@ Battle maps in the clean modern textbook style (Hal Jespersen / NPS look). Gener
 
 ---
 
+**LABEL PLACEMENT — applies to EVERY label on EVERY map (critical):** Each label, together with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides. NO label may touch, be clipped by, or run off any edge — pull every edge-hugging name inward toward open ground. No two labels may overlap or touch each other. When a label cannot sit in clear open space right beside the place or arrow it names without colliding with another label, an arrow, troop blocks, or the edge, move it to the nearest open area and draw a THIN GRAY LEADER LINE from the label to its dot/marker so the link stays obvious. River and water labels must be SOLID and STRONG (a deep, readable blue), never pale, faint, or washed-out; if blue-on-water would be low-contrast, set the river name on open ground beside the water with a halo instead.
+
 ## Map corinth-overview
 
 The strategic setting, October 1862 — why one small Mississippi town was worth two armies: the crossing of two great railroads, ringed by lines of field fortifications. A setting overview, north up.
@@ -22,6 +24,8 @@ Center the map on a small gray town block labeled "Corinth", with a tiny gray de
 
 Six labels only: Corinth, Mobile & Ohio RR, Memphis & Charleston RR, Old outer works, Inner battery line, Chewalla.
 
+
+**LABEL PLACEMENT (text-readability sweep 2026-06-01):** Every label, with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides — none may touch, be clipped by, or run off any edge. These labels currently touch or run off an edge and MUST be pulled inward with a clear margin (use a thin gray leader line to their dots if that is the only way to keep them clear): Memphis & Charleston RR. No two labels may overlap or touch.
 ## Map corinth
 
 October 3–4, 1862 — Van Dorn drives in from the northwest down the Chewalla Road, breaks through the old outer works, then bleeds out on October 4 against the inner battery line at Battery Robinett before retreating west. A two-day tactical overview, north up.

@@ -11,6 +11,8 @@
 
 ---
 
+**LABEL PLACEMENT — applies to EVERY label on EVERY map (critical):** Each label, together with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides. NO label may touch, be clipped by, or run off any edge — pull every edge-hugging name inward toward open ground. No two labels may overlap or touch each other. When a label cannot sit in clear open space right beside the place or arrow it names without colliding with another label, an arrow, troop blocks, or the edge, move it to the nearest open area and draw a THIN GRAY LEADER LINE from the label to its dot/marker so the link stays obvious. River and water labels must be SOLID and STRONG (a deep, readable blue), never pale, faint, or washed-out; if blue-on-water would be low-contrast, set the river name on open ground beside the water with a halo instead.
+
 ## Map third-petersburg-breakthrough
 
 Before dawn, Sunday April 2, 1865 — the Sixth Corps wedge smashes through the Confederate line southwest of Petersburg while the rest of the Union army hits the works at once. A zoomed-in tactical view of the assault, NOT the whole siege.
@@ -28,6 +30,8 @@ Movements (three blue arrows, each attributed to the commander who led it):
 
 This map carries SEVEN labels (more than the usual six is allowed here, stated per rule 4) — keep each BIG, bold, and over open pale ground: Petersburg, Appomattox River, Fort Fisher, Fort Mahone, Wright, Parke, Humphreys. Print the label "Fort Mahone" EXACTLY ONCE (beside its fort block only); do not repeat any label. Nothing else.
 
+
+**LABEL PLACEMENT (text-readability sweep 2026-06-01):** Every label, with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides — none may touch, be clipped by, or run off any edge. These labels currently touch or run off an edge and MUST be pulled inward with a clear margin (use a thin gray leader line to their dots if that is the only way to keep them clear): Humphreys; Fort Mahone. Render "Appomattox River" in SOLID strong blue (not pale or faint), set beside the water on open pale ground with a halo so it reads cleanly. No two labels may overlap or touch.
 ## Map third-petersburg-fort-gregg
 
 Early afternoon, April 2, 1865 — Gibbon's corps storms the last two forts covering the town while the Sixth Corps wheels to cut the South Side Railroad. A zoomed-in tactical view, NOT the whole battle.

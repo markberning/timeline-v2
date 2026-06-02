@@ -14,6 +14,8 @@ Battle maps in the clean modern textbook style (Hal Jespersen / NPS look). Gener
 
 ---
 
+**LABEL PLACEMENT — applies to EVERY label on EVERY map (critical):** Each label, together with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides. NO label may touch, be clipped by, or run off any edge — pull every edge-hugging name inward toward open ground. No two labels may overlap or touch each other. When a label cannot sit in clear open space right beside the place or arrow it names without colliding with another label, an arrow, troop blocks, or the edge, move it to the nearest open area and draw a THIN GRAY LEADER LINE from the label to its dot/marker so the link stays obvious. River and water labels must be SOLID and STRONG (a deep, readable blue), never pale, faint, or washed-out; if blue-on-water would be low-contrast, set the river name on open ground beside the water with a halo instead.
+
 ## Map wilsons-creek-campaign
 
 The Missouri campaign, summer 1861 — a STRATEGIC statewide overview (not a battle close-up), north up. Lyon chases Missouri's secessionist government across the state into the far southwest; a second Union column under Sigel swings down through the southwest and is bloodied at Carthage; the Confederates gather to meet them at Wilson's Creek. The map is statewide and spacious, so spread the labels out and keep every one big and bold.
@@ -24,6 +26,8 @@ Draw Lyon's march as one bold BLUE arrow that starts at the right edge near the 
 
 Eight labels: Jefferson City, Boonville, Springfield, Wilson's Creek, Carthage, Lyon, Sigel, McCulloch. No others, and print no color words. Keep them big, bold, upright, and well-separated so none crowd or overlap. Label the arrows ("Lyon", "Sigel", "McCulloch") the same way as the towns: solid filled dark text with only a thin cream halo, no white box behind any label.
 
+
+**LABEL PLACEMENT (round 2, critical — this map STILL clipped labels at an edge):** EVERY label and its box/halo must sit fully inside the frame with a wide clear margin on all four sides; NONE may touch or run off any edge. Place "McCulloch" well ABOVE the bottom edge, beside the lower part of its red arrow with a wide clear margin below the text — do NOT let the letters touch the bottom border. No two labels may overlap or touch. A leader line is a thin gray line, nothing more.
 ## Map wilsons-creek-plan
 
 The night march, August 9–10, 1861 — Lyon splits his small army outside Springfield and sends the halves on a converging dawn attack. A strategic overview, north up.

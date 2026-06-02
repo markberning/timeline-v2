@@ -25,6 +25,8 @@ crossing, with arrows attributed to the commander who actually led each move.
 
 ---
 
+**LABEL PLACEMENT — applies to EVERY label on EVERY map (critical):** Each label, together with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides. NO label may touch, be clipped by, or run off any edge — pull every edge-hugging name inward toward open ground. No two labels may overlap or touch each other. When a label cannot sit in clear open space right beside the place or arrow it names without colliding with another label, an arrow, troop blocks, or the edge, move it to the nearest open area and draw a THIN GRAY LEADER LINE from the label to its dot/marker so the link stays obvious. River and water labels must be SOLID and STRONG (a deep, readable blue), never pale, faint, or washed-out; if blue-on-water would be low-contrast, set the river name on open ground beside the water with a halo instead.
+
 ## Map westport-the-squeeze
 
 October 22, 1864 — the night before the battle. An operational view of the trap closing: Price's Army of Missouri caught in the angle between two rivers, with Curtis planted across its path to the west and Pleasonton driving its rear from the east. Shelby has just forced the Big Blue River crossing at Byram's Ford. NOT a battlefield close-up.
@@ -42,6 +44,8 @@ Movements (three arrows, each attributed to the commander who led it):
 
 EIGHT labels (more than the usual six is allowed here): Missouri River, Big Blue River, Byram's Ford, Kansas City, Westport, Independence, Shelby, Pleasonton, Curtis — that is NINE; keep all nine BIG, bold, and spread over open pale ground. Nothing else.
 
+
+**LABEL PLACEMENT (text-readability sweep 2026-06-01):** Every label, with its box/halo, must sit FULLY INSIDE the frame with a clear margin on all four sides — none may touch, be clipped by, or run off any edge. These labels currently touch or run off an edge and MUST be pulled inward with a clear margin (use a thin gray leader line to their dots if that is the only way to keep them clear): Independence; Pleasonton; Big Blue River. No two labels may overlap or touch.
 ## Map westport-brush-creek
 
 Morning, October 23, 1864 — the main fight south of Westport along Brush Creek. The Union line on the high ground, Blunt's attack across the creek, Shelby's counterattack, and Curtis's flanking move up the hidden ravine. A zoomed-in tactical view, NOT the whole field.
