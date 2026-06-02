@@ -11,6 +11,23 @@ export const GAINES_MILL_NARR: Record<string, Narr> = {
     eyebrow: 'Gaines’ Mill · Lee Takes the Offensive',
     title: 'Lee Takes the Offensive',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.3, lonMax: -76.5, latMin: 37, latMax: 38.2 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77.8, labelLat: 38.1 },
+          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' }, { name: 'Pennsylvania' },
+        ],
+        dots: [
+          { name: 'Gaines\' Mill', date: 'Jun 27, 1862', lat: 37.57, lon: -77.29, heavy: true, anchor: 'start' },
+          { name: 'Richmond', lat: 37.5407, lon: -77.436, color: '#8a8175', anchor: 'end' },
+        ],
+      } },
+
+
+
+
+
       { p: 'In the last days of June 1862, the Confederate capital could hear the United States Army coming. Major General George B. McClellan, commanding the Army of the Potomac, had spent the spring creeping up the Virginia Peninsula (the long neck of land between the James and York Rivers, southeast of Richmond), and by late May his men were close enough to see the church spires of Richmond, roughly 5 to 6 miles (8 to 10 km) off. He had well over 100,000 men; some counts put the army at 105,000 or more. The Confederacy had a capital about to fall.' },
       { fig: '/war-img/gaines-mill-sevendays.png', cap: 'The Seven Days: Lee strikes Porter’s corps isolated north of the Chickahominy while a thin line screens Richmond', credit: 'Stuff Happened map' },
       { p: 'The man who decided not to let it fall had only just taken the job. At the Battle of Seven Pines (also called Fair Oaks) on May 31 and June 1, the Confederate commander, General Joseph E. Johnston (South), was badly wounded, and President Jefferson Davis handed the army to General Robert E. Lee. Lee renamed it the Army of Northern Virginia and did the math: he could not win a siege against a bigger, better-supplied army parked outside his capital. Sitting still meant losing slowly. So he chose the opposite of sitting still. Within weeks of taking command, he attacked.' },

@@ -11,6 +11,22 @@ const PEA_RIDGE_NARR: Record<string, Narr> = {
     eyebrow: 'Pea Ridge · The fight moves south',
     title: 'The Fight Moves South',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -94.9, lonMax: -92.6, latMin: 35.5, latMax: 37.6 },
+        states: [
+          { name: 'Arkansas', tone: 'focus', label: 'ARKANSAS', labelLon: -93.2, labelLat: 35.8 },
+          { name: 'Missouri' }, { name: 'Oklahoma' }, { name: 'Tennessee' }, { name: 'Mississippi' },
+        ],
+        dots: [
+          { name: 'Pea Ridge', date: 'Mar 7–8, 1862', lat: 36.45, lon: -94.03, heavy: true, anchor: 'end' },
+          { name: 'Fayetteville, AR', lat: 36.06, lon: -94.16, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Wilson\'s Creek', lat: 37.1, lon: -93.41, color: '#8a8175', anchor: 'middle', dy: -16 },
+        ],
+      } },
+
+
+
       { p: 'The Civil War was, at bottom, a war over slavery, and nowhere was that uglier or more tangled than in Missouri. (The Confederacy was the breakaway government formed by eleven Southern states that, starting in 1861, declared themselves an independent country no longer part of the United States, "leaving the Union," or seceding, in order to keep slavery legal. The United States, fighting to force them back, is called the Union, the Federal side, or just the North; all three names mean the same side.) Missouri was a border state (a slave state that sat on the line between North and South and had not left the Union), and it was the great prize of the West. It had a slave-owning population, a pro-Confederate governor who\'d been chased out, a rival rebel state government claiming to speak for it, and seats waiting in the Confederate Congress (the breakaway South\'s own parallel legislature in Richmond, Virginia). Whoever controlled Missouri controlled the upper Mississippi River, the great highway of the continent\'s interior, the supply artery running from the Midwest down to New Orleans; splitting the South\'s hold on it was one of the Union\'s central war aims. The fight that ended at a tavern in the Arkansas hills in March 1862 was the climax of a year-long struggle over a single question: would Missouri, a slave state on a knife\'s edge, be dragged into the slaveholders\' Confederacy.' },
       { p: 'The short answer, by the time it was over, was no. But getting to no cost a lot of men, and it came down to one of the strangest battles of the war.' },
       { h: 'A war that wouldn\'t end', eyebrow: 'After Wilson\'s Creek' },

@@ -11,6 +11,24 @@ const SECOND_BULL_RUN_NARR: Record<string, Narr> = {
     eyebrow: 'Second Bull Run · The second time on the same field',
     title: 'A New Army, an Old Battlefield',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.9, lonMax: -75.8, latMin: 36.9, latMax: 39.6 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.6, labelLat: 37.2 },
+          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Pennsylvania' }, { name: 'North Carolina' },
+        ],
+        dots: [
+          { name: 'Second Bull Run', date: 'Aug 28–30, 1862', lat: 38.812, lon: -77.524, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Washington, D.C.', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'start' },
+          { name: 'Rappahannock River', lat: 38.37, lon: -77.67, color: '#8a8175', anchor: 'end' },
+          { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'end' },
+        ],
+      } },
+
+
+
+
       { p: 'Just over a year before the events in this section, two armies of green amateurs had blundered into each other along a winding Virginia creek called Bull Run, and the first big battle of the Civil War ended with the United States Army running for Washington and a Confederate brigadier earning the nickname Stonewall. That was July 1861 (First Bull Run / First Manassas). Second Bull Run was fought on the same ground, the same creek, the same hills, in places the same fields, and a great many of the men who fought it were standing where they, or men just like them, had already bled the summer before.' },
       { p: 'What the whole war was for does not change here, though the battle itself will not stop to say it. The Confederate States, the eleven Southern states that had broken away from the United States, were fighting to preserve and extend slavery, the system that held millions of human beings as property and on which the Southern economy was built. The United States was fighting, at first, to put the Union back together. By the late summer of 1862 the war was turning into something larger: a war to end slavery. Second Bull Run sits on that hinge, because the outcome of these three days reached all the way into a document President Abraham Lincoln was, at that very moment, keeping locked in a drawer.' },
       { p: 'A quick word on how an army of this era was built, because the words for its parts will come up constantly. From the bottom: a regiment is a few hundred to a thousand men (the 5th New York you will meet later had about 500). A few regiments make a brigade (a few thousand). A few brigades make a division (roughly ten thousand). And a few divisions make a corps (tens of thousands), sometimes also called a wing when an army is split into big chunks. The rank ladder tracks the same way: a brigadier general typically leads a brigade; a major general sits above him over a division or corps; and a full general, Robert E. Lee’s rank, stands at the very top. Keep that nesting in mind and every troop movement below has a scale.', i: true },

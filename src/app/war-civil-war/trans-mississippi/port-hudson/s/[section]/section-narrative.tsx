@@ -12,6 +12,23 @@ const PORT_HUDSON_NARR: Record<string, Narr> = {
     eyebrow: 'Port Hudson · The river’s last lock',
     title: 'The Last Lock on the Mississippi',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -93.2, lonMax: -89.3, latMin: 29.5, latMax: 33.3 },
+        states: [
+          { name: 'Louisiana', tone: 'focus', label: 'LOUISIANA', labelLon: -92.1, labelLat: 32.8 },
+          { name: 'Mississippi' }, { name: 'Arkansas' }, { name: 'Texas' },
+        ],
+        dots: [
+          { name: 'Port Hudson', date: 'May 22 – Jul 9, 1863', lat: 30.717, lon: -91.282, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Baton Rouge', lat: 30.458, lon: -91.14, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Red River confluence', lat: 31.008, lon: -91.642, color: '#8a8175', anchor: 'end' },
+          { name: 'Vicksburg', lat: 32.352, lon: -90.878, color: '#8a8175', anchor: 'middle', dy: -16 },
+        ],
+      } },
+
+
+
       { p: 'The Civil War had split the country into two warring sides: the United States (the Union, the North, the government in Washington) and the eleven Southern states that had broken away to form the Confederacy, the South, fighting to keep the right to own enslaved human beings. By the spring of 1863 the Confederacy held exactly one stretch of the Mississippi River, and it was holding it with two clenched fists. The river runs north to south down the middle of the continent, and for two years it had been the great prize of the war in the West, the western half of the conflict, fought in the broad country between the Appalachian Mountains and the Mississippi, as opposed to the eastern theater around the two capitals. Whoever held the river could move armies and grain and gunboats up and down a thousand miles of water, and whoever lost it was cut in half. By that spring the Union had taken almost all of it. What was left to the South was a single ribbon of about 150 miles, and at each end of that ribbon sat a fortress on a bluff: Vicksburg upstream in Mississippi, and Port Hudson downstream in Louisiana, about 15 to 25 miles up the river from Baton Rouge. As long as both forts stood, that middle stretch stayed Confederate, and that mattered for one specific reason.' },
       { p: 'Halfway between the two forts, the Red River empties into the Mississippi from the west. The Red was the supply artery of the western Confederacy: cattle, food, and the resources of Texas, Arkansas, and western Louisiana floated down it and crossed the Mississippi to feed the armies fighting in the east. Hold Vicksburg and Port Hudson and you held that crossing open. Take them and the artery is severed: the western Confederacy is sawn off from the eastern, and the river runs Union from its source to the Gulf. The whole campaign in this corner of the war was a fight to close that last lock.' },
       { p: 'Why was Port Hudson so hard to take? Geography. The fort sat on an 80-foot bluff on the east bank, above a vicious hairpin bend in the river where the channel doubles back on itself in nearly a U-turn. The bend forced any steamboat coming through to slow almost to a stop, directly under the Confederate guns. By the spring of 1863 the defenders had dug in more than twenty heavy cannon, arranged in about a dozen batteries, along the bluff facing the water, and a boat creeping around that bend was a target that could barely move.' },

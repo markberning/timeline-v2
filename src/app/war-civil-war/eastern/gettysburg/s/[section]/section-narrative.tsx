@@ -30,7 +30,7 @@ interface Narr {
   progress: number
   from: Lineage[]
   to: Lineage[]
-  blocks: Block[]
+  blocks: unknown[]
   meanwhile?: { region: string; title: string; body: string }
 }
 
@@ -42,6 +42,21 @@ const GB_NARR: Record<string, Narr> = {
     from: [{ label: 'Eastern Theatre', mode: 'war' }, { label: 'Chancellorsville', mode: 'war' }],
     to: [{ label: 'McPherson’s Ridge', mode: 'war' }],
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.3, lonMax: -76.3, latMin: 39.3, latMax: 40.8 },
+        states: [
+          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -77.8, labelLat: 40.6 },
+          { name: 'Maryland' }, { name: 'Virginia' }, { name: 'West Virginia' }, { name: 'New Jersey' },
+        ],
+        dots: [
+          { name: 'Gettysburg', date: 'Jul 1–3, 1863', lat: 39.811, lon: -77.231, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Cashtown', lat: 39.836, lon: -77.363, color: '#8a8175', anchor: 'end' },
+          { name: 'Chambersburg', lat: 39.938, lon: -77.661, color: '#8a8175', anchor: 'end' },
+          { name: 'Harrisburg', lat: 40.273, lon: -76.886, color: '#8a8175', anchor: 'middle', dy: -16 },
+        ],
+      } },
+
       { h: 'Late spring, 1863', eyebrow: 'Setting' },
       { p: `In May of 1863, Robert E. Lee did something his army had never done. He decided to invade the United States.` },
       { p: `He was doing it from the high-water mark of his career. About a month earlier, at Chancellorsville in Virginia, Lee had attacked a Union army roughly twice the size of his own and beaten it badly. It was the kind of victory that makes a general feel briefly invincible and gets very dangerous ideas taken seriously. Instead of waiting in worn-out Virginia for the next blow to fall, Lee proposed marching the Army of Northern Virginia the other way: north, across the Potomac River, into Pennsylvania, onto Northern ground.` },
@@ -264,5 +279,5 @@ const GB_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={GB_NARR} id={id} slug="gettysburg" battleName="Gettysburg" theatreId="east" battleId="e-gettysburg" />
+  return <BattleSectionReader sections={GB_NARR as never} id={id} slug="gettysburg" battleName="Gettysburg" theatreId="east" battleId="e-gettysburg" />
 }

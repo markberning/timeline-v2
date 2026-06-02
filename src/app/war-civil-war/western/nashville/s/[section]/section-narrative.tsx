@@ -11,6 +11,23 @@ const NASHVILLE_NARR: Record<string, Narr> = {
     eyebrow: 'Nashville · An army too weak to attack, too proud to run',
     title: 'How Hood ended up parked outside a city he couldn’t take',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -87.5, lonMax: -85.7, latMin: 35.3, latMax: 36.6 },
+        states: [
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -86.2, labelLat: 36.4 },
+          { name: 'Kentucky' }, { name: 'Alabama' }, { name: 'Georgia' }, { name: 'Mississippi' },
+        ],
+        dots: [
+          { name: 'Nashville', date: 'Dec 15–16, 1864', lat: 36.1, lon: -86.78, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Franklin', lat: 35.925, lon: -86.869, color: '#8a8175', anchor: 'end' },
+          { name: 'Murfreesboro', lat: 35.846, lon: -86.39, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
+
+
+
+
       { p: 'By December of 1864 the Confederacy was a building already on fire, and most people on both sides could see it. Atlanta had fallen that September. Mobile Bay had been sealed shut in August, closing one of the last working ports. Abraham Lincoln had been re-elected in November, which killed any Confederate hope that the North would simply get tired and quit. And William T. Sherman was at that very moment cutting a path of destruction across Georgia toward the sea. The war in the East was grinding toward its end around Richmond. The war in the West, for all practical purposes, came down to one last Confederate field army and what it would do.' },
       { p: 'That army was the Army of Tennessee, the Confederacy’s main fighting force in the western half of the war, a force that had been beaten and rebuilt and beaten again across two years of campaigning. Its commander, Lieutenant General John Bell Hood (South), was a fighter to the point of self-destruction. Rather than sit still while Sherman burned Georgia, Hood had gambled on the boldest move left to him: swing north, invade Tennessee, threaten to drive all the way to the Ohio River, and force the Union to come unglue its plans to deal with him. It was the Confederacy’s last offensive gamble in the West.' },
       { p: 'It had already gone catastrophically wrong before this story even begins. Two weeks earlier, on November 30, 1864, Hood had hurled that army head-on into entrenched Union troops at the Battle of Franklin, a frontal assault across open ground against dug-in defenders, the kind of attack that gets men killed by the thousand for nothing. It did exactly that. Hood lost around 6,250 men, including six generals killed, among them the gifted division commander Major General Patrick Cleburne (South). The historian David Eicher later put the whole campaign in one sentence that has stuck: “If Hood mortally wounded his army at Franklin, he would kill it two weeks later at Nashville.” That is a modern historian talking, not a soldier of the time, but it is the truest one-line summary of what was coming.' },

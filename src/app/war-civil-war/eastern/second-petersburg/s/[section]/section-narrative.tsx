@@ -11,6 +11,22 @@ const SECOND_PETERSBURG_NARR: Record<string, Narr> = {
     eyebrow: 'Petersburg · The stolen march to the back door',
     title: 'Why Grant stopped charging the capital and went for its throat',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.1, lonMax: -76.3, latMin: 36.7, latMax: 38 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.8, labelLat: 37.8 },
+          { name: 'North Carolina' }, { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Tennessee' },
+        ],
+        dots: [
+          { name: 'Petersburg', date: 'Jun 15–18, 1864', lat: 37.228, lon: -77.401, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'James River (Windmill Point)', lat: 37.313, lon: -77.021, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
+
+
+
       { p: 'By the middle of June 1864, Ulysses S. Grant had been hammering Robert E. Lee head-on for six straight weeks, and the arithmetic had gotten gruesome. From the Wilderness through Spotsylvania to Cold Harbor, the long, grinding Overland Campaign, the two armies had bled each other in one frontal collision after another. At Cold Harbor on June 3 Grant had thrown his men against entrenched Confederates and lost thousands in minutes for nothing. Entrenchments (dug-in defensive lines, dirt thrown up into ramparts a charging man has to cross) had made attacking suicidal, and Lee was very good at digging. So Grant stopped charging the capital. He decided to cut its throat instead.' },
       { pill: '/war-civil-war/eastern/cold-harbor', plabel: 'Cold Harbor: the slaughter that ended the frontal-charge campaign' },
       { p: 'The throat was a town called Petersburg, Virginia, sitting on the south bank of the Appomattox River about 24 miles (39 km) south of Richmond. Petersburg mattered for one reason: it was a railroad junction, the point where the rail lines that fed the Confederate capital converged, five of them by the usual count. Richmond could not be fed or armed except through Petersburg. Take Petersburg, and Richmond starves; starve Richmond, and Lee’s Army of Northern Virginia, the thing keeping the Confederacy alive, has nowhere to stand. So after a year of trying to beat Lee’s army in the open field, Grant went around it and reached for its supply line. The railroad was the object of the maneuver, not the reason behind it. The Confederacy had broken eleven states out of the United States to do one thing: preserve and extend slavery, the holding of roughly four million Black people as property. Richmond was the capital of that slaveholding republic, Petersburg was its last shield, and the question underneath the whole maneuver was whether the slave society survived. By the end of the first day that question would be standing in the assault line, in human form, carrying a rifle.' },

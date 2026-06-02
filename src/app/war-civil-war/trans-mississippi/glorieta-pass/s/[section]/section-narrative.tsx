@@ -11,6 +11,23 @@ export const GLORIETA_PASS_NARR: Record<string, Narr> = {
     eyebrow: 'Glorieta Pass · The Confederate plan',
     title: 'The Confederate Dream of the Pacific',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -107.6, lonMax: -103.9, latMin: 34.6, latMax: 36.4 },
+        states: [
+          { name: 'New Mexico', tone: 'focus', label: 'NEW MEXICO', labelLon: -104.9, labelLat: 34.8 },
+          { name: 'Colorado' }, { name: 'Texas' }, { name: 'Arizona' }, { name: 'Oklahoma' },
+        ],
+        dots: [
+          { name: 'Glorieta Pass', date: 'Mar 26–28, 1862', lat: 35.57, lon: -105.73, heavy: true, anchor: 'start' },
+          { name: 'Santa Fe', lat: 35.687, lon: -105.937, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Fort Union', lat: 35.905, lon: -104.842, color: '#8a8175', anchor: 'start' },
+          { name: 'Albuquerque', lat: 35.085, lon: -106.651, color: '#8a8175', anchor: 'end' },
+        ],
+      } },
+
+
+
       { p: 'In the winter of 1862, the Civil War had a western front almost nobody back East was thinking about, and a Confederate general was about to bet a small army on the most far-reaching gamble of the whole war: the Pacific Ocean. His name was Brigadier General Henry Hopkins Sibley (South), and his plan, which he had personally sold to Confederate President Jefferson Davis the year before, was to march a force of Texans up the Rio Grande (the great river that runs the length of New Mexico, north to south), conquer New Mexico Territory (the vast stretch of land that today makes up New Mexico and Arizona, then a single sparsely settled U.S. territory, not yet a state), and keep going. Past New Mexico lay the gold fields of Colorado and the silver of Nevada. Past those lay California, with its ports and its harbors and its open door to the rest of the world. A Confederacy that reached the Pacific would have money to fund the war and seacoast the Union navy could not blockade. It was, on paper, breathtaking.' },
       { fig: '/war-img/cmdr/sibley.jpg', cap: 'Brigadier General Henry Hopkins Sibley (South), architect of the Confederate bid for New Mexico and the Pacific, a plan he personally sold to Jefferson Davis the year before the march began.', credit: 'Period photograph · public domain' },
       { p: 'And it was, at bottom, a bid to extend slavery across the continent. Strip away the gold and the ports and the maps, and the Confederate dream of the Southwest was the same thing the Confederacy was everywhere else: an attempt to push a slaveholding republic, by force, all the way to the Pacific. The men marching up the Rio Grande were carrying that cause west with them. The rest was real estate.' },

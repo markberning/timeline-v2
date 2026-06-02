@@ -11,6 +11,22 @@ const CORINTH_NARR: Record<string, Narr> = {
     eyebrow: 'Corinth · The crossroads of the Confederacy',
     title: 'The Crossroads of the Confederacy',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -90.9, lonMax: -87.5, latMin: 34.2, latMax: 35.9 },
+        states: [
+          { name: 'Mississippi', tone: 'focus', label: 'MISSISSIPPI', labelLon: -90, labelLat: 34.4 },
+          { name: 'Tennessee' }, { name: 'Alabama' }, { name: 'Arkansas' },
+        ],
+        dots: [
+          { name: 'Corinth', date: 'Oct 3–4, 1862', lat: 34.934, lon: -88.522, heavy: true, anchor: 'start' },
+          { name: 'Shiloh', lat: 35.147, lon: -88.335, color: '#8a8175', anchor: 'start' },
+          { name: 'Memphis', lat: 35.149, lon: -90.048, color: '#8a8175', anchor: 'end' },
+        ],
+      } },
+
+
+
       { p: 'There was nothing much to Corinth, Mississippi, a small town in the far northeast corner of the state near the Tennessee line, except the one thing that made it priceless. Two of the most important railroads in the South crossed there, right at the town depot (the rail station where the lines met). The Mobile & Ohio ran north and south, tying the Gulf coast at Mobile all the way up to the Ohio River. The Memphis & Charleston ran east and west, and it was the only continuous rail line in the whole Confederacy linking the Atlantic coast to the Mississippi River. The two lines met and crossed at Corinth. Whoever held that crossing held the ability to move troops and supplies across the western half of the Confederacy, which is why the period gave the town a nickname far grander than its size: the “crossroads of the Confederacy.”' },
       { p: 'The railroad junction was the object the two armies fought over, but it was not the reason. The Confederacy existed to preserve and extend slavery. Eleven states had broken away from the United States rather than accept any limit on the enslavement of Black people, built their economy and their society on it, and now fielded armies to defend it. The railroad at Corinth mattered because it fed that war effort, carrying the soldiers and the supplies of a slaveholding republic. The Union wanted Corinth because taking it was one more cut into the body of that republic.' },
       { h: 'How Corinth Came to Be Union', eyebrow: 'The siege, then the prize' },

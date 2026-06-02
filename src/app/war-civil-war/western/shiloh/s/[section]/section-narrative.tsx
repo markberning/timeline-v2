@@ -19,6 +19,23 @@ const SHILOH_NARR: Record<string, Narr> = {
     eyebrow: 'Shiloh · The dawn attack',
     title: 'The Surprise at Pittsburg Landing',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -89.9, lonMax: -86.5, latMin: 34.2, latMax: 37.3 },
+        states: [
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -89, labelLat: 36.9 },
+          { name: 'Mississippi' }, { name: 'Alabama' }, { name: 'Kentucky' },
+        ],
+        dots: [
+          { name: 'Shiloh', date: 'Apr 6–7, 1862', lat: 35.14, lon: -88.34, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Savannah', lat: 35.217, lon: -88.247, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Corinth', lat: 34.934, lon: -88.522, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Fort Donelson', lat: 36.487, lon: -87.849, color: '#8a8175', anchor: 'middle', dy: -16 },
+        ],
+      } },
+
+
+
       { p: 'In the spring of 1862, the war in the West was going badly for the South, and it was about to get worse before it got better. The whole region was laced with rivers (the Tennessee and the Cumberland), and rivers were highways. A Union army that controlled them could float supplies, men, and gunboats (river steamers armored and armed with heavy cannon) deep into the Confederate interior, the lower South, splitting the region in two and choking off the railroads that fed its armies. That was the strategy, and the man making it work was one of the Union\'s rising commanders, Major General Ulysses S. Grant. The Confederacy he was trying to split apart was a new country that had broken away from the United States barely a year earlier for one overriding reason: to protect and preserve the enslavement of four million Black people. The South had built its economy and its social order on slavery, seceded rather than see it limited, and now fielded armies to keep it. Grant\'s campaign down the rivers was, at bottom, a campaign to strangle a slaveholding republic.' },
       { p: 'He had already proved the rivers could be taken. In February 1862, Grant captured Fort Henry on the Tennessee River and then Fort Donelson on the Cumberland, scooping up something like 12,000 to 15,000 Confederate prisoners and a new nickname, "Unconditional Surrender Grant," after the terms he gave the garrison. The defeats forced General Albert Sidney Johnston (South), the Confederate commander in the West and the second-highest-ranking officer in the whole Confederacy, to abandon Kentucky and most of Tennessee. Now Grant pushed south by river toward the next prize: Corinth, Mississippi, a small town that happened to be the great rail crossroads of the western Confederacy, the one place where the South\'s main east-west railroad met a major north-south line. Take Corinth and you cut that east-west artery in two. The Confederacy would be sawn in half.' },
       { pill: '/war-civil-war/western/fort-donelson', plabel: 'Fort Donelson: the surrender that opened the rivers' },

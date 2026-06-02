@@ -11,6 +11,22 @@ const LOOKOUT_MOUNTAIN_NARR: Record<string, Narr> = {
     eyebrow: 'Lookout Mountain · The trap and the plan',
     title: 'The Army Under the Mountain',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -86.2, lonMax: -84.4, latMin: 34.4, latMax: 35.6 },
+        states: [
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -84.9, labelLat: 34.5 },
+          { name: 'Georgia' }, { name: 'Alabama' }, { name: 'North Carolina' }, { name: 'Virginia' },
+        ],
+        dots: [
+          { name: 'Lookout Mountain', date: 'Nov 24, 1863', lat: 35.009, lon: -85.342, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Brown\'s Ferry', lat: 35.06, lon: -85.398, color: '#8a8175', anchor: 'end' },
+          { name: 'Missionary Ridge', lat: 35.033, lon: -85.246, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
+
+
+
       { p: 'By November 1863, the Union Army of the Cumberland had spent the better part of two months living at the bottom of a trap. Two months earlier, at the Battle of Chickamauga, a Confederate army had beaten that Union force in the worst Federal defeat of the western war and driven it back into the city of Chattanooga, Tennessee, then followed it to the gates and sat down on the heights all around. To the east rose Missionary Ridge; to the southwest loomed Lookout Mountain, a long, steep wall of rock standing some 1,200 feet above the river. From those crests the Confederate Army of Tennessee, under General Braxton Bragg (South), looked straight down on the trapped Federals, on the river that fed them, and on the rail lines that were supposed to keep them alive. They had not so much defeated the Union army as caged it. That cage had a name. It was a siege: an army pinned inside its own lines by an enemy that rings it, cuts its supplies, and waits for it to starve or surrender.' },
       { pill: '/war-civil-war/western/chickamauga', plabel: 'Chickamauga: the defeat that drove the army into the trap' },
       { p: 'Caging it was the point, because of what Chattanooga was. Chattanooga was the great rail gateway to the Deep South, the junction through which an army could drive into Georgia, toward Atlanta and the plantation belt beyond. The Confederacy had broken away from the United States and gone to war for one overriding reason: to protect and extend the enslavement of four million Black people, the system its economy and its social order were built on. By the late autumn of 1863, with the Emancipation Proclamation in force since the first of that year, the Union’s war aim openly included slavery’s destruction. Bragg’s men held these mountains to keep the door to the slaveholding heartland shut. The Federals in the valley below were there to kick it open. The fight that was about to happen on the cliffs above them was, underneath the fog and the romance, a fight for the road into the slave South.' },

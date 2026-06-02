@@ -11,6 +11,24 @@ const CHANCELLORSVILLE_NARR: Record<string, Narr> = {
     eyebrow: 'Chancellorsville · Hooker’s great gamble',
     title: 'The Finest Army on the Planet',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.8, lonMax: -76.8, latMin: 37, latMax: 38.8 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.3, labelLat: 37.2 },
+          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' },
+        ],
+        dots: [
+          { name: 'Chancellorsville', date: 'Apr 30 – May 6, 1863', lat: 38.3106, lon: -77.6461, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Fredericksburg', lat: 38.3032, lon: -77.4605, color: '#8a8175', anchor: 'start' },
+          { name: 'Gordonsville', lat: 38.1376, lon: -78.1836, color: '#8a8175', anchor: 'end' },
+          { name: 'Richmond', lat: 37.5407, lon: -77.436, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
+
+
+
+
       { p: 'In the spring of 1863, the Army of the Potomac had a new commander, a fresh plan, and a swagger it had not earned in a long time. Major General Joseph Hooker (North) had taken over the largest army on the continent after a winter of disasters, rebuilt its morale, and now intended to do what none of his predecessors had managed: catch Robert E. Lee and his Army of Northern Virginia out in the open and crush them. He had the men to do it. By the best estimates Hooker fielded somewhere around 130,000 soldiers against Lee’s roughly 60,000, better than two to one, though exact engaged counts differ by source. Hooker is said to have called it the finest army on the planet, and on paper it was hard to argue.' },
       { p: 'The plan was genuinely excellent. Lee was dug in along the Rappahannock River (the broad east-west river line that the town of Fredericksburg sits on, where a Union army had been slaughtered head-on the previous December). Hooker had no intention of repeating that. Instead of hammering the front door, he would slip around the side, around the flank (the end of Lee’s line, where an army is weakest because it cannot easily turn to face a blow from the side). He sent three entire corps (a corps being one of the big self-contained chunks an army is built from, here anywhere from 10,000 to 30,000 men, several of which together make up the whole army) on a wide swing: cross both rivers far upstream to the west and come down behind Lee’s left, into the rear of his position. Meanwhile Major General John Sedgwick (North) would stay below Fredericksburg with the VI Corps and mount what soldiers call a demonstration, a loud, faked threat meant to look like the real attack, pinning Lee in place and convincing him the blow was still coming where it had come before.' },
       { pill: '/war-civil-war/eastern/fredericksburg', plabel: 'Fredericksburg: the head-on slaughter Hooker meant never to repeat' },

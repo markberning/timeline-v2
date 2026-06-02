@@ -12,6 +12,24 @@ const SPOTSYLVANIA_NARR: Record<string, Narr> = {
     eyebrow: 'Spotsylvania · A foot-race for a crossroads',
     title: 'Why Grant Didn’t Go Home',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.6, lonMax: -76.6, latMin: 37, latMax: 38.8 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.1, labelLat: 37.2 },
+          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' }, { name: 'Tennessee' },
+        ],
+        dots: [
+          { name: 'Spotsylvania Court House', date: 'May 8–21, 1864', lat: 38.196, lon: -77.589, heavy: true, anchor: 'start' },
+          { name: 'The Wilderness', lat: 38.268, lon: -77.741, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'North Anna River', lat: 38.017, lon: -77.611, color: '#8a8175', anchor: 'end' },
+          { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
+
+
+
+
       { p: 'For two days the Army of the Potomac had been chewed up in the Wilderness, a tangle of scrub oak and brush about ten miles (16 km) to the northwest, in a fight so confused that the brush caught fire and burned the wounded where they lay. It ended in a bloody stalemate. Every Union commander who had ever taken a punch like that from Robert E. Lee and his Army of Northern Virginia had done the same thing afterward: pulled back north, licked his wounds, and let Lee keep Virginia. The Confederate soldiers expected it. It was practically a ritual.' },
       { p: 'Ulysses S. Grant, the new general-in-chief of all the United States armies, was riding with the Army of the Potomac and running this campaign himself, and he did not pull back north. On the night of May 7 he turned the army the other way, southeast, toward a sleepy crossroads village called Spotsylvania Court House, about ten miles (16 km) below the Wilderness, set in the farm country between the Rapidan River to the north and the North Anna River to the south. A "court house" here just means the county seat, a few buildings around the place where the local roads happened to meet. But those roads were the point. The crossroads sat astride the direct route south toward Richmond, the Confederate capital. Grant meant to get the army around Lee’s right flank (the end of his line) and plant it between Lee and Richmond, forcing the Confederates to either attack him on his terms or fall back. Whoever reached the crossroads first and dug in would own the road south.' },
       { p: 'It became a race in the most literal sense: two armies marching through the dark for the same patch of ground, and the one that lost would have to attack the one that won.' },

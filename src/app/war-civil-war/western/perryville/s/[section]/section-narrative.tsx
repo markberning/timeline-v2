@@ -11,6 +11,22 @@ const PERRYVILLE_NARR: Record<string, Narr> = {
     eyebrow: 'Perryville · The Kentucky gamble',
     title: "Bragg’s Bid for a Slave State",
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -85.6, lonMax: -83.7, latMin: 37.2, latMax: 38.7 },
+        states: [
+          { name: 'Kentucky', tone: 'focus', label: 'KENTUCKY', labelLon: -84.2, labelLat: 38.5 },
+          { name: 'Tennessee' }, { name: 'Virginia' }, { name: 'Ohio' }, { name: 'Indiana' },
+        ],
+        dots: [
+          { name: 'Perryville', date: 'Oct 8, 1862', lat: 37.655, lon: -84.963, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Richmond, KY', lat: 37.748, lon: -84.295, color: '#8a8175', anchor: 'start' },
+          { name: 'Frankfort', lat: 38.201, lon: -84.873, color: '#8a8175', anchor: 'middle', dy: -16 },
+        ],
+      } },
+
+
+
       { p: "In the late summer of 1862, the Confederacy tried something it had never tried before and would never manage again: it sent an army north to take a state away from the United States. The state was Kentucky, and the man sent to take it was General Braxton Bragg (South), commander of the Confederate Army of the Mississippi. His campaign has a grand name in the books, the Confederate Heartland Offensive, but the goal underneath the name was blunt and specific. Kentucky was a slave state that had stayed loyal to the Union, and Bragg meant to flip it: to recruit twenty-five or thirty thousand Kentuckians into the Confederate ranks and to install a Confederate state government in place of the loyal one in Frankfort, the capital. A Confederate Kentucky would be a slave state pried out of the Union and bolted onto the South." },
       { p: "Bragg was not doing this alone. A second Confederate army, under Major General Edmund Kirby Smith (South), had crossed into Kentucky from the east weeks earlier and won a sharp victory at Richmond, Kentucky. Two gray columns were loose in the state at once, Bragg’s from the south and Kirby Smith’s from the east, and the plan was for them to join, recruit a Kentucky army, and hold the state. The two-army shape of the invasion matters, because it is part of what would leave Bragg fighting his big battle with only a sliver of his strength." },
       { p: "The stakes had sharpened just weeks earlier, and not in the South’s favor. On September 22, 1862, President Abraham Lincoln had announced the preliminary Emancipation Proclamation, public notice that he intended to free the people enslaved in the rebelling states. The war’s purpose was visibly turning toward ending slavery, in plain view, at the very moment Bragg was marching to add a slave state to the Confederacy. That is the collision underneath the whole campaign: one army moving to widen slavery’s reach, a federal government openly moving to end it." },

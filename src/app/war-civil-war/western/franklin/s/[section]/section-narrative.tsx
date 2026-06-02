@@ -11,6 +11,23 @@ const FRANKLIN_NARR: Record<string, Narr> = {
     eyebrow: 'Franklin · November 29',
     title: 'The Night the Army Walked Past',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -87.8, lonMax: -86, latMin: 35.1, latMax: 36.7 },
+        states: [
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -87.3, labelLat: 36.5 },
+          { name: 'Kentucky' }, { name: 'Alabama' }, { name: 'Mississippi' }, { name: 'Georgia' },
+        ],
+        dots: [
+          { name: 'Franklin', date: 'Nov 30, 1864', lat: 35.9251, lon: -86.8689, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Spring Hill', lat: 35.7551, lon: -86.93, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Nashville', lat: 36.1627, lon: -86.7816, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Columbia', lat: 35.6151, lon: -87.0353, color: '#8a8175', anchor: 'middle', dy: 20 },
+        ],
+      } },
+
+
+
       { h: 'How Hood lost his prey before he ever fought for it', eyebrow: 'November 29' },
       { p: 'Why roughly twenty thousand men charged two miles of open field into a wall of dug-in guns at dusk begins the night before, on a road in the dark, where an entire Union army walked right past the Confederates who had come to trap it.' },
       { p: 'In September 1864, Atlanta fell to the Union army of Major General William T. Sherman. The Confederate Army of Tennessee, one of the South’s two great field armies, had failed to hold it, and its commander, Lieutenant General John Bell Hood (South), made a long shot dressed up as a strategy. Rather than chase Sherman (who was, in fact, about to turn the other way and march for the sea), Hood drove his army north, gambling that an invasion of Tennessee and a threat toward the Ohio River might pull Sherman back, rally a sagging cause, and win back ground the South had lost.' },

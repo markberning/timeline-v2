@@ -11,6 +11,24 @@ const CHICKAMAUGA_NARR: Record<string, Narr> = {
     eyebrow: 'Chickamauga · The bloodless prize',
     title: 'How Rosecrans Took Chattanooga Without a Fight',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -86.2, lonMax: -83.5, latMin: 33.1, latMax: 35.7 },
+        states: [
+          { name: 'Georgia', tone: 'focus', label: 'GEORGIA', labelLon: -85.5, labelLat: 33.4 },
+          { name: 'Tennessee' }, { name: 'Alabama' }, { name: 'North Carolina' },
+        ],
+        dots: [
+          { name: 'Chickamauga', date: 'Sep 18–20, 1863', lat: 34.93, lon: -85.27, heavy: true, anchor: 'end' },
+          { name: 'Chattanooga, TN', lat: 35.05, lon: -85.31, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Tennessee River', lat: 35.05, lon: -85.18, color: '#8a8175', anchor: 'start' },
+          { name: 'Atlanta, GA', lat: 33.75, lon: -84.39, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
+
+
+
+
       { p: 'In the late summer of 1863, the Union won a city without firing the shot that should have been needed to take it. The city was Chattanooga, Tennessee, the prize the whole war in the West was bending toward: the rail gateway into the Deep South, the junction where the railroads ran on toward Atlanta and the heart of the Confederacy. That heart was slavery. The Southern states had broken away from the United States to protect and extend it, the institution their whole economy and social order rested on, the labor of four million enslaved Black people. Just across the line was Georgia, plantation country whose fields ran on that enslaved labor (cotton had made slaveholding explode after the cotton gin), and the South was fighting to keep the system alive. The North, by 1863, was fighting to end it: after the Emancipation Proclamation (Lincoln’s order freeing the enslaved in the rebel states), the destruction of slavery had become a Union war aim. So cracking open Chattanooga meant cracking open the gate to the slaveholding interior.' },
       { p: 'The man taking the city was Maj. Gen. William S. Rosecrans (North), commander of the Union Army of the Cumberland, roughly 60,000 men. He had just finished one of the most elegant campaigns of the entire war. Through nine days at the end of June and into July, in the Tullahoma campaign (June 24 to July 3, 1863), Rosecrans had maneuvered the Confederate Army of Tennessee out of Middle Tennessee almost without bloodshed, levering his enemy backward by threatening his supply lines rather than charging his front. The enemy he kept levering was Gen. Braxton Bragg (South), commanding that Confederate army, a hard, quarrelsome general who could never quite hold the loyalty of the officers under him, a flaw that would cost the Confederacy more than any Union army did.' },
       { p: 'A note on the units, because the scale matters all the way through this battle. Armies are built in rungs: an army of tens of thousands breaks into corps of perhaps 15,000–20,000; a corps into divisions of a few thousand; a division into brigades of one to two thousand; a brigade into regiments of a few hundred. When Wood pulls a division out of line, or Longstreet throws eight brigades at one spot, that ladder is what’s moving.', i: true },

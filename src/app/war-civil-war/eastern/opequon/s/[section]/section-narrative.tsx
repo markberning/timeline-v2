@@ -12,6 +12,23 @@ const OPEQUON_NARR: Record<string, Narr> = {
     eyebrow: 'Opequon · The Shenandoah',
     title: 'The breadbasket worth burning',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -79.8, lonMax: -75.4, latMin: 36.3, latMax: 40.2 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.6, labelLat: 36.8 },
+          { name: 'West Virginia' }, { name: 'Maryland' }, { name: 'Pennsylvania' }, { name: 'Kentucky' },
+        ],
+        dots: [
+          { name: 'Third Winchester (Opequon)', date: 'Sep 19, 1864', lat: 39.18, lon: -78.17, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Washington', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Petersburg', lat: 37.228, lon: -77.4, color: '#8a8175', anchor: 'middle', dy: 20 },
+        ],
+      } },
+
+
+
       { h: 'Why the Valley was the war’s grocery store and its back door', eyebrow: 'The Shenandoah' },
       { p: 'In the fall of 1864 a Union army went into one of the richest farm valleys in Virginia carrying orders to set it on fire: not to beat the enemy and move on, but to burn the place. Torch the barns, fire the mills, drive off the herds, leave the corridor unable to feed an army ever again. A valley of prosperous farms was worth that because of what those farms were doing, and who they were doing it to.' },
       { p: 'The valley was the Shenandoah Valley, the long farm corridor running down the western edge of Virginia between two mountain ranges. It did two things for the Confederacy, and both made it priceless. First, it was a larder. Its farms grew the grain and raised the livestock and put up the hay that fed Lee’s Army of Northern Virginia, the main Confederate army, dug in around Richmond and Petersburg well off to the east. The Valley fed that army so reliably that the period gave it a nickname: “the breadbasket of the Confederacy.” Second, the Valley was a covered highway pointed straight at the North. Because of the way the land drains, going north in the Valley is going “down” it, and an army marching down the Valley came out near Washington, screened by mountains the whole way, while a Union army marching the other direction threatened nothing that mattered. That lopsided geography made the Valley a favorite Confederate invasion chute. Thomas “Stonewall” Jackson used it in 1862, and in the summer of 1864 Lieutenant General Jubal A. Early (South), commanding a small, separate Confederate army of his own rather than Lee’s main one, used it to march all the way to the outskirts of Washington itself.' },

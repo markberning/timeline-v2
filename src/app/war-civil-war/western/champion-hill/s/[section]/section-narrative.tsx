@@ -18,6 +18,23 @@ const CHAMPION_HILL_NARR: Record<string, Narr> = {
     eyebrow: 'Champion Hill · The hinge',
     title: 'The Hill That Held the Road Home',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -91.5, lonMax: -89.6, latMin: 31.7, latMax: 32.9 },
+        states: [
+          { name: 'Mississippi', tone: 'focus', label: 'MISSISSIPPI', labelLon: -91, labelLat: 31.8 },
+          { name: 'Tennessee' }, { name: 'Arkansas' }, { name: 'Louisiana' }, { name: 'Alabama' },
+        ],
+        dots: [
+          { name: 'Champion Hill', date: 'May 16, 1863', lat: 32.2786, lon: -90.4381, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Jackson', lat: 32.2988, lon: -90.1848, color: '#8a8175', anchor: 'start' },
+          { name: 'Vicksburg', lat: 32.3526, lon: -90.8779, color: '#8a8175', anchor: 'end' },
+        ],
+      } },
+
+
+
+
       { p: 'By the middle of May 1863, Major General Ulysses S. Grant was loose in the interior of Mississippi, and there was no good way for the Confederacy to put him back. He had crossed the great river south of Vicksburg, cut himself free of his own supply line, and marched inland, winning a string of fights: Port Gibson, Raymond, and then the state capital at Jackson, which he wrecked and left smoking behind him. Now he turned west. Twenty miles (32 km) in front of him, behind the last good defensive ground before the fortress city, waited the army that was supposed to stop him.' },
       { pill: '/war-civil-war/western/vicksburg', plabel: 'Vicksburg: the campaign Champion Hill belongs to' },
       { p: 'The whole point of all this marching was to take Vicksburg, and the whole point of taking Vicksburg was to break the Confederacy in half. Vicksburg held the last stretch of the Mississippi River still in Southern hands. Cut it, and the slaveholding states west of the river (Texas, Arkansas, most of Louisiana) would be severed from the rest of the rebellion. The rebellion was, at bottom, a slaveholders’ republic: the Confederacy had broken away from the United States to protect the enslavement of four million Black people, and Grant’s campaign was a campaign to saw that republic in two. The ground he was about to fight over made the point plainly. Champion Hill took its name from the Champion family, whose plantation it sat on, land in a Mississippi county worked by enslaved people, the very institution the South had seceded to defend. Every mile Grant pushed west, that institution dissolved behind his army: thousands of enslaved people had been freeing themselves along his line of march, walking off the plantations toward the Union columns rather than waiting to be freed.' },

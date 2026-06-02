@@ -19,6 +19,23 @@ const FORT_DONELSON_NARR: Record<string, Narr> = {
     eyebrow: 'Fort Donelson · The rivers into the South',
     title: 'The Rivers into the South',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -90.3, lonMax: -85.6, latMin: 35.4, latMax: 37.6 },
+        states: [
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -86.9, labelLat: 37.3 },
+          { name: 'Kentucky' }, { name: 'Alabama' }, { name: 'Mississippi' }, { name: 'Illinois' },
+        ],
+        dots: [
+          { name: 'Fort Donelson', date: 'Feb 11–16, 1862', lat: 36.49, lon: -87.86, heavy: true, anchor: 'start' },
+          { name: 'Fort Henry', lat: 36.33, lon: -88.11, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Nashville', lat: 36.17, lon: -86.78, color: '#8a8175', anchor: 'start' },
+          { name: 'Columbus, KY', lat: 36.76, lon: -89.11, color: '#8a8175', anchor: 'end' },
+        ],
+      } },
+
+
+
       { p: 'Two big rivers ran straight into the heart of the Confederacy, and the South had posted one smallish fort on each of them to keep the war out. In the first winter of the Civil War, the United States went looking for a back door into the South and found those two, the Tennessee and the Cumberland, lying in plain sight. They run roughly parallel through the Confederate heartland, only about 10 miles (16 km) apart where the South had planted its forts, and both of them point like arrows from the loyal North straight down into Tennessee and beyond. The war in the East was already a slogging, head-on affair, two armies grinding into each other across Virginia. Out West, the rivers offered a way around the grind. An army could float instead.' },
       { p: 'The man who would make the most of that was a then-obscure brigadier general (a rank one rung below major general) named Ulysses S. Grant. He had a partner in the work: Flag Officer Andrew H. Foote (North), the naval equivalent of a general and the senior commander of a brand-new fleet of river gunboats (warships built to fight on rivers, not the open sea). And he had a green light from his superior, Major General Henry W. Halleck (North), the cautious commander of the Department of Missouri (the Union’s military command zone for the western theater), who authorized a campaign against the twin river forts. The idea was simple and ruthless: drive gunboats and soldiers up those two rivers, smash the forts guarding them, and split the Confederacy and cut its supply lines in half. The thing that whole western line existed to defend was slavery. The Confederacy had broken away to keep human beings as property, and its generals had strung a defensive cordon (a ring of forts and troops) across Kentucky and Tennessee to protect that slaveholding heartland. The rivers strategy was a plan to crack that cordon open.' },
       { pill: '/war-civil-war/off-the-battlefield/slavery-cotton', plabel: 'Slavery and cotton: the heartland the river forts were built to protect' },

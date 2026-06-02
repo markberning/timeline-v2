@@ -11,6 +11,24 @@ const WILDERNESS_NARR: Record<string, Narr> = {
     eyebrow: 'Wilderness · May 4',
     title: 'The woods Lee picked on purpose',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.7, lonMax: -76.9, latMin: 37.7, latMax: 38.9 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.2, labelLat: 38.8 },
+          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' }, { name: 'Tennessee' },
+        ],
+        dots: [
+          { name: 'the Wilderness', date: 'May 5–7, 1864', lat: 38.32, lon: -77.73, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Germanna Ford', lat: 38.408, lon: -77.747, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Spotsylvania Court House', lat: 38.195, lon: -77.588, color: '#8a8175', anchor: 'start' },
+          { name: 'Fredericksburg', lat: 38.3032, lon: -77.4605, color: '#8a8175', anchor: 'start' },
+          { name: 'Orange Court House', lat: 38.245, lon: -78.111, color: '#8a8175', anchor: 'end' },
+        ],
+      } },
+
+
+
       { h: 'Why a general would choose to fight in a place nobody could see', eyebrow: 'May 4' },
       { p: 'One thing to fix in your head first, because the rest of the story leans on it. By 1864 the United States had split in two and was three years into a civil war. Eleven southern states had seceded (broken away) and formed their own country, the Confederacy (called here “the South”), and they were fighting the states that stayed loyal to the old United States, the Union (“the North”). Officers in this story are tagged with the side they fought for: (North) for the Union, (South) for the Confederacy.' },
       { p: 'The Wilderness was not a place you would pick for a battle. It was a place you would pick to get lost in. A few miles west of Fredericksburg, Virginia, in Spotsylvania and Orange counties, the land went bad in a particular way: a dense, second-growth thicket of scrub oak, pine, and tangled underbrush so thick that a man could not see more than a few yards in any direction. Whole armies would disappear into it. The National Park Service has a phrase for what the fighting there became, “bushwhacking on a grand scale,” isolated little knife-fights between small clumps of men who could not find the rest of their own army, all of them “confused by the bewildering forest.”' },

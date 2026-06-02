@@ -8,7 +8,7 @@ import { globSync } from 'node:fs'
 const FILES = globSync('src/app/war-civil-war/*/*/s/[[]section[]]/section-narrative.tsx')
 
 const num = (s, k) => { const m = s.match(new RegExp(`\\b${k}:\\s*(-?[\\d.]+)`)); return m ? parseFloat(m[1]) : undefined }
-const str = (s, k) => { const m = s.match(new RegExp(`\\b${k}:\\s*'([^']*)'`)); return m ? m[1] : undefined }
+const str = (s, k) => { const m = s.match(new RegExp(`\\b${k}:\\s*'((?:\\\\.|[^'\\\\])*)'`)); return m ? m[1].replace(/\\(.)/g, '$1') : undefined }
 const has = (s, k) => new RegExp(`\\b${k}:\\s*true`).test(s)
 
 // crude balanced-ish extraction of a locator object's inner text

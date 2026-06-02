@@ -11,6 +11,22 @@ const FREDERICKSBURG_NARR: Record<string, Narr> = {
     eyebrow: 'Fredericksburg · The original sin',
     title: 'A Battle Half-Lost Before a Shot',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.8, lonMax: -75.7, latMin: 36.9, latMax: 39.6 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78, labelLat: 39.3 },
+          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' },
+        ],
+        dots: [
+          { name: 'Fredericksburg', date: 'Dec 11–15, 1862', lat: 38.301, lon: -77.461, heavy: true, anchor: 'end' },
+          { name: 'Washington, D.C.', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'middle', dy: 20 },
+        ],
+      } },
+
+
+
       { p: 'In November 1862, the United States had a new commander in the East and a simple, sensible plan, and the plan was already dying in a warehouse a hundred miles away.' },
       { p: 'The commander was Major General Ambrose E. Burnside (North), and he had just inherited the Army of the Potomac (the main Union army in the East) from George B. McClellan, relieved in early November for letting Lee’s army escape after Antietam. Burnside did not want the job, and not in the modest way generals usually say so. Lincoln had offered him command of the army twice before, once after the failed drive on Richmond that summer and once after the defeat at Second Bull Run, and both times Burnside had flatly refused it, saying he was not competent to handle so large an army. He took it the third time only because the courier told him that if he said no again, the command would go to Joseph Hooker (North), a rival he could not stand. So the man now leading a hundred thousand men into Virginia had spent months insisting he was the wrong man for it, and now had to do the thing McClellan never would: move fast and hit hard.' },
       { pill: '/war-civil-war/eastern/antietam', plabel: 'Antietam: the battle that cost McClellan his command' },

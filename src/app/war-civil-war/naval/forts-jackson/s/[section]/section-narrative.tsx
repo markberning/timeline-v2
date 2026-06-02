@@ -11,6 +11,22 @@ export const FORTS_JACKSON_NARR: Record<string, Narr> = {
     eyebrow: 'Forts Jackson · The mouth of the river',
     title: 'The Mouth of the River',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -90.7, lonMax: -88.9, latMin: 28.9, latMax: 30.5 },
+        states: [
+          { name: 'Louisiana', tone: 'focus', label: 'LOUISIANA', labelLon: -89.4, labelLat: 30.3 },
+          { name: 'Mississippi' }, { name: 'Alabama' }, { name: 'Texas' }, { name: 'Arkansas' },
+        ],
+        dots: [
+          { name: 'Forts Jackson & St. Philip', date: 'Apr 18–28, 1862', lat: 29.355, lon: -89.595, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'New Orleans', lat: 29.951, lon: -90.071, color: '#8a8175', anchor: 'middle', dy: -16 },
+        ],
+      } },
+
+
+
+
       { p: 'In the spring of 1862, the biggest city in the Confederacy sat almost undefended at the bottom of a river, and almost nobody on the Southern side believed it was in any danger. New Orleans was the South’s great metropolis: about 168,000 people, the sixth-largest city in the United States, bigger than Charleston, Richmond, Mobile, Memphis, and Savannah put together. It was the place where more than half of all American cotton went to the sea, the outlet for goods from the entire Mississippi River valley, second only to Richmond in the value of what it manufactured. It was also the South’s great slave market, the largest slave-trading center in a country that had gone to war to keep human beings as property. The same wharves that shipped the South’s cotton to the world also sold the people forced to grow it: well over a hundred thousand enslaved men, women, and children were bought and sold here across the trade’s life, in dozens of markets scattered through the city, and roughly fourteen thousand more lived in bondage inside the city itself. Much of the machinery the Confederacy was built to protect ran through New Orleans.' },
       { p: 'That is exactly why the United States wanted it. The Union’s grand strategy for winning the war had a name, the Anaconda Plan, after the snake that kills by squeezing. General-in-Chief Winfield Scott, the U.S. Army’s senior commander, had the idea to wrap the Confederacy in a blockade, choke off its trade, and seize the Mississippi River to cut the South in half. Take the mouth of the Mississippi and you put a hand around the Confederacy’s throat. New Orleans was the mouth of the Mississippi. It was the single most valuable piece of real estate on the map, and the Confederacy had left it lightly guarded.' },
       { h: 'Why the city lay open', eyebrow: 'The prize' },

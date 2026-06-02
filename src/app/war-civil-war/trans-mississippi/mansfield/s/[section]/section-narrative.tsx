@@ -12,6 +12,23 @@ const MANSFIELD_NARR: Record<string, Narr> = {
     eyebrow: 'Mansfield · Red River, 1864',
     title: 'The River and the Cotton',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -94.3, lonMax: -92.5, latMin: 31.3, latMax: 33 },
+        states: [
+          { name: 'Louisiana', tone: 'focus', label: 'LOUISIANA', labelLon: -93, labelLat: 32.8 },
+          { name: 'Texas' }, { name: 'Arkansas' }, { name: 'Mississippi' },
+        ],
+        dots: [
+          { name: 'Mansfield (Sabine Crossroads)', date: 'Apr 8, 1864', lat: 31.97, lon: -93.7, heavy: true, anchor: 'start' },
+          { name: 'Grand Ecore', lat: 31.83, lon: -93.09, color: '#8a8175', anchor: 'start' },
+          { name: 'Shreveport', lat: 32.52, lon: -93.75, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Natchitoches', lat: 31.76, lon: -93.09, color: '#8a8175', anchor: 'middle', dy: 20 },
+        ],
+      } },
+
+
+
       { p: 'In the spring of 1864 a Union army was deep in the pine country of northwest Louisiana, a long way from anywhere that usually shows up in a Civil War story. It was there for the Red River Campaign, the Union’s big, doomed push to drive up the Red River toward Shreveport (the headquarters of the Confederate Trans-Mississippi Department, the Confederacy’s whole command west of the Mississippi River) and on toward Texas. This was the Trans-Mississippi Theater, the war west of the great river: a sprawling, secondary front that rarely got the South’s best armies or the North’s best generals, but where a great deal of cotton, cattle, and contested ground sat.' },
       { p: 'It was a combined expedition, army and navy moving together. Major General Nathaniel P. Banks (North), a Massachusetts political general (a former governor and Speaker of the U.S. House who got his rank from his clout, not from West Point), marched the Army of the Gulf overland up the river road. Alongside him, steaming up the Red River itself, came Rear Admiral David Dixon Porter (North) and his gunboat fleet, a flotilla of armored river warships, floating artillery batteries with engines, meant to shell anything on the banks and carry the army’s heavy lifting. By the first of April, Banks had pushed about 150 miles (240 km) up the river, occupying Grand Ecore and Natchitoches, with Shreveport the prize ahead.' },
       { p: 'The campaign had four tangled aims. Banks was supposed to take Shreveport and break the Confederate army in west Louisiana; to plant the U.S. flag in Texas as a warning to French-occupied Mexico, where the French army propping up Emperor Maximilian was some 25,000 strong and Washington was nervous; to stand up a pro-Union state government in Louisiana under Lincoln’s lenient “ten percent” plan (his offer to let a seceded state back into the Union once one in ten of its 1860 voters swore loyalty); and, the aim that hung over all the rest, to seize cotton.' },

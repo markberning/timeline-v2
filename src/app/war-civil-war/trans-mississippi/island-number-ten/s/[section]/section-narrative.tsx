@@ -11,6 +11,23 @@ const ISLAND_NUMBER_TEN_NARR: Record<string, Narr> = {
     eyebrow: 'Island Number Ten · The Gibraltar of the River',
     title: 'The Gibraltar of the River',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -90.3, lonMax: -87, latMin: 36, latMax: 37.5 },
+        states: [
+          { name: 'Missouri', tone: 'focus', label: 'MISSOURI', labelLon: -87.9, labelLat: 37.3 },
+          { name: 'Tennessee' }, { name: 'Kentucky' }, { name: 'Illinois' }, { name: 'Arkansas' },
+        ],
+        dots: [
+          { name: 'Island No. 10', date: 'Feb 28 – Apr 8, 1862', lat: 36.57, lon: -89.52, heavy: true, anchor: 'end' },
+          { name: 'Columbus, KY', lat: 36.76, lon: -88.99, color: '#8a8175', anchor: 'end' },
+          { name: 'Cairo, IL', lat: 37, lon: -89.18, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Fort Donelson', lat: 36.48, lon: -87.86, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
+
+
+
       { p: 'The Confederates named it after the most unconquerable place they could think of. Columbus, Kentucky, sat on a high bluff over the Mississippi, bristling with so many guns that the men who built it called it "the Gibraltar of the West." Gibraltar was the famous rock-fortress guarding the entrance to the Mediterranean, the kind of place you simply cannot fight your way past. Columbus was supposed to be unbeatable. In March 1862 the Confederates abandoned it without firing a shot, because a then-obscure Union general had walked around the back of it.' },
       { p: 'The Mississippi runs the length of the continent, and in 1862 it was the South’s main road, its supply artery, and the seam that held the western Confederacy to the eastern. The Confederate States were a country built to preserve slavery, and the men in Washington had a plan to strangle that country by taking its river. The plan had a nickname: the Anaconda, after the snake that kills by squeezing. General Winfield Scott, the aging general-in-chief (the top commander of all Union armies at the war’s start), had laid it out: blockade the Southern coast (seal off Southern ports so no ships could get in or out), seize the Mississippi from top to bottom, and split the Confederacy in two like a log. Take the river, and you cut the cotton states of the Deep South off from the cattle, grain, and men of Texas and Arkansas. It was a slow strategy, and a sound one, and it ran through control of one long brown highway of water.' },
       { p: 'The South knew the plan as well as the North did, and had spent months fortifying the river against exactly this. Columbus was the first great cork in the bottle. It was supposed to be unbeatable from the river, and it never had to be beaten from the river at all.' },

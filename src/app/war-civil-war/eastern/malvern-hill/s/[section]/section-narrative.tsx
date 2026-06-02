@@ -11,6 +11,23 @@ export const MALVERN_HILL_NARR: Record<string, Narr> = {
     eyebrow: 'Malvern Hill · The Hill Above the James',
     title: 'The Hill Above the James',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.2, lonMax: -76.4, latMin: 36.8, latMax: 38 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77.7, labelLat: 36.9 },
+          { name: 'Maryland' }, { name: 'North Carolina' }, { name: 'West Virginia' }, { name: 'Pennsylvania' },
+        ],
+        dots: [
+          { name: 'Malvern Hill', date: 'Jul 1, 1862', lat: 37.36, lon: -77.19, heavy: true, anchor: 'end' },
+          { name: 'Harrison\'s Landing', lat: 37.3, lon: -77.07, color: '#8a8175', anchor: 'start' },
+          { name: 'Richmond', lat: 37.54, lon: -77.44, color: '#8a8175', anchor: 'end' },
+        ],
+      } },
+
+
+
+
       { p: 'By the morning of July 1, 1862, Colonel Henry J. Hunt (North) had built a wall of iron on a hilltop in Virginia, and the army that had been running all week had finally stopped. Up on the crest of Malvern Hill, gun stood above gun, rank behind rank, all of them looking down one long, bare, gently sloping field, and the army backing up the hill had decided that here, at last, it would turn around and fight. (Throughout this story, North = the Union, the United States fighting to hold the country together; South = the Confederacy, the breakaway slaveholding republic. Officers on a side carry a (North) or (South) tag the first time they appear in each section.)' },
       { p: 'To understand why everyone had come to this hill, you have to back up a week. For seven days, Robert E. Lee had been hitting George B. McClellan, and for seven days McClellan had spent every day backing away. The great Union army (the United States’ main fighting force in the East) had come up the Virginia Peninsula (the finger of land between the York and James rivers) to take the Confederate capital at Richmond, and now it was in full retreat, marching south toward the one thing that felt safe: the James River, where the United States Navy’s gunboats (river warships carrying heavy cannon) waited to cover them. The navy’s guns could pound any Confederate pursuit from the water, shielding the army’s rear. The army was running, and the thing it was running from was the survival of a slaveholding republic. Richmond was the capital of a new country founded to keep four million people enslaved, and an entire campaign had been built to capture it and end the rebellion in a stroke. Now that campaign was collapsing backward toward the river, and Lee smelled a chance to finish it for good.' },
       { fig: '/war-img/malvern-hill-retreat.png', cap: 'The Seven Days’ end: McClellan retreats from Richmond to the James, with Malvern Hill the last high ground before Harrison’s Landing.', credit: 'Stuff Happened map' },

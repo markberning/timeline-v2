@@ -11,6 +11,23 @@ const COLD_HARBOR_NARR: Record<string, Narr> = {
     eyebrow: 'Cold Harbor · A harbor with no water',
     title: 'Why Two Armies Raced for a Virginia Tavern',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.5, lonMax: -76.4, latMin: 37, latMax: 38.8 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77, labelLat: 38.6 },
+          { name: 'Maryland' }, { name: 'North Carolina' }, { name: 'West Virginia' }, { name: 'Pennsylvania' },
+        ],
+        dots: [
+          { name: 'Cold Harbor', date: 'May 31 – Jun 12, 1864', lat: 37.55, lon: -77.15, heavy: true, anchor: 'start' },
+          { name: 'Chickahominy River', lat: 37.48, lon: -77.18, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Richmond', lat: 37.541, lon: -77.436, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Rapidan River', lat: 38.3, lon: -77.78, color: '#8a8175', anchor: 'middle', dy: -16 },
+        ],
+      } },
+
+
+
       { p: 'There is no harbor at Cold Harbor, and no water worth mentioning: no port, no bay, nothing a boat could reach. Cold Harbor was the name of a rural crossroads in Hanover County, Virginia, about 10 miles (16 km) northeast of Richmond, and it took that name from an old roadside tavern. In the period English the early settlers brought over, a cold harbour meant a place that gave you shelter (a harbor in the old sense of refuge) but no hot meal. You could sleep there. You could not get a cooked supper. So the junction was named for an inn that kept you cold, and two armies of roughly 170,000 men between them would spend twelve days bleeding for it.' },
       { p: 'There were actually two crossroads close together: Old Cold Harbor, the key junction, about two miles east of the old Gaines’s Mill battlefield, and New Cold Harbor, about a mile to the southeast. Several roads met at Old Cold Harbor, and that is why it mattered. A road junction in 1864 did the work a highway interchange does now: control it and you control how fast an army can move toward the thing it actually wants. And the thing both armies wanted was a few miles off to the southwest, Richmond, the capital of the Confederacy. Hold the Cold Harbor road net and you held the approach to the rebel capital. That is why the cavalry of both sides went tearing across the countryside for a tavern that could not cook a meal.' },
       { pill: '/war-civil-war/eastern/gaines-mill', plabel: 'Gaines’s Mill: the 1862 fight on the ground right beside this one' },

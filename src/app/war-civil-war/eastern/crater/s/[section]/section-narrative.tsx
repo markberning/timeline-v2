@@ -18,6 +18,21 @@ const CRATER_NARR: Record<string, Narr> = {
     eyebrow: 'The Crater · Petersburg',
     title: 'A Tunnel Under the War',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.3, lonMax: -76.5, latMin: 36.7, latMax: 38 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77.8, labelLat: 36.9 },
+          { name: 'North Carolina' }, { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Tennessee' },
+        ],
+        dots: [
+          { name: 'The Crater', date: 'Jul 30, 1864', lat: 37.212, lon: -77.393, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'middle', dy: -16 },
+        ],
+      } },
+
+
+
       { h: 'How a stalled siege drove men underground', eyebrow: 'Petersburg, summer 1864' },
       { p: 'By the summer of 1864 the war in Virginia had stopped moving. Lieutenant General Ulysses S. Grant, general-in-chief of the Union armies, had spent the spring grinding south toward Richmond, the Confederate capital. His army and General Robert E. Lee’s Army of Northern Virginia had finally locked together at Petersburg, a rail hub about 25 miles (40 km) south of Richmond. Petersburg fed the capital: take its railroads and Richmond starves. So the armies dug in around it, and what had been a war of marches became a siege, a long investment of a fortified place, both sides burrowing into the earth. In spots the two sets of trenches sat only about 100 yards apart, a strip of churned no-man’s-land between them. Frontal assaults had already failed bloodily that June, and by the end of the month the stalemate had hardened with no obvious way through it.' },
       { p: 'The way under it came up from the ranks. Facing the Union line at one point was a Confederate strongpoint, a salient (an angle in the works that juts out toward the enemy), held by Confederate guns and infantry. Men of the 48th Pennsylvania Infantry (North), a regiment thick with former coal miners from Schuylkill County, looked across that gap and thought what coal miners think: they could dig under it. Their commander, Lieutenant Colonel Henry Pleasants (North), had been a civil and mining engineer in civilian life. He championed the idea, designed it, and drove it.' },

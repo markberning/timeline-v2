@@ -11,6 +11,22 @@ const JONESBOROUGH_NARR: Record<string, Narr> = {
     eyebrow: 'Jonesborough · The stakes',
     title: 'The Last Railroad Into Atlanta',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -85.3, lonMax: -83.5, latMin: 32.9, latMax: 34.2 },
+        states: [
+          { name: 'Georgia', tone: 'focus', label: 'GEORGIA', labelLon: -84.8, labelLat: 33.1 },
+          { name: 'Tennessee' }, { name: 'Alabama' }, { name: 'South Carolina' }, { name: 'North Carolina' },
+        ],
+        dots: [
+          { name: 'Jonesborough', date: 'Aug 31 – Sep 1, 1864', lat: 33.522, lon: -84.354, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Lovejoy\'s Station', lat: 33.42, lon: -84.315, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Atlanta', lat: 33.749, lon: -84.388, color: '#8a8175', anchor: 'middle', dy: -16 },
+        ],
+      } },
+
+
+
       { p: 'By the end of August 1864, after four months of marching, digging, and bleeding across the hills of north Georgia, the city of Atlanta was very nearly surrounded and still would not fall. The reason was a railroad. An army the size of the one outside Atlanta does not live off the land it stands on; it eats what the trains bring. Every cartridge, every barrel of pork, every replacement rifle that kept the Confederate defenders fed and armed came in over the rails, and a city that loses its rail supply cannot be held no matter how thick its walls. The whole campaign came down to a simple, brutal arithmetic: cut the lines into Atlanta, and Atlanta has to be abandoned.' },
       { p: 'Major General William T. Sherman, commanding the three Union armies grouped under the grand title of the Military Division of the Mississippi, had spent the summer doing exactly that, severing the rail lines into the city one by one. By late August he had cut every line but one. The survivor was the Macon &amp; Western Railroad, which ran south out of Atlanta down through a small town called Jonesborough, roughly 20 miles (32 km) below the city. (The town is spelled “Jonesborough” in the period and in every history of the battle; the modern Georgia town has shed an o and is now “Jonesboro.” The old spelling is used here for the fight.) That single line was Atlanta’s last open artery. As long as it ran, Atlanta could be fed. Sever it, and the city was finished.' },
       { p: 'Sherman could have battered himself bloody against Atlanta’s fortifications instead. He chose the railroad. Rather than assault the works head-on, he swung the bulk of his armies in a wide wheeling march to the south and west, a great curling sweep around the city’s flank (the side or end of an army’s line, as opposed to its front), aimed not at Atlanta at all but at the Macon &amp; Western near Jonesborough. The plan was unglamorous and exactly right: get astride that last railroad, tear it up beyond quick repair, and the prize would fall on its own.' },

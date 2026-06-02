@@ -19,6 +19,23 @@ export const BULL_RUN_NARR: Record<string, Narr> = {
     eyebrow: 'First Bull Run · The clock that forced the issue',
     title: 'On to Richmond',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -78.8, lonMax: -75.7, latMin: 36.9, latMax: 39.6 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -76.5, labelLat: 37.2 },
+          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'North Carolina' }, { name: 'Pennsylvania' },
+        ],
+        dots: [
+          { name: 'Bull Run (Manassas)', date: 'Jul 21, 1861', lat: 38.815, lon: -77.522, heavy: true, anchor: 'end' },
+          { name: 'Washington, D.C.', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Richmond', lat: 37.541, lon: -77.434, color: '#8a8175', anchor: 'end' },
+        ],
+      } },
+
+
+
+
       { p: 'In the spring of 1861, a remarkable number of Americans believed the war that had just started would be over by autumn, and that they would win it in an afternoon. The Confederate States (the eleven Southern states that had broken away from the United States rather than accept limits on slavery) had fired on Fort Sumter, a U.S. fort in the harbor of Charleston, South Carolina, on April 12 and 13, and President Abraham Lincoln had answered by calling for 75,000 volunteers. Those volunteers signed up for 90-day enlistments, meaning they had promised the army only three months of their lives. That number was a confession of how short everyone expected this to be. Three months was thought to be plenty of time to march south, smash the rebellion in one big battle, and send everyone home before the harvest. Nobody enlists for ninety days if they think they are starting a four-year war.' },
       { pill: '/war-civil-war/naval/fort-sumter', plabel: 'Fort Sumter: the shots that opened the war' },
       { p: 'The two sides were fighting over slavery, the system that held roughly four million human beings as property and on which the Southern economy was built. The Southern states had seceded, formally declared themselves out of the Union, to protect it, and several of those states said so directly in their official declarations of secession. The North did not march out that summer to end slavery; most of the men heading for Virginia would have told you they were fighting to put the Union back together. But the thing the Confederacy had seceded to defend, and the thing the war would ultimately be about, was whether human beings could be owned.' },

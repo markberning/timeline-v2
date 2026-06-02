@@ -11,6 +11,22 @@ const VICKSBURG_NARR: Record<string, Narr> = {
     eyebrow: 'Vicksburg · The fortress on the bluffs',
     title: 'The Key to the War',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -92.4, lonMax: -89, latMin: 29.9, latMax: 33.2 },
+        states: [
+          { name: 'Mississippi', tone: 'focus', label: 'MISSISSIPPI', labelLon: -89.9, labelLat: 30.3 },
+          { name: 'Louisiana' }, { name: 'Arkansas' }, { name: 'Tennessee' }, { name: 'Alabama' },
+        ],
+        dots: [
+          { name: 'Vicksburg', date: 'May 18 – Jul 4, 1863', lat: 32.352, lon: -90.878, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Jackson, MS', lat: 32.299, lon: -90.184, color: '#8a8175', anchor: 'middle', dy: -16 },
+          { name: 'Port Hudson', lat: 30.708, lon: -91.265, color: '#8a8175', anchor: 'middle', dy: 20 },
+        ],
+      } },
+
+
+
       { p: 'In the spring of 1863 the Mississippi River was the spine of a continent, and the Confederacy was sitting on the one vertebra that mattered. Trace the river south from where it leaves Union hands and you eventually run up under a bluff town in western Mississippi where the channel doubles back on itself in a tight hairpin bend. The town sat on high ground on the east bank, and its guns looked straight down on the water below: heavy cannon dug into the bluff in clusters called batteries. Any boat coming downriver had to pass directly under those batteries, slowly, in plain sight. That town was Vicksburg, and together with Port Hudson, Louisiana, downstream, it held the last Confederate-controlled stretch of the Mississippi. As long as Vicksburg stood, the river was closed.' },
       { p: 'That mattered for reasons both blunt and strategic. The Mississippi was how the farms of the Northwest (Ohio, Illinois, Iowa) got their grain and pork to market, and the Confederacy had corked the bottle. It was also the seam of the rebellion itself. East of the river lay the heart of the Confederacy; west of it lay Texas, Arkansas, and most of Louisiana, the so-called Trans-Mississippi, which funneled cattle, men, and supplies eastward across the water. Take Vicksburg and you opened the river to Union traffic and sawed the Confederacy clean in two. Abraham Lincoln understood this exactly. He is supposed to have told his cabinet that Vicksburg was the key, that the war could never be brought to a close until that key was in the Union’s pocket, and whether or not those were the precise words, the idea was his, and it was correct.' },
       { fig: '/war-img/vicksburg-overview.png', cap: 'Why Vicksburg was the key: its bluff batteries command the hairpin bend, and the last Confederate-held reach of the river runs down to Port Hudson.', credit: 'Stuff Happened map' },

@@ -12,7 +12,7 @@ const GRAY = FG(0.42), FAINT = FG(0.22), GRID = FG(0.06), water = alpha('#0ea5e9
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 
 const num = (s, k) => { const m = s.match(new RegExp(`\\b${k}:\\s*(-?[\\d.]+)`)); return m ? parseFloat(m[1]) : undefined }
-const str = (s, k) => { const m = s.match(new RegExp(`\\b${k}:\\s*'([^']*)'`)); return m ? m[1] : undefined }
+const str = (s, k) => { const m = s.match(new RegExp(`\\b${k}:\\s*'((?:\\\\.|[^'\\\\])*)'`)); return m ? m[1].replace(/\\(.)/g, '$1') : undefined }
 const has = (s, k) => new RegExp(`\\b${k}:\\s*true`).test(s)
 function extractLocators(src) { const out = []; let i = 0; while ((i = src.indexOf('locator:', i)) !== -1) { const o = src.indexOf('{', i); let d = 0, j = o; for (; j < src.length; j++) { if (src[j] === '{') d++; else if (src[j] === '}') { d--; if (!d) break } } out.push(src.slice(o, j + 1)); i = j + 1 } return out }
 function arrObjs(body, key) { const st = body.indexOf(`${key}:`); if (st < 0) return []; const lb = body.indexOf('[', st); let d = 0, j = lb; for (; j < body.length; j++) { if (body[j] === '[') d++; else if (body[j] === ']') { d--; if (!d) break } } const arr = body.slice(lb + 1, j); const objs = []; let dd = 0, s = -1; for (let k = 0; k < arr.length; k++) { if (arr[k] === '{') { if (!dd) s = k; dd++ } else if (arr[k] === '}') { dd--; if (!dd) objs.push(arr.slice(s, k + 1)) } } return objs }

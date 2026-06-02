@@ -18,6 +18,23 @@ const CEDAR_CREEK_NARR: Record<string, Narr> = {
     eyebrow: 'Cedar Creek · The Shenandoah',
     title: 'The valley they came to burn',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -79.1, lonMax: -76.4, latMin: 38.4, latMax: 39.7 },
+        states: [
+          { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -77.1, labelLat: 39.5 },
+          { name: 'Maryland' }, { name: 'West Virginia' }, { name: 'Pennsylvania' },
+        ],
+        dots: [
+          { name: 'Cedar Creek', date: 'Oct 19, 1864', lat: 38.998, lon: -78.407, heavy: true, anchor: 'end' },
+          { name: 'Winchester', lat: 39.185, lon: -78.164, color: '#8a8175', anchor: 'end' },
+          { name: 'Washington, D.C.', lat: 38.907, lon: -77.037, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
+
+
+
+
       { p: 'By October 1864 the Shenandoah Valley of Virginia had been the most fought-over ground in the East for three years, and the reason was written into the land itself. The Valley is a long, fertile corridor running southwest-to-northeast between two mountain ranges, which made it two things at once. It was the Confederacy’s “breadbasket,” a rich grain belt whose wheat and cattle fed General Robert E. Lee’s Army of Northern Virginia. And it was a natural invasion highway: because it points toward Washington, an army marching down the Valley (down meaning north, the way the rivers run) could threaten the U.S. capital while the mountains screened its movement. Food for the South and a knife at the North’s throat, in one piece of geography. Both armies wanted it for both reasons.' },
       { p: 'A breadbasket is the object and not the cause. The Confederacy existed to preserve and extend slavery, and the Valley was a slave economy that proved it. The wheat that fed Lee’s army was grown by enslaved people, and the proof of it sat in the middle of the ground this battle would be fought on: a working slave plantation called Belle Grove, built and worked by enslaved labor, with 276 enslaved men, women, and children tied to the estate across its history. So when the Union set out to wreck the breadbasket, it was not attacking a granary in the abstract. It was attacking the food supply of a slaveholding army, raised on land worked by the very people the war was being fought to free. By the end of this story that house stands in the middle of the battlefield, with a name on it.' },
       { h: 'Three Times Beaten Up the Valley', eyebrow: 'The Shenandoah' },

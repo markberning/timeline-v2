@@ -11,6 +11,21 @@ const STONES_RIVER_NARR: Record<string, Narr> = {
     eyebrow: 'Stones River · Two mirror-image plans',
     title: 'The Year Turns at Murfreesboro',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when',
+        frame: { lonMin: -87.5, lonMax: -85.7, latMin: 35.3, latMax: 36.7 },
+        states: [
+          { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -86.2, labelLat: 36.5 },
+          { name: 'Kentucky' }, { name: 'Alabama' }, { name: 'Georgia' }, { name: 'Virginia' },
+        ],
+        dots: [
+          { name: 'Stones River', date: 'Dec 31, 1862–Jan 2, 1863', lat: 35.848, lon: -86.432, heavy: true, anchor: 'middle', dy: 24 },
+          { name: 'Nashville', lat: 36.166, lon: -86.782, color: '#8a8175', anchor: 'middle', dy: -16 },
+        ],
+      } },
+
+
+
       { p: 'In the second winter of America’s Civil War, the North against the slaveholding South and going on two years now, the fighting did not pause for Christmas. In the last week of 1862 the South had real reason for cheer: two weeks earlier, on December 13, a Union army had walked into a slaughter at Fredericksburg, Virginia, and the North was reeling. The Union badly needed a win, and it needed one in the West, the Civil War’s other great battleground, the long valleys of the Tennessee and the Cumberland rivers, where control of the rivers and the railroads meant control of the interior. So the day after Christmas, the Union’s Army of the Cumberland (Civil War armies were usually named after rivers, not states) marched out of Nashville, Tennessee, heading southeast down the Nashville Pike (a turnpike, a paved toll road) toward the town of Murfreesboro, about 30 miles (48 km) away, where a Confederate army was wintering.' },
       { pill: '/war-civil-war/eastern/fredericksburg', plabel: 'Fredericksburg: the slaughter that left the North desperate for a win' },
       { p: 'These two armies were marching toward each other to settle a question the Confederacy itself had never been shy about. It was a country barely two years old, founded for one overriding reason: to protect and preserve the enslavement of four million Black people. The South had built its economy and its social order on slavery and seceded rather than see it limited. And on the very morning these two armies would pause to bury their dead, that question would stop being abstract: the Emancipation Proclamation took legal effect on January 1, 1863, in the middle of this battle. Stones River would be the first major battle fought under it.' },
