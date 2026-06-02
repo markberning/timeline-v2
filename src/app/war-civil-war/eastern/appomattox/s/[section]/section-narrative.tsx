@@ -104,5 +104,5 @@ const APPOMATTOX_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={APPOMATTOX_NARR} id={id} slug="appomattox" battleName="Appomattox Court House" theatreId="east" theatreHref="/war-civil-war/eastern" battleId="e-appomattox" />
+  return <BattleSectionReader sections={APPOMATTOX_NARR} id={id} slug="appomattox" battleName="Appomattox Court House" date="April 9, 1865" theatreId="east" theatreHref="/war-civil-war/eastern" battleId="e-appomattox" />
 }

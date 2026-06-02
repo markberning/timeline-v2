@@ -111,5 +111,5 @@ const BENTONVILLE_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={BENTONVILLE_NARR} id={id} slug="bentonville" battleName="Bentonville" theatreId="west" theatreHref="/war-civil-war/western" battleId="w-bentonville" accent="#1d4ed8" />
+  return <BattleSectionReader sections={BENTONVILLE_NARR} id={id} slug="bentonville" battleName="Bentonville" date="March 19–21, 1865" theatreId="west" theatreHref="/war-civil-war/western" battleId="w-bentonville" accent="#1d4ed8" />
 }

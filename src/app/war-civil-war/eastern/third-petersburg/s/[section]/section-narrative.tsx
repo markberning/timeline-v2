@@ -87,5 +87,5 @@ const PETERSBURG3_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={PETERSBURG3_NARR} id={id} slug="third-petersburg" battleName="Third Petersburg" theatreId="east" theatreHref="/war-civil-war/eastern" battleId="e-petersburg3" />
+  return <BattleSectionReader sections={PETERSBURG3_NARR} id={id} slug="third-petersburg" battleName="Third Petersburg" date="April 2, 1865" theatreId="east" theatreHref="/war-civil-war/eastern" battleId="e-petersburg3" />
 }

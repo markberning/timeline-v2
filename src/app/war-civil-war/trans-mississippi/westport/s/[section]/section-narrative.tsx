@@ -90,5 +90,5 @@ const WESTPORT_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={WESTPORT_NARR} id={id} slug="westport" battleName="Westport" theatreId="tmis" theatreHref="/war-civil-war/trans-mississippi" battleId="t-westport" accent="#d97706" />
+  return <BattleSectionReader sections={WESTPORT_NARR} id={id} slug="westport" battleName="Westport" date="October 23, 1864" theatreId="tmis" theatreHref="/war-civil-war/trans-mississippi" battleId="t-westport" accent="#d97706" />
 }

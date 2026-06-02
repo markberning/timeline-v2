@@ -106,5 +106,5 @@ const FIVE_FORKS_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={FIVE_FORKS_NARR} id={id} slug="five-forks" battleName="Five Forks" theatreId="east" theatreHref="/war-civil-war/eastern" battleId="e-fiveforks" />
+  return <BattleSectionReader sections={FIVE_FORKS_NARR} id={id} slug="five-forks" battleName="Five Forks" date="April 1, 1865" theatreId="east" theatreHref="/war-civil-war/eastern" battleId="e-fiveforks" />
 }

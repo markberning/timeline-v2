@@ -102,5 +102,5 @@ const FORT_FISHER2_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={FORT_FISHER2_NARR} id={id} slug="second-fort-fisher" battleName="Second Fort Fisher" theatreId="naval" theatreHref="/war-civil-war/naval" battleId="n-fortfisher2" accent="#b44d3b" />
+  return <BattleSectionReader sections={FORT_FISHER2_NARR} id={id} slug="second-fort-fisher" battleName="Second Fort Fisher" date="January 13–15, 1865" theatreId="naval" theatreHref="/war-civil-war/naval" battleId="n-fortfisher2" accent="#b44d3b" />
 }

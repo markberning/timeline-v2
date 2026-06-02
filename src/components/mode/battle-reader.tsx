@@ -8,7 +8,9 @@
 import { useState } from 'react'
 import { WarBreadcrumb, alpha, CHROME_TOP, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
-import type { Theatre } from '@/lib/civil-war-roster'
+import { MAJORS, type Theatre } from '@/lib/civil-war-roster'
+
+const MONTH_FULL: Record<string, string> = { Jan: 'January', Feb: 'February', Mar: 'March', Apr: 'April', May: 'May', Jun: 'June', Jul: 'July', Aug: 'August', Sep: 'September', Sept: 'September', Oct: 'October', Nov: 'November', Dec: 'December' }
 import { Lightbox } from '@/components/lightbox'
 import { DottedMap, type Frame, type StateSpec, type Dot, type FreeLabel } from '@/components/mode/dotted-map'
 
@@ -65,10 +67,13 @@ function fmt(text: string, accent?: string): React.ReactNode {
 }
 
 export function BattleSectionReader({
-  sections, id, slug, battleName, theatreId = 'east', battleId, theatreHref = '/war-civil-war/eastern', accent = '#7c3aed',
+  sections, id, slug, battleName, date, theatreId = 'east', battleId, theatreHref = '/war-civil-war/eastern', accent = '#7c3aed',
   endHref, endKicker, endLabel, heroImage, heroPalette = ['#3a2e21', '#2a221c', '#0a0806'], heroCredit, heroFocus = 'center 34%', heroScale = 1.06,
 }: {
   sections: Record<string, Narr>; id: string; slug: string; battleName: string
+  // precise battle date for the sticky header (e.g. "April 1, 1865"); falls back
+  // to the roster's month + year when omitted, so no battle reads blank.
+  date?: string
   theatreId?: Theatre | 'offfield' | 'howfought'; battleId?: string; theatreHref?: string; accent?: string
   // override the final "End of …" link (e.g. a one-section theme returns to the
   // Off the Battlefield spine rather than self-linking to its own page)
@@ -81,6 +86,8 @@ export function BattleSectionReader({
 }) {
   const ids = Object.keys(sections)
   const n = sections[id] ?? sections[ids[0]]
+  const major = battleId ? MAJORS.find(b => b.id === battleId) : undefined
+  const dateLine = date ?? (major ? `${MONTH_FULL[major.mo] ?? major.mo} ${major.year}` : undefined)
   const [figFailed, setFigFailed] = useState<Record<number, boolean>>({})
   const [heroFailed, setHeroFailed] = useState(false)
   const [lb, setLb] = useState<{ src: string; cap: string } | null>(null)
@@ -135,8 +142,11 @@ export function BattleSectionReader({
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
           </button>
           <div style={{ flex: 1, minWidth: 0 }}>
-            <div style={{ fontFamily: SERIF, fontSize: 19, fontWeight: 600, lineHeight: 1.1, letterSpacing: '-0.3px', color: 'var(--foreground)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{battleName}</div>
-            <div style={{ fontFamily: SANS, fontSize: 11, lineHeight: 1.3, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', marginTop: 1 }}>{n.title}</div>
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: 9, flexWrap: 'wrap', minWidth: 0 }}>
+              <span style={{ fontFamily: SERIF, fontSize: 20, fontWeight: 600, lineHeight: 1.12, letterSpacing: '-0.3px', color: accent }}>{battleName}</span>
+              {dateLine && <span style={{ fontFamily: SERIF, fontSize: 20, fontWeight: 500, lineHeight: 1.12, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>{dateLine}</span>}
+            </div>
+            <div style={{ fontFamily: SANS, fontSize: 17, lineHeight: 1.3, fontWeight: 500, color: 'color-mix(in srgb, var(--foreground) 82%, transparent)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', marginTop: 3 }}>{n.title}</div>
           </div>
         </div>
       </div>

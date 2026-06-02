@@ -98,5 +98,5 @@ const BLAKELEY_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={BLAKELEY_NARR} id={id} slug="fort-blakeley" battleName="Fort Blakeley" theatreId="west" theatreHref="/war-civil-war/western" battleId="w-blakeley" accent="#1d4ed8" />
+  return <BattleSectionReader sections={BLAKELEY_NARR} id={id} slug="fort-blakeley" battleName="Fort Blakeley" date="April 9, 1865" theatreId="west" theatreHref="/war-civil-war/western" battleId="w-blakeley" accent="#1d4ed8" />
 }

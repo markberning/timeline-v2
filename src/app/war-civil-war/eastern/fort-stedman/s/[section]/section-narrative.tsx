@@ -98,5 +98,5 @@ const FORT_STEDMAN_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={FORT_STEDMAN_NARR} id={id} slug="fort-stedman" battleName="Fort Stedman" theatreId="east" theatreHref="/war-civil-war/eastern" battleId="e-fortstedman" />
+  return <BattleSectionReader sections={FORT_STEDMAN_NARR} id={id} slug="fort-stedman" battleName="Fort Stedman" date="March 25, 1865" theatreId="east" theatreHref="/war-civil-war/eastern" battleId="e-fortstedman" />
 }
