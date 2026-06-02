@@ -32,6 +32,8 @@ export function TheatresTab({ active, goBattles }: { active: string; goBattles: 
   const frame = at?.frame ?? NATIONAL_FRAME
   const mapAccent = isAll ? '#8e8473' : (TH_HEX[active] ?? '#8e8473')
   const rivers = US_RIVERS.Mississippi.map(pts => ({ pts }))
+  // selected theatre's card rises to the top (stable for the rest); 'All' keeps order
+  const ordered = [...THEATRE_DATA].sort((a, b) => Number(b.id === active) - Number(a.id === active))
 
   return (
     <div className="p-page">
@@ -39,7 +41,7 @@ export function TheatresTab({ active, goBattles }: { active: string; goBattles: 
         <DottedMap inset={false} accent={mapAccent} frame={frame} states={states} dots={dots} callouts={callouts} rivers={rivers} vbWidth={760} vbHeight={590} />
       </div>
       <div className="p-theatres">
-        {THEATRE_DATA.map(t => {
+        {ordered.map(t => {
           const c = `var(--th-${t.id})`
           const on = active === t.id
           return (
