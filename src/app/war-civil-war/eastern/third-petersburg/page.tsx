@@ -34,10 +34,10 @@ const SECTIONS = [
   { id: 'fall-and-flight', eyebrow: 'That night and after', title: 'The fall and the flight', blurb: 'Lee abandons Petersburg and Richmond, the capital burns, and the Army of Northern Virginia takes the road west toward Appomattox.' },
 ]
 const SECTION_IMG: Record<string, string> = {
-  'the-siege': '/war-img/third-petersburg-siege.jpg',
-  'the-breakthrough': '/war-img/third-petersburg-breakthrough.jpg',
-  'fort-gregg': '/war-img/third-petersburg-fort-gregg.jpg',
-  'fall-and-flight': '/war-img/third-petersburg-richmond.jpg',
+  'the-siege': '/war-img/cmdr/grant.jpg',
+  'the-breakthrough': '/war-img/third-petersburg-breakthrough.png',
+  'fort-gregg': '/war-img/third-petersburg-fort-gregg.png',
+  'fall-and-flight': '/war-img/third-petersburg-fall-and-flight.png',
 }
 const sectionHref = (id: string) => `/war-civil-war/eastern/third-petersburg/s/${id}`
 const num = (n: number) => n.toLocaleString('en-US')

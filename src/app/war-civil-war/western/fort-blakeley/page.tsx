@@ -35,7 +35,7 @@ const SECTIONS = [
 const SECTION_IMG: Record<string, string> = {
   'last-port': '/war-img/cmdr/canby.jpg',
   'the-siege': '/war-img/fort-blakeley-siege.png',
-  'the-storm': '/war-img/fort-blakeley-assault.png',
+  'the-storm': '/war-img/fort-blakeley-storm.png',
   'the-end': '/war-img/cmdr/hawkins.jpg',
 }
 const sectionHref = (id: string) => `/war-civil-war/western/fort-blakeley/s/${id}`

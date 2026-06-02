@@ -35,10 +35,10 @@ const SECTIONS = [
   { id: 'surrender', eyebrow: 'The surrender', title: 'The Surrender', blurb: 'Lee and Grant meet in Wilmer McLean’s parlor. The terms, the rations, General Orders No. 9, and a final salute: honor answering honor.' },
 ]
 const SECTION_IMG: Record<string, string> = {
-  'the-collapse': '/war-img/appomattox-collapse.jpg',
-  'last-march': '/war-img/appomattox-last-march.jpg',
-  'the-attack': '/war-img/appomattox-attack.jpg',
-  'surrender': '/war-img/appomattox-surrender.jpg',
+  'the-collapse': '/war-img/appomattox-race-west.png',
+  'last-march': '/war-img/appomattox-station.png',
+  'the-attack': '/war-img/appomattox-last-attack.png',
+  'surrender': '/war-img/appomattox-surrender.png',
 }
 const sectionHref = (id: string) => `/war-civil-war/eastern/appomattox/s/${id}`
 const num = (n: number) => n.toLocaleString('en-US')

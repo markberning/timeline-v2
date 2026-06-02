@@ -35,10 +35,10 @@ const SECTIONS = [
   { id: 'the-reckoning', eyebrow: 'The cost & the meaning', title: 'The last sortie', blurb: '4,000 men gone for nothing in four hours. The Army of Northern Virginia’s final attack, and a week later the line breaks for good.' },
 ]
 const SECTION_IMG: Record<string, string> = {
-  'last-card': '/war-img/fort-stedman-last-card.jpg',
-  'before-dawn': '/war-img/fort-stedman-assault.jpg',
-  'crossfire': '/war-img/fort-stedman-counterattack.jpg',
-  'the-reckoning': '/war-img/fort-stedman-reckoning.jpg',
+  'last-card': '/war-img/cmdr/gordon.jpg',
+  'before-dawn': '/war-img/fort-stedman-breakthrough.png',
+  'crossfire': '/war-img/fort-stedman-ring.png',
+  'the-reckoning': '/war-img/cmdr/grant.jpg',
 }
 const sectionHref = (id: string) => `/war-civil-war/eastern/fort-stedman/s/${id}`
 const num = (n: number) => n.toLocaleString('en-US')

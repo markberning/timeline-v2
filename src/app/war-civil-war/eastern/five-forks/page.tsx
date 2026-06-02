@@ -34,11 +34,11 @@ const SECTIONS = [
   { id: 'fall', eyebrow: 'What it meant', title: 'The week the war ended', blurb: 'Petersburg falls, Richmond burns, and a week later Lee surrenders at Appomattox. The blow that started the last week of the war.' },
 ]
 const SECTION_IMG: Record<string, string> = {
-  'crossroads': '/war-img/five-forks-crossroads.jpg',
-  'dinwiddie': '/war-img/five-forks-dinwiddie.jpg',
-  'shad-bake': '/war-img/five-forks-shad-bake.jpg',
-  'collapse': '/war-img/five-forks-collapse.jpg',
-  'fall': '/war-img/five-forks-fall.jpg',
+  'crossroads': '/war-img/cmdr/sheridan.jpg',
+  'dinwiddie': '/war-img/five-forks-dinwiddie.png',
+  'shad-bake': '/war-img/cmdr/pickett.jpg',
+  'collapse': '/war-img/five-forks-assault.png',
+  'fall': '/war-img/cmdr/warren.jpg',
 }
 const sectionHref = (id: string) => `/war-civil-war/eastern/five-forks/s/${id}`
 const num = (n: number) => n.toLocaleString('en-US')
