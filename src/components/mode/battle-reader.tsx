@@ -8,7 +8,7 @@
 import { useState } from 'react'
 import { WarBreadcrumb, alpha, CHROME_TOP, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
-import { MAJORS, type Theatre } from '@/lib/civil-war-roster'
+import { MAJORS, CHAPTERS, type Theatre } from '@/lib/civil-war-roster'
 
 const MONTH_FULL: Record<string, string> = { Jan: 'January', Feb: 'February', Mar: 'March', Apr: 'April', May: 'May', Jun: 'June', Jul: 'July', Aug: 'August', Sep: 'September', Sept: 'September', Oct: 'October', Nov: 'November', Dec: 'December' }
 import { Lightbox } from '@/components/lightbox'
@@ -96,6 +96,13 @@ export function BattleSectionReader({
   const nextId = idx >= 0 ? ids[idx + 1] : undefined
   const next = nextId ? sections[nextId] : null
   const battleHref = `${theatreHref}/${slug}`
+  // sticky-header subtitle: the section title, unless it just repeats the battle
+  // name (single-section theme/military-story pages) — then show the eyebrow.
+  const subtitle = n.title && n.title !== battleName ? n.title : (n.eyebrow ?? '')
+  // single-page chapters (the 5 Military-Story chapters) have no within-page
+  // "next section"; link to the next chapter in the CHAPTERS sequence instead.
+  const chapterIdx = battleId ? CHAPTERS.findIndex(c => c.id === battleId) : -1
+  const nextChapter = !next && chapterIdx >= 0 && chapterIdx < CHAPTERS.length - 1 ? CHAPTERS[chapterIdx + 1] : null
 
   // Breadcrumb: ACW › Theatre › Battle › Chapter. On a section page the battle
   // crumb demotes to an ancestor (links to the battle overview, keeps its jump
@@ -146,7 +153,7 @@ export function BattleSectionReader({
               <span style={{ fontFamily: SERIF, fontSize: 20, fontWeight: 600, lineHeight: 1.12, letterSpacing: '-0.3px', color: accent }}>{battleName}</span>
               {dateLine && <span style={{ fontFamily: SERIF, fontSize: 20, fontWeight: 500, lineHeight: 1.12, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>{dateLine}</span>}
             </div>
-            <div style={{ fontFamily: SANS, fontSize: 17, lineHeight: 1.3, fontWeight: 500, color: 'color-mix(in srgb, var(--foreground) 82%, transparent)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', marginTop: 3 }}>{n.title}</div>
+            {subtitle && <div style={{ fontFamily: SANS, fontSize: 17, lineHeight: 1.3, fontWeight: 500, color: 'color-mix(in srgb, var(--foreground) 82%, transparent)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', marginTop: 3 }}>{subtitle}</div>}
           </div>
         </div>
       </div>
@@ -221,6 +228,14 @@ export function BattleSectionReader({
             <div style={{ minWidth: 0 }}>
               <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: accent }}>Next section</div>
               <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.25, marginTop: 2 }}>{next.title}</div>
+            </div>
+            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: accent }} aria-hidden>→</span>
+          </a>
+        ) : nextChapter?.href ? (
+          <a href={nextChapter.href} style={{ marginTop: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, border: `1px solid ${alpha(accent, 0.4)}`, borderRadius: 12, padding: '14px 16px', background: alpha(accent, 0.06), textDecoration: 'none', color: 'inherit' }}>
+            <div style={{ minWidth: 0 }}>
+              <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: accent }}>Next chapter</div>
+              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.25, marginTop: 2 }}>{nextChapter.short ?? nextChapter.name}</div>
             </div>
             <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: accent }} aria-hidden>→</span>
           </a>
