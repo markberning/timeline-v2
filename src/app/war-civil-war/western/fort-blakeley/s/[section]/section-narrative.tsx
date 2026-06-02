@@ -20,9 +20,9 @@ const BLAKELEY_NARR: Record<string, Narr> = {
       { locator: {
         eyebrow: 'Where and when · April 1865',
         caption: 'Fort Blakeley stood on high ground above the rivers north of Mobile Bay, in Baldwin County, Alabama, about six miles above its sister work at Spanish Fort. Major General Edward Canby (North) landed his army on the eastern shore of the bay and pushed up it, taking Spanish Fort first and then closing on Blakeley, the last earthwork guarding the back door to Mobile.',
-        frame: { lonMin: -90.0, lonMax: -84.4, latMin: 28.6, latMax: 33.4 },
+        frame: { lonMin: -88.8, lonMax: -86.6, latMin: 29.8, latMax: 31.6 },
         states: [
-          { name: 'Alabama', tone: 'focus', label: 'ALABAMA', labelLon: -86.8, labelLat: 32.4 },
+          { name: 'Alabama', tone: 'focus', label: 'ALABAMA', labelLon: -87.5, labelLat: 31.2 },
           { name: 'Mississippi' }, { name: 'Florida' }, { name: 'Georgia' }, { name: 'Tennessee' },
         ],
         dots: [

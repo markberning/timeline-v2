@@ -31,7 +31,7 @@ const ANTIETAM_NARR: Record<string, Narr> = {
         dots: [
           { name: 'Sharpsburg', date: 'Sept 17, 1862', lat: 39.46, lon: -77.75, heavy: true, anchor: 'start', dy: -12 },
           { name: 'Frederick', lat: 39.41, lon: -77.41, color: '#8a8175', anchor: 'start' },
-          { name: 'Harpers Ferry', lat: 39.32, lon: -77.74, color: '#8a8175', anchor: 'start' },
+          { name: 'Harpers Ferry', lat: 39.32, lon: -77.74, color: '#8a8175', anchor: 'end' },
           { name: 'Washington', lat: 38.91, lon: -77.04, color: '#8a8175', anchor: 'end' },
         ],
       } },

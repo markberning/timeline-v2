@@ -30,7 +30,7 @@ const BENTONVILLE_NARR: Record<string, Narr> = {
         ],
         dots: [
           { name: 'Bentonville', date: 'Mar 19–21, 1865', lat: 35.31, lon: -78.32, heavy: true, anchor: 'start' },
-          { name: 'Goldsboro', lat: 35.38, lon: -77.99, color: '#8a8175', anchor: 'end', dy: -14 },
+          { name: 'Goldsboro', lat: 35.38, lon: -77.99, color: '#8a8175', anchor: 'start', dy: -16 },
           { name: 'Raleigh', lat: 35.78, lon: -78.64, color: '#8a8175', anchor: 'end' },
           { name: 'Smithfield', lat: 35.51, lon: -78.34, color: '#8a8175', anchor: 'start' },
         ],
