@@ -3,192 +3,55 @@
 // BATTLE dossier (Pea Ridge / Elkhorn Tavern). Same shape as Antietam.
 // Content produced through the war content pipeline (audits/war-content-pipeline.md).
 
-import { useState } from 'react'
-import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
-import { CommandersStrip } from '@/components/mode/commanders-strip'
+import { BattleDossier, type BattleData } from '../../battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
-const ACCENT = ACCENTS.amber // Trans-Mississippi theatre
-const CRUMBS = civilWarCrumbs({ theatre: 'tmis', battleId: 't-pearidge' })
-
-const HERO_IMG = '/war-img/pea-ridge-hero.jpg' // Kurz & Allison chromolithograph (PD)
-const HERO_PAL = ['#3a3320', '#5a2a32', '#100506']
-
-const ARMIES = [
-  { side: 'Union', label: 'Army of the Southwest', size: '~10,250', commander: 'Brig. Gen. Samuel R. Curtis', note: 'Dug in facing south, then coolly turned the whole army around to face north.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of the West', size: '~16,000', commander: 'Maj. Gen. Earl Van Dorn', note: 'Marched all night to attack from behind, and stranded his own ammunition doing it.', color: ACCENTS.rust },
-]
-const CAS = { union: 1384, csa: 2000, civ: 0 }
-const FIGURES = [
-  { name: 'Samuel R. Curtis', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/curtis.jpg', blurb: 'A trained engineer, Curtis chased Price’s Missourians out of the state and dug in along Little Sugar Creek, only to wake on March 7 with Van Dorn’s army in his rear. He turned his whole Army of the Southwest about-face to the north, held through the first day, and on the second drove the out-of-ammunition Confederates from the field.' },
-  { name: 'Franz Sigel', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/sigel.jpg', blurb: 'Sigel was slow getting his divisions away from Bentonville on the approach, and his rear guard was brushed back as the campaign opened. On the second day he redeemed it, massing some twenty guns west of Elkhorn Tavern and directing the bombardment that silenced the Confederate batteries and opened the way for Curtis’s advance.' },
-  { name: 'Eugene A. Carr', role: 'Div., Union', side: 'U', img: '/war-img/cmdr/carr.jpg', blurb: 'Carr held the Telegraph Road and Elkhorn Tavern against Price’s far larger wing through the whole first day, giving ground grudgingly across one line after another. Shot three times and still refusing to leave the field, he bought Curtis the hours he needed and later received the Medal of Honor for the stand.' },
-  { name: 'Earl Van Dorn', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/van-dorn.jpg', blurb: 'Van Dorn united Price’s and McCulloch’s feuding commands into one army and marched it all night around Curtis to attack from the rear. The flank march stranded his own ammunition wagons far behind the lines, and when his guns ran dry on the second day he was beaten and pulled the army out of Arkansas entirely.' },
-  { name: 'Sterling Price', role: 'Wing, CSA', side: 'C', img: '/war-img/cmdr/price.jpg', blurb: 'Price led the Missouri wing up the Telegraph Road and drove Carr back through four lines to seize Elkhorn Tavern by nightfall, the deepest the Confederates ever got into Curtis’s position. He was wounded during the fighting but stayed in command, and lost the ground again on the second day for lack of ammunition.' },
-  { name: 'Benjamin McCulloch', role: 'Wing, CSA †', side: 'C', img: '/war-img/cmdr/mcculloch.jpg', blurb: 'A former Texas Ranger who had feuded with Price all winter, McCulloch led the western wing toward Leetown and opened well, his cavalry overrunning a Union battery. Riding forward in his black civilian suit to scout the line himself, he was shot dead by a Union skirmisher in mid-morning.' },
-  { name: 'James McIntosh', role: 'Brigade, CSA †', side: 'C', img: '/war-img/cmdr/mcintosh.jpg', blurb: 'McIntosh took command of the western wing the instant McCulloch fell and tried to keep the attack moving. Leading an advance from the front, he was killed by the same Union skirmishers less than fifteen minutes later, leaving the wing without either of its top two commanders.' },
-  { name: 'Albert Pike', role: 'Indian Terr., CSA', side: 'C', img: '/war-img/cmdr/pike.jpg', blurb: 'A lawyer and poet with no real combat experience, Pike led the only sizable Native American force in a major Civil War battle, raised in Indian Territory under treaties he had helped negotiate. With the wing’s senior officers dead, captured, or lost, command fell to him by default, and he could do little but gather the wreckage and order a withdrawal.' },
-]
-const SECTIONS = [
-  { id: 'the-armies-gather', eyebrow: 'After Wilson’s Creek', title: 'The Fight Moves South', blurb: 'The long fight for Missouri drives south into Arkansas, where Van Dorn (South) unites two armies to take the state back after a march that wrecks them.' },
-  { id: 'around-the-army', eyebrow: 'March 7', title: 'The Army That Turned Around', blurb: 'Van Dorn loops clear around the Union to attack from behind; Curtis (North) calmly turns to face him, and two Confederate generals die in minutes.' },
-  { id: 'out-of-ammunition', eyebrow: 'March 8 & after', title: 'The Guns Fall Silent', blurb: 'The Confederate guns go quiet for lack of ammunition stranded by their own march. Missouri is secured, and the war moves east.' },
-]
-const SECTION_IMG: Record<string, string> = {
-  'the-armies-gather': '/war-img/cmdr/curtis.jpg',
-  'around-the-army': '/war-img/pea-ridge.png',
-  'out-of-ammunition': '/war-img/pea-ridge-elkhorn.jpg',
-}
-const sectionHref = (id: string) => `/war-civil-war/trans-mississippi/pea-ridge/s/${id}`
-const num = (n: number) => n.toLocaleString('en-US')
-
-function Eyebrow({ children, color }: { children: React.ReactNode; color?: string }) {
-  return <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: color || 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>{children}</div>
-}
-
-function HeroImg() {
-  const [failed, setFailed] = useState(false)
-  return (
-    <div style={{ position: 'relative', height: 260, overflow: 'hidden' }}>
-      {failed
-        ? <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(135deg, ${HERO_PAL[0]}, ${HERO_PAL[1]} 55%, ${HERO_PAL[2]})` }} />
-        : <img src={HERO_IMG} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 42%' }} />}
-      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.75) 100%)' }} />
-      <div style={{ position: 'absolute', left: 16, right: 16, bottom: 14 }}>
-        <Eyebrow color="#f0c089">Battle · Trans-Mississippi</Eyebrow>
-        <h1 style={{ margin: '6px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 30, lineHeight: 1.05, letterSpacing: -0.5, color: '#fff' }}>Battle of Pea Ridge</h1>
-        <div style={{ fontFamily: SERIF, fontSize: 14, color: 'rgba(255,255,255,0.82)', marginTop: 4 }}>March 7–8, 1862 · Benton County, Arkansas</div>
-      </div>
-    </div>
-  )
-}
-
-function CasualtiesBar() {
-  const total = CAS.union + CAS.csa + CAS.civ
-  const seg = (v: number, c: string) => <div style={{ width: `${(v / total) * 100}%`, background: c, height: '100%' }} />
-  return (
-    <div>
-      <div style={{ display: 'flex', height: 10, borderRadius: 5, overflow: 'hidden', marginBottom: 8 }}>
-        {seg(CAS.union, ACCENTS.blue)}{seg(CAS.csa, ACCENTS.rust)}
-      </div>
-      <div style={{ display: 'flex', gap: 16, fontFamily: SANS, fontSize: 11, color: 'color-mix(in srgb, var(--foreground) 65%, transparent)' }}>
-        <span><span style={{ color: ACCENTS.blue }}>■</span> Union ~{num(CAS.union)}</span>
-        <span><span style={{ color: ACCENTS.rust }}>■</span> Confederacy ~{num(CAS.csa)}</span>
-      </div>
-    </div>
-  )
-}
-
-function AtAGlance() {
-  const [open, setOpen] = useState(true)
-  return (
-    <section style={{ borderTop: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', padding: '14px 16px' }}>
-      <button onClick={() => setOpen(o => !o)} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'inherit' }}>
-        <Eyebrow color={ACCENT}>At a glance</Eyebrow>
-        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontFamily: SANS, fontSize: 11, fontWeight: 600, color: ACCENT }}>
-          {open ? 'Hide' : 'Show'}
-          <span style={{ width: 22, height: 22, borderRadius: 999, border: `1px solid ${alpha(ACCENT, 0.55)}`, background: alpha(ACCENT, 0.1), display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 11, lineHeight: 1, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 200ms ease' }}>▾</span>
-        </span>
-      </button>
-      {open && (
-        <div style={{ marginTop: 14 }}>
-          <div style={{ display: 'flex', marginBottom: 18 }}>
-            {[['Duration', '2 days'], ['Casualties', '~3,400'], ['Winner', 'Union']].map(([k, v], i) => (
-              <div key={k} style={{ flex: 1, textAlign: 'center', borderLeft: i ? '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)' : 'none' }}>
-                <div style={{ fontFamily: SERIF, fontSize: 18 }}>{v}</div>
-                <Eyebrow>{k}</Eyebrow>
-              </div>
-            ))}
-          </div>
-          <div style={{ display: 'flex', alignItems: 'stretch', gap: 0, marginBottom: 18, position: 'relative' }}>
-            {ARMIES.map((a, i) => (
-              <div key={a.side} style={{ flex: 1, textAlign: i ? 'right' : 'left', paddingRight: i ? 0 : 18, paddingLeft: i ? 18 : 0 }}>
-                <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: a.color }}>{a.side}</div>
-                <div style={{ fontFamily: SERIF, fontSize: 15, marginTop: 2 }}>{a.label}</div>
-                <div style={{ fontFamily: SANS, fontSize: 12.5, marginTop: 3 }}><strong style={{ fontWeight: 600 }}>{a.size}</strong> <span style={{ color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>troops</span></div>
-                <div style={{ fontFamily: SANS, fontSize: 12, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', marginTop: 1 }}>{a.commander}</div>
-                <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.4, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', marginTop: 5 }}>{a.note}</div>
-              </div>
-            ))}
-            <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%,-50%)', width: 26, height: 26, borderRadius: 999, background: 'var(--background)', border: '1px solid color-mix(in srgb, var(--foreground) 20%, transparent)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SERIF, fontStyle: 'italic', fontSize: 12, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>vs</div>
-          </div>
-          <CasualtiesBar />
-        </div>
-      )}
-    </section>
-  )
-}
-
-function OutcomePill() {
-  return (
-    <div style={{ padding: '14px 16px' }}>
-      <div style={{ border: `1px solid ${alpha(ACCENT, 0.4)}`, background: alpha(ACCENT, 0.08), borderRadius: 10, padding: '13px 15px' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
-          <span style={{ color: ACCENT, fontWeight: 700, fontSize: 13 }}>✓</span>
-          <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: ACCENT }}>Outcome</span>
-        </div>
-        <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Decisive Union victory · Missouri secured</div>
-        <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Curtis’s outnumbered army turned completely around to meet Van Dorn’s attack from the rear and broke it, helped by the deaths of two Confederate generals and an army that ran out of ammunition because its supply train was stranded by its own flank march. Pea Ridge secured Missouri for the Union for the rest of the war, and the largest Confederate bid to take the border state failed for good. Within weeks Van Dorn hauled his army east of the Mississippi, leaving Arkansas stripped and the Trans-Mississippi a backwater.
-        </p>
-      </div>
-    </div>
-  )
-}
-
-function Thumb({ file, w, h }: { file: string; w: number; h: number }) {
-  const [failed, setFailed] = useState(false)
-  return (
-    <div style={{ width: w, height: h, borderRadius: 6, overflow: 'hidden', flexShrink: 0, background: 'linear-gradient(135deg, #3a2e21, #1c1814)' }}>
-      {!failed && <img src={file} alt="" onError={() => setFailed(true)} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 30%' }} />}
-    </div>
-  )
-}
-
-function SectionsList() {
-  return (
-    <div style={{ padding: '6px 16px 40px' }}>
-      <Eyebrow color={ACCENT}>The narrative · 3 sections</Eyebrow>
-      <div style={{ position: 'relative', marginTop: 12 }}>
-        <div style={{ position: 'absolute', left: 13, top: 8, bottom: 8, width: 1, background: 'color-mix(in srgb, var(--foreground) 18%, transparent)' }} />
-        {SECTIONS.map((s, i) => (
-          <a key={s.id} href={sectionHref(s.id)} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
-            <div style={{ position: 'relative', paddingLeft: 40, paddingBottom: 14 }}>
-              <div style={{ position: 'absolute', left: 0, top: 2, width: 27, height: 27, borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SANS, fontSize: 12, fontWeight: 700, background: i === 0 ? ACCENT : 'var(--background)', color: i === 0 ? '#fff' : 'color-mix(in srgb, var(--foreground) 60%, transparent)', border: `1px solid ${i === 0 ? ACCENT : 'color-mix(in srgb, var(--foreground) 25%, transparent)'}`, zIndex: 1 }}>{i + 1}</div>
-              <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
-                <div style={{ flex: 1, minWidth: 0 }}>
-                  <Eyebrow color={ACCENT}>{s.eyebrow}</Eyebrow>
-                  <div style={{ fontFamily: SERIF, fontSize: 17, marginTop: 2 }}>{s.title}</div>
-                  <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)', marginTop: 2 }}>{s.blurb}</div>
-                </div>
-                <Thumb file={SECTION_IMG[s.id]} w={72} h={56} />
-              </div>
-            </div>
-          </a>
-        ))}
-      </div>
-    </div>
-  )
+const DATA: BattleData = {
+  theatre: 'tmis',
+  crumbs: civilWarCrumbs({ theatre: 'tmis', battleId: 't-pearidge' }),
+  backHref: '/war-civil-war/trans-mississippi',
+  eyebrow: 'Battle · Trans-Mississippi',
+  title: 'Battle of Pea Ridge',
+  date: 'March 7–8, 1862',
+  place: 'Benton County, Arkansas',
+  hero: {
+    img: '/war-img/pea-ridge-hero.jpg', // Kurz & Allison chromolithograph (PD)
+    pal: ['#3a3320', '#5a2a32', '#100506'],
+    credit: 'Battle of Pea Ridge · Kurz & Allison · public domain',
+  },
+  stats: [
+    { label: 'Duration', value: '2 days' },
+    { label: 'Casualties', value: '~3,400' },
+    { label: 'Winner', value: 'Union', win: 'u' },
+  ],
+  sides: [
+    { side: 'u', tag: 'Union', force: 'Army of the Southwest', str: '~10,250 troops', cmd: 'Brig. Gen. Samuel R. Curtis', note: 'Dug in facing south, then coolly turned the whole army around to face north.' },
+    { side: 'c', tag: 'Confederacy', force: 'Army of the West', str: '~16,000 troops', cmd: 'Maj. Gen. Earl Van Dorn', note: 'Marched all night to attack from behind, and stranded his own ammunition doing it.' },
+  ],
+  casualties: { union: 1384, csa: 2000, unionLabel: 'Union ~1,384', csaLabel: 'Confederacy ~2,000' },
+  commanders: [
+    { name: 'Samuel R. Curtis', role: 'Cmdr., Union', side: 'u', img: '/war-img/cmdr/curtis.jpg', bio: 'A trained engineer, Curtis chased Price’s Missourians out of the state and dug in along Little Sugar Creek, only to wake on March 7 with Van Dorn’s army in his rear. He turned his whole Army of the Southwest about-face to the north, held through the first day, and on the second drove the out-of-ammunition Confederates from the field.' },
+    { name: 'Franz Sigel', role: 'Div., Union', side: 'u', img: '/war-img/cmdr/sigel.jpg', bio: 'Sigel was slow getting his divisions away from Bentonville on the approach, and his rear guard was brushed back as the campaign opened. On the second day he redeemed it, massing some twenty guns west of Elkhorn Tavern and directing the bombardment that silenced the Confederate batteries and opened the way for Curtis’s advance.' },
+    { name: 'Eugene A. Carr', role: 'Div., Union', side: 'u', img: '/war-img/cmdr/carr.jpg', bio: 'Carr held the Telegraph Road and Elkhorn Tavern against Price’s far larger wing through the whole first day, giving ground grudgingly across one line after another. Shot three times and still refusing to leave the field, he bought Curtis the hours he needed and later received the Medal of Honor for the stand.' },
+    { name: 'Earl Van Dorn', role: 'Cmdr., CSA', side: 'c', img: '/war-img/cmdr/van-dorn.jpg', bio: 'Van Dorn united Price’s and McCulloch’s feuding commands into one army and marched it all night around Curtis to attack from the rear. The flank march stranded his own ammunition wagons far behind the lines, and when his guns ran dry on the second day he was beaten and pulled the army out of Arkansas entirely.' },
+    { name: 'Sterling Price', role: 'Wing, CSA', side: 'c', img: '/war-img/cmdr/price.jpg', bio: 'Price led the Missouri wing up the Telegraph Road and drove Carr back through four lines to seize Elkhorn Tavern by nightfall, the deepest the Confederates ever got into Curtis’s position. He was wounded during the fighting but stayed in command, and lost the ground again on the second day for lack of ammunition.' },
+    { name: 'Benjamin McCulloch', role: 'Wing, CSA †', side: 'c', img: '/war-img/cmdr/mcculloch.jpg', bio: 'A former Texas Ranger who had feuded with Price all winter, McCulloch led the western wing toward Leetown and opened well, his cavalry overrunning a Union battery. Riding forward in his black civilian suit to scout the line himself, he was shot dead by a Union skirmisher in mid-morning.' },
+    { name: 'James McIntosh', role: 'Brigade, CSA †', side: 'c', img: '/war-img/cmdr/mcintosh.jpg', bio: 'McIntosh took command of the western wing the instant McCulloch fell and tried to keep the attack moving. Leading an advance from the front, he was killed by the same Union skirmishers less than fifteen minutes later, leaving the wing without either of its top two commanders.' },
+    { name: 'Albert Pike', role: 'Indian Terr., CSA', side: 'c', img: '/war-img/cmdr/pike.jpg', bio: 'A lawyer and poet with no real combat experience, Pike led the only sizable Native American force in a major Civil War battle, raised in Indian Territory under treaties he had helped negotiate. With the wing’s senior officers dead, captured, or lost, command fell to him by default, and he could do little but gather the wreckage and order a withdrawal.' },
+  ],
+  outcome: {
+    verdict: 'Decisive Union victory · Missouri secured',
+    text: 'Curtis’s outnumbered army turned completely around to meet Van Dorn’s attack from the rear and broke it, helped by the deaths of two Confederate generals and an army that ran out of ammunition because its supply train was stranded by its own flank march. Pea Ridge secured Missouri for the Union for the rest of the war, and the largest Confederate bid to take the border state failed for good. Within weeks Van Dorn hauled his army east of the Mississippi, leaving Arkansas stripped and the Trans-Mississippi a backwater.',
+  },
+  sections: [
+    { id: 'the-armies-gather', eyebrow: 'After Wilson’s Creek', title: 'The Fight Moves South', blurb: 'The long fight for Missouri drives south into Arkansas, where Van Dorn (South) unites two armies to take the state back after a march that wrecks them.', img: '/war-img/cmdr/curtis.jpg' },
+    { id: 'around-the-army', eyebrow: 'March 7', title: 'The Army That Turned Around', blurb: 'Van Dorn loops clear around the Union to attack from behind; Curtis (North) calmly turns to face him, and two Confederate generals die in minutes.', img: '/war-img/pea-ridge.png' },
+    { id: 'out-of-ammunition', eyebrow: 'March 8 & after', title: 'The Guns Fall Silent', blurb: 'The Confederate guns go quiet for lack of ammunition stranded by their own march. Missouri is secured, and the war moves east.', img: '/war-img/pea-ridge-elkhorn.jpg' },
+  ],
+  sectionHref: (id) => `/war-civil-war/trans-mississippi/pea-ridge/s/${id}`,
+  footer: { title: 'the American Civil War', sub: 'All battles & theatres', href: '/war-civil-war' },
 }
 
 export default function PeaRidgePage() {
-  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
-  return (
-    <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
-      <div style={{ maxWidth: 480, margin: '0 auto' }}>
-        <WarSectionNav accent={ACCENT} items={[
-          { id: 'sec-glance', label: 'At a glance' },
-          { id: 'sec-commanders', label: 'Commanders' },
-          { id: 'sec-outcome', label: 'Outcome' },
-          { id: 'sec-narrative', label: 'Narrative' },
-        ]} />
-        <HeroImg />
-        <div id="sec-glance" style={secTop}><AtAGlance /></div>
-        <div id="sec-commanders" style={secTop}><CommandersStrip figures={FIGURES} accent={ACCENT} /></div>
-        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
-        <div id="sec-narrative" style={secTop}><SectionsList /></div>
-      </div>
-    </div>
-  )
+  return <BattleDossier data={DATA} />
 }

@@ -1,160 +1,19 @@
 'use client'
 
-// BATTLE dossier (Gettysburg) — faithful port of the War Drilldown handoff.
-// Dossier view: hero · collapsible At-a-glance (stat strip + armies face-off +
-// casualties bar) · outcome pill · fishhook map (approximate) · commanders
-// strip · numbered 5-section list. Timeline view: hero + hook + section cards.
-// Maps approximate per direction; sections link to the reader (standalone for
-// now). Palette = mockup (Civil War violet, Union blue, Confederate rust).
+// BATTLE dossier (Gettysburg) — REDESIGN. Thin data wrapper over the shared
+// <BattleDossier> (new war skin, tabbed). The bespoke interactive fishhook
+// battlefield diagram is preserved and passed through `extra` (rendered in the
+// At-a-glance tab). Content produced through the war content pipeline.
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha } from '@/components/mode/war-chrome'
-import { CommandersStrip } from '@/components/mode/commanders-strip'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
+import { BattleDossier, type BattleData } from '../../battle-dossier'
 
-const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-gettysburg' })
-
-const HERO_IMG = '/war-img/gettysburg-hero.jpg' // Thure de Thulstrup, 1887 (PD); self-hosted to avoid Commons hotlink rate-limiting
-const HERO_PAL = ['#3a2a1c', '#7a1422', '#100506']
-
-const ARMIES = [
-  { side: 'Union', label: 'Army of the Potomac', size: '93,921', commander: 'Maj. Gen. George G. Meade', note: 'Newly in command. Meade took over the army just three days before the battle.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '71,699', commander: 'Gen. Robert E. Lee', note: 'On the offensive: Lee’s second and deepest invasion of the North.', color: ACCENTS.rust },
-]
-const CAS = { union: 23055, csa: 28063, civ: 1 }
-const FIGURES = [
-  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: "Fresh off a smashing victory at Chancellorsville and deep in Northern territory, Lee gambled on breaking the Union line head-on. When the second day's attacks failed, he ordered a frontal assault on the center over Longstreet's objections, and never invaded the North again." },
-  { name: 'James Longstreet', role: 'Lt. Gen., CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg', blurb: "Lee's senior corps commander argued for swinging around the Union left and fighting on the defensive rather than attacking the heights. Overruled, he reluctantly launched the second-day assault and then the doomed charge on the third." },
-  { name: 'George Pickett', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/pickett.jpg', blurb: "His fresh Virginia division spearheaded the climactic third-day assault on Cemetery Ridge, joined by Pettigrew's and Trimble's divisions, that still bears his name. Of the roughly 12,500 men who stepped off across three-quarters of a mile of open ground, about half never came back." },
-  { name: 'George G. Meade', role: 'Cmdr., Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg', blurb: "Handed command of the Army of the Potomac just three days before the battle, Meade fought a careful defensive fight on excellent ground, holding the fishhook line against three days of attacks to win the biggest battle of the war." },
-  { name: 'Winfield S. Hancock', role: 'Corps, Union', side: 'U', img: '/war-img/cmdr/hancock.jpg', blurb: "Sent ahead on the first day to judge the ground, Hancock chose the high ground south of town and steadied the broken line. He anchored the Union center and was badly wounded helping repulse Pickett's Charge." },
-  { name: 'John Buford', role: 'Cav., Union', side: 'U', img: '/war-img/cmdr/buford.jpg', blurb: "His cavalry division reached Gettysburg first and fought a dismounted delaying action on the ridges west of town, buying the hours the Union infantry needed to reach and hold the heights." },
-  { name: 'Joshua L. Chamberlain', role: 'Col., 20th Maine', side: 'U', img: '/war-img/cmdr/chamberlain.jpg', blurb: "A college professor in uniform, Chamberlain held the far Union left at Little Round Top on the second day. Out of ammunition and about to be overrun, his 20th Maine fixed bayonets and charged downhill, saving the flank." },
-]
-const SECTIONS = [
-  { id: 'setting', eyebrow: 'Lay of the land', title: 'How they got there', blurb: 'Lee marches north. The armies converge blindly toward a Pennsylvania crossroads town with ten roads.', cas: null, day: null },
-  { id: 'mcpherson', eyebrow: 'Day 1 · July 1', title: 'McPherson’s Ridge', blurb: 'Heth (South) blunders into Buford (North). Reynolds (North) is killed. By evening the Union has been pushed back to Cemetery Hill.', cas: 15500, day: 1 },
-  { id: 'hooks', eyebrow: 'Day 2 · July 2', title: 'The Hooks', blurb: 'Longstreet (South) swings around to hit the Union left. The 20th Maine holds at the end of the line.', cas: 19500, day: 2 },
-  { id: 'pickett', eyebrow: 'Day 3 · July 3', title: 'Pickett’s Charge', blurb: 'Twelve thousand five hundred men across three-quarters of a mile of open ground. About half do not come back.', cas: 15000, day: 3 },
-  { id: 'aftermath', eyebrow: 'Aftermath', title: 'The retreat & the Address', blurb: 'Lee withdraws south through ten days of rain. Five months later Lincoln dedicates the cemetery in two minutes.', cas: null, day: null },
-]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  setting: { size: 'm', date: '1863', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-  mcpherson: { size: 'l', date: 'Jul 1', palette: ['#7a3b1c', '#3a2820', '#0e0805'] },
-  hooks: { size: 'l', date: 'Jul 2', palette: ['#5a5034', '#3a3020', '#100c08'] },
-  pickett: { size: 'xl', date: 'Jul 3', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  aftermath: { size: 'm', date: 'Jul →', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-}
-const sectionHref = (id: string) => `/war-civil-war/eastern/gettysburg/s/${id}`
 const num = (n: number) => n.toLocaleString('en-US')
-
-// Self-hosted public-domain images per section. Card images are PHOTOS/art
-// (Lee, Reynolds, Devil's Den, Forbes' Pickett's Charge, the Harvest of Death);
-// the day MAPS live in /public/war-img too and are used inside the narratives.
-const SECTION_IMG: Record<string, string> = {
-  setting: '/war-img/gettysburg-setting.jpg',
-  mcpherson: '/war-img/gettysburg-day1-photo.jpg',
-  hooks: '/war-img/gettysburg-day2-photo.jpg',
-  pickett: '/war-img/gettysburg-day3-photo.jpg',
-  aftermath: '/war-img/gettysburg-aftermath-photo.jpg',
-}
 
 function Eyebrow({ children, color }: { children: React.ReactNode; color?: string }) {
   return <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: color || 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>{children}</div>
-}
-
-function HeroImg() {
-  const [failed, setFailed] = useState(false)
-  return (
-    <div style={{ position: 'relative', height: 260, overflow: 'hidden' }}>
-      {failed
-        ? <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(135deg, ${HERO_PAL[0]}, ${HERO_PAL[1]} 55%, ${HERO_PAL[2]})` }} />
-        : <img src={HERO_IMG} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 42%', transform: 'scale(1.22)', transformOrigin: 'center' }} />}
-      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.75) 100%)' }} />
-      <div style={{ position: 'absolute', top: 10, right: 12, fontFamily: SANS, fontSize: 9, color: 'rgba(255,255,255,0.7)', background: 'rgba(0,0,0,0.4)', padding: '3px 7px', borderRadius: 4 }}>Thure de Thulstrup, 1887 · chromolithograph</div>
-      <div style={{ position: 'absolute', left: 16, right: 16, bottom: 14 }}>
-        <Eyebrow color="#c4b5fd">Battle · Eastern Theatre</Eyebrow>
-        <h1 style={{ margin: '6px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 30, lineHeight: 1.05, letterSpacing: -0.5, color: '#fff' }}>Battle of Gettysburg</h1>
-        <div style={{ fontFamily: SERIF, fontSize: 14, color: 'rgba(255,255,255,0.82)', marginTop: 4 }}>July 1–3, 1863 · Adams County, Pennsylvania</div>
-      </div>
-    </div>
-  )
-}
-
-function CasualtiesBar() {
-  const total = CAS.union + CAS.csa + CAS.civ
-  const seg = (v: number, c: string) => <div style={{ width: `${(v / total) * 100}%`, background: c, height: '100%' }} />
-  return (
-    <div>
-      <div style={{ display: 'flex', height: 10, borderRadius: 5, overflow: 'hidden', marginBottom: 8 }}>
-        {seg(CAS.union, ACCENTS.blue)}{seg(CAS.csa, ACCENTS.rust)}{seg(CAS.civ, 'color-mix(in srgb, var(--foreground) 30%, transparent)')}
-      </div>
-      <div style={{ display: 'flex', gap: 16, fontFamily: SANS, fontSize: 11, color: 'color-mix(in srgb, var(--foreground) 65%, transparent)' }}>
-        <span><span style={{ color: ACCENTS.blue }}>■</span> Union {num(CAS.union)}</span>
-        <span><span style={{ color: ACCENTS.rust }}>■</span> Confederacy {num(CAS.csa)}</span>
-      </div>
-    </div>
-  )
-}
-
-function AtAGlance() {
-  const [open, setOpen] = useState(true)
-  return (
-    <section style={{ borderTop: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', padding: '14px 16px' }}>
-      <button onClick={() => setOpen(o => !o)} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'inherit' }}>
-        <Eyebrow color={ACCENT}>At a glance</Eyebrow>
-        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontFamily: SANS, fontSize: 11, fontWeight: 600, color: ACCENT }}>
-          {open ? 'Hide' : 'Show'}
-          <span style={{ width: 22, height: 22, borderRadius: 999, border: `1px solid ${alpha(ACCENT, 0.55)}`, background: alpha(ACCENT, 0.1), display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 11, lineHeight: 1, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 200ms ease' }}>▾</span>
-        </span>
-      </button>
-      {open && (
-        <div style={{ marginTop: 14 }}>
-          {/* stat strip */}
-          <div style={{ display: 'flex', marginBottom: 18 }}>
-            {[['Duration', '3 days'], ['Casualties', '51k'], ['Winner', 'Union']].map(([k, v], i) => (
-              <div key={k} style={{ flex: 1, textAlign: 'center', borderLeft: i ? '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)' : 'none' }}>
-                <div style={{ fontFamily: SERIF, fontSize: 18 }}>{v}</div>
-                <Eyebrow>{k}</Eyebrow>
-              </div>
-            ))}
-          </div>
-          {/* armies face-off */}
-          <div style={{ display: 'flex', alignItems: 'stretch', gap: 0, marginBottom: 18, position: 'relative' }}>
-            {ARMIES.map((a, i) => (
-              <div key={a.side} style={{ flex: 1, textAlign: i ? 'right' : 'left', paddingRight: i ? 0 : 18, paddingLeft: i ? 18 : 0 }}>
-                <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: a.color }}>{a.side}</div>
-                <div style={{ fontFamily: SERIF, fontSize: 15, marginTop: 2 }}>{a.label}</div>
-                <div style={{ fontFamily: SANS, fontSize: 12.5, marginTop: 3 }}><strong style={{ fontWeight: 600 }}>{a.size}</strong> <span style={{ color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>troops</span></div>
-                <div style={{ fontFamily: SANS, fontSize: 12, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', marginTop: 1 }}>{a.commander}</div>
-                <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.4, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', marginTop: 5 }}>{a.note}</div>
-              </div>
-            ))}
-            <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%,-50%)', width: 26, height: 26, borderRadius: 999, background: 'var(--background)', border: '1px solid color-mix(in srgb, var(--foreground) 20%, transparent)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SERIF, fontStyle: 'italic', fontSize: 12, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>vs</div>
-          </div>
-          <CasualtiesBar />
-        </div>
-      )}
-    </section>
-  )
-}
-
-function OutcomePill() {
-  return (
-    <div style={{ padding: '14px 16px' }}>
-      <div style={{ border: `1px solid ${alpha(ACCENT, 0.4)}`, background: alpha(ACCENT, 0.08), borderRadius: 10, padding: '13px 15px' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
-          <span style={{ color: ACCENT, fontWeight: 700, fontSize: 13 }}>✓</span>
-          <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: ACCENT }}>Outcome</span>
-        </div>
-        <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · the Confederacy’s high-water mark</div>
-        <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-The Army of Northern Virginia had marched north to win foreign recognition and breathing room for a Confederacy built on slavery. Instead Lee’s deepest invasion was broken in three days, at a cost of roughly 50,000 casualties on both sides, and the next day, July 4th, far to the west, the Confederate river stronghold of Vicksburg surrendered to Grant. The two defeats together are remembered as the war’s turning point: the Army of Northern Virginia never mounted a major offensive into Union territory again. Yet Meade let Lee’s wrecked army slip back across the Potomac, the chance to end the war that summer went with it, and the fighting ground on for nearly two more years.
-        </p>
-      </div>
-    </div>
-  )
 }
 
 // Per-day explanations shown below the map; also drive the interactive filter.
@@ -181,7 +40,7 @@ function Fishhook() {
   const grp: React.CSSProperties = { transition: 'opacity 220ms ease' }
   const dot = 'color-mix(in srgb, var(--foreground) 58%, transparent)' // neutral "key fighting" marker
   return (
-    <div style={{ padding: '0 16px 8px' }}>
+    <div style={{ padding: '8px 0 0' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
         <Eyebrow color={ACCENT}>The battlefield · the fishhook</Eyebrow>
         <span style={{ fontFamily: MONO, fontSize: 9, color: 'color-mix(in srgb, var(--foreground) 42%, transparent)' }}>tap a day · not to scale</span>
@@ -305,62 +164,54 @@ function Fishhook() {
   )
 }
 
-function Thumb({ file, w, h }: { file: string; w: number; h: number }) {
-  const [failed, setFailed] = useState(false)
-  return (
-    <div style={{ width: w, height: h, borderRadius: 6, overflow: 'hidden', flexShrink: 0, background: 'linear-gradient(135deg, #3a2e21, #1c1814)' }}>
-      {!failed && <img src={file} alt="" onError={() => setFailed(true)} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 42%', transform: 'scale(1.16)', transformOrigin: 'center' }} />}
-    </div>
-  )
-}
-
-function SectionsList() {
-  return (
-    <div style={{ padding: '6px 16px 40px' }}>
-      <Eyebrow color={ACCENT}>The narrative · 5 sections</Eyebrow>
-      <div style={{ position: 'relative', marginTop: 12 }}>
-        <div style={{ position: 'absolute', left: 13, top: 8, bottom: 8, width: 1, background: 'color-mix(in srgb, var(--foreground) 18%, transparent)' }} />
-        {SECTIONS.map((s, i) => (
-          <a key={s.id} href={sectionHref(s.id)} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
-            <div style={{ position: 'relative', paddingLeft: 40, paddingBottom: 14 }}>
-              <div style={{ position: 'absolute', left: 0, top: 2, width: 27, height: 27, borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SANS, fontSize: 12, fontWeight: 700, background: i === 0 ? ACCENT : 'var(--background)', color: i === 0 ? '#fff' : 'color-mix(in srgb, var(--foreground) 60%, transparent)', border: `1px solid ${i === 0 ? ACCENT : 'color-mix(in srgb, var(--foreground) 25%, transparent)'}`, zIndex: 1 }}>{i + 1}</div>
-              <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
-                <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 8 }}>
-                    <Eyebrow color={ACCENT}>{s.eyebrow}</Eyebrow>
-                    {s.cas && <span style={{ fontFamily: SANS, fontSize: 10, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>{num(s.cas)} cas.</span>}
-                  </div>
-                  <div style={{ fontFamily: SERIF, fontSize: 17, marginTop: 2 }}>{s.title}</div>
-                  <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)', marginTop: 2 }}>{s.blurb}</div>
-                </div>
-                <Thumb file={SECTION_IMG[s.id]} w={72} h={56} />
-              </div>
-            </div>
-          </a>
-        ))}
-      </div>
-    </div>
-  )
+const DATA: BattleData = {
+  theatre: 'east',
+  crumbs: civilWarCrumbs({ theatre: 'east', battleId: 'e-gettysburg' }),
+  backHref: '/war-civil-war/eastern',
+  eyebrow: 'Battle · Eastern Theatre',
+  title: 'Battle of Gettysburg',
+  date: 'July 1–3, 1863',
+  place: 'Adams County, Pennsylvania',
+  hero: {
+    img: '/war-img/gettysburg-hero.jpg',
+    pal: ['#3a2a1c', '#7a1422', '#100506'],
+    credit: 'Battle of Gettysburg · Thure de Thulstrup, 1887 · public domain',
+  },
+  stats: [
+    { label: 'Duration', value: '3 days' },
+    { label: 'Casualties', value: '51k' },
+    { label: 'Winner', value: 'Union', win: 'u' },
+  ],
+  sides: [
+    { side: 'u', tag: 'Union', force: 'Army of the Potomac', str: '93,921 troops', cmd: 'Maj. Gen. George G. Meade', note: 'Newly in command. Meade took over the army just three days before the battle.' },
+    { side: 'c', tag: 'Confederacy', force: 'Army of Northern Virginia', str: '71,699 troops', cmd: 'Gen. Robert E. Lee', note: 'On the offensive: Lee’s second and deepest invasion of the North.' },
+  ],
+  casualties: { union: 23055, csa: 28063, civ: 1 },
+  commanders: [
+    { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'c', img: '/war-img/cmdr/lee.jpg', bio: "Fresh off a smashing victory at Chancellorsville and deep in Northern territory, Lee gambled on breaking the Union line head-on. When the second day's attacks failed, he ordered a frontal assault on the center over Longstreet's objections, and never invaded the North again." },
+    { name: 'James Longstreet', role: 'Lt. Gen., CSA', side: 'c', img: '/war-img/cmdr/longstreet.jpg', bio: "Lee's senior corps commander argued for swinging around the Union left and fighting on the defensive rather than attacking the heights. Overruled, he reluctantly launched the second-day assault and then the doomed charge on the third." },
+    { name: 'George Pickett', role: 'Div., CSA', side: 'c', img: '/war-img/cmdr/pickett.jpg', bio: "His fresh Virginia division spearheaded the climactic third-day assault on Cemetery Ridge, joined by Pettigrew's and Trimble's divisions, that still bears his name. Of the roughly 12,500 men who stepped off across three-quarters of a mile of open ground, about half never came back." },
+    { name: 'George G. Meade', role: 'Cmdr., Potomac', side: 'u', img: '/war-img/cmdr/meade.jpg', bio: "Handed command of the Army of the Potomac just three days before the battle, Meade fought a careful defensive fight on excellent ground, holding the fishhook line against three days of attacks to win the biggest battle of the war." },
+    { name: 'Winfield S. Hancock', role: 'Corps, Union', side: 'u', img: '/war-img/cmdr/hancock.jpg', bio: "Sent ahead on the first day to judge the ground, Hancock chose the high ground south of town and steadied the broken line. He anchored the Union center and was badly wounded helping repulse Pickett's Charge." },
+    { name: 'John Buford', role: 'Cav., Union', side: 'u', img: '/war-img/cmdr/buford.jpg', bio: "His cavalry division reached Gettysburg first and fought a dismounted delaying action on the ridges west of town, buying the hours the Union infantry needed to reach and hold the heights." },
+    { name: 'Joshua L. Chamberlain', role: 'Col., 20th Maine', side: 'u', img: '/war-img/cmdr/chamberlain.jpg', bio: "A college professor in uniform, Chamberlain held the far Union left at Little Round Top on the second day. Out of ammunition and about to be overrun, his 20th Maine fixed bayonets and charged downhill, saving the flank." },
+  ],
+  outcome: {
+    verdict: 'Union victory · the Confederacy’s high-water mark',
+    text: 'The Army of Northern Virginia had marched north to win foreign recognition and breathing room for a Confederacy built on slavery. Instead Lee’s deepest invasion was broken in three days, at a cost of roughly 50,000 casualties on both sides, and the next day, July 4th, far to the west, the Confederate river stronghold of Vicksburg surrendered to Grant. The two defeats together are remembered as the war’s turning point: the Army of Northern Virginia never mounted a major offensive into Union territory again. Yet Meade let Lee’s wrecked army slip back across the Potomac, the chance to end the war that summer went with it, and the fighting ground on for nearly two more years.',
+  },
+  sections: [
+    { id: 'setting', eyebrow: 'Lay of the land', title: 'How they got there', blurb: 'Lee marches north. The armies converge blindly toward a Pennsylvania crossroads town with ten roads.', img: '/war-img/gettysburg-setting.jpg' },
+    { id: 'mcpherson', eyebrow: 'Day 1 · July 1', title: 'McPherson’s Ridge', blurb: 'Heth (South) blunders into Buford (North). Reynolds (North) is killed. By evening the Union has been pushed back to Cemetery Hill.', img: '/war-img/gettysburg-day1-photo.jpg' },
+    { id: 'hooks', eyebrow: 'Day 2 · July 2', title: 'The Hooks', blurb: 'Longstreet (South) swings around to hit the Union left. The 20th Maine holds at the end of the line.', img: '/war-img/gettysburg-day2-photo.jpg' },
+    { id: 'pickett', eyebrow: 'Day 3 · July 3', title: 'Pickett’s Charge', blurb: 'Twelve thousand five hundred men across three-quarters of a mile of open ground. About half do not come back.', img: '/war-img/gettysburg-day3-photo.jpg' },
+    { id: 'aftermath', eyebrow: 'Aftermath', title: 'The retreat & the Address', blurb: 'Lee withdraws south through ten days of rain. Five months later Lincoln dedicates the cemetery in two minutes.', img: '/war-img/gettysburg-aftermath-photo.jpg' },
+  ],
+  sectionHref: (id) => `/war-civil-war/eastern/gettysburg/s/${id}`,
+  footer: { title: 'the American Civil War', sub: 'All battles & theatres', href: '/war-civil-war' },
+  extra: <Fishhook />,
 }
 
 export default function GettysburgPage() {
-  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
-  return (
-    <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
-      <div style={{ maxWidth: 480, margin: '0 auto' }}>
-        <WarSectionNav accent={ACCENT} items={[
-          { id: 'sec-glance', label: 'At a glance' },
-          { id: 'sec-commanders', label: 'Commanders' },
-          { id: 'sec-outcome', label: 'Outcome' },
-          { id: 'sec-narrative', label: 'Narrative' },
-        ]} />
-        <HeroImg />
-        <div id="sec-glance" style={secTop}><AtAGlance /></div>
-        <div id="sec-commanders" style={secTop}><CommandersStrip figures={FIGURES} accent={ACCENT} /></div>
-        <div id="sec-outcome" style={secTop}><OutcomePill /><Fishhook /></div>
-        <div id="sec-narrative" style={secTop}><SectionsList /></div>
-      </div>
-    </div>
-  )
+  return <BattleDossier data={DATA} />
 }

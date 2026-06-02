@@ -44,11 +44,14 @@ export type BattleData = {
   title: string
   date: string
   place: string
-  hero: { img: string; pal: [string, string, string]; credit: string }
+  hero: { img: string; pal: [string, string, string]; credit?: string } // credit omitted when no verified provenance (never invented)
   stats: { label: string; value: string; win?: Side }[]   // 3 stats; mark winner
   sides: [BattleSide, BattleSide]
   note?: React.ReactNode      // glance callout (e.g. the bloodless note)
-  casualties?: { union: number; csa: number; civ?: number }
+  // casualties bar; *Label override the legend text (ranges / "mostly captured"),
+  // footnote = the small caveat line under the bar (disclaimers, surrender counts)
+  casualties?: { union: number; csa: number; civ?: number; unionLabel?: string; csaLabel?: string; footnote?: React.ReactNode }
+  extra?: React.ReactNode     // bespoke per-battle block (e.g. Gettysburg's Fishhook diagram)
   commanders: Commander[]
   outcome: { verdict: string; text: React.ReactNode }
   sections: Section[]
@@ -140,7 +143,7 @@ export function BattleDossier({ data }: { data: BattleData }) {
       </div>
       <div style={{ marginTop: 16 }} />
       <Hero hero={data.hero} />
-      <div className="p-credit">{data.hero.credit}</div>
+      {data.hero.credit && <div className="p-credit">{data.hero.credit}</div>}
 
       {/* sticky tab bar */}
       <div className="p-subnav" ref={subnavRef}>
@@ -187,13 +190,15 @@ export function BattleDossier({ data }: { data: BattleData }) {
                   {cas.civ ? <i style={{ width: (cas.civ / casTotal * 100) + '%', background: 'var(--muted)' }} /> : null}
                 </div>
                 <div className="legend">
-                  <span><i style={{ background: 'var(--union)' }} />Union {num(cas.union)}</span>
-                  <span><i style={{ background: 'var(--confed)' }} />Confederacy {num(cas.csa)}</span>
+                  <span><i style={{ background: 'var(--union)' }} />{cas.unionLabel ?? `Union ${num(cas.union)}`}</span>
+                  <span><i style={{ background: 'var(--confed)' }} />{cas.csaLabel ?? `Confederacy ${num(cas.csa)}`}</span>
                   {cas.civ ? <span><i style={{ background: 'var(--muted)' }} />Civilian {num(cas.civ)}</span> : null}
                 </div>
+                {cas.footnote && <div className="bp-casnote">{cas.footnote}</div>}
               </div>
             )}
             {data.note && <div className="bp-note">{data.note}</div>}
+            {data.extra}
           </>
         )}
 

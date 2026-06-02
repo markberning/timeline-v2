@@ -279,6 +279,7 @@
 .war-skin .bp-cas .legend { display: flex; gap: 14px; flex-wrap: wrap; }
 .war-skin .bp-cas .legend span { display: inline-flex; align-items: center; gap: 6px; font: 500 11px/1 var(--sans); color: var(--ink-soft); }
 .war-skin .bp-cas .legend span i { width: 9px; height: 9px; border-radius: 2px; }
+.war-skin .bp-casnote { margin-top: 10px; font: 400 12px/1.5 var(--sans); color: var(--muted); }
 
 /* commanders: photo rows */
 .war-skin .bp-cmd { display: flex; gap: 14px; padding: 17px 0; border-top: 1px solid var(--line-soft); align-items: flex-start; }

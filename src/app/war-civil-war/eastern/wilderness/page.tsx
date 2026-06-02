@@ -1,198 +1,61 @@
 'use client'
 
-// BATTLE dossier (Battle of the Wilderness). Same shape as Antietam/Shiloh: hero ·
-// collapsible At-a-glance (stat strip + armies face-off + casualties) · outcome card ·
-// commanders strip · numbered section list. Content via the war content pipeline
-// (audits/war-content-pipeline.md).
+// BATTLE dossier (Battle of the Wilderness) — REDESIGN. Thin data wrapper over the shared
+// <BattleDossier> (new war skin, tabbed). Content produced through the war
+// content pipeline (audits/war-content-pipeline.md).
 
-import { useState } from 'react'
-import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
-import { CommandersStrip } from '@/components/mode/commanders-strip'
+import { BattleDossier, type BattleData } from '../../battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
-const ACCENT = ACCENTS.violet
-const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-wilderness' })
-
-const HERO_IMG = '/war-img/wilderness-hero.jpg'
-const ARMIES = [
-  { side: 'Union', label: 'Army of the Potomac', size: '~119,000 troops', commander: 'Grant & Meade', note: 'Marched into the thicket to fight through it, and was struck before it could clear the trees.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '~66,000 troops', commander: 'Lee', note: 'Chose to fight blind, in woods where cannon and numbers could not tell.', color: ACCENTS.rust },
-]
-const CAS = { union: 18000, csa: 11000 }
-const FIGURES = [
-  { name: 'Ulysses S. Grant', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/grant.jpg', blurb: 'Newly made general-in-chief of all the United States armies, Grant rode with the Army of the Potomac into the Wilderness meaning to march through it and fight Lee in the open beyond. Stopped cold and bloodied worse than Lee, he did the thing no Union commander before him had done after a battle with Lee: instead of retreating across the river, he ordered the army south around Lee’s flank and kept attacking.' },
-  { name: 'George G. Meade', role: 'Army of the Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg', blurb: 'Meade commanded the Army of the Potomac on the ground while Grant set the strategy from alongside him. On May 5 he ordered Warren’s V Corps to attack Ewell along the Orange Turnpike, opening the battle, and spent two days fighting his corps blind through a thicket where his orders dissolved the moment they left his hand.' },
-  { name: 'Gouverneur K. Warren', role: 'V Corps, Union', side: 'U', img: '/war-img/cmdr/warren.jpg', blurb: 'Warren’s V Corps made the battle’s first contact on May 5, attacking Ewell’s Confederates across the open ground of Saunders Field on the Orange Turnpike. His men were thrown back into the woods by Ewell’s waiting earthworks, and the fight on the northern road see-sawed without decision for the rest of the day.' },
-  { name: 'Winfield S. Hancock', role: 'II Corps, Union', side: 'U', img: '/war-img/cmdr/hancock.jpg', blurb: 'Hancock’s big II Corps carried the Union effort on the Plank Road, and at dawn on May 6 his assault nearly shattered A.P. Hill’s corps before Longstreet arrived. Hours later Longstreet’s flank attack came up a hidden railroad bed into Hancock’s unguarded left and rolled his line up, in his own words, like a wet blanket, back to the Brock Road breastworks.' },
-  { name: 'John Sedgwick', role: 'VI Corps, Union', side: 'U', img: '/war-img/cmdr/sedgwick.jpg', blurb: 'Sedgwick’s VI Corps came up on May 5 to fight Ewell in the woods north of the Orange Turnpike, trading attacks and counterattacks through the brush before both sides dug in. He held the northern end of the Union line through the battle and survived it, only to be killed by a sharpshooter a few days later at Spotsylvania.' },
-  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: 'Outnumbered nearly two to one, Lee chose to fight inside the thicket where cannon and numbers could not tell, striking the Union army before it could clear the trees. When his right wing nearly collapsed on the morning of May 6 he tried to lead Longstreet’s counterattack in person until his own soldiers turned his horse back, and he held the field, only to find Grant marching south instead of away.' },
-  { name: 'James Longstreet', role: 'First Corps, CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg', blurb: 'Longstreet’s First Corps arrived at the last instant on the morning of May 6, just as Hill’s line gave way, and his counterattack drove the Union army back through the woods before his flanking column rolled up Hancock’s line. Pressing the advantage on the Plank Road, he was shot through the throat by his own men, almost exactly where Jackson had fallen a year before, and was out of the war for months.' },
-  { name: 'Richard S. Ewell', role: 'Second Corps, CSA', side: 'C', img: '/war-img/cmdr/ewell.jpg', blurb: 'Ewell’s Second Corps held the Confederate left along the Orange Turnpike, and his men dug in at Saunders Field threw back Warren’s opening attack on May 5 with heavy loss. He fought the northern road to a standstill across both days, keeping his end of Lee’s line intact in the tangle.' },
-  { name: 'A. P. Hill', role: 'Third Corps, CSA', side: 'C', img: '/war-img/cmdr/ap-hill.jpg', blurb: 'Hill’s Third Corps fought Getty and Hancock to a bloody draw on the Plank Road on May 5 but ended the day tangled and disorganized in the brush. At dawn on May 6 Hancock’s assault tore his unsorted line apart, and Lee’s right wing teetered on collapse until Longstreet’s corps arrived to save it.' },
-]
-const SECTIONS = [
-  { id: 'the-thicket', eyebrow: 'May 4', title: 'The woods Lee picked on purpose', blurb: 'Grant pushes a vast army into the thicket to march through it; Lee strikes inside the woods, where cannon cannot aim and numbers do not count.' },
-  { id: 'the-two-roads', eyebrow: 'May 5', title: 'First contact in the brush', blurb: 'Ewell (South) meets Warren (North) on the Turnpike, Hill (South) meets Getty (North) and Hancock (North) on the Plank Road: a confused, bloody draw that leaves Hill’s corps tangled.' },
-  { id: 'longstreet-attacks', eyebrow: 'May 6', title: 'The day of the great attacks', blurb: 'Hancock (North) nearly breaks Hill (South) at dawn; Longstreet (South) saves the line and rolls up Hancock’s flank, then is shot by his own men, as Jackson was a year before.' },
-  { id: 'the-turn', eyebrow: 'May 7', title: 'The night Grant turned south', blurb: 'Beaten by every old rule, Grant does not retreat. He marches the army south past Lee, and the men cheer in the dark.' },
-  { id: 'what-it-was-for', eyebrow: 'The meaning', title: 'The men marching back across their own bondage', blurb: 'Grant’s army carried formerly enslaved men from these very counties, the most literal answer to what the blood was for: slavery was the reason.' },
-]
-const SECTION_IMG: Record<string, string> = {
-  'the-thicket': '/war-img/wilderness-overview.png',
-  'the-two-roads': '/war-img/cmdr/ewell.jpg',
-  'longstreet-attacks': '/war-img/wilderness-may6.png',
-  'the-turn': '/war-img/wilderness-the-turn.png',
-  'what-it-was-for': '/war-img/cmdr/grant.jpg',
-}
-const sectionHref = (id: string) => `/war-civil-war/eastern/wilderness/s/${id}`
-const num = (n: number) => n.toLocaleString('en-US')
-
-function Eyebrow({ children, color }: { children: React.ReactNode; color?: string }) {
-  return <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: color || 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>{children}</div>
-}
-
-function HeroImg() {
-  const [failed, setFailed] = useState(false)
-  return (
-    <div style={{ position: 'relative', height: 260, overflow: 'hidden' }}>
-      {failed
-        ? <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, #2a3420, #1c2418 55%, #080c06)' }} />
-        : <img src={HERO_IMG} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 45%' }} />}
-      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.75) 100%)' }} />
-      <div style={{ position: 'absolute', left: 16, right: 16, bottom: 14 }}>
-        <Eyebrow color="#c4a8f5">Battle · Eastern Theatre</Eyebrow>
-        <h1 style={{ margin: '6px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 30, lineHeight: 1.05, letterSpacing: -0.5, color: '#fff' }}>Battle of the Wilderness</h1>
-        <div style={{ fontFamily: SERIF, fontSize: 14, color: 'rgba(255,255,255,0.82)', marginTop: 4 }}>May 5–7, 1864 · Spotsylvania County, Virginia</div>
-      </div>
-    </div>
-  )
-}
-
-function CasBlock() {
-  return (
-    <div>
-      <div style={{ display: 'flex', height: 10, borderRadius: 5, overflow: 'hidden', marginBottom: 8 }}>
-        <div style={{ width: `${(CAS.union / (CAS.union + CAS.csa)) * 100}%`, background: ACCENTS.blue, height: '100%' }} />
-        <div style={{ width: `${(CAS.csa / (CAS.union + CAS.csa)) * 100}%`, background: ACCENTS.rust, height: '100%' }} />
-      </div>
-      <div style={{ display: 'flex', gap: 16, fontFamily: SANS, fontSize: 11, color: 'color-mix(in srgb, var(--foreground) 65%, transparent)' }}>
-        <span><span style={{ color: ACCENTS.blue }}>■</span> Union ~{num(CAS.union)}</span>
-        <span><span style={{ color: ACCENTS.rust }}>■</span> Confederacy ~{num(CAS.csa)}</span>
-      </div>
-    </div>
-  )
-}
-
-function AtAGlance() {
-  const [open, setOpen] = useState(true)
-  return (
-    <section style={{ borderTop: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', padding: '14px 16px' }}>
-      <button onClick={() => setOpen(o => !o)} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'inherit' }}>
-        <Eyebrow color={ACCENT}>At a glance</Eyebrow>
-        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontFamily: SANS, fontSize: 11, fontWeight: 600, color: ACCENT }}>
-          {open ? 'Hide' : 'Show'}
-          <span style={{ width: 22, height: 22, borderRadius: 999, border: `1px solid ${alpha(ACCENT, 0.55)}`, background: alpha(ACCENT, 0.1), display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 11, lineHeight: 1, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 200ms ease' }}>▾</span>
-        </span>
-      </button>
-      {open && (
-        <div style={{ marginTop: 14 }}>
-          <div style={{ display: 'flex', marginBottom: 18 }}>
-            {([['Duration', '3 days'], ['Casualties', '~29,000'], ['Result', 'Inconclusive']] as const).map(([k, v], i) => (
-              <div key={k} style={{ flex: 1, textAlign: 'center', borderLeft: i ? '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)' : 'none' }}>
-                <div style={{ fontFamily: SERIF, fontSize: 18 }}>{v}</div>
-                <Eyebrow>{k}</Eyebrow>
-              </div>
-            ))}
-          </div>
-          <div style={{ display: 'flex', alignItems: 'stretch', gap: 0, marginBottom: 18, position: 'relative' }}>
-            {ARMIES.map((a, i) => (
-              <div key={a.side} style={{ flex: 1, textAlign: i ? 'right' : 'left', paddingRight: i ? 0 : 18, paddingLeft: i ? 18 : 0 }}>
-                <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: a.color }}>{a.side}</div>
-                <div style={{ fontFamily: SERIF, fontSize: 15, marginTop: 2 }}>{a.label}</div>
-                <div style={{ fontFamily: SANS, fontSize: 12.5, marginTop: 3 }}><strong style={{ fontWeight: 600 }}>{a.size}</strong></div>
-                <div style={{ fontFamily: SANS, fontSize: 12, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', marginTop: 1 }}>{a.commander}</div>
-                <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.4, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', marginTop: 5 }}>{a.note}</div>
-              </div>
-            ))}
-            <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%,-50%)', width: 26, height: 26, borderRadius: 999, background: 'var(--background)', border: '1px solid color-mix(in srgb, var(--foreground) 20%, transparent)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SERIF, fontStyle: 'italic', fontSize: 12, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>vs</div>
-          </div>
-          <CasBlock />
-        </div>
-      )}
-    </section>
-  )
-}
-
-function OutcomePill() {
-  return (
-    <div style={{ padding: '14px 16px' }}>
-      <div style={{ border: `1px solid ${alpha(ACCENT, 0.4)}`, background: alpha(ACCENT, 0.08), borderRadius: 10, padding: '13px 15px' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
-          <span style={{ color: ACCENT, fontWeight: 700, fontSize: 13 }}>✓</span>
-          <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: ACCENT }}>Outcome</span>
-        </div>
-        <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Tactically inconclusive · strategically the turn of the war in the East</div>
-        <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Lee stopped a far larger army on ground he had chosen and lost only about half as many men, a defeat by every rule of the previous three years. But Grant did not retreat. He marched the army south, around Lee’s flank, toward Spotsylvania, and the soldiers, realizing they were advancing and not falling back, cheered in the dark. It was the first time the Army of the Potomac stayed on the offensive after an opening battle with Lee, and it opened the Overland Campaign that would never let Lee’s army recover.
-        </p>
-      </div>
-    </div>
-  )
-}
-
-function Thumb({ file, w, h }: { file: string; w: number; h: number }) {
-  const [failed, setFailed] = useState(false)
-  return (
-    <div style={{ width: w, height: h, borderRadius: 6, overflow: 'hidden', flexShrink: 0, background: 'linear-gradient(135deg, #3a2e21, #1c1814)' }}>
-      {!failed && <img src={file} alt="" onError={() => setFailed(true)} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 38%' }} />}
-    </div>
-  )
-}
-
-function SectionsList() {
-  return (
-    <div style={{ padding: '6px 16px 40px' }}>
-      <Eyebrow color={ACCENT}>The narrative · {SECTIONS.length} sections</Eyebrow>
-      <div style={{ position: 'relative', marginTop: 12 }}>
-        <div style={{ position: 'absolute', left: 13, top: 8, bottom: 8, width: 1, background: 'color-mix(in srgb, var(--foreground) 18%, transparent)' }} />
-        {SECTIONS.map((s, i) => (
-          <a key={s.id} href={sectionHref(s.id)} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
-            <div style={{ position: 'relative', paddingLeft: 40, paddingBottom: 14 }}>
-              <div style={{ position: 'absolute', left: 0, top: 2, width: 27, height: 27, borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SANS, fontSize: 12, fontWeight: 700, background: i === 0 ? ACCENT : 'var(--background)', color: i === 0 ? '#fff' : 'color-mix(in srgb, var(--foreground) 60%, transparent)', border: `1px solid ${i === 0 ? ACCENT : 'color-mix(in srgb, var(--foreground) 25%, transparent)'}`, zIndex: 1 }}>{i + 1}</div>
-              <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
-                <div style={{ flex: 1, minWidth: 0 }}>
-                  <Eyebrow color={ACCENT}>{s.eyebrow}</Eyebrow>
-                  <div style={{ fontFamily: SERIF, fontSize: 17, marginTop: 2 }}>{s.title}</div>
-                  <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)', marginTop: 2 }}>{s.blurb}</div>
-                </div>
-                <Thumb file={SECTION_IMG[s.id]} w={72} h={56} />
-              </div>
-            </div>
-          </a>
-        ))}
-      </div>
-    </div>
-  )
+const DATA: BattleData = {
+  theatre: 'east',
+  crumbs: civilWarCrumbs({ theatre: 'east', battleId: 'e-wilderness' }),
+  backHref: '/war-civil-war/eastern',
+  eyebrow: 'Battle · Eastern Theatre',
+  title: 'Battle of the Wilderness',
+  date: 'May 5–7, 1864',
+  place: 'Spotsylvania County, Virginia',
+  hero: {
+    img: '/war-img/wilderness-hero.jpg',
+    pal: ['#3a2e21', '#2a221c', '#0a0806'],
+    credit: '',
+  },
+  stats: [
+    { label: 'Duration', value: '3 days' },
+    { label: 'Casualties', value: '~29,000' },
+    { label: 'Result', value: 'Inconclusive' },
+  ],
+  sides: [
+    { side: 'u', tag: 'Union', force: 'Army of the Potomac', str: '~119,000 troops', cmd: 'Grant & Meade', note: 'Marched into the thicket to fight through it, and was struck before it could clear the trees.' },
+    { side: 'c', tag: 'Confederacy', force: 'Army of Northern Virginia', str: '~66,000 troops', cmd: 'Lee', note: 'Chose to fight blind, in woods where cannon and numbers could not tell.' },
+  ],
+  casualties: { union: 18000, csa: 11000, unionLabel: 'Union ~18,000', csaLabel: 'Confederacy ~11,000' },
+  commanders: [
+    { name: 'Ulysses S. Grant', role: 'Cmdr., Union', side: 'u', img: '/war-img/cmdr/grant.jpg', bio: 'Newly made general-in-chief of all the United States armies, Grant rode with the Army of the Potomac into the Wilderness meaning to march through it and fight Lee in the open beyond. Stopped cold and bloodied worse than Lee, he did the thing no Union commander before him had done after a battle with Lee: instead of retreating across the river, he ordered the army south around Lee’s flank and kept attacking.' },
+    { name: 'George G. Meade', role: 'Army of the Potomac', side: 'u', img: '/war-img/cmdr/meade.jpg', bio: 'Meade commanded the Army of the Potomac on the ground while Grant set the strategy from alongside him. On May 5 he ordered Warren’s V Corps to attack Ewell along the Orange Turnpike, opening the battle, and spent two days fighting his corps blind through a thicket where his orders dissolved the moment they left his hand.' },
+    { name: 'Gouverneur K. Warren', role: 'V Corps, Union', side: 'u', img: '/war-img/cmdr/warren.jpg', bio: 'Warren’s V Corps made the battle’s first contact on May 5, attacking Ewell’s Confederates across the open ground of Saunders Field on the Orange Turnpike. His men were thrown back into the woods by Ewell’s waiting earthworks, and the fight on the northern road see-sawed without decision for the rest of the day.' },
+    { name: 'Winfield S. Hancock', role: 'II Corps, Union', side: 'u', img: '/war-img/cmdr/hancock.jpg', bio: 'Hancock’s big II Corps carried the Union effort on the Plank Road, and at dawn on May 6 his assault nearly shattered A.P. Hill’s corps before Longstreet arrived. Hours later Longstreet’s flank attack came up a hidden railroad bed into Hancock’s unguarded left and rolled his line up, in his own words, like a wet blanket, back to the Brock Road breastworks.' },
+    { name: 'John Sedgwick', role: 'VI Corps, Union', side: 'u', img: '/war-img/cmdr/sedgwick.jpg', bio: 'Sedgwick’s VI Corps came up on May 5 to fight Ewell in the woods north of the Orange Turnpike, trading attacks and counterattacks through the brush before both sides dug in. He held the northern end of the Union line through the battle and survived it, only to be killed by a sharpshooter a few days later at Spotsylvania.' },
+    { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'c', img: '/war-img/cmdr/lee.jpg', bio: 'Outnumbered nearly two to one, Lee chose to fight inside the thicket where cannon and numbers could not tell, striking the Union army before it could clear the trees. When his right wing nearly collapsed on the morning of May 6 he tried to lead Longstreet’s counterattack in person until his own soldiers turned his horse back, and he held the field, only to find Grant marching south instead of away.' },
+    { name: 'James Longstreet', role: 'First Corps, CSA', side: 'c', img: '/war-img/cmdr/longstreet.jpg', bio: 'Longstreet’s First Corps arrived at the last instant on the morning of May 6, just as Hill’s line gave way, and his counterattack drove the Union army back through the woods before his flanking column rolled up Hancock’s line. Pressing the advantage on the Plank Road, he was shot through the throat by his own men, almost exactly where Jackson had fallen a year before, and was out of the war for months.' },
+    { name: 'Richard S. Ewell', role: 'Second Corps, CSA', side: 'c', img: '/war-img/cmdr/ewell.jpg', bio: 'Ewell’s Second Corps held the Confederate left along the Orange Turnpike, and his men dug in at Saunders Field threw back Warren’s opening attack on May 5 with heavy loss. He fought the northern road to a standstill across both days, keeping his end of Lee’s line intact in the tangle.' },
+    { name: 'A. P. Hill', role: 'Third Corps, CSA', side: 'c', img: '/war-img/cmdr/ap-hill.jpg', bio: 'Hill’s Third Corps fought Getty and Hancock to a bloody draw on the Plank Road on May 5 but ended the day tangled and disorganized in the brush. At dawn on May 6 Hancock’s assault tore his unsorted line apart, and Lee’s right wing teetered on collapse until Longstreet’s corps arrived to save it.' },
+  ],
+  outcome: {
+    verdict: 'Tactically inconclusive · strategically the turn of the war in the East',
+    text: 'Lee stopped a far larger army on ground he had chosen and lost only about half as many men, a defeat by every rule of the previous three years. But Grant did not retreat. He marched the army south, around Lee’s flank, toward Spotsylvania, and the soldiers, realizing they were advancing and not falling back, cheered in the dark. It was the first time the Army of the Potomac stayed on the offensive after an opening battle with Lee, and it opened the Overland Campaign that would never let Lee’s army recover.',
+  },
+  sections: [
+    { id: 'the-thicket', eyebrow: 'May 4', title: 'The woods Lee picked on purpose', blurb: 'Grant pushes a vast army into the thicket to march through it; Lee strikes inside the woods, where cannon cannot aim and numbers do not count.', img: '/war-img/wilderness-overview.png' },
+    { id: 'the-two-roads', eyebrow: 'May 5', title: 'First contact in the brush', blurb: 'Ewell (South) meets Warren (North) on the Turnpike, Hill (South) meets Getty (North) and Hancock (North) on the Plank Road: a confused, bloody draw that leaves Hill’s corps tangled.', img: '/war-img/cmdr/ewell.jpg' },
+    { id: 'longstreet-attacks', eyebrow: 'May 6', title: 'The day of the great attacks', blurb: 'Hancock (North) nearly breaks Hill (South) at dawn; Longstreet (South) saves the line and rolls up Hancock’s flank, then is shot by his own men, as Jackson was a year before.', img: '/war-img/wilderness-may6.png' },
+    { id: 'the-turn', eyebrow: 'May 7', title: 'The night Grant turned south', blurb: 'Beaten by every old rule, Grant does not retreat. He marches the army south past Lee, and the men cheer in the dark.', img: '/war-img/wilderness-the-turn.png' },
+    { id: 'what-it-was-for', eyebrow: 'The meaning', title: 'The men marching back across their own bondage', blurb: 'Grant’s army carried formerly enslaved men from these very counties, the most literal answer to what the blood was for: slavery was the reason.', img: '/war-img/cmdr/grant.jpg' },
+  ],
+  sectionHref: (id) => `/war-civil-war/eastern/wilderness/s/${id}`,
+  footer: { title: 'the American Civil War', sub: 'All battles & theatres', href: '/war-civil-war' },
 }
 
 export default function WildernessPage() {
-  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
-  return (
-    <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
-      <div style={{ maxWidth: 480, margin: '0 auto' }}>
-        <WarSectionNav accent={ACCENT} items={[
-          { id: 'sec-glance', label: 'At a glance' },
-          { id: 'sec-commanders', label: 'Commanders' },
-          { id: 'sec-outcome', label: 'Outcome' },
-          { id: 'sec-narrative', label: 'Narrative' },
-        ]} />
-        <HeroImg />
-        <div id="sec-glance" style={secTop}><AtAGlance /></div>
-        <div id="sec-commanders" style={secTop}><CommandersStrip figures={FIGURES} accent={ACCENT} /></div>
-        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
-        <div id="sec-narrative" style={secTop}><SectionsList /></div>
-      </div>
-    </div>
-  )
+  return <BattleDossier data={DATA} />
 }

@@ -18,7 +18,6 @@ const DATA: BattleData = {
   hero: {
     img: '/war-img/antietam-hero.jpg',
     pal: ['#3a2a1c', '#5a2a32', '#100506'],
-    credit: 'Battle of Antietam · Kurz & Allison · public domain',
   },
   stats: [
     { label: 'Duration', value: '1 day' },
