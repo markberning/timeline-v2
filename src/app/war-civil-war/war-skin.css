@@ -210,6 +210,19 @@
 .war-skin .p-menu .mf { padding: 18px 22px 30px; border-top: 1px solid var(--line-soft); display: flex; align-items: center; justify-content: space-between; }
 .war-skin .p-menu .mf span { font: 400 11px/1.4 var(--mono); color: var(--muted); }
 
+/* ---- commanders gallery (Commanders tab) ---- */
+.war-skin .p-cmdgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.war-skin .p-cmdcard { text-decoration: none; color: inherit; display: block; }
+.war-skin .p-cmdcard .pic { width: 100%; aspect-ratio: 1 / 1; border-radius: 10px; overflow: hidden; background: linear-gradient(135deg, #3a2e21, #1c1814); border: 2px solid var(--line); }
+.war-skin .p-cmdcard.u .pic { border-color: var(--union); }
+.war-skin .p-cmdcard.c .pic { border-color: var(--confed); }
+.war-skin .p-cmdcard .pic img { width: 100%; height: 100%; object-fit: cover; object-position: center 18%; }
+.war-skin .p-cmdcard b { display: block; margin-top: 8px; font: 500 16px/1.15 var(--serif); color: var(--ink); }
+.war-skin .p-cmdcard .meta { display: block; margin-top: 3px; font: 700 9.5px/1 var(--sans); letter-spacing: .4px; text-transform: uppercase; }
+.war-skin .p-cmdcard.u .meta { color: var(--union); }
+.war-skin .p-cmdcard.c .meta { color: var(--confed); }
+.war-skin .p-cmdcard .ep { display: block; margin-top: 3px; font: italic 400 11.5px/1.35 var(--serif); color: var(--muted); }
+
 /* theme switch in header */
 .war-skin .p-themeswitch { display: inline-flex; background: var(--paper-3); border-radius: 20px; padding: 3px; gap: 2px; flex: 0 0 auto; }
 .war-skin .p-themeswitch button { width: 30px; height: 26px; border-radius: 18px; display: flex; align-items: center; justify-content: center; color: var(--muted); }

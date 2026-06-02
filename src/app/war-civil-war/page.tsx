@@ -11,7 +11,8 @@
 import './war-skin.css'
 import { useEffect, useMemo, useState } from 'react'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
-import { CHAPTERS, MAJORS } from '@/lib/civil-war-roster'
+import { CHAPTERS, MAJORS, THEMES } from '@/lib/civil-war-roster'
+import { COMMANDERS } from '@/lib/civil-war-commanders'
 import { TheatresTab } from './theatres-tab'
 
 // ---- inline icons (replace prototype's PI set) ----
@@ -150,8 +151,102 @@ function BattlesTab({ theatre, query }: { theatre: string; query: string }) {
   )
 }
 
-function Placeholder({ label }: { label: string }) {
-  return <div className="p-page"><div className="p-empty">{label} is coming in the next pass of the redesign.</div></div>
+// (all six tabs are wired below)
+const OTBF_PHASES: [string, string][] = [
+  ['causes', 'Causes'], ['outbreak', 'Outbreak · 1861'], ['hard', 'The Hard Years · 1862'],
+  ['turning', 'The Turning · 1863'], ['total', 'Total War · 1864–65'], ['after', 'Aftermath'],
+]
+
+function OffFieldTab() {
+  return (
+    <div className="p-page">
+      <a className="p-storycard" href="/war-civil-war/off-the-battlefield">
+        <div className="row">
+          <span className="chip"><span className="sq" /><span className="p-label">Off the battlefield</span></span>
+          <span className="p-label">17 chapters</span>
+        </div>
+        <h3 className="p-serif">Why we fought, and what it changed</h3>
+        <p>The war beyond the battles: the causes, emancipation, the home front, the economy, technology, diplomacy, and the long reckoning after the guns went quiet.</p>
+        <span className="p-cta">Start with the causes {I.arr}</span>
+      </a>
+      {OTBF_PHASES.map(([k, label]) => {
+        const items = THEMES.filter(t => t.phase === k)
+        if (!items.length) return null
+        return (
+          <div key={k}>
+            <div className="p-yr"><span className="ylab" style={{ fontSize: 13 }}>{label}</span><span className="yline" /></div>
+            {items.map(t => (
+              <a className="p-chap" key={t.id} href={t.href}>
+                <span className="bd"><b className="p-serif">{t.short ?? t.name}</b><span>{t.hook}</span></span>
+                <span className="yr p-mono">{t.date}</span>
+              </a>
+            ))}
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+function CommandersTab() {
+  const list = Object.values(COMMANDERS).sort((a, b) => b.appearances.length - a.appearances.length || a.name.localeCompare(b.name))
+  return (
+    <div className="p-page">
+      <div className="p-sechead"><h2 className="p-label">The cast</h2><span className="ct">{list.length} commanders</span></div>
+      <p style={{ fontFamily: 'var(--serif)', fontSize: 14, lineHeight: 1.5, color: 'var(--ink-soft)', margin: '0 0 18px' }}>
+        Follow a commander battle to battle, from first command to surrender. The rail traces their war across the theatres.
+      </p>
+      <div className="p-cmdgrid">
+        {list.map(c => (
+          <a key={c.id} className={'p-cmdcard ' + (c.side === 'U' ? 'u' : 'c')} href={`/war-civil-war/cast/${c.id}/`}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <span className="pic"><img src={c.portrait} alt="" /></span>
+            <b>{c.name}</b>
+            <span className="meta">{c.side === 'U' ? 'Union' : 'Confederate'} · {c.appearances.length} battles</span>
+            <span className="ep">{c.epithet}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function FactsTab() {
+  const cas = [
+    { lbl: 'Union', v: 390000, c: 'var(--union)' },
+    { lbl: 'Confederacy', v: 310000, c: 'var(--confed)' },
+    { lbl: 'Civilian', v: 50000, c: 'var(--muted)' },
+  ]
+  const total = cas.reduce((s, x) => s + x.v, 0)
+  const num = (n: number) => n.toLocaleString('en-US')
+  return (
+    <div className="p-page">
+      <div className="p-stats">
+        <div className="st"><b className="p-serif">4 years</b><span>Span</span></div>
+        <div className="st"><b className="p-serif">~10,500</b><span>Engagements</span></div>
+        <div className="st"><b className="p-serif">~750k</b><span>Dead</span></div>
+      </div>
+      <div className="p-vs">
+        <div className="side u">
+          <div className="nm"><span className="sq" />Union</div>
+          <h4 className="p-serif">United States</h4>
+          <small>2.1M served</small><em>Lincoln, then Grant &amp; Sherman</em>
+        </div>
+        <div className="mid">vs</div>
+        <div className="side c r">
+          <div className="nm"><span className="sq" />Confederacy</div>
+          <h4 className="p-serif">Confederate States</h4>
+          <small>~900k served</small><em>Davis · Lee · Jackson</em>
+        </div>
+      </div>
+      <div className="p-cas">
+        <div className="p-label">Death toll (est.) · {num(total)} dead</div>
+        <div className="bar">{cas.map(c => <i key={c.lbl} style={{ width: (c.v / total * 100) + '%', background: c.c }} />)}</div>
+        <div className="legend">{cas.map(c => <span key={c.lbl}><i style={{ background: c.c }} />{c.lbl} {num(c.v)}</span>)}</div>
+      </div>
+      <div className="p-outcome"><b>Outcome.</b> Union victory. The Confederacy dissolved, and slavery was abolished by the Thirteenth Amendment.</div>
+    </div>
+  )
 }
 
 export default function WarHome() {
@@ -215,10 +310,10 @@ export default function WarHome() {
       {/* active tab */}
       {tab === 'story' && <StoryTab />}
       {tab === 'battles' && <BattlesTab theatre={thFilter} query={bq} />}
-      {tab === 'offfield' && <Placeholder label="Off the Field" />}
+      {tab === 'offfield' && <OffFieldTab />}
       {tab === 'theatres' && <TheatresTab active={thFilter} goBattles={k => { setThFilter(k); setTab('battles') }} />}
-      {tab === 'commanders' && <Placeholder label="Commanders" />}
-      {tab === 'facts' && <Placeholder label="Facts" />}
+      {tab === 'commanders' && <CommandersTab />}
+      {tab === 'facts' && <FactsTab />}
 
       {/* slide-in menu */}
       {menu && (
