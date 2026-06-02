@@ -17,18 +17,18 @@ const HERO_IMG = '/war-img/fort-sumter-hero.jpg' // Currier & Ives bombardment l
 const HERO_PAL = ['#3a2a1c', '#5a2a32', '#100506']
 
 const ARMIES = [
-  { side: 'Union', label: 'Fort Sumter garrison', size: '~85', commander: 'Maj. Robert Anderson', note: 'Low on food and powder, sewing cartridges from blankets — and certain he could not hold.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Charleston batteries', size: '~43 guns', commander: 'Brig. Gen. P.G.T. Beauregard', note: 'Anderson’s own former artillery student — now ringing the harbor with guns.', color: ACCENTS.rust },
+  { side: 'Union', label: 'Fort Sumter garrison', size: '~85', commander: 'Maj. Robert Anderson', note: 'Low on food and powder, sewing cartridges from blankets, and certain he could not hold.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Charleston batteries', size: '~43 guns', commander: 'Brig. Gen. P.G.T. Beauregard', note: 'Anderson’s own former artillery student, now ringing the harbor with guns.', color: ACCENTS.rust },
 ]
 const FIGURES = [
-  { name: 'R. Anderson', role: 'Cmdr., garrison', side: 'U', img: '/war-img/cmdr/anderson.jpg' },
-  { name: 'A. Doubleday', role: '2nd, garrison', side: 'U', img: '/war-img/cmdr/doubleday.jpg' },
-  { name: 'P.G.T. Beauregard', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/beauregard.jpg' },
+  { name: 'Robert Anderson', role: 'Cmdr., garrison', side: 'U', img: '/war-img/cmdr/anderson.jpg', blurb: 'Anderson slipped his eighty-five men out of the indefensible Fort Moultrie and into Fort Sumter by night, then held the island for thirty-four hours of bombardment, firing only his sheltered lower guns to spare his soldiers. Out of food and powder, his fort burning, he surrendered on honorable terms and marched out with the flag he would carry north and raise again, four years later to the day, over the recaptured ruin.' },
+  { name: 'Abner Doubleday', role: '2nd, garrison', side: 'U', img: '/war-img/cmdr/doubleday.jpg', blurb: 'As Anderson’s second-in-command, Doubleday sighted and fired the first Union shot of the war around seven on the morning of April 12, a 32-pound ball that bounced off the iron roof of the battery at Cummings Point. He worked the garrison’s lower guns through both days of the bombardment and later styled himself the hero of Sumter.' },
+  { name: 'P. G. T. Beauregard', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/beauregard.jpg', blurb: 'Newly made the Confederacy’s first general, Beauregard ringed Charleston Harbor with forty-three guns trained on the fort his old West Point artillery teacher now held. He sent the demands to evacuate, opened the bombardment at half past four on April 12, and accepted Anderson’s surrender a day and a half later, courteous to his former instructor to the end.' },
 ]
 const SECTIONS = [
   { id: 'the-fort', eyebrow: 'Secession winter', title: 'The Fort in the Harbor', blurb: 'Anderson (North) slips his garrison into Fort Sumter by night. South Carolina rings the harbor with guns and waits out a starving garrison.' },
-  { id: 'the-decision', eyebrow: 'Lincoln’s gambit', title: 'The Last Word from Washington', blurb: 'Lincoln (North) sends food, not war — forcing Davis (South) to either let the fort be fed or fire the first shot. The South fires.' },
-  { id: 'the-bombardment', eyebrow: 'April 12–13', title: 'Thirty-Four Hours', blurb: 'Forty-three guns open on the fort. Anderson barely fires back — the artillery teacher sparing his men while his star pupil pounds him from shore.' },
+  { id: 'the-decision', eyebrow: 'Lincoln’s gambit', title: 'The Last Word from Washington', blurb: 'Lincoln sends food, not war, forcing Davis to either let the fort be fed or fire the first shot. The South fires.' },
+  { id: 'the-bombardment', eyebrow: 'April 12–13', title: 'Thirty-Four Hours', blurb: 'Forty-three guns open on the fort. Anderson barely fires back, the artillery teacher sparing his men while his star pupil pounds him from shore.' },
   { id: 'the-war-begins', eyebrow: 'April 14 & after', title: 'One Death, and a Country at War', blurb: 'The fort surrenders; an accidental blast kills the war’s first man. Then 75,000 volunteers, four more states gone, and a nation at war.' },
 ]
 const SECTION_IMG: Record<string, string> = {
@@ -64,7 +64,7 @@ function BloodlessNote() {
   return (
     <div>
       <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-        Thirty-four hours of shelling and not one man killed on either side. The war’s first death came afterward, by accident: <strong style={{ fontWeight: 600 }}>Pvt. Daniel Hough (North)</strong>, killed when a gun went off early during the 100-gun surrender salute.
+        Thirty-four hours of shelling and not one man killed on either side. The war’s first death came afterward, by accident: Pvt. Daniel Hough (North), killed when a gun went off early during the 100-gun surrender salute.
       </div>
     </div>
   )
@@ -120,7 +120,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate victory · the war begins</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          A thirty-four-hour bombardment forced the surrender of the U.S. garrison without killing a single soldier on either side — the only death came by accident during the surrender salute. But the symbolism was total. Firing on the flag united the North overnight; Lincoln called for 75,000 volunteers; and within weeks Virginia, Arkansas, Tennessee, and North Carolina seceded in response, nearly doubling the Confederacy. The bloodless battle began the bloodiest war in American history.
+          A thirty-four-hour bombardment forced the surrender of the U.S. garrison without killing a single soldier on either side; the only death came by accident during the surrender salute. But the symbolism was total. Firing on the flag united the North overnight, Lincoln called for 75,000 volunteers, and within weeks Virginia, Arkansas, Tennessee, and North Carolina seceded in response, nearly doubling the Confederacy. The Confederacy had gone to war to preserve slavery, and the bloodless battle in Charleston Harbor began the bloodiest war in American history.
         </p>
       </div>
     </div>
@@ -129,18 +129,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}

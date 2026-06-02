@@ -14,18 +14,18 @@ const CRUMBS = civilWarCrumbs({ theatre: 'naval', battleId: 'n-jacksonstphilip' 
 const HERO_IMG = '/war-img/forts-jackson-hero.jpg'
 const ARMIES = [
   { side: 'Union', label: 'West Gulf Blockading Squadron', size: '~17 warships', commander: 'Farragut & Porter', note: 'Chose to run the fleet straight past the forts in the dark.', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'River defenses below New Orleans', size: '2 forts + a fleet', commander: 'Duncan & Lovell', note: 'Two forts, a chain, fire rafts — and three commands that would not cooperate.', color: ACCENTS.rust },
+  { side: 'Confederacy', label: 'River defenses below New Orleans', size: '2 forts + a fleet', commander: 'Duncan & Lovell', note: 'Two forts, a chain, fire rafts, and three commands that would not cooperate.', color: ACCENTS.rust },
 ]
 const CAS = { union: 229, csa: 782 }
 const FIGURES = [
-  { name: 'D. G. Farragut', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/farragut.jpg' },
-  { name: 'D. D. Porter', role: 'Mortars, Union', side: 'U', img: '/war-img/cmdr/dd-porter.jpg' },
-  { name: 'B. Butler', role: 'Occupation, Union', side: 'U', img: '/war-img/cmdr/butler.jpg' },
-  { name: 'J. K. Duncan', role: 'Forts, CSA', side: 'C', img: '/war-img/cmdr/duncan.jpg' },
-  { name: 'M. Lovell', role: 'New Orleans, CSA', side: 'C', img: '/war-img/cmdr/lovell.jpg' },
+  { name: 'David Glasgow Farragut', role: 'Cmdr., Union', side: 'U', img: '/war-img/cmdr/farragut.jpg', blurb: 'Handed secret orders and the West Gulf Blockading Squadron, Farragut decided the forts would never fall on a timetable he could afford and chose to run his wooden fleet straight past them in the pre-dawn dark of April 24. He brought most of his ships through the gauntlet of fire rafts and Confederate gunboats and anchored before a defenseless New Orleans the next day.' },
+  { name: 'David Dixon Porter', role: 'Mortars, Union', side: 'U', img: '/war-img/cmdr/dd-porter.jpg', blurb: 'Farragut’s foster brother led the mortar flotilla, twenty schooners that lobbed thousands of 13-inch shells into Fort Jackson over five or six days of bombardment. He wanted to keep shelling rather than run the forts, was overruled, and afterward took the forts’ surrender once their garrison had mutinied.' },
+  { name: 'Benjamin Butler', role: 'Occupation, Union', side: 'U', img: '/war-img/cmdr/butler.jpg', blurb: 'Butler’s army of some 18,000 men waited offshore while the navy forced the river, then marched into New Orleans on May 1 to begin the occupation. His martial law, the notorious “Woman Order,” and the hanging of William Mumford earned him the lasting nickname “Beast” Butler, even as he raised the first Black regiments in the captured city.' },
+  { name: 'Johnson K. Duncan', role: 'Forts, CSA', side: 'C', img: '/war-img/cmdr/duncan.jpg', blurb: 'A Pennsylvania-born engineer commanding the river forts for the Confederacy, Duncan held Fort Jackson through the heaviest bombardment of the war to that point and refused Porter’s first demand to surrender. Cut off after the fleet passed and abandoned by a mutinous garrison, he gave up both forts on April 28; he was dead of malaria before the year was out.' },
+  { name: 'Mansfield Lovell', role: 'New Orleans, CSA', side: 'C', img: '/war-img/cmdr/lovell.jpg', blurb: 'Left to defend New Orleans with about 3,000 short-term militia after the upstream war drained off his troops, Lovell had no way to fight a fleet of warships in the streets. He pulled his men out rather than turn the city into a hopeless slaughter, and spent the rest of the war under a cloud for losing the South’s greatest port.' },
 ]
 const SECTIONS = [
-  { id: 'the-great-port', eyebrow: 'The prize', title: 'The Mouth of the River', blurb: 'New Orleans — the South’s largest city, port, and slave market — lies behind two forts, a chain, and fire rafts, its defenses stripped.' },
+  { id: 'the-great-port', eyebrow: 'The prize', title: 'The Mouth of the River', blurb: 'New Orleans, the South’s largest city, port, and slave market, lies behind two forts, a chain, and fire rafts, its defenses stripped.' },
   { id: 'running-the-forts', eyebrow: 'April 18–24', title: 'Running the Forts', blurb: 'Porter’s (North) mortars pound the forts for days; then Farragut (North) gambles everything and runs the fleet past them in the dark.' },
   { id: 'the-fall-of-new-orleans', eyebrow: 'April 25–28', title: 'The Fall of New Orleans', blurb: 'Past Chalmette to a defenseless city; the cut-off forts mutiny and surrender, and Butler (North) occupies the South’s greatest port.' },
 ]
@@ -123,7 +123,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Union victory · New Orleans falls</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          Rather than batter the forts into submission, Farragut ran his fleet past them in the pre-dawn dark of April 24 — through fire rafts and a Confederate flotilla — and emerged above them with his ships intact. New Orleans, the Confederacy’s largest city, biggest port, and greatest slave market, was defenseless, and fell without a fight. It was a catastrophic early blow: the South lost its commercial heart and the mouth of the Mississippi, and the harsh occupation under “Beast” Butler began.
+          Rather than batter the forts into submission, Farragut ran his fleet past them in the pre-dawn dark of April 24, through fire rafts and a Confederate flotilla, and emerged above them with his ships intact. New Orleans, the Confederacy’s largest city, biggest port, and greatest slave market, was defenseless, and fell without a fight. It was a catastrophic early blow: the South lost its commercial heart and the mouth of the Mississippi, and the harsh occupation under “Beast” Butler began.
         </p>
       </div>
     </div>
@@ -132,18 +132,23 @@ function OutcomePill() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}
