@@ -29,7 +29,7 @@ const FORT_STEDMAN_NARR: Record<string, Narr> = {
           { name: 'West Virginia' }, { name: 'Delaware' },
         ],
         dots: [
-          { name: 'Petersburg', date: 'Mar 25, 1865', lat: 37.23, lon: -77.40, heavy: true, anchor: 'start' },
+          { name: 'Petersburg', date: 'Mar 25, 1865', lat: 37.23, lon: -77.40, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Richmond', lat: 37.54, lon: -77.43, color: '#8a8175', anchor: 'end' },
           { name: 'City Point', lat: 37.32, lon: -77.29, color: '#8a8175', anchor: 'end' },
           { name: 'Appomattox C.H.', lat: 37.38, lon: -78.80, color: '#8a8175', anchor: 'end' },

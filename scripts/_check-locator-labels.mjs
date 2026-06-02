@@ -101,7 +101,7 @@ for (const file of FILES.sort()) {
       const anchor = str(o, 'anchor') ?? 'start'
       const dx = num(o, 'dx'), dy = num(o, 'dy'), heavy = has(o, 'heavy'), date = str(o, 'date')
       const x = X(lon), y = Y(lat)
-      const tx = x + (anchor === 'end' ? -(dx ?? 11) : (dx ?? 11))
+      const tx = x + (anchor === 'end' ? -(dx ?? 11) : anchor === 'middle' ? (dx ?? 0) : (dx ?? 11))
       const ty = y + (dy ?? (date ? -2 : 5))
       const fs = heavy ? 17 : 14.5
       boxes.push(box(name, tx, ty, fs, anchor))

@@ -16,7 +16,9 @@ export type Tone = 'focus' | 'gray' | 'faint'
 // `color` overrides the tone palette for multi-theatre maps (each theatre its
 // own colour); tone then just sets emphasis: 'focus' = bright, 'faint' = dim.
 export type StateSpec = { name: string; tone?: Tone; color?: string; fill?: boolean; label?: string; labelLon?: number; labelLat?: number; labelSize?: number }
-export type Dot = { name?: string; date?: string; lat: number; lon: number; anchor?: 'start' | 'end'; dx?: number; dy?: number; heavy?: boolean; color?: string }
+// anchor 'middle' centers the label horizontally on the dot (for placing a title
+// directly above/below it via dy) — use all four sides of the dot to dodge clutter.
+export type Dot = { name?: string; date?: string; lat: number; lon: number; anchor?: 'start' | 'end' | 'middle'; dx?: number; dy?: number; heavy?: boolean; color?: string }
 // A leader-line callout: a dot at the true site, its label floated into open
 // space and joined by a thin leader. `sub` lists co-located engagements (one per
 // line). Any label/sub line with an href becomes a tappable link to that page.
@@ -115,7 +117,7 @@ export function DottedMap({
           )}
           {dots.map((d, i) => {
             const col = d.color ?? accent, x = X(d.lon), y = Y(d.lat), r = d.heavy ? 6 : 4.5
-            const tx = x + (d.anchor === 'end' ? -(d.dx ?? 11) : (d.dx ?? 11))
+            const tx = x + (d.anchor === 'end' ? -(d.dx ?? 11) : d.anchor === 'middle' ? (d.dx ?? 0) : (d.dx ?? 11))
             const ty = y + (d.dy ?? (d.date ? -2 : 5))
             return (
               <g key={`d${i}`}>

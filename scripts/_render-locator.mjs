@@ -72,7 +72,7 @@ for (const file of FILES.sort()) {
     const col = (o.match(/color:\s*'([^']*)'/) || [])[1] || ACCENT
     const anchor = str(o, 'anchor') ?? 'start'; const dx = num(o, 'dx'), dy = num(o, 'dy'); const heavy = has(o, 'heavy'); const date = str(o, 'date')
     const x = X(lon), y = Y(lat), r = heavy ? 6 : 4.5
-    const tx = x + (anchor === 'end' ? -(dx ?? 11) : (dx ?? 11))
+    const tx = x + (anchor === 'end' ? -(dx ?? 11) : anchor === 'middle' ? (dx ?? 0) : (dx ?? 11))
     const ty = y + (dy ?? (date ? -2 : 5))
     parts.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r}" fill="${col}"/>`)
     parts.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r + 3.5}" fill="none" stroke="${alpha(col, 0.25)}" stroke-width="2"/>`)

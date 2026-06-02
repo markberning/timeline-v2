@@ -28,7 +28,7 @@ const APPOMATTOX_NARR: Record<string, Narr> = {
           { name: 'Maryland' }, { name: 'Kentucky' }, { name: 'Tennessee' },
         ],
         dots: [
-          { name: 'Appomattox C.H.', date: 'Apr 9, 1865', lat: 37.38, lon: -78.80, heavy: true, anchor: 'start' },
+          { name: 'Appomattox C.H.', date: 'Apr 9, 1865', lat: 37.38, lon: -78.80, heavy: true, anchor: 'middle', dy: 24 },
           { name: 'Petersburg', lat: 37.23, lon: -77.40, color: '#8a8175', anchor: 'end' },
           { name: 'Richmond', lat: 37.54, lon: -77.44, color: '#8a8175', anchor: 'start' },
           { name: 'Lynchburg', lat: 37.41, lon: -79.14, color: '#8a8175', anchor: 'end' },
