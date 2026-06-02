@@ -170,7 +170,7 @@ function harvestArt(node: unknown, keyHint: string, out: string[]): void {
 
 async function artEntries(): Promise<Entry[]> {
   const { ART_ERA_CONTENT, ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT } =
-    await import('../src/lib/art-content.ts')
+    await import('../src/lib/art-content')
   const out: Entry[] = []
   const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
 
