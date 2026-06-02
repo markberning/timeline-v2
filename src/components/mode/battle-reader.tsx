@@ -135,8 +135,8 @@ export function BattleSectionReader({
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
           </button>
           <div style={{ flex: 1, minWidth: 0 }}>
-            <div style={{ fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: accent }}>{n.eyebrow}</div>
-            <div style={{ fontFamily: SERIF, fontSize: 15, lineHeight: 1.25 }}>{n.title}</div>
+            <div style={{ fontFamily: SERIF, fontSize: 19, fontWeight: 600, lineHeight: 1.1, letterSpacing: '-0.3px', color: 'var(--foreground)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{battleName}</div>
+            <div style={{ fontFamily: SANS, fontSize: 11, lineHeight: 1.3, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', marginTop: 1 }}>{n.title}</div>
           </div>
         </div>
       </div>
