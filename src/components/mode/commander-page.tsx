@@ -27,6 +27,24 @@ const SIDE: Record<string, { label: string; color: string }> = {
 const byId = Object.fromEntries(MAJORS.map(b => [b.id, b]))
 const muted = (pct: number) => `color-mix(in srgb, var(--foreground) ${pct}%, transparent)`
 
+// Day-of-month tiebreaker for battles that share a year+month (the roster only
+// stores month precision). Covers every shared-month group so a commander who
+// fought two battles in one month is ordered right (Wilderness before
+// Spotsylvania, Cold Harbor before Petersburg, Five Forks before Appomattox…).
+// Unmapped battles default to mid-month, which is safe since they are alone in
+// their month for any single commander.
+const BATTLE_DAY: Record<string, number> = {
+  'w-donelson': 13, 't-pearidge': 7, 't-glorieta': 26, 'w-shiloh': 6, 't-island10': 7, 'n-jacksonstphilip': 24,
+  'e-gainesmill': 27, 'e-malvern': 1, 'e-bullrun2': 28, 'w-corinth': 3, 'w-perryville': 8,
+  'e-fredericksburg': 11, 'w-stonesriver': 31, 'e-chancellorsville': 1, 'w-championhill': 16,
+  'e-gettysburg': 1, 'w-vicksburg': 4, 't-porthudson': 9, 'w-lookout': 24, 'w-missionary': 25,
+  'e-wilderness': 5, 'e-spotsylvania': 8, 'e-coldharbor': 1, 'e-petersburg2': 15,
+  'e-opequon': 19, 'w-jonesborough': 1, 'e-cedarcreek': 19, 't-westport': 23, 'w-franklin': 30,
+  'n-fortfisher2': 13, 'e-fortstedman': 25, 'w-bentonville': 19,
+  'e-fiveforks': 1, 'e-petersburg3': 2, 'e-appomattox': 9, 'w-blakeley': 9,
+}
+const sortKey = (b: { year: number; m: number; id: string }) => b.year * 10000 + b.m * 100 + (BATTLE_DAY[b.id] ?? 15)
+
 function Portrait({ src, ring, size }: { src: string; ring: string; size: number }) {
   const [failed, setFailed] = useState(false)
   return (
@@ -52,7 +70,7 @@ export function CommanderPage({ id }: { id: string }) {
   const arc = c.appearances
     .map(a => ({ a, b: byId[a.battleId] }))
     .filter(x => x.b)
-    .sort((x, y) => (x.b.year * 100 + x.b.m) - (y.b.year * 100 + y.b.m))
+    .sort((x, y) => sortKey(x.b) - sortKey(y.b))
 
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
