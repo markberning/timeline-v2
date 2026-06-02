@@ -29,10 +29,10 @@ const ANTIETAM_NARR: Record<string, Narr> = {
           { name: 'Delaware' }, { name: 'New Jersey' }, { name: 'Ohio' },
         ],
         dots: [
-          { name: 'Sharpsburg', date: 'Sept 17, 1862', lat: 39.46, lon: -77.75, heavy: true, anchor: 'start', dy: -12 },
+          { name: 'Sharpsburg', date: 'Sept 17, 1862', lat: 39.46, lon: -77.75, heavy: true, anchor: 'end' },
           { name: 'Frederick', lat: 39.41, lon: -77.41, color: '#8a8175', anchor: 'start' },
           { name: 'Harpers Ferry', lat: 39.32, lon: -77.74, color: '#8a8175', anchor: 'end' },
-          { name: 'Washington', lat: 38.91, lon: -77.04, color: '#8a8175', anchor: 'end' },
+          { name: 'Washington', lat: 38.91, lon: -77.04, color: '#8a8175', anchor: 'start' },
         ],
       } },
       { p: 'In the late summer of 1862, the war in the East had been going badly for the United States, and Robert E. Lee set out to make it worse. For more than a year the fighting there had been waged on Southern soil, with Northern armies grinding into Virginia and getting thrown back out again. Lee had just broken one of those armies near Washington at the end of August. Now, instead of waiting for the next blow, he marched his Army of Northern Virginia north, across the Potomac River and into Maryland. It was his first invasion of the North.' },
