@@ -44,7 +44,7 @@ export function CommanderPage({ id }: { id: string }) {
 
   const crumbs: Crumb[] = [
     { label: 'ACW', short: 'ACW', href: '/war-civil-war' },
-    { label: 'Cast' },
+    { label: 'Cast', href: '/war-civil-war/cast' },
     { label: c.name, active: true },
   ]
 

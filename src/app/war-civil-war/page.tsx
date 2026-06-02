@@ -525,6 +525,23 @@ export default function CivilWarPage() {
           </a>
         </div>
 
+        {/* Cast — follow a commander through the war */}
+        <a href="/war-civil-war/cast" style={{ display: 'block', margin: '12px 18px 0', textDecoration: 'none', color: 'inherit', border: `1px solid ${alpha(WAR_ACCENT, 0.5)}`, borderRadius: 12, padding: '14px 16px', background: alpha(WAR_ACCENT, 0.07) }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span style={{ width: 8, height: 8, borderRadius: 2, background: WAR_ACCENT, flexShrink: 0 }} />
+            <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: WAR_ACCENT }}>The cast</span>
+            <span style={{ marginLeft: 'auto', display: 'inline-flex' }}>
+              {['/war-img/cmdr/lee.jpg', '/war-img/cmdr/grant.jpg', '/war-img/cmdr/sherman.jpg'].map((src, i) => (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img key={src} src={src} alt="" style={{ width: 26, height: 26, borderRadius: 999, objectFit: 'cover', objectPosition: 'center 18%', border: '1.5px solid var(--background)', marginLeft: i === 0 ? 0 : -8, background: '#2a241c' }} />
+              ))}
+            </span>
+          </div>
+          <div style={{ marginTop: 8, fontFamily: SERIF, fontSize: 19, fontWeight: 500, letterSpacing: -0.3 }}>Follow a Commander</div>
+          <div style={{ marginTop: 5, fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)' }}>Trace a general&rsquo;s whole war battle by battle, from first command to surrender. Watch the rail change color as Grant is pulled east or Sherman cuts loose toward the sea.</div>
+          <div style={{ marginTop: 10, display: 'inline-flex', alignItems: 'center', gap: 6, fontFamily: SANS, fontWeight: 600, fontSize: 11.5, color: WAR_ACCENT }}>Meet the cast <span aria-hidden>&rarr;</span></div>
+        </a>
+
         {/* Details — at a glance */}
         <div id="sec-details" style={{ scrollMarginTop: CHROME_TOP + 46 }}>
           <WarGlance />
