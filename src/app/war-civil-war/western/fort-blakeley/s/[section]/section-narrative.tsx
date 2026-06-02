@@ -26,8 +26,8 @@ const BLAKELEY_NARR: Record<string, Narr> = {
           { name: 'Mississippi' }, { name: 'Florida' }, { name: 'Georgia' }, { name: 'Tennessee' },
         ],
         dots: [
-          { name: 'Fort Blakeley', date: 'Apr 9, 1865', lat: 30.74, lon: -87.91, heavy: true, anchor: 'start' },
-          { name: 'Spanish Fort', lat: 30.68, lon: -87.91, color: '#8a8175', anchor: 'middle', dy: 20 },
+          { name: 'Fort Blakeley', date: 'Apr 9, 1865', lat: 30.74, lon: -87.91, heavy: true, anchor: 'middle', dy: -30 },
+          { name: 'Spanish Fort', lat: 30.68, lon: -87.91, color: '#8a8175', anchor: 'start' },
           { name: 'Mobile', lat: 30.69, lon: -88.04, color: '#8a8175', anchor: 'end', dy: -18 },
           { name: 'Pensacola', lat: 30.42, lon: -87.22, color: '#8a8175', anchor: 'start' },
         ],
