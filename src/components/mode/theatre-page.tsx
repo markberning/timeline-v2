@@ -82,7 +82,9 @@ export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; b
   // landing page; a battle-grouping lane jumps to its earliest built battle.
   const firstHref = (id: string): string | undefined => {
     const ln = laneOf(id)
-    if (ln && (ln.kind === 'story' || ln.kind === 'offfield')) return ln.ready ? ln.href : undefined
+    // story / offfield / phase lanes keep their own landing page; a geographic
+    // theatre lane (CW) jumps to its earliest built battle (theatre pages retired).
+    if (ln && (ln.kind === 'story' || ln.kind === 'offfield' || ln.kind === 'phase')) return ln.ready ? ln.href : undefined
     return cfg.battles.filter(b => b.theatre === id && b.href).sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))[0]?.href
   }
   const laneOptions: CrumbOption[] = cfg.lanes.map(l => { const h = firstHref(l.id); return { label: l.label, href: h, disabled: !h, color: l.color?.dot } })

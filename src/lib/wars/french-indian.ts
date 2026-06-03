@@ -36,11 +36,11 @@ export const FRENCH_INDIAN: WarConfig = {
     { code: 'fr', label: 'French', short: 'French', cssVar: '--french', color: { light: '#3a5fa5', dark: '#8aa6d8' } },
   ],
   lanes: [
-    { id: 'ohio-spark', kind: 'phase', label: 'The Ohio Spark', short: 'Ohio', href: '/war-french-indian/ohio-spark', ready: false, color: { light: '#4e8a52', dark: '#84c089', dot: '#4e8a52' }, mapHex: '#84c089' },
-    { id: 'disaster', kind: 'phase', label: 'Years of Disaster', short: 'Disaster', href: '/war-french-indian/disaster', ready: false, color: { light: '#b3502f', dark: '#d98a5a', dot: '#b3502f' }, mapHex: '#d98a5a' },
-    { id: 'pitts-turn', kind: 'phase', label: "Pitt's Turn", short: "Pitt's Turn", href: '/war-french-indian/pitts-turn', ready: false, color: { light: '#b3852f', dark: '#d8b25a', dot: '#b3852f' }, mapHex: '#d8b25a' },
-    { id: 'conquest', kind: 'phase', label: 'The Conquest of Canada', short: 'Conquest', href: '/war-french-indian/conquest', ready: false, color: { light: '#2c7d99', dark: '#5fb0cc', dot: '#2c7d99' }, mapHex: '#5fb0cc' },
-    { id: 'peace-fuse', kind: 'phase', label: 'The Peace and Its Fuse', short: 'The Peace', href: '/war-french-indian/peace-fuse', ready: false, color: { light: '#8a5b86', dark: '#c79cd0', dot: '#8a5b86' }, mapHex: '#c79cd0' },
+    { id: 'ohio-spark', kind: 'phase', label: 'The Ohio Spark', short: 'Ohio', href: '/war-french-indian/ohio-spark', ready: true, color: { light: '#4e8a52', dark: '#84c089', dot: '#4e8a52' }, mapHex: '#84c089' },
+    { id: 'disaster', kind: 'phase', label: 'Years of Disaster', short: 'Disaster', href: '/war-french-indian/disaster', ready: true, color: { light: '#b3502f', dark: '#d98a5a', dot: '#b3502f' }, mapHex: '#d98a5a' },
+    { id: 'pitts-turn', kind: 'phase', label: "Pitt's Turn", short: "Pitt's Turn", href: '/war-french-indian/pitts-turn', ready: true, color: { light: '#b3852f', dark: '#d8b25a', dot: '#b3852f' }, mapHex: '#d8b25a' },
+    { id: 'conquest', kind: 'phase', label: 'The Conquest of Canada', short: 'Conquest', href: '/war-french-indian/conquest', ready: true, color: { light: '#2c7d99', dark: '#5fb0cc', dot: '#2c7d99' }, mapHex: '#5fb0cc' },
+    { id: 'peace-fuse', kind: 'phase', label: 'The Peace and Its Fuse', short: 'The Peace', href: '/war-french-indian/peace-fuse', ready: true, color: { light: '#8a5b86', dark: '#c79cd0', dot: '#8a5b86' }, mapHex: '#c79cd0' },
     { id: 'offfield', kind: 'offfield', label: 'Off the Battlefield', short: 'Off-Field', href: '/war-french-indian/off-the-battlefield', ready: false, color: { light: '#c2611f', dark: '#e07f3c', dot: '#d96a26' }, mapHex: '#d96a26' },
   ],
   // Grouped by phase (theatre = phase id). hook/href/img set at build time.
@@ -78,11 +78,11 @@ export const FRENCH_INDIAN: WarConfig = {
   ],
   // The war-story spine — one chapter per phase (each phase's narrative).
   chapters: [
-    { id: 'ohio-spark', name: 'The Ohio Spark', phase: 'outbreak', type: 'MILITARY', size: 'l', date: '1754', year: 1754, m: 1 },
-    { id: 'disaster', name: 'Years of Disaster', phase: 'hard', type: 'MILITARY', size: 'l', date: '1755–1757', year: 1755, m: 1 },
-    { id: 'pitts-turn', name: "Pitt's Turn", phase: 'turning', type: 'MILITARY', size: 'l', date: '1758', year: 1758, m: 1 },
-    { id: 'conquest', name: 'The Conquest of Canada', phase: 'total', type: 'MILITARY', size: 'l', date: '1759–1760', year: 1759, m: 1 },
-    { id: 'peace-fuse', name: 'The Peace and Its Fuse', phase: 'after', type: 'MILITARY', size: 'l', date: '1760–1763', year: 1760, m: 1 },
+    { id: 'ohio-spark', name: 'The Ohio Spark', phase: 'outbreak', type: 'MILITARY', size: 'l', date: '1754', year: 1754, m: 1, href: '/war-french-indian/ohio-spark' },
+    { id: 'disaster', name: 'Years of Disaster', phase: 'hard', type: 'MILITARY', size: 'l', date: '1755–1757', year: 1755, m: 1, href: '/war-french-indian/disaster' },
+    { id: 'pitts-turn', name: "Pitt's Turn", phase: 'turning', type: 'MILITARY', size: 'l', date: '1758', year: 1758, m: 1, href: '/war-french-indian/pitts-turn' },
+    { id: 'conquest', name: 'The Conquest of Canada', phase: 'total', type: 'MILITARY', size: 'l', date: '1759–1760', year: 1759, m: 1, href: '/war-french-indian/conquest' },
+    { id: 'peace-fuse', name: 'The Peace and Its Fuse', phase: 'after', type: 'MILITARY', size: 'l', date: '1760–1763', year: 1760, m: 1, href: '/war-french-indian/peace-fuse' },
   ],
   commanders: {},
 }
