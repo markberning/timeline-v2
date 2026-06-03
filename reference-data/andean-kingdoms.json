@@ -123,7 +123,7 @@
       "id": "evt-andean-k-tiwanaku-village",
       "label": "Tiwanaku Village Founded",
       "year": -200,
-      "description": "The site of Tiwanaku, on the southern shore of Lake Titicaca at 3,850 meters elevation, began as a small village around 200 BCE. Over the next seven centuries it would grow into the capital of a highland empire.",
+      "description": "Around 200 BCE a small farming village took root on the southern shore of Lake Titicaca, at roughly 12,500 feet (3,810 meters) up in the Bolivian Andes. Nobody watching would have guessed it had seven centuries of growth ahead, ending as the capital of a highland empire.",
       "wikiSlug": "Tiwanaku",
       "tier": 2,
       "tags": [],
@@ -133,76 +133,55 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Titicaca basin — the highest navigable lake in the world at 3,812 m — had supported settled communities since at least 1500 BCE. Tiwanaku was one of several villages competing for dominance in this cold, high-altitude environment."
-        },
-        {
-          "label": "The Settlement",
-          "text": "Early Tiwanaku was a modest village of perhaps a few hundred people. Its location near the lake shore provided access to fish, totora reeds, and the surrounding pastureland for llama and alpaca herding."
-        },
-        {
-          "label": "Legacy",
-          "text": "From these humble beginnings, Tiwanaku would grow into a city of 20,000-40,000 people and the capital of an empire stretching from southern Peru to northern Argentina. Its early phases show the gradual accumulation of religious and political prestige."
+          "label": "Explore further",
+          "text": "At its height around 800 CE, Tiwanaku sprawled across more than 2 square miles (6 square kilometers) on a planned grid and may have housed 10,000 to 20,000 people. Its signature buildings include the Akapana, a terraced platform mound about 850 feet (257 meters) wide with a sunken court at its summit, and a Semi-Subterranean Temple whose walls are studded with carved stone heads. Divers exploring the lakebed in 2000 and 2002 even found a submerged Tiwanaku-era temple roughly the size of a soccer field, complete with an 800-meter retaining wall."
         }
-      ]
+      ],
+      "commonsFile": "Monolito_Fraile_(Tiwanaku,_Bolivia)_(36936733575).jpg"
     },
     {
       "id": "evt-andean-k-gallinazo-group",
       "label": "Gallinazo Group Built",
       "year": -100,
       "endYear": 100,
-      "description": "The Gallinazo Group in the Virú Valley — a massive complex of over 30,000 rooms, platforms, and courts — was one of the largest settlements in the pre-Columbian Americas, housing a population estimated at 5,000–10,000.",
+      "description": "In the Virú Valley just south of the Moche heartland, the people we call Gallinazo built a sprawling adobe city — likely the largest settlement anywhere on Peru's north coast in the centuries before the Moche rose to power.",
       "wikiSlug": "Gallinazo_culture",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "The Virú Valley on the north coast of Peru became densely settled after the Chavín decline. The Gallinazo culture built one of the earliest large residential complexes in the Andes at the Gallinazo Group site."
-        },
-        {
-          "label": "The Structure",
-          "text": "The complex covers over 5 km² and includes multi-story adobe buildings, storage rooms, plazas, and pyramidal platforms. Its scale suggests centralized labor organization and a large permanent population."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Gallinazo Group demonstrates that complex urban settlement on the north coast preceded the Moche. The Moche eventually absorbed Gallinazo populations, and Gallinazo-style ceramics continued to be produced under Moche political control."
+          "label": "Explore further",
+          "text": "Population estimates run from about 10,000 up to roughly 14,400 people packed into a maze of mud-brick houses, plazas, and alleyways — a genuine city, not a temple visited on holidays. It was occupied for an extraordinarily long run, from about 100 BCE all the way to 700 CE, meaning Gallinazo life kept humming along right through the supposed Moche \"takeover.\" The culture also goes by a second name, Virú, after the valley, which is why you'll sometimes see the two used interchangeably."
         }
-      ]
+      ],
+      "commonsFile": "Mapa_cultura_gallinazo.png"
     },
     {
       "id": "evt-andean-k-negative-painting",
       "label": "Gallinazo Negative Painting",
       "year": -100,
-      "description": "Gallinazo potters developed a distinctive negative (resist) painting technique — applying wax or clay slip before firing to create patterns in reverse — producing their signature dark-on-light ceramic style.",
+      "description": "Gallinazo potters mastered \"negative\" painting — a resist trick where you block off parts of the pot with wax or slip before firing, so the protected areas stay light while the rest darkens, leaving a pattern that reads in reverse.",
       "wikiSlug": "Gallinazo_culture",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Negative painting involves covering areas of a vessel with a resistant material (wax, slip, or resin) before smoking or firing. The uncovered areas darken, while the protected areas retain their lighter base color."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Gallinazo negative-painted ceramics feature geometric patterns, faces, and animal motifs in a distinctive dark-on-cream palette. The technique required careful control of firing conditions and pre-planning of designs."
-        },
-        {
-          "label": "Impact",
-          "text": "Negative painting distinguished Gallinazo ceramics from the Moche slip-painted tradition that followed. The technique persisted even after the Moche takeover, appearing alongside Moche fineline painting in some contexts."
+          "label": "Explore further",
+          "text": "The technique is the same basic idea as batik cloth or wax-resist Easter eggs, just worked in clay and smoke instead of dye: wherever the resist sits, the soot and heat can't reach, so the design emerges as light shapes against a darkened ground. It was distinctive enough that archaeologists treat this resist ware as a fingerprint for identifying Gallinazo sites across the north coast. The Moche who followed largely abandoned the look, favoring crisp painted fineline scenes over reversed-out geometry."
         }
-      ]
+      ],
+      "commonsFile": "Virú_culture_pottery_Larco_museum_2.jpg"
     },
     {
       "id": "evt-andean-k-nazca-lines-begin",
       "label": "Nazca Lines Created",
       "year": -100,
       "endYear": 500,
-      "description": "Over a thousand geoglyphs were etched into the Nazca desert plateau in southern Peru — including enormous animal figures, plants, and geometric lines stretching for kilometers — likely for ritual processions connected to water and fertility.",
+      "description": "Across roughly 600 years, the Nazca cleared over a thousand geoglyphs into the desert plateau of southern Peru — straight lines running for miles, geometric shapes, and giant animal and plant figures — by sweeping away dark surface pebbles to expose the pale ground beneath.",
       "wikiSlug": "Nazca_Lines",
-      "commonsFile": "Nazca-lineas-702cb4d07db71.jpg",
+      "commonsFile": "Líneas_de_Nazca,_Nazca,_Perú,_2015-07-29,_DD_52.JPG",
       "tier": 1,
       "tags": [],
       "category": "religion",
@@ -212,16 +191,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Nazca Pampa is a flat, arid plateau between the Ica and Nazca river valleys. The desert surface is covered with dark pebbles; removing them exposes lighter ground beneath, creating visible lines."
-        },
-        {
-          "label": "The Geoglyphs",
-          "text": "Over 1,000 geoglyphs cover approximately 450 km². Animal figures (hummingbird, spider, monkey, condor) range from 30-370 m long. Geometric lines run straight for kilometers. The lines were created by removing surface stones and piling them on the edges."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Nazca Lines were likely ritual pathways walked in processions to invoke water from mountain deities. Their scale — visible only from elevation — suggests they were intended for supernatural observers. They remain one of the most iconic archaeological sites in the world."
+          "label": "Explore further",
+          "text": "Nobody outside the local culture noticed them for centuries: a Peruvian archaeologist spotted them on foot in 1927, but they only entered world awareness once commercial pilots began flying over the desert in the 1930s. The lines survive because the pampa is one of the most windless, rainless places on Earth — which is also why they're so fragile to anything that does touch them. In 2014 Greenpeace activists trampled the area beside the hummingbird for a climate-summit stunt and damaged it, and a truck driver later plowed tire tracks across three figures. And the count keeps climbing: in 2024 a Yamagata University team using AI announced 303 newly found geoglyphs, nearly doubling the known total."
         }
       ]
     },
@@ -229,8 +200,8 @@
       "id": "evt-andean-k-nazca-polychrome",
       "label": "Nazca Polychrome Ceramics",
       "year": -50,
-      "description": "Nazca potters developed the most technically sophisticated polychrome ceramic tradition in the pre-Columbian Americas, using up to 15 mineral pigments applied before firing to create vivid depictions of supernatural beings, animals, and trophy heads.",
-      "commonsFile": "Nazca Bowl with Fox and Peppers - 1981.421 - Cleveland Museum of Art.tif",
+      "description": "Nazca potters built the most technically advanced painted-pottery tradition in the ancient Americas, painting up to 15 mineral colors onto vessels before firing so the hues fused permanently into the clay — vivid depictions of gods, animals, and trophy heads that still look bright after 2,000 years.",
+      "commonsFile": "Vessel_with_Deity_Figure_LACMA_M.73.48.33.jpg",
       "tier": 2,
       "tags": [],
       "category": "science",
@@ -240,16 +211,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Nazca ceramic tradition evolved directly from Paracas pottery. Where Paracas used post-fire resin painting, Nazca potters developed pre-fire slip painting that was far more durable and permitted a wider color range."
-        },
-        {
-          "label": "The Craft",
-          "text": "Nazca polychrome ceramics employed up to 15 mineral-based pigments — more than any other ancient American ceramic tradition. Common subjects include trophy heads, mythical beings (the Mythical Killer Whale), and agricultural themes."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Nazca ceramics are the primary source for understanding Nazca religion and cosmology. The imagery directly connects to the Nazca Lines, with many of the same figures appearing in both media — confirming they represent a unified symbolic system."
+          "label": "Explore further",
+          "text": "The breakthrough was switching from the older Paracas method of dabbing resin-based paint onto a pot after it was fired (where colors flaked off easily) to slip painting, where finely ground minerals suspended in watery clay were brushed on while the vessel was still damp. The pigments came straight from the earth: kaolin clay for whites, iron oxides for the reds and yellows, manganese minerals for the blacks. Because the painting had to be done before firing, the potter couldn't see the true final colors until the kiln opened — every vessel was, in a sense, a gamble."
         }
       ]
     },
@@ -258,9 +221,9 @@
       "label": "Cahuachi Ceremonial Center",
       "year": 1,
       "endYear": 500,
-      "description": "Cahuachi, in the Nazca Valley, was the largest ceremonial center of the Nazca culture — a pilgrimage site covering 150 hectares with over 40 adobe mounds, used for periodic ritual gatherings rather than permanent habitation.",
+      "description": "Cahuachi, in the Nazca Valley to the south, was the great ceremonial heart of the Nazca culture — about 150 hectares (370 acres) of adobe mounds where pilgrims gathered for rituals rather than a city where people actually lived.",
       "wikiSlug": "Cahuachi",
-      "commonsFile": "Cahuachi-1-.jpg",
+      "commonsFile": "Cahuachi.jpg",
       "tier": 1,
       "tags": [],
       "category": "architecture",
@@ -269,16 +232,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Cahuachi sits in the Nazca Valley on the south coast of Peru. Italian archaeologist Giuseppe Orefici has excavated the site since 1984, revealing it was not a city but a pilgrimage center — inhabited by a small priestly class but periodically hosting thousands."
-        },
-        {
-          "label": "The Site",
-          "text": "The complex covers 150 hectares and includes over 40 adobe mounds built on natural hills. The Great Temple stands 30 m high. Evidence of large-scale feasting, textile offerings, and trophy head deposits demonstrates its role as a major ritual center."
-        },
-        {
-          "label": "Legacy",
-          "text": "Cahuachi functioned as the religious and political heart of the Nazca world for about 500 years. Like Chavín de Huántar before it, Cahuachi drew people from across its cultural sphere through pilgrimage rather than permanent residence — a recurring Andean pattern."
+          "label": "Explore further",
+          "text": "Its roughly 40 mounds were mostly natural hills dressed up and enlarged with mud brick, not pyramids built from scratch — a clever shortcut that gave monumental scale for less labor. Archaeologists once assumed Cahuachi was the Nazca capital, but the thin everyday debris gave it away as a pilgrimage center that swelled with crowds only during big ceremonies and stood near-empty in between. Around the mid-500s CE the Nazca deliberately walked away, methodically burying the mounds under earth in what looks like a planned, ritual shutdown rather than a panic."
         }
       ]
     },
@@ -286,7 +241,7 @@
       "id": "evt-andean-k-trophy-heads",
       "label": "Trophy Head Cult",
       "year": 1,
-      "description": "Both Moche and Nazca cultures practiced ritual decapitation and the collection of trophy heads — mummified human heads used as offerings, worn by warriors, and depicted obsessively in ceramics and textiles as symbols of agricultural fertility and supernatural power.",
+      "description": "The Nazca (and the Moche to the north) practiced ritual decapitation, preparing severed human heads with the lips pinned shut and a small hole bored in the forehead for a carrying cord — objects they treated as sacred and painted obsessively onto pots and cloth as emblems of fertility and power.",
       "wikiSlug": "Trophy_head",
       "tier": 2,
       "tags": [],
@@ -296,26 +251,19 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Trophy heads — human heads removed, prepared, and preserved — appear in Andean art from the Chavín period, but reach their peak frequency in the Nazca and Moche cultures. They are among the most common motifs in Nazca ceramics."
-        },
-        {
-          "label": "The Practice",
-          "text": "Nazca trophy heads were prepared by removing the brain, sewing the lips shut, and drilling a hole in the forehead for a carrying cord. Isotopic analysis shows most were local people, not foreign enemies — suggesting ritual sacrifice rather than battlefield trophies."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Trophy heads appear to have been linked to agricultural fertility — the idea that human sacrifice fed the earth and ensured crop growth. This connection between sacrifice, water, and agricultural abundance was a persistent feature of Andean cosmology."
+          "label": "Explore further",
+          "text": "For a long time the assumption was that these were enemy heads taken in battle, the way the Moche seem to have used them. But chemical detective work changed the picture: scientists measured strontium, oxygen, and carbon isotopes locked into the teeth (which record the geology and diet of wherever a person grew up), and the trophy heads matched the local Nazca population, not outsiders. Ancient DNA pointed the same way. In other words the victims were largely the Nazca's own people, which fits the grim logic running through this chapter — the head as a seed planted to make the crops grow."
         }
-      ]
+      ],
+      "commonsFile": "Trophy_Head_Vessel_MET_67.167.40.jpg"
     },
     {
       "id": "evt-andean-k-puquios",
       "label": "Nazca Puquios Built",
       "year": 50,
-      "description": "Nazca engineers constructed puquios — underground aqueducts with distinctive spiral-shaped surface openings — to tap subsurface water in one of the driest deserts on Earth. Some are still in use today after 2,000 years.",
+      "description": "Nazca engineers dug puquios — underground aqueducts with corkscrew-shaped surface openings — to reach the water flowing unseen beneath one of the driest deserts on Earth, then channel it up to fields and wells. Dozens of these systems exist, and some still water farms today.",
       "wikiSlug": "Puquios",
-      "commonsFile": "Acueductos_de_Cantalloc_Nazca, Peru.jpg",
+      "commonsFile": "02-Aqueductos_de_Cantalloc-nX-32.jpg",
       "tier": 1,
       "tags": [],
       "category": "science",
@@ -325,16 +273,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Nazca River flows underground for most of the year, making surface irrigation impossible. Nazca engineers solved this by building underground channels that intercepted subsurface water flows and brought them to the surface."
-        },
-        {
-          "label": "The Engineering",
-          "text": "Puquios are subterranean channels lined with river cobbles, with distinctive spiral or stepped openings (ojos) that allowed access for maintenance and also served as wells. Over 40 puquios have been documented in the Nazca drainage, some reaching depths of 10-15 meters."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Several puquios still function after nearly 2,000 years — a testament to Nazca engineering. The system represents one of the most sophisticated pre-industrial hydraulic solutions in the world, comparable to the qanats of ancient Persia."
+          "label": "Explore further",
+          "text": "The most famous network, the Cantalloc aqueducts just east of Nazca town, runs an underground gallery about 1,150 feet (350 meters) long fed by 22 spiraling shafts each roughly 26 to 33 feet (8 to 10 meters) deep. In 2016 Italian researcher Rosa Lasaponara's team, studying satellite imagery, argued the spiral mouths aren't just access points — they funnel desert wind down into the channels, where the pressure helps push water along like a pump. Around 36 puquios are reckoned to still be functioning in the Nazca valleys after roughly 1,700 years, which makes them some of the oldest working hydraulic engineering anywhere."
         }
       ]
     },
@@ -342,58 +282,44 @@
       "id": "evt-andean-k-recuay-ceramics",
       "label": "Recuay Kaolin Ceramics",
       "year": 50,
-      "description": "Recuay potters produced distinctive white-bodied ceramics made from kaolin clay, decorated with resist painting and modeled figures depicting warriors, llamas, and architectural structures — providing a unique window into highland life.",
+      "description": "Highland potters of the Callejón de Huaylas valley made pale, almost porcelain-white vessels from local kaolin clay, sculpting in little scenes of warriors, llama trains, and even multi-story buildings that give us a rare peek at highland life.",
       "wikiSlug": "Recuay_culture#Ceramics",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Kaolin clay deposits in the northern highlands gave Recuay ceramics their distinctive white body — unusual in the Andes where most pottery is brown, red, or buff-colored."
-        },
-        {
-          "label": "The Craft",
-          "text": "Recuay vessels include modeled scenes showing warriors with trophy heads, llama caravans, and buildings with multiple stories. Some vessels depict women in ceremonial roles, suggesting elite women held significant ritual status."
-        },
-        {
-          "label": "Impact",
-          "text": "Recuay ceramics are the primary evidence for highland life during this period. The modeled scenes of architecture, warfare, and ceremony provide information about highland society that is otherwise poorly documented."
+          "label": "Explore further",
+          "text": "Kaolin (the same fine white clay used for fine china) was hard to work and fired to a striking ivory color, then was decorated with a \"negative\" or resist technique: parts of the pot were masked off so they stayed light while the rest darkened, painting by protecting rather than applying. Recent lab work using petrography and chemical sourcing (LA-ICP-MS) on pots dated 100 to 700 CE shows the clay came from specific local deposits, confirming the pottery was made in the region and traded outward. Many of the finest pieces are funerary, made to go into tombs rather than for daily use, and some show elite women in elaborate ceremonial dress, hinting that high-status women mattered in Recuay ritual."
         }
-      ]
+      ],
+      "commonsFile": "Gefäss_mit_Musikszene_Peru_Recuay_1_Slg_Ebnöther.jpg"
     },
     {
       "id": "evt-andean-k-moche-origins",
       "label": "Moche Culture Emerges",
       "year": 100,
-      "description": "The Moche culture emerged on the north coast of Peru around 100 CE, developing from the earlier Cupisnique and Gallinazo traditions into the most powerful and artistically sophisticated civilization of the Early Intermediate Period.",
+      "description": "Around 100 CE, on the desert river valleys of Peru's north coast, the Moche took shape — a culture that turned warfare and human sacrifice into the engine of its religion and left behind some of the most lifelike art in the ancient Americas.",
       "wikiSlug": "Moche_culture",
       "tier": 1,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The Moche homeland centered on the Moche and Chicama valleys near modern Trujillo. They inherited the north coast's existing agricultural systems, metalworking traditions, and ceramic stirrup-spout vessel forms from the Cupisnique and Gallinazo cultures."
-        },
-        {
-          "label": "What Happened",
-          "text": "From their base in the Moche Valley, the Moche expanded north and south along the coast, eventually controlling multiple river valleys through a combination of military force, irrigation management, and religious authority."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Moche created the first multi-valley political entity on the Peruvian coast — a precursor to the later Chimú kingdom and ultimately the Inca coastal administration. Their art, metallurgy, and architecture represent peaks of Andean achievement."
+          "label": "Explore further",
+          "text": "The Moche never invented writing, so almost everything we know about how they thought comes from their pottery, which is startlingly detailed — over 900 individual \"portrait vessels\" survive, ceramic heads modeled with such specific features (scars, expressions, hairstyles) that some may be likenesses of real people. Their painters worked mostly in just two colors, a red-brown slip on cream, yet packed those surfaces with full narrative scenes of battle, sacrifice, and the supernatural. \"Moche\" is a modern name borrowed from the river valley; we have no idea what they called themselves."
         }
-      ]
+      ],
+      "commonsFile": "Moche_portrait_ceramic_Quai_Branly_71.1930.19.162_n2.jpg"
     },
     {
       "id": "evt-andean-k-huaca-del-sol",
       "label": "Huaca del Sol Constructed",
       "year": 100,
       "endYear": 600,
-      "description": "Huaca del Sol (Pyramid of the Sun), near modern Trujillo, was the largest adobe structure ever built in the Americas — containing an estimated 130 million mud bricks — serving as the Moche political and administrative center.",
+      "description": "The Huaca del Sol, near modern Trujillo, was the largest adobe structure ever raised in the Americas — an estimated 130 million mud bricks — and the Moche state's political and administrative seat.",
       "wikiSlug": "Huaca_del_Sol",
-      "commonsFile": "Huaca del sol (Trujillo, Peru) 04.jpg",
+      "commonsFile": "Huaca_del_Sol_southeast.jpg",
       "tier": 1,
       "tags": [],
       "category": "architecture",
@@ -402,16 +328,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Huaca del Sol stands in the Moche Valley alongside its companion, Huaca de la Luna. Together they formed the capital complex of the southern Moche polity. The site is near modern Trujillo in northern Peru."
-        },
-        {
-          "label": "The Structure",
-          "text": "The pyramid originally rose over 40 m high and measured 345 x 160 m at its base — containing approximately 130 million adobe bricks. Maker's marks on the bricks suggest labor was organized by community, with different groups producing and delivering their quota."
-        },
-        {
-          "label": "Legacy",
-          "text": "Spanish colonizers diverted the Moche River to wash away part of the pyramid in search of gold, destroying roughly two-thirds of the original structure. What remains is still the largest surviving adobe building in the Americas."
+          "label": "Explore further",
+          "text": "Many of the bricks carry distinct makers' marks, hinting that over a hundred different communities each supplied their quota as a kind of labor tax. The pyramid we see is a ruin of its former self: in the early 1600s Spanish colonists deliberately rerouted the Moche River against its base to wash the structure apart and sluice out buried gold, a brute-force mining technique that is thought to have destroyed roughly two-thirds of the original. At full size it may have stood around 160 feet (50 m) tall and stretched over 1,100 feet (340 m) along its base."
         }
       ]
     },
@@ -420,7 +338,7 @@
       "label": "Lima Culture Flourishes",
       "year": 100,
       "endYear": 650,
-      "description": "The Lima culture controlled the central Peruvian coast (modern Lima area), building large pyramidal complexes at Pachacamac, Maranga, and other sites. Their interlocking fish motif ceramics are distinctive of the central coast.",
+      "description": "The quietest of the coastal cultures of its day, the Lima people held the central Peruvian coast around the Rímac, Lurín, and Chillón valleys (the spot where the modern capital now sprawls), building adobe pyramids and painting white-on-red pottery while the flashier Moche and Nazca got all the attention.",
       "wikiSlug": "Lima_culture",
       "tier": 2,
       "tags": [],
@@ -430,48 +348,34 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Lima culture occupied the Rímac, Lurín, and Chillón valleys of central Peru — the area around modern Lima. They were contemporary with the Moche to the north and the Nazca to the south."
-        },
-        {
-          "label": "What Happened",
-          "text": "Lima communities built large adobe pyramid complexes, notably at Huaca Pucllana, Maranga, and the early phases of Pachacamac. Their ceramics feature a distinctive interlocking fish motif and white-on-red painting technique."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Lima culture laid the groundwork for the later importance of Pachacamac — a site that would become one of the most important pilgrimage centers in the Andes under the Wari Empire and through the Inca period."
+          "label": "Explore further",
+          "text": "Their signature look is a tidy white-on-red \"interlocking fish\" pattern, two stylized fish locked together so the gaps between them form fish of their own, an optical trick that turns the whole surface into a puzzle. Part of the reason they get so little press is brutally simple: their heartland is buried under one of South America's biggest cities, so most of their sites were bulldozed for streets and apartments before anyone studied them. Archaeologists generally run the culture from roughly 100 to 650 CE, overlapping the entire careers of both their famous neighbors."
         }
-      ]
+      ],
+      "commonsFile": "Huaca_Pucllana_1.JPG"
     },
     {
       "id": "evt-andean-k-recuay-sculpture",
       "label": "Recuay Stone Sculpture",
       "year": 100,
-      "description": "Recuay sculptors in the northern highlands carved distinctive stone monoliths depicting warriors, women, and felines — creating the most important stone sculpture tradition between the Chavín and Tiwanaku periods.",
+      "description": "Recuay carvers in the northern highlands cut stone monoliths of warriors, women, and snarling felines and set them up at tombs and temples, leaving the most important stone-sculpture tradition between the much earlier Chavín and the later Tiwanaku.",
       "wikiSlug": "Recuay_culture",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "The Recuay culture occupied the Callejón de Huaylas in the northern highlands of Peru. They worked in stone — rare on the coast but abundant in the highlands — and produced both freestanding sculpture and decorated building stones."
-        },
-        {
-          "label": "The Sculpture",
-          "text": "Recuay stone carvings depict warriors holding trophy heads, women in elaborate dress, and feline figures. They were typically placed at tombs and ceremonial structures. The style combines realism with stylized features."
-        },
-        {
-          "label": "Legacy",
-          "text": "Recuay stone sculpture represents a highland artistic tradition intermediate between the earlier Chavín stone-carving tradition and the later monumental sculpture of Tiwanaku. Their warrior-trophy head imagery parallels Moche themes on the coast."
+          "label": "Explore further",
+          "text": "Stone was the durable cousin of their pottery imagery, and the same cast of characters shows up in both: armed men holding trophy heads, presiding women, and fanged cat-beings standing in for divine power. The sculptures were not museum pieces but working monuments, planted in plazas and at burial sites as a kind of carved guardian or ancestor. Because so much highland archaeology of this era is thin, these monoliths are one of the few hard records of how Recuay people pictured authority and the supernatural."
         }
-      ]
+      ],
+      "commonsFile": "Cabana-Pashas_Piedra_1.jpg"
     },
     {
       "id": "evt-andean-k-suka-kollus",
       "label": "Raised-Field Agriculture",
       "year": 100,
-      "description": "Communities around Lake Titicaca developed suka kollus — raised agricultural platforms surrounded by water channels — that created microclimates protecting crops from frost and dramatically increased yields on the cold altiplano.",
+      "description": "Around Lake Titicaca, farmers beat the brutal cold by building suka kollus — long raised earth platforms ringed by water channels — turning a frost-prone high plain into reliable, high-yield cropland.",
       "wikiSlug": "Waru_Waru",
       "tier": 1,
       "tags": [],
@@ -482,49 +386,35 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Titicaca basin at 3,800+ m faces severe agricultural challenges: freezing temperatures, waterlogged soils near the lake, and a growing season of only 120 days. Conventional farming yields were low and unreliable."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Suka kollus are raised earth platforms 5-15 m wide and up to 200 m long, separated by water-filled channels. The channels absorb solar heat during the day and radiate it at night, raising temperatures 2-3°C on the platforms — enough to prevent frost damage."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Raised fields tripled potato yields compared to conventional farming on the altiplano. Modern experiments recreating ancient suka kollus have confirmed their effectiveness. This technology enabled the population density that supported Tiwanaku's rise."
+          "label": "Explore further",
+          "text": "The trick was the water itself. Channels beside each platform soaked up the sun's heat by day and radiated it back at night, lifting temperatures just enough to fend off the killing frosts that can strike the altiplano any month of the year. The proof came in the 1980s, when researchers Clark Erickson and Alan Kolata persuaded local farmers to rebuild ancient fields: experimental suka kollus yielded around 21 tonnes of potatoes per hectare against roughly 2 to 3 for ordinary altiplano plots, and during a 1988 freeze that wiped out most of the region's crop, the raised fields lost only about a tenth of theirs."
         }
-      ]
+      ],
+      "commonsFile": "Waru_waru_moderno.JPG"
     },
     {
       "id": "evt-andean-k-nazca-textiles",
       "label": "Nazca Textile Tradition",
       "year": 100,
-      "description": "Nazca weavers continued and elaborated the Paracas textile tradition, producing polychrome tapestries and embroidered cloths depicting the same supernatural beings found on Nazca ceramics and geoglyphs — confirming a unified cosmological system across media.",
+      "description": "Nazca weavers inherited and pushed forward the spectacular Paracas textile tradition, producing tapestries and embroidered cloths covered with the same gods, animals, and trophy heads that appear on their pots and geoglyphs — proof that all three media spoke one shared visual language.",
       "wikiSlug": "Nazca_culture#Textiles",
       "tier": 3,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Background",
-          "text": "The Nazca directly succeeded the Paracas on the south coast and inherited their mastery of textile production. Nazca textiles use many of the same techniques as Paracas but with a broader polychrome palette."
-        },
-        {
-          "label": "The Craft",
-          "text": "Nazca textiles include tapestries, embroideries, and painted cloths depicting supernatural beings, trophy heads, agricultural themes, and the same hummingbirds, monkeys, and spiders found in the Nazca Lines."
-        },
-        {
-          "label": "Legacy",
-          "text": "The continuity of imagery across ceramics, textiles, and geoglyphs confirms that these were not separate artistic traditions but expressions of a single coherent cosmological system. Textiles — as in all Andean cultures — carried the deepest symbolic meaning."
+          "label": "Explore further",
+          "text": "Their signature was a three-dimensional border technique called cross-knit looping — done with a single needle (often shaped from a cactus spine, fish bone, or bit of wood) rather than a loom, it produced tiny sculpted figures that stand out from the cloth almost like miniature carvings. The materials themselves map a trade network across the Andes: the off-white cotton grew in the coastal valleys, but the jewel-toned wool came from highland camelids — llamas, alpacas, and vicuñas — that live thousands of feet up in the mountains, so finishing a single textile meant pulling fibers from two completely different worlds."
         }
-      ]
+      ],
+      "commonsFile": "Paracas_mantle,_BM.jpg"
     },
     {
       "id": "evt-andean-k-el-brujo",
       "label": "El Brujo Complex",
       "year": 100,
       "endYear": 600,
-      "description": "El Brujo ('The Sorcerer'), in the Chicama Valley, was a major Moche ceremonial center featuring the Huaca Cao Viejo pyramid with polychrome murals rivaling those at Huaca de la Luna and the tomb of the Lady of Cao.",
+      "description": "El Brujo (\"the sorcerer\"), a Moche ceremonial complex in the Chicama Valley built around the Huaca Cao Viejo pyramid, famous for its polychrome murals and the tomb of the Lady of Cao.",
       "wikiSlug": "El_Brujo",
       "tier": 3,
       "tags": [],
@@ -534,24 +424,17 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "El Brujo is located in the Chicama Valley, about 60 km north of the main Moche capital at Huaca del Sol/Huaca de la Luna. It was a secondary but important Moche ceremonial center."
-        },
-        {
-          "label": "The Complex",
-          "text": "Huaca Cao Viejo, the main pyramid, features polychrome murals depicting warrior processions, prisoners, and supernatural beings. The murals rival those at Huaca de la Luna in quality and preservation."
-        },
-        {
-          "label": "Legacy",
-          "text": "El Brujo's importance increased dramatically with the discovery of the Lady of Cao in 2006. The site demonstrates that major Moche ceremonial centers existed in multiple valleys, each with their own elite warrior-priest rulers."
+          "label": "Explore further",
+          "text": "The site sits roughly 37 miles (60 km) north of the city of Trujillo, and the El Brujo Archaeological Project under Régulo Franco Jordán had been excavating its painted facades for years before the Lady of Cao surfaced in 2006. The complex stayed sacred for an astonishingly long time — people kept using and reusing it across many centuries, well after the Moche themselves had faded — which is part of how it earned its \"sorcerer\" reputation among locals. Its murals run to bright reds, yellows, whites, and blacks, with rows of bound, naked prisoners marching toward sacrifice."
         }
-      ]
+      ],
+      "commonsFile": "Naked_prisoners_being_led_by_warrior_at_El_Brujo.JPG"
     },
     {
       "id": "evt-andean-k-chicha-production",
       "label": "Chicha Beer Production",
       "year": 100,
-      "description": "Chicha — fermented maize beer — was produced on an industrial scale by both Moche and Nazca cultures, consumed at ritual feasts, used in diplomatic ceremonies, and offered to ancestors and deities.",
+      "description": "Chicha, a beer brewed from maize (corn), was made at industrial scale across the Andes, and it was less a drink than a tool of power: in a world that ran on reciprocity, the leader who poured the most beer could command the most labor.",
       "wikiSlug": "Chicha",
       "tier": 3,
       "tags": [],
@@ -561,50 +444,36 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Chicha de jora is a fermented beverage made from germinated maize. It was the primary ritual drink of Andean civilizations, consumed at every significant social and religious occasion."
-        },
-        {
-          "label": "The Production",
-          "text": "Archaeological evidence at Moche sites shows large-scale chicha production — large ceramic vessels (tinajas), maize-grinding stones, and residue analysis confirming fermented maize. Women were typically the brewers, and chicha production was a high-status activity."
-        },
-        {
-          "label": "Legacy",
-          "text": "Chicha was central to the Andean system of reciprocal obligation — a ruler who hosted feasts was expected to provide chicha in abundance. The Inca state maintained breweries staffed by chosen women (acllas) to produce chicha for state ceremonies."
+          "label": "Explore further",
+          "text": "Brewing was usually women's work and high-status, and one traditional method had brewers chew the maize so enzymes in saliva would convert its starch to fermentable sugar before the mash was left to sour. The later Inca state ran dedicated breweries staffed by the acllas, or \"chosen women,\" girls taken from the provinces around age eight to ten and trained for years in weaving, ritual, and brewing the sacred beer for state ceremonies. Archaeologists have even excavated a Wari-era brewery at the mountaintop site of Cerro Baúl whose brewers, evidence suggests, ceremonially smashed their drinking vessels and torched the building when the site was abandoned."
         }
-      ]
+      ],
+      "commonsFile": "Model_tray_for_making_chicha_(corn_beer),_Peru,_Chancay-Chimu,_north_central_coast,_c._1400_AD,_silvered_copper_-_Krannert_Art_Museum,_UIUC_-_DSC06441.jpg"
     },
     {
       "id": "evt-andean-k-nazca-monkey",
       "label": "Nazca Monkey Geoglyph",
       "year": 100,
-      "description": "The Monkey — a 93-meter figure with a distinctive spiral tail — is one of the most recognizable Nazca geoglyphs. Its depiction of a spider monkey, a species not native to the coastal desert, points to trade connections with the Amazon basin.",
+      "description": "The Monkey is one of the most recognizable Nazca figures: a roughly 300-foot (93-meter) animal with a great curling spiral tail and an oddly counted set of fingers, drawn as a single unbroken line. Its subject is a spider monkey — a creature of the Amazon, not the coastal desert.",
       "wikiSlug": "Nazca_Lines#Monkey",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Spider monkeys live in tropical rainforest, not coastal desert. The appearance of a monkey figure on the Nazca pampa indicates that Nazca people were familiar with Amazonian fauna through long-distance trade or ecological zone management."
-        },
-        {
-          "label": "The Figure",
-          "text": "The monkey measures approximately 93 m and features nine fingers (a detail that has puzzled scholars) and a long spiral tail. Like other Nazca biomorphs, it is drawn as a single continuous line that could be walked as a processional path."
-        },
-        {
-          "label": "Legacy",
-          "text": "The monkey geoglyph demonstrates the Nazca awareness of distant ecological zones and their connection to the broader Andean world. Amazon trade goods — tropical feathers, hardwoods, psychotropic plants — were valued across Andean cultures."
+          "label": "Explore further",
+          "text": "Like every Nazca biomorph, it's drawn as one continuous line that begins and ends at the same spot, so it could be walked as a single looping path rather than viewed as a picture. The choice of an Amazonian animal is the telling part: the Nazca lived on the desert coast, yet they knew the rainforest on the far side of the Andes — the ultimate source of the moisture that fed the highland rivers and the underground water their lives depended on. The monkey's missing-and-extra fingers (it's often described as having nine on one hand) have never been satisfactorily explained, one of the small puzzles that keep the pampa from ever fully giving up its meaning."
         }
-      ]
+      ],
+      "commonsFile": "Líneas_de_Nazca,_Nazca,_Perú,_2015-07-29,_DD_49.JPG"
     },
     {
       "id": "evt-andean-k-huaca-de-la-luna",
       "label": "Huaca de la Luna Murals",
       "year": 150,
-      "description": "Huaca de la Luna (Pyramid of the Moon) was the main Moche ceremonial temple, decorated with elaborate polychrome murals depicting Ai Apaec — the fearsome Decapitator God — and scenes of ritual combat, sacrifice, and supernatural beings.",
+      "description": "The Huaca de la Luna was the Moche's chief ceremonial temple, its walls layered with vivid murals of Ai Apaec, the fanged Decapitator god, alongside scenes of ritual combat, sacrifice, and supernatural beings.",
       "wikiSlug": "Huaca_de_la_Luna",
-      "commonsFile": "Trujillo - Huaca de la Luna 11.jpg",
+      "commonsFile": "Huaca_de_la_Luna_-_Août_2007.jpg",
       "tier": 2,
       "tags": [],
       "category": "architecture",
@@ -613,16 +482,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Huaca de la Luna faces Huaca del Sol across a 500 m plaza at the Moche capital complex. While Huaca del Sol was the administrative center, Huaca de la Luna served as the primary religious temple."
-        },
-        {
-          "label": "The Murals",
-          "text": "Excavations since 1991 have revealed multiple layers of polychrome murals covering the temple walls. The dominant image is Ai Apaec, the Decapitator God — a fanged deity often shown holding a severed head and a tumi knife. Scenes of ritual combat and sacrifice cover surrounding walls."
-        },
-        {
-          "label": "Legacy",
-          "text": "Huaca de la Luna's murals are the best-preserved examples of Moche religious art. They confirm that scenes depicted on ceramics represent actual rituals performed at the temple, with real warrior-priests enacting the roles of supernatural beings."
+          "label": "Explore further",
+          "text": "The murals were genuinely polychrome, painted in white, black, red, blue, and yellow ground from minerals like hematite. The sacrifice was real, not just painted: in a courtyard known as Plaza 3A, archaeologist Steve Bourget excavated the dismembered remains of roughly 70 to 75 men, killed and arranged among broken pottery. The skeletons sat in layers of flood-laid mud, and Bourget argued the killings were staged during El Niño downpours — a desperate attempt to buy the gods' favor as the rains that should have meant life instead spelled catastrophe."
         }
       ]
     },
@@ -630,7 +491,7 @@
       "id": "evt-andean-k-ai-apaec",
       "label": "Ai Apaec Worship",
       "year": 150,
-      "description": "Ai Apaec, the Decapitator God, was the supreme deity of the Moche — a fanged being depicted holding a tumi sacrificial knife and a severed head. His image dominated Moche temples, ceramics, and metalwork.",
+      "description": "Ai Apaec, the Decapitator God, was the Moche's supreme deity — a fanged figure typically shown gripping a tumi (a ceremonial knife with a half-moon blade) in one hand and a severed human head in the other, his image plastered across temples, pots, and gold.",
       "wikiSlug": "Ai_Apaec",
       "tier": 2,
       "tags": [],
@@ -641,26 +502,19 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Ai Apaec ('the Maker') is the most commonly depicted deity in Moche art. His image derives from the Chavín tradition of fanged supernatural beings but is more explicitly associated with decapitation and blood sacrifice."
-        },
-        {
-          "label": "The Deity",
-          "text": "Ai Apaec is typically shown with fangs, a headdress of serpents or jaguars, and either a tumi knife or a severed head (or both). He appears on temple murals, fine ceramics, and gold ornaments. His cult was central to Moche political legitimacy."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Decapitator God concept persisted through the Chimú culture and into the Inca period, though in modified forms. The connection between divine authority, ritual sacrifice, and agricultural fertility that Ai Apaec embodied was a core element of Andean religion."
+          "label": "Explore further",
+          "text": "Because the Moche left no writing, the name \"Ai Apaec\" is actually borrowed from a much later north-coast language and may not be what they called him at all — scholars often just label him \"the Decapitator.\" His sacrificial rites weren't guessed at from spooky imagery; the most reproduced scene in all of Moche art, the so-called Sacrifice Ceremony, shows elaborately dressed figures presenting a goblet of blood drawn from bound prisoners — and excavated burials of richly dressed lords match the costumed officiants in those paintings almost detail for detail. The art, in other words, was documenting a real ceremony."
         }
-      ]
+      ],
+      "commonsFile": "H_Luna_Frisorestaurado_lou.jpg"
     },
     {
       "id": "evt-andean-k-portrait-vessels",
       "label": "Moche Portrait Vessels",
       "year": 200,
-      "description": "Moche potters produced portrait-head vessels of astonishing realism — individual faces rendered with specific features, expressions, and even apparent ages — that are among the most naturalistic ceramic portraits in the ancient world.",
+      "description": "Ceramic bottles topped with the modeled head of a real, specific person — scars, lip plugs, crooked noses and all — rendered so naturalistically they have almost no rival anywhere in the ancient Americas.",
       "wikiSlug": "Moche_portrait_vessel",
-      "commonsFile": "Portrait Vessel of a Ruler MET DT1072.jpg",
+      "commonsFile": "Moche_portrait_ceramic_Quai_Branly_71.1930.19.162_n1.jpg",
       "tier": 1,
       "tags": [],
       "category": "writing",
@@ -670,16 +524,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Moche ceramics evolved from the stirrup-spout tradition inherited from Cupisnique culture. While Moche potters produced many vessel types, the portrait-head vessels are unique in the ancient Americas for their level of individual realism."
-        },
-        {
-          "label": "The Craft",
-          "text": "Scholars have identified over 40 distinct 'individuals' across hundreds of portrait vessels, some apparently depicted at different ages. The vessels show specific facial features, scars, lip ornaments, and expressions — suggesting they portray actual people, likely rulers or high-status individuals."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "In a civilization without writing, portrait vessels may have served as a visual record of rulers and lineages. They represent the closest thing to portraiture in the pre-Columbian Americas and provide our most direct window into Moche individuality and identity."
+          "label": "Explore further",
+          "text": "Here is the surprise: most of these \"individual\" faces were not sculpted by hand one at a time but pressed out of reusable molds, so the very same person could be reproduced again and again across different pots and even different sites. Christopher Donnan, who catalogued roughly 900 surviving examples, found cases where one man seems to be portrayed at several ages — boy, young man, middle age — apparently by tweaking the same mold matrix over the years. His study also showed the whole tradition was tightly limited in time and place, not a habit that spread across all of Moche history."
         }
       ]
     },
@@ -687,23 +533,15 @@
       "id": "evt-andean-k-moche-irrigation",
       "label": "Moche Intervalley Canal",
       "year": 200,
-      "description": "Moche engineers constructed massive irrigation canals, including an intervalley canal connecting the Chicama and Moche valleys — a system that transformed coastal desert into productive farmland and supported a population of over 100,000.",
+      "description": "Moche engineers turned a near-rainless coastal desert into farmland by capturing the seasonal rivers in an elaborate web of canals, reservoirs, and channels — infrastructure that fed a population topping 100,000 on a thin ribbon of land between the ocean and the Andes.",
       "wikiSlug": "Moche_culture#Agriculture",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "The north Peruvian coast receives almost no rainfall. Agriculture depended entirely on irrigation from rivers fed by highland snowmelt. The Moche expanded and integrated irrigation systems across multiple valleys."
-        },
-        {
-          "label": "The Engineering",
-          "text": "The La Cumbre intervalley canal stretches approximately 113 km, connecting the Chicama River watershed to the Moche Valley. Moche canals included aqueducts, reservoirs, and distribution channels that irrigated tens of thousands of hectares of maize, beans, and squash."
-        },
-        {
-          "label": "Impact",
-          "text": "Moche irrigation enabled population densities that rivaled Old World civilizations. Control of water became a primary source of political power — whoever managed the canals controlled the food supply."
+          "label": "Explore further",
+          "text": "The whole system rode on snowmelt that the high Andes released on a seasonal clock, which made the Moche hostage to the weather: a strong El Niño could turn those tame irrigation rivers into torrents that ripped out the canals overnight. Their reach extended into open fields with crops like maize, beans, squash, peanuts, and peppers, all watered by hand-built channels rather than rain. The most ambitious intervalley canal scheme linking the Chicama and Moche watersheds was actually pushed furthest centuries later, by the Chimú who succeeded them — and even then engineers fought ground that kept shifting along fault lines, so the grand canal was apparently abandoned before it ever delivered water."
         }
       ]
     },
@@ -711,9 +549,9 @@
       "id": "evt-andean-k-moche-metalwork",
       "label": "Moche Gold & Copper Mastery",
       "year": 200,
-      "description": "Moche metallurgists developed sophisticated techniques including gilding, alloying copper with gold or silver (tumbaga), and lost-wax casting — producing ornaments of extraordinary refinement that rivaled the best metalwork in the ancient world.",
+      "description": "Moche metalsmiths mastered gold, silver, copper, and their alloys — using lost-wax casting, soldering, and a New World invention called depletion gilding to make cheap copper-gold alloy look like solid gold.",
       "wikiSlug": "Moche_culture#Metallurgy",
-      "commonsFile": "Earflare Frontal, 3rd-7th century, Moche, Peru, gold and turquoise - Metropolitan Museum of Art - New York City - DSC07053.jpg",
+      "commonsFile": "Nariguera_Moche2.JPG",
       "tier": 2,
       "tags": [],
       "category": "science",
@@ -723,16 +561,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Andean metallurgy had been developing since at least 1500 BCE, but the Moche elevated it to new heights. They worked gold, silver, copper, and their alloys with techniques not seen elsewhere in the Americas."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Moche metalworkers invented depletion gilding — a technique that selectively removed copper from the surface of tumbaga (gold-copper alloy), leaving a thin layer of pure gold. They also mastered lost-wax casting, soldering, and wire drawing."
-        },
-        {
-          "label": "Impact",
-          "text": "Moche metalwork was the finest produced in the pre-Columbian Americas until the Chimú and Inca periods. The discovery of intact Moche tombs at Sipán revealed the full range of their metallurgical virtuosity."
+          "label": "Explore further",
+          "text": "Depletion gilding has no parallel in the Old World: the smiths cast an object in tumbaga (a gold-copper alloy), then bathed the surface in acidic plant juices that dissolved away the copper, leaving a wafer-thin skin of pure gold over a base-metal core. It let a single sheet of gold dress dozens of objects, so the glittering regalia in these tombs holds far less actual gold than it appears to. The technique fooled museums and metallurgists for decades, and modern surface analysis is still teasing out exactly how little gold some \"gold\" Moche pieces really contain."
         }
       ]
     },
@@ -740,7 +570,7 @@
       "id": "evt-andean-k-old-lord-sipan",
       "label": "Old Lord of Sipán Tomb",
       "year": 200,
-      "description": "A second royal burial at Sipán — the 'Old Lord' — dated about a century earlier than the Lord of Sipán, showing the continuity of the warrior-priest tradition across generations at the same pyramid complex.",
+      "description": "The \"Old Lord of Sipán,\" a warrior-priest buried at Huaca Rajada a century or more before the Lord, found with archaic regalia including a gold-and-silver crab figure and a man-bodied octopus pectoral.",
       "wikiSlug": "Lord_of_Sipán#Old_Lord_of_Sipán",
       "tier": 3,
       "tags": [
@@ -752,24 +582,17 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "After discovering the Lord of Sipán, Walter Alva's team continued excavating deeper layers at Huaca Rajada and found an earlier royal tomb dubbed the 'Old Lord of Sipán,' dating to approximately 100-200 CE."
-        },
-        {
-          "label": "The Tomb",
-          "text": "The Old Lord was buried with similar regalia to the later Lord but with stylistic differences indicating an earlier period. His gold ornaments were slightly less elaborate but still extraordinary, including a gold feline head and octopus pectoral."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Old Lord's tomb demonstrates that the warrior-priest role and its associated burial ritual persisted for at least a century at Sipán, suggesting a dynastic lineage of Moche rulers who occupied the same ceremonial role across generations."
+          "label": "Explore further",
+          "text": "DNA testing later showed the Old Lord and the Lord of Sipán were genuinely related through the maternal line — actual kin, not just successors who happened to inherit the same office. That biological link is strong evidence that the warrior-priest role at Sipán passed down a real bloodline rather than being handed to whoever rose through the ranks. His grave goods lean toward supernatural sea creatures (the octopus, the crab), hinting that the office's imagery shifted over the generations even as the role stayed the same."
         }
-      ]
+      ],
+      "commonsFile": "Señor_de_Sipan_(Detalle).jpg"
     },
     {
       "id": "evt-andean-k-pachacamac-early",
       "label": "Pachacamac Founded",
       "year": 200,
-      "description": "Pachacamac, on the Lurín River south of modern Lima, was founded as a ceremonial center by the Lima culture and would grow into one of the most important oracle and pilgrimage sites in the Andes over the next 1,300 years.",
+      "description": "A ceremonial center the Lima culture began building in the Lurín Valley south of modern Lima around 200 CE, which would outgrow its founders to become the most powerful oracle and pilgrimage destination in the entire Andes.",
       "wikiSlug": "Pachacamac",
       "tier": 2,
       "tags": [],
@@ -779,27 +602,20 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Pachacamac sits at the mouth of the Lurín Valley, 40 km south of modern Lima. The site's name means 'Earth Maker' or 'World Creator' in Quechua, reflecting the earthquake deity who was worshipped there."
-        },
-        {
-          "label": "The Site",
-          "text": "The earliest Lima-period construction at Pachacamac includes the Old Temple, a painted adobe pyramid. The site grew over centuries as successive cultures — Lima, Wari, Ichma, Inca — added temples, plazas, and pilgrimage facilities."
-        },
-        {
-          "label": "Legacy",
-          "text": "Pachacamac became the most important oracle in the Andes — pilgrims traveled from across Peru to consult the earthquake god. Even the Inca, who conquered the site, chose to incorporate rather than destroy its cult. The Spanish found the oracle still active in 1533."
+          "label": "Explore further",
+          "text": "The name comes from Quechua for something like \"Earth Maker\" or \"World Creator,\" and the site's career as a sacred place ran for well over a thousand years, with the Lima, Wari, Ichma, and finally the Inca each adding temples and plazas. When the Inca conquered it in the mid-1470s under the emperor Pachacutec they were careful not to smash the cult, instead building their own Temple of the Sun beside it. The oracle was still in business when Hernando Pizarro's men reached it in early 1533 and, to the locals' horror, toppled the idol; a wooden version of that idol survived and is in a museum today."
         }
-      ]
+      ],
+      "commonsFile": "Pachacamac_-_51163366566.jpg"
     },
     {
       "id": "evt-andean-k-kalasasaya",
       "label": "Kalasasaya Temple Complex",
       "year": 200,
       "endYear": 500,
-      "description": "The Kalasasaya at Tiwanaku — a large semi-subterranean temple enclosure with monolithic stone gateways and free-standing stelae — served as an astronomical observation platform aligned to the solstices and equinoxes.",
+      "description": "The Kalasasaya was Tiwanaku's great walled temple court, its standing stones and gateways lined up so precisely that the rising sun marked the solstices and equinoxes — a calendar built in stone for timing the planting year.",
       "wikiSlug": "Kalasasaya",
-      "commonsFile": "Kalasasaya Tiwanaku.jpg",
+      "commonsFile": "Plein_Tiwanaku.jpg",
       "tier": 2,
       "tags": [],
       "category": "architecture",
@@ -808,16 +624,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Kalasasaya ('Place of the Standing Stones') is a rectangular enclosure measuring approximately 120 x 130 m at Tiwanaku. Its name comes from the tall stone pillars embedded in its walls."
-        },
-        {
-          "label": "The Temple",
-          "text": "The enclosure contains the Ponce Monolith and the Bennett Monolith — two of the largest stone sculptures in the Andes. Its walls are oriented to mark the sunrise positions at the solstices and equinoxes, functioning as an astronomical calendar."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Kalasasaya's astronomical alignments demonstrate that Tiwanaku's builders — like their contemporaries at Stonehenge and other ancient observatories — used architecture to track solar cycles for agricultural and ceremonial timing."
+          "label": "Explore further",
+          "text": "The name means roughly \"Place of the Standing Stones\" in Aymara, and the enclosure is huge — on the order of 400 by 425 feet (120 by 130 meters). Much of what visitors see today is contested: a Bolivian team under Carlos Ponce Sanginés heavily reconstructed the walls in the mid-20th century, and critics argue the restoration owes as much to guesswork as to evidence. The famous Ponce and Bennett monoliths were both pulled from this area, which makes the Kalasasaya the ceremonial core where Tiwanaku's priests staged the rituals those statues depict."
         }
       ]
     },
@@ -825,9 +633,9 @@
       "id": "evt-andean-k-fineline-painting",
       "label": "Moche Fineline Painting",
       "year": 250,
-      "description": "Moche artists developed a distinctive fineline painting technique on ceramic vessels — using fine brushes to depict complex narrative scenes of combat, sacrifice, myth, and daily life that serve as our primary visual record of Moche society.",
+      "description": "A delicate red-and-cream painting style the Moche brushed onto pottery, packing whole narrative scenes (battle, sacrifice, myth, daily life) onto surfaces the size of a softball — our richest visual record of a people with no writing.",
       "wikiSlug": "Moche_culture#Ceramics",
-      "commonsFile": "Vessel with Deer Hunting Scene MET DP-14156-001.jpg",
+      "commonsFile": "Arañamuseolarco.jpg",
       "tier": 2,
       "tags": [],
       "category": "writing",
@@ -836,16 +644,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Moche fineline painting emerged around 250 CE and reached its peak between 400-600 CE. Artists used fine brushes with red and cream pigments on stirrup-spout and other vessel forms to create detailed narrative scenes."
-        },
-        {
-          "label": "The Art",
-          "text": "Fineline paintings depict complex scenes: ritual combat between warriors, the Sacrifice Ceremony with priests collecting blood, supernatural beings crossing the ocean, funeral processions, and daily activities like fishing and hunting."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Without a writing system, Moche fineline paintings are the closest thing to a visual literature in the ancient Americas. Scholars have identified recurring 'themes' and characters — suggesting that these scenes depict standardized mythological narratives understood across Moche society."
+          "label": "Explore further",
+          "text": "To actually read these scenes, modern scholars Christopher Donnan and Donna McClelland developed a clever trick: they photographed each vessel while slowly rotating it, producing a flattened \"rollout\" that unspools the wraparound picture into a single horizontal strip you can scan left to right like a comic. Donnan and McClelland sorted the painted subjects into five big buckets — vessel forms, daily life, the natural world, the supernatural, and the recurring narrative themes — and their archive of thousands of rollouts is now held at Dumbarton Oaks in Washington, D.C."
         }
       ]
     },
@@ -879,9 +679,9 @@
       "id": "evt-andean-k-sipan-discovery",
       "label": "Lord of Sipán Tomb",
       "year": 300,
-      "description": "The tomb of the Lord of Sipán — a Moche warrior-priest buried with extraordinary gold, silver, and copper regalia at Huaca Rajada — was discovered in 1987 and is the richest burial ever excavated in the pre-Columbian Americas.",
+      "description": "The intact tomb of a Moche warrior-priest at Huaca Rajada, packed with gold, silver, copper and turquoise — unearthed in 1987 and still the richest undisturbed burial ever found in the pre-Columbian Americas.",
       "wikiSlug": "Lord_of_Sipán",
-      "commonsFile": "Lord of sipan.jpg",
+      "commonsFile": "Tomb_of_Lord_of_Sipán_01.jpg",
       "tier": 1,
       "tags": [
         "people"
@@ -893,16 +693,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "In 1987, Peruvian archaeologist Walter Alva was called to investigate looting at Huaca Rajada, a Moche pyramid near the village of Sipán in the Lambayeque Valley. He found an unlooted royal tomb that transformed our understanding of Moche society."
-        },
-        {
-          "label": "The Tomb",
-          "text": "The Lord of Sipán was buried with over 400 objects: gold and turquoise ear ornaments, a gold scepter, pectoral necklaces of peanut-shaped gold beads, and copper sandals. Six companion burials (including warriors and women) accompanied him."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Lord of Sipán's regalia matches the costume of the warrior-priest figure in the Sacrifice Ceremony — proving these ceremonial scenes depicted real people and real rituals. The find is considered one of the most important archaeological discoveries of the 20th century."
+          "label": "Explore further",
+          "text": "The find was an accident of crime: looters hit the mound first in early 1987, a fight over the gold tipped off police, and a raid brought archaeologist Walter Alva racing to salvage what was left. The Lord himself — a man about 35 to 45 years old and around 5 feet 4 inches (1.63 m) tall — was laid out with some 451 objects, from a gold-and-copper face mask to nose ornaments and headdresses marking the highest rank. National Geographic likened the discovery to King Tut's tomb and the Terracotta Army, and Alva's team soon found two neighboring tombs, the \"Priest\" and the \"Old Lord of Sipán.\""
         }
       ]
     },
@@ -911,7 +703,7 @@
       "label": "Akapana Pyramid Built",
       "year": 300,
       "endYear": 600,
-      "description": "The Akapana — a massive terraced pyramid at Tiwanaku rising 18 meters above the plain — was the largest structure in the southern Andes, with an elaborate internal drainage system that channeled water through the building in a symbolic recreation of mountain hydrology.",
+      "description": "The Akapana was Tiwanaku's great terraced pyramid, a man-made mountain about 60 feet (18 m) high threaded with hidden stone channels that funneled rainwater down through its body and out the base.",
       "wikiSlug": "Akapana",
       "tier": 2,
       "tags": [],
@@ -921,49 +713,35 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Akapana is the largest monument at Tiwanaku, measuring approximately 200 x 200 m at its base and rising in seven terraces to a height of 18 m. It was built of earth fill faced with dressed stone blocks."
-        },
-        {
-          "label": "The Structure",
-          "text": "The Akapana features an elaborate internal drainage system — water was collected on the summit, channeled through the building in a zigzag pattern, and expelled from its base. This may have symbolized the movement of water from mountain peaks to lowland fields."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Akapana was the symbolic center of Tiwanaku, representing the sacred mountain (apu) that controlled water and agricultural fertility. Its drainage engineering demonstrated the same obsession with water management seen in the Nazca puquios and Moche canals."
+          "label": "Explore further",
+          "text": "Built in seven stepped tiers around an estimated 28,000 cubic yards of earth fill held in by cut-stone walls, the pyramid was a symbolic apu (sacred mountain), its zigzag internal plumbing miming the way real peaks shed water down to the fields below. Centuries of plunder have left it lumpy and scarred: colonists quarried Tiwanaku's dressed stones for churches, and a railway crew helped itself in the early 1900s. As early as 1610 the Spanish chronicler Bernabé Cobo wrote that if the site sat nearer a Spanish town, not a single stone would be left standing."
         }
-      ]
+      ],
+      "commonsFile": "Arqueologia_impresionante.jpg"
     },
     {
       "id": "evt-andean-k-moche-warfare",
       "label": "Moche Expansion Wars",
       "year": 300,
       "endYear": 500,
-      "description": "The Moche expanded their control over the north Peruvian coast through a combination of military conquest and religious authority, eventually dominating valleys from the Piura in the north to the Huarmey in the south — a stretch of over 600 km.",
+      "description": "Between roughly 300 and 500 CE the Moche pushed their grip across the north coast through war backed by religion, ultimately holding valleys from the Piura in the north down to the Huarmey in the south — a coastline stretching over 370 miles (600 km).",
       "wikiSlug": "Moche_culture#Political_organization",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "The Moche were not a unified empire but likely two polities — a southern one centered at Huaca del Sol/Huaca de la Luna, and a northern one centered in the Lambayeque and Jequetepeque valleys."
-        },
-        {
-          "label": "The Campaigns",
-          "text": "Moche expansion incorporated Gallinazo populations, conquered the Virú and Santa valleys, and extended influence over the Piura Valley to the north. Military iconography on ceramics depicts pitched battles between Moche warriors and their neighbors."
-        },
-        {
-          "label": "Impact",
-          "text": "Moche territorial expansion created the first multi-valley political entity on the Peruvian coast. However, the Moche system remained fragmented — the northern and southern polities may have operated independently, sharing religion and art but not political unity."
+          "label": "Explore further",
+          "text": "Moche battle scenes painted on pottery show the point of the fighting wasn't to kill the enemy on the field but to capture him: warriors are shown grabbing rivals by the hair, stripping them, and roping them together in a line for the long walk to the temple. There the prisoners became the blood the gods required, which is why scholars describe Moche warfare as \"ritual\" combat aimed at taking bodies rather than holding ground. It likely helped that the rival groups appear to have shared the same religion — they were fighting fellow believers, not strangers."
         }
-      ]
+      ],
+      "commonsFile": "Moche_warrior_pot_at_the_British_Museum.jpg"
     },
     {
       "id": "evt-andean-k-tiwanaku-llama-caravans",
       "label": "Tiwanaku Llama Caravans",
       "year": 300,
-      "description": "Tiwanaku organized large llama caravans — sometimes hundreds of animals — to transport goods between the altiplano, coastal valleys, and tropical lowlands, creating an economic network that laid the foundation for the later Tiwanaku empire.",
+      "description": "Tiwanaku ran great llama caravans — sometimes hundreds of animals strong — hauling goods between the high plain, the Pacific coast, and the eastern jungle, knitting together an economy that would underpin its empire.",
       "wikiSlug": "Tiwanaku#Economy",
       "tier": 2,
       "tags": [],
@@ -973,88 +751,59 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The llama, domesticated by 3500 BCE, was the only pack animal in the pre-Columbian Americas. Each llama could carry about 30 kg over distances of 15-20 km per day through mountainous terrain."
-        },
-        {
-          "label": "The Network",
-          "text": "Tiwanaku llama caravans connected the altiplano to the western coast (for marine products and agricultural goods), the eastern slopes (for coca, wood, and tropical products), and neighboring highland regions. Rest stops and corrals along the routes formed a proto-road network."
-        },
-        {
-          "label": "Legacy",
-          "text": "Tiwanaku's caravan infrastructure created the trade routes that the later Tiwanaku Empire and eventually the Inca would formalize into road systems. The movement of llama caravans also spread Tiwanaku religious imagery and cultural influence."
+          "label": "Explore further",
+          "text": "A single llama can carry only about 65 pounds (30 kg) and won't budge if you overload it, so moving real volume meant moving herds — droves of pack animals plodding 10 to 12 miles (15 to 20 km) a day along mountain trails. Those routes let landlocked Tiwanaku tap zones it could never farm: maize, fish, and prized Spondylus shell from the coast; coca leaves, tropical bird feathers, and hardwoods from the eastern slopes. It was the ancient Andean \"vertical archipelago\" — spreading a community across many altitude bands — scaled up from a village habit into a state-run supply chain, with corrals and rest stops that later empires would harden into formal roads."
         }
-      ]
+      ],
+      "commonsFile": "Edificio_de_la_segunda_Epoca_-_Vista_de_la_izquierda_1903-1904.jpg"
     },
     {
       "id": "evt-andean-k-moche-weaving-women",
       "label": "Women in Moche Society",
       "year": 300,
-      "description": "Moche ceramics and burial evidence show women held diverse roles — as weavers, chicha brewers, healers, and (as the Lady of Cao proved) even as supreme warrior-priest rulers — challenging assumptions about rigid gender hierarchies.",
+      "description": "Moche art and burials show women in many roles — weavers, healers, brewers of chicha (maize beer) — and the elite female tombs proved some women ruled outright as warrior-priests and priestesses.",
       "wikiSlug": "Moche_culture#Gender_roles",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Background",
-          "text": "Earlier scholarship assumed Moche society was rigidly patriarchal based on the predominance of male warrior-priest imagery. But ceramic depictions and burial archaeology paint a more complex picture."
-        },
-        {
-          "label": "The Evidence",
-          "text": "Moche ceramics show women weaving, brewing chicha, participating in ceremonies, and in some cases fighting. Female burials with rich grave goods have been found at multiple sites. The Lady of Cao's tomb is the most dramatic evidence of female authority."
-        },
-        {
-          "label": "Legacy",
-          "text": "Moche evidence suggests that while warrior-priest roles were typically male, women could and did hold these positions. The importance of textiles and chicha in Moche society also gave women who controlled these productions significant economic and ritual power."
+          "label": "Explore further",
+          "text": "There's a striking blind spot in the Moche's own most lifelike art: their famous portrait vessels — ceramic jugs with strikingly individual, realistic faces — depict almost exclusively adult men, with not a single confirmed portrait of an adult woman among the thousands known. That gap helps explain why scholars long assumed Moche power was male, and why the actual graves of the Lady of Cao and the San José de Moro priestesses came as such a shock. The Moche also produced thousands of frankly erotic \"sex pots,\" the largest trove of which sits in the Larco Museum in Lima."
         }
-      ]
+      ],
+      "commonsFile": "Lombards_Museum_162.JPG"
     },
     {
       "id": "evt-andean-k-julio-tello",
       "label": "Julio C. Tello's Legacy",
       "year": -200,
-      "description": "Peruvian archaeologist Julio C. Tello — the 'father of Peruvian archaeology' — discovered the Paracas Necropolis in 1927 and established the foundation for understanding the Paracas-to-Nazca cultural sequence that defines the south coast.",
+      "description": "Julio C. Tello, an indigenous Quechua-speaker who became Peru's first homegrown archaeologist, dug up the Paracas mummy bundles and argued that Andean civilization grew up on its own — not as a knockoff of anyone else.",
       "wikiSlug": "Julio_C._Tello",
       "tier": 2,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Julio C. Tello (1880–1947) was Peru's first indigenous archaeologist, born in the highland town of Huarochirí. He studied at Harvard and returned to Peru to build a national archaeology program."
-        },
-        {
-          "label": "Role in Andean Archaeology",
-          "text": "Tello's 1925-1927 excavations on the Paracas Peninsula uncovered the Cavernas and Necropolis cemeteries — over 400 mummy bundles with the finest textiles in the ancient Americas. He also recognized Chavín de Huántar as a pan-Andean mother culture."
-        },
-        {
-          "label": "Legacy",
-          "text": "Tello established that Andean civilization developed independently, not as a diffusion from Mesoamerica or the Old World. His insistence on indigenous innovation — a radical position in the 1920s — was proven correct by every subsequent discovery."
+          "label": "Explore further",
+          "text": "As a fearless kid exploring caves and old burial grounds in the Andean foothills, Tello earned the nickname \"Sharuko\" — Quechua for \"brave.\" Born in 1880 to a village family, he trained as a medical doctor first, then turned those skills toward studying his own ancestors' bones, and he was the one who pinned down the strange elongated Paracas skulls in the late 1920s. He went on to found Peru's national archaeology museum and run it as its first director."
         }
-      ]
+      ],
+      "commonsFile": "Julio_C._Tello_Harvard.jpg"
     },
     {
       "id": "evt-andean-k-nazca-geoglyph-makers",
       "label": "Nazca Geoglyph Work Teams",
       "year": 100,
-      "description": "The Nazca Lines were created by organized work teams — pottery fragments and food remains along the lines suggest communal labor crews walked and cleared the geoglyphs over months, likely as a form of ritual labor (mit'a) dedicated to water deities.",
+      "description": "The lines weren't the work of a lone artist but of organized labor crews — pottery shards, food scraps, and stone piles spaced along the cleared paths mark where work teams labored for long stretches, almost certainly as a kind of group prayer performed with baskets and sticks.",
       "wikiSlug": "Nazca_Lines#Construction",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Background",
-          "text": "Despite their dramatic appearance from the air, the Nazca Lines are technically simple — created by removing dark surface stones to expose lighter ground. The challenge was organization and scale, not technology."
-        },
-        {
-          "label": "The Workers",
-          "text": "Archaeological survey along the lines has found pottery fragments, food remains, and stone piles at regular intervals, suggesting organized work crews who labored for extended periods. The workers likely represented different communities contributing labor through reciprocal obligation."
-        },
-        {
-          "label": "Legacy",
-          "text": "The communal labor model of geoglyph construction mirrors the mit'a system documented for Moche pyramid-building. In both cases, different communities contributed their share of work as a form of religious and social obligation — labor as prayer."
+          "label": "Explore further",
+          "text": "The likely engine behind the work was the mit'a (MEE-tah), the deep Andean custom of taking turns at communal labor — you contribute work to a shared project, and in return the community feeds and feasts you and redistributes goods. So clearing a geoglyph wasn't slavery; it was an obligation discharged in a festive, reciprocal frame, an offering to the mountain gods made in hopes of rain. The same logic — many hands organized through reciprocity rather than force — would later let Andean states like the Inca build roads and terraces on an enormous scale without money or markets."
         }
       ]
     },
@@ -1062,105 +811,77 @@
       "id": "evt-andean-k-moche-master-potters",
       "label": "Moche Master Potter Workshops",
       "year": 250,
-      "description": "Moche ceramic production was organized in specialized workshops where master potters trained apprentices — analysis of portrait vessel molds has identified distinct 'hands' or artist signatures, revealing individual artisans within a standardized tradition.",
+      "description": "Moche pottery came out of organized workshops where master potters trained apprentices and passed down mold-making and firing techniques — an industry of recognized specialists, not anonymous hands.",
       "wikiSlug": "Moche_portrait_vessel",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Background",
-          "text": "Moche ceramics were not folk art — they were the products of specialized workshops attached to elite centers. The consistency of technique across thousands of vessels implies formal training and institutional organization."
-        },
-        {
-          "label": "The Evidence",
-          "text": "Analysis of mold technology and firing techniques has revealed distinct workshop traditions. Some scholars have identified specific 'master potters' whose portrait vessels show distinctive modeling choices and aesthetic preferences that can be tracked across dozens of surviving vessels."
-        },
-        {
-          "label": "Legacy",
-          "text": "The identification of individual artisans within Moche ceramic production challenges the notion that ancient American art was anonymous and communal. Like master sculptors in medieval Europe, Moche potters were recognized specialists whose skill was valued and preserved."
+          "label": "Explore further",
+          "text": "The key tool was the press mold: a master would sculpt an original \"matrix,\" use it to cast a fired mold, then stamp out replica after replica by pressing clay into the mold's two halves. That is why a single portrait subject can turn up on vessels at scattered sites, and why a face could be aged across a person's lifetime simply by reworking the matrix. The same mold-and-matrix method let workshops mass-produce standardized ritual scenes while still leaving room for an individual potter's modeling choices to show through."
         }
-      ]
+      ],
+      "commonsFile": "Huaco_Retrato_Mochica.jpg"
     },
     {
       "id": "evt-andean-k-moche-healers",
       "label": "Moche Healers & Curanderos",
       "year": 300,
-      "description": "Moche ceramics depict healers (curanderos) treating patients with medicinal plants, performing massage, and using ritual objects — documenting a medical tradition that combined herbal pharmacology with spiritual healing and continues in rural Peru today.",
+      "description": "Vessels showing healers at work — dosing patients with plants, massaging them, working ritual objects — a portrait of Andean medicine that blends herbal know-how with spiritual cleansing.",
       "wikiSlug": "Curandero",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Background",
-          "text": "Moche ceramic art documents nearly every aspect of daily life, including medical practice. Vessels depict individuals in distinctive healer costumes treating patients, surrounded by plants, gourds, and ritual objects."
-        },
-        {
-          "label": "The Practice",
-          "text": "Moche healers used a combination of herbal medicine (coca, San Pedro cactus, tobacco), massage, bone-setting, and ritual intervention. Some vessels show healers applying poultices or performing what appears to be minor surgery."
-        },
-        {
-          "label": "Legacy",
-          "text": "The curandero tradition depicted on Moche ceramics survives in rural Peru today, where traditional healers still use many of the same plants and ritual objects. The continuity from Moche healer to modern curandero spans nearly 2,000 years."
+          "label": "Explore further",
+          "text": "One plant runs straight through from these pots to the present: the San Pedro cactus (a tall mescaline-bearing cactus), which shows up in Moche and even older Cupisnique art and still anchors healing rites across northern Peru today. Modern healers lay it on a ritual altar called a mesa, sniff tobacco steeped in alcohol, ingest the cactus to \"see\" the illness, then cleanse the patient — a sequence that survived five centuries of church and state trying to stamp it out. Botanists tracing the region's medicinal plants describe a roughly 2,000-year unbroken thread of practice."
         }
-      ]
+      ],
+      "commonsFile": "Curandera_performing_a_limpieza.jpg"
     },
     {
       "id": "evt-andean-k-ritual-combat",
       "label": "Moche Ritual Combat",
       "year": 350,
-      "description": "Moche warriors fought ritualized one-on-one battles in which the loser was stripped, bound, and led to sacrifice — a practice distinct from battlefield warfare and central to Moche religious and political life.",
+      "description": "Formal one-on-one duels — not battlefield war — in which the loser was stripped, roped by the neck, and marched to the temple to have his throat cut and his blood collected, the act at the heart of Moche religion.",
       "wikiSlug": "Moche_culture#Warfare_and_sacrifice",
       "tier": 3,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "Moche fineline paintings depict two types of conflict: large-scale battles and formalized single combat between elaborately dressed warriors. The ritual combat scenes follow a standardized sequence."
-        },
-        {
-          "label": "The Practice",
-          "text": "Warriors fought with clubs and shields. The loser was stripped of his clothing and weapons, had a rope placed around his neck, and was led to the temple for sacrifice. Evidence suggests participants may have been Moche elites rather than captured enemies."
-        },
-        {
-          "label": "Legacy",
-          "text": "Ritual combat provided the sacrificial victims for the Sacrifice Ceremony — linking warfare, religion, and political authority in a single system. Similar ritual combat practices are documented in later Andean cultures through the Inca period."
+          "label": "Explore further",
+          "text": "The losers, the evidence suggests, were not foreign prisoners but Moche elites who fought their own kind for the honor of supplying sacrificial blood — the bleeding, not the killing, was the point, a kind of irrigation by other means. The logic was literal: blood stood in for water, and water meant the difference between harvest and famine on a desert coast. The fighters carried clubs and small shields and wore elaborate dress that marks them, in the paintings, as men of rank rather than captives of war."
         }
-      ]
+      ],
+      "commonsFile": "RecipienteMochicaConEscenaDeCombate2.jpg"
     },
     {
       "id": "evt-andean-k-moche-disease",
       "label": "Moche Medical Ceramics",
       "year": 350,
-      "description": "Moche potters produced ceramic vessels depicting specific diseases and medical conditions — leishmaniasis (uta), cleft palate, blindness, amputations — creating the most detailed pathological record in the ancient Americas.",
+      "description": "Pots modeled as patients — faces eaten away by disease, missing limbs, blind eyes — so anatomically precise that modern doctors can diagnose the conditions from the clay 1,500 years later.",
       "wikiSlug": "Moche_culture#Ceramics",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Among the vast corpus of Moche ceramics are vessels that depict individuals with specific, identifiable medical conditions. These have been studied by paleopathologists to understand disease in ancient Peru."
-        },
-        {
-          "label": "The Evidence",
-          "text": "Moche ceramics show leishmaniasis (a parasitic disease causing facial disfigurement), cleft palate, eye diseases, skin conditions, and limb amputations. Some vessels show individuals with walking sticks or prosthetic devices."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "These medical ceramics, combined with the trepanation evidence from earlier Andean cultures, demonstrate a sophisticated medical awareness. Whether the vessels served as medical records, teaching tools, or ritual objects is debated."
+          "label": "Explore further",
+          "text": "A 2022 study of the Larco Museum's collection in Lima zeroed in on a handful of especially telling vessels and read off symptoms a clinician would recognize today: the locked grimace of risus sardonicus, swelling around the eye, drooping facial-nerve palsy, a humped spine. The deformed nose-and-mouth ulcers that gave several pieces their fame match mucosal leishmaniasis — locally called uta — a sandfly-borne parasite still disfiguring people in tropical Peru. Researchers have also matched Moche pots showing foot amputations to actual amputated skeletons dug from Moche graves."
         }
-      ]
+      ],
+      "commonsFile": "Paralisis_facialMOCHE.jpg"
     },
     {
       "id": "evt-andean-k-bennett-monolith",
       "label": "Bennett Monolith",
       "year": 400,
-      "description": "The Bennett Monolith — a 7.3-meter stone statue found at Tiwanaku's semi-subterranean temple — is the largest stone sculpture in the Andes, depicting a richly dressed figure holding a kero (drinking cup) and snuff tablet.",
+      "description": "The Bennett Monolith is a 24-foot (7.3 m) figure of reddish sandstone — the largest stone statue in the entire Andes — gripping a kero drinking cup and a snuff tablet, the tools of Tiwanaku's two great rituals.",
       "wikiSlug": "Bennett_Monolith",
-      "commonsFile": "Estela 15 - Benett.jpg",
+      "commonsFile": "BO_Tihuanako_(149)_(17042408319).jpg",
       "tier": 3,
       "tags": [],
       "category": "architecture",
@@ -1169,16 +890,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The monolith was discovered by American archaeologist Wendell Bennett in 1932 during excavations of the semi-subterranean temple at Tiwanaku. It stands 7.3 m tall and weighs approximately 20 tonnes."
-        },
-        {
-          "label": "The Sculpture",
-          "text": "The figure wears an elaborate belt and headdress, holds a kero (ceremonial drinking cup) in one hand and a tablet (possibly for hallucinogenic snuff) in the other. Its surface is covered with incised iconographic details representing supernatural beings."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Bennett Monolith established Tiwanaku as a center of monumental stone sculpture. The kero and snuff tablet held by the figure connect to the Andean traditions of ritual drinking (chicha) and psychotropic plant use that date back to the Chavín period."
+          "label": "Explore further",
+          "text": "It weighs roughly 20 tonnes and is the biggest human-carved monolith in the Western Hemisphere. American archaeologist Wendell Bennett dug it out of Tiwanaku's semi-subterranean temple in 1932, and it gets its name from him. For much of the 20th century the statue stood exposed in a traffic-circle plaza in central La Paz, where weather and pollution slowly ate at the soft sandstone; it was finally hauled back to a museum at the Tiwanaku site in the early 2000s. The cup and snuff tray in its hands aren't decoration — they're a how-to guide for the chicha-drinking and hallucinogen ceremonies the statue presided over."
         }
       ]
     },
@@ -1186,9 +899,9 @@
       "id": "evt-andean-k-moche-lady-cao",
       "label": "Lady of Cao",
       "year": 400,
-      "description": "The Lady of Cao — a tattooed female Moche ruler buried with full warrior-priest regalia at El Brujo — overturned assumptions that Moche power was exclusively male and revealed that women could hold the highest political and religious authority.",
+      "description": "The Lady of Cao, a tattooed Moche woman who died in her mid-twenties around 400–450 CE, buried at El Brujo with the full regalia of a warrior-priest — proof that women could hold the highest Moche office.",
       "wikiSlug": "Lady_of_Cao",
-      "commonsFile": "Museo_de_Cao_-_Tatuaje.JPG",
+      "commonsFile": "Reconstitution_de_la_Dame_de_Cao_(Musée_du_quai_Branly_-_Jacques_Chirac,_Paris).jpg",
       "tier": 1,
       "tags": [
         "people",
@@ -1200,16 +913,8 @@
       ],
       "details": [
         {
-          "label": "Who They Were",
-          "text": "The Lady of Cao was a Moche woman who died around age 25, approximately 400 CE. She was buried at the El Brujo complex in the Chicama Valley with the full regalia of a warrior-priest — war clubs, gold nose ornaments, and crown-like headdresses."
-        },
-        {
-          "label": "Role in Moche Society",
-          "text": "Her body bore elaborate tattoos of serpents, spiders, and supernatural figures on her arms and legs. Her burial goods included sacrificial victims and the same types of ceremonial objects found in male warrior-priest tombs."
-        },
-        {
-          "label": "Legacy",
-          "text": "The discovery of the Lady of Cao in 2006 fundamentally changed our understanding of Moche gender roles. She was not a consort or priestess in a supporting role — she was a full ruler with the same authority and ritual functions as male warrior-priests."
+          "label": "Explore further",
+          "text": "Her body was naturally mummified and so well preserved that researchers used CT scans and 3-D printing to reconstruct her actual face in 2017. The serpents, spiders, and supernatural creatures inked across her arms and legs are some of the oldest preserved tattoos found in the Americas. Bone evidence suggests she may have died from complications of childbirth, and the dry desert and the cotton and resins wrapping the body did the preservation work that embalming would have done elsewhere."
         }
       ]
     },
@@ -1244,9 +949,9 @@
       "id": "evt-andean-k-gate-of-sun",
       "label": "Gate of the Sun Carved",
       "year": 500,
-      "description": "The Gate of the Sun at Tiwanaku — a monolithic stone archway carved with the Staff God surrounded by winged attendants — became the most iconic image of Andean civilization and links Tiwanaku directly to the Chavín religious tradition.",
+      "description": "The Gate of the Sun is a single 10-ton slab of volcanic andesite carved into a doorway, crowned by the radiating Staff God and his rushing winged attendants — the most famous image in all of Andean art.",
       "wikiSlug": "Gate_of_the_Sun",
-      "commonsFile": "Puerta del Sol Tiwanaku.jpg",
+      "commonsFile": "Zonnepoort_tiwanaku.jpg",
       "tier": 1,
       "tags": [],
       "category": "religion",
@@ -1255,16 +960,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Gate of the Sun is carved from a single block of andesite stone, measuring 3 m high and 4 m wide and weighing approximately 10 tonnes. It was found broken at the Kalasasaya complex and has been partially restored."
-        },
-        {
-          "label": "The Carving",
-          "text": "The central figure is a Staff God — a frontally facing deity holding staffs, with a radiating headdress of serpent and feline heads. This figure directly echoes the Raimondi Stele from Chavín, carved over a thousand years earlier, demonstrating remarkable religious continuity."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Gate of the Sun Staff God became the defining image of the Tiwanaku state religion, appearing on pottery, textiles, and architecture across the Tiwanaku Empire. The Wari adopted the same imagery, spreading it across the central Andes."
+          "label": "Explore further",
+          "text": "The central figure wears a halo of rays tipped with puma heads, grips a staff in each hand, and weeps — carved \"tears\" run down its cheeks, earning it the nickname the Weeping God. Flanking it are 48 smaller running attendants, 32 with human faces and 16 with bird heads, and one popular (if much-debated) reading sees the surrounding panels as a calendar of the lunar months. Whoever the god is — an ancestral Staff God, the Aymara weather deity Thunupa, or a forerunner of the Inca creator Viracocha — remains an open argument, partly because Tiwanaku left no writing to settle it."
         }
       ]
     },
@@ -1272,55 +969,41 @@
       "id": "evt-andean-k-moche-murals-revolt",
       "label": "Revolt of the Objects Mural",
       "year": 500,
-      "description": "A recurring Moche artistic theme — the 'Revolt of the Objects,' in which weapons and tools come alive and attack their human owners — may reflect anxieties about social upheaval and environmental crisis in later Moche society.",
+      "description": "A haunting Moche theme called the \"Revolt of the Objects\" shows weapons, tools, and ornaments springing to life to turn on their human masters — possibly a culture picturing its own world coming apart.",
       "wikiSlug": "Moche_culture#Art",
       "tier": 3,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Background",
-          "text": "Moche fineline painting evolved in style and subject matter over its five-century history. Late Moche (Phase V) art includes scenes not found in earlier periods, including the 'Revolt of the Objects' theme."
-        },
-        {
-          "label": "The Theme",
-          "text": "The 'Revolt of the Objects' shows weapons, shields, and tools animated with human features, chasing and attacking people. Scholars interpret this as a mythological narrative about cosmic disorder — a world turned upside down."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "This theme appears during the period of El Niño disruption and political collapse. Some scholars argue it reflects real social anxieties — a narrative framework for understanding the environmental and political crises of late Moche society."
+          "label": "Explore further",
+          "text": "In these scenes war clubs, shields, and headdresses sprout limbs and rise up against the people who once wielded them, sometimes seizing and binding human captives — an inversion of the usual Moche order in which humans dominate. Some scholars tie the imagery to a wider Andean myth of cosmic reversal, the kind of world-turned-upside-down story that resurfaces in later Andean lore. Whether or not the Moche meant it as commentary, the theme clusters in their later art, the same anxious era that gave us painted floods and battles with outsiders."
         }
-      ]
+      ],
+      "commonsFile": "Mural_dels_Mites_a_la_Huaca_de_la_Luna.jpg"
     },
     {
       "id": "evt-andean-k-tiwanaku-colonization",
       "label": "Tiwanaku Colonization Begins",
       "year": 500,
-      "description": "Tiwanaku established colonies in distant ecological zones — the Moquegua Valley coast, the Cochabamba Valley to the east, and the Atacama Desert to the south — extending the vertical archipelago strategy to an imperial scale.",
+      "description": "Around 500 CE Tiwanaku stopped merely trading with far-off valleys and started planting its own people in them — colonies on the coast, in the Bolivian lowlands, and in the Chilean desert — turning the old vertical-archipelago idea into something like an empire.",
       "wikiSlug": "Tiwanaku#Expansion",
       "tier": 2,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The vertical archipelago — managing resources across multiple altitude zones — had been an Andean strategy since at least 2500 BCE. Tiwanaku scaled this up from community-level to state-level, planting colonies in distant valleys."
-        },
-        {
-          "label": "What Happened",
-          "text": "Tiwanaku colonies have been identified in the Moquegua Valley (for maize and coastal products), Cochabamba Valley in Bolivia (for maize), and the Atacama Desert of Chile (for copper and marine resources). Each colony maintained Tiwanaku pottery styles, architecture, and burial practices."
-        },
-        {
-          "label": "Legacy",
-          "text": "Tiwanaku colonization created a web of linked settlements across the south-central Andes that formed the skeleton of the later Tiwanaku Empire. The Inca would employ a similar colonization strategy (mit'a colonies) on an even larger scale."
+          "label": "Explore further",
+          "text": "The reach was striking: settlers went to the Moquegua Valley on Peru's coast (for maize and seafood), the Cochabamba Valley in Bolivia (more maize), and the Atacama Desert in Chile (for copper and marine goods). Each outpost kept Tiwanaku pottery, building styles, and burial customs, so the homeland's culture traveled with the colonists rather than blending away. This planted, self-replicating web set Tiwanaku apart from its rival Wari, which spread instead by military conquest and standardized provincial forts — two very different recipes for the same goal of controlling many ecological zones at once."
         }
-      ]
+      ],
+      "commonsFile": "PUERTA_DEL_SOL_TIWANAKU.jpg"
     },
     {
       "id": "evt-andean-k-el-nino-crisis",
       "label": "El Niño Crisis & Moche Disruption",
       "year": 536,
-      "description": "A severe El Niño event around 536 CE — possibly compounded by volcanic eruptions — caused devastating floods on the north coast, burying Moche canals under sand and triggering a political collapse that ended the southern Moche polity.",
+      "description": "Around 536 CE a brutal El Niño slammed the Peruvian coast, drowning Moche farmland under flood debris and choking the irrigation canals with sand. It helped end the southern Moche state and tipped the whole region toward the highland empires that came next.",
       "wikiSlug": "Extreme_weather_events_of_535–536",
       "tier": 2,
       "tags": [],
@@ -1330,16 +1013,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The 536 CE climate event was global in scope — tree rings, ice cores, and historical records across the world document cooling and disruption. In Peru, the event may have triggered or intensified a severe El Niño cycle."
-        },
-        {
-          "label": "What Happened",
-          "text": "Archaeological evidence shows massive sand deposits burying Moche irrigation canals and fields in the Moche Valley around this time. The Huaca del Sol/Huaca de la Luna capital was abandoned, and the southern Moche center shifted to Pampa Grande."
-        },
-        {
-          "label": "Impact",
-          "text": "The El Niño disaster exposed the vulnerability of Moche civilization's dependence on irrigation agriculture. The political collapse that followed reshaped north coast politics and contributed to the conditions that allowed the Wari Empire to expand into the region."
+          "label": "Explore further",
+          "text": "What happened in Peru was tangled up with a global catastrophe. In 536 CE the sun dimmed worldwide for over a year — the Byzantine writer Procopius said it gave light \"like the moon,\" and Chinese records mention summer snow. Modern ice cores from Greenland and Antarctica pin the blame on massive volcanic eruptions (one around 536, another around 539-540, possibly including the Ilopango caldera in El Salvador) that veiled the planet in sulfur. It was one of the coldest, most disruptive stretches in the Northern Hemisphere in two thousand years, and it likely supercharged the El Niño cycle that wrecked the coast."
         }
       ]
     },
@@ -1348,7 +1023,7 @@
       "label": "Pampa Grande Capital",
       "year": 550,
       "endYear": 700,
-      "description": "After the El Niño disaster, the Moche political center shifted north to Pampa Grande in the Lambayeque Valley — a sprawling urban site covering 6 km² that served as the last major Moche capital before the civilization's collapse.",
+      "description": "After the flood disaster gutted their old heartland, the Moche pulled their capital north to Pampa Grande in the Lambayeque Valley — a dense, sprawling new city that became their last great stronghold.",
       "wikiSlug": "Pampa_Grande",
       "tier": 2,
       "tags": [],
@@ -1358,48 +1033,34 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "After the flooding and abandonment of the Moche Valley capital around 550 CE, the center of Moche power shifted northward to the Lambayeque Valley, where Pampa Grande became the new capital."
-        },
-        {
-          "label": "The City",
-          "text": "Pampa Grande covered approximately 6 km² and contained Huaca Fortaleza — a massive 38 m tall pyramid — plus extensive residential areas, workshops, and storage facilities. Its layout suggests a more urbanized, administratively complex society than the earlier Moche capital."
-        },
-        {
-          "label": "Legacy",
-          "text": "Pampa Grande was violently destroyed by fire around 700 CE — possibly an internal revolt. Its destruction marks the end of Moche civilization and the beginning of a transitional period before the rise of the Sicán/Lambayeque culture."
+          "label": "Explore further",
+          "text": "Pampa Grande was built, lived in, and abandoned in barely a century-and-a-half (roughly 550-700 CE), and at its peak it sprawled across more than 400 hectares, making it one of the largest Moche sites anywhere. At its heart rose the Huaca Fortaleza (also called Huaca Grande), reckoned the tallest adobe ceremonial platform in Peru. The shift looks less like a fresh start than a defensive huddle — the population packed tighter, with workshops and storerooms crowding the great pyramid instead of the open plazas of the old capital."
         }
-      ]
+      ],
+      "commonsFile": "Pirámide_en_complejo_arqueológico_moche_de_Pampa_Grande,_Chongoyape,_Lambayeque,_Perú.jpg"
     },
     {
       "id": "evt-andean-k-nazca-decline",
       "label": "Nazca Culture Declines",
       "year": 550,
-      "description": "The Nazca culture declined after 550 CE as increasing aridity, deforestation, and possible El Niño events degraded the fragile desert environment. The expansion of the Wari Empire from the highlands eventually absorbed remaining Nazca populations.",
+      "description": "The Nazca faded after 550 CE as drought, flooding, and their own deforestation tightened the noose on an already desperate desert. The expanding Wari Empire then folded the survivors into a larger highland world.",
       "wikiSlug": "Nazca_culture#Decline",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "The Nazca culture had thrived in one of the world's driest environments by carefully managing scarce water through puquios and irrigation. But environmental and political pressures intensified after 500 CE."
-        },
-        {
-          "label": "What Happened",
-          "text": "Research by David Beresford-Jones suggests that Nazca communities cleared native huarango (Prosopis) forests for farmland, removing a critical windbreak and destabilizing the desert ecosystem. Combined with drought and El Niño events, this led to landscape degradation."
-        },
-        {
-          "label": "Impact",
-          "text": "The weakened Nazca communities were eventually incorporated into the expanding Wari Empire. Wari administrative centers appeared in the Nazca drainage, imposing highland political control over a region that had been independent for seven centuries."
+          "label": "Explore further",
+          "text": "Some of the wound was self-inflicted. Archaeologist David Beresford-Jones argued that the Nazca cleared their native huarango trees (a drought-hardy mesquite relative) for farmland, stripping away the windbreaks that held back the desert sand — so erosion accelerated just as the climate turned against them. Their great ceremonial city, Cahuachi, had already been largely abandoned by around 450-500 CE. Yet the technology outlasted the culture: the puquios, their spiraling underground aqueducts, still channel water to fields and homes in the Nazca region today."
         }
-      ]
+      ],
+      "commonsFile": "Nazca-lineas-perro-c01.jpg"
     },
     {
       "id": "evt-andean-k-moche-san-jose-de-moro",
       "label": "San José de Moro Priestess Burials",
       "year": 550,
-      "description": "At San José de Moro in the Jequetepeque Valley, archaeologists discovered multiple tombs of high-status women identified as Priestesses — ritual specialists depicted in the Sacrifice Ceremony iconography — confirming female authority in late Moche religion.",
+      "description": "A Jequetepeque Valley cemetery where archaeologists found tombs of high-status women buried as the Priestess of the Sacrifice Ceremony — hard proof that women held real religious authority in late Moche society.",
       "wikiSlug": "San_José_de_Moro",
       "tier": 2,
       "tags": [
@@ -1408,16 +1069,8 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Background",
-          "text": "San José de Moro is a ceremonial and burial site in the Jequetepeque Valley of northern Peru. Luis Jaime Castillo's excavations since 1991 have uncovered a remarkable series of elite female burials from the late Moche period (550-700 CE)."
-        },
-        {
-          "label": "The Burials",
-          "text": "At least eight high-status female burials have been found, each accompanied by elaborate silver headdresses, metal goblets, and Spondylus shell offerings. Their regalia matches the 'Priestess' figure depicted in the Sacrifice Ceremony scenes on ceramics."
-        },
-        {
-          "label": "Legacy",
-          "text": "The San José de Moro priestesses, combined with the Lady of Cao, demonstrate that Moche women held major religious and political roles. The identification of the Priestess figure in Moche art with real buried individuals mirrors the Lord of Sipán identification with the Warrior Priest."
+          "label": "Explore further",
+          "text": "UCLA's Christopher Donnan and Luis Jaime Castillo opened the site in 1991 and, in their very first season, hit three big tombs — the largest holding an adult woman, roughly 30 to 40 years old, laid in a cane coffin in a chamber about 7 by 14 feet. Over more than two decades the project uncovered seven such Late Moche priestess chambers (some counts now add an eighth), all dating to the centuries around A.D. 600 to 850. Their grave goods matched the costume of the Priestess painted in the Sacrifice Ceremony, tying buried women directly to the rite's central female role."
         }
       ]
     },
@@ -1425,7 +1078,7 @@
       "id": "evt-andean-k-wari-emergence",
       "label": "Wari State Emerges",
       "year": 550,
-      "description": "The Wari state emerged in the Ayacucho basin of the central highlands around 550 CE, combining Tiwanaku religious imagery with local Huarpa traditions to create an expansionist power that would eventually conquer much of the Peruvian coast and highlands.",
+      "description": "Around 550 CE the Wari state crystallized in the Ayacucho highlands, blending Tiwanaku's Staff God religion with local Huarpa roots into an aggressively expansionist power that would stamp its rule across much of Peru.",
       "wikiSlug": "Wari_Empire",
       "tier": 1,
       "tags": [],
@@ -1435,40 +1088,25 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Huarpa culture in the Ayacucho basin had traded with Nazca communities to the south and adopted Tiwanaku religious iconography from the altiplano. Around 550 CE, this hybrid tradition crystallized into the Wari state."
-        },
-        {
-          "label": "What Happened",
-          "text": "Wari adopted the Staff God imagery from Tiwanaku, combined it with Nazca polychrome ceramic techniques, and developed a distinctive art style. The Wari rapidly expanded from their Ayacucho base, establishing administrative centers across the Andes."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Wari, alongside Tiwanaku, created the first pan-Andean empires — the Middle Horizon. Wari administrative innovations (planned towns, road networks, standardized architecture) directly influenced the Inca state that followed."
+          "label": "Explore further",
+          "text": "What set the Wari apart was administration. From their capital, Huari, they ran an empire stretching some 800 miles (1,300 km) north to south, stitched together by imperial roads and a string of look-alike provincial centers built to the same rigid blueprint — Pikillaqta near Cusco, for instance, was laid out as a vast grid of squares roughly 745 by 630 meters. That highway-and-garrison model, planting standardized state compounds to project central power, prefigured the Inca system by centuries; the Inca would later run their own roads straight through old Wari ones."
         }
-      ]
+      ],
+      "commonsFile": "Tomb_at_Wari_ruins_near_Ayacucho.jpg"
     },
     {
       "id": "evt-andean-k-pampa-grande-revolt",
       "label": "Pampa Grande Destroyed by Fire",
       "year": 700,
-      "description": "The last Moche capital at Pampa Grande was violently destroyed by fire around 700 CE — burning concentrated at elite structures and the main pyramid suggests an internal revolt against the ruling warrior-priest class, marking the definitive end of Moche civilization.",
+      "description": "Around 700 CE the Moche's last capital burned. The fire fell hardest on the great pyramid and the elite quarters while ordinary houses were spared — the signature not of an invading army but of an uprising from below.",
       "wikiSlug": "Pampa_Grande",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "After the El Niño crisis of 536 CE forced abandonment of the Moche Valley capital, Pampa Grande in the Lambayeque Valley served as the last Moche capital for roughly 150 years."
-        },
-        {
-          "label": "What Happened",
-          "text": "Around 700 CE, Pampa Grande was destroyed in a catastrophic fire. The burning was concentrated on elite buildings and the main pyramid (Huaca Fortaleza), while commoner residential areas show less damage — a pattern consistent with deliberate targeting of ruling-class structures."
-        },
-        {
-          "label": "Impact",
-          "text": "The destruction of Pampa Grande ended the Moche civilization after six centuries. The vacuum was filled by the Sicán/Lambayeque culture in the north and the expanding Wari Empire from the highlands, both of which absorbed and transformed Moche traditions."
+          "label": "Explore further",
+          "text": "An invading army burns everything; a revolt burns the people in charge. The selective scorching at Pampa Grande — temples and elite compounds torched, commoner homes left standing — points to the second. The logic is one that has toppled god-kings elsewhere: when warrior-priests stake their authority on delivering rain and harvests, repeated El Niño floods that no amount of blood sacrifice can stop expose the bargain as a lie. Egypt's Old Kingdom pharaohs hit a quieter version of the same wall when the Nile floods failed during the First Intermediate Period."
         }
       ]
     },
@@ -1476,23 +1114,15 @@
       "id": "evt-andean-k-moche-gallinazo-conquest",
       "label": "Moche Absorbs Gallinazo Populations",
       "year": 150,
-      "description": "The Moche expanded into the Virú Valley and absorbed existing Gallinazo communities, imposing a warrior-priest elite over the local population rather than displacing them — Gallinazo ceramics continued to be produced alongside Moche fineline ware.",
+      "description": "Around 150 CE the Moche moved into the Virú Valley and took over the resident Gallinazo communities — but rather than wiping them out, they seem to have planted a warrior-priest elite on top of people who kept living, farming, and potting much as before.",
       "wikiSlug": "Gallinazo_culture",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "The Gallinazo culture had dominated the Virú and adjacent valleys for centuries before the Moche emerged. Their large residential complexes housed thousands of people, and their negative-painted ceramics were the dominant pottery tradition of the north coast."
-        },
-        {
-          "label": "What Happened",
-          "text": "Rather than conquering and displacing Gallinazo populations, the Moche appear to have overlaid an elite warrior-priest administration onto existing communities. Gallinazo pottery continued to be made, and Gallinazo-style domestic architecture persisted under Moche political control."
-        },
-        {
-          "label": "Legacy",
-          "text": "This 'takeover without displacement' model characterized Moche expansion throughout the north coast. Some scholars argue that the Moche began as an elite warrior class that emerged from within Gallinazo society, rather than a separate conquering culture."
+          "label": "Explore further",
+          "text": "The tell is in the trash and the houses: Gallinazo-style cooking pots and ordinary mud-brick homes carried on for generations under Moche rule, while the flashy fineline ware and monumental temples were the new layer added on top — looking less like an invasion that emptied the valley and more like a regime change. That has pushed many scholars toward thinking the Moche elite may have risen from within Gallinazo society itself rather than marching in from outside. The whole question stays genuinely unsettled, one of the liveliest arguments in Andean archaeology."
         }
       ]
     },
@@ -1500,23 +1130,15 @@
       "id": "evt-andean-k-recuay-hillforts",
       "label": "Recuay Hilltop Fortifications",
       "year": 100,
-      "description": "Recuay communities built fortified hilltop settlements (pukaras) across the northern highlands, defending strategic passes between coast and highland and reflecting chronic inter-community warfare during the Regional Development Period.",
+      "description": "Across the northern highlands the Recuay perched fortified settlements (pukaras) on hilltops, ringed with walls, pinched down to narrow entrances, and positioned for commanding views of the valleys and passes below.",
       "wikiSlug": "Recuay_culture",
       "tier": 3,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "The Recuay occupied the Callejón de Huaylas in the northern highlands — a critical corridor linking the Moche coast to the highland interior. Control of these passes meant control of trade between ecological zones."
-        },
-        {
-          "label": "The Fortifications",
-          "text": "Recuay pukaras feature defensive walls, narrow access points, and commanding views of surrounding valleys. Their ceramics depict warriors with clubs, shields, and trophy heads, confirming that inter-community warfare was endemic in the highlands."
-        },
-        {
-          "label": "Legacy",
-          "text": "Recuay hilltop fortifications document the militarism that characterized the Regional Development Period across the Andes — not just on the Moche coast but also in the highlands. The Wari Empire's later conquest of Recuay territory ended this era of chronic small-scale warfare."
+          "label": "Explore further",
+          "text": "These were not symbolic forts; the walls, choke-point gates, and lookout sightlines are the architecture of people who genuinely expected to be attacked. Fighting in the highlands of this era was waged with slings, clubs, and spear-throwers tipped with obsidian (volcanic glass that flakes to a razor edge), and the parade of trophy heads on Recuay pottery reads as a record of real killing rather than decoration. Their perch had a payoff and a price: sitting astride the routes between the Moche coast and the interior made them rich middlemen, but it also put them in the path of both Moche expansion and, eventually, the Wari empire."
         }
       ]
     },
@@ -1549,7 +1171,7 @@
       "label": "Paracas Necropolis Burials",
       "year": -200,
       "endYear": 100,
-      "description": "The Paracas Necropolis cemetery on the south coast contained over 400 mummy bundles wrapped in the finest textiles ever produced in the ancient Americas — embroidered mantles depicting transformation beings that link directly to later Nazca iconography.",
+      "description": "On the wind-scoured Paracas Peninsula, archaeologists pulled 429 cone-shaped mummy bundles out of pit tombs — seated bodies cocooned in layer after layer of embroidered cloth, the richest textile graves in the ancient Americas.",
       "wikiSlug": "Wari_Kayan",
       "tier": 1,
       "tags": [],
@@ -1559,24 +1181,17 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Paracas Necropolis, discovered by Julio C. Tello in 1927 on the Paracas Peninsula, contained over 400 mummy bundles in a series of underground chambers. The cemetery dates to the transition from Paracas to Nazca culture (200 BCE to 100 CE)."
-        },
-        {
-          "label": "The Burials",
-          "text": "Each mummy bundle contained a seated, flexed body wrapped in multiple layers of textiles. Elite bundles contained as many as 50 embroidered mantles, some measuring over 2 meters long and requiring hundreds of hours of labor. The textiles depict flying supernatural beings, trophy heads, and transformation imagery."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Paracas Necropolis textiles are considered the finest textile art of the ancient Americas. Their iconography flows directly into Nazca art — the flying beings, trophy heads, and supernatural figures of the textiles reappear on Nazca ceramics and the Nazca Lines themselves."
+          "label": "Explore further",
+          "text": "Tello dug the site (its old name is Wari Kayan, on the slope of a hill called Cerro Colorado) starting in 1927, but the bundles were so densely packed that teams kept carefully unwrapping them in a lab for decades afterward — only about 100 had been opened and inventoried between 1930 and 1960. The bundles date roughly 250 BCE to 150 CE. Inside the wrappings, alongside the cloth, mourners tucked food, ceramics, baskets, weapons, and tasseled canes for the journey ahead."
         }
-      ]
+      ],
+      "commonsFile": "Oculate_Being,_Paracas_culture._350_BCE–60_CE_Met_Museum.jpg"
     },
     {
       "id": "evt-andean-k-paracas-trepanation",
       "label": "Paracas Surgical Trepanation",
       "year": -200,
-      "description": "Paracas surgeons routinely performed trepanation — cutting or scraping holes in the skull — with survival rates exceeding 60%, suggesting sophisticated medical knowledge including pain management, infection control, and surgical technique.",
+      "description": "Paracas surgeons cut, scraped, and drilled openings in living people's skulls — trepanation — far more often than anyone else in the ancient world, and a remarkable share of patients lived through it.",
       "wikiSlug": "Trepanning#Peru",
       "tier": 2,
       "tags": [],
@@ -1586,24 +1201,17 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Trepanation — the surgical removal of a section of skull bone — was practiced across the ancient Andes but reached its highest frequency and sophistication in the Paracas culture. Hundreds of trepanned skulls have been recovered from Paracas cemeteries."
-        },
-        {
-          "label": "The Surgery",
-          "text": "Paracas surgeons used obsidian blades to cut or scrape openings in the skull, likely to treat head trauma from warfare (sling stones were a common weapon). Healed bone around the openings shows that over 60% of patients survived — a remarkable rate for pre-modern cranial surgery."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Paracas trepanation record represents the most extensive pre-industrial cranial surgery tradition in the world. The high survival rate implies knowledge of herbal anesthetics, antiseptic wound treatment (possibly using coca and balsam), and patient aftercare."
+          "label": "Explore further",
+          "text": "Survival climbed steeply with practice: the earliest Paracas patients pulled through only about 40 percent of the time, but later Andean surgeons (by Inca times) hit survival rates above 80 percent — better than U.S. Civil War surgeons managed roughly 1,500 years later with metal tools. They worked with obsidian (volcanic-glass) blades and bone instruments, no anesthesia or antibiotics, yet kept infection low enough that bone visibly healed around the holes. Cocaine, by the way, comes from the coca leaf they had on hand — a real local anesthetic."
         }
-      ]
+      ],
+      "commonsFile": "Crânes_trépanation_âge_du_bronze.jpg"
     },
     {
       "id": "evt-andean-k-paracas-textiles-art",
       "label": "Paracas Textile Masterworks",
       "year": -100,
-      "description": "Paracas weavers produced embroidered mantles of extraordinary complexity — some containing over 200 individual figures in up to 190 different color values — that are considered the finest textile art in the pre-Columbian world.",
+      "description": "Paracas embroiderers built mantles (large rectangular shawls) so dense with figures and color that textile scholars rate them among the finest cloth ever made anywhere before machines.",
       "wikiSlug": "Paracas_culture#Textiles",
       "tier": 1,
       "tags": [],
@@ -1613,24 +1221,17 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Paracas Peninsula's extreme aridity preserved textiles that would have decayed in other climates. This accident of preservation has given us the most complete record of textile art from any ancient American culture."
-        },
-        {
-          "label": "The Art",
-          "text": "Paracas embroidered mantles use stem stitch and needle-knitting to create dense fields of supernatural beings, warriors, plants, and animals. Some mantles contain over 200 individual figures and use up to 190 distinct color values of dyed alpaca and cotton thread."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "In the Andes, textiles carried the deepest cultural information — more than ceramics, more than metal, more than stone. Paracas textiles are essentially iconographic texts, recording cosmological narratives in thread rather than ink. This tradition passed directly to the Nazca."
+          "label": "Explore further",
+          "text": "The weavers coaxed roughly 190 distinct shades out of natural dyes — madder root for reds, the cochineal insect for purples, indigo for blues — and fixed them permanently with mineral mordants. They worked color like a math puzzle: on a mantle repeating one figure, the background, body, and eye colors rotated systematically so no two neighboring figures ever matched. Some mantles were embroidered on both faces, and stitch analysis shows several artists sat side by side working a single cloth at once."
         }
-      ]
+      ],
+      "commonsFile": "Border_Fragment_MET_h1_1994.35.120.jpg"
     },
     {
       "id": "evt-andean-k-dos-cabezas-lords",
       "label": "Dos Cabezas Lords",
       "year": 250,
-      "description": "Royal tombs at Dos Cabezas in the Jequetepeque Valley contained three tall Moche lords buried with elaborate gold and copper regalia — their unusual height (over 170 cm, tall for the period) and physical anomalies suggest the northern Moche polity had its own ruling dynasty.",
+      "description": "Three royal tombs at Dos Cabezas (\"two heads\") in the Jequetepeque Valley held unusually tall Moche lords, evidence that the northern Moche had their own ruling dynasty separate from the south.",
       "wikiSlug": "Dos_Cabezas",
       "tier": 3,
       "tags": [
@@ -1642,16 +1243,8 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Dos Cabezas is a Moche pyramid site in the Jequetepeque Valley, the center of the northern Moche polity. Excavations by Christopher Donnan revealed three royal burials dating to around 250 CE."
-        },
-        {
-          "label": "The Burials",
-          "text": "The three lords were unusually tall — over 170 cm, when average male height was about 158 cm — and bore physical anomalies suggesting they may have been related. Their burials contained miniature war clubs, gold and copper nose ornaments, and ceramic offerings distinct from southern Moche style."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Dos Cabezas lords provide the strongest evidence for a separate northern Moche ruling dynasty, supporting the two-polity model of Moche political organization. Their distinct burial style confirms that the northern and southern Moche operated as parallel but independent entities."
+          "label": "Explore further",
+          "text": "UCLA archaeologist Christopher Donnan dug the tombs between 1997 and 1999, and alongside the three tall men he found something seen nowhere else in Moche archaeology: miniature tombs — small chambers holding tiny textile-wrapped figurines that had been outfitted and \"buried\" for the afterlife exactly as the real lords were, like a scale model of the funeral. Donnan flatly called it \"a funerary practice we've never seen.\" The three lords' shared height and skeletal quirks suggest they may have suffered from a hereditary condition, which would make them blood relatives and reinforce the idea of a distinct northern royal line."
         }
       ]
     },
@@ -1659,23 +1252,15 @@
       "id": "evt-andean-k-moche-lima-beans",
       "label": "Moche Lima Bean Messages",
       "year": 300,
-      "description": "Moche ceramics depict relay runners carrying small bags, and some scholars argue that lima beans with painted markings served as a message system — an alternative information technology in a civilization without writing.",
+      "description": "Moche pots repeatedly show fleet-footed relay runners clutching little bags, and one long-running idea holds that those bags carried lima beans painted with dots and lines, a way to send messages in a civilization that never invented writing.",
       "wikiSlug": "Moche_culture#Communication",
       "tier": 3,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Background",
-          "text": "The Moche had no writing system, yet governed a multi-valley polity stretching over 600 km. Ceramics frequently depict relay runners in dynamic poses, carrying small bags at their waists."
-        },
-        {
-          "label": "The Theory",
-          "text": "Anthropologist Rafael Larco Hoyle proposed that lima beans with painted dots, lines, and symbols served as message tokens. Moche ceramics show supernatural beings 'reading' these beans, and some scenes depict beans being carried by runners or used in divination."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "If the lima bean hypothesis is correct, the Moche developed a non-phonetic communication system analogous to but different from quipus — adding to the Andes' remarkable record of inventing information technologies outside the Old World tradition of writing on flat surfaces."
+          "label": "Explore further",
+          "text": "The hypothesis comes from collector-archaeologist Rafael Larco Hoyle, who in 1942 catalogued more than 300 distinct painted-bean designs in Moche art and argued they amounted to an early script. Most scholars today reject the \"writing\" claim, leaning instead toward the beans being tallies or tokens, possibly counting warriors or contingents from outlying towns, with sender and receiver agreeing in advance what each pattern meant. Either way it lands in good company: the Andes kept devising clever substitutes for writing, most famously the quipu, the knotted-string device used to record numbers and accounts."
         }
       ]
     },
@@ -1683,31 +1268,24 @@
       "id": "evt-andean-k-moche-narrative-scenes",
       "label": "Moche Narrative Ceramic Cycles",
       "year": 350,
-      "description": "Moche fineline painters created recurring 'theme' cycles on ceramics — the Sacrifice Ceremony, the Burial Theme, the Revolt of the Objects, the Deer Hunt — constituting a visual mythology that functioned as scripture for a civilization without writing.",
+      "description": "A set of fixed story \"themes\" — the Sacrifice Ceremony, the Burial Theme, the Presentation Theme, the Deer Hunt — repeated with the same costumed characters on vessels hundreds of miles apart, functioning as illustrated liturgy for a culture without books.",
       "wikiSlug": "Moche_culture#Art",
       "tier": 2,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Background",
-          "text": "Scholar Donna McClelland catalogued recurring narrative 'themes' across thousands of Moche fineline vessels. The same scenes — with the same characters in the same sequence — appear on vessels found hundreds of kilometers apart."
-        },
-        {
-          "label": "The Cycles",
-          "text": "Major themes include the Sacrifice Ceremony (ritual combat → capture → blood offering), the Burial Theme (funerary procession with supernatural escorts), the Deer Hunt (a lord hunts deer with ritual significance), and the Presentation Theme (captives presented to a seated lord). Each has identifiable 'cast members.'"
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The standardized narrative cycles served as a shared mythology — a visual scripture understood across all Moche communities. When archaeologists found burials matching the characters in these scenes (Lord of Sipán as the Warrior Priest, San José de Moro priestesses), it proved that the myths depicted actual ritual roles."
+          "label": "Explore further",
+          "text": "The Sacrifice Ceremony is often called the Presentation Theme, because its climax is a row of figures presenting a goblet of captured blood to a seated lord who drinks it. The reason these scenes turned out to be more than decoration: when the Lord of Sipán was excavated, he was buried wearing the exact regalia of the goblet-receiving figure in the paintings, and the women of San José de Moro were buried as the Priestess who stands beside him. The painted cast members were real officials, and the ceremony was really performed."
         }
-      ]
+      ],
+      "commonsFile": "Stirrup_spout_bottle_with_two_warriors_and_prisoners,_Peru,_Moche_III,_north_coast,_c._200_BC,_ceramic_-_Krannert_Art_Museum,_UIUC_-_DSC06494.jpg"
     },
     {
       "id": "evt-andean-k-spondylus-trade",
       "label": "Spondylus Long-Distance Trade",
       "year": -100,
-      "description": "The Spondylus shell trade — warm-water shells harvested off Ecuador and traded over 2,000 km into Peru and Bolivia — intensified during this period, making the spiny oyster the most valued ritual object across all Andean cultures.",
+      "description": "The red-orange spiny oyster shell (Spondylus), prized above almost anything in the Andes, kept flowing south from tropical waters into Paracas graves and highland shrines.",
       "wikiSlug": "Spondylus#Cultural_significance",
       "tier": 2,
       "tags": [],
@@ -1717,25 +1295,18 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Spondylus princeps, the spiny oyster, lives in warm waters off the Ecuadorian coast. Its red-orange shell was the single most valued ritual material in the Andes for over 3,000 years, associated with rain, fertility, and the sea."
-        },
-        {
-          "label": "The Trade",
-          "text": "Spondylus was harvested by specialized divers off the Ecuadorian coast and traded southward through intermediaries to Moche, Nazca, Recuay, and Tiwanaku communities — distances exceeding 2,000 km. It appears in elite burials at all major Regional Development sites."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Spondylus trade network was the longest-distance trade connection in the pre-Columbian Americas during this period. It linked societies from Ecuador to Bolivia in a web of ritual exchange that persisted for millennia, predating even Chavín and lasting through the Inca period."
+          "label": "Explore further",
+          "text": "Spondylus only lives in the warm Pacific off Ecuador and northern Peru, sitting on rocky bottoms 30 to 130 feet (10 to 40 m) down, so divers had to ride weighted stones to the seafloor and pry the thorny shells loose by hand. Its shape and color tied it to water and fertility, and people carried it inland along the very trails that later became the Inca road network — it reached as far as Lake Titicaca high in the Bolivian Andes. Whole shells, beads, and ground powder all served as offerings to Pachamama, the earth mother."
         }
-      ]
+      ],
+      "commonsFile": "Spondylus_crassisquama.jpg"
     },
     {
       "id": "evt-andean-k-moche-huaca-rajada",
       "label": "Huaca Rajada Pyramid Complex",
       "year": 200,
       "endYear": 600,
-      "description": "Huaca Rajada in the Lambayeque Valley was a major Moche ceremonial center containing multiple royal tombs — the Lord of Sipán, the Old Lord, and the Priest — demonstrating a dynastic succession of warrior-priests spanning centuries.",
+      "description": "Huaca Rajada (\"cracked pyramid\"), near the village of Sipán in the Lambayeque Valley, was a Moche burial pyramid that held three generations of warrior-priests — the Old Lord, the Lord, and the Priest.",
       "wikiSlug": "Huaca_Rajada",
       "tier": 2,
       "tags": [],
@@ -1745,24 +1316,17 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Huaca Rajada is a Moche pyramid complex near the village of Sipán in the Lambayeque Valley. The site contained at least three major royal burials spanning from approximately 100 CE to 400 CE."
-        },
-        {
-          "label": "The Tombs",
-          "text": "Three distinct royal burials were excavated: the Old Lord of Sipán (earliest, ~100-200 CE), the Lord of Sipán (~300 CE), and the Priest (~400 CE). Each was buried with warrior-priest regalia of increasing elaboration, suggesting an evolving but continuous dynastic tradition."
-        },
-        {
-          "label": "Legacy",
-          "text": "Huaca Rajada demonstrates that the warrior-priest institution persisted across centuries at a single site, with successive rulers inheriting and elaborating the same ritual role. This dynastic continuity parallels Egyptian royal burial traditions, though in adobe rather than stone."
+          "label": "Explore further",
+          "text": "The name comes from the deep gullies that rain and erosion cut into the mudbrick flanks, splitting the mound's profile. Huaca Rajada is actually the smaller of two adjacent platforms at the site, which is part of why looters had been quietly working it for generations before 1987 without drawing much notice. The Moche built such pyramids entirely from sun-dried adobe bricks rather than cut stone, which is why centuries of weather (and treasure hunters) have left them looking more like worn hills than the sharp-edged monuments they once were."
         }
-      ]
+      ],
+      "commonsFile": "Tumbas_Reales_de_Sipán_Museum_01.jpg"
     },
     {
       "id": "evt-andean-k-tiwanaku-ponce",
       "label": "Ponce Monolith",
       "year": 300,
-      "description": "The Ponce Monolith — a 3-meter stone statue found within Tiwanaku's semi-subterranean temple — depicts a richly dressed figure holding ritual objects, representing the earliest monumental expression of Tiwanaku's emerging political and religious authority.",
+      "description": "The Ponce Monolith is a 10-foot (3 m) sandstone figure standing in the heart of Tiwanaku's Kalasasaya, clutching a kero and a snuff tray — a smaller cousin of the Bennett statue and an early stamp of the city's growing power.",
       "wikiSlug": "Ponce_Monolith",
       "tier": 3,
       "tags": [],
@@ -1772,25 +1336,18 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "The Ponce Monolith was discovered by Carlos Ponce Sanginés in the semi-subterranean temple at Tiwanaku. It stands approximately 3 meters tall and is carved from red sandstone."
-        },
-        {
-          "label": "The Sculpture",
-          "text": "The figure wears an elaborate headdress, belt, and kilt covered with incised iconographic details. It holds a kero in one hand and a snuff tablet in the other — ritual objects associated with chicha drinking and psychotropic plant use in Andean ceremony."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Ponce Monolith, along with the larger Bennett Monolith, anchored Tiwanaku's claim to spiritual authority. The semi-subterranean temple where it was placed — with carved tenon heads protruding from the walls — echoed the older tradition at Chavín de Huántar."
+          "label": "Explore further",
+          "text": "It's named for the Bolivian archaeologist Carlos Ponce Sanginés, whose team unearthed it in 1957, lying on its left side and facing south. It is the second-largest monolith found in the area, after Bennett's. Look closely and the two ritual objects split between its hands — the kero (a fermented-beer cup) in one, the snuff tablet (for inhaling powdered vilca seeds, a potent Andean hallucinogen) in the other — and the statue becomes a frozen portrait of a priest dressed and equipped for ceremony."
         }
-      ]
+      ],
+      "commonsFile": "BO_Tihuanako_(110)_(17228598245).jpg"
     },
     {
       "id": "evt-andean-k-huaca-pucllana",
       "label": "Huaca Pucllana",
       "year": 200,
       "endYear": 600,
-      "description": "Huaca Pucllana, a massive adobe pyramid in modern Lima built by the Lima culture, rose 25 meters high and served as both an administrative center and a site of ritual feasting and human sacrifice on the central Peruvian coast.",
+      "description": "A giant stepped adobe pyramid the Lima culture raised in what is now the upscale Miraflores district of Lima, hemmed in today by apartment towers and a restaurant where diners eat dinner beneath the floodlit ruin.",
       "wikiSlug": "Huaca_Pucllana",
       "tier": 3,
       "tags": [],
@@ -1800,24 +1357,17 @@
       ],
       "details": [
         {
-          "label": "Background",
-          "text": "Huaca Pucllana sits in the Miraflores district of modern Lima, surrounded by high-rise apartments — one of the most dramatic juxtapositions of ancient and modern in the Americas."
-        },
-        {
-          "label": "The Structure",
-          "text": "The pyramid was built using 'bookshelf-style' adobe bricks set vertically with spaces between them — a construction technique that made the structure earthquake-resistant. It rises 25 meters and covers 6 hectares."
-        },
-        {
-          "label": "Legacy",
-          "text": "Huaca Pucllana demonstrates that the Lima culture on the central coast was as architecturally ambitious as the Moche to the north, building monumental pyramids that rivaled Huaca del Sol in engineering sophistication if not in scale."
+          "label": "Explore further",
+          "text": "It was built with the \"bookshelf\" technique: millions of mud bricks stood on end with small gaps between them, like books on a shelf rather than a solid mortared wall. It looks flimsy, but those gaps let the structure flex and shed seismic energy instead of cracking, which is why the pyramid has ridden out roughly 1,500 years of earthquakes on one of the planet's most violent fault zones. The Lima builders kept adding to it for centuries, leaving seven staggered platforms; archaeologists later found later cultures had reused the summit for burials, including sacrificed young women."
         }
-      ]
+      ],
+      "commonsFile": "Huaca_Pucllana_Miraflores.jpg"
     },
     {
       "id": "evt-andean-k-paracas-elites",
       "label": "Paracas Elite Lineages",
       "year": -150,
-      "description": "Elite mummy bundles at Paracas Necropolis were wrapped in 30-50 embroidered mantles each, representing thousands of hours of labor — indicating that south coast society had developed hereditary ruling lineages whose authority derived from control of textile production and ancestor veneration.",
+      "description": "The Paracas didn't bury everyone alike: a few people got cocooned in dozens of masterwork mantles while others got a handful of plain cloths — proof of a society stacked into ranks, with the labor of many funneled into honoring the few.",
       "wikiSlug": "Paracas_culture#Social_organization",
       "tier": 3,
       "tags": [
@@ -1826,16 +1376,8 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Background",
-          "text": "Not all Paracas mummy bundles were equal. While ordinary burials contained a few textile wrappings, elite bundles contained 30-50 mantles of extraordinary quality, along with gold ornaments, trophy heads, and food offerings."
-        },
-        {
-          "label": "The Evidence",
-          "text": "The sheer labor investment in elite bundles — some mantles required 5,000-10,000 hours of embroidery — implies that large communities pooled labor to honor specific individuals. This suggests hereditary rank and organized labor obligations resembling the later mit'a system."
-        },
-        {
-          "label": "Legacy",
-          "text": "Paracas elite burials mark the emergence of clearly stratified society on the south coast, bridging the gap between the more egalitarian communities of the Chavín era and the fully developed ruling classes of the Nazca, Moche, and later cultures."
+          "label": "Explore further",
+          "text": "The biggest bundles are almost absurd in scale — some held several hundred textiles, and one wrapping cloth alone ran about 87 feet (27 m) long. The famous Bundle 49 became a showpiece of just how much wealth and work piled onto a single important corpse. Because no two pieces are identical, scholars think communities pooled embroiderers over years, likely starting well before the honoree died — the social weight of these people showed up in death rather than in any throne or palace."
         }
       ]
     }
