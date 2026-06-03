@@ -12,8 +12,9 @@ import '../../app/war-civil-war/war-skin.css'
 import { useState } from 'react'
 import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { WarHeader } from '@/components/mode/war-header'
-import { civilWarCrumbs } from '@/components/mode/theatre-page'
-import { MAJORS, CHAPTERS, type Theatre } from '@/lib/civil-war-roster'
+import { warCrumbs } from '@/components/mode/theatre-page'
+import { warForRoute } from '@/lib/wars/registry'
+import { CIVIL_WAR } from '@/lib/wars/civil-war'
 import { Lightbox } from '@/components/lightbox'
 import { DottedMap, type Frame, type StateSpec, type Dot, type FreeLabel } from '@/components/mode/dotted-map'
 
@@ -72,7 +73,7 @@ export function BattleSectionReader({
   // precise battle date for the sticky header (e.g. "April 1, 1865"); falls back
   // to the roster's month + year when omitted, so no battle reads blank.
   date?: string
-  theatreId?: Theatre | 'offfield' | 'howfought'; battleId?: string; theatreHref?: string; accent?: string
+  theatreId?: string; battleId?: string; theatreHref?: string; accent?: string
   // override the final "End of …" link (e.g. a one-section theme returns to the
   // Off the Battlefield spine rather than self-linking to its own page)
   endHref?: string; endKicker?: string; endLabel?: string
@@ -82,9 +83,11 @@ export function BattleSectionReader({
   // like Lincoln's Cooper Union plate clip the head at the default)
   heroFocus?: string; heroScale?: number
 }) {
+  // Resolve the war from the route base carried on theatreHref (no hook → SSG-safe).
+  const war = warForRoute(theatreHref) ?? CIVIL_WAR
   const ids = Object.keys(sections)
   const n = sections[id] ?? sections[ids[0]]
-  const major = battleId ? MAJORS.find(b => b.id === battleId) : undefined
+  const major = battleId ? war.battles.find(b => b.id === battleId) : undefined
   const dateLine = date ?? (major ? `${MONTH_FULL[major.mo] ?? major.mo} ${major.year}` : undefined)
   const [figFailed, setFigFailed] = useState<Record<number, boolean>>({})
   const [heroFailed, setHeroFailed] = useState(false)
@@ -99,8 +102,8 @@ export function BattleSectionReader({
   const subtitle = n.title && n.title !== battleName ? n.title : (n.eyebrow ?? '')
   // single-page chapters (the 5 Military-Story chapters) have no within-page
   // "next section"; link to the next chapter in the CHAPTERS sequence instead.
-  const chapterIdx = battleId ? CHAPTERS.findIndex(c => c.id === battleId) : -1
-  const nextChapter = !next && chapterIdx >= 0 && chapterIdx < CHAPTERS.length - 1 ? CHAPTERS[chapterIdx + 1] : null
+  const chapterIdx = battleId ? war.chapters.findIndex(c => c.id === battleId) : -1
+  const nextChapter = !next && chapterIdx >= 0 && chapterIdx < war.chapters.length - 1 ? war.chapters[chapterIdx + 1] : null
 
   // Breadcrumb: ACW › Theatre › Battle › Chapter. On a section page the battle
   // crumb demotes to an ancestor (links to the battle overview, keeps its jump
@@ -109,7 +112,7 @@ export function BattleSectionReader({
   const safeId = sections[id] ? id : ids[0]
   const safeIdx = Math.max(0, ids.indexOf(safeId))
   const chLabel = (i: number, sid: string) => `Ch ${i + 1} · ${sections[sid].title}`
-  const baseCrumbs = civilWarCrumbs({ theatre: theatreId, battleId })
+  const baseCrumbs = warCrumbs(war, { lane: theatreId, battleId })
   const crumbs: Crumb[] = ids.length > 1
     ? [
         ...baseCrumbs.slice(0, -1),
@@ -127,22 +130,14 @@ export function BattleSectionReader({
   // the parent spine (themes → Off the Battlefield, chapters → Military Story).
   const headerBack = ids.length > 1 ? battleHref : (endHref ?? theatreHref)
 
-  // Carry the new war-skin theatre palette through the narratives: derive the
-  // accent from the theatre rather than the per-page hex (the section pages still
-  // hardcode the old violet/rust). The CSS var adapts light/dark and drives the
-  // prose + breadcrumb; DottedMap does color math (alpha()) so it needs a concrete
-  // hex (the dark-mode value, the default theme). offfield → OTBF orange; howfought
-  // and anything unmapped keeps its passed accent (e.g. the Military stone).
-  const THEATRE_ACCENT: Record<string, { v: string; hex: string }> = {
-    east: { v: 'var(--th-east)', hex: '#c79cd0' },
-    west: { v: 'var(--th-west)', hex: '#84c089' },
-    tmis: { v: 'var(--th-tmis)', hex: '#d8b25a' },
-    naval: { v: 'var(--th-naval)', hex: '#5fb0cc' },
-    offfield: { v: 'var(--otbf)', hex: '#d96a26' },
-  }
-  const ta = THEATRE_ACCENT[theatreId as string]
-  const accentVar = ta ? ta.v : accent   // CSS --accent + breadcrumb (var ok)
-  const accentHex = ta ? ta.hex : accent // DottedMap (needs a concrete color)
+  // Carry the war's lane palette through the narratives: derive the accent from the
+  // section's lane (theatre for the CW, phase for the F&I war) rather than the
+  // per-page hex. skinVar is a light/dark-adaptive CSS var for the prose + breadcrumb;
+  // mapHex is the concrete colour DottedMap's colour math needs. A lane with neither
+  // (the story spine) keeps the passed accent (e.g. the Military stone).
+  const lane = theatreId ? war.lanes.find(l => l.id === theatreId) : undefined
+  const accentVar = lane?.skinVar ? `var(${lane.skinVar})` : (lane?.mapHex ?? accent) // CSS --accent + breadcrumb
+  const accentHex = lane?.mapHex ?? accent // DottedMap (needs a concrete color)
 
   return (
     <div className="war-skin" style={{ ['--accent' as string]: accentVar } as React.CSSProperties}>

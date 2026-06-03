@@ -45,6 +45,12 @@ export interface WarLane {
   // <body>, outside .war-skin, so CSS vars can't resolve there; DottedMap also needs
   // concrete hex for its JS colour math). light/dark feed the in-skin CSS vars.
   color?: { light: string; dark: string; dot: string }
+  // The reader's --accent for sections in this lane. `skinVar` = a CSS custom prop
+  // defined in war-skin.css (light/dark-adaptive, e.g. '--th-east'); `mapHex` = the
+  // concrete hex DottedMap needs. When skinVar is absent the reader falls back to
+  // mapHex for the CSS accent too. Absent on the story lane (keeps the passed accent).
+  skinVar?: string
+  mapHex?: string
 }
 
 // A battle/siege. Field name `theatre` is kept (not renamed `lane`) so the existing

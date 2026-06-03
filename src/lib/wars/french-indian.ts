@@ -36,12 +36,12 @@ export const FRENCH_INDIAN: WarConfig = {
     { code: 'fr', label: 'French', short: 'French', cssVar: '--french', color: { light: '#3a5fa5', dark: '#8aa6d8' } },
   ],
   lanes: [
-    { id: 'ohio-spark', kind: 'phase', label: 'The Ohio Spark', short: 'Ohio', href: '/war-french-indian/ohio-spark', ready: false, color: { light: '#4e8a52', dark: '#84c089', dot: '#4e8a52' } },
-    { id: 'disaster', kind: 'phase', label: 'Years of Disaster', short: 'Disaster', href: '/war-french-indian/disaster', ready: false, color: { light: '#b3502f', dark: '#d98a5a', dot: '#b3502f' } },
-    { id: 'pitts-turn', kind: 'phase', label: "Pitt's Turn", short: "Pitt's Turn", href: '/war-french-indian/pitts-turn', ready: false, color: { light: '#b3852f', dark: '#d8b25a', dot: '#b3852f' } },
-    { id: 'conquest', kind: 'phase', label: 'The Conquest of Canada', short: 'Conquest', href: '/war-french-indian/conquest', ready: false, color: { light: '#2c7d99', dark: '#5fb0cc', dot: '#2c7d99' } },
-    { id: 'peace-fuse', kind: 'phase', label: 'The Peace and Its Fuse', short: 'The Peace', href: '/war-french-indian/peace-fuse', ready: false, color: { light: '#8a5b86', dark: '#c79cd0', dot: '#8a5b86' } },
-    { id: 'offfield', kind: 'offfield', label: 'Off the Battlefield', short: 'Off-Field', href: '/war-french-indian/off-the-battlefield', ready: false, color: { light: '#c2611f', dark: '#e07f3c', dot: '#d96a26' } },
+    { id: 'ohio-spark', kind: 'phase', label: 'The Ohio Spark', short: 'Ohio', href: '/war-french-indian/ohio-spark', ready: false, color: { light: '#4e8a52', dark: '#84c089', dot: '#4e8a52' }, mapHex: '#84c089' },
+    { id: 'disaster', kind: 'phase', label: 'Years of Disaster', short: 'Disaster', href: '/war-french-indian/disaster', ready: false, color: { light: '#b3502f', dark: '#d98a5a', dot: '#b3502f' }, mapHex: '#d98a5a' },
+    { id: 'pitts-turn', kind: 'phase', label: "Pitt's Turn", short: "Pitt's Turn", href: '/war-french-indian/pitts-turn', ready: false, color: { light: '#b3852f', dark: '#d8b25a', dot: '#b3852f' }, mapHex: '#d8b25a' },
+    { id: 'conquest', kind: 'phase', label: 'The Conquest of Canada', short: 'Conquest', href: '/war-french-indian/conquest', ready: false, color: { light: '#2c7d99', dark: '#5fb0cc', dot: '#2c7d99' }, mapHex: '#5fb0cc' },
+    { id: 'peace-fuse', kind: 'phase', label: 'The Peace and Its Fuse', short: 'The Peace', href: '/war-french-indian/peace-fuse', ready: false, color: { light: '#8a5b86', dark: '#c79cd0', dot: '#8a5b86' }, mapHex: '#c79cd0' },
+    { id: 'offfield', kind: 'offfield', label: 'Off the Battlefield', short: 'Off-Field', href: '/war-french-indian/off-the-battlefield', ready: false, color: { light: '#c2611f', dark: '#e07f3c', dot: '#d96a26' }, mapHex: '#d96a26' },
   ],
   // Grouped by phase (theatre = phase id). hook/href/img set at build time.
   battles: [
