@@ -69,193 +69,319 @@
       "label": "Rouran Khaganate",
       "year": 402,
       "endYear": 552,
-      "description": "The Rouran (also called Juan-juan in older Chinese sources) ruled the Mongolian steppe from roughly 402 to 552 CE. They were the political successors to the Xiongnu and Xianbei traditions and the first steppe ruler to take the title 'khagan' (great khan). The Ashina clan served them as iron-working vassals in the Altai Mountains until Bumin's revolt destroyed them.",
+      "description": "The nomadic empire that ruled the Mongolian steppe from about 402 to 552, the immediate overlords of the Ashina clan and the first steppe power to call its ruler 'khagan' (great khan). Their destruction by their own blacksmith vassals opened the way for the Türks.",
       "wikiSlug": "Rouran_Khaganate",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Rouran founder, Yujiulü Shelun, started life as a slave of the Xianbei before unifying the steppe and adopting the khagan title around 402. Chinese sources of the period sneer at the Rouran with the name 'Ruru,' a deliberately insulting term meaning roughly 'wriggling insects.' Their dynastic story has a neat symmetry with the Türks': just as the Rouran began as somebody else's slaves, they ended at the hands of their own slave-caste blacksmiths."
+        }
+      ]
     },
     {
       "id": "evt-hephthalites",
       "label": "Hephthalite Empire",
       "year": 450,
       "endYear": 560,
-      "description": "The Hephthalites, called the 'White Huns' by Greek and Persian sources, dominated Central Asia from roughly 450 to 560 CE. They humiliated the Sasanian Persians (killing Shah Peroz I in 484) and conquered the Sogdian oases, controlling the Silk Road's central section until a joint Sasanian-Türk attack destroyed them around 560.",
+      "description": "The Hephthalites, the 'White Huns' of Greek and Persian writers, ran a sprawling Central Asian empire from roughly 450 to 560 CE — straddling Sogdiana, Bactria, parts of India, and the central Silk Road that everybody else wanted.",
       "wikiSlug": "Hephthalite_Empire",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "They had Persia by the throat for decades: from 474 the Sasanians paid them tribute, and after Shah Peroz I marched out for a third try and got killed near Balkh in 484, the Persian state basically became a Hephthalite client for about fifty years. The 'White Hun' label is a Greek and Persian convention, not a proven family tie to Attila's Huns. Their kings are murky figures — one of the better-attested is Khingila, known mostly from coins, which is how a lot of Hephthalite history survives at all."
+        }
+      ],
+      "commonsFile": "Map_of_the_Hephthalite_Empire_circa_500.png"
     },
     {
       "id": "evt-ashina-clan",
       "label": "The Ashina Clan",
       "year": 460,
-      "description": "The Ashina (literally 'Noble Wolf') were the founding clan of the Türk khaganate. Chinese sources describe them as Rouran ironworking vassals in the Altai Mountains in the early sixth century. The Ashina founding myth — that they descended from a boy raised by a she-wolf after his tribe was massacred — became one of the most distinctive origin stories in Inner Asian history and is depicted on the Orkhon Inscriptions and on the wolf-headed standards Türk khagans carried into battle.",
+      "description": "The founding royal clan of the Türks, whose name means 'Noble Wolf.' Chinese chroniclers describe them as a small ironworking caste embedded in the Rouran empire, mining and smelting in the Altai before they rose to rule the steppe.",
       "wikiSlug": "Ashina_tribe",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars still argue over where the Ashina actually came from before they show up as Rouran subjects — proposals range from a Xiongnu splinter group to refugees from Gansu in northwest China who fled to the Altai around 460. The clan name has been traced by some linguists not to Turkic at all but to an Eastern Iranian word for 'blue' (the same color sense behind 'Göktürk,' literally 'Blue/Celestial Türk'). The Ashina bloodline became so prestigious that for centuries afterward, far-flung Turkic dynasties claimed descent from it the way European kings later claimed descent from Charlemagne."
+        }
+      ],
+      "commonsFile": "Tamga_of_Ashina.png"
     },
     {
       "id": "evt-she-wolf-myth",
       "label": "The She-Wolf Founding Myth",
       "year": 460,
-      "description": "According to Chinese chroniclers preserving Türk oral tradition, the Ashina were descended from a small boy — the only survivor of a massacre of his tribe — who was nursed by a she-wolf, eventually fathering ten sons by her. One of those sons, Asena, became the founding ancestor of the Ashina clan. The wolf became the Türk dynastic emblem, displayed on the gold wolf-headed standards that the khagans carried into battle.",
+      "description": "The Türk origin story, written down by Chinese chroniclers from Türk oral tradition: a boy is the lone survivor of a massacre, a she-wolf nurses him and bears his ten sons, and the eldest line becomes the Ashina royal house. The wolf became the dynasty's emblem.",
       "wikiSlug": "Asena",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fullest version survives in the Book of Zhou, a seventh-century Chinese history — in it the wolf, pregnant and pursued, crosses a sea to a cave in the mountains northwest of Gaochang (an oasis city near modern Turpan in northwest China) to give birth. Chinese sources actually preserve a competing origin legend too, in which the founding ancestor descends from a summer and winter spirit rather than a wolf, a reminder that the Türks themselves told more than one story about where they came from. The grey wolf endured as a Turkic symbol for well over a thousand years and was deliberately revived by twentieth-century Turkish nationalists."
+        }
+      ]
     },
     {
       "id": "evt-altai-iron-working",
       "label": "Ashina Iron-Working in the Altai",
       "year": 500,
-      "description": "Before their rise to power, the Ashina lived in the southern Altai Mountains as ironworking specialists for the Rouran khaganate. The Türks were the first steppe people known to use the iron stirrup systematically, which gave their cavalry a stable platform for shooting and lance-fighting. Their early reputation rested on this metalworking expertise as much as on their cavalry skill.",
+      "description": "Before they were rulers, the Ashina were miners and smiths, digging iron out of the southern Altai Mountains and paying their Rouran overlords in finished weapons. This metalworking trade — not yet their cavalry — was the foundation of their early reputation and wealth.",
       "wikiSlug": "Iron_metallurgy_in_Africa",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Türk oral tradition kept the memory of the forge alive long after the clan became emperors: each year the khagan and his nobles held a ceremony in which they ritually hammered a piece of iron, re-enacting the smithing origins of the dynasty. Iron in the sixth-century steppe was scarce and precious, which made a tribe that controlled its production into a strategic supplier the way an oil state is today. The Altai range itself takes its name from a Mongolic-Turkic root meaning 'golden,' and it remained one of Inner Asia's richest mining zones for metals long after the Türks were gone."
+        }
+      ]
     },
     {
       "id": "evt-bumin-qaghan",
       "label": "Bumin Qaghan",
       "year": 552,
       "endYear": 552,
-      "description": "Bumin (also called Tumen) was the founding khagan of the Türk Empire. In 551 he led the Ashina in a revolt against the Rouran, defeated them decisively in 552, took the title 'qaghan,' and married a Western Wei princess to anchor a Chinese alliance. He died within months of his triumph, leaving the new empire to his brother Istemi and his sons.",
+      "description": "The founder of the Türk empire. In 552 he smashed the Rouran, took the supreme title, and married into a Chinese royal house to seal an alliance — then died within months, before he could rule the state he had just created.",
       "wikiSlug": "Bumin_Qaghan",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title Bumin took on was 'Illig Qaghan,' which means roughly 'ruler of the people' in Old Turkic. His path to the throne ran through a Chinese bride: the Western Wei court sent him Princess Changle in the summer of 551, a match that lent him semi-imperial standing by Chinese diplomatic convention. The dynasty he founded outlasted him by a century and a half and seeded later branches stretching from Mongolia to the Black Sea, even though he personally sat on the throne for only a few months."
+        }
+      ],
+      "commonsFile": "An_Jia_with_a_Turkic_Chieftain_in_Yurt_(detail)._Xi’an,_579_CE._Shaanxi_Provincial_Institute_of_Archaeology,_Xi’an.jpg"
     },
     {
       "id": "evt-revolt-against-rouran",
       "label": "Revolt Against the Rouran",
       "year": 552,
-      "description": "In 552 Bumin destroyed the Rouran field army on the Mongolian steppe, sending the last Rouran khagan Anagui to suicide. The surviving Rouran fled west and may have been the same people who appeared on the Hungarian plain a few years later as the Avars who terrorized Justinian's Byzantine Empire. The revolt established the Ashina as the new masters of the steppe.",
+      "description": "Bumin's 552 uprising. His cavalry crushed the Rouran field army, the last Rouran khagan killed himself, and the blacksmith vassals became the new masters of the steppe — with the broken Rouran fleeing west toward Europe.",
       "wikiSlug": "First_Turkic_Khaganate",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The revolt was set up by an earlier favor that exposed how strong the Ashina had quietly become: Bumin had crushed a rebellion of the Tiele tribes and absorbed the surrender of more than 50,000 households, then felt powerful enough to demand a Rouran princess as his wife. The khagan Anagui refused with a famous insult, calling Bumin his 'blacksmith slave' — the line Chinese chroniclers preserved word for word. The decisive battle was fought near Huaihuang, in the area of modern Zhangjiakou in Hebei province, just northwest of Beijing."
+        }
+      ]
     },
     {
       "id": "evt-title-khagan",
       "label": "The Title Qaghan",
       "year": 552,
-      "description": "The title 'qaghan' (great khan), which the Rouran had pioneered and Bumin formally adopted in 552, became the standard Inner Asian imperial title for the next thousand years. Every later steppe ruler — Uyghur, Khazar, Seljuk sultan, Genghis Khan, the Yuan emperors of China, the khans of the Crimean and Kazan khanates — held the same title in some form, all of it traceable to the Türk usage that Bumin adopted.",
+      "description": "The imperial title 'qaghan' (great khan), which Bumin adopted in 552, went on to become the standard name for supreme rulers across Inner Asia for the next thousand years — the word behind everything from Genghis Khan to the khans of Crimea.",
       "wikiSlug": "Khagan",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title wasn't actually a Türk invention or even a Rouran one: it appears to trace back further still to Xianbei nobility, and the Rouran founder Shelun was simply the first to apply it systematically to a supreme steppe ruler around 402. It coexisted for a while with the much older Xiongnu term 'chanyu' before displacing it entirely. The word's reach is enormous — the modern Turkish, Mongolian, and many Central Asian languages still carry descendants of 'khagan,' and it even worked its way into Russian and other European languages through medieval contact with the steppe."
+        }
+      ]
     },
     {
       "id": "evt-orkhon-heartland",
       "label": "The Orkhon Valley Heartland",
       "year": 552,
-      "description": "The Türk khagans established their summer encampment in the Orkhon Valley of central Mongolia, the same broad upland basin that would later host the Uyghur capital of Karabalghasun and Genghis Khan's capital of Karakorum. The Orkhon was the geographic center of the Mongolian steppe — a defensible river valley with reliable water and good grass, equidistant from the Altai, the Khentii, and the Khangai mountain ranges.",
+      "description": "The broad upland river basin in central Mongolia where the khagan pitched his summer camp and held the great annual assembly — the geographic heart of the new empire, sheltered by mountains, with reliable water and good grass for the horse herds.",
       "wikiSlug": "Orkhon_Valley",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The valley was such a magnet for steppe power that it became a UNESCO World Heritage Site in 2004 precisely for stacking two thousand years of nomadic capitals in one place: the Türks' camp, the Uyghur city of Ordu-Baliq (which sprawled across roughly 19 square miles, or 50 sq km), and Genghis Khan's Karakorum, founded in 1220. The protected landscape today covers about 470 square miles (1,220 sq km) of pasture along both banks of the river. Later rulers kept returning to the exact same ground partly to borrow the legitimacy of whoever had ruled there before."
+        }
+      ],
+      "commonsFile": "Orchon-mongolei.JPG"
     },
     {
       "id": "evt-istemi-yabghu",
       "label": "Istemi Yabghu and the Western Empire",
       "year": 553,
       "endYear": 575,
-      "description": "Istemi was Bumin's younger brother and the architect of the Türk westward expansion. Holding the title 'yabghu' (subordinate khan of the western wing), he pushed the Türk frontier all the way to the Volga and the Caucasus, allied with Sasanian Persia to crush the Hephthalites, and then sent an embassy through Sogdian intermediaries to Byzantine Constantinople. He effectively founded the Western Türk Khaganate that his descendants would rule independently after 582.",
+      "description": "Bumin's younger brother and the engineer of the Türks' western expansion. As 'yabghu' (junior khan of the western wing) he drove the frontier across Central Asia, partnered with Persia to destroy the Hephthalites, and opened direct relations with Constantinople.",
       "wikiSlug": "Istemi",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Istemi and the Sasanian shah Khosrow I jointly crushed the Hephthalites (a powerful Central Asian power sometimes called the 'White Huns') by about 560, then promptly fell out over who controlled the silk trade through the lands between them. Blocked by Persia, Istemi was talked by a Sogdian merchant-diplomat named Maniakh into going over Persia's head entirely: a Türk embassy reached the Byzantine emperor Justin II in Constantinople in 568, offering silk and a joint alliance against Persia. It was the first direct diplomatic contact between a steppe empire and Byzantium, and it stitched the Türk khaganate into the politics of the whole Eurasian world."
+        }
+      ],
+      "commonsFile": "Türk-Kagan_coin,_Tashkent,_Western_Turk_period,_580-610.png"
     },
     {
       "id": "evt-khusrau-alliance",
       "label": "Sasanian-Türk Alliance",
       "year": 558,
-      "description": "Around 557-558, Istemi negotiated an alliance with the Sasanian Shah Khusrau I to crush the Hephthalites between them. The two empires attacked simultaneously: the Persians from the south, the Türks from the north. The Hephthalites were destroyed by 560, and the Oxus River became the new boundary between Sasanian and Türk territory. The alliance was a textbook example of how the steppe and the settled world could combine to crush a rival neither could destroy alone.",
+      "description": "Around 557-558 Istemi cut a deal with the Sasanian shah Khusrau I to gang up on the Hephthalites — Persians hitting from the south, Türks from the north, the enemy crushed in between.",
       "wikiSlug": "Khosrow_I",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Khusrau I (reigned 531-579) was the dynasty's heavyweight, remembered in Persian tradition by the epithet Anushirvan ('the immortal soul') for his tax and army reforms. The alliance wasn't just a handshake: it was sealed by marriage, with Khusrau taking a daughter of the Türk khagan as a wife. Persia had a century-old grudge to settle here, having paid the Hephthalites tribute since the 470s, so for Khusrau this was less a fresh war than a long-overdue reckoning."
+        }
+      ],
+      "commonsFile": "Plate_of_the_Sasanian_king_Khosrow_I_Anushirvan.jpg"
     },
     {
       "id": "evt-hephthalite-destruction",
       "label": "Destruction of the Hephthalites",
       "year": 560,
-      "description": "The combined Sasanian-Türk attack of 557-560 destroyed the Hephthalite Empire, ending more than a century of Hephthalite control over the Sogdian oases and the central Silk Road. The Hephthalites' subject peoples — the Sogdians, the Tokharians, and various smaller groups in modern Afghanistan and Uzbekistan — passed under joint Persian and Türk influence, with the Oxus River as the rough boundary.",
+      "description": "The joint Sasanian-Türk attack of 557-560 finished the Hephthalites off, ending more than a century of their grip on Sogdiana and the central Silk Road, with the Oxus River left as the rough boundary between the two victors.",
       "wikiSlug": "Hephthalite_Empire",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The decisive clash is usually called the Battle of Gol-Zarriun (or of Bukhara), fought near Bukhara in modern Uzbekistan around 560; the Hephthalite king — named Gatfar in later Persian tradition — was beaten and the army shattered. The empire didn't vanish so much as splinter into a scatter of small principalities that lingered as Sasanian or Türk vassals. Splitting the spoils at the Oxus planted the seed of the next war: within a decade the two allies were squabbling over who really controlled the river towns and their silk trade."
+        }
+      ],
+      "commonsFile": "Hephthalites_coin._Uncertain_ruler._Late_5th_century_CE.jpg"
     },
     {
       "id": "evt-sogdian-merchants",
       "label": "Sogdian Merchant Diaspora",
       "year": 560,
-      "description": "The Sogdians, an Iranian-speaking people from the oases of Bukhara and Samarkand in modern Uzbekistan, were the merchant class of the Türk Empire. Sogdian colonies stretched from Constantinople to Chang'an, and Sogdian Aramaic-derived script became the Türks' first writing system. Sogdians ran the Silk Road on the khaganate's behalf and provided most of its diplomats — including Maniakh, who led the Türk embassy to Byzantium in 568.",
+      "description": "The Sogdians were an Iranian-speaking trading people from the oases of modern Uzbekistan and Tajikistan who became the merchant class, diplomats, and first scribes of the Türk Empire. Their family-run colonies and shared Sogdian language strung together a commercial web that ran from Constantinople to the Chinese capital.",
       "wikiSlug": "Sogdia",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The oldest writing we have in Sogdian is a bundle of five letters known as the \"Ancient Letters,\" found in 1907 by archaeologist Aurel Stein stuffed in a ruined watchtower near Dunhuang in western China. They date to around 313 CE — over two centuries before the Türks arrived — and read like a snapshot of the network in action: one, written by a merchant named Nanai-vandak to his \"home office\" back in Samarkand, talks shop about silk, musk, silver, and slaves. The mailbag they came from seems to have been lost or seized in transit, which is why they sat unread for sixteen hundred years."
+        }
+      ],
+      "commonsFile": "BezeklikSogdianMerchants.jpg"
     },
     {
       "id": "evt-silk-road-control",
       "label": "Türk Control of the Silk Road",
       "year": 560,
-      "description": "After destroying the Hephthalites, the Türks controlled the central section of the Silk Road from the Tarim Basin to the Caspian, with Sogdian merchants from Bukhara and Samarkand acting as their commercial agents. This made the khaganate the gatekeeper between China, Persia, India, and Byzantium — a position that produced both enormous wealth and immediate diplomatic friction with the Sasanians, who blocked Sogdian silk from reaching Persian markets.",
+      "description": "Having broken the Hephthalites, the Türks held the central Silk Road from the Tarim Basin to the Caspian, with Sogdian merchants as their commercial agents. That made the khaganate the toll-keeper between China, Persia, India, and Byzantium — wildly profitable, and an instant source of friction with Persia.",
       "wikiSlug": "Silk_Road",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The romantic phrase \"Silk Road\" is much younger than the road itself — it was coined in 1877 by a German geographer-explorer, Ferdinand von Richthofen, who wrote it in German as \"Seidenstraße\" (uncle, incidentally, of the World War I flying ace the \"Red Baron\"). The Türks and Sogdians never called it anything of the kind. The label only caught on with the wider public in the 20th century, long after the trade it described had faded."
+        }
+      ],
+      "commonsFile": "Second_Turkic_Khaghanate_territoryp(iii.jpg"
     },
     {
       "id": "evt-bukhara-samarkand",
       "label": "Bukhara and Samarkand",
       "year": 560,
-      "description": "Bukhara (BOO-kah-rah) and Samarkand (SAM-ar-kand) were the two great Sogdian oasis cities of Transoxiana, the strip of irrigated land between the Oxus and Jaxartes rivers. Both were under Türk overlordship from 560 onward and served as the commercial and intellectual centers of the western half of the empire. They would later become the heart of the Samanid and Timurid empires and the great cities of the Islamic Golden Age.",
+      "description": "Bukhara and Samarkand were the two great Sogdian oasis cities of Transoxiana, the irrigated belt between the Oxus and Jaxartes rivers. Under Türk overlordship from the 560s, they were the commercial and intellectual anchors of the empire's western half before later becoming famous Islamic-world capitals.",
       "wikiSlug": "Transoxiana",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Both cities are staggeringly old. The oldest core of Samarkand, the mound now called Afrasiyab, was settled around the 7th century BCE and stayed occupied for nearly two thousand years until Genghis Khan's armies wrecked it in 1220. Bukhara's official founding is pegged to roughly 500 BCE, when scattered settlements in the oasis had grown together behind a single wall. That depth is why these two kept reinventing themselves as capitals — first for the Sogdians, then for the Persian Samanids, and later (for Samarkand) for Timur's empire."
+        }
+      ],
+      "commonsFile": "Afrasiab_West_Wall.jpg"
     },
     {
       "id": "evt-persian-silk-quarrel",
       "label": "Persian Silk Embargo",
       "year": 568,
-      "description": "Sasanian Shah Khusrau I refused to allow Sogdian silk to be sold in Persian markets, then poisoned a Türk embassy that came to negotiate. The economic dispute escalated into open hostility between the two recent allies and prompted the Türks to look westward for an alternative outlet for their silk — leading directly to Maniakh's mission to Constantinople.",
+      "description": "Sasanian shah Khusrau I shut Sogdian silk out of Persian markets to protect Persia's own royal silk monopoly, then humiliated the Türk envoys who came to negotiate. The quarrel turned two recent allies hostile and pushed the Türks to look west, toward Byzantium, for a buyer.",
       "wikiSlug": "Sogdia#Silk_trade",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Our source for this is the Byzantine historian Menander Protector, and the snub came in two ugly stages. According to him, when the first Türk-Sogdian embassy arrived, the Persians bought the silk they brought and then burned it in front of them to make a point that they didn't actually want it. When a second embassy came, the Sasanians poisoned the envoys outright. It was the Sogdian merchant Maniakh who reportedly talked the khagan Istemi out of war and into the audacious end-run to Constantinople instead."
+        }
+      ],
+      "commonsFile": "Map_of_Sogdia.png"
     },
     {
       "id": "evt-maniakh-byzantium",
       "label": "Maniakh's Byzantine Embassy",
       "year": 568,
-      "description": "In 568 the Sogdian merchant Maniakh led a Türk embassy from Istemi's court at Suyab all the way to Constantinople, bypassing Sasanian Persia by traveling north of the Caspian Sea. Justin II received him; the Byzantine ambassador Zemarchus returned with him to the Türk court the following year. The exchange opened the first sustained diplomatic contact between East Rome and the eastern steppe and represents one of the earliest direct East-West embassies in history.",
+      "description": "In 568 a Sogdian merchant named Maniakh led a Türk embassy all the way from Istemi's court to Constantinople, looping north of the Caspian to dodge hostile Persia and pitch a direct silk-and-alliance deal to the Byzantines.",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Maniakh wasn't a random courier — Byzantine sources call him 'chief of the people of Sogdiana,' and it was his idea to approach Rome in the first place, since Sogdian traders were the ones losing money when Persia slammed its markets shut. The embassy showed up bearing raw silk as a gift, and Justin II quizzed Maniakh personally about the Türks and their lands. The whole episode survives because the Byzantine official Menander Protector copied long extracts of the diplomatic record into his history, written around 580."
+        }
+      ],
+      "commonsFile": "Map_of_the_First_Turkic_Khaganate.png"
     },
     {
       "id": "evt-zemarchus-mission",
       "label": "Zemarchus's Embassy to the Türks",
       "year": 569,
-      "description": "Zemarchus of Cilicia, the Byzantine ambassador, traveled with Maniakh's returning embassy to Istemi's court in the Tian Shan mountains in 569. His detailed account, preserved in fragments by the Byzantine historian Menander Protector, is the earliest extensive Western description of the Türk khaganate — including the gold-domed felt tent of the khagan, the purification ritual where Türk shamans waved smoking branches over the Byzantine envoys, and the great drinking parties with kumis (fermented mare's milk).",
+      "description": "To ratify the deal Maniakh had opened, Justin II sent the diplomat Zemarchus of Cilicia east in 569, traveling back with the Türk embassy to Istemi's court — and his report is the earliest detailed Western eyewitness account of the steppe khaganate.",
       "wikiSlug": "Zemarchus",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Menander dates the departure precisely: Zemarchus left Constantinople in August 569. He found the khagan encamped in a mountain valley the Greeks rendered as 'Ektag,' or Golden Mountain, somewhere in the Tian Shan range. Istemi received him seated on a golden throne inside a felt tent hung with colored silks, surrounded by his guard and his Sogdian advisers. The return leg was its own ordeal — Zemarchus's party had to slip back across the Caucasus while dodging Persian forces who'd gotten wind of the new alliance."
+        }
+      ]
     },
     {
       "id": "evt-dual-kingship",
       "label": "Dual Kingship System",
       "year": 552,
-      "description": "The Türk khaganate from the start operated as a dual kingship: the senior khagan in the eastern (Mongolian) heartland and the junior 'yabghu' in the western (Central Asian) wing. This was an inherited Xiongnu pattern — a left and right wing under a single supreme ruler — but the Türks took it further by giving the western yabghu near-equal authority over his territory. The dual system worked while one royal lineage held both halves but became unstable as soon as rival branches of the Ashina dynasty contested the succession.",
+      "description": "The khaganate ran on two thrones at once: a senior khagan in the Mongolian east and a junior 'yabghu' running the Central Asian west as a near-equal co-ruler with his own court, armies, and foreign policy. Brilliant for covering a continent; a time bomb at every succession.",
       "wikiSlug": "First_Turkic_Khaganate#Political_structure",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The design let one wing handle China while the other handled Persia and Byzantium thousands of miles away without either ruler having to split his attention. It worked as long as a single generation held both halves and everyone agreed who was senior. When cousins began fighting over which branch of the ruling Ashina clan outranked the other, the whole structure split apart — which is exactly what happened in 582, breaking the empire into eastern and western halves that never reunited."
+        }
+      ]
     },
     {
       "id": "evt-tengri-religion",
@@ -272,281 +398,462 @@
       "label": "Muqan Qaghan",
       "year": 553,
       "endYear": 572,
-      "description": "Muqan Qaghan, son of Bumin, was the chief eastern khagan during the empire's greatest expansion. Under his rule (553-572) the Türks subjugated the Khitan in Manchuria, raided into the Northern Zhou and Northern Qi states of China simultaneously, and consolidated control over the entire eastern half of the steppe. Both Chinese states paid him annual tribute of 100,000 bolts of silk to keep his cavalry out of their territory.",
+      "description": "Bumin's son and the warrior-administrator who turned a year-old founding into a continental empire (553–572), conquering the steppe's eastern margins and squeezing tribute out of a divided China.",
       "wikiSlug": "Muqan_Qaghan",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Muqan's armies finished crushing the Rouran (the people the Türks had overthrown) by around 555, routed the Khitan to the east, and annexed the Yenisei Kyrgyz to the north. In 557 the Türks smashed the Hephthalites near Bukhara in a pincer alliance with the Sasanian Persian king Khosrow I — though that western campaign was really run by Muqan's uncle Istemi, who commanded the empire's western wing. When Muqan died in 572 the throne passed not to a son but to his younger brother Taspar, following the steppe habit of passing power across a generation of brothers before dropping to the next."
+        }
+      ]
     },
     {
       "id": "evt-tribute-from-china",
       "label": "Silk Tribute from Chinese States",
       "year": 565,
-      "description": "Both the Northern Zhou and Northern Qi dynasties of divided China paid annual silk tribute to the Türks during Muqan Qaghan's reign — each state competing to keep the Türks neutral in their own civil war. Chinese sources record the figure at 100,000 bolts of silk per year, the largest tribute payment China had made to the steppe since the Han heqin treaties seven hundred years earlier.",
+      "description": "With the Chinese north split between two warring dynasties, Muqan played both sides — each bought his neutrality with silk, and neither could afford to be the one who stopped paying.",
       "wikiSlug": "Northern_Zhou",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chinese records put the figure at 100,000 bolts of silk a year, the heaviest tribute China had handed the steppe since the Han dynasty's marriage-alliance treaties some seven centuries earlier (though sources differ on whether that number was per state or the combined haul from both). The silk barely paused in the khagan's tents before flowing west through Sogdian merchants into Persian and Byzantine markets, which is what made it so valuable — it was less a hoard than working capital. When the Sui dynasty reunified China in 589 and the payments dried up, the Türks were left with a sudden hole in their finances."
+        }
+      ],
+      "commonsFile": "Map_of_the_Northern_Zhou_in_577.png"
     },
     {
       "id": "evt-tardu-westward",
       "label": "Tardu Yabghu",
       "year": 575,
       "endYear": 603,
-      "description": "Tardu was Istemi's son and the long-reigning yabghu of the Western Türks. He attempted in 599-602 to reunite both halves of the empire under his sole rule, briefly proclaiming himself sole 'great khagan,' but his bid collapsed in 603 when his subject peoples revolted against him. He died in obscurity, but his reign marked the high-water mark of Western Türk power.",
+      "description": "Tardu was the long-ruling western yabghu (sub-khan) and a son of Istemi, the brother who had built the empire's western wing. In 599 he made a grab to reunite both halves under himself as sole 'great khagan,' but the bid fell apart by 603 when his own subject tribes revolted, egged on by Chinese diplomacy, and he vanished from the record.",
       "wikiSlug": "Tardu",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The tribes who broke Tardu were the Tiele (his nomadic vassals), a coalition that included the Uyghurs and the Xueyantuo — peoples who would loom large in steppe history for centuries after. The Sui court didn't fight Tardu so much as quietly fund his enemies into rebellion, a cheaper and more reliable weapon than any army. After his subjects turned on him around 603 or 604 he simply disappeared and was probably killed; the histories don't even give him a death scene."
+        }
+      ],
+      "commonsFile": "Map_of_the_Western_Turkic_Khaganate.png"
     },
     {
       "id": "evt-east-west-split",
       "label": "East-West Split",
       "year": 582,
-      "description": "After the death of Taspar Qaghan in 581, civil war broke out among rival branches of the Ashina dynasty. By 582 the empire had split formally into Eastern and Western Türk Khaganates, with the Altai Mountains as the rough boundary. The eastern branch held the Mongolian heartland; the western branch held the Tian Shan, Sogdiana, and the steppes north of the Caspian. The two halves would never reunite.",
+      "description": "When Taspar Qaghan died in 581 the empire had no clear heir, so rival branches of the ruling Ashina family fought a civil war over the throne. By 582 the realm had cracked into an Eastern Khaganate (the Mongolian heartland) and a Western one (the Tian Shan, Sogdiana, and the steppes north of the Caspian), roughly divided at the Altai Mountains, and the two halves never reunited.",
       "wikiSlug": "Eastern_Turkic_Khaganate",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The trigger was a contested will. Taspar wanted the throne to go to Apa Qaghan, but the high council threw out his wishes — partly on the grounds that Apa's mother was not of Türk blood — and installed Ishbara instead. There were really four men with claims (a son, two nephews, and a cousin, Tardu, out west), and the losers simply set up their own courts in their own territories, so the 'split' was less a clean break than a map that nobody could agree on. The eastern khagan ruled from the sacred Ötüken forest in central Mongolia, the spiritual center of steppe power."
+        }
+      ],
+      "commonsFile": "Shoroon_Bumbagar_tomb_mural,_7th_century_CE,_Mongolia.jpg"
     },
     {
       "id": "evt-sui-rise",
       "label": "Sui Reunification of China",
       "year": 589,
-      "description": "In 589 the Sui Dynasty completed the reunification of China for the first time since the Han collapse in 220. The new Sui state was wealthier, more populous, and far more aggressive than the divided northern dynasties the Türks had been milking for tribute. Yang Jian (Emperor Wen) and his son Yang Guang (Emperor Yang) immediately turned the new Chinese power against the steppe, fueling Türk civil wars by playing rival khagans against each other.",
+      "description": "In 589 the Sui Dynasty finished stitching China back together for the first time since the Han collapse in 220, ending nearly four centuries of division. The reunified Sui was richer, more populous, and far more aggressive than the squabbling northern dynasties that had been paying the Türks protection money — and it promptly turned that new muscle against the steppe, bankrolling rival khagans to fight each other.",
       "wikiSlug": "Sui_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The conquest of the southern Chen Dynasty was fast and overwhelming: the Sui massed somewhere around 500,000 troops along the Yangtze, and the southern capital Jiankang (modern Nanjing) fell in roughly four months. The dynasty had been founded in 581 by Yang Jian (Emperor Wen), who had been the power-behind-the-throne regent for the Northern Zhou before taking the crown himself. For all its might the Sui burned out fast — it lasted under forty years before collapsing in 618, making it one of the shortest-lived major dynasties in Chinese history."
+        }
+      ],
+      "commonsFile": "Cheui_Dynasty_581_CE.png"
     },
     {
       "id": "evt-shibi-qaghan",
       "label": "Shibi Qaghan Surrounds the Sui Emperor",
       "year": 615,
-      "description": "In 615 the Eastern Türk khagan Shibi caught the Sui Emperor Yang Guang on a frontier inspection tour and besieged him at Yanmen Pass for over a month — a deliberate Türk replay of the Xiongnu humiliation of Han Gaozu at Baideng eight centuries earlier. The emperor escaped only when Sui reinforcements broke through, and the political damage hastened the Sui collapse in the civil wars that produced the Tang.",
+      "description": "In 615 the Eastern Türk khagan Shibi caught the Sui emperor Yang Guang touring the northern frontier and pinned him inside a small walled town at Yanmen Pass for over a month — a deliberate echo of the Xiongnu's famous humiliation of the Han founder eight centuries before. The emperor escaped, but the loss of face helped tip the dynasty into the rebellions that destroyed it.",
       "wikiSlug": "Shibi_Qaghan",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shibi turned hostile because a Sui official, Pei Ju, had lured the khagan's chief strategist to a meeting and murdered him — so the siege was partly revenge. What actually lifted it was a clever ruse, not a battle: the emperor smuggled an appeal to Princess Yicheng, a Sui royal woman married off to Shibi, who was running affairs back at the Türk capital. She sent her husband a false report that the Türks were under attack from the north, and Shibi broke off the siege to rush home. That same princess turns up again, fatally, fifteen years later."
+        }
+      ]
     },
     {
       "id": "evt-tang-founding",
       "label": "Tang Dynasty Founded with Türk Help",
       "year": 618,
-      "description": "Li Yuan, the Sui frontier governor who founded the Tang Dynasty in 618, started his rebellion by paying tribute to the Eastern Türk khagan Shibi and accepting nominal Türk overlordship in exchange for Türk cavalry support and a guarantee of non-interference. Without this Türk-tolerated start, the Tang founding rebellion would not have survived its first year — a debt the Tang spent the next decade trying to repay with a hammer.",
+      "description": "Li Yuan, the Sui frontier governor who launched the revolt that became the Tang Dynasty in 618, kicked things off by paying tribute to the Eastern Türk khagan Shibi and accepting nominal Türk overlordship — buying cavalry and a promise that the Türks wouldn't stab him in the back as he marched on the capital. It was a humiliating bargain the Tang would spend the next decade trying to erase.",
       "wikiSlug": "Emperor_Gaozu_of_Tang",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Türks were partly conned into the deal: a carefully worded letter let Shibi believe Li Yuan meant to make the new Chinese state a Türk vassal, and in exchange the Türks handed over 2,000 horses and 500 soldiers. Li Yuan was famously pushed into rebelling by his ambitious second son, Li Shimin — the same son who would later seize the throne by killing his brothers. Li Yuan ruled as Emperor Gaozu until 626, when that son forced him to abdicate."
+        }
+      ],
+      "commonsFile": "TangGaozu.jpg"
     },
     {
       "id": "evt-illig-qaghan",
       "label": "Illig Qaghan",
       "year": 620,
       "endYear": 630,
-      "description": "Illig Qaghan (also called Xieli in Chinese sources) was the last khagan of the Eastern Türks. His decade of conflict with the Tang (620-630) ended catastrophically: a brutal winter in 627 killed much of the Türk livestock, the Tieli tribes revolted, and Tang Taizong's general Li Jing led a lightning winter campaign across the frozen Gobi in 630 that captured the khagan in his own camp.",
+      "description": "Illig (called Xieli in Chinese sources) was the last khagan of the Eastern Türks, and his reign ended in slow-motion disaster. A brutal snowstorm around 627 killed off his herds, and when he tried to squeeze replacement horses out of his vassal tribes they revolted instead — leaving him fatally weakened just as a vengeful Tang emperor was looking for an opening.",
       "wikiSlug": "Illig_Qaghan",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Early on, Illig had the upper hand: in 626, only days after Tang Taizong took the throne, Türk armies rode right up to the Wei River across from the capital Chang'an, and the new emperor had to ride out and personally buy them off with tribute at what's remembered as the alliance at the Bian Bridge — a humiliation he never forgot. The tribes who broke Illig after the great winter were the Tiele, led by a Xueyantuo coalition. After his final defeat in 630 he was run down, captured, and shipped to Chang'an, where he lived out his days as a prisoner of the court."
+        }
+      ]
     },
     {
       "id": "evt-tang-conquest-630",
       "label": "Tang Conquest of the Eastern Türks",
       "year": 630,
-      "description": "In early 630 the Tang general Li Jing led a 100,000-strong winter campaign across the frozen Gobi and surprised the Eastern Türk khagan Illig in his Yinshan camp. The Türk army was routed, the khagan captured, and within weeks the Eastern Türk Khaganate had ceased to exist as an independent state. The conquered Türk tribes were resettled in the Ordos region as Tang military auxiliaries.",
+      "description": "In early 630 the Tang general Li Jing drove a winter campaign across the frozen north and stormed the Eastern Türk khagan Illig in his own camp. The Türk army was shattered, the khagan was run down and captured, and within weeks the Eastern Türk Khaganate simply stopped existing — its tribes resettled in the Ordos loop as Tang military auxiliaries.",
       "wikiSlug": "Tang_campaign_against_the_Eastern_Turks",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The killing blow came at the Battle of Yinshan on March 27, 630, near modern Hohhot in Inner Mongolia. Li Jing's vanguard — led by Su Dingfang, who would later go on to crush the Western Türks — fell on the khagan's camp while Illig was stalling with fake peace offers, his men carrying only about twenty days of supplies so they could move fast and light. Among the dead was Princess Yicheng, the Sui royal woman who had saved an emperor with a lie at Yanmen in 615; by 630 she had married into the Türk khagans, and the Tang put her to death after the victory."
+        }
+      ],
+      "commonsFile": "Tang_Tujue_War.png"
     },
     {
       "id": "evt-tang-taizong-tian-kehan",
       "label": "Tang Taizong as Heavenly Kaghan",
       "year": 630,
-      "description": "After the 630 victory, the surrendered Türk and other steppe leaders proclaimed Tang Taizong 'Tian Kehan' (Heavenly Kaghan) — the only Chinese emperor in history to formally hold a steppe imperial title. The combination of Tang Son of Heaven and Türk Heavenly Kaghan made him notionally the supreme ruler of both the settled and nomadic worlds, a fusion of authority no other Chinese ruler had attempted.",
+      "description": "After crushing the Türks in 630, the surrendered steppe leaders proclaimed Tang Taizong 'Tian Kehan' (Heavenly Khan) — the only Chinese emperor ever to formally carry a steppe imperial title. He now held two crowns at once: Son of Heaven over the settled Chinese world and Heavenly Khan over the nomads, notionally the supreme ruler of both halves of Eurasia.",
       "wikiSlug": "Emperor_Taizong_of_Tang",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title was a genuine hybrid — 'Tian' is the Chinese word for heaven, while 'Kehan' is just the Chinese spelling-out of the steppe word khagan, so the name itself fused the two traditions in three syllables. The histories first record him being hailed this way on May 20, 630, only weeks after Illig's capture. The arrangement was never turned into a permanent institution, but the cosmopolitan flavor it gave the Tang — a court comfortable with Turks, Sogdians, and steppe custom — became one of the dynasty's defining traits."
+        }
+      ],
+      "commonsFile": "TangTaizong.jpg"
     },
     {
       "id": "evt-anxi-protectorate",
       "label": "Anxi Protectorate",
       "year": 640,
-      "description": "After conquering the Tarim Basin oasis kingdoms in 640, the Tang established the Anxi Protectorate to govern the Silk Road. Initially based at Gaochang and later at Kucha, the Anxi Protectorate maintained Tang military garrisons in the Four Garrisons of Anxi (Kucha, Khotan, Kashgar, and Karashahr or Suyab) and projected Tang power deep into former Western Türk territory.",
+      "description": "The Anxi Protectorate (an-SHEE, \"Pacifying the West\") was the Tang command post that ran the Tarim Basin and the Silk Road, founded in 640 at Gaochang and built around a ring of garrison towns.",
       "wikiSlug": "Protectorate_General_to_Pacify_the_West",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The headquarters moved twice: it started at Gaochang (modern Turfan) in 640 and shifted to Kucha in 648 once the Tang took that oasis. The famous Four Garrisons were installed piecemeal between 648 and 658, not all at once. At its 659 high-water mark the protectorate collected nominal submissions from places as far west as Samarkand, Bukhara, Tashkent, and Kabul. The whole structure outlasted the dynasty's grip on the region for over a century before finally falling to Tibet around 790."
+        }
+      ],
+      "commonsFile": "Map_of_the_Tang_Empire_and_Central_Asia_Protectorates_circa_660_CE.png"
     },
     {
       "id": "evt-western-turk-collapse",
       "label": "Western Türk Collapse",
       "year": 657,
       "endYear": 659,
-      "description": "The Tang general Su Dingfang led a campaign in 657-659 that finally destroyed the Western Türk Khaganate. The last Western Türk khagan, Ashina Helu, was captured at the Battle of the Irtysh River in 657, ending more than a century of Ashina rule over Central Asia. The Tang created the Beiting Protectorate in Dzungaria to hold the conquered territory.",
+      "description": "The Western Türks outlasted their eastern cousins by a generation, but once the Tang were done in the east they turned west. General Su Dingfang's campaign of 657-659 broke the Western Khaganate and brought down its last khagan, Ashina Helu, ending more than a century of Ashina rule over Central Asia.",
       "wikiSlug": "Western_Turkic_Khaganate",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The decisive clash was the Battle of the Irtysh River near the Altai Mountains in 657, where Helu's 100,000 horsemen charged Su Dingfang's infantry three times and were repulsed each time before Tang cavalry sprang an ambush from behind a hill; Helu fled and was run down and captured the following day. The win let the Tang bolt the region into its administrative grid through the Anxi Protectorate, which governed the Silk Road oasis cities of the Tarim Basin (Kashgar, Khotan, Kucha, and others). At its height the Tang frontier now reached deep into Central Asia, the high-water mark of Chinese westward power."
+        }
+      ]
     },
     {
       "id": "evt-talas-precursor",
       "label": "Tang Reach Maximum in Central Asia",
       "year": 660,
-      "description": "By 660 the Tang Empire stretched from the East China Sea to the Aral Sea — the largest Chinese empire by territorial extent for the next thousand years. Tang garrisons held the Four Garrisons of Anxi and projected influence into the Pamirs. The Tang would not push much further west; the eventual Arab arrival in Transoxiana would set the boundary at the Battle of Talas in 751.",
+      "description": "By around 660 the Tang Empire reached its territorial maximum, stretching from the Pacific coast all the way to the edge of Central Asia — the largest the Chinese empire would be for roughly a thousand years.",
       "wikiSlug": "Tang_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "That western reach stopped for good ninety years later at the Battle of Talas (751), where a Tang army under the Korean-born general Gao Xianzhi was beaten by the Abbasid Caliphate and its Karluk allies near the Talas River. The defeat ended Chinese expansion west of the Pamirs permanently. By tradition, Chinese papermakers captured at Talas passed the craft to the Islamic world — a tidy story historians treat with some caution, but papermaking did spread westward from there. Four years later the An Lushan Rebellion gutted the Tang and forced it to abandon Central Asia altogether."
+        }
+      ],
+      "commonsFile": "Tang_Dynasty_-_Greatest_Extent.PNG"
     },
     {
       "id": "evt-ilterish-qaghan",
       "label": "Ilterish Qaghan",
       "year": 682,
       "endYear": 691,
-      "description": "Ilterish Qaghan (his birth name was Kutlugh, meaning 'fortunate') led the Türk revolt of 682 that re-established the khaganate after fifty years of Tang domination. Working with his brother Kapaghan and his chief minister Tonyukuk, Ilterish drove the Tang military out of the Orkhon heartland and rebuilt the Türk political system from scratch. He died in 691 and was buried with elaborate ceremony, his deeds recorded on a stone monument that became part of the Orkhon Inscriptions.",
+      "description": "The junior Ashina noble Kutlugh, a Tang frontier officer, broke away in 682, gathered a tiny band of Türk loyalists, and within three years had thrown the Tang out of the Mongolian steppe and rebuilt the khaganate. He took the throne name Ilterish (\"the Gatherer\") and ruled until his death in 691.",
       "wikiSlug": "Ilterish_Khagan",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kutlugh was a grandson of Illig Qaghan, the last ruler of the First Khaganate that the Tang had crushed back in 630, so his revolt was a family score-settling as much as a national one. The Tonyukuk Inscription gives the founding force as just seventeen men, swelling to seven hundred once Tonyukuk threw in with him, and only then into a real army. His personal name Qutlugh literally means \"blessed with good fortune,\" which is roughly the steppe equivalent of being named \"Lucky.\""
+        }
+      ],
+      "commonsFile": "Map_of_Second_Turkic_Khaganate.png"
     },
     {
       "id": "evt-682-revolt",
       "label": "Türk Revolt of 682",
       "year": 682,
-      "description": "In 682, taking advantage of Tang internal turmoil during the regency of Empress Wu Zetian, Ilterish led a Türk revolt that re-established an independent khaganate on the Orkhon. The revolt was small at first — Chinese sources say only seventeen men joined Ilterish at the start — but grew rapidly as disaffected Türk and Tieli tribes flocked to his banner. Within a decade he held the entire Mongolian steppe.",
+      "description": "In 682 a junior Ashina noble named Kutlugh broke away from Tang service and re-founded an independent Türk khaganate, taking the throne name Ilterish (\"the One Who Gathered the People\"). It was the spark that became the Second Türk Khaganate.",
       "wikiSlug": "Second_Turkic_Khaganate",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The legend that he started with just seventeen men is roughly how the Chinese sources tell it — that handful grew to around seven hundred, and he based himself at Black Sand City north of modern Hohhot. His secret weapon was the brilliant statesman Tonyukuk, a Türk raised and educated in China who became his chief strategist and whose own stone memorial still stands in Mongolia. After consolidating, Ilterish turned in 687 to conquer the old Türk heartland on the Orkhon, crushing the Toquz Oghuz and Uyghurs who held it. He died in 692, and his brother Qapaghan took over."
+        }
+      ],
+      "commonsFile": "Map_of_the_Second_Turkic_Khaganate.png"
     },
     {
       "id": "evt-tonyukuk",
       "label": "Tonyukuk",
       "year": 690,
       "endYear": 725,
-      "description": "Tonyukuk (TON-yoo-kook) was the elder statesman and master strategist of the Second Türk Khaganate, serving Ilterish, then Kapaghan, then Bilge — three successive khagans across forty years. His autobiographical inscription, erected during his lifetime, is the oldest first-person royal testimony from any steppe culture and one of the most distinctive texts from any premodern people. He explicitly rejected Buddhist conversion as a trap that would weaken the Türks' nomadic vigor.",
+      "description": "Tonyukuk (TON-yoo-kook) was the elder statesman who served as chief minister to a string of Second Khaganate rulers across roughly forty years. Tang-raised and fluent in Chinese, he brought the new state working knowledge of how settled empires governed, and his own inscription is the oldest first-person testimony from any steppe culture.",
       "wikiSlug": "Tonyukuk",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By his own inscription he had escaped Tang captivity in 681 to join Ilterish's revolt the next year, and his stele names him as counselor to four khagans (Ilterish, Kapaghan, the short-lived Inel, and Bilge), not three. He raised the monument himself around 716, while still alive, in the Tuul (Tula) River basin near present-day Ulaanbaatar. A Chinese record claims he lived to 120 years old, which is almost certainly an admiring exaggeration but tells you how legendary his longevity already seemed."
+        }
+      ]
     },
     {
       "id": "evt-kapaghan-qaghan",
       "label": "Kapaghan Qaghan",
       "year": 691,
       "endYear": 716,
-      "description": "Kapaghan Qaghan (also called Mochuo in Chinese), Ilterish's brother, ruled the Second Türk Khaganate from 691 to 716. His reign marked the empire's military peak: he defeated the Khitan, raided deep into Tang territory, and forced the Tang court at one point to plead for peace. He was killed in 716 in a battle with the Bayirku tribes after a long, exhausting series of wars.",
+      "description": "Kapaghan Qaghan (called Mochuo in Chinese), Ilterish's brother, ruled from 691 to 716 and pushed the khaganate to its military peak — beating the Khitan and Kyrgyz, raiding deep into China, and at one point forcing the Tang court to sue for peace. His harsh, suspicious final years bred revolt, and he was killed in an ambush in 716.",
       "wikiSlug": "Qapaghan_Qaghan",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was ambushed and beheaded on 22 July 716 by a man of the Bayegu (Bayirku) tribe while riding through a forest after a campaign against the Toquz Oghuz tribal alliance. His severed head was carried south and displayed at the Tang capital Chang'an as a trophy. The humiliating treaty he had earlier wrung from the Tang came while Wu Zetian sat on the throne under her own Zhou dynasty, the only time a woman ruled China in her own name."
+        }
+      ]
     },
     {
       "id": "evt-bilge-kagan",
       "label": "Bilge Kagan",
       "year": 716,
       "endYear": 734,
-      "description": "Bilge Kagan (BIL-geh KAH-gahn, meaning 'Wise Khagan') was the third great ruler of the Second Türk Khaganate, son of Ilterish and brother of the warrior Kul Tigin. His eighteen-year reign (716-734) brought relative peace, and his speeches to his people — preserved in the Orkhon Inscriptions — are the oldest surviving first-person royal voice from the steppe. He was poisoned by his own minister in 734.",
+      "description": "Bilge Kagan (BIL-geh, \"the Wise\") ruled the Second Khaganate from 716 to 734, the son of its founder Ilterish and brother of the warrior Kul Tigin. His reign was unusually peaceful and prosperous, and the speeches he had carved into the Orkhon stones are the oldest surviving first-person voice of any steppe ruler.",
       "wikiSlug": "Bilge_Qaghan",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He died on 25 November 734, poisoned over several days by his own minister Buyruq Chor, but lingered long enough to have the killer and his entire clan put to death first; his funeral was held the following June. Despite the narrative's friendly trade ties, Bilge never actually landed the Tang princess he chased — Emperor Xuanzong strung the negotiations along with delays and excuses and the marriage was still unsettled when Bilge was poisoned. His own funerary stele, raised in 735, is the longest and most complete Türk account of the whole khaganate."
+        }
+      ],
+      "commonsFile": "Turkic_8th_Century_Marble_Statue_of_Bilge_Khan_(35580731981).jpg"
     },
     {
       "id": "evt-kul-tigin",
       "label": "Kul Tigin",
       "year": 716,
       "endYear": 731,
-      "description": "Kul Tigin was Bilge Kagan's younger brother and the warrior commander of the Second Türk Khaganate. He led the night raid in 716 that secured Bilge's throne after Kapaghan's death. The famous Kul Tigin inscription, erected by Bilge in 732 a year after his brother's death, is one of the three Orkhon Inscriptions and contains the most famous Türk passage: a warning to the Türk nobility not to let themselves be seduced by Chinese silk and titles.",
+      "description": "Kul Tigin was Bilge Kagan's younger brother and the war leader of the Second Khaganate. After Kapaghan's death in 716 he led a night raid that wiped out the rival claimant and put his own brother on the throne. He died in 731, and the great inscription Bilge raised over his grave is one of the three Orkhon monuments.",
       "wikiSlug": "Kul_Tigin",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was born in 684 and died suddenly on 27 February 731, with his elaborate burial held that 1 November. As a young commander he fought at the brutal Battle of Bolchu in 711, where Tonyukuk and Kul Tigin smashed a rebel coalition reckoned at around a hundred thousand men. The memorial stele Bilge built for him in 732 carries text in both Old Turkic and Chinese, and the Tang emperor Xuanzong actually sent his own artisans north to carve and decorate the tomb."
+        }
+      ],
+      "commonsFile": "Turkic_Head_of_Koltegin_Statue_(35324303410).jpg"
     },
     {
       "id": "evt-orkhon-inscriptions",
       "label": "The Orkhon Inscriptions",
       "year": 732,
       "endYear": 735,
-      "description": "The three Orkhon Inscriptions — the Tonyukuk inscription (~720), the Kul Tigin inscription (732), and the Bilge Kagan inscription (735) — are the oldest surviving texts in any Turkic language. Carved in the Old Turkic runiform script (sometimes called Orkhon runes for their visual similarity to Germanic runes), they preserve the first-person voices of the Second Khaganate's rulers and remain one of the most distinctive bodies of premodern royal autobiography.",
+      "description": "The three Orkhon Inscriptions — Tonyukuk's (raised ~716), Kul Tigin's (732), and Bilge Kagan's (735) — are the oldest surviving texts in any Turkic language. Carved in the Old Turkic runiform script in central Mongolia's Orkhon Valley, they preserve the rulers' own voices and read like steppe political philosophy in stone.",
       "wikiSlug": "Orkhon_inscriptions",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stones lay unread for over a thousand years until a Russian expedition under Nikolai Yadrintsev rediscovered them in 1889, and the Danish philologist Vilhelm Thomsen cracked the script on 15 December 1893, reportedly identifying the words for \"Türk\" and \"Tengri\" first. The Kul Tigin and Bilge monuments stand only about a kilometer apart at the site now called Khöshöö-Tsaidam. Each was far more than a single slab: the steles sat inside walled funerary complexes with statues, offering altars, and rows of stone figures."
+        }
+      ],
+      "commonsFile": "Kultigin_Monument_of_Orkhon_Inscriptions.jpeg"
     },
     {
       "id": "evt-old-turkic-script",
       "label": "Old Turkic Script",
       "year": 720,
-      "description": "The Old Turkic script — also called the Orkhon script — was the alphabet used to write the Orkhon Inscriptions. It probably descended from a cursive form of the Sogdian alphabet, modified to fit Turkic phonology. The script's visual resemblance to Germanic runes is coincidental, the result of similar techniques (carving with sharp tools on stone) producing similar angular letterforms.",
+      "description": "The Old Turkic script (also called the Orkhon script) is the angular alphabet used to carve the inscriptions — the first writing system custom-built for a Turkic language. It almost certainly descends from a non-cursive form of the Sogdian alphabet, reshaped to fit Turkic sounds; its runelike look is pure coincidence.",
       "wikiSlug": "Old_Turkic_script",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It runs to roughly 38 characters and was normally written from right to left, with some inscriptions stacked vertically instead. Many of its vowels go unwritten, left to be inferred through vowel harmony (a feature of Turkic where the vowels in a word all belong to the same front-or-back group). When Vilhelm Thomsen first published it he simply called the letters \"Turkish runes,\" a nickname that stuck even though the script has no real link to the runes of Germanic Europe."
+        }
+      ],
+      "commonsFile": "5manat09b.jpg"
     },
     {
       "id": "evt-bilge-warning",
       "label": "Bilge's Warning Against Sinicization",
       "year": 732,
-      "description": "The most famous passage of the Orkhon Inscriptions is Bilge Kagan's warning to his people not to be seduced by Chinese silk, titles, and walled cities. 'O Türk people,' Bilge said, 'when you went toward the south, you almost destroyed yourselves... when you stayed in the Otuken forest and sent caravans, you had no troubles.' It is a deliberate, articulate steppe critique of the costs of integration with Chinese civilization — written by a man whose own father had only just thrown off Tang domination.",
+      "description": "The most quoted passage of the Orkhon Inscriptions is Bilge Kagan's blunt warning to his people not to be seduced by Chinese silk, gold, titles, and walled cities — to stay in the Otüken heartland and take what they needed through trade, never letting the court drift south. It is the earliest articulate steppe critique of being absorbed by a settled neighbor.",
       "wikiSlug": "Orkhon_inscriptions",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Otüken, the homeland Bilge tells his people never to leave, refers to the sacred forested highlands of the Khangai-Orkhon region in central Mongolia, long regarded as the spiritual seat of steppe sovereignty. The argument was not entirely original — Tonyukuk's older inscription had already made the same case against settling down. What makes Bilge's version land harder is that he frames China's gifts as a deliberate trap: corrupt one leader with \"sweet words,\" he says, and through that one man you corrupt his whole people."
+        }
+      ],
+      "commonsFile": "Bilge_Khagan_monument_Mongolia.JPG"
     },
     {
       "id": "evt-734-poisoning",
       "label": "Poisoning of Bilge Kagan",
       "year": 734,
-      "description": "In 734 Bilge Kagan was poisoned by his own minister Buyruq Chor, dying slowly enough to have his murderer and the murderer's clan exterminated before he expired. His death deprived the Second Khaganate of its most stable leader, and within a decade the Türk state would collapse under combined Tang, Uyghur, and Karluk pressure.",
+      "description": "In 734 Bilge Kagan was poisoned by his own minister Buyruq Chor, dying slowly enough to have the murderer and his entire clan exterminated before he himself died. His death stripped the khaganate of its one stabilizing figure, and within a decade the Türk state had collapsed.",
       "wikiSlug": "Bilge_Qaghan",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He died on 25 November 734 and was buried the next summer, on 22 June 735, the same year his great memorial stele went up. The poisoning came right after he had sent yet another embassy to the Tang emperor Xuanzong angling for a marriage alliance, fueling old speculation that Chinese intrigue may have had a hand in it. The weak khagans who scrambled for his throne could not hold the confederation together, and by 742 the subject Uyghurs, Karluks, and Basmyls were in open revolt."
+        }
+      ],
+      "commonsFile": "Turkic_Gold_Diadem,_6th-8th_C._AD.jpg"
     },
     {
       "id": "evt-uyghur-revolt",
       "label": "Uyghur-Karluk-Basmyl Coalition",
       "year": 742,
-      "description": "In 742, after a decade of Türk succession crises, a coalition of three subject peoples — the Uyghurs, the Karluks, and the Basmyls — revolted against the Ashina dynasty. They killed the reigning khagan Ozmish, then his successor Bomei Qaghan in 744, and the Uyghur leader Kutluk Bilge took the imperial title. The Türk state ceased to exist and the Ashina line dropped out of history.",
+      "description": "In 742 three subject peoples — the Uyghurs, Karluks, and Basmyls — joined forces and rose against their Ashina (the Türk royal clan) overlords, killing one khagan and then his successor by 744. The Uyghur chief Kutluk Bilge claimed the imperial title, and the Türk state was finished.",
       "wikiSlug": "Uyghur_Khaganate",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The coalition was a temporary marriage of convenience that fell apart almost immediately: once the Ashina were gone, the three allies turned on each other. The Basmyls had briefly installed their own leader as khagan, but the Uyghurs and Karluks then crushed the Basmyls and split the spoils, with the Uyghurs taking the Mongolian heartland and the Karluks heading west. So the rebellion that ended one empire instantly triggered a three-way scramble to inherit it."
+        }
+      ]
     },
     {
       "id": "evt-uyghur-khaganate",
       "label": "Uyghur Khaganate",
       "year": 744,
       "endYear": 840,
-      "description": "The Uyghur Khaganate, founded in 744 on the ruins of the Türk state, ruled the Mongolian steppe for almost a century. The Uyghurs converted to Manichaeism (a syncretic Persian religion) in 762 — the only steppe empire to adopt Manichaeism — and built the urbanized capital of Karabalghasun on the Orkhon, breaking with the Türk tradition of pure nomadism. They were destroyed in turn by the Kyrgyz in 840.",
+      "description": "Founded in 744 on the wreckage of the Türk state, the Uyghur Khaganate ran the Mongolian steppe for nearly a century. Unlike the nomadic Türks, the Uyghurs adopted the Persian religion Manichaeism and built a real walled capital — until a Kyrgyz invasion wiped them out in 840.",
       "wikiSlug": "Uyghur_Khaganate",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Their khagan Bögü is reckoned the first ruler anywhere to make Manichaeism (a dualist faith of light-versus-dark founded by the third-century prophet Mani) a state religion, and the religion's headquarters in Mesopotamia thought enough of him to send senior clergy out to Mongolia. The capital, Ordu-Baliq (also called Karabalghasun), sprawled over an estimated 15 square miles (40 sq km) with an 80-foot-wide main avenue and a roughly 40-foot (13 m) stupa-like mound — astonishing for a people the Chinese still pictured as tent-dwellers. The end came fast: the savage winter of 839–840 killed off the herds, and a famine-weakened Uyghur state was overrun by about 80,000 Kyrgyz horsemen who razed the city."
+        }
+      ],
+      "commonsFile": "Conversion_of_Bögü_Qaghan_(759-780_CE)_to_Manicheism_in_762_(detailed_of_Bögü_Qaghan_in_a_suit_of_armour,_kneeling_to_a_Manichean_high_priest).jpg"
     },
     {
       "id": "evt-karluk-westward",
       "label": "Karluk Migration West",
       "year": 745,
-      "description": "After the Türk collapse, the Karluks — one of the rebellious tribes — migrated southwest into the Ili River valley and eventually into Transoxiana, where they would later form the Karakhanid Khanate (the first Turkic-speaking Muslim state, 840-1212). The Karluks would also play the decisive role at the Battle of Talas in 751, when they defected from the Tang army to the Arab side and ensured the Tang defeat.",
+      "description": "After the collapse the Karluks, one of the rebel tribes, drifted southwest into the Ili River valley and on toward Transoxiana (the land beyond the Oxus River, roughly modern Uzbekistan). There they would eventually build the Karakhanid state — and along the way they tipped the Battle of Talas by switching sides mid-fight.",
       "wikiSlug": "Karluks",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Karluks' real claim to fame came in the tenth century: their Karakhanid dynasty was the first Turkic ruling house to adopt Islam, under a khan remembered as Satuq Bughra Khan, and it became the first Turkic-Muslim state to make a written literary language of its own. One of its court figures, Mahmud al-Kashgari, compiled the first great dictionary of the Turkic tongues (the 'Dīwān Lughāt al-Turk', around 1077) — meaning these former herders produced the earliest serious scholarship about the Turkic languages themselves."
+        }
+      ]
     },
     {
       "id": "evt-talas-battle",
       "label": "Battle of Talas",
       "year": 751,
-      "description": "In 751, an Abbasid Arab army defeated a Tang Chinese army at the Talas River in modern Kyrgyzstan, ending Tang westward expansion and beginning the Islamicization of Central Asia. The Karluks (former Türk subjects) defected from the Tang to the Arab side mid-battle, sealing the Chinese defeat. Talas marked the moment when the Türk-speaking peoples of Central Asia began their long conversion to Islam — a process that would produce the Seljuks and Ottomans.",
+      "description": "In July 751 an Abbasid Arab army beat a Tang Chinese army by the Talas River in what is now Kyrgyzstan, halting China's push west and steering Central Asia toward Islam. The Karluk auxiliaries flipped from the Chinese to the Arab side partway through the fight, and the Tang army fell apart.",
       "wikiSlug": "Battle_of_Talas",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famous story that Chinese prisoners taken here taught papermaking to the Islamic world — supposedly spreading it from Samarkand to Baghdad — is almost certainly a later legend; archaeologists have found paper in Samarkand from before 751, so the technology was already there. The defeated Tang general, Gao Xianzhi, was Korean-born and had earlier pulled off a daring high-altitude crossing of the Pamir mountains, but Talas ended his run; he was executed a few years later during the chaos of the An Lushan Rebellion. Tang military power never returned to the region."
+        }
+      ],
+      "commonsFile": "Battle_of_Talas.png"
     },
     {
       "id": "evt-arab-conquest-transoxiana",
@@ -562,21 +869,34 @@
       "id": "evt-kumis-drinking",
       "label": "Kumis and Steppe Drinking Culture",
       "year": 600,
-      "description": "Kumis (KOO-mis) — fermented mare's milk, mildly alcoholic — was the staple beverage of the Türk khaganate, as it had been for the Xiongnu and would be for the Mongols. Türk drinking culture was elaborate: royal feasts could last days, drinking horns made of gold or silver-mounted horn were prestige objects, and getting drunk in the khagan's company was a marker of political favor. Zemarchus's embassy described being made to drink prodigious quantities of kumis at Istemi's court.",
+      "description": "Kumis (KOO-mis) — fermented mare's milk, tart and mildly boozy — was the steppe's signature drink, and Türk feasts that swam in it were a working part of court politics, with Zemarchus's embassy plied with the stuff at Istemi's court.",
       "wikiSlug": "Kumis",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The kick is real but gentle: mare's milk carries more sugar than cow's or goat's, so ordinary kumis ferments to around 3 percent alcohol — less than most beer. The drink is ancient — Herodotus described Scythians churning mare's milk in wooden buckets back in the fifth century BCE, and Han-era Chinese borrowed both the product and a word for it from the Xiongnu. The Turkic name itself (qımız) first shows up in writing in Mahmud al-Kashgari's eleventh-century dictionary of Turkic languages, and Kazakhs, Kyrgyz, and Mongols still drink it today."
+        }
+      ],
+      "commonsFile": "Kumys-bottle.jpg"
     },
     {
       "id": "evt-stirrup-cavalry",
       "label": "Türk Iron Stirrup Cavalry",
       "year": 552,
-      "description": "The Türks were the first steppe people to use the iron stirrup systematically, giving their cavalry a stable platform from which to shoot composite bows or wield long lances at close range. The stirrup had probably been invented by the earlier Xianbei or Rouran, but the Türks made it standard equipment. The technology spread rapidly westward via Türk contact with Byzantium and would transform medieval European warfare three centuries later.",
+      "description": "The Türks made the iron stirrup standard kit for their riders, giving each warrior a stable footing to fire a bow or drive a lance from the saddle. They didn't invent it, but they were the people who turned it into a battlefield system — and then exported it west.",
       "wikiSlug": "Stirrup",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The oldest paired riding stirrups archaeologists have found come from Xianbei tombs in northeastern China, with images of them dating to around 322 CE, more than two centuries before the Türks rose. The technology reached Europe through the Avars: the earliest stirrups in European ground come from sixth-century Avar graves in present-day Hungary. Once Frankish and other Western knights adopted it, the stirrup let a rider couch a lance firmly under his arm and put the full charging weight of horse and man behind the point — the move that made the armored medieval knight possible and ruled European battlefields for centuries."
+        }
+      ]
     },
     {
       "id": "evt-composite-bow",
@@ -602,61 +922,102 @@
       "id": "evt-tang-an-lushan",
       "label": "An Lushan Rebellion and Türk Diaspora",
       "year": 755,
-      "description": "The catastrophic An Lushan Rebellion of 755-763, which nearly destroyed the Tang Dynasty, was led by a half-Sogdian, half-Türk general — An Lushan himself, born of a Sogdian father and a Türk mother near the old Western Türk frontier. His revolt and its aftermath broke the Tang protectorate system, withdrew Chinese power from Central Asia, and left the Türk-speaking peoples free to develop in new directions under Uyghur, Karakhanid, and eventually Seljuk leadership.",
+      "description": "The An Lushan Rebellion of 755–763 nearly toppled the Tang Dynasty and was led by a general of mixed Sogdian-Türk parentage from the old western frontier. Its aftermath shattered Tang control of the frontier, pulled Chinese power out of Central Asia, and left the Turkic peoples free to chart their own course.",
       "wikiSlug": "An_Lushan_Rebellion",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It ranks among the deadliest events in all of history: Tang census rolls fell from roughly 53 million people before the war to about 17 million after, a drop sometimes cited as tens of millions of deaths — though historians caution the censuses also collapsed because the state lost the ability to count, not only because people died. An Lushan himself was enormously fat, reportedly a court favorite who could still perform a whirling 'barbarian' dance, and he didn't even outlast his own rebellion: he was murdered in 757 by his own son, who seized control of the revolt that still bears the father's name."
+        }
+      ],
+      "commonsFile": "An_Lushan_Rebellion.png"
     },
     {
       "id": "evt-seljuk-future",
       "label": "Seljuk Migration",
       "year": 1037,
-      "description": "Three hundred years after the Türk collapse, the Seljuks — a Türk-speaking clan converted to Sunni Islam — migrated out of the Aral Sea region into Iran, defeated the Ghaznavids in 1040, and conquered Baghdad in 1055. Their cousins the Sultanate of Rum then took most of Anatolia from the Byzantines after the Battle of Manzikert in 1071. Every later Turkic state in the Middle East — Khwarezmian, Ayyubid, Mamluk Egypt, Ottoman — descended from this migration.",
+      "description": "Three centuries after the Türk collapse, the Seljuks — Turkic nomads who had taken up Sunni Islam — poured out of the Aral Sea region into Iran, smashed the Ghaznavid dynasty in 1040, and seized Baghdad in 1055. Their kin in the Sultanate of Rum then tore most of Anatolia away from Byzantium after the Battle of Manzikert in 1071.",
       "wikiSlug": "Seljuk_Empire",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "They took their name from an ancestor, Seljuk ibn Duqaq, an Oghuz war-chief whose own father bore the nickname 'Iron Bow' for his skill as an archer. At Manzikert the Seljuk sultan Alp Arslan did something rare: he captured the Byzantine emperor Romanos IV alive, then released him on terms — only for Romanos to return home, be deposed, and have his own court blind him, dying of the wounds. When Tughril Beg entered Baghdad the caliph crowned him 'Sultan,' a title that effectively reduced the once-supreme Abbasid caliph to a religious figurehead while the Turkic sultan held the real power."
+        }
+      ],
+      "commonsFile": "Map_of_the_Seljuk_Empire_(1092).png"
     },
     {
       "id": "evt-ottoman-future",
       "label": "Ottoman Founding",
       "year": 1299,
-      "description": "The Ottoman dynasty, founded around 1299 in northwestern Anatolia by Osman I, was descended from the Kayi tribe of the Oghuz Türks — direct descendants of the Western Türk subjects who had migrated west after the 744 collapse. The Ottomans went on to take Constantinople in 1453, conquer the Mamluks in 1517, besiege Vienna in 1529 and 1683, and rule a multi-continental empire until 1922. Their continuous self-identification as Türks runs back through the Seljuks to the Ashina founding.",
+      "description": "Around 1299 a minor frontier chief named Osman declared independence in northwestern Anatolia, founding the dynasty that bears his name. The Ottomans would go on to take Constantinople in 1453, conquer Egypt in 1517, twice besiege Vienna, and rule across three continents until 1922 — the longest-lived of all the post-Türk empires.",
       "wikiSlug": "Ottoman_Empire",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ottoman tradition traced the family to the Kayı clan of the Oghuz Turks, but many modern historians suspect that pedigree was invented later to dress up a humble warband with prestigious ancestry. Founding legend has the young Osman dreaming that a tree grew from his chest to shade the whole world, a vision his spiritual mentor Sheikh Edebali read as a prophecy of empire — though that tale was first written down roughly a century after Osman died. His tiny base was the town of Söğüt; from that speck the dynasty grew into a 600-year world power."
+        }
+      ]
     },
     {
       "id": "evt-modern-turks",
       "label": "Modern Turkic Languages",
       "year": 2000,
-      "description": "The modern Turkic language family — over 200 million speakers across Turkey, Azerbaijan, Kazakhstan, Uzbekistan, Kyrgyzstan, Turkmenistan, the Uyghur regions of Xinjiang, the Tatar areas of Russia, and many smaller communities — descends directly from the language preserved in the Orkhon Inscriptions. The word 'Turk' as a self-identification term was the Ashina contribution: before 552, no people called themselves Turk; after 552, eventually every Turkic-speaker did.",
+      "description": "Today's Turkic language family — over 200 million speakers from Turkey across Central Asia to Xinjiang and the Volga — descends from the speech first written down in the Orkhon Inscriptions. The very word 'Türk' as a people's name was the Ashina dynasty's invention: nobody used it before 552, and after 552 almost every Turkic-speaker eventually did.",
       "wikiSlug": "Turkic_languages",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The family runs to more than 40 distinct languages, and Turkish alone, with around 85 million speakers, accounts for nearly four in ten of all Turkic-speakers. They sort into neat branches whose names echo this very chapter — an Oghuz branch (Turkish, Azerbaijani, Turkmen) tracing to the Seljuk-Ottoman line, a Karluk branch (Uzbek, Uyghur) to the people who flipped at Talas, and a Kipchak branch (Kazakh, Tatar, Kyrgyz) to the western steppe nomads. The languages stayed close enough that a Turkish and an Azerbaijani speaker can still roughly follow each other, more than a thousand years after the dispersal began."
+        }
+      ],
+      "commonsFile": "Turkic_Languages_distribution_map.png"
     },
     {
       "id": "evt-khazar-future",
       "label": "Khazar Khaganate",
       "year": 650,
-      "description": "The Khazars, a Türk-speaking people who broke away from the Western Türks in the seventh century, built a powerful khaganate on the Volga steppe (~650-969) that controlled the northern Silk Road and the Volga trade route to the Vikings. The Khazar royal court famously converted to Judaism around 740, the only Jewish-ruling state outside ancient Israel. They blocked Arab northward expansion through the Caucasus for two centuries until the Rus prince Sviatoslav destroyed them in 969.",
+      "description": "The Khazars, Turkic-speakers who split from the Western Türks in the 600s, built a trading empire on the Volga and the Caucasus that controlled the routes between the Byzantine, Muslim, and Viking worlds. Their royal court converted to Judaism around 740 — the only Jewish-ruled state outside ancient Israel — and they held off Arab expansion for two centuries until the Rus destroyed them in 969.",
       "wikiSlug": "Khazars",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Much of what we think we know about the conversion comes from the 'Khazar Correspondence,' a set of tenth-century Hebrew letters supposedly exchanged between a Khazar king named Joseph and a Jewish minister of the Caliph of Córdoba in Spain — documents most scholars accept as genuine but which remain debated. Their capital, Atil, sat on the lower Volga near present-day Astrakhan in Russia, though its exact site has never been pinned down. The Khazars' reputation as a tolerant trade hub was real enough that legend has them weighing Judaism, Christianity, and Islam side by side before choosing the faith that bound them to neither of their giant neighbors."
+        }
+      ],
+      "commonsFile": "Chasaren.jpg"
     },
     {
       "id": "evt-bulgar-pechenegs",
       "label": "Bulgars and Pechenegs",
       "year": 680,
-      "description": "Two more Türk-speaking peoples emerged from the post-744 diaspora and shaped European history: the Bulgars, who crossed the Danube under Asparuh in 680 and founded the First Bulgarian Empire (a Türk-ruled Slavic-speaking kingdom that would slowly Slavicize and Christianize); and the Pechenegs, who dominated the Pontic steppe from the ninth to the eleventh centuries, repeatedly defeating Byzantine and Rus armies before being absorbed by the Cumans in the 1100s.",
+      "description": "Two more Turkic peoples reshaped Europe. The Bulgars crossed the Danube under Asparuh in 680 and founded the First Bulgarian Empire, ruling a Slavic majority that gradually absorbed them. The Pechenegs later dominated the grasslands north of the Black Sea, beating Byzantine and Rus armies before the Cumans swallowed them in the 1100s.",
       "wikiSlug": "Pechenegs",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Asparuh's victory at the Battle of Ongal in the Danube delta forced the Byzantine emperor Constantine IV to sign a treaty in 681 actually paying tribute to the new Bulgar state — the first time the empire formally recognized a barbarian kingdom on what it considered its own soil. The Pechenegs left an even grislier mark: in 972 their khan Kurya ambushed and killed the Rus prince Sviatoslav at the Dnieper rapids and, according to the Rus chronicle, had the prince's skull lined with gold and turned into a drinking cup — a trophy in the old steppe tradition."
+        }
+      ],
+      "commonsFile": "The_Pechenegs_defeating_the_Rus,_from_the_Skyllitzes_Matritensis,_fol._173r,_(Public_Domain)_via_Creative_Commons.jpg"
     },
     {
       "id": "evt-tian-shan",
@@ -692,21 +1053,34 @@
       "id": "evt-kucha-kashgar",
       "label": "Kucha and Kashgar",
       "year": 640,
-      "description": "Kucha (KOO-cha) and Kashgar (KASH-gar) were the two most important Tarim Basin oasis kingdoms during the Türk era. Kucha was a major Buddhist center whose monk Kumarajiva had translated Buddhist sutras into Chinese in the late fourth century. Kashgar guarded the western end of the Tarim, where the Pamirs began. Both became Tang garrison cities after the Anxi Protectorate's establishment in 640.",
+      "description": "Kucha and Kashgar were the two anchor oases of the Tarim Basin — Kucha a wealthy Buddhist city on the northern rim, Kashgar the western gateway where the caravan roads climbed into the Pamirs. Both became Tang garrison towns under the Anxi Protectorate.",
       "wikiSlug": "Kucha",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kucha's most famous son was the translator Kumarajiva (344-413), born to a Kuchean princess and an Indian monk; he was hauled off to China and produced the Chinese Buddhist translations that are still read today. Just outside Kucha sit the Kizil Caves, the oldest major Buddhist cave-temple complex in China — 236 cave shrines cut into a cliff, with murals painted between roughly the 3rd and 8th centuries that blend Indian, Persian, and even Roman artistic touches. Kashgar's ancient name was Shule, and it had been a Chinese outpost on and off since the Han general Ban Chao garrisoned it six centuries earlier."
+        }
+      ],
+      "commonsFile": "Subashi_Buddhist_Temple_Ruins_-_East.jpg"
     },
     {
       "id": "evt-buddhism-rejection",
       "label": "Türk Rejection of Buddhism",
       "year": 580,
-      "description": "Unlike most settled empires they touched, the Türks largely rejected the Buddhist conversion route. Tonyukuk's autobiographical inscription explicitly explains why: Buddhism, he argued, made men gentle and weak, ill-suited to the warrior life of the steppe. The Türks remained committed to Tengri sky worship and shamanic practices, leaving Buddhism to the Sogdians and the conquered Tarim oases. The later Uyghurs would break with this and convert to Manichaeism instead.",
+      "description": "Unlike most of the settled empires they brushed up against, the Türks largely refused to adopt Buddhism, sticking instead with Tengri sky worship and shamanic practice. Tonyukuk argued the choice was strategic: a religion that made men gentle would dull the warrior edge that kept the steppe ahead of its neighbors.",
       "wikiSlug": "Tonyukuk",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chinese sources record that the moment of decision was real: Bilge Kagan himself wanted to convert, build Buddhist temples, and put up walled cities, and it was Tonyukuk who talked him out of all three. He reportedly warned that Buddhism and Taoism breed \"kindness and weakness\" unfit for a people built on raiding and conquest, and that fixed temples would tie the Türks down and erase their customs. His prescription was that they should keep \"following the water and the grass\" — the nomad's seasonal migration between pastures."
+        }
+      ]
     },
     {
       "id": "evt-shaman-kam",
@@ -722,11 +1096,18 @@
       "id": "evt-otuken-mountain",
       "label": "Otuken Mountain (Sacred Land)",
       "year": 552,
-      "description": "Otuken (OH-too-ken), the sacred mountain (probably in the Khangai range of central Mongolia), was the spiritual center of the Türk khaganate and the political legitimating site for all later steppe rulers. The Orkhon Inscriptions repeatedly invoke Otuken as the place where the khaganate must reside if the Türks are to remain strong. The Uyghurs, the Mongols, and even the Manchus would all stake claims to Otuken centuries later.",
+      "description": "The sacred upland of Türk belief — never pinned to an exact peak, somewhere in the Khangai highlands around the Orkhon — held to be the one place from which a khagan could legitimately rule all the Turkic tribes.",
       "wikiSlug": "%C3%96t%C3%BCken",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Türks believed a divine force called 'qut' (roughly, heavenly fortune or charisma) radiated from Ötüken and granted whoever held it the right to command. Scholars think the sacred zone stretched from the Khangai Range down toward the Sayan Mountains of Tuva, with the Orkhon Valley at its center, today straddling Mongolia's Arkhangai and Övörkhangai provinces. The eighth-century stone inscriptions put the doctrine bluntly: stay in the Ötüken land and send your caravans out from there, and you will rule the tribes forever — wander off, and you are finished."
+        }
+      ],
+      "commonsFile": "TerkhiinTsagaanNuurPan.jpg"
     },
     {
       "id": "evt-yenisei-kyrgyz",
@@ -752,31 +1133,51 @@
       "id": "evt-tibet-rivalry",
       "label": "Tibetan Empire as Türk Rival",
       "year": 670,
-      "description": "While the Eastern Türks were under Tang domination, a new power emerged south of the Tarim: the Tibetan Empire under the early Yarlung kings. Tibet expanded aggressively into the Tarim Basin from the 660s onward, fighting both the Tang and the surviving Western Türk fragments for control of the Silk Road oases. The Tibetan-Tang-Türk three-way contest for the Tarim continued through the eighth century, ending only with the An Lushan Rebellion's withdrawal of Tang forces.",
+      "description": "As the eastern Türks sat under Tang rule, a brand-new heavyweight rose on the plateau to the south: the Tibetan Empire, which began clawing the Silk Road oases away from the Tang in the 660s and 670s.",
       "wikiSlug": "Tibetan_Empire",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The turning point was the Battle of Dafei River in 670, where a Tang army was routed — the worst Chinese defeat in the region in decades. Tibet promptly seized all Four Garrisons of Anxi and held them until the Tang fought their way back in 692. This was no longer the small mountain kingdom of Songtsen Gampo (who had died around 650); under his successors Tibet became a plateau-spanning empire that would briefly sack the Tang capital itself in 763. The three-cornered fight over the Tarim — Tang, Tibet, and Türk fragments — dragged on for well over a century."
+        }
+      ],
+      "commonsFile": "Tibetan_empire_greatest_extent_780s-790s_CE.png"
     },
     {
       "id": "evt-byzantine-avars",
       "label": "Avars in Europe",
       "year": 558,
-      "description": "The Avars, who appeared on the Hungarian plain in the 560s and terrorized the Byzantine Empire for two centuries, may have been the western remnants of the Rouran fleeing the Ashina revolt of 552 — though scholars are divided. If the identification holds, the Türk founding had a direct downstream consequence in central Europe within a single decade: the Rouran refugees built a steppe empire on the Hungarian plain that lasted until Charlemagne destroyed it in 796.",
+      "description": "The Avars, who built a steppe empire on the Hungarian plain in the 560s and menaced Byzantium for two centuries, may have been the western remnants of the Rouran fleeing the Türk revolt — though scholars still argue the point.",
       "wikiSlug": "Pannonian_Avars",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Recent DNA studies of Avar-era graves in the Carpathian Basin have found genetic links to populations of the Mongolian steppe, lending support to the old idea that the Avar elite came from there — without fully settling whether they were specifically Rouran. Their migration was startlingly fast, covering thousands of miles across Eurasia in roughly a decade. The empire they founded under Khagan Bayan lasted until Charlemagne's Franks broke it apart in 796, and it was through Avar warriors that the iron stirrup first reached Western Europe."
+        }
+      ],
+      "commonsFile": "Avar_Khaganate_Map_602.png"
     },
     {
       "id": "evt-zemarchus-purification",
       "label": "The Türk Purification Ceremony",
       "year": 569,
-      "description": "Zemarchus's embassy to Istemi in 569 was preceded by an elaborate purification ritual: Türk shamans waved smoking branches of incense over the Byzantine envoys, leapt over fires with them, and rang bells to drive away evil spirits before admitting them to the khagan's tent. The ceremony illustrates the persistence of pre-Buddhist, pre-Islamic shamanic practice as a working diplomatic protocol — and gives us one of the most detailed surviving descriptions of any sixth-century steppe ritual.",
+      "description": "Before Zemarchus could even meet the khagan in 569, the Türks ran his whole embassy through a fire-purification rite — shamans circling the Byzantines' baggage with burning incense, beating drums, and ringing bells to chase off evil spirits.",
       "wikiSlug": "Zemarchus",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Menander's description is unusually concrete: the Türks made the envoys pass between two fires, carried flaming leaves around their luggage while chanting in what he called 'Scythian,' and only then let them approach. Diplomacy aside, it was a genuine religious safeguard — outsiders were treated as spiritually contaminated and had to be cleansed before nearing the sacred space around the khagan. Because so little sixth-century steppe ritual was ever written down by literate observers, this passage is one of the richest surviving snapshots of early Türk shamanic practice."
+        }
+      ]
     },
     {
       "id": "evt-tonyukuk-inscription",
