@@ -12,6 +12,8 @@ import { useEffect, useRef, useState } from 'react'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import { castIdForName } from '@/lib/civil-war-commanders'
+import { warForRoute } from '@/lib/wars/registry'
+import { CIVIL_WAR } from '@/lib/wars/civil-war'
 
 // ---- inline icons (shared with the war home) ----
 const I = {
@@ -38,8 +40,8 @@ export type Theatre = 'east' | 'west' | 'tmis' | 'naval'
 export type Side = 'u' | 'c'
 
 export type BattleData = {
-  theatre: Theatre
-  crumbs: Crumb[]            // from civilWarCrumbs() — carries the jump dropdown
+  theatre: string            // lane id — a theatre for the CW, a phase for the F&I war
+  crumbs: Crumb[]            // from warCrumbs() — carries the jump dropdown
   backHref?: string          // back-arrow target (defaults to the war home)
   eyebrow: string            // "Battle · Naval & Coastal"
   title: string
@@ -107,7 +109,12 @@ export function BattleDossier({ data }: { data: BattleData }) {
   const [menu, setMenu] = useState(false)
   const [search, setSearch] = useState(false)
   const subnavRef = useRef<HTMLDivElement>(null)
-  const accent = `var(--th-${data.theatre})`
+  // Resolve the war from the footer's war-home href (no hook → SSG-safe), then the
+  // lane accent from the config: skinVar (light/dark-adaptive var) or its mapHex. For
+  // the CW this resolves to var(--th-east/west/tmis/naval), byte-identical to before.
+  const war = warForRoute(data.footer?.href ?? '') ?? CIVIL_WAR
+  const lane = war.lanes.find(l => l.id === data.theatre)
+  const accent = lane?.skinVar ? `var(${lane.skinVar})` : (lane?.mapHex ?? war.accent)
 
   const changeTab = (id: string) => {
     setTab(id)
@@ -125,8 +132,8 @@ export function BattleDossier({ data }: { data: BattleData }) {
     <div className="war-skin" style={{ ['--accent' as string]: accent } as React.CSSProperties}>
       {/* sticky header */}
       <header className="p-hdr">
-        <a className="back" href="/war-civil-war" aria-label="Back to the American Civil War">{I.back}</a>
-        <div className="wm"><b>American Civil War</b><span>Stuff Happened · War</span></div>
+        <a className="back" href={data.backHref ?? war.routeBase} aria-label={`Back to the ${war.name}`}>{I.back}</a>
+        <div className="wm"><b>{war.name}</b><span>Stuff Happened · War</span></div>
         <ThemeSwitch />
         <button className="p-iconbtn" onClick={() => setSearch(true)} aria-label="Search">{I.search}</button>
         <button className="p-iconbtn" onClick={() => setMenu(true)} aria-label="Menu">{I.menu}</button>
@@ -204,7 +211,9 @@ export function BattleDossier({ data }: { data: BattleData }) {
         )}
 
         {tab === 'commanders' && data.commanders.map(c => {
-          const arc = castIdForName(c.name)
+          // cast arcs exist only for the CW today; other wars get no arc link until
+          // their cast roster is authored.
+          const arc = war === CIVIL_WAR ? castIdForName(c.name) : undefined
           return (
             <div className={'bp-cmd ' + c.side} key={c.name}>
               <span className="pic">
@@ -215,7 +224,7 @@ export function BattleDossier({ data }: { data: BattleData }) {
                 <div className="nm p-serif">{c.name}</div>
                 <div className="role"><span className="sd">{c.side === 'u' ? 'UNION' : 'CSA'}</span><span className="rl">{c.role}</span></div>
                 <div className="bio">{c.bio}</div>
-                {arc && <a className="arc" href={`/war-civil-war/cast/${arc}`}>Follow the full arc</a>}
+                {arc && <a className="arc" href={`${war.routeBase}/cast/${arc}`}>Follow the full arc</a>}
               </div>
             </div>
           )
@@ -261,7 +270,7 @@ export function BattleDossier({ data }: { data: BattleData }) {
             <div className="mh"><b>Stuff Happened</b><button className="p-iconbtn" onClick={() => setMenu(false)}>{I.close}</button></div>
             <nav>
               {MENU.map(it => (
-                <a key={it.k} className={it.k === 'war' ? 'on' : ''} href={it.href}>{it.n}<span className="sub">{it.s}</span></a>
+                <a key={it.k} className={it.k === 'war' ? 'on' : ''} href={it.href}>{it.n}<span className="sub">{it.k === 'war' ? war.name : it.s}</span></a>
               ))}
             </nav>
             <div className="mf"><span>Long-form history,<br />one war at a time.</span></div>
