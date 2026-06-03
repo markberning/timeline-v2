@@ -38,6 +38,7 @@ export interface WarLane {
   kind: WarLaneKind
   label: string                                  // full name ('Eastern Theatre' / 'The Ohio Spark')
   short: string                                  // compact crumb-trail label
+  groupHead?: string                             // heading in the "All battles" scope menu (defaults to label)
   href: string
   ready: boolean                                 // the lane's landing page exists
   // hue for the lane. `dot` is a concrete hex (the breadcrumb dropdown portals to
@@ -79,6 +80,7 @@ export interface WarConfig {
   frontDoorId: string        // matches the WAR_EVENTS id in war-front-door.tsx ('cw'/'fi')
   crumbShort: string         // 'ACW' / 'F&I' — the war-level breadcrumb pill
   crumbFull: string          // 'American Civil War' — the ✓-matched full label
+  laneNoun: string           // generic placeholder for the lane crumb ('Theatre' / 'Phase')
   accent: string             // war identity colour (WAR_ACCENT stone), concrete hex
   // CW groups battles in 4 geographic theatres, so its battle-jump menu offers a
   // [this theatre | All battles] scope toggle. The F&I war groups by phase and does

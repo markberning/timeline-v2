@@ -23,6 +23,7 @@ export const CIVIL_WAR: WarConfig = {
   frontDoorId: 'cw',
   crumbShort: 'ACW',
   crumbFull: 'American Civil War',
+  laneNoun: 'Theatre',
   accent: WAR_ACCENT,
   geoScopeToggle: true,
   sides: [
@@ -30,8 +31,8 @@ export const CIVIL_WAR: WarConfig = {
     { code: 'c', label: 'Confederate', short: 'CSA', cssVar: '--confed', color: { light: '#b44d3b', dark: '#df8158' } },
   ],
   lanes: [
-    { id: 'east', kind: 'theatre', label: 'Eastern Theatre', short: 'Eastern', href: '/war-civil-war/eastern', ready: true, color: { light: '#8a5b86', dark: '#c79cd0', dot: '#8a5b86' } },
-    { id: 'west', kind: 'theatre', label: 'Western Theatre', short: 'Western', href: '/war-civil-war/western', ready: true, color: { light: '#4e8a52', dark: '#84c089', dot: '#4e8a52' } },
+    { id: 'east', kind: 'theatre', label: 'Eastern Theatre', short: 'Eastern', groupHead: 'Eastern', href: '/war-civil-war/eastern', ready: true, color: { light: '#8a5b86', dark: '#c79cd0', dot: '#8a5b86' } },
+    { id: 'west', kind: 'theatre', label: 'Western Theatre', short: 'Western', groupHead: 'Western', href: '/war-civil-war/western', ready: true, color: { light: '#4e8a52', dark: '#84c089', dot: '#4e8a52' } },
     { id: 'tmis', kind: 'theatre', label: 'Trans-Mississippi', short: 'Trans-Miss', href: '/war-civil-war/trans-mississippi', ready: true, color: { light: '#b3852f', dark: '#d8b25a', dot: '#b3852f' } },
     { id: 'naval', kind: 'theatre', label: 'Naval & Coastal', short: 'Naval', href: '/war-civil-war/naval', ready: true, color: { light: '#2c7d99', dark: '#5fb0cc', dot: '#2c7d99' } },
     { id: 'howfought', kind: 'story', label: 'How the War Happened', short: 'Story', href: '/war-civil-war/how-the-war-was-fought', ready: true, color: { light: WAR_ACCENT, dark: WAR_ACCENT, dot: WAR_ACCENT } },

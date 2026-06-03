@@ -12,10 +12,12 @@
 // audits/war-pilot-civil-war.md.
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, WAR_ACCENT, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
+import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
 import { BattleCard, CordTimeline } from './war-battle-card'
-import { theatreEv, theatreSpine, majorCount, MAJORS, THEMES, CHAPTERS, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
+import { theatreEv, theatreSpine, majorCount, type Theatre } from '@/lib/civil-war-roster'
 import { WAR_EVENTS, WAR_BANDS } from './war-front-door'
+import { CIVIL_WAR } from '@/lib/wars/civil-war'
+import type { WarConfig } from '@/lib/wars/types'
 
 const MONO = 'var(--font-geist-mono)'
 const MUTED = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
@@ -54,20 +56,6 @@ export interface TheatreData {
   timelineIntro: string
 }
 
-// Theatre-coded dot colours for the breadcrumb dropdowns. The redesign palette
-// (plum / green / gold / teal) — concrete hexes (the dropdown menu portals to
-// <body>, outside .war-skin, so the --th-* CSS vars can't resolve here). These
-// are the light-mode/saturated variants, legible on both menu backgrounds.
-const THEATRE_DOT: Record<string, string> = {
-  east: '#8a5b86', west: '#4e8a52', tmis: '#b3852f', naval: '#2c7d99', offfield: '#d96a26', howfought: WAR_ACCENT,
-}
-
-// Compact ancestor labels for the breadcrumb trail (keep it narrow on a phone);
-// the lane keeps its full evocative name on its own landing page.
-const THEATRE_TRAIL_SHORT: Record<string, string> = {
-  east: 'Eastern', west: 'Western', tmis: 'Trans-Miss', naval: 'Naval', offfield: 'Off-Field', howfought: 'Story',
-}
-
 // War-era band colours for the war-switch dropdown dots.
 const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b => [b.id, b.color]))
 
@@ -79,74 +67,69 @@ const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b =>
 // ones link with a date). Pass the active `theatre` and/or `battleId`; omit both
 // on the war home (Theatre / Battle/Event become generic pickers and the ACW
 // crumb lights up). The current page's leaf crumb gets accent emphasis.
-export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'offfield' | 'howfought'; battleId?: string } = {}): Crumb[] {
+// Config-driven breadcrumb builder: War › Lane › Battle/Event, for ANY war. Reads
+// the lanes/battles/themes/chapters/colours from the WarConfig so a second war reuses
+// it unchanged. `civilWarCrumbs` below is a thin Civil-War-bound delegate, so the ~45
+// Civil War leaf pages keep calling it and their output is byte-identical.
+export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; battleId?: string } = {}): Crumb[] {
   const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
+  const laneOf = (id?: string) => (id ? cfg.lanes.find(l => l.id === id) : undefined)
+  const laneDot = (id: string) => laneOf(id)?.color?.dot
+  const offfieldDot = cfg.lanes.find(l => l.kind === 'offfield')?.color?.dot
+  const storyDot = cfg.lanes.find(l => l.kind === 'story')?.color?.dot ?? cfg.accent
 
-  // Only the four GEOGRAPHIC theatre landing pages are obsolete (folded into the
-  // ACW home), so those jump to the theatre's earliest built battle. Off the
-  // Battlefield and the Military Story keep their real home pages.
+  // A non-geographic lane (the story spine / off the battlefield) keeps its own
+  // landing page; a battle-grouping lane jumps to its earliest built battle.
   const firstHref = (id: string): string | undefined => {
-    if (id === 'offfield' || id === 'howfought') { const nav = THEATRE_NAV.find(t => t.id === id); return nav?.ready ? nav.href : undefined }
-    return MAJORS.filter(b => b.theatre === id && b.href).sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))[0]?.href
+    const ln = laneOf(id)
+    if (ln && (ln.kind === 'story' || ln.kind === 'offfield')) return ln.ready ? ln.href : undefined
+    return cfg.battles.filter(b => b.theatre === id && b.href).sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))[0]?.href
   }
-  const theatreOptions: CrumbOption[] = THEATRE_NAV.map(t => { const h = firstHref(t.id); return { label: t.label, href: h, disabled: !h, color: THEATRE_DOT[t.id] } })
-  const activeTheatre = theatre ? THEATRE_NAV.find(t => t.id === theatre) : undefined
+  const laneOptions: CrumbOption[] = cfg.lanes.map(l => { const h = firstHref(l.id); return { label: l.label, href: h, disabled: !h, color: l.color?.dot } })
+  const activeLane = laneOf(lane)
 
-  // Filtered to the active theatre when one is chosen, so the Battle/Event menu
-  // lists only that theatre's battles (offfield = themes; no theatre = everything).
+  // Filtered to the active lane when one is chosen; the off-field lane (or no lane)
+  // also lists the themes.
   const jump: CrumbOption[] = [
-    ...MAJORS.filter(b => !theatre || b.theatre === theatre).map(b => ({ _k: b.year * 100 + b.m, label: b.name, href: b.href, disabled: !b.href, color: THEATRE_DOT[b.theatre], date: b.href ? `${b.mo} ${b.year}` : undefined })),
-    ...(!theatre || theatre === 'offfield' ? THEMES.map(t => ({ _k: t.year * 100 + t.m, label: t.name, href: t.href, disabled: !t.href, color: THEATRE_DOT.offfield, date: t.href ? t.date : undefined })) : []),
+    ...cfg.battles.filter(b => !lane || b.theatre === lane).map(b => ({ _k: b.year * 100 + b.m, label: b.name, href: b.href, disabled: !b.href, color: laneDot(b.theatre), date: b.href ? `${b.mo} ${b.year}` : undefined })),
+    ...(!lane || activeLane?.kind === 'offfield' ? cfg.themes.map(t => ({ _k: t.year * 100 + t.m, label: t.name, href: t.href, disabled: !t.href, color: offfieldDot, date: t.href ? t.date : undefined })) : []),
   ].sort((a, b) => a._k - b._k).map(({ _k, ...o }) => o)
 
-  // The "All battles" scope for the battle-jump toggle: every theatre's Major
-  // battles, grouped under a theatre heading (chronological within each), so from
-  // inside one theatre you can still reach any battle in another.
-  const GEO_ORDER: Theatre[] = ['east', 'west', 'tmis', 'naval']
-  const GEO_HEAD: Record<string, string> = { east: 'Eastern', west: 'Western', tmis: 'Trans-Mississippi', naval: 'Naval & Coastal' }
-  const jumpAll: CrumbOption[] = GEO_ORDER.flatMap(th => [
-    { label: GEO_HEAD[th], heading: true, color: THEATRE_DOT[th] } as CrumbOption,
-    ...MAJORS.filter(b => b.theatre === th).sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))
-      .map(b => ({ label: b.name, href: b.href, disabled: !b.href, color: THEATRE_DOT[b.theatre], date: b.href ? `${b.mo} ${b.year}` : undefined })),
+  // The "All battles" scope: every battle-grouping lane's battles under a heading.
+  const jumpAll: CrumbOption[] = cfg.lanes.filter(l => l.kind === 'theatre' || l.kind === 'phase').flatMap(ln => [
+    { label: ln.groupHead ?? ln.label, heading: true, color: ln.color?.dot } as CrumbOption,
+    ...cfg.battles.filter(b => b.theatre === ln.id).sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))
+      .map(b => ({ label: b.name, href: b.href, disabled: !b.href, color: laneDot(b.theatre), date: b.href ? `${b.mo} ${b.year}` : undefined })),
   ])
-  // The toggle only makes sense on a geographic theatre (where "scoped" ≠ "all");
-  // not on Off-the-Battlefield (themes) or the Military Story (chapters).
-  const geoTheatre = !!theatre && theatre !== 'offfield' && theatre !== 'howfought'
+  // The scope toggle only makes sense on a geographic-style grouping lane.
+  const geoLane = !!lane && (activeLane?.kind === 'theatre' || activeLane?.kind === 'phase')
 
-  // On the military pillar, the leaf jump is the 5 chapters (their own short
-  // chronological list), not the 60-item battle+theme list.
-  const chapterJump: CrumbOption[] = CHAPTERS.map(c => ({ label: c.name, href: c.href, disabled: !c.href, color: THEATRE_DOT.howfought, date: c.href ? c.date : undefined }))
+  // The story-spine leaf jump is the chapter list, not the battle+theme list.
+  const chapterJump: CrumbOption[] = cfg.chapters.map(c => ({ label: c.name, href: c.href, disabled: !c.href, color: storyDot, date: c.href ? c.date : undefined }))
 
-  const activeMajor = battleId ? MAJORS.find(b => b.id === battleId) : undefined
-  const activeTheme = battleId && !activeMajor ? THEMES.find(t => t.id === battleId) : undefined
-  const activeChapter = battleId && !activeMajor && !activeTheme ? CHAPTERS.find(c => c.id === battleId) : undefined
-  const active = activeMajor ?? activeTheme ?? activeChapter
+  const activeBattle = battleId ? cfg.battles.find(b => b.id === battleId) : undefined
+  const activeTheme = battleId && !activeBattle ? cfg.themes.find(t => t.id === battleId) : undefined
+  const activeChapter = battleId && !activeBattle && !activeTheme ? cfg.chapters.find(c => c.id === battleId) : undefined
+  const active = activeBattle ?? activeTheme ?? activeChapter
   const battleFull = active?.name ?? 'Battle / Event'
-  // the bc shows a SHORT label for long names; the jump menu still marks the
-  // full name current (via currentLabel)
   const battleLabel = active?.short ?? battleFull
 
-  // The ACW pill only lights up on the ACW home page, in the War vertical's
-  // identity colour (WAR_ACCENT, a neutral stone OUTSIDE the theatre palette so
-  // it never collides with a theatre); as an ancestor crumb on theatre/battle
-  // pages it stays a muted gray pill.
-  const onAcwHome = !theatre && !battleId
+  // The war pill lights up (in WAR_ACCENT) only on the war home; elsewhere it's a
+  // muted ancestor crumb.
+  const onWarHome = !lane && !battleId
 
   return [
-    // The thread switch now lives in the ThreadBar tier above; this trail starts
-    // at the war level. ACW + Theatre carry an `href` (their own home page) so
-    // that with splitNav an ancestor pill can navigate directly; as the active
-    // leaf the href is ignored (split is suppressed for the current page).
-    // The trail starts at the specific war (ACW), matching civ (region first) and
-    // art (era first); the "All wars" root lives on the /war home, not here.
-    // On the ACW home this is a split/dual pill too (label → ACW home, ▾ → switch
-    // war), lit via its accent colour — NOT flagged `active`, which would collapse
-    // it to a plain dropdown and drop the dual-action affordance.
-    { label: 'ACW', short: 'ACW', color: onAcwHome ? WAR_ACCENT : undefined, href: '/war-civil-war', options: warOptions, currentLabel: 'American Civil War' },
-    { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, href: theatre ? firstHref(theatre) : undefined, options: theatreOptions, active: !!theatre && !battleId },
-    { label: battleLabel, currentLabel: battleFull, options: theatre === 'howfought' ? chapterJump : jump, active: !!battleId,
-      scopeToggle: geoTheatre ? { scopedLabel: THEATRE_TRAIL_SHORT[theatre as string] ?? activeTheatre?.label ?? 'Theatre', allOptions: jumpAll } : undefined },
+    { label: cfg.crumbShort, short: cfg.crumbShort, color: onWarHome ? cfg.accent : undefined, href: cfg.routeBase, options: warOptions, currentLabel: cfg.crumbFull },
+    { label: activeLane?.label ?? cfg.laneNoun, short: activeLane ? activeLane.short : undefined, href: lane ? firstHref(lane) : undefined, options: laneOptions, active: !!lane && !battleId },
+    { label: battleLabel, currentLabel: battleFull, options: activeLane?.kind === 'story' ? chapterJump : jump, active: !!battleId,
+      scopeToggle: cfg.geoScopeToggle && geoLane ? { scopedLabel: activeLane?.short ?? activeLane?.label ?? cfg.laneNoun, allOptions: jumpAll } : undefined },
   ]
+}
+
+// Civil War breadcrumb (byte-identical to the old hand-written builder). Keeps the
+// exact signature the leaf pages call.
+export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'offfield' | 'howfought'; battleId?: string } = {}): Crumb[] {
+  return warCrumbs(CIVIL_WAR, { lane: theatre, battleId })
 }
 
 // The all-wars front door (/war) breadcrumb: just the first two rungs of the

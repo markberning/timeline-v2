@@ -28,6 +28,7 @@ export const FRENCH_INDIAN: WarConfig = {
   frontDoorId: 'fi',
   crumbShort: 'F&I',
   crumbFull: 'The French and Indian War',
+  laneNoun: 'Phase',
   accent: WAR_ACCENT,
   geoScopeToggle: false,
   sides: [
