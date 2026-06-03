@@ -53,57 +53,90 @@
       "label": "Cyrus the Great",
       "year": -559,
       "endYear": -530,
-      "description": "Founder of the Achaemenid Empire who united the Medes and Persians, conquering Lydia and Babylon. His reign established the largest empire the world had yet seen.",
+      "description": "A minor highland king from Fars who, in roughly twenty years, built the largest empire the world had ever seen and invented a new way to run one: absorb conquered peoples rather than terrorize them.",
       "wikiSlug": "Cyrus_the_Great",
       "tier": 1,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its height the Achaemenid Empire he founded covered around 2.1 million square miles (5.5 million km2), stretching from the Balkans to the Indus Valley. He's the only non-Jew in the entire Hebrew Bible called \"God's anointed\" — mashiach, the word that gives us \"Messiah.\" Almost everything we have about his early life comes from Greek writers like Herodotus and Xenophon working decades after his death, so the line between the real Cyrus and the legend is genuinely blurry; even his tribal-shepherd-childhood story reads like folklore."
+        }
+      ],
+      "commonsFile": "Cyrus_II_(The_Great)_(cropped).jpg"
     },
     {
       "id": "evt-conquest-media",
       "label": "Conquest of Media",
       "year": -550,
-      "description": "Cyrus defeated his grandfather Astyages, overthrowing the Median Empire and unifying the Iranian peoples under Persian rule.",
+      "description": "Cyrus rebelled against his own overlord, the Median king Astyages, around 550 BCE and swallowed the entire Median Empire — the dominant power on the Iranian plateau, ruled from Ecbatana (modern Hamadan).",
       "wikiSlug": "Battle_of_Pasargadae",
       "tier": 3,
       "category": "wars",
       "tags": [
         "rulers"
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By Herodotus's telling Astyages was Cyrus's own grandfather, who'd ordered the baby exposed after a dream warned the child would supplant him — only for the infant to survive and grow up to do exactly that. The conquest came cheaply: Herodotus says Astyages's army simply mutinied and handed him over at the Battle of Pasargadae, after which Cyrus spared the old king and reportedly kept him at court for the rest of his life. Cyrus then borrowed Median court dress, ceremony, and officials wholesale rather than purging them — the absorb-don't-destroy template that would define the empire."
+        }
       ]
     },
     {
       "id": "evt-pasargadae",
       "label": "Pasargadae built",
       "year": -546,
-      "description": "Cyrus established Pasargadae as the first capital of the Achaemenid Empire, featuring gardens that may have inspired the concept of paradise.",
+      "description": "After taking Lydia, Cyrus built his first capital — Pasargadae — in his Persian homeland of Fars: a scattering of stone palaces and watered gardens in a high mountain valley, and the site of his own strikingly modest tomb.",
       "wikiSlug": "Pasargadae",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its garden layout, threaded by stone watercourses into a fourfold plan, is the oldest known ancestor of the chahar bagh (the classic four-part Persian garden) — and our word \"paradise\" comes straight from this tradition, via Old Iranian pairidaeza, meaning a walled-around enclosure. The tomb itself is just a small gabled stone chamber on a six-step plinth. When Alexander the Great passed through two centuries later he found it looted, and (according to Strabo) ordered it repaired and resealed. The whole site is now a UNESCO World Heritage Site."
+        }
+      ],
+      "commonsFile": "Pasargad_Tomb_Cyrus3.jpg"
     },
     {
       "id": "evt-fall-babylon",
       "label": "Fall of Babylon",
       "year": -539,
-      "description": "Cyrus conquered the Neo-Babylonian Empire, entering Babylon reportedly without a battle. He freed the Jewish exiles and restored local temples.",
+      "description": "Cyrus's greatest prize: Babylon, the most famous city in the world, taken in 539 BCE. By most accounts the city opened its gates without a fight, fed up with its own king Nabonidus.",
       "wikiSlug": "Fall_of_Babylon",
       "tier": 2,
       "category": "wars",
       "tags": [
         "rulers"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "There was fighting first, though — the Persians broke the Babylonian army at the Battle of Opis on the Tigris that October, after which Babylon itself fell within weeks. Nabonidus had alienated Babylon's powerful Marduk priesthood by promoting the moon god Sin instead; the Babylonian Chronicle says Cyrus's troops entered \"without a battle,\" and one Greek tradition (Herodotus) even claims the Persians sneaked in by diverting the Euphrates and wading up the dry riverbed. Nabonidus was captured and, by the later historian Berossus, spared and packed off to exile in distant Carmania."
+        }
+      ],
+      "commonsFile": "The_fall_of_Babylon;_Cyrus_the_Great_defeating_the_Chaldean_Wellcome_V0034440.jpg"
     },
     {
       "id": "evt-cyrus-cylinder",
       "label": "Cyrus Cylinder",
       "year": -539,
-      "description": "A clay cylinder inscribed in Akkadian proclaiming Cyrus's restoration of temples and repatriation of peoples. Often called the first declaration of human rights.",
+      "description": "A barrel-shaped clay cylinder, written in Babylonian cuneiform, in which Cyrus casts his conquest of Babylon as a liberation — restoring temples, returning exiled peoples, no boasting about the dead. Often called the first declaration of human rights.",
       "wikiSlug": "Cyrus_Cylinder",
       "tier": 2,
       "category": "writing",
       "tags": [
         "people"
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "That \"human rights\" label is an honorary stretch — Cyrus had no notion of individual rights — but the tone really is unlike the kill-counting Assyrian inscriptions before it. The object itself vanished for over two millennia until the archaeologist Hormuzd Rassam dug it up in 1879 from the foundations of Babylon's great temple, the Esagila; it's about 9 inches (23 cm) long and now lives in the British Museum. It broke in antiquity into pieces, and a fragment held separately wasn't reunited with the main cylinder until 1972. It doesn't name the Jews specifically, but its talk of returning deported peoples lines up with the Bible's account of their release."
+        }
       ]
     },
     {
@@ -111,62 +144,103 @@
       "label": "Cambyses II",
       "year": -530,
       "endYear": -522,
-      "description": "Son of Cyrus who conquered Egypt in 525 BCE, extending the empire to its greatest territorial extent in Africa.",
+      "description": "Cyrus's son and heir, who pushed the empire to its largest African reach by conquering Egypt — then died under murky circumstances in 522 BCE, triggering a succession crisis that nearly broke the empire apart.",
       "wikiSlug": "Cambyses_II",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus gives a grimly ironic death: while mounting his horse Cambyses's own sword slipped from its scabbard and gashed his thigh — supposedly the very spot where he'd earlier stabbed the sacred Apis bull in Egypt — and the wound turned fatal. He died in Syria hurrying home to crush a revolt: a usurper had seized the throne pretending to be Cambyses's brother Bardiya (Smerdis in the Greek sources), whom Cambyses had secretly had killed. Untangling that mess is what brought Darius to power."
+        }
+      ],
+      "commonsFile": "Stela_Cambyses_Apis_closeup.jpg"
     },
     {
       "id": "evt-conquest-egypt",
       "label": "Conquest of Egypt",
       "year": -525,
-      "description": "Cambyses II defeated Pharaoh Psamtik III at the Battle of Pelusium, making Egypt a Persian satrapy.",
+      "description": "Cambyses II beat Pharaoh Psamtik III at Pelusium in 525 BCE, folding Egypt — the last great Bronze Age civilization standing — into the Persian Empire as a satrapy (a governed province).",
       "wikiSlug": "Battle_of_Pelusium_(525_BC)",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most colorful (and probably embellished) story of the battle comes from the much-later writer Polyaenus, who claims Cambyses had his soldiers paint cats — sacred to the goddess Bastet — on their shields and drive animals before them, so the Egyptians dared not shoot for fear of harming them. The conquest made the Persian kings into Egypt's pharaohs, founding what Egyptologists count as the 27th Dynasty. It's the campaign on which Cambyses's army supposedly lost a detachment to a sandstorm in the western desert — the \"lost army of Cambyses\" that treasure-hunters still chase."
+        }
+      ],
+      "commonsFile": "Henry_Charles_Seppings-Wrightː_The_Sea_Fight_at_Pelusium_(Hutchinson's_History_of_the_Nations,_1922).jpg"
     },
     {
       "id": "evt-darius-i",
       "label": "Darius I the Great",
       "year": -522,
       "endYear": -486,
-      "description": "Rose to power after defeating rival claimants. He reorganized the empire into satrapies, standardized coinage, and built the Royal Road.",
+      "description": "A member of a junior branch of the royal family who seized the throne around 522 BCE, then spent thirty-six years turning a sprawl of conquests into the most sophisticated administrative state the ancient world had yet built.",
       "wikiSlug": "Darius_the_Great",
       "tier": 1,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Darius didn't just standardize coinage in the abstract — he gave the empire the gold daric, a thick coin of remarkably pure gold (about 95 percent) weighing roughly a third of an ounce (8.4 grams), worth twenty of the silver coins called sigloi. The daric was stamped with a kneeling, running royal archer drawing a bow, and it stayed the international gold standard of the day until Philip II of Macedon's coinage shoved it aside more than a century later. The 'kneeling-running' pose, oddly enough, may just be the engraver's trick for showing motion on a tiny disc."
+        }
+      ],
+      "commonsFile": "Darius_I.jpg"
     },
     {
       "id": "evt-zoroaster",
       "label": "Zoroastrianism as state religion",
       "year": -520,
-      "description": "Darius I promoted Zoroastrianism and the worship of Ahura Mazda as the supreme deity, embedding the faith into imperial ideology.",
+      "description": "The faith of the prophet Zarathustra, woven by Darius into the very language of kingship — making the worship of one supreme god a pillar of imperial ideology centuries before monotheism took hold elsewhere.",
       "wikiSlug": "Zoroastrianism",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nobody can pin down when Zarathustra lived: scholarly guesses sprawl across a thousand years, from roughly 1500 to 500 BCE, partly because his hymns (the Gathas) were memorized and chanted for centuries before anyone wrote them down. The religion's reach far outran its size — ideas that surface in later Judaism, then Christianity and Islam (a cosmic adversary, ranks of angels, a final judgment, bodily resurrection) are widely traced to Zoroastrian contact during the two centuries Jews lived under Persian rule. Today its practitioners, including India's Parsis, number well under 200,000 — a tiny community behind an outsized theological legacy."
+        }
+      ]
     },
     {
       "id": "evt-behistun-inscription",
       "label": "Behistun Inscription",
       "year": -520,
-      "description": "Monumental trilingual inscription carved into a cliff face by Darius I, recording his victories. It became the key to deciphering cuneiform script.",
+      "description": "A trilingual victory text carved high on a cliff in western Iran around 520 BCE, telling Darius's story in his own words — and, two millennia later, the key that cracked open ancient cuneiform.",
       "wikiSlug": "Behistun_Inscription",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The relief panel runs about 49 feet (15 meters) high and 82 feet (25 meters) wide, with a life-sized Darius treading on a fallen rival and facing nine roped prisoners. Darius bragged in the text that he sent copies and translations all over the empire — and he wasn't bluffing: a Babylonian fragment turned up at Babylon, and an Aramaic version on papyrus surfaced at Elephantine in Egypt (it remains the only known Aramaic copy of any Achaemenid royal inscription). Henry Rawlinson scaled the cliff in the 1830s and 1840s, copying the wedge-shaped signs at real risk to his neck, sometimes dangling on ladders over the drop."
+        }
+      ],
+      "commonsFile": "کتیبه_داریوش_(_بیستون(.jpg"
     },
     {
       "id": "evt-persepolis-construction",
       "label": "Persepolis construction begins",
       "year": -518,
-      "description": "Darius began building the ceremonial capital at Persepolis, featuring the grand Apadana palace and monumental staircases with relief sculptures.",
+      "description": "Around 518 BCE Darius began carving a ceremonial capital into a mountain terrace in the Persian heartland — a stage for royal pageantry rather than a real city, built up over sixty years by him and his heirs.",
       "wikiSlug": "Persepolis",
       "tier": 1,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When Darius's builders laid the foundations of the great audience hall, they buried stone boxes holding paired gold and silver plaques, each inscribed in three scripts with the boundaries of the empire — a kind of royal cornerstone note to posterity, two sets of which were dug up intact in 1933. Persepolis ended in fire: in 330 BCE Alexander the Great, after looting the treasury, burned the palace complex to the ground, possibly as payback for the Persians torching Athens, possibly on a drunken whim urged on by a courtesan named Thais. Ancient sources say he regretted it the next morning."
+        }
+      ],
+      "commonsFile": "Persepolis_Gate_of_All_Nations.jpg"
     },
     {
       "id": "evt-daric-coinage",
@@ -181,69 +255,118 @@
       "id": "evt-royal-road",
       "label": "Royal Road completed",
       "year": -500,
-      "description": "Darius built the Royal Road stretching 2,700 km from Sardis to Susa, with relay stations enabling messages to travel its length in seven days.",
+      "description": "The empire's spine: a maintained highway of roughly 1,600 miles (2,575 km) from Sardis near the Aegean to Susa in lowland Iran, strung with relay stations so a royal message could outrun any traveler.",
       "wikiSlug": "Royal_Road",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus counted 111 posting stations along the route, each stocked with fresh horses and riders. The Persian courier service had its own name, the angareion, and a relay rider could cover the full distance in about a week — a trip that took a person on foot roughly ninety days. Herodotus's awestruck line about the couriers ('neither snow nor rain nor heat nor gloom of night') was later borrowed, almost word for word, for the unofficial motto carved on New York City's main post office — describing the wrong empire entirely."
+        }
+      ],
+      "commonsFile": "Achaemenid_Empire_at_its_greatest_extent_according_to_Oxford_Atlas_of_World_History_2002.jpg"
     },
     {
       "id": "evt-marathon",
       "label": "Battle of Marathon",
       "year": -490,
-      "description": "A Persian expeditionary force was defeated by the Athenians on the plain of Marathon, ending the first Persian invasion of Greece.",
+      "description": "Darius's failed grab at the Greek mainland in 490 BCE, where an Athenian army threw the Persian expedition back into the sea — the last big military act of his reign and the start of the rivalry that made Greece famous.",
       "wikiSlug": "Battle_of_Marathon",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus, writing about fifty years later, gives a lopsided body count: 192 Athenian dead against 6,400 on the Persian side. The famous run that gave the modern race its name is a tangle of legend and fact — Herodotus actually describes the runner Pheidippides sprinting some 150 miles (240 km) to Sparta to beg for help before the battle, while the later, more romantic tale has a messenger dashing the 25 miles (40 km) from Marathon to Athens to announce the win and then dropping dead. Darius never got his rematch; he died around 486 BCE while planning a second, larger invasion that his son Xerxes would inherit."
+        }
+      ],
+      "commonsFile": "Scene_of_the_Battle_of_Marathon.jpg"
     },
     {
       "id": "evt-xerxes-i",
       "label": "Xerxes I",
       "year": -486,
       "endYear": -465,
-      "description": "Son of Darius who launched the massive second invasion of Greece. He completed many of Persepolis's grandest structures.",
+      "description": "Darius's son and successor, who inherited the grudge against Athens and spent four years building the enormous force that invaded Greece in 480 BCE.",
       "wikiSlug": "Xerxes_I",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus tells two famous stories about how badly Xerxes wanted this war. To move his army into Europe he had engineers lash boats together into pontoon bridges across the Hellespont (the strait separating Asia from Europe, about three-quarters of a mile, or 1.2 km, wide); when a storm smashed the first attempt, he supposedly had the sea given 300 lashes with a whip and the engineers beheaded. He also dug a canal clean through the Mount Athos peninsula so his fleet could skip a stretch of dangerous open water. His reign ended in a palace bloodbath in 465 BCE — he was murdered by Artabanus, the commander of his own bodyguard, in a plot that also killed his eldest son."
+        }
+      ],
+      "commonsFile": "National_Museum_of_Iran_Darafsh_(785).JPG"
     },
     {
       "id": "evt-thermopylae",
       "label": "Battle of Thermopylae",
       "year": -480,
-      "description": "Xerxes' army overwhelmed a Greek force led by King Leonidas of Sparta at the narrow pass of Thermopylae after a three-day stand.",
+      "description": "Xerxes' army broke through the narrow Greek-held pass of Thermopylae after a roughly three-day stand, ending in the death of Sparta's King Leonidas and his rearguard.",
       "wikiSlug": "Battle_of_Thermopylae",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pass only fell because a local named Ephialtes sold the Persians a goat-track over the mountains called the Anopaia path, letting an elite Persian unit — the so-called Immortals, under the general Hydarnes — swing around behind the Greeks. Leonidas knew the path existed and had posted about 1,000 Phocian troops to guard it, but they were caught off guard and pulled back without holding it. Ephialtes paid for it across the centuries: his name became the ordinary Greek word for \"nightmare,\" and a byword for traitor. The original Greek blocking force was around 7,000, not the 300 of legend — the famous number is just the Spartans who stayed for the final stand."
+        }
+      ],
+      "commonsFile": "Léonidas_aux_Thermopyles_-_Jacques-Louis_David_-_Musée_du_Louvre_Peintures_INV_3690_;_L_3711.jpg"
     },
     {
       "id": "evt-salamis",
       "label": "Battle of Salamis",
       "year": -480,
-      "description": "The Greek fleet decisively defeated the larger Persian navy in the straits of Salamis, turning the tide of the second Persian invasion.",
+      "description": "In the narrow strait between Salamis island and the Athenian coast, the outnumbered Greek fleet shattered the Persian navy — the battle that broke Xerxes' invasion.",
       "wikiSlug": "Battle_of_Salamis",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Themistocles engineered the trap with a bluff: he sent a trusted servant, Sicinnus, to Xerxes claiming the Greek fleet was about to fall apart and flee, and that the king should block the exits and catch them all. Xerxes took the bait, crowding his much larger fleet into the cramped strait where its numbers became a liability. Estimates vary wildly — the Greeks fielded about 370 triremes against perhaps 500 to 800 Persian ships — but the result was lopsided, with the Greeks reportedly sinking around 300 enemy vessels while losing only about 40. Xerxes watched the whole disaster from a throne set up on the shore."
+        }
+      ],
+      "commonsFile": "William_Rainey_-_Death_of_the_Persian_admiral_at_Salamis_(cropped_to_focus_on_Ariabignes).jpg"
     },
     {
       "id": "evt-artaxerxes-i",
       "label": "Artaxerxes I",
       "year": -465,
       "endYear": -424,
-      "description": "Oversaw a period of relative stability, dealt with Egyptian revolts, and authorized Ezra and Nehemiah to restore Jerusalem.",
+      "description": "Xerxes' son, who took the throne in 465 BCE after his father's murder and gave the empire a long, mostly quiet reign — making peace with Athens and putting down a revolt in Egypt.",
       "wikiSlug": "Artaxerxes_I",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He's the king who let the Bible happen: around 458 BCE he sent the priest Ezra to Jerusalem to put the Jewish law in order, and he made his own cupbearer Nehemiah governor of Judea to rebuild the city's broken walls. He also took in Themistocles, the Athenian general who had wrecked Xerxes' navy at Salamis — after Athens turned on him, the man who beat Persia ended up living comfortably on a Persian pension. The Greeks nicknamed him \"Longimanus\" (\"long-handed\"), supposedly because his right hand was longer than his left."
+        }
+      ],
+      "commonsFile": "Relief_of_Artaxerxes_I,_from_his_tomb_in_Naqsh-e_Rustam.jpg"
     },
     {
       "id": "evt-peace-callias",
       "label": "Peace of Callias",
       "year": -449,
-      "description": "A treaty ending hostilities between the Achaemenid Empire and the Delian League, establishing spheres of influence in the Aegean.",
+      "description": "A negotiated settlement, named for its Athenian envoy, that is supposed to have formally ended the long Greco-Persian conflict around 449 BCE.",
       "wikiSlug": "Peace_of_Callias",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "If the treaty was real, its terms were generous to the Greeks: the Ionian cities got their autonomy, Persian armies were barred from coming within three days' march of the Aegean coast, and Persian warships were kept out of the Aegean entirely. The catch is that historians have doubted it for over two thousand years. The 4th-century BCE historian Theopompus called it an outright forgery, pointing out that the inscription claiming to record it used a style of lettering that hadn't come into use until about fifty years after the supposed signing — and Thucydides, the most careful contemporary historian, never mentions it at all."
+        }
+      ],
+      "commonsFile": "491_BC_-_1902_AD_-_A_Long_Time_Between_Drinks.jpg"
     },
     {
       "id": "evt-persian-immortals",
@@ -259,71 +382,119 @@
       "label": "Darius III",
       "year": -336,
       "endYear": -330,
-      "description": "The last Achaemenid king who faced Alexander the Great's invasion. His defeats at Issus and Gaugamela ended the empire.",
+      "description": "The last Achaemenid king of Persia, Darius III had the bad luck to inherit the throne just as Alexander invaded. His personal defeats at Issus (333 BCE) and Gaugamela (331 BCE) broke the empire, and he died a fugitive in 330 BCE.",
       "wikiSlug": "Darius_III",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Darius didn't fall in battle — he was murdered by his own kinsman Bessus, the satrap (provincial governor) of Bactria, who along with co-conspirators stabbed the king with javelins and left him to die on the road rather than hand him to Alexander. A common Macedonian soldier named Polystratus found him still breathing and was the last person to speak with him. Alexander, who wanted to be seen as Darius's rightful heir rather than his killer, had the body given a royal burial — and later hunted down Bessus and had him executed for regicide. Darius had only become king a few years earlier, raised to the throne after a court eunuch poisoned his predecessors."
+        }
+      ],
+      "commonsFile": "Darius_III_mosaic.jpg"
     },
     {
       "id": "evt-battle-gaugamela",
       "label": "Battle of Gaugamela",
       "year": -331,
-      "description": "Alexander the Great decisively defeated Darius III, ending effective Achaemenid resistance and opening the path to Persepolis and Susa.",
+      "description": "On 1 October 331 BCE, on an open plain in northern Mesopotamia, Alexander won the battle that finished the Achaemenid Empire as a working state. Darius picked flat ground to unleash his cavalry and chariots, but Alexander baited a gap in the Persian line and charged his elite cavalry straight at the king, who fled again.",
       "wikiSlug": "Battle_of_Gaugamela",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Eleven days before the fighting, a near-total lunar eclipse darkened the moon on the night of 20–21 September 331 BCE — Babylonian astronomers logged it on a clay tablet, and both sides read it as an omen (the Persians took it badly). Darius fielded scythed chariots, blades fixed to their wheels to mow down infantry, plus a handful of war elephants from the Indian frontier. The Persian cavalry actually broke through and reached Alexander's camp, but instead of hitting his rear they stopped to loot it — and by then Darius had already bolted and the battle was lost."
+        }
+      ],
+      "commonsFile": "Pietro_da_Cortona_-_Battle_of_Alexander_versus_Darius_-_Google_Art_Project.jpg"
     },
     {
       "id": "evt-persepolis-burned",
       "label": "Persepolis burned",
       "year": -330,
-      "description": "Alexander's forces burned the great palace complex at Persepolis, symbolically ending the Achaemenid dynasty.",
+      "description": "In 330 BCE, after months touring its palaces and emptying its treasury, Alexander's army burned the ceremonial heart of Persepolis. Whether it was deliberate revenge for the Persian sacking of Athens in 480 BCE or a drunken party gone wrong has been argued for over 2,300 years.",
       "wikiSlug": "Persepolis#Destruction",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fire gutted the wooden roofs and furnishings but spared the stone columns, terraces, and carved staircase reliefs, which is why so much of the site still stands. In a twist, the blaze actually preserved a massive cache of records: more than 30,000 clay tablets (the Persepolis Fortification Archive), written mostly in the Elamite language, were baked rock-hard by the heat instead of slowly crumbling. They sat buried until University of Chicago archaeologists dug them out of the fortification wall in 1933, and they remain the single best window into how the Achaemenid bureaucracy actually paid and fed its workers."
+        }
+      ],
+      "commonsFile": "Persepolis_–_Gate_of_All_Nations_02.jpg"
     },
     {
       "id": "evt-arsaces-i",
       "label": "Arsaces I founds Parthia",
       "year": -247,
-      "description": "Arsaces I led the Parni tribe to seize control of the satrapy of Parthia from the Seleucids, founding the Arsacid dynasty.",
+      "description": "Arsaces I, chieftain of the Parni nomads, overran the satrapy of Parthia and had himself crowned king — the start of an Arsacid dynasty that would outlast Rome's republic.",
       "wikiSlug": "Arsaces_I_of_Parthia",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Parni were one of three tribes of a steppe confederacy called the Dahae, so the people who would rule Iran for half a millennium started out as outsiders from the central Asian grasslands. Arsaces didn't actually take Parthia from the Seleucid Greeks directly — he grabbed it around 238 BCE from a local Seleucid governor named Andragoras, who had already rebelled and declared his own independence. Arsaces is said to have been crowned in a town called Asaak that he founded himself, and the date of that coronation (about 247 BCE) became the official year zero of the Arsacid era. The name \"Arsaces\" became so identified with kingship that nearly every later Parthian ruler took it as a throne name, which is part of why their individual reigns are so hard to untangle."
+        }
+      ],
+      "commonsFile": "Coin_of_Arsaces_I_(1),_Nisa_mint.jpg"
     },
     {
       "id": "evt-mithridates-i",
       "label": "Mithridates I",
       "year": -171,
       "endYear": -138,
-      "description": "Expanded Parthia from a minor kingdom into a great empire, conquering Media, Mesopotamia, and Elymais from the Seleucids.",
+      "description": "The king who turned a frontier kingdom into an empire — Mithridates I swallowed Media, Mesopotamia, and slices of central Asia, and was the first Parthian to claim the old Persian title \"King of Kings.\"",
       "wikiSlug": "Mithridates_I_of_Parthia",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He worked methodically over decades, taking Aria and western Bactria from the Greek kingdoms to the east around 163–155 BCE, then Media in 148/147 BCE, then Babylonia in 141 BCE, where he held a formal investiture and minted his own coins at Seleucia. When the Seleucid king Demetrius II marched east to win it all back, Mithridates' forces beat and captured him in 138 BCE — and then, in a very Parthian move, treated the royal prisoner well and married him to a Parthian princess named Rhodogune to fold the rival dynasty into his own. His new capital fortress in Turkmenistan was renamed Mithradatkert, \"Mithridates-built,\" after him."
+        }
+      ],
+      "commonsFile": "Coin_of_Mithradates_I_of_Parthia,_Seleucia_mint.jpg"
     },
     {
       "id": "evt-old-nisa",
       "label": "Nisa royal residence",
       "year": -170,
-      "description": "The Parthian royal residence at Nisa featured Hellenistic and Iranian architectural styles, with ivory rhytons and treasury buildings.",
+      "description": "Nisa was the Arsacid royal stronghold and treasury near modern Ashgabat, a mud-brick citadel where excavators dug up the cultural mash-up that defined Parthia.",
       "wikiSlug": "Nisa,_Turkmenistan",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Renamed Mithradatkert after Mithridates I, the site was made a UNESCO World Heritage Site in 2007. Diggers there found around 40 ivory rhytons (cone-shaped drinking horns carved from elephant tusks) decorated with scenes straight out of Greek mythology — luxury tableware for kings who also kept Zoroastrian fire shrines on the same grounds. The treasury even held inscribed clay documents in the Parthian language recording wine deliveries, the kind of dry administrative paperwork that tells you the place was a working royal economic hub and not just a palace."
+        }
+      ],
+      "commonsFile": "Nisa-Entrance-2015.JPG"
     },
     {
       "id": "evt-silk-road-parthia",
       "label": "Parthian Silk Road trade",
       "year": -120,
-      "description": "The Parthians became key middlemen in Silk Road trade between Rome and China, profiting enormously from tariffs on luxury goods.",
+      "description": "Sitting astride the overland routes between Rome and China, the Parthians turned geography into money — taxing the silk, spices, and horses that crossed their land.",
       "wikiSlug": "Silk_Road",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The trade link was no accident: in 115 BCE the Han Chinese emperor Wu sent envoys bearing gifts to the Parthian court of Mithridates II, opening formal contact between the two ends of Eurasia. The groundwork came from the Han explorer Zhang Qian, whose journeys west in the 130s–110s BCE first mapped these routes for China. Because the Parthians sat in the middle, Rome and China traded almost entirely through middlemen and never dealt directly — most Romans had only the haziest idea where their silk actually came from, imagining it grew on trees."
+        }
+      ]
     },
     {
       "id": "evt-mithraism-spread",
@@ -338,28 +509,49 @@
       "id": "evt-battle-carrhae",
       "label": "Battle of Carrhae",
       "year": -53,
-      "description": "A Parthian force led by Surena annihilated seven Roman legions under Crassus, one of Rome's worst military defeats.",
+      "description": "Rome's worst eastern catastrophe: seven legions under Crassus marched into the Mesopotamian desert and were shot to pieces by a far smaller Parthian cavalry army.",
       "wikiSlug": "Battle_of_Carrhae",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Surena's force was tiny by comparison — roughly 1,000 armored cataphracts and about 9,000 horse archers, plus a baggage train of a thousand camels loaded with spare arrows so the archers never ran dry, the logistical trick that let them keep firing all day. Of Crassus' roughly 40,000 men, about 20,000 died and 10,000 were taken prisoner. The Parthians also seized several legionary eagles (the sacred standards each legion carried), a humiliation Rome stewed over for 33 years until Augustus negotiated their return in 20 BCE. One grisly tradition holds the Parthians poured molten gold into the dead Crassus' mouth, a jab at the famous greed of one of Rome's richest men."
+        }
+      ],
+      "commonsFile": "Battle_of_Carrhae_(Caesarː_A_History_Of_The_Art_Of_War_Among_The_Romans_Down_To_The_End,_vol._II,_1892).jpg"
     },
     {
       "id": "evt-surena",
       "label": "Surena",
       "year": -53,
-      "description": "Brilliant Parthian general who devised the tactics that destroyed Crassus's army at Carrhae, including the famous Parthian shot.",
+      "description": "The young aristocrat who masterminded Carrhae — and was put to death by his own king barely a year later for being too brilliant.",
       "wikiSlug": "Surena",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Surena came from the House of Suren, one of the great Parthian noble clans so powerful that its head held the hereditary right to crown new Arsacid kings. He served under King Orodes II, and his wealth and following were said to be second only to the monarch's. The execution came in 52 BCE: Orodes, threatened by a subject whose fame now outshone his own, had him killed — a textbook example of the crown-versus-nobility tension that ran through all 500 years of Parthian rule."
+        }
+      ],
+      "commonsFile": "Parthian_mounted_archer.jpg"
     },
     {
       "id": "evt-ctesiphon-capital",
       "label": "Ctesiphon becomes capital",
       "year": -58,
-      "description": "The Parthians established Ctesiphon on the Tigris as their winter capital, which would later become the Sassanid capital as well.",
+      "description": "The Parthians turned a riverside camp on the east bank of the Tigris into Ctesiphon, their winter capital and, for the next eight centuries, the seat of Iranian power.",
       "wikiSlug": "Ctesiphon",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The site started life as a military camp that an earlier Parthian king, Mithridates I, pitched across the river from Seleucia, the big Greek-founded city, so his troops wouldn't be billeted on (and resented by) the locals. It only became the royal capital around 58 BCE under King Orodes II. Ctesiphon and its neighboring towns grew so tangled together that Arabic speakers later just called the whole sprawl al-Mada'in, \"the Cities.\" It would stay Iran's capital straight through the Sassanid era until the Arab conquest in the 630s CE."
+        }
+      ],
+      "commonsFile": "001125-TaqKasra-Iraq-IMG_7914-2.jpg"
     },
     {
       "id": "evt-parthian-texts",
@@ -375,157 +567,254 @@
       "label": "Ardashir I founds Sassanid Empire",
       "year": 224,
       "endYear": 242,
-      "description": "Ardashir I defeated the last Parthian king Artabanus IV at the Battle of Hormozdgan, founding the Sassanid dynasty.",
+      "description": "A priest-king from a small district in Fars crushed the last Parthian king at the Battle of Hormozdgan, ending five centuries of Arsacid rule and launching the Sassanid dynasty.",
       "wikiSlug": "Ardashir_I",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle was fought on April 28, 224 CE, and Ardashir reportedly killed Artabanus IV in single combat (or had him killed on the field). He claimed the old Persian title \"King of Kings\" right there on the battlefield, but didn't hold his formal coronation until around 226 CE at Ctesiphon, the great Mesopotamian capital, once he'd mopped up the rest of the Parthian holdouts. The dynasty he founded would last 427 years, longer than the Achaemenids it claimed to revive."
+        }
+      ],
+      "commonsFile": "Dinar_of_Ardashir_I_(cropped).jpg"
     },
     {
       "id": "evt-mani-manichaeism",
       "label": "Mani founds Manichaeism",
       "year": 240,
-      "description": "The prophet Mani established Manichaeism, a syncretic religion blending Zoroastrian, Christian, and Buddhist elements that spread across Eurasia.",
+      "description": "The prophet Mani launched a brand-new world religion that fused Zoroastrian, Christian, and Buddhist ideas into a cosmic war between Light and Darkness.",
       "wikiSlug": "Mani_(prophet)",
       "tier": 2,
       "category": "religion",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mani was born around 216 CE near Ctesiphon and began preaching publicly in the early 240s, claiming to be the final prophet in a line that included Zoroaster, Buddha, and Jesus. He organized his followers into two ranks borrowed loosely from Buddhist monasticism: the \"elect,\" who lived strictly, and the ordinary \"hearers,\" who supported them. He was a genuine artist and writer who illustrated his own scriptures, and his religion eventually reached from North Africa all the way to Tang China before fading out. He died in prison around 274 CE after the Zoroastrian establishment under Bahram I turned on him."
+        }
+      ],
+      "commonsFile": "Seal_of_Mani_(cleaned_up)._Seal_with_figure_of_Mani,_possibly_3rd_century_CE,_possibly_Irak._Cabinet_des_Médailles,_Paris.jpg"
     },
     {
       "id": "evt-shapur-i",
       "label": "Shapur I",
       "year": 240,
       "endYear": 270,
-      "description": "Expanded the Sassanid Empire dramatically and famously captured Roman Emperor Valerian at the Battle of Edessa in 260 CE.",
+      "description": "Ardashir's son and one of the most successful warlords in Iranian history, who beat three Roman emperors in a row and styled himself King of Kings of Iran and non-Iran.",
       "wikiSlug": "Shapur_I",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "people",
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shapur ruled alongside his father as co-king for a couple of years before Ardashir died in 242 CE, so the handoff was seamless rather than a scramble. His full title, \"King of Kings of Iran and non-Iran,\" was a deliberate brag that he ruled lands beyond the Iranian heartland too. He recorded his victories in a giant trilingual inscription (Middle Persian, Parthian, and Greek) on the Cube of Zoroaster tower at Naqsh-e Rostam, sometimes called the \"deeds of the divine Shapur,\" which historians still mine as a primary source."
+        }
+      ],
+      "commonsFile": "Naqsh-e_Rajab_-_Shapur_I_investiture.jpg"
     },
     {
       "id": "evt-capture-valerian",
       "label": "Capture of Emperor Valerian",
       "year": 260,
-      "description": "Shapur I captured Roman Emperor Valerian at the Battle of Edessa, the only time a Roman emperor was taken prisoner.",
+      "description": "At the Battle of Edessa in 260 CE, Shapur captured the Roman emperor Valerian alive, the only time in history a sitting Roman emperor was taken prisoner by a foreign enemy.",
       "wikiSlug": "Battle_of_Edessa",
       "tier": 3,
       "category": "wars",
       "tags": [
         "rulers"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Valerian wasn't the only emperor Shapur had already humbled at Edessa, in modern southeastern Turkey: he had earlier forced Philip the Arab to pay a staggering 500,000 gold pieces for peace, and the emperor Gordian III died during a Persian campaign in 244 CE. Lurid later Christian accounts, written by hostile authors centuries afterward, claimed Shapur used Valerian as a footstool for mounting his horse and had him flayed after death, but contemporary Persian sources say nothing, and most historians treat the gory details as propaganda. The captured Roman soldiers were put to work building cities and infrastructure deep inside Persia."
+        }
+      ],
+      "commonsFile": "Cameo_Shapur_Valerianus_Bab360_CdM_Paris.jpg"
     },
     {
       "id": "evt-naqsh-e-rostam",
       "label": "Naqsh-e Rostam reliefs",
       "year": 260,
-      "description": "Monumental rock reliefs carved at Naqsh-e Rostam depicting Shapur's triumph over three Roman emperors, a masterpiece of Sassanid art.",
+      "description": "Shapur's victory over Rome carved into the cliff at Naqsh-e Rostam, deliberately set right below the rock-cut tombs of the Achaemenid kings.",
       "wikiSlug": "Naqsh-e_Rostam",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cliff is essentially an open-air necropolis holding four Achaemenid royal tombs, including Darius the Great and Xerxes, which is exactly why the Sassanids chose it: carving their triumph there literally placed the new dynasty beneath the bones of the old one they claimed to inherit. The most detailed version of the relief packs in all three defeated emperors at once: Valerian standing in submission with his wrist grasped by Shapur, Philip the Arab kneeling, and the dead Gordian III trampled under the king's horse. The site's rock carvings span over a thousand years, from the Elamites through the Achaemenids to the Sassanids."
+        }
+      ],
+      "commonsFile": "Naqsh-e_Rustam_necropolis_in_Iran.jpg"
     },
     {
       "id": "evt-kartir",
       "label": "Kartir's religious reforms",
       "year": 280,
-      "description": "The Zoroastrian high priest Kartir established orthodoxy, persecuted rival religions, and consolidated priestly power under Bahram II.",
+      "description": "The Zoroastrian high priest who built the Sassanid state church, persecuting rival faiths and lifting the priesthood to political power it had never held before.",
       "wikiSlug": "Kartir",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kartir is the only non-royal person in all of Sassanid history allowed to carve his own rock inscriptions, and he left several boasting of his career climb to mowbedan mowbed (\"priest of priests,\" the supreme religious office). He served an astonishing five kings in a row, and his main inscription was added around 280 CE under Bahram II. One of his texts even claims he made a mystical journey to the afterlife to confirm the truth of Zoroastrian teaching, a rare first-person account of religious experience from the ancient world."
+        }
+      ],
+      "commonsFile": "Naqshe_Rajab_Darafsh_Ordibehesht_93_(1).jpg"
     },
     {
       "id": "evt-shapur-ii",
       "label": "Shapur II",
       "year": 309,
       "endYear": 379,
-      "description": "One of the longest-reigning Persian monarchs who waged prolonged wars against Rome and defended the eastern frontier against nomadic invasions.",
+      "description": "The longest-reigning Sassanid king (a full 70 years), who battled Rome across six decades, crushed Arab raiders, and launched the empire's first golden age.",
       "wikiSlug": "Shapur_II",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Legend says Shapur was crowned before he was even born, with the crown laid on his pregnant mother's belly — though modern historians shrug at the tale, since nobody could have known the baby was a boy. More likely he was simply proclaimed king as an infant, then held the title until he died at 70, an extraordinary run that no other Sassanid matched. To punish the Arab tribes who had raided Iran during his minority, he campaigned so brutally in Arabia that he earned the nickname Dhul-Aktaf, \"the shoulder-piercer.\""
+        }
+      ],
+      "commonsFile": "Bust_of_Shapur_II_the_Great_in_the_Metropolitan_Museum_of_Art.jpg"
     },
     {
       "id": "evt-gundishapur-academy",
       "label": "Academy of Gundishapur flourishes",
       "year": 370,
-      "description": "The Academy of Gundishapur became a leading center of medicine, philosophy, and science, drawing scholars from Greece, India, and Syria.",
+      "description": "A medical school, hospital, and translation hub in southwestern Iran that became the late antique world's greatest center of learning — and the world's first true teaching hospital.",
       "wikiSlug": "Academy_of_Gundishapur",
       "tier": 2,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The hospital was a bimaristan (Persian for \"place of the sick\"), and the Islamic hospitals that came later were all built on its model. The institution's prestige outlived the empire: a single family of Nestorian Christian doctors trained there, the Bukhtishu, went on to serve as personal physicians to the Abbasid caliphs in Baghdad for roughly six generations. Some scholars think Gundishapur also had a predecessor in the school of Nisibis, suggesting the teaching-hospital idea grew out of the eastern Christian academic tradition as much as the Persian one."
+        }
+      ],
+      "commonsFile": "Ancient_City_of_Gandhi_Shapour_02.jpg"
     },
     {
       "id": "evt-avesta-compilation",
       "label": "Avesta compiled in written form",
       "year": 400,
-      "description": "The sacred texts of Zoroastrianism were compiled and written down in the Avestan script during the Sassanid period after centuries of oral transmission.",
+      "description": "Zoroastrianism's scriptures, carried for over a thousand years by memory alone, were finally written down — using a brand-new alphabet invented just for the job.",
       "wikiSlug": "Avesta",
       "tier": 3,
       "category": "writing",
       "tags": [
         "religion"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The script, called Din Dabireh (\"religion writing\"), had around 53 characters and was engineered to capture the tiniest sounds of priestly chanting, so that the sacred recitation could be frozen exactly as spoken. The canon was fixed roughly in the fourth century, around Shapur II's reign. Iranian priests had resisted writing the texts down for centuries, treating oral memory as holier than ink — which is why so much of the older Avesta was lost before it ever reached a page."
+        }
+      ],
+      "commonsFile": "Videvdad_Sadah_(Zoroastrian_religious_code),_opened_to_first_chapter,_unknown_copyist,_Yazd,_Iran,_1647_AD_-_British_Library,_London_-_DSC00550.jpg"
     },
     {
       "id": "evt-sassanid-silk",
       "label": "Sassanid silk production",
       "year": 450,
-      "description": "The Sassanids developed a thriving domestic silk weaving industry, with distinctive patterns that influenced textile art across the medieval world.",
+      "description": "Persian weavers broke China's ancient monopoly and built their own silk industry, turning out luxury textiles whose roundel patterns set the fashion for the medieval world.",
       "wikiSlug": "Sasanian_Empire#Economy",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Persians sat astride the Silk Road and squeezed it hard — controlling and sometimes cutting off the flow of raw silk to Rome's eastern heir, Byzantium. That stranglehold pushed the Byzantine emperor Justinian to take drastic action: around 552 CE he reportedly sent two monks to smuggle silkworm eggs out of the East, hidden inside hollow bamboo canes, to start his own industry and stop paying the Persians. Sassanid silk designs proved so popular that their hallmark roundels — circular frames around hunters, lions, and winged horses — kept showing up on Byzantine and early Islamic cloth long after the empire fell."
+        }
+      ],
+      "commonsFile": "Sasanian_Silk_Samite_cloth_Circa_960.jpg"
     },
     {
       "id": "evt-khosrow-i",
       "label": "Khosrow I Anushirvan",
       "year": 531,
       "endYear": 579,
-      "description": "Known as 'Immortal Soul,' he reformed taxation, reorganized the military, and presided over a golden age of Persian culture and learning.",
+      "description": "The greatest Sassanid king — \"of the Immortal Soul\" — who overhauled the empire's taxes and army, beat back both Rome and the Huns, and presided over its cultural high-water mark.",
       "wikiSlug": "Khosrow_I",
       "tier": 1,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before his reforms, Khosrow had to put down the Mazdakites, followers of a radical preacher named Mazdak who demanded that property (and even wives) be shared communally; around 528 CE Khosrow had Mazdak and his adherents massacred, then used the chaos over who owned what land to push through a sweeping new tax based on actual surveyed acreage. He also got a literary afterlife as the wise king \"Kisra\" of later Arabic and Persian lore, the byword for just rule. His chief minister, Bozorgmehr, became the legendary embodiment of the clever vizier."
+        }
+      ],
+      "commonsFile": "Plate_of_the_Sasanian_king_Khosrow_I_Anushirvan.jpg"
     },
     {
       "id": "evt-taq-kasra",
       "label": "Taq Kasra arch built",
       "year": 540,
-      "description": "The great arch at Ctesiphon, with the largest single-span vault of the ancient world at 37 meters, was completed under Khosrow I.",
+      "description": "The colossal brick arch of the royal palace at Ctesiphon — a barrel vault about 120 feet (37 meters) tall that stayed the world's largest single-span brick vault for some 1,400 years.",
       "wikiSlug": "Taq_Kasra",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The whole thing was built from millions of unfired-style bricks held together with gypsum mortar, with no internal frame or reinforcement — the bricks were even laid at a slant so the unfinished arch could support itself mid-construction. A Tigris River flood in 1888 tore away roughly a third of the surviving ruins, and the structure has kept crumbling: part of the facade collapsed again as recently as 2019. Some engineers now rank it the second-largest unreinforced brick vault on Earth, just behind another Iranian structure, the Gavmishan Bridge."
+        }
+      ]
     },
     {
       "id": "evt-chess-persia",
       "label": "Chess introduced to Persia",
       "year": 550,
-      "description": "The Indian game of chaturanga was introduced to the Sassanid court, where it evolved into shatranj and later spread to the Arab world and Europe.",
+      "description": "Chess arrived from India during Khosrow I's reign as chatrang, the ancestor of the modern game — and the Persian court treated it as a contest of wits worthy of kings.",
       "wikiSlug": "Shatranj",
       "tier": 3,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A Persian legend, written down in the Pahlavi text Wizarishn i Chatrang (\"Treatise on Chess\"), says an Indian king sent the game as a sealed challenge — figure out the rules or pay tribute — with pieces carved from emerald and ruby. Khosrow's vizier Bozorgmehr cracked it, then fired back by inventing backgammon as a counter-puzzle the Indians couldn't solve. The word \"checkmate\" still carries the Persian phrase shah mat (\"the king is helpless/dead\"), and \"rook\" comes from rokh, the Persian word for chariot."
+        }
+      ],
+      "commonsFile": "Bayasanghori_Shahnameh_5_(cropped).jpg"
     },
     {
       "id": "evt-khosrow-ii",
       "label": "Khosrow II",
       "year": 590,
       "endYear": 628,
-      "description": "The last great Sassanid king who nearly conquered the Byzantine Empire before a devastating reversal led to his overthrow.",
+      "description": "The last powerful Sassanid king of kings, whose reign swung from near-total conquest of the Byzantine Empire to a crushing reversal and his own murder.",
       "wikiSlug": "Khosrow_II",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "people",
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His full name was Khosrow Parviz, meaning Khosrow \"the Victorious\" or \"the Ever-Triumphant\" — a title that aged badly. In 614 CE his armies sacked Jerusalem and carried off Christianity's holiest relic, the True Cross (believed to be the wood of the crucifixion), back to the Persian capital; the Byzantines wouldn't get it back until 628 CE. When the war collapsed, Khosrow wasn't killed by an enemy at all — his own estranged son seized power as Kavad II and had his father imprisoned and executed, reportedly after first murdering the king's other sons in front of him."
+        }
+      ],
+      "commonsFile": "Taghe_bostan.JPG"
     },
     {
       "id": "evt-shahnameh-oral",
@@ -541,40 +830,68 @@
       "label": "Last great Roman-Persian war",
       "year": 602,
       "endYear": 628,
-      "description": "The final and most devastating war between Byzantium and the Sassanids exhausted both empires, leaving them vulnerable to the Arab conquests.",
+      "description": "The final and most ruinous war between Byzantium and Persia, a 26-year slugging match that left both empires bankrupt and wide open to the Arab armies that came next.",
       "wikiSlug": "Byzantine–Sasanian_War_of_602–628",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Persians got astonishingly close to finishing Byzantium off: by the 620s they held Egypt, Syria, Palestine, and most of Anatolia, and their armies camped within sight of Constantinople itself in 626 CE. Then the Byzantine emperor Heraclius gambled everything on a deep strike into the Persian heartland, smashing the Sassanid army at the Battle of Nineveh in late 627 CE (near modern Mosul, Iraq) and looting Khosrow's own palace at Dastagird. The peace deal of 628 CE handed back all the conquered lands and returned the True Cross — but the two superpowers had bled each other white, and within a decade both would be reeling from a foe neither saw coming."
+        }
+      ],
+      "commonsFile": "Piero_della_Francesca_021.jpg"
     },
     {
       "id": "evt-battle-al-qadisiyyah",
       "label": "Battle of al-Qadisiyyah",
       "year": 636,
-      "description": "Arab Muslim forces defeated the Sassanid army in a decisive battle that opened Mesopotamia to the Islamic conquest.",
+      "description": "The first big clash between the Arab Muslim army and the main Sassanid field force, fought over several days in southern Iraq and won when the Persian battle line finally cracked.",
       "wikiSlug": "Battle_of_al-Qādisiyyah",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Most accounts place it on 16–19 November 636 CE. The Persian general Rostam Farrokhzad fielded a force stiffened by around 33 war elephants — armored beasts the Arabs had never faced in battle — carried in eight-per-division formations with fighting platforms strapped to their backs. The Arabs improvised: light troops slipped in and cut the cables holding the platforms, then went for the elephants' eyes and trunks until the panicked animals trampled their own lines. Rostam was killed in the chaos, and his death is what truly broke the Sassanid army; he survives in Persian memory through the great epic poem the Shahnama, which casts him as a doomed hero who already knew the war was lost."
+        }
+      ],
+      "commonsFile": "Depiction_of_the_Battle_of_al-Qādisiyyah_from_a_manuscript_of_the_Persian_epic_Shāh-nāmeh._Source-_British_Library_(MS._I.O.Islamic_3265_(1614)_f._602r).jpg"
     },
     {
       "id": "evt-fall-sassanid",
       "label": "Fall of the Sassanid Empire",
       "year": 651,
-      "description": "The last Sassanid king Yazdegerd III was killed in Merv, ending over four centuries of Sassanid rule and a millennium of Iranian imperial tradition.",
+      "description": "The death of the last Sassanid king, Yazdegerd III, killed while on the run far from his lost capital — the formal end of more than a thousand years of Persian imperial rule.",
       "wikiSlug": "Muslim_conquest_of_Persia",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yazdegerd had been crowned a child of about eight in 632 CE, after a chaotic stretch in which the Sassanids burned through roughly ten rulers in four years, so he never really governed a stable kingdom — he inherited a collapse. He spent his last years fleeing eastward, vainly trying to raise armies in the provinces. He was about 27 when he was killed near Merv (an oasis city in modern Turkmenistan) in 651 CE; sources can't agree whether a miller murdered him for his fine clothes and jewels or whether the local governor had him quietly disposed of after deciding the cause was hopeless. Either way, no heir could rebuild the throne, and the empire was finished."
+        }
+      ],
+      "commonsFile": "The_assassination_of_Chosroës_Parvez.jpg"
     },
     {
       "id": "evt-conquest-lydia",
       "label": "Conquest of Lydia",
       "year": -546,
-      "description": "Cyrus defeated King Croesus of Lydia at the Battle of Thymbra, capturing Sardis and gaining control of the wealthy kingdom and its Greek coastal cities.",
+      "description": "Cyrus crushed Croesus, the proverbially rich king of Lydia in western Anatolia, and took his capital at Sardis — gaining the Aegean coast and, with it, the Greek cities of Ionia.",
       "wikiSlug": "Battle_of_Thymbra",
       "tier": 3,
       "category": "wars",
       "tags": [
         "rulers"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The decisive Battle of Thymbra (547 BCE) was reportedly won by a smell: Cyrus's general Harpagus had baggage camels lined up in front, and the Lydian warhorses, panicked by the unfamiliar scent, bolted. Croesus had picked the fight partly on a prophecy — the Oracle at Delphi told him that attacking Persia would destroy \"a great empire,\" and he never imagined it meant his own. Lydia's lasting gift to the empire was money: under Croesus the Lydians had pioneered the first true bimetallic coins, separate stamped gold and silver pieces of guaranteed weight, panned in part from the gold-rich Pactolus river."
+        }
+      ],
+      "commonsFile": "Defeat_of_Croesus_546_BCE.jpg"
     },
     {
       "id": "evt-susa-palace",
@@ -590,38 +907,65 @@
       "label": "Ionian Revolt",
       "year": -499,
       "endYear": -493,
-      "description": "Greek city-states in Ionia revolted against Persian rule with Athenian support, setting the stage for the Greco-Persian Wars.",
+      "description": "The Greek-speaking cities of Ionia (the coast of modern western Turkey) threw off their Persian-backed rulers and rebelled, dragging mainland Athens and Eretria into a war with the empire.",
       "wikiSlug": "Ionian_Revolt",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The revolt was settled at sea in 494 BCE off the tiny island of Lade, where a rebel fleet of 353 triremes (light, three-banked oared warships) faced a Persian fleet Herodotus puts at 600 ships, crewed largely by Phoenicians. It was lost less to Persian skill than to Greek disunity: the roughly 60 ships from Samos had cut a secret deal beforehand and simply sailed off mid-battle, and other contingents followed. With the fleet gone, Miletus fell, and the catchy slur that started it all stuck — Aristagoras, the Milesian who lit the fuse, has been the textbook example of a reckless opportunist ever since."
+        }
+      ]
     },
     {
       "id": "evt-battle-plataea",
       "label": "Battle of Plataea",
       "year": -479,
-      "description": "A Greek coalition decisively defeated the Persian army under Mardonius, ending Xerxes' invasion and Persian ambitions in mainland Greece.",
+      "description": "A combined Greek army crushed the Persian land force left behind under the general Mardonius, the final land battle of the invasion and the end of Persian designs on mainland Greece.",
       "wikiSlug": "Battle_of_Plataea",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This was the largest hoplite army the Greek cities ever put in the field together — Herodotus counts roughly 38,700 heavy infantry plus tens of thousands of lighter troops and helots (Spartan serf-soldiers), well over 100,000 men. The battle turned on the death of Mardonius himself, cut down in the fighting against the Spartans, after which his leaderless army collapsed and fled. The Greek commander was Pausanias, a Spartan regent and the nephew of Leonidas, the king who had died at Thermopylae the year before — a neat bit of family symmetry the Greeks loved to point out."
+        }
+      ],
+      "commonsFile": "Scene_of_the_Battle_of_Plataea.jpg"
     },
     {
       "id": "evt-artaxerxes-ii",
       "label": "Artaxerxes II",
       "year": -404,
       "endYear": -358,
-      "description": "Longest-reigning Achaemenid king who survived his brother Cyrus the Younger's rebellion and reasserted Persian influence over Greece via the King's Peace.",
+      "description": "The longest-reigning Achaemenid king (404-358 BCE), who beat back his own brother Cyrus the Younger at the Battle of Cunaxa and later muscled Persian influence back over the squabbling Greek cities through the King's Peace.",
       "wikiSlug": "Artaxerxes_II",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Greek writers claimed he fathered 115 sons by his many concubines — a number to take with a grain of salt, since these come from gossipy Greek sources, but it points to a sprawling, scheming royal household. He was the first Persian king known to publicly promote Anahita, a goddess of water, healing, and fertility, putting up statues and temples to her across the empire. Ancient accounts say he lived into his 80s or even 90s before dying of natural causes — a rare peaceful exit in a dynasty that specialized in assassinations."
+        }
+      ],
+      "commonsFile": "Artaxerxes_II_relief_detail.jpg"
     },
     {
       "id": "evt-battle-issus",
       "label": "Battle of Issus",
       "year": -333,
-      "description": "Alexander the Great defeated Darius III in a narrow coastal plain, capturing the Persian royal family and treasury at Damascus.",
+      "description": "In November 333 BCE on a cramped coastal plain in Cilicia (southeastern Turkey), Alexander beat Darius III in person for the first time. The narrow battlefield, squeezed between mountains and sea, cancelled out Persia's larger numbers, and Darius fled when Alexander's cavalry punched toward his chariot.",
       "wikiSlug": "Battle_of_Issus",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alexander captured Darius's entire traveling royal household — the king's mother Sisygambis, his wife Stateira, and their children — who had followed the army into the field. Rather than mistreat them, Alexander ordered they be treated with full royal honors, kept their pensions intact, and according to the biographer Plutarch left Stateira (renowned as a great beauty) untouched. Sisygambis grew so attached that she reportedly came to treat Alexander as a son, and he called her \"mother.\" The flight of Darius from this battle is the scene captured in the famous Alexander Mosaic from Pompeii."
+        }
+      ],
+      "commonsFile": "Battle_of_Issus_mosaic_-_Museo_Archeologico_Nazionale_-_Naples_2013-05-16_16-25-06_BW.jpg"
     },
     {
       "id": "evt-mithridates-ii",
@@ -640,79 +984,84 @@
       "id": "evt-shapur-bishapur",
       "label": "City of Bishapur founded",
       "year": 266,
-      "description": "Shapur I founded the city of Bishapur to commemorate his victories over Rome, adorned with mosaics and rock reliefs by Roman prisoners of war.",
+      "description": "Shapur's showpiece capital in Fars, built to celebrate beating Rome and decorated in a Roman style by the very prisoners he'd captured.",
       "wikiSlug": "Bishapur",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Founded in 266 CE, Bishapur was laid out on a Roman-style grid of crisscrossing streets, a plan so un-Persian that it was never repeated anywhere else in Iran and is usually credited to the captured Roman engineers. The site included a striking underground Temple of Anahita (the Persian water goddess), where worshippers descended a stairway to walk around a pool fed by a nearby river. The famous floor mosaics of musicians and banqueters there are pure Roman technique applied to Persian court life, a hybrid you find almost nowhere else."
+        }
+      ],
+      "commonsFile": "Anahita_Temple_of_Bishapur_(Kazerun)_1.jpg"
     },
     {
       "id": "evt-battle-nihavand",
       "label": "Battle of Nihavand",
       "year": 642,
-      "description": "Arab forces defeated the Sassanid army in the decisive 'Victory of Victories,' effectively ending organized Persian resistance to the Islamic conquest.",
+      "description": "The battle in the Zagros mountains of western Iran that wiped out the last organized Sassanid army and threw the whole Iranian plateau open to conquest.",
       "wikiSlug": "Battle_of_Nahavand",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Arabs nicknamed it Fath al-Futuh, the \"Victory of Victories,\" because it removed any hope of a Persian comeback. The roughly 30,000 Arabs were heavily outnumbered, but they reportedly faked a retreat to lure the larger Persian force out of its fortified position and into the open, where it was cut to pieces. The fighting killed commanders on both sides: the Persian general Firuzan and the Arab commander al-Nu'man ibn Muqarrin, who fell during the battle so that command passed to his deputy mid-fight. It was fought in 642 CE near the town of Nahavand, which still exists in Iran's Hamadan province today."
+        }
+      ],
+      "commonsFile": "Castle_Nahavend_by_Eugène_Flandin.jpg"
     },
     {
       "id": "evt-pe-cyrus-anshan-title",
       "label": "Cyrus Claims 'King of Anshan'",
       "year": -559,
-      "description": "When Cyrus II came to power in the Persian heartland of Fars, he claimed the ancient Elamite title 'King of Anshan' — the same royal seat that the Elamite kings had held for two thousand years. The title was a deliberate statement of continuity: the Persian Empire would inherit Elam's bureaucratic traditions, not start from scratch.",
+      "description": "Cyrus's opening move wasn't a battle but a title: \"King of Anshan,\" the ancient royal seat the Elamite kings had held for some two thousand years. It announced that his new Persian kingdom was the heir to Elam, not a fresh start.",
       "wikiSlug": "Cyrus_the_Great",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Elam's Heir",
-          "text": "Anshan (modern Tall-i Malyan) was the highland capital of the Elamite civilization for millennia. By claiming 'King of Anshan,' Cyrus was announcing that the new Persian state was the successor to the oldest political tradition on the Iranian plateau — the same tradition that had produced the 30,000-tablet Persepolis Fortification Archive in Elamite cuneiform."
-        },
-        {
-          "label": "Continuity, Not Conquest",
-          "text": "The Persian Empire did not destroy what it conquered — it absorbed. Elamite scribes kept writing in Elamite cuneiform at Persepolis. Babylonian administrators kept running Babylon. Egyptian priests kept serving their gods. The absorption model started with Cyrus's adoption of the Anshan title and became the defining characteristic of Achaemenid governance."
+          "label": "Explore further",
+          "text": "The continuity wasn't just for show — the empire's heartland really did run on the Elamite language. The Persepolis Fortification Archive, the day-to-day administrative records of the empire's core, is a hoard of clay tablets written mostly in Elamite cuneiform, not Old Persian. Anshan was the highland half of the old Elamite kingdom (Susa was the lowland half), and the Assyrian king Ashurbanipal had wrecked Elam back in the 640s BCE — so the crown Cyrus picked up had been lying vacant for less than a century."
         }
-      ]
+      ],
+      "commonsFile": "Cyrus_Cylinder_front.jpg"
     },
     {
       "id": "evt-pe-satrapy-system",
       "label": "The Satrapy System",
       "year": -520,
-      "description": "Darius I reorganized the empire into roughly 20 satrapies (provinces), each governed by a satrap (governor) who collected taxes, maintained order, and raised troops — but was watched by a royal secretary, a military commander, and traveling inspectors called 'the King's Eyes and Ears' to prevent rebellion.",
+      "description": "Darius's provincial blueprint: roughly 20 satrapies, each run by a governor (a satrap), with a built-in web of spies and rival officials so no governor could grow strong enough to revolt.",
       "wikiSlug": "Satrapy",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Divide and Watch",
-          "text": "The satrapy system was designed to solve the oldest problem of empire: how to govern territory too large for one person to see. Each satrap had enormous local authority but was structurally unable to consolidate power — the military commander answered directly to the king, the royal secretary reported independently, and the King's Eyes could show up unannounced. The system was a masterpiece of institutional distrust."
-        },
-        {
-          "label": "Tax Districts",
-          "text": "Each satrapy owed a fixed annual tribute in silver, kind, or labor. Darius standardized the assessments, recorded them in the treasury archives, and enforced collection with the threat of military intervention. The system financed the standing army, the road network, and the massive construction programs at Persepolis and Susa."
+          "label": "Explore further",
+          "text": "The word satrap comes from the Old Persian xshacapavan, literally 'protector of the realm,' and the title outlived the Persians — the Greek successor kingdoms and even later empires kept borrowing it. The genius of the design was the split of powers: the satrap ran civil affairs, but the army commander and a royal secretary in his province reported straight to the king behind his back. Herodotus put the empire's total yearly tribute at something like 14,560 talents of silver — on the order of 400 tons of metal — paid not just in coin but in horses, ivory, and gold dust, an inventory of an entire world's wealth flowing toward the throne."
         }
-      ]
+      ],
+      "commonsFile": "Achaemenid_Satrap_Asia_Minor_end_of_6th_century_BCE.jpg"
     },
     {
       "id": "evt-pe-persepolis-archive",
       "label": "Persepolis Fortification Archive",
       "year": -509,
-      "description": "The Persepolis Fortification Archive — over 30,000 clay tablets written in Elamite cuneiform — records the daily administration of the Persian heartland around 509-494 BCE: food rations, travel authorizations, religious offerings, and labor management. It is the single most detailed record of how the Achaemenid Empire actually functioned day to day.",
+      "description": "Tens of thousands of clay tablets sealed inside the Persepolis fortification wall, logging the empire's day-to-day paperwork around 509–494 BCE — the closest thing we have to the Achaemenid state caught mid-shuffle.",
       "wikiSlug": "Persepolis_Fortification_Archive",
       "tier": 1,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Written in Elamite",
-          "text": "The archive is written in Elamite cuneiform — not Old Persian, not Aramaic, but the language and script of the old Elamite bureaucracy. This is the smoking gun for the Elamite-to-Persian administrative continuity: two centuries after Elam ceased to exist as an independent kingdom, its scribal tradition was still running the Persian Empire's paperwork."
-        },
-        {
-          "label": "What It Records",
-          "text": "The tablets record grain and wine rations issued to workers, travel provisions for officials on the Royal Road, offerings to Zoroastrian and local deities, and labor allocations for construction projects. They name individuals by title and origin — Persians, Elamites, Babylonians, Egyptians, Greeks, Indians — working side by side in a genuinely multicultural bureaucracy."
+          "label": "Explore further",
+          "text": "Ernst Herzfeld's team dug the tablets out of two small rooms in the fortification wall in 1933, and the University of Chicago shipped them to Illinois on loan to study and decipher. Most are in Elamite cuneiform, but the seal impressions and occasional Aramaic notes show a polyglot office at work. The loan turned into one of archaeology's longest: after more than eight decades in Chicago, batches of the tablets were sent home to Iran, with roughly 1,800 returned as recently as 2019 — the slow unwinding of a study project that began before World War II."
         }
-      ]
+      ],
+      "commonsFile": "Persepolis_tablet.jpg"
     },
     {
       "id": "evt-pe-postal-system",
@@ -734,93 +1083,86 @@
       "id": "evt-pe-ahura-mazda",
       "label": "Ahura Mazda and Zoroastrian Dualism",
       "year": -520,
-      "description": "Darius I's inscriptions declare Ahura Mazda ('Wise Lord') as the supreme god who created heaven, earth, and humanity. Zoroastrianism, the religion of the prophet Zarathustra, framed the cosmos as a battle between Ahura Mazda (truth, light, order) and Angra Mainyu (the lie, darkness, chaos) — the oldest known ethical dualism in any religion.",
+      "description": "The Wise Lord of Zoroastrian belief, invoked all over Darius's inscriptions as the god who handed him the kingdom — head of a cosmos imagined as a war between truth and the Lie, the oldest known ethical dualism.",
       "wikiSlug": "Zoroastrianism",
       "tier": 1,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Cosmic War",
-          "text": "Zoroastrianism taught that every human being participated in the cosmic battle between truth and the lie by choosing good thoughts, good words, and good deeds. The individual's choices mattered — they tipped the cosmic balance. This was a radical idea in the ancient world, where most religions assumed the gods did as they pleased and humans endured it."
-        },
-        {
-          "label": "Influence",
-          "text": "Zoroastrian dualism influenced Judaism during the Babylonian exile (the concepts of Satan, angels, apocalypse, and bodily resurrection have been traced to Zoroastrian contact), and through Judaism it influenced Christianity and Islam. The religion of a Persian prophet may be the single most influential theological export in human history."
+          "label": "Explore further",
+          "text": "Darius framed his enemies in religious terms, branding the rebel kings he crushed as followers of 'the Lie' (Old Persian drauga) rather than mere political traitors. Scholars still argue whether Darius was a true believer or just borrowing the vocabulary, partly because his inscriptions never actually name the prophet Zarathustra. The faith's signature image — a winged disc with a human figure rising from it, often read as Ahura Mazda or a royal guardian spirit — hovers over the king on reliefs at both Behistun and Persepolis."
         }
-      ]
+      ],
+      "commonsFile": "Faravahar_on_Fire_Temple,_Yazd.jpg"
     },
     {
       "id": "evt-pe-persepolis-apadana",
       "label": "The Apadana at Persepolis",
       "year": -515,
-      "description": "The Apadana (audience hall) at Persepolis was a vast hypostyle hall with 72 stone columns, each 65 feet tall, capable of holding 10,000 people. Its monumental staircase reliefs depict delegations from all 23 subject peoples bringing tribute to the king — the most complete visual catalogue of the Achaemenid Empire's diversity.",
+      "description": "The grand audience hall at the heart of Persepolis, its roof once held up by 72 towering columns — and its staircase walls carved with tribute-bearers from every corner of the empire, the fullest portrait in stone of Achaemenid diversity.",
       "wikiSlug": "Apadana",
       "tier": 1,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "The Nations on the Stairs",
-          "text": "The Apadana staircase reliefs show Medes in round caps bringing horses, Babylonians in fringed robes bringing bulls, Ethiopians bringing ivory and a giraffe, Indians bringing gold dust, Scythians bringing horses and bracelets, Egyptians bringing linen and a bull — each delegation carved in distinctive dress with distinctive gifts, in a procession that serves as a stone census of the known world."
-        },
-        {
-          "label": "Architecture of Power",
-          "text": "The Apadana's columns were topped with double-bull or double-griffin capitals in a style that synthesized Egyptian, Mesopotamian, Greek, and Iranian elements. The architecture of Persepolis was as deliberately multicultural as the empire it represented — built by workers from every satrapy, in a style that belonged to none of them and all of them."
+          "label": "Explore further",
+          "text": "Of those 72 columns, only 13 were still standing by the start of the 20th century (archaeologists re-erected a fallen one in the 1970s to make 14). Each column stood about 65 feet (20 meters) tall, holding up a roof of imported cedar beams over a hall covering some 10,000 square feet. The procession carved on the staircases reads like a catalog: Medes in felt caps leading horses, Babylonians with a humped bull, Nubians offering a giraffe, Indians with gold dust, Armenians with a fine vase — every delegation given its own dress, gifts, and dignity rather than the broken-captive treatment Assyrian carvers gave the conquered."
         }
-      ]
+      ],
+      "commonsFile": "Persepolis001.jpg"
     },
     {
       "id": "evt-pe-aramaic-lingua-franca",
       "label": "Imperial Aramaic as Lingua Franca",
       "year": -500,
-      "description": "The Achaemenid Empire adopted Aramaic — the language of Syrian and Mesopotamian merchants — as its official administrative language for communication across satrapies. Imperial Aramaic became the first true lingua franca of the ancient Near East, spoken from Egypt to Afghanistan.",
+      "description": "The empire's everyday working language: Aramaic, already the merchant and diplomat tongue of the Near East, adopted by the Persians to glue together satrapies that spoke dozens of languages.",
       "wikiSlug": "Imperial_Aramaic",
       "tier": 2,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Why Aramaic?",
-          "text": "Old Persian was the language of the ruling dynasty, and Elamite was the language of the Persepolis bureaucracy, but neither was widely spoken outside its home region. Aramaic was already the common language of trade across the Near East — it used a simple alphabet that was easy to learn, could be written on cheap parchment or papyrus (unlike cuneiform on clay), and was already understood from the Mediterranean to the Indus. The Persians chose the practical option."
+          "label": "Explore further",
+          "text": "Aramaic's killer feature was its simplicity — a 22-letter alphabet you could scratch on cheap papyrus or leather, versus the hundreds of wedge-signs cuneiform demanded and the clay tablets it needed. Documents in 'Imperial Aramaic' have turned up from Egypt to Afghanistan, including a whole cache of letters from a Jewish military colony at Elephantine on the Nile. The script proved so durable that its descendants seeded the Hebrew, Arabic, and Syriac alphabets still written today."
         }
-      ]
+      ],
+      "commonsFile": "Letoon_stele.jpg"
     },
     {
       "id": "evt-pe-alexander-conquest",
       "label": "Alexander's Conquest",
       "year": -334,
-      "description": "Alexander III of Macedon crossed the Hellespont in 334 BCE with 40,000 troops and in three years destroyed the Achaemenid Empire — defeating Darius III at Issus (333), Gaugamela (331), and burning Persepolis (330). The conquest ended 220 years of Achaemenid rule but did not end Persian culture.",
+      "description": "Alexander III of Macedon crossed the Hellespont in spring 334 BCE with about 40,000 troops and in just three years toppled the Achaemenid Empire — beating Darius III at Issus (333), shattering him at Gaugamela (331), and burning Persepolis (330). It ended roughly 220 years of Persian rule, but Persian civilization outlived him.",
       "wikiSlug": "Wars_of_Alexander_the_Great",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Three Battles",
-          "text": "At Issus, Alexander caught Darius's army in a narrow coastal plain where Persian numbers couldn't deploy. At Gaugamela, on the open Mesopotamian plain, he punched through the center of the largest army Darius could assemble. Darius fled both battles and was eventually murdered by his own satrap, Bessus, who was in turn hunted down by Alexander."
-        },
-        {
-          "label": "Persepolis Burns",
-          "text": "Alexander burned Persepolis in 330 BCE — either as revenge for Xerxes' burning of Athens 150 years earlier, or in a drunken accident, depending on which ancient source you trust. The Apadana's columns and staircase reliefs survived because stone doesn't burn easily, but the wooden roofs, the treasury contents, and the administrative archives were destroyed. The burning was the single most destructive act of cultural vandalism in the ancient world."
+          "label": "Explore further",
+          "text": "Alexander reportedly slept with a dagger and his annotated copy of Homer's Iliad under his pillow, treating the warrior Achilles as a personal role model. His tutor was the philosopher Aristotle, who drilled into him the idea that Greeks were naturally superior to the \"barbarians\" of the East — though Alexander spent his last years trying to rule like a Persian king, adopting Persian dress and court ceremony, which infuriated his Macedonian veterans. He died at Babylon in June 323 BCE at age thirty-two, just thirteen years after he set out, leaving no plan of succession and an empire his generals immediately tore apart."
         }
-      ]
+      ],
+      "commonsFile": "Alexander_the_Great_mosaic.jpg"
     },
     {
       "id": "evt-pe-parthian-horse-archers",
       "label": "Parthian Horse Archers and the 'Parthian Shot'",
       "year": -150,
-      "description": "The Parthian military was built around heavy cavalry (cataphracts in full armor) and light horse archers who could fire backward while riding at full gallop — the famous 'Parthian shot' that gave Rome fits for three centuries.",
+      "description": "Parthia's two-part cavalry punch — armored lancers to break formations and horse archers who fired backward at a gallop — was the tactic that gave Rome fits for three centuries.",
       "wikiSlug": "Parthian_shot",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "The Tactic",
-          "text": "Parthian horse archers would approach a Roman formation, loose a volley of arrows, then wheel away before the infantry could close. If the Romans pursued, the archers turned in the saddle and shot backward over the horse's rump — the 'Parthian shot' that entered English as 'parting shot.' The tactic was devastatingly effective against slow-moving infantry on open ground."
+          "label": "Explore further",
+          "text": "The \"Parthian shot\" demanded real skill: with both hands on a composite bow and no hands on the reins, the rider twisted his whole torso around to shoot at pursuers while fleeing at full speed, steering the horse with his legs. The technique long outlived the Parthians and was reused by later steppe horsemen, including the Mongols, well into the medieval era. The modern English phrase \"parting shot\" is often claimed to be a corruption of \"Parthian shot,\" but that's likely a coincidence — the two expressions actually have separate recorded histories, with \"parting shot\" first appearing only in the early 1800s."
         }
-      ]
+      ],
+      "commonsFile": "ParthianHorseman.jpg"
     },
     {
       "id": "evt-pe-sassanid-art",
@@ -842,33 +1184,35 @@
       "id": "evt-pe-shahnama-tradition",
       "label": "The Khwaday-Namag and the Shahnama Tradition",
       "year": 600,
-      "description": "The Sassanid court commissioned the Khwaday-Namag ('Book of Lords'), a prose chronicle of Iranian kingship from mythical origins to the present. Though the original is lost, it was the direct source for Ferdowsi's Shahnama ('Book of Kings'), the Persian national epic written around 1000 CE — the longest poem ever written by a single author.",
+      "description": "The Sassanid court's lost prose chronicle of Iranian kingship, the Khwaday-Namag, which became the seed of Ferdowsi's Shahnama — the epic that preserved Persia's pre-Islamic identity.",
       "wikiSlug": "Khwaday-Namag",
       "tier": 2,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Why It Matters",
-          "text": "The Khwaday-Namag ensured that Iranian cultural memory survived the Arab conquest. When Ferdowsi turned it into the Shahnama four centuries later, he preserved a version of Persian identity that ran from mythical kings to the last Sassanid — a cultural continuity that helped Persian language and literature survive centuries of Arab and later Turkic domination. The Shahnama is to Persian identity what the Iliad is to Greek identity."
+          "label": "Explore further",
+          "text": "Ferdowsi spent roughly thirty years (from about 977 to 1010 CE) building the Shahnama's 50,000-plus couplets. Legend says Sultan Mahmud of Ghazni promised him a gold coin per couplet, then paid in silver worth a fraction of that; the disgusted poet supposedly gave the money away on the spot. By the time Mahmud sent the proper gold reward, it is said to have reached Ferdowsi's hometown of Tus just as his funeral procession was leaving the gates — too late for the poet to ever see it."
         }
-      ]
+      ],
+      "commonsFile": "The_Court_of_Gayumars_(Cropped).jpg"
     },
     {
       "id": "evt-pe-arab-conquest",
       "label": "The Arab Conquest of Iran",
       "year": 636,
-      "description": "Arab Muslim armies defeated the Sassanid field army at al-Qadisiyyah (636 CE) and Nihavand (642 CE), then spent a decade mopping up regional resistance. The last Sassanid king, Yazdegerd III, fled east and was murdered by a local miller in 651 CE. The conquest ended 400 years of Sassanid rule and four centuries of Zoroastrian state religion, but Persian culture and language survived and eventually reshaped Islam from within.",
+      "description": "The lightning campaign that toppled the Sassanid Empire in barely fifteen years — and the start of the long twist in which conquered Persia would culturally absorb its Arab conquerors.",
       "wikiSlug": "Muslim_conquest_of_Persia",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Not a Clean Break",
-          "text": "The Arab conquest did not destroy Persian civilization. Within two centuries, Persian-speaking Muslims had become the dominant cultural force in the eastern Islamic world — Persian poetry, Persian administration, Persian architecture, and Persian science became the prestige culture of the Abbasid caliphate. The Persians were conquered militarily but reconquered their conquerors culturally. This is the pattern Elam established and Persia perfected."
+          "label": "Explore further",
+          "text": "When Ctesiphon fell soon after al-Qadisiyyah, the Arabs seized a treasure so vast it became legendary: the Spring of Khosrow, an enormous palace carpet woven to depict a garden in bloom, threaded with gold, silver, and gemstones for flowers and streams. Unable to divide such a thing, the conquerors reportedly cut it into pieces and split it as loot. The conquest didn't erase the Persians, though — within a couple of centuries the Abbasid caliphate that dominated the Islamic world ran on Sassanid-style bureaucracy from Baghdad, built right beside the ruins of Ctesiphon, and Persian eventually came back as a literary language so strong it never died, the one major language the Arab conquests failed to replace."
         }
-      ]
+      ],
+      "commonsFile": "Shahnameh3-1.jpg"
     }
   ],
   "wikiSlug": "Achaemenid_Empire"
