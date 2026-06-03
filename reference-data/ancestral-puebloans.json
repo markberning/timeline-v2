@@ -65,101 +65,170 @@
       "id": "evt-puebloans-maize-cultivation",
       "label": "Maize Cultivation Adopted",
       "year": -100,
-      "description": "Ancestral Puebloan groups in the Four Corners region began cultivating maize originally domesticated in Mexico, supplementing their hunting and gathering with the crop that would become their staple food.",
+      "description": "Around 100 BCE, farming in the Four Corners tipped from a side hustle to the main event: corn went from a little something grown in good spots to the staple that organized where people lived, what they ate, and how they kept time.",
       "wikiSlug": "Maize#Origin",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Corn actually showed up in the Southwest far earlier than this. The oldest cobs, from the Old Corn Site in New Mexico, date to roughly 2100 BCE (about 4,200 years ago), so people grew it for around two thousand years before it became central. That first corn was a stubby popcorn-type variety with cobs only an inch or two long, not exactly a feast, and it spread northward from Mexico hand to hand across a startling range of elevations, from the warm Tucson basin near 2,300 feet (700 m) all the way up to caves on the Colorado Plateau above 7,200 feet (2,200 m)."
+        }
+      ],
+      "commonsFile": "Cornselection.jpg"
     },
     {
       "id": "evt-puebloans-early-basketry",
       "label": "Coiled Basketry Tradition",
       "year": -50,
-      "description": "Basketmaker peoples developed extraordinarily fine coiled baskets woven so tightly they could hold water, using yucca fiber and other desert plants in intricate designs.",
+      "description": "The Basketmakers earned their name from coiled baskets woven so tightly they held water, made by wrapping yucca and other desert-plant fibers around a bundled core in a spiraling coil.",
       "wikiSlug": "Basketmaker_culture",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These baskets doubled as cookpots in an era before pottery. You filled one with water or stew, dropped in fire-heated stones, and stirred; the rocks brought the liquid to a boil without burning the basket, and the weave actually sealed tighter once the fibers swelled with moisture. The same coiling technique was widespread among ancient peoples of the West, from the Southwest to the California Chumash, who likewise cooked with hot rocks in watertight baskets."
+        }
+      ],
+      "commonsFile": "Zion_National_Park_Basketmaker_II_basket_specifimen_from_AD_1_to_700.jpg"
     },
     {
       "id": "evt-puebloans-atlatl-use",
       "label": "Atlatl Hunting Technology",
       "year": -100,
-      "description": "Early Basketmaker hunters used the atlatl (spear-thrower) to hunt deer, bighorn sheep, and rabbits across the canyon country, a technology that would be replaced by the bow and arrow around 500 CE.",
+      "description": "Before the bow, the hunting weapon of choice was the atlatl, a throwing stick that acts like an extra-long arm to fling a light spear (a dart) with surprising force at deer, bighorn sheep, and rabbits.",
       "wikiSlug": "Atlatl",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The atlatl turns a thrower's arm into a lever, and tests with replicas based on Basketmaker-era throwers clock darts leaving the stick at roughly 45 to 67 miles per hour (72 to 108 km/h). The bow and arrow reached the Southwest around 500 CE, but the switch wasn't instant; the two weapons overlapped for generations, and archaeologists figure the bow didn't fully push out the atlatl until about 800 CE. The dry alcoves of Glen Canyon have even preserved actual Basketmaker throwers, the wooden tools themselves, not just rock-art pictures of them."
+        }
+      ],
+      "commonsFile": "Nativo_do_Novo_Mundo_lançando_flecha_com_o_propulsor_ou_estólica.jpg"
     },
     {
       "id": "evt-puebloans-first-pithouses",
       "label": "First Pithouse Villages",
       "year": 1,
-      "description": "Ancestral Puebloans began building shallow pithouses — semi-subterranean dwellings dug into the earth with timber-and-mud roofs — establishing the first permanent settlements in the Four Corners region.",
+      "description": "The early Basketmakers dug their homes partway into the ground (pithouses), roofing the pits with timber posts, poles, and mud, the Four Corners' first real settled architecture instead of mobile camps.",
       "wikiSlug": "Pit-house",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A typical pithouse was a circular or oval pit about 10 to 20 feet (3 to 6 m) across with a shallow basin floor, walls plastered in clay for insulation, and an entry ramp usually aimed south or east to catch sun and dodge wind. Many had a smaller side chamber, an antechamber, and slab-lined storage pits called cists, small stone-walled bins set into the ground to keep corn and dead alike safe from rodents. Interestingly, the eastern pithouses often skipped the antechamber, which builders left out where the local terrain didn't allow it."
+        }
+      ],
+      "commonsFile": "Pithouse_at_Step_House_Mesa_Verde_1.jpg"
     },
     {
       "id": "evt-puebloans-rock-art-basketmaker",
       "label": "Basketmaker Rock Art",
       "year": 200,
-      "description": "Basketmaker peoples created distinctive rock art panels featuring broad-shouldered anthropomorphic figures, handprints, and bighorn sheep, pecked and painted on canyon walls across the Four Corners.",
+      "description": "The Basketmakers pecked and painted a distinctive rock-art style onto canyon walls: tall, broad-shouldered human figures alongside handprints and bighorn sheep, some of the most striking imagery in pre-Columbian North America.",
       "wikiSlug": "Ancestral_Puebloans",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This look has a name, the San Juan Anthropomorphic style, and its signature figures have wide shoulders tapering to a trapezoidal body, short arms jutting straight out (sometimes drawn as arcs), plus elaborate headdresses, necklaces, sashes, and splayed fingers; some even show tear streaks running down the face. You can still see panels of them at spots like the Sand Island petroglyphs and Butler Wash near Bluff, Utah, along the San Juan River. The style overlaps in time and look with the older Barrier Canyon Style rock art of the same region, hinting these artists drew on a much deeper local tradition."
+        }
+      ],
+      "commonsFile": "Newspaper_rock.jpg"
     },
     {
       "id": "evt-puebloans-turkey-domestication",
       "label": "Turkey Domestication",
       "year": 200,
-      "description": "Ancestral Puebloans domesticated the wild turkey, initially raised for their feathers (woven into warm blankets) rather than meat, making it one of the few animals domesticated in pre-Columbian North America.",
+      "description": "Basketmaker people tamed the wild turkey, and not for dinner: they prized it for the feathers, which were spun onto yucca cord and woven into warm, featherweight blankets.",
       "wikiSlug": "Domesticated_turkey",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ancient DNA shows the same female turkey lineage runs unbroken from the earliest domesticated birds (around 200 BCE) straight through the peak of turkey-keeping a thousand-plus years later, hinting that captive flocks were carefully managed and passed down. A single blanket could swallow roughly 12,000 feathers, gathered as the birds naturally molted so the turkeys weren't killed for them. Archaeologists have since used turkey DNA as a tracking device, matching bones across sites to argue that Mesa Verde's farmers later migrated to the northern Rio Grande, taking their flocks with them. Along with the dog, the turkey was one of only two animals ever domesticated north of Mexico."
+        }
+      ],
+      "commonsFile": "Male_north_american_turkey_supersaturated.jpg"
     },
     {
       "id": "evt-puebloans-sandal-craft",
       "label": "Woven Yucca Sandals",
       "year": 250,
-      "description": "Basketmaker artisans crafted elaborately woven sandals from yucca fiber, with distinctive square-toe and round-toe styles that varied by region, serving as one of the earliest markers of Puebloan cultural identity.",
+      "description": "Basketmaker weavers turned yucca fiber into finely made sandals, with square-toed and round-toed styles that shifted from region to region, footwear archaeologists read like a fingerprint of local identity.",
       "wikiSlug": "Basketmaker_culture",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These twined sandals were among the most labor-intensive textiles the region ever produced, woven with multiple structures at once and sometimes elaborately patterned. The earliest ones tend to have square toes and heels. When archaeologists Earl and Ann Axtell Morris dug rockshelters in northeastern Arizona in the late 1920s and 1930s, they pulled out roughly two hundred yucca sandals made with some 22 different weaving techniques. The style proved remarkably durable as a cultural marker, in use from Basketmaker times right through the cliff-dwelling era around 1300 CE."
+        }
+      ],
+      "commonsFile": "Plaited_sandal,_Kayenta_Anasazi,_Arizona,_900-1300_AD,_yucca_leaves_and_cordage_-_Natural_History_Museum_of_Utah_-_DSC07389.JPG"
     },
     {
       "id": "evt-puebloans-bow-arrow-adopted",
       "label": "Bow and Arrow Adopted",
       "year": 500,
-      "description": "The bow and arrow replaced the atlatl as the primary hunting weapon, dramatically increasing hunting efficiency and likely shifting the balance of power among competing groups.",
+      "description": "Around 500 CE the bow and arrow began edging out the atlatl (a spear-throwing stick) as the go-to hunting weapon, offering more range, faster reloads, and easier use in tight canyon country.",
       "wikiSlug": "Bow_and_arrow",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A 2026 study that radiocarbon-dated 136 preserved organic weapons pinned the bow's spread across North America to roughly 600 to 700 CE, a touch later than older estimates. The pattern it found is telling: south of about 55 degrees north latitude, from northern Mexico through the Southwest and California, the atlatl vanishes from the record almost the moment the bow shows up, suggesting hunters there switched fast. Farther north, people clung to the atlatl far longer than archaeologists used to think. The Southwest's dry caves are why we know any of this, preserving actual wooden bows and arrow shafts that rotted away everywhere else."
+        }
+      ]
     },
     {
       "id": "evt-puebloans-pottery-begins",
       "label": "Pottery Production Begins",
       "year": 500,
-      "description": "Ancestral Puebloans began producing gray-ware pottery using coil-and-scrape techniques, replacing baskets for cooking and storage and enabling more efficient food preparation.",
+      "description": "Ancestral Puebloans started making plain gray cooking pots by the coil-and-scrape method (clay ropes stacked into a wall, then smoothed), a craft that let them boil food directly over a fire instead of dropping hot stones into baskets.",
       "wikiSlug": "Pueblo_pottery",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Puebloans didn't invent this on their own. The earliest Southwestern ceramics were brown wares made by the Mogollon people of southern Arizona and New Mexico, whose El Paso Brown pottery dates to somewhere between 200 and 400 CE, well before gray ware caught on up north. A transitional type called Obelisk Gray looks like the missing link between the southern brown wares and the Puebloan gray ware that followed. One of the first widespread Puebloan gray types, Lino Gray, ran from roughly 500 to 900 CE and is so plain it's often just identified by its finger-pinched coils."
+        }
+      ],
+      "commonsFile": "Chaco_Anasazi_canteen_NPS.jpg"
     },
     {
       "id": "evt-puebloans-bean-cultivation",
       "label": "Bean Cultivation Adopted",
       "year": 500,
-      "description": "The adoption of beans completed the Three Sisters agricultural triad (maize, beans, squash), providing a critical protein source that enabled larger, more sedentary populations.",
+      "description": "Beans rounded out the famous Three Sisters trio (corn, beans, squash), and as a complete protein source they let Basketmaker III villages grow bigger and stay put year-round.",
       "wikiSlug": "Three_Sisters_(agriculture)",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The common bean (Phaseolus vulgaris) was actually domesticated twice from one wild ancestor, once in Mexico and once in the Andes of South America, around 8,000 years ago, which is why cultivated beans carry two distinct genetic lineages. Beans pull off their nitrogen-fixing trick through a partnership with rhizobia, soil bacteria that live in nodules on the roots and convert air-nitrogen into a form the plant can use, quietly fertilizing the corn growing beside it. The same companion-planting logic shows up across Mesoamerica as the milpa, where farmers sowed corn and beans together for the same reason. Beans also had to be boiled a long while to be edible, which is exactly why pottery and bean farming arrived as a matched set."
+        }
+      ],
+      "commonsFile": "Three_Sisters_companion_planting_technique.jpg"
     },
     {
       "id": "evt-puebloans-oral-tradition",
@@ -175,43 +244,71 @@
       "id": "evt-puebloans-first-kivas",
       "label": "First Kivas Emerge",
       "year": 550,
-      "description": "Modified Basketmaker communities developed the first true kivas — circular underground ceremonial chambers evolved from pithouses — with ventilator shafts, fire pits, and sipapus (symbolic openings to the underworld).",
+      "description": "Around 550 CE the pithouse spun off a specialized descendant: the kiva, a round, sunken chamber built for ceremony rather than living, with a fire pit, fresh-air shaft, and a small symbolic floor hole called a sipapu.",
       "wikiSlug": "Kiva",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The sipapu always sits just north of the hearth, a placement consistent enough that archaeologists treat it as a defining kiva feature. Pueblo peoples still divide kivas into two broad kinds: ordinary clan kivas, whose walls sit flush with the ground, and great kivas, which are far larger and deeper and rise visibly above the landscape. At Chaco-style sites the smaller round kivas tuck right into roomblocks, blending the sacred and the domestic in a way later Puebloan architecture would refine for centuries. The form proved astonishingly durable, with the same basic round, underground template still in use among modern Hopi and other Pueblo communities."
+        }
+      ],
+      "commonsFile": "Bandelier_Kiva.jpg"
     },
     {
       "id": "evt-puebloans-shabikeshchee",
       "label": "Shabik'eshchee Village",
       "year": 580,
-      "description": "Shabik'eshchee Village in Chaco Canyon, with over 60 pithouses and a large communal kiva, represents one of the largest known Modified Basketmaker settlements and an early hint of Chaco's future importance.",
+      "description": "Perched on Chacra Mesa in Chaco Canyon, Shabik'eshchee was a large Basketmaker III settlement of pithouses around a communal great kiva, an early sign that Chaco mattered long before its famous heyday.",
       "wikiSlug": "Shabik%27eshchee_Village",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Frank H. H. Roberts Jr. found the site in 1926 and dug it for the Smithsonian's Bureau of American Ethnology, publishing his report in 1929 with the spelling Shabik'eschee. Later survey work counted close to a hundred pithouses spread across about 20 acres, making earlier figures of \"over sixty\" a conservative undercount. Tree-ring dates put the great kiva's construction in the mid-500s CE, and the pottery found there (Lino Gray and La Plata Black-on-white) lines up neatly with that window. A scatter of later features suggests people drifted back to reoccupy the spot during the Pueblo I period after 700 CE."
+        }
+      ],
+      "commonsFile": "Map_of_Shabik'eshchee_Village.png"
     },
     {
       "id": "evt-puebloans-sipapu-cosmology",
       "label": "Sipapu and Emergence Cosmology",
       "year": 600,
-      "description": "Kiva floors contain a sipapu — a small symbolic hole representing the place of emergence where humanity climbed from the underworld — reflecting a cosmological framework shared across Puebloan cultures.",
+      "description": "The sipapu, a small hole in every kiva floor, stands for the place of emergence where, in Puebloan belief, the first people climbed up from the world below into this one.",
       "wikiSlug": "Sipapu",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In Hopi tradition the word sipapu (or sipapuni) names a specific real place: a mineral spring deep in the Grand Canyon, treated as the literal portal of emergence and still visited as a sacred site. The same emergence story, with variations, anchors the origins of the Zuni, Acoma, and other Pueblo peoples, not just the Hopi. In one Hopi telling, the first beings crawled out of the sipapu as lizard-like creatures and only took human shape once they stepped into the present world. Building a miniature version of that opening into every ceremonial chamber kept the connection to the underworld physically present underfoot."
+        }
+      ],
+      "commonsFile": "Sipapu_(small_round_hole)_in_floor_of_ruined_kiva_in_Mesa_Verde_National_Park.jpg"
     },
     {
       "id": "evt-puebloans-black-white-pottery",
       "label": "Black-on-White Pottery",
       "year": 600,
-      "description": "Puebloan potters developed the iconic black-on-white ceramic tradition, painting geometric designs with yucca-leaf brushes using iron-oxide pigments on polished gray clay.",
+      "description": "Puebloan potters turned plain gray ware into an art, polishing the surface and painting crisp geometric designs in mineral pigment, launching the black-on-white tradition that became their signature.",
       "wikiSlug": "Pueblo_pottery",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Black-on-white wasn't a single style but a whole family of regional types that archaeologists use almost like fingerprints, with names like La Plata, White Mound, Kiatuthlanna, Red Mesa, Chaco, and Mesa Verde marking different places and centuries. One of the earliest painted types, Lino Black-on-gray, carried decoration as far back as the mid-500s to 800s CE in some areas, putting the first painted pots remarkably early. Because each style's lines, hatching, and stepped motifs shifted predictably over time, a single broken sherd can let a researcher date and place a site without digging further. The designs were applied with brushes chewed or shredded from yucca leaves."
+        }
+      ],
+      "commonsFile": "Bowl_Chaco_Culture_NM_USA.jpg"
     },
     {
       "id": "evt-puebloans-cotton-arrives",
@@ -227,11 +324,18 @@
       "id": "evt-puebloans-above-ground-masonry",
       "label": "Above-Ground Masonry Construction",
       "year": 750,
-      "description": "Communities transitioned from pithouses to above-ground roomblocks built with shaped sandstone blocks and mud mortar, a revolutionary architectural shift that defined the Pueblo periods.",
+      "description": "Starting around 750 CE, people began moving their homes up out of the ground into contiguous above-ground rooms, the shift from pithouse villages to the stacked roomblocks that define the Pueblo periods.",
       "wikiSlug": "Pueblo_I_Era",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The earliest Pueblo I above-ground rooms often weren't true stone masonry at all but jacal, a frame of upright poles packed with woven brush and mud, with stone slabs added around the base for durability; full shaped-sandstone walls came later in the period. These first roomblocks were modest, usually one to five contiguous rooms sized for a single small family. The Pueblo I era (750 to 900 CE) also brought advances in water conservation alongside the building boom, as communities clustered into larger villages. Some of these settlements grew into sizable aggregations before being abandoned, foreshadowing the dramatic gather-and-scatter rhythm of later Puebloan history."
+        }
+      ],
+      "commonsFile": "USA_09669_Taos_Pueblo_Luca_Galuzzi_2007.jpg"
     },
     {
       "id": "evt-puebloans-irrigation-farming",
@@ -247,21 +351,35 @@
       "id": "evt-puebloans-conflict-evidence",
       "label": "Early Evidence of Conflict",
       "year": 850,
-      "description": "Burned villages and skeletal evidence of violence from the late Pueblo I period suggest growing competition for resources as populations expanded across the Colorado Plateau.",
+      "description": "By the late Pueblo I period, burned villages and skeletons bearing weapon injuries point to rising friction as a growing population pressed against a stingy, short-season landscape.",
       "wikiSlug": "Ancestral_Puebloans",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The deeper trigger was probably arithmetic: the Three Sisters could feed denser populations, and stone houses tied families to specific plots, so when good farmland and water access ran short there was suddenly something concrete worth fighting over. Some late Pueblo I villages were sited and clustered in ways that look defensive, a hint that neighbors had become a threat. This was a foretaste, not the climax; the truly grim violence in the archaeological record clusters much later, in the troubled thirteenth century when drought and depopulation gripped the Four Corners. The region's habit of filling up and then emptying out was already taking shape."
+        }
+      ],
+      "commonsFile": "Hovenweep_in_snow.jpg"
     },
     {
       "id": "evt-puebloans-pueblo-bonito-founded",
       "label": "Pueblo Bonito Founded",
       "year": 850,
-      "description": "Construction began on Pueblo Bonito in Chaco Canyon, initially a modest crescent-shaped roomblock that would grow over 250 years into the largest great house in the Puebloan world, with over 650 rooms and 40 kivas.",
+      "description": "Around 850 CE, builders laid the first single-story rooms of Pueblo Bonito (\"beautiful town\") against the north wall of Chaco Canyon — a modest crescent village that would balloon over 250 years into the largest building in North America.",
       "wikiSlug": "Pueblo_Bonito",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The English name was a misnomer slapped on by a US Army officer in the 1840s; the Puebloans' own name for it is lost. In one tiny room in the oldest part of the building — known today as Room 33 — archaeologists found 14 bodies, including two elite individuals buried beneath a rare wooden floor with thousands of turquoise and shell objects, the richest burial known from the entire ancient Southwest. The dead man in that crypt was interred around 800 CE, suggesting Bonito's founders were already marking out a special, hierarchical place from the very start."
+        }
+      ],
+      "commonsFile": "Pueblo_Bonito,_Chaco_Canyon_New_Mexico.JPG"
     },
     {
       "id": "evt-puebloans-clan-system",
@@ -277,172 +395,288 @@
       "id": "evt-puebloans-chaco-florescence",
       "label": "Chaco Canyon Florescence",
       "year": 900,
-      "description": "Chaco Canyon entered its great florescence as a ceremonial and political center, with massive construction projects, engineered roads, and long-distance trade transforming a remote desert canyon into the hub of a regional system.",
+      "description": "Between roughly 900 and 1130 CE, this dry, unpromising canyon exploded into the most complex society in the pre-Columbian Southwest — a burst of monumental building, road-building, and long-distance trade that archaeologists call the Chaco florescence.",
       "wikiSlug": "Chaco_Culture_National_Historical_Park",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chaco's reach ran shockingly far south: excavators have pulled scarlet macaws (tropical parrots from a thousand miles away in Mexico) and pottery still coated in cacao residue from Pueblo Bonito, meaning Chacoans were drinking chocolate and importing Mesoamerican luxuries. At least 30 macaw skeletons have been recovered from Bonito alone, and the birds start showing up as early as the 900s — surprisingly soon, suggesting an elite was hoarding rare goods well before the canyon hit full bloom. Copper bells from west Mexico and shells from the Gulf of California round out a trade web that stretched across much of the continent."
+        }
+      ],
+      "commonsFile": "PuebloBonito2006.JPG"
     },
     {
       "id": "evt-puebloans-great-house-architecture",
       "label": "Great House Architecture",
       "year": 920,
-      "description": "Chacoan builders developed the great house form — massive multi-story structures with core-and-veneer masonry, built with precisely shaped sandstone blocks and hundreds of thousands of wooden beams hauled from forests 50 miles away.",
+      "description": "Chacoan masons perfected the \"great house\" — towering multi-story stone buildings built with core-and-veneer walls, a rubble-and-mud core faced on both sides with thin sandstone tablets fitted so tightly the surface looks almost machined.",
       "wikiSlug": "Chaco_Culture_National_Historical_Park",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A single great house swallowed staggering quantities of material: building Chetro Ketl alone is estimated to have taken more than 500,000 hours of labor, 26,000 trees, and 50 million shaped sandstone blocks. The veneer styles weren't just decorative — because masons changed their fashion over the decades, archaeologists can use the wall pattern alone to roughly date when a stretch was built. The walls were so soundly engineered that many still stand four and five stories' worth of stonework high after a thousand years of desert weather."
+        }
+      ],
+      "commonsFile": "Pueblo_Bonito_Cliff_View.jpg"
     },
     {
       "id": "evt-puebloans-chaco-roads",
       "label": "Chacoan Road System",
       "year": 950,
-      "description": "The Chacoans engineered an extensive network of arrow-straight roads up to 30 feet wide, cut into bedrock and cleared of vegetation, connecting Chaco Canyon to outlier communities across a 25,000-square-mile area.",
+      "description": "Starting around 950 CE, the Chacoans engineered a network of dead-straight roads up to 30 feet (9 m) wide — cleared, curbed, and even cut into bedrock — fanning out from the canyon to far-flung communities, despite having no carts, wheels, or pack animals to drive on them.",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The roads ignore the landscape, plowing straight over mesas and cliffs rather than going around; the famous Great North Road runs roughly 35 miles (56 km) almost due north toward a barren badland, hinting it led not to a town but to a sacred direction. Where roads met the canyon rim, builders carved monumental staircases into the cliff, including the Jackson Staircase (named for the photographer who spotted it in 1877). Pottery scatters found along the roads — far from any house or campsite — suggest people were smashing pots there as ritual offerings rather than just hauling goods."
+        }
+      ]
     },
     {
       "id": "evt-puebloans-great-kivas",
       "label": "Great Kivas at Chaco",
       "year": 950,
-      "description": "Chacoans built enormous great kivas up to 60 feet in diameter, sunken ceremonial chambers large enough to hold hundreds of people, with massive roof beams, floor vaults, and niches for ritual objects.",
+      "description": "The Chacoans dug enormous round great kivas — sunken ceremonial halls up to 60-plus feet (18+ m) across — roofed with massive timber, ringed with wall niches, and floored with paired masonry trenches that may have been covered to act as resonating foot drums.",
       "wikiSlug": "Kiva",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Casa Rinconada, a standalone great kiva sitting on a ridge directly across from Pueblo Bonito, runs about 64 feet (20 m) in diameter and hides a 39-foot (12 m) masonry tunnel under its floor — possibly a way for performers to appear and vanish mid-ceremony. The roofs were so heavy they rested on four giant seated posts or stone pillars, each footed on stacked layers to spread the load. These were community chambers, not private rooms: some could hold hundreds of people at once."
+        }
+      ],
+      "commonsFile": "GreatKiva.jpg"
     },
     {
       "id": "evt-puebloans-timber-transport",
       "label": "Timber Transport from Distant Forests",
       "year": 950,
-      "description": "Chacoan builders transported over 200,000 wooden beams from conifer forests in the Chuska and San Mateo mountains 50–70 miles away, carrying them on human backs without wheels or draft animals.",
+      "description": "To roof their great houses, Chacoans hauled more than 200,000 conifer logs from mountain forests 50 to 75 miles (80–120 km) away — carrying every beam on human backs, with no wheels, draft animals, or rivers to float them down.",
       "wikiSlug": "Chaco_Culture_National_Historical_Park",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We know exactly which mountains the wood came from thanks to a 2001 study that read the strontium isotopes (a chemical fingerprint left by local rock and soil) locked in the beams: the timber came from the Chuska Mountains and Mount Taylor, but pointedly not from the equally-close San Pedro range. More than a fifth of the logs were spruce and fir lugged down from isolated mountaintops. Logs from two different mountain ranges sometimes turn up in the same room, felled in the same year — evidence that scattered communities were stockpiling beams and pooling their labor to supply Chaco."
+        }
+      ],
+      "commonsFile": "A330,_Chaco_Culture_National_Historical_Park,_New_Mexico,_USA,_2011.JPG"
     },
     {
       "id": "evt-puebloans-turquoise-workshops",
       "label": "Turquoise Workshops at Chaco",
       "year": 975,
-      "description": "Chaco Canyon became the turquoise processing center of the Southwest, with workshops producing hundreds of thousands of finished pieces from raw stone imported from mines in the Cerrillos Hills near modern Santa Fe.",
+      "description": "Chaco became the turquoise factory of the Southwest, its workshops grinding raw stone into hundreds of thousands of beads, pendants, and mosaic inlays.",
       "wikiSlug": "Turquoise#Americas",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "For a long time everyone assumed the stone all came from the Cerrillos Hills near modern Santa Fe, but a 2014 study led by Sharon Hull traced Chaco's turquoise by its hydrogen and copper isotope signatures and found it came from a sprawling network of mines in Colorado, Nevada, and southeastern California as well, hundreds of miles in every direction. The team built a comparison database of 800 isotope readings from 22 different source areas just to pin the artifacts down."
+        }
+      ],
+      "commonsFile": "Chacoan_turquoise_with_argillite.jpg"
     },
     {
       "id": "evt-puebloans-chetro-ketl",
       "label": "Chetro Ketl Great House",
       "year": 990,
-      "description": "Construction of Chetro Ketl began in Chaco Canyon, eventually encompassing over 500 rooms, a colonnade of square columns unique in Puebloan architecture, and a great kiva over 60 feet across.",
+      "description": "Around 990 CE, work began on Chetro Ketl, the second-largest great house at Chaco — eventually over 500 rooms, with a great kiva (a giant sunken ceremonial chamber) and a colonnade of square stone columns found nowhere else in the Puebloan world.",
       "wikiSlug": "Chetro_Ketl",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chetro Ketl's surviving timbers are so abundant they alone supply roughly 60 percent of all the tree-ring dates archaeologists have for Chaco Canyon, making it a kind of master calendar for the whole site. When diggers excavated its great kiva in the 1930s they pried open ten small wall niches and recovered an astonishing 17,454 turquoise beads and pendants — one strung necklace per niche, sealed up as offerings. Beneath that kiva they found an even older one buried 12 feet (3.7 m) down, showing the Chacoans rebuilt sacred space directly on top of sacred space."
+        }
+      ],
+      "commonsFile": "Chetro_Ketl_-_Rear_Wall_(8023732257).jpg"
     },
     {
       "id": "evt-puebloans-pueblo-bonito-expansion",
       "label": "Pueblo Bonito Major Expansion",
       "year": 1000,
-      "description": "Pueblo Bonito underwent its most ambitious expansion, reaching its final D-shaped form of over 650 rooms stacked four to five stories high, making it the largest building in North America until the 1880s.",
+      "description": "Around 1000 CE, Pueblo Bonito hit its building frenzy — stacked and rebuilt into its final D-shape of roughly 650 to 800 rooms, four to five stories tall, the biggest building anywhere in North America until a New York apartment block finally topped it in the 1880s.",
       "wikiSlug": "Pueblo_Bonito",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The building that finally out-roomed Pueblo Bonito was the Spanish Flats (also called the Navarro Flats), a Manhattan luxury apartment complex completed in 1882 — meaning Bonito held the continental record for room count for roughly a thousand years. The huge D enclosed a plaza split by a low wall and anchored by two great kivas. Strangely, by the time it reached this enormous size, much of Pueblo Bonito may not have been packed with full-time residents at all — many rooms show little sign of daily cooking or trash, fueling the idea that it was as much a ceremonial showpiece as a town."
+        }
+      ],
+      "commonsFile": "Chaco_Canyon_Pueblo_Bonito_doorways_NPS.jpg"
     },
     {
       "id": "evt-puebloans-chaco-hierarchy",
       "label": "Chacoan Political Hierarchy",
       "year": 1000,
-      "description": "Elite burials at Pueblo Bonito — including two individuals interred with thousands of turquoise pieces, shell ornaments, and wooden staffs — suggest a ranked social hierarchy unusual in Puebloan society.",
+      "description": "Lavish burials at the heart of Pueblo Bonito — bodies laid to rest with thousands of turquoise pieces, Pacific shell, and carved wooden staffs — hint at a ranked society in a world that usually buried everyone alike.",
       "wikiSlug": "Pueblo_Bonito",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A 2017 DNA study turned the famous crypt of Room 33 into something stranger: nine elite individuals buried there across roughly 300 years all shared the same mitochondrial DNA, meaning they descended from a single woman, evidence of a matrilineal dynasty that passed status down the mother's line. The genetic detective work even identified one pair as mother and daughter and another as grandmother and grandson, the kind of family tree rarely recoverable from thousand-year-old bones."
+        }
+      ],
+      "commonsFile": "Pueblo_Bonito_Aerial.JPG"
     },
     {
       "id": "evt-puebloans-ritual-calendar",
       "label": "Pueblo Ceremonial Calendar",
       "year": 1000,
-      "description": "Chacoans maintained a complex ceremonial calendar tied to agricultural cycles, solstices, and equinoxes, with kiva ceremonies, dances, and feasts coordinating the religious life of outlier communities.",
+      "description": "A ceremonial calendar tied to solstices, equinoxes, and the moon's cycles set the rhythm of gatherings at Chaco, drawing outlier communities to the canyon for ceremonies and enormous feasts.",
       "wikiSlug": "Kiva",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scale of devotion shows in the building materials: more than 200,000 conifer logs were hauled in to raise the great houses, felled in the Chuska and San Mateo mountains up to 50 miles off and carried by hand — no wheels, no draft animals, no metal tools. The great kiva at Chetro Ketl makes the wealth tangible too: its ten wall niches each held a turquoise necklace, and excavators pulled 17,454 beads from the kiva's buried offerings alone."
+        }
+      ],
+      "commonsFile": "Kiva.jpg"
     },
     {
       "id": "evt-puebloans-fajada-butte",
       "label": "Fajada Butte Sun Dagger",
       "year": 1000,
-      "description": "Three stone slabs atop Fajada Butte in Chaco Canyon cast a dagger of light through spiral petroglyphs to mark solstices, equinoxes, and the 18.6-year lunar standstill cycle with remarkable precision.",
+      "description": "High on Fajada Butte, three leaning sandstone slabs slice sunlight into a \"dagger\" of light that pierces a spiral carving — marking solstices, equinoxes, and even the moon's slow 18.6-year cycle with startling accuracy.",
       "wikiSlug": "Sun_Dagger",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nobody knew the Sun Dagger existed until 1977, when artist Anna Sofaer climbed the butte to record rock art and happened to catch a blade of light splitting the spiral; she founded a research group to study it. The site has since damaged itself — the heavy slabs settled and shifted (likely worsened by erosion under visitor foot traffic) so the daggers no longer fall exactly as carved, and the butte is now closed to the public. Tracking the lunar cycle baked into the spirals would have required watching the horizon patiently across nearly two decades, the kind of record-keeping we usually credit only to societies that could write."
+        }
+      ],
+      "commonsFile": "Fajada_Butte_by_RO.JPG"
     },
     {
       "id": "evt-puebloans-petroglyphs",
       "label": "Petroglyph Panels",
       "year": 1000,
-      "description": "Puebloan communities carved elaborate petroglyph panels on canyon walls depicting clan symbols, spirals, handprints, animals, and human figures, serving as boundary markers, ceremonial records, and astronomical calendars.",
+      "description": "Chaco's canyon walls are crowded with pecked-in spirals, handprints, animals, and human figures — some clan markers, some lost stories, some precise astronomical clocks.",
       "wikiSlug": "Petroglyph",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most celebrated is the Sun Dagger on Fajada Butte, rediscovered in 1977 by artist Anna Sofaer: three leaning stone slabs funnel a blade of sunlight that, at midday on the summer solstice, slices straight through the center of a carved spiral. The same slabs cast light and shadow that also mark the equinoxes and the winter solstice, turning a panel of rock into a working calendar — though shifting of the slabs since the 1980s has since spoiled the alignment."
+        }
+      ],
+      "commonsFile": "Petroglyphs,_Chaco_Canyon.JPG"
     },
     {
       "id": "evt-puebloans-mesoamerican-trade",
       "label": "Mesoamerican Trade Connections",
       "year": 1000,
-      "description": "Macaw skeletons, copper bells, and cacao residue found at Chaco reveal trade connections stretching over 1,500 miles south to Mesoamerican civilizations, exchanging turquoise for tropical luxury goods.",
+      "description": "Macaw skeletons, copper bells, and chocolate residue turned up at Chaco — proof of trade routes running over 1,500 miles south to the civilizations of Mesoamerica, with turquoise heading the other way.",
       "wikiSlug": "Chaco_Culture_National_Historical_Park",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The copper bells are a tell-tale import: archaeologists have catalogued 41 of them and bell fragments across Chaco Canyon, all cast in West Mexico (around modern Jalisco and Nayarit) using the lost-wax technique, a metalworking method the Puebloans never developed themselves. Despite the exotic goods, most scholars now reject the old idea that Mexican merchants founded or ran Chaco: the architecture, kivas, and pottery all trace back to local roots, so the relationship reads as trade and shared ideas, not colonization."
+        }
+      ],
+      "commonsFile": "Chacoan_turquoise_pendant.jpg"
     },
     {
       "id": "evt-puebloans-chocolate-consumption",
       "label": "Cacao (Chocolate) at Chaco",
       "year": 1000,
-      "description": "Chemical analysis of Chacoan cylinder jars revealed cacao residue, proving that Puebloans consumed chocolate drinks imported from tropical Mesoamerica over 1,200 miles to the south.",
+      "description": "Residue scraped from Chaco's tall, narrow cylinder jars tested positive for cacao — hard proof that desert Puebloans were drinking chocolate carried up from tropical Mesoamerica.",
       "wikiSlug": "History_of_chocolate",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The breakthrough came in 2009, when archaeologist Patricia Crown — on a hunch that the jars resembled Mesoamerican chocolate vessels — mailed pottery shards to Jeffrey Hurst, a senior chemist at the Hershey Company, who detected theobromine, the chemical fingerprint of cacao. The jars date to roughly 1000–1125 CE, making this the earliest known chocolate north of Mexico, well over three centuries before Columbus reached the Americas."
+        }
+      ],
+      "commonsFile": "Maya_vase_(pouring_cacao_beverage_detail).jpg"
     },
     {
       "id": "evt-puebloans-lunar-alignments",
       "label": "Lunar Standstill Alignments",
       "year": 1020,
-      "description": "Multiple Chacoan great houses are aligned to the 18.6-year lunar standstill cycle, when the moon reaches its maximum and minimum positions on the horizon, suggesting sophisticated long-term astronomical observation.",
+      "description": "Several Chacoan great houses appear deliberately squared to the moon's \"major standstill\" — the once-every-18.6-years moment when the moon swings to the farthest north and south points it ever reaches on the horizon.",
       "wikiSlug": "Lunar_standstill",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The long back wall of Chetro Ketl lines up with the major-standstill moonrise, and the moon at that extreme rises and sets within about a degree of Pueblo Bonito's main axis — too tidy to be coincidence. Catching the standstill means watching the horizon across nearly two decades to find the moon's outermost stop, a feat of patient observation. Researchers have also traced sight-lines between small shrines scattered across the canyon that point at the same lunar extremes, suggesting the whole landscape was wired into a single sky-watching system."
+        }
+      ]
     },
     {
       "id": "evt-puebloans-macaw-breeding",
       "label": "Scarlet Macaw Breeding",
       "year": 1020,
-      "description": "Chacoans kept and likely bred scarlet macaws imported from tropical Mexico, housing them in special rooms at Pueblo Bonito where their colorful feathers were used in ceremonial regalia.",
+      "description": "Chacoans kept scarlet macaws — birds native to tropical Mexico — in dedicated rooms at Pueblo Bonito, likely breeding them for the brilliant feathers that fed their ceremonies.",
       "wikiSlug": "Pueblo_Bonito",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "DNA and radiocarbon work on 14 macaw skeletons from Chaco and the Mimbres region (published in 2018) dated the birds to between 900 and 1200 CE — meaning Puebloans were managing captive macaws generations before the famous breeding colony at Paquimé (Casas Grandes) in northern Mexico got going around 1250. The genetics pointed to a small, closely related maternal population, exactly the pattern you'd expect from a managed breeding flock rather than birds caught fresh in the wild each time."
+        }
+      ]
     },
     {
       "id": "evt-puebloans-outlier-communities",
       "label": "Chacoan Outlier System",
       "year": 1050,
-      "description": "Over 150 outlier great houses were built across the San Juan Basin following Chacoan architectural plans, connected by roads and line-of-sight signaling stations to the canyon center.",
+      "description": "More than 150 outlier great houses sprang up across the San Juan Basin, each built on the same Chacoan blueprint and tied back to the canyon by dead-straight roads and ridge-top signal stations.",
       "wikiSlug": "Chaco_Culture_National_Historical_Park",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The roads weren't winding cart-tracks but ruler-straight avenues about 30 feet wide, plowing through cliffs and gullies instead of going around them. The most famous, the Great North Road, runs roughly 34 miles north from the canyon toward Kutz Canyon and the later outlier of Aztec Ruins, and many archaeologists now read it as a ceremonial path toward a sacred direction rather than a practical trade route, since north carried deep meaning in Puebloan cosmology."
+        }
+      ],
+      "commonsFile": "Chaco_Culture_NHP_(8023723138).jpg"
     },
     {
       "id": "evt-puebloans-corrugated-pottery",
@@ -458,261 +692,437 @@
       "id": "evt-puebloans-chaco-supernova",
       "label": "Possible Supernova Pictograph",
       "year": 1054,
-      "description": "A painted panel in Chaco Canyon showing a crescent and star may depict the 1054 CE supernova that created the Crab Nebula, visible in daylight for weeks — though the interpretation remains debated.",
+      "description": "A rock painting near the great house of Peñasco Blanco shows a star, a crescent, and a handprint — which some researchers read as a record of the brilliant 1054 CE supernova, the exploding star that left behind the Crab Nebula. Others say it's just a generic sky symbol.",
       "wikiSlug": "SN_1054",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 1054 supernova was so bright that Chinese and Japanese court astronomers logged it as a \"guest star\" visible in broad daylight for over three weeks. Believers point out that on the morning the new star first appeared, the crescent moon really did sit close beside it in the dawn sky across the canyon — matching the painting's layout. But skeptics note that star-and-crescent motifs are scattered all over the Southwest, most of which obviously can't be recording the same event, so the case stays unproven."
+        }
+      ],
+      "commonsFile": "Anasazi_Supernova_Petrographs.jpg"
     },
     {
       "id": "evt-puebloans-chimney-rock",
       "label": "Chimney Rock Great House",
       "year": 1076,
-      "description": "A Chacoan great house was built at Chimney Rock in southern Colorado, positioned to observe the northern lunar standstill between the site's twin rock spires — a dramatic fusion of architecture and astronomy.",
+      "description": "On a knife-edge ridge in southern Colorado, between two towering rock spires, builders raised a Chacoan great house deliberately timed and placed to watch the moon rise between the pinnacles.",
       "wikiSlug": "Chimney_Rock_National_Monument",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tree-ring dating of the roof beams shows the great house went up in two bursts, around 1076 and again in 1093 — and both years happen to be northern major lunar standstills, the once-every-18.6-year peak when the moon climbs to its furthest north. That double coincidence is the strongest hint that the Puebloans weren't just admiring the view but scheduling construction itself to the moon's slow rhythm."
+        }
+      ],
+      "commonsFile": "View_of_Chimney_Rock_Colorado.JPG"
     },
     {
       "id": "evt-puebloans-aztec-ruins",
       "label": "Aztec Ruins Great House",
       "year": 1100,
-      "description": "The Aztec Ruins great house in northern New Mexico, with over 400 rooms and a reconstructed great kiva, served as a major post-Chaco center, possibly inheriting Chaco Canyon's regional leadership role.",
+      "description": "A 400-plus-room great house raised around 1100 CE on the Animas River, north of Chaco, that picked up Chaco's ceremonial role just as the canyon dried out (the \"Aztec\" name is a settler mistake; the real Aztecs of Mexico had nothing to do with it).",
       "wikiSlug": "Aztec_Ruins_National_Monument",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The site's centerpiece, the Great Kiva (a round ceremonial chamber), is the only fully reconstructed one in the Southwest: archaeologist Earl Morris excavated it in 1921 and rebuilt it in 1933-34 with an inner room nearly 48 feet (15 m) across, ringed by 14 smaller rooms. The West Ruin packed in around 30 kivas in all alongside its 400-odd living rooms. Tree-ring dates reveal Aztec was built first in Chaco style around 1100, then renovated about a century later in the distinct masonry and pottery of the Mesa Verde tradition to the north, making the place a literal bridge between two worlds. Aztec Ruins is now a UNESCO World Heritage Site as part of the larger Chaco listing."
+        }
+      ],
+      "commonsFile": "Aztec_Ruins_National_Monument_by_RO.JPG"
     },
     {
       "id": "evt-puebloans-mesa-verde-flourishes",
       "label": "Mesa Verde Flourishes",
       "year": 1100,
-      "description": "As Chaco declined, the Mesa Verde region in southwestern Colorado became the dominant population center, with thousands of people concentrated on the mesa tops and in surrounding canyons.",
+      "description": "As Chaco's regional system unraveled, the green mesa tops and canyons of Mesa Verde in southwestern Colorado became the densest population center in the Four Corners, drawing in migrants until thousands of people farmed and lived across the landscape.",
       "wikiSlug": "Mesa_Verde_National_Park",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mesa Verde (Spanish for \"green table\") later became the first U.S. national park created to protect human-made cultural works rather than scenery, signed into being by Theodore Roosevelt on June 29, 1906. Inside its boundaries archaeologists have catalogued roughly 5,000 sites, including some 600 cliff dwellings, making it the largest archaeological preserve in the country. UNESCO named it a World Heritage Site in 1978."
+        }
+      ],
+      "commonsFile": "SpruceTreeHouse.JPG"
     },
     {
       "id": "evt-puebloans-canyon-de-chelly",
       "label": "Canyon de Chelly Settlements",
       "year": 1100,
-      "description": "Canyon de Chelly in northeastern Arizona hosted Puebloan cliff dwellings including the iconic White House ruin, tucked into a niche 600 feet below the canyon rim, occupied continuously for centuries.",
+      "description": "Canyon de Chelly in northeastern Arizona sheltered Puebloan cliff dwellings too, most famously White House Ruin, a stone village set in a niche far below the canyon rim and named for the pale plaster still clinging to its walls.",
       "wikiSlug": "Canyon_de_Chelly_National_Monument",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "White House was built and lived in from roughly 1060 to 1275 CE, and at its height held around 80 rooms and maybe 100 people. The canyon's Puebloan story is only the first chapter: the Navajo later made it home, and in 1864 U.S. Army colonel Kit Carson swept through on a scorched-earth campaign, burning crops and orchards. The siege forced the surrender of thousands and triggered the Long Walk, the forced 300-mile (480 km) march of the Navajo to a reservation at Bosque Redondo."
+        }
+      ],
+      "commonsFile": "Canyon_de_Chelly1.jpg"
     },
     {
       "id": "evt-puebloans-kiva-murals",
       "label": "Kiva Mural Painting",
       "year": 1100,
-      "description": "Some Pueblo III kivas featured painted interior murals depicting ceremonial scenes, deities, and cosmological symbols, foreshadowing the elaborate mural traditions of later Pueblo communities like Kuaua and Pottery Mound.",
+      "description": "Some Pueblo III kivas (sunken ceremonial chambers) were plastered and painted inside with murals of ceremonial scenes, figures, and cosmological symbols, an early hint of the spectacular mural tradition later Pueblo communities would perfect.",
       "wikiSlug": "Kiva",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The best-surviving descendants of this tradition turned up at Kuaua Pueblo, now the Coronado Historic Site near Bernalillo, New Mexico. When archaeologists excavated one kiva there in the 1930s, they peeled back more than 85 layers of replastering and found 17 of them painted with vivid animals and religious figures, one ceremony's mural laid over the next across decades. Conservators carefully lifted those 17 painted layers onto solid backings, and a selection is still on display, ranked among the finest pre-Columbian paintings in the United States."
+        }
+      ]
     },
     {
       "id": "evt-puebloans-chaco-decline",
       "label": "Chaco Canyon Declines",
       "year": 1130,
-      "description": "A prolonged drought beginning around 1130 CE, combined with deforestation and resource depletion, triggered the decline of Chaco Canyon as a regional center. Major construction ceased and populations dispersed.",
+      "description": "Around 1130 CE a long drought hit a canyon already stripped of its timber, soil, and groundwater, and the Chaco system simply ran out of slack. Major building stopped, doorways were sealed, and people drifted away over the following decades.",
       "wikiSlug": "Chaco_Culture_National_Historical_Park",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tree rings point to a brutal 50-year megadrought running from about 1130 to 1180, and the canyon's depopulation was a slow bleed rather than a single exodus, dragging on into the 1200s. The timber bill that helped exhaust the landscape was staggering: scientists estimate the great houses swallowed more than 240,000 construction beams. Strontium-isotope fingerprinting of those logs shows early builders cut mostly from the Chuska Mountains roughly 47 miles (75 km) to the west, while later crews increasingly hauled wood from Mount Taylor and the San Mateo Mountains to the southeast, the logging frontier creeping outward as the nearer forests vanished."
+        }
+      ]
     },
     {
       "id": "evt-puebloans-cliff-dwellings",
       "label": "Cliff Dwelling Construction Begins",
       "year": 1190,
-      "description": "Around 1190 CE, Mesa Verde communities began building stone dwellings in natural alcoves and cliff overhangs, creating some of the most dramatic architecture in pre-Columbian North America.",
+      "description": "Around 1190 CE, Mesa Verde families abandoned their long-settled mesa-top villages and began tucking stone houses into the natural rock alcoves in the canyon walls below, kicking off one of the most dramatic building bursts in pre-Columbian North America.",
       "wikiSlug": "Cliff_dwelling",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Whatever drove the move, it didn't last long. Tree-ring dates show the cliff dwellings were occupied for less than a century before being abandoned by about 1300 CE. A big part of the picture is the so-called Great Drought of 1276 to 1299, a stretch of failed harvests recorded in the rings of the region's trees, layered on top of cooling temperatures that shortened the growing season at exactly the wrong moment."
+        }
+      ],
+      "commonsFile": "Hohokam_cliff_dwelling_(Montezuma_Castle),_Arizona.jpg"
     },
     {
       "id": "evt-puebloans-cliff-palace",
       "label": "Cliff Palace Built",
       "year": 1200,
-      "description": "Cliff Palace at Mesa Verde, with 150 rooms and 23 kivas tucked into a massive sandstone alcove, was the largest cliff dwelling in North America and home to an estimated 100-120 people.",
+      "description": "Cliff Palace at Mesa Verde packs 150 rooms and 23 kivas (round sunken ceremonial chambers) into one enormous sandstone alcove, making it the largest cliff dwelling in North America and home to perhaps 100 to 120 people.",
       "wikiSlug": "Cliff_Palace",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It sat empty and forgotten until December 18, 1888, when ranchers Richard Wetherill and Charlie Mason stumbled onto it while hunting stray cattle in a snowstorm, guided by a Ute man named Acowitz. Tree-ring dating later showed the bulk of the building went up in roughly a 20-year burst, with construction and patch-up work running from about 1190 to 1260 CE. The whole site is a cornerstone of dendrochronology (dating wood by counting and matching tree rings), the method an astronomer named Andrew Ellicott Douglass pioneered here and published in National Geographic in 1929."
+        }
+      ],
+      "commonsFile": "Cliff_Palace-Colorado-Mesa_Verde_NP.jpg"
     },
     {
       "id": "evt-puebloans-balcony-house",
       "label": "Balcony House",
       "year": 1200,
-      "description": "Balcony House at Mesa Verde, accessible only through a narrow tunnel and up a cliff face, represents the most defensively positioned of the major cliff dwellings, suggesting increasing concerns about security.",
+      "description": "Balcony House is a 40-room Mesa Verde cliff dwelling reachable only by squeezing through a tight rock tunnel and scaling a sheer cliff face, the most defensively positioned of the major dwellings and a hint that security was very much on the builders' minds.",
       "wikiSlug": "Balcony_House",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The squeeze is no exaggeration: visitors today crawl through a tunnel only about 12 feet long and 18 inches wide, a passage a single person could plug against a crowd. Modern tours bolt on a 32-foot ladder to reach the alcove, but the original residents climbed hand-and-toe holds chipped into the rock. Like the rest of Mesa Verde, Balcony House was emptied out by around 1300 CE."
+        }
+      ],
+      "commonsFile": "Ladder_to_Balcony_House,_Mesa_Verde_National_Park_(4851340405).jpg"
     },
     {
       "id": "evt-puebloans-towers",
       "label": "Tower Construction at Hovenweep",
       "year": 1200,
-      "description": "Communities at Hovenweep built distinctive multi-story towers atop boulders and canyon rims, possibly serving as astronomical observatories, defensive lookouts, or ceremonial structures.",
+      "description": "At Hovenweep, on the Utah-Colorado line, builders raised distinctive multi-story stone towers atop isolated boulders and along canyon rims, structures so puzzling they've been read as observatories, lookouts, ceremonial markers, or all three at once.",
       "wikiSlug": "Hovenweep_National_Monument",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Most of the standing buildings went up between about 1230 and 1275 CE, the same window as the Mesa Verde cliff dwellings just to the east, when roughly 2,500 people lived across the monument's six separate village clusters. The towers weren't random: at least three structures have small windows or portholes that line up with the sun at the solstices and equinoxes, turning the buildings into stone calendars. The Square Tower Group, strung along a little gorge called Little Ruin Canyon, is the largest and best-preserved of the bunch."
+        }
+      ]
     },
     {
       "id": "evt-puebloans-defensive-sites",
       "label": "Defensive Site Locations",
       "year": 1200,
-      "description": "Many Pueblo III communities chose defensible locations — cliff alcoves, mesa tops, and canyon heads with restricted access — suggesting escalating conflict during the 13th century.",
+      "description": "Across the Four Corners in the 1200s, communities crowded into defensible spots — cliff alcoves, mesa tops with single access points, canyon heads that could be walled off — a region-wide shift that points to escalating conflict.",
       "wikiSlug": "Ancestral_Puebloans",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The grimmest evidence comes from villages like Castle Rock and Sand Canyon Pueblos near Mesa Verde. Around 1280 CE at least 41 people died violently at Castle Rock alone, and bioarchaeologists (researchers who read injury and trauma from bone) found bodies that were dismembered, crushed, burned, and broken near the time of death. Tellingly, there's little sign of outside invaders, so the attackers were most likely other Puebloans from within the region, neighbors turning on neighbors as drought squeezed the food supply."
+        }
+      ],
+      "commonsFile": "Cliff_Palace,_Mesa_Verde_Park,_Colorado,_US_(36).jpg"
     },
     {
       "id": "evt-puebloans-kachina-origins",
       "label": "Kachina Religious Tradition Emerges",
       "year": 1250,
-      "description": "The kachina belief system — involving spirit beings who bring rain, fertility, and social cohesion — likely emerged during the upheaval of the late Pueblo III period, becoming central to historic Pueblo religion.",
+      "description": "Out of the crisis came a new faith — the kachina (kah-CHEE-nah) religion, built around spirit beings who bring rain and bind communities together, which would become the heart of historic and modern Pueblo worship.",
       "wikiSlug": "Kachina",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Exactly when the kachina belief jelled is one of the Southwest's liveliest archaeological arguments. The hard physical evidence — kachina figures in rock art, kiva wall murals, and pottery designs — shows up firmly after 1300 CE: katsina images appear on pottery by about 1325 along the Little Colorado River, and the \"Rio Grande style\" rock art spreads by roughly 1350. By 1500 the religion had reached the Hopi, Zuni, and other western Pueblos, where it thrives today. Some scholars push the roots back into the chaotic late 1200s; others hold out for the 1300s or even later, but nearly everyone agrees it took hold among migrants rebuilding their world."
+        }
+      ],
+      "commonsFile": "Kachina_doll.JPG"
     },
     {
       "id": "evt-puebloans-warfare-intensifies",
       "label": "Warfare Intensifies",
       "year": 1250,
-      "description": "Archaeological evidence of burned villages, defensive walls, and skeletal trauma indicates intensifying warfare across the Four Corners region during the mid-13th century, as drought strained resources.",
+      "description": "By the mid-1200s, burned villages, defensive walls, and bones bearing weapon wounds show conflict ramping up across the Four Corners as the drought turned neighbors into rivals over shrinking food and water.",
       "wikiSlug": "Ancestral_Puebloans",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most disturbing read on this violence comes from physical anthropologist Christy Turner of Arizona State University, whose 1999 book Man Corn (co-written with his late wife Jacqueline) examined more than 75 sites and argued some bones showed signs of cannibalism. The provocative title comes from a Nahuatl (Aztec language) word for a meal of human flesh cooked with corn — a nod to Turner's controversial idea that the practice arrived from Mexico. The claim is fiercely disputed; many archaeologists read the same marks as the mutilation of enemies or the killing of accused witches, both meant to terrify rather than feed."
+        }
+      ]
     },
     {
       "id": "evt-puebloans-sand-canyon-massacre",
       "label": "Sand Canyon Pueblo Violence",
       "year": 1280,
-      "description": "Sand Canyon Pueblo in southwestern Colorado was violently destroyed around 1280 CE, with unburied human remains left scattered through the rooms, one of the starkest examples of late Pueblo III conflict.",
+      "description": "Around 1280 CE, the large hilltop village of Sand Canyon Pueblo in southwestern Colorado was overrun and never reoccupied, its dead left where they fell — one of the clearest snapshots of late-1200s violence in the region.",
       "wikiSlug": "Sand_Canyon_Pueblo",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sand Canyon was no small outpost: decades of digging by Colorado's Crow Canyon Archaeological Center estimate it once held about 420 rooms, 90 kivas (kee-vahs, the round semi-underground ceremonial chambers), 14 towers, an enclosed plaza, and a great kiva — built in a burst starting in the 1250s, then emptied within a single lifetime. Excavators found that sometime after 1277 the village was attacked, with clusters of biologically related victims dying together in their own rooms. Tellingly, the survivors didn't rebuild or rebury their dead the proper way; they simply left, and the place stayed silent."
+        }
+      ],
+      "commonsFile": "My_Public_Lands_Roadtrip-_Canyons_of_the_Ancients_National_Monument_in_Colorado_(19773890122).jpg"
     },
     {
       "id": "evt-puebloans-great-drought",
       "label": "Great Drought Begins",
       "year": 1276,
-      "description": "Tree-ring data reveals a catastrophic drought from 1276 to 1299 CE — the worst in over a thousand years — that devastated Puebloan agriculture and triggered the final abandonment of the Four Corners region.",
+      "description": "The start of a brutal 23-year dry spell (1276 to 1299 CE), the worst the Four Corners had seen in over a thousand years, that starved Puebloan farms and became the final shove out the door.",
       "wikiSlug": "Ancestral_Puebloans",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We can pin these dates so tightly because of one man: astronomer A.E. Douglass, who founded the science of tree-ring dating in the early 1900s while hunting for sunspot cycles. By matching the wide-and-narrow ring patterns in old building beams, he reconstructed Southwest rainfall year by year and named the \"Great Drought\" of 1276 to 1299 in the 1920s — making it one of the first ancient climate events ever dated to the exact year. The drought was real but it wasn't the whole story: an earlier megadrought around 1130 to 1180 had already weakened the region, so 1276 hit a landscape running on empty."
+        }
+      ]
     },
     {
       "id": "evt-puebloans-four-corners-abandonment",
       "label": "Four Corners Abandonment",
       "year": 1285,
-      "description": "Thousands of Ancestral Puebloans abandoned the Mesa Verde, Chaco, and Kayenta regions in a mass migration, leaving behind cliff dwellings and great houses that would stand empty for centuries.",
+      "description": "Between roughly 1275 and 1300 CE, tens of thousands of Ancestral Puebloans drained out of the Mesa Verde, Chaco, and Kayenta country in a great migration, leaving cliff dwellings and great houses standing empty.",
       "wikiSlug": "Ancestral_Puebloans",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The exodus was startlingly fast — the region went from its peak population to nearly deserted in only about 30 to 40 years, with Mesa Verde essentially empty by 1285. The people didn't vanish; they scattered south and east. Most headed for the northern Rio Grande and its tributaries (the Chama Valley, Pajarito Plateau, and Jemez Mountains of New Mexico), while others moved southwest to the Hopi Mesas in Arizona or south to the Zuni country. Their descendants — the modern Hopi, Zuni, Acoma, and other Pueblo peoples — still carry the languages, dances, and oral histories of that lost homeland."
+        }
+      ],
+      "commonsFile": "Ancestral_Puebloan_sites.png"
     },
     {
       "id": "evt-puebloans-rio-grande-migration",
       "label": "Migration to the Rio Grande",
       "year": 1290,
-      "description": "Puebloan migrants settled along the Rio Grande in central New Mexico, founding villages that would grow into the historic Pueblos of Taos, Santa Clara, San Ildefonso, and others encountered by the Spanish in the 1500s.",
+      "description": "Starting in the late 1200s, refugees from the drying Four Corners poured into the Rio Grande valley of New Mexico, where a permanent river meant irrigation, longer growing seasons, and the first reliably fed crowds the region had ever seen. The villages they founded became the historic pueblos the Spanish stumbled into in the 1540s.",
       "wikiSlug": "Pueblo_people",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Some of these new towns swelled far past anything the plateau had managed. Pecos Pueblo, on the trade road east of Santa Fe, packed around 2,000 people into multi-story adobe blocks and grew rich as a middleman between the pueblos and the Plains tribes. Its luck ran out slowly and brutally: Spanish disease, an Apache and then a Comanche raid in 1775 that killed nearly all its men, and finally bad water. By 1838 just 17 to 21 survivors remained, and they walked roughly 80 miles to Jemez Pueblo, the only other place that still spoke their Towa language, where their descendants live today."
+        }
+      ],
+      "commonsFile": "Taos_Pueblo_091.JPG"
     },
     {
       "id": "evt-puebloans-hopi-migration",
       "label": "Migration to the Hopi Mesas",
       "year": 1290,
-      "description": "Ancestral Puebloan groups migrated to the Hopi mesas in northeastern Arizona, joining existing communities and establishing a cultural continuity that the Hopi maintain to this day.",
+      "description": "A second wave headed southwest to the Hopi mesas of northeastern Arizona, where small villages had hung on for centuries and now swelled with clans arriving from the north. The Hopi never left, and their oral histories still tell the story of those incoming clans negotiating their way in.",
       "wikiSlug": "Hopi",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Old Oraibi, on Third Mesa, was founded before about 1100 CE and has been lived in ever since, which makes it one of the oldest continuously inhabited settlements in North America. Hopi tradition describes a kind of audition for newcomers: a migrating clan would approach a village and prove its worth, often by showing it could bring rain through its ceremonies, before being granted a place. The very droughts that emptied the Four Corners in the late 1200s may have forced the scattered Hopi to bunch together into a few stronger centers like Oraibi."
+        }
+      ],
+      "commonsFile": "Walpi_arizona.jpg"
     },
     {
       "id": "evt-puebloans-richard-wetherill",
       "label": "Richard Wetherill Discovers Cliff Palace",
       "year": 1888,
-      "description": "Rancher Richard Wetherill and Charlie Mason stumbled upon Cliff Palace at Mesa Verde while searching for stray cattle in a snowstorm, sparking national fascination with the Ancestral Puebloans.",
+      "description": "Looking for stray cattle in a December snowstorm in 1888, rancher Richard Wetherill and his brother-in-law Charlie Mason peered across a canyon at Mesa Verde and saw the pale walls of Cliff Palace through the falling snow, the find that pulled the Ancestral Puebloans into national attention.",
       "wikiSlug": "Richard_Wetherill",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wetherill's excavations also opened the door to a wave of artifact-stripping. In 1891 he hosted a young Swede, Gustaf Nordenskiold, who hauled more than 600 objects and several sets of human remains back to Europe, where they ended up in the National Museum of Finland (a collection Finland only agreed to start returning in 2019). The outcry over that export helped push Congress toward the Antiquities Act. Wetherill later moved on to excavate Pueblo Bonito in Chaco Canyon, where in 1910 he was shot and killed in a dispute with a Navajo man, his death as murky as his legacy."
+        }
+      ],
+      "commonsFile": "Mesa-Verde---Cliff-Palace-in_1891_-_edit1.jpg"
     },
     {
       "id": "evt-puebloans-mesa-verde-park",
       "label": "Mesa Verde National Park Established",
       "year": 1906,
-      "description": "President Theodore Roosevelt signed the bill creating Mesa Verde National Park, the first national park established to protect archaeological and cultural heritage rather than scenic landscapes.",
+      "description": "In 1906 President Theodore Roosevelt signed the bill creating Mesa Verde National Park, the first US national park set aside to protect human-made archaeological heritage rather than scenery, a direct response to the looting tearing through the cliff dwellings.",
       "wikiSlug": "Mesa_Verde_National_Park",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mesa Verde is Spanish for \"green table,\" the name for the high flat-topped plateau the dwellings are tucked beneath. The park was the first archaeological site in the country given that level of federal protection, and the campaign behind it was driven heavily by women's clubs, especially Colorado activist Virginia McClurg, who spent years lobbying for the cliff dwellings when most preservation push came from outside government. The same export scandal that sent Mesa Verde's artifacts to Finland was part of what finally moved Congress to act in 1906."
+        }
+      ],
+      "commonsFile": "Sun_Temple_by_RO.JPG"
     },
     {
       "id": "evt-puebloans-antiquities-act",
       "label": "Antiquities Act of 1906",
       "year": 1906,
-      "description": "Widespread looting of Puebloan ruins helped inspire the Antiquities Act, giving presidents power to protect archaeological sites as national monuments — a direct result of the destruction at Chaco and Mesa Verde.",
+      "description": "The same year Mesa Verde became a park, the wholesale looting of Puebloan ruins helped push through the Antiquities Act of 1906, which let presidents protect archaeological sites as national monuments with the stroke of a pen.",
       "wikiSlug": "Antiquities_Act",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The law was the first US legislation to make plundering sites on federal land a crime and to require a permit to dig or export antiquities. Roosevelt wasted no time, using it to declare Devils Tower the very first national monument in 1906 and the Grand Canyon a monument in 1908, decades before it became a park. More than a century later the act remains a live wire in American politics: presidents have used it to create huge protected areas like Bears Ears in Utah, and successors have fought over shrinking them."
+        }
+      ],
+      "commonsFile": "A_Yool_DevilsTower_04Sep03.jpg"
     },
     {
       "id": "evt-puebloans-kidder-classification",
       "label": "Pecos Classification System",
       "year": 1927,
-      "description": "Archaeologist Alfred V. Kidder convened the first Pecos Conference, where scholars established the Basketmaker-Pueblo classification system still used today to organize Ancestral Puebloan cultural periods.",
+      "description": "In 1927 archaeologist Alfred V. Kidder gathered Southwestern scholars at Pecos Pueblo and hammered out a shared timeline for Puebloan history, the Basketmaker-Pueblo \"Pecos Classification\" that researchers still lean on nearly a century later.",
       "wikiSlug": "Pecos_Classification",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The original scheme laid out eight stages, Basketmaker I through III and Pueblo I through V, sorted by changes in pottery, architecture, and basketry, though pointedly it attached no actual dates, since dendrochronology was still two years from cracking that open. The meeting was so useful it became a yearly fixture: the Pecos Conference still convenes somewhere in the Southwest every August and circles back to its birthplace at Pecos every five years, making it one of the longest-running gatherings in archaeology."
+        }
+      ],
+      "commonsFile": "Pecos_National_Historical_Park_Mission_Ruins.jpg"
     },
     {
       "id": "evt-puebloans-dendrochronology",
       "label": "Tree-Ring Dating Revolution",
       "year": 1929,
-      "description": "Astronomer A.E. Douglass used wooden beams from Puebloan ruins to perfect dendrochronology (tree-ring dating), providing exact construction dates for sites across the Southwest and revolutionizing archaeology worldwide.",
+      "description": "Astronomer A.E. Douglass cracked tree-ring dating using wooden beams pulled from Puebloan ruins, giving archaeologists exact calendar years for buildings across the Southwest and handing the field a precision tool used worldwide ever since.",
       "wikiSlug": "Dendrochronology",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The breakthrough hinged on a single charred beam, catalogued HH-39, dug from a ruin at Show Low, Arizona, on June 22, 1929. Its rings closed the last gap in Douglass's chronology and let him date some 40 Southwestern sites in one stroke; he compared the beam to the Rosetta Stone. Douglass had actually spent 15 years on the puzzle for an unexpected reason: he was an astronomer hunting for sunspot cycles in the climate record, and ancient timber happened to be the longest rainfall diary available. He went on to found the Laboratory of Tree-Ring Research at the University of Arizona in 1937, where HH-39 still sits in a climate-controlled chamber."
+        }
+      ],
+      "commonsFile": "Tree.ring.arp.jpg"
     },
     {
       "id": "evt-puebloans-chaco-world-heritage",
       "label": "Chaco Canyon UNESCO World Heritage Site",
       "year": 1987,
-      "description": "Chaco Culture National Historical Park was designated a UNESCO World Heritage Site, recognizing the great houses and road system as achievements of universal cultural significance.",
+      "description": "In 1987 UNESCO named Chaco Culture National Historical Park a World Heritage Site, ranking its great houses and engineered roads among humanity's most significant cultural achievements.",
       "wikiSlug": "Chaco_Culture_National_Historical_Park",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chaco's protection came in stages: a national monument in 1907, redesignated and enlarged as a national historical park in 1980, then the World Heritage listing in 1987. The honor put a stretch of high-desert New Mexico on the same roster as the Pyramids of Giza and Angkor Wat. The designation is bigger than the canyon alone, folding in outlying Chacoan sites and Aztec Ruins National Monument to the north, recognizing that Chaco's reach once spread across tens of thousands of square miles of the San Juan Basin."
+        }
+      ],
+      "commonsFile": "Pueblo_Bonito_Aerial_Chaco_Canyon.jpg"
     },
     {
       "id": "evt-puebloans-nagpra",
       "label": "NAGPRA and Repatriation",
       "year": 1990,
-      "description": "The Native American Graves Protection and Repatriation Act required the return of Ancestral Puebloan human remains and sacred objects to descendant communities, reshaping the ethics of Southwestern archaeology.",
+      "description": "The Native American Graves Protection and Repatriation Act, signed in 1990, forced museums and federal agencies to return Native human remains and sacred objects to descendant communities, upending a century of treating Puebloan ancestors as museum specimens.",
       "wikiSlug": "Native_American_Graves_Protection_and_Repatriation_Act",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "President George H.W. Bush signed NAGPRA into law on November 16, 1990. When it passed, federal agencies alone admitted to holding the remains of around 14,500 Native individuals, accumulated since the late 1800s. The grind of returning them has been slow and uneven, but the totals are real: by the law's 30th anniversary roughly 32,000 individuals had been repatriated, along with hundreds of thousands of funerary objects. The reckoning is far from finished, and investigations have found that some of America's largest museums still hold remains they have never returned."
+        }
+      ]
     }
   ]
 }
