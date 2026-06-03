@@ -67,692 +67,1140 @@
       "id": "evt-earliest-maya-settlements",
       "label": "Earliest Maya Settlements",
       "year": -1800,
-      "description": "Sedentary farming villages appear along the Pacific coast and in the lowlands of the Yucatán, marking the beginning of Maya settlement.",
+      "description": "Around 1800 BCE, the first permanent Maya farming villages take root along the Pacific coast and in the lowland jungles, planting the seed of one of the ancient world's most inventive civilizations.",
       "wikiSlug": "Maya_civilization",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pacific coastal plain was lush and easy to farm compared to the Petén jungle interior — rivers, rich soil, and reliable rainfall made it a natural starting point before settlers pushed into harder terrain. These early villagers grew maize, beans, and squash together (the Mesoamerican 'milpa' trio), a combination that works as a small ecological system: the corn stalk holds up the bean vine, the beans fix nitrogen back into the soil, and the squash leaves shade the ground to hold in moisture."
+        }
+      ],
+      "commonsFile": "Mayamap.png"
     },
     {
       "id": "evt-cuello-founded",
       "label": "Cuello Settlement",
       "year": -1200,
-      "description": "One of the earliest known Maya communities, Cuello in Belize shows evidence of maize agriculture and pottery production.",
+      "description": "Cuello, a small farming settlement in northern Belize occupied from around 1200 BCE, is one of the earliest known Maya communities — nothing dramatic, just the baseline village life from which everything else grew.",
       "wikiSlug": "Cuello",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Excavations by archaeologist Norman Hammond in the 1970s–80s found 47 burials at Cuello, already showing signs of social stratification by around 600 BCE — someone was getting a better send-off than someone else. The site also has the earliest known Maya sweat bath, dated to about 900 BCE, predating all other known examples in Mesoamerica; ritual bathing was apparently baked into Maya culture from almost the very beginning."
+        }
+      ]
     },
     {
       "id": "evt-cacao-cultivation",
       "label": "Cacao Cultivation Begins",
       "year": -1100,
-      "description": "The Maya begin cultivating cacao, which becomes a prized trade commodity and ritual beverage across Mesoamerica.",
+      "description": "Around 1100 BCE, Maya farmers begin cultivating cacao — the tree whose seeds will eventually become chocolate — turning a bitter wild fruit into one of the most important ritual and trade goods in all of Mesoamerica.",
       "wikiSlug": "History_of_chocolate",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "To the Maya, cacao wasn't a treat: it was drunk as a frothy, unsweetened, often chili-spiked beverage reserved for rulers, warriors, and ceremonies, and cacao beans doubled as actual currency (you could buy a turkey for about 100 beans in Classic-period markets). The word 'chocolate' itself traces through the Maya word 'chocol haa' (hot liquid) and the Nahuatl 'xocolatl', traveling into Spanish after the 1519 conquest and then across Europe — so every chocolate bar in the world carries a Maya linguistic fingerprint."
+        }
+      ],
+      "commonsFile": "CacaoMonkeyGod.jpg"
     },
     {
       "id": "evt-nakbe-monumental",
       "label": "Nakbe Monumental Architecture",
       "year": -800,
-      "description": "Nakbe in the Petén Basin develops massive stone platforms and pyramid structures, among the earliest monumental Maya architecture.",
+      "description": "Around 800 BCE, the Maya at Nakbe in the northern Petén begin raising stone platforms and pyramid-shaped structures up to 59 feet (18 meters) tall — the earliest large-scale construction in the Maya lowlands.",
       "wikiSlug": "Nakbe",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nakbe and the giant city El Mirador, just 8 miles (13 km) to the north, were linked by one of the earliest known Maya sacbe (raised limestone causeways), suggesting the two sites functioned together as an early urban network rather than isolated outposts. Nakbe also has one of the oldest known Maya ball courts — the rubber-ball game played here was already a ritual act, not just sport, tied to the Hero Twins mythology that would define Maya religion for the next two millennia."
+        }
+      ],
+      "commonsFile": "Nakbe,_small_temple_1.jpg"
     },
     {
       "id": "evt-el-mirador-rise",
       "label": "Rise of El Mirador",
       "year": -600,
-      "description": "El Mirador grows into a massive Preclassic city with the La Danta pyramid, one of the largest structures ever built in the ancient Maya world.",
+      "description": "Around 600 BCE, El Mirador begins its rise in the remote northern Petén to become the largest Preclassic Maya city ever found — home to the La Danta pyramid complex, one of the most massive structures built anywhere in the ancient world.",
       "wikiSlug": "El_Mirador",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "La Danta's total volume is estimated at about 99 million cubic feet (2.8 million cubic meters), which exceeds the volume of the Great Pyramid of Khufu at Giza — though La Danta is built partly on a natural hill, so not every cubic foot is human-made. Archaeologists estimate it took roughly 15 million man-days of labor to complete La Danta; for comparison, the Great Pyramid at Giza is thought to have required about 20 million man-days, and the Maya did it without draft animals or the wheel."
+        }
+      ],
+      "commonsFile": "Pirámide_de_la_Danta,_Petén.jpg"
     },
     {
       "id": "evt-maya-script-origins",
       "label": "Earliest Maya Script",
       "year": -300,
-      "description": "The earliest Maya hieroglyphic inscriptions appear, developing one of the few fully developed writing systems of the pre-Columbian Americas.",
+      "description": "Maya hieroglyphic writing emerges as the only fully developed writing system in the pre-Columbian Americas, a logosyllabary (a mix of whole-word symbols and syllable signs) capable of recording any sentence a Maya speaker could say.",
       "wikiSlug": "Maya_script",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The earliest confirmed Maya inscription is a stone block from San Bartolo, Guatemala, radiocarbon-dated to roughly 300–200 BCE — centuries earlier than scholars once thought the script existed. Unlike the Olmec proto-writing or the partially developed Zapotec script, Maya is a complete script comparable in expressive range to Egyptian hieroglyphs. Knorozov's 1952 phonetic-decipherment paper was published in a Soviet journal and largely ignored by Western scholars for a decade, partly because the Cold War made it easy to dismiss a Soviet linguist's work."
+        }
+      ],
+      "commonsFile": "Palenque_glyphs-edit1.jpg"
     },
     {
       "id": "evt-kaminaljuyu-trade",
       "label": "Kaminaljuyú Trade Hub",
       "year": -400,
-      "description": "Kaminaljuyú in the Guatemala highlands becomes a major trade center controlling obsidian and jade routes across Mesoamerica.",
+      "description": "By around 400 BCE, Kaminaljuyú in the Guatemala highlands has grown into a wealthy trade hub that controls the flow of obsidian and jade from the mountains down to the lowland cities.",
       "wikiSlug": "Kaminaljuyu",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The obsidian supply came mostly from El Chayal, a quarry about 25 miles (40 km) northeast of Kaminaljuyú — its distinctive jet-black stone has been found at sites stretching from El Salvador all the way to the Yucatán, making it one of the most widely distributed raw materials in ancient Mesoamerica. Most of ancient Kaminaljuyú is gone: modern Guatemala City was built directly on top of it, and today only about 0.2 square miles (0.5 sq km) survives as a protected park surrounded by urban sprawl."
+        }
+      ]
     },
     {
       "id": "evt-maya-long-count",
       "label": "Long Count Calendar Adopted",
       "year": -36,
-      "description": "The earliest known Long Count dates appear on Maya monuments, establishing a linear calendar system counting from a mythic creation date of 3114 BCE.",
+      "description": "The Long Count calendar appears on monuments beginning around 36 BCE, counting individual days from a mythological creation point in 3114 BCE and giving every day in history a unique address — something no other pre-modern civilization's timekeeping system could do.",
       "wikiSlug": "Mesoamerican_Long_Count_calendar",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The oldest securely dated Long Count inscription is on Stela 2 at Chiapa de Corzo, a site in what is now the Mexican state of Chiapas, corresponding to 36 BCE; Tres Zapotes Stela C follows close behind at 32 BCE. The calendar's base unit, the baktun (144,000 days, or roughly 394 years), was the unit that generated the famous \"2012 doomsday\" panic — that year simply marked the rollover of the 13th baktun, the equivalent of an odometer flipping to zero, not a predicted apocalypse."
+        }
+      ],
+      "commonsFile": "East_side_of_stela_C,_Quirigua.PNG"
     },
     {
       "id": "evt-tikal-founded",
       "label": "Tikal Founded",
       "year": -400,
-      "description": "Tikal is established in the Petén lowlands, eventually growing into one of the largest and most powerful Maya city-states.",
+      "description": "Settlement at what will become Tikal begins around 900 BCE as a modest village in the northern Petén; over the next millennium it quietly grows into one of the most powerful Maya cities ever built.",
       "wikiSlug": "Tikal",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tikal's early rise was partly a matter of geography: it sits on a low ridge above the surrounding swampy lowlands, giving it dry ground for building and a defensible position, while nearby flint deposits provided raw material for tools and weapons that could be traded across the region. After El Mirador collapsed around 150 CE, Tikal was well-positioned to fill the power vacuum — and it did, eventually ruling a territory of about 965 square miles (2,500 sq km) and supporting an estimated population of 100,000 people at its height."
+        }
+      ],
+      "commonsFile": "Tikal_3.jpg"
     },
     {
       "id": "evt-popol-vuh-tradition",
       "label": "Popol Vuh Oral Tradition",
       "year": -200,
-      "description": "The creation mythology later recorded as the Popol Vuh takes shape, describing the Hero Twins and the Maya origin of humanity from maize.",
+      "description": "The mythology that would become the Popol Vuh — the Maya creation story, the Hero Twins' journey through the underworld, and the making of humans from maize — is already illustrated on murals at San Bartolo, showing the tradition was alive at least two thousand years before it was ever written down.",
       "wikiSlug": "Popol_Vuh",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The text was actually committed to paper around 1554–1558 CE, when K'iche' nobles secretly wrote it in their own language using the Roman alphabet the Spanish missionaries had taught them — an act of cultural defiance in the middle of the conquest. The manuscript was then lost for over a century until a Dominican friar named Francisco Ximénez found it around 1701 in Chichicastenango, Guatemala; his copy (the original K'iche' manuscript is gone) now sits in the Newberry Library in Chicago."
+        }
+      ],
+      "commonsFile": "Hero_Twins.jpg"
     },
     {
       "id": "evt-siyaj-kahk-conquest",
       "label": "Siyaj K'ahk' Conquers Tikal",
       "year": 378,
-      "description": "The warrior Siyaj K'ahk' arrives at Tikal and overthrows its king, installing a new Teotihuacan-linked dynasty in a pivotal power shift.",
+      "description": "On January 16, 378 CE, a figure named Siyaj K'ahk' (\"Fire Is Born\") marched into Tikal — and on that same day, Tikal's long-reigning king was dead.",
       "wikiSlug": "Siyaj_Kʼakʼ",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inscriptions say Siyaj K'ahk' was acting on behalf of a lord called Spearthrower Owl, almost certainly a ruler of Teotihuacan. Within two years of his arrival, Siyaj K'ahk' had also replaced kings at Uaxactun and overseen new dynastic installations across the Petén. Isotopic analysis of his teeth suggests he actually grew up near Tikal, not Teotihuacan — meaning he may have been a Maya insider who leveraged Teotihuacan prestige to stage a coup, rather than a foreign general leading an invasion."
+        }
+      ],
+      "commonsFile": "Tikal_Stela_31.jpg"
     },
     {
       "id": "evt-yax-nuun-ahiin",
       "label": "Yax Nuun Ahiin I",
       "year": 379,
       "endYear": 404,
-      "description": "Installed by Siyaj K'ahk' after the Teotihuacan intervention, Yax Nuun Ahiin I founded a new dynasty that would dominate Tikal for centuries.",
+      "description": "Yax Nuun Ahiin I, son of the Teotihuacan lord Spearthrower Owl, took Tikal's throne in September 379 CE and founded the dynasty that would control the city for generations.",
       "wikiSlug": "Yax_Nuun_Ahiin_I",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His tomb — Burial 10, beneath Structure 34 in Tikal's North Acropolis — included nine sacrificed youths and a dog, offerings characteristic of Teotihuacan burial practice rather than Maya custom. The grave goods mixed both traditions: jade mosaic earplugs about three inches across (very Maya) alongside ceramic vessels painted in thin plaster with the wide-headdressed figures of Teotihuacan iconography. He reigned until at least 404 CE, possibly as late as 406."
+        }
+      ],
+      "commonsFile": "Tikal_St04.jpg"
     },
     {
       "id": "evt-copan-dynasty-founded",
       "label": "Copán Dynasty Founded",
       "year": 426,
-      "description": "K'inich Yax K'uk' Mo' founds the royal dynasty of Copán, establishing a kingdom that becomes a major center of Maya art and science.",
+      "description": "In 426 CE, a founder known as K'inich Yax K'uk' Mo' (\"Sun-Eyed Resplendent Quetzal Macaw\") established the royal dynasty that would make Copán one of the great intellectual centers of the Maya world.",
       "wikiSlug": "K%27inich_Yax_K%27uk%27_Mo%27",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Isotopic analysis of his teeth shows he grew up near Tikal in the Petén — possibly spending time at Caracol in Belize before joining Tikal's royal court — not in Teotihuacan, despite his monuments showing him in full Teotihuacan warrior gear. He was inaugurated in 426 but didn't physically arrive at Copán until 427, suggesting the ceremony happened elsewhere before he made the long journey southeast into what is now Honduras. The dynasty he started ran for sixteen successive kings, lasting until roughly 820 CE."
+        }
+      ],
+      "commonsFile": "Honduras-0330B_(4259979856).jpg"
     },
     {
       "id": "evt-palenque-founded",
       "label": "Palenque Dynasty Founded",
       "year": 431,
-      "description": "The dynasty of Palenque is established under K'uk' Bahlam I in the western Maya lowlands of modern Chiapas, Mexico.",
+      "description": "On March 10, 431 CE, K'uk' Bahlam I (\"Quetzal Jaguar\") founded the royal dynasty of Palenque, setting in motion a lineage that would produce some of the finest art and architecture in the ancient Americas.",
       "wikiSlug": "Palenque",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "K'uk' Bahlam I reigned only about four years before his death around 435 CE, making him a founder with almost no documented story beyond the founding itself. Later inscriptions at Palenque refer to him with the title Toktan Ajaw (lord of a place called Toktan), suggesting Palenque may have been a secondary seat carved out of an older political unit. The dynasty he started would eventually peak with Pakal the Great in the 7th century, whose reign and tomb rank among the most famous in all of Maya archaeology."
+        }
+      ],
+      "commonsFile": "Palace_at_Palenque.jpg"
     },
     {
       "id": "evt-tikal-calakmul-rivalry",
       "label": "Tikal–Calakmul Rivalry Begins",
       "year": 537,
-      "description": "The superpower rivalry between Tikal and Calakmul intensifies, with Calakmul's Sky Witness defeating Tikal and inaugurating a long period of conflict.",
+      "description": "In 537 CE, Calakmul's ruler Sky Witness launched a direct attack on Tikal, handing the city a public defeat that cracked its political stability and opened it to the coalition that would finish the job 25 years later.",
       "wikiSlug": "Tikal%E2%80%93Calakmul_wars",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sky Witness wasn't ruling from Calakmul yet — the Kaan dynasty at that time was based at Dzibanche, a site further east, and only relocated its capital to Calakmul later in the 6th or early 7th century. The first war is recorded in Tikal's own inscriptions, which makes it an unusually candid admission: Maya rulers almost never carved their defeats, so the fact that it survived suggests Tikal couldn't erase it cleanly."
+        }
+      ],
+      "commonsFile": "Map_Kaan_&_Mutal.jpg"
     },
     {
       "id": "evt-caracol-defeats-tikal",
       "label": "Caracol Defeats Tikal",
       "year": 562,
-      "description": "Calakmul's ally Caracol inflicts a devastating \"star war\" defeat on Tikal, beginning a 130-year period of Tikal's decline.",
+      "description": "On April 29, 562 CE, Caracol (a major city in what is now Belize, allied with Calakmul) launched a \"star war\" — a total, Venus-timed war of annihilation — against Tikal, defeating and likely sacrificing Tikal's king Wak Chan K'awiil and triggering a 130-year monument silence known as the Tikal Hiatus.",
       "wikiSlug": "Caracol",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The backstory has a bitter twist: just nine years earlier, in 553 CE, Caracol's king had formally sworn fealty to Tikal's Wak Chan K'awiil. Tikal then turned around and executed a Caracol noble — probably the act that drove Caracol into Calakmul's arms. Caracol itself was enormous, covering roughly 77 square miles (200 sq km) and eventually supporting over 100,000 people, making it the largest city in what is now Belize."
+        }
+      ],
+      "commonsFile": "Caana_Caracol.jpg"
     },
     {
       "id": "evt-pakal-reign",
       "label": "K'inich Janaab Pakal",
       "year": 615,
       "endYear": 683,
-      "description": "Pakal the Great rules Palenque for 68 years, commissioning the Temple of the Inscriptions and presiding over a golden age of art and architecture.",
+      "description": "K'inich Janaab Pakal (\"Great Sun Shield\") ruled Palenque in western Mexico for 68 years, from 615 to 683 CE, turning a mid-tier kingdom into the most artistically refined city in the Maya world through relentless building, sculpture, and inscription work.",
       "wikiSlug": "K%27inich_Janaab_Pakal",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His 68-year reign ranks as the fifth-longest verified reign of any monarch in recorded history — longer than Queen Victoria's 63 years, though Louis XIV of France still edges him out at 72. Physical analysis of Pakal's skeleton suggested he died around age 40–50, not at 80 as the inscriptions claim, a gap archaeologists still haven't resolved. After his death, Palenque's ruling family deified him as one of the city's patron gods."
+        }
+      ],
+      "commonsFile": "Palenque_-_Maske_des_Pakal.jpg"
     },
     {
       "id": "evt-temple-inscriptions",
       "label": "Temple of the Inscriptions",
       "year": 675,
-      "description": "Pakal commissions his funerary pyramid at Palenque, containing the longest known Maya hieroglyphic text and his elaborate jade-masked burial.",
+      "description": "The Temple of the Inscriptions is Pakal's nine-level funerary pyramid at Palenque, built around 675 CE and housing both the longest single Maya hieroglyphic text (617 glyph blocks) and Pakal's jade-laden burial chamber hidden deep inside its base.",
       "wikiSlug": "Temple_of_the_Inscriptions",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mexican archaeologist Alberto Ruz Lhuillier discovered the hidden stairway in 1952 only because he noticed a stone slab in the summit temple floor with unusual finger-holes — the plug for the sealed passage. It then took four full excavation seasons (1948–1952) to clear the rubble-packed 25-meter descent to the burial chamber. The carved limestone sarcophagus lid alone measures roughly 12.5 by 7 feet (3.8 by 2.2 meters) and weighs about 5 metric tons."
+        }
+      ],
+      "commonsFile": "Tumba_de_pakal,_Chiapas.JPG"
     },
     {
       "id": "evt-kan-bahlam-ii",
       "label": "K'inich Kan Bahlam II",
       "year": 684,
       "endYear": 702,
-      "description": "Pakal's son continues Palenque's building program, constructing the Cross Group temples with elaborate mythological inscriptions.",
+      "description": "K'inich Kan Bahlam II (\"Sun-Eyed Snake Jaguar\") ruled Palenque from 684 to 702 CE and completed his father's vision by building the Cross Group — three temples each dedicated to one of Palenque's patron gods — finished around 692 CE.",
       "wikiSlug": "K%27inich_Kan_Bahlam_II",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The three temples (Cross, Foliated Cross, Sun) were deliberately built at different elevations, likely to represent the three tiers of the Maya cosmos: sky, earth, and underworld. Each inner sanctuary contains a carved tablet depicting Kan Bahlam and his father performing rituals for a different member of the Palenque Triad (the city's three dynastic patron deities). Kan Bahlam was 48 years old when he finally took the throne — he had waited out his father's extraordinarily long reign."
+        }
+      ],
+      "commonsFile": "K'inich_Kan_Balam_II._Tablero_XVII.jpg"
     },
     {
       "id": "evt-tikal-defeats-calakmul",
       "label": "Tikal Defeats Calakmul",
       "year": 695,
-      "description": "Jasaw Chan K'awiil I of Tikal defeats Calakmul's ruler Yich'aak K'ahk', breaking Calakmul's regional dominance and reviving Tikal's power.",
+      "description": "In 695 CE, Tikal's king Jasaw Chan K'awiil I attacked Calakmul and defeated its ruler Yich'aak K'ahk' (\"Claw of Fire\"), capturing one of Calakmul's patron deity effigies — the sacred war-bundle the city carried into battle — and breaking Calakmul's grip on the lowland alliance network.",
       "wikiSlug": "Jasaw_Chan_K%27awiil_I",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jasaw Chan K'awiil I chose his victory celebration date deliberately: he held the ceremony on the anniversary of the death of Spearthrower Owl, the Teotihuacan warlord whose intervention had brought Tikal's dynasty to power back in 379 CE — a pointed message that Tikal's glory ran in a straight line from the city's founding moment. After 695 CE, Calakmul never reassembled a superpower coalition; its vassal cities read the result and quietly defected."
+        }
+      ],
+      "commonsFile": "MutalImage3.jpg"
     },
     {
       "id": "evt-maya-zero",
       "label": "Maya Concept of Zero",
       "year": 350,
-      "description": "The Maya independently develop the concept of zero and a vigesimal (base-20) positional number system, centuries before it reaches Europe.",
+      "description": "The Maya independently invent the concept of zero — represented by a shell glyph — and build it into a base-20 positional number system, making them one of only three or four civilizations in all of human history to arrive at this idea on their own.",
       "wikiSlug": "Maya_numerals",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The earliest Mesoamerican use of a zero placeholder actually predates 350 CE: Long Count dates requiring a zero position appear as early as the 1st century BCE, meaning the concept was in use at least four centuries before it reached medieval Europe via India and the Islamic world. The three symbols that power the entire system — a dot (1), a bar (5), and the shell (0) — can express any number whatsoever; a scribe could write the equivalent of a million using just those three marks and the rules of position."
+        }
+      ],
+      "commonsFile": "Dresden_Codex_f8461796.png"
     },
     {
       "id": "evt-maya-astronomy",
       "label": "Venus Tables Calculated",
       "year": 400,
-      "description": "Maya astronomers calculate the synodic period of Venus to within two hours of the modern value, using it to time wars and rituals.",
+      "description": "Maya astronomers tracked Venus with extraordinary precision, calculating the time between its repeat appearances in the sky to within about two hours of the actual 583.92-day cycle.",
       "wikiSlug": "Maya_astronomy",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Venus cycle breaks down into four distinct phases: 263 days as morning star, 50 days invisible, 263 days as evening star, and 8 days invisible again. Remarkably, five of these 584-day Venus cycles equals almost exactly eight solar years of 365 days — a coincidence the Maya built into a 104-year grand cycle called the Calendar Round. Venus-timed attacks (called \"star wars\" in the inscriptions) were considered cosmically sanctioned, which means a ruler could gain ideological cover for a war simply by waiting for the right position in the sky."
+        }
+      ],
+      "commonsFile": "Madrid_Codex_astronomer.png"
     },
     {
       "id": "evt-calakmul-peak",
       "label": "Calakmul at Its Peak",
       "year": 636,
-      "description": "Under Yuknoom Ch'een II (\"the Great\"), Calakmul assembles a vast network of vassal states and becomes the dominant Maya superpower.",
+      "description": "From 636 to 686 CE, Calakmul's king Yuknoom Ch'een II (\"the Great\") ruled for 50 years and assembled the most extensive alliance network in Maya history, surrounding Tikal on all sides through a web of royal marriages, installed puppet kings, and political hostages.",
       "wikiSlug": "Yuknoom_Ch%27een_II",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "One of Yuknoom Ch'een II's daughters, Lady K'abel, was sent to marry into the city of El Perú-Waka' and rose to hold the title of \"Supreme Warlord\" — outranking her own husband as the most powerful person in the city. Calakmul also enforced loyalty by taking firstborn sons of allied rulers to court as \"guests,\" grooming them as future obedient kings — a hostage diplomacy that made the alliance network self-reinforcing."
+        }
+      ],
+      "commonsFile": "Funerary_Mask_of_Yuknoom_Ch'een_II_(Jade,_Omphacite,_Green_Quartz,_and_diverse_Shell)..._Calakmul,_Late_Classic_(600-800_AD).jpg"
     },
     {
       "id": "evt-bonampak-murals",
       "label": "Bonampak Murals Painted",
       "year": 790,
-      "description": "The vivid Bonampak murals are painted, depicting warfare, ritual, and court life in the finest surviving example of Classic Maya painting.",
+      "description": "The Bonampak murals, painted around 790 CE at a small site near Yaxchilán in present-day Chiapas, cover three corbel-vaulted rooms with the finest surviving example of Classic Maya painting — vivid scenes of a royal heir presentation, a jungle raid and battle, and the brutal celebration that followed.",
       "wikiSlug": "Bonampak",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The murals were unknown to the outside world until 1946, when a Lacandón Maya man led American photographer Giles Healey to the site. They were preserved by a thin limestone crust deposited by centuries of seeping water, which sealed the pigments against the air. Room 2 contains individual portraits of warriors and captives distinct enough that they are likely actual people, making Bonampak the closest thing to a Maya photographic record of who was in a royal court."
+        }
+      ],
+      "commonsFile": "Bonampak_painting.jpg"
     },
     {
       "id": "evt-maya-ballgame-peak",
       "label": "Ballgame Culture Flourishes",
       "year": 600,
-      "description": "The Mesoamerican ballgame reaches peak cultural importance among the Maya, with elaborate ball courts built at major cities as sites of ritual and sport.",
+      "description": "By around 600 CE the Mesoamerican ballgame had reached its peak cultural importance in the Maya world, with elaborate I-shaped stone courts at every major city serving as stages for a ritual that reenacted the Hero Twins' defeat of the lords of death in the underworld.",
       "wikiSlug": "Mesoamerican_ballgame",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "More than 1,300 ball courts have been found across Mesoamerica, and every single one shares the same I-shaped plan — two parallel sloped walls with end zones. The solid rubber balls could weigh up to about 9 pounds (4 kg), and players were only allowed to strike the ball with hips, knees, and elbows (not hands or feet). Some courts had stone rings mounted high on the walls; getting the ball through one was so difficult it may have ended the game immediately rather than merely scoring a point."
+        }
+      ],
+      "commonsFile": "Chichén_Itzá_-_Juego_de_Pelota.jpg"
     },
     {
       "id": "evt-jade-trade-network",
       "label": "Jade Trade Networks",
       "year": 300,
-      "description": "Extensive trade networks distribute jade from the Motagua Valley across the Maya world, where it is valued above gold for ritual and royal adornment.",
+      "description": "Every piece of jade in the Maya world came from a single source — the Motagua River Valley in Guatemala — and carved jade objects traveled by canoe and foot to cities hundreds of miles away.",
       "wikiSlug": "Maya_trade",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Motagua Valley is one of only about six known jadeite sources on Earth, and it produces both the deep green and rare blue varieties. The stone forms along a tectonic fault under unusual high-temperature, low-pressure conditions — making it geologically one-of-a-kind in the Western Hemisphere. Maya workshops turned raw jade into paper-thin mosaic masks, earspools sometimes three inches across, and tiny beads placed in a ruler's mouth at burial so the dead could pay their way into the underworld."
+        }
+      ],
+      "commonsFile": "Maya_Jade_Artifacts.jpg"
     },
     {
       "id": "evt-cacao-as-currency",
       "label": "Cacao Beans as Currency",
       "year": 500,
-      "description": "Cacao beans are widely used as a standardized medium of exchange across the Maya lowlands, functioning as currency in marketplaces.",
+      "description": "Cacao beans circulated as standardized small-change money across the Maya lowlands, used in open-air markets to buy everything from food to labor.",
       "wikiSlug": "History_of_chocolate",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A 16th-century Nahuatl price list — recording the same bean-money system still running in Aztec markets — puts a small rabbit at 30 cacao beans and a turkey egg at 3. Counterfeiters were already at work: some traders hollowed out the shells and filled them with dirt or crushed avocado pits, then passed them off as full beans. The beans also doubled as a tax payment, so the government had a direct stake in keeping the currency honest."
+        }
+      ],
+      "commonsFile": "Mayan_people_and_chocolate.jpg"
     },
     {
       "id": "evt-copan-altar-q",
       "label": "Altar Q at Copán",
       "year": 776,
-      "description": "Yax Pasaj Chan Yopaat commissions Altar Q, depicting all 16 kings of the Copán dynasty, one of the most important Maya historical monuments.",
+      "description": "Altar Q, dedicated at Copán in 776 CE by the 16th king Yax Pasaj Chan Yopaat, is a carved stone block showing all sixteen rulers of the dynasty seated in a row, with the founder K'inich Yax K'uk' Mo' handing a royal scepter directly to Yax Pasaj — one of the most complete king lists surviving from the ancient Maya world.",
       "wikiSlug": "Altar_Q",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The monument spans roughly 350 years of dynastic history, from the founder who arrived around 426 CE down to Yax Pasaj himself. Yax Pasaj may have taken the throne at around age nine in 763 CE, and his connection to the founding dynasty was apparently thin enough that he needed Altar Q's very public genealogical argument. A cache of 15 sacrificed jaguars was buried beneath the altar at its dedication — one for each of his predecessors."
+        }
+      ],
+      "commonsFile": "Copan_Museum,_Altar_Q,_dynastic_rulers_(15771343718).jpg"
     },
     {
       "id": "evt-18-rabbit-capture",
       "label": "18 Rabbit Captured and Killed",
       "year": 738,
-      "description": "Uaxaclajuun Ub'aah K'awiil (\"18 Rabbit\"), the great king of Copán, is captured and beheaded by vassal-state Quiriguá in a shocking reversal.",
+      "description": "In 738 CE, Uaxaclajuun Ub'aah K'awiil (\"18 Rabbit\"), the great king of Copán who had presided over the city's artistic zenith for 43 years, was captured and ritually beheaded by the ruler of Quiriguá — a small vassal city that Copán had dominated for generations.",
       "wikiSlug": "Uaxaclajuun_Ub%27aah_K%27awiil",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The capture happened on May 3, 738 CE, at a place the inscriptions call Kok Witz (\"Turtle Hill\"). Some scholars think 18 Rabbit may have walked into a trap while raiding for sacrificial captives — an activity kings regularly led in person. The beheading severed Copán's control of the Motagua Valley jade and obsidian trade routes, which Quiriguá immediately absorbed, funding its subsequent building boom."
+        }
+      ],
+      "commonsFile": "Copan_St_H.jpg"
     },
     {
       "id": "evt-quirigua-stelae",
       "label": "Quiriguá Stelae Erected",
       "year": 751,
-      "description": "After defeating Copán, Quiriguá erects the tallest freestanding stone monuments in the Maya world, including the 10-meter Stela E.",
+      "description": "After killing the king of Copán, Quiriguá declared independence and erected the tallest freestanding stone monuments in the Maya world, capped by Stela E (dedicated 771 CE), which stands 35 feet (10.6 meters) above ground and weighs approximately 65 tons.",
       "wikiSlug": "Quirigu%C3%A1",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Stela E is also the largest single piece of stone ever quarried by the Maya. Quiriguá's sculptors worked in a hard red sandstone rather than Copán's softer volcanic tuff — the material couldn't achieve Copán's three-dimensional carving style, so Quiriguá compensated with sheer scale instead. The site is a UNESCO World Heritage Site today and the monuments still stand outdoors under thatched protective shelters."
+        }
+      ],
+      "commonsFile": "GT_Quirigua_StelaE.JPG"
     },
     {
       "id": "evt-classic-maya-collapse",
       "label": "Classic Maya Collapse",
       "year": 850,
-      "description": "Major lowland cities are progressively abandoned over decades due to drought, warfare, and political fragmentation, ending the Classic Period.",
+      "description": "Between roughly 800 and 1000 CE, the great cities of the southern Maya lowlands stopped building, stopped carving monuments, and were progressively abandoned — not all at once, but in a cascade of failures driven by severe drought, ecological exhaustion, and political collapse.",
       "wikiSlug": "Classic_Maya_collapse",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Paleoclimatic records (lake sediment cores and cave stalagmites) identify four peak drought episodes at 760, 810, 860, and 910 CE, matching the four documented phases of city abandonment almost exactly. Lake Chichancanab's sediment cores show gypsum deposits from this period indicating the lake partially evaporated — a level of dryness not seen in the previous 7,000 years. Oxygen-isotope analysis suggests rainfall dropped 25 to 40 percent below normal at the worst points. The Petén, which may have held 3 to 5 million people at its peak, was largely depopulated by 1000 CE."
+        }
+      ],
+      "commonsFile": "Maya_southern_lowlands_population_density_1_1_1_1.png"
     },
     {
       "id": "evt-dresden-codex",
       "label": "Dresden Codex Compiled",
       "year": 1200,
-      "description": "The Dresden Codex, the oldest surviving book from the Americas, is compiled with astronomical tables, eclipse predictions, and Venus calculations.",
+      "description": "The Dresden Codex is a folding bark-paper manuscript compiled around 1200 CE, roughly 11.5 feet (3.5 m) long when unfolded, packed with astronomical tables for predicting eclipses and tracking the movements of Venus and the Moon — the oldest surviving book from the Americas.",
       "wikiSlug": "Dresden_Codex",
       "tier": 2,
       "tags": [
         "science"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Venus tables in the codex track the planet's 583.92-day cycle with an accuracy of about 2 hours over 481 years — a figure that held up against modern telescopic measurement. The codex ended up in the Royal Library in Dresden after a Spanish nobleman acquired it in the early 1700s and sold it there; how it traveled from the Yucatán to Vienna (and then Dresden) is unknown. It nearly didn't survive: the Allied firebombing of Dresden in February 1945 heavily damaged the codex with water from firefighting, and it spent years in careful restoration before being digitized."
+        }
+      ],
+      "commonsFile": "Dresden_Codex_pp.58-62_78.jpg"
     },
     {
       "id": "evt-chichen-itza-rise",
       "label": "Rise of Chichén Itzá",
       "year": 900,
-      "description": "Chichén Itzá emerges as the dominant Postclassic power in the northern Yucatán, blending Maya and central Mexican architectural styles.",
+      "description": "After the Classic Collapse, Chichén Itzá rose to become the most powerful city in the northern Yucatán, a cosmopolitan place where Maya traditions mixed openly with ideas from central Mexico — warrior imagery, feathered serpent cults, and a new architectural vocabulary that looked nothing like the Classic-period cities to the south.",
       "wikiSlug": "Chichen_Itza",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chichén Itzá's \"split personality\" is so pronounced that archaeologists long treated it as two separate cities built in sequence — \"Old\" and \"New\" Chichén — before realizing much of it was contemporary. The Great Ball Court at the site is the largest in all of Mesoamerica, roughly 545 feet (166 m) long, with stone rings set 20 feet (6 m) up the walls that players had to hit with a rubber ball using only their hips and elbows. Skeletal analysis of the population shows a mix of genetic backgrounds, consistent with the cosmopolitan picture the architecture suggests."
+        }
+      ],
+      "commonsFile": "Chichen_Itza_3.jpg"
     },
     {
       "id": "evt-el-castillo",
       "label": "El Castillo (Kukulcán Pyramid)",
       "year": 1000,
-      "description": "The iconic stepped pyramid at Chichén Itzá is built, designed so equinox sunlight creates a serpent shadow descending its staircase.",
+      "description": "El Castillo (\"the castle\" in Spanish), also called the Temple of Kukulcán, is the great stepped pyramid at the heart of Chichén Itzá — 91 steps on each of its four sides plus the top platform adds up to 365, the length of the solar year, possibly making the whole building a calendar in stone.",
       "wikiSlug": "El_Castillo,_Chichen_Itza",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pyramid is actually two pyramids: in the 1930s, Mexican archaeologists tunneled inside and found an earlier pyramid encased within, containing a jade-studded red jaguar throne and a reclining Chac Mool figure (a stone sculpture holding a bowl on its stomach, probably used to receive offerings). In 2016, a third, even older structure was detected beneath those two using non-invasive scanning — so El Castillo is three pyramids nested inside each other like Russian dolls. The equinox serpent-shadow effect draws hundreds of thousands of visitors twice a year, but some scholars still argue it may be a coincidence of geometry rather than intentional design."
+        }
+      ],
+      "commonsFile": "Serpent_head_at_the_base_of_El_Castillo.jpg"
     },
     {
       "id": "evt-kukulcan-cult",
       "label": "Cult of Kukulcán Spreads",
       "year": 950,
-      "description": "Worship of the feathered serpent deity Kukulcán (Quetzalcoatl) becomes central to Postclassic Maya religion, especially at Chichén Itzá.",
+      "description": "Kukulcán (\"feathered serpent\" in Yucatec Maya) was the defining deity of Postclassic Maya religion — the same god the Aztecs called Quetzalcoatl — and his cult transformed from a background motif into the organizing center of public life, politics, and architecture across the Yucatán.",
       "wikiSlug": "Kukulkan",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The feathered serpent idea is far older than the Maya: the earliest known depictions appear at Teotihuacan (central Mexico) around 200 CE, on a temple whose facades are covered in over 360 carved serpent heads. The name Kukulcán is a direct translation: k'uk' means \"quetzal feather\" and kan means \"serpent\" in Yucatec Maya. After Chichén Itzá, the cult spread to Mayapán, making the feathered serpent not just a god but a kind of political brand — claiming Kukulcán's favor was a statement of legitimate rule."
+        }
+      ],
+      "commonsFile": "Kukulcan_Panel,_Chichén_Itzá,_Mexico.jpg"
     },
     {
       "id": "evt-chichen-itza-decline",
       "label": "Decline of Chichén Itzá",
       "year": 1100,
-      "description": "Chichén Itzá loses political dominance, possibly after conflict with Mayapán, and is gradually depopulated though it remains a pilgrimage site.",
+      "description": "Around 1100 CE, Chichén Itzá lost its grip on the northern Yucatán — not in a sudden conquest, but through a combination of political fracture, drought stress, and the rise of rival powers — and the city gradually emptied while remaining a sacred pilgrimage destination for centuries.",
       "wikiSlug": "Chichen_Itza",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sediment cores from lakes near Chichén Itzá show severe drought cycles during the 1100s, which would have hammered the agricultural base that fed the city. Archaeological evidence from the late occupation period includes signs of internal violence and new defensive structures appearing around the site — suggesting the city was coming apart from the inside at the same time pressure was building from the outside. The city was never fully abandoned: Spanish conquistadors in the 1500s found it still being used for religious ceremonies."
+        }
+      ],
+      "commonsFile": "Chichen_Itza_4.jpg"
     },
     {
       "id": "evt-mayapan-league",
       "label": "League of Mayapán",
       "year": 1200,
-      "description": "Mayapán becomes the political capital of the Yucatán under the Cocom dynasty, governing through a confederacy of allied noble houses.",
+      "description": "Mayapán was the walled capital of the Yucatán from roughly 1200 to 1441 CE, governing through a confederacy of allied noble families called the League of Mayapán — in theory a cooperative arrangement, in practice a control system run by the Cocom dynasty, who kept the lords of rival houses living inside the city walls where they could be watched.",
       "wikiSlug": "Mayapan",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cocom rulers enforced their authority through the Canul warriors, professional mercenaries recruited from Tabasco in central Mexico — a standing army of outsiders who owed loyalty to the dynasty rather than to any local faction. Mayapán's wall enclosed about 1.6 square miles (4.2 sq km), sheltering an estimated 15,000–20,000 people in tightly packed compounds, making it one of the most densely populated urban spaces the Maya world ever produced. Classic Maya cities had no defensive walls at all; Mayapán's perimeter is a sign of how much more dangerous the Postclassic political environment had become."
+        }
+      ],
+      "commonsFile": "Mayapan_'2010_-_31.JPG"
     },
     {
       "id": "evt-maya-salt-trade",
       "label": "Yucatán Salt Trade",
       "year": 1100,
-      "description": "The coastal salt beds of northern Yucatán become a major export commodity, fueling maritime trade routes around the peninsula.",
+      "description": "The shallow coastal lagoons along the northern Yucatán produced salt through solar evaporation, and that salt became one of the most important commodities in the entire Postclassic Maya economy — traded by canoe from Tabasco to Honduras and as far inland as Guatemala.",
       "wikiSlug": "Maya_trade",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Salt was essential in a Maya diet that was heavy in corn (maize), which strips the body of sodium; without regular salt intake, people working in the tropical heat would collapse. The northern Yucatán's salt beds gave cities in that region a strategic advantage that jade and obsidian — the Classic period's prestige goods — couldn't match, because salt was something everyone needed every day. Cozumel island, just off the east coast of the Yucatán, served as a major transshipment hub in this maritime salt network, sitting at the corner of the Caribbean routes heading both south toward Central America and west around the peninsula."
+        }
+      ]
     },
     {
       "id": "evt-mayapan-fall",
       "label": "Fall of Mayapán",
       "year": 1441,
-      "description": "The Xiu faction revolts against the Cocom rulers, sacking Mayapán and ending the last centralized Maya political authority in the Yucatán.",
+      "description": "In 1441 CE, the Xiu faction's revolt shattered the League of Mayapán, sacked the city, and killed most of the Cocom ruling house — ending the last centralized Maya political authority in the Yucatán and splintering the region into roughly sixteen quarreling mini-states.",
       "wikiSlug": "Mayapan",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Archaeology at Mayapán found burned buildings and smashed altars dating to this period, confirming the Maya oral tradition about the violence of the sack. The fragmentation that followed — sixteen small, mutually hostile provinces (called kuchkabalob) — made the region simultaneously harder and easier for the Spanish to conquer: no single ruler to decapitate, but factions eager to recruit European muscle against their local enemies. Drought played a role too: a 2022 study using lake sediment cores found that a severe prolonged drought hit the Yucatán in the mid-1400s, weakening Mayapán's food supply and sharpening the factional tensions that finally boiled over."
+        }
+      ],
+      "commonsFile": "Stucco_figures_at_Mayapan_ruins_2009_Yucatan_01.jpg"
     },
     {
       "id": "evt-lady-xoc",
       "label": "Lady K'abal Xook Bloodletting",
       "year": 724,
-      "description": "Lintel 24 at Yaxchilán depicts Lady K'abal Xook performing a royal bloodletting ritual, one of the most famous images of Maya religious practice.",
+      "description": "Lintel 24 at Yaxchilán, carved around 724 CE, depicts Lady K'abal Xook (the principal wife of Shield Jaguar II) pulling a rope studded with obsidian blades through her tongue while her husband holds a torch overhead — one of the most unflinching images of royal ritual in all of pre-Columbian art.",
       "wikiSlug": "Lady_Xoc",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The glyph text on the lintel dates the event precisely to October 24, 709 CE. The blood Lady Xook drew fell onto bark paper in a bowl at her feet; the paper would then be burned so the smoke could carry a vision-inducing message to the gods. Lintel 24 is now in the British Museum, taken to London in 1882 — the original limestone carving still shows traces of red and blue paint, meaning the scene was once fully colored."
+        }
+      ],
+      "commonsFile": "Maya,_lintel_25,_da_yaxchilan,_725.JPG"
     },
     {
       "id": "evt-books-of-chilam-balam",
       "label": "Books of Chilam Balam",
       "year": 1500,
-      "description": "Prophetic and historical texts known as the Books of Chilam Balam are compiled, recording Maya history, prophecy, and calendrical knowledge in Latin script.",
+      "description": "Beginning around 1500 CE and continuing through the colonial period, Maya scribes in various Yucatán communities compiled the Books of Chilam Balam — a collection of prophecy, history, astronomy, and ritual written in Yucatec Maya using the Latin alphabet. Each book is named after the town where it was kept.",
       "wikiSlug": "Chilam_Balam",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At least nine town books are known, with those of Chumayel, Tizimín, and Maní considered the most historically significant. The books are deeply syncretic, weaving pre-Columbian katun prophecies (tied to the Maya 20-year calendar cycle) together with Catholic elements — some passages are deliberately cryptic, apparently written to be legible to initiated Maya readers while obscuring their content from Spanish authorities. The Chilam Balam of Chumayel includes a Maya-perspective account of the Spanish conquest that frames the arrival of Europeans as a prophesied katun event."
+        }
+      ],
+      "commonsFile": "Chilam_Balam_Ixil.jpg"
     },
     {
       "id": "evt-spanish-contact",
       "label": "Spanish Contact",
       "year": 1502,
-      "description": "Columbus encounters a Maya trading canoe off Honduras during his fourth voyage, the first recorded European contact with Maya civilization.",
+      "description": "On his fourth and final voyage in 1502, Columbus intercepted a large Maya trading canoe near the Bay Islands off Honduras — the first recorded meeting between Europeans and Maya civilization. His men took what interested them from the cargo, released the canoe, and sailed on.",
       "wikiSlug": "Maya_civilization",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The canoe was reportedly carved from a single tree trunk and paddled by 25 rowers; its cargo included copper bells and axes, flint-studded war clubs, cotton textiles, and cacao. Columbus had his men seize the elderly captain to use as an interpreter — a detail rarely mentioned alongside the famous description of the goods. Columbus was in the middle of searching for a strait to Asia and spent little time investigating; he never returned to the Maya coast."
+        }
+      ],
+      "commonsFile": "Yucatan_Conquest.jpg"
     },
     {
       "id": "evt-spanish-conquest-yucatan",
       "label": "Spanish Conquest of Yucatán Begins",
       "year": 1527,
-      "description": "Francisco de Montejo launches the first of several campaigns to conquer the Yucatán Maya, a brutal process that takes over 170 years to complete.",
+      "description": "Francisco de Montejo launched the first of three campaigns to conquer the Yucatán Maya in 1527, a grinding effort that consumed two decades and ultimately required his son to finish the job. The Spanish founded their colonial capital Mérida in January 1542 on the ruins of the Maya city of T'ho.",
       "wikiSlug": "Spanish_conquest_of_Yucat%C3%A1n",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Both the first campaign (1527–1528) and the second (1531–1535) ended in complete failure — Montejo's men ran out of food and supplies, found no gold, and were driven out by Maya guerrilla tactics each time. The final successful push exploited a decades-old grudge: Montejo the Younger allied with the Xiu family against the rival Cocom family, the same feud that had destabilized the Yucatán since the fall of Mayapán in 1441. Even after Mérida was founded, a coordinated uprising in November 1546 nearly expelled the Spanish entirely — seven Maya provinces struck simultaneously, and Montejo's party had to flee to the coast at night to escape."
+        }
+      ]
     },
     {
       "id": "evt-diego-de-landa",
       "label": "Diego de Landa's Inquisition",
       "year": 1562,
-      "description": "Bishop Diego de Landa burns thousands of Maya manuscripts and idols at Maní, destroying most of the written record of Maya civilization.",
+      "description": "On July 12, 1562, Franciscan bishop Diego de Landa ordered the burning of thousands of Maya manuscripts, religious images, and ritual objects at the town of Maní — one of the greatest single acts of cultural destruction in the Americas. Of an entire civilization's written tradition, only four codices survive today.",
       "wikiSlug": "Diego_de_Landa",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Landa himself claimed he burned 27 books, but scholars estimate the real number was far higher — possibly hundreds. The bitter irony is that Landa also wrote the most detailed 16th-century account of Maya culture (his \"Relación de las cosas de Yucatán\"), including a partial recording of the Maya script that Soviet linguist Yuri Knorozov used in the 1950s to crack the decipherment — meaning the man who destroyed the library also preserved the key to reading what survived. Landa was recalled to Spain for trial over the severity of his inquisition but was acquitted and sent back to Yucatán, where he served as bishop until his death in 1579."
+        }
+      ],
+      "commonsFile": "De_Landa_alphabet.jpg"
     },
     {
       "id": "evt-ah-kukum-xiu",
       "label": "Ah Kukum Xiu",
       "year": 1441,
-      "description": "The Xiu lord who led the revolt against the Cocom dynasty at Mayapán, reshaping the political landscape of the Postclassic Yucatán.",
+      "description": "Ah Kukum Xiu was the Xiu faction lord who organized the revolt that brought down Mayapán in 1441 CE, ending the Cocom dynasty's stranglehold on the northern Yucatán by massacring the Cocom ruling family in a coordinated ambush.",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "According to Maya tradition, the Xiu invited the Cocom lords to a feast and killed them there — one of those betrayal-by-hospitality episodes that recurs throughout Mesoamerican history. Only one Cocom prince survived, because he happened to be away on a trading expedition to Honduras at the time of the massacre; he eventually founded the town of Tibolón and restarted the Cocom lineage. The Xiu and Cocom feud didn't end with Mayapán's fall — it was still burning almost a century later when the Spanish arrived, and the Xiu's decision to ally with the Spanish against the Cocom played directly into the conquest."
+        }
+      ]
     },
     {
       "id": "evt-jasaw-chan-kawiil",
       "label": "Jasaw Chan K'awiil I",
       "year": 682,
       "endYear": 734,
-      "description": "The ruler who revived Tikal by defeating Calakmul in 695, ending a 130-year period of decline and launching a massive building program.",
+      "description": "Jasaw Chan K'awiil I ruled Tikal from 682 to 734 CE, rebuilt the city's military and diplomatic power over 13 years before striking Calakmul, then commissioned a massive building campaign that produced Tikal's iconic Temple I — his own funerary pyramid, standing 154 feet (47 meters) tall.",
       "wikiSlug": "Jasaw_Chan_K%27awiil_I",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Excavations in 1962 found Jasaw Chan K'awiil I's burial (Burial 116) deep inside Temple I's core: he was interred with roughly 16 pounds of jade, including a necklace of 114 oversized beads weighing almost 9 pounds (3.9 kg) alone, plus carved bones depicting his canoe journey through the Maya underworld and pottery bearing his royal titles. Temple II, nearly as tall and erected directly across the Great Plaza, was built for his wife — the pair face each other across the plaza for eternity."
+        }
+      ],
+      "commonsFile": "Tikal,_Temple_I_(15773012637).jpg"
     },
     {
       "id": "evt-calakmul-city",
       "label": "Calakmul",
       "year": 400,
-      "description": "Calakmul in the Petén Basin grew into one of the largest Maya cities, with over 6,000 structures and a population rivaling Tikal at its peak.",
+      "description": "Calakmul (meaning \"City of the Two Adjacent Pyramids\") was one of the largest Maya cities ever built, home to more than 6,750 structures and a peak urban population of around 50,000 people — with its wider kingdom estimated at 1.75 million.",
       "wikiSlug": "Calakmul",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Calakmul's ruling dynasty was known as the Kaan (\"Snake\") kingdom, and its serpent-head emblem glyph has a wider distribution across the ancient Maya world than any other royal emblem yet found — a measure of how far Calakmul's network of allies and vassals reached. The city sits inside the largest tropical forest reserve in Mexico, the Calakmul Biosphere Reserve, and because of that jungle cover it wasn't rediscovered by outsiders until 1931, when American botanist Cyrus Lundell spotted the pyramids from a low-flying plane."
+        }
+      ],
+      "commonsFile": "Calakmul_Maya_pyramid.jpg"
     },
     {
       "id": "evt-sacred-cenote",
       "label": "Sacred Cenote at Chichén Itzá",
       "year": 900,
-      "description": "The Sacred Cenote at Chichén Itzá served as a major pilgrimage site where offerings of jade, gold, and human sacrifices were cast into the waters.",
+      "description": "The Sacred Cenote at Chichén Itzá is a natural limestone sinkhole about 200 feet (60 m) wide, used for centuries as a portal to the underworld — a place where jade, gold, incense, pottery, and human beings were cast into the dark water as offerings to the rain god Chaac.",
       "wikiSlug": "Sacred_Cenote",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "American diplomat and amateur archaeologist Edward Thompson bought Chichén Itzá for $75 in 1894 and spent years dredging the cenote (1904–1910), secretly shipping much of what he found to Harvard's Peabody Museum in diplomatic pouches. The Mexican government sued to recover the artifacts, but most never came back. In total the cenote has yielded over 30,000 objects, including gold that traced trade routes all the way to Panama and Colombia — the first significant gold artifacts in the Maya world — and the remains of roughly 200 individuals."
+        }
+      ],
+      "commonsFile": "Sacred_Cenote_Chichen_Itza_02.jpg"
     },
     {
       "id": "evt-uxmal-rise",
       "label": "Rise of Uxmal",
       "year": 850,
-      "description": "Uxmal emerged as a major Puuc-style city in the northern Yucatán, featuring the ornate Pyramid of the Magician and the Governor's Palace.",
+      "description": "Uxmal (oosh-MAHL) became the most architecturally inventive city of the Terminal Classic Maya world, reaching its peak under a ruler known as Lord Chak (full name Chan Chak K'ak'nal Ajaw) around 900 CE, who commissioned its most celebrated buildings.",
       "wikiSlug": "Uxmal",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Governor's Palace — widely called the finest single piece of pre-Columbian architecture in the Americas — stretches about 100 meters (328 feet) across and is sheathed in more than 20,000 individually shaped carved stones fitted together to form a seamless mosaic, including 103 masks of the rain god Chaac. The Pyramid of the Magician (also called Pyramid of the Dwarf) stands 117 feet (38 m) tall and was built in five separate construction phases, each one encasing the previous pyramid entirely; its oval or elliptical base plan is almost unique in Maya architecture."
+        }
+      ],
+      "commonsFile": "Uxmal_Pyramid_of_the_Magician.jpg"
     },
     {
       "id": "evt-maya-blue-pigment",
       "label": "Maya Blue Pigment",
       "year": 600,
-      "description": "The Maya developed Maya Blue, a remarkably durable synthetic pigment made from indigo and palygorskite clay, used in murals and on sacrificial offerings.",
+      "description": "Maya Blue is a brilliant turquoise synthetic pigment the Maya made by combining indigo dye (from the plant Indigofera suffruticosa) with palygorskite (a fibrous clay mineral), then heating the mixture so the indigo molecules bonded inside the clay's microscopic channels — producing a color so stable it survives intact on walls painted over a thousand years ago.",
       "wikiSlug": "Maya_blue",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pigment resists acids, alkalis, tropical humidity, and even prolonged immersion — conditions that destroy virtually every other organic pigment. Researchers recently discovered a second production method involving wet clay and plant material heated from below, suggesting Maya workshops may have had multiple recipes. Copal incense resin was often added to the mix, meaning the same substance used in religious ceremonies also helped chemically lock the color into the clay."
+        }
+      ],
+      "commonsFile": "Carvings_with_Maya_Blue_Paint_Background_Intact_-_Bonampak_Maya_site,_Chiapas,_Mexico.jpg"
     },
     {
       "id": "evt-yaxchilan-dynasty",
       "label": "Yaxchilán at Its Peak",
       "year": 720,
-      "description": "Under Shield Jaguar II and Bird Jaguar IV, Yaxchilán on the Usumacinta River reached its peak as a major political and artistic center.",
+      "description": "Under Shield Jaguar II and his son Bird Jaguar IV, Yaxchilán reached its political and artistic peak as a major power in the western lowlands, its carved stone lintels and stairway inscriptions recording a dynasty that held the Usumacinta corridor for generations.",
       "wikiSlug": "Yaxchilan",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yaxchilán's river-bend location made it effectively an island during high water — anyone approaching by land had to cross the Usumacinta, while canoe traffic on the river gave the city both a trade highway and a defensive moat. The site is still reachable today only by boat through the Lacandón jungle, which is part of why it remained largely unexcavated until the late 20th century. At its height Yaxchilán controlled a string of subordinate towns along both banks of the river."
+        }
+      ],
+      "commonsFile": "Foto_en_la_Zona_Arqueológica_de_Yaxchilan_01.jpg"
     },
     {
       "id": "evt-popol-vuh-written",
       "label": "Popol Vuh Written Down",
       "year": 1554,
-      "description": "K'iche' Maya nobles transcribed the Popol Vuh into Latin script, preserving the most complete surviving account of Maya creation mythology.",
+      "description": "Around 1554–1558, K'iche' Maya nobles in the highlands of Guatemala wrote out the Popol Vuh in the Latin alphabet, transcribing the most complete surviving account of Maya creation mythology — the Hero Twins, the failed humans of mud and wood, and the final creation of people from maize.",
       "wikiSlug": "Popol_Vuh",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The original K'iche' manuscript has been lost; what survives is a bilingual copy made around 1700–1715 by Dominican friar Francisco Ximénez, who found it hidden in a church archive in Chichicastenango and transcribed it side by side with a Spanish translation. That manuscript is now catalogued as Vault Ayer MS 1515 at the Newberry Library in Chicago — it was purchased by collector Edward Ayer in 1887 and donated to the library in 1912, which is why one of the most important texts in all of pre-Columbian literature lives in Illinois."
+        }
+      ],
+      "commonsFile": "Empiezan_las_historias(titlepage).jpg"
     },
     {
       "id": "evt-maya-maritime-trade",
       "label": "Maya Coastal Trading Canoes",
       "year": 1200,
-      "description": "Postclassic Maya merchants operated large seafaring canoes around the Yucatán Peninsula, trading obsidian, cacao, salt, and honey along coastal routes.",
+      "description": "Postclassic Maya merchants operated large seafaring canoes — hollowed from single ceiba or mahogany trunks, paddled by crews of up to 25 men — along a coastal trade route that wrapped the entire Yucatán Peninsula, connecting Tabasco on the Gulf side to the Bay of Honduras on the Caribbean side.",
       "wikiSlug": "Maya_trade",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Columbus encounter in 1502 recorded a canoe with a palm-leaf awning amidships that sheltered the women, children, and merchandise from rain and waves — more like a covered market boat than the open dugouts most people picture. These vessels navigated by hugging the coast southbound (to ride the inshore current) and swung further out to sea on the return trip (to catch the Caribbean current flowing north) — a deliberate seasonal routing strategy that shows how well the Maya understood ocean conditions. Tulum, on the clifftop overlooking the Caribbean, functioned as a lighthouse port: its temple's windows were positioned so that a fire lit inside shone out to sea as a navigation beacon for canoes finding the reef passage at night."
+        }
+      ],
+      "commonsFile": "Tulum_2.jpg"
     },
     {
       "id": "evt-maya-earliest-pottery",
       "label": "Earliest Maya Pottery",
       "year": -1500,
-      "description": "Distinctive Maya ceramic traditions emerge in Belize and the Pacific lowlands, with decorated vessels used for storing maize and cacao.",
+      "description": "By around 1500 BCE, the Maya are making their own distinctively decorated pottery in Belize and the Pacific lowlands — the first material signature we can point to and say 'this is Maya.'",
       "wikiSlug": "Maya_ceramics",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The earliest Maya ceramics, called the Swasey complex (named for the site where they were first found in northern Belize), show Olmec stylistic influence — flat-bottomed bowls and red-slipped surfaces that suggest the two cultures were already in contact and trading ideas. Chemical analysis of residues inside some of these early vessels has detected traces of cacao, pushing the chocolate story back to the very beginning of Maya ceramic production."
+        }
+      ],
+      "commonsFile": "Sacul_vase.jpg"
     },
     {
       "id": "evt-san-bartolo-murals",
       "label": "San Bartolo Murals",
       "year": -100,
-      "description": "The San Bartolo murals in Guatemala depict the Hero Twins myth and the Maya maize god in vivid polychrome, the oldest known intact Maya paintings.",
+      "description": "Around 100 BCE, Maya painters at San Bartolo in the Petén create the oldest known intact Maya murals — vivid, fully accomplished paintings depicting the Hero Twins and the Maize God that shocked archaeologists when rediscovered in 2001.",
       "wikiSlug": "San_Bartolo_(Maya_site)",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Archaeologist William Saturno found the murals in March 2001 by following a looter's tunnel into the Las Pinturas pyramid — he crawled in looking for shade and came out having found one of the most important Maya discoveries in decades. The paintings weren't alone: excavations in the same pyramid complex also uncovered the oldest known Maya royal tomb (dated to about 150 BCE), containing a man buried with a jade plaque, proving that formal kingship and the religious program on the walls were already operating together this early."
+        }
+      ],
+      "commonsFile": "SBmural.jpg"
     },
     {
       "id": "evt-maya-raised-field-agriculture",
       "label": "Raised Field Agriculture",
       "year": 200,
-      "description": "Maya farmers construct elaborate raised field and canal systems in seasonal wetlands, supporting dense populations in the Petén lowlands.",
+      "description": "Maya farmers in the Petén wetlands build raised field systems — elevated planting beds separated by canals dug through swampy ground — turning waterlogged jungle into some of the most productive farmland in the ancient Americas.",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The canals between raised beds weren't just drainage ditches: Maya farmers stocked them with fish and turtles for protein, and periodically scooped the nutrient-rich muck from the canal bottom back onto the growing beds as fertilizer — a closed-loop system that renewed itself with almost no external inputs. LiDAR (airborne laser scanning) surveys conducted since 2010 keep revealing more of these field systems hidden under the jungle canopy, and the total scale of Maya wetland agriculture turns out to be far larger than anyone assumed before the technology existed to find it."
+        }
+      ]
     },
     {
       "id": "evt-lady-six-sky",
       "label": "Lady Six Sky of Naranjo",
       "year": 682,
       "endYear": 741,
-      "description": "Lady Six Sky arrived at Naranjo from Dos Pilas and rebuilt it into a regional power, directing military campaigns and commissioning monuments in her own name.",
+      "description": "Lady Six Sky (Wak Chanil Ajaw) arrived at Naranjo in the Petén lowlands in 682 CE, sent by her father, the king of Dos Pilas, to found a new dynasty and pull Naranjo into the Calakmul political alliance — and spent the next several decades directing military campaigns and appearing on monuments in the pose of a warrior-king.",
       "wikiSlug": "Lady_Six_Sky",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "She is depicted on Naranjo's Stela 24 (dated April 17, 699 CE) standing on a crouching captive, a pose normally reserved for male rulers — one of the clearest visual statements of female political authority in all of Maya art. Scholars believe she governed as de facto ruler while her son Kahk' Tiliw Chan Chaak was still a child, effectively running the city for decades. Epigrapher Tatiana Proskouriakoff identified her name in the 1960s during the same groundbreaking studies that first proved Maya inscriptions recorded real historical events."
+        }
+      ],
+      "commonsFile": "MUNAE_Stela_depicting_a_maya_queen_trampling_a_captive.jpg"
     },
     {
       "id": "evt-shield-jaguar-ii",
       "label": "Shield Jaguar II of Yaxchilán",
       "year": 681,
       "endYear": 742,
-      "description": "Itzamnaaj Bahlam III (Shield Jaguar II) ruled Yaxchilán for over 60 years, commissioning the lintels that depict royal bloodletting rituals and military conquests.",
+      "description": "Itzamnaaj Bahlam III (called Shield Jaguar II by modern scholars) ruled Yaxchilán on the Usumacinta River for over 60 years, from 681 to 742 CE, commissioning the carved stone lintels above his temple doorways that are now considered masterpieces of Maya relief sculpture.",
       "wikiSlug": "Itzamnaaj_Bahlam_III",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yaxchilán sits on a horseshoe bend in the Usumacinta River in what is now the Chiapas–Guatemala border region, a position that gave it natural defensive protection on three sides. Shield Jaguar's reign of roughly 61 years made him one of the longest-reigning rulers in the Maya world, comparable to Pakal. He had multiple wives, and the rivalry over which wife's son would inherit the throne likely caused the decade-long succession crisis after his death."
+        }
+      ],
+      "commonsFile": "Yaxchilan_Lintel_24.jpg"
     },
     {
       "id": "evt-bird-jaguar-iv",
       "label": "Bird Jaguar IV of Yaxchilán",
       "year": 752,
       "endYear": 768,
-      "description": "Bird Jaguar IV succeeded his father Shield Jaguar II after a contested interregnum, launching an aggressive building and monument program to legitimize his rule.",
+      "description": "Bird Jaguar IV ruled Yaxchilán from 752 to 768 CE, coming to power after a suspicious ten-year gap following his father Shield Jaguar II's death in 742 — a gap that points to a contested succession he spent his entire reign trying to paper over with monuments.",
       "wikiSlug": "Bird_Jaguar_IV",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bird Jaguar's claim was shaky because his mother, Lady Ik' Skull, was Shield Jaguar's secondary wife and a foreigner from Calakmul — his father's senior wife had her own son with a stronger claim. Bird Jaguar IV became the most prolific monument-builder of any Yaxchilán ruler, which most scholars read as a lifelong publicity campaign for his own legitimacy. His mother may have governed as regent during the ten-year interregnum before he finally took the throne."
+        }
+      ],
+      "commonsFile": "British_Museum_Yaxchilan_lintel_16.jpg"
     },
     {
       "id": "evt-dos-pilas-wars",
       "label": "Dos Pilas Wars",
       "year": 648,
-      "description": "The breakaway kingdom of Dos Pilas, founded by a Tikal prince who allied with Calakmul, became a flashpoint in the Tikal-Calakmul superpower struggle.",
+      "description": "Around 629 CE, a prince of Tikal's royal house named B'alaj Chan K'awiil was installed as ruler of the new outpost of Dos Pilas, about 70 miles (110 km) southwest of Tikal — then in 648 CE was captured and flipped by Calakmul, turning a Tikal prince into one of Tikal's most effective enemies.",
       "wikiSlug": "Dos_Pilas",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "B'alaj Chan K'awiil's brother Nuun Ujol Chaak was the reigning king of Tikal, meaning the two siblings spent decades at war with each other. In 679 CE, Dos Pilas inscriptions celebrated a battle victory over Tikal in graphic terms, recording \"pools of blood\" and \"piles of heads.\" B'alaj Chan K'awiil continued to use Tikal's royal emblem glyph throughout — claiming to be the rightful king of the city he was busy trying to destroy."
+        }
+      ],
+      "commonsFile": "Panell_19,_Dos_Pilas,_museu_Nacional_d'Arqueologia_i_Etnologia,_Guatemala_(MUNAE).jpg"
     },
     {
       "id": "evt-hero-twins-mythology",
       "label": "Hero Twins Mythology",
       "year": -300,
-      "description": "The myth of the Hero Twins Hunahpu and Xbalanque, who outwit the lords of the underworld, becomes central to Maya religion and is depicted in art across the Classic period.",
+      "description": "The Hero Twins myth — the story of brothers Hunahpu and Xbalanque who descend into the underworld and outwit the lords of death — becomes the central religious narrative of the Maya, appearing in art from at least 300 BCE onward.",
       "wikiSlug": "Maya_Hero_Twins",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The myth's core is an allegory for the corn cycle: the twins' father (the Maize God) dies and is reborn just as a corn seed goes into the ground and comes back as a new plant — life, death, and resurrection expressed through agriculture. The written version we have, the Popol Vuh, was recorded by K'iche' Maya scribes in Guatemala around 1554 CE, but the identical story is painted on hundreds of ceramic vessels from the Classic period (600–900 CE) and depicted in the San Bartolo murals as early as 100 BCE, proving the myth was already ancient when the Popol Vuh was written down."
+        }
+      ]
     },
     {
       "id": "evt-puuc-architecture",
       "label": "Puuc Architectural Style",
       "year": 800,
-      "description": "The Puuc style emerges in the northern Yucatán hills with elaborate mosaic stone facades, rain god masks, and geometric friezes at Uxmal, Kabah, and Sayil.",
+      "description": "As the southern lowland cities collapsed, a distinctive new architectural style bloomed across the northern Yucatán hills: the Puuc style, defined by blank lower walls and upper facades encrusted with intricate stone mosaics — geometric friezes, lattice patterns, and stacked masks of Chaac, the rain god.",
       "wikiSlug": "Puuc",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At Kabah, the most extreme example of Puuc rain-god devotion, a single building called the Codz Pop (Palace of the Masks) covers its entire western facade with approximately 260 interlocking Chaac masks — a number that matches the 260-day Maya sacred calendar, almost certainly intentional. The upper and lower zones of Puuc buildings were constructed separately using different techniques: the lower walls are plain fitted limestone blocks, while the upper mosaic panels were assembled from individually shaped stones like a three-dimensional puzzle, then fitted onto a concrete-and-rubble core."
+        }
+      ],
+      "commonsFile": "Sayil_Palace_Puuc_Architecture.jpg"
     },
     {
       "id": "evt-cordoba-expedition",
       "label": "Hernández de Córdoba Expedition",
       "year": 1517,
-      "description": "Francisco Hernández de Córdoba leads the first Spanish expedition to the Yucatán coast, encountering stone cities and fierce Maya resistance that wounded him fatally.",
+      "description": "In 1517, Francisco Hernández de Córdoba led three ships and roughly 110 men out of Cuba to explore the Yucatán coast, becoming the first Spanish expedition to reach mainland Mesoamerica. At Champotón, the Maya attacked in force and the encounter turned into a catastrophe for the Spanish.",
       "wikiSlug": "Hernández_de_Córdoba_expedition",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At Champotón, every single member of the expedition was wounded — all 110 of them — and more than 55 died of their injuries, over half the party. Córdoba himself took ten arrow wounds; he lived long enough to report back to Cuba, then died of those wounds within days of landing. The pilot on the voyage, Antón de Alaminos, reused the same route the following year with Juan de Grijalva, essentially handing Spain a map drawn in blood."
+        }
+      ],
+      "commonsFile": "Amerindians_attacking_Spaniards_in_their_boats.png"
     },
     {
       "id": "evt-fall-of-tayasal",
       "label": "Fall of Tayasal",
       "year": 1697,
-      "description": "The Spanish finally conquer Nojpetén (Tayasal), capital of the Itza Maya on Lake Petén Itzá, the last independent Maya state — 175 years after Montejo's first campaign.",
+      "description": "On March 13, 1697, a Spanish force under Martín de Ursúa y Arizmendi crossed Lake Petén Itzá in a purpose-built warship and stormed the island city of Nojpetén, capital of the Itza Maya — the last independent Maya kingdom. It was the final military conquest of the Spanish campaign in the Americas.",
       "wikiSlug": "Spanish_conquest_of_Petén",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ursúa had first built a road through the jungle from Campeche to the lakeshore — an engineering project just to reach the battle — then assembled the galeota (a single-masted oared vessel with a cannon) on site. The Itza paddled out to meet the Spanish in war canoes hundreds strong, firing arrows and hurling stones; the cannon firing grapeshot shattered the canoes and ended the fight in minutes. The Itza king Kan Ek' had reportedly been warned by his own priests that the current katun cycle foretold submission to a foreign power — whether that prophecy made his people fight harder or accept defeat more readily, the sources don't agree."
+        }
+      ],
+      "commonsFile": "17th_century_Spanish_routes_to_Petén_flat.gif"
     },
     {
       "id": "evt-maya-sacbe-roads",
       "label": "Sacbe Road Networks",
       "year": 600,
-      "description": "The Maya construct raised limestone causeways (sacbeob) connecting city centers and outlying settlements, with the longest running 62 miles (100 km) from Cobá to Yaxuná.",
+      "description": "The Maya built raised limestone causeways called sacbeob (\"white roads\"; singular sacbe) that cut straight through the jungle connecting cities, ceremonial centers, and outlying settlements — the longest known example ran 62 miles (100 km) from Cobá to Yaxuná in northern Yucatán.",
       "wikiSlug": "Sacbe",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cobá–Yaxuná sacbe was up to about 32 feet (10 meters) wide and raised at least 16–18 inches off the surrounding ground on level terrain, rising as high as 8 feet (2.5 meters) where it had to bridge low-lying areas. The surface was crushed white limestone, which would have glowed visibly at night. Along its route, archaeologists have found small communities and water holes suggesting it served as both a highway and a supply chain, not just a ceremonial procession route."
+        }
+      ],
+      "commonsFile": "Sacbe_Dzibilchaltun.jpg"
     }
   ],
   "wikiSlug": "Maya_civilization"
