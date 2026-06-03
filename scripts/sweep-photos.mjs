@@ -128,33 +128,28 @@ if (GATHER_ALL || targetIds.size === 0) targetIds = new Set(allEvents.map(e => e
 const targets = [...targetIds].map(id => byId.get(id)).filter(Boolean)
 console.log(`sweep-photos ${tl}: ${targets.length} events · cache ${CACHE_DIR} · delay ${DELAY_MS}ms`)
 
-// ---- candidate discovery: batched prop=images on each event's wikiSlug ----
-// Maps slug → [filenames]. Wikimedia takes up to 50 titles per request.
+// ---- candidate discovery: PER-SLUG prop=images on each event's wikiSlug ----
+// Maps slug → [filenames]. NOTE: this MUST be one title per request. MediaWiki's
+// `imlimit` is a TOTAL across all titles in a query, processed in page order — so a
+// batched call (50 titles, imlimit=40) lets the FIRST image-heavy page eat the whole
+// limit and returns 0 images for every other page. That silently starved the candidate
+// pool (gupta-empire: 4 page images for the whole civ; Chandragupta II / Samudragupta /
+// Aryabhata each returned empty despite having images). One paced request per slug fixes
+// it — deterministic, no model tokens. redirects=1 keeps the mapping 1:1.
 const slugs = [...new Set(targets.flatMap(e => [e.wikiSlug, e.imageWikiSlug].filter(Boolean)))]
 const pageImages = new Map()  // slug → [File:...]
 const pageLead = new Map()    // slug → File:... (the page's lead image)
-for (let i = 0; i < slugs.length; i += 50) {
-  const batch = slugs.slice(i, i + 50)
-  const titles = batch.map(s => s.replace(/_/g, ' ')).join('|')
-  const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&redirects=1&prop=images|pageimages&imlimit=40&piprop=name&titles=${encodeURIComponent(titles)}`
+for (const slug of slugs) {
+  const title = slug.replace(/_/g, ' ')
+  const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&redirects=1&prop=images|pageimages&imlimit=40&piprop=name&titles=${encodeURIComponent(title)}`
   const data = await backoffFetch(url, 'json')
-  if (!data) { console.error(`  (image-list batch ${i / 50 + 1} failed/skipped)`); continue }
-  const pages = data?.query?.pages || {}
-  const redirects = new Map((data?.query?.redirects || []).map(r => [r.to, r.from]))
-  const normd = new Map((data?.query?.normalized || []).map(r => [r.to, r.from]))
-  for (const p of Object.values(pages)) {
-    const title = p.title
-    // map the resolved page title back to the slug(s) we asked for
-    const keys = new Set([title.replace(/ /g, '_')])
-    if (redirects.has(title)) keys.add(redirects.get(title).replace(/ /g, '_'))
-    if (normd.has(title)) keys.add(normd.get(title).replace(/ /g, '_'))
-    const imgs = (p.images || []).map(im => im.title).filter(t => /^File:/i.test(t) && !isJunk(t))
-    for (const k of keys) {
-      pageImages.set(k, imgs)
-      if (p.pageimage) pageLead.set(k, `File:${p.pageimage}`)
-    }
-  }
   await sleep(DELAY_MS / 2)
+  if (!data) { console.error(`  (image-list for ${slug} failed/skipped)`); continue }
+  const p = Object.values(data?.query?.pages || {})[0]
+  if (!p) continue
+  const imgs = (p.images || []).map(im => im.title).filter(t => /^File:/i.test(t) && !isJunk(t))
+  pageImages.set(slug, imgs)
+  if (p.pageimage) pageLead.set(slug, `File:${p.pageimage}`)
 }
 
 // ---- assemble preliminary per-event candidate list (agent-named first, then lead, then page images) ----
@@ -172,15 +167,26 @@ for (const e of targets) {
   prelim.set(e.id, { list, seen })
 }
 
-// ---- augment low-candidate events with a Commons file-search by label (paced) ----
-// Events whose wiki page yields < MIN_CANDIDATES usable images (generic/no slug)
-// are exactly the ones that used to fall to the slow serial gap-fill. A Commons
-// file-namespace search by the event label surfaces representative artifacts the
-// page didn't link, shrinking the gap-fill set. One paced request per low event.
+// ---- augment events with a Commons file-search by label (paced, distinctness-aware) ----
+// Two kinds of events need event-SPECIFIC candidates (the wiki page only yields
+// candidates shared by every sub-event of one subject):
+//   (1) low-candidate  — fewer than MIN_CANDIDATES usable page images (generic/no slug)
+//   (2) no-unique-candidate — granular sub-events (e.g. 4 Aryabhata discoveries) whose
+//       ONLY candidates are also another target event's, so the vision picker is forced
+//       to reject all-but-one as duplicates ("reassign in gap-fill"). This was the #1
+//       coverage leak on granular civs (gupta-empire: 52/73 events had a single,
+//       sibling-shared candidate). A Commons file-namespace search by the event LABEL
+//       surfaces distinct representative artifacts the shared page never linked.
+// We compute candidate→events sharing ONCE up front (before the loop mutates lists),
+// so the "no unique candidate" test reflects the page/lead/agent pool only.
+const sharedBy = new Map()  // file key → count of target events listing it
+for (const e of targets) for (const c of prelim.get(e.id).list) sharedBy.set(c.file.toLowerCase(), (sharedBy.get(c.file.toLowerCase()) || 0) + 1)
+const hasUnique = e => prelim.get(e.id).list.some(c => (sharedBy.get(c.file.toLowerCase()) || 0) === 1)
 let searched = 0
 for (const e of targets) {
   const pc = prelim.get(e.id)
-  if (pc.list.length >= MIN_CANDIDATES) continue
+  // search if too few candidates, OR every candidate it has is shared with a sibling
+  if (pc.list.length >= MIN_CANDIDATES && hasUnique(e)) continue
   const base = (e.label || e.id).replace(/[—–_-]+/g, ' ').replace(/\s+/g, ' ').trim()
   if (!base) continue
   // Append civ context unless the label already contains it, so we don't over-narrow.
@@ -199,8 +205,13 @@ for (const e of targets) {
     pc.seen.add(n.toLowerCase())
     pc.list.push({ file: `File:${n}`, source: 'search' })
   }
+  // Float genuinely-distinct candidates (not shared with a sibling target) to the front
+  // so they survive the per-event --max cap; sibling-shared files (which the picker will
+  // reject as duplicates anyway) sink to the back. Stable within each group.
+  const isShared = c => (sharedBy.get(c.file.toLowerCase()) || 0) > 1
+  pc.list.sort((a, b) => (isShared(a) ? 1 : 0) - (isShared(b) ? 1 : 0))
 }
-if (searched) console.log(`  Commons search augmented ${searched} low-candidate event(s)`)
+if (searched) console.log(`  Commons search augmented ${searched} event(s) (low-candidate or no distinct candidate)`)
 
 // ---- finalize candidate lists (cap per event) ----
 const eventCands = new Map()

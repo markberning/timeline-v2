@@ -22,6 +22,13 @@ const tl = A && A.tl
 // gates green, ~faster) UNLESS args overrides (e.g. {tl,model:'opus'}). The
 // deterministic runPhase agents always inherit the session default — they only shell out.
 const MODEL = (A && A.model) || 'sonnet'
+// Vision photo-pick stays on Sonnet. Haiku was tried (gupta-empire) on the theory
+// that "does this image show the right subject" is a cheap call — but it is
+// turn-INEFFICIENT at viewing N images + emitting structured JSON: it took 294 model
+// calls vs Sonnet's ~199 for the same work, and since every viewed image stays in
+// context and is re-read each turn, the extra turns ballooned cache-reads to 14M (worse
+// than Sonnet's 8.3M). Fewer-but-smarter turns win here. Overridable via args.pickModel.
+const PICK_MODEL = (A && A.pickModel) || 'sonnet'
 if (!tl) throw new Error('sweep-civ workflow needs a tlId (args="prehistoric-japan" or {tl,model})')
 
 const EVENT = { type: 'object', properties: { id: { type: 'string' }, label: { type: 'string' }, wikiSlug: { type: 'string' } }, required: ['id', 'label'] }
@@ -53,16 +60,21 @@ const VOICE = `VOICE: informal popular-history (conversational, vivid, never aca
 // the lead image instead of a second agent re-fetching it. Same parallel barrier before
 // gather (cards + finds both blocked it before).
 const authorThunks = prep.chapters.map(ch => () => agent(
-  `Event sweep, civ \`${tl}\`, Chapter ${ch.chapter}${ch.title ? ` (${ch.title})` : ''}. Read \`/tmp/${tl}-bundles/ch${ch.chapter}.json\` (\`{tl,chapter,chapterTitle,narrative,events:[{id,label,year,endYear,description,wikiSlug,commonsFile}]}\`). For EVERY event do BOTH of the following.\n\n`
-  + `PART A — the 2-part card:\n1. \`description\` — tight house-voice "what this is", 1-2 sentences, replaces the current description.\n2. \`exploreFurther\` — a HARD CAP of 2-4 sentences (NEVER 5+) of interesting BORN-VERIFIED facts the narrative does NOT give. Be disciplined: pick the 2-4 most surprising facts and STOP - do not list everything you find, do not pad. Tight beats exhaustive. Web-search to confirm every date/name/number. NO hallucination - a missing detail beats a wrong one. Don't repeat description/narrative.\n\n`
-  + `PART B — photo candidates: while you have each event's wiki page open to fact-check, also grab 1-3 REAL, VERIFIED Wikimedia Commons image filenames that genuinely depict its subject (good candidates here mean the sweep clears its 70% photo floor on the FIRST pass, no slow gap-fill round). VERIFY each exists: read the wiki page's real lead-image filename, and/or confirm \`https://commons.wikimedia.org/wiki/File:<name>\` resolves to the right subject (or search \`https://commons.wikimedia.org/w/index.php?search=<terms>&title=Special:MediaSearch&type=image\`). Do NOT invent or guess filenames - only confirmed-real files showing the right thing. Prefer the iconic artifact/site/person/manuscript; a representative artifact/site/map is fine for portraitless people. OMIT genuinely ABSTRACT events (trade *networks*, "decline/collapse" processes, oral traditions, clan systems, ceremonies with no photo) - leave their photoCandidates empty (honest-reject; never force).\n\n`
+  `Event sweep, civ \`${tl}\`, Chapter ${ch.chapter}${ch.title ? ` (${ch.title})` : ''}. Read \`/tmp/${tl}-bundles/ch${ch.chapter}.json\` (\`{tl,chapter,chapterTitle,narrative,events:[{id,label,year,endYear,description,wikiSlug,commonsFile,wikiExtract,leadImage}]}\`). For EVERY event do BOTH of the following.\n\n`
+  + `IMPORTANT — your fact source is ALREADY IN THE BUNDLE. Each event carries \`wikiExtract\` (the Wikipedia article intro, prefetched + born-verified) and \`leadImage\` (that article's real Commons lead-image File:). Use \`wikiExtract\` + the chapter \`narrative\` as your primary, sufficient source for almost every card. **Do NOT WebFetch full articles** — that is the expensive thing we are eliminating. You MAY use AT MOST ONE short WebSearch for a single event ONLY when you want to state a specific surprising date/name/number that is genuinely absent from its \`wikiExtract\`. If the extract already supports the fact, do not search at all. Most events should need zero web calls.\n\n`
+  + `PART A — the 2-part card:\n1. \`description\` — tight house-voice "what this is", 1-2 sentences, replaces the current description.\n2. \`exploreFurther\` — a HARD CAP of 2-4 sentences (NEVER 5+) of interesting BORN-VERIFIED facts the narrative does NOT give, grounded in \`wikiExtract\` (or your at-most-one search). Be disciplined: pick the 2-4 most surprising facts and STOP - do not list everything, do not pad. Tight beats exhaustive. NO hallucination - a missing detail beats a wrong one. Don't repeat description/narrative.\n\n`
+  + `PART B — photo candidates: list 1-2 REAL, VERIFIED Wikimedia Commons image filenames that genuinely depict the subject (good candidates here clear the 70% photo floor on the FIRST pass, no slow gap-fill round). **Start with the event's \`leadImage\` if present and on-subject — it is already verified, so prefer it as candidate #1 with no extra lookup.** Add a second only if you already know a real on-subject Commons file (e.g. one named in \`wikiExtract\`). Do NOT invent/guess filenames and do NOT go hunting Commons with extra fetches — one solid verified candidate beats a slow search. OMIT genuinely ABSTRACT events (trade *networks*, "decline/collapse" processes, oral traditions, clan systems, ceremonies with no photo) and events with no \`leadImage\` and no file you can name with confidence — leave their photoCandidates empty (honest-reject; the gap-fill round handles recoverable ones; never force).\n\n`
   + `${VOICE}\n\nWrite \`/tmp/${tl}-out/ch${ch.chapter}.json\`: \`{"chapter":${ch.chapter},"cards":[{"eventId":"<id>","description":"...","exploreFurther":"...","photoCandidates":["File:Foo.jpg", ...]}]}\` (best candidate first; \`[]\` for abstract events). One card per event, exact ids, none skipped. Reply with the count, how many got photo candidates, and any uncertainty.`,
   { label: `author:ch${ch.chapter}`, phase: 'Author', agentType: 'general-purpose', model: MODEL },
 ))
 await parallel(authorThunks)
 
 phase('Gather')
-const gather = await runPhase(`gather:${tl}`, `node scripts/sweep-civ.mjs gather ${tl}`, GATHER_SCHEMA, 600000)
+// --max 3 caps candidates per event (was 5). Fewer downloaded images means the
+// per-chapter vision picker accumulates a smaller context that gets re-read on every
+// turn — trims the Pick phase's cache-read burn without starving the accuracy floor
+// (the lead image is pre-seeded + the gap-fill round backstops thin chapters).
+const gather = await runPhase(`gather:${tl}`, `node scripts/sweep-civ.mjs gather ${tl} --max 3`, GATHER_SCHEMA, 600000)
 log(`${tl}: gathered - ${gather.withCandidates}/${gather.events} events have candidates`)
 
 phase('Pick')
@@ -78,7 +90,7 @@ const pickThunks = prep.chapters.map(ch => () => agent(
   + `For each of those events WITH candidates, VIEW its candidate files (Read tool on each \`localPath\` - real local images) and pick the SINGLE best photo that ACCURATELY depicts the subject.\n\n`
   + `HARD RULES:\n1. Distinctness within your chapter - do not assign the same commonsFile to two of your events (cross-chapter duplicates are resolved automatically afterward, so you only need your own picks distinct).\n2. Accuracy floor - the image must show the right thing (right person/site/artifact/era). If candidates are wrong-subject or you can't tell, REJECT. A missing photo beats a wrong one. Maps are OK only when nothing better exists.\n3. Every event in your list gets a decision; an event with no candidates -> \`"reject"\`, reason "no apt born-verified photo".\n\n`
   + `For each pick write a one-sentence English house-voice caption. OUTPUT: write \`/tmp/${tl}-photos/picks-ch${ch.chapter}.json\` = \`{"<id>":{"decision":"override","commonsFile":"Foo.jpg","caption":"..."}}\` or \`{"<id>":{"decision":"reject","reason":"..."}}\`. Include EVERY event id from the list above and ONLY those. commonsFile = exact manifest \`file\` minus the \`File:\` prefix (preserve accents/apostrophes/case). Reply with your chapter's override/reject tally.`,
-  { label: `pick:ch${ch.chapter}`, phase: 'Pick', agentType: 'general-purpose', model: MODEL },
+  { label: `pick:ch${ch.chapter}`, phase: 'Pick', agentType: 'general-purpose', model: PICK_MODEL },
 ))
 await parallel(pickThunks)
 // (the per-chapter pick union + cross-chapter dedup is folded into `finish` below —
@@ -118,7 +130,7 @@ while (round < 2) {
     + `\n\nOUTPUT: write \`/tmp/${tl}-gapfill2.json\` = \`{"<eventId>":["File:..."], ...}\` (only events you filled). Reply with which filled, which left empty (why), any borderline.`,
     { label: `gapfill:r${round}`, phase: 'Gapfill', agentType: 'general-purpose', model: MODEL },
   )
-  await runPhase(`regather:${tl}:r${round}`, `node scripts/sweep-civ.mjs gather ${tl}`, GATHER_SCHEMA, 600000)
+  await runPhase(`regather:${tl}:r${round}`, `node scripts/sweep-civ.mjs gather ${tl} --max 3`, GATHER_SCHEMA, 600000)
   // re-pick ONLY the gap-fill events (few) as a single agent → repick-r<round>.json,
   // which finish merges over the existing picks.json (keeps every prior pick).
   await agent(
@@ -127,7 +139,7 @@ while (round < 2) {
     + `For each that HAS candidates, VIEW its candidate files (Read tool on each \`localPath\`) and pick the SINGLE best ACCURATE photo. Accuracy floor: the right subject or REJECT (a missing photo beats a wrong one).\n\n`
     + `CRITICAL distinctness: read \`/tmp/${tl}-photos/picks.json\` first and do NOT reuse any commonsFile already chosen there (each file used by ONE event app-wide).\n\n`
     + `For each pick write a one-sentence house-voice caption. OUTPUT: write \`/tmp/${tl}-photos/repick-r${round}.json\` = \`{"<id>":{"decision":"override","commonsFile":"Foo.jpg","caption":"..."}}\` or \`{"<id>":{"decision":"reject","reason":"..."}}\`, for ONLY the gap-fill events listed above. commonsFile = exact manifest \`file\` minus the \`File:\` prefix. Reply with the tally.`,
-    { label: `repick:r${round}`, phase: 'Gapfill', agentType: 'general-purpose', model: MODEL },
+    { label: `repick:r${round}`, phase: 'Gapfill', agentType: 'general-purpose', model: PICK_MODEL },
   )
   fin = await runPhase(`finish:${tl}:r${round}`, `node scripts/sweep-civ.mjs finish ${tl}`, FINISH_SCHEMA, 420000)
   log(`${tl}: after round ${round} - photos ${fin.coverage}% - thin: ${fin.thinChapters.map(c => `ch${c.chapter}(${c.pct}%)`).join(', ') || 'none'}`)
