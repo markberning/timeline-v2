@@ -11,8 +11,18 @@ export const meta = {
   ],
 }
 
-const tl = typeof args === 'string' ? args.trim() : (args && args.tl)
-if (!tl) throw new Error('sweep-civ workflow needs a tlId as args (e.g. "prehistoric-japan")')
+// args = a tlId string ("prehistoric-japan"), OR a JSON object/string
+// { tl, model } where `model` (e.g. 'sonnet') overrides the model for the content
+// agents (card-writers, photo-finders, pickers). The deterministic phase agents
+// (prep/gather/finish/commit/merge) always inherit the default.
+let A = args
+if (typeof A === 'string') { const s = A.trim(); A = s.startsWith('{') ? JSON.parse(s) : { tl: s } }
+const tl = A && A.tl
+// Content agents default to Sonnet (validated 2026-06-03: comparable writing, all
+// gates green, ~faster) UNLESS args overrides (e.g. {tl,model:'opus'}). The
+// deterministic runPhase agents always inherit the session default — they only shell out.
+const MODEL = (A && A.model) || 'sonnet'
+if (!tl) throw new Error('sweep-civ workflow needs a tlId (args="prehistoric-japan" or {tl,model})')
 
 const EVENT = { type: 'object', properties: { id: { type: 'string' }, label: { type: 'string' }, wikiSlug: { type: 'string' } }, required: ['id', 'label'] }
 const PREP_SCHEMA = { type: 'object', properties: { totalEvents: { type: 'number' }, chapters: { type: 'array', items: { type: 'object', properties: { chapter: { type: 'number' }, title: { type: 'string' }, eventCount: { type: 'number' }, events: { type: 'array', items: EVENT } }, required: ['chapter', 'eventCount', 'events'] } } }, required: ['chapters', 'totalEvents'] }
@@ -37,9 +47,9 @@ phase('Author')
 const VOICE = `VOICE: informal popular-history (conversational, vivid, never academic); inline-define terms on first use; miles before km (km in parens); parentheses for definitions not em-dashes; vary uncertainty language; reader has zero prior knowledge.`
 const cardThunks = prep.chapters.map(ch => () => agent(
   `Event-card sweep, civ \`${tl}\`, Chapter ${ch.chapter}${ch.title ? ` (${ch.title})` : ''}. Read \`/tmp/${tl}-bundles/ch${ch.chapter}.json\` (\`{tl,chapter,chapterTitle,narrative,events:[{id,label,year,endYear,description,wikiSlug,commonsFile}]}\`).\n\n`
-  + `For EVERY event write a 2-part card:\n1. \`description\` — tight house-voice "what this is", 1-2 sentences, replaces the current description.\n2. \`exploreFurther\` — 2-4 sentences of interesting BORN-VERIFIED facts the narrative does NOT give. Web-search to confirm every date/name/number. NO hallucination - a missing detail beats a wrong one. Don't repeat description/narrative.\n\n`
+  + `For EVERY event write a 2-part card:\n1. \`description\` — tight house-voice "what this is", 1-2 sentences, replaces the current description.\n2. \`exploreFurther\` — a HARD CAP of 2-4 sentences (NEVER 5+) of interesting BORN-VERIFIED facts the narrative does NOT give. Be disciplined: pick the 2-4 most surprising facts and STOP - do not list everything you find, do not pad. Tight beats exhaustive. Web-search to confirm every date/name/number. NO hallucination - a missing detail beats a wrong one. Don't repeat description/narrative.\n\n`
   + `${VOICE}\n\nWrite \`/tmp/${tl}-out/ch${ch.chapter}.json\`: \`{"chapter":${ch.chapter},"cards":[{"eventId":"<id>","description":"...","exploreFurther":"...","photoCandidates":[]}]}\`. One card per event, exact ids, none skipped. Reply with the count and any uncertainty.`,
-  { label: `cards:ch${ch.chapter}`, phase: 'Author', agentType: 'general-purpose' },
+  { label: `cards:ch${ch.chapter}`, phase: 'Author', agentType: 'general-purpose', model: MODEL },
 ))
 const allEvents = prep.chapters.flatMap(c => c.events)
 const seenIds = new Set(); const uniqEvents = allEvents.filter(e => !seenIds.has(e.id) && seenIds.add(e.id))
@@ -52,7 +62,7 @@ const finderThunks = finderGroups.map((grp, gi) => () => agent(
   + `RULES: one file per event (distinctness - prefer the iconic artifact/site/person/manuscript). A representative artifact/site/map is fine for portraitless people. OMIT genuinely ABSTRACT events (trade *networks*, "decline/collapse" processes, oral traditions, clan systems, market "shadows", ceremonies with no photo) - those honest-reject; never force.\n\n`
   + `EVENTS (eventId | label | wikiSlug):\n` + grp.map(e => `${e.id} | ${e.label} | ${e.wikiSlug || '(none)'}`).join('\n')
   + `\n\nOUTPUT: write \`/tmp/${tl}-gapfill-g${gi + 1}.json\` = \`{"<eventId>":["File:Foo.jpg", ...], ...}\` (only events you filled; best-candidate first). Reply with which you filled, which you omitted (why), any borderline file.`,
-  { label: `finder:g${gi + 1}`, phase: 'Author', agentType: 'general-purpose' },
+  { label: `finder:g${gi + 1}`, phase: 'Author', agentType: 'general-purpose', model: MODEL },
 ))
 await parallel([...cardThunks, ...finderThunks])
 
@@ -61,15 +71,23 @@ const gather = await runPhase(`gather:${tl}`, `node scripts/sweep-civ.mjs gather
 log(`${tl}: gathered - ${gather.withCandidates}/${gather.events} events have candidates`)
 
 phase('Pick')
-const visionPick = (note) => agent(
-  `Vision photo-pick for the \`${tl}\` event sweep. Candidate images are downloaded locally - NO network.\n\n`
-  + `Read \`/tmp/${tl}-photos/manifest.json\` (\`{events:{"<id>":{label,wikiSlug,candidates:[{file:"File:..",localPath,w,h}]}}}\`). For each event WITH candidates, VIEW its candidate files (Read tool on each \`localPath\` - real local images) and pick the SINGLE best photo that ACCURATELY depicts the subject.\n\n`
-  + `HARD RULES:\n1. Global distinctness - each commonsFile used AT MOST ONCE across all events. When several events share an iconic image, assign it to the ONE best-fit event and pick a different candidate (or reject) for the others.\n2. Accuracy floor - the image must show the right thing (right person/site/artifact/era). If candidates are wrong-subject or you can't tell, REJECT. A missing photo beats a wrong one. Maps are OK only when nothing better exists.\n3. Every event gets a decision; events with no candidates -> \`"reject"\`, reason "no apt born-verified photo".\n`
-  + `${note || ''}\n`
-  + `For each pick write a one-sentence English house-voice caption. OUTPUT: write \`/tmp/${tl}-photos/picks.json\` = \`{"<id>":{"decision":"override","commonsFile":"Foo.jpg","caption":"..."}}\` or \`{"decision":"reject","reason":"..."}\`. commonsFile = exact manifest \`file\` minus the \`File:\` prefix (preserve accents/apostrophes/case). Include EVERY eventId in the manifest. Reply with the override/reject tally and CONFIRM no commonsFile repeats.`,
-  { label: `pick:${tl}`, phase: 'Pick', agentType: 'general-purpose' },
-)
-await visionPick()
+const MERGE_SCHEMA = { type: 'object', properties: { merged: { type: 'number' }, override: { type: 'number' }, reject: { type: 'number' }, dupsResolved: { type: 'number' } }, required: ['merged', 'override', 'reject'] }
+// PARALLEL per-chapter vision pick: each picker views ONLY its chapter's candidate
+// images and picks the best per event, writing /tmp/<tl>-photos/picks-ch<N>.json.
+// This replaces a single agent that read every image serially (the slowest step) —
+// same per-image judgment, just fanned out. _merge-picks.mjs then unions the chapter
+// files and resolves cross-chapter image collisions deterministically into picks.json
+// (the GLOBAL distinctness finish requires).
+const pickThunks = prep.chapters.map(ch => () => agent(
+  `Vision photo-pick for the \`${tl}\` event sweep, Chapter ${ch.chapter}${ch.title ? ` (${ch.title})` : ''}. Candidate images are downloaded locally - NO network.\n\n`
+  + `Read \`/tmp/${tl}-photos/manifest.json\` (\`{events:{"<id>":{label,wikiSlug,candidates:[{file:"File:..",localPath,w,h}]}}}\`). Pick photos for ONLY these event ids (this chapter's events):\n${ch.events.map(e => e.id).join(', ')}\n\n`
+  + `For each of those events WITH candidates, VIEW its candidate files (Read tool on each \`localPath\` - real local images) and pick the SINGLE best photo that ACCURATELY depicts the subject.\n\n`
+  + `HARD RULES:\n1. Distinctness within your chapter - do not assign the same commonsFile to two of your events (cross-chapter duplicates are resolved automatically afterward, so you only need your own picks distinct).\n2. Accuracy floor - the image must show the right thing (right person/site/artifact/era). If candidates are wrong-subject or you can't tell, REJECT. A missing photo beats a wrong one. Maps are OK only when nothing better exists.\n3. Every event in your list gets a decision; an event with no candidates -> \`"reject"\`, reason "no apt born-verified photo".\n\n`
+  + `For each pick write a one-sentence English house-voice caption. OUTPUT: write \`/tmp/${tl}-photos/picks-ch${ch.chapter}.json\` = \`{"<id>":{"decision":"override","commonsFile":"Foo.jpg","caption":"..."}}\` or \`{"<id>":{"decision":"reject","reason":"..."}}\`. Include EVERY event id from the list above and ONLY those. commonsFile = exact manifest \`file\` minus the \`File:\` prefix (preserve accents/apostrophes/case). Reply with your chapter's override/reject tally.`,
+  { label: `pick:ch${ch.chapter}`, phase: 'Pick', agentType: 'general-purpose', model: MODEL },
+))
+await parallel(pickThunks)
+await runPhase(`mergepicks:${tl}`, `node scripts/_merge-picks.mjs ${tl}`, MERGE_SCHEMA, 120000)
 
 phase('Finish')
 let fin = await runPhase(`finish:${tl}`, `node scripts/sweep-civ.mjs finish ${tl}`, FINISH_SCHEMA, 420000)
@@ -87,10 +105,19 @@ while (fin.thinChapters.length && round < 2) {
     + `CRITICAL distinctness: read \`/tmp/${tl}-photos/picks.json\` first and do NOT reuse any commonsFile already chosen there (each file used by ONE event app-wide). Also .svg/.ogg/.pdf are excluded by the gatherer - don't propose vector/audio files.\n\n`
     + `EVENTS needing a photo (eventId | label):\n` + thinEvents.map(e => `${e.id} | ${e.label}`).join('\n')
     + `\n\nOUTPUT: write \`/tmp/${tl}-gapfill2.json\` = \`{"<eventId>":["File:..."], ...}\` (only events you filled). Reply with which filled, which left empty (why), any borderline.`,
-    { label: `gapfill:r${round}`, phase: 'Gapfill', agentType: 'general-purpose' },
+    { label: `gapfill:r${round}`, phase: 'Gapfill', agentType: 'general-purpose', model: MODEL },
   )
   await runPhase(`regather:${tl}:r${round}`, `node scripts/sweep-civ.mjs gather ${tl}`, GATHER_SCHEMA, 600000)
-  await visionPick(`This is a re-pick after a gap-fill round. KEEP every good photo already chosen in the existing \`/tmp/${tl}-photos/picks.json\` (read it first and carry those overrides forward unchanged); only ADD picks for the newly-gathered gap-fill events, staying distinct from all already-chosen files.`)
+  // re-pick ONLY the gap-fill events (few) as a single agent → repick-r<round>.json,
+  // which finish merges over the existing picks.json (keeps every prior pick).
+  await agent(
+    `Vision photo-pick (gap-fill round ${round}) for the \`${tl}\` event sweep. Candidate images are downloaded locally - NO network.\n\n`
+    + `Read \`/tmp/${tl}-photos/manifest.json\`. Pick photos for ONLY these gap-fill event ids (newly gathered this round):\n${thinEvents.map(e => e.id).join(', ')}\n\n`
+    + `For each that HAS candidates, VIEW its candidate files (Read tool on each \`localPath\`) and pick the SINGLE best ACCURATE photo. Accuracy floor: the right subject or REJECT (a missing photo beats a wrong one).\n\n`
+    + `CRITICAL distinctness: read \`/tmp/${tl}-photos/picks.json\` first and do NOT reuse any commonsFile already chosen there (each file used by ONE event app-wide).\n\n`
+    + `For each pick write a one-sentence house-voice caption. OUTPUT: write \`/tmp/${tl}-photos/repick-r${round}.json\` = \`{"<id>":{"decision":"override","commonsFile":"Foo.jpg","caption":"..."}}\` or \`{"<id>":{"decision":"reject","reason":"..."}}\`, for ONLY the gap-fill events listed above. commonsFile = exact manifest \`file\` minus the \`File:\` prefix. Reply with the tally.`,
+    { label: `repick:r${round}`, phase: 'Gapfill', agentType: 'general-purpose', model: MODEL },
+  )
   fin = await runPhase(`finish:${tl}:r${round}`, `node scripts/sweep-civ.mjs finish ${tl}`, FINISH_SCHEMA, 420000)
   log(`${tl}: after round ${round} - photos ${fin.coverage}% - thin: ${fin.thinChapters.map(c => `ch${c.chapter}(${c.pct}%)`).join(', ') || 'none'}`)
 }
