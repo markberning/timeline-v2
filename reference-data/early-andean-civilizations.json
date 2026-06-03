@@ -99,119 +99,83 @@
       "id": "evt-early-andean-huaca-prieta",
       "label": "Huaca Prieta Settlement",
       "year": -3500,
-      "description": "One of the earliest known settlements on the Peruvian coast, Huaca Prieta was occupied by people who gathered maritime resources and cultivated cotton, gourds, and squash without grain agriculture or pottery.",
+      "description": "A man-made coastal mound in the Chicama Valley that piled up over thousands of years of fishing, foraging, and early gardening — and turned out to be one of the deepest records of early Peruvian life ever dug.",
       "wikiSlug": "Huaca_Prieta",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Huaca Prieta sits on the north coast of Peru near the Chicama Valley. Excavations by Junius Bird in the 1940s revealed occupation layers going back 14,000 years."
-        },
-        {
-          "label": "The Settlement",
-          "text": "By 3500 BCE, the site had semi-subterranean structures, twisted cotton cloth, and gourds used as containers — all without pottery. Plant remains show early cultivation of cotton, beans, squash, and chili peppers."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Huaca Prieta demonstrates that the Andean coastal tradition of maritime-agricultural economy predates the Norte Chico urban centers by centuries, providing the economic foundation for Caral."
+          "label": "Explore further",
+          "text": "Junius Bird first dug here in 1946 to 1947, and his finds went to the American Museum of Natural History in New York. When Tom Dillehay's team reopened the site in 2007, their deepest pit took five years to reach 102 feet (31 meters) down, exposing hearths and stone tools far older than anyone expected — human use of the spot stretches back over 14,000 years. There were no spear points among the thousands of stone tools, just net weights and simple pebble tools, a sign these were fishers, not big-game hunters."
         }
-      ]
+      ],
+      "commonsFile": "View_from_top_of_Huaca_Cao_Viejo.jpg"
     },
     {
       "id": "evt-early-andean-aspero",
       "label": "Aspero Constructed",
       "year": -3000,
-      "description": "Aspero, on the coast at the mouth of the Supe Valley, was one of the earliest large ceremonial centers in the Americas, with at least six platform mounds built by Norte Chico people.",
+      "description": "A coastal ceremonial center at the mouth of the Supe Valley with a cluster of stone platform mounds — proof that a community living mainly off the sea could still build monuments.",
       "wikiSlug": "Aspero",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Aspero is a coastal site at the mouth of the Supe River, about 23 km from Caral. It was built around 3000 BCE, making it one of the oldest monumental sites in the Americas."
-        },
-        {
-          "label": "The Structure",
-          "text": "The site has at least six platform mounds, the largest standing 10 m high, built from shicra bags — net bags filled with rocks used as construction modules. A burial of a woman with an elaborate headdress was found at the site."
-        },
-        {
-          "label": "Legacy",
-          "text": "Aspero demonstrates the Norte Chico pattern: coastal fishing communities investing communal labor in monumental construction, integrated with inland agricultural communities at Caral through cotton-fish trade."
+          "label": "Explore further",
+          "text": "Archaeologist Robert Feldman's 1970s work here argued the mound-builders were already organized as a chiefdom (a society with permanent leaders). The biggest mound, Huaca de los Idolos, runs about 100 by 165 feet (30 by 50 meters) and stands 33 feet (10 meters) tall. Its name comes from a sealed cache of unbaked clay human figures found between two floors — most of them female, some shown pregnant — apparently buried as a deliberate offering when that part of the temple was closed off."
         }
-      ]
+      ],
+      "commonsFile": "Aspero.jpg"
     },
     {
       "id": "evt-early-andean-caral-founded",
       "label": "Caral Founded",
       "year": -2900,
-      "description": "Caral, in the Supe Valley of Peru, became the oldest city in the Americas — a metropolis of several thousand people with six large platform mounds, sunken circular plazas, amphitheaters, and residential districts.",
+      "description": "The sprawling Supe Valley capital — six platform mounds, sunken plazas, and homes for several thousand people — that ranks as the oldest known city in the Americas, built while Egypt was raising its pyramids.",
       "wikiSlug": "Caral",
       "tier": 1,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Located 182 km north of Lima in the Supe Valley, Caral occupied 66 hectares in an arid river valley. It was inhabited from around 2900–1600 BCE and is the oldest known urban center in the Americas."
-        },
-        {
-          "label": "The City",
-          "text": "Caral had six large platform mounds (the largest 28 m high and 160 m long), sunken circular plazas used for communal gatherings, two sunken amphitheaters, and residential complexes. Population estimates range from 1,000–3,000."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Caral proves that complex urban civilization in the Americas began independently and earlier than long assumed — contemporary with Egypt's Old Kingdom pyramids and 1,500 years before the Olmec."
+          "label": "Explore further",
+          "text": "An American researcher, Paul Kosok, walked the site in 1948 but wrote it off because he found none of the pottery or gold that Andean archaeologists usually chase — and Caral simply never made any pottery, so the dismissal stuck for decades. The Pirámide Mayor reached roughly 98 feet (30 meters) tall through repeated rebuilding phases, and the whole urban core spread across about 168 acres (68 hectares). UNESCO named Caral a World Heritage Site in 2009, singling out its rise through trade and ceremony rather than war."
         }
-      ]
+      ],
+      "commonsFile": "PeruCaral01.jpg"
     },
     {
       "id": "evt-early-andean-shicra-construction",
       "label": "Shicra Bag Construction",
       "year": -2800,
-      "description": "Norte Chico builders developed the shicra technique — filling reed net bags with rocks to create modular construction units — enabling rapid pyramid building without mortar or wheeled transport.",
+      "description": "The Norte Chico's signature building trick: stuff woven reed net bags with loose stones, then stack the bags inside a mound's core to raise it fast — no mortar, no cut blocks, no wheel.",
       "wikiSlug": "Caral#Architecture",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Building monumental pyramids without wheeled carts or draft animals required an efficient system for moving large volumes of fill material. Norte Chico engineers solved this with shicra bags."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Workers filled reed net bags (shicras) with rocks and stacked them inside pyramid cores. The bags could be carried individually, distributed the labor efficiently, and created stable fill. The system enabled large-scale construction without the need for a centralized command structure."
-        },
-        {
-          "label": "Impact",
-          "text": "Shicra construction is uniquely Andean and found at dozens of Norte Chico sites. It made monumental architecture achievable by communities without state-level coercion — a pattern consistent with the absence of weapons and defensive walls at Caral."
+          "label": "Explore further",
+          "text": "It turns out the bags do more than save labor — they make the buildings earthquake-resistant. Japanese engineers ran scale models of stone-filled shicra bags on a shaking table and found they behave like modern base-isolation systems: the loose cobbles roll and shift during a quake, soaking up the energy that would otherwise crack a rigid wall. In other words, builders 5,000 years ago stumbled onto an anti-seismic technique that high-rise engineers now design on purpose. Shicra construction has never been found outside the Norte Chico region."
         }
-      ]
+      ],
+      "commonsFile": "PeruCaral22.jpg"
     },
     {
       "id": "evt-early-andean-fishing-economy",
       "label": "Anchovy-Cotton Economy",
       "year": -2700,
-      "description": "The Norte Chico economy rested on a maritime-agricultural symbiosis: coastal communities harvested anchovies and sardines in cotton nets, trading dried fish to inland valley farmers who grew the cotton in return.",
+      "description": "The Norte Chico ran on a trade between sea and valley: coastal fishers caught anchovies in cotton nets, and inland farmers grew the cotton those nets were made from.",
       "wikiSlug": "Norte_Chico_civilization#Economy",
       "tier": 1,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The cold Humboldt Current drives one of the world's richest marine ecosystems off the Peruvian coast, creating anchovy populations so dense they could be scooped from the water in nets. Norte Chico coastal people exploited this resource intensively."
-        },
-        {
-          "label": "The System",
-          "text": "Cotton grown in irrigated river valleys was woven into fishing nets, which coastal communities used to catch huge quantities of anchovies. Dried anchovies were traded inland as food protein, while cotton went back to the coast. This circular economy required no grain surplus — an anomaly among early civilizations."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The anchovy-cotton economy explains how large populations could be sustained without cereal agriculture, which was thought to be a prerequisite for civilization. It may also explain Caral's remarkable peacefulness — resource abundance reduced competition."
+          "label": "Explore further",
+          "text": "The arrangement gave inland sites real leverage. Researcher Jonathan Haas argued the valley elites who controlled cotton could use it as a bargaining chip over the coastal fishing communities who needed it for their nets. The whole civilization built monuments and pyramids without ever making pottery — there is a total absence of ceramics across the entire period. Cotton may even have done double duty for record-keeping, possibly spun into early knotted-cord counting devices (the ancestors of the Inca quipu)."
         }
       ]
     },
@@ -219,147 +183,105 @@
       "id": "evt-early-andean-caral-quipu",
       "label": "Oldest Known Quipu",
       "year": -2600,
-      "description": "A quipu — a recording device made of knotted strings — found at Caral dates to around 2600 BCE, making it the oldest known quipu and pushing back the origin of this uniquely Andean information technology by two millennia.",
+      "description": "A bundle of knotted strings from Caral that Ruth Shady's team reads as a quipu — the knot-record device that later Andean peoples, up through the Inca, used to store numbers and accounts.",
       "wikiSlug": "Quipu",
       "tier": 1,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Background",
-          "text": "Quipus (also spelled khipus) are devices made of a main cord with pendant strings bearing knots. They were used throughout Andean history for recording numerical data and possibly narrative information."
-        },
-        {
-          "label": "The Discovery",
-          "text": "Ruth Shady Solis's excavations at Caral recovered a quipu dated to around 2600 BCE — predating the Inca quipus by nearly 4,000 years. The find suggests that knotted string recording began with the first Andean urban societies."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Caral quipu challenges assumptions that writing systems are required for complex society. The Andean world developed an alternative information technology — the quipu — that may have encoded complex administrative, calendrical, and narrative information."
+          "label": "Explore further",
+          "text": "Before this find, the oldest known quipus dated to around 650 CE, so if the identification holds it yanks the technology back more than three thousand years. The Caral specimen is described as brown cotton strings wound around thin sticks, found among offerings that included wrapped fiber balls and pristine reed baskets. Not everyone is convinced it counts as a true recording device rather than just knotted cordage — and even for the famous Inca quipus, scholars like Gary Urton still debate whether the knots could encode language as well as numbers. Nobody has fully cracked the code."
         }
-      ]
+      ],
+      "commonsFile": "Inca_Quipu.jpg"
     },
     {
       "id": "evt-early-andean-caral-music",
       "label": "Caral Musical Instruments",
       "year": -2500,
-      "description": "Excavations at Caral recovered 32 flutes made of condor and pelican bones, and 37 cornets made of deer and llama bones — evidence of a rich musical and ceremonial culture 4,500 years ago.",
+      "description": "A buried cache of bone wind instruments — 32 flutes and 37 cornets (small trumpets) — found at Caral, the oldest known music-making gear in the Americas.",
       "wikiSlug": "Caral#Culture",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Music played a central role in Andean ritual life from the earliest periods. Caral's instruments were found in ceremonial contexts, suggesting their use in public religious events."
-        },
-        {
-          "label": "The Instruments",
-          "text": "The bone flutes at Caral are among the oldest musical instruments found in the Americas. They were made from the bones of condors — sacred birds in the Andean tradition — and pelicans."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Andean tradition of wind instruments made from bone, ceramic, and later metal persisted for millennia. The condor's association with the upper world and divine power in Andean cosmology may already have been established at Caral."
+          "label": "Explore further",
+          "text": "The flutes were carved from condor and pelican bones, the cornets from deer and llama bones, and many are incised with figures: monkeys, snakes with bird faces, and supernatural creatures blending feline, bird, and monkey features. They were unearthed not in a trash heap but on the outside of a sunken circular plaza, the kind of open space where hundreds of people could gather — which fits the idea that the music was part of mass ceremony, not idle play. Players blew into a central hole and covered side holes with the left or right hand."
         }
-      ]
+      ],
+      "commonsFile": "Flautas_de_Caral_2500_a.C.jpg"
     },
     {
       "id": "evt-early-andean-sunken-plazas",
       "label": "Sunken Circular Plazas",
       "year": -2400,
-      "description": "Circular sunken plazas, found at Caral and throughout Norte Chico sites, served as communal gathering spaces for ceremonies, music, and ritual — establishing an architectural form that would persist in Andean civilization for over a millennium.",
+      "description": "The sunken circular plaza — a round space dug below ground level with a stairway leading down into it — became the signature ceremonial form of early Andean coastal architecture.",
       "wikiSlug": "Caral#Architecture",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Norte Chico sites consistently pair large platform mounds with circular sunken plazas, sometimes called amphitheaters. The combination appears to have served as the primary setting for communal ritual."
-        },
-        {
-          "label": "The Structure",
-          "text": "The plazas at Caral are circular depressions roughly 45 m in diameter, ringed by low walls. Their circular form and sunken floor may have amplified sound and created an acoustically distinctive ritual environment."
-        },
-        {
-          "label": "Legacy",
-          "text": "Circular sunken plazas appear across Andean ceremonial sites for over a thousand years after Caral. They represent one of the enduring architectural contributions of the Norte Chico tradition."
+          "label": "Explore further",
+          "text": "The form caught on so widely that it kept being built for over two thousand years after Norte Chico. Its most famous version sits at the highland temple of Chavin de Huantar (around 900 BCE), where a sunken round court anchors a U-shaped complex. Archaeologists treat the coastal pairing of pyramid mound plus sunken round plaza as a distinct tradition, separate from the highland Kotosh-Mito style, which instead favored small closed rooms built around a central ritual hearth."
         }
-      ]
+      ],
+      "commonsFile": "Mayor_Pyramid_and_circular_enclosure._Caral,_Peru.jpg"
     },
     {
       "id": "evt-early-andean-llama-domestication",
       "label": "Llama & Alpaca Domestication",
       "year": -3500,
       "endYear": -3000,
-      "description": "South American camelids — the llama and alpaca — were domesticated from wild guanacos and vicuñas on the high Andean grasslands (puna) by at least 3500 BCE, providing transport, fiber, and food.",
+      "description": "Herders on the cold high grasslands turned two wild camelids — the guanaco and the slender vicuña — into the llama (a pack animal) and the alpaca (a wool animal), the only large domesticated animals in the entire pre-Columbian Americas.",
       "wikiSlug": "Llama",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Wild camelids — guanacos and vicuñas — roamed the high Andean puna grasslands. Archaeological evidence of herding practices dates to at least 3500–3000 BCE in highland sites."
-        },
-        {
-          "label": "The Domestication",
-          "text": "Llamas were bred for their carrying capacity (up to 30 kg) and were the primary pack animal in the Andes — a continent that lacked horses, donkeys, or oxen. Alpacas were bred for their fine fiber, used in elite textiles."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Llama domestication was foundational to Andean civilization: they enabled highland-coast trade, provided fertilizer for terrace agriculture, and supplied wool for the textile tradition that anchored Andean economics and record-keeping."
+          "label": "Explore further",
+          "text": "Genetic work has nailed down the family tree: the llama descends from the guanaco, the alpaca from the vicuña. The clearest archaeological window is Telarmachay, a rockshelter in the Peruvian highlands where the bone record shows people shifting from hunting deer and wild camelids to relying almost entirely on camelids by around 4000 BCE, with full herding societies in place by roughly 3500 BCE. Vicuña wool, from the alpaca's wild cousin, is still among the finest and priciest animal fibers on Earth."
         }
-      ]
+      ],
+      "commonsFile": "A_Quechua_girl_and_her_Llama.jpg"
     },
     {
       "id": "evt-early-andean-guinea-pig-domestication",
       "label": "Guinea Pig Domestication",
       "year": -5000,
-      "description": "The guinea pig (cuy) was domesticated from wild cavies in the Andean highlands by around 5000 BCE, becoming a primary protein source for Andean communities throughout prehistory and into the present.",
+      "description": "The guinea pig (cuy) was bred from a wild Andean rodent into a household meat animal, kept loose inside family homes and roasted whole for feasts — a tradition still going strong on Peruvian and Bolivian tables today.",
       "wikiSlug": "Guinea_pig",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Wild cavies (Cavia tschudii) were hunted in highland grasslands for thousands of years before domestication. Archaeological sites in Peru show cuys in human settlements by 5000 BCE."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Guinea pigs were easy to keep, required little space or water, and could be fed on kitchen scraps. They reproduced quickly and provided reliable protein for highland communities where grazing animals were unavailable."
-        },
-        {
-          "label": "Legacy",
-          "text": "Cuy remains a culturally important food in Peru, Bolivia, Ecuador, and Colombia today. The guinea pig was also used in ritual sacrifices and as a diagnostic tool in traditional medicine."
+          "label": "Explore further",
+          "text": "The wild ancestor is Cavia tschudii, pinned down by DNA and by comparing the skulls of living and mummified animals. People were eating wild cavies in the Andes as far back as roughly 9000 BCE, long before any taming; full domestication is generally placed somewhere between about 6000 and 2000 BCE. Centuries later the animal traveled so widely through trade that domesticated guinea pigs turn up at archaeological sites in the Caribbean, far from their mountain home."
         }
-      ]
+      ],
+      "commonsFile": "Cuy_pottery.JPG"
     },
     {
       "id": "evt-early-andean-potato-domestication",
       "label": "Potato Domestication",
       "year": -7000,
       "endYear": -3500,
-      "description": "Wild potatoes were domesticated in the highlands around Lake Titicaca by at least 7000–3500 BCE, eventually producing hundreds of varieties adapted to different elevations — one of the most consequential agricultural achievements in world history.",
+      "description": "The wild potato — a small, often bitter tuber growing around Lake Titicaca — was tamed by Andean farmers into the staple that would feed every highland civilization, eventually splitting into hundreds of varieties tuned to different altitudes.",
       "wikiSlug": "History_of_the_potato",
       "tier": 1,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Wild potato species (Solanum) grew across the high Andes. The Lake Titicaca basin appears to have been the primary domestication zone, with evidence of cultivation extending back 7,000–8,000 years."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Andean farmers developed hundreds of potato varieties adapted to different altitudes and climates. They also invented freeze-drying (chuño) — leaving potatoes out overnight to freeze, then trampling and sun-drying them — creating a storable, lightweight food that could last years."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The potato eventually transformed world food production after Spanish contact. Today it is the fourth-largest food crop on earth. Chuño made highland communities resilient against drought and frost — a survival technology that persists today."
+          "label": "Explore further",
+          "text": "The wild ancestor is the Solanum brevicaule complex, which grew thick in the high microclimates around the lake (roughly 12,500 feet / 3,800 meters up). The earliest direct trace of people actually eating cultivated potato comes from Jiskairumoko, a village site west of Lake Titicaca where archaeologists recovered 50 potato starch grains dating to about 3400 BCE. Some genetic estimates push the first domestication back as far as 8000 BCE, but the plant doesn't fossilize well, so the dirt-based evidence runs younger than the genes suggest."
         }
-      ]
+      ],
+      "commonsFile": "Papamuseolarco.jpg"
     },
     {
       "id": "evt-early-andean-irrigation-valleys",
@@ -413,46 +335,31 @@
       "id": "evt-early-andean-caral-decline",
       "label": "Caral Abandoned",
       "year": -1800,
-      "description": "Caral and most Norte Chico centers were gradually abandoned around 1800 BCE, as population shifted and new regional centers in other valleys rose to prominence during the Initial Period.",
+      "description": "Around 1800 BCE the Supe Valley centers were slowly let go — not sacked or burned, just gradually emptied as the action moved to newer sites in other valleys.",
       "wikiSlug": "Caral#Decline",
       "tier": 2,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The Norte Chico tradition had sustained dense urban settlement for over a millennium. The causes of its decline around 1800 BCE are debated — El Niño-driven environmental disruption is one proposed explanation."
-        },
-        {
-          "label": "What Happened",
-          "text": "Radiocarbon dates from Norte Chico sites cluster around 2600–1800 BCE. After 1800 BCE, occupation at Caral and related sites becomes sparse. New ceremonial centers appear in other Peruvian valleys during the Initial Period."
-        },
-        {
-          "label": "Legacy",
-          "text": "Although Caral itself was abandoned, the traditions it embodied — communal monumental construction, quipu record-keeping, sunken plaza ritual spaces — continued in the cultures that followed throughout Andean history."
+          "label": "Explore further",
+          "text": "The decay was so quiet that the cause is still argued over, but a leading idea points to climate: a stretch of drought plus El Niño-driven flooding and sandstorms that clogged the irrigation canals the valley depended on. There may even be a contemporary record of the crisis — at the nearby site of Vichama, temple friezes show emaciated figures, a pregnant woman, and a lightning-struck toad, which excavators read as a memory of famine and a plea for the rains to come back. Whatever the trigger, the Norte Chico template (communal temples, mixed coast-and-valley economy, ceremony as the social glue) carried on into the centers that replaced it."
         }
-      ]
+      ],
+      "commonsFile": "Caral_9.jpg"
     },
     {
       "id": "evt-early-andean-pottery-arrives",
       "label": "Pottery Introduced",
       "year": -1800,
-      "description": "Ceramic technology arrived in Peru around 1800 BCE, enabling new forms of food storage, cooking, and ritual vessel production — the beginning of the Initial Period and a significant expansion of Andean material culture.",
+      "description": "Around 1800 BCE fired clay pottery finally reached Peru from the north, giving the Initial Period its name and handing Andean potters a fresh canvas for religious imagery they used almost at once.",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "For over a millennium, Norte Chico communities had managed without pottery, using gourds as containers. Ceramic technology was known in tropical South America earlier but arrived on the Peruvian coast and highlands around 1800 BCE."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Early Peruvian pottery was fiber-tempered and relatively simple. It enabled boiling food in ceramic vessels for the first time, expanded food storage options, and quickly became a medium for ritual imagery and status expression."
-        },
-        {
-          "label": "Impact",
-          "text": "Pottery's arrival marked the transition from the Preceramic Period to the Initial Period. Ceramic vessels soon carried religious iconography — jaguar faces, snake imagery — that would later be elaborated in the Chavín style."
+          "label": "Explore further",
+          "text": "Pottery was wildly late to Peru. Coastal Ecuador's Valdivia culture had been firing clay since roughly 3500 BCE — well over a thousand years earlier — so the Andean coast spent its entire monument-building boom (Caral, Aspero, the great mounds) cooking in gourds and stone-lined pits with no ceramics at all. Some archaeologists, following John H. Rowe, argue Peruvian pottery may push back closer to 2100 BCE, but 1800 BCE remains the standard marker for the period's start."
         }
       ]
     },
@@ -460,118 +367,82 @@
       "id": "evt-early-andean-kotosh",
       "label": "Kotosh Temple of Crossed Hands",
       "year": -1850,
-      "description": "Kotosh, in the Huallaga Valley of the highland Peruvian jungle, contains the Temple of the Crossed Hands — a small ceremonial room with the oldest known sculpture in the Americas: a pair of crossed forearms modeled in clay.",
+      "description": "High in the Huallaga Valley, Kotosh held the Temple of the Crossed Hands — a small fire-pit chamber whose walls carry a pair of life-sized crossed forearms modeled in clay, among the oldest sculptures anywhere in the Americas.",
       "wikiSlug": "Kotosh",
       "tier": 1,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Kotosh was excavated by Japanese archaeologists in the 1960s and found to contain multiple superimposed ceremonial buildings spanning over 2,000 years of occupation. The earliest, including the Temple of the Crossed Hands, dates to around 1850 BCE."
-        },
-        {
-          "label": "The Sculpture",
-          "text": "The sculpture consists of two crossed forearms molded in clay above a niche in the wall of a small hearth room. Its meaning is debated — it may represent reciprocal exchange or duality. It is the oldest known sculpture in the Americas."
-        },
-        {
-          "label": "Legacy",
-          "text": "Kotosh is the type site for a widespread ceremonial tradition (the Kotosh Religious Tradition) featuring small, fire-hearth ritual rooms that appear across highland Peru in the Initial Period. The tradition demonstrates pan-regional ritual sharing before Chavín."
+          "label": "Explore further",
+          "text": "The site was found in 1934, but real digging waited until 1960, when the Japanese archaeologist Seiichi Izumi and his team uncovered the first pair of crossed hands; a second pair surfaced in 1963. The two reliefs differ subtly in size, and many researchers read them as a deliberate pairing expressing duality — a balancing of opposites that runs deep in later Andean thought. Kotosh anchors the highland Kotosh-Mito religious tradition, whose signature is exactly this kind of small enclosed room built around a central, ventilated hearth."
         }
-      ]
+      ],
+      "commonsFile": "Manos_cruzadas_Cotosh.JPG"
     },
     {
       "id": "evt-early-andean-sechin-alto",
       "label": "Sechin Alto Pyramid",
       "year": -1700,
-      "description": "Sechin Alto, in the Casma Valley, was the largest structure in the pre-Columbian Americas at the time of its construction — a platform mound covering nearly 2 hectares and rising 44 meters, paired with four sunken circular plazas.",
+      "description": "Sechin Alto, in the Casma Valley, was the largest building in the entire pre-Columbian Americas when it went up — a single platform mound towering over a complex of plazas and lesser mounds, all hauled into place by hand.",
       "wikiSlug": "Sechín_Alto",
       "tier": 1,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "The Casma Valley on the north coast of Peru became a major center of monumental construction during the Initial Period. Sechin Alto is the central site of a complex of temples spanning 10 km."
-        },
-        {
-          "label": "The Structure",
-          "text": "Sechin Alto's main mound measured approximately 300 x 250 m at its base and was 44 m tall — the largest structure in the Americas at the time. It was flanked by four sunken circular plazas and aligned to astronomical phenomena."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Sechin Alto complex demonstrates the organizational capacity of Initial Period polities and the continuity of the Norte Chico tradition of monumental communal construction, even as the specific centers shifted."
+          "label": "Explore further",
+          "text": "The famous Peruvian archaeologist Julio C. Tello was the one who judged it the biggest structure not just in Peru but in all the Americas of its day. The main mound runs roughly 1,150 by 985 feet (350 by 300 meters) at its base and about 115 feet (35 meters) tall, and it anchors a four-site complex sprawling across some 4 square miles (10.5 sq km) that also takes in Sechín Bajo and Cerro Sechín. Estimates put the resident population around 18,000 — a genuine early city, not just a ceremonial shell."
         }
-      ]
+      ],
+      "commonsFile": "Vista_de_Sechín_Alto_desde_las_faldas_del_cerro_Sechín.jpg"
     },
     {
       "id": "evt-early-andean-sechin-bajo",
       "label": "Sechin Bajo Circular Plaza",
       "year": -3500,
-      "description": "Sechin Bajo, adjacent to Sechin Alto in the Casma Valley, contains one of the oldest known ceremonial plazas in the Americas — a circular sunken plaza dating to around 3500 BCE, predating Caral.",
+      "description": "A small circular sunken plaza in Peru's Casma Valley, radiocarbon-dated to about 3500 BCE — making it a leading candidate for the oldest public architecture anywhere in the Americas.",
       "wikiSlug": "Sechin_Bajo",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Sechin Bajo was discovered beneath later architectural phases of the Casma Valley complex. German and Peruvian archaeologists identified a circular plaza underneath Initial Period construction, dated by radiocarbon to around 3500 BCE."
-        },
-        {
-          "label": "The Discovery",
-          "text": "The circular plaza at Sechin Bajo is approximately 10 m in diameter and lined with stone. Its early date makes it one of the oldest known ceremonial structures in Peru, predating the massive Norte Chico construction boom."
-        },
-        {
-          "label": "Legacy",
-          "text": "Sechin Bajo suggests that the tradition of communal ceremonial construction in the Andes may go back even earlier than previously assumed — with Preceramic roots extending to 3500 BCE or before."
+          "label": "Explore further",
+          "text": "The claim came from a German-Peruvian team led by Peter Fuchs in 2008. The plaza is only about 33 to 40 feet (10 to 12 meters) across and was built from rough stones and rectangular adobe (sun-dried mud) bricks. Right next to it, a roughly 6.5-foot (2-meter) carved frieze dated even older, to around 3600 BCE. The bricks matter because Sechin Bajo's builders kept rebuilding on the same spot for thousands of years, stacking newer ceremonial centers on top of this one."
         }
-      ]
+      ],
+      "commonsFile": "Sechin_casma_valley.JPG"
     },
     {
       "id": "evt-early-andean-early-metalwork",
       "label": "Early Gold & Copper Working",
       "year": -1500,
-      "description": "Andean metallurgists began working native gold and copper by the early Initial Period, producing hammered ornaments, pins, and ritual objects — the beginning of one of the world's most sophisticated metallurgical traditions.",
+      "description": "By the early Initial Period Andean smiths were hammering native gold into sheet ornaments — the opening move of what would become one of the most sophisticated metalworking traditions on Earth, though here it stayed rare and purely ceremonial.",
       "wikiSlug": "Metallurgy_in_pre-Columbian_America",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "The Andes contain rich deposits of native gold (found in river gravels) and copper ore. Andean metalworkers initially cold-hammered gold into thin sheets and wires without smelting."
-        },
-        {
-          "label": "The Innovation",
-          "text": "By 1500 BCE, Andean metalworkers were annealing copper (heating and hammering to harden it) and producing copper tools and ornaments. Gold became the preeminent prestige material, associated with solar power and divine authority."
-        },
-        {
-          "label": "Legacy",
-          "text": "Andean metallurgy would eventually produce bronze alloys, gilding techniques, and casting methods of extraordinary sophistication — culminating in the Moche goldwork and Inca golden objects that so astonished the Spanish conquistadors."
+          "label": "Explore further",
+          "text": "The key evidence comes from Waywaka, a highland site near Andahuaylas in southern Peru, where excavators found an actual goldworker's kit: a small stone anvil and three polished hammerstones, with the gold sheet dated to at least 1500 BCE. The toolmarks show the smiths already knew hammering and annealing (heating metal to keep it from cracking as it's worked). Copper smelting came much later and slower — large-scale copper work doesn't really show up in the Andes until the Chavín era around 700 BCE, traced through pollution layers locked in Andean glacier ice."
         }
-      ]
+      ],
+      "commonsFile": "Peru_Zeremonialmesser_Sican_EthnM.jpg"
     },
     {
       "id": "evt-early-andean-u-shaped-centers",
       "label": "U-Shaped Ceremonial Centers",
       "year": -1600,
-      "description": "The U-shaped ceremonial center — two flanking wings extending from a central pyramid, enclosing a plaza — became the dominant architectural template of the Peruvian Initial Period, appearing at dozens of sites from the coast to the highlands.",
+      "description": "The U-shaped center — a central pyramid with two long arms reaching out to wrap a plaza — became the defining temple form of the Initial Period, multiplying across the river valleys around what is now Lima.",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The U-shaped plan appears across diverse coastal and highland valleys during the Initial Period, suggesting shared architectural and religious concepts across politically independent communities."
-        },
-        {
-          "label": "The Form",
-          "text": "These complexes typically faced east toward mountain peaks, with the central pyramid flanking two lower wings forming a U open toward the plaza. The enclosed space created a gathering area for public ceremonies, ritual feasting, and communal labor events."
-        },
-        {
-          "label": "Legacy",
-          "text": "The U-shaped ceremonial center shaped the architectural template for later Andean public ritual spaces. The form appears to encode cosmological relationships between mountains, water, and human community that persisted throughout Andean history."
+          "label": "Explore further",
+          "text": "The architect Carlos Williams first defined the type in a landmark 1971 study of the Chillón, Rímac, and Lurín valleys, where these three-pyramid complexes cluster. The best-known example, Garagay near Lima, embraces a 22-acre plaza and was built around 1800 BCE, then rebuilt repeatedly until roughly 800 BCE. Its walls carried polychrome clay friezes — painted in yellow, white, red, pink, and grayish-blue mineral pigments — whose central figure was a fanged supernatural being with spider traits, a creature linked to predicting the rains that arid coastal farming depended on."
         }
       ]
     },
@@ -579,249 +450,179 @@
       "id": "evt-early-andean-coca-cultivation",
       "label": "Coca Cultivation",
       "year": -3000,
-      "description": "Coca leaves were cultivated in Andean tropical valleys (yungas) by at least 3000 BCE and traded widely — used as a stimulant for high-altitude labor, in religious ritual, and as a digestive aid.",
+      "description": "Andean people chewed coca leaves — a mild stimulant that blunts hunger, fatigue, and altitude sickness — wadding them with a pinch of lime to release the active compounds, a daily habit and sacred offering both.",
       "wikiSlug": "History_of_coca",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The coca plant (Erythroxylum coca) is native to tropical valley slopes of the eastern Andes. Its leaves contain alkaloids that reduce hunger and altitude sickness and provide sustained energy — invaluable for high-altitude work."
-        },
-        {
-          "label": "The Cultivation",
-          "text": "Coca leaves were dried and chewed with lime (calcium oxide from burned shells or limestone) to release the alkaloids. Evidence of coca chewing in Andean contexts extends back to at least 3000 BCE."
-        },
-        {
-          "label": "Legacy",
-          "text": "Coca became a sacred plant throughout Andean history — used in ritual offerings, diplomatic exchanges, and as currency. The Inca state controlled coca distribution; today it remains culturally central across the Andes."
+          "label": "Explore further",
+          "text": "The chewing habit is genuinely ancient: coca leaves found on house floors in the Nanchoc valley of northern Peru date to at least about 6000 BCE (8,000 years before present), alongside chips of calcite, the lime additive that pulls the alkaloids out of the leaf. A chewed leaf is mild — closer to a strong coffee than to its notorious refined descendant, cocaine, which wasn't isolated from the plant until the 1850s, thousands of years after Andeans started chewing it."
         }
-      ]
+      ],
+      "commonsFile": "Coca_leaves.jpg"
     },
     {
       "id": "evt-early-andean-spondylus-trade",
       "label": "Spondylus Shell Trade Begins",
       "year": -1800,
-      "description": "Spondylus (spiny oyster) shells from the warm waters off Ecuador became the most prized trade good in the Andes — associated with rain, fertility, and supernatural power — creating long-distance exchange networks linking the Ecuadorian coast to the Peruvian highlands.",
+      "description": "Spondylus, a spiny oyster from the warm seas off Ecuador, became the Andes' most coveted trade good — a stand-in for rain and fertility that traveled hundreds of miles inland and, eventually, was prized above gold.",
       "wikiSlug": "Spondylus",
       "tier": 1,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "Spondylus princeps (mullu) is found only in warm tropical waters north of the Peruvian coast. Its brilliant red-orange interior made it visually distinctive, and its association with warm ocean water linked it symbolically to rain and agricultural fertility in the Andes."
-        },
-        {
-          "label": "The Trade",
-          "text": "Spondylus shells were transported hundreds of kilometers from Ecuador to the highlands and south coast of Peru. They appear in elite burials, ritual caches, and as offerings at major ceremonial centers — their presence marks high-status contexts across 3,000 years of Andean history."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Spondylus trade was a pan-Andean economic and ritual network. Its distribution tracks the reach of religious influence (especially Chavín de Huántar) and later political power. The Inca state eventually controlled Spondylus harvesting as a state monopoly."
+          "label": "Explore further",
+          "text": "Getting it meant free-diving 16 to 65 feet (5 to 20 meters) into open ocean with no equipment, an extraordinary feat that made the shell genuinely costly. The Inca, three thousand years later, called it mullu and named it \"daughters of the sea, the mother of all waters\"; rituals begging for rain literally could not proceed without offerings carved from it, often little llamas and birds. The trade routes that carried it down from Ecuador are thought to be early ancestors of the famous Inca road network, and shells reached as far as Lake Titicaca in Bolivia."
         }
-      ]
+      ],
+      "commonsFile": "Spondylus.jpg"
     },
     {
       "id": "evt-early-andean-vertical-archipelago",
       "label": "Vertical Archipelago Economy",
       "year": -2500,
-      "description": "Andean communities developed a distinctive strategy of managing multiple ecological zones — coast, valleys, highlands, high puna, tropical jungle — simultaneously, with different groups controlling different altitude zones to share resources.",
+      "description": "Andean communities solved the problem of a world stacked vertically by planting permanent satellite colonies at several different altitudes at once — a band of potato fields up high, fishers and cotton on the coast, coca on the jungle slopes — all feeding one kinship group.",
       "wikiSlug": "Vertical_archipelago",
       "tier": 2,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The Andes rise from sea level to over 6,000 m within 100 km, creating sharply differentiated ecological zones: coastal desert, irrigated river valleys, highland grasslands, tropical slopes, and the Amazonian lowlands beyond."
-        },
-        {
-          "label": "The Strategy",
-          "text": "Rather than trading with neighbors, Andean communities sent family members to colonize different altitude zones — 'vertical archipelagos' of settlements at different elevations — all connected to a home base and sharing complementary products. This pattern, documented by anthropologist John Murra, appeared to have very deep roots."
-        },
-        {
-          "label": "Legacy",
-          "text": "Vertical archipelago logic shaped Andean economics, political organization, and settlement patterns from the earliest periods through the Inca empire and into the present. It explains why Andean 'trade' often looks more like internal redistribution within extended communities."
+          "label": "Explore further",
+          "text": "The label \"vertical archipelago\" comes from anthropologist John Murra, who laid out the idea in his 1972 study built on 16th-century Spanish colonial inspection records (visitas) of Andean communities. Murra's sharpest point was that these societies deliberately chose to grab scattered ecological \"floors\" rather than one continuous block of territory — and that the goal was self-sufficiency, getting your own coast and your own highlands so you'd never have to depend on trading with strangers."
         }
-      ]
+      ],
+      "commonsFile": "View_of_Inca_terraces_of_Moray,_2018.jpg"
     },
     {
       "id": "evt-early-andean-chavin-founded",
       "label": "Chavín de Huántar Constructed",
       "year": -900,
       "endYear": -200,
-      "description": "Chavín de Huántar, in a highland valley at 3,150 m elevation in central Peru, was constructed as a major ceremonial center beginning around 900 BCE and became the first pan-Andean religious site — drawing pilgrims from the coast to the Titicaca basin.",
+      "description": "Chavín de Huántar is a stone temple complex in a cold, wet highland valley of central Peru, built and rebuilt between roughly 900 and 200 BCE. It became the first religious center to draw pilgrims from across the Andes and unify them under a single art style and cult.",
       "wikiSlug": "Chavín_de_Huántar",
       "tier": 1,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Chavín de Huántar sits at the confluence of the Mosna and Huachecsa rivers, at an elevation where highland and tropical ecological zones meet. Its strategic location made it a natural hub between coastal and highland trade networks."
-        },
-        {
-          "label": "The Temple",
-          "text": "The site consists of two main platform mounds with an interior labyrinth of stone-lined galleries and shafts. The galleries were designed to produce dramatic acoustic effects during rituals — roaring sounds created by water flowing through hidden channels."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Chavín de Huántar was the first site to integrate the entire Andean cultural world — coast, highland, and tropical slopes — under a shared religious system. Its influence created the first pan-Andean cultural horizon without military conquest."
+          "label": "Explore further",
+          "text": "It sits about 270 miles (434 km) north of modern Lima, east of the snow-capped Cordillera Blanca, at the head of the Conchucos Valley. UNESCO named it a World Heritage Site in 1985, citing its dressed-stone terraces, plazas, and zoomorphic (animal-shaped) carvings. The site was wealthy enough to import luxury goods from hundreds of miles away: Spondylus shell (a spiny red oyster) that only grows in the warm waters off Ecuador, and Strombus conch shells from the warmer northern coast."
         }
-      ]
+      ],
+      "commonsFile": "Chavin_-_Août_2007.jpg"
     },
     {
       "id": "evt-early-andean-lanzon",
       "label": "Lanzón Monolith",
       "year": -850,
-      "description": "The Lanzón, a 4.5-meter granite stela carved with a terrifying anthropomorphic fanged deity, was installed at the center of Chavín de Huántar's labyrinthine gallery system — serving as the focal point of the cult's ritual activities.",
+      "description": "The Lanzón is a blade-shaped granite monolith about 15 feet (4.6 meters) tall, carved with a fanged, snake-haired deity, standing at the dead center of Chavín's underground labyrinth. It was the focal point a disoriented pilgrim met in the dark.",
       "wikiSlug": "Lanzón",
       "tier": 1,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The Lanzón (Spanish: 'lance' or 'big lance') is a 4.5 m granite monolith permanently embedded in a cruciform gallery at Chavín's Old Temple. It could not have been brought into the gallery after the building was constructed — suggesting the temple was built around it."
-        },
-        {
-          "label": "The Sculpture",
-          "text": "The Lanzón depicts a fanged, anthropomorphic figure with serpentine hair, clawed hands and feet, and a complex headdress. Its face combines human and feline (jaguar) features — the signature transformation motif of Chavín art. The pointed base may have made it appear to emerge from the earth."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Lanzón deity and its characteristic fanged, transformational imagery defined Andean religious iconography for centuries. The Chavín 'Staff God' and transformation deity appear on Andean monuments through the Wari and Tiwanaku periods more than a millennium later."
+          "label": "Explore further",
+          "text": "It is one of the rare Andean monuments still standing exactly where its makers put it, plunged into the floor of a cross-shaped chamber deep inside the Old Temple. The figure's hands tell a story of balance: one points up to the sky, the other down to the earth. Two of Chavín's other famous carved stones did not stay put — the Raimondi Stela (a flat slab whose image reads as one being right-side up and another upside down) and the four-sided Tello Obelisk both now sit in a Lima museum."
         }
-      ]
+      ],
+      "commonsFile": "Lanzon.JPG"
     },
     {
       "id": "evt-early-andean-raimondi-stele",
       "label": "Raimondi Stele",
       "year": -500,
-      "description": "The Raimondi Stele — a 1.98-meter granite monument carved with a towering Staff God figure — represents the apex of Chavín stone carving and the definitive image of the Andean Staff God that would appear across cultures for a thousand years.",
+      "description": "A polished granite slab just under 6.5 feet (1.98 meters) tall, carved with the Staff God — a frontal figure clutching a staff in each hand beneath a headdress that towers up the slab in tiers of fangs and snake-heads.",
       "wikiSlug": "Raimondi_Stele",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The Raimondi Stele was found at Chavín de Huántar and named for the Italian-Peruvian scientist Antonio Raimondi, who studied it in the 19th century. It is carved from a single piece of granite."
-        },
-        {
-          "label": "The Image",
-          "text": "The stele depicts a Staff God figure whose elaborate headdress occupies two-thirds of the monument's height — a stacked series of mythical creatures, serpents, and condors. The figure holds staffs (or fanged serpents) in each hand."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Staff God / Frontally Facing Figure with staffs appears across the Andes for over a millennium — on Paracas textiles, Wari tapestries, and the Gate of the Sun at Tiwanaku. Chavín established the iconographic template."
+          "label": "Explore further",
+          "text": "Flip the image upside down and it becomes a completely different picture: the towering headdress reads as a stack of grinning fanged faces, and the god's own face turns into a smiling reptile. That double reading is the contour-rivalry trick at its most ambitious, likely meant to encode the Chavín belief in nature's dualities while keeping the full meaning locked away from outsiders. The staffs themselves may double as San Pedro cactus, the hallucinogen central to Chavín ritual."
         }
-      ]
+      ],
+      "commonsFile": "Estela_Raimondi.JPG"
     },
     {
       "id": "evt-early-andean-tello-obelisk",
       "label": "Tello Obelisk",
       "year": -800,
-      "description": "The Tello Obelisk, a tall granite shaft carved with interlocking Chavín mythological imagery covering every surface, is considered the most complex single piece of Chavín monumental art and a key to decoding Chavín iconography.",
+      "description": "A prismatic granite shaft, roughly 8.5 feet (2.5 meters) tall, carved on every face with the densest Chavín imagery known — a puzzle in stone that scholars have spent a century trying to read.",
       "wikiSlug": "Tello_Obelisk",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Found at Chavín de Huántar and studied by Peruvian archaeologist Julio C. Tello (who named it), the obelisk is a 2.5 m granite shaft carved on all four sides with densely interlocking mythological imagery."
-        },
-        {
-          "label": "The Imagery",
-          "text": "The obelisk depicts two Caiman (crocodilian) deities — possibly male and female — intertwined with agricultural plants (manioc, peanuts, squash) and marine animals. It appears to encode Chavín cosmology: the cycle of rain, agriculture, and fertility controlled by supernatural beings."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Tello Obelisk has been interpreted as a 'codex in stone' — a compendium of Chavín religious knowledge. Julio Tello's work on it and other Chavín monuments in the 1920s–1940s established Andean archaeology as a discipline."
+          "label": "Explore further",
+          "text": "The carving shows two caimans (South American crocodilians) read as a complementary pair: one tied to water and the underworld, the other to the sky, their union standing for rain, rivers, and seasonal renewal. Sprouting from their bodies are real food plants — peanuts, beans, chili peppers, even manioc — turning the monolith into a kind of map of where the Andean diet comes from. It is named for Julio C. Tello, the pioneering Peruvian archaeologist (often called the father of Peruvian archaeology) who studied it in the early twentieth century."
         }
-      ]
+      ],
+      "commonsFile": "Obelisco_Tello_no_Museu_Chavín_01_(cropped).jpg"
     },
     {
       "id": "evt-early-andean-chavin-art-style",
       "label": "Chavín Art Style Spreads",
       "year": -800,
-      "description": "The Chavín art style — featuring transformation imagery (humans becoming jaguars or condors), interlocking contour lines, and fanged supernatural beings — spread from the highlands across the entire Andes through trade networks and religious prestige.",
+      "description": "The unmistakable Chavín look — sinuous curves, fanged faces, and figures where every hair is secretly a snake — spread across Peru not by conquest but by prestige, as local elites copied the style to share in the famous oracle's authority.",
       "wikiSlug": "Chavín_de_Huántar#Art",
       "tier": 1,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The Chavín art style was first defined by John Rowe (1962) as a set of formal conventions: contour rivalry (where every line is also the edge of another figure), staff/appendage motifs, and supernatural beings combining human, feline, serpent, and raptor features."
-        },
-        {
-          "label": "The Spread",
-          "text": "Chavín iconography appears on textiles, ceramics, bone carvings, and stone monuments across Peru — from the north coast (Cupisnique) to the far south (Paracas). It spread not by conquest but by the prestige of the cult and the movement of pilgrims and trade goods."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Chavín art style was the first visual language shared across the diverse ecological and cultural zones of the Andes. It created a common symbolic vocabulary that persisted in Andean art for over a millennium after Chavín de Huántar's decline."
+          "label": "Explore further",
+          "text": "Scholars have a name for the style's signature trick: contour rivalry, where the same lines can be read more than one way depending on how you look at them. The effect was almost certainly deliberate gatekeeping — the imagery was meant to be decoded only by trained priests, so the harder it was to read, the more it marked you as an insider. The style's reach was enormous, stretching from Piura on the far north coast all the way down to Paracas on the south coast and into the southern highlands."
         }
-      ]
+      ],
+      "commonsFile": "Cabeza_clava,_Chavín_de_Huántar,_Huari,_Ancash,_Perú_(cropped).jpg"
     },
     {
       "id": "evt-early-andean-san-pedro-ritual",
       "label": "San Pedro Cactus Ritual",
       "year": -700,
-      "description": "San Pedro cactus (Echinopsis pachanoi), a mescaline-containing plant, was used in ritual contexts at Chavín de Huántar and depicted in the site's stone carvings — the oldest evidence of psychotropic plant use in religious ceremony in South America.",
+      "description": "The San Pedro cactus (Echinopsis pachanoi) is a tall ribbed cactus of the Andean slopes that contains mescaline, a powerful hallucinogen. It was used in ritual and carved into the stone art of Chavín de Huántar, marking some of the oldest evidence for psychedelic plants in religious ceremony in the Americas.",
       "wikiSlug": "Echinopsis_pachanoi",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "San Pedro cactus grows on the western slopes of the Andes at 2,000–3,000 m elevation. It contains mescaline, a powerful psychotropic alkaloid that induces visual hallucinations and altered states of consciousness."
-        },
-        {
-          "label": "The Ritual",
-          "text": "Stone carvings at Chavín show a priest or shaman figure holding a San Pedro cactus. John Rick's excavations found snuff trays and spatulas associated with ritual contexts. The labyrinthine galleries of the temple may have been designed to heighten disorientation during chemically induced ritual states."
-        },
-        {
-          "label": "Legacy",
-          "text": "San Pedro cactus use in ritual contexts is documented across Andean cultures from Chavín through historical times. Its use in shamanic healing ceremonies continues in Peru and Ecuador today. The Chavín evidence is the earliest confirmed example of ceremonial psychotropic use in South America."
+          "label": "Explore further",
+          "text": "A famous carved slab at Chavín, dated around 1300 BCE, shows a fanged supernatural figure clutching a stalk of San Pedro like a staff — about the clearest \"this is a drug ritual\" image in early Andean art. The plant's mescaline content varies wildly, anywhere from a trace to nearly 5 percent of the cactus's dried weight. The habit runs far deeper than Chavín, too: a San Pedro stem turned up at the coastal site of El Paraíso dated to around 2000 BCE, and cactus remains from Guitarrero Cave in the highlands may go back thousands of years, and curanderos (traditional healers) in northern Peru still brew it for all-night ceremonies today."
         }
-      ]
+      ],
+      "commonsFile": "Starr_070320-5799_Echinopsis_pachanoi.jpg"
     },
     {
       "id": "evt-early-andean-obsidian-trade",
       "label": "Quispisisa Obsidian Networks",
       "year": -1000,
-      "description": "Obsidian from the Quispisisa source in Ayacucho was traded across the Andes, appearing at coastal and highland sites hundreds of kilometers away — evidence of long-distance exchange networks predating the Chavín Horizon.",
+      "description": "Obsidian (razor-sharp volcanic glass) from the Quispisisa source in the southern highlands turns up at Chavín-era sites hundreds of miles away — hard physical proof of long-distance Andean trade.",
       "wikiSlug": "Obsidian",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "Volcanic obsidian was the primary source of sharp cutting edges in pre-ceramic and early ceramic Andean cultures. The Quispisisa source in the Ayacucho highlands was the most important obsidian deposit in ancient Peru."
-        },
-        {
-          "label": "The Network",
-          "text": "Chemical analysis of obsidian artifacts from Peruvian sites reveals that most trace to the Quispisisa source, even when found hundreds of kilometers away. Obsidian moved through exchange networks that connected highland and coastal communities from at least 1000 BCE."
-        },
-        {
-          "label": "Legacy",
-          "text": "Obsidian distribution maps show the geographic reach of pre-Columbian exchange networks and the degree of economic interdependence across the Andes. The Inca later controlled obsidian distribution as part of their broader economic system."
+          "label": "Explore further",
+          "text": "The exact source eluded researchers for decades; Richard Burger and colleagues only pinned it down in 1999, in the Huanca Sancos area of the Ayacucho region. There they found extensive ancient quarrying — 34 pits, some up to 260 feet (80 meters) across — confirming industrial-scale extraction. Chemical fingerprinting at the University of Missouri's research reactor showed Quispisisa was the dominant obsidian feeding central and northern Peru throughout pre-Hispanic times, which is how archaeologists can match a blade at a distant site back to this one quarry."
         }
-      ]
+      ],
+      "commonsFile": "Lipari-Obsidienne_(5).jpg"
     },
     {
       "id": "evt-early-andean-julio-tello",
       "label": "Julio C. Tello",
       "year": 1880,
       "endYear": 1947,
-      "description": "Julio C. Tello, the 'father of Peruvian archaeology,' excavated Chavín de Huántar, the Paracas burial sites, and dozens of other sites — establishing that the roots of Andean civilization were indigenous, not derived from outside America.",
+      "description": "Julio C. Tello (1880–1947) was Peru's first indigenous archaeologist and the man who first excavated Chavín de Huántar, in 1919. He argued that Andean civilization grew up on its own rather than being imported from elsewhere.",
       "wikiSlug": "Julio_C._Tello",
       "tier": 2,
       "tags": [
@@ -830,137 +631,94 @@
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Julio César Tello (1880–1947) was born in Huarochirí, Peru, into a Quechua-speaking family. He became the first indigenous Peruvian to earn a doctorate, studying at Harvard and studying anthropology and archaeology."
-        },
-        {
-          "label": "Role in Andean Archaeology",
-          "text": "Tello's excavations at Chavín de Huántar (1919, 1934), Paracas (1925–1930), and other sites demonstrated the sophistication and antiquity of Andean civilization. He argued — correctly — that Andean culture developed independently without diffusion from outside America."
-        },
-        {
-          "label": "Legacy",
-          "text": "Tello founded Peru's first national archaeology museum, trained the first generation of Peruvian archaeologists, and established that the Chavín Horizon represented a genuine pan-Andean phenomenon. The Tello Obelisk is named in his honor."
+          "label": "Explore further",
+          "text": "Tello was born in a Quechua-speaking village in the Andes and trained first as a medical doctor, earning his degree at Lima's San Marcos University in 1909 before studying archaeology at Harvard's Peabody Museum. He directly disproved the rival theory of German archaeologist Max Uhle, who had claimed Peru's high culture came from Mexico or Asia. In 1927 Tello also uncovered the great Paracas necropolis on Peru's south coast, hundreds of mummy bundles wrapped in some of the finest textiles of the ancient world."
         }
-      ]
+      ],
+      "commonsFile": "Julio_C._Tello_Harvard.jpg"
     },
     {
       "id": "evt-early-andean-paracas-culture",
       "label": "Paracas Culture Emerges",
       "year": -800,
-      "description": "The Paracas culture appeared on the south coast of Peru around 800 BCE, producing elaborate burial mummy bundles and the most sophisticated textiles in the pre-Columbian world.",
+      "description": "Around 800 BCE, as Chavín faded in the highlands, the Paracas culture took root on Peru's rainless south coast and turned burial into an art form, wrapping its dead in some of the finest cloth the ancient world ever made.",
       "wikiSlug": "Paracas_culture",
       "tier": 1,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The Paracas Peninsula on the south coast of Peru is an extremely arid environment. Paracas communities occupied the adjacent Ica and Pisco valleys, burying their dead in the desert peninsula where extreme dryness preserved organic materials for 2,500 years."
-        },
-        {
-          "label": "The Culture",
-          "text": "Paracas is divided into two phases: Paracas Cavernas (burial in bottle-shaped underground chambers) and Paracas Necrópolis (large communal burial chambers). Necrópolis burials contained mummy bundles wrapped in layers of extraordinary embroidered textiles."
-        },
-        {
-          "label": "Legacy",
-          "text": "The preservation of Paracas textiles gives us our richest window into Andean artistic and cosmological traditions before the Nazca period. Their iconography directly influenced the Nazca culture and preserves Chavín-derived imagery in fiber rather than stone."
+          "label": "Explore further",
+          "text": "The name comes from the Paracas Peninsula, where the word itself is thought to mean something like \"sand falling like rain\" — a nod to the ferocious wind that scours the place. The culture took shape near the Ica and Pisco valleys, and its early communities were plugged into the wider Chavín religious network, borrowing its fanged-creature imagery and \"negative\" resist pottery (where the design is the part left unpainted) before going their own way. The bone-dry climate that makes the peninsula nearly uninhabitable is exactly what preserved the textiles: organic material buried in that sand barely decays."
         }
-      ]
+      ],
+      "commonsFile": "Bottle,_Feline_Face_MET_DP275834_(cropped).jpg"
     },
     {
       "id": "evt-early-andean-paracas-textiles",
       "label": "Paracas Textile Tradition",
       "year": -400,
-      "description": "Paracas weavers produced embroidered mantles, tunics, and wrapping cloths of extraordinary technical sophistication — up to 398 threads per inch — depicting mythological beings, shamans, trophy heads, and flying figures in a dazzling palette of natural dyes.",
+      "description": "Paracas weavers built ceremonial cloth from cotton and highland camelid wool, then stitched it dense with supernatural beings and trophy heads — the most labor-intensive art form in pre-Columbian South America.",
       "wikiSlug": "Paracas_textile",
       "tier": 1,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Background",
-          "text": "Andean textiles functioned as a primary medium of status, cosmological encoding, and social memory — filling the role that writing played in other civilizations. The Paracas tradition represents the apex of pre-Columbian textile production."
-        },
-        {
-          "label": "The Craft",
-          "text": "Paracas embroiderers worked on plain-weave cotton or camelid fiber base cloths, adding embroidered figures in alpaca wool dyed with over 150 distinct colors from cochineal, indigo, and other natural sources. Thread counts up to 398 per inch are documented — among the highest ever achieved."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Paracas textiles are our richest source of iconographic information about Early Andean cosmology. The supernatural beings, transformation figures, and mythological animals depicted in fiber closely parallel Chavín stone iconography — and directly foreshadow Nazca geoglyph imagery."
+          "label": "Explore further",
+          "text": "The cotton was grown in the coastal valleys, but the wool came from llamas, alpacas, and vicuñas living up in the Andes (camelid fiber is stronger and holds dye far better than cotton), which means every fancy mantle is proof of trade between the coast and the highlands. The most celebrated single piece, the so-called \"Paracas Textile\" in the Brooklyn Museum since 1938, has ninety tiny three-dimensional figures marching around its border — though scholars now credit that border edging to the slightly later Nazca, not Paracas. The dye palette is staggering: researchers have identified roughly seven distinct colors on a single mantle and over a hundred shades across the tradition, all from plants, insects, and minerals."
         }
-      ]
+      ],
+      "commonsFile": "Paracas_textile,_British_Museum.jpg"
     },
     {
       "id": "evt-early-andean-paracas-trepanation",
       "label": "Andean Trepanation Surgery",
       "year": -400,
-      "description": "Andean surgeons performed trepanation — drilling or scraping holes in the skull — from at least 400 BCE, achieving survival rates of 80–90% that far exceeded contemporary practitioners anywhere in the world.",
+      "description": "Paracas surgeons cut and scraped holes into living skulls — to relieve head wounds, ease chronic pain, or for ritual — and a startling share of their patients lived through it.",
       "wikiSlug": "Trepanation",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Trepanation — the removal of a section of the skull — is one of the oldest documented surgical procedures. Peruvian trepanned skulls have been found at Paracas and later sites, with evidence of bone regrowth showing the patients survived."
-        },
-        {
-          "label": "The Procedure",
-          "text": "Andean surgeons used stone scrapers, cutting tools, and possibly coca as an analgesic to perform trepanation. Analysis of 800 ancient Peruvian skulls found survival rates climbed from 40% in pre-Inca times to 80–90% by the Inca period — indicating continuous improvement of technique."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Andean surgeons achieved survival rates from trepanation that European surgeons would not match until the 19th century. The Andean medical tradition — including herbal pharmacology, wound care, and bone-setting — was one of the most advanced in the pre-modern world."
+          "label": "Explore further",
+          "text": "The toolkit was obsidian (volcanic glass) blades and bone scrapers, with medicinal herbs likely doing duty as antiseptics. Survival is read straight off the bone: regrown, smoothed edges around a hole mean the patient healed and lived on. In the earliest Paracas skulls only about 40% show that healing, but the rate climbed over the centuries, reaching the famous 80%-plus figures by Inca times more than a thousand years later — better than battlefield surgeons managed during the American Civil War. In some cases the cut-out piece of skull was apparently set back in place to encourage it to knit."
         }
-      ]
+      ],
+      "commonsFile": "Trepanated_skull_of_a_woman-P4140363-black.jpg"
     },
     {
       "id": "evt-early-andean-kuntur-wasi",
       "label": "Kuntur Wasi Temple",
       "year": -900,
       "endYear": -400,
-      "description": "Kuntur Wasi, in the northern highlands of Peru, was a major Chavín-period ceremonial center whose elite burials contained the oldest examples of large-scale gold jewelry in the Americas.",
+      "description": "A Chavín-era temple in Peru's northern highlands with its own sunken plaza and stone carvings, whose elite tombs yielded the oldest worked gold in all of the Americas.",
       "wikiSlug": "Kuntur_Wasi",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Kuntur Wasi ('House of the Condor' in Quechua) is located in the Cajamarca region of northern Peru at 2,300 m elevation. Japanese archaeologists excavated it beginning in 1988 and found remarkably rich burials beneath its platform mounds."
-        },
-        {
-          "label": "The Temple",
-          "text": "The site has platform mounds with carved stone monuments in the Chavín style. Beneath the mounds, Japanese archaeologists found four elite burials containing over 100 gold objects — crowns, pectorals, and earrings — the oldest examples of large-scale gold work in the Americas."
-        },
-        {
-          "label": "Legacy",
-          "text": "Kuntur Wasi's gold burial goods demonstrate the early association of gold with elite status and supernatural authority in the Andes — a tradition that would culminate in the gold-lined temple at Inca Cusco and the enormous gold ransoms of the Spanish conquest."
+          "label": "Explore further",
+          "text": "The gold came to light in 1989, when a Japanese team led by archaeologist Yoshio Onuki of the University of Tokyo excavated the site's tombs. The roughly 2,800-year-old hoard included crowns, masks, chest plates, and earrings — most famously a 14-pointed gold crown made by hammering and embossing the metal. The find was so significant that a museum, funded by Japan, was built at the site to house it."
         }
-      ]
+      ],
+      "commonsFile": "Kuntur_Wasi.jpg"
     },
     {
       "id": "evt-early-andean-chavin-pilgrimage",
       "label": "Chavín Pilgrimage Network",
       "year": -800,
-      "description": "Chavín de Huántar functioned as a major pilgrimage destination, with evidence of feasting, deposition of exotic goods from across the Andes, and the construction of residential facilities for travelers — making it the earliest documented pilgrimage center in the Americas.",
+      "description": "Chavín pulled in travelers from across the Andes to feast, leave offerings, and undergo its rituals, then return home converted. It is the earliest known pilgrimage center in the Americas.",
       "wikiSlug": "Chavín_de_Huántar#Archaeological_evidence",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "John Rick's Stanford University excavations at Chavín de Huántar (ongoing since 1994) have recovered vast quantities of feasting refuse, exotic objects, and evidence of large-scale hosting of visitors."
-        },
-        {
-          "label": "The Evidence",
-          "text": "Thousands of broken ceramic vessels, bone debris from feasting, and objects from the north coast, south coast, highlands, and tropical lowlands all appear at Chavín. The variety of regional ceramic styles suggests pilgrims traveled from across the Andes."
-        },
-        {
-          "label": "Legacy",
-          "text": "The pilgrimage economy at Chavín created an economic and ritual network integrating the entire Andean world. It established a model — the highland ceremonial center drawing resources and people from diverse ecological zones — that recurred in later Andean history."
+          "label": "Explore further",
+          "text": "Archaeologists found pottery in styles from the north coast, south coast, and highlands jumbled together around the temple, the signature of a transient crowd rather than one settled town. The offerings came from extraordinary distances: Spondylus oyster shell from the warm waters off Ecuador, obsidian (volcanic glass) from the southern highlands, and bright feathers traded out of the Amazon. A famous carving on the site even pairs the Strombus conch (read as male) with the Spondylus shell (read as female), a male–female duality the cult tied to fertility and good harvests."
         }
       ]
     },
@@ -969,97 +727,69 @@
       "label": "Cupisnique Culture",
       "year": -1500,
       "endYear": -200,
-      "description": "The Cupisnique culture on the north coast of Peru (modern Chicama and Jequetepeque valleys) developed a ceramic tradition with Chavín-related iconography and large platform mound complexes that were precursors to Moche culture.",
+      "description": "Cupisnique was a north-coast culture of the Chicama and Jequetepeque valleys whose fanged, hybrid-creature art looks so much like Chavín's that it's nicknamed the \"coastal Chavín.\" It was likely one of the main traditions Chavín drew on, not a copy of it.",
       "wikiSlug": "Cupisnique",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "The Cupisnique culture occupied the north coast valleys of Peru from roughly 1500–200 BCE. Long considered a coastal expression of Chavín, it is now understood as a related but independent tradition that both influenced and was influenced by Chavín."
-        },
-        {
-          "label": "What Happened",
-          "text": "Cupisnique communities built large platform mound complexes and produced distinctive ceramics with stirrup-spout forms and incised Chavín-style imagery. They were accomplished goldsmiths and produced some of the earliest hammered gold objects on the Peruvian north coast."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Cupisnique tradition established the cultural and architectural foundation of the north Peruvian coast that the Moche would build on after 200 CE. Their stirrup-spout ceramic form persisted through Moche and later cultures."
+          "label": "Explore further",
+          "text": "Cupisnique runs from roughly 1500 to 200 BCE, overlapping with and partly predating Chavín, and it was long misread as a mere coastal branch of Chavín before scholars recognized it as its own tradition that helped inspire the highland center. Its signature object is the stirrup-spout bottle — named for a looped pouring tube shaped like a saddle stirrup — a coastal invention that later spread inland and stayed in fashion for two thousand years, eventually becoming the calling card of the Moche. Though sometimes labeled a pre-metal culture, the Cupisnique were in fact skilled goldsmiths, hammering out some of the earliest gold crowns and ornaments in Peru."
         }
-      ]
+      ],
+      "commonsFile": "CupisniqueLMC.jpg"
     },
     {
       "id": "evt-early-andean-chavin-galleries",
       "label": "Chavín Gallery Acoustics",
       "year": -850,
-      "description": "The stone-lined interior galleries of Chavín de Huántar were engineered to produce dramatic acoustic effects during rituals — including roaring sounds created by water flowing through hidden channels that may have been interpreted as the voice of the deity.",
+      "description": "Chavín's stone tunnels doubled as a sound machine. River water diverted through hidden floor channels was engineered to roar and gurgle through the corridors, a noise that may have read as the voice of the god.",
       "wikiSlug": "Chavín_de_Huántar#Architecture",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Chavín de Huántar contains over 3 km of stone-lined galleries beneath its platform mounds, with multiple levels, air shafts, and water channels. The galleries are too narrow for large groups, suggesting individual or small-group initiation experiences."
-        },
-        {
-          "label": "The Design",
-          "text": "Researchers from Stanford and other institutions have measured the acoustic properties of Chavín's galleries and found they produce sounds resembling big cats and other unusual effects. Water channels beneath the site produced reverberant 'roaring' that could be heard throughout the complex."
-        },
-        {
-          "label": "Legacy",
-          "text": "Chavín de Huántar appears to have been deliberately designed to maximize the sensory impact of ritual experiences — combining narrow, disorienting spaces, psychotropic plants, and engineered sound effects to produce powerful encounters with the supernatural."
+          "label": "Explore further",
+          "text": "A Stanford acoustics team led by Miriam Kolar has shown the temple's tapering central passage was shaped so that the blast of conch-shell trumpets, but little else, would carry from deep inside the building out to the crowds in the plazas. Played together, several trumpets in near-matched pitch produce a pulsing 'beat' that warbles in the air. The narrow stone galleries also create resonances and standing waves that can make the walls themselves seem to hum."
         }
-      ]
+      ],
+      "commonsFile": "Chavin_circular_plaza_cyark.jpg"
     },
     {
       "id": "evt-early-andean-chuño",
       "label": "Chuño Freeze-Drying",
       "year": -2000,
-      "description": "Andean communities developed chuño — a freeze-dried potato product created by leaving potatoes outdoors overnight to freeze, then trampling out the water and sun-drying them — creating a storable food that could last for years.",
+      "description": "Highlanders beat the potato's biggest weakness — it rots — by inventing chuño, a freeze-dried tuber made with nothing but freezing nights, blazing days, and a lot of foot-stomping, yielding a rock-hard food that keeps for years.",
       "wikiSlug": "Chuño",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "High Andean communities (above 3,500 m) experience nightly frost even in summer. This environmental feature, normally a farming hazard, was turned into a food preservation technology through the chuño process."
-        },
-        {
-          "label": "The Process",
-          "text": "Potatoes are spread outdoors overnight to freeze solid, then trampled by foot to expel the water, then sun-dried for several days. The result is a light, shriveled product that can be stored for years and rehydrated for cooking."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Chuño gave high-altitude communities a multi-year food reserve that buffered against the droughts and frosts that regularly disrupted Andean agriculture. The Inca state used chuño stored in highland warehouses (qollqas) to feed armies and drought-affected populations."
+          "label": "Explore further",
+          "text": "The recipe needs the brutal climate of the high altiplano, above about 12,500 feet (3,800 meters): potatoes are spread on the ground to freeze hard overnight (ideally around 23°F / -5°C or colder) and thaw under intense sun, repeated for several days, with people treading on them to squeeze the water out. That altitude requirement is the catch — you simply can't make chuño on the warm coast or in the jungle. The technique long predates the Inca; freeze-dried potato has turned up at the ruins of Tiwanaku near Lake Titicaca."
         }
-      ]
+      ],
+      "commonsFile": "Chuño.jpg"
     },
     {
       "id": "evt-early-andean-ayllu-organization",
       "label": "Ayllu Kinship Organization",
       "year": -2000,
-      "description": "The ayllu — a corporate kinship group sharing land, labor, and ritual obligations — was the fundamental social unit of Andean civilization, organizing collective work on agricultural terraces, irrigation canals, and monumental construction.",
+      "description": "The ayllu was the building block of Andean society: an extended clan that traced itself to a shared ancestor and jointly owned its land, pooling labor for the canals, terraces, and temples no single family could build alone.",
       "wikiSlug": "Ayllu",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Background",
-          "text": "The ayllu is an extended kinship group — somewhere between a clan and a village — whose members are connected by shared ancestry (real or mythological), shared land rights, and mutual labor obligations. Evidence for ayllu-like organization appears in the earliest Andean communities."
-        },
-        {
-          "label": "How It Worked",
-          "text": "Members of an ayllu owed each other labor (mit'a) for collective projects — farming, construction, ceremonies. In return, the ayllu collectively managed land, water, and herds. Leaders (curacas) managed redistribution rather than extracting taxes."
-        },
-        {
-          "label": "Legacy",
-          "text": "The ayllu organization persisted through all Andean states — Norte Chico, Chavín, Moche, Wari, Tiwanaku, and the Inca all worked through and on top of the ayllu structure rather than replacing it. It remains a functioning social institution in Andean communities today."
+          "label": "Explore further",
+          "text": "Ayllu is a word in both Quechua and Aymara, and membership ran through both the mother's and father's lines. The glue was reciprocity — ayni (one household helping another, to be repaid in kind) and, later under the Inca, mit'a (rotating labor owed to the state). Crucially, a dead founding ancestor wasn't just remembered but venerated as a huaca, a sacred power, sometimes kept as a mummy and consulted; the clan and its ancestor cult were the same institution."
         }
-      ]
+      ],
+      "commonsFile": "Machu_Picchu_Panorama_2025_(cropped).jpg"
     },
     {
       "id": "evt-early-andean-ancestor-veneration",
@@ -1137,80 +867,59 @@
       "label": "Chavín Influence Wanes",
       "year": -400,
       "endYear": -200,
-      "description": "Around 400–200 BCE, Chavín de Huántar's role as the dominant pan-Andean religious center declined, as regional cultures — particularly on the north coast and south coast — developed increasingly distinct identities that would define the next era.",
+      "description": "Between roughly 400 and 200 BCE, Chavín de Huántar lost its grip as the Andes' shared religious hub, and the unified pan-Andean world gave way to a patchwork of confident regional cultures.",
       "wikiSlug": "Chavin_culture#Decline",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Background",
-          "text": "Chavín de Huántar's influence appears to have peaked around 500–400 BCE and declined over the following two centuries. The exact cause is debated — possible factors include environmental change, internal political conflict, and the rise of competing regional centers."
-        },
-        {
-          "label": "What Happened",
-          "text": "The Chavín art style became less widespread and more regionally adapted. The north coast Cupisnique tradition developed distinctive local features. The south coast Paracas culture continued independently. By 200 BCE, the pan-Andean unity Chavín had created was fragmenting into regional diversity."
-        },
-        {
-          "label": "Legacy",
-          "text": "Chavín's decline did not erase what it had built: the Chavín religious vocabulary, trade networks, and concept of a pan-Andean sacred center all persisted and were adapted by successor cultures. The Moche, Nazca, Wari, and Tiwanaku all drew on the Chavín foundation."
+          "label": "Explore further",
+          "text": "Nobody is certain why it unraveled — the leading guesses cluster around years of drought, earthquakes, and the social strain they bring. As fewer pilgrims and traders made the long mountain trek, local people simply built their own ceremonial and trade centers closer to home, and power decentralized. By around 200 BCE the great temple was being abandoned and the region had fractured into small, independent communities, out of which the Moche on the north coast and the Nazca on the south would soon rise into full-blown regional powers."
         }
-      ]
+      ],
+      "commonsFile": "El_Lanzón.jpg"
     },
     {
       "id": "evt-early-andean-paracas-geoglyphs",
       "label": "Paracas Desert Lines",
       "year": -400,
-      "description": "Communities on the south coast of Peru began creating lines and geometric figures on the desert floor by clearing dark surface stones to reveal lighter sand beneath — a precursor to the famous Nazca Lines that would follow.",
+      "description": "On the south coast's stony desert, people began clearing dark surface rocks to expose the pale ground underneath, scratching out lines and figures — the warm-up act for the world-famous Nazca Lines.",
       "wikiSlug": "Nazca_Lines#History",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "The Paracas and Nazca areas of the south Peruvian coast are among the driest places on earth. Dark iron-oxide-coated stones cover a lighter desert floor — removing them exposes a high-contrast surface visible from the air or hills."
-        },
-        {
-          "label": "What Happened",
-          "text": "Paracas-period communities began creating geometric lines on the south coast desert floor by around 400 BCE. These early geoglyphs are cruder than the later Nazca Lines but establish the tradition of large-scale ground marking."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Nazca Lines — one of the world's most famous archaeological mysteries — grew directly from the Paracas geoglyph tradition. They were probably used for ritual walking and astronomical observation, expressing the Andean conception of landscape as sacred space."
+          "label": "Explore further",
+          "text": "The signature Paracas example is the Candelabra (El Candelabro), a roughly 595-foot (180-meter) branching figure carved about 2 feet (60 cm) deep into a hillside on the Paracas Peninsula and dated by nearby pottery to around 200 BCE. Unlike the inland Nazca figures, the Candelabra faces the sea and is best seen from a boat, which has fueled guesses that it served sailors as a landmark. Why any of these desert markings were made is still argued over — proposals range from astronomical sightlines to ritual walking paths to water-cult signs — and there's no settled answer."
         }
-      ]
+      ],
+      "commonsFile": "Peru_Candelabro_de_Paracas.jpg"
     },
     {
       "id": "evt-early-andean-warped-mummies",
       "label": "Paracas Necropolis Burials",
       "year": -200,
       "endYear": -100,
-      "description": "The Paracas Necropolis — a large communal burial site discovered on the Paracas Peninsula in 1927 — contained 429 mummy bundles, each wrapped in layers of exceptional embroidered textiles, representing the richest collection of pre-Columbian textiles ever found.",
+      "description": "The Paracas Necropolis, a slope crowded with cone-shaped funerary bundles on the peninsula, gave up 429 mummies — each one swaddled in layers of embroidered cloth, the richest haul of pre-Columbian textiles ever found.",
       "wikiSlug": "Paracas_culture",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Julio Tello discovered the Paracas Necropolis in 1927 during excavations on the Paracas Peninsula. The site contained a large subterranean chamber with 429 mummy bundles, some wrapped in more than 40 layers of textile."
-        },
-        {
-          "label": "The Burials",
-          "text": "Mummy bundles could be over a meter in diameter and weigh more than 150 kg due to the accumulating layers of fine textile. Each bundle contained the mummified body in a fetal position, surrounded by pottery, food offerings, and weaving tools. The textiles covering them are the most sophisticated pre-Columbian fabrics known."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Paracas Necropolis textiles are distributed across museums worldwide and provide the richest surviving record of Andean iconography and textile technique before the Nazca period. Their removal from Peru by Tello and others under dubious circumstances remains a subject of repatriation debate."
+          "label": "Explore further",
+          "text": "Julio C. Tello, Peru's pioneering archaeologist, ran the digs between 1925 and 1929; he hit the bottle-shaped \"Cavernas\" tombs first, then in 1927 his team uncovered the dense burial ground they called Wari Kayan, the Necropolis proper. Each bundle is a seated body packed into a basket and wrapped layer over layer, the wrappings growing larger and more lavishly embroidered toward the outside — so the bundle's size and finery broadcast the dead person's rank. The collection has had a rough modern afterlife: dozens of these textiles were smuggled out of Peru over the years, and Sweden's Gothenburg museum only began returning its looted Paracas pieces in the 2010s."
         }
-      ]
+      ],
+      "commonsFile": "Border_Fragment_MET_h1_1994.35.120.jpg"
     },
     {
       "id": "evt-early-andean-ruth-shady",
       "label": "Ruth Shady Solis",
       "year": 1946,
-      "description": "Ruth Shady Solis, a Peruvian archaeologist, led the excavations at Caral from 1994 onward, establishing its age and complexity and earning it recognition as the oldest city in the Americas — reshaping world understanding of the timeline of civilization.",
+      "description": "The Peruvian archaeologist who dug into the snubbed Supe Valley mounds in 1994 and proved they were one of the oldest cities on Earth — pushing back the timeline of American civilization by thousands of years.",
       "wikiSlug": "Ruth_Shady",
       "tier": 2,
       "tags": [
@@ -1219,66 +928,45 @@
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Ruth Shady Solis (born 1946) is a Peruvian archaeologist and director of the Caral Archaeological Zone. She began sustained excavations at Caral in 1994 after recognizing the site's significance from earlier survey work."
-        },
-        {
-          "label": "Role in Andean Archaeology",
-          "text": "Shady's radiocarbon dating of organic materials (including the quipu and charcoal) from Caral established dates of 2600–1800 BCE, making Caral the oldest known city in the Americas. Her 2001 Science paper brought Caral to worldwide attention."
-        },
-        {
-          "label": "Legacy",
-          "text": "Shady's work at Caral demonstrated that complex civilization in the Americas arose independently and earlier than previously recognized. She has also worked to protect the site and its surrounding landscape from agricultural encroachment."
+          "label": "Explore further",
+          "text": "Shady (born December 29, 1946) studied archaeology and education at the same time at Lima's San Marcos University, and her father stoked the interest by gifting her history books every birthday. Her work has come at a real cost: in 2002 she was shot in the chest by people tied to the land disputes that swirl around the site (looters, squatters, and agricultural interests all eye the valley). She was later named to the BBC's 100 Women list in 2020 and won Peru's L'Oréal-UNESCO national science prize in 2018."
         }
-      ]
+      ],
+      "commonsFile": "Ruth_Shady_en_Caral_2014_(cropped).JPG"
     },
     {
       "id": "evt-early-andean-chavin-oracle",
       "label": "Chavín as Oracle Center",
       "year": -700,
-      "description": "Chavín de Huántar functioned not only as a pilgrimage site but as an oracle — where priests consulted supernatural beings on behalf of communities, creating a system of religious authority that gave the site influence over distant regions.",
+      "description": "Beyond drawing pilgrims, Chavín worked as an oracle: priests delivered answers from the gods, giving the temple authority over far-flung communities who came to ask their questions.",
       "wikiSlug": "Chavín_de_Huántar#Religion",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "John Rick's analysis of Chavín's architecture and associated artifacts suggests a complex priestly institution that controlled access to the deity (the Lanzón), managed the psychotropic rituals within the galleries, and dispensed religious authority."
-        },
-        {
-          "label": "The System",
-          "text": "Priests at Chavín controlled the roaring gallery sounds, the lighting in the galleries, and the distribution of psychotropic substances — all elements that would have made the encounter with the supernatural deity overwhelming and convincing. Pilgrims who underwent initiation at Chavín returned to their communities as religious authorities."
-        },
-        {
-          "label": "Legacy",
-          "text": "Chavín's priestly institution created a model of religious expertise and specialist knowledge that influenced subsequent Andean cultures. The concept of a highland center where priests mediated between humans and supernatural beings recurred in Wari, Tiwanaku, and Inca religious systems."
+          "label": "Explore further",
+          "text": "The setup was tailor-made for it — total darkness, hallucinogens, thundering water, and a face-to-face with the glowing Lanzón gave a priest every tool to speak in the voice of the deity. The oracle role was a deep Andean tradition: thousands of years later the coastal shrine of Pachacamac was still so renowned that the conquering Spanish compared it to the Greek oracle at Delphi. In 2001, excavators recovered 20 ornately carved, still-playable conch-shell trumpets, the pututus that almost certainly supplied those oracular sounds."
         }
-      ]
+      ],
+      "commonsFile": "Chavín_de_Huántar_-_51149086708.jpg"
     },
     {
       "id": "evt-early-andean-cotton-twining",
       "label": "Cotton Twining at Huaca Prieta",
       "year": -2500,
-      "description": "Textile fragments from Huaca Prieta, dated to around 2500 BCE, show complex twined patterns including condors and snakes — demonstrating that the Andean tradition of encoding cosmological imagery in textiles began with the earliest known Peruvian fabrics.",
+      "description": "Cotton fabric scraps from Huaca Prieta, made by twisting threads together by hand (twining), carry stylized condors and snakes — among the oldest patterned textiles known anywhere.",
       "wikiSlug": "Huaca_Prieta#Textiles",
       "tier": 3,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Background",
-          "text": "The Huaca Prieta textiles, found by Junius Bird in the 1940s, are made of cotton and were twined (twisted) rather than woven on a loom. Despite their technical simplicity, they include recognizable motifs."
-        },
-        {
-          "label": "The Textiles",
-          "text": "Among the Huaca Prieta fragments are designs showing what appear to be stylized condors and crabs — two animals that would carry cosmological significance throughout Andean history. The condor represents the upper world; the crab may represent the sea and maritime abundance."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Huaca Prieta textiles show that the Andean practice of encoding cosmological imagery in fiber began at the very earliest stages of Peruvian civilization — more than 1,000 years before the elaborate Chavín stonework."
+          "label": "Explore further",
+          "text": "When conservators washed the soot-blackened scraps, some turned out blue: chemical analysis identified the pigment as indigo, the same dye behind modern blue jeans. At roughly 6,000 years old, it is the earliest confirmed use of indigo in the world, beating Egypt's oldest blue fabric by about 1,500 years. The dye came from a South American Indigofera plant, meaning Andean weavers worked out how to make cloth blue long before anyone in the Old World."
         }
-      ]
+      ],
+      "commonsFile": "Cloth_fragment,_cotton_and_bast,_c._2500_BC_-_Huaca_Prieta_-_DSC06148.JPG"
     },
     {
       "id": "evt-early-andean-panpipes",
@@ -1308,73 +996,52 @@
       "id": "evt-early-andean-andean-climate",
       "label": "El Niño and Andean Civilization",
       "year": -3000,
-      "description": "El Niño events — periodic disruptions of Pacific Ocean temperatures causing droughts in some Andean areas and floods in others — shaped the trajectory of Andean civilization, driving migration, encouraging storage systems, and possibly contributing to the decline of Norte Chico.",
+      "description": "El Niño is a periodic warming of the eastern Pacific that shuts off the cold Humboldt Current, starves the anchovy fishery, and dumps catastrophic rain on the world's driest coast — a recurring wrecking ball for the very civilizations the ocean's bounty had drawn to the shore.",
       "wikiSlug": "El_Niño",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "The El Niño-Southern Oscillation (ENSO) cycle causes major precipitation anomalies across the Andes and Peruvian coast every 2–7 years. Strong El Niño events bring drought to the highlands and destructive floods to coastal valleys."
-        },
-        {
-          "label": "The Impact",
-          "text": "Archaeological evidence suggests El Niño events affected Norte Chico agricultural systems. Large El Niño floods around 1800 BCE have been proposed as a contributing factor in the abandonment of coastal Preceramic sites."
-        },
-        {
-          "label": "Andean Adaptation",
-          "text": "Andean civilization adapted to ENSO variability through storage (chuño, dried fish), vertical ecological management (spreading risk across altitude zones), and communal redistribution. These adaptations made Andean communities unusually resilient to climate disruption."
+          "label": "Explore further",
+          "text": "The name (\"the boy child\" in Spanish, for the Christ child) comes from Peruvian fishermen, who noticed the warm water and vanishing catch tended to arrive around Christmas. The events recur irregularly, every two to seven years, with the worst ones decades or centuries apart. Because the same Humboldt upwelling that feeds the coast is exactly what El Niño switches off, the richest, most settled stretch of coast was also the most exposed — and several abrupt breaks in the archaeological record line up with severe El Niño flooding."
         }
-      ]
+      ],
+      "commonsFile": "NOAA_Nino.jpg"
     },
     {
       "id": "evt-early-andean-caiman-motif",
       "label": "Caiman Deity in Chavín Art",
       "year": -800,
-      "description": "The caiman (South American crocodilian) appears as a major supernatural being in Chavín iconography — depicted on the Tello Obelisk intertwined with agricultural plants — representing the link between water, earth, and agricultural fertility.",
+      "description": "The caiman — a South American crocodilian at home in both water and on land — became a major Chavín deity, its body sprouting crops to fuse the idea of the cosmos with the idea of the harvest.",
       "wikiSlug": "Chavín_de_Huántar#Iconography",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Caimans are native to the tropical jungle east of the Andes — the Amazon drainage. Their appearance as major supernatural figures in highland Chavín art demonstrates that the Chavín cult incorporated cosmological elements from the tropical lowlands."
-        },
-        {
-          "label": "The Imagery",
-          "text": "The Tello Obelisk depicts two caiman deities whose bodies are intertwined with manioc, peanuts, squash, and other agricultural plants — suggesting they represented the supernatural forces responsible for rain and agricultural fertility."
-        },
-        {
-          "label": "Legacy",
-          "text": "The caiman's presence in Chavín art reflects the Andean concept of the three-part cosmos: the upper world (condor), the middle world (jaguar/human), and the lower/underwater world (caiman/serpent). This tripartite cosmology persisted through all subsequent Andean cultures."
+          "label": "Explore further",
+          "text": "On the Tello Obelisk the caiman appears as a complementary pair often read as male and female: one linked to water, the underworld, and root crops, the other to the sky, an eagle, and seed plants. Reading the animal as a bridge between realms fit the Chavín worldview perfectly, since a creature equally at home submerged and on the bank embodies the permeable boundaries the whole art style obsesses over. The same fanged feline-and-reptile blending shows up in the temple's tenon heads — massive stone heads jutting from the upper walls."
         }
-      ]
+      ],
+      "commonsFile": "Detalles_del_Obelisco_Tello_01.jpg"
     },
     {
       "id": "evt-early-andean-condor-symbolism",
       "label": "Condor as Sacred Symbol",
       "year": -3000,
-      "description": "The Andean condor — the world's largest flying bird — was revered as a supernatural being associated with the upper world, the sun, and divine power from the earliest Andean sites, appearing in ritual contexts, artistic imagery, and bone instruments at Caral.",
+      "description": "The Andean condor — the largest flying bird in the Americas — was a sacred sky creature in Andean belief from the earliest sites onward, showing up in art, ritual, and even musical instruments.",
       "wikiSlug": "Andean_condor",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The Andean condor (Vultur gryphus) has a wingspan up to 3.3 m and soars on thermal currents to great heights. Its ability to fly above the highest peaks associated it with the upper world and the sun in Andean cosmology."
-        },
-        {
-          "label": "The Symbol",
-          "text": "Condor bones were used for musical instruments at Caral. Condor imagery appears in Paracas textiles, Chavín stone carvings, and throughout subsequent Andean art. In Inca cosmology, the condor was the messenger between humans and Inti (the sun god)."
-        },
-        {
-          "label": "Legacy",
-          "text": "The condor remains the national symbol of several South American countries and retains deep cultural and cosmological significance in Andean communities. Its appearance in Caral's bone instruments suggests this symbolism dates back 5,000 years."
+          "label": "Explore further",
+          "text": "At Caral, archaeologists found 32 flutes carved from condor and pelican bones, plus 37 cornets (small trumpets) made from deer and llama bones, dating to around 2200 BCE. They were unearthed beside a circular plaza where crowds could gather, and they are engraved with figures like bird-faced snakes and double-headed bird-and-snake creatures. Bird bones were favored for flutes precisely because birds, seeming to fly between heaven and earth, were treated as messengers of the sacred."
         }
-      ]
+      ],
+      "commonsFile": "AndeanCondorMale.jpg"
     },
     {
       "id": "evt-early-andean-mito-tradition",
@@ -1405,46 +1072,31 @@
       "id": "evt-early-andean-jaguar-symbolism",
       "label": "Jaguar as Power Symbol",
       "year": -1500,
-      "description": "The jaguar — the largest predator in South America — became the dominant symbol of power, shamanic transformation, and supernatural authority across Andean cultures, appearing in Chavín art as the primary transformation motif.",
+      "description": "The jaguar became the great power animal of Andean religion — a symbol of authority, the underworld, and the shaman's transformation into a beast. Its fanged face stares out of temple walls across the coast and would become the central motif of Chavín art.",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The jaguar (Panthera onca) ranges from the Amazonian lowlands to the cloud forest slopes of the Andes. It was the apex predator of the pre-Columbian Americas — capable of killing animals much larger than itself and moving between land and water."
-        },
-        {
-          "label": "The Symbol",
-          "text": "Chavín art frequently depicts the transformation of human faces into jaguar faces — mouths with downturned fangs, flared nostrils — representing the shaman's ability to access the jaguar's power. This transformation motif appears independently in Olmec art of the same period."
-        },
-        {
-          "label": "Legacy",
-          "text": "The jaguar as symbol of supernatural power and shamanic authority appears across the Americas from the Amazon basin to Mexico — one of the most widely shared religious symbols in the pre-Columbian world. In the Andes, it persisted through the Moche, Wari, and Inca cultures."
+          "label": "Explore further",
+          "text": "The jaguar is the biggest cat in the Americas and the third-largest on Earth, after the tiger and lion, with big males reaching around 6 feet (1.85 meters) in body length and topping out near 350 pounds (158 kg). Pound for pound it bites harder than any other big cat, jaws strong enough to punch through a skull or crack a turtle shell — which is why Andean shamans, who described \"becoming\" the jaguar in their visions, borrowed its teeth and skin as the costume of supernatural strength. Unlike most cats it's a confident swimmer and a creature of the night, traits that fed its reputation as a being of the jungle, water, and the world below."
         }
-      ]
+      ],
+      "commonsFile": "Chavín_-_Feline-and-Cactus_Stirrup_Vessel_-_Walters_482832.jpg"
     },
     {
       "id": "evt-early-andean-caral-no-warfare",
       "label": "Caral: No Evidence of Warfare",
       "year": -2600,
-      "description": "Decades of excavation at Caral and Norte Chico sites have found no weapons, no defensive walls, no massacre sites, and no artistic representations of warfare — suggesting over a millennium of complex urban society without organized conflict.",
+      "description": "After decades of digging, archaeologists have turned up no weapons, walls, massacre pits, or battle art at Caral — a complex city that seems to have run for over a thousand years without organized violence.",
       "wikiSlug": "Norte_Chico_civilization#Absence_of_warfare",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "Most complex societies leave clear evidence of organized warfare within a few centuries of urban development. Norte Chico is a striking exception — extensive excavation has found no fortifications, no weapons caches, no mass burials of battle victims."
-        },
-        {
-          "label": "The Evidence",
-          "text": "Ruth Shady's decades of excavation at Caral found no axes, maces, projectile points, or other weapon forms. No art depicts combat or captives. The only human remains show no trauma consistent with violence."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Norte Chico's apparent peacefulness challenges the assumption that warfare is inevitable in complex societies. The resource abundance created by the anchovy-cotton economy may have reduced inter-community competition to levels that did not require organized violence."
+          "label": "Explore further",
+          "text": "That blank record is so unusual that UNESCO leaned on it when it inscribed the site, praising Caral as proof a sophisticated society could flourish through trade, religion, and innovation without warfare. The closest parallel anywhere is the Indus Valley civilization on the far side of the planet, which is also strangely free of weapons and fortifications. Both could in principle just be gaps in what has been excavated — but at Caral the silence has held across two separate long-running dig projects (Shady's team and a rival American-led one)."
         }
       ]
     },
@@ -1452,236 +1104,187 @@
       "id": "evt-early-andean-preceramic-cotton",
       "label": "Cotton Domestication",
       "year": -3500,
-      "description": "Cotton (Gossypium barbadense) was domesticated on the Pacific coast of South America by at least 3500 BCE — one of the earliest crop domestications in the Americas and the foundation of the Norte Chico fishing economy.",
+      "description": "Coastal Peruvians domesticated a long-fibered native cotton, the raw material for the fishing nets, lines, and textiles that powered the desert-coast economy long before anyone there made a clay pot.",
       "wikiSlug": "Gossypium_barbadense",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Gossypium barbadense (Pima cotton) is native to tropical coastal South America. Its fiber properties make it ideal for fishing nets — strong when wet and resistant to salt water degradation."
-        },
-        {
-          "label": "The Domestication",
-          "text": "By 3500 BCE, cotton was being cultivated in the river valleys of the Peruvian coast specifically for fiber production, not for its seeds (which are edible but not a staple). Early Norte Chico communities invested heavily in cotton agriculture to supply nets for coastal fishing."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Cotton domestication was the economic foundation of Norte Chico civilization. The fiber-for-fish exchange is the only known case of a complex civilization arising without dependence on a grain staple, overturning older models of what was necessary for urban society."
+          "label": "Explore further",
+          "text": "The species is Gossypium barbadense, the same plant sold today as luxury \"pima\" or \"Egyptian\" cotton. Cultivated cotton has been dated to about 4200 BCE at Ancón on the central coast, and possibly-managed cotton turns up even earlier at inland sites like the Nanchoc valley in northern Peru. On the coast cotton mattered less as cloth to wear than as cordage — the nets and lines that let people harvest the sea, knotting the fishing economy and the farming economy together."
         }
-      ]
+      ],
+      "commonsFile": "Gossypium_barbadense.jpg"
     },
     {
       "id": "evt-early-andean-chavin-construction-phases",
       "label": "Chavín New Temple Construction",
       "year": -400,
-      "description": "The New Temple at Chavín de Huántar — a major expansion of the original Old Temple — was constructed around 400 BCE, featuring the Raimondi Stele and a broader system of galleries, expanding the site's capacity to host pilgrims.",
+      "description": "Around 500–400 BCE the temple at Chavín de Huántar got a major addition, the New Temple, enlarging the complex and its capacity to absorb pilgrims even as the wider network was starting to fray.",
       "wikiSlug": "Chavín_de_Huántar#Architecture",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Chavín de Huántar grew in stages. The Old Temple (c. 900–500 BCE) is the earlier structure containing the Lanzón gallery. The New Temple, built to its north around 400 BCE, significantly expanded the site."
-        },
-        {
-          "label": "The Expansion",
-          "text": "The New Temple added a new entrance plaza, a sunken rectangular court, and additional gallery systems. It could accommodate larger numbers of pilgrims than the Old Temple, suggesting an expansion of the cult's reach."
-        },
-        {
-          "label": "Legacy",
-          "text": "The two-phase construction of Chavín demonstrates sustained investment in the site over 700 years — evidence of its central importance to the pan-Andean religious system and the resources that could be mobilized through the pilgrimage economy."
+          "label": "Explore further",
+          "text": "Its grandest feature was the Black and White Portal, a monumental entrance whose lintel rested on two cylindrical columns — one of white granite, one of black limestone — a deliberate light-dark pairing echoing the Chavín love of dualities. The columns are carved with winged, bird-beaked supernatural figures, and the two sides are split between a hawk and an eagle, read as male and female. The lintel above ran a procession of alternating hawks and harpy eagles across its face."
         }
-      ]
+      ],
+      "commonsFile": "Portada_de_las_Falcónidas.jpg"
     },
     {
       "id": "evt-early-andean-wira-cocha",
       "label": "Staff God / Creator Deity",
       "year": -500,
-      "description": "The Staff God — a frontal-facing supernatural figure holding staffs in each raised hand — appears across the Andes in the Chavín period as the dominant divine image, representing a creator deity whose worship connected the pan-Andean world.",
+      "description": "A frontal supernatural figure gripping a staff in each raised hand — the single most important divine image of the Chavín world, and a template Andean religion would reuse for the next thousand-plus years.",
       "wikiSlug": "Staff_God",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The Staff God (also called the Gateway God after the image on the Gate of the Sun at Tiwanaku) is one of the most persistent religious images in Andean art — appearing from the Chavín Horizon through the Wari and Tiwanaku periods more than 1,500 years later."
-        },
-        {
-          "label": "The Image",
-          "text": "The Staff God is depicted frontally, wearing an elaborate headdress of stacked supernatural beings, and holding staffs (or serpent-headed objects) in both outstretched hands. The image combines jaguar, condor, and serpent elements — all three levels of the Andean cosmos."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Staff God's persistence across millennia and hundreds of kilometers of the Andes demonstrates the continuity of a core Andean religious cosmology. The figure may represent a creator deity whose worship tied together the diverse ecological zones of the Andean world."
+          "label": "Explore further",
+          "text": "The oldest known Staff God isn't from Chavín at all: it was found incised on broken gourd fragments in the Norte Chico region and radiocarbon-dated to around 2250 BCE, making it the oldest religious icon yet found in the Americas — meaning Chavín inherited the image rather than invented it. The same staff-bearing figure later dominates Tiwanaku's famous Gateway of the Sun and Wari art during the Middle Horizon (roughly 600–1000 CE). Many scholars see it as the ancestor of the later Andean creator god Viracocha."
         }
-      ]
+      ],
+      "commonsFile": "Crown_with_deity_figures_(Staff_God_at_front),_Chavin_style,_Peru_north_coast_or_highlands,_Early_Horizon,_c._400-300_BC,_gold_-_Dallas_Museum_of_Art_-_DSC04692.jpg"
     },
     {
       "id": "evt-eac-bandurria",
       "label": "Bandurria",
       "year": -3000,
       "endYear": -1800,
-      "description": "One of the earliest monumental sites in the Americas, Bandurria sat on the coast south of Caral with sunken circular plazas and platform mounds — proof that Norte Chico was a multi-site regional civilization, not a single city.",
+      "description": "A coastal Norte Chico site near Huacho, south of Caral, with its own platform mounds and sunken circular plazas — evidence that the early Peruvian coast held many cooperating centers, not one capital.",
       "wikiSlug": "Bandurria,_Peru",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Not Just Caral",
-          "text": "Bandurria was excavated decades before Caral but received far less attention. It had the same architectural vocabulary — sunken circular courts, platform mounds, terraced structures — in a coastal setting with direct access to marine resources. Along with Aspero, Huaricanga, and over a dozen other sites, Bandurria shows that Norte Chico was a distributed network of ceremonial centers, not a single capital."
-        },
-        {
-          "label": "Coastal Access",
-          "text": "Unlike Caral, which sits 14 miles inland in the Supe Valley, Bandurria was directly on the coast. Its economy leaned harder on marine resources — shellfish, anchovy, sardine — and its position suggests it may have been a key node in the coastal-inland exchange network that kept the Norte Chico system running."
+          "label": "Explore further",
+          "text": "Bandurria was first identified in 1973, but it sat in Caral's shadow until Alejandro Chu launched major excavations in 2005. Some radiocarbon results place its ceremonial architecture back around 3200 BCE, which would make it older than Caral itself, and Chu has called it the oldest radiocarbon-dated ceremonial site in the Americas. It sits on the Huaura River about 2 miles (3 km) from the modern town of Huacho."
         }
-      ]
+      ],
+      "commonsFile": "Bandurria_Templo_Tardío_plaza_circular.JPG"
     },
     {
       "id": "evt-eac-supe-valley-system",
       "label": "Supe Valley: 19 Monumental Sites",
       "year": -2800,
-      "description": "The Supe Valley alone contained at least 19 monumental sites contemporary with Caral — the densest concentration of early architecture in the Americas, all apparently cooperating within a shared ceremonial and economic system.",
+      "description": "Caral wasn't alone — the same small valley held at least 19 monumental sites built in the same era, the densest cluster of early public architecture anywhere in the Americas.",
       "wikiSlug": "Norte_Chico_civilization",
       "tier": 1,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "An Entire Civilization in One Valley",
-          "text": "When Ruth Shady and her colleagues surveyed the Supe Valley in the 1990s and 2000s, they found not one but nineteen sites with monumental architecture dating to the 3rd millennium BCE. The sites ranged from small single-mound centers to Caral's full complex of six pyramids. All of them shared the same architectural grammar — sunken circular plazas, platform mounds, shicra-bag construction — and none of them showed signs of warfare or fortification."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Nineteen cooperating ceremonial centers in a single river valley, maintained for over a thousand years without apparent warfare, is an organizational achievement that has no parallel in the early Americas and few parallels anywhere in the ancient world. The Norte Chico people solved the coordination problem — how to organize thousands of people across dozens of sites — without writing, without pottery, and without coercion (or at least without the archaeological signatures of coercion). How they did it remains one of the great open questions."
+          "label": "Explore further",
+          "text": "The whole network ran on a barter loop Shady mapped out: inland farmers grew cotton, traded it downriver to coastal villages who twisted it into fishing nets, and got back dried anchovies and other seafood to feed the crews hauling stone for the mounds. The sites all share the same toolkit — sunken circular plazas, stepped platform mounds, and shicra-bag fill — which is why archaeologists read them as one cooperating civilization rather than 19 rivals. American archaeologists Jonathan Haas and Winifred Creamer, running a separate survey of the broader Norte Chico region, independently confirmed the same dense web of Late Archaic sites."
         }
-      ]
+      ],
+      "commonsFile": "Peru_site_locations.png"
     },
     {
       "id": "evt-eac-el-paraiso",
       "label": "El Paraíso Temple Complex",
       "year": -1800,
-      "description": "El Paraíso was a massive stone-and-clay temple complex on the central coast near modern Lima — one of the largest constructions in the ancient Americas at the time of its use, and a bridge between the Norte Chico tradition and the U-shaped ceremonial centers that followed.",
+      "description": "El Paraíso (also called Chuquitanta) sprawled across the Chillón Valley north of modern Lima — a stone complex of about a dozen mounds whose rough U-shaped layout pointed straight at the ceremonial template that would rule the coast for the next thousand years.",
       "wikiSlug": "El_Para%C3%ADso,_Peru",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Scale",
-          "text": "El Paraíso covers roughly 150 acres (60 hectares) and includes at least 13 mounds arranged in a rough U-shape around a central plaza. Some of the mounds are 30 feet (9 meters) tall. The complex was built and rebuilt over several centuries, using quarried stone and clay mortar, by a population that still lacked pottery. It is one of the last major monuments of the pre-ceramic era."
-        },
-        {
-          "label": "The U-Shape Begins",
-          "text": "El Paraíso's layout — mounds arranged around three sides of a central open space, with the fourth side open toward the east or the mountains — anticipates the classic U-shaped ceremonial centers of the Initial Period. The architectural transition from Norte Chico's circular plazas to the Initial Period's U-shapes may have happened here, on the central coast, in the centuries around 1800 BCE."
+          "label": "Explore further",
+          "text": "It was built with no mortar at all: fieldstone simply laid up in clay, then often slathered with clay plaster. The site sits right on the seam of the Late Preceramic and Initial Period, roughly 2100 to 1800 BCE, which is why it reads as a bridge between Caral's world and what came next. One excavated mound turned out to be shaped like a condor head, its eye a charcoal-burned pit for offerings — and the bird was aligned with the most extreme rising point of the Milky Way as seen from the valley."
         }
-      ]
+      ],
+      "commonsFile": "Pirámide_principal_del_sitio_arqueológico_El_Paraiso-Perú_2.jpg"
     },
     {
       "id": "evt-eac-cerro-sechin",
       "label": "Cerro Sechín Stone Reliefs",
       "year": -1700,
-      "description": "The outer wall of the temple at Cerro Sechín in the Casma Valley is lined with over 300 carved stone panels showing graphic scenes of dismembered bodies, severed heads, exposed entrails, and victorious warriors — the earliest monumental depiction of warfare or sacrifice in the Americas.",
+      "description": "A few hundred yards from the colossus of Sechin Alto, somebody wrapped a temple in roughly 300 carved stone slabs showing triumphant warriors marching past severed heads, spilled guts, and stacked limbs — the oldest monumental scene of violence in the Americas.",
       "wikiSlug": "Cerro_Sech%C3%ADn",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "A Wall of Body Parts",
-          "text": "The carved stones at Cerro Sechín show warriors in profile — standing upright, carrying clubs, wearing headdresses — alternating with their victims: headless torsos, severed arms, legs, and heads, spilled intestines, stacked body parts. The carvings are not abstract or ambiguous. They are a literal catalogue of violence, displayed on the public-facing exterior wall of a temple where everyone approaching the building would see them."
-        },
-        {
-          "label": "The End of the Peaceful Theory",
-          "text": "Caral's famous 'no evidence of warfare' has led some scholars to argue that early Andean civilization was fundamentally peaceful. Cerro Sechín, roughly contemporary with the last phase of Caral and only 120 miles (190 km) to the north, makes that argument harder to sustain. If the Initial Period temples were built by societies that never fought, who are the warriors on the wall? The most likely answer: the absence of warfare evidence at some sites does not mean warfare was absent from the civilization."
-        },
-        {
-          "label": "Artistic Significance",
-          "text": "The Cerro Sechín reliefs are carved in a flat, outline style very different from the curvilinear Chavín art that would dominate Peru a few centuries later. They represent an older, simpler artistic tradition — direct, legible, and brutal. Julio Tello, who first excavated the site in 1937, recognized immediately that it predated Chavín and represented a distinct cultural tradition."
+          "label": "Explore further",
+          "text": "The carvings are anatomically exact, distinguishing stomachs, kidneys, vertebrae, and intestines, which tells you the carvers knew exactly what a butchered body looked like. The figures sort into just two types: warrior-priests holding clubs or staffs, and their dismembered victims, reduced to body parts. The reliefs date to around 1600 BCE, making them over 3,600 years old, and they belong to the local Casma-Sechín culture rather than the later, swirlier Chavín style."
         }
-      ]
+      ],
+      "commonsFile": "Sechín_Archaeological_site_-_relief_(warrior).jpg"
     },
     {
       "id": "evt-eac-cardal",
       "label": "Cardal U-Shaped Center",
       "year": -1400,
-      "description": "Cardal was a classic U-shaped ceremonial center in the Lurín Valley near modern Lima, with a central mound facing a sunken circular plaza flanked by two long lateral wings. Its clay frieze of a fanged face — half-human, half-feline — is one of the earliest representations of the supernatural imagery that would later dominate Chavín art.",
+      "description": "Cardal was a U-shaped ceremonial center in the Lurín Valley south of Lima, smaller than Garagay but far better preserved. Its central mound carried a giant clay frieze of a fanged, half-feline face — one of the clearest early versions of the supernatural imagery that Chavín would later make famous.",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "The Fanged Face",
-          "text": "The Cardal frieze shows a large face modeled in painted clay on the interior wall of the main mound. The face has human features — eyes, nose, mouth — but the mouth is filled with interlocking fangs, and the overall effect is feline and menacing. This fanged-face motif will reappear, in increasingly elaborate forms, at Garagay, at Cupisnique sites, and ultimately at Chavín de Huántar, where it becomes the face of the Lanzón. Cardal may be where the tradition starts."
-        },
-        {
-          "label": "The U-Shape Explained",
-          "text": "U-shaped ceremonial centers are arranged with a tall central mound at the back (the 'base' of the U) and two long, lower mounds extending forward from it on each side, enclosing a sunken courtyard. The open end of the U typically faces east, toward the Andes. The layout creates an intimate, enclosed ritual space — a kind of outdoor theater with the main mound as the stage. Dozens of these centers were built on the central and north coast of Peru between roughly 1800 and 800 BCE."
+          "label": "Explore further",
+          "text": "Radiocarbon dates put Cardal's main life between roughly 1150 and 800 BCE, before most Chavín-style features show up on the coast — exactly the timing that flips the old idea of Chavín as the \"mother culture.\" Yale archaeologists Richard Burger and Lucy Salazar dug here starting in 1985, and in 2018 they uncovered a painted frieze that an earlier generation had deliberately buried under a new circular plaza, in the Andean habit of entombing one temple inside the next rather than tearing it down. The best-known frieze is an enormous grinning mouth packed with interlocking fangs — quite literally a doorway shaped like a god's jaws."
         }
-      ]
+      ],
+      "commonsFile": "Cardal,_Distrito_de_Pachacamac_03.jpg"
     },
     {
       "id": "evt-eac-garagay",
       "label": "Garagay Temple",
       "year": -1400,
-      "description": "Garagay was the largest U-shaped ceremonial center in the Rímac Valley (now buried under suburban Lima), with polychrome clay friezes of supernatural fanged faces and spiders on its main mound — the most elaborate architectural decoration of the Initial Period.",
+      "description": "Garagay was one of the largest U-shaped temples on Peru's central coast, sitting in the Rímac Valley where Lima now sprawls. Its main mound was decorated with brightly painted clay friezes of fanged supernatural beings with spider features.",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Buried Under Lima",
-          "text": "Garagay once dominated the lower Rímac Valley, the same valley where Lima now sprawls. Its main mound was over 75 feet (23 meters) tall, making it one of the largest structures in Peru at the time. Urban development has destroyed most of the site, but the painted clay friezes that were recovered before demolition are among the finest examples of Initial Period art."
-        },
-        {
-          "label": "Polychrome Friezes",
-          "text": "Unlike the monochrome stone reliefs at Cerro Sechín, Garagay's decorations were modeled in clay and painted in multiple colors — red, white, black, and yellow. The subjects are supernatural faces with fangs, interlocking teeth, and radiating appendages that may represent hair, tentacles, or spider legs. The style is transitional between the earlier Initial Period conventions and the full Chavín style that would emerge a few centuries later."
+          "label": "Explore further",
+          "text": "The temple stood about 5 miles (8 km) inland from the Pacific, and its central pyramid-platform rose roughly 75 feet (23 meters) above an open plaza covering around 22 acres. When archaeologists cleared the central atrium in 1974, they found murals painted in mineral pigments — yellow, white, red, pink, and grayish blue. Spiders weren't a random choice: in later Andean belief spiders were tied to predicting rain, so a temple full of spider-faced gods in a bone-dry coastal valley was probably a place to pray for the water that fed the irrigation canals."
         }
-      ]
+      ],
+      "commonsFile": "Garagay_altorrelieve_polícromo.JPG"
     },
     {
       "id": "evt-eac-chavin-galleries",
       "label": "Chavín Underground Gallery System",
       "year": -850,
-      "description": "Beneath the temple mounds of Chavín de Huántar lies a network of narrow stone-lined galleries, ventilation shafts, and water channels — a deliberately disorienting underground labyrinth where pilgrims, possibly under the influence of San Pedro cactus, encountered the Lanzón monolith in pitch darkness.",
+      "description": "Inside the temple mounds runs a branching maze of narrow, pitch-black stone tunnels, vents, and water channels. Pilgrims, likely dosed with the mescaline-bearing San Pedro cactus, were walked through it to meet the Lanzón.",
       "wikiSlug": "Chav%C3%ADn_de_Hu%C3%A1ntar",
       "tier": 1,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "The Labyrinth",
-          "text": "The galleries are about 3 feet (1 meter) wide and 6 feet (1.8 meters) tall — cramped enough that you have to duck, narrow enough that your shoulders brush the walls. They branch, dead-end, and reconnect in patterns that are confusing even with a map. The stone walls are dressed and fitted. Ventilation shafts pierce upward through the mound to the surface, and water channels run through the floors, carrying diverted river water that fills the galleries with a constant echoing roar."
-        },
-        {
-          "label": "Sensory Manipulation",
-          "text": "Archaeologists Rick and Lucy Burger have argued that the gallery system was designed as a total sensory experience. A pilgrim entering the galleries — in the dark, possibly hallucinating from San Pedro mescaline, hearing water roaring through invisible channels, feeling the walls close in — would eventually arrive at the Lanzón monolith, lit by a single shaft of light from above. The encounter was engineered to be overwhelming. The Lanzón's grin, seen under those conditions, would have been terrifying."
+          "label": "Explore further",
+          "text": "The passages are tight enough that a person has to duck and turn sideways, and they were built to confuse — branching, dead-ending, and doubling back. Only a single shaft pierces the ceiling above the Lanzón, dropping one column of daylight onto the idol so it appears to glow in the dark. Carved stone heads called tenon heads (named for the long stone peg that plugged each one into the outer wall like a bracket) once ringed the building's exterior, showing human faces warping into snarling jaguars; today just one still clings to the wall where it was set."
         }
-      ]
+      ],
+      "commonsFile": "El-lanzon.JPG"
     },
     {
       "id": "evt-eac-paracas-cranial",
       "label": "Paracas Cranial Modification",
       "year": -600,
-      "description": "The Paracas people practiced deliberate cranial modification — binding infants' heads with boards or cloth wraps during the first years of life to produce dramatically elongated skull shapes. The practice was a visible marker of ethnic or social identity and continued in the Andes for over a thousand years.",
+      "description": "Paracas families bound their infants' heads with boards and cloth wraps while the skull bones were still soft, permanently molding them into long, conical shapes that marked who you were and where you came from.",
       "wikiSlug": "Artificial_cranial_deformation",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "How It Worked",
-          "text": "Cranial modification was performed on infants, whose skull bones are still soft and malleable. The head was bound between two flat boards (producing a tall, flat-backed shape) or wrapped in tight cloth bands (producing a conical shape). The process was gradual, applied over the first two to three years of life, and produced permanent results. It did not damage the brain — the skull simply grew into the shape imposed by the binding."
-        },
-        {
-          "label": "Identity Marker",
-          "text": "Not all Paracas skulls are modified, and different modification styles appear in different cemeteries, suggesting that the practice distinguished between social groups, families, or communities. In later Andean cultures (Tiwanaku, Wari, Inca), cranial modification continued to serve as a marker of ethnic identity — you could tell where someone was from by the shape of their head. Paracas is the earliest Andean culture where the practice is well documented."
+          "label": "Explore further",
+          "text": "Because the binding starts in the first months of life, when the bones are most pliable, and runs for several years, the result is irreversible — but CT scans, DNA work, and morphology studies all confirm the brain inside is ordinary in size and structure, just housed in a differently shaped skull. (That ordinariness hasn't stopped the elongated Paracas skulls from becoming a favorite of \"ancient aliens\" theorists, a claim the science flatly rejects.) Different communities favored different shapes, so the head doubled as a permanent ID card, and the practice persisted in the Andes for well over a thousand years."
         }
-      ]
+      ],
+      "commonsFile": "Head_Shaping.jpg"
     },
     {
       "id": "evt-eac-ventarron",
@@ -1703,19 +1306,15 @@
       "id": "evt-eac-caballo-muerto",
       "label": "Caballo Muerto — Huaca de los Reyes",
       "year": -1500,
-      "description": "The Huaca de los Reyes at Caballo Muerto in the Moche Valley was an Initial Period temple decorated with massive adobe heads — 6-foot-tall faces with bulging eyes and bared fangs — built into the facade of the building, creating one of the most dramatic visual displays of supernatural power in pre-Chavín Peru.",
+      "description": "The Huaca de los Reyes (\"Temple of the Kings\") was the showpiece of the Caballo Muerto complex in the Moche Valley on Peru's north coast. Its facade carried rows of huge three-dimensional adobe heads with bulging eyes and bared fangs, so visitors walked a gauntlet of giant gods staring down at them.",
       "wikiSlug": "Caballo_Muerto",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Faces on the Wall",
-          "text": "The facade of Huaca de los Reyes was decorated with rows of oversized heads modeled in adobe and painted — each about 6 feet (1.8 meters) tall, with staring circular eyes, wide mouths full of fangs, and radiating hair or headdress elements. The heads flanked the entrance to the temple's inner court, so anyone approaching the building walked between rows of giant supernatural faces staring down at them."
-        },
-        {
-          "label": "The Cupisnique Connection",
-          "text": "Caballo Muerto sits in the Moche Valley on the north coast, in the heart of what archaeologists call the Cupisnique zone — the region where the fanged-deity iconography that would later characterize Chavín art seems to have first crystallized. The Huaca de los Reyes heads, with their interlocking fangs and frontal stare, are stylistic ancestors of the Chavín Lanzón. The artistic tradition may have flowed from the coast to the highlands, not the other way around."
+          "label": "Explore further",
+          "text": "Archaeologists Thomas and Shelia Pozorski investigated the Caballo Muerto sites in 1973–74; the temple dates to the Initial Period, very roughly 1800–900 BCE. Its friezes actually come in two flavors — stylized human-style heads and full standing figures — and the sheer labor and careful planning behind them tell archaeologists this was a society with real rank and hierarchy, not a loose village. The mud-brick faces are stylistically so close to the carved gods that later appear at Chavín de Huántar in the highlands that many researchers think the imagery traveled uphill from the coast, not the other way around."
         }
       ]
     }
