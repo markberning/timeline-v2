@@ -41,7 +41,7 @@ export const FRENCH_INDIAN: WarConfig = {
     { id: 'pitts-turn', kind: 'phase', label: "Pitt's Turn", short: "Pitt's Turn", href: '/war-french-indian/pitts-turn', ready: true, color: { light: '#b3852f', dark: '#d8b25a', dot: '#b3852f' }, mapHex: '#d8b25a' },
     { id: 'conquest', kind: 'phase', label: 'The Conquest of Canada', short: 'Conquest', href: '/war-french-indian/conquest', ready: true, color: { light: '#2c7d99', dark: '#5fb0cc', dot: '#2c7d99' }, mapHex: '#5fb0cc' },
     { id: 'peace-fuse', kind: 'phase', label: 'The Peace and Its Fuse', short: 'The Peace', href: '/war-french-indian/peace-fuse', ready: true, color: { light: '#8a5b86', dark: '#c79cd0', dot: '#8a5b86' }, mapHex: '#c79cd0' },
-    { id: 'offfield', kind: 'offfield', label: 'Off the Battlefield', short: 'Off-Field', href: '/war-french-indian/off-the-battlefield', ready: false, color: { light: '#c2611f', dark: '#e07f3c', dot: '#d96a26' }, mapHex: '#d96a26' },
+    { id: 'offfield', kind: 'offfield', label: 'Off the Battlefield', short: 'Off-Field', href: '/war-french-indian/off-the-battlefield', ready: true, color: { light: '#c2611f', dark: '#e07f3c', dot: '#d96a26' }, mapHex: '#d96a26' },
   ],
   // Grouped by phase (theatre = phase id). hook/href/img set at build time.
   battles: [
@@ -67,14 +67,14 @@ export const FRENCH_INDIAN: WarConfig = {
   // Off the battlefield — the heart of this war (weighted at least as heavily as the
   // battles). type uses the same vocabulary as the Civil War themes.
   themes: [
-    { id: 'fi-ohio-company', name: 'The Ohio Country & the Ohio Company', phase: 'causes', type: 'CAUSE', size: 'l', date: '1748–1754', year: 1750, m: 1 },
-    { id: 'fi-native-alliances', name: 'The Contest for Native Alliances', phase: 'causes', type: 'SOCIETY', size: 'l', date: '1754–1763', year: 1754, m: 1 },
-    { id: 'fi-albany-plan', name: 'The Albany Congress & the Plan of Union', phase: 'causes', type: 'POLITICS', size: 'm', date: '1754', year: 1754, m: 6 },
-    { id: 'fi-acadian-expulsion', name: 'The Acadian Expulsion', phase: 'hard', type: 'AFTERMATH', size: 'l', date: '1755–1764', year: 1755, m: 8 },
-    { id: 'fi-regulars-provincials', name: 'Regulars & Provincials', phase: 'hard', type: 'SOCIETY', size: 'm', date: '1754–1763', year: 1756, m: 1 },
-    { id: 'fi-war-finance', name: 'War Finance & the Road to Taxation', phase: 'after', type: 'POLITICS', size: 'l', date: '1763–1765', year: 1763, m: 6 },
-    { id: 'fi-treaty-paris', name: 'The Treaty of Paris & the Proclamation Line', phase: 'after', type: 'POLITICS', size: 'm', date: '1763', year: 1763, m: 2 },
-    { id: 'fi-pontiac', name: "Pontiac's War & the Aftermath for Native Nations", phase: 'after', type: 'AFTERMATH', size: 'l', date: '1763–1766', year: 1763, m: 5 },
+    { id: 'fi-ohio-company', name: 'The Ohio Country & the Ohio Company', short: 'The Ohio Country', phase: 'causes', type: 'CAUSE', size: 'l', date: '1748–1754', year: 1750, m: 1, href: '/war-french-indian/off-the-battlefield/ohio-company' },
+    { id: 'fi-native-alliances', name: 'The Contest for Native Alliances', short: 'Native Alliances', phase: 'causes', type: 'SOCIETY', size: 'l', date: '1754–1763', year: 1754, m: 1, href: '/war-french-indian/off-the-battlefield/native-alliances' },
+    { id: 'fi-albany-plan', name: 'The Albany Congress & the Plan of Union', short: 'The Albany Congress', phase: 'causes', type: 'POLITICS', size: 'm', date: '1754', year: 1754, m: 6, href: '/war-french-indian/off-the-battlefield/albany-plan' },
+    { id: 'fi-acadian-expulsion', name: 'The Acadian Expulsion', short: 'The Acadian Expulsion', phase: 'hard', type: 'AFTERMATH', size: 'l', date: '1755–1764', year: 1755, m: 8, href: '/war-french-indian/off-the-battlefield/acadian-expulsion' },
+    { id: 'fi-regulars-provincials', name: 'Regulars & Provincials', short: 'Regulars & Provincials', phase: 'hard', type: 'SOCIETY', size: 'm', date: '1754–1763', year: 1756, m: 1, href: '/war-french-indian/off-the-battlefield/regulars-provincials' },
+    { id: 'fi-war-finance', name: 'War Finance & the Road to Taxation', short: 'War Finance', phase: 'after', type: 'POLITICS', size: 'l', date: '1763–1765', year: 1763, m: 6, href: '/war-french-indian/off-the-battlefield/war-finance' },
+    { id: 'fi-treaty-paris', name: 'The Treaty of Paris & the Proclamation Line', short: 'The Treaty of Paris', phase: 'after', type: 'POLITICS', size: 'm', date: '1763', year: 1763, m: 2, href: '/war-french-indian/off-the-battlefield/treaty-of-paris' },
+    { id: 'fi-pontiac', name: "Pontiac's War & the Aftermath for Native Nations", short: "Pontiac's War", phase: 'after', type: 'AFTERMATH', size: 'l', date: '1763–1766', year: 1763, m: 5, href: '/war-french-indian/off-the-battlefield/pontiacs-war' },
   ],
   // The war-story spine — one chapter per phase (each phase's narrative).
   chapters: [
