@@ -1981,32 +1981,25 @@
       "id": "evt-battle-muye",
       "label": "Battle of Muye",
       "year": -1046,
-      "description": "King Wu of Zhou defeated the Shang at Muye, founding the Zhou Dynasty. The victory was later interpreted as Heaven transferring its mandate from a corrupt dynasty to a virtuous one.",
+      "description": "In 1046 BCE, King Wu of Zhou led roughly 45,000 troops against the much larger Shang army at Muye (in modern Henan), routing them in a single engagement and ending five centuries of Shang rule. The Shang king Di Xin retreated to his palace and died in the fire, closing the book on China's second dynasty.",
       "wikiSlug": "Battle_of_Muye",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "The last Shang king, Di Xin, had become notorious for cruelty and excess. King Wu of Zhou assembled a coalition of western tribes and rival lords who resented Shang dominance."
-        },
-        {
-          "label": "The Battle",
-          "text": "At the plain of Muye, Zhou forces decisively defeated the Shang army. According to tradition, Shang troops turned their weapons around and surrendered or joined the Zhou. Di Xin set his palace on fire and died in the flames."
-        },
-        {
-          "label": "Casualties & Aftermath",
-          "text": "The battle ended over 500 years of Shang rule and launched the longest dynasty in Chinese history. Zhou's victory was framed as Heaven withdrawing its mandate from the immoral Shang — a political concept that endured 3,000 years."
+          "label": "Explore further",
+          "text": "Many of Di Xin's 170,000-strong force were reportedly slaves and prisoners pressed into service, which may explain why large numbers defected or simply turned their weapons around when the Zhou attacked. King Wu's military coalition that day included eight allied western states, not just Zhou warriors. The specific date January 20, 1046 BCE comes from the Chinese government's Xia-Shang-Zhou Chronology Project, a massive 1990s research effort to pin exact years to Bronze Age events using astronomical records."
         }
-      ]
+      ],
+      "commonsFile": "Battle_of_Muye.jpg"
     },
     {
       "id": "evt-king-wu",
       "label": "King Wu of Zhou",
       "year": -1046,
       "endYear": -1043,
-      "description": "King Wu founded the Zhou Dynasty after defeating the Shang, then distributed fiefs to relatives and allies, establishing the feudal system that defined the Western Zhou.",
+      "description": "King Wu of Zhou — born around 1097 BCE, ruled 1046–1043 BCE — overthrew the Shang, distributed territory to relatives and loyal allies, and launched the feudal system that would define Chinese politics for centuries, before dying just three years into his reign.",
       "wikiSlug": "King_Wu_of_Zhou",
       "tier": 1,
       "tags": [
@@ -2016,40 +2009,25 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "King Wu (Ji Fa) was the son of King Wen of Zhou, who had spent years building the coalition that would overthrow the Shang. Wu carried out his father's ambition, leading the alliance to victory at Muye."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "After the conquest, King Wu distributed fiefs to relatives, loyal nobles, and descendants of ancient sage-kings, creating the feudal system (fengjian) that structured Chinese society for centuries. He died just three years into his reign."
-        },
-        {
-          "label": "Legacy",
-          "text": "King Wu was revered as the ideal warrior-king who overthrew tyranny with Heaven's blessing. His early death left his young son King Cheng under the regency of the Duke of Zhou, who became equally legendary."
+          "label": "Explore further",
+          "text": "King Wu's father, King Wen of Zhou, had already done years of groundwork building alliances and legitimacy before the conquest — Wu inherited a coalition ready to strike. Wu reportedly wept after Muye, saying victory brought him no joy because it had required killing. He died in 1043 BCE, leaving a child heir and an empire that was still a military occupation rather than a settled state."
         }
-      ]
+      ],
+      "commonsFile": "King_Wu_of_Zhou_Dynasty.jpg"
     },
     {
       "id": "evt-mandate-heaven",
       "label": "Mandate of Heaven Doctrine",
       "year": -1046,
-      "description": "The Zhou justified their conquest by arguing that Heaven (Tian) grants the right to rule based on virtue, not heredity — a revolutionary political concept that shaped Chinese governance for 3,000 years.",
+      "description": "The Mandate of Heaven (tianming) was the Zhou's answer to a legitimacy crisis: Heaven grants the right to rule conditionally, to virtuous rulers who care for the people — and withdraws it from corrupt ones, signaled by floods, famines, and rebellions. Any successful overthrow was, by definition, proof that Heaven willed the change.",
       "wikiSlug": "Mandate_of_Heaven",
       "tier": 1,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The Zhou needed to justify overthrowing the ancient Shang dynasty without undermining the very concept of dynastic legitimacy. Their answer was to argue that Heaven (Tian) grants, and can withdraw, the right to rule."
-        },
-        {
-          "label": "The Teaching",
-          "text": "Heaven bestows the mandate on virtuous rulers who govern justly. When rulers become corrupt and the people suffer, Heaven signals displeasure through natural disasters, rebellions, and military defeats — and transfers the mandate to a worthier family."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Mandate of Heaven became the foundational political philosophy of Chinese civilization. Every subsequent dynasty used it to justify their rise; every rebel used it to justify revolt. The concept shaped Chinese political thought for over 3,000 years."
+          "label": "Explore further",
+          "text": "The concept spread beyond China to Korea, Vietnam, and Japan, each adapting it to local political conditions. When 18th-century Jesuit missionaries brought accounts of tianming back to Europe, Enlightenment philosophers like Voltaire were struck by how closely it resembled the social-contract theory of government they were developing independently. The doctrine also cut against rulers: Chinese emperors performed public acts of moral self-examination after natural disasters as proof they still held Heaven's confidence — something no Roman emperor was expected to do."
         }
       ]
     },
@@ -2057,23 +2035,15 @@
       "id": "evt-feng-hao-capitals",
       "label": "Feng-Hao Twin Capitals",
       "year": -1046,
-      "description": "The Zhou built twin capitals at Feng and Hao near modern Xi'an — Feng as the ceremonial center and Hao as the administrative capital — establishing a model of dual capitals used throughout Chinese history.",
+      "description": "The Zhou's twin capitals — Feng on the west bank and Hao on the east bank of the Feng River, near modern Xi'an in Shaanxi — divided royal functions between them: Feng held the ancestral shrines and royal gardens, while Hao housed the palace and government administration.",
       "wikiSlug": "Fenghao",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "After the conquest of Shang, King Wu established his seat of power near the Zhou homeland in the Wei River valley. The site consisted of two adjacent walled cities on opposite banks of the Feng River, west of modern Xi'an."
-        },
-        {
-          "label": "The Structure",
-          "text": "Feng served as the ritual and religious capital — home to ancestral temples and royal cemeteries. Hao, across the river, was the administrative center where the Zhou king held court, received vassals, and conducted state business."
-        },
-        {
-          "label": "Legacy",
-          "text": "The dual-capital concept — separating ceremonial from administrative functions — recurred throughout Chinese history. When nomads sacked Hao in 771 BCE, the Zhou moved to Luoyang, ending the Western Zhou period."
+          "label": "Explore further",
+          "text": "King Wen (Wu's father) founded the first city, Feng, around 1051 BCE before the conquest was complete, making it a planning headquarters as much as a capital. The twin-city model proved practical enough that the Zhou maintained it for nearly three centuries, and the idea of paired capitals (one ceremonial, one administrative) recurred throughout Chinese history. When nomadic pressure from the northwest finally forced the Zhou to abandon the region in 771 BCE, they moved to the eastern capital at Luoyi and never returned — the Wei River valley remained a frontier zone for another five centuries until the Qin dynasty rose there."
         }
       ]
     },
@@ -2082,7 +2052,7 @@
       "label": "Duke of Zhou",
       "year": -1042,
       "endYear": -1036,
-      "description": "The Duke of Zhou served as regent for the young King Cheng, crushed a rebellion, established the eastern capital at Luoyang, and then voluntarily returned power — the model of the virtuous minister.",
+      "description": "Ji Dan — the Duke of Zhou, King Wu's younger brother — served as regent for the child-king Cheng from roughly 1042 to 1035 BCE, crushing a dangerous rebellion led by his own brothers, expanding Zhou control eastward, and then voluntarily returning all power when Cheng came of age.",
       "wikiSlug": "Duke_of_Zhou",
       "tier": 2,
       "tags": [
@@ -2091,45 +2061,31 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "The Duke of Zhou (Ji Dan) was King Wu's younger brother and arguably the greatest statesman of the Western Zhou. When King Wu died, he served as regent for the young heir King Cheng rather than seize power for himself."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "He crushed a rebellion by other Zhou princes who feared his power, established the eastern capital at Luoyang, and codified the Zhou ritual system (li) that became the backbone of Confucian thought. He voluntarily returned power once King Cheng came of age."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Duke of Zhou became the gold standard for political virtue in Chinese culture. Confucius revered him above all figures and reportedly dreamed of him. His voluntary restraint from power set the ideal that Chinese statesmen aspired to for millennia."
+          "label": "Explore further",
+          "text": "Later Chinese tradition credited the Duke of Zhou with authoring (or compiling) parts of the I Ching and the Classic of Poetry — texts that would anchor Chinese culture for millennia, though modern scholars treat these attributions cautiously. He was known as the \"God of Dreams\" in folk religion, a title that stuck partly because Confucius's famous remark about dreaming of him became so well known. Empress Wu Zetian, ruling a thousand years later, awarded him the posthumous title \"Honorable and Virtuous King,\" an honor reserved for figures of near-mythic stature."
         }
       ],
       "aliases": [
         "Ji Dan"
-      ]
+      ],
+      "commonsFile": "Portraits_of_Famous_Men_-_Zhou_Gong.jpg"
     },
     {
       "id": "evt-fengjian-system",
       "label": "Feudal System (Fengjian)",
       "year": -1040,
-      "description": "The Zhou distributed land to relatives and loyal nobles in a feudal system (fengjian), creating semi-autonomous states bound by kinship and ritual obligations to the Zhou king.",
+      "description": "The fengjian (feudal) system was the Zhou solution to governing an empire too large for any single ruler: the king parceled out land to princes, allies, and even Shang descendants in a five-tier noble hierarchy (duke, marquis, earl, viscount, baron), each owing military service, tribute, and ritual participation in return.",
       "wikiSlug": "Fengjian",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Background",
-          "text": "The Zhou could not govern their vast territory directly with the administrative tools available. Instead, King Wu and his successors parceled out land to relatives, loyal generals, and descendants of ancient sage-kings."
-        },
-        {
-          "label": "What Happened",
-          "text": "Each lord governed his fief semi-autonomously, owed military service and tribute to the Zhou king, and performed ritual obligations that maintained the symbolic unity of the realm. Over time, lords passed land to their heirs, creating hereditary aristocratic families."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The fengjian system was the structural basis of Zhou civilization for centuries — and its gradual collapse as lords became more powerful than kings directly caused the chaos of the Spring and Autumn and Warring States periods."
+          "label": "Explore further",
+          "text": "Unlike European feudalism, Zhou lordships were not automatically hereditary — they required reappointment by the king and could be revoked, giving the crown more theoretical leverage. Crucially, the Zhou granted a state called Song to a Shang prince so that the Shang royal ancestors could continue receiving proper sacrifices — a pragmatic spiritual gesture that defused Shang loyalist anger. The system planted the seeds of its own unraveling: successful vassal states accumulated wealth and armies over generations, eventually outgrowing the royal domain that was supposed to sit above them."
         }
-      ]
+      ],
+      "commonsFile": "EN-WesternZhouStates.jpg"
     },
     {
       "id": "evt-ritual-bronzes",
@@ -2159,50 +2115,35 @@
       "id": "evt-book-of-songs",
       "label": "Book of Songs (Shijing)",
       "year": -1005,
-      "description": "The oldest collection of Chinese poetry, with 305 poems covering folk songs, court hymns, and ritual odes. Confucius later said studying it was essential for a moral education.",
+      "description": "The Classic of Poetry (Shijing) is the oldest surviving collection of Chinese verse — 305 poems spanning court hymns, military laments, love songs, and farmers' complaints, all originally set to music for Zhou ceremonies and banquets.",
       "wikiSlug": "Classic_of_Poetry",
       "tier": 3,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Context",
-          "text": "The Shijing was compiled from oral traditions across the Zhou realm, spanning roughly 500 years from the early Western Zhou to the Spring and Autumn period. It preserves voices from peasant farmers to Zhou kings."
-        },
-        {
-          "label": "The Work",
-          "text": "Its 305 poems are divided into folk songs (Feng), court odes (Ya), and ritual hymns (Song). They cover love, war, agricultural labor, royal hunts, and diplomatic ceremonies — an extraordinary window into early Chinese life."
-        },
-        {
-          "label": "Impact",
-          "text": "Confucius made the Shijing one of the Five Classics, declaring that 'without studying the Odes, one has nothing to say.' It became required study for Chinese officials for two millennia and remains a cornerstone of Chinese literary culture."
+          "label": "Explore further",
+          "text": "The story that Confucius personally trimmed a 3,000-poem archive down to 305 is almost certainly false: the collection was already fixed before he was born, according to modern scholarship. About 95 percent of the lines follow a strict four-syllable meter, making the Shijing a key tool for reconstructing the sounds of Old Chinese. Zhou officials reportedly collected folk songs specifically to gauge public sentiment and test whether rulers still held Heaven's mandate — the poems as political polling."
         }
       ],
       "aliases": [
         "Shijing"
-      ]
+      ],
+      "commonsFile": "Shi_Jing.jpg"
     },
     {
       "id": "evt-well-field-system",
       "label": "Well-Field Land System",
       "year": -1000,
-      "description": "The idealized Zhou well-field system divided land into nine squares, with eight families farming private plots and one communal plot for the lord — a model of agrarian egalitarianism.",
+      "description": "The well-field system (jingtian) divided farmland into nine equal squares like the character for 'well' (井): eight outer plots for peasant families to farm privately, and a central communal plot whose produce went to the lord as a labor-tax.",
       "wikiSlug": "Well-field_system",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The Zhou feudal system required an agricultural base to sustain lords and their retinues. The well-field (jing tian) system was the idealized land arrangement that classical texts describe as the foundation of Zhou agrarian order."
-        },
-        {
-          "label": "What Happened",
-          "text": "Land was divided into nine equal squares (like the character for 'well,' 井). Eight farming families each worked a private outer plot and collectively worked the central communal plot, whose output went to the lord as tax."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Whether the well-field system was ever fully implemented is debated, but it became the Confucian ideal of just land distribution, invoked by reformers for centuries whenever inequality threatened social harmony."
+          "label": "Explore further",
+          "text": "According to the Book of Rites, peasants were supposedly required to work the communal government field only three days a year — though historians cannot confirm this was ever actually enforced. The system collapsed during the Warring States period because it became economically unworkable as states competed militarily; the reformer Shang Yang abolished it first in Qin, replacing communal tenure with private land ownership. Two thousand years later, the short-lived Xin dynasty (9–23 CE) tried to revive it under the name 'King's Fields,' and it failed within a generation."
         }
       ]
     },
@@ -2210,80 +2151,59 @@
       "id": "evt-zhou-li-ritual",
       "label": "Zhou Ritual System (Li)",
       "year": -995,
-      "description": "The elaborate Zhou ritual system (li) governing ceremonies, music, and social behavior became the bedrock of Confucian thought and Chinese social order for millennia.",
+      "description": "Li (ritual propriety) was the Western Zhou's comprehensive system of ceremonies, social codes, and behavioral rules — the operating system through which the feudal hierarchy expressed itself in every aspect of daily life, from court sacrifices to how a son mourned his father.",
       "wikiSlug": "Li_(Confucianism)",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The Zhou inherited and expanded the Shang tradition of elaborate ancestor rituals. Under the Duke of Zhou's codification, ritual propriety (li) became the mechanism through which social hierarchy was expressed and maintained."
-        },
-        {
-          "label": "The Teaching",
-          "text": "Li governed everything: how many bronze vessels a lord could use at sacrifice, the music appropriate to each rank, proper mourning periods, diplomatic protocols. Every social interaction had a correct ritual form that affirmed the performer's position in the order."
-        },
-        {
-          "label": "Legacy",
-          "text": "When Confucius mourned that 'ritual is decaying,' he meant that lords were performing rites appropriate only to the Zhou king — a symptom of civilization's collapse. Li remained the core of Confucian education and Chinese social life for 2,500 years."
+          "label": "Explore further",
+          "text": "The scope of li was almost absurdly detailed: Xunzi listed ritual vessels, specific foods (fish, millet, meat), ceremonial caps, mourning robes, and even the correct floor mats as essential components of its fabric. Performing music or using a number of dancers above your noble rank was treated as a political offense, not a social faux pas — a visible usurpation of someone else's status. The governing principle was that ritual shaped behavior, and behavior shaped society, which meant li was the preferred substitute for penal punishment in Confucian governance theory."
         }
-      ]
+      ],
+      "commonsFile": "Bianzhong.jpg"
     },
     {
       "id": "evt-temple-heaven-precursor",
       "label": "Zhou Heaven Worship",
       "year": -990,
-      "description": "Zhou kings performed elaborate sacrifices to Heaven (Tian) at sacred altars, establishing the ritual tradition that culminated in Beijing's Temple of Heaven two millennia later.",
+      "description": "The Zhou king, as Son of Heaven, performed exclusive sacrifices to Tian (Heaven) at round altars — a ritual tradition that ran unbroken for roughly two thousand years and physically culminated in the Temple of Heaven complex still standing in Beijing today.",
       "wikiSlug": "Temple_of_Heaven",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The Zhou replaced the Shang's supreme deity Di with Heaven (Tian) — a less anthropomorphic, more universal divine force. Only the Zhou king, as 'Son of Heaven,' could perform the great sacrifices that maintained cosmic order."
-        },
-        {
-          "label": "The Teaching",
-          "text": "Twice yearly, the king performed elaborate rites at round-shaped altars open to the sky, offering animals and grain to Heaven to ensure cosmic harmony, good harvests, and the dynasty's continued legitimacy."
-        },
-        {
-          "label": "Legacy",
-          "text": "This tradition continued unbroken until 1912, culminating in Beijing's Temple of Heaven where Ming and Qing emperors performed the same rites. The Zhou established one of the longest-running religious practices in human history."
+          "label": "Explore further",
+          "text": "The Ming-dynasty Temple of Heaven (built 1406–1420) encoded the Zhou cosmological geometry into stone: the Circular Mound Altar uses the sacred number nine throughout, with rings of 9, 18, 27... up to 81 marble slabs in the outermost ring. The altar's acoustic design is so precise that a voice spoken at its center is dramatically amplified back to the speaker through reflected sound. The Emperor fasted, changed into special robes, and twice a year led the entire imperial court in a procession from the Forbidden City just to perform these sacrifices — a direct continuation of a ritual that began in the Western Zhou."
         }
-      ]
+      ],
+      "commonsFile": "Temple_of_Heaven_20160323_01.jpg"
     },
     {
       "id": "evt-king-mu",
       "label": "King Mu of Zhou",
       "year": -976,
       "endYear": -922,
-      "description": "King Mu was the last powerful Western Zhou king, famous for legendary journeys to the west. His legal reforms attempted to centralize judicial authority.",
+      "description": "King Mu of Zhou (reigned c. 976–922 BCE) was one of the longest-reigning Western Zhou kings, credited with ambitious military campaigns against western peoples and with issuing China's first systematic legal code — and wrapped in legend as the ruler who traveled to paradise and met a goddess.",
       "wikiSlug": "King_Mu_of_Zhou",
       "tier": 3,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "King Mu (Ji Man) reigned for 55 years — the longest reign of any Western Zhou king. He was celebrated in legend for epic westward journeys to meet the Queen Mother of the West, a mythological figure dwelling in the Kunlun Mountains."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "His Penal Code (Lü Xing) was an early attempt to codify laws and centralize judicial authority, replacing arbitrary noble judgment with written standards. He also conducted military campaigns against western and northern peoples."
-        },
-        {
-          "label": "Legacy",
-          "text": "King Mu represents the high-water mark of Western Zhou royal power before the slow decline. His legendary western journeys may preserve memory of actual diplomatic or military contact with Central Asian peoples via early trade routes."
+          "label": "Explore further",
+          "text": "His campaign against the Quanrong (nomadic western people) was notably disappointing: Mu led an 'immense army' and came back with four white wolves and four white deer — and, in the process, planted enough resentment among the steppe tribes that their descendants sacked the Zhou capital in 771 BCE. The legend of his eight magical horses, each with its own poetic name ('Crimson Thoroughbred,' 'Pure Justice'), became one of the most retold stories in Chinese literary tradition, appearing in a 4th-century BCE tale that scholars now treat as one of the earliest works of Chinese fiction. Traditional sources also claim he lived to about 105 years old."
         }
-      ]
+      ],
+      "commonsFile": "帝鉴图说.Recueil_Historique_des_Principaux_Traits_de_la_Vie_des_Empereurs_Chinois.95帧图.彩绘册页.约18世纪_(八骏巡游).jpg"
     },
     {
       "id": "evt-i-ching",
       "label": "Book of Changes (Yijing)",
       "year": -900,
-      "description": "The Yijing (I Ching), originally a Zhou divination manual using hexagrams, evolved into one of the most influential philosophical texts in world history.",
+      "description": "The Yi Jing (I Ching, Book of Changes) began as a Western Zhou divination manual built around 64 hexagrams (six-line figures of solid and broken lines), and grew over centuries into one of the most philosophically ambitious texts in world history — a system for mapping the constant flux of the universe.",
       "wikiSlug": "I_Ching",
       "tier": 2,
       "tags": [
@@ -2292,101 +2212,73 @@
       "category": "writing",
       "details": [
         {
-          "label": "Context",
-          "text": "The Zhou used a divination system based on 64 hexagrams — combinations of broken and unbroken lines — to consult Heaven on decisions ranging from military campaigns to marriages. The system evolved from earlier Shang tortoise-shell divination."
-        },
-        {
-          "label": "The Work",
-          "text": "Each hexagram had a short text (originally a divinatory judgment), and later commentaries — some attributed to Confucius — expanded it into a philosophical system for understanding change, balance, and the nature of reality."
-        },
-        {
-          "label": "Impact",
-          "text": "The Yijing became one of the Five Classics and was studied by every educated Chinese person for 3,000 years. It later influenced Leibniz's binary mathematics, Carl Jung's concept of synchronicity, and remains widely read worldwide today."
+          "label": "Explore further",
+          "text": "Gottfried Leibniz, who independently invented binary mathematics (the 0s and 1s behind modern computing), wrote the first European commentary on the Yi Jing in 1703 and argued the hexagram system proved the universality of binary numbers. The physicist Niels Bohr credited the yin-yang symbol with directly inspiring his Copenhagen interpretation of quantum mechanics. The Ten Wings — philosophical commentaries added around 300 BCE — are what transformed the original fortune-telling manual into a cosmological text; without them, the Yi Jing would likely be a historical curiosity rather than a living tradition consulted for three thousand years."
         }
       ],
       "aliases": [
         "Yijing",
         "I Ching"
-      ]
+      ],
+      "commonsFile": "I_Ching_Song_Dynasty_print.jpg"
     },
     {
       "id": "evt-fall-western-zhou",
       "label": "Fall of Western Zhou",
       "year": -771,
-      "description": "Nomadic Quanrong invaders sacked the Zhou capital of Haojing and killed King You. The court fled east to Luoyang, beginning the diminished Eastern Zhou period.",
+      "description": "In 771 BCE, the Marquis of Shen — father of King You's deposed queen — allied with the Quanrong nomads from the northwest, invaded the Zhou heartland, sacked the capital Haojing (near modern Xi'an), killed King You and his heir Bofu, and captured Bao Si, ending the Western Zhou dynasty after roughly three centuries.",
       "wikiSlug": "Western_Zhou",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "King You of Zhou became notorious for replacing his queen with a favorite concubine Bao Si — dismissing loyal nobles and alienating the kingdom's western allies. Ancient sources claim he lit the beacon fires (used to summon allies against attack) as a prank to make Bao Si laugh."
-        },
-        {
-          "label": "The Battle",
-          "text": "When the Quanrong nomads actually attacked in 771 BCE with the aid of disaffected Zhou nobles, no allies came. They sacked Haojing, killed King You, and looted the royal treasury. The Zhou homeland in the Wei River valley was effectively abandoned."
-        },
-        {
-          "label": "Casualties & Aftermath",
-          "text": "The court fled 300 km east to Luoyang, beginning the Eastern Zhou period. Zhou kings retained the title 'Son of Heaven' but lost their economic base and army — reduced to symbolic figureheads while feudal lords competed for real power."
+          "label": "Explore further",
+          "text": "The Quanrong were not a random external threat; they had been a recognized frontier people with a long history of both conflict and trade with the Zhou, and the Marquis of Shen's ability to recruit them points to established cross-border relationships rather than a sudden barbarian surge. After the sack, the western Wei River valley — the Zhou ancestral heartland and the agricultural and military base that had made the dynasty a genuine power — was permanently ceded and never recovered. The bronze Western Zhou Pan with inscription now in the Baoji Bronze Museum is among the artifacts that document the material culture of this lost world, recovered from the region the Quanrong overran."
         }
-      ]
+      ],
+      "commonsFile": "Western_Zhou_Bronze_Pan_with_Inscription_(9925099503).jpg"
     },
     {
       "id": "evt-luoyang-capital",
       "label": "Luoyang Eastern Capital",
       "year": -770,
-      "description": "Luoyang served as the Eastern Zhou capital for five centuries, becoming one of China's great cultural centers though the Zhou kings held little real power.",
+      "description": "After the sack of Haojing, the surviving Zhou court rallied around the legitimate heir King Ping and relocated roughly 185 miles (300 km) east to the secondary capital at Luoyi, near modern Luoyang — a move that looked like a fresh start but was in practice a permanent retreat from the dynasty's power base.",
       "wikiSlug": "Luoyang",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Luoyang sat at the center of the North China Plain, where major roads and rivers converged. The Duke of Zhou had already built an eastern administrative capital there during the Western Zhou, making it a natural refuge for the fleeing court."
-        },
-        {
-          "label": "The Structure",
-          "text": "The Eastern Zhou capital at Luoyang included royal palaces, ancestral temples, and markets, though its scale shrank as Zhou revenues dwindled. The city remained a symbolic center of Chinese civilization even as power moved to the feudal states."
-        },
-        {
-          "label": "Legacy",
-          "text": "Luoyang would become one of China's four ancient capitals, serving as the imperial seat of the Later Han, Wei, Western Jin, and other dynasties. The Eastern Zhou's presence there established its enduring cultural prestige."
+          "label": "Explore further",
+          "text": "Luoyang had actually been planned as a secondary administrative capital since the reign of the Duke of Zhou (Chapter 1), so the infrastructure existed; what changed was that the western capital was now gone rather than complementary. The Eastern Zhou royal chariot burial pits excavated at the Wangcheng (\"Royal City\") site in modern Luoyang give a concrete sense of the court's continued ceremonial ambitions even as political power drained away — dozens of horse-and-chariot sets were interred with Zhou kings, a lavish ritual the increasingly nominal \"Sons of Heaven\" maintained for centuries. Luoyang served as the Zhou royal seat from 770 to roughly 510 BCE, when the capital shifted again to Chengzhou."
         }
-      ]
+      ],
+      "commonsFile": "Bronze_bell,_Eastern_Zhou,_Wangcheng_site,_Luoyang,_Henan.jpg"
     },
     {
       "id": "evt-eastern-zhou",
       "label": "Eastern Zhou Begins",
       "year": -770,
-      "description": "King Ping established the new capital at Luoyang, but the Zhou kings became figureheads as feudal lords grew increasingly independent and powerful.",
+      "description": "In 770 BCE, King Ping moved the Zhou court east from the ruins of Haojing to the city of Luoyang, launching the Eastern Zhou era — a 500-year stretch during which Zhou kings kept their titles but lost nearly all real power to the great feudal states surrounding them.",
       "wikiSlug": "Eastern_Zhou",
       "tier": 3,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Background",
-          "text": "After the Quanrong sack of Haojing, the surviving nobles helped King Ping relocate to the eastern capital at Luoyang. The price was high: the Zhou had to cede their western territories to the lords who provided military escorts."
-        },
-        {
-          "label": "What Happened",
-          "text": "Zhou kings became ceremonial figures. Lords stopped sending tribute regularly; some performed the great sacrifices to Heaven that only the king was supposed to conduct. The fiction of Zhou supremacy was maintained for 500 more years, but everyone knew it was fiction."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Eastern Zhou's political weakness created the conditions for the Hundred Schools of Thought. Scholars traveled between courts seeking employment, and the competition between states drove both military innovation and philosophical creativity."
+          "label": "Explore further",
+          "text": "A recently discovered manuscript (the Xinian, a Warring States-era text) challenges the traditional account: it suggests King Ping was not immediately recognized and that Zhou lacked an officially enthroned king for nine years before his reign was secured. Luoyang's territory at its peak measured roughly 60 miles (100 km) across — smaller than many modern counties — yet the Zhou court maintained the ritual sacrifices and title-granting ceremonies that gave every other state in China its legal legitimacy for another five centuries."
         }
-      ]
+      ],
+      "commonsFile": "Eastern_Zhou_Bronze_Li.jpg"
     },
     {
       "id": "evt-duke-huan-qi",
       "label": "Duke Huan of Qi",
       "year": -685,
       "endYear": -643,
-      "description": "The first recognized hegemon (ba), Duke Huan of Qi used his minister Guan Zhong's economic reforms to dominate the Spring and Autumn period diplomatically and militarily.",
+      "description": "Duke Huan of Qi (reigned 685–643 BCE) was the first recognized hegemon (ba) of the Spring and Autumn period — a powerful feudal lord who wielded real interstate authority while nominally acting in the powerless Zhou king's name.",
       "wikiSlug": "Duke_Huan_of_Qi",
       "tier": 2,
       "tags": [
@@ -2396,65 +2288,43 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Duke Huan (Jiang Xiaobai) became ruler of the wealthy coastal state of Qi after a succession struggle, famously appointing his former enemy Guan Zhong as chief minister — a celebrated act of pragmatic magnanimity."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "Under Guan Zhong's reforms, Qi became the dominant power of the Spring and Autumn period. Duke Huan convened multiple inter-state conferences where lords pledged to uphold Zhou civilization, oppose barbarian invasion, and resolve disputes peacefully."
-        },
-        {
-          "label": "Legacy",
-          "text": "Duke Huan established the model of the hegemon (ba) — a powerful lord who exercises de facto leadership while nominally respecting Zhou authority. His system of managed interstate order was the Spring and Autumn Period's best substitute for Zhou power."
+          "label": "Explore further",
+          "text": "Duke Huan's personal name was Lü Xiaobai, and he only got the throne because the arrow his rival's advisor (Guan Zhong) shot at him hit his belt buckle instead of his chest. He repaid that near-assassination by making Guan Zhong his chief minister — one of history's more consequential acts of political forgiveness. After Guan Zhong died, Duke Huan's own sons were so consumed by a succession fight that his body reportedly lay unburied for months; the *Guanzi* text claims four court officials had actually locked him in a room and starved him to death before the succession struggle even began."
         }
-      ]
+      ],
+      "commonsFile": "齊桓公.png"
     },
     {
       "id": "evt-guan-zhong",
       "label": "Guan Zhong",
       "year": -685,
       "endYear": -645,
-      "description": "Guan Zhong pioneered state monopolies on salt and iron, population registration, and merit-based appointments — proto-legalist reforms that made Qi the strongest state.",
+      "description": "Guan Zhong (c. 720–645 BCE), chancellor of Qi under Duke Huan, was the architect of the first state-run salt and iron monopolies in Chinese history and the man most responsible for making Qi the dominant power of his era.",
       "wikiSlug": "Guan_Zhong",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Guan Zhong (also Guanzi) was chief minister of Qi under Duke Huan — and had previously tried to assassinate him. Duke Huan's decision to forgive and appoint his enemy became a classic example of a ruler's wisdom overcoming personal grievance."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "Guan Zhong created state monopolies on salt and iron, reorganized the army along occupational lines, instituted population censuses, and introduced merit-based official appointments — all proto-Legalist policies that generated revenues to fund Qi's dominance."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Guanzi text (attributed to him) became a foundational work of Chinese political economy. Confucius, who rarely praised anyone, credited Guan Zhong with preserving Chinese civilization by repelling barbarian invasion — high praise indeed."
+          "label": "Explore further",
+          "text": "Guan Zhong had originally served the losing side in Qi's succession war and shot an arrow directly at the future Duke Huan — yet Duke Huan's closest friend Bao Shuya talked him out of executing Guan Zhong, citing his talent. The two men's friendship (Bao having covered for Guan Zhong's shortcomings since youth) became a byword in Chinese culture for selfless loyalty: the phrase 'to have a Bao Shuya' still means to have a friend who believes in you more than you deserve. The salt monopoly Guan Zhong invented for Qi was so effective that later Chinese dynasties adopted it as a permanent fiscal institution — it ran, in various forms, for over two thousand years."
         }
-      ]
+      ],
+      "commonsFile": "Qihuangongguanzhong2.jpg"
     },
     {
       "id": "evt-salt-iron-trade",
       "label": "Salt and Iron Trade",
       "year": -600,
-      "description": "State monopolies on salt and iron became major revenue sources. Control of these essential commodities was a key factor in the balance of power between states.",
+      "description": "State monopolies on salt and iron — two commodities every household needed — became the primary fiscal engine of Qi's rise, letting the state generate revenue without heavy direct taxes on farmers.",
       "wikiSlug": "Guanzi_(text)",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "Salt was essential for food preservation and human health; iron was the key material for tools and weapons. Guan Zhong's innovations in Qi demonstrated that state control of these commodities could generate massive revenues without directly taxing farmers."
-        },
-        {
-          "label": "What Happened",
-          "text": "Multiple Warring States established monopolies, taxing or directly controlling salt production at coastal marshes and salt lakes. Iron monopolies followed, giving states control over the supply of weapons and agricultural tools — and the ability to arm or disarm rivals."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Salt and iron monopolies became a permanent feature of Chinese statecraft. The Han dynasty's famous 'Debate on Salt and Iron' (81 BCE) debated whether states should control these commodities — a debate that still resonates in discussions of state vs. market."
+          "label": "Explore further",
+          "text": "The logic was elegant: the government bought raw salt and iron from producers, refined and resold them at a markup, and collected what amounted to a consumption tax that no one could avoid. Qi's coastal location gave it natural salt flats that inland rivals couldn't replicate. The Qi-Hengshan War, in which Qi deliberately manipulated the price of Hengshan iron to destabilize that state's economy before invading, is considered by some historians the earliest documented example of economic warfare. The state salt monopoly Guan Zhong pioneered for Qi was still being collected by the Chinese government in modified form into the twentieth century."
         }
       ]
     },
@@ -2462,61 +2332,47 @@
       "id": "evt-iron-age-china",
       "label": "Iron Age Begins in China",
       "year": -600,
-      "description": "Chinese metalworkers began producing cast iron — centuries before Europe — using blast furnaces. Iron tools revolutionized agriculture and warfare.",
+      "description": "Iron first appeared in China's archaeological record around the 8th–6th centuries BCE, and by the 5th century BCE, cast iron tools and weapons had become widespread — launching one of the most consequential material transformations in Chinese history.",
       "wikiSlug": "Iron_Age",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "While the Mediterranean world worked iron by hammering (wrought iron), Chinese metallurgists achieved cast iron by the 6th century BCE — over 1,500 years before Europe. Their high-temperature blast furnace techniques made iron tools affordable at scale."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Cast iron could be mass-produced in standardized forms: plowshares, hoe blades, axe heads, and — crucially — sword blades and arrowheads. The cost of equipping an army and a farming community both dropped dramatically."
-        },
-        {
-          "label": "Impact",
-          "text": "Iron tools transformed Chinese agriculture, allowing heavier soils to be worked and forests to be cleared. Iron weapons democratized warfare, enabling mass conscript armies to challenge bronze-equipped aristocratic warriors — fundamentally changing the nature of Warring States conflict."
+          "label": "Explore further",
+          "text": "The earliest confirmed cast iron object in China — a lump of cast iron from a grave in Luhe, Jiangsu — dates to the early 5th century BCE. Excavations of seven Warring States graves at Hui County in Henan turned up 161 iron artifacts in a single dig, spanning weapons, tools, and decorative objects. Western Europe would not independently develop cast iron production until around the 13th–14th centuries CE, a gap of roughly 1,700 years."
         }
-      ]
+      ],
+      "commonsFile": "Warring_States_Iron_Tools_(10077851595).jpg"
     },
     {
       "id": "evt-confucius",
       "label": "Confucius",
       "year": -551,
       "endYear": -479,
-      "description": "Kong Qiu (Confucius) taught ethics, governance, and ritual propriety, advocating for benevolent rule and moral self-cultivation. His Analects became the core of Chinese education for 2,000 years.",
+      "description": "Kong Qiu (551–479 BCE), known in the West as Confucius, was a traveling teacher from the small state of Lu who redefined virtue as a matter of character rather than birth, and whose collected sayings became the intellectual backbone of Chinese civilization for two millennia.",
       "wikiSlug": "Confucius",
       "tier": 1,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Kong Qiu (551–479 BCE) was a minor official from the state of Lu who failed to find a ruler willing to implement his vision of benevolent governance. He turned to teaching, attracting thousands of students from across the Zhou states."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "Confucius argued that the solution to political chaos was a return to Zhou ritual propriety (li), benevolent rule (ren), and moral self-cultivation. He traveled for 14 years offering advice to rulers, largely without success, before returning to Lu to teach and compile the classics."
-        },
-        {
-          "label": "Legacy",
-          "text": "His teachings, compiled by students as the Analects after his death, became the foundation of Chinese civilization's education system for over 2,000 years. Confucianism shaped governance, family structure, and moral philosophy across East Asia and remains influential today."
+          "label": "Explore further",
+          "text": "Confucius charged no fixed tuition, accepting only a symbolic gift of dried meat from anyone willing to learn, making him one of history's first truly open-access educators. He taught an estimated 3,000 students over his career, though only 72 were considered to have truly mastered his teachings. Despite spending 13 years roaming from court to court pitching his ideas to rulers, he never received the senior government post he wanted, and tradition holds he died believing himself a failure."
         }
       ],
       "aliases": [
         "Kong Qiu",
         "Confucian",
         "Master Kong"
-      ]
+      ],
+      "commonsFile": "Confucius_Tang_Dynasty.jpg"
     },
     {
       "id": "evt-laozi",
       "label": "Laozi",
       "year": -506,
-      "description": "Laozi (whether historical or legendary) is credited with the Dao De Jing, the foundational text of Daoism that advocates naturalness, non-action (wuwei), and harmony with the Dao.",
+      "description": "Laozi (\"Old Master\") is the semi-legendary figure credited with writing the Dao De Jing, the founding text of Daoism, which argues that the world runs best when humans stop trying to control it and instead align themselves with the natural flow of things.",
       "wikiSlug": "Laozi",
       "tier": 1,
       "tags": [
@@ -2525,28 +2381,21 @@
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Laozi ('Old Master') is a semi-legendary figure — possibly a Zhou royal archivist named Li Er. The historical Laozi may have met Confucius, with Confucius reportedly describing him as 'a dragon riding the winds and clouds.' Some scholars believe the Dao De Jing was compiled later."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "The Dao De Jing's 81 short chapters advocate naturalness (ziran), non-action (wuwei), and harmony with the Dao — the ineffable force underlying all reality. It offered an alternative to Confucian ritual and Legalist control: govern by doing less, not more."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Dao De Jing is the second most translated book in world history after the Bible. It founded the Daoist tradition that became one of China's three great philosophical pillars alongside Confucianism and Buddhism, influencing everything from Chinese medicine to modern physics metaphors."
+          "label": "Explore further",
+          "text": "The oldest surviving fragments of the Dao De Jing are not paper or bamboo scrolls but the Guodian Chu Slips — wooden and bamboo strips buried in a tomb near Guodian, Hubei, before 300 BCE and only discovered in 1993. Tang dynasty emperors (618–907 CE) claimed descent from Laozi through their shared Li surname, using the connection to boost their dynastic prestige. In religious Taoism, Laozi was eventually elevated to the divine rank of Taishang Laojun (\"Supreme Venerable Sovereign\"), one of the three highest deities in the Taoist pantheon."
         }
       ],
       "aliases": [
         "Lao Tzu",
         "Old Master"
-      ]
+      ],
+      "commonsFile": "Zhang_Lu-Laozi_Riding_an_Ox.jpg"
     },
     {
       "id": "evt-sun-tzu",
       "label": "Sun Tzu's Art of War",
       "year": -503,
-      "description": "Sun Tzu composed The Art of War, the world's most influential military treatise. Its principles of strategy, deception, and knowing your enemy transcend warfare into business and diplomacy.",
+      "description": "Sun Tzu (traditionally identified as Sun Wu, an advisor to King Helu of Wu around 500 BCE) composed The Art of War (Sunzi Bingfa), a 6,000-character treatise in thirteen chapters that has been studied as a guide to strategy for over 2,500 years.",
       "wikiSlug": "The_Art_of_War",
       "tier": 2,
       "tags": [
@@ -2555,28 +2404,21 @@
       "category": "writing",
       "details": [
         {
-          "label": "Context",
-          "text": "Sun Tzu (Sun Wu) was a military general from the state of Wu during the Spring and Autumn period. He reportedly served King Helü of Wu, who tested his military ideas by asking him to train palace women as soldiers — a test Sun Tzu passed by executing two disobedient concubines."
-        },
-        {
-          "label": "The Work",
-          "text": "The Art of War's 13 chapters cover strategic planning, tactical positioning, use of intelligence, adaptation to terrain, and the psychology of command. Its central insight: 'All warfare is deception' — victory comes from understanding the enemy's mind, not just their army."
-        },
-        {
-          "label": "Impact",
-          "text": "Copied, annotated, and applied across 2,500 years, it has influenced every major military tradition from Napoleon to the Vietnam War. Translated into over 30 languages, it is now standard reading in business schools, sports coaching, and diplomatic training worldwide."
+          "label": "Explore further",
+          "text": "The earliest known physical copies are bamboo slips unearthed in 1972 at Yinqueshan, Linyi, Shandong, dating to the 2nd century BCE. The text's first European translation came in 1772, by French Jesuit Jean Joseph Marie Amiot — more than a century before the first annotated English version (Lionel Giles, 1910). Vietnamese general Vo Nguyen Giap, who defeated both France and the United States, cited Sun Tzu explicitly in his strategic writings; Douglas MacArthur reportedly kept a copy on his desk."
         }
       ],
       "aliases": [
         "Sun Tzu",
         "Art of War"
-      ]
+      ],
+      "commonsFile": "Inscribed_bamboo-slips_of_Art_of_War.jpg"
     },
     {
       "id": "evt-crossbow-invention",
       "label": "Crossbow Invented",
       "year": -500,
-      "description": "The Chinese crossbow, with its precision bronze trigger mechanism, transformed warfare by enabling mass armies of peasant conscripts to outshoot aristocratic archers.",
+      "description": "The Chinese crossbow, equipped with a precision-cast bronze trigger mechanism (a three-piece assembly inside a hollow bronze housing), gave mass infantry armies devastating firepower — and required far less training than a traditional bow.",
       "wikiSlug": "Crossbow",
       "tier": 3,
       "tags": [
@@ -2585,97 +2427,69 @@
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Archery had traditionally required years of training to master — favoring the aristocratic warrior class. The crossbow's mechanical trigger allowed a lightly trained conscript to aim and fire with lethal accuracy after minimal instruction."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Chinese crossbow triggers used precision-cast bronze mechanisms with rotating nut, sear, and trigger lever — engineering of remarkable sophistication. The device could hold a powerful draw indefinitely and release consistently, enabling disciplined volley fire."
-        },
-        {
-          "label": "Impact",
-          "text": "Crossbow-armed mass infantry could devastate cavalry and aristocratic chariot forces. The technology spread westward via Central Asia. Warring States armies deployed crossbowmen in formations thousands strong — a revolution in mass-casualty warfare."
+          "label": "Explore further",
+          "text": "The oldest archaeological crossbow locks found in China date to around 650 BCE, and bronze crossbow bolts from a Chu burial site at Yutaishan, Hubei, date to the mid-5th century BCE. By the Han dynasty, entry-level crossbowmen were required to operate bows with a draw weight of about 76 kg (168 lbs); elite troops reportedly managed over 340 kg (750 lbs) using a hands-and-feet technique. The trigger's distinctive J-shaped string catch doubled as a primitive rear sight — a level of mechanical ingenuity that wouldn't appear in European crossbows for over a thousand years."
         }
-      ]
+      ],
+      "commonsFile": "20230208_Painted_lacquer_crossbow.jpg"
     },
     {
       "id": "evt-coinage-spread",
       "label": "Spread of Bronze Coinage",
       "year": -497,
-      "description": "Warring States saw diverse coinage: knife money in Qi, spade money in Wei, round coins in Qin. The variety reflected the political fragmentation of the era.",
+      "description": "Bronze coinage spread across the Warring States economies in wildly different regional shapes — knife-shaped coins in Qi and Yan, spade-shaped coins in Wei, Han, and Zhao — a material sign of how politically fragmented (and commercially alive) the era had become.",
       "wikiSlug": "Ancient_Chinese_coinage",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The expansion of interstate trade in the Spring and Autumn period created demand for portable, standardized exchange media. Cowrie shells and silk had served as currency earlier; now states began minting bronze coins in distinctive regional forms."
-        },
-        {
-          "label": "What Happened",
-          "text": "Qi used flat bronze knife-shaped coins; Wei and Han issued spade-shaped coins; Qin developed round coins with square holes. The diversity of coin types created complex exchange rates between states — and opportunities for merchants who navigated them."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "When Qin unified China, one of its first acts was imposing a single round coin with square hole as the standard currency — erasing regional monetary diversity as a visible symbol of political unification. The round-square coin became the Chinese monetary standard for 2,000 years."
+          "label": "Explore further",
+          "text": "Spade money evolved directly from bronze agricultural spades used as barter goods; the earliest hollow-handled spade coins appeared around 650 BCE in the Zhou royal domain, well before the Warring States period proper. Round coins with central holes began circulating around 350 BCE, spreading into both spade and knife regions simultaneously — a preview of the standardized round-coin system Qin would impose after unification in 221 BCE. The State of Qi produced some of the largest knife coins, nicknamed 'Qi knives,' which were heavy enough to serve as stores of value rather than just pocket change."
         }
-      ]
+      ],
+      "commonsFile": "Warring_States_Ancient_Chinese_Spade_Coin_(15873965149).jpg"
     },
     {
       "id": "evt-silk-road-precursors",
       "label": "Early Silk Trade Routes",
       "year": -494,
-      "description": "Chinese silk reached the Mediterranean world via Central Asian intermediaries centuries before the formal Silk Road, with fragments found in Greek and Celtic tombs.",
+      "description": "Chinese silk was reaching the Mediterranean world centuries before any formal trade route existed, carried westward through a chain of Central Asian intermediaries who profited enormously from the fact that neither end of the transaction knew where the goods ultimately came from.",
       "wikiSlug": "Silk_Road",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "China held a monopoly on silk production for millennia — the process of cultivating silkworms and reeling silk was a closely guarded state secret. Silk was used as currency, diplomatic gifts, and the highest-status luxury fabric in the ancient world."
-        },
-        {
-          "label": "What Happened",
-          "text": "Chinese silk fragments have been found in Egyptian tombs from 1000 BCE, in Greek sites, and in Celtic burials in Germany and Austria. They arrived via chains of Central Asian and Persian middlemen long before any direct Sino-Mediterranean contact."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "These pre-Silk Road trade connections show that China was already integrated into a global luxury goods network during the Zhou period. The formal Han-era Silk Road merely intensified and systematized connections that were already centuries old."
+          "label": "Explore further",
+          "text": "Silk has been found at a 6th-century BCE elite burial near Stuttgart, Germany — alongside Greek bronzes — placing Chinese luxury goods in the heart of Celtic Europe roughly 700 years before the Han-era Silk Road. A 1936 excavation at the Kerameikos cemetery in Athens found textile fragments initially identified as silk, though later analysis found bast and possibly cotton fibers, a reminder that early identifications in this area remain contested. The Han diplomat Zhang Qian, dispatched westward in 139 BCE, was the first Chinese official to report back on what lay at the other end of these long-running exchange chains."
         }
-      ]
+      ],
+      "commonsFile": "Silk_route.jpg"
     },
     {
       "id": "evt-warring-states-begin",
       "label": "Warring States Period Begins",
       "year": -476,
-      "description": "The feudal order collapsed completely as seven major states fought for supremacy. The resulting arms race drove innovations in iron weapons, cavalry, siege warfare, and mass conscription.",
+      "description": "The Warring States period (475–221 BCE) saw seven major powers — Qin, Chu, Qi, Wei, Han, Zhao, and Yan — abandon the old aristocratic conventions of limited warfare and fight wars of outright annihilation, transforming China's political landscape completely.",
       "wikiSlug": "Warring_States_period",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "The traditional date of 476 BCE marks when the Spring and Autumn period's managed competition gave way to total war. Three powerful minister families divided the state of Jin, creating three new kingdoms (Wei, Han, Zhao) and signaling that the old feudal order was dead."
-        },
-        {
-          "label": "What Happened",
-          "text": "Seven major states — Qin, Chu, Qi, Wei, Han, Zhao, and Yan — competed in shifting alliances (vertical and horizontal leagues) and relentless warfare. Battles grew from thousands to hundreds of thousands of conscripts; siege warfare destroyed entire cities."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Warring States period's brutal competition was the crucible that forged the ideas, weapons, and administrative systems of Chinese civilization. The state that emerged victorious — Qin — had absorbed the harshest lessons of the era and was ready to unify all of China."
+          "label": "Explore further",
+          "text": "The capital of Qi, Linyi (Linzi), housed an estimated 750,000 people — making it one of the largest cities on earth at the time. The Qin general Bai Qi was credited in ancient sources with roughly 890,000 enemy deaths over his career, a figure modern historians treat as an order of magnitude rather than a precise count. At the Battle of Yique (293 BCE) alone, sources report 240,000 soldiers killed in a single engagement."
         }
-      ]
+      ],
+      "commonsFile": "EN-WarringStatesAll260BCE.jpg"
     },
     {
       "id": "evt-mozi",
       "label": "Mozi",
       "year": -470,
       "endYear": -391,
-      "description": "Mozi challenged Confucianism with radical ideas of universal love, anti-war activism, and meritocracy. His followers were also skilled military engineers who defended besieged cities.",
+      "description": "Mo Di (c. 470–391 BCE), known as Mozi, founded the Mohist school, which rejected Confucian hierarchy and ritual in favor of impartial love for all people, strict utilitarianism, and hands-on military defense of weaker states against aggression.",
       "wikiSlug": "Mozi",
       "tier": 3,
       "tags": [
@@ -2684,69 +2498,47 @@
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Mo Di (Mozi) was likely of artisan background — unusual among Zhou philosophers. He founded Mohism, a tightly organized school whose followers lived communally and practiced the doctrines they preached, including defending weak states against aggression."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "Mozi challenged Confucian ritual and aristocratic warfare with radical ideas: universal love (jian ai) — love for all people equally, not just family — meritocracy, frugality, and aggressive pacifism. His followers were also skilled engineers who fortified and defended besieged cities."
-        },
-        {
-          "label": "Legacy",
-          "text": "Mohism nearly rivaled Confucianism in influence during the Warring States period but largely disappeared after the Qin unification. Modern scholars have noted Mohist logic, optics experiments, and siege engineering as early contributions to scientific thought."
+          "label": "Explore further",
+          "text": "Mozi's followers weren't just philosophers; they were trained engineers who would travel to besieged cities and help fortify them against attack. The Mohist text contains the earliest recorded description of the pinhole camera effect: Mozi observed that light passing through a tiny hole projects an inverted image, correctly explaining that light travels in straight lines — a scientific insight that wouldn't be independently reached in Europe for nearly another thousand years. After the Qin unification in 221 BCE, Mohism essentially vanished as an organized school, likely because its anti-war, anti-hierarchy stance was incompatible with imperial rule."
         }
       ],
       "aliases": [
         "Mo Di",
         "Master Mo"
-      ]
+      ],
+      "commonsFile": "Философ_Мо-Цзы.jpg"
     },
     {
       "id": "evt-great-wall-precursors",
       "label": "Early Wall Construction",
       "year": -400,
-      "description": "Northern states built walls against nomadic raids — the precursors to the Great Wall. Qin, Zhao, and Yan all constructed long defensive barriers along their borders.",
+      "description": "Long before any unified Great Wall existed, individual Warring States were building their own defensive barriers out of rammed earth — Qin, Zhao, and Yan along their northern frontiers against nomadic raiders, and multiple states along their mutual borders against each other.",
       "wikiSlug": "Great_Wall_of_China",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "The Warring States' northern borders faced constant pressure from nomadic peoples — Xiongnu, Donghu, Rong, and Di — who raided agricultural settlements for grain and livestock. Each northern state needed a defensive solution it could maintain independently."
-        },
-        {
-          "label": "The Structure",
-          "text": "Qin, Zhao, and Yan each built rammed-earth walls along their northern frontiers, with watchtowers at regular intervals to signal approaching raiders. These walls were not connected — each state maintained its own section against its own nomadic neighbors."
-        },
-        {
-          "label": "Legacy",
-          "text": "When the First Emperor of Qin unified China in 221 BCE, he connected and extended these walls into the first continuous Great Wall — conscripting hundreds of thousands to build what became one of history's most recognizable structures."
+          "label": "Explore further",
+          "text": "States including Zheng, Chu, Qin, Wei, Zhao, Qi, Lu, Han, Yan, and Zhongshan all built walls during the Warring States period — making wall construction one of the era's defining engineering activities. The rammed-earth technique used for these barriers was the same Neolithic pounded-soil method that had built Chinese city walls for thousands of years; workers packed moistened soil between wooden frames in successive layers, creating cross-sections still visible today (as at the Eastern Zhou city wall at Xinzheng in Henan). When the First Emperor unified China in 221 BCE, he actually ordered the destruction of the internal dividing walls between former states, then turned resources toward connecting the northern frontier barriers — a deliberate policy shift from internal control to external defense."
         }
-      ]
+      ],
+      "commonsFile": "Xinzheng_Ancient_City_Wall_of_Rammed_Earth,_Eastern_Zhou,_c._770-230_BC.jpg"
     },
     {
       "id": "evt-jixia-academy",
       "label": "Jixia Academy",
       "year": -374,
       "endYear": -221,
-      "description": "The Academy of Jixia in Qi was the world's first state-sponsored research institution, hosting scholars from every philosophical school for open debate.",
+      "description": "The Jixia Academy (founded c. 374 BCE) in Qi's capital Linzi was the world's first state-funded research institution — a place where the king of Qi paid scholars from every competing philosophical school to live, debate, and produce ideas, treating intellectual output as a strategic asset on par with military innovation.",
       "wikiSlug": "Jixia_Academy",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "The rulers of Qi, seeking to attract the best minds to strengthen their state, established a permanent academy near their capital Linzi. Scholars received stipends, housing, and honors simply to debate and write — no immediate practical output required."
-        },
-        {
-          "label": "What Happened",
-          "text": "Jixia hosted hundreds of scholars simultaneously from Confucian, Daoist, Legalist, Mohist, and Naturalist schools. Mencius, Xunzi, and many other major philosophers spent time there. The open debate format produced cross-fertilization between traditions."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Jixia was the world's first state-funded research institution — a model that prefigured the university system. It demonstrated that intellectual diversity across competing schools, not orthodoxy, produced civilization's best thinking."
+          "label": "Explore further",
+          "text": "The academy's top scholars held the rank of Grand Prefect — one of the highest state titles — and were exempted from manual labor obligations, making the position extraordinarily attractive to China's intellectual elite. Whether King Xuan founded it or merely restored an earlier institution begun by his grandfather Duke Huan is still debated by historians. In 2022, archaeologists revealed excavated ruins of the site after five years of digging: four rows of building foundations spread across roughly 40,000 square meters, with glazed architectural components that would have glowed with colored light when the sun hit them."
         }
       ]
     },
@@ -2754,61 +2546,47 @@
       "id": "evt-linzi-city",
       "label": "Linzi — Warring States Metropolis",
       "year": -374,
-      "description": "Linzi, capital of Qi, grew into a city of 300,000–700,000 people — the largest city on Earth during the Warring States period — a center of trade, philosophy, and iron manufacturing.",
+      "description": "Linzi, capital of the state of Qi, was one of the largest cities on Earth during the Warring States period, a metropolis of at least 300,000 residents (and possibly far more) that combined iron manufacturing, long-distance trade, and the intellectual ferment of the Jixia Academy in a single place.",
       "wikiSlug": "Ancient_Linzi",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Qi's wealth from salt, iron, and fishing created a massive commercial city. By the 4th century BCE, Linzi housed the Jixia Academy, state arsenals, vast iron foundries, and a merchant population that made it the dominant economic center of the Zhou world."
-        },
-        {
-          "label": "The Structure",
-          "text": "Ancient sources describe streets so crowded that carriages scraped wheels and pedestrians jostled shoulders. Archaeological excavations have confirmed city walls enclosing 15 sq km with densely packed residential and industrial zones — evidence of a true urban metropolis."
-        },
-        {
-          "label": "Legacy",
-          "text": "Linzi's scale demonstrates that Warring States China had developed urbanization and commercial economies far beyond what Western historians once assumed. Its destruction by Qin in 221 BCE ended the most cosmopolitan city of the ancient world outside the Mediterranean."
+          "label": "Explore further",
+          "text": "Excavations have revealed that Linzi had seven broad avenues up to 65 feet (20 meters) wide running in a grid, along with both a sewer system and a pressurized water supply — infrastructure more sophisticated than most contemporary cities anywhere in the world. Near the tomb of Duke Jing of Qi, archaeologists found more than 600 horses buried in rows as sacrificial offerings. When the Qin army conquered Linzi in 221 BCE, it was the last major city to fall before Ying Zheng declared himself First Emperor of a unified China."
         }
-      ]
+      ],
+      "commonsFile": "Linzi_model_2010_06_06.jpg"
     },
     {
       "id": "evt-mencius",
       "label": "Mencius",
       "year": -372,
       "endYear": -289,
-      "description": "Mencius developed Confucian thought by arguing that human nature is inherently good and that rulers who fail their people deserve to be overthrown — a democratic seed in Confucian soil.",
+      "description": "Mencius (Meng Ke, c. 372–289 BCE) was the second great sage of Confucianism, the thinker who turned Confucius's sayings about ritual and virtue into a rigorous ethical philosophy grounded in one bold claim: human nature is innately good.",
       "wikiSlug": "Mencius",
       "tier": 2,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Meng Ke (Mencius) was raised by a famously devoted mother who moved three times to ensure he grew up near educational influences. He became the most important Confucian thinker after Confucius himself, synthesizing and extending Confucian ethics."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "Mencius argued that human nature is inherently good (ren xing shan) — containing moral seeds of benevolence, righteousness, propriety, and wisdom. He also argued that the people are the most important element in a kingdom; a ruler who fails them loses the Mandate of Heaven and may be overthrown."
-        },
-        {
-          "label": "Legacy",
-          "text": "Mencius's arguments for human goodness and proto-democratic accountability became core Confucian doctrine. His book, the Mencius, became the fourth of the Four Books that formed the standard curriculum of Chinese education from the Song dynasty to the 20th century."
+          "label": "Explore further",
+          "text": "Mencius's mother became so legendary for her dedication to her son's education that she moved their household three times to find a suitable neighborhood — she is one of the most celebrated mothers in Chinese history. His most politically explosive line — 'the people are the most important element in a nation; the sovereign is the lightest' — was so dangerous that the Ming dynasty founder Zhu Yuanzhang, himself a former peasant rebel, ordered those passages removed from official editions of the text. Mencius spent roughly forty years traveling between states advising rulers, much like Confucius before him, and was consistently turned away."
         }
       ],
       "aliases": [
         "Meng Ke",
         "Mencian"
-      ]
+      ],
+      "commonsFile": "Half_Portraits_of_the_Great_Sage_and_Virtuous_Men_of_Old_-_Meng_Ke_(孟軻).jpg"
     },
     {
       "id": "evt-zhuangzi",
       "label": "Zhuangzi",
       "year": -369,
       "endYear": -286,
-      "description": "Zhuangzi expanded Daoist philosophy with paradoxical stories and humor, including the famous butterfly dream questioning the nature of reality — 'Am I a man dreaming I'm a butterfly?'",
+      "description": "Zhuangzi (Zhuang Zhou, c. 369–286 BCE) was the wild genius of Daoism, a philosopher who turned abstract ideas about reality and identity into some of the most vivid and strange stories in world literature — including the butterfly dream that asks whether you can ever really know who you are.",
       "wikiSlug": "Zhuangzi_(book)",
       "tier": 2,
       "tags": [
@@ -2817,301 +2595,328 @@
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Zhuang Zhou was a low-ranking official who rejected offers of high position to maintain his intellectual freedom. Unlike Confucians who traveled between courts seeking employment, he preferred poverty and independence, reportedly comparing a chief minister's post to a sacrificial ox."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "Zhuangzi developed Daoism into a rich literature of parables and thought experiments. His butterfly dream, the Cook Ding story (perfect skill as union with the Dao), and debates with death explore the relativity of perspective and the limitations of reason."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Zhuangzi book is one of the greatest works of world literature — funny, profound, and philosophically sophisticated. Its influence on Chinese Buddhism, art, and poetry was immense. The story of Cook Ding remains one of the most discussed texts in Chinese philosophy."
+          "label": "Explore further",
+          "text": "The Zhuangzi text we read today is not the original: Jin-dynasty scholar Guo Xiang edited it around 300 CE, trimming it from 52 chapters down to 33 and removing folkloric material he found insufficiently philosophical. When the king of Chu offered Zhuangzi the top ministerial post in the kingdom, Zhuangzi asked the envoys whether a sacred turtle would rather be dead and venerated in a temple or alive dragging its tail in the mud — then told them to go away. Martin Heidegger explicitly cited Zhuangzi in his 1945 writings, arguing that the text's concept of 'pure waiting' offered a model for Germans rebuilding after World War II."
         }
       ],
       "aliases": [
         "Zhuang Zhou",
         "Chuang Tzu"
-      ]
+      ],
+      "commonsFile": "Dschuang-Dsi-Schmetterlingstraum-Zhuangzi-Butterfly-Dream.jpg"
     },
     {
       "id": "evt-shang-yang-reforms",
       "label": "Shang Yang",
       "year": -356,
-      "description": "Shang Yang transformed Qin into a totalitarian military state through Legalist reforms: abolishing aristocratic privilege, rewarding military merit, and punishing dissent.",
+      "description": "Shang Yang (died 338 BCE) was the Legalist reformer who transformed Qin from a middling western state into a military juggernaut: he abolished aristocratic privilege, tied advancement to battlefield merit, codified universal laws, and made agriculture and war the only activities the state rewarded.",
       "wikiSlug": "Shang_Yang",
       "tier": 2,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Shang Yang (Wei Yang) was a minister from the state of Wei who found patronage in Qin after failing to gain influence at Wei's court. He convinced Duke Xiao of Qin to implement radical Legalist restructuring of the entire state — a transformation so complete it shocked the Zhou world."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "His reforms abolished hereditary aristocracy, replacing it with a 20-rank system based purely on battlefield merit (measured in enemy heads). He organized the population into mutual-surveillance groups of five families, standardized weights and measures, and concentrated all power in the ruler."
-        },
-        {
-          "label": "Legacy",
-          "text": "Shang Yang was ultimately executed by the same harsh laws he had created — torn apart by chariots after Duke Xiao died. But his reforms endured, transforming Qin into the most efficient military state in China and enabling the unification of 221 BCE."
+          "label": "Explore further",
+          "text": "Shang Yang was executed by the very mechanisms he created: when he fled the new king's wrath, an innkeeper refused to shelter him without proper identification documents — a rule Shang Yang himself had enacted. He was ultimately killed by chariot-dismemberment (julie), in which his limbs were tied to five horses or chariots and pulled apart. Despite the brutal end, the new king kept every one of his reforms intact, and it was those reforms that gave Qin the institutional foundation to unify China 117 years later."
         }
       ],
       "aliases": [
         "Lord Shang"
-      ]
+      ],
+      "commonsFile": "Statue_of_Shang_Yang.jpg"
     },
     {
       "id": "evt-qu-yuan",
       "label": "Qu Yuan",
       "year": -340,
       "endYear": -278,
-      "description": "The poet Qu Yuan, exiled from the state of Chu, drowned himself in the Miluo River in despair. The Dragon Boat Festival commemorates the search for his body.",
+      "description": "Qu Yuan (c. 340–278 BCE) was a minister of the state of Chu who was slandered by rivals and sent into exile, where he wrote the first body of poetry in Chinese history attached to a named individual — then drowned himself in the Miluo River when he learned that Qin had captured the Chu capital.",
       "wikiSlug": "Qu_Yuan",
       "tier": 2,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Qu Yuan was a high minister of the state of Chu who was exiled by a jealous rival after falling out of royal favor. During his years of wandering, he composed some of Chinese literature's greatest poems, including the Li Sao ('Encountering Sorrow')."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "Qu Yuan's poetry, collected in the Chu Ci anthology, introduced lyric poetry and shamanistic imagery alien to the Shijing's folk tradition. His despair at Chu's political corruption and eventual conquest by Qin is the emotional center of his work."
-        },
-        {
-          "label": "Legacy",
-          "text": "When Qin finally conquered Chu, Qu Yuan drowned himself in the Miluo River. The Dragon Boat Festival — rice dumplings thrown into water to feed fish, boats searching for his body — is one of China's most beloved holidays, still celebrated by hundreds of millions annually."
+          "label": "Explore further",
+          "text": "Qu Yuan was the first Chinese poet to have his name formally associated with his own work — a basic fact of authorship so unremarkable today that its novelty in 278 BCE is easy to miss. After his death, he was sometimes venerated as a water god by Taiwanese Taoists. His poem 'Heavenly Questions' (Tianwen) gave its name to China's Mars exploration program, launched in 2021."
         }
       ],
       "aliases": [
         "Qu Yuan's"
-      ]
+      ],
+      "commonsFile": "Qu_Yuan_Chen_Hongshou_2.jpg"
     },
     {
       "id": "evt-xunzi",
       "label": "Xunzi",
       "year": -310,
       "endYear": -235,
-      "description": "Xunzi argued that human nature is inherently selfish and requires education and ritual to become good — the opposite of Mencius. His students Han Feizi and Li Si built the Qin Empire.",
+      "description": "Xunzi (Xun Kuang, c. 310–235 BCE) was the third great Confucian thinker and the one who planted a seed that grew into Legalism: unlike Mencius, he argued that human nature is inherently selfish and that only rigorous education, ritual, and strong institutions can make people good.",
       "wikiSlug": "Xunzi_(philosopher)",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Xun Kuang (Xunzi) was a Confucian scholar who taught at the Jixia Academy and served as a magistrate. His position — that human nature is evil (xing e) and requires ritual and education to become good — was the polar opposite of Mencius and sparked controversy within Confucianism."
-        },
-        {
-          "label": "Role in the Zhou Era",
-          "text": "Xunzi synthesized Confucian ritual with a hard-headed realism about human nature. His two most famous students, Han Feizi and Li Si, took his insights about human self-interest and built them into Legalist statecraft — the ideology that built the Qin Empire."
-        },
-        {
-          "label": "Legacy",
-          "text": "Xunzi represents the hinge between Zhou Confucianism and Qin Legalism. His influence on Han Feizi and Li Si made him indirectly responsible for the unification of China — a Confucian whose students built an anti-Confucian empire."
+          "label": "Explore further",
+          "text": "Xunzi's two most famous students — Han Fei and Li Si — became the architects of Qin Legalism, a political system so contrary to Xunzi's own ethics that it tarnished his reputation for centuries afterward. He was also an accomplished poet, writing fu (rhyming prose poems) during his years in Chu, though that collection is now lost. He served as magistrate of Lanling in Chu until his patron Lord Chunshen was assassinated in 238 BCE, forcing him into retirement; if he survived long enough to witness Li Si's ministry under the First Emperor, he may have lived into his nineties."
         }
       ],
       "aliases": [
         "Xun Kuang"
-      ]
+      ],
+      "commonsFile": "Portrait_of_Xun_Zi.jpg"
     },
     {
       "id": "evt-han-feizi",
       "label": "Han Feizi and Legalism",
       "year": -280,
       "endYear": -233,
-      "description": "Han Feizi synthesized Legalist thought into a systematic theory of authoritarian statecraft: clear laws, harsh punishments, and techniques of power. His ideas built the Qin state.",
+      "description": "Han Feizi (Han Fei, died 233 BCE) was a prince of Han who studied under Xunzi and then pushed Xunzi's pessimism about human nature to its logical conclusion: forget virtuous rulers, build a system of clear laws, fear, and impersonal institutions that works regardless of who sits on the throne.",
       "wikiSlug": "Han_Feizi",
       "tier": 2,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Context",
-          "text": "Han Feizi was a prince of the state of Han who stuttered and could not speak well but wrote brilliantly. His synthesis of Legalist thought — drawing on Shen Buhai's techniques of power, Shen Dao's situational authority, and Shang Yang's law — created a comprehensive theory of autocratic governance."
-        },
-        {
-          "label": "The Work",
-          "text": "The Han Feizi text argues that a ruler must use three tools: law (fa), technique (shu), and power/position (shi). Rulers should never show favoritism, should reward only measurable merit, and should maintain mystery and unpredictability to prevent manipulation by ministers."
-        },
-        {
-          "label": "Impact",
-          "text": "When the king of Qin (future First Emperor) read Han Feizi's essays, he reportedly said 'If I could meet this man, I would die without regret.' He summoned Han Feizi to court — then had him imprisoned and forced to suicide, possibly fearing his influence. His ideas built the Qin Empire anyway."
+          "label": "Explore further",
+          "text": "Han Feizi is the origin of the Chinese word for 'contradiction' (maodun, literally 'spear-shield'): his text tells the story of a merchant who boasted he sold both an unstoppable spear and an impenetrable shield, and couldn't answer what happened when one met the other. He also wrote the first-ever commentaries on the Daoist classic, the Tao Te Ching — not as spiritual philosophy but as a manual for political control. His death was a perfect illustration of his own theories: his former classmate Li Si, fearing displacement, had him imprisoned and forced to take poison before the king of Qin could meet him face to face."
         }
       ],
       "aliases": [
         "Han Feizi",
         "Han Fei"
-      ]
+      ],
+      "commonsFile": "Hanfeizi_or_Han_Feizi,_Qing_dynasty,_Hunan_Museum.jpg"
     },
     {
       "id": "evt-battle-changping",
       "label": "Battle of Changping",
       "year": -260,
-      "description": "The state of Qin annihilated 400,000 Zhao soldiers at Changping — one of the bloodiest battles in ancient history — effectively deciding the Warring States contest.",
+      "description": "At Changping in 260 BCE, the Qin army surrounded and starved 450,000 Zhao soldiers into surrender, then executed nearly all of them — one of the largest mass killings in the ancient world and the moment Qin's dominance became irreversible.",
       "wikiSlug": "Battle_of_Changping",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "Zhao and Qin had been competing for control of the upper Yellow River valley. When Zhao replaced its experienced defensive general Lian Po with the younger, more aggressive Zhao Kuo (who knew tactics only from books), Qin's general Bai Qi saw his opportunity."
-        },
-        {
-          "label": "The Battle",
-          "text": "Bai Qi lured Zhao Kuo's army into an advance, then used flanking cavalry to cut off their supply lines. The Zhao army was surrounded for 46 days, then surrendered. Bai Qi reportedly executed the 400,000 prisoners — only 240 young soldiers were released."
-        },
-        {
-          "label": "Casualties & Aftermath",
-          "text": "Changping removed Zhao as a viable counterweight to Qin. Ancient sources' figure of 400,000 dead may be exaggerated, but the battle clearly annihilated the Zhao military. It is considered the decisive moment when Qin's eventual unification of China became inevitable."
+          "label": "Explore further",
+          "text": "The encirclement worked because Qin general Bai Qi deliberately weakened his left flank to lure the Zhao army across the Dan River, then swung 25,000 troops through the Taiyue Mountains and 5,000 cavalry to cut their supply lines — a pincer very similar to Hannibal's later maneuver at Cannae. Only 240 of the youngest Zhao soldiers were spared and sent home; everyone else was killed over the course of the surrender. The Zhao commander Zhao Kuo, who was inexperienced and had been promoted over veteran generals, gave his name to a Chinese idiom still in use today: \"talking war on paper\" (纸上谈兵), meaning someone who theorizes brilliantly but has never been tested."
         }
-      ]
+      ],
+      "commonsFile": "Battle_of_Changping.png"
     },
     {
       "id": "evt-dujiangyan-irrigation",
       "label": "Dujiangyan Irrigation System",
       "year": -256,
-      "description": "Li Bing built the Dujiangyan irrigation system in Sichuan, a masterwork of hydraulic engineering that still functions today and made the Chengdu Plain China's most productive farmland.",
+      "description": "Qin governor Li Bing built the Dujiangyan irrigation system around 256 BCE on the Min River in Sichuan — a dam-free hydraulic network that splits the river using its own energy, eliminates floods, and channels water to farmland with no mechanical parts.",
       "wikiSlug": "Dujiangyan",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "The Chengdu Plain was prone to catastrophic flooding from the Min River each spring, then drought the rest of the year. Li Bing, Qin's governor of the Shu region (former state of Shu, modern Sichuan), devised an ingenious solution using the river's own force."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Li Bing built a fish-shaped island in the river to divide it into inner (irrigation) and outer (flood control) channels, with a spillway that automatically maintains the correct water level. No dam or lock was needed — the system regulates itself through fluid dynamics."
-        },
-        {
-          "label": "Impact",
-          "text": "Dujiangyan has operated for 2,300 years and still irrigates 668,000 hectares — the oldest functioning irrigation system in the world. It made Sichuan China's most productive farmland and fed the population growth that powered Qin's conquests."
+          "label": "Explore further",
+          "text": "Dujiangyan has operated continuously for 2,300 years and today irrigates 668,700 hectares (over 5,300 sq km, or about 2,000 square miles) of the Chengdu Plain. Because Li Bing had no gunpowder, his engineers cracked the mountain rock needed for the intake channel by repeatedly heating it with fire and then dousing it with cold water, completing a 20-meter-wide gorge in just eight years. The system's fish-mouth levee naturally pushes about 60% of the Min River's flow into the inner irrigation channel during dry season, then dumps excess flood water into the outer channel automatically when the river rises — no human operator required."
         }
       ],
       "aliases": [
         "Li Bing",
         "Dujiangyan"
-      ]
+      ],
+      "commonsFile": "Dujiang_Weir.jpg"
     },
     {
       "id": "evt-king-cheng",
       "label": "King Cheng of Zhou",
       "year": -1042,
       "endYear": -1006,
-      "description": "King Cheng inherited the throne as a child, relying on the Duke of Zhou's regency. His reign saw the consolidation of Zhou power and the formalization of feudal institutions.",
+      "description": "King Cheng (ruled roughly 1042–1021 BCE) inherited the Zhou throne as a child and spent his reign consolidating the empire his father had won by force, presiding over the suppression of the Three Guards rebellion and the formal buildout of the feudal system under his uncle the Duke of Zhou.",
       "wikiSlug": "King_Cheng_of_Zhou",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "King Cheng's reign is considered the Zhou golden age of institution-building, not conquest — the rituals, ranks, and administrative structures codified under him set the template that Confucius would idealize five centuries later. He came of age to full rule only after the Duke of Zhou voluntarily stepped back, a handover so clean it became a model of statecraft. His reign length is still debated by scholars, with dates ranging from 1042 to as late as 1006 BCE depending on the chronological system used."
+        }
+      ],
+      "commonsFile": "King_Cheng_of_Zhou.jpg"
     },
     {
       "id": "evt-rebellion-three-guards",
       "label": "Rebellion of the Three Guards",
       "year": -1042,
-      "description": "Three of King Wu's brothers rebelled against the Duke of Zhou's regency, allying with Shang loyalists. The Duke crushed the revolt and expanded Zhou control eastward.",
+      "description": "Within months of the Zhou conquest, three of King Wu's own brothers — Guanshu Xian, Caishu Du, and Huoshu Chu — rebelled against the Duke of Zhou's regency, joining forces with Shang loyalists and eastern nobles who saw a chance to break free. The Duke spent three years suppressing it, executing the ringleaders (including Guanshu, his own sibling) and using the victory to push Zhou authority deep into eastern China.",
       "wikiSlug": "Rebellion_of_the_Three_Guards",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The rebels' core accusation was that the Duke of Zhou was planning to steal the throne from his nephew — a suspicion not unreasonable given that regencies almost always ended in usurpation in ancient China. Prince Wu Geng, son of the last Shang king, was killed in the fighting, extinguishing the direct Shang royal line. After the victory, the Duke resettled surviving Shang nobility in a controlled state called Song, where they could maintain their ancestral rituals without posing a military threat."
+        }
+      ],
+      "commonsFile": "Rebellion_of_the_Three_Guards.png"
     },
     {
       "id": "evt-luoyi-eastern-capital",
       "label": "Luoyi Eastern Capital Founded",
       "year": -1036,
-      "description": "The Duke of Zhou established a second capital at Luoyi near modern Luoyang to project Zhou authority into the conquered Shang heartland.",
+      "description": "Around 1036 BCE the Duke of Zhou built a new city called Chengzhou — also known as Luoyi — near what is now Luoyang in central China, deliberately planted in the heart of the old Shang territory to project Zhou authority directly into the conquered east.",
       "wikiSlug": "Chengzhou",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The city was designed partly to house and contain the remnants of the Shang nobility under Zhou supervision, keeping an eye on the most likely source of future rebellion. Luoyang's location near the center of the North China Plain made it easier to reach from all directions than the western homeland at Feng-Hao, which is why it eventually became the primary capital when the Zhou were pushed out of the west in 771 BCE. Modern Luoyang is built directly over the ruins of the ancient Zhou city of Wangcheng, visible today at Wangcheng Park."
+        }
+      ]
     },
     {
       "id": "evt-da-yu-ding",
       "label": "Da Yu Ding Bronze",
       "year": -980,
-      "description": "A massive bronze tripod recording a royal land grant to a nobleman named Yu, one of the most important Western Zhou bronze inscriptions documenting the feudal system.",
+      "description": "The Da Yu Ding is a massive bronze tripod cast around 981 BCE during the reign of King Kang, standing nearly 40 inches (102 cm) tall and weighing 338 pounds (154 kg), inscribed with 291 characters recording a royal land grant to a nobleman named Yu — a legal document in bronze.",
       "wikiSlug": "Da_Yu_ding",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inscription opens with a pointed history lesson: it explains that the Shang fell because of excessive drinking, then praises Zhou restraint by contrast — royal propaganda literally cast in bronze. The text records that Yu received over a thousand servants along with the land, giving modern historians a concrete glimpse of labor and wealth transfers under the Western Zhou. The vessel was unearthed in 1849 in Shaanxi province and is now on permanent display at the National Museum of China in Beijing."
+        }
+      ],
+      "commonsFile": "Da_Yu_ding.jpg"
     },
     {
       "id": "evt-mao-gong-ding",
       "label": "Mao Gong Ding Bronze",
       "year": -850,
-      "description": "With 497 characters, the Mao Gong Ding bears the longest bronze inscription ever found, recording King Xuan's charge to his minister Mao Gong.",
+      "description": "The Mao Gong Ding, cast around 805 BCE, holds the longest bronze inscription ever found in China — 500 characters across 32 lines — recording King Xuan's charge to his minister the Duke of Mao, complete with the gifts awarded and the minister's pledge to future generations.",
       "wikiSlug": "Mao_Gong_Ding",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The vessel is one of three objects the National Palace Museum in Taipei calls its \"treasures,\" alongside the famous Jadeite Cabbage and Meat-Shaped Stone — remarkable company for a 2,800-year-old cooking pot. It was excavated in 1843 from Qishan County, Shaanxi, the same county that has yielded many of the most important Western Zhou bronzes. The inscription invokes the Mandate of Heaven and cites the founding kings, making it not just a legal record but a piece of political theology designed to outlast the bronze itself."
+        }
+      ],
+      "commonsFile": "Ding_cauldron_of_Duke_Mao.jpg"
     },
     {
       "id": "evt-king-li-exile",
       "label": "King Li Exiled",
       "year": -841,
-      "description": "The people of the capital rioted against King Li's tyranny and drove him into exile, leading to the unprecedented Gonghe Regency.",
+      "description": "In 841 BCE the people of the Zhou capital rose up against King Li — whose monopolies on forests and marshes had squeezed commoners and whose crackdown on dissent had left citizens exchanging glances instead of speaking — and drove him into exile at a place called Zhi, near modern Linfen in Shanxi province, where he lived until his death fourteen years later.",
       "wikiSlug": "King_Li_of_Zhou",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The bronze Duo You Ding, cast during King Li's reign, records his military campaigns against the Xianyun nomads on the northern frontier — so Li was fighting external threats at the same time his domestic tyranny was collapsing his support base. His exile is remarkable because the Zhou Mandate of Heaven framework technically required the king to be removed by Heaven's withdrawal, not by a popular riot; the nobles awkwardly sidestepped this by establishing a regency rather than deposing him outright. The phrase historians quote to capture the atmosphere — \"the people dared not speak; they could only exchange glances on the road\" — comes from the Guoyu (Discourses of the States), a text compiled centuries later but preserving what are believed to be genuine court records."
+        }
+      ],
+      "commonsFile": "Duo_You_ding_inscription,_with_transcription_多友鼎铭文拓片.jpg"
     },
     {
       "id": "evt-gonghe-regency",
       "label": "Gonghe Regency — 841 BCE",
       "year": -841,
       "endYear": -828,
-      "description": "After King Li's exile, a regency governed the Zhou state. 841 BCE became the first reliably dated year in Chinese history, the starting point for continuous chronology.",
+      "description": "After King Li fled into exile, the Zhou court — with the rightful heir too young to rule — established the Gonghe Regency, a caretaker government that ran the state for fourteen years from 841 to 828 BCE and gave Chinese history something invaluable: the first year from which the record runs continuously and reliably to the present.",
       "wikiSlug": "Gonghe_Regency",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The identity of the regents is still disputed: the historian Sima Qian said power was shared by two senior dukes (the Duke of Zhou and the Duke of Shao), but later texts — including the Bamboo Annals and the newly discovered Xinian manuscript — suggest a single lord called \"He, Earl of Gong\" actually governed alone, and that the dual-duke story may be a later invention. The name \"Gonghe\" (共和) itself became the classical Chinese word for \"republic,\" a resonance that gave the period outsized symbolic weight when Chinese reformers and revolutionaries invoked it two and a half millennia later. King Li's son, the future King Xuan, was reportedly hidden in a minister's household during this period to protect him from the capital's turbulence."
+        }
+      ],
+      "commonsFile": "King_Xuan_(monarch_of_the_Zhou_dynasty).png"
     },
     {
       "id": "evt-sima-qian",
       "label": "Sima Qian's Records of the Grand Historian",
       "year": -94,
-      "description": "Sima Qian completed the first comprehensive history of China, using 841 BCE as the starting point for precise chronology and shaping how all later dynasties recorded their history.",
+      "description": "Around 94 BCE, the court historian Sima Qian completed the Shiji (Records of the Grand Historian), a 130-chapter account spanning 2,500 years of Chinese history from the legendary Yellow Emperor through the Han dynasty — and the work that established 841 BCE as the anchor year for all precise Chinese chronology.",
       "wikiSlug": "Records_of_the_Grand_Historian",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sima Qian wrote much of the Shiji under extraordinary personal circumstances: he had been punished with castration by Emperor Wu after defending a surrendered general, and chose to finish the history rather than commit suicide because he believed the work had to survive. At roughly 526,500 Chinese characters, the Shiji is about four times the length of Thucydides' History of the Peloponnesian War. His original manuscript — written on bamboo slips that would have weighed 40–60 kilograms bundled — was hidden after 91 BCE to protect it from Emperor Wu's court, then disseminated about twenty years later by Sima Qian's grandson."
+        }
+      ],
+      "commonsFile": "Si_maqian.jpg"
     },
     {
       "id": "evt-king-you-beacon",
       "label": "King You and the Beacon Fires",
       "year": -771,
-      "description": "King You's repeated false lighting of the beacon fires to amuse his concubine Bao Si became one of China's most famous cautionary tales about the abuse of power.",
+      "description": "King You (reigned 781–771 BCE) is remembered in Chinese tradition for lighting the ridge-top beacon fires — the Western Zhou's emergency signal to summon feudal armies — repeatedly as a trick to amuse his concubine Bao Si, until the lords stopped responding, leaving him defenseless when the real invasion came.",
       "wikiSlug": "King_You_of_Zhou",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The earliest surviving written version of the beacon-fire story appears in Sima Qian's Shiji, compiled roughly 700 years after the events, and many modern historians treat it as a moral parable grafted onto an otherwise historical collapse rather than a literal account. Bao Si is one of several women in Chinese historical texts blamed for dynastic ruin — a recurring literary pattern (alongside Daji of the Shang and Meixi of the Xia) that scholars call the \"seductive woman brings down the kingdom\" template. What is historically solid is that in 779 BCE King You formally demoted his legitimate queen and disinherited Crown Prince Yijiu in favor of Bao Si's infant son, a constitutional rupture that turned the queen's father, the Marquis of Shen, into an enemy with strong motive to act."
+        }
+      ],
+      "commonsFile": "Bao_Si_-_Bai_Mei_Xin_Yong.JPG"
     },
     {
       "id": "evt-spring-autumn-begins",
       "label": "Spring and Autumn Period Begins",
       "year": -770,
-      "description": "After the fall of Western Zhou, the Eastern Zhou era began a centuries-long period of interstate competition among powerful feudal states while the Zhou king became a figurehead.",
+      "description": "The Spring and Autumn period (770–476 BCE) was the first phase of Eastern Zhou rule: roughly three centuries of near-constant interstate war, shifting alliances, and rising feudal power during which the old hierarchical Zhou order began to crack apart.",
       "wikiSlug": "Spring_and_Autumn_period",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The period gets its name from the Spring and Autumn Annals, a year-by-year chronicle of the state of Lu kept between 722 and 481 BCE — the driest possible title for one of the most violent eras in Chinese history. Ancient sources claimed the Eastern Zhou was divided into as many as 1,773 states; by the end of the Spring and Autumn period, 128 of the 148 states known by name had been swallowed by the four largest powers. Confucius briefly served as acting prime minister of his home state of Lu in 499 BCE, during this same period whose annals he is traditionally credited with editing."
+        }
+      ],
+      "commonsFile": "Ch'un-Ch'iu_Period,_722-481_BC.jpg"
     },
     {
       "id": "evt-duke-wen-jin",
       "label": "Duke Wen of Jin",
       "year": -636,
       "endYear": -628,
-      "description": "After 19 years in exile, Duke Wen claimed the Jin throne and became hegemon, establishing Jin as the dominant northern power at the Battle of Chengpu.",
+      "description": "Duke Wen of Jin (reigned 636–628 BCE) spent 19 years in exile before claiming the Jin throne, then quickly established himself as the second great hegemon by defeating Chu at the Battle of Chengpu in 632 BCE.",
       "wikiSlug": "Duke_Wen_of_Jin",
       "tier": 3,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "During his wandering exile, Chong'er (his personal name) passed through at least seven different states including Qi, Cao, Song, Zheng, Chu, and finally Qin — whose ruler Duke Mu sent an army to escort him home to power. A foreign noblewoman who observed his retinue reportedly remarked that every single one of his followers was talented enough to be the prime minister of a state. His loyal retainer Jie Zhitui, who refused to accept any reward after Duke Wen took the throne and hid in the mountains, is the origin of China's Cold Food Festival (Hanshi), still observed in parts of China today."
+        }
+      ],
+      "commonsFile": "Battle_of_Chengpu.png"
     },
     {
       "id": "evt-battle-chengpu",
@@ -3128,175 +2933,263 @@
       "label": "King Zhuang of Chu",
       "year": -613,
       "endYear": -591,
-      "description": "King Zhuang brought Chu to its greatest power and famously asked about the weight of the Zhou king's ritual cauldrons, a veiled challenge to the mandate itself.",
+      "description": "King Zhuang of Chu (reigned 613–591 BCE) brought the southern state of Chu to its greatest power and openly challenged Zhou ritual supremacy by asking about the weight of the Zhou king's legendary nine bronze cauldrons — a brazen signal that he was thinking about replacing the Zhou entirely.",
       "wikiSlug": "King_Zhuang_of_Chu",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chu's king asking about the weight of the ding (ritual cauldrons believed to embody the Mandate of Heaven) was so politically charged that the Chinese phrase 'to inquire about the ding in the central plains' became a lasting idiom for harboring supreme ambitions. King Zhuang spent the first three years of his reign in apparent indulgence and inaction, refusing to issue any edicts — then abruptly reformed and became one of the era's most effective rulers, inspiring the chengyu (four-character idiom) 'amaze others with a single cry,' meaning an unexpected transformation to greatness. His chancellor Sunshu Ao also oversaw major dam and irrigation projects in northern Anhui, among the earliest large-scale water management works in Chinese history."
+        }
+      ],
+      "commonsFile": "楚莊王_繡像東周列國全志.jpg"
     },
     {
       "id": "evt-ox-drawn-iron-plow",
       "label": "Ox-Drawn Iron Plow",
       "year": -500,
-      "description": "The combination of iron plowshares and ox traction multiplied the amount of land a family could cultivate, driving the agricultural revolution that fed the Warring States armies.",
+      "description": "The ox-drawn iron plow transformed Chinese agriculture during the Warring States period, allowing a single family to break and till far more land than was possible with wooden or bronze tools, and opening previously unworkable soils to cultivation.",
       "wikiSlug": "Chinese_agriculture",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A complete Qin-state iron plowshare was excavated at the Chenjiagou site in Lintong County in 1980, giving us a direct look at the tool that fed Qin's conquering armies. The iron plow's moldboard design — which curled turned soil to the side rather than just pushing it — was a Chinese innovation that Europe did not independently develop until roughly the 17th century CE. Archaeological iron sickles and plow parts appear together in Shandong and Hebei museum collections, confirming the agricultural package spread as a unit."
+        }
+      ],
+      "commonsFile": "Han_Iron_Sickle_and_Plow_(10128886134).jpg"
     },
     {
       "id": "evt-analects",
       "label": "The Analects (Lunyu)",
       "year": -475,
-      "description": "Confucius's students compiled his sayings into the Analects after his death, creating the foundational text of Chinese education and moral philosophy for over two millennia.",
+      "description": "The Analects (Lunyu, \"Selected Sayings\") is the collection of Confucius's conversations and teachings compiled by his disciples after his death in 479 BCE, organized into 20 books, and eventually canonized as the single most important text in Chinese education.",
       "wikiSlug": "Analects",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ancient scholars weren't even working from one authoritative version: at least three competing editions circulated during the Han dynasty — the Lu version (20 chapters), the Qi version (22 chapters), and an \"Old Text\" edition of 21 chapters reportedly found hidden inside a wall around 157–141 BCE. Modern scholars believe the Analects took roughly 200 years to reach its final form, with portions added well into the Han dynasty. Strikingly, about 75% of the Confucian sayings cited by the philosopher Mencius — Confucius's most important early interpreter — simply don't appear in the received text of the Analects at all."
+        }
+      ],
+      "commonsFile": "Analects_from_Dunhuang.jpg"
     },
     {
       "id": "evt-partition-jin",
       "label": "Partition of Jin",
       "year": -453,
-      "description": "Three ministerial families divided the great state of Jin among themselves, formally ending the feudal order and marking the transition from the Spring and Autumn to the Warring States period.",
+      "description": "In 453 BCE, three ministerial families — Wei, Han, and Zhao — divided the great state of Jin among themselves after eliminating their rivals; the Zhou king formally recognized the split in 403 BCE, an admission that the old feudal order in which only the Son of Heaven could create new states was dead.",
       "wikiSlug": "Partition_of_Jin",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jin's collapse was ironic: it fell to the same dynamic that had broken the Zhou kingdom, powerful subordinates accumulating land and armies until they outgrew the ruler above them. The three successor states moved fast to prevent the same thing happening to them, building strong bureaucracies and weakening the aristocratic families that might threaten their own power. The Zhou king's 'recognition' in 403 BCE was essentially a hostage signing a ransom note — he had no choice, and everyone in the Chinese world understood what his acquiescence meant."
+        }
+      ],
+      "commonsFile": "Cast_Coins_of_Han,_Wei,_and_Zhao,_Warring_States.jpg"
     },
     {
       "id": "evt-cavalry-king-wuling",
       "label": "King Wuling Adopts Cavalry",
       "year": -307,
-      "description": "King Wuling of Zhao adopted nomadic riding dress and cavalry tactics, a cultural revolution that shocked the Chinese world and transformed Warring States warfare.",
+      "description": "King Wuling of Zhao (reigned 325–299 BCE) ordered his soldiers to abandon traditional flowing Chinese robes for the trousers, short jackets, and boots worn by nomadic steppe riders — a reform called 'Wearing Hu Attire and Shooting from Horseback' — so Zhao could field effective cavalry against its northern neighbors.",
       "wikiSlug": "King_Wuling_of_Zhao",
       "tier": 3,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wuling faced fierce opposition from conservative courtiers who saw adopting 'barbarian' dress as a humiliation; he personally wore the new uniform and gifted sets of clothing to skeptics including his own uncle, Lord Cheng. Within five years of the reform, Zhao's forces had defeated the Loufan and Linhu nomadic tribes, annexed portions of Zhongshan, and established two new frontier prefectures — Yunzhong and Jiuyuan — along the upper Yellow River. His public defense of the change: 'There is not only one way to rule the world, nor is there any need to copy the old to benefit the country.'"
+        }
+      ],
+      "commonsFile": "Statue_of_King_Zhao_Wuling_in_Congtai_Park.jpg"
     },
     {
       "id": "evt-dao-de-jing",
       "label": "Dao De Jing",
       "year": -400,
-      "description": "The foundational text of Daoism, attributed to Laozi, offered an alternative to Confucianism through paradox, naturalness, and wuwei. It is the second most translated book in world history.",
+      "description": "The Dao De Jing (\"Classic of the Way and Its Power\") is a short but extraordinarily dense philosophical text of roughly 5,000 Chinese characters, attributed to Laozi, that lays out the Daoist vision of a world best understood through paradox, simplicity, and alignment with the nameless force underlying all things.",
       "wikiSlug": "Tao_Te_Ching",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Dao De Jing has been translated into Western languages alone over 250 times — making it one of the most-translated works in history — and into an estimated 94 languages total with around 1,930 known translations worldwide. Approximately three-quarters of the original Chinese text rhymed, meaning it was composed as poetry as much as philosophy, a quality almost entirely lost in translation. The oldest known manuscript version — the Guodian Chu Slips, discovered in 1993 — predates 300 BCE and differs enough from later versions to suggest the text was still evolving for at least a century after it was first written."
+        }
+      ],
+      "commonsFile": "Mawangdui_LaoTsu_Ms2.JPG"
     },
     {
       "id": "evt-zou-yan",
       "label": "Zou Yan and Yin-Yang Cosmology",
       "year": -305,
       "endYear": -240,
-      "description": "Zou Yan systematized the yin-yang and five-phases cosmological framework that would underpin Chinese medicine, astrology, and dynastic succession theory for millennia.",
+      "description": "Zou Yan (c. 305–240 BCE) was a Jixia Academy scholar who systematized the yin-yang and five-phases (wuxing) cosmological framework — a theory that five elemental forces (wood, fire, earth, metal, water) generate and overcome each other in a fixed cycle, governing everything from the seasons to dynastic legitimacy to the organs of the human body.",
       "wikiSlug": "Zou_Yan",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "British historian of science Joseph Needham called Zou Yan 'the real founder of all Chinese scientific thought' — a striking claim for someone almost unknown outside specialist circles. Despite his enormous influence, every single one of Zou Yan's original writings has been lost; everything known about his ideas comes from quotations preserved in later texts, primarily Sima Qian's Records of the Grand Historian written three centuries after his death."
+        }
+      ]
     },
     {
       "id": "evt-chu-silk-manuscript",
       "label": "Chu Silk Manuscript",
       "year": -300,
-      "description": "The oldest known manuscript written on silk, containing cosmological diagrams and calendrical text from the state of Chu, demonstrating that silk was already a writing medium.",
+      "description": "The Chu Silk Manuscript (Chu Bo Shu), created around 300 BCE in the southern state of Chu, is the oldest known manuscript written on silk, containing cosmological diagrams, a lunisolar calendar, and text about the creation of the universe and the monthly gods that govern it.",
       "wikiSlug": "Chu_Silk_Manuscript",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The manuscript measures 47 by 38 centimeters and contains 926 ancient characters, organized into three sections, with twelve masked deity figures illustrated around the margins — one for each month. Grave robbers found it between 1934 and 1942 near Changsha, Hunan; an American collector transported it to the United States in the 1940s, and it now sits in the National Museum of Asian Art (the Arthur M. Sackler Gallery) in Washington, D.C., where China has been seeking its return as recently as 2025. Infrared photography was needed to decipher portions of the text that had faded beyond visibility to the naked eye."
+        }
+      ]
     },
     {
       "id": "evt-li-sao",
       "label": "Li Sao by Qu Yuan",
       "year": -300,
-      "description": "Qu Yuan's long poem 'Encountering Sorrow' is the first great work of individual literary expression in Chinese history, a voice of personal grief and political protest.",
+      "description": "The Li Sao ('Encountering Sorrow'), composed by Qu Yuan around 300 BCE, is the first great work of individual literary expression in Chinese history: 373 lines of personal grief, political outrage, and fantastical spirit journeys, written by a minister in exile who refused to compromise his integrity.",
       "wikiSlug": "Li_Sao",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Li Sao is one of the longest poems in pre-Qin literature and the centerpiece of the Chuci ('Songs of Chu') anthology, which became the southern counterpart to the northern Book of Songs and shaped virtually every subsequent tradition of Chinese lyric poetry. Even the title carries uncertainty: scholars debate whether it originally meant 'leaving with sorrow' before scribal errors changed the characters to 'encountering sorrow.' The poem ends not with resignation but with the poet deciding to seek out legendary sages who refused corrupt courts rather than remain in a world that had abandoned virtue."
+        }
+      ],
+      "commonsFile": "Li_sao_illustré_(crop).png"
     },
     {
       "id": "evt-dragon-boat-festival",
       "label": "Dragon Boat Festival Origin",
       "year": -278,
-      "description": "Qu Yuan drowned himself in the Miluo River after Qin conquered the Chu capital. The Dragon Boat Festival, still celebrated by hundreds of millions, commemorates the search for his body.",
+      "description": "The Dragon Boat Festival (Duanwu, the fifth day of the fifth lunar month) commemorates Qu Yuan's drowning in 278 BCE: legend says fishermen raced out in boats to save his body and threw rice dumplings (zongzi) into the water to keep fish away, giving rise to the two defining traditions of the holiday.",
       "wikiSlug": "Dragon_Boat_Festival",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In September 2009, UNESCO designated the Dragon Boat Festival as the first Chinese holiday added to its Representative List of Intangible Cultural Heritage of Humanity. The fifth lunar month was traditionally considered an unlucky and even poisonous month in Chinese popular belief — one reason a festival built around protective rituals and loud drums made cultural sense. After 1949, the People's Republic of China did not initially recognize the festival as a public holiday; it was only reinstated in 2008."
+        }
+      ],
+      "commonsFile": "Qing_Dynasty_Dragon_Boat_Festival.jpg"
     },
     {
       "id": "evt-su-qin-zhang-yi",
       "label": "Su Qin and Zhang Yi",
       "year": -330,
-      "description": "The rival strategists Su Qin and Zhang Yi embodied Warring States diplomacy: Su Qin assembled a six-state Vertical alliance against Qin, while Zhang Yi peeled states away with Horizontal deals.",
+      "description": "Su Qin and Zhang Yi were the era's most famous 'traveling persuaders' (youshui) — rival strategists who embodied the Warring States diplomatic art: Su Qin built a six-state Vertical alliance against Qin, while Zhang Yi spent his career dismantling it one state at a time for Qin.",
       "wikiSlug": "Su_Qin",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At his peak, Su Qin reportedly held the prime ministerial seals of all six eastern kingdoms simultaneously — Qi, Chu, Yan, Han, Zhao, and Wei — though modern scholarship (drawing on texts discovered at Mawangdui in 1973) suggests traditional accounts of him were significantly embellished by later authors. Su Qin's end was spectacular: King Min of Qi had him publicly torn limb from limb; in a posthumous twist, Su Qin had arranged for himself to be accused of treason after death, which drew his real assassins into the open and allowed the king to execute them. Zhang Yi's counter-strategy — the Horizontal (lianheng) alliance — peeled eastern states away from the coalition through a mix of territorial promises, threats, and outright deception that proved decisive in Qin's eventual rise."
+        }
+      ],
+      "commonsFile": "苏秦.png"
     },
     {
       "id": "evt-bai-qi",
       "label": "General Bai Qi",
       "year": -293,
       "endYear": -257,
-      "description": "Qin's most feared general, credited with killing over one million enemy soldiers. His massacre of 400,000 Zhao prisoners at Changping remains one of history's most devastating atrocities.",
+      "description": "Bai Qi was Qin's most lethal general during the Warring States period, winning dozens of battles over three decades and earning the nickname \"Ren Tu\" (人屠, \"human butcher\") for the staggering casualties attributed to him.",
       "wikiSlug": "Bai_Qi",
       "tier": 3,
       "tags": [
         "wars"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ancient Chinese sources credit Bai Qi with killing over a million enemy soldiers across his career — a number historians treat skeptically but that reflects a genuine record of annihilating, not just defeating, opposing armies. He reportedly suffered only a single battlefield defeat in his entire career, yet died by forced suicide in 257 BCE, ordered by the very king he had served: after refusing to lead a second assault on the city of Handan, rivals at court maneuvered him out of favor. Before dying he is said to have reflected that his mass killing of prisoners was a sin deserving of death."
+        }
+      ],
+      "commonsFile": "Bai_Qi.jpg"
     },
     {
       "id": "evt-county-system",
       "label": "County System (Xian)",
       "year": -350,
-      "description": "Warring States kingdoms replaced hereditary fiefs with directly administered counties, appointing officials who served at the ruler's pleasure — the seed of China's 2,000-year bureaucratic system.",
+      "description": "Warring States kingdoms replaced the old system of hereditary fiefdoms with directly governed counties (xian), where the ruler appointed — and could dismiss — officials rather than relying on nobles whose loyalty came with strings attached.",
       "wikiSlug": "Xian_(administrative_division)",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The xian system is first documented during the Warring States period and was then imposed empire-wide by the Qin dynasty after unification, yielding roughly 1,000 counties across the realm. The county magistrate became the lowest rung of an unbroken bureaucratic chain reaching up to the emperor — a structure that persisted, with modifications, for over two millennia and still shapes Chinese governance today (mainland China currently has 1,355 counties among about 2,851 county-level divisions). The Qin state's Legalist reformer Shang Yang (Chapter 7) pushed the xian model furthest and fastest, converting hereditary fiefs into directly administered units as part of his sweeping reforms in the 350s BCE."
+        }
+      ]
     },
     {
       "id": "evt-cast-iron-blast-furnace",
       "label": "Chinese Blast Furnace Technology",
       "year": -550,
-      "description": "Chinese metallurgists achieved cast iron using blast furnaces 1,500 years before Europe, enabling mass production of standardized tools and weapons that transformed agriculture and warfare.",
+      "description": "Chinese metallurgists developed blast furnace technology capable of fully melting iron ore, making cast iron — a breakthrough that allowed molten iron to be poured into molds and mass-produced in ways impossible with the Western bloomery method.",
       "wikiSlug": "Blast_furnace",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tiangong Kaiwu, a 17th-century Chinese encyclopedia, preserves detailed illustrations of the fining and blast furnace processes in use — showing the same core technology that had been operating for over a millennium by then. Chinese blast furnaces reached temperatures of roughly 1,150–1,300°C to liquefy iron; the bloomery method used across Western Eurasia never got that hot, producing only a spongy wrought-iron mass. The earliest European blast furnaces appeared in Switzerland, Germany, and Sweden only between 1205 and 1300 CE."
+        }
+      ],
+      "commonsFile": "Chinese_Fining_and_Blast_Furnace.jpg"
     },
     {
       "id": "evt-end-zhou",
       "label": "End of the Zhou Dynasty",
       "year": -256,
-      "description": "The last Zhou king surrendered to Qin, formally ending the longest dynasty in Chinese history. Within 35 years, Qin would unify all of China.",
+      "description": "In 256 BCE, King Nan — the last of the Zhou dynasty's 36 rulers — surrendered to Qin without a fight, handing over his territory and the ritual bronze cauldrons that symbolized the Mandate of Heaven, ending a dynasty that had lasted nearly 800 years.",
       "wikiSlug": "Zhou_dynasty",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Background",
-          "text": "By the 3rd century BCE, the Zhou king controlled only the tiny territory around Luoyang — a relic maintained by other states as a symbolic gesture to tradition. When the last king Nan attempted to organize a coalition against Qin in 256 BCE, Qin moved to eliminate even this fiction."
-        },
-        {
-          "label": "What Happened",
-          "text": "Qin troops occupied Luoyang. King Nan surrendered and died shortly after. The Zhou royal house — which had nominally ruled China since 1046 BCE — ceased to exist. The last Zhou rump state (Western Zhou) was absorbed into Qin territory."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Zhou's end was more symbolic than strategic — real power had left the Zhou court centuries earlier. But it marked the formal close of the feudal era and the irreversible momentum toward the unified Qin Empire of 221 BCE, when China became a single state for the first time."
+          "label": "Explore further",
+          "text": "King Nan had the longest reign of any Zhou ruler and of any pre-imperial Chinese king: 59 years on a throne that was almost entirely ceremonial for most of that time. The Nine Tripod Cauldrons he surrendered were legendary objects said to have been cast by the mythical sage-king Yu the Great; possession of them was the physical proof of holding heaven's mandate to rule. After the surrender, Nan was demoted to \"Duke of Western Zhou\" and imprisoned in Wangcheng, where he died shortly after — a minor footnote in the chronicles of a conquest that was already decided. A splinter rump state called \"Eastern Zhou\" limped on until 249 BCE before Qin absorbed it too."
         }
-      ]
+      ],
+      "commonsFile": "Late_Western_Zhou_Bronze_Ding_03a.jpg"
     }
   ]
 }
