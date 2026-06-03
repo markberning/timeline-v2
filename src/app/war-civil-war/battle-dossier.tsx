@@ -11,6 +11,7 @@ import './war-skin.css'
 import { useEffect, useRef, useState } from 'react'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
+import { castIdForName } from '@/lib/civil-war-commanders'
 
 // ---- inline icons (shared with the war home) ----
 const I = {
@@ -202,19 +203,23 @@ export function BattleDossier({ data }: { data: BattleData }) {
           </>
         )}
 
-        {tab === 'commanders' && data.commanders.map(c => (
-          <div className={'bp-cmd ' + c.side} key={c.name}>
-            <span className="pic">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={c.img} alt="" />
-            </span>
-            <div className="bd">
-              <div className="nm p-serif">{c.name}</div>
-              <div className="role"><span className="sd">{c.side === 'u' ? 'UNION' : 'CSA'}</span><span className="rl">{c.role}</span></div>
-              <div className="bio">{c.bio}</div>
+        {tab === 'commanders' && data.commanders.map(c => {
+          const arc = castIdForName(c.name)
+          return (
+            <div className={'bp-cmd ' + c.side} key={c.name}>
+              <span className="pic">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={c.img} alt="" />
+              </span>
+              <div className="bd">
+                <div className="nm p-serif">{c.name}</div>
+                <div className="role"><span className="sd">{c.side === 'u' ? 'UNION' : 'CSA'}</span><span className="rl">{c.role}</span></div>
+                <div className="bio">{c.bio}</div>
+                {arc && <a className="arc" href={`/war-civil-war/cast/${arc}`}>Follow the full arc</a>}
+              </div>
             </div>
-          </div>
-        ))}
+          )
+        })}
 
         {tab === 'outcome' && (
           <div className="bp-outcome">

@@ -639,3 +639,77 @@ export const COMMANDERS: Record<string, Commander> = {
 }
 
 export const commanderIds = Object.keys(COMMANDERS)
+
+// Map a battle dossier's commander name (which has many spelling variants across
+// pages) to its cast arc id, where an arc exists. Hand-verified and EXACT: a
+// wrong link is worse than none, and same-surname pairs must never collide — the
+// two Hills (A. P. vs Daniel Harvey), Porters (David Dixon vs Fitz John),
+// Johnstons (Joseph E. vs Albert Sidney), and Lees (Robert E. vs Fitzhugh /
+// Stephen D.) — only the arc-bearing one is listed. Commanders with no arc page
+// return undefined (no link).
+const CAST_BY_NAME: Record<string, string> = {
+  'Ulysses S. Grant': 'grant',
+  'Robert E. Lee': 'lee',
+  'William T. Sherman': 'sherman',
+  'Braxton Bragg': 'bragg',
+  'James Longstreet': 'longstreet',
+  'Stonewall Jackson': 'jackson',
+  'Thomas J. Jackson': 'jackson',
+  'Thomas "Stonewall" Jackson': 'jackson',
+  'Thomas J. "Stonewall" Jackson': 'jackson',
+  'Philip Sheridan': 'sheridan',
+  'Philip H. Sheridan': 'sheridan',
+  'George G. Meade': 'meade',
+  'Nathan Bedford Forrest': 'forrest',
+  'Nathan B. Forrest': 'forrest',
+  'John B. Gordon': 'gordon',
+  'Winfield S. Hancock': 'hancock',
+  'Winfield Scott Hancock': 'hancock',
+  'Joseph Hooker': 'hooker',
+  'A.P. Hill': 'ap-hill',
+  'A. P. Hill': 'ap-hill',
+  'P.G.T. Beauregard': 'beauregard',
+  'P. G. T. Beauregard': 'beauregard',
+  'George A. Custer': 'custer',
+  'George Custer': 'custer',
+  'David D. Porter': 'dd-porter',
+  'David Dixon Porter': 'dd-porter',
+  'William J. Hardee': 'hardee',
+  'John Bell Hood': 'hood',
+  'Sterling Price': 'price',
+  'J.E.B. Stuart': 'stuart',
+  'George H. Thomas': 'thomas',
+  'Horatio Wright': 'wright',
+  'Horatio G. Wright': 'wright',
+  'Nathaniel Banks': 'banks',
+  'Nathaniel P. Banks': 'banks',
+  'Ambrose Burnside': 'burnside',
+  'Ambrose E. Burnside': 'burnside',
+  'B.F. Cheatham': 'cheatham',
+  'Benjamin F. Cheatham': 'cheatham',
+  'Richard S. Ewell': 'ewell',
+  'David Farragut': 'farragut',
+  'David G. Farragut': 'farragut',
+  'David Glasgow Farragut': 'farragut',
+  'Fitz John Porter': 'fj-porter',
+  'Gordon Granger': 'granger',
+  'Oliver O. Howard': 'howard',
+  'Joseph E. Johnston': 'je-johnston',
+  'James B. McPherson': 'mcpherson',
+  'Leonidas Polk': 'polk',
+  'William Rosecrans': 'rosecrans',
+  'William S. Rosecrans': 'rosecrans',
+  'John Sedgwick': 'sedgwick',
+  'Franz Sigel': 'sigel',
+}
+
+// Look up a commander's arc id by display name; curly quotes are normalized to
+// straight so both glyph styles of the "Stonewall" nickname match one key.
+export function castIdForName(name: string): string | undefined {
+  const key = name
+    .replace(/[‘’]/g, "'")
+    .replace(/[“”]/g, '"')
+    .replace(/\s+/g, ' ')
+    .trim()
+  return CAST_BY_NAME[key]
+}

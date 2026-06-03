@@ -297,6 +297,9 @@
 .war-skin .bp-cmd.c .bd .role .sd { background: var(--confed); }
 .war-skin .bp-cmd .bd .role .rl { font: 600 9px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .war-skin .bp-cmd .bd .bio { font: 400 12.5px/1.5 var(--sans); color: var(--ink-soft); }
+/* link to the commander's full arc (cast page), shown only where one exists */
+.war-skin .bp-cmd .bd .arc { display: inline-block; margin-top: 9px; font: 700 10px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--accent); text-decoration: none; }
+.war-skin .bp-cmd .bd .arc::after { content: ' →'; }
 
 /* outcome */
 .war-skin .bp-outcome { border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 10px; background: var(--paper-2); padding: 16px; }
