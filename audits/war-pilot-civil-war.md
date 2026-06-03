@@ -62,6 +62,26 @@ reveal what actually breaks — before building any other war. `kind: 'war'`.
 > - **OWED A FACT-CHECK:** the 4-sentence theatre intros (war home) and the Gettysburg
 >   commander blurbs are draft prose that has NOT yet been through the fact gate.
 
+> **STATUS 2026-06-02 — the Civil War is COMPLETE and FULLY LIVE; pilot done.**
+> Everything shipped to prod and `TL_KIND_LIVE.war = true` (no more SOON soft-launch):
+> 46/46 Class-A battle dossiers, 17/17 off-the-battlefield themes, the 5-chapter war
+> story, and the cast/commander arcs (36 commanders with 3+ battles). The whole
+> surface wears one shared editorial **war-skin** (see `memory/project_war_skin_redesign`):
+> sticky breadcrumb + tier-3 jump-bar, theatre/side colours carried through the
+> narratives, dossier tabs Narrative · Commanders · At a glance · Outcome, theatre
+> pages retired as destinations (crumb → ACW home), and the old "Military Story"
+> renamed **"The Civil War story" / "How the War Happened."** Workflow is now
+> single-worktree on `main` (the `feat/phase-2` :3007 worktree and `feat/war-redesign`
+> are gone).
+> - **Still owed (carried, not blocking):** the per-battle tactical-map review on the
+>   38 earlier battles (user does this as he reads); the theatre-intro + Gettysburg
+>   commander-blurb fact-check pass noted above.
+> - **NEXT: war #2.** The pilot validated the forked pipeline end-to-end. The plan to
+>   make the vertical multi-war (lift the hardcoded Civil War interior into a per-war
+>   `WarConfig`; the shared components are already generic) is written in
+>   **`audits/war-second-war-plan.md`** (no code started). Picking the war + its
+>   scope-lock is the trigger. See `memory/project_war_second_war_plan`.
+
 ## Governing principle
 **Good storytelling is the top priority — with factual accuracy and zero
 hallucination as non-negotiable hard constraints.** Every section leads with
