@@ -658,5 +658,603 @@ export const THEME_NARR: Record<string, Narr> = {
         "plabel": "War Finance & the Road to Taxation"
       }
     ]
+  },
+  "acadian-expulsion": {
+    "eyebrow": "The Grand Dérangement, 1755–1764",
+    "title": "The Acadian Expulsion",
+    "blocks": [
+      {
+        "p": "The clearest atrocity of the French and Indian War was not a battle. It fell on farmers."
+      },
+      {
+        "p": "For a century and a half, French-speaking Catholic families had been draining the salt marshes of the Bay of Fundy, the great tidal inlet between present-day Nova Scotia and New Brunswick, and turning them into some of the best farmland in North America. They called their country Acadia (Acadie in French): mainland Nova Scotia and pieces of what are now New Brunswick and Prince Edward Island. They were not soldiers. They wanted no part of the wars their empire kept fighting. And when a new war came, the British colonial government rounded them up at gunpoint, burned everything they owned, and scattered them by ship across an ocean and a continent. Thousands died. The survivors never got their farms back."
+      },
+      {
+        "p": "This is the story of how that happened, and of the people it happened to, including the Mi'kmaq, the Native nation whose land all of this sat on, and who were fighting their own war the whole time."
+      },
+      {
+        "h": "The marsh farmers",
+        "eyebrow": "Who the Acadians were"
+      },
+      {
+        "p": "France planted its first North American settlement here in 1604, and founded the village of Port-Royal the next year, on the Annapolis Basin, an inlet off the Bay of Fundy in what would become Nova Scotia. Many of the families came from Poitou in western France. They arrived as fishermen and farmers, and over a few generations they invented something clever."
+      },
+      {
+        "p": "The Bay of Fundy has enormous tides. Twice a day the sea floods the coastal marshes with salt water, which is useless for crops. Starting near Port-Royal in the 1630s, the Acadians learned to wall those marshes off with earthen dykes (long banks of packed mud and sod) and to drain them with a device called an aboiteau. An aboiteau is a wooden sluice built into the bottom of a dyke with a swinging door in it. When rain and river water build up behind the dyke at low tide, the door swings open and lets the fresh water drain out to sea. When the tide comes back in, the pressure of the seawater swings the door shut, so the salt stays out. Do this for a few years and the trapped marsh slowly rinses itself of salt and turns into rich black pasture and cropland."
+      },
+      {
+        "p": "It worked spectacularly. By 1755 the Acadians had reclaimed roughly 13,000 acres of Bay of Fundy marsh this way. As their numbers grew they spread out from Port-Royal (which the British later renamed Annapolis Royal) to new marshland settlements: Beaubassin on the Chignecto Isthmus, the neck of land joining Nova Scotia to the mainland, and Grand-Pré on the Minas Basin, which became the largest and most prosperous Acadian district of all. On the eve of the expulsion there were somewhere between 13,000 and 14,000 Acadians living in the region. They were, by the standards of the day, doing very well."
+      },
+      {
+        "h": "Caught between two empires",
+        "eyebrow": "The oath the Acadians would not swear"
+      },
+      {
+        "p": "The trouble was that Acadia kept changing hands. France and Britain fought each other for generations, and in 1713 a peace treaty signed at Utrecht handed Acadia to Great Britain at the end of one of those wars. The colony became British Nova Scotia. The Acadians were allowed to keep their land and stay, which made them, on paper, subjects of the British Crown."
+      },
+      {
+        "p": "But Britain wanted more than residence. It wanted an unconditional oath of allegiance: a sworn promise to be loyal British subjects, with no strings attached. The Acadians balked, and for a very specific reason. An unconditional oath could oblige them to take up arms for Britain, which might mean shooting at France, the country of their parents and grandparents, or at the Mi'kmaq, the Native nation they lived alongside and were in many cases related to by marriage. They did not want to fight anyone."
+      },
+      {
+        "p": "So they tried to thread a needle. They offered to swear a conditional oath instead, promising to be peaceful, law-abiding British subjects who would simply never bear arms, against either side. They called themselves the neutral French, or the French Neutrals. An early British governor, Richard Philipps (British), accepted a version of this arrangement, and for roughly four decades the uneasy compromise more or less held. The Acadians farmed their marshes, paid their respects to whichever flag flew over the fort, and stayed out of the fighting."
+      },
+      {
+        "p": "It was a genuinely awkward position, and it depended entirely on nobody forcing the question. Eventually somebody did."
+      },
+      {
+        "p": "\"The Inhabitants may not have it in their power to return to this Province nor to join in strengthening the French of Canada in Louisbourg.\" — Charles Lawrence, deportation orders, 1755",
+        "q": true
+      },
+      {
+        "h": "The Mi'kmaq were fighting their own war",
+        "eyebrow": "Not a backdrop, but a nation defending its land"
+      },
+      {
+        "p": "It is easy to tell this story as if it were only about Britain, France, and the Acadians caught in the middle. It was not. The very name \"French and Indian War\" is the British colonists' label for the enemies they expected to fight, but the Mi'kmaq were not fighting Britain's war as anyone's auxiliary; they were fighting their own war for their own land. That land everyone was quarreling over was Mi'kma'ki, the homeland of the Mi'kmaq, who had lived there long before any European arrived and who had no intention of being settled over. They were allied to France, but the alliance served their own ends. They were fighting, in their own right, to keep the British off their land."
+      },
+      {
+        "p": "That fight had a name: Father Le Loutre's War, also called the Anglo-Mi'kmaq War, which ran from 1749 to 1755. It started when Governor Edward Cornwallis (British) arrived with thirteen ships in 1749 and founded the town of Halifax at a harbor the Mi'kmaq called Chebucto, on land the British had earlier promised they would not settle. Within a few years the British had moved more than 3,200 settlers in, more people than there were Mi'kmaq in the entire region (about 2,500). To the Mi'kmaq this was exactly what it looked like: an invasion. In September 1749 they protested formally, declaring their ownership of the land and their opposition to the British settling on it."
+      },
+      {
+        "p": "Then they acted, on their own initiative and for their own reasons. They seized a British vessel and took twenty prisoners near Canso. They raided the new settlement at Dartmouth, across the harbor from Halifax, and killed four settlers. These were not French operations; they were Mi'kmaq operations in defense of Mi'kmaq territory, led by their own chiefs. It was Chief Jean-Baptiste Cope (Mi'kmaq) who negotiated a treaty with the British in 1752, Chief Étienne Bâtard (Mi'kmaq) who organized the killing of a British officer, Edward How (British), in 1750, and Chief Paul Laurent (Mi'kmaq) who fought as one of their war commanders."
+      },
+      {
+        "p": "A French Catholic missionary priest, Jean-Louis Le Loutre (French), worked alongside the Mi'kmaq and the Acadian resistance, supplying them and urging them on. The British called him \"Moses\" and one historian called him \"the soul of the Acadian resistance.\" He was an instigator and an ally, but he was not Mi'kmaq, and the Mi'kmaq did not need him to tell them their land was being taken."
+      },
+      {
+        "p": "The British answer to all this was brutal and worth naming plainly. In October 1749 Cornwallis issued a proclamation authorizing colonists to \"annoy, distress, take or destroy\" the Mi'kmaq, and put a bounty on them: ten guineas for a Mi'kmaq scalp, raised the next year to fifty. This was a price on the heads of a people for living where they had always lived. When Cornwallis was succeeded by a new lieutenant governor, Charles Lawrence, the aggressive push continued, with new British towns founded on contested ground. Lawrence is the man who, two years later, would order the Acadians deported. The fall of the French fort that anchored the resistance, in the summer of 1755, broke the organized French, Mi'kmaq, and Acadian campaign in one stroke, and is where the Acadians' story turns. But it did not end the Mi'kmaq war. Acadian and Mi'kmaq partisans fought on for years, in a guerrilla and privateer war led by the French officer Charles Deschamps de Boishébert (French) and the Acadian militia leader Joseph Broussard (French), known as Beausoleil, alongside the Mi'kmaq, the Maliseet, and the Abenaki, into about 1758. The Anglo-Mi'kmaq War ended not on a battlefield but at a negotiating table, with the Peace and Friendship Treaties signed at Halifax in 1760 and 1761 and ceremonially sealed at the \"Burying the Hatchet\" ceremony of 25 June 1761, where Mi'kmaq chiefs washed away the war paint as a sign that the fighting was over. Those treaties ceded no land, and they are still binding law in Canada: the Supreme Court of Canada upheld their hunting and fishing rights as never extinguished in its 1999 Marshall decision."
+      },
+      {
+        "h": "The pretext",
+        "eyebrow": "Fort Beauséjour, June 1755, and the oath at Halifax"
+      },
+      {
+        "p": "On the Chignecto Isthmus, the French had built Fort Beauséjour to block British expansion into what is now New Brunswick. In June 1755 a British force under Lieutenant Colonel Robert Monckton (British) besieged it, and within about two weeks it surrendered. The fall of Beauséjour broke the organized French, Mi'kmaq, and Acadian resistance in one stroke."
+      },
+      {
+        "p": "It also handed Lawrence the excuse he had been looking for. Among the fort's defenders the British found some Acadians. It did not matter much that many had likely been pressed into service against their will; their presence was enough to let Lawrence argue that the famous Acadian \"neutrality\" was a fiction and that these people could not be trusted with a war coming."
+      },
+      {
+        "p": "In July 1755 he summoned Acadian delegates to the capital at Halifax and demanded, once again, that they swear the unconditional oath of allegiance. Once again, they refused. This time Lawrence did not let it pass. He threw the delegates in prison. And on 28 July 1755, Lieutenant Governor Charles Lawrence and the Nova Scotia Council made their decision: the Acadians would be deported. All of them."
+      },
+      {
+        "h": "The Grand Dérangement",
+        "eyebrow": "The Great Upheaval, autumn 1755"
+      },
+      {
+        "p": "In the second week of August 1755, Lawrence sent his orders out to the British officers in the field. They are chilling in their plainness. He instructed them to gather the people and get them onto ships, and if the Acadians would not come quietly, to use \"the most vigorous measures possible,\" including this: to deprive anyone who escaped \"of all means of shelter or support by burning their houses and destroying everything that may afford them the means of subsistence in the country.\" The point was not just to remove the Acadians. It was to make sure they could never come back."
+      },
+      {
+        "p": "\"You must proceed by the most vigorous measures possible, not only in compelling them to embark, but in depriving those who shall escape of all means of shelter or support by burning their houses and destroying everything that may afford them the means of subsistence in the country.\" — Charles Lawrence, instructions to Major Handfield, 11 August 1755",
+        "q": true
+      },
+      {
+        "p": "The most famous scene of the whole upheaval played out at Grand-Pré. On 5 September 1755, a New England provincial officer named Lieutenant Colonel John Winslow (British), acting under Lawrence's orders, summoned the men and boys of the district into the parish church. Once they were inside, he read them their sentence. He seems to have known exactly what he was doing to them. \"The Part of Duty I am now upon,\" he told the assembled men, \"is what tho necessary is very disagreeable to my natural make & temper.\" Then he delivered the blow: their lands, their houses, their cattle and livestock \"of all kinds and live stock of all sortes are forfitted to the Crown,\" and they themselves were to be removed from the province. (Those are Winslow's own words from his journal, in the loose spelling of 1755.)"
+      },
+      {
+        "p": "The roundups began. British troops collected families at gunpoint and put them aboard transport ships packed tight, roughly two people for every ton of the vessel's capacity. Behind them, the soldiers did what Lawrence had ordered: they burned the houses, the barns, and the crops, so that the marsh farms the Acadians had built over a century became smoke. Winslow watched the embarkation at Grand-Pré in October and wrote down what he saw. The people, he recorded, \"went verry [solemnly] and unwillingly, the women in great distress carrying their children in their arms.\""
+      },
+      {
+        "p": "Lawrence had said, on paper, that whole families should travel together on the same ship. In practice that promise was broken again and again. Husbands were loaded onto one vessel and wives and children onto another, bound for different colonies, and never found each other again."
+      },
+      {
+        "p": "Over the next nine years, in waves running from the autumn of 1755 through 1764, the British deported more than 10,000 Acadians, by the most cited tally somewhere around 11,000 to 11,500 of a population of roughly 14,000. About 2,600 escaped into the woods or across to French territory and were still hiding in the region years later."
+      },
+      {
+        "h": "Scattered",
+        "eyebrow": "Refused at every port"
+      },
+      {
+        "p": "The ships of the first wave, in 1755, were aimed at the British colonies down the Atlantic seaboard: roughly 2,000 Acadians to Massachusetts, 1,100 to Virginia, 1,000 to Maryland, and hundreds each to Connecticut, Pennsylvania, the Carolinas, Georgia, and New York. The idea, in Lawrence's words, was to disperse the Acadians \"among his Majesty's Colonies upon the Continent of America,\" scattered so widely and thinly that they could never reassemble into a people."
+      },
+      {
+        "p": "The colonies they were dumped into mostly did not want them. These were poor, French-speaking, Catholic refugees arriving by the boatload in Protestant English colonies that had been at war with France for as long as anyone could remember. Virginia refused to take its shipload and sent the exiles on to England. Elsewhere they were held in poverty, treated as a burden, kept at arm's length. People who had owned good farms a few months earlier were now beggars in a strange country whose language they did not speak."
+      },
+      {
+        "h": "The ships that sank",
+        "eyebrow": "1758, the deadliest phase"
+      },
+      {
+        "p": "The deportation had a second, deadlier act. In July 1758 the British captured the great French fortress of Louisbourg, on Cape Breton Island."
+      },
+      {
+        "p": "With Louisbourg gone, the British turned on Île Saint-Jean, the island that is now Prince Edward Island, and deported its more than 3,000 inhabitants, this time shipping them straight across the ocean to France. This was the worst phase of the entire expulsion. Over half of the people removed from Île Saint-Jean died, of shipwreck and of disease, before they ever reached anywhere."
+      },
+      {
+        "pill": "/war-french-indian/pitts-turn/louisbourg",
+        "plabel": "Louisbourg"
+      },
+      {
+        "p": "The horror of it concentrated into a few December nights. A convoy had left Île Saint-Jean in October 1758 bound for France, and three of its transport ships were lost that December. The Duke William foundered in the North Atlantic around 13 December with over 360 Acadians aboard, roughly 97 km (about 20 leagues) off the French coast; the captain survived, but the families did not. The Violet went down a day earlier with more than 280 Acadians, lost with all of them. The Ruby, carrying around 310, ran aground at Pico Island in the Azores, where about 213 of those aboard died. Across the three ships, close to 1,000 Acadians died in a single week."
+      },
+      {
+        "p": "It is worth slowing down on one family, because the numbers go numb otherwise. Aboard the Duke William was an elder named Noël Doiron (French), with his wife Marie, five of their grown children and their spouses, and more than thirty grandchildren. About 120 people of one family. None of them survived."
+      },
+      {
+        "p": "Across the whole upheaval, from 1755 to 1764, the death toll is not known with any precision. The most cited summary figure is around 5,000 dead, of disease, starvation, drowning, and exposure, and some historians put it considerably higher. The honest way to say it is: thousands, and we cannot give the exact number."
+      },
+      {
+        "h": "What they became",
+        "eyebrow": "Diaspora, return, and the Cajuns"
+      },
+      {
+        "p": "In 1764, with the war over, the British finally allowed Acadians to return to British territory. But the offer had teeth in it. They could come back only in small, scattered groups, and only if they took the unconditional oath of allegiance they had spent fifty years refusing. Many did trickle back, resettling around mainland Nova Scotia, Cape Breton, and the rest of the Maritimes, but not onto their old marsh farms. Those had already been handed out to incoming British and New England settlers. The dykes the Acadians had built, someone else now farmed."
+      },
+      {
+        "p": "The largest piece of the diaspora, the scattered Acadian exiles, drifted somewhere unexpected. A first small band of Acadians who had escaped from New York reached French-influenced Louisiana in April 1764. In February 1765 about 193 exiles from Halifax, led by Joseph Broussard (French), known as Beausoleil, landed at New Orleans. More followed, and the biggest single migration came in 1785, when Spain, which by then controlled Louisiana, paid to ship roughly 1,600 Acadians who had ended up in France across to Louisiana. Across those two decades around 3,000 Acadians came to Louisiana, where Spain welcomed them as fellow Catholics and gave them land."
+      },
+      {
+        "p": "In Louisiana the word for an Acadian, \"Acadien,\" wore down over time into \"Cadien,\" and English speakers turned that into \"Cajun.\" The farmers expelled from the Bay of Fundy became the founding core of Cajun Louisiana, its language, its cooking, its music. A culture that the British government had set out to erase did not disappear. It put down roots two thousand miles away and grew into something new."
+      },
+      {
+        "p": "The expulsion lodged in the wider public memory largely through a poem. In 1847 the American poet Henry Wadsworth Longfellow published Evangeline: A Tale of Acadie, about a fictional Acadian woman torn from her betrothed on the day of the deportation and searching for him for the rest of her life. It was enormously popular, and for generations of readers it was how they first learned the word \"Acadia\" at all."
+      },
+      {
+        "h": "Naming it",
+        "eyebrow": "What this was"
+      },
+      {
+        "p": "Strip away the poem and the propaganda and the military memos, and what is left is simple to state and hard to look at. A government uprooted an entire civilian population, farmers and their families who had harmed no one, burned their homes so they could not return, broke up their families across separate ships, and sent them to die at sea or starve in unwelcoming ports. That is the fact, and it should not be softened."
+      },
+      {
+        "p": "Historians still argue about the strongest label for it. The historian John Mack Faragher has compared the expulsion to ethnic cleansing, pointing to the anti-Catholic laws that barred Acadians from holding office, voting, or owning land. Others push back: the historian John Grenier has argued that calling it ethnic cleansing \"carries too much present-day emotional weight,\" and the Acadian historian Maurice Basque has said flatly that \"the term 'genocide' ... does not apply at all to the Grand Dérangement.\" Another historian, A. J. B. Johnston, cautions that \"you can't just transfer concepts between centuries.\" Most historians also grant that the British had a cold military logic: the Acadians sat astride the supply and intelligence lines to the French strongholds at Louisbourg and Québec, and a hostile population behind the lines was a real danger in a real war."
+      },
+      {
+        "p": "That debate over what to call it is worth having honestly. But it does not change what was done, or to whom, or how many never came home. The contest underneath all of it, the one the empires were really fighting, was over land that belonged to neither of them, and the people who lost the most were the ones who had been there longest: the Mi'kmaq, whose homeland was settled over and put under a bounty, and the Acadians, who only ever wanted to be left alone on their farms."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/treaty-of-paris",
+        "plabel": "The Treaty of Paris & the Proclamation Line"
+      }
+    ]
+  },
+  "war-finance": {
+    "eyebrow": "How winning the war set up the next one",
+    "title": "War Finance & the Road to Taxation",
+    "blocks": [
+      {
+        "p": "Britain had just won the greatest victory in its history. France was driven off the North American continent, and a coast-to-interior empire stretched out where French forts had stood a few years before. And then the bill came due."
+      },
+      {
+        "p": "The war that finally pulled the colonies onto the same side, against France, produced the one thing that turned them against Britain itself: a tax bill. The fight over who would pay for the last war became the opening fight of the next one. Both fuses, the one that burned toward the Native nations of the interior and the one that burned toward revolution, run back to a single number. The cost of winning."
+      },
+      {
+        "h": "The cost of winning",
+        "eyebrow": "A debt that roughly doubled"
+      },
+      {
+        "p": "Wars are paid for largely on credit. A government at war borrows what it needs by selling bonds (promises to lenders to repay the money later, with interest), and the interest, the yearly fee for borrowing, becomes a fixed bill that comes due whether or not the fighting has stopped. That bill is the national debt, and Britain's national debt roughly doubled over the course of the war, climbing from about £75 million when the fighting began in 1756 to somewhere around £130 million by 1763, a figure most often cited at £132.6 million."
+      },
+      {
+        "p": "The number itself is hard to feel. What made it bite was the interest. Servicing the debt, just paying the yearly fee on all that borrowing, swallowed an enormous share of the entire national budget after the war, by some accounts more than half of it. A government can win a war and still spend the peace cornered by its own creditors, and that is roughly where Britain found itself."
+      },
+      {
+        "p": "Worse, the spending did not stop when the shooting did. There was now an empire to hold."
+      },
+      {
+        "h": "An army that wouldn't go home",
+        "eyebrow": "10,000 troops, and a price tag"
+      },
+      {
+        "p": "Conquering territory is one thing. Keeping it is another, and the interior Britain had just taken from France was not empty. It was Native land, full of nations with their own armies, their own diplomacy, and no intention of being inherited like furniture. To hold it, the Bute ministry, the government of the day, decided in early 1763 to keep a peacetime standing army of about 10,000 regulars (full-time professional soldiers) stationed in North America."
+      },
+      {
+        "p": "That decision was made before anyone in London knew what was coming. It cost money, somewhere in the range of a few hundred thousand pounds a year, with the figure tied to the planning most often given as roughly £200,000 annually. And it cost something harder to price. To many colonists a standing army kept up in peacetime was not protection but a warning. In the British political tradition they had grown up on, a peacetime army was the classic instrument of tyranny, the thing kings used to overawe a free people. Now there was one camped among them, and they had not asked for it."
+      },
+      {
+        "p": "Two years later Parliament handed the colonists the bill for housing that army. The Quartering Act of 1765, given royal assent (the king signing a bill into law) on 15 May 1765, passed in the same session as the Stamp Act, required the colonial assemblies to provide and pay for the barracks, food, and supplies of the British regulars stationed in their colony. The upkeep of the standing army now landed directly on colonial purses, by the act of a Parliament the colonists did not elect, which fused the old fear of a standing army to the newer grievance of being taxed without consent. To the colonists a forced levy to house and feed the King's soldiers looked like a tax in disguise, no different in principle from the Stamp Act. The act required quartering in barracks, public houses, and empty buildings, not in occupied private homes, and its most explosive enforcement would come later, in 1767. But the principle stung at once, and it echoes a decade on in the Declaration of Independence's charge against the King, \"for quartering large bodies of armed troops among us.\""
+      },
+      {
+        "p": "The army's whole reason for being sat on top of an active war, and the people that war was actually against are not a backdrop to this story. They are one of its two endings."
+      },
+      {
+        "h": "The people the army was for",
+        "eyebrow": "Pontiac, Neolin, and a war for sovereignty"
+      },
+      {
+        "p": "Even as London was drawing up garrison budgets, the interior erupted. In the spring of 1763 a broad, loosely coordinated resistance of Native nations rose against the new British presence, the conflict the British called Pontiac's War (April 1763 to July 1766). It stretched across the Great Lakes (the Odawa, Ojibwe, Potawatomi, and Wyandot), the Ohio Country (the Lenape, Shawnee, Seneca, and Mingo), and the Illinois Country (the Miami, Kickapoo, Wea, Mascouten, and Piankashaw). These were allied communities acting in concert, not one confederacy under a single commander."
+      },
+      {
+        "p": "They fought for their own aims, not anyone else's. With the French gone, the careful diplomacy that had kept the interior balanced was gone too. General Jeffery Amherst had cut off the customary gifts of powder and goods that the French had always provided and that Native nations understood as the necessary courtesy of diplomacy, not charity. Cutting them off read as contempt, even as a prelude to war. Settlers were already pushing onto Native land. The nations of the interior rose to halt that encroachment and to force the British back to honest terms of trade, a war to defend their sovereignty, fought on their own account."
+      },
+      {
+        "p": "The Odawa war leader Pontiac became its most prominent figure, laying siege to Fort Detroit from May 1763 with several hundred warriors, a siege that held for roughly six months. The resistance drew much of its fire from Neolin, \"the Delaware Prophet,\" a Lenape spiritual leader who taught that the Master of Life was displeased that Native peoples had taken up the white men's bad habits, their goods and their alcohol, and that they should return to older ways and push the British back off their land."
+      },
+      {
+        "p": "The cost was real and ran in every direction. Eight British forts fell between mid-May and mid-June of 1763; Forts Pitt and Detroit held. Roughly 400 British soldiers were killed, and an estimated 2,000 settlers were killed or captured along the frontier (figures that are estimates, and vary). Historians now read the war not as a Native defeat but as a stalemate, and one of its direct results was that London tried to buy quiet by drawing a line."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/treaty-of-paris",
+        "plabel": "The Treaty of Paris & the Proclamation Line"
+      },
+      {
+        "p": "That line, the Royal Proclamation of 1763, ran along the crest of the Appalachian Mountains and reserved the country beyond it as Indian territory, forbidding colonial settlement and private land purchase to the west of it. On paper it protected Native land. In practice it protected it only briefly and only in theory; colonists ignored the line almost immediately, and it was steadily eroded. But it did two things at once that mattered enormously. It told land-hungry colonists that the west they thought they had just helped win was now closed to them. And it confirmed, to a Treasury already drowning in debt, that holding the conquest would mean keeping that expensive army in the field."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/pontiacs-war",
+        "plabel": "Pontiac's War & the Aftermath for Native Nations"
+      },
+      {
+        "p": "So the standing army the debt could barely afford, the Native war it was actually fighting, and the Proclamation Line that enraged the colonists were a single knot. All of it was downstream of the conquest. Now London had to find the money."
+      },
+      {
+        "h": "Why not just tax England?",
+        "eyebrow": "The cider riots of 1763"
+      },
+      {
+        "p": "The obvious place to raise money was at home. The trouble was that the British public was already among the most heavily taxed populations in Europe, and London had just learned the hard way what happened when you asked them for more."
+      },
+      {
+        "p": "In 1763 Lord Bute's ministry passed the Cyder Act, a tax of four shillings on every hogshead (a large barrel) of cider made. Cider was brewed at home all over the west of England, so to collect the tax the act handed excise officers (the government's tax collectors) sweeping powers, including the power to search private homes without a warrant. That was the part that detonated. It was not merely a money grab; it was the government letting itself into the kitchen. Riots broke out across the cider counties, the outrage cut across every class, and Bute was hanged in effigy (burning or hanging a dummy or likeness of a person rather than the person himself). His successor, George Grenville, shoved the cider tax through and beat back a repeal motion in February 1764."
+      },
+      {
+        "p": "The lesson Grenville took from the wreckage was simple. He could not squeeze more out of Britain without the country coming apart. So he looked across the Atlantic, to the people he believed had gotten the most out of the war and paid the least for it."
+      },
+      {
+        "h": "Grenville's reasoning",
+        "eyebrow": "Make the colonies pay for their own defense"
+      },
+      {
+        "p": "George Grenville took over as head of the Treasury and prime minister in April 1763, and his logic was, on its own terms, almost reasonable. The colonists were the war's chief beneficiaries; France had been swept off their continent. The army being kept in America was being kept for their defense. So they should help pay for it."
+      },
+      {
+        "p": "He was not asking them to retire the national debt, or even to cover its interest. He wanted only a partial contribution toward the cost of their own garrison. The army ran somewhere around £200,000 a year; his whole American revenue program was projected to raise only about £78,000 to £79,000 of it. A share, not the whole bill."
+      },
+      {
+        "p": "But underneath the arithmetic sat a fault line he either did not see or did not weigh. The colonies elected no members to Parliament. Not one. Grenville was preparing to tax people who had no vote in the body taxing them, and that was the exact nerve the colonists would press until it broke."
+      },
+      {
+        "p": "\"it is just and necessary that a revenue should be raised … for defraying the expenses of defending, protecting, and securing\" the colonies. — preamble to the Sugar Act, 1764",
+        "q": true
+      },
+      {
+        "h": "The first reach into colonial pockets",
+        "eyebrow": "The Sugar Act and the Currency Act, 1764"
+      },
+      {
+        "p": "Grenville moved in 1764. The Sugar Act, passed on 5 April, looked at first like a gift. It actually lowered the duty on foreign molasses (the thick syrup left over from refining sugar, the raw material of the colonies' rum trade) from six pence a gallon down to three. The old six-pence duty, set back in 1733, had been so steep that colonial merchants simply smuggled around it, and almost nobody collected it. That was the whole trick. The lower three-pence rate was meant to be genuinely enforced and genuinely collected. A duty colonists had laughed off became, at half the rate, a real tax."
+      },
+      {
+        "p": "And it was a tax for money, not for trade. Earlier duties existed to steer commerce, to nudge merchants toward British goods. The Sugar Act said outright in its preamble that its purpose was revenue, to help pay for defending the colonies. That was new. For the first time, Parliament was reaching into colonial pockets simply to take money out."
+      },
+      {
+        "p": "To make the collection stick, the act buried merchants in paperwork, demanding detailed cargo manifests, and expanded the customs officers' powers. Most galling of all, it sent accused smugglers to be tried in vice-admiralty courts, run by a single Crown-appointed judge with no local jury, where the accused was effectively presumed guilty, instead of before colonial juries, who had a comfortable habit of acquitting their neighbors."
+      },
+      {
+        "p": "Two weeks later came the squeeze from the other side. The Currency Act, given royal assent on 19 April 1764 and in force that September, did not ban colonial paper money outright, but it forbade the colonies from making any future paper money legal tender (currency a creditor is legally required to accept as payment) for debts public or private. It extended to all the North American colonies a restriction that had previously bound only New England."
+      },
+      {
+        "p": "The cruelty of the timing was that gold and silver coin, hard money, was chronically scarce in the colonies. Paper money was how a coin-starved economy did business. Strangle paper money's standing as legal tender, and you tighten an economy that had little hard coin to begin with, at the precise moment Britain was getting ready to demand payment in exactly that scarce coin."
+      },
+      {
+        "h": "The Stamp Act",
+        "eyebrow": "1765, and the line everyone could feel"
+      },
+      {
+        "p": "Then, on 22 March 1765, Parliament passed the act that turned a grievance into a movement. The Stamp Act was the first direct internal tax Parliament had ever laid on the colonies, and that distinction was the heart of the quarrel."
+      },
+      {
+        "p": "Every earlier duty had been external, a tax on goods crossing a border, collected at the port, the kind of thing colonists had grudgingly accepted as part of regulating trade. The stamp tax was internal: a tax on ordinary transactions happening entirely inside a colony, with nothing crossing any border at all. It required a purchased, embossed government stamp on newspapers, pamphlets, legal documents, magazines, playing cards, dice, and a long list of other papers used in daily life. It landed on lawyers, printers, merchants, and tavern-keepers all at once, which meant it landed on exactly the people most able to make noise about it, and on ordinary colonists every time they reached for a sheet of paper."
+      },
+      {
+        "p": "And the duty had to be paid in specie, in gold and silver coin, the very hard money the Currency Act had just made scarcer. The two acts caught the colonies in a vise: pay a new tax, in the one currency we have just helped drain out of your economy."
+      },
+      {
+        "h": "No taxation without representation",
+        "eyebrow": "The principle that became a movement"
+      },
+      {
+        "p": "The colonists answered with a principle, not just a complaint. A free people, they held, can be taxed only by a body they have voted for. They elected no one to Parliament, so Parliament had no right to tax them; only their own elected colonial assemblies could. To be taxed by a legislature you cannot vote in was, in their eyes, to have your property taken without your consent, which was no better than theft. That distilled idea, the cry that taxation without representation was no legitimate taxation at all, became the rallying conviction of the age."
+      },
+      {
+        "p": "The sturdiest early statement of it had come the year before, in 1764, from the Massachusetts lawyer James Otis Jr. (British), in a pamphlet called *The Rights of the British Colonies Asserted and Proved*."
+      },
+      {
+        "p": "\"The very act of taxing, exercised over those who are not represented, appears to me to be depriving them of one of their most essential rights.\" — James Otis Jr., 1764",
+        "q": true
+      },
+      {
+        "p": "Britain had an answer ready, and it was called virtual representation. The colonists, the argument ran, were represented in Parliament the same way most Britons were, since the great majority of people in Britain could not vote either, yet were held to be represented by Parliament as a whole. The writer Samuel Johnson (British) put it plainly: the colonists were \"represented by the same virtual representation as the greater part of England.\" The colonists thought this was sophistry, a clever evasion dressed up as a principle, and dismissed it."
+      },
+      {
+        "h": "The colonies answer",
+        "eyebrow": "A congress, a boycott, and twelve broken stamp men"
+      },
+      {
+        "p": "The response was not just argument. It was organized, and it was effective."
+      },
+      {
+        "p": "In October 1765, twenty-seven delegates from nine colonies gathered in New York City for the Stamp Act Congress, the first time the colonies had come together to confront London with one voice. They issued a Declaration of Rights and Grievances laying down the bedrock claim that taxes could be imposed only \"with their own consent, given personally, or by their representatives.\" James Otis was among the delegates and helped draft the address to the House of Commons."
+      },
+      {
+        "p": "\"The only Representatives of the People of these Colonies, are Persons chosen therein by themselves, and that no Taxes ever have been, or can be Constitutionally imposed on them, but by their respective Legislature[s].\" — Declaration of Rights and Grievances, 1765",
+        "q": true
+      },
+      {
+        "p": "While the delegates argued the law, others made the law impossible to enforce. The Sons of Liberty, networks of organized protest and intimidation, went after the men appointed to sell the stamps. In Boston on 14 August 1765, the Massachusetts stamp distributor Andrew Oliver (British) was hanged in effigy and his property attacked; he resigned. By 16 November, twelve stamp distributors had quit under pressure. Colonial merchants piled on with non-importation agreements, refusing to buy British goods, which turned British merchants into a lobby for repeal back home. By the day the Stamp Act took effect, 1 November 1765, it was a dead letter. There was almost nobody left willing to hand out a stamp."
+      },
+      {
+        "h": "Repeal, and the principle Britain kept",
+        "eyebrow": "The Stamp Act dies; the Declaratory Act is born"
+      },
+      {
+        "p": "By early 1766, with American trade strangled and British merchants howling, London looked for a way out. On 13 February 1766, Benjamin Franklin was examined before the House of Commons, answering 174 questions over roughly four hours, and he handed Parliament the distinction the colonists had been making all along."
+      },
+      {
+        "p": "\"I had never heard any objection to the right of laying duties to regulate commerce; but a right to lay internal taxes was never supposed to be in parliament, as we are not represented there.\" — Benjamin Franklin, Examination before the House of Commons, 1766",
+        "q": true
+      },
+      {
+        "p": "Asked what was now the pride of Americans, Franklin gave an answer that was half joke and half threat: \"To wear their old cloaths over again, till they can make new ones.\" A people willing to dress in rags rather than buy British is a people you cannot tax by force."
+      },
+      {
+        "p": "Parliament gave in. The Stamp Act was repealed, with royal assent on 18 March 1766. But on that very same day, unwilling to look like it had been beaten by its own colonies, Parliament passed the Declaratory Act, which gave up the tax while keeping the principle. It asserted that Parliament had the power to make laws binding the colonies \"in all cases whatsoever.\""
+      },
+      {
+        "p": "That phrase settled nothing. Britain had surrendered the money and clung to the claim, which meant the next reach into colonial pockets, the Townshend duties of 1767, was already coming. The quarrel was not over. It had only been postponed."
+      },
+      {
+        "h": "One victory, two fuses",
+        "eyebrow": "The road to the next war"
+      },
+      {
+        "p": "One war debt lit two fuses at the same time. One burned west, toward the Native nations: the standing army and the Proclamation Line, the attempt to hold a conquest that was a catastrophe for the nations of the interior, whose land the whole contest had ultimately been about and whose \"protected\" territory was overrun anyway. The other burned east, toward the colonists: the Sugar, Currency, and Stamp Acts, the bill for that same army, handed to people who had no vote in the hand that wrote it."
+      },
+      {
+        "p": "The very name \"French and Indian War\" is the British colonists' name, given for their enemies, as if the Native nations were simply on the other side. In truth they fought on every side, and most of all for themselves, and they paid the steepest price of anyone for a victory that was never theirs to win."
+      },
+      {
+        "p": "A decade before the Stamp Act, Benjamin Franklin had stood at Albany and proposed that the colonies bind themselves together under one government for their common defense, and had drawn his famous severed-snake cartoon to shame them into it. They had refused. The colonies would not unite to fight the war."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/albany-plan",
+        "plabel": "The Albany Congress & the Plan of Union"
+      },
+      {
+        "p": "A decade later that same idea came back, this time in anger, and it stuck. The colonies that would not gather to fight France gathered readily enough to resist the tax for it, at the Stamp Act Congress, and then, in 1774, at the First Continental Congress. The union Britain could not coax out of them for the war, they built against the bill for it. The fight over who would pay for the last war had set the colonies squarely on the road to the next one, against Britain itself."
+      }
+    ]
+  },
+  "pontiacs-war": {
+    "eyebrow": "After the Conquest, 1763–1766",
+    "title": "Pontiac's War & the Aftermath for Native Nations",
+    "blocks": [
+      {
+        "p": "When the British colonists named their war, they named it for their enemies: the French and Indian War. But that name hides the most important thing about it. The \"Indians\" were not one enemy. They fought on every side of the war, and most of all they fought for themselves, for nations that had held the interior of the continent for far longer than either European empire had existed. Britain won the war in 1763. And almost the moment it did, the Native nations of the Great Lakes and the Ohio Valley rose against the victor in the largest coordinated war for their own land and sovereignty that North America had yet seen."
+      },
+      {
+        "p": "To understand why, you have to understand what Britain's victory took away."
+      },
+      {
+        "h": "A Game With Two Empires, Then One",
+        "eyebrow": "The collapse of leverage"
+      },
+      {
+        "p": "For generations the nations of what the French called the *pays d'en haut* (the \"upper country,\" the Great Lakes interior) had survived by a simple, brutal piece of statecraft: they played two European empires against each other. France and Britain both wanted the interior. Neither could hold it alone. Both needed Native allies, Native guides, Native warriors, and Native permission to trade. That need was leverage. A nation that France treated badly could lean toward Britain, and the reverse, and so neither empire could simply take what it wanted. The balance kept the interior in Native hands."
+      },
+      {
+        "p": "The British conquest of New France (France's North American colony, centered on the St. Lawrence River) smashed that balance. Quebec fell in September 1759 after the battle on the Plains of Abraham. Montreal capitulated in September 1760, ending French Canada in all but name. And on February 10, 1763, the Treaty of Paris formally handed Canada and every French claim east of the Mississippi to Britain."
+      },
+      {
+        "p": "For the nations of the interior, this was a catastrophe before a single shot of the new war was fired. With France gone, there was no second empire to lean toward. The diplomacy that had protected them for a century evaporated overnight. They now faced a single victorious power that had decided it had won them, too, as if they had been French property to hand over."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/native-alliances",
+        "plabel": "The Contest for Native Alliances"
+      },
+      {
+        "h": "Amherst Pulls the Alliance Apart",
+        "eyebrow": "Conquered, not allied"
+      },
+      {
+        "p": "The man in charge of that single power was General Jeffery Amherst, the British commander-in-chief in North America. He looked at the Native nations and saw conquered subjects, not allies, and he changed three things that mattered enormously."
+      },
+      {
+        "p": "First, he ended the gift-giving. In Native diplomacy, the annual presents (guns, knives, ammunition, tobacco, clothing) were not bribes and were never understood as bribes. The giving of gifts *was* the alliance. It renewed the relationship every year, an act of respect that said the parties were still bound to each other. The French had practiced it for generations because they understood what it meant. Amherst looked at the same gifts and saw money spent buying good behavior, and around 1761 he started shutting it off. Many of the nations read this exactly as it was meant: the British now looked on them as a conquered people rather than as friends."
+      },
+      {
+        "p": "Second, he restricted the sale of gunpowder and lead shot. This was not a small economy measure. Native men hunted with guns. Powder and shot were the foundation of the food supply and of the fur trade that bought everything else. Cutting them off threatened survival itself, and to the nations it looked like the first step of something worse, a prelude to further conquest. In an August letter to William Johnson (the superintendent of Indian affairs), Amherst told him to stop \"purchasing the good behavior of the Indians\" and to keep ammunition out of their hands, plainly afraid they would turn the powder back on the British."
+      },
+      {
+        "p": "And third, where the policies could be argued as economy or caution, this last thing could not: he made no secret of his contempt. British officers barely bothered to hide it, and the nations said openly that they were being treated no better than slaves or dogs."
+      },
+      {
+        "p": "\"extirpate this execrable race.\" — Jeffery Amherst, July 16, 1763 (writing to Colonel Henry Bouquet)",
+        "q": true
+      },
+      {
+        "p": "That word, \"extirpate,\" meaning to wipe out completely, was not a slip of temper. It came in the middle of a written plan we will return to. For now it is enough to know the temper of the man who held the interior in his hand."
+      },
+      {
+        "h": "The Prophet",
+        "eyebrow": "Neolin and the turning away"
+      },
+      {
+        "p": "Into that anger came a voice that gave it shape. Neolin, whose name meant \"the Enlightened One,\" was a Lenape (Delaware) holy man. Around 1761, after a long fast and a season of dreaming, he said he had traveled in a vision to the Master of Life, the being his people understood as the one who had thought the world into being."
+      },
+      {
+        "p": "The Master of Life, Neolin said, was angry. The people had grown dependent on European goods, on rum, on the trade that bound them to strangers, and they had forgotten how to live. The way back was to turn away from all of it: reject the trade goods, put down the alcohol, return to the old ways their grandparents had known, and drive the British out. Neolin's message wove together Christian and traditional threads, and it spread fast across the Ohio and the Great Lakes. It gave the coming rising something an empire could not match: a reason that reached past politics into the spirit."
+      },
+      {
+        "p": "The words that survive come to us secondhand. A French chronicler at Detroit wrote down the vision as Pontiac (Obwandiyag) of the Odawa recited it to a war council in 1763, retelling the prophet's journey to rally warriors. So this is the Master of Life, as remembered by Neolin, as recited by Pontiac, as written down and translated by a colonial hand. It is not a transcript. But its force comes through anyway."
+      },
+      {
+        "p": "\"This land where ye dwell I have made for you and not for others. Whence comes it that ye permit the Whites upon your lands? ... Before those whom you call your brothers came on your lands, did you not live by bow and arrow? You had no need of gun nor powder ... and yet you caught animals to live upon.\" — the Master of Life, as recited by Pontiac from Neolin's vision, recorded at Detroit, 1763",
+        "q": true
+      },
+      {
+        "h": "A Coalition, Not a King",
+        "eyebrow": "Pontiac and the spring of 1763"
+      },
+      {
+        "p": "History gave this war one man's name, \"Pontiac's War,\" and the name is misleading. Pontiac (Obwandiyag) was a war chief of the Odawa (Ottawa) and one of the most prominent figures of the rising at Detroit. He was not its supreme commander, because there was no supreme commander. This was a broad, decentralized coalition of many nations, each rising for its own reasons across a thousand miles of country. Among them were the Odawa, the Ojibwe, the Potawatomi, the Wyandot (Huron), the Lenape (Delaware), the Shawnee, and the Seneca/Mingo, along with the Miami, the Wea, the Kickapoo, the Mascouten, and others. Leaders rose with them: Guyasuta (Seneca/Mingo), and Charlot Kaské (Shawnee), the most uncompromising of all, who would later cross the Mississippi rather than make peace."
+      },
+      {
+        "p": "On April 27, 1763, Pontiac held a war council on the Ecorse River, about 10 miles (16 km) southwest of Fort Detroit. He stood and retold Neolin's vision, and turned the prophet's spiritual message toward war."
+      },
+      {
+        "p": "\"It is important for us, my brothers, that we exterminate from our lands this nation which seeks only to destroy us.\" — Pontiac, war council, April 1763 (a translated summary of the recorded speech)",
+        "q": true
+      },
+      {
+        "p": "On May 1 he walked into Fort Detroit with about fifty Odawa, supposedly to dance for the garrison (the soldiers posted to hold the fort), in fact to count its soldiers and study its walls. On May 7 he came back to seize the fort by surprise, and found the commander, Henry Gladwin (British), waiting and warned. The surprise failed. So Pontiac settled in for a siege instead, and the war was on."
+      },
+      {
+        "h": "Eight Forts in a Summer",
+        "eyebrow": "The chain breaks"
+      },
+      {
+        "p": "Then the British chain of forts began to fall, post after post, faster than any messenger could carry the news. In a matter of weeks the coalition took about eight of the roughly twelve British posts strung across the Great Lakes and the Ohio. Almost none of them fell to a frontal assault. They fell to nerve and deception, to garrisons that opened their gates because they had no idea the war had reached them."
+      },
+      {
+        "p": "Sandusky, in Ohio, fell on May 16 when Wyandots gained entry under cover of a friendly council, then killed some fifteen soldiers and burned the place. St. Joseph, in Michigan, went on May 25 to Potawatomis using the same trick, most of its fifteen-man garrison killed. At Fort Miami, in Indiana, on May 27, the commander was lured outside by a Miami woman and his nine men gave up. Ouiatenon, also in Indiana, fell on June 1 when Weas, Kickapoos, and Mascoutens took its roughly twenty men without a drop of blood. Venango, in Pennsylvania, fell in mid-June with its entire garrison of about a dozen killed by Senecas. Le Boeuf burned on June 18, though most of its dozen men escaped toward Fort Pitt. Presque Isle held two days against some 250 warriors before surrendering on June 19 and 20."
+      },
+      {
+        "p": "The most famous capture of all came at Fort Michilimackinac, on the strait between Lakes Michigan and Huron, in early June. The Ojibwe staged a game of baggataway (the stick-and-ball game the French called lacrosse) outside the walls to mark the king's birthday. The soldiers came out to watch, gates open, guard down. A player sent the ball arcing toward the palisade, and the players sprinted after it as if it were nothing but the game. At the wall, the women who had been standing by handed the warriors the weapons they had carried in hidden under their blankets, and the players became a war party in an instant. Roughly half the thirty-five-man garrison was killed; the rest were taken. It is the single most cinematic stroke of the war, and it worked because the British could not imagine the people they had insulted were already at war with them."
+      },
+      {
+        "h": "The Two That Held",
+        "eyebrow": "Detroit and Fort Pitt under siege"
+      },
+      {
+        "p": "Two prizes did not fall: Fort Detroit and Fort Pitt, the largest and most important posts on the frontier. Both went under long, grinding sieges, and around both the war turned its ugliest."
+      },
+      {
+        "p": "At Detroit the siege had begun around May 9. It dragged through the summer. On the night of July 31, a British captain named James Dalyell (British) led about 250 men out of the fort in a sortie meant to break the encirclement. The coalition was ready. They ambushed the column at a creek called Parent's Creek, killed roughly twenty British including Dalyell himself, and left the water running red. Colonists called the place Bloody Run ever after. It was a clear coalition victory, and it changed nothing decisive: the garrison held. Pontiac kept the siege up until October 31, when word came that the French would send no help after all, and his warriors melted away to the winter hunting grounds. The longest siege of the war ended not in a storm but in a slow draining of hope that France would ever return."
+      },
+      {
+        "p": "Fort Pitt, where the Ohio's three rivers meet, was besieged from about June 22. Inside its walls were some 550 people, more than 200 of them women and children, packed together under the command of Captain Simeon Ecuyer (British). And inside the crowded fort, smallpox was already loose."
+      },
+      {
+        "h": "The Blankets",
+        "eyebrow": "Disease as a weapon"
+      },
+      {
+        "p": "What happened next at Fort Pitt is one of the documented attempts by a European power to use disease deliberately as a weapon of war."
+      },
+      {
+        "p": "During a parley on June 24, 1763, the British handed the besieging Lenape (Delaware) emissaries a few items taken straight from the fort's smallpox hospital. The trader William Trent (British) wrote it down in his journal without a flicker of shame."
+      },
+      {
+        "p": "\"Out of our regard to them, we gave them two Blankets and an Handkerchief out of the Small Pox Hospital. I hope it will have the desired effect.\" — William Trent's journal, 1763",
+        "q": true
+      },
+      {
+        "p": "This was not one trader's improvisation. The supply invoice billed the items as having been \"taken from people in the Hospital to Convey the Smallpox to the Indians,\" and the fort later reimbursed Trent for them, which means the command signed off on it on paper. And independently, weeks later, the commanding general was putting the very same idea into his own letters. Around early July, Amherst wrote to Colonel Henry Bouquet (British):"
+      },
+      {
+        "p": "\"Could it not be contrived to send the small pox among the disaffected tribes of Indians? We must on this occasion use every stratagem in our power to reduce them.\" — Jeffery Amherst to Colonel Henry Bouquet, c. July 1763",
+        "q": true
+      },
+      {
+        "p": "Bouquet wrote back that he would try to spread it by means of blankets that might fall into Native hands, while taking care not to catch it himself. Amherst replied on July 16 approving the plan, in the letter with the word \"execrable race\" in it. The gift at the fort on June 24 and the general's letters in July were separate events, and it matters that they were. The act on the ground happened, and the man at the top of the army independently endorsed exactly the same tactic in writing. Neither one is in doubt."
+      },
+      {
+        "p": "What *is* debated is whether these particular blankets did anything. Smallpox was already circulating among the nations around Fort Pitt that spring and summer, which means the epidemic that followed cannot be cleanly pinned on the gift. The infected material may also have been too old to carry the disease at all. The historian Philip Ranlet argues there is no evidence the scheme actually worked; other scholars think it may well have. So the honest line is this: the British tried to use smallpox as a weapon, and their commanding general put it in writing, and whether these specific blankets spread the disease is something historians still argue over. The intent is not in question. Only the result is."
+      },
+      {
+        "h": "The Conestoga",
+        "eyebrow": "When colonists carried out the intent"
+      },
+      {
+        "p": "The army's intent to wipe out Native people was on paper, in Amherst's letters and the blanket invoice. That same winter, on the Pennsylvania frontier, colonists carried it out against a Native town that had nothing to do with the war at all."
+      },
+      {
+        "p": "The Conestoga were a small community descended from the Susquehannock, living near Lancaster, Pennsylvania, under the colony's protection in a relationship that ran back to a treaty with William Penn. They had lived peacefully alongside their colonial neighbors for decades, and they stayed neutral through both the Seven Years' War and Pontiac's War. They were not combatants. They were not part of the rising. By 1763 they could no longer even hunt safely to feed themselves, for fear of being mistaken for hostile warriors. Against them came the Paxton Boys, a vigilante mob of Scots-Irish frontiersmen from the Paxtang hill country northwest of Lancaster. In the frontier panic the war had whipped up, they blamed all Native people indiscriminately and made no distinction between the nations actually at war and the neutral, peaceful Conestoga. Their justification, that the Conestoga were secretly aiding the Lenape and Shawnee raiding the frontier, was fabricated."
+      },
+      {
+        "p": "On December 14, 1763, about fifty Paxton Boys rode into Conestoga Town, killed and scalped the six people they found there, and burned the village. The roughly fourteen survivors, who had been away, including women and children, were placed for their safety in protective custody in the Lancaster workhouse. It did not save them. On December 27 the Paxton Boys broke into the workhouse and murdered them all, about twenty Conestoga dead in total, and the community was ended. In February 1764 several hundred Paxton Boys marched on Philadelphia meaning to kill the Native people sheltering there too. A delegation led by Benjamin Franklin met them and turned them back, on a promise that their grievances would be heard. No one was ever convicted of the murders. The accusation that the Conestoga had been spies was never anything but a lie. The empire had written down its wish to be rid of Native people; here, in the same months, settlers made it real against a town that had only ever kept the peace."
+      },
+      {
+        "p": "Relief finally fought its way through to Fort Pitt. Colonel Bouquet, marching some 500 men toward the fort, was intercepted about 25 miles (40 km) east of it by a force of Lenape, Shawnee, Mingo, and Wyandot warriors. Over two brutal days on August 5 and 6, at a place called Bushy Run, Bouquet won by faking a retreat that drew the warriors into a charge, then turning on them. The victory cost him dearly, around fifty killed and sixty wounded, close to a quarter of his men, but it broke the intercepting force, and around August 20 the siege of Fort Pitt lifted."
+      },
+      {
+        "p": "The fighting did not stop neatly even then. On September 14, at the Niagara portage (the overland carry of boats and goods between two stretches of water), Senecas ambushed a supply train and the troops sent to save it, killing more than seventy soldiers and teamsters at a spot the colonists named Devil's Hole. It was the deadliest single British loss of the war, and proof that the rising was nowhere near contained."
+      },
+      {
+        "h": "Nobody Could Win",
+        "eyebrow": "The stalemate that forced a reversal"
+      },
+      {
+        "p": "By the end of 1763 the war had settled into a fact neither side could change. The nations could not take the two great forts or push the British out of the interior. The British could not conquer the nations, and could not even keep their own posts safely supplied. It was a stalemate, and the stalemate is what forced Britain to do something it would never have done from a position of comfort: back down."
+      },
+      {
+        "p": "Amherst was recalled to London in the autumn of 1763 and replaced as commander by General Thomas Gage (British). And Sir William Johnson, the same superintendent Amherst had ordered to cut off the gifts, was now authorized to restore them, to bring back the gift-giving and the patient diplomacy that the old commander had abolished. This was a deliberate, conscious reversal. The rising had proven that the alliance system could not simply be cancelled by decree, that the relationship the French had understood and Amherst had despised was the only thing that had ever made the interior governable at all."
+      },
+      {
+        "p": "The peace came in pieces over the next two years, and it did not come all at once or in unison. The coalition nations made terms on their own timetables, and resistance lingered in the Illinois country into 1764 and 1765, where the British had not yet taken the last French fort. The Shawnee leader Charlot Kaské rejected any accommodation, sought French help as far away as New Orleans, and finally crossed the Mississippi with other refugees rather than live under British rule. The peace, like the war, was a coalition's, not a king's. At a great congress at Niagara in July and August 1764, Johnson met with around 2,000 Native people and began rebuilding relations nation by nation. That October, Bouquet marched into the Ohio country to the Muskingum River, where the Ohio nations agreed to peace and returned more than 200 captives. And on July 25, 1766, at Fort Ontario at Oswego, Pontiac himself made a formal peace with Johnson. The terms are worth pausing on: no land was ceded, no prisoners were surrendered, no hostages were taken. Johnson treated Pontiac with exceptional deference. For a war the colonists called a rebellion, it ended remarkably like a peace between powers."
+      },
+      {
+        "h": "The Line on the Map",
+        "eyebrow": "The Proclamation of 1763"
+      },
+      {
+        "p": "The other concession came from the king himself. On October 7, 1763, with the war still raging, George III issued the Royal Proclamation of 1763, partly to calm the frontier and reassure the very nations who were burning his forts."
+      },
+      {
+        "p": "The Proclamation drew a line. It ran along the crest of the Appalachian Mountains, following the watershed: rivers that drained east to the Atlantic marked land open to colonists, rivers that drained west to the Mississippi marked country reserved to the nations. West of that line, colonial settlement was barred outright, creating a vast \"Indian Reserve.\" And to close the usual back door, it forbade private citizens from buying Native land at all; only the Crown could purchase it."
+      },
+      {
+        "p": "\"...the several Nations or Tribes of Indians with whom We are connected, and who live under our Protection, should not be molested or disturbed in the Possession of such Parts of Our Dominions and Territories as, not having been ceded to or purchased by Us, are reserved to them ... as their Hunting Grounds.\" — Royal Proclamation of 1763",
+        "q": true
+      },
+      {
+        "p": "To settlers and land speculators (the investors who bought up frontier land cheap to resell it dear), the line was a wall thrown across their futures, and they were furious. The Proclamation ordered anyone who had already settled west of it to \"forthwith to remove themselves,\" which almost nobody did. George Washington, who had been promised some 20,000 acres of western bounty land for his service in the war, called the line a temporary expedient and quietly told his land agent to keep securing western tracts anyway. Virginia's land companies lobbied to push the boundary west."
+      },
+      {
+        "p": "And that was the problem with the line: it could not be enforced. There was no army standing along a thousand miles of mountains, and settlers crossed it the moment they pleased. Later treaties shoved the boundary steadily west, opening Kentucky and what is now West Virginia. The Proclamation became one more grievance the colonists carried toward their own revolution, a king telling them where they could not go."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/treaty-of-paris",
+        "plabel": "The Treaty of Paris & the Proclamation Line"
+      },
+      {
+        "h": "What the Rising Won, and What It Could Not Stop",
+        "eyebrow": "The slow catastrophe"
+      },
+      {
+        "p": "It is worth saying plainly what the rising achieved, because it was real. The nations forced the most powerful empire on earth to back down. Amherst was gone. The gift-giving and the diplomacy were restored. A royal line was drawn, on paper, to protect Native land. Pontiac made peace ceding nothing. In the long arc of these contests, this was the first great multi-nation resistance that did not end in outright defeat, a precedent that later confederacies under leaders like Joseph Brant and Tecumseh would build upon."
+      },
+      {
+        "p": "But underneath the concessions lay a catastrophe that no treaty could touch, because it was structural and it was permanent."
+      },
+      {
+        "p": "The French counterweight was gone for good. The single thing the entire war had been about, the ability to balance one empire against another, was lost and would never come back. From now on the nations of the interior faced one power, alone, with no one to lean toward when that power turned on them. The Proclamation Line that was supposed to hold settlers back was ignored from the day it was signed, and the dispossession the rising had been fought to stop simply went on, slower than before but unbroken."
+      },
+      {
+        "p": "The cost had fallen on everyone. The fighting killed around 400 British soldiers, with perhaps another 50 captured and killed. On the frontier, the British agent George Croghan (British) estimated some 2,000 settlers killed or captured and around 4,000 driven from their homes, whole farming communities along the Pennsylvania and Virginia frontier emptied out. More than 200 Native warriors were killed in the fighting, and far more would have died if disease took the toll some intended. These were not abstractions. They were burned cabins and missing children on one side and bodies left on the portages and around the forts on the other."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/native-alliances",
+        "plabel": "The Contest for Native Alliances"
+      },
+      {
+        "p": "What has to be held onto is whose war this was and what it was about. The nations had never been conquered, never been consulted, and never agreed to belong to anyone. When the Treaty of Paris handed their country from one king to another as if it were a French estate, they answered with the largest war they could mount, not as rebels against a rightful master but as nations defending their own land against an empire that had simply decided it owned them. They won the battle to be treated as nations again. They could not win the longer war over the land itself, because the empire that had once needed them no longer did, and the settlers behind it never stopped coming."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/war-finance",
+        "plabel": "War Finance & the Road to Taxation"
+      }
+    ]
   }
 }
