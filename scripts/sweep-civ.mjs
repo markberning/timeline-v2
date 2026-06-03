@@ -46,10 +46,29 @@ function loadEvents() {
   for (const s of d.spans || []) if (Array.isArray(s.events)) evs.push(...s.events)
   return { d, byId: new Map(evs.map(e => [e.id, e])) }
 }
+// recoverable?(eventId) — is a no-photo event worth a gap-fill finder round?
+//   recoverable  = the gatherer surfaced ZERO downloadable candidates, so the picker
+//                  never had a real image to judge. A targeted finder may surface one.
+//   NOT recover. = the picker saw real candidates and rejected them ("nothing apt").
+//                  Re-searching Commons almost never beats what was already rejected,
+//                  so these are honest rejects — we must NOT burn a regather on them.
+// (This is the core of the gap-fill optimization — see
+//  memory/project_sweep_gapfill_optimization. The workflow additionally skips any
+//  event a prior round's finder already tried-and-failed.)
+function recoverableFn() {
+  const manPath = `/tmp/${tl}-photos/manifest.json`
+  const man = fs.existsSync(manPath) ? JSON.parse(fs.readFileSync(manPath, 'utf8')) : null
+  return id => {
+    if (!man) return true // no manifest yet → assume recoverable
+    const cands = (man.events?.[id]?.candidates || []).length
+    return cands === 0
+  }
+}
 function chapterCoverage() {
   const el = JSON.parse(fs.readFileSync(elPath, 'utf8'))
   const { byId } = loadEvents()
   const rej = fs.existsSync(rejPath) ? JSON.parse(fs.readFileSync(rejPath, 'utf8')) : {}
+  const recoverable = recoverableFn()
   const perChapter = []
   for (const ch of Object.keys(el).sort((a, b) => +a - +b)) {
     const seen = new Set(); let total = 0, withPhoto = 0; const noPhoto = []
@@ -58,10 +77,11 @@ function chapterCoverage() {
       const e = byId.get(link.eventId); if (!e) continue
       total++
       if (e.commonsFile && !rej[link.eventId]) withPhoto++
-      else noPhoto.push({ id: link.eventId, label: e.label })
+      else noPhoto.push({ id: link.eventId, label: e.label, recoverable: recoverable(link.eventId) })
     }
     const pct = total ? Math.round((withPhoto / total) * 100) : 100
-    perChapter.push({ chapter: +ch, total, withPhoto, pct, thin: pct < 70, noPhoto })
+    const recCount = noPhoto.filter(e => e.recoverable).length
+    perChapter.push({ chapter: +ch, total, withPhoto, pct, thin: pct < 70, recoverable: recCount, noPhoto })
   }
   return perChapter
 }
@@ -162,6 +182,11 @@ else if (phase === 'gather') {
 }
 
 else if (phase === 'finish') {
+  // Union the per-chapter vision picks into picks.json + resolve cross-chapter image
+  // collisions (idempotent; re-applies repick*.json overrides on top via mergePicksIntoOut
+  // below). Folded in here so the workflow needs no separate `mergepicks` agent. Its
+  // RESULT line is captured (not echoed) — only `finish` emits to stdout.
+  run(node, ['scripts/_merge-picks.mjs', tl])
   const merge = mergePicksIntoOut()
   process.stderr.write(`[finish] picks: ${merge.override} override / ${merge.reject} reject (${merge.coverage}%); applied to ${merge.applied} cards; dups: ${merge.dups.length}\n`)
   // sweep-apply mutates the GLOBAL caption/rejection files — serialize that write so

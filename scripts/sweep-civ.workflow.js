@@ -27,8 +27,8 @@ if (!tl) throw new Error('sweep-civ workflow needs a tlId (args="prehistoric-jap
 const EVENT = { type: 'object', properties: { id: { type: 'string' }, label: { type: 'string' }, wikiSlug: { type: 'string' } }, required: ['id', 'label'] }
 const PREP_SCHEMA = { type: 'object', properties: { totalEvents: { type: 'number' }, chapters: { type: 'array', items: { type: 'object', properties: { chapter: { type: 'number' }, title: { type: 'string' }, eventCount: { type: 'number' }, events: { type: 'array', items: EVENT } }, required: ['chapter', 'eventCount', 'events'] } } }, required: ['chapters', 'totalEvents'] }
 const GATHER_SCHEMA = { type: 'object', properties: { events: { type: 'number' }, withCandidates: { type: 'number' }, none: { type: 'array', items: { type: 'string' } }, rateLimited: { type: 'boolean' } }, required: ['events', 'withCandidates'] }
-const NOPHOTO = { type: 'object', properties: { id: { type: 'string' }, label: { type: 'string' } }, required: ['id'] }
-const CH_COV = { type: 'object', properties: { chapter: { type: 'number' }, total: { type: 'number' }, withPhoto: { type: 'number' }, pct: { type: 'number' }, thin: { type: 'boolean' }, noPhoto: { type: 'array', items: NOPHOTO } }, required: ['chapter', 'pct', 'thin'] }
+const NOPHOTO = { type: 'object', properties: { id: { type: 'string' }, label: { type: 'string' }, recoverable: { type: 'boolean' } }, required: ['id'] }
+const CH_COV = { type: 'object', properties: { chapter: { type: 'number' }, total: { type: 'number' }, withPhoto: { type: 'number' }, pct: { type: 'number' }, thin: { type: 'boolean' }, recoverable: { type: 'number' }, noPhoto: { type: 'array', items: NOPHOTO } }, required: ['chapter', 'pct', 'thin'] }
 const FINISH_SCHEMA = { type: 'object', properties: { override: { type: 'number' }, reject: { type: 'number' }, coverage: { type: 'number' }, perChapter: { type: 'array', items: CH_COV }, thinChapters: { type: 'array', items: CH_COV }, gates: { type: 'object', properties: { g14: { type: 'boolean' }, g15NewThin: { type: ['number', 'null'] }, fixLinksClean: { type: 'boolean' } } }, dups: { type: 'array' } }, required: ['coverage', 'perChapter', 'thinChapters', 'gates'] }
 
 const runPhase = (label, cmd, schema, timeoutMs = 180000) => agent(
@@ -71,7 +71,6 @@ const gather = await runPhase(`gather:${tl}`, `node scripts/sweep-civ.mjs gather
 log(`${tl}: gathered - ${gather.withCandidates}/${gather.events} events have candidates`)
 
 phase('Pick')
-const MERGE_SCHEMA = { type: 'object', properties: { merged: { type: 'number' }, override: { type: 'number' }, reject: { type: 'number' }, dupsResolved: { type: 'number' } }, required: ['merged', 'override', 'reject'] }
 // PARALLEL per-chapter vision pick: each picker views ONLY its chapter's candidate
 // images and picks the best per event, writing /tmp/<tl>-photos/picks-ch<N>.json.
 // This replaces a single agent that read every image serially (the slowest step) —
@@ -87,18 +86,35 @@ const pickThunks = prep.chapters.map(ch => () => agent(
   { label: `pick:ch${ch.chapter}`, phase: 'Pick', agentType: 'general-purpose', model: MODEL },
 ))
 await parallel(pickThunks)
-await runPhase(`mergepicks:${tl}`, `node scripts/_merge-picks.mjs ${tl}`, MERGE_SCHEMA, 120000)
+// (the per-chapter pick union + cross-chapter dedup is folded into `finish` below —
+// it runs scripts/_merge-picks.mjs itself, so no separate agent is needed here.)
 
 phase('Finish')
 let fin = await runPhase(`finish:${tl}`, `node scripts/sweep-civ.mjs finish ${tl}`, FINISH_SCHEMA, 420000)
 log(`${tl}: photos ${fin.coverage}% - thin: ${fin.thinChapters.map(c => `ch${c.chapter}(${c.pct}%)`).join(', ') || 'none'} - G14 ${fin.gates.g14} - G15 new-thin ${fin.gates.g15NewThin} - fix-links ${fin.gates.fixLinksClean}`)
 
+// Gap-fill ONLY recoverable (zero-candidate) events — the ones the picker never had a
+// real image to judge. Picker-REJECTED events (it saw candidates, none apt) are honest
+// rejects: re-searching Commons almost never beats what was already rejected, so we must
+// not burn a slow serial regather on them. `tried` then drops any recoverable event a
+// prior round's finder already attempted-and-failed, so a fruitless finder can't make us
+// loop a second time. Net: image-poor civs (maya/hittite) do ZERO gap-fill rounds.
+// See memory/project_sweep_gapfill_optimization.
+const tried = new Set()
 let round = 0
-while (fin.thinChapters.length && round < 2) {
+while (round < 2) {
+  const todo = fin.thinChapters
+    .flatMap(c => (c.noPhoto || []).filter(e => e.recoverable).map(e => ({ ...e, chapter: c.chapter })))
+    .filter(e => !tried.has(e.id))
+  if (!todo.length) {
+    if (fin.thinChapters.length) log(`${tl}: ${fin.thinChapters.length} thin chapter(s) but no recoverable (zero-candidate) events left — shortfall is genuine rejects (image-poor); skipping gap-fill.`)
+    break
+  }
   round++
   phase('Gapfill')
-  const thinEvents = fin.thinChapters.flatMap(c => (c.noPhoto || []).map(e => ({ ...e, chapter: c.chapter })))
-  log(`${tl}: gap-fill round ${round} - ${thinEvents.length} no-photo events in ${fin.thinChapters.length} thin chapter(s)`)
+  const thinEvents = todo
+  thinEvents.forEach(e => tried.add(e.id))
+  log(`${tl}: gap-fill round ${round} - ${thinEvents.length} recoverable event(s) across ${fin.thinChapters.length} thin chapter(s) (skipping genuine rejects)`)
   await agent(
     `Targeted photo gap-fill for the \`${tl}\` sweep, round ${round} - lift thin chapters over the 70% photo floor. Find REAL, VERIFIED, DISTINCT Wikimedia Commons filenames ONLY for events that genuinely have an apt image (a representative artifact/site/map is fine for portraitless people / abstract-but-illustratable events). Do NOT force - if no apt distinct image exists, OMIT it (honest-reject).\n\n`
     + `VERIFY each file exists (open the Commons File: page or the Wikipedia page) and shows the right subject.\n\n`
