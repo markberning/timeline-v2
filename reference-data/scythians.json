@@ -50,658 +50,1102 @@
       "id": "evt-scythian-migration",
       "label": "Scythians Enter the Pontic Steppe",
       "year": -900,
-      "description": "Iranian-speaking Scythian nomads migrated from Central Asia into the Pontic-Caspian steppe, displacing the Cimmerians and establishing dominance over the region.",
+      "description": "Iranian-speaking nomads riding in from the eastern steppe began displacing the existing population of the Pontic grasslands (the broad plains north of the Black Sea, in modern Ukraine and southern Russia) around 900 BCE, gradually extending their grazing circuits westward over generations until they controlled the whole region.",
       "wikiSlug": "Scythians#Origins",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A 2021 ancient-DNA time-transect published in Science Advances showed that Scythian-era steppe populations drew heavily on ancestry from the eastern Kazakh and Siberian steppes, genetically confirming the westward migration direction that archaeologists had inferred from artifact distributions alone. The Scythians carried a suite of distinctive bronze artefacts — cast cauldrons, curved daggers, and horse harnesses — that trace back to the earlier Karasuk culture of southern Siberia, acting as a kind of material fingerprint of where they came from."
+        }
+      ],
+      "commonsFile": "Scythian_kingdom_in_the_Pontic_steppe.jpg"
     },
     {
       "id": "evt-cimmerian-displacement",
       "label": "Cimmerians Driven Out",
       "year": -750,
-      "description": "The Scythians drove the Cimmerians from the Pontic steppe into Anatolia and the Near East, beginning the Scythian dominance of the Eurasian grasslands.",
+      "description": "Around 750 BCE the Scythians pushed the Cimmerians — the previous Iranian-speaking nomads who had held the Pontic steppe — southward through the Caucasus Mountains and into Anatolia (modern Turkey), setting off a chain of destruction across the Near East.",
       "wikiSlug": "Cimmerians",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The displaced Cimmerians turned out to be genuinely dangerous: in 696–695 BCE they conquered Phrygia (the kingdom of the legendary King Midas), and around 652 BCE they sacked Sardis, capital of the wealthy kingdom of Lydia, killing the Lydian king Gyges — an event so shocking that Greek poets Callinus and Archilochus wrote about the terror it spread through the Ionian coastal colonies. The poet Homer, writing around the time of the original displacement, placed the Cimmerians mythologically at the edge of the world near the entrance to the land of the dead — meaning the real people became legendary before most of the settled world had even met them."
+        }
+      ],
+      "commonsFile": "Cimmerian_Migrations.jpg"
     },
     {
       "id": "evt-scythian-near-east",
       "label": "Scythian Raids in Near East",
       "year": -680,
-      "description": "Scythian warriors raided deep into the Near East, reaching as far as Egypt and allying with Assyria against the Medes and Cimmerians.",
+      "description": "Around 680 BCE, Scythian horse warriors rode south out of the Pontic steppe into the heart of the ancient Near East — raiding, extorting, and making alliances with the most powerful empires on earth for roughly three generations before vanishing back into the grasslands.",
       "wikiSlug": "Scythians#In_the_Near_East",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Scythians' near-eastern adventure left a paper trail in three separate literary traditions: Assyrian cuneiform tablets, Herodotus's Greek histories, and — most unexpectedly — the Hebrew Bible, where the name 'Ashkenaz' in Genesis 10 and Jeremiah 51 is identified by most scholars as a rendering of the Akkadian 'Ashkuza,' the Assyrian word for Scythians. That same biblical name later became the medieval Hebrew term for Germany (and eventually 'Ashkenazi Jews'), a chain of word-migration stretching from steppe raiders to modern Jewish identity. On the material side, gold objects from the 7th-century Kelermes kurgans (burial mounds in the Kuban region of southern Russia) show direct parallels with the Ziwiyeh hoard from northwest Iran — physical proof that Near Eastern plunder or trade goods traveled back up through the Caucasus with the raiders."
+        }
+      ],
+      "commonsFile": "Scythian_Kingdom_in_West_Asia.jpg"
     },
     {
       "id": "evt-bartatua",
       "label": "Bartatua Allies with Assyria",
       "year": -670,
-      "description": "Scythian king Bartatua married an Assyrian princess and allied with the Assyrian Empire, gaining influence in Near Eastern politics.",
+      "description": "Scythian king Bartatua (also called Protothyes in Greek sources) asked to marry a daughter of the Assyrian king Esarhaddon around 672 BCE — a politically loaded request that Esarhaddon referred to the oracle of the sun-god Shamash before apparently agreeing.",
       "wikiSlug": "Bartatua",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Assyrian oracle-query tablet that records Bartatua's marriage proposal is one of the few documents in which the Scythians speak (through Assyrian voices) rather than being merely described. The princess most likely involved was Šērūʾa-ēṭirat, Esarhaddon's eldest daughter and older sister of the future king Ashurbanipal — meaning, if the marriage happened, a Scythian chieftain was brother-in-law to the man who would later sack the Elamite city of Susa. Under Assyrian law, the marriage would have made Bartatua a nominal vassal, technically giving Esarhaddon suzerainty over the Scythian territories — a legal fiction neither side probably took seriously, but useful diplomatic cover for both."
+        }
+      ],
+      "commonsFile": "Sam'al_stele_of_Esarhaddon,_671_BCE,_Pergamon_Museum.jpg"
     },
     {
       "id": "evt-madyes",
       "label": "Madyes Leads Scythian Power",
       "year": -650,
-      "description": "King Madyes led the Scythians to the height of their Near Eastern influence, reportedly dominating Media and parts of western Asia for 28 years.",
+      "description": "Bartatua's son Madyes pushed Scythian power to its peak around 650 BCE, leading campaigns that (according to Herodotus) left the Scythians as the dominant military force across much of western Asia for nearly three decades.",
       "wikiSlug": "Madyes",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Madyes shows up in Assyrian royal inscriptions from the reign of Ashurbanipal, placing Scythian forces in campaigns against Media around 652 BCE — one of the few contemporary Near Eastern confirmations of Herodotus's account, even if the '28 years of rule' is almost certainly an exaggeration of what were in reality extended raiding seasons. The name Madyes itself is an Iranianized form of a Scythian word; his father Bartatua's name likely meant something close to 'mighty in battle' in the original Scythian language, suggesting the family came with a dynasty-building brand already in place."
+        }
+      ],
+      "commonsFile": "Qyzqapan_tomb_relief_2.jpg"
     },
     {
       "id": "evt-horse-culture",
       "label": "Horse Nomad Culture",
       "year": -800,
-      "description": "The Scythians perfected mounted archery and pastoral nomadism, developing a way of life centered on the horse that defined Eurasian steppe cultures for millennia.",
+      "description": "Around 800 BCE the Scythians had refined horse nomadism into a complete military and social system: every warrior was a mounted archer, every family traveled in a felt wagon, and the entire economy of wealth, status, and war ran on the horse.",
       "wikiSlug": "Scythians#Way_of_life",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Scythian composite bow (layers of wood, horn, and sinew glued together) had a draw weight modern reconstructions place between 80 and 140 lbs — comparable to an English longbow but in a package short enough to clear a galloping horse's neck. Hippocrates, writing around 400 BCE, noted that Scythians cauterized their own shoulders, arms, wrists, and hips to dry out their joints and make their bodies stronger for drawing bows — an early, if alarming, form of sports conditioning."
+        }
+      ],
+      "commonsFile": "Etruscan_bronze_funerary_urn_with_Scythian_mounted_archer,_mid-5th_century_BCE.jpg"
     },
     {
       "id": "evt-composite-bow",
       "label": "Scythian Composite Bow",
       "year": -707.5,
-      "description": "The Scythian composite bow, short enough to use on horseback yet devastatingly powerful, became the signature weapon of steppe warfare.",
+      "description": "The Scythian composite bow was a short, double-curved weapon built from laminated wood, horn, and sinew — compact enough to use on horseback but powerful enough, at full draw, to punch through armor at combat range.",
       "wikiSlug": "Composite_bow",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Modern replicas built by bowyer Adam Karpowicz from surviving specimens achieved draw weights around 121 lbs (55 kg) — more than twice the draw weight of most modern competition recurve bows. The design spread so widely that it became the dominant composite bow type across Europe and Asia for centuries; the later Parthian and Mongol horse-archer traditions both used direct descendants of the Scythian pattern."
+        }
+      ],
+      "commonsFile": "Scythians_shooting_with_bows_Kertch_antique_Panticapeum_Ukrainia_4th_century_BCE.jpg"
     },
     {
       "id": "evt-scythian-animal-style",
       "label": "Scythian Animal Style Art",
       "year": -702.5,
-      "description": "Scythian artists created the distinctive Animal Style, depicting deer, panthers, and eagles in dynamic poses on gold plaques, belt buckles, and weapons.",
+      "description": "Scythian artists developed a visual language now called the Animal Style: highly energized, stylized depictions of deer, panthers, eagles, and griffins worked into gold plaques, sword fittings, horse harnesses, and clothing, recognizable wherever Scythian culture reached.",
       "wikiSlug": "Scythian_art",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The earliest confirmed Animal Style artifacts come from a burial mound called Tunnug 1 in what is now Tuva, Russia, precisely dated to between 833 and 800 BCE — centuries before the Scythians reached the Pontic steppe — and the motifs there appear only on functional objects like horse gear and weapons, not decorative jewelry. The three most common animals (bird of prey, stag, panther) likely mapped to a three-part cosmos: sky, earth, and underworld. A stag's branching antlers were particularly charged: they reach upward like a tree and their tips often curl into bird-head shapes, so a single stag image could invoke all three worlds at once."
+        }
+      ],
+      "commonsFile": "Placca_pantera,_da_regione_di_krasnodar,_kurgan_chertomlyk,_oro_a_sbalzo_e_cesellato,_fine_VII_sec_ac.jpg"
     },
     {
       "id": "evt-gold-pectoral",
       "label": "Gold Pectoral of Tovsta Mohyla",
       "year": -350,
-      "description": "The exquisite gold pectoral found at Tovsta Mohyla in Ukraine depicts Scythian daily life and animal combat, a masterpiece of ancient goldwork.",
+      "description": "The Gold Pectoral of Tovsta Mohyla is a crescent-shaped gold breast ornament found in a burial mound in Ukraine's Dnipropetrovsk region — discovered on June 21, 1971, by archaeologist Borys Mozolevskyi — and is widely considered the single greatest artifact of the Scythian world.",
       "wikiSlug": "Tovsta_Mohyla",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It weighs just over 2.5 pounds (1,150 grams), is 12 inches (30.6 cm) across, and is made of solid 24-karat gold — a single object that required a level of goldsmithing skill so high that scholars still debate whether it was made by Scythian craftsmen or commissioned from Greek metalworkers in Panticapaeum (the Crimean Greek city, modern Kerch). The three registers tell an entire cosmology: animal combat at the bottom, flowering vines in the middle, daily Scythian life at the top — two men sewing a shirt from sheepskin, a foal nursing, a man milking a mare. It now sits in the Museum of Historical Treasures of Ukraine in Kyiv."
+        }
+      ],
+      "commonsFile": "Scythian_gold_pectoral_Tovsta_Mohyla_(detail_1).jpg"
     },
     {
       "id": "evt-royal-kurgans",
       "label": "Royal Kurgan Burials",
       "year": -612.5,
-      "description": "Scythian royalty were buried in elaborate kurgan mounds with sacrificed horses, servants, gold artifacts, and weapons, reflecting their belief in an afterlife.",
+      "description": "Scythian kings were buried under enormous earthen mounds called kurgans, heaped over underground chambers packed with gold artifacts, sacrificed horses, and strangled attendants — essentially a furnished house for the dead, visible for miles across the flat steppe.",
       "wikiSlug": "Kurgan",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The largest royal kurgans reach 60 to 70 feet (18–20 meters) high with diameters of up to 400 feet (120 meters) — big enough to see from miles away on the treeless plain, which was the whole point. Excavations of kurgans like Solokha (eastern Ukraine) turned up not just gold but entire horse teams arranged in rings around the burial chamber, exactly matching what Herodotus wrote — one of the most striking case of an ancient literary source being confirmed point-by-point by the spade. The Scythians didn't just bury their kings; they built landmarks out of them, anchoring the tribe's territory to the landscape through the sheer physical presence of the dead."
+        }
+      ],
+      "commonsFile": "Scythian_gold_comb_with_the_image_of_a_battle_scene,_from_the_Solokha_kurgan,_430-390_BC_(47362587962).jpg"
     },
     {
       "id": "evt-chertomlyk-kurgan",
       "label": "Chertomlyk Kurgan",
       "year": -350,
-      "description": "The Chertomlyk kurgan near the Dnieper yielded spectacular gold and silver vessels, weapons, and a famous amphora depicting Scythians taming horses.",
+      "description": "The Chertomlyk kurgan, excavated in 1862–63 near modern Nikopol in Ukraine, is one of the great royal Scythian burial mounds — roughly 65 feet (20 meters) high — and yielded a silver amphora depicting Scythians taming horses that now sits in the Hermitage Museum in St. Petersburg.",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The amphora stands about 28 inches (70 cm) tall and is covered in three bands of relief sculpture: griffins attacking stags on the upper band, and in the central band, cast three-dimensional figures of Scythians working with horses — the strain visible in the animals' necks, the concentration in the riders' faces — joining together into continuous narrative scenes. The kurgan itself required grass sod to be cut from more than 185 acres (75 hectares) of surrounding steppe to build, a labor mobilization that archaeologists estimate involved thousands of workers. Among the largest Scythian royal mounds, only the Alexandropol kurgan is taller."
+        }
+      ],
+      "commonsFile": "Oud-Grieks_aardewerk._Zilveren_amfora_uit_Chertomlyk_Voor-_en_zijaanzicht,_GD018227.jpg"
     },
     {
       "id": "evt-pazyryk-burials",
       "label": "Pazyryk Frozen Tombs",
       "year": -400,
-      "description": "The frozen Pazyryk burials in the Altai Mountains preserved tattooed bodies, felt textiles, and a carpet — the oldest known pile carpet in the world.",
+      "description": "The Pazyryk (pah-ZIH-rik) frozen tombs are a set of fifth-to-fourth century BCE burial mounds in the Altai Mountains of southern Siberia, where permafrost sealed everything inside — wood, leather, textiles, food, and tattooed human bodies — intact for 2,500 years. Soviet archaeologist Sergei Rudenko excavated the main burial mounds between 1947 and 1949, finding organic material no warm-climate kurban had ever preserved.",
       "wikiSlug": "Pazyryk_burials",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The first of the five main Pazyryk mounds was actually opened in 1929 by archaeologist M. P. Griaznov — Rudenko came back for mounds two through five nearly twenty years later. Inside the fifth mound, Rudenko pulled out what is now the oldest known pile carpet in the world: roughly 6 by 6.5 feet (1.8 by 2 meters), knotted at a density of about 360,000 knots per square meter — tighter than most carpets made today. Whoever wove it, whether Scythians, Persians, or a Central Asian neighbor, was working at a level of craft that took centuries to develop. The carpet, along with the rest of the Pazyryk haul, is now in the Hermitage Museum in Saint Petersburg."
+        }
+      ],
+      "commonsFile": "Pazyryk_barrows.jpg"
     },
     {
       "id": "evt-herodotus-scythians",
       "label": "Herodotus Describes Scythians",
       "year": -440,
-      "description": "Herodotus devoted Book IV of his Histories to the Scythians, providing the most detailed ancient account of their customs, warfare, and territory.",
+      "description": "Around 440 BCE, the Greek historian Herodotus devoted Book IV of his sprawling Histories entirely to the Scythians — their origins, customs, religion, and the Persian campaign of Darius — giving us the single most detailed ancient portrait of a people who left almost no written records of their own.",
       "wikiSlug": "Histories_(Herodotus)#Book_4",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus is thought to have visited the Greek colony of Olbia on the northern Black Sea coast, where he gathered material from local informants who knew Scythian oral traditions through Greek-speaking go-betweens. His Histories run to nine books total, but Book IV is unusual in being almost entirely devoted to one non-Greek people, reflecting how much the Scythians had captured Greek curiosity. Archaeology has since confirmed a remarkable number of the details he recorded — burial mounds, horse sacrifice, hemp steam-baths — lending credibility to passages that once looked like tall tales."
+        }
+      ],
+      "commonsFile": "Herodotos_Met_91.8.jpg"
     },
     {
       "id": "evt-darius-invasion",
       "label": "Darius I Invades Scythia",
       "year": -513,
-      "description": "Persian king Darius I led a massive army across the Danube into Scythia, but the Scythians employed scorched-earth tactics and forced a humiliating Persian retreat.",
+      "description": "In 513 BCE, the Persian king Darius I marched an enormous army north into the Scythian steppe — the first time the world's largest empire had ever tried to conquer a fully nomadic people. The Scythians simply refused to fight, burned everything the Persians needed, and watched Darius walk back empty-handed.",
       "wikiSlug": "European_Scythian_campaign_of_Darius_I",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "To even reach Scythia, Darius first had to cross the Bosporus — roughly half a mile (700 meters) of open water at modern Istanbul — on a pontoon bridge of boats engineered by Mandrocles of Samos. Mandrocles was so proud of the feat that he had a painting of it made and dedicated to the goddess Hera at her famous sanctuary on Samos. Once across, the Persians chased the Scythians for roughly a month before hunger, thirst, and constant hit-and-run archery broke the campaign; historians debate whether the army got as far as the Dnieper or the Volga before Darius turned around."
+        }
+      ],
+      "commonsFile": "Darius_exped.-fr.png"
     },
     {
       "id": "evt-idanthyrsus",
       "label": "King Idanthyrsus Defies Darius",
       "year": -513,
-      "description": "Scythian king Idanthyrsus refused Darius's demand to submit, sending gifts of a bird, mouse, frog, and arrows as a cryptic warning to the Persian king.",
+      "description": "When Darius sent a herald demanding the Scythians submit or fight, king Idanthyrsus sent back four wordless objects: a bird, a mouse, a frog, and five arrows — a riddle that had Darius's war council arguing about its meaning while the steppe swallowed the Persian army.",
       "wikiSlug": "Idanthyrsus",
       "tier": 3,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Darius read the gifts as symbols of surrender (earth, water, sky, and weapons), but his advisor Gobryas got it right: unless you can fly, burrow underground, or dive into the swamps, those arrows will find you. Idanthyrsus's spoken reply added a pointed challenge — come defile our ancestors' graves, and you'll learn what kind of men we are; otherwise, keep marching into nothing. Herodotus recorded both the riddle and the verbal retort in his Histories (Book 4), written about 70 years after the campaign."
+        }
+      ],
+      "commonsFile": "Behistun_relief_Skunkha.jpg"
     },
     {
       "id": "evt-ateas",
       "label": "King Ateas",
       "year": -350,
       "endYear": -339,
-      "description": "Ateas unified the Scythian tribes and extended their realm to the Danube, creating the most powerful Scythian state before his death in battle against Philip II of Macedon.",
+      "description": "Ateas was the last great Scythian king, uniting the western Pontic tribes under a single command and stretching Scythian control from the Don River all the way to the Danube — the most ambitious territorial reach in Scythian history. He was also the only Scythian ruler known to have minted his own silver coins, stamping them with the image of a mounted warrior in the Greek style.",
       "wikiSlug": "Ateas",
       "tier": 2,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ancient sources disagree on exactly how many sons Ateas had — Poseidonius says fifty, Apollonides says eighty — but the deathbed parable about him is the same in every version: he handed his sons a bundle of arrows and told them that what none of them could break together, each of them could break alone. His coins, minted in collaboration with the Greek colony of Olbia, depicted Artemis on the obverse and a Scythian horseman on the reverse — a neatly bilingual object, Greek religious imagery on one face, Scythian identity on the other. The battle in 339 BCE where he died was fought in what is now the Dobruja region of modern Romania, near the Danube delta."
+        }
+      ]
     },
     {
       "id": "evt-philip-defeats-ateas",
       "label": "Philip II Defeats Ateas",
       "year": -339,
-      "description": "Philip II of Macedon killed the aged Scythian king Ateas in battle near the Danube, capturing 20,000 women and children and vast herds.",
+      "description": "In 339 BCE, Philip II of Macedon marched north and killed the aged king Ateas in battle near the lower Danube, capturing 20,000 women and children and vast herds of livestock — the first time a settled army had beaten the Scythians in a conventional pitched battle.",
       "wikiSlug": "Ateas#War_with_Philip_II",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Philip never got to enjoy the loot. On the march home through Thrace, the Triballi (a local tribe) ambushed his army and seized most of the captured slaves and herds. Philip himself took a sarissa — a Macedonian long-spear — completely through his leg, killing his horse and leaving him with a limp for the rest of his life. The Scythian campaign, meant as a triumph, ended with Philip arriving home wounded and empty-handed. The following year he won the Battle of Chaeronea and unified Greece, so history mostly skips the embarrassing part."
+        }
+      ],
+      "commonsFile": "PhilipIIGoldStaterHeadOfApollo.jpg"
     },
     {
       "id": "evt-zopyrion-disaster",
       "label": "Zopyrion's Disastrous Campaign",
       "year": -331,
-      "description": "Alexander's general Zopyrion invaded Scythia with 30,000 troops and was annihilated, demonstrating that Scythian steppe tactics remained lethal.",
+      "description": "In 331 BCE, Zopyrion — a Macedonian general left in charge of Thrace while Alexander was busy dismantling Persia — led 30,000 troops into Scythian territory to win his own glory, and lost every single one of them.",
       "wikiSlug": "Zopyrion",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before the Scythians finished Zopyrion off, he besieged the Greek coastal colony of Olbia (in modern Ukraine). The Olbians, desperate to hold out, freed their slaves and gave them full citizenship, extended citizenship to resident foreigners, and cancelled all outstanding debts — emergency measures that essentially dissolved the city's class structure to save it. A storm then destroyed Zopyrion's fleet, cutting off his supplies. On the retreat, the Scythians harassed his column until nothing was left. The defeat was so complete that ancient historians barely mention it — a 30,000-man annihilation that gets fewer lines than a skirmish."
+        }
+      ],
+      "commonsFile": "Bonz_antic_Chisinau_mai_2014_-0065.jpg"
     },
     {
       "id": "evt-scythian-shamanism",
       "label": "Scythian Shamanic Religion",
       "year": -697.5,
-      "description": "Scythians practiced a shamanistic religion with a sky-god pantheon, ritual hemp fumigation described by Herodotus, and sacred gold objects symbolizing cosmic order.",
+      "description": "Scythian religion was an open-sky faith built around sky worship, sacred fire, and blood sacrifice — no temples, no priests in the settled-world sense, conducted entirely in the open steppe around portable sacred objects.",
       "wikiSlug": "Scythian_religion",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Scythian pantheon was headed by a triad — Tabiti (fire), Papaeus (sky father), and Api (earth goddess) — with several other deities whose Scythian names survive only in garbled Greek transliteration. Because the Scythians left no writing of their own, almost everything known about their religion comes filtered through Herodotus, who consistently mapped Scythian deities onto Greek equivalents. Scholars now believe Scythian religion shares deep roots with early Iranian religion (Zoroastrianism's reverence for sacred fire, for instance, has clear parallels), suggesting both descended from common Proto-Indo-Iranian religious practices."
+        }
+      ],
+      "commonsFile": "Pazyryk_presentation_scene.jpg"
     },
     {
       "id": "evt-tabiti-goddess",
       "label": "Tabiti, Supreme Goddess",
       "year": -607.5,
-      "description": "The goddess Tabiti (fire/hearth) was the supreme deity of the Scythian pantheon, equated by Herodotus with Hestia, and oaths sworn by her were sacred.",
+      "description": "Tabiti — whose name means 'the burning one' — was the supreme deity of the Scythian pantheon, goddess of fire and the hearth, and the personal protector of Scythian kings.",
       "wikiSlug": "Tabiti",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Scythian king Idanthyrsus literally called Tabiti 'Queen of the Scythians,' treating her status as co-ruler rather than mere patron goddess. The royal hearth was kept burning as an eternal fire tended by virgin priestesses chosen by lot — letting it go out was a capital offense. A false oath sworn by that fire was believed to physically weaken the king himself, and the remedy was execution of the oath-breaker (who was tied to brushwood and burned), restoring the fire's strength and, by extension, the king's."
+        }
+      ],
+      "commonsFile": "Snake-Legged_Goddess_(Ivanovskaya_stanitsa,_4_c._BC)_by_shakko.jpg"
     },
     {
       "id": "evt-enarees",
       "label": "Enarees (Scythian Shamans)",
       "year": -504.5,
-      "description": "The Enarees were Scythian transgender shamans who practiced divination, described by Herodotus as afflicted by a 'female disease' from the goddess Artimpasa.",
+      "description": "The Enarees (from a Scythian word meaning 'unmanly') were a hereditary class of diviners assigned male at birth who lived as women, performed the cult of the goddess Artimpasa, and held significant political influence in Scythian society.",
       "wikiSlug": "Enaree",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Their divination method was distinctively their own: they cut the inner bark of the linden tree into three strips, then plaited and unplaited the strips around their fingers while speaking the prophecy — a different technique from ordinary Scythian soothsayers, who used willow withies. Herodotus records them at Book 4, chapter 67, describing the practice as hereditary — the 'female disease' passed from father to son through generations, marking the Enarees as a recognized, self-reproducing social category. Similar gender-variant shaman roles are documented across Siberian and Central Asian cultures into the modern era under names like the Siberian 'soft man' (soft-man shamans), pointing to a very old and widespread steppe institution."
+        }
+      ],
+      "commonsFile": "Karagodeuashkh_Headdress_Detail.png"
     },
     {
       "id": "evt-greek-black-sea-trade",
       "label": "Greek-Scythian Black Sea Trade",
       "year": -602.5,
-      "description": "Greek colonies along the Black Sea coast traded wine, olive oil, and luxury goods with Scythians in exchange for grain, hides, furs, and slaves.",
+      "description": "The Greek colonies strung along the northern Black Sea coast — especially Olbia — were the Scythians' door to the Mediterranean economy: the Greeks brought wine, olive oil, and painted pottery; the Scythians sent back grain, hides, furs, honey, wax, and slaves.",
       "wikiSlug": "Greek_colonisation#Black_Sea",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus specifically notes Scythian tribes who grew grain entirely for export, keeping none for themselves to eat — a detail that points to a sophisticated division of labor between the nomadic Scythian warriors and the agricultural subject peoples in the forest-steppe zone who did the actual farming. By the 4th century BCE the Bosporan Kingdom (the Greek state controlling the eastern Black Sea straits) was sending an estimated 400,000 bushels of grain per year to Athens alone. The Greeks also came to the Scythians for slaves: the northern Black Sea was one of the largest slave-supply zones in the ancient world, and some of those enslaved people ended up rowing Athenian warships."
+        }
+      ],
+      "commonsFile": "GREEK._Black_Sea_Region._Æ_Arrowhead_Proto-Money.jpg"
     },
     {
       "id": "evt-olbia-colony",
       "label": "Olbia Trading Colony",
       "year": -647,
-      "description": "The Greek colony of Olbia at the Bug River mouth became a major center of Greek-Scythian trade and cultural exchange on the northern Black Sea coast.",
+      "description": "Olbia (\"the prosperous\") was a Greek colonial city planted at the mouth of the Bug River in modern southern Ukraine around 647 BCE by settlers from Miletus — the most important trading post on the Scythian frontier and the main channel through which steppe wealth flowed into the Mediterranean world.",
       "wikiSlug": "Olbia",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Olbia famously minted some of the strangest coins in the ancient world: small cast-bronze pieces shaped like dolphins, first produced around 550–525 BCE and used initially as offerings to Apollo before becoming actual currency. The city's first settlement was actually on nearby Berezan Island (called Borysthenida), which served as a staging post before the colony moved to the mainland. By the 4th century BCE, the Bosporan grain trade (flowing partly through Olbia's networks) was supplying a significant portion of Athens's food — meaning that Athenian democracy ran, in part, on Scythian grain."
+        }
+      ],
+      "commonsFile": "AncientTownOlvia.jpg"
     },
     {
       "id": "evt-grain-export",
       "label": "Scythian Grain Exports",
       "year": -450,
-      "description": "The Scythian-controlled steppe became a major grain supplier to Athens and other Greek cities, with Bosporan Kingdom ports handling massive wheat shipments.",
+      "description": "By the mid-fifth century BCE, the Scythian-dominated steppe had become the breadbasket of the Greek world — massive wheat shipments flowing through Bosporan Kingdom ports fed Athens and other cities whose own farmland couldn't keep up with their growing populations.",
       "wikiSlug": "Bosporan_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fourth-century Athenian orator Demosthenes recorded that the Bosporan Kingdom supplied Athens with 400,000 medimnoi (roughly 16,000 metric tons) of grain annually — about half of the city's total grain imports at the time. Athens treated the Black Sea supply line as a strategic asset: disrupting it was considered an act of war. The Bosporan king Leucon I (reigned c. 389–349 BCE) received Athenian citizenship and special port-tax exemptions in return for guaranteeing the supply."
+        }
+      ],
+      "commonsFile": "Borysthenes_coins.jpg"
     },
     {
       "id": "evt-silk-road-steppe",
       "label": "Steppe Trade Routes",
       "year": -501.5,
-      "description": "Scythians controlled trans-Eurasian trade routes connecting China, Central Asia, and the Mediterranean, profiting from the movement of silk, jade, and gold.",
+      "description": "Long before the Silk Road had a name, Scythian-controlled grasslands served as the transit corridor connecting China and Central Asia to the Mediterranean — silk, jade, Iranian metalwork, and Mediterranean wine all moved through Scythian territory, and the Scythians took a cut.",
       "wikiSlug": "Silk_Road#History",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chinese silk has been found in Scythian burial mounds dated as early as the fifth century BCE, centuries before formal Silk Road trade is usually said to begin. Turquoise from mines in modern Afghanistan and carnelian from India have also turned up in Scythian kurgans, showing the reach of steppe exchange networks. The Scythians didn't just tax transit — they also shaped what moved: their demand for prestige metalwork pulled Iranian and Greek craftsmen into a feedback loop that produced some of the most technically advanced goldwork of the ancient world."
+        }
+      ],
+      "commonsFile": "SeidenstrasseGMT.JPG"
     },
     {
       "id": "evt-hippocrates-scythians",
       "label": "Hippocrates on Scythians",
       "year": -400,
-      "description": "Hippocrates described Scythian anatomy and diseases in 'On Airs, Waters, Places,' providing medical observations about nomadic lifestyle and cold-climate health.",
+      "description": "Around 400 BCE the Greek physician Hippocrates included an extended portrait of Scythian bodies and habits in his treatise On Airs, Waters, and Places — one of the earliest surviving attempts to explain human physical differences through environment rather than divine will.",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hippocrates described Scythian men cauterizing their own shoulders, arms, wrists, chest, hips, and loins to counteract what he saw as the 'moisture' of the steppe climate — essentially a theory that burning certain joints made warriors stronger for archery. He also noted that riding from childhood caused chronic joint inflammation in Scythian men and observed that wealthy Scythians (who rode most) were treated by opening the vein behind the ear to bleed out the 'excess.' His clinical detail is impressive even where his theory is wrong, and the text remains one of the main Greek sources for Scythian daily life."
+        }
+      ],
+      "commonsFile": "Herm_with_the_head_of_Hippocrates-Uffizi.jpg"
     },
     {
       "id": "evt-scythian-tattoos",
       "label": "Scythian Tattoo Art",
       "year": -400,
-      "description": "Preserved Pazyryk mummies reveal elaborate tattoos of mythical animals, demonstrating that Scythians used body art as markers of status and identity.",
+      "description": "The bodies buried at Pazyryk carried elaborate tattoos of fantastical animals — twisted deer, felines, griffins — inked in the same dynamic animal-style as Scythian goldwork, proving that the art form was a total system applied to skin as much as to metal. Because the permafrost preserved the skin, these tattoos are still clearly visible 2,500 years later.",
       "wikiSlug": "Pazyryk_burials#Tattoos",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In 1993, archaeologist Natalia Polosmak found a separate frozen burial on the nearby Ukok plateau: a young woman (around 25 years old) now called the Ice Maiden, who was buried with six sacrificed horses and a tall ceremonial headdress. Her left shoulder carried a tattoo of a single fantastical creature — griffin's beak, deer's head, antlers tipped with flowers — so well preserved that it reads like fresh ink. The tattoos were applied using soot and bone needles, and their complexity appears to track social rank: the more elaborate the tattoo, the higher the person's status in life."
+        }
+      ],
+      "commonsFile": "Pazyryk-2_tattoos.png"
     },
     {
       "id": "evt-scythian-women-warriors",
       "label": "Scythian Women Warriors",
       "year": -498.5,
-      "description": "Archaeological evidence of armed female Scythian burials confirms that women participated in warfare, likely inspiring the Greek legends of Amazons.",
+      "description": "Excavations across the Pontic steppe have found that roughly 20–33% of female Scythian burials contain weapons — swords, quivers, scale armor — and some skeletons show combat injuries, confirming that armed women were a recognized social category, not a rarity.",
       "wikiSlug": "Amazons#Scythian_origin_hypothesis",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In 2019, archaeologists near the Russian city of Voronezh uncovered a 2,500-year-old tomb holding four women warriors across at least two generations, buried together with iron lances and quivers — the first multi-generational warrior-women burial found, suggesting daughters trained alongside mothers. DNA analysis of one 2,600-year-old skeleton initially classified as male (based on grave goods alone) confirmed the warrior was a 13-year-old girl, a reminder that the Amazon-is-myth assumption shaped how earlier archaeologists read the bones. The Greek word 'Amazon' may itself derive from an Iranian phrase meaning 'warrior woman' (a-maz-an), pointing to a linguistic borrowing from steppe contact rather than pure literary invention."
+        }
+      ],
+      "commonsFile": "Amazone_Staatliche_Antikensammlungen_2342.jpg"
     },
     {
       "id": "evt-anacharsis",
       "label": "Anacharsis the Wise Scythian",
       "year": -590,
-      "description": "Anacharsis traveled to Athens and was counted among the Seven Sages by some ancient authors, representing the 'noble barbarian' in Greek philosophy.",
+      "description": "Around 590 BCE, a Scythian prince named Anacharsis traveled to Athens, impressed the Greeks so much with his blunt wisdom that some ancient writers counted him among the Seven Sages of Greece — and was killed by his own brother when he came home.",
       "wikiSlug": "Anacharsis",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Anacharsis was the brother of the Scythian king Saulius, and both were sons of the previous king Gnurus — so this wasn't some random nomad wandering into Athens, it was a royal prince on a deliberate trip. His vine-and-grapes witticism (three stages: pleasure, intoxication, disgust) was still being quoted by Roman writers centuries later. The ancient sources disagree on exactly why Saulius killed him: Herodotus says Anacharsis was shot for practicing Greek religious rites, but another tradition says the real offense was performing a nocturnal shamanistic ritual honoring the Scythian Snake-Legged Goddess — which would mean he was killed for being too Scythian, not too Greek."
+        }
+      ],
+      "commonsFile": "Anacharsis.jpg"
     },
     {
       "id": "evt-scythian-triad",
       "label": "Scythian Triad Artifacts",
       "year": -597.5,
-      "description": "The 'Scythian triad' of weapons, horse gear, and animal-style art defined Scythian material culture and has been found from Hungary to Mongolia.",
+      "description": "Archaeologists define \"Scythian\" material culture by three things found together: distinctive weapons (especially the composite bow and the short akinakes sword), horse gear with specific decorative conventions, and Animal Style art — wherever all three appear, Scythian cultural influence was present.",
       "wikiSlug": "Scythian_art#Scythian_triad",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The full triad has been confirmed at sites spanning the entire Eurasian steppe — from a 5th-century BCE find at Tápiószentmárton in Hungary all the way to the Ordos plateau of Inner Mongolia, a straight-line distance of roughly 4,500 miles (7,200 km). Whether every site represents actual Scythian political control or cultural imitation is debated, but the geographic range is larger than any contemporary empire. The earliest complete triad assemblage, at Tunnug 1 in Tuva (dated to 833–800 BCE), predates the Scythians' appearance in Near Eastern records by nearly two centuries."
+        }
+      ],
+      "commonsFile": "Pektoral111.JPG"
     },
     {
       "id": "evt-scythian-metallurgy",
       "label": "Scythian Goldsmithing",
       "year": -495.5,
-      "description": "Scythian and Greek artisans produced masterworks in gold, including elaborate animal-combat plaques, that rank among the finest metalwork of the ancient world.",
+      "description": "At its peak — roughly 450 to 350 BCE — Scythian goldwork was unlike anything else being produced in the ancient world: a hybrid art made by Greek craftsmen working Scythian subjects, combining Greek technical mastery with the steppe's distinctive animal-style aesthetic of writhing, interlocked creatures.",
       "wikiSlug": "Scythian_art#Goldwork",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Scythian \"animal style\" is one of the most immediately recognizable visual traditions in ancient art — bodies that coil into each other, predators devouring prey mid-leap, deer with antlers that dissolve into birds — and it originated on the Eurasian steppe centuries before the golden age. What the Greek goldsmiths added was technical refinement: granulation (tiny fused gold beads), cloisonné enamel inlay, and precision casting at a scale and quality that Scythian smiths working alone hadn't achieved. The collaboration produced objects archaeologists can now identify as \"Greco-Scythian\" — a distinct hybrid style that belongs fully to neither tradition."
+        }
+      ],
+      "commonsFile": "Placa_en_forma_de_cérvol_tombat,_trobada_al_túmul_de_Kostromskoy_a_Kuban,_segle_VII_aC.JPG"
     },
     {
       "id": "evt-sarmatian-displacement",
       "label": "Sarmatians Displace Scythians",
       "year": -300,
-      "description": "The related Sarmatian peoples began pushing the Scythians from the Pontic steppe, gradually displacing them westward and southward into Crimea.",
+      "description": "Starting around 300 BCE, the Sarmatians — a related group of Iranian-speaking nomads from the eastern steppe, between the Don River and the Ural Mountains — began pushing steadily westward, displacing the Scythians from their pastures and trade routes over the course of a century.",
       "wikiSlug": "Sarmatians",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Sarmatians had a decisive military advantage: they fielded cataphracts (fully armored cavalry in which both horse and rider wore scale armor), made possible by breeding larger, heavier horses than the steppe ponies the Scythians rode. A charging armored lancer could close the distance on a light horse-archer and break through before the arrows could stop him. The Sarmatians are also notable for something the Scythians were not — up to 25% of their warrior burials were women, armed and dressed identically to men, which is likely the kernel of truth behind the Greek Amazon legends Herodotus recorded."
+        }
+      ],
+      "commonsFile": "Sarmatian_cataphracts_in_Trajan's_column,_2nd_century_CE.jpg"
     },
     {
       "id": "evt-scythian-neapolis",
       "label": "Scythian Neapolis (Crimea)",
       "year": -250,
-      "description": "The Late Scythian kingdom established its capital at Scythian Neapolis in Crimea, a fortified urban settlement representing the last major Scythian political center.",
+      "description": "After being pushed out of the open steppe, the remnant Scythian kingdom built its last capital at Scythian Neapolis (meaning 'New City' in Greek), a fortified stone-walled settlement on the Kermenchik plateau near what is now Simferopol in Crimea — the first permanent, walled city the Scythians ever built.",
       "wikiSlug": "Scythian_Neapolis",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The site was first documented in 1827 only because a local antiquities collector noticed a cart hauling away quarried stones and stopped it — the stones turned out to be marble slabs with Greek inscriptions from the ruins. Excavations found that Greek-style stone houses with painted stucco walls coexisted alongside circular semi-permanent dwellings that looked like nomadic tents — the city was literally two architectural traditions sitting next to each other, the settled and the nomadic life side by side. The settlement remained occupied through the 3rd century CE, outlasting the Scythian kingdom by centuries."
+        }
+      ],
+      "commonsFile": "Simferopol,_Scythian_Neapolis,_2016.06.17_(04)_(29608182661).jpg"
     },
     {
       "id": "evt-skilurus",
       "label": "King Skilurus",
       "year": -250,
       "endYear": -225,
-      "description": "Skilurus ruled the Late Scythian kingdom from Neapolis in Crimea, briefly restoring Scythian power before conflicts with Mithridates VI of Pontus.",
+      "description": "King Skilurus ruled the Late Scythian kingdom from Neapolis in the mid-second century BCE, building fortifications, minting coins, and briefly restoring Scythian control over the Greek colonial cities of Crimea's northwest coast.",
       "wikiSlug": "Skilurus",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When Skilurus was dying, ancient sources record that he called his sons together — between 50 and 80 of them, depending on which source you trust — and demonstrated that while a single arrow breaks easily, a bundle cannot be snapped. It is the oldest known telling of what would later become Aesop's fable about the bundle of sticks, suggesting the parable originated with a real Scythian king. His mausoleum at Neapolis, excavated in the 20th century, yielded around a thousand gold ornaments, a bronze helmet with silver inlay, and swords with gold and silver hilts — and a limestone bas-relief above the entrance depicting Skilurus alongside his son Palacus."
+        }
+      ],
+      "commonsFile": "Scythian_Neapolis_Mausoleum.jpg"
     },
     {
       "id": "evt-mithridatic-defeat",
       "label": "Mithridates Defeats Late Scythians",
       "year": -110,
-      "description": "General Diophantus, on behalf of Mithridates VI of Pontus, crushed the Late Scythian kingdom in Crimea, effectively ending Scythian political independence.",
+      "description": "Around 110–108 BCE, Mithridates VI of Pontus sent his general Diophantus (son of Asclepiodorus, from the city of Sinope) into Crimea with a professional army, which systematically captured every Scythian fortress including Neapolis itself, ending Scythian political independence.",
       "wikiSlug": "Diophantus_(general)",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mithridates VI — known to history as 'the Poison King' because he reportedly dosed himself with small amounts of every toxin he knew about to build immunity — was at this point in the early stages of building the Black Sea empire he would spend decades defending against Rome. The Crimean campaign took at least three years and two separate expeditions. After the defeat, Mithridates incorporated surviving Scythian warriors directly into his own military forces — the final irony being that the men who had terrorized the steppe for three centuries ended their history as mercenaries in someone else's army."
+        }
+      ],
+      "commonsFile": "PonticKingdom.png"
     },
     {
       "id": "evt-scythian-mirror",
       "label": "Scythian Bronze Mirrors",
       "year": -592.5,
-      "description": "Scythians produced distinctive handled bronze mirrors decorated with animal motifs, found across the steppe and traded widely as prestige goods.",
+      "description": "Scythian craftspeople made distinctive handled bronze mirrors with animal motifs on the back or handle — portable prestige objects traded widely across the steppe and beyond.",
       "wikiSlug": "Scythians#Art",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mirrors were cast in copper alloy and polished to a reflective shine on one face; the decorated back was never meant to be hidden. One of the earliest known examples, from an Altai culture context (8th–7th century BCE), shows a standing stag and mountain goat. Scholars debate whether the animal decoration was purely a status marker or whether it served a ritual function — mirrors appear in both warrior graves and in the graves of high-status women, which makes a single \"warrior prestige\" explanation hard to sustain."
+        }
+      ],
+      "commonsFile": "Iron_Age_Scythian_Bronze_Mirrors_(28140690923).jpg"
     },
     {
       "id": "evt-akinakes",
       "label": "Akinakes Short Sword",
       "year": -692.5,
-      "description": "The akinakes was the characteristic Scythian short sword or dagger, carried by all free men as both weapon and status symbol across the steppe world.",
+      "description": "The akinakes (ah-kih-NAH-keez) was the Scythians' signature short sword or dagger — typically 16–24 inches (40–60 cm), double-edged, worn on the right hip — and every free Scythian man carried one as both fighting tool and social marker.",
       "wikiSlug": "Akinakes",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word 'akinakes' is Greek but the root is Old Iranian, pointing to the weapon's origins in the broader Iranian-speaking world the Scythians inhabited and raided. The design spread so effectively that the Achaemenid Persian empire adopted it as a prestige gift exchanged among elites — Persian kings gave akinakes to favored allies the way modern states give commemorative medals. Remarkably, the weapon's influence traveled as far as China: art historians have traced design echoes of the akinakes in early Chinese sword forms, a ripple effect of steppe-world contact running all the way to the Yellow River."
+        }
+      ],
+      "commonsFile": "8._Akinak_(dagger)_bural_mound_Arzhan_(VIII.-VII._B.C.)_Tuva.JPG"
     },
     {
       "id": "evt-scythian-origin-myth",
       "label": "Scythian Origin Myth",
       "year": -587.5,
-      "description": "Herodotus recorded the Scythian origin myth involving Targitaus and three golden objects falling from the sky, only graspable by the youngest son.",
+      "description": "Herodotus recorded the Scythians' own origin story: a first man named Targitaus (son of the sky-god and the river-goddess) had three sons, and when golden objects — a plow, a yoke, an axe, and a drinking cup — fell from the sky, only the youngest son Colaxais could touch them without being burned, making him the ancestor of the Royal Scythians.",
       "wikiSlug": "Scythians#Origin_myths",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus dates the myth to roughly 1,000 years before Darius's invasion — putting the legendary Targitaus around 1,513 BCE. The four golden objects weren't decorative: the plow and yoke stood for agriculture, the axe for warfare, and the cup for ritual — together a complete symbolic map of Scythian society's three tiers (farmers, warriors, royals). Linguists have traced the name Colaxais to an Iranian root meaning \"ruler of the sun,\" connecting the myth to wider Indo-Iranian traditions of solar kingship."
+        }
+      ]
     },
     {
       "id": "evt-spargapithes",
       "label": "King Spargapithes",
       "year": -470,
-      "description": "Spargapithes ruled the Scythians during the mid-fifth century BCE and was recorded by Herodotus as having killed the Agathyrsian king Ariapeithes's predecessor in a dynastic conflict.",
+      "description": "Around 470 BCE, Spargapithes ruled the Scythians and was recorded by Herodotus as having killed a rival king — a snapshot of standard steppe politics where royal succession meant constant pressure from neighboring powers and rival dynasties.",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus is the only source for Spargapithes, and the account is brief — he appears mainly as the father of Ariapeithes, the king who would push Scythian cultural entanglement with the Greek world to its limits. The name Spargapithes was apparently recycled in Scythian royal naming: another Spargapithes (king of the Agathyrsi, a neighboring people) would later assassinate Ariapeithes, turning the family history into a dark loop. The recycling of royal names across generations and rival dynasties is a recurring feature of steppe political culture that makes Scythian genealogy genuinely difficult to untangle."
+        }
+      ]
     },
     {
       "id": "evt-ariapeithes",
       "label": "King Ariapeithes",
       "year": -460,
-      "description": "Ariapeithes ruled the Pontic Scythians and married women from Thrace, Istria, and the Greek world, reflecting the growing cultural connections between Scythians and their settled neighbors.",
+      "description": "Ruling around 460 BCE, King Ariapeithes illustrated how deeply the Scythian elite had tangled itself in the wider world: he married three women from three different cultures — a Greek woman from Istria, a daughter of the Thracian king Teres I, and a Scythian noblewoman — giving his heirs simultaneous claims on the steppe, Thrace, and the Greek colonial world.",
       "wikiSlug": "Ariapeithes",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ariapeithes' three sons each took his mother's culture with him: Scyles (the Greek wife's son) would eventually be executed for going too Greek; Octamasadas (the Thracian wife's son) would be the one who ordered that execution. Ariapeithes himself was assassinated by Spargapithes, king of the neighboring Agathyrsi — killed in a diplomatic meeting, according to Herodotus, by treachery rather than battle. His murder set off the succession crisis that made Scyles king and put the story of cultural collision on its fatal track."
+        }
+      ]
     },
     {
       "id": "evt-palakus",
       "label": "King Palakus",
       "year": -130,
-      "description": "Palakus succeeded Skilurus as ruler of the Late Scythian kingdom in Crimea, fighting a losing war against Mithridates VI of Pontus for control of the Greek cities of the Tauric coast.",
+      "description": "Palacus (also spelled Palakus) succeeded his father Skilurus as ruler of the Late Scythian kingdom around 130 BCE, attempting to hold the Crimean Greek cities against an increasingly aggressive Pontus — and becoming the last Scythian king whose name survives in the ancient record.",
       "wikiSlug": "Palacus",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Palacus tried twice to besiege Chersonesus (the major Greek city on the Crimean coast, near modern Sevastopol) and was twice driven off by Pontic forces. He then recruited the Rhoxolani, a Sarmatian tribe from the eastern steppe — which meant a Scythian king was now hiring his former conquerors as mercenaries to fight a new conqueror. The coalition lost anyway. A limestone bas-relief found at Neapolis shows both Skilurus and Palacus in Persian-style attire, a detail that says something about how the Late Scythian elite imagined themselves by this point."
+        }
+      ],
+      "commonsFile": "Plate_of_Palacus.jpg"
     },
     {
       "id": "evt-tomyris",
       "label": "Tomyris Defeats Cyrus the Great",
       "year": -530,
-      "description": "Tomyris, warrior queen of the Massagetae (a Scythian-related people), defeated and killed Cyrus the Great of Persia, reportedly plunging his head into a wineskin of blood.",
+      "description": "Around 530 BCE, Tomyris — warrior queen of the Massagetae, a nomadic confederation east of the Caspian Sea — led the army that defeated and killed Cyrus the Great of Persia, the most successful conqueror of the sixth century BCE.",
       "wikiSlug": "Tomyris",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cyrus's trap that triggered the final confrontation was devastatingly simple: he left a camp stocked with wine — a drink the Massagetae had never encountered — which Tomyris's son Spargapises and his troops discovered, drank until incapacitated, and were captured. Spargapises killed himself in captivity rather than remain a Persian prisoner, and it was that death, not mere territorial aggression, that sent Tomyris into battle. Peter Paul Rubens painted the scene of Tomyris receiving Cyrus's head at least twice — one version now at the Museum of Fine Arts in Boston, another at the Louvre — and the story became a standard Renaissance emblem of just vengeance by a righteous female ruler."
+        }
+      ],
+      "commonsFile": "Head_of_Cyrus_Brought_to_Queen_Tomyris,_Peter_Paul_Rubens.jpg"
     },
     {
       "id": "evt-aristeas",
       "label": "Aristeas of Proconnesus",
       "year": -650,
-      "description": "The Greek poet Aristeas claimed to have traveled deep into Scythian territory, writing the lost Arimaspea describing the one-eyed Arimaspi and gold-guarding griffins of the far north.",
+      "description": "Around 650 BCE, a Greek poet named Aristeas of Proconnesus claimed to have traveled deep into the far north and written the Arimaspea — a poem describing one-eyed people called the Arimaspi who fought gold-guarding griffins at the edges of the known world.",
       "wikiSlug": "Aristeas",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aristeas was already a legend in his own lifetime: ancient sources claimed he died in a fuller's shop and then vanished, only to reappear seven years later to compose the poem. The Arimaspea itself is entirely lost — we know it only through fragments quoted by later writers and Herodotus's summary. Scholars date him to roughly 675–600 BCE and note that his griffin-guarded gold almost certainly reflects real steppe geography: the gold-rich Altai Mountains, where Scythian tribes did indeed live alongside the large carrion birds Greeks might have rendered as monsters."
+        }
+      ],
+      "commonsFile": "Hermitage_hall_121_-_021.jpg"
     },
     {
       "id": "evt-scyles",
       "label": "Scyles the Hellenized King",
       "year": -450,
-      "description": "Scythian king Scyles secretly practiced Greek religion and was initiated into Dionysian rites at Olbia, but when discovered his own people overthrew and killed him for abandoning Scythian customs.",
+      "description": "Around 450 BCE, the Scythian king Scyles — son of a Greek mother from Istria — secretly kept a house in the Greek colony of Olbia where he changed into Greek clothes, performed Greek religious rites, and was initiated into the Dionysian mysteries (the ecstatic rites of the wine god Dionysus); when his own warriors discovered him dancing in ivy wreaths inside the city walls, they overthrew and killed him.",
       "wikiSlug": "Scyles",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus says Scyles was educated in Greek by his mother and could read and write — genuinely bilingual in a way most Scythian kings were not. The Dionysian mysteries that got him killed were initiation rites promising symbolic death and rebirth; Greeks considered them deeply personal and slightly transgressive even by Greek standards. Scyles fled to Thrace after being overthrown, but his half-brother Octamasadas (whose mother was Thracian) negotiated with the Thracian king to hand him back — and had him beheaded. The story is confirmed by an inscribed lead tablet found at Olbia that mentions Dionysian cult activity there, giving Herodotus's account an independent archaeological corroboration."
+        }
+      ],
+      "commonsFile": "2Скил.jpg"
     },
     {
       "id": "evt-scythians-sack-ascalon",
       "label": "Scythians Sack Ascalon",
       "year": -625,
-      "description": "Scythian raiders attacked the Philistine city of Ascalon and plundered the temple of Aphrodite Urania during their campaigns through the Levant, reaching the borders of Egypt.",
+      "description": "During their sweep through the Levant, Scythian raiders sacked the Philistine port city of Ascalon (modern Ashkelon in Israel) and plundered what Herodotus called the oldest temple of Aphrodite Urania in the world — then reached the borders of Egypt, where pharaoh Psammetichus I reportedly paid them off to turn back.",
       "wikiSlug": "Ashkelon#Iron_Age",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus specifically names the temple at Ashkelon as the prototype for the goddess's cult across Cyprus and the wider Mediterranean — so the Scythians weren't just raiding a city; they were, in Greek eyes, ransacking the origin-point of a major religious tradition. Psammetichus I's reign (664–610 BCE) was itself a remarkable comeback story: he had only recently unified Egypt after a period of Assyrian occupation and internal fragmentation, making his successful deflection of the Scythians (by bribery, according to Herodotus) one of the first acts of independent Egyptian diplomacy in a generation. Some modern historians suspect the sack Herodotus describes may conflate the Scythian raid with the later Babylonian destruction of Ashkelon in 604 BCE — the two events are separated by only about two decades, plenty of time for oral memory to blur."
+        }
+      ]
     },
     {
       "id": "evt-scythians-overthrow-medes",
       "label": "Scythians Overthrow Median Rule",
       "year": -625,
-      "description": "Under Madyes, the Scythians defeated the Medes and dominated western Asia for nearly three decades before being expelled, according to Herodotus, through a treacherous feast.",
+      "description": "Around 625 BCE, Scythian domination of western Asia ended when the Medes — led by king Cyaxares — reportedly massacred Scythian leaders at a feast and expelled the survivors back through the Caucasus.",
       "wikiSlug": "Scythians#In_the_Near_East",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus says Cyaxares got the Scythian chiefs drunk and killed them — a story historians treat as probable folklore, since the 'treacherous banquet' is a literary trope recycled across dozens of ancient cultures. What the expulsion definitely triggered was the immediate Median assault on Assyria: Cyaxares had been building toward that war for years, and the Scythians had been the obstacle. Within roughly a decade of the Scythian withdrawal, the combined Median and Babylonian army sacked Nineveh (612 BCE) and erased the Assyrian Empire in under three years. The Scythians had, in effect, bought Assyria an extra generation of life — probably not intentionally."
+        }
+      ]
     },
     {
       "id": "evt-palakus-war",
       "label": "Palakus Wars with Pontus",
       "year": -110,
-      "description": "Palakus led the last major Scythian resistance against Pontic general Diophantus in Crimea, rallying Sarmatian allies in a desperate but unsuccessful attempt to preserve the Late Scythian kingdom.",
+      "description": "The last stand of the Late Scythian kingdom: Palacus rallied a coalition including Sarmatian Rhoxolani allies under their chief Tasius to resist Pontic general Diophantus, but the combined force was defeated, and the Scythians accepted Mithridates VI as their overlord.",
       "wikiSlug": "Palacus",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Rhoxolani under Tasius — the Sarmatian tribe Palacus hired — reportedly fielded a large force of armored cavalry, but Diophantus outmaneuvered them by choosing terrain that neutralized the cataphracts' charge. The Greek city of Chersonesus had invited Mithridates in specifically to counter Scythian pressure on their trade routes, which means the Scythians were ultimately defeated partly because the Greek cities they had taxed for centuries finally found a patron powerful enough to push back."
+        }
+      ],
+      "commonsFile": "Coin_of_Mithridates_VI,_minted_in_Pergamon,_Third_Mithradatic_War_Issue.jpg"
     },
     {
       "id": "evt-panticapaeum-trade",
       "label": "Panticapaeum and the Bosporan Kingdom",
       "year": -480,
-      "description": "Panticapaeum, capital of the Bosporan Kingdom on the Kerch Strait, became the wealthiest Greek-Scythian trading hub, shipping enormous quantities of wheat to Athens and controlling the Sea of Azov.",
+      "description": "Panticapaeum (pan-tih-kuh-PEE-um), the Greek city on the Kerch Strait in Crimea that served as capital of the Bosporan Kingdom, became the wealthiest trading hub on the Black Sea — the chokepoint through which Scythian grain, fish, and slaves flowed south to the Mediterranean.",
       "wikiSlug": "Panticapaeum",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Kerch Strait (about 3 miles / 5 km wide at its narrowest) connects the Black Sea to the Sea of Azov, giving Panticapaeum control over every ship moving between the two. The city's rulers, the Spartocid dynasty, held power for over three centuries (438–108 BCE) partly by maintaining diplomatic balance between their Greek identity and their Scythian hinterland. At its peak, Panticapaeum minted gold coins — a sign of extraordinary wealth — and its harbor installations were comparable in scale to major mainland Greek ports."
+        }
+      ],
+      "commonsFile": "Архітектурно-археологічний_комплекс_«Стародавнє_місто_Пантікапей».JPG"
     },
     {
       "id": "evt-amber-route",
       "label": "Amber Trade Route",
       "year": -600,
-      "description": "Scythian-controlled territories linked the Baltic amber sources to Black Sea and Mediterranean markets, with amber artifacts found in kurgans across the steppe.",
+      "description": "Scythian territory sat astride the ancient amber trade routes connecting Baltic Sea sources in northern Europe to Mediterranean markets, and amber artifacts found in kurgans across the steppe confirm the Scythians were active participants — not just bystanders — in this long-distance commerce.",
       "wikiSlug": "Amber_Road",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Baltic amber (fossilized tree resin, prized for its warm golden color and the fact that it could be carved and polished) has been found in Egyptian tombs and Mycenaean shaft graves, meaning organized long-distance amber trade predates the Scythians by centuries. The eastern branch of Scythian territory, around the Caspian Sea, had direct access to the Baltic via the Volga River — a single waterway running nearly the full north-south length of what is now Russia. Amber was light, portable, imperishable, and universally valued across cultures that had never met each other, which made it one of the ancient world's most reliable trade goods."
+        }
+      ],
+      "commonsFile": "Amber_Road.jpg"
     },
     {
       "id": "evt-slave-trade",
       "label": "Scythian Slave Trade",
       "year": -500,
-      "description": "The Scythians were major suppliers of slaves to the Greek world, capturing prisoners from raiding and warfare and selling them through Black Sea ports like Tanais and Olbia.",
+      "description": "The Scythians were one of the ancient Greek world's largest suppliers of slaves — capturing prisoners in raids and warfare, then selling them through Black Sea ports like Tanais and Olbia into slave markets across the Mediterranean.",
       "wikiSlug": "Slavery_in_ancient_Greece#Sources_of_slaves",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A confiscated-property list from Athens in 415 BCE lists slaves' origins, and Scythia appears alongside Thrace, Caria, and Phrygia as one of the most common sources. \"Scythian\" became so common as a slave name in Athens that it functioned like an ethnic label repurposed as a mark of ownership — a grim echo of how thoroughly Greek buyers associated the steppe with captive labor. The irony was structural: Scythian nobles grew wealthy selling the war captives that Scythian military power generated, then spent that wealth on the Greek wine and goldwork that financed further raiding."
+        }
+      ]
     },
     {
       "id": "evt-solokha-kurgan",
       "label": "Solokha Kurgan",
       "year": -400,
-      "description": "The Solokha kurgan near the Dnieper contained a famous gold comb depicting a battle scene of armored Scythian warriors, one of the finest examples of Greco-Scythian metalwork.",
+      "description": "The Solokha kurgan on the left bank of the Dnieper River produced the most famous single object in Scythian art: a solid gold comb depicting a battle scene of armored Scythian warriors, excavated in 1912–1913 and almost certainly made by a Greek craftsman working to a Scythian commission.",
       "wikiSlug": "Solokha",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The comb measures about 5 inches (12.6 cm) tall — almost entirely decorative, far too large for practical use — with a frieze of three warriors in close combat crowning a row of gold lion-griffins. It was found alongside a royal burial so lavish that archaeologist Nikolai Veselovsky, who excavated it, reportedly wept when he opened the chamber. Like the Kul-Oba treasures, the Solokha comb is now in the Hermitage Museum, and it remains one of the most reproduced objects in ancient metalwork."
+        }
+      ],
+      "commonsFile": "Scythian_comb.jpg"
     },
     {
       "id": "evt-kul-oba-kurgan",
       "label": "Kul-Oba Kurgan",
       "year": -375,
-      "description": "The Kul-Oba kurgan near Kerch in Crimea, excavated in 1830, yielded spectacular gold artifacts including a famous electrum vessel showing Scythian daily life and the first major Scythian archaeological find.",
+      "description": "Excavated near Kerch in Crimea in 1830, the Kul-Oba kurgan was the first major Scythian tomb ever scientifically investigated, and it produced goldwork that stopped the archaeological world cold — including a celebrated electrum vessel (electrum is a natural gold-silver alloy) showing Scythians as they saw themselves: bearded, trouser-wearing, bow-armed.",
       "wikiSlug": "Kul-Oba",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The electrum vessel is small — about 5 inches (13 cm) tall — but densely packed with narrative: it shows warriors bandaging wounds, pulling teeth, and stringing bows, making it one of the only surviving artifacts depicting Scythians through Scythian eyes rather than as exotic foreigners. Almost all the gold from Kul-Oba went straight to the Hermitage Museum in St. Petersburg, where it remains today. The kurgan dates to the mid-to-late fourth century BCE, placing it at the very end of the golden age — and the burial included a man, a woman, and a servant, sacrificed to accompany the dead."
+        }
+      ],
+      "commonsFile": "Vas_d'or_amb_representació_d'escites,_kurgan_de_Kul-Oba,_segona_meitat_del_segle_IV_aC.JPG"
     },
     {
       "id": "evt-alexandropol-kurgan",
       "label": "Alexandropol Kurgan",
       "year": -325,
-      "description": "The Alexandropol kurgan, one of the largest Scythian burial mounds in Ukraine at over 20 meters high, contained multiple burials with horse sacrifices and elaborate gold ornamentation.",
+      "description": "The Alexandropol kurgan, east of the Bazavluk River in Ukraine's Dnipropetrovsk region, is the tallest Scythian royal burial mound known — roughly 79 feet (24 meters) high and originally clad in stone — with multiple burial chambers that held horse sacrifices, gold ornamentation, and the bones of at least 99 animals consumed at the funeral feast.",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The kurgan was first excavated in 1852–56 and then re-excavated with modern methods between 2004 and 2009, the second pass revealing details the 19th-century dig missed. The original mound had a stone revetment (outer casing) about 260 feet (80 meters) in diameter and an encircling ditch 360 feet (110 meters) across — a construction volume of roughly 130,000 cubic meters. The funerary feast assemblage included bulls, horses, sheep, goats, dogs, pigs, a hare, and a deer, a menu that tells archaeologists something specific about Scythian ritual hierarchy: horses at a royal funeral, but pigs and a hare too, suggesting the feast fed a crowd beyond the inner circle."
+        }
+      ],
+      "commonsFile": "AlexandropolKurganBeforeExcavation1852-6.gif"
     },
     {
       "id": "evt-cannabis-ritual",
       "label": "Cannabis Purification Ritual",
       "year": -500,
-      "description": "Herodotus described Scythians using hemp-seed vapor baths in felt tents after funerals, howling with pleasure — a practice confirmed by archaeological finds of bronze censers and charred cannabis seeds in kurgans.",
+      "description": "After funerals, Scythians built small felt tent-structures over red-hot stones, threw hemp seeds onto the stones, and breathed the vapor — a purification ritual Herodotus described around 450 BCE that archaeology has since confirmed in remarkable detail.",
       "wikiSlug": "Scythians#Cannabis",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At the Pazyryk burial site in the Altai Mountains, excavators found complete cannabis-inhalation kits still in place: bronze tripod cauldrons on fire-scorched stones, hexapod (six-pole) frames that once supported felt tents, and leather flasks still containing uncharred cannabis seeds mixed with coriander. Chemical analysis of residue in gold bowls found at a separate kurgan site near Stavropol came back positive for both cannabis and opium, suggesting the ritual cocktail was sometimes more elaborate than Herodotus described. The seeds and the equipment are so consistent across geographically distant sites that this was clearly a standardized religious practice, not a local habit."
+        }
+      ]
     },
     {
       "id": "evt-sword-cult",
       "label": "Sword of Ares Cult",
       "year": -550,
-      "description": "Herodotus reported that the Scythians worshipped an ancient iron sword planted in a brushwood platform as a symbol of the war god, pouring libations of blood from sacrificed animals and prisoners.",
+      "description": "The Scythian war god was worshipped as an actual iron sword planted upright on a massive brushwood platform — not a symbol of a god, but the god himself, in metal.",
       "wikiSlug": "Scythian_religion#Ares",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus specifies that the brushwood altar was roughly three stadia (about 1,800 feet, or 550 meters) on each side — a genuinely enormous structure that required 150 wagon-loads of fresh sticks every year just to replace what settled and rotted. Uniquely among Scythian deities, this was the only one for whom the Scythians built any kind of altar at all; every other god received offerings under the open sky with no structure at all. Every hundredth prisoner of war was sacrificed at the sword, with the right arm severed and thrown into the air to fall separately from the body — a rite Herodotus distinguishes carefully from ordinary animal sacrifice at the same altar."
+        }
+      ],
+      "commonsFile": "Scythian_sword_with_golden_scabbard_from_Velyka_Bilozerka,_4th_century_BC,_01.jpg"
     },
     {
       "id": "evt-funerary-customs",
       "label": "Royal Funerary Procession",
       "year": -500,
-      "description": "Herodotus described the elaborate 40-day Scythian royal funeral: the embalmed king was carried through every subject tribe, mourners cut their ears and slashed their arms, and horses and servants were strangled for burial.",
+      "description": "When a Scythian king died, his embalmed body was loaded onto a wagon and carried through every subject tribe in a forty-day procession, while mourners cut their ears, slashed their arms, and pierced their left hands with arrows — then the body was sealed into a pit-chamber with sacrificed horses and servants.",
       "wikiSlug": "Scythians#Burial",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus says a full year after the burial, fifty of the king's young attendants and fifty of his finest horses were strangled, gutted, stuffed with chaff, and mounted on stakes in a ring around the kurgan — a standing ghost cavalry for the dead king. Archaeologists have found stake-holes and skeletal deposits around some mounds consistent with exactly this, though the precise staging is hard to confirm from bones alone. The embalming technique Herodotus describes (organs removed, cavity filled with aromatic herbs, body coated in wax) is the same basic method the Egyptians used, though whether the Scythians borrowed it or invented it independently is unknown."
+        }
+      ],
+      "commonsFile": "Uyuk_Valley_with_royal_Scythian_burial_mounds._Aerial_view_of_the_burial_mound_Tunnug_1_(looking_northeast).jpg"
     },
     {
       "id": "evt-horse-breeding",
       "label": "Scythian Horse Breeding",
       "year": -700,
-      "description": "The Scythians bred sturdy steppe horses prized for endurance and speed, using selective breeding and gelding techniques that produced mounts capable of sustained long-distance riding and combat.",
+      "description": "The Scythians practiced deliberate selective breeding, producing sturdy steppe horses in the 14–15 hand range (roughly pony-sized by modern standards) that were built for endurance and sustained long-distance travel rather than raw speed.",
       "wikiSlug": "Scythians#Horses",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A 2017 genome study led by Professor Ludovic Orlando, sequencing 13 stallions from royal Scythian burial sites including the permafrozen chamber at Berel, Kazakhstan (where 13 horses were preserved together), identified 121 genes under selection — most of them governing forelimb development. Remarkably, none of the ancient horses showed signs of inbreeding, suggesting the Scythians kept broad, healthy herd structures rather than concentrating breeding through a small number of elite bloodlines. The modern Akhal-Teke breed is considered the closest living descendant of the ancient Scythian horse."
+        }
+      ],
+      "commonsFile": "Scythian_saddles.jpg"
     },
     {
       "id": "evt-wagon-dwelling",
       "label": "Scythian Wagon Dwellings",
       "year": -750,
-      "description": "Scythians lived in felt-covered wagons drawn by oxen, mobile homes that Hippocrates described in detail — entire families traveled with their herds, making the wagons the basic unit of nomadic life.",
+      "description": "Scythian families didn't live in fixed camps — they lived in felt-covered wagons drawn by oxen, moving with their herds through seasonal circuits across the steppe, the wagon serving as a fully weatherproof home on wheels.",
       "wikiSlug": "Scythians#Way_of_life",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hippocrates recorded that the smallest wagons had four wheels and the largest had six, and that all the oxen pulling them lacked horns — apparently because the extreme cold of the steppe winters prevented horn growth. The frozen tombs at Pazyryk in the Altai Mountains (Siberia) have preserved actual felt panels, wooden wagon frames, and textile hangings that confirm the Greek written descriptions in striking detail, giving archaeologists a rare direct match between ancient literary sources and physical remains."
+        }
+      ]
     },
     {
       "id": "evt-scale-armor",
       "label": "Scythian Scale Armor",
       "year": -600,
-      "description": "Scythian warriors developed iron and bronze scale armor, layering hundreds of small overlapping plates onto leather backing to create flexible body protection suited to mounted combat.",
+      "description": "Scythian warriors wore flexible body armor made from hundreds of small iron or bronze plates sewn in overlapping rows onto a leather backing — strong enough to stop arrows and deflect sword blows, light enough to fight from horseback.",
       "wikiSlug": "Scale_armour",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The best-preserved example of Scythian scale armor — 56 rows of hard scales laced onto a soft leather lining, running from shoulder to upper thigh — survives at the Metropolitan Museum of Art and dates to roughly the 8th–3rd century BCE. Scythian scale was the direct ancestor of the armored style later adopted by Persian cavalry and eventually by Roman cavalry units (the cataphract). The earliest known depiction of scale armor predates the Scythians by centuries, appearing in an Egyptian tomb painting from the reign of Pharaoh Amenhotep II (around 1400 BCE), but the Scythians were among the first to make it standard kit for mounted warriors at scale."
+        }
+      ],
+      "commonsFile": "Warrior_of_Scithians.png"
     },
     {
       "id": "evt-ephorus-scythians",
       "label": "Ephorus on Scythian Justice",
       "year": -340,
-      "description": "Greek historian Ephorus idealized the Scythians as the most just of all peoples, portraying their simple nomadic life as morally superior to the corruption of settled Greek civilization.",
+      "description": "Around 340 BCE, the Greek historian Ephorus of Cyme wrote that the Scythians were among the most just of all peoples — praising their simple nomadic life as morally cleaner than the corruption of Greek urban civilization, a projection that tells us far more about Greek anxieties than about actual Scythians.",
       "wikiSlug": "Ephorus",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ephorus wrote a thirty-book universal history that is now entirely lost — we know his ideas only through later writers who quoted or summarized him, chiefly Diodorus of Sicily. His \"noble savage\" argument about Scythians was part of a framework he used to divide the known world into four great peripheral peoples (Indians, Ethiopians, Celts, Scythians), each serving as a moral mirror for Greek self-examination. Notably, Ephorus compared Scythian social customs to the Spartan system of Lycurgus — arguing that the Spartans had essentially rediscovered what the nomads already knew — which gives his idealization a very specific political edge."
+        }
+      ]
     },
     {
       "id": "evt-scythian-oral-tradition",
       "label": "Scythian Oral Tradition",
       "year": -600,
-      "description": "The Scythians maintained their history, genealogies, and laws through oral tradition rather than writing, a deliberate cultural choice that distinguished them from their literate neighbors in Greece, Persia, and Mesopotamia.",
+      "description": "The Scythians kept their history, genealogies, and sacred knowledge entirely in memory — no writing, ever — even as they traded and fought alongside the Greeks, Persians, and other literate civilizations for centuries. This was almost certainly a deliberate cultural choice, not an absence of opportunity.",
       "wikiSlug": "Scythians#Language",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "What survives of the Scythian language comes almost entirely from names and a handful of words quoted by Greek authors — there is no Scythian text, inscription, or document of any kind. Linguists classify the language as Eastern Iranian (part of the Indo-European family, related to Persian and Sanskrit), but that reconstruction rests on fewer than a few hundred preserved fragments. The Vedic Hindus memorized entire libraries of hymns for over a thousand years before writing any of it down; the Celtic Druids reportedly refused writing on religious grounds. The Scythians fit the same pattern — an oral culture by conviction, not by circumstance."
+        }
+      ],
+      "commonsFile": "Scythian_stelae_01.jpg"
     },
     {
       "id": "evt-strabo-late-scythians",
       "label": "Strabo on Late Scythians",
       "year": -25,
-      "description": "The geographer Strabo documented the remnant Late Scythian kingdom in Crimea, describing their capital Neapolis and their conflicts with Greek cities, providing the last major ancient account of Scythian political life.",
+      "description": "The Greek geographer Strabo, writing around 25 BCE, included a description of the remnant Scythian kingdom at Neapolis in his massive Geography — the last major ancient account of Scythian political life, written roughly a century after the kingdom had effectively ended.",
       "wikiSlug": "Strabo",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Strabo's Geography (17 books covering the entire known world) is one of the most ambitious reference works of antiquity, and his treatment of the Scythians draws on earlier sources including Herodotus and Poseidonius. He specifically mentions Neapolis as one of three fortresses held by 'Scilurus and his sons' as bases of resistance against the generals of Mithridates. By Strabo's time, communities calling themselves Scythian were still visible in Crimea, but as a political force they had been gone for nearly a century — Strabo was documenting a ghost."
+        }
+      ],
+      "commonsFile": "Strabo.jpg"
     },
     {
       "id": "evt-lucian-toxaris",
       "label": "Lucian's Toxaris Dialogue",
       "year": 170,
-      "description": "The satirist Lucian wrote Toxaris, a dialogue in which a Scythian and a Greek debate friendship, preserving stories of Scythian loyalty and honor that reflect centuries of Greek fascination with steppe culture.",
+      "description": "Around 163 CE, the Syrian satirist Lucian wrote Toxaris (or Friendship), a dialogue in which a Scythian named Toxaris and an Athenian named Mnesippus trade stories of loyalty to determine whose people understand friendship better — and the Scythian wins.",
       "wikiSlug": "Toxaris",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Lucian was from Samosata in Syria, wrote in Greek, and was himself what the Romans would have called a 'barbarian' — which gives his choice to make the Scythian the moral victor a sharper edge than it might seem. The dialogue sets up a formal contest: five stories of Greek friendship against five stories of Scythian friendship, each sworn on oath to be true and recent. The Scythians' stories involve things like self-mutilation and slavery to rescue a companion, framed as proof that Scythians live the virtues Greeks merely philosophize about. The work shows how thoroughly 'Scythian' had entered the Mediterranean imagination as a recognizable cultural type — admired, exotic, and safely historical — more than 250 years after the last Scythian king lost his throne."
+        }
+      ]
     },
     {
       "id": "evt-ovid-exile",
       "label": "Ovid Among the Getae",
       "year": 8,
-      "description": "The Roman poet Ovid was exiled to Tomis on the Black Sea coast among Scythian-influenced Getae, writing bitter elegies describing the frozen landscape, raids, and customs of the steppe peoples surrounding him.",
+      "description": "In 8 CE, the Roman poet Ovid was banished by Emperor Augustus to Tomis (modern Constanta, Romania) on the Black Sea — a posting he described as the end of the world — where he spent his last decade writing bitter elegies about the frozen landscape and the steppe peoples around him.",
       "wikiSlug": "Ovid#Exile_to_Tomis",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ovid never returned. He died in exile around 17 or 18 CE, still writing letters begging Augustus (and then Augustus's successor Tiberius) for permission to come home. The exact reason for his exile is one of antiquity's great mysteries: Augustus punished him for 'a poem and a mistake,' and historians have been arguing about what the mistake was ever since (the leading theory involves a scandal in the imperial family). His two exile collections — the Tristia and the Epistulae ex Ponto — describe the Getae and Sarmatians raiding on horseback right up to the city walls, arrows still flying past Roman gates a century after the Scythian kingdom had collapsed."
+        }
+      ],
+      "commonsFile": "Eugène_Delacroix_-_Ovide_chez_les_Scythes_(1859).jpg"
     },
     {
       "id": "evt-scythian-archers-athens",
       "label": "Scythian Archers in Athens",
       "year": -500,
-      "description": "Athens employed a corps of 300 Scythian archer slaves as a public police force, patrolling the agora and keeping order at assemblies — the closest thing ancient Athens had to a standing police department.",
+      "description": "Around 500 BCE, Athens purchased a corps of roughly 300 Scythian archers as public slaves and deployed them as the city's closest equivalent to a standing police force — patrolling the agora (marketplace), keeping order at assemblies, and managing crowds at public events.",
       "wikiSlug": "Scythian_archers",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Despite being called \"archers,\" there's no evidence they actually used bows on the job — ancient sources show them carrying whips for crowd control, not weapons. Aristophanes mocked them in his comedy Thesmophoriazusae (411 BCE), giving a Scythian officer character noticeably broken Greek with a consistent heavy accent — consistently dropping final consonants and confusing aspirates — which scholars have analyzed as an attempt at realistic phonetic comedy. The corps likely existed from roughly 500 to 350 BCE; the democracy of Athens, the birthplace of citizen self-rule, was thus policed for over a century by foreign slaves who had no legal standing whatsoever."
+        }
+      ],
+      "commonsFile": "Skythian_archer_plate_BM_E135_by_Epiktetos.jpg"
     }
   ]
 }
