@@ -59,115 +59,187 @@
       "id": "evt-el-manati-offerings",
       "label": "El Manati Sacred Spring",
       "year": -1600,
-      "description": "Wooden busts, rubber balls, jade axes, and infant remains were deposited at the sacred spring of El Manati, revealing early Olmec ritual practices.",
+      "description": "At a waterlogged sacred spring south of San Lorenzo, the Olmec dropped offerings into the bog for centuries, including the eerily preserved wooden busts and rubber balls that give us our earliest window into their religion.",
       "wikiSlug": "El_Manat%C3%AD",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Villagers stumbled onto the site by accident in 1987 while digging a fish pond, and excavations by Ponciano Ortiz and Maria del Carmen Rodriguez followed. The oxygen-starved mud preserved 37 carved wooden busts, the oldest surviving wooden artifacts ever found in Mexico, alongside about a dozen rubber balls dated to roughly 1700-1600 BCE, the oldest processed rubber objects known anywhere on Earth. The offerings also included the bones of infants, hinting at child sacrifice. The deposits span centuries (roughly 1600 to 1200 BCE), so people were treating this spring as holy ground long before the great Olmec cities existed."
+        }
+      ]
     },
     {
       "id": "evt-rubber-balls",
       "label": "Rubber Ball Production",
       "year": -1600,
-      "description": "The Olmec were the first to process natural rubber from latex trees, mixing latex with morning glory vine juice to create solid rubber balls for the ballgame.",
+      "description": "Long before anyone else, the Olmec turned tree sap into solid bouncing balls, inventing the rubber technology that made Mesoamerica's famous ballgame physically possible.",
       "wikiSlug": "Mesoamerican_rubber_balls",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A 1999 MIT study (chemists Dorothy Hosler, Sandra Burkett, and Michael Tarkanian, published in the journal Science) cracked the recipe: pure latex by itself dries into a brittle solid that shatters instead of bouncing, but blending it with juice from the morning glory vine produces a springy, durable material. By tweaking the latex-to-vine ratio, the Olmec could tune the result, stiffer and tougher for sandal soles or tool fittings, bouncier for game balls. The Aztecs were still demanding thousands of rubber balls a year in tribute from this same Gulf Coast region thousands of years later, a sign of how long the technology endured."
+        }
+      ],
+      "commonsFile": "Mesoamerica_-_manopla_and_ball.jpg"
     },
     {
       "id": "evt-rubber-vulcanization",
       "label": "Rubber Vulcanization Process",
       "year": -1500,
-      "description": "The Olmec discovered that mixing liquid latex with morning glory vine juice created a durable elastic solid, a form of vulcanization 3,500 years before Charles Goodyear.",
+      "description": "By chemically bonding latex with morning glory vine juice, the Olmec stumbled onto a process much like modern rubber vulcanization, roughly 3,500 years before anyone in the industrial world did.",
       "wikiSlug": "Vulcanization",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The man usually credited with vulcanization, the American inventor Charles Goodyear, only discovered his version in 1839 and patented it in 1844, reportedly after accidentally dropping a mix of rubber and sulfur on a hot stove. The Olmec method used sulfur-bearing compounds in the vine juice to cross-link the latex polymers, the same basic chemistry by a wildly different route. The MIT team that reverse-engineered the process found the ancient material could be made surprisingly wear-resistant and elastic. The tire company Goodyear, founded in 1898, was named in his honor decades after his death, though he himself never made a fortune from his discovery."
+        }
+      ]
     },
     {
       "id": "evt-maize-cultivation",
       "label": "Maize Agriculture",
       "year": -1500,
-      "description": "Olmec farmers cultivated maize, beans, and squash in the fertile Gulf Coast lowlands using the milpa system, producing the agricultural surplus that supported their civilization.",
+      "description": "The Olmec fed their cities with the classic Mesoamerican trio of maize, beans, and squash, grown together in one field in a system called milpa that kept the soil fertile.",
       "wikiSlug": "Milpa",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Maize was bred from a scraggly wild grass called teosinte, whose tiny cob holds only a handful of hard-cased kernels and looks almost nothing like a modern ear of corn. Genetic and archaeological work points to a single domestication event in the Balsas River valley of southwestern Mexico around 9,000 years ago, far earlier and further west than once thought. The milpa trick works because beans pull nitrogen out of the air and feed it back into the soil that the hungry maize strips away, while squash leaves sprawl across the ground to smother weeds and hold in moisture. The combination is also nutritionally balanced, which is why it could sustain dense populations for millennia."
+        }
+      ],
+      "commonsFile": "Milpa_2011.jpg"
     },
     {
       "id": "evt-mesoamerican-ballgame",
       "label": "Mesoamerican Ballgame",
       "year": -1400,
-      "description": "The Olmec played the earliest known version of the Mesoamerican ballgame, a ritual sport with cosmological significance using solid rubber balls that spread across all later civilizations.",
+      "description": "The Olmec appear to have invented the Mesoamerican ballgame, a hip-struck contest with a solid rubber ball that was equal parts sport, ritual, and cosmic drama, and that spread to every later civilization in the region.",
       "wikiSlug": "Mesoamerican_ballgame",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The oldest known balls, a dozen of them, came out of the sacred bog at El Manatí about 6 miles (10 km) east of San Lorenzo, dating to around 1600 BCE or earlier. They were not standardized equipment: they range from a 2-inch (4.9 cm) handful up to about 13 inches (33 cm) across, and from a featherweight 180 grams to a brutal 4.8 kg (over 10 pounds). They survived three and a half thousand years partly by luck of chemistry, the Olmec stiffened raw Castilla elastica latex with juice from a morning-glory vine, stumbling onto rubber-making millennia before Charles Goodyear patented vulcanization in the 1840s."
+        }
+      ],
+      "commonsFile": "Pelotaspieler_2.jpg"
     },
     {
       "id": "evt-san-lorenzo-founded",
       "label": "San Lorenzo Founded",
       "year": -1200,
-      "description": "San Lorenzo became the first major Olmec center, built on a massive artificially modified plateau rising 160 feet above swampy floodplains, with elaborate drainage systems and monumental sculpture.",
+      "description": "Around 1200 BCE San Lorenzo became the first major urban center in the Americas — a planned settlement of monumental sculpture and engineered public works perched on an artificial plateau above the swamps of southern Mexico.",
       "wikiSlug": "San_Lorenzo_Tenochtitl%C3%A1n",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The site wasn't built on virgin ground. People had farmed the area for centuries before the Olmec, in phases archaeologists call the Ojochi (roughly 1750–1550 BCE) and Bajío (roughly 1550–1450 BCE), so San Lorenzo's rise was the climax of a long local buildup, not a sudden spark. Researchers have even found chemical traces of cacao (the bean that becomes chocolate) on pottery here, pushing the Mesoamerican love of chocolate drinks back to Olmec times. The \"Tenochtitlán\" tacked onto the name comes from a nearby modern village and has nothing to do with the famous Aztec capital built more than two thousand years later."
+        }
+      ],
+      "commonsFile": "The_Olmec_\"Red_Palace\"_in_San_Lorenzo.webp"
     },
     {
       "id": "evt-san-lorenzo-artificial-plateau",
       "label": "San Lorenzo Artificial Plateau",
       "year": -1200,
-      "description": "The Olmec reshaped a natural plateau at San Lorenzo into a massive artificial mesa covering 150 acres, carrying thousands of tons of earth on human backs without draft animals or wheels.",
+      "description": "The Olmec didn't just settle a hill — they sculpted one, reshaping a natural rise into a 150-acre artificial mesa by hauling thousands of tons of earth in baskets, with no wheels, carts, or pack animals to help.",
       "wikiSlug": "San_Lorenzo_Tenochtitl%C3%A1n",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The plateau was deliberately shaped with long ridges fanning out from its central mass, a design some archaeologists think was meant to mimic a giant bird seen from above, though that reading is debated. Moving the fill was only possible because Mesoamerica had nothing like the horse or ox — the wheel itself was known (it shows up on later Mesoamerican toys) but was never harnessed to transport on this terrain. Everything that made San Lorenzo, from its dirt to its 20-ton stones, moved on human muscle alone."
+        }
+      ]
     },
     {
       "id": "evt-colossal-heads-san-lorenzo",
       "label": "Colossal Heads at San Lorenzo",
       "year": -1200,
-      "description": "Olmec sculptors carved ten massive basalt heads at San Lorenzo, each a unique portrait weighing up to 50 tons, transported from the Tuxtla Mountains 50 miles away.",
+      "description": "Ten colossal basalt portrait-heads carved at San Lorenzo, more than at any other Olmec site — the heaviest concentration of the seventeen known heads anywhere.",
       "wikiSlug": "Olmec_colossal_heads",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "All seventeen share the same formula — full lips, a broad flat nose, almond eyes, a snug helmet with a chin strap — yet no two are the same person, and the helmet insignia (geometric bands, but also bird and jaguar parts) probably worked like a name or title. Several were deliberately defaced and buried in the ground in antiquity, which is part of why they survived. The earliest are dated to at least 900 BC, though the San Lorenzo tradition reaches back further still."
+        }
+      ],
+      "commonsFile": "San_Lorenzo_Monument_4_crop.jpg"
     },
     {
       "id": "evt-were-jaguar",
       "label": "Were-Jaguar Religion",
       "year": -1200,
-      "description": "The Olmec developed a religious system centered on the were-jaguar, a supernatural being combining human and feline features that dominated their iconography and expressed shamanic transformation.",
+      "description": "The Olmec built a religious world around the were-jaguar, a part-human, part-cat figure that runs through their carvings, jade, and pottery and seems to capture a ruler in the act of becoming his jaguar spirit.",
       "wikiSlug": "Olmec_religion",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars can't even agree on what to call it. In his foundational 1971 study, art historian Peter David Joralemon counted ten distinct Olmec supernaturals and treated the were-jaguar and the rain spirit as separate beings; others (like Miller and Taube) fold them into one rain deity. A later critic, Anatole Pohorilenko, argued the \"jaguar\" reading is too rigid, since many of these faces mix in cleft heads and corn-kernel features that aren't feline at all, and proposed the clunkier but safer term \"composite anthropomorph.\" In other words, one of the most famous motifs in ancient American art still has no settled name or meaning."
+        }
+      ]
     },
     {
       "id": "evt-san-lorenzo-drainage",
       "label": "San Lorenzo Drainage System",
       "year": -1100,
-      "description": "San Lorenzo featured an elaborate system of buried basalt-trough drains with carefully calculated gradients, comparable to the drainage infrastructure of the Indus Valley Civilization.",
+      "description": "Beneath the plateau ran a buried network of U-shaped basalt channels — stone troughs laid end to end and capped with lids — that carried water across San Lorenzo and down its sides with carefully judged slopes.",
       "wikiSlug": "San_Lorenzo_Tenochtitl%C3%A1n#Drainage_system",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Archaeologist Michael Coe, who mapped and excavated the site in 1966–1968, traced these stone lines and found they were no crude gutters: one drain fed into a boulder carved into a giant duck-shaped basin, mixing plumbing with art. Some researchers now argue the channels weren't only for runoff but actually piped fresh spring water to different parts of the settlement, making them an early aqueduct. The nearest thing the ancient world offers for comparison is the covered brick drainage of the Indus Valley cities — built over a thousand years earlier and half a planet away, with no possible contact between them."
+        }
+      ]
     },
     {
       "id": "evt-basalt-transport",
       "label": "Basalt Boulder Transport",
       "year": -1150,
-      "description": "The Olmec transported basalt boulders weighing up to 50 tons from the Tuxtla Mountains to San Lorenzo using log rollers, river rafts, and brute human muscle across 50 miles of jungle and swamp.",
+      "description": "The brute-force feat behind every head: hauling 20-to-50-ton basalt boulders out of the Tuxtla Mountains to the lowland centers without wheels, metal, or pack animals.",
       "wikiSlug": "Olmec_colossal_heads#Transport",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stone is a specific coarse, dark gray rock geologists call Cerro Cintepec basalt, traced to the southeastern slopes of the Tuxtlas. The favored reconstruction is that crews dragged the boulders overland on log rollers to the nearest river, then floated them on big balsa-wood rafts (balsa is a very light tropical wood) for as much of the trip as the waterways allowed. Modern estimates put the workforce needed to drag one of the largest heads at well over a thousand people, working in relays."
+        }
+      ],
+      "commonsFile": "San_Lorenzo_Colossal_Head_8.jpg"
     },
     {
       "id": "evt-olmec-jade-work",
@@ -183,11 +255,18 @@
       "id": "evt-olmec-trade-networks",
       "label": "Olmec Trade Networks",
       "year": -1100,
-      "description": "The Olmec established vast trade networks across Mesoamerica, exchanging jade from Guatemala, obsidian from highland Mexico, and magnetite from Oaxaca.",
+      "description": "Sitting at the hub of the first region-wide exchange web, the Olmec pulled in jade from Guatemala, obsidian from highland Mexico, and iron ore from Oaxaca, then redistributed the wealth.",
       "wikiSlug": "Olmecs#Trade",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two great Olmec capitals took turns running the show: San Lorenzo was the largest center during the Early Formative (roughly 1400 to 1000 BCE), then La Venta took over through the Middle Formative (about 1000 to 400 BCE), and both sat at choke points controlling routes into the Chiapas highlands and the Pacific Soconusco coast. Trade ran both directions, Gulf Coast pottery flowed out toward the Soconusco while obsidian came back the other way. The monumental building these centers paid for is itself a receipt: the wealth to move that much stone came from controlling the flow of goods."
+        }
+      ],
+      "commonsFile": "Kunz_Axe.jpg"
     },
     {
       "id": "evt-olmec-territorial-conflicts",
@@ -203,51 +282,86 @@
       "id": "evt-olmec-wrestling",
       "label": "Olmec Wrestler Sculpture",
       "year": -1200,
-      "description": "The Olmec Wrestler is a startlingly naturalistic basalt sculpture of a seated muscular figure, demonstrating that Olmec artists were capable of pure realism when they chose it.",
+      "description": "The Olmec Wrestler is a roughly 26-inch (66 cm) basalt figure of a muscular man caught mid-grapple — so lifelike that it proves Olmec sculptors could do pure realism but usually chose their stylized look instead.",
       "wikiSlug": "The_Wrestler_(sculpture)",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It wasn't dug up by archaeologists at all — a farmer found it in 1933 near the Coatzacoalcos River in Veracruz, in an area now called Antonio Plaza. Scholars rate it among the very best Olmec works ever found; one art historian flatly called it \"the finest of all Olmec sculptures.\" Its realism is so unusual that a handful of skeptics have even questioned whether it's genuinely ancient, though most experts accept it. Since 1964 it has lived in Mexico City's National Museum of Anthropology."
+        }
+      ],
+      "commonsFile": "The_Wrestler_(Olmec)_by_DeLange.jpg"
     },
     {
       "id": "evt-olmec-shaman-rulers",
       "label": "Shaman-Rulers",
       "year": -1100,
-      "description": "Olmec rulers served as shaman-kings, mediating between the human and supernatural worlds through ritual transformation, bloodletting, and trance-like ceremonies.",
+      "description": "San Lorenzo's rulers are best understood as shaman-kings — leaders who combined political command with the claimed power to cross into the spirit world, so their right to rule rested on supernatural access, not just force.",
       "wikiSlug": "Olmec_religion#Shaman-rulers",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The case is built entirely from the art, since the Olmec left no readable writing about themselves — we're reading their politics off carvings of half-human, half-jaguar figures and rulers emerging from cave-mouths. This jaguar-transformation imagery isn't a one-off; the same idea of a person merging with an animal counterpart threads through Mesoamerican religion for thousands of years afterward. Because no texts survive, even the phrase \"shaman-king\" is a modern interpretation that some scholars push back on, warning we may be projecting later beliefs onto the Olmec."
+        }
+      ],
+      "commonsFile": "Seated_Olmec_Jaguar_from_San_Lorenzo,_Veracruz.jpg"
     },
     {
       "id": "evt-san-lorenzo-monument14",
       "label": "Monument 14 Throne",
       "year": -1100,
-      "description": "Monument 14 at San Lorenzo depicts a figure seated in a cave-mouth niche grasping a rope connected to a bound captive, expressing the ruler's power to mediate between worlds.",
+      "description": "A massive San Lorenzo basalt throne whose carved figure sits in a cave-mouth niche, embodying the ruler as a bridge between the human world and the underworld.",
       "wikiSlug": "San_Lorenzo_Tenochtitl%C3%A1n",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Olmec thrones (long miscalled \"altars\") almost all carry this same niche at the base, read as the mouth of a cave — in Mesoamerican thought, an entrance to the supernatural underworld — with the ruler shown emerging from it. The clearest surviving version of the rope-and-captive idea is La Venta's Altar 4, where the seated lord grips a cord that loops around the monument to bound figures, a motif scholars read as both ancestral lineage and dominion over the conquered. Thrones like these were the seat a living ruler actually sat on to hold court, which is what makes the later re-carving of thrones into memorial heads so pointed."
+        }
+      ],
+      "commonsFile": "Altar_4_La_Venta_(Ruben_Charles).jpg"
     },
     {
       "id": "evt-olmec-bloodletting",
       "label": "Bloodletting Rituals",
       "year": -1100,
-      "description": "The Olmec practiced ritual bloodletting using stingray spines and obsidian blades, establishing a tradition of reciprocal blood offering central to all later Mesoamerican religions.",
+      "description": "The Olmec drew their own blood as a ritual offering, piercing tongue, ears, and skin with stingray spines and obsidian blades, founding a practice that ran through Mesoamerican religion until the Spanish conquest.",
       "wikiSlug": "Mesoamerican_bloodletting",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Olmec treated the perforator as a sacred object in its own right and tied it to the sea: the prized piercing tools were stingray tail-spines and shark teeth, marine weapons brought far inland. Elite offerings buried in Mound A-2 at La Venta (roughly 900 to 400 BCE) held not just real stingray spines but jade copies of them, plus jade \"ice-pick\" perforators, blood instruments precious enough to be reproduced in green stone. The same bloodletting tools also show up disguised in the carvings, hidden as fish with crescent eyes and a single central tooth, so the iconography quietly advertised the practice it served."
+        }
+      ],
+      "commonsFile": "Olmec_bloodletting_spoon.jpg"
     },
     {
       "id": "evt-san-lorenzo-monument-destruction",
       "label": "San Lorenzo Monument Destruction",
       "year": -950,
-      "description": "Colossal heads and thrones at San Lorenzo were deliberately defaced, dragged from positions, and buried in prepared trenches in a systematic act that ended the site as a major center.",
+      "description": "Around 950–900 BCE San Lorenzo's monuments were systematically wrecked — heads and thrones dragged off, gouged, smashed, and buried in dug pits — and the great center faded soon after, for reasons still unsolved.",
       "wikiSlug": "San_Lorenzo_Tenochtitl%C3%A1n#Decline",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The care of it is the strange part: monuments were laid into prepared trenches rather than just toppled, which is why scholars argue over whether this was a popular uprising against the rulers, a conquest by rivals, or a deliberate ritual \"killing\" of the stones to close a cycle. Burying sacred objects to end an era has real parallels in later Mesoamerican practice, which keeps the ritual theory alive. Whatever happened, Olmec civilization didn't end — its center simply shifted some 50 miles (80 km) northeast to La Venta, and the buried stone heads waited roughly three thousand years until 20th-century archaeologists pulled them back out of the mud."
+        }
+      ],
+      "commonsFile": "San_Lorenzo_Monument_3_crop.jpg"
     },
     {
       "id": "evt-san-lorenzo-decline",
@@ -263,204 +377,341 @@
       "id": "evt-la-cobata-head",
       "label": "La Cobata Colossal Head",
       "year": -1000,
-      "description": "A colossal head found at the small site of La Cobata is the seventeenth and smallest known Olmec colossal head, still nearly 5 feet tall and weighing several tons.",
+      "description": "The seventeenth and last-found Olmec colossal head, uncovered in 1970 in a mountain pass in the Tuxtla highlands rather than at a major center.",
       "wikiSlug": "Olmec_colossal_heads",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By most measurements La Cobata is actually the biggest of the seventeen — roughly 11 feet (3.4 m) tall and around 40 tons — but it is also the crudest and oddest, with a nearly spherical shape and closed, swollen eyes, which has led some scholars to think it was never finished. It sat largely buried on the north side of the El Vigia volcano near Santiago Tuxtla. When archaeologists dug it out they found a much later offering tucked beside it (a ceramic pot and a 4.7-inch obsidian knife from around 600 to 900 AD), meaning people were still leaving gifts at the head centuries after the Olmec were gone."
+        }
+      ],
+      "commonsFile": "Cabeza_olmeca,_Santiago_Tuxtla.jpg"
     },
     {
       "id": "evt-throne-head-recycling",
       "label": "Throne-to-Head Recycling",
       "year": -1100,
-      "description": "Several basalt thrones show signs of re-carving into colossal heads, suggesting that a ruler's throne was converted into his posthumous portrait after death.",
+      "description": "The leading explanation for the heads: many were re-carved from old basalt thrones, turning a dead ruler's seat of power into his stone portrait.",
       "wikiSlug": "Olmec_colossal_heads",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The strongest physical clue is that thirteen of the seventeen heads have flat or hollowed backs — exactly what you'd expect if a flat-fronted throne had been spun around and its rear reshaped into a face. San Lorenzo Colossal Head 7, for instance, still carries a deep indentation on one side that looks like a leftover throne feature. Because the basalt traveled so far at such cost, reusing an existing monument instead of quarrying a fresh boulder would have made obvious sense."
+        }
+      ],
+      "commonsFile": "La_Venta_Monument_4.JPG"
     },
     {
       "id": "evt-jade-trade",
       "label": "Jade Trade from Guatemala",
       "year": -1000,
-      "description": "Olmec demand for jade drove long-distance trade 600 miles to Guatemala's Motagua Valley, the only significant jade source in Mesoamerica.",
+      "description": "Olmec hunger for jade drove a 600-mile (1,000 km) supply line back to the Motagua Valley fault zone in eastern Guatemala, the lone real source of the green stone in all of Mesoamerica.",
       "wikiSlug": "Jade_use_in_Mesoamerica",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Motagua deposits sit along a fault where two of Earth's tectonic plates grind together, which is the rare geological recipe that cooks up jadeite. The valley monopoly held for over two thousand years: the Maya, who treasured jade above gold for royal masks and regalia, drew from the very same source the Olmec did. A second New World jadeite deposit does exist (near San Benito in California), but there's no sign anyone in Mesoamerica ever tapped it."
+        }
+      ],
+      "commonsFile": "Olmec_mask_at_Met.jpg"
     },
     {
       "id": "evt-obsidian-trade",
       "label": "Obsidian Trade",
       "year": -1100,
-      "description": "The Olmec imported obsidian from highland Mexican volcanic sources up to 250 miles away, traceable by chemical fingerprinting to specific source volcanoes.",
+      "description": "The Olmec hauled in obsidian (volcanic glass for blades and tools) from highland sources up to 250 miles (400 km) off, with every chunk's home volcano readable from its chemistry.",
       "wikiSlug": "Obsidian_use_in_Mesoamerica",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When researchers ran portable X-ray scanners over obsidian knives at San Lorenzo, the chemical fingerprints traced back to Pachuca in central Mexico and El Chayal in Guatemala, hauls of 250 to 370 miles (400 to 600 km). El Chayal was the runaway favorite among the Guatemalan sources, and its glass likely traveled up the Pacific coast and across the narrow Isthmus of Tehuantepec. One study chemically sourced 852 individual obsidian artifacts to rebuild the trade map piece by piece."
+        }
+      ]
     },
     {
       "id": "evt-magnetite-mirrors",
       "label": "Magnetite Mirrors",
       "year": -1000,
-      "description": "Olmec artisans crafted highly polished magnetite mirrors, possibly used for fire-starting, divination, and as chest-worn symbols of elite status and supernatural power.",
+      "description": "Olmec craftworkers ground iron-ore minerals into mirror-bright concave plaques, possibly serving at once as fire-lighters, scrying tools, and chest-worn badges of elite power.",
       "wikiSlug": "Olmec_mirrors",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These mirrors weren't always pure magnetite, the Olmec also used hematite and ilmenite, and they deliberately favored a concave shape, which flips the reflected image upside-down and can throw a picture onto a flat wall like a primitive projector. Every known example has tiny holes drilled near the rim so it could hang on a cord. The grinding shops weren't all at home: a major workshop tooling another iron ore (ilmenite, today a titanium source) ran at near-industrial scale at San Lorenzo, while finished mirrors have turned up at San Jose Mogote out in the Valley of Oaxaca."
+        }
+      ]
     },
     {
       "id": "evt-cacao-cultivation",
       "label": "Cacao Drinks",
       "year": -1200,
-      "description": "Chemical residue analysis suggests the Olmec prepared cacao drinks as early as 1800-1000 BCE, possibly making them the first chocolate makers in history.",
+      "description": "Chemical traces in old pottery hint the Olmec were brewing cacao (the bitter bean behind chocolate) far back in time, making them among the earliest known chocolate drinkers anywhere.",
       "wikiSlug": "History_of_chocolate#Mesoamerica",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The telltale clue is theobromine, cacao's signature compound, and a 2011 study found it laced into Olmec vessels at San Lorenzo continuously from roughly 1800 to 1000 BCE. The Olmec weren't quite first, though: a neckless jar from the earlier Mokaya people at Paso de la Amada on the Pacific coast tested positive for cacao around 1900 to 1500 BCE, the oldest chemical trace yet found. Either way, there was no sugar in any of it, this was a bitter, frothy ceremonial drink, nothing like the sweet stuff today."
+        }
+      ],
+      "commonsFile": "Theobroma_cacao_(cacau)_open_fruit.jpg"
     },
     {
       "id": "evt-tlatilco-olmec",
       "label": "Tlatilco Olmec Presence",
       "year": -1000,
-      "description": "Tlatilco in the Valley of Mexico, 250 miles from the heartland, produced Olmec-style pottery, figurines, and burials with jade offerings, showing the reach of Olmec cultural influence.",
+      "description": "At Tlatilco, a village-and-cemetery site near modern Mexico City some 250 miles (400 km) inland, locals were buried with Olmec-style pottery, figurines, and jade, a far echo of Gulf Coast culture.",
       "wikiSlug": "Tlatilco",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name Tlatilco is Nahuatl for \"place of hidden things,\" and the diggers earned it: over 340 burials have been recorded, with many more bulldozed away before archaeologists arrived. The site is famous for its \"pretty lady\" clay figurines and for eerie two-faced female figures, alongside inventive duck- and animal-shaped pots. Whether Olmec aristocrats actually moved in, or just their trade goods did, has been argued since the mid-1900s and is still unsettled."
+        }
+      ],
+      "commonsFile": "Acróbata_de_Tlatilco.JPG"
     },
     {
       "id": "evt-chalcatzingo",
       "label": "Chalcatzingo Reliefs",
       "year": -700,
-      "description": "Chalcatzingo in highland Morelos features Olmec-style rock carvings including the famous El Rey relief, depicting a ruler seated in a cave mouth with rain clouds above.",
+      "description": "At Chalcatzingo in highland Morelos, carvers cut Olmec-style reliefs into the living rock, including \"El Rey,\" a seated figure inside a cave mouth with rain falling from clouds above.",
       "wikiSlug": "Chalcatzingo",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The El Rey carving (Monument 1) shows the figure clutching a ceremonial bar inside a stylized cave that breathes out mist and wind, with raindrops and jade-bead motifs raining down, most likely a ruler petitioning the gods for rain and abundance. The skirt suggests the figure may be female, and some read it instead as a rain or mountain deity. El Rey doesn't stand alone: it anchors a \"Water Dancing Group\" of smaller reliefs showing lizard-like creatures perched on scrolls under falling rain, with the whole site flourishing around 700 to 500 BCE."
+        }
+      ],
+      "commonsFile": "Chalcatzingo_-_el_rey.jpg"
     },
     {
       "id": "evt-juxtlahuaca-cave",
       "label": "Juxtlahuaca Cave Paintings",
       "year": -1000,
-      "description": "Deep inside a cave in Guerrero, 185 miles from the heartland, the Olmec painted polychrome scenes of feathered figures and jaguars, accessible only through a half-mile crawl through underground rivers.",
+      "description": "Deep inside a Guerrero cave 185 miles from the Gulf Coast heartland, the Olmec painted polychrome murals of feathered figures and jaguars, reachable only by a long crawl through underground passages.",
       "wikiSlug": "Juxtlahuaca",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The main image, \"Painting 1,\" sits roughly 0.75 mile (1.2 km) in from the entrance, a journey that today takes a guided two-hour descent. It shows a large bearded man in a black cloak and striped tunic, his arms and legs wrapped in jaguar fur, even a little jaguar tail dangling, jabbing a trident-like object at a smaller crouched figure and gripping a snake. Documented by Carlo Gay and Gillett Griffin in the 1960s and dated to about 1000 BCE, Juxtlahuaca's murals are often called the earliest sophisticated paintings known in Mesoamerica and the only example of deep-cave art in the region outside the Maya world."
+        }
+      ],
+      "commonsFile": "Juxtlahuaca_Jaguar_(M_Lachniet).jpg"
     },
     {
       "id": "evt-oxtotitlan-cave",
       "label": "Oxtotitlan Cave Paintings",
       "year": -900,
-      "description": "Cave paintings at Oxtotitlan in Guerrero depict a figure in a jaguar suit on a jaguar-serpent throne with a great bird above, showing Olmec ritual practice far from the heartland.",
+      "description": "At Oxtotitlan, a rock shelter in Guerrero far from the heartland, Olmec painters rendered a costumed ruler enthroned above a cave-monster mouth, evidence that Olmec ritual traveled hundreds of miles from its source.",
       "wikiSlug": "Oxtotitl%C3%A1n",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famous \"Mural 1\" shows a seated ruler in a green-feathered bird costume and a bird mask (possibly an owl), perched on a throne whose top edge carries the crossed-bar eyes of an earth or cave monster, so the ruler literally sits in the jaws of the underworld. Long dated to roughly 900 BCE, the site has resisted easy pinning-down: recent radiocarbon work on its polychrome paintings stretches the span of cave art here from before about 1500 BCE all the way to around 600 CE. Together with nearby Juxtlahuaca, Oxtotitlan holds some of the oldest dated painting in the Americas."
+        }
+      ],
+      "commonsFile": "Mural1,Oxtotitlan_cave,Guerrero.JPG"
     },
     {
       "id": "evt-olmec-feathered-serpent",
       "label": "Feathered Serpent Imagery",
       "year": -800,
-      "description": "Carvings at La Venta show serpents with feathered crests and birdlike features, an early form of the deity who would become Quetzalcoatl and dominate Mesoamerican religion.",
+      "description": "Olmec sculptors carved feathered serpents that fuse earth (snake) and sky (bird), the distant ancestor of the deity the Aztecs would call Quetzalcoatl roughly two thousand years later.",
       "wikiSlug": "Quetzalcoatl#Olmec",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The single most-cited piece of evidence is La Venta's Monument 19, carved around 900 BCE, which shows a crested rattlesnake rising up and coiling protectively around a seated human, possibly mid-ritual. It's widely regarded as the earliest known feathered-serpent image anywhere in Mesoamerica. Researchers are careful to say it probably isn't \"Quetzalcoatl\" as the Aztecs understood him, two millennia is a long time for a god to drift, but the feathered-snake symbol itself runs in an unbroken thread from this carving all the way to the Spanish conquest."
+        }
+      ],
+      "commonsFile": "La_Venta_Stele_19_(Delange).jpg"
     },
     {
       "id": "evt-maize-god",
       "label": "Maize God Imagery",
       "year": -1000,
-      "description": "Olmec carvings show figures with vegetation sprouting from their heads and cleft foreheads resembling germinating corn kernels, the origin of the Mesoamerican Maize God tradition.",
+      "description": "Olmec art shows a corn deity with a cleft head sprouting maize, the apparent starting point for a maize-god tradition that runs through every later Mesoamerican religion.",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cleft splitting the god's forehead isn't just decoration: it's read as a maize seed cracking open as it germinates, and sometimes as the hole a farmer punches in the soil to plant. The deity often turns up carved in profile on polished jade celts (axe-shaped ritual blades), with a two-branched corn plant rendered as V-shaped marks growing straight out of his skull. Archaeologist Karl Taube laid out the case for this Formative-period corn god in an influential 1996 study, tracing how the Maya later inherited it and built it into a myth in which the gods literally mold the first humans out of maize dough."
+        }
+      ]
     },
     {
       "id": "evt-olmec-influence-spreads",
       "label": "Olmec Influence Spreads",
       "year": -1000,
-      "description": "Olmec artistic and religious motifs appeared at sites across a 750-mile swath of Mexico and Central America, from the Valley of Mexico to Guatemala to the Pacific coast.",
+      "description": "Olmec art and religious imagery turn up across a 750-mile (1,200 km) sweep of Mexico and Central America, from the Valley of Mexico to Pacific Guatemala and beyond.",
       "wikiSlug": "Olmecs#Olmec_influence",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Two of the most striking outposts are the painted caves of Guerrero: Juxtlahuaca and Oxtotitlan hold the oldest sophisticated painted art known in the Americas, dating to about 1000 BCE, done in unmistakable Olmec style yet hundreds of miles from the heartland. Juxtlahuaca is also the only known case of non-Maya deep-cave art anywhere in Mesoamerica. Scholars still don't agree how the style traveled so far, with the leading idea being that far-flung local rulers borrowed Olmec imagery to boost their own standing rather than being conquered into it."
+        }
+      ],
+      "commonsFile": "Señor_de_las_limas_2.jpg"
     },
     {
       "id": "evt-la-venta-rises",
       "label": "La Venta Becomes Capital",
       "year": -900,
-      "description": "La Venta succeeded San Lorenzo as the dominant Olmec center, built on a narrow swamp island controlling river trade routes, with Mesoamerica's earliest known pyramid.",
+      "description": "Around 900 BCE, La Venta took over from a fading San Lorenzo as the leading Olmec center, perched on a low island in a Gulf Coast swamp where it could police the river routes that carried trade between the coast and the interior.",
       "wikiSlug": "La_Venta",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "La Venta sits in what is now the state of Tabasco, Mexico, on a sliver of high ground overlooking a former channel of the Río Palma, and it likely controlled the country between two larger rivers, the Mezcalapa and the Coatzacoalcos. It ran the show for roughly five centuries before being abandoned near the start of the 4th century BCE. One awkward modern footnote: in the 1950s a working oil field was developed right on top of the ancient site, and an airstrip and other facilities damaged or destroyed parts of it before it was fully studied."
+        }
+      ],
+      "commonsFile": "La_Venta_Pirámide_cara_norte.jpg"
     },
     {
       "id": "evt-great-pyramid-la-venta",
       "label": "Great Pyramid at La Venta",
       "year": -800,
-      "description": "The Great Pyramid at La Venta, a 110-foot conical mound of packed earth built entirely with basket-carried fill, was the largest structure in Mesoamerica and ancestor of every later pyramid.",
+      "description": "La Venta's Great Pyramid (Complex C) is a 110-foot (34 m) mound of packed clay and earth, hauled into place basket by basket with no carts, draft animals, or stone, and it was the tallest building in Mesoamerica when it went up.",
       "wikiSlug": "La_Venta#Complex_C",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "For decades people assumed the fluted, cone-like shape was deliberate, maybe meant to echo the volcanoes of the Tuxtla Mountains on the horizon. But a mapping survey suggested the original form was actually a rectangular stepped pyramid with inset corners, and that the rounded, gully-grooved look we see today is just the work of roughly 2,500 years of tropical rain eroding bare clay. The whole thing holds an estimated 100,000 cubic meters of fill, all of it moved on human backs."
+        }
+      ],
+      "commonsFile": "La_Venta_Pirámide_cara_sur.jpg"
     },
     {
       "id": "evt-la-venta-complex-a",
       "label": "La Venta Complex A Offerings",
       "year": -800,
-      "description": "Complex A at La Venta contained extraordinary buried offerings including serpentine mosaic pavements, jade caches, and posed figurine scenes, all deliberately buried as gifts to the earth.",
+      "description": "Complex A, the ritual heart just north of the Great Pyramid, hid an astonishing run of treasures the Olmec deliberately buried and never meant anyone to see again, from green-stone mosaics to caches of carved jade.",
       "wikiSlug": "La_Venta#Offerings",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By one tally, excavators found more than 50 separate buried caches packed beneath the mounds and plazas here, including jade, polished iron-ore mirrors, and five enormous deposits archaeologists call \"Massive Offerings.\" These were not modest gestures: Massive Offering 3 alone is estimated at about 50 tons of carefully finished serpentine blocks, then capped with roughly 4,000 tons of clay fill. The entire complex was laid out on a north-south axis tilted about 8 degrees west of true north."
+        }
+      ],
+      "commonsFile": "Complejo_A,_Monumentos_2_y_3,_sitio_la_Venta_Tabasco.jpg"
     },
     {
       "id": "evt-la-venta-mosaic",
       "label": "Serpentine Mosaic Pavements",
       "year": -800,
-      "description": "Three elaborate mosaic floors of precisely cut green serpentine blocks depicting jaguar masks were crafted and immediately buried under fill at La Venta, never intended to be seen again.",
+      "description": "In three spots at Complex A the Olmec laid out floor-sized mosaics of cut green serpentine stone, arranged into a stylized mask, then promptly covered each one with clay and buried it out of sight forever.",
       "wikiSlug": "La_Venta#Mosaics",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Each pavement measures roughly 15 by 20 feet (4.5 by 6 m) and is built from up to 485 individual serpentine blocks. What the pattern actually depicts is genuinely up for grabs: scholars have read it as a very abstract jaguar mask, as the so-called Olmec Dragon, as a cosmogram (a diagram of the cosmos), and even as a symbolic map of La Venta and its surroundings. Whatever it meant, the makers treated the burial itself as the whole point, sealing each mosaic under colored clay soon after finishing it."
+        }
+      ],
+      "commonsFile": "La_Venta_Mosaic_(Ruben_Charles).jpg"
     },
     {
       "id": "evt-massive-offerings",
       "label": "Jade Figurine Scene",
       "year": -750,
-      "description": "A famous deposit at La Venta shows sixteen jade and serpentine figurines standing in a semicircle, facing a single figure backed by a palisade of jade celts, posed in an apparent ritual or political scene.",
+      "description": "One celebrated cache, Offering 4, arranges a cluster of small standing figurines in a semicircle facing a single figure, with their backs to a row of upright jade celts (polished axe-shaped blades) planted like a tiny stockade.",
       "wikiSlug": "La_Venta#Offerings",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The group is built from 16 figures, most carved in serpentine plus a couple in jade and one in reddish granite, set upright in clean sand. The eeriest detail came from the dirt itself: about a century after the scene was first buried, a later generation dug a small, carefully aimed pit straight down through the platform floors to the tops of the figurines' heads, seemingly just to confirm the tableau was still undisturbed, then immediately filled it back in. Workers rediscovered it in 1955, and it now lives in the National Museum of Anthropology in Mexico City."
+        }
+      ],
+      "commonsFile": "Olmec_Statues_&_Celts,_Offering_4,_La_Venta,_Tabasco.jpg"
     },
     {
       "id": "evt-tomb-of-columns",
       "label": "Tomb of Columns",
       "year": -700,
-      "description": "A burial chamber at La Venta constructed from large basalt columns transported from the Tuxtla Mountains, containing remains of possible rulers with jade ornaments.",
+      "description": "Inside Complex A, the Olmec built a small burial chamber (Monument 7, sometimes called Tomb A) by laying basalt columns side by side, then filled it with jade offerings for the dead.",
       "wikiSlug": "La_Venta",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Those basalt columns were dragged from the Tuxtla Mountains, the same far-off source that supplied the colossal heads. Human remains barely survived the wet, acidic soil: about all the organic material recovered was a few long-bone fragments, a burned piece of skull, some milk teeth, a shark's tooth, and stingray spines (tools used in Mesoamerican bloodletting rituals). Beneath the columns, diggers also hit a patch of bright red cinnabar, a mercury-based mineral the Olmec used to color elite burials."
+        }
+      ],
+      "commonsFile": "Olmec_monolitic_columns_tomb_(1200-600_BCE)_from_La_Venta,_Tabasco_-_Gulf_-_National_Museum_of_Antropology_-_Mexico_2024.jpg"
     },
     {
       "id": "evt-la-venta-stela1",
       "label": "La Venta Stela 1",
       "year": -700,
-      "description": "Stela 1 at La Venta depicts a figure in elaborate regalia surrounded by floating supernatural beings, a more complex composition than anything at San Lorenzo.",
+      "description": "Stela 1 is a tall carved basalt slab showing a single richly dressed figure standing inside a rectangular niche, framed by smaller supernatural beings, a busier composition than San Lorenzo ever attempted.",
       "wikiSlug": "La_Venta",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The niche the figure stands in is often read as an open doorway or a portal, a recurring Olmec way of marking a passage between worlds. Some specialists go further and identify the central figure as a woman (the piece is nicknamed \"La Mujer,\" The Woman), with the niche interpreted as the open mouth of a jaguar she emerges from, which would make it a rare female subject in Olmec monumental art. As with much Olmec imagery, the reading is debated rather than settled."
+        }
+      ],
+      "commonsFile": "Estela_1_sitio_la_Venta_Tabasco.jpg"
     },
     {
       "id": "evt-olmec-astronomy",
@@ -476,71 +727,118 @@
       "id": "evt-cascajal-block",
       "label": "Cascajal Block",
       "year": -900,
-      "description": "A serpentine tablet found near San Lorenzo bears 62 symbols from 28 distinct sign types, the oldest known writing in the Americas and one of only four independent inventions of writing.",
+      "description": "A roughly 11-pound (5 kg) block of greenish serpentine, carved with 62 symbols drawn from 28 distinct sign types, claimed as the oldest writing in the Americas.",
       "wikiSlug": "Cascajal_Block",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Road crews found it in a gravel quarry near Cascajal, Veracruz, in 1999, but archaeologists Maria del Carmen Rodriguez Martinez and Ponciano Ortiz Ceballos didn't publish it until 2006. The signs are unique: they match no other known Mesoamerican script, and the symbols read in horizontal rows rather than the vertical glyph-columns of later Maya writing. Some scholars have since argued the carved markings are actually a form of poetic word-pairing (a kennings-style structure), which would push it closer to true language than a mere list."
+        }
+      ],
+      "commonsFile": "Cascajal-text.jpg"
     },
     {
       "id": "evt-olmec-hieroglyphs",
       "label": "Olmec Hieroglyphic System",
       "year": -650,
-      "description": "Later Olmec inscriptions show a developing hieroglyphic system with glyph blocks and possible phonetic elements, ancestral to the Zapotec, Isthmian, and Maya scripts.",
+      "description": "A scatter of short inscriptions on carved monuments and small objects showing the building blocks of later Mesoamerican writing taking shape in the Olmec world.",
       "wikiSlug": "Olmec_hieroglyphs",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The strongest single piece is a ceramic cylinder seal found near La Venta and dated to about 650 BCE: rolled out, it shows a bird with two speech scrolls coming from its mouth, naming a ruler called \"3 Ajaw\" (a date in the sacred 260-day calendar pressed into service as a king's name, the way later Maya and Aztec rulers were named for their birthdates). Two fingernail-sized fragments of a carved greenstone plaque turned up alongside it, each with a single glyph that researchers have tied to signs in the later Isthmian and Maya scripts. Together these are why many specialists think the Olmec already linked writing, the calendar, and kingship."
+        }
+      ]
     },
     {
       "id": "evt-zapotec-script",
       "label": "Zapotec Script at Monte Alban",
       "year": -600,
-      "description": "The Zapotec script appeared at Monte Alban in the Valley of Oaxaca around 600 BCE, one of the earliest readable Mesoamerican scripts, possibly developed independently of Olmec writing.",
+      "description": "One of the earliest readable Mesoamerican scripts, carved by the Zapotec at the hilltop city of Monte Alban in the Valley of Oaxaca.",
       "wikiSlug": "Zapotec_script",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The oldest example may predate Monte Alban itself: Monument 3 at nearby San Jose Mogote shows a sprawled, bleeding figure with two glyphs between his legs reading \"1 Earthquake,\" probably a slain captive's calendar name (though some now date that stone much later than the traditional 600 BCE). The famous \"Danzantes\" (Spanish for \"dancers\") carvings at Monte Alban were long thought to show dancing figures, but they're now read as tortured, sacrificed war prisoners; more than 300 of them have been recorded. The Zapotec system never became fully readable the way Maya did, so we can name dates and rulers but can't read connected sentences."
+        }
+      ],
+      "commonsFile": "Oaxaca_de_Juárez,_Monte_Albán_05.jpg"
     },
     {
       "id": "evt-mesoamerican-calendar",
       "label": "Mesoamerican Calendar System",
       "year": -600,
-      "description": "The Olmec originated the interlocking 260-day ritual calendar and 365-day solar calendar that formed the basis of all later Mesoamerican timekeeping systems.",
+      "description": "Two interlocking cycles, a 260-day sacred calendar and a 365-day solar one, that meshed like gears and underpinned every later Mesoamerican calendar.",
       "wikiSlug": "Mesoamerican_calendars",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two counts only line up again every 52 years, a span called the Calendar Round that worked like a Mesoamerican century. A 2022 study of how Gulf Coast ceremonial centers were physically aligned to sunrises found the 260-day count already in use between roughly 1100 and 750 BCE, centuries earlier than any written date, and centered on exactly the Olmec heartland. Nobody is sure why the cycle is 260 days, though it neatly matches a human pregnancy and the interval between solar zenith passages at this latitude."
+        }
+      ],
+      "commonsFile": "Monte_Alban_Stela_12_&_13.jpg"
     },
     {
       "id": "evt-olmec-long-count-origins",
       "label": "Long Count Calendar Origins",
       "year": -500,
-      "description": "The Long Count calendar, counting days from a mythological creation date of August 11, 3114 BCE, originated in the Olmec or Epi-Olmec period before being refined by the Maya.",
+      "description": "A linear day-count that ticked forward from a fixed mythic creation date, letting any moment be pinned to an exact spot in an unbroken run of thousands of years.",
       "wikiSlug": "Mesoamerican_Long_Count_calendar",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The count stacks units of 20: 20 days make a tun-cycle and so on up to the baktun of 144,000 days (about 394 years), and the whole thing started from a creation point of August 11, 3114 BCE. Crucially, the eight oldest Long Count dates ever found all sit outside the Maya homeland, in or near the Olmec Gulf Coast, which is the main reason scholars credit the system to the Olmec or their immediate heirs rather than the Maya. The Maya later ran the count out to a 13-baktun \"cycle's end\" on December 21, 2012, the date that fueled the modern doomsday hype, though to the Maya it just rolled over like an odometer."
+        }
+      ],
+      "commonsFile": "Stela2,Chiapa_de_Corzo.JPG"
     },
     {
       "id": "evt-olmec-zero",
       "label": "Concept of Zero",
       "year": -400,
-      "description": "The Mesoamerican zero, a placeholder in the Long Count's positional notation, was independently invented by the Olmec or their successors, one of only three or four such inventions in history.",
+      "description": "A symbol for \"nothing\" used as a placeholder in the Long Count, one of only a handful of times any civilization invented zero from scratch.",
       "wikiSlug": "0#Mesoamerica",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mesoamerican number system was vigesimal (base-20, counting on fingers and toes rather than just fingers), written with bars worth five and dots worth one, and the zero was usually drawn as a shell or partial-quatrefoil shape. The oldest surviving Mesoamerican zero sits on a carved panel known as Stela 2 at Chiapa de Corzo in Chiapas, dated to 36 BCE, older than any Maya example and older than the Indian zero that eventually became our own 0. The Mesoamericans used zero strictly as a placeholder (to mark an empty slot); it was Indian mathematicians, centuries later, who first treated zero as a number you could add and subtract with."
+        }
+      ]
     },
     {
       "id": "evt-la-venta-decline",
       "label": "La Venta Abandoned",
       "year": -400,
-      "description": "La Venta was abandoned around 400 BCE with monuments systematically defaced and buried, mirroring San Lorenzo's earlier destruction and marking the end of classic Olmec civilization.",
+      "description": "Around 400 BCE La Venta was abandoned, and on the way out its monuments were systematically defaced and buried, the same careful, target-by-target destruction that had ended San Lorenzo centuries earlier rather than any sign of a war or a sacking.",
       "wikiSlug": "La_Venta#Decline",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "There's no burn layer and no evidence of a battle, just a deliberate program of mutilating, burying, disinterring, moving, and reburying the great stones, the work of people who knew precisely which symbols to kill. Power drifted west to Tres Zapotes, which kept going well past 400 BCE but without the old Olmec hallmarks. What rose there next is what archaeologists call the Epi-Olmec culture (the \"after-Olmec\"), and notably its government seems to have shifted away from the single all-powerful ruler toward a more shared, council-style rule."
+        }
+      ],
+      "commonsFile": "Villahermosa,_Parque-Museo_La_Venta,_The_Old_Warrior_(20498593120).jpg"
     },
     {
       "id": "evt-la-venta-monument-destruction",
@@ -556,143 +854,240 @@
       "id": "evt-tres-zapotes",
       "label": "Tres Zapotes Rises",
       "year": -400,
-      "description": "Tres Zapotes became the last major Olmec center, bridging the transition from Olmec to Epi-Olmec culture on the western slopes of the Tuxtla Mountains.",
+      "description": "Often called the third Olmec capital, Tres Zapotes sat in the Papaloapan River plain near the Tuxtla Mountains and outlasted both San Lorenzo and La Venta, carrying the tradition into the Epi-Olmec twilight.",
       "wikiSlug": "Tres_Zapotes",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Stela C, the famous monument here, ended up split between two museums: half stayed in a little village museum in Tres Zapotes itself, while the other half went to Mexico City. The famous Long Count date on it reads 7.16.6.16.18, which works out to September 3, 32 BCE. And the gamble on that missing top digit being a '7' actually belonged to Marion Stirling, Matthew's wife, who insisted she was right; she was vindicated when the upper half turned up in 1969."
+        }
+      ],
+      "commonsFile": "Tres_Zapotes_vessel_1.jpg"
     },
     {
       "id": "evt-epi-olmec",
       "label": "Epi-Olmec Culture",
       "year": -300,
       "endYear": 250,
-      "description": "The Epi-Olmec culture continued Olmec intellectual and religious traditions, developing the Isthmian script and maintaining Long Count calendar dates at Tres Zapotes and Cerro de las Mesas.",
+      "description": "The Olmec afterglow: with the giant centers gone and the colossal heads no longer carved, the Gulf Coast culture rolled forward into a leaner, literate phase that fed straight into the later Mesoamerican world.",
       "wikiSlug": "Epi-Olmec_culture",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In 1993 two scholars, John Justeson and Terrence Kaufman, announced a partial decipherment of the Epi-Olmec (Isthmian) script and argued it recorded an ancestral form of Mixe-Zoquean, the language family still spoken on the Gulf Coast today. The reading is genuinely contested, though: Mayanists Michael Coe and Stephen Houston tried the same decoding key on a different inscribed object and couldn't make it work, so whether anyone has truly cracked this writing is still an open fight."
+        }
+      ],
+      "commonsFile": "Harvestermountainlord.jpg"
     },
     {
       "id": "evt-isthmian-script",
       "label": "Isthmian Script",
       "year": -300,
-      "description": "The Isthmian (Epi-Olmec) script, the most direct descendant of Olmec writing, used glyph blocks and appears to encode a Mixe-Zoquean language still spoken in the Gulf Coast today.",
+      "description": "The post-Olmec (Epi-Olmec) writing of the Gulf Coast, the system that sits closest to a direct line of descent from Olmec hieroglyphs.",
       "wikiSlug": "Isthmian_script",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its longest text covers La Mojarra Stela 1, a slab packed with hundreds of glyphs that surfaced from a Mexican river in 1986. In 1993 linguists John Justeson and Terrence Kaufman announced a partial decipherment, reading the language as Mixe-Zoquean (a family still spoken on the Gulf Coast today) and earning a Guggenheim Fellowship for the work. Not everyone buys it: scholars including Michael Coe and Stephen Houston tried the Justeson-Kaufman rules on a newly found masked figure and couldn't make them work, so the \"reading\" of Isthmian remains contested rather than settled."
+        }
+      ],
+      "commonsFile": "La_Mojarra_Inscription_and_Long_Count_date.jpg"
     },
     {
       "id": "evt-stela-c-tres-zapotes",
       "label": "Stela C at Tres Zapotes",
       "year": -32,
-      "description": "Stela C at Tres Zapotes bears a Long Count date of 32 BCE, found by Matthew Stirling in 1939 and confirmed in 1969, proving the Long Count existed in the Olmec heartland before the Maya region.",
+      "description": "A broken basalt monument carrying a Long Count date of 32 BCE, proof the system was running in the Olmec heartland generations before the Maya adopted it.",
       "wikiSlug": "Tres_Zapotes#Stela_C",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When Matthew Stirling dug up the lower half in 1939, the digit naming the baktun was missing; his wife Marion gambled that it had to be a 7 (giving 32 BCE) rather than an 8 (which would mean 363 CE). Critics scoffed that 32 BCE was impossibly early, until the missing top half was finally found in 1969 and showed exactly the 7-bar-and-dots she'd predicted. The date carries no surviving zero, but the side of the stela is carved with a were-jaguar face, tying this calendar stone straight back to core Olmec religious imagery."
+        }
+      ],
+      "commonsFile": "Estela_C_de_Tres_Zapotes.jpg"
     },
     {
       "id": "evt-cerro-de-las-mesas",
       "label": "Cerro de las Mesas Jade Cache",
       "year": -200,
-      "description": "Archaeologists found a cache of 782 jade objects in a single offering deposit at Cerro de las Mesas, showing even more extravagant jade consumption than the classic Olmec period.",
+      "description": "A Gulf Coast center where, during the Classic period, someone buried a single offering pit stuffed with hundreds of jade pieces at the base of a mound — a hoard of green treasure on a scale that dwarfs the earlier Olmec caches.",
       "wikiSlug": "Cerro_de_las_Mesas",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Matthew Stirling's team dug up the cache during the 1940-41 season, and the haul of roughly 782 jade objects included pieces that were already antiques when they were buried — genuine Olmec-style jades, centuries older than the deposit, that had clearly been passed hand to hand across generations before being given up to the ground. In other words, the Epi-Olmec elite were collecting and re-gifting heirlooms from their own ancestors."
+        }
+      ],
+      "commonsFile": "Cerro_de_Las_Mesas_Stela_6.JPG"
     },
     {
       "id": "evt-tuxtla-statuette",
       "label": "Tuxtla Statuette",
       "year": 162,
-      "description": "A small jade figurine found in the Tuxtla Mountains in 1902 bears an Isthmian script inscription with a Long Count date of 162 CE, one of the earliest Long Count dates in the heartland.",
+      "description": "A palm-sized green figurine of a squat man with a duck-like bill and stubby wings, incised with Epi-Olmec script and a calendar date — for decades it was the oldest Long Count date anyone had ever found.",
       "wikiSlug": "Tuxtla_Statuette",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A farmer named Pedro Mimendi turned it up while plowing his field near Tres Zapotes in 1902, and it was reputedly smuggled into New York hidden in a shipment of tobacco leaf before reaching the Smithsonian, where it still lives. It is about 6.5 inches tall and carved from nephrite (a tough greenstone, not true jadeite jade). The skeptic Sylvanus Morley refused to believe it pre-dated the Maya and insisted the inscription was added centuries later — later finds like La Mojarra Stela 1 proved him wrong."
+        }
+      ],
+      "commonsFile": "Tuxtla_Statuette_front_1.JPG"
     },
     {
       "id": "evt-melgar-discovery",
       "label": "Melgar Discovers Colossal Head",
       "year": 1862,
-      "description": "Jose Maria Melgar y Serrano discovered the first Olmec colossal head near Tres Zapotes in Veracruz, publishing a description in 1869 that went largely unnoticed for decades.",
+      "description": "A Mexican landowner clearing jungle near Tres Zapotes dug out the first Olmec colossal head, a multi-ton basalt face that nobody at the time recognized as belonging to a lost civilization.",
       "wikiSlug": "Olmec_colossal_heads",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Melgar's 1869 write-up famously claimed the head had \"Ethiopian\" features and argued for ancient African contact with the Americas, a fringe theory that still circulates today and that mainstream archaeology rejects. The head he found is now catalogued as Tres Zapotes Colossal Head 1. Seventeen of these heads have been confirmed in total, ten of them from the single site of San Lorenzo, and the largest weigh upward of 25 to 50 tons. The basalt was quarried in the Sierra de los Tuxtlas and somehow hauled more than 90 miles (150 km) by a people who had no wheels and no pack animals, probably floated part of the way on rafts."
+        }
+      ],
+      "commonsFile": "San_Lorenzo_Colossal_Head_2,_from_Veracruz.jpg"
     },
     {
       "id": "evt-stirling-excavations",
       "label": "Matthew Stirling Excavations",
       "year": 1938,
       "endYear": 1946,
-      "description": "Smithsonian archaeologist Matthew Stirling launched the first systematic excavations of Olmec sites, unearthing colossal heads, jade offerings, and Stela C, rediscovering the oldest civilization in the Americas.",
+      "description": "Backed by the Smithsonian and National Geographic, Matthew Stirling ran eight seasons of digs at the major Olmec sites, pulling up colossal heads and carved monuments that proved a great civilization had been there long before the Maya.",
       "wikiSlug": "Matthew_Stirling",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Stirling's headline find was the lower half of Tres Zapotes Stela C in 1939, carved with a Long Count calendar date that works out to September 3, 32 BCE, then the oldest such date known anywhere in Mesoamerica. Skeptics dismissed it as impossibly early until the stela's missing top half turned up in 1970 and confirmed the reading. (It has since been narrowly beaten by a 36 BCE date on a monument at Chiapa de Corzo.) Stirling worked alongside his wife Marion, who photographed and documented the expeditions, and his insistence that the Olmec predated the Maya sparked a bitter scholarly feud with Maya specialists who refused to believe it."
+        }
+      ],
+      "commonsFile": "Matthew_and_Marion_Stirling_in_Veracruz,_Mexico.jpg"
     },
     {
       "id": "evt-david-grove-research",
       "label": "David Grove's Research",
       "year": 1970,
-      "description": "Archaeologist David Grove proposed the throne-to-head recycling theory and led major excavations at Chalcatzingo, advancing understanding of Olmec political organization and regional influence.",
+      "description": "The American archaeologist whose fieldwork and throne-to-head recycling idea reshaped how we read Olmec rulership.",
       "wikiSlug": "David_Grove",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Grove built much of his reputation not in the Olmec heartland but at Chalcatzingo, a hill site in highland Morelos far to the west, which he first documented in 1968 and excavated in a landmark early-1970s expedition with the Mexican archaeologist Jorge Angulo. The carved reliefs he recorded there — rain, lightning, and a ruler enthroned in a cave-like mouth — showed Olmec-style imagery spreading hundreds of miles inland, key evidence that the Olmec exerted a wide cultural pull rather than staying penned in the Gulf lowlands."
+        }
+      ]
     },
     {
       "id": "evt-mother-culture-debate",
       "label": "Mother Culture Debate",
       "year": 1955,
-      "description": "Alfonso Caso and Miguel Covarrubias championed the Olmec as the 'mother culture' of Mesoamerica, while Kent Flannery and Joyce Marcus later argued for the 'sister culture' model of parallel development.",
+      "description": "The big argument about Olmec status: were they the single fountainhead of everything Mesoamerican, or just the flashiest member of a club of rival cultures all inventing the same things at once?",
       "wikiSlug": "Olmecs#Mother_culture",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The debate got its sharpest modern statement in a 2000 paper bluntly titled \"Formative Mexican Chiefdoms and the Myth of the 'Mother Culture,'\" in which Joyce Marcus and Kent Flannery called the Olmec merely \"first among equals.\" To explain how complex society exploded across the region at roughly the same time, they borrowed a model of rapid evolution from the geneticist Sewall Wright, pointing to places like Chalcatzingo and the Valley of Oaxaca as proof that several regions leveled up side by side rather than copying the Gulf Coast."
+        }
+      ],
+      "commonsFile": "20041229-Luchador_Olmeca_(Museo_Nacional_de_Antropología)_MQ.jpg"
     },
     {
       "id": "evt-covarrubias-olmec-art",
       "label": "Covarrubias Synthesizes Olmec Art",
       "year": 1957,
-      "description": "Mexican artist and anthropologist Miguel Covarrubias published Indian Art of Mexico and Central America, synthesizing the evidence for Olmec priority in Mesoamerican civilization.",
+      "description": "The lavishly illustrated book in which a Mexican painter-turned-scholar laid out the case that the Olmec were Mesoamerica's seedbed — the last work he ever finished.",
       "wikiSlug": "Miguel_Covarrubias",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Covarrubias didn't just write about the Olmec; alongside the American archaeologist Matthew Stirling he is credited as a co-discoverer of the whole civilization. He started out as a celebrated caricaturist and illustrator (he drew for Vanity Fair and wrote a famous study of Bali) before turning to Mesoamerican art, and he drew the book's illustrations himself. He died on February 4, 1957 — the very year Knopf published this final volume."
+        }
+      ],
+      "commonsFile": "Miguel_Covarrubias._October_30,_1932.jpg"
     },
     {
       "id": "evt-monte-alban-rival",
       "label": "Monte Alban Rises",
       "year": -500,
-      "description": "The Zapotecs at Monte Alban in the Valley of Oaxaca developed their own writing system, calendar, and monumental architecture, establishing a rival complex society independent of the Olmec.",
+      "description": "Up in the highlands of Oaxaca, the Zapotecs hauled themselves onto a flattened mountaintop and built a city with its own script and calendar — proof the Olmec didn't have a monopoly on civilization.",
       "wikiSlug": "Monte_Albán",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Monte Albán went up around 500 BCE through what archaeologists call a synoikism — thousands of people abruptly relocating to a single hilltop, swelling it to around 5,200 residents by 300 BCE. One of its strangest structures, the arrow-shaped Building J, is studded with more than 40 carved \"conquest slabs\" showing place-names paired with upside-down heads, read as a brag-list of towns the Zapotec rulers claimed to have subdued. The Zapotec script here is a strong candidate for an independent invention of writing, not an Olmec hand-me-down."
+        }
+      ],
+      "commonsFile": "Monte_Alban_West_Side_Platform.jpg"
     },
     {
       "id": "evt-teotihuacan-emerges",
       "label": "Teotihuacan Begins to Rise",
       "year": -200,
-      "description": "Teotihuacan in the Valley of Mexico began its meteoric rise to become the largest city in the pre-Columbian Americas, inheriting elements of the Mesoamerican cultural package the Olmec pioneered.",
+      "description": "Far to the northwest in the Valley of Mexico, a cluster of villages was about to balloon into the largest city the Americas would see before the Spanish arrived.",
       "wikiSlug": "Teotihuacan",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Around the year 1 CE it was still a moderately sized town of roughly 20,000, but by its peak around 450 CE Teotihuacán sprawled across more than 11 square miles and held somewhere between 100,000 and 150,000 people — by some counts one of the six largest cities on the entire planet at the time. Tellingly, we don't even know what its builders called it or what language they spoke; \"Teotihuacán\" is a much later Aztec name meaning roughly \"the place where the gods were created.\""
+        }
+      ],
+      "commonsFile": "Teotihuacán-5973.JPG"
     },
     {
       "id": "evt-nahual-concept",
       "label": "Nahual Spirit Companion",
       "year": -1200,
-      "description": "Olmec art depicts the concept of the nahual, a spirit companion animal that rulers could transform into during shamanic trance, a belief that survived in Mesoamerican religion for millennia.",
+      "description": "The nahual is a spirit-animal double — a being a person could transform into, especially in trance — and Olmec jaguar-human carvings are widely read as the earliest hint of this idea in Mesoamerica.",
       "wikiSlug": "Nagual",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word comes from Nahuatl (nāhualli), the language the Aztecs spoke far later, and in their world the god Tezcatlipoca was the patron of shapeshifters, his own animal form being the jaguar — the same creature that dominates Olmec art. The belief sits inside a wider Mesoamerican idea called tonalism, where every person is born linked to an animal whose fate is bound up with their own. Spanish colonizers later branded these practitioners as \"magicians\" or witches, but gentler translations of nahual run more toward \"shape-shifter\" or \"transforming spirit\" — and the concept never died, surviving in Mexican folk belief right into modern times."
+        }
+      ],
+      "commonsFile": "Codex_Borgia_page_22.jpg"
     },
     {
       "id": "evt-captive-imagery",
