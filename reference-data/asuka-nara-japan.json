@@ -49,774 +49,1247 @@
       "id": "evt-asuka-buddhism-arrives",
       "label": "Buddhism Arrives in Japan",
       "year": 538,
-      "description": "King Seong of Baekje sent a golden Buddha statue and a set of sutras to Emperor Kinmei (some sources date this to 552). The gift split the Yamato court into a generation-long civil war between the pro-Buddhist Soga clan and the anti-Buddhist Mononobe and Nakatomi clans.",
+      "description": "In 538 CE (some chronicles say 552), King Seong of Baekje — the southwestern of the three Korean kingdoms — sent Emperor Kinmei a gilded bronze Buddha statue, a set of sutras, and a letter recommending the new religion. The gift landed at a court already divided between immigrant-influenced reformers and the guardians of Japan's native kami cults, and immediately became a political crisis.",
       "wikiSlug": "Buddhism_in_Japan",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The date discrepancy — 538 vs. 552 — is itself historically significant: the two dates appear in different Japanese chronicles and scholars still debate which is correct, with 538 now the more widely accepted date. Buddhism had taken roughly a thousand years and over 3,000 miles (4,800 km) to travel from the Buddha's lifetime in northern India to this small valley in central Japan, passing through Central Asia, China, and Korea along the way. By the time it arrived, it came pre-packaged with Korean monks, Chinese architectural plans, and a millennium of accumulated theology — not a raw new faith but a fully mature institutional religion."
+        }
+      ],
+      "commonsFile": "Asuka_dera_daibutsu.jpg"
     },
     {
       "id": "evt-asuka-soga-iname",
       "label": "Soga no Iname",
       "year": 540,
       "endYear": 570,
-      "description": "Soga clan chief who first championed Buddhism at the Yamato court, accepting the Baekje Buddha image as a private devotional figure when no other clan would touch it. His patronage of the new religion launched the Soga clan's century-long rise.",
+      "description": "Soga no Iname (c. 506–570) was the first great champion of Buddhism at the Yamato court — the clan chief who accepted the Baekje Buddha image as a private devotion when the rest of the court refused to touch it, and who kept rebuilding his small Buddhist shrine in the Asuka basin every time the Mononobe burned it down.",
       "wikiSlug": "Soga_no_Iname",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Iname was also the first person verifiably confirmed to hold the title of Ōomi — the highest non-royal position in the Yamato court, roughly equivalent to a prime minister — in 536 CE, before the Buddhist crisis began. His decision to absorb Korean and Chinese immigrant specialists (toraijin) into the Soga clan gave the family a permanent institutional advantage: they were the only great clan with working knowledge of continental administration, accounting, and Buddhist practice before Buddhism became a court question. He died in 570 without seeing the Soga victory, but the network he built made Umako's eventual triumph possible."
+        }
+      ]
     },
     {
       "id": "evt-asuka-mononobe-nakatomi",
       "label": "The Mononobe-Soga Religious War",
       "year": 552,
       "endYear": 587,
-      "description": "Three decades of factional conflict over whether to accept the foreign Buddhist religion. The Mononobe and Nakatomi clans, custodians of the Yamato kami cults, threw the Buddha image into a canal during a plague; the Soga retrieved it. The war ended with the destruction of the Mononobe in battle in 587.",
+      "description": "For roughly thirty-five years the Yamato court was riven by factional warfare over the Buddhist question. The Mononobe (the warrior clan) and Nakatomi (the priest clan) repeatedly raided Soga Buddhist shrines, threw Buddha images into canals, and blamed every plague and famine on the foreign god — while the Soga retrieved fresh images from Korea and rebuilt.",
       "wikiSlug": "Mononobe_clan",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mononobe argument was not purely superstition — it was a coherent political theology: the kami of Japan were the specific divine patrons of this specific land, and bringing in a foreign deity was an act of disloyalty to those patrons that would provoke their withdrawal of protection. The Nakatomi clan, the Mononobe's main allies in the religious war, survived the eventual Soga victory as a clan — they are the direct ancestors of the Fujiwara, who would become the dominant aristocratic family of the Heian period. The plague outbreaks that each side blamed on the other were almost certainly worsened by the very Korean immigrants whose presence made the Buddhist debate possible."
+        }
+      ],
+      "commonsFile": "Isonokami.jpg"
     },
     {
       "id": "evt-asuka-soga-no-umako",
       "label": "Soga no Umako",
       "year": 570,
       "endYear": 626,
-      "description": "Son of Soga no Iname who completed the Soga rise to power, defeating the Mononobe in 587 and installing his own niece as Empress Suiko. He effectively ran the Yamato court for forty years and is buried at Ishibutai Kofun, one of Japan's largest visible megalithic tombs.",
+      "description": "Soga no Umako (c. 551–626) was the political genius who turned the Buddhist cause into a military victory, defeating the Mononobe in 587, assassinating one emperor who proved unmanageable, and installing his niece Empress Suiko — effectively running Japan as its de facto ruler for forty years.",
       "wikiSlug": "Soga_no_Umako",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Umako is buried at Ishibutai Kofun in Asuka, one of the largest megalithic chamber tombs ever built in Japan — its capstone stones alone weigh an estimated 77 tons, making it a monument that even his enemies could not overlook. Some Japanese scholars have proposed that Umako may himself have briefly reigned as an emperor, based on contradictions in the surviving chronicles, though this remains a minority view. His assassination of Emperor Sushun in 592 — reportedly because Sushun had begun to resist Soga control — was the only recorded assassination of a sitting Japanese emperor in the ancient period."
+        }
+      ],
+      "commonsFile": "Soga_no_Umako.jpg"
     },
     {
       "id": "evt-asuka-battle-of-shigisen",
       "label": "Battle of Shigisen",
       "year": 587,
-      "description": "The Soga forces under Soga no Umako defeated the Mononobe under Mononobe no Moriya at Shigisen, ending the religious civil war. The Mononobe clan was destroyed and Buddhism became the official religion of the Yamato court.",
+      "description": "In autumn 587, Soga forces under Umako and the teenage Prince Umayado (the future Shotoku Taishi) crushed the Mononobe army near their home estates in what is now Nara Prefecture. Mononobe no Moriya was killed — reportedly shot out of a tree where he had climbed to get a commanding view — and the clan was destroyed. Buddhism immediately became the official religion of the Yamato court.",
       "wikiSlug": "Mononobe_no_Moriya",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before the battle, Prince Umayado is said to have personally carved wooden images of the four Buddhist guardian kings (Shitenno) from a branch of nurikobe wood, vowing to build them a temple if the Soga won — a promise he kept by founding Shitenno-ji at modern Osaka, still operating today as one of Japan's oldest temples. The Mononobe's lands and hereditary military role were distributed among Soga allies after the defeat, effectively ending the clan as a political force. The Nakatomi clan, who had allied with the Mononobe ideologically but did not commit soldiers to the actual battle, survived — a calculated fence-sitting that preserved them to become the ancestors of the Fujiwara."
+        }
+      ],
+      "commonsFile": "Mononobe_no_Moriya.jpg"
     },
     {
       "id": "evt-asuka-empress-suiko",
       "label": "Empress Suiko",
       "year": 593,
       "endYear": 628,
-      "description": "Japan's first reigning empress, niece of Soga no Umako, who appointed her nephew Prince Shotoku Taishi as regent. Her thirty-five-year reign produced the Seventeen-Article Constitution, embassies to Sui China, and the founding of Hōryū-ji.",
+      "description": "Empress Suiko (r. 593–628) was Japan's first reigning empress — installed by her uncle Soga no Umako after he assassinated the previous emperor — and went on to preside over one of the most transformative reigns in Japanese history, with Prince Shotoku Taishi serving as her regent.",
       "wikiSlug": "Empress_Suiko",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Suiko was not an anomaly: of the eight monarchs who ruled between 593 and 770, six were women, and a seventh was deposed by a woman — a concentration of female rule with no parallel in any other major monarchy of the period (Tang China managed only one female emperor in three centuries). Whether Suiko was Umako's puppet or an active partner is genuinely debated; the chronicles, written under her family's influence, present her as a learned and capable ruler. Her reign lasted 35 years, making her the longest-reigning empress regnant in Japanese history."
+        }
+      ],
+      "commonsFile": "Empress_Suiko_2.jpg"
     },
     {
       "id": "evt-asuka-shotoku-regency",
       "label": "Prince Shotoku as Regent",
       "year": 593,
       "endYear": 622,
-      "description": "Prince Shotoku Taishi served as regent under his aunt Empress Suiko and is the closest thing Japan has to a founding father. He promoted Buddhism, sent embassies to Sui China, founded Hōryū-ji, and drafted the Seventeen-Article Constitution.",
+      "description": "Prince Umayado — known to history as Shotoku Taishi (\"Prince of Sagely Virtue\") — served as regent under his aunt Empress Suiko from 593 until his death in 622, using those twenty-nine years to push Japan toward a Tang-style centralized monarchy through institutional borrowing, Buddhist patronage, and bold foreign diplomacy.",
       "wikiSlug": "Prince_Shōtoku",
       "tier": 1,
       "tags": [
         "people",
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shotoku is described in the sources as a semi-legendary figure who could reportedly read ten petitions simultaneously and hear the cries of dying ascetics from miles away — legends that began accumulating within forty years of his actual death. His birth name, Umayado, means \"stable door,\" supposedly because his mother gave birth at the entrance to a stable, a detail that later Buddhist commentators found suspiciously resonant with the nativity of Christ (probably a coincidence, but Japanese historians still argue about it). His face appeared on the Japanese 10,000-yen note from 1958 to 1986, making him one of the most-reproduced images in modern Japanese history."
+        }
+      ],
+      "commonsFile": "Shōtoku_Taishi_Shōmankyō_Kōsan.jpg"
     },
     {
       "id": "evt-asuka-twelve-cap-ranks",
       "label": "Twelve Level Cap and Rank System",
       "year": 603,
-      "description": "Prince Shotoku created Japan's first court rank system, replacing hereditary clan titles with twelve grades of personal merit marked by colored caps. Modeled on Sui Chinese precedents, it gave the throne a tool to elevate talented officials regardless of clan birth.",
+      "description": "Japan's first formal court rank system, established by Shotoku in 603, assigned twelve personal grades to officials — marked by silk caps decorated with gold, silver, and a feather — replacing the older system where rank belonged to the clan, not the individual.",
       "wikiSlug": "Twelve_Level_Cap_and_Rank_System",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The twelve grades each embodied one of the six Confucian virtues (virtue, benevolence, propriety, sincerity, justice, and knowledge), each split into greater and lesser tiers. The system was borrowed directly from Sui dynasty China and similar structures already operating in the Korean kingdoms of Baekje and Goguryeo. In practice, the great clans continued to dominate the top grades for generations, but the principle — that rank was a personal possession the throne could grant or revoke — eventually seeded the full Tang-style bureaucracy Japan built a century later."
+        }
+      ]
     },
     {
       "id": "evt-asuka-seventeen-article",
       "label": "Seventeen-Article Constitution",
       "year": 604,
-      "description": "Promulgated by Prince Shotoku, this moral code for court officials blended Buddhist compassion, Confucian hierarchy, and a pragmatic insistence on court harmony. It is Japan's first written political document and one of the earliest constitutional texts in East Asia.",
+      "description": "Issued by Shotoku in 604, this seventeen-point moral handbook for court officials blended Buddhist ethics, Confucian hierarchy, and a distinctly Japanese insistence on group harmony — and is considered one of the earliest constitutional documents in East Asian history.",
       "wikiSlug": "Seventeen-article_constitution",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Article One reads: \"Harmony is to be valued, and an avoidance of wanton opposition is to be honored\" — which sounds like motivational-poster wisdom until you remember it was addressed to feuding clan chieftains who regularly murdered each other's clients. The document survives only as quoted in the Nihon Shoki of 720, more than a century after Shotoku's death, and modern historians debate how much of it is eighth-century composition projected backward to give later Tang-era reforms a venerable founding text. The current scholarly consensus: Shotoku probably issued some version of a moral-political directive; the text we have is an elaboration and stylization of the original."
+        }
+      ]
     },
     {
       "id": "evt-asuka-chinese-calendar",
       "label": "Chinese Calendar Adopted",
       "year": 604,
-      "description": "Japan adopted the Chinese lunisolar calendar (the Yuan-jia calendar) under Prince Shotoku's reforms, enabling standardized timekeeping, agricultural planning, and bureaucratic record-keeping across the Yamato state.",
+      "description": "In 604, the Yamato court adopted the Chinese lunisolar calendar (the Yuanjia system used by Sui China), creating for the first time a standardized timekeeping system across the court — essential for coordinating agriculture, taxation, and the new bureaucratic record-keeping Shotoku was building.",
       "wikiSlug": "Japanese_calendar",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Japan today uses the Gregorian calendar alongside a parallel imperial-era system (nengo) that resets to year 1 with each new emperor's reign, a custom that descends directly from the Chinese system adopted in Shotoku's era. The Yuanjia calendar itself was a sophisticated lunisolar system that reconciled the solar year with lunar months via intercalary (\"leap\") months — a non-trivial mathematical feat that the Yamato court imported as a package rather than deriving independently."
+        }
+      ]
     },
     {
       "id": "evt-asuka-ono-no-imoko",
       "label": "Ono no Imoko's Embassy to Sui China",
       "year": 607,
-      "description": "Prince Shotoku sent the diplomat Ono no Imoko to the Sui court with a letter addressing the Chinese emperor as an equal: 'From the Son of Heaven in the land where the sun rises, to the Son of Heaven in the land where the sun sets.' Sui Emperor Yangdi was reportedly furious.",
+      "description": "In 607, diplomat Ono no Imoko carried a letter from Shotoku to the Sui emperor of China that opened by addressing the Chinese ruler as \"the Son of Heaven in the land where the sun sets\" — a deliberate provocation that asserted Japan's equality with China rather than the vassal relationship all other neighboring states accepted.",
       "wikiSlug": "Ono_no_Imoko",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sui Emperor Yangdi was reportedly furious and ordered his officials never to bring such a letter to him again — but he still accepted the gifts and sent a Chinese diplomat back with Ono no Imoko, which was the point. The embassy opened a channel that Japan would use continuously for the next two and a half centuries. Ono no Imoko made at least two trips to China (607 and 608), and on his return from the second he arrived without the Chinese emperor's reply letter — he claimed he was robbed by Korean bandits, a story that contemporaries found suspicious."
+        }
+      ],
+      "commonsFile": "Ono_no_Imoko.jpg"
     },
     {
       "id": "evt-asuka-horyu-ji-founded",
       "label": "Hōryū-ji Founded",
       "year": 607,
-      "description": "Prince Shotoku founded Hōryū-ji near Asuka. The temple's main hall and five-story pagoda are the oldest surviving wooden buildings anywhere in the world — they have stood for over fourteen centuries through earthquakes, typhoons, and wars.",
+      "description": "Founded by Shotoku in 607 at Ikaruga, a few miles north of the Asuka basin, Horyu-ji (\"Temple of the Flourishing Dharma\") contains the oldest surviving wooden buildings anywhere on Earth — its main hall and five-story pagoda have stood for roughly thirteen centuries.",
       "wikiSlug": "Hōryū-ji",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The original 607 buildings burned in a fire in 670, but the reconstruction completed around 711 reused at least some original timber: the central pillar of the pagoda has been radiocarbon-dated to around 594, meaning parts of Shotoku's actual building are still standing inside it. The pagoda's design features a non-load-bearing central pillar (the shinbashira) that hangs from the top of the structure and swings slightly during earthquakes, acting like a passive pendulum damper — the same engineering principle used in modern skyscraper stabilizers like the tuned mass damper in Taipei 101, though the seventh-century carpenters almost certainly didn't plan it that way."
+        }
+      ],
+      "commonsFile": "Horyu-ji11s3200.jpg"
     },
     {
       "id": "evt-asuka-asuka-temples",
       "label": "Asuka-dera and Early Temples",
       "year": 596,
-      "description": "Soga no Umako commissioned Asuka-dera (also called Hōkō-ji), Japan's first true Buddhist temple complex, completed in 596 with Korean architects from Baekje. Its bronze Buddha image, cast around 609, is the oldest surviving Japanese Buddhist statue.",
+      "description": "Asuka-dera (also called Hoko-ji), Japan's first full-scale Buddhist temple complex, was completed in 596 under Soga no Umako's patronage, built by Korean architects from the kingdom of Baekje. The bronze Buddha inside — cast around 609 — is the oldest surviving Japanese Buddhist statue.",
       "wikiSlug": "Asuka-dera",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Asuka Daibutsu (\"Great Buddha of Asuka\") still sits in the temple today, though only the head and parts of the hands are original seventh-century bronze — the body was restored after a medieval fire. The temple compound originally followed a Korean-style layout with the pagoda at the center and three surrounding halls, a pattern distinct from the later Chinese-derived layout at Horyu-ji. Asuka-dera's construction in 588–596 required craftsmen imported from Baekje including architects, tile-makers, and specialists in Buddhist ritual art — a deliberate technology transfer that took nearly a decade."
+        }
+      ],
+      "commonsFile": "Asuka-dera, sanmon.jpg"
     },
     {
       "id": "evt-asuka-tori-busshi",
       "label": "Tori Busshi the Sculptor",
       "year": 605,
-      "description": "Tori Busshi, grandson of a Korean immigrant from Baekje, became the leading Buddhist sculptor of the Asuka period. His Shaka Triad bronze at Hōryū-ji (623) and the Asuka-dera Daibutsu (609) defined the early Japanese Buddhist sculptural style.",
+      "description": "Tori Busshi, the grandson of a Korean immigrant from Baekje, became the preeminent Buddhist sculptor of the Asuka period — his bronze work for both Soga no Umako and Prince Shotoku defined the visual language of early Japanese Buddhist art.",
       "wikiSlug": "Tori_Busshi",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His full title, Shiba no Kuratsukuri-be no Obito Tori Busshi, means roughly \"Tori the Maker of Buddhist Images from the Saddlemaker clan\" — the family's original Korean trade had been saddle-making, which is how they first arrived at the Yamato court. His style features solid, geometric figures in strictly front-facing poses, a trademark the wikiExtract confirms is the defining aesthetic of the Asuka period. Tori's Shaka Triad at Horyu-ji (623), commissioned as a memorial to Shotoku, is his most famous surviving work — notable because it is both dated and signed, rare for any pre-modern Asian sculptor."
+        }
+      ],
+      "commonsFile": "Shakyamuni_Triad_Horyuji.JPG"
     },
     {
       "id": "evt-asuka-shotoku-death",
       "label": "Death of Prince Shotoku",
       "year": 622,
-      "description": "Prince Shotoku Taishi died at age 48, his reform program incomplete and his sons too young to defend his legacy. Within a generation his line was wiped out by the Soga, and the cult of Shotoku as a near-Buddhist saint began to develop almost immediately after his death.",
+      "description": "Shotoku died in 622 at age forty-eight, his centralizing reform program incomplete. His mother and consort died within months of him — likely an epidemic, though suspicions of poisoning circulated — and within a generation the Soga clan wiped out his entire line.",
       "wikiSlug": "Prince_Shōtoku",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cult of Shotoku as a near-Buddhist saint began forming within forty years of his death: by the 660s, chroniclers were attributing supernatural deeds to him, and by the eighth century he had become a quasi-bodhisattva credited with personal commentaries on three major Mahayana sutras. Modern scholars are skeptical of those attributions — the linguistic evidence in the surviving texts points to late seventh-century court composition in Shotoku's name, not the prince's own hand. His son Prince Yamashiro no Oe inherited Shotoku's temples and faction but lacked his father's combination of imperial blood, political skill, and Soga backing — and was destroyed by the Soga by 643."
+        }
+      ],
+      "commonsFile": "Horyuji_Monastery_Shotoku_Taishi_of_Shoryoin_(331).jpg"
     },
     {
       "id": "evt-asuka-tang-emerges",
       "label": "Tang Dynasty Replaces Sui",
       "year": 618,
-      "description": "The Tang Dynasty replaced the short-lived Sui in China, beginning the period of Chinese cultural ascendancy that Japan would spend the next century and a half intensively copying. Japan's embassies, originally to Sui, now flowed to Tang.",
+      "description": "The Tang dynasty replaced the short-lived Sui in 618, beginning a century and a half of Chinese cultural ascendancy that Japan spent intensively copying — the Japanese embassies Shotoku had launched to Sui simply redirected to Tang and continued for two and a half centuries more.",
       "wikiSlug": "Tang_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tang is generally considered a golden age of cosmopolitan Chinese civilization, with territory that surpassed even the Han dynasty at its height. The roughly twenty official Japanese missions to the Tang court (kentoshi) carried hundreds of monks, scholars, and officials across the dangerous East China Sea — voyages so hazardous that some returning students arrived decades after they left, occasionally outliving the emperor who sent them. The Tang's eventual decline in the late ninth century was precisely what ended the embassy program: once the model wasn't worth copying, Japan stopped sending ships."
+        }
+      ],
+      "commonsFile": "\"Lan-ting_Xu\"_Preface_to_the_Poems_Composed_at_the_Orchid_Pavilion,_copy_by_an_artist_in_the_Tang_dynasty_-_Google_Art_Project.jpg"
     },
     {
       "id": "evt-asuka-isshi-incident",
       "label": "The Isshi Incident",
       "year": 645,
-      "description": "Prince Naka no Ōe and Nakatomi no Kamatari assassinated Soga no Iruka in front of Empress Kōgyoku at a court ceremony, then exterminated the rest of the Soga clan. The coup ended sixty years of Soga dominance and triggered the Taika Reform.",
+      "description": "In 645, Prince Naka no Oe and the court noble Nakatomi no Kamatari assassinated the all-powerful minister Soga no Iruka at a royal ceremony — in front of Empress Kogyoku and visiting Korean envoys — then wiped out the remaining Soga leaders over the following days, ending sixty years of clan domination in a long weekend.",
       "wikiSlug": "Isshi_incident",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The coup takes its name from the sexagenary (60-year Chinese zodiac) name for the year 645. Two assassins Naka no Oe had stationed in the hall froze on the day — so the prince himself had to leap forward and cut Iruka down personally. The next day Iruka's father, Soga no Emishi, set fire to his own compound rather than surrender, destroying irreplaceable royal chronicles Shotoku Taishi had compiled — one reason 8th-century historians had to reconstruct so much of early Japanese history from scratch."
+        }
+      ],
+      "commonsFile": "Irukaansatsuzu.jpg"
     },
     {
       "id": "evt-asuka-fujiwara-no-kamatari",
       "label": "Nakatomi no Kamatari (Fujiwara Founder)",
       "year": 614,
       "endYear": 669,
-      "description": "Co-author of the Isshi Incident with Prince Naka no Ōe. On his deathbed in 669 he was granted the new surname Fujiwara, founding the clan that would dominate Japanese court politics for the next four centuries.",
+      "description": "Nakatomi no Kamatari was the strategic brain behind the 645 coup — a minor noble of a long-marginalized clan who became the most powerful courtier in Japan, served as Inner Minister for three emperors, and on his deathbed in 669 was given the new surname Fujiwara, founding the dynasty that would dominate Japanese politics for four centuries.",
       "wikiSlug": "Fujiwara_no_Kamatari",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kamatari and Prince Naka no Oe reportedly met at a kemari game (a ceremonial kickball match at court) in 644, when Kamatari retrieved the prince's lost shoe and the two began plotting. The Fujiwara name was granted to only Kamatari's own line — his other Nakatomi relatives stayed Nakatomi. His son Fujiwara no Fuhito (659–720) would go on to architect the Nara-period legal codes and marry daughters into the imperial family across three generations."
+        }
+      ],
+      "commonsFile": "Fujiwara_Kamatari_with_Fuhito_and_Jōe_(Nara_National_Museum).jpg"
     },
     {
       "id": "evt-asuka-taika-reform",
       "label": "Taika Reform",
       "year": 646,
-      "description": "Emperor Kōtoku promulgated the Taika ('great change') Edicts, a Tang-modeled program of land redistribution, centralized taxation, provincial reorganization, and bureaucratic ranking. The reforms were only partially implemented but set the direction for the next century.",
+      "description": "In January 646, the new regime issued the Taika ('Great Change') Edicts — four articles proposing to abolish private clan land, replace clan territories with Tang-style provinces, register every person in a census, and impose uniform state taxation on all cultivators. It was the most ambitious legislation in early Japanese history.",
       "wikiSlug": "Taika_Reform",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The era name 'Taika' was itself new: Japan had never used Chinese-style reign-names before 645. The reforms were modeled almost exactly on Tang Emperor Taizong's Zhenguan reforms and the Tang equal-field (juntian) land system — both contemporary with the Taika Edicts and both attempting the same move from clan-based to bureaucratic governance. In practice the edicts were more manifesto than executable law; full implementation took over half a century and some provisions (true state ownership of all land) never happened at all."
+        }
+      ]
     },
     {
       "id": "evt-asuka-naniwa-capital",
       "label": "Capital at Naniwa",
       "year": 645,
       "endYear": 654,
-      "description": "Emperor Kōtoku moved the capital to Naniwa-kyo (modern Osaka) immediately after the Isshi Incident, building the Naniwa Nagara-Toyosaki Palace as the political center for the early Taika reforms. It was the first capital with a Tang-style grid plan in Japan.",
+      "description": "Immediately after the coup, the new regime abandoned the Soga-associated Asuka basin and moved the court to Naniwa-kyo (modern Osaka), laying out Japan's first Tang-style north-south grid capital with a grand palace at its head — a built declaration that the old order was gone.",
       "wikiSlug": "Naniwa-kyō",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Naniwa Nagara-Toyosaki Palace was the first palace in Japan sited on a formal Chinese-style urban grid, prefiguring the later Nara grid capital by seven decades. The palace burned down later in the seventh century, and modern Osaka — rebuilt and rebuilt — has buried most of the site; the ruins that survive are protected as a National Historic Site."
+        }
+      ],
+      "commonsFile": "Naniwa-no-miya-ato,_zenkei-2.jpg"
     },
     {
       "id": "evt-asuka-emperor-tenji",
       "label": "Emperor Tenji",
       "year": 661,
       "endYear": 672,
-      "description": "Prince Naka no Ōe finally took the throne as Emperor Tenji and presided over the Baekgang catastrophe, the construction of fortresses across Kyushu against possible Tang invasion, and the first comprehensive census and household registry (the Kōgo-nenjaku).",
+      "description": "Prince Naka no Oe — the man who had led the 645 coup and served as effective ruler for nearly two decades — finally took the throne as Emperor Tenji in 668, reigning until 672. His eleven years of official rule produced Japan's first comprehensive legal code and its first large-scale population census.",
       "wikiSlug": "Emperor_Tenji",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tenji's Kogo-nenjaku census of 670 took over a year to compile and registered perhaps 5 million subjects — the first time the Yamato state had actually tried to count its people. He was the son of Empress Kogyoku, the same empress who had watched in shock as he assassinated her chief minister in her own throne room in 645. His children included Empress Jito, Empress Genmei, and Emperor Kobun — making him the ancestor of several subsequent sovereigns."
+        }
+      ],
+      "commonsFile": "Poem-by-Emperor-Tenchi-(Tenji)-by-Utagawa-Kuniyoshi.png"
     },
     {
       "id": "evt-asuka-baekje-fall",
       "label": "Fall of Baekje",
       "year": 660,
-      "description": "The Korean kingdom of Baekje, Japan's closest ally and primary cultural conduit from the continent, fell to a Tang-Silla coalition. Baekje refugees fled to Japan in large numbers, bringing Buddhist learning, architectural skill, and a desperate plea for military intervention.",
+      "description": "In 660, a combined Tang Chinese and Silla Korean force destroyed the kingdom of Baekje — Japan's closest continental ally, the source of Buddhism, writing, and most of the specialist craftsmen who had shaped the Yamato court for two centuries. The fall sent shockwaves through Japan and triggered a fateful decision to intervene militarily.",
       "wikiSlug": "Baekje",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its height Baekje had the largest population of the three Korean kingdoms, estimated at around 3,800,000 — comparable to Goguryeo and far larger than Silla. The Tang general Su Dingfang led a 130,000-man invasion fleet across the Yellow Sea while Silla attacked overland from the south; the Baekje capital Sabi fell within months and the king was taken to the Tang court as a captive. The destruction of Baekje produced a refugee wave that would bring tens of thousands of Baekje aristocrats, scholars, monks, and craftsmen to Japan."
+        }
+      ],
+      "commonsFile": "Baekje_Ambassador.jpg"
     },
     {
       "id": "evt-asuka-baekgang",
       "label": "Battle of Baekgang",
       "year": 663,
-      "description": "A combined Yamato-Baekje fleet of roughly 800 ships and 40,000 men was annihilated by a smaller Tang-Silla naval force at the mouth of the Geum River. Over 400 Japanese ships were destroyed in two days. Japan would not project military power onto the Korean continent again for nearly a thousand years.",
+      "description": "In August 663, a Yamato fleet of roughly 800 ships met the Tang-Silla navy at the mouth of the Geum River on Korea's west coast — and was obliterated. Over 400 Japanese ships were burned or rammed in two days of fighting. Japan would not attempt to project military power onto the Asian continent again for nearly a thousand years.",
       "wikiSlug": "Battle_of_Baekgang",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle took place on 27–28 August 663, known in Japanese as the Battle of Hakusukinoe and in Chinese as the Battle of Baijiangkou. Tang fire-arrow tactics could ignite opposing ships at standoff range — a technology Japan had no answer for. The defeat ended not just the Baekje restoration movement but Japan's entire continental military strategy: the sea moat became, by default, the foundation of Japanese security thinking for the next six centuries until the Mongol invasions of 1274–1281."
+        }
+      ],
+      "commonsFile": "Map_of_the_Battle_of_Baekgang.png"
     },
     {
       "id": "evt-asuka-water-castles",
       "label": "Mizuki and Kyushu Defenses",
       "year": 664,
-      "description": "After Baekgang, Emperor Tenji rushed defensive earthworks across northern Kyushu — the Mizuki ('water castle') embankment and a chain of mountain fortresses — fearing a Tang counter-invasion that never came. Korean Baekje refugee engineers designed the fortifications.",
+      "description": "After Baekgang, Emperor Tenji ordered an emergency network of fortifications across northern Kyushu — anchored by the Mizuki ('water castle'), a massive earthwork dike protecting the Dazaifu administrative center — fearing a Tang counter-invasion that never came. Baekje refugee engineers who had just fled the destruction of their own kingdom designed the works.",
       "wikiSlug": "Mizuki_Castle",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mizuki earthwork straddles the modern cities of Onojo, Dazaifu, and Kasuga in Fukuoka Prefecture and has been a protected National Historic Site since 1921 — raised to Special National Historic Site status in 1953. The fortification network also included mountain-top yamashiro (hilltop fortresses) built on key passes. Tang never did invade; by the 670s it was at war with Silla over the Korean peninsula carve-up, and its western frontier was under pressure from the Tibetan Empire."
+        }
+      ],
+      "commonsFile": "Ruins_of_Mizuki.jpg"
     },
     {
       "id": "evt-asuka-omi-code",
       "label": "Ōmi Code",
       "year": 668,
-      "description": "Emperor Tenji's Ōmi Code was Japan's first comprehensive legal code, a transitional document between the Taika Edicts and the later Asuka Kiyomihara Code. No copy survives today; its existence is known from later references.",
+      "description": "In 668, Emperor Tenji issued the Omi Code — Japan's first comprehensive law code, compiled by Fujiwara no Kamatari, sitting between the Taika Edicts of 646 and the later Asuka Kiyomihara Code in sophistication. Not a single copy survives; we know it only through references in later documents.",
       "wikiSlug": "Ōmi_Code",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Omi Code's non-survival is partly why historians debate whether it actually existed as a coherent code at all — it is notably absent from the Nihon Shoki (Japan's second oldest chronicle, compiled in 720), which some scholars find suspicious. If real, it would have been the first full ritsuryō (criminal and administrative law) compilation in Japanese history, predating the better-documented Asuka Kiyomihara Code by about two decades."
+        }
+      ]
     },
     {
       "id": "evt-asuka-jinshin-war",
       "label": "Jinshin War",
       "year": 672,
-      "description": "A succession dispute between Emperor Tenji's brother Prince Ōama and Tenji's son Prince Ōtomo erupted into the largest civil war of ancient Japan. Ōama's eastern coalition won, he took the throne as Emperor Tenmu, and imperial authority was significantly strengthened.",
+      "description": "In 672, a succession fight between Prince Oama (the expected heir and Emperor Tenji's brother) and Prince Otomo (Tenji's young son) exploded into the largest civil war of ancient Japan — about a month of fighting around Lake Biwa that left Otomo dead and Oama on the throne as Emperor Tenmu.",
       "wikiSlug": "Jinshin_War",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Oama's opening move was theatrical: he shaved his head as a Buddhist monk and retreated to the remote mountain valley of Yoshino, publicly abandoning all claim to the throne — then immediately began secretly recruiting eastern warrior families who resented the Otomo faction. He arrived at the decisive Battle of Seta with an army estimated at around 30,000 men; his forces broke through Otomo's defensive line on the Seta Bridge, and Otomo hanged himself rather than surrender. The war's aftermath was as decisive as the battle: Tenmu executed many of Otomo's senior supporters and redistributed their lands to his own loyalists, breaking the power of any clan that had backed the wrong side."
+        }
+      ],
+      "commonsFile": "Omi_Otsu-no-miya_dairi-seiden-ato.jpg"
     },
     {
       "id": "evt-asuka-emperor-tenmu",
       "label": "Emperor Tenmu",
       "year": 672,
       "endYear": 686,
-      "description": "Tenmu was the architectural emperor of late Asuka — he formalized the title tennō ('heavenly sovereign'), commissioned the Kojiki and Nihon Shoki, decreed the Asuka Kiyomihara Code, and elevated state Buddhism while strengthening Shinto rites at Ise.",
+      "description": "Emperor Tenmu (r. 672–686) is the architectural emperor of late Asuka Japan — the ruler who formalized the title tenno ('heavenly sovereign'), commissioned the Kojiki and Nihon Shoki national histories, drafted the Asuka Kiyomihara legal code, founded Yakushi-ji, and elevated both state Buddhism and Shinto simultaneously.",
       "wikiSlug": "Emperor_Tenmu",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tenmu's adoption of the title tenno was a theological claim, not just a name change: it invoked the Daoist concept of a heavenly emperor, asserting that the Yamato sovereign was a cosmic figure rather than merely the senior clan chief. He also instituted the Saio system — sending an imperial princess to Ise Shrine to serve as high priestess of Amaterasu's cult — which continued for over six centuries. The traditional founding date of the imperial line, 660 BCE under the legendary Emperor Jimmu, was almost certainly calculated by Tenmu-era chroniclers to align with Chinese astrological cycles, projecting a pedigree backward by more than a thousand years."
+        }
+      ],
+      "commonsFile": "Emperor_Tenmu.jpg"
     },
     {
       "id": "evt-asuka-empress-jito",
       "label": "Empress Jitō",
       "year": 690,
       "endYear": 697,
-      "description": "Tenmu's widow took the throne and finished her late husband's program: she promulgated the Asuka Kiyomihara Code (689), oversaw the move to Fujiwara-kyo (694), and held the imperial line steady until her grandson Mommu was old enough to inherit.",
+      "description": "Empress Jito (r. 690–697) inherited her late husband Tenmu's unfinished reform program and methodically completed it — promulgating the Asuka Kiyomihara Code, commissioning the move to Fujiwara-kyo, and holding the dynasty together until her grandson Mommu came of age.",
       "wikiSlug": "Empress_Jitō",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jito's path to the throne was not smooth: between Tenmu's death in 686 and her formal accession in 690, a designated crown prince was forced to commit suicide on charges of conspiracy that contemporaries considered at least partly manufactured, clearing the way for her regency. She was only the second reigning empress in Japanese history to rule in her own right rather than as regent. Her decision to build Fujiwara-kyo as a permanent Tang-modeled grid city — rather than relocating the palace to a new site as each reign had done — was the single most consequential urban planning choice of the Asuka period."
+        }
+      ],
+      "commonsFile": "Empress_Jito_by_Katsukawa_Shunsho.png"
     },
     {
       "id": "evt-asuka-fujiwara-kyo",
       "label": "Fujiwara-kyo Capital",
       "year": 694,
       "endYear": 710,
-      "description": "Empress Jitō moved the capital to Fujiwara-kyo, the first Japanese city built with a permanent Tang-style grid plan and intended to last more than a single reign. Three monarchs ruled from it before it was abandoned for Heijō-kyō in 710.",
+      "description": "Built starting around 690 and occupied from 694, Fujiwara-kyo was Japan's first permanent planned capital — a Tang-style grid city covering about 4 square miles (10 km²), with wide avenues, walled residential wards, and a palace at its geometric center.",
       "wikiSlug": "Fujiwara-kyō",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The palace's placement at the center rather than the north end (as at Tang Chang'an) turned out to be a design flaw: it created drainage and traffic problems that contributed to the decision to abandon the city just sixteen years later. Three monarchs ruled from Fujiwara-kyo — Jito, her grandson Mommu, and Mommu's mother Empress Genmei — before Genmei moved the court to Heijo-kyo (modern Nara) in 710; the old capital was deserted within a year. Today the site is a quiet rice-field landscape with the palace foundation marked out archaeologically — one of the more poignant 'lost city' sites in Japanese history."
+        }
+      ],
+      "commonsFile": "210401_One-thousandth_scale_model_of_Fujiwara-kyu.jpg"
     },
     {
       "id": "evt-asuka-asuka-kiyomihara-code",
       "label": "Asuka Kiyomihara Code",
       "year": 689,
-      "description": "Empress Jitō promulgated the Asuka Kiyomihara Code, the first Japanese legal code with separate ritsu (criminal) and ryō (administrative) sections — the structural template for the later Taihō and Yōrō Codes.",
+      "description": "Promulgated in 689 by Empress Jito, the Asuka Kiyomihara Code was Japan's first legal framework with the ritsu/ryo structure (ritsu = criminal law with prescribed penalties; ryo = administrative regulations for running the bureaucracy) — a Tang-borrowed template that shaped Japanese law for centuries.",
       "wikiSlug": "Asuka_Kiyomihara_Code",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "No copy of the code survives; its contents are reconstructable only from later citations in the Taiho Code of 701 and in commentary texts. The code also introduced the Daijo-kan — the Grand Council of State, composed of a Chancellor and two ministers — as the central administrative body of the imperial government, the first formal executive structure above the level of individual palace offices. The ritsu/ryo framework it established became the direct structural template for the more comprehensive Taiho Code of 701 and the Yoro Code of 718, which together formed the operational legal architecture of Japan for the following thousand years."
+        }
+      ]
     },
     {
       "id": "evt-asuka-taiho-code",
       "label": "Taihō Code",
       "year": 701,
-      "description": "The Taihō Code completed the Tang-modeled legal framework: provincial administration, household registers, taxation in rice and labor, an eight-ministry central bureaucracy, and a court rank system. It is the document that turned Japan into a ritsuryō ('codes and regulations') state.",
+      "description": "The Taihō Code of 701 was Japan's first comprehensive legal code on the Tang model — two sets of eleven volumes covering criminal law (ritsu) and administrative regulations (ryō), drafting the full bureaucratic machinery of a ritsuryo state from court ranks down to village tax registers.",
       "wikiSlug": "Taihō_Code",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The code was compiled at the direction of Prince Osakabe, Fujiwara no Fuhito, and Awata no Mahito at Emperor Monmu's request — a collaboration that reflects just how central Tang institutional study had become to the Japanese court. Although the code set up a six-year land re-registration cycle, in practice those censuses slipped decade by decade until the system quietly collapsed, with aristocratic estates (shoen) absorbing the tax base long before the Heian era ended."
+        }
+      ],
+      "commonsFile": "Japan_prov_map701.png"
     },
     {
       "id": "evt-asuka-fujiwara-no-fuhito",
       "label": "Fujiwara no Fuhito",
       "year": 659,
       "endYear": 720,
-      "description": "Son of Kamatari and the political architect of Nara-era Fujiwara dominance. He drafted the Taihō Code, the Yōrō Code, and married his daughters into the imperial family — establishing the marriage strategy that would let his descendants control the throne for four centuries.",
+      "description": "Fujiwara no Fuhito (659–720) was the second-generation Fujiwara who turned his father Kamatari's political coup into a dynasty — drafting the Taihō and Yōrō Codes, founding Kōfuku-ji at Nara, and threading his daughters into the imperial family so thoroughly that his own granddaughter became Empress Kōmyō.",
       "wikiSlug": "Fujiwara_no_Fuhito",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Fuhito had sons by two women who founded the four main Fujiwara lineages (South, North, Ceremonial, Capital) — the factional structure that would define Japanese aristocratic politics for the next three centuries. One of his daughters by Kamohime became Emperor Monmu's consort and gave birth to Emperor Shōmu; a second daughter became Shōmu's empress. Father-in-law to an emperor, grandfather to another — no single person did more to lock the Fujiwara into the imperial bloodline."
+        }
+      ],
+      "commonsFile": "Fujiwara-Fuhito.jpg"
     },
     {
       "id": "evt-nara-wado-kaichin",
       "label": "Wadō Kaichin Coinage",
       "year": 708,
-      "description": "Japan's first official coinage, the Wadō Kaichin, was minted from copper deposits discovered in Musashi Province and modeled on Tang Kaiyuan Tongbao coins. The state pushed for monetized exchange but rural Japan stuck with rice-and-cloth payments for centuries.",
+      "description": "The Wadō Kaichin, minted from 708, were Japan's first official coins — copper rounds with a square central hole (so they could be strung on cords), modeled directly on Tang Kaiyuan Tongbao cash and inscribed with four characters meaning 'Inaugural Treasure of the Wadō Era.'",
       "wikiSlug": "Wadōkaichin",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Analyses of a related earlier find (Fuhon-sen, discovered at Asuka) suggest Japan may have experimented with minting as early as 683 — predating the Wadō issue by a generation, though those were never an official state currency. The Wadō program required officials of certain rank to hold portions of their salaries in coin, but rural Japan never absorbed it: by the late ninth century the state had effectively stopped minting, and Japan would rely on imported Chinese cash until much later."
+        }
+      ],
+      "commonsFile": "Wadokaichin_coin_8th_century_Japan.jpg"
     },
     {
       "id": "evt-nara-empress-genmei",
       "label": "Empress Genmei",
       "year": 707,
       "endYear": 715,
-      "description": "Empress Genmei moved the capital to Heijō-kyō in 710 and commissioned the Kojiki, the first surviving Japanese chronicle, completed in 712. She abdicated in favor of her daughter Empress Genshō, the only consecutive mother-daughter imperial succession in Japanese history.",
+      "description": "Empress Genmei (r. 707–715) was the ruler who turned the early eighth century's institutional plans into built reality — she moved the court to Heijō-kyō in 710, commissioned the Kojiki in 711, and issued the Fudoki edict in 713, three foundational acts in eight years.",
       "wikiSlug": "Empress_Genmei",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Genmei was the 43rd monarch of Japan and the second woman to hold the throne in the post-Taika era. When she abdicated in 715, she passed the throne directly to her unmarried daughter (Empress Genshō) — the only consecutive mother-to-daughter imperial succession in all of Japanese history. That transition itself speaks to how the Nara court navigated succession when no suitable adult male heir was available."
+        }
+      ],
+      "commonsFile": "Empress_Gemmei.jpg"
     },
     {
       "id": "evt-nara-heijo-kyo",
       "label": "Capital Established at Heijō-kyō",
       "year": 710,
-      "description": "Empress Genmei moved the imperial capital to Heijō-kyō (modern Nara), a brand-new city laid out on a grid pattern modeled on Tang Chang'an. At its peak Nara housed 100,000–200,000 people — Japan's first true planned permanent capital.",
+      "description": "Heijō-kyō (modern Nara), founded in 710, was Japan's first capital built at continental scale — about 9 square miles (24 km²) laid out on a Tang Chang'an grid, with a 280-foot-wide central boulevard (Suzaku Ōji) running south from the imperial palace to the great southern gate.",
       "wikiSlug": "Heijō-kyō",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike Chang'an, Heijō-kyō was never walled — Japan's island geography meant no threat of steppe cavalry, so the court built for prestige rather than defense, a choice that would hold until castle-building began in the late medieval period nine centuries later. The city served as capital from 710 to 740, then again from 745 to 784, and the imperial palace ruins are now a UNESCO World Heritage Site."
+        }
+      ],
+      "commonsFile": "181103_Heijo_Palace_Daigokuden_Nara_Japan05n.jpg"
     },
     {
       "id": "evt-nara-kojiki",
       "label": "Kojiki Compiled",
       "year": 712,
-      "description": "The court attendant Ō no Yasumaro completed the Kojiki ('Record of Ancient Matters'), Japan's oldest surviving written work. It records the mythological origins of Japan, the descent of Amaterasu's grandson, and the founding of the imperial line.",
+      "description": "The Kojiki ('Record of Ancient Matters'), completed in 712 by the court attendant Ō no Yasumaro, is the oldest surviving written work in Japan — a compilation of myths, genealogies, oral traditions, and semi-historical accounts tracing the origins of the islands, the gods, and the imperial line.",
       "wikiSlug": "Kojiki",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ō no Yasumaro claimed he transcribed the Kojiki from the memory of a court reciter named Hieda no Are, who had memorized earlier oral traditions. The text was written in a hybrid system that used Chinese characters partly for their sound and partly for their meaning — a creative workaround that predates the development of the kana syllabaries. Nineteenth- and twentieth-century nationalist scholars later elevated the Kojiki into a founding scripture of Japanese identity, giving an eighth-century bureaucratic project a weight its Nara-era compilers probably never intended."
+        }
+      ],
+      "commonsFile": "Amaterasu_cave_crop.jpg"
     },
     {
       "id": "evt-nara-fudoki",
       "label": "Fudoki Provincial Gazetteers",
       "year": 713,
-      "description": "Empress Genmei ordered every province to compile a Fudoki — a local gazetteer documenting its geography, products, etymologies, and folk legends. The five surviving Fudoki preserve regional traditions that would otherwise have vanished into the imperial cult.",
+      "description": "The Fudoki edict of 713 ordered every Japanese province to compile a local gazetteer documenting its geography, agricultural products, place-name etymologies, and folk legends. Of the sixty-odd provinces ordered to report, only five complete Fudoki survive today.",
       "wikiSlug": "Fudoki",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The five surviving complete Fudoki (Izumo, Hitachi, Harima, Hizen, and Bungo) preserve regional myths and indigenous deity traditions that were never absorbed into the Yamato court pantheon — local creation stories, agricultural rituals, and etymological folk explanations for why a hill or river carries its name. These documents are irreplaceable for understanding early rural Japan, precisely because the Kojiki and Nihon Shoki were court documents that systematically sidelined non-imperial religious traditions."
+        }
+      ]
     },
     {
       "id": "evt-nara-yoro-code",
       "label": "Yōrō Code",
       "year": 718,
-      "description": "Fujiwara no Fuhito drafted the Yōrō Code as an administrative revision of the Taihō Code. Promulgated in 757 under Empress Kōken, it became the operational legal framework of Japan for the next thousand years — its texts were still being cited by Edo-period courts.",
+      "description": "The Yōrō Code, drafted by Fujiwara no Fuhito in 718, was a polished revision of the Taihō Code — but it sat on a shelf for nearly forty years and was not formally promulgated until 757, when Fuhito's grandson Fujiwara no Nakamaro pushed it through under Empress Kōken.",
       "wikiSlug": "Yōrō_Code",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The gap between drafting (718) and promulgation (757) is itself a window into Nara-period politics: it took a Fujiwara regent with the right moment of dominance to finally put the family patriarch's legal revision into official force. Despite its late start, the Yōrō Code became the operational backbone of Japanese law well into the medieval period, and its language was still being cited in Edo-period court rulings nearly a thousand years after Fuhito wrote it."
+        }
+      ]
     },
     {
       "id": "evt-nara-nihon-shoki",
       "label": "Nihon Shoki Compiled",
       "year": 720,
-      "description": "Prince Toneri and Ō no Yasumaro completed the Nihon Shoki ('Chronicles of Japan'), Japan's first official national history, written entirely in classical Chinese. Where the Kojiki was a priestly genealogy, the Nihon Shoki was a state document for foreign consumption.",
+      "description": "The Nihon Shoki ('Chronicles of Japan'), completed in 720 under Prince Toneri with Ō no Yasumaro's assistance, is Japan's first official national history — written entirely in classical Chinese to be legible to Tang diplomats and Korean envoys.",
       "wikiSlug": "Nihon_Shoki",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Nihon Shoki is more detailed and elaborate than the Kojiki, and the choice of classical Chinese (rather than the hybrid script of the Kojiki) signals its purpose: this was a document of foreign policy, meant to show the Tang court that Japan had a long and respectable history comparable to China's own dynastic annals. It remains one of the most important tools for archaeologists and historians of ancient Japan, filling in institutional detail the Kojiki omits."
+        }
+      ],
+      "commonsFile": "Nihonshoki_tanaka_version.jpg"
     },
     {
       "id": "evt-nara-gyoki",
       "label": "Gyōki the Wandering Monk",
       "year": 720,
-      "description": "The monk Gyōki defied government restrictions to preach Buddhism among commoners, building bridges, irrigation channels, and harbors with volunteer labor. Initially persecuted, he was eventually recognized by Emperor Shōmu as Japan's first Grand Priest (Daisōjō).",
+      "description": "Gyōki (668–749) was a Buddhist monk who defied government restrictions on independent religious activity to preach Buddhism to ordinary commoners in the countryside, organizing volunteer labor to build bridges, irrigation channels, and harbors — and was initially prosecuted by the state for it.",
       "wikiSlug": "Gyōki",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He proved so popular that the court could not safely suppress him; Emperor Shōmu eventually reversed course entirely, formally honoring Gyōki and appointing him Japan's first Daisōjō (Grand Priest). Shōmu then recruited Gyōki's vast popular networks to coordinate fundraising and labor for the Tōdai-ji Daibutsu project — a remarkable turnaround from criminal to indispensable. Gyōki died in 749, three years before the Daibutsu dedication, but his grassroots organizing is credited as essential to making the casting possible."
+        }
+      ],
+      "commonsFile": "Gyoki01.JPG"
     },
     {
       "id": "evt-nara-emperor-shomu",
       "label": "Emperor Shōmu",
       "year": 724,
       "endYear": 749,
-      "description": "Emperor Shōmu promoted Buddhism as a state-protective religion, ordering provincial temples (kokubunji) in every province and the Tōdai-ji Great Buddha at the center. His reign spanned plague, drought, and the Fujiwara political collapse of 737.",
+      "description": "The 45th emperor of Japan (reigned 724–749), Shōmu was an intensely devout Buddhist who responded to plague, famine, and political crisis by pouring Japan's national resources into Buddhism — ordering provincial temples across every province and commissioning the world's largest bronze Buddha at Tōdai-ji.",
       "wikiSlug": "Emperor_Shōmu",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shōmu was the first emperor to carry significant Fujiwara blood through his mother, making his reign the moment the Fujiwara marriage strategy paid off at full strength. When the catastrophic 735–737 smallpox epidemic killed roughly one-third of Japan's population and wiped out the four dominant Fujiwara brothers in a single spring, Shōmu's response was not retreat but an even greater Buddhist building campaign. He eventually abdicated in 749, becoming Japan's first emperor to take Buddhist vows — styling himself 'the Humble Servant of the Three Treasures of Buddha.'"
+        }
+      ],
+      "commonsFile": "Emperor_Shomu.jpg"
     },
     {
       "id": "evt-nara-empress-komyo",
       "label": "Empress Kōmyō",
       "year": 729,
       "endYear": 760,
-      "description": "Daughter of Fujiwara no Fuhito and the first non-imperial woman to be made empress consort. Co-ruler with Shōmu in everything but title, she founded charity hospitals, championed Buddhist patronage, and donated Shōmu's personal collection to Tōdai-ji to create the Shōsō-in.",
+      "description": "Empress Kōmyō (729–760 as empress consort) was the daughter of Fujiwara no Fuhito and the first non-imperial woman ever elevated to the rank of empress consort in Japan — a politically significant break from tradition that reflected the Fujiwara family's rising power.",
       "wikiSlug": "Empress_Kōmyō",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kōmyō co-governed with Shōmu in everything but title, founding Japan's first state-run charity hospitals and dispensaries for the destitute. After Shōmu's death in 756, she made one of the most consequential cultural donations in Japanese history: gifting his entire personal collection of over 9,000 objects — including Persian glass, Tang mirrors, and Central Asian textiles — to Tōdai-ji, where they were stored in the Shōsō-in and have survived intact for over 1,250 years."
+        }
+      ],
+      "commonsFile": "Empress_Kōmyō_by_simomura_kanzan.jpg"
     },
     {
       "id": "evt-nara-fujiwara-four-deaths",
       "label": "Fujiwara Smallpox Catastrophe",
       "year": 737,
-      "description": "A devastating smallpox epidemic killed all four Fujiwara brothers — sons of Fuhito and the dominant figures of Nara politics — within a single year. The death toll across Japan may have reached one-third of the population. Emperor Shōmu's response was to double down on Buddhist patronage.",
+      "description": "The 735–737 smallpox epidemic, which entered Japan through a Tang ship at Dazaifu in Kyushu, killed roughly one-third of the Japanese population — somewhere between 1.5 and 2.5 million people — and wiped out all four sons of Fujiwara no Fuhito, the dominant court family, within months of each other.",
       "wikiSlug": "735–737_Japanese_smallpox_epidemic",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The disease spread from Kyushu up through western Honshu and reached the capital Heijo-kyo by early 737, with the worst mortality through that summer. Tax registers from the period record massive defaults as registered taxpayers simply vanished. The death of all four Fujiwara brothers in a single season shattered the family's grip on court politics and triggered a generation of factional instability that would not settle until the late eighth century."
+        }
+      ],
+      "commonsFile": "20100716_Nara_Todaiji_Golden_Hall_2273.jpg"
     },
     {
       "id": "evt-nara-kokubunji-edict",
       "label": "Provincial Temple Edict",
       "year": 741,
-      "description": "Emperor Shōmu ordered every province to build a kokubunji (provincial monastery) and kokubunniji (provincial nunnery) with a seven-story pagoda. The network garrisoned the country with prayer and made state Buddhism a national infrastructure project.",
+      "description": "In 741, Emperor Shōmu ordered every Japanese province to build a kokubunji (provincial monastery with a seven-story pagoda) and a kokubunniji (provincial nunnery) — a national prayer-infrastructure program meant to garrison the entire country with Buddhist protection against disaster.",
       "wikiSlug": "Provincial_temple",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Each provincial temple's official name was Konkomyo Shitenno Gokoku-ji ('temple for the protection of the state by the four heavenly kings'), signaling that the network was understood as spiritual defense, not just religion. The building program was a massive employment engine for craftsmen, sculptors, bronze-casters, and bureaucratic clerks across every province. Many of these temples have survived in some form — sometimes only foundation outlines, sometimes partly reconstructed buildings — as one of the most visible Nara-era impositions on the pre-modern Japanese landscape."
+        }
+      ],
+      "commonsFile": "Mutsu_Kokubunji_Yakushido_in_2008.jpg"
     },
     {
       "id": "evt-nara-todaiji",
       "label": "Tōdai-ji and the Great Buddha",
       "year": 752,
-      "description": "Emperor Shōmu dedicated the Daibutsu (Great Buddha) at Tōdai-ji in Nara — a 49-foot bronze seated Buddha cast from copper, tin, mercury, and gold drawn from across the country. The dedication ceremony drew over 10,000 monks and musicians from China, Korea, India, and Central Asia.",
+      "description": "Tōdai-ji (Great Eastern Temple), founded in 743 in Nara, houses the Daibutsu — a 49-foot (15-meter) bronze seated Buddha depicting the cosmic Buddha Vairocana, cast over multiple years using copper, tin, mercury, and gold drawn from across Japan, and dedicated in a cosmopolitan ceremony attended by over 10,000 monks in 752.",
       "wikiSlug": "Tōdai-ji",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The bronze weighed over 500 tons and consumed most of Japan's known copper reserves; the gilding used a mercury amalgam process that likely killed or seriously poisoned a significant number of the bronzeworkers. New gold deposits discovered in Mutsu province in 749 were dedicated specifically to the project — recorded in the chronicles as a sign of the Buddha's approval. The Daibutsuden (Great Buddha Hall) housing the statue was, at the time, among the largest wooden buildings in the world by floor area; the current structure, an early-18th-century rebuild, is only about two-thirds the width of the Nara original."
+        }
+      ],
+      "commonsFile": "Tōdai-ji_Kon-dō.jpg"
     },
     {
       "id": "evt-nara-six-schools",
       "label": "Six Schools of Nara Buddhism",
       "year": 750,
-      "description": "Six distinct Buddhist scholarly traditions — Hossō, Kusha, Sanron, Jōjitsu, Kegon, and Ritsu — were formally institutionalized in Nara, each studied at the great temples and each producing the specialist monks who staffed the kokubunji network.",
+      "description": "By the mid-eighth century, Nara's Buddhist establishment had organized itself into six distinct scholarly traditions — Hossō, Kusha, Sanron, Jōjitsu, Kegon, and Ritsu — each with its own canon of texts, training program, home temple, and corps of specialist monks.",
       "wikiSlug": "Nanto_Rokushū",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These were not competing popular sects but academic departments: a serious Nara monk would study at multiple schools rather than pledge loyalty to one. The entire system was designed to staff state rituals and the kokubunji network, not to evangelize rural commoners, who mostly continued practicing a folk mix of kami worship and ancestor rites. The Kegon school — based on the Avatamsaka Sutra and its cosmic-Buddha philosophy — was Emperor Shōmu's personal favorite and provided the theological rationale for the Vairocana Daibutsu at Tōdai-ji."
+        }
+      ]
     },
     {
       "id": "evt-nara-ganjin",
       "label": "Ganjin's Voyage",
       "year": 753,
-      "description": "After five failed sea voyages over twelve years (one cost him his eyesight), the Tang Chinese monk Ganjin (Jianzhen) finally reached Japan in 753, bringing the proper Buddhist ordination lineage. He founded Tōshōdai-ji in Nara and established the Ritsu school of Buddhist monastic discipline.",
+      "description": "Ganjin (Chinese: Jianzhen, 688–763) was a senior Tang Chinese monk who agreed around 742 to bring the proper Buddhist ordination lineage to Japan — then spent twelve years and six attempts getting there, going completely blind from exposure along the way, before finally arriving in 753 at age sixty-five.",
       "wikiSlug": "Jianzhen",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The first attempt was sabotaged by a jealous disciple; subsequent voyages were wrecked by storms, attacked by pirates, or blown thousands of miles off course to Hainan Island in the South China Sea. Before Ganjin's arrival, no Japanese monk had technically been ordained in the proper Vinaya lineage stretching back to the Buddha — meaning Japan's entire Buddhist clergy was, by strict standards, incompletely ordained. His lacquer portrait sculpture, made by disciples in or shortly after his lifetime and preserved at Tōshōdai-ji, is one of the most striking pieces of early Japanese art: a weathered, blind, elderly man who crossed the East China Sea to reach a country he could no longer see."
+        }
+      ],
+      "commonsFile": "Ganjin_wajyo_portrait.JPG"
     },
     {
       "id": "evt-nara-shoso-in",
       "label": "Shōsō-in Treasure Repository",
       "year": 756,
-      "description": "Empress Kōmyō donated Emperor Shōmu's personal collection of over 9,000 objects to Tōdai-ji, stored in the raised-floor Shōsō-in log storehouse. The collection has survived intact for over 1,200 years and contains Persian glass, Chinese mirrors, Indian musical instruments, and Central Asian textiles.",
+      "description": "The Shōsō-in is a raised-floor log storehouse at Tōdai-ji in Nara, built in the azekura style (interlocking triangular cypress logs that breathe with humidity), which has preserved Empress Kōmyō's 756 donation of Emperor Shōmu's personal collection — over 9,000 objects — in extraordinary condition for more than 1,250 years.",
       "wikiSlug": "Shōsō-in",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The azekura construction method was no accident: the interlocking logs flex with seasonal humidity, effectively self-regulating the interior environment and preventing the moisture damage that destroys most ancient organic materials. The collection functions as a time capsule of the entire eighth-century Eurasian world — Persian rhinoceros-horn cups, Chinese-language documents written by Korean scribes, and lutes still strung with their original silk strings share space with Japanese lacquerware. The Shōsō-in is opened to the public for just one month each autumn, with a different selection of objects shown every year."
+        }
+      ],
+      "commonsFile": "Shoso-in.jpg"
     },
     {
       "id": "evt-nara-empress-koken-shotoku",
       "label": "Empress Kōken / Shōtoku",
       "year": 749,
       "endYear": 770,
-      "description": "Daughter of Shōmu and Kōmyō who reigned twice — once as Kōken (749–758), then again as Shōtoku (764–770) after deposing her cousin. Her second reign was dominated by her favored monk Dōkyō, an episode that scandalized the court and ended reigning empresses for a thousand years.",
+      "description": "The only monarch in Japanese history to reign twice under two different names: first as Empress Koken (749–758), then — after deposing her cousin and surviving a rebellion — as Empress Shotoku (764–770), in a second reign that would end female imperial succession for a thousand years.",
       "wikiSlug": "Empress_Shōtoku",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Her father Emperor Shomu made her the first formally designated crown princess in Japanese history in 738, a deliberate break with precedent to protect his bloodline. During her first reign she thwarted a conspiracy by Tachibana no Naramaro in 757 and promulgated the Yoro Code — the legal framework that would govern Japan for centuries. After her death in 770 with no designated heir, the court chose a 62-year-old male claimant partly as a deliberate rejection of everything her reign had represented."
+        }
+      ],
+      "commonsFile": "Empress_Shōtoku.jpg"
     },
     {
       "id": "evt-nara-dokyo-affair",
       "label": "The Dōkyō Affair",
       "year": 764,
       "endYear": 770,
-      "description": "The monk Dōkyō rose from imperial physician to chancellor and Buddhist 'Dharma King' under Empress Shōtoku, nearly being named her successor in 769 before the Wake no Kiyomaro oracle from Usa Hachiman shrine blocked him. His near-coup terrified the court for generations.",
+      "description": "A Buddhist monk named Dokyo rose from healer to chancellor to 'Dharma King' under Empress Shotoku, and in 769 came within an oracle's verdict of being named her successor — the closest Japan ever came to having a non-imperial figure seize the throne by personal influence rather than military force.",
       "wikiSlug": "Dōkyō",
       "tier": 2,
       "tags": [
         "people",
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title Hoo (Dharma King), invented for Dokyo in 766, had no precedent in Japanese history — it positioned him as a monastic-imperial parallel to the secular emperor, neither monk nor emperor but something new. The oracle that reportedly called for his enthronement came from Usa Hachiman, one of the most politically powerful Shinto shrines in Japan, dedicated to the deified Emperor Ojin and regarded as a guardian of the imperial line — making the alleged oracle especially alarming. When Empress Shotoku died in 770, Dokyo was demoted and exiled within days; he died at a remote eastern temple, and none of his institutional gains survived him."
+        }
+      ],
+      "commonsFile": "Dōkyō.jpg"
     },
     {
       "id": "evt-nara-manyoshu",
       "label": "Manyoshu Compiled",
       "year": 759,
-      "description": "The Manyoshu ('Collection of Ten Thousand Leaves'), Japan's oldest poetry anthology, was compiled with over 4,500 poems from emperors to frontier soldiers and anonymous peasants. Written in man'yōgana (Chinese characters used phonetically), it is the foundational text of Japanese vernacular literature.",
+      "description": "Japan's oldest poetry anthology, compiled around 759, collecting 4,516 poems across the entire seventh and early eighth centuries — from reigning emperors and court nobles down to anonymous frontier soldiers, fishermen, and grieving mothers.",
       "wikiSlug": "Man%27yōshū",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "No other surviving poetry collection of comparable size, anywhere in the eighth-century world, includes commoner poets alongside emperors. The anthology's frontier-guard poems (sakimori-uta) are among its most affecting: short laments by men posted to distant Kyushu, addressed to the wives and children they were leaving behind. The whole thing was written in man'yogana, a system so cumbersome that each Chinese character was stripped of its meaning and used purely as a sound-symbol — one character per Japanese syllable, with no standardized conventions."
+        }
+      ],
+      "commonsFile": "Genryaku_Manyosyu.JPG"
     },
     {
       "id": "evt-nara-kakinomoto-hitomaro",
       "label": "Kakinomoto no Hitomaro",
       "year": 700,
-      "description": "The greatest poet of the Manyoshu, Kakinomoto no Hitomaro composed elegies on dead empresses, court occasion poems, and personal laments of such formal sophistication that he is still considered one of the greatest poets in the Japanese language.",
+      "description": "Kakinomoto no Hitomaro (active around 680–710) was the dominant poet of the late Asuka court and the towering figure of the Man'yoshu anthology — famous for formal elegies on dead empresses, passionate personal laments, and court occasion poems of exceptional technical sophistication.",
       "wikiSlug": "Kakinomoto_no_Hitomaro",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Almost nothing is certain about Hitomaro's life beyond hints in the poems themselves: he was born into the minor Kakinomoto clan in Yamato Province probably in the 650s and likely died around 709 in distant Iwami Province (modern Shimane), far from the capital. His Man'yoshu poems include an elegy for Empress Jito and laments for his own wife that are still regarded as among the most emotionally direct verses in classical Japanese. He wrote in man'yogana — Chinese characters used phonetically to represent Japanese sounds — the cumbersome but creative workaround that preceded the invention of kana script."
+        }
+      ],
+      "commonsFile": "Sanjūrokkasen-gaku_-_1_-_Kanō_Tan'yū_-_Hitomaru.jpg"
     },
     {
       "id": "evt-nara-otomo-yakamochi",
       "label": "Ōtomo no Yakamochi",
       "year": 718,
       "endYear": 785,
-      "description": "Aristocrat-poet generally credited as the principal compiler of the Manyoshu. He wrote 473 of the anthology's poems himself — the largest contribution of any single author — and his selections preserved the poetry of court women and frontier soldiers alongside emperors.",
+      "description": "Aristocrat-poet and probable principal compiler of the Manyoshu who contributed 473 poems of his own — the largest share by any single author — while deliberately preserving voices from the full social range of Nara Japan, not just the court.",
       "wikiSlug": "Ōtomo_no_Yakamochi",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yakamochi was counted among the 'Five Great Poets' of the Man'yo era and later included in Fujiwara no Kinto's celebrated Thirty-six Poetry Immortals, a medieval canon of Japan's finest waka poets. His decision to include the rough, unpolished voices of frontier guards and provincial laborers alongside formal aristocratic verse was an editorial choice, not an accident — he actively selected for breadth. He held provincial governorships and military posts throughout the Nara period, and those assignments likely gave him direct exposure to the non-court voices he chose to preserve."
+        }
+      ],
+      "commonsFile": "Sanjūrokkasen-gaku_-_5_-_Kanō_Tan'yū_-_Chūnagon_Yakamochi.jpg"
     },
     {
       "id": "evt-nara-emishi-campaigns",
       "label": "Emishi Frontier Campaigns",
       "year": 774,
       "endYear": 811,
-      "description": "Decades of Yamato military campaigns against the Emishi people of northeastern Honshu, who maintained a distinct culture and language outside imperial control. The wars exhausted the conscript army system established under the Taihō Code and produced the first hereditary military aristocracy.",
+      "description": "Decades of Yamato military campaigns against the Emishi people of northeastern Honshu — the indigenous population of what is now the Tohoku region, who had maintained their own language, culture, and military traditions outside imperial control since the Jomon era.",
       "wikiSlug": "Emishi",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The campaign of 789 was a major Yamato defeat: general Ki no Kosami led an army of roughly 50,000 men and was decisively beaten at the Subuse River by Emishi forces under chief Aterui, losing over a thousand dead. Kammu's response was to create the title Sei-i Taishogun (\"Barbarian-Subduing Great General\") — the origin of the word shogun — and appoint Sakanoue no Tamuramaro to the post. When Aterui finally surrendered in 802, Tamuramaro petitioned the court to spare him; the court refused and had him executed anyway."
+        }
+      ],
+      "commonsFile": "Reconstructed_south_gate_of_Taga_Castle_(Tagajo)_202409b.jpg"
     },
     {
       "id": "evt-nara-emperor-kammu",
       "label": "Emperor Kammu",
       "year": 781,
       "endYear": 806,
-      "description": "Reforming emperor whose mother was descended from a Baekje royal — a fact later acknowledged by the Heisei emperor in 2001. Kammu moved the capital twice, prosecuted the Emishi wars, and reorganized provincial administration to reduce Buddhist political power.",
+      "description": "The 50th emperor of Japan, Kammu ruled from 781 to 806 and oversaw the single most consequential transformation of the Nara state: moving the capital away from the politically powerful Buddhist temples, reorganizing the frontier military, and opening the Heian era.",
       "wikiSlug": "Emperor_Kammu",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kammu's mother Takano no Niigasa traced her lineage to the Baekje royal family of Korea — refugee nobility who had fled to Japan after Baekje's fall in 663. In 2001, Emperor Akihito publicly acknowledged this Korean royal ancestry, a small but diplomatically notable admission. Kammu's twenty-five-year reign is considered the peak of direct imperial executive power in pre-modern Japan — the point at which the emperor personally commanded armies and drove policy, before the Heian-era regency system handed real power to the Fujiwara."
+        }
+      ],
+      "commonsFile": "Portrait_of_Emperor_Kanmu.png"
     },
     {
       "id": "evt-nara-nagaoka-kyo",
       "label": "Nagaoka-kyo Capital",
       "year": 784,
       "endYear": 794,
-      "description": "Emperor Kammu moved the capital to Nagaoka-kyo to escape the political power of Nara's Buddhist temples. The city was abandoned after just ten years following the assassination of Kammu's chief minister Fujiwara no Tanetsugu and a series of bad omens blamed on the murdered Prince Sawara's vengeful spirit.",
+      "description": "Japan's capital for just ten years (784–794), Nagaoka-kyo was Emperor Kammu's first attempt to break the political grip of Nara's Buddhist temples by building a fresh imperial seat several miles to the north — and it ended in assassination, plague, floods, and what the court decided was a curse.",
       "wikiSlug": "Nagaoka-kyō",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Nagaoka palace ruins were excavated in the twentieth century and designated a National Historic Site in 1964. The new city was laid out on a Tang-dynasty grid at 4.3 by 5.3 kilometers, slightly larger than Heijo-kyo, positioned at the confluence of the Yodo, Katsura, and Uji rivers for better transport access. Kammu abandoned it after only nine years of actual occupation — one of the shortest-lived planned capitals in Japanese history."
+        }
+      ],
+      "commonsFile": "Daigokuden_of_Nagaoka_palace.jpg"
     },
     {
       "id": "evt-nara-prince-sawara",
       "label": "Death of Prince Sawara",
       "year": 785,
-      "description": "Emperor Kammu's brother and crown prince was implicated in the assassination of Fujiwara no Tanetsugu and exiled. He died on the journey, possibly by self-imposed starvation, and his angry spirit was blamed for plague, drought, and the death of Kammu's wife — driving the move from Nagaoka-kyo to Heian-kyō.",
+      "description": "Crown Prince Sawara, Emperor Kammu's brother, was implicated in the 785 assassination of chief minister Fujiwara no Tanetsugu and stripped of his title — then died in exile, possibly by deliberate starvation. His restless spirit was blamed for every disaster that followed at Nagaoka-kyo, becoming the supernatural reason Japan needed a third capital.",
       "wikiSlug": "Prince_Sawara",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "After Sawara's death, a cascade of misfortune hit the imperial family: plague in the new capital, floods at the construction sites, the deaths of Kammu's mother (789), wife (790), and son (792). The court interpreted all of this as Sawara's onryo (vengeful spirit) demanding redress. Kammu formally rehabilitated him posthumously as Emperor Sudo — the Sudo Tenno shrine in Nara was built to pacify him — which was itself an implicit admission that the original charges may have been politically motivated."
+        }
+      ],
+      "commonsFile": "Nara_Sudo-tenno-sha.jpg"
     },
     {
       "id": "evt-nara-heian-capital",
       "label": "Capital Moves to Heian-kyō",
       "year": 794,
-      "description": "Emperor Kammu relocated the capital from Nagaoka-kyo to Heian-kyō ('capital of peace and tranquility'), the city later known as Kyoto. It would remain the imperial capital for the next 1,074 years.",
+      "description": "In 794, Emperor Kammu moved the imperial court to Heian-kyo (\"Capital of Peace and Tranquility\") — the city we now call Kyoto — and it stayed the imperial capital for the next 1,074 years, until the Meiji Restoration moved the emperor to Tokyo in 1869.",
       "wikiSlug": "Heian-kyō",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The site was chosen partly through Chinese geomantic principles: mountains to the north to block malevolent forces, rivers framing the east and west for prosperity, open ground to the south for positive energy. The Heian-kyo street grid was laid out on a Tang-dynasty plan, and substantial portions of that original eighth-century grid survive in Kyoto's modern street layout. Emperor Saga later formally declared Heian-kyo the permanent capital — a declaration that technically still stands, as no law has ever officially designated Tokyo the capital."
+        }
+      ],
+      "commonsFile": "Daidairi_of_Heiankyo.jpg"
     },
     {
       "id": "evt-asuka-silla-unification",
       "label": "Silla Unifies Korea",
       "year": 668,
-      "description": "Five years after Baekgang, the Korean kingdom of Silla finished off Goguryeo with continued Tang assistance, then turned around and expelled the Tang armies in 676. The unified Silla state would dominate Korean diplomacy and trade with Japan for the next two centuries.",
+      "description": "By 668, Silla finished off the third Korean kingdom (Goguryeo) with Tang help, then turned around and expelled the Tang occupation forces by 676, unifying most of the Korean peninsula under a single state for the first time. The new unified Silla became Japan's primary diplomatic and trading partner for the next two centuries.",
       "wikiSlug": "Unified_Silla",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Silla-Tang war of 670–676 — fought almost immediately after their joint victory over Baekje and Goguryeo — is one of history's sharper examples of an alliance that dissolved the moment the shared enemy was gone. Silla managed to expel the Tang forces despite being the smaller and weaker partner, partly by playing on Tang's simultaneous conflicts with Tibet on its western frontier. Unified Silla's capital at Gyeongju became one of the largest cities in the medieval world."
+        }
+      ],
+      "commonsFile": "History_of_Korea-Inter-country_Age-830_CE.gif"
     },
     {
       "id": "evt-asuka-toraijin-baekje",
       "label": "Baekje Refugee Wave",
       "year": 663,
       "endYear": 700,
-      "description": "After Baekje's destruction, tens of thousands of refugees fled to Japan — including aristocrats, scholars, monks, architects, and metalworkers. They were granted lands in central Honshu and accelerated Japan's cultural development for the next generation.",
+      "description": "After the Tang-Silla destruction of Baekje in 660–663, tens of thousands of Baekje refugees — aristocrats, monks, architects, scholars, and metalworkers — fled to Japan and were granted lands and court ranks. They accelerated Japan's cultural and technical development for the next generation.",
       "wikiSlug": "Toraijin",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The term for these continental arrivals, toraijin (literally 'people who have crossed over'), replaced the older term kikajin ('naturalized people') in Japanese scholarship from the 1970s onward to better reflect that not all who came took formal Japanese citizenship. Earlier waves of toraijin had been bringing continental skills to Japan for over a century, but the Baekje collapse produced the largest and most sudden single influx — the kingdom's entire educated class arriving at once rather than in slow specialist trickles."
+        }
+      ],
+      "commonsFile": "Takamat1.jpg"
     },
     {
       "id": "evt-nara-tang-embassies",
       "label": "Tang Embassies Continue",
       "year": 717,
-      "description": "Japan's embassies to Tang China — kentōshi — operated throughout the eighth century, sending hundreds of monks, scholars, and officials on dangerous voyages to study the Tang model. The 717 embassy included Kibi no Makibi and the priest Genbō, both of whom would shape Nara intellectual life on their return.",
+      "description": "Throughout the eighth century, Japan dispatched kentoshi (embassy missions to Tang China) at roughly decade-long intervals — sending hundreds of monks, scholars, and officials on dangerous open-sea voyages to absorb Tang law, Buddhism, astronomy, art, and statecraft.",
       "wikiSlug": "Japanese_missions_to_Imperial_China",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The missions were genuinely dangerous: ships were lost, voyagers drowned, and the round trip could take years. The 717 embassy alone launched careers that would reshape Nara intellectual life — Kibi no Makibi brought back eighteen years' worth of Tang learning, and the priest Genbo returned with over 5,000 Buddhist sutra scrolls, the largest single import of Buddhist texts Japan had ever received. The kentoshi system was the primary mechanism by which Tang civilization was transferred to Japan, and it operated for over a century before being suspended in 894."
+        }
+      ],
+      "commonsFile": "Japanese_embassy_to_the_Tang_court.jpg"
     },
     {
       "id": "evt-nara-kibi-no-makibi",
       "label": "Kibi no Makibi",
       "year": 695,
       "endYear": 775,
-      "description": "Scholar-statesman who spent eighteen years in Tang China, brought back astronomy, military strategy, and Chinese instruments, and rose to become one of the highest-ranking non-Fujiwara officials of the Nara period. Traditionally credited (probably wrongly) with inventing katakana.",
+      "description": "A Japanese scholar who spent eighteen years studying in Tang China (717–735), returned with astronomy, military tactics, and musical knowledge, and rose to become one of the highest-ranking non-Fujiwara officials of his era — a rare feat in a court dominated by a single clan.",
       "wikiSlug": "Kibi_no_Makibi",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Makibi's ascent in a Fujiwara-controlled court was exceptional enough that later tradition, unable to explain his success rationally, attributed semi-supernatural abilities to him. He is traditionally — and almost certainly incorrectly — credited with inventing the katakana syllabary, a tribute to the breadth of the learning he was seen to embody. He reached the rank of udaijin (Minister of the Right), one of the two highest ministerial positions in the Japanese government, in 771."
+        }
+      ],
+      "commonsFile": "Kibino_Makibi.jpg"
     },
     {
       "id": "evt-nara-abe-no-nakamaro",
       "label": "Abe no Nakamaro in China",
       "year": 717,
       "endYear": 770,
-      "description": "Sent to Tang China at sixteen on a 717 embassy, Abe no Nakamaro passed the imperial examinations, became a high official under Emperor Xuanzong, befriended the poets Li Bai and Wang Wei, and spent his life in China — never managing to return home alive despite multiple attempts.",
+      "description": "A young Japanese official sent to Tang China in 717 who never came home: Abe no Nakamaro passed the imperial civil service examinations (an extraordinary achievement for a foreigner), became a Tang court official, and befriended the poets Li Bai and Wang Wei — spending his entire life in China and dying in Chang'an in 770.",
       "wikiSlug": "Abe_no_Nakamaro",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Li Bai wrote a poem mourning Nakamaro after a false report of his death reached the Chinese capital — one of the few cases where a named Japanese figure appears in the surviving Tang poetic corpus. Nakamaro's Chinese name was Chao Heng, and he eventually reached the position of Tang duhu (governor-general) of Annan, a senior regional post, demonstrating how completely he had integrated into Tang officialdom. He tried at least once to return to Japan and was turned back by storms; his poem looking east toward Mount Mikasa across the sea is one of the most famous verses of the entire kentoshi era."
+        }
+      ],
+      "commonsFile": "Abe-no-nakamaro.jpg"
     },
     {
       "id": "evt-asuka-haku-ho-art",
       "label": "Hakuho Art Period",
       "year": 645,
       "endYear": 710,
-      "description": "The artistic moment between the Asuka and Nara periods. Hakuho-style Buddhist sculpture (such as the Yakushi-ji bronze triad) shows fuller, more lifelike human forms than the angular Asuka style — direct influence from Tang and Korean Unified Silla art.",
+      "description": "The Hakuho period (645–710) is the name art historians gave to the late Asuka decades — a moment when Japanese Buddhist sculpture shifted from angular, Korean-influenced figures to fuller, more naturalistic forms reflecting direct Tang Chinese influence.",
       "wikiSlug": "Hakuhō_period",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The shift is visible in posture as well as proportion: Hakuho figures have relaxed stances and robes that suggest actual fabric weight, replacing the flat, abstract drapery of earlier Asuka work. The defining masterpiece is the Yakushi-ji bronze triad — the Medicine Buddha flanked by two bodhisattvas — completed in the late seventh century with detailed jewelry and lifelike poses that were unprecedented in Japanese sculpture. The change reflects a broader pattern: Japanese artists were, for the first time, importing a new Tang style within a generation of its development in China rather than a generation behind."
+        }
+      ],
+      "commonsFile": "Yakushiji-MF007-0069.jpg"
     },
     {
       "id": "evt-asuka-yakushi-ji",
       "label": "Yakushi-ji Founded",
       "year": 680,
-      "description": "Emperor Tenmu founded Yakushi-ji ('Medicine Buddha temple') in 680, vowing to build it if his wife (the future Empress Jitō) recovered from illness. She did. The temple was relocated to Nara in 718; its East Pagoda is the only original structure to survive.",
+      "description": "Emperor Tenmu founded Yakushi-ji (the 'Medicine Buddha temple') in 680 after vowing to build it if his gravely ill wife — the future Empress Jito — recovered. She did, and the temple became one of the great Buddhist monuments of the Asuka-Hakuho era.",
       "wikiSlug": "Yakushi-ji",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple was later relocated from its original Asuka-basin site to Nara in 718, where it still stands as a UNESCO World Heritage Site — but of all its original structures, only the East Pagoda survives in its ancient form. Yakushi-ji serves as the headquarters of the Hossō school of Japanese Buddhism, which emphasizes the philosophical study of consciousness and was among the most influential doctrinal traditions imported from Tang China. The bronze Yakushi Triad inside — the Medicine Buddha flanked by two attending bodhisattvas — is considered the definitive masterwork of the Hakuho sculptural style."
+        }
+      ],
+      "commonsFile": "Yakushiji_Nara03s3s4350.jpg"
     },
     {
       "id": "evt-nara-kofuku-ji",
       "label": "Kōfuku-ji Founded at Nara",
       "year": 710,
-      "description": "Fujiwara no Fuhito relocated his clan temple to Heijō-kyō in 710, where it became Kōfuku-ji — the religious headquarters of the Fujiwara clan. The temple's monk-soldiers would become a major political force in later centuries.",
+      "description": "Kōfuku-ji ('Temple of Flourishing Fortune') was the Fujiwara clan temple, moved from Asuka to prime land in eastern Heijō-kyō in 710. As the religious headquarters of the most powerful aristocratic family in Japan, it became one of the great institutional power centers of the next several centuries.",
       "wikiSlug": "Kōfuku-ji",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple is the national headquarters of the East Asian Yogācāra school of Buddhism and was once counted among the 'Seven Great Temples of Nanto' (the southern capital, i.e. Nara). It is part of the Historic Monuments of Ancient Nara UNESCO World Heritage Site. Its warrior-monks (sōhei) would become an active political force in the late Heian period, marching on the capital to press religious and clan grievances."
+        }
+      ],
+      "commonsFile": "Kofukuji12st5s3200.jpg"
     },
     {
       "id": "evt-nara-toshodai-ji",
       "label": "Tōshōdai-ji Founded",
       "year": 759,
-      "description": "Ganjin founded Tōshōdai-ji as the headquarters of the Ritsu school in Nara. The Kondō (main hall) is the finest surviving example of Tang-influenced architecture in Japan.",
+      "description": "Founded by Ganjin in 759 as the headquarters of the Ritsu (monastic discipline) school of Buddhism, Tōshōdai-ji's Kondō (Golden Hall) is the finest surviving example of Tang-dynasty temple architecture anywhere — because almost no original Tang wooden buildings remain in China itself.",
       "wikiSlug": "Tōshōdai-ji",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Kondō's distinctive features — deep overhanging eaves, wide proportions, simple bracketing, and unpainted natural-wood finish — are characteristic of mid-Tang temple construction; the few comparable surviving Tang buildings in China are in remote western provinces. The temple is listed as a UNESCO World Heritage Site as one of the Historic Monuments of Ancient Nara. Ganjin's lacquer portrait sculpture, shown to the public only a few days per year, remains the temple's most prized possession."
+        }
+      ],
+      "commonsFile": "Toshodaiji-GoldenHall(NT).jpg"
     },
     {
       "id": "evt-nara-fujiwara-no-nakamaro",
       "label": "Fujiwara no Nakamaro Rebellion",
       "year": 764,
-      "description": "Chancellor Fujiwara no Nakamaro launched a rebellion against the retired Empress Kōken when she replaced him with the monk Dōkyō. Defeated and beheaded within days, his fall paved the way for Kōken's second reign as Empress Shōtoku and the Dōkyō ascendancy.",
+      "description": "A rapid, total military collapse: Chancellor Fujiwara no Nakamaro raised forces against the retired Empress Koken in 764, was outmaneuvered within weeks, and was beheaded along with most of his senior allies — clearing the way for Koken's return to the throne as Empress Shotoku.",
       "wikiSlug": "Fujiwara_no_Nakamaro_Rebellion",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The rebellion is also called the Emi Rebellion, from Nakamaro's honorary name Emi no Oshikatsu. He had been the dominant political force at court for years, effectively running Japan through the puppet Emperor Junnin; his attempt to crush Dokyo's influence was a last-ditch effort to restore Fujiwara dominance before the monk's position became unassailable. His defeat was so swift and complete that it served as a warning to every future Fujiwara faction: brute military action against a sitting or retired empress was not a reliable path to power."
+        }
+      ],
+      "commonsFile": "Fujiwara_no_Nakamaro_Rebellion_Map.png"
     },
     {
       "id": "evt-nara-hyakumanto-darani",
       "label": "Hyakumantō Darani",
       "year": 770,
-      "description": "Empress Shōtoku commissioned one million miniature wooden pagodas, each containing a printed Buddhist dharani charm — among the world's earliest surviving examples of woodblock printing, predating the Diamond Sutra of 868 by nearly a century.",
+      "description": "A staggering state printing project: Empress Shotoku commissioned one million miniature wooden pagodas, each containing a printed Buddhist prayer scroll, completed around 770 — producing what are among the world's earliest substantially surviving examples of woodblock printing.",
       "wikiSlug": "Hyakumantō_Darani",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dharani prints predate the famous Diamond Sutra of 868 (long considered the oldest surviving printed book) by nearly a century. Roughly 50,000 of the original million pagodas still survive, the largest concentration at Horyu-ji temple, which received a tenth of the original distribution. The project was commissioned in the immediate aftermath of the Nakamaro rebellion's suppression in 764 — widely interpreted as an act of spiritual propitiation, a massive Buddhist merit-making gesture by an empress wrestling with the violence she had authorized."
+        }
+      ],
+      "commonsFile": "Hyakumantō_Darani_Scrolls.jpg"
     }
   ]
 }
