@@ -174,7 +174,13 @@ else if (phase === 'finish') {
   // gates (scoped); capture pass/fail from the corpus-aware linters' NEW counts
   let g14 = false, g15NewThin = null, fixLinksClean = false
   try { const o = run('npx', ['tsx', 'scripts/lint-event-cards.ts', tl]); g14 = new RegExp(`^${tl}: \\d+/\\d+ events carry the 2-part card · ✓ full`, 'm').test(o); const mm = o.match(/(\d+) NEW gap/); if (mm) g14 = g14 && mm[1] === '0' } catch (e) { process.stderr.write(String(e) + '\n') }
-  try { const o = run('npx', ['tsx', 'scripts/lint-event-photos.ts', tl]); const mm = o.match(/(\d+) NEW thin/); g15NewThin = mm ? +mm[1] : null } catch (e) { process.stderr.write(String(e) + '\n') }
+  // g15 = THIS civ's new-thin count, not the corpus total. lint-event-photos prints one
+  // `  ✗ <tl> ch<N>: …` detail line per non-grandfathered thin chapter; count only this
+  // civ's. (The old `/(\d+) NEW thin/` matched the CORPUS summary, so a single thin chapter
+  // ANYWHERE — e.g. legacy ancient-greece ch3 at 67% — falsely blocked every civ's commit.
+  // Fixed 2026-06-03. g14's `NEW gap` AND-condition above has the same latent shape but is
+  // gated first by this civ's own `✓ full` line, so it has not bitten.)
+  try { const o = run('npx', ['tsx', 'scripts/lint-event-photos.ts', tl]); g15NewThin = (o.match(new RegExp(String.raw`(^|\n)\s*✗ ${tl} ch`, 'g')) || []).length } catch (e) { process.stderr.write(String(e) + '\n') }
   try { const o = run(node, ['scripts/fix-links.mjs', `--tl=${tl}`, '--strict']); fixLinksClean = /clean \(no new/.test(o) } catch (e) { process.stderr.write(String(e) + '\n') }
   // Stage the commit message here (we have all the numbers) so `commit` can use git -F
   // and we never have to thread a multi-line message through the agent→bash boundary.

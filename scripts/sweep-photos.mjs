@@ -45,7 +45,7 @@ const opt = (name, def) => { const i = argv.indexOf(`--${name}`); return i >= 0 
 const flag = name => argv.includes(`--${name}`)
 const OUT_DIR = opt('out', `/tmp/${tl}-out`)
 const CACHE_DIR = join(ROOT, opt('cache', '.image-cache'))
-const DELAY_MS = Number(opt('delay', 1200))
+const DELAY_MS = Number(opt('delay', 500))  // was 1200 (conservative, old parallel fan-out). Stepped 1200→700 (heian-japan held clean at 132 fresh downloads, 0 throttle) →500 on 2026-06-03. Single serial CDN stream + compliant UA. Watch 429s; revert up if the circuit-breaker trips.
 const WIDTH = Number(opt('width', 600))
 const MAX_PER_EVENT = Number(opt('max', 5))
 const MIN_CANDIDATES = Number(opt('min', 2))  // events below this get a Commons-search augment
