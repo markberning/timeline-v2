@@ -425,3 +425,8 @@
 .war-skin .p-themeswitch button { width: 30px; height: 26px; border-radius: 18px; display: flex; align-items: center; justify-content: center; color: var(--muted); }
 .war-skin .p-themeswitch button.on { background: var(--paper); color: var(--ink); box-shadow: 0 1px 2px rgba(0, 0, 0, .15); }
 .dark .war-skin .p-themeswitch button.on { background: var(--paper-2); }
+
+/* scaffold helpers — unbuilt rows on a war still being authored (e.g. the French
+   and Indian home): a dimmed, non-interactive row + a small "Soon" pill */
+.war-skin .fi-dim { opacity: .62; cursor: default; }
+.war-skin .fi-soon { display: inline-flex; align-items: center; font-family: var(--sans); font-size: 8.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); border: 1px solid color-mix(in srgb, var(--ink) 22%, transparent); border-radius: 999px; padding: 1px 6px; }
