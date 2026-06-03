@@ -8,9 +8,10 @@
  * scraping logs.
  *
  * Phases (run in order; AI work happens between them):
- *   prep   <tl>            sweep-bundle → emits the chapter list to fan out card+finder agents
- *     ↳ (AI) card agents write /tmp/<tl>-out/chN.json ; finder agents write /tmp/<tl>-gapfill*.json
- *   gather <tl>            merge gapfill candidates into the card outputs, then run the ONE
+ *   prep   <tl>            sweep-bundle → emits the chapter list to fan out per-chapter author agents
+ *     ↳ (AI) one author agent per chapter writes /tmp/<tl>-out/chN.json — both the 2-part
+ *            cards AND each event's born-verified photoCandidates inline (no separate finder)
+ *   gather <tl>            merge any gap-fill candidates into the card outputs, then run the ONE
  *                          serial Wikimedia gatherer UNDER A GLOBAL LOCK (so overlapping civs
  *                          never touch the rate-limited host at the same time). Emits manifest stats.
  *     ↳ (AI) vision pick agent writes /tmp/<tl>-photos/picks.json (+ optional repick*.json)

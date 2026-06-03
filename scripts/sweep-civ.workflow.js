@@ -45,26 +45,21 @@ log(`${tl}: ${prep.chapters.length} chapters, ${prep.totalEvents} events`)
 
 phase('Author')
 const VOICE = `VOICE: informal popular-history (conversational, vivid, never academic); inline-define terms on first use; miles before km (km in parens); parentheses for definitions not em-dashes; vary uncertainty language; reader has zero prior knowledge.`
-const cardThunks = prep.chapters.map(ch => () => agent(
-  `Event-card sweep, civ \`${tl}\`, Chapter ${ch.chapter}${ch.title ? ` (${ch.title})` : ''}. Read \`/tmp/${tl}-bundles/ch${ch.chapter}.json\` (\`{tl,chapter,chapterTitle,narrative,events:[{id,label,year,endYear,description,wikiSlug,commonsFile}]}\`).\n\n`
-  + `For EVERY event write a 2-part card:\n1. \`description\` — tight house-voice "what this is", 1-2 sentences, replaces the current description.\n2. \`exploreFurther\` — a HARD CAP of 2-4 sentences (NEVER 5+) of interesting BORN-VERIFIED facts the narrative does NOT give. Be disciplined: pick the 2-4 most surprising facts and STOP - do not list everything you find, do not pad. Tight beats exhaustive. Web-search to confirm every date/name/number. NO hallucination - a missing detail beats a wrong one. Don't repeat description/narrative.\n\n`
-  + `${VOICE}\n\nWrite \`/tmp/${tl}-out/ch${ch.chapter}.json\`: \`{"chapter":${ch.chapter},"cards":[{"eventId":"<id>","description":"...","exploreFurther":"...","photoCandidates":[]}]}\`. One card per event, exact ids, none skipped. Reply with the count and any uncertainty.`,
-  { label: `cards:ch${ch.chapter}`, phase: 'Author', agentType: 'general-purpose', model: MODEL },
+// ONE per-chapter agent does BOTH jobs that used to be split across separate card +
+// finder agents: it writes each event's 2-part card AND names that event's born-verified
+// photo candidates inline (the card output's photoCandidates field, which sweep-photos
+// reads directly). Merging halves the Author-phase agent count and — because the agent
+// already opens each event's wiki page to fact-check the card — reuses that page to grab
+// the lead image instead of a second agent re-fetching it. Same parallel barrier before
+// gather (cards + finds both blocked it before).
+const authorThunks = prep.chapters.map(ch => () => agent(
+  `Event sweep, civ \`${tl}\`, Chapter ${ch.chapter}${ch.title ? ` (${ch.title})` : ''}. Read \`/tmp/${tl}-bundles/ch${ch.chapter}.json\` (\`{tl,chapter,chapterTitle,narrative,events:[{id,label,year,endYear,description,wikiSlug,commonsFile}]}\`). For EVERY event do BOTH of the following.\n\n`
+  + `PART A — the 2-part card:\n1. \`description\` — tight house-voice "what this is", 1-2 sentences, replaces the current description.\n2. \`exploreFurther\` — a HARD CAP of 2-4 sentences (NEVER 5+) of interesting BORN-VERIFIED facts the narrative does NOT give. Be disciplined: pick the 2-4 most surprising facts and STOP - do not list everything you find, do not pad. Tight beats exhaustive. Web-search to confirm every date/name/number. NO hallucination - a missing detail beats a wrong one. Don't repeat description/narrative.\n\n`
+  + `PART B — photo candidates: while you have each event's wiki page open to fact-check, also grab 1-3 REAL, VERIFIED Wikimedia Commons image filenames that genuinely depict its subject (good candidates here mean the sweep clears its 70% photo floor on the FIRST pass, no slow gap-fill round). VERIFY each exists: read the wiki page's real lead-image filename, and/or confirm \`https://commons.wikimedia.org/wiki/File:<name>\` resolves to the right subject (or search \`https://commons.wikimedia.org/w/index.php?search=<terms>&title=Special:MediaSearch&type=image\`). Do NOT invent or guess filenames - only confirmed-real files showing the right thing. Prefer the iconic artifact/site/person/manuscript; a representative artifact/site/map is fine for portraitless people. OMIT genuinely ABSTRACT events (trade *networks*, "decline/collapse" processes, oral traditions, clan systems, ceremonies with no photo) - leave their photoCandidates empty (honest-reject; never force).\n\n`
+  + `${VOICE}\n\nWrite \`/tmp/${tl}-out/ch${ch.chapter}.json\`: \`{"chapter":${ch.chapter},"cards":[{"eventId":"<id>","description":"...","exploreFurther":"...","photoCandidates":["File:Foo.jpg", ...]}]}\` (best candidate first; \`[]\` for abstract events). One card per event, exact ids, none skipped. Reply with the count, how many got photo candidates, and any uncertainty.`,
+  { label: `author:ch${ch.chapter}`, phase: 'Author', agentType: 'general-purpose', model: MODEL },
 ))
-const allEvents = prep.chapters.flatMap(c => c.events)
-const seenIds = new Set(); const uniqEvents = allEvents.filter(e => !seenIds.has(e.id) && seenIds.add(e.id))
-const FINDER_SIZE = 14
-const finderGroups = []
-for (let i = 0; i < uniqEvents.length; i += FINDER_SIZE) finderGroups.push(uniqEvents.slice(i, i + FINDER_SIZE))
-const finderThunks = finderGroups.map((grp, gi) => () => agent(
-  `Photo-finder for the \`${tl}\` event sweep (group ${gi + 1}/${finderGroups.length}). This runs BEFORE image download - good candidates here mean the sweep clears its 70% photo floor on the FIRST pass.\n\n`
-  + `For each event below, find 1-3 REAL, VERIFIED Wikimedia Commons image filenames that genuinely depict its subject. VERIFY each exists: open the event's wiki slug page (\`https://en.wikipedia.org/wiki/<slug>\`) to read its real lead-image filename, and/or confirm \`https://commons.wikimedia.org/wiki/File:<name>\` resolves to a real image of the right subject (or search \`https://commons.wikimedia.org/w/index.php?search=<terms>&title=Special:MediaSearch&type=image\`). Do NOT invent or guess filenames - only return confirmed-real files showing the right thing.\n\n`
-  + `RULES: one file per event (distinctness - prefer the iconic artifact/site/person/manuscript). A representative artifact/site/map is fine for portraitless people. OMIT genuinely ABSTRACT events (trade *networks*, "decline/collapse" processes, oral traditions, clan systems, market "shadows", ceremonies with no photo) - those honest-reject; never force.\n\n`
-  + `EVENTS (eventId | label | wikiSlug):\n` + grp.map(e => `${e.id} | ${e.label} | ${e.wikiSlug || '(none)'}`).join('\n')
-  + `\n\nOUTPUT: write \`/tmp/${tl}-gapfill-g${gi + 1}.json\` = \`{"<eventId>":["File:Foo.jpg", ...], ...}\` (only events you filled; best-candidate first). Reply with which you filled, which you omitted (why), any borderline file.`,
-  { label: `finder:g${gi + 1}`, phase: 'Author', agentType: 'general-purpose', model: MODEL },
-))
-await parallel([...cardThunks, ...finderThunks])
+await parallel(authorThunks)
 
 phase('Gather')
 const gather = await runPhase(`gather:${tl}`, `node scripts/sweep-civ.mjs gather ${tl}`, GATHER_SCHEMA, 600000)
