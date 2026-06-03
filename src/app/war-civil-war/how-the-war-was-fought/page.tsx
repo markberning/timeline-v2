@@ -24,7 +24,7 @@ export default function HowTheWarWasFoughtPage() {
       <div className="p-mast">
         <div className="p-eyebrow">The Civil War story</div>
         <h1 className="p-mast-title p-serif">How the War<br />Happened</h1>
-        <p className="p-stand">The battle pages tell you what happened on each field. The theme pages tell you why the war was fought. This is the connective tissue between them — the military story as one through-line: how the war was planned, how each win and loss bent the strategy, how supply and casualties were borne, and how Lincoln and Davis learned to run a war. Each chapter links down into the battles it sets in motion.</p>
+        <p className="p-stand">Read these five chapters and you have read the war. They carry the whole thing, from the first shot at Fort Sumter to the surrender at Appomattox: how two unready nations raised armies, how each battle bent the strategy, how casualties and broken supply lines wore the South down, and how a war to save the Union became a war to end slavery. This is the spine the rest of the section hangs on. Every chapter opens a door into the battles it set in motion and the upheavals off the field that drove them, so you can read straight through as one story or follow any thread as far down as it goes.</p>
       </div>
       <div className="p-heroband">
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -33,7 +33,7 @@ export default function HowTheWarWasFoughtPage() {
       <div className="p-credit">“Battle of Chattanooga” · Thure de Thulstrup (L. Prang &amp; Co.) · 1880 · public domain</div>
 
       <div className="p-page" style={{ paddingBottom: 12 }}>
-        <p className="p-lead">Five chapters, 1861 to 1865 — the war as its commanders saw it unfold.</p>
+        <p className="p-lead">The war as its commanders saw it, 1861 to 1865.</p>
         {spine.map((c, i) => {
           const yr = (c.date.match(/\d{4}/) || [''])[0]
           return c.href
