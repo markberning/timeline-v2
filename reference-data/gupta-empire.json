@@ -49,206 +49,328 @@
       "id": "evt-sri-gupta",
       "label": "Sri Gupta Founds Dynasty",
       "year": 331.5,
-      "description": "Sri Gupta established the Gupta dynasty as a small kingdom in Magadha, laying the foundation for what would become India's golden age.",
+      "description": "Sri Gupta, the dynasty's shadowy founder, probably ruled a small patch of Magadha around 240–280 CE — we know he existed mainly because later inscriptions name him as the first in the family line, though we have no coins, no inscriptions from his reign, and no idea which town he actually controlled.",
       "wikiSlug": "Sri_Gupta",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 7th-century Chinese Buddhist monk Yijing recorded that a king named \"Shìlìjíduō\" — scholars' best candidate for Sri Gupta — built a temple for Chinese Buddhist pilgrims somewhere in eastern India, possibly in Bengal or eastern Uttar Pradesh. If the identification holds, Sri Gupta was cultivating Buddhist connections and international pilgrim traffic even at the dynasty's obscure beginnings. His very name, \"Sri Gupta,\" reads more like an honorific placeholder (\"the venerable Mr. Gupta\") than a personal name."
+        }
+      ]
     },
     {
       "id": "evt-chandragupta-i",
       "label": "Chandragupta I",
       "year": 320,
       "endYear": 335,
-      "description": "Chandragupta I expanded the Gupta kingdom through marriage to the Lichchhavi princess Kumaradevi, adopting the title Maharajadhiraja (King of Kings).",
+      "description": "Chandragupta I came to power around 320 CE and transformed the Guptas from a minor Magadha family into a real kingdom, claiming the title Maharajadhiraja (\"King of Kings\") and founding the Gupta era calendar — a declaration that his accession was the kind of event time itself should count from.",
       "wikiSlug": "Chandragupta_I",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His marriage to Lichchhavi princess Kumaradevi was so central to his legitimacy that both names appeared on his gold coins — a joint portrait of king and queen, unprecedented for any Indian dynasty. The reverse legend read simply \"Lichchhavayah\" (the Lichchhavis), advertising her family's ancient pedigree as loudly as his own. The Lichchhavi confederation was old enough to have been a contemporary of the Buddha, making Kumaradevi's lineage far older than the Guptas'."
+        }
+      ],
+      "commonsFile": "Queen_Kumaradevi_and_King_Chandragupta_I_on_a_coin.jpg"
     },
     {
       "id": "evt-samudragupta",
       "label": "Samudragupta",
       "year": 335,
       "endYear": 375,
-      "description": "Samudragupta conquered much of the Indian subcontinent through brilliant military campaigns, earning comparison to Alexander and described on the Allahabad Pillar.",
+      "description": "Samudragupta (reigned c. 335–375 CE) spent his reign on military campaigns that swept across the subcontinent — subjugating dozens of kings, accepting tribute from as far as Sri Lanka and Southeast Asia — and got himself immortalized on a stone pillar at Allahabad that reads like the world's longest victory brag.",
       "wikiSlug": "Samudragupta",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Allahabad Pillar inscription, composed by his court poet Harishena, lists by name twelve kings of the south he defeated and then released, nine kings of the north he \"uprooted,\" and nine frontier states that submitted voluntarily — a distinction the inscription carefully preserves. The same pillar also carries an edict of the emperor Ashoka, written five centuries earlier; Samudragupta had it re-used, a pointed claim of continuity with the Maurya legacy. His court poet also praised him as a skilled veena player and poet in the same breath as listing his military conquests."
+        }
+      ],
+      "commonsFile": "SamudraguptaCoin.png"
     },
     {
       "id": "evt-samudragupta-campaigns",
       "label": "Samudragupta's Southern Campaign",
       "year": 344,
-      "description": "Samudragupta led a sweeping military campaign through southern India, defeating twelve kings and extending Gupta influence to the Deccan.",
+      "description": "Samudragupta marched a long arc through the eastern Deccan and peninsular south, defeating twelve regional kings — then, in a striking reversal, sent every one of them home to keep ruling as tribute-paying subordinates. The Sanskrit policy phrase was graha-moksha-anugraha: capture, release, and grace.",
       "wikiSlug": "Samudragupta#Military_campaigns",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This southern sweep may have extended all the way to the Pallava kingdom near modern Chennai, roughly 1,500 miles from the Gupta heartland in Magadha. The Guptas restored the defeated kings not out of mercy but out of cost-consciousness: governing a vast peninsula the Maurya way, with direct bureaucratic administration, had helped bankrupt the Maurya Empire within fifty years of Ashoka's death. The Allahabad inscription also records that kings as far away as Sri Lanka sent tribute delegations without ever being militarily confronted, suggesting the campaign's gravitational pull extended well beyond the battles themselves."
+        }
+      ]
     },
     {
       "id": "evt-chandragupta-ii",
       "label": "Chandragupta II (Vikramaditya)",
       "year": 380,
       "endYear": 415,
-      "description": "Chandragupta II presided over the peak of the Gupta golden age, defeating the Western Satraps and patronizing a brilliant court of scholars and artists.",
+      "description": "Chandragupta II (ruled c. 375–415 CE), also called Vikramaditya ('Sun of Valor' — a regnal title, not a personal name), brought the Gupta Empire to its territorial and cultural peak: he crushed the western Saka kingdom, locked the southern frontier through diplomatic marriage, and sponsored the court that later generations remembered as India's golden age.",
       "wikiSlug": "Chandragupta_II",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title Vikramaditya proved so magnetic that at least eight later Indian kings adopted it over the following thousand years, each borrowing its luster. Inscriptions confirm Chandragupta II married his elder brother's widow Dhruvadevi after seizing the throne — a form of succession marriage (levirate remarriage) attested in Gupta epigraphy, not just in later plays. His name also appears on the Delhi Iron Pillar's six-line Sanskrit inscription, which calls him a conqueror of the Vahlikas (likely the Bactrians of the northwest) and a devoted follower of Vishnu."
+        }
+      ]
     },
     {
       "id": "evt-defeat-western-satraps",
       "label": "Defeat of Western Satraps",
       "year": 395,
-      "description": "Chandragupta II conquered the Western Kshatrapas of Gujarat, gaining access to lucrative western sea ports and expanding the empire to the Arabian Sea.",
+      "description": "Chandragupta II dismantled the Western Kshatrapas — a Saka (Indo-Scythian) dynasty that had ruled Gujarat, Malwa, and the Arabian Sea ports for nearly four centuries — through a decade-long campaign that ended around 409–410 CE, absorbing the richest trade revenue stream in north India in one stroke.",
       "wikiSlug": "Western_Satraps#Decline",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The last Kshatrapa king, Rudrasimha III, is dated by coin chronology: his coinage abruptly stops at year 332 of the Saka era (= 410 CE), then Gupta gold coins begin circulating through Gujarat. Chandragupta II then issued new silver coins that deliberately copied the Kshatrapa format — same size, same weight, portrait obverse — so the currency transition would be invisible to ordinary traders; only the legend changed, from Greek-derived Kshatrapa script to Sanskrit reading 'Sri Vikramaditya.' It was monetary conquest disguised as monetary continuity."
+        }
+      ]
     },
     {
       "id": "evt-faxian-visit",
       "label": "Faxian Visits India",
       "year": 405,
-      "description": "Chinese Buddhist monk Faxian traveled through Gupta India for six years, describing a prosperous and well-governed society with flourishing Buddhism.",
+      "description": "Faxian (FAH-shyahn), a Chinese Buddhist monk already around 60 years old, set out from northern China in 399 CE on foot to travel to India and retrieve original Sanskrit Buddhist scriptures — the first major Chinese pilgrim to make the full overland journey to the faith's homeland.",
       "wikiSlug": "Faxian",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Faxian's route took him through the Taklamakan Desert, over the Hindu Kush, into Gupta territory through the northwest, then south to Sri Lanka, and home by sea — a journey of roughly 13 years covering thousands of miles mostly on foot. His account describes the Gupta Empire as a place where travelers needed no passports on major roads and punishment for crime was usually a fine rather than corporal punishment — a portrait of ordered, prosperous governance that aligns with other surviving sources. He returned to China in 412 CE carrying Buddhist scriptures, images, and relics, and spent his remaining years translating Sanskrit texts into Chinese at a monastery in what is now Nanjing."
+        }
+      ],
+      "commonsFile": "Faxian_statue_in_Maritime_Experiential_Museum_&_Aquarium_Singapore.jpg"
     },
     {
       "id": "evt-kumaragupta-i",
       "label": "Kumaragupta I",
       "year": 415,
       "endYear": 455,
-      "description": "Kumaragupta I maintained the empire at its zenith for four decades and founded the great Buddhist university at Nalanda.",
+      "description": "Kumaragupta I ruled the Gupta Empire for forty years (415–455 CE), one of the longest reigns in the dynasty's history — a stable, artistically rich plateau that looked like continued golden-age health but was quietly accumulating financial pressure underneath.",
       "wikiSlug": "Kumaragupta_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His gold dinaras (coins) began showing a slight drop in fineness compared to his father Chandragupta II's — an early warning sign that the imperial treasury was under strain even during the peaceful years. He performed an ashvamedha (the ancient Vedic horse sacrifice symbolizing universal kingship), echoing the same claim his grandfather Samudragupta had made a generation before. He is also credited with initiating royal patronage of Nalanda, which would become the ancient world's most famous Buddhist university, drawing students from across Asia for centuries."
+        }
+      ],
+      "commonsFile": "KumaraguptaFightingLion.jpg"
     },
     {
       "id": "evt-nalanda-university",
       "label": "Nalanda University Founded",
       "year": 427,
-      "description": "The great Buddhist monastery and university at Nalanda was established under Gupta patronage, becoming the ancient world's foremost center of higher learning.",
+      "description": "Nalanda, founded around 427 CE near Pataliputra under Gupta patronage, grew into the ancient world's largest residential center of advanced learning — a Buddhist monastic university that operated for nearly a thousand years and drew students from across Asia.",
       "wikiSlug": "Nalanda",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its 7th-century peak Nalanda housed roughly 10,000 students and 2,000 teachers, with admission reportedly so selective that only about one in five candidates passed the entrance gatekeepers. Its library complex occupied three multi-story buildings holding hundreds of thousands of palm-leaf manuscripts; when it was burned by Turkic raiders around 1193 CE, witnesses reported the fires burning for months. The first comparable Western universities — Bologna (1088), Paris (around 1150), Oxford (by 1167) — were founded 600 years after Nalanda, making it the older of the two great medieval university systems by half a millennium."
+        }
+      ],
+      "commonsFile": "Temple_No.-_3,_Nalanda_Archaeological_Site.jpg"
     },
     {
       "id": "evt-skandagupta",
       "label": "Skandagupta",
       "year": 455,
       "endYear": 467,
-      "description": "Skandagupta repelled devastating Huna (Hunnic) invasions, saving the empire temporarily but exhausting its military and financial resources.",
+      "description": "Skandagupta (ruled 455–467 CE) fought his way to the Gupta throne after his father Kumaragupta died — his succession was contested, possibly because he wasn't the designated heir — and then immediately repelled the first major Hephthalite invasion, earning the title of the dynasty's last great emperor.",
       "wikiSlug": "Skandagupta",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His Bhitari pillar inscription describes the battle in vivid terms: \"from whom the earth shook when their armies clashed; whose battle had to be fought hand to hand; in which the splash of blood fell like rain.\" The victory came at a steep price: his gold dinaras dropped from the 95%+ purity of Chandragupta II's coins to roughly 73–76% gold, and the coin blanks shrank visibly — numismatists can track the treasury's decline coin by coin across his twelve-year reign. He died around 467 CE, leaving no son to succeed him."
+        }
+      ],
+      "commonsFile": "Skandagupta_Circa_455-480_CE.jpg"
     },
     {
       "id": "evt-huna-invasions",
       "label": "Huna Invasions",
       "year": 455,
-      "description": "The Alchon Huns (Hunas) launched major invasions into Gupta territory, beginning a series of devastating raids that would fatally weaken the empire.",
+      "description": "The Alchon Huns — called \"Huna\" in Sanskrit sources and \"Hephthalites\" or \"White Huns\" in Western history — were a Central Asian nomadic confederation that burst into northwestern India around 455 CE, setting off the wars that would ultimately destroy the Gupta Empire.",
       "wikiSlug": "Alchon_Huns",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Alchons first appeared in Paropamisus (modern northeastern Afghanistan) before sweeping southeast through the Punjab into central India, reaching as far as Eran and Kausambi. Their invasion also wiped out the Kidarite Huns, a rival nomadic group that had preceded them in the region by about a century. Historians today debate their ethnic origins — the surviving Chinese, Sanskrit, Sasanian, and Greek sources don't agree on whether they were Iranian-speaking, Mongolic, Turkic, or mixed lineage."
+        }
+      ],
+      "commonsFile": "Alchon_Khingila_portrait.jpg"
     },
     {
       "id": "evt-aryabhata",
       "label": "Aryabhata's Aryabhatiya",
       "year": 499,
-      "description": "Mathematician Aryabhata wrote the Aryabhatiya, introducing the place-value decimal system, approximating pi, and proposing Earth's axial rotation.",
+      "description": "In 499 CE, the 23-year-old mathematician Aryabhata completed the Aryabhatiya — a 121-verse book that calculated pi to four decimal places, measured the sidereal year to within 3.3 minutes, explained eclipses geometrically, and proposed that Earth rotates on its own axis.",
       "wikiSlug": "Aryabhata",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Aryabhatiya reads like encrypted lecture notes — 121 compressed Sanskrit verses with no prose explanation, written as if Aryabhata assumed the reader already attended the course. Centuries of Indian and Arab commentators had to write the explanatory texts that were never in the original. Aryabhata is one of the very few ancient mathematicians to embed his own birth year (476 CE) directly in his writing, which is how historians know he finished this book at exactly 23 years old."
+        }
+      ],
+      "commonsFile": "Aryabhatta_of_Bihar.jpg"
     },
     {
       "id": "evt-concept-of-zero",
       "label": "Concept of Zero Develops",
       "year": 458,
-      "description": "Indian mathematicians during the Gupta period developed the concept of zero as a number, a revolutionary idea that would transform mathematics worldwide.",
+      "description": "During the Gupta period, Indian mathematicians developed zero in two distinct senses: first as a positional placeholder (the \"0\" in 304 that keeps the tens column empty), then as an actual number with its own arithmetic rules — something you can add, subtract, and multiply with.",
       "wikiSlug": "0#History",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two zeroes arrived separately, about 130 years apart. Zero as placeholder appears in Indian texts by around 458 CE; zero as a number — with rules like \"any number plus zero equals that number\" — was first fully articulated by Brahmagupta in his 628 CE Brahmasphutasiddhanta. Brahmagupta also tried to define zero divided by zero and concluded it equals zero (wrong, but admirably ambitious — the correct answer is undefined). Every other major civilization that had positional arithmetic used placeholder symbols but never developed zero as a number in its own right."
+        }
+      ],
+      "commonsFile": "Bakhshali_manuscript_zero_detail.jpg"
     },
     {
       "id": "evt-surya-siddhanta",
       "label": "Surya Siddhanta",
       "year": 391,
-      "description": "The Surya Siddhanta astronomical treatise was composed, calculating planetary motions, eclipses, and the sidereal year with remarkable accuracy.",
+      "description": "The Surya Siddhanta — a Sanskrit astronomical treatise computing the Sun's motion and planetary positions through trigonometry — was composed or substantially revised during the Gupta period, calculating the Earth's diameter at roughly 8,000 miles (13,000 km) and the length of the year with errors of less than a minute.",
       "wikiSlug": "Surya_Siddhanta",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The text's estimate of Earth's diameter (about 8,000 miles) is within 1% of the modern figure of 7,918 miles — achieved without telescopes, satellites, or anything beyond careful observation and sophisticated geometry. It uses the sine-table methods developed in this same era to compute planetary positions, showing how tightly the mathematical and astronomical work was linked. The Surya Siddhanta remained a standard reference for Hindu calendrical astronomy for over a thousand years; the surviving text comes from a 15th-century palm-leaf manuscript."
+        }
+      ],
+      "commonsFile": "1st_verse_of_the_1st_chapter_of_the_Surya_Siddhanta_Hindu_astronomy,_1847_Sanskrit_manuscript_edition.jpg"
     },
     {
       "id": "evt-varahamihira",
       "label": "Varahamihira",
       "year": 505,
-      "description": "Astronomer Varahamihira compiled the Pancha-Siddhantika synthesizing Greek, Egyptian, and Indian astronomy, and authored works on astrology and hydrology.",
+      "description": "Working in Ujjain around 505 CE, astronomer Varahamihira wrote the Pancasiddhantika — a comparative review of five astronomical traditions from India, Greece, and Rome — making him one of the earliest known scholars to systematically compare scientific systems across cultures.",
       "wikiSlug": "Varahamihira",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "One of the five traditions he compared was the Romaka Siddhanta, an Indian astronomical system that had explicitly absorbed Greco-Roman methods — evidence that Indian and Hellenistic science were in active exchange long after Alexander's campaigns ended. His larger encyclopedia, the Brihat Samhita, ran to 106 chapters covering planetary motion, weather prediction, gemology, and architectural design rules; its temple-building and iconography chapters served as practical handbooks for craftsmen for centuries after his death. Varahamihira worked in Ujjain, which lay on the meridian Indian astronomers treated as their prime meridian, the rough equivalent of Greenwich."
+        }
+      ],
+      "commonsFile": "6th-century_Brihat_Samhita_of_Varahamihira,_1279_CE_Hindu_text_palm_leaf_manuscript,_Pratima_lakshana,_Sanskrit,_Nepalaksara_script,_folio_1_talapatra_from_a_Buddhist_monastery,_1v,_2r_2v_leaves.jpg"
     },
     {
       "id": "evt-kalidasa",
       "label": "Kalidasa, Greatest Sanskrit Poet",
       "year": 394,
-      "description": "Kalidasa composed masterworks including Shakuntala and Meghaduta, earning recognition as the greatest poet in the Sanskrit language.",
+      "description": "Kalidasa — probably working at the court of Chandragupta II in Ujjain around 400 CE — is the unanimously accepted master of classical Sanskrit literature, author of three plays, two court epics, and two lyric poems that together set the ceiling for what the language could do.",
       "wikiSlug": "Kalidasa",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His name literally means \"servant of Kali\" in the devotional sense, carrying the same ring as a medieval European poet signing himself \"servant of God.\" Despite his enormous cultural footprint, his personal biography is essentially unrecoverable — the legends that he was born an illiterate cowherd granted eloquence by the goddess herself are later hagiography with no contemporary corroboration. His works became a founding touchstone for Sanskrit poetic tradition for the next thousand years, and his plays were still being performed across South and Southeast Asia long after the empire that patronized him had collapsed."
+        }
+      ],
+      "commonsFile": "Kalidasa_inditing_the_cloud_Messenger,_A.D._375.jpg"
     },
     {
       "id": "evt-shakuntala",
       "label": "Abhijnanasakuntalam",
       "year": 397,
-      "description": "Kalidasa's play Shakuntala became the most celebrated work of Sanskrit drama, later translated by William Jones and influencing European Romanticism.",
+      "description": "Kalidasa's Abhijnanashakuntalam (\"The Recognition of Shakuntala\") — a romantic drama about a king cursed to forget the woman he loved until he sees his own ring again — is the most celebrated work of Sanskrit drama and the first Indian text to genuinely shake the European literary world when translated in 1789.",
       "wikiSlug": "Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When the British orientalist William Jones translated it into English in 1789, Goethe read it and wrote a poem declaring that Shakuntala \"combines the blossom of youth with the fruit of age\" — one of the warmest reviews any translation has ever received from a major literary figure. The play's mixed-language dramaturgy is itself a social map: high-status male characters speak Sanskrit, while women, servants, and comic figures speak Prakrit (the everyday vernacular), making grammatical register a visible marker of hierarchy. The son born to Shakuntala and the king, Bharata, becomes the legendary founder-ancestor of the dynasty whose name \"Bharat\" is still one of India's official Sanskrit names for itself."
+        }
+      ],
+      "commonsFile": "Sakunthala-pathralekhanam.jpg"
     },
     {
       "id": "evt-ramayana-mahabharata-finalized",
       "label": "Epics Take Final Form",
       "year": 347,
-      "description": "The Ramayana and Mahabharata reached their final written forms during the Gupta period, becoming the foundational texts of Hindu culture.",
+      "description": "The Gupta period — with its Brahmanical patronage, Sanskrit literary culture, and stable court environment — is the era when scholars believe the Ramayana and Mahabharata reached something close to their final written forms, after centuries of oral transmission and gradual textual accretion.",
       "wikiSlug": "Indian_epic_poetry",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mahabharata in its received form runs to roughly 100,000 couplets — about ten times the combined length of the Iliad and Odyssey — making it the longest poem ever composed in any language. \"Finalization\" during the Gupta era really means that manuscript traditions became stable enough to stop accumulating major new episodes; both epics had been growing and changing for at least five centuries before the Gupta court's patronage created the institutional infrastructure — scriptoria, trained scholars, stable funding — to anchor the texts."
+        }
+      ],
+      "commonsFile": "Bazaar_art_print_of_Bhavadgita,_c._mid-1900's.jpg"
     },
     {
       "id": "evt-puranas-compiled",
@@ -266,56 +388,90 @@
       "id": "evt-ajanta-caves",
       "label": "Ajanta Cave Paintings",
       "year": 460,
-      "description": "The stunning Buddhist murals at Ajanta Caves were painted under Vakataka and Gupta patronage, representing the pinnacle of ancient Indian painting.",
+      "description": "The thirty Buddhist rock-cut halls at Ajanta in Maharashtra — begun in the 2nd century BCE — received their most spectacular phase of mural painting in the 5th century CE under Vakataka rulers closely allied with the Guptas, producing what are universally considered the greatest surviving examples of ancient Indian painting.",
       "wikiSlug": "Ajanta_Caves",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Ajanta murals depict Buddhist Jataka tales (the Buddha's previous lives) in densely populated, brilliantly colored compositions that fill entire cave walls and ceilings — figures rendered with naturalistic gesture and psychological expressiveness unmatched in the ancient world. Ajanta was abandoned and forgotten after the 7th century, its entrance overgrown, and was only rediscovered by a British hunting party in 1819. The UNESCO World Heritage site now faces conservation challenges from humidity and the breath of millions of annual visitors, and some of the most vivid colors seen in 19th-century watercolor copies have already faded beyond recovery."
+        }
+      ]
     },
     {
       "id": "evt-iron-pillar",
       "label": "Iron Pillar of Delhi",
       "year": 402,
-      "description": "The iron pillar at Delhi was erected in honor of Vishnu, demonstrating remarkably advanced metallurgy — it has resisted rust for over 1,600 years.",
+      "description": "The Iron Pillar of Delhi — about 24 feet (7.3 m) tall, weighing roughly 6 tons — was erected around 400–415 CE by Chandragupta II as a Vishnu victory column. It has stood in open air for over 1,600 years without rusting, an achievement that modern metallurgy only explained in the 1990s.",
       "wikiSlug": "Iron_pillar_of_Delhi",
       "tier": 2,
       "tags": [
         "science"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The rust resistance comes from an unusually high phosphorus content (about 0.25%) left in the iron during forge-welding, which causes a thin protective layer of iron-phosphate to form on the surface and block further oxidation. Modern industrial iron production deliberately removes phosphorus because it makes iron brittle — meaning Gupta smiths made a different trade-off and got corrosion resistance as the reward. When it was made it was the largest single piece of wrought iron in the world; European production didn't match that scale until the 18th century."
+        }
+      ],
+      "commonsFile": "Iron_Pillar,_Delhi,_May_2008.jpg"
     },
     {
       "id": "evt-dashavatara-temple",
       "label": "Dashavatara Temple at Deogarh",
       "year": 500,
-      "description": "The Dashavatara Temple at Deogarh is one of the earliest Hindu stone temples, featuring exquisite relief panels depicting Vishnu's incarnations.",
+      "description": "The Dashavatara Temple at Deogarh in Uttar Pradesh, built around 500 CE, is one of the oldest surviving freestanding Hindu stone temples — and the earliest with a deliberately programmed iconographic scheme, its exterior walls carved with Vishnu in three of his great cosmic roles.",
       "wikiSlug": "Dashavatara_Temple,_Deogarh",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple's name refers to Vishnu's ten avatars (dashavatara), whose canonical list was probably stabilized in roughly its surviving form during the Gupta period — earlier texts had named more, fewer, or differently ordered avatars; the Gupta canon won. The Buddha is the ninth avatar on the standard list, a theologically contested inclusion that effectively folded Buddhism into a Vaishnava framework. Though the temple's shikhara has mostly collapsed, the three surviving relief panels — Vishnu sleeping on the cosmic serpent, the divine sage-pair Nara-Narayana, and Vishnu rescuing an elephant from a crocodile — remain among the finest examples of Gupta stone carving."
+        }
+      ],
+      "commonsFile": "Deogarh01.jpg"
     },
     {
       "id": "evt-udayagiri-caves",
       "label": "Udayagiri Caves",
       "year": 401,
-      "description": "The rock-cut caves at Udayagiri were carved under Chandragupta II, featuring the iconic Varaha panel — one of the finest examples of Gupta sculpture.",
+      "description": "The twenty rock-cut caves at Udayagiri in central India, carved around 400 CE during Chandragupta II's reign, are the only Gupta-period site whose royal connection can be proven from inscriptions found on-site — and they house the most spectacular surviving Gupta sculpture: a colossal twelve-foot relief of Vishnu as the boar Varaha lifting the Earth-goddess from the cosmic ocean.",
       "wikiSlug": "Udayagiri_Caves",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Varaha panel was almost certainly a piece of imperial cosmology in stone: Chandragupta II casting himself as the divine rescuer who, like Vishnu, had pulled the subcontinent out of the chaos of post-Maurya fragmentation and Saka domination. Cave 6 at Udayagiri contains one of the earliest surviving images of the multi-armed Vishnu in a standardized iconographic form. The site's inscriptions include a record of a minister named Virasena who carved a Shiva shrine — evidence that even a courtier of the famously Vaishnava Chandragupta II could practice Shaivism without tension."
+        }
+      ],
+      "commonsFile": "Varahavtar_Panel.jpg"
     },
     {
       "id": "evt-gupta-gold-coins",
       "label": "Gupta Gold Coinage",
       "year": 335,
-      "description": "The Guptas issued exquisitely crafted gold coins (dinars) depicting rulers in various poses, reflecting imperial wealth and artistic sophistication.",
+      "description": "Samudragupta issued at least seven distinct types of gold dinara — the name borrowed straight from the Roman denarius, which had reached India through centuries of Indian Ocean trade — each commemorating a different facet of his identity: warrior, sacrificer, tiger-hunter, and most unusually, lute player.",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The \"lyrist type\" coin shows Samudragupta seated cross-legged on a couch playing a vina (the Indian lute), with an unmistakably contemplative expression — an emperor depicting himself not as a conqueror but as a musician on official gold coinage. Court inscriptions compare his musicianship to Tumburu, the celestial bard of Hindu mythology, and to Narada, the divine sage of music. The horse-sacrifice type commemorates his revival of the ashvamedha, a Vedic ceremony signaling universal sovereignty that no major Indian emperor had performed in centuries."
+        }
+      ],
+      "commonsFile": "Coin_of_Chandragupta_I._AAM.jpg"
     },
     {
       "id": "evt-silk-road-trade",
@@ -381,11 +537,18 @@
       "id": "evt-allahabad-pillar",
       "label": "Allahabad Pillar Inscription",
       "year": 360,
-      "description": "Harishena's prasasti on the Allahabad Pillar is the primary source for Samudragupta's conquests, written in ornate Sanskrit verse.",
+      "description": "Around 360 CE, the court poet Harishena carved a long Sanskrit victory poem — the Prayaga Prashasti, or \"Allahabad Praise-poem\" — directly onto one of Ashoka's original Buddhist pillars, repurposing a monument of royal remorse into a monument of conquest. It is the single most detailed political document from early Gupta history.",
       "wikiSlug": "Allahabad_Pillar",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The same pillar carries inscriptions from three completely different eras: Ashoka's 3rd-century BCE Buddhist edicts, Samudragupta's 4th-century CE victory poem, and a 17th-century inscription by the Mughal emperor Jahangir — making it one of the most layered single stones in all of Indian history. The pillar still stands today inside Akbar's Allahabad Fort at the Triveni Sangam, the sacred confluence of the Ganges and Yamuna rivers, though access is restricted because the site sits within an active military cantonment."
+        }
+      ],
+      "commonsFile": "Ashoka_Pillar_in_Allahabad.jpg"
     },
     {
       "id": "evt-sanskrit-flourishes",
@@ -401,11 +564,18 @@
       "id": "evt-sushruta-samhita",
       "label": "Sushruta Samhita Redacted",
       "year": 409,
-      "description": "The ancient surgical text Sushruta Samhita was redacted during the Gupta period, describing procedures including rhinoplasty and cataract surgery.",
+      "description": "The Sushruta Samhita — the world's earliest known systematic surgical text — was edited into something close to its surviving form during the Gupta period, describing over 120 surgical instruments and 300 procedures including cataract treatment and forehead-flap rhinoplasty (nose reconstruction from forehead skin).",
       "wikiSlug": "Sushruta_Samhita",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The nose-reconstruction procedure existed because nose-cutting was a recognized legal punishment in ancient India, creating a demand for reconstructive surgery that drove genuine technique development. That same specific technique — a flap of skin pulled down from the forehead — was still being practiced unchanged by traditional Indian surgeons in colonial India when British surgeon Joseph Constantine Carpue observed it and reintroduced it to European medicine in 1816, nearly 1,300 years after the Gupta-era compilation. Sushruta also recommended practicing incisions on vegetables, leather pouches, and dead animals before operating on patients."
+        }
+      ],
+      "commonsFile": "The_Susruta-Samhita_or_Sahottara-Tantra_(A_Treatise_on_Ayurvedic_Medicine)_LACMA_M.87.271a-g_(1_of_8).jpg"
     },
     {
       "id": "evt-toramana-invasion",
@@ -421,142 +591,234 @@
       "id": "evt-mihirakula",
       "label": "Mihirakula's Reign of Terror",
       "year": 515,
-      "description": "Huna king Mihirakula terrorized northern India until defeated by Yashodharman and the Gupta vassal Narasimhagupta, ending Hunnic dominance.",
+      "description": "Mihirakula (ruled approximately 515–542 CE), son of the Hunnic king Toramana, was the most feared ruler of the Hephthalite occupation — remembered across Buddhist, Sanskrit, and Greek sources as a brutal destroyer of monasteries and killer of monks, even though he was himself a Shaivite Hindu.",
       "wikiSlug": "Mihirakula",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He ruled from his capital at Sagala (modern Sialkot in Pakistan). The 12th-century Kashmiri historian Kalhana, in the Rajatarangini (the only substantial surviving historical chronicle from premodern India), claims Mihirakula killed three crore Buddhists — a \"crore\" is 10 million; the number is hyperbolic but signals atrocity on a massive scale. Greek-language Egyptian merchant Cosmas Indicopleustes, writing around 525–550 CE, independently calls him \"Gollas, the white Hun king\" terrorizing the Indian frontier — one of the few cases where a Greek-language source corroborates Indian accounts of a Hunnic ruler by name."
+        }
+      ],
+      "commonsFile": "Mihirakula_portrait.jpg"
     },
     {
       "id": "evt-gupta-collapse",
       "label": "Gupta Empire Collapses",
       "year": 550,
-      "description": "The Gupta Empire finally dissolved under pressure from Huna invasions, provincial revolts, and the rise of independent regional kingdoms.",
+      "description": "By around 550 CE, Vishnugupta — the last Gupta king of any real consequence, ruling a shrinking remnant territory in the eastern Ganges plain — disappears from the inscriptional record, and the dynasty that had defined India's classical age ceased to exist as a political entity. The Gupta name survived only in scattered minor local lineages; the empire was gone.",
       "wikiSlug": "Gupta_Empire#Decline",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Gupta collapse followed a pattern that would repeat across Indian history: not a single dramatic conquest but a slow fragmentation, with provincial governors and tributary kings stopping tribute, asserting independence, and eventually forgetting they had ever been subordinate. What makes the Gupta case remarkable is how little the political collapse disrupted the cultural output — Nalanda kept teaching, Sanskrit literature kept being copied and performed, and temple-building actually accelerated in the successor kingdoms rather than dying with the empire. The empire lasted roughly two and a half centuries; the cultural template it produced has lasted fifteen."
+        }
+      ]
     },
     {
       "id": "evt-vatsyayana",
       "label": "Vatsyayana's Kama Sutra",
       "year": 356,
-      "description": "Vatsyayana composed the Kama Sutra, a systematic treatise on human desire and social conduct that became one of India's most famous texts.",
+      "description": "Vatsyayana's Kamasutra — composed around 400 CE — is not primarily a manual of sexual positions but a comprehensive guide to the cultured urban life: how to furnish a home, which arts to master, how to court a social equal, and how to pursue kama (pleasure — the third of the four classical Hindu life-goals) without neglecting the other three.",
       "wikiSlug": "Kama_Sutra",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The sexual content occupies roughly a fifth of the total text; the rest covers the life of the nagaraka (\"city-dweller\" — the ideal cultivated urban man), who is expected to know poetry, music, painting, perfume-blending, gardening, and at least sixty-four fine arts before worrying about seduction. The text was largely lost to Indian readers for centuries; it was rediscovered and translated into English in 1883 by Richard Burton and F.F. Arbuthnot, working partly from a manuscript tradition that had been better preserved in Nepal than in India itself. The Kamasutra treats women as active agents with their own erotic preferences and social strategies — a framing that contrasts sharply with the purely male-gaze assumptions of many later European erotic manuals."
+        }
+      ],
+      "commonsFile": "3rd_or_4th_century_CE_Kamasutra,_Vatsyayana,_13th-century_Jayamangala_commentary_of_Yashodhara,_Bendall_purchase_1885CE_in_Nepal,_Sanskrit,_Devanagari.jpg"
     },
     {
       "id": "evt-panchatantra",
       "label": "Panchatantra",
       "year": 300,
-      "description": "Vishnu Sharma's Panchatantra, a collection of animal fables teaching political wisdom, was composed and would become one of the world's most translated works.",
+      "description": "The Panchatantra (\"Five Treatises\") — a collection of animal fables framed as a crash course in pragmatic statecraft for three dim princes — is one of the most widely translated works in pre-modern world literature, with direct descendants in Arabic, Hebrew, Latin, and eventually Kipling's Jungle Books.",
       "wikiSlug": "Panchatantra",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The collection traveled through a Pahlavi (Middle Persian) translation in the 6th century CE, then into Arabic in the 8th century as Kalila wa-Dimna, making it one of the first Sanskrit texts to enter the Islamic intellectual world. From Arabic it branched into Hebrew, Greek, Old Church Slavonic, and most major European vernaculars by the 15th century — La Fontaine drew on it for his Fables. The frame story is itself a pedagogical joke: the scholar Vishnu Sharma bets his own life that animal stories will teach three hopelessly dim princes statecraft within six months, succeeding where conventional education had completely failed."
+        }
+      ],
+      "commonsFile": "18th_century_Panchatantra_manuscript_page,_The_Birds_Try_to_Beat_Down_the_Ocean.jpg"
     },
     {
       "id": "evt-ramagupta",
       "label": "Ramagupta's Brief Reign",
       "year": 376,
-      "description": "Ramagupta briefly held the Gupta throne before his brother Chandragupta II seized power, reportedly after Ramagupta agreed to hand over his queen to a Saka king.",
+      "description": "Ramagupta briefly held the Gupta throne after his father Samudragupta — his coins survive in modest numbers — but his younger brother Chandragupta II seized power, almost certainly through internal violence, and married Ramagupta's widow Dhruvadevi. The only detailed account of what happened survives in a Sanskrit play written two centuries after the fact.",
       "wikiSlug": "Ramagupta",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ramagupta's existence was doubted by historians until his own copper coins were discovered in the 20th century, settling the question of whether he was real or just a literary invention. The play Devichandraguptam by Vishakhadatta claims Ramagupta was so feeble that he agreed to hand his queen over to a Saka king as tribute, and that Chandragupta II then disguised himself as the queen, killed the Saka, and came home to kill his brother. Historians can't verify the drama, but the coins and inscriptions confirm the structural reality: a brief reign, then a younger brother who married the previous king's wife."
+        }
+      ]
     },
     {
       "id": "evt-samudragupta-northern-campaign",
       "label": "Samudragupta's Northern Conquests",
       "year": 340,
-      "description": "Samudragupta defeated and annexed nine kingdoms across the Gangetic plain and northern India, establishing direct Gupta rule from Bengal to Punjab.",
+      "description": "In a series of campaigns across the upper Ganges plain, Samudragupta defeated twenty-one small northern kings — the Allahabad inscription calls it prasabhoddharana (\"forcible removal\") — and absorbed their territories directly into the Gupta state, building the empire's solid administrative core in the heartland.",
       "wikiSlug": "Samudragupta#Military_campaigns",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Almost none of the twenty-one defeated kings are known from any other source — they were the forgotten small-fry rajas of the post-Kushan landscape, each ruling perhaps a few hundred square miles of river valley or plateau, their names surviving only because Harishena listed them in rapid succession as proof of Samudragupta's thoroughness. Samudragupta's mother was a Licchavi princess named Kumaradevi — the Licchavi were the powerful republican clan whose territory included the Buddha's birthplace — and this marriage alliance gave the early Guptas crucial legitimacy in exactly the Ganges heartland he was now absorbing by force."
+        }
+      ]
     },
     {
       "id": "evt-chandragupta-ii-coronation",
       "label": "Chandragupta II Takes Vikramaditya Title",
       "year": 380,
-      "description": "Chandragupta II adopted the legendary title Vikramaditya (Sun of Valor) upon ascending the throne, connecting his reign to the heroic ideal of Indian kingship.",
+      "description": "Upon securing the throne around 380 CE, Chandragupta II adopted the regnal title Vikramaditya ('Sun of Valor') — a royal honorific so resonant that at least eight later Indian kings claimed it over the following thousand years, each trying to borrow its prestige.",
       "wikiSlug": "Chandragupta_II#Titles",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title was a regnal name, not a given name — closer to a throne-name than a personal one — which is why multiple kings across different dynasties could claim it without contradiction. Vikramaditya was already associated in Indian tradition with a semi-legendary ideal king of Ujjain whose court set the gold standard for learning and justice; adopting the title connected Chandragupta II to that heroic archetype, not just a genealogy. The Nine Gems (Navaratnas) legend — nine brilliant scholars imagined at the Ujjain court — is the cultural memory this combination of title and city produced."
+        }
+      ]
     },
     {
       "id": "evt-skandagupta-hun-defeat",
       "label": "Skandagupta Repels the Huns",
       "year": 458,
-      "description": "Skandagupta inflicted a decisive defeat on the Hephthalite Huns in 458 CE, temporarily halting their advance and earning wide acclaim as a savior of civilization.",
+      "description": "Around 455–458 CE, Skandagupta won a decisive battle against the Hephthalite Huns and halted their advance into the Gupta heartland — a victory he celebrated with inscriptions and commemorative coinage across the empire, though the financial cost proved catastrophic.",
       "wikiSlug": "Skandagupta#Wars_with_the_Hunas",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cross-civilizational timing is extraordinary: in the same decade Skandagupta was holding the eastern frontier, Attila was leading the western branch of the same Hunnic migration against the dying Western Roman Empire — Attila died in 453 CE, Skandagupta's decisive battle came around 455–458 CE. The famous Junagadh inscription of 458 CE — carved on the same rock that already bore Ashoka's edicts from six centuries earlier — records him repairing the Sudarshana dam in Gujarat, a deliberate invocation of Mauryan imperial precedent. Rome could not hold and collapsed within a generation; the Guptas held but exhausted their treasury doing it."
+        }
+      ]
     },
     {
       "id": "evt-budhagupta",
       "label": "Budhagupta's Reign",
       "year": 477,
       "endYear": 496,
-      "description": "Budhagupta was among the last rulers to maintain a semblance of unified Gupta authority, issuing coins across a still-wide territory even as the empire fragmented.",
+      "description": "Budhagupta (ruled approximately 477–496 CE), a son of Purugupta, was the most capable of the late Gupta emperors — he held the dynasty's core territory together and issued coins across much of central and eastern India even as the empire's edges crumbled around him.",
       "wikiSlug": "Budhagupta",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Budhagupta succeeded his brother Kumaragupta II, both sons of Purugupta — meaning the throne had passed to a secondary branch of the dynasty rather than continuing through Skandagupta's direct line, compounding the legitimacy problem. His coins circulated over a surprisingly wide area considering the political chaos of his reign, physical proof that some meaningful central authority still functioned. After his death the dynasty's central authority cracked visibly, with provincial rulers simply stopping tribute payment rather than formally seceding."
+        }
+      ],
+      "commonsFile": "Budhagupta_gold_coin_,_477-487_CE_,_India.jpg"
     },
     {
       "id": "evt-yashodharman-defeats-huns",
       "label": "Yashodharman Defeats Mihirakula",
       "year": 528,
-      "description": "Regional king Yashodharman allied with Gupta vassal forces to crush the Huna leader Mihirakula, ending the most brutal phase of Hunnic domination of northern India.",
+      "description": "Yashodharman, a regional king of the Aulikara dynasty ruling from central India, defeated Mihirakula around 528 CE — ending the most brutal phase of Hunnic rule and exposing how completely the Guptas had lost the ability to defend their own territory.",
       "wikiSlug": "Yashodharman",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yashodharman appears in the historical record almost without genealogy — no firm ancestry before his accession, no account of how he built his power base. His Mandasor pillar inscriptions use the same digvijaya (\"conquest of the directions\") language as Samudragupta's great Allahabad pillar a century and a half earlier, explicitly claiming to have subdued both Mihirakula and the Guptas. If that Gupta-submission claim is even partly true, it marks the moment the Gupta name ceased to command respect among contemporaries."
+        }
+      ],
+      "commonsFile": "The_defeat_of_the_Ephalites,_or_White_Huns_A.D._528.jpg"
     },
     {
       "id": "evt-huna-second-wave",
       "label": "Second Huna Invasion Wave",
       "year": 484,
-      "description": "A renewed Hephthalite offensive in the 480s overran large swaths of northwestern India, triggering provincial secessions and accelerating the Gupta collapse.",
+      "description": "Around 484 CE the Hephthalites — having consolidated a major empire stretching from Afghanistan through the upper Indus valley — renewed their push into Gupta territory with greater force, triggering provincial breakaways and accelerating the empire's fragmentation.",
       "wikiSlug": "Hephthalite_Empire",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In 484 CE the Hephthalites scored their most dramatic non-Indian victory: killing the Sasanian Persian king Peroz I in battle, a catastrophe that left Persia paying tribute to the Huns for years. The Maitrakas of Vallabhi in Gujarat declared effective independence around 475 CE, and the Maukharis of Kanauj were consolidating power in the central Ganges plain — both breakaways taking advantage of the Huna pressure the weakened Gupta center could no longer buffer. The Hephthalite Empire remained militarily dominant from roughly 450 to 560 CE, a window that overlaps almost exactly with the Gupta collapse."
+        }
+      ],
+      "commonsFile": "Toramana_portrait_from_coin.jpg"
     },
     {
       "id": "evt-aryabhata-person",
       "label": "Aryabhata the Mathematician",
       "year": 476,
-      "description": "Born in 476 CE, Aryabhata was the first named Indian mathematician-astronomer, whose revolutionary work on algebra, trigonometry, and astronomy influenced scholars across the Islamic world and Europe.",
+      "description": "Aryabhata (born 476 CE, Kusumapura) was the most advanced mathematician on Earth at the close of the 5th century — the first Indian scholar to leave a precisely dated, self-attested scientific biography alongside his revolutionary work in mathematics and astronomy.",
       "wikiSlug": "Aryabhata",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His most correct major claim — that Earth rotates on its axis — was rejected by most later Indian astronomers, including the brilliant Brahmagupta a century afterward, and the wrong consensus held in India for roughly a thousand years. Meanwhile, Aryabhata's trigonometric innovations traveled through Arabic translation into Islamic mathematics and from there into medieval Europe, shaping centuries of Western science without the European scholars knowing the original source. India named its first satellite Aryabhata in 1975."
+        }
+      ],
+      "commonsFile": "Aryabhata.jpeg"
     },
     {
       "id": "evt-varahamihira-person",
       "label": "Varahamihira the Polymath",
       "year": 505,
-      "description": "Varahamihira synthesized Greek, Babylonian, and Indian astronomy in the Pancha-Siddhantika and authored encyclopedic works on astrology, botany, and hydrology.",
+      "description": "Varahamihira was the Gupta era's great synthesizer — an astronomer-polymath who compared Indian, Greek, and Roman scientific traditions in a single work and produced an encyclopedic compendium that preserved vast amounts of Gupta-era practical knowledge that would otherwise be lost.",
       "wikiSlug": "Varahamihira",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His Brihat Samhita is part astronomy textbook, part almanac, part architectural manual, and part book of omens — covering everything from how comets predict disasters to how to test the quality of soil for planting. He made no clean separation between empirical observation and interpretive tradition, which was entirely typical of Gupta intellectual culture. A manuscript of his Brihajjataka (an astrological text) copied in Kathmandu in 1399 CE survives in museum collections, showing the long reach of his influence across South and Southeast Asia."
+        }
+      ],
+      "commonsFile": "Varahamihira's_Brihajjataka,_Sanskrit,_Nepalaksara_script,_manuscript_copied_in_1399_CE,_Kathmandu.jpg"
     },
     {
       "id": "evt-dignaga",
       "label": "Dignaga, Buddhist Logician",
       "year": 480,
-      "description": "Buddhist philosopher Dignaga founded the school of Buddhist formal logic (pramana), producing works that transformed Indian epistemology and debate.",
+      "description": "Dignaga (DIG-nah-gah), born around 480 CE, founded the Buddhist school of formal logic and epistemology — developing a theory of inference and perception that transformed Indian philosophical debate and influenced Hindu and Jain traditions as well as Buddhist ones.",
       "wikiSlug": "Dignaga",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Dignaga's key innovation was limiting valid sources of knowledge to exactly two: direct perception and inference — a clean binary that cut through centuries of competing Indian epistemological claims. His Pramanasamuccaya ('Compendium of Valid Cognition') is the founding document of Buddhist logic, and it was so technically demanding that it required a commentary by his successor Dharmakirti just a century later to become widely teachable. The Indian logical tradition Dignaga initiated would independently anticipate several insights of modern formal logic, including aspects of syllogism theory, more than a millennium before contact with Western philosophy."
+        }
+      ]
     },
     {
       "id": "evt-vatsyayana-person",
@@ -572,81 +834,135 @@
       "id": "evt-faxian-record",
       "label": "Faxian's Fogguo Ji",
       "year": 414,
-      "description": "On returning to China, Faxian wrote the Fogguo Ji (Record of Buddhist Kingdoms), a detailed eyewitness account of Gupta India's cities, monasteries, and daily life that remains an invaluable historical source.",
+      "description": "On returning to China around 414 CE, Faxian wrote the Foguoji (FWO-gwoh-jee; 'Record of Buddhist Kingdoms') — a detailed eyewitness account of Gupta India that remains the single most valuable contemporary outside source for what daily life under the empire actually looked like.",
       "wikiSlug": "Faxian#Record_of_Buddhist_Kingdoms",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Faxian describes Buddhist monasteries as numerous and well-supplied, vegetarianism as common among people of rank, and the Gupta capital as clean and orderly — a portrait that should be read critically, since he was a monk on a pilgrimage who naturally focused on what was working. The text is one of a small number of primary eyewitness accounts of Gupta civilization and has been used by archaeologists to identify sites Faxian visited, several of which have since been excavated. It is studied today alongside Xuanzang's 7th-century account as one of the two foundational Chinese eyewitness records of ancient India."
+        }
+      ],
+      "commonsFile": "BEAL(1869)_FAH-HIAN'S_ROUTE_THROUGH_INDIA_AND_TARTARY.jpg"
     },
     {
       "id": "evt-kalidasa-meghaduta",
       "label": "Meghaduta (The Cloud Messenger)",
       "year": 401,
-      "description": "Kalidasa's lyric poem Meghaduta — in which a lovelorn spirit asks a cloud to carry a message to his distant wife — became the most celebrated example of Sanskrit lyric poetry.",
+      "description": "Kalidasa's Meghaduta (\"The Cloud Messenger\") is a 110-stanza lyric poem in which a minor demigod, exiled from his beloved wife for a year by his divine master, asks a passing monsoon cloud to carry his love message to her across the length of the subcontinent — the poem is essentially a love letter disguised as a geography lesson.",
       "wikiSlug": "Meghaduta",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The exile figure is a yaksha (a nature spirit, roughly a demigod of earth and forests) condemned by the god Kubera for neglecting his duties. The route the cloud is asked to follow — from central India north through the Vindhya hills, across the Gangetic plain, and up to the Himalayan city of Alaka — reads as a loving travelogue of Gupta-era landscapes, cities, and shrines. The poem's central conceit proved so appealing that it spawned an entire Sanskrit sub-genre called \"messenger poems\" (duta-kavya), with later poets sending bees, parrots, swans, and even peacocks as couriers in imitation."
+        }
+      ],
+      "commonsFile": "Megh_Dutam_Illustration.jpg"
     },
     {
       "id": "evt-kalidasa-raghuvamsa",
       "label": "Raghuvamsa",
       "year": 403,
-      "description": "Kalidasa's epic poem Raghuvamsa chronicles the Solar Dynasty of kings from whom Rama descended, showcasing the full range of Sanskrit mahakavya (great poem) conventions.",
+      "description": "Kalidasa's Raghuvamsa (\"The Lineage of Raghu\") is a 19-canto court epic tracing the Solar Dynasty — the mythic ancestors of the god-king Rama — from the founding king Dilipa through Raghu, Dasharatha, and Rama himself, serving roughly the same canonical function for Sanskrit that Virgil's Aeneid served for Latin.",
       "wikiSlug": "Raghuvamsa",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The epic covers nineteen kings across its nineteen cantos, beginning with austere ascetic virtue and ending in deliberate dynastic decline — the final king Agnivarna, dissolute and consumed by sensual excess, is essentially an anti-hero whose ruin completes the moral arc. Kalidasa's handling of the Rama story in the middle cantos is notably compressed, treating his audience as already knowing the myth and focusing on emotional texture rather than narrative plot. Medieval commentators treated the Raghuvamsa as a model of virtually every recognized Sanskrit poetic virtue simultaneously, and used it as a teaching text for Sanskrit style the way Homer was used in ancient Greek schooling."
+        }
+      ],
+      "commonsFile": "17th-century_manuscript_copy_of_Kalidasa's_Raghuvamsa,_Kavya,_Sanskrit,_Nepali_script.jpg"
     },
     {
       "id": "evt-mrcchakatika",
       "label": "Mricchakatika (The Little Clay Cart)",
       "year": 415,
-      "description": "Sudraka's Sanskrit drama Mricchakatika, depicting the love affair of a poor Brahmin and a courtesan amid political upheaval, is among the most performed classical Indian plays.",
+      "description": "Sudraka's Mricchakatika (\"The Little Clay Cart\") is a ten-act Sanskrit play unique in the classical repertoire for being set in the everyday urban world — its hero is an impoverished Brahmin merchant, its love interest a courtesan named Vasantasena, and its plot turns on a stolen necklace, a corrupt royal kinsman, and a popular uprising that actually succeeds.",
       "wikiSlug": "Mricchakatika",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title object — a little clay cart belonging to the hero's son, who fills it with sand because his family can no longer afford the gold cart he used to have — becomes central when the villain mistakes Vasantasena for his rival's lover and strangles her in a garden, leaving her for dead (she survives). The uprising that ends the play deposes the king and installs a new ruler, making it one of the very few Sanskrit dramas with an explicitly populist resolution rather than a divine or royal restoration. When it was produced in New York in 1924, Eugene O'Neill reportedly cited it as an influence on his own approach to dramaturgy — a 1,600-year round trip for a plot device involving a child's toy."
+        }
+      ],
+      "commonsFile": "Raja_Ravi_Varma,_Vasanthasena_(Oleographic_print).jpg"
     },
     {
       "id": "evt-vishakhadatta-mudrarakshasa",
       "label": "Mudrarakshasa",
       "year": 400,
-      "description": "Vishakhadatta's political drama Mudrarakshasa depicted the intrigues surrounding Chandragupta Maurya's rise to power, reflecting Gupta-era fascination with statecraft.",
+      "description": "Vishakhadatta's Mudrarakshasa (\"The Signet Ring of Rakshasa\") is a Sanskrit political drama about the legendary minister Chanakya outmaneuvering Rakshasa — the brilliant loyalist of the deposed Nanda dynasty — through forged letters, planted informants, and double-crossing alliances rather than armies.",
       "wikiSlug": "Mudrarakshasa",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It is one of the extremely rare surviving Sanskrit plays with no romantic subplot at all — the entire dramatic engine is political strategy, making it closer to a spy thriller than the typical Sanskrit dramatic romance. The signet ring of the title is the MacGuffin: Chanakya captures Rakshasa's personal seal and uses it to forge documents that compromise Rakshasa's allies, isolating him until capitulation becomes the only rational move. The same Vishakhadatta almost certainly also wrote a play about the Gupta succession crisis (the Devichandraguptam), though only fragments of that work survive."
+        }
+      ],
+      "commonsFile": "Chanakya_artistic_depiction.jpg"
     },
     {
       "id": "evt-decimal-place-value",
       "label": "Decimal Place-Value System",
       "year": 458,
-      "description": "Indian scholars under the Guptas fully formalized the decimal place-value numeral system, the direct ancestor of the Hindu-Arabic numerals used globally today.",
+      "description": "During the Gupta era, Indian mathematicians completed the decimal place-value system: ten distinct symbols, strict positional notation, and zero as an explicit placeholder — the same computational foundation every calculator, bank, and computer on Earth runs on today.",
       "wikiSlug": "Hindu%E2%80%93Arabic_numeral_system",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Bakhshali manuscript — a birch-bark math document found in Pakistan in 1881 — contains one of the earliest physical examples of a zero dot used as a placeholder, and has been radiocarbon-dated to somewhere between the 3rd and 10th centuries CE. Before this system existed, Roman numerals had no positional placeholder at all, making multiplication of large numbers a laborious process requiring a physical abacus. The decimal system's Indian origins were largely unknown in Europe for centuries because Arab mathematicians transmitted it westward first, giving it the name \"Hindu-Arabic\" only after scholars traced the full transmission chain."
+        }
+      ],
+      "commonsFile": "Bakhshali_manuscript.jpg"
     },
     {
       "id": "evt-sine-tables",
       "label": "Aryabhata's Sine Tables",
       "year": 499,
-      "description": "Aryabhata computed the first known systematic table of sine values in his Aryabhatiya, founding trigonometry as a mathematical discipline.",
+      "description": "Aryabhata compiled the first known systematic sine table in the Aryabhatiya — 24 values at 3.75-degree intervals — using a recurrence relation where each value was derived from the previous ones, making large-scale trigonometric computation tractable for the first time.",
       "wikiSlug": "Aryabhatiya#Trigonometry",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word \"sine\" in modern English is the fossil of a centuries-long mistranslation chain starting with Aryabhata's Sanskrit term \"jya\" (bowstring — because the sine of an angle looks like a bowstring drawn across a circle's arc). Arab translators rendered jya phonetically as \"jiba,\" later copyists misread that as \"jaib\" (meaning pocket or bay in Arabic), Latin translators rendered jaib as \"sinus\" (also meaning bay or fold), and sinus became sine. The word you use in math class today traces directly back to Aryabhata's metaphor."
+        }
+      ]
     },
     {
       "id": "evt-iron-pillar-metallurgy",
       "label": "Gupta Metallurgical Mastery",
       "year": 402,
-      "description": "The rust-free Iron Pillar of Delhi demonstrates the Guptas' phosphoric wrought-iron smelting technique, a level of corrosion resistance not replicated in the West until the 20th century.",
+      "description": "The Iron Pillar of Delhi — a 23-foot (7-meter) column commissioned by Chandragupta II around 402 CE — has stood rust-free for over 1,600 years, demonstrating a Gupta-era iron-smelting technique whose corrosion resistance was not matched in Western metallurgy until the 20th century.",
       "wikiSlug": "Iron_pillar_of_Delhi#Composition",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pillar's rust resistance comes from an unusually high phosphorus content in the iron (around 1%), which promotes formation of a thin, stable iron hydrogen phosphate layer on the surface — a passive corrosion seal that modern engineers call \"misawite passivation,\" only identified and understood by materials scientists in 2002. The same Gupta-period smiths also produced wootz steel (a high-carbon crucible steel with distinctive wavy grain patterns) for export across the Indian Ocean; those wootz ingots were eventually forged into the famous Damascus blades of the medieval Islamic world — the metallurgical secret of Damascus swords was always the Indian steel they were made from."
+        }
+      ]
     },
     {
       "id": "evt-mahayana-buddhism-flourishes",
@@ -672,11 +988,18 @@
       "id": "evt-shikhara-temples",
       "label": "Shikhara Temple Architecture Emerges",
       "year": 475,
-      "description": "The curvilinear shikhara tower became standardized as the defining feature of north Indian Hindu temple architecture during the late Gupta period, setting the template for all subsequent temple building.",
+      "description": "The shikhara (SHIH-kah-rah; the curvilinear stone tower soaring above a Hindu temple's inner sanctuary) crystallized during the Gupta period as the defining feature of north Indian temple architecture — a theological statement in stone, designed to evoke the cosmic mountain at the center of the Hindu universe.",
       "wikiSlug": "Shikhara",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The shikhara sits directly over the garbha-griha (GAR-bah GREE-hah; \"womb-house\"), the small, dark, windowless cell housing the sacred image — so the tower literally marks the deity's dwelling from the outside. The shikhara principle split into two regional styles after the Gupta age: the curvilinear Nagara form in the north and the tiered pyramidal Dravida form in the south, but both grew from the same Gupta-era spatial logic. Jain temples adopted the shikhara form as well, making it one of the most widespread architectural concepts in South Asian religious building."
+        }
+      ],
+      "commonsFile": "Khajuraho3.jpg"
     },
     {
       "id": "evt-dashavatara-vishnu",
@@ -692,11 +1015,18 @@
       "id": "evt-bhitargaon-temple",
       "label": "Bhitargaon Brick Temple",
       "year": 450,
-      "description": "The Bhitargaon temple in Uttar Pradesh is one of the oldest surviving north Indian Hindu temples built in fired brick, featuring terracotta decorative panels that foreshadow later stone temple carving.",
+      "description": "The Bhitargaon temple near Kanpur — built in fired brick around 450-460 CE during Kumaragupta I's reign — is the oldest substantial north Indian Hindu temple with a recognizable shikhara, and the largest Indian brick temple to survive from the Gupta era.",
       "wikiSlug": "Bhitargaon_temple",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Fired brick (as opposed to stone) was the dominant building material across the Gangetic plain simply because quality stone had to be imported long distances; brick-built temples are structurally harder to preserve over centuries because mortar joints erode faster than carved stone. Despite heavy later restoration, Bhitargaon's original intricately molded terracotta relief panels survive in places, depicting Hindu mythological scenes with the same visual sophistication as contemporary stone carving. The temple's proportions and its combination of a flat-roofed mandapa (pillared entrance hall) with a rising tower over the sanctuary directly prefigure what would become the standard north Indian temple plan."
+        }
+      ],
+      "commonsFile": "Gupt_kalin_mandir_bhitargaon_(cropped).jpg"
     },
     {
       "id": "evt-tigawa-vishnu-temple",
@@ -743,21 +1073,35 @@
       "label": "Prabhavatigupta's Vakataka Regency",
       "year": 390,
       "endYear": 410,
-      "description": "Prabhavatigupta, daughter of Chandragupta II, ruled the Vakataka kingdom as regent for her young sons after her husband Rudrasena II died, effectively merging Gupta and Vakataka political authority and creating the conditions for the Ajanta masterworks.",
+      "description": "Prabhavatigupta, daughter of Chandragupta II, ruled the Vakataka kingdom of the Deccan as regent for roughly twenty years (c. 390–410 CE) after her husband Rudrasena II died young — making the most powerful southern Indian kingdom effectively a Gupta protectorate, run by a Gupta princess who left her own inscriptions.",
       "wikiSlug": "Prabhavatigupta",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Her surviving inscriptions prominently invoke her father Chandragupta II's lineage, and she brought Gupta administrators into the Vakataka court, aligning Vakataka policy with Gupta interests for a generation. The Ajanta cave paintings — among the finest surviving examples of ancient Indian art — were produced under Vakataka royal patronage during this period, meaning Prabhavatigupta's regency supplied the political stability that made the Ajanta masterworks possible."
+        }
+      ],
+      "commonsFile": "Ajanta_Padmapani.jpg"
     },
     {
       "id": "evt-vakataka-gupta-alliance",
       "label": "Vakataka-Gupta Marriage Alliance",
       "year": 375,
-      "description": "Chandragupta II sealed a strategic marriage alliance by giving his daughter Prabhavatigupta to Vakataka king Rudrasena II, linking the two most powerful dynasties of the subcontinent and extending Gupta influence into the Deccan without conquest.",
+      "description": "Chandragupta II gave his daughter Prabhavatigupta in marriage to the Vakataka king Rudrasena II around 375 CE — locking the southern frontier through diplomacy and freeing the Gupta military to focus its full effort westward against the Kshatrapas.",
       "wikiSlug": "Vakataka_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Vakatakas were a strong Brahmin dynasty whose territory wrapped around the entire southern flank of the Gupta core, from the southern edges of Malwa and Gujarat down to the Tungabhadra River; without the alliance, any western campaign risked a simultaneous war in the south. When Rudrasena II died young and Prabhavatigupta became regent, the marriage alliance quietly converted into a protectorate — something neither party had planned for, made possible only because a Gupta princess was already inside the Vakataka succession line."
+        }
+      ],
+      "commonsFile": "Ajanta_(63).jpg"
     },
     {
       "id": "evt-harishena-ajanta",
@@ -773,11 +1117,18 @@
       "id": "evt-ujjain-second-capital",
       "label": "Ujjain as Chandragupta II's Western Capital",
       "year": 409,
-      "description": "After annexing the Western Kshatrapas, Chandragupta II made Ujjain his secondary capital and administrative base for the newly acquired western provinces, placing it among the most important cities in the empire alongside Pataliputra.",
+      "description": "After annexing the Western Kshatrapas around 409 CE, Chandragupta II established Ujjain — the former Kshatrapa capital and a long-standing intellectual hub — as the Gupta Empire's western administrative center, alongside the original capital at Pataliputra in the east.",
       "wikiSlug": "Ujjain",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ujjain was already the reference point for longitude in Indian astronomical practice — the prime meridian of classical Indian astronomy, the equivalent of Greenwich — so placing the imperial court there put Gupta patronage within reach of the astronomers and mathematicians who worked in that tradition. The city also housed the Mahakala temple, one of the twelve most sacred Shiva shrines in Hindu tradition (called jyotirlingas), giving the new imperial presence an immediate religious legitimacy in a city that had been a major Hindu, Buddhist, and Jain center for centuries."
+        }
+      ],
+      "commonsFile": "Silver_Coin_of_Chandragupta_II.jpg"
     },
     {
       "id": "evt-pataliputra-capital",
@@ -813,21 +1164,35 @@
       "id": "evt-asanga-yogacara",
       "label": "Asanga Founds Yogacara School",
       "year": 375,
-      "description": "Buddhist philosopher Asanga articulated the Yogacara (mind-only) school of Mahayana philosophy, arguing that external reality is a construction of consciousness — one of the most radical epistemological moves in ancient thought.",
+      "description": "Asanga (ah-SAHN-gah), a Buddhist monk from Peshawar born around 320 CE, founded the Yogacara (yoh-GAH-chah-rah; 'yoga-practice') school of Mahayana philosophy — arguing that the apparent external world is a projection of consciousness, and that liberation comes through transforming the mental processes that generate that illusion.",
       "wikiSlug": "Asanga",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Asanga's foundational texts — the Mahayanasutralankara ('Ornament of the Mahayana Sutras') and the sprawling Yogacarabhumi ('Stages of Yogic Practice') — are among the most technically rigorous philosophical works in the Buddhist tradition. Tradition holds that Asanga received his core doctrines through visions of the future buddha Maitreya, which he then dictated; scholars debate whether this indicates a real teacher named Maitreya or a supernatural attribution. Yogacara remains the central philosophical reference for Tibetan Buddhism today, making Asanga arguably the single most influential Buddhist thinker after Nagarjuna."
+        }
+      ],
+      "commonsFile": "Mujaku_Asanga_Kofukuji.JPG"
     },
     {
       "id": "evt-vasubandhu-abhidharma",
       "label": "Vasubandhu's Abhidharmakosha",
       "year": 400,
-      "description": "Vasubandhu, younger brother of Asanga, composed the Abhidharmakosha — a massive systematic summary of Buddhist metaphysics — and later converted to Mahayana Yogacara, producing foundational texts for Buddhist philosophy across East Asia.",
+      "description": "Vasubandhu (vah-SOO-bahn-doo), Asanga's half-brother, first composed the Abhidharmakosha — the most comprehensive systematic map of Buddhist metaphysics ever written — then converted to Mahayana Yogacara and produced a second body of work that shaped Buddhist philosophy from Tibet to Japan.",
       "wikiSlug": "Vasubandhu",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Abhidharmakosha ('Treasury of Higher Doctrine') is structured as 600 verses followed by Vasubandhu's own prose commentary — a format that made it the standard reference for Buddhist metaphysics in East Asian monasteries for centuries. His short Yogacara treatises, the Trimshika ('Thirty Verses') and Vimshatika ('Twenty Verses'), compress the consciousness-only argument to their barest essentials and remain among the most studied texts in Buddhist philosophy. The conversion story — Asanga reportedly dispatching a student to read Mahayana texts to the sleeping Vasubandhu, who woke converted — may be legendary, but it captures a real historical shift: two brothers who together defined both the limits of earlier Buddhist scholasticism and the new Mahayana synthesis."
+        }
+      ],
+      "commonsFile": "Seshin_Vasubandhu_Kofukuji.jpg"
     },
     {
       "id": "evt-dignaga-pramanasamuccaya",
@@ -843,11 +1208,18 @@
       "id": "evt-devi-mahatmya",
       "label": "Devi Mahatmya Composed",
       "year": 450,
-      "description": "The Devi Mahatmya (Glory of the Goddess), embedded in the Markandeya Purana, was composed circa 450 CE — the first Sanskrit text to systematically present the Great Goddess (Devi) as the supreme power of the universe, founding the Shakta tradition.",
+      "description": "The Devi Mahatmya ('Glory of the Goddess'), composed around 450 CE and embedded in the Markandeya Purana, is the first major Hindu scriptural text to present the Great Goddess Durga as the supreme cosmic power — the unified force behind all the universe's creation, sustenance, and destruction.",
       "wikiSlug": "Devi_Mahatmya",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The text's central story — Durga defeating the buffalo-demon Mahishasura — became one of the most frequently depicted scenes in Indian religious art for the next 1,500 years, and the ten-day festival of Navaratri celebrating that victory remains one of Hinduism's most widely observed observances today. The Devi Mahatmya's theological move was a consolidation: dozens of regional village goddesses and pre-Vedic mother-deities across India were identified as local manifestations of one Mahadevi (Great Goddess), giving the scattered landscape of goddess worship a unified textual authority. The text consists of 700 Sanskrit verses and is still recited in full during Navaratri observances."
+        }
+      ],
+      "commonsFile": "Devimahatmya_(Glory_of_the_Goddess)_manuscript_LACMA_M.88.134.7.jpg"
     },
     {
       "id": "evt-vishnu-purana",
@@ -865,41 +1237,67 @@
       "id": "evt-bhartrihari-vakyapadiya",
       "label": "Bhartrihari's Vakyapadiya",
       "year": 450,
-      "description": "Philosopher-grammarian Bhartrihari composed the Vakyapadiya (On the Sentence and the Word), arguing that language (shabda-brahman) is the ultimate reality — a linguistic philosophy that influenced both Indian grammar theory and Hindu metaphysics.",
+      "description": "Philosopher-poet Bhartrihari's Vakyapadiya (\"On the Sentence and the Word\") argued that language is not a neutral tool for labeling a pre-existing reality but the very medium through which meaning is constituted — a claim about grammar and thought that anticipates ideas not seriously developed in Western philosophy until Wilhelm von Humboldt in the 19th century and the Sapir-Whorf hypothesis in the 20th.",
       "wikiSlug": "Bhart%E1%B9%9Bhari",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bhartrihari's central concept, sphota (roughly: the indivisible linguistic unit that carries meaning before it is broken into individual sounds or letters), remains a live topic in the philosophy of language today. He was also a poet — three short anthologies of his verses survive on love, moral conduct, and renunciation, and are still widely quoted in Sanskrit-educated circles. The legend that he renounced the world, became an ascetic, returned to court life, and repeated this cycle multiple times is colorful but unverifiable; the philosophical works are the solid ground."
+        }
+      ],
+      "commonsFile": "Hindi_Manuscript_884_Wellcome_L0024558.jpg"
     },
     {
       "id": "evt-aryabhata-pi",
       "label": "Aryabhata Calculates Pi",
       "year": 499,
-      "description": "In the Aryabhatiya, Aryabhata calculated π as approximately 3.1416 — accurate to four decimal places — and explicitly noted it was an approximation (āsanna), showing remarkable awareness of mathematical precision.",
+      "description": "Aryabhata calculated pi as 62832/20000 — equal to 3.1416 — and, crucially, labeled it \"asanna\" (approximate), showing he understood that no finite fraction could exactly express the ratio of a circle's circumference to its diameter.",
       "wikiSlug": "Aryabhatiya#Pi",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His value of 3.1416 beats Archimedes' estimate from seven centuries earlier (3.1408–3.1429) at both ends of precision, and no European mathematician would do better for another thousand years. The label \"asanna\" is as significant as the number itself: recognizing pi as irrational — unreachable by any exact ratio — was a conceptual achievement on top of the computational one. European mathematics would not formally prove pi's irrationality until Johann Lambert did so in 1761."
+        }
+      ],
+      "commonsFile": "Description_of_Kuttaka_in_Aryabhatiya.jpg"
     },
     {
       "id": "evt-aryabhata-earth-rotates",
       "label": "Aryabhata: Earth Rotates on Its Axis",
       "year": 499,
-      "description": "Aryabhata proposed that the apparent daily motion of stars is caused by Earth's own axial rotation — a heliocentric-adjacent insight that was centuries ahead of the European scientific consensus and contested by his own successors.",
+      "description": "Aryabhata argued in 499 CE that the stars' apparent daily spin across the sky is an illusion caused by Earth rotating on its own axis — the same conclusion Copernicus would reach in Europe over a thousand years later.",
       "wikiSlug": "Aryabhata#Motions_of_the_solar_system",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He explained the illusion with a precise analogy: a person on a moving boat sees the stationary trees on the bank appear to slide backward — the motion belongs to the observer, not the trees. Despite being correct, his claim was rejected by most successors, including Brahmagupta, who objected that a rotating Earth would cause winds to sweep birds off their perches. Aryabhata was right; the consensus that overruled him persisted for centuries. His planetary model still placed the Sun orbiting Earth — he got the rotation right without going fully heliocentric."
+        }
+      ]
     },
     {
       "id": "evt-aryabhata-eclipse-theory",
       "label": "Aryabhata's Correct Eclipse Theory",
       "year": 499,
-      "description": "Aryabhata gave the correct scientific explanation for lunar and solar eclipses — that they are caused by Earth's and Moon's shadows, not by a demon swallowing the sun — in direct contradiction of mythological accounts.",
+      "description": "Aryabhata gave the correct geometric explanation for eclipses: lunar eclipses happen because Earth's shadow falls on the Moon, and solar eclipses happen because the Moon's shadow falls on Earth — directly contradicting the older mythological account of the demon Rahu swallowing the Sun.",
       "wikiSlug": "Aryabhatiya#Eclipses",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rather than ignoring the Rahu myth, Aryabhata explicitly acknowledged it and then presented the geometric explanation as the correct one — a pointed intellectual move in a culture where the demon-swallowing story was religiously embedded. His explanation required knowing that the Moon shines only by reflected sunlight and that the relative sizes and distances of Earth, Moon, and Sun produce shadows of the right proportions — both of which his calculations confirmed. The eclipse calculations in the Aryabhatiya were accurate enough that later Indian astronomers used them for practical calendar-making."
+        }
+      ]
     },
     {
       "id": "evt-charaka-samhita-gupta",
@@ -945,51 +1343,85 @@
       "id": "evt-skandagupta-pushyamitras",
       "label": "Skandagupta vs. Pushyamitras",
       "year": 456,
-      "description": "Before facing the Huns, Skandagupta suppressed a revolt by the Pushyamitras — a tribal confederation in central India — demonstrating the internal pressures the empire was managing even at the height of its late power.",
+      "description": "Before he could face the Huns, Skandagupta first had to suppress a revolt by the Pushyamitras — a tribal confederacy on the Gupta frontier in central India — revealing that the empire was fighting on multiple fronts the instant Kumaragupta's long reign ended.",
       "wikiSlug": "Skandagupta#Wars_with_the_Hunas",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pushyamitras are historically distinct from Pushyamitra Shunga, the Maurya-era general who founded the Shunga dynasty centuries earlier — same name, completely different people. The Bhitari pillar inscription treats the Pushyamitra campaign and the Hun confrontation as twin trials Skandagupta had to survive early in his reign. The fact that a regional tribal group felt safe enough to revolt the moment Kumaragupta died signals how quickly the empire's authority began slipping the instant a strong central hand was removed."
+        }
+      ],
+      "commonsFile": "Bhitari_pillar_inscription.jpg"
     },
     {
       "id": "evt-bhanugupta-goparaja",
       "label": "Bhanugupta and the Goparaja Inscription",
       "year": 510,
-      "description": "The Eran stone inscription of 510 CE records that the Gupta king Bhanugupta fought a great battle alongside his chieftain Goparaja, who died in combat while his devoted wife committed sati — one of the earliest epigraphic references to the practice.",
+      "description": "A stone inscription at Eran (a site in modern Madhya Pradesh) dated to around 510 CE records that the late Gupta king Bhanugupta fought a great battle alongside his chieftain Goparaja, who died in the fighting — and that Goparaja's wife immediately performed sati (self-immolation on her dead husband's funeral pyre), an act the inscription explicitly praises. It is one of the earliest pieces of stone evidence we have for sati as a named, approved, elite practice.",
       "wikiSlug": "Bhanugupta",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bhanugupta is one of the most obscure Gupta kings on record: beyond this single Eran inscription and a passing mention in the Buddhist text Manjushri-mula-kalpa, almost nothing survives about his reign. The inscription doesn't name the enemy he and Goparaja were fighting, leaving historians to speculate — the Hunas are the most likely candidate, but it isn't certain. For historians of gender and religion, the Eran sati record matters more than the battle it commemorates: earlier Sanskrit texts describe sati as rare and voluntary; Eran presents it as an honored ritual choice, already praised in formal public stone."
+        }
+      ],
+      "commonsFile": "Bhanugupta_Eran_stone_pillar_inscription.jpg"
     },
     {
       "id": "evt-narasimhagupta-baladitya",
       "label": "Narasimhagupta Baladitya vs. Huns",
       "year": 520,
-      "description": "Gupta king Narasimhagupta Baladitya allied with Yashodharman to resist Mihirakula's Hunnic forces; Chinese pilgrim Xuanzang later recorded that Baladitya captured Mihirakula but released him out of mercy, symbolizing the dynasty's fading but still significant power.",
+      "description": "Narasimhagupta Baladitya (reigned c. 495–530 CE), one of the last substantial Gupta emperors, clashed with the Hunnic warlord Mihirakula during the dynasty's twilight. The Chinese pilgrim Xuanzang reported, a century after the fact, that Baladitya actually captured Mihirakula in battle — then released him as an act of Buddhist mercy, an astonishing gesture from a ruler whose empire was already disintegrating.",
       "wikiSlug": "Narasimhagupta",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Baladitya was the son of Purugupta and probably the successor of Budhagupta; Xuanzang identifies him as king of Magadha, the ancient heartland of Indian empire. Most modern historians treat the capture-and-release story with skepticism: it overlaps awkwardly with Yashodharman's documented defeat of Mihirakula at Mandasor, and the story of freeing a ruler who had massacred thousands of Buddhist monks out of compassion reads more like hagiography than history. Baladitya is also credited with building a great monastery at Nalanda, suggesting the late Guptas were still active Buddhist patrons even as political control slipped away."
+        }
+      ],
+      "commonsFile": "Narasinhagupta_I_Circa_414-455_AD.jpg"
     },
     {
       "id": "evt-successor-states",
       "label": "Rise of Successor Kingdoms",
       "year": 540,
-      "description": "As Gupta central authority dissolved, regional successor states emerged: the Maukharis in the Gangetic plain, the Later Guptas of Magadha (a separate dynasty), and the Maitrakas of Vallabhi in Gujarat — each claiming Gupta legitimacy while forging independent kingdoms.",
+      "description": "As Gupta power dissolved around 540 CE, former vassal dynasties stepped into the vacuum. The Maukharis seized Kanauj (the strategic city at the heart of the central Ganges plain), a collateral Later Gupta lineage clung to a remnant kingdom in Magadha, and the Maitrakas ruled Gujarat's western coast from their capital Vallabhi — a city that would grow into the second most important center of Buddhist scholarship in India after Nalanda.",
       "wikiSlug": "Maukhari_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Maitrakas proved the most durable of the successor states, ruling from roughly 475 to 776 CE — over three centuries. The Maukharis, who held the strategically vital Kanauj, were eventually absorbed not by a foreign conqueror but by Harshavardhana, the north Indian king of Thanesar, who reunified much of the region around 606 CE. The Later Guptas of Magadha were a separate lineage from the imperial Guptas — probably a collateral branch — who kept the dynastic name alive into the 7th and early 8th centuries without ever recovering the empire's reach."
+        }
+      ],
+      "commonsFile": "Maukharis_of_Kanauj._Isanavarman._Circa_AD_535-553.jpg"
     },
     {
       "id": "evt-battle-sondani",
       "label": "Battle of Sondani",
       "year": 528,
-      "description": "At the Battle of Sondani (528 CE), regional ruler Yashodharman of Malwa decisively defeated Mihirakula's Hunnic army, ending the most brutal phase of Hunnic domination; Yashodharman's victory pillar at Mandasor boasts he subdued even the Guptas.",
+      "description": "The Battle of Sondani (around 528 CE) was the decisive clash between Yashodharman's forces and Mihirakula's Hunnic army — the battle that ended Hunnic imperial ambitions in India and forced Mihirakula into the formal Indian gesture of submission: touching his head to the victor's feet.",
       "wikiSlug": "Yashodharman",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle's exact location remains uncertain — \"Sondani\" is the traditional name but the site has not been identified archaeologically. The Mandasor inscription's account of Mihirakula bowing in submission is the formal Indian vassal-acknowledgment gesture, a calculated public humiliation for a king who had been claiming Gupta-style imperial titles. Mihirakula reportedly fled north to Kashmir and died there in the 530s — but the Gupta dynasty itself did not recover the territories or authority the Huna wars had stripped away."
+        }
+      ]
     },
     {
       "id": "evt-gupta-silver-coinage",
@@ -1025,11 +1457,18 @@
       "id": "evt-samudragupta-allahabad-21-kings",
       "label": "21 Kings Defeated: Allahabad Pillar",
       "year": 350,
-      "description": "The Allahabad Pillar inscription lists 21 northern kings uprooted and re-instated as vassals by Samudragupta — a deliberate policy of humiliation-then-absorption that extended Gupta suzerainty without the cost of direct annexation across a vast frontier.",
+      "description": "The Allahabad Pillar inscription names twenty-one northern kings that Samudragupta \"violently uprooted\" and annexed — the most concrete surviving record of any Indian emperor's campaigns before the medieval period, detailed enough that historians take its general geography seriously even while discounting its rhetoric.",
       "wikiSlug": "Allahabad_Pillar",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inscription uses the term digvijaya (\"conquest of the four directions\") — an ancient Indian royal ideal that many kings had claimed but that Samudragupta may be the first to have substantially fulfilled. The document is explicitly a panegyric (a formal praise-poem) composed in ornate Sanskrit verse, not a chronicle — yet its specificity about named kings and the different policies applied to northern versus southern rulers has made it the primary source historians rely on for reconstructing Gupta expansion. The pillar also records peripheral peoples who sent tribute and daughters in marriage without being conquered, from the Himalayan foothills to Sri Lanka."
+        }
+      ],
+      "commonsFile": "Allahabad_Pillar_by_Joseph_Tiefenthaler,_18th_Century.jpg"
     },
     {
       "id": "evt-pancharatra-tradition",
@@ -1045,11 +1484,18 @@
       "id": "evt-gupta-natyashastra-study",
       "label": "Classical Music and Drama Theory Flourishes",
       "year": 400,
-      "description": "Gupta-era scholars systematically studied and elaborated the Natyashastra — the ancient treatise on performance, music, and aesthetics — producing a sophisticated theory of rasa (emotional essence) that underpins all classical Indian arts to the present day.",
+      "description": "Gupta-era scholars elaborated and systematized the Natyashastra — the foundational Sanskrit treatise on drama, music, and dance attributed to the sage Bharata Muni — producing the first comprehensive theory of aesthetic emotional response in any literary tradition, built around the concept of rasa (the \"flavor\" or emotional essence a successful performance evokes in an audience).",
       "wikiSlug": "Natyashastra",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Natyashastra identifies nine rasas — love, humor, sorrow, anger, heroism, fear, disgust, wonder, and peace — and argues that a skilled performer's job is not simply to express an emotion but to transmit its essence into the audience's experience. The text covers not just drama but music theory, dance technique, stage architecture, costume, and even the acoustics of performance spaces, making it closer to a complete arts encyclopedia than a single treatise. Western aesthetics would not develop comparable systematic theory of emotional response in art until the 18th century, more than a thousand years after the Natyashastra's Gupta-era redaction."
+        }
+      ],
+      "commonsFile": "Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg"
     },
     {
       "id": "evt-vainyagupta",
@@ -1065,35 +1511,53 @@
       "id": "evt-ghatotkacha",
       "label": "Ghatotkacha, Gupta Dynastic Link",
       "year": 280,
-      "description": "Ghatotkacha — son of Sri Gupta and father of Chandragupta I — is the obscure middle link in the Gupta founding lineage. Named after the half-demon giant of the Mahabharata, he ruled a small Magadha territory but left no surviving inscriptions or coins; his significance is genealogical, bridging the dynasty's shadowy origins to its imperial launch under his son.",
+      "description": "Ghatotkacha was the obscure middle link in the Gupta founding chain — son of dynasty-starter Sri Gupta, father of empire-launcher Chandragupta I — who ruled a small stretch of Magadha around 280 CE and left behind no coins, no inscriptions, and essentially nothing else.",
       "wikiSlug": "Ghatotkacha_(king)",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His name was borrowed from the Mahabharata: Ghatotkacha was the giant half-demon son of the hero Bhima, born of a rakshasi (a supernatural being), who fought and died in the great war. Indian royal naming was rarely subtle about ambition. The fact that we know Ghatotkacha existed at all comes entirely from later Gupta inscriptions listing the dynastic lineage — he is history's footnote between two more consequential men."
+        }
+      ]
     },
     {
       "id": "evt-kumaradevi",
       "label": "Kumaradevi, the Lichchhavi Queen",
       "year": 320,
-      "description": "Kumaradevi, princess of the prestigious Lichchhavi confederation, married Chandragupta I and gave the young Gupta dynasty its crucial legitimacy boost. She is depicted alongside her husband on the famous Chandragupta I–Kumaradevi gold coins — the first Indian coins to show a queen as co-equal partner — with the reverse legend 'Lichchhavayah' advertising her family's ancient pedigree.",
+      "description": "Kumaradevi was a princess of the Lichchhavi confederation — one of north India's oldest republican clans, contemporaries of the Buddha — whose marriage to Chandragupta I gave the upstart Gupta dynasty the deep ancestral legitimacy it desperately needed, and whose name appeared on their joint coinage as a co-equal partner.",
       "wikiSlug": "Kumaradevi",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "No previous Indian dynasty had placed a queen on its coins as an equal alongside the king — the Chandragupta I–Kumaradevi gold coin type was a genuinely novel political statement. Kumaradevi is described on inscriptions as a co-ruler, not merely a consort. The Lichchhavi confederation she came from was the same political form (a gana-sangha, or tribal republic) that had governed the Shakya clan, the family the Buddha was born into, six centuries earlier."
+        }
+      ]
     },
     {
       "id": "evt-dhruvadevi",
       "label": "Dhruvadevi, Queen of the Succession Crisis",
       "year": 376,
-      "description": "Dhruvadevi was queen first to Ramagupta and then, after Chandragupta II seized the throne, to Chandragupta II himself — a levirate remarriage attested in Gupta inscriptions. Vishakhadatta's play Devichandraguptam dramatized the succession, depicting Dhruvadevi as central to the coup that displaced Ramagupta. She later appears in epigraphy as queen-mother of Kumaragupta I.",
+      "description": "Dhruvadevi was first queen to Ramagupta and then, after Chandragupta II seized power, to Chandragupta II himself — a remarriage of a brother's widow (levirate remarriage) confirmed in Gupta inscriptions, not just in later legend. She later appears in epigraphy as queen-mother of the next emperor, Kumaragupta I.",
       "wikiSlug": "Dhruvadevi",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A clay seal inscription identifies her as 'Dhruvasvamini,' queen of Chandragupta II and mother of a prince Govindagupta — making her one of the better-documented Gupta queens despite the near-total absence of narrative sources about her life. The Devichandraguptam play places her at the center of the succession drama as the queen whose honor Chandragupta II's disguised mission is meant to defend, though the play's specific details cannot be independently verified."
+        }
+      ]
     },
     {
       "id": "evt-devichandraguptam",
@@ -1109,23 +1573,37 @@
       "id": "evt-kalidasa-vikramorvashiya",
       "label": "Vikramorvashiya (Urvashi Won by Valor)",
       "year": 399,
-      "description": "Kalidasa's play Vikramorvashiya — 'Urvashi Won by Valor' — recounts a king's love for the celestial apsara Urvashi, whose heavenly and mortal natures make their union perpetually fragile. Mythic in tone where Shakuntala is romantic and Malavikagnimitra is comic, it represents the full range of Kalidasa's dramatic vision and is notable for a fourth act in which the king, driven mad by separation, addresses the rocks and trees of the forest.",
+      "description": "Kalidasa's Vikramorvashiya (\"Urvashi Won by Valor\") is a five-act play about a mortal king's love for Urvashi, a celestial apsara (divine nymph) whose heavenly nature makes their union perpetually unstable — mythic and emotionally turbulent in tone where Shakuntala is romantic and Malavikagnimitra is comic.",
       "wikiSlug": "Vikramorva%C5%9B%C4%ABya",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The play's fourth act is considered one of the most technically daring sequences in Sanskrit drama: the king, driven temporarily mad by Urvashi's disappearance into an enchanted forest, wanders the stage delivering a one-sided lyric monologue to trees, rocks, and animals, teetering close to complete breakdown. Urvashi appears in the Rigveda — one of the oldest Vedic texts — making her mythological pedigree far older than Kalidasa's play and giving the story an antiquity that the other plays lack. Unlike Shakuntala's emotionally complex reunion, this play ends with the gods granting Urvashi permanent residence in the mortal world, an unusually uncomplicated happy ending by Sanskrit standards."
+        }
+      ],
+      "commonsFile": "Urvashi.jpg"
     },
     {
       "id": "evt-kalidasa-kumarasambhava",
       "label": "Kumarasambhava (The Birth of the War-God)",
       "year": 396,
-      "description": "Kalidasa's mahakavya Kumarasambhava — 'The Birth of the War-God' — depicts the courtship of Shiva and Parvati, the destruction of the love-god Kama when he interrupts Shiva's meditation, and the eventual conception of their son Kartikeya. Its erotic and theological range made it one of the most celebrated and controversial Sanskrit court epics, containing some of the most explicitly sensuous passages in the canon.",
+      "description": "Kalidasa's Kumarasambhava (\"The Birth of the War-God\") is a court epic about the courtship of the god Shiva and the goddess Parvati — including the incineration of Kama (the love-god) when he dares interrupt Shiva's meditation — and the eventual conception of their son Kartikeya, containing some of the most explicitly sensuous passages in classical Sanskrit literature.",
       "wikiSlug": "Kum%C4%81rasambhava",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The poem's eighth canto, its most erotic, was considered so transgressive by later commentators that some manuscript traditions omitted it entirely, and debates about whether Kalidasa actually wrote it continued for centuries. The destruction of Kama by Shiva's third eye, only for desire to ultimately triumph through Parvati's own severe ascetic devotion, is one of Sanskrit literature's great theological paradoxes: the poem uses the god of asceticism to argue for the necessity of love. The surviving text has seventeen cantos, though some scholars believe the original may have been shorter and a later poet continued it."
+        }
+      ],
+      "commonsFile": "Murugan_by_Raja_Ravi_Varma.jpg"
     },
     {
       "id": "evt-wootz-steel",
@@ -1142,11 +1620,17 @@
       "label": "Purugupta, Disputed Successor",
       "year": 467,
       "endYear": 476,
-      "description": "Purugupta — probably Skandagupta's brother by a different mother — succeeded after Skandagupta left no son. His brief reign is poorly attested, but coins in his name confirm he held the Gupta throne in the decade following Skandagupta's death. His succession marks the beginning of the dynasty's contested late period, in which multiple Gupta branches issued grants simultaneously across shrinking territories.",
+      "description": "Purugupta (ruled approximately 467–476 CE) — probably Skandagupta's half-brother, son of a different mother — inherited a depleted throne after Skandagupta died without a son, opening the contested late period in which rival Gupta branches issued coins across shrinking territories simultaneously.",
       "wikiSlug": "Purugupta",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "No inscription of Purugupta himself has ever been found — he is known only from seals and clay sealings of his sons (Narasimhagupta and Budhagupta) and his grandson Kumaragupta III, making his reign one of the most sparsely documented in the dynasty. Scholars once attributed coins marked \"Prakashaditya\" to him, but that has since been definitively disproven — Prakashaditya was actually the Hunnic king Toramana, a telling mix-up that illustrates how thoroughly the Huna rulers had adopted Indian royal styles and titles."
+        }
+      ]
     },
     {
       "id": "evt-vishnugupta",
@@ -1163,13 +1647,20 @@
       "id": "evt-bhitari-pillar",
       "label": "Bhitari Pillar Inscription of Skandagupta",
       "year": 458,
-      "description": "Skandagupta's victory pillar at Bhitari in modern Uttar Pradesh is the primary epigraphic source for his contested succession and his wars against the Huns. Its famous passage — 'From whom the earth shook, when their armies clashed; whose battle had to be fought hand to hand; in which the splash of blood fell like rain' — is the most vivid battle description in any Gupta inscription and the chief evidence for the scale and ferocity of the Hephthalite invasion Skandagupta repelled.",
+      "description": "The Bhitari pillar inscription, erected by Skandagupta at Bhitari in modern Uttar Pradesh, is the primary source for his contested rise to power and his Hunnic wars — a 15-foot Sanskrit column with some of the most vivid battle prose in Gupta epigraphy.",
       "wikiSlug": "Bhitari_pillar_inscription_of_Skandagupta",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inscription was discovered in the village of Bhitari near Saidpur, Uttar Pradesh. It is one of the few Gupta records that describes internal political turbulence — its language implies Skandagupta had to fight rivals at home before fighting enemies at the frontier, suggesting the succession was more coup than orderly handoff. The pillar format deliberately echoes the Ashokan pillars, placing Skandagupta in a line of great empire-builders even as his empire was beginning to fray."
+        }
+      ],
+      "commonsFile": "Bhitari_pillar_of_Skandagupta.jpg"
     }
   ]
 }
