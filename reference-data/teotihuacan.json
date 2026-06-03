@@ -49,499 +49,819 @@
       "id": "evt-teo-cuicuilco-eruption",
       "label": "Xitle Eruption Destroys Cuicuilco",
       "year": -50,
-      "description": "The Xitle volcano erupted and buried Cuicuilco, the Basin of Mexico's largest city, under lava. Thousands of refugees migrated to the Teotihuacan Valley, fueling rapid urban growth.",
+      "description": "Around 50 BCE (estimates range from 50 BCE to 80 CE), the Xitle volcano buried Cuicuilco — the Basin of Mexico's largest city, with a population around 20,000 — under roughly 30 feet (10 meters) of hardened basaltic lava, sending thousands of refugees northeast toward the Teotihuacan Valley.",
       "wikiSlug": "Cuicuilco",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cuicuilco's circular pyramid, about 60 feet (18 meters) tall, still pokes above the lava field today — you can visit it wedged between a shopping mall and a ring road in southern Mexico City. The lava field, called the Pedregal (\"stony ground\"), covers roughly 30 square miles (80 sq km) and reshaped the entire southern basin's hydrology by blocking drainage. Remarkably, people continued making ritual offerings at the buried site for centuries after the eruption, suggesting Cuicuilco's religious significance outlasted its physical destruction."
+        }
+      ],
+      "commonsFile": "Western_side_of_the_circular_pyramid_at_Cuicuilco._(32961693441).jpg"
     },
     {
       "id": "evt-teo-early-settlement",
       "label": "Teotihuacan Valley Settlement",
       "year": -100,
-      "description": "Small agricultural villages in the Teotihuacan Valley began coalescing into a larger settlement, drawn by obsidian sources, reliable springs, and fertile volcanic soil.",
+      "description": "By around 100 BCE, small farming villages in the Teotihuacan Valley — a narrow corridor about 30 miles (48 km) northeast of modern Mexico City — were coalescing into something bigger, drawn by reliable springs, fertile volcanic soil, and the richest obsidian deposits in central Mexico.",
       "wikiSlug": "Teotihuacan#Origins",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The valley sits at roughly 7,400 feet (2,250 meters) elevation, high enough for frosts and a short growing season — yet intensive agriculture thrived. Its strategic position as a natural bottleneck between the Basin of Mexico and the Gulf Coast lowlands made it a trade gateway as well as a farming zone. Within a century or two of these first coalescences, the population would balloon from a few thousand to an estimated 20,000–40,000 people — fast even by modern urbanization standards."
+        }
+      ],
+      "commonsFile": "Teotihuacán-5973.JPG"
     },
     {
       "id": "evt-teo-urban-planning",
       "label": "Grid City Planning Begins",
       "year": -50,
-      "description": "Teotihuacan's founders laid out the city on a precise grid oriented 15.5 degrees east of true north, a deliberate alignment that governed all subsequent construction for six centuries.",
+      "description": "From its earliest decades, Teotihuacan was laid out on a precise city-wide grid oriented 15.5 degrees east of true north — not the organic sprawl of a village that grew up around a market, but a deliberate master plan imposed from the start and followed without a single deviation for six centuries.",
       "wikiSlug": "Teotihuacan#City_layout",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The grid ultimately governed every structure across about 8 square miles (20 sq km): pyramids, apartment compounds, canals, and avenues all share the same alignment. Even the San Juan River running through the city was apparently rerouted to conform to the grid rather than its natural course — a massive civic-engineering effort undertaken purely for geometric consistency. That kind of institutional memory, maintained across twenty-plus generations with no known written planning code, has no clear parallel in the ancient world."
+        }
+      ],
+      "commonsFile": "AvenueoftheDeadTeotihuacan.jpg"
     },
     {
       "id": "evt-teo-pyramid-sun",
       "label": "Pyramid of the Sun",
       "year": 100,
-      "description": "The Pyramid of the Sun was constructed over a sacred cave, rising 216 feet (66 m) with a base nearly as large as the Great Pyramid of Giza — the third-largest pyramid in the ancient world.",
+      "description": "The Pyramid of the Sun is Teotihuacan's defining monument — 216 feet (66 m) tall, with a base nearly as wide as the Great Pyramid of Giza, built over a sacred cave in roughly a single construction campaign around 100 CE.",
       "wikiSlug": "Pyramid_of_the_Sun",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pyramid contains an estimated 1.2 million cubic meters of fill — about a third the volume of Giza — yet was completed far faster than Egypt's royal tombs, likely by a citywide labor force rather than a specialized workforce. Its exterior was coated in thick lime plaster and painted red and white, so the bare stone visitors see today is just the skeleton. We still don't know its original name: 'Pyramid of the Sun' is an Aztec label applied over a thousand years after construction, and some scholars argue it was actually dedicated to the Storm God based on its cave and water symbolism."
+        }
+      ],
+      "commonsFile": "Pyramid_of_the_Sun,_Teotihuacan,_from_path_to_parking_lot.jpg"
     },
     {
       "id": "evt-teo-sacred-cave",
       "label": "Sacred Cave Beneath the Pyramid",
       "year": 80,
-      "description": "A natural cave beneath the Pyramid of the Sun, modified into a clover-leaf shape, likely served as the city's origin shrine — Mesoamerican creation myths placed humanity's emergence from caves.",
+      "description": "A natural cave running about 330 feet (100 m) into the bedrock directly beneath the Pyramid of the Sun was artificially expanded into a clover-leaf shape and filled with offerings — almost certainly the sacred reason the pyramid was built exactly where it was.",
       "wikiSlug": "Pyramid_of_the_Sun#Cave",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mesoamerican creation myths across cultures consistently placed humanity's origin inside caves, so the builders likely found this cave first and then piled an artificial mountain on top of it — not the other way around. The cave's entrance sits at the base of the pyramid's western staircase and was so thoroughly sealed after use that it wasn't rediscovered until 1971. Its clover-leaf plan (four lobed chambers off a central passage) mirrors the four-directional cosmological symbolism found throughout Mesoamerican religion."
+        }
+      ]
     },
     {
       "id": "evt-teo-street-dead",
       "label": "Street of the Dead",
       "year": 100,
-      "description": "The Street of the Dead, a 2-mile (3.2 km) ceremonial avenue running north-south through the city center, was laid out as the main axis connecting the major pyramid complexes.",
+      "description": "The Street of the Dead is a 2-mile (3.2 km) ceremonial avenue — 130 feet (40 m) wide — that served as the spine of Teotihuacan, linking the Pyramid of the Moon in the north to the Ciudadela compound in the south.",
       "wikiSlug": "Dead-end_street",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Aztecs named it 'Street of the Dead' (Miccaotli) because they mistook the platforms lining it for royal tombs — they were wrong, but the name stuck. The avenue actually slopes uphill toward the north, and the architects made the platforms progressively taller to amplify that rise, so walking toward the Pyramid of the Moon felt like climbing toward a sacred mountain. Rectangular sunken plazas were spaced along it at regular intervals, probably for water collection and public gathering."
+        }
+      ]
     },
     {
       "id": "evt-teo-pyramid-moon",
       "label": "Pyramid of the Moon",
       "year": 150,
-      "description": "The Pyramid of the Moon was built at the northern terminus of the Street of the Dead, constructed in seven successive phases with sacrificial burials interred at each stage.",
+      "description": "The Pyramid of the Moon anchors the northern end of the Street of the Dead and was deliberately shaped to echo the outline of Cerro Gordo, the mountain directly behind it, making the built and natural worlds appear continuous.",
       "wikiSlug": "Pyramid_of_the_Moon",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was built in at least seven successive phases, and archaeologists found sacrificial burials sealed inside at each stage — including humans, animals, and objects — suggesting each new building campaign required a ritual dedication. The pyramid actually covers an even older structure that predates the Pyramid of the Sun, meaning the Moon's hilltop was sacred before the grand city plan was ever drawn. Cerro Gordo behind it may have been called Tenan, meaning 'mother or protective stone' in Nahuatl."
+        }
+      ],
+      "commonsFile": "Piramide_de_la_Luna_072006.jpg"
     },
     {
       "id": "evt-teo-moon-plaza",
       "label": "Moon Plaza Complex",
       "year": 200,
-      "description": "The large plaza in front of the Pyramid of the Moon, surrounded by smaller platforms, served as the primary public ceremonial space for state rituals and processions.",
+      "description": "The Moon Plaza — the vast open courtyard at the Pyramid of the Moon's base, ringed by smaller platforms on three sides — was Teotihuacan's main public theater, large enough to hold tens of thousands of spectators for state ceremonies and processions along the Street of the Dead.",
       "wikiSlug": "Pyramid_of_the_Moon#Moon_Plaza",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The plaza's surrounding platform structures were almost certainly used by priests and elites to overlook the crowd below. The Pyramid of the Moon was built to optically merge with Cerro Gordo (the sacred mountain directly behind it), so a spectator in the plaza simultaneously faced a man-made pyramid and a sacred peak — the city and the cosmos in one sight line. The Nahuatl name for such a sacred mountain, Tenan, means 'mother of waters,' linking the whole northern end of the city to concepts of water and fertility."
+        }
+      ],
+      "commonsFile": "Pyramid_of_the_Moon,_Teotihuacan,_Mexico_(7335332138).jpg"
     },
     {
       "id": "evt-teo-feathered-serpent",
       "label": "Temple of the Feathered Serpent",
       "year": 200,
-      "description": "The Temple of the Feathered Serpent (Quetzalcoatl) was built in the Ciudadela compound, its facades carved with undulating feathered serpents and goggle-eyed storm god heads.",
+      "description": "Built around 200 CE inside the massive walled Ciudadela compound, the Temple of the Feathered Serpent is Teotihuacan's most lavishly decorated building: its facades covered with carved stone serpent heads thrusting outward in three-dimensional relief, alternating with goggle-eyed Storm God faces, everything originally painted in vivid color.",
       "wikiSlug": "Temple_of_the_Feathered_Serpent,_Teotihuacan",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple is the third largest pyramid at Teotihuacan by volume, yet it is hidden inside the Ciudadela's high walls — you had to enter the compound to see it at all. Unlike the Pyramid of the Sun and Moon dominating the skyline, this building was an interior spectacle, its extraordinary decoration reserved for those granted access. The Ciudadela compound it sits inside covers roughly 38 acres (15 hectares), large enough that some scholars believe it also functioned as a marketplace for traders arriving from across Mesoamerica."
+        }
+      ],
+      "commonsFile": "Temple_of_Feathered_Serpent_view_from_top_of_Adosada_platform_Teotihuacan.jpg"
     },
     {
       "id": "evt-teo-sacrificial-burials",
       "label": "Mass Sacrificial Burials",
       "year": 200,
-      "description": "Over 200 sacrificial victims were interred beneath the Temple of the Feathered Serpent — warriors with hands bound behind their backs, wearing necklaces of human jawbones and shell ornaments.",
+      "description": "When the Temple of the Feathered Serpent was consecrated around 200 CE, more than 200 people were killed and buried beneath it in organized rows — bound warriors wearing necklaces of human jawbones and shell ornaments shaped like human teeth, arranged in patterns tied to the cardinal directions.",
       "wikiSlug": "Temple_of_the_Feathered_Serpent,_Teotihuacan#Burials",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Royal Tombs of Ur in Mesopotamia (around 2500 BCE) — long the largest known sacrificial burial in the ancient world — contained roughly 74 attendants; Teotihuacan tripled that in a single building consecration. The victims were not random commoners: they were buried with obsidian projectile points and ceremonial military objects, suggesting captured enemy warriors. The precision of their arrangement (rows of four, groupings matching the four world-directions) marks this as a planned, bureaucratically organized act, not violence in the heat of ritual."
+        }
+      ]
     },
     {
       "id": "evt-teo-moon-sacrifices",
       "label": "Pyramid of the Moon Sacrifices",
       "year": 250,
-      "description": "Excavations revealed sacrificial deposits in each building phase of the Moon Pyramid: bound captives, decapitated bodies, jaguars, pumas, eagles, and wolves interred with greenstone offerings.",
+      "description": "Each of the Pyramid of the Moon's seven construction phases (roughly 100–350 CE) was sealed with a dedicatory burial: bound captive warriors, decapitated bodies, and predatory animals — jaguars, pumas, eagles, rattlesnakes — interred alongside jade, obsidian, and pyrite mirrors.",
       "wikiSlug": "Pyramid_of_the_Moon#Excavations",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The jaguars and pumas in these burials were lowland tropical species, transported hundreds of miles into the highland basin, possibly kept alive until the moment of sacrifice. By Phase 4, a single deposit contained more than 400 pieces of worked greenstone, obsidian, and pyrite alongside the human victims and animals. One burial included individuals wearing necklaces made of actual human jawbones. Each new layer reads as a running score of state power, each phase more extravagant than the last."
+        }
+      ]
     },
     {
       "id": "evt-teo-ciudadela",
       "label": "The Ciudadela",
       "year": 200,
-      "description": "The Ciudadela ('citadel') was a massive enclosed compound surrounding the Temple of the Feathered Serpent, likely serving as the administrative and political center of the city.",
+      "description": "The Ciudadela (see-oo-dah-DEH-lah, 'citadel') is a massive walled compound at the southern end of the Street of the Dead, enclosing the Temple of the Feathered Serpent and likely functioning as the city's political and administrative heart.",
       "wikiSlug": "Estadio_La_Ciudadela",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Ciudadela's central plaza could hold roughly 100,000 people — essentially the entire city's population at the time — suggesting it was designed as a site for mass public ceremony, not just elite ritual. The Temple of the Feathered Serpent inside it is covered in carved serpent heads alternating with Storm God masks, one of the most elaborately decorated facades at the site. Excavations beneath the temple have revealed one of the largest single-event sacrificial deposits ever found at Teotihuacan, with over 200 individuals buried in the foundations."
+        }
+      ]
     },
     {
       "id": "evt-teo-talud-tablero",
       "label": "Talud-Tablero Architecture",
       "year": 150,
-      "description": "Teotihuacan developed the talud-tablero style — a sloping base (talud) topped by a rectangular framed panel (tablero) — that became the city's architectural signature and was exported across Mesoamerica.",
+      "description": "The talud-tablero (tah-LOOD tah-BLEH-roh) — a sloping lower wall topped by a projecting rectangular framed panel — was Teotihuacan's architectural signature, used on virtually every platform and pyramid in the city.",
       "wikiSlug": "Talud-tablero",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The style spread so widely that finding it at distant sites is now considered a marker of Teotihuacan influence: it shows up at Monte Albán in Oaxaca, Kaminaljuyú in highland Guatemala, and even Tikal deep in the Maya lowlands. No other Mesoamerican city used it so consistently or exported it so far, making talud-tablero effectively the city's architectural brand identity across Mesoamerica. The tablero panel was typically painted or carved, turning each platform into a giant framed billboard."
+        }
+      ],
+      "commonsFile": "Est_17_talud_tablero.JPG"
     },
     {
       "id": "evt-teo-apartment-compounds",
       "label": "Apartment Compounds",
       "year": 250,
-      "description": "Teotihuacan housed its population in over 2,000 walled apartment compounds, each sheltering 60-100 people around shared courtyards — a unique urban housing form found nowhere else in the ancient Americas.",
+      "description": "By around 250 CE, Teotihuacan had reorganized its population into over 2,000 walled apartment compounds, each housing 60 to 100 people around shared courtyards — a residential form found nowhere else in the ancient Americas, and one of the most unusual urban housing experiments in the ancient world.",
       "wikiSlug": "Teotihuacan#Residential_compounds",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Isotope analysis of bones from Tlajinga, a working-class district at the city's southern edge, showed that 30–40% of residents were migrants who had spent their childhoods somewhere else — reflecting the city's role as a magnet drawing people from across Mesoamerica. The compounds had lime-plastered floors, built-in drainage channels, and interior murals; they were not slums. The Tepantitla compound preserves a famous mural scene sometimes called the \"Tlaloc Paradise,\" with hundreds of tiny human figures in procession, representing one of the densest narrative images to survive from the pre-Columbian world."
+        }
+      ],
+      "commonsFile": "Teotihuacan,_Pyramid_of_the_Sun_and_Avenue_of_the_Dead_(20686678965).jpg"
     },
     {
       "id": "evt-teo-obsidian-workshops",
       "label": "Obsidian Workshops",
       "year": 100,
-      "description": "Hundreds of obsidian workshops operated across the city, producing blades, dart points, and eccentrics. The industry employed thousands and was Teotihuacan's primary economic engine.",
+      "description": "More than 400 obsidian workshops operated inside Teotihuacan, turning raw volcanic glass into blades, dart points, scrapers, and ritual eccentrics (objects carved into elaborate shapes like serpents and human silhouettes for ceremonial use) at an industrial scale that would not be matched in the Americas until the modern era.",
       "wikiSlug": "Teotihuacan#Obsidian",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Green obsidian from the Sierra de las Navajas — the prestige quarry about 30 miles northeast of the city — is chemically distinctive enough that archaeologists can trace individual blades found at Maya or Zapotec sites back to this single deposit, confirming Teotihuacan controlled the entire supply chain. Green obsidian workshops clustered near the ceremonial core under apparent state oversight, while gray obsidian shops for everyday tools scattered more freely across the city — two tiers of industry operating under different rules within the same city. The sharpest obsidian blades are finer-edged than modern surgical steel, which is why obsidian served as Mesoamerica's scalpel in the complete absence of metal tools."
+        }
+      ]
     },
     {
       "id": "evt-teo-sierra-navajas",
       "label": "Sierra de las Navajas Obsidian Source",
       "year": 50,
-      "description": "Teotihuacan controlled the Sierra de las Navajas (Hill of Knives), the richest source of green obsidian in Mesoamerica, giving it a near-monopoly on the most prized cutting material in the region.",
+      "description": "The Sierra de las Navajas (\"Hill of Knives\"), about 30 miles (50 km) from Teotihuacan, produced a rare translucent dark-green obsidian found nowhere else in Mesoamerica — and Teotihuacan controlled it, giving the city a near-monopoly on the most prestigious cutting material on the continent.",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Sierra de las Navajas deposit is the world's largest obsidian source and has the longest continuous mining history in the Americas — exploited for at least 3,000 years before the Spanish arrived. Green obsidian from this ridge has been chemically traced to archaeological sites hundreds of miles away across Mesoamerica. The same deposit later underpinned the economies of Toltec Tula and then Aztec Tenochtitlan — three successive Mesoamerican superpowers, one mine."
+        }
+      ],
+      "commonsFile": "Spiro_Mounds_Obsidian_Scraper_with_Mesoamerican_origin,_Ventral,_Craig_Skinner_of_the_Northwest_Research_Obsidian_Studies_Laboratory.jpg"
     },
     {
       "id": "evt-teo-gray-obsidian",
       "label": "Otumba Gray Obsidian",
       "year": 100,
-      "description": "In addition to green obsidian from Sierra de las Navajas, Teotihuacan exploited the nearby Otumba source for gray obsidian, used in everyday tools while green obsidian served prestige and ritual purposes.",
+      "description": "Alongside the prestigious green obsidian, Teotihuacan exploited the nearby Otumba source for gray obsidian — the workhorse material used for everyday knives, scrapers, and dart points that kept the city's craftsmen and its trade partners supplied.",
       "wikiSlug": "Teotihuacan#Obsidian",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Teotihuacan ran an estimated 100-plus obsidian workshops inside the city, organized and apparently state-controlled rather than independent — a level of economic centralization unusual even by ancient standards. Notably, ordinary residential apartment compounds had the same access to quality obsidian tools as neighborhoods near the ceremonial center, suggesting the distribution was managed for broad equity rather than hoarded by elites. Because obsidian can be chemically fingerprinted to its exact source, archaeologists can track Teotihuacan-origin blades to sites across Guatemala, Belize, and beyond — a precise measure of the city's commercial reach."
+        }
+      ]
     },
     {
       "id": "evt-teo-peak-population",
       "label": "Peak Population: 125,000-200,000",
       "year": 400,
-      "description": "Teotihuacan reached a peak population of 125,000-200,000, making it the sixth-largest city in the world around 400 CE and by far the largest in the Western Hemisphere.",
+      "description": "Around 400 CE, Teotihuacan held an estimated 125,000 to 200,000 people — the largest city in the Western Hemisphere by an enormous margin, a record it would hold for roughly a thousand years until the Aztec capital Tenochtitlán matched it in the 1400s.",
       "wikiSlug": "Teotihuacan#Population",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Archaeologists estimate ancient populations by counting apartment compounds and multiplying by estimated occupancy — a method that compounds error at every step, which is why the range spans 75,000 people. This scale was achieved without writing, metal tools, wheeled transport, or draft animals: none of the infrastructure advantages that helped Eurasian cities grow. For context, Rome around 400 CE was in steep decline as the Western Empire fragmented, while Constantinople held perhaps 400,000 people — larger, but on a continent with horses, iron plows, and maritime networks Teotihuacan could not access."
+        }
+      ]
     },
     {
       "id": "evt-teo-great-goddess",
       "label": "The Great Goddess",
       "year": 300,
-      "description": "The 'Great Goddess' (sometimes called the Spider Woman) was a major Teotihuacan deity depicted with a bird headdress, jade nose bar, and water streams flowing from her hands, dominating many apartment compound murals.",
+      "description": "The Great Goddess (sometimes called the Spider Woman) was the most prominent female deity in Teotihuacan's art — a massive, frontal figure in elaborate regalia painted across apartment compound walls, with a bird headdress, jade nose bar, and streams of water and seeds flowing from her hands.",
       "wikiSlug": "Great_Goddess_of_Teotihuacan",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars gave her the name 'Great Goddess' only in the 20th century; no Teotihuacan text identifies her, so every name we use is borrowed from later Aztec religion or coined by modern researchers. She appears more frequently in the city's murals than any other deity, and in a city that deliberately refused to depict its rulers, she was as close to a public face of authority as the city ever put on a wall. She may have been the spiritual patron of Teotihuacan itself, linked to the sacred cave beneath the Pyramid of the Sun."
+        }
+      ],
+      "commonsFile": "Tetitla_Diosa_de_Jade.jpg"
     },
     {
       "id": "evt-teo-storm-god",
       "label": "Storm God (Tlaloc)",
       "year": 200,
-      "description": "The Storm God, recognizable by distinctive goggle eyes and fanged mouth, was one of Teotihuacan's most prominent deities — later adopted by the Aztecs as Tlaloc, the rain god.",
+      "description": "The Storm God — recognizable by round goggle-like eyes and a fanged mouth — was co-equal with the Feathered Serpent as Teotihuacan's dominant deity, depicted on murals and temple facades across the city, and later absorbed into Aztec religion as Tlaloc, god of rain, lightning, and earthly fertility.",
       "wikiSlug": "Tlaloc",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tlaloc is considered one of the oldest and most universal deities in ancient Mexico, predating Teotihuacan by centuries. Beyond rain he governed hail, thunder, springs, and sacred mountains — Cerro Tlaloc, visible from the Basin of Mexico, was a dedicated mountaintop ritual site in his honor. He was also feared: Aztec accounts describe child sacrifices to Tlaloc during droughts, with the children's tears believed to encourage rainfall. The Teotihuacan iconography of goggle eyes is the version that spread across all of Mesoamerica and became the template every successor culture inherited."
+        }
+      ],
+      "commonsFile": "Codex_Borgia_page_25.jpg"
     },
     {
       "id": "evt-teo-feathered-serpent-deity",
       "label": "Feathered Serpent Deity",
       "year": 200,
-      "description": "The Feathered Serpent (later known as Quetzalcoatl) was worshipped at Teotihuacan as a creator deity associated with water, fertility, and Venus, depicted on temple facades and murals throughout the city.",
+      "description": "The Feathered Serpent (Quetzalcoatl to the Aztecs, Kukulkan to the Maya) was one of Mesoamerica's oldest and most widespread gods — at Teotihuacan linked to creation, water, Venus, and priestly authority — and the city's temple to it was the most architecturally dramatic expression of the cult anywhere in the ancient Americas.",
       "wikiSlug": "Quetzalcoatl",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Aztec name Quetzalcoatl (ket-sahl-KOH-ahtl) combines quetzal (a brilliantly colored bird prized for its iridescent green tail feathers) with coatl (serpent). Among the Aztecs his portfolio was enormous: wind, Venus, the sun, merchants, arts, crafts, knowledge, and the priesthood itself. The deity's link to Venus as the morning star was cosmologically loaded — the planet's disappearance and reappearance below the horizon was read as the serpent descending into the underworld and rising again. Olmec monuments depict feathered serpents more than a thousand years before Teotihuacan built its temple, meaning the cult's roots reach the earliest complex societies in Mesoamerica."
+        }
+      ],
+      "commonsFile": "Quetzalcóatl_como_la_serpiente_emplumada_y_el_dios_del_viento_Ehécatl,_en_el_folio_19.jpg"
     },
     {
       "id": "evt-teo-old-god-fire",
       "label": "Old God of Fire (Huehueteotl)",
       "year": 150,
-      "description": "Stone sculptures of the Old Fire God — a hunched, elderly figure bearing a brazier on his head — appear throughout Teotihuacan, one of the oldest continuously worshipped deities in Mesoamerica.",
+      "description": "Huehueteotl (way-way-TEH-ohtl, 'Old God' in Nahuatl), the Old God of Fire, appears throughout Teotihuacan as a hunched, cross-legged stone figure bearing a heavy fire brazier on his head — one of the oldest continuously venerated deities in all of Mesoamerica.",
       "wikiSlug": "Huehueteotl",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cult of the Old Fire God predates Teotihuacan itself, with sculptural antecedents reaching back to the Formative period (before 100 BCE), making him one of the longest-running religious traditions in the ancient Americas. His name connects him to Mayan deities called Mam ('Grandfather'), suggesting a pan-Mesoamerican old-fire-god tradition that crossed language and cultural boundaries. Unlike the city's state deities painted in murals on great public buildings, Huehueteotl appears almost exclusively in stone sculpture, hinting he was a household and hearth deity rather than a state one."
+        }
+      ],
+      "commonsFile": "Head_of_Old_God,_Huehueteotl.jpg"
     },
     {
       "id": "evt-teo-tepantitla-murals",
       "label": "Tepantitla Murals",
       "year": 350,
-      "description": "The Tepantitla apartment compound's murals depict a paradise scene with the Great Goddess dispensing water and seeds, while small human figures play, swim, and sing in an elaborate vision of the afterlife.",
+      "description": "The Tepantitla apartment compound contains Teotihuacan's most famous mural: the Great Goddess towering above a paradise garden where tiny human figures swim, sing (speech scrolls curl from their mouths), and frolic amid streams of water — one of the most vivid visions of an afterlife in all of ancient American art.",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars call the garden scene Tlalocan (tlah-LOH-kahn) after the Aztec rain god's paradise, though whether Teotihuacan's people used the same name or idea is unknown — recent scholarship suggests it may depict a real agricultural festival rather than an afterlife at all. The compound was built for high-status residents and its murals were painted in the Tlamimilopan phase, roughly 250-350 CE. The original mural was damaged before it could be fully documented, so what survives is a partial record of a larger composition."
+        }
+      ],
+      "commonsFile": "Tepantitla_Mountain_Stream_mural_Teotihuacan_(Luis_Tello).jpg"
     },
     {
       "id": "evt-teo-tetitla-murals",
       "label": "Tetitla Murals",
       "year": 350,
-      "description": "The Tetitla compound preserves some of Teotihuacan's finest murals, including jaguar and coyote warriors, net-jaguar figures, and elaborately dressed priests in procession.",
+      "description": "The Tetitla apartment compound, roughly a third of a mile (500 meters) west of the Avenue of the Dead, preserves some of Teotihuacan's finest surviving murals: processional priests in towering feathered costumes, net-jaguar figures (jaguars depicted with cross-hatched, latticed bodies), and interlocking geometric designs that may encode cosmological information.",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 'net jaguar' motif is unique to Teotihuacan and appears nowhere else in Mesoamerican art; the cross-hatched pattern may have symbolized magical invisibility or the ability to pass between the living world and the dead. Tetitla was occupied from around 250 CE all the way through the city's final phase around 750 CE, meaning its walls were painted and repainted across roughly 500 years of continuous occupation. Multiple paint layers have been found on the walls, showing the compound was actively maintained and renewed across generations."
+        }
+      ],
+      "commonsFile": "Replica_of_the_Mural_7_of_Room_12_of_Portico_of_Tetitla_-_Recreation_of_an_habitational_unit_-_Teotihuacán_-_National_Museum_of_Anthropology_-_Mexico_2024.jpg"
     },
     {
       "id": "evt-teo-atetelco-murals",
       "label": "Atetelco Murals",
       "year": 400,
-      "description": "The Atetelco compound's murals feature processional warriors in elaborate costumes, coyotes and jaguars devouring hearts, and ritual scenes that reveal Teotihuacan's militaristic ideology.",
+      "description": "The Atetelco compound's murals show warriors marching in eagle and coyote costumes, carrying weapons and standards, alongside coyotes and jaguars devouring human hearts — the clearest visual evidence that Teotihuacan organized its military into elite warrior orders identified by animal insignia, a thousand years before the Aztecs did the same.",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The procession format at Atetelco — a long frieze of identical costumed figures repeating around a room — appears to have been Teotihuacan's preferred way to assert institutional authority without singling out any individual. The coyote warrior, depicted with a coyote headdress and carrying an atlatl (spear-thrower), is particularly prominent here and may represent a distinct warrior society parallel to the eagle and jaguar orders. The devouring-heart imagery links military power directly to sacrifice, suggesting that warfare and ritual killing were understood as inseparable acts."
+        }
+      ],
+      "commonsFile": "Teotihuacan_(Atetelco)_(35).jpg"
     },
     {
       "id": "evt-teo-notation-system",
       "label": "Teotihuacan Notation System",
       "year": 300,
-      "description": "Teotihuacan used a system of dots, bars, and glyphic signs for notation, visible in murals and pottery. Unlike Maya hieroglyphs, the system remains largely undeciphered and may have been more numerical than linguistic.",
+      "description": "Teotihuacan used a notation system of dots, bars, and glyphic signs — visible in murals and on pottery — that could record numbers and possibly dates, but it fell far short of the full writing systems developed by the neighboring Maya or Zapotecs and remains largely undeciphered.",
       "wikiSlug": "Teotihuacan#Writing_and_notation",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Whether Teotihuacan's rulers deliberately avoided developing full writing (to maintain an ambiguity that text would close off) or whether they wrote on perishable bark paper and cloth that has not survived remains genuinely unknown. The Maya and Zapotecs both traded with Teotihuacan and maintained communities within the city, meaning Teotihuacan's elites knew full writing existed — and chose, or happened, to take a different path. The longest known Teotihuacan text is a sequence of around 42 signs painted on a courtyard floor in the La Ventilla district."
+        }
+      ]
     },
     {
       "id": "evt-teo-murals-communication",
       "label": "Murals as State Communication",
       "year": 300,
-      "description": "Vivid polychrome murals covered interior walls of apartment compounds, temples, and public buildings, serving as the city's primary medium for communicating religious ideology, cosmology, and political power.",
+      "description": "Hundreds of apartment compounds, temples, and public buildings at Teotihuacan were covered floor to ceiling in vivid polychrome murals — reds, greens, blues, yellows — that served as the city's primary medium for broadcasting religious ideology and cosmological order in the absence of a full writing system.",
       "wikiSlug": "Teotihuacan#Murals",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike Maya art, which names its subjects in hieroglyphic captions, Teotihuacan's murals have no captions at all — meaning we know exactly what the gods looked like and almost nothing about what they were called. The surviving murals are a fraction of the original: many were destroyed by time, weather, or looting, and early excavations damaged others before proper documentation techniques existed. In a city without books, the walls were the library."
+        }
+      ]
     },
     {
       "id": "evt-teo-thin-orange-pottery",
       "label": "Thin Orange Pottery",
       "year": 300,
-      "description": "Thin Orange ware, a distinctive fine pottery produced in southern Puebla under Teotihuacan's influence, became a prestige trade good found at sites across Mesoamerica — a marker of Teotihuacan's commercial reach.",
+      "description": "Thin Orange ware, a fine ceramic fired to a bright orange color with elegantly thin walls, was Teotihuacan's prestige export pottery — produced in the Tepexi region of southern Puebla under the city's apparent commercial control, then distributed to elite sites across Mesoamerica.",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pottery was made not in Teotihuacan itself but in workshops roughly 100 miles (160 km) away in Puebla, making it an early example of controlled outsourced production. Finding Thin Orange sherds at an archaeological site is one of the clearest signals that a community had formal ties to Teotihuacan — its distribution map tracks Teotihuacan's political influence almost exactly. Unlike utilitarian ceramics, Thin Orange vessels appear almost exclusively in elite contexts: burial offerings, feasting assemblages at high-status compounds, and diplomatic gift deposits at distant ceremonial centers."
+        }
+      ],
+      "commonsFile": "Effigy_Jar,_250-650_AD,_Teotihuacan_culture,_Central_Mexico,_thin_orange_earthenware_-_Gardiner_Museum,_Toronto_-_DSC01119.JPG"
     },
     {
       "id": "evt-teo-oaxaca-barrio",
       "label": "Oaxacan Barrio",
       "year": 300,
-      "description": "A Zapotec enclave in western Teotihuacan housed migrants from Monte Albán who maintained their own burial customs, pottery styles, and even a Zapotec-style tomb — evidence of the city's multiethnic character.",
+      "description": "A multigenerational Zapotec neighborhood in western Teotihuacan where migrants from Monte Albán — roughly 250 miles (400 km) away — maintained their own pottery, buried their dead in Zapotec-style stone-chamber tombs, and raised children in a distinct cultural world inside the city for centuries.",
       "wikiSlug": "Teotihuacan#Oaxacan_barrio",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Isotopic analysis of tooth enamel (which records the chemical signature of water drunk in childhood) confirmed many residents were first-generation immigrants born in Oaxaca, not just descendants of long-ago settlers. Their grayware pottery — a distinctive gray-fired ceramic tradition — is one of the most reliable fingerprints archaeologists use to trace Zapotec presence across Mesoamerica. The dead were interred seated inside stone chambers accompanied by ceramic urns, a funerary practice found nowhere else in Teotihuacan, where everyone else was laid flat in simple floor graves."
+        }
+      ]
     },
     {
       "id": "evt-teo-merchants-barrio",
       "label": "Merchants' Barrio",
       "year": 350,
-      "description": "The Merchants' Barrio in eastern Teotihuacan housed Gulf Coast traders who used round houses (unique in the city), Maya-style pottery, and maintained their lowland cultural practices far from home.",
+      "description": "A Gulf Coast community in eastern Teotihuacan built round houses — the only circular structures in the city's rigid rectangular grid — and maintained lowland cultural practices, likely channeling tropical goods like cacao, rubber, and feathers into Teotihuacan's market.",
       "wikiSlug": "Teotihuacan#Merchants'_barrio",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name 'Merchants' Barrio' is a modern label, not an ancient one: it rests on the inference that Gulf Coast people in a highland city were probably trading tropical products unavailable locally. Their pottery mixed Maya and Gulf Coast styles in combinations found nowhere else at Teotihuacan. Isotopic analysis confirmed the same pattern as the Oaxacan Barrio: a mix of first-generation immigrants and second-generation children raised in households that stubbornly maintained non-local practices."
+        }
+      ]
     },
     {
       "id": "evt-teo-maya-connections",
       "label": "Maya Trade Networks",
       "year": 300,
-      "description": "Teotihuacan maintained trade connections with Maya cities across the lowlands and highlands, exchanging obsidian, green stone, and ceramics. Teotihuacan-style objects appear at Kaminaljuyú, Copán, and Tikal.",
+      "description": "Teotihuacan maintained active trade and diplomatic ties with Maya cities across the lowlands and highlands, sending green obsidian, Thin Orange pottery, and political influence south while cacao, rubber, and tropical goods flowed north — leaving Teotihuacan-style objects and architecture at Tikal, Kaminaljuyú, and Copán.",
       "wikiSlug": "Teotihuacan#Maya_relations",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kaminaljuyú, in the highlands of modern Guatemala City, shows the most extreme Teotihuacan imprint of any Maya site: local rulers were buried in Teotihuacan-style shaft tombs wearing Teotihuacan-style regalia, suggesting either installed client rulers or local elites who adopted Teotihuacan identity wholesale to legitimate their power. Stela 31 at Tikal depicts a ruler flanked by warriors in full Teotihuacan military dress — the \"War Serpent\" goggle-eyed costume associated with the city's warrior cult — recording what appears to be a power transfer around 378 CE. Copán's founding ruler Yax K'uk' Mo' is shown on Altar Q wearing Teotihuacan-style goggles, and his descendants claimed Teotihuacano heritage for generations after the city itself had collapsed."
+        }
+      ]
     },
     {
       "id": "evt-teo-monte-alban-relations",
       "label": "Monte Albán Diplomatic Relations",
       "year": 250,
-      "description": "Carved stone monuments at Monte Albán depict apparent Teotihuacan ambassadors visiting the Zapotec capital. The two great cities maintained a long diplomatic and trade relationship rather than open conflict.",
+      "description": "Carved stone monuments at Monte Albán depict figures in Teotihuacan-style clothing — the best physical evidence that the two great Mesoamerican cities maintained formal diplomatic contact rather than going to war.",
       "wikiSlug": "Monte_Albán#Teotihuacan",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Monte Albán adopted the talud-tablero architectural style (the sloping-base-plus-vertical-panel wall treatment defining Teotihuacan's buildings) for some of its own structures, a clear sign of voluntary cultural borrowing between rival powers. Yet Monte Albán was never absorbed: it kept its Zapotec religion and political independence across the entire period of contact. Monte Albán itself was a feat of engineering — a deliberately flattened mountaintop in the Valley of Oaxaca, about 9 miles (14 km) west of modern Oaxaca City, built to give the Zapotecs a highly visible, defensible capital."
+        }
+      ],
+      "commonsFile": "Borrala.JPG"
     },
     {
       "id": "evt-teo-kaminaljuyu",
       "label": "Kaminaljuyú Under Teotihuacan Influence",
       "year": 400,
-      "description": "The highland Maya city of Kaminaljuyú in modern Guatemala City adopted talud-tablero architecture, Teotihuacan ceramics, and burial practices, suggesting direct political or commercial domination.",
+      "description": "The highland Maya city of Kaminaljuyú (in modern Guatemala City) came under deep Teotihuacan influence around 400 CE — its elite burials filled with Teotihuacan-style ceramics and its temples rebuilt in talud-tablero style, making it a key stepping stone on the trade route between highland Mexico and the lowland Maya world.",
       "wikiSlug": "Kaminaljuyú",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kaminaljuyú's strategic value was its position near the El Chayal obsidian source and on the highland-to-lowland corridor carrying jade, cacao, and quetzal feathers — the commodities Teotihuacan needed most. The site was once described as one of the greatest archaeological sites in the New World, but most of its more than 200 earthen mounds have been destroyed by Guatemala City's urban expansion, leaving the extant remains 'distinctly unimpressive.' Whether this was a formal Teotihuacan takeover or a local elite adopting Teotihuacan prestige markers for their own benefit remains debated."
+        }
+      ],
+      "commonsFile": "KaminalJuyu.jpg"
     },
     {
       "id": "evt-teo-entrada-378",
       "label": "Entrada of 378: Conquest of Tikal",
       "year": 378,
-      "description": "Siyaj K'ahk' ('Fire is Born') arrived at Tikal on January 16, 378 CE under Teotihuacan patronage, overthrew the existing Maya dynasty, and installed a new ruling line — the most dramatic projection of Teotihuacan power.",
+      "description": "On January 16, 378 CE, a Teotihuacan-backed force arrived at the Maya city of Tikal — and on that same day Tikal's king died. Within a year, a new Teotihuacan-linked dynasty sat on the throne, the most dramatic long-range power play in all of Mesoamerican history.",
       "wikiSlug": "Siyaj_Kʼakʼ",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The exact date survives because the Maya Long Count calendar counted every day from a mythological starting point (August 11, 3114 BCE), giving this event a precision that rivals Egypt and Mesopotamia — we know Siyaj K'ahk's arrival date more exactly than we know when Caesar crossed the Rubicon. Uniquely, the Entrada is invisible in Teotihuacan's own record but proudly documented by the Maya, who carved it into monuments and treated the Teotihuacan connection as a source of dynastic legitimacy rather than hiding it as a humiliation."
+        }
+      ]
     },
     {
       "id": "evt-teo-siyaj-kahk",
       "label": "Siyaj K'ahk' (Fire is Born)",
       "year": 378,
-      "description": "Siyaj K'ahk', a warrior-general likely from or backed by Teotihuacan, conquered Tikal and installed Yax Nuun Ahiin I as king. His arrival reshaped Maya politics for over a century.",
+      "description": "Siyaj K'ahk' ('Fire Is Born') was the military agent of the Entrada — a warrior-general whose arrival at Tikal on January 16, 378 CE ended one dynasty and started another, all in a single day.",
       "wikiSlug": "Siyaj_Kʼakʼ",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His name was originally misread by epigraphers as 'Smoking Frog' (a description of how his name glyph looks) before later scholars deciphered it correctly as Siyaj K'ahk'. He appears in inscriptions not just at Tikal but at Uaxactun and Copán, suggesting his campaign swept multiple Maya cities, not just one. Whether he was himself Teotihuacan-born or was a Maya intermediary acting in Teotihuacan's interest remains an open question."
+        }
+      ]
     },
     {
       "id": "evt-teo-spearthrower-owl",
       "label": "Spearthrower Owl",
       "year": 374,
       "endYear": 439,
-      "description": "The enigmatic figure known as Spearthrower Owl (Jatz'om Kuy), recorded in Maya inscriptions as the overlord who dispatched Siyaj K'ahk', may have been a Teotihuacan ruler — one of the few possible names in a city of anonymous kings.",
+      "description": "Spearthrower Owl (Jatz'om Kuy in Maya script) is recorded as the overlord who dispatched Siyaj K'ahk' to conquer Tikal — possibly the only Teotihuacan ruler whose name survives anywhere, yet we have no portrait, no tomb, and no biography of him.",
       "wikiSlug": "Spearthrower_Owl",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mayanist David Stuart has argued Spearthrower Owl was a ruler of Teotihuacan at the height of its pan-Mesoamerican influence. His name appears only in Maya texts because the new Tikal dynasty traced its legitimacy back to him — he is known entirely through the records of the people he conquered. His reign dates (374–439 CE) are reconstructed from Maya stelae that recorded both his accession and death, information Teotihuacan itself left no trace of."
+        }
+      ],
+      "commonsFile": "Tikal_St31.jpg"
     },
     {
       "id": "evt-teo-yax-nuun-ahiin",
       "label": "Yax Nuun Ahiin I Installed at Tikal",
       "year": 379,
-      "description": "After the Entrada, Yax Nuun Ahiin I (son or protégé of Spearthrower Owl) was installed as king of Tikal. His tomb contained Teotihuacan-style ceramics alongside Maya offerings.",
+      "description": "Yax Nuun Ahiin I ('First Crocodile') took the throne of Tikal on September 12, 379 CE as the new Teotihuacan-backed king — his monuments show him in full Teotihuacan warrior costume, but his inscriptions were written in Maya hieroglyphs.",
       "wikiSlug": "Yax_Nuun_Ahiin_I",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His tomb, found at Tikal, is one of the most extraordinary Early Classic burials ever excavated: it contained nine sacrificed individuals and a headless crocodile (a direct reference to his name 'First Crocodile'), alongside Teotihuacan-style cylindrical tripod ceramics mixed with traditional Maya offerings. He is also known by the early epigraphic nickname 'Curl Snout' (coined before his name was fully deciphered). The dynasty he founded made Tikal the dominant city-state in the Maya lowlands for the next 150 years."
+        }
+      ],
+      "commonsFile": "Tikal_St04.jpg"
     },
     {
       "id": "evt-teo-copan-influence",
       "label": "Teotihuacan Influence at Copán",
       "year": 426,
-      "description": "The founder of Copán's dynasty, K'inich Yax K'uk' Mo', adopted Teotihuacan goggle-eye iconography and was depicted in Teotihuacan warrior costume, suggesting the Entrada's ripple effects reached Honduras.",
+      "description": "In 426 CE, K'inich Yax K'uk' Mo' ('Sun-Eyed Resplendent Quetzal Macaw') founded Copán's dynasty in modern Honduras, deliberately wrapping himself in Teotihuacan goggle-eye warrior iconography — proof that the Entrada's political currency had spread nearly 1,000 miles from Teotihuacan.",
       "wikiSlug": "K%27inich_Yax_K%27uk%27_Mo%27",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Isotopic analysis of his bones shows he grew up in the Petén lowlands near Tikal, not at Teotihuacan — his Teotihuacan imagery was deliberate political theater, not a homeland identity. His bones also carry healed fractures of the right forearm and sternum consistent with combat or ballcourt injuries; his portrait on Altar Q at Copán shows him holding a shield over that same right arm, a detail that lines up with the skeletal evidence. The dynasty he founded on this borrowed Teotihuacan prestige lasted until 822 CE — nearly four centuries."
+        }
+      ]
     },
     {
       "id": "evt-teo-ballgame",
       "label": "Ritual Ballgame",
       "year": 200,
-      "description": "Teotihuacan continued the Mesoamerican ballgame tradition, with markers and courts found across the city. The game carried religious significance tied to cosmological cycles and sacrifice.",
+      "description": "Teotihuacan played the Mesoamerican ballgame — a rubber-ball sport with deep religious and cosmological meaning that had been played across the region since at least 1650 BCE — though here it seems to have taken place in open plazas rather than purpose-built stone courts.",
       "wikiSlug": "Mesoamerican_ballgame",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mesoamerican ballgame is documented across an enormous geographic spread, from the American Southwest to Nicaragua, and a modernized version called ulama is still played by indigenous communities in parts of Mexico today. Players kept the solid rubber ball in motion using their hips, forearms, or knees — not hands or feet. Rubber itself was a Gulf Coast product, so the ball's presence at Teotihuacan is itself evidence of the long-distance trade networks the city depended on."
+        }
+      ],
+      "commonsFile": "Pok_ta_pok_ballgame_maya_indians_mexico_3.JPG"
     },
     {
       "id": "evt-teo-calendar-system",
       "label": "Calendar and Astronomical Alignments",
       "year": 100,
-      "description": "Teotihuacan's grid was oriented to astronomical events — the 15.5-degree offset aligns with sunset on August 12, the date of the Maya creation event, and the Pleiades setting point.",
+      "description": "Teotihuacan's 15.5-degree grid offset was not arbitrary — it locked onto the sunset direction on August 12, the start of the Mesoamerican Long Count calendar, and closely tracks the setting point of the Pleiades, a star cluster that anchored ritual and agricultural cycles across Mesoamerica.",
       "wikiSlug": "Teotihuacan#Orientation",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pyramid of the Sun was additionally aligned so that sunset falls directly behind it on February 11 and October 29 — two dates that are almost exactly 260 days apart, the length of the sacred ritual calendar used across Mesoamerica. The pyramid was also built directly over a natural cave that appears to have been considered a mythic entrance to the underworld, so astronomical alignments and cosmological geography were deliberately layered on top of each other. The city's founders, in other words, did not just build on a convenient spot — they built at a place they considered the axis of the cosmos."
+        }
+      ]
     },
     {
       "id": "evt-teo-water-management",
       "label": "Urban Water Management",
       "year": 200,
-      "description": "Engineers diverted the San Juan River to flow through the city along the grid alignment, built canal systems for drainage, and managed spring-fed water supplies for over 100,000 residents.",
+      "description": "Teotihuacan's engineers diverted the San Juan River into a canalized channel aligned with the city grid, bending a live river to fit the master plan while providing water and drainage for a semi-arid valley.",
       "wikiSlug": "Teotihuacan#Infrastructure",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The valley receives only about 20 inches (500 mm) of rain per year — roughly half of what the American Midwest gets — so reliable water management was existential for a city of tens of thousands. The canal system also handled drainage for the densely built urban core, preventing the sunken plazas along the Street of the Dead from flooding during the rainy season. The fact that even the river obeyed the 15.5-degree grid alignment reflects just how completely the master plan governed every element of the city's design."
+        }
+      ]
     },
     {
       "id": "evt-teo-mica-sheets",
       "label": "Mica Sheets in Architecture",
       "year": 200,
-      "description": "Thick sheets of mica, imported from sources over 1,800 miles (2,900 km) away in Brazil or Oaxaca, were laid beneath temple floors at Teotihuacan — their purpose remains a mystery.",
+      "description": "Thick sheets of mica — a reflective mineral that cleaves into thin, glittering layers — were laid beneath temple floors and along the Avenue of the Dead at Teotihuacan, hidden from view once installed, imported from sources possibly over 1,800 miles (2,900 km) away. What they were for remains unknown.",
       "wikiSlug": "Teotihuacan#Mica",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mica was laid in a dedicated chamber now called the \"Mica Temple,\" sandwiched between floor layers where no visitor could ever see it after construction — a clear sign of ritual intent rather than decoration. No other Mesoamerican site used mica this way, making it one of the most genuinely inexplicable finds in the city's archaeological record. The raw material doesn't occur anywhere in central Mexico, meaning it required trade contacts stretching to Oaxaca at minimum and potentially as far as Brazil — a supply chain maintained apparently for a purpose no surviving text or image explains."
+        }
+      ]
     },
     {
       "id": "evt-teo-ceramic-censers",
       "label": "Theater-Type Censers",
       "year": 300,
-      "description": "Teotihuacan produced elaborate 'theater-type' incense burners with butterfly and deity-face adornments, mass-produced in standardized workshops — evidence of state-controlled ritual production.",
+      "description": "Teotihuacan's 'theater-type' incense burners (censers) were elaborate ceramic assemblages with a central chimney surrounded by removable adornments — butterfly wings, deity faces, flowers — that could be rearranged for different rituals, mass-produced in standardized state-controlled workshops.",
       "wikiSlug": "Teotihuacan#Ceramics",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The standardized production of censers across the city is evidence that the Teotihuacan state regulated not just where people worshipped but how — the same ritual object, the same copal incense (the aromatic resin that was the standard divine offering across all of Mesoamerica), the same deity faces, distributed from centralized workshops. Notably, before burial the censers were deliberately disassembled — adornments carefully removed — apparently as a way of ritually 'releasing' the object, a ritual act distinct from simply breaking things. By around 450 CE they were being traded beyond the city itself."
+        }
+      ]
     },
     {
       "id": "evt-teo-lime-plaster",
       "label": "Lime Plaster and Stucco Technology",
       "year": 100,
-      "description": "Builders at Teotihuacan developed advanced lime plaster techniques, coating pyramid surfaces and apartment compound walls to create smooth, paintable surfaces for the city's signature polychrome murals.",
+      "description": "Teotihuacan's builders developed thick, durable lime plaster coatings for pyramid surfaces, floors, and apartment walls — creating smooth canvases for the polychrome murals that covered nearly every interior surface in the city.",
       "wikiSlug": "Teotihuacan#Architecture",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its peak, Teotihuacan was almost entirely plastered and painted in red, green, blue, yellow, and white — the bare stone visitors see today is the skeleton of a city stripped of its skin. Producing lime plaster is fuel-intensive: roughly three tons of wood are needed to burn one ton of limestone, so each building campaign likely required clear-cutting the surrounding hillsides for miles. The environmental cost of Teotihuacan's beautiful surfaces may have been a significant driver of regional deforestation."
+        }
+      ],
+      "commonsFile": "2013-12-23_Procesión_de_aves_verdes,_Templo_de_los_Caracoles_Emplumados,_Teotihuacan_01_anagoria.JPG"
     },
     {
       "id": "evt-teo-anonymous-rulers",
       "label": "Anonymous Rulers",
       "year": 200,
-      "description": "Unlike the Maya or Zapotecs, Teotihuacan left no identified royal portraits or named rulers in its own art. Power may have been collective, priestly, or deliberately depersonalized — a profound archaeological mystery.",
+      "description": "Teotihuacan produced no royal portraits, no named rulers, and no commemorative stelae — a silence unique among major ancient civilizations and deeply puzzling given the city housed perhaps 100,000 people at its peak.",
       "wikiSlug": "Teotihuacan#Government",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Contemporary Maya cities were carving dated royal portraits on stone monuments throughout this same period. The Zapotecs, just to the south, named their rulers on stone slabs. Teotihuacan's leaders, running the largest city in the pre-Columbian Americas, chose not to put their faces or names anywhere we can find. After roughly 250 CE the city's art turned deliberately corporate, depicting deities, processions, and abstract symbols rather than individuals — suggesting whoever held power chose, or was required, to express it impersonally."
+        }
+      ]
     },
     {
       "id": "evt-teo-collective-governance",
       "label": "Possible Collective Governance",
       "year": 300,
-      "description": "The absence of royal imagery and the standardized apartment compounds suggest governance may have shifted from individual rulers to a council or priestly oligarchy after the 3rd century CE.",
+      "description": "Some scholars argue that after the Adosada burial of the Feathered Serpent temple around 250 CE, power in Teotihuacan shifted from individual kings to a council, priestly oligarchy, or other form of shared rule — making the city a possible ancient experiment in non-monarchic urban governance.",
       "wikiSlug": "Teotihuacan#Government",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Despite exhaustive excavation, no single residence has been identified as a ruler's home — only the standardized apartment compounds shared across the city's population, remarkable for a metropolis of this size. The regime after 250 CE apparently invested state resources in housing its population rather than glorifying its leaders: roughly 2,000 of those standardized compounds were built across the city. If the collective-governance reading is correct, Teotihuacan would be nearly unique among ancient cities of its scale in sustaining itself for centuries without a visible royal line."
+        }
+      ]
     },
     {
       "id": "evt-teo-warrior-orders",
       "label": "Military Orders: Eagle and Jaguar Warriors",
       "year": 350,
-      "description": "Murals depict warriors in eagle and coyote/jaguar costumes processing with weapons and captives, suggesting organized military orders that prefigured the Aztec eagle and jaguar warrior societies.",
+      "description": "Murals at Teotihuacan depict warriors in eagle and coyote costumes processing with weapons and captives — organized military orders that likely prefigured the eagle and jaguar warrior societies the Aztecs made famous centuries later.",
       "wikiSlug": "Teotihuacan#Military",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The warrior mural compounds at Teotihuacan, particularly Atetelco, show costumed warriors with specialized shields (chimalli) and headdresses that scholars read as elite military identity markers tied to astral and calendrical symbolism, not just ceremonial fancy dress. Notably, the main Teotihuacan pyramid complex has no fortifications or military structures — the warrior order murals are among the few physical records of how the city organized its fighting forces. The same goggle-eyed storm god depicted with these warriors was the icon Tikal and Copán adopted after the Entrada, functioning as a recognized military brand across Mesoamerica."
+        }
+      ]
     },
     {
       "id": "evt-teo-atlatl-warfare",
       "label": "Atlatl (Spear-Thrower) Warfare",
       "year": 300,
-      "description": "Teotihuacan's warriors fought primarily with the atlatl (spear-thrower), which propelled darts with lethal velocity. This weapon system, depicted throughout the city's art, gave Teotihuacan a military edge across Mesoamerica.",
+      "description": "The atlatl (spear-thrower) is a handheld lever device that extends the throwing arm's effective length, launching darts at velocities that can exceed those of most bows — and it was Teotihuacan's signature weapon, depicted throughout the city's art and explicitly associated with the warriors who arrived at Tikal in 378 CE.",
       "wikiSlug": "Atlatl",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The atlatl is one of humanity's oldest weapons: the earliest confirmed example, carved from reindeer antler, dates to about 17,500 years ago from France, and possible use in Australia may go back 40,000 years. After the Entrada, atlatl imagery was adopted by Maya elites as a prestige symbol — Yax Nuun Ahiin I was specifically depicted holding one on Tikal monuments to signal his Teotihuacan credentials. Unlike the bow, which stores energy in the weapon itself, the atlatl amplifies the human arm's own throwing motion, generating momentum that made it a serious military technology advantage over hand-thrown spears."
+        }
+      ],
+      "commonsFile": "Aztec_atl-atl_(Museo_Nacional_de_Antropología).jpg"
     },
     {
       "id": "evt-teo-temple-burning",
       "label": "Temple of the Feathered Serpent Defaced",
       "year": 250,
-      "description": "Around 250 CE the Temple of the Feathered Serpent was deliberately buried under a plain platform (the Adosada). This act of architectural suppression may signal an internal political revolution — a new regime erasing its predecessor.",
+      "description": "Around 250 CE a plain, undecorated platform called the Adosada (\"attached platform\") was built directly over the Temple of the Feathered Serpent's main western facade, burying the elaborate carved serpent heads under a blank wall — most scholars read this as the architectural footprint of an internal political revolution.",
       "wikiSlug": "Temple_of_the_Feathered_Serpent,_Teotihuacan#Adosada_platform",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The suppression was surgical, not total: the carved facades on the temple's other three sides remained partially visible; only the main approach was sealed. What makes Teotihuacan's version of this pattern unusual compared to Egypt's erasure of Akhenaten or Mesopotamia's royal overwriting is what came after: the new regime put up almost nothing in its place. They buried the old symbols and replaced them with deliberate blankness — no successor propaganda, no new ruler's name, just a smooth featureless wall where the serpents had been."
+        }
+      ],
+      "commonsFile": "Teotihuacán,_México,_2013-10-13,_DD_80.JPG"
     },
     {
       "id": "evt-teo-west-plaza",
@@ -557,151 +877,245 @@
       "id": "evt-teo-craft-specialization",
       "label": "Craft Specialization Districts",
       "year": 300,
-      "description": "Different neighborhoods specialized in distinct crafts — obsidian knapping, pottery, lapidary work, mural painting — creating an urban economy based on specialized production and internal exchange.",
+      "description": "Teotihuacan's neighborhoods were organized by trade: one district knapped obsidian, another fired pottery, another carved jade and greenstone, another produced the elaborate theater-type incense burners used in ritual — an urban economy of specialists who exchanged goods through markets and state redistribution.",
       "wikiSlug": "Teotihuacan#Economy",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Foreign artisans had their own dedicated neighborhoods: a \"Oaxaca barrio\" at the city's western edge housed Zapotec migrants who produced Monte Albán-style pottery within Teotihuacan, and a separate \"Merchants' Barrio\" near the eastern edge contained Gulf Coast-style ceramics and appears to have been home to long-distance traders from the lowlands. The state controlled the luxury tier (green obsidian and prestige ceramics) while leaving utilitarian production relatively open — a two-tier economic structure that has parallels in Rome and Han China but was organized spatially at Teotihuacan rather than through formal legal institutions. Theater-type incense burners — multi-part ritual objects assembled from dozens of separately molded clay elements — appear to have functioned almost like a household's ritual identity marker, with each compound maintaining its own set."
+        }
+      ]
     },
     {
       "id": "evt-teo-greenstone-trade",
       "label": "Jade and Greenstone Trade",
       "year": 250,
-      "description": "Teotihuacan imported jade and other greenstones from Guatemala and valued them above gold. Greenstone masks, beads, and figurines appear in elite burials and sacrificial caches throughout the city.",
+      "description": "Jade and other greenstones, valued above gold across all of Mesoamerica, were imported from Guatemala's Motagua Valley over 600 miles (1,000 km) away and worked at Teotihuacan into masks, beads, and figurines deposited in elite burials and sacrificial caches under the pyramids.",
       "wikiSlug": "Teotihuacan#Trade",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jade's green color linked it in Mesoamerican thought to water, maize, and life itself, making it the appropriate material for burial offerings meant to sustain the dead — a value system roughly analogous to gold's role in Old World funerary practice, but rooted in agriculture rather than wealth. Sacrificial deposits under the Pyramid of the Moon and the Feathered Serpent Pyramid contain greenstone beads mixed with human remains, showing that jade was as much a ritual offering as a status marker. Teotihuacan-style greenstone funerary masks — flat stone faces inlaid with jade and shell — were not portraits of the dead but standardized ritual objects, yet they are among the most immediately striking artifacts the city produced."
+        }
+      ]
     },
     {
       "id": "evt-teo-stone-masks",
       "label": "Teotihuacan Stone Masks",
       "year": 300,
-      "description": "Artisans carved stylized stone masks from greenstone, basalt, and onyx with idealized features — flat faces, open eyes, and serene expressions. These masks may have been attached to funerary bundles or temple figures.",
+      "description": "Teotihuacan artisans carved flat, serene stone masks from greenstone, basalt, onyx, and other hard stones with idealized — never individualized — faces: open eyes, closed mouths, no features that could identify a specific person. They may have dressed funerary bundles, adorned temple figures, or served in ritual performance.",
       "wikiSlug": "Teotihuacan",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "No two Teotihuacan masks are identical, but none depicts a real individual either — they embody the same principle as the city's anonymous architecture: the collective over the individual. Because most masks lack archaeological provenance (looted before scientific excavation), exactly how and where they were used is still debated; not a single mask has ever been found in a scientifically excavated burial, despite being called 'funerary masks' for over a century. The eyes and mouths were originally inlaid with shell, obsidian, and iron pyrites, giving them a vivid, luminous appearance when new."
+        }
+      ]
     },
     {
       "id": "evt-teo-figurine-tradition",
       "label": "Ceramic Figurine Tradition",
       "year": 200,
-      "description": "Mass-produced ceramic figurines — many depicting women — were found in apartment compounds throughout the city. Their standardized production suggests they served household religious functions.",
+      "description": "Virtually every excavated apartment compound at Teotihuacan has produced small mass-produced clay figurines — most depicting women — apparently used in daily household religious rituals, running quietly alongside the monumental state religion of the pyramids.",
       "wikiSlug": "Teotihuacan#Figurines",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The figurines were made in standardized molds at scale, meaning they were manufactured for distribution rather than individually crafted — essentially a mass-market religious object available to any household. The predominance of female imagery is striking given that Teotihuacan's monumental public art is dominated by non-gendered or deity figures; household religion appears to have operated by entirely different rules than state religion. Their near-universal presence across the city — elite compounds and ordinary ones alike — suggests this domestic practice cut across all social levels."
+        }
+      ]
     },
     {
       "id": "evt-teo-fire-collapse",
       "label": "Fire and Collapse of the Ceremonial Core",
       "year": 550,
-      "description": "Around 550 CE the ceremonial center of Teotihuacan was systematically burned. The destruction targeted temples and elite buildings while leaving residential areas largely intact — suggesting an internal revolt, not foreign invasion.",
+      "description": "Around 550 CE, someone burned the ceremonial heart of Teotihuacan — but this was no accident and no foreign invasion. The fires targeted temples, palaces, and administrative buildings while leaving ordinary neighborhoods almost entirely unharmed.",
       "wikiSlug": "Teotihuacan#Collapse",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The burn layers are concentrated along the Street of the Dead and around the Ciudadela, following the city's political geography rather than any wind or seismic pattern. No foreign weapons or pottery appear in the destruction layers, ruling out outside conquest. Scholars broadly read the selective targeting as an internal revolt aimed at destroying the symbols of state authority, not the city itself."
+        }
+      ]
     },
     {
       "id": "evt-teo-selective-destruction",
       "label": "Selective Burning Pattern",
       "year": 550,
-      "description": "The fire of 550 CE selectively destroyed temples and administrative buildings along the Street of the Dead while sparing most apartment compounds, pointing to deliberate targeting of state power rather than general warfare.",
+      "description": "The 550 CE fire was surgically precise: elite temples and state buildings burned while apartment compounds where ordinary people lived were largely spared, a physical signature of revolution rather than invasion.",
       "wikiSlug": "Teotihuacan#Collapse",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The closest historical parallel archaeologists reach for is the French Revolution — rage aimed at symbols of power while leaving the neighborhoods of the governed intact. Every other candidate cause (earthquake, weather, foreign sack) fails the geography test: fires that follow political buildings, not streets or wind corridors, do not happen by accident."
+        }
+      ]
     },
     {
       "id": "evt-teo-post-collapse",
       "label": "Post-Collapse Occupation",
       "year": 600,
-      "description": "After the fire, a reduced population continued living in squatter settlements among the ruins. The city never recovered its former size but remained occupied and retained its sacred reputation.",
+      "description": "Teotihuacan was never completely abandoned after the fire. A reduced population — perhaps 20,000–40,000 people, down from more than 100,000 — continued living among the ruins in simpler settlements, surrounded by burned-out temples.",
       "wikiSlug": "Teotihuacan#Coyotlatelco",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The surviving community's material culture was noticeably humbler: less specialized craft production, weaker connections to the long-distance trade networks that had made the city a continental hub. Monte Albán in the Valley of Oaxaca also declined within a century of Teotihuacan's fall, possibly losing a major trading partner; whether the two collapses are causally linked or coincidental is still debated."
+        }
+      ]
     },
     {
       "id": "evt-teo-epiclassic-aftermath",
       "label": "Epiclassic Power Vacuum",
       "year": 550,
-      "description": "Teotihuacan's collapse triggered a power vacuum across central Mexico. Regional centers like Xochicalco, Cacaxtla, and Cholula competed to fill the void, inaugurating the Epiclassic period.",
+      "description": "Teotihuacan's fall created a power vacuum that reshaped central Mexico for three centuries. The Epiclassic period (roughly 550–900 CE) saw regional cities like Xochicalco, Cacaxtla, and Cholula surge into the space the great city had monopolized.",
       "wikiSlug": "Mesoamerican_Epiclassic_Period",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Xochicalco (show-chee-KAHL-ko), a hilltop fortress-city southwest of modern Mexico City, deliberately mixed Teotihuacan, Maya, and Zapotec architectural styles — a kind of visual statement that no single tradition owned the post-Teotihuacan world. Cacaxtla produced murals showing Maya-style warriors, evidence of the cultural blending the collapse unleashed. Meanwhile, the fragmentation of Teotihuacan's green-obsidian monopoly turned a prestige trade marker into just another commodity."
+        }
+      ],
+      "commonsFile": "Xochicalco.jpg"
     },
     {
       "id": "evt-teo-aztec-pilgrimage",
       "label": "Aztec Pilgrimage to Teotihuacan",
       "year": 1400,
-      "description": "The Aztecs made pilgrimages to the abandoned ruins 700 years after the collapse, naming the site 'Teotihuacan' (place where the gods were born) and believing the current cosmic era began there.",
+      "description": "Seven centuries after Teotihuacan's collapse, the Aztecs made pilgrimages to the overgrown ruins, collected sacred artifacts from the surface, and wove the site into their creation mythology — declaring that the current cosmic age, the Fifth Sun, was born here.",
       "wikiSlug": "Teotihuacan#Aztec_period",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Archaeological excavations at the Aztec Templo Mayor in Mexico City recovered Teotihuacan objects — green obsidian blades, masks, and figurines — buried as deliberate sacred offerings centuries after Teotihuacan fell, proving the appropriation was material, not just mythological. The Mexica were relative newcomers to the Basin of Mexico and needed the ancient ruins' authority to legitimize their presence; Teotihuacan's sheer scale made it the most convincing sacred credential available."
+        }
+      ]
     },
     {
       "id": "evt-teo-aztec-name",
       "label": "Naming: 'Place Where the Gods Were Born'",
       "year": 1325,
-      "description": "The Aztecs named the ruined city Teotihuacan, meaning 'the place where the gods were born' or 'the place where men became gods,' in Nahuatl. The city's original name is unknown.",
+      "description": "The name Teotihuacan — in Nahuatl (the Aztec language), 'the place where the gods were born' — was given to the ruins by the Aztecs, not by the city's original inhabitants. The city's actual name in its own era is completely unknown.",
       "wikiSlug": "Teotihuacan#Etymology",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Aztecs named the two great pyramids (Pyramid of the Sun, Pyramid of the Moon) and the main avenue (Street of the Dead) as well — every iconic label attached to the site today is an Aztec invention, not an ancient one. The city that meticulously avoided recording its rulers' names also left no record of what it called itself, completing perhaps the most thorough act of institutional anonymity in the ancient world."
+        }
+      ]
     },
     {
       "id": "evt-teo-batres-excavation",
       "label": "Leopoldo Batres Excavates the Pyramid of the Sun",
       "year": 1905,
-      "description": "Mexican archaeologist Leopoldo Batres excavated and controversially reconstructed the Pyramid of the Sun for Mexico's 1910 centennial, adding an inauthentic fifth tier and destroying archaeological context.",
+      "description": "In 1905, Mexican archaeologist Leopoldo Batres (leh-oh-POL-doh BAH-tres) excavated and reconstructed the Pyramid of the Sun in preparation for Mexico's 1910 centennial — and in the process added an inauthentic fifth terrace that had never existed, while destroying the original archaeological layers.",
       "wikiSlug": "Leopoldo_Batres",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Batres stripped several meters of fill from the pyramid's sides to expose the original surface, but his rushed methods eliminated the stratigraphic record that would have told later archaeologists when different construction phases happened. The fifth terrace he added stood for decades before later excavations confirmed it was his invention. His work is a standard cautionary tale in archaeology: excavation without rigorous documentation is permanent destruction."
+        }
+      ],
+      "commonsFile": "Sistema_de_tracción_Decauville_utilizado_para_el_acarreo_de_escombros_extraídos_de_la_Pirámide_del_Sol_(Fundación_Acervo_Leopoldo_Batres)_01.jpg"
     },
     {
       "id": "evt-teo-millon-mapping",
       "label": "Millon Mapping Project",
       "year": 1962,
-      "description": "René Millon led a comprehensive mapping project (1962-1973) that revealed Teotihuacan's full urban extent — over 8 square miles (20 km²) of planned city, transforming understanding of Mesoamerican urbanism.",
+      "description": "Between 1962 and 1973, American archaeologist René Millon led the Teotihuacan Mapping Project, systematically surveying over 5,000 structures across 8 square miles (20 km²) and proving for the first time that the site was not just a ceremonial complex but a fully planned city.",
       "wikiSlug": "Teotihuacan#Archaeology",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Millon's survey revealed industrial districts, ethnic barrios (neighborhoods where foreign groups lived), residential apartment compounds, and a strict urban grid — none of which were visible from a ground-level visit to the pyramids. The map, completed before satellite imagery and LiDAR existed, was assembled by walking every square meter of the surface; it remains the foundation for virtually all Teotihuacan research more than fifty years later."
+        }
+      ],
+      "commonsFile": "Teotihuacan_population_model_1_1_1_1.png"
     },
     {
       "id": "evt-teo-tunnel-discovery",
       "label": "Tunnel Beneath the Feathered Serpent Temple",
       "year": 2003,
-      "description": "Sergio Gómez Chávez discovered a sealed tunnel beneath the Temple of the Feathered Serpent, finding liquid mercury, thousands of metallic spheres, greenstone figurines, and pyrite mirrors — possibly a ritual underworld.",
+      "description": "In 2003, archaeologist Sergio Gómez Chávez discovered a sealed tunnel beneath the Temple of the Feathered Serpent. After more than a decade of excavation, the far end revealed liquid mercury, thousands of pyrite spheres, greenstone figurines, and walls coated in a glittering mineral powder — possibly a ritual model of the underworld.",
       "wikiSlug": "Temple_of_the_Feathered_Serpent,_Teotihuacan#Tunnel",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mercury deposit is the only known use of liquid mercury in ancient Mesoamerica; the nearest mercury sources are hundreds of miles away, making its presence a logistical as well as ritual puzzle. The tunnel walls were coated in pyrite powder that reflected firelight like a starfield — researchers believe the chamber was designed to be experienced by torchlight, transforming it into a cosmological theater. No royal burial has been conclusively identified despite early hopes, but the density of elite offerings suggests the tunnel served the highest levels of Teotihuacan's ritual hierarchy."
+        }
+      ]
     },
     {
       "id": "evt-teo-pyramid-sun-tunnel",
       "label": "Pyramid of the Sun Cave Rediscovered",
       "year": 1971,
-      "description": "In 1971, archaeologists rediscovered the natural cave beneath the Pyramid of the Sun, finding it had been artificially enlarged into a clover-leaf shape and contained ancient offerings.",
+      "description": "In 1971, archaeologist Jorge Acosta rediscovered the sealed natural cave beneath the Pyramid of the Sun — forgotten for centuries — finding it had been artificially widened into four lobed chambers with ancient offerings still inside.",
       "wikiSlug": "Pyramid_of_the_Sun#Cave",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cave had been so thoroughly sealed that it was completely unknown to modern researchers until a chance discovery during excavation work. It extends about 330 feet (100 m) into the bedrock, far deeper than the pyramid's foundation, confirming the builders were working around a pre-existing sacred feature rather than creating one. The discovery reframed how scholars understand the entire site: the pyramid wasn't built and then consecrated — the sacred geography came first, and the architecture followed."
+        }
+      ]
     },
     {
       "id": "evt-teo-unesco",
       "label": "UNESCO World Heritage Site",
       "year": 1987,
-      "description": "Teotihuacan was designated a UNESCO World Heritage Site in 1987, recognized as 'one of the most architecturally significant Mesoamerican pyramids built in the pre-Columbian Americas.'",
+      "description": "In 1987, Teotihuacan was designated a UNESCO World Heritage Site, recognizing it as one of the most architecturally significant pre-Columbian sites in the Americas. Today it draws over two million visitors a year.",
       "wikiSlug": "Teotihuacan#World_Heritage_Site",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The sheer volume of tourism is itself a conservation crisis: millions of feet erode the ancient plaster surfaces that survive on the pyramids and platforms. Proposals to restrict climbing on the Pyramid of the Sun are periodically debated and periodically rejected — the pyramids are a national symbol, and Mexicans consider the right to climb them essentially non-negotiable. Muon tomography (using naturally occurring subatomic particles as a kind of cosmic X-ray) has since revealed possible voids inside the Pyramid of the Sun that have never been excavated."
+        }
+      ],
+      "commonsFile": "Plaque_in_Teotihuacan_from_the_Unesco.jpg"
     }
   ]
 }
