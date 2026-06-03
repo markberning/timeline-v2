@@ -47,15 +47,21 @@ function ThemeSwitch() {
 
 // The editorial header used across the war redesign. `backHref` is the round
 // back button's destination (defaults to the war home). `active` highlights the
-// current vertical in the slide-in menu.
-export function WarHeader({ backHref = '/war-civil-war', active = 'war' }: { backHref?: string; active?: string }) {
+// current vertical in the slide-in menu. `title`/`subtitle` set the wordmark —
+// the ACW pages keep the default; the all-wars front door overrides it.
+export function WarHeader({
+  backHref = '/war-civil-war',
+  active = 'war',
+  title = 'American Civil War',
+  subtitle = 'Stuff Happened · War',
+}: { backHref?: string; active?: string; title?: string; subtitle?: string }) {
   const [menu, setMenu] = useState(false)
   const [search, setSearch] = useState(false)
   return (
     <>
       <header className="p-hdr">
         <a className="back" href={backHref} aria-label="Back">{WAR_ICONS.back}</a>
-        <div className="wm"><b>American Civil War</b><span>Stuff Happened · War</span></div>
+        <div className="wm"><b>{title}</b><span>{subtitle}</span></div>
         <ThemeSwitch />
         <button className="p-iconbtn" onClick={() => setSearch(true)} aria-label="Search">{WAR_ICONS.search}</button>
         <button className="p-iconbtn" onClick={() => setMenu(true)} aria-label="Menu">{WAR_ICONS.menu}</button>

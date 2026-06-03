@@ -1,12 +1,13 @@
 'use client'
 
-// War mode front door — the "escalating spine": a vertical timeline of US
-// wars grouped into era bands, card height growing with the war's size.
-// Ported from the Historica `war.jsx` mockup into the app's CSS-var theming,
-// fonts, and region-accent palette. The Civil War card opens the pilot reader.
+// War mode front door — the "escalating spine": a vertical timeline of US wars
+// grouped into era bands, card height growing with the war's size. REDESIGN
+// (feat/war-redesign): rendered in the new .war-skin (Spectral serif / Archivo UI,
+// parchment-on-warm-dark), with the editorial header supplied by the page. The
+// era-band region colors stay as the grouping device. WAR_EVENTS/WAR_BANDS also
+// feed the breadcrumb war dropdown, so those data exports are unchanged.
 
 import { useState } from 'react'
-import { DarkModeToggle } from '@/components/dark-mode-toggle'
 
 // Era-band colors = the 5 region accents (grouping device on the front door).
 // The War vertical's own signature (oxblood) lives in the switcher + reader.
@@ -18,8 +19,8 @@ const BAND_COLORS = {
   green: '#047857',
 }
 
-const SANS = 'var(--font-geist-sans)'
-const SERIF = 'var(--font-lora)'
+const SANS = 'var(--sans)'
+const SERIF = 'var(--serif)'
 
 // hex (#rrggbb) + alpha → rgba()
 function alpha(hex: string, a: number): string {
@@ -86,6 +87,7 @@ function PaintingTile({ palette, imageUrl, label, isXL }: { palette: [string, st
   const hasImg = !!imageUrl && !failed
   return (
     <div style={{ width: '100%', height: '100%', position: 'relative', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       {hasImg && (
         <img src={imageUrl} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 32%', transform: 'scale(1.16)', transformOrigin: 'center' }} />
       )}
@@ -104,22 +106,22 @@ function WarCard({ w, bandColor }: { w: War; bandColor: string }) {
 
   const card = (
     <div style={{
-      background: 'color-mix(in srgb, var(--foreground) 4%, transparent)',
-      borderRadius: 8,
-      border: `1px solid ${isXL ? alpha(bandColor, 0.55) : 'color-mix(in srgb, var(--foreground) 15%, transparent)'}`,
-      boxShadow: isXL ? `0 0 0 4px ${alpha(bandColor, 0.1)}, 0 12px 28px rgba(0,0,0,0.28)` : 'none',
+      background: 'var(--paper-2)',
+      borderRadius: 9,
+      border: `1px solid ${isXL ? alpha(bandColor, 0.55) : 'var(--line)'}`,
+      boxShadow: isXL ? `0 0 0 4px ${alpha(bandColor, 0.1)}, var(--w-shadow)` : 'none',
       overflow: 'hidden',
       display: 'flex',
       flexDirection: isXL ? 'column' : 'row',
       minHeight: sz.content,
     }}>
-      <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 132 : 'auto', alignSelf: 'stretch', flexShrink: 0, [isXL ? 'borderBottom' : 'borderRight']: '1px solid color-mix(in srgb, var(--foreground) 15%, transparent)' }}>
+      <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 132 : 'auto', alignSelf: 'stretch', flexShrink: 0, [isXL ? 'borderBottom' : 'borderRight']: '1px solid var(--line)' }}>
         <PaintingTile palette={w.palette} imageUrl={w.img} label={w.imgLabel} isXL={isXL} />
       </div>
       <div style={{ flex: 1, minWidth: 0, padding: isXL ? '12px 18px 14px' : (isLG ? '14px 18px' : '11px 15px'), display: 'flex', flexDirection: 'column' }}>
-        <div style={{ fontFamily: SERIF, fontSize: isXL ? 22 : (isLG ? 18 : 15), lineHeight: 1.1, letterSpacing: -0.2, color: 'var(--foreground)' }}>{w.name}</div>
-        <div style={{ fontFamily: SANS, fontSize: 10, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)', marginTop: 3, letterSpacing: 0.1 }}>{w.vs}</div>
-        <div style={{ marginTop: 'auto', paddingTop: 5, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.4, color: isXL ? 'var(--foreground)' : 'color-mix(in srgb, var(--foreground) 70%, transparent)', textWrap: 'pretty' }}>{w.hook}</div>
+        <div style={{ fontFamily: SERIF, fontWeight: 600, fontSize: isXL ? 22 : (isLG ? 18 : 15), lineHeight: 1.1, letterSpacing: -0.2, color: 'var(--ink)' }}>{w.name}</div>
+        <div style={{ fontFamily: SANS, fontSize: 10, color: 'var(--muted)', marginTop: 3, letterSpacing: 0.1 }}>{w.vs}</div>
+        <div style={{ marginTop: 'auto', paddingTop: 5, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.4, color: isXL ? 'var(--ink-soft)' : 'var(--muted)', textWrap: 'pretty' }}>{w.hook}</div>
         {w.href && (
           <div style={{ marginTop: 6, fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: bandColor }}>Read →</div>
         )}
@@ -132,7 +134,7 @@ function WarCard({ w, bandColor }: { w: War; bandColor: string }) {
       {/* year tag on cord */}
       <div style={{ position: 'absolute', left: 4, top: 10, width: CORD_X - 12, textAlign: 'right', paddingRight: 6, fontFamily: SANS, fontSize: 10.5, letterSpacing: 0.3, fontWeight: 600 }}>
         <div style={{ color: bandColor, fontWeight: 700, fontSize: 11 }}>{w.range.split('–')[0].slice(0, 4)}</div>
-        <div style={{ color: 'color-mix(in srgb, var(--foreground) 40%, transparent)', fontSize: 9.5, marginTop: 1 }}>
+        <div style={{ color: 'var(--muted)', fontSize: 9.5, marginTop: 1 }}>
           {w.range.includes('–') ? `–${(w.range.split('–')[1] || '').slice(0, 4) || 'now'}` : ''}
         </div>
       </div>
@@ -145,42 +147,37 @@ function WarCard({ w, bandColor }: { w: War; bandColor: string }) {
   )
 }
 
-export function WarFrontDoor({ showToggle = true }: { showToggle?: boolean } = {}) {
+export function WarFrontDoor() {
   const byBand = WAR_BANDS.map(b => ({ ...b, wars: WAR_EVENTS.filter(w => w.band === b.id) })).filter(b => b.wars.length > 0)
 
   return (
-    <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>
-      {/* Hero */}
-      <div style={{ padding: '18px 18px 12px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12 }}>
-        <div>
-          <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', opacity: 0.4 }}>War · United States</div>
-          <h1 style={{ margin: '8px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 28, lineHeight: 1.12, letterSpacing: -0.4 }}>Every war the country has fought, in order.</h1>
-          <p style={{ margin: '10px 0 0', fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)', maxWidth: 520 }}>
-            Scroll down. The cards get bigger as the wars get bigger. It is not subtle.
-          </p>
-        </div>
-        {showToggle && <DarkModeToggle />}
+    <div style={{ paddingBottom: 8 }}>
+      {/* editorial masthead */}
+      <div className="p-mast">
+        <div className="p-eyebrow">War · United States</div>
+        <h1 className="p-mast-title p-serif">American Wars</h1>
+        <p className="p-stand">Every war the country has fought, in order. Scroll down — the cards get bigger as the wars get bigger. It is not subtle.</p>
       </div>
 
-      {/* Timeline */}
-      <div style={{ position: 'relative', paddingTop: 8 }}>
+      {/* the escalating spine */}
+      <div style={{ position: 'relative', paddingTop: 14, paddingBottom: 8 }}>
         {/* continuous cord */}
-        <div style={{ position: 'absolute', left: CORD_X, top: 0, bottom: 0, width: 1, background: 'color-mix(in srgb, var(--foreground) 25%, transparent)' }} />
+        <div style={{ position: 'absolute', left: CORD_X, top: 0, bottom: 0, width: 1, background: 'color-mix(in srgb, var(--ink) 22%, transparent)' }} />
 
         {byBand.map(band => (
           <div key={band.id} style={{ position: 'relative' }}>
             {/* era-band label */}
             <div style={{ position: 'relative', padding: '18px 18px 8px' }}>
-              <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 38, fontWeight: 400, letterSpacing: -0.5, color: alpha(band.color, 0.12), lineHeight: 1, whiteSpace: 'nowrap', pointerEvents: 'none', userSelect: 'none', overflow: 'hidden' }}>{band.label}</div>
-              <div style={{ position: 'absolute', left: CORD_X + 14, top: 28, fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: band.color, textTransform: 'uppercase', background: 'var(--background)', padding: '0 6px' }}>{band.label}</div>
+              <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 38, fontWeight: 400, letterSpacing: -0.5, color: alpha(band.color, 0.14), lineHeight: 1, whiteSpace: 'nowrap', pointerEvents: 'none', userSelect: 'none', overflow: 'hidden' }}>{band.label}</div>
+              <div style={{ position: 'absolute', left: CORD_X + 14, top: 28, fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: band.color, textTransform: 'uppercase', background: 'var(--paper)', padding: '0 6px' }}>{band.label}</div>
             </div>
             {band.wars.map(w => <WarCard key={w.id} w={w} bandColor={band.color} />)}
           </div>
         ))}
 
         {/* end cap */}
-        <div style={{ position: 'absolute', left: CORD_X - 4, bottom: 8, width: 8, height: 8, borderRadius: 999, background: 'color-mix(in srgb, var(--foreground) 40%, transparent)' }} />
-        <div style={{ paddingLeft: CARD_LEFT_OFFSET, paddingRight: 18, paddingTop: 4, paddingBottom: 24, fontFamily: SANS, fontSize: 10.5, color: 'color-mix(in srgb, var(--foreground) 40%, transparent)', letterSpacing: 0.4 }}>Today — you are here.</div>
+        <div style={{ position: 'absolute', left: CORD_X - 4, bottom: 8, width: 8, height: 8, borderRadius: 999, background: 'var(--muted)' }} />
+        <div style={{ paddingLeft: CARD_LEFT_OFFSET, paddingRight: 18, paddingTop: 4, paddingBottom: 24, fontFamily: SANS, fontSize: 10.5, color: 'var(--muted)', letterSpacing: 0.4 }}>Today — you are here.</div>
       </div>
     </div>
   )
