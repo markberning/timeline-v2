@@ -62,374 +62,597 @@
       "label": "Medieval Warm Period",
       "year": 950,
       "endYear": 1250,
-      "description": "Roughly between 950 and 1250 CE, average temperatures in northern Europe ran about half a degree to one degree Celsius above the medieval baseline, lengthening growing seasons, allowing wine grapes to be cultivated as far north as southern England and rye to ripen in Norway, and providing the climate floor for the demographic and economic boom of the High Middle Ages.",
+      "description": "A roughly three-century warm spell (about 950 to 1250) when northern Europe ran half a degree to a degree Celsius warmer than usual, stretching growing seasons and giving the High Medieval boom its climate floor.",
       "wikiSlug": "Medieval_Warm_Period",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Climate scientists increasingly call it the \"Medieval Climate Anomaly\" instead, because the warmth was real in the North Atlantic but not a worldwide event. The classic evidence is plants growing where they cannot today: the Domesday Book of 1086 lists around 42 vineyards in southern England, and the Norse farmed Greenland for over 400 years before abandoning it. Newer Greenland glacier studies muddy the picture, hinting the local climate there may have been colder and patchier than the simple \"warm and welcoming\" story suggests."
+        }
+      ]
     },
     {
       "id": "evt-hme-heavy-plow",
       "label": "Heavy Mouldboard Plow",
       "year": 1000,
-      "description": "The heavy iron-shod mouldboard plow, drawn by oxen or horses and capable of cutting through the wet clay soils of northern Europe that the lighter Mediterranean ard could only scratch, spread across northern France, the Low Countries, England, and Germany between roughly 800 and 1100, dramatically increasing the area of arable land and the yield per acre.",
+      "description": "An iron-shod plow heavy enough to slice, undercut, and flip over the wet clay soils of the north that the old scratch-plow could only graze, opening huge stretches of Europe to farming for the first time.",
       "wikiSlug": "Plough",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its Latin name was the carruca, and it needed so much pulling power that peasant households often had to pool their oxen into a shared team of six or even eight beasts just to drag one through a field. Because turning that monster around was such a chore, farmers plowed in long uninterrupted strips, which is why medieval open fields and many old English field boundaries still show the gentle S-curve and ridge-and-furrow corrugation the heavy plow carved into the land. Some economic historians argue the plow even nudged village layouts toward cooperation, since no single family could afford a full team alone."
+        }
+      ],
+      "commonsFile": "Tapisserie_agriculture.JPG"
     },
     {
       "id": "evt-hme-three-field",
       "label": "Three-Field Rotation",
       "year": 1000,
-      "description": "The three-field crop rotation — one field of winter wheat or rye, one of spring oats or barley, one fallow — replaced the older two-field system across much of northern Europe between 900 and 1200, raising the productive share of farmland from one half to two thirds and adding spring-planted oats that could feed both humans and the new draft horses.",
+      "description": "A smarter way of dividing a farm into three rotating plots instead of two, so two-thirds of the land grew food each year while only one-third rested, instead of leaving fully half idle.",
       "wikiSlug": "Three-field_system",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The spring field often went to legumes (peas, beans, and lentils), and although nobody understood the chemistry yet, those crops pull nitrogen out of the air and feed it back into the soil through bacteria in their roots, quietly re-fertilizing the ground for free. The system seems to have taken shape during the farming reforms of Charlemagne's Carolingian empire in the ninth century before spreading widely by the eleventh. The bonus crop of spring oats mattered as much as the math: oats fed the new draft horses, so the rotation and the horse-powered farm grew up hand in hand."
+        }
+      ],
+      "commonsFile": "Les_Très_Riches_Heures_du_duc_de_Berry_mars.jpg"
     },
     {
       "id": "evt-hme-horse-collar",
       "label": "Rigid Horse Collar",
       "year": 1000,
-      "description": "The rigid padded horse collar, which let a horse pull from the shoulders rather than the windpipe, arrived in western Europe from China via the Eurasian steppe in the ninth and tenth centuries. Combined with horseshoes and the shoulder yoke, it made the horse roughly twice as efficient as the ox for plowing and hauling and tripled effective draft power on the medieval farm.",
+      "description": "A stiff padded collar that let a horse throw its full shoulder weight into a load instead of choking itself on a strap across the windpipe, finally making horses worth harnessing to a plow.",
       "wikiSlug": "Horse_collar",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The design is far older than medieval Europe: padded horse harnessing shows up in Chinese art well before 500 CE, and the breast-strap version was being depicted on Han-dynasty chariots centuries before that. It drifted west across the steppe with peoples like the Avars and Magyars, reaching Europe by around the ninth century and becoming standard by the twelfth. Horses cost more to feed than oxen because they need grain, not just grass, so the switch only paid off once the three-field system was reliably producing the spare oats to feed them."
+        }
+      ],
+      "commonsFile": "Horse_collar_(AM_615168-1).jpg"
     },
     {
       "id": "evt-hme-watermills",
       "label": "Watermill Boom",
       "year": 1086,
-      "description": "The 1086 Domesday survey counted 5,624 watermills in England alone — roughly one for every fifty households — used to grind grain, full cloth, saw timber, hammer iron, crush ore, and bellows-blow furnaces. The High Medieval watermill was the first widespread non-animal industrial power source in human history.",
+      "description": "The 1086 Domesday survey tallied thousands of mills across England, roughly one per fifty households, marking water as the first widespread industrial power source the medieval world ever harnessed beyond muscle.",
       "wikiSlug": "Watermill",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famous figure of 5,624 mills comes from a 1939 study by Margaret Hodgen; later counts run higher, around 6,000. Domesday is also slippery on this point, because it uses a single word for \"mill\" that does not actually specify water power, so the exact watermill count is a scholarly estimate rather than a hard number. Lords loved mills because they could legally force tenants to grind their grain there for a fee, making the village mill one of the most reliable money-spinners on a medieval estate and a frequent flashpoint for peasant resentment."
+        }
+      ],
+      "commonsFile": "Braine-le-Château_JPG02.jpg"
     },
     {
       "id": "evt-hme-population-boom",
       "label": "Demographic Boom",
       "year": 1100,
-      "description": "Europe's population roughly doubled between 1000 and 1300 — from an estimated 35–40 million to 70–80 million — driven by the agricultural revolution, the warming climate, and the absence of pandemic disease. The High Middle Ages were the most demographically expansive period in European history before the Industrial Revolution.",
+      "description": "Western Europe's population roughly doubled between 1000 and 1300, the steepest sustained growth the continent saw before the Industrial Revolution, all fed by the new farming.",
       "wikiSlug": "Medieval_demography",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The numbers are educated guesswork stitched together from tax rolls, church records, hearth counts, and dug-up village sites, so historians quote them as ranges, not certainties. The boom ran straight into a wall: when the climate cooled around 1300, harvests faltered, and the Great Famine of 1315 to 1317 killed millions before the Black Death arrived in 1347 and erased perhaps a third to half of everyone left. In other words, this chapter's growth curve had already begun to stall by the time the plague hit, a hard ceiling the High Medieval system simply could not push past."
+        }
+      ],
+      "commonsFile": "Les_Très_Riches_Heures_du_duc_de_Berry_octobre_detail.jpg"
     },
     {
       "id": "evt-hme-urban-revival",
       "label": "Urban Revival",
       "year": 1100,
-      "description": "Between 1000 and 1300 the cities of western Europe revived from the small late-Roman remnants of the early Middle Ages into genuine commercial centers. By 1300 Paris had perhaps 200,000 residents, Venice and Milan around 150,000, Florence and Genoa around 100,000 — the largest western European cities since Rome's fourth-century population peak.",
+      "description": "Europe's shrunken old Roman towns swelled back into real commercial cities between 1000 and 1300, growing into self-governing communes run by merchants and artisans rather than rural lords.",
       "wikiSlug": "Medieval_commune",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Their freedom was captured in a German legal saying, \"Stadtluft macht frei\" (\"city air makes you free\"), reflecting the rule that a runaway serf who lived in a chartered town for a year and a day could no longer be dragged back by his lord. That made cities a magnet for the countryside's most ambitious laborers from the eleventh century on. Even at their biggest, though, these were modest by world standards: a 200,000-person Paris around 1300 was a town next to contemporary Hangzhou in Song China, which topped a million."
+        }
+      ],
+      "commonsFile": "San_Gimignano_(1).jpg"
     },
     {
       "id": "evt-hme-cluny-reform",
       "label": "Cluniac Reform",
       "year": 910,
       "endYear": 1156,
-      "description": "The abbey of Cluny in Burgundy, founded in 910 with a charter freeing it from local secular control, became the headquarters of the most important monastic reform movement of the central Middle Ages, eventually overseeing more than a thousand daughter houses across western Europe. The Cluniac model — centralized, papally protected, ritually elaborate — was the institutional engine that produced the reform-minded popes of the later eleventh century.",
+      "description": "Founded in 910 by Duke William I of Aquitaine and answerable to the pope alone, the Burgundian abbey of Cluny became the headquarters of the central Middle Ages' biggest monastic reform movement — eventually a network of more than a thousand daughter houses that fed reform-minded clerics straight into the papacy.",
       "wikiSlug": "Cluniac_Reforms",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cluny's freedom from any local lord or bishop was the secret ingredient — the founding charter put it directly under papal protection, which meant no neighboring count could raid its lands or install his cousin as abbot. The monks plowed their resources into ever-bigger churches: the third and final one, Cluny III (built mostly 1088 to 1130), was the largest church in all of Christendom and stayed that way until St. Peter's Basilica in Rome was rebuilt centuries later. Most of it was demolished after the French Revolution, so only a fragment survives today."
+        }
+      ],
+      "commonsFile": "Cluny_-_Bâtiments_abbatiaux_-_08.jpg"
     },
     {
       "id": "evt-hme-gregory-vii",
       "label": "Pope Gregory VII",
       "year": 1073,
       "endYear": 1085,
-      "description": "Hildebrand of Sovana, elected pope as Gregory VII in 1073, transformed the papacy into the most ambitious political institution in Latin Europe. His Dictatus Papae (1075) claimed papal supremacy over emperors and the right to depose them; his confrontation with Henry IV launched the Investiture Controversy and the long medieval contest between papal and royal authority.",
+      "description": "A Tuscan-born monk named Hildebrand who had advised popes for twenty years before being elected himself in 1073, Gregory VII turned the papacy into the most aggressive political institution in Latin Europe — and picked the fight with Emperor Henry IV that became the Investiture Controversy.",
       "wikiSlug": "Pope_Gregory_VII",
       "tier": 2,
       "tags": [
         "people",
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His 1075 Dictatus Papae (Dictates of the Pope) was a list of 27 blunt claims, including that the pope alone may depose emperors and that all princes must kiss only his feet. The feud didn't end at Canossa: Gregory excommunicated Henry a second time in 1080, Henry stormed Rome in 1084 and set up a rival pope, and Gregory fled to Salerno, where he died in 1085 reportedly saying \"I have loved justice and hated iniquity, therefore I die in exile.\" The Church later made him a saint — his feast day is May 25, the date of his death."
+        }
+      ],
+      "commonsFile": "Exultet_Rolls_of_Southern_Italy,_detail_of_Pope_Gregory_VII.jpg"
     },
     {
       "id": "evt-hme-investiture-controversy",
       "label": "Investiture Controversy",
       "year": 1075,
       "endYear": 1122,
-      "description": "Pope Gregory VII and Holy Roman Emperor Henry IV fought a long contest over who could appoint bishops — investiture. Henry was excommunicated in 1076, walked barefoot in penance to Canossa in January 1077, was excommunicated again, and the war between empire and papacy continued through three more popes and Henry's son Henry V. The Concordat of Worms in 1122 finally compromised the question and established the papacy as a power independent of secular rulers.",
+      "description": "The roughly 50-year contest (about 1075 to 1122) over who got to appoint bishops — the king who handed them their lands, or the pope who claimed their souls. Pope Gregory VII and Emperor Henry IV started it; the fight outlasted both men and three more popes before the Concordat of Worms settled it.",
       "wikiSlug": "Investiture_Controversy",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "\"Investiture\" referred to the literal ceremony of handing a new bishop a ring and a staff (crosier), the symbols of his office — the argument was over whose hands those should be. The quarrel left such a deep mark on German memory that 800 years later, during his 1870s campaign against the Catholic Church, Chancellor Otto von Bismarck told the German parliament on May 14, 1872, \"We will not go to Canossa\" — meaning Germany would never again humble itself before Rome. The phrase \"go to Canossa\" still means a humiliating climbdown."
+        }
+      ],
+      "commonsFile": "Investiturewoodcut.png"
     },
     {
       "id": "evt-hme-canossa",
       "label": "Henry IV at Canossa",
       "year": 1077,
-      "description": "In late January 1077 the excommunicated Holy Roman Emperor Henry IV stood barefoot in the snow for three days outside the gate of the castle of Canossa in northern Italy waiting for Pope Gregory VII to lift his excommunication. Gregory eventually did. The episode became the iconic image of papal supremacy over kings, even though the political contest continued for another forty-five years.",
+      "description": "In late January 1077 the excommunicated emperor Henry IV stood barefoot in the snow for three days outside the castle of Canossa, in a hair shirt, begging Pope Gregory VII to readmit him to the Church. Gregory finally did — and the scene became the all-time image of a pope humbling a king.",
       "wikiSlug": "Walk_to_Canossa",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gregory was staying at Canossa as the guest of Countess Matilda of Tuscany, one of the most powerful women in Italy and a fierce papal ally. The pope only relented after Matilda and Abbot Hugh of Cluny personally pleaded Henry's case, and the gates finally opened on January 28; that evening the two men shared communion in the castle chapel of Sant'Apollonio. The penance worked too well in the short run — by clearing the excommunication, Gregory removed the legal grounds his German enemies needed to depose Henry, who promptly went home and crushed them."
+        }
+      ],
+      "commonsFile": "Schwoiser_Heinrich_vor_Canossa.jpg"
     },
     {
       "id": "evt-hme-concordat-worms",
       "label": "Concordat of Worms",
       "year": 1122,
-      "description": "The Concordat of Worms, signed September 23, 1122, between Pope Calixtus II and Holy Roman Emperor Henry V, ended the Investiture Controversy by separating the spiritual investiture of bishops (with ring and staff, by the pope) from the temporal investiture (with land and office, by the emperor). It established that bishops would be elected by their cathedral chapters under both papal and royal supervision.",
+      "description": "Signed September 23, 1122, between Pope Calixtus II and Emperor Henry V, this deal finally ended the Investiture Controversy by splitting the difference: the pope would invest bishops with their spiritual authority (ring and staff), the emperor with their lands and worldly office.",
       "wikiSlug": "Concordat_of_Worms",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The compromise let each side claim it hadn't lost — the emperor gave up handing over the ring and staff but kept a real say by being present at elections and granting the lands afterward through a touch of his scepter. Crucially, bishops were now to be chosen by canonical election (the cathedral clergy voting) rather than simply named by the crown. The settlement held well enough that its 900th anniversary was marked in Germany in 2022 as a landmark in the long history of church-versus-state."
+        }
+      ],
+      "commonsFile": "Urkunde_Wormser_Konkordat-bg.png"
     },
     {
       "id": "evt-hme-great-schism-1054",
       "label": "Great Schism of 1054",
       "year": 1054,
-      "description": "Mutual excommunications exchanged on July 16, 1054, between the papal legate Cardinal Humbert and the Patriarch Michael Cerularius in Hagia Sophia formalized the split between the Roman Catholic and Eastern Orthodox churches. Neither side considered it permanent at the time. It has not been healed since.",
+      "description": "On July 16, 1054, a papal envoy slapped a bull of excommunication on the altar of Hagia Sophia in Constantinople against the patriarch, who fired back days later — formalizing the split between the Roman Catholic West and the Eastern Orthodox East. Nobody at the time thought it was permanent.",
       "wikiSlug": "East%E2%80%93West_Schism",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Awkwardly, the pope who sent the envoy, Leo IX, had already died months earlier, which left the legate's authority to issue the excommunication on shaky legal ground. The break hardened over the next centuries — sharpened above all when Western crusaders sacked Constantinople in 1204 — and the two churches remain in schism today. The mutual excommunications were finally \"committed to oblivion\" in a joint declaration read simultaneously in Rome and Istanbul on December 7, 1965, by Pope Paul VI and Patriarch Athenagoras I, though that gesture eased the bitterness without actually reuniting the churches."
+        }
+      ],
+      "commonsFile": "Great_Schism_with_former_borders_(1054).png"
     },
     {
       "id": "evt-hme-norman-conquest",
       "label": "Norman Conquest of England",
       "year": 1066,
-      "description": "Norman cavalry under Duke William the Conqueror defeated King Harold II's Anglo-Saxon army at Hastings on October 14, 1066, ending Anglo-Saxon rule in England and transplanting a French-speaking aristocracy that reshaped English law, language, and landholding. The Conquest folded England into the Norman cultural orbit and connected it permanently to the politics of northern France.",
+      "description": "Duke William of Normandy's 1066 invasion crushed the Anglo-Saxon kingdom at Hastings and bolted a French-speaking ruling class onto England, permanently rewiring its law, language, and landholding.",
       "wikiSlug": "Norman_Conquest",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Harold had terrible luck: just weeks before Hastings he had force-marched his army north to destroy a Norwegian invasion under Harald Hardrada at Stamford Bridge on 25 September, then raced roughly 250 miles (400 km) back south when William landed days later. The whole drama is stitched into the Bayeux Tapestry, an embroidered cloth nearly 230 feet (70 m) long. Its most famous image, Harold killed by an arrow in the eye, may be a myth: the \"arrow\" was added during nineteenth-century French repairs, and earlier copies show the figure holding a spear."
+        }
+      ],
+      "commonsFile": "BayeuxTapestry39.jpg"
     },
     {
       "id": "evt-hme-domesday-book",
       "label": "Domesday Book",
       "year": 1086,
-      "description": "William the Conqueror's commissioners surveyed nearly every landholding in England in 1085–1086 and recorded the results in the Domesday Book, the most detailed administrative survey produced anywhere in medieval Europe and the foundational document of English landholding for the next eight centuries.",
+      "description": "William the Conqueror's astonishingly thorough head-to-toe survey of who owned what in England, compiled in 1086 and unmatched anywhere in medieval Europe for its detail.",
       "wikiSlug": "Domesday_Book",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Seven or eight teams of commissioners fanned out across the counties from about January and wrapped up by August 1086, working county by county to avoid being told the same lies twice. The grim nickname came later: writing around 1179, royal treasurer Richard FitzNeal explained that people called it \"Domesday\" after the Day of Judgement, because, like God's final verdict, its findings could not be appealed or overturned. The survey was so feared and intrusive that the Anglo-Saxon Chronicle complained William left out \"not one ox, nor one cow, nor one pig.\""
+        }
+      ],
+      "commonsFile": "Domesday-book-1804x972.jpg"
     },
     {
       "id": "evt-hme-urban-clermont",
       "label": "Urban II at Clermont",
       "year": 1095,
-      "description": "Pope Urban II's sermon at the Council of Clermont on November 27, 1095, called western Christians to liberate Jerusalem from Muslim rule. Several recorded versions of the speech survive (none verbatim); all agree he promised remission of sins to participants. The crowd reportedly responded with shouts of Deus vult — God wills it — that became the slogan of the First Crusade.",
+      "description": "Pope Urban II's open-air sermon at the Council of Clermont on November 27, 1095, urging the knights of western Europe to march east and wrest Jerusalem from Muslim rule — the launch of the First Crusade.",
       "wikiSlug": "Council_of_Clermont",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The council had actually opened nine days earlier, on November 18, as a routine church-reform meeting; the crusade sermon came at the very end. One of its canons granted the first recorded plenary indulgence (a full cancellation of the church penance owed for one's sins) to anyone who made the journey \"out of devotion alone, and not for the gaining of glory or money\" — a spiritual reward so powerful it electrified Europe far beyond the field at Clermont. We genuinely don't know Urban's exact words: the five surviving versions were all written down years later by men shaping the story to fit how the crusade turned out."
+        }
+      ],
+      "commonsFile": "Passages_d'outremer_Fr5594,_fol._19r,_Concile_de_Clermont.jpg"
     },
     {
       "id": "evt-hme-peoples-crusade",
       "label": "People's Crusade",
       "year": 1096,
-      "description": "Months before the official crusader armies of barons and knights set out, an unauthorized expedition of perhaps 40,000 mostly unarmed peasants and townsfolk under the preacher Peter the Hermit and the impoverished knight Walter Sans Avoir set out for Jerusalem in spring 1096. Most were massacred by Seljuk Turks at Civetot near Constantinople in October 1096; en route they had also massacred Jewish communities in the Rhineland.",
+      "description": "A ragtag wave of perhaps 40,000 mostly unarmed commoners — led by the preacher Peter the Hermit and a poor knight nicknamed Walter the Penniless — set out for Jerusalem in spring 1096, months ahead of the official knightly armies. Almost none survived.",
       "wikiSlug": "People%27s_Crusade",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Peter the Hermit, a priest from Amiens in northern France, reportedly led his followers riding a donkey. Walter Sans Avoir was killed at the Battle of Civetot on October 21, 1096 (near Constantinople), said to have been pierced by seven arrows when the Seljuk leader Kilij Arslan ambushed the camp. Peter himself happened to be back in Constantinople when the slaughter happened, so he survived — and later tagged along with the official First Crusade all the way to Jerusalem."
+        }
+      ],
+      "commonsFile": "PeoplesCrusadeMassacre.jpg"
     },
     {
       "id": "evt-hme-first-crusade",
       "label": "First Crusade",
       "year": 1096,
       "endYear": 1099,
-      "description": "Four armies of European knights — under Godfrey of Bouillon, Raymond of Toulouse, Bohemond of Taranto, and Robert of Normandy — marched separately to Constantinople, then south through Anatolia, took Antioch in June 1098 after an eight-month siege, and captured Jerusalem on July 15, 1099, slaughtering most of the city's Muslim and Jewish population. The Crusade established the four Crusader states and inaugurated four centuries of European intervention in the eastern Mediterranean.",
+      "description": "The official crusade: four separate armies of European knights marched to Constantinople, fought their way across Anatolia, took Antioch after a grueling eight-month siege, and stormed Jerusalem in July 1099 — founding the Crusader states and four centuries of European meddling in the eastern Mediterranean.",
       "wikiSlug": "First_Crusade",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Antioch siege (October 1097 to June 1098) nearly broke the crusaders: after they finally took the city by bribing a guard to open a gate, a huge Turkish relief army under Kerbogha of Mosul promptly trapped them inside. A peasant named Peter Bartholomew claimed a vision revealed the Holy Lance (the spear said to have pierced Christ at the Crucifixion) buried under the floor of St. Peter's church — and the \"miracle\" gave the starving army the nerve to charge out and win on June 28, 1098. Months later, at the siege of Ma'arra, starving crusaders resorted to cannibalizing the corpses of the dead, an atrocity their own chroniclers recorded."
+        }
+      ],
+      "commonsFile": "Peter_the_Hermit.jpg"
     },
     {
       "id": "evt-hme-jerusalem-1099",
       "label": "Jerusalem Falls 1099",
       "year": 1099,
-      "description": "Crusader troops breached the walls of Jerusalem on July 15, 1099, and over the next two days slaughtered most of the city's Muslim and Jewish inhabitants in one of the most notorious massacres of the High Middle Ages. Western chroniclers boasted that the blood ran ankle-deep in the streets; Muslim sources quoted similar figures. Modern estimates run from 3,000 to 30,000 dead.",
+      "description": "On July 15, 1099, the crusaders breached Jerusalem's walls and over two days butchered most of the city's Muslim and Jewish residents — one of the most infamous massacres of the High Middle Ages.",
       "wikiSlug": "Siege_of_Jerusalem_(1099)",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The five-week siege had begun on June 7; the breakthrough came when the army built a wooden siege tower from timber salvaged off scrapped Italian ships and rolled it against the walls. A week after the slaughter, the knights chose Godfrey of Bouillon to rule — but he refused to be crowned king, reportedly saying he would not wear a crown of gold in the city where Christ wore a crown of thorns, and took the humbler title \"Advocate of the Holy Sepulchre\" instead."
+        }
+      ],
+      "commonsFile": "Taking_of_Jerusalem_by_the_Crusaders,_15th_July_1099.jpg"
     },
     {
       "id": "evt-hme-crusader-states",
       "label": "Crusader States",
       "year": 1099,
       "endYear": 1291,
-      "description": "Four Crusader states — the Kingdom of Jerusalem, the Principality of Antioch, the County of Edessa, and the County of Tripoli — were established in the Levant after the First Crusade. Edessa fell to the Muslims in 1144, Jerusalem to Saladin in 1187, and the last Crusader stronghold at Acre to the Mamluks on May 18, 1291.",
+      "description": "The four Christian states the First Crusade left behind in the Levant — the Kingdom of Jerusalem, the Principality of Antioch, the County of Edessa, and the County of Tripoli — ruled by a transplanted French-speaking aristocracy. They dwindled away over nearly two centuries, ending when Acre fell in 1291.",
       "wikiSlug": "Crusader_states",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "To defend them, two famous military orders were born — warrior-monks who took religious vows but fought as knights: the Knights Templar, founded around 1118 to guard pilgrims on the road to Jerusalem from a base on the Temple Mount, and the Knights Hospitaller, which grew out of an earlier hospital for sick pilgrims before turning military. The European-descended settlers born in the Levant even got their own name from newcomers — the \"Pullani\" — and were often mocked by fresh arrivals from home for how thoroughly they had gone native."
+        }
+      ],
+      "commonsFile": "Europe_1000.jpg"
     },
     {
       "id": "evt-hme-second-crusade",
       "label": "Second Crusade",
       "year": 1147,
       "endYear": 1149,
-      "description": "Launched by Pope Eugene III after the Muslim recapture of the County of Edessa in 1144 and preached across Europe by Bernard of Clairvaux, the Second Crusade collapsed at the disastrous siege of Damascus in July 1148 after an ill-advised four-day attack on the city's walls. The failure damaged crusader prestige in the Holy Land and Bernard's reputation in Europe.",
+      "description": "Launched by Pope Eugene III after Edessa fell to the Muslims in 1144 and preached across Europe by the celebrity monk Bernard of Clairvaux, the Second Crusade ended in humiliation at the walls of Damascus in 1148.",
       "wikiSlug": "Second_Crusade",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Damascus siege lasted just four days, July 24–28, 1148, before the kings of France and Germany pulled out — undone by squabbling among the leaders over who would get to rule the city if they actually took it, and by news that a Muslim relief army under Nur al-Din was closing in. The campaign also helped wreck one of the era's most famous marriages: Louis VII of France brought his wife Eleanor of Aquitaine along, and the trip's disasters plus her closeness to her uncle in Antioch pushed the couple toward an annulment a few years later."
+        }
+      ],
+      "commonsFile": "BattleOfInab.jpg"
     },
     {
       "id": "evt-hme-saladin-1187",
       "label": "Saladin Takes Jerusalem",
       "year": 1187,
-      "description": "On July 4, 1187, Saladin's army destroyed the assembled Crusader field army at the Horns of Hattin in Galilee; on October 2, Jerusalem surrendered to him after a brief siege. Unlike the Crusaders in 1099, Saladin permitted ransomed Christians to leave with their property and protected the Holy Sepulchre. The fall of Jerusalem triggered the Third Crusade.",
+      "description": "On July 4, 1187, Saladin destroyed the Crusader field army at the Horns of Hattin in Galilee; Jerusalem surrendered to him months later. Unlike the crusaders in 1099, he let ransomed Christians leave with their goods and spared the Holy Sepulchre — and the contrast made him a legend even in Europe.",
       "wikiSlug": "Siege_of_Jerusalem_(1187)",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Saladin lured the heavily armored Christian army across waterless terrain in July heat, then trapped the parched, exhausted force on the twin hills called the Horns. He captured the True Cross relic the crusaders had carried into battle (it was paraded into Damascus mounted upside-down on a lance) and took the king of Jerusalem, Guy of Lusignan, prisoner. He personally had the truce-breaking lord Reynald of Châtillon executed, but spared the king with the line \"kings do not kill kings.\""
+        }
+      ],
+      "commonsFile": "ChristiansBeforeSaladin.jpg"
     },
     {
       "id": "evt-hme-third-crusade",
       "label": "Third Crusade",
       "year": 1189,
       "endYear": 1192,
-      "description": "Richard the Lionheart of England, Philip II of France, and Frederick Barbarossa of the Holy Roman Empire led the Third Crusade against Saladin. Frederick drowned crossing a river in Anatolia in June 1190 and his army largely went home. Richard recaptured Acre and won the Battle of Arsuf, but failed to retake Jerusalem; the Treaty of Jaffa in September 1192 left Jerusalem in Saladin's hands while granting Christian pilgrims access to the city.",
+      "description": "The all-star crusade: Richard the Lionheart of England, Philip II of France, and Emperor Frederick Barbarossa marched to win Jerusalem back from Saladin. Frederick drowned en route; Richard retook Acre and won at Arsuf but never tried to retake Jerusalem itself. The 1192 Treaty of Jaffa left the city Muslim but reopened it to Christian pilgrims.",
       "wikiSlug": "Third_Crusade",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "After Acre fell, Richard had roughly 2,700 Muslim prisoners beheaded in full view of Saladin's army on August 20, 1191 (the Massacre of Ayyadieh), when he judged Saladin was stalling on the ransom terms; Saladin retaliated by killing his own Christian captives. Richard's victory at Arsuf came on September 7, 1191. His homeward journey went badly too — captured by Duke Leopold of Austria, he was held for ransom by the Holy Roman Emperor and freed only in 1194 for a sum equal to about two years of the English crown's entire income."
+        }
+      ],
+      "commonsFile": "The_Third_Crusade_(1189-1192).png"
     },
     {
       "id": "evt-hme-fourth-crusade",
       "label": "Sack of Constantinople 1204",
       "year": 1204,
-      "description": "The Fourth Crusade, diverted by Venetian financing into a series of detours, sacked Christian Constantinople on April 13, 1204, installed a Latin emperor, looted relics and bronze horses to Venice, and broke the Byzantine state for fifty-seven years. Pope Innocent III had explicitly forbidden the attack and had no power to stop it. The schism between the western and eastern churches became permanent in popular memory.",
+      "description": "A crusade aimed at Egypt that, deep in debt to Venice, got steered into sacking Christian cities instead — climaxing in the catastrophic three-day looting of Constantinople in April 1204, which broke the Byzantine Empire and poisoned relations between the western and eastern churches for centuries.",
       "wikiSlug": "Fourth_Crusade",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mastermind was Enrico Dandolo, the Doge (elected ruler) of Venice — by then in his nineties and reportedly blind — who used the crusaders' unpaid bill as leverage to redirect them again and again. The plunder was staggering: the four gilded bronze horses looted from Constantinople's Hippodrome (the city's great chariot-racing arena) still stand at St. Mark's Basilica in Venice today. Even Pope Innocent III, who had forbidden the attack, was horrified when he learned what his crusade had done."
+        }
+      ],
+      "commonsFile": "ConquestOfConstantinopleByTheCrusadersIn1204.jpg"
     },
     {
       "id": "evt-hme-childrens-crusade",
       "label": "Children's Crusade Myth",
       "year": 1212,
-      "description": "Two unrelated movements in 1212 — a French shepherd boy named Stephen of Cloyes who led a procession to Saint-Denis, and a German boy named Nicholas of Cologne who led a march toward the Mediterranean — were merged in later chronicles into the legendary 'Children's Crusade' of thousands of children who supposedly set out for Jerusalem and were sold into slavery. Modern historians regard the original participants as mostly poor adolescents and unemployed adults; the slavery story is largely later embroidery.",
+      "description": "The 'Children's Crusade' of 1212 — the storybook tale of thousands of children marching off to Jerusalem and being sold into slavery — is mostly later legend, stitched together from two unrelated real processions led by a French shepherd boy and a German youth.",
       "wikiSlug": "Children%27s_Crusade",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roughly fifty short medieval sources mention the events, but they don't agree, and the slavery story shows up only in much later embroidery. The biggest clue that it wasn't really children: the Latin word the chronicles used, pueri, didn't only mean \"boys\" — it also meant the socially lowly, the poor and landless, and several sources flatly mention adults, women, and the elderly among the marchers. Historians today read it as a movement of the desperate poor, not innocent kids."
+        }
+      ],
+      "commonsFile": "Gustave_doré_crusades_the_childrens_crusade.jpg"
     },
     {
       "id": "evt-hme-bernard-clairvaux",
       "label": "Bernard of Clairvaux",
       "year": 1090,
       "endYear": 1153,
-      "description": "Bernard of Clairvaux, Cistercian abbot from 1115 and the most influential churchman of his generation, preached the Second Crusade, founded sixty-eight Cistercian monasteries, mediated between popes and kings, and produced sermons and treatises that shaped western mysticism for centuries. The papacy of Eugene III (his former student) effectively ran on Bernard's advice.",
+      "description": "Bernard, abbot of Clairvaux from 1115, was the twelfth century's most powerful churchman who never became pope — a preacher who could move crowds and kings, mediate papal disputes, and bend the era's politics toward whatever he believed God wanted.",
       "wikiSlug": "Bernard_of_Clairvaux",
       "tier": 3,
       "tags": [
         "people",
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He didn't just bless the Knights Templar — at the Council of Troyes in 1128 he helped draft the warrior-monks' founding rule, giving the new military order its religious blueprint. He was canonized (declared a saint) just 21 years after his death, by Pope Alexander III in 1174, and in 1830 was named a Doctor of the Church, a rare title reserved for thinkers whose writing the Church holds up as a teaching standard."
+        }
+      ],
+      "commonsFile": "San_Bernardo,_de_Juan_Correa_de_Vivar_(Museo_del_Prado).jpg"
     },
     {
       "id": "evt-hme-cistercians",
       "label": "Cistercian Order",
       "year": 1098,
-      "description": "A small group of Benedictine reformers founded the abbey of Cîteaux in Burgundy in 1098, seeking a stricter return to the Rule of Saint Benedict. The Cistercian Order they created — austere, agricultural, organized around a constitutional charter (the Carta Caritatis) that linked daughter houses to the mother — exploded across twelfth-century Europe and pioneered medieval estate management, hydraulic engineering, and large-scale sheep farming.",
+      "description": "In 1098 a band of monks led by Robert of Molesme walked out of their comfortable Burgundian abbey to found Cîteaux, wanting a harder, simpler life closer to Saint Benedict's original rule. The order they started grew into one of medieval Europe's great economic and spiritual engines.",
       "wikiSlug": "Cistercians",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "People called them the \"White Monks\" because they wore undyed wool habits, setting them apart from the black-robed Benedictines they'd broken away from. Growth was explosive: by 1152 the order already counted around 350 abbeys, and a century later more than 700 houses held over 20,000 monks. Because they deliberately built in remote, empty country and farmed it themselves (with armies of lay brothers), they ended up draining marshes, damming streams for waterpower, and running some of the largest wool operations in Europe."
+        }
+      ],
+      "commonsFile": "Fountains_Abbey,_Yorkshire,_UK_-_Diliff.jpg"
     },
     {
       "id": "evt-hme-dominicans",
       "label": "Dominicans Founded",
       "year": 1216,
-      "description": "Dominic of Caleruega founded the Order of Preachers — the Dominicans — in 1216 with papal approval, organized for educated preaching against the Albigensian heresy in southern France and rapidly absorbed into the new universities. The Dominicans took most of the theological chairs at Paris in the thirteenth century and produced Albertus Magnus and Thomas Aquinas.",
+      "description": "The Order of Preachers, founded by the Castilian priest Dominic of Caleruega and approved by the pope in 1216 to win back territory lost to the Cathar heresy through educated preaching. The order made learning its core mission and quickly colonized the universities.",
       "wikiSlug": "Dominican_Order",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Dominic landed on his vocation while traveling through southern France around 1203 to 1206 and seeing how poorly the wealthy, well-fed local clergy were answering the austere Cathar preachers; his answer was an order that out-argued them by living plainly and studying hard. Pope Honorius III approved the community on 22 December 1216, and the friars adopted the centuries-old Rule of Saint Augustine. In England they became known as the Blackfriars, after the black cloaks they wore over white habits, a nickname still stamped on streets and a London Underground station today."
+        }
+      ],
+      "commonsFile": "Santo_Domingo_en_oración.jpg"
     },
     {
       "id": "evt-hme-francis-of-assisi",
       "label": "Francis of Assisi",
       "year": 1209,
-      "description": "Francis of Assisi, son of a wealthy cloth merchant in central Italy, renounced his inheritance in 1206 and founded the Franciscan Order in 1209 around voluntary radical poverty, preaching to ordinary people in their own languages, and care for the sick and the outcast. Within a decade the Franciscans were one of the largest religious orders in western Europe.",
+      "description": "The cloth merchant's son who threw over his inheritance for a life of radical poverty and founded the Franciscan order in 1209, preaching to ordinary people and tending the sick. Within a decade his friars were one of the largest religious movements in Europe.",
       "wikiSlug": "Francis_of_Assisi",
       "tier": 2,
       "tags": [
         "people",
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Francis got his first papal nod in 1209 when he and eleven followers walked to Rome and Pope Innocent III verbally approved their rule, reportedly after dreaming he saw Francis propping up a collapsing church. In 1224, while fasting on the mountain of La Verna in Tuscany, Francis is said to have received the stigmata (wounds matching Christ's crucifixion), making him the first widely documented case in Church history. The next year, nearly blind and in constant pain, he composed the Canticle of the Sun, one of the earliest known poems written in an Italian dialect rather than Latin."
+        }
+      ],
+      "commonsFile": "S.Francesco_speco.jpg"
     },
     {
       "id": "evt-hme-abelard-heloise",
       "label": "Abelard and Heloise",
       "year": 1117,
-      "description": "Peter Abelard, the most controversial logician of the early twelfth century, taught the brilliant Heloise in Paris around 1117, fathered her child, was castrated by her uncle's hired men, and lived out his life in monastic exile. Their letters, written years later from separate monasteries, became one of the great romantic correspondences in European literature and Abelard's Sic et Non established the dialectical method later used in scholastic theology.",
+      "description": "Peter Abelard, the sharpest and most arrogant logician of his day, fell into a love affair with his brilliant student Heloise in Paris around 1117 — a scandal that ended in a child, a secret marriage, and a brutal revenge that drove both into the cloister, but left behind some of the most famous love letters in history.",
       "wikiSlug": "Peter_Abelard",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Their son got the wonderfully nerdy name Astrolabe, after the brass star-measuring instrument that was the cutting-edge gadget of the age. The affair didn't blunt Abelard's gift for making enemies: in 1141 the Council of Sens condemned his theology as heretical, after Bernard of Clairvaux maneuvered the bishops into ruling against him before he could even argue his case. He died the next year, on April 21, 1142, sheltered under the protection of Peter the Venerable, abbot of Cluny, at the Cluniac priory of Saint-Marcel near Chalon-sur-Saône, and was eventually buried beside Heloise."
+        }
+      ],
+      "commonsFile": "Piotr_Abelard_(cropped).jpg"
     },
     {
       "id": "evt-hme-toledo-translation",
       "label": "Toledo Translation Movement",
       "year": 1150,
-      "description": "After the Christian reconquest of Toledo in 1085, the city's surviving Arabic libraries became the principal channel through which Aristotle, Greek mathematics, Indian numerals, and the work of Islamic scholars like Avicenna and Averroes were translated into Latin. Gerard of Cremona alone produced more than seventy translations, including Ptolemy's Almagest. The movement returned the bulk of Greek philosophy to the Latin West after a six-hundred-year absence.",
+      "description": "After Christian forces took Toledo from Muslim rule in 1085, scholars descended on the city's Arabic libraries and spent the next century turning their contents into Latin — the main pipeline by which Aristotle, Greek math, and Islamic science flowed back into western Europe.",
       "wikiSlug": "Toledo_School_of_Translators",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The star translator, Gerard of Cremona (born around 1114, died in Toledo in 1187), reportedly came to Spain hunting for one specific book — Ptolemy's astronomy handbook, the Almagest — found it, and then stayed roughly forty years, churning out something like 80 translations because he kept finding more he wanted to read. The work was often a team effort across languages: an Arabic-speaker would read a line aloud in the local Romance speech, and a Latin scholar would write it down in Latin, so a text could pass through three tongues on its way west."
+        }
+      ],
+      "commonsFile": "Al_Razi_Receuil_de_traite_de_medecine_translated_by_Gerard_de_Cremone_Second_half_of_13th_century.jpg"
     },
     {
       "id": "evt-hme-university-bologna",
       "label": "University of Bologna",
       "year": 1088,
-      "description": "The University of Bologna, conventionally dated to 1088, was the first studium generale in Europe — a guild of students who hired their own professors, fined them for showing up late, set the curriculum, and founded the institutional model of the medieval university. By 1200 it was the leading school of Roman and canon law in Europe.",
+      "description": "Europe's first university, conventionally dated to 1088 and built around the recovery of Roman law. It was famously run by the students, who hired and paid their own professors and could fine a master for showing up late or skipping the hard material.",
       "wikiSlug": "University_of_Bologna",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bologna's earliest known scholar, Irnerius, started teaching from Justinian's law code around 1080, but the 1088 founding date is itself a later guess: a committee of historians led by the poet Giosuè Carducci settled on it in the 19th century to fix the university's age. For most of the early decades there was no charter at all; the students simply organized themselves and funded the best teachers by passing the hat (a system called collectio). The first real legal protection came in 1158, when Emperor Frederick Barbarossa's Authentica Habita shielded traveling students from being arrested for other people's debts."
+        }
+      ],
+      "commonsFile": "Archiginnasio_ora_blu_Bologna.jpg"
     },
     {
       "id": "evt-hme-university-paris",
@@ -445,169 +668,274 @@
       "id": "evt-hme-university-oxford",
       "label": "University of Oxford",
       "year": 1167,
-      "description": "Teaching at Oxford grew into a formal university after Henry II banned English students from studying at Paris in 1167. Oxford and its 1209 Cambridge offshoot became the dominant English-language universities of the Middle Ages and the home of figures like Robert Grosseteste, Roger Bacon, and Duns Scotus.",
+      "description": "England's oldest university, which grew quickly after Henry II banned English students from Paris in 1167 and sent them home. A 1209 brawl with the townspeople scattered scholars to a nearby fen town, founding Oxford's eternal rival, Cambridge.",
       "wikiSlug": "University_of_Oxford",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Henry II's ban was political fallout from his feud with the exiled archbishop Thomas Becket, who was sheltering in France. Oxford's chancellor (the head of the university) appears in the records from at least 1214, and the masters were recognized as a corporation in 1231, but a king did not formally charter the place until Henry III in 1248. The famous residential colleges came later still: Merton, often called the model for the others, was founded in 1264, and unlike the open lecture halls these were endowed houses where fellows lived, ate, and studied together."
+        }
+      ],
+      "commonsFile": "Mob_Quad_from_Chapel_Tower.jpg"
     },
     {
       "id": "evt-hme-university-salamanca",
       "label": "University of Salamanca",
       "year": 1218,
-      "description": "Founded by King Alfonso IX of León in 1218 and reaffirmed by Alfonso X in 1254, the University of Salamanca became the leading university of the Iberian peninsula and a major channel for Arabic and Hebrew scholarship into Latin Christendom.",
+      "description": "The oldest university in the Spanish-speaking world, founded by King Alfonso IX of León in 1218 and richly re-endowed by Alfonso X in 1254. It became Iberia's leading school and a conduit for Arabic and Hebrew learning into Latin Europe.",
       "wikiSlug": "University_of_Salamanca",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alfonso X's 1254 charter was the document that first actually called the place a \"university,\" and a papal bull from Pope Alexander IV in 1255 made its degrees valid across Christendom (everywhere except, pointedly, Paris and Bologna). Salamanca later earned a second claim to fame: in the 16th century its theologians, the so-called School of Salamanca, argued that the indigenous peoples of the Americas had natural rights that Spanish conquest could not erase, an early stab at what we would now call international human-rights law."
+        }
+      ],
+      "commonsFile": "University_of_Salamanca.jpg"
     },
     {
       "id": "evt-hme-scholasticism",
       "label": "Scholasticism",
       "year": 1100,
       "endYear": 1300,
-      "description": "Scholasticism was the dominant method of theology and philosophy in the medieval European universities, characterized by close reading of authoritative texts, rigorous use of Aristotelian logic, structured disputation, and the systematic resolution of apparent contradictions through the dialectical pattern of objection, response, and reply. Aquinas's Summa Theologiae is the genre's masterwork.",
+      "description": "The dominant intellectual method of the medieval universities: read an authoritative text closely, line up the apparent contradictions, and resolve them with rigorous Aristotelian logic through a set pattern of objection, answer, and reply.",
       "wikiSlug": "Scholasticism",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The method's seed was Peter Abelard's Sic et Non (\"Yes and No\"), which deliberately stacked up clashing quotations from Church Fathers on theological questions and left the reader to reconcile them. The textbook that scholasticism actually trained on for centuries was Peter Lombard's Four Books of Sentences, written around 1155 to 1157; lecturing on the Sentences became the standard rite of passage for any theology student, and writing a commentary on it was effectively the medieval equivalent of a dissertation. Aquinas, Bonaventure, and Duns Scotus all cut their teeth producing one."
+        }
+      ],
+      "commonsFile": "Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg"
     },
     {
       "id": "evt-hme-aquinas",
       "label": "Thomas Aquinas",
       "year": 1225,
       "endYear": 1274,
-      "description": "The Dominican friar Thomas Aquinas, taught by Albertus Magnus and lecturing at Paris and Naples, synthesized Aristotelian philosophy with Christian theology in the Summa Theologiae (begun 1265, unfinished at his death) — the masterwork of high medieval scholasticism and the official philosophical framework of Catholic theology to this day.",
+      "description": "The Dominican friar who fused Aristotle with Christian theology in the vast Summa Theologiae, becoming the central thinker of the High Middle Ages and the official philosopher of Catholic thought to this day.",
       "wikiSlug": "Thomas_Aquinas",
       "tier": 1,
       "tags": [
         "people",
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aquinas's noble family was so appalled when he joined the Dominicans around 1244 that his brothers kidnapped him and held him in the family castles for roughly a year, even planting a prostitute in his room to break his vow of celibacy; it didn't work. His teacher Albert the Great nicknamed him the \"Dumb Ox\" for his bulk and silence, then predicted his bellow would be heard worldwide. He stopped writing the Summa abruptly on 6 December 1273 after a mystical experience during Mass, saying everything he had written seemed \"like so much straw\"; he died months later and was canonized fifty years on, in 1323."
+        }
+      ],
+      "commonsFile": "St-thomas-aquinasFXD.jpg"
     },
     {
       "id": "evt-hme-saint-denis-gothic",
       "label": "Saint-Denis and the Birth of Gothic",
       "year": 1140,
-      "description": "Abbot Suger began rebuilding the choir of the abbey church of Saint-Denis outside Paris in 1140 with pointed arches, ribbed vaults, and large stained-glass windows. The combination — already in use individually elsewhere — was the conventional birth of Gothic architecture, the new style that would cover northern Europe within a century.",
+      "description": "When Abbot Suger rebuilt the choir of his royal abbey of Saint-Denis north of Paris starting in 1140, he bolted together pointed arches, ribbed vaults, and big stained-glass windows into a single system flooding the church with colored light. That fusion is conventionally counted as the birth of Gothic architecture.",
       "wikiSlug": "Basilica_of_Saint-Denis",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Suger's new choir was finished fast and consecrated in 1144, with five archbishops and thirteen bishops crowding in for the ceremony. He had a gilded inscription set over the doors spelling out the whole point of the place — the bright light was meant to lift the worshipper's mind \"to the True Light where Christ is the true door.\" Saint-Denis was no random country abbey, either: it was the burial church of the French monarchy, eventually holding the tombs of nearly every French king from the 10th century to Louis XVIII in 1824."
+        }
+      ],
+      "commonsFile": "Saint-Denis_-_Façade.jpg"
     },
     {
       "id": "evt-hme-flying-buttress",
       "label": "Flying Buttress",
       "year": 1180,
-      "description": "The flying buttress — an external arch transferring the outward thrust of a high vault to a free-standing pier — appeared at Notre-Dame de Paris around 1180 and became a defining feature of Gothic cathedral architecture, allowing walls to be hollowed out for ever-larger stained-glass windows without collapsing.",
+      "description": "The flying buttress is an external stone arch that catches the outward shove of a tall vault and carries it to a freestanding pier well clear of the wall. With the thrust handled outside, the wall itself could be dissolved into glass — the final piece that made the soaring, see-through Gothic interior possible.",
       "wikiSlug": "Flying_buttress",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The familiar story credits Notre-Dame de Paris around 1180 with the first flyers, but that date traces back to one scholar's confident 1919 pronouncement, and historians have been arguing with it ever since. Stonework and documents at churches like Sens, Saint-Remi in Reims, and Saint-Lomer in Blois suggest flying buttresses were built or planned before 1170, so nobody can actually pin down who used the first one or where. What is clear is that they were a structural fix first and a sculptural showpiece second — the elegance was a side effect of the engineering."
+        }
+      ],
+      "commonsFile": "Notre_Dame_buttress.jpg"
     },
     {
       "id": "evt-hme-notre-dame",
       "label": "Notre-Dame de Paris",
       "year": 1163,
-      "description": "Construction of the Gothic cathedral of Notre-Dame de Paris began in 1163 under Bishop Maurice de Sully and continued for nearly two centuries, becoming the most famous example of medieval French Gothic and one of the first cathedrals to use the flying buttress.",
+      "description": "Building of the Gothic cathedral of Notre-Dame de Paris began in 1163 under Bishop Maurice de Sully on the Île de la Cité, the island in the Seine at the heart of Paris. It became the most famous of all French Gothic churches and an early adopter of the flying buttress.",
       "wikiSlug": "Notre-Dame_de_Paris",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cathedral went up over roughly two centuries, with the nave largely finished by the time Maurice de Sully died in 1196 and the whole thing reaching its medieval form by about 1345. Its nave vault stands a little over 100 feet up — tall, but well short of the record-chasing later cathedrals like Amiens and Beauvais. After the April 2019 fire gutted the spire and the medieval roof timbers (the stone vault and rose windows mostly survived), it reopened on December 7, 2024."
+        }
+      ],
+      "commonsFile": "Notre-Dame_de_Paris,_4_October_2017.jpg"
     },
     {
       "id": "evt-hme-chartres",
       "label": "Chartres Cathedral",
       "year": 1194,
-      "description": "After fire destroyed most of the older church in 1194, Chartres Cathedral was rebuilt in the next quarter-century with revolutionary High Gothic engineering and a stained-glass program that survives largely intact — 167 windows, the densest medieval glass collection on earth, including the deep blue glass that scholars still cannot fully reproduce.",
+      "description": "When fire wrecked most of the older church in 1194, the bishop and clergy at Chartres chose to rebuild bigger and faster, raising one of the first fully mature High Gothic cathedrals. Its stained glass survives almost intact — 167 windows, the densest medieval glass collection anywhere, including a deep blue scholars still can't fully reproduce.",
       "wikiSlug": "Chartres_Cathedral",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chartres was a pilgrimage powerhouse because of one relic: the Sancta Camisia, a length of silk said to be the veil the Virgin Mary wore at the Annunciation or at Jesus's birth, given to the church by King Charles the Bald in 876. It was credited with saving the town during a Norman siege in 911, when the bishop reportedly waved it from the ramparts and terrified the attackers. The cathedral also has a famous floor labyrinth set into the nave — a winding path the faithful could walk on their knees as a stand-in for a pilgrimage to Jerusalem."
+        }
+      ],
+      "commonsFile": "Notre_Dame_de_Chartres.jpg"
     },
     {
       "id": "evt-hme-reims-amiens",
       "label": "Reims and Amiens",
       "year": 1220,
-      "description": "Reims Cathedral (begun 1211) and Amiens Cathedral (begun 1220) brought High Gothic to its mature peak in northern France. Reims became the coronation church of every French king from the thirteenth century to 1825; Amiens, with its 138-foot vault, was the largest interior space in northern Europe.",
+      "description": "Reims (begun 1211) and Amiens (begun 1220) carried High Gothic to its mature peak in northern France. Reims became the coronation church of the French kings; Amiens, with its 138-foot vault, held the largest interior space in northern Europe.",
       "wikiSlug": "Amiens_Cathedral",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Reims earned its coronation role because Clovis, the first Christian Frankish king, was baptized on the site around 496 — in the end, some 31 kings were crowned there, and its west front carries the celebrated \"Smiling Angel,\" carved between about 1236 and 1245. Amiens, meanwhile, was built largely to house a startling relic: the supposed face-bones of John the Baptist, set in a crystal dish, looted from Constantinople during the Fourth Crusade and installed in 1206. That relic turned Amiens into a pilgrimage magnet and helped pay for the enormous building."
+        }
+      ],
+      "commonsFile": "0_Amiens_-_Cathédrale_Notre-Dame_(1).JPG"
     },
     {
       "id": "evt-hme-sainte-chapelle",
       "label": "Sainte-Chapelle",
       "year": 1248,
-      "description": "King Louis IX of France built Sainte-Chapelle on the Île de la Cité in Paris between 1242 and 1248 to house his collection of Passion relics — including the Crown of Thorns purchased from the Latin Emperor of Constantinople in 1238. The chapel's upper level is essentially a glass box held up by stone, the most spectacular surviving demonstration of Rayonnant Gothic.",
+      "description": "King Louis IX built Sainte-Chapelle on the Île de la Cité in Paris between 1242 and 1248 as a jewel-box reliquary for his Passion relics, above all the Crown of Thorns. Its upper chapel is essentially a glass cage held up by slivers of stone — the showpiece of the lighter, glassier Rayonnant phase of Gothic.",
       "wikiSlug": "Sainte-Chapelle",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The whole chapel went up in under seven years, fast even by the standards of a small building, and the upper level is wrapped in 15 towering windows holding 1,113 stained-glass panels of Bible scenes. The economics are jaw-dropping: the relics inside cost the king far more than the building itself — the Crown of Thorns alone ran around 135,000 livres against roughly 40,000 to construct Sainte-Chapelle. The container was the cheap part."
+        }
+      ],
+      "commonsFile": "Sainte_Chapelle_-_Upper_level_1.jpg"
     },
     {
       "id": "evt-hme-champagne-fairs",
       "label": "Champagne Fairs",
       "year": 1180,
-      "description": "Six annual fairs in the towns of Lagny, Bar-sur-Aube, Provins, and Troyes in the Champagne region of northern France became the principal commercial meeting point of medieval Europe between roughly 1150 and 1300. Italian merchants exchanged silk, spices, and Mediterranean goods for Flemish cloth and northern raw materials; the Champagne courts also developed the lex mercatoria, the merchant law that became a foundation of European commercial law.",
+      "description": "A year-round circuit of six trade fairs rotating through four towns in northern France's Champagne region, which became medieval Europe's main marketplace and clearing-house, where Italian merchants traded Mediterranean luxuries for Flemish cloth and northern raw goods.",
       "wikiSlug": "Champagne_fairs",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fairs only worked because the counts of Champagne guaranteed merchants safe passage to and from them — armed ambush on the roads was a real risk, so in 1209 King Philip Augustus extended that protection across all of France. The counts also ran a dedicated police force, the Guards of the Fair, who from the 1170s could confiscate goods, fine cheats, and jail offenders, and who blacklisted anyone who skipped out on a debt so they could never trade at the fairs again. The two biggest fairs were both held in Troyes — the \"Hot Fair\" around the feast of St. John in summer and the \"Cold Fair\" around St. Remy in autumn."
+        }
+      ],
+      "commonsFile": "Foire_de_Champagne_XIIIe.jpg"
     },
     {
       "id": "evt-hme-hanseatic-league",
       "label": "Hanseatic League",
       "year": 1241,
-      "description": "Lübeck and Hamburg signed a mutual defense agreement in 1241 that grew into the Hanseatic League, a self-governing trading network of more than a hundred north German and Baltic cities that dominated North Sea and Baltic commerce for the next three centuries, with major foreign trading posts at Bergen, London, Bruges, and Novgorod.",
+      "description": "A merchant alliance of north German and Baltic towns that grew out of a 1241 Lübeck–Hamburg pact into a self-governing commercial confederation, dominating northern Europe's sea trade for three centuries with fortified foreign trading posts called Kontore.",
       "wikiSlug": "Hanseatic_League",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The League's wealth ran on humble cargo as much as luxury: the Bergen Kontor (the trading post at Bergen, Norway) controlled the trade in stockfish — dried cod — which fed Catholic Europe through Lent and other meatless fast days. Its London base sat on the Thames near the modern Cannon Street station and was first called the \"Steelyard\" (from the German *Stahlhof*) in 1422; the buildings survived until Queen Elizabeth I expelled the Hanse merchants in 1597. Of all the Kontore, only Bergen's wooden waterfront warehouses, the Bryggen, still stand today."
+        }
+      ],
+      "commonsFile": "Ausbreitung_der_Hanse_um_das_Jahr_1400-Droysens_28.jpg"
     },
     {
       "id": "evt-hme-italian-banking",
       "label": "Italian Banking Revolution",
       "year": 1250,
-      "description": "Florentine and Sienese banking houses — the Bardi, the Peruzzi, the Acciaiuoli, and later the Medici — invented bills of exchange (which let a merchant deposit money in Florence and withdraw it in London), double-entry bookkeeping, and the international branch banking that financed the kings and popes of Europe and made Florence the financial capital of the late Middle Ages.",
+      "description": "The Florentine banking houses that built medieval Europe's financial system — bills of exchange, double-entry books, and coordinated branches across the Continent — and bankrolled its kings and popes, making Florence the money capital of the late Middle Ages.",
       "wikiSlug": "History_of_banking",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before the Medici were ever heard of, the Bardi and Peruzzi were the largest merchant-bankers medieval Europe had ever seen — the Bardi alone running roughly half again the size of their nearest rival. Their downfall came from lending to royalty: King Edward III of England borrowed something like 900,000 gold florins from the Bardi and 600,000 from the Peruzzi to fund his war with France, then simply stopped paying. The Peruzzi went bust in 1343 and the Bardi in 1346, a collapse so large it helped tip the whole region into a financial crisis (though historians note the Peruzzi's own books suggest they never actually held that much money to lend in the first place)."
+        }
+      ],
+      "commonsFile": "Avarice1.png"
     },
     {
       "id": "evt-hme-venice-genoa",
       "label": "Venice and Genoa",
       "year": 1100,
       "endYear": 1300,
-      "description": "The Italian maritime republics of Venice and Genoa built mercantile thalassocracies across the medieval Mediterranean — Venice dominating the Adriatic and the eastern routes to Constantinople, Alexandria, and the Black Sea; Genoa dominating the western Mediterranean, Iberia, and the trade with North Africa. Their financing of the Fourth Crusade in 1204 made Venice an empire in its own right.",
+      "description": "The two great Italian sea-republics that carved up Mediterranean trade — Venice running the eastern routes to Constantinople and Egypt, Genoa the western trade with Iberia and North Africa — and turned commercial muscle into seaborne empire.",
       "wikiSlug": "Italian_maritime_republics",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Their fiercest rival, Pisa, was effectively knocked out of the game at the Battle of Meloria on August 5–6, 1284, when a Genoese fleet shattered the Pisan navy off the Tuscan coast; Genoa took roughly 10,000 prisoners, and so many never came home that a saying ran, \"to see Pisa, go to Genoa.\" One of those captives was a writer named Rustichello da Pisa — who a few years later shared a Genoese prison cell with a captured Venetian named Marco Polo and ghost-wrote the famous account of Polo's travels to China. Genoa's edge came partly from allying with the Byzantine emperors in Constantinople, the same city Venice had helped sack and carve up during the Fourth Crusade."
+        }
+      ],
+      "commonsFile": "Maritime_republics_map_-_IT.png"
     },
     {
       "id": "evt-hme-knights-templar",
       "label": "Knights Templar",
       "year": 1119,
-      "description": "Founded in 1119 by Hugues de Payens to protect pilgrims to Jerusalem, the Knights Templar grew within a century into one of the most powerful and wealthy organizations in Latin Christendom. Their international network of preceptories pioneered medieval banking — depositing money in Paris and withdrawing it in Acre on a Templar credit slip — and made them indispensable to French royal finance until Philip IV destroyed the Order in 1307–1312.",
+      "description": "A warrior-monk order founded in 1119 to guard pilgrims to Jerusalem that became one of Christendom's richest institutions, ran a pan-European deposit-and-transfer banking network, and was crushed by King Philip IV of France between 1307 and 1312.",
       "wikiSlug": "Knights_Templar",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Philip IV's motive was money: deep in debt to the Order and short of cash, he had the Templars arrested across France and accused of heresy, then leaned on the pope to wipe out his creditor. The arrests fell on Friday, October 13, 1307 — though, despite the popular legend, that date is not actually where the \"Friday the 13th\" superstition comes from (that link wasn't drawn until the twentieth century). As the last Grand Master, Jacques de Molay, was burned at the stake, he is said to have cursed both the king and Pope Clement V; whatever you make of curses, both men were dead within the year."
+        }
+      ],
+      "commonsFile": "Templari_Paris.jpg"
     },
     {
       "id": "evt-hme-eleanor-aquitaine",
@@ -653,68 +981,110 @@
       "label": "Frederick Barbarossa",
       "year": 1155,
       "endYear": 1190,
-      "description": "Frederick I Barbarossa, Holy Roman Emperor from 1155, fought five Italian campaigns to assert imperial authority over the increasingly self-governing Lombard cities, was defeated at Legnano in 1176 by the Lombard League's pikemen, and drowned crossing the Saleph river in Anatolia on the Third Crusade in June 1190.",
+      "description": "Frederick I 'Barbarossa,' Holy Roman Emperor from 1155, spent decades trying to force the rich, self-governing cities of northern Italy back under imperial control. The Lombard League's foot soldiers beat him at Legnano in 1176, and he died on the Third Crusade, drowning in an Anatolian river in 1190.",
       "wikiSlug": "Frederick_Barbarossa",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Battle of Legnano (May 29, 1176) was a landmark: a militia of Italian townsmen on foot broke an emperor's mounted knights, and afterward Frederick made peace with Pope Alexander III, who had excommunicated him back in 1160. He drowned on June 10, 1190, in the Saleph (today's Göksu) river — one account says he insisted on swimming across against all advice and was swept off by the current. Oddly, nobody called him \"Barbarossa\" (Italian for \"Red Beard\") in his own lifetime; Florentines coined the name about a century later, around 1298."
+        }
+      ],
+      "commonsFile": "Friedrich_I._Barbarossa.jpg"
     },
     {
       "id": "evt-hme-bouvines",
       "label": "Battle of Bouvines",
       "year": 1214,
-      "description": "On July 27, 1214, Philip II of France defeated a coalition of King John of England, Holy Roman Emperor Otto IV, and the Count of Flanders at Bouvines in northern France. The battle confirmed France's recovery of Normandy and Anjou from the English crown and triggered the political crisis that produced Magna Carta the following year.",
+      "description": "On July 27, 1214, Philip II of France smashed a coalition of Holy Roman Emperor Otto IV, the Count of Flanders, and King John's allies at Bouvines in the far north of France, confirming France's seizure of the Plantagenet lands and lighting the fuse for Magna Carta a year later.",
       "wikiSlug": "Battle_of_Bouvines",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Philip had perhaps 7,000 men against a noticeably larger allied army, and the fighting fell on a Sunday, a day on which custom said you weren't supposed to fight at all (Philip would have preferred to wait, but the enemy was on top of him). It was a rare medieval battle that drew in fighters from across western Europe, and the win didn't just humiliate John of England; it permanently broke Otto IV, who lost the imperial throne in the aftermath. For France, Bouvines became a founding national legend, the day the monarchy proved it could stand alone against half a continent."
+        }
+      ],
+      "commonsFile": "Bataille_de_Bouvines_gagnee_par_Philippe_Auguste.jpg"
     },
     {
       "id": "evt-hme-magna-carta",
       "label": "Magna Carta",
       "year": 1215,
-      "description": "Forced on King John of England by rebellious barons at Runnymede on June 15, 1215, Magna Carta established that the king was bound by law, that no free man could be imprisoned without lawful judgment of his peers, and that taxation required consent — the foundational text of the English constitutional tradition. John repudiated it within months; his nine-year-old son Henry III reissued it in 1216 and 1225.",
+      "description": "Forced on King John of England by rebellious barons in a Thames-side meadow at Runnymede on June 15, 1215, Magna Carta declared the king himself bound by law: no free man jailed or stripped of property without lawful judgment, no tax without consent. John tore it up within weeks; his nine-year-old heir Henry III's regency reissued it and made it stick.",
       "wikiSlug": "Magna_Carta",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Of the sixty-three original clauses, only three are still live law in Britain today, including the famous promise that justice will not be sold, denied, or delayed. Four original 1215 copies survive: two at the British Library and one each at Lincoln and Salisbury cathedrals, and they were brought together in one room for the first time in 2015 for the charter's 800th birthday. For all its later fame as a liberty document, the 1215 text was mostly a haggle over feudal money grievances; the soaring constitutional reputation was built by later generations reading their own ideals back into it."
+        }
+      ],
+      "commonsFile": "Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg"
     },
     {
       "id": "evt-hme-simon-de-montfort-parliament",
       "label": "Simon de Montfort's Parliament",
       "year": 1265,
-      "description": "Simon de Montfort, Earl of Leicester, summoned representatives of the shires AND the boroughs to a parliament in January 1265 — the first English assembly to include elected commoners alongside the magnates and clergy. De Montfort was killed at Evesham later that year, but his model became the structural basis of the English Parliament under Edward I.",
+      "description": "In January 1265 the rebel baron Simon de Montfort, then effectively ruling England after capturing King Henry III in battle, summoned a parliament that for the first time seated elected townsmen alongside the lords and bishops, the seed of the House of Commons. He was hacked to death at Evesham that August, but his template survived him.",
       "wikiSlug": "Simon_de_Montfort%27s_Parliament",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "De Montfort's writs called for two knights from each county plus two burgesses (leading townsmen) from boroughs like York, Lincoln, and Sandwich, asking for \"law-worthy, honest and prudent\" men, the first time ordinary town representatives sat in an English assembly. He was summoning them partly out of weakness: having seized the king, he badly needed broad backing against the royalists circling him. Within a few decades this knights-plus-burgesses grouping had a name of its own, the \"Commons,\" and Montfort, an Anglo-French outsider who died a traitor's death, ended up remembered as a founder of English parliamentary government."
+        }
+      ],
+      "commonsFile": "Simon_Leicester.jpg"
     },
     {
       "id": "evt-hme-louis-ix-france",
       "label": "Louis IX of France",
       "year": 1226,
       "endYear": 1270,
-      "description": "Louis IX of France led two crusades (the Seventh in 1248–1254, captured at the Battle of Mansurah in Egypt; and the Eighth in 1270, where he died of dysentery outside Tunis), codified French law, founded the Sainte-Chapelle to house the Crown of Thorns, and was canonized as Saint Louis in 1297 — the only French king to be made a saint.",
+      "description": "Louis IX, king of France from 1226 to 1270, was the crusading, law-reforming, relic-collecting monarch who built Sainte-Chapelle. Captured on one crusade and dead of disease on another, he was later made Saint Louis — the only French king ever canonized.",
       "wikiSlug": "Louis_IX_of_France",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His Seventh Crusade ended in catastrophe: after landing in Egypt, his army was crushed and Louis himself was taken prisoner near Mansurah in April 1250, freed only after a punishing ransom. He died of dysentery outside Tunis on August 25, 1270, soon after his second crusade landed. Canonization came on August 11, 1297, granted by Pope Boniface VIII partly on the testimony of Louis's friend and biographer Jean de Joinville, who had served at his side in Egypt."
+        }
+      ],
+      "commonsFile": "Saintlouis_(cropped).jpg"
     },
     {
       "id": "evt-hme-mongol-hungary-1241",
       "label": "Mongol Invasion of Hungary",
       "year": 1241,
-      "description": "A Mongol army under Batu Khan and Subutai destroyed the Hungarian royal army at the Battle of Mohi on April 11, 1241, two days after Legnica. King Béla IV escaped to the Adriatic coast. The Mongols devastated Hungary for a year and turned back in spring 1242 only because the death of the Great Khan Ögedei recalled Batu to the Mongol heartland for the succession kurultai.",
+      "description": "A Mongol army under Batu Khan and the great strategist Subutai annihilated Hungary's royal army at the Battle of Mohi on April 11, 1241, just two days after a second Mongol force wiped out a Polish army at Legnica. King Béla IV fled to the Adriatic coast, and the Mongols ravaged Hungary for a year before withdrawing, not because anyone stopped them, but because the Great Khan's death recalled Batu east.",
       "wikiSlug": "Mongol_invasion_of_Europe",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At Mohi the Mongols battered the bridge over the Sajó river with a battery of seven catapults that hurled what chroniclers described as fire and thunderclaps, very likely early Chinese gunpowder bombs, a terrifying novelty for European troops. Some estimates put the Hungarian army's losses at well over half its strength, perhaps 60,000 men. The withdrawal in 1242 was pure luck for Europe: with Hungary shattered and nothing organized left between the Mongols and the Atlantic, only the politics of choosing the next Great Khan back in Mongolia pulled the horsemen home."
+        }
+      ],
+      "commonsFile": "Battle_of_Mohi_1241.PNG"
     },
     {
       "id": "evt-hme-toledo-1085",
@@ -733,104 +1103,160 @@
       "id": "evt-hme-las-navas-tolosa",
       "label": "Las Navas de Tolosa",
       "year": 1212,
-      "description": "On July 16, 1212, a coalition of the Christian kingdoms of Castile, Aragon, Navarre, and Portugal under Alfonso VIII of Castile destroyed the Almohad caliphate's army at the Battle of Las Navas de Tolosa in southern Spain, breaking Almohad power in the peninsula and opening the way for the rapid Christian advance of the next half-century.",
+      "description": "On July 16, 1212, a Christian coalition of Castile, Aragon, Navarre, and Portugal under Alfonso VIII of Castile crushed the Almohad caliphate's army at Las Navas de Tolosa in southern Spain, breaking Muslim power in Iberia and opening the door to the rapid Christian conquests of the next half-century.",
       "wikiSlug": "Battle_of_Las_Navas_de_Tolosa",
       "tier": 2,
       "tags": [
         "religion",
         "wars"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Christians reached the enemy by slipping through a mountain pass guided by a local shepherd, Martín Alhaja, who was rewarded with a hereditary noble title for showing them the way around the guarded route. According to legend, the Almohad caliph's tent was ringed by slave-soldiers chained together as a living barrier, and Navarre's King Sancho VII broke through them; the chains and a jewel from that fight are said to be why chains appear on Navarre's coat of arms to this day. A magnificent Almohad silk battle banner, more than ten feet tall, survives in a monastery at Burgos, though scholars now debate whether it was actually taken at Las Navas or in the later conquests of the 1240s."
+        }
+      ],
+      "commonsFile": "Batalla_de_las_Navas_de_Tolosa,_por_Francisco_van_Halen.jpg"
     },
     {
       "id": "evt-hme-reconquista",
       "label": "Reconquista (High Tide)",
       "year": 1085,
       "endYear": 1300,
-      "description": "Between Toledo (1085) and the conquests of Córdoba (1236) and Seville (1248), Christian armies recovered roughly four-fifths of the Iberian peninsula from Muslim rule. The high-medieval phase of the Reconquista was both a military and cultural project: as territory was conquered, Arabic libraries, scholars, and institutions were absorbed into Christian Iberia.",
+      "description": "The long Christian recovery of Iberia from Muslim rule hit its most dramatic phase in the 1200s: between the fall of Toledo (1085) and the conquests of Córdoba (1236) and Seville (1248), roughly four-fifths of the peninsula changed hands. It was a military campaign and a cultural one at once, as conquered Arabic libraries and scholars were folded into Christian Spain.",
       "wikiSlug": "Reconquista",
       "tier": 2,
       "tags": [
         "religion",
         "wars"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Despite sounding ancient and grand, the word \"Reconquista\" was actually coined only in the 1800s; the people living through these wars never called it that, and the idea of one continuous 770-year holy reconquest is largely a creation of 19th-century Spanish nationalism. For generations after the big conquests, Muslims living under Christian kings (called Mudéjars) and Arabic-speaking Christians (Mozarabs) kept their faiths and a degree of self-rule, and medieval Spain hosted the largest, most intellectually productive Jewish community in Europe, a relative coexistence that would curdle into the Inquisition and the expulsions of 1492."
+        }
+      ],
+      "commonsFile": "Spain_Reconquista_cities.png"
     },
     {
       "id": "evt-hme-inquisition-founded",
       "label": "Medieval Inquisition Begun",
       "year": 1231,
-      "description": "Pope Gregory IX issued the bull Excommunicamus in 1231 and assigned papal inquisitors — mostly Dominicans — to hunt down surviving Cathars and Waldensians in southern France and northern Italy. The medieval Inquisition was the first systematic ecclesiastical court for prosecuting heresy and the institutional ancestor of the much later Spanish and Roman Inquisitions.",
+      "description": "In 1231 Pope Gregory IX issued the bull Excommunicamus and dispatched papal inquisitors — mostly friars of the Dominican order — to hunt heretics in southern France and northern Italy. It was the first permanent church machinery built specifically to prosecute heresy, and the distant ancestor of the later Spanish and Roman Inquisitions.",
       "wikiSlug": "Medieval_Inquisition",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The same Excommunicamus decree spelled out that unrepentant heretics should be put to death, with convicted offenders handed over to secular authorities for the actual execution. The main targets were the Cathars (a dualist sect in Languedoc who rejected the material world as evil) and the Waldensians (a poverty-preaching movement); the new inquisitors were a follow-up to the brutal Albigensian Crusade against the Cathars, which had ground on from 1209 to 1229."
+        }
+      ],
+      "commonsFile": "Gregory_IX.jpg"
     },
     {
       "id": "evt-hme-fourth-lateran",
       "label": "Fourth Lateran Council",
       "year": 1215,
-      "description": "Pope Innocent III's Fourth Lateran Council in November 1215 issued seventy decrees that defined transubstantiation as Catholic doctrine, required annual confession and communion of every Catholic, mandated identifying clothing for Jews and Muslims, condemned the Albigensian heresy, and codified much of the medieval church's pastoral and disciplinary apparatus for the next three centuries.",
+      "description": "Innocent III's Fourth Lateran Council of November 1215 was the most consequential church assembly of the Middle Ages: its seventy decrees made transubstantiation official doctrine, ordered every Catholic to confess and take communion once a year, required Jews and Muslims to wear distinguishing dress, and codified the church's rulebook for three centuries.",
       "wikiSlug": "Fourth_Council_of_the_Lateran",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was the best-attended council of the entire medieval period, drawing some 71 patriarchs and archbishops, more than 400 bishops, and around 900 abbots and priors, a turnout no earlier council came close to. Innocent had given over two years' notice, summoning it back in 1213, which is part of why so many prelates managed to travel to Rome. Historians often rank it the single most important council before the Council of Trent three centuries later, and its rule forcing Jews to wear identifying marks became one of the darkest precedents in European history, repeatedly revived for centuries afterward."
+        }
+      ],
+      "commonsFile": "Matthew_Paris_Chronica_Maiora_Fourth_Lateran_Council.jpg"
     },
     {
       "id": "evt-hme-innocent-iii",
       "label": "Pope Innocent III",
       "year": 1198,
       "endYear": 1216,
-      "description": "Pope Innocent III, elected at thirty-seven and pope for eighteen years, was the most politically ambitious pope of the Middle Ages — placing England under interdict and bringing King John to heel, calling the Fourth Crusade and the Albigensian Crusade, presiding over the Fourth Lateran Council, approving the Franciscans and Dominicans, and pushing the medieval papacy to the height of its institutional power.",
+      "description": "Pope Innocent III, elected at thirty-seven and pope for eighteen years, drove the medieval papacy to its peak of power: he humbled King John, launched the Fourth and Albigensian Crusades, blessed the new Franciscan and Dominican orders, and presided over the sweeping Fourth Lateran Council.",
       "wikiSlug": "Pope_Innocent_III",
       "tier": 2,
       "tags": [
         "people",
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Born Lotario dei Conti di Segni into a powerful Roman family, he died of malaria at Perugia in July 1216, and the scene was a grim irony for the era's mightiest pope: his body was left unguarded overnight, and looters stripped the rich burial robes, so a churchman who found the corpse described it lying half-naked and decomposing in the heat. He stayed buried in Perugia for nearly seven centuries until Pope Leo XIII had his remains moved to Rome in 1891. He came to the throne unusually young for a medieval pope, and his appetite for intervening in the affairs of kings, from England to the Holy Roman Empire, set the high-water mark that every later pope was measured against."
+        }
+      ],
+      "commonsFile": "Pope_Innocent_III_(Monastery_of_Subiaco).jpg"
     },
     {
       "id": "evt-hme-marco-polo",
       "label": "Marco Polo",
       "year": 1271,
       "endYear": 1295,
-      "description": "The Venetian merchant Marco Polo traveled overland to the Mongol court of Kublai Khan in 1271, spent seventeen years in China, and on his return dictated The Travels of Marco Polo while imprisoned in Genoa. The book became the most influential European description of Asia for the next two centuries.",
+      "description": "The Venetian merchant Marco Polo journeyed overland to the court of Kublai Khan in 1271, spent some seventeen years in Mongol-ruled China, and after returning dictated The Travels of Marco Polo, which became Europe's most influential account of Asia for the next two hundred years.",
       "wikiSlug": "Marco_Polo",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He didn't write the book himself: captured in a sea battle between Venice and Genoa around 1298, he dictated his stories in a Genoese prison to a cellmate named Rustichello da Pisa, a professional romance writer, which is part of why the text is sometimes called \"Il Milione\" (\"The Million\"). Many contemporaries simply didn't believe his tales of Asia's vast cities and wealth. As the story goes, when friends at his deathbed in 1324 urged him to confess he'd made it all up, he answered that he had not told half of what he saw. Two centuries later his book helped feed Christopher Columbus's hazy sense of the geography he was sailing toward."
+        }
+      ],
+      "commonsFile": "Marco_Polo_-_costume_tartare.jpg"
     },
     {
       "id": "evt-hme-hildegard",
       "label": "Hildegard of Bingen",
       "year": 1098,
       "endYear": 1179,
-      "description": "Hildegard of Bingen, Benedictine abbess of Rupertsberg in the Rhineland, was the most extraordinary intellectual woman of the twelfth century — author of theological visions, a treatise on natural medicine, the morality play Ordo Virtutum, the largest surviving body of medieval music by a single composer, and a private corresponded with popes, emperors, and Bernard of Clairvaux.",
+      "description": "Hildegard, abbess of Rupertsberg in the Rhineland, was a one-woman intellectual industry — recording divine visions, composing music, writing on medicine and plants, and corresponding with the most powerful men of her century from inside a convent.",
       "wikiSlug": "Hildegard_of_Bingen",
       "tier": 3,
       "tags": [
         "people",
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "She invented an entire private vocabulary, the Lingua Ignota (\"unknown language\"), with its own 23-letter alphabet and roughly a thousand made-up words — possibly the oldest known constructed language by a single author. Running through her thought is a striking idea she called viriditas, \"greenness,\" a kind of living, juicy life-force she saw flowing from God through all of growing nature. Though revered as a saint for centuries, she wasn't formally canonized until 2012, when Pope Benedict XVI also named her a Doctor of the Church — one of only four women ever to hold that title."
+        }
+      ],
+      "commonsFile": "Hildegard_von_Bingen.jpg"
     },
     {
       "id": "evt-hme-troubadours",
       "label": "Troubadours and Courtly Love",
       "year": 1100,
       "endYear": 1300,
-      "description": "Beginning around 1100 with Duke William IX of Aquitaine (Eleanor's grandfather), the troubadours of southern France composed Occitan-language lyric poetry around the new theme of fin'amor — refined, idealized, often unrequited love between knight and lady. The convention spread to the German Minnesänger and the northern French trouvères and reshaped European literature for centuries.",
+      "description": "Starting around 1100, poet-musicians in southern France called troubadours invented a whole new way of writing about love — refined, aching, often hopeless devotion of a knight to an unreachable lady — and the fashion swept across Europe to shape courtly literature for centuries.",
       "wikiSlug": "Troubadour",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The man usually credited as the first troubadour, Duke William IX of Aquitaine, was no gentle dreamer: he was a hard-living warlord who led the disastrous Crusade of 1101, was twice excommunicated, and wrote verse that swings from tender to startlingly raunchy. Only eleven of his songs survive, the earliest troubadour poetry we have. His granddaughter would be Eleanor of Aquitaine, who carried this culture of courtly love into the royal courts of both France and England."
+        }
+      ],
+      "commonsFile": "BnF_ms._854_fol._49_-_Perdigon_(1).jpg"
     },
     {
       "id": "evt-hme-arabic-numerals",
