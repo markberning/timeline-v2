@@ -120,6 +120,17 @@ export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; b
   // muted ancestor crumb.
   const onWarHome = !lane && !battleId
 
+  // F&I case: a phase lane and its story chapter are the SAME node (lane.id === chapter.id),
+  // so the default three-rung trail would double the title. Collapse to a single active
+  // leaf that still jumps across phases. CW never hits this (its story lane 'howfought'
+  // ≠ its chapter ids), so the Civil War trail is unchanged.
+  if (activeLane && activeChapter && activeLane.id === activeChapter.id) {
+    return [
+      { label: cfg.crumbShort, short: cfg.crumbShort, href: cfg.routeBase, options: warOptions, currentLabel: cfg.crumbFull },
+      { label: activeLane.short ?? activeLane.label, currentLabel: activeChapter.name, options: laneOptions, active: true },
+    ]
+  }
+
   return [
     { label: cfg.crumbShort, short: cfg.crumbShort, color: onWarHome ? cfg.accent : undefined, href: cfg.routeBase, options: warOptions, currentLabel: cfg.crumbFull },
     { label: activeLane?.label ?? cfg.laneNoun, short: activeLane ? activeLane.short : undefined, href: lane ? firstHref(lane) : undefined, options: laneOptions, active: !!lane && !battleId },
