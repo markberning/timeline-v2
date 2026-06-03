@@ -211,6 +211,43 @@ function CommandersTab() {
   )
 }
 
+// Verified trivia for the Facts tab — every item fact-checked (born-verified
+// against NPS / LoC / Smithsonian / American Battlefield Trust) and run through
+// the storytelling critic; myths and Lost Cause framing rejected. See the war
+// content pipeline (audits/war-content-pipeline.md).
+const FACTS: { group: string; items: { h: string; p: string; href?: string; label?: string }[] }[] = [
+  {
+    group: 'The toll',
+    items: [
+      { h: 'Disease did the killing', p: 'For every three men killed in battle, five died of dysentery, typhoid, or measles in camp. Two of every three Civil War deaths came from disease, not combat.' },
+      { h: 'A nation’s worth of dead', p: 'The dead, by modern estimates as many as 750,000, were about 2 percent of the country. Scaled to today’s population, that is six or seven million Americans.' },
+      { h: 'More than every other American war, combined', p: 'More Americans died in the Civil War than in all other U.S. wars through Korea combined. By the latest count, Vietnam doesn’t change that.' },
+    ],
+  },
+  {
+    group: 'The war’s firsts',
+    items: [
+      { h: 'Iron against iron', p: 'At Hampton Roads in March 1862, the USS Monitor and the CSS Virginia fought the first battle between ironclad warships. In one afternoon they made every wooden navy on earth obsolete.', href: '/war-civil-war/off-the-battlefield/ironclads', label: 'The ironclads' },
+      { h: 'The submarine that kept sinking', p: 'The H.L. Hunley was the first submarine to sink an enemy warship. It also sank three times itself, drowning 21 men, among them its namesake Horace Hunley. The third time was the night of its one success.' },
+      { h: 'The first income tax', p: 'To pay for the war, Washington levied the country’s first income tax in 1861 and created the bureau to collect it in 1862. That bureau is now the IRS.' },
+      { h: 'Money backed by nothing', p: 'The war produced America’s first legal-tender paper money. The “greenbacks” were backed by nothing but the government’s word.' },
+      { h: 'The first draft', p: 'Both sides ran out of volunteers: the Confederacy in 1862, the Union in 1863. Neither asked.', href: '/war-civil-war/off-the-battlefield/war-within-north', label: 'The draft riots' },
+      { h: 'The Medal of Honor', p: 'The nation’s highest decoration for valor was created during the war. Its first recipients were the raiders of the Great Locomotive Chase, who hijacked a train deep in Georgia.' },
+    ],
+  },
+  {
+    group: 'Strange but true',
+    items: [
+      { h: 'It began in his yard and ended in his parlor', p: 'Wilmer McLean had the first battle of Bull Run fought across his farm; a shell came down his kitchen chimney. So he moved 120 miles to escape the war. Four years later, Lee surrendered to Grant in his front parlor.', href: '/war-civil-war/eastern/appomattox', label: 'Appomattox' },
+      { h: 'Killed by his own men', p: 'Chancellorsville was Stonewall Jackson’s greatest victory. His own troops shot him in the dark that same night, and he died eight days later.', href: '/war-civil-war/eastern/chancellorsville', label: 'Chancellorsville' },
+      { h: 'Arlington was Lee’s front yard', p: 'Arlington National Cemetery sits on Robert E. Lee’s seized estate. The Union quartermaster ordered the first graves dug right beside the mansion, on purpose, so the family could never live there again.' },
+      { h: 'Why they’re called sideburns', p: 'Union general Ambrose Burnside wore such famous cheek-whiskers that we still wear his name on our faces. “Sideburns” is just his surname flipped around.' },
+      { h: 'U.S. Grant was a typo', p: 'He was born Hiram Ulysses Grant. A clerk’s error at West Point logged him as “U. S. Grant,” and he kept the initials.' },
+      { h: 'The first American eye in the sky', p: 'Lincoln sent a balloonist named Thaddeus Lowe up over the lines to count Confederate troops and call in artillery fire. Aerial reconnaissance had begun.' },
+    ],
+  },
+]
+
 function FactsTab() {
   const cas = [
     { lbl: 'Union', v: 390000, c: 'var(--union)' },
@@ -245,6 +282,22 @@ function FactsTab() {
         <div className="legend">{cas.map(c => <span key={c.lbl}><i style={{ background: c.c }} />{c.lbl} {num(c.v)}</span>)}</div>
       </div>
       <div className="p-outcome"><b>Outcome.</b> Union victory. The Confederacy dissolved, and slavery was abolished by the Thirteenth Amendment.</div>
+
+      <p className="p-factlead">The war ran on numbers, firsts, and sheer strangeness. A few that stick with you:</p>
+      {FACTS.map(g => (
+        <div className="p-factgrp" key={g.group}>
+          <div className="gh">{g.group}</div>
+          <div className="p-facts">
+            {g.items.map(f => (
+              <div className="p-fact" key={f.h}>
+                <b className="p-serif">{f.h}</b>
+                <p>{f.p}</p>
+                {f.href && <a href={f.href}>{f.label}</a>}
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   )
 }
