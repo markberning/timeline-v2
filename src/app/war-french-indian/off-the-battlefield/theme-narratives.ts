@@ -828,6 +828,194 @@ export const THEME_NARR: Record<string, Narr> = {
       }
     ]
   },
+  "regulars-provincials": {
+    "eyebrow": "Two armies that could barely stand each other",
+    "title": "Regulars & Provincials",
+    "blocks": [
+      {
+        "p": "On the British side of the war for North America, two armies took the field, and they could not stand each other. One had crossed an ocean to fight. The other had been raised, farm by farm and town by town, out of the colonies themselves. They wore the same king's cause on their coats and despised almost everything about how the other man soldiered. They fought side by side for nine years, insulted each other the whole way, and what the colonists carried home from that experience helped teach a generation how to make the Revolution."
+      },
+      {
+        "p": "Three kinds of soldier took that field, not two, and a newcomer needs all three."
+      },
+      {
+        "p": "The British regulars were full-time professional soldiers of the standing British Army (the permanent, long-service force the Crown kept under arms in peace and war alike). They had been drilled for years in rigid discipline and in European linear tactics, meaning lines of men standing shoulder to shoulder in the open, firing massed volleys on command. They were shipped across the Atlantic to win a war in country none of them had ever seen."
+      },
+      {
+        "p": "The provincials were something newer and stranger to a British officer's eye. A provincial regiment was raised by a colony's own assembly (its elected legislature) for a single campaign season, then disbanded. The men were full-time soldiers while they served, paid and fed by the province, but they had signed on for a set stretch of months and a set list of terms, and not one day or one duty more. Assemblies filled the ranks with bounties (cash inducements to enlist), with quotas drawn off the militia rolls, and, when volunteers ran short, with the draft."
+      },
+      {
+        "p": "Behind the provincials stood the oldest institution of all, the militia: the able-bodied free men of a town, enrolled for local defense, part-time citizen-soldiers who turned out in an emergency and went home after. Service in the militia had long been treated as a privilege of the settled and the propertied. Provincial regiments were drawn from those same rolls, but they were a different animal: full-time, paid, and bound by contract for one campaign."
+      },
+      {
+        "p": "That word, contract, is the whole story."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/ohio-company",
+        "plabel": "The Ohio Country & the Ohio Company"
+      },
+      {
+        "h": "The rawest wound was rank",
+        "eyebrow": "A colonel ordered to obey a captain"
+      },
+      {
+        "p": "The first thing that went wrong between the two armies had nothing to do with the woods or the French. It was rank."
+      },
+      {
+        "p": "On 21 November 1754, King George II issued a decree settling the rank of military officers serving in North America, and its effect was brutally simple. A provincial officer of any rank stood below any officer who held the King's regular commission (the royal appointment that makes a man an officer). A colonial colonel, the senior man of his whole regiment, was outranked in the field by a British captain young enough to be his son. Whatever a province voted you, whatever your neighbors had elected you to lead, the moment a regular appeared you took his orders."
+      },
+      {
+        "p": "For a man who had risked his life for the rank, the insult was unbearable. George Washington learned it first and learned it hardest. In 1754 he was the young commander of the Virginia Regiment, a colonel by his colony's commission. Then Governor Robert Dinwiddie (British) moved to break the regiment into independent companies under captains, which would have knocked Washington from colonel down to captain even if the Crown handed him a regular commission to go with it. Washington resigned rather than swallow it. The disparity between a captaincy and his former rank, he wrote, was \"too great to expect any real satisfaction or enjoyment in a Corps, where I once did, or thought I had a right to, command.\""
+      },
+      {
+        "p": "\"I think, the disparity between the present offer of a Company, and my former Rank, too great to expect any real satisfaction or enjoyment in a Corps, where I once did, or thought I had a right to, command.\" — George Washington, 1754",
+        "q": true
+      },
+      {
+        "p": "The following year he wanted back in so badly that he found a workaround that cost him his pay and kept his pride. Rather than serve under a rank he found degrading, he joined the expedition of Major General Edward Braddock as an unpaid volunteer aide-de-camp (a senior officer's personal staff assistant), a position outside the regular rank ladder, so that no junior royal officer could give him orders. He would soldier for nothing before he would soldier as an inferior."
+      },
+      {
+        "h": "What the British thought of the provincials",
+        "eyebrow": "Dirty, lazy, ungrateful, cowardly"
+      },
+      {
+        "p": "The contempt ran downhill, and the British commanders did not hide it."
+      },
+      {
+        "p": "Major General Edward Braddock set the tone in 1755. He thought little of the colonials and less of the Native scouts a man would need to fight in the forest, and he marched toward the French stronghold of Fort Duquesne (where Pittsburgh now stands) with only eight Mingo guides. He meant to fight as gentlemen fought in Europe, in tight ranks in the open, and he waved off Washington's warning that the French and their Native allies would not oblige him by standing in a line to be shot at. Benjamin Franklin, who supplied the wagons for the march, reportedly came away remembering Braddock's flat dismissal of both the Americans and the Native warriors who might have saved him. His contempt for both the colonials and the Native scouts cost him at the Monongahela."
+      },
+      {
+        "pill": "/war-french-indian/disaster/monongahela",
+        "plabel": "The Monongahela"
+      },
+      {
+        "p": "The next commander made the contempt a policy. John Campbell, the Earl of Loudoun (British), arrived on 23 July 1756 as commander-in-chief in North America, with regulars including the 35th and 42nd Foot and roughly 7,000 provincials from New England and New York under his command. He decided almost at once that the colonists were untrustworthy and ungrateful, incapable of sacrifice, and he set about reforms meant to lessen his reliance on Americans altogether. When the colonial assemblies refused, through the summer of 1756, to house his troops properly, his answer was to threaten to take quarters (house his soldiers) by force."
+      },
+      {
+        "p": "What galled Loudoun most was that the colonists talked back, and talked in the language of rights. They had assumed to themselves, he complained, \"what they call Rights and Priviledges, totaly unknown in the Mother Country.\" The trouble, he noticed, did not come from the bottom: it \"seems not to come from the lower People, but from the leading People.\" He was watching a political culture he did not recognize and calling it insolence."
+      },
+      {
+        "p": "\"they have assumed to themselves, what they call Rights and Priviledges, totaly unknown in the Mother Country.\" — the Earl of Loudoun, quoted in Fred Anderson, Crucible of War",
+        "q": true
+      },
+      {
+        "p": "James Wolfe, who would take Quebec in 1759, capped the line of disdain. He held the colonials and especially their rangers in open contempt, and is remembered for dismissing the American soldiers as the worst in the universe."
+      },
+      {
+        "p": "To the regular officer's eye the provincial was dirty, idle, undisciplined, and apt to bolt. He was not wrong that the provincials would not behave like regulars. He was wrong about why."
+      },
+      {
+        "h": "What the provincials thought of the British",
+        "eyebrow": "\"Debarred Englishmen's liberty\""
+      },
+      {
+        "p": "The provincials returned the contempt with interest, and they had their reasons."
+      },
+      {
+        "p": "First was the lash. Discipline in the regular army was enforced on a man's bare back with a cat o' nine tails (a whip of nine knotted cords), and the sentences were savage: from 25 lashes up to 500 for ordinary offenses, and as many as 1,000 stripes for mutiny or desertion, the punishment carried out in public so the rest of the men would watch and learn. A New England farmer who had enlisted as a free man, alongside neighbors who had elected his officers, found this almost beyond belief. Private Gibson Clough (British colonial), a soldier from Salem, Massachusetts, kept a journal and recorded what he saw in his own garrison: one man whipped thirty stripes for disobedience, another sentence of a thousand lashes, others of five hundred each, an artilleryman given two hundred."
+      },
+      {
+        "p": "Then there was the work. Provincials resented being used as laborers and teamsters, set to digging and hauling and driving wagons rather than soldiering, treated as cheap muscle by officers who looked down on them."
+      },
+      {
+        "p": "But underneath the floggings and the fatigue duty lay something the British genuinely could not parse. To a New England soldier, his enlistment was a contract, to be kept to the letter by both sides. He had signed up for specific months, specific pay, specific rations and equipment, and a specific date he would be sent home. This was not greed or cowardice. It grew out of the region's Puritan covenant tradition, the idea that a binding agreement freely entered defines what each party owes the other. Provincial regiments were, in one historian's phrase, ordinary farmers led by neighbors, with almost no social distance between the man giving the order and the man taking it. You could not flog such an army into obedience without destroying the very bonds that had raised it."
+      },
+      {
+        "p": "So when an officer broke the terms, the men acted. They went home, or they refused duty, and to them this was not mutiny but the plain enforcement of an agreement. The British, who expected a soldier to belong to the King for as long as the King wanted him, saw only mutiny and lawlessness. The same act meant rights to one side and crime to the other. They were not arguing about discipline. They were arguing about what a man was."
+      },
+      {
+        "p": "Clough put the whole grievance into one line. The provincials, he wrote, were treated as something less than the free Englishmen they were born: \"although we be Englishmen born, we are debarred Englishmen's liberty,\" and the regulars were \"but little better than slaves to their officers.\""
+      },
+      {
+        "p": "\"although we be Englishmen born, we are debarred Englishmen's liberty.\" — Private Gibson Clough, 1759",
+        "q": true
+      },
+      {
+        "h": "The mutiny that was really a lawsuit",
+        "eyebrow": "Louisbourg, autumn 1759"
+      },
+      {
+        "p": "The whole collision played out in one episode, on a cold headland in Nova Scotia in the autumn of 1759."
+      },
+      {
+        "p": "That autumn, Massachusetts men were garrisoning Louisbourg, the captured French fortress on Cape Breton Island. They had enlisted for a fixed term. Clough recorded that he had signed on for six months under a proclamation of Massachusetts governor Thomas Pownall (British), to be dismissed by the first of November or sooner if the King's service allowed. (Another account puts the term at eight months; the men themselves reckoned by Clough's six.) When the date came, the British commander refused to let them go and kept them on for another stretch, into the winter."
+      },
+      {
+        "p": "On 1 November 1759 the regiment was ordered out for duty, and the men, as Clough wrote, \"all swore that we would not do no more duty here.\" Their term was up; the contract was finished; they were done. The next day every one of them was marched to the guardhouse for refusing duty. They answered not with violence but with a petition, a \"round robin\" signed in a circle so no name headed the list, demanding their release on the terms they had been promised. To the officers this was mutiny, a capital crime. To the men it was a demand that a bargain be honored."
+      },
+      {
+        "p": "It ended in compromise. On 3 November the authorities forgave the so-called mutiny; a detachment of 140 men shipped for Boston, and the rest were ordered to stay one more month. Through that unwanted winter the province dangled a bounty of four pounds for each man who stayed, and Clough, still stuck on the rock in January 1760, could only write, \"God only knows who will see the end.\""
+      },
+      {
+        "p": "No one was hanged and no fort was lost. What had happened was that a body of soldiers treated their service as a contract, enforced it by collective refusal, and made the army negotiate. They were rehearsing, without knowing it, a habit of mind their grandsons would not have to be taught."
+      },
+      {
+        "h": "The third army, the one that actually worked in the woods",
+        "eyebrow": "Native nations, and the men who learned from them"
+      },
+      {
+        "p": "While the regulars and the provincials despised each other, a third way of war was the only one that reliably worked in the American forest, and it belonged first to the Native nations whose woods these were."
+      },
+      {
+        "p": "The British colonists named this conflict the French and Indian War, after the enemies they pictured, which tells you the war was being seen from one porch. But the Native nations were never simply the enemy, and never simply anyone's tool. They had their own country to defend, their own borders, their own calculations, and they used the rivalry between France and Britain as leverage to protect land and independence that both empires wanted. Native warriors fought on the French side, on the British side, and above all for themselves."
+      },
+      {
+        "p": "The lesson that European tactics would not survive in the forest was taught in a single afternoon. On 9 July 1755, about ten miles east of present-day Pittsburgh, Braddock's flying column (a fast-moving advance force) of roughly 1,300 regulars and provincials ran into a French and Native force near the Monongahela River. The opposing force, under Captain Daniel Liénard de Beaujeu (French), was 891 strong: 108 French marine troops, 146 Canadian militia, and 637 Native warriors from the Ottawa, Ojibwa, Potawatomi, Abenaki, Lenni Lenape (also called Delaware), and Huron nations, led in part by men such as Shingas (Lenape) and the French-Ojibwa officer Charles Michel Mouet de Langlade. (Some accounts place the Ottawa leader Pontiac there as well; others doubt it.) Beaujeu was killed almost at once. It did not matter. His warriors fought from cover, from behind every tree, while Braddock held his men in their tight road column, a packed target that could see almost no one to shoot back at. The result was a slaughter."
+      },
+      {
+        "p": "The British lost 457 killed and more than 450 wounded; of 86 officers, 26 were killed and 37 wounded. The French and Native force lost 39 killed and 57 wounded. The backwoodsmen had warned exactly this would happen. Washington, the unpaid volunteer who had begged to come, found fault with the regulars, restored what order he could, and formed the rear guard that covered the survivors' retreat."
+      },
+      {
+        "pill": "/war-french-indian/disaster/monongahela",
+        "plabel": "The Monongahela"
+      },
+      {
+        "p": "Some colonists tried to fight the way the country demanded. In 1755 Robert Rogers (British colonial) of New Hampshire raised the ranger companies that bore his name, independent units for long-range patrol, scouting, ambush, and raiding. They marched on snowshoes, moved in silence, used cover, and struck from hiding, methods drawn largely from Native woodland warfare. Rogers wrote them down as his 28 Rules of Ranging, the first written code of these tactics, and trained both regular and provincial officers in them. The rangers were exactly the kind of soldier the forest rewarded, and Wolfe despised them all the same. Their war was not gentle: in 1759 Rogers led a destructive raid on the Abenaki village of Saint-François (Odanak), a reminder that the people on the receiving end of this woodland war were communities of families, not scenery."
+      },
+      {
+        "p": "The British could not win without Native allies, and the man who knew it best was Sir William Johnson (British), an Irish immigrant who had settled in the Mohawk Valley in 1738, learned the Mohawk language and customs, and became the Crown's Superintendent of Indian Affairs. His job was to win over the Iroquois Confederacy, the powerful league also called the Six Nations or Haudenosaunee, which had been trying to stay neutral between the empires. The Mohawk leaned most toward Britain, and their elder statesman Hendrick, known in his own language as Theyanoguin (Mohawk), brought warriors to the cause; at the Battle of Lake George in 1755, Johnson and Hendrick mustered some 200 Mohawks alongside about 1,500 colonial troops, and Hendrick was killed in the fighting."
+      },
+      {
+        "p": "But the Confederacy was no one's instrument. It was divided, and it knew its own interests. French Jesuit missionaries had been working among the Seneca and Onondaga for years, and those nations leaned toward France. The Six Nations as a whole played the longer game, weighing land, leverage, and survival, and bending toward neutrality whenever they could, because the one certainty was that both empires wanted what the Confederacy stood on. They were principals in this war, not auxiliaries to it."
+      },
+      {
+        "h": "The bargain changes",
+        "eyebrow": "William Pitt, 1758"
+      },
+      {
+        "p": "For four years the colonists had served under contempt, under the lash, under officers who outranked their best men on a technicality. Then the man running the war from London changed the terms."
+      },
+      {
+        "p": "From late 1757 into 1758, Secretary of State William Pitt the Elder, the minister now directing Britain's whole war effort, rewrote the bargain with the colonies. He promised to reimburse the colonial governments for the money they spent raising troops, and he began treating the colonies not as subordinates to be commanded but as allies to be courted. He also raised the standing of provincial officers, easing the rank humiliation that had festered since 1754: a warrant of 30 December 1757 lifted provincial generals and colonels to rank \"next after\" the regular colonels who had once outranked them all. And he opened what amounted to an open purse."
+      },
+      {
+        "p": "The colonies answered the way they never had under threats. Manpower poured in, the provincial regiments swelling once again off the same militia rolls the colonies had drawn on from the start. With those ranks full, the British turned to the conquest of Canada itself: Louisbourg fell in 1758, Quebec in 1759, Montreal in 1760. Pitt had discovered that the colonists would not be driven but could be persuaded, that they would spend their sons freely once they were treated as partners rather than as inferiors. It was a lesson London would forget with stunning speed."
+      },
+      {
+        "p": "There was a bill coming due for all that lavish spending, and where Britain would later try to collect it set the empire on the road to its own undoing."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/war-finance",
+        "plabel": "War Finance & the Road to Taxation"
+      },
+      {
+        "h": "What they carried home",
+        "eyebrow": "The schoolhouse of the Revolution"
+      },
+      {
+        "p": "The war ended in 1763 with France driven from the mainland and Britain master of the continent east of the Mississippi. It was a triumph, and for the Native nations who had fought to hold a balance between two empires it was a catastrophe. The whole contest had been, at bottom, a war over their land, and now there was no second empire to play against the first. The British colonists who had named the war for their \"Indian\" enemies pushed west onto the country those nations had defended, and the dispossession that followed was the war's truest result."
+      },
+      {
+        "p": "For the colonists themselves, the experience had been enormous and personal. This was a mass event, not a spectator's war: in Massachusetts alone, by the historian Fred Anderson's research, more than 30 percent of all military-age men served at least one tour. Across the colonies tens of thousands took the field over the nine years. And most of those who died did not die in battle. They died in the camps, of smallpox, of dysentery, of the louse-borne \"camp fever\" the surgeons called typhus, the diseases that always raced through crowded, filthy, eighteenth-century armies. Far more provincials were buried from sickness than ever fell to a French musket."
+      },
+      {
+        "p": "The survivors came home carrying two convictions, and both would matter enormously a decade later. The first was bitter: the British regulars, and the officers who led them, treated colonial Americans as inferiors, as second-class subjects who could be flogged and outranked and worked like teamsters and held past their terms. The second was the opposite of bitter: that they themselves, ordinary farmers led by their neighbors, could raise armies, lead them, supply them, and hold them together by agreement rather than the lash."
+      },
+      {
+        "p": "A generation of the men who would fight the Revolution learned their soldiering in this war, Washington above all. They had seen what the King's army thought of them, and they had learned what they could do without it. The contempt and the confidence went home together, and they kept."
+      }
+    ]
+  },
   "war-finance": {
     "eyebrow": "How winning the war set up the next one",
     "title": "War Finance & the Road to Taxation",
@@ -1032,6 +1220,171 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "A decade later that same idea came back, this time in anger, and it stuck. The colonies that would not gather to fight France gathered readily enough to resist the tax for it, at the Stamp Act Congress, and then, in 1774, at the First Continental Congress. The union Britain could not coax out of them for the war, they built against the bill for it. The fight over who would pay for the last war had set the colonies squarely on the road to the next one, against Britain itself."
+      }
+    ]
+  },
+  "treaty-of-paris": {
+    "eyebrow": "How the peace of 1763 redrew a continent",
+    "title": "The Treaty of Paris & the Proclamation Line",
+    "blocks": [
+      {
+        "p": "In 1763 two pieces of paper rearranged the map of North America. One was a treaty signed in Paris by men who had never set foot on the land they were trading. The other was a royal proclamation that drew a line down a mountain range and told the colonists they could not cross it. Between them, those two documents handed Britain the eastern half of a continent, erased France from the mainland, and made a promise to the Native nations who lived on most of the ground in question. The nations whose homelands were being signed back and forth were not in the room for any of it."
+      },
+      {
+        "h": "A World War That Outlived Its North American Front",
+        "eyebrow": "The pressure"
+      },
+      {
+        "p": "The fighting in the woods of North America had a bigger name in the rest of the world. To the British colonists it was the French and Indian War, named for the enemies they faced, the French and their Native allies. To everyone else it was one front of the Seven Years' War, a global conflict that raged in the Caribbean, in India, in the Philippines, in West Africa, and across Europe. North America was just the corner of it that happened to be on fire in the colonists' own backyard."
+      },
+      {
+        "p": "By the standards of that war, the North American front had already been settled. Quebec fell in 1759, Montreal in 1760, and with them New France, France's whole mainland empire, was effectively conquered. But a world war does not stop because one of its theatres goes quiet. The powers kept fighting for two more years, on oceans and continents an ocean away, until everyone involved was exhausted and broke."
+      },
+      {
+        "p": "Spain made things worse for itself by jumping in late. In August 1761 Spain signed the Third Family Compact with France, an alliance between the two Bourbon monarchies (Spain and France were ruled by branches of the same royal family, the Bourbons). Spain then embargoed British trade, seized British goods, and threw out British merchants, and Britain declared war on Spain on 4 January 1762. It was a costly bet. In August 1762 a British expedition captured Havana, the great port of Spanish Cuba. About a month later another British force took Manila in the Philippines. Spain had entered the war to help France and instead lost two of its richest colonial cities to the British navy."
+      },
+      {
+        "p": "So when the diplomats finally sat down, Britain held nearly every good card. Over the course of the war it had taken Canada, the sugar islands of Guadeloupe and Martinique, Dominica, Pondicherry (France's main trading post in India), Senegal in West Africa, and Havana and Manila from Spain. The only question left was how much of that haul Britain would keep."
+      },
+      {
+        "h": "The Treaty of Paris, 10 February 1763",
+        "eyebrow": "The settlement"
+      },
+      {
+        "p": "The peace was signed in Paris on 10 February 1763, between Great Britain, France, and Spain, with Portugal, Britain's ally, in agreement. The man steering the French side overall was the foreign minister, Étienne-François, Duc de Choiseul (French), who would shape the bargaining over which colonies France gave up and which it fought to keep. The signatories were grandees with long names: for Britain, John Russell, 4th Duke of Bedford (British); for France, Choiseul's cousin César Gabriel de Choiseul, Duke of Praslin (French); and for Spain, Jerónimo Grimaldi (Spanish)."
+      },
+      {
+        "p": "The heart of it was a single enormous transfer. France gave up Canada with all its dependencies, and all of its territory east of the Mississippi River, to Britain. The treaty fixed the new border as a line \"drawn along the middle of the River Mississippi, from its source to the river Iberville.\" From the Atlantic seaboard to that river, the whole interior was now nominally British."
+      },
+      {
+        "p": "There was one strange exception written into the text. The treaty said \"the town of New Orleans and the island in which it is situated, which shall remain to France.\" On paper, France kept its city at the mouth of the great river. In reality, France had already given it away. A few months earlier, in the secret Treaty of Fontainebleau of November 1762, France had quietly handed Louisiana, meaning everything west of the Mississippi, plus New Orleans itself, to Spain. So the New Orleans the Paris treaty left \"to France\" was already promised elsewhere. France was not keeping a foothold on the mainland. It was leaving entirely, just through two different doors. (Spain would not actually take physical possession of New Orleans until 1769.)"
+      },
+      {
+        "p": "Spain had its own trade to make. To get Havana and Manila back, Spain handed Britain \"Florida, with Fort St. Augustin, and the Bay of Pensacola, as well as all that Spain possesses on the continent of North America.\" Cuba and the Philippines went home to Spain; Florida became British."
+      },
+      {
+        "p": "France did not leave the table empty-handed. It kept what it valued most: the wealthy Caribbean sugar islands of Guadeloupe and Martinique, along with Saint Lucia and Gorée in West Africa. It kept its trading posts in India, Chandernagore and Pondicherry, though stripped of the right to fortify them. And it kept its Newfoundland fishing rights and the small islands of Saint Pierre and Miquelon as a base for the fishery. France had lost a continent and held on to its sugar and its cod."
+      },
+      {
+        "p": "One more clause mattered for the people now living under a new flag. Britain agreed, in the treaty's own words, \"to grant the liberty of the Catholick religion to the inhabitants of Canada,\" and gave French inhabitants eighteen months to leave if they chose. Protestant Britain had just inherited a large French Catholic population, and it had to promise not to persecute them."
+      },
+      {
+        "h": "A Few Acres of Snow",
+        "eyebrow": "What was Canada even worth?"
+      },
+      {
+        "p": "Here is the part that sounds invented and is not: in London, serious people argued that Britain should give Canada back and keep a sugar island instead."
+      },
+      {
+        "p": "The logic was money. Britain had captured both Canada and Guadeloupe, a small French island in the Caribbean, and it planned to return some conquests at the peace to avoid provoking France into an immediate revenge war. The question was which to keep. Guadeloupe was producing something on the order of £6 million a year in sugar. By some accounts that one island grew more sugar than all of Britain's existing Caribbean colonies put together. Canada, against that, looked to many like a frozen near-wilderness whose chief exports were codfish and beaver pelts."
+      },
+      {
+        "p": "The most quotable sneer came from France. The writer Voltaire, in his novel *Candide* (published in 1759), had a character dismiss the whole war as a squabble in which the two nations \"are at war about a few acres of snow somewhere around Canada, and... are spending on this beautiful war more than all Canada is worth.\" In the original French it was even crisper: *quelques arpents de neige*, a few acres of snow."
+      },
+      {
+        "p": "\"...at war about a few acres of snow somewhere around Canada, and... are spending on this beautiful war more than all Canada is worth.\" — Voltaire, Candide (1759)",
+        "q": true
+      },
+      {
+        "p": "Britain kept Canada anyway, and handed Guadeloupe back to France. The reasoning was strategic rather than commercial. Holding Canada removed the French military threat from the back door of the Thirteen Colonies and locked up the continental interior. A sugar island, however rich, would have left Britain tangled up with a still-dangerous French Caribbean. Choiseul, on the French side, was perfectly happy with the swap: he would rather have the defensible, profitable islands than keep pouring money into Canada. Whether the sugar was \"really\" worth more than half a continent was argued then and is argued now. What is not in doubt is that some of the sharpest minds in London genuinely thought a Caribbean island might be the better prize than all of New France."
+      },
+      {
+        "h": "Master of the East",
+        "eyebrow": "The scale of it"
+      },
+      {
+        "p": "When the ink dried, Britain was the dominant power in North America east of the Mississippi, and New France was finished as a force on the continent. The French threat that had hung over the colonies for generations was simply gone."
+      },
+      {
+        "p": "That was a triumph, and it was also a problem. Britain now had to govern an empire far larger and far stranger than the one it started the war with. There was the French Catholic population of Canada, which is why the treaty bothered to guarantee their religion. There were the new Floridas in the south. Britain had won an enormous, diverse, hard-to-administer expanse, and it had won it on borrowed money. The war had been ruinously expensive, financed on debt, and the Crown would soon go looking for ways to recoup the cost and to manage its vast new frontier on the cheap."
+      },
+      {
+        "p": "That search would not end well. The U.S. State Department's own history puts the long fuse plainly: the treaty \"ultimately encouraged dissension between Anglo-American colonists and the British Government because their interests in North America no longer coincided.\" The victory that removed France from the colonists' backs also removed the reason they had needed Britain so badly. But that is a story for later, on the road to revolution."
+      },
+      {
+        "h": "A Line Down the Mountains",
+        "eyebrow": "The Royal Proclamation, 7 October 1763"
+      },
+      {
+        "p": "That same year, the second piece of paper appeared. On 7 October 1763, King George III issued the Royal Proclamation of 1763, and it drew a line."
+      },
+      {
+        "p": "The line ran roughly along the crest of the Appalachian Mountains, the long ridge that separated the settled colonies on the Atlantic coast from the interior, following the high ground from Georgia in the south up through the colonies. Everything west of that crest was closed to colonial settlement. In the Proclamation's own language, the Crown would \"reserve under our Sovereignty, Protection, and Dominion, for the use of the said Indians, all the Lands and Territories\" beyond the new provinces. The West was reserved for the Native nations."
+      },
+      {
+        "p": "It went further than just drawing a boundary. The Proclamation forbade colonial governors from granting any land beyond their borders, and it forbade private individuals from buying land directly from Native peoples at all. If Native land was to change hands, the Proclamation said, \"the same shall be Purchased only for Us, in our Name, at some public Meeting or Assembly of the said Indians.\" Only the Crown could buy, and only in the open, at a formal council. A frontier speculator could no longer ride west, find a chief, and trade rum for a valley."
+      },
+      {
+        "p": "The same document organized the new winnings into governments: the Province of Quebec to the north, East Florida and West Florida to the south, and Grenada down in the ceded Caribbean islands."
+      },
+      {
+        "h": "Why the Line Was Drawn",
+        "eyebrow": "Two reasons, neither sentimental"
+      },
+      {
+        "p": "The Crown did not draw the line out of tenderness. It drew it for two practical reasons, and both were about keeping order."
+      },
+      {
+        "p": "The first reason was on fire as the Proclamation was being written. In the spring of 1763, Native nations of the Great Lakes and the Ohio Country had risen against the British in a war that would seize nine British forts across the region. London had already been working toward a western boundary as part of reorganizing its enlarged empire after the treaty; news of the uprising hastened the Proclamation out the door. It was, in part, the Crown's attempt to reassure those nations that British settlers would not be allowed to flood onto their lands now that the French were gone. A promise of protection was cheaper than another war."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/ohio-company",
+        "plabel": "The Ohio Country & the Ohio Company"
+      },
+      {
+        "p": "The second reason was control. The Crown, not land companies and not individual colonies, would decide the pace of westward expansion, who bought what, and how the profit was shared. A frontier managed from London was a frontier that could be taxed, ordered, and kept from sparking expensive wars."
+      },
+      {
+        "p": "There was something genuinely new in the Proclamation, too. It was the first time British colonial law had formally acknowledged that Native nations held title to their land, that the ground was theirs until they gave it up to the Crown by treaty. That recognition still echoes; Canada's Constitution Act of 1982 names the Royal Proclamation as a foundation of Aboriginal rights. But historians have long argued over what it really meant. The scholar Colin Calloway notes that \"scholars disagree on whether the proclamation recognized or undermined tribal sovereignty.\" It is best read as a recognition that was real on paper and undercut almost the moment the ink dried."
+      },
+      {
+        "h": "The Line Nobody Obeyed",
+        "eyebrow": "The consequence"
+      },
+      {
+        "p": "The colonists who heard about the line were furious, and the angriest of all were the ones who had fought the war partly to win the very land it now closed off."
+      },
+      {
+        "p": "Land speculators (men who bought up large tracts hoping to resell them at a profit) had spent years and money on western claims that the Proclamation suddenly walled off. Veterans had been promised grants of frontier land for their service. Land companies like the Ohio Company held paper claims west of the new line. To all of them, a king across the ocean had just told them that the prize they had bled for was off-limits."
+      },
+      {
+        "p": "George Washington was one of those men, and he is the clearest window into how the colonial gentry actually treated the line. Washington had been promised land bounties for his service in the war, and he regarded the Proclamation not as law to be obeyed but as a temporary inconvenience to be quietly worked around. In a private letter to his land agent William Crawford (British) on 17 September 1767, he said so in plain words. The Proclamation, he wrote, was nothing more than \"a temporary expedien[t] to quiet the Minds of the Indians & must fall of course in a few years.\" Anyone \"who neglects the present oppertunity of hunting ou[t] good Lands... will never regain it.\" And he wanted it kept quiet: Crawford should \"keep this whole matter a profound Secret,\" scouting the best western land \"under the pretence of hunting other Game.\""
+      },
+      {
+        "p": "\"I can never look upon that Proclamation in any other light... than as a temporary expedien[t] to quiet the Minds of the Indians & must fall of course in a few years.\" — George Washington to William Crawford, 17 September 1767",
+        "q": true
+      },
+      {
+        "p": "If a man as prominent as Washington was already scheming to grab western land while pretending to hunt, the line stood no chance. Settlers crossed it almost at once. The Crown had neither the troops nor the will to police a frontier hundreds of miles long, running the length of a mountain range. Within a few years the boundary was being formally shoved westward anyway, by a string of new treaties (Fort Stanwix and Hard Labour in 1768, Lochaber in 1770) that opened still more Native land to purchase. The line of 1763 lasted, in any real sense, hardly any time at all."
+      },
+      {
+        "p": "And it became one more grievance. To colonists, the Proclamation was proof that the empire they had just fought for would now box them in for its own convenience. Their interests and London's had begun to pull apart, and the line was a visible, infuriating sign of it. The same victory that removed the French would, within a dozen years, help push the colonies toward a war against Britain itself."
+      },
+      {
+        "h": "A Promise Drawn on a Map",
+        "eyebrow": "The continent that was signed away"
+      },
+      {
+        "p": "Step back from the diplomats and the speculators, and one fact sits underneath the whole year. The land being traded in Paris and fenced off in the Proclamation belonged to people who were party to none of it."
+      },
+      {
+        "p": "When the European powers carved up North America in the Treaty of Paris, they did not consult a single Native leader. They did not weigh Native interests. A continent's worth of homeland east of the Mississippi was transferred from one empire to another by men sitting in a palace an ocean away, with no Native nation present and none consenting. It was the same silence that had run through the whole war: French agents had buried lead plates along the Ohio River claiming the country for their king, British officials had signed royal grants to the same ground, and through all of it the people who actually lived there were treated as a detail on someone else's map."
+      },
+      {
+        "p": "They were not absent from the land, only from the table. The homelands being \"transferred\" belonged to nations with deep roots in the Great Lakes and the Ohio Country: the Odawa (Ottawa), the Ojibwe, the Potawatomi, the Wyandot, the Shawnee, the Lenape (also called the Delaware), the Mingo, the Miami, and others. These were not bystanders to the great-power war. They had spent it pursuing their own aims, playing France and Britain against each other to protect their land and their independence, fighting for themselves rather than for either crown. The war the British colonists named for \"the Indians\" was, for those nations, a fight over who would get to keep living where they had always lived."
+      },
+      {
+        "p": "And in the spring of 1763, with the French gone and British settlers and traders pressing in, many of those same nations rose against the British, under the leadership of the Odawa war leader Pontiac, whose name in his own language was Obwandiyag. That rising, which took nine British forts, was part of the immediate pressure behind the Proclamation. The Crown had already been moving toward a western boundary as it reorganized its swollen empire; the uprising accelerated that policy into print, and made the grand promise to protect Native land at least in part an answer to a war then raging on the ground."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/pontiacs-war",
+        "plabel": "Pontiac's War & the Aftermath for Native Nations"
+      },
+      {
+        "p": "So the Proclamation Line was a real promise, and that is exactly what makes it a tragedy rather than a footnote. The West was reserved for Native nations in October 1763. By the late 1760s it was being taken from them, by settlers who crossed the line, by speculators like Washington who openly called it a passing expedient sure to \"fall... in a few years,\" and by the Crown's own treaties pushing the boundary west. The empire that drew the line could not, and would not, hold to it."
+      },
+      {
+        "p": "The two documents of 1763 had given Britain a continent and the Native nations a promise. One of those would last. The other was already being broken as the ink dried."
       }
     ]
   },
