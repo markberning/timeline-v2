@@ -62,21 +62,35 @@
       "id": "evt-copernicus-heliocentrism",
       "label": "Copernicus publishes De Revolutionibus",
       "year": 1543,
-      "description": "Nicolaus Copernicus published On the Revolutions of the Heavenly Spheres, placing the Sun, not the Earth, at the center of the cosmos. Published as he lay dying, with an unsigned preface calling it a mere calculating device, it quietly challenged the Ptolemaic system that had stood for fourteen centuries.",
+      "description": "Nicolaus Copernicus published On the Revolutions of the Heavenly Spheres, putting the Sun, not the Earth, at the center of the cosmos. It quietly challenged the Earth-centered system that had stood for fourteen centuries.",
       "wikiSlug": "De_revolutionibus_orbium_coelestium",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The unsigned preface calling the Sun-centered model a mere calculating trick was slipped in without Copernicus's knowledge by a Lutheran theologian, Andreas Osiander, who oversaw the printing in Nuremberg; Copernicus's protégé Rheticus was so furious he scratched it out in red in his own copy. Legend says the dying Copernicus was handed the first printed pages in 1543 and saw his life's work just before he died, though whether he ever read Osiander's meddling preface is unknown. The book sold modestly and went largely unbanned for decades, only landing on the Church's prohibited list in 1616, long after his death."
+        }
+      ],
+      "commonsFile": "De_revolutionibus_1543.png"
     },
     {
       "id": "evt-vesalius-anatomy",
       "label": "Vesalius publishes De Humani Corporis Fabrica",
       "year": 1543,
-      "description": "Andreas Vesalius published his landmark anatomy with detailed illustrations from his own human dissections. It corrected roughly two hundred errors in Galen, whose authority had governed medicine for some fourteen centuries.",
+      "description": "Andreas Vesalius published his landmark anatomy, illustrated from his own human dissections. It corrected roughly two hundred errors in Galen, whose authority had ruled medicine for some fourteen centuries.",
       "wikiSlug": "De_humani_corporis_fabrica",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Vesalius was only 28 when the book came out, printed in June 1543 in Basel by Johannes Oporinus. Its more than 250 spectacular woodcut figures, posing flayed bodies upright in the landscape like living men, are now credited to artists from the studio of the great Venetian painter Titian. The lavish plates set a new standard not just for anatomy but for printed book illustration generally."
+        }
+      ],
+      "commonsFile": "Vesalius_Fabrica_fronticepiece.jpg"
     },
     {
       "id": "evt-index-librorum",
@@ -104,31 +118,52 @@
       "id": "evt-tycho-supernova",
       "label": "Tycho Brahe's new star",
       "year": 1572,
-      "description": "Tycho Brahe observed a brilliant new star (a supernova) in Cassiopeia and proved it lay far beyond the Moon. This shattered the Aristotelian doctrine that the heavens were perfect and unchanging.",
+      "description": "A blazing new star appeared in Cassiopeia in November 1572, and young Tycho Brahe proved by careful measurement that it sat out among the fixed stars, not in Earth's atmosphere. Aristotle had promised the heavens never changed; this one had.",
       "wikiSlug": "SN_1572",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its peak the new star hit about magnitude -4, as bright as the planet Venus and easily visible in broad daylight, and it lingered in the sky for over a year before fading away. We now know it was a Type Ia supernova, the runaway explosion of a white dwarf (the dense, burnt-out core a star leaves behind) pulling matter off a companion. Its blast wreckage is still out there roughly 9,000 light-years off, and astronomers first rediscovered it not with a telescope but as a radio signal, cataloging it as the source 3C 10."
+        }
+      ],
+      "commonsFile": "Tycho-supernova-xray.jpg"
     },
     {
       "id": "evt-brahe-observatory",
       "label": "Tycho Brahe builds Uraniborg",
       "year": 1576,
-      "description": "With royal funding, Tycho Brahe built Uraniborg, Europe's most advanced observatory and research institute, on the Danish island of Hven. His instruments produced the most precise naked-eye observations ever recorded.",
+      "description": "King Frederick II handed Tycho the whole island of Hven and the funds to build Uraniborg on it, the first major observatory in Christian Europe and really the first state-funded research institute, complete with giant custom instruments, a basement chemistry lab, and its own printing press.",
       "wikiSlug": "Uraniborg",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bankrolling Tycho was wildly expensive: by most estimates Uraniborg and its support ate up close to 1 percent of Denmark's entire state budget, with the day-to-day running paid for by the rents and forced labor of the island's roughly 40 tenant farms. The grand castle proved a poor place to actually observe, since wind shook the instruments, so in 1584 Tycho built a second observatory nearby called Stjerneborg (\"star castle\") with its instruments sunk underground in pits, sheltered from the weather. When a later king pulled the funding, the buildings were abandoned and eventually demolished; today only foundations and a reconstructed Stjerneborg survive on the island, now part of Sweden."
+        }
+      ],
+      "commonsFile": "Uraniborgskiss_45.jpg"
     },
     {
       "id": "evt-tycho-comet",
       "label": "The Great Comet of 1577",
       "year": 1577,
-      "description": "Tycho Brahe showed the great comet of 1577 moved freely through the region the planets were thought to occupy. Comets passing through them meant the solid crystalline spheres of ancient astronomy could not exist.",
+      "description": "Tycho measured the bright comet of 1577 and showed it sailed far beyond the Moon, straight through the zone where the planets travel. A comet cutting through that space meant the solid crystalline spheres of ancient astronomy simply weren't there.",
       "wikiSlug": "Great_Comet_of_1577",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The comet (catalogued today as C/1577 V1) was a stunner: it peaked around magnitude -3 to -4 and trailed a tail that stretched some 60 degrees across the sky, well over half the way from horizon to overhead. Tycho also noticed something that wouldn't be fully explained for centuries — the tail always pointed away from the Sun, no matter which way the comet was moving. His parallax work placed it well past the Moon (he reckoned at least several times the Moon's distance), which is what let him argue the comet was a genuine object out in planetary space rather than a glowing vapor in the upper air, as Aristotle had insisted."
+        }
+      ],
+      "commonsFile": "Von_einem_Schrecklichen_vnd_Wunderbarlichen_Cometen_so_sich_den_Dienstag_nach_Martini_dieses_lauffenden_M._D._Lxxvij._Jahrs_am_Himmel_erzeiget_hat_(grayscale).png"
     },
     {
       "id": "evt-gregorian-calendar",
@@ -156,162 +191,265 @@
       "id": "evt-kepler-mysterium",
       "label": "Kepler's Mysterium Cosmographicum",
       "year": 1596,
-      "description": "Johannes Kepler published the first openly Copernican book since Copernicus, arguing the planetary orbits were nested inside the five regular solids. The geometry was wrong, but it committed Europe's finest mathematician to the Sun-centered universe.",
+      "description": "Kepler's first book proposed that the six known planets sit where they do because their orbits nest inside the five Platonic solids. The geometry was nonsense, but it made Europe's finest young mathematician a committed Copernican and asked a brand-new question: not where the planets are, but why those distances.",
       "wikiSlug": "Mysterium_Cosmographicum",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kepler wrote it at 24 while scraping by as a math teacher at the Protestant school in Graz, Austria, and he later said the whole scheme flashed into his head mid-lecture in July 1595. His old Tubingen professor Michael Maestlin edited the manuscript, drew the diagrams, and pushed it through the press at Tubingen because Graz had no printer up to the job. Kepler stayed so attached to the idea that decades later, long after his actual planetary laws had made it obsolete, he reissued the book in 1621 with footnotes gently correcting his younger self rather than abandoning it."
+        }
+      ],
+      "commonsFile": "Mysterium_Cosmographicum_front_page.jpg"
     },
     {
       "id": "evt-gresham-college",
       "label": "Gresham College founded",
       "year": 1597,
-      "description": "Gresham College opened in London with professors lecturing publicly in English, not Latin, on astronomy and geometry for merchants and navigators. Its meetings became the seedbed of the future Royal Society.",
+      "description": "Gresham College opened in London with professors lecturing publicly — and crucially, in English, not just the scholar's Latin — on subjects like astronomy and geometry useful to merchants and navigators. Its post-lecture gatherings became the seedbed of the future Royal Society.",
       "wikiSlug": "Gresham_College",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was funded from the grave: the rich merchant Sir Thomas Gresham, who built London's Royal Exchange (its commercial trading hall), left his fortune to endow seven professorships — divinity, astronomy, geometry, music, law, physic (medicine), and rhetoric — one lecture a day. He died in 1579, but the college only opened in 1597, after his widow's death freed up the bequest, since the endowment ran on rents from the shops around the Exchange and his old Bishopsgate mansion."
+        }
+      ],
+      "commonsFile": "Barnard's_Inn_Hall_(Gresham_College).jpg"
     },
     {
       "id": "evt-giordano-bruno",
       "label": "Giordano Bruno burned at the stake",
       "year": 1600,
-      "description": "The Roman Inquisition burned the friar Giordano Bruno in Rome after an eight-year trial. Among his heresies was the claim that the universe was infinite and filled with countless inhabited worlds; he became a lasting symbol of inquiry crushed by authority.",
+      "description": "The Roman Inquisition burned the wandering friar Giordano Bruno in Rome after a long trial. Among his heresies was the claim that the universe was infinite and packed with countless inhabited worlds; he became a lasting symbol of free inquiry crushed by authority.",
       "wikiSlug": "Giordano_Bruno",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bruno was burned in the Campo de' Fiori, a Roman market square, on 17 February 1600, after roughly eight years in the Inquisition's prisons. Unlike Galileo a generation later, he refused to recant a single word; when the sentence was read he reportedly told his judges, \"Perhaps you pronounce this sentence against me with greater fear than I receive it.\" A statue of him, defiant and hooded, was raised on the exact spot of his execution in 1889."
+        }
+      ],
+      "commonsFile": "Portrait_of_Giordano_Bruno_in_\"Opere\"_Wellcome_L0015152_(cropped).jpg"
     },
     {
       "id": "evt-gilbert-magnetism",
       "label": "Gilbert's De Magnete",
       "year": 1600,
-      "description": "William Gilbert published De Magnete, the first major work of experimental physical science, showing the Earth itself is a giant magnet. He coined the word electricity and rejected explanation by ancient authority.",
+      "description": "William Gilbert's De Magnete argued the whole Earth is one giant magnet, which is why compass needles swing north. He reached the conclusion by experiment rather than by quoting the ancients, making it a founding text of hands-on physical science.",
       "wikiSlug": "De_Magnete",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gilbert tested his idea with a terrella (\"little Earth\"), a lodestone he ground into a ball and moved a tiny compass around to show it behaved like the planet itself. He coined the Latin term electricus for substances that attract bits of stuff when rubbed, the way amber does — the root of our word electricity, though that English word wasn't actually coined until the 1640s, after his death. Gilbert was no obscure tinkerer: he served as personal physician to Queen Elizabeth I and, briefly, to her successor James I before dying in 1603, possibly of the plague."
+        }
+      ],
+      "commonsFile": "De_Magnete_Title_Page_1628_edition.jpg"
     },
     {
       "id": "evt-dutch-east-india-trade",
       "label": "Dutch East India Company founded",
       "year": 1602,
-      "description": "The VOC became the world's first publicly traded company, funding the Dutch maritime boom that bankrolled lens-grinders, instrument makers, and natural philosophers across the seventeenth-century Netherlands.",
+      "description": "The Dutch East India Company (the VOC) launched the world's first public stock offering, letting any resident buy a tradable share. The profits of a global trading empire poured into a small republic of craftsmen, lens-grinders, and instrument-makers.",
       "wikiSlug": "Dutch_East_India_Company",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The States General chartered the VOC on 20 March 1602 and handed it a 21-year monopoly on all Dutch trade with Asia. Its share offering that August was open to anyone, with no minimum or maximum buy-in, and the shares could be resold in an open-air market that grew into the Amsterdam Stock Exchange, the first of its kind. At its peak the company could buy nutmeg, mace, and cloves in Indonesia and sell them in Europe for 14 to 17 times the price."
+        }
+      ],
+      "commonsFile": "VOC_Amsterdam.jpg"
     },
     {
       "id": "evt-galileo-falling-bodies",
       "label": "Galileo's law of falling bodies",
       "year": 1604,
-      "description": "Working with inclined planes at Padua, Galileo found that falling bodies accelerate uniformly and that distance grows as the square of the time. It was the first mathematical law of terrestrial motion, contradicting Aristotle directly.",
+      "description": "By rolling balls down inclined grooves and timing them, Galileo worked out that falling bodies speed up at the same steady rate no matter their weight, with distance growing as the square of the time. It was the first correct mathematical law of how things fall, and it flatly contradicted Aristotle.",
       "wikiSlug": "Equations_for_a_falling_body",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Galileo nailed down the result at Padua in the early 1600s, but he didn't actually publish it until 1638, in his last great book, written under house arrest and titled Two New Sciences. The neatest version of the law is the \"odd-number rule\": in equal ticks of time a rolling ball covers distances in the ratio 1, 3, 5, 7 — each interval adding the next odd number. His ramp was a polished wooden molding about 18 feet (5.5 m) long, and with no decent clock he measured time by weighing the water that drained from a vessel during each run."
+        }
+      ],
+      "commonsFile": "Falling_ball.jpg"
     },
     {
       "id": "evt-telescope-invention",
       "label": "The telescope invented",
       "year": 1608,
-      "description": "The Dutch spectacle-maker Hans Lippershey filed the first known patent for a telescope. Within a year the instrument would be turned on the sky and transform astronomy forever.",
+      "description": "The Dutch spectacle-maker Hans Lippershey filed the first known patent for a telescope, an instrument pitched to the government for spotting enemy ships and troops early. Within a year it was turned on the sky and transformed astronomy forever.",
       "wikiSlug": "History_of_the_telescope",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Lippershey applied to the States General on 2 October 1608, but they refused him a patent because at least two rivals (Sacharias Janssen and Jacob Metius) turned up claiming the same trick within weeks, and the device was simply too easy to copy. The government paid Lippershey handsomely for copies anyway and asked him to build binocular versions. He never pointed it at the stars; that leap came from others, most famously Galileo, who built his own after merely hearing the instrument described."
+        }
+      ],
+      "commonsFile": "Emblemata_1624.jpg"
     },
     {
       "id": "evt-kepler-laws",
       "label": "Kepler's first two laws of planetary motion",
       "year": 1609,
-      "description": "In Astronomia Nova, Johannes Kepler announced that planets travel in ellipses with the Sun at one focus, sweeping equal areas in equal times. After six years fighting the orbit of Mars, he replaced two thousand years of perfect circles.",
+      "description": "In Astronomia Nova, Kepler announced that planets travel in ellipses (squashed ovals) with the Sun at one focus, racing when near the Sun and dawdling when far. After years wrestling Mars's orbit, he threw out two thousand years of perfect circles because the data refused to fit them.",
       "wikiSlug": "Kepler%27s_laws_of_planetary_motion",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its full Latin title translates as \"New Astronomy Based on Causes, or Celestial Physics\" — the first time anyone framed astronomy as a search for physical forces rather than tidy geometry. The book runs to 70 chapters and famously walks the reader through Kepler's dead ends and failed guesses, an unusually honest way of writing science for the day. It was dedicated to his patron, the Holy Roman Emperor Rudolf II, who paid Kepler's salary as Imperial Mathematician in Prague but, like most royal patrons, paid it late and rarely in full."
+        }
+      ]
     },
     {
       "id": "evt-galileo-telescope",
       "label": "Galileo's Sidereus Nuncius",
       "year": 1610,
-      "description": "Galileo published The Starry Messenger, reporting four moons orbiting Jupiter, mountains on the Moon, and countless unseen stars. It was the first scientific work based on telescopic observation and made him famous across Europe.",
+      "description": "Galileo's 1610 pamphlet 'The Starry Messenger' announced the first discoveries ever made with a telescope: four moons circling Jupiter, mountains on the Moon, and crowds of stars too faint for the naked eye.",
       "wikiSlug": "Sidereus_Nuncius",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Galileo tracked the four points of light near Jupiter almost every clear night from January 7 to March 6, 1610, before he was sure they were moons. Angling for a job, he named them the 'Medicean Stars' after Cosimo II de' Medici, the Grand Duke of Tuscany and his former pupil — pure patronage flattery (the name never stuck; we now call them the Galilean moons). Only about 550 copies of the little book were printed, and it dedicated to the Medici turned Galileo into a celebrity across Europe almost overnight."
+        }
+      ],
+      "commonsFile": "Houghton_IC6.G1333.610sa_-_Sidereus_nuncius.jpg"
     },
     {
       "id": "evt-galileo-venus-phases",
       "label": "Galileo observes the phases of Venus",
       "year": 1610,
-      "description": "Galileo found that Venus shows a full cycle of phases like the Moon, which is impossible in the Ptolemaic system but predicted by a Sun-centered one. It was the single strongest piece of telescopic evidence for Copernicus.",
+      "description": "Galileo watched Venus run through a full cycle of phases, from a small full disc to a fat crescent, just like the Moon. That is geometrically impossible in the Earth-centered Ptolemaic system but exactly what you'd expect if Venus orbits the Sun — his single strongest piece of telescopic evidence for Copernicus.",
       "wikiSlug": "Phases_of_Venus",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Galileo first announced the find in December 1610, but he hid it inside a scrambled Latin anagram sent to colleagues — a common trick of the day to claim priority while you kept observing. Unscrambled, it read \"Cynthiae figuras aemulatur Mater Amorum\" — \"the Mother of Loves [Venus] imitates the shapes of Cynthia [the Moon].\" The phases couldn't kill every rival theory, though: Tycho Brahe's hybrid model, with the planets going round the Sun while the Sun goes round a fixed Earth, predicts exactly the same phases. What they did kill, cleanly, was pure Ptolemy."
+        }
+      ],
+      "commonsFile": "Phases_Venus.jpg"
     },
     {
       "id": "evt-galileo-sunspots",
       "label": "Galileo's Letters on Sunspots",
       "year": 1613,
-      "description": "Galileo published his telescopic studies of sunspots, arguing the Sun itself was blemished and rotating. It was his first work to openly endorse Copernicus in print and drew the first warnings from the Church.",
+      "description": "Galileo published his telescope studies of the dark spots crossing the Sun's face, arguing they sat on the Sun's surface and showed it was both blemished and rotating — another crack in the supposedly perfect heavens. It was also his first work to back Copernicus openly in print.",
       "wikiSlug": "Letters_on_Sunspots",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The book came out in Rome in 1613 under the Italian title Istoria e dimostrazioni intorno alle macchie solari (\"History and Demonstrations Concerning Sunspots\"), printed by the Accademia dei Lincei, Europe's first scientific society — Galileo had become its sixth member in 1611. The letters were a public reply to the German Jesuit Christoph Scheiner, who insisted the spots were tiny planets shuttling in front of the Sun rather than marks on it. Galileo had the better reading, and the two men feuded bitterly for years over who had seen sunspots first."
+        }
+      ],
+      "commonsFile": "Galileo_Macchie_solari.jpg"
     },
     {
       "id": "evt-napier-logarithms",
       "label": "Napier invents logarithms",
       "year": 1614,
-      "description": "John Napier published his description of logarithms, turning multiplication into addition. The tables transformed astronomy, navigation, and engineering and were called the calculation revolution of the age.",
+      "description": "The Scottish laird John Napier published his table of logarithms, a lookup system that turns every multiplication into a simple addition. It slashed the drudgery of astronomy, navigation, and engineering arithmetic almost overnight.",
       "wikiSlug": "John_Napier",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Napier (1550-1617) had spent around twenty years on the idea, and his 1614 book, the Latin Mirifici Logarithmorum Canonis Descriptio (\"Description of the Wonderful Canon of Logarithms\"), was tables of trigonometric functions, not the round-number tables a shopkeeper would recognize. The friendly base-10 \"common\" logarithms came from the English mathematician Henry Briggs, who was so thrilled he traveled to Edinburgh to meet Napier; the story goes that the two men sat staring at each other in silence for a quarter of an hour before either could speak. Napier died in 1617 and never saw how far his invention would spread, and as a side hobby he also built \"Napier's bones,\" a set of numbered rods for doing multiplication by hand."
+        }
+      ],
+      "commonsFile": "John_Napier_of_Merchiston,_1616.jpg"
     },
     {
       "id": "evt-galileo-1616-admonition",
       "label": "The Church declares heliocentrism heretical",
       "year": 1616,
-      "description": "A panel of theologians judged the motion of the Earth formally heretical. Cardinal Bellarmine privately warned Galileo not to hold or defend the idea, and Copernicus' book was suspended pending correction.",
+      "description": "A panel of Church theologians ruled that the Earth's motion was \"formally heretical.\" Cardinal Bellarmine privately warned Galileo to stop holding or defending the idea, and Copernicus' book was frozen on the Index of banned works pending correction.",
       "wikiSlug": "Galileo_affair",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The formal Decree came on 5 March 1616 from the Congregation of the Index, the Vatican body that policed dangerous books. Copernicus' work was not banned outright but \"suspended until corrected\" (donec corrigatur), and the corrections, finally issued in 1620, turned out to be surprisingly mild, touching only about ten passages that stated the Earth's motion as fact rather than theory. Two other pro-Copernican books were hit at the same time, including one by a Carmelite friar named Foscarini, which was banned completely. Galileo's name appeared nowhere in the public decree, which is part of why the exact terms of his private warning became so fiercely disputed seventeen years later."
+        }
+      ],
+      "commonsFile": "Index_Librorum_Prohibitorum_1.jpg"
     },
     {
       "id": "evt-thirty-years-war",
       "label": "Thirty Years' War",
       "year": 1618,
       "endYear": 1648,
-      "description": "Europe's most destructive religious war killed perhaps a third of the German population and disrupted scholarship across the continent — Kepler among its refugees. The Peace of Westphalia in 1648 established the modern principle of state sovereignty.",
+      "description": "Europe's most destructive religious war ravaged the German lands for three decades, disrupting scholarship across the continent — the astronomer Kepler was among the displaced. The 1648 Peace of Westphalia that ended it established the modern principle of state sovereignty: that no nation may meddle in another's internal affairs.",
       "wikiSlug": "Thirty_Years%27_War",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Somewhere between 4.5 and 8 million people died, and the German-speaking heart of the Holy Roman Empire lost roughly 40 percent of its population, not recovering until around 1750. Most of those deaths weren't from battle at all — local records point overwhelmingly to disease (bubonic plague above all) and starvation rather than the sword. The peace was hammered out not at one table but across several towns in Westphalia (a region of northwest Germany), which is where the treaties take their name."
+        }
+      ]
     },
     {
       "id": "evt-bacon-novum-organum",
       "label": "Bacon's Novum Organum",
       "year": 1620,
-      "description": "Francis Bacon published Novum Organum, arguing that knowledge must be built up from systematic observation and experiment, not deduced from ancient authority. His vision of organized, useful science became the charter of the Royal Society.",
+      "description": "Francis Bacon's blueprint for a brand-new way of knowing: build truth slowly from piles of careful observation rather than deducing it from ancient authority. His dream of organized, useful, collaborative science became the founding charter of the Royal Society.",
       "wikiSlug": "Novum_Organum",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bacon wrote the book in Latin and titled it the New Organon (\"organon\" meaning instrument or tool) as a deliberate jab at Aristotle, whose own logic texts had long been bundled under the name Organon. It was never meant to stand alone: it was Part II of a planned six-part mega-project called the Great Instauration (a grand \"restoration\" of human knowledge) that Bacon never came close to finishing, since two of the six parts were never written at all. The book is also famously laid out not as flowing chapters but as a string of numbered aphorisms, short punchy statements meant to be chewed over one at a time."
+        }
+      ],
+      "commonsFile": "Houghton_EC.B1328.620ib_-_Novum_organum_scientiarum.jpg"
     },
     {
       "id": "evt-snell-refraction",
@@ -327,251 +465,418 @@
       "id": "evt-kepler-rudolphine-tables",
       "label": "Kepler's Rudolphine Tables",
       "year": 1627,
-      "description": "Kepler published planetary tables based on Tycho's data and his own elliptical laws, dozens of times more accurate than anything before. Their successful prediction of a 1631 transit of Mercury was a triumph for the new astronomy.",
+      "description": "Kepler published the Rudolphine Tables, planetary charts built from Tycho Brahe's data and Kepler's own elliptical-orbit laws. They predicted planet positions far more accurately than anything before, and their first big test proved it.",
       "wikiSlug": "Rudolphine_Tables",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Named for Tycho's and Kepler's late patron, the Holy Roman Emperor Rudolph II, the tables came out in 1627 in the German city of Ulm. Their headline triumph was Kepler's prediction that the planet Mercury would pass across the face of the Sun (a \"transit\") on 7 November 1631; the French astronomer Pierre Gassendi watched it happen, the first transit of Mercury ever observed, and found Kepler's tables far closer to the truth than the older Copernican ones. Kepler also used Napier's brand-new logarithms to grind through the calculations, and didn't live to see his prediction vindicated, having died in 1630."
+        }
+      ],
+      "commonsFile": "Johannes-kepler-tabulae-rudolphinae-google-arts-culture.jpg"
     },
     {
       "id": "evt-harvey-circulation",
       "label": "Harvey describes the circulation of blood",
       "year": 1628,
-      "description": "William Harvey published De Motu Cordis, proving by measurement and experiment that the heart pumps blood in a continuous circuit through the body. It overturned Galen's model that had governed medicine for fourteen centuries.",
+      "description": "William Harvey published De Motu Cordis, proving by measurement and experiment that the heart pumps the same blood around and around a closed loop. It demolished Galen's model that had governed medicine for fourteen centuries.",
       "wikiSlug": "William_Harvey",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The thin Latin book was printed not in England but in Frankfurt, timed to catch the city's big international book fair, and dedicated to Harvey's royal patron Charles I. Harvey was too far from the press to check the proofs, so the published copies came with an errata leaf listing 126 corrections. He had actually been teaching the idea for years before he dared print it, first laying it out in a 1616 lecture to London's College of Physicians."
+        }
+      ],
+      "commonsFile": "William_Harvey_2.jpg"
     },
     {
       "id": "evt-galileo-dialogue",
       "label": "Galileo's Dialogue Concerning the Two Chief World Systems",
       "year": 1632,
-      "description": "Galileo published a witty dialogue that demolished the Earth-centered system and put the pope's argument in the mouth of a fool named Simplicio. It triggered his summons to Rome the following year.",
+      "description": "Galileo published a sparkling, lopsided dialogue that tore the Earth-centered cosmos to shreds and handed the pope's favorite argument to a dim character named Simplicio. It earned him a one-way summons to Rome.",
       "wikiSlug": "Dialogue_Concerning_the_Two_Chief_World_Systems",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The book was written in everyday Italian rather than scholarly Latin, so any literate person could read it, and it carried a real printing licence wrung from the Church's own censors. The first copy went to Galileo's patron, the Grand Duke of Tuscany Ferdinando II de' Medici, on 22 February 1632. The name Simplicio supposedly honored Simplicius of Cilicia, a real sixth-century commentator on Aristotle, but in Italian semplice also just means \"simpleton,\" a double meaning Galileo's enemies were happy to point out to the pope. The three speakers debate over four days; the Copernican mouthpiece, Salviati, was named for a real friend of Galileo's who had died years earlier."
+        }
+      ],
+      "commonsFile": "Galileos_Dialogue_Title_Page.png"
     },
     {
       "id": "evt-galileo-trial",
       "label": "Galileo's trial by the Inquisition",
       "year": 1633,
-      "description": "The Roman Inquisition tried Galileo for defending heliocentrism, forced him to recant on his knees, and condemned him to house arrest for life. The trial became the founding legend of the conflict between science and religious authority.",
+      "description": "The Roman Inquisition tried Galileo for defending heliocentrism (the idea that the Earth orbits the Sun), made him kneel and recant, and locked him under house arrest for the rest of his life. The trial became the founding legend of science versus religious authority.",
       "wikiSlug": "Galileo_affair",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The trigger was his 1632 book Dialogue Concerning the Two Chief World Systems, in which he staged a debate that defended a moving Earth and put the Pope's own preferred argument in the mouth of a character named Simplicio (the simpleton). The famous line he supposedly muttered as he rose from his knees, \"Eppur si muove\" (\"and yet it moves\"), appears in no trial record and shows up only in a story published over a century later, so it is almost certainly invented. House arrest didn't stop him: blind and confined, he finished Two New Sciences, often judged his most important work. The Church kept his book on its list of banned titles until 1835, and only in 1992 did Pope John Paul II formally admit the Church had got the case wrong."
+        }
+      ],
+      "commonsFile": "Galileo_facing_the_Roman_Inquisition.jpg"
     },
     {
       "id": "evt-descartes-method",
       "label": "Descartes' Discourse on the Method",
       "year": 1637,
-      "description": "René Descartes published the Discourse on the Method, rebuilding all knowledge on systematic doubt and reason from the single certainty 'I think, therefore I am.' It set the rationalist program for modern philosophy and science.",
+      "description": "René Descartes' plan to rebuild all of knowledge from scratch by doubting everything until he hit something undeniable: 'I think, therefore I am.' It launched the rationalist program that still anchors one whole side of how science is argued to work.",
       "wikiSlug": "Discourse_on_the_Method",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Descartes published it anonymously in the Dutch city of Leiden in June 1637, and the famous Discourse was actually just the introduction: it was the front matter to three meaty scientific essays on optics, weather, and geometry, sold as samples of his method in action. Writing in everyday French instead of scholarly Latin was a bold move, since it meant even readers with no university training could follow along. His payment from the printer was unusual too: rather than cash, he took 200 free copies of his own book."
+        }
+      ],
+      "commonsFile": "Descartes_Discours_de_la_Methode.jpg"
     },
     {
       "id": "evt-descartes-geometry",
       "label": "Descartes' analytic geometry",
       "year": 1637,
-      "description": "An appendix to the Discourse, La Géométrie, fused algebra and geometry through coordinates, letting curves be written as equations. It made the calculus possible a generation later.",
+      "description": "Tucked into the back of the Discourse as an essay called La Géométrie, this fused algebra and geometry so a curve could be written as an equation. It quietly handed mathematics the tool that made calculus possible a generation later.",
       "wikiSlug": "La_G%C3%A9om%C3%A9trie",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Oddly, the neat x-and-y grid we now call the Cartesian plane is not actually in Descartes' book: he used letters for unknown line lengths but never drew the familiar pair of perpendicular axes. That tidy system was teased out later by Dutch mathematician Frans van Schooten and his students, who translated the work into Latin in 1649 and fleshed out the ideas. The word \"Cartesian\" simply comes from the Latin form of Descartes' name, Cartesius, so the grid honors a man who never quite drew it."
+        }
+      ],
+      "commonsFile": "GeometryDescartes.JPG"
     },
     {
       "id": "evt-galileo-two-new-sciences",
       "label": "Galileo's Two New Sciences",
       "year": 1638,
-      "description": "Smuggled out of house arrest to a Dutch printer, Galileo's last book founded the science of mechanics — the strength of materials and the mathematics of motion. Newton built directly on it.",
+      "description": "Galileo's final book, on the strength of materials and the mathematics of motion, founded the science of mechanics. It was the launching pad Newton built on a generation later.",
       "wikiSlug": "Two_New_Sciences",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By 1638 Galileo was around seventy, blind, and under permanent house arrest near Florence after his 1633 Inquisition conviction, which also banned him from publishing. The manuscript was smuggled out to the Protestant Dutch Republic, beyond Rome's reach, and printed by the Elzevir (Elsevier) press in Leiden. Like his earlier Dialogue, the book is staged as a conversation among three characters spread over four days, a deliberately readable format; its full Italian title, Discorsi e dimostrazioni matematiche intorno a due nuove scienze, gives the work the nickname Discorsi."
+        }
+      ],
+      "commonsFile": "Galileo_Galilei,_Discorsi_e_Dimostrazioni_Matematiche_Intorno_a_Due_Nuove_Scienze,_1638_(1400x1400).png"
     },
     {
       "id": "evt-pascaline",
       "label": "Pascal builds a calculating machine",
       "year": 1642,
-      "description": "The nineteen-year-old Blaise Pascal built the Pascaline, a geared machine that added and subtracted, to help his tax-official father. It was one of the first mechanical calculators.",
+      "description": "As a teenager, Blaise Pascal built a brass, gear-driven machine that could add and subtract, to spare his tax-collector father endless hours of arithmetic. It was among the very first working mechanical calculators.",
       "wikiSlug": "Pascal%27s_calculator",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pascal kept refining it for about a decade and built roughly fifty of them, though he sold only around fifteen — they were finicky and expensive. About nine survive today, mostly in European museums. A tricky design problem was that French money wasn't decimal back then (twelve deniers to a sol, twenty sols to a livre), so the accounting version's wheels had to count in those odd bases rather than tens. The machine could only add and subtract directly; multiplication meant adding over and over."
+        }
+      ],
+      "commonsFile": "Pascaline-CnAM_823-1-IMG_1506-black.jpg"
     },
     {
       "id": "evt-english-civil-war",
       "label": "English Civil War",
       "year": 1642,
       "endYear": 1651,
-      "description": "War between Parliament and Charles I ended in the king's execution and a short-lived republic. The upheaval scattered English natural philosophers into the informal groups that would coalesce into the Royal Society.",
+      "description": "A war between Parliament and King Charles I that ended with the king beheaded and England briefly a republic. For the men who later founded the Royal Society this was not background — several had picked sides and feared for their lives, and the choice to bar religion and politics from the Society's meetings was a deliberate survival strategy.",
       "wikiSlug": "English_Civil_War",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Charles I was tried for treason and executed outside the Banqueting House in Whitehall on January 30, 1649 — the only English king ever put to death by his own subjects. The war was also far bloodier than its modern reputation suggests: as a share of the population, the roughly 3.6–3.7 percent of English lives it claimed was proportionally higher than Britain's losses in the First World War. It was an internal British convulsion, separate from the continental Thirty Years' War raging in the same decades."
+        }
+      ],
+      "commonsFile": "Battle_of_Naseby,_hand-coloured_copper_engraving.jpg"
     },
     {
       "id": "evt-torricelli-barometer",
       "label": "Torricelli invents the barometer",
       "year": 1643,
-      "description": "Evangelista Torricelli, Galileo's last assistant, showed that air pressure holds up a column of mercury and that empty space sits above it. He created the first sustained vacuum and the first barometer.",
+      "description": "Evangelista Torricelli, Galileo's last assistant, filled a yard-long tube with mercury, upended it into a dish, and watched it settle at about thirty inches — held up by the weight of the air. He'd made the first lasting vacuum and, without quite meaning to, the first barometer.",
       "wikiSlug": "Evangelista_Torricelli",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The apparatus may actually have been designed and run by Torricelli's friend Vincenzo Viviani, who would later write the first biography of Galileo. Torricelli ran a clever check that clinched it: he tried tubes of different shapes and widths, and the mercury always stopped at the same height — proof the column wasn't being held up by anything inside the tube but pushed up by pressure from outside. He didn't get to chase the idea far; he died of typhoid in 1647 at just thirty-nine, only four years after the experiment. The pressure unit, the torr, is named for him."
+        }
+      ],
+      "commonsFile": "Evangelista_Torricelli_by_Lorenzo_Lippi_(circa_1647,_Galleria_Silvano_Lodi_&_Due).jpg"
     },
     {
       "id": "evt-louis-xiv",
       "label": "Reign of Louis XIV, the Sun King",
       "year": 1643,
       "endYear": 1715,
-      "description": "Louis XIV ruled France for seventy-two years, the longest reign in European history. His minister Colbert founded the Académie des Sciences and put the French state behind organized research.",
+      "description": "Louis XIV ruled France for seventy-two years, the longest reign in European history. His minister Jean-Baptiste Colbert founded the Académie des Sciences and put the wealth and prestige of the French state behind organized research.",
       "wikiSlug": "Louis_XIV",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Louis became king in 1643 at just four years old, which is how his reign stretched to an astonishing 72 years. Colbert's Académie held its first meeting on 22 December 1666 in the king's own library, then met twice a week, and unlike England's volunteer Royal Society it paid its leading members salaries. It was Colbert's project that lured the Italian astronomer Cassini to Paris and built the observatory where the solar-system and speed-of-light measurements in this chapter were made."
+        }
+      ],
+      "commonsFile": "Louis_XIV_of_France.jpg"
     },
     {
       "id": "evt-pascal-puy-de-dome",
       "label": "Pascal's Puy de Dôme experiment",
       "year": 1648,
-      "description": "Following Pascal's design, his brother-in-law carried a barometer up the Puy de Dôme volcano and watched the mercury fall with altitude. It proved air has weight and that the vacuum is real, against Aristotle's 'nature abhors a vacuum.'",
+      "description": "Reasoning that air's weight should thin out with altitude, Pascal had his brother-in-law haul a mercury tube up an extinct volcano and measure as he climbed. The column shrank with height and rose again coming down — clean, quantitative proof that air is heavy and the vacuum is real.",
       "wikiSlug": "Blaise_Pascal",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The brother-in-law was Florin Périer, who had married Pascal's sister Gilberte and lived in Clermont, right at the foot of the mountain. He ran it on September 19, 1648: the mercury stood at 711 mm in a garden in town and dropped about 85 mm (roughly 3.3 inches) at the summit, with a second tube left below as a control. Pascal himself was too sickly to make the climb. The international unit of pressure, the pascal, carries his name — as does the programming language Pascal, coined three centuries later."
+        }
+      ],
+      "commonsFile": "Blaise_Pascal_Versailles.JPG"
     },
     {
       "id": "evt-hobbes-leviathan",
       "label": "Hobbes publishes Leviathan",
       "year": 1651,
-      "description": "Thomas Hobbes applied the mechanical philosophy to politics, deriving the state from matter, motion, and self-interest. It showed the new science reaching beyond nature into human affairs.",
+      "description": "Hobbes applied the mechanical philosophy to politics, building the absolute state up from human beings treated as self-interested matter in motion. It showed the new science pushing past nature into human affairs.",
       "wikiSlug": "Leviathan_(Hobbes_book)",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hobbes wrote much of it in exile in Paris, where he had fled with English royalists and tutored the teenage future Charles II in mathematics; he handed the king a special manuscript copy. The famous frontispiece, engraved by the Parisian artist Abraham Bosse, shows a crowned giant whose body is made of over 300 tiny people — the citizens who together form the sovereign. The book was so notorious for suspected atheism that Hobbes was later barred from publishing on religion or politics, and his works were publicly burned."
+        }
+      ],
+      "commonsFile": "Leviathan_frontispiece_cropped_British_Museum.jpg"
     },
     {
       "id": "evt-pascal-fermat-probability",
       "label": "Pascal and Fermat found probability theory",
       "year": 1654,
-      "description": "In an exchange of letters about a gambling problem, Blaise Pascal and Pierre de Fermat created the mathematics of probability — the first rigorous tool for reasoning about uncertainty.",
+      "description": "Trading letters about how to fairly split the pot of an unfinished gambling game, Blaise Pascal and the lawyer-mathematician Pierre de Fermat worked out the first real mathematics of chance. It was the birth of probability theory.",
       "wikiSlug": "Problem_of_points",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The puzzle that set them off, the \"problem of points,\" came from a gambler named Antoine Gombaud, who styled himself the Chevalier de Méré: if a dice game is cut short before anyone wins, how should the stakes be divided? Pascal and Fermat reached the same answer by different routes in a back-and-forth dated to the summer of 1654, with one famous Pascal letter timestamped July 29. Fermat, by day a judge in Toulouse, did almost all his mathematics as a private pastime and rarely published, which is why his name later got attached to a \"Last Theorem\" that went unproven for over 350 years."
+        }
+      ]
     },
     {
       "id": "evt-guericke-magdeburg",
       "label": "The Magdeburg hemispheres",
       "year": 1654,
-      "description": "Otto von Guericke pumped the air from two joined copper hemispheres and harnessed teams of horses that could not pull them apart. The public spectacle proved the power of the vacuum and atmospheric pressure.",
+      "description": "Otto von Guericke, mayor of Magdeburg, sucked the air out of two joined copper hemispheres with a pump he'd invented, then set teams of horses pulling against each other to tear them apart. They couldn't — only ordinary air pressure was clamping the empty sphere shut.",
       "wikiSlug": "Magdeburg_hemispheres",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The first big show was staged in 1654 at the Imperial Diet in Regensburg before Emperor Ferdinand III, using thirty horses in two teams of fifteen; the famous eight-a-side version was a later repeat back home in Magdeburg. With a good vacuum inside, the air would have pinned the halves together with a force of roughly 4,500 pounds — about the pull needed to lift a small elephant. Guericke never published the demonstration himself; the Jesuit scholar Gaspar Schott first wrote it up in print in 1657. The same air pump Guericke built to do this became the ancestor of the laboratory vacuum pump."
+        }
+      ],
+      "commonsFile": "Magdeburg.jpg"
     },
     {
       "id": "evt-huygens-pendulum-clock",
       "label": "Huygens' pendulum clock",
       "year": 1656,
-      "description": "Christiaan Huygens built the first pendulum clock, cutting timekeeping error from minutes to seconds a day. Accurate time made precise astronomy and physics experiments possible for the first time.",
+      "description": "The Dutch polymath Christiaan Huygens turned a swinging pendulum into a working clock, cutting the best timekeeping error from roughly fifteen minutes a day to about fifteen seconds. Reliable cheap time is the quiet foundation of all precise experiment.",
       "wikiSlug": "Pendulum_clock",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Huygens hit on the design in late December 1656 and patented it in 1657, but he didn't build the clocks himself; he handed the work to a Hague clockmaker named Salomon Coster, and the oldest surviving Huygens-Coster clock, signed 1657, sits in a museum in Leiden, the Netherlands. Galileo had spotted the key fact decades earlier (a pendulum's swing takes nearly the same time whether the swing is wide or narrow), but never got a working clock out of it. Huygens later showed that for the timing to be truly perfect the bob should trace a special curve called a cycloid, not a plain circular arc, a refinement real clocks mostly ignore."
+        }
+      ],
+      "commonsFile": "Huygens_first_pendulum_clock.png"
     },
     {
       "id": "evt-huygens-saturn",
       "label": "Huygens explains Saturn's rings",
       "year": 1659,
-      "description": "Christiaan Huygens, using a better telescope, discovered Saturn's moon Titan and showed Saturn was encircled by a flat ring. He solved a puzzle that had baffled Galileo for half a century.",
+      "description": "Christiaan Huygens, grinding superior lenses, spotted Saturn's giant moon Titan in 1655 and worked out that the planet's baffling \"ears\" were really a thin, flat ring touching it nowhere. He published the ring idea in 1659, solving a puzzle that had defeated Galileo for half a century.",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Huygens found Titan on 25 March 1655, the first moon ever discovered around Saturn. Cleverly, he announced the ring as a scrambled anagram so he could claim priority while still checking his work before going public. He laid it all out in his 1659 book Systema Saturnium, which also contained the first decent sketch of the dimensions of the solar system. When he first saw the ring system it happened to be tilted edge-on and nearly invisible, so part of his breakthrough was reasoning out a structure the telescope was barely showing him."
+        }
+      ],
+      "commonsFile": "Huygens_Systema_Saturnium.jpg"
     },
     {
       "id": "evt-charles-ii-restoration",
       "label": "Restoration of Charles II",
       "year": 1660,
       "endYear": 1685,
-      "description": "Charles II returned from exile to restore the English monarchy. He chartered and lent his name to the Royal Society, making royal patronage of science fashionable.",
+      "description": "Charles II returned from exile in 1660 to restore the English monarchy after eleven years of republican rule. He chartered and lent his name to the Royal Society, making royal patronage of the new science fashionable — though his actual interest in it was thin.",
       "wikiSlug": "Charles_II_of_England",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His enthusiasm had limits. He once needled the Fellows with a trick question — why does a bowl of water weigh no more after you drop a live fish into it? — and let them spin out elaborate theories before admitting it was nonsense (water plus fish does weigh more), a sly jab at theorizing ahead of the facts. He gave the Society his name, a fine ceremonial mace, and a charter, but almost no money — it survived on its members' own pockets, which is precisely what made it self-governing."
+        }
+      ],
+      "commonsFile": "King_Charles_II_by_John_Michael_Wright_or_studio.jpg"
     },
     {
       "id": "evt-royal-society",
       "label": "The Royal Society founded",
       "year": 1660,
-      "description": "Twelve men in London formed a society 'for the improving of natural knowledge by experiment.' Chartered by Charles II in 1662, it became the world's first enduring scientific institution and the model for all that followed.",
+      "description": "Twelve men met at Gresham College in London on November 28, 1660, just after the king was restored, and resolved to found a 'colledge for the promoting of physico-mathematicall experimentall learning.' Chartered by Charles II, it became the world's first enduring scientific institution and the template for all that followed.",
       "wikiSlug": "Royal_Society",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The founding meeting followed an astronomy lecture by the 28-year-old Christopher Wren — the same Wren who would later design St Paul's Cathedral — and the mathematician William Brouncker became the Society's first president. The actual royal charter came in two rounds: a first in 1662, then a fuller one signed April 23, 1663, naming the king as founder. The motto Nullius in verba ('take nobody's word for it') is lifted from a line in the Roman poet Horace."
+        }
+      ],
+      "commonsFile": "Royal_Society_entrance.jpg"
     },
     {
       "id": "evt-malpighi-capillaries",
       "label": "Malpighi discovers capillaries",
       "year": 1661,
-      "description": "Using a microscope on a frog's lung, Marcello Malpighi saw the tiny vessels linking arteries to veins. He supplied the one missing link Harvey could not see and completed the proof of blood circulation.",
+      "description": "Peering through a microscope at a frog's lung, Marcello Malpighi spotted the tiny vessels linking arteries to veins. He supplied the one missing link Harvey could not see and finished the proof of blood circulation.",
       "wikiSlug": "Marcello_Malpighi",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Malpighi cracked it by switching from mammals to the frog, whose see-through tissue let him glimpse the capillary web at low magnification; he called the little animal his \"microscope of nature.\" He announced the find in 1661 in two letters titled De pulmonibus (On the Lungs), written to his colleague Giovanni Alfonso Borelli. In the same work he became the first person to describe the lung's tiny air sacs (the alveoli), comparing the honeycomb structure to a beehive."
+        }
+      ],
+      "commonsFile": "Marcello_Malpighi_by_Carlo_Cignani.jpg"
     },
     {
       "id": "evt-boyle-sceptical-chymist",
       "label": "Boyle's The Sceptical Chymist",
       "year": 1661,
-      "description": "Robert Boyle attacked the ancient four elements and alchemical secrecy, arguing matter is made of corpuscles and that chemistry must be public and experimental. The book is a founding text of modern chemistry.",
+      "description": "Boyle attacked the ancient four elements and the alchemists' guarded, mystical recipe-hoarding, arguing matter is built from tiny particles (corpuscles) and that chemistry must be done in the open with repeatable methods. It is a founding text of modern chemistry.",
       "wikiSlug": "The_Sceptical_Chymist",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The book is written as a staged dinner-party debate among four characters, with Boyle's own skeptical views put in the mouth of a speaker named Carneades. His real target was as much Paracelsus's three \"principles\" (salt, sulfur, mercury) as Aristotle's four elements. The definition of an element he laid down here — a simple body not made of any other and into which mixed bodies can ultimately be broken — pointed straight toward the modern idea, even though Boyle stopped short of naming any actual elements."
+        }
+      ],
+      "commonsFile": "Sceptical_chymist_1661_Boyle_Title_page_AQ18_(3).jpg"
     },
     {
       "id": "evt-boyle-law",
       "label": "Boyle's law published",
       "year": 1662,
-      "description": "Working with Robert Hooke and a new air pump, Robert Boyle showed that the pressure of a gas varies inversely with its volume. It was one of the first quantitative laws produced by deliberate laboratory experiment.",
+      "description": "Boyle showed that squeezing a trapped pocket of air into half the space makes it push back twice as hard — pressure and volume are inversely proportional. It was one of the first laws of nature pinned down by deliberately working an instrument on a bench rather than watching the sky.",
       "wikiSlug": "Boyle%27s_law",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Boyle didn't announce the law in its own book — it slipped out in an appendix to the 1662 second edition of his air-pump treatise, tacked on to rebut critics. He also didn't think of the inverse relationship first: two English gentlemen, Richard Towneley and Henry Power, had noticed it, and Boyle credited them. The French physicist Edme Mariotte hit on the same rule independently around 1679, which is why much of continental Europe still calls it Mariotte's law rather than Boyle's."
+        }
+      ],
+      "commonsFile": "Boyles_Law_animated.gif"
     },
     {
       "id": "evt-royal-society-journal",
       "label": "First scientific journals",
       "year": 1665,
-      "description": "The Journal des sçavans in Paris and the Royal Society's Philosophical Transactions in London began publishing dated, attributed reports of new findings. Peer-reviewed publication and priority dating were born.",
+      "description": "In 1665 two periodicals began printing dated, attributed reports of new findings — the Journal des sçavans in Paris, and weeks later the Royal Society's Philosophical Transactions in London. They invented two things at once: priority (a discovery now belonged, by date, to whoever printed it first) and scrutiny (claims tested by a community before acceptance — the embryo of peer review).",
       "wikiSlug": "Philosophical_Transactions_of_the_Royal_Society",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Journal des sçavans came first, on January 5, 1665; the Philosophical Transactions followed on March 6 — and it is still publishing, the oldest continuously running scientific journal on earth. The Royal Society's secretary Henry Oldenburg ran it as a private side-business, writing all eleven items in that first issue himself and pocketing the proceeds. His vast scientific correspondence later got him into trouble: during the war with the Dutch in 1667 he was jailed in the Tower of London for two months on suspicion of being a spy, then quietly released."
+        }
+      ],
+      "commonsFile": "Philosophical_Transactions_Volume_1_frontispiece.jpg"
     },
     {
       "id": "evt-hooke-micrographia",
       "label": "Hooke publishes Micrographia",
       "year": 1665,
-      "description": "Robert Hooke's Micrographia revealed the microscopic world in stunning fold-out engravings — the compound eye of a fly, the structure of cork, where he coined the word 'cell.' It was the first scientific bestseller.",
+      "description": "Robert Hooke's lavishly illustrated study of the microscopic world — a fly's eye, a needle's pitted point, a slice of cork where he coined the word 'cell' — and the first scientific book to become a genuine popular hit.",
       "wikiSlug": "Micrographia",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was the first major book the young Royal Society put out under its own name, published in January 1665 by the society's printers Jo. Martyn and Ja. Allestry. The huge fold-out plates were engraved from Hooke's own drawings — the flea and louse spreads open to well over a foot wide. Samuel Pepys, the famous London diarist, sat up reading it until two in the morning and wrote that it was the most ingenious book he had ever read."
+        }
+      ],
+      "commonsFile": "HookeFlea01.jpg"
     },
     {
       "id": "evt-great-fire-london",
@@ -587,45 +892,73 @@
       "id": "evt-newton-annus-mirabilis",
       "label": "Newton's plague years",
       "year": 1666,
-      "description": "Sent home from Cambridge by the plague, the twenty-three-year-old Isaac Newton invented calculus, split white light with a prism, and conceived universal gravitation in roughly eighteen months — his annus mirabilis.",
+      "description": "Sent home from Cambridge when plague shut the university, a twenty-three-year-old Newton spent roughly two years at the family farm laying the groundwork for calculus, splitting white light with a prism, and conceiving universal gravitation — his annus mirabilis (\"year of wonders\").",
       "wikiSlug": "Annus_mirabilis",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He retreated to Woolsthorpe Manor, the family farmhouse about 60 miles (97 km) northwest of Cambridge, after the Great Plague of 1665 emptied the colleges. In this same burst he generalized the binomial theorem, a piece of algebra that lets you expand expressions raised to any power. The story that a falling apple sparked his idea of gravity traces to Newton himself, who told it in old age, and a tree at the farm is still pointed out as the one. He sat on most of this work for two decades, publishing little until the Principia dragged it into the open."
+        }
+      ],
+      "commonsFile": "Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg"
     },
     {
       "id": "evt-academie-sciences",
       "label": "French Académie des Sciences founded",
       "year": 1666,
-      "description": "Louis XIV's minister Colbert founded the Académie des Sciences in Paris as a salaried state institution. Where the Royal Society was a private club, the Académie made the scientist a paid servant of the state.",
+      "description": "Louis XIV's powerful minister Jean-Baptiste Colbert founded the Académie des Sciences in Paris on the opposite principle from London's: a small, hand-picked elite, salaried by the crown and housed by the state, expected to deliver useful results in return. Where the Royal Society was a private club, the Académie made the scientist a paid servant of the state.",
       "wikiSlug": "French_Academy_of_Sciences",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It first met on December 22, 1666, in the king's own library, and was deliberately conceived as France's answer to the Royal Society chartered in London four years earlier. Unlike the all-British Royal Society, Colbert recruited foreign stars to Paris on French pay — the Dutch mathematician Christiaan Huygens and the Italian astronomer Giovanni Cassini (who Frenchified his name to Jean-Dominique) among them. The crown wanted concrete payoffs: a reliable map of France, and an observatory that might crack the longitude problem at sea."
+        }
+      ],
+      "commonsFile": "Colbert_Presenting_the_Members_of_the_Royal_Academy_of_Sciences_to_Louis_XIV_in_1667.PNG"
     },
     {
       "id": "evt-newton-reflecting-telescope",
       "label": "Newton's reflecting telescope",
       "year": 1668,
-      "description": "Isaac Newton built a telescope using a curved mirror instead of a lens, sidestepping the color distortion of refractors. The device won him election to the Royal Society and his first public fame.",
+      "description": "Newton built the first working telescope to gather light with a curved mirror instead of a glass lens, dodging the rainbow color-fringing (\"chromatic aberration\") that blurred every lens telescope of the day. It made his name and got him into the Royal Society.",
       "wikiSlug": "Newtonian_telescope",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The thing was tiny — a polished metal mirror about 2 inches (5 cm) across in a tube only about 6 inches (15 cm) long — yet it magnified roughly 35 times, enough for Newton to spot the four big moons of Jupiter and the crescent phase of Venus, the same sights Galileo had chased. He ground and polished the mirror himself out of speculum, a hard copper-tin alloy, because no good optical glass existed for the job. His original 1671 instrument still survives in the Royal Society's collection in London, and the basic \"Newtonian\" mirror design remains a favorite of amateur stargazers today."
+        }
+      ],
+      "commonsFile": "Newton_telescope_replica_1668.jpg"
     },
     {
       "id": "evt-redi-spontaneous-generation",
       "label": "Redi disproves spontaneous generation",
       "year": 1668,
-      "description": "Francesco Redi showed with covered and uncovered meat that maggots come from fly eggs, not rotting matter. It was a model controlled experiment against an ancient belief, though the debate ran on for two centuries.",
+      "description": "Francesco Redi's jars of meat — some open, some sealed, some screened with gauze — showed that maggots only appear where flies can lay eggs, a clean blow against the ancient idea that life self-assembles from rot.",
       "wikiSlug": "Francesco_Redi",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He laid it out in a 1668 book with the plain title 'Experiments on the Generation of Insects' (Esperienze Intorno alla Generazione degl'Insetti). Redi was the court physician to the Medici dukes who ruled Florence and Tuscany, and was also a celebrated poet on the side. Years earlier he had dissected vipers to prove that their venom sat in glands by the fangs (not in the bile, as people assumed) and that it only killed when it got into the blood — swallowing it did nothing."
+        }
+      ],
+      "commonsFile": "Francesco_Redi,_founder_of_experimental_biology.jpg"
     },
     {
       "id": "evt-pascal-pensees",
@@ -643,55 +976,90 @@
       "id": "evt-newton-optics",
       "label": "Newton's theory of color",
       "year": 1672,
-      "description": "Newton sent the Royal Society his prism experiments proving white light is a mixture of fixed colors. The bruising dispute with Robert Hooke that followed soured Newton on publication for decades.",
+      "description": "Newton's prism work — proving white light is a blend of fixed colors, not a pure thing that glass taints — went to the Royal Society as his first published paper. The savaging it took, led by Robert Hooke, soured him on publishing for years.",
       "wikiSlug": "Opticks",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The paper, \"A New Theory about Light and Colours,\" ran in the Society's journal Philosophical Transactions in February 1672 and counts as the first scientific paper Newton ever published. His key claim was \"refrangibility\": each color bends by its own fixed amount when passing through glass, so color is baked into the light itself rather than created by the prism. Newton clinched it with what he called his \"crucial experiment\" — passing one already-split color through a second prism and showing it refused to change color or split further. He waited a full thirty-two years, until 1704 and after Hooke was dead, to publish his big book on the subject, Opticks."
+        }
+      ],
+      "commonsFile": "Opticks.jpg"
     },
     {
       "id": "evt-leibniz-calculus",
       "label": "Leibniz develops the calculus",
       "year": 1675,
-      "description": "Gottfried Wilhelm Leibniz developed his own version of the calculus with the elegant notation still taught today. His independent path led to the most poisonous priority dispute in the history of science.",
+      "description": "Working in Paris in the mid-1670s, the German polymath Gottfried Wilhelm Leibniz built his own calculus from scratch, with the clean ∫ and dy/dx notation the whole world still writes. He published it in 1684, three years before Newton's Principia.",
       "wikiSlug": "Gottfried_Wilhelm_Leibniz",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Leibniz first laid out the method in a paper with a mouthful of a Latin title (\"Nova Methodus pro Maximis et Minimis\"), which ran across just seven pages of the German learned journal Acta Eruditorum in October 1684. He came to math late and as something of an outsider: he was a diplomat and lawyer by trade, and during those same Paris years he also designed a brass calculating machine, the Stepped Reckoner, that could add, subtract, multiply, and divide (he showed an early wooden model to London's Royal Society in 1673). He was also the first to work out modern binary arithmetic, the all-0s-and-1s system every computer now runs on, though his own machine still used ordinary decimal dials."
+        }
+      ],
+      "commonsFile": "Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg"
     },
     {
       "id": "evt-greenwich-observatory",
       "label": "Royal Observatory, Greenwich founded",
       "year": 1675,
-      "description": "Charles II founded the Greenwich observatory to fix the stars accurately enough to solve the longitude problem for navigators. It eventually defined the prime meridian and the world's time.",
+      "description": "King Charles II founded the Royal Observatory at Greenwich to map the stars precisely enough to crack the longitude problem, the era's most valuable unsolved puzzle in navigation. It later became home to the prime meridian and the world's master clock.",
       "wikiSlug": "Royal_Observatory,_Greenwich",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The push came from Sir Jonas Moore, the Ordnance's surveyor-general, who talked the king into it; Charles signed the warrant naming John Flamsteed his first \"astronomical observator\" (the post we now call Astronomer Royal) on 4 March 1675, and the foundation stone went down that August. The building, Flamsteed House, was designed by Christopher Wren, the architect of St Paul's Cathedral, likely with help from Robert Hooke, and was the first purpose-built scientific research facility in Britain. The king was famously thrifty about it: the observatory was paid for partly by selling off old, spoiled gunpowder."
+        }
+      ],
+      "commonsFile": "Royal_observatory_greenwich.jpg"
     },
     {
       "id": "evt-roemer-light-speed",
       "label": "Rømer measures the speed of light",
       "year": 1676,
-      "description": "Timing eclipses of Jupiter's moons, the Danish astronomer Ole Rømer showed light travels at a finite speed. It was the first measurement of one of the fundamental constants of nature.",
+      "description": "Timing the eclipses of Jupiter's moons, the Danish astronomer Ole Rømer noticed they ran late when Earth was far from Jupiter and early when near, which made sense only if light takes time to cross space. It was the first demonstration that light travels at a finite speed, not instantly.",
       "wikiSlug": "R%C3%B8mer%27s_determination_of_the_speed_of_light",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In September 1676 Rømer publicly predicted to the Paris Academy that the next eclipse of Jupiter's moon Io would arrive about ten minutes late, and on 9 November the astronomers watched it happen exactly as he said. He estimated light took roughly 22 minutes to cross the diameter of Earth's orbit (the true figure is closer to 16 or 17). He never published a clean number for the speed itself; later astronomers ran his timing through better orbit measurements to get one."
+        }
+      ],
+      "commonsFile": "Ole_Rømer.jpg"
     },
     {
       "id": "evt-leeuwenhoek-microorganisms",
       "label": "Leeuwenhoek discovers microorganisms",
       "year": 1676,
-      "description": "Antonie van Leeuwenhoek, a self-taught Delft draper, used handmade single-bead microscopes to see bacteria and protozoa — 'animalcules' — for the first time. He revealed an entire living world nobody knew existed.",
+      "description": "Antonie van Leeuwenhoek, a self-taught Delft cloth merchant, used his handmade single-bead microscopes to become the first human to see bacteria and protozoa — the 'animalcules' swarming in a drop of water — opening up a whole tier of life nobody had imagined.",
       "wikiSlug": "Antonie_van_Leeuwenhoek",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He had no university training and no Latin, so he wrote up his findings in Dutch and mailed them to London; over his life he sent the Royal Society roughly 190 letters. They elected him a member in 1680, though he never once attended a meeting or visited London. He is thought to have built more than 500 of his tiny lenses, yet only about a dozen survive — the sharpest of them magnifies around 270 times, and he never told anyone exactly how he ground them."
+        }
+      ],
+      "commonsFile": "Anthonie_van_Leeuwenhoek_(1632-1723)._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg"
     },
     {
       "id": "evt-spinoza-ethics",
@@ -729,47 +1097,75 @@
       "id": "evt-newton-principia",
       "label": "Newton's Principia published",
       "year": 1687,
-      "description": "Funded and goaded by Edmond Halley, Isaac Newton published the Principia, deriving Kepler's laws from three laws of motion and a single universal force of gravity. It unified the heavens and the Earth and is often called the greatest scientific book ever written.",
+      "description": "Funded and goaded into print by Edmond Halley, Newton published the Principia, deriving Kepler's planetary laws from three laws of motion plus a single universal force of gravity. It welded the heavens and the Earth into one system and is often called the greatest scientific book ever written.",
       "wikiSlug": "Philosophi%C3%A6_Naturalis_Principia_Mathematica",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The book almost didn't get printed: the Royal Society had blown its budget on a lavishly illustrated flop called De Historia Piscium (The History of Fishes), so Halley paid for the Principia out of his own pocket. He got burned twice over, since the Society, broke, later paid his salary in unsold copies of the fish book rather than cash. Newton wrote the whole thing in dense Latin, and even the mathematicians of the day found it brutally hard going. A first edition sold at auction in 2016 for a record 3.7 million dollars."
+        }
+      ],
+      "commonsFile": "Newton's_Principia_title_page.png"
     },
     {
       "id": "evt-glorious-revolution",
       "label": "The Glorious Revolution",
       "year": 1688,
-      "description": "Parliament deposed James II and installed William and Mary under constitutional limits. The settlement, defended by Newton's friend John Locke, tied the new science to a new politics of consent and reason.",
+      "description": "In 1688 Parliament deposed the Catholic king James II and installed the Protestant William and Mary on explicit constitutional terms. Defended by Newton's friend Locke as a rational reconstruction of government by consent, it tied the new science to a new politics.",
       "wikiSlug": "Glorious_Revolution",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "William of Orange landed at Torbay in southwest England on 5 November 1688 with around 12,000 men; James II's army melted away and the king fled to France that December, so the takeover earned the nickname \"glorious\" partly because in England almost no blood was spilled. The new monarchs had to accept the Bill of Rights of 1689, which barred the crown from suspending laws or taxing without Parliament and locked in a constitutional monarchy that has shaped Britain ever since. James did not give up quietly: he landed in Ireland to fight for his throne and was beaten at the Battle of the Boyne in 1690."
+        }
+      ],
+      "commonsFile": "Jan_Wyck_-_William_III_Landing_at_Brixham,_Torbay_-_WGA25918.jpg"
     },
     {
       "id": "evt-locke-essay",
       "label": "Locke's Essay Concerning Human Understanding",
       "year": 1689,
-      "description": "John Locke argued that the mind begins as a blank slate and all knowledge comes from experience. His empiricism turned Newton's method into a theory of the human mind and seeded the Enlightenment.",
+      "description": "John Locke argued that the mind starts as a blank slate (tabula rasa) and that all knowledge is assembled out of experience. His empiricism did for the human mind what Newton had done for the heavens, and it became founding capital for the Enlightenment.",
       "wikiSlug": "An_Essay_Concerning_Human_Understanding",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Locke had chewed on the project for roughly twenty years before the Essay appeared; it runs to four long books, the first demolishing the idea that we are born with built-in ideas, the rest building knowledge up from simple sensations. Oddly, the book is dated 1690 but actually went on sale in late 1689. The famous phrase \"tabula rasa\" became attached to Locke's name even though he never used those exact Latin words, preferring to call the newborn mind \"white paper.\""
+        }
+      ],
+      "commonsFile": "Locke_Essay_1690.jpg"
     },
     {
       "id": "evt-salem-witch-trials",
       "label": "Salem witch trials",
       "year": 1692,
-      "description": "Twenty people were executed for witchcraft in Massachusetts in the same decade Newton's Principia was being read in London. The era of the Scientific Revolution was also an era of witch-hunts — the new reason had not yet won.",
+      "description": "In 1692 the village of Salem, Massachusetts, hanged nineteen people and crushed one to death for witchcraft — a witch panic raging five years after Newton's Principia hit London. The new reason had not yet won.",
       "wikiSlug": "Salem_witch_trials",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It started when a group of girls in Salem Village began having fits and naming neighbors as witches; before it burned out, more than 200 people had been accused and at least 24 had died. The first to hang, on June 10, was Bridget Bishop, an outspoken tavern-keeper who had been accused of witchcraft once before, a dozen years earlier. The one man not hanged, farmer Giles Corey, refused to enter a plea — so the court used an old torture called pressing (piling stones on his chest to force an answer), and he died under the weights, reportedly asking only for \"more weight\" so his estate would pass to his family instead of being seized. The youngest jailed was Dorothy Good, about four years old, chained for months after she was pressured into \"confessing\" she had seen her mother with the devil."
+        }
+      ],
+      "commonsFile": "Salem_witch2.jpg"
     },
     {
       "id": "evt-bank-of-england",
@@ -785,13 +1181,20 @@
       "id": "evt-newton-mint",
       "label": "Newton runs the Royal Mint",
       "year": 1696,
-      "description": "Isaac Newton left Cambridge to become Warden, then Master, of the Royal Mint, overseeing the Great Recoinage and personally hunting counterfeiters. The era's greatest scientist spent his last thirty years as a civil servant.",
+      "description": "Newton left Cambridge in 1696 to run the Royal Mint (England's coin factory), steering the Great Recoinage and chasing down counterfeiters with the same obsessive intensity he had brought to physics. The world's greatest scientist spent his final thirty years as a London civil servant.",
       "wikiSlug": "Isaac_Newton",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Newton turned what had been a cushy do-nothing post into real police work, going undercover in taverns and grilling suspects in Newgate Prison; he successfully prosecuted 28 coiners. His nemesis was William Chaloner, a serial forger who publicly accused Newton of incompetence and angled for control of the Mint himself. Newton quietly built the case that got him convicted of high treason, and Chaloner was hanged on 22 March 1699. Under Newton the Mint's output jumped from struggling to make 15,000 pounds a week to over 50,000."
+        }
+      ],
+      "commonsFile": "Sir_Isaac_Newton_by_Sir_Godfrey_Kneller,_Bt.jpg"
     },
     {
       "id": "evt-savery-steam-engine",
@@ -807,53 +1210,88 @@
       "id": "evt-newton-opticks",
       "label": "Newton publishes Opticks",
       "year": 1704,
-      "description": "After Hooke's death, Newton finally published Opticks in plain English, modeling how to reason from experiment to theory. With it and the Principia, the Newtonian method became the template for all science.",
+      "description": "In 1704, only after his rival Hooke had died, Newton published Opticks, his study of light and color. Written in plain English and built openly from experiments, it was a readable demonstration of how to do science, and its closing \"Queries\" set the research agenda for a century.",
       "wikiSlug": "Opticks",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Where the Principia hid behind forbidding Latin geometry, Opticks reasoned step by step from experiments anyone could picture (most famously splitting white sunlight into a rainbow with a prism, then recombining it). The speculative \"Queries\" at the back grew with each edition: 16 in the first English edition of 1704, expanded to 23 in the 1706 Latin translation, and finally 31 by the 1730 edition. Several of those open-ended questions, on whether light was made of particles and on hidden forces between bodies, became homework for physicists for the next hundred-plus years."
+        }
+      ],
+      "commonsFile": "NewtonDualPrismExperiment.jpg"
     },
     {
       "id": "evt-newton-knighted",
       "label": "Newton knighted by Queen Anne",
       "year": 1705,
-      "description": "Queen Anne knighted Isaac Newton, the first scientist ever knighted, though the honor owed as much to a Cambridge parliamentary election as to his work. When he died in 1727 he was buried in Westminster Abbey like a king.",
+      "description": "Queen Anne knighted Newton at Trinity College, Cambridge, in 1705, making him the first scientist ever knighted, though the honor owed more to a Cambridge parliamentary election than to his science. When he died in 1727 he was buried in Westminster Abbey like a king.",
       "wikiSlug": "Isaac_Newton",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Historians generally agree the knighthood was a political maneuver tied to the parliamentary election the following month rather than a reward for the Principia or his Mint service. Newton died unmarried at Kensington on 20 March 1727 and was buried in the Abbey on 28 March; his pall was carried by the Lord Chancellor, two dukes, and three earls, a level of state honor unheard of for a man of science. Voltaire, the French writer then living in England, was struck that a nation would honor a mathematician like a sovereign and carried that astonishment home as propaganda for the new science."
+        }
+      ],
+      "commonsFile": "Van_der_Vaart_and_Wissing_-_Queen_Anne_-_Scottish_National_Portrait_Gallery.jpg"
     },
     {
       "id": "evt-keplers-third-law",
       "label": "Kepler's Harmonices Mundi and the third law",
       "year": 1619,
-      "description": "In The Harmony of the World, a book hunting for the cosmos's musical and geometric harmonies, Kepler buried his third law: the square of a planet's orbital period is proportional to the cube of its distance from the Sun. Newton later derived gravity itself from it.",
+      "description": "Buried in a sprawling book about the universe's musical harmonies, Kepler's third law states that the square of a planet's orbital period is proportional to the cube of its distance from the Sun — one equation tying the whole solar system together. Newton would later use it to derive gravity itself.",
       "wikiSlug": "Harmonice_Mundi",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kepler pinned down the relationship on a precise day he recorded as March 8, 1618, then bungled the arithmetic and only got it right on May 15 — a moment he described as light flooding a mind that had been groping in the dark. He genuinely believed the planets sang: he worked out a tune for each one based on how its speed varied around its orbit, with Mercury ranging over the widest vocal span and slow, stately Saturn barely shifting a note. The book was finished in the opening years of the Thirty Years' War, which would soon wreck the German states Kepler lived and worked in."
+        }
+      ],
+      "commonsFile": "Harmonices_Mundi_0001-lg.jpg"
     },
     {
       "id": "evt-republic-of-letters",
       "label": "The Republic of Letters",
       "year": 1635,
-      "description": "Centered on the Paris friar Marin Mersenne, who relayed findings among scholars across Europe, the Republic of Letters was a borderless correspondence network whose one rule was that a claim travels on its argument, not its author's rank. It was the social precondition for the scientific societies.",
+      "description": "An informal, borderless web of letter-writing scholars across Europe — its unofficial switchboard the Paris friar Marin Mersenne, who relayed findings, brokered disputes, and copied news from one correspondent to the next. Its one rule: a claim travels on its argument, not on the rank of whoever made it.",
       "wikiSlug": "Republic_of_Letters",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The phrase itself was already two centuries old. In Latin (respublica literaria) it shows up in a letter the Venetian humanist Francesco Barbaro wrote on July 6, 1417, to thank the manuscript-hunter Poggio Bracciolini for recovering lost ancient texts. When Mersenne died in 1648, letters from 78 different correspondents were found bundled in his monastery cell — among them Fermat, the Dutch polymath Christiaan Huygens, Galileo, and Galileo's pupil Evangelista Torricelli — which is much of how we know how wide the network really stretched."
+        }
+      ],
+      "commonsFile": "Institut_de_France_-_Académie_française_et_pont_des_Arts.jpg"
     },
     {
       "id": "evt-cassini-solar-system-scale",
       "label": "Cassini measures the scale of the solar system",
       "year": 1672,
-      "description": "Giovanni Cassini and Jean Richer observed Mars from Paris and French Guiana at once, and from its tiny parallax shift triangulated the distance to Mars and the size of the whole solar system. The numbers were staggering: the Sun lay tens of millions of miles away.",
+      "description": "Giovanni Cassini and Jean Richer observed Mars from Paris and from French Guiana at the same moment, and from its tiny shift against the stars (parallax) triangulated the distance to Mars and the scale of the whole solar system. The numbers were staggering: the Sun lay tens of millions of miles away.",
       "wikiSlug": "Giovanni_Domenico_Cassini",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Richer made the dangerous Atlantic crossing to Cayenne in French Guiana to set up the far-flung second viewpoint while Cassini stayed in Paris, roughly 4,000 miles (6,400 km) apart. Their figure for the Sun's distance came out around 87 million miles (140 million km), within about 7 percent of the true value of roughly 93 million miles (150 million km), and it stood as the best estimate for the next hundred years. Richer also noticed his pendulum clock ran slower near the equator, an early hint that the Earth is not a perfect sphere but bulges at the middle."
+        }
+      ],
+      "commonsFile": "Giovanni_Domenico_Cassini,_Museo_di_Palazzo_Poggi.jpg"
     }
   ]
 }
