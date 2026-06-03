@@ -50,115 +50,192 @@
       "id": "evt-aksum-periplus",
       "label": "Periplus mentions Aksum",
       "year": 60,
-      "description": "The Periplus of the Erythraean Sea, a Greco-Roman merchant's guide, describes Aksum's trade in ivory, rhinoceros horn, tortoiseshell, and obsidian.",
+      "description": "An anonymous Greek-speaking Egyptian merchant wrote the Periplus, a no-nonsense Red Sea trade handbook, and it gives the earliest outside snapshot of Aksumite commerce we have.",
       "wikiSlug": "Periplus_of_the_Erythraean_Sea",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The single surviving copy comes from a 10th-century Byzantine manuscript that mistakenly credits the historian Arrian, apparently just because the text sat next to one of his works on the page. The real author is unknown, and scholars have pinned the writing to somewhere around 40-70 CE (one careful analysis narrows it to about 59-62 CE). Of the dozens of ports the merchant catalogs from Egypt down the African coast and across to India, Adulis gets one of the fuller entries."
+        }
+      ],
+      "commonsFile": "Map_of_the_Periplus_of_the_Erythraean_Sea.jpg"
     },
     {
       "id": "evt-aksum-zoskales",
       "label": "King Zoskales",
       "year": 80,
       "endYear": 120,
-      "description": "Zoskales is the earliest named Aksumite ruler, described in the Periplus as 'miserly but otherwise a fine man' who was literate in Greek.",
+      "description": "Zoskales is the first Aksumite ruler we can put a name and rough date to, sketched in the Periplus as a grasping but cultured king who could read Greek.",
       "wikiSlug": "Zoskales",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "There's a real fight among historians over how big a fish Zoskales actually was. The Periplus never flatly calls him \"king of Aksum,\" so one camp argued he was just a petty lord controlling the coast around Adulis. Others counter that the realm described, stretching to inland Aksum and to a former Ptolemaic elephant-hunting station called Ptolemais of the Hunts, was far too large to run from the barren coast and had to be based up in the fertile highlands. Either way, his Greek literacy marks him as plugged into the Mediterranean world."
+        }
+      ],
+      "commonsFile": "Ethio_w3.jpg"
     },
     {
       "id": "evt-aksum-founding",
       "label": "Kingdom of Aksum emerges",
       "year": 100,
-      "description": "Aksum emerged as a powerful trading state in the Ethiopian highlands, controlling trade routes between the Red Sea and the African interior.",
+      "description": "By the first century CE, Aksum had grown from a highland town into a kingdom, funneling African ivory and other luxury goods down to the Red Sea and out into the wider world.",
       "wikiSlug": "Kingdom_of_Aksum",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Our first written glimpse of Aksum comes from the Periplus of the Erythraean Sea, an anonymous Greek trade handbook written by a merchant out of Roman Egypt around the mid-first century CE. It names the local ruler as Zoskales, calling him stingy and grasping but otherwise honorable, and notes (a detail that says a lot about how connected this place already was) that he was acquainted with Greek literature. The merchant lists the region's main exports as ivory and tortoiseshell, shipped out through the port of Adulis on the coast."
+        }
+      ],
+      "commonsFile": "KingEndybisEthiopia227-235CE.jpg"
     },
     {
       "id": "evt-aksum-adulis-port",
       "label": "Adulis becomes major port",
       "year": 100,
-      "description": "The Red Sea port of Adulis was Aksum's gateway to Mediterranean and Indian Ocean trade, handling ivory, gold, incense, and exotic animals.",
+      "description": "Adulis was Aksum's Red Sea port and its plug into the global economy, funneling ivory, gold, incense, and live animals out and Roman glass, wine, and coin back in.",
       "wikiSlug": "Adulis",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The city sprawled across roughly 100 acres on the Gulf of Zula, yet even after a German dig in 1906 and a joint Eritrean-Italian project running since 2011, only about 5 percent of it has actually been excavated. That handful of trenches has already turned up an enormous Byzantine-era basilica (probably the city's sixth-century cathedral) and Aksumite coins, hinting at how rich the place got. The deeper layers are still mostly buried sand."
+        }
+      ],
+      "commonsFile": "Byzantine_Basilica_(8527948107).jpg"
     },
     {
       "id": "evt-aksum-south-arabian-heritage",
       "label": "South Arabian cultural influence",
       "year": 100,
-      "description": "Early Aksum drew on South Arabian architectural, religious, and linguistic traditions brought by migrants across the Red Sea, blending them with indigenous African culture.",
+      "description": "Long before Aksum, the highland culture of D'mt borrowed temple styles, a script, and gods from across the Red Sea and fused them with local African roots.",
       "wikiSlug": "Kingdom_of_Aksum",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "You can still stand inside the proof of this fusion: the Great Temple of Yeha, the oldest standing structure in Ethiopia, built around 700 BCE in the South Arabian fashion (huge stone blocks fitted together so precisely they need no mortar). It was dedicated to Almaqah, a moon god imported from the Sabaean kingdom of Saba in what is now Yemen. Inscriptions found at Yeha are written in Sabaean script, which is why archaeologists call D'mt an \"Ethio-Sabaean\" culture rather than a purely homegrown or purely foreign one."
+        }
+      ],
+      "commonsFile": "ET_Tigray_asv2018-01_img32_Yeha.jpg"
     },
     {
       "id": "evt-aksum-ivory-trade",
       "label": "Aksumite ivory trade dominates",
       "year": 120,
-      "description": "Aksum became the ancient world's primary source of African ivory, with caravans bringing tusks from the interior to Adulis for export to Rome, Egypt, and India.",
+      "description": "Aksum became the ancient world's main source of African ivory, with caravans hauling tusks from deep in the interior up to the highlands and down to Adulis for shipment to Rome, Egypt, and India.",
       "wikiSlug": "Ivory_trade",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Periplus is oddly specific about the supply chain, saying the ivory was brought to Aksum \"from beyond the Nile\" through a region it calls Kyeneion before heading down to the coast. There's a neat historical accident behind the boom: the Ptolemies of Egypt had spent centuries hunting elephants here mainly to capture them alive for war, and when that Greek appetite for battle-elephants faded, it left the field clear for Aksum to corner the ivory market. African bush-elephant tusks were also simply bigger and finer-grained than Asian ones, so Roman craftsmen paid a premium."
+        }
+      ],
+      "commonsFile": "Fang_traders_with_ivory.jpg"
     },
     {
       "id": "evt-aksum-gadarat",
       "label": "King Gadarat",
       "year": 150,
       "endYear": 200,
-      "description": "Gadarat expanded Aksumite influence across the Red Sea, intervening in South Arabian politics and establishing the kingdom as a player in Himyarite affairs.",
+      "description": "Gadarat (known from inscriptions only by the consonants GDRT) was an early Aksumite king who reached across the Red Sea to meddle in the politics of South Arabia.",
       "wikiSlug": "GDRT",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He turns up around 200 CE in stone inscriptions on both sides of the sea, which is remarkable for so shadowy a figure. A Sabaean text carved at the great temple of Almaqah in Marib (in modern Yemen) records a formal alliance between Gadarat and the king of Saba, and other inscriptions show Aksum, Saba, Hadramawt, and Qataban banding together against the rising power of Himyar. On the African side, a fragment from Tigray reads \"GDR, king of Aksum\" in an early form of the Ethiopic script, anchoring him firmly at home."
+        }
+      ],
+      "commonsFile": "GDRTHornR2.png"
     },
     {
       "id": "evt-aksum-stelae-field",
       "label": "Aksumite stelae erected",
       "year": 194,
-      "description": "The Aksumites carved enormous granite stelae, some over 20 meters tall, as funerary monuments for royalty. They are among the largest monoliths ever carved.",
+      "description": "Aksum's kings raised towering carved stone pillars — stelae — over their underground tombs, some topping 70 feet (21 m). Carved to look like multi-story buildings, they're among the biggest single stones humans ever stood upright.",
       "wikiSlug": "Obelisk_of_Axum",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Around 120 stelae still dot the field, though only the largest few are the famous carved \"skyscrapers.\" The biggest standing one is King Ezana's Stela, about 69 feet (21 m) tall, the only one of the three giant royal stelae that never broke. Each is carved with a fake door at the base and rows of fake four-holed \"windows\" climbing the shaft, complete with stone door-handles and bolts that mimic real wooden hardware — a stone copy of an Aksumite tower-house, apparently meant to house the dead in a building-shaped afterlife."
+        }
+      ],
+      "commonsFile": "The_North_Stelae_Park,_Axum,_Ethiopia_(2812686646).jpg"
     },
     {
       "id": "evt-aksum-india-trade",
       "label": "Indian Ocean trade connections",
       "year": 197,
-      "description": "Aksumite merchants traded across the Indian Ocean, exchanging African goods for Indian spices, Chinese silk, and Southeast Asian aromatics.",
+      "description": "Through Adulis, Aksum tapped the booming Indian Ocean trade, swapping African goods for Indian spices, Chinese silk, and Southeast Asian aromatics.",
       "wikiSlug": "Indian_Ocean_trade",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "What made this trade explode was the discovery that the monsoon winds reverse with the seasons, letting ships run straight across open water instead of crawling along the coast. The Periplus credits a pilot named Hippalus with figuring it out (though he may be half-legend), and the southwest monsoon itself ended up nicknamed \"the Hippalus.\" The geographer Strabo claimed Roman Egypt was sending around 120 ships a year to India on this annual cycle, with pepper in such demand that Pliny the Elder grumbled Rome was bleeding gold eastward to pay for it."
+        }
+      ],
+      "commonsFile": "Roman_Coins_found_in_Matara_in_2-3rd_century.png"
     },
     {
       "id": "evt-aksum-geez-script",
       "label": "Ge'ez script develops",
       "year": 200,
-      "description": "The Ge'ez script evolved from the South Arabian alphabet into a unique syllabary still used in Ethiopia and Eritrea today, one of Africa's oldest writing systems.",
+      "description": "Aksumite scribes reworked the consonant-only South Arabian alphabet into Ge'ez, attaching small vowel marks to each letter. The script survives today in Ethiopia and Eritrea, one of the world's longest-running writing systems.",
       "wikiSlug": "Ge%27ez_script",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Technically Ge'ez is an abugida, not a true syllabary — each base letter carries a built-in \"ah\" vowel, and you tweak the letter's shape to swap in the other six vowels. The fully vowel-marked version shows up in King Ezana's 4th-century inscriptions, though a single vocalized letter turns up a bit earlier on a coin of his predecessor Wazeba. The script also flipped direction over time: the old vowelless version was written right-to-left like Arabic, but Ge'ez settled into left-to-right."
+        }
+      ],
+      "commonsFile": "Ethiopic_genesis_(ch._29,_v._11-16),_15th_century_(The_S.S._Teacher's_Edition-The_Holy_Bible_-_Plate_XII,_1).jpg"
     },
     {
       "id": "evt-aksum-incense-trade",
       "label": "Frankincense and myrrh trade",
       "year": 203,
-      "description": "Aksum profited enormously from the trade in frankincense and myrrh from the Horn of Africa, prized across the ancient world for religious rituals and medicine.",
+      "description": "Aksum grew fat on the trade in frankincense and myrrh, the aromatic tree resins from the Horn of Africa that the ancient world burned, wore, and embalmed its dead with.",
       "wikiSlug": "Incense_trade_route",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Both come from gnarled desert trees, frankincense from cuts in the Boswellia and myrrh from the Commiphora, harvested as hardened \"tears\" of dried sap. The trade was staggeringly old: Egypt's Queen Hatshepsut sent a famous naval expedition to the incense land of Punt around 1470 BCE and had the journey carved onto her temple walls at Deir el-Bahari, showing live incense trees being carried home in baskets, more than a thousand years before Aksum existed. Aksum essentially inherited that ancient supply network and taxed the flow."
+        }
+      ],
+      "commonsFile": "Mer_rouge1b.jpg"
     },
     {
       "id": "evt-aksum-wa-za-eba",
@@ -175,93 +252,154 @@
       "id": "evt-aksum-stone-quarrying",
       "label": "Granite quarrying techniques",
       "year": 220,
-      "description": "Aksumite engineers developed advanced granite quarrying methods at Gobedra Hill near Aksum, cutting monoliths weighing hundreds of tons and transporting them miles to the stelae field.",
+      "description": "Aksumite quarrymen split house-sized blocks of stone from Gobedra Hill, a few miles west of the city, and hauled them to the stelae field. The technique relied on water-swollen wooden wedges to crack the rock along a planned line.",
       "wikiSlug": "Kingdom_of_Aksum",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stone is technically nepheline syenite (a coarse, granite-like igneous rock), not true granite. Quarry workers chiseled rows of small slots — the surviving sockets run about 6 to 9 inches long — packed them with wood, then soaked the wood so it swelled and popped the block free. You can still see the evidence at Gobedra: half-finished stelae abandoned mid-extraction, plus a roughly 10-foot lioness carved into one giant boulder, the so-called Lioness of Gobedra."
+        }
+      ],
+      "commonsFile": "Axumite_Architectural_Fragments_(2823506028).jpg"
     },
     {
       "id": "evt-aksum-monumentum-adulitanum",
       "label": "Monumentum Adulitanum",
       "year": 230,
-      "description": "An unnamed Aksumite king erected an inscription at Adulis recording military campaigns against peoples across the Horn of Africa and southern Arabia, copied by the merchant Cosmas Indicopleustes centuries later.",
+      "description": "The Monumentum Adulitanum was a Greek inscription at Adulis in which an unnamed Aksumite king boasted of conquests across the Horn of Africa and into Arabia, preserved only because a passing traveler copied it down centuries later.",
       "wikiSlug": "Monumentum_Adulitanum",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was actually a tangle of two separate monuments standing close together: an older stela left by the Egyptian pharaoh Ptolemy III (who ruled 246-221 BCE) and, on a nearby marble throne, the much later Aksumite text. When the sixth-century monk and merchant Cosmas Indicopleustes visited and copied them out (early in Emperor Justin's reign, around 518-525 CE), he assumed the Aksumite throne-inscription was just the continuation of the Ptolemaic one and ran them together, a mix-up scholars only untangled much later. The stones themselves are long lost; Cosmas's copy is all we have."
+        }
+      ]
     },
     {
       "id": "evt-aksum-sembrouthes",
       "label": "King Sembrouthes",
       "year": 250,
-      "description": "Sembrouthes was the first Aksumite ruler to style himself 'King of Kings,' signaling Aksum's imperial ambitions and its dominance over neighboring vassal kingdoms.",
+      "description": "Sembrouthes was the first Aksumite ruler known to crown himself \"King of Kings,\" a borrowed Persian title announcing that Aksum now saw itself as an empire ruling over lesser kings.",
       "wikiSlug": "Sembrouthes",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Everything we know about him comes from a single Greek inscription found at Daqqi Mahari (modern Dekemhare in Eritrea), which he dated to his own 24th regnal year, meaning he held the throne at least that long. The stone reads, in effect, \"King of Kings of Aksum, great Sembrouthes came and dedicated this in year 24.\" His date is genuinely uncertain: the usual placement is around 250 CE, but at least one scholar shoves him a full century later into the 300s and even wonders whether he was another king under a different name."
+        }
+      ]
     },
     {
       "id": "evt-aksum-endubis",
       "label": "King Endubis",
       "year": 270,
       "endYear": 300,
-      "description": "Endubis was the first Aksumite king known to mint coins, which bore his image and the pagan disc-and-crescent symbol before Aksum's conversion to Christianity.",
+      "description": "Endubis, ruling around 270–300 CE, was the first Aksumite king known to mint coins. His gold and silver issues carried his portrait and the pagan disc-and-crescent, years before Aksum became Christian.",
       "wikiSlug": "Endubis",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His coins are oddly self-regarding: Endubis put his own bust on both sides, framed each time by two stalks of wheat or barley, his head wrapped in a fringed headcloth. He styled himself in Greek as \"king of the Aksumites\" — but pointedly did not yet call himself king of kings, the grander title later Aksumite rulers would claim. The disc-and-crescent floating above his head likely nodded to a pre-Christian sun or moon god."
+        }
+      ],
+      "commonsFile": "Endubis.jpg"
     },
     {
       "id": "evt-aksum-coinage",
       "label": "Aksumite coinage begins",
       "year": 270,
-      "description": "Aksum became the first sub-Saharan African state to mint its own coins in gold, silver, and bronze, facilitating international trade and projecting royal authority.",
+      "description": "Aksum began striking its own gold, silver, and bronze coins — the first state in sub-Saharan Africa to do so. The coins ran for over three centuries and were tuned to trade alongside Roman money.",
       "wikiSlug": "Aksumite_currency",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aksumite gold was deliberately calibrated to the Roman system — each gold coin weighed about half a Roman aureus, so it slotted straight into Red Sea trade. The reverse often carried a motto in Greek or Ge'ez that translates roughly as \"may this please the country,\" an unusually personal touch for ancient coinage. And tiny as they were, Aksumite coins were a global first in one respect: after the kingdom turned Christian, they became the earliest coins anywhere to carry the Christian cross — beating Rome to it."
+        }
+      ],
+      "commonsFile": "AXUM._Ezanas._Circa_330-360.jpg"
     },
     {
       "id": "evt-aksum-mani-four-empires",
       "label": "Mani names Aksum a world power",
       "year": 270,
-      "description": "The Persian prophet Mani listed Aksum alongside Rome, Persia, and China as one of the four great empires of the world.",
+      "description": "Around 270 CE the Persian prophet Mani ranked Aksum among the world's four great kingdoms, putting an African power on equal footing with Rome, Persia, and China.",
       "wikiSlug": "Mani_(prophet)",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mani's actual words survive in his teachings, the Kephalaia: \"The first is the kingdom of Babylon and Persia, the second is the kingdom of the Romans, the third is the kingdom of the Aksumites, the fourth is the kingdom of Silis (China); there is none that surpasses them.\" Mani died around 277 CE, so this was a near-contemporary verdict, not a later legend. And he wasn't flattering an obscure place: right about this time the Aksumite king Endubis began striking gold coins, making Aksum one of the very few ancient states (and the only one in Africa south of the Sahara) to mint its own gold."
+        }
+      ],
+      "commonsFile": "Seal_of_Mani_(cleaned_up)._Seal_with_figure_of_Mani,_possibly_3rd_century_CE,_possibly_Irak._Cabinet_des_Médailles,_Paris.jpg"
     },
     {
       "id": "evt-aksum-aphilas",
       "label": "King Aphilas",
       "year": 300,
       "endYear": 320,
-      "description": "Aphilas issued elaborately designed coins with multiple crown styles, reflecting Aksum's wealth and the growing sophistication of its royal court.",
+      "description": "Aphilas, ruling roughly 300–320 CE, issued unusually fancy coins showing himself in several different crowns and headdresses, a sign of a rich, image-conscious court.",
       "wikiSlug": "Aphilas",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aphilas was also a monetary tinkerer: he set a new, lighter silver standard that Aksum stuck with for the rest of its coining history. Some of his silver coins were dressed up with gold inlay laid into the royal portrait — a fiddly, expensive flourish that made cheaper metal look richer. He even experimented with showing himself full-face rather than in profile, a rare pose for the era."
+        }
+      ],
+      "commonsFile": "Aphilas.jpg"
     },
     {
       "id": "evt-aksum-great-stela",
       "label": "Great Stela falls",
       "year": 295.5,
-      "description": "The largest Aksumite stela, standing 33 meters and weighing 520 tons, collapsed during or shortly after its erection. It remains the largest single stone humans ever attempted to raise.",
+      "description": "The biggest stela of all — 108 feet (33 m), about 520 tons — toppled while it was being raised, probably in the 4th century. It still lies broken in three pieces, the most ambitious single stone anyone ever tried to stand up.",
       "wikiSlug": "Obelisk_of_Axum",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was carved to represent a thirteen-story building, and unlike every other stela it was decorated on all four sides, not just the front. It came down onto the Nefas Mawcha tomb beneath it, smashing the tomb's enormous slab roof — local legend later blamed the Devil for dropping the slab when the Ark of the Covenant arrived in Aksum. Some scholars suspect the catastrophe may have helped sour Aksumites on their old gods and nudged the kingdom toward Christianity a few decades later."
+        }
+      ],
+      "commonsFile": "Obelisk_of_Aksum_Remains.jpg"
     },
     {
       "id": "evt-aksum-rome-trade",
       "label": "Aksum-Rome trade flourishes",
       "year": 298.5,
-      "description": "Aksum traded ivory, gold, emeralds, and incense with the Roman Empire, receiving wine, olive oil, and manufactured goods. Roman coins circulated widely in the kingdom.",
+      "description": "Rome was Aksum's biggest customer, taking ivory, gold, gems, and incense in exchange for wine, oil, and manufactured goods, and Roman coins circulated so freely that diggers still turn them up around Aksum.",
       "wikiSlug": "Kingdom_of_Aksum",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The richest single proof of this money trail is the al-Madhariba hoard, a buried stash of 1,194 gold coins found near Aden in Yemen in the 1980s, mixing 868 Aksumite pieces with 326 Roman ones. The Roman solidi span the emperors from Constantius II in the 320s to Theodosius II in the early 400s, while the Aksumite coins run from King Ezana down to King Kaleb, showing the two currencies sat side by side in the same purses. It remains the largest single find of Aksumite gold coins ever recovered."
+        }
+      ],
+      "commonsFile": "Aqaba_amphora_from_Zafar,_Yemen.jpg"
     },
     {
       "id": "evt-aksum-terracing",
@@ -297,127 +435,202 @@
       "id": "evt-aksum-tomb-brick-arches",
       "label": "Aksumite tomb engineering",
       "year": 320,
-      "description": "Royal tombs at Aksum featured underground multi-chambered stone structures with precisely fitted granite blocks and corbelled arches, some extending over 15 meters in length.",
+      "description": "Beneath the stelae field, Aksum's kings were buried in elaborate multi-room underground tombs of fitted stone, some with brick arches and stone doorways carved like the stelae above.",
       "wikiSlug": "Kingdom_of_Aksum",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The best-preserved one, the Tomb of the Brick Arches (late 3rd century), is named for its horseshoe-shaped brick arches set in lime mortar — a flourish nothing above ground prepares you for. The nearby \"Mausoleum\" is entered through a doorway cut from a single slab of stone and carved with the same fake-door motif as the stelae, opening onto a passage lined with ten chambers covering some 2,600 square feet. The standing water that now floods parts of these tombs in even the dry season has kept much of the complex sealed off from visitors."
+        }
+      ],
+      "commonsFile": "Obelisk_of_Aksum_Remains5.jpg"
     },
     {
       "id": "evt-aksum-ezana",
       "label": "King Ezana",
       "year": 325,
       "endYear": 360,
-      "description": "Ezana was the most powerful Aksumite king, expanding the empire and converting to Christianity. His inscriptions record military victories in Geez, Greek, and Sabaean.",
+      "description": "Aksum's most consequential king — a child when he inherited the throne who grew up to convert his kingdom to Christianity, smash its oldest rival on the Nile, and carve his victories into stone in three languages.",
       "wikiSlug": "Ezana_of_Axum",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We can practically watch Ezana grow up on his money: the coins shift from pagan disc-and-crescent to the cross mid-reign. His war inscriptions brag in hard numbers, claiming one Nile campaign killed around 700 enemies and hauled off more than 60,000 head of cattle and other animals. The Ethiopian Orthodox Church later canonized him as a saint, an unusual fate for a conqueror who flooded his neighbors and burned their towns."
+        }
+      ],
+      "commonsFile": "Ezana_Stone,_Aksum_(6183743976).jpg"
     },
     {
       "id": "evt-aksum-christianity",
       "label": "Aksum adopts Christianity",
       "year": 330,
-      "description": "King Ezana converted to Christianity, making Aksum one of the first states in the world to adopt the faith as its official religion, predating the Roman Empire.",
+      "description": "Around 330 CE Ezana made Christianity Aksum's official religion, putting his kingdom in the tiny first wave of Christian states — years before the Roman Empire would make the same leap.",
       "wikiSlug": "Christianity_in_Ethiopia",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aksum's timing beat Rome handily: Rome only made Christianity its official state religion under Theodosius I in 380 CE, a full half-century later. Armenia (around 301 CE) and the kingdom of Georgia (the 320s or 330s) were Aksum's only real peers in this club. Meanwhile in Persia, the Sasanians were doing the opposite — persecuting Christians as suspected Roman spies — which shows just how loaded a political choice conversion was at the time."
+        }
+      ],
+      "commonsFile": "ET_Axum_asv2018-01_img03_Abba_Pentalewon.jpg"
     },
     {
       "id": "evt-aksum-frumentius",
       "label": "Frumentius, first Bishop of Aksum",
       "year": 330,
-      "description": "Frumentius, a shipwrecked Syrian, became Ezana's advisor and was consecrated the first Bishop of Aksum by Athanasius of Alexandria, establishing the Ethiopian church's link to Coptic Christianity.",
+      "description": "A boy shipwrecked off the Red Sea coast who climbed from royal slave to king's treasurer, then sailed to Egypt for a bishop and got handed the job himself — becoming Aksum's first.",
       "wikiSlug": "Frumentius",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ethiopians still know Frumentius by a warmer name: Abba Salama, \"Father of Peace.\" The patriarch Athanasius consecrated him around 328 CE (some put it a decade or two later), and the move was clever politics as much as faith — it tied the new church permanently to Alexandria. The arrangement stuck for over 1,600 years: every head of the Ethiopian church was an Egyptian-appointed bishop until 1959, when Ethiopia finally got to name its own."
+        }
+      ],
+      "commonsFile": "St_Frumentius.jpg"
     },
     {
       "id": "evt-aksum-cross-on-coins",
       "label": "Cross replaces disc-and-crescent on coins",
       "year": 335,
-      "description": "After Ezana's conversion, Aksumite coins replaced the pagan disc-and-crescent symbol with the Christian cross — the first coinage in world history to bear the cross.",
+      "description": "When Ezana converted, his mints swapped the old pagan sun-and-moon for a Christian cross — making Aksumite coinage the first money anywhere in the world to carry the cross.",
       "wikiSlug": "Aksumite_currency",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This put Aksum ahead of Rome on the cross by decades; Roman coins wouldn't feature it as a religious symbol until later. Aksum was one of only a handful of ancient powers minting its own coins at all — alongside Rome, Persia, and a few others — and it tailored them to the audience: gold pieces carried Greek lettering for foreign traders, while the silver and copper used Ge'ez, the local script, for people at home."
+        }
+      ],
+      "commonsFile": "Gersem.jpg"
     },
     {
       "id": "evt-aksum-cathedral",
       "label": "Church of Our Lady Mary of Zion",
       "year": 340,
-      "description": "Aksum's first cathedral was built under Ezana and traditionally believed to house the Ark of the Covenant. It remains the holiest site in Ethiopian Christianity.",
+      "description": "Ethiopia's first cathedral, raised under Ezana and rebuilt many times since. Tradition says it guards the Ark of the Covenant — the chest the Hebrew Bible says held the Ten Commandments tablets.",
       "wikiSlug": "Church_of_Our_Lady_Mary_of_Zion",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Exactly one person is allowed to lay eyes on the supposed Ark: a single guardian monk, chosen for life and forbidden to leave the chapel grounds, who picks his own successor before he dies. Ethiopian tradition holds the Ark was carried here by Menelik I, said to be the son of King Solomon and the Queen of Sheba. The site has kept growing — Emperor Haile Selassie added a large new cathedral in the 1950s, and his wife Empress Menen funded the separate chapel built to house the relic."
+        }
+      ],
+      "commonsFile": "ET_Axum_asv2018-01_img31_StMary_of_Zion_Church.jpg"
     },
     {
       "id": "evt-aksum-beja-campaigns",
       "label": "Ezana's campaigns against the Beja",
       "year": 340,
-      "description": "Ezana launched military campaigns against the Beja people in the northern lowlands, securing Aksum's control over trade routes between the Nile Valley and the Red Sea coast.",
+      "description": "King Ezana sent his forces against the Beja, the raiding nomads of the lowlands between the Nile and the Red Sea, to stop their attacks from strangling Aksum's trade routes.",
       "wikiSlug": "Ezana_of_Axum",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ezana's own victory inscription is unusually precise and unusually merciful about the aftermath. It records that six Beja tributary kings were brought in along with about 4,400 of their people, plus thousands of cattle and sheep, and rather than enslaving them Ezana resettled the whole population in a fertile district called Matlia and handed out grain, cattle, and even beer and wine to feed them. He sent his younger brothers Shaiazana and Hadefan to run the campaign. The text survives in three languages at once, Ge'ez, Sabaean, and Greek, carved on a stele that still stands at Aksum."
+        }
+      ]
     },
     {
       "id": "evt-aksum-conquest-meroe",
       "label": "Ezana conquers Meroe",
       "year": 350,
-      "description": "Ezana's armies destroyed the Kingdom of Kush at Meroe, ending a civilization that had lasted over a thousand years and extending Aksumite power into the Nile Valley.",
+      "description": "Around 350 CE Ezana's army marched on the Nile and finished off the Kingdom of Kush at Meroe — a power already centuries past its prime, its trade siphoned away by Aksum itself.",
       "wikiSlug": "Ezana_of_Axum",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aksum didn't stay to rule the conquered land; the occupation was probably brief. But the blow helped shatter Kush into three smaller successor kingdoms — Nobatia, Makuria, and Alodia — that would carry Nubia into its own Christian era. Ezana's inscription names his targets as the \"Noba\" and the \"Kasu,\" and credits his win to a single God rather than the old pagan war-gods, one of the tells that this campaign came after his conversion."
+        }
+      ]
     },
     {
       "id": "evt-aksum-ezana-stone",
       "label": "Ezana Stone inscribed",
       "year": 350,
-      "description": "The Ezana Stone records Ezana's military victories in Geez, Greek, and Sabaean, comparable to the Rosetta Stone in its trilingual importance for understanding Aksumite history.",
+      "description": "Ezana's stone victory monument, cut in three scripts at once — Ge'ez, Greek, and South Arabian Sabaean — which is why historians compare it to the Rosetta Stone for decoding Aksum.",
       "wikiSlug": "Ezana_Stone",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The granite slab stands about 8 feet (2.4 meters) tall and still sits in Axum where it was raised. There's a twist in its \"trilingual\" billing: one of the three is pseudo-Sabaean, meaning Ge'ez language written out in the borrowed South Arabian alphabet rather than a truly separate tongue. The text logs sacked towns, captured cattle, and prisoners, the same triumphal bookkeeping found across Ezana's inscriptions."
+        }
+      ],
+      "commonsFile": "Aksum,_iscrizione_di_re_ezana,_in_greco,_sabeo_e_ge'ez,_330-350_dc_ca._10.jpg"
     },
     {
       "id": "evt-aksum-ella-amida",
       "label": "Ella Amida (Ousanas)",
       "year": 310,
       "endYear": 325,
-      "description": "Ella Amida, likely Ezana's father, hosted the young Frumentius at court and presided over Aksum at the height of its pre-Christian power and territorial expansion.",
+      "description": "Ezana's father and the king who took in the two shipwrecked boys, raising Frumentius into a court treasurer. His pagan coins, stamped with sun and moon, mark the kingdom's last fully pre-Christian generation.",
       "wikiSlug": "Ousanas",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ella Amida went by the Greek name Ousanas on his coinage, and those coins carried a disc-and-crescent that wasn't just decoration — it stood for the sun-goddess Shams and the moon-god Sin, deities Aksum had inherited from across the Red Sea in South Arabia. When he died he left his young son under a regent: Ezana's mother, remembered in tradition as Queen Sofya, who ran the kingdom until the boy came of age."
+        }
+      ],
+      "commonsFile": "Ousanas.jpg"
     },
     {
       "id": "evt-aksum-athanasius-letter",
       "label": "Athanasius writes to Aksumite kings",
       "year": 356,
-      "description": "The Patriarch Athanasius of Alexandria wrote to the Aksumite kings Ezana and Saizana urging them to reject the Arian bishop Theophilus, revealing Aksum's integration into early Christian theological disputes.",
+      "description": "Around 356 CE the powerful Alexandrian patriarch Athanasius wrote directly to the Aksumite kings, pressing them to refuse an Arian bishop Rome was trying to install — proof Aksum was a player in Christianity's biggest fight.",
       "wikiSlug": "Athanasius_of_Alexandria",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The bishop in question, Theophilus, was the candidate of the Roman emperor Constantius II, who backed the Arian side (the camp that held Christ was a created, lesser being than God the Father). By appealing to Ezana and his brother Saizana to send the man packing, Athanasius treated Aksum not as a far-off mission field but as a partner whose vote mattered. The kingdom sided with the Nicene position that eventually became mainstream orthodoxy, a choice that would echo into the next century's church splits."
+        }
+      ],
+      "commonsFile": "Fethiye_Camii,_parekklesion,_diakonikon,_mosaics,_Istanbul,_Turkey_-_South_wall,_St._Athanasius,_detail_of_upper_half_-_MSBZ004_BF_T_F_027_B_-_Dumbarton_Oaks.jpg"
     },
     {
       "id": "evt-aksum-glass-imports",
@@ -483,198 +696,318 @@
       "id": "evt-aksum-miaphysitism",
       "label": "Aksumite church adopts Miaphysitism",
       "year": 451,
-      "description": "After the Council of Chalcedon, the Aksumite church followed Alexandria in rejecting Chalcedonian Christology, adopting the Miaphysite position that Christ has one united divine-human nature.",
+      "description": "After the Council of Chalcedon in 451 CE split the Christian world over the nature of Christ, the Aksumite church sided with Alexandria and the Miaphysite position — that Christ's divine and human natures are fused into one — permanently breaking with Rome and Constantinople.",
       "wikiSlug": "Miaphysitism",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ethiopia did not split off alone. The churches that rejected Chalcedon still form a family called Oriental Orthodoxy — today six churches in full communion with each other: the Coptic (Egyptian), Syriac, Armenian, Indian Malankara, Eritrean, and Ethiopian. Their critics long mislabeled them \"Monophysite\" (Christ has only a divine nature), a charge they have always rejected as a different and genuinely heretical idea. The schism was sealed fast: the eastern patriarchs were excommunicated by Rome and Constantinople in the same year the council met."
+        }
+      ]
     },
     {
       "id": "evt-aksum-nine-saints",
       "label": "Nine Saints arrive",
       "year": 480,
-      "description": "Nine monks, possibly fleeing Byzantine persecution, established monasteries across Ethiopia, translating scripture into Ge'ez and spreading Christianity to the rural population.",
+      "description": "A band of monks from the eastern Roman Empire arrived in Aksum around 480 CE and fanned out across the highlands, founding monasteries and turning Christianity from a court religion into a faith of villages and farms.",
       "wikiSlug": "Nine_Saints",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ethiopian tradition gives each saint his own corner of the country: Abba Garima is said to have founded his monastery in 494 CE, about 13 miles (21 km) east of the town of Adwa, while Abba Aregawi took the cliff-top of Debre Damo. Several of them are still local pilgrimage sites today, doubling as repositories of ancient relics and manuscripts. The traditional reason they fled west is the doctrinal purges that followed the Council of Chalcedon in 451 CE, which made the staunchly anti-Chalcedonian church of Aksum a natural refuge."
+        }
+      ],
+      "commonsFile": "Nine_Saints.jpg"
     },
     {
       "id": "evt-aksum-debre-damo",
       "label": "Debre Damo monastery founded",
       "year": 490,
-      "description": "Abba Aregawi, one of the Nine Saints, founded Debre Damo monastery atop a flat-topped mountain accessible only by rope, making it one of Ethiopia's oldest and most inaccessible monasteries.",
+      "description": "Abba Aregawi founded Debre Damo on a flat-topped mountain reachable only by a leather rope hauled up a sheer cliff — no path, no stairs — and monks have been climbing that rope to reach it ever since.",
       "wikiSlug": "Debre_Damo",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cliff visitors scale is about 49 feet (15 m) of vertical rock, and the monastery sits at roughly 7,270 feet (2,216 m) above sea level. By tradition only men may climb up; women are kept off the mountain entirely. Legend smooths over the impossible ascent by saying God sent a giant serpent to lift Aregawi to the summit, where he founded the monastery on a spot once used for serpent-worship."
+        }
+      ],
+      "commonsFile": "ET_Tigray_asv2018-01_img14_Debre_Damo_Monastery.jpg"
     },
     {
       "id": "evt-aksum-bible-translation",
       "label": "Bible translated into Ge'ez",
       "year": 500,
-      "description": "The complete Bible was translated into Ge'ez, making Ethiopia one of the first regions to have scripture in a local language. The Ethiopian biblical canon includes several unique books.",
+      "description": "By around 500 CE the whole Bible existed in Ge'ez, making Ethiopia one of the earliest places on Earth with scripture in its own language — and its canon kept books almost every other church threw out.",
       "wikiSlug": "Ge%27ez_language",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Ge'ez Bible was rendered mainly from the Greek Septuagint, the translation of the Hebrew scriptures made in Alexandria centuries before Christ. Ethiopia's full canon runs to 81 books and keeps texts the rest of the Christian world dropped, including the Book of Enoch, the Book of Jubilees, and the Ethiopia-only books of Meqabyan. The complete Ge'ez Book of Enoch was a mystery to Europe until the Scottish traveler James Bruce carried three manuscripts of it home in 1773; before that, Western scholars had only scattered quotations."
+        }
+      ]
     },
     {
       "id": "evt-aksum-monasteries",
       "label": "Ethiopian monastic tradition",
       "year": 500,
-      "description": "Monasteries became centers of learning, manuscript production, and agriculture across the Ethiopian highlands, preserving classical texts lost elsewhere.",
+      "description": "The monasteries founded in this period became the highlands' great centers of learning and book-copying, preserving the faith, the Ge'ez language, and texts that vanished everywhere else.",
       "wikiSlug": "Ethiopian_Orthodox_Tewahedo_Church",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Monks deliberately sought out the hardest places to reach — flat-topped mesas called ambas, caves, and forests — treating isolation itself as a spiritual discipline, much as the desert hermits of Egypt and the cave-monks of Cappadocia (in modern Turkey) had. The trade-off paid off in survival: when Aksum's trade routes collapsed and the kingdom itself shrank, the monasteries kept going, carrying Ethiopian Christianity through roughly a thousand years of relative isolation. They are still working repositories, holding ancient manuscripts, relics, and artwork that scholars rely on to reconstruct the Aksumite past."
+        }
+      ]
     },
     {
       "id": "evt-aksum-palace",
       "label": "Dungur Palace built",
       "year": 500,
-      "description": "The Dungur palace complex in Aksum, known as the 'Queen of Sheba's Palace,' showcases Aksumite elite architecture with its multi-story stone construction.",
+      "description": "A sprawling stone mansion at Aksum nicknamed the \"Queen of Sheba's Palace\" — a romantic label, since it actually dates to roughly the 6th or 7th century CE, long after any Sheba.",
       "wikiSlug": "Dungur",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The site was dug up in 1966-1968 by the French archaeologist Francis Anfray, who read it not as a royal palace but as the château of a wealthy noble. The ruins are big regardless: the complex sprawls across about 3,250 square meters (roughly 35,000 square feet) with around 50 rooms, a flagstone floor thought to be a throne room, a private bath, a kitchen with a brick oven, and stairwells hinting at an upper story. It sits across the road from the so-called Gudit stelae field — a fitting neighbor to the queen on the previous card."
+        }
+      ],
+      "commonsFile": "ET_Axum_asv2018-01_img48_Dungur.jpg"
     },
     {
       "id": "evt-aksum-cosmas",
       "label": "Cosmas Indicopleustes visits Adulis",
       "year": 525,
-      "description": "The Byzantine merchant-monk Cosmas Indicopleustes visited Adulis and recorded Aksumite trade, monuments, and Kaleb's preparations for the Yemen campaign, providing the most detailed outsider account of the kingdom.",
+      "description": "The Alexandrian merchant-monk who happened to be at Aksum's port of Adulis as Kaleb prepped his invasion, and wrote the richest surviving eyewitness description of the kingdom.",
       "wikiSlug": "Cosmas_Indicopleustes",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His book, the Christian Topography, was written around 550 CE and is best known today for arguing — at length — that the universe is shaped like a box, with the flat earth as its floor and the heavens as a vaulted lid. The one inscription he copied at Adulis, the Monumentum Adulitanum, survives only because he transcribed it; the stone itself later vanished. He even got the inscription's history wrong, mistaking it for a record of the Greek pharaoh Ptolemy III's conquests when it actually combined that with a later Aksumite king's victories."
+        }
+      ],
+      "commonsFile": "Cosmas_Indicopleustes_-_Topographia_Christiana_1.jpg"
     },
     {
       "id": "evt-aksum-kaleb",
       "label": "King Kaleb",
       "year": 514,
       "endYear": 543,
-      "description": "Kaleb led a military expedition across the Red Sea to conquer the Himyarite Kingdom in Yemen, avenging the persecution of Christians and extending Aksumite power into Arabia.",
+      "description": "The Aksumite king who answered the Najran massacre by shipping an army across the Red Sea to crush Jewish-ruled Himyar in Yemen, the most ambitious campaign the kingdom ever launched.",
       "wikiSlug": "Kaleb_of_Axum",
       "tier": 2,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His full throne name was Ella Atsbeha (Greek sources call him Elesbaan or Hellestheaios), and he ended up venerated as a saint in both the Eastern Orthodox and Roman Catholic churches, with a feast day on October 24 — the 16th-century cardinal Caesar Baronius added him to the Catholic Roman Martyrology even though Kaleb belonged to the Miaphysite branch of Christianity that Rome considered heretical. He is one of very few sub-Saharan African kings of his era whose name survives in Greek, Syriac, Arabic, and Ethiopian sources all at once."
+        }
+      ],
+      "commonsFile": "Kaleb.jpg"
     },
     {
       "id": "evt-aksum-dhu-nuwas",
       "label": "Massacre at Najran",
       "year": 523,
-      "description": "The Himyarite Jewish king Dhu Nuwas massacred Christians at Najran in Yemen, prompting Aksumite military intervention to protect coreligionists across the Red Sea.",
+      "description": "The 523 CE killing of the Christian community at the oasis town of Najran by the Jewish Himyarite king Dhu Nuwas, the atrocity that gave Aksum its reason to invade.",
       "wikiSlug": "Dhu_Nuwas",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Inscriptions show his real name was Yusuf As'ar Yath'ar; \"Dhu Nuwas\" is a nickname meaning roughly \"he of the sidelocks,\" supposedly because he grew the long side-curls associated with Jewish observance. The story that he rode his horse into the Red Sea to drown rather than be captured comes from the early Muslim biographer Ibn Ishaq, written generations later. Oddly, archaeologists reported unearthing a tomb said to be his in 1931 at Ghayman, southeast of Sanaa, which would undercut the death-at-sea legend."
+        }
+      ],
+      "commonsFile": "Inscription_of_Himyarite_king_Dhu_Nuwas_at_Hima_Cultural_Area,_near_Najran,_Saudi_Arabia,_earl;y_6th_century_(3).jpg"
     },
     {
       "id": "evt-aksum-yemen-conquest",
       "label": "Aksumite conquest of Yemen",
       "year": 525,
-      "description": "Kaleb's forces crossed the Red Sea and conquered the Himyarite Kingdom after its Jewish king Dhu Nuwas massacred Christians at Najran.",
+      "description": "Kaleb's fleet crossed the Red Sea in 525 CE, smashed Dhu Nuwas's army, and put the Himyarite Kingdom of southern Arabia under Aksumite control — an African power conquering territory in Asia.",
       "wikiSlug": "Himyar",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Himyar had been the heavyweight of Yemen for centuries, having swallowed the older kingdoms of Saba (the biblical Sheba) and Hadramawt to unify nearly all of the south. This was not Aksum's first time meddling there: Aksumite kings had intervened across the strait before, and an Aksumite garrison and Christian presence already existed in Yemen, which is partly why a friendly viceroy could be slotted in so quickly. The campaign is sometimes described by modern writers as one of history's first overseas holy wars."
+        }
+      ],
+      "commonsFile": "MapHymiariteKingdom.jpg"
     },
     {
       "id": "evt-aksum-sumyafa-ashwa",
       "label": "Sumyafa Ashwa, Aksumite viceroy of Yemen",
       "year": 525,
       "endYear": 535,
-      "description": "After Kaleb's conquest, Sumyafa Ashwa was installed as the Aksumite-backed Christian viceroy of Himyar, governing Yemen as a client state of the Aksumite Empire.",
+      "description": "The native Himyarite Christian whom Kaleb left on the throne of Yemen as his puppet king after the conquest — Aksum's man in Arabia, until his own occupying army turned on him.",
       "wikiSlug": "Sumyafa_Ashwa",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Greek and Syriac writers called him Esimiphaios, and he came from the powerful local Dhu Yazan clan rather than being an Aksumite import, which was meant to make Aksumite rule palatable to the locals. While he reigned he hosted embassies from the Byzantine emperor Justinian and left an inscription marking the rebuilding of a fortified site on the Yemeni coast. Around 535 CE the general Abraha deposed him and reportedly shut him away in a mountain fortress, and Kaleb's two attempts to put him back both failed."
+        }
+      ]
     },
     {
       "id": "evt-aksum-abraha",
       "label": "Abraha seizes Yemen",
       "year": 535,
       "endYear": 570,
-      "description": "Abraha, an Aksumite general, overthrew the Aksumite-appointed governor and ruled Yemen independently while nominally acknowledging Aksumite sovereignty. He built the Cathedral of Sanaa and reportedly marched on Mecca.",
+      "description": "The Aksumite officer who mutinied around 535 CE, grabbed Yemen for himself, and ran it as his own kingdom — the general his king could never bring to heel.",
       "wikiSlug": "Abraha",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His great church at Sanaa was called al-Qalis, a name borrowed from the Greek word ekklesia (church), and Arab tradition says an offended tribesman from the Kinana once sneaked in and defecated inside it, which supposedly triggered Abraha's revenge march on Mecca. That campaign — the famous \"Year of the Elephant\" — was led by a war elephant named Mahmud that legend says simply refused to advance on the Kaaba. The army was then destroyed, an event the Quran's Surah 105 attributes to flocks of birds dropping stones of baked clay."
+        }
+      ],
+      "commonsFile": "Balami_-_Tarikhnama_-_The_miraculous_rescue_of_the_Ka'ba_from_Abraha's_attack_(cropped).jpg"
     },
     {
       "id": "evt-aksum-kaleb-abdication",
       "label": "Kaleb abdicates to monastery",
       "year": 540,
-      "description": "King Kaleb reportedly abdicated the throne and retired to a monastery, sending his crown to the Church of the Holy Sepulchre in Jerusalem as an act of Christian devotion.",
+      "description": "Ethiopian tradition holds that the great conqueror, unable to win Yemen back from his rebel general, gave up the crown, became a monk, and sent his royal diadem to Jerusalem.",
       "wikiSlug": "Kaleb_of_Axum",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The crown was supposedly dispatched to the Church of the Holy Sepulchre, the Jerusalem shrine built over the traditional site of Jesus's tomb and resurrection — a striking gesture of submission from a king who had just commanded the most powerful state in the region. A ruined hilltop structure near the city of Aksum is still pointed to locally as the tombs of Kaleb and his son. The arc from world-conquering warrior to penitent recluse made him a natural saint in Ethiopian and Eastern Christian memory."
+        }
+      ],
+      "commonsFile": "The_Tomb_of_St._Elesbaan_of_Axum_(2836160935).jpg"
     },
     {
       "id": "evt-aksum-wa-za-eb-gebeaz",
       "label": "King Gebre Meskel",
       "year": 543,
       "endYear": 568,
-      "description": "Kaleb's son Gebre Meskel continued Aksumite efforts to maintain influence in Arabia, though Abraha's de facto independence in Yemen marked the beginning of Aksum's loss of its overseas territories.",
+      "description": "Kaleb's son and heir, who inherited a kingdom already losing its grip on Yemen and is remembered more for a saint and a song than for any battlefield.",
       "wikiSlug": "Gebre_Meskel",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Regnal lists that give reign lengths credit him with about 14 years on the throne. His era is most famous for Saint Yared, the Ethiopian musician traditionally said to have invented the chant system (called zema) still used in Ethiopian Orthodox worship today; one beloved legend has Yared so absorbed in singing before Gebre Meskel that the king's spear pierced the saint's foot and neither man noticed. Tellingly for how thin the record gets here, no Aksumite coins bearing Gebre Meskel's name have ever been found."
+        }
+      ],
+      "commonsFile": "Gebre_Meskel_portrait.jpg"
     },
     {
       "id": "evt-aksum-sasanid-yemen",
       "label": "Persians expel Aksumites from Yemen",
       "year": 570,
-      "description": "The Sasanian Persians conquered Yemen, permanently ending Aksumite presence in Arabia and eliminating a key source of revenue and strategic influence.",
+      "description": "Around 570 CE the Persian Empire seized Yemen, snuffing out the last Aksumite-descended rule in Arabia and ending Aksum's reach across the sea for good.",
       "wikiSlug": "Sasanian_Yemen",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The invasion was triggered by Sayf ibn Dhi Yazan, a Himyarite prince who begged Byzantium for help against the Aksumite occupiers, was refused, and turned to Persia instead. The Sasanian emperor Khosrow I (who ruled 531–579 CE) sent a small expeditionary force under a commander named Wahrez, reportedly manned partly with condemned prisoners given a chance to fight for their lives, which defeated the Aksumite ruler Masruq and took Sanaa. Yemen then became a Persian province governed from afar, right up until Islam swept the peninsula in the 7th century."
+        }
+      ]
     },
     {
       "id": "evt-aksum-byzantine-alliance",
       "label": "Aksumite-Byzantine alliance",
       "year": 530,
-      "description": "Emperor Justinian I forged a military and trade alliance with Aksum, recognizing Kaleb as an equal Christian monarch and coordinating against their shared Sasanian rival.",
+      "description": "The partnership between Kaleb and Byzantine emperor Justinian I, who treated the Aksumite king as a fellow Christian monarch and hoped to use Aksum's merchants to outflank Persia in the silk trade.",
       "wikiSlug": "Kingdom_of_Aksum",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We know the diplomatic mechanics largely from two Byzantine writers: the historian Procopius, who recorded Justinian's scheme to have Aksumite traders buy silk directly from Indian ports and starve Persia of its transit tolls, and the envoy Nonnosus, whose family specialized in Red Sea diplomacy and who described his own 530 CE mission to the Aksumite and Himyarite courts. The silk plan flopped because Aksumite merchants could not get ahead of Persian buyers already entrenched at the Indian harbors. Within a couple of decades Byzantium solved its silk problem a different way, by smuggling silkworm eggs out of Asia."
+        }
+      ]
     },
     {
       "id": "evt-aksum-aksumite-liturgy",
       "label": "Ge'ez liturgical tradition matures",
       "year": 550,
-      "description": "The distinctive Ethiopian liturgical tradition took shape, incorporating Ge'ez hymns, the sistrum drum, and ritual dance — forms of worship that continue virtually unchanged in Ethiopian Orthodox churches today.",
+      "description": "The distinctive Ethiopian Orthodox liturgy took shape in this era — Ge'ez chant, jingling rattles, drums, and ritual dance — a style of worship still performed almost unchanged in churches today.",
       "wikiSlug": "Ethiopian_Orthodox_Tewahedo_Church",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The chant and dance are led by the debtera, trained cantors who are clergy-adjacent specialists in music and ritual rather than ordained priests. The instruments are read as a living re-enactment of Christ's suffering: the swaying of the sistrum (a metal rattle) stands for Christ swaying under the beatings, the pounding of the kebero drum for the blows themselves, and the tap of the prayer staff for the scourging. The sistrum is so old it descends from the rattle used in ancient Egyptian temple worship of the goddess Isis."
+        }
+      ],
+      "commonsFile": "Ark_of_the_Covenant_church_in_Axum_Ethiopia.jpg"
     },
     {
       "id": "evt-aksum-manuscript-illumination",
       "label": "Aksumite manuscript tradition",
       "year": 560,
-      "description": "Ethiopian monasteries developed a distinctive tradition of illustrated manuscripts on parchment, with bold colors and geometric designs that would influence Ethiopian art for over a millennium.",
+      "description": "Ethiopian monasteries built up a distinctive way of making illustrated books — bold reds, blues, and golds, geometric ornament, and painted portraits — a manuscript style that would steer Ethiopian art for over a thousand years.",
       "wikiSlug": "Ethiopian_art",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scribes wrote on parchment (usually prepared goatskin) with reed pens and home-mixed inks made from soot, plant gums, and mineral pigments, binding the pages into codices rather than scrolls. A signature feature borrowed from the wider late-Roman world is the canon table — a cross-reference chart showing which passages appear in which gospels, framed inside painted architectural arches. The style proved astonishingly durable: when the first European visitors reached Ethiopia in the 1400s, monks were still illustrating manuscripts in recognizably the same tradition that the Aksumite scribes had set down."
+        }
+      ],
+      "commonsFile": "Ethiopian_Church_Painting_(2262019698).jpg"
     },
     {
       "id": "evt-aksum-coinage-decline",
@@ -690,117 +1023,192 @@
       "id": "evt-aksum-first-hijra",
       "label": "First Hijra — Muslim refugees in Aksum",
       "year": 615,
-      "description": "Prophet Muhammad sent a group of persecuted early Muslims to seek refuge with the Aksumite king (Najashi), who granted them protection. This established a tradition of mutual respect between Aksum and early Islam.",
+      "description": "Around 615 CE, persecuted early followers of Muhammad fled across the Red Sea and asked the Christian Aksumite king for shelter — the first time Muslims sought asylum from a foreign ruler.",
       "wikiSlug": "Migration_to_Abyssinia",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Islamic tradition actually counts two waves: a small first group of roughly twelve men and four women, then a larger party of about eighty-three men and eighteen women led by Muhammad's cousin Ja'far ibn Abi Talib. It's a strange historical footnote that one of these refugees, Uthman ibn Affan, would later become the third caliph (the title for the political-religious leaders who succeeded Muhammad). The town that grew up around the episode, Negash in northern Ethiopia, is by tradition the burial place of companions who died there and is often called the site of the oldest mosque in Africa."
+        }
+      ],
+      "commonsFile": "Hijra_Abyssinia_(Rashid_ad-Din).jpg"
     },
     {
       "id": "evt-aksum-najashi",
       "label": "Ashama ibn Abjar (the Najashi)",
       "year": 615,
-      "description": "The Aksumite king Ashama ibn Abjar sheltered Muslim refugees and reportedly wept upon hearing the Quran recited. Islamic tradition records that Muhammad prayed for him upon his death.",
+      "description": "The Aksumite king known in Arabic sources as Ashama ibn Abjar gave the Muslim refugees protection and refused Mecca's demand to hand them back. Muslims revere him as the Najashi (king) who sheltered the faith in its weakest hour.",
       "wikiSlug": "Najashi",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Some Islamic accounts go further than the narrative and claim he secretly converted to Islam before his death around 630 CE — which is why Muhammad is said to have led a funeral prayer for him in absentia in Medina, praying over an empty grave for a man buried a sea away. He is traditionally entombed at Negash in the Tigray region, and the nearby Al-Nejashi Mosque is treated as one of the holiest Islamic sites in Africa. The whole story sits a bit uneasily in the sources, since no Ethiopian or Aksumite record names this king at all — everything we have about him comes from the Muslim side."
+        }
+      ],
+      "commonsFile": "Negash,_la_moschea_sul_sito_della_più_antica_moschea_d'etiopia,_del_vii_secolo_03.jpg"
     },
     {
       "id": "evt-aksum-islamic-rise",
       "label": "Islamic expansion disrupts trade",
       "year": 640,
-      "description": "Arab conquest of Egypt and the Red Sea coast severed Aksum's Mediterranean trade connections, beginning the kingdom's economic and political decline.",
+      "description": "The Arab conquest of Egypt in the early 640s pulled the northern Red Sea out of Byzantine hands, cutting the trade artery that had fed Aksum's economy for half a millennium.",
       "wikiSlug": "Muslim_conquest_of_Egypt",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The campaign was startlingly small: the general Amr ibn al-As marched in around 639 with only about 4,000 men, won the decisive Battle of Heliopolis after reinforcements arrived, and took Alexandria by treaty in November 641. Rather than rule from the old Greek capital, Amr founded a brand-new garrison town called Fustat — the seed that would eventually grow into Cairo. Egypt had been a prize worth grabbing in part because the Sasanian Persians had already occupied it for a decade (618–629) before the exhausted Byzantines briefly clawed it back, leaving it ripe for the taking."
+        }
+      ]
     },
     {
       "id": "evt-aksum-adulis-destroyed",
       "label": "Adulis destroyed",
       "year": 640,
-      "description": "Arab forces sacked the port of Adulis, severing Aksum's access to the Red Sea and ending centuries of maritime trade that had been the kingdom's economic lifeline.",
+      "description": "Adulis, Aksum's Red Sea port and its window onto the wider world for five centuries, fell silent in the seventh century — and never came back.",
       "wikiSlug": "Adulis",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dramatic version that Arab raiders sacked the city around 640 is actually shaky: excavators have found scorch marks but no clear proof of a single violent end, and one Arab seaborne expedition against the coast is recorded as a failure. The harder archaeological evidence simply shows warehouses and churches abandoned and never rebuilt across the late seventh and early eighth centuries. Decline was probably a slow strangulation rather than a sacking — collapsing trade, raids by lowland Beja nomads, and soil exhaustion in the highlands behind the port all pulling at once."
+        }
+      ],
+      "commonsFile": "Excavated_Site_(8527948333).jpg"
     },
     {
       "id": "evt-aksum-highland-retreat",
       "label": "Aksum retreats to the highlands",
       "year": 700,
-      "description": "Cut off from its Red Sea trade network, the Aksumite state contracted into the Ethiopian highlands, shifting from a maritime commercial empire to an agrarian highland kingdom.",
+      "description": "Stripped of its sea trade, the Aksumite state pulled back into the high interior and remade itself as a farming kingdom living off the plateau instead of the ocean.",
       "wikiSlug": "Kingdom_of_Aksum",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The retreat eventually included giving up the city of Aksum as the seat of power: medieval Arab geographers writing in the 800s (al-Yaqubi around 872) place the capital at a new inland center they call Kubar, deeper in the Tigray highlands. The timing wasn't only about politics — environmental scientists trace a wave of soil erosion that began locally around 650 and turned catastrophic after 700, gutting the farmland that had to feed the population once trade money dried up. What survived the contraction wasn't the palaces but the church: the highland monasteries kept copying manuscripts and training priests straight through the dark centuries."
+        }
+      ]
     },
     {
       "id": "evt-aksum-kebra-nagast",
       "label": "Kebra Nagast composed",
       "year": 700,
-      "description": "The Kebra Nagast (Glory of Kings) traces Ethiopia's royal lineage to Solomon and the Queen of Sheba, becoming the foundational text of Ethiopian national identity.",
+      "description": "The Kebra Nagast, or \"Glory of Kings,\" is Ethiopia's national epic — the story that tied its royal line to King Solomon and the Queen of Sheba and gave a shrinking kingdom a reason to feel chosen.",
       "wikiSlug": "Kebra_Nagast",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The text we actually have isn't ancient: a note in the manuscripts claims it was first written in Coptic, rendered into Arabic in 1225, and finally translated into Ge'ez (the old Ethiopian church language) by a team of clerics led by a churchman named Yeshaq, with the whole compilation pinned by scholars to roughly 1314–1322 under Emperor Amda Seyon. Its political punch lasted an astonishing length of time — Ethiopia's 1955 constitution under Emperor Haile Selassie still formally grounded the throne in the Solomonic descent the book describes. The legend even reaches into the present claim that the actual Ark of the Covenant rests in a chapel at Aksum, guarded by a single monk who, by tradition, may never leave the grounds."
+        }
+      ],
+      "commonsFile": "COLLECTIE_TROPENMUSEUM_De_ontmoeting_tussen_Solomon_en_Sheba_TMnr_5956-6.jpg"
     },
     {
       "id": "evt-aksum-last-coinage",
       "label": "Last Aksumite coins minted",
       "year": 630,
-      "description": "Aksum ceased minting coins around the early seventh century, one of the last vestiges of its former commercial power. It had produced coinage continuously for over 350 years.",
+      "description": "Aksum stopped striking coins in the early seventh century, ending a money economy that had outlasted three centuries of kings. When a state quits minting, it has usually quit being a trading power.",
       "wikiSlug": "Aksumite_currency",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aksum was one of only a handful of ancient powers to issue its own gold coinage at all, putting it in a club with Rome, Persia, and China. The mint ran from roughly 270 CE through about 620, producing coins in the names of some eighteen different kings in gold, silver, and bronze. The very last ruler known to have struck coins, Armah, issued only debased bronze pieces — no gold of his has ever been found, a quiet sign the kingdom's bullion had already run dry before the dies went cold for good."
+        }
+      ],
+      "commonsFile": "Armah.jpg"
     },
     {
       "id": "evt-aksum-dahlak-islands",
       "label": "Loss of the Dahlak Islands",
       "year": 710,
-      "description": "Arab settlers took control of the Dahlak Islands off the Eritrean coast, eliminating Aksum's last connection to Red Sea maritime trade and solidifying the kingdom's isolation.",
+      "description": "The Dahlak Islands off the Eritrean coast, the last scrap of Aksum's old maritime sphere, slipped into Arab hands in the early eighth century, sealing the kingdom off from the sea entirely.",
       "wikiSlug": "Dahlak_Archipelago",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "There's a vivid trigger behind the takeover: around 702 CE, raiders the Arabic sources call \"Abyssinian pirates\" struck Jeddah, the port serving Mecca itself, so the Umayyad caliphate sent a fleet and seized the islands in reprisal. The new rulers then turned the archipelago into a penal colony — a sun-blasted exile dump nicknamed the \"Island of Thorns\" — where the caliphate dumped rebels and dissidents through the 700s. Centuries later the same islands would flip into a wealthy Muslim trading state, the Sultanate of Dahlak, that thrived from roughly the eleventh to thirteenth centuries."
+        }
+      ],
+      "commonsFile": "Dahlak_reliefmap.png"
     },
     {
       "id": "evt-aksum-yared",
       "label": "Saint Yared and Ethiopian chant",
       "year": 550,
-      "description": "Saint Yared, regarded as the father of Ethiopian church music, developed the system of liturgical chant and musical notation (zema) still used in Ethiopian Orthodox services, dividing hymns into three modes.",
+      "description": "Saint Yared, honored as the father of Ethiopian church music, is credited with shaping the system of sacred chant (zema) and its three modes that Ethiopian Orthodox services still use today.",
       "wikiSlug": "Yared",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ethiopian tradition gives Yared exact dates — 505 to 571 CE — and ties him to the court of Emperor Gabra Masqal, who is said to have let him retire as a hermit. His three modes were imagined as mirrors of the Holy Trinity. He is also credited with a notation system called melekket, written with dashes, curves, and dots; the catch is that the oldest surviving books actually using that notation date only from the 1500s, so how much of it really goes back to Yared is impossible to pin down."
+        }
+      ],
+      "commonsFile": "Yared_sings_before_Meskel.jpg"
     },
     {
       "id": "evt-aksum-garima-gospels",
       "label": "Garima Gospels illuminated",
       "year": 550,
-      "description": "The Garima Gospels, among the oldest surviving illustrated Christian manuscripts in the world, were produced at Abba Garima monastery with richly painted evangelist portraits and canon tables.",
+      "description": "The Garima Gospels, kept at the monastery founded by the saint Abba Garima, are illuminated Ge'ez gospel books now thought to be among the oldest surviving illustrated Christian manuscripts anywhere.",
       "wikiSlug": "Garima_Gospels",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars long assumed they were medieval, dating them to around 1100 CE — until radiocarbon testing at Oxford pushed them back roughly seven centuries, to between about 390 and 660 CE. The two main volumes are not the same age: Garima 2 dates to roughly 390–570 CE and Garima 1 to about 530–660 CE, which would make Garima 2 older than the famous Syriac Rabbula Gospels of 586 CE. There's a catch worth knowing: carbon dating ages the animal-skin parchment, not the moment of writing, so the dates set an earliest-possible window rather than a precise birthday."
+        }
+      ],
+      "commonsFile": "Illumination-from-Abba-Garima-gospel.jpg"
     },
     {
       "id": "evt-aksum-gudit",
       "label": "Queen Gudit's destruction",
       "year": 940,
-      "description": "A mysterious queen named Gudit (or Yodit) reportedly devastated the Aksumite kingdom, burning churches and toppling stelae, ending the Aksumite dynasty.",
+      "description": "A queen remembered as Gudit (or Yodit) is blamed in Ethiopian tradition for sacking Aksum around 940 CE — burning churches, toppling stelae, and snuffing out the centuries-old Aksumite royal line.",
       "wikiSlug": "Gudit",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Almost everything about her is contested except, oddly, that she existed: a queen ruling the Ethiopian highlands shows up in Coptic Egyptian and Arab records, not just Ethiopian church memory. The Arab geographer Ibn Hawqal, writing around 977 CE, reported that a woman had already governed the land of the Habasha (the Ethiopians) for some thirty years after killing their king. The Ge'ez name Yodit reportedly means \"beautiful,\" and one strand of tradition holds that she set out to wipe out the royal House of David entirely. Her exact dates are fuzzy enough that sources scatter her destruction anywhere from about 940 to 970 CE."
+        }
+      ],
+      "commonsFile": "Ethio_w12.jpg"
     }
   ]
 }
