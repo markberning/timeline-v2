@@ -133,6 +133,7 @@
 .war-skin .p-storycard .chip .sq { width: 11px; height: 11px; border-radius: 2px; background: var(--confed); }
 .war-skin .p-storycard h3 { font: 600 22px/1.08 var(--serif); margin: 2px 0 8px; color: var(--ink); }
 .war-skin .p-storycard p { font: 400 13.5px/1.5 var(--sans); color: var(--ink-soft); }
+.war-skin .p-storycard .sc-meta { margin-top: 12px; font: 600 12px/1.4 var(--sans); color: var(--muted); }
 .war-skin .p-cta { display: inline-flex; align-items: center; gap: 7px; margin-top: 13px; font: 600 13px/1 var(--sans); color: var(--confed); }
 /* the Off-the-Field story card carries the OTBF orange (chip + cta) */
 .war-skin .p-storycard.otbf .chip .sq { background: var(--otbf); }

@@ -106,7 +106,7 @@ export default function TheTurningThemePage() {
       heroScale={1.06}
       endHref="/war-civil-war/how-the-war-was-fought"
       endKicker={`The war was won in the West`}
-      endLabel={`Back to the Military Story`}
+      endLabel={`Back to the Civil War story`}
     />
   )
 }

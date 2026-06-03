@@ -125,7 +125,7 @@ export default function TheLimitedWarEndsThemePage() {
       heroScale={1.05}
       endHref="/war-civil-war/how-the-war-was-fought"
       endKicker={`Now a war on slavery`}
-      endLabel={`Back to the Military Story`}
+      endLabel={`Back to the Civil War story`}
     />
   )
 }

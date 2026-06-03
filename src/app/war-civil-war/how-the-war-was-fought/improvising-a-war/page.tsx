@@ -119,7 +119,7 @@ export default function ImprovisingAWarThemePage() {
       heroScale={1.04}
       endHref="/war-civil-war/how-the-war-was-fought"
       endKicker={`Now they had to learn to fight it`}
-      endLabel={`Back to the Military Story`}
+      endLabel={`Back to the Civil War story`}
     />
   )
 }

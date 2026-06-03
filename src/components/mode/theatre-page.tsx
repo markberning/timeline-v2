@@ -65,7 +65,7 @@ const THEATRE_DOT: Record<string, string> = {
 // Compact ancestor labels for the breadcrumb trail (keep it narrow on a phone);
 // the lane keeps its full evocative name on its own landing page.
 const THEATRE_TRAIL_SHORT: Record<string, string> = {
-  east: 'Eastern', west: 'Western', tmis: 'Trans-Miss', naval: 'Naval', offfield: 'Off-Field', howfought: 'Military',
+  east: 'Eastern', west: 'Western', tmis: 'Trans-Miss', naval: 'Naval', offfield: 'Off-Field', howfought: 'Story',
 }
 
 // War-era band colours for the war-switch dropdown dots.

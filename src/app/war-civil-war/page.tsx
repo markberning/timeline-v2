@@ -91,11 +91,11 @@ function StoryTab() {
     <div className="p-page">
       <a className="p-storycard" href="/war-civil-war/how-the-war-was-fought">
         <div className="row">
-          <span className="chip"><span className="sq" /><span className="p-label">The military story</span></span>
-          <span className="p-label">5 chapters</span>
+          <span className="chip"><span className="sq" /><span className="p-label">The Civil War story</span></span>
         </div>
-        <h3 className="p-serif">How the War Was Fought</h3>
+        <h3 className="p-serif">How the War Happened</h3>
         <p>The whole war as one through-line, how it was planned, won, and lost, year by year from 1861 to 1865. The connective tissue between the causes and the battles.</p>
+        <div className="sc-meta">5 chapters that lead to 63 battles and events and over 1,000 pages.</div>
         <span className="p-cta">Read the war&rsquo;s story {I.arr}</span>
       </a>
       {CHAPTERS.map((c, i) => {

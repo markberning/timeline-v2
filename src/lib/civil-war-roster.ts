@@ -148,7 +148,7 @@ export const THEATRE_NAV: TheatreNav[] = [
   { id: 'west', label: 'Western Theatre', href: '/war-civil-war/western', ready: true },
   { id: 'tmis', label: 'Trans-Mississippi', href: '/war-civil-war/trans-mississippi', ready: true },
   { id: 'naval', label: 'Naval & Coastal', href: '/war-civil-war/naval', ready: true },
-  { id: 'howfought', label: 'How the War Was Fought', href: '/war-civil-war/how-the-war-was-fought', ready: true },
+  { id: 'howfought', label: 'How the War Happened', href: '/war-civil-war/how-the-war-was-fought', ready: true },
   { id: 'offfield', label: 'Off the Battlefield', href: '/war-civil-war/off-the-battlefield', ready: true },
 ]
 

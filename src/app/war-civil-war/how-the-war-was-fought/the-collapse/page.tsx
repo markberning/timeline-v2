@@ -102,7 +102,7 @@ export default function TheCollapseThemePage() {
       heroScale={1.05}
       endHref="/war-civil-war/how-the-war-was-fought"
       endKicker={`The fighting is over`}
-      endLabel={`Back to the Military Story`}
+      endLabel={`Back to the Civil War story`}
     />
   )
 }

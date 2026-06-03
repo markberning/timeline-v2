@@ -120,7 +120,7 @@ export default function CoordinatedAttritionThemePage() {
       heroScale={1.05}
       endHref="/war-civil-war/how-the-war-was-fought"
       endKicker={`The vise closes`}
-      endLabel={`Back to the Military Story`}
+      endLabel={`Back to the Civil War story`}
     />
   )
 }

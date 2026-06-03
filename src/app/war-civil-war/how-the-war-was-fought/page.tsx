@@ -22,8 +22,8 @@ export default function HowTheWarWasFoughtPage() {
       <WarBreadcrumb crumbs={civilWarCrumbs({ theatre: 'howfought' })} accent={WAR_ACCENT} bare />
 
       <div className="p-mast">
-        <div className="p-eyebrow">War · the military story</div>
-        <h1 className="p-mast-title p-serif">How the<br />War Was Fought</h1>
+        <div className="p-eyebrow">The Civil War story</div>
+        <h1 className="p-mast-title p-serif">How the War<br />Happened</h1>
         <p className="p-stand">The battle pages tell you what happened on each field. The theme pages tell you why the war was fought. This is the connective tissue between them — the military story as one through-line: how the war was planned, how each win and loss bent the strategy, how supply and casualties were borne, and how Lincoln and Davis learned to run a war. Each chapter links down into the battles it sets in motion.</p>
       </div>
       <div className="p-heroband">
