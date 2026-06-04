@@ -127,7 +127,15 @@ _(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china/elamite/nu
 **Lesson (indus):** the gatherer hands material-culture + abstract events ONLY the regional map → first vision pass over-rejects (here 30/54 = 56%, under the floor). FIX baked into the recipe: after the first pick, run a **finder agent** that web-verifies real distinct Commons filenames for the recoverable famous artifacts (Great Bath, weights, beads, the unicorn seal, etc.), re-gather, vision re-pick. Two rounds took 56%→87%. Only genuinely abstract events (trade networks, collapse-process) stay honest rejects.
 
 ## In progress
-- Sweep resumed 2026-06-03 PM — running 3-wide via the sweep-civ workflow, smallest-first.
+- (none — clean stop 2026-06-03 PM at user's request. 74/109 done, 38 remaining.
+  Repo clean, all committed work pushed, no locks held. The 3 that were mid-flight at
+  the stop — **uyghur-steppe, migration-period, early-medieval-europe** — were NOT
+  committed; they're the next-up smallest-first queue. One leftover uncommitted partial
+  write to reference-data/uyghur-steppe.json from the aborted run (harmless — never
+  force-added, a fresh run overwrites it). To resume: launch the sweep-civ workflow
+  3-wide on those three, then continue smallest-first (late-egypt, japanese-economic-
+  miracle, joseon-korea, germanic-tribes, new-kingdom-egypt, …).
+- 2 gap-fill cleanups still owed (see below): xiongnu-huns, songhai-empire.
 
 ## Gap-fill owed (gate passed via grandfathering, but recoverable images left behind)
 - **xiongnu-huns (705ff658) — 59.7%, lowest yet.** Committed clean (thin chapters
