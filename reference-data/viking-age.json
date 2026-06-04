@@ -52,85 +52,148 @@
       "id": "evt-lindisfarne-raid",
       "label": "Raid on Lindisfarne",
       "year": 793,
-      "description": "Norse raiders attacked the monastery at Lindisfarne in Northumbria, traditionally marking the start of the Viking Age. The raid shocked Christendom and signaled the beginning of centuries of Scandinavian expansion.",
+      "description": "On June 8, 793, Norse raiders beached their ships on the tidal island of Lindisfarne off England's northeast coast and sacked its famous monastery — the most spiritually prestigious site in Anglo-Saxon Christianity. The attack shocked the literate world and is the conventional opening date of the Viking Age.",
       "wikiSlug": "Viking_raid_on_Lindisfarne",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The monastery had been founded in 635 by the Irish monk Aidan and was home to the Lindisfarne Gospels, one of the most beautiful illuminated manuscripts ever made, produced around 715. The scholar Alcuin of York, writing from Charlemagne's court when news arrived, called it a terror unlike anything Britain had ever suffered — the first time the educated Carolingian world confronted the idea that the sea was now a highway, not a barrier."
+        }
+      ],
+      "commonsFile": "Holy_Island_Sunrise_(again)_(15064111624).jpg"
     },
     {
       "id": "evt-iona-raids",
       "label": "Raids on Iona",
       "year": 795,
-      "description": "Vikings raided the monastery of Iona off the Scottish coast, the first of several attacks that would force monks to relocate its treasures to Ireland.",
+      "description": "Starting in 795, Viking raiders repeatedly struck Iona, the wind-swept Hebridean island monastery founded by St. Columba in 563 and the spiritual heart of Irish-Scottish Christianity. The attacks came back in 802, 806, and 825, each time more brutal than the last.",
       "wikiSlug": "Iona",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In the 806 raid alone, 68 monks were killed in a single attack. The famous Book of Kells — one of the most ornate surviving medieval manuscripts — was created at Iona but evacuated to the inland monastery at Kells in Ireland for safekeeping, which is why it carries that name today instead of the Book of Iona."
+        }
+      ],
+      "commonsFile": "Iona_(15020668711).jpg"
     },
     {
       "id": "evt-charlemagne-coastal-defense",
       "label": "Charlemagne's Coastal Defenses",
       "year": 800,
-      "description": "Charlemagne organized coastal defenses and a fleet to protect the Frankish Empire from Norse raids along the North Sea and Channel coasts.",
+      "description": "Around 800, the Frankish emperor Charlemagne ordered coastal watch posts and the construction of a fleet to counter Norse raids on his empire's North Sea and Channel shores — the first serious Carolingian attempt to build a naval defense.",
       "wikiSlug": "Charlemagne",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The effort largely failed because the Carolingian state was built around heavy cavalry and landed levies, not maritime power — by the time a Frankish force could be assembled and marched to a raided coast, the Vikings had been gone for weeks. Charlemagne's empire stretched from the Pyrenees to the Elbe but had no meaningful standing navy, and his successors never solved the problem he could not."
+        }
+      ],
+      "commonsFile": "Charlemagne_denier_Mayence_812_814.jpg"
     },
     {
       "id": "evt-oseberg-ship-burial",
       "label": "Oseberg Ship Burial",
       "year": 834,
-      "description": "Two high-status women were buried in the elaborately carved Oseberg ship in Vestfold, Norway. It is one of the finest surviving examples of Viking Age craftsmanship.",
+      "description": "In 834, two high-status women were buried in the elaborately carved Oseberg ship in Vestfold, Norway — one elderly, one in her fifties — under a massive turf mound that preserved everything inside for over a thousand years until Norwegian archaeologists excavated it in 1904.",
       "wikiSlug": "Oseberg_ship",
       "tier": 2,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The burial included four ornate sleighs, a decorated wagon, looms, beds, kitchen equipment, and the ship itself — all made of wood, which would normally have rotted to nothing, but was preserved in waterlogged blue clay. The Oseberg ship is not a warship but a court vessel, a thing built for prestige and display, and it remains the single most important artifact for understanding what Viking material culture actually looked like."
+        }
+      ],
+      "commonsFile": "Osebergskipet_2016.jpg"
     },
     {
       "id": "evt-dublin-founded",
       "label": "Viking Dublin Founded",
       "year": 841,
-      "description": "Norse settlers established a longphort at Dublin, which grew into a major Viking trading hub and slave market in Ireland.",
+      "description": "Norse raiders established a fortified base (a longphort, or ship-camp) at Dublin in 841, which grew within a century into one of the largest cities in Atlantic Europe — a planned town of perhaps 5,000 people centered on a harbor and one of the busiest slave markets in the medieval world.",
       "wikiSlug": "Viking_Dublin",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The economic engine of Viking Dublin was specific and grim: Norse warbands raided Irish, Scottish, English, and Welsh coasts and funneled captives to the Dublin market, which then redistributed them to Norse-Icelandic settlers, Continental buyers, and merchants running the eastern slave routes to Byzantine and Islamic markets. Genetic studies of modern Icelanders show that roughly 60% of female-line DNA traces back to women from the British Isles, while 75% of male-line DNA is Norwegian — a demographic fingerprint left by the Dublin slave economy on an entire nation's founding population. The Kingdom of Dublin lasted from roughly 853 to 1170, making it the longest-surviving Norse kingdom in Ireland."
+        }
+      ],
+      "commonsFile": "Sihtric_989_1036_ruler_of_Dublin.jpg"
     },
     {
       "id": "evt-paris-siege-845",
       "label": "First Siege of Paris",
       "year": 845,
-      "description": "Ragnar led a Viking fleet up the Seine and sacked Paris, extracting a massive Danegeld payment of 7,000 pounds of silver from Charles the Bald.",
+      "description": "In March 845, a Viking fleet of 120 ships sailed 100 miles up the Seine and sacked Paris on Easter Sunday. King Charles the Bald, Charlemagne's grandson and ruler of West Francia, paid 7,000 pounds of silver — the first major Danegeld (tribute paid to make Vikings leave) in Frankish history — to make them go away.",
       "wikiSlug": "Siege_of_Paris_(845)",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Viking leader the Frankish sources call Ragnar has been tentatively identified with the legendary saga figure Ragnar Lothbrok, though scholars dispute this. The same year, 845, a separate Norse fleet simultaneously sacked the newly founded archbishopric of Hamburg, forcing the missionary Ansgar to flee — making 845 arguably the worst single year the Carolingian church had ever experienced."
+        }
+      ],
+      "commonsFile": "Viking_Siege_of_Paris.jpg"
     },
     {
       "id": "evt-rurik-novgorod",
       "label": "Rurik Founds Novgorod",
       "year": 862,
-      "description": "The Varangian chieftain Rurik established rule over Novgorod, founding the Rurikid dynasty that would govern Rus' lands for over seven centuries.",
+      "description": "Around 862, a Norse (Varangian) chieftain named Rurik established control over Novgorod, founding a dynasty that would govern Rus' lands for the next seven centuries — and give the future nation of Russia its name.",
       "wikiSlug": "Rurik",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The founding story, preserved in the 12th-century Primary Chronicle, claims the local Slavic and Finnic tribes invited Rurik to rule because 'our land is great and rich, but there is no order in it' — a classic invitation legend historians treat skeptically. Whether invited or not, the Rurikid dynasty he started lasted until 1610, longer than any other European ruling house of the medieval era. The very name 'Rurik' is the Old Norse 'Hrørek,' a name unremarkable in Scandinavia but world-changing on the Russian steppe."
+        }
+      ],
+      "commonsFile": "1000_Rurik.JPG"
     },
     {
       "id": "evt-great-heathen-army",
       "label": "Great Heathen Army Invades",
       "year": 865,
-      "description": "A massive Norse coalition invaded Anglo-Saxon England, conquering Northumbria, East Anglia, and much of Mercia within a decade.",
+      "description": "In autumn 865, a large coalition of Norse warlords — the Anglo-Saxon Chronicle called it the mycel hæþen here, or Great Heathen Army — landed in East Anglia and began a systematic conquest of Anglo-Saxon England. Within a decade it had destroyed or dismantled three of the four English kingdoms.",
       "wikiSlug": "Great_Heathen_Army",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The army's commanders Ivar the Boneless and Halfdan are named in near-contemporary sources, making them among the best-documented Viking leaders of the era. The East Anglian king Edmund, captured and killed in 869 when he refused to renounce Christianity, was venerated as a martyr almost immediately — Saint Edmund became England's first patron saint, a role he held until St. George replaced him centuries later."
+        }
+      ],
+      "commonsFile": "Derby_Museum_Viking_Sword.jpg"
     },
     {
       "id": "evt-settlement-iceland",
       "label": "Settlement of Iceland",
       "year": 874,
-      "description": "Ingólfr Arnarson became the first permanent Norse settler in Iceland, founding a homestead at Reykjavík. Within sixty years, much of Iceland's coastland was claimed.",
+      "description": "Between 874 and roughly 930, some 9,000 to 20,000 Norse settlers arrived in waves to claim Iceland's habitable coastland in a period known as the Landnám ('land-taking') — filling an entirely uninhabited island in a single human generation.",
       "wikiSlug": "Settlement_of_Iceland",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike virtually every other migration of the period, the settlement of Iceland involved no conquest of existing inhabitants — the island was genuinely empty, reached only by a handful of Irish monks seeking solitude. Settlers came not only from southwestern Norway but also from Norse Ireland, the Hebrides, and the Northern Isles, bringing Celtic wives and thralls whose genetic signature is still detectable in modern Icelandic DNA studies. By 930, the Landnámabók records, all the available land was taken — making Iceland the fastest-settled large landmass in the pre-modern Atlantic world."
+        }
+      ],
+      "commonsFile": "The_Norwegians_land_in_Iceland_year_872.jpg"
     },
     {
       "id": "evt-alfred-great",
@@ -150,10 +213,17 @@
       "id": "evt-danelaw-established",
       "label": "Danelaw Established",
       "year": 886,
-      "description": "The Treaty of Alfred and Guthrum formalized the Danelaw, granting Norse settlers legal control over eastern and northern England.",
+      "description": "A formal treaty between Alfred of Wessex and the Danish warlord Guthrum partitioned England, granting Norse settlers legal control over a swath of eastern and northern England where Danish law — not Anglo-Saxon custom — applied.",
       "wikiSlug": "Danelaw",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word 'Danelaw' itself isn't recorded until the early 11th century, decades after the territory it describes was created. The boundary gave Norsemen control of major English towns including York, Lincoln, Leicester, Nottingham, Stamford, and Derby — six of the 'Five Boroughs' that became strategic Norse strongholds. The Norse legal footprint is still visible today: place-names ending in -by (village), -thorpe (outlying farm), and -thwaite (clearing) mark the Danelaw's old borders on modern maps as clearly as any archive."
+        }
+      ],
+      "commonsFile": "England_Grosses_Heer_892.jpg"
     },
     {
       "id": "evt-gokstad-ship-burial",
@@ -168,30 +238,50 @@
       "id": "evt-norse-sun-compass",
       "label": "Norse Sun Compass",
       "year": 900,
-      "description": "Norse navigators used sun compasses and sun stones to determine latitude and direction during open-ocean voyages, enabling transatlantic navigation.",
+      "description": "Norse navigators crossing the open North Atlantic used a combination of dead reckoning, sun compasses, and possibly calcite crystals called 'sunstones' to fix their position on overcast days — technology that made transatlantic voyaging possible without magnetic compasses.",
       "tier": 3,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A partial wooden sun compass, found at a Norse site in Greenland, confirmed that such instruments existed and were used in practice, not just described in sagas. The 'sunstone' (sólarsteinn) mentioned in medieval Norse texts is thought to be Icelandic spar, a form of calcite crystal that polarizes light and can reveal the sun's position even through heavy cloud cover — a property confirmed in modern laboratory tests. Norse navigators also used latitude sailing: by maintaining a constant noon sun angle and watching for known bird species and whale feeding grounds, experienced pilots could cross hundreds of miles of open ocean without any instrument more complex than a stick."
+        }
+      ]
     },
     {
       "id": "evt-rollo-normandy",
       "label": "Rollo Granted Normandy",
       "year": 911,
-      "description": "Viking leader Rollo received Normandy from the Frankish king Charles the Simple by the Treaty of Saint-Clair-sur-Epte, founding the Duchy of Normandy.",
+      "description": "In 911, the Frankish king Charles the Simple handed the Norse warlord Rollo a chunk of the lower Seine valley — the region that would become Normandy — in exchange for Rollo converting to Christianity, pledging fealty, and defending the Seine estuary from other Vikings raiding the same coast.",
       "wikiSlug": "Rollo",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rollo's nickname 'the Walker' reportedly came from the fact that he was too large and heavy for any horse to carry him — he traveled on foot even when his men rode. The Treaty of Saint-Clair-sur-Epte required Rollo to kiss the Frankish king's foot in submission; according to later accounts, Rollo had a subordinate do it for him, and the man lifted the king's foot so high that Charles tumbled backward off his throne. Rollo's descendants would rule Normandy continuously for over 150 years before his great-great-great-grandson William rode to Senlac Hill."
+        }
+      ],
+      "commonsFile": "RolloA.jpg"
     },
     {
       "id": "evt-althing-founded",
       "label": "Althing Founded",
       "year": 930,
-      "description": "The Icelandic Althing was established at Thingvellir, one of the oldest parliamentary assemblies in the world. It served as both legislature and court.",
+      "description": "Iceland's Althing, established at Þingvellir in 930, is the oldest surviving parliament in the world — a national assembly of free farmers that ran a kingless republic on customary law for over three centuries.",
       "wikiSlug": "Althing",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Althing's Lawspeaker had one of the strangest jobs in medieval governance: he was required to recite the entire body of Icelandic law from memory over a three-year cycle, a third each summer, as the official method of storing constitutional law in a non-literate society. Þingvellir sits on the boundary of the North American and Eurasian tectonic plates, where a geological rift forms a natural rock amphitheater — the setting was functional as much as dramatic, allowing large crowds to hear proceedings without artificial amplification. The Icelandic Free State lasted 330 years without a king, longer than the United States has existed."
+        }
+      ],
+      "commonsFile": "Law_speaker.jpg"
     },
     {
       "id": "evt-erik-bloodaxe",
@@ -208,31 +298,52 @@
       "label": "Harald Bluetooth",
       "year": 958,
       "endYear": 986,
-      "description": "King of Denmark and Norway who unified the Danish tribes and converted the Danes to Christianity, commemorated on the Jelling Stones.",
+      "description": "Harald 'Bluetooth' Gormsson, king of Denmark and Norway from around 958 to 986, was the first ruler to unify Denmark as a Christian kingdom — commemorating his achievement on the Jelling Stones, the runestone monuments he erected in Jutland that are sometimes called 'Denmark's birth certificate.'",
       "wikiSlug": "Harald_Bluetooth",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Harald's ring fortress building program (around 975–980) was only one dimension of his state-building: he also oversaw the construction of the Ravning Bridge, at 2,460 feet (750 m) one of the longest wooden bridges in early-medieval Europe, crossing the Vejle River in Jutland and knitting the kingdom together physically. The modern Bluetooth wireless technology was named after him in 1997 because its designers saw it as connecting devices the way Harald had connected Scandinavian tribes — and the Bluetooth logo is a runic monogram of his initials H and B. Harald was ultimately deposed by his own son Sweyn Forkbeard in a rebellion around 986 and died shortly after in exile."
+        }
+      ],
+      "commonsFile": "1200_Harald_Blåtand_anagoria.jpg"
     },
     {
       "id": "evt-jelling-stones",
       "label": "Jelling Stones Erected",
       "year": 965,
-      "description": "Harald Bluetooth raised the larger Jelling Stone proclaiming Denmark's conversion to Christianity, often called Denmark's baptismal certificate.",
+      "description": "The great Jelling Stone, raised by Harald Bluetooth around 965, is a roughly ten-foot (3 m) carved runestone that declares Harald's unification of Denmark and Norway and the conversion of the Danes to Christianity — effectively Denmark's public baptismal certificate, cut in stone at the old royal pagan cult site.",
       "wikiSlug": "Jelling_stones",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Jelling stones are a pair: Harald's father Gorm the Old raised the smaller earlier stone in memory of his wife Thyra, and Harald then topped it with his larger monument. The larger stone has three carved faces — a runic inscription, a writhing serpent-and-lion scene in classic Viking animal style, and one of the earliest depictions of Christ in Scandinavia, showing him outstretched against a tangle of vines. The Jelling complex (stones, burial mounds, and church) is now a UNESCO World Heritage Site."
+        }
+      ],
+      "commonsFile": "Runesten_i_Jelling.jpg"
     },
     {
       "id": "evt-norse-greenland",
       "label": "Norse Settlement of Greenland",
       "year": 985,
-      "description": "Erik the Red led settlers to Greenland after his exile from Iceland, establishing the Eastern and Western settlements that persisted for nearly 500 years.",
+      "description": "In 985 or 986, Erik the Red led a fleet of settlers from Iceland to Greenland, founding the Eastern and Western Settlements — the longest-lived European colony in the Americas, which persisted for nearly five hundred years before silently disappearing.",
       "wikiSlug": "Norse_colonization_of_Greenland",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Of the 25 ships that left Iceland for Greenland, only 14 made it through; the rest were lost or turned back — a roughly 44% attrition rate that the settlers appear to have accepted as the normal cost of a transatlantic crossing. The Greenland economy ran on walrus ivory: Greenlandic hunters ranged as far north as the 73rd parallel to harvest walrus tusks, which were traded across Continental Europe as a prestige material (the famous Lewis chessmen, carved from walrus ivory and found on a beach in the Outer Hebrides, are probably a Greenland export). The last documented contact with the Eastern Settlement was a wedding at Hvalsey Church in 1408; after that, silence."
+        }
+      ],
+      "commonsFile": "Brattachurch.jpg"
     },
     {
       "id": "evt-erik-the-red",
@@ -256,56 +367,91 @@
       "id": "evt-vinland",
       "label": "Leif Erikson Reaches Vinland",
       "year": 992.5,
-      "description": "Leif Erikson sailed from Greenland to North America, establishing a short-lived settlement at L'Anse aux Meadows in Newfoundland.",
+      "description": "Around the year 1000, Leif Erikson sailed west from Greenland and reached North America, making him the first confirmed European to set foot on the continent — five centuries before Columbus.",
       "wikiSlug": "Leif_Erikson",
       "tier": 1,
       "category": "people",
       "tags": [
         "trade"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Leif named his three landfalls Helluland ('Stone-Slab Land,' probably Baffin Island), Markland ('Forest Land,' probably Labrador), and Vinland ('Vine Land') — the last name possibly a marketing flourish in his father Erik's tradition, since wild grapes don't grow at the latitude of northern Newfoundland. He earned the nickname 'Leif the Lucky' partly from the Vinland voyage but also because, on his return, he rescued a shipwrecked crew from a reef — a reputation-building act that ancient Scandinavian culture valued highly. The settlement he established at Vinland was only about two to three years old before being permanently abandoned."
+        }
+      ],
+      "commonsFile": "Leif_Erikson_Statue,_Duluth_(15290644106).jpg"
     },
     {
       "id": "evt-lanse-aux-meadows",
       "label": "L'Anse aux Meadows Settlement",
       "year": 997.5,
-      "description": "Norse settlers built a small encampment at L'Anse aux Meadows in Newfoundland, the only confirmed Viking site in North America.",
+      "description": "L'Anse aux Meadows, on the northern tip of Newfoundland, is the only confirmed Viking-age site in North America — three turf-walled longhouses, a workshop, and a smithy dated by radiocarbon to around the year 1000.",
       "wikiSlug": "L%27Anse_aux_Meadows",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The site was discovered in 1960 by Norwegian explorer-archaeologists Helge and Anne Stine Ingstad, who worked from clues in the Icelandic sagas to narrow their search. Among the finds were iron nails forged from local bog iron in the Norse style and butternut shells — butternuts don't grow in Newfoundland, which means the inhabitants had traveled or traded at least as far south as New Brunswick. The smithy at L'Anse aux Meadows is the earliest known iron-smelting operation in the New World, predating European colonial ironworks by nearly five centuries."
+        }
+      ],
+      "commonsFile": "Authentic_Viking_recreation.jpg"
     },
     {
       "id": "evt-battle-svolder",
       "label": "Battle of Svolder",
       "year": 1002.5,
-      "description": "A naval battle in the Baltic Sea where an alliance of Danish, Swedish, and Norwegian forces defeated Olaf Tryggvason of Norway, killing him.",
+      "description": "The Battle of Svolder in September 1000 was a large naval engagement in the western Baltic where a combined Danish, Swedish, and Norwegian coalition ambushed and destroyed the fleet of Norway's King Olaf Tryggvason, who leapt into the sea in his armor rather than surrender.",
       "wikiSlug": "Battle_of_Svolder",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle was the culmination of Norwegian political tensions around both unification and Christianization — Denmark and Sweden both wanted to prevent Norway from becoming an independent Christian kingdom under Olaf. The exact location of the battle is unknown, and the name 'Svolder' does not match any currently identified place. Olaf's flagship was called the Long Serpent, reportedly the largest warship yet built in Norway, and the sagas describe him making his last stand on its deck."
+        }
+      ],
+      "commonsFile": "Svolder, by Otto Sinding.jpg"
     },
     {
       "id": "evt-sweyn-forkbeard-england",
       "label": "Sweyn Forkbeard Conquers England",
       "year": 1013,
-      "description": "Danish king Sweyn Forkbeard invaded England and forced King Ethelred into exile, briefly uniting England under Danish rule.",
+      "description": "Danish king Sweyn Forkbeard (Old Norse: Sveinn Tjúguskegg) launched a sustained war of conquest against England that climaxed in December 1013, when King Æthelred fled to Normandy and Sweyn was acclaimed king — making him the first Viking ruler to conquer the entire English kingdom.",
       "wikiSlug": "Sweyn_Forkbeard",
       "tier": 3,
       "category": "wars",
       "tags": [
         "rulers"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sweyn's conquest was personal as much as political: the St. Brice's Day Massacre of 1002 had killed his sister Gunhilde, giving him a blood grievance on top of strategic ambition. His triumph was short-lived — he died in February 1014, just five weeks after being recognized as king of England, having reigned there for less than two months total. He was simultaneously king of Denmark from 986 and king of Norway from around 1000, making him the direct forerunner of his son Cnut's North Sea Empire."
+        }
+      ],
+      "commonsFile": "Sweyn_Forkbeard.jpg"
     },
     {
       "id": "evt-cnut-great",
       "label": "Cnut the Great",
       "year": 1016,
       "endYear": 1035,
-      "description": "Danish king who ruled England, Denmark, and Norway, creating the North Sea Empire. He is remembered as one of the most effective rulers of medieval England.",
+      "description": "Cnut (KNOOT — also written Canute) became king of England in 1016, Denmark in 1018, and Norway in 1028, assembling the North Sea Empire — the most extensive political unit ever ruled by a Norse-speaking king — until his death in 1035 at roughly age 40.",
       "wikiSlug": "Cnut",
       "tier": 1,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cnut governed more like a sophisticated Christian monarch than a Viking conqueror: he kept Anglo-Saxon administrative structures largely intact, retained English nobles in power, and married his predecessor Æthelred's widow Emma of Normandy as a deliberate act of statecraft that neutralized her Norman family's rival claims. He attended the coronation of Holy Roman Emperor Conrad II in Rome in 1027 and walked away with formal papal and imperial recognition of Danish royal status. His North Sea Empire dissolved within seven years of his death as his sons quarreled, but the precedent of a single Norse ruler governing England, Denmark, and Norway simultaneously had no parallel in Northern European history."
+        }
+      ],
+      "commonsFile": "Canute_and_Ælfgifu.jpg"
     },
     {
       "id": "evt-thingvellir-law",
@@ -321,68 +467,117 @@
       "label": "Olaf II of Norway",
       "year": 1015,
       "endYear": 1028,
-      "description": "King who forcibly Christianized Norway and became the country's patron saint after his death at the Battle of Stiklestad in 1030.",
+      "description": "Olaf Haraldsson ruled Norway from 1015 to 1028, systematically destroying pagan idols and forcing baptism across the inland valleys — more brutal and methodical than his predecessor Olaf Tryggvason. He was overthrown by Cnut of Denmark, fled into exile, returned, and was killed in battle in 1030, after which he was venerated as Saint Olaf, Norway's patron saint.",
       "wikiSlug": "Olaf_II_of_Norway",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "religion",
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Olaf was canonized at Nidaros (Trondheim) just one year after his death, an extraordinarily fast canonization driven by reported miracles at his grave. He was posthumously given the Latin title Rex Perpetuus Norvegiae (\"Eternal King of Norway\"). His shrine at Nidaros Cathedral became one of the major medieval pilgrimage destinations in northern Europe, drawing pilgrims from across Scandinavia and the Norse diaspora."
+        }
+      ],
+      "commonsFile": "Olav_der_Heilige07.jpg"
     },
     {
       "id": "evt-stiklestad",
       "label": "Battle of Stiklestad",
       "year": 1030,
-      "description": "King Olaf II fell at Stiklestad fighting to reclaim his Norwegian throne. His martyrdom accelerated Norway's Christianization.",
+      "description": "The Battle of Stiklestad on July 29, 1030 was where King Olaf II of Norway was killed by a coalition of Norwegian chieftains backed by Cnut the Great — a military defeat that paradoxically became the moment that cemented Norway's conversion, as Olaf's death quickly generated a powerful saint's cult.",
       "wikiSlug": "Battle_of_Stiklestad",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Roman Catholic Church formally declared Olaf a saint in 1164, during the pontificate of Pope Alexander III. Stiklestad is unusual as a decisive political battle in that the losing king's death had more long-term impact than the victors' victory — within a generation, the pagan Norwegian chieftains who killed him found themselves living in a Christian Norway, with the man they had overthrown as its national patron saint. The site of the battle in central Norway still hosts an annual outdoor performance of the St. Olaf drama."
+        }
+      ],
+      "commonsFile": "Arbo-Olav_den_helliges_fall_i_slaget_på_Stiklestad_(cropped).jpg"
     },
     {
       "id": "evt-hedeby-trade",
       "label": "Hedeby Trading Center",
       "year": 808,
-      "description": "The Danish king Godfred relocated merchants to Hedeby, which became the largest Viking Age trading town, connecting Baltic and North Sea commerce.",
+      "description": "Hedeby (HAY-deh-bee), at the neck of the Jutland peninsula where North Sea trade met the Baltic, was the commercial capital of the Viking world — a planned town of perhaps 1,500–2,000 people with paved streets, craft workshops, and a harbor that brokered goods between Frankish Europe, the Norse Baltic, and the Islamic world via Russia's rivers.",
       "wikiSlug": "Hedeby",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Andalusian Arab traveler Ibrahim ibn Yaqub visited around 965 and described Hedeby as 'a very large city at the very end of the world's ocean' — one of the few outside eyewitness descriptions of a Viking town. Danish king Godfred had deliberately relocated merchants there from the rival trading post of Reric in 808 to consolidate Danish control of the region's commerce. Hedeby produced glass beads, iron tools, and silver ornaments at near-industrial scale, and its reach was so broad that a single Hedeby grave could contain objects from four distinct cultural zones thousands of miles apart."
+        }
+      ],
+      "commonsFile": "Haithabu-msu-2020-9-8561.jpg"
     },
     {
       "id": "evt-birka-trade",
       "label": "Birka Trading Post",
       "year": 790,
-      "description": "Birka on Lake Mälaren in Sweden was a major Viking trading center, handling goods from as far as the Byzantine Empire and the Islamic world.",
+      "description": "Birka, on an island in Lake Mälaren about 20 miles west of modern Stockholm, was the great eastern counterpart to Hedeby — a Swedish Baltic trading hub founded around 750 where Norse, Slavic, Frisian, Arab, and Byzantine goods all changed hands.",
       "wikiSlug": "Birka",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In 829 the Frankish missionary Ansgar sailed to Birka and built a small church there, making it the site of the first Christian mission to Sweden. The town's graves contain silk from Byzantium and Persia, Arabic coins, and Frankish glass — physical evidence of trade networks stretching from Baghdad to the North Sea passing through this single island town in central Sweden."
+        }
+      ],
+      "commonsFile": "Birka_Ansgar_2008.jpg"
     },
     {
       "id": "evt-varangian-guard",
       "label": "Varangian Guard Established",
       "year": 988,
-      "description": "Byzantine Emperor Basil II formed the Varangian Guard, an elite unit of Norse warriors who served as the emperor's personal bodyguard.",
+      "description": "In 988, Byzantine Emperor Basil II formed the Varangian Guard — an elite unit of Norse warriors, personally loyal to the emperor, who served as the imperial household troops for nearly five centuries until Constantinople fell to the Ottomans in 1453.",
       "wikiSlug": "Varangian_Guard",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Guard was a deliberate policy choice: foreigners with no local political ties could be trusted to suppress Byzantine factional revolts in ways that native soldiers could not. They were recruited overwhelmingly from Scandinavia and the Rus' lands, and later from Anglo-Saxon England after 1066 — dispossessed English nobles finding employment in Constantinople. They spoke Old Norse on duty into the 13th century, carried distinctive battle-axes, and were paid in gold. The founding 6,000 men were part of a marriage deal between Vladimir of Kiev and Basil II, sent in exchange for the emperor's sister Anna."
+        }
+      ],
+      "commonsFile": "A_Thracesian_woman_kills_a_Varangian.jpg"
     },
     {
       "id": "evt-rune-stones",
       "label": "Rök Runestone",
       "year": 800,
-      "description": "The Rök runestone in Sweden bears the longest known runic inscription, referencing heroic legends and demonstrating sophisticated Norse literary tradition.",
+      "description": "The Rök runestone in Östergötland, Sweden, carved around 800 CE, carries the longest runic inscription ever found — some 760 characters across five faces of the stone, combining standard Younger Futhark runes with multiple encrypted ciphers, raised by a father named Varin for his dead son Vaemod.",
       "wikiSlug": "R%C3%B6k_runestone",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inscription deploys at least two encryption methods — a displacement cipher and special cipher runes — on top of ordinary runes, making it a deliberate puzzle as well as a memorial. Scholars have debated its meaning for over a century; one influential 2020 reading argues Varin was invoking ancient heroes against a recurring climate dread, echoing the catastrophic cold that followed a volcanic event in 536 CE. The stone remains in Rök, Östergötland, beside the local church."
+        }
+      ],
+      "commonsFile": "Rökstenen_1.JPG"
     },
     {
       "id": "evt-younger-futhark",
       "label": "Younger Futhark Develops",
       "year": 800,
-      "description": "The Younger Futhark runic alphabet replaced the Elder Futhark during the Viking Age, reducing the character set from 24 to 16 runes.",
+      "description": "Around 700–800 CE, the runic alphabet used across Scandinavia was deliberately reformed from 24 characters (the Elder Futhark) down to just 16 — the Younger Futhark — optimizing the script for carving into stone while making it harder to read without context.",
       "wikiSlug": "Younger_Futhark",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reduction was paradoxical: it happened just as spoken Old Norse was becoming more phonetically complex, so fewer letters now had to cover more sounds — one rune could stand for both 'p' and 'b', forcing readers to rely on guesswork. The reform also dropped the convention of repeating a rune for a long vowel, so written Old Norse lost the distinction between long and short vowels entirely. It was essentially a writing system engineered for the chisel at the expense of clarity."
+        }
+      ],
+      "commonsFile": "Öl_Fv1911;274B,_Resmo.jpg"
     },
     {
       "id": "evt-paris-siege-885",
@@ -406,10 +601,17 @@
       "id": "evt-trelleborg-fortress",
       "label": "Trelleborg Ring Fortress",
       "year": 980,
-      "description": "Harald Bluetooth built the geometrically precise Trelleborg ring fortresses across Denmark, showcasing advanced Viking military engineering.",
+      "description": "Around 980, King Harald Bluetooth ordered the construction of a network of geometrically identical ring fortresses across Denmark — including Trelleborg on Zealand — each a perfectly circular ramparted enclosure with four-quadrant interiors, symmetric longhouse barracks, and cardinal-direction gates, built to a single architectural plan with a precision unique in early-medieval Europe.",
       "wikiSlug": "Trelleborg_(Slagelse)",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At least seven of these ring castles are now known, with rampart diameters ranging from roughly 460 to 790 feet (140 to 240 m) — all sharing identical proportional ratios between rampart, ditch, and inner courtyard, implying a single master plan and precision surveying instruments. Trelleborg was sited on a peninsula between two rivers connected to the sea, allowing Viking ships direct access. Whether the fortresses served as royal garrisons, military training centers for the Danish levy, or administrative nodes is still debated, but their existence signals the first Scandinavian kingdom capable of organized statecraft at this scale."
+        }
+      ],
+      "commonsFile": "Trelleborg_airphoto.JPG"
     },
     {
       "id": "evt-norse-astronomy",
@@ -424,10 +626,17 @@
       "id": "evt-norse-clinker-ships",
       "label": "Clinker-Built Longships",
       "year": 820,
-      "description": "Viking shipbuilders perfected clinker construction with overlapping planks, producing fast, flexible longships capable of ocean crossings and river navigation.",
+      "description": "The Viking longship was the product of centuries of refining clinker construction — overlapping planks riveted together — topped off with a deep structural keel and a square sail, producing a vessel that was fast, oceangoing, river-capable, and light enough to carry overland on rollers.",
       "wikiSlug": "Longship",
       "tier": 2,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The hull's 'clinker flex' — the ability to twist several inches across its length in heavy seas — is what made the design seaworthy rather than fragile. The Gokstad ship, built around 890, was reconstructed and sailed across the Atlantic in 1893 in just 28 days. Viking longships are sometimes called 'dragonships' because prow and stern were traditionally carved with raised dragonheads, the square sail completing the silhouette of a dragon's wing."
+        }
+      ],
+      "commonsFile": "Viking_longship.png"
     },
     {
       "id": "evt-adam-of-bremen",
@@ -443,23 +652,37 @@
       "label": "Harald Hardrada",
       "year": 1046,
       "endYear": 1066,
-      "description": "King of Norway and former Varangian Guard commander who invaded England in 1066. Often called the last great Viking king.",
+      "description": "Harald Hardrada (HAHR-ald HAR-drah-dah, 'Hard Ruler') was King of Norway from 1046 to 1066 and the most battle-experienced military commander in Northern Europe — a man who had fought his way from an exile's mercenary life through the Byzantine Varangian Guard before seizing the Norwegian throne.",
       "wikiSlug": "Harald_Hardrada",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "people",
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before his invasion of England, Harald spent roughly 15 years as a mercenary-warrior across Kievan Rus' and the Byzantine Empire, rising to lead the Varangian Guard (the elite Norse bodyguard regiment of the Byzantine emperors) and reportedly fighting in Sicily, Bulgaria, and the Holy Land. The Byzantine chronicler Kekaumenos described him as exceptionally cunning and personally fearsome. Adam of Bremen, writing around 1075, gave him the epithet 'Thunderbolt of the North.' His claim to the English throne traced through a maze of dynastic promises involving Magnus the Good and the last Danish king of England — a claim so strained that even his own allies probably didn't believe it, but he had 300 ships and didn't need anyone to agree."
+        }
+      ],
+      "commonsFile": "Harold-III-Coin.png"
     },
     {
       "id": "evt-stamford-bridge",
       "label": "Battle of Stamford Bridge",
       "year": 1066,
-      "description": "Harold Godwinson of England defeated and killed Harald Hardrada of Norway, ending the Viking threat to England. Traditionally marks the end of the Viking Age.",
+      "description": "On September 25, 1066, Harold Godwinson's English army caught Harald Hardrada's Norse invasion force resting, many of them without their armor, at the village of Stamford Bridge in Yorkshire, and annihilated it — ending the Norwegian bid for England and, in retrospect, the age of large-scale Viking seaborne conquest.",
       "wikiSlug": "Battle_of_Stamford_Bridge",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Of the roughly 300 ships that had sailed into the Humber with Hardrada's invasion force, only about 24 were needed to carry the survivors home — a staggering casualty rate that effectively destroyed Norway's capacity to mount another western invasion. The Norse saga tradition preserves a story of a single enormous Norse warrior holding the wooden bridge alone against the whole English army until an English soldier floated under it in a half-barrel and stabbed him from below; this story appears only in later saga sources and not in the Anglo-Saxon Chronicle, but it has the ring of something people told for generations. Hardrada died from an arrow through the throat early in the battle — one of history's most experienced military commanders killed in the opening minutes of his last fight."
+        }
+      ],
+      "commonsFile": "Arbo_-_Battle_of_Stamford_Bridge_(1870).jpg"
     },
     {
       "id": "evt-ragnar-lothbrok",
@@ -488,40 +711,68 @@
       "id": "evt-battle-edington",
       "label": "Battle of Edington",
       "year": 878,
-      "description": "Alfred the Great defeated Guthrum's Viking army, leading to the Treaty of Wedmore and Guthrum's baptism as a Christian.",
+      "description": "In May 878, Alfred the Great — a refugee king hiding in Somerset marshes just months earlier — led the levies of three Wessex shires against Guthrum's Danish army and won the battle that saved the Anglo-Saxon political order.",
       "wikiSlug": "Battle_of_Edington",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alfred had been forced into hiding after Guthrum launched a rare winter surprise attack in January 878, catching Alfred at his hunting lodge at Chippenham during Twelfth Night celebrations. After his victory, Alfred besieged the retreating Danish force in Chippenham for two weeks until they surrendered from starvation. The battle is striking partly for what Alfred was: 28 years old, seven years into his reign, and suffering from a chronic illness his biographer described in terms consistent with Crohn's disease."
+        }
+      ],
+      "commonsFile": "Ethandunmem.jpg"
     },
     {
       "id": "evt-rus-attack-constantinople",
       "label": "Rus' Siege of Constantinople",
       "year": 860,
-      "description": "A Varangian Rus' fleet attacked Constantinople, shocking the Byzantine world and initiating diplomatic and religious contact between the two civilizations.",
+      "description": "In June 860, a Rus' fleet of roughly 200 ships emerged from the Black Sea and plundered the suburbs of Constantinople for ten days while the Byzantine emperor was away on campaign — the first time the Norse reached the most powerful city in Christendom.",
       "wikiSlug": "Rus'–Byzantine_War_(860)",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Patriarch Photius, watching from the walls, preached two surviving sermons calling the attackers 'a nation of no account, ranked among slaves' — a phrase that rings differently knowing those same people would be trading partners within decades. The trigger for the raid, per Byzantine sources, was the construction of the fortress Sarkel, which the Byzantines had built for the Khazars and which blocked a key Rus' trade route along the Don River. The raid left the city itself untouched — the Theodosian Walls were simply too formidable — but the shock to both sides opened the door to a century of raiding-and-treaty diplomacy."
+        }
+      ],
+      "commonsFile": "Moscow_Kremlin_fresco_about_war_in_860.jpg"
     },
     {
       "id": "evt-william-conqueror-normandy",
       "label": "Battle of Hastings",
       "year": 1066,
-      "description": "William of Normandy, a descendant of Viking Rollo, defeated Harold Godwinson just weeks after Stamford Bridge, beginning the Norman conquest of England.",
+      "description": "On October 14, 1066 — less than three weeks after Stamford Bridge — William, Duke of Normandy and great-great-great-grandson of the Viking Rollo, defeated an exhausted English army at Senlac Hill near Hastings, killed Harold Godwinson, and took the English throne, ending the Anglo-Saxon era and completing the Norman Conquest.",
       "wikiSlug": "Battle_of_Hastings",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Harold's two younger brothers, Gyrth and Leofwine, also died at Hastings, which meant the entire senior leadership of the Anglo-Saxon English nobility was wiped out in two battles three weeks apart — a political decapitation with no precedent in English history. William's landing fleet carried roughly 2,000 horses, making it a cavalry-heavy force that fought completely differently from the Norse longship-and-shield-wall model: this was Norman feudal warfare, not Viking raiding. By Christmas Day 1066, William was crowned at Westminster Abbey on the same spot where Harold had been crowned eleven months earlier. The Norman conquest ultimately planted the French-derived vocabulary that makes up around three-quarters of modern English's learned lexicon."
+        }
+      ],
+      "commonsFile": "Bayeux_Tapestry_scene57_Harold_death.jpg"
     },
     {
       "id": "evt-norse-mythology-eddas",
       "label": "Poetic Edda Composed",
       "year": 1012.5,
-      "description": "The poems of the Poetic Edda, preserving Norse mythology including tales of Odin, Thor, and Ragnarok, were composed during the Viking Age and later written down in Iceland.",
+      "description": "The Poetic Edda is the primary surviving source for Norse mythology — a collection of roughly 30 anonymous Old Norse poems, composed in Iceland and Norway during and after the Viking Age, preserved in a single 13th-century manuscript called the Codex Regius that spent four centuries in private hands before being rediscovered in 1643.",
       "wikiSlug": "Poetic_Edda",
       "tier": 2,
       "category": "writing",
       "tags": [
         "religion"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Codex Regius — the sole manuscript containing the Poetic Edda — was discovered by an Icelandic bishop, presented to the Danish king, and survived World War II in a vault in Copenhagen. It was not returned to Iceland until 1971, after decades of Icelandic requests to Denmark for its repatriation. The poems are anonymous, written in alliterative verse, and distinct from (though closely related to) the Prose Edda written by Snorri Sturluson in the 13th century."
+        }
+      ],
+      "commonsFile": "The_Tree_of_Yggdrasil.jpg"
     },
     {
       "id": "evt-olaf-tryggvason",
@@ -558,81 +809,134 @@
       "id": "evt-floki-vilgerdarson",
       "label": "Floki Discovers Iceland",
       "year": 868,
-      "description": "The Norse explorer Floki Vilgerðarson sailed deliberately to Iceland using ravens as navigational aids, becoming the first to overwinter there and giving the island its name.",
+      "description": "Around 868, the Norse explorer Floki Vilgerðarson made the first deliberate sailing voyage to Iceland, navigating by releasing ravens at intervals and following the last bird to land — and gave the island its enduring name.",
       "wikiSlug": "Flóki_Vilgerðarson",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Floki's method of using ravens for navigation — releasing them and watching where they flew — echoes a technique also described in the Old Testament story of Noah's ark, suggesting it was an established practice in seafaring tradition long before Iceland was found. The Landnámabók records that Floki was so captivated by fishing in the fjords that summer that he neglected to make hay, causing his livestock to starve in the brutal winter that followed. Thoroughly unimpressed, he returned to Norway and named the place 'Iceland' — making him the first person to brand a destination negatively in recorded Atlantic exploration history."
+        }
+      ]
     },
     {
       "id": "evt-aud-the-deep-minded",
       "label": "Aud the Deep-Minded",
       "year": 895,
-      "description": "A powerful Irish-Norse noblewoman who led her family and followers from Scotland to Iceland, where she became one of the island's most prominent founding settlers and early Christian converts.",
+      "description": "Aud the Deep-Minded was a ninth-century Irish-Norse noblewoman who, after her husband and son were killed in separate battles, organized and led her household of roughly fifty people from Scotland across the open Atlantic to Iceland, where she became one of the founding settlement's most respected figures.",
       "wikiSlug": "Aud_the_Deep-Minded_(Ketilsdóttir)",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before departing Scotland, Aud freed her slaves and distributed dowries to her granddaughters — acts of deliberate generosity unusual enough that the Landnámabók singles them out for praise. She converted to Christianity before she died, making her one of Iceland's earliest Christians in a predominantly pagan society; she reportedly asked to be buried in the intertidal zone so that she would not lie in unconsecrated ground alongside pagans. Multiple major Icelandic sagas — including Laxdæla saga, Njáls saga, and Eiríks saga rauða — give her significant attention, suggesting her descendants were among the island's most powerful families."
+        }
+      ],
+      "commonsFile": "Krossholar.jpg"
     },
     {
       "id": "evt-egil-skallagrimsson",
       "label": "Egil Skallagrimsson",
       "year": 940,
-      "description": "Iceland's most celebrated skald and warrior, whose complex poems and turbulent life are recorded in Egil's Saga. He exemplified the Viking ideal of the poet-fighter.",
+      "description": "Egill Skallagrímsson (c. 910–990) was an Icelander who combined a career as a berserker raider with being the finest skald of his age — a man who twice used poetry as a literal survival tool, once composing a praise-poem overnight to buy his own head back from his deadliest enemy.",
       "wikiSlug": "Egill_Skallagrímsson",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The poem he composed that night — Höfuðlausn, 'Head-Ransom' — was performed the next morning for King Erik Bloodaxe, the man who had planned to execute him, and it worked: Egill walked free. Years later, after two sons died, Egill locked himself away to starve from grief; his daughter tricked him back to life by giving him the one task he couldn't refuse — composing the memorial poem Sonatorrek ('On the Loss of My Sons'), now considered one of the most raw and personal pieces of early-medieval European verse."
+        }
+      ],
+      "commonsFile": "Egil_Skallagrimsson_17c_manuscript.jpg"
     },
     {
       "id": "evt-thorgeir-lawspeaker",
       "label": "Þorgeirr Decides Iceland's Faith",
       "year": 1000,
-      "description": "The lawspeaker Þorgeirr Ljósvetningagoði, a pagan chieftain, withdrew under his cloak for a day and night before announcing that Iceland would adopt Christianity to prevent civil war.",
+      "description": "In the summer of 1000, Iceland's pagan Lawspeaker Þorgeirr Ljósvetningagoði retreated under his fur cloak for a full day and night before emerging to announce that Iceland would become Christian — resolving a standoff between pagan and Christian factions that had threatened to tear the country apart.",
       "wikiSlug": "Þorgeirr_Ljósvetningagoði",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Þorgeirr had served as Lawspeaker at the Althing since 985, making him one of the most respected legal figures in Iceland. His compromise was carefully balanced: public Christianity was mandatory, but private pagan worship, horse-meat eating, and infant exposure — all customs the church banned — were tolerated. He reportedly then walked to the nearest waterfall and threw his own pagan idols into it."
+        }
+      ]
     },
     {
       "id": "evt-norse-blot-sacrifice",
       "label": "Norse Blót Sacrifice Tradition",
       "year": 850,
-      "description": "The blót was a central Norse religious ritual involving animal sacrifice to honor the gods — particularly Odin, Thor, and Freyr — at seasonal festivals held across Scandinavia.",
+      "description": "The blót (BLOTE) was the core Norse religious ceremony: a ritual animal sacrifice to a specific god, followed by a communal feast in which the meat was eaten and ale was toasted in the names of the gods. It was as much a political act as a religious one — rulers were expected to perform it on behalf of their people, and those who refused could be replaced.",
       "wikiSlug": "Blót",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Blót was closely tied to the legitimacy of rulers: Christian kings who refused to hold them were at times driven out of their lands and replaced by more willing alternatives. Beyond the large public ceremonies in halls, smaller household blóts were sometimes led by women. The rituals served a wide range of purposes beyond harvest and fertility — they were also performed for legal matters and divination."
+        }
+      ]
     },
     {
       "id": "evt-disablot-midwinter",
       "label": "Dísablót Midwinter Festival",
       "year": 870,
-      "description": "The Dísablót was a Norse midwinter sacrifice performed in honor of the dísir — female spirits tied to fertility and fate. It was observed across Scandinavia and early Iceland.",
+      "description": "The Dísablót was a midwinter sacrifice performed in honor of the dísir — collective female spirits associated with fertility and fate. Particularly important in Sweden, it was meant to secure a good harvest in the coming year.",
       "wikiSlug": "Dísablót",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Dísablót is mentioned in several major Norse sagas, including Egils saga and Heimskringla, suggesting it was widely observed. Its cultural legacy is surprisingly durable: the annual Disting fair held in Uppsala, Sweden, which still takes place today, is a direct continuation of the ancient Dísablót gathering at that site."
+        }
+      ],
+      "commonsFile": "Disarblot_by_Malmström.jpg"
     },
     {
       "id": "evt-conversion-denmark-bluetooth",
       "label": "Harald Bluetooth Converts Denmark",
       "year": 960,
-      "description": "Harald Bluetooth accepted Christian baptism and ordered the Christianization of Denmark, erecting the great Jelling Stones as a monument to the new faith and his political authority.",
+      "description": "Harald Bluetooth, king of Denmark from around 958 to 986, accepted Christian baptism and made Christianity the official religion of Denmark — the first Scandinavian kingdom to formally convert. His motives were as political as they were religious: the Holy Roman Empire under Otto I viewed pagan neighbors as legitimate targets for crusade.",
       "wikiSlug": "Christianization_of_Denmark",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The story of Harald's conversion involves a monk named Poppo, who reportedly carried a red-hot iron bar in his bare hand without injury to prove Christianity's power — a miracle story that appears in many medieval conversion accounts and was almost certainly a conventional literary device rather than a literal event. Harald's own son Sweyn Forkbeard revolted against him around 986, drove him into exile, and Harald died of his wounds soon after. Denmark established its own archdiocese directly responsible to the pope in 1104."
+        }
+      ],
+      "commonsFile": "Dalby_Heligkorskyrka.jpg"
     },
     {
       "id": "evt-temple-at-uppsala",
       "label": "Great Heathen Temple at Uppsala",
       "year": 1000,
-      "description": "The massive pagan temple at Uppsala in Sweden, described by Adam of Bremen around 1075, held golden statues of Odin, Thor, and Freyr and hosted great sacrificial feasts every nine years.",
+      "description": "The great pagan temple at Uppsala in central Sweden was the last major holdout of Norse paganism — a national royal cult site where enormous sacrificial festivals were held, reportedly every nine years, until it was finally destroyed and replaced by a Christian church around 1090.",
       "wikiSlug": "Temple_at_Uppsala",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Our main description comes from Adam of Bremen, a German cleric writing around 1075, who reported three large gold-adorned wooden statues of Thor, Odin, and Freyr, with Thor given the central position — suggesting Thor's dominance in Swedish religious life. A sacred grove next to the temple apparently displayed the hanging bodies of sacrificial victims including humans, horses, and dogs. According to later medieval sources the temple was destroyed by King Inge the Elder in the 1080s, though no contemporary sources confirm this."
+        }
+      ],
+      "commonsFile": "Olaus_Magnus_-_On_the_Glorious_Temple_Devoted_to_the_Nordic_Gods.jpg"
     },
     {
       "id": "evt-olaf-haraldsson-sainthood",
@@ -658,61 +962,101 @@
       "id": "evt-volga-trade-route",
       "label": "Volga Trade Route to Baghdad",
       "year": 900,
-      "description": "Norse Varangian traders navigated the Volga river system to reach the Caspian Sea and the Abbasid Caliphate, exchanging furs and slaves for vast quantities of Islamic silver dirhams.",
+      "description": "From roughly 800 onward, Norse Varangian traders rowed the Volga river system south to the Caspian Sea, trading furs, amber, and slaves to the Abbasid Caliphate for enormous quantities of Islamic silver coins — the economic engine of the entire Viking Age.",
       "wikiSlug": "Volga_trade_route",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scale of the dirham flow is staggering: archaeologists have recovered hundreds of thousands of Abbasid silver coins from Scandinavian and Baltic hoards alone. The Spillings hoard on Gotland (found 1999) held about 14,000 coins weighing 67 kilograms — the largest single Viking silver hoard ever found — and it is one of dozens. Chess traveled north along this same route, reaching medieval Rus' from Persia and Arabia before spreading further into Scandinavia. The Volga Bulgars, a seminomadic confederation in what is now central Russia, acted as key middlemen, running their own cities of Bulgar and Suvar as trade hubs between the Norse north and the Islamic south."
+        }
+      ],
+      "commonsFile": "Volok_by_Roerich.jpg"
     },
     {
       "id": "evt-norse-longhouse",
       "label": "Norse Longhouse Construction",
       "year": 800,
-      "description": "The timber-framed Norse longhouse, housing family and livestock under one roof, was the fundamental unit of Viking settlement from Norway to Iceland and Greenland, engineered to withstand harsh northern winters.",
+      "description": "The Norse longhouse — a single long room, typically 50 to 100 feet long, with thick earthen walls, a turf roof, a central hearth, and animals at one end and people at the other — was the fundamental unit of Viking settlement, transplanted intact from Norway to Iceland, Greenland, and Newfoundland.",
       "wikiSlug": "Lofotr_Viking_Museum",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "There were no chimneys; smoke rose to the rafters and seeped out through gable vents, meaning visibility inside was permanently limited. Raised wooden platforms down both sides of the central hearth served as bench, table, workbench, and bed — every member of the household slept in the same room. The Lofotr Viking Museum in Norway is built around the excavated and reconstructed remains of one of the largest chieftain's longhouses ever found."
+        }
+      ],
+      "commonsFile": "Borg-Wikingermuseum-10-Langhaus-2019-gje.jpg"
     },
     {
       "id": "evt-runestone-memorial-tradition",
       "label": "Runestone Memorial Tradition",
       "year": 1020,
-      "description": "Thousands of runestones erected across Scandinavia, especially in Sweden, recorded names, deeds, and journeys — the largest corpus of Viking Age written records and a unique epigraphic tradition.",
+      "description": "Between roughly 950 and 1100 CE, Scandinavians — especially in Sweden — raised thousands of carved stone memorials bearing runic inscriptions for the dead, producing the largest body of vernacular written records from any early-medieval European culture.",
       "wikiSlug": "Runestone",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Runestones were originally painted in bright colors when erected, though the pigment has long since worn away. Sweden holds around 2,500 Viking-Age examples, most clustered around the Lake Mälaren region near modern Stockholm — the merchant heartland whose sons went east and often didn't return. The tradition began as early as the 4th century and ran into the 12th, but the overwhelming bulk dates from the late Viking Age, when the stones also began incorporating crosses as Christianity arrived."
+        }
+      ],
+      "commonsFile": "U_240,_Lingsberg.JPG"
     },
     {
       "id": "evt-iona-second-raid",
       "label": "Second Sack of Iona",
       "year": 825,
-      "description": "Vikings returned to Iona in 825, killing the abbot Blathmac when he refused to reveal the hiding place of St. Columba's relics. The massacre forced the abandonment of the original monastery.",
+      "description": "In 825, Vikings returned to Iona for a final, decisive attack. The abbot Blathmac refused to reveal the hiding place of St. Columba's silver shrine and was tortured to death on the altar. After this massacre, the original Iona community largely abandoned the island and relocated permanently to Kells in Ireland.",
       "wikiSlug": "Blathmac",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Blathmac is recorded as an Irish monk who had deliberately come to Iona knowing the Vikings might return, seeking martyrdom — a conscious choice documented in a later Latin poem by Walahfrid Strabo, a Carolingian scholar who wrote about his death within years of it happening."
+        }
+      ]
     },
     {
       "id": "evt-hamburg-sacked",
       "label": "Sack of Hamburg",
       "year": 845,
-      "description": "A Norse fleet under the chieftain Horik destroyed the newly founded Archbishopric of Hamburg, forcing Archbishop Ansgar to flee and setting back Christian missionary work in Scandinavia by decades.",
+      "description": "In 845, a Norse fleet under the Danish chieftain Horik destroyed the newly founded Archbishopric of Hamburg, the first foothold of Christian missionary work in Scandinavia, forcing Archbishop Ansgar to flee for his life. The attack set back the conversion of Scandinavia by a generation.",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hamburg had been founded as an archbishopric only years earlier, in 831, specifically as a base for converting the Norse and Slavic peoples to the north and east. Ansgar, the so-called \"Apostle of the North,\" had already made one modest missionary journey to the Swedish trading town of Birka before the raid wiped out his institutional base."
+        }
+      ]
     },
     {
       "id": "evt-hastein-mediterranean",
       "label": "Hastein's Mediterranean Raid",
       "year": 859,
       "endYear": 862,
-      "description": "The Norse warlords Hastein and Björn Ironside led a fleet of 62 ships through the Strait of Gibraltar, raiding the coasts of Iberia, Morocco, the south of France, and northern Italy, sacking Pisa and other cities.",
+      "description": "From 859 to 862, the Norse warlords Hastein and Björn Ironside led 62 ships through the Strait of Gibraltar on an unprecedented three-year rampage through the Mediterranean, raiding Iberia, Morocco, the south of France, and northern Italy. They sacked the Italian port city of Pisa and may have reached the North African coast.",
       "wikiSlug": "Hastein",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fleet spent a winter camped in the Camargue wetlands at the mouth of the Rhône, using it as a base to raid up the river into Provence — showing the same river-penetration tactics the Norse were already using in France and Ireland. By the time the survivors returned to Brittany in 862, roughly half the original fleet was gone; the raid was a financial disaster, but it proved a Norse fleet could reach any coastline in the known world."
+        }
+      ],
+      "commonsFile": "Hasting_859_in_Luna.jpg"
     },
     {
       "id": "evt-repton-winter-camp",
@@ -728,41 +1072,69 @@
       "id": "evt-hafrsfjord",
       "label": "Battle of Hafrsfjord",
       "year": 872,
-      "description": "Harald Fairhair decisively defeated rival petty kings at Hafrsfjord, unifying Norway under a single ruler for the first time. The victory drove many Norse chieftains to settle Iceland rather than submit.",
+      "description": "Harald Fairhair's naval victory at Hafrsfjord, fought sometime between 872 and 900, broke the last coalition of rival Norwegian petty kings and made Harald the first ruler of a unified Norway.",
       "wikiSlug": "Battle_of_Hafrsfjord",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The exact date of the battle is still debated by historians — the traditional year of 872 derives from Icelandic saga chronology working backward from known events, and modern historians place it anywhere between 872 and 900. Harald's unification had an unintended consequence: chieftains who refused submission emigrated, and Iceland — empty, far away, and beyond Harald's reach — was the most attractive destination. The sagas present this flight as a love of freedom, but it was also practical: outlaws and the dispossessed had nothing to lose."
+        }
+      ],
+      "commonsFile": "Ole_Peter_Hansen_Balling_Harald_Hårfagre_i_slaget_ved_Hafrsfjord.jpg"
     },
     {
       "id": "evt-oleg-of-kiev",
       "label": "Oleg Moves Capital to Kiev",
       "year": 882,
-      "description": "The Varangian prince Oleg seized Kiev from two other Rus' chieftains and declared it 'the mother of Rus' cities,' founding Kievan Rus' and establishing the Dnieper trade route to Constantinople.",
+      "description": "In 882, the Varangian prince Oleg seized Kiev by luring its two existing rulers to a meeting and killing them, then declared it 'the mother of Rus' cities' — the act that conventionally marks the founding of Kievan Rus'.",
       "wikiSlug": "Oleg_of_Novgorod",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Oleg's name is simply the Old Norse 'Helgi' — one of the clearest markers that the founders of the Kievan state were Scandinavians who had not yet assimilated. His choice of Kiev over Novgorod was commercially astute: the city commanded the Dnieper route to Constantinople, which became the main artery of Rus' wealth. He reportedly secured a trade treaty with Byzantium in 907 that gave Rus' merchants extraordinary privileges — free lodging and monthly stipends of bread, wine, and fish paid by the empire itself."
+        }
+      ],
+      "commonsFile": "Приношение_князю_Олегу_дани_покоренными_народами.jpg"
     },
     {
       "id": "evt-treaty-wedmore",
       "label": "Treaty of Wedmore",
       "year": 878,
-      "description": "After his defeat at Edington, the Viking leader Guthrum accepted Christian baptism with Alfred the Great as his godfather, then signed the Peace of Wedmore that divided England between Saxon and Danish spheres.",
+      "description": "After his defeat at Edington, the Danish warlord Guthrum accepted Christian baptism with Alfred as his godfather and signed a peace agreement that set legal boundaries between Saxon Wessex and Danish-ruled England.",
       "wikiSlug": "Treaty_of_Alfred_and_Guthrum",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At his baptism Guthrum took the Christian name Æthelstan — 'noble stone' — a politically loaded choice that signaled his intention to be seen as a legitimate English ruler rather than a foreign invader. The treaty did not just divide territory; it also set weregild values (compensation payments for killing) that placed Danes and Saxons of equal rank on equal legal footing, a remarkable acknowledgment of parity between the two peoples. The surviving text is one of the earliest bilingual legal documents in English history."
+        }
+      ],
+      "commonsFile": "Blue_Sky_Above_-_geograph.org.uk_-_4343590.jpg"
     },
     {
       "id": "evt-ingolfr-arnarson",
       "label": "Ingólfr Arnarson Settles Reykjavík",
       "year": 874,
-      "description": "Ingólfr Arnarson became the first confirmed permanent Norse settler in Iceland, casting his high-seat pillars into the sea and building his hall where they washed ashore — the site of modern Reykjavík.",
+      "description": "Ingólfr Arnarson sailed from Norway with his wife Hallveig and foster brother Hjörleifr and became the first confirmed permanent Norse settler in Iceland, establishing his homestead at what is now Reykjavík in 874.",
       "wikiSlug": "Ingólfr_Arnarson",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "According to the Landnámabók, Ingólfr threw his carved high-seat pillars — sacred wooden posts that marked the chieftain's seat in a longhouse — into the sea as he approached the coast, then built his hall wherever they washed ashore. His thralls (slaves) who had murdered Hjörleifr were tracked down and killed by Ingólfr on the Westman Islands, which are said to take their name from the Irish thralls ('westmen' being the Norse term for Irish people). The founding ritual of casting the pillars to let the gods choose the land site set the tone for an entire society's approach to pagan divination."
+        }
+      ],
+      "commonsFile": "Ingolf_by_Raadsig.jpg"
     },
     {
       "id": "evt-ansgar-birka-mission",
@@ -778,52 +1150,84 @@
       "id": "evt-danegeld-ethelred",
       "label": "Æthelred Pays First Danegeld",
       "year": 991,
-      "description": "Following the Viking victory at the Battle of Maldon, King Æthelred the Unready paid 10,000 pounds of silver to buy peace — the first of escalating Danegeld tribute payments that would total tens of thousands of pounds over the next two decades.",
+      "description": "Starting in 991 after the Battle of Maldon, the Anglo-Saxon king Æthelred II began paying massive silver tributes — called Danegeld (\"Dane-payment\") — to Viking armies to buy them off. Payments escalated from 10,000 pounds of silver in 991 to 48,000 pounds in 1012, totaling perhaps 250,000 pounds over his reign.",
       "wikiSlug": "Danegeld",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The term 'Danegeld' itself didn't appear until the late 11th century — contemporaries called it gafol (tribute) or heregeld (army-tax). The mechanism was straightforward and crushingly effective: pay the raiders more than it costs to raid, and the raids continue escalating. England paid more silver to Viking armies during Æthelred's reign than its entire annual royal revenue — the Danegeld was both a protection racket and, paradoxically, a proof of how rich England was, which only attracted more raiders."
+        }
+      ],
+      "commonsFile": "U_241,_Lingsberg.JPG"
     },
     {
       "id": "evt-st-brice-massacre",
       "label": "St. Brice's Day Massacre",
       "year": 1002,
-      "description": "King Æthelred ordered the killing of all Danes in England on St. Brice's Day, November 13, 1002. The massacre included the sister of Sweyn Forkbeard and helped trigger the Danish conquest of England.",
+      "description": "On November 13, 1002 — St. Brice's Day — King Æthelred ordered the killing of all Danes living in England. The order was carried out with appalling thoroughness in some areas: at Oxford, Danes who took shelter in a church were burned alive inside it. Among the dead was Gunhilde, the sister of Sweyn Forkbeard of Denmark, whose murder became the personal trigger for Sweyn's decade-long war of conquest that ultimately ended the Anglo-Saxon kingdom.",
       "wikiSlug": "St._Brice%27s_Day_massacre",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "How many people died is unknowable — estimates range from hundreds to thousands, and enforcement was uneven: in the Danelaw (eastern England, where Danish settlers were the majority) the order was largely ignored, while in Wessex and the south it appears to have been carried out. Archaeological excavations at St John's College, Oxford in 2008 found a mass grave of 34–38 individuals showing signs of violent death and burning, almost certainly victims of the massacre. Æthelred's stated justification was fear of a Danish fifth-column conspiracy — but the actual effect was to give Sweyn Forkbeard a personal vendetta and a propaganda gift."
+        }
+      ]
     },
     {
       "id": "evt-igor-constantinople-raid",
       "label": "Igor of Kiev Raids Constantinople",
       "year": 941,
-      "description": "Igor of Kiev led a massive Rus' fleet against Constantinople but was repulsed by Greek fire — a catastrophic defeat that nonetheless prompted a major trade treaty with Byzantium in 944.",
+      "description": "In 941, Igor of Kiev launched the largest Rus' assault on Constantinople yet — and ran straight into Greek fire, the Byzantine navy's secret incendiary weapon, which burned his fleet to the waterline.",
       "wikiSlug": "Rus%27%E2%80%93Byzantine_War_(941)",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Greek fire was projected through bronze siphons mounted on warship prows and clung to water and wood, burning even as men tried to douse it — the formula was a Byzantine state secret so jealously guarded that it was eventually forgotten entirely and has never been definitively reconstructed. Igor survived with a fraction of his fleet and mounted another raid in 944; the Byzantines, exhausted, signed a fresh trade treaty. He was then killed in 945 by the Drevlian tribe when he tried to collect their tribute a second time in one season — the kind of small, local grievance that could end even a major ruler."
+        }
+      ]
     },
     {
       "id": "evt-olga-of-kiev",
       "label": "Olga of Kiev Regent and Convert",
       "year": 945,
       "endYear": 964,
-      "description": "After her husband Igor was killed, Olga ruled Kievan Rus' as regent with legendary ferocity. She later converted to Orthodox Christianity in Constantinople (~957), paving the way for the Christianization of Rus' under her grandson Vladimir.",
+      "description": "Olga of Kiev ruled as regent after her husband Igor was murdered in 945, becoming the most formidable Rus' ruler of her generation — and in about 957 she traveled to Constantinople and accepted Christian baptism, the first Rus' ruler to do so.",
       "wikiSlug": "Olga_of_Kiev",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Her revenge against the Drevlians who killed Igor was thorough enough to make it into chronicles as legend: she reportedly buried their first envoys alive, burned a second delegation in a bathhouse, and then burned their capital city. She took the baptismal name Elena and the Byzantine emperor Constantine VII Porphyrogenitus stood as her godfather — he even left a court-protocol manual describing her visit in detail. Her son Svyatoslav refused to convert, saying his warband would mock him, but Olga had started something her grandson Vladimir would finish."
+        }
+      ],
+      "commonsFile": "St_Olga_by_Nesterov_in_1892_(cropped).jpg"
     },
     {
       "id": "evt-vladimir-converts-rus",
       "label": "Vladimir the Great Baptizes Rus'",
       "year": 988,
-      "description": "Prince Vladimir of Kiev converted to Orthodox Christianity and ordered the mass baptism of Kiev's population in the Dnieper River, permanently orienting Rus' civilization toward Byzantium rather than Rome.",
+      "description": "In 988, Prince Vladimir of Kiev converted to Orthodox Christianity and ordered the population of Kiev baptized en masse in the Dnieper River, permanently aligning Rus' civilization with Byzantium and setting Russia on its distinct cultural path for the next thousand years.",
       "wikiSlug": "Christianization_of_Kievan_Rus%27",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Primary Chronicle preserves Vladimir's famous rejection of Islam: asked why he wouldn't adopt it, he reportedly said 'Drinking is the joy of the Russians; we cannot live without it.' The choice of Orthodoxy over Roman Catholicism or Islam was consequential in every direction — it brought the Cyrillic alphabet (invented by Byzantine missionaries for converting Slavs), Byzantine architectural styles, and a political theology that Russian tsars would still be drawing on centuries later. Vladimir's first act after conversion was having the wooden idol of the thunder god Perun tied to a horse's tail, dragged to the Dnieper, and beaten with sticks by twelve men before being thrown in the river."
+        }
+      ]
     },
     {
       "id": "evt-svyatoslav-destroys-khazars",
@@ -850,21 +1254,35 @@
       "id": "evt-ladby-ship-burial",
       "label": "Ladby Ship Burial",
       "year": 925,
-      "description": "A Danish chieftain was interred in the Ladby ship in Funen, Denmark, along with horses, dogs, and hunting equipment — the only Viking ship burial found in Denmark and a key archaeological site.",
+      "description": "Around 925 CE a powerful Danish chieftain was buried inside a full-sized longship at Ladby on the island of Funen, accompanied by eleven horses, four dogs, and hunting equipment — the only Viking ship burial ever found in Denmark.",
       "wikiSlug": "Ladby_ship",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike the Oseberg and Gokstad ships in Norway, the Ladby ship was not preserved above ground: it decayed in the soil, leaving only its iron rivets and impression in the earth. The burial also included the remains of anchor chain and the ship's prow fitting. The site has been preserved in place under a burial mound and is now a museum — visitors walk into the mound to see the iron-rivet outline of the ship exactly where it was found."
+        }
+      ],
+      "commonsFile": "Ladbyskibet.jpg"
     },
     {
       "id": "evt-waterford-limerick-wexford",
       "label": "Viking Towns in Ireland",
       "year": 914,
-      "description": "Norse settlers founded the fortified trading towns of Waterford, Limerick, and Wexford in Ireland, which grew into the island's first true urban centers and major slave-trade hubs.",
+      "description": "Norse settlers established fortified trading towns at Waterford, Limerick, and Wexford in Ireland during the 9th and 10th centuries, each beginning as a longphort (defended ship-camp) and growing into a permanent urban settlement with its own walls, laws, and slave markets.",
       "wikiSlug": "Viking_Age_in_Ireland",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These were Ireland's first true cities — pre-Viking Ireland had no urban settlements at all, only monasteries and seasonal fairs. By the year 1000, the Norse communities in these towns had intermarried so thoroughly with the Irish that \"Norse-Irish\" was a recognized ethnic category, with its own hybrid language and legal customs; when Brian Boru defeated a Norse-Irish coalition at Clontarf in 1014, the Vikings he was fighting were already half-Irish."
+        }
+      ],
+      "commonsFile": "Viking_Ireland.png"
     },
     {
       "id": "evt-olof-skotkonung",
@@ -901,11 +1319,18 @@
       "id": "evt-skaldic-poetry",
       "label": "Skaldic Poetry Tradition",
       "year": 860,
-      "description": "Norse skalds composed intricate court poetry in strict meters laden with kennings — elaborate metaphorical compounds — to praise kings and commemorate battles. Skaldic verse is one of the primary primary sources for Viking Age history.",
+      "description": "From roughly the 9th century onward, professional Norse poets called skalds composed elaborate praise-verse for kings and chieftains in the tightly locked court meter dróttkvætt — a form so constrained that a memorized stanza could be passed down centuries without a single word slipping out of place.",
       "wikiSlug": "Skaldic_poetry",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Dróttkvætt demands eight lines per stanza, six syllables per line, strict alliteration rules, full internal rhyme in even lines and half-rhyme in odd lines — all at once, with word order freely scrambled to fit. On top of this sat kennings, nested compound metaphors: a sword is 'the icicle of blood,' the battle it swings in becomes 'the icicle-of-blood storm,' and the warrior becomes 'the feeder of ravens of the icicle-of-blood storm.' A trained skald was expected to improvise this on his feet in a live hall setting."
+        }
+      ],
+      "commonsFile": "A_minstrel_sings_of_famous_deeds_by_J._R._Skelton_c_1910.jpg"
     },
     {
       "id": "evt-erik-red-exile",
@@ -931,11 +1356,18 @@
       "id": "evt-battle-maldon",
       "label": "Battle of Maldon",
       "year": 991,
-      "description": "A Viking army defeated the English at Maldon, Essex — a battle immortalized in an Old English poem celebrating the heroic last stand of Ealdorman Byrhtnoth. The defeat prompted the first major Danegeld payment.",
+      "description": "On August 10–11, 991, a Viking force defeated the English army of Ealdorman Byrhtnoth on the Essex coast at Maldon — a battle that prompted the first major Danegeld payment and inspired one of the greatest surviving poems in Old English, celebrating Byrhtnoth's bodyguards who chose death over flight.",
       "wikiSlug": "Battle_of_Maldon",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Old English poem 'The Battle of Maldon' preserves the battle cry that became a defining statement of Anglo-Saxon warrior ethics: 'Heart shall be the harder, mind the keener, courage the more, as our strength lessens.' Byrhtnoth himself made a fateful tactical blunder: he allowed the Vikings, bottled up on a tidal causeway, to cross to the mainland so the two armies could fight on equal ground — an act of chivalric pride the poem calls his ofermod (overconfidence or excessive pride). Archbishop Sigeric of Canterbury personally advised Æthelred to pay the 10,000-pound ransom rather than keep fighting."
+        }
+      ],
+      "commonsFile": "Alfred_Pearseː_Battle_of_Maldon_in_991_(Hutchinson's_Story_of_the_British_Nation,_1922).jpg"
     },
     {
       "id": "evt-magnus-barefoot",
@@ -972,10 +1404,16 @@
       "id": "evt-dublin-slave-trade",
       "label": "Dublin Slave Market",
       "year": 870,
-      "description": "Viking Dublin became the largest slave market in northern Europe, with Norse raiders selling Irish, English, and Scottish captives to buyers across the Norse world and the Islamic caliphates. Slavery was central to Viking Age economics.",
+      "description": "For most of the Viking Age, Dublin served as the largest slave market in northern Europe, where Norse raiders sold Irish, English, and Scottish captives to buyers who then moved them across the Norse world and as far east as the Islamic caliphates in exchange for silver.",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Recent genetic analysis suggests that roughly a quarter of Iceland's founding population descended from women taken as slaves from Ireland and Scotland — one measure of the trade's scale. The Old Norse word for a slave, *þræll* (thrall), passed directly into English and survived as the word 'thrall' (meaning to be held in bondage or completely captivated), a linguistic fossil of the institution. Slave-raiding was not incidental to Viking economics; the silver that funded chieftains' gift-giving and wars flowed substantially from the slave trade."
+        }
+      ]
     },
     {
       "id": "evt-codex-regius",
@@ -1061,11 +1499,18 @@
       "id": "evt-tostig-godwinson",
       "label": "Tostig Godwinson",
       "year": 1066,
-      "description": "Earl of Northumbria and younger brother of King Harold Godwinson, exiled in 1065 after his subjects revolted against his harsh rule. Tostig allied with Harald Hardrada to invade England in 1066, joining the Norse fleet that landed in Yorkshire. He was killed alongside Hardrada at the Battle of Stamford Bridge.",
+      "description": "Tostig Godwinson was Harold Godwinson's younger brother and former Earl of Northumbria — expelled from England in 1065 after his own subjects revolted against his brutal rule, and then killed at Stamford Bridge alongside the Norwegian king he had recruited to help him take revenge.",
       "wikiSlug": "Tostig_Godwinson",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tostig spent the months before the invasion shopping his proposal around European courts: he visited King Sweyn of Denmark (who refused), his own brother Harold (who reportedly offered him back his earldom, which he also refused), and King Malcolm of Scotland before finally finding a willing partner in Harald Hardrada of Norway. The rebellion that got him expelled was led partly by his own thanes in Northumbria, who objected to his heavy taxation and arbitrary killings — an unusual case of a magnate's own subjects petitioning the king to remove him."
+        }
+      ],
+      "commonsFile": "Cambridge,_University_Library,_MS_Ee.3.59,_fol._24v.png"
     },
     {
       "id": "evt-magnus-the-good",
