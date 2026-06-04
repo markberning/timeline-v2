@@ -63,7 +63,16 @@ function parse(md) {
       break
     }
 
-    if (FIG_RE.test(t)) continue // figure anchor — added in the later image pass
+    if (FIG_RE.test(t)) {
+      // [FIGURE: desc | caption | credit | src?] — the 4th field is the resolved,
+      // born-verified image path. Emit an image block once it's filled in; until
+      // then the anchor is just a planning note (desc = the image-finding brief).
+      const inner = t.replace(/^\[FIGURE:/i, '').replace(/\]\s*$/, '')
+      const f = inner.split('|').map(s => s.trim())
+      const src = f[3] || ''
+      if (src) blocks.push({ fig: src, cap: f[1] || '', credit: f[2] || '' })
+      continue
+    }
 
     if (t.startsWith('## ')) {
       const h = t.slice(3).trim()
