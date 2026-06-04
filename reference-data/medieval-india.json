@@ -65,313 +65,493 @@
       "id": "evt-gupta-collapse",
       "label": "Gupta Empire Fragments",
       "year": 550,
-      "description": "After successive Hun invasions and provincial revolts, the Gupta Empire dissolved into competing regional kingdoms across north India. The Maukharis took the western Ganges plain, the Maitrakas held Gujarat, the Pushyabhutis built up Thanesar in modern Haryana, and Bengal split into Gauda and Vanga. The political fragmentation that followed would last, with one brief Harsha-era exception, until the Delhi Sultanate.",
+      "description": "The Gupta Empire — classical India's golden age — did not fall in one dramatic blow but dissolved slowly between roughly 450 and 550 CE as provincial governors stopped paying tribute, the treasury ran dry fighting Hephthalite Huns, and dynastic infighting did the rest. What replaced it was not another empire but a patchwork of regional kingdoms that would define Indian politics for the next six centuries.",
       "wikiSlug": "Gupta_Empire#Decline",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Guptas issued some of the finest gold coinage in the ancient world, but Skandagupta's war coins are noticeably debased — more base metal, less pure gold — the clearest archaeological signal that the treasury was under severe strain. The last attested Gupta emperor, Vishnugupta, ruled a much-reduced territory in eastern Magadha until around 550 CE, after which Gupta inscriptions simply stop, with no formal abdication or recorded end."
+        }
+      ],
+      "commonsFile": "Ajanta_Padmapani.jpg"
     },
     {
       "id": "evt-pushyabhuti-dynasty",
       "label": "Pushyabhuti Dynasty",
       "year": 580,
       "endYear": 647,
-      "description": "The Pushyabhuti (or Vardhana) dynasty rose at Thanesar in the late sixth century and produced the last great north Indian emperor before the Turkic invasions. Founded by Pushyabhuti and consolidated by Prabhakaravardhana, the dynasty's reach extended from the Punjab eastward across the upper Ganges plain.",
+      "description": "The Pushyabhuti dynasty (also called the Vardhana dynasty) rose at Thanesar in the Punjab in the late sixth century and produced north India's last great pre-Sultanate emperor. The dynasty lasted barely two generations beyond its founder but achieved more territorial control than any north Indian power since the Guptas.",
       "wikiSlug": "Vardhana_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dynasty's home base at Sthanveshvara (Thanesar) was already a major Hindu pilgrimage site associated with the god Shiva, which gave the early Pushyabhutis a religious legitimacy that helped them attract regional allies. Harsha eventually relocated the capital to Kannauj — symbolically absorbing his murdered brother-in-law's Maukhari kingdom — but the Thanesar origins explain why the dynasty is sometimes called the Thanesar kingdom in older scholarship. The entire dynasty's run from founding to extinction spans only about seventy years."
+        }
+      ],
+      "commonsFile": "Indian_Stone_Statue-_Lion_Capital,_Vardhana_7th_Century_CE_Gwalior.jpg"
     },
     {
       "id": "evt-harsha-empire",
       "label": "Harsha of Kannauj",
       "year": 606,
       "endYear": 647,
-      "description": "Harshavardhana of the Pushyabhuti dynasty united much of north India under a single throne for forty-one years from his capital at Kannauj. He patronized Buddhism and Hindu sects equally, hosted the Chinese pilgrim Xuanzang, wrote three Sanskrit plays, and held the great religious assemblies at Prayag every five years where he distributed his entire treasury to monks and Brahmins.",
+      "description": "Harshavardhana of the Pushyabhuti dynasty ruled north India from 606 to 647 CE from his capital at Kannauj — the last Hindu emperor to unite the Gangetic plain before the Turkic invasions. He held the throne through constant military movement, personal piety, and generous religious patronage across Buddhist, Shaivite, and Vaishnava traditions equally.",
       "wikiSlug": "Harsha",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Harsha came to power at sixteen after his older brother Rajyavardhana was assassinated at a parley with the Bengal king Shashanka — one of the more dramatic succession stories of the medieval period. The wikiExtract notes he had previously defeated the Alchon Huns, a Hunnic successor people who had ravaged northwest India in the previous century, lending his reign a restoration quality. When he died in 647 without an heir, his empire dissolved within months — every decade of north Indian unity he achieved came purely from personal effort, not institutional design."
+        }
+      ],
+      "commonsFile": "King_Harsha_pays_homage_to_Buddha.jpg"
     },
     {
       "id": "evt-banabhatta-harshacharita",
       "label": "Banabhatta and the Harshacharita",
       "year": 640,
-      "description": "Banabhatta, Harsha's court poet, composed the Harshacharita ('Deeds of Harsha') — the first surviving Sanskrit historical biography of an actual king. Its ornate prose set the standard for Sanskrit court literature, and its detailed account of Harsha's accession is one of the most valuable narrative sources for seventh-century India.",
+      "description": "Banabhatta was Harsha's court poet and the most accomplished Sanskrit prose stylist of the medieval period. He wrote the Harshacharita — the first surviving Sanskrit biography of a real, contemporary king — and the sprawling romance Kadambari, which he left unfinished at his death; his son Bhushanabhatta completed it.",
       "wikiSlug": "Bāṇabhaṭṭa",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Kadambari is actually more famous in modern India than the Harshacharita: it remains a standard text in university Sanskrit programs and is often the first introduction students have to mature kavya prose style. Bana's reputation in Sanskrit literary tradition is summed up by the saying \"Banochhistam Jagatsarvam\" — roughly, \"Bana has described everything in this world and nothing is left.\" His prose is notoriously dense even for fluent Sanskritists, requiring constant reference to commentary."
+        }
+      ]
     },
     {
       "id": "evt-xuanzang-pilgrimage",
       "label": "Xuanzang's Indian Pilgrimage",
       "year": 630,
       "endYear": 645,
-      "description": "The Chinese Buddhist monk Xuanzang spent fifteen years traveling across India to collect Buddhist scriptures, study at Nalanda, and return with 657 Sanskrit texts to translate into Chinese. His travelogue, the Records of the Western Regions, is the single most detailed eyewitness description of seventh-century Indian society — temples, monasteries, kings, dietary customs, court ceremonies, and the geography of every major route.",
+      "description": "Chinese Buddhist monk Xuanzang spent fifteen years (630–645 CE) traveling India without imperial permission, studying at Nalanda, and returning with 657 Sanskrit manuscripts — then spent the rest of his life translating them into Chinese, producing 1,335 volumes that shaped East Asian Buddhism for centuries. His travelogue, the Records of the Western Regions, is the single most detailed eyewitness account of seventh-century India that survives.",
       "wikiSlug": "Xuanzang",
       "tier": 1,
       "tags": [
         "writing",
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Xuanzang left China illegally — the Tang emperor had refused his travel permit because China was at war with the Eastern Turks — and smuggled himself across the border at the Jade Gate before crossing the Taklamakan Desert. He personally saw and described the giant Buddhas of Bamiyan in Afghanistan (the same sculptures the Taliban destroyed in 2001), leaving the most detailed surviving account of how they originally looked. Emperor Taizong, who had refused his permit, welcomed him back as a celebrity and commissioned the Records as a geographic and political reference for Tang court use."
+        }
+      ],
+      "commonsFile": "Xuanzang_w.jpg"
     },
     {
       "id": "evt-pulakeshin-ii",
       "label": "Pulakeshin II of the Chalukyas",
       "year": 610,
       "endYear": 642,
-      "description": "Pulakeshin II of the Chalukya dynasty ruled most of the Deccan from his capital at Vatapi (modern Badami) and famously stopped Harsha's southward expansion at the Narmada River around 618 CE — one of the few well-attested major battles of the period. He exchanged embassies with the Sasanian emperor Khosrow II and was killed when the Pallava king Narasimhavarman I sacked Vatapi in 642.",
+      "description": "Pulakeshin II of the Chalukya dynasty ruled the Deccan plateau from his capital at Vatapi (modern Badami, Karnataka) from around 609 to 642 CE, famously halting Harsha's southward expansion at the Narmada River — the geographic frontier between north India and the Deccan — and keeping the two empires apart for the rest of Harsha's reign.",
       "wikiSlug": "Pulakeshin_II",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pulakeshin's victory over Harsha is recorded in a Sanskrit inscription at the Chalukya temple site of Aihole, composed by his court poet Ravikirti, which gloats that Harsha's elephants \"ran wild\" under the Chalukya assault. He was international enough to exchange embassies with the Sasanian Persian emperor Khosrow II — a remarkable reach for a Deccan king — but his reign ended badly: the Pallava king Narasimhavarman I sacked Vatapi and killed him in 642, just five years before Harsha himself died."
+        }
+      ],
+      "commonsFile": "Aihole_inscription_of_Ravi_Kirti.jpg"
     },
     {
       "id": "evt-chalukya-dynasty",
       "label": "Chalukyas of Vatapi",
       "year": 543,
       "endYear": 753,
-      "description": "The Chalukya dynasty of Vatapi (Badami in modern Karnataka) ruled most of the Deccan plateau for over two centuries and built the rock-cut temples of Badami, Aihole, and Pattadakal — the experimental laboratory where the Dravida and Nagara temple styles were worked out side by side.",
+      "description": "The Chalukyas of Vatapi (modern Badami in Karnataka) ruled most of the Deccan from 543 to 753 CE, fighting the Pallavas to the south and Harsha's empire to the north. Their most lasting legacy is the cluster of experimental temple complexes at Aihole, Pattadakal, and Badami — the architectural laboratory where builders tested the Nagara and Dravida styles side by side, producing the hybrid Vesara tradition.",
       "wikiSlug": "Chalukya_dynasty",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pulakeshin II, the greatest Chalukya king, is famous not just for defeating Harsha at the Narmada but for being the only Indian king to send a diplomatic embassy to the Sasanian Persian court — a painted fresco at Ajanta Cave 1 appears to show the Persian ambassador's visit to Pulakeshin's court. The Chalukyas fell not to a foreign invasion but to their own subordinate chiefs, the Rashtrakutas, in 753 — a recurring medieval Indian pattern of dynasties being toppled by men they had elevated."
+        }
+      ],
+      "commonsFile": "6th_century_Kannada_inscription_in_cave_temple_number_3_at_Badami.jpg"
     },
     {
       "id": "evt-pallava-dynasty",
       "label": "Pallava Dynasty",
       "year": 575,
       "endYear": 897,
-      "description": "The Pallavas of Kanchipuram dominated the Tamil south for three centuries and built the rock-cut temples and shore temple at Mahabalipuram. Under Mahendravarman I and Narasimhavarman I they fought endless wars with the Chalukyas, but their lasting legacy is the Dravida temple style — a southern architectural tradition the Cholas would later scale up to monumental size.",
+      "description": "The Pallava dynasty ruled Kanchipuram and the Tamil northeast from roughly 275 to 897 CE, pioneering the rock-cut temple tradition and the Dravida architectural style that the Cholas would later carry to monumental scale. Under Simhavishnu and his successors, they turned a regional tributary state into the dominant power of the Tamil south.",
       "wikiSlug": "Pallava_dynasty",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pallavas rose after the collapse of the Satavahana Empire, whose feudatories they had originally been — a classic story of a subordinate outlasting its master. Their capital Kanchipuram was one of the seven sacred Hindu cities (sapta puri), a religious center long before it was a Pallava stronghold. The dynasty's name itself remains disputed: some scholars derive it from the Sanskrit word for 'sprout,' suggesting a new branch off an older line."
+        }
+      ],
+      "commonsFile": "7th_century_Sri_Kailashnathar_Temple_Kanchipuram_Tamil_Nadu_India_01_(11).jpg"
     },
     {
       "id": "evt-mahabalipuram",
       "label": "Mahabalipuram Monuments",
       "year": 700,
-      "description": "Under the Pallava king Narasimhavarman I and his successors, the coastal site at Mahabalipuram (also called Mamallapuram) was carved into a complex of monolithic chariot-shrines (the Pancha Rathas), bas-relief tableaux including the enormous Descent of the Ganges, and the Shore Temple — one of the earliest free-standing stone temples in south India and a UNESCO World Heritage site.",
+      "description": "The Mahabalipuram (Mamallapuram) monument complex on the Tamil Nadu coast, developed over roughly 650–750 CE by the Pallava kings, is the single best place to walk through the early development of south Indian temple architecture: monolithic chariot-shrines (Pancha Rathas), the world's largest open-air bas-relief (Descent of the Ganges, about 90 by 45 feet), and the Shore Temple — one of south India's earliest free-standing structural stone temples.",
       "wikiSlug": "Group_of_Monuments_at_Mahabalipuram",
       "tier": 1,
       "tags": [
         "architecture"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The five Pancha Rathas are each carved in a different architectural style — they functioned as a comparison set, not a working temple complex, and were never consecrated. The natural vertical fissure in the Descent of the Ganges cliff is built into the composition: water running down it during rains animated the sculpture, turning the carved river goddess into a working visual metaphor. Medieval records suggest there were originally six or seven shore temples in a row; the others have since been swallowed by the Bay of Bengal."
+        }
+      ],
+      "commonsFile": "Mamallapuram_view.jpg"
     },
     {
       "id": "evt-narasimhavarman-i",
       "label": "Narasimhavarman I",
       "year": 630,
       "endYear": 668,
-      "description": "Narasimhavarman I 'Mamalla' was the Pallava king who sacked Vatapi and killed the Chalukya emperor Pulakeshin II in 642 CE — the most consequential military success of any seventh-century south Indian king. The town of Mahabalipuram (Mamallapuram) takes its name from his epithet.",
+      "description": "Narasimhavarman I ('Mamalla,' ruled 630–668) was the Pallava king who sacked Vatapi and killed the Chalukya emperor Pulakeshin II in 642 CE, making himself the dominant military power of seventh-century south India. The coastal monument complex at Mahabalipuram — including the Pancha Rathas — was developed under his reign and takes its modern name (Mamallapuram) from his epithet.",
       "wikiSlug": "Narasimhavarman_I",
       "tier": 2,
       "tags": [
         "wars",
         "architecture"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Narasimhavarman didn't just defeat the Chalukyas militarily — he added the title 'Vatapi-konda' (conqueror of Vatapi) to his royal style, permanently advertising the victory. He also sent a naval expedition to Sri Lanka that placed a refugee prince back on the Sinhalese throne, showing the Pallavas operated by sea as well as land. The Pancha Rathas at Mahabalipuram, built during his reign, were never actually consecrated for worship — they appear to have functioned as architectural prototypes, a stone design catalog for the Pallava court."
+        }
+      ],
+      "commonsFile": "Mamallapuram_si0497.jpg"
     },
     {
       "id": "evt-pandya-dynasty",
       "label": "Early Pandyas",
       "year": 600,
       "endYear": 920,
-      "description": "The Pandya dynasty, ruling from Madurai in the deep Tamil south, was the third great early-medieval Tamil power alongside the Pallavas and the Cholas. Their pearl fisheries on the Gulf of Mannar coast were famous from Roman antiquity, and their patronage of Tamil literature and the great Meenakshi Temple at Madurai laid the cultural foundations for the Tamil cultural region.",
+      "description": "The Pandya dynasty, ruling from Madurai in the deep Tamil south, was the Cholas' principal southern rival — an ancient kingdom whose pearl fisheries on the Gulf of Mannar were famous to Roman traders and whose patronage of the great Meenakshi Temple at Madurai shaped Tamil religious culture for centuries.",
       "wikiSlug": "Pandya_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pandyas are among the longest-ruling dynasties in world history — inscriptions and references place them continuously in power from roughly 400 BCE to 1618 CE, a span of over 2,000 years. Their pearl fisheries, cited in classical Greek and Roman sources, made Madurai a recognized destination on the ancient Indian Ocean trade network long before the Cholas rose to dominance. The Pandyas reached their own imperial peak in the second half of the 13th century under Jatavarman Sundara Pandyan I, when they controlled much of south India and northern Sri Lanka — the same territories the Cholas had held two centuries earlier."
+        }
+      ],
+      "commonsFile": "An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg"
     },
     {
       "id": "evt-rashtrakuta-dynasty",
       "label": "Rashtrakuta Dynasty",
       "year": 753,
       "endYear": 982,
-      "description": "The Rashtrakutas of Manyakheta (modern Malkhed in Karnataka) overthrew the Chalukyas in 753 and built the most powerful early-medieval Indian empire — controlling the Deccan, raiding Kannauj, and at their peak demanding tribute from the Pratiharas and Palas alike. The Arab geographer al-Masudi called the Rashtrakuta king one of the four great kings of the world.",
+      "description": "The Rashtrakuta dynasty of the Deccan plateau (capital at Manyakheta, modern Malkhed in Karnataka) was arguably the most militarily powerful Indian dynasty of the eighth through tenth centuries, controlling the south and repeatedly raiding north India all the way to Kannauj. The Arab geographer al-Masudi ranked the Rashtrakuta king among the four great rulers of the world.",
       "wikiSlug": "Rashtrakuta_dynasty",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Rashtrakutas commissioned some of medieval India's greatest monuments, including the Kailasa temple at Ellora — a single enormous temple carved downward into a cliff face rather than built upward from the ground, started under King Dantidurga in the eighth century. Their repeated Kannauj campaigns were logistically heroic: armies had to cross the Vindhya Mountains and the Narmada River, sustain themselves in hostile territory for months, and then withdraw before the Deccan heartland grew restive. Govinda III is the only king documented as defeating both rival emperors (Dharmapala and Nagabhata II) in a single campaign, around 800 CE."
+        }
+      ],
+      "commonsFile": "Bhagwan_Parshwanath,_Ellora_Caves_25-08-12_13-29-23-794.jpg"
     },
     {
       "id": "evt-kailasa-temple-ellora",
       "label": "Kailasa Temple at Ellora",
       "year": 770,
-      "description": "The Rashtrakuta king Krishna I commissioned the Kailasa Temple at Ellora (Cave 16) — a full-sized Shiva temple carved downward out of a single basalt cliff face, removing roughly 200,000 tons of rock. It is the largest single monolithic structure in the world and one of the greatest engineering accomplishments of the ancient or medieval period anywhere.",
+      "description": "The Kailasa Temple at Ellora (Cave 16 in Maharashtra), commissioned by the Rashtrakuta king Krishna I around 770 CE, is the largest single monolithic structure in the world — a complete, three-dimensional Hindu temple to Shiva carved downward out of a single basalt cliff by removing an estimated 200,000 tons of rock. It stands 96 feet tall and was built without the option of correcting a single structural mistake.",
       "wikiSlug": "Kailasa_temple,_Ellora",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The builders started at the top of the cliff and carved downward, meaning the decorative sculpture on the upper tower was completed before the ground-level shrine chambers were even begun — the exact reverse of conventional construction. The entire complex includes a Nandi pavilion, surrounding cloister galleries, and subsidiary shrines, all carved from the same rock mass; the main temple is not the cliff, it is what was left after removing the cliff. The closest structural parallel is the rock-hewn churches at Lalibela, Ethiopia (c. 1200 CE), which use the same isolate-and-carve technique but are smaller — Kailasa predates them by about four centuries."
+        }
+      ]
     },
     {
       "id": "evt-pratihara-dynasty",
       "label": "Gurjara-Pratiharas",
       "year": 730,
       "endYear": 1036,
-      "description": "The Gurjara-Pratiharas, originally a regional dynasty in modern Rajasthan, became the dominant north Indian power through most of the ninth and tenth centuries from their capital at Kannauj. They held off Arab raids from Sindh, fought the Rashtrakutas to the south and the Palas to the east, and Arab travellers regarded them as the most powerful king in India.",
+      "description": "The Gurjara-Pratihara dynasty of Rajasthan rose from a regional warrior clan to become the dominant north Indian empire for roughly two centuries, with their capital at Kannauj. They positioned themselves as the Hindu kingdoms' eastern shield against Arab expansion from Sindh, and at their peak Arab travellers considered them the strongest power on the subcontinent.",
       "wikiSlug": "Gurjara-Pratihara_dynasty",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pratiharas' claim to legitimacy rested partly on mythology: the dynasty traced its ancestry to Lakshmana, the brother of the god Rama, making them the literal descendants of a divine protector. Their greatest asset was geography — Rajasthan controlled the land routes through which Arab horse traders brought cavalry stock into India, so the Pratiharas could continuously replenish their mounted army from imported Central Asian horses. The dynasty had cadet branches ruling smaller states across north India even at its height, making the empire more of a confederation than a unified state."
+        }
+      ],
+      "commonsFile": "A_panel_depicting_the_Saptamatrikas_,_Kannauj,9th-10_century,_Pratihara_dynasty.jpg"
     },
     {
       "id": "evt-mihira-bhoja",
       "label": "Mihira Bhoja",
       "year": 836,
       "endYear": 885,
-      "description": "Mihira Bhoja was the greatest Pratihara emperor, ruling for nearly fifty years and pushing his empire from Sindh to Bengal. The Arab geographer Sulayman called his army the strongest cavalry force in India and described his kingdom as the safest for traders crossing the subcontinent — high praise from a foreign observer with no local axe to grind.",
+      "description": "Mihira Bhoja (ruled 836–885) was the Pratihara dynasty's peak, transforming a weakened kingdom inherited from his father into an empire stretching from Sindh in the west to Bengal in the east. The Arab merchant Sulayman al-Tajir described his roads as safe, his cavalry as the strongest in India, and his courts as equitable — unusually high praise for a Hindu king from an Arab writer.",
       "wikiSlug": "Mihira_Bhoja",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bhoja was a devotee of Vishnu and styled himself 'Adivaraha' (the primal boar, one of Vishnu's avatars), an epithet inscribed on his coins. His reign coincided almost perfectly with the Carolingian empire's fragmentation in Europe — two large regional powers peaking at almost the same moment and facing the same structural problem of holding a vast territory from a single center. The Pratiharas never developed the administrative apparatus (provincial tax collectors, professional civil service) that would have let them govern an empire rather than just occupy one."
+        }
+      ],
+      "commonsFile": "Pratihara_bhoja.JPG"
     },
     {
       "id": "evt-pala-dynasty",
       "label": "Pala Dynasty",
       "year": 750,
       "endYear": 1161,
-      "description": "The Pala dynasty of Bengal and Bihar ruled the eastern third of north India for four centuries, patronized Mahayana and Tantric Buddhism on a massive scale, and operated the great monastic universities at Nalanda, Vikramashila, and Odantapuri. Pala-era bronzes and palm-leaf manuscripts are among the finest surviving Buddhist artworks of any medieval tradition.",
+      "description": "The Pala dynasty ruled Bengal and Bihar for four centuries as the last great royal patrons of Buddhism in India, funding the monastic universities at Nalanda, Vikramashila, and Odantapuri that kept Buddhist scholarship alive across the subcontinent and exported it to Tibet. Their empire was founded around 750 CE when Bengal's nobles elected a man named Gopala to end decades of civil war.",
       "wikiSlug": "Pala_Empire",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Palas' Buddhist identity made them unusual among medieval Indian dynasties — most royal families at least nominally favored Hinduism or Jainism. Their patronage funded the Pala school of Buddhist art, famous for its elegant bronze sculptures and palm-leaf manuscript illustrations that survive in museums from Tokyo to London. The dynasty's election-founding legend — a council of nobles choosing a king rather than a conqueror seizing power — has no parallel in the founding narratives of any contemporary north Indian dynasty, though modern historians debate how literally to read it."
+        }
+      ],
+      "commonsFile": "Map_of_the_Pala_Empire.png"
     },
     {
       "id": "evt-dharmapala",
       "label": "Dharmapala",
       "year": 781,
       "endYear": 821,
-      "description": "Dharmapala, second Pala emperor, briefly captured Kannauj from the Pratiharas in the 790s and installed his own client king on the throne — the high-water mark of Pala power and the most dramatic episode in the Tripartite Struggle. He also founded Vikramashila, the second great Pala monastic university after Nalanda.",
+      "description": "Dharmapala (ruled roughly 781–821) was the second Pala emperor and the real builder of Pala power, extending his dynasty's control from Bengal westward into Bihar and briefly seizing Kannauj itself in the 790s. At Kannauj he staged a ceremony in which subordinate kings from across north India attended in homage — the most theatrical display of Pala prestige on record.",
       "wikiSlug": "Dharmapala_(emperor)",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Dharmapala held the Pala throne for roughly forty years, a remarkable run given the continuous warfare against Pratiharas and Rashtrakutas pressing from west and south. His Kannauj ceremony was, in effect, a claim to the title of 'emperor of all India' (chakravartin), even though his hold on the city was temporary. The Tibetan historian Taranatha, writing centuries later, preserved the Pala foundation legend including the election of Gopala, suggesting the dynasty cultivated strong connections to Tibetan Buddhist scholarship that kept their story alive long after they fell."
+        }
+      ],
+      "commonsFile": "Durga_Mahishasuramardini_slaying_the_Buffalo_Demon,_Bengal,_India,_or_Bangladesh,_Pala_dynasty,_1100s_AD,_phyllite_-_Dallas_Museum_of_Art_-_DSC05056.jpg"
     },
     {
       "id": "evt-tripartite-struggle",
       "label": "Tripartite Struggle for Kannauj",
       "year": 800,
       "endYear": 1000,
-      "description": "For two and a half centuries, three powers — the Pratiharas of Rajasthan, the Palas of Bengal, and the Rashtrakutas of the Deccan — fought a three-way war for control of Kannauj, the symbolic capital of north India. None of them ever held it long enough to translate dominance into a durable empire, and the chronic warfare left all three exhausted by the time Mahmud of Ghazni's raids began.",
+      "description": "Three roughly equal north Indian dynasties — the Gurjara-Pratiharas, the Palas, and the Rashtrakutas — spent two and a half centuries fighting each other for Kannauj, the city whose possession signified sovereignty over all of north India. None of them could hold it long enough to matter, and the chronic warfare drained them all.",
       "wikiSlug": "Tripartite_Struggle",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The struggle is sometimes dated narrowly to 785–816 CE for its sharpest phase, ending when the Pratihara king Nagabhata II finally secured Kannauj and proclaimed himself its king. The problem wasn't just military: holding a city 600-plus miles from your actual power base meant maintaining an army of occupation your treasury couldn't sustain for long. The pattern — three roughly equal powers, each able to beat one rival but not both simultaneously — is a classic political trap that historians call a trilemma, and it played out almost identically among Charlemagne's grandsons after the 843 Treaty of Verdun split the Frankish empire."
+        }
+      ],
+      "commonsFile": "Map_of_the_Tripartite_Struggle.png"
     },
     {
       "id": "evt-kannauj-capital",
       "label": "Kannauj as Imperial Capital",
       "year": 600,
       "endYear": 1019,
-      "description": "Kannauj on the upper Ganges was the symbolic capital of north India through the medieval period. Harsha ruled from there in the seventh century, the Pratiharas held it through the ninth and tenth, and Mahmud of Ghazni sacked it in 1019. After the sack the city never recovered its political weight, but for four centuries it was what kings claimed when they claimed all of India.",
+      "description": "Kannauj on the upper Ganges was the symbolic prize of north Indian politics from the seventh century through the early eleventh — the city whose possession meant you were emperor. Harsha ruled from there in the 600s, the Pratiharas held it for most of the ninth and tenth centuries, and Mahmud of Ghazni sacked it in 1019. It still exists today as a modest town in western Uttar Pradesh, most famous now for its perfume industry.",
       "wikiSlug": "Kannauj",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kannauj's symbolic weight came partly from its association with Harsha, the last unifying north Indian emperor before the medieval fragmentation, and partly from its geography — the city sat at the point where the Ganges plain narrows and becomes most easily defensible from the northwest, making it a natural political fulcrum. After Mahmud's 1019 sack, the Pratihara king Rajyapala fled without fighting; his neighbor Vidyadhara Chandela considered this so dishonorably cowardly that he killed Rajyapala shortly afterward. The city never recovered its political weight — later empires (the Delhi Sultanate, the Mughals) chose Delhi instead."
+        }
+      ],
+      "commonsFile": "019XZZ000004324U00012000(SVC2).jpg"
     },
     {
       "id": "evt-chola-dynasty",
       "label": "Chola Dynasty",
       "year": 848,
       "endYear": 1279,
-      "description": "The medieval Chola dynasty, which traced descent from the ancient Cholas of Sangam-era Tamil literature, was refounded around 848 by Vijayalaya at Thanjavur and built south India's first true empire. At its peak under Rajaraja and Rajendra in the early eleventh century, it controlled all of south India, raided Bengal, and projected naval power across the Bay of Bengal.",
+      "description": "The medieval Chola dynasty was refounded around 848 CE by a regional chieftain named Vijayalaya who seized Thanjavur, claimed descent from the ancient Tamil Cholas, and over the next four centuries built south India's first true empire — one powerful enough to raid Bengal by land and Sumatra by sea.",
       "wikiSlug": "Chola_dynasty",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cholas were one of the longest-lived dynasties in world history, with inscriptions placing them as far back as the 3rd century BCE during the Mauryan empire — a span of roughly 1,500 years from first mention to final collapse. At their peak they were recognized as one of the 'Three Crowned Kings of Tamilakam' alongside the Chera and Pandya dynasties, a rivalry that structured Tamil politics for over a millennium. The medieval revival under Vijayalaya was not a restoration of continuous rule but a deliberate claim of legitimacy by a new line borrowing an ancient name."
+        }
+      ],
+      "commonsFile": "South_India,_Medieval_period,_Chola_dynasty_-_Ganesha_-_1970.62_-_Cleveland_Museum_of_Art.tif"
     },
     {
       "id": "evt-rajaraja-chola",
       "label": "Rajaraja Chola I",
       "year": 985,
       "endYear": 1014,
-      "description": "Rajaraja Chola I ruled for twenty-nine years and conquered most of south India, Sri Lanka, and the Maldives. He commissioned the Brihadeeswara Temple at Thanjavur, conducted the first detailed land survey of the Tamil country, and standardized the Chola administrative system that his successors would extend across the subcontinent.",
+      "description": "Rajaraja Chola I (ruled 985–1014) transformed the Chola kingdom into a genuine empire — conquering all of south India, northern Sri Lanka, and the Maldives, and commissioning the Brihadeeswara Temple at Thanjavur, the tallest Hindu temple in the world at its completion in 1010.",
       "wikiSlug": "Rajaraja_I",
       "tier": 1,
       "tags": [
         "architecture"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rajaraja's birth name was Arulmoli Varman; 'Rajaraja' (King of Kings) was a throne title he adopted on accession. His capture of the Sinhala capital Anuradhapura around 993 ended Sri Lanka's independence and held the island's northern half as a Chola province — a military achievement no subsequent Indian ruler replicated for nearly a thousand years. He also commissioned the first systematic field-by-field land survey of the Tamil country, recording soil quality, irrigation status, and tax assessments in an administrative exercise remarkable for its scale and detail."
+        }
+      ],
+      "commonsFile": "Raraja_detail.png"
     },
     {
       "id": "evt-rajendra-chola",
       "label": "Rajendra Chola I",
       "year": 1014,
       "endYear": 1044,
-      "description": "Rajendra Chola I extended his father Rajaraja's empire even further — leading a successful land expedition all the way to the Ganges in Bengal around 1019 (which earned him the title Gangaikonda Chola, 'Chola who took the Ganges'), and launching the famous naval expedition across the Bay of Bengal against Srivijaya around 1025. He founded a new capital at Gangaikonda Cholapuram and built a second great temple there.",
+      "description": "Rajendra Chola I (ruled 1014–1044) pushed his father's empire even further — marching an army to the Ganges River in Bengal to bring sacred water home for a new temple, then dispatching a war fleet 1,200 nautical miles across the Bay of Bengal to sack the Srivijayan capital in Sumatra.",
       "wikiSlug": "Rajendra_I",
       "tier": 1,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rajendra earned the title 'Gangaikonda Chola' (Chola who took the Ganges) for his Bengal campaign and named his new capital city after the feat: Gangaikonda Cholapuram, 'the Chola city that took the Ganges.' He served as co-regent with his father from 1012, two years before Rajaraja's death, giving him a running start on one of medieval India's most ambitious reigns. His queen was Vanavan Mahadevi, and the temple he built at his new capital — the Brihadisvara at Gangaikonda Cholapuram — was nearly as large as his father's masterpiece at Thanjavur."
+        }
+      ],
+      "commonsFile": "Rajendra_Chola_(cropped).JPG"
     },
     {
       "id": "evt-brihadeeswara-temple",
       "label": "Brihadeeswara Temple",
       "year": 1010,
-      "description": "Rajaraja Chola consecrated the Brihadeeswara Temple ('Great Lord's Temple') at Thanjavur in 1010 CE. Its central tower (vimana) rises 216 feet — making it the tallest Hindu temple in the world at the time, and arguably the tallest structure of any kind in India. The temple is built of an estimated 130,000 tons of granite hauled from quarries at least thirty miles away. UNESCO World Heritage.",
+      "description": "The Brihadeeswara Temple at Thanjavur, consecrated by Rajaraja Chola in 1010 CE, is a 216-foot granite tower (vimana) built from an estimated 130,000 tons of stone hauled from quarries at least 30 miles away — the tallest Hindu temple in the world at its completion, and still an active place of worship today.",
       "wikiSlug": "Brihadeeswarar_Temple",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 80-ton capstone crowning the tower was reportedly hauled up a four-mile earthen ramp, though the exact method is disputed. The temple's walls are densely inscribed with Tamil records specifying every detail of the original endowment: the 600 personnel employed, the revenue of roughly 250 villages assigned to support it, and even the procedures for replacing broken ceremonial objects — one of the most detailed economic documents from any medieval institution anywhere in the world. It is part of the UNESCO 'Great Living Chola Temples' complex and has been in continuous daily worship since 1010."
+        }
+      ],
+      "commonsFile": "Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_(edit).jpg"
     },
     {
       "id": "evt-srivijaya-raid",
       "label": "Chola Raid on Srivijaya",
       "year": 1025,
-      "description": "Rajendra Chola's navy crossed the Bay of Bengal around 1025 and attacked the maritime kingdom of Srivijaya in modern Sumatra and Malaya, sacking the capital at Palembang and capturing the Srivijayan king. It is the only confirmed pre-modern Indian transoceanic military expedition and one of the most ambitious naval operations of the medieval world.",
+      "description": "Around 1025, Rajendra Chola sent a war fleet 1,200 nautical miles across the Bay of Bengal to attack Srivijaya — the Buddhist maritime kingdom controlling the Strait of Malacca in modern Sumatra. The fleet sacked the capital at Palembang, captured the Srivijayan king, and struck fourteen ports across Sumatra and the Malay Peninsula before sailing home.",
       "wikiSlug": "Chola_invasion_of_Srivijaya",
       "tier": 1,
       "tags": [
         "trade"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This is the only confirmed pre-modern Indian transoceanic military expedition — no Mauryan, Gupta, or Mughal ruler ever attempted anything remotely comparable by sea. The Chola fleet exploited the Indian Ocean's reliable monsoon wind system: the southwest monsoon carries ships east from India to Southeast Asia in summer, the northeast monsoon carries them back in winter — a pattern Indian Ocean traders had used for over a millennium, but never before for a military strike at this scale. The Chola inscriptions list fourteen captured cities, suggesting a systematic campaign along the Malaccan coast rather than a single raid."
+        }
+      ],
+      "commonsFile": "Nicolaes_Visscher_Indiae_Orientalis.jpg"
     },
     {
       "id": "evt-chola-administration",
       "label": "Chola Local Administration",
       "year": 1000,
-      "description": "The Cholas built one of the most sophisticated local government systems in the medieval world. The Uttaramerur inscriptions of the early tenth century describe in detail how village assemblies (sabhas) elected committees by lottery from a pool of qualified candidates — with explicit literacy and property qualifications and disqualification rules for corruption — to manage irrigation, temple lands, and justice.",
+      "description": "The Cholas built one of the most sophisticated local government systems in the medieval world, documented in inscriptions at the village of Uttaramerur near Kanchipuram: village assemblies elected committees by lottery from a pool of qualified candidates, with explicit disqualification rules for the corrupt or illiterate — a written democratic procedure from tenth-century Tamil Nadu.",
       "wikiSlug": "Uttaramerur",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Uttaramerur inscriptions date to around the 7th–9th centuries CE and describe a 'sabha' (assembly) system where committee members were selected from ward-based pools and disqualified for specified offenses including taking bribes or failing to account for public funds. The village itself is located about 56 miles (90 km) southwest of Chennai. These inscriptions are among the earliest detailed records of structured local democratic governance anywhere in the world, predating the European medieval commune movement by roughly two centuries."
+        }
+      ],
+      "commonsFile": "Uthiramerur_temple.jpg"
     },
     {
       "id": "evt-chola-bronzes",
       "label": "Chola Bronze Sculpture",
       "year": 1000,
-      "description": "Chola-era bronze casting using the lost-wax process produced some of the most accomplished metal sculpture of the medieval world. The Nataraja — Shiva as Lord of the Dance, dancing inside a ring of flame — became the emblematic Chola bronze, with examples in major museums on every continent.",
+      "description": "Chola bronze casters using the ancient lost-wax (cire perdue) process produced the finest metal sculpture of the medieval world — above all the Nataraja, Shiva as Lord of the Dance, shown dancing within a ring of fire, one raised foot, four arms, calm face. Examples from the Chola period (roughly 900–1279 CE) now sit in major museums on every continent.",
       "wikiSlug": "Chola_bronze",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The lost-wax process requires sculpting the figure first in wax, encasing it in clay, melting the wax out, and pouring molten bronze into the void — each piece unique and unrepeatable. The Nataraja's ring of flame (prabhamandala) represents the cosmos in endless creative destruction, while the small figure crushed under Shiva's foot is the demon of ignorance. Chola bronzes were processional objects, carried through temple streets during festivals, which is why they were cast fully in the round and finished on all sides — unlike stone temple sculpture designed to be seen from the front only."
+        }
+      ],
+      "commonsFile": "Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg"
     },
     {
       "id": "evt-western-chalukyas",
@@ -389,361 +569,577 @@
       "label": "Hoysala Dynasty",
       "year": 1026,
       "endYear": 1343,
-      "description": "The Hoysala dynasty of southern Karnataka built some of the most ornate temples in Indian architectural history at Belur, Halebidu, and Somnathpur. Their distinctive star-shaped sanctum plans and dense soapstone friezes covering every external surface represent a southern peak of Hindu temple decoration.",
+      "description": "The Hoysala dynasty of southern Karnataka (11th–14th century) built some of the most ornate temples in Indian history at Belur, Halebidu, and Somnathpur — distinctive for their star-shaped floor plans and every centimeter of exterior surface covered in dense soapstone friezes of gods, animals, and celestial figures.",
       "wikiSlug": "Hoysala_Empire",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The soapstone (chloritic schite) quarried locally in Karnataka is unusually soft when freshly cut, allowing carvers to achieve extraordinary fineness of detail — then hardens as it ages and weathers. The Chennakesava Temple at Belur was consecrated in 1117 to celebrate King Vishnuvardhana's victory over the Cholas, making it a trophy monument as much as a religious site. The Hoysaleswara at Halebidu was never completed — its two shrines lack the shikhara towers that would have risen above them, possibly due to repeated Khalji raids in the late 13th century that disrupted the dynasty's resources."
+        }
+      ],
+      "commonsFile": "Belur_Temple_Apsara_with_Mirror.JPG"
     },
     {
       "id": "evt-chandela-dynasty",
       "label": "Chandela Dynasty",
       "year": 880,
       "endYear": 1310,
-      "description": "The Chandela Rajputs of central India ruled the Bundelkhand region for four centuries and built the temple complex at Khajuraho — eighty-five Hindu and Jain temples constructed between roughly 950 and 1050, of which about twenty-five survive. The famous erotic sculptures occupy a small portion of the external decoration but have given the temples their global reputation.",
+      "description": "The Chandela Rajputs ruled the Bundelkhand region of central India from the 9th to the 13th century, and their chief legacy is the Khajuraho temple complex — eighty-five temples built at their capital over roughly a century (950–1050 CE), representing the single greatest concentrated act of Hindu temple patronage in the medieval period.",
       "wikiSlug": "Chandela_dynasty",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At their height, the Chandelas were powerful enough to form alliances against Mahmud of Ghazni's raids into north India; the warrior-king Vidyadhara (r. c. 1002–1019) reportedly turned Mahmud back from Bundelkhand twice. The dynasty eventually declined under pressure from the Paramaras to the west and the Delhi Sultanate; by 1310 their kingdom had been absorbed. The coin evidence (gold and silver) shows the Chandelas used standard Rajput numismatic iconography, depicting the goddess Lakshmi."
+        }
+      ],
+      "commonsFile": "0B_Ajaigarh_4_sides_temple.jpg"
     },
     {
       "id": "evt-khajuraho-temples",
       "label": "Khajuraho Temple Complex",
       "year": 1000,
-      "description": "The Khajuraho temples, built by the Chandela kings between roughly 950 and 1050, are the finest surviving examples of the Nagara north Indian temple style. The Kandariya Mahadeva temple stands 102 feet tall with a single sweeping shikhara composed of 84 subsidiary peaks. UNESCO World Heritage; Khajuraho's intricate sandstone carving covers nearly every external surface.",
+      "description": "The Chandela kings built eighty-five Hindu and Jain temples at Khajuraho between roughly 950 and 1050 CE; about twenty-five survive in good condition today and are a UNESCO World Heritage site. They are the definitive examples of the mature Nagara temple style, with curvilinear shikhara towers rising in a single sweeping curve and every exterior surface densely carved.",
       "wikiSlug": "Khajuraho_Group_of_Monuments",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famous erotic sculptures are only about 10% of the total sculptural program — the other 90% is religious iconography, celestial beings, and courtly scenes. The largest temple, the Kandariya Mahadeva (c. 1030 CE), packs 84 miniature shikhara peaks into its main tower to create the illusion of a Himalayan mountain range in stone. The temples were largely forgotten by the outside world for centuries and were 'rediscovered' by a British survey officer, T.S. Burt, in 1838 — partly explaining the outsized Victorian-era shock at the erotic carvings."
+        }
+      ],
+      "commonsFile": "1_Khajuraho.jpg"
     },
     {
       "id": "evt-konark-sun-temple",
       "label": "Konark Sun Temple",
       "year": 1250,
-      "description": "The Eastern Ganga king Narasimhadeva I built the Sun Temple at Konark in modern Odisha as a colossal stone chariot of the sun god Surya — twelve carved wheels representing months, seven horses representing days, and a sanctum that originally rose perhaps 230 feet before its tower collapsed centuries later. Slightly post-medieval but the climactic example of the Kalinga temple tradition.",
+      "description": "Built around 1250 CE by the Eastern Ganga king Narasimhadeva I, the Sun Temple at Konark (modern Odisha) was designed as a colossal stone chariot for the sun god Surya — twelve enormous carved wheels (representing the months), seven horses, and a main sanctum that once rose over 200 feet before its tower collapsed. A UNESCO World Heritage site.",
       "wikiSlug": "Konark_Sun_Temple",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The twelve wheels carved along the temple's plinth are not merely decorative — each wheel has eight spokes, and the shadows they cast function as a working sundial, tracking time across the day with considerable precision. The tower's collapse is undated and unexplained; leading theories include an incomplete original construction, later earthquake damage, and deliberate dismantling for the foundation stone. Despite the ruin, the surviving assembly hall (jagamohana) and the exquisite carved stone statues of Surya at the three solar positions (dawn, noon, dusk) remain intact."
+        }
+      ],
+      "commonsFile": "Konarka_Temple.jpg"
     },
     {
       "id": "evt-chera-dynasty",
       "label": "Cheras of Kerala",
       "year": 800,
       "endYear": 1102,
-      "description": "The Chera dynasty (also called the Kulasekhara dynasty in its medieval phase) ruled the spice-producing Malabar coast of modern Kerala. Their pepper, ginger, and cardamom trade with Arab and Persian merchants made the Kerala ports the western anchor of medieval Indian Ocean commerce.",
+      "description": "The Chera dynasty (Kulasekhara dynasty in its medieval phase) ruled the Malabar coast of modern Kerala from roughly 800–1102 CE, growing wealthy on customs revenues from the Arab and Persian spice trade through ports like Calicut, Quilon, and Cochin. Kerala's pepper, cardamom, and ginger gave the Chera ports a position in medieval Indian Ocean commerce that outlasted the dynasty itself.",
       "wikiSlug": "Chera_dynasty",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Chera coast had been trading pepper with the Mediterranean world since at least the first century CE — Roman amphoras and coins have been excavated at the Kerala port of Pattanam. By the medieval period Arab merchants had established permanent communities in Chera ports, and some converted locally to Islam; the tradition that the Chera king himself converted is probably legendary, but the presence of Muslim merchant families in Kerala from the 7th–8th century is historically solid. The Chera kingdom's end came not from outside conquest but from the rising power of smaller Kerala chieftains (the future kingdom of Kozhikode, or Calicut) who gradually absorbed Chera territory."
+        }
+      ],
+      "commonsFile": "Amphorae_sherds,_Pattanam_excavation_site_(Kerala).jpg"
     },
     {
       "id": "evt-bhakti-movement",
       "label": "Bhakti Devotional Movement",
       "year": 700,
       "endYear": 1200,
-      "description": "The Bhakti movement reframed Hindu worship as personal love between devotee and deity, in deliberate opposition to the elaborate ritualism and Sanskrit-only orthodoxy of the Brahmin priesthood. It began in the Tamil south with poet-saints called Alvars (Vishnu) and Nayanars (Shiva) and gradually spread north over centuries, producing devotional poetry in every Indian regional language and a religious culture that survives essentially intact today.",
+      "description": "The Bhakti movement swept Hindu India from the 7th century onward, insisting that any devotee — regardless of caste, gender, or Sanskrit learning — could approach the deity directly through sincere personal love, no priest required. It began in Tamil Nadu and eventually reshaped devotional practice in every Indian regional language.",
       "wikiSlug": "Bhakti_movement",
       "tier": 1,
       "tags": [
         "writing"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The movement originated in Tamilakam around the 6th century CE and reached its second great peak between the 15th and 17th centuries in north India, nearly a thousand years after its Tamil beginnings. It was as much a social challenge as a religious one — its insistence on direct access to the divine cut directly against the hereditary authority of the Brahmin priestly class. The tradition's later north Indian saints (Kabir, Mirabai, Tulsidas, Surdas) are among the most widely read poets in all of Indian literature."
+        }
+      ],
+      "commonsFile": "Meerabai_(crop).jpg"
     },
     {
       "id": "evt-alvars-nayanars",
       "label": "Alvars and Nayanars",
       "year": 700,
       "endYear": 900,
-      "description": "The Alvars (twelve Vaishnava poet-saints devoted to Vishnu) and Nayanars (sixty-three Shaiva poet-saints devoted to Shiva) composed thousands of Tamil-language devotional hymns between roughly 600 and 900 CE. Their poetry — collected in the Vaishnava 'Divya Prabandham' and the Shaiva 'Tirumurai' — is the foundational scripture of the Bhakti movement and one of the great corpora of religious literature in any language.",
+      "description": "Between roughly 600 and 900 CE, twelve Alvar poet-saints devoted to Vishnu and sixty-three Nayanar poet-saints devoted to Shiva composed thousands of Tamil-language devotional hymns, collected in the 'Divya Prabandham' and 'Tirumurai' respectively — foundational scriptures of the Bhakti movement and one of the great corpora of religious poetry in any language.",
       "wikiSlug": "Alvars",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Alvars are venerated in Sri Vaishnavism as embodiments of pure devotion; their collected hymns in the Divya Prabandham (4,000 verses) are accorded the same sacred status as the Sanskrit Vedas in that tradition. Several of the most important poet-saints came from low-caste backgrounds — Tiruppan Alvar was from the Panar bard caste — which made the movement's egalitarian theology more than theoretical. The Nayanars' Tirumurai became a living pilgrimage guide: hymns composed at specific temples meant the sites themselves became sacred through the act of composition."
+        }
+      ],
+      "commonsFile": "Thiruthankal_temple_(7).jpg"
     },
     {
       "id": "evt-andal-poet",
       "label": "Andal",
       "year": 850,
-      "description": "Andal, the only female Alvar poet-saint, composed the Tiruppavai and Nachiar Tirumozhi — passionate Tamil love poems addressed to Vishnu in the voice of a young woman in love with the god. Tradition holds that she was so devoted to Vishnu that she refused all human husbands and was finally married to the deity directly. Her hymns are still sung in south Indian temples every December.",
+      "description": "Andal (9th century) is the only female Alvar among the twelve canonical Vaishnava poet-saints, and her two surviving works — the 'Tiruppavai' and the 'Nachiar Tirumozhi' — are passionate love poems to Vishnu in the voice of a young woman who refuses human marriage and seeks the deity as her bridegroom.",
       "wikiSlug": "Andal",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Andal is considered an avatar of the earth goddess Bhumi, an aspect of Lakshmi — making her one of the very few saints in any tradition understood to be both a worshipper of and an incarnation of a deity's consort. She was raised by the Alvar poet Periyalvar in Srivilliputhur, where the temple to her and Vishnu still stands. The Tiruppavai's thirty verses are recited daily in south Indian Vaishnava temples throughout the Tamil month of Margazhi (December–January), making hers one of the oldest continuously performed devotional texts in the world."
+        }
+      ],
+      "commonsFile": "Andal-painting.jpg"
     },
     {
       "id": "evt-shankara",
       "label": "Adi Shankara",
       "year": 788,
       "endYear": 820,
-      "description": "Adi Shankara was the great philosopher who systematized Advaita Vedanta — the school of Hindu philosophy that holds that ultimate reality (Brahman) and the individual self (Atman) are not two but one, and that the apparent multiplicity of the world is a kind of cognitive illusion (maya). He died around age thirty-two, founded four monastic centers (mathas) at the geographic corners of India, and arguably defined the dominant strand of Hindu intellectual tradition for the next millennium.",
+      "description": "Adi Shankara (788–820 CE) was the philosopher who built Advaita Vedanta — the school holding that ultimate reality (Brahman) and the individual self (Atman) are not two but one, and that the apparent multiplicity of the world is cognitive illusion (maya). He died around age thirty-two, having traveled the length of India debating opponents and founding four monastic centers (mathas) at the geographic corners of the subcontinent.",
       "wikiSlug": "Adi_Shankara",
       "tier": 1,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shankara's critics in his own time called him a 'crypto-Buddhist' because his conclusions about the illusory nature of conventional reality so closely tracked the Mahayana Buddhist school of Madhyamaka. He founded the Dashanami order of Hindu monks — ten sub-orders that gave Hinduism an organized monastic structure parallel to the Buddhist sangha, something it had previously lacked. The four mathas he established still operate today, each headed by a lineal successor called a Shankaracharya."
+        }
+      ],
+      "commonsFile": "Raja_Ravi_Varma_-_Sankaracharya.jpg"
     },
     {
       "id": "evt-ramanuja",
       "label": "Ramanuja",
       "year": 1077,
       "endYear": 1157,
-      "description": "Ramanuja of the Sri Vaishnava tradition built a rival school of Vedanta called Vishishtadvaita ('qualified non-dualism'), which holds that the individual soul and God are united but not identical — the soul retains its individuality within Vishnu rather than dissolving into him. His school provided the philosophical foundation for the Vaishnava devotional tradition that still flourishes across south India and beyond.",
+      "description": "Ramanuja (~1077–1157 CE) built Vishishtadvaita ('qualified non-dualism') as a direct rebuttal to Shankara — insisting that the world, individual souls, and God (Vishnu) are all genuinely real and in genuine relationship, not dissolved into a single undifferentiated unity. His school gave the Tamil Bhakti devotional tradition a rigorous philosophical foundation, and the theology of personal devotion to a personal deity that dominates most modern Hindu practice traces back to him.",
       "wikiSlug": "Ramanuja",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ramanuja was based at the great Srirangam temple in Tamil Nadu, and his philosophical project was partly driven by devotional urgency: if the soul and God are ultimately identical (as Shankara held), then devotional love collapses into self-love, and the rich emotional tradition of the Alvar saint-poets becomes just a transitional stage rather than the goal itself. His school later spread north through figures like the fifteenth-century Bengali saint Chaitanya, shaping Krishna-devotion movements across India."
+        }
+      ],
+      "commonsFile": "Ramanuja1920s.jpg"
     },
     {
       "id": "evt-madhva",
       "label": "Madhvacharya",
       "year": 1238,
       "endYear": 1317,
-      "description": "Madhvacharya founded Dvaita Vedanta — the third great school, which insisted that God, individual souls, and the material world are eternally distinct realities (the strict opposite of Shankara's monism). His tradition centered on Udupi in coastal Karnataka and remains influential there to this day. Slightly post-medieval, but the third leg of the Vedanta-school stool.",
+      "description": "Madhvacharya (~1238–1317 CE), based at Udupi in coastal Karnataka, founded Dvaita Vedanta — the strict dualist school holding that God, individual souls, and the material world are three permanently distinct realities that never collapse into one another. He took the reaction against Shankara further than Ramanuja had, insisting that even in liberation the gap between the human soul and God remains absolute.",
       "wikiSlug": "Madhvacharya",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Madhva held the uniquely controversial position that some souls are eternally damned — never destined for liberation — a claim far closer to Christian theology than to mainstream Hindu thought. Scholars have noted the Syriac Christian community on the Malabar coast as a possible influence, though most now think he developed it independently. He also claimed to be an avatar of Vayu, the wind god and son of Vishnu, and credited several scriptural texts as support — though modern scholars suspect he composed some of those texts himself."
+        }
+      ],
+      "commonsFile": "Shri_Madhvacharya_Vigraha,_Pajaka,_Udupi.jpg"
     },
     {
       "id": "evt-nalanda-mahavihara",
       "label": "Nalanda Mahavihara",
       "year": 600,
       "endYear": 1200,
-      "description": "Nalanda in modern Bihar was the largest and most prestigious Buddhist monastic university in the medieval world, hosting up to 10,000 students from China, Korea, Tibet, and Southeast Asia at its peak. Founded under late Gupta patronage and massively expanded under the Palas, it operated for roughly six centuries until destroyed in the early 1200s.",
+      "description": "Nalanda in modern Bihar was the greatest Buddhist monastic university in the world — hosting thousands of students from China, Korea, Tibet, and Southeast Asia, operating continuously from the fifth century until its destruction by Turkic forces around 1200 CE.",
       "wikiSlug": "Nalanda_mahavihara",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chinese pilgrim Xuanzang visited Nalanda in the seventh century and described it in detail: a walled campus of eight colleges with hundreds of teaching halls, a library of nine stories known as the Dharmaganja ('Treasury of Truth'), and up to 10,000 students and 2,000 teachers in residence at a time. The Persian historian Minhaj-i Siraj reported that when Bakhtiyar Khalji's cavalry burned the library, the manuscripts smoldered for months — the books were so numerous they could not be put out."
+        }
+      ]
     },
     {
       "id": "evt-vikramashila-monastery",
       "label": "Vikramashila Monastery",
       "year": 800,
-      "description": "The Pala emperor Dharmapala founded Vikramashila around 800 CE as a sister monastic university to Nalanda, focused especially on Tantric Buddhist studies. At its peak it housed over a hundred teachers and roughly a thousand students; it was destroyed at the same time as Nalanda around 1200.",
+      "description": "Vikramashila was a great Buddhist monastic university founded by the Pala emperor Dharmapala around 800 CE in eastern Bihar, focused specifically on Tantric Buddhist studies. At its height it housed over a hundred faculty and roughly a thousand students from across Asia; it operated for four centuries until Turkic invaders destroyed it around 1200.",
       "wikiSlug": "Vikramashila",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Vikramashila was likely located near modern Bhagalpur in eastern Bihar, though the exact site was lost for centuries and only identified archaeologically in the twentieth century. The university specialized in Vajrayana (Tantric) Buddhism at a time when Tibet was actively seeking Indian teachers to systematize Tibetan practice — many of Vikramashila's greatest scholars, including the famous Atisha (who traveled to Tibet in 1042), were instrumental in shaping Tibetan Buddhism into the form it still holds today. The campus included multiple temples, dormitories, and libraries arranged around a central stupa."
+        }
+      ],
+      "commonsFile": "Vikramshila_2012-08-10-17.14.08.jpg"
     },
     {
       "id": "evt-buddhism-decline",
       "label": "Decline of Buddhism in India",
       "year": 1000,
-      "description": "Buddhism slowly disappeared from the land of its birth between roughly 500 and 1300 CE — partly through Hindu philosophical absorption (Shankara's Advaita Vedanta argued that the Buddhists were essentially right but had reached the wrong conclusions), partly through royal patronage shifting from monasteries to temples, and finally through the Turkic destruction of the great Pala monastic universities around 1200. Buddhism survived in Sri Lanka, Tibet, and Southeast Asia; it nearly vanished from India itself.",
+      "description": "Buddhism nearly vanished from the land of its birth between roughly 500 and 1300 CE — a slow, multi-cause process that ended in rapid violent erasure. Hindu philosophical absorption, shifting royal patronage, and diminishing lay support all eroded the tradition from within; Bakhtiyar Khalji's destruction of the Pala monastic universities around 1200 wiped out the institutional infrastructure that remained.",
       "wikiSlug": "Decline_of_Buddhism_in_the_Indian_subcontinent",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The survival of medieval Indian Buddhist philosophy is one of the stranger stories in intellectual history. When Tibetan monks traveled to Nalanda and Vikramashila in the centuries before the destruction to translate Sanskrit texts, they unknowingly created the only copies that would survive. Modern scholars working on figures like Dharmakirti or Chandrakirti are largely reading Tibetan translations of Sanskrit originals that no longer exist. Buddhism did persist in isolated Indian communities for several more generations — and revived dramatically in the twentieth century when B.R. Ambedkar led mass conversions of Dalits beginning in 1956."
+        }
+      ],
+      "commonsFile": "Nalanda_university.jpg"
     },
     {
       "id": "evt-jainism-medieval",
       "label": "Jainism Under Royal Patronage",
       "year": 900,
-      "description": "Jainism — the ancient Indian religion of strict non-violence and ascetic renunciation founded by Mahavira in the sixth century BCE — flourished in medieval Karnataka and Gujarat under the patronage of Western Ganga, Hoysala, and Chaulukya kings. The colossal monolithic statue of Bahubali at Shravanabelagola (carved around 981 CE, 57 feet tall) and the marble-clad Dilwara temples on Mount Abu are the great monuments.",
+      "description": "Jainism — the ancient Indian religion of radical non-violence, karma-as-physical-substance, and ascetic renunciation — flourished under royal patronage in medieval Karnataka and Gujarat, producing the Gomateshwara monolith at Shravanabelagola and the exquisitely carved marble Dilwara temples on Mount Abu.",
       "wikiSlug": "Jainism",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jainism's two main branches split over the question of monk's clothing: the Digambara ('sky-clad') monks practice nudity as the ultimate form of non-attachment, while Shvetambara ('white-clad') monks wear white robes. The two branches also disagree on whether women can achieve liberation in their current bodies (the Digambaras say no). The Jain merchant ethic — non-violence, frugality, trustworthiness — produced the most economically sophisticated trading networks in medieval India; modern commercial dynasties like the Marwaris and Birlas trace their commercial cultures directly to this tradition."
+        }
+      ],
+      "commonsFile": "1000-Pillar-Temple-Moodbidri-Left-Side-View.JPG"
     },
     {
       "id": "evt-bahubali-statue",
       "label": "Gomateshwara Statue at Shravanabelagola",
       "year": 981,
-      "description": "The Western Ganga minister Chamundaraya commissioned the colossal Gomateshwara statue of the Jain saint Bahubali at Shravanabelagola in modern Karnataka in 981 CE. Carved from a single granite block, the statue stands 57 feet tall — the tallest free-standing monolithic statue in India and the focus of a Jain ritual bath called the Mahamastakabhisheka, performed once every twelve years.",
+      "description": "In 981 CE, the Western Ganga minister Chamundaraya commissioned the Gomateshwara statue at Shravanabelagola in Karnataka — a 57-foot monolith of the Jain saint Bahubali carved from a single block of granite and still the tallest free-standing monolithic statue in India.",
       "wikiSlug": "Gommateshwara_statue",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The ritual bathing of the statue (Mahamastakabhisheka, literally 'great head-anointing ceremony') is performed once every twelve years and involves pouring tens of thousands of pots of milk, saffron water, and flower petals over the statue's head from a specially constructed scaffolding — one of the most spectacular religious events in the modern world. Bahubali is the son of the first Jain tirthankara (spiritual teacher), who renounced a kingdom and stood motionless in meditation for so long that vines grew up around his legs — depicted in stone on the statue itself."
+        }
+      ],
+      "commonsFile": "Gommateshwara,_Shravanabelagola.jpg"
     },
     {
       "id": "evt-nagara-temple-style",
       "label": "Nagara Temple Style",
       "year": 700,
-      "description": "The Nagara north Indian temple style crystallized during the medieval period — a square sanctum (garbhagriha) surmounted by a curvilinear tower (shikhara) that rises in a single sweeping curve, often with smaller subsidiary towers clustered around it. Khajuraho and the temples of Bhubaneswar are the canonical surviving examples.",
+      "description": "The Nagara temple style is the north Indian architectural tradition that crystallized in the medieval period: a square sanctum (garbhagriha, 'womb chamber') topped by a curvilinear tower (shikhara) that sweeps upward in a single continuous curve, often with smaller subsidiary towers clustered around it. Khajuraho and the temples of Bhubaneswar are the canonical surviving examples.",
       "wikiSlug": "Hindu_temple_architecture",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The shikhara's curvilinear silhouette is thought to represent Mount Meru, the cosmic mountain at the center of the Hindu universe — the temple is literally designed as a model of the cosmos, with the deity housed at its sacred center. Regional sub-schools produced striking variants: the Odishan (Kalinga) style of Bhubaneswar built the shikhara as a vertical column of horizontal discs; the Solanki style of Gujarat added elaborate carved lattice-screens (jaali) to the exterior. The famous erotic sculpture at Khajuraho is not representative of Nagara temples generally — it is specific to one Chandela patron's program."
+        }
+      ],
+      "commonsFile": "Khajuraho_-_Kandariya_Mahadeo_Temple.jpg"
     },
     {
       "id": "evt-dravida-temple-style",
       "label": "Dravida Temple Style",
       "year": 700,
-      "description": "The Dravida south Indian temple style developed under the Pallavas and was monumentalized by the Cholas. Its signature feature is a stepped pyramidal tower (vimana) made of horizontal stories that diminish in size as they rise, capped by a domed finial — visually opposite to the curvilinear sweep of the northern Nagara style. The Brihadeeswara Temple at Thanjavur is the apex example.",
+      "description": "The Dravida temple style — developed by the Pallavas and brought to monumental scale by the Cholas — is defined by its stepped pyramidal tower (vimana) built from horizontal tiers that diminish as they rise, capped by a domed finial (stupi). At the great Chola temples (Brihadeeswara at Thanjavur, Gangaikondacholapuram), the vimana rises over 200 feet — one of the tallest structures of the medieval world.",
       "wikiSlug": "Dravidian_architecture",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In mature Dravida complexes, the main tower (vimana) over the sanctum is typically shorter than the towering gopurams (gateway towers) at the outer walls — the opposite of what you might expect. This means worshippers approach through escalating towers before the sanctum itself, which is often relatively modest from the outside. The Dravida style never spread significantly beyond the Tamil-speaking south and parts of Sri Lanka and Southeast Asia — where Tamil traders and missionaries carried it — leaving a remarkably clean geographic boundary with the Nagara north."
+        }
+      ],
+      "commonsFile": "Thiruvannamalai,_Arunachalesvara_Temple,_Annamalaiyar_Temple,_India.jpg"
     },
     {
       "id": "evt-vesara-style",
       "label": "Vesara Hybrid Style",
       "year": 800,
-      "description": "The Vesara temple style, which emerged in the Deccan under the Chalukyas and was extended by the Hoysalas, combined elements of both the Nagara and Dravida traditions — a stepped tower (Dravida) with curving profiles and miniature shikhara motifs (Nagara). The Pattadakal complex shows both parent styles being practiced side by side as the hybrid was developing.",
+      "description": "The Vesara temple style is the Deccan hybrid that emerged from Chalukya and Hoysala experimentation — a stepped pyramidal tower (from the southern Dravida tradition) combined with the curving northern Nagara profiles and miniature shikhara ornaments. Pattadakal, where ten temples in both parent styles stand in the same courtyard, is where you can watch the hybrid being invented in real time.",
       "wikiSlug": "Vesara",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word 'Vesara' appears in ancient Sanskrit architectural texts as one of six canonical temple types, suggesting the style was recognized as a distinct category even by medieval theorists. The Hoysala temples at Belur and Halebidu (12th–13th century) represent its decorative peak: their star-shaped ground plans and inch-by-inch sculptural coverage pushed the Vesara vocabulary further than the Chalukya originators had imagined. The style effectively died with the Hoysalas — the Vijayanagara and later dynasties reverted to purer Dravida forms."
+        }
+      ],
+      "commonsFile": "Nageshvara_(near)_and_Chennakeshava_(far)_temples_at_Mosale.JPG"
     },
     {
       "id": "evt-arab-conquest-sindh",
       "label": "Arab Conquest of Sindh",
       "year": 711,
-      "description": "The Umayyad general Muhammad bin Qasim conquered the Sindh region (in modern Pakistan) in 711–713 CE, the same year Arab forces reached Spain. Sindh became a province of the caliphate and the first part of the subcontinent under Muslim rule, but the conquest stopped at the Thar Desert and did not extend into the Indian heartland for another three centuries.",
+      "description": "The Umayyad general Muhammad bin Qasim conquered Sindh (the lower Indus valley, modern southern Pakistan) in 711–713 CE — the same year Arab forces entered Spain — making it the first part of the Indian subcontinent under Muslim rule. The conquest stopped at the Thar Desert and didn't push into the Indian heartland, but it planted a permanent Islamic presence on India's northwest frontier.",
       "wikiSlug": "Umayyad_campaigns_in_India",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Muhammad bin Qasim was only seventeen years old when he led the Sindh campaign, and he was executed by the new Umayyad caliph Sulayman just two years after completing the conquest, a victim of court politics back in Damascus. The Arab-ruled Sindh developed a pragmatic local accommodation in which Hindu and Buddhist populations were classified as 'dhimmis' (protected non-Muslims) and allowed to practice their religions — a legal framework the later Mughal Empire would eventually expand to cover the whole subcontinent. The conquest's more lasting effect was the Pratihara dynasty's founding rationale: containing further Arab expansion became the ideological glue of Rajput identity for generations."
+        }
+      ],
+      "commonsFile": "QASIM.PNG"
     },
     {
       "id": "evt-sanskrit-cosmopolis",
       "label": "Sanskrit Literary Cosmopolis",
       "year": 800,
-      "description": "Sanskrit functioned as the literary lingua franca of an enormous zone stretching from Afghanistan to Java throughout the medieval period — kings in Cambodia and Bali commissioned Sanskrit inscriptions modeled on north Indian prashastis, and works like the Mahabharata were translated into Old Javanese. The Sanskrit cosmopolis was built on cultural prestige, not conquest, and it dwarfed any other premodern literary network in geographic reach.",
+      "description": "Throughout the medieval period, Sanskrit functioned as the literary lingua franca of an enormous zone stretching from Afghanistan to Java — not through conquest but through cultural prestige. Kings in Cambodia and Bali commissioned Sanskrit court inscriptions modeled on north Indian prashastis (royal panegyrics), and the Mahabharata was translated into Old Javanese.",
       "wikiSlug": "Sanskrit",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Sanskrit cosmopolis is one of the largest premodern literary networks ever built entirely on voluntary cultural adoption. Southeast Asian kingdoms had no political connection to India and were not colonized; they chose Sanskrit for court culture because it carried the prestige of Indian philosophical and literary tradition. The Old Javanese Kakawin Ramayana (ninth century) is still considered a masterpiece of Javanese literature, and the Balinese Hindu tradition — which never converted to Islam as the rest of Indonesia did — still uses Sanskrit liturgically today."
+        }
+      ],
+      "commonsFile": "1863_CE_palm_leaf_manuscript,_Jaiminiya_Aranyaka_Gana,_Samaveda_(unidentified_layer_of_texts),_Sanskrit,_Southern_Grantha_script,_Malayali_scribe_Kecavan,_sample_ii.jpg"
     },
     {
       "id": "evt-rajput-rise",
       "label": "Rise of the Rajputs",
       "year": 800,
-      "description": "The Rajputs ('king's sons') were a cluster of warrior clans — Pratiharas, Chauhans, Paramaras, Chandelas, Solankis, Tomaras — that rose to dominance across north India and Rajasthan from the eighth century onward. Their elaborate code of honor, fortified hill capitals, and chronic feuding produced both India's most beautiful medieval forts and the political fragmentation that left the north open to Turkic conquest.",
+      "description": "The Rajputs (rajputra, Sanskrit for 'king's son') were a cluster of warrior clans — Chauhans, Pratiharas, Paramaras, Chandelas, and others — that dominated north India and Rajasthan from the eighth century onward, building spectacular fortified hill capitals and fighting each other almost as often as outside invaders.",
       "wikiSlug": "Rajput",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Modern historians have complicated the Rajput origin story considerably: the romantic self-image of ancient Kshatriya descent is largely a medieval invention, and most Rajput clans appear to have originated from pastoral or agricultural communities who acquired warrior status through service and land grants. The chronic inter-Rajput feuding that medieval chronicles record was not merely a cultural failing — it reflected a genuinely decentralized political structure with no mechanism for coordinated defense, which is why Muhammad of Ghor's systematic campaign could pick off the regional kingdoms one by one."
+        }
+      ],
+      "commonsFile": "A_royal_Rajput_procession.jpg"
     },
     {
       "id": "evt-prithviraj-chauhan",
       "label": "Prithviraj Chauhan",
       "year": 1166,
       "endYear": 1192,
-      "description": "Prithviraj Chauhan, last great king of the Chauhan Rajput dynasty of Ajmer and Delhi, defeated Muhammad of Ghor at the First Battle of Tarain in 1191 — and was decisively defeated by him at the Second Battle of Tarain a year later. Captured and executed, he became the legendary romantic hero of Hindi-Rajasthani folklore (the twelfth-century epic Prithviraj Raso narrates his life), the last Hindu emperor of Delhi until the modern period.",
+      "description": "Prithviraj Chauhan, king of the Chauhan Rajput dynasty of Ajmer and Delhi, was the last Hindu ruler of Delhi before the Turkic conquest. He scored a rare victory against Muhammad of Ghor at the First Battle of Tarain in 1191, then was decisively defeated and captured at the Second Battle of Tarain in 1192 — and subsequently executed.",
       "wikiSlug": "Prithviraj_Chauhan",
       "tier": 1,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The twelfth-century Hindi epic Prithviraj Raso, composed by the bard Chand Bardai, gives him a legendary ending: brought to Ghazni blinded, he allegedly used his memory of Muhammad's voice to shoot the sultan through the throat with a bow, then killed himself. The legend is almost certainly invented, but it shows how completely Prithviraj became the organizing romantic-tragic symbol of medieval Hindu resistance in subsequent centuries. His early reign was actually spent fighting other Rajput kingdoms — he captured Mahoba from the Chandelas and fought the Gahadavalas of Kannauj — not preparing to resist the Ghurids."
+        }
+      ],
+      "commonsFile": "Posthumous_painting_depicting_Prithviraj_Chauhan_from_Kota_(colour).jpg"
     },
     {
       "id": "evt-mahmud-ghazni",
       "label": "Mahmud of Ghazni",
       "year": 998,
       "endYear": 1030,
-      "description": "Mahmud of Ghazni, ruler of the Turkic Ghaznavid sultanate based in modern Afghanistan, conducted seventeen raids into northern India between 1001 and 1027. He sacked Mathura, Kannauj, and the Somnath temple, carried off enormous quantities of gold and slaves, but never attempted permanent conquest — his interest was extraction, not administration. His most famous raid, the 1025 sack of Somnath, destroyed one of the most sacred Hindu pilgrimage sites in India.",
+      "description": "Mahmud of Ghazni, the Turkic sultan based in modern Afghanistan, conducted seventeen raids into northern India between 1001 and 1027 — not to conquer but to extract. He would march down through the Khyber Pass after the monsoon, hit temples and royal capitals, load up with gold and slaves, and march home before the next rains.",
       "wikiSlug": "Mahmud_of_Ghazni",
       "tier": 1,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mahmud inherited his dynasty from his father Sebuktigin, a former slave-soldier who had risen to govern the city of Ghazni. Despite being regarded as a Muslim champion for raiding Hindu temples, Mahmud also attacked Muslim-ruled cities in eastern Iran when politically convenient. The enormous wealth extracted from India funded a brilliant court at Ghazni: Mahmud patronized the Persian poet Ferdowsi (who wrote the Shahnameh, still the Persian national epic) and the polymath scholar al-Biruni."
+        }
+      ],
+      "commonsFile": "Mahmud_of_Ghazni,_Ghaznavid_ruler,_conquering_Qasdar_(modern_Khuzdar)_in_India,_miniature_from_the_Jamiʿ_al-Tawarikh_of_Rashid_al-Din_Il-Khanid_Tabriz_Ms_Or_20_f.108v.jpg"
     },
     {
       "id": "evt-sack-somnath",
       "label": "Sack of Somnath",
       "year": 1025,
-      "description": "Mahmud of Ghazni's army sacked the great Shiva temple at Somnath on the Saurashtra coast in early 1025, destroying the lingam (the abstract sculptural form representing Shiva) and carrying off thousands of pounds of gold and silver. The episode became a foundational trauma in later Hindu nationalist memory; the temple was rebuilt, sacked, and rebuilt repeatedly over subsequent centuries.",
+      "description": "In early 1025, Mahmud of Ghazni marched across the Thar Desert to attack the Somnath Temple on the Gujarat coast — one of the twelve most sacred Shiva pilgrimage sites in India, and one of the wealthiest temples on the subcontinent. His army sacked the inner sanctum, destroyed the central Shiva lingam, and carried off thousands of pounds of gold.",
       "wikiSlug": "Somnath_temple",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The current Somnath temple is the seventh or eighth structure on the site: it was rebuilt after Mahmud's sack, sacked again by Alauddin Khalji in 1297, rebuilt, sacked by Aurangzeb in 1665, rebuilt again, and most recently reconstructed in 1951 as a deliberate act of post-independence national affirmation. Arab and Persian travelers' accounts describe the pre-sack temple as housing thousands of Brahmin priests and hundreds of temple dancers (devadasis, women dedicated to religious service), with a constant flow of pilgrims from across north India."
+        }
+      ],
+      "commonsFile": "19th_century_archive_photos_of_Somanatha_temple,_Veraval_Prabhas_Patan,_Gujarat.jpg"
     },
     {
       "id": "evt-al-biruni",
       "label": "Al-Biruni's Tarikh al-Hind",
       "year": 1030,
-      "description": "Al-Biruni, the Khwarazmian polymath captured by Mahmud of Ghazni and brought to Ghazni as a court intellectual, learned Sanskrit and traveled extensively in northwestern India. His book Tarikh al-Hind ('History of India,' completed around 1030) is the most thoughtful outsider account of medieval Indian science, religion, and society — an Islamic-tradition scholar genuinely trying to understand a Hindu civilization on its own terms.",
+      "description": "Al-Biruni was a Khwarazmian polymath — mathematician, astronomer, geographer, ethnographer — captured by Mahmud of Ghazni and brought to Ghazni as a prize intellectual. He spent years learning Sanskrit, studying with Indian scholars, and traveling in northwestern India, then wrote the Tarikh al-Hind (around 1030), the most rigorous outsider account of medieval Indian civilization produced in any language.",
       "wikiSlug": "Al-Biruni",
       "tier": 1,
       "tags": [
         "science",
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Biruni has been called the 'Father of Comparative Religion' and the founder of Indology. He read Indian astronomical and mathematical texts in the original Sanskrit and compared them directly with Greek sources he knew from Arabic translation — praising Indian astronomy where it exceeded Greek results and noting errors where they existed. He was unusually candid about the frustrations of cross-cultural scholarship, including caste restrictions that barred foreign scholars from many Hindu teaching settings."
+        }
+      ],
+      "commonsFile": "Biruni-russian.jpg"
     },
     {
       "id": "evt-muhammad-ghor",
       "label": "Muhammad of Ghor",
       "year": 1173,
       "endYear": 1206,
-      "description": "Muhammad of Ghor, the Tajik sultan of Ghor in central Afghanistan, conducted the systematic conquest that Mahmud of Ghazni had not attempted. Defeated by Prithviraj Chauhan at the First Battle of Tarain in 1191, he returned a year later, won decisively at the Second Battle of Tarain in 1192, and over the next decade his generals — Qutb al-Din Aibak and Bakhtiyar Khalji — completed the conquest of the Ganges plain and Bengal.",
+      "description": "Muhammad of Ghor, the Ghurid sultan from the central Afghan highlands, was the conqueror that Mahmud of Ghazni had not been. Where Mahmud raided and went home, Muhammad came to stay: his campaigns from the 1170s through 1206 permanently transferred political control of north India from Hindu Rajput kingdoms to Turkic Muslim rule.",
       "wikiSlug": "Muhammad_of_Ghor",
       "tier": 1,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Muhammad ruled in a formal dyarchy with his elder brother Ghiyath al-Din, who governed the western Ghurid domains while Muhammad handled the eastern Indian campaign. He was assassinated in 1206 at a river crossing in modern Pakistan — the killers were probably Khokar tribesmen from the Punjab whom his army had raided. He left no son, and the Ghurid Empire fragmented almost immediately after his death, leaving his slave-generals to carve out independent successor states."
+        }
+      ],
+      "commonsFile": "Mu'izz_al-Din_Muhammad._AH_599-602_AD_1171-1206.jpg"
     },
     {
       "id": "evt-second-tarain",
       "label": "Second Battle of Tarain",
       "year": 1192,
-      "description": "Muhammad of Ghor's mounted archers defeated Prithviraj Chauhan's Rajput cavalry coalition at the Second Battle of Tarain near modern Karnal in Haryana. The battle ended Hindu political control of the Indo-Gangetic plain and opened the road to Delhi for the Turkic conquest that would establish the Delhi Sultanate fourteen years later.",
+      "description": "The Second Battle of Tarain (1192) near modern Karnal in Haryana was the hinge of north Indian history. Muhammad of Ghor's mounted archers wore down Prithviraj Chauhan's heavier Rajput coalition by feigning retreats, harassing with sustained arrow fire, and forcing prolonged action until the Rajput formations exhausted themselves. By nightfall the Rajput army was broken and Prithviraj captured.",
       "wikiSlug": "Second_Battle_of_Tarain",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle site is roughly 68 miles (110 km) north of Delhi, on the strategic corridor controlling access to the Ganges plain from Punjab. The First Battle of Tarain had been fought on essentially the same ground a year earlier, with the opposite result — Muhammad of Ghor was personally wounded and nearly killed in that first engagement before withdrawing to reorganize. The year between the two battles was spent recruiting reinforcements and rethinking tactics, suggesting a deliberate strategic response to the first defeat rather than a hasty return."
+        }
+      ],
+      "commonsFile": "The_last_stand_of_Rajputs_against_Muhammadans.jpg"
     },
     {
       "id": "evt-bakhtiyar-khalji-bengal",
       "label": "Bakhtiyar Khalji's Bengal Campaign",
       "year": 1200,
-      "description": "Muhammad bin Bakhtiyar Khalji, a Turkic general in Muhammad of Ghor's service, conquered Bihar and Bengal in a series of lightning raids around 1200–1205. The Persian historian Minhaj-i Siraj reports that he overran the Pala-era monastic universities at Nalanda, Vikramashila, and Odantapuri, killing the resident Buddhist monks and burning the libraries — the death blow to organized Buddhism in north India.",
+      "description": "Muhammad bin Bakhtiyar Khalji, a Turkic-Afghan general in Ghurid service, swept through Bihar and Bengal around 1200–1205, overrunning the great Pala-era Buddhist monastic universities — Nalanda, Vikramashila, and Odantapuri. The monks who refused to convert were killed, and the libraries burned. It was effectively the death blow to organized Buddhism on the subcontinent.",
       "wikiSlug": "Bakhtiyar_Khalji",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The loss at Nalanda was staggering: the library held perhaps tens of thousands of Sanskrit manuscripts — Buddhist, Hindu, and Jain — accumulated over six centuries. The bulk of medieval Indian Buddhist philosophical literature survives today only because Tibetan monks had already translated much of it into Tibetan before the destruction; modern scholars must reconstruct major Indian Buddhist works by translating back from Tibetan, supplemented by surviving Sanskrit fragments. Bakhtiyar Khalji went on to found the Khalji dynasty of Bengal, ruling independently from 1203 to his death."
+        }
+      ],
+      "commonsFile": "The_end_of_Buddhist_Monks,_A.D._1193.jpg"
     },
     {
       "id": "evt-qutb-al-din-aibak",
       "label": "Qutb al-Din Aibak Founds Delhi Sultanate",
       "year": 1206,
-      "description": "Muhammad of Ghor was assassinated in 1206 and his Turkic slave-general Qutb al-Din Aibak proclaimed himself sultan at Lahore, founding the Mamluk (or 'Slave') dynasty that became the first ruling house of the Delhi Sultanate. The transition formally ended the medieval Hindu period in north India and began the seven-century era of Muslim-ruled imperial states.",
+      "description": "Qutb al-Din Aibak, a Turkic slave-soldier whom Muhammad of Ghor had purchased, trained, and made his chief general in India, proclaimed himself sultan at Lahore in 1206 after Muhammad's assassination — founding the Mamluk (Arabic for 'slave') dynasty, the first ruling house of what became the Delhi Sultanate. His tomb is in Lahore.",
       "wikiSlug": "Qutb_al-Din_Aibak",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aibak's legitimacy was entirely unprecedented in Indian terms: he had no royal lineage, no dynastic claim, and no traditional Indian basis for rule — his authority rested purely on military command and the loyalty of the Turkic cavalry he had built up over twenty years of campaigning. He reigned only about four years before dying in a polo accident in 1210. The Delhi Sultanate he founded lasted from 1206 to 1526, cycling through five successive dynasties before Babur defeated the last Lodi sultan at the First Battle of Panipat."
+        }
+      ],
+      "commonsFile": "Grave_of_Sultan_Qutb_al-Din_Aibak.jpg"
     },
     {
       "id": "evt-qutb-minar",
       "label": "Qutb Minar Begins",
       "year": 1199,
-      "description": "Qutb al-Din Aibak began construction of the Qutb Minar — a 240-foot fluted brick-and-sandstone victory tower next to the Quwwat-ul-Islam mosque in Delhi — using stone salvaged from twenty-seven demolished Hindu and Jain temples. Successive sultans completed and added to the minaret over the next century. UNESCO World Heritage; the tallest brick minaret in the world.",
+      "description": "The Qutb Minar in Delhi — a 240-foot (73-meter) fluted tower of brick and red sandstone — was begun by Qutb al-Din Aibak around 1199 as a victory monument next to the Quwwat-ul-Islam mosque, the first congregational mosque in Delhi. Both were built using stone looted from twenty-seven demolished Hindu and Jain temples on the same site.",
       "wikiSlug": "Qutb_Minar",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The tower has 399 steps and took over a century to complete: Aibak finished only the first storey; his successor Iltutmish added three more; and Firuz Shah Tughlaq rebuilt the top and added a cupola in 1368. It is the tallest brick minaret in the world and a UNESCO World Heritage Site. The mosque's surviving carved columns still bear unmistakably Hindu iconography — bell-and-chain motifs, figures, Sanskrit inscriptions — because the Ghurid builders reused the temple columns wholesale rather than carving new ones."
+        }
+      ],
+      "commonsFile": "2018_Qutub_Minar_New_Delhi.jpg"
     },
     {
       "id": "evt-cholas-southeast-asia",
@@ -761,11 +1157,18 @@
       "id": "evt-chola-trade-china",
       "label": "Chola Trade with Song China",
       "year": 1015,
-      "description": "Rajaraja and Rajendra Chola dispatched diplomatic and trade missions to Song-dynasty China in 1015 and 1033. Chinese sources note Tamil merchant guilds called the Ainurruvar ('the Five Hundred') operating in port cities across maritime Southeast Asia and the South China Sea, the most sophisticated medieval merchant network east of the Persian Gulf.",
+      "description": "The Cholas dispatched diplomatic missions to Song-dynasty China in 1015 and 1033, and Tamil merchant guilds — chiefly the Ainurruvar ('the Five Hundred') — operated across maritime Southeast Asia and the South China Sea, making them the most geographically extensive medieval merchant network east of the Persian Gulf.",
       "wikiSlug": "Chola_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Ainurruvar were not just traders but a formal corporate body with their own charter, flag, and legal standing — capable of negotiating directly with foreign rulers and maintaining agents in ports from Sri Lanka to Sumatra to South China. Around 1005, the Srivijayan king actually funded the construction of a Buddhist temple at the Chola port of Nagapattinam for the use of Buddhist pilgrims traveling between Sumatra and India — a commercial relationship so entangled that when Rajendra's navy attacked Srivijaya twenty years later, it genuinely shocked the region's trading world."
+        }
+      ],
+      "commonsFile": "Airavateswara_Temple,_Darasuram_in_Thanjavur_District.jpg"
     },
     {
       "id": "evt-arab-trade-malabar",
@@ -780,57 +1183,91 @@
       "id": "evt-cheraman-juma-mosque",
       "label": "Cheraman Juma Mosque",
       "year": 629,
-      "description": "Tradition holds that the Cheraman Juma Mosque at Methala in Kerala was founded around 629 CE by the legendary Chera king Cheraman Perumal after he converted to Islam — making it possibly the oldest mosque in the Indian subcontinent and certainly the oldest Indian mosque established peacefully through trade rather than conquest. Modern scholars debate the founding date but accept that the mosque is genuinely ancient.",
+      "description": "The Cheraman Juma Mosque at Kodungallur (Methala) in Kerala is traditionally said to have been founded around 629 CE by the Chera king Cheraman Perumal after he converted to Islam through contact with Arab traders — making it a contender for the oldest mosque in the Indian subcontinent and, more certainly, the oldest established through peaceful trade rather than conquest.",
       "wikiSlug": "Cheraman_Juma_Mosque",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The founding legend says Cheraman Perumal witnessed the moon splitting in two — a miracle associated with the Prophet Muhammad — and traveled to Arabia to meet him; the mosque was supposedly built by his companion Malik ibn Dinar on the return voyage. Modern historians are skeptical of the 629 CE date (some suggest 14th–15th century construction for the current building) but accept the site is genuinely ancient. The mosque's design incorporated a traditional Kerala lamp (nilavilakku) and a tank, blending local architectural vocabulary with Islamic function — a visible marker of how Islam arrived on the Malabar coast as a trading partner, not an occupying army."
+        }
+      ],
+      "commonsFile": "Cheraman_Juma_Palli_(ചേരമാൻ_ജുമാ_പള്ളി).jpg"
     },
     {
       "id": "evt-bhaskara-ii",
       "label": "Bhaskara II",
       "year": 1114,
       "endYear": 1185,
-      "description": "Bhaskara II ('Bhaskaracharya') worked at the astronomical observatory at Ujjain in the twelfth century and wrote the Siddhanta Shiromani — the most sophisticated Indian mathematical-astronomical text of the medieval period. He worked out the principles of differential calculus several centuries before Newton and Leibniz, computed the length of the sidereal year to within minutes of the modern value, and posed and solved problems in indeterminate equations that European mathematicians would not match until the seventeenth century.",
+      "description": "Bhaskara II (1114–1185 CE) was the greatest Indian mathematician-astronomer of the medieval period, working at the observatory at Ujjain. His Siddhanta Shiromani ('Crown Jewel of Treatises') worked out principles of differential calculus several centuries before Newton and Leibniz, and computed the length of the sidereal year to within minutes of the modern value.",
       "wikiSlug": "Bhaskara_II",
       "tier": 1,
       "tags": [
         "writing"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bhaskara II posed and solved indeterminate equations (now called Diophantine equations) that European mathematicians would not independently match until the seventeenth century. His grandson Changadeva had an inscription carved in a Maharashtra temple tracing the family's scholarly lineage — which is how we know several generations of this mathematical dynasty. Henry Colebrooke's 1817 English translation of his works was the first time European mathematicians were forced to reckon with the depth of medieval Indian mathematics."
+        }
+      ],
+      "commonsFile": "Page_from_Lilavati,_the_first_volume_of_Siddhānta_Śiromaṇī._Use_of_the_Pythagorean_theorem_in_the_corner.jpg"
     },
     {
       "id": "evt-lilavati",
       "label": "Lilavati and Indian Mathematics",
       "year": 1150,
-      "description": "Bhaskara II's Lilavati (named for his daughter) is a mathematical textbook in verse that became the standard arithmetic text of medieval and early-modern India. It treats fractions, algebra, geometric series, combinatorics, and quadratic equations, with worked problems often phrased as small parables — bees flying among lotus blooms, monkeys eating coconuts.",
+      "description": "The Lilavati (1150 CE), first volume of Bhaskara II's Siddhanta Shiromani, is a mathematical textbook written in elegant Sanskrit verse and named for his daughter. It covers fractions, algebra, geometric series, combinatorics, and quadratic equations, with worked problems phrased as small parables involving bees, monkeys, and lotus flowers.",
       "wikiSlug": "Lilavati",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Lilavati remained the standard arithmetic textbook across India from the twelfth century well into the early modern period — a span of roughly 500 years. Its verse format was deliberate: problems set as poetry were easier to memorize and transmit orally in a world where manuscript copying was expensive and rare. One of its famous problems asks: 'A fifth of a swarm of bees flew to a lotus flower; a third flew to a plantain tree; three times the difference flew to a tree; one bee flew about... how many bees were there?'"
+        }
+      ],
+      "commonsFile": "Lilavati-problem.png"
     },
     {
       "id": "evt-decimal-numerals-spread",
       "label": "Decimal Numerals Reach the West",
       "year": 825,
-      "description": "The Persian polymath al-Khwarizmi's treatise on Indian arithmetic (around 825 CE) introduced the decimal place-value system to the Arab and eventually European worlds. Europeans called the digits 'Arabic numerals' because they got them from Arabic translations of texts whose contents had originated in India; al-Khwarizmi himself called them 'Hindi numerals' and credited the Indian source.",
+      "description": "Around 825 CE, the Persian polymath al-Khwarizmi wrote the first systematic Arabic treatise on Indian arithmetic, transmitting the decimal place-value number system (including zero as a number) from India to the Arab world and eventually to Europe. Al-Khwarizmi called them 'Hindi numerals' and credited the Indian source; Europeans who received the system via Arabic translations called them 'Arabic numerals' and forgot the original source.",
       "wikiSlug": "Hindu%E2%80%93Arabic_numeral_system",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The formal modern name 'Hindu-Arabic numerals' preserves both halves of the debt, though everyday English usage strips the Indian credit out. The transmission chain is unusually well documented: Indian Gupta-era mathematicians → Arabic-language encyclopedists (al-Khwarizmi, ~825 CE) → Latin Europe via Fibonacci's Liber Abaci (1202 CE). Fibonacci had learned the system in North Africa while traveling as a merchant's son; he opened his book with the line 'The nine Indian figures are...' — acknowledging the source Europeans would later forget."
+        }
+      ]
     },
     {
       "id": "evt-eastern-ganga",
       "label": "Eastern Ganga Dynasty",
       "year": 1078,
       "endYear": 1434,
-      "description": "The Eastern Ganga dynasty ruled Kalinga (modern Odisha) for three and a half centuries and built the great Hindu temples on the Bay of Bengal coast — the Jagannath Temple at Puri, the Lingaraja at Bhubaneswar, and the Sun Temple at Konark. Their kingdom successfully resisted both Chola raids from the south and Bengal-based Turkic raids from the north.",
+      "description": "The Eastern Ganga dynasty ruled Kalinga (modern Odisha) from the 11th to the early 15th century and built three of the holiest Hindu pilgrimage sites in eastern India: the Jagannath Temple at Puri, the Lingaraja at Bhubaneswar, and the Sun Temple at Konark. They held off both Chola raids from the south and Turkic raids from the north.",
       "wikiSlug": "Eastern_Ganga_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name 'Eastern Ganga' distinguishes them from the unrelated Western Ganga dynasty of Karnataka. Their founding king Chodaganga (r. 1077–1147) built the Jagannath Temple at Puri and claimed territory from the Godavari River in the south to the Ganges in the north — one of the largest Kalinga empires in history. Telugu was the court language in the early period; Odia (Odiya) became official only as the dynasty expanded northward, making this a rare case of a ruling house changing its court language mid-dynasty."
+        }
+      ],
+      "commonsFile": "700_CE_Mukhalingeswara_Temples_Group,_Kalinga_architecture,_Mukhalingam,_Andhra_Pradesh_-_37.jpg"
     },
     {
       "id": "evt-kashmir-shaivism",
@@ -861,13 +1298,20 @@
       "id": "evt-jayadeva-gita-govinda",
       "label": "Jayadeva's Gita Govinda",
       "year": 1180,
-      "description": "Jayadeva, court poet of the Bengal Sena king Lakshmana Sena, composed the Sanskrit lyric poem Gita Govinda around 1180 CE — a sequence of erotic devotional songs about the love of Krishna and his consort Radha. It is one of the most influential medieval Sanskrit works, set the template for centuries of Krishna-bhakti devotional poetry, and is still performed in temple dance traditions across India.",
+      "description": "Jayadeva's 'Gita Govinda' (c. 1180 CE) is a Sanskrit lyric poem structured as a sequence of songs about the erotic-devotional love between Krishna and Radha — the first work in Sanskrit to place Radha as Krishna's primary consort and to treat their relationship as the supreme metaphor for the soul's longing for God.",
       "wikiSlug": "Gita_Govinda",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Gita Govinda is unusually musical in structure: each section specifies its raga (melodic mode) and tala (rhythmic cycle), making it a performance text as much as a poem. It is still the liturgical centerpiece of the Jagannath Temple at Puri, where verses are sung during the deity's daily ritual. The poem's elevation of Radha — a figure essentially absent from earlier Sanskrit literature — transformed Krishna devotion permanently; every subsequent north Indian Krishna-bhakti tradition (including the Braj poetry of Surdas and Mirabai) takes Radha's centrality as given."
+        }
+      ],
+      "commonsFile": "Original_palm_leaf_manuscript_of_Gita_Gobinda_(Gita_Govinda)_written_by_Jayadeba_(Jayadeva),_Odisha_state_museum,_Bhubaneswar_2013.JPG"
     },
     {
       "id": "evt-sena-dynasty",
@@ -885,37 +1329,58 @@
       "label": "Bhoja of the Paramaras",
       "year": 1010,
       "endYear": 1055,
-      "description": "Bhoja was the Paramara Rajput king of Malwa (capital at Dhar in modern Madhya Pradesh) and a polymath whose name became a byword for the ideal patron-scholar king. Sanskrit tradition credits him with eighty-four works on architecture, poetics, grammar, astronomy, medicine, and yoga, though the actual authorship is debated. His artificial lake at Bhojpur was once the largest reservoir in medieval India.",
+      "description": "Bhoja (ruled roughly 1010–1055) was the Paramara Rajput king of Malwa, based at Dhar in modern Madhya Pradesh, and the medieval Indian figure most associated with the ideal of the scholar-king. Sanskrit tradition credits him with authorship of works on architecture, poetics, grammar, astronomy, yoga, and medicine — the range is almost certainly legendary, but real works bearing his name survive.",
       "wikiSlug": "Bhoja",
       "tier": 3,
       "tags": [
         "science",
         "writing"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bhoja's artificial lake near his capital — created by damming the Betwa River and reportedly covering 250 square miles (650 sq km) — was the largest reservoir in medieval India and remained in use for centuries after his death. He founded the city of Bhopal (named for him) and the institution now called Raja Bhoja University in Bhopal. His reputation was so outsized that even in his own lifetime later storytellers treated him as a semi-mythical figure, and the phrase 'Where is the Bhoja and where is the Kalidasa?' became a Sanskrit proverb for an age of extraordinary talent that had passed."
+        }
+      ],
+      "commonsFile": "Bhojpur_Mandir.jpg"
     },
     {
       "id": "evt-chaulukyas-gujarat",
       "label": "Chaulukyas of Gujarat",
       "year": 940,
       "endYear": 1244,
-      "description": "The Chaulukya dynasty (also called the Solankis) ruled Gujarat from Anhilwara for three centuries. Their kings patronized Jainism heavily — the marble-clad Dilwara temples on Mount Abu were built during their period — and their merchant ports at Cambay and Bharuch handled the bulk of the western Indian trade with the Arab world.",
+      "description": "The Chaulukya dynasty (also called Solankis) ruled Gujarat from their capital at Anhilwara (modern Patan) for three centuries (940–1244 CE), becoming the dominant western Indian power and heavy patrons of Jain temple building — the marble-clad Dilwara temples on Mount Abu were built during their reign.",
       "wikiSlug": "Chaulukya_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Chaulukya period is considered a golden age of Gujarat: King Kumarpal (r. 1143–1172) converted to Jainism under the influence of the philosopher Hemachandra and issued laws against animal slaughter across the kingdom. Their port cities of Cambay (Khambhat) and Bharuch were among the busiest in the medieval Indian Ocean trade network, connecting the subcontinent to Arab merchants carrying textiles and spices westward. The dynasty fell to the Delhi Sultanate's Iltutmish in a series of campaigns culminating around 1244."
+        }
+      ],
+      "commonsFile": "Chaulukya-Paramara_coin_circa_AD_950-1050.jpg"
     },
     {
       "id": "evt-yashodharman",
       "label": "Yashodharman Defeats the Hunas",
       "year": 528,
-      "description": "Yashodharman of Malwa defeated the Hephthalite Hun king Mihirakula at the Battle of Sondani around 528 CE — the engagement that effectively ended the Hun threat to north India and made the regional kingdoms of the post-Gupta period possible. Yashodharman's victory pillar at Mandsaur survives.",
+      "description": "Around 528 CE, Yashodharman — a regional king of Malwa in central India — defeated the Hephthalite Hun king Mihirakula at the Battle of Sondani, ending the Hun threat that had been strangling north India for decades. He was not a Gupta loyalist but an ambitious local ruler filling the vacuum, and his victory pillar at Mandsaur still stands.",
       "wikiSlug": "Yashodharman",
       "tier": 3,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mandsaur pillar inscription is a masterpiece of Sanskrit court propaganda — it claims that even Mihirakula (who had terrorized the entire subcontinent) prostrated his head before the king of Malwa. Yashodharman also erected a second victory pillar boasting he had conquered territory never held by either the Guptas or the Hunas — a remarkable claim from a king who is almost completely unknown outside these two stone columns."
+        }
+      ],
+      "commonsFile": "The_defeat_of_the_Ephalites,_or_White_Huns_A.D._528.jpg"
     }
   ]
 }
