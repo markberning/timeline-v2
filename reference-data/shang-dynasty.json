@@ -81,31 +81,24 @@
       "id": "evt-shang-mingtiao",
       "label": "Battle of Mingtiao",
       "year": -1600,
-      "description": "Tang's forces defeated Jie of Xia at Mingtiao during a violent thunderstorm. Jie fled south and died in exile, ending the Xia Dynasty. Tang's victory established the Shang as rulers of the Yellow River plain.",
+      "description": "The Battle of Mingtiao, fought around 1600 BCE, was the founding clash of Chinese dynastic history: Tang's forces routed the Xia army, Jie fled south and died in exile, and a new dynasty took control of the Yellow River plain.",
       "wikiSlug": "Battle_of_Mingtiao",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "Tang had spent years building alliances among disaffected Xia vassals, positioning himself as a virtuous alternative to the tyrannical Jie. When Jie executed a loyal noble who had warned him of Tang's growing power, Tang declared war."
-        },
-        {
-          "label": "The Battle",
-          "text": "Tang's army met Jie's forces at Mingtiao (near modern Fengqiu, Henan) during a fierce thunderstorm. Jie's troops — demoralized by years of misrule — broke and fled. Jie escaped south to Nanchao, where he died in exile."
-        },
-        {
-          "label": "Aftermath",
-          "text": "Tang's victory gave the Shang control of the Yellow River heartland and all the Xia's infrastructure — bronze workshops, palace compounds, trade networks. The precedent of righteous rebellion against a corrupt ruler became the template for every future dynasty change."
+          "label": "Explore further",
+          "text": "Ancient sources describe the battle occurring during a violent thunderstorm, which Tang's propagandists interpreted as heaven itself endorsing the assault. The battle is called 'semi-legendary' by modern archaeologists because no contemporary written record confirms it — the oracle bone script wasn't invented until about 200 years later, so the earliest accounts were written centuries after the fact. The name 'Mingtiao' appears in the Book of Documents and the Bamboo Annals but its exact geographic location remains unidentified."
         }
-      ]
+      ],
+      "commonsFile": "Xiajie.png"
     },
     {
       "id": "evt-tang-founds-shang",
       "label": "King Tang Founds the Shang",
       "year": -1600,
-      "description": "King Tang overthrew the last ruler of the Xia Dynasty at the Battle of Mingtiao, founding the Shang Dynasty and establishing the precedent of righteous rebellion against tyrants.",
+      "description": "King Tang, a vassal chief from the eastern edge of Xia territory, rallied his allies, declared that heaven had stripped the tyrant Jie of its favor, and marched to overthrow the Xia Dynasty around 1600 BCE — founding the Shang and introducing the enduring Chinese idea that a ruler who loses virtue loses the right to rule.",
       "wikiSlug": "Tang_of_Shang",
       "tier": 1,
       "tags": [
@@ -115,68 +108,46 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Tang was the chieftain of the Shang people, a polity that had grown powerful under the Xia's political umbrella. He was remembered as a virtuous ruler who fasted and prayed for his people during a seven-year drought."
-        },
-        {
-          "label": "Role in the Shang",
-          "text": "Tang defeated the Xia king Jie at the Battle of Mingtiao, ending the Xia and founding a new dynasty. His victory established the precedent that a ruler who loses virtue loses the right to reign — a concept the Zhou would later formalize as the Mandate of Heaven."
-        },
-        {
-          "label": "Legacy",
-          "text": "Tang's overthrow of the Xia was the founding act of verifiable Chinese dynastic history. The Shang he built on Xia foundations would itself be overthrown by the Zhou 550 years later, citing the same logic Tang used against Jie."
+          "label": "Explore further",
+          "text": "Tang's personal name recorded on oracle bones is Tai Yi or Da Yi, suggesting he was venerated as an ancestral deity almost immediately after death. His posthumous title, Cheng Tang, translates roughly as 'Accomplished Tang,' a deliberately flattering epithet assigned by later generations. Because his reign predates the Late Shang oracle-bone archive by roughly two centuries, virtually everything we know about him comes from texts written long after the fact — which means the 'virtuous founder' portrait may owe more to political storytelling than to genuine memory."
         }
       ],
       "aliases": [
         "Tang",
         "Tang of Shang"
-      ]
+      ],
+      "commonsFile": "King_Tang_of_Shang.jpg"
     },
     {
       "id": "evt-yi-yin",
       "label": "Minister Yi Yin",
       "year": -1600,
-      "description": "Yi Yin, a former cook who became the Shang's most famous minister, advised King Tang and later deposed an unworthy successor — the archetypal loyal but firm counselor.",
+      "description": "Yi Yin, born a slave and trained as a cook, became King Tang's most trusted minister and one of the Shang's founding political figures — later said to have temporarily deposed an unworthy successor king and governed in his place until the young man reformed, a story Confucian thinkers retold for centuries as proof that ability outranks birth.",
       "wikiSlug": "Yi_Yin",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Yi Yin was born a slave and became a cook before his talent for governance brought him to King Tang's court. He is one of the few commoners in ancient Chinese history to rise to supreme ministerial authority."
-        },
-        {
-          "label": "Role in the Shang",
-          "text": "Yi Yin served as Tang's chief advisor and helped consolidate the new dynasty. After Tang's death, he temporarily deposed Tang's unworthy grandson, governing in his place until the young king reformed his ways."
-        },
-        {
-          "label": "Legacy",
-          "text": "Yi Yin became the archetype of the loyal minister who serves the state rather than merely the ruler — a model Confucian thinkers would cite for centuries. His story shows that Shang political culture already recognized merit alongside hereditary right."
+          "label": "Explore further",
+          "text": "Yi Yin served as Minister of the Right for both the pre-dynastic Shang and the early dynasty — a rare continuity across the founding transition. Oracle bone inscriptions mention him directly, which is unusual for someone who predates the main oracle-bone archive, suggesting his cult status was so high that later Shang kings still made sacrificial offerings to him alongside royal ancestors. One oracle bone records a sacrifice to Yi Yin on the same day as a veneration rite for the royal ancestor Bao Ding, placing him in genuinely divine company."
         }
-      ]
+      ],
+      "commonsFile": "Yi_Yin.png"
     },
     {
       "id": "evt-scapulimancy-origins",
       "label": "Scapulimancy Before Writing",
       "year": -1580,
-      "description": "The Shang inherited bone divination (scapulimancy) from Neolithic predecessors — Longshan-era sites show heated animal bones with crack marks but no writing. The Shang's innovation was adding inscriptions to an existing ritual practice.",
+      "description": "Bone divination — heating animal shoulder blades and reading the resulting cracks — predates the Shang by over a thousand years. Longshan culture sites from roughly 3000 to 1900 BCE show heated bones with crack marks but no inscription. The Shang's contribution was adding writing: they turned a pre-literate ritual into a written archive.",
       "wikiSlug": "Scapulimancy",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Heating animal bones to produce cracks for divination was widespread in Neolithic East Asia by the Longshan period (c. 3000-1900 BCE). The technique used cattle shoulder blades (scapulae) heated over fire, with the resulting crack patterns read as answers from spirits."
-        },
-        {
-          "label": "The Practice",
-          "text": "Pre-Shang divination bones show heat damage and deliberate preparation (smoothing, pit-carving) but no written text. The Shang transformed this inherited practice by adding three things: inscribed questions, recorded interpretations, and follow-up outcome notations."
-        },
-        {
-          "label": "Significance",
-          "text": "The continuity from pre-literate scapulimancy to Shang oracle bone inscriptions shows that Chinese writing did not appear from nothing — it was grafted onto an existing ritual practice. Writing emerged because the Shang wanted better records of their conversations with the dead."
+          "label": "Explore further",
+          "text": "Scapulimancy was not uniquely Chinese — it appears independently in traditions across Eurasia and the Americas, making it one of humanity's more widespread divination practices. The Shang version was unusual not in the heat-and-read method itself, but in the systematic carving of questions, interpretations, and verified outcomes on the same bone, creating what is effectively the world's oldest audited decision log."
         }
       ]
     },
@@ -208,103 +179,75 @@
       "id": "evt-erligang-city",
       "label": "Erligang (Zhengzhou) City",
       "year": -1507.5,
-      "description": "The massive walled city at Zhengzhou, with 7-km-long rammed-earth walls and bronze foundries, served as an early Shang capital and industrial center.",
+      "description": "Around 1600–1500 BCE, the Shang built a massive planned city at what is now Zhengzhou in central Henan — the archaeological site called Erligang — with rammed-earth walls stretching 7 km around and large bronze foundries operating inside at industrial scale, making it the first true city in Chinese history.",
       "wikiSlug": "Erligang_culture",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Zhengzhou was built on the site of earlier Neolithic and Erlitou settlements, inheriting centuries of accumulated agricultural and craft knowledge. The Shang transformed this regional center into a planned administrative capital."
-        },
-        {
-          "label": "The Structure",
-          "text": "The city featured a walled inner palace district surrounded by craft workshops — bronze foundries, bone carvers, and pottery kilns — arranged in deliberate industrial zones. The bronze output from Erligang-phase foundries dwarfed anything previously seen in East Asia."
-        },
-        {
-          "label": "Legacy",
-          "text": "Erligang established the Chinese urban model: a walled palace core, surrounding craft districts, and agricultural hinterland. This template persisted through the Zhou, Qin, Han, and beyond into imperial Chinese city planning."
+          "label": "Explore further",
+          "text": "Erligang culture ran from roughly 1600 to 1400 BCE and was discovered by archaeologists in 1951 when they found the site buried beneath modern Zhengzhou. The Zhengzhou Shang City walls, up to 30 feet high in places, required an estimated 10 million cubic feet of compacted earth — years of labor by thousands of workers. At its peak, Erligang-style artifacts appeared simultaneously across a swath of eastern China spanning over 600 miles, suggesting coordinated expansion rather than slow cultural drift."
         }
-      ]
+      ],
+      "commonsFile": "Bronze_ding,_Zhengzhou_Erligang_culture.JPG"
     },
     {
       "id": "evt-bronze-casting-begins",
       "label": "Piece-Mold Bronze Casting",
       "year": -1502.5,
-      "description": "The Shang perfected the piece-mold technique for casting bronze, producing vessels of extraordinary complexity. Unlike Western lost-wax casting, this uniquely Chinese method used ceramic molds.",
+      "description": "The Shang invented piece-mold casting — a uniquely Chinese technique in which clay mold sections were pressed against a sculpted master, removed, reassembled, and filled with molten bronze — producing vessels of sharp geometric precision no other Bronze Age civilization achieved.",
       "wikiSlug": "Chinese_ritual_bronzes",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Early bronze casting at Erlitou (Xia period) used simple two-piece molds. The Shang inherited this foundation and systematically developed multi-section ceramic molds that could capture far more complex shapes and surface decoration."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Shang craftsmen assembled multiple ceramic sections around a clay core, creating a mold that could be taken apart after casting to reveal intricately decorated bronzes. The taotie masks, flanges, and hooked flanges on Shang bronzes were impossible with any other ancient technique."
-        },
-        {
-          "label": "Impact",
-          "text": "Piece-mold casting became the defining Chinese approach to bronze for over a millennium, influencing Zhou and Han bronzes. While the Mediterranean world chose lost-wax, China's ceramic mold tradition produced a completely different — and equally sophisticated — artistic vocabulary."
+          "label": "Explore further",
+          "text": "Piece-mold casting required the surface decoration to be carved into the master model in mirror image, and any gap between mold sections would leak molten metal — making the technique unforgiving to the point of obsession. The Shang were producing elaborately decorated bronze grave goods from around 1650 BCE, and documented excavations have found over 200 bronze pieces in a single royal tomb. The same mold-master could be used to standardize vessel shapes across multiple castings, giving Shang workshops a proto-industrial consistency unlike anything in contemporary Egypt or Mesopotamia."
         }
-      ]
+      ],
+      "commonsFile": "MET_DP219959.jpg"
     },
     {
       "id": "evt-erligang-expansion",
       "label": "Erligang Expansion",
       "year": -1500,
-      "description": "The early Shang state expanded aggressively from Zhengzhou, establishing colonies and trade outposts across a vast territory — from Hubei in the south to Hebei in the north — spreading Erligang-style bronze culture over 1,000 km.",
+      "description": "Between roughly 1600 and 1400 BCE, the early Shang projected power outward from Zhengzhou in what archaeologists call the Erligang expansion — establishing walled sites with Shang-style bronzes, pottery, and urban layouts across a territory spanning more than 600 miles north to south.",
       "wikiSlug": "Erligang_culture",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "After consolidating power at Zhengzhou, the early Shang rulers launched an outward push that archaeologists call the 'Erligang expansion.' Sites with characteristic Erligang bronze types, pottery forms, and urban planning appear simultaneously across a huge swath of eastern China."
-        },
-        {
-          "label": "The Campaign",
-          "text": "The expansion was not purely military — it combined conquest, colonization, and trade. Shang-style walled settlements appeared at Panlongcheng (Hubei), Dongxiafeng (Shanxi), and sites in Shandong, each with bronze foundries producing vessels in the Zhengzhou style."
-        },
-        {
-          "label": "Significance",
-          "text": "The Erligang expansion created the first truly large-scale political network in Chinese history. It demonstrated that the Shang were not a city-state but an expansionist kingdom capable of projecting power over enormous distances — a template the Zhou and later empires would inherit."
+          "label": "Explore further",
+          "text": "The speed of the Erligang spread — artifacts appearing simultaneously at distant sites rather than diffusing gradually — strongly suggests deliberate colonization and military projection, not slow cultural borrowing. Erligang-style bronze vessels found far from the heartland show local casting but follow Zhengzhou design conventions exactly, implying that royal workshops either sent master craftsmen or enforced detailed specifications at the colonies. The expansion collapsed abruptly around 1400 BCE: Panlongcheng was abandoned, Zhengzhou's importance faded, and the Shang entered a poorly understood 150-year gap before re-emerging at Yin."
         }
-      ]
+      ],
+      "commonsFile": "Cernuschi_verseuse_jue_epo_erligang_din_shang.JPG"
     },
     {
       "id": "evt-silk-production",
       "label": "Early Silk Production",
       "year": -1497.5,
-      "description": "Archaeological evidence confirms that the Shang produced silk textiles, continuing a tradition that may date back to the Neolithic — the foundation of China's most famous export.",
+      "description": "The Shang industrialized silk production — weaving cloth from silkworm cocoons for ritual garments and elite exchange — continuing a Chinese tradition dating back to at least 3000 BCE and laying the groundwork for China's millennia-long monopoly on the world's most sought-after textile.",
       "wikiSlug": "Silk",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "Silk production in China dates back to at least 3000 BCE — Neolithic sites have yielded silk thread and fragments. The Shang inherited and industrialized this tradition, weaving silk for ritual garments and elite exchange."
-        },
-        {
-          "label": "The Commerce",
-          "text": "Shang silk was a prestige good traded among the aristocracy and used in ritual offerings. Bronze vessels depicted figures in elaborate silk robes, suggesting weaving had already reached high levels of technical sophistication."
-        },
-        {
-          "label": "Significance",
-          "text": "The Shang silk tradition passed unbroken to the Zhou and eventually became the foundation of the Silk Road trade network. China's monopoly on sericulture, which the Shang helped establish, lasted until the 6th century CE."
+          "label": "Explore further",
+          "text": "China's silk monopoly held until the 6th century CE, when Byzantine agents reportedly smuggled silkworm eggs out of China hidden inside hollow canes. The shimmery quality of silk comes from the triangular prism-like cross-section of individual fibers, which refract light and produce shifting colors — a physical accident of the silkworm's biology that made the cloth look almost supernatural to anyone who had never seen it. The trade routes that would later be called the Silk Road ultimately trace their commercial logic back to this Shang-era cloth."
         }
-      ]
+      ],
+      "commonsFile": "Silk_raw_01a.jpg"
     },
     {
       "id": "evt-bronze-foundry-org",
       "label": "State-Controlled Bronze Foundries",
       "year": -1495,
-      "description": "Shang bronze production was a state monopoly: foundries at Zhengzhou and Anyang employed hundreds of specialized workers in assembly-line operations, with the king controlling all copper and tin supply chains.",
+      "description": "Bronze production at the Shang capitals was a royal state monopoly: foundries at Zhengzhou and later Anyang organized hundreds of specialized workers into what looks like an assembly line, with mold makers, furnace operators, pourers, and finishing crews each in physically separate workshop zones.",
       "wikiSlug": "Shang_dynasty",
       "tier": 3,
       "tags": [
@@ -313,66 +256,45 @@
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Bronze casting at Erligang and Yinxu was not a cottage industry. Archaeological evidence reveals large foundry districts with separate areas for mold-making, smelting, casting, and finishing — an organized production system requiring centralized management."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Casting a single large vessel required coordinating dozens of workers: clay model makers, mold section makers, furnace operators, metal pourers, and finishers. The Simuwu Ding alone needed over 200 coordinated workers. This was industrial organization comparable to any Bronze Age civilization."
-        },
-        {
-          "label": "Impact",
-          "text": "State control of the foundries meant that every bronze vessel, weapon, and tool in the Shang world existed at the king's pleasure. No rival could independently arm themselves or perform ancestor rituals without the king's bronze. This material monopoly was the foundation of Shang political power."
+          "label": "Explore further",
+          "text": "Archaeological evidence from the Yinxu foundry district shows distinct production-stage zones with dedicated waste areas and storage — industrial organization centuries before the concept had a name. The king's control of copper and tin supply chains meant that every bronze ritual vessel and every bronze weapon in the Shang world existed at royal pleasure; a noble could not independently arm soldiers or perform ancestor rites without the king's metal. When a king gifted a bronze vessel set to a subordinate, he was simultaneously honoring him, binding him to the dynasty, and reminding him who controlled the means of production."
         }
-      ]
+      ],
+      "commonsFile": "CMOC_Treasures_of_Ancient_China_exhibit_-_bronze_battle_axe.jpg"
     },
     {
       "id": "evt-rammed-earth",
       "label": "Rammed-Earth Construction",
       "year": -1492.5,
-      "description": "Shang builders used rammed-earth (hangtu) techniques for palace foundations and city walls — a method that remained standard in Chinese construction for millennia.",
+      "description": "Hangtu (rammed earth) — the technique of compacting thin layers of soil into wooden frames until they set hard as stone — was the Shang's primary building method for palace platforms and city walls, inherited from Neolithic Chinese cultures and used continuously in China for thousands of years after.",
       "wikiSlug": "Rammed_earth",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Rammed-earth construction was inherited from Neolithic Chinese cultures and refined at Erlitou under the Xia. The Shang scaled it dramatically, building city walls requiring millions of worker-days of labor."
-        },
-        {
-          "label": "The Structure",
-          "text": "Workers filled wooden frames with thin layers of soil, pounding each layer hard before adding the next. The resulting walls at Zhengzhou rose up to 9 meters high and stretched 7 km in circumference — among the largest earthworks of the ancient world."
-        },
-        {
-          "label": "Legacy",
-          "text": "The hangtu technique passed directly to the Zhou and remained the dominant method for Chinese city walls, platform foundations, and even the first Great Wall. The Shang's engineering legacy was as durable as their bronze."
+          "label": "Explore further",
+          "text": "Rammed earth requires no firing or special materials, just labor and patience: each thin layer is pounded with stone or wooden rammers before the next is added, producing walls far denser than sun-dried mud brick. The method is so effective that intact Shang-era hangtu foundations have survived more than 3,000 years underground. Modern builders have revived rammed earth as a sustainable low-carbon construction technique, finding that ancient Chinese wall specifications often match contemporary engineering standards."
         }
-      ]
+      ],
+      "commonsFile": "Summer_Vacation_2007,_263,_Watchtower_In_The_Morning_Light,_Dunhuang,_Gansu_Province.jpg"
     },
     {
       "id": "evt-panlongcheng",
       "label": "Panlongcheng Colony",
       "year": -1490,
-      "description": "Panlongcheng in modern Hubei, over 500 km south of Zhengzhou, was a Shang colonial outpost with its own walled palace district and bronze foundries — proof that early Shang power projected far beyond the Yellow River heartland.",
+      "description": "Panlongcheng, a Shang walled settlement on the Yangtze River in modern Hubei province, sat more than 310 miles (500 km) south of the royal capital at Zhengzhou — an outpost with its own palace precinct and bronze foundries, almost certainly built to control copper and tin sources in the middle Yangtze region and funnel raw metal back north.",
       "wikiSlug": "Panlongcheng",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Located on the Yangtze River plain in modern Hubei province, Panlongcheng was the most distant known Shang outpost during the Erligang phase. Its presence over 500 km from Zhengzhou challenged the old assumption that the early Shang was a compact Yellow River state."
-        },
-        {
-          "label": "The Structure",
-          "text": "Panlongcheng had a walled palace precinct, elite burials with Erligang-style bronzes, and evidence of local bronze casting. The settlement controlled access to copper and tin sources in the middle Yangtze region — likely the primary reason for its strategic location."
-        },
-        {
-          "label": "Legacy",
-          "text": "Panlongcheng demonstrates that the Shang ran a resource-extraction empire from the beginning: the colony existed to funnel bronze-making materials northward to Zhengzhou. The pattern of northern capitals fed by southern mining colonies recurred throughout Chinese imperial history."
+          "label": "Explore further",
+          "text": "Discovered in 1954 and excavated in 1974–76, Panlongcheng is the largest excavated Erligang site and marks the southernmost reach of early Shang power. It sits on the bank of Panlong Lake where the Fushui River meets the Yangtze plain — a location chosen for water access, not defense. The site shows local bronze casting that exactly mirrors Zhengzhou conventions, proving the colony wasn't independent but operating under royal direction. Its abandonment around 1400 BCE coincides with the broader Erligang collapse, suggesting the colony lived and died with the expansion strategy that created it."
         }
-      ]
+      ],
+      "commonsFile": "Lijiazui_Site_at_Panlong_City_National_Archaeological_Park.jpg"
     },
     {
       "id": "evt-copper-tin-trade",
@@ -385,16 +307,8 @@
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "Bronze requires copper and tin, but the two ores rarely occur together. The Yellow River heartland had limited local sources of both, forcing the Shang to build trade and extraction networks reaching deep into southern and western China."
-        },
-        {
-          "label": "The Commerce",
-          "text": "Copper came primarily from mines in the Yangtze region — the Panlongcheng colony likely served as a copper-forwarding station. Tin sources are more debated but may have included deposits in modern Yunnan and Guangxi. Lead, used as a flux additive, was more locally available."
-        },
-        {
-          "label": "Significance",
-          "text": "The scale of the Shang metal trade network reveals a sophisticated logistics system: mining, smelting at source, ingot transport, and final casting at the capitals. Control of these supply chains was as politically important as control of the foundries themselves."
+          "label": "Explore further",
+          "text": "Panlongcheng, a fortified Shang outpost far to the south near the Yangtze, likely served as a copper-forwarding station — a sign the dynasty projected power along its metal routes, not just along its borders. Ore was typically smelted near the mines and moved as ingots, with lead added as a flux, before being cast into vessels back at the capitals. Controlling these supply chains was as politically vital as controlling the foundries, since whoever held the copper and tin held the ritual bronzes that legitimized rule."
         }
       ]
     },
@@ -426,7 +340,7 @@
       "id": "evt-ritual-bronzes",
       "label": "Ritual Bronze Vessels",
       "year": -1410,
-      "description": "Shang ritual bronzes — ding tripods, jue wine cups, gui food vessels — served ancestor worship ceremonies and symbolized political authority. Their artistry remains unmatched.",
+      "description": "Shang ritual bronzes — ding tripods for food, jue wine cups, gui grain vessels — were the central instruments of ancestor worship, cast in elaborate piece-mold technique and deposited in royal tombs so the dead could keep making offerings in the afterlife.",
       "wikiSlug": "Chinese_ritual_bronzes",
       "tier": 2,
       "tags": [
@@ -435,40 +349,25 @@
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "The Shang perfected the piece-mold technique first developed at Erlitou, producing vessels of a complexity and scale that earlier Chinese bronzes never approached. Control of bronze meant control of ritual, which meant control of political legitimacy."
-        },
-        {
-          "label": "The Structure",
-          "text": "Different vessel types served specific ritual roles: ding tripods held food offerings, jue cups poured libations, and hu jars stored wine. Sets of vessels were calibrated to the owner's rank — a system the Zhou later codified into strict sumptuary law."
-        },
-        {
-          "label": "Legacy",
-          "text": "Shang ritual bronzes are among the greatest artistic achievements of the ancient world. The vessel types, decorative motifs, and social meanings the Shang established persisted into Western Zhou bronzes — the Zhou even began inscribing lengthy texts on bronzes they inherited from Shang tradition."
+          "label": "Explore further",
+          "text": "A single royal tomb could contain more than 200 bronze pieces, each one a statement of political rank as much as religious devotion. The vessels' surfaces bristle with the taotie (TAO-tyeh) monster mask, a motif so pervasive that scholars still debate whether it represented a deity, a sacrificial animal, or something else entirely. Bronze was not just religious material — controlling the copper and tin mines that fed the foundries was itself a form of power, and the Shang state managed that supply chain deliberately."
         }
-      ]
+      ],
+      "commonsFile": "Bronze_vessels,_Shang_Dynasty.JPG"
     },
     {
       "id": "evt-ancestor-worship",
       "label": "Shang Ancestor Worship",
       "year": -1405,
-      "description": "The Shang believed deceased ancestors could influence the living and intercede with the supreme god Di. Elaborate rituals with food, wine, and bronze vessels maintained these relationships.",
+      "description": "The Shang believed dead ancestors retained real power over the living — causing rain or drought, victory or defeat, health or disease — and could intercede with Shangdi on the king's behalf. Keeping the ancestral court fed and happy through regular sacrifices was not optional piety; it was government.",
       "wikiSlug": "Chinese_ancestor_worship",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Ancestor veneration in China predates the Shang by thousands of years — Neolithic burials show offerings placed with the dead. The Shang systematized and bureaucratized these practices, creating a formal ritual calendar of sacrifices to specific royal ancestors."
-        },
-        {
-          "label": "The Practice",
-          "text": "The Shang king performed regular sacrifices to each royal ancestor on a rotating schedule, using specific bronze vessel types — ding for food, jue and zun for wine — to nourish ancestor spirits. Oracle bones recorded whether the spirits accepted the offerings."
-        },
-        {
-          "label": "Significance",
-          "text": "This practice of ancestor communication, which began as Neolithic scapulimancy, would persist through every Chinese dynasty and into modern Chinese culture. The Shang transformed a folk practice into a state religion that the Zhou, Confucius, and imperial China all inherited."
+          "label": "Explore further",
+          "text": "Chinese ancestor veneration treats ancestors as beings who remain part of \"this world\" — neither supernatural nor transcendent, but humans who have become godlike while retaining their individual identities. This is fundamentally different from the Egyptian or Mesopotamian afterlife, where the dead entered a separate realm. In the Shang conception, the dead were still present, still ranked, and still on the organizational chart — the afterlife was a bureaucratic extension of the palace, not an escape from it."
         }
       ]
     },
@@ -476,23 +375,15 @@
       "id": "evt-shang-social-classes",
       "label": "Shang Social Hierarchy",
       "year": -1400,
-      "description": "The Shang state was rigidly stratified: the royal clan at the top, noble lineages below, commoner farmers and artisans in the middle, and enslaved war captives at the bottom — a class system visible in burial practices, housing, and diet.",
+      "description": "Shang society was organized into a rigid hierarchy — royal clan at the apex, noble lineages controlling land and local armies, bound artisans in the middle, farming communities below them, and enslaved war captives at the bottom — with every stratum visible in what people ate, how they were housed, and how they were buried.",
       "wikiSlug": "Shang_dynasty",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Background",
-          "text": "Archaeological evidence from Yinxu and Zhengzhou reveals a sharply stratified society. Elite burials contained bronzes, jades, and sacrificial victims; commoner burials had simple pottery; the lowest-status individuals were buried in pits with no grave goods."
-        },
-        {
-          "label": "The Structure",
-          "text": "The king and royal clan (wang zu) sat at the apex, followed by noble lineages (zu) who controlled land and labor. Specialized artisans — bronze casters, jade workers, bone carvers — occupied a middle stratum. Farmers worked the land. War captives and enslaved laborers formed the bottom."
-        },
-        {
-          "label": "Significance",
-          "text": "The Shang class system established patterns that persisted through Chinese history: a ruling aristocracy legitimized by ritual access, specialized artisan classes bound to state service, and a vast agricultural base supporting the elite structure. The Zhou inherited and formalized these divisions."
+          "label": "Explore further",
+          "text": "Noble lineages (called zu, meaning clan or lineage group) did not just inherit land — they inherited their own ancestor cult, their own set of bronze ritual vessels granted by the king, and their own military contingent obligated to royal campaigns. The bronze vessels a lineage possessed were a direct measure of its political standing, since bronze was a royal monopoly. A noble who lost bronze vessels lost status in a concrete, visible way that anyone at court could read."
         }
       ]
     },
@@ -500,55 +391,41 @@
       "id": "evt-shangdi-worship",
       "label": "Worship of Shangdi",
       "year": -1400,
-      "description": "The supreme deity Shangdi (Lord on High) ruled over nature and human affairs. Only the king could communicate with Shangdi through divination and sacrifice.",
+      "description": "Shangdi (SHAHNG-dee), the \"Lord on High,\" was the supreme deity of the Shang — a cosmic force that governed weather, harvests, warfare, and dynastic fate. Unlike the personal, story-driven gods of Mesopotamia, he had no temples, no mythology, and no cult statues; only the king could reach him, and only through the ancestral dead.",
       "wikiSlug": "Shangdi",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The Shang conceived of a supreme deity, Shangdi, who governed weather, harvests, warfare, and the fate of the dynasty. He stood above the ancestor spirits in a divine hierarchy only the king could access."
-        },
-        {
-          "label": "The Practice",
-          "text": "The Shang king served as the sole intermediary between Shangdi and humanity, consulting him through oracle bone divination before major decisions — battles, harvests, hunts, and even the naming of children."
-        },
-        {
-          "label": "Significance",
-          "text": "The Zhou would later reframe Shangdi as Tian (Heaven) and reformulate the king's role as the Son of Heaven ruling by Heaven's mandate. The Shang concept of a supreme deity accessible only through the king became the theological foundation of Chinese imperial rule."
+          "label": "Explore further",
+          "text": "The name Shangdi combines 'Shang' (upper/high) and 'Di' (lord), making him literally the \"Lord Above.\" When the Zhou conquered the Shang in 1046 BCE, they didn't discard Shangdi — they absorbed him into their own theology under the term Tian (Heaven), a conceptual shift that allowed them to reframe the Shang god as a universal cosmic principle rather than a dynasty-specific patron. This Zhou rebranding was politically shrewd: it meant they could claim Heaven's mandate rather than concede that a foreign deity had endorsed the dynasty they overthrew."
         }
-      ]
+      ],
+      "commonsFile": "CircularMound.jpg"
     },
     {
       "id": "evt-cowrie-currency",
       "label": "Cowrie Shell Currency",
       "year": -1395,
-      "description": "Cowrie shells served as currency in Shang China, with the Chinese character for 'money' (貝) still depicting a cowrie. Trade networks brought shells from as far as the Indian Ocean.",
+      "description": "Cowrie shells — sourced through long-distance trade networks reaching the coast and possibly the Indian Ocean — served as the Shang's primary medium of exchange, their value based on scarcity and portability. The Chinese character for \"money\" (貝, bèi) still depicts a cowrie shell, a 3,400-year linguistic fossil.",
       "wikiSlug": "Shell_money",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "Cowrie shells had served as prestige items and proto-currency in China since the Neolithic. The Shang formalized their role as a medium of exchange, hoarding them in royal tombs — Fu Hao's tomb alone contained 6,900 shells."
-        },
-        {
-          "label": "The Commerce",
-          "text": "Shang trade networks brought cowrie shells from distant coastal and river sources, some possibly reaching as far as the Indian Ocean. The shells' scarcity gave them stable value, and their counting drove development of early numeracy."
-        },
-        {
-          "label": "Significance",
-          "text": "The Chinese character for money, 貝 (bèi), still depicts a cowrie shell — a 3,400-year-old linguistic fossil. The Shang's cowrie economy later gave way to bronze coinage under the Zhou and Qin, but the character survived the transition."
+          "label": "Explore further",
+          "text": "Fu Hao's tomb alone contained 6,900 cowrie shells, giving a concrete sense of elite wealth measured in this currency. Shell money operated as a commodity medium of exchange worldwide in cultures that had no contact with each other — from ancient China to pre-Columbian North America to parts of Africa — because shells are naturally portable, countable, and durable. When the Zhou and later the Qin transitioned to cast bronze and copper coins, the cowrie character survived the switch, embedded permanently in the writing system."
         }
-      ]
+      ],
+      "commonsFile": "Chinese_shell_money_16th_8th_century_BCE.jpg"
     },
     {
       "id": "evt-bronze-weapons",
       "label": "Bronze Weapons Production",
       "year": -1390,
-      "description": "Shang bronze foundries mass-produced ge (dagger-axes), spearheads, and arrowheads. Control of bronze production was a key pillar of royal power.",
+      "description": "The same Shang foundries that cast ritual vessels mass-produced standardized bronze weapons — particularly the ge (dagger-axe), a blade mounted perpendicular to a pole and used for slashing attacks from chariots — giving the Shang military a decisive technological edge over neighbors still fighting with stone.",
       "wikiSlug": "Shang_dynasty",
       "tier": 3,
       "tags": [
@@ -557,40 +434,25 @@
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The same foundries that produced ritual bronze vessels also mass-produced weapons. The Shang royal monopoly on copper and tin sources meant that bronze weapons — like bronze ritual vessels — were instruments of state power."
-        },
-        {
-          "label": "The Commerce",
-          "text": "The ge dagger-axe was the signature Shang weapon: a blade mounted perpendicularly on a long pole, used for slashing from chariots. Foundries at Zhengzhou and Anyang produced weapons in standardized forms, suggesting centralized military supply chains."
-        },
-        {
-          "label": "Significance",
-          "text": "Control of bronze production gave the Shang king a decisive military advantage over neighbors armed with stone. The Zhou adopted Shang bronze weapon types wholesale — the ge remained China's iconic weapon for centuries after the Shang fell."
+          "label": "Explore further",
+          "text": "The ge was so central to Shang identity that the Chinese character for 'country' (guo, 國) contains the ge symbol inside an enclosure — literally 'armed territory.' The weapon remained China's signature close-combat tool through the entire Zhou period and into the Warring States era, finally displaced only when iron and the crossbow made it obsolete. Standardized arrowhead and spearhead production at Anyang points to centralized military supply chains that could equip armies at royal command."
         }
-      ]
+      ],
+      "commonsFile": "Couteau_à_tête_de_bouquetin,_M.C._9473.jpg"
     },
     {
       "id": "evt-shang-dog-sacrifice",
       "label": "Dog Sacrifice and Animal Ritual",
       "year": -1350,
-      "description": "The Shang sacrificed dogs at building foundations, city gates, and tombs on a massive scale — oracle bones record over 15,000 individual sacrificial events. Dogs were believed to guard boundaries between the living and dead worlds.",
+      "description": "Dogs were the most sacrificed animal in Shang ritual — oracle bones record over 15,000 individual sacrificial events involving dogs, buried at building foundations, city gates, and inside tombs. The Shang believed dogs guarded the threshold between living and dead, making them the ideal offering at every boundary a person or a spirit had to cross.",
       "wikiSlug": "Shang_dynasty",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "The Practice",
-          "text": "Dogs were the most commonly sacrificed animal in Shang ritual, buried under foundations, thresholds, and gates. Oracle bones record specific questions about which animals to sacrifice and in what numbers — sometimes hundreds at once."
-        },
-        {
-          "label": "Why Dogs",
-          "text": "Dogs were believed to serve as guardians at boundaries — doorways, city walls, and the threshold between life and death. A dog buried under a gate foundation would protect the entrance; dogs in tombs would guide and guard the deceased in the afterlife."
-        },
-        {
-          "label": "Significance",
-          "text": "The scale of Shang animal sacrifice reveals a society where the boundary between natural and supernatural was constantly maintained through ritual. This practice continued through the Zhou, gradually declining as Confucian ethics questioned the treatment of animals."
+          "label": "Explore further",
+          "text": "The use of dogs as ritual boundary-guardians was not unique to the Shang, but nowhere else in the ancient world was it scaled to this industrial level. The practice reflects a coherent cosmological logic: boundaries (doorways, city gates, the edge of the living world) were spiritually dangerous transition zones, and a sacrificed guardian at each one kept malevolent forces from crossing. Cattle, sheep, and pigs were also sacrificed, but dogs occupied the specific protective-guardian role that no other animal filled."
         }
       ]
     },
@@ -598,23 +460,15 @@
       "id": "evt-shang-slavery",
       "label": "Slavery and Forced Labor",
       "year": -1350,
-      "description": "The Shang economy depended heavily on enslaved war captives who worked in bronze foundries, construction projects, and agricultural fields. Oracle bones record captives taken from the Qiang and other fang peoples by the thousands.",
+      "description": "The Shang economy ran in significant part on enslaved war captives — oracle bones record thousands of prisoners taken from Qiang and other frontier peoples (called \"fang\"), assigned by bureaucratic decision to labor in bronze foundries, rammed-earth construction gangs, and agricultural fields.",
       "wikiSlug": "Shang_dynasty",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Background",
-          "text": "Military campaigns against the fang peoples served a dual economic purpose: they demonstrated Shang power and they supplied the labor force. Oracle bones record thousands of captives taken in single campaigns — not all were sacrificed; many were put to work."
-        },
-        {
-          "label": "The System",
-          "text": "Enslaved captives worked in the bronze foundries, on rammed-earth construction projects, in agricultural fields, and as domestic servants. Oracle bone inscriptions distinguish between captives destined for sacrifice and those assigned to labor — suggesting an organized system of labor allocation."
-        },
-        {
-          "label": "Significance",
-          "text": "The Shang labor system — captive-fed, state-directed — enabled the massive construction projects and bronze production that defined the civilization. The royal tombs, city walls, and foundry output all depended on a labor force that was partly enslaved. This is the darker foundation beneath the bronze and jade."
+          "label": "Explore further",
+          "text": "Oracle bone inscriptions explicitly distinguish between two categories of captive: those marked for ritual sacrifice and those allocated to labor gangs — meaning the Shang kept written records of who would die and who would work. Bronze foundry labor was especially brutal, involving constant exposure to extreme heat and toxic fumes from smelting operations. The massive construction projects at Yinxu — the rammed-earth palace platforms required millions of cubic feet of compacted soil — would not have been possible without this coerced workforce alongside conscripted farmers."
         }
       ]
     },
@@ -622,47 +476,32 @@
       "id": "evt-jade-carving",
       "label": "Shang Jade Carving",
       "year": -1312.5,
-      "description": "Shang artisans produced exquisite jade carvings of animals, birds, and ritual objects using only abrasive cutting techniques — jade was too hard for bronze tools.",
+      "description": "Shang jade workshops ground nephrite and jadeite into carved animals, ceremonial blades, and ritual ornaments using abrasive quartz sand and water — bronze tools could not cut jade, only grind it, making each piece a months-long labor of patience.",
       "wikiSlug": "Chinese_jade",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Jade working in China stretches back to the Neolithic Hongshan culture (4700 BCE), with ritual jade objects — bi discs, cong tubes — already established as markers of elite and spiritual status. The Shang inherited this deep tradition."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Shang jade carvers used bronze drills, abrasive sand, and water to slowly grind nephrite and jadeite into animal forms — tigers, birds, fish, and dragons — of extraordinary delicacy. Fu Hao's tomb yielded 755 jade objects, many of stunning intricacy."
-        },
-        {
-          "label": "Impact",
-          "text": "The Shang elevated jade from Neolithic ritual object to fine art. Their animal motifs influenced Zhou jade carving, and the deep Chinese cultural association of jade with virtue, purity, and immortality was already fully formed by the Shang period."
+          "label": "Explore further",
+          "text": "Shang jade carving built directly on a tradition stretching back to the Hongshan culture around 4700 BCE, making it one of the longest unbroken craft lineages in human history. The 755 jade objects recovered from Fu Hao's tomb represent years of cumulative workshop time. White \"mutton-fat\" nephrite — sourced partly from the far northwestern province of Xinjiang, thousands of miles from Anyang — was the most prized variety, its trade implying long-distance supply chains the Shang maintained alongside their military campaigns."
         }
-      ]
+      ],
+      "commonsFile": "Belt_plaque_with_dragon_design.jpg"
     },
     {
       "id": "evt-shang-calendar",
       "label": "Shang Calendar System",
       "year": -1307.5,
-      "description": "Oracle bones reveal a sophisticated lunisolar calendar with 12 months, intercalary months, and a 10-day week cycle (tiangan) that persists in Chinese culture today.",
+      "description": "The Shang used a lunisolar calendar — tracking both the moon's roughly 29.5-day cycle and the 365-day solar year — inserting \"intercalary\" extra months when needed to keep the two aligned, a solution independently invented also by Mesopotamia and Greece.",
       "wikiSlug": "Chinese_calendar",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Agricultural civilizations require accurate calendars. The Shang developed a lunisolar system that reconciled the lunar month with the solar year by inserting intercalary months — the same mathematical challenge every ancient civilization struggled with."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Oracle bones record a 10-day 'week' (xun) using the Heavenly Stems cycle, a 12-month year, and intercalary months added as needed. This system was sophisticated enough to track agricultural seasons and schedule the king's complex ritual calendar simultaneously."
-        },
-        {
-          "label": "Impact",
-          "text": "The Heavenly Stems system the Shang developed persists in Chinese culture today — in the sexagenary cycle used in the Chinese calendar, the names of weekdays in some East Asian languages, and the zodiac year system. It is one of the oldest continuously used calendrical systems in the world."
+          "label": "Explore further",
+          "text": "Oracle bones record the exact dates of ritual sacrifices going back across multiple reigns, giving modern historians a near-continuous calendar record spanning several centuries. The same bones contain records of solar and lunar eclipses precise enough that modern astronomers have been able to verify and independently date them, anchoring Shang chronology to the absolute calendar. The Shang ten-day \"week\" (called a xun) means that any given month contained three weeks, a structure completely unlike the seven-day week now used globally."
         }
       ],
       "aliases": [
@@ -674,47 +513,32 @@
       "id": "evt-taotie-motif",
       "label": "Taotie Mask Motif",
       "year": -1302.5,
-      "description": "The taotie — a fearsome animal-face motif on bronzes — is the most distinctive Shang artistic creation, symbolizing power and the boundary between human and spirit worlds.",
+      "description": "The taotie is the defining image of Shang art: a fearsome animal face, always shown head-on, composed of two profile creatures merged at the nose, with bulging eyes and no lower jaw. It appears on virtually every Shang ritual bronze and has never been definitively explained.",
       "wikiSlug": "Taotie",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Proto-taotie faces appear on Neolithic jade cong tubes and Liangzhu pottery centuries before the Shang. The Shang took this earlier tradition and made the taotie the dominant decorative theme of their bronze culture."
-        },
-        {
-          "label": "The Practice",
-          "text": "The taotie — typically two profile views of an animal face merged into a frontal image — covered ritual bronzes in dense, layered designs. Scholars debate whether it depicts a specific deity, a protective spirit, or an abstract symbol of devouring power."
-        },
-        {
-          "label": "Significance",
-          "text": "The taotie is the most recognizable image of ancient Chinese art. While its use declined after the Shang, it never fully disappeared — Zhou bronzes still featured it, and modern Chinese art and design continue to reference it as a symbol of antiquity."
+          "label": "Explore further",
+          "text": "Scholars have proposed everything from a specific deity to a shamanic transformation symbol to a simple inherited design pattern descended from Neolithic jade carvings — and none of these interpretations has won consensus after more than a century of debate. The taotie is classified in later Chinese texts as one of the Four Perils, alongside mythological monsters like the Hundun and Qiongqi, though those associations may be retrospective. The absence of a lower jaw — the face stares but cannot eat — is its strangest feature, and nobody has satisfactorily explained why."
         }
-      ]
+      ],
+      "commonsFile": "Cernuschi_Museum_20060812_033.jpg"
     },
     {
       "id": "evt-ten-heavenly-stems",
       "label": "Heavenly Stems Day-Naming System",
       "year": -1300,
-      "description": "The Shang assigned posthumous names to kings and ancestors using the Ten Heavenly Stems (tiangan) — the same cycle used to organize the ten-day ritual week. This naming system survives in the Chinese calendar today.",
+      "description": "The Ten Heavenly Stems (tiangan) — a cycle of ten named units originally designating days of the Shang week — were used to give posthumous names to deceased kings, indicating which day they received ritual offerings. The system survives in the traditional Chinese calendar and underlies the 60-year sexagenary cycle still used for Chinese zodiac years.",
       "wikiSlug": "Heavenly_Stems",
       "tier": 3,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Background",
-          "text": "The Ten Heavenly Stems — jia, yi, bing, ding, wu, ji, geng, xin, ren, gui — were used by the Shang to structure time: each stem designated one day of the ten-day 'week' (xun), and the stems cycled continuously to organize the ritual calendar."
-        },
-        {
-          "label": "The System",
-          "text": "Deceased Shang kings received posthumous names incorporating a Heavenly Stem, indicating the day of the week on which they received sacrifices. Wu Ding, for example, was sacrificed to on 'ding' (丁) days. The system tied the ancestor cult directly to the calendar."
-        },
-        {
-          "label": "Significance",
-          "text": "The Heavenly Stems system survives in the traditional Chinese calendar, combined with the Twelve Earthly Branches in the sexagenary cycle that still determines Chinese zodiac year names. It is one of the oldest continuously used naming systems in the world — over 3,400 years from Shang to present."
+          "label": "Explore further",
+          "text": "The Heavenly Stems are first attested around 1250 BCE in oracle bone inscriptions, making them among the oldest dateable calendrical systems still in active cultural use. King Wu Ding's name itself encodes a calendrical identity: \"ding\" is the fourth stem, meaning the royal ancestors performed his sacrifices on ding-days — the king's ritual schedule was literally written into his posthumous title. When the 10 stems are paired with 12 Earthly Branches in sequence, they produce the sexagenary (60-unit) cycle — because 60 is the lowest common multiple of 10 and 12 — which has run continuously ever since."
         }
       ]
     },
@@ -722,95 +546,66 @@
       "id": "evt-white-pottery",
       "label": "Shang White Pottery",
       "year": -1300,
-      "description": "Shang artisans produced fine white pottery made from kaolin clay, decorated with taotie and thunder-spiral motifs identical to those on bronze vessels — a luxury ceramic that foreshadowed later Chinese porcelain traditions.",
+      "description": "Shang artisans made fine white ceramics from kaolin clay — the same material as later Chinese porcelain — fired above 1,000°C and decorated with taotie masks and spiral patterns identical to those on the dynasty's famous bronze vessels.",
       "wikiSlug": "Shang_dynasty",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "While most Shang pottery was utilitarian gray ware, elite workshops produced a distinctive white-bodied ceramic using kaolin — the same clay that would later be used for Chinese porcelain. These white vessels were luxury goods restricted to the aristocracy."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Shang white pottery was fired at temperatures above 1,000°C and decorated with carved or impressed designs that directly mirrored the taotie masks and spiral patterns on contemporary bronze vessels. Some pieces are so precisely executed they appear to have been made from bronze molds."
-        },
-        {
-          "label": "Impact",
-          "text": "White pottery demonstrates that the Shang visual vocabulary — the taotie, the thunder spiral, the register-band layout — transcended any single medium. It also shows that kaolin-clay technology was already known in the Shang period, over two millennia before the Song dynasty perfected true porcelain."
+          "label": "Explore further",
+          "text": "Kaolin-fired white pottery was a luxury restricted to the Shang aristocracy, not everyday tableware. The existence of this technology more than two thousand years before the Song Dynasty perfected true porcelain shows how deep China's ceramic mastery actually runs — the Song didn't invent a new material tradition, they refined one with Bronze Age roots. The decorative motifs on white pottery mirrored bronze designs so closely that the two media were clearly part of a single unified elite visual culture."
         }
-      ]
+      ],
+      "commonsFile": "China_shang_white_pottery_pot.JPG"
     },
     {
       "id": "evt-lacquer-work",
       "label": "Shang Lacquerwork",
       "year": -1297.5,
-      "description": "Shang artisans applied lacquer to wooden objects, creating durable and beautiful coatings. This craft tradition would become one of China's most distinctive art forms.",
+      "description": "Shang craftsmen coated wooden objects with multiple layers of lacquer — a tree resin native to East Asia — creating waterproof, brilliantly colored surfaces that would eventually become more valuable than bronze by the Han Dynasty.",
       "wikiSlug": "Lacquerware",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Lacquer use in China dates back at least to the Neolithic — a lacquered wooden bowl from Hemudu (5000 BCE) is among the world's oldest. The Shang developed lacquerwork as a high-status craft applied to wooden coffins, weapons, and furniture."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Shang lacquer objects were coated with multiple layers of urushiol resin from the lacquer tree, each layer dried before the next was applied. Red and black pigments were added, creating colored surfaces that were both waterproof and visually striking."
-        },
-        {
-          "label": "Impact",
-          "text": "The Shang lacquer tradition passed to the Zhou and Han, where it became one of China's most prized luxury exports. By the Han Dynasty, lacquerware was more valuable than bronze — a craft lineage traceable directly to Shang workshops."
+          "label": "Explore further",
+          "text": "Lacquer is the processed sap of the lacquer tree (Toxicodendron vernicifluum), which is toxic to the touch when wet but becomes inert and extraordinarily durable once cured. Applying a single high-quality lacquer object required dozens of thin coats, each left to cure for days in a humid environment before the next was applied. At Yinxu, lacquered coffins and ceremonial objects have been found — much of the wood has decayed, but the lacquer skin survives, often still bearing traces of pigment and inlaid shell."
         }
-      ]
+      ],
+      "commonsFile": "Музей_азійського_мистецтва9.jpg"
     },
     {
       "id": "evt-shang-wine-culture",
       "label": "Shang Wine Culture",
       "year": -1292.5,
-      "description": "The Shang were famous for producing and consuming large quantities of millet wine in elaborate bronze vessels — later moralists blamed excessive drinking for the dynasty's fall.",
+      "description": "Fermented millet wine sat at the center of Shang ritual and court life — the extraordinary variety of bronze wine vessels (heating cups, storage jars, serving vessels, large supply urns) was itself a prestige craft, and wine was poured as offerings to ancestors in every major ceremony.",
       "wikiSlug": "Chinese_alcoholic_beverages",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "Fermented beverages in China date to at least 7000 BCE at Jiahu — one of humanity's oldest alcoholic drinks. The Shang industrialized millet wine production and elevated its consumption into a court and ritual art form."
-        },
-        {
-          "label": "The Commerce",
-          "text": "Bronze jue, zun, you, and lei vessels were designed specifically for wine — heating, serving, and storing it in ritual contexts. The variety and sophistication of Shang wine vessels suggest a culture that treated wine production and service as a high craft."
-        },
-        {
-          "label": "Significance",
-          "text": "Later Zhou moralists claimed excessive drinking caused the Shang's downfall, and early Zhou kings famously issued temperance edicts. The Shang wine culture thus became an antimodel — a cautionary tale the Zhou and Confucians used to legitimize their own reign."
+          "label": "Explore further",
+          "text": "After the Zhou conquest in 1046 BCE, early Zhou kings issued formal temperance decrees explicitly citing Shang drinking as the moral cause of heaven's withdrawal of the Mandate. The \"Announcement on Wine\" (Jiugao) attributed to the Duke of Zhou is one of the earliest surviving political documents to argue that a regime's moral failures — not just its military defeats — explain its fall. Whether the Shang really drank themselves to ruin or the Zhou were writing propaganda to legitimize their conquest is genuinely unresolved."
         }
-      ]
+      ],
+      "commonsFile": "Chinese_ritual_wine_server_(guang).jpg"
     },
     {
       "id": "evt-pan-geng",
       "label": "King Pan Geng",
       "year": -1287.5,
-      "description": "Pan Geng moved the Shang capital to Yin despite fierce opposition from nobles, stabilizing the dynasty. The Book of Documents preserves his speeches justifying the move.",
+      "description": "Pan Geng, a Shang king ruling around 1300–1250 BCE, overruled fierce noble opposition and moved the royal capital one final time to Yin on the Huan River in northern Henan — a move that stabilized the dynasty and gave it the name 'Yin-Shang' in Chinese tradition.",
       "wikiSlug": "Pan_Geng",
       "tier": 3,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Pan Geng was the 20th Shang king, ruling during a period of factional strife and floods that had plagued the dynasty through multiple capital moves. He was determined to end the cycle and establish a permanent home."
-        },
-        {
-          "label": "Role in the Shang",
-          "text": "Over fierce noble opposition, Pan Geng relocated the capital to Yin (modern Anyang), where it remained for the rest of the dynasty's 250-year existence. His speeches preserved in the Book of Documents are among the oldest Chinese prose texts."
-        },
-        {
-          "label": "Legacy",
-          "text": "Pan Geng's decision gave the Late Shang the stability to produce its greatest achievements — oracle bones, the Simuwu Ding, and Lady Fu Hao. Without his move to Yin, Yinxu and the oracle bone archive might never have existed."
+          "label": "Explore further",
+          "text": "Pan Geng's personal name was Zi Xun, and his reign is the only pre-Late Shang period for which we have what appear to be genuine royal speeches: the Book of Documents preserves three addresses attributed to him, haranguing nobles who resisted the relocation. The capital at Yin (also called Anyang by archaeologists) would remain the Shang seat for the rest of the dynasty's existence — roughly 250 years — and is where the oracle bone archive was buried, giving us our best window into the late Shang world."
         }
       ]
     },
@@ -818,23 +613,15 @@
       "id": "evt-bone-workshops",
       "label": "Bone and Antler Workshops",
       "year": -1280,
-      "description": "Specialized workshops at Yinxu processed thousands of animal bones and antlers into hairpins, awls, arrowheads, and ritual objects — an industrial-scale craft operation that employed dedicated artisan communities.",
+      "description": "At Yinxu, entire neighborhoods were dedicated to processing animal bones and antlers into everyday tools, ornamental hairpins, arrowheads, and ritual divination implements — an assembly-line operation where different workers handled different production stages.",
       "wikiSlug": "Yinxu",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "Not everyone at Yinxu worked in bronze. The city supported multiple specialized craft industries, of which bone and antler working was one of the most extensive — thousands of worked bone fragments have been recovered from identified workshop zones."
-        },
-        {
-          "label": "The Commerce",
-          "text": "Bone workers produced practical items (awls, needles, arrowheads), prestige objects (hairpins, spatulas), and ritual tools (divination implements). The workshops received raw materials from butchery sites and produced finished goods in assembly-line fashion, with different workers handling different production stages."
-        },
-        {
-          "label": "Significance",
-          "text": "The bone workshops reveal Yinxu as a true urban center with specialized labor divisions, not merely a royal residence. Artisans lived in dedicated neighborhoods, produced for a market beyond their own households, and answered to workshop supervisors — an industrial organization matching anything in the contemporary Bronze Age world."
+          "label": "Explore further",
+          "text": "The bone workshops were among the largest industrial zones at Yinxu, with excavators recovering thousands of worked fragments in concentrated areas. Raw material came from butchery sites nearby, and the finished goods flowed outward to the palace and elite households. This organized, staged production — raw bone in one area, finishing in another — is one of the clearest signs that the Shang ran a palace economy with state-directed labor, not a craft market where independent artisans sold their own work."
         }
       ]
     },
@@ -842,7 +629,7 @@
       "id": "evt-oracle-bones",
       "label": "Oracle Bone Inscriptions",
       "year": -1265,
-      "description": "Shang kings communicated with ancestors by inscribing questions on turtle shells and ox scapulae, then heating them to read the resulting cracks. Over 150,000 fragments have been found.",
+      "description": "Oracle bones — the flat undersides of turtle shells and the shoulder blades of cattle — were the Shang Dynasty's medium for communicating with ancestral spirits. A diviner carved a question into the surface, applied heat to pre-drilled hollows, and read the resulting cracks as the ancestor's answer.",
       "wikiSlug": "Oracle_bone",
       "tier": 1,
       "tags": [
@@ -851,43 +638,28 @@
       "category": "writing",
       "details": [
         {
-          "label": "What Was Found",
-          "text": "Over 150,000 oracle bone fragments have been recovered from Yinxu since 1899. They record divinations by Shang kings spanning roughly 200 years — the largest single archive of Bronze Age writing from any civilization."
-        },
-        {
-          "label": "The Writing",
-          "text": "Shang diviners inscribed a question on a turtle plastron or ox shoulder blade, applied a hot bronze rod to carved pits until the bone cracked, then read the cracks as the ancestor's answer. The question, answer, and outcome were often all recorded on the same piece."
-        },
-        {
-          "label": "Significance",
-          "text": "This practice of ancestor communication through scapulimancy had Neolithic roots across East Asia, but the Shang were the first to write it down. That decision created Chinese history — and a writing system that, 3,400 years later, is still in daily use by over a billion people."
+          "label": "Explore further",
+          "text": "Over 130,000 individual inscriptions have been counted across roughly 13,000 bones held in collections in China and fourteen other countries. The Shang used two distinct terms for the technique depending on the material: scapulimancy for ox shoulder blades, plastromancy for turtle shells. Both materials were prepared through a precise multi-step craft process that could take days before a single question was carved."
         }
       ],
       "aliases": [
         "oracle bone script"
-      ]
+      ],
+      "commonsFile": "Shang_Ox_Scapula_Oracle_Bones_1.jpg"
     },
     {
       "id": "evt-shang-numerals",
       "label": "Shang Numeral System",
       "year": -1265,
-      "description": "Oracle bone inscriptions reveal a decimal (base-10) number system with distinct characters for 1 through 10, then 100, 1,000, and 10,000 — already capable of recording numbers in the tens of thousands for military and sacrificial tallies.",
+      "description": "Oracle bones reveal that by the late Shang period, the Chinese used a fully decimal (base-10) system with distinct symbols for 1 through 10, then 100, 1,000, and 10,000 — capable of recording military tallies and sacrificial counts reaching into the tens of thousands.",
       "wikiSlug": "Chinese_numerals",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "The Shang needed numbers for everything: counting sacrificial animals, tallying army sizes, recording dates, and tracking cowrie shell payments. Their numeral system, preserved in oracle bone inscriptions, was already remarkably systematic."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Oracle bone numerals use a decimal positional system: distinct characters for 1-9 and for the powers of 10 (ten, hundred, thousand, ten-thousand). To write '3,000' they wrote 'three thousand' — a system that maps directly onto modern Chinese number words."
-        },
-        {
-          "label": "Impact",
-          "text": "The Shang decimal system passed through Zhou and Han to the present day essentially unchanged in its logical structure. Modern Chinese number words — yi (one), er (two), san (three) — are the lineal descendants of characters first carved on oracle bones 3,400 years ago."
+          "label": "Explore further",
+          "text": "The Shang numeral system was positional in structure: the characters for higher units (hundred, thousand, ten-thousand) were combined with unit characters multiplicatively, the same logical principle as modern written Chinese numbers. Oracle bones record specific counts of sacrificial animals, enemy captives, and tribute goods, which means these numerals were doing real administrative accounting, not just ceremonial enumeration. The ten-thousand unit — wan (萬) — would later become the standard Chinese word for \"myriad\" and an everyday expression of vast quantity, a direct descendant of Shang bookkeeping vocabulary."
         }
       ]
     },
@@ -895,47 +667,32 @@
       "id": "evt-chinese-writing-origin",
       "label": "Origin of Chinese Writing",
       "year": -1260,
-      "description": "Oracle bone script is the oldest verified form of Chinese writing, with about 4,500 distinct characters — roughly a third of which have been deciphered as ancestors of modern Chinese characters.",
+      "description": "Oracle bone script, carved into turtle shells and ox scapulae around 1250 BCE, is the oldest verified form of Chinese writing — and the direct ancestor of the characters used by over a billion people today. Of roughly 4,500 distinct characters found on the bones, about 1,500 have been confidently deciphered.",
       "wikiSlug": "Oracle_bone_script",
       "tier": 1,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "What Was Found",
-          "text": "Oracle bone script contains approximately 4,500 distinct characters, of which around 1,500 have been confidently deciphered. The script is already complex and mature — suggesting a writing tradition that developed over generations before the surviving bones were made."
-        },
-        {
-          "label": "The Writing",
-          "text": "Oracle bone characters are logographic — each sign represents a word or morpheme, not a sound. Many are clearly pictographic in origin (sun, moon, mountain, field), but the system already included phonetic components and abstract signs, showing sophisticated linguistic encoding."
-        },
-        {
-          "label": "Significance",
-          "text": "Oracle bone script is the direct ancestor of modern Chinese characters — the longest continuously used writing system in the world. Unlike cuneiform or Egyptian hieroglyphs, which died out, Shang script never broke its transmission, evolving through bronze inscriptions, bamboo strips, and paper into the characters used today."
+          "label": "Explore further",
+          "text": "The script was already sophisticated at its first appearance: it includes pictographs, abstract signs, and characters with phonetic components, suggesting a writing system that had been developing on perishable materials (bamboo, wood, silk) long before it appeared on bone. Unlike cuneiform and Egyptian hieroglyphs — which both died out — Chinese writing has never broken its transmission; you can trace an unbroken line from a Shang oracle bone character to a character on a modern phone screen."
         }
-      ]
+      ],
+      "commonsFile": "Shang_Inscribed_Ox_Scapula_(for_divination).jpg"
     },
     {
       "id": "evt-di-sacrificial-system",
       "label": "The Di Sacrificial Cycle",
       "year": -1260,
-      "description": "The Shang organized ancestor sacrifices on a rotating 36-day cycle called the 'di' system, scheduling specific rituals for specific ancestors in a bureaucratic calendar that treated the spirit world like a government department.",
+      "description": "The Shang organized ancestor sacrifices into a formal rotating calendar called the di sacrificial cycle — five ritual types scheduled for each royal ancestor in sequence, completing a full cycle in roughly 360 days across thirty-six ten-day \"weeks.\" Missing a scheduled sacrifice risked angering a neglected ancestor and bringing disaster down on the kingdom.",
       "wikiSlug": "Chinese_ancestor_worship",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Oracle bones reveal that the Late Shang organized their ancestor sacrifices into a systematic rotating cycle. Each royal ancestor received specific offerings on designated days, and the entire cycle repeated on a fixed schedule."
-        },
-        {
-          "label": "The Practice",
-          "text": "The 'di' (翌) cycle scheduled five types of ritual — yi, ji, zai, xie, and liao — for each ancestor in sequence. A complete cycle took approximately 36 ten-day weeks (360 days), closely matching the ritual year. Missing a scheduled sacrifice could anger the neglected ancestor."
-        },
-        {
-          "label": "Significance",
-          "text": "The di cycle transformed ancestor worship from ad hoc veneration into a bureaucratic system with fixed schedules, assigned personnel, and required resources. It is the earliest documented example of Chinese organizational efficiency applied to the supernatural world."
+          "label": "Explore further",
+          "text": "The five ritual types in the cycle (yi, ji, zai, xie, and liao) were not interchangeable; each specified different offerings and procedures for different ancestors depending on their rank and how recently they had died. The system required its own dedicated bureaucracy of priests, diviners, and support staff to maintain — essentially a ministry of the dead running on a parallel track to the living government. No other Bronze Age civilization we know of maintained this level of calendrical precision in managing its spirit world."
         }
       ]
     },
@@ -943,49 +700,35 @@
       "id": "evt-oracle-bone-preparation",
       "label": "Oracle Bone Preparation Techniques",
       "year": -1258,
-      "description": "Shang diviners prepared oracle bones through an elaborate multi-step process: selecting shells, removing flesh, grinding surfaces smooth, drilling rows of hollows on the back, and polishing — creating standardized 'blank' media for divination.",
+      "description": "Preparing an oracle bone was skilled craft work, not improvised ritual. Artisans cleaned the raw material, ground the surface smooth, trimmed the edges, and then drilled rows of precise oval hollows on the back — weak spots engineered so that when heat was applied later, the bone would crack in controlled, readable patterns rather than shatter randomly.",
       "wikiSlug": "Oracle_bone",
       "tier": 3,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "Background",
-          "text": "Oracle bone divination required carefully prepared materials. Raw turtle plastrons and ox scapulae had to be processed through multiple steps before they could be used — a craft that employed specialized workshop artisans at Yinxu."
-        },
-        {
-          "label": "The Process",
-          "text": "Workers removed flesh and membrane, then ground the bone or shell to a uniform thickness. Rows of oval or round hollows were drilled into the back surface at precise intervals. When a heated bronze rod was applied to these hollows, the thinned bone cracked in a controlled pattern on the front — the 'bu' crack that diviners read."
-        },
-        {
-          "label": "Significance",
-          "text": "The standardization of oracle bone preparation shows that Shang divination was not ecstatic prophecy but an engineered system. The pre-drilled hollows controlled where cracks would form, giving diviners predictable crack patterns to read — a practice hovering between technology and ritual."
+          "label": "Explore further",
+          "text": "The drilling pattern was the key technology: without those pre-drilled hollows, heat would produce unpredictable fractures that would be hard to interpret consistently. With them, diviners could reliably generate the T-shaped or Y-shaped 'bu' cracks the system depended on. The blank prepared bones were effectively standardized media — a Bronze Age version of ruled paper — before a single question was ever carved."
         }
-      ]
+      ],
+      "commonsFile": "Chinese_oracle_bone_(16th-10th_C_BC)_-_BL_Or._7694.jpg"
     },
     {
       "id": "evt-anyang-capital",
       "label": "Anyang (Yinxu) Capital",
       "year": -1255,
-      "description": "King Pan Geng moved the capital to Yin (modern Anyang), which became the center of late Shang power. The ruins of Yinxu are a UNESCO World Heritage Site.",
+      "description": "Yinxu (\"Ruins of Yin\") was the final Shang capital near modern Anyang — a sprawling 12-square-mile settlement without defensive walls, organized around palace-temple platforms, royal tombs, and craft workshops. Designated a UNESCO World Heritage Site in 2006, it is where the Shang produced their finest bronzes and most elaborate oracle bones.",
       "wikiSlug": "Yinxu",
       "tier": 1,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "After multiple destabilizing capital moves, Pan Geng chose a site on the Huan River in modern Henan Province around 1255 BCE. The location offered fertile land, river access, and proximity to copper and tin sources essential for bronze."
-        },
-        {
-          "label": "The Structure",
-          "text": "Yinxu grew into a sprawling capital with palace-temple complexes, royal tombs, craft workshops, and residential areas covering over 30 square kilometers. Eleven great royal tombs were excavated from cross-shaped pits, each containing chariots, bronzes, and sacrificial victims."
-        },
-        {
-          "label": "Legacy",
-          "text": "Yinxu is China's first well-documented ancient capital and its only Bronze Age site on the UNESCO World Heritage List. The oracle bone archive found here remains the single richest source for understanding Shang society, religion, and language."
+          "label": "Explore further",
+          "text": "Unlike every major Bronze Age capital known in the ancient world, Yinxu had no encircling city wall — a deliberate statement of military confidence rather than an oversight. The site was essentially lost to history for roughly three millennia until 1899, when investigators followed a trail of oracle bones being sold at a local market. Excavations since the 1920s have exposed over 50 royal and aristocratic pit-tombs, hundreds of workshop zones, and more than 150,000 inscribed bone fragments."
         }
-      ]
+      ],
+      "commonsFile": "Yinxu_World_Heritage_Site,_Anyang_(10197708543).jpg"
     },
     {
       "id": "evt-shang-army-organization",
@@ -1016,7 +759,7 @@
       "label": "King Wu Ding",
       "year": -1250,
       "endYear": -1192,
-      "description": "Wu Ding presided over the Shang golden age, expanding the kingdom's territory, patronizing bronze casting, and leaving extensive oracle bone records of his reign.",
+      "description": "Wu Ding, the twenty-second Shang king, ruled around 1250–1192 BCE and is the earliest figure in Chinese history attested by contemporary written records — his oracle bone inscriptions have been radiocarbon-dated and cover everything from military campaigns to toothaches.",
       "wikiSlug": "Wu_Ding",
       "tier": 2,
       "tags": [
@@ -1025,64 +768,42 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Wu Ding was the 22nd Shang king and arguably the dynasty's greatest ruler. He came to the throne after a three-year period of mourning during which, according to tradition, he remained silent — then emerged having absorbed wisdom from his subjects."
-        },
-        {
-          "label": "Role in the Shang",
-          "text": "Wu Ding's reign of nearly 60 years saw military campaigns expanding Shang territory in all directions, the commissioning of the finest bronzes, and the explosion of oracle bone divination. He famously appointed his wife Fu Hao as both high priestess and military general."
-        },
-        {
-          "label": "Legacy",
-          "text": "More oracle bones survive from Wu Ding's reign than from any other Shang king — his divinations cover everything from battles to toothaches. He is to Shang history what Ramesses II is to Egyptian history: the reign around which the golden age crystallizes."
+          "label": "Explore further",
+          "text": "More oracle bones survive from Wu Ding's reign than from any other Shang king, giving us an unusually intimate picture of Bronze Age royal decision-making. The inscriptions have been radiocarbon-dated to 1254–1197 BCE — a remarkably tight match with dates derived independently from astronomical calculations in ancient texts. Oracle bones record him consulting the ancestors about military operations that mobilized over 10,000 soldiers at a time, making his reign the best-documented in the entire dynasty."
         }
-      ]
+      ],
+      "commonsFile": "Bronze_\"Hou_Mu_Wu\"_Ding,_Late_Shang.jpg"
     },
     {
       "id": "evt-fu-yue",
       "label": "Fu Yue, Minister to Wu Ding",
       "year": -1248,
-      "description": "Wu Ding reportedly found his greatest minister, Fu Yue, after dreaming of a talented man building a wall — then locating a convict laborer matching the dream's description. Fu Yue became a legendary example of talent discovered from humble origins.",
+      "description": "Wu Ding's legendary chief minister, Fu Yue, was reportedly discovered as a convict laborer after Wu Ding dreamed of a talented wall-builder — a story the ancient Chinese used for centuries as the archetype of wise rulers finding capable people regardless of birth.",
       "wikiSlug": "Fu_Yue",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "According to the Book of Documents and later traditions, Fu Yue was a convict laborer working on rammed-earth construction when Wu Ding identified him from a dream vision. Despite his low status, Wu Ding appointed him chief minister — a decision that supposedly transformed the reign."
-        },
-        {
-          "label": "Role in the Shang",
-          "text": "Fu Yue reportedly advised Wu Ding on governance, military strategy, and ritual practice. His speeches preserved in the Book of Documents (if authentic) present practical administrative wisdom: know your officials, reward merit, punish corruption, and maintain the sacrifices."
-        },
-        {
-          "label": "Legacy",
-          "text": "Like Yi Yin before him, Fu Yue became a Confucian exemplar of merit-based appointment — talent found in unlikely places. The story of Wu Ding's dream reinforced the idea that heaven guided wise rulers to capable ministers, regardless of birth or station."
+          "label": "Explore further",
+          "text": "Fu Yue's story comes down through the Book of Documents (one of the oldest Chinese texts) and was still being cited by philosophers a thousand years later as proof that heaven guides good rulers to the right advisors through signs and visions. His official title is sometimes rendered anachronistically as \"premier\" — a modern convenience, since the Shang had no exact equivalent — and he is one of the very few non-royal figures from the dynasty whose name and role are independently attested."
         }
-      ]
+      ],
+      "commonsFile": "Fu_Yue.png"
     },
     {
       "id": "evt-human-sacrifice",
       "label": "Human Sacrifice in Royal Burials",
       "year": -1245,
-      "description": "Shang royal tombs at Yinxu contained hundreds of sacrificial victims — servants, prisoners, horses, and dogs — reflecting beliefs about serving the king in the afterlife.",
+      "description": "The royal cemetery at Xibeigang, northwest of the Yinxu palace complex, held rows of decapitated or dismembered bodies arranged in orderly lines around cross-shaped tomb pits up to 33 feet (10 meters) deep. Oracle bones record single sacrificial ceremonies involving 30, 100, even 300 people — most of them war captives, particularly from the Qiang people to the west.",
       "wikiSlug": "Yinxu",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Human sacrifice at royal burials appears in the Shang from the dynasty's earliest phases, but reached its fullest expression at Yinxu. The practice reflected a belief that the dead king needed his court, servants, and army to accompany him into the afterlife."
-        },
-        {
-          "label": "The Practice",
-          "text": "Royal tomb pits at Yinxu contained decapitated or dismembered victims in the hundreds — oracle bones record sacrificial events of 30, 100, even 300 people at a time. Victims included war captives, servants, children, horses, dogs, and oxen."
-        },
-        {
-          "label": "Significance",
-          "text": "The Zhou abolished royal human sacrifice after 1046 BCE, replacing victims with pottery or wooden figurines. This shift — from actual sacrifice to symbolic substitution — is one of the most important cultural transitions in Chinese history, bridging Shang practice and later Confucian ethics."
+          "label": "Explore further",
+          "text": "Yinxu, the Shang capital where the tombs were excavated, was a UNESCO World Heritage Site designated in 2006 — meaning the world's most comprehensive archive of Bronze Age human sacrifice is also a protected heritage landmark. The practice ended with the Zhou conquest in 1046 BCE, but not overnight: the Zhou replaced human victims with pottery or wooden figurines, a shift Confucius (551–479 BCE) reportedly found troubling even in its reformed version, arguing that realistic figurines were uncomfortably close to the real thing."
         }
       ]
     },
@@ -1090,23 +811,15 @@
       "id": "evt-fang-campaigns",
       "label": "Campaigns Against the Fang Peoples",
       "year": -1240,
-      "description": "Oracle bones record constant military campaigns against neighboring 'fang' (方) peoples on every frontier, with prisoners taken for labor and sacrifice.",
+      "description": "The Shang called the peoples on their frontiers \"fang\" (方, meaning \"direction\" or \"region\") — the Qiangfang to the west, the Tufang to the north — and oracle bones record near-constant military expeditions against them. Campaigns served a dual purpose: extend Shang influence and bring back captives to feed the sacrificial system.",
       "wikiSlug": "Shang_dynasty",
       "tier": 3,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "The Shang state was surrounded by dozens of named 'fang' (方) peoples — independent polities the Shang regarded as outside their civilized sphere. Relations oscillated between trade, tribute, and warfare."
-        },
-        {
-          "label": "The Battle",
-          "text": "Oracle bones record campaigns against the Qiang, Tu, Gong, and many other fang peoples, sometimes listing army sizes in the tens of thousands. Prisoners from successful campaigns were brought to Yinxu for labor, bronze-working, and ritual sacrifice."
-        },
-        {
-          "label": "Aftermath",
-          "text": "The constant fang campaigns kept the Shang military machine active and supplied the royal household with sacrificial victims and enslaved laborers. Lady Fu Hao's campaigns against the Qiang are among the best-documented military operations of any Bronze Age civilization."
+          "label": "Explore further",
+          "text": "The Qiang people appear so frequently in oracle bone inscriptions as both military targets and sacrificial victims that the two functions seem structurally linked — war against the Qiang was, among other things, a state procurement operation for the ritual system. Oracle bones record the king divining before campaigns specifically about captive yield: not just \"will we win\" but \"how many captives will we take.\" This makes the Shang military machine unusual in the ancient world: it had a theological as well as a territorial function built explicitly into its planning."
         }
       ]
     },
@@ -1115,7 +828,7 @@
       "label": "Lady Fu Hao",
       "year": -1240,
       "endYear": -1200,
-      "description": "Wife of Wu Ding, Fu Hao was a high priestess and military commander who led armies of 13,000. Her unlooted tomb contained 468 bronzes, 755 jades, and 6,900 cowrie shells.",
+      "description": "Fu Hao was one of Wu Ding's consorts who held two roles almost unheard-of for women in the ancient world: high priestess who performed divination and supervised sacrifices, and operational military commander who personally led armies in the field.",
       "wikiSlug": "Fu_Hao",
       "tier": 1,
       "tags": [
@@ -1124,48 +837,34 @@
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Fu Hao was one of King Wu Ding's many consorts and one of the most powerful women in the ancient world. She held dual roles as high priestess — performing divination and sacrifice — and as a military general commanding armies of up to 13,000 soldiers."
-        },
-        {
-          "label": "Role in the Shang",
-          "text": "Oracle bones record Fu Hao leading multiple campaigns against the Qiang, Ba, and Yi peoples. She also supervised major ritual sacrifices and received land grants from the king — an extraordinary degree of autonomy for any Shang queen."
-        },
-        {
-          "label": "Legacy",
-          "text": "Fu Hao's unlooted tomb, discovered in 1976, is one of the most important archaeological finds in Chinese history. Its 1,928 artifacts provided an unparalleled window into Shang material culture and shattered assumptions about women's roles in ancient China."
+          "label": "Explore further",
+          "text": "Fu Hao's temple name after death was Mu Xin, and Wu Ding performed divination on her behalf so frequently that she appears in more oracle bone inscriptions than any other Shang woman. She also held her own land grants and maintained an independent court — she was a political figure in her own right, not merely a royal wife. The strict gender boundaries that later Confucian codes imposed on Chinese society simply did not exist in her world."
         }
-      ]
+      ],
+      "commonsFile": "Fuhao_gong.JPG"
     },
     {
       "id": "evt-fu-hao-qiang-campaign",
       "label": "Fu Hao's Campaign Against the Qiang",
       "year": -1235,
-      "description": "Fu Hao led 13,000 troops against the Qiang people in the largest military campaign commanded by a woman in the Bronze Age world. Oracle bones record Wu Ding divining repeatedly about the campaign's outcome.",
+      "description": "Fu Hao led 13,000 soldiers against the Qiang — a semi-nomadic people of the western highlands and the Shang's most persistent military adversary — in what oracle bones confirm was a real operational command, not a ceremonial role.",
       "wikiSlug": "Fu_Hao",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "The Qiang were a semi-nomadic highland people on the Shang's western frontier, and the dynasty's most persistent military adversary. Oracle bones record dozens of campaigns against them. Fu Hao's campaign was the largest single operation documented."
-        },
-        {
-          "label": "The Battle",
-          "text": "Oracle bone records describe Fu Hao commanding an army of 13,000 soldiers — an enormous force by Bronze Age standards. Wu Ding consulted the ancestors repeatedly about the campaign's prospects, and the oracle bones record a favorable outcome. Captured Qiang prisoners were brought to Yinxu."
-        },
-        {
-          "label": "Aftermath",
-          "text": "Fu Hao's Qiang campaign is the best-documented military operation in Bronze Age East Asia. It confirms that women could hold genuine military command authority in the Shang state — not as regents or figureheads, but as operational field commanders leading major offensives."
+          "label": "Explore further",
+          "text": "Wu Ding's anxious pre-campaign divinations survive verbatim: \"Will Fu Hao's expedition against the Qiang be successful?\" and \"Will the ancestors protect Fu Hao on campaign?\" — the prayers of a king genuinely worried about sending his wife to war. The 13,000-troop figure puts Fu Hao's force roughly on par with the entire army of Mycenaean Greece at its peak, yet this was only one of her several campaigns; she also led operations against the Ba and the Yi peoples."
         }
-      ]
+      ],
+      "commonsFile": "Fu_Hao_Tomb_and_Statue,_c._1200_BC,_Reign_of_King_Wu_Ding,_Shang_Dynasty_(10197821303).jpg"
     },
     {
       "id": "evt-turtle-shell-trade",
       "label": "Turtle Shell Trade Networks",
       "year": -1235,
-      "description": "The demand for turtle plastrons for oracle bone divination drove long-distance trade networks, with shells sourced from rivers across the Shang realm and beyond.",
+      "description": "Turtle shells (plastrons, the flat underside) were one of the two key materials for oracle bone divination, and the Shang royal court consumed them in industrial quantities. Sourcing enough shells for continuous royal divination drove long-distance trade networks across the Shang realm — and some oracle bones actually name the individuals who supplied shells to the king.",
       "wikiSlug": "Chinemys_reevesii",
       "tier": 3,
       "tags": [
@@ -1174,19 +873,11 @@
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "Large turtle plastrons (belly shells) were required for royal divination, but suitable freshwater turtles were not uniformly available near Anyang. The Shang organized systematic collection and long-distance transport of shells from tributaries and possibly from southern China."
-        },
-        {
-          "label": "The Commerce",
-          "text": "Some oracle bones record the origin of shells and the names of those who presented them to the king — an early form of supply-chain record keeping. Thousands of shells were stored in royal archives, some uninscribed, representing a significant logistical investment."
-        },
-        {
-          "label": "Significance",
-          "text": "The turtle shell trade demonstrates that Shang administration was sophisticated enough to manage multi-regional resource networks for religious purposes. It also shows how ritual needs drove economic activity — a pattern repeated throughout Chinese history."
+          "label": "Explore further",
+          "text": "The Chinese pond turtle (Mauremys reevesii, Reeves' turtle) is native to East Asia and was the primary source for divination plastrons. The naming of shell donors in the oracle bone record is a remarkable early example of supply-chain record-keeping — the Shang bureaucracy tracked not just the divine consultations but the procurement logistics behind them. Some shells show evidence of prior preparation (polishing, drilling, and thinning) before they arrived at the palace, suggesting organized workshops outside the capital were processing materials before royal delivery."
         }
       ],
-      "commonsFile": "Chinese Pond Turtle (Mauremys reevesii).jpg"
+      "commonsFile": "Ningxia_Museum_Shang_dynasty_turtle_plastron_oracle_bone.jpg"
     },
     {
       "id": "evt-royal-tombs-yinxu",
@@ -1218,48 +909,32 @@
       "id": "evt-shang-oracle-content",
       "label": "Oracle Bone Topics",
       "year": -1230,
-      "description": "Oracle bone inscriptions reveal the daily concerns of Shang kings: will the harvest succeed? Should we attack the Qiang? Is the queen's illness caused by an angry ancestor? Will it rain in the next ten days? Over 150,000 fragments document a civilization governed by divination.",
+      "description": "The questions Shang kings put to their ancestors covered every domain of rule: whether to launch military campaigns, which ancestors to sacrifice to, whether the harvest would succeed, what caused the king's illness, and even whether a specific dream was sent by a hostile spirit. This was not private devotion — it was how the Shang state made decisions.",
       "wikiSlug": "Oracle_bone",
       "tier": 3,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "What Was Recorded",
-          "text": "Oracle bones cover five main topics: sacrifices to ancestors, military campaigns, weather and harvests, royal health and childbirth, and hunting expeditions. They are essentially the minutes of royal decision-making sessions."
-        },
-        {
-          "label": "The Process",
-          "text": "A diviner would carve the question into a prepared bone or shell, apply a heated bronze rod to pre-drilled pits, and read the resulting cracks. The king then verified the interpretation, and the outcome was sometimes recorded later — creating a complete decision audit trail."
-        },
-        {
-          "label": "Significance",
-          "text": "The oracle bones are the most detailed surviving record of any Bronze Age government's decision-making process. They reveal not just what the Shang believed, but how they ran their state — through constant consultation with the ancestral bureaucracy."
+          "label": "Explore further",
+          "text": "Some oracle bones record the outcome beside the original question — a verification note added after the fact — making them the closest thing the ancient world has to a government decision log with follow-up. The oracle bone archive gives us more insight into the daily decision-making of a single Bronze Age ruler than any other surviving source from the period, including the far larger cuneiform archives of Mesopotamia."
         }
       ],
-      "commonsFile": "Shang dynasty inscribed tortoise plastron.jpg"
+      "commonsFile": "Shang_dynasty_inscribed_tortoise_plastron.jpg"
     },
     {
       "id": "evt-shang-diviner-que",
       "label": "Que, Royal Diviner",
       "year": -1220,
-      "description": "Que was Wu Ding's chief diviner, whose name appears on more oracle bones than any other non-royal figure. His inscriptions reveal a powerful court official who shaped royal decisions through his interpretation of ancestral messages.",
+      "description": "Que (CHWEH) was Wu Ding's chief diviner, the most prominent non-royal name in the entire oracle bone archive. He prepared the bones, applied the heat, and interpreted the cracks — and because his readings steered royal decisions on war, agriculture, and sacrifice, he wielded real political power behind the framework of ancestral authority.",
       "wikiSlug": "Oracle_bone",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Que served as chief diviner (zhenren) under King Wu Ding, the most prolific period of oracle bone production. His name appears on hundreds of oracle bone inscriptions — making him the best-documented non-royal figure in Shang history."
-        },
-        {
-          "label": "Role in the Shang",
-          "text": "As chief diviner, Que mediated between the king and the ancestral spirits. He prepared the bones, carved the questions, applied the heat, and interpreted the cracks. His readings influenced decisions about war, sacrifice, agriculture, and royal health."
-        },
-        {
-          "label": "Legacy",
-          "text": "Que's inscriptions are among the most studied oracle bones, providing insight into how Shang divination actually worked in practice. His prominence shows that diviners held real political power — their interpretations could steer royal policy."
+          "label": "Explore further",
+          "text": "Oracle bones have been found in collections across China and at least fourteen other countries, with a recent count reaching approximately 130,000 total inscriptions. The bones were not casual records — they were state archives, stored in dedicated pits at Yinxu after use. Que's outsized presence in the archive suggests he served Wu Ding for an unusually long tenure, giving him the kind of accumulated institutional knowledge that made him indispensable: he knew which ancestors had been consulted about which problems and what answers had come back, making him the living memory of the divine bureaucracy."
         }
       ]
     },
@@ -1267,31 +942,24 @@
       "id": "evt-animal-bronzes",
       "label": "Animal-Shaped Bronze Vessels",
       "year": -1215,
-      "description": "Late Shang bronze casters produced elaborate zoomorphic vessels — owls, elephants, rhinoceroses, and rams — that combined ritual function with artistic virtuosity. The owl-shaped zun vessels are among the most iconic Chinese artworks.",
+      "description": "Late Shang bronze casters broke from standardized vessel shapes to produce zoomorphic vessels — fully functional wine and food containers shaped like owls, elephants, rhinoceroses, rams, and tigers — demonstrating that piece-mold technology could execute free-standing sculpture as well as decorated containers.",
       "wikiSlug": "Chinese_ritual_bronzes",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "While most Shang ritual bronzes followed standardized vessel types (ding, jue, gui), Late Shang casters also produced vessels in the shapes of animals — a tradition that shows the artists pushing beyond functional constraints into sculptural expression."
-        },
-        {
-          "label": "The Structure",
-          "text": "The famous owl-shaped zun from Fu Hao's tomb depicts the bird with folded wings and large eyes, its back forming the vessel's opening. Other animal bronzes include an elephant zun, a rhinoceros zun, and a ram-shaped you — each fully functional as ritual wine or food containers."
-        },
-        {
-          "label": "Legacy",
-          "text": "Animal-shaped bronzes represent the Shang bronze tradition at its most expressive, demonstrating that piece-mold casting could produce free-standing sculpture as well as decorated vessels. These pieces are among the most prized objects in Chinese museums and the most recognizable images of Shang art worldwide."
+          "label": "Explore further",
+          "text": "The owl-shaped zun (wine vessel) is the most celebrated form: the bird rendered with folded wings and enormous eyes, its back forming the vessel's opening. Several were found in the tomb of Fu Hao, the warrior queen buried at Anyang (Chapter 4). These animal bronzes are the Shang tradition at its most expressive — the same technical logic that produced the dense taotie patterns applied to fully three-dimensional sculptural form."
         }
-      ]
+      ],
+      "commonsFile": "Shang_Bronze_Niu_(Ox)_Zun,_M54_Tomb.jpg"
     },
     {
       "id": "evt-simuwu-ding",
       "label": "Simuwu Ding",
       "year": -1210,
-      "description": "The Simuwu (Houmuwu) Ding, weighing 875 kg, is the largest ancient bronze vessel ever discovered. Cast for a Shang queen, it required over 1,000 kg of raw materials.",
+      "description": "The Simuwu Ding (also called the Houmuwu Ding), cast during the late Shang, stands 4.4 feet (133 cm) tall, weighs 1,928 pounds (875 kg), and is the largest ancient bronze vessel ever discovered anywhere on Earth.",
       "wikiSlug": "Houmuwu_ding",
       "tier": 2,
       "tags": [
@@ -1300,49 +968,35 @@
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "The Simuwu Ding was cast during the reign of King Zu Geng or Zu Jia, likely as a memorial vessel for Queen Fu Hao (Wu Ding's consort). It represents the absolute peak of Shang piece-mold bronze casting, requiring a foundry operation of exceptional scale."
-        },
-        {
-          "label": "The Structure",
-          "text": "The rectangular ding stands 133 cm tall and weighs 875 kg. Casting it required over 1,000 kg of bronze poured simultaneously from multiple crucibles — an operation requiring hundreds of coordinated workers and months of preparation. The taotie and dragon decorations on its surface are executed with extraordinary precision."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Simuwu Ding remained the largest bronze vessel in the ancient world for over 3,000 years. It is now the centerpiece of the National Museum of China — a symbol not just of Shang power but of the entire Chinese Bronze Age civilization the Shang built on Erlitou's foundations."
+          "label": "Explore further",
+          "text": "It was unearthed in 1939 in Wuguan Village near Anyang, at the Yinxu site of the last Shang capital. Pouring it required over 2,200 pounds (1,000 kg) of raw bronze flowing simultaneously from multiple crucibles, coordinated across hundreds of workers — a single critical failure anywhere in the process would have meant starting over after months of preparation. The largest Greek bronze statues were hollow and weighed a fraction of this; no ancient Mediterranean casting comes close to the Simuwu Ding's mass."
         }
       ],
       "aliases": [
         "Houmuwu",
         "Houmuwu Ding"
-      ]
+      ],
+      "commonsFile": "HouMuWuDingFullView.jpg"
     },
     {
       "id": "evt-fu-hao-tomb",
       "label": "Tomb of Fu Hao",
       "year": -1205,
-      "description": "Fu Hao's tomb, the only undisturbed Shang royal burial ever found, contained 1,928 artifacts including bronze vessels, jade carvings, ivory cups, and cowrie-shell currency.",
+      "description": "Fu Hao's tomb at Yinxu, discovered in 1976, is the only undisturbed Shang royal burial ever found — hidden for three thousand years beneath a later building that accidentally shielded it from the looting that stripped every other known Shang royal grave.",
       "wikiSlug": "Tomb_of_Fu_Hao",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "All other known Shang royal tombs were looted in antiquity. Fu Hao's tomb survived intact because it lay beneath a Later Shang palace building that concealed it from looters. It was discovered by archaeologists in 1976 during routine excavation."
-        },
-        {
-          "label": "The Structure",
-          "text": "The tomb pit measured 5 by 4 meters and descended 7.5 meters, containing 468 bronze objects, 755 jade pieces, 63 stone objects, 564 bone artifacts, and 6,900 cowrie shells. Sixteen human sacrificial victims and six dogs accompanied her."
-        },
-        {
-          "label": "Legacy",
-          "text": "Fu Hao's tomb is the most important single archaeological discovery in Chinese Bronze Age studies. It provided the first complete picture of what a Shang royal burial actually contained — and proved that oracle bone records of her military campaigns were historical fact, not legend."
+          "label": "Explore further",
+          "text": "The pit measured roughly 16 by 13 feet (5 by 4 meters) and descended 25 feet (7.5 meters), yet it held 1,928 catalogued artifacts — including 468 bronzes weighing over 3,500 pounds combined, 755 jade objects, 6,900 cowrie shells (the Shang's primary currency), and 16 human sacrificial victims. The eleven great royal tombs at Xibeigang were ten times larger and contained nothing; everything was looted centuries after the dynasty fell. Fu Hao's modest size is why hers survived."
         }
       ],
       "aliases": [
         "Fu Hao's tomb"
-      ]
+      ],
+      "commonsFile": "Tomb_Fu_Hao_YinXu.jpg"
     },
     {
       "id": "evt-bronze-inscriptions",
@@ -1372,23 +1026,15 @@
       "id": "evt-chariot-burials",
       "label": "Chariot Burials",
       "year": -1200,
-      "description": "Shang nobles were buried with complete chariots, horses, and charioteers sacrificed to accompany them — the earliest chariot burials in East Asia, revealing the vehicle's role as the ultimate aristocratic status symbol.",
+      "description": "Shang nobles were buried with complete horse-drawn chariots, paired horses still in harness, and a charioteer sacrificed in driving position — the earliest chariot burials in East Asia, and a window into how the Shang fused military status with ritual obligation.",
       "wikiSlug": "Chariot_burial",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Horse-drawn chariots reached China around 1200 BCE, probably through Central Asian intermediaries. The Shang adopted them as prestige weapons and immediately incorporated them into elite burial practice."
-        },
-        {
-          "label": "The Practice",
-          "text": "Chariot burial pits at Yinxu contain complete vehicles with two horses in harness and a charioteer sacrificed in driving position. Some pits hold multiple chariots. The vehicles were disassembled and carefully arranged, showing that burial placement followed specific ritual rules."
-        },
-        {
-          "label": "Significance",
-          "text": "Chariot burials mark the arrival of horse-drawn warfare in China and demonstrate how quickly the Shang elite absorbed new military technology into their existing ritual system. The Zhou continued chariot burial practice, and the number of chariots in a burial became a direct marker of aristocratic rank."
+          "label": "Explore further",
+          "text": "The vehicles were dismantled and arranged according to specific ritual rules rather than simply dropped into the pit whole, suggesting a deliberate ceremony rather than casual interment. These burials are the primary archaeological evidence for when and how the chariot entered China — without them, the date of transmission from the steppes would be far harder to pin down. The practice of burying aristocrats with their chariots was adopted and expanded by the Zhou, making it a recurring feature of elite Chinese burial for centuries after the Shang fell."
         }
       ]
     },
@@ -1396,23 +1042,15 @@
       "id": "evt-shang-chariots",
       "label": "Introduction of War Chariots",
       "year": -1200,
-      "description": "The Shang adopted horse-drawn chariots, likely through Central Asian contact. Chariot burials at Yinxu show they were prestige weapons of the aristocracy.",
+      "description": "The horse-drawn chariot reached China around 1200 BCE, almost certainly through Central Asian intermediaries, and the Shang immediately adopted it as a prestige weapon crewed by three men — driver, archer, and spearman — fighting from a mobile platform.",
       "wikiSlug": "Shang_dynasty",
       "tier": 3,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "Horse-drawn chariots originated in the Eurasian steppes around 2000 BCE and spread rapidly across Eurasia. They reached China later than the Near East, appearing in Shang China around 1200 BCE — probably transmitted through Central Asian intermediaries."
-        },
-        {
-          "label": "The Battle",
-          "text": "Shang chariots were prestige weapons crewed by a driver, archer, and spearman — an aristocratic fighting platform rather than a mass military technology. Chariot burials at Yinxu include the complete vehicle, horses, and charioteers sacrificed to accompany their owner."
-        },
-        {
-          "label": "Aftermath",
-          "text": "The Zhou inherited and expanded Shang chariot warfare, making the chariot the central technology of Zhou aristocratic military culture. The number of chariots a lord commanded became the standard measure of a state's military power — a legacy of the Shang adoption that persisted for 600 years."
+          "label": "Explore further",
+          "text": "Chariots had originated on the Eurasian steppes around 2000 BCE and spread across the Near East centuries before arriving in East Asia, making the Shang adoption a late chapter in a continent-wide technological diffusion. The Shang treated them as aristocratic status symbols rather than mass military tools: the number of chariots a noble owned became a direct measure of rank, a convention the Zhou dynasty inherited and expanded. Chariot burials at Yinxu show the vehicles disassembled and arranged according to specific ritual rules, with horses and a charioteer sacrificed in driving position."
         }
       ],
       "aliases": [
@@ -1424,102 +1062,73 @@
       "id": "evt-shang-music-bells",
       "label": "Shang Bronze Bells (Nao)",
       "year": -1200,
-      "description": "The Shang produced large bronze bells (nao) played mouth-upward for ritual ceremonies — the earliest Chinese bronze musical instruments. Sets of tuned nao demonstrate sophisticated understanding of acoustics and pitch.",
+      "description": "The Shang cast large bronze bells called nao — played mouth-upward, struck with a mallet — in tuned ritual sets of three or five, making them the earliest Chinese bronze musical instruments and the direct ancestors of the Zhou dynasty's massive tuned bell orchestras.",
       "wikiSlug": "Bianzhong",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Music was central to Shang ritual life. The Jiahu bone flutes of the Neolithic show that Chinese musical tradition stretches back to 7000 BCE, but the Shang translated it into bronze — the defining material of their civilization."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Shang nao bells were cast in sets of three or five, tuned to specific pitches by adjusting wall thickness and shape. Unlike round Western bells, Chinese nao have an almond-shaped cross-section that produces two distinct tones when struck at different points."
-        },
-        {
-          "label": "Impact",
-          "text": "The Shang nao evolved into the Zhou bianzhong — massive tuned bell sets like the 65-bell set of Marquis Yi of Zeng, which can play a full chromatic scale. Chinese bronze bell-making is a continuous tradition from Shang through the imperial period."
+          "label": "Explore further",
+          "text": "Unlike round Western bells, Shang nao have an almond-shaped cross-section that produces two distinct pitches depending on where you strike them — a feat of acoustic engineering built into the shape itself. The lineage runs directly from these Shang nao to the 65-bell bianzhong set of Marquis Yi of Zeng (5th century BCE), one of the greatest musical instruments of the ancient world, capable of playing a full chromatic scale. China is the earliest country known to have manufactured and used musical chime sets."
         }
       ],
       "aliases": [
         "Shang nao"
-      ]
+      ],
+      "commonsFile": "Bianzhong.jpg"
     },
     {
       "id": "evt-sanxingdui",
       "label": "Sanxingdui Culture",
       "year": -1195,
-      "description": "The contemporary Sanxingdui site in Sichuan reveals a mysterious non-Shang Bronze Age civilization with giant bronze masks and gold artifacts unlike anything else in ancient China.",
+      "description": "A completely separate Bronze Age civilization buried in the Sichuan Basin, Sanxingdui produced giant bronze masks with bulging cylindrical eyes, an 8.5-foot standing bronze figure (the largest Bronze Age statue on Earth), and gold work — none of which looks anything like the Shang bronzes flourishing 750 miles away at the same time.",
       "wikiSlug": "Sanxingdui",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "While the Shang dominated the Yellow River plain, a completely separate Bronze Age civilization flourished in the Sichuan basin. Sanxingdui had no oracle bones, no taotie motif, and no piece-mold bronzes — yet it mastered bronze casting independently at roughly the same time."
-        },
-        {
-          "label": "The Structure",
-          "text": "Sanxingdui's bronze masks — some over a meter wide with protruding eyes — have no parallel in Chinese art. Giant bronze trees, gold face masks, and elephant tusks buried in ritual pits suggest a sophisticated religion completely distinct from Shang ancestor worship."
-        },
-        {
-          "label": "Legacy",
-          "text": "Sanxingdui shows that Bronze Age China was not a single civilization radiating from the Yellow River — it was a mosaic of interacting cultures. The Zhou dynasty, which replaced the Shang, would eventually absorb Sichuan, but Sanxingdui culture remained distinct until around 1000 BCE."
+          "label": "Explore further",
+          "text": "The two sacrificial pits found in 1986 are not the whole story: six additional pits opened between 2019 and 2021 yielded a gold mask weighing nearly a pound, bronze human-headed serpents, and silk residue suggesting multi-day destruction rituals. No oracle bones, no Chinese writing, no taotie motifs, and no Shang vessel shapes have ever been found at the site — it was a peer civilization, not a colony. Sanxingdui is associated with the ancient kingdom of Shu, later conquered by the Qin in 316 BCE."
         }
-      ]
+      ],
+      "commonsFile": "Gold_Mask_(黄金面罩).jpg"
     },
     {
       "id": "evt-shang-astronomy",
       "label": "Shang Astronomical Records",
       "year": -1190,
-      "description": "Oracle bones record solar eclipses, lunar eclipses, and star observations — the earliest Chinese astronomical records and among the oldest verifiable eclipse records anywhere.",
+      "description": "Shang diviners recorded solar and lunar eclipses on oracle bones with enough precision that modern astronomers have verified and dated them — making these some of the oldest confirmed eclipse records on Earth. Eclipses were read as celestial messages requiring ritual responses, and the king was responsible for keeping the cosmos in order by acting on them.",
       "wikiSlug": "Chinese_astronomy",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "The Shang king was responsible for maintaining cosmic order — eclipses and unusual celestial events were direct messages from ancestors and Shangdi. Tracking the heavens was thus both a religious duty and a political necessity."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Oracle bones record at least five solar eclipses and many lunar eclipses with enough precision to allow modern astronomers to verify and date them. They also record observations of Mars, Saturn, and possibly a nova — making the Shang some of the earliest systematic astronomers in history."
-        },
-        {
-          "label": "Impact",
-          "text": "The Shang astronomical tradition passed to the Zhou, whose court astronomers maintained continuous sky-watching records. This unbroken observational tradition, spanning from the Shang into the imperial era, gave Chinese astronomy one of the longest continuous datasets of any civilization."
+          "label": "Explore further",
+          "text": "Chinese astronomical records on oracle bones date star identifications to around 1300 BCE, and the core of the traditional \"twenty-eight mansions\" system (the Chinese lunar zodiac dividing the sky into 28 segments) was taking shape during Wu Ding's reign, around the mid-Shang period. The stars were not catalogued for scientific curiosity — they were catalogued because unusual appearances (novae, comets, eclipses) constituted messages from the spirit world that the king was obligated to read and answer. Astronomy and divination were the same discipline."
         }
       ],
       "aliases": [
         "astronomical records",
         "Shang astronomers"
-      ]
+      ],
+      "commonsFile": "Dunhuang_star_map.jpg"
     },
     {
       "id": "evt-king-wen-zhou",
       "label": "King Wen of Zhou",
       "year": -1100,
-      "description": "King Wen of Zhou built the coalition that would destroy the Shang, spending decades winning over disaffected Shang vassals through diplomacy, virtue, and patience — the archetypal patient rebel in Chinese political thought.",
+      "description": "King Wen of Zhou (personal name Ji Chang, 1152–1050 BCE) was the Zhou chieftain who spent decades patiently building the coalition that would dismantle the Shang — cultivating a reputation for virtue and justice while diplomatically peeling away Shang vassals one by one.",
       "wikiSlug": "King_Wen_of_Zhou",
       "tier": 2,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "King Wen (Ji Chang) was the ruler of the Zhou, a semi-nomadic state on the western frontier of Shang territory. He adopted Shang culture — bronze, writing, ritual — while building independent military power in the Wei River valley."
-        },
-        {
-          "label": "Role Against the Shang",
-          "text": "Wen spent decades building alliances with Shang vassals disaffected by Di Xin's rule. The Shang king reportedly imprisoned Wen for a period, but released him after the Zhou offered rich tribute. Wen died before completing his work, passing the final campaign to his son Wu."
-        },
-        {
-          "label": "Legacy",
-          "text": "King Wen became the most celebrated figure in Zhou political mythology — the patient, virtuous ruler who prepares without striking. Confucius revered him as a sage king. The Book of Changes (Yi Jing) is traditionally attributed to him, composed during his imprisonment."
+          "label": "Explore further",
+          "text": "The Shang noticed Wen's growing power and imprisoned him at the Shang capital; one version of the story claims Di Xin killed Wen's eldest son and served the flesh to him as a meal, a horror story that conveniently further blackened Di Xin's reputation. Wen was traditionally credited with composing the Yi Jing (Book of Changes) during this imprisonment — an attribution historians regard as almost certainly false but revealing of how deep his veneration ran. He died around 1050 BCE having never struck the final blow, leaving that to his son Wu; Confucius later held him up as the model of the virtuous ruler who prepares but does not act before the moment is ripe."
         }
       ]
     },
@@ -1527,32 +1136,25 @@
       "id": "evt-shang-proto-zhou",
       "label": "Rise of the Zhou People",
       "year": -1100,
-      "description": "The Zhou, a semi-nomadic people on the Shang's western frontier, grew powerful under King Wen's leadership. From their base in the Wei River valley, they built alliances with disaffected Shang vassals — mirroring Tang's strategy against the Xia five centuries earlier.",
+      "description": "The Zhou were a people of the western highlands in the Wei River valley (near modern Xi'an), nominally Shang vassals who had adopted Shang writing and bronze technology while maintaining their own military traditions — gradually transforming from frontier tributaries into the force that would erase their overlords.",
       "wikiSlug": "King_Wen_of_Zhou",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "The Zhou people lived on the western edge of Shang territory, in the Wei River valley near modern Xi'an. They adopted Shang bronze technology and writing but maintained their own identity and military traditions."
-        },
-        {
-          "label": "King Wen's Strategy",
-          "text": "King Wen of Zhou spent decades building a coalition of disaffected Shang vassals and neighboring peoples. He positioned himself as a virtuous alternative to the increasingly erratic Di Xin — consciously echoing how Tang had undermined the Xia centuries earlier."
-        },
-        {
-          "label": "Significance",
-          "text": "The rise of Zhou on the Shang periphery repeated the pattern of the Shang's own rise against the Xia: a frontier people absorbs the old dynasty's culture, then overthrows it when the ruling house weakens. This cycle of dynasty change would define Chinese history."
+          "label": "Explore further",
+          "text": "The Zhou were probably of mixed cultural heritage, blending indigenous highland traditions with Shang practices, and their chieftains held the title \"Lord of the West\" granted by the Shang kings — a vassal relationship that gave them legitimacy while they quietly built power against the dynasty that granted it. King Wen is described in the Classic of Poetry's hymns with language so reverential that some scholars call him the first epic hero of Chinese history. The Zhou's conscious mimicry of Tang's original strategy against the Xia — winning vassals through virtue rather than conquest — suggests that Shang political mythology had become so embedded that even the dynasty's destroyers framed their rebellion in Shang terms."
         }
-      ]
+      ],
+      "commonsFile": "King_Wen_of_Zhou_(cropped).jpg"
     },
     {
       "id": "evt-di-xin",
       "label": "King Di Xin (Zhou Xin)",
       "year": -1075,
       "endYear": -1046,
-      "description": "The last Shang king, Di Xin, was remembered as a cruel tyrant who lost the mandate to rule. His downfall became the archetype of the 'bad last emperor' in Chinese history.",
+      "description": "Di Xin (posthumously renamed Zhou Xin, \"the Cruel,\" by the people who overthrew him) was the thirtieth and last king of the Shang — brilliant and physically formidable, according to every source, but also the most comprehensively villainized ruler in Chinese history.",
       "wikiSlug": "King_Zhou_of_Shang",
       "tier": 2,
       "tags": [
@@ -1561,91 +1163,62 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Di Xin (posthumously called Zhou Xin by the Zhou) was the last Shang king — intelligent and physically powerful, but remembered for cruelty, debauchery, and ignoring his ministers. His historical image was heavily shaped by Zhou propaganda designed to justify their overthrow."
-        },
-        {
-          "label": "Role in the Shang",
-          "text": "Di Xin led successful military campaigns to the south and east, but alienated the nobility and vassal lords through taxation, demands for labor, and brutal punishments. When King Wen of Zhou's son launched his rebellion, Di Xin's own army reportedly defected."
-        },
-        {
-          "label": "Legacy",
-          "text": "Di Xin became the template for the 'bad last emperor' in Chinese political thought — the ruler who exhausts Heaven's patience and loses the mandate to rule. The Zhou would use his example to justify the concept of the Mandate of Heaven for centuries. His story recurs in every subsequent Chinese dynastic transition."
+          "label": "Explore further",
+          "text": "The philosopher Confucius's student Zi Gong warned that \"Di Xin's wickedness was not as great as all that — a gentleman hates to stand downstream because all the world's filth flows toward him,\" meaning losers attract blame regardless of actual guilt. The famous paolao torture (a greased bronze pillar heated over fire that prisoners were forced to walk across) may be a later invention; the same literary formula — \"a pool of wine and a forest of meat\" — was applied verbatim to the last Xia king, Jie, before Di Xin, suggesting a stock villain template. He is contemporaneously recorded on bronze relics using his temple name Di Xin, where the record is far less damning than the later Zhou-era texts."
         }
       ],
       "aliases": [
         "Zhou Xin"
-      ]
+      ],
+      "commonsFile": "絵本三国妖婦伝_殷紂王.jpg"
     },
     {
       "id": "evt-daji",
       "label": "Daji, Concubine of Di Xin",
       "year": -1070,
-      "description": "Daji, Di Xin's favorite concubine, was blamed for encouraging the last king's cruelty and excess. Later folklore transformed her into a fox spirit — one of Chinese literature's most famous supernatural villains.",
+      "description": "Daji was Di Xin's favorite concubine, blamed by Zhou propaganda for egging on the last Shang king's cruelty — but she is not recorded in any contemporary oracle bone inscription, making her a near-total historical mystery overlaid by centuries of lurid legend.",
       "wikiSlug": "Daji",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Historical Daji is poorly documented — most accounts come from Zhou-era propaganda and later elaborations. She was likely a consort of Di Xin whose association with the disgraced king made her a convenient scapegoat for the dynasty's failures."
-        },
-        {
-          "label": "Role in the Shang",
-          "text": "Zhou accounts claim Daji encouraged Di Xin's worst impulses: inventing cruel punishments, staging lavish parties while the kingdom crumbled, and silencing ministers who warned of disaster. The historical reliability of these claims is extremely low — they serve Zhou propaganda needs."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Ming dynasty novel Investiture of the Gods (Fengshen Yanyi) reimagined Daji as a nine-tailed fox spirit sent to destroy the Shang from within. This version became Chinese pop culture's definitive Daji — a seductive supernatural villain whose story is still retold in film, television, and video games."
+          "label": "Explore further",
+          "text": "The 16th-century Ming novel Investiture of the Gods (Fengshen Yanyi) transformed Daji into a nine-tailed fox spirit dispatched by heaven specifically to destroy the Shang from within — a narrative still retold in Chinese film, television, and video games today. The fox-spirit framing neatly shifted the blame for the dynasty's fall onto a supernatural female seducer rather than on institutional failure or Zhou military superiority. Because she appears in no oracle bone records at all, historians cannot confirm she was even a real individual rather than a literary construct assembled to serve the \"corrupt last king\" template."
         }
-      ]
+      ],
+      "commonsFile": "Ping_Sien_Si_-_026_Daji_(16133466711).jpg"
     },
     {
       "id": "evt-zhou-coalition",
       "label": "The Anti-Shang Coalition",
       "year": -1050,
-      "description": "King Wu assembled a coalition of eight allied states and peoples against the Shang, meeting at Mengjin on the Yellow River in a rehearsal muster before the final campaign — the largest military alliance in Bronze Age East Asia.",
+      "description": "Before the final assault on the Shang, King Wu called a grand muster at Mengjin on the Yellow River, assembling a multi-ethnic alliance of western and southern peoples — Shu, Qiang, Yong, Lu, Peng, Pu, and others — against the weakening Shang.",
       "wikiSlug": "Battle_of_Muye",
       "tier": 3,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "King Wen had spent decades winning over Shang vassals; his son King Wu converted that diplomatic groundwork into a military alliance. The coalition included the Shu, Qiang, Yong, Lu, Peng, Pu, and other frontier peoples alongside the Zhou's own forces."
-        },
-        {
-          "label": "The Campaign",
-          "text": "Wu first tested his coalition's resolve with a muster at Mengjin, a Yellow River crossing point. According to tradition, 800 lords attended, but Wu judged the moment premature and withdrew. Two years later, with Di Xin's behavior worsening, Wu called the final march."
-        },
-        {
-          "label": "Significance",
-          "text": "The anti-Shang coalition demonstrated that the Shang state had lost the loyalty of its peripheral vassals — a fatal weakness for a dynasty that depended on tribute relationships. The Zhou's ability to unite diverse peoples against a common enemy became a model for subsequent Chinese political strategy."
+          "label": "Explore further",
+          "text": "The traditional count of \"800 lords\" attending the Mengjin muster is almost certainly a literary round number rather than a census figure, but it testifies to how wide Wu had built his coalition in the years after Wen's death. Wu looked at the assembled force, decided the moment was not yet right, and marched everyone home — a display of restraint that the Confucian tradition would later celebrate as proof of his father's patience living on in the son. Two years later he called the same coalition back for the real march, this time crossing the Yellow River and advancing east toward Anyang."
         }
-      ]
+      ],
+      "commonsFile": "Battle_of_Muye.jpg"
     },
     {
       "id": "evt-battle-muye",
       "label": "Battle of Muye",
       "year": -1046,
-      "description": "King Wu of Zhou defeated Di Xin at the decisive Battle of Muye. Di Xin set fire to his palace and perished in the flames, ending the Shang Dynasty.",
+      "description": "The Battle of Muye (\"Shepherd's Wild\"), fought near Anyang on January 20, 1046 BCE, was the brief, catastrophic end of the Shang: Di Xin's conscript army turned their weapons against their own commanders, and the king fled back to his palace and died in its flames.",
       "wikiSlug": "Battle_of_Muye",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "King Wen of Zhou had built a coalition of disaffected Shang vassals over decades. His son King Wu crossed the Yellow River with an alliance army of perhaps 45,000 to face the Shang at Muye, near Anyang."
-        },
-        {
-          "label": "The Battle",
-          "text": "Di Xin's army, reportedly bolstered by enslaved prisoners, defected en masse when battle began — turning their weapons against their own commanders. The battle was brief and catastrophic for the Shang. Di Xin fled to his palace, dressed himself in jade and gold, and set the building alight."
-        },
-        {
-          "label": "Aftermath",
-          "text": "King Wu of Zhou inherited everything the Shang had built: the writing system, the bronze ritual tradition, the ancestor worship, and the concept of the supreme deity. The Zhou would formalize Shang royal authority as the Mandate of Heaven — the political theology that governed China for the next 2,500 years."
+          "label": "Explore further",
+          "text": "The January 20, 1046 BCE date is calculated backward from astronomical records and is one of the most precisely anchored absolute dates in all of ancient Chinese history, though a handful of scholars argue for slightly different years. Di Xin's force was reportedly larger than Wu's estimated 45,000-strong army, but the mass defection of enslaved captives and conscripts with no loyalty to the Shang king decided the outcome almost immediately. The traditional account of Di Xin's death — dressing himself in jade and gold, climbing the Deer Terrace pavilion, and setting it alight — is vivid enough that ancient sources themselves flagged it as possibly theatrical rather than factual."
         }
       ]
     },
@@ -1653,143 +1226,100 @@
       "id": "evt-king-wu-zhou",
       "label": "King Wu of Zhou",
       "year": -1046,
-      "description": "King Wu of Zhou led the coalition that destroyed the Shang at the Battle of Muye. He established the Zhou dynasty and the Mandate of Heaven doctrine, claiming that heaven had transferred its favor from the Shang to the Zhou.",
+      "description": "King Wu of Zhou (personal name Ji Fa) inherited his father Wen's coalition and led it to the decisive victory at the Battle of Muye in 1046 BCE, founding the Zhou dynasty and articulating the Mandate of Heaven as the intellectual framework for what he had just done.",
       "wikiSlug": "King_Wu_of_Zhou",
       "tier": 2,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "King Wu (Ji Fa) was the son of King Wen of Zhou, who had spent decades building the anti-Shang coalition but died before the final campaign. Wu inherited his father's alliances, completed the military preparations, and led the army that crossed the Yellow River to Muye."
-        },
-        {
-          "label": "Role in the Shang's End",
-          "text": "At Muye, Wu commanded a coalition army of perhaps 45,000 troops drawn from multiple allied states. When Di Xin's conscript army defected, the battle was brief. Wu entered the Shang capital, performed rituals at the Shang ancestral temple, and claimed the Mandate of Heaven."
-        },
-        {
-          "label": "Legacy",
-          "text": "King Wu's conquest is the foundational event of the Zhou dynasty — China's longest-lived ruling house (1046-256 BCE). His framing of the conquest as heaven's judgment against Shang corruption became the template for every subsequent Chinese dynasty change."
+          "label": "Explore further",
+          "text": "Wu's first attempted march gathered 800 lords at the Yellow River crossing of Mengjin — a suspiciously round number — but after gauging the mood, he famously concluded that Di Xin's fall was \"not yet ripe\" and turned the army around without fighting. The Zhou dynasty he founded lasted from 1046 to 256 BCE, the longest-reigning dynasty in Chinese history. After the conquest, he performed rituals at the Shang ancestral temple, deliberately framing the Zhou takeover as inheritance rather than destruction of Shang civilization."
         }
-      ]
+      ],
+      "commonsFile": "King_Wu_of_Zhou.jpg"
     },
     {
       "id": "evt-mandate-of-heaven",
       "label": "Mandate of Heaven Concept",
       "year": -1046,
-      "description": "The Zhou justified their conquest by articulating the Mandate of Heaven — the doctrine that heaven grants authority to virtuous rulers and withdraws it from tyrants. Though named by the Zhou, the concept's roots lie in Shang political theology.",
+      "description": "The Mandate of Heaven (tianming) is the Zhou political doctrine declaring that heaven grants the right to rule to virtuous kings and withdraws it from corrupt ones — the ideological engine that justified the Shang's overthrow and would govern Chinese political thought for the next three thousand years.",
       "wikiSlug": "Mandate_of_Heaven",
       "tier": 1,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The Shang believed their king ruled as the sole intermediary with Shangdi (Lord on High), whose favor legitimized the dynasty. This relationship was maintained through correct ritual performance, not explicitly through moral conduct."
-        },
-        {
-          "label": "The Innovation",
-          "text": "The Zhou transformed the Shang concept by making legitimacy explicitly conditional on virtue. Heaven (Tian, the Zhou's rebranding of Shangdi) granted its mandate to worthy rulers and revoked it from corrupt ones. The Shang's fall proved the doctrine: Di Xin's corruption had cost him heaven's favor."
-        },
-        {
-          "label": "Significance",
-          "text": "The Mandate of Heaven became the governing political theology of China for 3,000 years. Every dynasty change — from Zhou through Qing — was justified using this framework. Natural disasters, peasant rebellions, and military defeats were all read as signs that heaven had withdrawn its mandate."
+          "label": "Explore further",
+          "text": "The doctrine's genius was its circularity: a successful rebellion was itself proof that heaven approved, since a failed rebellion meant heaven had not withdrawn its mandate yet. The Zhou built this argument on the Shang's own founding story — Tang overthrowing the corrupt Xia king Jie — turning the Shang's creation myth against them. Natural disasters (floods, famines, earthquakes) were officially interpreted as signs that heaven was withdrawing its favor, which meant that every subsequent dynasty had to worry that bad weather was political news. The concept persisted through every Chinese imperial dynasty until the Qing fell in 1912 CE."
         }
-      ]
+      ],
+      "commonsFile": "Ding_cauldron_of_Duke_Mao.jpg"
     },
     {
       "id": "evt-song-state",
       "label": "State of Song — Shang Survivors",
       "year": -1040,
-      "description": "King Wu enfeoffed the Shang prince Weizi Qi as lord of Song, giving the defeated dynasty a territory to maintain their ancestral sacrifices — a calculated act of ritual mercy that preserved Shang bloodlines and culture into the Zhou era.",
+      "description": "After the conquest, King Wu created the state of Song in eastern Henan and gave it to Weizi Qi, Di Xin's half-brother who had publicly protested the last king's excesses — allowing the defeated Shang royal line to maintain their ancestral sacrifices under Zhou overlordship.",
       "wikiSlug": "Song_(state)",
       "tier": 3,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Background",
-          "text": "Rather than exterminating the Shang royal line, King Wu granted a fief at Song (in modern Henan) to Weizi Qi, Di Xin's half-brother who had protested the last king's excesses. This preserved the Shang ancestral sacrifice line under Zhou overlordship."
-        },
-        {
-          "label": "The State",
-          "text": "Song survived as an independent state throughout the Zhou period and into the Warring States era, not falling until 286 BCE — over 750 years after the Shang's fall. The philosopher Confucius is traditionally considered a descendant of the Shang royal house through the Song state."
-        },
-        {
-          "label": "Legacy",
-          "text": "The enfeoffment of Song established the precedent that a conquering dynasty should preserve the vanquished line's ancestral sacrifices — a practice later dynasties followed. It also meant that Shang cultural traditions, ritual practices, and genealogical records survived within the Zhou system."
+          "label": "Explore further",
+          "text": "Song survived for an extraordinary 760 years, outlasting the Western Zhou, the Spring and Autumn Period, and deep into the Warring States era before finally falling to the state of Qi in 286 BCE. Confucius, the most influential philosopher in Chinese history, is traditionally considered a descendant of the Shang royal house through the Song state — meaning the dynasty's bloodline shaped Chinese civilization long after the bronze palaces were gone. The decision to preserve Song rather than exterminate the Shang royals set a precedent that subsequent Chinese dynasties often followed when replacing their predecessors."
         }
-      ]
+      ],
+      "commonsFile": "States_of_Zhou_Dynasty.png"
     },
     {
       "id": "evt-wang-yirong-discovery",
       "label": "Wang Yirong Discovers Oracle Bones",
       "year": 1899,
-      "description": "In 1899, scholar Wang Yirong recognized ancient inscriptions on 'dragon bones' sold as traditional medicine in a Beijing pharmacy — launching modern Chinese archaeology and proving the Shang Dynasty was historical fact, not legend.",
+      "description": "In 1899, a sick Chinese scholar named Wang Yirong noticed that the 'dragon bones' sent from a Beijing pharmacy — ground-up fossils sold as folk medicine — were covered in systematic carved marks. He recognized them as ancient writing, and in doing so proved the Shang Dynasty was historical fact, not legend.",
       "wikiSlug": "Wang_Yirong",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "For decades, farmers near Anyang had been digging up inscribed bone fragments and selling them to traditional medicine shops as 'dragon bones' (longgu) — an ingredient ground into powder for treating ailments. The inscriptions were typically ground off before sale."
-        },
-        {
-          "label": "The Discovery",
-          "text": "Wang Yirong, a scholar and antiquarian suffering from malaria, noticed systematic carved marks on bones purchased from a Beijing pharmacy. He recognized them as an ancient script related to Chinese characters — and realized he was reading messages from a dynasty many scholars had dismissed as mythological."
-        },
-        {
-          "label": "Legacy",
-          "text": "Wang died in the Boxer Rebellion the following year (1900), but his discovery transformed Chinese historiography. Systematic excavation of Yinxu began in 1928 under the Academia Sinica, ultimately yielding over 150,000 inscribed fragments and establishing the Shang as a fully verified historical civilization."
+          "label": "Explore further",
+          "text": "Wang held one of the most prestigious posts in the Imperial Academy, making him exactly the right person to recognize an archaic script. His discovery came at enormous personal cost: less than a year later, when foreign troops occupied Beijing during the Boxer Rebellion, he committed suicide rather than survive the dynasty's humiliation — taking his wife and daughter-in-law with him. A museum in his birthplace of Yantai, Shandong now honors him."
         }
-      ]
+      ],
+      "commonsFile": "Wang_Yirong.jpg"
     },
     {
       "id": "evt-yinxu-excavations",
       "label": "First Scientific Excavation of Yinxu",
       "year": 1928,
-      "description": "In 1928, archaeologist Li Ji led the first systematic excavation of Yinxu — China's first modern archaeological dig — uncovering royal tombs, palace foundations, and thousands of oracle bones that confirmed the Shang Dynasty's historical reality.",
+      "description": "In 1928, Harvard-trained archaeologist Li Ji launched China's first modern professional excavation at Yinxu, the site outside Anyang where farmers had been unknowingly digging up oracle bones for decades. Fifteen seasons of digging — interrupted by Japan's 1937 invasion — uncovered palace foundations, royal tombs, bronze foundries, and roughly 25,000 inscribed bone fragments stored in organized archival pits.",
       "wikiSlug": "Yinxu",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "After Wang Yirong's 1899 discovery, scholars traced the source of 'dragon bones' to fields near Anyang village of Xiaotun. In 1928, the Academia Sinica launched China's first professional archaeological excavation under Li Ji (Li Chi), trained at Harvard."
-        },
-        {
-          "label": "The Excavation",
-          "text": "Fifteen seasons of excavation between 1928 and 1937 (interrupted by the Japanese invasion) uncovered palace-temple foundations, eleven large royal tombs, bronze foundries, and approximately 25,000 inscribed oracle bone fragments from organized archival pits."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Yinxu excavations founded modern Chinese archaeology as a discipline and proved beyond doubt that the Shang was a historical civilization. Li Ji's work established scientific methods for Chinese archaeological practice and trained a generation of archaeologists who continued after the war."
+          "label": "Explore further",
+          "text": "The excavation was itself a political statement: Chinese archaeologists using modern Western-trained methods to recover proof of a civilization that pre-dated Western imperial contact with China. The site had been known locally for years, but pharmacies buying the bones typically ground off the inscriptions before resale, destroying an unknown number of irreplaceable texts before scholars intervened."
         }
-      ]
+      ],
+      "commonsFile": "26120-Anyang_(49086436522).jpg"
     },
     {
       "id": "evt-yinxu-unesco",
       "label": "Yinxu UNESCO World Heritage Site",
       "year": 2006,
-      "description": "Yinxu was designated a UNESCO World Heritage Site in 2006, recognized as the cradle of Chinese archaeology and the source of the world's oldest verified Chinese writing.",
+      "description": "In 2006, UNESCO designated Yinxu a World Heritage Site, recognizing it as the most important Bronze Age archaeological site in East Asia and the source of the world's oldest verified Chinese writing — a formal global acknowledgment of what Wang Yirong saw in a pharmacy bone in 1899.",
       "wikiSlug": "Yinxu",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Systematic excavation of Yinxu began in 1928 under Li Ji and the Academia Sinica — China's first modern archaeological project. Over the following decades, the site yielded palaces, royal tombs, bronze foundries, and the oracle bone archive."
-        },
-        {
-          "label": "The Site",
-          "text": "The UNESCO inscription recognized Yinxu as the oldest known capital of a Chinese dynasty verified by both archaeological evidence and written records. The site covers approximately 30 square kilometers on both banks of the Huan River near Anyang, Henan province."
-        },
-        {
-          "label": "Significance",
-          "text": "The UNESCO designation capped a century of archaeological work that transformed the Shang from semi-legendary dynasty to one of the best-documented Bronze Age civilizations in the world. Yinxu remains East Asia's most important Bronze Age archaeological site."
+          "label": "Explore further",
+          "text": "The designation was significant not just as an honor but as validation of over 80 years of excavation work. Yinxu remains an active dig site — new oracle bone fragments, royal tombs, and bronze artifacts are still being uncovered, making it one of the few World Heritage Sites that continues to actively expand scholarly understanding of the civilization it represents."
         }
       ]
     }
