@@ -57,143 +57,231 @@
       "id": "evt-battle-sekigahara",
       "label": "Battle of Sekigahara",
       "year": 1600,
-      "description": "Tokugawa Ieyasu defeated the western coalition under Ishida Mitsunari at Sekigahara on October 21, 1600, ending decades of civil war and opening the path to the Tokugawa shogunate.",
+      "description": "On October 21, 1600, two armies of roughly 80,000 men each met on a foggy plain in what is now Gifu Prefecture — and the battle that decided who would rule Japan for the next 265 years was over in a single rainy afternoon, decided not by tactics but by a treacherous defection from within.",
       "wikiSlug": "Battle_of_Sekigahara",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The outcome hinged on Kobayakawa Hideaki, a western daimyo who had secretly negotiated with Ieyasu before the battle; when he didn't move, Ieyasu fired arquebuses directly at his troops as a signal — essentially shooting at his own supposed ally to force his hand. Kobayakawa then charged into the Western Army's own flank, triggering a cascade of defections from other compromised commanders. Ishida Mitsunari, the western commander who had organized the coalition, fled the battlefield, was caught hiding in a peasant's barn three days later, and was publicly beheaded in Kyoto."
+        }
+      ],
+      "commonsFile": "Sekigaharascreen.jpg"
     },
     {
       "id": "evt-toyotomi-hideyoshi-death",
       "label": "Death of Toyotomi Hideyoshi",
       "year": 1598,
-      "description": "The death of Hideyoshi, the unifier of Japan, left a five-year-old heir and a council of regents that fractured into the eastern and western coalitions that fought at Sekigahara.",
+      "description": "The death of Toyotomi Hideyoshi in September 1598 left Japan balanced on a knife's edge: a five-year-old heir, an empty treasury burned on the Korean campaigns, and a council of five senior daimyo regents who had every reason to start stabbing each other.",
       "wikiSlug": "Toyotomi_Hideyoshi",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hideyoshi was born into a peasant family so poor he had no surname at all, rising from foot soldier to supreme ruler of Japan in a single lifetime — one of the most extreme social ascents in pre-modern history. He was the first person ever to hold the title of kampaku (regent) who was not born into the noble class; the emperor had to invent a special grant to make it legal. Despite ruling Japan as its most powerful man, he was technically never shogun — the lineage qualification blocked him, so he worked around it with the older regent title."
+        }
+      ],
+      "commonsFile": "Toyotomi_Hideyoshi_c1598_Kodai-ji_Temple.png"
     },
     {
       "id": "evt-korean-invasions",
       "label": "Hideyoshi's Korean Invasions",
       "year": 1592,
       "endYear": 1598,
-      "description": "Toyotomi Hideyoshi's two failed invasions of Korea (1592-93 and 1597-98) drained the Toyotomi treasury, ravaged Korea, and produced the disasters that fatally weakened Hideyoshi's regime.",
+      "description": "Hideyoshi's two invasions of Korea (1592–98, known as the Imjin War) sent nearly 160,000 Japanese troops onto the peninsula in the first wave alone, only to be fought to a standstill by Korean and Chinese Ming forces and devastated at sea by Admiral Yi Sun-sin's armored turtle ships.",
       "wikiSlug": "Japanese_invasions_of_Korea_(1592–1598)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The conflict devastated the Korean Peninsula and killed perhaps a million Koreans, yet produced zero territorial gains for Japan — the armies simply withdrew when Hideyoshi died. Yi Sun-sin's turtle ships, iron-plated and fitted with cannon ports on all sides, destroyed Japanese supply lines repeatedly; Yi himself is often called the greatest naval commander in Asian history. The war is still a major source of historical tension between Japan and Korea today, partly because Japanese forces abducted tens of thousands of Korean craftspeople, potters, and scholars who were forcibly relocated to Japan."
+        }
+      ],
+      "commonsFile": "Siege-of-Busanjin-1592.jpg"
     },
     {
       "id": "evt-tokugawa-ieyasu",
       "label": "Tokugawa Ieyasu becomes Shogun",
       "year": 1603,
       "endYear": 1605,
-      "description": "Tokugawa Ieyasu was appointed shogun by the emperor in 1603, founding a dynasty that would rule Japan for 265 years. He chose the small fishing village of Edo as his capital.",
+      "description": "In 1603, the emperor appointed Tokugawa Ieyasu shogun — reviving the long-dormant title and founding the dynasty that would govern Japan for 265 years — and Ieyasu chose a small fishing village called Edo as his capital, over the established imperial city of Kyoto.",
       "wikiSlug": "Tokugawa_Ieyasu",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ieyasu was 61 when appointed shogun, already old by the standards of the day, and he deliberately transferred the title to his son Hidetada just two years later to establish that the shogunate was a Tokugawa family institution, not a personal honor. He had survived as a political player since the 1540s, served under both Oda Nobunaga and Toyotomi Hideyoshi without ever being destroyed by either, and spent the Korean war years building his treasury while rivals drained theirs — a patient, decades-long preparation for the moment that finally came at Sekigahara."
+        }
+      ],
+      "commonsFile": "Tokugawa_Ieyasu2.JPG"
     },
     {
       "id": "evt-osaka-castle-siege",
       "label": "Siege of Osaka Castle",
       "year": 1614,
       "endYear": 1615,
-      "description": "The Tokugawa forces destroyed Osaka Castle in a winter and summer campaign, eliminating Toyotomi Hideyori and the last major rival to Tokugawa supremacy.",
+      "description": "In two campaigns (winter 1614–15 and summer 1615), Tokugawa forces besieged and finally destroyed Osaka Castle — eliminating Toyotomi Hideyori and extinguishing the Toyotomi line that might otherwise have served as a rallying point for any future opposition to Tokugawa rule.",
       "wikiSlug": "Siege_of_Osaka",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The winter campaign ended in a negotiated peace, but Ieyasu's troops used the truce to fill in both the outer AND inner castle moats — supposedly a misunderstanding, but one that left the fortress nearly indefensible. When fighting resumed that summer, the castle fell within weeks. The thoroughness of the Tokugawa cleanup extended to beheading Hideyoshi's seven-year-old illegitimate grandson at a Kyoto bridge as a precaution against any future claimant."
+        }
+      ],
+      "commonsFile": "Osakarakuzyou_(cropped).jpg"
     },
     {
       "id": "evt-tokugawa-hidetada",
       "label": "Tokugawa Hidetada",
       "year": 1605,
       "endYear": 1623,
-      "description": "The second Tokugawa shogun consolidated bureaucratic governance, tightened restrictions on missionaries, and presided over the destruction of the Toyotomi at Osaka.",
+      "description": "Tokugawa Hidetada was the second shogun (ruled 1605–1623), who inherited a stable regime from his father Ieyasu and spent his tenure tightening the administrative machinery — including intensifying the crackdown on Christian missionaries.",
       "wikiSlug": "Tokugawa_Hidetada",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hidetada was notably overshadowed by his father: Ieyasu officially retired in 1605 to install Hidetada and demonstrate that the shogunate was hereditary, but continued to wield real power until his death in 1616. Hidetada is partly remembered for his daughter Tokugawa Masako, who became the consort of Emperor Go-Mizunoo — making Hidetada the maternal grandfather of Empress Meishō, one of Japan's rare female emperors. He abdicated in 1623 in favor of his son Iemitsu, repeating Ieyasu's pattern of early abdication to secure succession."
+        }
+      ],
+      "commonsFile": "Hidetada2.jpg"
     },
     {
       "id": "evt-tokugawa-iemitsu",
       "label": "Tokugawa Iemitsu",
       "year": 1623,
       "endYear": 1651,
-      "description": "The third shogun implemented sakoku and the formal sankin-kotai system, fixing the rigid framework that defined the Edo period for two centuries.",
+      "description": "Tokugawa Iemitsu, the third shogun (r. 1623–1651), was the architect who locked the Edo system in place: he formalized the alternate-attendance hostage policy, expelled the last European traders, crucified Christians, and closed Japan's borders in a foreign policy that held for over two centuries.",
       "wikiSlug": "Tokugawa_Iemitsu",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Iemitsu's wet nurse, Lady Kasuga, was arguably more politically influential than his own mother — she personally negotiated with the imperial court and helped secure his position as heir over a rival brother. He was the first Tokugawa shogun to be born into power rather than having seized it, and he reportedly used that fact to assert a more aggressive, unilateral style than his grandfather Ieyasu had. By the time he died in 1651, every major structural element of the Edo system — the hostage policy, the class order, the anti-Christian apparatus, the closed border — was already in place and largely irreversible."
+        }
+      ],
+      "commonsFile": "Iemitu.jpg"
     },
     {
       "id": "evt-bakuhan-system",
       "label": "Bakuhan System Established",
       "year": 1603,
-      "description": "The bakuhan dual structure made the shogunate (bakufu) the supreme central authority while the roughly 270 daimyo domains (han) retained local autonomy under tight Tokugawa supervision.",
+      "description": "The bakuhan system was the Edo regime's dual structure: the shogunate (bakufu) held supreme military and foreign-policy authority while roughly 270 semi-autonomous daimyo domains (han) ran their own taxation, armies, and local governance — answerable to Edo only on the narrow matters the Buke Shohatto spelled out.",
       "wikiSlug": "Han_system",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word bakufu literally means 'tent government,' a reference to the twelfth-century shogun's literal field headquarters — the Tokugawa recycled a martial archaism to name the most stable bureaucratic state Japan had ever seen. The shogunate's own direct landholdings amounted to roughly a quarter of Japan's productive land, giving it both the revenue base and the military margin to enforce the system without having to conquer individual han by force. The legal baseline document, the Buke Shohatto of 1615, was deliberately minimalist — it listed prohibitions (no castle repairs, no unsanctioned daimyo marriages, no large ships) rather than prescriptions, making Tokugawa supremacy feel like restraint rather than occupation."
+        }
+      ],
+      "commonsFile": "Edo_P2.jpg"
     },
     {
       "id": "evt-shi-no-ko-sho",
       "label": "Four-Class Order",
       "year": 1603,
-      "description": "Tokugawa society was formally stratified into samurai, farmers, artisans, and merchants in descending Confucian rank — with merchants at the bottom despite being the wealthiest class by the eighteenth century.",
+      "description": "The Tokugawa social order sorted every Japanese subject into one of four hereditary classes in descending Confucian rank: samurai (warriors), nō (farmers), kō (artisans), and shō (merchants) — with the most commercially powerful group, the merchants, officially at the bottom.",
       "wikiSlug": "Four_occupations",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The logic was Confucian: farmers ranked second because they produce food, artisans third because they make things, and merchants last because they only move goods around without producing anything — a moral hierarchy that had nothing to do with actual wealth. By the eighteenth century the system had inverted economically: merchant houses were financing chronically indebted samurai whose stipends were fixed in rice and hadn't kept pace with a century of price inflation. Below the four formal classes sat two excluded categories — the eta and hinin — whose descendants, called burakumin, still face residual discrimination in modern Japan."
+        }
+      ]
     },
     {
       "id": "evt-himeji-castle",
       "label": "Himeji Castle Completed",
       "year": 1609,
-      "description": "Ikeda Terumasa completed the iconic White Heron Castle in its current magnificent form, the finest surviving example of Japanese castle architecture.",
+      "description": "Himeji Castle, completed in its current form by daimyo Ikeda Terumasa in 1609, is the largest and best-preserved Japanese castle complex still standing — a 83-building hilltop fortress whose gleaming white walls earned it the nickname \"White Heron Castle.\"",
       "wikiSlug": "Himeji_Castle",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The castle has never been captured in battle, never been burned, and survived both World War II bombing (a single dud landed in the courtyard) and the 1995 Kobe earthquake that devastated the surrounding city. Its defensive systems include maze-like approach paths designed to confuse attackers, holes in walls sized specifically for arrows, guns, or dropping stones, and a network of buildings where every window covers every other window's blind spot. It took a seven-year restoration completed in 2015 to restore the original blinding white exterior, which had darkened to grey over decades."
+        }
+      ],
+      "commonsFile": "Himeji_castle_in_may_2015.jpg"
     },
     {
       "id": "evt-ikkoku-ichijo",
       "label": "One Castle Per Province Edict",
       "year": 1615,
-      "description": "Ieyasu's 1615 edict required daimyo to demolish all but one castle per province, breaking the military infrastructure of potential rivals and ending the era of castle warfare.",
+      "description": "Ieyasu's 1615 \"One Castle Per Province\" edict ordered every daimyo to demolish all but a single castle in his domain — systematically dismantling the military infrastructure that had made the Sengoku warring-states era possible.",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At the height of the Sengoku period, Japan had an estimated 25,000 to 50,000 castles and fortifications of varying size — from hilltop towers to immense stone-walled complexes. The edict reduced that to one per province, forcing the destruction of thousands of defensive positions across the country. This was not just symbolic: without distributed fortifications, a daimyo who rebelled would have nowhere to retreat and no network of strongpoints to defend."
+        }
+      ]
     },
     {
       "id": "evt-buke-shohatto",
       "label": "Laws for the Military Houses",
       "year": 1615,
-      "description": "The Buke Shohatto, issued by Ieyasu in 1615 and amended by his successors, regulated daimyo conduct, marriages, castle repairs, and political activity, providing the legal basis for shogunal control over the warrior class.",
+      "description": "The Buke Shohatto (\"Laws for the Military Houses\"), issued by Ieyasu in 1615 and repeatedly amended by his successors, laid down the code of conduct governing every daimyo in Japan — covering everything from marriage approvals to castle repairs to how much time a lord had to spend at Edo rather than his own domain.",
       "wikiSlug": "Buke_shohatto",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unusually for a legal code, the Buke Shohatto framed its rules as descriptions of honorable samurai behavior rather than commands backed by force — the shogunate knew it couldn't directly enforce compliance everywhere, so it appealed to the warrior class's own sense of honor. The text was revised roughly a dozen times over the 265-year shogunate as circumstances changed, making it an evolving constitution rather than a fixed law. Its most powerful tool was the requirement that any daimyo who wanted to repair his castle, marry off a family member, or make a significant alliance had to get Edo's permission first."
+        }
+      ]
     },
     {
       "id": "evt-nikko-toshogu",
       "label": "Nikkō Tōshō-gū Shrine",
       "year": 1617,
-      "description": "The lavishly decorated shrine built to enshrine Tokugawa Ieyasu as the deity Tōshō Daigongen became one of Japan's most ornate religious complexes and the cult center of the dynasty.",
+      "description": "The Nikkō Tōshō-gū shrine, completed in 1617 (and massively expanded in the 1630s), enshrined Tokugawa Ieyasu as the Shinto deity Tōshō Daigongen — turning the dynasty's founder into a god and making pilgrimage to the shrine a display of loyalty to Tokugawa rule.",
       "wikiSlug": "Nikkō_Tōshō-gū",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The shrine complex as it stands today was largely built by Ieyasu's grandson Iemitsu in 1636, who reportedly employed 15,000 craftspeople over two years and used an estimated 2.5 million sheets of gold leaf on the decorations — a deliberate statement that the Tokugawa could afford to build something no rival could match. The complex uses a style called gongen-zukuri that fuses Buddhist temple and Shinto shrine architecture into a single structure, reflecting the period's syncretic religious culture. It is now a UNESCO World Heritage Site."
+        }
+      ],
+      "commonsFile": "200801_Nikko_Tosho-gu_Nikko_Japan03s3.jpg"
     },
     {
       "id": "evt-edo-castle-expansion",
@@ -209,127 +297,211 @@
       "id": "evt-sankin-kotai",
       "label": "Sankin-kōtai System",
       "year": 1635,
-      "description": "Iemitsu's 1635 edict required every daimyo to spend alternate years in Edo and to leave their wives and heirs there permanently as hostages — a single policy that drained daimyo treasuries and bound the country together by road.",
+      "description": "Formalized by Iemitsu in 1635, sankin-kōtai (alternate attendance) required every daimyo in Japan to spend alternate years resident in Edo and to leave their wife, children, and heir there permanently as hostages — simultaneously guaranteeing loyalty and bankrupting any daimyo who might otherwise think about rebellion.",
       "wikiSlug": "Sankin-kōtai",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Estimates put the cost of sankin-kōtai at 50–75% of the average daimyo's annual income, covering Edo mansion upkeep, biennial procession retinues of several hundred armed retainers, and a permanent household of family and servants in the capital. The unintended consequence was Edo's explosive growth: concentrating the entire daimyo aristocracy in one city for half of every year created a luxury consumer market that made Edo the largest city on earth by 1700, with estimates ranging from 800,000 to 1.2 million residents. The families held in Edo were not prisoners in any crude sense — they lived in designated mansion districts, received tutors and arranged marriages — but they could not leave."
+        }
+      ],
+      "commonsFile": "Tokugawa_Seiseiroku_001.jpg"
     },
     {
       "id": "evt-gokaido",
       "label": "Five Great Roads",
       "year": 1604,
-      "description": "Ieyasu commissioned the Gokaidō highway network — the Tōkaidō, Nakasendō, Kōshū Kaidō, Ōshū Kaidō, and Nikkō Kaidō — radiating from Edo to bind the country to the new capital.",
+      "description": "Beginning in 1601, Tokugawa Ieyasu commissioned the Gokaidō — five great highways radiating from Edo to Kyoto and the provinces — which became the busiest road network in pre-railway Asia, driven by the constant flood of daimyo processions required under sankin-kōtai.",
       "wikiSlug": "Edo_Five_Routes",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most traveled route, the Tōkaidō, ran 320 miles (515 km) along the Pacific coast from Edo to Kyoto and passed through 53 official post stations — each a regulated stop with inns, packhorses, and porters, later immortalized by Hiroshige's famous print series. Post-station towns along the routes developed regional cuisine specialties and souvenir industries specifically to serve the daimyo retinues, effectively creating Japan's first standardized travel culture. The fifth route, the Nikkō Kaidō, existed almost solely to give the shogun a ceremonial road to the Tōshō-gū shrine, where Ieyasu was deified after his death."
+        }
+      ],
+      "commonsFile": "Magome_2009_5.JPG"
     },
     {
       "id": "evt-christianity-banned",
       "label": "Christianity Banned",
       "year": 1614,
-      "description": "Ieyasu's 1614 edict ordered the expulsion of all Christian missionaries and the suppression of the faith — by the 1630s an estimated 300,000 Japanese Christians had been killed, exiled, or forced to apostatize.",
+      "description": "Ieyasu's 1614 edict banned Christianity, expelled all foreign missionaries, and confiscated church properties — kicking off three decades of escalating persecution that reduced a half-million-strong Japanese Christian community to a hunted underground.",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The shogunate's opposition was not simply religious intolerance: Christian doctrine explicitly placed loyalty to God above loyalty to the shogun, and European missionaries had been overheard telling Japanese audiences that the king of Spain would invade if Japan resisted Christianity. The torture methods used on refusing converts were deliberately chosen for maximum prolonged agony, including suspension upside-down over a pit of excrement and scalding at the Unzen sulfur springs. Between 1614 and the 1640s, an estimated 5,000–6,000 Japanese Christians were executed for their faith, with the Catholic Church formally recognizing 188 as martyrs."
+        }
+      ],
+      "commonsFile": "Notice_board_with_anti_christian_edict_1682_BM.jpg"
     },
     {
       "id": "evt-fumi-e",
       "label": "Fumi-e Picture Trampling",
       "year": 1629,
-      "description": "Suspected Christians were forced to trample on bronze plaques bearing images of Christ or the Virgin Mary; refusal meant torture or execution. The practice continued in Nagasaki into the nineteenth century.",
+      "description": "To root out hidden Christians, Edo authorities required suspects to step on a bronze plaque (fumi-e) bearing an image of Christ or the Virgin Mary — a simple, humiliating test that carried an immediate death sentence for refusal.",
       "wikiSlug": "Fumi-e",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fumi-e test was not a one-time purge measure: it was administered annually to the entire population of Nagasaki and continued in some form until the 1850s, well over two centuries after its introduction. The bronze plaques became visibly worn from generations of feet, a physical record of mass forced apostasy. Families with any suspicion hanging over them faced the test every year, not just once."
+        }
+      ],
+      "commonsFile": "Fumi-e_to_Expose_Christians_by_Tokugawa_Shogunate.png"
     },
     {
       "id": "evt-shimabara-rebellion",
       "label": "Shimabara Rebellion",
       "year": 1637,
       "endYear": 1638,
-      "description": "A revolt by Christian converts and oppressed peasants on the Shimabara Peninsula was crushed at Hara Castle in April 1638, with roughly 37,000 rebels and their families killed and Christianity effectively eradicated as a public faith.",
+      "description": "In 1637–38, desperate Christian peasants and rōnin (masterless samurai) on the Shimabara Peninsula seized Hara Castle and held off a 100,000-strong shogunate army for four months — ending in the slaughter of roughly 37,000 rebels and their families.",
       "wikiSlug": "Shimabara_Rebellion",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Dutch at Hirado actually bombarded Hara Castle from the sea on the shogunate's behalf, earning credit with the Tokugawa by demonstrating that Protestant Europeans had no loyalty to Catholic Japan. The rebellion's defeat directly triggered the final expulsion of the Portuguese in 1639: the shogunate concluded that Portuguese missionaries were a permanent source of armed Christian resistance, and that the risk of toleration had become intolerable."
+        }
+      ],
+      "commonsFile": "Shimabara-Battle-Map-c17th-century.png"
     },
     {
       "id": "evt-amakusa-shiro",
       "label": "Amakusa Shirō",
       "year": 1637,
-      "description": "The teenage charismatic leader of the Shimabara rebels, said to perform miracles, was beheaded after the fall of Hara Castle and his head displayed at Nagasaki as a warning.",
+      "description": "Amakusa Shirō was a seventeen-year-old Christian convert whose followers believed he could perform miracles — he became the figurehead of the Shimabara Rebellion, rallying 37,000 people behind Christian banners before being beheaded when Hara Castle fell.",
       "wikiSlug": "Amakusa_Shir%C5%8D",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shirō's followers reportedly believed he was a prophesied savior who would lead them to divine victory, and his personal charisma turned what might have been a local tax revolt into a religious uprising. After his beheading in April 1638, his head was displayed at Nagasaki specifically to shatter the messianic belief — showing that no miracle had saved him. He remains one of the most romanticized figures in Japanese popular history, the subject of novels, films, and manga centuries later."
+        }
+      ],
+      "commonsFile": "Amakusa_Shiro.jpg"
     },
     {
       "id": "evt-sakoku-edict",
       "label": "Sakoku Isolation Policy",
       "year": 1639,
-      "description": "Iemitsu's 1639 edict expelled the Portuguese, banned overseas travel by Japanese subjects, and limited foreign contact to controlled trade with the Dutch and Chinese at Nagasaki — closing the country for the next 214 years.",
+      "description": "A series of Tokugawa edicts between 1633 and 1639 formalized Japan's isolation: Japanese subjects were banned from traveling abroad, foreign ships from most nations were barred from Japanese ports, and all foreign contact was channeled through a handful of controlled trading posts.",
       "wikiSlug": "Sakoku",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The term sakoku (\"closed country\") was not actually used during the Edo period — Edo-era Japanese had no single word for the policy and simply considered it normal foreign relations; a nineteenth-century scholar coined the term after reading a Dutch text. The policy was never fully hermetic: four authorized foreign-contact channels (the \"four mouths\") remained open, handling trade with the Dutch, Chinese, Koreans, and Ainu. The total volume of trade through all four channels was less than 1% of what Japan had conducted before the closure."
+        }
+      ],
+      "commonsFile": "SakokuJunk.jpg"
     },
     {
       "id": "evt-portuguese-expelled",
       "label": "Portuguese Expelled",
       "year": 1639,
-      "description": "After the Shimabara Rebellion implicated Portuguese missionaries, all Portuguese were ordered out of Japan; a 1640 embassy from Macau seeking to reopen trade was beheaded almost to the last man as a deterrent.",
+      "description": "In 1639 the shogunate ordered all Portuguese out of Japan, ending nearly a century of trade; when Macau sent a seventy-man embassy the following year to negotiate, sixty-one members were beheaded on arrival and the survivors sent home carrying their colleagues' heads.",
       "wikiSlug": "Sakoku",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Portuguese had been Japan's most important European trading partner since the 1540s, bringing Chinese silk (which the Ming dynasty had banned from selling directly to Japan) plus European weapons and luxury goods. Their expulsion was not economically devastating only because the Dutch had already been positioned as a replacement: the Tokugawa had cultivated the Protestant Dutch specifically because they offered the same trade without the missionary complication. The 1640 execution of the Macau embassy was one of the most extreme diplomatic rebuffs in early-modern history."
+        }
+      ],
+      "commonsFile": "Buddhist_statue_with_hidden_cross_on_back.jpg"
     },
     {
       "id": "evt-dejima-trade",
       "label": "Dejima Dutch Trading Post",
       "year": 1641,
-      "description": "The Dutch East India Company was confined to the artificial fan-shaped island of Dejima in Nagasaki harbor — Japan's sole window to European knowledge for over two centuries.",
+      "description": "After 1641, all European access to Japan was confined to Dejima — a tiny artificial fan-shaped island in Nagasaki harbor connected to the mainland by a single guarded bridge, housing about twenty Dutch traders at any given time.",
       "wikiSlug": "Dejima",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Dejima operated continuously from 1641 to 1858, making it the longest-running European trading post in Asia. Dutch employees who died on the island were dropped at sea because Christian burials were forbidden on Japanese soil. The Dutch were required to participate in annual ceremonies demonstrating ritual submission to the shogun, and the volume of Chinese trade through Nagasaki's separate Chinese quarter was actually considerably larger than Dutch trade for most of the period."
+        }
+      ],
+      "commonsFile": "DejimaInNagasakiBay.jpg"
     },
     {
       "id": "evt-terauke-system",
       "label": "Temple Registration System",
       "year": 1640,
-      "description": "All Japanese were required to register at a Buddhist temple, effectively making Buddhism the state-enforced religion, screening for crypto-Christians, and giving the shogunate a population register two centuries before any Western state.",
+      "description": "From the 1640s, every Japanese household was required to register with a designated Buddhist temple and obtain certificates that functioned as identity documents — the terauke system, originally designed to identify crypto-Christians, became the world's first comprehensive national population register.",
       "wikiSlug": "Danka_system",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The system predated European census-keeping by roughly two centuries: the shogunate was tracking household composition, marriage, and migration through temple registers while most European states were still guessing at their own populations. Temples benefited enormously — registration fees and mandatory memorial services for registered parishioners gave temples a guaranteed revenue stream independent of voluntary piety. The registers were detailed enough that historians today use them to reconstruct Edo-period demographic patterns, village migration, and family structures with unusual precision."
+        }
+      ],
+      "commonsFile": "宗門人別改帳_Shumon_Jinbetsu_Aratamecho.jpg"
     },
     {
       "id": "evt-kakure-kirishitan",
       "label": "Hidden Christians",
       "year": 1644,
-      "description": "After the last European missionary was killed in 1644, communities of Kakure Kirishitan secretly preserved Christian rituals for seven generations — rediscovered by a French priest at Nagasaki in 1865.",
+      "description": "After the last European missionary in Japan was killed in 1644, communities of Kakure Kirishitan (\"hidden Christians\") preserved their faith in total secrecy for seven generations — conducting rituals in private, disguising prayers as Buddhist ceremonies, until a French priest rediscovered them at Nagasaki in 1865.",
       "wikiSlug": "Kakure_Kirishitan",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The hidden Christians had no ordained priests and no new contact with Rome for over two centuries, so their practices diverged significantly from mainstream Catholicism — saints' names became garbled, Latin prayers were memorized phonetically without understanding the words, and Buddhist and Shinto elements blended into the rituals. When the French priest revealed their existence in 1865, many communities declined to rejoin the formal Catholic Church and continued their syncretic traditions independently, a practice that persists in small communities to this day."
+        }
+      ],
+      "commonsFile": "Madonna_and_Child,_Kakure_Kirishitan.jpg"
     },
     {
       "id": "evt-ise-shrine-rebuild",
       "label": "Ise Grand Shrine Rebuilding",
       "year": 1649,
-      "description": "The ancient Shinto tradition of rebuilding the Ise Grand Shrine every twenty years continued throughout the Edo period, supported by mass okage-mairi pilgrimages that periodically drew millions of commoners.",
+      "description": "The Ise Grand Shrine — Japan's most sacred Shinto site, dedicated to the sun goddess Amaterasu — was ritually demolished and rebuilt identically every twenty years throughout the Edo period, a practice the Tokugawa state subsidized and that continues to this day.",
       "wikiSlug": "Ise_Grand_Shrine",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The twenty-year rebuilding cycle, called Shikinen Sengū, has been observed continuously since 690 CE with only a few interruptions during civil war; the most recent rebuilding was in 2013. The shrine complex is built from unpainted Japanese cypress (hinoki) using ancient joinery techniques passed down within specialized carpenter families — the rebuilding cycle is partly what keeps those techniques alive. The mass pilgrimages triggered by each rebuilding, the okage-mairi movements, could draw several million commoners who temporarily abandoned their villages to walk to Ise — movements so large and spontaneous that the shogunate, which usually controlled mobility tightly, found it politically impossible to stop them."
+        }
+      ],
+      "commonsFile": "Naiku_04.jpg"
     },
     {
       "id": "evt-keian-uprising",
@@ -345,153 +517,250 @@
       "id": "evt-great-meireki-fire",
       "label": "Great Meireki Fire",
       "year": 1657,
-      "description": "A catastrophic three-day fire destroyed roughly 60-70% of Edo and killed an estimated 100,000 people. The reconstruction reshaped the city with wider streets, firebreaks, and relocated daimyo mansions.",
+      "description": "On March 2, 1657, a fire broke out in Edo and burned for three days, destroying 60–70% of the city and killing over 100,000 people — the single worst urban disaster of the entire Edo period.",
       "wikiSlug": "Great_fire_of_Meireki",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fire is also called the Great Furisode Fire, after a long-sleeved furisode kimono that legend says sparked the blaze at a temple memorial service. The disaster was compounded by a severe blizzard that followed within days. The Tokugawa shogunate used the forced rebuilding to reshape the city: Yoshiwara was relocated to a more peripheral site, streets were widened, firebreaks were built, and daimyo mansions that had crowded near Edo Castle were pushed outward — all changes that made the rebuilt city more functional than what it replaced."
+        }
+      ],
+      "commonsFile": "Meireki_fire.JPG"
     },
     {
       "id": "evt-tokugawa-tsunayoshi",
       "label": "Tokugawa Tsunayoshi",
       "year": 1680,
       "endYear": 1709,
-      "description": "The fifth shogun, known as the Dog Shogun for his eccentric edicts protecting animals, presided over the Genroku cultural flowering and the bakufu's first major fiscal crisis.",
+      "description": "Tokugawa Tsunayoshi, the fifth shogun (r. 1680–1709), is remembered both for the Genroku cultural flowering that peaked under his rule and for his notorious Laws of Compassion for Living Things (Shōrui Awaremi no Rei), which protected animals — especially dogs — so zealously that violators could be executed.",
       "wikiSlug": "Tokugawa_Tsunayoshi",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tsunayoshi's animal-protection edicts were so extreme that Edo residents reportedly had to whisper for fear of being accused of disrespecting dogs, and the shogunate constructed vast kennels housing tens of thousands of stray dogs at public expense. The currency debasement he authorized in 1695 — cutting the gold and silver content of standard coins by roughly a third — produced a one-time fiscal windfall for the shogunate but triggered the inflation that would haunt every successor. He died without a direct heir in 1709, ending the branch of the Tokugawa family descended from Iemitsu's younger sons."
+        }
+      ],
+      "commonsFile": "Tsunyaoshi.jpg"
     },
     {
       "id": "evt-shorui-awaremi",
       "label": "Edicts of Compassion for Living Beings",
       "year": 1687,
-      "description": "Tsunayoshi's animal-protection edicts criminalized harming dogs (and many other creatures), built dog kennels housing 50,000 strays at public expense, and made the shogun a national joke.",
+      "description": "Shogun Tsunayoshi's 'Edicts of Compassion for Living Beings,' issued from 1687 onward, made killing a dog a capital crime, technically protected mosquitoes and flies, and built dog kennels housing an estimated 50,000 stray animals at public expense — feeding them rice, fish, and miso from the treasury.",
       "wikiSlug": "Shōrui_Awaremi_no_Rei",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The edicts were not a single law but a rolling series issued over decades, each expanding the circle of protected species and the severity of penalties. The Nakano Dog Kennels northwest of Edo became one of the most expensive public works of the era. Tsunayoshi's successor repealed every one of the edicts on the day of his predecessor's death in 1709 and promptly had the kenneled dogs killed. Modern historians have partially rehabilitated the edicts as an early attempt at animal welfare legislation, even if the enforcement was wildly disproportionate."
+        }
+      ]
     },
     {
       "id": "evt-genroku-culture",
       "label": "Genroku Cultural Flowering",
       "year": 1688,
       "endYear": 1704,
-      "description": "The Genroku era saw a townsman cultural explosion of kabuki, bunraku, haiku, ukiyo-e prints, and ukiyo-zōshi novels, centered on the merchant culture of Kyoto, Osaka, and Edo.",
+      "description": "The Genroku era (1688–1704) was the high-water mark of Edo-period townsman culture: kabuki theater, bunraku puppet drama, Matsuo Bashō's haiku, Ihara Saikaku's prose fiction, and the first great ukiyo-e ('floating world') woodblock prints all flourished simultaneously in the merchant cities of Kyoto, Osaka, and Edo.",
       "wikiSlug": "Genroku",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Genroku boom was fueled in part by Tsunayoshi's currency debasement inflating the nominal money supply — more coins in circulation meant more consumer spending on entertainment and luxury goods, even as the underlying purchasing power eroded. The era's cultural output was so dense and distinctive that later Japanese historians used 'Genroku' as shorthand for an entire aesthetic mode: exuberant, sensory, commercially oriented, and explicitly urban rather than courtly."
+        }
+      ],
+      "commonsFile": "1696_Genroku_9_(early_Edo)_Japanese_Map_of_Kyoto,_Japan_-_Geographicus_-_Kyoto-genroku9-1696.jpg"
     },
     {
       "id": "evt-floating-world",
       "label": "The Floating World",
       "year": 1688,
-      "description": "Ukiyo, the floating world of pleasure quarters, kabuki theaters, and teahouses, gave its name to the dominant aesthetic of Edo popular culture and to the ukiyo-e woodblock prints that depicted it.",
+      "description": "Ukiyo — the 'floating world' — was the governing aesthetic of Edo popular culture: a deliberate embrace of transient beauty, pleasure, fashion, and sensual refinement, embodied in the pleasure quarters, kabuki theaters, and the woodblock prints that depicted them.",
       "wikiSlug": "Ukiyo",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The philosophical sleight of hand behind the term is one of the period's great moves: the original Buddhist *ukiyo* (sad world of suffering) and the Genroku *ukiyo* (floating world of pleasure) are homophones written with different characters. The earliest known literary manifesto for the new meaning appears in Asai Ryōi's 1666 *Tales of the Floating World*, which describes living for the moment like a gourd carried by a river current — a direct inversion of the samurai bushido ethic. The term *ukiyo-e* (pictures of the floating world) borrowed the concept to name the entire woodblock-print genre."
+        }
+      ],
+      "commonsFile": "Kiyonaga_bathhouse_women-2.jpg"
     },
     {
       "id": "evt-yoshiwara",
       "label": "Yoshiwara Pleasure Quarter",
       "year": 1656,
-      "description": "Edo's licensed pleasure quarter, relocated north of the city after the Meireki fire, became the cultural laboratory of the floating world, immortalized in countless prints, plays, and novels.",
+      "description": "Edo's licensed entertainment district, established in 1617 and relocated north of the city after the 1657 Meireki Fire, was a walled and moated compound that functioned as the cultural laboratory of the floating world — setting fashions, slang, music, and theatrical styles that spread to the rest of the city.",
       "wikiSlug": "Yoshiwara",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The highest-ranked courtesans, the *tayū*, were trained in poetry, calligraphy, music, dance, and the tea ceremony, and could refuse clients they didn't want — making them closer to celebrity entertainers than simple sex workers. Yoshiwara had its own distinct dialect and a ceremonial calendar of seasonal events that drew visitors as cultural spectators even if they couldn't afford a tayū. Similar licensed quarters existed in Osaka (Shinmachi) and Kyoto (Shimabara), making the floating-world entertainment economy a national rather than purely Edo phenomenon."
+        }
+      ],
+      "commonsFile": "Cherry_Blossom_Time_in_Nakanocho_of_the_Yoshiwara_LACMA_16.14.48.jpg"
     },
     {
       "id": "evt-matsuo-basho",
       "label": "Matsuo Bashō's Narrow Road",
       "year": 1689,
-      "description": "Matsuo Bashō walked over 1,500 miles through northern Japan and produced Oku no Hosomichi (Narrow Road to the Deep North), elevating haiku from comic verse to a serious literary art form.",
+      "description": "Matsuo Bashō (1644–1694) transformed haiku from a comic opening verse into Japan's most celebrated literary form, and his *Oku no Hosomichi* ('The Narrow Road to the Deep North') — a journal of a 1,500-mile walking journey through northern Honshu — remains the single most influential work in Japanese literature.",
       "wikiSlug": "Matsuo_Bashō",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bashō was born to a low-ranking samurai family but abandoned samurai life to become a poet and teacher in Edo, where he gathered a devoted circle of students. His haiku are built around *kigo* (seasonal reference words) and *kireji* (cutting words that create a juxtaposition between two images), disciplines that made seventeen syllables capable of enormous compressed meaning. The 1689 walking journey recorded in *Oku no Hosomichi* covered about 1,500 miles (2,400 km) in roughly five months; Bashō revised the manuscript for years before his death, and it was published posthumously in 1702."
+        }
+      ],
+      "commonsFile": "Basho_by_Morikawa_Kyoriku_(1656-1715).jpg"
     },
     {
       "id": "evt-ihara-saikaku",
       "label": "Ihara Saikaku",
       "year": 1682,
-      "description": "The Osaka merchant-poet's ukiyo-zōshi novels — The Life of an Amorous Man (1682), The Life of an Amorous Woman, Five Women Who Loved Love — invented Japanese realist popular fiction.",
+      "description": "Ihara Saikaku (1642–1693) was an Osaka merchant who became the inventor of Japanese popular realist fiction, writing ukiyo-zōshi ('books of the floating world') novels that portrayed merchant-class life — money, sex, family obligation, social embarrassment — with unprecedented frankness.",
       "wikiSlug": "Ihara_Saikaku",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before turning to prose, Saikaku was famous as a competitive haiku poet: he once composed 23,500 haiku in a single day in a speed-composing contest, a record that stands as a historical curiosity in Japanese literary history. His 1682 novel *The Life of an Amorous Man* follows a protagonist through 54 sexual encounters over a lifetime — the 54 deliberately mirrors the 54 chapters of *The Tale of Genji*, an aristocratic classic Saikaku was consciously updating for his merchant-class audience. His later *The Eternal Storehouse of Japan* (1688) is a grimly funny guide to merchant success and failure, often cited as the first Japanese business novel."
+        }
+      ],
+      "commonsFile": "Ihara-Saikaku-Portrait.png"
     },
     {
       "id": "evt-chikamatsu",
       "label": "Chikamatsu Monzaemon",
       "year": 1703,
-      "description": "Japan's greatest playwright wrote The Love Suicides at Sonezaki and dozens of other bunraku puppet plays, pioneering realistic domestic drama for the merchant class.",
+      "description": "Chikamatsu Monzaemon (1653–1725) wrote roughly 100 plays for bunraku puppet theater and kabuki, pioneering domestic tragedy centered on merchant-class characters — earning him the title 'the Shakespeare of Japan.'",
       "wikiSlug": "Chikamatsu_Monzaemon",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His 1703 masterpiece *The Love Suicides at Sonezaki* was based on a real double suicide that had occurred in Osaka the previous month, dramatized while the event was still fresh news. The plays were so powerful that they triggered an actual epidemic of real double suicides in imitation, forcing the shogunate to ban dramatizations of contemporary suicides — a ban Chikamatsu's successors circumvented by setting their plays in the recent past. Of his roughly 100 plays, about 70 are historical dramas (*jidaimono*) and 24 are domestic plays (*sewamono*); modern scholars consider the domestic plays his greatest achievement."
+        }
+      ],
+      "commonsFile": "Chikamatsu_Monzaemon.jpg"
     },
     {
       "id": "evt-kabuki-theater",
       "label": "Kabuki Theater Flourishes",
       "year": 1629,
-      "description": "After women were banned from performing in 1629, all-male kabuki evolved into one of Japan's premier popular art forms, with onnagata female-role specialists and elaborate stylized acting.",
+      "description": "Kabuki — the word means roughly 'leaning, off-center, avant-garde' — began as female street performance in the early 1600s before the shogunate banned women from the stage in 1629, accidentally forcing the art form toward the rigorous craft tradition that made it one of Japan's great theatrical arts.",
       "wikiSlug": "Kabuki",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The all-male restriction that emerged from the 1629 ban (and a subsequent 1652 ban on young male performers who'd replaced the women) produced the *onnagata* specialty — male actors who trained their entire careers to portray a stylized essence of femininity through movement, costume, and voice. The Ichikawa Danjūrō acting lineage, founded in 1660, is still active today — the thirteenth holder of the name performed in the 2010s — making it one of the longest continuously active performance dynasties in world theater. The dramatic frozen pose called *mie*, in which an actor holds a climactic position to the sound of wooden clappers, became one of kabuki's most iconic moments."
+        }
+      ],
+      "commonsFile": "Brooklyn_Museum_-_Kabuki_Scene_(Diptych)_-85.282.6a-_Hokushu.jpg"
     },
     {
       "id": "evt-bunraku",
       "label": "Bunraku Puppet Theater",
       "year": 1684,
-      "description": "Three-foot puppets manipulated by three black-clad puppeteers each, accompanied by chanted narration and shamisen, produced an emotional intensity that often eclipsed the kabuki productions of the same plays.",
+      "description": "Bunraku puppet theater uses roughly three-foot puppets each operated by three black-clad puppeteers, with a single chanter voicing all characters and a single shamisen player providing the score — a minimalist form that produces, at its best, emotional intensity that rivals live theater.",
       "wikiSlug": "Bunraku",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The division of labor among three puppeteers is hierarchical and demands extraordinary coordination: the master puppeteer controls the head and right arm, a second handles the left arm, and a third operates the legs, all moving in wordless unison. Training to operate the head alone takes roughly thirty years. Bunraku was founded in Osaka in the early 17th century and is still performed there today; it was designated a UNESCO Intangible Cultural Heritage in 2003. The term 'bunraku' itself comes from the name of a 19th-century theater owner, Uemura Bunrakuken, whose troupe kept the tradition alive."
+        }
+      ],
+      "commonsFile": "Bunraku_doll_in_national_theatre_Osaka_2.JPG"
     },
     {
       "id": "evt-hishikawa-moronobu",
       "label": "Hishikawa Moronobu",
       "year": 1670,
-      "description": "The pioneer of single-sheet ukiyo-e prints established the woodblock-print industry that would dominate Edo popular visual culture for the next two hundred years.",
+      "description": "Hishikawa Moronobu (c. 1618–1694) was the artist who turned woodblock printing from a book-illustration technique into a standalone popular art — creating the single-sheet ukiyo-e print format that would dominate Japanese visual culture for two centuries.",
       "wikiSlug": "Hishikawa_Moronobu",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before Moronobu, woodblock images were typically illustrations inside books; he was the first artist to publish prints as independent works for sale, signed with his own name. He consolidated influences from several earlier Japanese art styles and is credited with establishing the compositional conventions — bold outlines, flat areas of black, dynamic figure poses — that later masters like Hokusai and Hiroshige inherited. His subjects were the floating world itself: kabuki actors, Yoshiwara courtesans, erotica, and scenes of daily Edo life."
+        }
+      ],
+      "commonsFile": "Beauty_looking_back.jpg"
     },
     {
       "id": "evt-rice-market-osaka",
       "label": "Osaka Rice Exchange",
       "year": 1697,
-      "description": "The Dōjima Rice Exchange in Osaka pioneered standardized futures contracts, making it the world's first organized commodities futures market — over a century before Chicago.",
+      "description": "The Dōjima Rice Exchange in Osaka, formally licensed in 1697, was the world's first organized commodity futures market: standardized contracts, fixed trading hours, formal clearing at session's end, and margin deposits — all of it predating the Chicago Board of Trade by 151 years.",
       "wikiSlug": "Dōjima_Rice_Exchange",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The exchange grew out of the practical problem that Japan's daimyo lords were paid in rice (their tax revenues) but needed cash to cover their sankin-kōtai expenses in Edo; selling rice futures let them convert future harvests into present money. Traders could buy and resell the same contract many times before delivery, creating purely speculative positions in rice price — exactly what a modern futures exchange does. The exchange operated continuously until 1939, when it was absorbed into the government's wartime food-control system; it was officially sanctioned and reorganized by the shogunate in 1773, nearly 80 years after its founding."
+        }
+      ],
+      "commonsFile": "Dojima-Rice-Exchange-Osaka-by-Yoshimitsu-Sasaki.png"
     },
     {
       "id": "evt-mitsui-house",
       "label": "House of Mitsui Founded",
       "year": 1673,
-      "description": "Mitsui Takatoshi opened a Kyoto dry-goods store with the radical innovation of fixed prices and cash-only sales, founding the merchant house that would become one of Japan's pre-eminent corporate dynasties.",
+      "description": "Mitsui Takatoshi founded a Kyoto dry-goods store in 1673 with two radical innovations — fixed prices and cash-only sales, abandoning the traditional haggling-and-seasonal-credit model — and built what became one of Japan's great merchant dynasties and eventually a modern industrial conglomerate.",
       "wikiSlug": "Mitsui",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fixed-price, cash-only model was genuinely disruptive: it allowed lower prices (no credit losses), faster turnover, and a shopping experience that didn't require negotiation skill from the customer — making the store accessible to ordinary townspeople who felt intimidated by bargaining. The Mitsui family expanded into money-changing and banking, and by the Meiji era the House of Mitsui had become one of the great *zaibatsu* (financial conglomerates) that industrialized Japan. Today's Mitsui Group is a direct corporate descendant of that 1673 Kyoto store."
+        }
+      ],
+      "commonsFile": "Hiroshige,_Sugura_street.jpg"
     },
     {
       "id": "evt-wasan-math",
@@ -510,54 +779,88 @@
       "label": "47 Rōnin Incident",
       "year": 1701,
       "endYear": 1703,
-      "description": "Forty-seven masterless samurai of Akō, led by Ōishi Kuranosuke, avenged the forced suicide of their lord Asano Naganori by killing his enemy Kira Yoshinaka in 1703 — and were ordered to commit ritual suicide themselves, becoming the defining story of bushido ethics.",
+      "description": "In 1703, forty-seven masterless samurai (rōnin) avenged the forced suicide of their lord Asano Naganori by killing his enemy Kira Yoshinaka — then surrendered to the shogunate, committed ritual suicide, and became Japan's most enduring legend of loyalty and warrior ethics.",
       "wikiSlug": "Forty-seven_rōnin",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The raid happened on January 31, 1703, in heavy snow, with the raiders divided into two parties breaching the front and back gates of Kira's Edo mansion simultaneously. The Akō vendetta is counted as one of Japan's three great historical revenge incidents, alongside the Revenge of the Soga Brothers and the Igagoe vendetta — a trio that shaped how samurai loyalty was understood for centuries. The first stage play dramatizing the story appeared within weeks of the verdict, and the definitive version, Kanadehon Chūshingura, was written in 1748 and is still performed today."
+        }
+      ],
+      "commonsFile": "Reward_for_47_Ronin_by_Yasuda_Raishu_(Homma_Museum_of_Art).jpg"
     },
     {
       "id": "evt-bushido",
       "label": "Bushido Codified",
       "year": 1716,
-      "description": "Yamamoto Tsunetomo's Hagakure ('In the Shadow of Leaves'), recorded around 1716, codified the romantic warrior ethic of bushido at exactly the moment when actual samurai had become unemployed bureaucrats with no wars to fight.",
+      "description": "Hagakure (\"In the Shadow of Leaves\"), compiled from conversations between 1709 and 1716, is the most famous codification of bushido — the samurai warrior ethic — and opens with the line \"The Way of the Samurai is found in death,\" written at the exact moment the samurai class had run out of wars to fight.",
       "wikiSlug": "Hagakure",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yamamoto Tsunetomo, who dictated the text, was not a battlefield warrior but an administrative retainer (a clerk to the lord of the Nabeshima domain in Saga Prefecture) — making the book's ferocious death-readiness doctrine the work of a man who spent his career doing paperwork, not fighting. The text was not published for many years after it was recorded; it circulated in manuscript and only became widely known much later. The book is also known as The Book of the Samurai and the Analects of Nabeshima."
+        }
+      ],
+      "commonsFile": "Nabeshima-Secretary-Hagakure-The-Analects-Bushido-Book.png"
     },
     {
       "id": "evt-shoheiko",
       "label": "Shōheikō Academy",
       "year": 1690,
-      "description": "Tsunayoshi elevated the Hayashi family's Confucian school in Edo into an official shogunate academy, making Neo-Confucianism the orthodox state ideology and the curriculum for samurai officials.",
+      "description": "In 1690, the fifth shogun Tsunayoshi elevated the Hayashi family's private Confucian school in Edo into the official Shōheikō academy — the state institution that trained samurai officials in Neo-Confucian orthodoxy and set the intellectual curriculum for the entire Tokugawa bureaucracy.",
       "wikiSlug": "Yushima_Seid%C5%8D",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The academy was modeled on the Chinese imperial academies that trained mandarins for the civil service exam, with one crucial difference: the Tokugawa never adopted the exam system itself, so the Shōheikō produced ideologically certified graduates who still owed their appointments to hereditary rank rather than competitive merit. The curriculum centered on Zhu Xi's Neo-Confucianism, a twelfth-century Chinese synthesis that emphasized hierarchy, loyalty, and 'the rectification of names' — the idea that social stability depends on everyone accurately occupying their proper role. Similar domain academies opened in castle towns across Japan, making Neo-Confucian literacy a near-universal credential of samurai education."
+        }
+      ],
+      "commonsFile": "Razan_Hayashi.jpg"
     },
     {
       "id": "evt-tokugawa-yoshimune",
       "label": "Tokugawa Yoshimune",
       "year": 1716,
       "endYear": 1745,
-      "description": "The eighth shogun, called the Rice Shogun, enacted the Kyōhō Reforms, relaxed the ban on Western books in 1720, and is generally considered the most capable Tokugawa ruler after Ieyasu.",
+      "description": "Tokugawa Yoshimune, the eighth shogun (r. 1716–1745), pulled the shogunate back from near-bankruptcy through the Kyōhō Reforms, lifted the long ban on Western books in 1720 to allow the import of scientific texts, and is generally considered the most capable Tokugawa ruler after the founder Ieyasu.",
       "wikiSlug": "Tokugawa_Yoshimune",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yoshimune earned the nickname 'Rice Shogun' partly because his reforms pegged samurai stipends to rice prices in an attempt to insulate the warrior class from inflation — an acknowledgment that the grain-denominated tax system was no longer matching real economic conditions. His relaxation of the Western-books ban was carefully restricted: only books that did not mention Christianity could be imported, but the opening was enough to allow Dutch medical, astronomical, and military texts to flow into Japan and feed the rangaku (Dutch Learning) movement that would prove critical a century later."
+        }
+      ],
+      "commonsFile": "Tokugawa_Yoshimune.jpg"
     },
     {
       "id": "evt-kyoho-reforms",
       "label": "Kyōhō Reforms",
       "year": 1716,
-      "description": "Yoshimune's reforms imposed austerity, expanded rice cultivation, encouraged sweet potato planting against famine, and partially lifted the ban on Western books — a model later reformers would invoke.",
+      "description": "The Kyōhō Reforms (1722–1730) were Yoshimune's program of fiscal austerity and agricultural improvement: mandatory samurai spending cuts, incentives for expanding rice cultivation, sweet potato promotion as a famine hedge, and the partial opening of Japan to Western scientific literature.",
       "wikiSlug": "Kyōhō_Reforms",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The sweet potato (satsuma-imo) promotion was a genuinely innovative famine-prevention measure — the crop grows in poor soil and survives conditions that destroy rice, and Yoshimune's government distributed planting instructions and seeds after observing the crop's performance in Kyushu. The reforms were invoked by every subsequent reformer as a golden-age template, but none of them managed to reproduce the combination of a capable shogun, a cooperative daimyo coalition, and the structural breathing room that Yoshimune had inherited after the Genroku boom."
+        }
+      ]
     },
     {
       "id": "evt-kyoho-famine",
@@ -573,60 +876,95 @@
       "id": "evt-rangaku",
       "label": "Rangaku Dutch Learning",
       "year": 1720,
-      "description": "Yoshimune's 1720 partial lifting of the Western book ban allowed Japanese scholars to study European science, medicine, and technology through Dutch-language texts purchased at Nagasaki — the only window onto a transformed world.",
+      "description": "Rangaku (Dutch learning) was the body of Western scientific and technical knowledge Japanese scholars absorbed through the one legal crack in Japan's closed-country policy — Dutch-language books entering through the Nagasaki trading post at Dejima from 1641 to 1853.",
       "wikiSlug": "Rangaku",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The entire field flowed through roughly a hundred hereditary Nagasaki Dutch interpreters, a guild whose language training dated to the seventeenth century and was never updated as Dutch evolved. From that narrow seed, rangaku expanded to cover medicine, astronomy, geography, physics, and eventually military technology — the exact knowledge Japan would need when Western powers arrived by force in the 1850s."
+        }
+      ],
+      "commonsFile": "Shiba_Kokan_A_meeting_of_Japan_China_and_the_West_late_18th_century.jpg"
     },
     {
       "id": "evt-aoki-konyo",
       "label": "Aoki Konyō",
       "year": 1745,
-      "description": "Yoshimune's appointed Dutch-learning specialist studied Dutch language and promoted sweet potato cultivation as a famine crop, helping launch the rangaku tradition.",
+      "description": "Aoki Konyō was the Confucian scholar Yoshimune appointed as his official Dutch-learning specialist — tasked with both studying the Dutch language and promoting sweet potato cultivation as a hedge against famine.",
       "wikiSlug": "Aoki_Konyō",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Konyō's parallel roles — part linguist, part agricultural reformer — capture how practical the early rangaku program was: Yoshimune wanted useful knowledge, not abstract scholarship. Konyō became known as the 'Sweet Potato Sensei' (Satsuma-imo Sensei) in popular memory, a nickname that outlasted his Dutch-language work."
+        }
+      ],
+      "commonsFile": "Aoki_Konyo1.jpg"
     },
     {
       "id": "evt-sugita-genpaku",
       "label": "Sugita Genpaku's Anatomy",
       "year": 1774,
-      "description": "Sugita Genpaku and Maeno Ryōtaku translated the Dutch Tafel Anatomia as Kaitai Shinsho after attending an autopsy in 1771 — the document that demonstrated decisively that Western anatomy was correct and Chinese medical theory was not.",
+      "description": "Physician and scholar Sugita Genpaku co-translated the Dutch anatomy textbook Tafel Anatomia into Japanese as Kaitai Shinsho (1774) — the first Western scientific work translated directly from a European language into Japanese — after an autopsy confirmed the Dutch diagrams were right and Chinese medical theory was wrong.",
       "wikiSlug": "Sugita_Genpaku",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sugita and his colleagues had no real Dutch fluency when they started; they worked from a phrase book Maeno Ryōtaku had compiled, sometimes spending entire afternoons on a single technical term. The translation took three years of weekly sessions. Sugita later wrote a vivid memoir about the shock of that 1771 autopsy, describing the moment as the collapse of a medical tradition he had practiced his whole career."
+        }
+      ],
+      "commonsFile": "First_Japanese_treatise_on_Western_anatomy.jpg"
     },
     {
       "id": "evt-hiraga-gennai",
       "label": "Hiraga Gennai",
       "year": 1776,
-      "description": "The polymath inventor built Japan's first electrostatic generator (the elekiteru), wrote satirical novels and kabuki plays, painted in oil, and ended his life in prison after killing a colleague in a fit of rage.",
+      "description": "Hiraga Gennai (1728–1779) was a rangaku polymath who built Japan's first electrostatic generator (the elekiteru) by reverse-engineering Dutch diagrams, wrote satirical novels and kabuki plays, painted in Western oil techniques, and died in prison after killing a colleague — the most flamboyant figure in Edo-era Western learning.",
       "wikiSlug": "Hiraga_Gennai",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gennai was also one of Japan's first authors of guidebooks to male prostitutes, and his satirical essay 'On Farting' became a minor Edo classic — his appetite for provocation ran across every domain he touched. The elekiteru he built was primarily a curiosity and a claimed medical device, not a tool of practical engineering, but it demonstrated that a single motivated amateur working from Dutch books could reproduce European experimental apparatus from scratch."
+        }
+      ],
+      "commonsFile": "Hiraga_Gennai_by_Nakamaru_Seijuro_(Waseda_University_Library).jpg"
     },
     {
       "id": "evt-ino-tadataka",
       "label": "Inō Tadataka's Maps",
       "year": 1800,
       "endYear": 1816,
-      "description": "Starting at age fifty-five, Inō Tadataka surveyed the entire Japanese coastline on foot over seventeen years, producing maps so accurate that the British Navy still used them in the 1860s.",
+      "description": "Inō Tadataka, a retired sake brewer who took up Western surveying at age fifty, walked the entire Japanese coastline over seventeen years (1800–1816) and produced coastal maps so accurate the British Royal Navy used them for hydrographic charts in the 1860s.",
       "wikiSlug": "In%C5%8D_Tadataka",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Inō measured distances by counting his own paces and took latitude readings by shooting the sun — low-tech methods applied with extraordinary consistency over nearly 28,000 miles (45,000 km) of coastline. He died in 1818 before the project was finished; his students completed and published the maps in 1821, and his disciples kept his death secret for three years to prevent the shogunate from halting the work."
+        }
+      ],
+      "commonsFile": "Map_of_Kyushu,_Large_scale,_No._7,_by_Ino_Tadataka,_Edo_period,_1800s_AD,_color_on_paper_-_Tokyo_National_Museum_-_Ueno_Park,_Tokyo,_Japan_-_DSC09023.jpg"
     },
     {
       "id": "evt-kokugaku",
@@ -655,54 +993,89 @@
       "label": "Tanuma Okitsugu",
       "year": 1772,
       "endYear": 1786,
-      "description": "Senior councillor Tanuma promoted mercantilist policies, monopoly cartels, and Hokkaido development, but corruption scandals and the Tenmei famine ended his rise.",
+      "description": "Tanuma Okitsugu served as senior councillor (rōjū) to Shogun Ieharu from 1772 to 1786 and pushed a mercantilist experiment — licensing merchant monopolies, planning Hokkaido development, even floating the idea of Russian trade — before corruption scandals and the Tenmei famine swept him from power.",
       "wikiSlug": "Tanuma_Okitsugu",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tanuma and his son wielded power so openly that bribery of officials became semi-institutionalized during his tenure, earning the era a reputation for corruption that later moralist reformers used as their cautionary tale. His dismissal came immediately after Shogun Ieharu's death in 1786, suggesting his position depended entirely on personal patronage rather than institutional support. The puritan Kansei Reforms that replaced his policies reversed almost every mercantilist innovation he had introduced."
+        }
+      ],
+      "commonsFile": "Tanuma_Okitsugu2.jpg"
     },
     {
       "id": "evt-tenmei-famine",
       "label": "Tenmei Famine",
       "year": 1782,
       "endYear": 1788,
-      "description": "The Mount Asama eruption of 1783 and the global cooling effect of Iceland's Laki volcano produced six years of crop failure that killed an estimated 920,000 people and triggered hundreds of peasant uprisings.",
+      "description": "The Tenmei famine (1782–1788) was the deadliest natural catastrophe of the Edo period, killing an estimated 920,000 people across northeastern Japan through a perfect storm of volcanic cooling, crop disease, and a governance system structurally incapable of moving food across regional boundaries.",
       "wikiSlug": "Tenmei_famine",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The double volcanic trigger — Iceland's Laki eruption in 1783 depressing temperatures across the entire Northern Hemisphere while Mount Asama's eruption the same year blanketed central Honshu farmland in ash — meant the cooling was not a local event that normal redistribution could offset. Some northeastern domains lost 20 to 30 percent of their entire populations in six years. The famine's political aftershock was immediate: it destroyed the Tanuma ministry and handed the puritanical Kansei reformers their mandate."
+        }
+      ],
+      "commonsFile": "Great_Tenmei_Famine_Map_Artwork.png"
     },
     {
       "id": "evt-mount-asama-eruption",
       "label": "Mount Asama Eruption",
       "year": 1783,
-      "description": "The August 1783 eruption killed roughly 1,400 people directly and contributed to the climatic conditions that produced the Tenmei famine.",
+      "description": "Mount Asama (2,568 m / 8,425 ft), Japan's most active volcano on Honshu's main island, erupted catastrophically in August 1783, killing roughly 1,400 people directly, burying villages under pyroclastic flows, and contributing the ash and atmospheric particulates that helped trigger the Tenmei famine.",
       "wikiSlug": "Mount_Asama",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 1783 eruption sent a lava flow and pyroclastic surge known as the Onioshidashi ('demon push-out') down Asama's northern slopes, burying the village of Kambara under meters of debris — an event documented in detail by regional administrators and later studied as one of the best-recorded pre-modern volcanic disasters in Japanese history. Mount Asama remains active today and is classified by the Japan Meteorological Agency as a rank-A volcano requiring continuous monitoring."
+        }
+      ],
+      "commonsFile": "220929_Mt_Asama_Karuizawa_Nagano_pref_Japan01s3.jpg"
     },
     {
       "id": "evt-kansei-reforms",
       "label": "Kansei Reforms",
       "year": 1787,
-      "description": "Matsudaira Sadanobu reversed Tanuma's policies with strict moral austerity, debt cancellation for samurai, Neo-Confucian orthodoxy, and censorship of heterodox ideas.",
+      "description": "Chief senior councillor Matsudaira Sadanobu ran Japan's government from 1787 to 1793, reversing Tanuma's mercantilist policies with strict Neo-Confucian austerity: debt relief for indebted samurai, price controls, censorship of frivolous literature, and a crackdown on heterodox scholarship.",
       "wikiSlug": "Matsudaira_Sadanobu",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sadanobu had previously rescued the nearly bankrupt Shirakawa Domain using the same disciplinarian toolkit before being elevated to lead the shogunate — his regional track record gave him credibility the central government lacked. His Prohibition of Heterodox Studies banned any academic teaching that deviated from orthodox Zhu Xi Confucianism in official schools, an attempt to use ideological control to stabilize a fracturing social order. He resigned in 1793, reportedly after clashing with the retired shogun Ieharu's successor, and his reforms were progressively dismantled in the years after."
+        }
+      ],
+      "commonsFile": "Matsudaira_Sadanobu.jpg"
     },
     {
       "id": "evt-kitagawa-utamaro",
       "label": "Kitagawa Utamaro",
       "year": 1795,
-      "description": "The greatest master of bijin-ga (pictures of beautiful women) produced ukiyo-e prints of Yoshiwara courtesans whose half-length close-up compositions transformed the genre.",
+      "description": "Kitagawa Utamaro (c. 1753–1806) was the master of *bijin-ga* ('pictures of beautiful women'), producing ukiyo-e portraits of Yoshiwara courtesans and townswomen in half-length close-up compositions that were revolutionary in Japanese art for their psychological intimacy.",
       "wikiSlug": "Kitagawa_Utamaro",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Utamaro's innovation was the *ōkubi-e* (large-head picture) format — close cropped portraits that focused on facial expression and psychological state rather than the full-figure compositions that dominated earlier ukiyo-e. He collaborated intensively with the publisher Tsutaya Jūzaburō, who gave him creative freedom in exchange for commercial blockbusters. The shogunate arrested and jailed Utamaro in 1804 for producing prints depicting the real-life exploits of the warlord Toyotomi Hideyoshi, which authorities considered disrespectful — he was released but never recovered his health, dying two years later."
+        }
+      ],
+      "commonsFile": "'Karagoto_of_the_Brothel_House_Chojiya'_by_Utamaro,_Honolulu_Museum_of_Art.jpg"
     },
     {
       "id": "evt-toshusai-sharaku",
@@ -720,222 +1093,363 @@
       "id": "evt-hokusai-wave",
       "label": "Hokusai's Great Wave",
       "year": 1831,
-      "description": "Katsushika Hokusai published Thirty-six Views of Mount Fuji, including The Great Wave off Kanagawa, one of the most reproduced images in world art and the print that decisively shaped European Japonisme.",
+      "description": "Katsushika Hokusai (1760–1849) published *Thirty-Six Views of Mount Fuji* around 1831, including *The Great Wave off Kanagawa* — one of the most reproduced images in all of world art, and the print that made Japanese aesthetics a major influence on European Impressionism and Art Nouveau.",
       "wikiSlug": "Katsushika_Hokusai",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hokusai changed his artistic name more than 30 times during his career — a Japanese practice of signaling a new artistic phase — and he was still producing major work at age 88. He is reported to have said on his deathbed that if heaven had given him just ten more years, or even five, he could have become a truly great painter. The Great Wave is technically one of the smaller elements in the composition; Mount Fuji, partially obscured in the background, is the ostensible subject. Hokusai's work reached Europe largely through shipping paper: his prints were used as wrapping material for exported porcelain, where artists like Monet and Van Gogh discovered them."
+        }
+      ],
+      "commonsFile": "Hokusai_as_an_old_man.jpg"
     },
     {
       "id": "evt-hiroshige",
       "label": "Hiroshige's Tōkaidō",
       "year": 1833,
-      "description": "Utagawa Hiroshige published the Fifty-three Stations of the Tōkaidō, his landscape print series of the road from Edo to Kyoto, which would later inspire Van Gogh and Whistler.",
+      "description": "Utagawa Hiroshige (1797–1858) published *Fifty-Three Stations of the Tōkaidō* in 1833–34, a landscape print series depicting the post-road from Edo to Kyoto that became one of the best-selling ukiyo-e series ever produced and later inspired Van Gogh and Whistler.",
       "wikiSlug": "Hiroshige",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hiroshige is considered the last great master of the ukiyo-e tradition — his work came at the end of the golden age, when Western demand for Japanese prints was beginning to reshape the market. He produced over 8,000 prints across his career, an extraordinary volume. Van Gogh made oil-paint copies of two Hiroshige prints and credited Japanese woodcuts as a major influence on his use of flat color areas and bold outlines. Hiroshige's landscapes were unusual in ukiyo-e for their interest in weather, atmosphere, and season — rain, snow, fog — rather than the human figure."
+        }
+      ],
+      "commonsFile": "100_views_edo_036.jpg"
     },
     {
       "id": "evt-tenpo-famine",
       "label": "Tenpō Famine",
       "year": 1833,
       "endYear": 1837,
-      "description": "Cold summers and crop failures killed hundreds of thousands and triggered Ōshio Heihachirō's 1837 Osaka uprising — the first armed revolt by a former bakufu official in two centuries.",
+      "description": "The Tenpō famine (1833–1837) killed an estimated 200,000 to 300,000 people and pushed the shogunate's legitimacy past a breaking point, triggering the Ōshio Heihachirō uprising in Osaka and setting the stage for the Tenpō Reforms.",
       "wikiSlug": "Tenpō_famine",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famine lasted four years of successive harvest failures during the reign of Shogun Tokugawa Ienari, whose 50-year tenure (the longest of any Tokugawa shogun) was marked by fiscal deterioration and administrative neglect. Unlike the Tenmei famine a generation earlier, which was dominated by a volcanic-cooling trigger, the Tenpō famine was driven primarily by erratic weather patterns and compounded by a commercial rice market that diverted grain to urban merchants rather than famine-stricken rural areas."
+        }
+      ],
+      "commonsFile": "WatanabeKazanFamine1.jpg"
     },
     {
       "id": "evt-oshio-rebellion",
       "label": "Ōshio Heihachirō's Revolt",
       "year": 1837,
-      "description": "The former bakufu police official and Wang Yangming Confucian led a one-day armed uprising in Osaka against grain hoarders during the Tenpō famine, shocking the shogunate by exposing dissent inside its own ranks.",
+      "description": "On February 19, 1837, Ōshio Heihachirō — a former shogunate police official and Wang Yangming Confucian scholar — set fire to his own house in Osaka as a rallying signal, then led a one-day armed uprising against grain hoarders and corrupt officials during the Tenpō famine before being suppressed and taking his own life.",
       "wikiSlug": "%C5%8Cshio_Heihachir%C5%8D",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "What made Ōshio's revolt so alarming to the bakufu was not its military scale (it was crushed within hours) but its source: a man who had worked inside the shogunate's own enforcement apparatus had publicly declared the system illegitimate. His philosophical grounding in Wang Yangming thought — which emphasized moral action over mere ritual compliance — gave his rebellion an ideological coherence that distinguished it from purely hunger-driven peasant uprisings. The fire he set spread and burned down an estimated 3,000 houses in Osaka before his forces were dispersed."
+        }
+      ]
     },
     {
       "id": "evt-tenpo-reforms",
       "label": "Tenpō Reforms",
       "year": 1841,
       "endYear": 1843,
-      "description": "Senior councillor Mizuno Tadakuni's austerity reforms attempted to restore samurai discipline, regulate prices, and force workers back to the countryside; the program collapsed within two years amid daimyo opposition and merchant resistance.",
+      "description": "Senior councillor Mizuno Tadakuni's Tenpō Reforms (1841–1843) were the shogunate's last major austerity push: forced price rollbacks, compulsory dissolution of merchant guilds, sumptuary laws banning luxury goods, and orders sending urbanized workers back to their home villages.",
       "wikiSlug": "Tenpō_Reforms",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mizuno's dissolution of the kabunakama (merchant guilds) backfired spectacularly — the guilds had actually stabilized prices and distribution networks, and abolishing them caused market chaos and shortages. The reforms collapsed within two years when the daimyo coalition that had tolerated Mizuno withdrew support and he was abruptly dismissed in 1843. His attempt to acquire territory near Edo to strengthen the shogunate's strategic position was the immediate trigger for his removal, as it alarmed the very lords he needed as allies."
+        }
+      ]
     },
     {
       "id": "evt-morrison-incident",
       "label": "Morrison Incident",
       "year": 1837,
-      "description": "Coastal batteries fired on the unarmed American merchant ship Morrison attempting to return Japanese castaways, after which intellectuals criticizing the policy were arrested in the Bansha no Goku purge of 1839.",
+      "description": "In 1837, Japanese coastal batteries opened fire on the unarmed American merchant ship Morrison as it tried to return seven Japanese castaways to Japan — and when scholars publicly criticized the policy, the shogunate arrested them in the 1839 Bansha no Goku (Society of Barbarian Studies) purge.",
       "wikiSlug": "Morrison_Incident",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Morrison's captain, Charles W. King, had hoped the humanitarian gesture of returning castaways (one of them Yamamoto Otokichi, who had been shipwrecked in North America) would provide diplomatic cover for opening trade talks — but the 1825 Edict to Repel Foreign Ships gave coastal commanders no discretion to distinguish armed from unarmed vessels. The Bansha no Goku purge that followed criticism of the cannon fire forced two of Japan's leading Western-studies (rangaku) scholars to their deaths, effectively silencing public debate about foreign policy for years."
+        }
+      ],
+      "commonsFile": "MorrisonShip.jpg"
     },
     {
       "id": "evt-perry-arrival",
       "label": "Perry's Black Ships Arrive",
       "year": 1853,
-      "description": "On July 8, 1853, US Commodore Matthew Perry sailed into Edo Bay with four steam warships, demanding Japan open to trade — and ending 214 years of sakoku at the muzzle of an American gun.",
+      "description": "On July 8, 1853, US Commodore Matthew Perry steamed into Edo Bay with four warships — two of them coal-burning steam frigates that moved against the wind and belched black smoke — demanding Japan open to American trade and hand over Fillmore's letters to the Japanese head of state.",
       "wikiSlug": "Perry_Expedition",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Perry refused to conduct any business at Nagasaki (Japan's sole designated foreign-contact port) and instead anchored within sight of Edo itself, a deliberate show of force. His expedition was authorized to use whatever force was necessary short of starting a war. The shogunate's response was to do something unprecedented: it circulated Perry's letters to every daimyo in Japan and asked for their advice — the first time in 250 years the bakufu had admitted it could not handle a foreign-policy crisis alone."
+        }
+      ],
+      "commonsFile": "Brooklyn_Museum_-_Commodore_Matthew_Perry's_\"Black_Ship\".jpg"
     },
     {
       "id": "evt-treaty-kanagawa",
       "label": "Treaty of Kanagawa",
       "year": 1854,
-      "description": "Japan signed its first modern treaty with the United States in March 1854, opening the ports of Shimoda and Hakodate, allowing American consuls, and ending sakoku as a legal regime.",
+      "description": "Signed March 31, 1854 after Perry returned with nine ships, the Convention of Kanagawa opened the ports of Shimoda and Hakodate to American vessels, provided for the safety of shipwrecked American sailors, and established an American consul at Shimoda — formally ending Japan's 214-year policy of national seclusion.",
       "wikiSlug": "Convention_of_Kanagawa",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The treaty was signed under explicit threat of force; Perry had publicly stated his intent to return with a larger fleet if refused. Britain, Russia, and the Netherlands quickly negotiated near-identical treaties using the same most-favored-nation clause, meaning any right conceded to one power automatically extended to all. Shimoda was chosen as the American consular port partly because it was remote and hard to reach overland from Edo — the shogunate's attempt to limit foreign contact even while complying."
+        }
+      ],
+      "commonsFile": "Ratification_of_the_Japan_USA_Treaty_of_Peace_and_Amity_21_February_1855.jpg"
     },
     {
       "id": "evt-harris-treaty",
       "label": "Harris Treaty",
       "year": 1858,
-      "description": "Townsend Harris negotiated a commercial treaty granting extraterritoriality, fixed low tariffs, and additional open ports — the model for the unequal treaties Japan signed with Britain, France, Russia, and the Netherlands within months.",
+      "description": "New York merchant-diplomat Townsend Harris spent over a year at Shimoda negotiating the 1858 Treaty of Amity and Commerce, which opened five Japanese ports to trade, capped Japanese import tariffs at around 5%, granted Americans the right to be tried by their own consular courts (not Japanese ones), and set a currency exchange rate that accidentally triggered a gold-drain crisis.",
       "wikiSlug": "Treaty_of_Amity_and_Commerce_(United_States%E2%80%93Japan)",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Harris's key leverage was the threat of British terms: he warned Japanese negotiators that Britain, fresh from the Second Opium War in China, would soon arrive and impose far harsher conditions than anything he was asking. The fixed exchange rate in the treaty turned out to be a major economic blunder — gold was significantly undervalued relative to silver in Japan compared to world markets, so foreign traders immediately began exchanging silver for Japanese gold and exporting the gold, draining Japan's reserves within months of signing."
+        }
+      ]
     },
     {
       "id": "evt-ansei-treaties",
       "label": "Ansei Unequal Treaties",
       "year": 1858,
-      "description": "The five Ansei treaties stripped Japan of tariff autonomy, granted extraterritoriality to foreigners, and opened five ports — the legal humiliation that Meiji Japan would spend decades undoing.",
+      "description": "Within weeks of the Harris Treaty in 1858, Britain, France, Russia, and the Netherlands signed near-identical agreements with Japan — collectively called the Ansei Treaties — establishing a system of extraterritoriality, fixed low tariffs, and open ports that stripped Japan of legal sovereignty over foreigners on its own soil for the next four decades.",
       "wikiSlug": "Ansei_Treaties",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Ansei Treaties were signed without the approval of Emperor Kōmei, who had explicitly refused to sanction them — a constitutional crisis because the shogunate had always claimed to act in the emperor's name. The humiliation of the unequal treaty regime became the single most powerful motivating grievance of the Meiji reformers; reversing it was a top foreign-policy priority from 1868 onward and was not fully accomplished until 1911."
+        }
+      ],
+      "commonsFile": "Treaties_of_Amity_and_Commerce_between_Japan_and_Holland_England_France_Russia_and_the_United_States_1858.jpg"
     },
     {
       "id": "evt-ansei-purge",
       "label": "Ansei Purge",
       "year": 1858,
-      "description": "Ii Naosuke's purge executed or punished over a hundred opponents of the unequal treaties, including the Mito-school activist Yoshida Shōin who became a martyr of the imperial-loyalist movement.",
+      "description": "Chief Minister Ii Naosuke's crackdown of 1858–59 arrested, exiled, or forced suicide on over a hundred political opponents of the unequal treaties, including Yoshida Shōin — a 30-year-old scholar who had tried to stow away on Perry's flagship in 1854 to study the West, was beheaded in October 1859, and became the defining martyr of the imperial-loyalist movement.",
       "wikiSlug": "Ansei_Purge",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yoshida Shōin had been confined to house arrest in Chōshū domain after his failed stowaway attempt, and used his confinement to run a small private academy. His students — who inherited his cause after his execution — included several of the key figures who would lead the Meiji Restoration just nine years later. Ii Naosuke's decision to execute Yoshida rather than keep him in prison was a strategic miscalculation: it turned a minor eccentric into a saint."
+        }
+      ]
     },
     {
       "id": "evt-sakuradamon-incident",
       "label": "Sakuradamon Incident",
       "year": 1860,
-      "description": "Senior councillor Ii Naosuke was assassinated outside the Sakurada Gate of Edo Castle by Mito loyalists, demonstrating that the bakufu could no longer protect even its highest officials.",
+      "description": "On a snowy morning on March 24, 1860, a band of 18 Mito domain loyalists crossed Edo and assassinated Ii Naosuke — the shogunate's chief minister and architect of the Ansei Purge — outside the Sakurada Gate of Edo Castle, demonstrating that the bakufu could no longer protect even its top official.",
       "wikiSlug": "Sakuradamon_incident_(1860)",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The assassins included one man from Satsuma domain (not just Mito), signaling that anti-bakufu sentiment was spreading well beyond a single discontented fief. Ii was killed in his palanquin by the gate — normally one of the most heavily guarded spots in Edo — and his bodyguards were overwhelmed within minutes. The incident shocked the political class not because assassination was unheard of, but because it happened in broad daylight at the castle gate; it was the bakufu's equivalent of a head-of-state being killed at the front door of the palace."
+        }
+      ],
+      "commonsFile": "Sakuradamon_incident_1860_crop.jpg"
     },
     {
       "id": "evt-sonno-joi",
       "label": "Sonnō Jōi Movement",
       "year": 1858,
-      "description": "The Revere the Emperor, Expel the Barbarians slogan unified samurai opposition to both the unequal treaties and the bakufu, providing the ideological framework for the Satsuma-Chōshū overthrow.",
+      "description": "\"Sonnō jōi\" (son-NOH JOH-ee — Revere the Emperor, Expel the Barbarians) was the rallying slogan that fused imperial loyalty with anti-Western xenophobia, giving opposition daimyo a political banner to organize under after Emperor Kōmei's refusal to sanction the Ansei Treaties made imperial authority a live political issue for the first time in centuries.",
       "wikiSlug": "Sonn%C5%8D_j%C5%8Di",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The phrase originated in Chinese Confucian political thought (zūn wáng rǎng yí) and was adapted to Japanese conditions by the Mito school of scholars in the late Edo period. In practice the movement was deeply contradictory: many of its leading figures, like Yoshida Shōin, were simultaneously fascinated by Western technology and furious about Western intrusion. By the mid-1860s, most of the sonnō jōi leaders had quietly dropped the \"expel the barbarians\" half after watching Western cannon destroy Japanese shore batteries and concluded that modernization was the only viable response."
+        }
+      ]
     },
     {
       "id": "evt-bombardment-shimonoseki",
       "label": "Bombardment of Shimonoseki",
       "year": 1864,
-      "description": "After Chōshū gun batteries fired on Western ships, a four-power Western fleet destroyed the Shimonoseki forts in September 1864 — the lesson that finally turned Chōshū from joi xenophobia toward modernization.",
+      "description": "In September 1864, a combined fleet of British, French, Dutch, and American warships bombarded and captured the Chōshū gun batteries at Shimonoseki Strait after Chōshū forces had spent a year firing on foreign ships, delivering a brief, overwhelming demonstration of what Western firepower could do to Edo-era coastal defenses.",
       "wikiSlug": "Bombardment_of_Shimonoseki",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chōshū had started firing on Western ships in 1863 after the domain government was briefly controlled by radical joi factions acting on imperial orders to expel foreigners. The four-power fleet that responded in 1864 was organized largely by British minister Rutherford Alcock. The indemnity the Western powers demanded afterward (3 million dollars) could not be paid by Chōshū alone, and the shogunate was eventually forced to accept it as a national debt — further humiliating the bakufu and radicalizing Chōshū's politics toward the modernizing faction that would lead the Meiji Restoration."
+        }
+      ],
+      "commonsFile": "BattleOfShimonoseki2.jpg"
     },
     {
       "id": "evt-choshun-war",
       "label": "Chōshū Expeditions",
       "year": 1864,
       "endYear": 1866,
-      "description": "The shogunate's two military campaigns against the rebellious Chōshū domain — the second a humiliating failure in 1866 — exposed the bakufu's military obsolescence and accelerated its collapse.",
+      "description": "The shogunate launched two punitive campaigns against Chōshū domain (1864 and 1866): the first worked through sheer coalition size and forced Chōshū to stand down without fighting, but the second was a military disaster — Chōshū's Western-trained infantry routed every bakufu force sent against them, and the campaign collapsed when Shogun Iemochi died of beriberi at age 20 in Osaka.",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Between the two expeditions, Chōshū had completely transformed its military by buying rifles and artillery from Western arms dealers and training its forces in European infantry tactics — led in part by low-ranking samurai and even commoners who were given battlefield commands purely on merit, a radical break from Edo-era military hierarchy. The second expedition's failure was the clearest public proof that the bakufu's military had been made obsolete: it could not defeat a single domain that had spent two years modernizing."
+        }
+      ],
+      "commonsFile": "Takadahan_warriors_Second_Choshu_Expedition.jpg"
     },
     {
       "id": "evt-satcho-alliance",
       "label": "Satsuma-Chōshū Alliance",
       "year": 1866,
-      "description": "The two great southwestern domains, brokered together by the Tosa rōnin Sakamoto Ryōma in 1866, formed the secret coalition that would overthrow the Tokugawa shogunate within two years.",
+      "description": "The Satsuma-Chōshū Alliance (Satchō Dōmei), secretly brokered in March 1866 by the Tosa rōnin Sakamoto Ryōma, united the two most powerful anti-bakufu domains — bitter enemies — into the military coalition that would overthrow the Tokugawa shogunate within two years.",
       "wikiSlug": "Satsuma-Ch%C5%8Dsh%C5%AB_Alliance",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Satsuma and Chōshū had been hostile partly because Satsuma forces had helped the bakufu expel Chōshū troops from Kyoto in 1863. Sakamoto Ryōma's achievement in reconciling them was considered one of the great acts of political brokerage in modern Japanese history. The alliance was kept secret because it was treasonous by the standards of the Tokugawa system — both domains were technically subject to the shogun's authority, and a formal military pact against the bakufu was unambiguously illegal."
+        }
+      ]
     },
     {
       "id": "evt-sakamoto-ryoma",
       "label": "Sakamoto Ryōma",
       "year": 1866,
-      "description": "The Tosa rōnin who brokered the Satsuma-Chōshū alliance and drafted an eight-point plan for a constitutional monarchy was assassinated in Kyoto in late 1867, becoming a foundational hero of modern Japan.",
+      "description": "Sakamoto Ryōma was a low-ranking Tosa samurai turned freelance political broker who brokered the Satsuma-Chōshū Alliance in 1866, drafted an eight-point constitutional plan for a post-Tokugawa government, and was assassinated in Kyoto in December 1867 — just weeks before the Restoration he had engineered.",
       "wikiSlug": "Sakamoto_Ry%C5%8Dma",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ryōma had renounced his domain allegiance and operated as a rōnin (masterless samurai), which gave him unusual freedom to negotiate across domain lines without either Satsuma or Chōshū needing to officially acknowledge the talks. He ran a trading company called the Kaientai as cover and to fund operations. His assassins were never definitively identified; suspects range from the Shinsengumi (the shogunate's Kyoto police force) to rivals within the imperial faction. He was 31 years old when he was killed."
+        }
+      ],
+      "commonsFile": "Sakamoto_Ryoma.jpg"
     },
     {
       "id": "evt-tokugawa-yoshinobu",
       "label": "Tokugawa Yoshinobu",
       "year": 1867,
-      "description": "The fifteenth and last Tokugawa shogun resigned his office in November 1867 in the Taisei Hōkan, formally returning political authority to the emperor in a peaceful surrender that he hoped would preserve a Tokugawa role in the new government.",
+      "description": "Tokugawa Yoshinobu, the fifteenth and final Tokugawa shogun, formally returned political authority to Emperor Meiji in November 1867 in a ceremony called the Taisei Hōkan (Restoration of Imperial Rule), gambling that the new government would need his administrative experience and keep him in power.",
       "wikiSlug": "Tokugawa_Yoshinobu",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yoshinobu was considered the most capable Tokugawa ruler since Yoshimune — he was the first shogun educated in Western affairs and genuinely understood the modernization challenge. His resignation was a calculated political move, not capitulation: he believed that once the imperial court tried to actually govern, it would discover it lacked the bureaucratic machinery to do so and would have to restore him as a minister. The bet failed when Satsuma-Chōshū forces maneuvered to exclude him entirely. After his defeat at Toba-Fushimi in early 1868, he retired from public life and outlived most of the Meiji leaders — dying in 1913."
+        }
+      ],
+      "commonsFile": "1867_Osaka_Yoshinobu_Tokugawa.jpg"
     },
     {
       "id": "evt-boshin-war",
       "label": "Boshin War",
       "year": 1868,
       "endYear": 1869,
-      "description": "Pro-imperial Satsuma-Chōshū forces defeated the Tokugawa loyalists in a civil war that began at Toba-Fushimi in January 1868 and ended with the surrender of the Hokkaido republic at Hakodate in June 1869.",
+      "description": "The Boshin War (January 1868 to June 1869) was the civil war that completed the Meiji Restoration — imperial forces defeated the Tokugawa loyalists at Toba-Fushimi south of Kyoto, then marched east to take Edo bloodlessly, then north to crush the last Tokugawa holdouts, ending with the surrender of a self-proclaimed Hokkaido republic at Hakodate.",
       "wikiSlug": "Boshin_War",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The war's name means \"Year of the Yang Earth Dragon\" in the traditional East Asian calendar cycle. Edo (modern Tokyo) fell without a battle in May 1868 because Yoshinobu ordered no resistance — the surrender was negotiated by Katsu Kaishū for the shogunate and Saigō Takamori for the imperial forces, saving the city from destruction. The final holdout was the \"Republic of Ezo\" in Hokkaido, a short-lived breakaway state led by Admiral Enomoto Takeaki, who eventually surrendered rather than fight to the last and was later pardoned and served in the Meiji government."
+        }
+      ],
+      "commonsFile": "Battle_of_Hakodate_Nishiki-e_by_Nagashima_Mosai.png"
     },
     {
       "id": "evt-meiji-restoration",
       "label": "Meiji Restoration",
       "year": 1868,
-      "description": "On January 3, 1868, sixteen-year-old Emperor Meiji was formally restored to power, abolishing the shogunate after 265 years and launching the rapid modernization that would make Japan a world power within a generation.",
+      "description": "The Meiji Restoration of January 3, 1868 abolished the Tokugawa shogunate and formally restored imperial rule under sixteen-year-old Emperor Meiji — beginning the forty-year transformation of Japan from a feudal agrarian state into a modern industrial power that would defeat China (1895) and Russia (1905) within a single generation.",
       "wikiSlug": "Meiji_Restoration",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The actual administration of the new government was run by a coalition of young former samurai from Satsuma, Chōshū, Tosa, and Hizen — most under forty, many from low-ranking samurai families, essentially the rangaku-trained reform network that had been building for decades. The name \"Meiji\" (Enlightened Rule) was chosen as the era name for the new reign and became so associated with the transformation that Mutsuhito is always called Emperor Meiji, not by his personal name. The speed of Japan's modernization — a working national constitution by 1889, a continental-scale military victory by 1895 — had no precedent in world history."
+        }
+      ],
+      "commonsFile": "Emperor_Meiji_by_Takahashi_Yuichi.jpg"
     },
     {
       "id": "evt-charter-oath",
       "label": "Charter Oath",
       "year": 1868,
-      "description": "The five-article oath issued by Emperor Meiji in April 1868 promised public assembly, abolition of class restrictions, and the seeking of knowledge throughout the world — the foundational document of modern Japan.",
+      "description": "Issued on April 6, 1868, the Charter Oath was a five-article declaration by Emperor Meiji promising public deliberative assemblies, decision-making based on public opinion, freedom for all classes to pursue their chosen occupations, and the seeking of knowledge throughout the world — the founding document of modern Japan.",
       "wikiSlug": "Charter_Oath",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The oath was drafted collaboratively by several Meiji statesmen and went through multiple revisions, with the phrase \"knowledge shall be sought throughout the world\" added specifically to signal Japan's intent to break from the Edo-era isolation. It is considered the first proto-constitutional document of modern Japan — not legally binding in a Western sense, but politically definitive as a statement of governing philosophy. It remained a reference document throughout the Meiji era and was explicitly cited by reformers arguing for democratic expansion decades later."
+        }
+      ],
+      "commonsFile": "5jo1.gif"
     }
   ]
 }
