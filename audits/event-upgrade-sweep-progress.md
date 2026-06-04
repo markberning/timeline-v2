@@ -127,7 +127,18 @@ _(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china/elamite/nu
 **Lesson (indus):** the gatherer hands material-culture + abstract events ONLY the regional map → first vision pass over-rejects (here 30/54 = 56%, under the floor). FIX baked into the recipe: after the first pick, run a **finder agent** that web-verifies real distinct Commons filenames for the recoverable famous artifacts (Great Bath, weights, beads, the unicorn seal, etc.), re-gather, vision re-pick. Two rounds took 56%→87%. Only genuinely abstract events (trade networks, collapse-process) stay honest rejects.
 
 ## In progress
-- (none — clean stop 2026-06-03. Repo clean, nothing unpushed, no locks held.)
+- Sweep resumed 2026-06-03 PM — running 3-wide via the sweep-civ workflow, smallest-first.
+
+## Gap-fill owed (gate passed via grandfathering, but recoverable images left behind)
+- **xiongnu-huns (705ff658) — 59.7%, lowest yet.** Committed clean (thin chapters
+  grandfathered), but ~10-12 of its 29 no-photo events are NOT genuinely imageless:
+  Huo Qubing's tomb sculptures (the horse-trampling-a-barbarian statue), Noin-Ula
+  elite burials (textiles), Ordos bronze/gold steppe art, and the Attila/Aetius/
+  Death-of-Attila events (famous later-era paintings — on-subject, OK per
+  feedback_photo_era_ok_if_on_subject). The gatherer handed these only the regional
+  map → vision over-rejected (the indus failure mode). OWED: one finder gap-fill round
+  (web-verify real Commons files → re-gather → vision re-pick → re-apply → amend).
+  Defer to the end-of-sweep low-coverage cleanup pass to avoid gather-lock contention.
 
 ## Worklist (smallest-first) — 61 remaining
 `/tmp/sweep-worklist.json` does NOT survive a session clear. Regenerate it any time with:
