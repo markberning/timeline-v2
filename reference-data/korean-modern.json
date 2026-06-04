@@ -73,503 +73,821 @@
       "id": "evt-km-annexation",
       "label": "Japan-Korea Annexation Treaty",
       "year": 1910,
-      "description": "Japan formally annexed Korea on August 22, 1910, ending the 518-year Joseon dynasty and beginning 35 years of colonial rule under a Japanese Governor-General.",
+      "description": "On August 22, 1910, Japan formally absorbed Korea into its empire by treaty, ending the 518-year-old Joseon dynasty and erasing Korea as an independent state. The Korean prime minister Yi Wan-yong signed under duress; the document that replaced a kingdom with a colony took effect a week later.",
       "wikiSlug": "Japan%E2%80%93Korea_Treaty_of_1910",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The treaty text was just five articles long — it transferred sovereignty in fewer words than a modern rental agreement. Yi Wan-yong, who signed it, is still one of the most reviled figures in Korean history; his name became a byword for traitor (\"il-lee,\" after the first syllable of his name). The last Korean emperor, Sunjong, refused to sign himself, leaving the prime minister to act without the sovereign's seal."
+        }
+      ],
+      "commonsFile": "Japan–Korea_Annexation_Treaty_5.jpg"
     },
     {
       "id": "evt-km-governor-general",
       "label": "Governor-General System",
       "year": 1910,
-      "description": "Japan ruled colonial Korea through a Governor-General with absolute authority, headquartered in a massive Western-style building deliberately placed in front of the Joseon royal palace to symbolize the displacement of the old monarchy.",
+      "description": "Japan ran colonial Korea through an all-powerful Governor-General — always a senior army or navy officer — whose headquarters was deliberately built directly in front of Gyeongbokgung, the Joseon royal palace in Seoul, so the old order was literally hidden behind the new one.",
       "wikiSlug": "Government-General_of_Chosen",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Governor-General building, a massive granite-and-marble structure completed in 1926, stood in front of the palace's main gate for 69 years before South Korea controversially demolished it in 1995 as part of a national de-Japanification effort. All eight Governors-General were military men; no civilian ever held the post. The Governor-General had authority exceeding that of any Japanese cabinet minister — he reported directly to the Emperor, bypassing parliament entirely."
+        }
+      ],
+      "commonsFile": "Japanese_General_Government_Building.jpg"
     },
     {
       "id": "evt-km-land-survey",
       "label": "Colonial Land Survey",
       "year": 1912,
       "endYear": 1918,
-      "description": "Japan's cadastral survey of Korea forced peasants to register customary land claims under unfamiliar bureaucratic procedures; failure to register correctly transferred land to Japanese settlers and the colonial state, dispossessing tens of thousands of Korean farmers.",
+      "description": "Between 1912 and 1918, the colonial government surveyed every plot of agricultural land in Korea and required formal paper title to prove ownership — a system Korean farmers operating under centuries of customary tenure had no documents to satisfy. Land that couldn't be registered was confiscated and handed to Japanese settlers.",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By the late 1910s, roughly 40 percent of all arable land in Korea was owned by either the colonial state or Japanese settlers. The Oriental Development Company, a colonial quasi-corporation founded in 1908, became one of the largest landowners on the peninsula, effectively functioning as the Korean equivalent of Britain's East India Company. Most Korean farmers who lost their land were reduced to tenant farming it back at rates that left them little more than subsistence."
+        }
+      ]
     },
     {
       "id": "evt-km-march-1st-movement",
       "label": "March 1st Movement",
       "year": 1919,
-      "description": "On March 1, 1919, thirty-three Korean nationalists read a Declaration of Independence in Seoul, triggering nationwide protests that drew an estimated two million participants. Japanese police killed roughly 7,500 Koreans suppressing the uprising.",
+      "description": "On March 1, 1919, thirty-three Korean nationalists publicly read a Declaration of Independence in Seoul, setting off the largest mass uprising in Korean history — an estimated two million people across the peninsula took to the streets over the following weeks. Japan's military response killed roughly 7,500 Koreans.",
       "wikiSlug": "March_1st_Movement",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The thirty-three signatories deliberately telephoned the Japanese police after reading the declaration and asked to be arrested — a calculated choice to keep the movement nonviolent from its leadership. The most notorious atrocity of the suppression happened at the village of Jeam-ri near Suwon, where Japanese soldiers locked 29 villagers inside a church, set it on fire, and shot anyone who tried to escape. March 1st (Samiljeol) is now a national holiday in South Korea, and the current Constitution explicitly names the Provisional Government that emerged from the movement as the Republic of Korea's legal predecessor."
+        }
+      ],
+      "commonsFile": "L'Indépendance_de_la_Corée_et_la_Paix-02.jpg"
     },
     {
       "id": "evt-km-provisional-govt",
       "label": "Korean Provisional Government",
       "year": 1919,
-      "description": "Korean nationalists in exile founded the Korean Provisional Government in Shanghai weeks after the March 1st Movement, with Syngman Rhee as its first president. It served as the institutional anchor of the independence movement until 1945.",
+      "description": "In April 1919, Korean exiles in Shanghai's French Concession founded the Korean Provisional Government — a government-in-exile with Syngman Rhee as its first president that would spend the next 26 years drafting constitutions, raising diaspora funds, and organizing armed resistance while relocating ahead of the Japanese advance across China.",
       "wikiSlug": "Provisional_Government_of_the_Republic_of_Korea",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Provisional Government moved six times over its existence — from Shanghai to Hangzhou, Nanjing, Changsha, Guangzhou, and finally Chongqing — always staying one step ahead of Japanese occupation. Its army-in-exile, the Korean Liberation Army, eventually fought alongside Chinese Nationalist forces in the Second Sino-Japanese War. When Korea was liberated in 1945, the Provisional Government's 26-year survival gave it a credible, though fiercely contested, claim to be the legitimate Korean state."
+        }
+      ],
+      "commonsFile": "Birthplace_of_the_Provisional_Government_of_the_Republic_of_Korea.jpg"
     },
     {
       "id": "evt-km-cultural-rule",
       "label": "Cultural Rule Period",
       "year": 1920,
       "endYear": 1937,
-      "description": "After the March 1st Movement, Japan's colonial regime shifted to a softer 'cultural rule' policy that permitted Korean-language newspapers and limited cultural activity while continuing economic exploitation and political repression.",
+      "description": "After the March 1st Movement shocked Japan's colonial leadership, Governor-General Saito Makoto introduced a 'Cultural Rule' policy in 1920 that allowed Korean-language newspapers and relaxed the most overt military-occupation symbols — a softer face on the same extractive colonial system that would last until 1937.",
       "wikiSlug": "Korea_under_Japanese_rule",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two newspapers licensed under Cultural Rule — the Dong-A Ilbo and the Chosun Ilbo, both founded in 1920 — are still two of South Korea's major national dailies over a century later. The period also produced a genuine literary flowering: modernist fiction writers like Yi Sang and Kim Yu-jeong, and the poet Yun Dong-ju, whose spare introspective verse in Korean became iconic — he died in a Japanese prison in 1945, six months before liberation, without ever seeing his work published."
+        }
+      ]
     },
     {
       "id": "evt-km-assimilation",
       "label": "Forced Assimilation Policy",
       "year": 1937,
-      "description": "After the Second Sino-Japanese War began, Japan launched a forced assimilation policy: Koreans were required to adopt Japanese names, worship at Shinto shrines, speak Japanese in schools, and the Korean language was banned from public education.",
+      "description": "When Japan invaded China in 1937, the colonial regime dropped any pretense of cultural tolerance and launched a forced assimilation campaign: Koreans were legally pressured to adopt Japanese family names, Korean was banned from schools, and the entire population was required to worship at Japanese Shinto shrines.",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name-change program (Sōshi-kaimei) was technically \"voluntary\" but carried severe practical penalties — Koreans without Japanese names found it increasingly difficult to enroll children in school or hold government jobs, so approximately 80 percent of the population complied. Korean-language newspapers that had published since 1920, including the Dong-A Ilbo and Chosun Ilbo, were forcibly shut down in 1940. Korean Christian congregations were required to add Shinto rituals to their services; refusal was treated as political resistance."
+        }
+      ],
+      "commonsFile": "Japanese_Name_Change_Bulletin_of_Taikyu_Court.jpg"
     },
     {
       "id": "evt-km-comfort-women",
       "label": "Comfort Women System",
       "year": 1937,
       "endYear": 1945,
-      "description": "The Imperial Japanese Army forced an estimated 50,000 to 200,000 women, the majority Korean, into military sexual slavery in 'comfort stations' across occupied Asia during World War II. The wartime mass rape system remains one of the most contested issues in Japan-Korea relations.",
+      "description": "From 1937, the Imperial Japanese Army established a network of military-supervised brothels across occupied Asia, forcing an estimated 50,000 to 200,000 women — the majority Korean — into sexual slavery. The system, euphemistically called 'comfort stations,' is one of the most contested and unresolved points in Japan–Korea relations today.",
       "wikiSlug": "Comfort_women",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Most survivors stayed silent for decades due to the stigma they faced in conservative Korean society; the first women publicly identified themselves in the early 1990s. Korean activists then began the Wednesday Demonstrations outside the Japanese Embassy in Seoul in 1992 — a protest that has continued every single Wednesday for over thirty years, making it one of the longest-running weekly protests in history. The 2015 Comfort Women Agreement between South Korea and Japan, promising a Japanese apology and ¥1 billion fund, collapsed politically within two years when the South Korean government under Moon Jae-in announced it was \"fundamentally flawed.\""
+        }
+      ],
+      "commonsFile": "Captured_comfort_women_in_Myitkyina_on_August_14_in_1944.jpg"
     },
     {
       "id": "evt-km-forced-labor",
       "label": "Wartime Forced Labor",
       "year": 1939,
       "endYear": 1945,
-      "description": "During World War II, Japan conscripted hundreds of thousands of Korean men as industrial laborers in mines and factories across the Japanese empire, including the Hashima coal mine where conditions were so brutal that survivors compared it to a prison camp.",
+      "description": "From 1939, Japan conscripted hundreds of thousands of Korean men as industrial laborers in mines, factories, and construction sites across the empire — including Hashima Island, an undersea coal mine off Nagasaki where survivors later described conditions as a prison camp.",
       "wikiSlug": "Korean_forced_laborers_in_Japan",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hashima Island (nicknamed 'Battleship Island' for its silhouette) was added to UNESCO's World Heritage list in 2015, which sparked a diplomatic dispute: Japan promised to acknowledge the forced-labor history at the site but then installed exhibits that critics said minimized it, leading UNESCO to formally criticize Japan's compliance in 2021. Modern South Korean government estimates put the total number of wartime Korean conscript laborers at around 800,000, though some historians put the figure higher. When atomic bombs hit Hiroshima and Nagasaki in August 1945, an estimated 70,000 of the casualties were Korean conscripts and laborers who had been brought to Japan to work."
+        }
+      ]
     },
     {
       "id": "evt-km-liberation",
       "label": "Liberation Day",
       "year": 1945,
-      "description": "Japan's surrender on August 15, 1945 ended 35 years of colonial rule. Soviet troops entered Korea from the north and American troops from the south, dividing the peninsula at the 38th parallel as a temporary administrative boundary that would harden into a permanent border.",
+      "description": "August 15, 1945 — the day Japan surrendered — ended thirty-five years of Japanese colonial rule over Korea. Koreans poured into the streets across the peninsula, but the celebration was almost immediately complicated by the arrival of Soviet troops from the north and American troops from the south, each occupying their half of a country that had not asked to be divided.",
       "wikiSlug": "Liberation_Day_(Korea)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Liberation Day (Gwangbokjeol in Korean, meaning 'day the light returned') is the only political holiday celebrated identically in both North and South Korea, though for very different official reasons. South Korea also marks it as the anniversary of the Republic of Korea's founding in 1948. Political prisoners held by Japan — including independence activists who had spent years in colonial jails — were released across the peninsula in the days surrounding August 15, their faces visible in photos taken outside prison gates."
+        }
+      ],
+      "commonsFile": "Surrender_of_Japanese_Forces_in_Southern_Korea.jpg"
     },
     {
       "id": "evt-km-38th-parallel",
       "label": "Division at the 38th Parallel",
       "year": 1945,
-      "description": "American officers Dean Rusk and Charles Bonesteel divided Korea at the 38th parallel in thirty minutes using a National Geographic map, intending it as a temporary occupation zone. The line hardened into one of the most heavily fortified borders on Earth.",
+      "description": "In roughly thirty minutes on August 10, 1945, two American army colonels drew a line across a National Geographic map and split Korea at the 38th parallel north — a latitude they picked because it kept Seoul in the American zone. The Soviets accepted it immediately, and a temporary administrative boundary became the permanent divide between two countries.",
       "wikiSlug": "38th_parallel_north",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two officers who drew the line — Dean Rusk and Charles Bonesteel III — were both junior colonels working through the night with almost no background on Korea. Rusk later recalled they had roughly thirty minutes and no large-scale map of the peninsula. The 38th parallel had actually been proposed as a dividing line between Russian and Japanese spheres of influence in Korea as far back as 1896 and again during the Russo-Japanese War in 1904 — though the American officers almost certainly didn't know that. The Soviet Union accepted the proposal within days, partly because Stalin was still in a cooperative post-war mood and partly because the American zone, despite being smaller in area, held two-thirds of Korea's population."
+        }
+      ]
     },
     {
       "id": "evt-km-rok-founded",
       "label": "Republic of Korea Founded",
       "year": 1948,
-      "description": "On August 15, 1948, the Republic of Korea was proclaimed in Seoul with Syngman Rhee as its first president. Three weeks later, the Democratic People's Republic of Korea was proclaimed in Pyongyang under Kim Il-sung.",
+      "description": "On August 15, 1948, exactly three years after liberation, the Republic of Korea was proclaimed in Seoul with seventy-three-year-old Syngman Rhee as its first president. Rhee was Princeton-educated, virulently anti-communist, and had spent three decades lobbying the United States for Korean independence from exile.",
       "wikiSlug": "South_Korea",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "South Korea claims to be the sole legitimate government of the entire Korean Peninsula — a claim that has never been formally withdrawn. The country has a population of about 52 million today, roughly half of whom live in the Seoul metropolitan area alone, making it the ninth most populous metro area in the world. Rhee's choice as president was partly driven by the thinness of alternatives: the American occupation authorities needed a prominent, English-fluent, non-communist nationalist, and Rhee was essentially the only candidate who checked all three boxes."
+        }
+      ]
     },
     {
       "id": "evt-km-dprk-founded",
       "label": "DPRK Founded Under Kim Il-sung",
       "year": 1948,
-      "description": "The Democratic People's Republic of Korea was proclaimed on September 9, 1948 with Kim Il-sung — a former anti-Japanese guerrilla fighter installed by Soviet authorities — as premier. He would rule the country until his death in 1994.",
+      "description": "On September 9, 1948, the Democratic People's Republic of Korea was proclaimed in Pyongyang with Kim Il-sung — a thirty-six-year-old former Manchurian guerrilla fighter, installed by Soviet authorities in a Soviet uniform in 1945 — as premier. He would not leave office until he died, forty-six years later.",
       "wikiSlug": "Kim_Il-sung",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kim Il-sung's real name was Kim Song-ju; he adopted the name 'Kim Il-sung' because it had reportedly been used by a legendary earlier Korean resistance fighter, and the North Korean state eventually erased the distinction between the two men entirely. He had spent the war years commanding a small partisan unit on the Soviet-Manchurian border, far from the main Korean independence movements. When he returned to Korea in 1945, he was virtually unknown domestically — Soviet backing, not personal fame, made him premier. Upon his death in 1994 he was declared Eternal President, a title he technically still holds."
+        }
+      ],
+      "commonsFile": "28.08.1946_Labour_Party_North_Korea.jpg"
     },
     {
       "id": "evt-km-jeju-uprising",
       "label": "Jeju Uprising",
       "year": 1948,
       "endYear": 1949,
-      "description": "Anti-government protesters and leftist guerrillas on Jeju Island were suppressed by South Korean police and military with American backing. Roughly 30,000 people, perhaps 10% of the island's population, were killed in counter-insurgency operations and reprisals.",
+      "description": "When local protests against southern-only elections on Jeju Island in April 1948 escalated into a leftist insurgency, the South Korean government launched a counter-insurgency campaign that killed approximately 30,000 people — roughly 10 percent of the island's entire population — through combat, reprisals, and deliberate civilian massacres.",
       "wikiSlug": "Jeju_uprising",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Jeju Uprising was effectively erased from South Korean public memory for the next half-century: mentioning it was politically dangerous under the successive authoritarian governments that followed. It wasn't until 1998 that a South Korean president — Kim Dae-jung — issued a formal apology, and open investigation of the death toll only began in the early 2000s. The uprising lasted from April 1948 through May 1949, overlapping with the formal founding of both Korean states and meaning the new Republic of Korea was fighting a domestic civil war on one of its own islands almost from its first day of existence."
+        }
+      ],
+      "commonsFile": "Jeju_Massacre.jpg"
     },
     {
       "id": "evt-km-korean-war-start",
       "label": "Korean War Begins",
       "year": 1950,
-      "description": "On June 25, 1950, North Korean forces crossed the 38th parallel in a coordinated invasion that overran most of South Korea within weeks. The United Nations Security Council, exploiting a Soviet boycott, authorized military intervention led by the United States.",
+      "description": "At four in the morning on June 25, 1950, North Korean forces crossed the 38th parallel in a coordinated, Soviet-equipped invasion. Seoul fell within three days. The United Nations Security Council — with the Soviet Union absent in protest over China's UN seat — authorized military intervention, the first time the UN had ever done so under Chapter VII of its charter.",
       "wikiSlug": "Korean_War",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kim Il-sung had spent twelve months personally lobbying both Stalin (in Moscow, twice) and Mao Zedong (in Beijing) for permission to invade. Stalin gave the green light in early 1950 partly because Secretary of State Dean Acheson had given a January speech conspicuously omitting Korea from America's defensive perimeter in Asia. The Chinese, who would end up bearing the greatest foreign costs of the war, were not told the invasion date. Estimates of total civilian deaths range from 1.5 to 3 million — the Korean War was among the deadliest conflicts for non-combatants of the entire Cold War."
+        }
+      ],
+      "commonsFile": "02_Dad_in_action_april1952_Korea_sepia.jpg"
     },
     {
       "id": "evt-km-pusan-perimeter",
       "label": "Pusan Perimeter",
       "year": 1950,
-      "description": "By August 1950, North Korean forces had pushed UN and South Korean troops into a small defensive enclave around the southeastern port of Pusan. The perimeter held until MacArthur's amphibious assault at Inchon turned the war.",
+      "description": "By August 1950, North Korean forces had overrun nearly 90 percent of South Korea and compressed the US and South Korean armies into a small defensive rectangle around the southeastern port of Pusan. The perimeter, anchored on the Naktong River, held for six weeks under constant attack until MacArthur's Inchon landing broke the siege.",
       "wikiSlug": "Battle_of_Pusan_Perimeter",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Battle of the Pusan Perimeter involved about 140,000 UN troops defending against roughly 98,000 Korean People's Army attackers — a reversal of the usual expectation that attackers need numerical superiority. The perimeter held partly because American sea and air supremacy let the US rush reinforcements by ship faster than the North Koreans could bring supplies overland down their increasingly stretched supply lines. The battle lasted from August 4 to September 18, 1950, making it one of the longest sustained defensive battles in American military history."
+        }
+      ],
+      "commonsFile": "27th_Infantry_Regiment_soldiers_at_the_Pusan_Perimeter,_September_4,_1950.jpg"
     },
     {
       "id": "evt-km-inchon-landing",
       "label": "Inchon Landing",
       "year": 1950,
-      "description": "On September 15, 1950, General Douglas MacArthur led an amphibious assault at Inchon, 150 miles behind North Korean lines. The landing severed the invading army's supply lines and recaptured Seoul within two weeks.",
+      "description": "On September 15, 1950, MacArthur's amphibious assault at Inchon — a port with a 32-foot tidal range that most naval planners considered impossible to land at — came ashore against light resistance, severed the North Korean supply lines, and recaptured Seoul in two weeks. It is regarded as one of the most audacious and successful military operations of the twentieth century.",
       "wikiSlug": "Battle_of_Inchon",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Operation Chromite, the code name for the Inchon landing, involved 75,000 troops and 261 naval vessels. The extreme tides at Inchon left only a few narrow daily windows when landing craft could approach without grounding on mud flats — a logistical nightmare that made most of MacArthur's staff oppose the plan. MacArthur chose Inchon precisely because it seemed impossible, reasoning that the North Koreans would not expect an attack there. The landing succeeded so quickly that American forces recaptured the South Korean capital of Seoul exactly three months after it had fallen."
+        }
+      ],
+      "commonsFile": "Battle_of_Inchon.png"
     },
     {
       "id": "evt-km-chinese-intervention",
       "label": "Chinese Intervention",
       "year": 1950,
-      "description": "After UN forces crossed the 38th parallel and approached the Yalu River, roughly 300,000 Chinese 'volunteers' under General Peng Dehuai poured across the border in November 1950, driving UN forces back south of Seoul in one of the largest military reverses in American history.",
+      "description": "In late October 1950, as American troops approached the Chinese border at the Yalu River, approximately 300,000 Chinese soldiers crossed at night and vanished into the mountains of northern Korea. When they attacked on November 25, they drove UN forces into one of the worst military reversals in American history, including the brutal winter withdrawal from the Chosin Reservoir.",
       "wikiSlug": "People%27s_Volunteer_Army",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "China called its forces the 'People's Volunteer Army' — a deliberate fiction, since they were regular army units, deployed to maintain the fiction that China was not officially at war with the United States. Mao had communicated his red line through the Indian ambassador K. M. Panikkar; MacArthur's intelligence chief dismissed the warnings as bluff. The Chinese intervention drove UN lines back more than 300 miles in roughly six weeks, the largest American military retreat since the Civil War. By January 1951 Chinese and North Korean forces had recaptured Seoul for the second time in seven months."
+        }
+      ]
     },
     {
       "id": "evt-km-macarthur-fired",
       "label": "MacArthur Dismissed",
       "year": 1951,
-      "description": "President Truman fired General MacArthur in April 1951 after MacArthur publicly advocated using nuclear weapons against China and expanding the war beyond Korea. The dismissal asserted civilian control over the military at the cost of MacArthur's enormous public popularity.",
+      "description": "President Truman dismissed General Douglas MacArthur in April 1951 after MacArthur publicly pushed to expand the war into China — including bombing Chinese cities and using nuclear weapons. The firing was a landmark assertion of civilian control over the military; MacArthur returned home to a hero's welcome while Truman's approval rating sank into the twenties.",
       "wikiSlug": "Relief_of_Douglas_MacArthur",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "MacArthur had openly defied Truman's Korea policy in a letter to the Republican House minority leader, published just before Truman fired him. The relief remains one of the most controversial civil-military moments in American history. MacArthur addressed a joint session of Congress on his return — his 'old soldiers never die, they just fade away' speech — but his subsequent bid for the Republican presidential nomination in 1952 collapsed quickly. Truman's successor Matthew Ridgway, who replaced MacArthur, halted the Chinese advance within months by spring 1951."
+        }
+      ],
+      "commonsFile": "Truman_and_MacArthur.JPG"
     },
     {
       "id": "evt-km-armistice",
       "label": "Korean War Armistice",
       "year": 1953,
-      "description": "On July 27, 1953, military commanders signed an armistice halting the fighting along a line roughly tracking the 38th parallel and establishing the 2.5-mile-wide Demilitarized Zone. No peace treaty was ever signed; the two Koreas remain technically at war.",
+      "description": "On July 27, 1953, military commanders from the UN, North Korea, and China signed an armistice at Panmunjom, halting the fighting along a line close to — but not identical to — the original 38th parallel. South Korean President Syngman Rhee refused to let any South Korean sign it. The two countries are still technically at war.",
       "wikiSlug": "Korean_Armistice_Agreement",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The armistice talks had dragged on for two full years, stalled mainly over POW repatriation: North Korea demanded all prisoners be returned, while the US insisted that POWs who wanted to defect should be allowed to. The final deal let roughly 22,000 Chinese and North Korean POWs choose not to return to communist control, most ending up in Taiwan or elsewhere — a significant propaganda win for the United States. The signers on the UN side were Lieutenant General William Harrison Jr. and General Mark W. Clark; no peace treaty has ever replaced the armistice in the seventy-plus years since."
+        }
+      ],
+      "commonsFile": "Korean_War_armistice_agreement_1953.jpg"
     },
     {
       "id": "evt-km-dmz",
       "label": "DMZ Established",
       "year": 1953,
-      "description": "The Korean Demilitarized Zone, a 2.5-mile-wide buffer running 155 miles across the peninsula, became one of the most heavily fortified borders on Earth. Roughly two million troops face each other across the line.",
+      "description": "The Korean Demilitarized Zone — a 2.5-mile-wide, 155-mile-long strip of no-man's land established by the 1953 armistice — is one of the most heavily armed borders on Earth, with roughly two million troops facing each other across it. Paradoxically, the near-total absence of human activity inside the DMZ has made it an accidental nature reserve.",
       "wikiSlug": "Korean_Demilitarized_Zone",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The DMZ does not follow the 38th parallel exactly — it tracks the front lines as they stood when the armistice was signed, which in some places dip south of the 38th and in others extend north. The village of Panmunjom sits inside the DMZ and is the only place where North and South Korean (and American) soldiers stand a few meters apart. Decades of being off-limits to human settlement have allowed the DMZ's interior to become an unintended wildlife sanctuary, with populations of endangered cranes, bears, and other species that have largely disappeared from the surrounding countryside."
+        }
+      ],
+      "commonsFile": "070401_Panmunjeom3.jpg"
     },
     {
       "id": "evt-km-syngman-rhee-out",
       "label": "Syngman Rhee Ousted",
       "year": 1960,
-      "description": "Massive student protests against Syngman Rhee's rigged March 1960 election forced the 85-year-old president to resign and flee to Hawaii. The April Revolution was South Korea's first popular overthrow of a sitting government.",
+      "description": "In April 1960, after the body of a high school student killed by police washed ashore in Masan Harbor, nationwide student protests forced eighty-five-year-old President Syngman Rhee to resign and flee to Hawaii. South Korea's first popular uprising against a sitting government ended the First Republic after twelve years.",
       "wikiSlug": "April_Revolution",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The trigger for the April Revolution was the discovery of the body of Kim Ju-yul, a student shot during protests against a blatantly rigged vice-presidential election — his corpse had been hidden in the harbor with a tear-gas canister wired to it. The protests peaked on April 19, when roughly 100,000 demonstrators took to the streets in Seoul; police killed approximately 180 of them. The United States embassy, rather than defending Rhee as it had for over a decade, made clear it no longer supported him — effectively ending his presidency. The brief parliamentary democracy that followed, the Second Republic, lasted only nine months before a military coup ended it."
+        }
+      ],
+      "commonsFile": "4.19_혁명.jpg"
     },
     {
       "id": "evt-km-park-chung-hee-coup",
       "label": "Park Chung-hee Coup",
       "year": 1961,
-      "description": "On May 16, 1961, Major General Park Chung-hee led a small group of officers in seizing power from the brief Second Republic. His military government would rule South Korea for the next eighteen years and engineer the country's industrial transformation.",
+      "description": "On May 16, 1961, Major General Park Chung-hee led a column of Marines and paratroopers across the Han River into Seoul, seized government buildings, and ended South Korea's Second Republic overnight. His Military Revolutionary Committee would rule South Korea for the next eighteen years.",
       "wikiSlug": "May_16_coup",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The coup was nominally led by Army Chief of Staff Chang Do-yong, who was only brought on board the day of — Park used him as a figurehead, then had him arrested in July and took the chairmanship himself. Before the coup, Park had been very nearly executed in a 1948 army purge for suspected Communist Party ties; he survived by naming fellow conspirators. The democratically elected Prime Minister Chang Myon was ousted after just nine months in office."
+        }
+      ],
+      "commonsFile": "5.16_Coup_Park_Chung-hee.jpg"
     },
     {
       "id": "evt-km-five-year-plans",
       "label": "First Five-Year Economic Plan",
       "year": 1962,
-      "description": "Park Chung-hee launched the first of a series of five-year economic plans modeled partly on Soviet-style central planning but oriented toward export industrialization. South Korea's GDP per capita quadrupled over the next decade.",
+      "description": "Starting in 1962, Park's government ran seven consecutive five-year economic plans that directed state credit toward targeted export industries, turning South Korea from one of the world's poorest countries into a developed industrial economy by the 1990s.",
       "wikiSlug": "Five-Year_Plans_of_South_Korea",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Between 1962 and 1996, South Korea implemented exactly seven five-year plans; the first four were pure Economic Development Plans, while the fifth through seventh were renamed Economic and Social Development Plans to signal a belated turn toward social welfare alongside growth. The plans shifted focus decade by decade — light manufacturing in the 1960s, heavy and chemical industry in the 1970s, high-tech in the 1980s — each phase deliberately laddering up the value chain."
+        }
+      ],
+      "commonsFile": "Gyeongbu_Express_Way.jpg"
     },
     {
       "id": "evt-km-japan-normalization",
       "label": "Japan Normalization Treaty",
       "year": 1965,
-      "description": "Park Chung-hee normalized diplomatic relations with Japan in exchange for $800 million in grants and loans, despite massive student protests against making peace with the former colonizer without a formal apology or full reparations.",
+      "description": "The 1965 Treaty of Basic Relations normalized South Korea's diplomatic relations with Japan, trading nationalist outrage for $800 million in grants and loans that became the seed capital for the Miracle on the Han — including most of the funding for POSCO, the steel giant.",
       "wikiSlug": "Treaty_on_Basic_Relations_between_Japan_and_the_Republic_of_Korea",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Japan refused to include a formal apology for the colonial period, and the treaty text settled all wartime compensation claims against the South Korean government in a lump sum — a position Japan still holds today, while Korean courts have continued to rule against Japanese companies in individual forced-labor cases. The massive student protests against the treaty forced Park to call in the army; it remains one of the most contested diplomatic acts in modern Korean history."
+        }
+      ],
+      "commonsFile": "A_copy_of_Treaty_on_Basic_Relations_between_Japan_and_the_Republic_of_Korea.jpg"
     },
     {
       "id": "evt-km-vietnam-deployment",
       "label": "Korean Forces in Vietnam",
       "year": 1965,
       "endYear": 1973,
-      "description": "South Korea deployed roughly 320,000 troops to Vietnam alongside US forces — the second-largest foreign contingent in the war. American payments for Korean military service and contracting work generated foreign currency that helped fuel the early Miracle on the Han.",
+      "description": "South Korea deployed roughly 320,000 troops to Vietnam between 1965 and 1973 — the second-largest foreign contingent after the Americans — and was paid in foreign currency, contracts, and preferential trade treatment that helped bankroll the early Miracle on the Han.",
       "wikiSlug": "South_Korea_in_the_Vietnam_War",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "American payments for Korean military service, contracting, and supply procurement amounted to roughly $1 billion over the war's duration, equivalent to several percent of annual South Korean GDP at the time — making the Vietnam War one of the largely unacknowledged financiers of the Korean economic miracle. The Korean Tiger and White Horse divisions also gained modern equipment and combat experience. Investigations since the 1990s have documented specific massacres of Vietnamese civilians by Korean troops, a history that remains a source of tension between the two countries."
+        }
+      ],
+      "commonsFile": "월남참전기념탑_1.jpg"
     },
     {
       "id": "evt-km-blue-house-raid",
       "label": "Blue House Raid",
       "year": 1968,
-      "description": "On January 21, 1968, a 31-man North Korean commando team infiltrated within 800 yards of the Blue House — South Korea's presidential residence — before being intercepted. The raid revealed the depth of the inter-Korean shadow war and led to dramatic security tightening.",
+      "description": "On January 21, 1968, a 31-man North Korean commando team slipped across the demilitarized zone (DMZ) and reached within 800 yards of the Blue House — South Korea's presidential residence in Seoul — before police intercepted them, triggering a bloody three-day pursuit across the city.",
       "wikiSlug": "Blue_House_raid",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Of the 31 commandos, 29 were killed, one was captured, and one escaped back to North Korea — making this one of the most lopsided failed assassination attempts of the Cold War. The raid killed 26 South Koreans and 4 Americans in the ensuing pursuit and left 66 more wounded, with about 24 of the dead being civilians caught in the crossfire. South Korea responded by creating the Homeland Reserve Forces — a militia of 2.5 million reservists — within months of the raid, dramatically reshaping how the country prepared for unconventional warfare."
+        }
+      ],
+      "commonsFile": "BlueHouseRaid5.png"
     },
     {
       "id": "evt-km-pohang-steel",
       "label": "POSCO Steel Plant Opens",
       "year": 1968,
-      "description": "The Pohang Iron and Steel Company, founded with Japanese reparations money under the leadership of former general Park Tae-jun, opened in 1973 and became one of the world's largest and most efficient steel producers — the foundation of Korea's heavy-industry export economy.",
+      "description": "POSCO (Pohang Iron and Steel Company), built largely on Japanese reparations money under former general Park Tae-jun, became one of the world's most efficient steel producers and the anchor of South Korea's heavy-industry export economy.",
       "wikiSlug": "POSCO",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "POSCO reached an output of 42 million metric tons of crude steel in 2015, making it the world's seventh-largest steelmaker by that measure; in 2010 it was briefly the world's most valuable steel company by market capitalization. The choice to site it in Pohang — a small coastal city on the southeast tip of the peninsula — was itself a deliberate industrial geography decision, placing heavy industry near a deep-water port."
+        }
+      ],
+      "commonsFile": "GwangyangIronworks.jpg"
     },
     {
       "id": "evt-km-saemaul",
       "label": "Saemaul Undong",
       "year": 1970,
-      "description": "Park Chung-hee launched the Saemaul Undong, the New Village Movement, a state-led rural development campaign that built rural roads, replaced thatched roofs with tile, and inculcated a regime-friendly ethic of self-help and discipline in the countryside.",
+      "description": "Park Chung-hee's Saemaul Undong (New Village Movement), launched in 1970, was a state-led rural modernization drive that built roads, replaced thatched roofs with tile, and electrified Korean villages — while also serving as a vehicle for authoritarian social mobilization in the countryside.",
       "wikiSlug": "Saemaul_Undong",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The movement's origins are more complex than official history allows: a rural developer named Dr. Kwak Ye-soon had already been running similar projects in North Gyeongsang Province since 1964 using his personal funds; Park encountered the project on an inspection tour and scaled it nationally. The Saemaul model has since been exported as a development template to dozens of countries in Africa and Asia, though critics note that its compulsory participation element doesn't translate cleanly into non-authoritarian contexts."
+        }
+      ]
     },
     {
       "id": "evt-km-yushin",
       "label": "Yushin Constitution",
       "year": 1972,
-      "description": "Park Chung-hee imposed the Yushin Constitution in October 1972, granting himself effectively unlimited terms, the power to appoint a third of the legislature, and the authority to rule by decree. Yushin marked South Korea's drift from soft authoritarianism into open dictatorship.",
+      "description": "Park Chung-hee's Yushin ('Revitalizing Reform') Constitution of October 1972 abolished direct presidential elections, allowed Park unlimited terms, gave him the power to appoint one-third of the National Assembly, and authorized him to rule by emergency decree — turning South Korea's soft authoritarianism into an open personal dictatorship.",
       "wikiSlug": "Fourth_Republic_of_Korea",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Yushin system replaced direct popular presidential elections with a rubber-stamp electoral college called the Yujonghoee — a body whose members Park himself controlled, making his re-election a formality. Park justified Yushin publicly as a temporary necessity for national security, framing it as a response to the easing of US–China tensions (Nixon's 1972 China opening made Seoul nervous about US commitment). The constitution remained in force until Park's assassination in October 1979, meaning South Korea spent seven years under a system with no legal mechanism for political change short of the leader's death."
+        }
+      ]
     },
     {
       "id": "evt-km-juche",
       "label": "Juche Becomes State Ideology",
       "year": 1972,
-      "description": "Kim Il-sung's North Korean regime formally enshrined Juche — usually translated as 'self-reliance' — as state ideology in the 1972 constitution. Over time Juche evolved into a quasi-religious justification for the Kim family's absolute rule.",
+      "description": "Juche (JOO-cheh, roughly 'self-reliance') is the official state ideology North Korea formally enshrined in its 1972 constitution — a doctrine blending Stalinist authority, Maoist mass mobilization, and Korean Confucian loyalty into a quasi-religious justification for absolute Kim family rule.",
       "wikiSlug": "Juche",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word Juche is more literally translated as 'the master subject' or 'standing on one's own,' which captures the ideology's core claim that the Korean people, led by the Kim family, need no outside guidance. By the 1970s, the cult built around the ideology ran deeper than Stalin's or Mao's — North Korean homes were required to display Kim Il-sung's portrait, and adults were required to wear his lapel pin in public. Diplomatically, Juche gave North Korea a Non-Aligned Movement identity, letting Kim pitch himself as a leader of postcolonial Asia and Africa while extracting aid from both the Soviet Union and China without fully committing to either."
+        }
+      ],
+      "commonsFile": "Juche_Tower_torch.jpg"
     },
     {
       "id": "evt-km-samsung-electronics",
       "label": "Samsung Electronics Founded",
       "year": 1969,
-      "description": "Samsung — originally a fruit and dried-fish trading company founded in 1938 — established its electronics division in 1969 with Japanese technical partnerships. It would become the world's largest memory chip maker and one of the largest companies on Earth.",
+      "description": "Samsung Electronics, founded in 1969 as Park's chaebol system was gaining full speed, leveraged Japanese technical partnerships to enter consumer electronics, then relentlessly climbed the value chain into semiconductors — eventually becoming the world's largest memory chip maker.",
       "wikiSlug": "Samsung_Electronics",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Samsung Electronics is the centerpiece of the Samsung chaebol, accounting for roughly 70 percent of the entire group's revenue as of 2012. The company is majority-owned by foreign investors despite the Lee family's tight grip on governance through cross-shareholdings across subsidiaries. Samsung alone accounts for roughly 20 percent of South Korean stock market capitalization in the 2020s — an extraordinary concentration for a single company in a developed economy."
+        }
+      ],
+      "commonsFile": "Samsung_headquarters.jpg"
     },
     {
       "id": "evt-km-hyundai-shipbuilding",
       "label": "Hyundai Heavy Industries",
       "year": 1972,
-      "description": "Hyundai's Ulsan shipyard, financed largely on the strength of personal guarantees from founder Chung Ju-yung, delivered its first supertanker in 1974. South Korea overtook Japan as the world's largest shipbuilder by the early 2000s.",
+      "description": "Hyundai Heavy Industries, founded at Ulsan in 1972 on the personal guarantees of chaebol patriarch Chung Ju-yung, became the world's largest shipbuilding company — a title it still holds — and a centerpiece of South Korea's heavy-industry export surge.",
       "wikiSlug": "Hyundai_Heavy_Industries",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chung Ju-yung famously secured the financing for the Ulsan shipyard before the yard existed, presenting a 500-won banknote (featuring Korea's Geobukseon turtle ship) to a Scottish bank to argue that Koreans had been building ships for centuries. HD Hyundai Heavy Industries today remains one of South Korea's \"Big Three\" shipbuilders alongside Hanwha and Samsung Heavy Industries — a concentration that gives Korea effective dominance over global commercial shipbuilding."
+        }
+      ],
+      "commonsFile": "Hyundai_heavy_industries.jpg"
     },
     {
       "id": "evt-km-yoido-megachurch",
       "label": "Yoido Full Gospel Megachurch",
       "year": 1973,
-      "description": "Yoido Full Gospel Church under pastor David Yonggi Cho grew into the world's largest megachurch, with peak claimed membership over 800,000. Korea's rapid Protestant Christianization during the industrialization decades made South Korea the most heavily evangelical country in East Asia.",
+      "description": "Yoido Full Gospel Church in Seoul, co-founded by pastor David Yonggi Cho in 1958 and moved to its current Yeouido location in 1973, grew into the largest single Christian congregation on Earth — a product of the Pentecostal prosperity gospel's powerful fit with South Korea's urbanizing industrial workforce.",
       "wikiSlug": "Yoido_Full_Gospel_Church",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The church now claims about 870,000 members, making it the largest Pentecostal congregation in South Korea and the world. Its current building was constructed by Sampoong Construction Industries — the same company that later built the Sampoong Department Store, which collapsed in one of the deadliest peacetime structural failures in history in 1995. South Korea's Pentecostal boom has made it the second-largest sender of Christian missionaries in the world after the United States."
+        }
+      ],
+      "commonsFile": "Yoido_Full_Gospel_Church_Outdoor_Cross.JPG"
     },
     {
       "id": "evt-km-park-assassination",
       "label": "Park Chung-hee Assassinated",
       "year": 1979,
-      "description": "On October 26, 1979, Park Chung-hee was shot to death at a private dinner by Kim Jae-gyu, the head of his own intelligence service, who said he was acting to save Korean democracy. The assassination ended eighteen years of Park's rule.",
+      "description": "On October 26, 1979, KCIA director Kim Jae-gyu shot and killed Park Chung-hee at a private dinner in a Seoul safehouse, ending eighteen years of Park's rule. The assassin was convicted of treason and hanged seven months later.",
       "wikiSlug": "Assassination_of_Park_Chung-hee",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Park's assassination was the first killing of a head of state on the Korean peninsula in 605 years — since the assassination of King Gongmin of Goryeo in the fourteenth century. Kim Jae-gyu's stated motive was stopping Park's security chief Cha Ji-cheol, who had argued for crushing the Busan-Masan demonstrations with military force \"even if 30,000 die\" — Kim shot Cha first at the same dinner before turning on Park."
+        }
+      ],
+      "commonsFile": "Park_Chung_Hee_(박정희)_Presidential_Portrait_(cropped).jpg"
     },
     {
       "id": "evt-km-chun-coup",
       "label": "Chun Doo-hwan Seizes Power",
       "year": 1979,
       "endYear": 1980,
-      "description": "Major General Chun Doo-hwan and his 'New Military' faction seized power in two stages — the December 12, 1979 coup that took control of the army, and the May 17, 1980 expansion of martial law that crushed civilian opposition.",
+      "description": "Major General Chun Doo-hwan seized control of South Korea in two moves: a December 1979 coup against fellow generals, then a May 1980 martial law expansion that crushed the civilian pro-democracy opening that followed Park Chung-hee's assassination.",
       "wikiSlug": "Chun_Doo-hwan",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chun's political vehicle was the Democratic Justice Party — the name a deliberate irony for a military dictatorship. He served as the fifth president from 1980 to 1988, a period South Korea officially designates the Fifth Republic. His rule ended not by another coup but by the June 1987 mass protests he could not shoot his way through."
+        }
+      ],
+      "commonsFile": "Chun_Doo-hwan_(전두환)_Presidential_Portrait.jpg"
     },
     {
       "id": "evt-km-gwangju-uprising",
       "label": "Gwangju Uprising",
       "year": 1980,
-      "description": "When Chun Doo-hwan extended martial law in May 1980, citizens of Gwangju rose in armed revolt. Special forces troops killed an estimated 200 to 600 civilians over ten days. Gwangju became the moral foundation of South Korea's democracy movement.",
+      "description": "In May 1980, citizens of Gwangju revolted against Chun Doo-hwan's martial law crackdown, only to be crushed by special forces troops who killed hundreds of civilians over ten days. The massacre became the moral foundation of South Korea's entire democracy movement.",
       "wikiSlug": "Gwangju_Uprising",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The official South Korean name for the event — the May 18 Democratization Movement — was only adopted after democratization; during the Chun years, discussing it publicly was dangerous. Casualty estimates range from 600 to over 2,300 killed, and the uncertainty itself reflects how hard the regime worked to suppress the historical record."
+        }
+      ],
+      "commonsFile": "Gwangju5.18FriedhofFotos.JPG"
     },
     {
       "id": "evt-km-rangoon-bombing",
       "label": "Rangoon Bombing",
       "year": 1983,
-      "description": "North Korean agents bombed a memorial in Rangoon, Burma, in October 1983, attempting to assassinate visiting South Korean President Chun Doo-hwan. He survived, but four cabinet members and seventeen others were killed.",
+      "description": "On October 9, 1983, North Korean agents detonated a bomb at a memorial in Rangoon, Burma (now Yangon, Myanmar), minutes before South Korean President Chun Doo-hwan was due to arrive. Chun was late and survived; 21 people were killed and 46 wounded, including four of his cabinet ministers.",
       "wikiSlug": "Rangoon_bombing",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The bomb was hidden in the ceiling of the memorial and triggered remotely — a level of operational sophistication that shocked intelligence agencies worldwide. Two of the three suspected bombers were captured; one confessed to being a North Korean military officer, providing rare direct proof of state-sponsored assassination. Burma, which had maintained diplomatic relations with North Korea, severed ties immediately after the attack — one of the few times a non-Western country publicly broke with Pyongyang over a specific act of violence."
+        }
+      ]
     },
     {
       "id": "evt-km-kal-007",
       "label": "KAL Flight 007 Shot Down",
       "year": 1983,
-      "description": "A Soviet fighter shot down Korean Air Lines Flight 007 over the Sea of Japan in September 1983, killing all 269 people aboard, including a US congressman. The incident became a Cold War flashpoint and a milestone in the militarization of North Pacific airspace.",
+      "description": "On September 1, 1983, a Soviet Sukhoi Su-15 interceptor shot down Korean Air Lines Flight 007 — a Boeing 747 that had strayed into Soviet airspace due to a navigation error — over the Sea of Japan, killing all 269 people aboard including US Congressman Larry McDonald.",
       "wikiSlug": "Korean_Air_Lines_Flight_007",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The plane was carrying 246 passengers and 23 crew when it was destroyed by air-to-air missiles near Moneron Island, west of Sakhalin; the Soviets had tracked it for over two hours and fired warning shots before the kill order was given. The Reagan administration used the shootdown as Cold War propaganda, calling it 'a crime against humanity,' and it prompted the US to make GPS navigation (then a classified military system) available to civilian aircraft once development was complete. The wreckage and flight recorders were recovered from the sea floor by the Soviet Navy but not disclosed until 1992, after the USSR collapsed."
+        }
+      ],
+      "commonsFile": "20559-186-HL7442-B747-230B-ZRH-5'80.jpg"
     },
     {
       "id": "evt-km-june-democracy",
       "label": "June Democracy Movement",
       "year": 1987,
-      "description": "Millions of South Koreans took to the streets in June 1987 demanding direct presidential elections after a student activist died under torture. Chun Doo-hwan's chosen successor Roh Tae-woo capitulated and accepted constitutional reform on June 29.",
+      "description": "Millions of South Koreans poured into the streets in June 1987 demanding direct presidential elections after a student was tortured to death by police. After 20 days of nationwide protests, the regime's chosen successor publicly capitulated on June 29, accepting all of the democracy movement's demands.",
       "wikiSlug": "June_Democratic_Struggle",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The June Democratic Struggle ran for exactly 19 days — June 10 to 29, 1987 — and was notable for involving the white-collar middle class (office workers in suits joining marches at lunchtime), not just students and dissidents. The movement directly led to the Constitution of the Sixth Republic, South Korea's current governing document, ratified by referendum in October 1987."
+        }
+      ],
+      "commonsFile": "For_a_society_not_oppressed_1987_date_unknown.png"
     },
     {
       "id": "evt-km-democratization",
       "label": "First Direct Presidential Election",
       "year": 1987,
-      "description": "Roh Tae-woo won South Korea's first direct presidential election in December 1987 with 36 percent of the vote, after the opposition split between Kim Young-sam and Kim Dae-jung. The election launched the Sixth Republic, the country's current democratic constitutional order.",
+      "description": "South Korea held its first direct presidential election in 16 years on December 16, 1987 — and the democracy movement immediately fumbled it: Roh Tae-woo, the regime's own candidate, won with just 36.6 percent because the two main opposition leaders, Kim Young-sam and Kim Dae-jung, both refused to stand aside.",
       "wikiSlug": "1987_South_Korean_presidential_election",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 1987 election was the first direct presidential vote since 1971 — the intervening years had used an electoral college controlled by the ruling party. The split between Kim Young-sam (28%) and Kim Dae-jung (27%) meant they collectively won a majority but gave the presidency to the man they'd just forced to capitulate; South Korean political memory has not entirely forgiven either of them."
+        }
+      ]
     },
     {
       "id": "evt-km-seoul-olympics",
       "label": "Seoul Olympics",
       "year": 1988,
-      "description": "The 1988 Summer Olympics in Seoul were South Korea's coming-out party, watched by an estimated three billion people. Hosting them required and accelerated the political opening that had been forced through in June 1987.",
+      "description": "The 1988 Seoul Olympics, watched by an estimated three billion people across 159 nations, were South Korea's global coming-out party after decades of poverty and dictatorship. The international spotlight had also been a key reason the Chun government stopped short of a Tiananmen-style massacre during the June 1987 protests.",
       "wikiSlug": "1988_Summer_Olympics",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Seoul 1988 was officially the Games of the XXIV Olympiad, held September 17 to October 2. With 8,391 athletes and 237 events, it was one of the largest Summer Games to that point. The games coincided almost exactly with Roh Tae-woo's first year as president under the new democratic constitution, giving the transition an enormous boost of international legitimacy."
+        }
+      ],
+      "commonsFile": "1988_Summer_Olympic_games_countries.png"
     },
     {
       "id": "evt-km-kim-il-sung-death",
       "label": "Kim Il-sung Dies",
       "year": 1994,
-      "description": "Kim Il-sung died of a heart attack on July 8, 1994, ending 46 years of personal rule. His son Kim Jong-il, formally designated successor since 1980, took over what would be one of the few successful dynastic transitions in a Communist state.",
+      "description": "Kim Il-sung, North Korea's founding dictator, died of a heart attack on July 8, 1994, ending 46 years of personal rule. His son Kim Jong-il, groomed as successor since 1980, inherited the state — one of the only successful dynastic transfers of power in communist history.",
       "wikiSlug": "Kim_Il-sung",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kim Il-sung had held power since 1948, making him one of the longest-ruling leaders of the twentieth century. After his death he was declared Eternal President of North Korea — the country is technically still governed in his name, with Kim Jong-il and now Kim Jong-un serving as heads of the ruling party and military rather than head of state. The accession happened at the worst possible moment economically: Soviet aid had already collapsed in 1991 and the catastrophic famine was about to begin."
+        }
+      ],
+      "commonsFile": "Kim_Il-sung_in_1950.jpg"
     },
     {
       "id": "evt-km-arduous-march",
       "label": "Arduous March Famine",
       "year": 1994,
       "endYear": 1998,
-      "description": "North Korea's famine after the Soviet collapse killed an estimated 600,000 to 2.5 million people in a population of 22 million. The regime called it the 'Arduous March'; survivors describe scenes of mass starvation and cannibalism.",
+      "description": "North Korea's catastrophic famine of 1994–1998, which killed an estimated 600,000 to 2.5 million people in a country of about 22 million — the result of the Soviet collapse cutting off fuel and fertilizer, failed harvests, and a government that rationed food away from ordinary citizens to protect the military and Pyongyang elites.",
       "wikiSlug": "North_Korean_famine",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The regime borrowed the name 'Arduous March' from a legendary Kim Il-sung guerrilla retreat, framing mass starvation as a heroic national ordeal rather than a policy failure. The famine triggered a surge in defections to China that peaked near its end, giving the outside world its first large-scale direct testimony about North Korean conditions. Most North Koreans today get food and goods through informal 'jangmadang' street markets that emerged as survival mechanisms during the famine — a permanent crack in the totalitarian model."
+        }
+      ],
+      "commonsFile": "501_cows_sent_to_North_Korea.jpg"
     },
     {
       "id": "evt-km-asian-financial-crisis",
       "label": "IMF Crisis",
       "year": 1997,
-      "description": "South Korea's economy nearly collapsed during the 1997 Asian financial crisis, requiring a $58 billion International Monetary Fund bailout. The crisis broke the chaebol's perceived invincibility and forced painful corporate restructuring.",
+      "description": "The 1997 Asian financial crisis began in Thailand and swept through South Korea like a wrecking ball — the won collapsed, the chaebol (large conglomerates) buckled, and the country accepted a $58 billion IMF bailout, the largest in IMF history at the time.",
       "wikiSlug": "1997_Asian_financial_crisis",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The crisis triggered the largest corporate bankruptcies in Korean history: Hanbo, Sammi, Kia Motors, and most spectacularly Daewoo, whose 1999 collapse was briefly the largest corporate bankruptcy in world history. The Korean economy contracted 5.5 percent in 1998 and unemployment quintupled; the IMF's austerity conditions — which included opening capital markets to foreign investors — felt humiliating to a country that had been a net aid recipient only twenty years earlier."
+        }
+      ]
     },
     {
       "id": "evt-km-kim-dae-jung",
       "label": "Kim Dae-jung Elected",
       "year": 1997,
-      "description": "Kim Dae-jung — a longtime dissident who had been kidnapped, sentenced to death, and exiled by previous military regimes — won the December 1997 presidential election. It was the first peaceful transfer of power to the opposition in Korean history.",
+      "description": "Kim Dae-jung — kidnapped by the KCIA in 1973, sentenced to death in 1980, and exiled in the 1980s — won the December 1997 presidential election and became South Korea's first president from the opposition. The peaceful transfer of power was a landmark: South Korea had gone from military dictatorship to genuine alternation of power in a single decade.",
       "wikiSlug": "Kim_Dae-jung",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kim Dae-jung served as the eighth president from 1998 to 2003. He implemented the IMF restructuring program successfully enough that South Korea repaid the entire bailout in 2001 — two years ahead of schedule. He also won the Nobel Peace Prize in October 2000, largely for the Sunshine Policy and the first inter-Korean summit."
+        }
+      ],
+      "commonsFile": "Kim_Dae-jung_presidential_portrait.jpg"
     },
     {
       "id": "evt-km-sunshine-policy",
       "label": "Sunshine Policy",
       "year": 2000,
-      "description": "Kim Dae-jung met Kim Jong-il in Pyongyang in June 2000 — the first inter-Korean summit since the war — launching engagement with North Korea through aid, family reunions, and the Kaesong Industrial Complex. He won the Nobel Peace Prize that year.",
+      "description": "South Korea's Sunshine Policy (1998–2008) tried engagement rather than pressure with North Korea, producing the first inter-Korean summit in 2000, joint economic projects, and family reunion events for those separated by the war — and winning Kim Dae-jung the Nobel Peace Prize.",
       "wikiSlug": "Sunshine_Policy",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The policy's name came directly from one of Aesop's fables: the sun beats the wind by using warmth, not force, to get a traveler to remove his coat. Its two most concrete products were the Mt. Kumgang Tourism Project (South Koreans visiting North Korea, 1998–2008, ended when a North Korean soldier shot a tourist) and the Kaesong Industrial Complex (South Korean firms employing North Korean workers inside the DPRK, 2004–2016). A second iteration of the policy ran from 2017 to 2020 under President Moon Jae-in."
+        }
+      ],
+      "commonsFile": "June_15th_Joint_Declaration_6.15_공동선언.jpg"
     },
     {
       "id": "evt-km-2002-world-cup",
@@ -585,55 +903,90 @@
       "id": "evt-km-broadband-leader",
       "label": "World's Fastest Internet",
       "year": 2003,
-      "description": "South Korea reached the world's highest broadband penetration rate by 2003, the result of a deliberate state push for fiber-optic infrastructure during the post-IMF recovery years. The connectivity underpinned the country's later gaming and platform economy.",
+      "description": "By 2003, South Korea had the highest broadband penetration rate of any country on Earth — the product of a deliberate state push for fiber-optic infrastructure during the post-IMF crisis years that turned the country into a high-bandwidth society before almost anywhere else.",
       "wikiSlug": "Internet_in_South_Korea",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The infrastructure advantage was partly structural: South Korea's population is heavily concentrated in dense apartment blocks, which made running fiber to millions of households far cheaper per-connection than in sprawling suburban countries. By 2011, about 49 million Koreans were online; the country has ranked first in the UN's ICT Development Index consistently since the index launched. That connectivity gave Korean creators a first-mover advantage in building online cultural products — streaming K-drama, competitive StarCraft leagues, and social platforms like Cyworld all preceded their Western equivalents."
+        }
+      ],
+      "commonsFile": "Korean.culture-PC.bang-01.jpg"
     },
     {
       "id": "evt-km-hallyu-drama",
       "label": "Winter Sonata Hallyu Boom",
       "year": 2002,
-      "description": "The Korean drama Winter Sonata became a sensation across Asia after airing on Japanese television in 2003, launching the wider Korean Wave of cultural exports. Lead actor Bae Yong-joon became one of the most popular foreign stars in Japanese history.",
+      "description": "Winter Sonata, a 2002 Korean romantic drama set partly on the scenic resort island of Namiseom, became a cultural earthquake in Japan after airing on NHK in 2003 — the spark that launched the broader Korean Wave (Hallyu) across Asia.",
       "wikiSlug": "Winter_Sonata",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Lead actor Bae Yong-joon — nicknamed 'Yon-sama' by Japanese fans — was mobbed at Tokyo's Narita Airport by thousands of fans, prompting Japanese tourism agencies to organize dedicated pilgrimage tours to the drama's filming locations. The show was later adapted into both an anime series and a stage musical, a rare double for a live-action drama."
+        }
+      ],
+      "commonsFile": "Winter_Sonata_Nami_Island.jpg"
     },
     {
       "id": "evt-km-kim-jong-il-death",
       "label": "Kim Jong-il Dies",
       "year": 2011,
-      "description": "Kim Jong-il died of a heart attack on December 17, 2011. His third son Kim Jong-un — then in his late twenties, formally introduced to the public only the year before — took over, becoming the third generation of the Kim dynasty.",
+      "description": "Kim Jong-il, North Korea's second supreme leader and the son of the country's founder, died of a heart attack on December 17, 2011 — ending a 17-year rule defined by the Arduous March famine, the acceleration of the nuclear program, and the systematic expansion of the political prison-camp system.",
       "wikiSlug": "Kim_Jong-il",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kim Jong-il came to power with very little public profile: he spent decades as an internal party operator before his father Kim Il-sung died in 1994, and most North Koreans had almost no direct information about him until he was already ruling. He was posthumously declared 'Eternal General Secretary' of the Workers' Party, joining his father as an eternal figurehead of the regime's founding dynasty. Outside analysts widely expected his death to trigger a succession crisis; instead power transferred to his son within weeks with no visible internal rupture."
+        }
+      ],
+      "commonsFile": "Vladimir_Putin_with_Kim_Jong-Il-2_(cropped)_(3).jpg"
     },
     {
       "id": "evt-km-kim-jong-un",
       "label": "Kim Jong-un Takes Power",
       "year": 2011,
-      "description": "Kim Jong-un, the youngest of Kim Jong-il's sons, succeeded his father in late 2011. He consolidated power within two years by purging his uncle Jang Song-thaek (executed in 2013) and reportedly assassinating his half-brother Kim Jong-nam in 2017.",
+      "description": "Kim Jong-un's takeover in late 2011 established the third generation of the Kim dynasty — a man in his late twenties with no administrative track record who, within two years, had purged and publicly executed his own uncle Jang Song-thaek and reportedly arranged the assassination of his half-brother Kim Jong-nam with VX nerve agent at Kuala Lumpur airport in 2017.",
       "wikiSlug": "Kim_Jong-un",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kim Jong-un holds every major title simultaneously: general secretary of the Workers' Party, president of the State Affairs Commission, and supreme commander of the Korean People's Army. Reports persist that he underwent cosmetic surgery to enhance his physical resemblance to his revered grandfather Kim Il-sung, reinforcing the dynasty's ideological continuity. By the mid-2020s he had been photographed at public events with his young daughter Kim Ju-ae in what analysts read as early succession signaling — potentially positioning a fourth generation."
+        }
+      ],
+      "commonsFile": "Kim_Jong-un_and_Vladimir_Putin_(2023-09-13)_12_(cropped).jpg"
     },
     {
       "id": "evt-km-gangnam-style",
       "label": "Gangnam Style Goes Viral",
       "year": 2012,
-      "description": "PSY's 'Gangnam Style' became the first YouTube video to surpass one billion views in December 2012, demonstrating K-pop's potential as a viral global phenomenon. The horse-riding dance was widely seen as the breakout moment for Korean pop in Western markets.",
+      "description": "In December 2012, Seoul rapper PSY's 'Gangnam Style' became the first YouTube video ever to reach one billion views — with lyrics entirely in Korean and a horse-riding dance that world leaders couldn't resist copying.",
       "wikiSlug": "Gangnam_Style",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "YG Entertainment released the song on July 15, 2012, and its target was satire: PSY was mocking the Gangnam district's nouveau riche culture by pretending to live that lifestyle while filming in a parking garage and on a children's pony. At its peak it was receiving roughly 3 million new views per day. YouTube had to upgrade its view-counter code when the tally threatened to overflow a 32-bit integer."
+        }
+      ],
+      "commonsFile": "FMFA_2013_(8565145586).jpg"
     },
     {
       "id": "evt-km-sewol-ferry",
@@ -649,90 +1002,145 @@
       "id": "evt-km-park-geun-hye-impeached",
       "label": "Park Geun-hye Impeached",
       "year": 2017,
-      "description": "Park Geun-hye, daughter of Park Chung-hee and the country's first female president, was impeached in December 2016 and removed by the Constitutional Court in March 2017 over a corruption scandal involving her confidante Choi Soon-sil. She was later sentenced to 22 years in prison.",
+      "description": "South Korea's first female president, Park Geun-hye, was impeached by the National Assembly in December 2016 and permanently removed by the Constitutional Court in March 2017, after a corruption scandal exposed that her private confidante Choi Soon-sil had been editing presidential speeches, pressuring chaebol executives for donations, and influencing state decisions without holding any official position.",
       "wikiSlug": "Impeachment_of_Park_Geun-hye",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The National Assembly vote was 234 to 56 — more than half of Park's own Saenuri Party lawmakers voted against her. The Constitutional Court's removal decision was unanimous, 8 to 0. Park was eventually sentenced to 22 years in prison, though she was later pardoned by her successor Yoon Suk-yeol in December 2021 on health grounds. She is the daughter of former dictator Park Chung-hee, making hers the most symbolically layered political fall in modern Korean history."
+        }
+      ],
+      "commonsFile": "(붙임_1)_박근혜_대통령_탄핵결정_선고(2017._3._10.).png"
     },
     {
       "id": "evt-km-candlelight-protests",
       "label": "Candlelight Protests",
       "year": 2016,
       "endYear": 2017,
-      "description": "Millions of South Koreans gathered weekly in central Seoul from October 2016 through Park Geun-hye's removal in 2017, holding candles in the largest sustained peaceful protests in Korean history. The candlelight movement became a defining symbol of post-authoritarian civic life.",
+      "description": "From October 2016 through March 2017, millions of South Koreans gathered weekly in central Seoul holding candles, demanding President Park Geun-hye's resignation over the Choi Soon-sil corruption scandal. The protests — the largest sustained peaceful demonstrations in Korean history — became a defining expression of the country's post-authoritarian civic culture.",
       "wikiSlug": "2016%E2%80%932017_South_Korean_protests",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Single weekend gatherings drew over a million people, yet there was essentially no violence, almost no property damage, and strikingly little confrontation with police. The protests ran for roughly 20 consecutive weekends, in cold winter weather, with sustained turnout that most observers considered unprecedented for a democracy responding to executive corruption. The constitutional impeachment process that followed is now cited internationally as a model of democratic accountability."
+        }
+      ],
+      "commonsFile": "Korea_Candlelight_Protest_05.jpg"
     },
     {
       "id": "evt-km-bts-global",
       "label": "BTS Global Phenomenon",
       "year": 2017,
-      "description": "BTS, a seven-member K-pop group debuted in 2013 by the small label Big Hit, won their first Billboard Music Award in 2017 and went on to top the Billboard 200 album chart five times — the first Korean act to do so in any genre.",
+      "description": "BTS — seven members, debuted 2013 under the small agency Big Hit Entertainment — broke the American music market wide open by 2017, eventually topping the Billboard 200 five times and becoming arguably the biggest pop act on the planet.",
       "wikiSlug": "BTS",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The group co-writes and co-produces most of their own material, an unusual degree of creative control in the K-pop idol system, and their lyrics regularly engage with mental health, the pressures of school-age youth, and the journey toward self-love — themes that resonated globally with Gen Z audiences. Their name in Korean (방탄소년단, Bangtan Sonyeondan) translates roughly as 'Bulletproof Boy Scouts,' a reference to resisting social bullets and criticism."
+        }
+      ],
+      "commonsFile": "BTS_during_a_White_House_press_conference_May_31,_2022_(cropped).jpg"
     },
     {
       "id": "evt-km-pyeongchang-olympics",
       "label": "PyeongChang Winter Olympics",
       "year": 2018,
-      "description": "The 2018 Winter Olympics in PyeongChang opened with North and South Korean athletes marching together under a unified Korean Peninsula flag, briefly thawing inter-Korean relations enough to set up the year's diplomatic openings.",
+      "description": "The 2018 Winter Olympics, held in PyeongChang, South Korea, opened with North and South Korean athletes marching together under a unified Korean Peninsula flag — a piece of diplomatic choreography that temporarily thawed relations enough to set up the year's inter-Korean summits.",
       "wikiSlug": "2018_Winter_Olympics",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two Koreas also fielded a joint women's ice hockey team, the first unified Korean sports team to compete at the Olympics in more than a decade. The games ran February 9-25, 2018, just weeks before the April Panmunjom summit, and were explicitly used by both governments as a diplomatic opening. PyeongChang had bid unsuccessfully twice before finally winning the 2018 games on its third attempt."
+        }
+      ],
+      "commonsFile": "2018_Winter_Olympic_&_Paralympic_Torch,NMKCH.jpg"
     },
     {
       "id": "evt-km-moon-kim-summit",
       "label": "Moon-Kim Panmunjom Summit",
       "year": 2018,
-      "description": "President Moon Jae-in and Kim Jong-un met at Panmunjom on April 27, 2018 — the first inter-Korean summit in eleven years. Kim briefly stepped across the demarcation line, becoming the first North Korean leader to enter the South since 1953.",
+      "description": "South Korean President Moon Jae-in and North Korean leader Kim Jong-un met face to face at the Panmunjom truce village on April 27, 2018 — the first inter-Korean summit in eleven years — with Kim briefly stepping across the Military Demarcation Line into the South, the first time a North Korean leader had done so since the armistice was signed in 1953.",
       "wikiSlug": "2018_inter-Korean_summit",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two leaders signed the Panmunjom Declaration, committing to a formal end-of-war declaration, denuclearization \"of the Korean peninsula,\" and reconnection of inter-Korean rail and road links. Two follow-up summits followed the same year — one in May and a third in Pyongyang in September. All the agreements were effectively suspended once US-North Korea negotiations stalled in early 2019; none of the commitments have been implemented."
+        }
+      ],
+      "commonsFile": "Korea_Summit_2018_v1.jpg"
     },
     {
       "id": "evt-km-trump-kim",
       "label": "Trump-Kim Singapore Summit",
       "year": 2018,
-      "description": "US President Donald Trump met Kim Jong-un in Singapore on June 12, 2018 — the first meeting between sitting American and North Korean leaders. A subsequent Hanoi summit in February 2019 collapsed without an agreement.",
+      "description": "The first-ever meeting between sitting American and North Korean leaders: US President Donald Trump and Kim Jong-un shook hands at the Capella Hotel on Singapore's Sentosa Island on June 12, 2018, producing a vague joint statement on 'denuclearization of the Korean Peninsula' but no binding commitments.",
       "wikiSlug": "2018_North_Korea%E2%80%93United_States_Singapore_Summit",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Trump later described Kim's letters to him as 'beautiful' and said they 'fell in love' — language that generated global headlines but no verifiable arms-control progress. A follow-up summit in Hanoi in February 2019 collapsed entirely when North Korea demanded broad sanctions relief in exchange for dismantling only one nuclear facility, and the US walked away. The Singapore declaration was the only agreed text from either summit."
+        }
+      ]
     },
     {
       "id": "evt-km-nuclear-test",
       "label": "Sixth North Korean Nuclear Test",
       "year": 2017,
-      "description": "North Korea tested what it claimed was a thermonuclear bomb on September 3, 2017 — its sixth and largest nuclear test, with an estimated yield over 100 kilotons. The test marked North Korea's effective entry into the nuclear-weapons club.",
+      "description": "North Korea's sixth and largest nuclear test on September 3, 2017, which it claimed was a thermonuclear (hydrogen) bomb — analysts broadly agreed the yield, estimated above 100 kilotons, was consistent with a thermonuclear or heavily boosted fission device, roughly six times the force of the Hiroshima bomb.",
       "wikiSlug": "2017_North_Korean_nuclear_test",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The test triggered a 6.3-magnitude seismic event detected worldwide, which is how outside governments first learned it had happened. It took place at the Punggye-ri underground test site in the northeast of the country, which subsequent satellite imagery showed had partially collapsed from the blast — likely ending its usefulness for further tests. The test occurred at the peak of the 2017–2018 standoff in which President Trump threatened 'fire and fury' and North Korean state media announced plans to test a missile near Guam."
+        }
+      ],
+      "commonsFile": "M_6.3_Explosion_-_22km_ENE_of_Sungjibaegam,_North_Korea.jpg"
     },
     {
       "id": "evt-km-parasite-oscar",
       "label": "Parasite Wins Best Picture",
       "year": 2020,
-      "description": "Bong Joon-ho's class-warfare thriller Parasite won Best Picture, Best Director, Best Original Screenplay, and Best International Feature at the 2020 Oscars — the first non-English-language film to win Best Picture in the Academy Awards' 92-year history.",
+      "description": "Bong Joon-ho's class-warfare thriller Parasite swept the 2020 Academy Awards — Best Picture, Best Director, Best Original Screenplay, and Best International Feature — the first non-English-language film to win Best Picture in the Oscars' 92-year history.",
       "wikiSlug": "Parasite_(2019_film)",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The film follows a poor family that methodically infiltrates the household of a wealthy Seoul family, using forgery and misdirection to replace the staff one by one. Bong had already won the Palme d'Or at Cannes in 2019 for the same film, making it the rare work to sweep both the world's most prestigious film festival and the Oscars in the same awards cycle."
+        }
+      ],
+      "commonsFile": "Bong_Joon-ho_2017.jpg"
     },
     {
       "id": "evt-km-covid-response",
@@ -748,75 +1156,123 @@
       "id": "evt-km-squid-game",
       "label": "Squid Game Global Hit",
       "year": 2021,
-      "description": "Hwang Dong-hyuk's Korean-language Netflix series Squid Game became the platform's most-watched show ever within four weeks of release in September 2021, reaching 142 million viewing households and cementing Korean content's place at the center of global streaming.",
+      "description": "Released on Netflix in September 2021, Squid Game — in which 456 debt-crushed contestants play lethal children's games for a ₩45.6 billion prize — became the platform's most-watched series ever within four weeks, reaching 142 million households worldwide.",
       "wikiSlug": "Squid_Game",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Creator Hwang Dong-hyuk wrote the first draft in 2008 during a period of personal financial hardship, but spent a decade unable to get it produced because studios found the premise too dark. Netflix greenlit it in 2019 and the show triggered a global interest in the Korean children's games it depicted — 'Red Light, Green Light' and 'Honeycomb' searches spiked internationally within days of the premiere."
+        }
+      ],
+      "commonsFile": "20210923—Jung_Hoyeon_정호연,_Squid_Game_promo,_ELLE_Taiwan_screenshot_(05m58s).jpg"
     },
     {
       "id": "evt-km-itaewon-disaster",
       "label": "Itaewon Crowd Crush",
       "year": 2022,
-      "description": "On the night of October 29, 2022, a Halloween crowd surge in a narrow alley in Seoul's Itaewon district killed 159 people, mostly young Koreans in their twenties. The disaster sharpened debates over public-safety governance and police preparedness.",
+      "description": "On the night of October 29, 2022, a Halloween crowd surge in a narrow alley in Seoul's Itaewon nightlife district killed 159 people and injured 196, most of them young Koreans in their twenties. Inadequate police preparation and slow emergency response turned a predictable crowd-density problem into one of the deadliest disasters in modern Korean history.",
       "wikiSlug": "Seoul_Halloween_crowd_crush",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Twenty-seven of the dead were foreign nationals, making it an internationally visible tragedy. Investigations found that emergency calls warning of dangerous crowding had been made hours before the crush, but police deployment was insufficient. No senior official was ultimately held criminally accountable, a outcome that became a sustained political grievance and contributed to the broader erosion of trust in the Yoon administration's management of public-safety crises."
+        }
+      ],
+      "commonsFile": "Itaewon_(이태원)_2022_Halloween.jpg"
     },
     {
       "id": "evt-km-birth-rate",
       "label": "World's Lowest Birth Rate",
       "year": 2023,
-      "description": "South Korea's total fertility rate fell to 0.72 in 2023 — the lowest of any country ever recorded in the modern era, less than half the population-replacement level — driven by housing costs, work-hour culture, and the gendered structure of childcare.",
+      "description": "South Korea's total fertility rate (the average number of children a woman has in her lifetime) fell to 0.72 in 2023 — the lowest number ever recorded for any country in the modern era, less than half the 2.1 births needed to keep a population stable.",
       "wikiSlug": "Demographics_of_South_Korea",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The country has been in absolute population decline since 2020, with deaths now exceeding births every year. The Seoul housing market is a central driver: years of price appreciation in districts like Gangnam have made family formation financially impossible for many young Koreans, producing the cultural phrase \"N-po sedae\" (the give-up-N generation) for those who have stopped expecting homeownership, marriage, or children. At a sustained 0.72 rate, Korea's population would halve roughly every 25 years."
+        }
+      ],
+      "commonsFile": "Crude_birth,_death_rate_of_South_Korea_(1925-2019).png"
     },
     {
       "id": "evt-km-yoon-martial-law",
       "label": "Yoon Suk-yeol Martial Law Crisis",
       "year": 2024,
-      "description": "On December 3, 2024, President Yoon Suk-yeol declared martial law in a televised speech, accusing the opposition-controlled National Assembly of treason. The Assembly voted to overturn the declaration within hours, and Yoon was impeached eleven days later.",
+      "description": "On December 3, 2024, President Yoon Suk-yeol declared martial law in a televised address, accusing the opposition-controlled National Assembly of treason and \"anti-state activities\" — the first martial law declaration in South Korea since the military dictatorship of 1980. The Assembly voted 190 to 0 to overturn it within hours, and Yoon was impeached eleven days later.",
       "wikiSlug": "2024_South_Korean_martial_law_crisis",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yoon's declaration was constitutionally self-defeating: the Korean constitution explicitly allows the National Assembly to demand the lifting of martial law by majority vote, and both ruling-party and opposition lawmakers rushed to the building to do exactly that. Citizens also gathered outside and some climbed the walls to enter. The military, crucially, did not attempt to physically prevent the Assembly from convening. Yoon had ordered the arrest of several political opponents — including leaders of both his own party and the opposition — before withdrawing the declaration roughly six hours after issuing it."
+        }
+      ],
+      "commonsFile": "2024년_대한민국_계엄_반대_시위대_깃발.jpg"
     },
     {
       "id": "evt-km-samsung-memory",
       "label": "Samsung Leads Memory Chips",
       "year": 1992,
-      "description": "Samsung Electronics overtook Toshiba and NEC to become the world's largest manufacturer of DRAM memory chips in 1992, establishing South Korea as a global semiconductor power and laying the foundation for Samsung's later dominance in NAND flash memory.",
+      "description": "Samsung Electronics became the world's largest DRAM memory chip manufacturer in 1992, overtaking Japanese rivals Toshiba and NEC and establishing South Korea as a global semiconductor superpower. Combined with SK Hynix, South Korea now controls roughly 60 percent of world DRAM production.",
       "wikiSlug": "Samsung_Electronics",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Samsung Electronics accounts for roughly 20 percent of the entire South Korean stock market's capitalization — meaning a single company moves the national economy in ways few firms anywhere else do. Foreign investors hold a majority of Samsung shares, making it one of the most internationally owned flagship companies in Asia. The semiconductor dominance was not inevitable: Samsung entered memory chips in the early 1980s when Japanese firms already had a commanding lead, and the government effectively subsidized the catch-up at enormous risk."
+        }
+      ]
     },
     {
       "id": "evt-km-kaesong-complex",
       "label": "Kaesong Industrial Complex",
       "year": 2004,
-      "description": "The Kaesong Industrial Complex, a joint venture run inside North Korea by South Korean firms employing North Korean workers, opened in 2004 as the most ambitious product of the Sunshine Policy. It was shuttered in February 2016 after a North Korean nuclear test.",
+      "description": "The Kaesong Industrial Complex, located just across the DMZ inside North Korea, operated from 2004 to 2016 as the most ambitious experiment in inter-Korean economic cooperation: South Korean companies ran factories employing tens of thousands of North Korean workers, generating hard currency for Pyongyang.",
       "wikiSlug": "Kaesong_Industrial_Region",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The complex was established in 2002 and officially opened in 2004 as a special administrative industrial region carved out of part of Kaesong, a historic Korean city that ended up on the North Korean side of the armistice line. At its peak it employed over 50,000 North Korean workers in roughly 125 South Korean companies. South Korea shut it down in February 2016 — under President Park Geun-hye — following a North Korean nuclear test; Moon Jae-in signaled his desire to reopen it in 2017 but it has not resumed operations."
+        }
+      ],
+      "commonsFile": "Kaesong_model_complex.jpg"
     },
     {
       "id": "evt-km-roh-suicide",
       "label": "Roh Moo-hyun Suicide",
       "year": 2009,
-      "description": "Former President Roh Moo-hyun, a left-of-center reformer who had served from 2003 to 2008, jumped from a cliff near his rural hometown in May 2009 while under prosecutorial investigation for corruption. His death intensified the country's already polarized politics.",
+      "description": "Former President Roh Moo-hyun (in office 2003–2008), a self-taught labor lawyer and the first Korean president without an elite educational background, jumped from a cliff near his rural hometown in May 2009 while under prosecutorial investigation for corruption. His supporters considered the investigation politically motivated; his death turned him into a martyr figure for the Korean left.",
       "wikiSlug": "Roh_Moo-hyun",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roh was the ninth president of South Korea. The investigation targeted bribes allegedly received by his family, and Roh had publicly apologized just weeks before his death. His suicide intensified South Korea's already fierce political polarization: his face now appears on Democratic Party campaign materials and his rural hometown Bongha Village became a pilgrimage site. The pattern of former presidents facing criminal prosecution after leaving office — Chun, Roh Tae-woo, Lee Myung-bak, Park Geun-hye all faced it — reflects both genuine accountability and persistent weaponization of the justice system."
+        }
+      ],
+      "commonsFile": "Roh_Moo-hyun_presidential_portrait.jpg"
     }
   ]
 }
