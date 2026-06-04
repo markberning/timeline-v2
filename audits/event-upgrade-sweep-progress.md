@@ -139,6 +139,12 @@ _(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china/elamite/nu
   map → vision over-rejected (the indus failure mode). OWED: one finder gap-fill round
   (web-verify real Commons files → re-gather → vision re-pick → re-apply → amend).
   Defer to the end-of-sweep low-coverage cleanup pass to avoid gather-lock contention.
+- **songhai-empire (d5b9cf98) — 63.6%, 4 thin chapters.** Same over-rejection pattern.
+  Recoverable among its 24 no-photo events: Tomb of Askia (UNESCO), Fall of Timbuktu,
+  Battle of Tondibi (1591), Ahmed Baba al-Timbukti, Taghaza salt mines, trans-Saharan
+  gold trade (Catalan Atlas Mansa Musa image), Askia Muhammad's hajj. Genuinely abstract
+  (honest rejects): ministerial/12-province administrative systems, succession crises,
+  cosmopolitan population. Same finder gap-fill round owed; same end-of-sweep cleanup pass.
 
 ## Worklist (smallest-first) — 61 remaining
 `/tmp/sweep-worklist.json` does NOT survive a session clear. Regenerate it any time with:
