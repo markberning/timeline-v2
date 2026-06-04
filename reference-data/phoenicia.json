@@ -58,396 +58,647 @@
       "id": "evt-byblos-papyrus-hub",
       "label": "Byblos as Papyrus Entrepôt",
       "year": -1500,
-      "description": "Byblos became the ancient world's clearinghouse for Egyptian papyrus, re-exporting it across the Mediterranean so thoroughly that the Greeks named the city 'Byblos' after the material — giving us the words 'biblos' (book) and ultimately 'Bible.'",
+      "description": "Byblos became the ancient world's papyrus clearinghouse, re-exporting Egypt's writing material across the Mediterranean so relentlessly that the Greeks named their word for book ('biblos') after the city — and from that root came 'Bible.'",
       "wikiSlug": "Byblos",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Byblos is one of the oldest continuously inhabited cities on earth, with evidence of settlement going back to around 5000 BCE and possibly as early as 8800 BCE — it was already ancient when the pharaohs first came to buy cedar. The city has been a UNESCO World Heritage Site since 1984, and its archaeological layers run from Canaanite through Egyptian, Phoenician, Persian, Hellenistic, Roman, and Ottoman periods, stacked almost literally under the modern town."
+        }
+      ],
+      "commonsFile": "Byblos-109933.jpg"
     },
     {
       "id": "evt-byblos-egyptian-trade",
       "label": "Byblos–Egypt Trade Flourishes",
       "year": -1450,
-      "description": "Byblos became a major hub exporting cedar wood, olive oil, and wine to Egypt in exchange for papyrus and gold.",
+      "description": "For over a thousand years before 1500 BCE, Byblos and Egypt ran the Mediterranean's most durable commercial partnership: Phoenician cedar, olive oil, and wine flowing south to timber-starved Egypt; gold and papyrus flowing back north.",
       "wikiSlug": "Byblos",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Egyptian records document cedar expeditions to Byblos as far back as around 2600 BCE, making this one of the oldest named trade routes in recorded history. The relationship ran so deep that Byblos developed its own Egyptian-influenced script and local rulers adopted Egyptian titles and artistic conventions — the city was culturally half-Egyptian for centuries before any formal empire claimed it."
+        }
+      ]
     },
     {
       "id": "evt-abimilki-tyre",
       "label": "Abimilki of Tyre",
       "year": -1350,
       "endYear": -1335,
-      "description": "King of Tyre who wrote Amarna letters to Pharaoh Akhenaten, documenting Phoenician politics under Egyptian suzerainty.",
+      "description": "Abimilki was the king (formally titled 'Prince') of Tyre around 1347 BCE, and he wrote ten letters to Pharaoh Akhenaten that survive in the Amarna archive — anxious dispatches from a Phoenician vassal-king navigating local threats while waiting for an empire that rarely wrote back.",
       "wikiSlug": "Abimilki",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "All ten of Abimilki's clay tablets are catalogued as EA 146–155. In EA 147, Akhenaten personally confirmed him as ruler of Tyre after his father's death; in EA 149, the pharaoh granted him the rank of 'rabisu' (roughly 'commissioner' or general), an Egyptian administrative title applied to loyal provincial officials. His letters, like those of Rib-Hadda of Byblos, show that the Phoenician cities conducted their diplomacy in Akkadian — the shared administrative language of the ancient Near East — not their own tongue."
+        }
+      ],
+      "commonsFile": "Amarna_letter-_Royal_Letter_from_Abi-milku_of_Tyre_to_the_king_of_Egypt_MET_24.2.12_EGDP021809.jpg"
     },
     {
       "id": "evt-ugaritic-alphabet",
       "label": "Ugaritic Cuneiform Alphabet",
       "year": -1300,
-      "description": "The city of Ugarit developed one of the earliest alphabetic scripts, a cuneiform alphabet of 30 letters that influenced later Phoenician writing.",
+      "description": "Around 1400–1300 BCE, scribes at Ugarit (in modern coastal Syria, just north of the Phoenician coast) invented an alphabet of only 30 letters, each representing a single consonant — a simplification so extreme that literacy went from a years-long professional training to something learnable in days.",
       "wikiSlug": "Ugaritic_alphabet",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Ugaritic alphabet is technically an 'abjad' — a script that records only consonants and leaves the reader to supply vowels from context, the same underlying logic the Phoenician alphabet inherited and passed to Greek and ultimately every modern Western alphabet. It was rediscovered in 1928 when French archaeologists excavated Ras Shamra in Syria. Other languages, including Hurrian (a completely unrelated tongue), were also occasionally written in Ugaritic, suggesting the alphabet's simplicity made it attractive well beyond its inventors."
+        }
+      ],
+      "commonsFile": "22_alphabet.jpg"
     },
     {
       "id": "evt-baal-cycle-texts",
       "label": "Baal Cycle Myths",
       "year": -1250,
-      "description": "The Ugaritic Baal Cycle tablets describe the storm god Baal's battles and kingship, reflecting core Canaanite-Phoenician religious beliefs.",
+      "description": "The Baal Cycle is a set of six cuneiform tablets found at Ugarit narrating the storm god Baal's battles, death, and resurrection — the most complete surviving example of Canaanite-Phoenician mythology, describing the same pantheon the Phoenicians would carry across the Mediterranean.",
       "wikiSlug": "Baal_Cycle",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The six tablets (catalogued as KTU 1.1–1.6) follow a tight arc: Baal defeats the sea-chaos god Yam, wins a divine palace on Mount Zaphon to mark his kingship, then is swallowed by Mot (Death) before eventually returning — mirroring the annual rhythm of summer drought and winter rain. The physical tablets were discovered at Ugarit in the 1920s–30s and are now held at the Louvre; scholars have noted striking structural parallels between Baal's story and the later Greek myth of Zeus defeating Typhon and establishing divine order."
+        }
+      ],
+      "commonsFile": "Baal_thunderbolt_Louvre_AO15775.jpg"
     },
     {
       "id": "evt-bronze-age-collapse",
       "label": "Bronze Age Collapse",
       "year": -1200,
-      "description": "The Sea Peoples destroyed many coastal cities, but Phoenician cities like Tyre and Sidon survived and rose to fill the power vacuum.",
+      "description": "Around 1200 BCE, nearly every major civilization in the eastern Mediterranean collapsed or contracted sharply — the Hittite Empire vanished entirely, Mycenaean Greece fell into a four-century dark age, Egypt permanently lost its Asian empire, and the city of Ugarit (the Phoenicians' cultural cousin) was sacked and never rebuilt. The Phoenician cities survived battered but standing, and the vacuum left by the fallen powers handed them an open sea.",
       "wikiSlug": "Late_Bronze_Age_collapse",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The collapse was sudden and violent across the region, affecting Egypt, Anatolia, the Aegean, and the Levant within a few generations. Scholars call it a 'systems collapse': the Bronze Age world was a surprisingly globalized economy (Egyptian gold, Cypriot copper, Afghan tin, Phoenician cedar all moved through the same trade web), and simultaneous stressors overwhelmed the whole network at once. The Hittite Empire was so thoroughly destroyed that its very existence was forgotten for three thousand years, rediscovered only by 19th-century CE archaeologists."
+        }
+      ]
     },
     {
       "id": "evt-adonis-cult-byblos",
       "label": "Adonis Cult at Byblos",
       "year": -1100,
-      "description": "The worship of Adonis (Phoenician Adon, meaning 'lord') centered at Byblos, where annual festivals mourned his death and celebrated his rebirth — a seasonal dying-and-rising myth linked to the Mesopotamian Tammuz tradition.",
+      "description": "At Byblos, annual festivals mourned the death of Adonis (from the Phoenician adon, meaning \"lord\") — a dying-and-rising god whose seasonal cycle, killed in summer and resurrected in spring, connected to the same agricultural logic behind Tammuz in Mesopotamia and Osiris in Egypt.",
       "wikiSlug": "Adonis",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Greek writers reported that the river near Byblos ran red each spring in mourning for Adonis — almost certainly natural iron-rich soil runoff that locals interpreted through the religious lens of the god's blood. In Greek mythology Adonis became Aphrodite's beautiful mortal lover, but the Byblos cult was older and purely about seasonal fertility rather than romantic love. The word \"Adonis\" entered English as a common noun for an exceptionally beautiful young man, preserving the deity's ancient association with male physical ideals."
+        }
+      ],
+      "commonsFile": "Cupid_with_Venus_and_Adonis,_fresco_in_Pompeii.jpg"
     },
     {
       "id": "evt-colony-utica",
       "label": "Founding of Utica",
       "year": -1101,
-      "description": "One of the earliest Phoenician colonies in North Africa, Utica served as a critical waypoint on western Mediterranean trade routes.",
+      "description": "Utica, on the Tunisian coast near the mouth of the Medjerda River, is traditionally considered the oldest Phoenician colony in North Africa, with a claimed founding date around 1101 BCE — though excavated remains confirm only a major settlement by the eighth century BCE at the latest.",
       "wikiSlug": "Utica,_Tunisia",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Utica controlled both a fertile agricultural hinterland and a sheltered river-mouth anchorage, making it a food-supply base as well as a transshipment point. After Rome destroyed Carthage in 146 BCE, Utica briefly served as the most important city in the region — its moment in the sun — before being eclipsed once Rome rebuilt Carthage and it reclaimed its old dominance."
+        }
+      ],
+      "commonsFile": "TUNISIE_UTIQUE_05.JPG"
     },
     {
       "id": "evt-colony-cadiz",
       "label": "Founding of Gadir (Cádiz)",
       "year": -1100,
-      "description": "Phoenicians established Gadir beyond the Pillars of Hercules, their westernmost colony and a gateway to Atlantic tin and silver trade routes.",
+      "description": "Gadir (modern Cádiz, Spain) was established by Phoenicians around 1100 BCE just beyond the Pillars of Hercules (the Strait of Gibraltar) — the western boundary of the navigable world as the ancient Mediterranean understood it — making it the Phoenicians' westernmost permanent colony and the gateway to Atlantic trade.",
       "wikiSlug": "Cádiz",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cádiz is one of the oldest continuously inhabited cities in Western Europe, a distinction it holds because of Phoenician commercial logic: its narrow-isthmus peninsula geometry mirrors the defensive island-headland pattern the Phoenicians used at every major colony. In the 18th century CE, millennia after its founding, Cádiz still held a virtual monopoly on Spanish trade with the Americas — the same geographic chokepoint, a different ocean."
+        }
+      ],
+      "commonsFile": "Cadiz_aerea.jpg"
     },
     {
       "id": "evt-sanchuniathon",
       "label": "Sanchuniathon's Histories",
       "year": -1100,
-      "description": "A semi-legendary Phoenician author from Berytus whose writings on Phoenician mythology and cosmogony survive in fragments via later Greek authors.",
+      "description": "Sanchuniathon was a semi-legendary Phoenician writer from Berytus (modern Beirut) whose histories and creation myths, reportedly composed around 1100 BCE, survive only in fragments quoted by later Greek and Christian authors — the longest window we have into Phoenician religion and cosmology.",
       "wikiSlug": "Sanchuniathon",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His three works, originally in the Phoenician language, reached us through a chain of transmission: Philo of Byblos (a Greek-speaking writer of the first-second century CE) claimed to have translated the originals, and bishop Eusebius then quoted Philo's version. The fragments contain creation narratives with structural echoes of both Mesopotamian cosmogonies and the Hebrew Bible, hinting at a shared mythological world the Phoenicians inhabited that is otherwise almost entirely lost because they wrote on perishable papyrus rather than durable clay."
+        }
+      ],
+      "commonsFile": "Sanchuniathon_fam_tree.png"
     },
     {
       "id": "evt-phoenician-shipbuilding",
       "label": "Phoenician Shipbuilding Innovations",
       "year": -1000,
-      "description": "Phoenician shipwrights pioneered the keeled hull for open-water stability and mortise-and-tenon joinery for watertight planking, later adding the bireme's second oar bank for speed — innovations that made them the ancient world's dominant naval architects.",
+      "description": "Phoenician shipwrights developed the keeled hull (a structural timber running the ship's length that kept it stable in open-water swells), mortise-and-tenon plank joinery (interlocking wooden pegs making hulls nearly watertight without caulking), and eventually the bireme (two tiers of oars per side, doubling rowing power in the same hull length) — a set of accumulated innovations that made Phoenician vessels the most advanced in the ancient world.",
       "wikiSlug": "Phoenicia#Navigation",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "They also built two purpose-built vessel types that defined naval architecture for centuries: the gaulos (a wide, round-hulled cargo ship optimized for capacity over speed) and the narrow long ship, the ancestor of the Greek trireme, for speed and fleet defense. The distinction between merchant ship and warship, so fundamental to all later naval history, was already clearly established in the Phoenician fleet by the early first millennium BCE."
+        }
+      ]
     },
     {
       "id": "evt-phoenician-alphabet",
       "label": "Phoenician Alphabet Invented",
       "year": -1050,
-      "description": "The Phoenicians developed the first widely-used linear alphabet of 22 consonant letters, ancestor of Greek, Latin, Arabic, and Hebrew scripts.",
+      "description": "Around 1050 BCE, Phoenician merchants and scribes settled on a writing system of just 22 consonant letters — no vowels, no syllable signs, no word-pictures — that any trader could learn in a week and that became the ancestor of virtually every alphabet on earth.",
       "wikiSlug": "Phoenician_alphabet",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Phoenician script was the first alphabet with a fixed, single writing direction: always right to left, unlike earlier multi-directional systems. Each letter name was a Semitic word whose first sound gave the letter its value (aleph = ox, beth = house), so the whole system was a mnemonic built from everyday objects. The script descended directly from Proto-Sinaitic, itself derived from Egyptian hieroglyphs by Semitic-speaking miners in the Sinai around 1800-1500 BCE."
+        }
+      ],
+      "commonsFile": "Barthélémy_Alphabet_phénicien.jpg"
     },
     {
       "id": "evt-ahiram-sarcophagus",
       "label": "Ahiram Sarcophagus Inscription",
       "year": -1000,
-      "description": "The sarcophagus of King Ahiram of Byblos bears one of the oldest known inscriptions in the Phoenician alphabet.",
+      "description": "The stone coffin of King Ahiram of Byblos, unearthed in 1923, carries one of the oldest substantial inscriptions in the mature Phoenician alphabet — a royal curse threatening any ruler who disturbs the tomb with having his throne overturned and his peace destroyed.",
       "wikiSlug": "Ahiram",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "French excavator Pierre Montet found the sarcophagus in tomb V of Byblos's royal necropolis. Scholars still debate the date, placing the inscription anywhere from 1000 to 850 BCE. The curse formula was already a standard legal-political tool, showing the alphabet had escaped the merchant's counting-house and entered the palace as a medium of royal authority almost from its earliest attested use."
+        }
+      ],
+      "commonsFile": "Ahiram_sarcophag_from_Biblos_XIII-XBC.jpg"
     },
     {
       "id": "evt-abibaal-king-byblos",
       "label": "Abibaal of Byblos",
       "year": -1000,
       "endYear": -975,
-      "description": "King of Byblos who maintained strong ties with Egypt and left an inscription on a statue of Pharaoh Shoshenq I.",
+      "description": "A king of Byblos in the mid-to-late tenth century BCE who left an inscription on a statue of Egyptian pharaoh Shoshenq I, confirming that Byblos still maintained its ancient diplomatic relationship with Egypt and was already using the Phoenician alphabet for royal and formal purposes.",
       "wikiSlug": "Abibaal",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shoshenq I (ruled roughly 943-922 BCE) was the founder of Egypt's Twenty-Second Dynasty and is widely identified with the biblical Shishak who raided Jerusalem. The inscription links Byblos's ruling class to one of the most powerful rulers of the era, showing the city still punched diplomatically above its weight long after Tyre had overtaken it as the commercial capital of Phoenicia."
+        }
+      ]
     },
     {
       "id": "evt-astarte-worship",
       "label": "Cult of Astarte at Sidon",
       "year": -1000,
-      "description": "Astarte, goddess of love and war, was the chief deity of Sidon. Her worship spread throughout the Mediterranean via Phoenician colonists.",
+      "description": "Astarte was the chief goddess of Sidon — a deity of love, war, and the sea whose cult spread throughout the Mediterranean wherever Phoenician traders and colonists settled, making her one of antiquity's most widely worshipped goddesses.",
       "wikiSlug": "Astarte",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Astarte is the Hellenized name for the Northwest Semitic goddess ʿAṯtart, the direct equivalent of the East Semitic Ishtar (the Babylonian goddess of love and war). The Greeks eventually identified her with Aphrodite, and the Romans with Venus — a chain of divine rebranding that shows how thoroughly Phoenician religious ideas were absorbed into classical culture. The Eshmunazar II sarcophagus inscription specifically mentions building a temple to Astarte at Sidon, naming her as 'Astarte of the Holy' — one of the rare first-person Phoenician records of the cult."
+        }
+      ],
+      "commonsFile": "Astarte_-_7th_cent_AD_-_Museo_Arqueológico_de_Sevilla-2.jpg"
     },
     {
       "id": "evt-hiram-i",
       "label": "Hiram I of Tyre",
       "year": -980,
       "endYear": -947,
-      "description": "Expanded Tyre into a major maritime power, supplied cedar and craftsmen to King Solomon for the construction of the First Temple in Jerusalem.",
+      "description": "Hiram I ruled Tyre from around 980 to 947 BCE, turning his city into the dominant commercial power on the Phoenician coast by forging a famous partnership with King Solomon of Israel — supplying cedar timber and master craftsmen for the First Temple in Jerusalem in exchange for grain, olive oil, and access to Red Sea trade routes.",
       "wikiSlug": "Hiram_I",
       "tier": 2,
       "tags": [
         "people",
         "trade"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The historian Josephus, drawing on the Phoenician writer Menander of Ephesus, records that Hiram lived 53 years and reigned for 34 — numbers that align closely with the biblical chronology. Hiram is one of the very few Phoenician rulers whose name appears independently in both biblical and non-biblical ancient sources, making him unusually well-documented for a Levantine king of this era. His reign fell during a rare geopolitical window when Egypt, Assyria, and Babylon were all too weak or distracted to interfere with Levantine commerce."
+        }
+      ],
+      "commonsFile": "KingHiramTombTyreLebanon.jpg"
     },
     {
       "id": "evt-murex-dye-process",
       "label": "Murex Dye Extraction Perfected",
       "year": -950,
-      "description": "Phoenician dyers perfected the laborious process of extracting purple pigment from murex sea snails — each shell yielded a single drop of mucus that, exposed to sunlight, turned from yellow-green to deep violet, requiring some 10,000 snails per gram of dye.",
+      "description": "Making Tyrian purple was staggering in scale and stench: workers cracked open tens of thousands of murex snails by hand, extracted a single tiny mucus gland from each, and collected the yellowish secretion into stone vats where sunlight transformed it into the prized deep violet — roughly 10,000 snails per gram of finished dye.",
       "wikiSlug": "Tyrian_purple",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Massive shell-midden deposits — some tens of feet deep, made entirely of crushed murex shells — have been excavated at Sidon and other Phoenician sites, giving physical scale to the operation. Ancient writers consistently named the stench of processing rotting shellfish as one of the defining (and repellent) features of Phoenician coastal cities. A pound of purple-dyed wool cost roughly a pound of silver, putting it in the same value tier as most metals."
+        }
+      ],
+      "commonsFile": "Contemporary_portrayal_of_a_toga_picta.jpg"
     },
     {
       "id": "evt-temple-melqart",
       "label": "Temple of Melqart at Tyre",
       "year": -950,
-      "description": "Hiram I built the great temple of Melqart, the patron god of Tyre, which became one of the most important religious centers in the ancient Mediterranean.",
+      "description": "Around 950 BCE, Hiram I built the great Temple of Melqart at Tyre — a shrine to the city's patron god that became one of the most important religious centers in the ancient Mediterranean and whose cult Phoenician colonists carried to every new port they founded.",
       "wikiSlug": "Melqart",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Greek visitors equated Melqart with their hero Heracles (Hercules), and the temple reportedly held two spectacular pillars — one of gold, one of emerald glass — whose light was visible from the sea. Alexander the Great demanded the right to sacrifice there during his siege of Tyre in 332 BCE; Tyre's refusal to allow a Macedonian king into a Phoenician sacred precinct was a stated trigger for the brutal siege that followed. When Phoenicians planted new colonies, a Temple of Melqart was typically among the first buildings raised — a deliberate act of transplanting Tyre's divine identity to new soil."
+        }
+      ],
+      "commonsFile": "Testa_di_herakles-melqart,_500-480_ac_ca,_da_cipro.jpg"
     },
     {
       "id": "evt-purple-dye-industry",
       "label": "Tyrian Purple Dye Industry",
       "year": -950,
-      "description": "Phoenicians perfected the extraction of purple dye from murex sea snails, creating the most prized luxury textile dye in the ancient world.",
+      "description": "Phoenicia's most famous industry was the reddish-purple dye extracted from murex sea snails — so expensive it became synonymous with royalty across the ancient world, and so identified with Phoenicia that the Greeks named the entire civilization after it (phoinix means crimson or purple).",
       "wikiSlug": "Tyrian_purple",
       "tier": 2,
       "tags": [
         "science"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The active molecule, 6,6'-dibromoindigo, is chemically similar to synthetic indigo used in modern denim, but with a crucial difference: Tyrian purple deepened with exposure to light rather than fading, making it uniquely durable as a status marker. The Roman Senate eventually restricted full purple to the emperor alone, and the Byzantine Empire maintained this tradition for nine centuries, calling a prince born to a reigning emperor porphyrogennetos (\"born in the purple\") — a direct inheritance of the Phoenician color's imperial meaning."
+        }
+      ],
+      "commonsFile": "Purple_Purpur_(retouched).jpg"
     },
     {
       "id": "evt-phoenician-ivory-trade",
       "label": "Phoenician Ivory Carving Trade",
       "year": -900,
-      "description": "Phoenician artisans became the ancient world's premier ivory carvers, producing intricate plaques, furniture inlays, and luxury objects blending Egyptian and Syrian motifs for export to Assyrian palaces and across the Mediterranean.",
+      "description": "Phoenician craftsmen were the foremost ivory carvers of the ancient Mediterranean, producing elaborate plaques, furniture inlays, and decorative panels that blended Egyptian lotus flowers and sphinxes with Mesopotamian sacred trees — a hybrid luxury style that sold everywhere from the Aegean to Assyria.",
       "wikiSlug": "Nimrud_ivories",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Most surviving Phoenician ivory was not found in Phoenicia: thousands of pieces came from the Assyrian palaces at Nimrud, stockpiled there as tribute and war booty, meaning the finest Phoenician carved ivory survives today largely because conquerors took it. Some pieces carry brief Phoenician inscriptions identifying their makers. The ivory itself came from two sources: African elephants via long-distance trade, and the Syrian elephant, a now-extinct subspecies that once ranged across northern Syria and the upper Euphrates valley."
+        }
+      ],
+      "commonsFile": "Inlaid_and_gilded_panel_-_WA_127412_-_British_Museum.JPG"
     },
     {
       "id": "evt-glass-blowing-sidon",
       "label": "Sidonian Glassmaking",
       "year": -900,
-      "description": "Sidon became the leading center of glass production in the ancient world, pioneering techniques for transparent and colored glass vessels.",
+      "description": "Sidon was the glassmaking capital of the ancient world, producing fine transparent and colored vessels using core-forming — molten glass wound around a clay core, decorated with colored glass threads, then scraped hollow after cooling — an expensive, intricate craft that supplied luxury markets across the Mediterranean.",
       "wikiSlug": "Sidon",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Glassblowing — the far faster technique of inflating molten glass on a hollow pipe — was probably invented in the Sidon-Tyre region around the first century BCE, suggesting Phoenician or Phoenician-descended craftsmen made the breakthrough that still defines glass craft today. Core-formed Phoenician glass vessels circulated as prestige goods from Egypt to Spain; their characteristic ribboned surfaces are immediately recognizable in museum collections. Sidonian glassblowers of the Roman era began signing their work with their city's name — one of the earliest examples of branded luxury goods."
+        }
+      ]
     },
     {
       "id": "evt-phoenician-stellar-navigation",
       "label": "Phoenician Stellar Navigation",
       "year": -900,
-      "description": "Phoenician sailors navigated by Ursa Minor (the Little Bear) rather than the Great Bear used by Greeks, fixing on the star closest to true north — a technique so identified with them that the Greeks called the constellation 'the Phoenician.'",
+      "description": "Phoenician sailors steered by Ursa Minor (the Little Bear constellation) rather than the larger Ursa Major used by Greek navigators — Ursa Minor's tip star sits closest to true north, giving Phoenician ships a more precise nighttime heading on long open-water passages.",
       "wikiSlug": "Ursa_Minor",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Greeks called Ursa Minor \"Phoinike\" — literally \"the Phoenician\" — a direct acknowledgment that this more accurate navigational technique was learned from Phoenician sailors. What we now call Polaris sits at the tip of Ursa Minor's handle; in 1000 BCE it was about 8 degrees off the exact celestial pole due to the slow wobble of Earth's axis (precession), but it was still far more precise than any star in the larger Great Bear. The practical advantage was real: a more accurate north fix allowed Phoenician navigators to hold tighter course estimates on long passages to Cyprus, Sardinia, and Spain."
+        }
+      ],
+      "commonsFile": "Book_of_the_Fixed_Stars_Auv0043_ursa_minor_cropped.jpg"
     },
     {
       "id": "evt-ithobaal-i",
       "label": "Ithobaal I of Tyre",
       "year": -887,
       "endYear": -856,
-      "description": "Priest-king who united Tyre and Sidon under one rule, expanding Phoenician territory and marrying his daughter Jezebel to King Ahab of Israel.",
+      "description": "Around 887 BCE, a priest of Astarte named Ithobaal I seized the throne of Tyre, became the first ruler to unite Tyre and Sidon under a single crown, and launched an expansionist policy that included founding new colonies and marrying his daughter Jezebel to King Ahab of Israel.",
       "wikiSlug": "Ithobaal_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The historian Josephus, citing the Phoenician writer Menander of Ephesus, describes Ithobaal as a priest who killed the previous king to take power — a palace coup with a religious veneer. His name means something close to \"Baal is with him\", a standard Phoenician theophoric (god-name-containing) royal name, the same divine name at the root of his daughter Jezebel's. For a brief span, the two most powerful Phoenician city-states answered to one crown — the closest Phoenicia ever came to a unified polity."
+        }
+      ]
     },
     {
       "id": "evt-jezebel",
       "label": "Jezebel, Princess of Sidon",
       "year": -874,
-      "description": "Phoenician princess who married King Ahab of Israel and promoted the worship of Baal, becoming one of the most infamous figures in the Hebrew Bible.",
+      "description": "Daughter of Ithobaal I of Tyre, Jezebel married King Ahab of Israel around 874 BCE as a diplomatic alliance between Phoenicia and the northern Israelite kingdom — and became one of the Hebrew Bible's greatest villains for promoting Baal worship in Israel and confronting the prophets of Yahweh.",
       "wikiSlug": "Jezebel",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The biblical Book of Kings delivers Jezebel one of the most elaborately described bad deaths in ancient literature: thrown from a window at Jezreel by the usurper Jehu, trampled by horses, and largely eaten by dogs — only her skull, feet, and hands remained. From a Phoenician perspective, her behavior was entirely conventional: a queen patronized her own gods, a practice universal across the ancient Near East. Her name in Hebrew may be a deliberate scribal insult, repointed from an original meaning of \"Where is the Prince (Baal)?\" to a form meaning \"Where is the dung?\""
+        }
+      ],
+      "commonsFile": "John_Liston_Byam_Shaw_003.jpg"
     },
     {
       "id": "evt-assyrian-tribute",
       "label": "Assyrian Tribute Imposed",
       "year": -842,
-      "description": "Shalmaneser III of Assyria forced Tyre and Sidon to pay heavy tribute, beginning a long era of Phoenician subjection to Mesopotamian empires.",
+      "description": "In 842 BCE, the Assyrian king Shalmaneser III marched his army to the Phoenician coast and forced Tyre, Sidon, and Byblos to pay heavy annual tribute — gold, silver, purple cloth, ivory, and exotic animals — inaugurating two centuries of Phoenician subjection to Mesopotamian empires.",
       "wikiSlug": "Shalmaneser_III",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shalmaneser III's campaigns are recorded on the Black Obelisk, a four-sided stone pillar now in the British Museum, which shows Phoenician and other Levantine rulers prostrating themselves before the Assyrian king with gifts. He conducted no fewer than 31 military campaigns during his 35-year reign, systematically extending Assyrian reach across the Levant. The tribute system the Assyrians imposed on Phoenicia was deliberately non-destructive: the cities stayed intact and commercially active, because a live revenue source was worth far more than a sacked ruin."
+        }
+      ],
+      "commonsFile": "Shalmaneser_III_(relief_detail).jpg"
     },
     {
       "id": "evt-pygmalion-tyre",
       "label": "Pygmalion of Tyre",
       "year": -831,
       "endYear": -785,
-      "description": "King of Tyre whose murder of his uncle the high priest Acerbas drove his sister Dido (Elissa) to flee and found Carthage. Under his long reign Tyre shifted its commercial heartland westward into the Mediterranean.",
+      "description": "Pygmalion, son of King Mattan I, ruled Tyre from 831 to 785 BCE. His alleged murder of his uncle Acerbas — high priest of Melqart and reportedly the wealthiest man in Tyre — triggered the crisis that drove his sister Dido to flee west and found Carthage.",
       "wikiSlug": "Pygmalion_of_Tyre",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pygmalion's reign of roughly 46 years was one of the longest on record in Tyre, coinciding precisely with the period of maximum Phoenician westward colonization. His name is the Phoenician form of a name also recorded in Greek mythology (the sculptor who fell in love with his own statue), though the two figures share nothing but the name."
+        }
+      ]
     },
     {
       "id": "evt-carthage-founded",
       "label": "Founding of Carthage",
       "year": -814,
-      "description": "Tyrian colonists led by Queen Dido (Elissa) founded Carthage in modern Tunisia, which grew into the dominant power of the western Mediterranean.",
+      "description": "Tyrian colonists led by the exiled princess Dido founded Carthage (from Phoenician 'Qart Hadasht,' meaning 'New City') around 814 BCE on a peninsula jutting into the Gulf of Tunis — a site so well-chosen it controlled the narrow chokepoint between the eastern and western Mediterranean.",
       "wikiSlug": "Carthage",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Carthage grew so dominant it eventually surpassed its mother city, Tyre, in wealth and power, drawing emigrants and capital from the Phoenician homeland as Assyrian and Babylonian pressure squeezed the Levant. At its height, it was one of the most affluent cities in the classical world. After Rome finally destroyed it in 146 BCE, the site was rebuilt as a Roman city that served as the capital of Roman Africa for centuries more."
+        }
+      ],
+      "commonsFile": "Archaeological_Site_of_Carthage-130237.jpg"
     },
     {
       "id": "evt-dido-queen-carthage",
       "label": "Queen Dido (Elissa)",
       "year": -814,
-      "description": "Legendary Tyrian princess who fled her brother Pygmalion and founded Carthage, becoming one of the most famous figures of Phoenician history and later Roman literature.",
+      "description": "Dido (also called Elissa) was the legendary Tyrian princess who fled her murderous brother Pygmalion, sailed west with loyal followers, and negotiated land from a local Berber king using the famous oxhide trick — cutting a single hide into thin strips to enclose a hilltop large enough for a citadel.",
       "wikiSlug": "Dido",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Virgil made Dido the tragic love interest of Aeneas in the Aeneid — a purely literary invention written nearly eight centuries after Carthage's founding. The oxhide-strip land deal appears in foundation myths from several Mediterranean cultures, which suggests it was a stock motif attached to clever founders rather than a literal record. Dido appears in both Greek and Roman tradition as Carthage's legendary first queen, and the story is the earliest known account of a real estate negotiation in North African history."
+        }
+      ],
+      "commonsFile": "Dido_Cochet_Louvre_ENT2000.10.jpg"
     },
     {
       "id": "evt-cadmus-alphabet-greece",
       "label": "Cadmus Brings the Alphabet to Greece",
       "year": -800,
-      "description": "In Greek mythology, the Phoenician prince Cadmus founded Thebes and introduced the Phoenician alphabet to Greece — a legend Herodotus endorsed, and modern scholarship confirms the script's Phoenician origin even if the hero is mythological.",
+      "description": "Greek myth credited a Phoenician prince named Cadmus, son of the king of Tyre and brother of Europa, with founding the city of Thebes and bringing the alphabet to Greece; Herodotus endorsed the tradition, and modern scholarship confirms the script's Phoenician origin even if the hero himself is legendary.",
       "wikiSlug": "Cadmus",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alongside Perseus and Bellerophon, Cadmus was counted among Greece's greatest heroes before Heracles. The myth credits him with not just the letters but with slaying a sacred dragon, sowing its teeth in the earth, and raising the first Theban warriors from the soil. The story packages a genuine historical transmission inside a culture-bringer myth, which was how the ancient world typically remembered the arrival of a transformative technology."
+        }
+      ],
+      "commonsFile": "Kadmos_dragon_Louvre_N3157.jpg"
     },
     {
       "id": "evt-greek-alphabet-adoption",
       "label": "Greeks Adopt Phoenician Alphabet",
       "year": -800,
-      "description": "Greeks adapted the Phoenician alphabet by adding vowels, creating the ancestor of all European scripts including Latin and Cyrillic.",
+      "description": "Sometime between 850 and 750 BCE, Greek traders borrowed the Phoenician 22-letter script wholesale, then made one crucial modification no Semitic user had needed: they repurposed several consonant letters for sounds Greek didn't use and turned them into vowels, creating the first alphabet to record both consonants and vowels.",
       "wikiSlug": "History_of_the_Greek_alphabet",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Greeks called their letters phoinikeia grammata, 'Phoenician letters,' openly crediting the source. Letter names like alpha, beta, gamma, and delta are meaningless in Greek but are ordinary Semitic words (ox, house, camel, door). Early Greek inscriptions show writing running right to left, or alternating direction line by line (boustrophedon, 'as the ox plows'), before eventually settling on left to right."
+        }
+      ],
+      "commonsFile": "Dipylon_Inscription.JPG"
     },
     {
       "id": "evt-nora-stone",
       "label": "Nora Stone Inscription",
       "year": -800,
-      "description": "The Nora Stone from Sardinia is the oldest known Phoenician inscription found outside the Levant, recording a military victory and providing the earliest written reference to Sardinia in any language.",
+      "description": "The Nora Stone, found at the ancient Phoenician colony of Nora on Sardinia's south coast in 1773, is the oldest known Phoenician inscription found anywhere outside the Levant — dated by its letter-forms to the late ninth or early eighth century BCE and containing the earliest written mention of Sardinia in any language.",
       "wikiSlug": "Nora_Stone",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stone was not in its original position when found (it had been reused in later construction), so the full context of what it records is debated, but most readings describe a military victory. Its letter-forms are significant beyond the text: they help scholars track the development of the Phoenician alphabet, the ancestor of Greek, Latin, and ultimately most modern Western writing systems."
+        }
+      ],
+      "commonsFile": "Stele_von_Nora_07.jpg"
     },
     {
       "id": "evt-phoenician-colonies-sardinia",
       "label": "Colonization of Sardinia",
       "year": -800,
-      "description": "Phoenicians established colonies at Nora, Sulci, and Tharros on Sardinia, exploiting the island's mineral wealth and strategic position.",
+      "description": "Phoenicians began settling Sardinia's southern and western coasts around the ninth century BCE, integrating peacefully with the existing Nuragic civilization (the indigenous culture famous for its stone tower-fortresses, called nuraghi) before Carthage later moved in to extract the island's copper, lead, and silver at industrial scale.",
       "wikiSlug": "Phoenician_and_Punic_Sardinia",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The early Phoenician arrival on Sardinia looks archaeologically like commerce, not conquest: Phoenician pottery appears mixed with Nuragic wares, suggesting trade and intermarriage rather than displacement. Carthage's later takeover was a different story — explicitly aimed at controlling the mineral-rich Iglesiente region and the fertile Campidano plains. Sardinia stayed in Carthaginian hands until Rome seized it in 238 BCE after the First Punic War."
+        }
+      ],
+      "commonsFile": "Epoca_punica,_stele_di_nora,_più_antico_scritto_della_sardegna,_850-725_ac_ca.,_dal_convento_dei_frati_mercedari_a_pula_01.jpg"
     },
     {
       "id": "evt-phoenician-tin-trade",
       "label": "Tin Trade with Britain",
       "year": -800,
-      "description": "Phoenician merchants sailed to the Cassiterides (possibly Cornwall or Brittany) to obtain tin, essential for bronze production across the Mediterranean.",
+      "description": "Phoenician merchants sailed beyond the Strait of Gibraltar into the Atlantic to trade for tin at sites ancient writers called the Cassiterides ('Tin Islands') — probably Cornwall, the Scilly Isles, or Brittany. Tin was essential for making bronze, and controlling its supply made the Phoenicians indispensable to every metal-working civilization in the Mediterranean.",
       "wikiSlug": "Cassiterides",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ancient sources describe the Phoenicians guarding the Cassiterides route jealously: one account claims a Phoenician captain deliberately ran his ship aground on a shoal rather than allow a Roman vessel to follow him and learn the way. The exact location was a trade secret even to ancient geographers, who placed the islands vaguely off the northwest coast of Europe — their precise identity is still debated by modern scholars."
+        }
+      ],
+      "commonsFile": "Plut_70_3_Cassiterides.jpg"
     },
     {
       "id": "evt-silver-trade-tartessos",
       "label": "Silver Trade with Tartessos",
       "year": -800,
-      "description": "Phoenician merchants traded extensively with Tartessos in southwestern Spain, tapping the Guadalquivir valley's enormous silver deposits — industrial-scale extraction at sites like Rio Tinto produced millions of tons of slag and made Phoenicia the ancient world's silver middleman.",
+      "description": "Phoenician merchants tapped the enormous silver deposits of Tartessos in southwestern Spain (roughly the Guadalquivir river valley region) and became the ancient world's primary silver middlemen — channeling Iberian metal east to Assyrian treasuries and across the Mediterranean.",
       "wikiSlug": "Tartessos",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Rio Tinto mining district near Tartessos produced millions of tons of slag, evidence of industrial-scale metal extraction that continued across antiquity and into the modern era. Tartessos had its own writing system — about 97 known inscriptions survive in a Tartessian script — though the language remains unclassified because too little has been recovered to crack. The biblical book of Ezekiel (chapter 27) lists 'silver, iron, and tin from Tarshish' as Tyrian imports, widely identified with Tartessos, giving this trade route an independent ancient attestation."
+        }
+      ],
+      "commonsFile": "Tartessos_500_BCE.jpg"
     },
     {
       "id": "evt-tophet-carthage",
       "label": "Tophet of Carthage",
       "year": -750,
-      "description": "The sacred precinct of Tanit and Baal Hammon in Carthage, a controversial religious site containing thousands of urns with cremated remains.",
+      "description": "The Tophet was a sacred precinct at Carthage dedicated to Tanit and Baal Hammon, containing thousands of burial urns with cremated remains — a site that has sparked fierce modern debate over whether it witnessed child sacrifice or was simply a cemetery for infants who died young.",
       "wikiSlug": "Tophet",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The controversy is genuinely unresolved: some scholars read the inscriptions dedicating urns 'to Tanit and Baal Hammon' as evidence of sacrificial offering, while others argue the site is a standard infant necropolis. Ancient Greek and Roman writers used the sacrifice charge to paint Carthage as barbaric — which makes the sources hard to trust. Similar precincts have been identified at other Phoenician and Punic sites across the western Mediterranean, suggesting the practice (whatever it was) was widespread."
+        }
+      ],
+      "commonsFile": "Fenici,_ricostruzione_di_un_santuario_con_tofet,_360-260_ac_ca._05.jpg"
     },
     {
       "id": "evt-tophet-child-sacrifice-debate",
       "label": "Ritual Child Sacrifice Debate",
       "year": -750,
-      "description": "Greek and Roman authors accused Carthaginians of sacrificing children to Baal Hammon. Modern archaeology confirms infant cremation urns at tophets, but scholars remain divided on whether the remains reflect sacrifice or the ritual burial of children who died naturally.",
+      "description": "The Tophet of Carthage — a large open-air sanctuary excavated in modern Tunis — contains thousands of urns holding the cremated remains of young children and animals, and has generated one of the most fiercely contested debates in ancient history: ritual sacrifice to Baal Hammon, or the burial ground for infants who died naturally?",
       "wikiSlug": "Religion_in_Carthage#Child_sacrifice",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The case for sacrifice: the infants are disproportionately very young (suggesting selection rather than random mortality), and some inscriptions appear to describe vows fulfilled through an offering. The case against: all literary sources describing the practice were written by Carthage's enemies (Greeks and Romans), infant mortality in the ancient world was catastrophically high, and the mix of animal bones suggests animals were substituted for human children in many cases. Credentialed scholars sit on both sides; this is a genuinely open question."
+        }
+      ],
+      "commonsFile": "CIS_1828_with_hand_drawing_Punic_inscription.png"
     },
     {
       "id": "evt-hiram-ii-tyre",
       "label": "Hiram II of Tyre",
       "year": -737,
       "endYear": -729,
-      "description": "King of Tyre who paid tribute to Assyria's Tiglath-Pileser III, then allied with Damascus against Assyria and lost Sidon — a disastrous gamble that shrank Tyre's territory and ended with his overthrow by Mattan II.",
+      "description": "Hiram II, king of Tyre from around 737–729 BCE, paid tribute to the Assyrian king Tiglath-Pileser III and then made the fatal mistake of joining an anti-Assyrian coalition with Damascus — a gamble that cost Tyre control of Sidon and ended with Hiram's overthrow.",
       "wikiSlug": "Hiram_II",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hiram II is one of several Tyrian kings who shared that dynastic name — it recycled across generations, which trips up scholars trying to sort out the royal sequence. His predecessor Ithobaal II was also listed as an Assyrian tributary the same year, suggesting the tribute records may be slightly mis-dated. The coalition with Damascus against Assyria was a pattern across the Levant in this period: small states kept gambling that combined resistance would work, and it almost never did."
+        }
+      ]
     },
     {
       "id": "evt-ethbaal-ii-tribute",
@@ -463,206 +714,334 @@
       "id": "evt-luli-tyre",
       "label": "Luli of Tyre Flees Sennacherib",
       "year": -701,
-      "description": "King Luli fled Tyre when Sennacherib of Assyria invaded, though Tyre's island fortress resisted a five-year siege.",
+      "description": "When the Assyrian king Sennacherib invaded the Levant in 701 BCE, Tyre's king Luli fled rather than submit — and yet Tyre's island fortress held out against Sennacherib's army for years, proving once again that no land force could take a city surrounded by sea.",
       "wikiSlug": "Luli",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Luli apparently ruled both Tyre and Sidon before the Assyrian invasion stripped Sidon away. He is recorded in Sennacherib's own annals as fleeing across the sea to Cyprus, where ancient sources say he died in exile. The island of Tyre, with walls running right to the waterline, was simply beyond the reach of any army that lacked a capable navy — a geographical advantage the city exploited repeatedly over centuries."
+        }
+      ]
     },
     {
       "id": "evt-kition-phoenician-cyprus",
       "label": "Phoenician Kition on Cyprus",
       "year": -700,
-      "description": "By the late 8th century BCE, Kition (modern Larnaca) had become the chief Phoenician city on Cyprus — a copper-rich trading hub with ship sheds for triremes that connected the Levant, Egypt, and the Aegean until Ptolemy I destroyed the dynasty in 312 BCE.",
+      "description": "Kition (modern Larnaca, on Cyprus's southern coast) was the main Phoenician foothold on Cyprus — a copper-rich island trading hub that connected Levantine merchants to Egypt and the Aegean for centuries before Ptolemy I finally dismantled its dynasty in 312 BCE.",
       "wikiSlug": "Kition",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cyprus sat at the crossroads of every major eastern Mediterranean trade route, and Phoenician Kition controlled access to the island's copper deposits at a time when copper was a strategic resource. The word 'copper' itself derives from 'Kypros,' the Greek name for the island. Kition's ship sheds (covered dry-dock facilities for warships) indicate the city maintained a serious naval presence, not just commercial activity."
+        }
+      ],
+      "commonsFile": "Großer_Tempel_Kition.JPG"
     },
     {
       "id": "evt-baal-hammon-carthage",
       "label": "Baal Hammon Worship at Carthage",
       "year": -700,
-      "description": "Baal Hammon, depicted as a bearded elder with curling ram's horns, rose to become the chief god of Carthage — a weather and fertility deity whose supremacy eclipsed the Tyrian patron Melqart as Carthage grew independent from its mother city.",
+      "description": "Baal Hammon (meaning \"Lord Hammon\") was the chief god of Carthage — a bearded, ram-horned weather and fertility deity considered king of the gods, worshipped exclusively in North Africa and Carthage's western Mediterranean colonies.",
       "wikiSlug": "Baal_Hammon",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike the Tyrian patron god Melqart (whom Carthage continued to honor with annual tribute payments to Tyre for centuries), Baal Hammon was distinctly Carthaginian — he appears to be a fusion of Punic and indigenous Berber religious traditions rather than something imported from the Phoenician homeland. His worship was geographically contained: it never spread beyond Carthaginian-controlled territories, unlike many ancient gods who traveled with trade routes."
+        }
+      ],
+      "commonsFile": "Terracotta_statue_of_Baal-Hammon_on_a_throne_AvL.JPG"
     },
     {
       "id": "evt-circumnavigation-africa",
       "label": "Circumnavigation of Africa",
       "year": -600,
-      "description": "Phoenician sailors commissioned by Pharaoh Necho II reportedly circumnavigated Africa, a feat not repeated for two thousand years.",
+      "description": "Around 600 BCE, Pharaoh Necho II of Egypt commissioned Phoenician sailors to circumnavigate Africa — setting out south from the Red Sea, following the African coast, and returning via the Strait of Gibraltar. The voyage, if real, took three years and would not be repeated until Vasco da Gama rounded the Cape of Good Hope in 1498 CE.",
       "wikiSlug": "Necho_II",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Necho II also attempted to dig a canal linking the Nile to the Red Sea — a project that prefigures the Suez Canal by 2,400 years. The best evidence that the circumnavigation actually happened is a detail Herodotus himself found unbelievable: the sailors reported the sun to their right (north) as they sailed west around southern Africa — which is exactly what you observe south of the equator. No Mediterranean forger would have known to invent that detail."
+        }
+      ],
+      "commonsFile": "Necho-KnellingStatue_BrooklynMuseum.png"
     },
     {
       "id": "evt-nebuchadnezzar-siege-tyre",
       "label": "Nebuchadnezzar's Siege of Tyre",
       "year": -586,
       "endYear": -573,
-      "description": "Nebuchadnezzar II besieged island Tyre for 13 years. The city eventually submitted but was never fully captured, maintaining limited autonomy.",
+      "description": "Nebuchadnezzar II of Babylon besieged island Tyre for thirteen years (roughly 586–573 BCE) — the longest documented siege of the ancient world — and still never captured it outright, eventually settling for a negotiated submission rather than a sack.",
       "wikiSlug": "Siege_of_Tyre_(586–573_BC)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The thirteen-year duration comes entirely from the historian Josephus, who cited Phoenician records; the Book of Ezekiel (chapter 29) itself acknowledges the siege was only partially successful. Some scholars date the start to 598/597 BCE rather than 586, based on Josephus's own internal chronology. For comparison, Alexander the Great's famous siege of Tyre — considered one of the most brilliant military operations in antiquity — lasted just seven months, making Nebuchadnezzar's failure to achieve even that result in thirteen years a remarkable testament to Tyre's island defenses."
+        }
+      ],
+      "commonsFile": "Siege_of_Tyre_by_Nebuchadnezzar_II.jpg"
     },
     {
       "id": "evt-battle-alalia",
       "label": "Battle of Alalia",
       "year": -535,
-      "description": "A Carthaginian-Etruscan fleet of 120 ships drove Phocaean Greeks from Corsica in a costly naval engagement, securing Carthaginian control of Sardinia and splitting the western Mediterranean into Punic and Etruscan spheres of influence.",
+      "description": "Around 535 BCE, a combined Carthaginian-Etruscan fleet of 120 ships confronted 60 Phocaean Greek vessels off Corsica in a brutal engagement that, despite the Greeks technically holding the field, left them so badly mauled they abandoned Corsica entirely — handing Sardinia to Carthage and Corsica to the Etruscans.",
       "wikiSlug": "Battle_of_Alalia",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Greek historian Herodotus called it a \"Cadmean victory\" (an ancient Greek idiom for winning at ruinous cost, like our pyrrhic victory), because the Phocaeans lost so many ships they couldn't stay. The surviving Greeks sailed away to southern Italy rather than return to their Corsican colony of Alalia, leaving the western Mediterranean effectively partitioned between the Punic-Etruscan alliance and the Greek-dominated east — a geopolitical division that held for the next three centuries."
+        }
+      ],
+      "commonsFile": "Location_Battle-of-Alalia.PNG"
     },
     {
       "id": "evt-mago-i-carthage",
       "label": "Mago I Founds the Magonid Dynasty",
       "year": -550,
       "endYear": -530,
-      "description": "A general who seized power and made Carthage the preeminent Phoenician military state in the western Mediterranean, allying with the Etruscans to expel Greeks from Corsica at Alalia and helping crush Tartessos in Spain.",
+      "description": "Around 550 BCE, a general named Mago I seized power in Carthage and founded the Magonid dynasty — the ruling house that would run the city for over a century and transform it from a wealthy trading hub into the dominant military force in the western Mediterranean.",
       "wikiSlug": "Mago_I_of_Carthage",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before Mago, Carthage relied on citizen militias (part-time soldiers drawn from the city's own population) topped up with hired mercenaries — a fragile arrangement for a state with serious enemies. Mago professionalized the army and forged a strategic alliance with the Etruscans, the powerful non-Greek civilization controlling central Italy, giving Carthage a partner capable of helping lock Greeks out of the western Mediterranean altogether."
+        }
+      ]
     },
     {
       "id": "evt-eshmunazar-ii",
       "label": "Eshmunazar II of Sidon",
       "year": -539,
       "endYear": -525,
-      "description": "His sarcophagus bears a lengthy Phoenician inscription warning against grave robbery, one of the most important Phoenician texts ever found.",
+      "description": "Eshmunazar II, king of Sidon in the early fifth century BCE, left behind one of the most important Phoenician texts ever found — a lengthy inscription carved on his Egyptian-style black basalt sarcophagus, combining a grave-robbing curse with a record of royal building projects.",
       "wikiSlug": "Eshmunazar_II",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Eshmunazar II died at age 14, making him one of antiquity's youngest rulers to leave a major inscription. His father Tabnit had died before Eshmunazar's birth, so the kingdom was run by his mother Amoashtart as regent from the start. The sarcophagus itself is Egyptian in design (carved from black basalt, shaped like a mummy case) and is now in the Louvre, reflecting how readily Phoenician elites absorbed foreign prestige aesthetics even while writing in their own language."
+        }
+      ],
+      "commonsFile": "Eshmunazar_II_sarcophagus_(31289612892).jpg"
     },
     {
       "id": "evt-phoenician-metalworking",
       "label": "Phoenician Bronze and Metalwork",
       "year": -900,
-      "description": "Phoenician smiths excelled at bronze casting, producing bowls, incense stands, and decorated vessels that blended Egyptian and Assyrian motifs — prized across the Mediterranean and exported as diplomatic gifts and luxury goods.",
+      "description": "Phoenician smiths produced decorated bronze bowls, incense stands, and ritual vessels blending Egyptian and Mesopotamian artistic traditions into a recognizable cosmopolitan luxury style — exported as diplomatic gifts and prestige goods from Spain to the Assyrian heartland.",
       "wikiSlug": "Phoenicia#Art",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Modern scholars call this visual strategy the \"international style\": a single bronze bowl might show an Egyptian pharaoh in a chariot flanked by Assyrian-style winged figures, all framed in a Levantine geometric border — making it legible and appealing to buyers in multiple cultures simultaneously. This eclecticism was commercial calculation, not confusion; the hybrid look maximized market reach. The Phoenician metal bowls and ivory carvings were identified as Phoenician in the same 19th-century excavations at Nimrud and together define the corpus of what we now call Phoenician art — even though almost no comparable examples have been found in Phoenicia itself."
+        }
+      ],
+      "commonsFile": "Phoenician-style_ewer_MET_DP23097.jpg"
     },
     {
       "id": "evt-temple-eshmun",
       "label": "Temple of Eshmun at Sidon",
       "year": -525,
-      "description": "A grand healing sanctuary dedicated to Eshmun, the Phoenician god of healing, built near Sidon with monumental terraces and pools.",
+      "description": "The Temple of Eshmun near Sidon was the ancient world's equivalent of a healing resort — a terraced sanctuary with ritual pools and baths dedicated to the Phoenician god of healing, drawing the sick from across the region for centuries.",
       "wikiSlug": "Temple_of_Eshmun",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The sanctuary site was in continuous use from the 7th century BCE all the way through the 8th century CE — over 1,400 years — which means it outlasted Phoenicia, the Persian Empire, Alexander's conquest, and the Roman Empire before finally going quiet. Eshmun was identified by the Greeks with their own healing god Asclepius, making the temple a point of religious convergence between Phoenician and Greek traditions. The complex was built into a hillside 1.2 miles (2 km) northeast of Sidon, blending Phoenician, Persian, and Greek architectural styles across successive building phases."
+        }
+      ],
+      "commonsFile": "Throne_of_Ashtart.jpg"
     },
     {
       "id": "evt-phoenician-temple-rites",
       "label": "Phoenician Sacred Temple Rites",
       "year": -500,
-      "description": "Greek and Roman writers described ritual sacred prostitution at Phoenician temples of Astarte, though modern scholars debate whether these accounts reflect actual Phoenician practice or Greek misunderstanding of foreign temple economies involving female cult personnel.",
+      "description": "Greek and Roman writers described elaborate sacred sexual rituals at Phoenician temples of Astarte, but modern scholars are deeply divided on whether these accounts reflect actual Phoenician practice or Greek misreading — and sensationalizing — of unfamiliar foreign religious customs involving dedicated female temple personnel.",
       "wikiSlug": "Sacred_prostitution",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Every ancient account of Phoenician \"sacred prostitution\" was written by Greek or Roman outsiders who had both cultural and theological reasons to portray eastern religion as licentious and morally inferior to their own. No Phoenician-language source describes these practices from the inside. The scholarly consensus has shifted sharply toward skepticism: what Greek writers called temple prostitution may have been legitimate ritual roles for female cult personnel that outside observers misunderstood or deliberately distorted."
+        }
+      ],
+      "commonsFile": "Ishtar_vase_Louvre_AO17000.jpg"
     },
     {
       "id": "evt-tanit-worship-carthage",
       "label": "Cult of Tanit at Carthage",
       "year": -500,
-      "description": "From the 5th century BCE, Tanit — a lunar and fertility goddess with a distinctive triangular symbol — eclipsed Baal Hammon as Carthage's most prominent deity, appearing first on inscriptions and eventually dominating Punic religious life across North Africa.",
+      "description": "From the fifth century BCE onward, the goddess Tanit — a lunar and fertility deity whose distinctive symbol (a trapezoid body, a horizontal bar, and a circle for a head) appears on thousands of Carthaginian grave markers — gradually eclipsed the older male sky-god Baal Hammon as the most important deity in Carthaginian religious life.",
       "wikiSlug": "Tanit",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tanit's symbol, sometimes called the \"sign of Tanit,\" is one of the most recognizable marks from the ancient world and appears carved on stelae (stone slabs) across Carthage's entire sphere of influence, from Spain to western Sicily to North Africa. Ancient Carthaginians placed her sign on homes and tombs as a protective mark. Scholars connect her to pre-Punic North African religious traditions that gave women a prominent spiritual role, and her annual festival persisted in parts of North Africa into the modern era before being banned by Muammar Gaddafi as a pagan practice."
+        }
+      ],
+      "commonsFile": "Bardo_National_Museum_tanit.jpg"
     },
     {
       "id": "evt-hanno-voyage",
       "label": "Hanno's Voyage Down Africa",
       "year": -500,
-      "description": "Carthaginian explorer Hanno sailed along the West African coast, possibly reaching modern Cameroon, and documented the journey in a famous periplus.",
+      "description": "Around 500 BCE, the Carthaginian admiral Hanno led a large fleet down the West African coast, possibly reaching modern Cameroon or Gabon, and recorded the journey in a periplus (a written sea-voyage guide) that survives in Greek translation as the earliest European account of sub-Saharan Africa.",
       "wikiSlug": "Hanno_the_Navigator",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hanno described hairy, aggressive creatures his interpreters called 'Gorillae' — almost certainly chimpanzees or gorillas. When western scientists formally classified the gorilla in 1847, they named it after Hanno's creatures, making a Carthaginian admiral's 2,300-year-old field notes the etymological source of the word 'gorilla.' Hanno also describes witnessing a volcano erupting at night, likely Mount Cameroon, one of West Africa's few active volcanoes."
+        }
+      ]
     },
     {
       "id": "evt-persian-fleet",
       "label": "Phoenician Fleet Serves Persia",
       "year": -480,
-      "description": "Phoenician ships formed the backbone of Xerxes' navy at the Battle of Salamis, demonstrating their continued naval supremacy despite Persian rule.",
+      "description": "At the Battle of Salamis in 480 BCE, Phoenician warships from Sidon, Tyre, and other coastal cities formed the elite core of Xerxes' Persian navy — and when the battle turned into a catastrophic Persian defeat, it was a military humiliation fought entirely in someone else's war.",
       "wikiSlug": "Battle_of_Salamis",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Persian fleet at Salamis numbered roughly 600–800 ships against about 370 Greek triremes, yet still lost — primarily because the narrow strait near Athens neutralized the Persian numerical advantage. Herodotus singles out the Phoenicians as the best sailors in the Persian fleet, and records that after the defeat Xerxes punished his Phoenician captains specifically, suggesting they had been expected to carry the battle. The Sidonian king personally commanded his contingent aboard his own ship, a level of royal involvement unusual even in ancient naval warfare."
+        }
+      ],
+      "commonsFile": "Battle_of_salamis.png"
     },
     {
       "id": "evt-carthage-sicily-wars",
       "label": "Battle of Himera",
       "year": -480,
-      "description": "A Carthaginian army under Hamilcar was defeated by Greek forces in Sicily, checking Punic expansion in the central Mediterranean.",
+      "description": "In 480 BCE — the same year the Greeks famously stopped the Persian fleet at Salamis — Carthage invaded Sicily with a massive army under king Hamilcar I, only to be decisively defeated by the Greek tyrants Gelon of Syracuse and Theron of Agrigentum at the Battle of Himera, ending Punic ambitions in the island for seventy years.",
       "wikiSlug": "Battle_of_Himera_(480_BC)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ancient sources describe Hamilcar consulting omens and watching sacrificial fires throughout the battle; when he saw the day was lost, he reportedly threw himself into the flames rather than be captured. The coincidence of Himera with Salamis led Greek writers to claim a coordinated Persian-Carthaginian conspiracy to crush Greek civilization from both ends — a theory modern scholars firmly reject as flattering mythology. The defeat was so catastrophic that Carthage paid massive reparations to the Sicilian Greeks and largely withdrew from Sicilian politics for generations."
+        }
+      ],
+      "commonsFile": "The_Battle_of_Himera_by_Giuseppe_Sciuti.jpg"
     },
     {
       "id": "evt-hamilcar-i-carthage",
       "label": "Hamilcar I of Carthage",
       "year": -510,
       "endYear": -480,
-      "description": "Magonid king who expanded Carthaginian territory in Sicily and Sardinia before leading the invasion force at Himera in 480 BCE, where he was killed — a defeat that ended Carthaginian military ambitions in Sicily for seventy years.",
+      "description": "Hamilcar I was the Magonid king of Carthage from roughly 510 to 480 BCE — three decades of steady territorial expansion in Sicily and Sardinia that culminated in the catastrophic invasion of eastern Sicily, where he died at Himera and his army was destroyed.",
       "wikiSlug": "Hamilcar_I_of_Carthage",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His reign was long enough that the Himera disaster wasn't the impulsive gamble of a new ruler but the overreach of a confident, experienced expansionist at the height of his ambition. The defeat froze Carthaginian military ambitions in Sicily for seventy years, and the humiliation became a multi-generational wound: his own grandson Hannibal Mago would spend 3,000 Greek prisoners' lives on the spot where Hamilcar died, as a sacrificial offering."
+        }
+      ]
     },
     {
       "id": "evt-hannibal-mago-himera",
       "label": "Hannibal Mago Destroys Himera",
       "year": -409,
-      "description": "The Magonid king Hannibal Mago — grandson of the Hamilcar killed at Himera in 480 BCE — sacked and razed the Greek city of Himera in revenge, a vendetta seventy years in the making that reasserted Carthaginian power in western Sicily.",
+      "description": "In 409 BCE, Hannibal Mago — grandson of the Hamilcar killed at Himera in 480 BCE — returned to the site of the family's humiliation with a Carthaginian army, razed the city to rubble, and executed 3,000 Greek prisoners on the spot where his grandfather had died.",
       "wikiSlug": "Battle_of_Himera_(409_BC)",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hannibal Mago had first sacked the nearby Greek city of Selinus before turning to Himera — a strategic sweep through western Sicily, not only a personal vendetta. The city of Himera was never rebuilt after 409 BCE; excavations begun in 2008 uncovered mass graves that corroborate the ancient accounts of the battle's brutality. The assault opened nearly a century of intermittent Carthaginian warfare against Sicilian Greek city-states."
+        }
+      ],
+      "commonsFile": "Him409.PNG"
     },
     {
       "id": "evt-mago-agriculture",
       "label": "Mago's Agricultural Treatise",
       "year": -450,
-      "description": "Carthaginian writer Mago produced a 28-volume treatise on agriculture so valued that the Roman Senate ordered it translated into Latin after Carthage's fall.",
+      "description": "A Carthaginian writer named Mago produced a 28-volume encyclopedia of farming techniques so highly regarded across the ancient world that after Rome destroyed Carthage in 146 BCE, the Roman Senate ordered it translated into Latin — the only Carthaginian book they thought worth saving from the fires.",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Roman Senate also commissioned a Greek translation, meaning the work was preserved in two languages even as everything else Carthage ever wrote was incinerated. The original Punic text is entirely lost; what survives are fragments quoted by later Latin agricultural writers like Columella and Pliny the Elder. The treatise apparently covered soil types, crop rotation, viticulture, and the management of large estates — the intensive farming that made Carthage's North African hinterland one of the most productive agricultural zones in the ancient world."
+        }
+      ]
     },
     {
       "id": "evt-cothon-harbor",
       "label": "Cothon Harbor of Carthage",
       "year": -400,
-      "description": "Carthage's famous circular military harbor could shelter 220 warships with a central admiralty island, an engineering marvel of the ancient world.",
+      "description": "Carthage's great double harbor was the most sophisticated port facility in the ancient world: a large rectangular commercial harbor open to the sea, connected by a channel to a circular hidden military harbor that could shelter 220 warships in covered individual slips, with a central island housing the admiralty.",
       "wikiSlug": "Cothon",
       "tier": 3,
       "tags": [
         "science"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The military harbor was deliberately invisible from the sea — its entrance was concealed and easily blocked, so enemy scouts couldn't count the fleet or assess readiness. The central island in the circular basin functioned as a command headquarters from which the admiral could observe every slip simultaneously. No other ancient city built anything remotely comparable in scale or engineering sophistication."
+        }
+      ],
+      "commonsFile": "Carthage-1958-PortsPuniques.jpg"
     },
     {
       "id": "evt-abdashtart-sidon",
@@ -679,147 +1058,237 @@
       "id": "evt-tennes-revolt",
       "label": "Tennes' Revolt Against Persia",
       "year": -351,
-      "description": "King Tennes of Sidon led a revolt against Persian rule with Egyptian support. Artaxerxes III crushed the rebellion and burned Sidon to the ground.",
+      "description": "In 351 BCE, Sidon's king Tennes led a revolt against Persian rule with Egyptian backing — then, when the Persian king Artaxerxes III arrived with an overwhelming army, betrayed his own city to save himself, only to be executed by Artaxerxes anyway.",
       "wikiSlug": "Tennes",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ancient sources claim up to 40,000 Sidonians died, many reportedly setting fire to their own homes rather than submit to Persian vengeance — though that figure is almost certainly an exaggeration. The revolt was part of a broader wave of rebellions across the western Persian Empire in the mid-4th century, a sign that Achaemenid control was fraying. Artaxerxes III's execution of Tennes after accepting his treachery was a calculated message: collaboration did not guarantee survival."
+        }
+      ],
+      "commonsFile": "PHOENICIA,_Sidon._Tennes._Circa_351-347_BC.jpg"
     },
     {
       "id": "evt-alexander-siege-tyre",
       "label": "Alexander's Siege of Tyre",
       "year": -332,
-      "description": "Alexander the Great built a causeway to besiege island Tyre for seven months, finally capturing and destroying the city. This ended Phoenician independence.",
+      "description": "In 332 BCE, Alexander the Great built a half-mile causeway across the sea to reach island Tyre, then breached its towering walls after seven months — the most audacious siege engineering project in the ancient world.",
       "wikiSlug": "Siege_of_Tyre_(332_BC)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The causeway was built largely from rubble of the demolished mainland city of Old Tyre. Tyrian divers reportedly cut the ropes anchoring Alexander's wooden pilings to sabotage the construction as it crept toward the island. After the city fell, a reported 2,000 military-age men were crucified along the beach. The causeway silted up over centuries and permanently attached the island to the mainland — island Tyre is now a peninsula."
+        }
+      ],
+      "commonsFile": "A_naval_action_during_the_siege_of_Tyre_by_Andre_Castaigne_(1898-1899).jpg"
     },
     {
       "id": "evt-first-punic-war",
       "label": "First Punic War",
       "year": -264,
       "endYear": -241,
-      "description": "Rome and Carthage fought for control of Sicily in the first of three wars. Carthage lost its Sicilian territories and paid heavy indemnities.",
+      "description": "The First Punic War (264–241 BCE) was a 23-year naval slugfest triggered by a mercenary dispute in Sicily; Rome — which had no navy at the start — built one from scratch, invented a boarding-bridge weapon called the corvus to negate Carthaginian seamanship, and won, stripping Carthage of Sicily and forcing a ruinous silver indemnity.",
       "wikiSlug": "First_Punic_War",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rome lost more than 100,000 men to shipwrecks during the war — storms killed far more sailors than Carthaginian warships did. The corvus (Latin for \"crow\"), Rome's improvised grappling-and-boarding device, worked brilliantly early on but apparently proved too heavy and unstable in rough seas, and Rome stopped using it after several fleets were wrecked. After the war ended, a Carthaginian mercenary revolt gave Rome the pretext to seize Sardinia and Corsica — a second territorial loss Carthage had not negotiated away and never forgave."
+        }
+      ],
+      "commonsFile": "First_Punic_War_264_BC_v3.png"
     },
     {
       "id": "evt-hannibal-barca",
       "label": "Hannibal Barca",
       "year": -247,
       "endYear": -183,
-      "description": "Carthaginian general who crossed the Alps with war elephants and defeated Rome repeatedly, considered one of the greatest military commanders in history.",
+      "description": "Hannibal Barca (247–183 BCE) was the Carthaginian general who marched an army including 37 war elephants over the Alps in late autumn 218 BCE, arrived in Italy with roughly half his force dead from cold and hostile mountain tribes, and then proceeded to hand Rome the worst string of battlefield defeats in its entire history.",
       "wikiSlug": "Hannibal",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hannibal remained undefeated in the field in Italy for fifteen consecutive years — a record essentially without parallel in ancient warfare — yet never captured Rome. His fatal strategic problem: Rome's population base was vast, most Italian cities stayed loyal, and after Cannae Rome simply refused to offer battle, slowly strangling his supply lines. He spent his final years as a fugitive adviser to eastern Mediterranean kings resisting Rome, before taking poison in 183 BCE rather than be handed over — reportedly saying the Romans couldn't bear to wait for an old man to die."
+        }
+      ],
+      "commonsFile": "Hannibal_Barca_bust_from_Capua_photo.jpg"
     },
     {
       "id": "evt-hasdrubal-fair",
       "label": "Hasdrubal the Fair Founds New Carthage",
       "year": -228,
       "endYear": -221,
-      "description": "Hamilcar Barca's son-in-law who governed Iberia through diplomacy rather than conquest, founded Cartagena (Qart Hadasht) beside rich silver mines as his capital, and negotiated the Ebro Treaty with Rome before his assassination by a Celtic slave.",
+      "description": "Hasdrubal the Fair governed Carthaginian Spain from 228 to 221 BCE, founded New Carthage (modern Cartagena) beside rich silver mines, and expanded Carthage's Iberian reach more through diplomacy than military force — until a Celtic slave assassinated him.",
       "wikiSlug": "Hasdrubal_the_Fair",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hasdrubal negotiated the Ebro Treaty with Rome, drawing the Ebro River as the boundary between their spheres of influence — the boundary that became the legal flashpoint of the Second Punic War when Hannibal attacked Saguntum, a Roman-allied city south of the line. The city Hasdrubal founded was called Qart Hadasht (\"New City\" in Punic) — the exact same name as Carthage itself; Romans called it Carthago Nova, which survives today as Cartagena, Spain."
+        }
+      ],
+      "commonsFile": "AsdrubalBusto.jpg"
     },
     {
       "id": "evt-hamilcar-barca",
       "label": "Hamilcar Barca in Spain",
       "year": -237,
       "endYear": -228,
-      "description": "Hannibal's father Hamilcar conquered much of southern Spain for Carthage, founding New Carthage and securing silver mines to rebuild Punic power.",
+      "description": "Hamilcar Barca (\"Barca\" meaning \"lightning\") was the Carthaginian general who crossed to Spain in 237 BCE with his young son Hannibal in tow and spent nine years building a new Carthaginian empire on the Iberian Peninsula, securing silver mines that would fund the next generation's war against Rome.",
       "wikiSlug": "Hamilcar_Barca",
       "tier": 3,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hamilcar reportedly made young Hannibal swear an oath at the altar of Baal Hammon to be an eternal enemy of Rome before allowing him to come to Spain — whether literally true or not, ancient sources tell the story repeatedly as explanation for everything that followed. He was killed in 228 BCE, with some sources saying he drowned crossing a river during a retreat. Command passed within the Barcid family — to son-in-law Hasdrubal, then to son Hannibal — giving Carthaginian Spain the character of a personal dynastic domain."
+        }
+      ],
+      "commonsFile": "Benjamin_West_(1738-1820)_-_The_Oath_of_Hannibal_-_RCIN_405417_-_Royal_Collection.jpg"
     },
     {
       "id": "evt-scipio-africanus",
       "label": "Scipio Africanus",
       "year": -236,
       "endYear": -183,
-      "description": "Roman general who defeated Hannibal at Zama and ended Carthaginian military power, earning the honorific 'Africanus' for his conquest.",
+      "description": "Publius Cornelius Scipio (236–183 BCE), later called Scipio Africanus, was the Roman general who broke Carthage by doing what Hannibal had done to Rome: taking the war to the enemy's homeland — conquering Carthaginian Spain, then invading North Africa until Carthage recalled Hannibal from Italy.",
       "wikiSlug": "Scipio_Africanus",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scipio was around 25 when given command in Spain — extraordinary for someone who had never held high office — and he learned his tactical lessons directly from Hannibal's defeats of Roman armies. At Zama he used Numidian cavalry (North African horsemen who had switched to Rome) to execute a double envelopment, turning Hannibal's own signature move against its inventor. Both Scipio and Hannibal died in 183 BCE, the same year, both embittered and marginalized by the political systems they had saved and served."
+        }
+      ],
+      "commonsFile": "Continence_of_Scipio_mg_0095.jpg"
     },
     {
       "id": "evt-second-punic-war",
       "label": "Second Punic War",
       "year": -218,
       "endYear": -201,
-      "description": "Hannibal invaded Italy and won devastating victories at Trebia, Trasimene, and Cannae, but Carthage ultimately lost when Scipio invaded Africa.",
+      "description": "The Second Punic War (218–201 BCE) was Hannibal's seventeen-year bid to destroy the Roman Republic — an audacious campaign that took the war from Spain across the Alps to Italy itself, and ended only when Scipio Africanus took the war to Carthage's North African homeland and forced Hannibal home to defend it.",
       "wikiSlug": "Second_Punic_War",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The peace terms were crushing: Carthage's entire fleet reduced to ten ships, all overseas territories surrendered, and an indemnity of 10,000 talents of silver payable over fifty years — roughly 260 tons of silver, more than three times the First Punic War debt. Carthage was forbidden from waging war without Roman permission, reducing a centuries-old superpower to a commercially thriving but politically neutered city-state that would be obliterated in the Third Punic War fifty years later."
+        }
+      ]
     },
     {
       "id": "evt-battle-cannae",
       "label": "Battle of Cannae",
       "year": -216,
-      "description": "Hannibal's double-envelopment annihilated a Roman army of 80,000 at Cannae, one of the most devastating defeats in Roman history.",
+      "description": "At Cannae in southeastern Italy on August 2, 216 BCE, Hannibal surrounded and annihilated a Roman army of roughly 80,000 men with only about 50,000 of his own, using a tactical maneuver called the double envelopment that military academies still study today.",
       "wikiSlug": "Battle_of_Cannae",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hannibal's trick: put the weakest troops in the center and let them retreat as the Romans pushed forward, curving inward while the strong flanks wheeled in and the cavalry swept behind — trapping the Roman mass so tightly they couldn't swing their weapons. Ancient sources report 50,000–70,000 Roman dead in a single day; modern estimates settle around 40,000–50,000, still the worst single-day loss Rome ever suffered. \"Cannae\" remains military shorthand for a battle of annihilation, studied from Napoleon to the planners of the 1914 Schlieffen Plan."
+        }
+      ],
+      "commonsFile": "The_Death_of_Paulus_Aemilius_at_the_Battle_of_Cannae_(Yale_University_Art_Gallery_scan).jpg"
     },
     {
       "id": "evt-battle-zama",
       "label": "Battle of Zama",
       "year": -202,
-      "description": "Scipio Africanus defeated Hannibal in North Africa, ending the Second Punic War and establishing Roman supremacy over the western Mediterranean.",
+      "description": "At Zama in 202 BCE, roughly 75 miles (120 km) southwest of Carthage, Scipio Africanus defeated Hannibal for the first and only time in Hannibal's career, ending the Second Punic War and reducing Carthage from a Mediterranean superpower to a commercial vassal of Rome.",
       "wikiSlug": "Battle_of_Zama",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hannibal brought 80 war elephants to Zama — a weapon he had used to devastating effect before — but Scipio drilled his troops to open gaps in their lines and let the elephants charge through harmlessly, then close behind them. When the Roman and Numidian horsemen routed Carthage's cavalry and swept back to encircle the infantry, the army collapsed. It was the only defeat of Hannibal's career — a man who had spent fifteen unbeaten years in enemy territory."
+        }
+      ],
+      "commonsFile": "The_Battle_Between_Scipio_and_Hannibal_at_Zama.jpg"
     },
     {
       "id": "evt-temple-baalbek",
       "label": "Temple Complex at Baalbek",
       "year": -150,
-      "description": "The monumental sanctuary at Heliopolis-Baalbek, originally a Phoenician sacred site, was expanded into one of the largest temple complexes in the ancient world.",
+      "description": "Baalbek, in Lebanon's Beqaa Valley, began as a Phoenician sacred site dedicated to Baal; under Roman rule it was renamed Heliopolis ('City of the Sun') and rebuilt into one of the most colossal temple complexes ever constructed, including the famous Trilithon — three stone blocks each weighing over 800 tons.",
       "wikiSlug": "Baalbek",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Temple of Jupiter at Baalbek is among the largest Roman temples ever built, yet the Romans constructed it directly atop Phoenician foundations, incorporating even older stonework into its platform. The Trilithon stones, each over 800 tons, are among the largest hewn blocks in the ancient world. A fourth stone still lies in the nearby quarry, unfinished and weighing roughly 1,000 tons — no one has fully explained how even the finished blocks were quarried and moved into place."
+        }
+      ],
+      "commonsFile": "Temple_of_Bacchus,_Baalbek,_Lebanon_(49890013476).jpg"
     },
     {
       "id": "evt-third-punic-war",
       "label": "Third Punic War",
       "year": -149,
       "endYear": -146,
-      "description": "Rome besieged and destroyed Carthage after Cato the Elder's relentless campaign of 'Carthago delenda est,' ending Phoenician civilization in the West.",
+      "description": "From 149 to 146 BCE, Rome fought its final war against Carthage — a siege that ended with the complete destruction of the city — after Roman senator Cato the Elder spent years demanding 'Carthago delenda est' ('Carthage must be destroyed') in every speech regardless of the topic.",
       "wikiSlug": "Third_Punic_War",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rome's casus belli was a technicality: Carthage had fought a defensive war against the Numidian king Masinissa, a Roman ally who had been raiding Carthaginian territory for decades knowing Rome would shield him. That defensive war technically broke the peace treaty from the Second Punic War, which banned Carthage from waging war without Roman permission. Despite being disarmed after the Second Punic War, Carthage held off Rome's full armies for three years, its population forging new weapons from melted-down household metal."
+        }
+      ],
+      "commonsFile": "City_of_Carthage_circa_149_BC.png"
     },
     {
       "id": "evt-destruction-carthage",
       "label": "Destruction of Carthage",
       "year": -146,
-      "description": "Rome razed Carthage at the end of the Third Punic War, enslaving survivors and salting the earth. The greatest Phoenician colony was obliterated.",
+      "description": "In 146 BCE, Roman forces under Scipio Aemilianus stormed Carthage after a three-year siege, fought street by street for six days, then systematically demolished the city — pulling down buildings, looting temples, and selling survivors into slavery.",
       "wikiSlug": "Battle_of_Carthage_(c._149_BC)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scipio Aemilianus was the adopted grandson of Scipio Africanus, who had defeated Hannibal at Zama — a pointed piece of Roman symbolism. Ancient sources claim 50,000 survivors were enslaved and the city burned for seventeen days. The persistent legend that Romans salted the ruins is almost certainly apocryphal: the detail appears in no ancient source and is first attested in 19th-century writing. The same year, 146 BCE, Rome also sacked Corinth, the great Greek commercial city — the dual destructions mark the moment Rome became undisputed master of the Mediterranean."
+        }
+      ],
+      "commonsFile": "Catapulta_by_Edward_Poynter.jpg"
     }
   ],
   "wikiSlug": "Phoenicia"
