@@ -66,572 +66,955 @@
       "id": "evt-lapita-pottery",
       "label": "Lapita Pottery Culture",
       "year": -1500,
-      "description": "The Lapita cultural complex emerged in the Bismarck Archipelago with its hallmark dentate-stamped pottery, marking the beginning of the Austronesian expansion into the Pacific.",
+      "description": "The Lapita were a Neolithic Austronesian people who emerged in the Bismarck Archipelago around 1500 BCE, identifiable by their striking dentate-stamped pottery — pressed with a toothed tool into wet clay to produce intricate geometric patterns that no other culture made.",
       "wikiSlug": "Lapita_culture",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Lapita are thought to have originated from the northern Philippines, arriving in Island Melanesia either directly or via the Mariana Islands before crystallizing as a distinct culture. Their pottery designs are so consistent and distinctive that archaeologists can match a potsherd to the Lapita tradition at a glance — the same geometric vocabulary appears from New Britain all the way to Samoa. Some scholars read the stylized face-like motifs on the pots as ancestor figures, connecting these early vessels to the ancestor veneration that would define Polynesian religion for the next three thousand years."
+        }
+      ],
+      "commonsFile": "\"Prehistoric_pottery_from_the_island_of_Taumako\".jpg"
     },
     {
       "id": "evt-austronesian-dispersal",
       "label": "Austronesian Language Dispersal",
       "year": -1400,
-      "description": "The Austronesian language family spread across the Pacific with Lapita voyagers, eventually becoming the most geographically widespread language family on Earth before European colonization.",
+      "description": "The Austronesian language family — originating in Taiwan around 3000 BCE — spread with Lapita voyagers across the Pacific to become the most geographically widespread language family on Earth before European colonization, spanning from Madagascar to Easter Island.",
       "wikiSlug": "Austronesian_languages",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Austronesian family contains an estimated 1,257 languages and is spoken by around 386 million people today, making it the fifth-largest language family by speakers. Its geographic range — over 13,000 miles (21,000 km) from Madagascar to Easter Island — more than doubled the spread of Indo-European, which stretches roughly 5,000 miles (8,000 km) from Ireland to India. Major members of the family include Malay, Javanese, Tagalog, and Malagasy, all descended from the same ancestral tongue that Lapita sailors carried into the open Pacific."
+        }
+      ],
+      "commonsFile": "Austronesian_family.png"
     },
     {
       "id": "evt-lapita-bismarck-expansion",
       "label": "Lapita Expansion from Bismarcks",
       "year": -1350,
-      "description": "Lapita peoples sailed beyond the Bismarck Archipelago into the open Pacific, carrying pottery, domesticated animals, and cultivated plants to previously uninhabited islands.",
+      "description": "Starting around 1350 BCE, Lapita people sailed out of the Bismarck Archipelago — northeast of New Guinea — and into the open Pacific, carrying their full agricultural toolkit: pigs, chickens, dogs, taro, yams, breadfruit seedlings, and coconuts.",
       "wikiSlug": "Lapita_culture#Spread",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This \"transported landscape\" approach — recreating their existing world on every new island rather than adapting to it — is one of the defining signatures of Austronesian expansion. The Lapita intermarried with existing Papuan (Melanesian) populations as they moved, and modern genetic studies confirm that Polynesians carry both Austronesian and Melanesian ancestry; the expansion was exchange and mixing, not simple replacement. The cultural complex they carried produced direct ancestors of every Polynesian, eastern Micronesian, and Island Melanesian population alive today."
+        }
+      ],
+      "commonsFile": "Carte_lapita.png"
     },
     {
       "id": "evt-lapita-obsidian-trade",
       "label": "Lapita Obsidian Trade",
       "year": -1300,
-      "description": "Lapita peoples established long-distance obsidian trade networks spanning over 2,000 miles, sourcing volcanic glass from New Britain and distributing it across Melanesia and western Polynesia.",
+      "description": "Lapita traders maintained long-distance exchange networks across thousands of miles of open ocean, moving obsidian (a volcanic glass that takes a razor-sharp edge) from quarries on New Britain island to communities over 2,000 miles (3,200 km) away.",
       "wikiSlug": "Obsidian#Pacific_Islands",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Obsidian is formed when silica-rich lava cools so rapidly that no crystals have time to grow, producing a glass so fine-grained that a freshly fractured edge is sharper than a surgical steel scalpel. Its chemical signature is distinctive enough that geologists can trace a stone tool back to its exact volcanic source — which is how archaeologists confirmed that Lapita obsidian from New Britain was traveling across the entire breadth of their world. The scale of the trade proves these were not one-way colonizing voyages: people and goods were moving back and forth across thousands of miles of open ocean on a regular basis."
+        }
+      ],
+      "commonsFile": "Lipari-Obsidienne_(5).jpg"
     },
     {
       "id": "evt-lapita-outrigger",
       "label": "Early Outrigger Canoe Development",
       "year": -1200,
-      "description": "Lapita seafarers developed outrigger canoe technology with stabilizing lateral floats, enabling reliable open-ocean crossings between distant island groups.",
+      "description": "Lapita seafarers refined the outrigger canoe — a hull fitted with one or two lateral floats connected by crossbeams — into a vessel capable of reliable open-ocean crossings of 200 to 300 miles (320 to 480 km), out of sight of land for days at a time.",
       "wikiSlug": "Outrigger_canoe",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The key mechanical insight of the outrigger is stability under load: a plain dugout canoe rolls and swamps in ocean swells, but the lateral float resists capsizing even when carrying heavy cargo like pottery, animals, and plants. Outrigger boats range from small personal craft to large plank-built trading vessels, and Austronesian sailors paired them with distinctive crab-claw sails that allowed sailing across and even somewhat into the wind. No contemporary maritime civilization — not Minoan Crete, not Egypt, not Mesopotamia — was making comparable open-ocean crossings; Lapita sailors were operating at the absolute frontier of what wooden boats could do."
+        }
+      ],
+      "commonsFile": "Atlas_pittoresque_pl_096.jpg"
     },
     {
       "id": "evt-fiji-settlement",
       "label": "Settlement of Fiji",
       "year": -1000,
-      "description": "Lapita voyagers reached the Fiji archipelago, establishing settlements with dentate-stamped pottery that would evolve into a distinctive Fijian cultural tradition.",
+      "description": "Around 1000 BCE, Lapita voyagers reached Fiji — an archipelago of over 300 islands roughly 1,800 miles (2,900 km) east of New Guinea — making it one of the first landfalls in Remote Oceania, the vast open Pacific beyond the Solomon Islands.",
       "wikiSlug": "History_of_Fiji",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Fiji's islands formed through volcanic activity beginning about 150 million years ago, but the first humans arrived only with the Lapita around 1,500–1,000 BCE. A second, large influx of people with predominantly Melanesian genetics followed around the beginning of the Common Era, giving Fiji a dual ancestry that distinguishes it from the more Polynesian-descended Tonga and Samoa. The early Lapita settlers of Fiji left their signature dentate-stamped pottery, which gradually evolved into distinctly Fijian ceramic traditions over the following centuries."
+        }
+      ],
+      "commonsFile": "FIJI_CLUB_DANCE.png"
     },
     {
       "id": "evt-tonga-settlement",
       "label": "Settlement of Tonga",
       "year": -900,
-      "description": "Lapita peoples settled the Tongan archipelago, which would become the cradle of Polynesian civilization and the seat of the later Tu'i Tonga maritime empire.",
+      "description": "Lapita seafarers settled the Tongan archipelago around 900 BCE, making Tonga one of the first permanently inhabited islands in what would become Polynesia and the eventual seat of the Tu'i Tonga maritime empire.",
       "wikiSlug": "History_of_Tonga",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Lapita pottery found in Tonga dates back roughly 3,000 years, and the Tongan oral tradition recorded by early European explorers reaches back to mythological origins — the god Maui hauling the islands up from the deep ocean floor. Along with Samoa, Tonga served as a staging ground for the later dispersal of Polynesian peoples across the entire Pacific. Ancient Tongan mythology names 'Ata and Tongatapu as the first islands, weaving the real geography of Lapita settlement into the culture's founding stories."
+        }
+      ],
+      "commonsFile": "1777_Cook_Map_of_the_Friendly_Islands_or_Tonga_-_Geographicus_-_FriendlyIsles-cook-1777.jpg"
     },
     {
       "id": "evt-samoa-settlement",
       "label": "Settlement of Samoa",
       "year": -800,
-      "description": "Lapita voyagers settled the Samoan islands, completing occupation of the Fiji-Tonga-Samoa triangle where Polynesian culture would crystallize over the next millennium.",
+      "description": "Lapita voyagers reached the Samoan islands around 800 BCE, completing the occupation of the Fiji-Tonga-Samoa triangle — the western Pacific cradle where, over the next several centuries, Lapita culture would transform into something distinctly Polynesian.",
       "wikiSlug": "History_of_Samoa",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Samoa's settlement about 3,500 years ago was deeply entangled with Tonga and Fiji from the start: the three island groups share genealogical links and cultural traditions that predate any of their separate histories. Samoa and Tonga together functioned as the gateway through which Polynesian culture — the language, the navigation methods, the ancestor religion, the agricultural system — would eventually flow outward to Hawaii, New Zealand, Easter Island, and every other corner of the Pacific. The Samoan Islands are both early- and west-most in what became the distinctly Polynesian cultural zone."
+        }
+      ],
+      "commonsFile": "Samoa_Cram_Map_1896.jpg"
     },
     {
       "id": "evt-lapita-pottery-decline",
       "label": "Lapita Pottery Disappearance",
       "year": -500,
-      "description": "The distinctive Lapita dentate-stamped pottery tradition faded in western Polynesia, replaced by plain wares as island cultures diverged and developed uniquely Polynesian material traditions.",
+      "description": "Around 500 BCE the Lapita people's defining craft — their elaborate dentate-stamped ceramics — began vanishing from the Tonga-Samoa region, replaced first by plain wares and then by nothing at all. No Polynesian society east of Fiji ever made pottery again.",
       "wikiSlug": "Lapita_culture",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Lapita had carried their pottery-making tradition across thousands of miles of open Pacific, so its disappearance is genuinely puzzling. Tonga and Samoa simply lack the right clay deposits for quality ceramics, which likely started the decline. But Polynesians also developed earth-oven cooking (the umu, a pit lined with hot stones) that doesn't need pots — removing the last practical reason to keep the skill alive. The loss is what makes Polynesian archaeology so hard: without potsherds, the easiest artifacts to date and trace are gone."
+        }
+      ]
     },
     {
       "id": "evt-polynesian-cultural-complex",
       "label": "Polynesian Cultural Complex",
       "year": -200,
-      "description": "In the Tonga-Samoa homeland, the ancestral Polynesian cultural complex coalesced: hierarchical chieftainship, mana and tapu, kava ritual, bark-cloth production, and the oral genealogical traditions that defined Polynesian identity.",
+      "description": "During the Long Pause (roughly 500 BCE to 300 CE), the Lapita descendants in the Tonga-Samoa homeland assembled the full Polynesian cultural package — chiefly hierarchy, mana and tapu, kava ritual, tapa cloth, tattooing, and oral genealogy — a civilization designed to weigh nothing and travel anywhere.",
       "wikiSlug": "Polynesia#Culture",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The genius of the Polynesian cultural complex was its radical portability: unlike the temples, granaries, and written archives that made other ancient civilizations durable, every piece of Polynesian identity could be carried inside a human head or on a human body. Genealogical chants going back thirty or fifty generations encoded political legitimacy. Tattoos encoded rank and ancestry on skin. The kava ceremony turned a canoe-load of strangers into an ordered community within an hour. No fixed infrastructure required."
+        }
+      ],
+      "commonsFile": "AhuTongariki.jpg"
     },
     {
       "id": "evt-kava-ceremony",
       "label": "Kava Ceremony Tradition",
       "year": -100,
-      "description": "The ritualized preparation and drinking of kava became central to Polynesian diplomacy, religion, and social life, used to consecrate meetings between chiefs and mark important occasions.",
+      "description": "The kava ceremony — a ritualized preparation and communal drinking of the mildly sedative root of Piper methysticum — became Polynesian civilization's social operating system, used to welcome strangers, seal alliances between chiefs, and mark every significant occasion.",
       "wikiSlug": "Kava_culture",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kava produces a relaxed, clear-headed calm rather than the disinhibition of alcohol, making it ideal for formal diplomacy. The ceremony's protocol was precise: who served, who received first, and in what order all reflected and reinforced the social hierarchy in real time. Refusing kava was an insult; being served first was an honor. A Polynesian chief arriving at an unfamiliar island already knew all the rules — the shared ceremony could place a stranger in the social order within an hour, functioning as credentials, treaty, and community ritual simultaneously."
+        }
+      ],
+      "commonsFile": "Fijian_kava_ceremony.jpg"
     },
     {
       "id": "evt-polynesian-outliers",
       "label": "Polynesian Outlier Settlements",
       "year": 100,
-      "description": "Polynesian voyagers settled small islands scattered across Melanesia and Micronesia, creating culturally Polynesian enclaves like Tikopia, Anuta, and Kapingamarangi far outside the Polynesian Triangle.",
+      "description": "Even during the Long Pause, small groups of Polynesian voyagers settled remote islands far outside the Polynesian heartland — places like Tikopia, Anuta, and Kapingamarangi — creating culturally Polynesian enclaves surrounded by Melanesian and Micronesian populations.",
       "wikiSlug": "Polynesian_outlier",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tikopia is the proof-of-concept: a volcanic island barely 2 miles (3 km) across sitting in the Solomon Islands, hundreds of miles from the nearest Polynesian community. When anthropologist Raymond Firth arrived in 1928, he found 1,200 people speaking a Polynesian language, organized around hereditary chiefs, practicing kava ceremonies, and reciting genealogies going back over twenty generations — all maintained for centuries while surrounded by completely different cultures. There are about 37 recognized Polynesian outlier islands in total, scattered across Melanesia and Micronesia, each a live demonstration that Polynesian culture could run on any island, however small and isolated."
+        }
+      ],
+      "commonsFile": "Pacific_Culture_Areas.png"
     },
     {
       "id": "evt-marquesas-settlement",
       "label": "Settlement of Marquesas",
       "year": 300,
-      "description": "Polynesian voyagers from western Polynesia settled the Marquesas Islands, establishing a key hub for further eastward expansion across the remote Pacific.",
+      "description": "Around 300 CE, Polynesian voyagers crossed roughly 2,000 miles (3,200 km) of open ocean from Samoa to reach the Marquesas Islands — a cluster of steep volcanic peaks in the central Pacific — making this the first confirmed step in Polynesia's second great wave of expansion.",
       "wikiSlug": "Marquesas_Islands",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Marquesas are a chain spread across roughly 200 miles (320 km) of ocean, which meant navigators weren't aiming at a single pinpoint island but at a wide zone detectable by bird sightings, cloud formations, and swell patterns radiating from the group. Each valley in the Marquesas is separated by knife-edged ridges so steep that overland travel was nearly impossible, so individual valleys developed as independent political units with their own distinctive carving, tattooing, and artistic styles. The settlement was definitively planned, not accidental: colonists brought transplant crops, breeding animals, and women and children aboard, and they sailed against the prevailing winds — currents that run east to west make accidental drift from Samoa physically impossible."
+        }
+      ],
+      "commonsFile": "Chef_de_guerre_marquisien-Musée_d'histoire_naturelle_et_d'ethnographie_de_Colmar.jpg"
     },
     {
       "id": "evt-star-navigation",
       "label": "Stellar Navigation System",
       "year": 350,
-      "description": "Polynesian navigators developed sophisticated wayfinding using star paths, ocean swells, wind patterns, and bird flight to cross vast distances without instruments.",
+      "description": "Polynesian navigators built a complete wayfinding system from scratch — memorizing the rising and setting points of over 200 stars, reading ocean swells, tracking birds, and sensing wind patterns — that let them cross thousands of miles of open Pacific without a single instrument.",
       "wikiSlug": "Polynesian_navigation",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The voyaging impulse was often practical, not adventurous: as islands' food, fresh water, and timber ran low under growing populations, setting sail for new land was the rational survival choice. The entire navigational system was transmitted without writing — routes, star sequences, swell patterns, and seasonal timing all lived inside human memory, passed through direct apprenticeship that could last 15 to 20 years. Modern scholars studying the tradition have compared the volume of memorized knowledge to an entire university curriculum learned by heart."
+        }
+      ]
     },
     {
       "id": "evt-double-hull-canoe",
       "label": "Double-Hull Voyaging Canoe",
       "year": 400,
-      "description": "Polynesians developed large double-hull canoes capable of carrying dozens of people and supplies across thousands of miles of open ocean.",
+      "description": "The Polynesian double-hull voyaging canoe — two carved hulls lashed side by side under a shared platform, rigged with distinctive crab-claw sails — was a purposeful ocean-crossing machine, capable of carrying 20 to 80 people with weeks of provisions across open Pacific.",
       "wikiSlug": "Polynesian_navigation#Canoes",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The entire vessel was held together with braided coconut-fiber cordage called sennit and caulked with breadfruit sap, using no metal of any kind; this lashed construction was deliberately flexible, allowing the hull to absorb wave shock that would crack a rigid wooden frame. The crab-claw sail (triangular with the apex pointing down) let the canoe sail into the wind at angles square-rigged European ships could not match. Provisions for a transoceanic voyage included dried fish, fermented breadfruit paste, coconuts, and live plants in soil — the colonists were bringing their food system with them."
+        }
+      ],
+      "commonsFile": "Hokule'aSailing2009.jpg"
     },
     {
       "id": "evt-mana-concept",
       "label": "Mana and Tapu System",
       "year": 400,
-      "description": "The concepts of mana (spiritual power) and tapu (sacred prohibition) formed the foundation of Polynesian religion and social hierarchy across every settled island.",
+      "description": "Mana (spiritual power and prestige) and tapu (sacred prohibition — the root of the English word \"taboo\") formed the invisible architecture of Polynesian civilization, governing hierarchy, daily conduct, and the relationship between humans and the divine.",
       "wikiSlug": "Mana_(Oceanic_cultures)",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mana was not abstract — it was observable in outcomes: good harvests meant strong mana; a lost battle meant weakened mana. Tapu worked simultaneously as religious law, social regulation, and environmental management: declaring a fishing ground tapu during spawning season accomplished conservation while keeping the spiritual framework intact. Every island the Polynesians would later settle organized itself around these two concepts, making them as foundational to Polynesia as the Mandate of Heaven was to ancient China."
+        }
+      ]
     },
     {
       "id": "evt-tapa-cloth",
       "label": "Tapa Cloth Production",
       "year": 500,
-      "description": "Polynesians developed tapa bark cloth manufacturing, creating decorated textiles used for clothing, ceremonial wrapping, and trade.",
+      "description": "Tapa bark cloth — made by soaking and beating the inner bark of the paper mulberry tree into thin, decorated sheets — gave Polynesian civilization its material signature, used for clothing, ceremonial wrapping, and prestige trade across the Pacific.",
       "wikiSlug": "Tapa_cloth",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The beating process was labor-intensive: bark was stripped, soaked, then hammered with grooved wooden mallets until it spread into large, thin sheets that could be felted together for thickness. Finished tapa was decorated with geometric patterns in natural dyes, and the finest examples were as prestigious as fine textiles anywhere in the ancient world. The paper mulberry tree could be transplanted to any new island — so tapa production could be restarted wherever Polynesian voyagers landed, making it a genuinely portable material culture."
+        }
+      ],
+      "commonsFile": "Wedding_Tapa_(Gatu_Vakaviti)_LACMA_M.2010.160.jpg"
     },
     {
       "id": "evt-oral-genealogies",
       "label": "Oral Genealogical Traditions",
       "year": 500,
-      "description": "Polynesians maintained elaborate oral genealogies tracing chiefly lineages back dozens of generations, preserving history without writing.",
+      "description": "Polynesian specialists — priests and trained chanters — memorized genealogies going back twenty, thirty, even fifty generations, preserving chiefly lineages, ancestral voyages, and connections to the gods in structured chants that were simultaneously history, theology, and political legitimacy.",
       "wikiSlug": "Oral_tradition",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Getting a name wrong in a genealogical recitation was not a mistake — it was a desecration. When European scholars first recorded Polynesian genealogies in the 18th and 19th centuries, they assumed the lists must be heavily distorted across so many generations. Subsequent archaeological dating proved them largely wrong: many genealogical timelines match the physical evidence with surprising accuracy, suggesting the oral traditions were far more reliable than literate outsiders expected."
+        }
+      ]
     },
     {
       "id": "evt-tattoo-tradition",
       "label": "Polynesian Tattooing",
       "year": 500,
-      "description": "Polynesians developed elaborate tattooing traditions using bone combs and ink, with designs marking social status, genealogy, and spiritual protection.",
+      "description": "Polynesian tattooing — the English word \"tattoo\" itself comes from the Polynesian tatau — used bone combs tapped into skin with soot-based ink to write a person's genealogy, rank, achievements, and spiritual protections directly onto their body.",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Polynesian tattoos were biographical rather than decorative: a fully tattooed chief was literally wearing his identity and ancestry. The process was painful, ritually significant, and could take weeks or months to complete. Crucially, tattoos required no fixed workshop, no clay, and no metal — just knowledge, skill, and pigment that any voyager could carry. Different island groups would develop their own distinctive styles, but all of them descended from the tradition established in western Polynesia before the great expansion began."
+        }
+      ],
+      "commonsFile": "Tatouage_traditionnel_Tahiti.jpg"
     },
     {
       "id": "evt-adze-trade",
       "label": "Basalt Adze Trade Networks",
       "year": 600,
-      "description": "Polynesians established long-distance trade networks exchanging high-quality basalt adzes, obsidian, and other stone tools between islands.",
+      "description": "High-quality basalt adzes (stone chopping tools essential for canoe-building and woodworking) from specific volcanic quarries were traded across hundreds of miles of ocean, with the best stone sourced from particular islands and exchanged through alliance networks that spanned the Pacific.",
       "wikiSlug": "Adze",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "An adze differs from an axe in one critical way: its cutting edge runs perpendicular to the handle rather than parallel, making it ideal for shaping and hollowing wood — exactly the work of building a canoe hull. Without metal tools anywhere in pre-contact Polynesia, adze quality determined canoe quality, which in turn determined a community's reach and survival; access to the best volcanic basalt was therefore a strategic resource, not just a trade convenience."
+        }
+      ]
     },
     {
       "id": "evt-tahiti-settlement",
       "label": "Settlement of Tahiti",
       "year": 600,
-      "description": "Voyagers settled Tahiti, which became a major population center and launching point for expeditions across the Polynesian Triangle.",
+      "description": "By around 600 CE, voyagers from the Marquesas reached Tahiti — the largest island in the Society Islands group, about 850 miles (1,370 km) to the southwest — and it quickly became the most important political and religious center in eastern Polynesia.",
       "wikiSlug": "Tahiti",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tahiti is actually two extinct shield volcanoes fused at an isthmus, forming the roughly circular landmasses called Tahiti Nui and Tahiti Iti. Its fringing coral reefs and deep interior valleys made it far better suited to large settlements than the reef-poor Marquesas. Tahiti became the launch point for later voyages to the Cook Islands, the Tuamotu atolls, and eventually Hawaii — essentially a mid-ocean waystation that linked all of eastern Polynesia."
+        }
+      ]
     },
     {
       "id": "evt-stick-charts",
       "label": "Polynesian Stick Charts",
       "year": 600,
-      "description": "Pacific Islanders created stick and shell charts mapping ocean swell patterns and island positions, among the earliest navigational charts.",
+      "description": "Marshall Islands stick charts are frameworks of palm ribs and cowrie shells that map the way ocean swells bend and refract around specific island groups — not navigation charts carried to sea, but shore-side teaching tools used to train apprentice navigators in swell-reading theory before they learned it bodily on the water.",
       "wikiSlug": "Marshall_Islands_stick_chart",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Three distinct types of stick chart existed: the mattang (a small square used to teach the general principles of swell refraction), the rebbelib (a larger chart covering multiple island groups), and the medo (a chart of a specific voyage route). The charts represent invisible hydrodynamics — the way a solid island mass deforms the surrounding water — making them among the most abstract navigational documents any pre-literate culture produced. All surviving examples are Marshallese; whether Polynesian navigators proper used similar physical models remains an open question."
+        }
+      ],
+      "commonsFile": "Micronesian_navigational_chart.jpg"
     },
     {
       "id": "evt-wave-piloting",
       "label": "Wave Piloting Technique",
       "year": 650,
-      "description": "Polynesian navigators mastered wave piloting, reading the refraction and reflection patterns of ocean swells against distant islands to detect land far beyond the visible horizon.",
+      "description": "Wave piloting is the art of detecting a hidden island by reading how its mass bends and reflects long ocean swells — a kinesthetic skill learned by years of sitting in a canoe and feeling the water move, allowing navigators to find land 20 to 30 miles (30–50 km) beyond the visible horizon.",
       "wikiSlug": "Polynesian_navigation#Swell",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The technique is fundamentally bodily, not visual: some navigators reportedly lay down in the hull to feel subtle swell changes through their backs and hips, distinguishing the rhythm of multiple swell systems at once. It works because open-ocean swells — generated by distant storms, not local wind — travel in consistent directions across vast stretches and bend predictably around any solid mass they encounter. The Marshall Islands stick charts, made from palm ribs and cowrie shells, were land-based teaching models of this phenomenon, never carried to sea."
+        }
+      ]
     },
     {
       "id": "evt-breadfruit-cultivation",
       "label": "Breadfruit Cultivation",
       "year": 700,
-      "description": "Polynesians cultivated and selectively bred breadfruit as a staple crop, developing over 100 varieties adapted to different island environments.",
+      "description": "Polynesian farmers selectively bred breadfruit — a large, starchy tropical fruit — into over 100 distinct varieties adapted to different island conditions, making it one of the most important food staples in the Pacific and a key reason island populations could grow so large.",
       "wikiSlug": "Breadfruit",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Breadfruit was selectively bred in Polynesia from the breadnut and then carried across Oceania through the Austronesian expansion — essentially a cultivated tree that traveled with its people. Polynesians also developed mahi, a fermented breadfruit paste that could be stored for months and even years, providing a critical famine buffer that allowed communities to survive crop failures and long sea voyages."
+        }
+      ],
+      "commonsFile": "Artocarpus_altilis_(fruit).jpg"
     },
     {
       "id": "evt-marae-temples",
       "label": "Marae Temple Construction",
       "year": 700,
-      "description": "Polynesians built marae, open-air stone temple platforms used for religious ceremonies and chiefly rituals across the islands.",
+      "description": "Across Polynesia from roughly 700 CE onward, communities built marae (mah-RYE) — rectangular open-air stone platforms where priests performed ceremonies, chiefs were formally invested with authority, wars were declared, and the gods were consulted through prayer and sacrifice.",
       "wikiSlug": "Marae",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A marae typically consisted of a cleared rectangular area bordered with stones or wooden posts, sometimes with terraced stone paepae platforms; on Easter Island, the stone ahu altar at the center became so central that the word ahu became shorthand for the whole complex. The architectural form varied by island group — the Hawaiian version was called a heiau — but the function was universal: the marae was the hinge point between the human world and the divine, making it also the political center of any Polynesian community."
+        }
+      ],
+      "commonsFile": "Marae,_Raiatea_2.jpg"
     },
     {
       "id": "evt-taro-irrigation",
       "label": "Taro Irrigation Systems",
       "year": 750,
-      "description": "Polynesian farmers developed elaborate irrigated pondfield systems for growing taro, terracing hillsides and channeling streams to sustain dense populations on volcanic islands.",
+      "description": "On volcanic islands, Polynesian farmers engineered elaborate terraced pondfield systems with stone-lined channels to flood-irrigate taro (a starchy root crop), sustaining populations far denser than the islands' raw size might suggest.",
       "wikiSlug": "Taro#Oceania",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Taro (Colocasia esculenta) is one of the most widely cultivated root vegetables in the world and was central to Polynesian diet across the entire Pacific, prized not just for its starchy corm but for its edible leaves and stems. The irrigated pondfield systems on high volcanic islands like Hawaii required coordinated community labor to build and maintain the stone channels and leveled terraces — making taro agriculture a political institution as much as an agricultural one, with chiefly authority often tied to control of the water."
+        }
+      ],
+      "commonsFile": "Songe-Réunion.JPG"
     },
     {
       "id": "evt-polynesian-astronomy",
       "label": "Polynesian Star Compass",
       "year": 800,
-      "description": "Navigators systematized knowledge of over 200 stars into a mental star compass dividing the horizon into directional houses for wayfinding.",
+      "description": "The Polynesian star compass is a memorized mental map of the horizon divided into directional \"houses\" defined by the rising and setting points of over 200 stars — a 32-point system that gave navigators a fixed, instrument-free compass bearing usable anywhere on the Pacific.",
       "wikiSlug": "Polynesian_navigation#Stars",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Because any given star climbs too high to be a useful bearing within an hour of rising, navigators used successive stars — a chain of different stars all rising at the same azimuth, one handing off to the next through the night — to hold a single heading continuously. The knowledge of which star sequences matched which seasons, and which heading, was encoded in oral chants and stories and considered sacred; it was controlled by hereditary navigator lineages and not shared outside them. A fully trained navigator's status in the community was roughly equivalent to what a senior priest or chief held elsewhere."
+        }
+      ]
     },
     {
       "id": "evt-cook-islands",
       "label": "Settlement of Cook Islands",
       "year": 800,
-      "description": "Voyagers from Tahiti and the Marquesas settled the Cook Islands, expanding the network of inhabited Polynesian islands.",
+      "description": "Around 800 CE, Polynesian voyagers settled the Cook Islands — a scatter of 15 islands with a total land area of only about 91 square miles (236 sq km) but commanding an exclusive economic zone of nearly 2 million square kilometers of ocean.",
       "wikiSlug": "Cook_Islands",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cook Islands sit roughly in the middle of the arc connecting Tahiti to Samoa, making them both a destination and a waypoint for further south and westward travel. Despite their tiny total land area, the islands' enormous surrounding ocean zone was the real resource: rich fishing grounds that sustained communities on even the smallest atolls. The capital, Avarua on Rarotonga, remains the administrative center today — one of the few cases where a Polynesian island's modern capital sits on the same island that was its ancient political heart."
+        }
+      ],
+      "commonsFile": "Aitutaki-Motu_Tapuaetai.jpg"
     },
     {
       "id": "evt-bird-navigation",
       "label": "Bird Observation Navigation",
       "year": 850,
-      "description": "Navigators used the flight patterns of land-based birds like the golden plover and frigatebird to locate islands beyond the horizon, releasing captive birds and following their flight toward land.",
+      "description": "Land-nesting seabirds like the golden plover and frigatebird fly out to sea to feed and return to shore at dusk — a reliable daily compass that told Polynesian navigators which direction land lay, typically within 30 to 50 miles (50–80 km).",
       "wikiSlug": "Polynesian_navigation#Birds",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pacific golden plover is a striking choice of guide: it makes a nonstop transoceanic flight of roughly 3,000 miles (4,800 km) from Alaska to Hawaii in just three to four days each autumn — one of the longest nonstop overwater migrations of any bird. Navigators who understood this pattern knew that a plover sighted at sea in the right season was literally pointing toward Hawaii. Some crews reportedly carried captive birds and released them when they suspected land was near; if the bird circled back, there was nothing ahead — if it flew a straight line, they followed."
+        }
+      ]
     },
     {
       "id": "evt-pearl-shell-trade",
       "label": "Pearl Shell Trade",
       "year": 900,
-      "description": "Pearl shells from the Tuamotu atolls became prized trade goods across Polynesia, used for fishhooks, ornaments, and chiefly regalia.",
+      "description": "Pearl shells from the Tuamotu atolls (the world's largest chain of low coral islands, east of Tahiti) circulated as prestige goods across Polynesia, fashioned into fishhooks, ornaments, and chiefly regalia and embedded in the kinship-alliance networks that tied island societies together.",
       "wikiSlug": "Tuamotus",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tuamotu Archipelago consists of just under 80 islands and atolls extending over an area roughly the size of Western Europe, yet with a total land area of only about 850 square kilometers — almost all of it low coral, barely above sea level. Pearl shell's value was social as much as material: exchanging it with a trading partner affirmed a kinship or alliance bond, meaning the shell itself was a political instrument, and the trade route was only as durable as the relationship behind it."
+        }
+      ]
     },
     {
       "id": "evt-tonga-tu-i-tonga",
       "label": "Tu'i Tonga Empire",
       "year": 950,
-      "description": "The Tu'i Tonga dynasty established a maritime empire spanning Tonga, Samoa, and Fiji, with a powerful divine kingship that collected tribute across the western Pacific.",
+      "description": "Around 950 CE, the Tu'i Tonga (literally \"King of Tonga\") dynasty built what may be the only true maritime empire in Pacific history, projecting sacred royal authority and military power across Tonga, Samoa, Fiji, and distant outlier islands through war canoes and a formal tribute system rather than roads or garrisons.",
       "wikiSlug": "Tu%CA%BBi_Tonga_Empire",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tu'i Tonga's person was so sacred (tapu) that ordinary people could not touch him, look at him directly, or eat food he had touched — making him ritually untouchable even by his own court. The founding king 'Aho'eitu was said to be the son of the sky god Tangaloa; his jealous celestial half-brothers killed and ate him, then Tangaloa forced them to disgorge him, reassembled him, and sent him back to Earth to rule — with the killers serving him as vassals. The annual tribute ceremony, called 'inasi, required subject peoples from Samoa, Fiji, and beyond to deliver fine mats, tapa cloth, and food, blending religious ritual with a political act of submission."
+        }
+      ],
+      "commonsFile": "Ha'amonga_'a_Maui1.jpg"
     },
     {
       "id": "evt-tui-tonga-langi",
       "label": "Tongan Royal Langi Tombs",
       "year": 1000,
-      "description": "The Tu'i Tonga kings built massive stepped stone langi burial tombs in Mu'a, Tonga, the largest monumental architecture in Polynesia outside Easter Island.",
+      "description": "At Mu'a, the ancient Tongan capital on Tongatapu, Tu'i Tonga kings built massive rectangular stepped burial tombs called langi from precisely fitted coral limestone blocks — the largest monumental stone architecture in Polynesia outside of Easter Island.",
       "wikiSlug": "Muʻa_(Tongatapu)",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The largest langi, Paepae-o-Tele'a, measures roughly 120 by 80 feet (37 by 24 meters) and stands about 13 feet (4 meters) high — built without metal tools, draft animals, or wheels. Near the langi stands the Ha'amonga 'a Maui (\"Burden of Maui\"), a trilithon (two upright stones with a horizontal lintel) where each upright weighs 30 to 40 tons and the lintel alone weighs about 9 tons; some scholars argue its lintel is aligned to mark the solstices, though that interpretation is contested."
+        }
+      ],
+      "commonsFile": "Langi-Tau'atonga.jpg"
     },
     {
       "id": "evt-samoa-political",
       "label": "Samoan Paramount Chiefs",
       "year": 1000,
-      "description": "Samoa developed a complex political system of paramount chiefs (matai) governing through councils rather than centralized monarchy.",
+      "description": "Samoa developed the fa'amatai system — a council-based political structure in which power resided in a body of matai (paramount chiefs) who governed through consensus, a fundamentally different model from the Tu'i Tonga's sacred hereditary monarchy and one that made Samoa far harder to absorb into a centralized empire.",
       "wikiSlug": "Faʻamatai",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fa'amatai system applied in both what is now independent Samoa and American Samoa and is still the foundational governance structure for both today — making it one of the longest-lived political institutions in the Pacific. A matai title was not simply inherited but could be conferred by the family group, giving communities a mechanism for selecting capable leaders that centralized monarchies lacked; it also meant no single leader could be captured or killed to break the entire political structure."
+        }
+      ],
+      "commonsFile": "Three_Samoan_chiefs_including_two_orators_-_unknown_photographer_and_date.jpg"
     },
     {
       "id": "evt-easter-island",
       "label": "Settlement of Easter Island",
       "year": 1000,
-      "description": "Polynesian voyagers reached Rapa Nui (Easter Island), the most remote inhabited island on Earth, over 2,000 miles from the nearest population.",
+      "description": "Around 1000 CE, Polynesian navigators reached Rapa Nui (Easter Island) — a windswept volcanic speck 2,300 miles (3,700 km) west of Chile and over 1,300 miles (2,100 km) from the nearest inhabited island, making it arguably the most audacious landfall in human navigation history.",
       "wikiSlug": "Easter_Island",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rapa Nui is only about 64 square miles (166 sq km) — roughly the size of Washington, D.C. — with no coral reef, limited fresh water, and no native land animals except insects and lizards. The island's extreme isolation appears to have made sustained two-way contact with central Polynesia effectively impossible; the settlers were permanently cut off with whatever they had in their canoes. UNESCO declared Rapa Nui a World Heritage Site in 1995, with most of the island protected inside Rapa Nui National Park."
+        }
+      ],
+      "commonsFile": "Easter_Island_5.jpg"
     },
     {
       "id": "evt-hawaii-settlement",
       "label": "Settlement of Hawai'i",
       "year": 1000,
-      "description": "Polynesian voyagers from the Marquesas reached the Hawaiian Islands, beginning settlement of the northernmost point of the Polynesian Triangle.",
+      "description": "Around 1000 CE, Polynesian voyagers — most likely from the Marquesas Islands — crossed roughly 2,400 miles (3,900 km) of open ocean to reach the Hawaiian archipelago, the most isolated major island chain on Earth.",
       "wikiSlug": "Ancient_Hawaii",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Radiocarbon dating of more reliable archaeological samples (a 2010 study) pushed the accepted first-settlement window to as late as 1219–1266 CE, far later than the traditional estimate of 400–1100 CE. Before human arrival, the Hawaiian Islands had no land mammals except a bat, no reptiles, and no amphibians — the settlers were walking into a biologically unique world. The first canoes carried an entire agricultural system: taro, breadfruit, pigs, chickens, and dogs, all transported across thousands of miles of open water."
+        }
+      ],
+      "commonsFile": "Hawaii_petroglyph_men.jpg"
     },
     {
       "id": "evt-sweet-potato",
       "label": "Sweet Potato from South America",
       "year": 1000,
-      "description": "Polynesians obtained the sweet potato from South America, providing evidence of trans-Pacific contact centuries before European exploration.",
+      "description": "The sweet potato — a South American crop — somehow reached Polynesia centuries before any European could have carried it there, with radiocarbon dates from the Cook Islands going back to around 1000 CE and Polynesian words for the plant closely resembling the Quechua word used in Peru and Ecuador.",
       "wikiSlug": "Sweet_potato#Oceania",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Polynesian words for sweet potato (*kumara*, *ku'ara*, and regional variants) bear a striking resemblance to *kumar*, the Quechua word used by indigenous peoples in Peru and Ecuador — a linguistic coincidence difficult to explain by accident. If Polynesian voyagers sailed to South America to obtain the plant, they crossed roughly 4,000 miles (6,400 km) of open ocean and returned, doing so about 500 years before Columbus reached the Caribbean. DNA analysis of ancient sweet potato specimens has produced results supporting a pre-Columbian transfer, though scholars consider the evidence not yet conclusive."
+        }
+      ],
+      "commonsFile": "Ipomoea_batatas_006.JPG"
     },
     {
       "id": "evt-tui-manu-a",
       "label": "Tui Manu'a Paramount Chiefs",
       "year": 1000,
-      "description": "The Tui Manu'a dynasty of eastern Samoa claimed to be the oldest chiefly title in Polynesia, with oral traditions placing their authority over Samoa, Tonga, and Fiji before the Tu'i Tonga's rise.",
+      "description": "The Tui Manu'a dynasty of eastern Samoa claimed to hold the oldest chiefly title in all of Polynesia — predating even the Tu'i Tonga — a political assertion of equal or superior standing that captured the mood of Samoan resistance to Tongan hegemony.",
       "wikiSlug": "Tui_Manu%27a",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Whether the Tui Manu'a's seniority claim is historically accurate or a political argument for independence is genuinely uncertain, but oral traditions across Polynesia did widely recognize the Manu'a title as ancient and prestigious. The claim itself was a form of soft power: by asserting primacy in the chiefly genealogy, Samoa denied the Tu'i Tonga the narrative of natural dominance that sacred kingship required — making it a diplomatic weapon as much as a historical assertion."
+        }
+      ],
+      "commonsFile": "Elisala.jpg"
     },
     {
       "id": "evt-tongan-samoa-wars",
       "label": "Tongan-Samoan Wars",
       "year": 1050,
-      "description": "The Tu'i Tonga empire clashed with Samoan chiefs over tribute and political control, with oral traditions recording battles and Samoan resistance to Tongan hegemony.",
+      "description": "Around 1050 CE, the Tongan-Samoan wars erupted as Samoa resisted Tongan tribute demands — the best-attested military conflict in pre-contact Polynesian history, ending around 1100 CE with Samoa successfully breaking free and exposing the core fragility of empire-at-sea.",
       "wikiSlug": "Tu%CA%BBi_Tonga_Empire#Expansion",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tongan traditions frame the conflict as punitive expeditions to enforce tribute compliance; Samoan traditions describe it as a liberation war with matai (paramount chiefs) rallying communities to expel Tongan tax collectors and garrisons. Samoa's victory revealed the structural weakness of a maritime empire: without permanent garrisons on subject islands, authority depended entirely on the willingness of subject peoples — and when Samoa refused, Tonga lacked the sustained logistical reach to compel them."
+        }
+      ]
     },
     {
       "id": "evt-moai-construction",
       "label": "Moai Statue Construction",
       "year": 1100,
       "endYear": 1500,
-      "description": "Rapa Nui islanders carved and erected nearly 900 massive moai stone statues, some weighing over 80 tons, as ancestral monuments.",
+      "description": "Between roughly 1100 and 1500 CE, the Rapa Nui people of Easter Island carved and erected nearly 900 massive stone figures called moai (MOH-eye) from the compressed volcanic ash of a single quarry, creating a monumental landscape of ancestral guardians along the island's coast.",
       "wikiSlug": "Moai",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Almost half of all moai are still at Rano Raraku, the quarry where they were carved — some appear to have been abandoned mid-transport, frozen in place when the project ended. The moai represent the living faces of deified ancestors rather than gods, meaning each statue was understood as an actual presence, not a symbol. Beyond the famous stone figures, the Rapa Nui also carved small wooden moai in both male and female forms, a tradition almost entirely overshadowed by their giant cousins."
+        }
+      ],
+      "commonsFile": "AhuTongariki.JPG"
     },
     {
       "id": "evt-hawaiian-heiau",
       "label": "Hawaiian Heiau Temples",
       "year": 1100,
-      "description": "Hawaiians constructed stone heiau temple platforms for worship and human sacrifice, reflecting the development of a complex religious hierarchy.",
+      "description": "Heiau (HAY-ow) were Hawaiian stone temple platforms built in a range of architectural styles for different sacred purposes — from healing and agricultural offerings to war sacrifices — and formed the physical infrastructure of Hawaiian religious life.",
       "wikiSlug": "Heiau",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Heiau served remarkably specific functions: some were built to start rain, others to stop it; some to increase the population, others to ensure success in long-distance voyaging. The most powerful class, the luakini heiau, were reserved exclusively for the ali'i and involved human sacrifice to the war god Ku. The range of heiau types reflects how thoroughly the Hawaiians had systematized their relationship with the divine, assigning a dedicated sacred structure to almost every domain of life."
+        }
+      ],
+      "commonsFile": "Kealakekua_Bay_heiau_illustration.jpeg"
     },
     {
       "id": "evt-fijian-chiefdoms",
       "label": "Fijian Confederacies",
       "year": 1100,
-      "description": "Fijian chiefs organized rival confederacies like Bau, Rewa, and Verata, building hilltop fortifications and waging wars of territorial expansion across the archipelago.",
+      "description": "By around 1100 CE, Fijian chiefs had organized rival confederacies — most notably Bau, Rewa, and Verata — building hilltop stone fortifications and waging territorial wars with fleets of drua war canoes in a pattern of political competition that mirrored, on an island scale, the rival states of continental Asia and Europe.",
       "wikiSlug": "History_of_Fiji",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Fiji was settled first by the Lapita culture around 1500–1000 BCE, then saw a large influx of Melanesian-ancestry peoples around the start of the Common Era — making its population a layered mix of ancestries that shaped its distinct political culture, separate from the more purely Polynesian Tonga and Samoa. The confederacy rivalries were fierce enough that Fijian military technology (especially the drua) and warrior traditions became feared across the wider Tu'i Tonga sphere, even as Fiji nominally fell within Tonga's orbit."
+        }
+      ]
     },
     {
       "id": "evt-rapa-nui-ahu-platforms",
       "label": "Rapa Nui Ahu Platforms",
       "year": 1100,
-      "description": "Easter Islanders constructed massive stone ahu ceremonial platforms along the coastline, each serving as the foundation for moai statues and as focal points for ancestor worship and community gathering.",
+      "description": "The Rapa Nui built ahu — large rectangular stone platforms along Easter Island's coastline — as sacred ceremonial precincts that served as the foundations for moai statues and as burial sites for important lineage members.",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ahu were not simple pedestals: they were precisely fitted from stone blocks without mortar, sometimes incorporating burial chambers beneath, and several were aligned to mark the solstices or the rising of specific stars. The platforms ranged enormously in scale, from small single-statue ahu to Ahu Tongariki's 200-foot (60-meter) row of fifteen statues. When Easter Island's civil wars began, rival factions toppled each other's moai off their ahu — a deliberate act of spiritual warfare, not just destruction."
+        }
+      ],
+      "commonsFile": "RapaNuiVinapu.jpg"
     },
     {
       "id": "evt-hawaiian-tahitian-voyages",
       "label": "Hawai'i-Tahiti Voyaging Era",
       "year": 1100,
-      "description": "A period of regular two-way voyaging connected Hawai'i and Tahiti across 2,500 miles of open ocean, bringing new settlers, religious practices, and the strict kapu system to the Hawaiian islands.",
+      "description": "Around 1100 CE, a second wave of settlers from Tahiti arrived in Hawai'i, launching a period of regular two-way voyaging across 2,500 miles (4,000 km) of open ocean that lasted perhaps one to two centuries before going silent around 1300 CE.",
       "wikiSlug": "Ancient_Hawaii#Second_wave",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tahitian arrivals introduced new gods — the war god Ku and the agricultural god Lono — and a stricter version of the kapu (taboo) system that intensified Hawaiian social hierarchy and reshaped religious practice. After roughly 1300 CE the long-distance link with Tahiti simply stopped; no archaeological evidence of sustained contact survives beyond that point, and Hawai'i developed in complete isolation for the next five centuries. The reasons the voyaging ceased remain unknown — changing wind patterns, political disruption in Tahiti, or simple loss of navigational knowledge are all candidates scholars have proposed."
+        }
+      ],
+      "commonsFile": "Heiau_at_Waimea_by_John_Webber.jpg"
     },
     {
       "id": "evt-fijian-drua-canoe",
       "label": "Fijian Drua War Canoe",
       "year": 1200,
-      "description": "Fijians developed the drua, a massive double-hull war canoe up to 100 feet long that could carry over 100 warriors and became the most feared naval weapon in the western Pacific.",
+      "description": "Fijian boatbuilders developed the drua, a massive asymmetric double-hull war canoe — the largest and most capable ocean-going vessel built in the Pacific before European contact — capable of carrying over 100 warriors at speeds competitive with European sailing ships of the same era.",
       "wikiSlug": "Drua",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike a typical outrigger canoe, the drua had two full hulls of different sizes; the smaller hull always faced into the wind, giving exceptional stability in heavy seas. The 1936 survey \"Canoes of Oceania\" declared it \"the largest and finest sea-going vessel ever designed and built by natives of Oceania before contact with Europeans.\" Building a large drua was a months-long community project; launching one was a ritual event that could include feasting, prayer, and human sacrifice."
+        }
+      ],
+      "commonsFile": "Canoe_racing,_Fiji_(NYPL_Hades-2359171-4043527).jpg"
     },
     {
       "id": "evt-hawaiian-fishponds",
       "label": "Hawaiian Fishpond Aquaculture",
       "year": 1200,
-      "description": "Hawaiians built sophisticated coastal fishponds for aquaculture, a unique engineering achievement that sustained large populations.",
+      "description": "Hawaiians engineered walled coastal fishponds — shallow reef-flat enclosures with sluice gates — that trapped and fattened fish, producing the most advanced fish-farming system among any original Pacific peoples.",
       "wikiSlug": "Ancient_Hawaiian_aquaculture",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Over 400 fishponds were built across the Hawaiian Islands, some enclosing acres of coastal water behind lava-rock walls. The sluice gates were sized so juvenile fish could swim in with the tide but larger, fattened fish could not escape — a simple but ingenious harvest mechanism. The largest ponds, like Moli'i on O'ahu and Alekoko on Kaua'i, predated European contact by centuries and were still functioning as aquaculture systems into the modern era."
+        }
+      ],
+      "commonsFile": "Alekoko_fishpond.jpg"
     },
     {
       "id": "evt-makahiki-festival",
       "label": "Makahiki Festival",
       "year": 1200,
-      "description": "Hawaiians celebrated the annual Makahiki festival honoring the god Lono with four months of harvest celebrations, sports, and a kapu on warfare.",
+      "description": "The Makahiki was a four-month Hawaiian new year festival honoring the god Lono, marked by feasting, athletic competition (including surfing and wrestling), and a strict kapu banning all warfare — a seasonal reset that channeled social tension into ritual.",
       "wikiSlug": "Makahiki",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "During Makahiki, the ali'i were ritually stripped of their political authority and Lono symbolically ruled the islands, effectively enacting a controlled annual revolution that was then reversed when the festival ended. The festival's timing followed the rising of the Pleiades star cluster, tying Hawaiian political life directly to celestial observation. When Captain Cook arrived in Hawai'i in January 1779, it was during Makahiki, a coincidence that shaped how the Hawaiians initially received him and contributed to the fatal misunderstanding that followed."
+        }
+      ],
+      "commonsFile": "USMC-101120-M-2339L-058.jpg"
     },
     {
       "id": "evt-tahitian-arioi-origins",
       "label": "Tahitian Sacred Chiefs",
       "year": 1200,
-      "description": "Tahitian ari'i nui (high chiefs) consolidated power through divine genealogies tracing descent from the god Ta'aroa, establishing rigid social stratification with priestly and warrior classes.",
+      "description": "By around 1200 CE, Tahiti's ruling ari'i nui (high chiefs, ah-REE-ee NOO-ee) had built one of the most stratified societies in Polynesia, claiming divine descent from the creator god Ta'aroa and cementing their authority through a powerful priestly class and elaborate marae (temple platform) complexes.",
       "wikiSlug": "Tahiti#History",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tahitian ari'i system operated on mana (sacred authority) that was literally genealogical: the closer your ancestry to Ta'aroa, the more powerful and spiritually dangerous you were. Strict tapu (taboo) rules enforced social distance — commoners could not let their shadow fall on a high chief's body without triggering severe spiritual consequences. When Tahitian voyagers later carried these religious structures northward to Hawaii (Chapter 6), they brought not just gods and temple designs but this entire logic of ranked, inherited sanctity that would reshape Hawaiian society from top to bottom."
+        }
+      ]
     },
     {
       "id": "evt-nz-settlement",
       "label": "Settlement of New Zealand",
       "year": 1250,
-      "description": "Polynesian voyagers from eastern Polynesia reached Aotearoa (New Zealand), the last major landmass settled by humans.",
+      "description": "Around 1250 CE, Polynesian voyagers from eastern Polynesia crossed roughly 2,000 miles (3,200 km) of the Roaring Forties — the notoriously violent westerly-wind belt between 40 and 50 degrees south — to reach Aotearoa (New Zealand), the last major landmass settled by humans.",
       "wikiSlug": "M%C4%81ori_people",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aotearoa is not a speck of coral — it is a pair of large islands totaling about 103,000 square miles (268,000 sq km), roughly the size of Colorado, with snow-capped mountains reaching over 12,000 feet (3,700 m). Nothing in tropical Polynesian experience had prepared the settlers for snow, glaciers, temperate rain forests, or a climate that gets genuinely cold. The contrast between the subtropical north and the cold south would eventually produce two distinct Maori economies: an agricultural north and a hunter-gatherer south."
+        }
+      ]
     },
     {
       "id": "evt-moa-hunting",
       "label": "Moa Hunting Period",
       "year": 1280,
-      "description": "Early Maori settlers hunted the giant flightless moa birds to extinction within roughly a century, fundamentally reshaping New Zealand's ecology and forcing a shift to agriculture and fishing.",
+      "description": "Early Maori settlers encountered the moa — a family of giant flightless birds, the largest standing over 10 feet (3 m) tall and weighing up to 500 pounds (230 kg) — and hunted all nine species to extinction within roughly a century of arrival.",
       "wikiSlug": "Moa#Extinction",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Estimates of the moa population at the time Polynesians arrived range enormously, from 58,000 to 2.5 million birds, but all nine species were gone within about 100 years. The moa had evolved over millions of years with no mammalian predators, so they had no instinctive fear of humans — they were, in the bluntest terms, easy to kill. Their extinction removed the largest protein source available to the early settlers and forced a fundamental reorganization of Maori food systems toward kumara farming and coastal fishing."
+        }
+      ],
+      "commonsFile": "Dinornis_maximus,_Natural_History_Museum_(PV_A_608).jpg"
     },
     {
       "id": "evt-maori-pa",
       "label": "Maori Pa Fortifications",
       "year": 1300,
-      "description": "Maori in New Zealand developed elaborate pa (fortified villages) with defensive ditches, palisades, and fighting stages.",
+      "description": "The pa (PAH) was the distinctive Maori fortified settlement — a village built on a defensible hilltop or promontory and protected by concentric ditches, wooden palisade walls, and elevated fighting platforms, developed independently to a sophistication that impressed European military observers.",
       "wikiSlug": "Pā",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Over 5,000 pa sites have been located and photographed across New Zealand, concentrated in the North Island north of Lake Taupo — a density that reflects how endemic inter-tribal conflict had become. Variations on the pa form occur throughout central Polynesia in Fiji, Tonga, and the Marquesas, suggesting the fortified settlement concept has deep Polynesian roots that the Maori took to an extreme. The most elaborate pa had multiple defensive rings with internal food and water storage, making them capable of withstanding prolonged sieges."
+        }
+      ],
+      "commonsFile": "Model_Of_Maori_Pa_On_Headland.jpg"
     },
     {
       "id": "evt-rongorongo",
       "label": "Rongorongo Script",
       "year": 1300,
-      "description": "Easter Islanders developed rongorongo, a system of glyphs carved on wooden tablets that remains undeciphered, possibly one of few independent inventions of writing.",
+      "description": "Rongorongo (RONG-oh RONG-oh) is a system of glyphs carved onto wooden tablets found on Easter Island — read in alternating directions with each line rotated 180 degrees — that has never been deciphered and may represent one of the handful of times in human history that writing was independently invented.",
       "wikiSlug": "Rongorongo",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Only about two dozen rongorongo tablets survive, most collected by missionaries in the 19th century, and no living person can read them. Some calendrical information has been tentatively identified in the glyphs, but the system has resisted over a century of scholarly decipherment attempts. A contested theory holds that rongorongo was not invented independently but was inspired by seeing European writing after the Spanish visited in 1770 — which would make it a case of stimulus diffusion (inventing a new script after seeing the concept of writing) rather than pure independent invention, a distinction that matters enormously to how we understand human cognitive history."
+        }
+      ],
+      "commonsFile": "Rongorongo_B-v_Aruku-Kurenga_(color)_edit1.jpg"
     },
     {
       "id": "evt-hawaiian-ali-i",
       "label": "Hawaiian Ali'i System",
       "year": 1300,
-      "description": "Hawaii developed a rigid hereditary class system with divine ali'i chiefs at the top, supported by an elaborate kapu (taboo) system that governed every aspect of daily life.",
+      "description": "The Hawaiian ali'i (ah-LEE-ee) system was one of the most rigidly stratified hereditary class structures in the Polynesian world, dividing society into divine chiefs, specialist priests, commoners, and a hereditary outcast class, all governed by an elaborate kapu (taboo) code enforced on pain of death.",
       "wikiSlug": "Ali%CA%BBi",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mana of the highest ali'i nui was considered so potent that their shadow falling on a commoner could require that commoner's execution — a level of sacred danger unusual even in Polynesia. To concentrate this divine power further, top-ranking ali'i practiced sacred marriages between half-siblings (children of the same high-ranking father by different mothers), a theological parallel to ancient Egyptian royal practice. The offspring of such unions were considered so sacred that no one could stand in their presence."
+        }
+      ],
+      "commonsFile": "Cloak_Helmet_and_Chief.jpg"
     },
     {
       "id": "evt-arioi-society",
       "label": "Arioi Society in Tahiti",
       "year": 1300,
-      "description": "The Arioi were an elite Tahitian religious society devoted to the war god Oro, performing ritual drama, dance, and comedy across the islands.",
+      "description": "The Arioi (ah-ree-OH-ee) were an elite Tahitian religious society devoted to the war god Oro — a traveling troupe of performers, ritual specialists, and priests who sailed between the Society Islands staging theatrical productions combining sacred ceremony, satirical comedy, and erotic dance.",
       "wikiSlug": "Arioi",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Arioi membership was open to both men and women across all social strata, which was unusual in a rigidly hierarchical Polynesian society — the society served as an alternative path to prestige outside the hereditary chiefly system. Members were expected to remain childless, and the Arioi maintained a hierarchical internal structure with eight grades, each marked by specific tattoo patterns that served as visible rank insignia. Their circuit between islands made them one of the primary vehicles through which Tahitian religious innovations spread across the Society Islands."
+        }
+      ],
+      "commonsFile": "Tahiti-Oro.jpg"
     },
     {
       "id": "evt-hula-tradition",
       "label": "Hula Dance Tradition",
       "year": 1300,
-      "description": "Hawaiians developed hula as a sacred dance form combining chant, rhythm, and movement to preserve oral histories, honor gods, and celebrate chiefs.",
+      "description": "Hula was the Hawaiian sacred dance form that encoded history, theology, and genealogy in bodily movement synchronized with chanted poetry — an information technology as much as an art form, with trained practitioners serving as living libraries of oral knowledge.",
       "wikiSlug": "Hula",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hula training under a kumu hula (master teacher) could last years and demanded precise mastery of hundreds of specific movements, each carrying meaning — a slight variation in hand position could change a word or corrupt a historical record. When 19th-century Christian missionaries suppressed hula as pagan, much of this encoded knowledge was nearly lost; its revival in the 20th century, sparked partly by the Hokule'a voyaging canoe project, is one of the most successful cultural recoveries in the modern Pacific. Hula existed in two main forms: hula kahiko (ancient style, with percussion and chant) and hula 'auana (modern style, with melodic accompaniment), which developed after Western contact."
+        }
+      ],
+      "commonsFile": "Hula_Kahiko_Hawaii_Volcanoes_National_Park_01.jpg"
     },
     {
       "id": "evt-maori-carving",
       "label": "Maori Wood Carving Tradition",
       "year": 1350,
-      "description": "Maori developed a distinctive wood carving tradition for meeting houses, canoe prows, and sacred objects representing ancestor figures.",
+      "description": "Maori whakairo (FAH-kah-ee-roh) wood carving — characterized by flowing spirals and stylized ancestor figures — decorated war canoe prows, communal meeting houses, and sacred objects, making carved wood the primary medium through which Maori genealogy and identity were made visible.",
       "wikiSlug": "Whakairo",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Whakairo extended beyond wood to stone and bone, with each material carrying different sacred associations. Carving styles varied significantly by tribe, so an expert could identify the regional origin of a piece by its visual grammar alone — the carving tradition was simultaneously a shared Maori art form and a marker of tribal distinctiveness. The spiral motif (koru) that defines Maori carving is now recognized internationally as a symbol of New Zealand, though its original meaning was specifically about new growth and potential."
+        }
+      ],
+      "commonsFile": "Māori_carving_school,_Whakarewarewa,_1982.jpg"
     },
     {
       "id": "evt-maori-wars",
       "label": "Maori Tribal Warfare",
       "year": 1350,
-      "description": "Maori iwi (tribes) engaged in warfare over resources and territory, developing the haka war dance and taiaha fighting staff.",
+      "description": "Maori iwi (tribes) in New Zealand engaged in formalized inter-tribal warfare over territory and resources, developing a distinctive military culture with the haka war dance, the taiaha fighting staff, and the greenstone mere war club.",
       "wikiSlug": "Maori_wars",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The haka was not simply intimidation theater — it was understood as a spiritual act that activated the warriors' fighting power before battle, and specific haka were composed for specific occasions. Weapons were highly personalized objects that carried their own mana: a chief's mere (flat greenstone club) was often an heirloom passed across generations, and some were named. Maori warfare followed protocols including formal challenges, and prisoners could be adopted into the victorious tribe — giving defeat a social dimension beyond simple destruction."
+        }
+      ]
     },
     {
       "id": "evt-maori-migration",
       "label": "Great Fleet Migration",
       "year": 1350,
-      "description": "Maori oral tradition records a great fleet of canoes arriving in Aotearoa, with each waka giving rise to major tribal groupings.",
+      "description": "Maori oral tradition preserves the story of the Great Fleet (Waka Hourua, meaning 'double canoes'): several named voyaging canoes arriving in Aotearoa around 1350 CE, with each canoe ancestrally linked to one of the major Maori tribal groupings (iwi).",
       "wikiSlug": "Māori_migration_canoes",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Every Maori iwi (tribe) traces its genealogy back to a specific named canoe and its captain — the tradition is the foundational origin story of Maori political identity, not just a historical account. Archaeological evidence complicates the picture: the physical record points to earlier arrivals (around 1250 CE) and a more gradual migration rather than a single organized fleet. The oral tradition names a homeland called Hawaiki — not the Hawaiian Islands but a legendary ancestral place whose real-world location scholars have not definitively identified."
+        }
+      ]
     },
     {
       "id": "evt-inter-island-trade-networks",
@@ -647,121 +1030,204 @@
       "id": "evt-rapa-nui-birdman",
       "label": "Birdman Cult of Rapa Nui",
       "year": 1400,
-      "description": "Easter Island's Birdman cult replaced moai worship, with annual competitions to retrieve the first sooty tern egg determining the island's ruler for the following year.",
+      "description": "The Tangata Manu (Birdman) cult replaced moai construction as Easter Island's central political institution around 1400 CE, with rival clan representatives competing annually — swimming to an offshore islet through shark-infested waters to retrieve the first sooty tern egg of the season — to determine who ruled the island for the following year.",
       "wikiSlug": "Tangata_manu",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike the moai system, where political power was static and determined by the permanence of stone monuments, the Birdman contest reset power every year — whichever clan's swimmer returned first with an intact egg won governance for the next twelve months. The competition site was the clifftop village of Orongo, perched dramatically at the rim of the Rano Kau volcanic crater, and the egg had to be carried back not just across open water but up sheer sea cliffs. Rock art at Orongo depicts hundreds of birdman figures, making it one of the densest concentrations of petroglyphs in the Pacific."
+        }
+      ],
+      "commonsFile": "Easter_Island_11.jpg"
     },
     {
       "id": "evt-hawaiian-unification-wars",
       "label": "Hawaiian Inter-Island Wars",
       "year": 1400,
-      "description": "Hawaiian ali'i (chiefs) waged wars of conquest between islands, developing sophisticated military tactics and warrior traditions.",
+      "description": "From around 1400 CE onward, Hawaiian ali'i (chiefs) fought escalating wars of conquest across the islands, each chiefdom trying to extend its control over neighboring valleys and eventually neighboring islands.",
       "wikiSlug": "Ancient_Hawaii#Warfare",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hawaiian warfare developed its own specialized culture: the ali'i trained a class of professional warriors called koa, who were ranked by their combat skill and genealogy as carefully as any European knight. Wars were not purely destructive — they were also redistributive, with victorious chiefs reorganizing the ahupua'a (the land-division system running from mountain to sea) and reassigning fishing and farming rights to reward loyal followers. The same competitive energy that had once driven Polynesian expansion outward across the Pacific was now turned inward, fueling the political consolidation that would eventually allow Kamehameha I to unify all the islands in 1795."
+        }
+      ],
+      "commonsFile": "Capa_de_príncipe_hawaiano_(M._América_Inv.13021)_01.jpg"
     },
     {
       "id": "evt-kumulipo",
       "label": "Kumulipo Creation Chant",
       "year": 1400,
-      "description": "The Hawaiian Kumulipo, an epic creation chant of over 2,000 lines, encapsulated cosmology, genealogy, and natural history in oral form.",
+      "description": "The Kumulipo (koo-moo-LEE-poh) is a Hawaiian epic creation chant of over 2,000 lines that traces the origin of the universe from primordial darkness through sea creatures, land animals, and finally humans — connecting the Hawaiian ali'i to the gods through an unbroken named genealogy.",
       "wikiSlug": "Kumulipo",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Kumulipo was composed in honor of a specific chief, Kalaninuiamamao, and passed orally to his daughter Alapaiwahine, meaning it served simultaneously as cosmology, genealogical proof of divine lineage, and political legitimation. It was first written down in the 18th century and later translated into English by Queen Lili'uokalani while she was under house arrest after the U.S.-backed overthrow of the Hawaiian Kingdom in 1893 — an act of cultural preservation under extraordinary personal duress. At over 2,000 lines, it is comparable in scope to the creation narratives of Mesopotamia and the Vedic hymns of India."
+        }
+      ],
+      "commonsFile": "Liliuokalani,_c._1891.jpg"
     },
     {
       "id": "evt-maori-kumara-cultivation",
       "label": "Maori Kumara Cultivation",
       "year": 1400,
-      "description": "Maori adapted sweet potato (kumara) cultivation to New Zealand's temperate climate using stone-lined storage pits and south-facing garden terraces, pushing tropical agriculture to its global limit.",
+      "description": "Maori farmers adapted kumara (the Polynesian sweet potato) to temperate New Zealand using stone-lined underground storage pits to protect seed tubers through cold winters and south-facing terraced gardens to maximize sun, pushing tropical agriculture to its absolute global limit.",
       "wikiSlug": "Sweet_potato_cultivation_in_Polynesia",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In the South Island, even kumara would not grow at all, forcing Maori there to abandon farming entirely and shift to hunting, fishing, and gathering bracken fern root — a starchy but nutritionally poor food requiring extensive processing before it was edible. This north-south divide in food systems produced measurably different population densities and social structures across the two islands. Sweet potato cultivation across Polynesia began around 1000 CE in central Polynesia and spread outward; by the 17th century, hardier American varieties had begun replacing traditional cultivars in many island groups."
+        }
+      ],
+      "commonsFile": "Kumara_(taputini,_ipomoea_batatas).jpg"
     },
     {
       "id": "evt-hawaiian-ahupuaa",
       "label": "Ahupua'a Land System",
       "year": 1400,
-      "description": "Hawaiians organized their islands into ahupua'a, wedge-shaped land divisions running from mountain to sea, each a self-sufficient economic unit that sustained large populations through integrated resource management.",
+      "description": "The ahupua'a (ah-hoo-poo-AH-ah) was the Hawaiian land management system that divided each island into wedge-shaped units running from mountain summit to offshore reef, each designed to be a self-sufficient economy containing upland timber, terraced taro fields, and coastal fisheries.",
       "wikiSlug": "Ahupua%CA%BBa",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The system was so well-integrated that a single ahupua'a community rarely needed to trade outside its own land unit for basic subsistence — the vertical geography of Hawaiian volcanoes provided almost every resource within a single narrow wedge. Fishpond aquaculture along the coast was a Hawaiian specialty: coastal ponds with sluice gates allowed fish to enter when small but trapped them as they grew, producing reliable protein without the variability of open-ocean fishing. The ahupua'a system sustained an estimated 300,000 to 800,000 people across the Hawaiian Islands, one of the most densely populated Polynesian groups before European contact."
+        }
+      ],
+      "commonsFile": "Kahana_Valley_Oahu.JPG"
     },
     {
       "id": "evt-maori-wharenui",
       "label": "Maori Wharenui Meeting Houses",
       "year": 1400,
-      "description": "Maori constructed elaborate wharenui (meeting houses) serving as the architectural and spiritual center of each community, with carved ancestors guarding the entrance and interior posts representing tribal genealogy.",
+      "description": "The wharenui (FAH-reh-NOO-ee) — Maori communal meeting house — was the spiritual and architectural center of every Maori community, its carved interior representing the literal body of a named ancestor: roof ridge as spine, rafters as ribs, carved posts as forebears.",
       "wikiSlug": "Wharenui",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Every wharenui has a personal name, usually that of a famous ancestor or mythological figure — entering the building is understood as entering that ancestor's presence. The interior carvings are not decorative but genealogical records, each post representing a specific named forebear whose story a knowledgeable person could recite. Modern wharenui are still built to this ancestral template but may incorporate photographs of recent ancestors alongside traditional carvings, seamlessly extending a 600-year-old tradition."
+        }
+      ],
+      "commonsFile": "Tanenuiarangi.jpg"
     },
     {
       "id": "evt-piilani-maui",
       "label": "Pi'ilani of Maui",
       "year": 1450,
-      "description": "Chief Pi'ilani unified the island of Maui and built the King's Highway (Alaloa), a paved coastal road circling the entire island that facilitated trade and military movement.",
+      "description": "Around 1450 CE, Chief Pi'ilani (pee-ee-LAH-nee) unified the island of Maui and built the Alaloa (King's Highway), a paved coastal road circling the entire island — one of the most ambitious infrastructure projects in pre-contact Polynesia.",
       "wikiSlug": "Pi%CA%BBilani",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Alaloa ran approximately 138 miles (222 km) around Maui's coast, paved with flat stones and wide enough for steady foot traffic, facilitating both trade and rapid military movement across the island. Pi'ilani's unification of Maui was a political achievement unusual for the time: most Hawaiian islands remained divided among rival chiefs until the late 18th century, making Maui a generation ahead of the broader Hawaiian political trajectory. Sections of the Alaloa survive as a hiking trail today, making it one of the oldest human-built paths still walkable in the Pacific."
+        }
+      ],
+      "commonsFile": "Maui-Piilanihale-Heiau-walltiers.JPG"
     },
     {
       "id": "evt-tongan-civil-war",
       "label": "Tongan Civil Wars",
       "year": 1470,
-      "description": "The Tu'i Tonga empire fragmented through civil wars, leading to the creation of the Tu'i Ha'atakalaua and Tu'i Kanokupolu parallel royal lines.",
+      "description": "Around 1470 CE, a series of civil wars shook the Tu'i Tonga empire, shattering centralized authority and forcing Tonga's ruling class to reinvent how power was organized from the ground up.",
       "wikiSlug": "Tu%CA%BBi_Tonga_Empire",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The crisis produced one of the Pacific's most unusual political experiments: three separate royal lines holding different slices of sovereignty simultaneously. The sacred Tu'i Tonga kept his ritual dignity while entirely losing the ability to actually govern — his person was still tapu (divinely off-limits to touch) but his political grip was gone. The same structural tension between sacred kingship and practical rule emerged independently in medieval Japan (where emperors became figureheads under shoguns) and in ancient Mesopotamia — suggesting it's a recurring problem in human politics, not a Polynesian quirk."
+        }
+      ]
     },
     {
       "id": "evt-tongan-triple-kingship",
       "label": "Tongan Triple Kingship",
       "year": 1470,
-      "description": "Tonga's political crisis produced a unique triple kingship: the sacred Tu'i Tonga retained ritual authority while the Tu'i Ha'atakalaua and Tu'i Kanokupolu wielded actual governing power.",
+      "description": "Tonga's answer to the unsolvable problem of a king too sacred to govern was a triple kingship: the Tu'i Tonga held ritual authority, the Tu'i Ha'atakalaua ran civilian administration, and the Tu'i Kanokupolu handled military and political affairs.",
       "wikiSlug": "Tu%CA%BBi_Ha%CA%BBatakalaua",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tu'i Ha'atakalaua title was created specifically to do the governing work the sacred king could no longer touch — a formal separation of the divine from the administrative that had no real precedent in the Pacific. The Tu'i Kanokupolu emerged later still, as military pressures demanded yet another layer of command. This three-way split actually kept Tongan political culture intact for centuries, preserving the sacred lineage as a living institution while routing real power through titles that could be contested, competed for, and transferred without desecrating the divine line."
+        }
+      ],
+      "commonsFile": "Paepae_ʻo_Teleʻa.jpg"
     },
     {
       "id": "evt-ahu-tongariki",
       "label": "Ahu Tongariki Platform",
       "year": 1480,
-      "description": "Easter Islanders completed Ahu Tongariki, the largest ahu platform on Rapa Nui, bearing 15 moai statues in a row stretching over 200 feet along the coast.",
+      "description": "Ahu Tongariki is the largest ceremonial platform on Easter Island, bearing fifteen moai in a row stretching over 200 feet (60 meters) along the coast — the most visually striking archaeological site in all of Polynesia.",
       "wikiSlug": "Ahu_Tongariki",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "One of Ahu Tongariki's moai weighs 86 tonnes, the heaviest ever successfully erected on the island. All fifteen statues face the sunset during the winter solstice, suggesting the platform was deliberately oriented to a celestial calendar. The ahu was swept hundreds of feet inland by a 1960 tsunami and lay in ruins until a Japanese crane manufacturer sponsored its restoration in the 1990s."
+        }
+      ],
+      "commonsFile": "Ahu-Tongariki-2013.jpg"
     },
     {
       "id": "evt-rapa-nui-collapse",
       "label": "Rapa Nui Ecological Crisis",
       "year": 1500,
-      "description": "Easter Island experienced environmental collapse as deforestation eliminated resources needed for moai construction and ocean-going canoes.",
+      "description": "By around 1500 CE, Easter Island's palm forests — which had blanketed the island when settlers first arrived — had been completely cleared, stripping the Rapa Nui of the timber they needed to build ocean-going canoes and ending the island's last connection to the wider Pacific.",
       "wikiSlug": "Easter_Island#Deforestation",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Rapa Nui adapted more resourcefully than the old \"ecocide\" narrative (popularized by Jared Diamond's 2005 book Collapse) gives them credit for: they developed rock-garden agriculture, tucking crops in among loose volcanic stones that retained moisture and blocked the wind, which kept the population fed at a reduced but stable level for generations after the forests were gone. Recent archaeology suggests the moai were toppled gradually over decades or centuries as the chiefly system that maintained them broke down — not in one apocalyptic civil war as older accounts claimed. The catastrophe that truly shattered Rapa Nui culture was the Peruvian slave raids of the 1860s, which removed roughly a third of the population in a single sweep and killed most of the remaining priests, navigators, and rongorongo (the island's undeciphered script) readers."
+        }
+      ],
+      "commonsFile": "Ahu-Akivi-1.JPG"
     },
     {
       "id": "evt-umi-a-liloa",
       "label": "Umi-a-Liloa of Hawai'i Island",
       "year": 1500,
-      "description": "Chief Umi-a-Liloa unified Hawai'i Island through conquest and established a centralized administration with appointed district governors, foreshadowing Kamehameha's later unification.",
+      "description": "Around 1500 CE, Chief Umi-a-Liloa (OO-mee ah lee-LOH-ah) unified Hawai'i Island through conquest and established a centralized administration with appointed district governors — a bureaucratic innovation that foreshadowed the full unification of the Hawaiian Islands by Kamehameha three centuries later.",
       "wikiSlug": "%CA%BBUmi-a-L%C4%ABloa",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Umi-a-Liloa was, according to tradition, born of a union between the high chief Liloa and a commoner woman — a low-status origin that made his later rise to paramount chief a dramatic reversal of the rigid Hawaiian class system. His appointed district governors replaced the traditional system of hereditary chiefs controlling their own territories, effectively creating an administrative layer that answered to the paramount chief rather than to local lineage. This model of centralized delegation became the template for how Hawaiian paramount chiefs organized political power for the next 300 years."
+        }
+      ],
+      "commonsFile": "Lei_Niho_Palaoa_(Neck_Ornament),_19th_century,_Carved_sperm_whale_tooth,_braided_human_hair,_olona_cordage.jpg"
     }
   ]
 }
