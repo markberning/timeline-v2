@@ -53,7 +53,15 @@ docs/content-pipeline.md step 13 + memory/feedback_wikimedia_rate_limit.
 
 ## Count
 
-**Done: 20 / 109 civs**  ·  **89 civs remaining, smallest-first.**
+**Done: 48 / 109 civs**  ·  **61 civs remaining, smallest-first.**
+
+> The authoritative swept list is computed, not hand-maintained: `git log --oneline | grep
+> 'event-upgrade sweep:'` (the gated civs) **plus** the 14 cards-carried rollout/pilot civs
+> (celtic-cultures, carthage, soviet-union, age-of-exploration, atlantic-slave-trade,
+> latin-american-independence, medieval-japan, islamic-persia, indus-valley, mali-empire,
+> kingdom-of-kush, ancient-nubia, ancient-china, elamite-civilization). Remaining = civs with
+> a `content/.event-links-<tl>.json` minus that set. See **Worklist** below for the one-liner
+> that regenerates the smallest-first queue.
 
 Overlapped workflow waves (kush/early-dynastic/yuan, then middle-horizon/old-kingdom/maurya).
 Two concurrency bugs found + fixed: (1) a lock-queued civ's gather Bash call was killed at
@@ -64,7 +72,27 @@ workflow refuses to self-commit if any gate is red (middle-horizon held back on 
 photo flag — a Gateway-of-the-Sun frieze on a "puma iconography" event; rejected by hand).
 **Deployed to prod after this batch (indus → maurya).**
 
-Last updated: 2026-05-29 (sweeping)
+Last updated: 2026-06-03 (paused mid-rollout — clean stop).
+
+## ENGINE OPTIMIZED 2026-06-03 (~47% cheaper per civ) — see memory/project_sweep_token_optimization
+Per-civ cost was burning the 5-hr usage window in <1hr (6–8 civs). Measured driver = cache-read
+tokens; the author phase did **253 full-page WebFetches/civ** (12.3M cache-read). Fixes (commit 458d2e23):
+1. **`sweep-bundle.mjs` prefetches** each event's wiki intro (`wikiExtract`) + lead-image File:
+   (`leadImage`) into the chapter bundle via the REST summary endpoint (zero model tokens). The
+   author reads those instead of WebFetching → author cache-read 12.3M→~1-2M, WebFetches 253→0.
+2. **`sweep-photos.mjs` page-image bug fixed** — `prop=images` was batched 50-titles/`imlimit=40`,
+   but imlimit is a TOTAL across the batch, so the first article ate the quota and the rest got
+   ZERO images (gupta: 4 page-images for the whole civ). Now one request per slug → page-images
+   4→90, candidate pool 61→122. Plus a distinctness-aware Commons label-search. **This was a
+   corpus-wide quality bug** — re-sweeping earlier civs would now get materially better photos.
+3. Pick **stays Sonnet** (Haiku tried + reverted: 294 turns vs 199, cache-read ballooned to 14M);
+   candidate cap `--max 3` (max 2 dropped coverage 79→68%).
+Net per-civ cache-read ~20.6M→~11M. Config is the workflow default; nothing to pass.
+
+This session shipped 9 civs on the new engine: gupta-empire (72.6%), zhou-dynasty (85.9%),
+teotihuacan (46.9% — image-poor, anonymous rulers, honest), srivijaya (76.9%),
+mycenaean-civilization (68.7%), meiji-japan (83.6%), asuka-nara-japan (85.5%),
+late-medieval-europe (83.8%), ming-dynasty (78.3%). All pushed live.
 
 ## Done (card-complete, all gates green)
 1. celtic-cultures (pilot, ch1 ref) — partial→full
@@ -99,8 +127,21 @@ _(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china/elamite/nu
 **Lesson (indus):** the gatherer hands material-culture + abstract events ONLY the regional map → first vision pass over-rejects (here 30/54 = 56%, under the floor). FIX baked into the recipe: after the first pick, run a **finder agent** that web-verifies real distinct Commons filenames for the recoverable famous artifacts (Great Bath, weights, beads, the unicorn seal, etc.), re-gather, vision re-pick. Two rounds took 56%→87%. Only genuinely abstract events (trade networks, collapse-process) stay honest rejects.
 
 ## In progress
-- (none — indus-valley just closed)
+- (none — clean stop 2026-06-03. Repo clean, nothing unpushed, no locks held.)
 
-## Worklist (smallest-first)
-Pending — see /tmp/sweep-worklist.json. Next up:
-mali-empire, prehistoric-japan, yuan-dynasty, early-dynastic-egypt, …
+## Worklist (smallest-first) — 61 remaining
+`/tmp/sweep-worklist.json` does NOT survive a session clear. Regenerate it any time with:
+```sh
+git log --oneline | grep -oE 'event-upgrade sweep: [a-z0-9-]+' | sed 's/.*: //' | sort -u > /tmp/swept.txt
+printf '%s\n' celtic-cultures carthage soviet-union age-of-exploration atlantic-slave-trade latin-american-independence medieval-japan islamic-persia indus-valley mali-empire kingdom-of-kush ancient-nubia ancient-china elamite-civilization >> /tmp/swept.txt
+sort -u /tmp/swept.txt -o /tmp/swept.txt
+for f in content/.event-links-*.json; do basename "$f" | sed 's/^\.event-links-//;s/\.json$//'; done | sort -u > /tmp/haslinks.txt
+comm -23 /tmp/haslinks.txt /tmp/swept.txt   # = remaining; sort by event count for smallest-first
+```
+**Next up (smallest-first):** polynesian-voyagers, post-maurya-kingdoms, shang-dynasty,
+tang-song-china, han-dynasty, korean-modern, xiongnu-huns, timurid-empire, safavid-persia, …
+
+**To resume:** launch the sweep-civ workflow INLINE (Workflow tool, `scriptPath:
+scripts/sweep-civ.workflow.js`, `args: "<tlId>"`), 2-wide overlapping. Each civ self-commits when
+gates pass; push in batches. A flaky "subagent completed without calling StructuredOutput" failure
+is transient — just re-launch that civ with `resumeFromRunId` (replays completed phases from cache).
