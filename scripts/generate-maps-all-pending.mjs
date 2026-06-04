@@ -6,6 +6,15 @@
 
 import { spawnSync } from 'node:child_process'
 
+// ── HARD STOP: Gemini map generation is DISABLED (2026-06-04) ─────────────────
+// Batch map generation is retired for cost control. Maps now come from real /
+// period public-domain sources. See audits/map-generation-disabled.md.
+if (process.env.ALLOW_GEMINI_MAP_GEN !== '1') {
+  console.error('DISABLED: batch Gemini map generation is retired (cost control).')
+  console.error('  Add real / public-domain maps by hand. Override (one-off): ALLOW_GEMINI_MAP_GEN=1')
+  process.exit(1)
+}
+
 const PENDING = [
   'gupta-empire',
   'byzantine-empire',

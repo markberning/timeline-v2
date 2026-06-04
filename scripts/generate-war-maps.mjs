@@ -33,6 +33,15 @@ if (!war) {
   process.exit(1)
 }
 
+// ── HARD STOP: Gemini map generation is DISABLED (2026-06-04) ─────────────────
+// War maps now come from real / period public-domain sources, never generated.
+// See audits/map-generation-disabled.md. (--dry-run makes no API call.) Override: ALLOW_GEMINI_MAP_GEN=1.
+if (!dryRun && process.env.ALLOW_GEMINI_MAP_GEN !== '1') {
+  console.error('DISABLED: Gemini war-map generation is retired (cost control).')
+  console.error('  Use a real / public-domain map instead. Override (one-off): ALLOW_GEMINI_MAP_GEN=1')
+  process.exit(1)
+}
+
 const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY
 if (!apiKey && !dryRun) {
   console.error('Missing GEMINI_API_KEY or GOOGLE_API_KEY environment variable.')

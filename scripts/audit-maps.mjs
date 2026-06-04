@@ -56,6 +56,15 @@ if (!tlId) {
   process.exit(2)
 }
 
+// ── HARD STOP: the Gemini map vision-QA is DISABLED (2026-06-04) ──────────────
+// This QA pass was ~half the $483 May Gemini bill. Maps are now real / period
+// public-domain images, verified for presence (not AI-QA'd). See
+// audits/map-generation-disabled.md. Deliberate one-off override: ALLOW_GEMINI_MAP_GEN=1.
+if (process.env.ALLOW_GEMINI_MAP_GEN !== '1') {
+  console.error('DISABLED: Gemini map QA is retired (cost control). Override (one-off): ALLOW_GEMINI_MAP_GEN=1')
+  process.exit(2)
+}
+
 const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY
 if (!apiKey) {
   console.error('Missing GEMINI_API_KEY or GOOGLE_API_KEY')
