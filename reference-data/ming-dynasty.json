@@ -58,615 +58,987 @@
       "label": "Hongwu Emperor",
       "year": 1368,
       "endYear": 1398,
-      "description": "Zhu Yuanzhang — peasant orphan, former Buddhist novice monk, Red Turban warlord — proclaimed the Ming dynasty at Nanjing in January 1368 and took the reign name Hongwu ('Vastly Martial'). He is the only Chinese founding emperor of pure peasant birth in the entire imperial period, and his thirty-year reign was one of the most autocratic and violent in Chinese history.",
+      "description": "Zhu Yuanzhang, who took the reign name Hongwu ('Vastly Martial'), founded the Ming dynasty in 1368 after rising from peasant orphan to begging Buddhist monk to rebel warlord — the only Chinese founding emperor of pure peasant birth in the entire imperial record. His thirty-year reign was one of the most autocratic, administratively ambitious, and violently paranoid in the whole imperial period.",
       "wikiSlug": "Hongwu_Emperor",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hongwu's famous court portrait shows a long, asymmetrical face with a protruding chin and pockmarks; he reportedly executed court painters whose likenesses either flattered him too obviously or not enough. He was illiterate when he joined the Red Turbans and taught himself to read as an adult, but his personal correspondence — which survives in quantity — is blunt and frequently violent, never the polished literary Chinese of the scholar-official class. He personally reviewed an estimated 1,600 administrative memorials per day in the years immediately following his abolition of the Chief Minister's office."
+        }
+      ],
+      "commonsFile": "Portrait_assis_de_l'empereur_Ming_Taizu.jpg"
     },
     {
       "id": "evt-ming-founding",
       "label": "Founding of the Ming",
       "year": 1368,
-      "description": "Zhu Yuanzhang formally proclaimed the Ming dynasty in January 1368 at Nanjing. The dynastic name Ming ('bright') was chosen for its associations with Buddhist millenarian light symbolism (Maitreya the future Buddha), with the fire element of the Five Elements cosmological scheme, and with deliberate contrast to the Mongol Yuan it replaced.",
+      "description": "In January 1368, Zhu Yuanzhang proclaimed the Ming dynasty at Nanjing, ending the Mongol Yuan's rule over China and establishing what would become the last Han-Chinese imperial dynasty before the Manchu Qing. The name Ming ('bright') carried Buddhist millenarian symbolism, fire-element associations in the Five Elements cosmological scheme, and a deliberate contrast with the foreign Yuan it displaced.",
       "wikiSlug": "Ming_dynasty",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Ming ruled for 276 years and outlasted several rump successors — the Southern Ming regimes founded by branches of the imperial family kept fighting until 1662, nearly two decades after Beijing fell. At its height the dynasty administered one of the world's largest populations, but it began as a state shaped almost entirely by one man's experience of famine, foreign misrule, and refugee poverty."
+        }
+      ],
+      "commonsFile": "Ming_Iron_Spearhead.jpg"
     },
     {
       "id": "evt-ming-expulsion-mongols",
       "label": "Expulsion of the Mongols",
       "year": 1368,
-      "description": "On the night of September 14, 1368, the last Yuan emperor Toghon Temur abandoned the capital Khanbaliq and fled north into Mongolia. The next morning the Ming general Xu Da entered the city without opposition. For the first time since the Mongol conquest of 1279, all of China was under Han Chinese rule again.",
+      "description": "On the night of September 14, 1368, the last Yuan emperor Toghon Temur abandoned Khanbaliq (modern Beijing) and fled north through the Juyong Pass into Mongolia; the next morning Ming general Xu Da entered the city without a fight. For the first time since the Mongol conquest of 1279, all of China was under Han Chinese rule.",
       "wikiSlug": "Northern_Yuan",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Yuan court that escaped into Mongolia did not simply disappear — it survived as the Northern Yuan for roughly two more centuries, periodically raiding and threatening the Ming frontier. Toghon Temur had been evacuating nobles and treasures northward for weeks before he finally fled; his keshig (imperial bodyguard) was understrength, the Han Chinese garrison troops had no stake in defending a dynasty visibly collapsing for a decade. The 1368 date is the one Chinese tradition treats as the Mongol period's end, even though the Northern Yuan outlasted it by 267 years."
+        }
+      ]
     },
     {
       "id": "evt-ming-nanjing-capital",
       "label": "Nanjing as First Ming Capital",
       "year": 1368,
-      "description": "Hongwu made Nanjing ('Southern Capital') his imperial capital, partly because it was deep in his southern Yangtze power base and far from the Mongol frontier. He built massive city walls — the Nanjing city wall is one of the longest pre-modern city walls in the world, over 30 miles in circuit — and laid out a new imperial palace. The capital would remain at Nanjing until the Yongle Emperor moved it to Beijing in the 1420s.",
+      "description": "Nanjing ('Southern Capital') served as the first Ming imperial capital from 1368, where Hongwu built one of the longest pre-modern city walls in the world — over 30 miles in circuit — and established the administrative and ceremonial infrastructure of the new dynasty, before Yongle moved the capital north to Beijing in the 1420s.",
       "wikiSlug": "Nanjing",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hongwu chose Nanjing partly because it was deep in his southern power base and as far as possible from the Mongol frontier he distrusted — the opposite strategic logic from Yongle, who would later move the capital precisely to be close to that frontier. Nanjing's city walls, built from a special kiln-fired brick stamped with the name of the responsible craftsman (a quality-control system), still stand largely intact today and are one of the most complete surviving examples of pre-modern Chinese urban fortification."
+        }
+      ]
     },
     {
       "id": "evt-ming-grand-secretariat-abolition",
       "label": "Abolition of the Grand Secretariat",
       "year": 1380,
-      "description": "After the Hu Weiyong purge of 1380 — in which Hongwu executed his Chief Minister and an estimated 30,000 alleged accomplices over the following years — the emperor abolished the office of Chief Minister entirely and the Zhongshu Sheng (Central Secretariat) along with it. The six ministries reported directly to the emperor, who took on an impossible administrative workload. The decision concentrated power in the throne to a degree unmatched in any earlier Chinese dynasty.",
+      "description": "After executing his Chief Minister Hu Weiyong in 1380, Hongwu abolished the office of Chief Minister entirely and dissolved the Central Secretariat (Zhongshu Sheng) — the senior administrative body that every Chinese dynasty since the Han had operated. The six Ministries (Personnel, Revenue, Rites, War, Justice, Public Works) now reported directly to the emperor himself, concentrating power in the throne to a degree unmatched in any earlier dynasty.",
       "wikiSlug": "Grand_Secretariat",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The workaround that eventually emerged — the Grand Secretariat (Neige), an informal body of imperial secretaries who unofficially performed the abolished Chancellor's coordinating function — never had formal authority, leaving the Ming emperor perpetually either a workaholic micromanager or a bureaucratic bottleneck. The Grand Secretaries screened documents and drafted suggested rescripts for the emperor, but they had no independent power base; a clever eunuch or a persuasive empress could outrank them simply by controlling physical access to the throne."
+        }
+      ],
+      "commonsFile": "Wen_Yuan_Chamber.JPG"
     },
     {
       "id": "evt-ming-hu-weiyong-purge",
       "label": "Hu Weiyong Purge",
       "year": 1380,
-      "description": "Hongwu accused his Chief Minister Hu Weiyong of treason in 1380, executed him along with his entire family, and over the next decade extended the investigation to execute approximately 30,000 alleged accomplices — including many of his own former Red Turban comrades. The purge gutted the founding generation of Ming officials and demonstrated the emperor's willingness to destroy any potential rival faction.",
+      "description": "In 1380 Hongwu accused his Chief Minister Hu Weiyong of plotting rebellion in collusion with Japanese, Mongol, and Vietnamese contacts, executed him along with his entire family, and over the next decade expanded the investigation to kill an estimated 30,000 alleged accomplices — officials, clerks, scholars, military officers, and peripheral acquaintances. The purge gutted the founding generation of Ming officialdom and set off the abolition of the Chief Minister's office entirely.",
       "wikiSlug": "Hu_Weiyong",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Founder-emperors purging dangerous subordinates was not unusual in Chinese history, but the scale Hongwu reached — tens of thousands over a decade — and his use of the purge as justification to permanently restructure the government were without precedent. Hu Weiyong had held office since 1377, heading the entire civil administration; his fall removed the most senior non-imperial figure in the state. Whether the alleged conspiracy was real or a manufactured pretext remains debated by historians, since the evidence was produced under an investigation the emperor personally controlled."
+        }
+      ]
     },
     {
       "id": "evt-ming-lan-yu-purge",
       "label": "Lan Yu Purge",
       "year": 1393,
-      "description": "Thirteen years after the Hu Weiyong purge, Hongwu executed his most successful general Lan Yu and an estimated 15,000 alleged accomplices. The Lan Yu purge eliminated the surviving senior military commanders of the Ming founding, leaving the army in the hands of the imperial princes and clearing the way for Hongwu's grandson to inherit a throne with no rival power centers. The strategy backfired spectacularly when the princes themselves became the threat after Hongwu's death.",
+      "description": "In 1393 Hongwu executed his most successful general Lan Yu — who had pushed Mongol forces deep into their own steppe — along with an estimated 15,000 alleged accomplices, eliminating almost the entire surviving senior military command of the Ming founding. The purge was designed to clear any rival power center before the emperor's death; it backfired when the only remaining military blocs turned out to be Hongwu's own imperial princes.",
       "wikiSlug": "Lan_Yu_(general)",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Lan Yu had won the decisive Battle of Lake Buyur Nuur in 1388, driving the Northern Yuan Khan into flight and capturing much of the Mongol court's treasure and livestock — the most complete Ming military victory against the Mongols of the entire dynasty. His success was, by some accounts, part of his problem: Hongwu had grown wary of commanders whose achievements gave them independent prestige. The list of charges against Lan Yu included arrogating imperial ceremonies for himself and taking unauthorized concubines from the Khan's household."
+        }
+      ],
+      "commonsFile": "Statue_of_Lan_Yu.jpg"
     },
     {
       "id": "evt-ming-hongwu-code",
       "label": "The Hongwu Code",
       "year": 1397,
-      "description": "The Da Ming Lu (Great Ming Code) was promulgated in its final form in 1397, the most comprehensive Chinese legal code since the Tang Code of 653. It governed the Ming legal system for the entire dynasty and provided the template for the Qing Code that succeeded it. Punishments were harsh — the Hongwu Code legalized flaying alive for corruption above 60 ounces of silver, the punishment to be applied to officials in their own offices.",
+      "description": "The Da Ming Lu (Great Ming Code), promulgated in final form in 1397, was the most comprehensive Chinese legal code since the Tang Code of 653 and governed the Ming legal system for the entire dynasty, later serving as the template for the Qing Code. Its punishments were severe — the Code legalized flaying alive for officials convicted of corruption above 60 ounces of silver, with the skin stuffed with straw and displayed in the official's former office.",
       "wikiSlug": "Great_Ming_Code",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hongwu also issued personal Grand Pronouncements (Da Gao) as supplements to the Code, which contained the most extreme punishments and read in places more like a manifesto than a legal text. Every Ming household was theoretically required to keep a copy of the Da Gao, and possessing one could reduce a sentence. Modern historians debate how frequently the most extreme punishments (including flaying) were actually carried out, since physical evidence is thin — but their inscription in formal law is itself a signal of the founder's governing philosophy."
+        }
+      ],
+      "commonsFile": "明太祖画像_(cropped).jpg"
     },
     {
       "id": "evt-ming-lijia-system",
       "label": "Lijia Rural Control System",
       "year": 1381,
-      "description": "Hongwu organized the Chinese countryside into the lijia system — every 110 households formed a li, with the ten wealthiest households serving rotating leadership terms. Each li was responsible for tax collection, conscription, security, and the maintenance of household registers. The system tied Chinese peasants to their villages with limited rights of mobility, codified household occupations as hereditary, and was the most ambitious pre-modern attempt to administer rural China without an extensive paid bureaucracy.",
+      "description": "Formalized in 1381, the lijia system organized the Chinese countryside into units of 110 households, with the ten wealthiest serving rotating annual leadership responsible for tax collection, conscription quotas, local security, and household registers. Each household's occupation — military, civilian, artisan, salt-producer — was registered as hereditary, and movement out of one's registered category required formal permission.",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The lijia was one of the most ambitious pre-modern attempts to administer a continental rural population without building a large paid bureaucracy — it put the cost of local governance onto the wealthiest local households rather than the imperial treasury. It worked reasonably well under Hongwu's personal scrutiny and brutal penalties for malfeasance, but decayed predictably: over generations, wealthy households found ways to evade service while the rotating headships fell onto increasingly impoverished households who could neither refuse nor afford them."
+        }
+      ],
+      "commonsFile": "Yellow_Register_Archives_of_the_Ming_Dynasty,_Nanjing_(flickr_1559896574).jpg"
     },
     {
       "id": "evt-ming-eunuch-system",
       "label": "Establishment of the Eunuch Bureaucracy",
       "year": 1380,
-      "description": "Hongwu officially distrusted eunuchs and forbade them from holding office or learning to read — but he created the Twenty-Four Departments of the imperial household staff, which would over the following century evolve into a parallel administration that rivaled and often exceeded the regular Confucian bureaucracy in real power. The Directorate of Ceremonial (Si Li Jian) eventually controlled the flow of memorials to the emperor; the Eastern Depot (Dong Chang) ran an internal secret police.",
+      "description": "Despite publicly distrusting eunuchs and inscribing a prohibition on eunuch officeholding in iron at the palace gate, Hongwu created the Twenty-Four Departments of the imperial household — all inevitably staffed by eunuchs — which within a generation of his death evolved into a parallel administration that rivaled and often exceeded the Confucian bureaucracy in real power. The Directorate of Ceremonial (Si Li Jian) controlled what documents reached the emperor; the Eastern Depot (Dong Chang) ran an internal secret police.",
       "wikiSlug": "Eunuchs_in_China",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hongwu's iron tablet prohibition was reportedly removed or simply ignored by the very next emperor, his son the Yongle Emperor. The institutional logic was almost unavoidable: once the Chief Minister had been abolished and the emperor became the sole coordinator of the whole government, whoever controlled physical access to the emperor became indispensable. Hongwu himself could bypass the eunuchs because he insisted on reading every memorial personally; emperors who did not were structurally dependent on the eunuchs who filtered the paperwork."
+        }
+      ],
+      "commonsFile": "Prince_Zhanghuai's_tomb,_eunuchs.JPG"
     },
     {
       "id": "evt-ming-jianwen-emperor",
       "label": "The Jianwen Emperor",
       "year": 1398,
       "endYear": 1402,
-      "description": "Hongwu's grandson Zhu Yunwen took the throne as the Jianwen Emperor in 1398 and immediately began trying to reduce the power of his uncles, the imperial princes who held vast military commands on the northern frontier. The Prince of Yan — Hongwu's fourth son Zhu Di, the future Yongle Emperor — refused to accept his demotion and rose in revolt. After a four-year civil war the Prince captured Nanjing in July 1402; the imperial palace caught fire; the Jianwen Emperor disappeared and his fate was never officially confirmed.",
+      "description": "Zhu Yunwen ruled as the Jianwen Emperor for just four years (1398–1402) before his uncle the Prince of Yan overthrew him in a civil war — and then vanished so completely that the Ming court never officially confirmed whether he died in the palace fire or escaped disguised as a Buddhist monk, a mystery that haunted the dynasty for centuries.",
       "wikiSlug": "Jianwen_Emperor",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jianwen's father Zhu Biao — the original crown prince — had died in 1392, six years before Hongwu himself, so Jianwen inherited an empire his father never ruled. Yongle's regime retrospectively struck Jianwen from the official reign-year count, meaning official documents of the period skipped from Hongwu's 31st year directly to Yongle's 1st — a bureaucratic erasure of a four-year reign that Chinese historians would quietly argue about for the rest of the dynasty."
+        }
+      ],
+      "commonsFile": "Jianwen_Emperor.jpg"
     },
     {
       "id": "evt-ming-jingnan-campaign",
       "label": "Jingnan Campaign",
       "year": 1399,
       "endYear": 1402,
-      "description": "The Jingnan Campaign ('Pacification of the Difficulties') was the four-year civil war between the Jianwen Emperor and his uncle the Prince of Yan. Zhu Di's veteran northern army defeated the central government's larger forces in a series of campaigns; the climactic battle at the Yangtze in 1402 broke the imperial defense; Zhu Di entered Nanjing on July 13, 1402, and proclaimed himself the Yongle Emperor.",
+      "description": "The Jingnan Campaign ('Pacification of the Difficulties') was the four-year civil war in which the Prince of Yan, Zhu Di, defeated his nephew the Jianwen Emperor and seized the Ming throne — the only successful coup by an imperial prince against an enthroned Chinese emperor in the two-thousand-year history of Chinese imperial dynasties.",
       "wikiSlug": "Jingnan_campaign",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zhu Di's legal justification for the rebellion was a classic of Chinese political theater: he claimed he was 'rescuing' the emperor from corrupt Confucian advisors, invoking a formula sanctioned by precedent that technically allowed a prince to march on the capital without formally declaring treason. Key imperial commanders defected to Zhu Di mid-campaign, a factor that the sources agree was as important as his army's superior battlefield experience from years of Mongol frontier warfare."
+        }
+      ],
+      "commonsFile": "Portrait_assis_de_l'empereur_Ming_Chengzu.jpg"
     },
     {
       "id": "evt-ming-yongle-emperor",
       "label": "Yongle Emperor",
       "year": 1402,
       "endYear": 1424,
-      "description": "Zhu Di, fourth son of Hongwu, ruled as the Yongle Emperor for twenty-two years and remade the Ming dynasty. He moved the capital from Nanjing to Beijing, built the Forbidden City, commissioned the Yongle Encyclopedia, dispatched Zheng He's seven treasure voyages, led five personal campaigns into the Mongolian steppe, and projected Chinese power further than any earlier dynasty. The methods he used were often brutal — including the systematic execution of officials loyal to his nephew — and he is one of the most contested figures in Chinese imperial historiography.",
+      "description": "Zhu Di, Hongwu's fourth son, seized the throne from his nephew and ruled as the Yongle Emperor (1402–1424) — moving the capital to Beijing, building the Forbidden City, commissioning the world's largest encyclopedia, and launching Zheng He's ocean voyages, all while remaining one of Chinese history's most contested figures because of how he won power.",
       "wikiSlug": "Yongle_Emperor",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yongle is counted as the Ming dynasty's third emperor in official records, not the second — the Jianwen Emperor was retroactively erased from official histories after Yongle's victory, a politically motivated rewrite that wasn't fully reversed until the reign of Chongzhen in 1644. Yongle died on campaign in the Mongolian steppe in August 1424, never making it back to Beijing, so the capital he built outlasted him by decades before he himself saw it as a functioning imperial seat."
+        }
+      ],
+      "commonsFile": "Ming_dynasty_under_Yongle_Emperor.png"
     },
     {
       "id": "evt-ming-beijing-capital",
       "label": "Beijing as Capital",
       "year": 1421,
-      "description": "The Yongle Emperor formally moved the imperial capital from Nanjing to Beijing in 1421, completing a project he had begun in 1403. Beijing had been Yongle's regional power base as Prince of Yan and was strategically positioned to monitor the Mongolian frontier. The decision committed the Ming to defending a capital far from its tax base in the Yangtze valley — a logistical strain that would shape Ming policy for the rest of the dynasty.",
+      "description": "In 1421, after two decades of preparation, the Yongle Emperor formally moved the Ming imperial capital from Nanjing to Beijing — a decision that committed the dynasty to governing from the Mongolian frontier, 700 miles from its main tax base, and established the city that has served as China's political center for most of the 600 years since.",
       "wikiSlug": "Beijing",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The logistical burden of feeding a northern capital from southern grain was so demanding that the Grand Canal had to be entirely rebuilt and expanded just to make the move viable. The choice proved permanent in a way Yongle couldn't have predicted: even after the Ming fell in 1644, the Qing kept Beijing as the capital; the Republic of China moved it to Nanjing after 1928, but Mao restored it to Beijing in 1949, where it has remained ever since."
+        }
+      ]
     },
     {
       "id": "evt-ming-forbidden-city",
       "label": "Forbidden City Built",
       "year": 1406,
       "endYear": 1420,
-      "description": "The Forbidden City — the imperial palace at the heart of Beijing, called Zijincheng ('Purple Forbidden City') in Chinese — was constructed between 1406 and 1420 under the Yongle Emperor. It contains 980 buildings on a 180-acre site, surrounded by a 26-foot-high wall and a 170-foot-wide moat, organized along a strict north-south axis. It was the seat of every Ming and Qing emperor for nearly five hundred years, is now a UNESCO World Heritage site, and remains the largest preserved palace complex in the world.",
+      "description": "The Forbidden City (Zijincheng, 'Purple Forbidden City') is the 180-acre imperial palace complex at the center of Beijing, built between 1406 and 1420 under the Yongle Emperor — 980 buildings behind a 26-foot wall and a 170-foot moat, it served as the seat of every Ming and Qing emperor for nearly 500 years and is now the most-visited museum in the world.",
       "wikiSlug": "Forbidden_City",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The largest marble slab in the complex weighs about 200 tons and was hauled 43 miles from its quarry in the dead of winter by pouring water from wells to ice the road surface — pre-modern logistical engineering at its most inventive. The number of decorative roof-corner figures on each building encoded that building's rank in the imperial hierarchy, with the Hall of Supreme Harmony at the maximum of 10; the entire palace is a cosmological diagram as much as an administrative complex, oriented precisely to align with the emperor's symbolic axis between earth (south) and the polestar (north)."
+        }
+      ],
+      "commonsFile": "The_Forbidden_City_-_View_from_Coal_Hill.jpg"
     },
     {
       "id": "evt-ming-yongle-encyclopedia",
       "label": "Yongle Encyclopedia",
       "year": 1408,
-      "description": "The Yongle Encyclopedia (Yongle Dadian) was a monumental compilation of Chinese knowledge commissioned by the Yongle Emperor and completed in 1408 by over 2,000 scholars. The original ran to 11,095 volumes containing roughly 370 million Chinese characters — making it the largest reference work in human history before Wikipedia. Most of the original was lost or destroyed, mainly in the late Ming and during the Boxer Rebellion of 1900; only about 400 volumes survive today, scattered across libraries worldwide.",
+      "description": "The Yongle Encyclopedia (Yongle Dadian) was a compilation of all existing Chinese knowledge commissioned in 1403 and completed in 1408 by more than 2,000 scholars — at 11,095 volumes and roughly 370 million Chinese characters, it was the largest reference work in human history before Wikipedia, and most of it is gone.",
       "wikiSlug": "Yongle_Encyclopedia",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The encyclopedia was organized by the rhyme of each entry-word, a distinctly Chinese filing scheme that reflects the centrality of poetry and phonetics in the classical tradition. A single complete hand-copied duplicate was made in the 1560s — fortunately, because the original was mostly destroyed in Ming-era fires; the duplicate then suffered catastrophic losses in the 1860 Anglo-French sack of Beijing and the 1900 Boxer Rebellion, leaving only about 400 of the original 11,095 volumes surviving today, scattered across libraries in Beijing, Taipei, Tokyo, London, Cambridge, and several American universities."
+        }
+      ],
+      "commonsFile": "永樂大典_04.jpg"
     },
     {
       "id": "evt-ming-mongolian-campaigns",
       "label": "Yongle's Mongolian Campaigns",
       "year": 1410,
       "endYear": 1424,
-      "description": "The Yongle Emperor personally led five major campaigns into the Mongolian steppe between 1410 and 1424, attempting to break the surviving Mongol confederations that had reformed after the Yuan collapse. The campaigns were tactically successful but strategically inconclusive — the steppe was too vast for permanent occupation, and Yongle himself died on the return from his fifth campaign in 1424. The campaigns demonstrated Ming military reach but did not solve the northern frontier problem.",
+      "description": "The Yongle Emperor personally led five military expeditions into the Mongolian steppe between 1410 and 1424, marching as far north as the Onon River (near the original Mongol homeland in modern Mongolia) to break the reformed Mongol confederations — but the steppe was too vast to hold, the Mongols simply retreated and regrouped each time, and Yongle himself died on the return march from his fifth campaign.",
       "wikiSlug": "Yongle_Emperor",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yongle died at what is now Wuzhumuqin in Inner Mongolia in August 1424, far from Beijing, making him one of the rare Chinese emperors to die in the field on campaign rather than in the palace. The campaigns decisively demonstrated that the centuries-old nomad problem could not be solved by periodic punitive expeditions, a lesson the Ming would eventually absorb — by the mid-15th century the dynasty had completely reversed course, shifting from offensive steppe campaigns to the defensive Great Wall construction strategy."
+        }
+      ]
     },
     {
       "id": "evt-ming-zheng-he-voyages",
       "label": "Zheng He's Treasure Voyages",
       "year": 1405,
       "endYear": 1433,
-      "description": "Between 1405 and 1433 the Muslim eunuch admiral Zheng He led seven gigantic naval expeditions across the Indian Ocean — to Southeast Asia, India, Arabia, and the East African coast — under Yongle and his successor. Each fleet carried roughly 28,000 men and 300 ships, including the so-called treasure ships whose stated dimensions (over 400 feet long) make them among the largest wooden ships ever built. The voyages preceded Vasco da Gama's reaching India by ninety years.",
+      "description": "Between 1405 and 1433, the Ming Dynasty sent seven enormous naval expeditions across the Indian Ocean under the command of Admiral Zheng He — reaching Southeast Asia, India, the Persian Gulf, and the East African coast with fleets of roughly 300 ships and 28,000 men, the largest naval projection in pre-modern history.",
       "wikiSlug": "Ming_treasure_voyages",
       "tier": 1,
       "tags": [
         "trade"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The voyages beat Vasco da Gama to the Indian Ocean by ninety years, yet left almost no lasting imperial footprint — the Ming wanted tribute, not colonies. Six of the seven voyages happened under the Yongle Emperor alone; the seventh came years later under his grandson as a kind of memorial run. The entire program was funded by the imperial treasury with no commercial return to sustain it, which is exactly why it ended the moment the throne's enthusiasm did."
+        }
+      ],
+      "commonsFile": "ZhengHeShips.gif"
     },
     {
       "id": "evt-ming-zheng-he",
       "label": "Admiral Zheng He",
       "year": 1405,
-      "description": "Zheng He (1371–1433), born Ma He, was a Muslim eunuch from Yunnan whom Yongle made commander of the treasure fleet. Captured as a boy during the Ming conquest of Yunnan, castrated and made an imperial servant, he rose to become one of Yongle's closest associates and the commander of the largest naval expeditions in pre-modern history. He was a Hui Muslim by birth, prayed at mosques along his route, and made his last voyages as far as Mecca before dying at sea around 1433.",
+      "description": "Zheng He (born Ma He, around 1371) was a Hui Muslim eunuch from Yunnan who rose from captured slave-boy to commander of the largest naval expeditions in pre-modern history — a trajectory that ran entirely through his relationship with the future Yongle Emperor, in whose household he served from childhood.",
       "wikiSlug": "Zheng_He",
       "tier": 1,
       "tags": [
         "wars"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His father and grandfather had reportedly made the Hajj pilgrimage to Mecca, marking a family of both wealth and religious standing. He was captured at around age ten when Ming armies conquered the last Yuan-loyalist province, and was castrated and sent into imperial service — the standard fate for conquered officials' sons. He spoke Persian and possibly Arabic alongside Chinese, which gave him rare credibility when negotiating with the Muslim courts that dominated Indian Ocean trade."
+        }
+      ],
+      "commonsFile": "Admiral_Zhenghe.jpg"
     },
     {
       "id": "evt-ming-treasure-ships",
       "label": "Treasure Ships",
       "year": 1405,
-      "description": "The largest ships of Zheng He's fleet were called baochuan ('treasure ships'). Ming chronicles describe them as up to 137 meters (about 450 feet) long, with nine masts and four decks — figures that would make them several times larger than any contemporary European vessel and possibly the largest wooden ships ever built. The exact dimensions are debated; modern naval historians dispute whether ships of the stated length were structurally feasible, but archaeological remnants of the Nanjing shipyards confirm that ships of unprecedented scale were built.",
+      "description": "The baochuan (bow-CHWAHN, 'treasure ships') were the flagship class of Zheng He's fleet — massive multi-masted wooden vessels whose chronicled dimensions of up to 137 meters (450 feet) would make them the largest wooden ships ever built, though modern naval historians suspect the real figure was closer to 60–70 meters (200–230 feet), still several times larger than any contemporary European ship.",
       "wikiSlug": "Chinese_treasure_ship",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The engineering dispute matters: a 137-meter wooden hull would flex and break without structural reinforcement that medieval Chinese shipbuilding couldn't provide, so the chronicles likely exaggerate. What's not in dispute is a rudder post excavated at the Nanjing shipyards measuring over 11 meters long — implying a hull in the 60–70 meter range — which by itself still dwarfed Columbus's 19-meter Santa Maria. These ships also had watertight internal bulkhead compartments, an innovation that wouldn't appear in European shipbuilding until the 1800s."
+        }
+      ],
+      "commonsFile": "Nanjing_Treasure_Boat_-_P1070978.JPG"
     },
     {
       "id": "evt-ming-malindi-giraffe",
       "label": "Giraffe from Malindi",
       "year": 1414,
-      "description": "Zheng He's fourth voyage returned to China in 1415 with a giraffe brought from the Swahili port of Malindi (in modern Kenya), presented as tribute to the Yongle Emperor. The giraffe was identified by Ming officials with the qilin — a mythical Chinese creature whose appearance was said to herald a sage-ruler — making it a powerful piece of Yongle-era political propaganda. A famous court painting documenting the presentation survives.",
+      "description": "In 1415, Zheng He's fourth voyage returned to Beijing with a giraffe sent as tribute from the Swahili port of Malindi (in modern Kenya) — an animal the Ming court interpreted as a qilin (CHEE-lin), a mythical Chinese creature whose appearance was said to herald the reign of a sage-ruler, handing the politically embattled Yongle Emperor a convenient piece of cosmological propaganda.",
       "wikiSlug": "Yongle_Emperor",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A court painter named Shen Du documented the moment in 1414 in a work now called 'Tribute Giraffe with Attendant,' showing the animal on a leash held by an African handler — one of the earliest surviving Chinese depictions of a sub-Saharan African person. From Malindi's side, the giraffe was a calculated diplomatic move: the city-state was cultivating the Chinese fleet as protection in a competitive coastal trade network, the same posture it would later show Vasco da Gama when he arrived in 1498."
+        }
+      ]
     },
     {
       "id": "evt-ming-voyages-end",
       "label": "End of the Voyages",
       "year": 1433,
-      "description": "Zheng He died at sea around 1433 on the return from the seventh voyage. The Confucian-aligned faction at court — long opposed to the eunuch-led voyages as wasteful and against the priorities of agrarian governance — used his death to halt the program permanently. By the 1470s the Ministry of War had reportedly destroyed the navigation records of the voyages. The decision to abandon the maritime project shaped Chinese state policy for the next four centuries.",
+      "description": "After Zheng He died at sea in 1433 on the return from the seventh voyage, the Confucian-aligned court faction permanently halted the program — and over the following decades, the navigation records, route logs, and ship designs were progressively destroyed, leaving the Ming without the technical capacity to rebuild its deep-water fleet.",
       "wikiSlug": "Ming_treasure_voyages",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Hongxi Emperor suspended the voyages within months of taking the throne in 1424, before Zheng He had even launched the seventh expedition — the program survived only because Hongxi died after nine months and his successor Xuande authorized one final voyage as a gesture to his grandfather's legacy. The standard account blames a Ministry of War official named Liu Daxia for ordering the records burned around 1480, though historians think the destruction was more piecemeal than that dramatic story implies. Either way, by the early 1500s the knowledge base was gone."
+        }
+      ]
     },
     {
       "id": "evt-ming-grand-canal-rebuild",
       "label": "Grand Canal Rebuilt",
       "year": 1411,
-      "description": "Yongle ordered the comprehensive rebuilding of the Grand Canal between 1411 and 1415 to support the new northern capital. The project employed hundreds of thousands of conscripted laborers and re-cut sections that had silted up after centuries of neglect. The rebuilt canal carried up to four million bushels of grain per year from the Yangtze valley to Beijing — the logistical artery that made the northern capital sustainable and remained the spine of Ming state finance.",
+      "description": "Between 1411 and 1415, Yongle ordered the comprehensive rebuilding of the Grand Canal — the longest artificial waterway in the world — to supply the new northern capital at Beijing with grain from the Yangtze valley, employing hundreds of thousands of conscripted laborers to re-cut sections that had silted up over centuries.",
       "wikiSlug": "Grand_Canal_(China)",
       "tier": 3,
       "tags": [
         "trade"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The rebuilt canal carried up to four million bushels of grain per year north to Beijing, making it the single most important logistical artery in the empire and the direct financial lifeline of the capital. Every Ming financial crisis for the next two centuries would ultimately translate into a question about whether the canal grain shipments could be maintained — the canal and the capital were so tightly coupled that the health of one was inseparable from the health of the other."
+        }
+      ],
+      "commonsFile": "Gcjiangnan1.JPG"
     },
     {
       "id": "evt-ming-temple-of-heaven",
       "label": "Temple of Heaven",
       "year": 1420,
-      "description": "The Temple of Heaven (Tian Tan) was completed in 1420 in southeastern Beijing, where the emperor performed the annual ceremonies of sacrifice to Heaven and prayer for the harvest. Its circular Hall of Prayer for Good Harvests, constructed without nails on a three-tiered marble platform, is one of the masterpieces of Chinese religious architecture. It is a UNESCO World Heritage site.",
+      "description": "The Temple of Heaven (Tian Tan) was completed in 1420 in southeastern Beijing as the ceremonial complex where the emperor performed the annual winter solstice sacrifices to Heaven and spring prayers for the harvest — its circular Hall of Prayer for Good Harvests, a three-tiered wooden structure built without a single nail, is one of the masterpieces of Chinese religious architecture and a UNESCO World Heritage site.",
       "wikiSlug": "Temple_of_Heaven",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The entire Temple of Heaven complex functions as an architectural argument about the emperor's unique cosmological position: only the Son of Heaven could perform the rites that connected the human world to the divine order, and the circular forms of the main structures referenced Heaven itself (Chinese cosmology associated the circle with Heaven and the square with Earth). The complex was inscribed as a UNESCO World Heritage site in 1998, its citation calling it 'a masterpiece of architecture and landscape design' that profoundly influenced planning and architecture across East Asia for centuries."
+        }
+      ],
+      "commonsFile": "Temple_of_Heaven_20160323_01.jpg"
     },
     {
       "id": "evt-ming-wang-zhen",
       "label": "Wang Zhen",
       "year": 1442,
-      "description": "Wang Zhen was the chief eunuch of the Zhengtong Emperor's court and the first eunuch to dominate Ming politics outright. Originally a tutor to the boy emperor, he rose to control the Directorate of Ceremonial and effectively ran the government for a decade. He persuaded the young emperor to lead a personal campaign against the Mongols in 1449 — the campaign that ended in the Tumu Crisis. Wang Zhen was killed by his own troops during the rout.",
+      "description": "Wang Zhen was a palace eunuch who served as tutor to the boy Zhengtong Emperor and then rode that relationship to become the most powerful official in China, controlling the Directorate of Ceremonial (the office that filtered everything reaching the emperor's desk) through the 1440s. His disastrous decision to march the emperor and a massive army into Mongol territory ended with his own death at Tumu in 1449.",
       "wikiSlug": "Wang_Zhen_(eunuch)",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wang Zhen's rise broke a deliberate Ming taboo: the founder Hongwu had literally engraved a prohibition against eunuch political power in iron to prevent exactly this. Despite holding no formal government rank, Wang Zhen effectively drafted imperial edicts and controlled personnel decisions across the empire for nearly a decade — a shadow prime minister operating from inside the palace walls."
+        }
+      ]
     },
     {
       "id": "evt-ming-tumu-crisis",
       "label": "Tumu Crisis",
       "year": 1449,
-      "description": "On September 1, 1449, the Mongol leader Esen Taishi ambushed and destroyed a Ming army of perhaps 500,000 men at the Tumu fortress, capturing the Zhengtong Emperor himself. It was the worst Chinese military defeat since the Mongol conquest. The Ming court refused ransom demands, enthroned the captured emperor's brother as the Jingtai Emperor, and held off Esen's siege of Beijing under the brilliant defense of the minister Yu Qian. Zhengtong was eventually returned, lived under house arrest, then deposed his brother in a 1457 coup.",
+      "description": "On September 1, 1449, the Oirat Mongol leader Esen Taishi surrounded and destroyed a massive Ming army at the Tumu fortress, capturing the Zhengtong Emperor — the first Chinese emperor taken prisoner in battle since the Mongol Yuan conquest. The Ming court, led by Vice Minister of War Yu Qian, refused to pay ransom and instead crowned a new emperor, then held Beijing against Esen's siege.",
       "wikiSlug": "Crisis_of_Tumu_Fortress",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Ming army Wang Zhen led may have numbered in the hundreds of thousands, yet Esen's Mongols — commanding a significantly smaller force — shattered it in a matter of hours, with modern estimates suggesting perhaps half the Ming soldiers were killed. Esen's political leverage evaporated the moment the Ming court installed a replacement emperor: a captive whose throne no longer existed was diplomatically worthless, and Zhengtong was eventually released in 1450 without a single concession paid."
+        }
+      ],
+      "commonsFile": "Tumu_Crisis.jpg"
     },
     {
       "id": "evt-ming-yu-qian",
       "label": "Yu Qian",
       "year": 1449,
-      "description": "Yu Qian (1398–1457) was the Vice Minister of War who organized the defense of Beijing during the Tumu Crisis, refusing to abandon the capital and rallying the surviving forces against Esen's siege. He is one of the great Confucian statesman-heroes of Chinese history. After the deposed Zhengtong Emperor returned to power in 1457, Yu Qian was executed on trumped-up treason charges — a judicial murder that subsequent emperors formally repudiated.",
+      "description": "Yu Qian (1398–1457) was the Ming Vice Minister of War who saved Beijing after the Tumu disaster, refusing to abandon the capital and organizing a successful defense against Esen Taishi's siege. He is one of the most revered figures in Chinese Confucian tradition — and one of its great martyrs, executed in 1457 by the very emperor whose throne he had preserved.",
       "wikiSlug": "Yu_Qian",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yu Qian's judicial murder was so universally condemned that multiple subsequent Ming and Qing emperors formally repudiated the treason verdict. His tomb in Hangzhou became a major pilgrimage site for the Confucian moral tradition — a rare case where the historical verdict reversed so completely that the man who ordered the execution is remembered mainly for that order. A 1580s novel, Yu Shaobao cui zhong quanzhuan, detailed his life for popular audiences."
+        }
+      ],
+      "commonsFile": "Yu_Qian_by_Gu_Jianlong.jpg"
     },
     {
       "id": "evt-ming-great-wall",
       "label": "Ming Great Wall Construction",
       "year": 1450,
       "endYear": 1600,
-      "description": "The Great Wall of China that tourists visit today is almost entirely Ming construction. After the Tumu Crisis exposed the inadequacy of frontier defenses, the Ming spent over a century rebuilding and extending the Wall from the Pacific at Shanhaiguan in the east to Jiayuguan in the west — over 5,000 miles of stone, brick, watchtowers, and garrison forts. The Ming Wall did not actually stop Mongol raids, and it failed completely against the Manchus in 1644, but it remains one of the largest construction projects in human history.",
+      "description": "The Great Wall that millions of tourists visit every year is not the ancient Qin-era rammed-earth barrier of popular imagination — it is almost entirely a Ming construction project, built in brick and stone across 150 years (roughly 1450–1600) in direct response to the Tumu Crisis and the Ming decision to stop offensive steppe campaigning and go defensive instead.",
       "wikiSlug": "Great_Wall_of_China",
       "tier": 1,
       "tags": [
         "wars"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The total extent of the Ming Wall is genuinely contested: the commonly cited figure is around 5,500 miles, but a 2012 Chinese government archaeological survey counted every associated fortification fragment and arrived at over 13,000 miles. The Wall's most spectacular failure was also its last: in 1644, Manchu armies didn't breach it — they walked through the Shanhaiguan gate after the Ming general Wu Sangui opened it from the inside, making every mile of stone instantly irrelevant."
+        }
+      ],
+      "commonsFile": "The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
     },
     {
       "id": "evt-ming-liu-jin",
       "label": "Liu Jin",
       "year": 1505,
-      "description": "Liu Jin was the chief eunuch of the Zhengde Emperor's court and one of the most corrupt officials in Chinese history. He effectively ran the government from 1505 to 1510, accumulating an estimated 250 million ounces of silver in personal wealth — possibly the largest individual fortune in pre-modern world history. He was executed in 1510 after being accused of plotting to seize the throne; the punishment, lingchi (slow slicing), reportedly took three days.",
+      "description": "Liu Jin was the chief eunuch of the Zhengde Emperor's court and one of the most corrupt officials in all of Chinese history, running the Ming government from 1505 to 1510 while his teenage emperor chased military adventures. Contemporary sources estimated his personal fortune at around 250 million ounces of silver — potentially the largest individual hoard in pre-modern world history. He was executed in 1510 by lingchi (slow slicing), reportedly over three days.",
       "wikiSlug": "Liu_Jin",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Liu Jin was part of a tight clique called the 'Eight Tigers' — eight eunuchs who had served the Zhengde Emperor since childhood and rose together when he took the throne. His wealth was assembled through a ruthlessly systematic combination of bribes, state monopoly grants (salt, tea, mining rights), and extortion of provincial officials who had no choice but to pass requests through his Directorate of Ceremonial. When his own former allies finally accused him of plotting to seize the throne, investigators reportedly found gold and silver hidden throughout his residence."
+        }
+      ]
     },
     {
       "id": "evt-ming-zhengde-emperor",
       "label": "Zhengde Emperor",
       "year": 1505,
       "endYear": 1521,
-      "description": "The Zhengde Emperor was one of the most eccentric Ming rulers — a teenage emperor who built a private military pleasure park in the Forbidden City, rode personally into battle against Mongol raiders under an assumed military rank, and largely ignored governance in favor of debauchery and martial play. His sixteen-year reign was dominated by a succession of eunuch favorites and ended when he died, possibly from a riverboat accident, without a son.",
+      "description": "The Zhengde Emperor (reigned 1505–1521) was one of the most flamboyant Ming rulers: he built a private military pleasure-park inside the Forbidden City, gave himself a fake military rank (General Zhu Shou) and personally joined skirmishes against Mongol raiders, and spent his reign largely ignoring the normal business of governance. He died in 1521 without a son, possibly from illness after falling off a boat.",
       "wikiSlug": "Zhengde_Emperor",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zhengde's self-styled military persona went far beyond theatrics — he genuinely rode into combat during a 1517 Mongol raid near Datong, later claiming personal credit for killing or capturing enemy soldiers, a claim his court officials awkwardly had to neither confirm nor openly deny. He also showed an unusual interest in Islam and Central Asian culture, keeping Muslim guards and reportedly learning some Persian — eccentricities that fit poorly in a Confucian court and scandalized the scholar-official class throughout his reign."
+        }
+      ],
+      "commonsFile": "Ming_Wuzong.jpg"
     },
     {
       "id": "evt-ming-wokou-pirates",
       "label": "Wokou Pirate Raids",
       "year": 1550,
       "endYear": 1567,
-      "description": "Wokou ('dwarf pirates' in Chinese) was the catch-all Ming term for the maritime raiders who attacked the southeast Chinese coast through much of the sixteenth century. Despite the name, by the 1550s the wokou were predominantly Chinese smugglers operating from Japanese bases, with a Japanese ronin minority. The raids reflected the contradictions of Ming maritime policy — official prohibitions on overseas trade had created a profitable smuggling sector that turned violent when suppressed.",
+      "description": "The wokou (a Chinese term meaning 'Japanese pirates,' though by the 1550s most were actually Chinese smugglers) were the maritime raiders who terrorized the southeast Chinese coast through much of the sixteenth century — a direct consequence of the Ming's official prohibition on overseas trade, which created a profitable smuggling economy that turned violent when suppressed.",
       "wikiSlug": "Wokou",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At their peak in the 1550s the wokou were conducting raids deep inland, not just coastal attacks — sacking cities up to 60 miles from the coast in Zhejiang and Jiangsu provinces. The irony the Ming government never fully resolved was that the maritime ban that was supposed to prevent piracy was the structural cause of it: Chinese merchants forbidden from trading legally were trading illegally from Japanese bases, and the armed smuggling networks became indistinguishable from raiding bands. The raids declined sharply after 1567 when the Ming partially legalized overseas trade, confirming the diagnosis."
+        }
+      ],
+      "commonsFile": "Een_zeeslag_tussen_Japanse_zeerovers_en_Chinezen.jpg"
     },
     {
       "id": "evt-ming-altan-khan",
       "label": "Altan Khan and the Beijing Siege",
       "year": 1550,
-      "description": "The Mongol leader Altan Khan invaded northern China in 1550, broke through the Ming frontier defenses, and besieged Beijing itself for several days before withdrawing with massive plunder. The episode demonstrated that the Great Wall was no permanent solution and forced the Ming to negotiate trade-tribute arrangements with the Mongols, eventually formalized in the Longqing settlement of 1571.",
+      "description": "Altan Khan, leader of the Tümed Mongols and the most powerful steppe figure of the mid-sixteenth century, invaded northern China in 1550, punched through the Great Wall's frontier defenses, and camped outside Beijing for several days before withdrawing with enormous plunder. The raid proved the Wall was a deterrent, not a barrier, and eventually forced the Ming to negotiate the Longqing trade settlement of 1571.",
       "wikiSlug": "Altan_Khan",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Altan Khan's 1550 raid was largely motivated by the Ming repeatedly refusing his requests for official border markets where Mongols could trade horses and livestock for Chinese silk and grain — the same demand Esen had made a century earlier. Once the Longqing settlement finally gave him those markets, he stopped raiding almost immediately, suggesting the entire century of Wall-building could have been partially avoided by opening a trading post. Altan Khan later became a patron of Tibetan Buddhism and played a role in establishing the Dalai Lama title."
+        }
+      ],
+      "commonsFile": "Altankhan.jpg"
     },
     {
       "id": "evt-ming-zhang-juzheng",
       "label": "Zhang Juzheng's Reforms",
       "year": 1572,
       "endYear": 1582,
-      "description": "Grand Secretary Zhang Juzheng (1525–1582) ran the Ming government as effective regent during the early reign of the boy Wanli Emperor, conducting the most ambitious set of late-Ming reforms — fiscal consolidation, land surveys, military reorganization, and the implementation of the Single Whip Tax Reform. His vigorous administration briefly stabilized the dynasty's finances. After his death his reputation was destroyed by enemies at court; Wanli posthumously stripped his honors and confiscated his family's wealth.",
+      "description": "Grand Secretary Zhang Juzheng (1525–1582) was the most powerful reformer of the late Ming — effective regent for the boy Wanli Emperor from 1572 to his death in 1582, when he had clawed a treasury surplus out of a dynasty running on empty through aggressive audits, land surveys, and the Single Whip tax overhaul.",
       "wikiSlug": "Zhang_Juzheng",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zhang achieved the top rank in the imperial examinations (jinshi) in 1547 and rose through the Hanlin Academy before reaching the Grand Secretariat under the Longqing Emperor in 1567. His posthumous disgrace was swift and total: within years of his death his family's wealth was confiscated and several of his sons were driven to exile or suicide — a vivid cautionary tale that discouraged the next generation of officials from vigorous reform. Despite the political destruction of his legacy, the Single Whip Reform he institutionalized survived him because no one had a workable alternative."
+        }
+      ],
+      "commonsFile": "張居正-清晰版.jpeg"
     },
     {
       "id": "evt-ming-single-whip-reform",
       "label": "Single Whip Tax Reform",
       "year": 1581,
-      "description": "The Single Whip Reform (Yi Tiao Bian Fa), implemented under Zhang Juzheng in the 1570s and formalized in 1581, consolidated the Ming's labyrinthine tax system into a single payment in silver per landholding — replacing a patchwork of grain levies, labor obligations, and miscellaneous fees. The reform tied the Chinese economy to global silver flows, since silver had to be imported in vast quantities to meet the new tax demand.",
+      "description": "The Single Whip Reform (Yi Tiao Bian Fa), formalized empire-wide in 1580–1581 under Zhang Juzheng, swept away the Ming's tangled patchwork of grain payments, corvée labor obligations, and local fees and replaced the whole mess with one annual silver payment per landholding — accidentally making Chinese state finance dependent on global silver imports.",
       "wikiSlug": "Single_whip_law",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reform had actually been piloted in scattered provinces earlier in the sixteenth century before Zhang Juzheng pushed it nationwide. By commuting the old corvée obligation to a cash payment, it freed rural households from compulsory state labor — a significant social shift, even if the silver itself had to be earned first. The reform's unintended consequence was enormous: it turned every peasant household in the world's most populous country into a silver buyer, creating a demand the Ming's own mines could never satisfy."
+        }
+      ]
     },
     {
       "id": "evt-ming-silver-flow",
       "label": "Global Silver Flow",
       "year": 1571,
-      "description": "After the Single Whip Reform demanded payment in silver, Chinese demand for the metal became the gravitational center of the early-modern global economy. Spanish silver from Potosi (in modern Bolivia) and Mexico flowed across the Pacific via Manila in the annual Manila galleon, while Japanese silver from the Iwami mines flowed across the East China Sea via Macao and the Ryukyu Islands. By 1600 perhaps a third of all silver mined in the Americas ended up in China.",
+      "description": "The late Ming silver economy was the gravitational center of the early-modern world: Spanish American silver from Potosí and Zacatecas crossed the Pacific via the annual Manila galleon, while Japanese silver from the Iwami mines moved through Macao and the Ryukyu Islands — together funneling roughly a third of all early-modern silver production into China.",
       "wikiSlug": "Manila_galleon",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Manila galleon ran on a fixed annual schedule from Acapulco to Manila from 1565 all the way to 1815 — 250 years, the longest-running scheduled transoceanic trade route in pre-modern history. By the early seventeenth century an estimated 10,000 tons of silver had flowed into China from the Americas and Japan combined. When the Tokugawa shogunate restricted Japanese silver exports and Spanish American production declined after about 1620, the resulting silver shortage contributed directly to the fiscal crisis that helped bring down the dynasty."
+        }
+      ],
+      "commonsFile": "Andres_Urdaneta_Tornaviaje.jpg"
     },
     {
       "id": "evt-ming-wanli-emperor",
       "label": "Wanli Emperor",
       "year": 1572,
       "endYear": 1620,
-      "description": "The Wanli Emperor reigned for forty-eight years — the longest reign of any Ming ruler — but spent the last thirty in self-imposed seclusion, refusing to attend court, sign documents, or fill vacant offices. The 'work strike' of an emperor who simply would not govern was the period in which late-Ming institutions decayed most visibly. The Imjin War with Japan, Matteo Ricci's mission to Beijing, and the rise of the Manchus all unfolded during his reign.",
+      "description": "The Wanli Emperor (reigned 1572–1620) holds the record for the longest Ming reign — and also for the most spectacular royal check-out in Chinese history: from roughly 1589 onward he simply stopped governing, refusing to attend court, fill vacant offices, or respond to most official correspondence for over thirty years.",
       "wikiSlug": "Wanli_Emperor",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Forensic analysis of Wanli's skeleton from his excavated tomb (the Dingling, opened in 1956–1958) showed one leg was significantly shorter than the other — a chronic condition that would have made standing through long ceremonies in heavy ceremonial robes genuinely agonizing. The excavation itself was one of the most disastrous in twentieth-century Chinese archaeology: most of the recovered organic artifacts were destroyed by exposure before proper conservation could be applied. Wanli was the 14th Ming emperor, succeeding his father the Longqing Emperor at age nine."
+        }
+      ],
+      "commonsFile": "MingShenzong1.jpg"
     },
     {
       "id": "evt-ming-imjin-war",
       "label": "Imjin War",
       "year": 1592,
       "endYear": 1598,
-      "description": "Toyotomi Hideyoshi invaded Korea in 1592 with an army of roughly 158,000 men, intending to march on through Korea to conquer Ming China. The Ming sent armies to defend its tributary kingdom; the war lasted seven years, killed perhaps two million people, devastated Korea, exhausted the Ming treasury, and ended only when Hideyoshi died in 1598 and the Japanese armies withdrew. The Ming victory was strategically Pyrrhic — the financial cost accelerated the dynasty's decline.",
+      "description": "Toyotomi Hideyoshi, the warlord who had just unified Japan, launched a 158,000-man invasion of Korea in 1592 with the stated goal of conquering Ming China — using the Korean peninsula as a land bridge. The seven-year war that followed killed roughly two million people, leveled Korea, and drained the Ming treasury so badly that the dynasty never fully recovered.",
       "wikiSlug": "Japanese_invasions_of_Korea_(1592%E2%80%931598)",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hideyoshi's army arrived in Korea carrying Japanese arquebuses (early matchlock firearms) in unprecedented numbers — perhaps 30,000 gunners — giving his troops a decisive firepower advantage over Korean forces armed primarily with bows and pikes. The war also produced one of history's most macabre trophy systems: Japanese commanders were ordered to send severed noses (not heads, which were too heavy to ship) back to Japan as kill-count proof, and the resulting Mimizuka (\"Mound of Ears\") monument in Kyoto is estimated to contain the noses of at least 38,000 Korean and Chinese dead. After the war, thousands of Korean craftsmen — particularly potters — were forcibly transported to Japan, sparking a transformation of Japanese ceramic arts that historians call the \"pottery wars.\""
+        }
+      ]
     },
     {
       "id": "evt-ming-matteo-ricci",
       "label": "Matteo Ricci",
       "year": 1601,
-      "description": "The Italian Jesuit Matteo Ricci (1552–1610) reached Beijing in 1601 after nearly two decades of patient mission work in southern China. Wearing Confucian scholar's robes, fluent in classical Chinese, expert in mathematics and astronomy, he was the first European granted permanent residence at the Ming court. His Chinese-language treatises on Euclidean geometry, world maps, memory technique, and Christian theology shaped the Jesuit China mission for the next two centuries and transmitted European mathematical knowledge into the Chinese intellectual tradition.",
+      "description": "Matteo Ricci (1552–1610) was an Italian Jesuit priest who spent nearly two decades mastering classical Chinese before reaching Beijing in 1601 — the first European granted permanent residence at the Ming court — where he dressed as a Confucian scholar, translated Euclid, drew the first European-style world map to circulate widely in China, and argued Christian theology in Confucian vocabulary.",
       "wikiSlug": "Matteo_Ricci",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ricci's 1602 world map (the Kunyu Wanguo Quantu) deliberately placed China near — but not at — the center, which was both a diplomatic adjustment and an enormous conceptual challenge to Chinese cosmological assumptions. In 2022, the Vatican formally recognized Ricci's heroic virtues, granting him the title 'Venerable' — a step toward beatification, more than four centuries after his death in Beijing in 1610. He was buried on a plot of land granted by the Ming state, and his grave remained in Beijing through the Qing dynasty."
+        }
+      ],
+      "commonsFile": "Ricciportrait.jpg"
     },
     {
       "id": "evt-ming-jesuit-mission",
       "label": "Jesuit Mission to China",
       "year": 1583,
-      "description": "Beginning with Michele Ruggieri and Matteo Ricci in 1583, Catholic Jesuit missionaries established themselves in Ming China by adapting to Confucian elite culture rather than confronting it. They learned classical Chinese, dressed as scholars, and translated European mathematical, astronomical, and cartographic works into Chinese. The Jesuit mission was the most sophisticated cultural-encounter project of the early-modern world and continued under the Qing until the Rites Controversy of the early eighteenth century shut it down.",
+      "description": "The Jesuit mission to China, launched from Macao in 1583 by Michele Ruggieri and Matteo Ricci, was the most sophisticated cross-cultural encounter of the early-modern world: Jesuits learned classical Chinese, adopted Confucian scholar dress, and positioned Christian theology as compatible with — rather than opposed to — Chinese intellectual traditions.",
       "wikiSlug": "Jesuit_China_missions",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mission's strategy was deeply controversial within the Catholic Church: Dominicans and Franciscans favored direct confrontation with local religious practice, while the Jesuits' accommodation approach (allowing Chinese Christians to continue venerating ancestors) eventually triggered the Rites Controversy that prompted the Pope to condemn the accommodations in 1715, effectively ending the mission's influence. Despite over a century of effort, Jesuit converts in late Ming China numbered only in the thousands, almost entirely from the educated elite — no mass popular movement emerged. The mission nonetheless transmitted European mathematical and astronomical methods that reformed the Chinese imperial calendar in the 1640s."
+        }
+      ],
+      "commonsFile": "Athanasii_Kircheri..._China_monumentis_(1667)_\"Frontispicio\"_(22629197626).jpg"
     },
     {
       "id": "evt-ming-macao",
       "label": "Portuguese Macao",
       "year": 1557,
-      "description": "The Portuguese established a trading settlement at Macao on the southern Chinese coast around 1557 with Ming permission, paying annual rent. Macao became the entrepot through which silver from Japan and the Americas flowed into China and Chinese silk and porcelain flowed out to Europe via the Indian Ocean. It was the longest-held European outpost in China, remaining Portuguese until 1999.",
+      "description": "The Portuguese established a permanent trading settlement at Macao on the southern Chinese coast around 1557, paying annual rent to the Ming — and for the next four centuries it served as the key entrepot where Japanese and American silver flowed in and Chinese silk and porcelain flowed out toward Europe and the Indian Ocean.",
       "wikiSlug": "Portuguese_Macau",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Macao was simultaneously the first and last European territorial holding in China: the Portuguese arrived in 1557 and the handover to the People's Republic did not come until December 1999 — a 442-year span. The settlement operated under a distinctive dual-authority arrangement, with Portuguese merchants managing internal affairs while Ming (and later Qing) officials maintained nominal sovereignty and collected the annual ground rent. Without Macao, the Jesuit mission to China would have had no secure base: Ricci and Ruggieri both staged their entry to the mainland from there."
+        }
+      ]
     },
     {
       "id": "evt-ming-blue-and-white-porcelain",
       "label": "Ming Blue-and-White Porcelain",
       "year": 1400,
       "endYear": 1600,
-      "description": "Ming blue-and-white porcelain from the imperial kilns at Jingdezhen became the most globally traded luxury good of the early-modern world. The cobalt-blue underglaze (originally imported from Persia) on white porcelain produced an instantly recognizable style. By the late sixteenth century, Jingdezhen was producing massive export quantities for European markets, and Dutch potters at Delft were trying to copy the style — eventually producing the Delft Blue ware that imitated Ming originals for European households who could not afford the real thing.",
+      "description": "Ming blue-and-white porcelain — white kaolin body fired at temperatures no European kiln could match, decorated with cobalt-blue underglaze — became the most globally traded luxury good of the early-modern era. By the early seventeenth century it was appearing in Dutch still-life paintings, Mughal court collections, Ottoman palaces, and European royal inventories. Dutch potters at Delft began making 'Delft Blue' ware specifically as an imitation for households who could not afford the Chinese original.",
       "wikiSlug": "Blue_and_white_pottery",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cobalt used for the blue decoration was originally imported from the Islamic world — Persian and later other Near Eastern sources — which is why the blue-and-white aesthetic had parallel traditions in Ottoman Iznik ceramics and Persian tilework, all drawing on the same cobalt trade networks. By the 1620s the Dutch East India Company alone was importing roughly 200,000 pieces of Chinese porcelain per year; across all networks, annual export volumes were likely in the millions of pieces — one of the great instances of pre-modern mass production for global markets. The technique eventually spread west: by the eighteenth century, European potters had reverse-engineered true hard-paste porcelain (Meissen, 1710), breaking the Chinese monopoly on the material itself."
+        }
+      ],
+      "commonsFile": "Ablution_basin_with_word_Taharat_(cleanliness)_in_Solos-Thuluth_calligraphy,_China,_Ming_dynasty,_Zhengde_period,_1506-1521_AD,_underglaze_painted_porcelain_-_Aga_Khan_Museum_-_Toronto,_Canada_-_DSC06903.jpg"
     },
     {
       "id": "evt-ming-jingdezhen-kilns",
       "label": "Jingdezhen Imperial Kilns",
       "year": 1402,
-      "description": "The imperial kilns at Jingdezhen in Jiangxi province were established by Hongwu and dramatically expanded under Yongle as the exclusive porcelain supplier for the Ming court. Jingdezhen perfected the techniques of high-fired blue-and-white porcelain and produced for both imperial use and global export. The town was the porcelain capital of the world for six centuries; some kilns there are still working today.",
+      "description": "The imperial kilns at Jingdezhen (jing-deh-JEN), a city in Jiangxi province, were the porcelain capital of the world for over six centuries. Established under the early Ming and expanded under the Yongle Emperor, they supplied the court and drove the global export trade. Jingdezhen's combination of local kaolin clay, skilled workers, and high-temperature wood-fired kilns produced porcelain of a quality and scale no other city could match.",
       "wikiSlug": "Jingdezhen",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jingdezhen's dominance was built on geography as much as craft: the region had exceptional deposits of petuntse (a feldspar-rich stone) and kaolin clay, both essential for hard-paste porcelain, plus abundant forests for kiln fuel and river access for shipping. At its late-Ming peak the city housed hundreds of kilns and employed tens of thousands of workers in a division-of-labor production system — different workers specialized in throwing, painting, glazing, and firing — making it one of the most industrially organized production centers in the pre-modern world. Jingdezhen still produces porcelain today and remains China's primary center for ceramic arts, with active kilns operating alongside museums built around excavated imperial kiln sites."
+        }
+      ],
+      "commonsFile": "Chinese_-_Wine_Jar_with_Carp_among_Water_Weeds_and_Lotuses_-_Walters_491917_-_View_G.jpg"
     },
     {
       "id": "evt-ming-three-kingdoms",
       "label": "Romance of the Three Kingdoms",
       "year": 1522,
-      "description": "Romance of the Three Kingdoms (Sanguo Yanyi), traditionally attributed to Luo Guanzhong of the late Yuan or early Ming and printed in its standard form in 1522, is one of the four great vernacular novels of Chinese literature. It dramatizes the three-way civil war of the Three Kingdoms period (220–280 CE) over 800,000 words and 120 chapters. It established the conventions of Chinese historical fiction and remains one of the most widely read Chinese books of all time.",
+      "description": "Romance of the Three Kingdoms (Sanguo Yanyi) is an 800,000-word historical epic that dramatizes the collapse of the Han dynasty and the three-way civil war between the rival kingdoms of Wei, Shu, and Wu (220–280 CE). Its heroes — the loyal warrior Guan Yu, the brilliant strategist Zhuge Liang, and the morally ambiguous warlord Cao Cao — became the defining figures of Chinese popular imagination for centuries.",
       "wikiSlug": "Romance_of_the_Three_Kingdoms",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The novel's primary source was the Records of the Three Kingdoms, a sober third-century historical chronicle by the official Chen Shou — but the novel transformed history into heroic myth so completely that the fictional version has largely displaced the historical one in popular memory. Guan Yu, one of the novel's central heroes, was posthumously elevated to the status of a god (the God of War and Brotherhood) and is still worshipped in temples across the Chinese-speaking world and in overseas Chinese communities today. The novel is drawn from an oral storytelling tradition that had been developing since the Song dynasty, meaning its 'author' Luo Guanzhong was likely assembling and refining centuries of accumulated performance material rather than inventing from scratch."
+        }
+      ],
+      "commonsFile": "新刊校正古本大字音释三国志通俗演义_明万历十九年书林周曰校刊本_002.jpg"
     },
     {
       "id": "evt-ming-water-margin",
       "label": "Water Margin",
       "year": 1500,
-      "description": "Water Margin (Shuihu Zhuan), traditionally attributed to Shi Nai'an in the late fourteenth century and reaching its standard form during the Ming, tells the story of 108 outlaws who form a bandit fellowship in the marshes of Liangshan during the Northern Song period. It is one of the four great vernacular novels of Chinese literature and a foundational work of Chinese popular fiction.",
+      "description": "Water Margin (Shuihu Zhuan, also known as Outlaws of the Marsh) tells the story of 108 outlaws — disgraced officials, fugitive criminals, and skilled artisans driven outside society by injustice — who form a sworn brotherhood at Liangshan Marsh during the Northern Song period. One of the four great Chinese vernacular novels, it is simultaneously a celebration of anti-establishment violence, a meditation on loyalty, and a founding text of Chinese popular fiction.",
       "wikiSlug": "Water_Margin",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Water Margin was one of the first major Chinese novels written in vernacular Mandarin (baihua) rather than classical literary Chinese, making it readable by a far wider audience than elite-tradition literature. Mao Zedong reportedly identified strongly with several of the novel's outlaw characters and kept a copy close at hand throughout his life — though he also used it as a political weapon, criticizing it in his final years as a model of 'capitulationism.' The 108 outlaws are organized in a strict hierarchy with specific titles, and the novel's obsessive cataloguing of their skills, weapons, and backstories reads almost like a role-playing game character roster — a quality that has made it exceptionally adaptable to games and serialized media."
+        }
+      ],
+      "commonsFile": "Shuihu_zhuan_-_juan_15-19_-_page_1.jpg"
     },
     {
       "id": "evt-ming-journey-to-the-west",
       "label": "Journey to the West",
       "year": 1592,
-      "description": "Journey to the West (Xi You Ji), attributed to Wu Cheng'en and published in 1592, is the most beloved of the four great Chinese vernacular novels. It is a fantastical retelling of the Tang monk Xuanzang's seventh-century pilgrimage to India to retrieve Buddhist scriptures, with the trickster Monkey King Sun Wukong, the pig demon Zhu Bajie, and the river spirit Sha Wujing as his disciples. Its blending of Buddhist allegory, Daoist cosmology, Confucian moral lessons, and slapstick comedy made it the most popular vernacular work of Ming literature.",
+      "description": "Journey to the West (Xi You Ji), published in 1592 and attributed to Wu Cheng'en, is the most beloved of the four great Ming vernacular novels. It retells the real seventh-century pilgrimage of the Buddhist monk Xuanzang to India — adding three fantastical disciples, most famously the trickster Monkey King Sun Wukong — and weaves Buddhist allegory, Daoist cosmology, and Confucian moral lessons into an episodic comic adventure readable by children and adults alike.",
       "wikiSlug": "Journey_to_the_West",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The historical Xuanzang actually made the journey (629–645 CE), traveling over 10,000 miles through Central Asia, and his real account of the trip, the Records of the Western Regions, remains one of the most important pre-modern descriptions of Central and South Asian geography and culture. The novel reached English-speaking readers primarily through Arthur Waley's 1942 abridged translation, cheekily titled simply 'Monkey.' Sun Wukong directly inspired the protagonist of the Japanese manga and anime Dragon Ball — Goku's name is the Japanese reading of 'Sun Wukong,' his cloud-flying staff and monkey origins are lifted straight from the novel, and the Dragon Balls themselves echo the novel's magic quest structure."
+        }
+      ],
+      "commonsFile": "CADAL07018085_後西遊記.djvu"
     },
     {
       "id": "evt-ming-plum-in-golden-vase",
       "label": "Plum in the Golden Vase",
       "year": 1610,
-      "description": "Plum in the Golden Vase (Jin Ping Mei), published anonymously in the early seventeenth century, is the fourth great vernacular novel of the Ming and the most controversial. A merciless social satire of late-Ming bourgeois life narrated through the household of the corrupt merchant Ximen Qing, it is also the first Chinese novel of explicit sexual realism — banned in China for most of its history. Modern critics consider it a masterpiece of psychological and social observation.",
+      "description": "Plum in the Golden Vase (Jin Ping Mei), published anonymously around 1610 under the pseudonym 'Scoffing Scholar of Lanling,' is the most controversial of the four great Ming novels — a ruthless social satire of late-Ming merchant life told through the household of the corrupt Ximen Qing, and the first Chinese novel to depict sexuality with explicit psychological realism. Banned in China for most of its existence, it is now recognized as a masterpiece.",
       "wikiSlug": "Jin_Ping_Mei",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The novel was circulating in manuscript as early as 1596, over a decade before its first printed edition — suggesting it spread initially through elite literary networks before reaching a wider audience. Its 100 chapters contain some of the most detailed descriptions of late-Ming material culture anywhere in the literary record: food, clothing, household furnishings, and commercial transactions are catalogued with an almost ethnographic precision that historians now use as a primary source for daily life. The most widely read edition was a 1695 version heavily edited by the critic Zhang Zhupo, who rewrote passages and added extensive commentary — meaning that for most of its history, readers encountered Plum in the Golden Vase filtered through Zhang's moral framing as much as through the original anonymous author."
+        }
+      ],
+      "commonsFile": "Jin_Ping_Mei_chapt4.jpg"
     },
     {
       "id": "evt-ming-wang-yangming",
       "label": "Wang Yangming",
       "year": 1508,
-      "description": "Wang Yangming (1472–1529) was the most influential Chinese philosopher of the Ming. His school of neo-Confucianism — sometimes called the School of Mind (Xinxue) — held that moral knowledge was innate to every person and that the unity of knowing and acting was the key to ethical life. His ideas spread across late-Ming China and into Japan and Korea, where Wang Yangming thought (in Japanese, Yomeigaku) became one of the major intellectual influences on the Meiji-era reformers.",
+      "description": "Wang Yangming (1472–1529) was the most influential philosopher of the Ming dynasty. His School of Mind (Xinxue) challenged the examination-system orthodoxy by arguing that every person — not just the classically educated — already possesses innate moral knowledge (liangzhi), and that genuine understanding is inseparable from action: you don't truly know the right thing until you do it.",
       "wikiSlug": "Wang_Yangming",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wang Yangming was not just a philosopher — he was also a successful military commander who suppressed a major rebellion in 1519, lending his ideas unusual practical credibility in a Confucian tradition that often separated contemplative cultivation from worldly action. His most radical follower, Li Zhi, pushed his ideas to argue for women's intellectual equality and the legitimacy of unconventional relationships, and was arrested repeatedly before dying in prison in 1602. In Japan, Wang Yangming's thought (Yomeigaku) became a major intellectual current among the samurai reformers who led the Meiji Restoration of 1868 — making a sixteenth-century Chinese philosopher one of the indirect intellectual architects of modern Japan."
+        }
+      ],
+      "commonsFile": "王守仁.jpg"
     },
     {
       "id": "evt-ming-donglin-society",
       "label": "Donglin Society",
       "year": 1604,
-      "description": "The Donglin Society was a moralistic neo-Confucian reform faction founded in 1604 by scholars based at the Donglin Academy in Wuxi. They attacked court corruption, eunuch power, and what they saw as the moral decay of late-Ming politics. Their conflict with the eunuch Wei Zhongxian during the Tianqi reign produced one of the most violent factional purges of the Ming, with many Donglin scholars tortured to death in 1625–1626.",
+      "description": "The Donglin Society was a neo-Confucian reform faction founded in 1604 at the Donglin Academy in Wuxi, in the Yangtze delta. Unlike traditional court factions built on personal loyalty, the Donglin scholars organized around a shared political-moral program — attacking eunuch corruption and advocating for proper Confucian governance through public lectures, circulated manifestos, and coordinated petitions. When the eunuch Wei Zhongxian consolidated power in the 1620s, he had dozens of Donglin members tortured to death.",
       "wikiSlug": "Donglin_movement",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Donglin Academy had originally been founded in the Northern Song, fell into ruin, and was deliberately revived in 1604 as a statement of moral intent — the choice of that name was itself a political act, invoking a tradition of Confucian integrity. The purge of 1625–1626 was one of the most systematic political massacres of the Ming period: Wei Zhongxian compiled a blacklist of hundreds of Donglin-associated officials, many of whom were arrested, stripped of rank, and subjected to torture or execution. Despite their destruction, the Donglin faction's model — an academy-based opposition movement defined by a shared political program rather than personal ties — became a template that later Chinese reform movements consciously invoked."
+        }
+      ]
     },
     {
       "id": "evt-ming-printing-explosion",
       "label": "Printing Explosion",
       "year": 1550,
-      "description": "The late Ming saw an unprecedented expansion of the Chinese commercial print industry. Woodblock printing — invented in the Tang and refined under the Song — became radically cheaper and faster, and a thriving commercial publishing sector emerged in the Yangtze delta cities. Novels, drama, encyclopedias, manuals, ritual texts, examination cribs, and erotic literature all circulated in cheap printed editions. By 1600 China had probably the most extensive print culture in the world.",
+      "description": "The late Ming witnessed a printing revolution: commercial publishing in the Yangtze delta cities made books vastly cheaper and more widely available than before. Novels, drama, encyclopedias, examination guides, technical manuals, and erotic literature all circulated in cheap woodblock-printed editions. By 1600, China probably had the most extensive print culture in the world, supporting a reading public that modern estimates put at perhaps 10–20% of adult males with functional literacy.",
       "wikiSlug": "History_of_printing_in_East_Asia",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chinese woodblock printing worked on an economics almost the opposite of Gutenberg's movable type: the initial block-carving was expensive, but once done, subsequent copies were cheap — favoring long print runs of standard texts (the great novels, the classics, examination guides) rather than the pamphlet culture that European printing favored. The same late-Ming commercial publishing boom produced the first serious literary criticism of the great vernacular novels, with leading scholars writing commentaries on Water Margin and Journey to the West — elevating fiction from 'small talk' to a subject worthy of intellectual attention. Fujian province, especially the city of Jianyang, was a major center of cheap commercial publishing, producing lower-cost editions aimed at broader audiences than the prestige Yangtze delta publishers."
+        }
+      ],
+      "commonsFile": "Chinese_movable_type_1313-ce.png"
     },
     {
       "id": "evt-ming-wei-zhongxian",
       "label": "Wei Zhongxian",
       "year": 1620,
       "endYear": 1627,
-      "description": "Wei Zhongxian (1568–1627) was the chief eunuch of the Tianqi Emperor's court and the most powerful eunuch dictator in Ming history. From 1620 to 1627 he effectively ruled the Ming through the indolent Tianqi Emperor (whose hobby was carpentry), erecting personal cult shrines across the empire and ordering the torture-execution of dozens of Donglin reformers. After Tianqi's death in 1627 the new Chongzhen Emperor stripped him of power; he hanged himself en route to exile.",
+      "description": "Wei Zhongxian (1568–1627) was the most powerful eunuch in Ming history — effectively the ruler of the empire from 1620 to 1627, operating through the teenaged, carpenter-obsessed Tianqi Emperor who showed little interest in governance.",
       "wikiSlug": "Wei_Zhongxian",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wei reportedly castrated himself as an adult to enter the palace eunuch establishment, a morally suspect act by Confucian standards since the standard path was castration in childhood. He organized something no Chinese eunuch had attempted before: a personal cult, with shrines erected across the empire placing his statue alongside — and sometimes in front of — statues of Confucius. When the Chongzhen Emperor stripped him of power in late 1627 and exiled him, Wei hanged himself at a roadside inn after learning new charges (and certain execution) were coming."
+        }
+      ],
+      "commonsFile": "Tomb_of_the_Five_(Suzhou,_China).jpg"
     },
     {
       "id": "evt-ming-tianqi-emperor",
       "label": "Tianqi Emperor",
       "year": 1620,
       "endYear": 1627,
-      "description": "The Tianqi Emperor was a barely literate teenager whose obsession was carpentry; he reportedly worked on woodworking projects in the Forbidden City while Wei Zhongxian's eunuch faction ran the country. He died in 1627 at age twenty-one, possibly from drowning in a fishing accident, leaving the throne to his younger brother the Chongzhen Emperor.",
+      "description": "The Tianqi Emperor (1605–1627) was the 16th Ming emperor — a barely literate teenager who preferred woodworking in his palace workshops to governing, leaving the court open to domination by the eunuch Wei Zhongxian for most of his seven-year reign.",
       "wikiSlug": "Tianqi_Emperor",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was reportedly a genuinely skilled carpenter and cabinetmaker; court accounts suggest he was happiest when left to his workshop projects and actively resented interruptions for state business. He died at twenty-one in 1627, likely from cumulative ill health, and was succeeded by his younger brother — the far more serious Chongzhen Emperor, who within months dismantled everything Wei Zhongxian had built."
+        }
+      ],
+      "commonsFile": "明熹宗坐像.tiff"
     },
     {
       "id": "evt-ming-nurhaci",
       "label": "Nurhaci and the Manchu Confederation",
       "year": 1616,
-      "description": "Nurhaci (1559–1626), a chieftain of the Jianzhou Jurchen in the forests northeast of the Ming frontier, unified the Jurchen tribes between the 1580s and the 1610s and proclaimed the Later Jin dynasty in 1616. He invented a new written script for the Jurchen language, organized his fighters into the Eight Banners military system, and explicitly modeled his state on a return to Jurchen Jin glory. His son Hong Taiji renamed the people Manchu in 1635.",
+      "description": "Nurhaci (1559–1626) was the Jurchen chieftain who unified the fragmented tribes of Manchuria over four decades, proclaimed the Later Jin dynasty in 1616, and launched the military campaigns that would eventually topple the Ming — though he died before seeing the conquest complete.",
       "wikiSlug": "Nurhaci",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His motivation was partly personal: his father and grandfather had been killed by Ming forces in 1583, and the young Nurhaci received Ming compensation payments that he used to build up his own military forces. He invented a written script for the previously unwritten Jurchen language in 1599, adapted from the Mongolian Uyghur script — giving his people administrative infrastructure that the old Jurchen tribes had never had. In 1618 he formally declared war on the Ming by listing seven specific grievances, mostly involving border incursions and unpaid trade debts."
+        }
+      ],
+      "commonsFile": "清_佚名_《清太祖天命皇帝朝服像》_1361x1869.jpg"
     },
     {
       "id": "evt-ming-eight-banners",
       "label": "Eight Banners System",
       "year": 1615,
-      "description": "Nurhaci organized his Manchu fighters and their Mongol and Han Chinese allies into the Eight Banners — eight color-coded military-administrative units that were both army formations and units of household registration. The Eight Banners were the foundational institution of the rising Manchu state and the structural basis of the Qing dynasty's military and ethnic system for the next three centuries.",
+      "description": "The Eight Banners (Baqi) were the color-coded military-administrative divisions Nurhaci created to organize all Manchu households — each Banner was simultaneously an army formation, a unit of household registration, and the basic cell of Manchu social life.",
       "wikiSlug": "Eight_Banners",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The system began as four banners in 1601 and expanded to eight in 1615; eventually separate Mongol Eight Banners and Han Chinese Eight Banners were created for non-Manchu allies who joined the rising state, effectively extending the administrative model across ethnic lines. The Banners were the foundational institution of the Qing dynasty and survived as the legal and military framework for Manchu ethnic identity for the entire 268-year Qing period, with bannermen retaining legal privileges distinguishing them from the Han majority population throughout."
+        }
+      ],
+      "commonsFile": "Emperor_qianlong_blue_banner.jpg"
     },
     {
       "id": "evt-ming-chongzhen-emperor",
       "label": "Chongzhen Emperor",
       "year": 1627,
       "endYear": 1644,
-      "description": "The Chongzhen Emperor (1611–1644) inherited a dying dynasty and tried desperately to save it through diligent personal rule, executing Wei Zhongxian's faction and working obsessively on state papers. But he was paranoid, distrustful of his own officials, and unable to fund either the Manchu defense or the suppression of peasant rebellion simultaneously. He executed seventeen chief ministers in seventeen years. On the morning of April 25, 1644, he hanged himself from a tree on Coal Hill behind the Forbidden City as Li Zicheng's rebel army poured into Beijing.",
+      "description": "The Chongzhen Emperor (1611–1644) was the last Ming emperor — a diligent, serious ruler who understood the dynasty's problems clearly but could not fix them, cycling through seventeen chief ministers in seventeen years as he swung between contradictory strategies for fighting the Manchus and suppressing rebellion simultaneously.",
       "wikiSlug": "Chongzhen_Emperor",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He came to power at sixteen and immediately neutralized Wei Zhongxian with remarkable speed, but his paranoid distrust of officials made sustained policy impossible. The financial squeeze he faced was structural: the Manchu wars required silver the treasury didn't have, and the Single Whip tax system was crushing peasants whose grain income had collapsed while their silver tax obligations stayed fixed. On his final morning he reportedly wounded his own daughter rather than let her fall to the rebels, then walked alone to Coal Hill to hang himself."
+        }
+      ],
+      "commonsFile": "Chongzhen,_the_last_Emperor_of_the_Ming_Dynasty.jpg"
     },
     {
       "id": "evt-ming-li-zicheng",
       "label": "Li Zicheng's Rebellion",
       "year": 1630,
       "endYear": 1645,
-      "description": "Li Zicheng (1606–1645) was a former post-station courier from Shaanxi who became the leader of the largest peasant rebellion of the late Ming. His Dashun army swept across northern China through the 1630s and 1640s, capturing Xi'an in 1643 and Beijing in April 1644. He proclaimed himself emperor of the Shun dynasty, ruled Beijing for forty-two days, then fled when Wu Sangui's army and the Manchus crushed him at the Battle of Shanhai Pass.",
+      "description": "Li Zicheng (1606–1645) was a former courier from Shaanxi who rose through the bandit-warlord politics of the late-Ming northwest to lead the largest peasant rebellion of the dynasty, captured Beijing in April 1644, and proclaimed himself emperor of the Shun dynasty — only to be swept aside forty-two days later when the Manchus came through Shanhaiguan.",
       "wikiSlug": "Li_Zicheng",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His army operated under an unusually coherent political ideology for a rebel force: explicit promises of tax relief and elimination of official corruption, framed as the restoration of just government rather than simple plunder. The rebellion had structural roots in Ming budget-cutting — the government had eliminated the post-station courier service to save money, throwing thousands of formerly employed men like Li Zicheng himself into unemployment and making them available for recruitment into rebel bands."
+        }
+      ],
+      "commonsFile": "Portret_van_Chinese_keizer_te_paard,_mogelijk_Li_Zicheng,_RP-P-1905-4875.jpg"
     },
     {
       "id": "evt-ming-zhang-xianzhong",
@@ -682,78 +1054,126 @@
       "id": "evt-ming-fall-beijing",
       "label": "Fall of Beijing",
       "year": 1644,
-      "description": "On April 25, 1644, Li Zicheng's rebel army entered Beijing without significant resistance. The Chongzhen Emperor hanged himself on Coal Hill the same morning. Within hours the imperial city was occupied; within days the Ministry of Personnel was being reorganized under Li Zicheng's commanders. The 276-year Ming dynasty had ended its reign over the imperial capital.",
+      "description": "On April 25, 1644, Li Zicheng's rebel Dashun army entered Beijing without significant resistance, ending 276 years of Ming rule over the imperial capital — the same morning the Chongzhen Emperor hanged himself on Coal Hill just north of the Forbidden City.",
       "wikiSlug": "Jiashen_Incident",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fall was almost undramatic in its execution: provincial Ming garrisons had either surrendered or defected through the preceding weeks, the imperial guard had largely deserted, and the city's population mostly waited out the transition rather than resisting. Li Zicheng's regime then held Beijing for just forty-two days before the Battle of Shanhai Pass forced his retreat, making the occupation one of the shortest between major dynasty changes in Chinese history."
+        }
+      ],
+      "commonsFile": "Fall_of_Beijing_to_Li_Zicheng_in_1644.png"
     },
     {
       "id": "evt-ming-wu-sangui",
       "label": "Wu Sangui at Shanhaiguan",
       "year": 1644,
-      "description": "Wu Sangui (1612–1678), the Ming general commanding the elite Liaodong army at the Shanhaiguan pass on the Manchu frontier, faced an impossible choice in May 1644 — submit to Li Zicheng's rebel regime in Beijing or invite the Manchus through the gate at Shanhaiguan. He chose the Manchus. On May 27, 1644, the combined Wu-Manchu army crushed Li Zicheng's forces at the Battle of Shanhai Pass; six days later the Manchu prince-regent Dorgon entered Beijing and proclaimed the Qing.",
+      "description": "Wu Sangui (1612–1678) was the Ming general commanding the elite Liaodong army at Shanhaiguan, the critical gateway between Manchuria and the Chinese plain — and the man who in May 1644 opened that gate to the Manchus, a decision that made him one of the most cursed figures in Chinese history.",
       "wikiSlug": "Wu_Sangui",
       "tier": 1,
       "tags": [
         "wars"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He had spent years fighting the Manchus at Shanhaiguan; the personal trigger that reportedly pushed him toward the Manchu alliance was the seizure of his favorite concubine Chen Yuanyuan by one of Li Zicheng's senior commanders during the Beijing occupation. He was rewarded by the Qing with vast personal estates in Yunnan, ruled them as a quasi-independent lord until his death in 1678, and his son then led the Three Feudatories Rebellion (1673–1681) in a doomed attempt to seize power from the Qing — which the Qing crushed, extinguishing the Wu family entirely."
+        }
+      ],
+      "commonsFile": "Wu_Sangui.jpg"
     },
     {
       "id": "evt-ming-shanhai-pass",
       "label": "Battle of Shanhai Pass",
       "year": 1644,
-      "description": "On May 27, 1644, the combined armies of Wu Sangui and the Manchu prince-regent Dorgon defeated Li Zicheng's Shun army at the Shanhai Pass on the Bohai coast. Li Zicheng retreated to Beijing, looted the city, and abandoned it on June 4. The Manchus entered Beijing on June 6 and Dorgon proclaimed the founding of the Qing dynasty as the legitimate Ming successor.",
+      "description": "The Battle of Shanhai Pass on May 27, 1644 was the decisive engagement of the Ming-Qing transition — the combined army of Wu Sangui and Manchu prince-regent Dorgon crushed Li Zicheng's Shun forces on the open plain just south of the fortress, shattering any chance the rebel regime had of consolidating power in Beijing.",
       "wikiSlug": "Battle_of_Shanhai_Pass",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Li Zicheng retreated to Beijing after the defeat, spent a week looting the city and setting fire to several of the imperial palaces, then abandoned the capital on June 4 — just eight days after the battle. The Manchus entered Beijing on June 6 and Dorgon went directly to the Forbidden City to proclaim Qing succession. The framing the Qing used — that they had avenged the Chongzhen Emperor by destroying his rebel killers — was politically essential, presenting the conquest as restoration rather than invasion."
+        }
+      ],
+      "commonsFile": "Battle_of_Shanhai_Pass.png"
     },
     {
       "id": "evt-ming-qing-founding",
       "label": "Qing Founding",
       "year": 1644,
-      "description": "On June 6, 1644, the Manchu prince-regent Dorgon entered Beijing at the head of the Eight Banners army and proclaimed the Qing dynasty as the legitimate successor to the Ming. The boy Shunzhi Emperor was enthroned in the Forbidden City. The Qing presented themselves not as foreign conquerors but as restorers of order against the rebel Li Zicheng — a framing that would shape Qing-Ming relations for the next 268 years.",
+      "description": "The Qing dynasty — founded by the Manchu Eight Banners state that had been building in northeast China since 1616 — formally succeeded the Ming when prince-regent Dorgon entered Beijing on June 6, 1644 and enthroned the five-year-old Shunzhi Emperor in the Forbidden City.",
       "wikiSlug": "Qing_dynasty",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Qing would become the last imperial dynasty in Chinese history, lasting 268 years until 1912 — and at its height stretched from the Sea of Japan to the Pamir Mountains, controlling more territory than any previous Chinese dynasty. It had a population of over 426 million by 1907, making it the most populous state on Earth at that time. The Manchu ruling class maintained their ethnic distinctiveness through the Eight Banner system for the entire Qing period, even as they governed through Chinese-language institutions and the inherited Ming examination and bureaucratic apparatus."
+        }
+      ]
     },
     {
       "id": "evt-ming-southern-ming",
       "label": "Southern Ming Resistance",
       "year": 1644,
       "endYear": 1662,
-      "description": "After Beijing fell, Ming loyalists in southern China proclaimed a series of pretender emperors and continued resistance against the Qing for nearly two decades. The Hongguang regime at Nanjing fell in 1645; the Longwu regime in Fujian fell in 1646; the Yongli regime in Guangxi and Yunnan held out the longest, fleeing into Burma before its emperor was captured and executed in 1662. The Qing did not fully control southern China until the suppression of the Three Feudatories in the 1680s.",
+      "description": "The Southern Ming was the collective name for a series of Ming loyalist regimes that proclaimed successor emperors in southern China after the fall of Beijing in 1644, continuing organized resistance to the Qing for nearly two decades before the last claimant was captured in Burma and executed in 1662.",
       "wikiSlug": "Southern_Ming",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Three distinct regimes held out in sequence: the Hongguang court at Nanjing (1644–1645), the Longwu court in Fujian (1645–1646), and the longest-surviving Yongli court which moved progressively south and west through Guangxi and Yunnan before fleeing into Burma. The Qing did not fully pacify southern China until the 1680s, after suppressing the Three Feudatories Rebellion — meaning the effective Ming-to-Qing transition took nearly forty years, not the single dramatic moment of Beijing's fall."
+        }
+      ],
+      "commonsFile": "Southern_Ming.png"
     },
     {
       "id": "evt-ming-koxinga",
       "label": "Koxinga and Taiwan",
       "year": 1661,
-      "description": "Zheng Chenggong (1624–1662), known to Europeans as Koxinga, was a Ming loyalist warlord who led the most successful late-Ming naval resistance against the Qing. Driven from the mainland in 1661, he expelled the Dutch East India Company from Taiwan after a nine-month siege of Fort Zeelandia, establishing the Kingdom of Tungning as a Ming-loyalist state on the island. His descendants ruled Taiwan until 1683.",
+      "description": "Koxinga (1624–1662), born Zheng Chenggong, was a Ming loyalist naval commander who conducted the most successful resistance to the Qing conquest — and in 1661 expelled the Dutch East India Company from Taiwan after a nine-month siege, establishing the Kingdom of Tungning as a Ming loyalist state that survived until 1683.",
       "wikiSlug": "Koxinga",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His father Zheng Zhilong had been one of the most powerful figures in the late-Ming East China Sea smuggling networks — a merchant-warlord who had converted to Christianity before becoming a Ming admiral — giving Koxinga both the maritime networks and the warships to sustain an independent power base after losing the mainland. In 1659 Koxinga's fleet briefly threatened Nanjing itself in a raid up the Yangtze, the closest any Southern Ming force came to retaking a major northern city, before being repulsed. His name in European sources derives from the Hokkien pronunciation of his honorific title Guoxingye, meaning \"Imperial-Surname-Lord.\""
+        }
+      ],
+      "commonsFile": "The_Portrait_of_Koxinga.jpg"
     },
     {
       "id": "evt-ming-coal-hill-suicide",
       "label": "Chongzhen's Suicide",
       "year": 1644,
-      "description": "On the morning of April 25, 1644, as Li Zicheng's rebel army was breaching the Beijing gates, the Chongzhen Emperor walked out of the Forbidden City with one eunuch attendant, climbed Coal Hill (Jingshan) just north of the palace, and hanged himself from a pagoda tree. Beside him was a suicide note blaming his ministers for the catastrophe. The tree (or its replacement; the original was cut down in the Cultural Revolution) is still pointed out today as one of the most viscerally remembered sites of dynastic collapse in Chinese history.",
+      "description": "In the early hours of April 25, 1644, the Chongzhen Emperor climbed Coal Hill (Jingshan) — the artificial mound just north of the Forbidden City — with a single eunuch attendant and hanged himself from a pagoda tree, ending the Ming dynasty's direct rule with a suicide note blaming his ministers for the catastrophe.",
       "wikiSlug": "Chongzhen_Emperor",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The note reportedly read: \"All my ministers have failed me. As I die the imperial diadem is gone from my head, my hair covers my face. Let the rebels carve my body to pieces but spare my people.\" The spot on Coal Hill is still pointed out to visitors at what is now Jingshan Park — from the pavilion at the summit you can look directly down onto the Forbidden City from the same vantage point Chongzhen had on his last morning. The original pagoda tree was reportedly cut down during the Cultural Revolution as a symbol of feudal monarchy."
+        }
+      ],
+      "commonsFile": "Chongzhen_Emperor_signature_and_seal.jpg"
     },
     {
       "id": "evt-ming-ming-shi",
@@ -769,62 +1189,103 @@
       "id": "evt-ming-haijin-policy",
       "label": "Haijin Maritime Prohibition",
       "year": 1371,
-      "description": "Hongwu issued the Haijin ('sea ban') edicts beginning in 1371, prohibiting private overseas trade and ordering coastal populations to relocate inland. The policy was nominally maintained for most of the Ming, with periodic relaxations and the obvious exception of Zheng He's voyages. The contradiction between official prohibition and de facto smuggling — particularly via Macao and the wokou networks — defined the Ming's complicated relationship with maritime commerce.",
+      "description": "The Haijin ('sea ban') was a series of Ming edicts, beginning under Hongwu in 1371, that officially prohibited private overseas maritime trade — a policy maintained in nominal form for most of the dynasty even as large-scale smuggling made it largely fictional in practice.",
       "wikiSlug": "Haijin",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The ban was not a product of ancient Chinese tradition but a specific political response: Hongwu used it to control coastal populations and cut off potential rivals from external resources. The contradiction between official prohibition and the reality of Zheng He's enormous state-sponsored voyages happening simultaneously was never fully resolved. Private traders simply moved through networks the ban couldn't suppress — particularly via Macao and the wokou (Japanese-Chinese pirate-smuggler fleets) — making the sea ban one of history's more ineffective major trade policies."
+        }
+      ]
     },
     {
       "id": "evt-ming-tax-system",
       "label": "Ming Tax System",
       "year": 1380,
-      "description": "Hongwu's Ming tax system was based on land taxes paid in kind — primarily grain — and labor obligations imposed on registered households through the lijia system. The system was designed for an agrarian, low-monetization economy and proved unable to capture the wealth of the increasingly commercial Ming economy. Repeated tax reforms across the dynasty culminated in the Single Whip Reform of 1581.",
+      "description": "Hongwu's Ming tax system collected land taxes primarily in grain and imposed labor obligations on registered households through the lijia structure — a system designed for a low-monetization agrarian economy that proved increasingly mismatched to the commercially active Ming economy of later centuries. The mismatch between the tax system and economic reality would drive repeated reform attempts across the dynasty, culminating in the Single Whip Reform of 1581.",
       "wikiSlug": "Ming_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The grain-in-kind tax was an intentional echo of the early Tang system — Hongwu distrusted cash transactions, which he associated with the merchant class he regarded with deep suspicion. Peasants paying grain at least could not be robbed of value by currency debasement. But the system had no mechanism to capture the growing wealth flowing through Ming commercial networks, leaving the state chronically underfunded relative to its military commitments — a fiscal tension that ran through the entire dynasty."
+        }
+      ],
+      "commonsFile": "Map_of_Ming_Chinese_empire_1415_(cropped_2).jpg"
     },
     {
       "id": "evt-ming-ming-army",
       "label": "Weisuo Military System",
       "year": 1370,
-      "description": "Hongwu organized the Ming military into the weisuo (garrison) system: hereditary military households assigned to permanent garrisons, supplied with farmland on which the soldiers worked when not training. The system was meant to make the army self-supporting and to prevent the warlordism that had destroyed the Tang. It worked initially but decayed over generations as soldiers fled, garrisons emptied, and the hereditary military households impoverished themselves on inadequate land allocations. By the Tumu Crisis the weisuo system was already failing.",
+      "description": "The weisuo (garrison) system organized the Ming military into hereditary military households assigned to permanent garrisons across the empire, each garrison supplied with farmland on which soldiers worked when not training — designed to make the army self-supporting and prevent the warlordism that had destroyed the Tang. The system worked initially but decayed over generations as soldiers fled poor land, garrisons emptied, and hereditary obligations fell on impoverished households.",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The weisuo's fatal flaw was that the farmland grants assigned to military households were typically insufficient and of poor quality — soldiers could not feed their families from them and drifted away over generations, replaced on the registers by names that no longer corresponded to real soldiers. By the Tumu Crisis of 1449 (Chapter 4), the theoretical Ming army on paper bore little relation to what could actually be put in the field, a gap that would be exploited by a Mongol army the Ming leadership had every reason to think it could easily defeat."
+        }
+      ],
+      "commonsFile": "Ming_army2.JPG"
     },
     {
       "id": "evt-ming-frontier-defense",
       "label": "Nine Frontier Garrisons",
       "year": 1393,
-      "description": "Hongwu organized the northern Ming frontier into nine major military commands stretching from Liaoning in the east to Gansu in the west — the Nine Frontier Garrisons (Jiu Bian). Each was based at a fortified town with a substantial standing army, responsible for defense against Mongol raids and for the Ming half of frontier diplomacy. The Nine Frontier system was the institutional basis of the Great Wall reconstruction project.",
+      "description": "Hongwu organized the northern frontier into nine major military commands stretching from Liaoning in the east to Gansu in the west — the Nine Frontier Garrisons (Jiu Bian), each anchored at a fortified town with a substantial standing army. This was the institutional backbone of the Ming's entire northern defense posture and the framework on which later emperors built the massive Great Wall reconstruction.",
       "wikiSlug": "Nine_Garrisons_of_the_Ming_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Nine Frontier system eventually deployed roughly 300,000 soldiers and officers across its garrisons — the largest sustained military commitment in the Ming state and one of the few Hongwu-era institutions that genuinely functioned through the entire dynasty. Northern frontier defense was the one area where the Ming consistently invested resources at scale, which is why the Great Wall that tourists visit today is almost entirely Ming construction: earlier walls were earthen and had largely dissolved by the 1400s."
+        }
+      ],
+      "commonsFile": "Kinesiska_muren_Mingdynastin.jpg"
     },
     {
       "id": "evt-ming-empress-ma",
       "label": "Empress Ma",
       "year": 1382,
-      "description": "Empress Ma (1332–1382), Hongwu's principal wife, was one of the most respected consort empresses in pre-modern China. A foster daughter of the Red Turban warlord Guo Zixing, she had married Zhu Yuanzhang during the rebellion years and was credited in later tradition with restraining her husband's worst impulses — repeatedly intervening to spare condemned officials and to soften extreme punishments. After her death in 1382 the purges accelerated dramatically.",
+      "description": "Empress Ma (1332–1382), Hongwu's principal wife and a foster daughter of the Red Turban warlord Guo Zixing, was one of the most respected consort empresses in Chinese imperial history — credited in later tradition with repeatedly intervening to spare condemned officials and moderate her husband's worst impulses. After her death in 1382, the pace and scale of Hongwu's purges accelerated sharply.",
       "wikiSlug": "Empress_Ma_(Hongwu)",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Empress Ma had accompanied Zhu Yuanzhang through the entire rebellion period, sharing its dangers before he became dominant; she was not a consort acquired after power, and the relationship was, by the standards of imperial marriages, unusually close. She reportedly refused imperial physicians and medicine during her final illness, saying she did not want the doctors punished if they failed to save her — a telling detail about the atmosphere at Hongwu's court. She was posthumously named Empress Xiaocigao, and Hongwu never took another principal wife after her death."
+        }
+      ],
+      "commonsFile": "孝慈高皇后1.jpg"
     },
     {
       "id": "evt-ming-eight-legged-essay",
       "label": "Eight-Legged Essay",
       "year": 1487,
-      "description": "The Eight-Legged Essay (bagu wen) became the standard format for Ming civil-service examinations after about 1487. The structure imposed eight rigid rhetorical sections, mandated explicit alignment with the orthodox Zhu Xi commentaries on the Confucian classics, and made examination success entirely dependent on mastery of the form. Critics from Wang Yangming to twentieth-century reformers attacked it as the institutional fossilization of Chinese intellectual life; defenders argued it produced reliable bureaucrats. The format ran continuously until the abolition of the examinations in 1905.",
+      "description": "The Eight-Legged Essay (bagu wen) was the rigidly structured essay format that became the standard Ming civil-service examination requirement after about 1487 — eight prescribed rhetorical sections, mandatory alignment with orthodox Zhu Xi Confucian commentaries, and no deviation in form permitted.",
       "wikiSlug": "Eight-legged_essay",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The format was introduced to standardize grading and reduce examiner subjectivity, but critics from Wang Yangming onward argued it turned intellectual life into pure form-drilling at the expense of original thought. It ran continuously through the Qing period until the examination system was abolished in 1905 — meaning the format the Ming codified shaped Chinese elite education for over four centuries. The abolition in 1905 was itself an acknowledgment that the format had contributed to the intellectual isolation that left China unprepared for the nineteenth-century European technological challenge."
+        }
+      ],
+      "commonsFile": "状元卷.JPG"
     },
     {
       "id": "evt-ming-population-growth",
@@ -874,11 +1335,18 @@
       "id": "evt-ming-xu-guangqi",
       "label": "Xu Guangqi",
       "year": 1607,
-      "description": "Xu Guangqi (1562–1633) was the highest-ranking Ming official to convert to Catholicism — a Grand Secretary, agricultural expert, and translator. He collaborated with Matteo Ricci on the first Chinese translation of Euclid's Elements (the first six books, completed 1607), wrote a comprehensive treatise on agriculture (the Nongzheng Quanshu), and championed the introduction of European astronomical methods at the Beijing observatory.",
+      "description": "Xu Guangqi (1562–1633) was a Grand Secretary, agricultural expert, mathematician, and the highest-ranking Ming official to convert to Catholicism — best known for his collaboration with Matteo Ricci on the first Chinese translation of Euclid's Elements (the first six books, completed 1607), which introduced formal deductive geometry to Chinese mathematics.",
       "wikiSlug": "Xu_Guangqi",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Xu was baptized in 1603, taking the Christian name Paul, and remained a devout Catholic throughout his official career — an extraordinary thing for a senior Confucian bureaucrat. In 1629 the emperor appointed him to lead the Shixian calendar reform, a major project to improve the accuracy of the imperial calendar using European astronomical methods, which he pursued with Jesuit assistance. His agricultural treatise (Nongzheng Quanshu, or Complete Treatise on Agricultural Administration) covered crop management, irrigation, famine relief, and cotton cultivation and remained influential well into the Qing."
+        }
+      ],
+      "commonsFile": "Kircher_-_Toonneel_van_China_-_Ricci_and_Guangqi.jpg"
     },
     {
       "id": "evt-ming-hongwu-empress-ma-restraint",
