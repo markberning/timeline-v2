@@ -62,206 +62,335 @@
       "label": "Late Intermediate Period",
       "year": 1000,
       "endYear": 1438,
-      "description": "Following the collapse of Tiwanaku and Wari, the central Andes fragmented into smaller polities — the Chimor on the north coast, the Chancay on the central coast, the Aymara kingdoms around Lake Titicaca, the Killke chieftaincies in the Cuzco basin — that inherited Middle Horizon institutions in pieces.",
+      "description": "The four centuries between the fall of the Middle Horizon empires (Tiwanaku and Wari) and the Inca rise, when the Andes fragmented into dozens of competing regional kingdoms. This fragmented landscape is the political world the early Inca kingdom grew up inside.",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The collapse of both Tiwanaku and Wari around 900–1000 CE is now attributed by most scholars to prolonged drought — ice-core and lake-sediment records show a multi-decade dry pulse that wrecked the high-altitude raised-field agriculture both empires depended on. The drought didn't kill the institutions, though: ayllus, vertical-archipelago trade, and Staff God religious imagery all survived the collapse and were still running four centuries later when the Inca picked them up."
+        }
+      ],
+      "commonsFile": "Late-intermediate-peru.png"
     },
     {
       "id": "evt-chimor-kingdom",
       "label": "Kingdom of Chimor",
       "year": 900,
       "endYear": 1470,
-      "description": "The Chimu kingdom, headquartered at the adobe city of Chan Chan north of modern Trujillo, was the largest and most successful of the Late Intermediate polities, controlling roughly 600 miles of Peru's north coast at its peak.",
+      "description": "The largest and most sophisticated kingdom in the late pre-Inca Andes, controlling roughly 600 miles of Peru's north coast from its adobe capital Chan Chan. The Chimu were eventually conquered by Topa Inca Yupanqui around 1470.",
       "wikiSlug": "Chimor",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chimor developed a distinctive split-inheritance system: when a king died, his palace was sealed with his mummified body inside and became his eternal residence, while the new king had to build his own. This meant the royal court had a constant incentive to conquer new territory — only conquest brought the new king the resources to fund his palace. The Inca would later adopt a nearly identical system in Cuzco."
+        }
+      ],
+      "commonsFile": "Photomontage_Chimu_Culture.jpg"
     },
     {
       "id": "evt-chan-chan",
       "label": "Chan Chan",
       "year": 1100,
-      "description": "The Chimu capital of Chan Chan covered roughly 8 square miles of dense adobe construction housing perhaps 60,000 people — the largest pre-Columbian city in South America before Cuzco overtook it under Pachacuti.",
+      "description": "The Chimu capital on Peru's north coast, covering roughly 8 square miles of densely packed adobe construction and housing around 60,000 people — almost certainly the largest city in the Americas around 1300 CE.",
       "wikiSlug": "Chan_Chan",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chan Chan is organized into a series of massive walled royal compounds called ciudadelas, each built by a different Chimu king and then sealed as his tomb. The site now contains nine of these compounds, some with walls still standing 30 feet high. UNESCO designated it a World Heritage Site in 1986 and added it to the list of World Heritage in Danger in the same year due to erosion from El Niño rains."
+        }
+      ],
+      "commonsFile": "Adobe_detail_at_Chan_Chan.JPG"
     },
     {
       "id": "evt-aymara-kingdoms",
       "label": "Aymara Kingdoms",
       "year": 1100,
       "endYear": 1450,
-      "description": "After the fall of Tiwanaku, the southern altiplano fragmented into competing Aymara-speaking polities — the Lupaca, Colla, Pacajes, and others — that fought each other for control of the high pasturelands until the Inca consolidated all of them in the fifteenth century.",
+      "description": "A cluster of competing Aymara-speaking polities that emerged around Lake Titicaca after Tiwanaku's collapse, including the Lupaca, Colla, and Pacajes. They were militarily formidable and culturally direct descendants of Tiwanaku, but never unified into a single state.",
       "wikiSlug": "Aymara_kingdoms",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Aymara kingdoms maintained the Tiwanaku institution of the vertical archipelago — each polity controlled scattered colonies at different elevations, from high-altitude pasturelands to lower valley farms to coastal fishing communities, all connected by llama caravans. This wasn't just economic convenience; controlling multiple ecological zones was the Andean equivalent of food security. The Inca later imposed this same logic at continental scale."
+        }
+      ]
     },
     {
       "id": "evt-killke-culture",
       "label": "Killke Cuzco",
       "year": 1000,
       "endYear": 1400,
-      "description": "The Killke archaeological culture occupied the Cuzco basin through the Late Intermediate Period, gradually consolidating from village clusters into the small Inca chiefdom that Pachacuti would inherit.",
+      "description": "The archaeological culture that occupied the Cuzco basin from about 900 to 1400 CE, identified primarily by its distinctive pottery style. The Killke were the direct ancestors and predecessors of the early Inca, before the Cuzco chiefdom began calling itself by that name.",
       "wikiSlug": "Killke_culture",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Killke-period construction has been found beneath the foundations of later Inca buildings in Cuzco itself, confirming the continuity between the two cultures. There are no Killke palaces or royal tombs that have been excavated at the scale of Moche burials or Wari elite interments — the pre-imperial Cuzco basin was genuinely a modest place by Andean standards."
+        }
+      ],
+      "commonsFile": "Sacsayhuamán,_Cusco,_Perú,_2015-07-31,_DD_05.JPG"
     },
     {
       "id": "evt-manco-capac",
       "label": "Manco Capac",
       "year": 1200,
-      "description": "The legendary first Sapa Inca, said in one tradition to have emerged from Lake Titicaca with his sister-wife Mama Ocllo and in another from caves at Pacaritambo. Whether he was a real person, a composite, or pure myth is unrecoverable.",
+      "description": "The legendary first Sapa Inca, credited in one myth with emerging from Lake Titicaca and in another from caves at Pacaritambo. If historical, he likely led a small Cuzco-area chiefdom sometime around 1100–1200 CE — but almost everything specific attributed to him was assembled later.",
       "wikiSlug": "Manco_Capac",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Manco Capac's two origin stories served different political purposes simultaneously: the Lake Titicaca version connected the Inca to the ancient religious geography of Tiwanaku and gave them pan-Andean legitimacy, while the Pacaritambo cave version tied specific Cuzco lineages to specific founding ancestors. The Inca held both stories as true at the same time and saw no contradiction — each story was addressed to a different political audience."
+        }
+      ],
+      "commonsFile": "Brooklyn_Museum_-_Manco_Capac,_First_Inca,_1_of_14_Portraits_of_Inca_Kings.jpg"
     },
     {
       "id": "evt-mama-ocllo",
       "label": "Mama Ocllo",
       "year": 1200,
-      "description": "Legendary co-founder of the Inca dynasty alongside her brother-husband Manco Capac, credited with teaching Andean women the arts of spinning and weaving. The brother-sister marriage pattern would later be repeated by historical sapa incas.",
+      "description": "Legendary co-founder of the Inca dynasty alongside her brother-husband Manco Capac, deified as a mother and fertility goddess. The brother-sister marriage that the origin myth establishes as founding precedent would later become standard practice among historical Sapa Incas.",
       "wikiSlug": "Mama_Ocllo",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In Inca mythology Mama Ocllo's parentage varies by source: some traditions make her a daughter of Inti (the sun god) and Mama Killa (the moon goddess), others make her a daughter of Viracocha. The inconsistency is characteristic of Inca oral tradition — different royal lineages maintained different versions of the stories that legitimized their particular claims, and the chronicles recorded all of them without reconciling the contradictions."
+        }
+      ],
+      "commonsFile": "Mama_Ocllo,_Peru,_circa_1840,_San_Antonio_Museum_of_Art.jpg"
     },
     {
       "id": "evt-cuzco-founded",
       "label": "Cuzco Founded",
       "year": 1200,
-      "description": "The legendary founding of Cuzco by Manco Capac in the fertile Huatanay Valley of the central Peruvian highlands. The actual archaeological foundation is gradual, with Killke-period occupation slowly thickening into the early Inca capital.",
+      "description": "The Inca capital in the south-central Peruvian highlands, sitting at about 11,000 feet elevation in the Huatanay Valley. Its legendary founding by Manco Capac is a myth; archaeologically, the city grew gradually from Killke-period village clusters into a proper capital under the early Inca rulers.",
       "wikiSlug": "Cusco",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cuzco's location at the meeting point of three Andean ecological zones — dry southern highlands, wet Amazon-facing slopes, and temperate central valleys — gave it natural access to a wider range of crops and trade goods than almost any other highland site. This geographic leverage, not just political ambition, is part of why Cuzco became the hub it did. The name Cuzco (or Qusqu in Quechua) is often translated as 'navel of the world.'"
+        }
+      ],
+      "commonsFile": "Cuzco-_a_journey_to_the_ancient_capital_of_Peru;_with_an_account_of_the_history,_language,_literature,_and_antiquities_of_the_Incas._And_Lima-_a_visit_to_the_capital_and_provinces_of_modern_Peru;_with_(14781438324).jpg"
     },
     {
       "id": "evt-origin-myths",
       "label": "Inca Origin Myths",
       "year": 1200,
-      "description": "Two parallel origin myths — the Lake Titicaca emergence and the Pacaritambo cave emergence — were both told as foundational truths simultaneously. The Inca did not consider this a contradiction; both were politically useful in different contexts.",
+      "description": "The two parallel founding myths of the Inca — the Lake Titicaca emergence and the Pacaritambo cave emergence — were both treated as simultaneously true. Each served a different political purpose, and the Inca saw no contradiction in holding both at once.",
       "wikiSlug": "Inca_mythology",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Lake Titicaca myth deliberately echoes the story of the creator god Viracocha, who was said to have made the sun, moon, stars, and humanity at the same lake and then walked across the Andes teaching civilization. By casting Manco Capac as the sun's own son repeating that same journey, the Inca inserted their dynasty directly into an older pan-Andean religious narrative that already commanded wide reverence across peoples who had never heard of Cuzco."
+        }
+      ],
+      "commonsFile": "Chakana_inca_detalle_textil_uncu_001.JPG"
     },
     {
       "id": "evt-eight-legendary-rulers",
       "label": "Eight Legendary Rulers",
       "year": 1230,
       "endYear": 1438,
-      "description": "Between Manco Capac and Pachacuti, eight semi-legendary sapa incas ruled the Cuzco kingdom — Sinchi Roca, Lloque Yupanqui, Mayta Capac, Capac Yupanqui, Inca Roca, Yahuar Huacac, Viracocha Inca, and Inca Urco. Their reigns are reconstructed from later Spanish chronicles, and few specific events can be reliably dated.",
+      "description": "The eight semi-legendary Sapa Incas between Manco Capac and Pachacuti — Sinchi Roca through Inca Urco — whose reigns are reconstructed from Spanish chronicles written a century after the empire's fall. Individual deeds are hard to verify; the broad picture is a gradual expansion of Cuzco's influence through the fourteenth century.",
       "wikiSlug": "Sapa_Inca",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reliability problem with the early Inca king list is structural: the chronicles were recorded from oral traditions that had been filtered through decades of Inca state propaganda before the Spanish arrived. Each royal lineage (panaca) maintained its own version of dynastic history, emphasizing its own ancestor's achievements. Scholars today treat the early rulers roughly the way ancient historians treat the legendary kings of Rome — names probably corresponding to real people, chronology assembled to look coherent, specific deeds largely unrecoverable."
+        }
+      ],
+      "commonsFile": "Ayarmanco1.JPG"
     },
     {
       "id": "evt-viracocha-inca",
       "label": "Viracocha Inca",
       "year": 1410,
       "endYear": 1438,
-      "description": "Eighth Sapa Inca, named after the creator god Viracocha. Expanded Cuzco's territory through a mix of diplomacy and small wars but fled the city when the Chanka confederation invaded — a flight that opened the throne to his disinherited son Pachacuti.",
+      "description": "The eighth Sapa Inca, who expanded Cuzco's reach through diplomacy and small wars but famously fled the capital when the Chanka confederation invaded around 1438 — handing his youngest son an opportunity to seize the throne by defending the city.",
       "wikiSlug": "Viracocha_Inca",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Viracocha Inca named himself after the creator deity Viracocha, a deliberate act of self-deification that went well beyond what earlier Inca rulers had claimed. His designated heir Inca Urco reportedly had such a poor reputation in the chronicles that even the Spanish sources — drawing on Inca court records — describe him as unfit for rule, which suggests the official Inca historical tradition was happy to paint Pachacuti's predecessor as a failure to justify the succession."
+        }
+      ],
+      "commonsFile": "Brooklyn_Museum_-_Viracocha,_Eighth_Inca,_1_of_14_Portraits_of_Inca_Kings_-_overall.jpg"
     },
     {
       "id": "evt-chanka-war",
       "label": "Battle of Yahuar Pampa",
       "year": 1438,
-      "description": "Pachacuti, then still a young prince and not yet the designated heir, defeated the invading Chanka confederation in a decisive battle outside Cuzco. The victory legitimized his claim to the throne and launched the imperial period.",
+      "description": "The decisive battle fought outside Cuzco around 1438, in which the young prince Cusi Yupanqui (later Pachacuti) defeated the invading Chanka confederation after his father and the designated heir had fled. The victory ended the Chanka threat and launched Pachacuti's claim to the throne.",
       "wikiSlug": "Chanka–Inca_War",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Inca tradition held that at a critical moment in the battle, the stones of the surrounding fields transformed into warriors and joined Pachacuti's defense — the pururaucas (poo-roo-ROW-kahs). These stones were afterwards gathered, treated as sacred wak'as, and given regular offerings. Whether or not the Chanka war happened exactly as described, the pururauca stones were still being venerated in Cuzco when the Spanish arrived, making them an unusually tangible artifact of the founding mythology."
+        }
+      ],
+      "commonsFile": "Inka_Chanka_war_on_Mural_of_the_History_of_Cusco.jpg"
     },
     {
       "id": "evt-pachacuti",
       "label": "Pachacuti",
       "year": 1438,
       "endYear": 1471,
-      "description": "Ninth Sapa Inca, the founder of the Tahuantinsuyu empire. His name means 'earth-shaker' or 'world-overturner.' He rebuilt Cuzco, founded Machu Picchu, restructured the Inca state, and personally led the conquests that turned a small kingdom into a continental empire within a single reign.",
+      "description": "The ninth Sapa Inca and founder of the Tahuantinsuyu empire, whose name means 'earth-shaker' or 'world-overturner.' He turned a small highland kingdom into a continental empire stretching 1,500 miles from southern Colombia to central Chile — in roughly thirty years of active campaigning.",
       "wikiSlug": "Pachacuti",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pachacuti is credited not just with conquest but with wholesale reinvention of the Inca state: he reportedly redesigned Cuzco in the shape of a puma, codified the mit'a labor tax into an empire-wide system, built the first major road network extensions, and commissioned Machu Picchu as a royal estate. The Spanish chronicler Juan de Betanzos, who married into the Inca royal family and wrote in 1551, provides the most detailed account of Pachacuti's reign — and his account reads more like a biography than a myth, suggesting a real administrative revolution behind the imperial expansion."
+        }
+      ],
+      "commonsFile": "Brooklyn_Museum_-_Pachacuti,_Tenth_Inca,_1_of_14_Portraits_of_Inca_Kings_(cropped).jpg"
     },
     {
       "id": "evt-tahuantinsuyu",
       "label": "Tahuantinsuyu Founded",
       "year": 1438,
-      "description": "Pachacuti reorganized his expanding state as the Tahuantinsuyu, the 'Four Regions Together' — Chinchaysuyu in the northwest, Antisuyu in the northeast jungle, Collasuyu in the southeast altiplano, and Cuntisuyu in the southwest coast. Cuzco was at the geometric center.",
+      "description": "Pachacuti reorganized his expanding state into the Tahuantinsuyu (tah-wahn-teen-SOO-yoo), the 'Four Regions Together' — four great provinces radiating from Cuzco like compass points, with the capital at the exact geometric center where all four roads met.",
       "wikiSlug": "Inca_Empire",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The four regions — Chinchaysuyu (northwest), Antisuyu (northeast jungle slopes), Collasuyu (southeast altiplano), and Cuntisuyu (southwest coast) — were a religious as much as an administrative division, mapped onto the four cardinal directions and four classes of celestial phenomena. The Tahuantinsuyu became the largest empire in pre-Columbian America. The word 'Inca' referred originally only to the ruling ethnic group from Cuzco, not the broader subject population."
+        }
+      ]
     },
     {
       "id": "evt-cuzco-rebuilt-puma",
       "label": "Cuzco Rebuilt as Puma",
       "year": 1440,
-      "description": "Pachacuti redesigned Cuzco in the shape of a puma when seen from above, with the head at Sacsayhuaman, the body running through the central plazas, and the tail at the junction of two rivers. The puma layout was simultaneously a city plan and a piece of religious symbolism.",
+      "description": "Pachacuti demolished the old highland town of Cuzco and rebuilt it from scratch in the shape of a puma seen from above — the head at the hilltop fortress Sacsayhuaman, the body spanning the central plazas, and the tail at the meeting point of two rivers called Pumachupan.",
       "wikiSlug": "Cusco",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The puma was one of three sacred Andean animals alongside the condor and the snake, so the city plan was simultaneously urban design, religious symbolism, and political statement. Construction required temporarily relocating all existing residents to surrounding villages while mit'a labor crews rebuilt the city over roughly two decades. The dual division into Hanan (upper) and Hurin (lower) Cuzco reflected a far older Andean principle of paired complementary opposition — male/female, sun/moon, sky/earth — inherited from the Wari and Tiwanaku civilizations."
+        }
+      ]
     },
     {
       "id": "evt-coricancha",
       "label": "Coricancha",
       "year": 1445,
-      "description": "Pachacuti rebuilt the Temple of the Sun at Cuzco — the Coricancha, 'golden enclosure' — as the empire's most sacred building, with interior walls sheathed in sheets of beaten gold and a central courtyard containing a life-sized maize garden of gold and silver.",
+      "description": "The Coricancha (koh-ree-KAHN-chah, 'golden enclosure') was the empire's most sacred building — the temple of Inti the sun god in the heart of Cuzco, with interior walls sheathed in sheets of beaten gold and a central courtyard containing a life-sized garden of gold maize stalks and silver llamas.",
       "wikiSlug": "Coricancha",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The doorway to the central shrine was calibrated to face the rising sun on the equinox, confirmed by a stone pillar in the courtyard. The mummified bodies of past rulers were brought into the temple on festival days and fed and consulted as if alive. The Spanish stripped the Coricancha bare in 1533 and built the church of Santo Domingo on top of the demolished walls — but the Inca stone foundations have survived every major earthquake since, while the Spanish church above them has had to be rebuilt multiple times."
+        }
+      ],
+      "commonsFile": "Coricancha,_Cusco,_Perú,_2015-07-31,_DD_68.JPG"
     },
     {
       "id": "evt-sacsayhuaman",
       "label": "Sacsayhuaman",
       "year": 1440,
       "endYear": 1490,
-      "description": "The massive megalithic complex above Cuzco, with three terraced walls of zigzag stonework and individual blocks weighing up to 200 tons fitted together without mortar so precisely that a knife blade cannot be inserted between them. Construction took roughly fifty years.",
+      "description": "The great zigzag fortress complex on the hill above Cuzco, with three tiers of terraced walls whose largest individual blocks weigh around 200 tons — as heavy as the biggest stones the Egyptian pyramid builders ever moved. Construction ran for roughly fifty years and the stones fit so tightly that a knife blade cannot be slipped between them.",
       "wikiSlug": "Sacsayhuamán",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sacsayhuaman sits at 3,701 meters (12,142 feet) above sea level, and the quartzite blocks were dragged from outcrops several miles away before being hauled up construction ramps by teams that may have numbered in the thousands per stone. The zigzag shape of the walls — rather than a straight line — is itself a structural strategy, distributing force along the angles and making the walls harder to breach or topple. Spanish chroniclers described the building as so astonishing that they attributed it to demons, because they could not believe human labor alone had moved the stones."
+        }
+      ],
+      "commonsFile": "Sacsayhuamán,_Cusco,_Perú,_2015-07-31,_DD_27.JPG"
     },
     {
       "id": "evt-machu-picchu",
       "label": "Machu Picchu",
       "year": 1450,
-      "description": "Built as a royal estate for Pachacuti on a forested ridge 8,000 feet above sea level in the eastern Andes, with terraces, temples, fountains, and astronomical alignments. Abandoned around the time of the Spanish conquest and never reported to the conquerors, which is why it survived intact.",
+      "description": "Pachacuti's royal estate built around 1450 on a forested ridge in the Eastern Cordillera, 7,970 feet above sea level, with terraces, temples, fountains, and astronomical alignments — and never reported to the Spanish, which is why it survived intact when almost every other major Inca site was looted or dismantled.",
       "wikiSlug": "Machu_Picchu",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Machu Picchu sits above the Urubamba River canyon and was invisible from the valley floor, which is probably why the Spanish never learned of it — the estate was likely abandoned within a few decades of the conquest when there was no longer an imperial system to maintain it. The stonework at Machu Picchu is actually a step below the finest Inca masonry at Cuzco or Ollantaytambo, reflecting its status as a remote highland estate built with limited labor rather than a prestige imperial project. The site was brought to international attention in 1911 by Yale historian Hiram Bingham III, though local farmers had been aware of it throughout the intervening centuries."
+        }
+      ],
+      "commonsFile": "Machu_Picchu,_2023_(012).jpg"
     },
     {
       "id": "evt-mit-a-labor",
       "label": "Mit'a Labor System",
       "year": 1442,
-      "description": "Pachacuti formalized the Andean tradition of rotational labor service into the imperial mit'a — every adult male subject owed a fixed number of days per year working on state projects, in the army, or in mines. The system was the engine that built the roads, terraces, fortresses, and storehouses without slavery or wages.",
+      "description": "The mit'a was the universal labor draft that built the entire Inca imperial infrastructure: every adult male subject owed the state a fixed rotation of labor each year — building roads, hauling stone, working mines, or serving in the army — in exchange for food, housing, and state protection during service.",
       "wikiSlug": "Mit%27a",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Spanish-era reconstructions suggest a typical mit'a obligation ran 60 to 90 days per year, though it varied by province and project. The system was not slavery — laborers served fixed terms, were fed and clothed by the state during service, and returned home — but it had a structural vulnerability: mit'a armies had to disperse at planting season. This is precisely why Manco Inca's massive 1536 siege of Cuzco failed: his 100,000-strong force had to scatter for the harvest, giving the outnumbered Spanish just enough breathing room to survive."
+        }
+      ]
     },
     {
       "id": "evt-vertical-archipelago",
@@ -277,99 +406,160 @@
       "id": "evt-ayllu-system",
       "label": "Ayllu Social System",
       "year": 1440,
-      "description": "The basic Andean social unit, an extended kinship group that owned land collectively, organized labor through reciprocal obligation, and venerated common ancestors. The Inca did not invent the ayllu — it predates them by at least a thousand years — but they built the imperial tribute system on top of it.",
+      "description": "The extended kinship group at the core of Andean social organization, owning land collectively and distributing labor through reciprocal obligation. The ayllu predates the Inca by at least a thousand years; they simply scaled it up to serve as the engine of an empire.",
       "wikiSlug": "Ayllu",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The ayllu's reciprocal labor logic — you contribute days of work to communal projects, you receive shares of what those projects produce — meant the Inca could extract labor for roads, terraces, mines, and armies without money and without a market economy. The entire imperial infrastructure was built on this pre-existing cultural software. The system is still functioning in modified form in parts of Bolivia and Peru today, making it one of the longest-lived social institutions in the Americas."
+        }
+      ]
     },
     {
       "id": "evt-quipu",
       "label": "Quipu Records",
       "year": 1450,
-      "description": "Knotted cord records used by the Inca for census, tribute, calendars, and possibly narrative. A primary cord with hanging secondary cords; knot type and position encode decimal numbers, while color, ply, and attachment carry additional meaning. Whether quipu encode language is one of the most contested questions in Andean studies.",
+      "description": "The quipu was a knotted-cord recording device — a primary cord with secondary cords hanging from it, where knot type and position encode decimal numbers and color, ply direction, and cord thickness carry additional categorical meaning — the bureaucratic backbone of an empire that ran without writing.",
       "wikiSlug": "Quipu",
       "tier": 1,
       "tags": [
         "science"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The numerical decoding was worked out in the 1920s by scholar Leland Locke: quipu use a base-10 positional system readable once you know the code. Whether quipu could also encode language — names, histories, laws — is genuinely unresolved. Researcher Sabine Hyland's 2017 analysis of quipus from the Peruvian village of San Juan de Collata identified what may be a logosyllabic system for encoding personal names, but most senior specialists read the chroniclers' accounts of quipucamayocs \"reciting\" history as oral memorization using the quipu as a mnemonic anchor, not true phonetic writing. Several thousand quipus survive in museum collections, mostly from dry coastal sites, and computational decipherment efforts are ongoing."
+        }
+      ],
+      "commonsFile": "Inca_Quipu.jpg"
     },
     {
       "id": "evt-quipucamayoc",
       "label": "Quipucamayoc Specialists",
       "year": 1460,
-      "description": "Trained quipu keepers, the imperial bureaucratic class, drawn from selected provincial elite families and educated at Cuzco. Each provincial center had its own quipucamayoc team responsible for census, tribute, and storehouse accounts.",
+      "description": "Quipucamayoc (\"quipu keepers\") were trained specialist bureaucrats, drawn from provincial elite families and educated in Cuzco, responsible for maintaining census, tribute, and storehouse records across the empire — the closest thing the Inca had to a civil service.",
       "wikiSlug": "Quipu",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Each provincial center maintained its own quipucamayoc team whose records could be verified against Cuzco's master records when imperial inspectors arrived, creating a redundant audit system across 2,500 miles without a single written word. After the conquest, Spanish administrators were so dependent on these specialists that they kept the quipucamayoc class intact as a working colonial bureaucracy for roughly fifty years. The relationship broke down in 1583 when the Third Council of Lima ordered quipus burned as heretical objects — destroying an unknowable portion of Andean history in a single ecclesiastical decree."
+        }
+      ],
+      "commonsFile": "Nueva_corónica_y_buen_gobierno_(1936_facsimile)_p360.png"
     },
     {
       "id": "evt-qhapaq-nan",
       "label": "Qhapaq Ñan Road Network",
       "year": 1450,
-      "description": "The Inca road network, around 25,000 miles of paved or improved roads connecting Quito in the north to central Chile in the south, with two main spines (highland and coastal) and dozens of east-west connectors. Built largely on the Wari roadbed but vastly extended.",
+      "description": "The Qhapaq Ñan (\"royal road\") was a 25,000-mile network of graded, often stone-faced roads connecting the empire from modern Quito to central Chile — comparable in total length to the Roman road system at its peak, but built entirely across high-altitude terrain.",
       "wikiSlug": "Inca_road_system",
       "tier": 1,
       "tags": [
         "science"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The highland spine crossed passes above 16,000 feet regularly, roughly the altitude of the highest routes any pre-modern empire traversed on a routine basis. The network required enormous engineering: stone retaining walls, rock-cut stairways, marshland causeways, and — most spectacularly — suspension bridges of braided grass over Andean gorges. Much of the highland core was not built from scratch but refurbished from the Wari road network already eight centuries old when the Inca expanded outward in the 1430s."
+        }
+      ],
+      "commonsFile": "Inca_road_system.jpg"
     },
     {
       "id": "evt-chasqui-runners",
       "label": "Chasqui Runners",
       "year": 1455,
-      "description": "Trained relay messengers stationed in pairs at small huts every few miles along the road network. A message could travel 150 miles in a day by relay, faster than any wheeled or mounted communication system in pre-modern Eurasia.",
+      "description": "The chasqui were trained relay messengers stationed in pairs at small stone huts every couple of miles along the road network, handing messages to fresh runners so information moved continuously day and night — covering up to 300 miles (480 km) a day by relay.",
       "wikiSlug": "Chasqui",
       "tier": 2,
       "tags": [
         "science"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A message from Quito to Cuzco — roughly 1,200 road-miles — could arrive in about eight days, on par with the Persian royal road's mounted messenger relays that Herodotus described as the fastest communication in the ancient world. The chasqui achieved this on foot, at altitude, across terrain that would have broken horses within days. Messages were usually spoken aloud, sometimes accompanied by a quipu cord-record; the relay station huts (chasqui-huasi) were just two-room stone shelters, but spaced so precisely that the whole network functioned like a continental telephone wire."
+        }
+      ],
+      "commonsFile": "Guamán_Poma_de_Ayala,_Felipe_(1616)._Chasqui.jpg"
     },
     {
       "id": "evt-tambos",
       "label": "Tambo Way Stations",
       "year": 1460,
-      "description": "Roughly a thousand state-managed lodgings along the road system, spaced at intervals of about a day's march, where state officials, soldiers, and royal courier teams could rest, eat, and switch supplies. Each tambo was supplied by the surrounding province's mit'a tribute.",
+      "description": "Tambos were state-managed rest stops spaced roughly a day's march apart along the road network — somewhere between 1,000 and 2,000 across the empire — stocked with food, sandals, and pack supplies so that any official traveler could carry nothing and still move continuously.",
       "wikiSlug": "Tambo_(Incan_structure)",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The tambo was what made long-distance administration genuinely practical: an inspector could walk from Cuzco to Quito essentially empty-handed, presenting quipu credentials each evening for a free bed and meal. When Francisco Pizarro's expedition pushed inland in 1532, his men fed themselves for weeks by raiding tambo storehouses — the same infrastructure that made Inca administration work also made the Spanish conquest logistically feasible. Resident staff called kamayoq (\"specialists\") maintained the buildings and reported traffic counts to regional governors."
+        }
+      ],
+      "commonsFile": "Conchamarka_(cooking_stove_spot).jpg"
     },
     {
       "id": "evt-qollqa-storehouses",
       "label": "Qollqa Storehouses",
       "year": 1460,
-      "description": "Tens of thousands of state granaries arrayed in long rows on hillsides above provincial centers, storing freeze-dried potatoes (chuño), maize, dried meat, textiles, and weapons. The Spanish reported finding several years' worth of food in a single province's qollqa system.",
+      "description": "Qollqa were rows of small stone granaries built on hillsides above every provincial capital, storing freeze-dried potatoes (chuño), dried maize, charqui (dried llama meat), bulk textiles, weapons, and tools — the strategic food and supply reserve that made the mit'a labor system and the army functional.",
       "wikiSlug": "Qullqa",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At Huánuco Pampa alone, archaeologists have counted around 500 qollqa in regular rows above the central plaza. The freeze-dried chuño stored in them could remain edible for years at high altitude, giving the state a buffer against drought or crop failure that no other civilization in the Western Hemisphere had matched at this scale. The qollqa system was a direct inheritance from the Wari Empire's storehouse network, in operation since the seventh century CE — the Inca scaled it from a regional to a continental system."
+        }
+      ],
+      "commonsFile": "Ollantaytambo,_storage_rooms_(qollqas).jpg"
     },
     {
       "id": "evt-rope-bridges",
       "label": "Inca Rope Bridges",
       "year": 1460,
-      "description": "Suspension bridges of braided ichu grass spanning Andean gorges that could not be bridged any other way. The largest, at Apurimac, was rebuilt annually by surrounding ayllus as a mit'a obligation and lasted into the nineteenth century.",
+      "description": "Inca engineers spanned deep Andean gorges with suspension bridges woven from braided ichu grass — the only practical crossing where no stone arch could reach — making the road system continuous across terrain that stopped every other pre-Columbian empire.",
       "wikiSlug": "Inca_rope_bridge",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Q'eswachaka bridge over the Apurímac canyon, about 100 feet long, was rebuilt every year by the surrounding ayllus as a mit'a (labor-tribute) obligation. That annual rebuilding tradition has continued without interruption to the present day, making it one of the longest continuously maintained pieces of pre-Columbian infrastructure on the continent — and it is now a UNESCO Intangible Cultural Heritage site. Because the Inca did not use wheeled vehicles, a rope bridge strong enough for pedestrians and llamas was all they needed, so the engineering tradeoffs were different from anything in the Old World."
+        }
+      ],
+      "commonsFile": "IRBSideViewClip.jpg"
     },
     {
       "id": "evt-mitma-resettlement",
       "label": "Mitma Resettlement Policy",
       "year": 1460,
-      "description": "The Inca routinely transplanted entire ethnic groups from their homelands to new provinces, breaking up potential rebellions and seeding loyal communities in newly conquered territory. Hundreds of thousands of people were moved over the empire's century of expansion.",
+      "description": "The Inca routinely uprooted entire ethnic communities and transplanted them to new provinces — a policy called mitma — to break up potential rebellions, dilute local identity in restless regions, and seed loyal communities along newly conquered frontiers.",
       "wikiSlug": "Mitma",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Modern estimates put the total number of people relocated through mitma at somewhere between several hundred thousand and perhaps a million over the empire's century of expansion. The displaced communities (called mitmaq or mitimaes) kept their original dress, language, and ethnic identity within their new location, which made them visibly identifiable as outsiders and administratively trackable. The policy disrupted the centuries-old \"vertical archipelago\" trade networks that highland ayllus had built — where a single community might hold fields at multiple altitudes — and those disruptions compounded when the Spanish encomienda system layered on top of them."
+        }
+      ]
     },
     {
       "id": "evt-quechua-spread",
@@ -385,198 +575,328 @@
       "id": "evt-inti-cult",
       "label": "Inti Solar Cult",
       "year": 1450,
-      "description": "Inti, the sun god, was elevated by Pachacuti to the chief deity of the imperial state cult. The Sapa Inca claimed direct descent from Inti and ruled as his living son on earth — a religious claim that backed every administrative decree.",
+      "description": "The sun god Inti was elevated by the reformer-emperor Pachacuti to chief deity of the Inca state — taking a deity that already existed in the Andean pantheon and rebranding the empire around him. The Sapa Inca then ruled as Inti's living son, which turned every tax demand and military order into a divine command.",
       "wikiSlug": "Inti",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The elevation of a sun god to head an imperial state cult is a recurring world pattern: Egypt's Akhenaten did it with the Aten, Rome's Aurelian did it with Sol Invictus, and Japan's imperial family claimed descent from the sun goddess Amaterasu. Unlike Akhenaten, Pachacuti did not abolish the older pantheon — Viracocha, Mama Quilla, Pachamama, and the thousands of wak'a shrines all kept their places alongside Inti. The Coricancha in Cuzco served as Inti's central temple and the literal hub of the empire's sacred geography."
+        }
+      ],
+      "commonsFile": "Cápac_Inti_Raimi.jpg"
     },
     {
       "id": "evt-viracocha-god",
       "label": "Viracocha Creator God",
       "year": 1450,
-      "description": "The older pan-Andean creator god, said to have made the sun, moon, stars, and humanity at Lake Titicaca and then to have walked west across the empire teaching arts and crafts before disappearing into the Pacific. The Inca preserved Viracocha as the supreme but distant creator behind Inti.",
+      "description": "The older pan-Andean creator god who predated Inca imperial religion — said to have made the sun, moon, stars, and humanity at Lake Titicaca, then walked the length of the Andes teaching civilization before disappearing into the Pacific. The Inca kept him as the supreme but retired creator behind the more active Inti.",
       "wikiSlug": "Viracocha",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Viracocha was typically described as bearded and human in appearance, which later Spanish colonizers seized on to argue that Andeans had expected a white, bearded, European-looking deity — a convenient and self-serving myth. The Inca origin story placed Viracocha's act of creation at Tiwanaku (tee-wah-NAH-koo), the earlier altiplano civilization, explicitly appropriating that site's ancient prestige for their own cosmology."
+        }
+      ],
+      "commonsFile": "Cabeza_de_Viracocha,_Museo_de_América.jpg"
     },
     {
       "id": "evt-sapa-inca-divine",
       "label": "Sapa Inca as Living God",
       "year": 1440,
-      "description": "The Sapa Inca was not merely a king but Inti's son in the flesh, ritually addressed as a god. He was carried in a litter, served food on a separate set of dishes burned after each use, and could not be looked at directly by commoners.",
+      "description": "The Sapa Inca was not a king who worshipped the gods — he was a god in human form, Inti's son made flesh. No ordinary subject could look at him directly; he was carried on a litter so his feet never touched common ground; the dishes he ate from were used once and burned.",
       "wikiSlug": "Sapa_Inca",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His titles told the story plainly: Sapa Inca ('the unique Inca'), Sapan Apu ('the unique lord'), Intip Churin ('son of the sun'). Hair clippings and nail trimmings were collected and ritually destroyed — any piece of his body carried supernatural power and could not fall into the wrong hands. He was also the empire's chief priest, personally performing the major ceremonies of the state religious calendar."
+        }
+      ],
+      "commonsFile": "Ataw_Wallpa_portrait.jpg"
     },
     {
       "id": "evt-coya-queen",
       "label": "The Coya",
       "year": 1450,
-      "description": "The principal wife of the Sapa Inca, often his full sister to keep the divine bloodline pure. The Coya was a religious figure in her own right, presiding over the cult of the moon goddess Mama Quilla and overseeing the Acllawasi house of chosen women.",
+      "description": "The Coya (KOH-yah) was the Sapa Inca's principal wife — typically his full or half sister, to keep the divine bloodline undiluted — and a major religious figure in her own right. She presided over the cult of the moon goddess Mama Quilla and oversaw the acllawasi, the empire's houses of chosen women.",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Inca state was built on a paired-gender hierarchy that mirrored the cosmos: Sapa Inca and Coya, Inti (sun) and Mama Quilla (moon), day and night. Brother-sister royal marriages appeared in Pharaonic Egypt and among the Hellenistic Ptolemies for identical reasons — divine descent demanded the bloodline stay pure. The Coya participated in state ceremonies as the ritual female counterpart to the Sapa Inca's male role, not as a passive consort."
+        }
+      ]
     },
     {
       "id": "evt-panaca-mummies",
       "label": "Panaca and Royal Mummies",
       "year": 1450,
-      "description": "Each Sapa Inca founded a panaca — a corporate lineage of his descendants who maintained his mummified body, his estates, and his cult after death. The royal mummies were carried in procession at festivals, fed and consulted as if alive, and given a vote in dynastic decisions.",
+      "description": "When a Sapa Inca died, his body was embalmed and kept on a throne in his palace — fully dressed, attended by staff, and treated as alive. His corporate lineage of descendants (the panaca) maintained him, administered his estates, and spoke for him at court, including giving his vote in dynastic decisions.",
       "wikiSlug": "Panakas",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "On major festival days, the mummies of all past sapa incas were carried in procession to Cuzco's central plazas, propped on golden thrones, fed chicha, and consulted — so the living emperor sat surrounded by eight or nine leather-faced predecessors who 'voted' through their panaca representatives. The Spanish, grasping the political power of this ancestor cult, systematically hunted the mummies down in the 1550s. The chronicler Polo de Ondegardo located most of them in 1559 and had them shipped to Lima, where they were eventually destroyed; Pachacuti's mummy was hidden by his panaca and only found after an extended search."
+        }
+      ],
+      "commonsFile": "Cuzco_school_-_Genealogy_of_the_Incas_-_18th_century.jpg"
     },
     {
       "id": "evt-split-inheritance",
       "label": "Split Inheritance System",
       "year": 1450,
-      "description": "When a Sapa Inca died, his wealth and estates were not inherited by his successor. They went to his panaca, which kept them in the dead king's name. Each new emperor therefore had to conquer fresh territory to fund his own court — a structural pressure for endless imperial expansion.",
+      "description": "Under the Inca split-inheritance system, a new Sapa Inca inherited the imperial title and administrative machine — but not his predecessor's palaces, herds, gold, or estates. Those stayed with the dead king's panaca forever. Every new emperor had to build wealth from scratch, which in practice meant conquering new territory.",
       "wikiSlug": "Sapa_Inca",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This structural mechanic is the most convincing single explanation for why the Inca empire expanded so relentlessly for ninety years. It was not purely ideological zeal or military momentum — each new Sapa Inca faced a literal financial shortfall on day one of his reign. Conquest was the only way to fund a court on the scale expected of a living god. The system also meant that dead kings' estates could grow enormous: Huayna Capac's panaca, for instance, still controlled vast lands and herds decades after his death."
+        }
+      ]
     },
     {
       "id": "evt-capacocha",
       "label": "Capacocha Sacrifice",
       "year": 1480,
-      "description": "The Inca state ritual of sacrificing children — selected for physical perfection from across the empire, processed in elaborate ceremonies at Cuzco, then walked to mountain summits where they were given chicha and either strangled, struck, or left to freeze. Frozen mummies have been recovered from Llullaillaco and Ampato in nearly perfect condition.",
+      "description": "Capacocha (KAH-pah-KOH-chah) was the Inca state ritual of child sacrifice — performed at major imperial moments like the accession of a new Sapa Inca or a natural disaster. Children selected for physical perfection from across the empire were ceremonially processed through Cuzco, then walked to high mountain summits and sacrificed.",
       "wikiSlug": "Capacocha",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 1999 Llullaillaco expedition led by Johan Reinhard recovered three frozen children from the summit of Mount Llullaillaco (22,109 feet, on the Argentina-Chile border) — among the highest archaeological sites on earth and in near-perfect condition after roughly 500 years. Hair analysis showed the 'Llullaillaco Maiden,' about fifteen, had sharply increased coca and alcohol consumption in her final months, consistent with chronicle accounts of ritual preparation. Similar frozen mummies have been found on Mount Ampato ('Juanita,' 1995), Cerro El Plomo in Chile (1954), and Aconcagua (1985), confirming the system stretched the length of the empire."
+        }
+      ],
+      "commonsFile": "Llullaillaco_mummies_in_Salta_city,_Argentina.jpg"
     },
     {
       "id": "evt-wakas",
       "label": "Wak'a Shrines",
       "year": 1450,
-      "description": "The Andean concept of wak'a covered any place, object, person, or natural feature held sacred — a spring, a mountain, a peculiarly shaped stone, an ancestor mummy. The empire was a landscape of thousands of wak'as woven together by ritual obligation.",
+      "description": "In Andean religion, a wak'a (WAH-kah) was any place, object, or natural feature considered sacred — a spring, a mountain, a strangely shaped rock, an ancestor mummy, a battlefield. The empire was threaded with thousands of wak'as, each with its own offering schedule and the lineage responsible for maintaining it.",
       "wikiSlug": "Huaca",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Quechua understanding was that every object had a physical presence and two camaquen (spirits) — one to create it, one to animate it — which made almost anything potentially sacred given the right context or history. The imperial state cult of Inti was in some ways a thin overlay on this far older and more diffuse wak'a geography: the Inca did not replace local shrines, they organized them into the ceque system and assigned upkeep as a form of ritual tribute."
+        }
+      ],
+      "commonsFile": "Coricancha_museum_marker_describing_the_Inca_Wakas_and_Seqes_system.jpg"
     },
     {
       "id": "evt-ceque-system",
       "label": "Ceque System",
       "year": 1462,
-      "description": "Cuzco's sacred geography was organized into 41 ceque lines — invisible radial paths leading out from the Coricancha and connecting some 328 wak'as in a complex calendrical and tribute schedule. Each line was the responsibility of a specific Cuzco lineage.",
+      "description": "The sacred geography of Cuzco was mapped as 41 invisible ceque (SAY-keh) lines radiating outward from the Coricancha temple, each connecting a sequence of wak'a shrines. Each line was the maintenance responsibility of a specific Cuzco lineage — fusing calendar, tribute, religion, and lineage politics into one structure.",
       "wikiSlug": "Ceque_system",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 328 total wak'as along the ceque lines is tantalizingly close to 12 sidereal lunar months (12 × 27.3 = 327.6 days), suggesting the whole system may have functioned partly as a ritual calendar with each shrine keyed to a specific day. Our main source is the 1653 Historia del Nuevo Mundo by the Jesuit Bernabé Cobo, who preserved a painstaking catalogue of all 328 shrines compiled by the Spanish official Polo de Ondegardo in the 1550s from interviews with surviving Inca specialists — one of the most detailed surviving records of any pre-Columbian religious system."
+        }
+      ],
+      "commonsFile": "Coricancha_museum_marker_graphically_explaining_the_Inca_Wakas_and_Seqes_system.jpg"
     },
     {
       "id": "evt-inti-raymi",
       "label": "Inti Raymi",
       "year": 1450,
-      "description": "The annual June-solstice festival honoring Inti — the most important ceremony in the Inca calendar, drawing tens of thousands to the central plaza of Cuzco for nine days of feasting, dancing, and the ritual lighting of new fires.",
+      "description": "The June-solstice sun festival — the most important ceremony in the Inca calendar — drew tens of thousands of worshippers to Cuzco for nine days of feasting, dancing, llama sacrifice, and the ritual lighting of new fires kindled by sunlight focused through a polished concave gold mirror.",
       "wikiSlug": "Inti_Raymi",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The festival was held at the winter solstice for the southern hemisphere — the moment when the sun was at its weakest and furthest away, making the ritual urgency to call it back genuinely felt. It took place in Huacaypata (now Plaza de Armas), Cuzco's main ceremonial square. Inti Raymi was suppressed by Spanish colonial authorities but revived in 1944 and is now performed every June 24 in Cuzco as a major tourist event, drawing crowds rivaling the original."
+        }
+      ],
+      "commonsFile": "Inti_Raymi.jpg"
     },
     {
       "id": "evt-acllawasi",
       "label": "Acllawasi and Chosen Women",
       "year": 1460,
-      "description": "Across every provincial capital, a state-run institution called the acllawasi housed selected young women — the aclla, 'chosen ones' — who wove fine cumbi cloth, prepared chicha for state ceremonies, and were assigned as wives to high officials or as sacrifices.",
+      "description": "The acllawasi (\"house of chosen women\") was a state institution present at every provincial capital, where girls selected around age ten — the aclla, or \"chosen ones\" — were housed and trained to weave cumbi cloth, brew ceremonial chicha beer, and serve the empire through labor, diplomatic marriage, or sacrifice.",
       "wikiSlug": "Aclla",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Selection was drawn from the most capable daughters of provincial elite families; being chosen was simultaneously an honor and a permanent removal from ordinary life. Some aclla were eventually given as wives to officials who had distinguished themselves in state service — a form of political reward the Sapa Inca controlled directly. Others lived out their lives weaving. The most \"perfect\" were selected for capacocha sacrifice at major religious events. There were thousands of aclla across the empire at any one time, making the acllawasi system the largest state-controlled female labor institution in the pre-Columbian Americas."
+        }
+      ],
+      "commonsFile": "Acllacuna.jpg"
     },
     {
       "id": "evt-cumbi-textiles",
       "label": "Cumbi Cloth",
       "year": 1470,
-      "description": "The finest grade of Inca textile, woven by the aclla from vicuña wool and dyed cotton, with thread counts that approached 250 per inch — finer than most modern industrial cloth. Cumbi was the highest-status diplomatic gift in the empire.",
+      "description": "Cumbi was the finest Inca cloth — woven by specialist women from vicuña and alpaca wool, with thread counts approaching 250 per inch — and it functioned as the empire's closest equivalent to currency: the standard diplomatic gift, state reward, and tribute payment.",
       "wikiSlug": "Cumbi",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "For scale: modern industrial shirt fabric runs about 40 to 80 threads per inch, making cumbi three to six times finer than cloth you'd buy today. Because the empire had no coined money, a cumbi tunic was a unit of value — each piece individually produced over months of skilled labor, accumulating worth through quality rather than a fixed denomination. Cumbi was also the standard offering burned at major religious ceremonies, meaning the empire literally set fire to part of its \"money supply\" as a regular act of statecraft."
+        }
+      ],
+      "commonsFile": "All-tocapu-sin-BV.png"
     },
     {
       "id": "evt-mortarless-masonry",
       "label": "Mortarless Polygonal Masonry",
       "year": 1450,
-      "description": "Inca stoneworkers cut and fitted irregular polygonal blocks so precisely that no mortar was needed. The walls have survived five centuries of major earthquakes that have flattened later Spanish constructions built on top of them.",
+      "description": "The defining feature of Inca construction: stone blocks cut to fit each other so exactly that no mortar is needed, with irregular polygonal faces individually shaped so every block locks against its neighbors. Inca walls have outlasted the Spanish buildings erected on top of them through five centuries of Andean earthquakes.",
       "wikiSlug": "Inca_architecture",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Inca inherited their architectural ambition partly from Tiwanaku, a civilization centered in present-day Bolivia that had been building monumental stone structures since around 200 BCE, roughly 1,200 years before the Inca empire rose. Modern surveys of the tightest Inca joints show fits at millimeter precision — achieved with bronze chisels and stone hammers, not iron. The technique was transmitted through hereditary stonework guilds in Cuzco; when the Spanish conquest dispersed those guilds, the knowledge was lost and has never been fully reconstructed."
+        }
+      ],
+      "commonsFile": "CuscoPiedra12angulo.jpg"
     },
     {
       "id": "evt-trapezoidal-style",
       "label": "Trapezoidal Doors and Niches",
       "year": 1450,
-      "description": "The signature visual marker of Inca building — every door, window, and wall niche has a trapezoidal shape, narrower at the top than the bottom. The form is structurally more stable in earthquakes than a rectangular opening and is recognizable on sight wherever the Inca built.",
+      "description": "Every door, window, and wall niche in Inca construction narrows toward the top — the trapezoidal form that serves as the visual signature of Inca building anywhere in the Andes. The shape distributes earthquake force more efficiently than a rectangular opening and was used nowhere in pre-Inca construction.",
       "wikiSlug": "Inca_architecture",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most famous single example of Inca polygonal precision is the Twelve-Angled Stone on the Hatunrumiyoc street in Cuzco — one block with twelve external faces, each fitted against a different neighbor block, now one of the most photographed stones in South America. Inca builders used three tiers of construction quality depending on a building's status: finest polygonal masonry for sacred and imperial buildings, coursed rectangular masonry for secondary administrative buildings, and rough fieldstone with mud mortar for ordinary residences — so the social hierarchy of any Inca settlement is literally readable in the walls."
+        }
+      ],
+      "commonsFile": "Inca_wall_1_-_Coricancha_Peru.jpg"
     },
     {
       "id": "evt-stone-moving",
       "label": "How Stones Were Moved",
       "year": 1450,
-      "description": "The Inca had no wheels, no draft animals other than the llama, and no iron tools. Modern experimental archaeology, including work by Vince Lee, has shown the great Sacsayhuaman blocks were almost certainly moved by gangs of hundreds of laborers using log rollers, ramps of packed earth, and rope teams.",
+      "description": "The Inca had no iron tools, no wheels, and no draft animals heavier than a llama — yet they moved individual stones weighing up to 200 tons across miles of Andean terrain. Modern experimental archaeology has confirmed the method: large gangs of mit'a laborers, log rollers, packed-earth ramps, and rope teams.",
       "wikiSlug": "Inca_architecture",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "After arrival at the building site, each block was shaped by iterative trial-fitting — raised into position, marked where it touched neighboring stones, lowered back down, high spots chipped away with bronze chisels and heavy stone hammers, then raised again to check the fit. By chronicle accounts, fitting a single major block could take weeks. The hereditary stonework guilds that held this knowledge were dispersed by the conquest; because the technique was transmitted entirely through master-apprentice training with no written documentation, it was effectively lost within a generation of 1532."
+        }
+      ],
+      "commonsFile": "Casa_de_Sayri_Túpac_(Interior).jpg"
     },
     {
       "id": "evt-andene-terraces",
       "label": "Agricultural Terraces",
       "year": 1450,
-      "description": "Tens of thousands of stone-faced terraces, called andenes, climbing the steep slopes of the central Andes. The terraces multiplied arable land, prevented erosion, and created microclimates suitable for crops at altitudes where they would otherwise have failed.",
+      "description": "Tens of thousands of stone-faced terraces called andenes (an-DAY-nes) stepping up the steep Andean hillsides — one of the largest feats of agricultural engineering in the pre-Columbian Americas. The terraces created flat planting surfaces, slowed erosion, and trapped warm air and moisture to extend growing seasons at high altitude.",
       "wikiSlug": "Andenes",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Inca engineers filled the terraces in layers: drainage rubble at the bottom, coarse gravel above, then a layer of fine gravel, and topsoil on top — a drainage stack that prevented waterlogging and protected roots from frost. Some terraces in the Sacred Valley were deliberately oriented to face afternoon sunlight, raising local temperatures enough to grow maize at elevations where it would otherwise be too cold. Estimates suggest the Inca had terraced roughly a million acres across the Andes at the empire's peak; much of this land went unfarmed after the conquest and is only now being slowly restored."
+        }
+      ]
     },
     {
       "id": "evt-moray-laboratory",
       "label": "Moray Agricultural Site",
       "year": 1460,
-      "description": "Concentric circular terraces sunk into a natural bowl in the Sacred Valley, with a temperature differential of up to 27°F (15°C) between the top ring and the bottom. Most archaeologists read it as an experimental station for adapting crops to different altitudes.",
+      "description": "A series of concentric circular terraces sunk into a natural bowl on the high plateau above the Sacred Valley, with a temperature difference of up to 27°F (15°C) between the exposed outer rings and the sheltered bottom. The leading interpretation is that it served as an experimental station for testing crops across a range of artificial microclimates.",
       "wikiSlug": "Moray_(Inca_ruin)",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The bottom of the main depression at Moray sits about 30 meters (98 feet) below the rim, and the temperature gradient across the rings mimics the natural gradient across roughly 1,500 meters (about 5,000 feet) of elevation change — meaning the Inca could simulate planting conditions from the high altiplano down to the warm Urubamba valley floor within a single circular structure. The site has its own irrigation system drawing from a higher-altitude source, suggesting it was carefully maintained as a working installation rather than purely a ceremonial feature. Moray would be the only known example of state-organized agricultural experimentation in the pre-Columbian Americas, though the ceremonial interpretation remains a live alternative."
+        }
+      ],
+      "commonsFile": "Peru_-_Sacred_Valley_&_Incan_Ruins_279_-_Moray_(8118174960).jpg"
     },
     {
       "id": "evt-pisac",
       "label": "Pisac Royal Estate",
       "year": 1450,
-      "description": "A royal estate of Pachacuti high above the Sacred Valley, with massive terraces, an observatory, an Intihuatana stone, and a residential complex for the panaca that maintained his estate after death.",
+      "description": "Pachacuti's royal estate perched on a ridge 20 miles north of Cuzco in the Sacred Valley, with sweeping stone-faced agricultural terraces, an Intihuatana (a carved ritual rock aligned to astronomical events), and a residential complex maintained by the panaca (royal household) long after the emperor's death.",
       "wikiSlug": "Písac",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Intihuatana stone at Pisac is one of the few that survived intact — the Spanish systematically destroyed these carved outcrops at other major sites because they recognized them as religious objects. The irrigation channels at Pisac, cut through the stone terraces to water crops at elevation, still carry water today, more than five centuries after construction. Pisac also served as a secondary administrative center controlling access to the Sacred Valley from the east, so the site combines the functions of royal estate, ceremonial center, and military checkpoint."
+        }
+      ],
+      "commonsFile": "Pisac_-_panoramio_(2).jpg"
     },
     {
       "id": "evt-ollantaytambo",
       "label": "Ollantaytambo",
       "year": 1480,
-      "description": "Royal estate and fortress in the Sacred Valley, with terraces stepping up the hillside to a Sun Temple of pink granite blocks weighing up to 50 tons, quarried from a site six miles away across a river and a thousand feet lower in elevation.",
+      "description": "A royal estate and fortress at the lower end of the Sacred Valley, 45 miles by road northwest of Cuzco, best known for its Sun Temple — six massive pink granite blocks standing in a row at the top of the terraces, each weighing 50 to 90 tons, hauled from a quarry six miles away across a river and a thousand feet lower in elevation.",
       "wikiSlug": "Ollantaytambo",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When the Spanish arrived in 1533, construction at Ollantaytambo was still ongoing — unfinished sections frozen mid-project are visible today, giving archaeologists a rare look at the Inca building process mid-stride. After the fall of Cuzco, the Inca resistance leader Manco Inca used Ollantaytambo as a stronghold and in 1537 inflicted one of the few military defeats on the Spanish there, using the terraces as a defensive position and flooding the plain below by redirecting the river. The pink granite used in the Sun Temple is a different stone from the grey andesite used in the rest of the complex, suggesting the top tier of the temple was treated as a special sacred project."
+        }
+      ],
+      "commonsFile": "Ollantaytambo_-_Heiliges_Tal.jpg"
     },
     {
       "id": "evt-trepanation",
@@ -601,315 +921,504 @@
       "id": "evt-conquest-chimor",
       "label": "Conquest of Chimor",
       "year": 1470,
-      "description": "Topa Inca Yupanqui completed the conquest of the Chimu kingdom on the north coast around 1470, after a long campaign of cutting off the irrigation canals that fed Chan Chan. The captive Chimu metallurgists were resettled at Cuzco and dramatically improved Inca goldworking.",
+      "description": "The Inca conquest of Chimor (the Chimu kingdom on Peru's north coast) around 1470 was won not by assault but by cutting the irrigation canals feeding Chan Chan — starving the driest coastal city in the Americas into surrender.",
       "wikiSlug": "Chimor",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chimor was the largest kingdom in the Late Intermediate Period, stretching about 620 miles (1,000 km) of Pacific coastline. The Chimu king Minchançaman was taken to Cuzco as an honored hostage — a deliberate Inca policy of prestige captivity rather than execution, keeping conquered elites cooperative. Chimor had itself grown by absorbing earlier coastal polities including the remnants of Moche culture, making the Inca absorption of Chimor a kind of third-generation imperial succession on the Peruvian coast."
+        }
+      ]
     },
     {
       "id": "evt-topa-inca",
       "label": "Topa Inca Yupanqui",
       "year": 1471,
       "endYear": 1493,
-      "description": "Tenth Sapa Inca, son of Pachacuti. Under his reign the empire reached its full north-south extent: he completed the conquest of Chimor, pushed south through the Atacama into central Chile to the Maule River, and campaigned north into Ecuador.",
+      "description": "The tenth Sapa Inca (supreme ruler), Topa Inca Yupanqui ruled 1471–1493 and drove the empire to its maximum extent — south to the Maule River in central Chile, north into Ecuador, and east to the edge of the Amazon.",
       "wikiSlug": "Topa_Inca_Yupanqui",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Topa belonged to the Qhapaq Panaca (royal descent group), and his principal queen was his older sister Mama Ocllo — royal sibling marriage was the Inca norm, keeping divine blood undiluted. He is credited in Inca oral tradition with a legendary Pacific voyage westward on balsa-wood rafts, supposedly reaching islands his people called Avachumbi and Ninachumbi — a story tantalizing enough that Thor Heyerdahl later cited it in defense of his Kon-Tiki theory."
+        }
+      ],
+      "commonsFile": "Tupac-inca-yupanqui-small.png"
     },
     {
       "id": "evt-chimu-metallurgy",
       "label": "Chimu Metallurgists Absorbed",
       "year": 1472,
-      "description": "After the fall of Chan Chan, the Inca relocated the Chimu goldsmiths and silversmiths to Cuzco. Their lost-wax casting and copper-arsenic bronze techniques transformed Inca metalwork — the gold sheets that lined the Coricancha date largely from this period.",
+      "description": "After conquering Chimor, Topa Inca forcibly relocated hundreds of Chimu master goldsmiths and silversmiths to Cuzco — importing their lost-wax casting and copper-arsenic bronze technology, which was far more refined than anything the highland Inca had developed on their own.",
       "wikiSlug": "Chimor",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The gold sheets that sheathed the walls of the Coricancha (Cuzco's great Sun Temple) are largely products of this transplanted Chimu workforce, not indigenous highland craft. The Chimu coastal tradition had roots going back to the earlier Moche culture, giving it centuries of accumulated metalworking refinement. This pattern — conquer, preserve the productive infrastructure, transplant the best artisans to Cuzco — was a deliberate and repeating feature of Inca imperial strategy, not an improvised afterthought."
+        }
+      ],
+      "commonsFile": "Atuendoritualchimumuseolarco.jpg"
     },
     {
       "id": "evt-maule-river-frontier",
       "label": "Maule River Frontier",
       "year": 1485,
-      "description": "Topa Inca Yupanqui's southern campaign reached the Maule River in central Chile around 1485 before being checked by the fierce Mapuche resistance. The Maule remained the empire's southern frontier for the rest of its independent history.",
+      "description": "The Inca southern advance halted at the Maule River in central Chile around 1485, where Mapuche (mah-POO-cheh) resistance proved too costly to overcome — making the Maule the empire's permanent southern border.",
       "wikiSlug": "Maule_River",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mapuche were not a unified state but a loose confederation of mobile groups in the temperate forest south of the Maule, making them nearly impossible to defeat with the Inca's standard frontier strategy of defeating a central authority and then administering its people. Their reputation for resistance outlasted the Inca: they then fought a three-century war against Spanish colonization that wasn't fully suppressed until the 1880s, making them one of the longest-resisting indigenous peoples in the Americas."
+        }
+      ],
+      "commonsFile": "Rio_Maule_aerial1.jpg"
     },
     {
       "id": "evt-huayna-capac",
       "label": "Huayna Capac",
       "year": 1493,
       "endYear": 1527,
-      "description": "Eleventh Sapa Inca, son of Topa Inca Yupanqui. Brought the empire to its greatest extent, fought a long northern campaign against the Caranqui in Ecuador, and built a second capital at Tumipampa in modern Cuenca. Died of smallpox around 1527, before any Spaniard had reached the Andes.",
+      "description": "The eleventh Sapa Inca, Huayna Capac (meaning 'young chieftain') ruled 1493–1527, completing the conquest of Ecuador, building a second capital at Tumipampa, and dying — most likely of smallpox — before any Spaniard ever saw the Andes.",
       "wikiSlug": "Huayna_Capac",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Huayna Capac was born in Tumipampa, which may explain his deep attachment to the northern territories over Cuzco. He died suddenly around 1527 during what chronicles describe as a devastating epidemic moving inland ahead of European contact on the coast — making him arguably the first Inca ruler killed by the conquest, even before it formally began. His simultaneous death alongside his designated heir Ninan Cuyochi left the succession dangerously open."
+        }
+      ],
+      "commonsFile": "Hp_inka11.jpg"
     },
     {
       "id": "evt-tumipampa-capital",
       "label": "Tumipampa as Second Capital",
       "year": 1500,
-      "description": "Huayna Capac built Tumipampa, near modern Cuenca in southern Ecuador, as a second imperial capital and his preferred residence. The empire's center of gravity was shifting north, which would matter when the empire split between Cuzco and Quito a generation later.",
+      "description": "Huayna Capac built Tumipampa (modern Cuenca, Ecuador) as a second imperial capital laid out on the same template as Cuzco — central plaza, Sun Temple, puma-shaped plan — and spent the last twenty years of his reign there instead of in the highland heartland.",
       "wikiSlug": "Tomebamba",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tumipampa was largely destroyed during the civil war between Huáscar and Atahualpa that erupted after Huayna Capac's death, so relatively little survives. The Spanish city of Cuenca was built directly on top of its ruins, though the Inca-era archaeological sites of Pumapunku and Todos Santos are still partially visible. By spending decades in the north, Huayna Capac effectively built a second power base with separate administrative loyalties — the geographic fault line that made the later north-vs-south civil war almost structurally inevitable."
+        }
+      ],
+      "commonsFile": "Cuenca_Los_Molinos_1.jpg"
     },
     {
       "id": "evt-caranqui-conquest",
       "label": "Conquest of the Caranqui",
       "year": 1515,
-      "description": "Huayna Capac's long war against the Caranqui and Cayambi peoples of northern Ecuador ended around 1515 with a massacre at Lake Yahuarcocha — 'lake of blood' — where thousands of captured warriors were killed and thrown into the water.",
+      "description": "Huayna Capac's bloodiest campaign ended around 1515 at Lake Yahuarcocha ('lake of blood') near modern Ibarra, Ecuador, where a final defeat of the Caranqui people reportedly ended with thousands of captured warriors executed and thrown into the lake.",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Caranqui-Cayambi resistance lasted roughly two decades, forcing the Inca into costly mountain sieges rather than open-field battles — the kind of war the Inca army was least suited for. Modern scholars debate whether the Yahuarcocha massacre happened at the scale the chronicles describe, but the lake's name has stuck to the present day and is treated locally as historical memory. The campaign's conclusion brought the empire to its maximum northern limit at the Ancasmayo River on the present-day Colombia-Ecuador border."
+        }
+      ],
+      "commonsFile": "Yahuarcocha2.JPG"
     },
     {
       "id": "evt-smallpox-1524",
       "label": "Andean Smallpox Epidemic",
       "year": 1524,
       "endYear": 1527,
-      "description": "Smallpox, introduced to the Caribbean by Spanish ships in 1518, raced through the Americas faster than the Spanish themselves. The pandemic reached the Inca empire through trade contacts no later than 1524 and killed millions, including the emperor.",
+      "description": "Smallpox reached the Andes through trade contacts no later than 1524 — a full eight years before Pizarro's ships arrived — killing perhaps a third to half of the empire's population in a catastrophic 'virgin-soil' epidemic where no one had any immunity whatsoever.",
       "wikiSlug": "Smallpox",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Smallpox spreads by respiratory transmission and has roughly a two-week incubation period during which infected people are contagious but show no symptoms, making quarantine almost impossible without modern public-health infrastructure. The disease had been eradicated from the Caribbean (via Spanish ships) only to the mainland a few years before reaching the Andes — the same outbreak that destroyed central Mexico was, epidemiologically, still moving south. Smallpox was ultimately declared globally eradicated in 1980, the only human disease ever fully wiped out."
+        }
+      ],
+      "commonsFile": "Child_with_Smallpox_Bangladesh.jpg"
     },
     {
       "id": "evt-huayna-capac-dies",
       "label": "Death of Huayna Capac",
       "year": 1527,
-      "description": "Huayna Capac and his designated heir Ninan Cuyochi both died of smallpox at Tumipampa around 1527, leaving no clear successor. The standard estimate is that the smallpox epidemic killed perhaps half the population of the central Andes.",
+      "description": "Huayna Capac, the eleventh Sapa Inca (supreme emperor) at the height of the empire's power, died of smallpox around 1527 at his northern capital of Tumipampa — and his designated heir Ninan Cuyochi died of the same disease within days, leaving the throne with no clear successor.",
       "wikiSlug": "Huayna_Capac",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Huayna Capac had spent roughly the last twenty years of his reign based in the far north at Tumipampa (in present-day Ecuador) rather than in Cuzco, which shifted the empire's political center of gravity northward and seeded the factional split that became the civil war. He had expanded the empire to its greatest extent, inheriting it from his father Túpac Inca Yupanqui and adding large swaths of what is now Ecuador and northern Peru. Chronicle estimates of the year of his death range from 1524 to 1528; most modern reconstructions settle on 1527."
+        }
+      ]
     },
     {
       "id": "evt-civil-war",
       "label": "Inca Civil War",
       "year": 1529,
       "endYear": 1532,
-      "description": "Two of Huayna Capac's surviving sons, Atahualpa in the north and Huascar in Cuzco, fought a brutal three-year civil war for the throne. Atahualpa's army defeated Huascar's at the Battle of Quipaipan in early 1532, just months before Pizarro arrived on the coast.",
+      "description": "After Huayna Capac's death with no clear heir, his sons Huascar (in Cuzco) and Atahualpa (in the north) fought a brutal three-year war for the throne — the 'War of the Two Brothers' — that Atahualpa's battle-hardened generals won decisively at Quipaipan in early 1532, just months before Pizarro landed.",
       "wikiSlug": "Inca_Civil_War",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Atahualpa never commanded his armies in person during most of the war — he delegated to veteran generals Quizquiz, Chalcuchimac, and Rumiñahui, all hardened by decades of the Caranqui-Cayambi campaigns in the north. After his victory, Atahualpa ordered the systematic execution of Huascar's supporting noble families (the panaca clans descended from past emperors who had backed his rival), effectively decapitating the Cuzco political elite before Pizarro arrived. Modern estimates put military deaths at roughly 100,000 across three years, on top of the millions already lost to smallpox."
+        }
+      ],
+      "commonsFile": "John_Harris_Valda_-_Huscar_and_Atahualpa_fighting_over_the_Inca_Empire.jpg"
     },
     {
       "id": "evt-huascar",
       "label": "Huascar",
       "year": 1527,
       "endYear": 1532,
-      "description": "Huayna Capac's son in Cuzco, briefly the twelfth Sapa Inca after his father's death. Defeated and captured by his half-brother Atahualpa's generals at Quipaipan in early 1532, then murdered later that year on Atahualpa's orders while in captivity.",
+      "description": "Huascar was the Cuzco-based son of Huayna Capac who claimed the throne on his father's death and ruled briefly as the twelfth Sapa Inca (supreme emperor), before his army was crushed by his half-brother Atahualpa's generals in 1532 and he was taken prisoner.",
       "wikiSlug": "Huáscar",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Huascar was kept alive in captivity for months after his defeat — Atahualpa left him alive long enough to use as a bargaining chip, but ordered him killed in 1532 when word arrived that Pizarro had captured Atahualpa himself at Cajamarca, apparently fearing Huascar would be used against him. His wikiExtract confirms he succeeded both his father and his brother Ninan Cuyochi, both of whom died of smallpox in the same year."
+        }
+      ],
+      "commonsFile": "Portrait_de_Huascar_sapa_Inca.png"
     },
     {
       "id": "evt-atahualpa",
       "label": "Atahualpa",
       "year": 1532,
       "endYear": 1533,
-      "description": "Huayna Capac's son in the north, victor of the civil war and the last sovereign Sapa Inca. Captured by Pizarro at Cajamarca months after defeating Huascar, paid the largest ransom in history, and was strangled by the Spanish in July 1533.",
+      "description": "Atahualpa was Huayna Capac's northern-born son who won the civil war and became the last sovereign Sapa Inca — only to be captured by Francisco Pizarro at Cajamarca in November 1532, pay the largest ransom in history (a roomful of gold and silver), and be executed by strangling in July 1533.",
       "wikiSlug": "Atahualpa",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Atahualpa had survived the smallpox epidemic that killed his father and designated heir, giving him a crucial survival edge at the northern court. His formal regnal name was Caccha Pachacuti Inca Yupanqui; he reigned only about fifteen months in total before his execution. At Cajamarca, the ransom he offered — filling a room roughly 22 feet long and 17 feet wide with gold to a height of 8 feet, plus a smaller room filled twice with silver — was paid in full, but Pizarro executed him anyway on charges of plotting rebellion."
+        }
+      ],
+      "commonsFile": "Atabalipa_Roy_Du_Peru_(s._XVII),_óleo_sobre_lienzo._Anónimo.jpg"
     },
     {
       "id": "evt-pizarro-arrives",
       "label": "Pizarro Reaches Peru",
       "year": 1532,
-      "description": "Francisco Pizarro landed at Tumbes on the north Peruvian coast in May 1532 with 168 men, 62 of them mounted, and marched inland to confront the new emperor. He was 54 years old and had been preparing this expedition for nearly a decade.",
+      "description": "In May 1532, Francisco Pizarro landed on the north Peruvian coast at Tumbes with 168 men — 62 mounted, the rest infantry — and began the march inland that would bring down an empire of twelve million people.",
       "wikiSlug": "Francisco_Pizarro",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pizarro had crossed the Isthmus of Panama with Balboa in 1513 and led two earlier exploratory probes down South America's Pacific coast before this final expedition. He was illiterate his entire life, yet negotiated a royal capitulation from the Spanish crown in 1528–29 that gave him personal rights to conquer Peru. His entire assault force was smaller than a typical small Andean village."
+        }
+      ],
+      "commonsFile": "Portrait_of_Francisco_Pizarro.jpg"
     },
     {
       "id": "evt-cajamarca-ambush",
       "label": "Battle of Cajamarca",
       "year": 1532,
-      "description": "On 16 November 1532, Pizarro's 168 conquistadors ambushed Atahualpa in the central plaza of Cajamarca after inviting him to a parley. Within hours they had killed several thousand unarmed Inca attendants, captured the emperor, and effectively decapitated the empire.",
+      "description": "On November 16, 1532, Pizarro's 168 men ambushed Inca Emperor Atahualpa in the central plaza of Cajamarca, killing thousands of his unarmed ceremonial attendants in roughly an hour and capturing the emperor without a single Spanish fatality.",
       "wikiSlug": "Battle_of_Cajamarca",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Atahualpa arrived in the plaza on a litter carried by 80 high-ranking nobles accompanied by thousands of ceremonial attendants — most unarmed, dressed for a formal parley, not battle. The trigger for the attack was a disputed moment when Atahualpa examined a Bible handed to him by the priest Valverde, found it meaningless (he could not read), and dropped or threw it down. Every Spanish chronicle agrees the Spanish casualties that day were zero killed."
+        }
+      ],
+      "commonsFile": "La_Captura_de_Atahualpa_-_Juan_Lepiani_1920s.png"
     },
     {
       "id": "evt-atahualpa-ransom",
       "label": "Atahualpa's Ransom",
       "year": 1533,
-      "description": "Atahualpa offered to fill a 22-by-17-foot room with gold once and twice over with silver in exchange for his release. The ransom was paid — approximately 13,000 pounds of gold and 26,000 pounds of silver — and Pizarro had him executed anyway in July 1533.",
+      "description": "Held captive at Cajamarca, Atahualpa offered to fill a room roughly 22 by 17 feet with gold up to a marked line, and fill it twice over with silver — the largest ransom demand in recorded history. Pizarro accepted, collected every ounce, and had Atahualpa executed anyway on July 26, 1533.",
       "wikiSlug": "Ransom_Room",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Atahualpa sent quipu messages to imperial officials across the empire ordering them to strip the Coricancha, provincial sun temples, and the imperial treasury. The resulting llama caravans delivered somewhere between 13,000 and 24,000 pounds of gold alongside tens of thousands of pounds of silver — all inventoried by Spanish notaries before being melted into ingots. The inventory records still survive in the Seville archives. Almost no Inca gold objects exist today in their original form because virtually all of them were melted down between November 1532 and July 1533."
+        }
+      ],
+      "commonsFile": "Cajamarca_cuarto_del_rescate.jpg"
     },
     {
       "id": "evt-cuzco-falls",
       "label": "Spanish Take Cuzco",
       "year": 1533,
-      "description": "Pizarro's forces entered Cuzco in November 1533 with little resistance and looted the Coricancha down to the bare stone, melting an estimated several tons of worked gold and silver into ingots. The Sapa Inca cult artifacts were almost entirely destroyed.",
+      "description": "Pizarro's forces entered Cuzco in November 1533, exactly one year after Cajamarca, and systematically looted the city — stripping the Coricancha gold sheathing to bare stone, ransacking the royal palaces, and melting virtually the entire artistic wealth of the Inca capital into ingots.",
       "wikiSlug": "Spanish_conquest_of_the_Inca_Empire",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Coricancha (the empire's greatest temple) was handed over to the Dominican order, which built its monastery of Santo Domingo directly on top of the Inca foundation walls — those walls are still visible today. The royal mummies of previous Sapa Incas were seized and eventually shipped to Lima for display. Pizarro's conquest of Cuzco triggered spin-off campaigns into present-day Chile, Colombia, and the Amazon basin."
+        }
+      ]
     },
     {
       "id": "evt-manco-inca",
       "label": "Manco Inca Yupanqui",
       "year": 1533,
       "endYear": 1544,
-      "description": "Puppet Sapa Inca installed by Pizarro after Atahualpa's death. Escaped Spanish supervision in 1536 and led a massive revolt against the conquerors, before retreating to the jungle stronghold of Vilcabamba and founding the neo-Inca state.",
+      "description": "Pizarro installed the teenage half-brother of Atahualpa, Manco Inca Yupanqui, as a puppet Sapa Inca in late 1533 — but Manco escaped Spanish humiliation in 1536, raised a massive army, and launched the largest Inca counterattack of the conquest before retreating into the jungle to found the neo-Inca state.",
       "wikiSlug": "Manco_Inca_Yupanqui",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Manco was around nineteen years old at his installation and had survived the civil war between Huascar and Atahualpa, making him one of the few legitimist heirs left alive. He was also known as Manco Cápac II and Manco II. After the siege of Cuzco failed, he won a notable battlefield victory over Spanish cavalry at Ollantaytambo by flooding the terraces to bog down the horses — one of the rare Inca tactical wins of the entire conflict."
+        }
+      ],
+      "commonsFile": "SAHUARAURA_p108_MANCO_INCA.jpg"
     },
     {
       "id": "evt-siege-cuzco-1536",
       "label": "Siege of Cuzco",
       "year": 1536,
       "endYear": 1537,
-      "description": "Manco Inca raised an army of perhaps 100,000 warriors and besieged the few hundred Spaniards in Cuzco for ten months in 1536–37. The Spanish broke the siege at Sacsayhuaman after Manco's army had to disperse for the planting season, a strategic limitation of mit'a-based mobilization.",
+      "description": "In May 1536, Manco Inca surrounded Cuzco with an army estimated at 100,000 warriors and laid siege to roughly 200 Spanish defenders for ten months — burning much of the city and nearly driving the Spanish out before the mit'a mobilization system's own agricultural calendar forced his army to disperse.",
       "wikiSlug": "Siege_of_Cusco",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Manco's forces occupied the great fortress of Sacsayhuaman above the city, which the Spanish had not yet fortified, and used it to rain projectiles and fire down on the defenders. The Spanish retook Sacsayhuaman in a desperate cavalry charge in May 1536 during which Francisco Pizarro's brother Juan Pizarro was killed — one of the Spanish conquest's most costly single engagements. The siege was held by a garrison under Hernando Pizarro, not Francisco himself, who was on the coast at the time."
+        }
+      ],
+      "commonsFile": "POMA0402v.jpg"
     },
     {
       "id": "evt-vilcabamba",
       "label": "Neo-Inca State at Vilcabamba",
       "year": 1539,
       "endYear": 1572,
-      "description": "After failing to retake Cuzco, Manco Inca retreated into the cloud forest northwest of the Sacred Valley and founded a small Inca successor state at Vilcabamba that lasted thirty-six years, ruled by Manco and his sons Sayri Tupac, Titu Cusi Yupanqui, and finally Tupac Amaru.",
+      "description": "After the siege of Cuzco collapsed, Manco Inca retreated into the cloud forest northwest of the Sacred Valley and established the neo-Inca State at Vilcabamba — a small but sovereign Inca successor state that held out for thirty-six years under four rulers.",
       "wikiSlug": "Neo-Inca_State",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The state lasted from 1537 to 1572 through four successive rulers: Manco (assassinated 1544 by Spanish renegades he had sheltered), Sayri Tupac (negotiated a partial settlement, died young on a Spanish-controlled estate), Titu Cusi Yupanqui (dictated a chronicle defending the Inca position to Spanish negotiators), and finally Tupac Amaru. It was considered a rump state of the Inca Empire and maintained enough legitimacy that the Spanish felt compelled to destroy it militarily rather than simply ignore it."
+        }
+      ]
     },
     {
       "id": "evt-tupac-amaru-i",
       "label": "Tupac Amaru I Executed",
       "year": 1572,
-      "description": "The last Sapa Inca was captured at Vilcabamba and publicly beheaded in the central plaza of Cuzco on the orders of Viceroy Francisco de Toledo on 24 September 1572, ending nearly four centuries of Inca rule.",
+      "description": "On September 24, 1572, Viceroy Francisco de Toledo had the last Sapa Inca, Tupac Amaru, publicly beheaded in Cuzco's central plaza — the same square where Pachacuti had been crowned and Atahualpa's ransom had been delivered — ending the Inca Empire as a political entity.",
       "wikiSlug": "Túpac_Amaru",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tupac Amaru was captured after a months-long military pursuit through the jungle following the Spanish assault on Vilcabamba. Tens of thousands of indigenous and Spanish spectators reportedly watched the execution. Tupac Amaru reportedly addressed the crowd before dying, asking them to maintain their loyalty to Christ — a moment Spanish officials recorded and circulated as proof of the empire's legitimacy. His name became a charged political symbol that would be invoked across the Andes for centuries afterward."
+        }
+      ],
+      "commonsFile": "TupacamaruI.JPG"
     },
     {
       "id": "evt-cieza-de-leon",
       "label": "Pedro Cieza de León",
       "year": 1547,
       "endYear": 1554,
-      "description": "Spanish soldier-chronicler whose Crónica del Perú, written in the late 1540s and published from 1553, is the most reliable early eyewitness account of Inca infrastructure, the road system, and provincial administration. He interviewed surviving quipucamayocs to reconstruct dynastic history.",
+      "description": "Pedro Cieza de León (1520–1554) was a Spanish soldier-turned-chronicler who spent the late 1540s walking the Inca road system interviewing surviving quipucamayocs (quipu specialists) — his Crónica del Perú is still considered the most reliable eyewitness account of how the empire actually functioned.",
       "wikiSlug": "Pedro_Cieza_de_León",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cieza died at just thirty-four, and only the first part of his four-part chronicle was published in his lifetime; major sections remained in Spanish archives until the nineteenth and early twentieth centuries. He is described as 'fundamental to an understanding of Inca history' because unlike later writers he was interested in infrastructure and organization, not just conquest heroics. His account is consistently preferred by modern scholars over the more polished but more agenda-driven Garcilaso de la Vega."
+        }
+      ],
+      "commonsFile": "Cronicadelperu.jpg"
     },
     {
       "id": "evt-garcilaso-vega",
       "label": "Inca Garcilaso de la Vega",
       "year": 1609,
-      "description": "Mestizo chronicler born in Cuzco in 1539 to a Spanish captain and an Inca princess. His Comentarios Reales de los Incas (1609) is the most influential single account of Inca civilization, drawing on his mother's family memories. Modern scholars treat it as part history and part dynastic propaganda.",
+      "description": "Inca Garcilaso de la Vega (1539–1616), born in Cuzco to a Spanish captain and an Inca princess, wrote the Comentarios Reales de los Incas (1609) — the most influential account of the Inca world in the Western tradition, part history and part proud defense of his mother's civilization.",
       "wikiSlug": "Inca_Garcilaso_de_la_Vega",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was born Gómez Suárez de Figueroa and didn't adopt the name 'Inca Garcilaso' until adulthood — the name itself was a public claim of dual heritage. He left Peru at twenty-one and never returned, writing his great chronicle entirely from Spain using childhood memory, family testimony, and other written sources. His work holds the distinction of being the first literature by an author born in the Americas to enter the Western literary canon."
+        }
+      ],
+      "commonsFile": "Inca_Garcilaso_1879.jpg"
     },
     {
       "id": "evt-bernabe-cobo",
       "label": "Bernabé Cobo",
       "year": 1653,
-      "description": "Jesuit priest whose Historia del Nuevo Mundo, completed in 1653, preserves a detailed list of Cuzco's 328 wak'a shrines along the ceque system, drawn from a sixteenth-century manuscript by Polo de Ondegardo that has otherwise been lost.",
+      "description": "Jesuit priest Bernabé Cobo completed his Historia del Nuevo Mundo in 1653, preserving the detailed record of Cuzco's 328 wak'a (sacred site) shrines along the ceque system — information that survives only because Cobo copied a lost manuscript by the sixteenth-century Spanish administrator Polo de Ondegardo.",
       "wikiSlug": "Bernabé_Cobo",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cobo also played an early role in the history of quinine: he described the medicinal properties of cinchona bark to European audiences and brought samples back to Spain on a visit in 1632, decades before quinine became the standard treatment for malaria. Without Cobo's copy of Polo's manuscript, the entire ceque system — the geometric grid of sacred lines radiating from Cuzco's Coricancha that organized the city's ritual landscape — would be known only in fragments."
+        }
+      ]
     },
     {
       "id": "evt-quipu-colonial",
       "label": "Colonial Quipu Use",
       "year": 1540,
       "endYear": 1583,
-      "description": "Spanish colonial administrators relied on Inca quipucamayocs for census and tribute records through the mid-sixteenth century, until the Third Council of Lima ordered the burning of quipus as 'heretical objects' in 1583. Several thousand survive in museum collections today.",
+      "description": "For roughly fifty years after the Spanish conquest, colonial administrators depended on Inca quipucamayoc specialists to run the census and tribute system — until the Third Council of Lima in 1583 ordered quipus burned as heretical, destroying an unknown volume of Andean records.",
       "wikiSlug": "Quipu",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The burning order came not from civil authorities but from the Catholic Church, which was alarmed that quipus might encode religious or ritual information incompatible with conversion. The irony is that Spanish administrators had already proved they couldn't manage the tribute system without them. Quipus that survived did so because they were in remote communities, already buried with the dead, or kept hidden; the several thousand in museum collections today are almost entirely from looted coastal tombs where the dry climate preserved cotton cords for centuries."
+        }
+      ]
     },
     {
       "id": "evt-tupac-amaru-ii",
       "label": "Tupac Amaru II Revolt",
       "year": 1780,
       "endYear": 1781,
-      "description": "José Gabriel Condorcanqui, a Quechua nobleman claiming descent from Tupac Amaru I, led the largest indigenous revolt of the colonial period — perhaps 100,000 fighters across southern Peru and Bolivia in 1780–81. Spanish authorities executed him by quartering in the Cuzco plaza.",
+      "description": "In 1780–81, José Gabriel Condorcanqui — a wealthy Quechua merchant who took the name Tupac Amaru II — led the largest indigenous revolt of the entire Spanish colonial period, mobilizing roughly 100,000 fighters across southern Peru and Bolivia before Spanish forces crushed the rebellion and publicly quartered him in Cuzco's central plaza.",
       "wikiSlug": "Túpac_Amaru_II",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Condorcanqui was educated, fluent in both Spanish and Quechua, and embedded in the colonial elite as a cacique (local chief) and mule-train merchant before launching the revolt. The rebellion spread into Bolivia and northern Argentina and seriously threatened Spanish control of the southern Andes for over a year. His name became a political touchstone across centuries: invoked by Peru's reformist Velasco government in 1969, by the MRTA guerrilla group, by Uruguay's Tupamaros, and by the American rapper Tupac Shakur, named by his Black Panther mother for the Inca emperor."
+        }
+      ],
+      "commonsFile": "Acuarela_de_Túpac_Amaru_II_crop.jpg"
     },
     {
       "id": "evt-bingham-1911",
       "label": "Hiram Bingham at Machu Picchu",
       "year": 1911,
-      "description": "American historian Hiram Bingham was led to the ruins of Machu Picchu by local farmer Melchor Arteaga in July 1911. The site had been continuously known to local communities but had never been reported to the colonial or Peruvian governments.",
+      "description": "On July 24, 1911, American historian Hiram Bingham III was led up to the long-abandoned ruins of Machu Picchu by a local farmer named Melchor Arteaga — the site was known to local communities but had never entered official colonial or republican records.",
       "wikiSlug": "Hiram_Bingham_III",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bingham initially misidentified Machu Picchu as Vilcabamba, the jungle stronghold where the last Inca rulers held out against the Spanish, and announced his 'discovery' to the world in 1913 as finding the 'lost city of the Incas.' He was wrong — Vilcabamba is a different site further northwest — but the label stuck. Bingham later served as governor of Connecticut for exactly one day in 1925 before resigning to take a U.S. Senate seat."
+        }
+      ],
+      "commonsFile": "Hiram_Bingham_at_Espiritu_Pampa_ruins_1911.jpg"
     },
     {
       "id": "evt-inca-population",
       "label": "Imperial Population",
       "year": 1525,
-      "description": "Modern estimates place the empire's population at its 1525 peak at roughly 10–12 million, comparable to Ming China's largest provinces and substantially larger than any contemporary European state. Within a century of conquest, smallpox, measles, typhus, and forced labor had reduced it by perhaps 80 percent.",
+      "description": "At its 1525 peak, the Inca Empire covered roughly 770,000 square miles with a population estimated at 10–12 million — larger than any contemporary European state and comparable to the biggest provinces of Ming China, all administered without writing, wheels, iron, or money.",
       "wikiSlug": "Inca_Empire",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The empire's 25,000-mile road network was comparable in total length to the entire Roman road system, built across some of the most extreme terrain on earth including 16,000-foot (4,900 m) Andean passes. The demographic collapse after Spanish contact was one of history's most catastrophic: within a century, a combination of smallpox, measles, typhus, and the brutality of colonial labor systems may have killed 80–90 percent of the Andean population."
+        }
+      ]
     },
     {
       "id": "evt-llama-economy",
       "label": "Llama and Alpaca Pastoralism",
       "year": 1450,
-      "description": "The Inca economy ran on llamas (pack animals) and alpacas (wool producers) at a scale no other Andean civilization had managed. State herds in the high puna numbered in the hundreds of thousands and supplied the army, the road network, and the cumbi-cloth industry.",
+      "description": "The Inca built their empire's logistics on the llama — the only large pack animal in the Americas — using state herds numbering in the hundreds of thousands to haul tribute between storehouses, supply armies on campaign, and feed the cumbi-cloth industry with alpaca wool.",
       "wikiSlug": "Llama",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A llama can carry about 75 to 130 pounds (34–59 kg) and travel 15 to 20 miles a day at altitude without water for several days at a stretch — better suited to Andean conditions than any Old World pack animal would have been. The Inca had no horses, oxen, or wheeled carts, so the llama caravan was the empire's entire freight network. State herds were kept in the high puna grasslands above 13,000 feet, managed as a state monopoly, and censused on quipu alongside human populations — the animals were effectively imperial infrastructure, not livestock."
+        }
+      ],
+      "commonsFile": "A_Quechua_girl_and_her_Llama.jpg"
     },
     {
       "id": "evt-coca-leaves",
@@ -935,11 +1444,18 @@
       "id": "evt-spanish-encomienda",
       "label": "Encomienda System",
       "year": 1535,
-      "description": "Spanish colonial labor system superimposed on Inca mit'a, granting individual conquistadors the right to extract tribute and labor from specific indigenous communities. The encomienda repurposed Inca administrative geography into a colonial extraction machine, especially around the Potosí silver mines.",
+      "description": "The encomienda was the Spanish colonial system that granted individual conquistadors the right to extract tribute and forced labor from specific indigenous communities — in practice superimposing itself on the Inca mit'a labor draft to power the silver mines at Potosí and other colonial enterprises.",
       "wikiSlug": "Encomienda",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The encomienda had originally been developed in Spain during the Christian Reconquista before being exported to the Americas. In theory encomenderos owed the workers military protection and Christian instruction; in practice conditions frequently amounted to forced labor or outright slavery. The New Laws of 1542 attempted to limit the system by ending encomiendas at the holder's death rather than allowing inheritance, but enforcement was weak across the Andes."
+        }
+      ],
+      "commonsFile": "Kingsborough.jpg"
     }
   ]
 }
