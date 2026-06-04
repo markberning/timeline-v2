@@ -58,651 +58,1091 @@
       "label": "Emperor Wen of Sui (Yang Jian)",
       "year": 581,
       "endYear": 604,
-      "description": "Yang Jian usurped the Northern Zhou throne in 581 and conquered the southern Chen dynasty in 589, reunifying China for the first time since the Han collapse in 220 CE. He built the Daxing capital, promulgated the Kaihuang legal code, and began the civil service examination system that the Tang would perfect.",
+      "description": "Yang Jian seized the Northern Zhou throne in 581, conquered the last southern holdout (the Chen dynasty) in 589, and reunified a China that had been fractured for 369 years — becoming the founding emperor of the Sui dynasty under the reign name Emperor Wen.",
       "wikiSlug": "Emperor_Wen_of_Sui",
       "commonsFile": "Sui_Wendi_Tang.jpg",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wen carried both a Chinese surname (Yang) and a Xianbei Inner Asian surname (Puliuru), reflecting the hybrid Sino-nomadic world the northern aristocracy lived in. He restored Buddhist institutions suppressed under Northern Zhou and used relic distributions — 30 temples in a single day in 601 — as a coordinated propaganda campaign projecting dynastic reach across the reunified empire. Despite founding one of history's most consequential dynasties, he was personally austere: the records describe him as frugal to the point of stinginess and increasingly paranoid in his final years."
+        }
+      ]
     },
     {
       "id": "evt-tsc-daxing-capital",
       "label": "Daxing (New Chang'an) Founded",
       "year": 582,
-      "description": "Emperor Wen commissioned a new capital at Daxing on a strict 84-square-kilometer grid plan southeast of the old Han Chang'an site. The Tang inherited it as Chang'an, and its grid was copied by Japan for Nara and Kyoto and by Korean capitals.",
+      "description": "Emperor Wen ordered his architect Yuwen Kai to build a brand-new capital called Daxing in 582 — a strict north-south grid city of roughly 32 square miles that became the largest planned city in the world and the template for the Tang capital Chang'an.",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Daxing's layout — palace at the north, government offices in the center, 108 walled residential wards and two enormous markets to the south — was so influential that Japan copied it almost exactly for Nara (710) and Heian-kyō (modern Kyoto, 794), and Korean capitals adopted it as well. The old Han Chang'an site was abandoned not just because it was cramped and polluted but because it was considered superstitiously inauspicious after centuries of dynasties failing on that location."
+        }
+      ],
+      "commonsFile": "隋大興城坊平面圖.png"
     },
     {
       "id": "evt-tsc-kaihuang-code",
       "label": "Kaihuang Code",
       "year": 583,
-      "description": "The Kaihuang Code reduced the number of capital offenses, distinguished intentional from accidental crimes, and unified the fragmented legal traditions of the Age of Division into 500 articles in 12 chapters. The Tang Code (624) built directly on it and became the model for East Asian law.",
+      "description": "The Kaihuang Code of 583 fused the patchwork of northern and southern legal traditions into a single unified law: 500 articles across 12 chapters that reduced capital offenses and distinguished intent from accident for the first time in Chinese law.",
       "wikiSlug": "Kaihuang_Code",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tang Code of 624 — the oldest complete Chinese legal code to survive to the present — was essentially the Kaihuang Code lightly revised, with a full commentary added in 653. That Tang Code then became the direct model for Japanese law (the Taihō Code of 701), Korean law, and Vietnamese law, making Wen's 583 reform the legal ancestor of the entire East Asian legal tradition."
+        }
+      ]
     },
     {
       "id": "evt-tsc-sui-reunification",
       "label": "Reunification of China",
       "year": 589,
-      "description": "Sui armies of 518,000 troops crossed the Yangtze and conquered the Chen dynasty in weeks, ending 369 years of division. The captured Chen emperor was reportedly hiding in a palace well with two concubines.",
+      "description": "In 589, Sui forces of 518,000 crossed the Yangtze in a coordinated amphibious assault and conquered the Chen dynasty in weeks, ending 369 years of fragmentation that had begun with the fall of the Han.",
       "wikiSlug": "Sui_conquest_of_Chen",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The captured Chen emperor, Chen Shubao, was reportedly found hiding in a palace well with two concubines when Sui soldiers arrived — a detail that became the defining image of the Chen's decadent collapse. The Chen's descendants were not executed but continued to hold high-ranking positions in the Sui and Tang courts. The Southern Chen dynasty had itself strengthened south China's economy and culture over the preceding decades, making it a valuable prize rather than a ruin when Sui took it."
+        }
+      ],
+      "commonsFile": "Chen_Feidi_Tang.jpg"
     },
     {
       "id": "evt-tsc-emperor-yang-sui",
       "label": "Emperor Yang of Sui",
       "year": 604,
       "endYear": 618,
-      "description": "Emperor Yang built the Grand Canal, three times invaded Korea, and constructed a lavish second capital at Luoyang. The combined corvée burden triggered the rebellions that killed him in 618 — strangled by his own guards.",
+      "description": "Yang Guang, Emperor Yang of Sui, was intellectually brilliant and catastrophically overambitious — building the Grand Canal, launching three failed invasions of Korea, and exhausting the empire so completely that his own palace guards strangled him in 618.",
       "wikiSlug": "Emperor_Yang_of_Sui",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yang Guang spent years undermining his elder brother's position as crown prince by feigning Confucian frugality while secretly accusing his brother of debauchery — and succeeded, getting him demoted in 600. When Emperor Wen died in 604, a court official immediately reported that Yang had murdered his own father; modern historians remain split on whether the parricide actually happened or was a later Tang-era smear. Yang Yong, the displaced elder brother, was killed within days of Wen's death on Yang Guang's orders, eliminating the only rival."
+        }
+      ],
+      "commonsFile": "Sui_Yangdi_Tang.jpg"
     },
     {
       "id": "evt-tsc-grand-canal",
       "label": "Grand Canal Construction",
       "year": 605,
       "endYear": 611,
-      "description": "Emperor Yang mobilized millions of corvée laborers to link the Yellow River to the Yangtze across more than 1,000 miles (1,700 km) — the world's longest artificial waterway. It bound China's wheat-growing north to its rice-growing south, served the empire for over a thousand years, and is still in use today.",
+      "description": "Between 605 and 611, Emperor Yang conscripted millions of laborers to dig over 1,000 miles (1,700 km) of artificial waterway linking the Yellow River's wheat-growing north to the Yangtze's rice-growing south — the world's longest canal system, still in use today.",
       "wikiSlug": "Grand_Canal_(China)",
-      "commonsFile": "Grand_Canal_China.svg",
+      "commonsFile": "Gcjiangnan1.jpg",
       "tier": 1,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Contemporary accounts say one adult male per every five households was mandatorily drafted under corvée (unpaid state labor), with one source claiming roughly half the workers died — a figure historians view as exaggerated but directionally real. Yang traveled the finished canal on dragon-shaped pleasure barges so enormous they reportedly required tens of thousands of workers walking the banks to pull them, creating the defining image of Sui excess that Tang historians later weaponized. The canal is still in operation today as a UNESCO World Heritage Site, with Sui-era sections still carrying barge traffic."
+        }
+      ]
     },
     {
       "id": "evt-tsc-sui-korea-wars",
       "label": "Sui Invasions of Korea",
       "year": 612,
       "endYear": 614,
-      "description": "Emperor Yang launched three invasions of the Korean kingdom of Goguryeo. The 612 campaign mobilized over a million troops; of 305,000 who crossed the Yalu River, fewer than 3,000 returned after Goguryeo general Eulji Mundeok destroyed them at the Salsu River.",
+      "description": "Emperor Yang launched three invasions of Goguryeo (the powerful kingdom spanning Manchuria and northern Korea) between 612 and 614. All three failed, and the 612 campaign ended in one of the worst military disasters in Chinese history.",
       "wikiSlug": "Goguryeo%E2%80%93Sui_War",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Goguryeo general Eulji Mundeok lured the Sui deep past their supply lines by feigning a surrender, then dammed the Salsu River upstream while Sui troops were crossing — releasing the dam mid-crossing. Of 305,000 Sui soldiers who had crossed the Yalu River, roughly 2,700 made it back. Eulji Mundeok remains a national hero in Korea to this day. Yang refused to stop after the 612 disaster and launched two more invasions (613, 614), by which point the empire was openly rebelling in multiple provinces."
+        }
+      ],
+      "commonsFile": "The_invasion_of_Goguryeo.png"
     },
     {
       "id": "evt-tsc-fall-of-sui",
       "label": "Fall of the Sui",
       "year": 618,
-      "description": "Emperor Yang was strangled by his own guards at Jiangdu in March 618. The Sui general Li Yuan seized Chang'an and proclaimed the Tang dynasty in June, inheriting the Sui's reunified empire and infrastructure after a 37-year arc that mirrors the Qin's.",
+      "description": "In the spring of 618, Emperor Yang's own palace guards mutinied at his pleasure capital in Jiangdu and strangled him with a silk sash, ending 37 years of Sui rule over a country now dissolving into rebellion.",
       "wikiSlug": "Transition_from_Sui_to_Tang",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When the rebels closed in, Yang reportedly asked what crime he had committed — the chronicle detail has the quality of a set piece, and Tang historians had every motive to dramatize the scene. The Sui's collapse followed almost exactly the arc of the Qin, the short harsh reunifier 800 years earlier: massive infrastructure, overreach, peasant revolt, rapid fall, long successor dynasty inheriting everything built. Li Yuan, who proclaimed the Tang in June 618, was himself a Sui aristocrat whose mother was a sister of Emperor Yang's mother — making him family, which made the transition legally cleaner."
+        }
+      ],
+      "commonsFile": "Sui_Dynasty_Uprisings.png"
     },
     {
       "id": "evt-tsc-emperor-gaozu-tang",
       "label": "Emperor Gaozu of Tang (Li Yuan)",
       "year": 618,
       "endYear": 626,
-      "description": "Li Yuan, a Sui aristocrat with both Chinese and Turkic ancestry, established the Tang in 618 and consolidated control over a still-fragmented empire. His sons fought a violent succession that he survived by abdicating after the Xuanwu Gate Incident in 626.",
+      "description": "Li Yuan, the Sui governor of Taiyuan who launched the rebellion that ended the Sui dynasty, founded the Tang in 618 and reigned as Emperor Gaozu until his sons' violent rivalry forced him to abdicate in 626. He was 51 when he took the throne — competent, cautious, and rapidly overshadowed by his more brilliant middle son.",
       "wikiSlug": "Emperor_Gaozu_of_Tang",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Despite founding one of China's greatest dynasties, Gaozu is almost invisible in traditional historiography — overshadowed so completely by his son Taizong that Tang court historians, writing under Taizong's eye, downplayed Gaozu's role in the founding campaigns and inflated Li Shimin's. Gaozu's post-abdication years were spent in gilded retirement, surviving until 635 — nine years after his own son had seized power and dismantled his political legacy."
+        }
+      ],
+      "commonsFile": "TangGaozu.jpg"
     },
     {
       "id": "evt-tsc-tang-equal-field",
       "label": "Equal-Field System",
       "year": 624,
-      "description": "The Tang refined the equal-field system (juntian) inherited from the Northern Wei, distributing about 80 mu (roughly 12 acres) of state land per adult male in exchange for a fixed grain tax, cloth tax, and 20 days of corvée labor. The system underpinned Tang prosperity until aristocratic and monastic estates broke it in the 8th century.",
+      "description": "The equal-field system (juntian) distributed roughly 80 mu (about 12 acres) of state land to each adult male household in exchange for fixed grain and cloth taxes plus 20 days of annual labor service, keeping the peasant tax base broad and the army supplied with militia soldiers — and quietly unraveling as aristocratic estates absorbed the land over the following century.",
       "wikiSlug": "Equal-field_system",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The system originated under the Northern Wei in the late 5th century as a way to redistribute farmland left empty by nomadic wars, and the Tang adapted it rather than invented it. Its structural weakness was inheritance: land was supposed to revert to the state at death, but in practice wealthy families found ways to retain it across generations, and Buddhist monasteries — tax-exempt — accumulated huge tracts. By the mid-8th century the gap between the legal allotment rolls and actual landholding had become so wide that the entire tax system had to be rebuilt from scratch."
+        }
+      ]
     },
     {
       "id": "evt-tsc-tang-code",
       "label": "Tang Code",
       "year": 624,
-      "description": "The Tang Code, revised in 653 with full commentary, is the oldest complete Chinese legal code to survive. Its 502 articles in 12 sections were adopted by Japan as the Taihō Code (701) and adapted by Korea and Vietnam — the foundation document of East Asian law.",
+      "description": "The Tang Code (promulgated 652, with commentary 653) is the oldest complete Chinese legal code to survive intact — 502 articles across 12 sections that synthesized Confucian moral hierarchy with Legalist enforcement, and became the template for law codes across East Asia for over a millennium.",
       "wikiSlug": "Tang_Code",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Japan adopted the Tang Code nearly wholesale as its Taihō Code in 701, and Korea and Vietnam built their own systems on the same foundation — making the Tang Code one of the most influential legal documents in Asian history despite being almost unknown in the West. The code distinguished between 'ten abominations' (the most serious crimes, which carried fixed mandatory sentences regardless of circumstances) and ordinary offenses where circumstance and social rank could reduce punishment. Confucian family hierarchy was embedded directly in law: striking a parent carried a heavier sentence than striking a stranger, and the reverse was also true."
+        }
+      ]
     },
     {
       "id": "evt-tsc-xuanwu-gate",
       "label": "Xuanwu Gate Incident",
       "year": 626,
-      "description": "On July 2, 626, Li Shimin ambushed his elder brother Crown Prince Li Jiancheng and his younger brother Li Yuanji at the northern gate of the Chang'an palace, personally shooting Jiancheng dead. His father Emperor Gaozu abdicated two months later. The fratricide produced one of China's greatest emperors.",
+      "description": "On July 2, 626, Li Shimin and a small band of officers ambushed his brothers at the Xuanwu Gate, the northern entrance of the Chang'an palace complex, killing the Crown Prince with an arrow and eliminating the entire rival line. Two months later, a stunned Emperor Gaozu abdicated.",
       "wikiSlug": "Xuanwu_Gate_Incident",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The official Tang account portrays the ambush as a defensive preemption — the brothers were about to strike first — but those records were written under Taizong's own court, making impartial verification impossible. In the days after the coup, the brothers' adult sons were systematically hunted down and killed; Taizong formally adopted some surviving younger nephews in a gesture historians still argue was genuine or political theater. Yuchi Gong, the warrior who killed Li Yuanji, became so celebrated that his face is still used in Chinese folk religion as a door-god."
+        }
+      ],
+      "commonsFile": "Reconstructed_Danfeng_Men.jpg"
     },
     {
       "id": "evt-tsc-emperor-taizong",
       "label": "Emperor Taizong (Li Shimin)",
       "year": 626,
       "endYear": 649,
-      "description": "Li Shimin's Zhenguan reign (627–649) became the gold standard against which all subsequent Chinese reigns were measured. He defeated the Eastern Turkic Khaganate, was acclaimed Heavenly Khan by the steppe peoples, refined the examination system, and cultivated the image of a philosopher-king who welcomed criticism from his advisor Wei Zheng.",
+      "description": "Li Shimin's Zhenguan reign (626–649) became the benchmark all later Chinese emperors were measured against: he defeated the Eastern Turks, won the unprecedented title 'Heavenly Khan' from the steppe peoples, deepened the examination system, and cultivated a philosopher-king image through his famous dialogues with the outspoken advisor Wei Zheng.",
       "wikiSlug": "Emperor_Taizong_of_Tang",
-      "commonsFile": "Tang_Taizong.jpg",
+      "commonsFile": "TangTaizong.jpg",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Taizong's court was genuinely cosmopolitan — Turkic generals, Sogdian merchants and translators, and Inner Asian advisors served as routine fixtures, not exotic curiosities. His death at 51 was likely linked to Taoist elixirs of immortality he had begun consuming in his final years, a fatal irony for an emperor famous for rational governance. The compiled dialogues with Wei Zheng, the Zhenguan Zhengyao, remained required reading for Chinese rulers for a thousand years after his death."
+        }
+      ]
     },
     {
       "id": "evt-tsc-conquest-eastern-turks",
       "label": "Conquest of the Eastern Turks",
       "year": 630,
-      "description": "Tang general Li Jing led a lightning strike that captured the Turkic khagan Illig and broke the Eastern Turkic Khaganate. Taizong was acclaimed 'Heavenly Khan' (Tian Kehan) by the steppe peoples — an unprecedented dual title combining Chinese emperor and supreme steppe ruler.",
+      "description": "In 629–630, Tang general Li Jing led a surprise winter campaign that shattered the Eastern Turkic Khaganate and captured the khagan Illig, collapsing the dominant steppe power that had bullied the early Tang. The surrendered Turks were resettled south of the Gobi to serve as cavalry in Tang armies.",
       "wikiSlug": "Tang_campaign_against_the_Eastern_Turks",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Taizong's response to the surrender was diplomatically radical: rather than enslaving, slaughtering, or deporting the Turks, he absorbed them — resettling hundreds of thousands in a buffer zone near Chang'an and integrating their cavalry directly into the Tang military. This won him the title Tian Kehan ('Heavenly Khan') from the Central Asian peoples, a dual identity no Chinese emperor had ever claimed. The Turkic generals and cavalrymen who followed remained a defining feature of Tang armies for generations, and also a long-term political complication."
+        }
+      ],
+      "commonsFile": "Tang_Tujue_War.png"
     },
     {
       "id": "evt-tsc-xuanzang-journey",
       "label": "Xuanzang's Journey to India",
       "year": 645,
-      "description": "The monk Xuanzang left Chang'an illegally in 629, walked roughly 10,000 miles (16,000 km) across the Gobi and Central Asia, studied for years at Nalanda university in India, and returned in 645 with 657 Buddhist texts. His travel account fed centuries of Chinese geography and was fictionalized as Journey to the West.",
+      "description": "In 629, the monk Xuanzang left Chang'an without imperial permission and walked roughly 10,000 miles (16,000 km) across the Gobi Desert and Central Asia to reach India. He spent years studying at Nalanda — the great Buddhist university — and returned in 645 with 657 texts, which he spent the rest of his life translating. His journey was later fictionalized as Journey to the West.",
       "wikiSlug": "Xuanzang",
       "commonsFile": "Xuanzang_w.jpg",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Xuanzang translated 75 distinct sections totaling 1,335 chapters of Buddhist scripture — an output that shaped Chinese Buddhism for centuries. His travel account, the Great Tang Records on the Western Regions, is one of the primary historical sources for 7th-century Central Asia and India, recording kingdoms and monasteries that left few other written traces. Emperor Taizong, initially furious about his unauthorized departure, was so impressed on his return that he offered him high court office — which Xuanzang declined, preferring to keep translating."
+        }
+      ]
     },
     {
       "id": "evt-tsc-civil-service-expansion",
       "label": "Civil Service Examinations Expanded",
       "year": 650,
-      "description": "Under the Tang the imperial examination system became the primary route to high office, breaking the aristocratic monopoly of the Age of Division. The jinshi degree, which tested literary composition, Confucian classics, and policy, became the most prestigious path to government — and one reason Tang poetry flowered.",
+      "description": "The Tang made the imperial examination system — particularly the jinshi ('presented scholar') degree — the primary route to the highest government offices, breaking the grip of the old northwestern aristocracy and creating a bureaucracy theoretically open to any literate man in the empire.",
       "wikiSlug": "Imperial_examination",
       "tier": 1,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The jinshi exam famously required candidates to compose poetry as part of the test — one reason Tang is the golden age of Chinese verse. Passage rates were brutal: in some years fewer than two dozen jinshi degrees were granted empire-wide, out of thousands of candidates. Despite the meritocratic ideal, in practice the Tang exam still heavily favored men from wealthy families who could afford decades of education; genuine commoner success was celebrated precisely because it was rare."
+        }
+      ],
+      "commonsFile": "Candidate_imperial_examination_drunk_in_cell.png"
     },
     {
       "id": "evt-tsc-wild-goose-pagoda",
       "label": "Giant Wild Goose Pagoda",
       "year": 652,
-      "description": "Built in Chang'an at the Da Ci'en Temple to house the texts Xuanzang brought from India. Originally five stories of rammed earth, later rebuilt in brick and now standing at five stories again, the pagoda has survived 1,300 years of earthquakes and is a UNESCO World Heritage Site.",
+      "description": "Emperor Gaozong built the Giant Wild Goose Pagoda in Chang'an in 652 to house the Buddhist texts Xuanzang brought back from India. Originally five stories of rammed earth, it was rebuilt in brick by Empress Wu Zetian in 704, and its outer facade was added in the Ming dynasty. It has stood through 1,300 years of earthquakes and is now a UNESCO World Heritage Site.",
       "wikiSlug": "Giant_Wild_Goose_Pagoda",
-      "commonsFile": "Giant_Wild_Goose_Pagoda_(5459895070).jpg",
+      "commonsFile": "Giant_Wild_Goose_Pagoda.jpg",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pagoda stands in what was the Da Ci'en Temple complex, one of Chang'an's great Tang-era monasteries. Its distinctive tapering brick form became an influential template for East Asian pagoda architecture. The name 'Wild Goose Pagoda' likely derives from a Buddhist legend about monks saved by a wild goose — though several competing origin stories exist. The pagoda is still standing in Xi'an today, one of the few Tang-era structures to survive intact."
+        }
+      ]
     },
     {
       "id": "evt-tsc-conquest-western-turks",
       "label": "Conquest of the Western Turks",
       "year": 657,
-      "description": "Tang general Su Dingfang destroyed the Western Turkic Khaganate, extending Chinese control across the Tarim Basin to the borders of Persia and establishing the Anxi Protectorate over the Silk Road oases — the greatest territorial extent of Chinese expansion in history.",
+      "description": "Tang general Su Dingfang destroyed the Western Turkic Khaganate in 657–658, extending Chinese military reach across the Tarim Basin (the vast Central Asian desert strung with oasis cities, today's Xinjiang) to the edges of Persia — the greatest westward expansion of Chinese power in history.",
       "wikiSlug": "Tang_campaign_against_the_Western_Turks",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tang established the Anxi Protectorate to administer the conquered oasis cities — Kucha, Kashgar, Khotan, Karashahr — turning the Silk Road's main arteries into Chinese-administered territory. Su Dingfang then immediately turned east to help Silla unify Korea, fighting three campaigns in opposite corners of Asia in the same decade. Tang control over these western territories was real but thin, dependent on local cooperation; it would last barely a century before Arab and Tibetan pressure collapsed it."
+        }
+      ],
+      "commonsFile": "Conquest_of_Western_Turks.png"
     },
     {
       "id": "evt-tsc-empress-wu-zetian",
       "label": "Wu Zetian",
       "year": 690,
       "endYear": 705,
-      "description": "Wu Zetian became the only woman in Chinese history to hold the title of emperor in her own name, ruling as the founder of the brief Zhou dynasty (690–705). She expanded the examinations to break aristocratic power, patronized Buddhism, used a network of secret police, and left a deliberately blank tombstone — for history to judge.",
+      "description": "Wu Zetian — who entered Taizong's court as a teenage concubine, survived a convent, outlasted rival consorts, governed through an ailing husband, and ruled through two pliable sons — deposed her own son in 690 and declared herself Emperor of her own dynasty, the only woman ever to hold that title in Chinese history.",
       "wikiSlug": "Wu_Zetian",
       "commonsFile": "A_Tang_Dynasty_Empress_Wu_Zetian.JPG",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "She commissioned the colossal Vairocana Buddha at the Longmen Caves near Luoyang, whose face is said to be modeled on her own features — one of the largest stone sculptures in China. She also invented around a dozen new Chinese characters, including a unique character for her own name combining 'sun,' 'moon,' and 'sky'; most fell out of use after her death. Her deliberately blank tombstone, the Wordless Stele, still stands west of Xi'an today — whether she ordered it left blank for history to judge, or her successors simply could not agree on what to write, is still debated."
+        }
+      ]
     },
     {
       "id": "evt-tsc-block-printing",
       "label": "Woodblock Printing Emerges",
       "year": 700,
-      "description": "Tang printers carved entire pages on wooden blocks, inked them, and pressed them onto paper — the world's first printing technology. Buddhist demand drove early adoption, and the surviving Diamond Sutra of 868 is the oldest dated printed book.",
+      "description": "Tang printers carved entire pages into wooden blocks, inked the surface, and pressed them onto paper — the world's first printing technology. Buddhist institutions were the primary early adopters, mass-producing sutras for merit. The Diamond Sutra of 868, found in the Dunhuang caves, is the oldest dated printed book in existence.",
       "wikiSlug": "Woodblock_printing",
       "tier": 2,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Woodblock printing allowed a single carved block to produce thousands of impressions, transforming the economics of text reproduction. The technique originated in China for printing on textiles before migrating to paper. The Diamond Sutra (found in 1900 in a sealed cave at Dunhuang) is not just the oldest dated printed book but also a remarkable piece of craftsmanship — its frontispiece illustration and clean column text show the technique was already highly developed by 868."
+        }
+      ],
+      "commonsFile": "Jingangjing.jpg"
     },
     {
       "id": "evt-tsc-silk-road-peak",
       "label": "Silk Road Peak under Tang",
       "year": 700,
-      "description": "Tang control of the Tarim Basin gave China direct access to the Silk Road for the first time since the Han. Sogdian merchants from Central Asia operated under Tang protection. Persian, Arab, Sogdian, Korean, and Japanese communities lived in Chang'an, and Zoroastrian, Nestorian Christian, Manichaean, and Islamic shrines opened alongside Buddhist temples.",
+      "description": "When Tang armies secured the Tarim Basin oases in the 630s–650s, China gained direct control over the Silk Road for the first time since the Han dynasty. The result was the greatest period of east-west exchange in pre-modern history: Sogdian merchants, Persian refugees, Arab traders, Indian monks, Korean students, and Japanese envoys all maintained communities inside Chang'an's walls.",
       "wikiSlug": "Silk_Road",
       "tier": 1,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The network spanned over 6,400 km (4,000 mi) of overland routes, but the name 'Silk Road' was only coined in 1877 by German geographer Ferdinand von Richthofen. Sogdian — the Iranian language of the route's dominant merchant class — served as the trade lingua franca from China to the Black Sea; documents in Sogdian script have been found across this entire range. Sogdian is now effectively extinct; its closest living relative is Yaghnobi, spoken by a few thousand people in the mountains of Tajikistan."
+        }
+      ]
     },
     {
       "id": "evt-tsc-chan-buddhism",
       "label": "Chan Buddhism Flourishes",
       "year": 700,
-      "description": "Chan Buddhism developed during the Tang as a distinctly Chinese school emphasizing meditation and sudden enlightenment over textual study. The Sixth Patriarch Huineng's Platform Sutra became its foundational text. Chan transmitted to Korea (as Seon), Japan (as Zen), and Vietnam (as Thiền), shaping East Asian aesthetics for a thousand years.",
+      "description": "Chan Buddhism — known in Japan as Zen, Korea as Seon, Vietnam as Thiền — crystallized into its mature form during the Tang, emphasizing direct meditation and sudden enlightenment rather than textual study or accumulated ritual merit. Its foundational text, the Platform Sutra attributed to the Sixth Patriarch Huineng (c. 638–713), is the only Chinese-composed work ever accorded the status of 'sutra.'",
       "wikiSlug": "Chan_Buddhism",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name 'Chan' is the Chinese pronunciation of the Sanskrit dhyana, meaning 'meditation.' Chan's minimal institutional requirements — no large monastery needed, just teacher-to-student transmission — meant it survived the Tang's devastating 845 anti-Buddhist persecution better than any other school. Its aesthetic influence spread far beyond religion: Chan shaped tea ceremony, ink painting, garden design, and martial arts across East Asia for the next thousand years."
+        }
+      ],
+      "commonsFile": "Bodhidharma.and.Huike-Sesshu.Toyo.jpg"
     },
     {
       "id": "evt-tsc-tang-changan",
       "label": "Chang'an: World's Largest City",
       "year": 700,
-      "description": "Tang Chang'an covered roughly 32 square miles (84 km²) — about seven times larger than contemporary Constantinople — and held over a million residents inside its walls. Laid out on a strict grid of 108 walled wards with two great markets and a central avenue 150 meters wide, it was the model for Japan's Nara and Kyoto and for Korean capitals.",
+      "description": "At its 8th-century peak, Tang Chang'an covered 32 square miles (84 km²) inside its walls — seven times the size of contemporary Constantinople — and held over a million residents, making it the largest city on Earth. Its 108 walled wards, two great markets, and a central boulevard nearly 500 feet wide made it the template for Japan's Nara and Kyoto.",
       "wikiSlug": "Chang%27an",
       "commonsFile": "Chang'an_of_Tang.jpg",
       "tier": 2,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The central north-south avenue, Zhuque Boulevard, was 150 meters wide — broader than any street in any modern city. The city's ward gates locked at curfew each night, making each of the 108 blocks essentially a self-contained neighborhood. Chang'an's grid plan was itself inherited from the Sui dynasty's Daxing, designed by the same architect, Yuwen Kai, who built the Grand Canal infrastructure."
+        }
+      ]
     },
     {
       "id": "evt-tsc-li-bai",
       "label": "Li Bai",
       "year": 701,
-      "description": "Li Bai is regarded as China's greatest romantic poet — the 'Immortal Poet' (Shixian) — known for exuberant verse on wine, moonlight, friendship, and freedom. His 'Quiet Night Thought' is probably the most widely memorized Chinese poem ever written. Legend says he drowned trying to embrace the moon's reflection in a river.",
+      "description": "Li Bai (701–762) — the 'Immortal Poet' — wrote exuberant verse on wine, moonlight, and cosmic freedom that made him China's most beloved romantic poet. His 'Quiet Night Thought,' only twenty Chinese characters long, is probably the single most widely memorized poem in the Chinese language.",
       "wikiSlug": "Li_Bai",
-      "commonsFile": "Li_Bai.jpg",
+      "commonsFile": "LiBai.jpg",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Li Bai's poetic gifts were so celebrated that his name was grouped with a swordsman and a calligrapher as the 'Three Wonders' of the Tang court. He never sat the civil service examinations — his path to court came through personal recommendation rather than the standard meritocratic route. The two greatest Tang poets, Li Bai and Du Fu, knew each other briefly in person; Du Fu wrote multiple poems about Li Bai, mixing deep admiration with visible anxiety about his drinking."
+        }
+      ]
     },
     {
       "id": "evt-tsc-yan-zhenqing",
       "label": "Yan Zhenqing",
       "year": 709,
-      "description": "Yan Zhenqing developed a bold, muscular style of regular script (kaishu) that broke from the elegant refinement of Wang Xizhi's tradition. Loyal Tang official and military leader, he was executed at age 76 by a rebel governor for refusing to submit. His calligraphic style became one of the four standard models taught in Chinese schools for over a millennium.",
+      "description": "Yan Zhenqing (709–785) developed a bold, structurally powerful style of Chinese regular script (kaishu) that broke sharply from the elegant, lyrical tradition inherited from the Six Dynasties master Wang Xizhi. A loyal Tang military leader and governor, he was executed at seventy-six by a rebel warlord for refusing to defect — making him the Confucian ideal of the scholar-official.",
       "wikiSlug": "Yan_Zhenqing",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yan organized military resistance against the An Lushan rebels in the northeast at a moment when most officials were capitulating or fleeing. His calligraphic style, 'Yan,' became one of the four standard models taught in Chinese schools for over a millennium — alongside Wang Xizhi, Ouyang Xun, and Liu Gongquan — and remains in use as a model for learners today. His 'muscular' aesthetic was a conscious departure: where Wang Xizhi prized graceful flow, Yan prized structural solidity."
+        }
+      ],
+      "commonsFile": "Yan_Qinli_Stele.jpg"
     },
     {
       "id": "evt-tsc-du-fu",
       "label": "Du Fu",
       "year": 712,
-      "description": "Du Fu — the 'Poet Sage' (Shisheng) — is China's greatest realist poet. His regulated verse (lüshi) set the technical standard; his poems written during the An Lushan Rebellion years used personal suffering to illuminate national tragedy. Largely obscure in his lifetime, he became revered as China's greatest poet by the Song.",
+      "description": "Du Fu (712–770) — the 'Poet Sage' — is the technical master of Tang poetry: his regulated verse (lüshi, strict eight-line poems with rigid tonal and parallelism rules) set the standard all later poets were measured against. Where Li Bai wrote of cosmic freedom, Du Fu wrote of national tragedy, most powerfully during the years the An Lushan Rebellion tore China apart.",
       "wikiSlug": "Du_Fu",
-      "commonsFile": "Du_Fu.jpg",
+      "commonsFile": "Dufu.jpg",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Du Fu sat the imperial examinations and failed them — more than once — and spent much of his life in poverty despite his genius. His life was devastated by the An Lushan rebellion of 755; his last fifteen years were spent in near-constant unrest and displacement. His poem 'Spring View,' written in 757 while trapped in rebel-occupied Chang'an, opens with 国破山河在 — 'the country is broken; the mountains and rivers remain' — one of the most quoted lines in all of Chinese literature."
+        }
+      ]
     },
     {
       "id": "evt-tsc-emperor-xuanzong",
       "label": "Emperor Xuanzong",
       "year": 712,
       "endYear": 756,
-      "description": "Xuanzong's Kaiyuan era (713–741) is the High Tang — the dynasty at its absolute peak in poetry, music, and territorial reach. His later infatuation with the consort Yang Guifei, the rise of her cousin Yang Guozhong, and his delegation of frontier military command produced the conditions for the An Lushan Rebellion.",
+      "description": "Li Longji's 44-year reign (712–756) opened with the brilliant Kaiyuan era — the Tang at its absolute peak in prosperity, poetry, and territorial reach — and closed in catastrophe, as his disengagement, his infatuation with Yang Guifei, and his delegation of military power to frontier generals created the conditions for the An Lushan Rebellion.",
       "wikiSlug": "Emperor_Xuanzong_of_Tang",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Xuanzong's reign was the longest of any Tang emperor. He seized the throne through two separate palace coups before consolidating power — a reminder that even the High Tang's golden age began in dynastic violence. His early governance was so celebrated that 'Kaiyuan' became shorthand in Chinese literature for a lost ideal of prosperity and order, the equivalent of a golden age within an already-gilded dynasty."
+        }
+      ],
+      "commonsFile": "Audience_by_Emperor_Tang_Xuanzong.jpg"
     },
     {
       "id": "evt-tsc-yang-guifei",
       "label": "Yang Guifei",
       "year": 740,
-      "description": "Yang Yuhuan, originally consort of Emperor Xuanzong's son Prince Shou, was taken into the emperor's harem around 740 and became the most famous imperial favorite in Chinese history. When the court fled Chang'an in 756, the imperial guards demanded her execution as the price of continued loyalty. She was strangled at Mawei Station.",
+      "description": "Yang Yuhuan — officially reassigned from the harem of Xuanzong's own son to become the emperor's favored consort around 740 — is remembered as one of the Four Beauties of ancient China. When the An Lushan Rebellion drove the court to flee Chang'an in 756, imperial guards refused to march further until Yang Guifei was executed; she was strangled at Mawei Station.",
       "wikiSlug": "Yang_Guifei",
-      "commonsFile": "Yang_Guifei_by_Hosoda_Eishi_(1756-1829).jpg",
+      "commonsFile": "Yang_Guifei_Leaving_the_Bath_-_Gu_Jianlong.jpg",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The relationship between Xuanzong and Yang Guifei became the subject of the most celebrated love poem in Chinese literature, the Everlasting Regret (Changhen Ge) by Tang poet Bai Juyi, written half a century after her death. Her cousin Yang Guozhong, elevated to chief minister through her influence, was killed by the same guards just before her. The episode became a template in Chinese political writing for the 'beautiful woman as instrument of dynasty's fall' — a framing modern historians note unfairly displaced blame from Xuanzong's own governance failures onto her."
+        }
+      ]
     },
     {
       "id": "evt-tsc-tang-porcelain",
       "label": "Tang Porcelain Trade",
       "year": 750,
-      "description": "Tang kilns produced sophisticated celadon and sancai (three-color amber/green/cream glazed) ceramics exported across Eurasia. The Belitung shipwreck (c. 830) carried over 60,000 pieces. The English word 'china' for porcelain comes from this trade.",
+      "description": "Tang kilns produced the iconic sancai (three-color) ceramics — horses, camels, court ladies, and foreign musicians glazed in amber, green, and cream — that have been found from China to East Africa. The Belitung shipwreck, an Arab dhow that sank around 830 in the Java Sea, carried over 60,000 Tang ceramic pieces including the earliest known Chinese blue-and-white porcelain.",
       "wikiSlug": "Tang_dynasty_art",
-      "commonsFile": "Sancai-MG_14523-IMG_8839-gradient.jpg",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The English word 'china' for porcelain traces directly to this trade network. The Belitung cargo also included gold and silver objects alongside the ceramics, showing the range of luxury goods moving on the maritime Silk Road. Tang export ceramics established the global appetite for Chinese pottery that would eventually drive the Ming dynasty to mass-produce blue-and-white for European markets — more than seven centuries later."
+        }
+      ]
     },
     {
       "id": "evt-tsc-battle-talas",
       "label": "Battle of Talas",
       "year": 751,
-      "description": "Tang general Gao Xianzhi fought the Abbasid Caliphate at the Talas River in modern Kyrgyzstan. When his Karluk Turkic allies defected mid-battle, the Tang army was routed. Chinese prisoners reportedly transmitted papermaking to the Islamic world — one of the most consequential technology transfers in history.",
+      "description": "In 751, Tang general Gao Xianzhi clashed with an Abbasid army at the Talas River (in modern Kyrgyzstan) over control of Central Asia. When his Karluk Turkic allies switched sides mid-battle, the Tang army was destroyed — ending Tang westward expansion and, via Chinese prisoners who knew the craft, transferring papermaking technology to the Islamic world.",
       "wikiSlug": "Battle_of_Talas",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sources still disagree on whether the Karluks defected to the Abbasids or had been Abbasid allies from the start. The battle's immediate military consequence was modest — neither side pursued — but the An Lushan Rebellion four years later forced the Tang to pull its western garrisons entirely, so Talas effectively closed the door on Chinese expansion into Central Asia for nearly a millennium. The paper technology the prisoners carried would help the Abbasids create the great translation movement that preserved Greek and Indian learning."
+        }
+      ],
+      "commonsFile": "Battle_of_Talas.png"
     },
     {
       "id": "evt-tsc-an-lushan-rebellion",
       "label": "An Lushan Rebellion",
       "year": 755,
       "endYear": 763,
-      "description": "An Lushan, a Sogdian-Turkic frontier general commanding 160,000 troops, rebelled in December 755, captured Luoyang and Chang'an, and declared himself emperor. The rebellion was suppressed by 763 with Uyghur cavalry help, but at the cost of an estimated 13–36 million dead — possibly the deadliest conflict before the 20th century. Real power shifted permanently from the Tang court to regional military governors (jiedushi).",
+      "description": "In December 755, An Lushan — a Sogdian-Turkic frontier general commanding nearly half the Tang's professional frontier armies — marched south, captured both imperial capitals, and declared himself emperor of a new Yan dynasty. The Tang needed eight years and Uyghur cavalry to suppress the rebellion, but never recovered the central authority it had before.",
       "wikiSlug": "An_Lushan_Rebellion",
-      "commonsFile": "An_Lushan.jpg",
+      "commonsFile": "An_Lushan_Rebellion.png",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "An Lushan's name traces back to the Sogdian word 'Rokhshan,' meaning 'bright light' — the same root as the name Roxana. He reportedly spoke six languages fluently. The rebellion spanned the reigns of three Tang emperors (Xuanzong, Suzong, and Daizong) and ended not through a decisive Tang victory but because the rebel leadership murdered each other — An Lushan killed by his son, that son killed by a general, that general killed by his own son."
+        }
+      ]
     },
     {
       "id": "evt-tsc-han-yu",
       "label": "Han Yu",
       "year": 768,
-      "description": "Han Yu led the 'ancient prose movement' (guwen), rejecting the ornate parallel prose of the Six Dynasties for direct, classical-style writing. His memorial opposing the imperial veneration of a Buddhist relic — which got him exiled — argued that Buddhism was a foreign corruption of Chinese values. He planted the seeds of Neo-Confucianism three centuries before Zhu Xi.",
+      "description": "Han Yu (768–824) was a Tang official and literary reformer who pushed back against the florid, parallel-sentence prose style that had dominated Chinese writing for centuries, arguing for a return to the direct, powerful prose of the classical pre-Qin masters. His most famous act was writing a memorial denouncing the emperor's veneration of a Buddhist relic — for which he was nearly executed and instead exiled to the far south.",
       "wikiSlug": "Han_Yu",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Han Yu's influence on Chinese literature has been compared to Dante's or Shakespeare's on their respective traditions. He is counted among the 'Eight Great Prose Masters of the Tang and Song,' a canon that included figures like Su Shi three centuries later. His Confucian critique of Buddhism as a foreign intrusion — written in 819 — planted the intellectual seeds that would flower into Neo-Confucianism under the Song dynasty, reshaping Chinese thought for the next thousand years."
+        }
+      ],
+      "commonsFile": "至聖先賢半身像_冊-110-韓愈.jpg"
     },
     {
       "id": "evt-tsc-bai-juyi",
       "label": "Bai Juyi",
       "year": 772,
-      "description": "Bai Juyi wrote over 2,800 surviving poems — more than any other Tang poet — in a deliberately accessible style (he reportedly read drafts to an illiterate servant and revised anything she could not understand). His 120-line 'Song of Everlasting Sorrow' on Xuanzong and Yang Guifei is one of the most famous narrative poems in Chinese.",
+      "description": "Bai Juyi (772–846) wrote over 2,800 surviving poems — more than any other Tang poet — in a deliberately plain style aimed at readers without a classical education. His 120-line narrative poem 'Song of Everlasting Sorrow,' about Emperor Xuanzong's love for Yang Guifei and her death in the An Lushan chaos, became one of the most beloved poems in the Chinese canon.",
       "wikiSlug": "Bai_Juyi",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bai Juyi's collected works reached Japan within his own lifetime and directly influenced the world's first novel: Lady Murasaki cites him repeatedly in the Tale of Genji (c. 1010), and his poems shaped Japanese court culture for centuries. He served as governor of three different provinces and wrote extensively about everyday bureaucratic and public life — a deliberate choice to make poetry about what officials and ordinary people actually experienced."
+        }
+      ],
+      "commonsFile": "Bai_Juyi.jpg"
     },
     {
       "id": "evt-tsc-nestorian-stele",
       "label": "Nestorian Stele Erected",
       "year": 781,
-      "description": "A nearly 10-foot limestone stele inscribed in Chinese and Syriac was erected in Chang'an to record the arrival of Nestorian Christianity in 635 under Emperor Taizong. Rediscovered in 1625, it astonished European missionaries who had assumed they were bringing Christianity to China for the first time.",
+      "description": "In 781, a nearly 10-foot (3-meter) limestone stele was erected in Chang'an recording the arrival of Nestorian Christianity in China in 635 under Emperor Taizong — with text in both Chinese and Syriac. When it was rediscovered in 1625, European missionaries were startled to learn that a Christian community had existed in China for nearly a thousand years before them.",
       "wikiSlug": "Nestorian_Stele",
-      "commonsFile": "Nestorian_Stele.jpg",
+      "commonsFile": "China_monumentis_1667_(3755914)_(cropped).jpg",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stele credits a missionary named Alopen, who arrived from the west with 'sacred books and images' in the ninth year of Taizong's reign. The monk Adam composed the stele's text. It was apparently buried deliberately in 845, probably to protect it during the Huichang anti-Buddhist persecution that swept all foreign religions. It now stands in the Stele Forest museum in Xi'an."
+        }
+      ]
     },
     {
       "id": "evt-tsc-great-anti-buddhist-persecution",
       "label": "Great Anti-Buddhist Persecution",
       "year": 845,
-      "description": "Emperor Wuzong, a devoted Daoist, ordered the destruction of 4,600 Buddhist monasteries and 40,000 shrines and forced 260,000 monks and nuns back to lay life. Bronze Buddha statues were melted for coins. Buddhist institutional power in China was permanently reduced; only Chan, which needed minimal infrastructure, fully recovered.",
+      "description": "In 845, the Daoist Emperor Wuzong ordered 4,600 Buddhist monasteries torn down, 40,000 minor shrines destroyed, and 260,000 monks and nuns forced back into lay life — partly from religious conviction and partly because Buddhist monasteries had accumulated enormous tax-exempt landholdings. Bronze Buddha statues were melted down and recoined as currency.",
       "wikiSlug": "Great_Anti-Buddhist_Persecution",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The persecution was also directed at other foreign religions: Zoroastrianism, Nestorian Christianity, and Manichaeism were all targeted alongside Buddhism. The institutional damage to Buddhism was permanent — scholastic schools that depended on large monastic libraries (Tiantai, Huayan) never recovered their earlier scale, while Chan Buddhism survived almost intact precisely because its practice centered on direct teacher-student transmission rather than monasteries and texts."
+        }
+      ],
+      "commonsFile": "Tang_Wuzong.jpg"
     },
     {
       "id": "evt-tsc-gunpowder-formula",
       "label": "Gunpowder Formula Recorded",
       "year": 850,
-      "description": "The Daoist alchemical text Zhenyuan miaodao yaolüe (c. 850) explicitly warned alchemists not to mix sulfur, saltpeter, and charcoal — a warning that itself preserved the recipe. Chinese alchemists hunting the elixir of immortality had stumbled on the most consequential war-changing substance in human history.",
+      "description": "A Daoist alchemical text of around 850 CE explicitly warned readers not to mix sulfur, saltpeter, and charcoal together — preserving, inadvertently, the first written gunpowder recipe. Alchemists hunting the elixir of immortality had stumbled onto the most consequential military technology in human history.",
       "wikiSlug": "Gunpowder",
       "tier": 1,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gunpowder (commonly called black powder today) consists of sulfur and charcoal as fuels with potassium nitrate (saltpeter) as an oxidizer. It was the earliest known chemical explosive. Beyond war, it found uses in fireworks, mining, tunneling, and road-building. The formula's discovery was essentially accidental — a byproduct of alchemical experimentation rather than deliberate weapons research."
+        }
+      ],
+      "commonsFile": "Black_Powder-1.JPG"
     },
     {
       "id": "evt-tsc-diamond-sutra",
       "label": "Diamond Sutra Printed",
       "year": 868,
-      "description": "The Diamond Sutra is the world's oldest dated printed book — a 17-foot Buddhist scroll printed by woodblock on May 11, 868, commissioned by a man named Wang Jie 'for universal free distribution.' Sealed in the Mogao Caves at Dunhuang around 1000, it was rediscovered by a Daoist caretaker in 1900 and acquired by Aurel Stein in 1907 for the British Library.",
+      "description": "Printed on May 11, 868, the Diamond Sutra is the world's oldest dated complete printed book — a 17-foot woodblock-printed Buddhist scroll commissioned by a man named Wang Jie 'for universal free distribution.' It was sealed inside a hidden cave at the Dunhuang oasis around 1000 CE and rediscovered nine centuries later, predating Gutenberg's movable type by nearly 600 years.",
       "wikiSlug": "Diamond_Sutra",
-      "commonsFile": "Jingangjing.png",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scroll survived because Dunhuang's desert climate preserved tens of thousands of manuscripts in the sealed Mogao Caves. A Daoist monk caretaker named Wang Yuanlu rediscovered the cave in 1900; the Hungarian-British archaeologist Aurel Stein purchased the Diamond Sutra in 1907 for what the monk reportedly considered a modest sum. It now lives in the British Library in London — about as far from its original 'universal free distribution' as possible."
+        }
+      ]
     },
     {
       "id": "evt-tsc-huang-chao-rebellion",
       "label": "Huang Chao Rebellion",
       "year": 875,
       "endYear": 884,
-      "description": "Huang Chao, a salt trader who had failed the civil service exams, led a peasant uprising that sacked Guangzhou in 879 (reportedly massacring 120,000 foreign merchants), captured Chang'an in 880, and declared himself emperor. The rebellion was suppressed but Chang'an never recovered as a functioning capital.",
+      "description": "Huang Chao was a wealthy salt trader who had failed the imperial examinations — then led a peasant army across China for nine years, sacking Guangzhou in 879 and capturing Chang'an itself in 880, where he declared himself emperor of a new Qi dynasty. Tang forces backed by Shatuo cavalry eventually drove him out, but the rebellion shattered what remained of the dynasty's real power.",
       "wikiSlug": "Huang_Chao",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Guangzhou massacre in 879 — contemporary sources claim 120,000 foreign merchants killed, likely an exaggeration — effectively ended the city's role as China's major international port for over a century. Huang Chao's end is disputed by the sources: he either committed suicide or was killed by his nephew in 884. The rebellion's real long-term consequence was elevating the warlord Zhu Wen, originally one of Huang Chao's own rebel commanders who defected to the Tang, to the position that would allow him to destroy the dynasty altogether."
+        }
+      ]
     },
     {
       "id": "evt-tsc-fall-of-tang",
       "label": "Fall of the Tang Dynasty",
       "year": 907,
-      "description": "Zhu Wen, a former Huang Chao rebel turned warlord, forced the last Tang emperor to abdicate in 907 and proclaimed the Later Liang dynasty. China fragmented into the Five Dynasties (north) and Ten Kingdoms (south) for fifty years.",
+      "description": "In 907, the warlord Zhu Wen — a former rebel turned Tang generalissimo who had controlled the court for years — forced the last Tang emperor to abdicate and declared his own Later Liang dynasty. The Tang, which had lasted 289 years, was over; China entered fifty years of fragmentation called the Five Dynasties and Ten Kingdoms.",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zhu Wen's rise traced directly through the Huang Chao rebellion he had helped suppress — he was rewarded with military commands, parlayed those into regional dominance, and by 900 the last Tang emperor was effectively his hostage. The Five Dynasties period that followed saw five short-lived dynasties succeed each other in rapid succession in the north while the south broke into ten independent kingdoms — a deliberate mirror of the chaos of the earlier Six Dynasties period that the Tang's founders had ended three centuries before."
+        }
+      ],
+      "commonsFile": "End_of_Tang_Warlords.jpg"
     },
     {
       "id": "evt-tsc-loss-sixteen-prefectures",
       "label": "Loss of the Sixteen Prefectures",
       "year": 938,
-      "description": "The warlord Shi Jingtang ceded the Sixteen Prefectures — including the area of modern Beijing, with the mountain passes that protected the northern Chinese plain — to the Khitan Liao dynasty in exchange for military help. The Song spent its entire existence trying to recover them, and ultimately could not.",
+      "description": "In 936, the Shatuo Turkic warlord Shi Jingtang bribed the Khitan Liao empire with China's northern mountain passes — sixteen prefectures covering modern Beijing, Tianjin, and the Yan-Taihang range — in exchange for military help seizing the throne. The Song dynasty would spend its entire 167-year northern existence trying to get them back, and never did.",
       "wikiSlug": "Sixteen_Prefectures",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The region's official name was the 'Sixteen Prefectures of Yan-Yun,' named for two of the Tang dynasty's northeastern military zones whose administrative seats sat at Yan and Yun prefectures. The passes through the Yan Mountains were the natural chokepoint between the steppe and the North China Plain — without them, any cavalry force had a straight run at the Yellow River heartland. The Later Jin dynasty Shi Jingtang founded in exchange for this deal lasted only ten years before the Khitan Liao overthrew it anyway."
+        }
+      ],
+      "commonsFile": "10_songmapxknine9.PNG"
     },
     {
       "id": "evt-tsc-emperor-taizu-song",
       "label": "Emperor Taizu of Song (Zhao Kuangyin)",
       "year": 960,
       "endYear": 976,
-      "description": "Zhao Kuangyin's troops 'forced' the imperial yellow robe upon him in 960 — possibly a staged coup. As Emperor Taizu of Song, he reunified most of China and bought out his military commanders over wine in the famous 'exchanging military power for wine cups' policy, founding history's most bureaucratic state.",
+      "description": "Zhao Kuangyin, a general of the last Five Dynasties regime, staged the 'Chenqiao acclamation' in 960 — his troops draped an imperial yellow robe over his shoulders and declared him emperor — then marched on Kaifeng and founded the Song dynasty. Over the next sixteen years as Emperor Taizu he reunified most of China and systematically defanged his own generals.",
       "wikiSlug": "Emperor_Taizu_of_Song",
       "commonsFile": "Song_Taizu.jpg",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 'exchanging military power for wine cups' banquet of 961 was the vehicle: Taizu summoned his senior commanders, told them bluntly that their power unsettled him, and offered generous pensions, estates, and imperial marriages in exchange for their resignations — an offer they accepted on the spot. Taizu dramatically expanded the annual jinshi (civil service degree) quota, shifting the Song's prestige hierarchy so that civilian officials ranked above generals for the first time in Chinese history. He died in 976 under ambiguous circumstances — some sources suggest his brother, who succeeded him as Taizong, may have been involved, though the historical record is inconclusive."
+        }
+      ]
     },
     {
       "id": "evt-tsc-song-kaifeng",
       "label": "Kaifeng: Northern Song Capital",
       "year": 960,
-      "description": "Kaifeng broke from the walled-ward template of Tang Chang'an. Open shop-lined streets, restaurants, and night markets operating past midnight made it the most commercial Chinese city ever built. By 1000 CE it was the world's most populous city, with over a million residents.",
+      "description": "Kaifeng broke from the walled-ward template of Tang Chang'an entirely — open streets, shop-lined thoroughfares, restaurants and night markets operating past midnight. By 1000 CE it was the most populous city in the world, with over a million residents inside the walls.",
       "wikiSlug": "Kaifeng",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike Tang Chang'an, which divided the city into enclosed residential wards with internal gates and night curfews, Kaifeng's commercial districts opened directly onto public streets — a structural expression of the Song's market economy. Kaifeng served as the capital eight times in Chinese history, and it sits in east-central Henan province on the Yellow River, which has flooded the city repeatedly over the centuries. The city is one of the Eight Ancient Capitals of China."
+        }
+      ],
+      "commonsFile": "龙亭公园_-_panoramio_(2).jpg"
     },
     {
       "id": "evt-tsc-landscape-painting",
       "label": "Song Landscape Painting",
       "year": 1000,
-      "description": "Northern Song painters elevated shanshui (mountains-and-water) painting to monumental scale. Fan Kuan's 'Travelers Among Mountains and Streams' (c. 1000) towered seven feet tall over tiny human figures. Southern Song masters Ma Yuan and Xia Gui developed an asymmetric, intimate style emphasizing empty space.",
+      "description": "Northern Song painters elevated shanshui ('mountains-and-water') painting to monumental scale and philosophical ambition — Fan Kuan's 'Travelers Among Mountains and Streams' (c. 1000) stands nearly seven feet tall, with human figures dwarfed to near-invisibility by towering cliffs. Southern Song masters Ma Yuan and Xia Gui then pivoted to intimate, asymmetric compositions that used empty space as a structural element, producing a contemplative quietness the Northern Song monumental style never aimed for.",
       "wikiSlug": "Chinese_painting",
       "commonsFile": "Fan_Kuan_-_Travelers_Among_Mountains_and_Streams_-_Google_Art_Project.jpg",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Fan Kuan's 'Travelers Among Mountains and Streams' was hidden for centuries in the Qing imperial collection and is now at the National Palace Museum in Taipei — art historians consider it one of the greatest paintings in Chinese history, but Fan Kuan himself is so obscure that almost nothing is known about his life. Su Shi's advocacy for literati painting (wenrenhua) — the idea that expressive brushwork and the painter's cultivation mattered more than technical likeness — was as consequential for East Asian art theory as his poetry was for literature, and it permanently shifted the prestige hierarchy away from professional court painters."
+        }
+      ]
     },
     {
       "id": "evt-tsc-song-fire-weapons",
       "label": "Gunpowder Weapons in Warfare",
       "year": 1000,
-      "description": "Song military engineers developed the first gunpowder weapons — fire arrows, fire lances (bamboo tubes that shot flames and projectiles at close range), thunderclap bombs, and proto-cannons. Constant northern military pressure created urgent demand for innovation; the Wujing Zongyao (1044) catalogued formulas and designs.",
+      "description": "Song military engineers developed the first gunpowder weapons deployed in actual warfare — fire arrows, fire lances (bamboo tubes shooting flames and projectiles), thunderclap bombs, and proto-cannons — driven by constant pressure from the Khitan Liao and Tangut Western Xia on the northern and western frontiers.",
       "wikiSlug": "History_of_gunpowder",
       "tier": 3,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gunpowder knowledge spread rapidly across Eurasia, likely through Mongol conquests in the 13th century. Written formulas appear in Middle Eastern texts between 1240 and 1280, and in Europe by 1267 in Roger Bacon's Opus Majus. The fire lance gradually gave way to guns by the 13th century, while rockets, fire arrows, and bombs continued to develop independently in China, Korea, India, and eventually Europe and Africa."
+        }
+      ],
+      "commonsFile": "11th_century_basketry_fire_arrow_rocket_launcher.jpg"
     },
     {
       "id": "evt-tsc-jingdezhen-porcelain",
       "label": "Jingdezhen Imperial Porcelain",
       "year": 1004,
-      "description": "The Song court designated Jingdezhen as the official imperial porcelain supplier in 1004. Its kaolin clay produced exceptionally white, translucent qingbai (blue-white) porcelain that, with the Five Great Kilns (Ru, Guan, Ge, Ding, and Jun), defined Song ceramic art and remained the world's porcelain capital for nearly a thousand years.",
+      "description": "In 1004, the Song court designated Jingdezhen — a city in Jiangxi province sitting atop vast deposits of fine kaolin clay — as the official imperial porcelain supplier, launching a nearly thousand-year reign as the global capital of porcelain production. Song kilns produced the Five Great Kilns categories (including Ru ware's prized sky-blue celadon and Jun ware's bold copper-red glazes), and Jingdezhen's qingbai (blue-white) ware was exported across Eurasia and Africa.",
       "wikiSlug": "Jingdezhen",
-      "commonsFile": "Longquan_celadon_vase_2,_Song_Dynasty.jpg",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ru ware, the rarest of the Five Great Kilns categories, was produced for only about twenty years (c. 1086–1106) before the Jurchen invasion ended northern Song imperial production — fewer than a hundred authenticated pieces survive worldwide, making them among the most valuable ceramics ever sold at auction. Song porcelain's dominance in international trade was so complete that the English word 'china' for the material became standard in European usage by the 17th century, and Chinese ceramic techniques were actively sought and reverse-engineered by potters from Persia to Saxony."
+        }
+      ]
     },
     {
       "id": "evt-tsc-champa-rice",
       "label": "Champa Rice Introduction",
       "year": 1012,
-      "description": "Emperor Zhenzong ordered the importation of fast-ripening, drought-resistant rice from Champa (central Vietnam). The new strains matured in 60 days rather than 120, enabled double-cropping, and roughly doubled rice production. China's population passed 100 million by 1100 — the first society to surpass that threshold.",
+      "description": "Emperor Zhenzong ordered the importation of fast-ripening, drought-resistant rice from Champa (the Cham kingdom in central Vietnam) in 1012. The new strains matured in 60 days rather than 120, enabled double-cropping (two harvests per year), and helped push China's population past 100 million by 1100 — the first society in history to reach that threshold.",
       "wikiSlug": "Champa_rice",
       "tier": 2,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Champa rice likely originated in eastern India before it reached the Champa kingdom. The Song sent it to peasants across China as a state-distributed agricultural intervention, not just a market diffusion. It belongs to the aus sub-population of rice, which shares traits with both japonica and indica varieties. The agricultural surplus it enabled allowed the surplus rural population to move into commercial production of silk, ceramics, tea, and metal goods, fueling Song urbanization."
+        }
+      ],
+      "commonsFile": "White,_Brown,_Red_&_Wild_rice.jpg"
     },
     {
       "id": "evt-tsc-song-paper-money",
       "label": "First Paper Money Issued",
       "year": 1024,
-      "description": "The Song government took over private merchant deposit certificates in Sichuan and issued the jiaozi — the world's first state-backed paper currency, seven centuries before any European state did the same. Multi-color printing fought counterfeiting; three-year expiration cycles controlled the money supply. Overprinting also taught the Song the dangers of inflation.",
+      "description": "In 1024, the Song government issued the jiaozi — the world's first state-backed paper currency — taking over private merchant deposit certificates that had emerged in iron-coin-heavy Sichuan. Multi-color printing fought counterfeiting; three-year circulation periods attempted to control the money supply. The Song also discovered, painfully, the dangers of overprinting.",
       "wikiSlug": "Jiaozi_(currency)",
-      "commonsFile": "Jiao_zi.jpg",
+      "commonsFile": "Hue-tzu_(Song_Dynasty_government_issue),_1023_-_John_E._Sandrock.jpg",
       "tier": 1,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The jiaozi originated because iron coins in Sichuan were so heavy that large transactions required cartloads of currency — reportedly 1.5 kilograms of iron coins to buy a pound of salt. Early jiaozi notes did not have standard denominations but were issued according to the purchaser's needs, ranging from 500 wén to 5 guàn. The government office that issued them charged a conversion fee of 30 wén per guàn exchanged. Stockholm's Banco issued the first European paper money in 1661 — more than six centuries later."
+        }
+      ]
     },
     {
       "id": "evt-tsc-su-shi",
       "label": "Su Shi (Su Dongpo)",
       "year": 1037,
-      "description": "Su Shi excelled simultaneously as ci poet, prose essayist, calligrapher, painter, statesman, and gastronome — the Song ideal of the cultivated gentleman-official. His opposition to Wang Anshi's reforms got him repeatedly exiled; his 'Red Cliff Rhapsodies' are among the most celebrated works in Chinese literature. He is also credited with inventing Dongpo pork.",
+      "description": "Su Shi (1037–1101) — known by his pen name Su Dongpo — was the Song ideal of the cultivated gentleman-official made flesh: simultaneously a master of ci poetry, prose essays, calligraphy, and painting, while also serving (and repeatedly being exiled from) government office. His 'Red Cliff Rhapsodies,' written during exile, meditate on history, impermanence, and the smallness of human life against the eternal river — and are among the most celebrated works in Chinese literature.",
       "wikiSlug": "Su_Shi",
       "commonsFile": "Su_shi.jpg",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Su Shi's calligraphic manuscript of 'Cold Food Observance' — written during an exile in Huangzhou — is ranked one of the top three masterpieces in the history of Chinese calligraphy, alongside works by Wang Xizhi and Yan Zhenqing. He is also credited with inventing Dongpo pork, a slow-braised pork-belly dish still found on Chinese restaurant menus today, reportedly devised during his Huangzhou exile when cheap pork was all he could afford. The Su Causeway he built across West Lake in Hangzhou still bears his name and still draws tourists."
+        }
+      ]
     },
     {
       "id": "evt-tsc-movable-type",
       "label": "Movable Type Printing Invented",
       "year": 1040,
-      "description": "Bi Sheng, a commoner artisan, invented ceramic movable type around 1040 — fired clay characters set in a wax-and-resin bed within an iron frame. Shen Kuo described it in detail in the Dream Pool Essays (1088). Korean metalworkers later improved it with metal type; Gutenberg's 1440s press independently developed the same principle four centuries later.",
+      "description": "Bi Sheng, a commoner artisan, invented ceramic movable type around 1040 — individual fired-clay characters set in a wax-and-resin bed inside an iron frame, rearranged and reused after each print run. We know of him almost entirely through Shen Kuo's description in the Dream Pool Essays (1088).",
       "wikiSlug": "Bi_Sheng",
       "tier": 2,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bi Sheng lived from 972 to 1051, and because he was a commoner rather than an educated official, almost nothing else is known about his life. His clay type was less practical for Chinese — which requires thousands of distinct characters — than for alphabetic scripts, so woodblock remained dominant in China. Korean metalworkers independently developed metal movable type in the 13th century, an improvement on clay, before Gutenberg's press appeared in the 1440s."
+        }
+      ],
+      "commonsFile": "Beijing.Musee_imprimerie.caracteres_mobiles.Bisheng.jpg"
     },
     {
       "id": "evt-tsc-wujing-zongyao",
       "label": "Wujing Zongyao Military Compendium",
       "year": 1044,
-      "description": "Compiled under imperial commission by Zeng Gongliang, the Wujing Zongyao contains the earliest known weaponized gunpowder formulas — specific proportions of saltpeter, sulfur, and charcoal — alongside recipes for incendiary bombs, fire arrows, poisonous smoke balls, and signal rockets.",
+      "description": "The Wujing Zongyao (1044), compiled by Zeng Gongliang under imperial commission, contains the earliest known weaponized gunpowder formulas — precise proportions of saltpeter, sulfur, and charcoal — alongside designs for incendiary bombs, fire arrows, fire lances, poisonous smoke balls, and signal rockets.",
       "wikiSlug": "Wujing_Zongyao",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fire lance described in the compendium — a bamboo or paper tube packed with gunpowder that shot flames and shrapnel at close range — functioned simultaneously as a proto-flamethrower and a proto-firearm. The Wujing Zongyao was written between roughly 1040 and 1044. The Jurchen and Mongol forces who later conquered the Song absorbed this gunpowder technology and deployed it far more aggressively in conquest than the Song ever had."
+        }
+      ],
+      "commonsFile": "Chinese_Gunpowder_Formula.JPG"
     },
     {
       "id": "evt-tsc-iron-pagoda",
       "label": "Iron Pagoda of Kaifeng",
       "year": 1049,
-      "description": "Built in 1049 at the Youguo Temple in Kaifeng to replace a wooden pagoda destroyed by lightning, the 180-foot (55 m), 13-story Iron Pagoda is faced in 28 types of brown glazed brick depicting Buddhas, dragons, and flowers. It has stood through nearly a thousand years of Yellow River floods, wars, and earthquakes.",
+      "description": "The Iron Pagoda — 180 feet (55 m) tall, 13 stories, faced in 28 types of brown glazed brick — was built at Kaifeng's Youguo Temple in 1049, replacing a wooden predecessor destroyed by lightning five years earlier. Its color resembles iron, giving it the name; the tower is actually brick, not metal.",
       "wikiSlug": "Iron_Pagoda",
-      "commonsFile": "Iron_Pagoda_of_Kaifeng_2.jpg",
+      "commonsFile": "1049_AD_Iron_Pagoda,_Northern_Song_Dynasty,_Kaifeng_03.jpg",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Iron Pagoda is classed as a masterpiece of Song dynasty architecture alongside the Liuhe, Lingxiao, Liaodi, Pizhi, and Beisi pagodas. It replaced a wooden pagoda burned down by lightning in 1044. Despite nearly a thousand years of Yellow River floods, wars, and earthquakes, the structure still stands in Kaifeng today and is often confused with the genuinely iron-built Yu Quan Pagoda at Dangyang — a separate structure that is almost entirely cast iron."
+        }
+      ]
     },
     {
       "id": "evt-tsc-wang-anshi-reforms",
       "label": "Wang Anshi's New Policies",
       "year": 1069,
       "endYear": 1076,
-      "description": "Wang Anshi became chancellor under Emperor Shenzong and pushed sweeping reforms: government loans to farmers at below-market rates, state trading bureaus to stabilize prices, the baojia militia system, and exam reforms emphasizing practical policy over literary elegance. His program triggered bitter factional warfare with the conservatives led by Sima Guang.",
+      "description": "Wang Anshi became chancellor under Emperor Shenzong in 1069 and launched the New Policies — government farm loans at below-market rates, state price-stabilization bureaus, the baojia neighborhood militia, and civil service exam reforms. The program triggered a bitter factional war with conservatives led by Sima Guang that exhausted the dynasty for decades.",
       "wikiSlug": "Wang_Anshi",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wang Anshi was not just a politician but a poet and philosopher; his courtesy name was Jiefu. The Green Sprouts program was specifically designed to undercut rural moneylenders who charged extortionate harvest-time interest rates. His reformist New Policies faction and Sima Guang's Conservative faction would alternately seize power and purge each other through the 1080s and 1090s, draining the state's political energy at the moment the Jurchen threat was rising."
+        }
+      ],
+      "commonsFile": "Wang_Anshi.jpg"
     },
     {
       "id": "evt-tsc-song-coal-iron",
       "label": "Song Iron and Steel Production",
       "year": 1078,
-      "description": "Song iron output reached approximately 125,000 tons annually by 1078, exceeding England's iron production at the start of the Industrial Revolution seven centuries later. Deforestation forced a switch from charcoal to coke in blast furnaces — a fuel transition Europe wouldn't make until the 18th century.",
+      "description": "Song iron production reached approximately 125,000 tons annually by 1078 — exceeding England's output at the start of the Industrial Revolution seven centuries later. Deforestation in north China forced ironworkers to switch from charcoal to coke in blast furnaces, a fuel transition Europe would not make until Abraham Darby's innovations in 1709.",
       "wikiSlug": "History_of_metallurgy_in_China",
       "tier": 2,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "China had been producing cast iron since the 5th century BCE, roughly 1,500 years before Europe mastered the technique. Song iron went into weapons, agricultural tools, the iron coins of the Sichuan economy, construction, and water-control infrastructure. The switch to coke-fired blast furnaces was driven by practical necessity rather than invention for its own sake — the forests of north China had simply been consumed by centuries of charcoal production."
+        }
+      ],
+      "commonsFile": "Chinese_Fining_and_Blast_Furnace.jpg"
     },
     {
       "id": "evt-tsc-sima-guang",
       "label": "Sima Guang's Comprehensive Mirror",
       "year": 1084,
-      "description": "Sima Guang, leader of the conservative faction opposing Wang Anshi, completed the Zizhi Tongjian — a 294-volume chronicle covering 1,362 years of Chinese history from 403 BCE to 959 CE. Emperor Shenzong titled it 'Comprehensive Mirror to Aid in Government.' It became the second most influential work of Chinese historiography after Sima Qian's Records of the Grand Historian.",
+      "description": "Sima Guang spent his years out of power writing the Zizhi Tongjian — a 294-volume chronicle covering 1,362 years of Chinese history from 403 BCE to 959 CE. Emperor Shenzong personally titled it 'Comprehensive Mirror to Aid in Government.' Every subsequent Chinese emperor was expected to study it.",
       "wikiSlug": "Zizhi_Tongjian",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The main text runs to approximately 3 million Chinese characters across 294 scrolls — one of the most ambitious writing projects in premodern history. It covers 16 dynasties. Despite Sima Guang's bitter political opposition to Shenzong's reform policies, the emperor still honored the finished work by giving it its title. The Zizhi Tongjian remains a primary reference for Chinese historians studying the periods it covers."
+        }
+      ],
+      "commonsFile": "Zizhi_Tongjian_by_Sima_Guang.jpg"
     },
     {
       "id": "evt-tsc-li-qingzhao",
       "label": "Li Qingzhao",
       "year": 1084,
-      "description": "Li Qingzhao is considered the greatest female poet in Chinese history. Born into a literary family and married to the antiquarian Zhao Mingcheng, she lost her husband and their art collection in the Jurchen catastrophe of 1127. Her later ci poetry on grief and displacement is among the most directly devastating in Chinese literature, and her theory of ci as a distinct genre shaped the form for centuries.",
+      "description": "Li Qingzhao (1084–c. 1155) is considered the greatest female poet in Chinese history — an exceptional figure in a literary culture that had almost no infrastructure for producing female poets. Her ci lyrics (lyric poems set to musical tunes with irregular line lengths) on love and longing gave way, after the Jurchen invasion of 1127 destroyed her home and widowed her, to poems on grief and displacement that remain among the most directly devastating in Chinese literature.",
       "wikiSlug": "Li_Qingzhao",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Li Qingzhao and her husband Zhao Mingcheng were serious antiquarian collectors — they spent decades gathering inscriptions, bronze vessels, and rare books, and she wrote a memoir about the collection after its loss that is itself considered a literary masterpiece. Her critical essay 'Discourse on Ci' argued that ci was a distinct genre with its own formal standards, not just a lesser cousin of regulated verse — a theoretical claim that shaped how the form was practiced and judged for centuries afterward."
+        }
+      ],
+      "commonsFile": "李清照塑像.jpg"
     },
     {
       "id": "evt-tsc-magnetic-compass",
       "label": "Magnetic Compass for Navigation",
       "year": 1088,
-      "description": "Shen Kuo described magnetic needle compasses in the Dream Pool Essays (1088) and noted magnetic declination — the slight offset between magnetic north and true north — four centuries before European scientists made the same observation. By the early 12th century, Chinese navigators were using floating-needle compasses for ocean voyages, enabling the Song maritime trade revolution.",
+      "description": "Shen Kuo's Dream Pool Essays (1088) described floating-needle magnetic compasses in detail and noted magnetic declination — the offset between magnetic north and true north — four centuries before European scientists made the same observation. By the early 12th century, Chinese maritime navigators were using compasses for ocean voyages.",
       "wikiSlug": "History_of_the_compass",
       "tier": 2,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Christopher Columbus encountered magnetic declination during his 1492 transatlantic voyage and treated it as a novel discovery; Shen Kuo had documented it in 1088. The compass reached Arab navigators by the 12th century and European navigators by the 13th, where it combined with improvements in shipbuilding and the astrolabe to make the European Age of Exploration possible. Chinese geomancers had been using magnetic lodestone for feng shui divination since the Han period, centuries before the navigational application."
+        }
+      ],
+      "commonsFile": "Southern_Song_Figure_Holding_Land_Compass_(9872744925).jpg"
     },
     {
       "id": "evt-tsc-shen-kuo",
       "label": "Shen Kuo's Dream Pool Essays",
       "year": 1088,
-      "description": "Shen Kuo — Song official, diplomat, and military commander — compiled lifetime observations on geology, astronomy, optics, magnetism, mathematics, and technology into the Dream Pool Essays. His empirical method anticipated the scientific method by centuries; his description of Bi Sheng's movable type and the magnetic compass preserves the only contemporary record of those innovations.",
+      "description": "Shen Kuo — Song official, diplomat, military commander, and astronomer — compiled the Dream Pool Essays (1088) after his political career ended in factional warfare. The Essays record fossil evidence for undersea mountains (four centuries before any European naturalist), movable-type printing, floating compasses, and dozens of other contemporary innovations.",
       "wikiSlug": "Shen_Kuo",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shen Kuo's career before retirement was remarkably diverse: finance minister, governmental state inspector, head official for the Bureau of Astronomy, and military commander on the Western Xia frontier. He reformed the imperial calendar and improved the astronomical observatory at Kaifeng. His recognition that fossilized seashells in mountain rocks indicated those mountains were once undersea anticipated geological reasoning that would not appear in Europe until centuries later."
+        }
+      ],
+      "commonsFile": "Beijing_Ancient_Observatory_20090715-19_(cropped).jpg"
     },
     {
       "id": "evt-tsc-emperor-huizong",
       "label": "Emperor Huizong",
       "year": 1100,
       "endYear": 1126,
-      "description": "Zhao Ji invented the elegant 'Slender Gold' calligraphic script, painted bird-and-flower studies prized for centuries, and compiled a catalogue of over 6,000 court paintings. He was simultaneously one of China's greatest artists and worst rulers — captured by the Jurchen in 1127 and dying in northern captivity.",
+      "description": "Emperor Huizong (ruled 1100–1126) was one of China's greatest artists — inventor of the 'Slender Gold' calligraphic style, a celebrated bird-and-flower painter, and compiler of a 6,000-painting imperial catalogue. He was simultaneously the ruler who allied with the Jurchen against the Liao, misjudged the result, and ended 1127 as a captive in the north.",
       "wikiSlug": "Emperor_Huizong_of_Song",
-      "commonsFile": "Songhuizong4.jpg",
+      "commonsFile": "Seated_Portrait_of_Emperor_Song_Huizong.tif",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Huizong was the eleventh son of Emperor Shenzong and ascended the throne only because his older brother's only son died prematurely. The Jurchen Jin dynasty gave him the humiliating title 'Duke Hunde' (Duke of Muddled Virtue) after his capture. He spent roughly nine years in captivity before dying in Wuguocheng. His son Zhao Gou was the only member of the immediate imperial family to escape Jurchen capture; Zhao Gou declared himself Emperor Gaozong and founded the Southern Song dynasty."
+        }
+      ]
     },
     {
       "id": "evt-tsc-song-maritime-trade",
       "label": "Song Maritime Trade Revolution",
       "year": 1100,
-      "description": "With the overland Silk Road controlled by hostile powers, the Song pivoted to ocean trade. Multi-masted junks up to 100 feet long with watertight compartments carried porcelain, silk, and tea to Southeast Asia, India, and East Africa, returning with spices, aromatics, and gems. Maritime customs revenue alone exceeded the entire income of some European kingdoms.",
+      "description": "Blocked from the overland Silk Road by hostile northern powers, the Song pivoted to the sea — building multi-masted ocean junks with watertight bulkhead compartments (an innovation Europe wouldn't adopt until the 19th century), stern rudders, and magnetic compass navigation that made reliable transoceanic voyaging possible. By the 12th–13th centuries, Song maritime trade ran from Quanzhou to Java, through the Strait of Malacca, across the Indian Ocean to India, the Persian Gulf, the Red Sea, and the East African coast.",
       "wikiSlug": "Economy_of_the_Song_dynasty",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The magnetic compass was being used for maritime navigation in China by the early 12th century — a Chinese text from around 1119 describes sailors steering by south-pointing needle in overcast weather when the stars were invisible. Song maritime customs duties (the taxes collected at major ports on imported and exported goods) constituted a significant share of government revenue, at times exceeding 20% of total state income — which is why the Song, unlike earlier Chinese dynasties that treated merchants with suspicion, actively promoted and protected overseas trade."
+        }
+      ],
+      "commonsFile": "S472_SongNord_HuiZong_DaGuan_(7256117202)_(cropped).jpg"
     },
     {
       "id": "evt-tsc-yue-fei",
       "label": "Yue Fei",
       "year": 1103,
       "endYear": 1142,
-      "description": "Southern Song general from a peasant family whose mother famously tattooed four characters on his back: 'Serve the country with utmost loyalty.' Won repeated victories against the Jurchen and was poised to retake Kaifeng when Chancellor Qin Hui recalled him and executed him on fabricated charges. Posthumously rehabilitated, he is China's supreme symbol of patriotic loyalty betrayed; iron statues of Qin Hui kneel in eternal shame at his tomb.",
+      "description": "Yue Fei (1103–1142) rose from a peasant family to become the Southern Song's most effective general against the Jurchen, winning campaigns that were on the verge of retaking Kaifeng when Chancellor Qin Hui recalled him, fabricated rebellion charges against him, and had him executed at age 39. He is China's supreme symbol of patriotic loyalty destroyed by domestic political corruption.",
       "wikiSlug": "Yue_Fei",
       "commonsFile": "Yue_Fei_2.jpg",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Qin Hui's justification for the charges — recorded verbatim in the chronicles as \"perhaps it exists\" (mo xu you) — became one of the most quoted phrases in Chinese political vocabulary, shorthand for cynical authority manufacturing guilt from nothing. After Yue Fei's posthumous rehabilitation in 1162, iron statues of Qin Hui and his wife were installed kneeling before Yue Fei's tomb at West Lake; visitors traditionally spit on them and beat them with sticks, and the statues have been replaced multiple times from the damage — modern signs now ask visitors to express their contempt verbally instead."
+        }
+      ]
     },
     {
       "id": "evt-tsc-along-river-scroll",
       "label": "Along the River During Qingming Festival",
       "year": 1120,
-      "description": "Zhang Zeduan's 17-foot handscroll captures Kaifeng's bustling commercial life on the Qingming spring festival: over 800 human figures, 28 boats, 60 animals, 170 trees, plus shops, teahouses, restaurants, the Rainbow Bridge, and crowds from every social class. It is the single most valuable visual record of Song urban life and a national treasure of China.",
+      "description": "Zhang Zeduan's 17-foot handscroll, completed around 1120, captures Kaifeng's Qingming Festival in staggering detail — over 800 human figures from every social class, 28 boats, 60 animals, 170 trees, the Rainbow Bridge, plus shops, teahouses, and street performers. It is considered the most renowned of all Chinese paintings.",
       "wikiSlug": "Along_the_River_During_the_Qingming_Festival",
       "commonsFile": "Bianjing_city_gate.JPG",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scroll is sometimes called 'China's Mona Lisa.' It reads right to left as the viewer unrolls it, moving from countryside into city, revealing rural and urban life in sequence. The painting is now held in the Palace Museum in Beijing. Numerous Ming and Qing dynasty copies and reinterpretations exist, but Zhang Zeduan's Northern Song original is the primary historical document."
+        }
+      ]
     },
     {
       "id": "evt-tsc-jurchen-conquest",
       "label": "Jingkang Incident — Jurchen Conquest",
       "year": 1127,
-      "description": "Jurchen Jin armies captured Kaifeng after a siege in 1127. Emperor Huizong, his son Emperor Qinzong, and 3,000 members of the imperial court — princes, princesses, palace women, scholars, artisans — were marched north into captivity. Most never returned. The Jingkang Incident traumatized Chinese national consciousness for centuries and divided the Song into Northern and Southern halves.",
+      "description": "In 1127, Jurchen Jin armies besieged and sacked Kaifeng (the Northern Song capital), capturing both emperors — the abdicated Huizong and his son Qinzong — along with roughly 3,000 nobles, palace women, scholars, and artisans, who were marched north into captivity. The event, known as the Jingkang Incident, is the single deepest trauma in pre-modern Chinese national memory.",
       "wikiSlug": "Jingkang_Incident",
-      "commonsFile": "Jin_Tianhui.jpg",
+      "commonsFile": "Huizong.jpg",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ordinary Kaifeng civilians were largely spared killing, but were forced to hand over enormous quantities of valuables, and violence against them was common. Huizong — the brilliant painter-emperor — died in a cold northern garrison in 1135, far from the Yangtze landscapes he had spent his life depicting. His son Qinzong survived in captivity until 1161, at one point paraded before the Jurchen court dressed as a Khitan slave as a deliberate humiliation."
+        }
+      ]
     },
     {
       "id": "evt-tsc-zhu-xi-neoconfucianism",
       "label": "Zhu Xi and Neo-Confucianism",
       "year": 1130,
       "endYear": 1200,
-      "description": "Zhu Xi synthesized centuries of Confucian thought with Buddhist and Daoist metaphysics, building the framework called Neo-Confucianism around the concepts of li (principle) and qi (material force) and 'investigating things' as moral cultivation. He designated the Four Books as the core curriculum. From 1313 to 1905, his commentaries were required for civil service exams in China, Korea, Japan, and Vietnam — making him arguably the most influential Chinese thinker after Confucius.",
+      "description": "Zhu Xi (1130–1200) synthesized centuries of Confucian thought into Neo-Confucianism — a coherent philosophical system built around li (principle: the rational pattern in all things) and qi (material force: the substance through which principle is realized), with moral cultivation rooted in the patient 'investigation of things.' His commentaries on the Four Books became the required curriculum for Chinese civil service examinations from 1313 to 1905, and his framework shaped governance, education, and family life across East Asia.",
       "wikiSlug": "Zhu_Xi",
       "commonsFile": "Zhu_xi.jpg",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zhu Xi's influence outlasted every dynasty he served: his Four Books commentaries were the mandatory civil service exam text for 592 consecutive years across China, Korea, Japan, and Vietnam. He was also a prolific poet and historian — his 'Comprehensive Mirror in Aid of Governance' annotations shaped how later scholars read Chinese dynastic history. Despite his enormous posthumous authority, Zhu Xi spent much of his career under political suspicion; his teachings were briefly banned in the 1190s as 'false learning' before his death."
+        }
+      ]
     },
     {
       "id": "evt-tsc-song-navy",
       "label": "Song Standing Navy",
       "year": 1132,
-      "description": "The Southern Song built China's first permanent standing navy to defend the Yangtze line. Its paddle-wheel warships, powered by foot-operated treadmills inside the hull, could carry over 1,000 soldiers and deploy gunpowder thunderclap bombs and early cannons. The Song navy held the Yangtze for over a century.",
+      "description": "The Southern Song built China's first permanent standing navy to hold the Yangtze River — the natural barrier separating their southern territories from Jurchen cavalry that couldn't effectively cross without ships. Their warships included paddle-wheel vessels driven by sailors operating foot treadmills inside the hull, and carried gunpowder weapons including thunderclap bombs and early proto-cannons.",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The foot-powered paddle wheel — sailors walking treadmill drums that turned external paddles — gave Song warships maneuverable propulsion against river currents that sail-powered vessels could not match; the engineering principle would not be independently reinvented in Europe until steam-powered paddle wheelers transformed the Mississippi and trans-Atlantic routes in the early 19th century. The Song navy held the Yangtze line for over a century against Jurchen attempts to cross in force; when the Mongols finally conquered the Southern Song in the 1270s, they had to spend years building a purpose-built naval force capable of matching it."
+        }
+      ],
+      "commonsFile": "Songrivership3.jpg"
     },
     {
       "id": "evt-tsc-song-hangzhou",
       "label": "Hangzhou: Southern Song Capital",
       "year": 1138,
-      "description": "Officially designated 'temporary capital' in 1138 (no Song emperor would ever publicly admit Kaifeng was lost for good), Hangzhou grew to over a million residents and became the largest city in the world. Marco Polo, visiting in the 1270s, called it 'the finest and noblest city in the world,' counted twelve thousand bridges, and described enormous markets and public bathhouses.",
+      "description": "After fleeing the Jurchen collapse of the north, the surviving Song court settled at Hangzhou in 1138, officially calling it Lin'an (\"Temporarily at Peace\") — a polite fiction that recovery of Kaifeng was always imminent. The city grew to over a million residents, sat at the southern end of the Grand Canal beside the famed West Lake, and became by some estimates the largest city in the world.",
       "wikiSlug": "Hangzhou",
-      "commonsFile": "West_Lake.jpg",
       "tier": 2,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Marco Polo, visiting Hangzhou in the 1270s after the Mongol conquest, called it \"the finest and noblest city in the world\" and counted twelve thousand bridges — a figure probably inflated, but the city's scale and sophistication were genuine. The Qiantang River estuary beside the city produces one of the world's most spectacular natural events: a tidal bore up to thirty feet high that surges upriver at certain phases of the moon, which Song poets and painters were already treating as a tourist attraction."
+        }
+      ]
     },
     {
       "id": "evt-tsc-quanzhou-port",
       "label": "Quanzhou: World's Busiest Port",
       "year": 1200,
-      "description": "Quanzhou — known to Arab traders as Zayton — became the Song's primary international port and arguably the busiest in the world. Foreign merchant communities from Arabia, Persia, India, and Southeast Asia had their own quarters, mosques, Hindu temples, and Nestorian churches. Marco Polo called it one of the world's two greatest ports. UNESCO World Heritage Site since 2021.",
+      "description": "Quanzhou — known to Arab traders as Zayton — was the Song dynasty's primary international gateway, likely the busiest port in the world by the late 13th century. Foreign merchant communities from Arabia, Persia, India, and Southeast Asia maintained their own quarters, mosques, a Tamil-style Hindu temple, and Nestorian Christian churches. Marco Polo, visiting in the 1290s, called it one of the world's two greatest ports alongside Alexandria. UNESCO made it a World Heritage Site in 2021.",
       "wikiSlug": "Quanzhou",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Excavations at Quanzhou have recovered the physical remains of its multicultural past: a Quanzhou shipwreck from around 1271 — a Southern Song ocean junk — was excavated in the 1970s and found to contain tens of thousands of pieces of porcelain plus aromatics, spices, and iron goods, giving archaeologists a snapshot of exactly what a late Song merchant vessel carried. Column fragments from a Tamil-style Hindu temple have also been excavated in the city, testifying to a community of South Indian traders large enough to build their own temple thousands of miles from home."
+        }
+      ],
+      "commonsFile": "20230130_Old_City_of_Quanzhou_01.jpg"
     },
     {
       "id": "evt-tsc-mongol-conquest",
       "label": "Mongol Conquest of the Song",
       "year": 1271,
       "endYear": 1279,
-      "description": "Kublai Khan declared the Yuan dynasty in 1271 and launched the final Song campaigns. Muslim engineers from the Middle East built counterweight trebuchets (huihui pao) that broke the six-year siege of Xiangyang in 1273. Hangzhou fell in 1276. The Mongols inherited the world's most sophisticated economy, bureaucracy, and technology.",
+      "description": "The final, systematic Mongol campaign to destroy the Southern Song — declared as the Yuan dynasty project by Kublai Khan in 1271 and completed by 1279 — was the last great military achievement of the Mongol Empire, and the first time all of China fell under foreign rule.",
       "wikiSlug": "Mongol_conquest_of_the_Song_dynasty",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The war had been grinding on in limited form since the 1230s, meaning the Song held out against the Mongols for roughly four decades before the end. Kublai's decision to proclaim the Yuan dynasty in 1271 was a deliberate political move: by adopting a Chinese dynastic name (yuan means 'primordial' or 'origin'), he was claiming the Mandate of Heaven as a legitimate Chinese emperor, not just a Mongol conqueror. The technological turning point was the import of counterweight trebuchets — called huihui pao, 'Muslim machines' — from the Ilkhanate in Persia, which broke the six-year siege of Xiangyang in 1273 and opened the Yangtze valley to the Mongol advance."
+        }
+      ],
+      "commonsFile": "Mongol_Song_Wars.jpg"
     },
     {
       "id": "evt-tsc-battle-yamen",
       "label": "Battle of Yamen",
       "year": 1279,
-      "description": "The final naval battle of the Mongol conquest. The Song fleet of over 1,000 ships was trapped in the bay at Yamen in modern Guangdong. Minister Lu Xiufu, seeing defeat was certain, tied the eight-year-old Emperor Bing to his back and jumped into the sea. Over 100,000 loyalists reportedly died with him. For the first time in history, all of China was ruled by a foreign dynasty.",
+      "description": "On March 19, 1279, the Song dynasty's last naval stand ended in Yamen Bay off modern Guangdong: when defeat became certain, the Song minister Lu Xiufu tied the eight-year-old Emperor Bing to his back and jumped into the sea, and over 100,000 loyalists reportedly followed — ending 319 years of Song rule and placing all of China under Mongol control for the first time in history.",
       "wikiSlug": "Battle_of_Yamen",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Song fleet at Yamen numbered roughly a thousand ships, but the Mongol commander Zhang Hongfan — himself a Chinese general serving the Yuan — had tactically pinned them in the bay with no room to maneuver. Accounts say bodies washed ashore for days afterward, and local fishermen reportedly identified Emperor Bing's small body by his imperial robes and secretly buried him; a small temple eventually built at that site near modern Hong Kong still stands today."
+        }
+      ]
     }
   ]
 }
