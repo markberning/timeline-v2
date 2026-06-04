@@ -67,386 +67,626 @@
       "id": "evt-songhai-niger-river",
       "label": "Niger River as imperial spine",
       "year": 700,
-      "description": "The Niger River — the third-longest in Africa — bends north from the Guinea highlands into the Sahel, runs east past Timbuktu, then turns south through the Niger Bend toward modern Nigeria. The east-west arc through the Sahel was the structural geography that made Songhai possible: a navigable river running through cities like Djenné, Timbuktu, and Gao that served as commercial and military spine for every Sahelian empire from Ghana to Songhai.",
+      "description": "The Niger — the third-longest river in Africa after the Nile and the Congo — takes an improbable northward arc deep into the Sahara before bending southeast at Gao, creating the single most important geographic highway in West African history. Every great Sahelian empire, from Ghana through Mali to Songhai, built its wealth by sitting astride this arc and taxing the gold-and-salt trade flowing along it.",
       "wikiSlug": "Niger_River",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Niger's drainage basin covers over 817,000 square miles (2.1 million km²) across nine countries, and its main tributary is the Benue River in central Nigeria. Despite rising in the Guinea Highlands only about 150 miles (240 km) from the Atlantic coast, the river travels roughly 2,600 miles (4,200 km) in the opposite direction before reaching the sea. The Inner Niger Delta — a massive braided-channel flood plain about 1,500 miles (2,400 km) inland — creates millions of acres of seasonally flooded grassland that supported unusually dense agricultural populations in what would otherwise be near-desert."
+        }
+      ],
+      "commonsFile": "Niger,_Niamey,_Pont_Kennedy_(1).jpg"
     },
     {
       "id": "evt-songhai-people-origins",
       "label": "Songhai people of the Niger Bend",
       "year": 700,
-      "description": "The Songhai are a Nilo-Saharan-speaking people of the eastern Niger Bend, distinct from the Mande-speaking Mandinka of Mali to the west. The Songhai language is unrelated to the Mande languages of Mali — as different from Mandinka as English is from Hungarian — and the Songhai homeland was a fishing, farming, and trading society along the Niger before any state apparatus had emerged.",
+      "description": "The Songhai (SONG-high) are a Nilo-Saharan-speaking people of the eastern Niger Bend, linguistically distinct from both the Mande-speaking peoples of Mali to the west and the Berber speakers of the Sahara to the north — as different from Mandinka as English is from Hungarian. Before any state emerged, the Songhai homeland was a fishing, farming, and trading society along the river, with the specialized Sorko fisherfolk living in stilt villages and trading smoked catfish and perch inland.",
       "wikiSlug": "Songhai_people",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The term 'Songhai' historically referred not to an ethnic identity but to the ruling caste of the empire (called the Songhaiborai); many Songhai-speaking communities identify themselves by other names, such as Zarma. Whether the Songhai languages form a true branch of Nilo-Saharan or are better classified as an independent language family is still actively debated among linguists. The Zarma dialect spoken in Niger is reportedly unintelligible to speakers of the Koyraboro Senni dialect spoken in Gao, reflecting how widely the language fragmented across the region."
+        }
+      ],
+      "commonsFile": "Songhay_pottery_gorom_gorom_market.jpg"
     },
     {
       "id": "evt-songhai-za-dynasty",
       "label": "Za dynasty of Gao",
       "year": 750,
       "endYear": 1275,
-      "description": "The Za (or Dia) dynasty traditionally ruled the Songhai kingdom of Gao from perhaps the eighth century. The dynasty's traditional founder Za Alayaman is a semi-legendary figure said to have come from Yemen, a typical post-conversion Islamicizing genealogical motif rather than verifiable history. The Za rulers controlled the Niger Bend trans-Saharan terminus from Gao for some five centuries.",
+      "description": "The Za (also spelled Dia or Dya) dynasty ruled the Songhai kingdom at Gao from roughly the eighth century, controlling the Niger Bend trans-Saharan terminus for some five centuries. Their traditional founding story — tracing the dynasty to a Yemeni named Za Alayaman — is a classic post-Islamic-conversion genealogical invention, the same move that Swahili Coast dynasties made when they invented Persian-prince ancestors.",
       "wikiSlug": "Za_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Za rulers were based in both Kukiya and Gao, suggesting the early kingdom controlled a stretch of the river rather than a single city. The dynasty fed directly into the Sonni line: in one chronicle tradition, Sonni Ali was a son of Za Yasibaya, meaning the Sonni were a branch of the Za rather than a clean dynastic break. The Zarma people of modern Niger derive their name — meaning 'descendants of Za' — from this dynasty."
+        }
+      ],
+      "commonsFile": "Cavalier_de_la_garde_du_Djermakoye.jpg"
     },
     {
       "id": "evt-songhai-gao-founded",
       "label": "Gao as a trans-Saharan terminus",
       "year": 800,
-      "description": "Gao (rhymes with 'now') was a riverside trading town on the eastern Niger Bend, the southern terminus for trans-Saharan caravans coming from modern Algeria and Libya. By the ninth and tenth centuries it was already a significant gold-and-salt market and the political center of the Songhai people. Excavations at Gao-Saney show monumental tombs of Muslim rulers from the eleventh century onward.",
+      "description": "Gao (rhymes with 'now') sits on the eastern Niger Bend at the junction of the river and the Tilemsi valley, about 200 miles (320 km) east-southeast of Timbuktu — a natural crossroads facing south into the Sahel, west along the river network, and north toward the trans-Saharan caravan routes from modern Algeria and Libya. By the eleventh and twelfth centuries it was already a working city with stone-built royal residences, a Friday mosque, and North African merchant quarters.",
       "wikiSlug": "Gao",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Excavations at nearby Gao-Saney have turned up stone stelae (carved grave markers) with Arabic inscriptions dating royal burials to the 1080s, among the earliest physical evidence of Muslim royal burial practice in sub-Saharan West Africa. Andalusian merchants maintained active trading quarters in the city centuries before Songhai became an empire. The Tomb of Askia — built around 1495, after the Sonni era — still stands in Gao today and is a UNESCO World Heritage Site."
+        }
+      ],
+      "commonsFile": "ETH-BIB-Gao,_die_Rundhütten_sind_die_Behausungen_der_schwarzen_Soldaten_und_ihrer_Familien-Tschadseeflug_1930-31-LBS_MH02-08-0045.tif"
     },
     {
       "id": "evt-songhai-islam-arrives",
       "label": "Gao adopts Islam",
       "year": 1010,
-      "description": "The ruling family of Gao converted to Islam in the early eleventh century, joining the broader pattern of Sahelian royal conversions that swept the western Sudan in this period. The conversion was elite and commercial — useful for trans-Saharan trade and diplomatic recognition by Maghrebi states — and coexisted for centuries with traditional Songhai religious practices among the rural population.",
+      "description": "The ruling family of Gao converted to Islam around 1010 CE, making Gao one of the earliest sub-Saharan kingdoms to officially adopt the faith. The conversion was practical as much as spiritual: it opened diplomatic and commercial channels with the Maghrebi states and North African merchants who controlled the northern end of the trans-Saharan trade network, while traditional Songhai religious practices continued in rural communities for centuries afterward.",
       "wikiSlug": "Islam_in_Africa",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gao's royal conversion predates Sundiata Keita's founding of the Mali Empire by more than two centuries, making Songhai's elite Islamization considerably older than Mali's. Africa was the first continent outside the Middle East to receive Islam — the earliest Muslim community outside Arabia took refuge in the Christian Kingdom of Aksum (modern Eritrea and Ethiopia) in the early seventh century, fleeing persecution in Mecca, long before any Sahelian kingdom had converted."
+        }
+      ]
     },
     {
       "id": "evt-songhai-mali-tributary",
       "label": "Gao as Mali tributary",
       "year": 1325,
-      "description": "Mansa Musa's eastern campaigns brought Gao firmly into the Mali Empire as a tributary kingdom. For roughly a century thereafter, the Songhai paid tribute to the mansas at Niani and supplied military contingents while preserving their own Sonni-dynasty rulers, language, and local administration. This subordination was the political experience the Sonni dynasty would eventually overthrow.",
+      "description": "Around 1325, Mansa Musa's eastern campaigns pulled Gao firmly into the Mali Empire as a tribute-paying satellite. For roughly a century the Songhai paid up while preserving their own Sonni-dynasty rulers, language, and local administration — the subordination was real but never total, and when Mali's military capacity collapsed in the 1430s the Songhai simply stopped paying.",
       "wikiSlug": "Mali_Empire",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mali was the largest empire in West Africa at its peak, made famous across the Mediterranean world by Mansa Musa's 1324–25 hajj pilgrimage, during which he distributed enough gold in Cairo to reportedly depress the metal's price across North Africa for more than a decade. By the time Songhai reasserted independence in the 1430s, Mali had contracted from a continental empire to a regional rump state, squeezed between the Tuareg, the Songhai, and rising western kingdoms."
+        }
+      ],
+      "commonsFile": "Map_of_the_Mali_Empire.png"
     },
     {
       "id": "evt-songhai-sonni-dynasty",
       "label": "Sonni (Sunni) dynasty",
       "year": 1275,
       "endYear": 1493,
-      "description": "The Sonni dynasty — sometimes spelled Sunni, no relation to the Islamic Sunni sect — replaced the Za as rulers of Gao around the late thirteenth century. Sonni Sulayman Dama is credited as the dynasty's founder. The Sonni held Gao as a Mali tributary for most of the fourteenth century, then began the long expansion that culminated in Sonni Ali Ber's empire.",
+      "description": "The Sonni dynasty — sometimes spelled Sunni, with no connection to the Islamic Sunni denomination — replaced the Za as rulers of Gao around the late thirteenth century, with Sonni Sulayman Dama as the traditional founder. The Sonni held power through Gao's long tributary period under Mali and then drove the breakaway that turned Songhai from a client kingdom into an independent empire.",
       "wikiSlug": "Sonni_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Sonni dynasty ended not by foreign conquest but by internal coup: in 1493, the general Muhammad Ture overthrew the last Sonni ruler, Sonni Baru, and crowned himself Askiya Muhammad I, founding the Askiya dynasty that would govern Songhai at its administrative and territorial peak. The dynasty's name ('Si' in some chronicle sources) appears to derive from a Songhai ancestral title rather than from the Islamic sect, a confusion that tripped up even some medieval Muslim chroniclers."
+        }
+      ],
+      "commonsFile": "Le_Tour_du_monde-02-p232.jpg"
     },
     {
       "id": "evt-songhai-independence",
       "label": "Songhai breaks from Mali",
       "year": 1430,
-      "description": "By the 1430s the Songhai under Sonni Sulayman Dandi had effectively reasserted independence from a fading Mali Empire, building Gao back up as the seat of a free Niger Bend kingdom. The breakaway was opportunistic — Mali was distracted by Tuareg raids on Timbuktu and by internal succession disputes — and there was no single dramatic moment of secession.",
+      "description": "By the 1430s, Songhai under Sonni Sulayman Dandi had effectively stopped paying tribute to a Mali Empire too overstretched to enforce collection. Mali was simultaneously losing Timbuktu to Tuareg raiders, bleeding western provinces to the Wolof and Tukulor, and paralyzed by succession disputes — and Songhai's independence was less a dramatic rebellion than a quiet fact on the ground that both sides gradually acknowledged over several decades.",
       "wikiSlug": "Songhai_Empire",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two great commercial cities of the western Sudan — Timbuktu and Djenné — would both fall to Songhai within forty years of the independence breakaway: Timbuktu in 1468, Djenné in 1475. The Songhai Empire at its peak ranked among the largest African empires in history, stretching roughly 1,500 miles (2,400 km) from the Atlantic-facing Senegal watershed in the west to the Hausa city-states of modern northern Nigeria in the east."
+        }
+      ],
+      "commonsFile": "Map_of_the_Songhay_Empire.png"
     },
     {
       "id": "evt-songhai-tuareg-timbuktu",
       "label": "Tuareg take Timbuktu, 1433",
       "year": 1433,
-      "description": "Tuareg raiders under Akil ag Malwal seized Timbuktu from the contracting Mali Empire around 1433 and held it for roughly thirty years before Sonni Ali captured the city in 1468. The Tuareg occupation was light — the city paid tribute but largely governed itself — and it created the political vacuum that Songhai would fill.",
+      "description": "Tuareg raiders under the chief Akil ag Malwal seized Timbuktu from the fading Mali Empire around 1433 and held it for roughly thirty-five years. The occupation was extractive but not destructive — Timbuktu's Sanhaja Berber scholarly families kept the manuscripts copying and the trade flowing under Tuareg taxation — and it created the power vacuum that Sonni Ali would fill in 1468.",
       "wikiSlug": "Tuareg_people",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tuareg are a Berber-speaking people of the central and western Sahara; their language Tamasheq is closely related to the languages of modern Morocco and Algeria, making them linguistically part of the Maghrebi world rather than sub-Saharan Africa. Their global population today is estimated at 4 to 5 million, spread across Libya, Algeria, Niger, Mali, and Burkina Faso. Tuareg society was organized around camel herding and caravan running — they were the desert middlemen — and their seizures of Sahelian cities typically exploited vacuums of settled power rather than reflecting ambitions of permanent empire."
+        }
+      ],
+      "commonsFile": "1997_277-31A_Tuareg.jpg"
     },
     {
       "id": "evt-songhai-sonni-ali",
       "label": "Sonni Ali Ber",
       "year": 1464,
       "endYear": 1492,
-      "description": "Sonni Ali Ber — 'Sonni Ali the Great' — transformed Songhai from a small kingdom into West Africa's largest empire through nearly three decades of relentless military campaigns. His conquests of Timbuktu (1468) and Djenné (1473), his Niger River war fleet, and his crushing of the Mossi and Tuareg defined the imperial era. His brutal treatment of Timbuktu's scholars made him a villain in the later Islamic chronicles.",
+      "description": "Sonni Ali Ber (\"Ber\" means \"the Great\" in Songhai — an epithet he earned, not a birth name) ruled from 1464 to 1492 and turned Songhai from a small river kingdom at Gao into the largest empire West Africa had ever seen, through twenty-eight years of nearly continuous war. He captured Timbuktu, took Djenné after a years-long siege, built the first Niger River war fleet, and became the founding villain of the Timbuktu Islamic chronicles.",
       "wikiSlug": "Sonni_Ali",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was the fifteenth ruler of the Sonni dynasty — a line that had held Gao as a tributary under Mali before breaking free. Despite nearly three decades of empire-building, no contemporary portrait or likeness survives; everything we know of his character comes from chronicles written by the scholarly families he tried to destroy. The chronicles that condemn him most fiercely were composed two centuries after his death, which modern historians now treat as essential context when reading their verdicts."
+        }
+      ],
+      "commonsFile": "SONGHAI_empire_map-HE.PNG"
     },
     {
       "id": "evt-songhai-capture-timbuktu",
       "label": "Sonni Ali captures Timbuktu",
       "year": 1468,
-      "description": "Sonni Ali captured Timbuktu from the Tuareg in 1468 — and once inside the city, his forces sacked the scholarly quarter at Sankoré, killing or expelling many of the Sanhaja Berber clerical families who had run the city under the Tuareg. The episode left a permanent stain on his reputation in the Timbuktu chronicles.",
+      "description": "In 1468, Sonni Ali entered Timbuktu after the city's own scholars — expecting a more comfortable overlord than the Tuareg — invited him in and the Tuareg garrison withdrew without a fight. He then turned on the Sanhaja Berber clerical families who had run the city, sacking the scholarly quarter at Sankoré, killing or exiling clerics, and seizing their property.",
       "wikiSlug": "Sonni_Ali",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tuareg had occupied Timbuktu for thirty-five years before Sonni Ali arrived. The chief qadi at the time was Muhammad Naddi of the Aqit family — the most prominent clerical lineage in the city — whose descendants would later produce the chronicler Abd al-Sadi, who wrote the most damning account of Sonni Ali's reign. The violent sacking of a city that had voluntarily opened its gates was an unusual move even by the standards of fifteenth-century Sahelian conquest."
+        }
+      ],
+      "commonsFile": "Le_Tour_du_monde-02-p240.jpg"
     },
     {
       "id": "evt-songhai-scholar-massacres",
       "label": "Sonni Ali's scholar massacres at Timbuktu",
       "year": 1469,
-      "description": "In the year following his capture of Timbuktu, Sonni Ali's forces conducted what the Timbuktu chronicler al-Sadi described as systematic killings of the city's Sanhaja Berber scholarly families, accompanied by confiscations of property and forced exiles. The hostility was political — the scholars had been the Tuareg administrative class — but the massacres became the central indictment in al-Sadi's Tarikh al-Sudan two centuries later.",
+      "description": "In 1468–69, Sonni Ali's forces killed members of Timbuktu's Sanhaja Berber scholarly families, confiscated their property, and drove others into exile — targeting the clerical class that had staffed the city's mosques, law courts, and schools under Tuareg rule. The episode became the central accusation in Abd al-Sadi's later chronicle.",
       "wikiSlug": "Sonni_Ali",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tarikh al-Sudan, written roughly two centuries after the events, names specific scholars killed and specific properties seized — a level of detail that suggests the surviving families preserved detailed oral records of what happened. Modern historians read the chronicle as the testimony of a survivor community: probably accurate in outline, possibly inflated in scale. The political motive was straightforward — the Sanhaja scholars were the administrative infrastructure of the regime Sonni Ali was displacing, and their continued power would have constrained his authority."
+        }
+      ],
+      "commonsFile": "Askiyah's_Questions_and_al-Maghili's_Answers_(al-Maghili's_Tract_on_Politics)_WDL36.jpg"
     },
     {
       "id": "evt-songhai-niger-fleet",
       "label": "Niger River war fleet",
       "year": 1470,
-      "description": "Sonni Ali built a powerful war fleet on the Niger River — large dugout canoes carrying archers and lancers, capable of moving troops and supplies along the river system far faster than overland marches. The fleet allowed Songhai to project military power through the Inner Niger Delta and made the prolonged seven-year siege of Djenné possible, since the city's island position no longer protected it from a riverine besieging force.",
+      "description": "Sonni Ali built a war fleet of large dugout canoes on the Niger River — crewed by the Sorko fishing people, carrying archers and lancers, capable of moving thousands of troops deep into the Inner Niger Delta far faster than any overland cavalry force. It was Songhai's signature military innovation and the technology that made the siege of island-protected Djenné possible.",
       "wikiSlug": "Sonni_Ali",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Sorko were a specialized fishing and boat-building population within Songhai society who had worked the Niger for generations before Sonni Ali militarized their expertise. No previous Sahelian ruler had maintained a river military force at anything like this scale. The fleet gave Songhai a power-projection capability through the seasonally flooded Inner Delta that made its empire structurally different from any predecessor — including Mali, which had controlled the same territory by land-based cavalry alone."
+        }
+      ],
+      "commonsFile": "GaoPirogeNiger1990.jpg"
     },
     {
       "id": "evt-songhai-djenne-siege",
       "label": "Siege of Djenné",
       "year": 1473,
-      "description": "Sonni Ali captured the wealthy Inner Niger Delta city of Djenné after a siege that the Tarikh al-Sudan describes as lasting seven years and seven months. The city had been protected by the seasonal flood that surrounded it most of the year, but the Songhai war fleet eventually wore down the defenders. After the surrender, Sonni Ali married the local queen and treated the city's merchants relatively well — a contrast with his Timbuktu conduct.",
+      "description": "Djenné sits on a small island in the Bani River where the seasonal flood turns it into a near-island for most of the year — nearly impregnable for conventional Sahelian cavalry armies. Sonni Ali's Niger war fleet changed the equation, keeping his besieging force supplied through the years it took to wear the city down. Djenné surrendered in 1473, and Sonni Ali treated its merchants far more gently than he had treated Timbuktu's scholars.",
       "wikiSlug": "Djenné",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Djenné-Djenno archaeological site just south of the city has continuous urban occupation going back to roughly 250 BCE — older than the Ghana Empire and one of the oldest known cities in sub-Saharan Africa. The chronicles' account of a \"seven years, seven months, and seven days\" siege is almost certainly a stylized folkloric number, but the real campaign was probably multi-year with intermittent active siege and periods of withdrawal. After the surrender, Sonni Ali married the local queen — a Mali-era institution of female political authority in the Inner Delta — and confirmed the city's commercial autonomy."
+        }
+      ],
+      "commonsFile": "Moschee_von_Djenné.jpg"
     },
     {
       "id": "evt-songhai-mossi-wars",
       "label": "Wars against the Mossi",
       "year": 1480,
-      "description": "The Mossi kingdoms of the upper Volta basin (in modern Burkina Faso) were the southern threat to Songhai through the late fifteenth century. Sonni Ali campaigned repeatedly against the Mossi cavalry, who raided Sahelian markets for slaves and livestock, but never managed to subjugate them — the Mossi remained an independent southern frontier throughout Songhai's history.",
+      "description": "The Mossi kingdoms of the upper Volta basin (modern Burkina Faso) were Songhai's persistent southern problem — skilled cavalry raiders who struck Sahelian markets for slaves and livestock and then vanished back across the frontier before Songhai pursuit columns could catch them. Sonni Ali, Askia Muhammad, and every successor campaigned against them without ever forcing a decisive defeat.",
       "wikiSlug": "Mossi_Kingdoms",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The largest Mossi kingdom was centered on Ouagadougou — now the capital of Burkina Faso — whose paramount ruler held the title Mogho Naaba, meaning \"King of All the World.\" The Mossi's effectiveness exposed a structural weakness in Songhai's military, which was designed for sieges and river-network control rather than fast-pursuit cavalry warfare. That same structural limitation proved fatal at the Battle of Tondibi in 1591, when a Moroccan musketeer army exploited the same inability to respond to a fast-moving, unconventional threat."
+        }
+      ],
+      "commonsFile": "Boukary_Koutou,_also_known_as_Wobgho,_Mossi_King_of_Ouagadougou_with_cavalry,_Burkina_Faso,_1892.jpg"
     },
     {
       "id": "evt-songhai-faguibine-canal",
       "label": "Lake Faguibine canal project",
       "year": 1485,
-      "description": "Sonni Ali planned an ambitious canal project to connect the Niger River with Lake Faguibine in the western Inner Delta, intended to expand the floodplain irrigation zone and to provide a new water route for his fleet. According to the Timbuktu chronicles, the project was cut short by Sonni Ali's military commitments and was never completed. The episode demonstrates a hydraulic ambition rare in medieval West Africa.",
+      "description": "According to the Tarikh al-Fattash, Sonni Ali planned a canal roughly 90 miles (150 km) long connecting the Niger River with Lake Faguibine in the western Inner Niger Delta — intended to expand floodplain agriculture and give his war fleet a new navigable route. Work reportedly began and was abandoned when military campaigns pulled resources away.",
       "wikiSlug": "Lake_Faguibine",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Lake Faguibine sits about 50 miles (80 km) west of Timbuktu and is fed by Niger floodwaters only in exceptionally high-flood years; since the Sahel droughts of the 1970s–80s it has been mostly dry. No published archaeological evidence of canal construction on the planned route has emerged, so the project may have been a planning exercise that never broke ground. If even partially real, it would rank among the most ambitious hydraulic engineering attempts in medieval West Africa — the sort of ambition the destruction-of-scholars narrative entirely obscures."
+        }
+      ],
+      "commonsFile": "Faguibine_mali.jpg"
     },
     {
       "id": "evt-songhai-religious-heterodoxy",
       "label": "Sonni Ali's religious heterodoxy",
       "year": 1480,
-      "description": "Sonni Ali was nominally Muslim but practiced what the later Timbuktu chroniclers called a syncretic blend of Islam and traditional Songhai religion — performing the obligatory prayers in public while consulting traditional ritual specialists in private and observing pre-Islamic kingship rituals. Al-Sadi calls him a 'celebrated villain.' The accusation has to be weighed against the chroniclers' political bias, but the basic religious syncretism was probably real.",
+      "description": "Sonni Ali performed Friday prayers in public but consulted traditional Songhai ritual specialists in private, observed pre-Islamic kingship ceremonies, and kept pagan diviners at court alongside Muslim qadis. The Timbuktu chroniclers called him a \"notorious miscreant\" and a \"celebrated villain.\" Modern historians read those charges as the partisan testimony of the scholarly families he had massacred — though the basic syncretism was probably real.",
       "wikiSlug": "Sonni_Ali",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pre-Islamic sacred-kingship apparatus — royal regalia, seasonal ceremonies, sacrifices to river spirits — was so deeply embedded in Songhai political culture that any king needed to perform it to maintain legitimacy among the Songhai population. Sonni Ali's practice was probably less exceptional than the chronicles claim; his predecessors and even Askia Muhammad observed similar blends, just without targeting the scholars who wrote the record. The religious accusation became the explicit theological justification Askia Muhammad used to frame his 1493 coup as a holy-war correction rather than a usurpation."
+        }
+      ],
+      "commonsFile": "Danse_de_Biti.jpg"
     },
     {
       "id": "evt-songhai-sonni-baru",
       "label": "Sonni Baru's brief reign",
       "year": 1492,
       "endYear": 1493,
-      "description": "When Sonni Ali drowned in the Niger in 1492 (the circumstances are not recorded), the throne passed to his son Sonni Baru. Baru's open commitment to traditional Songhai religion provoked the Muslim military commanders to revolt within a year. Muhammad Ture, the senior Soninke general, defeated Baru at the Battle of Anfao in April 1493 and seized the throne, ending the Sonni dynasty.",
+      "description": "Sonni Ali drowned in the Niger in 1492 — circumstances unrecorded — and his son Sonni Baru (also known as Abu Bakr Dao) took the throne. Where his father had at least performed Islamic prayers in public, Baru dropped even that concession, openly rejecting Islamic observance. The Muslim military commanders revolted within months and handed power to Muhammad Ture.",
       "wikiSlug": "Sonni_Baru",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tarikh al-Sudan records Baru's reign with unusual precision: 6 November 1492 to 12 April 1493, one of the most exactly dated short reigns in Songhai history. After his defeat at Anfao he fled south and disappears entirely from the historical record — his death date is unknown. The irony: his throne name Abu Bakr Dao was a Muslim name, carried by a king deposed specifically for refusing Muslim public observance."
+        }
+      ]
     },
     {
       "id": "evt-songhai-battle-anfao",
       "label": "Battle of Anfao, 1493",
       "year": 1493,
-      "description": "Muhammad Ture defeated Sonni Baru at the Battle of Anfao near Gao in April 1493, ending the Sonni dynasty and beginning the Askia dynasty. The battle was framed in religious terms — Muhammad Ture had the backing of Timbuktu's clerical class who had never forgiven the Sonni for the 1469 massacres — but the underlying conflict was about whether Songhai's monarchy would be a Sahelian sacred-kingship or a Maliki-Islamic monarchy.",
+      "description": "At the Battle of Anfao near Gao in April 1493, the Soninke general Muhammad Ture — one of Sonni Ali's own senior commanders — defeated Sonni Baru, ended the Sonni dynasty, and seized the throne under the new title Askia. The coup was framed as a religious correction: Timbuktu's clerical class backed Muhammad Ture precisely because he promised orthodox Islamic rule.",
       "wikiSlug": "Askia_Mohammad_I",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Muhammad Ture was born around 1443 and was already about fifty at the time of the battle; he would reign until 1528 and live to approximately ninety-five. Under his rule the Songhai Empire reached its greatest territorial extent — encompassing the Hausa states as far east as Kano — and became the most commercially connected state in West African history, with trade networks reaching Europe and Asia. The Timbuktu chronicles that damn Sonni Ali praise Askia Muhammad lavishly, a contrast that makes both portraits slightly suspect."
+        }
+      ]
     },
     {
       "id": "evt-songhai-askia-muhammad",
       "label": "Askia Muhammad I",
       "year": 1493,
       "endYear": 1528,
-      "description": "Muhammad Ture took the throne as Askia Muhammad I (the title 'Askia' originally meant something like 'forceful one' in Songhai) and ruled for thirty-five years, building the most sophisticated bureaucratic and Islamic-legal administration West Africa had ever seen. He made the famous 1497 hajj, expanded the empire to its greatest extent, and was eventually overthrown by his own son in 1528.",
+      "description": "Muhammad Ture — a Soninke general with no royal blood — seized the Songhai throne in 1493 and ruled for thirty-five years as Askia Muhammad I, building the most sophisticated bureaucracy and Islamic-legal administration West Africa had ever seen.",
       "wikiSlug": "Askia_Mohammad_I",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Born around 1443, Askia Muhammad lived to nearly 95 — an extraordinary lifespan that the chronicles note with amazement. He was also known as Mamar Kassey in the modern Songhai language and Askia the Great in Arabic sources. His policies drove a rapid expansion of trans-Saharan trade with both Europe and Asia, and he founded enough schools across the empire that Timbuktu rose to become one of the Islamic world's leading centers of learning."
+        }
+      ],
+      "commonsFile": "Askia.jpg"
     },
     {
       "id": "evt-songhai-askia-hajj",
       "label": "Askia Muhammad's hajj, 1497",
       "year": 1497,
-      "description": "Askia Muhammad's hajj to Mecca in 1497–98 was the most diplomatically consequential act of his reign. He traveled with 1,500 soldiers and 300,000 gold pieces, met the Mamluk Sultan Qansuh al-Ghuri in Cairo, distributed gifts to scholars and the holy cities, and returned with the title 'Caliph of the Sudan' bestowed by the Abbasid figurehead caliph in Cairo. The hajj was deliberately modeled on Mansa Musa's 1324 procession but more institutionally focused.",
+      "description": "Askia Muhammad's 1497 pilgrimage to Mecca was less a spiritual journey than a diplomatic campaign: he traveled with 1,500 soldiers and 300,000 gold pieces, made the rounds of Cairo's power brokers, and came home carrying an Islamic legitimacy that no future challenger inside Songhai could easily argue with.",
       "wikiSlug": "Askia_Mohammad_I",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The hajj was deliberately modeled on Mansa Musa's legendary 1324 procession, but Askia Muhammad's goals were different — he wanted institutional credentials, not just a reputation for generosity. He distributed lavishly to scholars in Mecca and Medina and reportedly endowed a house in Mecca to lodge future West African pilgrims. The full circuit took roughly two years."
+        }
+      ]
     },
     {
       "id": "evt-songhai-al-suyuti-meeting",
       "label": "Meeting with al-Suyuti in Cairo",
       "year": 1497,
-      "description": "During his Cairo stay, Askia Muhammad consulted the great Egyptian scholar Jalal al-Din al-Suyuti — one of the most prolific writers in Islamic history, author of more than 500 works on jurisprudence, hadith, and Arabic philology. Al-Suyuti issued legal rulings and a treatise of advice for the Songhai ruler that helped legitimize the new Askia dynasty in the eyes of the wider Islamic world.",
+      "description": "In Cairo in 1497, Askia Muhammad consulted Jalal al-Din al-Suyuti — the most prolific scholar in late-medieval Sunni Islam, author of more than 500 works — and asked him practical questions about how to govern a partly non-Muslim population under Islamic law.",
       "wikiSlug": "Al-Suyuti",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Suyuti held the rare honorific title Shaykh al-Islam and was recognized as the leading jurist and hadith scholar of his generation. He was of Persian descent but Egyptian-born, and the treatise he wrote for Askia Muhammad traveled back to Gao with the returning caravan, shaping Songhai legal thinking for decades — one of the clearest documented cases of a sub-Saharan ruler commissioning Islamic jurisprudence specifically for state use."
+        }
+      ]
     },
     {
       "id": "evt-songhai-caliph-of-sudan",
       "label": "Caliph of the Sudan title",
       "year": 1498,
-      "description": "The Abbasid caliph in Cairo — a powerless religious figurehead maintained by the Mamluks for ceremonial purposes — formally invested Askia Muhammad with the title of Caliph of the Sudan (caliph of the Bilad al-Sudan, the 'land of the blacks'). The title was symbolic, but it gave Askia Muhammad theological cover for asserting religious authority over local clerical factions back in Songhai.",
+      "description": "The Abbasid caliph in Cairo — a ceremonial figurehead with no real political power, maintained by the Mamluks for exactly such occasions — formally bestowed on Askia Muhammad the title Caliph of the Sudan (ruler of the Bilad al-Sudan, the land of the blacks), giving him the highest available Islamic religious sanction for authority over West Africa.",
       "wikiSlug": "Askia_Mohammad_I",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cairo Abbasids were a remnant line: the Mongols had destroyed the original Baghdad caliphate in 1258, and the Mamluks kept a surviving Abbasid prince around purely as a legitimizing ornament. When Selim I's Ottoman army conquered Egypt in 1517, this same figurehead caliph passed into Ottoman hands — retroactively linking the investiture the Ottomans would later use to anchor their own claims to Islamic world leadership."
+        }
+      ]
     },
     {
       "id": "evt-songhai-tomb-of-askia",
       "label": "Tomb of Askia at Gao",
       "year": 1495,
-      "description": "Askia Muhammad commissioned a monumental pyramidal mud-brick tomb at Gao, intended as his burial place and the dynastic shrine of the Askia line. The tomb is roughly 56 feet (17 meters) high, built of beaten earth with timber-beam reinforcement in the Sudano-Sahelian style, and it remains the most distinctive surviving monument of the Songhai Empire. UNESCO inscribed it as a World Heritage Site in 2004.",
+      "description": "The Tomb of Askia at Gao is a pyramidal mud-brick monument roughly 56 feet (17 meters) high — commissioned by Askia Muhammad around 1495 as the dynastic shrine of the Askia line, and still standing today as the most intact surviving monument of the entire Songhai Empire.",
       "wikiSlug": "Tomb_of_Askia",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The projecting palm-wood toron beams that stud the tower's sides are not decoration: they serve as built-in scaffolding for the re-plastering the mud-brick walls require after each rainy season, a defining feature of Sudano-Sahelian architecture. Askia Muhammad is the only ruler interred inside the main chamber; later Askias are buried in the surrounding courtyard. The structure survived the Moroccan invasion of 1591 and has been continuously maintained by local Gao communities for five centuries. UNESCO inscribed it as a World Heritage Site in 2004."
+        }
+      ],
+      "commonsFile": "Tombeau_askia.jpg"
     },
     {
       "id": "evt-songhai-provincial-system",
       "label": "Twelve-province administrative system",
       "year": 1499,
-      "description": "Askia Muhammad reorganized the empire into roughly a dozen provinces, each governed by an appointed governor (a koi or fari) drawn from the royal family or trusted military commanders. The provincial governors were rotated periodically to prevent local power bases from forming, a structural innovation rare among medieval African states and modeled loosely on Mamluk Egyptian administration.",
+      "description": "Askia Muhammad divided the empire into roughly twelve named provinces, each headed by an appointed governor (a koi or fari) drawn from the royal family or senior military commanders. Governors paid annual tribute in gold dust, slaves, livestock, and grain to Gao and were expected to provide military contingents on demand; periodic rotation was meant to prevent independent power bases from forming, a structural discipline rare among medieval African states.",
       "wikiSlug": "Askia_Mohammad_I",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most powerful provincial post was the Kurmina-fari, governing the western frontier from Tindirma; it was traditionally held by a brother or son of the reigning Askia, making it effectively the empire's second-in-command and a perennial launching pad for succession challenges. The eastern province of Dendi, near modern Nigeria, would become the refuge of the surviving Askia royal family after the Moroccan conquest of 1591, and the Dendi successor kingdom kept a version of the dynasty alive for another century."
+        }
+      ]
     },
     {
       "id": "evt-songhai-ministerial-system",
       "label": "Songhai ministerial system",
       "year": 1500,
-      "description": "Askia Muhammad established a court of named ministers including the hi-koi (commander of the war fleet), the fari-mondzo (chief of slaves and royal estates), the kalisa-fari (treasurer), the korei-farma (in charge of relations with Berber tributaries), and a chief qadi for religious courts. The system gave the empire something closer to a functional bureaucracy than any previous West African state had achieved.",
+      "description": "Askia Muhammad built a named ministerial bureaucracy at Gao: the hi-koi commanded the Niger war fleet, the fari-mondzo managed royal slave estates, the kalisa-fari was the imperial treasurer, the korei-farma handled Saharan frontier diplomacy, and the balama commanded the cavalry army. The system gave the empire a functional division of labor that looked more like Mamluk Egypt or an Ottoman provincial government than the looser tributary-network structure of Mali before it.",
       "wikiSlug": "Songhai_Empire",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Askia Muhammad's administrative ambitions were shaped by his 1496-1497 pilgrimage to Mecca, during which he received the title of caliph of the western Sudan from the Abbasid Caliph in Cairo and studied Mamluk governance models at close range. The dyina-koi (chief of foodstuffs) oversaw the salt trade, and Saharan salt from the mines at Taghaza was so valuable in the Sahel that it sometimes traded weight-for-weight against gold. The ministerial titles and their responsibilities are known almost entirely from the Tarikh al-Sudan and Tarikh al-Fattash, two chronicles written in Timbuktu in Arabic after the 1591 Moroccan conquest."
+        }
+      ]
     },
     {
       "id": "evt-songhai-standing-army",
       "label": "Songhai standing army",
       "year": 1500,
-      "description": "Askia Muhammad separated the imperial standing army from the tribal levies that had won the conquest under Sonni Ali. The standing army included slave-soldier units (sofa) loyal directly to the Askia, professional cavalry equipped with mail armor and lances, and a Niger River fleet of war canoes. The structural problem was that the slave-soldier units never developed into a true counterweight to the cavalry aristocracy — a vulnerability that would help bring the dynasty down.",
+      "description": "The Songhai standing army had three distinct branches: professional heavy cavalry drawn from the aristocracy and slave-soldier units, a mass infantry of tribal levies and sofa (enslaved soldiers) loyal directly to the Askia, and a Niger River war fleet of large dugout canoes crewed by the Sorko, a hereditary fishing caste who doubled as the empire's naval force. The fleet was the strategic transport asset that let Songhai project power along its commercial spine faster than any overland march.",
       "wikiSlug": "Songhai_Empire",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The sofa slave-soldier units were supposed to give the central court a military counterweight to the cavalry aristocracy, but in practice they never grew powerful enough to override aristocratic resistance — which is precisely why the Askias could not force through the firearms adoption that might have saved the empire at Tondibi in 1591. The Sorko boat crews were a distinct hereditary caste along the Niger; their specialized role in the war fleet made them an irreplaceable military-labor monopoly that no Askia could simply replace with conscripts. The fleet's decisive demonstration had come in Sonni Ali's years-long siege of Djenné in the 1470s, which succeeded in large part because boats could sustain a supply blockade that cavalry alone could not."
+        }
+      ]
     },
     {
       "id": "evt-songhai-qadi-courts",
       "label": "Qadi court system",
       "year": 1500,
-      "description": "Askia Muhammad established Maliki-school qadi courts in the major cities, applying Islamic law to commerce, inheritance, and criminal justice. The chief qadi of Timbuktu, drawn from the city's clerical lineages, became one of the most powerful figures in the empire — capable, on occasion, of overruling Askia rulings on religious grounds. The institutional independence of the Timbuktu judiciary from the Gao court is a recurring motif in the chronicles.",
+      "description": "Askia Muhammad established Maliki-school sharia courts in Songhai's major cities, applying Islamic law to commerce, inheritance, and criminal justice involving Muslims. The chief qadi of Timbuktu held enough institutional independence that he could — and occasionally did — formally overrule imperial decisions on religious grounds.",
       "wikiSlug": "Qadi",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Maliki law is one of the four main schools of Sunni Islamic jurisprudence and the dominant tradition across West and North Africa. Songhai qadis cited the same legal authorities as counterparts in Cairo and Fez, and their formal legal opinions circulated in the broader Maliki scholarly network — meaning Timbuktu's courts carried real weight in the wider Islamic legal world. Outside the cities, however, the vast majority of rural disputes never reached a qadi, resolved instead by village headmen and clan customary law, with the boundary between the two systems negotiated case by case."
+        }
+      ],
+      "commonsFile": "Arabischer_Maler_um_1335_002.jpg"
     },
     {
       "id": "evt-songhai-eastern-conquests",
       "label": "Eastern campaigns of Askia Muhammad",
       "year": 1505,
-      "description": "Askia Muhammad expanded Songhai eastward into the Hausa city-states (in modern northern Nigeria), capturing Kano and Katsina in the early sixteenth century. He campaigned northwest against the Mauritanian salt-trading towns and the Berber confederations of the western Sahara, briefly bringing Taghaza under direct Songhai control. The empire reached its greatest territorial extent around 1515.",
+      "description": "Between roughly 1505 and 1515, Askia Muhammad pushed Songhai's frontier east into the Hausa city-states of modern northern Nigeria — Kano and Katsina became tribute-payers — and north to briefly seize the Saharan salt mines at Taghaza, taxing the salt at the source rather than at Sahelian markets.",
       "wikiSlug": "Askia_Mohammad_I",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Taghaza's salt was mined by enslaved workers in one of the harshest environments on earth — an all-salt settlement where houses were built from salt slabs — and the mine had been contested by every Sahelian empire since Ghana. Askia Muhammad's hold proved temporary; Mesufa Berber families reclaimed effective control under military pressure. His hold on Kano and Katsina was also loose: both cities paid tribute but governed themselves."
+        }
+      ]
     },
     {
       "id": "evt-songhai-greatest-extent",
       "label": "Songhai at greatest territorial extent",
       "year": 1515,
-      "description": "Around 1515 the Songhai Empire stretched from the Atlantic coast of modern Senegal to the Hausa city-states of northern Nigeria, north into the southern Sahara, south to the Mossi frontier — an area roughly the size of Western Europe and the largest continuous territory ever ruled by a sub-Saharan African state. The peak was brief; structural overstretch and succession crises would begin eroding it within a generation.",
+      "description": "Around 1515, the Songhai Empire stretched from the Atlantic coast of modern Senegal east to the Hausa states of northern Nigeria, north into the southern Sahara, south to the Mossi frontier — an area roughly the size of Western Europe, the largest continuous territory ever governed by a sub-Saharan African state.",
       "wikiSlug": "Songhai_Empire",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The only contemporary empires that exceeded Songhai's territorial reach were the Ming, the Ottomans, and the Safavids. The peak was brief: structural overstretch meant it took months to march an army from Gao to any frontier, and the succession wars beginning with Askia Musa's 1528 coup started shrinking the periphery almost immediately. Meanwhile the Portuguese fort at Elmina on the Gold Coast (built 1482) was quietly diverting some of the gold that had previously flowed north across the Sahara to Songhai's markets."
+        }
+      ]
     },
     {
       "id": "evt-songhai-cosmopolitan-population",
       "label": "Cosmopolitan imperial population",
       "year": 1510,
-      "description": "Songhai's population was a mosaic of Songhai farmers and fishermen along the Niger, Sanhaja Berber and Tuareg pastoralists in the Sahara fringes, Wangara (Soninke) merchants running the trans-Saharan trade, Mandinka clerical and merchant lineages from the western provinces, Hausa traders in the eastern frontier, and a slave class drawn from the Mossi and forest peoples to the south. No single ethnic group dominated the imperial center.",
+      "description": "By the early sixteenth century Songhai was one of the most ethnically diverse empires in the medieval world: Songhai-speaking farmers and fishermen along the Niger, Wangara (Soninke/Mande-Dyula) merchants running the trans-Saharan trade, Sanhaja Berber and Tuareg desert clans on the Saharan fringe, Mandinka populations in the old Mali western provinces, semi-autonomous Hausa tributary states to the east, and a slave class drawn from raids against the Mossi and forest peoples to the south. No single group dominated, which was a strength when a strong Askia could play factions off each other and a weakness when succession crises let factions organize against the throne.",
       "wikiSlug": "Songhai_Empire",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its peak the Songhai Empire was one of the largest in African history, rivaling contemporary empires in Eurasia in territorial scale. The Wangara merchant diaspora had been running trans-Saharan routes since the Ghana Empire, centuries before Songhai rose, giving the Askias instant access to a commercial infrastructure they never had to build from scratch. The slave population of the empire is estimated at roughly a quarter of the total, employed on royal grain estates in the Niger floodplain, in the standing army as sofa (slave-soldier) units, and as export commodities shipped north across the Sahara."
+        }
+      ]
     },
     {
       "id": "evt-songhai-sankore-peak",
       "label": "Sankoré scholarly community at peak",
       "year": 1500,
-      "description": "Under the Askia restoration, Timbuktu's Sankoré scholarly community recovered from Sonni Ali's depredations and reached its greatest density. The popular figure of '25,000 students' is almost certainly inflated — Timbuktu's total population probably never exceeded 50,000 — but the scholarly community of perhaps 200 to 400 senior teachers and several thousand students made it one of the major Islamic learning centers of the post-Mongol Sunni world.",
+      "description": "The Sankoré mosque and madrasa complex was the intellectual heart of Timbuktu at its Songhai-era peak — one of the major Islamic centers of learning in the post-Mongol Sunni world, with perhaps 200 to 400 senior scholars and several thousand students studying Maliki law, Arabic grammar, astronomy, medicine, and logic.",
       "wikiSlug": "Sankore_Madrasah",
       "tier": 1,
       "tags": [
         "science"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sankoré operated on the standard Islamic ijaza system: students earned formal teaching licenses from individual master scholars certifying mastery of specific texts, and those licenses were recognized across the Islamic world from Cairo to Bukhara — a Sankoré graduate was a peer, not a provincial. The mosque was founded in the 14th or early 15th century and reached its peak under Askia patronage before declining sharply after the Battle of Tondibi in 1591. The popular '25,000 students' figure would require a student body equal to roughly half the city's total population — modern historians consider it a pious exaggeration."
+        }
+      ],
+      "commonsFile": "2007_Sankore_Mosque_Timbuktu_01.jpg"
     },
     {
       "id": "evt-songhai-djinguereber-mosque",
       "label": "Djinguereber Mosque",
       "year": 1500,
-      "description": "The Djinguereber Mosque in Timbuktu — originally built around 1327 by the Andalusian architect al-Sahili under Mansa Musa — remained the largest of Timbuktu's three great mosques under Songhai rule, continuously maintained as the western anchor of the city's religious geography. The Sudano-Sahelian mud-brick structure with its protruding palm-wood toron beams is still a working mosque today.",
+      "description": "The Djinguereber Mosque — Timbuktu's largest, founded in 1327 by the Andalusian architect al-Sahili under Mansa Musa — was the western anchor of the city's religious life throughout the Songhai era. Built in the Sudano-Sahelian mud-brick style, with projecting palm-wood toron beams that double as permanent scaffolding for the re-plastering required after every rainy season, it has functioned as a working mosque for nearly seven centuries.",
       "wikiSlug": "Djinguereber_Mosque",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mosque is one of three buildings that together compose what scholars call the University of Timbuktu, and all three were inscribed as UNESCO World Heritage Sites in 1988. Al-Sahili was reportedly paid around 200 kg of gold for the commission — the most expensive single building contract in fourteenth-century West Africa. Its mud-brick walls have been re-plastered an estimated two hundred or more times since completion, making continuous maintenance as much the monument as the original structure."
+        }
+      ],
+      "commonsFile": "Djinguereber_in_Timbuktu.jpg"
     },
     {
       "id": "evt-songhai-sidi-yahya-mosque",
       "label": "Sidi Yahya Mosque",
       "year": 1440,
-      "description": "The Sidi Yahya Mosque, the third of Timbuktu's great Sahelian-style mosques, was built in the early fifteenth century and named for its first imam, Sidi Yahya al-Tadelsi. Its main door was traditionally said to be sealed and would only open on the day before the end of the world — a piece of local lore that protected the building for centuries before vandals broke the seal in 2012.",
+      "description": "The Sidi Yahya Mosque, completed in 1440, was the third of Timbuktu's great Sudano-Sahelian mosques and the most wrapped in protective legend — its main door was traditionally said to be sealed until the day before the end of the world, a piece of local lore that kept it intact for centuries before jihadists broke the seal in 2012.",
       "wikiSlug": "Sidi_Yahya_Mosque",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Construction began around 1400 under Sheikh el-Mokhtar Hamalla and took roughly forty years to finish. Like all three of Timbuktu's great mosques, Sidi Yahya also functioned as a madrasa — simultaneously a place of worship, a school, and a center of Maliki legal training. When the sealed door was broken in 2012, the act was widely mourned across Mali as both a cultural desecration and, for many locals, a prophetic omen."
+        }
+      ],
+      "commonsFile": "Oratory_of_Sidi_Yahya.jpg"
     },
     {
       "id": "evt-songhai-timbuktu-manuscripts",
       "label": "Timbuktu manuscript tradition",
       "year": 1500,
-      "description": "Scholars in Timbuktu and Djenné produced and collected hundreds of thousands of manuscripts on Maliki jurisprudence, hadith, theology, astronomy, medicine, mathematics, history, and poetry. Many survived in private family libraries through the centuries; in the twenty-first century, an emergency rescue operation smuggled tens of thousands of them out of Timbuktu ahead of the 2012 jihadist occupation. This is the single greatest surviving body of pre-colonial sub-Saharan African writing.",
+      "description": "Timbuktu's manuscript tradition — hundreds of thousands of handwritten volumes on law, theology, astronomy, medicine, mathematics, and poetry, accumulated across centuries in private family libraries — is the largest surviving body of pre-colonial sub-Saharan African writing in existence, and much of it has yet to be fully cataloged or translated.",
       "wikiSlug": "Timbuktu_Manuscripts",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "No comprehensive catalog of the collections has ever been completed; estimates of the total run from around 100,000 to over 700,000 individual manuscripts depending on how scattered holdings are counted. The subjects range from the expected (Maliki jurisprudence, Quranic commentary) to the surprising: treatises on music theory, falconry, and the ecology of the Inner Niger Delta. Digitization efforts begun in the 1990s are still ongoing, meaning the intellectual content of the Songhai-era scholarly tradition is still being discovered by modern researchers."
+        }
+      ],
+      "commonsFile": "Timbuktu-manuscripts-astronomy-mathematics.jpg"
     },
     {
       "id": "evt-songhai-al-saheli-library",
       "label": "Timbuktu private libraries",
       "year": 1520,
-      "description": "Timbuktu's manuscripts were not housed in any single state library but in private collections owned by the city's scholarly families. The Mamma Haidara, Kati, and Wangara family libraries were among the largest, with thousands of volumes each, passed down across generations. The decentralized structure was a strength — no single sack could destroy the tradition — and it is the reason so much survived to the modern period.",
+      "description": "Timbuktu's manuscripts were never held in a central state library. Instead they lived in private collections owned by the city's scholarly families — the Mamma Haidara, Kati, Wangara, Aqit, and others — each passing thousands of volumes down across generations as family inheritance. This deliberate dispersal is the reason so much survived so many different catastrophes.",
       "wikiSlug": "Timbuktu",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Even Judar Pasha's systematic looting after 1591 captured only a fraction of what the city held, because the rest was hidden in family compounds, buried in courtyards, or carried into the desert with fleeing scholars. The 2012 rescue worked by the same logic: librarian Abdel Kader Haidara's network moved manuscripts one family collection at a time, looking like ordinary domestic business, beyond the jihadists' ability to intercept. The manuscripts now reside primarily in Bamako, where cataloging and digitization continue."
+        }
+      ],
+      "commonsFile": "Donkeys,_Timbuktu.jpg"
     },
     {
       "id": "evt-songhai-mahmud-kati",
@@ -462,11 +702,18 @@
       "id": "evt-songhai-tarikh-al-sudan",
       "label": "Tarikh al-Sudan",
       "year": 1655,
-      "description": "Abd al-Sadi, a Timbuktu scholar working in the mid-seventeenth century after the Songhai collapse, composed the Tarikh al-Sudan chronicle drawing on the city's surviving documentary tradition and oral memory. The work is the most detailed surviving narrative of Songhai's rise, peak, and fall, and the principal source for the demonization of Sonni Ali and the rehabilitation of the Askias. It is written in Arabic and was first published in Europe in 1898.",
+      "description": "The Tarikh al-Sudan (\"Chronicle of the Sudan\" — 'Sudan' meaning 'land of the blacks' in classical Arabic, not the modern country) is a history of Songhai written in Arabic around 1655 by Abd al-Sadi, a Timbuktu scholar working after the empire's collapse. It is the single most important primary source for Songhai history and the main vehicle for the anti-Sonni Ali narrative.",
       "wikiSlug": "Tarikh_al-Sudan",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Sadi was writing from inside the institutional memory of the scholarly families Sonni Ali had attacked in 1468–69 — which makes the chronicle both uniquely detailed and unmistakably partisan. The manuscript was unknown in Europe until a French colonial officer brought a copy to Paris in the 1850s; it was first published in 1898, nearly 250 years after it was written. Together with the Tarikh al-Fattash, it forms what historians call the Timbuktu Chronicles — the essential but survivor-community-inflected record of a destroyed empire."
+        }
+      ],
+      "commonsFile": "تاريخ_السودان.jpg"
     },
     {
       "id": "evt-songhai-leo-africanus",
@@ -482,91 +729,151 @@
       "id": "evt-songhai-trans-saharan-trade",
       "label": "Trans-Saharan gold trade at peak",
       "year": 1510,
-      "description": "Songhai inherited and consolidated the trans-Saharan gold trade that had underwritten Ghana and Mali. Camel caravans of several hundred animals carried gold dust north from the Bambuk and Bure goldfields through Timbuktu and across the Sahara to Sijilmasa, Tlemcen, and Cairo, returning with salt, copper, books, horses, fine cloth, and slaves from the Mediterranean. At peak, several major caravans crossed the Sahara each year.",
+      "description": "The trans-Saharan gold trade was Songhai's economic engine — camel caravans of several hundred animals carrying gold dust north from the Bambuk and Bure goldfields to North African markets and returning south with salt, copper, horses, fine cloth, and books. Songhai inherited this trade from Ghana and Mali before it, and controlled it at high tide in the early sixteenth century.",
       "wikiSlug": "Trans-Saharan_trade",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The peak of trans-Saharan trade ran from roughly the 8th century through the early 17th century, tracking almost exactly with the arc of the great Sahelian empires. Timbuktu's structural value was purely geographic: it sat at the Niger Bend, where river transport from the south converged with the camel routes going north, making it the unavoidable toll point between the goldfields and the Mediterranean. When Portuguese ships began tapping West African gold directly via Atlantic coastal ports in the late 15th century, they were already beginning to route around Timbuktu — a slow commercial drain that preceded the 1591 military collapse by a full century."
+        }
+      ]
     },
     {
       "id": "evt-songhai-taghaza-salt",
       "label": "Taghaza salt mines under Songhai",
       "year": 1500,
-      "description": "Taghaza, the great salt-mining oasis 500 miles north of Timbuktu, supplied most of the rock salt traded across the central Sahara into the Sahelian markets. Salt blocks were quarried from a dry lakebed and carried south by camel caravan, where they reached prices comparable to gold by weight in the salt-poor savanna. Songhai briefly brought Taghaza under direct administration in the early sixteenth century, then ceded effective control back to the local Mesufa Berbers.",
+      "description": "Taghaza (tah-GAH-zah) was the great Saharan salt-mining settlement about 533 miles (857 km) north-northwest of Timbuktu — a place so desolate that even its buildings were constructed from salt blocks, the only available material, and the rock salt quarried there fetched prices comparable to gold by weight by the time it reached the salt-poor savanna markets.",
       "wikiSlug": "Taghaza",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Taghaza was abandoned by the end of the 16th century and replaced by the salt pan at Taoudenni, 93 miles (150 km) to the southeast, which still operates today. The Moroccan sultan Ahmad al-Mansur seized control of Taghaza from Songhai around 1585 — six years before sending his army to conquer the whole empire — specifically to cut off Songhai's salt revenues and strangle its economy. Leo Africanus, who traveled through the region around 1510–1513, described it as a place where every necessity of life arrived by caravan, and miners lived in houses roofed with camel skins."
+        }
+      ]
     },
     {
       "id": "evt-songhai-cowrie-currency",
       "label": "Cowrie shell currency",
       "year": 1500,
-      "description": "Cowrie shells from the Maldives in the Indian Ocean served as everyday small-change currency throughout the Songhai economy, while gold dust handled larger transactions. The cowries traveled overland through Egypt and across the Sahara — one of the longer commodity chains of the early-modern world economy — and the Niger Bend markets of Timbuktu, Djenné, and Gao operated on a tri-currency system of cowries, gold dust, and Saharan rock salt.",
+      "description": "Cowrie shells from the Maldive Islands in the Indian Ocean served as everyday small-change currency throughout the Songhai economy — while gold dust handled larger transactions — completing one of the longest commodity circuits in the medieval world: harvested in the Indian Ocean, shipped to Red Sea ports, distributed through Cairo, carried by Saharan camel caravan, and finally changing hands in Timbuktu market stalls.",
       "wikiSlug": "Shell_money",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cowrie's virtues as currency were practical: the shells were durable, uniform enough to count by eye, impossible to counterfeit locally, and had no natural source in West Africa — meaning their supply could not be inflated by any local ruler. Cowries remained in use across West Africa well into the 19th century; their eventual collapse as currency came when European traders deliberately flooded the market with Indian Ocean cowries imported by ship, debasing the currency to gain trade advantages over local merchants."
+        }
+      ],
+      "commonsFile": "A_print_from_1845_shows_cowry_shells_being_used_as_money_by_an_Arab_trader.jpg"
     },
     {
       "id": "evt-songhai-kola-trade",
       "label": "Kola nut trade",
       "year": 1510,
-      "description": "Songhai's southern provinces traded actively in kola nuts harvested from the forest belt of modern Guinea and Ivory Coast. Kola was prized as a caffeinated stimulant — a chewed nut that staved off hunger and fatigue, the West African equivalent of coffee or coca leaf — and used in religious and social ceremonies across the Sahel. Kola became one of Songhai's principal non-gold exports across the Sahara.",
+      "description": "Kola nuts from the rainforest belt of modern Guinea and Ivory Coast were one of Songhai's principal non-gold exports across the Sahara — a caffeinated stimulant chewed to stave off hunger and fatigue, embedded in religious and social ceremony across the Sahel, and carried north by Wangara middlemen into caravan routes where North African merchants prized them as a luxury.",
       "wikiSlug": "Kola_nut",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The genus Cola that gave West Africa its centuries-old stimulant trade is the direct source of the 'cola' in modern soft drinks — the original Coca-Cola formula of 1886 used kola nut extract as its caffeine source. Kola nuts contain roughly twice the caffeine of a coffee bean by weight, plus theobromine (the stimulant also found in chocolate), making them genuinely effective at suppressing hunger and thirst on desert crossings. The north-south kola trade axis ran perpendicular to the better-known east-west Saharan gold routes, giving Songhai's commercial network a criss-crossing density that made it unusually resilient."
+        }
+      ],
+      "commonsFile": "Kolanut.jpg"
     },
     {
       "id": "evt-songhai-slavery",
       "label": "Slavery in the Songhai economy",
       "year": 1500,
-      "description": "Slavery was central to the Songhai economy. Royal slave estates produced grain in the Niger floodplain, slave-soldiers staffed the standing army, and slave caravans were a major export commodity north across the Sahara to the Maghreb and Egypt. The trade was largely fed by raids against the southern Mossi kingdoms and the forest peoples. The slave population of Songhai itself was substantial — perhaps a quarter of the empire's total population.",
+      "description": "Slavery was not a marginal feature of Songhai but a structural foundation: royal slave estates farmed the Niger floodplain for the imperial treasury, slave-soldiers called sofa staffed the standing army, and northward slave caravans to the Maghreb and Egypt were among the empire's primary export commodities. The system was fed by systematic military raiding against the Mossi, the Dogon, and forest peoples to the south, and the slave population may have reached a quarter of the empire's total.",
       "wikiSlug": "Slavery_in_Africa",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Maliki legal tradition that governed Songhai's courts imposed real constraints on enslavement: free-born Muslims could not be enslaved regardless of circumstance, slaves had legally protected rights, and manumission was considered religiously meritorious. The Atlantic slave trade then emerging on West Africa's coast operated with none of those protections — European slavers made no distinction between Muslims and non-Muslims and did not recognize free-born status under Islamic law. The shift from the trans-Saharan to the Atlantic system was not slavery's introduction to West Africa, but the replacement of a legally constrained system with a far more brutal and racialized one."
+        }
+      ],
+      "commonsFile": "089_Le_marché_aux_esclaves_à_Zanzibar.jpg"
     },
     {
       "id": "evt-songhai-iron-smelting",
       "label": "West African iron smelting",
       "year": 1500,
-      "description": "Songhai blacksmiths produced high-quality iron tools and weapons in clan-monopolized smithies, drawing on a West African iron-working tradition that long predated Mali. Numu (blacksmith) clans held a revered and slightly feared social position, considered to handle dangerous spiritual power along with metallurgy. West African iron technology had developed independently more than a thousand years before Songhai emerged.",
+      "description": "Songhai blacksmiths produced iron tools and weapons in hereditary clan-monopolized smithies, drawing on a West African iron-working tradition that began independently by at least 800 BC, more than a thousand years before the Songhai Empire existed. Numu (blacksmith) clans held a revered and slightly feared social position, considered to manage dangerous spiritual power alongside their metallurgy — a status pattern that appears across multiple West African cultures.",
       "wikiSlug": "Iron_metallurgy_in_Africa",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sub-Saharan Africa's iron metallurgy developed independently of the Mediterranean and Near Eastern sequence, and West Africa went directly to iron without a preceding copper-bronze age, which is why the standard three-age model (Stone/Bronze/Iron) fits African prehistory poorly. West African smelters independently developed high-performance furnace techniques, including preheated forced-air designs, that produced carbon-rich iron of high quality. The iron-working tradition spread eastward and southward from its West and Central African origins during the first millennium AD, carried by Bantu-speaking agriculturalists into eastern and southern Africa."
+        }
+      ],
+      "commonsFile": "Iron-working,_Angola,_ca._1650s.jpg"
     },
     {
       "id": "evt-songhai-cavalry",
       "label": "Heavy cavalry of Songhai",
       "year": 1500,
-      "description": "Songhai's military rested on heavy cavalry mounted on horses imported from North Africa across the Sahara. Horses cannot survive in the tsetse-fly belt of the West African forest, so the savanna empires monopolized horse-mounted warfare. A trained warhorse cost the equivalent of several enslaved people in trade, making cavalry an aristocratic monopoly — and the structural reason Songhai's army would prove vulnerable to matchlock muskets at Tondibi.",
+      "description": "Songhai's army was built around heavy cavalry mounted on North African horses — animals that could not survive south of the savanna in the tsetse-fly zone, giving the Sahelian empires a regional monopoly on mounted warfare. A trained warhorse cost the equivalent of several enslaved people in the trans-Saharan trade, making cavalry an aristocratic privilege and the structural reason the army proved unable to adapt when gunpowder arrived.",
       "wikiSlug": "Songhai_Empire",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The tsetse-fly constraint shaped West African military geography for centuries: forest-zone polities like Benin were effectively immune to cavalry invasion, while the Sahelian empires competed on a cavalry-dominated plain. The cavalry aristocracy's resistance to gunpowder restructuring was not irrational — adopting firearms infantry would have devalued the one asset, horses and riding skill, that justified their social position. Producing gunpowder in commercial quantities in West Africa was also a genuine logistical problem, since saltpeter (one of its key ingredients) was not locally abundant."
+        }
+      ]
     },
     {
       "id": "evt-songhai-sufi-orders",
       "label": "Sufi brotherhoods in Songhai",
       "year": 1520,
-      "description": "Sufi brotherhoods, particularly the Qadiriyya — founded by Abd al-Qadir al-Jilani in twelfth-century Baghdad and the dominant Sufi order across West Africa — spread through Songhai during the Askia period, blending Islamic mysticism with local spiritual traditions. Marabouts (Sufi-influenced scholar-clerics) served as teachers, judges, healers, and amulet-makers throughout the empire and were the connective tissue between elite court Islam and rural religious practice.",
+      "description": "The Qadiriyya (kah-dee-REE-yah) — a Sufi brotherhood (Islamic mystical order) founded in twelfth-century Baghdad and the dominant spiritual network in West Africa — spread through Songhai during the Askia period. Its traveling marabouts (Sufi-influenced scholar-clerics) moved between villages teaching basic Quran, mediating disputes, dispensing herbal healing, and making protective amulets that blended Quranic verses with traditional formulas.",
       "wikiSlug": "Sufism",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Orthodox Sankoré scholars often condemned marabout amulet-making as superstition with a thin Islamic veneer, but the practice was culturally indispensable and nearly universal. The Qadiriyya's founder Abd al-Qadir al-Jilani died in Baghdad in 1166; by the fifteenth century his order had crossed roughly 3,000 miles (4,800 km) of desert and was operating in Timbuktu. Without the Sufi orders, Islam would have remained a city religion; it was the marabout network that made it the dominant framework across the Sahel."
+        }
+      ],
+      "commonsFile": "A_Sufi_in_Ecstasy_in_a_Landscape_LACMA_M.73.5.582.jpg"
     },
     {
       "id": "evt-songhai-traditional-religion",
       "label": "Traditional Songhai religion",
       "year": 1500,
-      "description": "Despite court Islam, most rural Songhai practiced traditional religions centered on ancestor veneration, possession cults (the holey spirits), and the spirits of the river. The Askia rulers tolerated this traditional religious life so long as it did not openly challenge Islam at court. The layered religious culture — court Muslim, village traditional, urban Sufi, with all three intermingling — survives in modified form in the modern republics of Mali and Niger.",
+      "description": "Outside Songhai's cities, most of the empire's population practiced a layered traditional religion built around ancestor veneration, a class of spirit-beings called the holey (HOH-lay) who could possess human mediums, and the spirits of the Niger River itself. Islam was the religion of the court and the counting house; the village, the river, and the field ran on something older.",
       "wikiSlug": "Traditional_African_religions",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The specialists who managed holey possession ceremonies were called zima — trained ritual experts whose social authority ran parallel to, but entirely separate from, the Islamic qadi system. The Niger River was understood as a sentient being with moods and demands, and riverside communities made regular offerings and conducted elaborate ceremonies including animal sacrifice and ritual immersion to keep it favorable. This layered pattern of court Islam over village traditional religion is a Sahel-wide phenomenon still visible in modern Mali and Niger."
+        }
+      ],
+      "commonsFile": "Brooklyn_Museum_1989.51.39_Nommo_Figure_with_Raised_Arms.jpg"
     },
     {
       "id": "evt-songhai-women-scholars",
@@ -626,211 +933,342 @@
       "id": "evt-songhai-askia-musa",
       "label": "Askia Musa overthrows Askia Muhammad",
       "year": 1528,
-      "description": "Askia Muhammad's son Askia Musa deposed his now-elderly and partially blind father in 1528, beginning a period of succession struggles that gradually weakened centralized Songhai authority. The deposed Askia Muhammad was exiled to a small island in the Niger and died in 1538, near a hundred years old. The pattern of son-overthrowing-father set a destructive precedent.",
+      "description": "In 1528, Askia Muhammad's own son Musa deposed the aging, partially blind founder of the Askia dynasty and exiled him to a small island in the Niger River, where he lived another decade before dying around age ninety-five. The coup set a brutal template: every reign that followed was haunted by sons and brothers with the same idea.",
       "wikiSlug": "Askia_Mohammad_I",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Askia Muhammad had reigned for thirty-five years and built the largest empire in West African history, yet he was overthrown without the empire collapsing — testament to how durable his institutions were. His son Musa lasted only three years before being killed by his own brothers, meaning the dynasty managed to depose two rulers in succession within five years. The exiled founder is said to have spent his island years dictating reminiscences to scribes, though none of those accounts survive."
+        }
+      ]
     },
     {
       "id": "evt-songhai-succession-crisis",
       "label": "Mid-century succession crises",
       "year": 1540,
-      "description": "The two decades after Askia Muhammad's deposition saw a rapid succession of brief and contested reigns — Askia Musa, Askia Muhammad II Bonkana, Askia Ismail, Askia Ishaq I — punctuated by coups, exiles, and at least one major palace massacre. The standing-army cavalry aristocracy that Sonni Ali had created proved difficult for any single Askia to fully control.",
+      "description": "The twenty years after Askia Muhammad's deposition saw four different rulers occupy the throne — each brought to power by a coup and each spending his reign fending off the next one. The pattern was not random violence but a structural flaw: the Askia dynasty had no clear succession rule, so every son and brother of the emperor was simultaneously an heir and a rival.",
       "wikiSlug": "Askia_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Askia dynasty originally rose by usurping the earlier Sonni dynasty in 1493, which meant its own legitimacy rested on the precedent that strong men could seize the throne. The cavalry aristocracy was divided into competing noble lineages, and each succession reshuffle redistributed their positions — giving the nobility a direct stake in backing different claimants. After the Moroccan defeat in 1591, the dynasty retreated south and founded smaller successor kingdoms in what is now southwestern Niger, surviving in diminished form for generations."
+        }
+      ]
     },
     {
       "id": "evt-songhai-askia-dawud",
       "label": "Askia Dawud",
       "year": 1549,
       "endYear": 1582,
-      "description": "Askia Dawud presided over the last great era of Songhai prosperity in his thirty-three-year reign. He restored stability after the mid-century chaos, maintained the trans-Saharan trade, expanded patronage of Timbuktu's scholars, repelled Moroccan raids on Taghaza, and added a personal library of his own. The chronicles treat Dawud as the last competent Askia.",
+      "description": "Askia Dawud's thirty-three-year reign (1549–1582) was the last long stable era in Songhai history: he suppressed factional conflicts, kept the trans-Saharan trade at peak volume, patronized Timbuktu's scholars, repelled a Moroccan raid on the Taghaza salt mines, and reportedly built a personal library at the imperial court. The chronicles rank him alongside Askia Muhammad as one of the two great Askias.",
       "wikiSlug": "Askia_Dawud",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Dawud's political skill at managing the cavalry aristocracy was so personal that it simply did not transfer — none of his successors could replicate it, and the empire began fracturing within months of his death. A 1558 Portuguese atlas (the Queen Mary Atlas) depicts the ruler of Timbuktu as a crowned monarch, suggesting Dawud's court was visible enough to reach European cartographers. His decision not to modernize the army with gunpowder infantry — almost certainly driven by the cavalry nobility's resistance — turned out to be the empire's fatal structural mistake."
+        }
+      ],
+      "commonsFile": "King_of_Timbuktu_1558_Queen_Mary_Atlas.jpg"
     },
     {
       "id": "evt-songhai-portuguese-coastal-trade",
       "label": "Portuguese reach the West African coast",
       "year": 1471,
-      "description": "Portuguese caravels reached the Gold Coast of modern Ghana in 1471 and established the trading fort of Elmina in 1482. From Elmina the Portuguese began intercepting some of the gold flow that had previously moved north across the Sahara to Songhai's markets, redirecting it to the Atlantic seaboard and Lisbon. The structural reorientation of West African trade away from the Sahel toward the Atlantic coast had begun.",
+      "description": "Portuguese caravels reached the Gold Coast of modern Ghana in 1471 and built the trading fort of Elmina in 1482 — the first European trading post on the Gulf of Guinea and the oldest surviving European structure in sub-Saharan Africa. From that beachhead they began intercepting the gold flow that had previously moved north across the Sahara through Songhai's taxing territories.",
       "wikiSlug": "Elmina_Castle",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Elmina Castle (Castelo de São Jorge da Mina, 'Castle of Saint George of the Mine') was erected in 1482 and is now a UNESCO World Heritage Site in Ghana. The fort's commercial logic — direct Atlantic access to West African gold — gradually shifted trade away from the Saharan routes that had funded Sahelian empires for centuries, a structural tilt that was already well underway before al-Mansur's cannons arrived at Tondibi."
+        }
+      ],
+      "commonsFile": "Elmina_Castle_-_Ghana.jpg"
     },
     {
       "id": "evt-songhai-saadian-dynasty",
       "label": "Saadian dynasty of Morocco",
       "year": 1549,
       "endYear": 1659,
-      "description": "The Saadian dynasty, an Arab-descended family from the Sous Valley in southern Morocco, displaced the Wattasid Berber dynasty in 1549 and ruled Morocco for the next century. Sultan Ahmad al-Mansur (r. 1578–1603) used the prestige of his victory at the Battle of the Three Kings in 1578 to fund the trans-Saharan invasion that destroyed Songhai thirteen years later.",
+      "description": "The Saadian dynasty, an Arab-descended family from Morocco's Sous Valley, seized power from the Wattasid Berbers in 1549 and spent the next decades modernizing their army with European-trained gunpowder specialists — including Portuguese prisoners of war who converted to Islam — before launching the invasion that destroyed Songhai in 1591.",
       "wikiSlug": "Saadi_Sultanate",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Saadians were a Sharifian dynasty, meaning they claimed descent from the Prophet Muhammad, which gave them religious legitimacy the Wattasids had lacked. After the Battle of the Three Kings in 1578, ransom payments from captured Portuguese nobles alone filled the Saadian treasury with enough silver to fund years of military expansion. The dynasty ruled Morocco until 1659, when it fragmented into regional warlordism before being replaced by the Alaouite dynasty that still holds the Moroccan throne today."
+        }
+      ],
+      "commonsFile": "Saadiens_-_Carte_fin_XVIe_siècle_(revised).jpg"
     },
     {
       "id": "evt-songhai-three-kings-battle",
       "label": "Battle of the Three Kings, 1578",
       "year": 1578,
-      "description": "The Battle of the Three Kings (also called the Battle of Wadi al-Makhazin) at Ksar el-Kebir in northern Morocco saw Saadian forces destroy a Portuguese invasion army, killing the Portuguese king Sebastian I and the deposed Saadian claimant Abu Abdallah Mohammed II — three kings dying on a single battlefield. The victory and ransom money funded al-Mansur's gold reserves and his subsequent ambition to seize the Sahelian gold supply at its source.",
+      "description": "On August 4, 1578, at Ksar el-Kebir in northern Morocco, a Saadian army destroyed a Portuguese invasion force of roughly 17,000 men — killing the young Portuguese king Sebastian I, the Moroccan claimant Abu Abdallah Mohammed II who had invited the Portuguese in, and the reigning Saadian sultan Abd al-Malik from illness during the fighting. Three kings, one battlefield, one afternoon.",
       "wikiSlug": "Battle_of_Alcácer_Quibir",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sebastian I had no heir; his death triggered a succession crisis that ended Portuguese independence within two years, as Philip II of Spain absorbed Portugal and its entire global empire. The surviving Portuguese nobles were held for ransom, and the payments flowed into Ahmad al-Mansur's treasury for years afterward. Al-Mansur's epithet 'al-Mansur' (the Victorious) came directly from this battle — not from the later Songhai campaign."
+        }
+      ],
+      "commonsFile": "Lagos46_kopie.jpg"
     },
     {
       "id": "evt-songhai-civil-war",
       "label": "Songhai succession civil war",
       "year": 1588,
-      "description": "Askia Dawud's death in 1582 was followed by a sequence of contested successions and one major civil war between rival princes that fatally weakened the empire on the eve of the Moroccan invasion. By 1588 the Askia Ishaq II was on the throne, but the cavalry aristocracy was fractured into competing factions and the standing army's morale was visibly poor.",
+      "description": "Askia Dawud's death in 1582 triggered three successive coups in six years: Askia al-Hajj was deposed by his brother Muhammad Bani in 1586, who was deposed by another brother Ishaq II in 1588. Each transition involved a civil war that further shattered the cavalry aristocracy and eroded provincial loyalty — exactly as Ahmad al-Mansur was finalizing his invasion plan.",
       "wikiSlug": "Songhai_Empire",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The post-Dawud civil wars were particularly destructive because each coup required buying new loyalty through new appointments and renegotiated tribute arrangements, draining the central treasury precisely when it needed reserves. Provincial governors who had been subordinate under Dawud began acting as independent warlords. By the time Ishaq II stabilized on the throne in 1588, he had roughly three years before the Moroccans arrived — not enough time to rebuild the coalition Dawud had spent a lifetime constructing."
+        }
+      ]
     },
     {
       "id": "evt-songhai-ishaq-ii",
       "label": "Askia Ishaq II",
       "year": 1588,
       "endYear": 1591,
-      "description": "Askia Ishaq II inherited a fractured empire in 1588 after the brief reign of his predecessor. He reigned for only three years before the Moroccan invasion ended Songhai independence at Tondibi in March 1591, fleeing south after the battle. He was deposed by his own brother Muhammad Gao within months and disappears from the historical record.",
+      "description": "Askia Ishaq II came to the throne in 1588 by deposing his own brother — the third coup in six years — inherited a fractured empire, and lasted just three years before the Moroccan army arrived. He led Songhai's cavalry to catastrophic defeat at Tondibi in March 1591, fled south, and was deposed by yet another brother within months, disappearing from the historical record entirely.",
       "wikiSlug": "Askia_Ishaq_II",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ishaq II's contemptuous diplomatic reply to Ahmad al-Mansur — sending two hundred sticks of iron and a small token of gold dust as a pointed insult — may have been bravado or genuine miscalculation, but it removed whatever chance remained of a negotiated arrangement. At Tondibi, the Moroccan arquebus volleys reportedly spooked the Songhai war-cattle (used as an improvised defensive screen) into stampeding back through the Songhai cavalry lines, turning a pitched battle into a rout. Ishaq's brother Muhammad Gao, who defected to the Moroccan side before the battle, was briefly installed as a puppet Askia before the dynasty dissolved entirely."
+        }
+      ]
     },
     {
       "id": "evt-songhai-judar-pasha",
       "label": "Judar Pasha leads Saharan crossing",
       "year": 1590,
-      "description": "Judar Pasha, a Spanish-born eunuch in Saadian service, led the Moroccan expeditionary force of around 4,000 men across the Sahara in late 1590. The march from Marrakesh through the salt mines at Taghaza and on to the Niger killed roughly half the original force from heat, thirst, and exhaustion. The survivors carried matchlock muskets and a small artillery train that the Songhai cavalry could not counter.",
+      "description": "Judar Pasha was a Spanish-born eunuch — captured as a child in Almería, Spain, sold into Saadian service, and eventually given command of the most audacious military expedition across the sixteenth-century Sahara. In late 1590 he led roughly 4,000 men south from Marrakesh across 1,500 miles (2,400 km) of desert; heat, thirst, and exhaustion killed around half before they reached the Niger.",
       "wikiSlug": "Judar_Pasha",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Judar was specifically chosen because he had no significant political connections at the Saadian court — making him a reliable executor of al-Mansur's plan and a politically expendable scapegoat if it went wrong. The 'Pasha' title was itself a Saadian borrowing from the Ottomans, a senior military-administrative rank. His force was built around roughly 2,500 Andalusian Morisco and European-convert musketeers — exiles who had lost their Iberian homeland and whose gunpowder expertise was the expedition's decisive edge."
+        }
+      ],
+      "commonsFile": "Ahmad_al-Mansur.png"
     },
     {
       "id": "evt-songhai-battle-tondibi",
       "label": "Battle of Tondibi",
       "year": 1591,
-      "description": "On March 13, 1591, at the village of Tondibi just north of Gao, Judar Pasha's roughly 2,500 surviving Moroccan musketeers and a small artillery train destroyed the Songhai cavalry army of perhaps 30,000 fielded by Askia Ishaq II. The matchlock volleys broke the cavalry charge before it reached the Moroccan line, the Songhai army disintegrated, and the road to Gao and Timbuktu was open. Tondibi is one of the foundational early-modern demonstrations that gunpowder infantry could destroy a much larger pre-gunpowder cavalry force.",
+      "description": "On March 13, 1591, at the village of Tondibi on the Niger roughly 35 miles (56 km) north of Gao, Judar Pasha's battered force of around 2,500 musketeers destroyed Askia Ishaq II's cavalry army — estimated at 30,000 or more — with organized matchlock volley fire and a small artillery train, ending the Songhai Empire as a military power in an afternoon.",
       "wikiSlug": "Battle_of_Tondibi",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle turned decisively when a herd of cattle the Songhai had positioned on their flank to break the Moroccan line panicked at the gunfire and stampeded back into their own infantry instead, collapsing the Songhai formation from behind. Tondibi belongs to a cluster of early-modern gunpowder-beats-cavalry showdowns — alongside Chaldiran (1514) and Panipat (1526) — that confirmed matchlock infantry could consistently defeat far larger cavalry armies across Eurasia and now Africa."
+        }
+      ]
     },
     {
       "id": "evt-songhai-gao-occupied",
       "label": "Moroccan occupation of Gao",
       "year": 1591,
-      "description": "Days after Tondibi, Judar Pasha's force occupied the Songhai capital Gao without resistance. The Moroccans found the city less wealthy than al-Mansur's intelligence had suggested — much of the imperial treasury had been removed by the fleeing Askia — and the looting was extensive but commercially disappointing. Gao never recovered its imperial role.",
+      "description": "Within days of Tondibi, Moroccan forces entered the Songhai capital Gao without resistance. Askia Ishaq II had already fled south down the Niger with his bodyguard and much of the treasury, leaving the city with neither the troops nor the will to fight.",
       "wikiSlug": "Gao",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gao sits on the left bank of the Niger at its junction with the Tilemsi valley — the strategic position that made it the empire's commercial and administrative capital for over a century. The Moroccan looting was extensive but commercially disappointing; al-Mansur's intelligence had led him to expect a far wealthier prize. Gao never recovered its imperial role, and today the Tomb of Askia Muhammad I stands there as a UNESCO World Heritage Site — the most significant remnant of the city's imperial era."
+        }
+      ],
+      "commonsFile": "Tombeau_dAskia_in_Gao_by_David_Sessoms.jpg"
     },
     {
       "id": "evt-songhai-fall-timbuktu",
       "label": "Fall of Timbuktu to Morocco",
       "year": 1591,
-      "description": "Moroccan forces occupied Timbuktu shortly after Gao, and over the next several years systematically looted the city's libraries, deported scholars including Ahmed Baba to Marrakesh, and imposed direct military rule. The brain drain effectively ended Timbuktu's status as a major Islamic learning center, though the manuscript tradition survived in private family libraries that the Moroccans never managed to fully catalog.",
+      "description": "In April 1591, Moroccan forces occupied Timbuktu — the city al-Mansur had most wanted, as the commercial and symbolic capital of West African Islamic learning. The occupation brought systematic looting of libraries, the deportation of leading scholars (including Ahmed Baba), and direct military rule, effectively ending Timbuktu's status as a major Islamic intellectual center.",
       "wikiSlug": "Timbuktu",
       "tier": 1,
       "tags": [
         "writing"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Timbuktu sits 20 km north of the Niger River and at its medieval peak housed perhaps the largest concentration of Arabic-language manuscripts in sub-Saharan Africa. The three great mosques — Djinguereber, Sankoré, and Sidi Yahia — survived the occupation and still function as working mosques today, re-plastered each year in the traditional Sudano-Sahelian mud-brick technique unchanged since they were built."
+        }
+      ]
     },
     {
       "id": "evt-songhai-ahmed-baba",
       "label": "Ahmed Baba al-Timbukti",
       "year": 1556,
       "endYear": 1627,
-      "description": "Ahmed Baba al-Timbukti was the greatest Timbuktu scholar of the late sixteenth century, the author of more than forty books on Islamic law, biography, and theology, and the most-cited Maliki jurist of the post-classical period. He was deported to Marrakesh after the 1591 invasion and spent fifteen years in exile teaching Moroccan students. His Mi'raj al-Su'ud, a treatise arguing against the enslavement of free-born Muslims regardless of skin color, is one of the great early-modern African legal texts.",
+      "description": "Ahmed Baba al-Timbukti (1556–1627) was the greatest Maliki legal scholar of the late Songhai period — author of more than forty books, the most-cited West African jurist of the classical era. After the Moroccan invasion of 1591 he was deported to Marrakesh, where he spent fifteen years in exile and produced his most important legal treatise.",
       "wikiSlug": "Ahmad_Baba_al-Timbukti",
       "tier": 1,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His treatise Mi'raj al-Su'ud (\"The Ladder of Ascent\") was not an abolitionist text but a precise legal argument: Maliki law prohibited enslaving free-born Muslims, so enslaving Africans on the basis of skin color alone was illegal, since many were free-born Muslims. It is one of the earliest sustained arguments against the racialization of slavery from within the Islamic legal tradition. He was finally allowed to return to Timbuktu in 1607 and resumed teaching until his death; the Ahmed Baba Institute in Timbuktu, which houses thousands of surviving manuscripts, is named for him."
+        }
+      ]
     },
     {
       "id": "evt-songhai-ahmed-baba-exile",
       "label": "Ahmed Baba's Marrakesh exile",
       "year": 1593,
-      "description": "Ahmed Baba was arrested in Timbuktu in 1593 and transported in chains across the Sahara to Marrakesh, where Sultan al-Mansur intended to put him on display as a trophy of the conquest. The exile lasted fifteen years; Ahmed Baba taught classes in his Marrakesh prison-residence and corresponded with scholars across the Islamic world. He returned to Timbuktu in 1608 and lived there until his death in 1627.",
+      "description": "Ahmed Baba al-Timbukti — the most prominent jurist and scholar at Timbuktu's Sankoré mosque — was arrested in 1593 for leading scholarly resistance to the occupation, chained, and marched across the Sahara to Marrakesh, where Sultan al-Mansur intended to display him as a trophy of conquest. He taught and wrote prolifically throughout fifteen years of Moroccan captivity before returning to Timbuktu in 1608.",
       "wikiSlug": "Ahmad_Baba_al-Timbukti",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ahmed Baba wrote more than 40 books across his lifetime, several of the most important — including a biographical dictionary of Maliki jurists that became a standard Islamic-world reference — composed during the exile. His Marrakesh teaching had a paradoxical effect: it transferred a substantial body of Timbuktu scholarship into Moroccan intellectual life, so the brain drain was partly a brain transfer. He died in Timbuktu in 1627, and the Ahmed Baba Institute founded in the 1970s to archive the city's manuscripts bore his name until it was damaged in the 2012 jihadist occupation."
+        }
+      ],
+      "commonsFile": "Portuguese_Plan_of_the_Saadian_Kasbah_of_Marrakesh.jpg"
     },
     {
       "id": "evt-songhai-pashalik-timbuktu",
       "label": "Pashalik of Timbuktu",
       "year": 1591,
       "endYear": 1825,
-      "description": "After the conquest, Morocco established the Pashalik of Timbuktu — a Moroccan-officered military regime nominally subject to Marrakesh — to govern the conquered territories. Within a generation the Pashalik had effectively decoupled from the Saadian center, and the descendants of the soldiers (the Arma caste, from al-rumat 'the marksmen') became an autonomous military oligarchy ruling the Niger Bend cities into the early nineteenth century.",
+      "description": "Morocco's conquest produced the Pashalik of Timbuktu — a military governorate nominally subject to Marrakesh, with a Pasha appointed by the Saadian sultan — to rule the captured Niger Bend territories. Within a generation it had become effectively independent: the trans-Saharan communication lag made real central control impossible, and when the Saadian dynasty collapsed into civil war in the 1620s, the Pashalik was left entirely on its own.",
       "wikiSlug": "Pashalik_of_Timbuktu",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pashalik endured from 1591 until the early nineteenth century — over 200 years — before Tuareg confederations and Fulani jihad states finally swept it aside. The soldiers who settled in the Niger Bend married into local Songhai and Wangara families and gradually became the Arma, a creole military caste that maintained a monopoly on firearms as the foundation of their authority long after all connection to Morocco had dissolved."
+        }
+      ],
+      "commonsFile": "TombouctouPachalik_4.png"
     },
     {
       "id": "evt-songhai-arma-caste",
       "label": "Arma military caste",
       "year": 1612,
-      "description": "The descendants of the Saadian soldiers — known as the Arma, from the Arabic al-rumat ('the marksmen' or 'the gunners') — settled in Timbuktu and Gao, married into local Songhai families, and gradually formed an autonomous Mande-Arabic-speaking military caste that ruled the Niger Bend cities into the eighteenth century. Officially they paid tribute to Marrakesh; in practice they were independent within a generation and operated more like a creole frontier oligarchy than an imperial garrison.",
+      "description": "The Arma (from the Arabic al-rumat, 'the fusiliers') were the descendants of the 1591 expeditionary force who settled in Timbuktu and Gao, married into local families, and became an autonomous Mande-Arabic-speaking military caste. They ruled the Niger Bend cities for roughly two centuries — not as an empire, but as an armed oligarchy living off the commercial towns their ancestors had conquered.",
       "wikiSlug": "Arma_people",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Arma maintained their firearms advantage by continuing to acquire guns and powder through the trans-Saharan trade long after their break from Morocco — that monopoly on gunpowder technology was the source of their authority over surrounding populations. The Arma ethnic identity still exists in modern northern Mali, with cultural memory specifically tracing descent from the soldiers of the 1591 expedition."
+        }
+      ]
     },
     {
       "id": "evt-songhai-dendi-kingdom",
       "label": "Dendi successor kingdom",
       "year": 1592,
       "endYear": 1901,
-      "description": "After Tondibi, the surviving Askia royal family fled south down the Niger to the Dendi region (in the modern Niger-Benin border zone), where they established a successor state that maintained the Askia dynasty for another three centuries. The Dendi kingdom never recovered the empire's territorial scale but preserved the language, the dynastic line, and many of the cultural institutions of imperial Songhai.",
+      "description": "After Tondibi, the surviving Askia royal family fled south down the Niger to the remote Dendi region — in today's Niger-Benin border zone — and established a successor state that maintained the Askia dynasty, the Songhai language, and the imperial administrative traditions for another three centuries until French colonial forces absorbed it in 1901.",
       "wikiSlug": "Dendi_Kingdom",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Askia Ishaq II was deposed by his own brother Muhammad Gao within months of the flight — even in exile, the succession crisis that had weakened Songhai before the invasion continued. The dynasty's survival in Dendi from roughly 1592 to 1901 runs to about 310 years — nearly as long as the entire imperial Songhai era it followed, a striking case of a dynasty outlasting the empire it was built for."
+        }
+      ],
+      "commonsFile": "WestAfrica1625.png"
     },
     {
       "id": "evt-songhai-atlantic-trade-shadow",
       "label": "Atlantic slave trade reorients West Africa",
       "year": 1620,
-      "description": "As European powers built coastal forts on the Atlantic seaboard of West Africa through the sixteenth and seventeenth centuries, the long-distance commerce that had once flowed north across the Sahara to Timbuktu and Gao shifted south toward the coast. The Atlantic slave trade emerged as the dominant commercial flow, drawing African gold and labor toward Cape Coast, Elmina, and Ouidah — a structural reorientation that finished what the Moroccan invasion had begun.",
+      "description": "As European trading forts multiplied along the West African coast through the sixteenth and seventeenth centuries, the long-distance commerce that had once flowed north across the Sahara to Timbuktu and Gao shifted south toward the Atlantic. The Atlantic slave trade became the dominant commercial current, hollowing out the economic foundation on which any Sahelian successor empire would have depended.",
       "wikiSlug": "Atlantic_slave_trade",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Atlantic slave trade ultimately transported an estimated 12.5 million enslaved Africans across the ocean between the 16th and 19th centuries, the vast majority from West and Central Africa. The commercial gravity shift meant that the cities best positioned for the new era — Ouidah, Cape Coast, the Niger Delta ports — were coastal, not Sahelian; no successor state has matched Songhai's territorial scale since 1591."
+        }
+      ],
+      "commonsFile": "A_Liverpool_Slave_Ship_by_William_Jackson.jpg"
     },
     {
       "id": "evt-songhai-timbuktu-2012",
       "label": "Timbuktu manuscripts rescued, 2012–13",
       "year": 2012,
-      "description": "When jihadist forces occupied Timbuktu in 2012 and began destroying shrines and burning manuscripts, librarian Abdel Kader Haidara and a network of volunteers smuggled tens of thousands of medieval manuscripts out of the city in metal trunks and rice sacks, hiding them in private homes in Bamako. The operation rescued the largest concentration of pre-colonial sub-Saharan African writing still in existence — much of it from the Songhai-era Timbuktu scholarly tradition.",
+      "description": "When jihadist forces seized Timbuktu in 2012 and began destroying shrines and burning manuscripts, librarian Abdel Kader Haidara organized a covert rescue: volunteers smuggled tens of thousands of medieval manuscripts out of the city in metal trunks and rice sacks, hiding them in private homes across Bamako before the occupiers could reach them.",
       "wikiSlug": "Timbuktu",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The operation saved an estimated 377,000 manuscripts — the largest surviving collection of pre-colonial sub-Saharan African writing in existence, mostly Songhai-era Maliki legal treatises, Quranic commentary, and the scholarly output of Sankoré University. The jihadists did burn some material in the Ahmed Baba Institute before the evacuation was complete. Cataloging, digitizing, and translating the rescued texts is still ongoing and is considered one of the most important unfinished projects in African historical scholarship."
+        }
+      ],
+      "commonsFile": "ASC_Leiden_-_van_Achterberg_Collection_-_04_-_61_-_Le_Touareg_Mohamed_-_Tombouctou,_Mali_-_Novembre-décembre_1993.jpg"
     },
     {
       "id": "evt-songhai-tomb-unesco",
       "label": "Tomb of Askia inscribed by UNESCO",
       "year": 2004,
-      "description": "UNESCO inscribed the Tomb of Askia at Gao on its World Heritage List in 2004, formally recognizing the pyramidal mud-brick monument as a site of outstanding universal value. The inscription was followed by political instability in northern Mali that has periodically threatened the site, and by ongoing conservation work to maintain the mud-brick structure against the encroaching Sahara.",
+      "description": "The Tomb of Askia at Gao — a pyramidal mud-brick monument believed to be the burial place of Askia Muhammad I, built at the end of the fifteenth century — was inscribed on UNESCO's World Heritage List in 2004. The structure has required continuous hands-on maintenance for five hundred years using traditional Sudano-Sahelian mud-plastering techniques.",
       "wikiSlug": "Tomb_of_Askia",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Although Askia Muhammad I is the only ruler buried inside the tomb itself, several other Askias are interred in the surrounding courtyard — making it a dynastic burial ground spanning most of the empire's great era. The mud-brick maintenance technique is the same method used to maintain Timbuktu's three great mosques; both traditions have been handed down without interruption since the fifteenth century."
+        }
+      ]
     }
   ]
 }
