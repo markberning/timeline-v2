@@ -62,11 +62,18 @@
       "label": "Muawiya I",
       "year": 661,
       "endYear": 680,
-      "description": "Muawiya I established the Umayyad Caliphate with Damascus as its capital, transforming the caliphate into a hereditary dynasty.",
+      "description": "Mu'awiya I founded the Umayyad Caliphate in 661, making Damascus its capital and transforming the caliphate from an elected office into a hereditary dynasty — the first Islamic dynasty to rule by bloodline rather than consensus.",
       "wikiSlug": "Muawiya_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mu'awiya came to power through a civil war against Ali ibn Abi Talib, the Prophet's cousin and son-in-law — a conflict whose theological fallout split Islam into Sunni and Shia branches that persist today. He had served as governor of Syria for twenty years before becoming caliph, building a loyal professional army in the process. Unlike the early caliphs who ruled from the Arabian Peninsula, Mu'awiya chose Damascus because of its Byzantine administrative infrastructure and Mediterranean trade connections."
+        }
+      ],
+      "commonsFile": "Arab-Sasanian_coin_of_Muawiyah_I,_struck_at_the_Fasa_mint_in_Darabjird_(Fars).jpg"
     },
     {
       "id": "evt-sunni-shia-split",
@@ -108,13 +115,20 @@
       "id": "evt-umayyad-conquest-spain",
       "label": "Umayyad Conquest of Spain",
       "year": 711,
-      "description": "Tariq ibn Ziyad led the Muslim conquest of the Iberian Peninsula, establishing Al-Andalus and beginning centuries of Islamic rule in Europe.",
+      "description": "In 711, the Berber commander Tariq ibn Ziyad led an Umayyad force across the strait from North Africa and crushed the Visigothic king Roderic at the Battle of Guadalete, opening most of Iberia to Muslim rule within seven years. The crossing point was named Jabal Tariq ('Mount of Tariq') — the root of the modern word Gibraltar.",
       "wikiSlug": "Umayyad_conquest_of_Hispania",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Visigothic kingdom Tariq toppled had been weakened by a disputed succession, and rival Visigothic factions actually invited the Muslim force in — making the conquest partly an internal civil war. The new province's name, al-Andalus, is still debated: the leading theory traces it to the Vandals who ruled Spain briefly in the fifth century, but at least one alternate reading links it to a pre-Roman geographic term. The conquest force was small — estimates put Tariq's initial crossing at around 7,000 men — yet it dissolved a kingdom that had ruled Iberia for three centuries."
+        }
+      ],
+      "commonsFile": "Arabic-Latin_Umayyad_dinar_from_Spain,_715-717_AD.jpg"
     },
     {
       "id": "evt-great-mosque-damascus",
@@ -142,98 +156,161 @@
       "id": "evt-battle-of-zab",
       "label": "Battle of the Zab",
       "year": 750,
-      "description": "Abbasid forces decisively defeated the last Umayyad caliph Marwan II at the Battle of the Great Zab river in modern Iraq, ending the Umayyad dynasty and clearing the way for Abbasid rule.",
+      "description": "On January 25, 750, Abbasid forces destroyed the Umayyad army on the banks of the Great Zab river in northern Iraq, ending ninety years of Umayyad rule in a single afternoon.",
       "wikiSlug": "Battle_of_the_Zab",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The last Umayyad caliph, Marwan II, had actually reached the battle with a larger army than his opponents, which makes the Abbasid victory all the more decisive — the Khorasani troops were simply better motivated and better led. Marwan fled west and was tracked across Egypt and killed in a small Nile delta village a few months after the battle. The Abbasid Caliphate that replaced the Umayyads would last — at least nominally — until the Mongol sack of Baghdad in 1258."
+        }
+      ],
+      "commonsFile": "Zab_rivers.PNG"
     },
     {
       "id": "evt-abbasid-revolution",
       "label": "Abbasid Revolution",
       "year": 750,
-      "description": "The Abbasids overthrew the Umayyad Caliphate, shifting power eastward and ushering in the golden age of Islamic scholarship and culture.",
+      "description": "The Abbasid Revolution of 747–750 was an ideological and military uprising that toppled the Umayyad Caliphate, driven by Iranian Muslim converts and others who resented the Umayyads' system of Arab privilege — and organized in secret from Khorasan, the empire's eastern frontier.",
       "wikiSlug": "Abbasid_Revolution",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The revolution's mastermind, Abu Muslim, was a freedman of obscure origin — probably Persian — whose background made him a perfect symbol of the non-Arab grievances he was mobilizing. The Abbasids chose black as their dynastic color, deliberately contrasting with the Umayyads' white banners; the black flag became so associated with messianic upheaval that later Islamic movements adopted it for the same connotations. The coalition Abu Muslim assembled was deliberately broad: Iranian converts, Arab settlers, and even Alid sympathizers who wanted any non-Umayyad ruler."
+        }
+      ],
+      "commonsFile": "Balami_-_Tarikhnama_-_Abu'l-'Abbas_al-Saffah_is_proclaimed_the_first_'Abbasid_Caliph_(cropped).jpg"
     },
     {
       "id": "evt-battle-of-talas",
       "label": "Battle of Talas",
       "year": 751,
-      "description": "Abbasid and Tang Chinese forces clashed at the Talas River in Central Asia. The Abbasid victory halted Chinese westward expansion, and captured Chinese papermakers transmitted papermaking technology to the Islamic world.",
+      "description": "In July 751, an Abbasid army under Ziyad ibn Salih defeated a Tang Chinese force at the Talas River in what is now Kyrgyzstan — the only direct military clash between the two largest empires of the 8th century, and the battle whose prisoners changed the history of writing.",
       "wikiSlug": "Battle_of_Talas",
       "tier": 2,
       "tags": [
         "trade",
         "science"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tang army was commanded by Gao Xianzhi, a Korean-born general who had previously led a remarkable campaign across the Pamirs. The battle's outcome may have turned on the Karluk Turks, whose defection from the Tang side mid-battle is documented in Arabic sources (Chinese sources are less clear on the timing). The territorial consequence was minimal — the Abbasids held Transoxiana, the Tang kept everything east of it — but the capture of Chinese papermakers made Talas one of the most consequential small battles in history."
+        }
+      ],
+      "commonsFile": "Battle_of_Talas.png"
     },
     {
       "id": "evt-abu-al-abbas-saffah",
       "label": "Abu al-Abbas as-Saffah",
       "year": 750,
       "endYear": 754,
-      "description": "Abu al-Abbas as-Saffah became the first Abbasid caliph, ordering the massacre of the Umayyad family to secure his new dynasty's grip on power.",
+      "description": "Abu al-Abbas as-Saffah — 'the Bloodletter,' a name he chose himself — became the first Abbasid caliph in 750 and immediately launched a systematic extermination of the Umayyad family to prevent any future dynastic rival.",
       "wikiSlug": "As-Saffah",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "As-Saffah's reign lasted only four years (750–754), making him one of the shortest-reigning Abbasid caliphs, though he set the dynasty's ruthless tone. The famous banquet massacre — where surviving Umayyad princes were invited to negotiate surrender and then killed at the table — is well-attested in medieval sources, though the detail about leather sheets placed over the bodies while the new caliph kept eating may be later embellishment. He was the great-great-grandson of al-Abbas, the Prophet Muhammad's uncle, giving the Abbasids their direct blood claim to the caliphate."
+        }
+      ],
+      "commonsFile": "Dirhem_of_al-Saffah,_AH_132-136.jpg"
     },
     {
       "id": "evt-umayyad-emirate-cordoba",
       "label": "Umayyad Emirate of Córdoba",
       "year": 756,
-      "description": "Abd al-Rahman I, the sole surviving Umayyad prince, escaped the Abbasid massacre and established an independent emirate in Iberia, keeping the Umayyad flame alive in Córdoba for nearly three centuries.",
+      "description": "Abd al-Rahman I, the only Umayyad prince to escape the Abbasid massacre, spent five years as a fugitive before reaching Spain in 756 and founding an independent emirate at Córdoba — splitting the Islamic world into two rival caliphal lineages that would never reunite.",
       "wikiSlug": "Emirate_of_Córdoba",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "According to sources written within a generation of the events — including Abd al-Rahman's own dictated account — he swam the Euphrates while Abbasid horsemen shot at him from the bank. He was twenty years old at the time. His Córdoba emirate eventually became a full caliphate in 929 and kept the Umayyad name alive until 1031, nearly three centuries after the Abbasids had supposedly extinguished the dynasty."
+        }
+      ],
+      "commonsFile": "Arte_Alhambra_I_(cropped).jpg"
     },
     {
       "id": "evt-al-mansur-caliph",
       "label": "Al-Mansur Founds the Abbasid State",
       "year": 754,
       "endYear": 775,
-      "description": "Caliph al-Mansur consolidated Abbasid power, executed the movement's military commander Abu Muslim to prevent a rival power base, and commissioned Baghdad as the new imperial capital.",
+      "description": "Al-Mansur, the second Abbasid caliph (754–775), was the dynasty's real architect — he eliminated the revolutionary general Abu Muslim who had won them the throne, built Baghdad from scratch, and Persianized the imperial administration into a durable governing system.",
       "wikiSlug": "Al-Mansur",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Mansur's murder of Abu Muslim in 755 was a defining act of political calculation: the Khorasani commander was too popular with the Iranian base that had powered the revolution, and al-Mansur had him killed before that popularity became a threat. Al-Mansur reportedly died while on the hajj pilgrimage to Mecca, leaving the treasury reportedly full enough that his son al-Mahdi inherited an enormous financial surplus. His honorific 'al-Mansur' means 'the Victorious' — a title that became a template for subsequent caliphs who also chose reign-names as religious branding."
+        }
+      ],
+      "commonsFile": "Abbāsid_Caliph_al-Manṣūr_from_the_genealogy_(silsilanāma),_Cream_of_Histories_(Zübdet-üt_Tevarih,_1598).jpg"
     },
     {
       "id": "evt-founding-baghdad",
       "label": "Founding of Baghdad",
       "year": 762,
-      "description": "Caliph al-Mansur founded Baghdad as the new Abbasid capital, designing it as a perfect circular city that became the world's largest and most cosmopolitan metropolis.",
+      "description": "In 762, Caliph al-Mansur founded Baghdad on the Tigris River as a purpose-built imperial capital — the first great city in the world that was Islamic from its foundation stones up, with no Roman, Byzantine, or Sasanian city underneath it.",
       "wikiSlug": "Baghdad",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Mansur chose the site partly for its position near the ruins of Ctesiphon, the former Sasanian capital — the symbolic message being that the new dynasty was inheriting Persian imperial legitimacy. The city was built on the west bank of the Tigris near a pre-existing village called Baghdad, and the village name stuck even though the official name was Madinat al-Salam ('City of Peace'). Nothing of the original city survives above ground today: modern Baghdad sits on top of it, the river course has shifted, and what we know of the Round City's design comes almost entirely from a detailed 9th-century account by the geographer al-Ya'qubi."
+        }
+      ],
+      "commonsFile": "Abbasid_Palace1.jpg"
     },
     {
       "id": "evt-round-city-design",
       "label": "Round City of Baghdad",
       "year": 762,
-      "description": "Al-Mansur's Baghdad was built as a perfect circle roughly 1.5 miles in diameter, with four axial gates, a grand central palace and mosque, and concentric residential rings — the first planned Islamic imperial capital.",
+      "description": "Al-Mansur's Baghdad was designed as a perfect circle roughly 1.5 miles (2.4 km) across, with four gates facing the cardinal points, two concentric ring walls, and the caliph's palace and Great Mosque at the exact center — a piece of imperial geometry that declared the caliph to be the literal center of the world.",
       "wikiSlug": "Madinat_al-Salam",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Court astrologers — not architects — were assigned to choose the foundation hour; they selected July 30, 762, with Jupiter in Sagittarius, which they read as the planet of kingship in the sign of conquest. The four main gates were named after the directions they faced (Damascus Gate, Khorasan Gate, Basra Gate, Kufa Gate), each pointing toward a major city of the empire. The original circle was already too small within a generation — the population burst through the walls and spread along both banks of the Tigris, turning al-Mansur's elegant imperial statement into an administrative core at the center of a sprawling unplanned metropolis."
+        }
+      ],
+      "commonsFile": "Round_City_in_the_Time_of_Mansur_(Le_Strange).png"
     },
     {
       "id": "evt-ibn-al-muqaffa",
       "label": "Ibn al-Muqaffa's Translations",
       "year": 750,
-      "description": "Ibn al-Muqaffa translated major Sasanian Persian works — including the Kalila wa Dimna fable collection and chronicles of Persian kings — into Arabic, opening Pahlavi literary culture to the Islamic world.",
+      "description": "Ibn al-Muqaffa was an 8th-century Persian convert to Islam who translated Sasanian royal chronicles and the Kalila wa Dimna fable collection into Arabic, seeding classical Islamic prose literature.",
       "wikiSlug": "Ibn_al-Muqaffa",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kalila wa Dimna began as the Sanskrit Panchatantra, traveled through a Pahlavi (Middle Persian) translation at the Sasanian court, then into Ibn al-Muqaffa's Arabic, and eventually into Persian, Turkish, Hebrew, Latin, and most modern European languages — making it one of the most-translated books in world history before the printing press. Ibn al-Muqaffa was born Zoroastrian, later converted from Manichaeism to Islam, and was executed by an Abbasid governor in a notably gruesome manner, reportedly having his limbs cut off while still alive."
+        }
+      ],
+      "commonsFile": "Ibn_al-Muqaffa'_by_Khalil_Gibran.png"
     },
     {
       "id": "evt-jabir-ibn-hayyan",
@@ -250,163 +327,258 @@
       "label": "Harun al-Rashid",
       "year": 786,
       "endYear": 809,
-      "description": "Harun al-Rashid presided over the Abbasid golden age, patronizing scholars and inspiring the tales of One Thousand and One Nights.",
+      "description": "Harun al-Rashid (ruled 786–809) was the Abbasid caliph at the apex of the dynasty's wealth and prestige — a prolific patron of poets and scholars, and the historical figure around whom the legendary tales of One Thousand and One Nights later accumulated.",
       "wikiSlug": "Harun_al-Rashid",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Harun went on the hajj pilgrimage to Mecca nine times during his reign — extraordinary for a ruling caliph, and calculated religious theater meant to shore up his legitimacy. He patronized Abu Nuwas, an openly bisexual Iraqi-Persian poet who wrote verses praising wine and occasionally mocked the Prophet, yet remained a court favorite. His epithet al-Rashid actually means 'the Just' or 'the Rightly-Guided,' not 'the Wise' as it is sometimes mistranslated."
+        }
+      ],
+      "commonsFile": "Harun_Al-Rashid_on_the_Takht.png"
     },
     {
       "id": "evt-charlemagne-harun-contact",
       "label": "Charlemagne and Harun al-Rashid Exchange Embassies",
       "year": 797,
-      "description": "Harun al-Rashid and Charlemagne exchanged diplomatic missions, including the famous gift of an elephant named Abul-Abbas — a startling symbol of Islamic sophistication reaching Frankish courts.",
+      "description": "In 797, Harun al-Rashid and Charlemagne, king of the Franks, exchanged diplomatic embassies — two of the most powerful rulers in the world at opposite ends of the Mediterranean, using each other as counterweights against their shared rival, Byzantium.",
       "wikiSlug": "Abbasid%E2%80%93Carolingian_alliance",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most famous gift Harun sent to Charlemagne was an Indian elephant named Abul-Abbas — an animal the Frankish court had never seen before. The elephant survived the sea crossing from North Africa to Italy, then the Alpine journey to Charlemagne's court at Aachen, and lived there for nine years before dying on a military campaign in 810. From the Abbasid perspective, the gift was a calculated status move: only the wealthiest court in the world could afford to send an elephant as a casual diplomatic favor."
+        }
+      ]
     },
     {
       "id": "evt-paper-production",
       "label": "Paper Production Spreads",
       "year": 794,
-      "description": "The first paper mill in the Islamic world was established in Baghdad, after the technology was acquired from Chinese prisoners, revolutionizing book production.",
+      "description": "By 794, Baghdad had its own paper mill — less than fifty years after the technology arrived via Talas prisoners — and paper was already replacing papyrus and parchment as the Islamic world's standard writing material, drastically cutting the cost of manuscripts.",
       "wikiSlug": "History_of_paper",
       "tier": 3,
       "tags": [
         "science"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before paper, a scholar who could afford books might own a few expensive papyrus scrolls or parchment manuscripts; after paper, a modest scholar could accumulate a small library. By the 11th century paper mills were operating across the Islamic world, and Christian Europe was importing finished paper from al-Andalus a century before Europeans learned to make their own. The 13th-century European upgrade — paper mills using waterwheels — was itself adapted from techniques already standard in Islamic Spain."
+        }
+      ],
+      "commonsFile": "Making_Paper.gif"
     },
     {
       "id": "evt-hospital-system",
       "label": "Bimaristan Hospital System",
       "year": 805,
-      "description": "The first major public hospital (bimaristan) was established in Baghdad, offering free care to all patients and pioneering medical education and specialization.",
+      "description": "The bimaristan (from Persian: \"place of the sick\") was the Islamic world's public hospital — free to all comers regardless of religion or ability to pay, with separate wards by disease type, on-site pharmacies, and a teaching function that made it the world's first true clinical training institution.",
       "wikiSlug": "Bimaristan",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The first major Baghdad bimaristan was founded around 805 under Harun al-Rashid, built on the model imported from the Sasanian teaching hospital at Gundishapur. By the tenth century, every major Islamic city had at least one, staffed with specialists including oculists, surgeons, and women physicians for female patients. Christian Europe had no comparable institution until the late medieval period, and even then European hospitals were primarily charitable shelters for the dying rather than teaching hospitals."
+        }
+      ],
+      "commonsFile": "Bimaristan_Argun_03.jpg"
     },
     {
       "id": "evt-muhtasib-trade",
       "label": "Muhtasib Market System",
       "year": 800,
-      "description": "The Islamic muhtasib system of market inspectors regulated trade quality, weights, and measures across the caliphate, establishing early consumer protection standards.",
+      "description": "The muhtasib (moo-HTA-sib) was the Caliphate's licensed market inspector — a government official appointed by the sultan or imam to police bazaars, verify weights and measures, and enforce sharia-compliant commercial conduct across every major Islamic city.",
       "wikiSlug": "Muhtasib",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The muhtasib's remit went well beyond weights and scales: he was also responsible for public morals and behavior in urban spaces, essentially a combined trading-standards officer and public-order magistrate. The office derived from the pre-Islamic Persian and Byzantine tradition of market supervisors but was reframed as an Islamic religious duty — maintaining the hisba, the obligation to command right and forbid wrong. The taxes and duties collected through muhtasib-supervised customs houses were one of the primary financial pillars funding the Caliphate's scholarship, hospitals, and observatories."
+        }
+      ],
+      "commonsFile": "Ralamb-93.jpg"
     },
     {
       "id": "evt-bayt-al-hikma",
       "label": "House of Wisdom",
       "year": 813,
-      "description": "Caliph al-Ma'mun expanded the House of Wisdom (Bayt al-Hikma) in Baghdad into a major center for translating Greek, Persian, and Indian texts into Arabic.",
+      "description": "The House of Wisdom (Bayt al-Hikma) was Baghdad's premier royal library and translation hub, transformed under Caliph al-Ma'mun into a public academy where scholars rendered Greek, Persian, and Indian knowledge into Arabic.",
       "wikiSlug": "House_of_Wisdom",
       "tier": 1,
       "tags": [
         "writing"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The institution's origins are genuinely disputed: some sources trace it to Caliph Harun al-Rashid's personal book collection in the late 8th century, while others credit al-Mansur, the second Abbasid caliph, with its founding. Its famous reputation as a vast research complex largely owes to 19th-century Western romanticism layered onto a real but more modest court institution. The library was destroyed when the Mongols sacked Baghdad in 1258 — legend holds that so many books were thrown into the Tigris that the river ran black with ink."
+        }
+      ],
+      "commonsFile": "Maqamat_hariri.jpg"
     },
     {
       "id": "evt-al-mamun-caliph",
       "label": "Al-Ma'mun's Reign",
       "year": 813,
       "endYear": 833,
-      "description": "Caliph al-Ma'mun championed the Mu'tazilite theological school, commissioned astronomical observations, funded mass translation of Greek texts, and made the House of Wisdom the world's premier research institution.",
+      "description": "Al-Ma'mun, the seventh Abbasid caliph (reigned 813–833), made himself the driving patron of the Islamic translation movement, personally sponsoring the translation of Greek philosophy and commissioning the first Islamic measurement of the Earth's circumference.",
       "wikiSlug": "Al-Ma'mun",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Ma'mun's surveyors measured a degree of latitude on the plain of Sinjar around 830 and arrived at a circumference of roughly 24,800 miles — within 4% of the correct value. He was also the caliph who published al-Khwarizmi's foundational algebra text. His mother was a Persian slave, and his Iranian tutors gave him cultural and linguistic ties to Persia that shaped his entire reign's intellectual priorities."
+        }
+      ],
+      "commonsFile": "Coin_of_the_Abbasid_Caliph_al-Ma'mun.jpg"
     },
     {
       "id": "evt-sindhind-astronomy",
       "label": "Indian Sindhind Astronomy Translated",
       "year": 771,
-      "description": "An Indian astronomical text (the Brahmasphutasiddhanta, called Sindhind in Arabic) was translated at the Abbasid court, introducing Indian numerical methods and trigonometry to Islamic scientists.",
+      "description": "In 771, an Indian delegation brought the Brahmasphutasiddhanta — an advanced astronomical treatise by the 7th-century mathematician Brahmagupta — to the Abbasid court, where Caliph al-Mansur ordered it translated as the Sindhind.",
       "wikiSlug": "Zij_al-Sindhind",
       "tier": 3,
       "tags": [
         "science"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This single translation event introduced Islamic scholars to the decimal place-value number system, the concept of zero as a number, and key trigonometric techniques — all of which would become building blocks for the algebra and astronomy that defined the Golden Age. The translator Muhammad ibn Ibrahim al-Fazari is credited as the main Arabic contributor to the work. Al-Khwarizmi later produced a revised version of the Sindhind that spread these Indian mathematical tools even further across the Islamic world."
+        }
+      ]
     },
     {
       "id": "evt-hunayn-ibn-ishaq",
       "label": "Hunayn ibn Ishaq's Translation School",
       "year": 830,
-      "description": "Hunayn ibn Ishaq led the most prolific translation enterprise of the Golden Age, rendering Galen, Hippocrates, Euclid, Ptolemy, and Aristotle into Arabic and Syriac with rigorous philological method.",
+      "description": "Hunayn ibn Ishaq (c. 809–873) was an Arab Christian physician who ran the most rigorous translation school of the Golden Age, producing Arabic versions of nearly all of Galen's medical writings, Euclid's geometry, Ptolemy's astronomy, and much of Aristotle.",
       "wikiSlug": "Hunayn_ibn_Ishaq",
       "tier": 2,
       "tags": [
         "people",
         "writing"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hunayn insisted on collecting multiple Greek manuscript copies before translating, comparing them word by word — a scholarly discipline rare anywhere in the medieval world. He often produced two versions of each text: a literal translation for specialists and a readable paraphrase for general audiences. His detailed notes on methodology survive and are still studied as a founding document of translation theory. His son Ishaq and nephew Hubaysh worked as full members of the team, with Hunayn reviewing every finished translation himself."
+        }
+      ],
+      "commonsFile": "Hunayn_ibn-Ishaq_al-'Ibadi_Isagoge.jpg"
     },
     {
       "id": "evt-al-khwarizmi-algebra",
       "label": "Al-Khwarizmi's Algebra",
       "year": 820,
-      "description": "Al-Khwarizmi wrote Al-Kitab al-Mukhtasar, the foundational text of algebra that introduced systematic methods for solving linear and quadratic equations.",
+      "description": "Around 820, the Iranian mathematician al-Khwarizmi wrote the world's first systematic algebra textbook — classifying every linear and quadratic equation into six standard forms and giving a step-by-step solution procedure for each, proved geometrically. The English word 'algebra' descends directly from its title word al-jabr, meaning 'the restoration.'",
       "wikiSlug": "Muhammad_ibn_Musa_al-Khwarizmi",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Khwarizmi explicitly aimed the book at practical users: the opening dedicates it to solving inheritance disputes under Islamic law, commercial partnerships, and land-surveying problems — not abstract mathematics for specialists. He proved each solution method with a geometric diagram showing how manipulating an equation corresponds to rearranging areas of squares and rectangles, a technique borrowed from Greek geometry. Robert of Chester translated the book into Latin in 1145 in Spain under the title Liber algebrae et almucabala, giving medieval Europe its first algebra. By the 1500s 'algebra' in European usage meant the systematic study of equations — a word now taught to every secondary-school student on Earth."
+        }
+      ],
+      "commonsFile": "Madrid_-_Ciudad_Universitaria,_Monumento_a_Muhammad_al-Juarismi_(cropped).jpg"
     },
     {
       "id": "evt-al-khwarizmi-algorithm",
       "label": "Al-Khwarizmi and the Algorithm",
       "year": 825,
-      "description": "Al-Khwarizmi wrote Kitab al-Jam' wa'l-Tafriq, a treatise on Hindu-Arabic numerals whose Latinized title Algoritmi gave the world the word 'algorithm.'",
+      "description": "Around 825, al-Khwarizmi wrote a short introductory guide to the Indian decimal numeral system — the 0-through-9 place-value arithmetic developed during India's Gupta period — making it accessible to any literate scholar. When the book was translated into Latin in twelfth-century Spain, the opening words 'Algoritmi dixit' (meaning 'thus said al-Khwarizmi') gave the medieval world the Latin term algorismus, and eventually gave us the modern English word 'algorithm.'",
       "wikiSlug": "Muhammad_ibn_Musa_al-Khwarizmi",
       "tier": 2,
       "tags": [
         "science"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The original Arabic text is almost entirely lost; what survives is the Latin translation, which opens with the author's name latinized as 'Algoritmi' — and scribes or later copyists appear to have treated that as the name of the calculation method itself rather than the man who described it. Whether this was a single mistranslation or a gradual semantic drift over the twelfth and thirteenth centuries is still debated by historians of mathematics. The decimal place-value system al-Khwarizmi was promoting had existed in India since the Gupta period and reached Baghdad via Sasanian Iran, but most administrative arithmetic in the Abbasid world still used alphabetic letter-numerals or abacus devices — al-Khwarizmi's book was the push that moved scholars toward the superior system."
+        }
+      ],
+      "commonsFile": "1983_CPA_5426_(1).png"
     },
     {
       "id": "evt-al-kindi",
       "label": "Al-Kindi",
       "year": 830,
-      "description": "Al-Kindi, the 'Philosopher of the Arabs,' pioneered the integration of Greek philosophy with Islamic theology and developed early cryptanalysis methods.",
+      "description": "Al-Kindi (c. 801–873), called the 'Philosopher of the Arabs,' was the first Islamic scholar to attempt a systematic reconciliation of Greek philosophy with Islamic theology, and along the way invented frequency analysis — the technique of breaking coded messages by counting how often each symbol appears — making him the founding figure of cryptanalysis.",
       "wikiSlug": "Al-Kindi",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Kindi's treatise on breaking substitution ciphers, the Risala fi Istikhraj al-Mu'amma, is the earliest known text to describe frequency analysis: if you know that 'e' is the most common letter in Arabic, and 'x' is the most common symbol in the coded text, 'x' probably stands for 'e.' The technique would not be independently discovered in Christian Europe until the Renaissance, roughly eight hundred years later. Al-Kindi was unusual among Golden Age scholars in being ethnically Arab — most of his contemporaries were Persian, Christian, or Sabian — and he worked under three successive Abbasid caliphs at the Baghdad court."
+        }
+      ],
+      "commonsFile": "Stamp_IQ_1962_6f.jpg"
     },
     {
       "id": "evt-mutazilite-mihna",
       "label": "Mu'tazilite Mihna Inquisition",
       "year": 833,
-      "description": "Caliph al-Ma'mun imposed the mihna, an inquisition testing scholars on the Mu'tazilite doctrine that the Quran was created rather than eternal. Ahmad ibn Hanbal's defiant refusal made him a hero of Sunni orthodoxy.",
+      "description": "The mihna (\"ordeal\") was an 18-year inquisition launched by al-Ma'mun in 833, requiring Islamic scholars to publicly affirm the Mu'tazilite doctrine that the Quran was created by God rather than eternally co-existing with him — with imprisonment or beating for those who refused.",
       "wikiSlug": "Mihna",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The policy outlasted al-Ma'mun himself, continuing through two more caliphs before al-Mutawakkil reversed it in 851. Its most famous victim, Ahmad ibn Hanbal, was imprisoned and beaten for two years but never recanted, emerging afterward as a popular hero. The mihna's failure effectively ended any caliph's claim to set theological doctrine — after 851, religious authority in Sunni Islam migrated permanently to the independent scholarly class (the ulema), not the throne."
+        }
+      ]
     },
     {
       "id": "evt-al-battani",
       "label": "Al-Battani's Astronomical Tables",
       "year": 880,
-      "description": "Al-Battani produced highly accurate trigonometric tables and astronomical observations, computing the solar year to within two minutes of the modern value and introducing the sine function to replace the Greek chord.",
+      "description": "Al-Battani (c. 858–929), a Sabian astronomer from Harran working in Raqqa in northern Syria, compiled the most accurate astronomical tables in the world during his lifetime — computing the length of the solar year to within two minutes of the modern value and systematically replacing the Greek chord function with the Indian sine function, reshaping trigonometry for all subsequent astronomy.",
       "wikiSlug": "Al-Battani",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Battani's solar year calculation — 365 days, 5 hours, 46 minutes, 24 seconds — improved on Ptolemy's figure that European astronomers had relied on for centuries. Copernicus cited al-Battani by name twenty-three times in De revolutionibus (1543), the book that launched the heliocentric revolution; Tycho Brahe used his star catalog as a baseline. The English word 'sine' is itself the product of a mistranslation chain: the Sanskrit jya ('bowstring') was transliterated into Arabic as jiba, then misread as jaib ('pocket' or 'fold'), and a Latin translator rendered jaib as sinus — the Latin word for fold or bay — giving us 'sine' as a permanent linguistic accident."
+        }
+      ],
+      "commonsFile": "Al-Battani,_Muhammad_–_De_scientia_stellarum_frontispiece.jpg"
     },
     {
       "id": "evt-samarra-capital",
@@ -435,11 +607,18 @@
       "id": "evt-silk-road-peak",
       "label": "Islamic Silk Road Networks",
       "year": 850,
-      "description": "Islamic merchants and caravansaries dominated Silk Road trade, with Arabic becoming the lingua franca of commerce from Spain to Central Asia.",
+      "description": "The Abbasid Caliphate sat at the western hub of the Silk Road — the overland network of caravan routes running from the Mediterranean to China through Central Asia — and Arabic became the working language of commerce across the entire system, from Spain to Samarkand.",
       "wikiSlug": "Silk_Road",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name 'Silk Road' wasn't coined until the late 19th century; medieval merchants called no single route by that name — they knew a web of regional paths. The routes had existed in some form since the Han dynasty but reached their densest commercial intensity under Abbasid control, roughly 750–950 CE. The highest-value cargo traveling the overland route was deliberately light: silk, gemstones, drugs, and books, since camels charged by the pound and the per-mile cost made bulk goods uneconomical."
+        }
+      ],
+      "commonsFile": "Abbasid_Caravanseray_of_Nishapur_(Ribati-i-Abbasi_of_Nishapur)_-_Morning_244.jpg"
     },
     {
       "id": "evt-arabian-nights",
@@ -465,278 +644,449 @@
       "id": "evt-hanafi-law-school",
       "label": "Hanafi Legal School Codified",
       "year": 767,
-      "description": "Abu Hanifa's followers codified the Hanafi school of Islamic jurisprudence — the most widely followed legal tradition today — systematizing rational legal reasoning (ra'y) alongside hadith.",
+      "description": "The Hanafi school — founded by Abu Hanifa, a Persian Muslim from Kufa in southern Iraq — became the most widely followed of the four Sunni legal schools, distinguished by its heavy use of analogical reasoning and personal judgment alongside scripture.",
       "wikiSlug": "Hanafi",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Abu Hanifa never wrote a systematic legal treatise himself; his teachings were preserved and codified entirely by students, making him one of the most influential founders who left no book. The school's tolerance for local custom and rational extension made it the natural legal framework for the Ottoman and Mughal empires, which together at their peak governed roughly half the world's Muslims. Today Hanafi is still the largest single Sunni legal school by number of adherents."
+        }
+      ],
+      "commonsFile": "Chester_Beatty_T_414_fol_130r_Abū_Ḥanīfa.jpg"
     },
     {
       "id": "evt-maliki-law-school",
       "label": "Maliki Legal School",
       "year": 795,
-      "description": "Malik ibn Anas's al-Muwatta, the earliest surviving Islamic legal text, codified the Medina-based Maliki school that would dominate North and West Africa for centuries.",
+      "description": "The Maliki school, founded in Medina by Malik ibn Anas, holds that the living practice of the Prophet's own city carries special authority as evidence of how Islamic law should work — making community tradition a legal source alongside the Quran and hadith.",
       "wikiSlug": "Maliki",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Malik's al-Muwatta (roughly 'the well-trodden path') is the oldest surviving complete Islamic legal text and was so well regarded that the Abbasid caliph al-Mansur reportedly offered to make it the empire's official legal code — an offer Malik declined. The school became dominant west of Egypt: al-Andalus, the Maghreb, and sub-Saharan West Africa, where it remains the standard Sunni school to this day."
+        }
+      ],
+      "commonsFile": "Chester_Beatty_T_414_fol_130r_Mālik.jpg"
     },
     {
       "id": "evt-shafii-law-school",
       "label": "Shafi'i Legal School",
       "year": 820,
-      "description": "Al-Shafi'i formulated the Shafi'i school's systematic jurisprudence, establishing the usul al-fiqh (roots of law) methodology that grounded legal rulings in Quran, hadith, consensus, and analogy.",
+      "description": "Al-Shafi'i founded the third Sunni legal school by synthesizing the competing Maliki and Hanafi approaches into a strict methodological framework, insisting that every ruling be traceable through a fixed hierarchy: Quran, then authenticated hadith, then scholarly consensus, then analogy — with no free improvisation.",
       "wikiSlug": "Shafi%27i",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Shafi'i's Risala ('Letter,' c. 815) is considered the founding document of Islamic legal theory as an academic discipline — the first text to argue systematically about how law should be derived, not just what the rulings are. He studied under Malik himself in Medina before traveling to Iraq to learn Hanafi thought, which is why his synthesis could claim authority over both traditions."
+        }
+      ]
     },
     {
       "id": "evt-hanbali-law-school",
       "label": "Hanbali Legal School",
       "year": 855,
-      "description": "Ahmad ibn Hanbal's defiance of the mihna inquisition elevated him to legal authority; his disciples codified the Hanbali school, the strictest of the four Sunni legal traditions.",
+      "description": "The Hanbali school, the strictest of the four Sunni legal traditions, crystallized around Ahmad ibn Hanbal — the scholar who endured imprisonment and flogging rather than endorse the Mu'tazilite doctrine that the Quran was created — placing it as the school most resistant to speculative theology.",
       "wikiSlug": "Hanbali",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Hanbali school remained the smallest of the four schools for most of its history, concentrated in the Arabian Peninsula. In the eighteenth century it became the doctrinal foundation for the Wahhabi reform movement, which allied with the Saudi dynasty; its influence on modern Sunni Islam is now far larger than its historical numbers would suggest. Ibn Hanbal reportedly collected nearly one million hadith in his Musnad, the largest classical hadith collection."
+        }
+      ],
+      "commonsFile": "Chester_Beatty_T_414_fol_130r_ibn_Ḥanbal.jpg"
     },
     {
       "id": "evt-rabia-al-adawiyya",
       "label": "Rabia al-Adawiyya",
       "year": 801,
-      "description": "Rabia al-Adawiyya, a freed slave woman from Basra, became the foundational figure of Sufi mysticism, articulating a theology of pure love for God unconditioned by fear of hell or hope of paradise.",
+      "description": "Rabia al-Adawiyya, a freed slave woman from Basra, became the foundational figure of Sufi mystical thought by articulating a theology of pure love — praying to God for God alone, rejecting both fear of hell and hope of paradise as motivations.",
       "wikiSlug": "Rabia_al-Adawiyya",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rabia is regarded as one of the earliest and most influential Sufi saints, and the first to articulate the concept of disinterested love of God as a spiritual ideal that would shape all subsequent Sufi thought. Her famous prayer — 'if I worship You for fear of Hell, burn me in Hell; if I worship You in hope of Paradise, exclude me from Paradise' — survives in multiple Arabic forms in 9th- and 10th-century hagiographies. She was reportedly sold into slavery after her family died in a famine, and her master freed her after reportedly witnessing a miraculous light surrounding her at prayer."
+        }
+      ],
+      "commonsFile": "Rabia_al-Adawiyya.jpg"
     },
     {
       "id": "evt-al-hallaj",
       "label": "Al-Hallaj Executed",
       "year": 922,
-      "description": "The Sufi mystic al-Hallaj was crucified in Baghdad after declaring 'I am the Truth' (Ana al-Haqq), a statement the Abbasid authorities deemed blasphemy. His martyrdom became a defining moment in Sufi spirituality.",
+      "description": "The Sufi mystic Mansur al-Hallaj was executed in Baghdad in 922 after declaring 'I am the Truth' (Ana al-Haqq) — a statement his defenders read as mystical self-annihilation in God, but which the Abbasid state prosecuted as blasphemy.",
       "wikiSlug": "Al-Hallaj",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Hallaj spent eleven years in Abbasid prison before his execution, during which courts debated whether his statements were heresy or mystical expression. His execution was deliberately extreme — scourging, mutilation, crucifixion, beheading, then burning, with ashes thrown into the Tigris — specifically to prevent any grave site becoming a shrine. The plan backfired: he became the most celebrated Sufi martyr of the medieval Islamic world, and figures including Rumi and Attar retold his story as the archetype of love consuming the self."
+        }
+      ],
+      "commonsFile": "Burning_and_crucifixion_of_Mansur_al-Hallaj,_depiction_from_a_19th_century_Kashmiri_manuscript.jpg"
     },
     {
       "id": "evt-al-razi-medicine",
       "label": "Al-Razi's Medical Works",
       "year": 900,
-      "description": "Al-Razi (Rhazes) wrote extensively on medicine, distinguishing smallpox from measles for the first time and compiling a vast medical encyclopedia.",
+      "description": "Al-Razi (Rhazes, c. 854–925) was the most rigorous clinical empiricist of the medieval world — a Persian physician who kept exhaustive case notes, disagreed openly with Galen when his own cases contradicted him, and wrote the first clear clinical distinction between smallpox and measles.",
       "wikiSlug": "Muhammad_ibn_Zakariya_al-Razi",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Razi's posthumous Kitab al-Hawi (\"Comprehensive Book\"), assembled from his notes by students after his death, runs to twenty-three volumes and contains thousands of individual patient case histories — the first sustained body of clinical observational medicine in the Western tradition. He was also a ferocious critic of religion who argued that ordinary human reason made prophets unnecessary; most of those philosophical writings are lost, but he was never prosecuted, which says something about the intellectual climate of tenth-century Baghdad. When choosing a site for a new hospital, he reportedly hung pieces of meat across the city and built where they decayed slowest."
+        }
+      ],
+      "commonsFile": "Al-RaziInGerardusCremonensis1250.JPG"
     },
     {
       "id": "evt-sufism-growth",
       "label": "Rise of Sufism",
       "year": 900,
-      "description": "Sufi mysticism flourished across the Islamic world, with orders like the Qadiriyya spreading devotional practices and Islamic thought to new regions.",
+      "description": "Sufism — Islamic mysticism, named for the coarse wool (suf) worn by early ascetics as a sign of renunciation — grew from a scattered movement of individual practitioners into an organized spiritual tradition, spreading devotional practice across the Islamic world.",
       "wikiSlug": "Sufism",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sufism was never a separate sect: most Sufis were simultaneously affiliated with one of the four Sunni legal schools and accepted standard theology, while pursuing inner spiritual experience through recitation of divine names (dhikr), meditation, poetry, and devotional discipleship under a master teacher (shaykh). The tension between Sufi experiential individualism and orthodox legal-theological authority surfaced most dramatically in al-Hallaj's execution in 922, and was largely resolved by al-Ghazali's Ihya a century later, which gave Sufism a theological framework the mainstream could accept."
+        }
+      ],
+      "commonsFile": "A_Sufi_in_Ecstasy_in_a_Landscape_LACMA_M.73.5.582.jpg"
     },
     {
       "id": "evt-fatimid-founding",
       "label": "Fatimid Caliphate Founded",
       "year": 909,
-      "description": "The Fatimid dynasty established a rival Shia caliphate in North Africa, later conquering Egypt and founding Cairo as their capital.",
+      "description": "In 909, the Ismaili Shia leader Abdullah al-Mahdi overthrew the Aghlabid governors of North Africa with the support of Kutama Berber warriors, founding the Fatimid Caliphate in modern Tunisia and proclaiming a rival religious authority to Baghdad.",
       "wikiSlug": "Fatimid_Caliphate",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Fatimids claimed legitimacy through direct descent from the Prophet Muhammad's daughter Fatima and her husband Ali — a genealogy the Abbasids spent enormous effort trying to discredit. The Abbasid-sponsored Baghdad Manifesto of 1011, signed by Sunni scholars and nobles, formally declared the Fatimid lineage fraudulent; modern historians still debate the question. At its height, the Fatimid state controlled Egypt, parts of the Levant, Sicily, and the Hejaz (including Mecca and Medina), making it the dominant Mediterranean Islamic power."
+        }
+      ],
+      "commonsFile": "Fatimid_Caliphate.PNG"
     },
     {
       "id": "evt-al-farabi",
       "label": "Al-Farabi",
       "year": 920,
-      "description": "Al-Farabi, known as the 'Second Teacher' after Aristotle, wrote influential works on political philosophy, logic, and music theory.",
+      "description": "Al-Farabi (c. 870–950), nicknamed the 'Second Teacher' (the first being Aristotle), built the most comprehensive Islamic philosophical system of his era — blending Aristotle, Plato, and Islamic theology into a unified framework that covered political philosophy, logic, metaphysics, and music theory, and became the direct foundation for Ibn Sina's work in the next generation.",
       "wikiSlug": "Al-Farabi",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Farabi's Mabadi Ara Ahl al-Madina al-Fadila ('Principles of the Virtuous City') drew heavily on Plato's Republic to describe an ideal Islamic polity governed by a philosopher-ruler who also functions as a prophet — an idea that shaped Islamic political thought for centuries. His Kitab al-Musiqa al-Kabir ('Great Book of Music') was based on direct observation of contemporary Arabic and Persian musical practice, not just theoretical sources, and remained the standard reference on Islamic music theory for several centuries. He was probably ethnically Turkic — his family name points to origins in Farab, in what is now Kazakhstan — making him one of the few Golden Age figures from Central Asian steppe stock rather than Persian or Arab heritage."
+        }
+      ],
+      "commonsFile": "A21-133_grande.webp"
     },
     {
       "id": "evt-buyid-amirs",
       "label": "Buyid Amirs Seize Baghdad",
       "year": 945,
-      "description": "The Buyid dynasty, a Shia Iranian dynasty, captured Baghdad and reduced the Sunni Abbasid caliph to a figurehead, while retaining him as a symbol of religious legitimacy. The Abbasids would not recover real political power.",
+      "description": "In 945, a Shia Iranian dynasty from the Caspian highlands called the Buyids marched into Baghdad and turned the Abbasid caliph into a figurehead — keeping him on his throne for legitimacy while their own amir ran the actual government. It was the moment the unified Caliphate effectively ended.",
       "wikiSlug": "Buyid_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Buyids were Daylamite mountain warriors from the rugged highlands south of the Caspian Sea who had originally hired themselves out as soldiers before building their own empire. Their solution to ruling a majority-Sunni population as a Shia dynasty was purely pragmatic: abolishing the Sunni caliph would have created a vacuum they couldn't fill, so they created the title 'amir al-umara' (commander of commanders) and ruled through him instead. The dynasty held on for 110 years despite constant internal fragmentation among competing Buyid brothers, making it one of the longer-running 'shadow government' arrangements in medieval history."
+        }
+      ],
+      "commonsFile": "Adud_al-Dawla.jpg"
     },
     {
       "id": "evt-umayyad-caliphate-cordoba",
       "label": "Umayyad Caliphate of Córdoba",
       "year": 929,
-      "description": "Abd al-Rahman III declared himself caliph at Córdoba, directly challenging both Abbasid and Fatimid legitimacy and making Al-Andalus a third pole of Islamic civilization at the height of its cultural brilliance.",
+      "description": "In 929, Abd al-Rahman III of Córdoba declared himself caliph, formally challenging both the Abbasid dynasty in Baghdad and the new Fatimid claim in North Africa and making al-Andalus the third great pole of Islamic civilization.",
       "wikiSlug": "Caliphate_of_Córdoba",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When Abd al-Rahman III took the caliphal title, he was reclaiming a name the Umayyads had held in Damascus before the Abbasids overthrew them in 750 — so his proclamation was also a 179-year-delayed act of dynastic revenge. The Cordoban caliphate at its peak controlled most of the Iberian Peninsula, the Balearic Islands, and parts of North Africa, making it one of the largest polities in Europe. All three caliphates now existed simultaneously: Baghdad, Córdoba, and Cairo, none recognizing the others' legitimacy."
+        }
+      ],
+      "commonsFile": "Caliphate_of_Córdoba_under_Almanzor_-_1000_CE.png"
     },
     {
       "id": "evt-madinat-al-zahra",
       "label": "Madinat al-Zahra Palace City",
       "year": 936,
-      "description": "Abd al-Rahman III built Madinat al-Zahra, a spectacular palace-city outside Córdoba, as a statement of Umayyad imperial grandeur rivaling Baghdad and Cairo.",
+      "description": "Abd al-Rahman III spent twenty-five years building Madinat al-Zahra ('City of the Bright One'), a 280-acre royal capital on a hillside three miles west of Cordoba — a deliberate declaration that the Cordoban caliphate was as sovereign and splendid as anything in Baghdad.",
       "wikiSlug": "Medina_Azahara",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Visitors' accounts describe a reception hall with mercury fountains in the floor: sunlight refracted off the moving liquid metal to play rippling patterns across the marble walls, a calculated spectacle designed to dazzle foreign ambassadors. The city was destroyed and abandoned within a century of its founding when the caliphate collapsed in 1009–1031; it lay buried under farmland for nine centuries. Excavations began in the early twentieth century, but less than 10% of the site has been uncovered — the full complex remains mostly underground."
+        }
+      ],
+      "commonsFile": "Salon_Rico_1.jpg"
     },
     {
       "id": "evt-volga-trade-dirham",
       "label": "Dirham Silver Floods Viking North",
       "year": 900,
-      "description": "Millions of Islamic silver dirhams traveled north via the Volga River trade route, exchanged for furs and slaves with Scandinavian merchants. Enormous coin hoards found in Gotland attest to the scale of this commerce.",
+      "description": "From roughly 750 to 950 CE, Scandinavian merchants paddled south through the Volga River system to reach Islamic markets, trading furs and slaves for Abbasid silver dirhams — a flow so enormous that over a million Islamic coins survive today in archaeological hoards across Scandinavia and the Baltic.",
       "wikiSlug": "Volga_trade_route",
       "tier": 3,
       "tags": [
         "science"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The single largest Viking-age silver hoard ever found, unearthed at Spillings on the Swedish island of Gotland in 1999, contained over 14,000 silver coins (mostly Islamic dirhams) plus silver bullion, totaling 67 kilograms — and Gotland alone has produced over 700 documented hoards from the same era. The trade ended around 950 when the Samanid silver mines of Central Asia were largely exhausted; the Vikings, suddenly short of eastern income, redirected their raiding attention westward toward England and France, which is why the late Viking Age looks so different from the early one. Chess reached medieval Russia through the same Caspian–Volga trade routes, carried north from Persia and Arabia."
+        }
+      ],
+      "commonsFile": "Coins_Spilling_Silver_Hoard_2_closeup.jpg"
     },
     {
       "id": "evt-fatimid-cairo",
       "label": "Cairo Founded by Fatimids",
       "year": 969,
-      "description": "The Fatimid general Jawhar al-Siqilli conquered Egypt and founded Cairo (al-Qahira, 'the Victorious') as the new Shia imperial capital, establishing it alongside Al-Azhar mosque-university.",
+      "description": "In 969 the Fatimid general Jawhar al-Siqilli — a formerly enslaved soldier of Slavic or Greek origin from Sicily — conquered Egypt and founded al-Qahira (\"the Victorious\") just north of the existing city of Fustat, creating what we now call Cairo.",
       "wikiSlug": "Cairo",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The city's founding was deliberately timed by court astronomers to coincide with the rising of Mars, called Qahir al-Falak (\"Conqueror of the Heavens\") in Arabic — Cairo is literally named after the planet Mars. The original al-Qahira was a walled royal compound roughly a mile on each side, reserved for the caliph's palace and administration; the commercial population continued living in nearby Fustat, just to the south, making Cairo-plus-Fustat a paired city much like al-Mansur's Round City within greater Baghdad."
+        }
+      ]
     },
     {
       "id": "evt-cordoba-library",
       "label": "Library of Córdoba",
       "year": 961,
-      "description": "Caliph al-Hakam II expanded the Library of Córdoba to over 400,000 volumes, making it the largest library in medieval Europe.",
+      "description": "Caliph al-Hakam II (ruled 961–976) built the Library of Cordoba into the largest in medieval Europe, with a catalog running to 44 volumes describing over 400,000 manuscripts — dwarfing every Christian library of the era.",
       "wikiSlug": "Al-Hakam_II",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Hakam maintained agents across the Islamic world specifically tasked with tracking down rare manuscripts to purchase. For scale: the Abbey of St. Gall in Switzerland, considered one of the great libraries of Christian Europe, had around 400 manuscripts at its peak — Cordoba's collection was roughly a thousand times larger. When the caliphate collapsed in the early eleventh century, parts of the library traveled to newly captured Toledo, where they fed the translation movement that would eventually carry Greek and Arabic science into European universities."
+        }
+      ],
+      "commonsFile": "MonAlhakenII01.jpg"
     },
     {
       "id": "evt-great-mosque-cordoba",
       "label": "Córdoba Mosque Expansions",
       "year": 961,
-      "description": "The Great Mosque of Córdoba underwent successive expansions under Umayyad caliphs, culminating in al-Hakam II's addition of the stunning maqsura and mihrab with Byzantine-influenced mosaics — a masterpiece of Islamic architecture.",
+      "description": "The Great Mosque of Cordoba was built starting in 784 by Abd al-Rahman I on the site of a Visigothic church, then expanded four more times over 250 years until it covered roughly 200,000 square feet — a forest of 850 recycled Roman and Visigothic columns carrying alternating red-and-white horseshoe arches unlike anything else in the medieval world.",
       "wikiSlug": "Mosque%E2%80%93Cathedral_of_Córdoba",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mosque's famous striped arches use red brick and white stone in alternating bands, a feature borrowed partly from Roman aqueducts the builders could see in the Cordoban landscape. When Ferdinand III captured Cordoba in 1236 and the building became a cathedral, a Renaissance choir was inserted into its center two centuries later; Holy Roman Emperor Charles V, seeing the result, reportedly said: 'You have destroyed something unique to build something common.' The building is still an active Catholic cathedral today, and those original columns and arches still stand."
+        }
+      ]
     },
     {
       "id": "evt-arabic-numerals-spread",
       "label": "Arabic Numerals Spread West",
       "year": 976,
-      "description": "The Hindu-Arabic numeral system, refined by Islamic mathematicians, spread to Europe through Al-Andalus, eventually replacing Roman numerals in Western mathematics.",
+      "description": "By the late tenth century, the Hindu-Arabic numeral system — the 0-through-9 decimal place-value digits — began moving from al-Andalus (Islamic Spain) into Christian Europe, carried by scholars who had encountered Arabic-influenced learning in Spanish monasteries. The system would not become standard in Europe until Leonardo Fibonacci's Liber Abaci (1202) introduced it to merchants, but the chain of transmission ran from Gupta-period India through al-Khwarizmi's Baghdad to the modern world.",
       "wikiSlug": "Arabic_numerals",
       "tier": 3,
       "tags": [
         "trade"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The first identifiable European to use Hindu-Arabic numerals in a Christian context was Gerbert of Aurillac, a French monk who spent three years studying at monasteries in northern Spain and returned to France around 976 with the new system — he later became Pope Sylvester II in 999, the first French pope. Fibonacci, who grew up in a Pisan trading colony in North Africa and learned the numerals from Arab merchants, wrote Liber Abaci in 1202 as a direct adaptation of al-Khwarizmi's arithmetic; the book's practical demonstration of the system's commercial usefulness is what finally drove adoption across Europe. The digits themselves are an Indian invention that Islamic scholars carried west — of the four nodes in the chain from ancient India to the modern spreadsheet, three were Indian or Islamic and only one was European."
+        }
+      ],
+      "commonsFile": "Codex_Vigilanus_Primeros_Numeros_Arabigos.jpg"
     },
     {
       "id": "evt-al-azhar",
       "label": "Al-Azhar University",
       "year": 970,
-      "description": "Al-Azhar was founded in Fatimid Cairo, becoming one of the world's oldest continuously operating universities and a premier center of Islamic learning.",
+      "description": "Al-Azhar mosque and teaching institution was founded in 970 at the heart of Fatimid Cairo, originally as an Ismaili Shia center; after Saladin converted it to Sunni use in 1171, it became the most influential institution in Sunni Islamic learning — and still operates today.",
       "wikiSlug": "Al-Azhar_University",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Azhar is the oldest continuously operating institution of higher education in the world, over a thousand years old. Its trajectory is one of history's stranger institutional survivals: founded by a Shia dynasty to train Shia scholars, it was repurposed by the Sunni conqueror who abolished that same dynasty, and went on to become the premier authority in Sunni Islam. Today it oversees a national school network of roughly two million students in Egypt and issues fatwas (formal legal rulings) on contemporary religious questions."
+        }
+      ],
+      "commonsFile": "Courtyard_of_Al-Azhar_Mosque_Cairo_Egypt_2019_(6).jpg"
     },
     {
       "id": "evt-indian-ocean-trade",
       "label": "Indian Ocean Trade Peak",
       "year": 1000,
-      "description": "Muslim merchants dominated Indian Ocean trade routes connecting East Africa, Arabia, India, and China, spreading Islam and creating a vast commercial network.",
+      "description": "Muslim merchants dominated the Indian Ocean trade network — a monsoon-driven sea highway connecting East Africa, Arabia, India, Southeast Asia, and China — making it the most commercially active ocean on earth during the Abbasid centuries.",
       "wikiSlug": "Indian_Ocean_trade",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The whole system ran on seasonal clockwork: southwest monsoon winds from May to October carried ships east toward India, northeast winds from November to April brought them home, so a merchant leaving Basra in spring could complete a round trip to the Malabar Coast of India in a single year. The standard ship, the dhow, was sewn together with coconut-fiber rope rather than iron nails — flexible enough to survive coral reef impacts that would split a nailed hull, and immune to saltwater rust. The route was already ancient when the Arabs inherited it: a Greek merchant's manual from around 50 CE, the Periplus of the Erythraean Sea, describes the India run in practical sailing detail."
+        }
+      ]
     },
     {
       "id": "evt-ibn-al-haytham-optics",
       "label": "Ibn al-Haytham's Optics",
       "year": 1011,
-      "description": "Ibn al-Haytham wrote the Book of Optics, establishing the scientific method of experimentation and correctly explaining how vision works through light entering the eye.",
+      "description": "Ibn al-Haytham (Alhazen, c. 965–1040) wrote the Kitab al-Manazir (\"Book of Optics,\" c. 1011), settling a centuries-old Greek debate about vision by demonstrating through controlled experiment that light enters the eye from outside objects — and in doing so articulated the methodological program of experimental science five centuries before Galileo.",
       "wikiSlug": "Ibn_al-Haytham",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His camera obscura demonstration — a candle outside a darkened chamber projecting an inverted image through a pinhole — proved light travels in straight lines from its source, not from the eye outward. He explicitly wrote that truth-seekers must subject everything to scrutiny, including respected authorities, and subordinate theory to experimental result. His Book of Optics was translated into Latin as Perspectiva and directly shaped Roger Bacon, Witelo, and Kepler; the European route to modern optics ran through Cairo. Historian of science George Sarton called him perhaps the greatest scientist before Newton."
+        }
+      ],
+      "commonsFile": "Alhazen1652.png"
     },
     {
       "id": "evt-firdawsi-shahnameh",
       "label": "Firdawsi's Shahnameh",
       "year": 1010,
-      "description": "Firdawsi completed the Shahnameh (Book of Kings), the Persian national epic of over 50,000 couplets recounting Iran's mythical and historical past.",
+      "description": "Completed around 1010 CE after thirty-three years of composition, Firdawsi's Shahnameh (Book of Kings) is a Persian epic of roughly 50,000 couplets covering Iran's mythical and historical past from creation to the Arab conquest — the longest epic poem written by a single author in world literature.",
       "wikiSlug": "Shahnameh",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Firdawsi wrote the Shahnameh largely in pure Persian, deliberately avoiding the Arabic loanwords that had flooded the language after the Islamic conquest, making it a monument of linguistic as well as literary resistance. The poem covers over forty legendary and historical kings; its stories of Rostam and Sohrab (a father who unknowingly kills his own son in single combat) are among the most emotionally powerful passages in medieval poetry. The Shahnameh is still recited from memory at public gatherings in Iran and Afghanistan today."
+        }
+      ],
+      "commonsFile": "The_Court_of_Gayumars_(Cropped).jpg"
     },
     {
       "id": "evt-ibn-sina-canon",
       "label": "Ibn Sina's Canon of Medicine",
       "year": 1025,
-      "description": "Ibn Sina (Avicenna) completed the Canon of Medicine, a medical encyclopedia that remained the standard textbook in European and Islamic universities for centuries.",
+      "description": "Ibn Sina (Avicenna) completed the Canon of Medicine around 1025 — a five-volume systematic treatise that organized every disease with its definition, causes, signs, prognosis, and treatment in one searchable place, replacing the rambling genius of Galen with something a physician could actually use in a hurry.",
       "wikiSlug": "Avicenna",
       "tier": 2,
       "tags": [
         "people",
         "writing"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Canon synthesized over 800 medicaments from Greek, Persian, and Indian sources in a single drug reference. Translated into Latin by Gerard of Cremona in the twelfth century, it became the standard medical textbook at Bologna, Paris, Padua, and Oxford for roughly four centuries. It was still being printed and assigned in European medical schools as late as the mid-sixteenth century, when Vesalius's new anatomical work finally began to displace it. No other single medical book in history held front-rank institutional dominance for as long."
+        }
+      ],
+      "commonsFile": "Avicenna_Bust,_left_profile_(cropped).jpg"
     },
     {
       "id": "evt-ibn-sina-philosophy",
       "label": "Ibn Sina's Philosophy",
       "year": 1020,
-      "description": "Ibn Sina's Kitab al-Shifa (Book of Healing) was a vast philosophical encyclopedia synthesizing Aristotle, Neoplatonism, and Islamic theology — his 'floating man' thought experiment anticipated modern debates about consciousness and the self.",
+      "description": "Ibn Sina's Kitab al-Shifa (\"Book of Healing,\" c. 1020) — the title means healing the soul through philosophical understanding, not curing bodies — was a sprawling encyclopedia covering logic, natural philosophy, mathematics, and metaphysics that quietly rewired how medieval Europe thought about God and existence.",
       "wikiSlug": "The_Book_of_Healing",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ibn Sina's distinction between essence and existence — that all things except God are contingent (their existence is given to them from outside) while God alone is necessary — became the foundation of Thomas Aquinas's metaphysics two centuries later. His \"floating man\" thought experiment, in which a person created mid-air with no sensory input would still affirm his own existence, anticipated Descartes' cogito by roughly six hundred years. Ibn Sina reportedly read Aristotle's Metaphysics forty times before it made sense, then found al-Farabi's commentary finally cracked it open."
+        }
+      ],
+      "commonsFile": "Modern_Center_of_Dushanbe,_Tajikistan_(29935236488).jpg"
     },
     {
       "id": "evt-al-biruni",
       "label": "Al-Biruni",
       "year": 1030,
-      "description": "Al-Biruni wrote extensively on astronomy, mathematics, and comparative religion, and was among the first scholars to study Indian culture systematically.",
+      "description": "Al-Biruni (973–1050) was a Central Asian polymath who wrote on astronomy, mathematics, pharmacology, and comparative religion with a rigor unusual for any era — including the first systematic outside study of Indian civilization, produced after he traveled to India with Mahmud of Ghazni's conquering armies.",
       "wikiSlug": "Al-Biruni",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Biruni is credited as both the 'Father of Comparative Religion' and the founder of Indology — the academic study of India — for his *Kitab al-Hind*, which treated Indian philosophy, science, and religion with genuine intellectual respect rather than polemics. He calculated the Earth's circumference using a method involving mountain heights and horizon angles, arriving at a figure remarkably close to the modern value. He wrote in Arabic but was ethnically Iranian (Khwarazmian), and worked under Buyid, Ghaznavid, and Samanid patronage across a career spanning sixty years."
+        }
+      ],
+      "commonsFile": "Biruni-russian.jpg"
     },
     {
       "id": "evt-al-biruni-india",
@@ -754,23 +1104,37 @@
       "id": "evt-seljuk-conquest-baghdad",
       "label": "Seljuks Dominate Baghdad",
       "year": 1055,
-      "description": "The Seljuk Turks under Tughril Beg entered Baghdad, expelled the Buyid amirs, and assumed the title of sultan, becoming the new protectors of the (now largely ceremonial) Abbasid caliphate.",
+      "description": "In 1055, the Sunni Seljuk Turks under Tughril Beg swept into Baghdad at the Abbasid caliph's own invitation, ejected the Shia Buyids, and assumed the newly formalized title of Sultan — making themselves the Caliphate's protectors and the most powerful rulers in the Islamic world.",
       "wikiSlug": "Seljuk_Empire",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its peak the Seljuk Empire stretched across 3.9 million square miles (roughly the area of the contiguous United States), from Anatolia to the Hindu Kush. Tughril Beg cemented his new status by marrying the caliph's daughter, and the word 'sultan' — previously a vague term meaning 'authority' — now became the specific title for the supreme political ruler standing alongside the caliph's religious role. The arrangement institutionalized a split between political power (the sultan) and religious legitimacy (the caliph) that would define Sunni governance for the next two centuries."
+        }
+      ],
+      "commonsFile": "Book_of_Antidotes_of_Pseudo-Gallen._Scenes_of_the_royal_court._Probably_northern_Iraq_(Mosul)._Mid_13th_century_(Turkoman_soldiers_detail).jpg"
     },
     {
       "id": "evt-nizam-al-mulk",
       "label": "Nizam al-Mulk and the Nizamiyya",
       "year": 1065,
-      "description": "Seljuk vizier Nizam al-Mulk founded the Nizamiyya madrasa network — the world's first state-funded university system — from Baghdad to Khorasan, institutionalizing Shafi'i jurisprudence and standardizing Islamic higher education.",
+      "description": "Seljuk chief minister Nizam al-Mulk founded the Nizamiyya madrasa network starting in 1065 — the world's first state-funded, standardized university system — creating a chain of residential colleges from Baghdad to Khorasan that would define Sunni higher education for centuries.",
       "wikiSlug": "Nizam_al-Mulk",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nizam al-Mulk served as de facto ruler of the Seljuk Empire for twenty years after Sultan Alp Arslan's assassination in 1072, making him one of the most powerful non-dynastic figures in medieval Islamic history. His *Siyasatnama* ('Book of Government') became a standard political theory reference across the Islamic world. He was assassinated in 1092 by an Ismaili Nizari 'Assassin' — making him the first major victim of the Order of Assassins, the same organization based at the mountain fortress of Alamut that would terrorize Sunni leaders for the next 170 years."
+        }
+      ],
+      "commonsFile": "Assassination_of_Nizam_al-Mulk.jpg"
     },
     {
       "id": "evt-omar-khayyam",
@@ -800,49 +1164,77 @@
       "id": "evt-al-ghazali",
       "label": "Al-Ghazali",
       "year": 1095,
-      "description": "Al-Ghazali wrote The Incoherence of the Philosophers, reconciling Islamic orthodoxy with Sufi mysticism and reshaping Islamic intellectual life.",
+      "description": "Al-Ghazali's Tahafut al-Falasifa ('The Incoherence of the Philosophers,' c. 1095) launched a systematic attack on the Aristotelian philosophical tradition in Islam, declaring three positions of Ibn Sina's school — including the eternity of the world and denial of bodily resurrection — not merely heretical but outside Islam.",
       "wikiSlug": "Al-Ghazali",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Ghazali wrote the Tahafut before his famous nervous breakdown and decade of wandering as a Sufi ascetic — meaning his most influential polemical work came from the height of his establishment career, not his spiritual crisis. He was simultaneously the most prominent professor at the Nizamiyya madrasa in Baghdad (the flagship state-funded university) and a privately tormented man questioning whether all his prestige was spiritually hollow. His partial autobiography, the al-Munqidh min al-Dalal ('Deliverance from Error'), is one of the earliest accounts of intellectual and spiritual crisis in the Islamic tradition."
+        }
+      ],
+      "commonsFile": "Munqidh_min_al-dalal_(last_page).jpg"
     },
     {
       "id": "evt-al-ghazali-ihya",
       "label": "Al-Ghazali's Ihya Ulum al-Din",
       "year": 1100,
-      "description": "Al-Ghazali's masterwork Ihya Ulum al-Din (Revival of the Religious Sciences) reconciled Sufi inner piety with orthodox Sunni practice, becoming the most widely read text in Islam after the Quran.",
+      "description": "Al-Ghazali's Ihya Ulum al-Din ('Revival of the Religious Sciences,' c. 1100) — a forty-book synthesis of Sunni law, Ash'ari theology, and Sufi mysticism — argued that legal observance and inner spiritual experience were the necessary outer and inner faces of the same religious life, integrating Sufism into the Sunni mainstream.",
       "wikiSlug": "The_Revival_of_the_Religious_Sciences",
       "tier": 3,
       "tags": [
         "writing",
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Ihya is widely considered the most influential book in Islamic history after the Quran and canonical hadith collections. Al-Ghazali wrote it during and after his decade of wandering asceticism, which gave it an authority his earlier academic works lacked — it was the work of a scholar who had abandoned wealth and status to actually practice what he was describing. The forty books cover everything from the rules of ritual purity to the spiritual diseases of the heart and their cures."
+        }
+      ],
+      "commonsFile": "Al-Ihya.jpg"
     },
     {
       "id": "evt-first-crusade",
       "label": "First Crusade",
       "year": 1096,
       "endYear": 1099,
-      "description": "European Crusaders captured Jerusalem in 1099, establishing Crusader states in the Levant and disrupting the Islamic political order.",
+      "description": "Launched in 1096 after Pope Urban II's sermon at the Council of Clermont, the First Crusade was a Western European military campaign that marched across Anatolia, besieged Antioch, and captured Jerusalem in 1099 — establishing four small Latin Christian states in the heart of the Islamic world.",
       "wikiSlug": "First_Crusade",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Byzantine emperor Alexios I had asked for a small mercenary force to help recapture lost provinces from the Seljuks; instead he got tens of thousands of armed Western European pilgrims whose goals were completely different from his. The first wave — the People's Crusade, a largely peasant force led by the preacher Peter the Hermit — was massacred in Anatolia before the main armies arrived. The sack of Jerusalem in July 1099 was unusually brutal even by medieval standards: contemporary Crusader chronicles proudly describe streets running with blood, and the city's Muslim and Jewish populations were effectively wiped out."
+        }
+      ],
+      "commonsFile": "1099_Siege_of_Jerusalem.jpg"
     },
     {
       "id": "evt-ibn-tumart-almohad",
       "label": "Almohad Movement Founded",
       "year": 1121,
-      "description": "Ibn Tumart founded the purist Almohad movement in Morocco, which would eventually topple the Almoravid dynasty, dominate North Africa and Iberia, and briefly unify the western Islamic world under Berber leadership.",
+      "description": "Around 1121, the Moroccan reformer Ibn Tumart declared himself the Mahdi (messianic guide) and launched the Almohad movement, which toppled the Almoravids by 1147 and built a Berber empire spanning the Maghreb and al-Andalus.",
       "wikiSlug": "Almohad_Caliphate",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ibn Tumart reportedly studied in Baghdad with al-Ghazali himself before returning to Morocco — making the Almohad movement partly a product of eastern Islamic theology reimported into the west. The Almohads were the high-water mark of Berber political power in Islamic history, but they were ideologically harsher than their predecessors: they persecuted Jewish and Christian communities in al-Andalus more severely than any previous Muslim ruler had. Their architectural legacy outlasted their politics — the Giralda tower in Seville, now the bell tower of the city's cathedral, was originally the minaret of the Almohad great mosque."
+        }
+      ],
+      "commonsFile": "Almohad_Expansion.png"
     },
     {
       "id": "evt-al-idrisi-map",
@@ -858,131 +1250,206 @@
       "id": "evt-ibn-tufayl-hayy",
       "label": "Ibn Tufayl's Hayy ibn Yaqzan",
       "year": 1160,
-      "description": "Ibn Tufayl wrote the philosophical novel Hayy ibn Yaqzan, whose protagonist raises himself from infancy on a desert island and discovers scientific and philosophical truths through reason alone — influencing Enlightenment thinkers including Locke and Defoe.",
+      "description": "Ibn Tufayl's Hayy ibn Yaqzan ('Living Son of Awake,' c. 1160s) is a philosophical novel about a child raised alone on a desert island who — with no culture, religion, or human contact — reasons his way to a complete understanding of God and the cosmos, arguing that unaided human reason and revealed religion arrive at the same truths.",
       "wikiSlug": "Hayy_ibn_Yaqdhan",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The book was translated into Latin in 1671 by Edward Pococke the Younger and became widely read in seventeenth-century Europe; John Locke owned a copy. Daniel Defoe is generally believed to have known it, and Robinson Crusoe (1719) borrows the desert-island-as-philosophical-laboratory frame, though Defoe replaced the metaphysics with a Protestant survival story. Some scholars trace a direct line from Hayy's central argument — that an uncorrupted human mind can derive truth from nature without ecclesiastical authority — to the Enlightenment project of grounding knowledge in unaided reason."
+        }
+      ],
+      "commonsFile": "The_History_of_Hayy_Ibn_Yaqzan_(page_13_crop).jpg"
     },
     {
       "id": "evt-ibn-rushd",
       "label": "Ibn Rushd (Averroes)",
       "year": 1180,
-      "description": "Ibn Rushd wrote extensive commentaries on Aristotle that profoundly influenced both Islamic and European scholastic philosophy.",
+      "description": "Ibn Rushd (Averroes, 1126–1198) of Cordoba produced over 100 works including detailed commentaries on nearly all of Aristotle's surviving texts — earning the title 'The Commentator' in medieval Europe, where his Latin translations were required reading in university philosophy for three centuries.",
       "wikiSlug": "Averroes",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ibn Rushd was also a practicing physician and a judge (qadi) in Seville and Cordoba — his philosophical career ran alongside a full professional life in law and medicine. Late in his life the Almohad caliph briefly exiled him and had his philosophical books burned in response to pressure from conservative religious scholars, then reinstated him; the episode illustrated the fragility of philosophical inquiry even at the height of Andalusian culture. His commentaries reached Latin Europe through the Toledo translation movement, and 'Averroism' — the project of reading Aristotle through Ibn Rushd's lens — became a defining intellectual controversy in thirteenth-century Christian universities."
+        }
+      ],
+      "commonsFile": "Andrea_di_bonaiuto,_apoteosi_di_san_tommaso_d'aquino,_11_averroè.jpg"
     },
     {
       "id": "evt-ibn-rushd-incoherence",
       "label": "Ibn Rushd's Incoherence of the Incoherence",
       "year": 1180,
-      "description": "Ibn Rushd systematically refuted al-Ghazali's attack on the philosophers in his Tahafut al-Tahafut, defending Aristotelian rationalism and triggering a centuries-long debate over faith and reason.",
+      "description": "Ibn Rushd's Tahafut al-Tahafut ('The Incoherence of the Incoherence,' c. 1180) went through al-Ghazali's anti-philosophical polemic argument by argument, defending Aristotelian rationalism — but the book that won the argument in Europe lost it in the Islamic world.",
       "wikiSlug": "The_Incoherence_of_the_Incoherence",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title is a deliberate provocation: calling your own book 'the incoherence of the incoherence' means the argument you're refuting was itself incoherent. Despite the precision of Ibn Rushd's counterarguments, the Tahafut al-Tahafut had essentially no influence on subsequent Sunni theological debate — al-Ghazali's prestige and the shift in the Islamic intellectual mainstream had already settled the question. The statue of Averroes in Córdoba, Spain, is one of the few public monuments to a medieval Islamic philosopher in Europe."
+        }
+      ],
+      "commonsFile": "Statue_of_Averroes_in_Córdoba,_Spain.jpg"
     },
     {
       "id": "evt-saladin",
       "label": "Saladin Recaptures Jerusalem",
       "year": 1187,
-      "description": "Saladin defeated the Crusaders at the Battle of Hattin and recaptured Jerusalem, earning renown for his chivalry even among his enemies.",
+      "description": "On July 4, 1187, Saladin destroyed the main Crusader army at the Battle of Hattin by cutting off its water supply on a summer plateau, then swept through the Levant and retook Jerusalem on October 2 — treating the city's population with a mercy that medieval Europe, even while condemning him, could not entirely stop admiring.",
       "wikiSlug": "Saladin",
       "tier": 2,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Hijri date of Jerusalem's fall — the anniversary of the Prophet Muhammad's Night Journey to the Temple Mount — was noted by both sides as a remarkable coincidence. Saladin's ransom policy at Jerusalem's surrender released the poorest inhabitants without payment after his brother contributed funds, a direct contrast to the 1099 massacre that became the defining image of Islamic-Christian moral comparison in medieval literature. He died in Damascus in 1193 with almost nothing in his treasury — he had given away most of his wealth — and Dante later placed him in Limbo alongside Aristotle and Avicenna, the section of the Inferno reserved for virtuous non-Christians."
+        }
+      ],
+      "commonsFile": "Ayyubids._Egypt._al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._1169-1193_CE._Citing_Abbasid_caliph_an-Nasir._Dimashq_(Damascus)_mint._Dated_AH_583_(1187-1188_CE).jpg"
     },
     {
       "id": "evt-saladin-ayyubid",
       "label": "Saladin Founds the Ayyubid Sultanate",
       "year": 1171,
-      "description": "Saladin abolished the Fatimid Caliphate in Egypt and established the Ayyubid sultanate, reunifying Egypt and the Levant under Sunni rule and ending over two centuries of Fatimid Shia dominance.",
+      "description": "In 1171, Saladin — a Kurdish commander who had maneuvered himself into the role of Fatimid vizier — abolished the Fatimid Shia Caliphate in Egypt and proclaimed Sunni rule, returning Egyptian mosques to Sunni prayer after 262 years and founding the Ayyubid dynasty.",
       "wikiSlug": "Ayyubid_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Saladin's route to power was astonishing: he was sent to Egypt as a junior officer supporting a Fatimid faction in Cairo's internal politics, and ended up running the country. When the last Fatimid caliph died in 1171, Saladin simply didn't appoint a successor — the caliphate expired by omission. Within three years he had the Abbasid caliph in Baghdad formally recognize him as Sultan of Egypt, giving him the religious-political legitimacy he needed to build the unified state that would eventually surround and overwhelm the Crusader Kingdom of Jerusalem."
+        }
+      ],
+      "commonsFile": "Ayyubid_Sultanate_1193_AD.jpg"
     },
     {
       "id": "evt-nasir-al-din-al-tusi",
       "label": "Nasir al-Din al-Tusi",
       "year": 1201,
       "endYear": 1274,
-      "description": "Al-Tusi invented the Tusi couple — a mathematical device showing that linear motion can arise from circular motions — correcting Ptolemaic astronomy and directly influencing Copernicus's heliocentric model two centuries later.",
+      "description": "Nasir al-Din al-Tusi (1201-1274) was the Persian polymath who survived the Mongol sack of the Assassins' fortress at Alamut by talking his way into Hulagu's service, then used that position to build the Maragha Observatory and produce mathematical work that would feed directly into Copernican astronomy.",
       "wikiSlug": "Nasir_al-Din_al-Tusi",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Tusi's most famous invention, the 'Tusi couple,' showed geometrically that linear motion can be produced from two circular motions — a device Copernicus would use (almost identically) in his 1543 heliocentric model, though whether Copernicus knew al-Tusi's work directly or reinvented it remains debated. Ibn Khaldun, the great fourteenth-century historian, rated al-Tusi the greatest Persian scholar of the later period. Al-Tusi also essentially founded trigonometry as an independent mathematical discipline, not merely a tool for astronomy."
+        }
+      ],
+      "commonsFile": "Nasir_al-Din_Tusi.jpg"
     },
     {
       "id": "evt-ibn-al-nafis",
       "label": "Ibn al-Nafis Discovers Pulmonary Circulation",
       "year": 1242,
-      "description": "Ibn al-Nafis correctly described the pulmonary circulation of blood — from the heart to the lungs and back — refuting Galen's model that blood passed directly between the heart's chambers, three centuries before Harvey in Europe.",
+      "description": "In a commentary on Ibn Sina's Canon written around 1242, Syrian physician Ibn al-Nafis stated flatly that Galen was wrong: the wall between the heart's two chambers has no pores, and blood reaches the left side only by traveling through the lungs — correctly describing pulmonary circulation three centuries before European medicine caught up.",
       "wikiSlug": "Ibn_al-Nafis",
       "tier": 2,
       "tags": [
         "people",
         "science"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Galen's model of blood seeping through invisible cardiac pores had been accepted unanimously for over a thousand years; Ibn Sina himself had repeated it. Ibn al-Nafis overturned it through anatomical reasoning alone — whether he performed actual dissections remains unclear, as the sources conflict. His discovery was then essentially forgotten in the Islamic world. It was only in 1924 that an Egyptian physician named Muhyo al-Din al-Tatawi rediscovered the Arabic manuscript in the Prussian State Library; until then, European scholarship credited Servetus (1553) and Harvey (1628) as the original discoverers."
+        }
+      ],
+      "commonsFile": "Ibn_an-Nafis,_Commentary_on_Avicenna's_Wellcome_L0011502.jpg"
     },
     {
       "id": "evt-maragha-observatory",
       "label": "Maragha Observatory",
       "year": 1259,
-      "description": "Al-Tusi convinced the Mongol Hulagu Khan to build the Maragha Observatory in northwest Iran, the most sophisticated astronomical institution of its day, salvaging the scientific legacy of Baghdad after the Mongol sack.",
+      "description": "Founded in 1259 — within months of the Baghdad sack — the Maragha Observatory in northwestern Iran became the most advanced astronomical research institution in the world, staffed by scholars from across Eurasia and equipped with instruments larger than any Baghdad had possessed.",
       "wikiSlug": "Maragheh_observatory",
       "tier": 3,
       "tags": [
         "science"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Maragha's staff included not only Islamic astronomers but Chinese scholars who arrived via the Mongol network, making it genuinely cross-civilizational. The observatory served as the direct model for two later landmark institutions: the Ulugh Beg Observatory in Samarkand (built 1420s) and the Taqi al-Din observatory in Constantinople (1570s). The fact that the most sophisticated science of the thirteenth century was being conducted under Mongol patronage, in a building funded by the same rulers who had just burned Baghdad's libraries, is one of history's more dissonant ironies."
+        }
+      ],
+      "commonsFile": "Maraga_observatory.jpg"
     },
     {
       "id": "evt-ismaili-fatimid",
       "label": "Ismaili Fatimid Shia Doctrine",
       "year": 910,
-      "description": "The Fatimid caliphs promoted Ismaili Shia Islam — a branch believing in an esoteric imam lineage through Ismail ibn Jafar — establishing a rival religious and political legitimacy that challenged Abbasid Sunni authority across the Islamic world.",
+      "description": "Ismaili Shia Islam — a branch that follows an esoteric imam lineage through Ismail ibn Jafar rather than his brother Musa — was the theological foundation of the Fatimid Caliphate and the source of its rival claim to lead all Muslims.",
       "wikiSlug": "Ismailism",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Ismaili tradition places a heavy emphasis on the distinction between the outer (zahir) and inner (batin) meaning of Islamic texts, believing the imam holds special esoteric knowledge unavailable to ordinary believers. This made Ismailism intellectually attractive to philosophers but deeply threatening to Sunni jurists, who accused its adherents of using hidden interpretation to hollow out Islamic law. The Fatimids generally kept their Ismaili theology as a court religion rather than attempting mass conversion of their predominantly Sunni subjects — a pragmatic restraint that helped keep their multi-faith Egyptian society functional."
+        }
+      ]
     },
     {
       "id": "evt-ash-ari-theology",
       "label": "Ash'ari Theological School",
       "year": 935,
-      "description": "Al-Ash'ari, a former Mu'tazilite, founded the Ash'ari school of Islamic theology that used rational argument to defend orthodox doctrine — becoming the dominant theological framework of Sunni Islam.",
+      "description": "Al-Ash'ari founded the dominant theological school of Sunni Islam by turning Mu'tazilite rational methods against Mu'tazilite conclusions — using philosophical argument to defend traditional doctrine rather than to revise it.",
       "wikiSlug": "Ash%27ari",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Ash'ari's conversion from Mu'tazilism reportedly followed dreams in which the Prophet Muhammad appeared to him three times: once directing him to defend traditional doctrine, once to defend hadith, and once reconciling both commands — a story that became famous because it gave his school a prophetic mandate over its rationalist opponents. The Ash'ari school's position on human free will — that humans 'acquire' acts that God creates — was one of the most debated solutions to the free will problem in any medieval theological tradition."
+        }
+      ]
     },
     {
       "id": "evt-paper-samarkand",
       "label": "Samarkand Paper Mill",
       "year": 751,
-      "description": "Following the Battle of Talas, a paper mill was established in Samarkand, the first in the Islamic world, using techniques learned from captured Chinese craftsmen. The technology would spread westward to Baghdad, then to Egypt and Spain.",
+      "description": "After the Battle of Talas in 751, captured Chinese craftsmen established the first paper mill in the Islamic world at Samarkand — transferring a technology that had been a Chinese monopoly for seven centuries and setting off a knowledge revolution across the entire Islamic world.",
       "wikiSlug": "Samarkand_paper",
       "tier": 3,
       "tags": [
         "trade",
         "science"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Samarkand paper, made from mulberry bark and other plant fibers, was regarded as a luxury good during the Islamic Golden Age and was prized for its texture and durability compared to papyrus. The technology spread from Samarkand to Baghdad within forty years, and from Baghdad westward to Damascus, Cairo, and eventually Córdoba. Paper's key advantage was cost: where parchment required slaughtering livestock for each manuscript, paper could be made from plant waste, making books and archives affordable at a scale that directly enabled the translation movement (Chapter 2)."
+        }
+      ],
+      "commonsFile": "084_Molí_paperer_Meros_(Konigil,_Samarcanda),_pelant_les_escorces_de_morera.jpg"
     },
     {
       "id": "evt-aghlabid-sicily",
@@ -999,25 +1466,39 @@
       "id": "evt-al-masudi",
       "label": "Al-Mas'udi's Universal History",
       "year": 947,
-      "description": "Al-Mas'udi completed Muruj al-Dhahab (Meadows of Gold), a vast universal history and geography blending eyewitness travels from Spain to India with comparative cultural observation — earning him the title 'the Herodotus of the Arabs.'",
+      "description": "Al-Mas'udi (c. 896–956) was a Baghdad-born polymath who traveled from Spain to India collecting eyewitness observations, then wove them into Muruj al-Dhahab (Meadows of Gold) — a universal history blending political narrative, geography, natural science, and cultural comparison on a scale nothing in Europe came close to matching.",
       "wikiSlug": "Al-Masudi",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Mas'udi wrote over twenty works covering theology, history, geography, natural science, and philosophy — a breadth that earned him the nickname 'the Herodotus of the Arabs,' though he was arguably more systematic than Herodotus. The Meadows of Gold treats the known world from a comparative perspective, examining the customs and institutions of non-Islamic civilizations with genuine curiosity rather than dismissal. He died in Egypt in 956, shortly after completing his final revised encyclopedia, Kitab al-Tanbih — a kind of retrospective correction to his earlier work, which is unusually self-critical for any medieval author."
+        }
+      ],
+      "commonsFile": "Al_Masudi's_Map_of_the_World.JPG"
     },
     {
       "id": "evt-ibn-hauqal",
       "label": "Ibn Hawqal's World Geography",
       "year": 977,
-      "description": "Ibn Hawqal completed Surat al-Ard (Configuration of the Earth), a richly detailed economic geography of the Islamic world based on years of travel from Morocco to Central Asia, providing an unrivaled picture of 10th-century trade and cities.",
+      "description": "Ibn Hawqal was a 10th-century Arab geographer who spent decades traveling the Islamic world from Morocco to Central Asia, then in 977 compiled his findings into Surat al-Ard (Configuration of the Earth) — a detailed economic atlas recording commodity prices, customs duties, and trade volumes with a precision European economic geography wouldn't match for another 500 years.",
       "wikiSlug": "Ibn_Hawqal",
       "tier": 3,
       "tags": [
         "trade"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ibn Hawqal traveled continuously from 943 to 969 — 26 years on the road — before writing up his observations. His Surat al-Ard wasn't just descriptive geography; it included quantitative commercial data (prices, duties, volumes) that reads more like a modern economic survey than a medieval travel account. He was part of a 10th-century cluster of Arabic geographers — including al-Muqaddasi, who wrote his own exhaustive geographic survey around the same period — who treated the Islamic world as a single mappable economic space, an approach with no real parallel in European scholarship at the time."
+        }
+      ],
+      "commonsFile": "Ibn_Howqal_World_map.jpg"
     },
     {
       "id": "evt-ghaznavid-dynasty",
@@ -1037,36 +1518,57 @@
       "label": "Almoravid Dynasty",
       "year": 1040,
       "endYear": 1147,
-      "description": "The Almoravid Berber dynasty swept from the western Sahara to control Morocco and Al-Andalus, briefly halting the Christian Reconquista and patronizing trade across the Sahara into sub-Saharan West Africa.",
+      "description": "The Almoravids were a Berber dynasty from the western Sahara who, beginning around 1040, built a reform-minded Islamic empire stretching from Senegal to central Spain, halting the Christian Reconquista's advance and dominating the trans-Saharan gold trade.",
       "wikiSlug": "Almoravid_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Almoravid movement began not as a dynasty but as a religious reform school: the scholar Ibn Yasin taught a strict Maliki interpretation of Islam to nomadic Sanhaja Berbers living along what is now the Mauritanian coast, and turned them into a disciplined military force before any conquests began. Their control of the western Sahara made them the chief middlemen in the gold trade flowing north from West African mines (in the Mali region, north of the Niger River), and the caravan networks they expanded would carry Islam deep into sub-Saharan West Africa over the following centuries."
+        }
+      ],
+      "commonsFile": "1190_Quran_from_Uppsala_University_Library_2_v.jpg"
     },
     {
       "id": "evt-ibn-hazm",
       "label": "Ibn Hazm's Ring of the Dove",
       "year": 1022,
-      "description": "Ibn Hazm of Córdoba wrote the Ring of the Dove, a celebrated treatise on love and lovers in Al-Andalus — one of the earliest systematic studies of romantic psychology and an influence on the European troubadour tradition.",
+      "description": "Ibn Hazm of Cordoba wrote the Ring of the Dove (Tawq al-Hamama) in 1022 — a treatise on romantic love that mixes theoretical analysis of the stages of falling in love with autobiographical anecdote and quoted poetry, providing one of the most vivid portraits of Andalusian aristocratic life ever written.",
       "wikiSlug": "The_Ring_of_the_Dove",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ibn Hazm was primarily a theologian and jurist (he founded the Zahirite legal school, which rejected legal reasoning by analogy and insisted on strict literal readings of texts), and the Ring of the Dove was his only literary work — a personal detour he apparently felt compelled to write. The book's vocabulary of courtly love — unrequited devotion, coded signals between lovers, the ennobling pain of longing — closely parallels the Provençal troubadour tradition that would emerge in southern France decades later, and scholars still debate how much the Andalusian literary culture transmitted across the Pyrenees."
+        }
+      ],
+      "commonsFile": "WarnerUBL.jpg"
     },
     {
       "id": "evt-third-crusade",
       "label": "Third Crusade",
       "year": 1189,
       "endYear": 1192,
-      "description": "Richard I of England and Philip II of France led the Third Crusade to recapture Jerusalem after Saladin's 1187 victory. The campaign failed to retake Jerusalem but secured a coastal strip for the Crusader states under the Treaty of Jaffa.",
+      "description": "The Third Crusade (1189–1192) — led by Richard I of England, Philip II of France, and the German emperor Frederick Barbarossa — was Europe's all-star attempt to retake Jerusalem from Saladin. It ended in a negotiated draw: Richard secured the coastal strip, Saladin kept Jerusalem.",
       "wikiSlug": "Third_Crusade",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Frederick Barbarossa, arguably the most powerful monarch in Europe, drowned crossing a river in Anatolia before reaching the Holy Land, and his massive German army largely dissolved after his death. Richard and Saladin never met in person, but exchanged courtesies through intermediaries — a gesture the medieval tradition exaggerated into elaborate fictional chivalric encounters. The Treaty of Jaffa allowed unarmed Christian pilgrims to visit Jerusalem, meaning Saladin effectively granted Crusaders access to the city they had just failed to conquer militarily."
+        }
+      ],
+      "commonsFile": "The_Third_Crusade_(1189-1192).png"
     },
     {
       "id": "evt-ibn-jubayr",
@@ -1085,21 +1587,35 @@
       "id": "evt-mongol-advance",
       "label": "Mongol Advance into the Islamic World",
       "year": 1219,
-      "description": "Genghis Khan's forces devastated Transoxiana and Khorasan, destroying the cities of Samarkand, Bukhara, and Merv and setting in motion the catastrophic Mongol disruption of the eastern Islamic world that would culminate in the sack of Baghdad.",
+      "description": "Between 1219 and 1221, Genghis Khan's armies swept through the Khwarezmian Empire, systematically destroying Samarkand, Bukhara, and Merv — the heartland cities of eastern Islamic culture — and triggering population losses in Khorasan and Transoxiana that the region would not recover from for centuries.",
       "wikiSlug": "Mongol_conquest_of_Khwarezmia",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The campaign began after the Khwarezmian governor of Otrar executed Mongol trade envoys — an act Genghis Khan treated as an act of war requiring total destruction. Merv, once one of the largest cities in the world, was never again a major urban center after 1221. The destruction of the irrigation infrastructure (canals, water wheels, stored grain) was as devastating as the killing itself, turning farmland into desert and collapsing the agricultural base that had supported urban life."
+        }
+      ],
+      "commonsFile": "Bataille_de_vâliyân_(1221).jpeg"
     },
     {
       "id": "evt-mongol-sack-baghdad",
       "label": "Mongol Sack of Baghdad",
       "year": 1258,
-      "description": "Hulagu Khan's Mongol army destroyed Baghdad, killed the last Abbasid caliph, and devastated the House of Wisdom, conventionally ending the Islamic Golden Age.",
+      "description": "In February 1258, Hulagu Khan's Mongol army besieged and sacked Baghdad, killing the last Abbasid caliph al-Musta'sim and destroying the city's great libraries — the event conventionally marking the end of the Islamic Golden Age.",
       "wikiSlug": "Siege_of_Baghdad_(1258)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mongol force was accompanied by Chinese siege engineers, whose expertise helped breach the city's walls within weeks. Al-Musta'sim was executed without spilling royal blood — rolled in a felt rug and trampled by horses, in keeping with Mongol custom. The Abbasid Caliphate had lasted 508 years; its end left Sunni Islam without a central political authority for the first time since the Prophet's death, a vacuum that was never truly filled."
+        }
+      ],
+      "commonsFile": "Bagdad1258.jpg"
     },
     {
       "id": "evt-abu-nuwas",
@@ -1117,25 +1633,39 @@
       "id": "evt-banu-musa-hiyal",
       "label": "Banu Musa's Book of Ingenious Devices",
       "year": 850,
-      "description": "The three Banu Musa brothers — Muhammad, Ahmad, and al-Hasan — produced the Kitab al-Hiyal, describing roughly a hundred mechanical devices including water-lifting machines, automata, and self-trimming lamps, while simultaneously funding Hunayn ibn Ishaq's translation school at a rate reportedly equal to the weight of each manuscript in gold.",
+      "description": "The three Banu Musa brothers — ninth-century Baghdadi polymaths who bankrolled the translation movement — also produced the Kitab al-Hiyal (\"Book of Ingenious Devices,\" c. 850), describing around a hundred mechanical contraptions including automatic valves, self-trimming oil lamps, programmable fountains, and mechanical musical instruments.",
       "wikiSlug": "Banu_Musa",
       "tier": 3,
       "tags": [
         "science"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Banu Musa were among the most prominent figures of the House of Wisdom, combining their own engineering work with aggressive patronage of translators — they reportedly paid for manuscripts by weight in gold. Their devices ranged from genuinely practical (water clocks to time mosque prayer calls) to elaborate entertainment pieces (singing mechanical birds for caliphal palaces). The tradition they established culminated three centuries later in al-Jazari's much larger compendium."
+        }
+      ],
+      "commonsFile": "An_invention_from_the_Book_of_Ingenious_Devices.png"
     },
     {
       "id": "evt-thabit-ibn-qurra",
       "label": "Thabit ibn Qurra",
       "year": 870,
-      "description": "Thabit ibn Qurra, a Sabian mathematician from Harran patronized by the Banu Musa, corrected Arabic translations of Euclid, Ptolemy, and Archimedes, derived a formula for amicable numbers, extended the Pythagorean theorem to arbitrary triangles, and wrote on conic sections and music theory — producing some of the most original mathematics of the Golden Age.",
+      "description": "Thabit ibn Qurra (c. 826–901) was a Sabian (a member of the pre-Islamic astral-religion community of Harran in what is now southeastern Turkey) who came to Baghdad under the patronage of the Banu Musa brothers and became one of the most original mathematicians of the Golden Age — revising Arabic translations of Euclid, Ptolemy, and Archimedes, and extending the Pythagorean theorem to work for any triangle, not just right triangles.",
       "wikiSlug": "Thabit_ibn_Qurra",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Thabit discovered the formula for finding 'amicable numbers' — pairs of numbers where each equals the sum of the other's divisors (the smallest pair is 220 and 284) — a result that would not be matched in Europe until the seventeenth century. He retained his Sabian religion throughout his Baghdad career; the Abbasid court did not require conversion, because his mathematical and translation work was too valuable. His generalization of the Pythagorean theorem to arbitrary triangles anticipates the law of cosines that appears in every trigonometry textbook today."
+        }
+      ],
+      "commonsFile": "Conica_of_Apollonius_of_Perga_fol._162b_and_164a.jpg"
     },
     {
       "id": "evt-al-maturidi",
@@ -1165,38 +1695,59 @@
       "id": "evt-dar-al-ilm",
       "label": "Fatimid Dar al-Ilm",
       "year": 1005,
-      "description": "The Fatimid caliph al-Hakim founded the Dar al-Ilm (House of Knowledge) in Cairo, a research library and translation center modeled explicitly on the Abbasid House of Wisdom, which hosted Ibn al-Haytham and other scholars and established Cairo as a second intellectual capital of the Islamic world.",
+      "description": "Around 1005, the Fatimid caliph al-Hakim founded the Dar al-Ilm (\"House of Knowledge\") in Cairo — a research library and translation center modeled on the Abbasid Bayt al-Hikma in Baghdad, making Cairo a second intellectual capital of the medieval Islamic world.",
       "wikiSlug": "Dar_al-Ilm",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The same caliph who built the Dar al-Ilm also patronized the physicist Ibn al-Haytham, who did most of his groundbreaking optical work in Cairo under Fatimid support. The institution was originally a library before al-Hakim converted it into something closer to a state university. That al-Hakim — who later ordered the destruction of Jerusalem's Church of the Holy Sepulchre and allegedly encouraged courtiers to worship him as divine — was also a serious patron of scholars is one of the more jarring paradoxes of the Fatimid period."
+        }
+      ],
+      "commonsFile": "Book-of-Curiosities-Bodleian.jpg"
     },
     {
       "id": "evt-al-jazari",
       "label": "Al-Jazari's Book of Mechanical Devices",
       "year": 1206,
-      "description": "Al-Jazari, engineer at the Artuqid court in Diyarbakir, completed the most comprehensive surviving work of medieval mechanical engineering anywhere in the world, describing fifty devices including a programmable musical robot, a double-action suction pump prefiguring industrial pumping, and water clocks of unprecedented accuracy.",
+      "description": "Al-Jazari completed his Book of Knowledge of Ingenious Mechanical Devices in 1206 at the Artuqid court in Diyarbakir — the most comprehensive surviving work of medieval mechanical engineering anywhere in the world, covering fifty devices with detailed construction diagrams.",
       "wikiSlug": "Al-Jazari",
       "tier": 2,
       "tags": [
         "science"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His programmable musical robot selected melodies by the configuration of pegs on a rotating drum — the identical operating principle as the eighteenth-century European music box and a precursor to punched-card programming. His double-action suction pump used two alternating cylinders with a connecting drive shaft that converted rotary motion into reciprocating piston motion — the exact mechanical architecture of every steam engine and combustion engine that followed. Al-Jazari has been called the \"father of robotics\" and modern engineering; he worked three to four centuries before European engineers independently arrived at the same mechanisms."
+        }
+      ],
+      "commonsFile": "Al-jazari_elephant_clock.png"
     },
     {
       "id": "evt-maimonides",
       "label": "Maimonides",
       "year": 1190,
-      "description": "Maimonides (Moshe ben Maimon), a Jewish scholar born in Cordoba and working in Fatimid-then-Ayyubid Cairo, wrote the Mishneh Torah (a systematic codification of Jewish law) and the Guide for the Perplexed (integrating Jewish theology with Avicennan philosophy) — a product of the Islamic Golden Age's convivencia whose Latin translation influenced Thomas Aquinas.",
+      "description": "Maimonides (Moshe ben Maimon, 1138–1204), born in Cordoba and trained in its Arabic-language intellectual culture, produced the Mishneh Torah (the first systematic codification of Jewish law) and the Guide for the Perplexed (integrating Jewish theology with Aristotelian-Avicennan philosophy) — a Jewish intellectual achievement built entirely on the Golden Age's Arabic-language framework.",
       "wikiSlug": "Maimonides",
       "tier": 2,
       "tags": [
         "people",
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Maimonides wrote almost entirely in Arabic (using Hebrew letters, the standard script of Sephardic Jewish scholarship), and his Aristotelianism came directly from Ibn Sina and al-Farabi — he was philosophically a product of the Islamic Golden Age, not a parallel development outside it. After his family fled the Almohad conquest in the 1150s he eventually settled in Cairo, where he became court physician to Saladin's vizier. His Guide for the Perplexed was translated into Latin in the early thirteenth century, where it directly influenced Thomas Aquinas's effort to reconcile Christian theology with Aristotle."
+        }
+      ],
+      "commonsFile": "Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif"
     }
   ]
 }
