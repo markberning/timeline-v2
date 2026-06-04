@@ -103,7 +103,7 @@
       "label": "Liu Bang (Emperor Gaozu)",
       "year": -202,
       "endYear": -195,
-      "description": "Liu Bang (later Emperor Gaozu), a minor village official of peasant origin, rose from obscurity to found the Han dynasty — the first commoner in Chinese history to establish a lasting imperial line. His political genius lay in surrounding himself with talent, learning from failure, and being willing to bow to superior advice.",
+      "description": "Liu Bang (LYOH BAHNG), later Emperor Gaozu ('High Ancestor'), was a work-shy village constable who became a rebel by accident: he let a chain gang of convicts escape en route to a labor site, which was itself a capital offense under Qin law, and had to run. He then outmaneuvered every aristocratic rival and founded the Han dynasty, the first commoner in Chinese history to build an enduring imperial line.",
       "wikiSlug": "Emperor_Gaozu_of_Han",
       "tier": 1,
       "tags": [
@@ -116,24 +116,17 @@
       ],
       "details": [
         {
-          "label": "The Unlikely Emperor",
-          "text": "The future Emperor Gaozu was 48 when he founded the Han dynasty — having spent most of his life as a minor village constable notorious for drinking, bragging, and avoiding work. He had little formal education and no military training. He beat the brilliant aristocrat Xiang Yu through political savvy, not battlefield genius."
-        },
-        {
-          "label": "Why He Won",
-          "text": "Liu Bang's greatest skill was recognizing and keeping talent. Zhang Liang planned his strategy, Han Xin won his battles, Xiao He managed his logistics, and Chen Ping handled intrigue. He once said: 'In winning battles, I am not Han Xin's equal. In supplying armies, I am not Xiao He's equal. In planning strategy, I am not Zhang Liang's equal. But I know how to use all three.'"
-        },
-        {
-          "label": "Founding Choices",
-          "text": "As emperor, Emperor Gaozu (Liu Bang) kept the Qin administrative framework but cut taxes, reduced punishments, and demobilized the army. His Huang-Lao 'hands-off' approach let the war-ravaged population recover. He was pragmatic to the core: the goal was a functioning empire, not an ideological statement."
+          "label": "Explore further",
+          "text": "Liu Bang was born around 256 BCE in Pei County (modern Jiangsu) to a peasant family and held only the minor post of 'pavilion chief' before the rebellion — a sub-district law-enforcement role several rungs below any officer rank. He was known locally for borrowing money he never repaid and for chronic boasting. He beat the aristocratic general Xiang Yu not on the battlefield (Xiang Yu won most engagements) but politically: when Liu Bang captured the Qin capital first, he sealed the treasuries untouched and issued just three laws — no killing, no injuring, no stealing — abolishing the entire brutal Qin legal code on the spot, and the population never forgot it."
         }
-      ]
+      ],
+      "commonsFile": "Liu-bang.jpg"
     },
     {
       "id": "evt-han-battle-gaixia",
       "label": "Battle of Gaixia",
       "year": -202,
-      "description": "The decisive battle of the Chu-Han war. Liu Bang's coalition of some 600,000 troops surrounded Xiang Yu's 100,000 at Gaixia in modern Anhui. Han troops sang Chu folk songs at night — the 'Songs of Chu on all four sides' — demoralizing Xiang Yu's army into mass desertion. Xiang Yu escaped with 800 riders but was eventually cornered at the Wu River, where he killed himself.",
+      "description": "The Battle of Gaixia (202 BCE) ended the four-year Chu-Han civil war: Liu Bang's coalition of roughly 600,000 troops surrounded Xiang Yu's 100,000 at Gaixia in modern Anhui. Han soldiers sang Chu folk songs from every direction at night as deliberate psychological warfare — convincing Xiang Yu's men that their home territory had already fallen — which triggered mass desertions and collapsed the Chu camp without a decisive pitched battle.",
       "wikiSlug": "Battle_of_Gaixia",
       "tier": 1,
       "tags": [],
@@ -143,16 +136,8 @@
       ],
       "details": [
         {
-          "label": "The Psychological Trap",
-          "text": "The singing of Chu folk songs was deliberate psychological warfare — Han commanders knew that soldiers hearing their homeland's music would think Chu had already fallen, breaking their will to fight. It worked: Xiang Yu woke to find most of his army had slipped away in the night."
-        },
-        {
-          "label": "Xiang Yu's End",
-          "text": "Trapped at the Wu River with 28 riders against thousands, Xiang Yu refused the boatman's offer to escape across the river. 'I crossed the river with 8,000 sons of Jiangdong. None return with me today. Even if they would make me king, I could not face them.' He cut his own throat."
-        },
-        {
-          "label": "What It Settled",
-          "text": "Gaixia ended the question of who would rule China — a question open since the Qin's collapse four years earlier. Liu Bang's victory meant a dynasty founded by merit and coalition, not hereditary right. The age of aristocratic rule in China was permanently over."
+          "label": "Explore further",
+          "text": "The tactic gave Chinese the four-character idiom 'songs of Chu on all four sides' (四面楚歌), still used today to mean total encirclement with no hope of escape. Xiang Yu broke out with 800 cavalry, was whittled to 28 riders by the Wu River, and refused a boatman's offer to ferry him to safety — saying he could not face the 8,000 Jiangdong men who had crossed the river with him and none of whom were coming back. He dismounted, gave his famous horse Zhui to the boatman as a parting gift, fought until he was surrounded, and cut his own throat. He was thirty years old."
         }
       ]
     },
@@ -160,47 +145,32 @@
       "id": "evt-han-han-founded",
       "label": "Han Dynasty Founded",
       "year": -202,
-      "description": "After defeating Xiang Yu at Gaixia, Liu Bang proclaimed himself Emperor of Han, founding what would become one of China's longest and most influential dynasties. The capital was established at Chang'an (near modern Xi'an), close to the Qin heartland but rebuilt from scratch after Xiang Yu burned Xianyang.",
+      "description": "In 202 BCE Liu Bang declared himself Emperor of Han, founding a dynasty that would last 407 years across two phases and give the Chinese people their enduring name. Over ninety percent of China's population today identifies as Han Chinese — no other dynasty in world history gave its name to an entire ethnicity.",
       "wikiSlug": "Han_dynasty",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "The Name",
-          "text": "Liu Bang had been given the kingdom of Han in the Shu-Han region (modern Sichuan) as a deliberate humiliation. He took that name for his dynasty. Over four centuries, 'Han' became synonymous with Chinese civilization itself — the Han people, Han script, Han culture."
-        },
-        {
-          "label": "Keeping What Worked",
-          "text": "Emperor Gaozu (Liu Bang) kept every Qin institution: the county system, standardized script and weights, the imperial bureaucracy, the road network. He eliminated the brutal punishments, reduced taxes to one-fifteenth of the harvest, and demobilized the massive armies. Same skeleton, new skin."
-        },
-        {
-          "label": "Fealty and Control",
-          "text": "Initially, Emperor Gaozu (Liu Bang) enfeoffed his generals as kings over large territories — reverting partially to the Zhou feudal model. He spent the rest of his reign systematically eliminating these kings and replacing them with his own family members, then regretted that choice too."
+          "label": "Explore further",
+          "text": "The name 'Han' was originally an insult: Xiang Yu had assigned Liu Bang the remote, mountainous kingdom of Han in the southwest as a deliberate humiliation, expecting him to wither there. The dynasty was briefly interrupted by the usurper Wang Mang's Xin dynasty (9–23 CE), splitting it into the Western Han and Eastern Han periods. At its height the Han empire controlled roughly the same swath of humanity as the contemporary Roman Empire — the two largest states on earth — and both collapsed within a few centuries of each other without ever making direct diplomatic contact."
         }
-      ]
+      ],
+      "commonsFile": "-0202_0220_Brick_Relief_with_Acrobatic_Performance_Han_Dynasty_National_Museum_of_China_anagoria.jpg"
     },
     {
       "id": "evt-han-chang-an",
       "label": "Chang'an Capital",
       "year": -202,
-      "description": "Chang'an (near modern Xi'an) was the capital of Western Han — rebuilt from scratch after Xiang Yu burned the Qin capital Xianyang nearby. At its height, Chang'an was the largest city in the world with perhaps 500,000 inhabitants, a planned city with twelve gates, a central palace complex, government districts, markets, and residential wards laid out on a grid.",
+      "description": "Chang'an (chahng-AHN, 'Perpetual Peace,' near modern Xi'an) was the Western Han capital, built from scratch near the burned ruins of the Qin capital Xianyang starting in 202 BCE. At its height under Emperor Wu it housed perhaps 500,000 people behind twelve city gates, with two enormous market districts and a steady flow of Silk Road goods — ranking it alongside Rome as one of the two or three largest cities on earth.",
       "wikiSlug": "Chang'an",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "The City",
-          "text": "Chang'an was planned on a cosmological grid aligned with the heavens. The Weiyang Palace occupied a third of the city's area. Twelve gates matched the twelve months. The city's layout encoded Confucian order in physical space — the emperor at the center, the people in concentric zones of diminishing proximity to Heaven."
-        },
-        {
-          "label": "Scale",
-          "text": "At its peak during Emperor Wu's reign, Chang'an housed some 500,000 people — roughly contemporary with Augustan Rome in size. The markets were legendary: the Eastern and Western markets together stocked goods from across the empire and the Silk Road. A saying claimed you could find anything in Chang'an."
-        },
-        {
-          "label": "The End",
-          "text": "Chang'an was sacked repeatedly during the Xin-Han transition wars (23 CE) and devastated during the Dong Zhuo crisis (190 CE). Each time it was rebuilt, but it never fully recovered its Western Han grandeur. Luoyang replaced it as the cultural and political center of the Eastern Han."
+          "label": "Explore further",
+          "text": "Chang'an served as an imperial capital for over a thousand years across multiple dynasties, from the Western Han (202 BCE) through the Tang (until 907 CE) — one of the longest unbroken runs of any capital in world history. The city's grid of walled residential wards, laid out on a strict north-south axis with the palace anchoring the northwest corner, directly inspired the design of Japan's Nara and Kyoto, both modeled on Tang Chang'an. During the Tang period the city swelled to perhaps a million residents, with resident communities of Central Asian, Persian, and Arab merchants living in its western market district."
         }
       ]
     },
@@ -208,7 +178,7 @@
       "id": "evt-han-jia-yi",
       "label": "Jia Yi",
       "year": -200,
-      "description": "Jia Yi was a prodigy appointed to the Han court at age 22, whose essays diagnosed the empire's weaknesses with alarming clarity. He argued the Qin fell not from external attack but internal failure of virtue — and warned that the Han was making the same mistakes. His brilliant career was cut short by court jealousy, and he died at 33, grieving a prince he had tutored.",
+      "description": "Jia Yi was a court prodigy appointed at twenty-two whose political essays warned Emperor Wen with alarming precision that the feudal kingdoms and Xiongnu tribute were both existential threats — and was ignored, exiled to a provincial tutoring post, and proved right on every point after his death at thirty-three.",
       "wikiSlug": "Jia_Yi",
       "tier": 3,
       "tags": [
@@ -220,24 +190,17 @@
       ],
       "details": [
         {
-          "label": "The Prodigy",
-          "text": "Emperor Wen appointed Jia Yi as a court academician when he was barely in his twenties. His essay 'The Faults of Qin' argued that the Qin fell because it never changed from wartime to peacetime governance — a critique that implicitly warned the Han not to repeat the pattern."
-        },
-        {
-          "label": "Exiled by Jealousy",
-          "text": "Older ministers resented Jia Yi's rapid promotion and whispered that he was upsetting court order. Emperor Wen exiled him to the southern kingdom of Changsha as a tutor. Jia Yi reportedly wept at crossing the Xiang River, composing an elegy for the poet Qu Yuan who had drowned himself there in similar disgrace."
-        },
-        {
-          "label": "The Irony",
-          "text": "Jia Yi's policy recommendations — reducing the power of the feudal kings, integrating the Xiongnu strategy, reforming currency — were adopted by later emperors after his death. He was right about everything. His memorial essay 'Discourse on Governance' became a touchstone of Chinese political writing for two millennia."
+          "label": "Explore further",
+          "text": "Jia Yi is recognized as one of the earliest masters of the fu (rhapsody), a Chinese literary form blending prose and poetry — his political essays were also literary achievements. He reportedly wept crossing the Xiang River into exile and composed an elegy for the ancient poet Qu Yuan, who had drowned himself in similar disgrace; the parallel was deliberate self-dramatization. He died of grief after Prince Liang of Huai, his tutoring charge, fell from a horse and died — Jia Yi blamed himself. Every major policy he proposed was eventually adopted by later emperors."
         }
-      ]
+      ],
+      "commonsFile": "Jia_Yi.png"
     },
     {
       "id": "evt-han-white-deng",
       "label": "Battle of Baideng",
       "year": -200,
-      "description": "Emperor Gaozu (Liu Bang) personally led an army of 320,000 against the Xiongnu leader Modu Chanyu and was ambushed at Baideng Mountain in modern Shanxi. The emperor was surrounded for seven days by 400,000 Xiongnu cavalry before an escape was negotiated through bribery of the Chanyu's wife. It was a humiliation that shaped Han policy toward the Xiongnu for the next 60 years.",
+      "description": "In 200 BCE, just two years after founding the Han dynasty, Emperor Gaozu personally led 320,000 troops north against the Xiongnu and walked into a trap at Baideng Mountain — his cavalry was lured forward by a feigned retreat, surrounded by an overwhelming Xiongnu force, and held there for seven days in winter.",
       "wikiSlug": "Battle_of_Baideng",
       "tier": 2,
       "tags": [],
@@ -248,16 +211,8 @@
       ],
       "details": [
         {
-          "label": "The Ambush",
-          "text": "Modu Chanyu feigned weakness to lure the Han vanguard forward, then surrounded it with 400,000 cavalry in a classic steppe encirclement. Gaozu was trapped with only his advance force — the main army was too far behind to rescue him in time."
-        },
-        {
-          "label": "The Escape",
-          "text": "According to tradition, Chen Ping advised bribing the Chanyu's chief wife with gifts and flattery, arguing that if the Han were conquered, beautiful Chinese women would replace her in the Chanyu's favor. The siege was lifted on a foggy morning — the fog itself perhaps diplomatic cover."
-        },
-        {
-          "label": "Policy Consequences",
-          "text": "Baideng established the heqin ('peace marriage') policy: the Han would offer the Xiongnu a princess, silk, grain, and other goods annually in exchange for border peace. It was tribute by another name — and it lasted until Emperor Wu reversed it by force 60 years later."
+          "label": "Explore further",
+          "text": "The Xiongnu commander Modu Chanyu surrounded the camp with cavalry sorted by horse color on each side — white to the west, grey to the east, black to the north, bay to the south — a display of organized military power that haunted Chinese strategists for generations. Gaozu escaped not through fighting but through manipulation: his advisor Chen Ping sent gifts and a flattering letter to Modu's chief consort, suggesting that a continued siege would lead to beautiful Chinese women replacing her in Modu's affections. She persuaded Modu to open a gap, and Gaozu slipped out in the fog."
         }
       ]
     },
@@ -265,47 +220,32 @@
       "id": "evt-han-weiyang-palace",
       "label": "Weiyang Palace",
       "year": -200,
-      "description": "Weiyang Palace was the primary imperial palace of the Western Han — one of the largest palace complexes ever built. Constructed under Emperor Gaozu (Liu Bang) and expanded by successive emperors, it occupied the entire southwestern quarter of Chang'an, covering some 5 square kilometers with hundreds of buildings, gardens, and audience halls.",
+      "description": "Weiyang Palace was the Han dynasty's primary imperial residence and administrative headquarters, built in 200 BCE under Prime Minister Xiao He's direction at the southwestern corner of Chang'an. Its main audience hall measured 350 meters long and 200 meters wide — the largest single building in the ancient world — and the entire palace complex covered roughly 5 square kilometers (about 2 square miles), several times the footprint of Beijing's later Forbidden City.",
       "wikiSlug": "Weiyang_Palace",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Scale",
-          "text": "Weiyang Palace was built on an artificial platform 15 meters high. Its main audience hall — the Front Hall — measured 350 meters long and 200 meters wide, the largest single building in the ancient world. The entire complex covered more area than the Forbidden City and Versailles combined."
-        },
-        {
-          "label": "Construction",
-          "text": "Xiao He, Emperor Gaozu (Liu Bang)'s brilliant administrator, ordered Weiyang Palace built on a scale that shocked even the emperor, who complained it was extravagant. Xiao He replied: 'The Son of Heaven takes all under Heaven as his home. If his home is not magnificent, he has no authority.' The argument won."
-        },
-        {
-          "label": "Symbolic Purpose",
-          "text": "The palace was not just a residence but a claim to cosmic authority. Supplicants approaching the emperor had to cross the vast palace plaza — an architectural demonstration of imperial power. Its scale communicated, before any ceremony began, that the emperor was of a different order than ordinary humans."
+          "label": "Explore further",
+          "text": "When Emperor Gaozu complained the palace was too lavish for a newly founded dynasty still recovering from civil war, Xiao He replied: 'The Son of Heaven takes all under Heaven as his home. If his home is not magnificent, he has no authority.' The palace outlasted the Han itself, serving as an imperial residence or government center for at least nine successive dynasties — from the Han through the early Sui — a span of roughly 800 years of continuous use before it was finally abandoned."
         }
-      ]
+      ],
+      "commonsFile": "WeiYang_Palace_-_54082774583.jpg"
     },
     {
       "id": "evt-han-iron-casting",
       "label": "Iron Casting Technology",
       "year": -200,
-      "description": "The Han dynasty saw the rapid expansion and systematization of cast iron technology — making it state-controlled, standardized, and widely distributed. Han cast iron was cast into molds to produce uniform tools and weapons at scale, giving Han armies and farmers a massive technological advantage. By Emperor Wu's reign, state iron foundries produced standardized plowshares, cooking pots, weapons, and tools distributed across the empire.",
+      "description": "The Han dynasty systematized iron casting at industrial scale under state control, running government foundries that produced standardized plowshares, crossbow triggers, and weapons across the empire — a manufacturing capacity that gave Han armies and farmers a material edge no neighboring power could match.",
       "wikiSlug": "Han_dynasty#Technology",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "State Control",
-          "text": "The iron monopoly established under Emperor Wu nationalized iron production. State foundries produced standardized equipment — ensuring consistent quality and preventing rivals from accumulating private arsenals. The monopoly and the technology spread together, with state foundries established in every major region."
-        },
-        {
-          "label": "Agricultural Impact",
-          "text": "Mass-produced iron plowshares replaced wooden or stone tools across Han agriculture. Iron plows could break harder soils, enabling cultivation of previously marginal land. Combined with improved ox-harness designs from the Han period, agricultural productivity increased substantially — supporting the population growth of the Western Han golden age."
-        },
-        {
-          "label": "Military Advantage",
-          "text": "Han cast iron swords, crossbow mechanisms, and arrowheads gave Han armies a material advantage over the Xiongnu, who lacked comparable metallurgy. The crossbow in particular — with its interchangeable standardized trigger mechanism — was a Han mass-production achievement that military historians consider one of the ancient world's most consequential weapons."
+          "label": "Explore further",
+          "text": "The Han crossbow's trigger mechanism was mass-produced with interchangeable parts in government arsenals — a manufacturing standardization concept Europe would not systematically apply until the Industrial Revolution. China had been casting iron since the fifth century BCE, roughly 1,500 years before Europe achieved comparable iron-casting at scale. Mass-produced iron plowshares replaced wooden farming tools across the agricultural heartland, enabling cultivation of marginal land and supporting the population growth that funded Emperor Wu's campaigns."
         }
       ]
     },
@@ -313,7 +253,7 @@
       "id": "evt-han-heqin",
       "label": "Heqin Policy with Xiongnu",
       "year": -198,
-      "description": "Following the Baideng humiliation, the Han established the heqin ('harmonious kinship') policy: sending imperial princesses to marry Xiongnu leaders along with annual gifts of silk, grain, wine, and cash. The policy bought six decades of border peace while the Han recovered economically, but it was deeply resented by Chinese officials who saw it as tribute.",
+      "description": "The heqin ('harmonious kinship') system was the Han's formal answer to military inferiority: send a princess (usually a palace lady promoted to the rank) to marry the Xiongnu chanyu (supreme leader), accompanied by annual shipments of silk, grain, wine, and coin — tribute under a diplomatic name that bought sixty years of relative border peace.",
       "wikiSlug": "Heqin",
       "tier": 2,
       "tags": [],
@@ -324,16 +264,8 @@
       ],
       "details": [
         {
-          "label": "How It Worked",
-          "text": "Each year, caravans carried silk bolts, bronze mirrors, lacquerware, and food to the Xiongnu court. The 'princess' sent was rarely a real imperial daughter — more often a palace lady given the title. The Xiongnu chanyu understood this but accepted it as long as the goods kept coming."
-        },
-        {
-          "label": "Strategic Logic",
-          "text": "The Han court was divided between hawks who wanted to fight and doves who wanted to buy peace. The doves won because the empire was genuinely too weak to fight. Jia Yi and other young advisors argued this was shameful; they were overruled by those who remembered how Gaozu had been trapped at Baideng."
-        },
-        {
-          "label": "The End",
-          "text": "Emperor Wu ended heqin in 133 BCE, launching a military campaign that lasted his entire reign. By 119 BCE, Han armies had driven the Xiongnu beyond the Gobi. The Xiongnu never recovered their former dominance, eventually splitting into northern and southern branches."
+          "label": "Explore further",
+          "text": "The silk quantities were vast — thousands of bolts per year — and Chinese officials universally understood it as tribute, which made it politically toxic at court even as it remained strategically necessary. An unintended consequence: the silk the Xiongnu received was traded westward through Central Asian middlemen toward Persian and Mediterranean markets, inadvertently financing the proto-Silk Road before the Han had any direct hand in it. After Gaozu died, Modu sent Empress Lü a letter proposing marriage in language crude enough that Chinese historians called it deliberately obscene — and Lü, despite wanting war, had to swallow the insult and send more silk in reply."
         }
       ]
     },
@@ -342,7 +274,7 @@
       "label": "Empress Lü (Lü Zhi)",
       "year": -195,
       "endYear": -180,
-      "description": "Lü Zhi, Empress Lü, was the first woman to exercise imperial power in Chinese history. After Emperor Gaozu (Liu Bang)'s death, she ruled through her infant son and then through compliant emperors for fifteen years — purging rivals, executing Gaozu's favorite concubine in a notorious act of cruelty, and placing her own Lü family in key positions across the empire.",
+      "description": "Lü Zhi (Empress Lü) was the first woman to exercise imperial power in Chinese history, ruling China for fifteen years after her husband Gaozu's death — first through her passive son Emperor Hui, then through infant puppet emperors she personally installed on the throne.",
       "wikiSlug": "Empress_Lü",
       "tier": 2,
       "tags": [
@@ -356,25 +288,18 @@
       ],
       "details": [
         {
-          "label": "Rise to Power",
-          "text": "Lü Zhi was Liu Bang's wife before he became emperor, enduring hardship alongside him during the civil war including capture by Xiang Yu. After Liu Bang's death in 195 BCE, she dominated the court through a series of child emperors, effectively ruling as regent for fifteen years."
-        },
-        {
-          "label": "The Human Swine",
-          "text": "Her most notorious act: she had Gaozu's favorite concubine Lady Qi's hands and feet cut off, her eyes gouged, ears deafened, and throat made mute with poison, then displayed in a latrine as a 'human swine.' When her own son Emperor Hui saw this, he reportedly never recovered mentally."
-        },
-        {
-          "label": "Political Legacy",
-          "text": "When Empress Lü died in 180 BCE, the ministers who had endured her reign staged a coup, slaughtering all the Lü family officials she had placed in power. But she had kept the dynasty stable — and her relatively light-touch economic policies continued the Huang-Lao recovery the early Han needed."
+          "label": "Explore further",
+          "text": "Despite wielding full imperial authority, Empress Lü never claimed the emperor's title itself — she held the constitutional fiction of 'empress dowager and regent,' a distinction that the bureaucracy exploited the moment she died. Her son Emperor Hui witnessed her torture of Lady Qi, told her 'this is not the act of a human being,' and then never recovered mentally, withdrawing from governance and dying at twenty-two. The purge after her death in 180 BCE was preplanned: officials led by Chancellor Chen Ping and general Zhou Bo moved within days to slaughter every Lü family member they could find."
         }
-      ]
+      ],
+      "commonsFile": "WUL-he21_01467_新鐫繪像東西漢全傳_01_(呂后).jpg"
     },
     {
       "id": "evt-han-emperor-wen",
       "label": "Emperor Wen",
       "year": -180,
       "endYear": -157,
-      "description": "Emperor Wen of Han presided over the first great flowering of Han prosperity, cutting taxes to one-thirtieth of the harvest, reducing punishments, and avoiding expensive wars. He and his son Emperor Jing are remembered together as the 'Rule of Wen and Jing' — a classical ideal of Confucian governance through minimal interference.",
+      "description": "Emperor Wen (Liu Heng) was the frugal architect of Han prosperity — he cut taxes to one-thirtieth of the harvest, refused expensive public works, and governed through deliberate non-interference, leaving granaries so stuffed with grain that the cords binding coin strings rotted from age.",
       "wikiSlug": "Emperor_Wen_of_Han",
       "tier": 2,
       "tags": [
@@ -386,74 +311,53 @@
       ],
       "details": [
         {
-          "label": "The Frugal Emperor",
-          "text": "Emperor Wen was famous for personal frugality. He reportedly refused to build a terrace because the estimated cost was equivalent to ten families' wealth. He wore the same robes for years and kept his household expenses minimal — a striking contrast to the extravagance of later emperors."
-        },
-        {
-          "label": "Huang-Lao Governance",
-          "text": "Wen's court was dominated by Huang-Lao Daoism — 'inaction' (wuwei) as governing philosophy. Low taxes, minimal regulation, and leaving the population alone to recover from decades of war. The approach worked: granaries filled, population grew, and the empire became genuinely prosperous."
-        },
-        {
-          "label": "Penal Reform",
-          "text": "When a young woman named Chunyu Tiying petitioned that she would sell herself into slavery to spare her father from mutilation punishment, Emperor Wen abolished the most brutal forms of corporal punishment — cutting off feet and branding. It was one of the earliest penal reforms in Chinese history."
+          "label": "Explore further",
+          "text": "Wen is one of only four Western Han emperors honored with a posthumous temple name, the highest ritual distinction in the dynastic system — alongside Gaozu, Emperor Wu, and Emperor Xuan. A single petition from a young woman named Chunyu Tiying, who offered to sell herself into slavery to spare her father from mutilation punishment, moved Wen to abolish the most brutal forms of corporal punishment in Han law — an early example of one person changing an institution. His reign followed Empress Lü's violent purges of the Liu clan, which gave his stability extra weight; his combined legacy with son Emperor Jing became the Confucian benchmark for good rulership."
         }
-      ]
+      ],
+      "commonsFile": "Portraits_of_Famous_Men_-_Liu_Heng.jpg"
     },
     {
       "id": "evt-han-emperor-jing",
       "label": "Emperor Jing",
       "year": -157,
       "endYear": -141,
-      "description": "Emperor Jing inherited his father Wen's prosperity and faced its political consequence: the feudal kings, enriched by decades of peace, had grown powerful enough to challenge the throne. His decision to reduce their territories triggered the Rebellion of the Seven Kingdoms — which he crushed in three months, ending the feudal threat permanently.",
+      "description": "Emperor Jing (Liu Qi) inherited his father's prosperous empire and the political time bomb Wen had refused to defuse — feudal kingdoms rich enough to field armies — and when his minister moved to strip their territories, seven kings revolted at once; Jing crushed them in eighty-seven days and then stripped every feudal king of real power permanently.",
       "wikiSlug": "Emperor_Jing_of_Han",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "The Inherited Danger",
-          "text": "The feudal kingdoms granted to Emperor Gaozu (Liu Bang)'s relatives had spent 40 years accumulating wealth and building armies. Jia Yi had warned Emperor Wen about this threat; Emperor Wen had ignored him. Emperor Jing's minister Chao Cuo revived the proposal to strip the kings' territories — triggering the rebellion Jia Yi had predicted."
-        },
-        {
-          "label": "Sacrificing the Advisor",
-          "text": "When the Seven Kingdoms rebellion broke out with Chao Cuo as the official pretext, Emperor Jing executed Chao Cuo in hopes of satisfying the rebels. It didn't work — the rebels kept fighting. Jing then appointed Zhou Yafu, who crushed the rebellion in three months."
-        },
-        {
-          "label": "Long-Term Impact",
-          "text": "After 154 BCE, the feudal kingdoms were stripped of administrative authority and reduced to ceremonial shells. Real power passed to centrally-appointed officials. Emperor Wu inherited a fundamentally unified empire because Jing had solved the feudal problem — even if he had to sacrifice his advisor to do it."
+          "label": "Explore further",
+          "text": "Jing's first panicked move was to execute his own minister Chao Cuo, hoping the rebels would stand down if their stated grievance was satisfied — they didn't, making clear the revolt was about territorial power, not a minister. His general Zhou Yafu won by declining to relieve besieged Han cities and instead cutting the rebels' grain supply, ending the revolt in weeks. The administrative aftermath mattered more than the battle: kings lost the right to appoint their own officials and became figureheads, handing Jing's son Emperor Wu a genuinely unified empire to work with."
         }
-      ]
+      ],
+      "commonsFile": "SancaiJingdiHan.jpg"
     },
     {
       "id": "evt-han-rebellion-seven-kingdoms",
       "label": "Rebellion of the Seven Kingdoms",
       "year": -154,
-      "description": "Seven of the Han's feudal kingdoms revolted simultaneously against Emperor Jing's territorial reductions. Led by Liu Bi of Wu, the rebellion was suppressed in three months by the general Zhou Yafu, who starved the rebels' supply lines rather than fighting them directly. The crushing of the rebellion permanently ended the feudal threat to Han central authority.",
+      "description": "In 154 BCE, seven semi-autonomous feudal kingdoms revolted simultaneously against Emperor Jing's plan to reduce their territories, using 'remove the treacherous minister Chao Cuo' as a battle cry — and were crushed in eighty-seven days when general Zhou Yafu cut their supply lines instead of fighting them head-on.",
       "wikiSlug": "Rebellion_of_the_Seven_States",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Why They Revolted",
-          "text": "Emperor Jing's minister Chao Cuo proposed stripping territories from the feudal kings before they grew strong enough to revolt. Several kings revolted immediately, using 'remove the treacherous minister Chao Cuo' as their battle cry — a cover for naked self-interest."
-        },
-        {
-          "label": "Zhou Yafu's Strategy",
-          "text": "The general Zhou Yafu refused to relieve the siege of a besieged Han city, instead cutting off the rebels' grain supply. Within three months the rebels' food ran out and their armies dissolved. Liu Bi fled to the state of Dong'ou and was killed. The rebellion lasted 87 days."
-        },
-        {
-          "label": "Constitutional Moment",
-          "text": "After 154 BCE, the emperors stripped the kingdoms of the right to appoint their own officials. The kings became figureheads receiving revenues from territories administered by central government appointees. The Han was now genuinely centralized — matching the Qin structure without the Qin's brutality."
+          "label": "Explore further",
+          "text": "Jing shocked his own court by executing Chao Cuo before the battle, trying to satisfy the rebels' stated demand — the kings kept fighting anyway, revealing that the minister was a pretext and territorial power was the real prize. The ringleader was Liu Bi, king of Wu, whose kingdom had grown wealthy from salt monopolies and copper mines on the southeastern coast; he fled when the revolt collapsed and was killed. The real consequence came after the war: feudal kings permanently lost the right to appoint their own officials, transforming them into revenue-collecting figureheads with no actual power."
         }
-      ]
+      ],
+      "commonsFile": "Rebellion_of_the_Seven_States.png"
     },
     {
       "id": "evt-han-emperor-wu",
       "label": "Emperor Wu",
       "year": -141,
       "endYear": -87,
-      "description": "Emperor Wu of Han — the 'Martial Emperor' — transformed the Han from a cautious, recovering dynasty into an expansionist empire. In 54 years on the throne, he drove the Xiongnu from the Ordos, opened Central Asia to trade, made Confucianism the state ideology, created the civil service examination, and nearly bankrupted China doing it. No emperor in Chinese history dominated his era more completely.",
+      "description": "Emperor Wu of Han (personal name Liu Che) ascended the throne at fifteen in 141 BCE and ruled for fifty-four years — a record no ethnic Han emperor ever broke — transforming the dynasty from a cautious, frugal state into the most aggressive expansionist power in ancient Asia.",
       "wikiSlug": "Emperor_Wu_of_Han",
       "tier": 1,
       "tags": [
@@ -466,24 +370,17 @@
       ],
       "details": [
         {
-          "label": "The Martial Turn",
-          "text": "Emperor Wu reversed 60 years of heqin appeasement policy and launched sustained military campaigns against the Xiongnu. He sent Zhang Qian west to find allies, organized massive cavalry armies, and kept fighting even when campaigns failed — spending his treasury and conscripting millions to achieve a strategic reversal that held."
-        },
-        {
-          "label": "Confucian State",
-          "text": "Wu accepted Dong Zhongshu's argument that only Confucianism could provide ideological unity for the empire. He established the Imperial Academy (Taixue), created the Five Classics curriculum, and appointed only Confucian scholars as officials. Legalism remained the structure; Confucianism became the language of governance."
-        },
-        {
-          "label": "The Cost",
-          "text": "By the end of his reign, Emperor Wu's wars had depleted the treasury amassed over 60 years of frugal governance. He acknowledged his excesses in the 'Repentance Edict of Luntai' — one of the only times a Chinese emperor formally admitted policy failure. His successor inherited an exhausted but intact empire."
+          "label": "Explore further",
+          "text": "His fifty-four-year reign stood as the record for any Chinese emperor until the Kangxi Emperor surpassed it more than 1,800 years later. Beyond wars, Wu developed the Imperial Music Bureau into a prestigious cultural institution and dramatically expanded cultural contact with western Eurasia. He also pioneered significant religious innovations at court, including performing the rare Feng and Shan sacrifices on Mount Tai — a rite so sacred that only a handful of emperors in all of Chinese history dared attempt it."
         }
-      ]
+      ],
+      "commonsFile": "漢武帝.jpg"
     },
     {
       "id": "evt-han-zhang-qian",
       "label": "Zhang Qian",
       "year": -139,
-      "description": "Zhang Qian was the diplomat-explorer Emperor Wu sent west to find Xiongnu enemies willing to ally with the Han. His two missions to Central Asia — he was captured by the Xiongnu on the first and held for ten years — opened the routes that became the Silk Road and gave China its first systematic knowledge of the western world.",
+      "description": "Zhang Qian was the Han courtier Emperor Wu sent westward in 139 BCE to recruit Central Asian allies for a two-front war against the Xiongnu. He was captured almost immediately, held for ten years, escaped, completed his journey to Bactria (modern Afghanistan), failed to secure any alliance — and returned with the most detailed account of Central Asia any Chinese official had ever produced, accidentally opening the Silk Road.",
       "wikiSlug": "Zhang_Qian",
       "tier": 2,
       "tags": [
@@ -495,48 +392,34 @@
       ],
       "details": [
         {
-          "label": "The Mission",
-          "text": "In 139 BCE, Emperor Wu sent Zhang Qian with 100 men to find the Yuezhi people — a nomadic group the Xiongnu had defeated and pushed west — and recruit them as allies. Zhang Qian was captured almost immediately by the Xiongnu, who held him for ten years before he escaped and continued his mission."
-        },
-        {
-          "label": "What He Found",
-          "text": "Zhang Qian reached Bactria (modern Afghanistan) and found a sophisticated world of city-states and trade networks. He saw Han goods — especially silk — already circulating through markets far to the west. He reported on Parthia, India, and lands beyond. His reports were China's first systematic account of Central Asia and the near-Mediterranean world."
-        },
-        {
-          "label": "The Silk Road Opens",
-          "text": "His second mission in 119 BCE, to the Wusun people of the Ili Valley, established the diplomatic and commercial contacts that formalized the Silk Road. He returned with exotic goods — grapes, alfalfa, horses — and knowledge that transformed Han foreign policy. China was no longer isolated."
+          "label": "Explore further",
+          "text": "Zhang Qian was held by the Xiongnu for a full decade, given a wife and fathered children, yet never abandoned his mission. When he finally reached the Yuezhi in Bactria, he found them prosperous and entirely uninterested in returning to the steppe for revenge. What mattered was his intelligence: he described the Ferghana Valley's famed blood-sweating horses, Greco-Bactrian cities blending Greek and Central Asian culture, and — most startling — Han silk already circulating in western markets through intermediaries no Han official had ever met."
         }
-      ]
+      ],
+      "commonsFile": "ZhangQianTravels.jpg"
     },
     {
       "id": "evt-han-maoling-tomb",
       "label": "Maoling — Emperor Wu's Tomb",
       "year": -139,
-      "description": "Maoling, Emperor Wu's burial mound, was under construction for 53 years — essentially his entire reign. By his death, the mound rose 47 meters and had absorbed such quantities of burial goods that, according to ancient accounts, the underground chambers could hold no more. It was the most lavishly furnished imperial tomb of the Han dynasty.",
+      "description": "Maoling is Emperor Wu's burial mound near modern Xi'an (about 40 km west of the city), under construction for fifty-three years — essentially his entire reign. By his death in 87 BCE, the mound stood 47 meters (150 feet) high, and ancient accounts claimed the burial chambers were so packed with grave goods that additional offerings literally could not fit inside.",
       "wikiSlug": "Maoling",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "The Construction",
-          "text": "One-third of annual tax revenue was reportedly allocated to Maoling's construction during Emperor Wu's reign. Thousands of craftsmen worked continuously for five decades. Satellite tombs for his generals Huo Qubing and Wei Qing were built nearby — their stone sculptures are among the oldest surviving examples of Chinese monumental art."
-        },
-        {
-          "label": "Burial Goods",
-          "text": "Ancient accounts claim the burial chambers were so full by the time Emperor Wu died that additional grave goods couldn't fit. The inventory supposedly included golden figures, jade suits, bronze vessels, silk, and exotic animals. Most has never been excavated — the mound remains sealed."
-        },
-        {
-          "label": "Huo Qubing's Tomb",
-          "text": "Adjacent to Maoling, General Huo Qubing's tomb is shaped like the Qilian Mountains where he won his greatest victories. Its stone sculptures — a horse trampling a Xiongnu warrior — are the earliest surviving large-scale stone sculptures in China, carved around 117 BCE when Huo Qubing died at 24."
+          "label": "Explore further",
+          "text": "Adjacent to Maoling stands the tomb of Huo Qubing, the boy general who died at twenty-four, shaped by Emperor Wu to resemble the Qilian Mountains where Huo Qubing won his greatest campaigns. Its stone sculptures — including a horse trampling a fallen Xiongnu warrior — are the earliest surviving large-scale stone sculptures in China, carved around 117 BCE. Maoling itself remains sealed and unexcavated, meaning whatever is actually inside is still unknown."
         }
-      ]
+      ],
+      "commonsFile": "Golden_Horse_of_Maoling,_Liverpool.jpg"
     },
     {
       "id": "evt-han-dong-zhongshu",
       "label": "Dong Zhongshu",
       "year": -136,
-      "description": "Dong Zhongshu was the philosopher who convinced Emperor Wu to adopt Confucianism as the exclusive state ideology. His synthesis of Confucian ethics with cosmological theories of Heaven, Earth, and Humanity gave the Han emperor a cosmic mandate while providing a practical framework for governance and a check on imperial excess.",
+      "description": "Dong Zhongshu was the Han philosopher who persuaded Emperor Wu to make Confucianism the empire's exclusive official ideology, arguing that Heaven, Earth, and Humanity formed an interconnected system with the emperor at the center — genius political engineering that gave rulers cosmic authority while giving scholars the power to interpret natural disasters as divine criticism of imperial policy.",
       "wikiSlug": "Dong_Zhongshu",
       "tier": 2,
       "tags": [
@@ -548,64 +431,42 @@
       ],
       "details": [
         {
-          "label": "The Philosophical Proposal",
-          "text": "Dong Zhongshu responded to Emperor Wu's request for governance advice with a memorial arguing that ideological diversity was dangerous — the state needed a single unifying philosophy. He proposed Confucianism, arguing it provided both moral guidance for rulers and a justification for their authority."
-        },
-        {
-          "label": "Heaven and the Emperor",
-          "text": "His most influential idea: Heaven communicates its approval or disapproval through natural phenomena. Floods, droughts, eclipses, and earthquakes are Heaven's warnings to the emperor. This gave Confucian scholars the power to interpret disasters as divine criticism of imperial policy — a permanent check on imperial excess."
-        },
-        {
-          "label": "Long-Term Influence",
-          "text": "Dong Zhongshu's synthesis lasted until the twentieth century. Every Chinese dynasty until 1905 used the Confucian examination system he helped create, and the idea that the emperor rules by Heaven's mandate — and can lose it — remained the central concept of Chinese political legitimacy for 2,000 years."
+          "label": "Explore further",
+          "text": "Dong Zhongshu favored heaven worship over the older tradition of cults celebrating the five elements — a significant doctrinal shift within court religious practice. Despite his enormous influence, his adversary Gongsun Hong eventually maneuvered him into partial retirement by banishing him to a regional chancellery, though his teachings continued spreading from that posting. His synthesis of Confucian ethics with cosmological theory created what historians call the 'Confucian outside, Legalist inside' formula that governed China for two thousand years."
         }
-      ]
+      ],
+      "commonsFile": "歷代聖賢半身像_冊_董仲舒_(Dong_Zhongshu).png"
     },
     {
       "id": "evt-han-confucian-state-ideology",
       "label": "Confucianism as State Ideology",
       "year": -136,
-      "description": "Emperor Wu, advised by Dong Zhongshu, established Confucianism as the official state philosophy and created government positions for specialists in each of the Five Classics. All other schools of thought were removed from official consideration. The Imperial Academy (Taixue) was founded to train officials in Confucian texts, creating the prototype of China's civil service examination system.",
+      "description": "In 136 BCE, Emperor Wu established five permanent government posts for masters of the Five Classics — the canonical Confucian texts — effectively making Confucianism the Han state's official philosophy and requiring mastery of the canon from anyone seeking a government career.",
       "wikiSlug": "Confucianism",
       "tier": 1,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "The Decision",
-          "text": "Emperor Wu established 'Erudites' (boshi) specializing in the Five Confucian Classics — the Book of Changes, Book of Documents, Book of Odes, Book of Rites, and Spring and Autumn Annals. Only graduates of Confucian study were eligible for government appointment."
-        },
-        {
-          "label": "The Imperial Academy",
-          "text": "The Taixue (Imperial Academy) founded in 124 BCE initially had 50 students. By Eastern Han it had 30,000. It was the world's first state-funded university for training a civil bureaucracy, and the direct ancestor of China's imperial examination system that lasted until 1905."
-        },
-        {
-          "label": "Practical Confucianism",
-          "text": "Han Confucianism was not Confucius's original philosophy but a synthesis. It incorporated Legalist administrative techniques under Confucian moral language, added cosmological theories from Dong Zhongshu, and drew on Daoist ideas of natural harmony. It was explicitly designed to make the imperial state work, not just to teach virtue."
+          "label": "Explore further",
+          "text": "The move didn't actually eliminate Legalism or Daoism: Legalist administrative techniques remained the real machinery of government, just dressed in Confucian language. What changed was the credential system — scholars who could interpret natural disasters as signs of Heaven's displeasure held genuine political leverage over even the emperor. This 'Confucian outside, Legalist inside' framework would describe the operational reality of Chinese government for the next two thousand years."
         }
-      ]
+      ],
+      "commonsFile": "Confucius,_fresco_from_a_Western_Han_tomb_of_Dongping_County,_Shandong_province,_China.jpg"
     },
     {
       "id": "evt-han-five-classics-canonization",
       "label": "Five Classics Canon",
       "year": -136,
-      "description": "Emperor Wu established official government positions (boshi, or 'Erudites') for specialists in each of the Five Confucian Classics: the Book of Changes, Book of Documents, Book of Odes, Book of Rites, and Spring and Autumn Annals. This canonization defined the core curriculum of Chinese education for the next 2,000 years and made Confucian literacy the prerequisite for government service.",
+      "description": "Around 136 BCE, Emperor Wu created official government posts tied to each of the Five Confucian Classics — the Book of Changes, Book of Documents, Book of Odes, Book of Rites, and Spring and Autumn Annals — making mastery of these texts the entrance requirement for government service and locking in China's core educational curriculum for the next 2,000 years.",
       "wikiSlug": "Five_Classics",
       "tier": 2,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "The Five Texts",
-          "text": "The Canon comprised texts attributed to Confucius's editing or inspiration: the Book of Changes (divination and cosmology), Book of Documents (ancient political speeches), Book of Odes (poetry), Book of Rites (ritual and social relationships), and Spring and Autumn Annals (historical chronicle). Together they defined the scope of legitimate knowledge."
-        },
-        {
-          "label": "Educational Consequences",
-          "text": "Every candidate for government office had to master these texts — memorizing vast portions and understanding the classical commentaries. The curriculum shaped how China's educated elite thought about politics, history, human relationships, and the cosmos for two millennia. It was the most durable educational system in world history."
-        },
-        {
-          "label": "Textual Controversies",
-          "text": "The 'Old Text vs. New Text' controversy — which versions of the Classics were authentic — was one of Han dynasty's great intellectual debates. Wang Mang used Old Text scholarship to justify his reforms. The controversy involved questions of textual authority, political legitimacy, and the nature of historical truth."
+          "label": "Explore further",
+          "text": "The canonization triggered the Old Text versus New Text controversy: since the Qin had burned the books, the Han recovered the classics through two routes — scholars who had memorized them (New Text, in contemporary script) and manuscripts allegedly found in hidden wall caches (Old Text, in archaic pre-Qin script). The two versions often differed, and the differences were politically charged: New Text scholars favored stronger imperial authority while Old Text scholars emphasized limits on the emperor. The debate consumed Han intellectual life for centuries, only partially resolved by the scholar Zheng Xuan in the 2nd century CE."
         }
       ]
     },
@@ -614,47 +475,32 @@
       "label": "Han-Xiongnu War",
       "year": -133,
       "endYear": -89,
-      "description": "Emperor Wu launched a 44-year military campaign to end Xiongnu dominance of the northern steppe. Beginning with a failed ambush at Mayi in 133 BCE, the war saw the emergence of brilliant Han generals Wei Qing and Huo Qubing, who learned to fight cavalry with cavalry in the open steppe rather than defending walls.",
+      "description": "The Han-Xiongnu War (133–89 BCE) was a forty-four-year series of campaigns in which Emperor Wu systematically dismantled Xiongnu dominance of the northern steppe, reversing sixty years of appeasement by learning to fight cavalry with cavalry in open steppe — and eventually driving the Xiongnu court permanently beyond the Gobi Desert.",
       "wikiSlug": "Han–Xiongnu_War",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "The Strategic Reversal",
-          "text": "Previous Han strategy had been defensive — walls, heqin payments, and avoiding open confrontation. Emperor Wu reversed this entirely, creating large cavalry forces from the horse breeds Zhang Qian had identified in Central Asia, and sending them deep into Xiongnu territory rather than waiting to be attacked."
-        },
-        {
-          "label": "Wei Qing and Huo Qubing",
-          "text": "The generals who made victory possible: Wei Qing, the empress's half-brother, won the first major steppe victories. His nephew Huo Qubing, who died at 24, led six campaigns into the Gobi and reportedly said: 'While the Xiongnu are not yet destroyed, why should I attend to my household?' His tomb still stands in Xi'an."
-        },
-        {
-          "label": "The Outcome",
-          "text": "The Battle of Mobei in 119 BCE drove the Xiongnu's main court beyond the Gobi — they never permanently returned. The Han reclaimed the Ordos, extended control into the Hexi Corridor, and began the Silk Road expansion. The cost: years of warfare, the treasury depleted, and perhaps 100,000 soldiers lost in the campaigns."
+          "label": "Explore further",
+          "text": "The conflict started with a humiliating failure: the 133 BCE ambush at Mayi, where 300,000 Han troops failed to close on the Xiongnu chanyu before he discovered the trap and withdrew without a single significant casualty. The war's later phases produced two of China's most celebrated generals — Wei Qing, a former stable hand, and his teenage nephew Huo Qubing — and consumed so many resources that over 100,000 horses were committed to the 119 BCE Mobei campaign alone, with only 30,000 coming home."
         }
-      ]
+      ],
+      "commonsFile": "Belt_Buckle_with_Zoomorphic_Design,_North_China,_3rd-2nd_century_BCE.jpg"
     },
     {
       "id": "evt-han-silk-road-opens",
       "label": "Silk Road Opens",
       "year": -130,
-      "description": "Following Zhang Qian's diplomatic missions, Emperor Wu established regular Han presence in Central Asia, creating the first sustained overland trade route connecting China to the Mediterranean world. Silk, spices, and luxury goods moved west; horses, glass, and new crops moved east. The route was not a single road but a shifting network of caravan tracks through desert and steppe.",
+      "description": "Following Zhang Qian's intelligence missions, Emperor Wu established regular Han diplomatic and military presence in Central Asia, formalizing the overland trade network that became the Silk Road — a shifting web of caravan tracks through desert and steppe connecting Chang'an to the Mediterranean across roughly 4,000 miles (6,400 km).",
       "wikiSlug": "Silk_Road",
       "tier": 1,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Why Silk?",
-          "text": "Chinese silk was the trade good that drove the entire system. Romans called China 'Seres' — the silk people — and paid in gold for fabric they considered magical. At one point, Roman moralists complained that silk was bankrupting the empire through trade deficits. A Han product was reshaping Roman economics."
-        },
-        {
-          "label": "The Route",
-          "text": "The northern route ran from Chang'an through the Hexi Corridor, skirting the Taklamakan Desert on its northern or southern edge, through Parthia, and on to Rome. The Han established garrisons and relay stations along the Hexi Corridor — the infrastructure that made sustained trade possible."
-        },
-        {
-          "label": "What Traveled",
-          "text": "Eastward came glass (unknown in China), grapes and winemaking, alfalfa for horses, sesame, pomegranates, and eventually Buddhism. Westward went silk, porcelain, cast iron, paper, and the compass. The Silk Road was the first globalization — the first sustained exchange of goods and ideas across Eurasia."
+          "label": "Explore further",
+          "text": "Chinese silk was the commodity that drove the whole system: Romans called China 'Seres' (the silk people) and paid in gold for fabric they considered almost magical, and Roman moralists complained that silk imports were draining the empire's gold reserves through trade deficits. Eastward along the same routes came goods China had never had: glass (unknown in China at the time), grapes, winemaking, alfalfa for horses, pomegranates, and eventually Buddhism."
         }
       ]
     },
@@ -662,23 +508,15 @@
       "id": "evt-han-imperial-academy",
       "label": "Imperial Academy Founded",
       "year": -124,
-      "description": "Emperor Wu established the Taixue (Imperial Academy) in 124 BCE, initially with 50 students studying the Five Classics under government-appointed Erudites. By Eastern Han, enrollment had reached 30,000. The Taixue was the world's first state university for training a civil bureaucracy and the prototype of China's examination system that lasted until 1905.",
+      "description": "Emperor Wu founded the Taixue (Imperial Academy) in 124 BCE — the world's first state-funded university explicitly designed to train government officials — starting with fifty students who studied the Five Classics and sat competitive examinations, with top scorers appointed directly to government posts.",
       "wikiSlug": "Taixue",
       "tier": 2,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "How It Worked",
-          "text": "Students studied at the Taixue for one year, then took examinations. Those who passed at the highest level were immediately appointed to government positions. Lower scores qualified candidates for clerical posts. The system created a path from any social background to government service — theoretically — based on knowledge rather than birth."
-        },
-        {
-          "label": "Growth",
-          "text": "The Taixue grew from 50 to 3,000 students under Emperor Xuan, to 10,000 under Emperor Ping, to 30,000 by the late Eastern Han. It was an extraordinary institution — effectively a government-funded Confucian university that produced the administrators of the world's largest empire."
-        },
-        {
-          "label": "The Examination Ideal",
-          "text": "The Taixue was not yet the full civil service examination system — that came fully in the Tang dynasty. But it established the core principle: government service should require demonstrated knowledge of classical texts, not hereditary rank. This ideal, even when imperfectly practiced, distinguished China from every other contemporary civilization."
+          "label": "Explore further",
+          "text": "The institution that began with fifty students grew to an enrollment of 30,000 by the Eastern Han period. Renamed the Guozijian under the Sui dynasty, it survived in successive forms through Tang, Song, Ming, and Qing until finally abolished in 1905 — meaning Emperor Wu's educational experiment lasted over two thousand years. In the ancient world it had no structural parallel: Rome trained administrators through personal apprenticeship and political patronage, not state-funded competitive examinations."
         }
       ],
       "aliases": [
@@ -689,23 +527,15 @@
       "id": "evt-han-great-wall-extension",
       "label": "Great Wall Extensions",
       "year": -121,
-      "description": "Emperor Wu extended the Great Wall westward from the Ordos through the Hexi Corridor to Dunhuang — a 1,000 km addition that protected the Silk Road's eastern gateway. The extensions included watchtowers, garrison towns, and beacon fire stations at regular intervals. This 'Han Great Wall' used rammed earth rather than stone and survives in fragmentary form in modern Gansu and Xinjiang.",
+      "description": "Emperor Wu extended the Great Wall roughly 600 miles (1,000 km) westward through the Hexi Corridor to Dunhuang, adding rammed-earth watchtowers, garrison towns, and beacon-fire stations — not purely as a defensive barrier, but as the physical infrastructure of the Silk Road, providing water, supplies, and rapid communication across the desert.",
       "wikiSlug": "Han_dynasty#Great_Wall",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Strategic Purpose",
-          "text": "The Hexi Corridor extensions were not purely defensive — they were the infrastructure of the Silk Road. The watchtowers allowed rapid communication across hundreds of kilometers; the garrison towns provided water and supplies for caravans; the wall itself separated the Han agricultural zone from the nomadic steppe."
-        },
-        {
-          "label": "Construction",
-          "text": "The Han Great Wall was built of rammed earth layered with reeds and tamarisk branches for stability in the desert environment. Workers were conscripted from throughout the empire. Wooden bamboo strips found at Han frontier posts — administrative records, personal letters — are among the most vivid surviving documents of Han daily life."
-        },
-        {
-          "label": "The Bamboo Strip Archive",
-          "text": "Archaeologists have found thousands of Han bamboo strips at the wall garrison sites. They include military orders, personal letters from soldiers to families, inventories of supplies, and drafts of legal documents. They are our clearest window into the daily life of ordinary Han people — including a soldier writing home to say his shoes have worn out."
+          "label": "Explore further",
+          "text": "Archaeologists have recovered thousands of Han bamboo strips at these garrison sites, including military orders, supply inventories, and personal letters from soldiers writing home to say their shoes had worn out — among the most vivid records of ordinary Han life that survive. The watchtowers could relay signals across hundreds of kilometers through beacon fires, giving the empire a communication network that moved faster than any mounted messenger across that terrain."
         }
       ]
     },
@@ -713,23 +543,15 @@
       "id": "evt-han-yuefu-poetry",
       "label": "Yuefu Poetry",
       "year": -120,
-      "description": "Emperor Wu established the Imperial Music Bureau (Yuefu) in 120 BCE to collect folk songs for use in court rituals. The poems collected — vivid, direct, often anonymous — became one of the most influential poetic forms in Chinese literature. Yuefu poems depict soldiers on the frontier, women waiting at home, merchants on the Silk Road, and the sufferings of the poor with a realism absent from more formal court poetry.",
+      "description": "Emperor Wu established the Imperial Music Bureau (Yuefu) around 120 BCE, dispatching collectors throughout the empire to gather folk songs for court ritual. The anonymous poems they preserved — depicting frontier soldiers, women waiting at home, Silk Road merchants, and the sufferings of the poor — became one of the most influential literary forms in Chinese history.",
       "wikiSlug": "Yuefu",
       "tier": 3,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "The Collection",
-          "text": "The Imperial Music Bureau sent collectors throughout the empire to gather folk songs. The resulting corpus — thousands of poems — captured vernacular Chinese in a way court literature never did. Most are anonymous. They depict real life: wars, separations, longing, hardship, merchants, farmers, soldiers."
-        },
-        {
-          "label": "Literary Influence",
-          "text": "Yuefu's plain style and narrative directness influenced every subsequent form of Chinese poetry. The great Tang poets Du Fu and Li Bai both wrote in yuefu style to achieve emotional authenticity. The form showed that the vernacular — not just classical language — could be the vehicle for serious literature."
-        },
-        {
-          "label": "Historical Source",
-          "text": "The Han yuefu poems are among the best sources for understanding ordinary Han life. 'Mulberry on the Bank' describes a weaver who rebuffs a governor's advances; 'Song of the Orphan' depicts a child laborer's daily misery. No official document conveys daily experience as directly as these anonymous collected songs."
+          "label": "Explore further",
+          "text": "Yuefu poems were prized for their unflinching ordinariness: 'Mulberry on the Bank' describes a weaver calmly rebuffing a provincial governor's advances; 'Song of the Orphan' depicts a child laborer's daily misery in concrete detail. No court document comes close to matching them as a window into Han daily life. Centuries later, the great Tang poets Du Fu and Li Bai both wrote deliberately in yuefu style when they wanted emotional authenticity rather than courtly formality."
         }
       ]
     },
@@ -737,47 +559,32 @@
       "id": "evt-han-battle-mobei",
       "label": "Battle of Mobei",
       "year": -119,
-      "description": "The decisive engagement of the Han-Xiongnu War. Wei Qing and Huo Qubing simultaneously led two Han armies of 50,000 cavalry each deep into the Gobi Desert — the first time China had projected military power so far north. They drove the Xiongnu Chanyu's main court beyond the Baikal region, beyond practical recovery. The northern steppe was now effectively Han territory.",
+      "description": "The Battle of Mobei (119 BCE) was the decisive blow of the Han-Xiongnu War: two Han armies of 50,000 cavalry each, commanded by Wei Qing and Huo Qubing, drove deep into the Gobi Desert, routed the Xiongnu main force, and advanced as far as Lake Baikal — after which the Xiongnu never permanently returned to territory south of the Gobi.",
       "wikiSlug": "Battle_of_Mobei",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "The Operation",
-          "text": "Emperor Wu committed enormous resources: 100,000 cavalry, 140,000 horses, and supply trains for months of steppe campaigning. The army crossed the Gobi — considered impassable for large armies — to strike at the Xiongnu heartland where they felt safe."
-        },
-        {
-          "label": "The Result",
-          "text": "Wei Qing routed the Chanyu's main force; Huo Qubing drove further north than any Han army had ever gone. The Chanyu fled with a small escort. A Chinese general lit a bonfire on Wolf Xu Mountain to signal victory and performed sacrifices — planting the Han flag in the deepest steppe."
-        },
-        {
-          "label": "Strategic Aftermath",
-          "text": "After Mobei, the Xiongnu never fully recovered their unified power. Some groups eventually surrendered to the Han and were settled inside the frontier. Others fled west, eventually contributing — centuries later — to the Hunnic invasions of Rome. The steppes remained contested but no longer threatening."
+          "label": "Explore further",
+          "text": "Huo Qubing's advance to a Xiongnu sacred mountain, where he performed a Chinese victory sacrifice on Xiongnu holy ground, was a calculated act of symbolic humiliation: the Son of Heaven's generals were invoking Chinese gods on the steppe's most sacred terrain. The operation was the deepest penetration of Chinese military power into the steppe in history, but it cost both sides enormously — China committed over 100,000 horses to Mobei and got fewer than 30,000 back, near-total destruction of the cavalry's logistical capacity."
         }
-      ]
+      ],
+      "commonsFile": "See_the_world_in_one_glance_(49886044227).jpg"
     },
     {
       "id": "evt-han-salt-iron-monopoly",
       "label": "Salt and Iron Monopoly",
       "year": -119,
-      "description": "Emperor Wu nationalized the production and distribution of salt and iron — the two essential commodities every household needed — to fund his military campaigns. The monopoly generated enormous revenue but sparked debate that culminated in the famous 'Discourses on Salt and Iron' (81 BCE), a philosophical debate about whether the state should engage in commerce at all.",
+      "description": "In 119 BCE, Emperor Wu nationalized salt and iron — commodities every Chinese household depended on — to fund his costly Xiongnu wars. The monopolies generated enormous revenue but provoked the famous Discourses on Salt and Iron (81 BCE), a recorded court debate between Confucian scholars and government officials over whether the state should ever compete with its own people in commerce.",
       "wikiSlug": "Discourses_on_Salt_and_Iron",
       "tier": 2,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "The Policy",
-          "text": "State officials took over the production of salt (by far the most essential commodity) and the smelting and distribution of iron tools. Private merchants were excluded. The revenue funded Emperor Wu's Xiongnu campaigns when the treasury reserves accumulated by Wen and Jing were exhausted."
-        },
-        {
-          "label": "The Debate",
-          "text": "In 81 BCE, Emperor Zhao's regent Huo Guang convened scholars and officials to debate whether to continue the monopoly. The resulting 'Yantie Lun' (Discourses on Salt and Iron) is one of the most remarkable documents of ancient economic thought — Confucian scholars arguing against state commerce versus officials defending it for national security."
-        },
-        {
-          "label": "Long-Term Pattern",
-          "text": "The salt monopoly outlasted the Han dynasty by two millennia. Various forms of it persisted through every subsequent Chinese dynasty until 1949. It was the most durable economic institution in human history — a single commodity tax that funded Chinese governments for over 2,000 years."
+          "label": "Explore further",
+          "text": "The Discourses on Salt and Iron is one of the earliest surviving records of a genuine economic policy debate anywhere in the ancient world. Confucian scholars argued that state monopolies corrupted officials and burdened the poor; government officials countered that idealism had no place in a world where the Xiongnu threat was real. The debate was transcribed and has survived in full. The salt monopoly itself outlasted the debate by nearly two millennia, persisting in various forms through every subsequent Chinese dynasty until the People's Republic abolished it in 1949."
         }
       ],
       "aliases": [
@@ -788,79 +595,58 @@
       "id": "evt-han-conquest-nanyue",
       "label": "Conquest of Nanyue",
       "year": -111,
-      "description": "Emperor Wu sent 100,000 troops to conquer Nanyue (modern Guangdong, Guangxi, and northern Vietnam), a semi-independent state that had existed since the Qin collapse. The conquest extended Han control to the South China Sea and began the long process of integrating the south into Chinese civilization — a cultural integration that continues to shape modern China.",
+      "description": "In 111 BCE, Emperor Wu sent five converging Han armies totaling 100,000 troops to conquer Nanyue, a semi-independent kingdom covering modern Guangdong, Guangxi, and northern Vietnam that had survived since the Qin collapse. Its capital Panyu (modern Guangzhou) fell quickly, extending Han control to the South China Sea.",
       "wikiSlug": "Nanyue",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "The State of Nanyue",
-          "text": "Nanyue was founded by a Qin general who established an independent kingdom after the Qin collapse. For three generations it maintained nominal submission to Han while operating independently. When a pro-Han queen mother was assassinated in a coup, Emperor Wu used it as a pretext for conquest."
-        },
-        {
-          "label": "The Campaign",
-          "text": "Five Han armies converged on Nanyue's capital Panyu (modern Guangzhou) in 111 BCE. The capital fell quickly. Han administration was extended over the territory, divided into nine commanderies. It was one of the most significant geographic expansions of Han power."
-        },
-        {
-          "label": "Cultural Legacy",
-          "text": "The conquest of Nanyue brought southern China definitively into the Chinese cultural sphere. Guangdong and Guangxi would remain part of China through all subsequent dynasties. Northern Vietnam (Jiaozhou) was a Han commandery for over 1,000 years, with profound influence on Vietnamese culture, writing, and governance."
+          "label": "Explore further",
+          "text": "Nanyue had been founded in 204 BCE by the Chinese general Zhao Tuo, who declared independence after the Qin collapse and ruled as king for decades — the Han tolerated it as a quasi-tributary state until Wu decided to absorb it outright. Northern Vietnam (incorporated as the Jiaozhou commandery) remained under Han rule for over a thousand years, during which Chinese writing, governance models, and eventually Buddhism were transmitted south. That cultural contact still shapes modern Vietnamese civilization."
         }
-      ]
+      ],
+      "commonsFile": "6_jadeite_Liubo_game_pieces.jpg"
     },
     {
       "id": "evt-han-maritime-silk-road",
       "label": "Maritime Silk Road Established",
       "year": -111,
-      "description": "After the conquest of Nanyue, Han ships began regular maritime trade routes south through the South China Sea to Southeast Asia, Sri Lanka, and eventually the Indian Ocean. Chinese goods reached Rome by sea as well as land — a Han ambassador reportedly reached the court of Rome's eastern provinces, and Roman glassware reached Han China. The maritime route supplemented and eventually exceeded the overland Silk Road.",
+      "description": "The Maritime Silk Road was the sea-based complement to the overland Silk Road, connecting China through the South China Sea and Indian Ocean to Southeast Asia, India, the Arabian Peninsula, and East Africa — operating from roughly the 2nd century BCE until the 15th century CE.",
       "wikiSlug": "Maritime_Silk_Road",
       "tier": 2,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "The Route",
-          "text": "Han ships left from ports in Guangdong, sailed south through Vietnam and the Malay Peninsula, crossed to Sri Lanka, and reached the Indian subcontinent. From there goods moved overland or by sea to Parthia and eventually Rome. The route connected China to the Indian Ocean trade network for the first time."
-        },
-        {
-          "label": "Roman Contact",
-          "text": "A Han court text from 97 CE records that Ban Chao sent an envoy named Gan Ying toward Rome. Gan Ying reached Parthia, where Parthian merchants — unwilling to let China establish direct contact with their Roman customers — told him the sea voyage to Rome took two years and could kill him with homesickness. He turned back. But goods continued flowing."
-        },
-        {
-          "label": "What Traveled",
-          "text": "Roman glass, coral, amber, and textiles moved east; Chinese silk, porcelain, and spices moved west. Southeast Asian kingdoms grew wealthy as middlemen in this trade. The maritime route eventually became more important than the overland route because ships could carry more and the monsoon winds made the Indian Ocean predictable."
+          "label": "Explore further",
+          "text": "The route was primarily established and operated not by Chinese sailors but by Austronesian sailors from Southeast Asia, using large long-distance sewn-plank and lashed-lug trade ships — China only began building its own substantial ocean-going trade fleet between the 10th and 15th centuries. Persian and Arab dhow traders dominated the Arabian Sea legs while Tamil merchants controlled much of the South Asian trade, making the Maritime Silk Road a genuinely multi-civilization network from the start, not a Chinese enterprise."
         }
-      ]
+      ],
+      "commonsFile": "Austronesian_maritime_trade_network_in_the_Indian_Ocean.png"
     },
     {
       "id": "evt-han-conquest-joseon",
       "label": "Conquest of Wiman Joseon",
       "year": -108,
-      "description": "Emperor Wu conquered the Korean kingdom of Wiman Joseon and established four commanderies in the northern Korean peninsula. The commanderies — especially Lelang near modern Pyongyang — became centers of Han culture that influenced the developing Korean kingdoms for centuries, introducing Chinese writing, Buddhism, and administrative models.",
+      "description": "In 108 BCE, Emperor Wu conquered Wiman Joseon — the kingdom controlling the northern Korean peninsula — and established four Han commanderies in its place. The most consequential, Lelang (near modern Pyongyang), lasted over four hundred years and served as the primary conduit for Chinese culture into the developing Korean kingdoms.",
       "wikiSlug": "Gojoseon",
       "tier": 3,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "The Kingdom",
-          "text": "Wiman Joseon was founded by a refugee from the collapsing Yan kingdom during the Qin-Han transition. It controlled the northern Korean peninsula and parts of Manchuria, intercepting Han trade with the Korean and Japanese peoples. Emperor Wu sent ambassadors who were killed — providing the casus belli."
-        },
-        {
-          "label": "The Conquest",
-          "text": "The campaign was poorly coordinated — the Han naval and land forces bickered, and one commander was executed for insubordination during the operation. The kingdom fell through internal collapse as factions within the court assassinated their own king and surrendered."
-        },
-        {
-          "label": "Cultural Impact",
-          "text": "The Lelang Commandery near modern Pyongyang lasted until 313 CE — over 400 years. It served as a conduit for Han culture into the Korean peninsula, transmitting Chinese writing, bronze techniques, lacquerware, and eventually Buddhism to the forming Korean kingdoms."
+          "label": "Explore further",
+          "text": "Wiman Joseon had itself been founded by a Chinese refugee who fled the Han-Chu civil war and carved out a kingdom on the peninsula — the Han tolerated it until it grew too independently powerful. Through Lelang over four centuries, the Korean kingdoms absorbed Chinese written script, bronze-casting techniques, lacquerware, and eventually Buddhism — an influence so deep it shaped the three kingdoms (Goguryeo, Baekje, Silla) that arose after the commanderies fell. Old Joseon is considered the first kingdom on the Korean Peninsula, reputedly founded by the legendary king Tan'gun."
         }
-      ]
+      ],
+      "commonsFile": "Old_Chosŏn.png"
     },
     {
       "id": "evt-han-su-wu",
       "label": "Su Wu",
       "year": -100,
-      "description": "Su Wu was a Han diplomat sent to the Xiongnu in 100 BCE who was captured when a Han-Xiongnu conspiracy was uncovered at the Xiongnu court. Refused to renounce his Han allegiance, he was exiled to herd sheep near Lake Baikal for 19 years. He returned to China in 81 BCE — the sheep staff with its Han diplomatic seal still in his hand — as a symbol of indestructible loyalty.",
+      "description": "Su Wu was the Han diplomat sent to the Xiongnu in 100 BCE who refused to renounce his allegiance even after capture — stabbing himself rather than submit, surviving, and enduring nineteen years herding sheep near Lake Baikal before returning to China at sixty, his diplomatic staff still in hand.",
       "wikiSlug": "Su_Wu",
       "tier": 3,
       "tags": [
@@ -872,72 +658,51 @@
       ],
       "details": [
         {
-          "label": "The Captivity",
-          "text": "When a conspiracy at the Xiongnu court was uncovered, the Chanyu tried to force Su Wu to renounce the Han. Su Wu drew his sword and stabbed himself rather than submit. Nursed back to health, he was offered titles, wealth, and land to defect. He refused everything and was sent to herd sheep on the Baikal steppe."
-        },
-        {
-          "label": "The Return",
-          "text": "When the Han and Xiongnu negotiated peace in 81 BCE, Han envoys demanded Su Wu's return. The Xiongnu claimed he was dead. The envoys said: 'Our emperor shot a goose, and tied to its foot was a letter from Su Wu, still alive at the northern sea.' The Xiongnu, caught in the lie, released him."
-        },
-        {
-          "label": "The Symbol",
-          "text": "Su Wu returned aged 60, his hair white, his diplomatic staff worn smooth — and was received with honor. His story became the defining Chinese narrative of loyalty to one's country against all inducements. He is commemorated in poetry, opera, and painting throughout Chinese history as the embodiment of unbreakable fidelity."
+          "label": "Explore further",
+          "text": "When Han envoys finally negotiated his release, the Xiongnu claimed Su Wu was dead. The envoys replied that the emperor had shot a goose, and tied to its foot was a letter from Su Wu, still alive at the northern sea — catching the Xiongnu in their lie and forcing his release. Whether the goose story was true or a diplomatic bluff, it worked. Su Wu returned with his staff worn smooth and his hair white, and became the defining Chinese narrative of unbreakable fidelity to one's country."
         }
-      ]
+      ],
+      "commonsFile": "Su_Wu_Tending_Sheep_Qing_Huang_Shen.jpg"
     },
     {
       "id": "evt-han-nine-chapters-math",
       "label": "Nine Chapters on the Mathematical Art",
       "year": -100,
-      "description": "The Nine Chapters on the Mathematical Art (Jiuzhang Suanshu) was compiled during the Western Han and is China's most important ancient mathematical text. It covered practical arithmetic, geometry, proportion, square roots, simultaneous equations, and the Pythagorean theorem — presenting mathematics as a tool for solving real administrative problems like surveying land and distributing grain.",
+      "description": "The Nine Chapters on the Mathematical Art (Jiuzhang Suanshu), compiled during the Western Han, is China's most important ancient mathematics text — 246 practical problems covering surveying, taxation, grain measurement, and simultaneous equations, framed as tools for administrators rather than abstract proofs.",
       "wikiSlug": "The_Nine_Chapters_on_the_Mathematical_Art",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Content",
-          "text": "The Nine Chapters covered: proportions, percentages, land measurement, grain distribution, engineering earthworks, taxation and labor, square and cube roots, simultaneous equations, and right-triangle problems. All 246 problems are practical — measuring fields, paying workers, dividing goods — reflecting a mathematics in service of administration."
-        },
-        {
-          "label": "Mathematical Achievement",
-          "text": "The text solves simultaneous linear equations using a method equivalent to modern Gaussian elimination — 2,000 years before Gauss. It also approximates pi as 3.14 and demonstrates the Pythagorean theorem independently of Greek mathematics. Chinese mathematics developed parallel to, not derived from, the Greek tradition."
-        },
-        {
-          "label": "Influence",
-          "text": "The Nine Chapters remained the core mathematical curriculum in China for 1,500 years. It was translated into Korean, Japanese, and Vietnamese and influenced East Asian mathematics throughout the imperial era. Its practical orientation — math for administrative purposes — reflects the Confucian Han value system: knowledge in service of governance."
+          "label": "Explore further",
+          "text": "The Nine Chapters solves simultaneous equations using a method equivalent to modern Gaussian elimination — about 2,000 years before the German mathematician Gauss formalized it. It approximates pi as 3.14 and demonstrates the Pythagorean theorem independently of the Greek tradition. The text was assembled by multiple generations of scholars over roughly eight centuries, reaching its final form in the early Han. It remained the core mathematical curriculum across East Asia for about 1,500 years."
         }
-      ]
+      ],
+      "commonsFile": "九章算術細草圖說.jpg"
     },
     {
       "id": "evt-han-compass-lodestone",
       "label": "South-Pointing Spoon",
       "year": -100,
-      "description": "Han texts describe a 'south-pointing spoon' (sinan) made of magnetite that rotated on a polished bronze plate to indicate south — the earliest recorded magnetic compass. The device was used for geomancy (feng shui) rather than navigation, but it demonstrated understanding of magnetic polarity that would eventually produce the navigational compass.",
+      "description": "Han texts describe the sinan (south-pointing spoon) — a spoon carved from magnetite that, when set on a polished bronze plate, rotated until its handle pointed south, making it the earliest recorded magnetic direction-finder. Han diviners used it for feng shui rather than navigation, but it showed a clear working understanding of magnetic polarity.",
       "wikiSlug": "History_of_the_compass",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "The Device",
-          "text": "The sinan was a spoon-shaped piece of magnetite balanced on a bronze plate. The spoon's handle, magnetized to point south, rotated freely. Han texts describe it being used by diviners to align buildings and burial sites according to feng shui principles. It was a ritual instrument before it was a navigational one."
-        },
-        {
-          "label": "Magnetic Understanding",
-          "text": "Han scholars clearly understood magnetic attraction — texts describe lodestones drawing iron 'as a mother draws her children.' The step from magnetic attraction to directional polarity was made in China at least 1,000 years before European navigators began using compasses in the 11th century CE."
-        },
-        {
-          "label": "Navigation Comes Later",
-          "text": "The navigational compass — a magnetized needle floating on water or suspended on a thread — developed in China in the 9th–11th centuries CE, spread to the Islamic world, and reached Europe by the 12th century. The Han south-pointing spoon was the conceptual ancestor, not the direct technological predecessor."
+          "label": "Explore further",
+          "text": "The sinan was a ritual instrument for aligning buildings and burial sites according to cosmological principles, not a tool for finding one's way at sea. Practical navigational use of magnetic compasses in China is first documented around the 11th century CE, roughly a thousand years after the sinan appeared. Interestingly, the Chinese word for compass still literally means \"south-pointing needle\" — the Han orientation of pointing south, not north, stuck in the language long after the device itself was repurposed."
         }
-      ]
+      ],
+      "commonsFile": "Southern_Song_Figure_Holding_Land_Compass_(9872744925).jpg"
     },
     {
       "id": "evt-han-sima-qian",
       "label": "Sima Qian",
       "year": -99,
-      "description": "Sima Qian was the Han court historian who produced the Shiji (Records of the Grand Historian) — 130 chapters covering all of Chinese history from the Yellow Emperor to his own time. Castrated by imperial order for defending a general who had surrendered to the Xiongnu, he chose humiliation over death in order to finish his work. The Shiji invented the biographical approach to history that remained the Chinese standard for 2,000 years.",
+      "description": "Sima Qian was the Han court historian who chose castration and survival over the honorable suicide expected of him — because he hadn't finished his book. His life's work, the Shiji, invented the biographical approach to history and became the template for every official Chinese dynastic history that followed.",
       "wikiSlug": "Sima_Qian",
       "tier": 1,
       "tags": [
@@ -949,24 +714,17 @@
       ],
       "details": [
         {
-          "label": "The Punishment",
-          "text": "In 99 BCE, General Li Ling surrendered to the Xiongnu with the remnants of his army rather than die. Sima Qian defended him before Emperor Wu, arguing the surrender was tactical. Emperor Wu, furious, sentenced him to castration — the most degrading non-capital punishment. Sima Qian accepted it to finish his history."
-        },
-        {
-          "label": "Letter to Ren An",
-          "text": "In a private letter, Sima Qian explained why he chose castration over death: 'I have given careful thought to the matter and realized that the reason I have not died is that I regret that I have not finished this work... if I were to die before it was complete, it would be my greatest regret.' The letter is one of the most moving documents of the ancient world."
-        },
-        {
-          "label": "The Shiji",
-          "text": "The Records of the Grand Historian covered 3,000 years in five sections: Basic Annals (emperors), Tables, Treatises (economics, music, astronomy), Hereditary Houses (feudal lords), and Biographies. The biographical format — telling history through individual lives — became the template for all 24 subsequent official Chinese dynastic histories."
+          "label": "Explore further",
+          "text": "Sima Qian's father Sima Tan had begun the project and made his son promise on his deathbed to finish it. Sima Qian spent years traveling China, interviewing eyewitnesses and visiting historical sites, before the Li Ling affair derailed him. His private letter to his friend Ren An explaining why he chose to live is one of the most candid personal documents to survive from the ancient world. The Shiji's influence spread throughout the Sinosphere: Korea, Japan, and Vietnam all adopted it as a model for their own official histories."
         }
-      ]
+      ],
+      "commonsFile": "Sima_Qian_(painted_portrait).jpg"
     },
     {
       "id": "evt-han-shiji",
       "label": "Records of the Grand Historian",
       "year": -91,
-      "description": "The Shiji (Records of the Grand Historian) by Sima Qian was completed around 91 BCE and is considered the founding work of Chinese historiography. Its 130 chapters and 526,500 characters covered all of Chinese history from the mythical Yellow Emperor to Emperor Wu's reign, using individual biographies as the primary vehicle — an innovation that shaped every subsequent Chinese dynastic history.",
+      "description": "The Shiji (Records of the Grand Historian), completed around 91 BCE, is China's founding historical masterwork — 130 chapters covering 2,500 years, structured around individual lives rather than dry year-by-year records. Without it, most of what we know about ancient China from the Warring States through the early Han would be lost.",
       "wikiSlug": "Records_of_the_Grand_Historian",
       "tier": 1,
       "tags": [],
@@ -978,149 +736,107 @@
       ],
       "details": [
         {
-          "label": "Structure",
-          "text": "The Shiji used five categories: Basic Annals (emperors and kings), Chronological Tables, Treatises (astronomy, rivers, music, economics), Hereditary Houses (noble families), and Biographies (individual lives). The biographical section — 70 chapters — was the innovation: history told through human stories rather than dry chronicles."
-        },
-        {
-          "label": "What It Preserved",
-          "text": "The Shiji is our primary source for hundreds of figures and events of the Warring States and early Han periods. Without it, most of what we know about ancient China — including Confucius's biography, the Qin unification, the Chu-Han war — would be lost or fragmentary. Sima Qian traveled extensively to interview eyewitnesses and local traditions."
-        },
-        {
-          "label": "Literary Standard",
-          "text": "The Shiji's prose style became the gold standard of classical Chinese writing for two millennia. Its character portraits — Xiang Yu's tragic grandeur, Confucius's patient determination, the merchant Lü Buwei's calculating rise — read as literature, not just record-keeping. It was the first Chinese work to be appreciated as both history and art."
+          "label": "Explore further",
+          "text": "The Shiji's biographical section was the real innovation: seventy chapters on individual lives, from generals and merchants to assassins and concubines, each rendered with a novelist's eye for character. Sima Qian included unflattering portraits of Emperor Wu himself and sympathetic accounts of rebels and losers — genuinely dangerous writing at the time. His format became the model for all twenty-four subsequent official Chinese dynastic histories, all of which copied its five-part structure."
         }
-      ]
+      ],
+      "commonsFile": "Records_of_the_Grand_Historian.jpg"
     },
     {
       "id": "evt-han-huo-guang",
       "label": "Huo Guang",
       "year": -87,
       "endYear": -68,
-      "description": "Huo Guang was the nephew of the general Huo Qubing and the most powerful official of the late Western Han. As regent for three successive emperors after Emperor Wu's death — including deposing one emperor after just 27 days — he dominated Han politics for 20 years and was the real ruler of China, though he never took the throne himself.",
+      "description": "Huo Guang was the real power behind the Western Han throne for twenty years — a regent who served three consecutive emperors, hand-picked successors, and famously deposed one emperor after just twenty-seven days while never once claiming the throne himself. He was the half-brother of the celebrated general Huo Qubing and the most powerful man in China who never became its emperor.",
       "wikiSlug": "Huo_Guang",
       "tier": 3,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "The Regent",
-          "text": "Emperor Wu, dying, entrusted the young Emperor Zhao to Huo Guang's regency. When Emperor Zhao died without heir in 74 BCE, Huo Guang selected and then deposed Emperor Changyi after 27 days — charging him with 1,127 offenses — and installed the stable, capable Emperor Xuan. He held all power until his death in 68 BCE."
-        },
-        {
-          "label": "The Warning He Missed",
-          "text": "Huo Guang was powerful enough to depose emperors but never seized the throne — an unusual restraint. He reportedly said he feared being called a usurper. Emperor Xuan, who outwardly deferred to him, privately described sitting beside Huo Guang as 'like sleeping next to a tiger.'"
-        },
-        {
-          "label": "The Aftermath",
-          "text": "After Huo Guang died, Emperor Xuan moved against his family, executing them for conspiracy. It was a pattern that would recur throughout Han history: powerful regent families dominating child emperors, then being destroyed when a capable emperor came of age — or when another powerful family replaced them."
+          "label": "Explore further",
+          "text": "After Huo Guang's death in 68 BCE, Emperor Xuan moved swiftly to destroy his entire family for conspiracy — a brutal but characteristic Han court pattern, where powerful regent clans were tolerated until the emperor felt secure enough to eliminate them. Huo Guang's posthumous title was Marquess Xuancheng of Bolu, a distinction that outlasted his family by only a few years."
         }
-      ]
+      ],
+      "commonsFile": "Huo_guang.jpg"
     },
     {
       "id": "evt-han-emperor-zhao",
       "label": "Emperor Zhao",
       "year": -87,
-      "description": "Emperor Zhao came to the throne at age 8 under Huo Guang's regency, following Emperor Wu's death. Despite the overshadowing regent, his reign saw economic recovery from Emperor Wu's wars and the famous Salt and Iron debates, which moderated the state's commercial monopolies. He died at 21 without an heir.",
+      "description": "Emperor Zhao came to the throne at eight years old in 87 BCE — the youngest son of the formidable Emperor Wu — and ruled in name while his regent Huo Guang held all real power for the entirety of his short reign. Though never in control of his own empire, his era oversaw genuine economic recovery from the wars that had nearly bankrupted the Western Han.",
       "wikiSlug": "Emperor_Zhao_of_Han",
       "tier": 3,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Child Emperor",
-          "text": "Emperor Zhao ascended at 8 years old; Huo Guang held all real power throughout his reign. Despite this, the court under Zhao was relatively stable and the economy began recovering from the financial strain of Emperor Wu's wars. Taxes were reduced and some monopolies relaxed."
-        },
-        {
-          "label": "The Salt and Iron Debates",
-          "text": "The most important event of his reign was the 'Discourses on Salt and Iron' convened by Huo Guang in 81 BCE — a formal debate between Confucian scholars who opposed state commercial monopolies and officials who defended them. The resulting text is a remarkable record of Han economic thought."
-        },
-        {
-          "label": "The Succession Crisis",
-          "text": "Emperor Zhao died at 21 with no heir. Huo Guang selected a great-grandson of Emperor Wu — Emperor Changyi — who was deposed after 27 days for debauchery and replaced with the capable Emperor Xuan. The succession crisis revealed how thoroughly power had shifted from the throne to the regent's family."
+          "label": "Explore further",
+          "text": "Emperor Zhao died at just twenty-one without an heir, which handed Huo Guang the extraordinary opportunity to pick and discard his successor. His reign is historically paired with the reign of Emperor Xuan as the 'Zhaoxuan Restoration,' a period of significant economic recovery after the ruinous Han-Xiongnu wars."
         }
-      ]
+      ],
+      "commonsFile": "HanZhaoDiLiuFuling_(cropped).jpg"
     },
     {
       "id": "evt-han-emperor-xuan",
       "label": "Emperor Xuan",
       "year": -74,
       "endYear": -49,
-      "description": "Emperor Xuan of Han is considered one of the dynasty's best rulers. Raised as a commoner after his entire family was executed in a palace purge, he came to the throne with a common man's understanding of real life. He reduced corruption, personally reviewed judicial cases, and presided over the Han's last great territorial expansion — the establishment of the Western Regions Protectorate in Central Asia.",
+      "description": "Emperor Xuan (74-48 BCE) is widely considered the peak ruler of the Western Han, remarkable partly because he was raised as a commoner after his grandfather was executed in a court purge, giving him a feel for ordinary life that palace-raised emperors rarely had. His reign combined the formal annexation of the Silk Road corridor, economic prosperity, and military dominance over the Xiongnu.",
       "wikiSlug": "Emperor_Xuan_of_Han",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "The Commoner Emperor",
-          "text": "Emperor Xuan spent his early life as a commoner after his family — great-grandchildren of Emperor Wu — was destroyed in a court purge. He grew up understanding ordinary life in ways palace-raised emperors did not: he personally reviewed judicial cases and reduced the arbitrary punishments of local officials."
-        },
-        {
-          "label": "Foreign Policy",
-          "text": "Xuan established the Western Regions Protectorate in 60 BCE, formalizing Han control over the city-states of the Tarim Basin and the Silk Road routes. This was the high-water mark of Han territorial reach. He also received the submission of the southern Xiongnu, ending the active Xiongnu threat for a generation."
-        },
-        {
-          "label": "The Missed Warning",
-          "text": "Xuan's great love was for his first wife, a commoner woman who bore him the crown prince. When empress she was poisoned by a scheming concubine. Xuan never forgot — or forgave. He made the poisoner's son crown prince anyway, choosing political stability over personal justice. That decision eventually produced Emperor Yuan, whose weakness opened the door to Wang Mang."
+          "label": "Explore further",
+          "text": "Emperor Xuan is one of only four Western Han emperors to receive a temple name, a distinction reserved for rulers of exceptional historical significance. His reign is bracketed historically with his predecessor Emperor Zhao's as the 'Zhaoxuan Restoration,' marking China's recovery from decades of costly frontier warfare."
         }
-      ]
+      ],
+      "commonsFile": "HanXuanDi.jpg"
     },
     {
       "id": "evt-han-western-regions-protectorate",
       "label": "Western Regions Protectorate",
       "year": -60,
-      "description": "Emperor Xuan established the Western Regions Protectorate (Xiyu Duhu Fu) in 60 BCE — the first formal Chinese administrative office in Central Asia. The Protector-General based in the Tarim Basin supervised the city-states of modern Xinjiang and the Silk Road routes, marking the greatest westward extension of Han power.",
+      "description": "The Western Regions Protectorate, established around 60 BCE under Emperor Xuan, was China's first permanent administrative office in Central Asia — a Protector-General stationed in the Tarim Basin (modern Xinjiang) who supervised the oasis city-states of Kashgar, Khotan, and Kucha through which Silk Road trade flowed. It marked the farthest westward extension of Han imperial power.",
       "wikiSlug": "Protectorate_of_the_Western_Regions",
       "tier": 2,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "What It Was",
-          "text": "The Western Regions Protectorate was not direct administration but a supervisory relationship. The Protector-General had a small military escort and the authority to adjudicate disputes between the city-states, organize collective defense against nomadic threats, and ensure the Silk Road remained open."
-        },
-        {
-          "label": "The Stakes",
-          "text": "Control of the Tarim Basin meant control of the Silk Road. The oasis cities — Kashgar, Khotan, Kucha — were the waystations through which Chinese goods moved west and Central Asian goods moved east. Whoever controlled them collected tolls and determined who traded with whom."
-        },
-        {
-          "label": "Recurring Pattern",
-          "text": "The Western Regions Protectorate was lost and recovered multiple times. Wang Mang abandoned it during the Xin interregnum; it was reestablished in the Eastern Han by Ban Chao. The pattern — China asserting then losing then reasserting control in Central Asia — repeated throughout Chinese history into the modern era."
+          "label": "Explore further",
+          "text": "The protectorate was not continuous — it was administered on and off over centuries, surviving the fall of both Han dynasties, all the way to 439 CE. The 'Western Regions' designation referred specifically to lands west of Yumen Pass (the Jade Gate), a chokepoint in the Gansu corridor that marked the edge of the Chinese world."
         }
       ],
       "aliases": [
         "Xiyu"
-      ]
+      ],
+      "commonsFile": "Han_Expansion.png"
     },
     {
       "id": "evt-han-emperor-yuan",
       "label": "Emperor Yuan",
       "year": -49,
-      "description": "Emperor Yuan of Han was a well-meaning ruler dominated by eunuchs and court factions who marked the beginning of the Western Han's decline. His reign saw the first major expansion of eunuch influence at court, the weakening of the bureaucracy, and the famous diplomatic incident involving Wang Zhaojun's departure to the Xiongnu — which Emperor Yuan reportedly regretted for the rest of his life.",
+      "description": "Emperor Yuan (48-33 BCE) was a genuinely Confucian ruler who promoted the philosophy as official state doctrine and appointed its adherents to key government posts — and is nonetheless remembered as a turning point toward Han decline, because his reliance on the powerful eunuch Shi Xian established the pattern of eunuchs controlling imperial access that would eventually hollow out the Eastern Han.",
       "wikiSlug": "Emperor_Yuan_of_Han",
       "tier": 3,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "The Confucian Idealist",
-          "text": "Emperor Yuan was genuinely Confucian in his personal beliefs — gentle, literary, and inclined toward moral governance. He was the first emperor to substantially reduce the Confucian scholars' traditional enemies — the Legalist-minded officials — which sounds virtuous but actually weakened the administrative competence of his government."
-        },
-        {
-          "label": "The Eunuch Problem",
-          "text": "Emperor Yuan's reliance on the eunuch Hong Gong and Shi Xian began the pattern that would eventually destroy the Eastern Han: eunuchs controlling imperial access, manipulating information reaching the emperor, and forming factions that competed with the Confucian bureaucracy. It was a structural problem no individual emperor could solve from within."
-        },
-        {
-          "label": "The Decline Begins",
-          "text": "Historians mark Emperor Yuan's reign as the turning point of Western Han decline. Not from any single catastrophe but from a gradual loss of bureaucratic quality, increased court intrigue, and the weakening of central authority that allowed regional strongmen — and eventually Wang Mang — to accumulate power."
+          "label": "Explore further",
+          "text": "Emperor Yuan was the first Han emperor to make Confucianism the explicit official creed of government, staffing major posts with Confucian scholars. The tension between the scholar-bureaucracy and the eunuch-court faction that he inadvertently created would become the defining political struggle of the Eastern Han. His reign also saw the rise of the Wang family clan, whose power would eventually produce Wang Mang."
         }
-      ]
+      ],
+      "commonsFile": "Jieyu_Fighting_against_Bear_by_Jin_Tingbiao.jpg"
     },
     {
       "id": "evt-han-wang-zhaojun",
       "label": "Wang Zhaojun",
       "year": -33,
-      "description": "Wang Zhaojun was a Han palace lady who volunteered to become a heqin bride for the Xiongnu Chanyu Huhanye in 33 BCE — a rare diplomatic act she apparently chose willingly. She became one of China's Four Beauties, celebrated in poetry and painting as the symbol of sacrifice for peace, though she lived out her life on the steppe and reportedly never returned to China.",
+      "description": "Wang Zhaojun was a Han court lady selected in 33 BCE as a diplomatic bride for the Xiongnu leader Huhanye Chanyu — a heqin (marriage alliance) meant to cement peace on the northern frontier. Her story, in which Emperor Yuan was reportedly stunned by her beauty at the farewell ceremony and executed the painter who had portrayed her as plain, became one of the most retold tales in Chinese literary history.",
       "wikiSlug": "Wang_Zhaojun",
       "tier": 3,
       "tags": [
@@ -1133,25 +849,18 @@
       ],
       "details": [
         {
-          "label": "The Choice",
-          "text": "When the Chanyu Huhanye visited the Han court in 33 BCE seeking a princess, Emperor Yuan selected from the palace ladies rather than sending a real princess. Wang Zhaojun reportedly volunteered — or at least did not resist — presenting herself without the heavy cosmetics that hid other ladies' faces from the emperor."
-        },
-        {
-          "label": "The Legend",
-          "text": "When Emperor Yuan finally saw Wang Zhaojun as she departed, he was struck by her beauty and regretted giving her away — but could not rescind the agreement without dishonoring the Han. The court painter Mao Yanshou was reportedly executed for not accurately depicting her in the portrait the emperor had relied on."
-        },
-        {
-          "label": "Life on the Steppe",
-          "text": "Wang Zhaojun bore the Chanyu a son, then — following Xiongnu custom — married his successor when the Chanyu died. She reportedly wrote to the Han court requesting to come home; she was told to follow local customs. Her story became the archetype for Chinese literature about border sacrifice and imperial indifference."
+          "label": "Explore further",
+          "text": "Wang Zhaojun is counted among the 'Four Beauties of ancient China,' a classical grouping whose stories were considered emblematic of fate, sacrifice, or imperial folly. After Huhanye died, Xiongnu custom required her to marry his successor; she reportedly asked permission to return to China and was refused, living out her days on the steppe."
         }
-      ]
+      ],
+      "commonsFile": "Periodo_edo,_kosumi_morihage,_wang_zhaojun,_XVII_sec._02.JPG"
     },
     {
       "id": "evt-han-wang-mang",
       "label": "Wang Mang",
       "year": 9,
       "endYear": 23,
-      "description": "Wang Mang was the Han regent who declared himself Emperor of the new Xin dynasty in 9 CE — the only successful usurpation in Han history. A devoted Confucian scholar who had cultivated a reputation for impeccable virtue, he launched the most ambitious reform program in Chinese history, failed catastrophically when nature refused to cooperate, and was killed by a mob in his own capital.",
+      "description": "Wang Mang was a Han court official who spent decades performing such extreme Confucian virtue — refusing promotions, giving away wealth, mourning with theatrical devotion — that scholars across the empire hailed him as the ideal gentleman, and he used that reputation to claim the throne in 9 CE and declare the Xin ('New') dynasty. He is remembered as Chinese history's most spectacular combination of correct diagnosis and disastrous prescription.",
       "wikiSlug": "Wang_Mang",
       "tier": 2,
       "tags": [
@@ -1163,75 +872,54 @@
       ],
       "details": [
         {
-          "label": "The Virtuous Usurper",
-          "text": "Wang Mang rose through the Han court on the strength of genuine Confucian virtue — returning gifts, refusing promotions, living simply, mourning parents with excessive devotion. Scholars throughout the empire praised him. He accumulated power so gradually that when he finally declared himself emperor in 9 CE, many welcomed it as the will of Heaven."
-        },
-        {
-          "label": "The Reforms",
-          "text": "Wang Mang's program was drawn from Confucian classical ideals: nationalize all land and redistribute it equally, abolish private slavery, fix commodity prices, restrict usury, and reform currency. He reformed the currency five times in fifteen years — each reform wiping out savings and destroying commercial trust."
-        },
-        {
-          "label": "The Catastrophe",
-          "text": "In 11 CE, the Yellow River burst its banks and changed course — a catastrophe that flooded millions of hectares of farmland and displaced millions of people. Wang Mang's government was already unstable from the currency chaos; the floods triggered famine, then rebellion. He was killed in his palace in 23 CE, his head cut off by a soldier who reportedly ate his tongue."
+          "label": "Explore further",
+          "text": "Wang Mang's seizure of power had genuine popular and scholarly support at the time — many contemporaries believed the Han had lost the Mandate of Heaven and that he was the virtuous sage-king the classics described. Later Han historians retroactively reframed his entire career as cynical performance, but whether his virtue was genuine or manufactured is a question historians still debate. His head was reportedly kept as a trophy and passed among rebels for decades after his death."
         }
-      ]
+      ],
+      "commonsFile": "A_knife_coin_of_Wang_Mang.jpg"
     },
     {
       "id": "evt-han-xin-dynasty",
       "label": "Xin Dynasty and Reforms",
       "year": 9,
       "endYear": 23,
-      "description": "Wang Mang's Xin ('New') dynasty lasted fourteen years and achieved none of its ambitious reforms. His five currency reforms destroyed commercial activity; his land nationalization was reversed almost immediately when the aristocracy resisted; his abolition of slavery was reversed when slave owners rebelled. The Yellow River flood of 11 CE triggered the famines and rebellions that ended his dynasty.",
+      "description": "The Xin ('New') dynasty (9-23 CE) was Wang Mang's fourteen-year experiment in governing China from Confucian first principles: he nationalized all land for redistribution, abolished private slavery, created state loan agencies, imposed price controls, and repeatedly reformed the currency. Every major reform collapsed — either immediately under aristocratic resistance or catastrophically when the Yellow River flooded in 11 CE and triggered famine.",
       "wikiSlug": "Xin_dynasty",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Why It Failed",
-          "text": "Wang Mang's reforms were technically sound in Confucian theory but practically disastrous. He lacked the administrative machinery to actually redistribute land — the same officials who owned the large estates were supposed to oversee their own dispossession. Land reform was announced, resisted, and quietly abandoned."
-        },
-        {
-          "label": "The Currency Disaster",
-          "text": "Wang Mang introduced five successive currency reforms in fifteen years, each devaluing existing currency and introducing new denominations. The result was commercial paralysis — merchants didn't know what money was worth from year to year. Barter returned in many areas. The merchant class was essentially destroyed."
-        },
-        {
-          "label": "The End",
-          "text": "The Red Eyebrow Rebellion and the Lulin Rebellion arose in the famine-struck regions. Liu Xiu, a Han prince, emerged from the chaos to rebuild the dynasty. When rebels entered Chang'an in 23 CE, Wang Mang barricaded himself in the palace with his astrologers, calculating which auspicious day to surrender. He ran out of time."
+          "label": "Explore further",
+          "text": "Wang Mang introduced at least twenty-eight currency denominations in five separate reforms over fifteen years, including spade-shaped and knife-shaped coins alongside traditional round cash — an attempt to revive ancient forms described in classical texts. Each reform destroyed commercial trust so thoroughly that barter returned to large parts of China; the merchant class was effectively annihilated. The Xin dynasty is treated by most later historians as an interregnum dividing Western Han from Eastern Han, not a legitimate dynasty in its own right."
         }
-      ]
+      ],
+      "commonsFile": "Xin_Dynasty.png"
     },
     {
       "id": "evt-han-red-eyebrow-rebellion",
       "label": "Red Eyebrow Rebellion",
       "year": 17,
       "endYear": 27,
-      "description": "The Red Eyebrows (Chimei) were a peasant rebel army that arose in Shandong during the famine conditions of Wang Mang's reign. They painted their eyebrows red to distinguish themselves in battle, grew to hundreds of thousands, sacked Chang'an in 25 CE, and were eventually defeated by Emperor Guangwu (Liu Xiu), the Eastern Han founder — but not before causing enormous destruction.",
+      "description": "The Red Eyebrow Rebellion (Chimei) was a massive peasant uprising that erupted in Shandong around 17 CE, driven entirely by famine rather than ideology — the rebels painted their eyebrows red simply to tell friend from foe in combat. At their peak they numbered in the hundreds of thousands; they sacked Chang'an in 25 CE and looted the Han imperial tombs, before Emperor Guangwu's army slowly starved them into surrender.",
       "wikiSlug": "Red_Eyebrow_Rebellion",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Origins",
-          "text": "The Red Eyebrows began as a local militia in Shandong organized by Fan Chong during the famines and floods of Wang Mang's reign. They grew rapidly as displaced farmers and starving peasants joined. The red eyebrows were a practical battlefield identifier — friend or foe was otherwise impossible to determine in the chaos."
-        },
-        {
-          "label": "The Sack of Chang'an",
-          "text": "The Red Eyebrows entered Chang'an in 25 CE, looting the tombs of Han emperors and destroying much of the city. They installed a puppet emperor — a descendant of Han — but had no administrative capacity and could not feed their own army in the ruined city. They abandoned Chang'an in 26 CE, carrying as much as they could."
-        },
-        {
-          "label": "Defeat",
-          "text": "Retreating westward with their loot and facing starvation, the Red Eyebrows met Emperor Guangwu (Liu Xiu)'s forces. Guangwu cut off their food supply and waited. The rebels, reduced to eating their own grain stores and then nothing, surrendered en masse. Their leaders were executed; the rank and file were demobilized. Guangwu then established the Eastern Han."
+          "label": "Explore further",
+          "text": "The Red Eyebrows had no political program; they briefly installed a Han imperial descendant as a puppet emperor, but this was a legitimacy move rather than a genuine restoration. Emperor Guangwu defeated them not by pitched battle but by cutting their supply lines and waiting — when they surrendered, he demobilized rather than executed the rank and file, resettling them as farmers in a deliberate act of post-war stabilization."
         }
-      ]
+      ],
+      "commonsFile": "Western_Han_soldiers_3.jpg"
     },
     {
       "id": "evt-han-emperor-guangwu",
       "label": "Emperor Guangwu (Liu Xiu)",
       "year": 25,
       "endYear": 57,
-      "description": "Emperor Guangwu (Liu Xiu) restored the Han dynasty after the chaos of Wang Mang's Xin dynasty and the subsequent civil wars. A Han prince who had fought his way to control of a fragmented empire over twelve years, he was renowned for leading campaigns personally while being equally skilled as an administrator — reducing taxes, reviving the Confucian institutions, and disbanding most of his army after victory.",
+      "description": "Emperor Guangwu (Liu Xiu) was a seventh-generation Han descendant who had been farming as a commoner when the Xin dynasty collapsed, and then fought twelve brutal years of civil war to restore the Han dynasty and found the Eastern Han in 25 CE. He is consistently ranked among the greatest Chinese emperors, matching battlefield brilliance with shrewd, patient peacetime governance.",
       "wikiSlug": "Emperor_Guangwu_of_Han",
       "tier": 1,
       "tags": [
@@ -1244,76 +932,55 @@
       ],
       "details": [
         {
-          "label": "Restoring the Han",
-          "text": "Liu Xiu spent twelve years (23–36 CE) reconquering China from dozens of warlords who had risen during the Xin chaos. Unlike Wang Mang, he was pragmatic: he accepted submissions, kept effective commanders regardless of their former allegiance, and moved his capital to Luoyang rather than trying to rebuild the ruined Chang'an."
-        },
-        {
-          "label": "The Demobilization",
-          "text": "After unification, Guangwu demobilized most of his army and rewarded his generals with noble titles and estates — but carefully kept them away from political power. He reportedly said he wanted his generals to be able to die of old age in their beds. Most did. It was the most successful post-war civil-military transition in Chinese history."
-        },
-        {
-          "label": "Governance",
-          "text": "Guangwu reduced taxes to one-thirtieth of the harvest, emancipated slaves freed from private bondage, and revived the Confucian examination system. He was personally interested in scholarly debates and sometimes held court discussions of classical texts. Eastern Han began as a genuine restoration — the Han model functioning again."
+          "label": "Explore further",
+          "text": "Guangwu famously told his generals after reunification that he wanted them all to die of old age in their beds — and most of them did, a deliberate demobilization policy unusual for a ruler who had just won a long civil war. He cut taxes to one-thirtieth of the harvest, emancipated slaves, and rebuilt the Imperial Academy in Luoyang, which eventually enrolled thirty thousand students."
         }
-      ]
+      ],
+      "commonsFile": "Han_Guangwu_Di.jpg"
     },
     {
       "id": "evt-han-luoyang-capital",
       "label": "Luoyang — Eastern Han Capital",
       "year": 25,
-      "description": "Emperor Guangwu (Liu Xiu) established Luoyang as the Eastern Han capital — the ancient Zhou capital that sat at the center of the North China Plain. Luoyang was rebuilt as an imperial city with its own palace complex, and under the Eastern Han became a center of scholarship, Buddhism, and trade that rivaled Western Han Chang'an.",
+      "description": "When Emperor Guangwu restored the Han dynasty in 25 CE, he chose Luoyang — an ancient Zhou dynasty capital at the confluence of the Luo and Yellow rivers in central China — as his new capital rather than attempt to rebuild the devastated, looted ruins of Chang'an. The choice was purely practical: better agricultural land, easier access to his eastern power base, and a city that hadn't been burned to the ground.",
       "wikiSlug": "Luoyang",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Why Luoyang",
-          "text": "Chang'an had been devastated during the civil wars — its palaces burned, its population scattered. Luoyang sat on better agricultural land with easier access to the eastern provinces where the Eastern Han power base lay. Emperor Guangwu chose it for practical military-logistical reasons, not cosmological ones."
-        },
-        {
-          "label": "The City",
-          "text": "Eastern Han Luoyang was built around two palace complexes — the Northern and Southern Palaces — connected by a covered walkway. The city had 12 gates and major markets. The Imperial Academy relocated there and grew to its peak enrollment of 30,000 students. The White Horse Temple, China's first Buddhist monastery, was established just outside its walls."
-        },
-        {
-          "label": "Destruction",
-          "text": "Luoyang was burned by the warlord Dong Zhuo in 190 CE when he forcibly relocated the imperial court west — he reportedly destroyed everything to prevent it from being a base for his enemies. The Eastern Han never recovered. The city that had been a center of civilization for 200 years was deliberately reduced to ruins."
+          "label": "Explore further",
+          "text": "Luoyang was built around two great palace complexes, the Northern and Southern Palaces, connected by a covered walkway, with twelve city gates and the relocated Imperial Academy. Under the Eastern Han it became a center of early Chinese Buddhism — the White Horse Temple, traditionally considered China's first Buddhist temple, was founded just outside the city around 68 CE."
         }
       ],
       "aliases": [
         "Luoyang"
-      ]
+      ],
+      "commonsFile": "20230124_Yingtian_Gate_at_Night_01.jpg"
     },
     {
       "id": "evt-han-trung-sisters-revolt",
       "label": "Trung Sisters' Revolt",
       "year": 40,
       "endYear": 43,
-      "description": "The Vietnamese sisters Trung Trac and Trung Nhi led a major revolt against Han rule in the commanderies of Jiaozhi (northern Vietnam), briefly liberating the region and establishing an independent Vietnamese state. They were suppressed by the Han general Ma Yuan in 43 CE but are remembered in Vietnam as the first national heroes — symbols of resistance to Chinese domination that resonate to the present day.",
+      "description": "Vietnamese sisters Trung Trac and Trung Nhi led a sweeping revolt against Han rule in 40 CE, reportedly liberating sixty-five cities and ruling an independent Vietnamese state for three years before Han general Ma Yuan suppressed the uprising; they drowned themselves rather than be captured.",
       "wikiSlug": "Trưng_sisters",
       "tier": 3,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "The Uprising",
-          "text": "Trung Trac's husband was executed by the Han commandery governor. She and her sister organized a revolt that swept through the commanderies in what is now northern Vietnam. Han accounts say they controlled 65 cities; Vietnamese tradition makes them queens of an independent state. The scale of the revolt clearly shocked the Han court."
-        },
-        {
-          "label": "The Suppression",
-          "text": "General Ma Yuan marched south with 20,000 soldiers and a fleet of ships. The terrain — jungle-covered mountains, river deltas — favored defenders. Ma Yuan's experience in difficult terrain and his patient, methodical approach overcame the advantage. The sisters were defeated in 43 CE and drowned in the Hat River rather than be captured."
-        },
-        {
-          "label": "The Legacy",
-          "text": "Vietnamese history treats the Trung Sisters as the first heroes of national resistance against Chinese rule. They appear on currency, in temples, and in school textbooks. The suppression of their revolt extended Han Confucian influence into Vietnam — but Vietnamese culture retained its distinct identity through 1,000 years of Han and later Chinese rule."
+          "label": "Explore further",
+          "text": "Trung Trac is recognized as the first female monarch in Vietnamese history and was posthumously titled Queen Trung in Vietnam's official dynastic annals. Today the sisters appear on Vietnamese currency, in temples dedicated to them across northern Vietnam, and in every school textbook — making them arguably the most consequential national symbols Vietnam produced during a thousand years of Chinese administration."
         }
-      ]
+      ],
+      "commonsFile": "Hai_Bà_Trưng_(tranh_Đông_Hồ).jpeg"
     },
     {
       "id": "evt-han-ma-yuan",
       "label": "Ma Yuan",
       "year": 43,
-      "description": "Ma Yuan was the Eastern Han general who suppressed the Trung Sisters' rebellion in Vietnam (43 CE) and extended Han control over the south. A veteran commander who served Emperor Guangwu through the reconquest, he famously said a soldier should die 'wrapped in a horse's hide' — on campaign, not in bed. He died in the field at 62, exactly as he had wished.",
+      "description": "Ma Yuan, the Eastern Han general who suppressed the Trung Sisters' revolt in 43 CE at age sixty, coined the Chinese idiom for dying on campaign — 'wrapped in horsehide on the frontier' — and then fulfilled his own words by dying on yet another expedition in 49 CE.",
       "wikiSlug": "Ma_Yuan_(Han_dynasty)",
       "tier": 3,
       "tags": [
@@ -1325,49 +992,35 @@
       ],
       "details": [
         {
-          "label": "The Trung Sisters",
-          "text": "In 40 CE, the sisters Trung Trac and Trung Nhi led a major Vietnamese rebellion against Han rule, reportedly liberating 65 cities. Ma Yuan led a force of 20,000 south to suppress it, navigating difficult jungle terrain that had defeated previous expeditions. He defeated the sisters in 43 CE; they drowned themselves rather than surrender. They remain Vietnamese national heroes."
-        },
-        {
-          "label": "The Famous Saying",
-          "text": "When friends urged the 60-year-old Ma Yuan to take a comfortable retirement, he replied: 'A man's aim is to die in the saddle, wrapped in horsehide on the frontier — how can I just lie down on a bed to die surrounded by wives and children?' He died on campaign in 49 CE, still in command. The phrase 'wrapped in horsehide' became a Chinese idiom for a soldier's death."
-        },
-        {
-          "label": "The Bronze Horses",
-          "text": "Ma Yuan brought back Ferghana horses from a western campaign, presenting them to Emperor Guangwu as tribute. He cast a set of bronze horses as models for the army's breeding program. The Han obsession with Ferghana 'heavenly horses' — which they believed sweated blood — drove some of Emperor Wu's Central Asian campaigns."
+          "label": "Explore further",
+          "text": "Ma Yuan's official title was Fubo Jiangjun ('General Who Calms the Waves'), a name that outlasted him: Fubo Mountain (伏波山) in present-day Guangxi was named in his honor and still carries the name today. His Vietnam campaign also spread Han material culture southward, with bronze drum styles traceable through Southeast Asian archaeological sites. He had served Emperor Guangwu from the original reconquest of the empire, making his career one of the longest continuous military records of the early Eastern Han."
         }
-      ]
+      ],
+      "commonsFile": "FuBoTemple_ZhuZhou_HuNan_Frnt_20080815.jpg"
     },
     {
       "id": "evt-han-emperor-ming",
       "label": "Emperor Ming",
       "year": 57,
       "endYear": 75,
-      "description": "Emperor Ming of Eastern Han is traditionally credited with formally introducing Buddhism to China after dreaming of a golden man in the west. He sent envoys to India who returned with Buddhist scriptures and monks, establishing the White Horse Temple near Luoyang — China's first Buddhist monastery. His reign also saw the reestablishment of the Western Regions Protectorate under the general Ban Chao's father.",
+      "description": "Emperor Ming (r. 57–75 CE), second ruler of the Eastern Han, maintained his father Guangwu's restrained style and became the first emperor to formally patronize Buddhism in China — a reign that set the template for how the dynasty managed both frontier policy and new foreign ideas.",
       "wikiSlug": "Emperor_Ming_of_Han",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "The Dream",
-          "text": "The traditional account: Emperor Ming dreamed of a golden man 6 meters tall with light radiating from his head. A court scholar identified this as the Buddha of India. The emperor sent eighteen envoys west; they returned with two Indian monks, scriptures loaded on white horses, and Buddha images. The White Horse Temple was built to house them."
-        },
-        {
-          "label": "Historical Reality",
-          "text": "Buddhism had probably entered China gradually through Silk Road contacts before Emperor Ming's reign. The 'dream' story is likely a later legend providing an authoritative founding moment. But Emperor Ming's reign does mark the first documented imperial patronage of Buddhism in China — the beginning of its official history."
-        },
-        {
-          "label": "Governance",
-          "text": "Emperor Ming was an effective ruler who continued his father Guangwu's frugal style, maintained military strength, and kept the court factions under control. His reign is remembered as one of Eastern Han's most stable periods. The decline that would eventually destroy the dynasty had not yet begun."
+          "label": "Explore further",
+          "text": "Despite the famous 'golden man' dream story, Ming maintained a frugal court and cut palace expenses. His reign also saw Ban Chao's first Central Asian operation (73 CE), reopening Han influence over the Silk Road oasis states. The emperor personally reviewed Ban Gu's confiscated manuscripts and, finding them excellent, appointed him official court historian rather than punishing him — a rare case of imperial connoisseurship overriding legal protocol."
         }
-      ]
+      ],
+      "commonsFile": "Liu_Zhuang_(Emperor_Ming_of_Han).png"
     },
     {
       "id": "evt-han-ban-gu",
       "label": "Ban Gu",
       "year": 58,
-      "description": "Ban Gu was the historian who compiled the Book of Han (Han Shu) — the first of China's official dynastic histories and the model for the 23 that followed. He was imprisoned for privately revising state historical records without authorization, then pardoned and appointed to complete the project officially. He died in prison during a political crisis before finishing; his sister Ban Zhao completed the final chapters.",
+      "description": "Ban Gu (32–92 CE) was the Eastern Han court historian who invented the dynastic history format with his Book of Han — limiting historical coverage to a single dynasty for the first time and creating the template that China's next twenty-three official histories would follow over the next two millennia.",
       "wikiSlug": "Ban_Gu",
       "tier": 2,
       "tags": [
@@ -1379,51 +1032,37 @@
       ],
       "details": [
         {
-          "label": "The Book of Han",
-          "text": "The Han Shu covered the Western Han dynasty (206 BCE – 23 CE) in 100 chapters, following Sima Qian's format but limiting its scope to a single dynasty. This 'dynastic history' model — one dynasty per history — became the standard. The government sponsored its completion, establishing the precedent that each dynasty would commission a history of its predecessor."
-        },
-        {
-          "label": "The Arrest",
-          "text": "Ban Gu began revising his father's historical notes privately. A neighbor reported him for privately tampering with state history — a serious offense implying private political agenda. He was arrested, imprisoned, and his manuscripts confiscated. Emperor Ming reviewed the manuscripts, found them excellent, and appointed Ban Gu as official court historian to continue."
-        },
-        {
-          "label": "The End",
-          "text": "Ban Gu attached himself to the general Dou Xian, who defeated the Northern Xiongnu in 89 CE. When Dou Xian was subsequently arrested and forced to commit suicide in a palace coup, Ban Gu was imprisoned as a member of his faction. He died in prison in 92 CE, his work unfinished."
+          "label": "Explore further",
+          "text": "Ban Gu was arrested early in his career for privately revising state historical records without authorization — implying a private political agenda — but Emperor Ming read the confiscated manuscripts, found them excellent, and appointed him court historian instead of punishing him. He attached himself to General Dou Xian's faction and was imprisoned when Dou Xian was purged in a palace coup in 92 CE, dying before he could finish the book. His unfinished astronomical treatises were completed by his sister Ban Zhao, who required specialized mathematical knowledge no one else at court possessed."
         }
-      ]
+      ],
+      "commonsFile": "Ban_Gu.jpg"
     },
     {
       "id": "evt-han-buddhism-arrives",
       "label": "Buddhism Arrives in China",
       "year": 67,
-      "description": "The White Horse Temple (Baima Si) was established near Luoyang in 67 CE — China's first Buddhist monastery, traditionally founded to house the monks and scriptures Emperor Ming's envoys brought from India. Over the next two centuries, Buddhism would transform from an exotic foreign curiosity into one of China's three great religions, eventually spreading to Korea, Japan, and Vietnam.",
+      "description": "The White Horse Temple (Baima Si), established near Luoyang around 67–68 CE under Emperor Ming's patronage, is traditionally China's first Buddhist monastery — built to house two Indian monks and the Sanskrit scriptures they carried back from the subcontinent on white horses.",
       "wikiSlug": "White_Horse_Temple",
       "tier": 1,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "The First Translation",
-          "text": "The Indian monks Kasyapa Matanga and Dharmaratna, housed at the White Horse Temple, began the monumental task of translating Sanskrit Buddhist sutras into Chinese. This translation work would occupy thousands of scholars for centuries and is one of the largest translation projects in human history."
-        },
-        {
-          "label": "Cultural Adaptation",
-          "text": "Chinese Buddhism adapted its new religion immediately. Buddhist concepts were translated using Daoist vocabulary — nirvana became 'non-action,' dharma became 'the Way.' This translation strategy made Buddhism comprehensible to Chinese audiences but also subtly changed what they received. Chinese Buddhism became a distinct form of the religion."
-        },
-        {
-          "label": "Long-Term Impact",
-          "text": "Buddhism's arrival reshaped Chinese civilization. It introduced new art forms (the Buddha image, the pagoda, cave temple painting), new institutions (the monastery), new philosophy (the nature of mind, karma, rebirth), and a new social role (the professional clergy). No foreign religion before or since transformed China more profoundly."
+          "label": "Explore further",
+          "text": "The two monks housed there, Kasyapa Matanga and Dharmaratna, began translating Sanskrit sutras into Chinese using Daoist vocabulary: nirvana became 'non-action' (wuwei) and dharma became 'the Way' (dao), subtly reshaping the religion from its first contact with China. The temple still operates as an active Buddhist monastery today, nearly 2,000 years later. Its name comes directly from the white horses that legend says carried the scriptures on that founding journey."
         }
       ],
       "aliases": [
         "White Horse Temple"
-      ]
+      ],
+      "commonsFile": "27471-Luoyang,_White_Horse_Temple.jpg"
     },
     {
       "id": "evt-han-ban-chao",
       "label": "Ban Chao",
       "year": 73,
-      "description": "Ban Chao, brother of Ban Gu, was the general who reconquered the Western Regions for Eastern Han, effectively rebuilding the Silk Road network after its loss during the Xin interregnum. He spent 31 years in Central Asia with a tiny force — never more than a few thousand men — defeating local opposition through audacious diplomacy and targeted violence, securing over 50 kingdoms' submission.",
+      "description": "Ban Chao was the scholar-turned-soldier who spent thirty-one years (73–102 CE) reconquering the Western Regions (Central Asia's Silk Road oasis states) for the Eastern Han with never more than a few thousand men, using audacity, diplomacy, and precise violence where a conventional general would have needed an army.",
       "wikiSlug": "Ban_Chao",
       "tier": 2,
       "tags": [
@@ -1435,24 +1074,17 @@
       ],
       "details": [
         {
-          "label": "The Gambler",
-          "text": "Ban Chao began his Central Asian career with 36 men. When a Xiongnu mission arrived at his host's court to pull them away from Han alliance, Ban Chao convened his men: 'We must strike the Xiongnu tonight.' They attacked the Xiongnu camp, killed everyone, and presented the heads to their host — who immediately committed to the Han. 'Nothing ventured, nothing gained' became his motto."
-        },
-        {
-          "label": "31 Years in the West",
-          "text": "Ban Chao operated in Central Asia from 73 to 102 CE, gradually extending Han influence from oasis to oasis. He never had enough troops to conquer directly, so he worked through local rulers, played factions against each other, and struck quickly when opportunity appeared. He reached the edge of Parthia and reportedly sent an envoy toward Rome — who turned back when Parthian merchants explained how far it was."
-        },
-        {
-          "label": "The Return",
-          "text": "At 71, Ban Chao petitioned to come home. His petition — describing his longing to die within the Han frontier rather than in Central Asia — moved the court. He was recalled in 102 CE, died in Luoyang within a month of arrival. His son Ban Yong continued his work in the Western Regions."
+          "label": "Explore further",
+          "text": "Ban Chao's career began with just thirty-six men: when a Xiongnu delegation threatened to flip his host city-state away from the Han alliance, he attacked their camp at night, killed everyone, and presented the heads — an act so decisive it secured the alliance without a battle. He ultimately secured submission from over fifty city-states and was appointed Protector General of the Western Regions, the highest Han office in Central Asia. His envoy Gan Ying reached the Persian Gulf in 97 CE in history's first recorded Chinese attempt to establish direct contact with Rome — turned back by Parthian merchants who didn't want China cutting out the middleman."
         }
-      ]
+      ],
+      "commonsFile": "Ban_Biao_family_tree.png"
     },
     {
       "id": "evt-han-wang-chong",
       "label": "Wang Chong",
       "year": 80,
-      "description": "Wang Chong was the Eastern Han philosopher and skeptic who wrote the Lunheng ('Balanced Inquiries'), a systematic critique of superstition, false learning, and conventional wisdom. He argued that natural events have natural causes, that ghosts do not exist, that the emperor is not the pivot of the cosmos, and that received texts must be questioned against evidence — extraordinarily rational positions for any ancient culture.",
+      "description": "Wang Chong (c. 27–100 CE) was the Eastern Han philosopher who wrote the Lunheng (\"Balanced Inquiries\"), a systematic demolition of superstition and received authority — arguing that natural events have natural causes, ghosts do not exist, and the \"portents\" court scholars read into floods and droughts were meaningless coincidences.",
       "wikiSlug": "Wang_Chong",
       "tier": 3,
       "tags": [
@@ -1464,16 +1096,8 @@
       ],
       "details": [
         {
-          "label": "The Skeptic",
-          "text": "Wang Chong argued systematically against the belief that natural disasters were Heaven's messages about imperial behavior. He pointed out that floods and droughts happen in remote areas with no political significance, that virtuous rulers are not protected from earthquakes, and that the 'portents' scholars interpret after disasters could be interpreted to mean anything."
-        },
-        {
-          "label": "Against Authority",
-          "text": "The Lunheng challenged Confucian orthodoxy directly: 'If Confucius said it, we should examine whether it is true.' Wang Chong rejected the idea that ancient texts were automatically correct. He tested claims against observation. In a civilization built on reverence for ancient authority, this was a genuinely radical position."
-        },
-        {
-          "label": "Obscure in His Time",
-          "text": "Wang Chong was largely ignored during his lifetime. He died in obscurity, noting bitterly that books not yet famous have no value. His Lunheng survived and was rediscovered in later centuries — he is now celebrated as China's first scientific rationalist. His chapter on lightning correctly deduces it is a natural electrical discharge, not divine punishment."
+          "label": "Explore further",
+          "text": "Wang Chong accurately described the water cycle (evaporation, clouds, rain) as a purely natural process, and was the first Chinese writer to mention the square-pallet chain pump, which became a standard irrigation tool. His chapter on lightning correctly identified it as a natural electrical discharge rather than divine punishment — a deduction seventeen centuries ahead of its widespread acceptance. He died in obscurity; the Lunheng was largely ignored in his lifetime and only celebrated in later centuries."
         }
       ]
     },
@@ -1482,47 +1106,32 @@
       "label": "Emperor He",
       "year": 88,
       "endYear": 106,
-      "description": "Emperor He of Eastern Han came to power at age 10 under the domination of Empress Dowager Dou and her brother General Dou Xian. At 17, Emperor He orchestrated a palace coup using eunuchs as his tools — arresting Dou Xian and eliminating his family. The irony: by using eunuchs to escape domination by one powerful family, he established eunuch power as a permanent feature of the Eastern Han court.",
+      "description": "Emperor He (r. 88–106 CE) came to power at age ten under the domination of Empress Dowager Dou and her family, then at seventeen orchestrated a palace coup using eunuchs to overthrow them — a move that saved his throne but permanently installed eunuch power as a structural force in Eastern Han politics.",
       "wikiSlug": "Emperor_He_of_Han",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "The Coup",
-          "text": "At 17, Emperor He coordinated secretly with trusted eunuchs to seize the palace seals and issue imperial orders while Dou Xian was away from Luoyang. When Dou Xian returned, he found himself stripped of power by a teenager who had used the palace staff — eunuchs with access to every room — to outmaneuver him."
-        },
-        {
-          "label": "The Eunuch Problem",
-          "text": "By relying on eunuchs to escape the Dou family's domination, Emperor He elevated them to political significance they had never held before. The eunuch faction and the Confucian scholar-official faction became permanent competing powers at the Eastern Han court — a structural instability that no subsequent emperor successfully resolved."
-        },
-        {
-          "label": "Cai Lun's Paper",
-          "text": "Emperor He's reign (88–106 CE) saw Cai Lun's report on improved papermaking in 105 CE — one of the most consequential technological reports in human history. He ordered it implemented empire-wide. The paper Cai Lun standardized spread from China to the Islamic world to Europe over the next thousand years."
+          "label": "Explore further",
+          "text": "His reign coincided with two of the dynasty's greatest achievements: Cai Lun presented standardized paper in 105 CE, and Dou Xian (before his fall) crushed the Northern Xiongnu in 89 CE. The structural trap Emperor He set proved lethal for the dynasty: every subsequent Eastern Han emperor who faced domination by a powerful family reached for eunuchs as a counterweight, and the resulting eunuch-versus-scholar-officials factional war destabilized every reign until the dynasty's collapse in 220 CE."
         }
-      ]
+      ],
+      "commonsFile": "Emperor_He_of_Han_(cropped).png"
     },
     {
       "id": "evt-han-dou-xian-northern-xiongnu",
       "label": "Defeat of Northern Xiongnu",
       "year": 89,
-      "description": "The Han general Dou Xian led a massive expedition of Han and allied Xiongnu forces into the Gobi, defeating the Northern Xiongnu at the Battle of Ikh Bayan and driving them beyond the Altai Mountains. Dou Xian climbed Wolf Xu Mountain — the same peak Wei Qing had reached 208 years earlier — and inscribed a victory stele. It was the last great Han military triumph on the steppe.",
+      "description": "In 89 CE, Han general Dou Xian led a massive joint force of Han and allied Southern Xiongnu troops into the Gobi Desert, crushing the Northern Xiongnu at the Battle of Ikh Bayan and driving them beyond the Altai Mountains — ending two centuries of Han-Xiongnu conflict.",
       "wikiSlug": "Dou_Xian",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "The Campaign",
-          "text": "Dou Xian assembled a force of Han cavalry and southern Xiongnu allies — the Xiongnu who had submitted and were settled within Han frontiers. The northern Xiongnu, weakened by years of drought and internal division, were caught at Ikh Bayan and routed. Dou Xian pursued them 3,000 li into the steppe."
-        },
-        {
-          "label": "Consequences for the Steppe",
-          "text": "The Northern Xiongnu driven beyond the Altai eventually moved west — into the areas that would become the Roman Empire's eastern threat zone. Whether the Huns who attacked Rome centuries later were descendants of these Xiongnu is debated by scholars. But the connection between Han military success and Roman catastrophe is plausible."
-        },
-        {
-          "label": "Dou Xian's Fall",
-          "text": "Dou Xian returned from his triumph to find himself politically vulnerable. Emperor He's eunuch allies had turned the young emperor against him. Dou Xian was arrested and forced to commit suicide in 92 CE — the same year Han Gu died in prison as a member of his faction. Military triumph was no protection against court politics."
+          "label": "Explore further",
+          "text": "After the victory, Dou Xian climbed Wolf Xu Mountain — the same peak where Han general Wei Qing had celebrated a steppe victory 208 years earlier — and had a victory stele inscribed on it, a deliberate invocation of dynastic memory. The Northern Xiongnu then vanished from Chinese records entirely; scholars debate whether their westward displacement contributed, centuries later, to the Hunnic invasions that struck the Roman Empire. Dou Xian was arrested and forced to commit suicide just three years after his triumph, a casualty of Emperor He's palace coup."
         }
       ]
     },
@@ -1530,7 +1139,7 @@
       "id": "evt-han-ban-zhao",
       "label": "Ban Zhao",
       "year": 92,
-      "description": "Ban Zhao was the scholar who completed the Book of Han after her brother Ban Gu's death in prison. The first Chinese woman to hold an official court historian position, she was also a teacher of empresses and concubines, a mathematician, and the author of Lessons for Women (Nüjie) — the most influential text on female conduct in Chinese history.",
+      "description": "Ban Zhao (c. 45–116 CE) completed the Book of Han after her brother Ban Gu's death, becoming the only woman to serve as author of one of China's official dynastic histories — while simultaneously writing Nüjie ('Lessons for Women'), which prescribed female silence and deference for two thousand years.",
       "wikiSlug": "Ban_Zhao",
       "tier": 2,
       "tags": [
@@ -1542,24 +1151,17 @@
       ],
       "details": [
         {
-          "label": "Completing the History",
-          "text": "Emperor He summoned Ban Zhao to the palace library after Ban Gu's death to complete the unfinished chapters of the Han Shu — especially the astronomical treatises that required specialized knowledge. She finished the project, becoming the only woman to contribute as an author to one of China's official dynastic histories."
-        },
-        {
-          "label": "Lessons for Women",
-          "text": "Ban Zhao wrote Nüjie (Lessons for Women) supposedly for her daughters but as a general guide for female conduct. It stressed humility, devotion to husband and in-laws, and the virtue of silence. For 2,000 years it defined the ideal of Chinese womanhood — though Ban Zhao herself was conspicuously learned, opinionated, and politically active."
-        },
-        {
-          "label": "The Contradiction",
-          "text": "Ban Zhao's life contradicts her text. She argued women should defer to men in all things, yet she held an official court position, taught the empress and concubines classical texts, and advised on state matters. Her actual life was one of profound public influence — even as she prescribed the opposite for other women."
+          "label": "Explore further",
+          "text": "Ban Zhao was summoned to the palace library specifically because the unfinished astronomical treatises required advanced mathematical knowledge that no one else at court had. She became a teacher of empresses and imperial concubines and was consulted on matters of state policy — a level of public influence that directly contradicted the norms she prescribed in Nüjie. The contradiction defined her legacy: China's most influential text on female submission was written by the most publicly powerful woman of the Eastern Han."
         }
-      ]
+      ],
+      "commonsFile": "Ban_Zhao_-_Wushuang_Pu_(pref_1690,_1961).jpg"
     },
     {
       "id": "evt-han-cai-lun-paper",
       "label": "Cai Lun — Paper Invention",
       "year": 105,
-      "description": "Cai Lun was the Eastern Han court official who standardized and reported on paper manufacture in 105 CE. Though paper existed before him, Cai Lun's formula — using tree bark, hemp, rags, and fishing nets rather than expensive silk — made paper cheap enough for mass use. His report to Emperor He led to empire-wide adoption. Paper reached the Islamic world by the 8th century and Europe by the 12th.",
+      "description": "Cai Lun was the Eastern Han court eunuch who standardized paper manufacture and reported on it to Emperor He in 105 CE — not the original inventor, but the man who figured out how to make paper cheaply from waste materials (tree bark, hemp rope offcuts, old rags, fishing nets), transforming it from a luxury into a mass commodity.",
       "wikiSlug": "Cai_Lun",
       "tier": 1,
       "tags": [
@@ -1572,24 +1174,17 @@
       ],
       "details": [
         {
-          "label": "The Innovation",
-          "text": "Paper existed before Cai Lun — archaeologists have found Han paper from the 2nd century BCE. But earlier paper was expensive and inconsistent. Cai Lun's contribution was systematizing a recipe using cheap, abundant materials: tree bark, hemp rope offcuts, old rags, worn fishing nets — essentially waste materials — to produce smooth, consistent writing surfaces."
-        },
-        {
-          "label": "The Report",
-          "text": "In 105 CE, Cai Lun presented paper to Emperor He with a demonstration of its qualities. The emperor was delighted and ordered the technique spread throughout the empire. Paper quickly replaced bamboo strips and silk as the standard writing material — bamboo was heavy and bulky, silk prohibitively expensive. Paper democratized writing."
-        },
-        {
-          "label": "Global Spread",
-          "text": "Paper technology traveled west via the Silk Road. Arab armies captured Chinese papermakers at the Battle of Talas in 751 CE, and paper mills spread through the Islamic world. Europeans encountered paper through Islamic contact in the 12th century. By the 15th century, paper and Gutenberg's press together made mass literacy possible throughout the world."
+          "label": "Explore further",
+          "text": "Paper actually existed in China since at least the 3rd century BCE, but earlier versions were expensive and inconsistent; Cai Lun's contribution was a systematic, scalable recipe using materials that were abundant and free. The global consequences unfolded over seven centuries: Arab armies captured Chinese papermakers at the Battle of Talas (751 CE), spreading paper mills through the Islamic world; Europeans encountered paper via Islamic contact in the 12th century; and Gutenberg's printing press in the 15th century combined with paper to make mass literacy possible worldwide — all downstream of Cai Lun's bark-and-fishing-net formula."
         }
-      ]
+      ],
+      "commonsFile": "Cai-lun.jpg"
     },
     {
       "id": "evt-han-book-of-han",
       "label": "Book of Han",
       "year": 111,
-      "description": "The Han Shu (Book of Han), compiled by Ban Gu and completed by his sister Ban Zhao, was the second great Chinese dynastic history and the first to cover a single dynasty rather than all of history. Its 100 chapters covering the Western Han (206 BCE – 23 CE) established the 'dynastic history' format: henceforth each dynasty would commission a history of its predecessor, ultimately producing China's 24 official histories.",
+      "description": "The Book of Han (Han Shu), completed around 111 CE, covers the entire Western Han dynasty (206 BCE–23 CE) in 100 chapters and established the precedent that each new dynasty would commission an official history of its predecessor — turning historical scholarship into a permanent tool of political legitimacy.",
       "wikiSlug": "Book_of_Han",
       "tier": 2,
       "tags": [],
@@ -1599,24 +1194,17 @@
       ],
       "details": [
         {
-          "label": "Innovation",
-          "text": "The Han Shu introduced treatises not found in the Shiji — on geography, administrative geography, criminal law, and a bibliography listing some 677 works. Its bibliographic chapter is the most complete inventory of early Chinese literature in existence, allowing scholars to know what texts existed even when the originals were lost."
-        },
-        {
-          "label": "The Model",
-          "text": "The Han Shu established that official history covers one dynasty only — beginning with its founding and ending with its fall. This 'dynastic history' format replaced Sima Qian's universal history. The government would sponsor each history, giving the court control over how the previous dynasty was remembered — a profound political tool."
-        },
-        {
-          "label": "Literary Quality",
-          "text": "Like the Shiji, the Han Shu is valued as literature as well as history. Ban Gu's biographies of figures like Wang Mang (whom he treats with measured sympathy despite condemning his usurpation) are models of nuanced historical portraiture. The text is still read in Chinese universities today."
+          "label": "Explore further",
+          "text": "The book's 100 chapters are divided into annals, tables, treatises, and biographies — a four-part structure modeled on Sima Qian's Records of the Grand Historian but applied for the first time to a single dynasty. For many topics in Western Han history, including most of its literature, the Book of Han is the only surviving source. Three generations of the Ban family worked on it: Ban Biao began it, Ban Gu compiled the core, and Ban Zhao completed the sections requiring advanced mathematics after her brother's death."
         }
-      ]
+      ],
+      "commonsFile": "Ming_Dynasty_wood_carving_books_in_Tian_Yi_Chamber_colllection.jpg"
     },
     {
       "id": "evt-han-zhang-heng",
       "label": "Zhang Heng",
       "year": 132,
-      "description": "Zhang Heng was the Han polymath who invented the world's first seismograph (132 CE), built the first water-powered armillary sphere, calculated pi to 3.1466, wrote influential poetry, and mapped 2,500 stars. Court Astronomer twice under three emperors, he embodied the Han ideal of the universal scholar — equally at home in astronomy, mathematics, mechanics, geography, and literature.",
+      "description": "Zhang Heng (78–139 CE) was the Eastern Han polymath who served as Court Astronomer under three emperors, mapped 2,500 stars, built the first water-powered armillary sphere, calculated pi to the equivalent of 3.1466, and invented the world's first seismograph — a figure so versatile his contemporaries compared him to ancient sages.",
       "wikiSlug": "Zhang_Heng",
       "tier": 2,
       "tags": [
@@ -1629,72 +1217,51 @@
       ],
       "details": [
         {
-          "label": "The Seismograph",
-          "text": "Zhang Heng's houfeng didong yi (instrument for measuring the seasonal winds and earth movements) was a bronze vessel 1.8 meters across, decorated with dragons and toads. When an earthquake occurred, a pendulum inside swung toward the direction of the quake, releasing a ball from a dragon's mouth into a toad's mouth below — indicating direction."
-        },
-        {
-          "label": "The Proof",
-          "text": "Zhang Heng detected a distant earthquake in 132 CE that no one in Luoyang had felt. The court mocked him. Days later, messengers arrived reporting a quake in Gansu — in exactly the direction his instrument had indicated. The device worked by detecting P-waves — the primary seismic waves that travel faster than the destructive S-waves humans feel."
-        },
-        {
-          "label": "Other Achievements",
-          "text": "Zhang Heng described the moon as reflecting sunlight rather than generating its own light, proposed the universe was infinite, built a water-powered rotating celestial globe that matched actual star movements, wrote two long fu (prose-poems) describing Chang'an and Luoyang that are major literary works, and drew the first systematic grid map of China."
+          "label": "Explore further",
+          "text": "Zhang Heng proposed that the universe was infinite in extent and that the moon shone by reflecting sunlight rather than generating its own light — correct on both counts and well ahead of Western astronomy on the second. He also wrote fu (rhapsody) poetry considered among the finest of the Han period. A crater on the moon is now named after him, and the Chinese government designated his tomb a national cultural heritage site."
         }
-      ]
+      ],
+      "commonsFile": "20251004_Tomb_of_Zhang_Heng_03.jpg"
     },
     {
       "id": "evt-han-seismograph",
       "label": "Seismograph Invented",
       "year": 132,
-      "description": "Zhang Heng presented his seismoscope — the world's first earthquake detection device — to the court of Emperor Shun in 132 CE. The bronze instrument used a pendulum mechanism to detect distant seismic waves and indicate the direction of the earthquake. It worked at ranges up to 500 km, detecting seismic events the human body could not feel.",
+      "description": "Zhang Heng presented his houfeng didong yi (seismoscope) to the court of Emperor Shun in 132 CE — the world's first earthquake-detection device, a bronze vessel roughly six feet (1.8 meters) across fitted with eight dragon heads whose falling balls indicated the direction of a distant quake days before any human messenger could arrive.",
       "wikiSlug": "Zhang_Heng#Seismoscope",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "How It Worked",
-          "text": "Inside the decorated bronze urn, a central pendulum was suspended. Seismic P-waves — the fastest-traveling earthquake waves — would cause the pendulum to swing in the direction of the quake. The swing released a bronze ball from one of eight dragon-head openings into the corresponding toad's mouth, indicating the direction."
-        },
-        {
-          "label": "Scientific Significance",
-          "text": "Modern seismologists have confirmed the basic principle is sound: pendulum-based seismometers can detect P-waves before the destructive S-waves arrive. Zhang Heng was 1,700 years ahead of European seismology. The next seismograph comparable in sophistication wasn't built until the 1880s CE."
-        },
-        {
-          "label": "Practical Value",
-          "text": "In Han China, knowing the direction of an earthquake allowed the court to mobilize relief before local officials could send messengers. It was a genuinely useful early-warning system. Emperor He's court used it for at least the 7 years Zhang Heng served as Court Astronomer before his second appointment."
+          "label": "Explore further",
+          "text": "The instrument worked by detecting seismic P-waves (the fastest-traveling earthquake waves) via a central pendulum — the same physical principle used in modern seismographs — which is why it could register quakes the human body in Luoyang could not feel at all. When the device triggered with no felt shaking, the court mocked Zhang Heng; days later, messengers arrived from Gansu confirming a major earthquake roughly 300 miles (500 km) to the west, exactly the direction indicated. No comparably sophisticated seismograph was built anywhere in the world until European instruments appeared in the 1880s, a gap of about 1,750 years."
         }
-      ]
+      ],
+      "commonsFile": "Antique_Chinese_seismograph.jpg"
     },
     {
       "id": "evt-han-daoism-celestial-masters",
       "label": "Celestial Masters Daoism Founded",
       "year": 142,
-      "description": "Zhang Daoling founded the Celestial Masters school of religious Daoism in Sichuan in 142 CE, claiming a direct revelation from the deified Laozi. The movement organized followers into 24 parishes, offered healing rituals, and created the first Daoist institutional church — complete with clergy, sacraments, and texts. It was the direct ancestor of organized Daoism as a religion.",
+      "description": "Zhang Daoling founded the Celestial Masters (Tianshi Dao) school of organized Daoism in Sichuan in 142 CE, claiming a direct revelation from the deified Laozi and building China's first religion with a formal institutional structure — parishes, clergy, sacraments, and a hereditary leadership that his own family held for nearly two thousand years.",
       "wikiSlug": "Celestial_Masters",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "The Revelation",
-          "text": "Zhang Daoling claimed the deified Laozi appeared to him on Crane-Cry Mountain in Sichuan and gave him a new covenant replacing the 'six heavens' of popular religion with a new dispensation. Followers who accepted the covenant and paid a ritual fee of five pecks of rice — giving the movement its nickname 'Five Pecks of Rice Daoism' — received healing and protection."
-        },
-        {
-          "label": "Institutional Religion",
-          "text": "Zhang Daoling organized the Celestial Masters movement into 24 administrative parishes mirroring the Han county system. Each parish had a clergy responsible for healing, confession, and ritual. It was the first time Chinese religion had a formal institutional structure rather than being temple-by-temple or master-by-student."
-        },
-        {
-          "label": "Political Consequences",
-          "text": "Zhang Daoling's grandson Zhang Lu established an independent theocratic state in Sichuan and Hanzhong during the Eastern Han collapse (184–215 CE). The Celestial Masters state provided a model for later religious states and survived as a religious institution — the Zhang family papacy of Daoism — until the 20th century."
+          "label": "Explore further",
+          "text": "Followers paid a ritual fee of five pecks of rice per year — earning the movement its nickname \"Five Pecks of Rice Daoism\" — and in return received healing, protection, and a place in the parish system. The movement's twenty-four parishes deliberately mirrored Han county administration, making organized religion a parallel government. Zhang Daoling's grandson Zhang Lu would actually govern an independent theocratic state in Sichuan and Hanzhong during the Han collapse, proving the model could replace imperial rule entirely."
         }
-      ]
+      ],
+      "commonsFile": "Zhang_Daoling.jpg"
     },
     {
       "id": "evt-han-zheng-xuan",
       "label": "Zheng Xuan",
       "year": 160,
-      "description": "Zheng Xuan was the greatest classical scholar of the Eastern Han — the man who synthesized the competing 'Old Text' and 'New Text' schools of Confucian textual interpretation into a unified commentary tradition. His annotations on the Five Classics and Three Rites became authoritative for subsequent centuries, making him the most influential textual scholar in Chinese history.",
+      "description": "Zheng Xuan (127–200 CE) was the greatest classical scholar of the Eastern Han, the man who finally resolved three centuries of bitter Confucian debate by studying both the Old Text and New Text schools and writing commentaries so authoritative that subsequent scholars largely worked within his framework.",
       "wikiSlug": "Zheng_Xuan",
       "tier": 3,
       "tags": [
@@ -1706,53 +1273,39 @@
       ],
       "details": [
         {
-          "label": "The Synthesizer",
-          "text": "The Han Confucian world was divided between the 'New Text' school (using texts in standard Han script, recovered from memory after the Qin burning) and the 'Old Text' school (using texts in archaic script, allegedly found in Confucius's house wall). The dispute was partly textual, partly political. Zheng Xuan studied both traditions and wrote commentaries that drew on each, effectively ending the debate."
-        },
-        {
-          "label": "Scope of Work",
-          "text": "Zheng Xuan commented on virtually the entire classical canon — the Three Rites, the Five Classics, the Analects, and dozens of other texts. His commentaries were so comprehensive and authoritative that subsequent scholars largely worked within his framework rather than challenging it. The Tang dynasty made his versions the official texts for the imperial examinations."
-        },
-        {
-          "label": "The Student",
-          "text": "Zheng Xuan studied under the great Ma Rong, who reportedly lectured from behind a curtain — students were not permitted to see him directly — with female musicians playing in the background. Zheng Xuan reportedly never looked up from his texts to look at the musicians. He left Ma Rong's school after three years; Ma Rong said: 'The learning has gone east' — meaning his greatest student had left."
+          "label": "Explore further",
+          "text": "Zheng Xuan's synthesis was adopted by the Tang dynasty as the official textual standard for the imperial examinations, meaning the entire Chinese educated class was trained on his readings for centuries. He annotated virtually every major classical text in the Chinese canon, an output so vast it defined what \"knowing the classics\" meant for a thousand years. When he left his teacher Ma Rong's school after three years of study — never once looking up from his texts while Ma Rong lectured from behind a curtain with musicians playing — Ma Rong said simply: \"The learning has gone east.\""
         }
-      ]
+      ],
+      "commonsFile": "至聖先賢半身像_冊-100-鄭玄.jpg"
     },
     {
       "id": "evt-han-yellow-turban-rebellion",
       "label": "Yellow Turban Rebellion",
       "year": 184,
       "endYear": 185,
-      "description": "The Yellow Turban Rebellion was a massive Daoist religious uprising that broke out simultaneously across eight Han provinces in 184 CE under the slogan 'The azure heaven is dead; the yellow heaven shall rise.' Led by the healer Zhang Jue and his brothers, it mobilized hundreds of thousands of followers before being suppressed — but not before permanently shattering Han authority and empowering the warlords who would end the dynasty.",
+      "description": "A religious uprising that exploded simultaneously across eight Han provinces in 184 CE, organized by the healer-prophet Zhang Jue around a theology promising cosmic renewal — yellow over azure, justice over corruption. The court crushed it within a year, but the private armies it authorized to do so never went home, sealing the dynasty's fate.",
       "wikiSlug": "Yellow_Turban_Rebellion",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Zhang Jue's Movement",
-          "text": "Zhang Jue was a faith healer who had built a following of millions over a decade, organizing them into 36 cells across the empire under the banner of the 'Way of Great Peace' (Taiping Dao). When one of his subordinates betrayed the plan, Zhang Jue launched the rebellion prematurely across eight provinces simultaneously in the spring of 184 CE."
-        },
-        {
-          "label": "Suppression",
-          "text": "The Han court mobilized all available forces, including local warlords who were given authority to raise their own armies. The main rebellion was suppressed within a year. Zhang Jue died during the campaign (of illness); his brothers were killed. But the suppression empowered regional commanders — Cao Cao, Liu Bei, Sun Jian — who would later tear the empire apart."
-        },
-        {
-          "label": "The Unintended Consequence",
-          "text": "By allowing local magnates to raise private armies to suppress the Yellow Turbans, the Han court created the warlord system that destroyed it. Once raised, those armies were never disbanded. The generals who suppressed the Yellow Turbans became the Three Kingdoms warlords within 35 years. The rebellion itself failed; its consequences succeeded."
+          "label": "Explore further",
+          "text": "Zhang Jue had spent a decade building a network of thirty-six regional cells (fang), each with its own commander — closer to a revolutionary underground than a spontaneous peasant revolt. The coordination was so tight that a last-minute traitor's betrayal forced an early launch. Even then, sporadic Yellow Turban resistance continued for another twenty-one years, finally suppressed only in 205 CE."
         }
       ],
       "aliases": [
         "Zhang Jue"
-      ]
+      ],
+      "commonsFile": "Three_Brothers_during_the_Yellow_Turban_Rebellion.jpg"
     },
     {
       "id": "evt-han-emperor-xian",
       "label": "Emperor Xian",
       "year": 189,
       "endYear": 220,
-      "description": "Liu Xie, Emperor Xian, was the last emperor of the Han dynasty — a puppet successively controlled by Dong Zhuo, then Cao Cao. He nominally reigned for 31 years (189–220 CE) while real power passed from warlord to warlord. When Cao Cao's son Cao Pi forced him to abdicate in 220 CE, founding the Wei dynasty, Emperor Xian was given the title Duke of Shanyang and lived peacefully until 234 CE — outlasting the dynasty he nominally led.",
+      "description": "The last Han emperor, Liu Xie, reigned for thirty-one years as a tool — first under Dong Zhuo, then under Cao Cao — while every 'imperial' decree was actually someone else's order. His formal abdication on 11 December 220 CE, scripted to legitimize Cao Pi's new Wei dynasty, ended four centuries of Han rule without a single battle.",
       "wikiSlug": "Emperor_Xian_of_Han",
       "tier": 2,
       "tags": [],
@@ -1762,48 +1315,34 @@
       ],
       "details": [
         {
-          "label": "The Puppet",
-          "text": "Emperor Xian was 9 years old when he came to the throne in 189 CE during the Dong Zhuo crisis. He was never in control. Cao Cao, who controlled him from 196 CE onward, maintained the fiction of Han rule while exercising all real power — issuing orders in the emperor's name, marrying Cao daughters into the imperial family, and eliminating rivals under imperial authority."
-        },
-        {
-          "label": "The Abdication",
-          "text": "In 220 CE, Cao Cao's son Cao Pi orchestrated a formal abdication ceremony. Emperor Xian three times refused the throne, as protocol required, before finally accepting that the mandate had passed. The ceremony was elaborate, scripted, and completely non-violent — Cao Pi needed the legitimacy of a formal transfer, not the stigma of a simple deposition."
-        },
-        {
-          "label": "The Survivor",
-          "text": "Emperor Xian was given the title Duke of Shanyang and a small territory to govern independently, with permission to continue using Han court rituals. He reportedly practiced medicine — learning from Hua Tuo's tradition — and lived quietly until 234 CE, 14 years after the dynasty he represented had ended. He outlived the man who deposed him."
+          "label": "Explore further",
+          "text": "After abdicating, Liu Xie was titled Duke of Shanyang and given a small territory to govern — Cao Pi needed his continued existence as proof the transition was legitimate, not a murder. He reportedly spent his retirement practicing medicine among local people, likely drawing on knowledge from Han court physicians. He outlived the man who deposed him by eight years, dying in 234 CE."
         }
-      ]
+      ],
+      "commonsFile": "Emperor_Xian_Qing_illustration.jpg"
     },
     {
       "id": "evt-han-dong-zhuo",
       "label": "Dong Zhuo Seizes Luoyang",
       "year": 189,
-      "description": "When Emperor Ling died in 189 CE without a stable succession, the court eunuchs and the general He Jin struggled for power. He Jin was assassinated; his allies massacred the eunuchs in retaliation; the warlord Dong Zhuo marched into the resulting power vacuum with his army, deposed the child emperor, installed a puppet, and began a reign of terror in Luoyang that ended with the capital burned and the court dragged west to Chang'an.",
+      "description": "A Liang Province frontier general who exploited the power vacuum after Emperor Ling's death in 189 CE, installing a nine-year-old puppet emperor and terrorizing Luoyang before deliberately burning the capital — palaces, libraries, and the Imperial Academy — when an eastern coalition mobilized against him.",
       "wikiSlug": "Dong_Zhuo",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "The Collapse",
-          "text": "In a few months of 189 CE, Han central authority effectively ceased to exist. The eunuchs who had dominated the court for decades were massacred. He Jin, who orchestrated the massacre, was himself killed first. Dong Zhuo, invited in to help, needed no invitation to stay — he had 3,000 soldiers and no competition."
-        },
-        {
-          "label": "The Burning of Luoyang",
-          "text": "When a coalition of eastern warlords mobilized against him in 190 CE, Dong Zhuo forced the court west to Chang'an and burned Luoyang — deliberately, systematically, destroying everything that might serve as a base for his enemies. The great libraries, the palaces, the markets, two centuries of accumulated Eastern Han civilization: all burned."
-        },
-        {
-          "label": "The Point of No Return",
-          "text": "The burning of Luoyang was the moment the Han's collapse became irreversible. No emperor ever again controlled the whole empire. Dong Zhuo was assassinated by his own general Lü Bu in 192 CE, but the coalition that had formed against him did not reunite. China fractured into the Three Kingdoms period."
+          "label": "Explore further",
+          "text": "Dong Zhuo moved the entire imperial court westward to Chang'an before torching Luoyang, forcing hundreds of thousands of residents to relocate under brutal conditions. His own end came from inside: the celebrated warrior Lu Bu, whom Dong Zhuo had adopted as a son, assassinated him in 192 CE. The court never returned to Luoyang as a functioning Han capital."
         }
-      ]
+      ],
+      "commonsFile": "Dong_Zhuo_Qing_Dynasty_Illustration.jpg"
     },
     {
       "id": "evt-han-hua-tuo",
       "label": "Hua Tuo",
       "year": 190,
-      "description": "Hua Tuo was the legendary Eastern Han physician credited with inventing general anesthesia — using a compound called mafeisan ('cannabis boiling powder') to render patients unconscious for surgery. He reportedly performed abdominal operations, organ resections, and spinal surgeries. He was executed by Cao Cao, whom he had treated, reportedly for refusing to become his personal physician.",
+      "description": "The Eastern Han physician credited with the earliest known use of general anesthesia in China, mixing a herbal compound called mafeisan with wine to render patients unconscious before abdominal and spinal surgeries. Executed by Cao Cao for refusing to serve as his private doctor, Hua Tuo died trying to pass his medical texts to a prison guard who refused out of fear, and the formula was lost.",
       "wikiSlug": "Hua_Tuo",
       "tier": 2,
       "tags": [
@@ -1816,24 +1355,17 @@
       ],
       "details": [
         {
-          "label": "The Anesthesia",
-          "text": "Hua Tuo reportedly mixed his mafeisan compound with wine, rendering patients unconscious before opening their bodies. Ancient sources describe him performing operations that would be recognizable as modern surgery — removing diseased intestines, treating spinal conditions, draining abscesses. The formula was lost when he died; Chinese surgery regressed for centuries."
-        },
-        {
-          "label": "The Physician's Refusal",
-          "text": "Cao Cao suffered from severe headaches that Hua Tuo had been treating. When Cao Cao demanded Hua Tuo become his permanent personal physician, Hua Tuo claimed his wife was ill and left. He never returned. Cao Cao had him arrested and executed for deception in 208 CE. Before execution, Hua Tuo tried to give his medical texts to a prison guard; the guard refused for fear of punishment."
-        },
-        {
-          "label": "Legacy",
-          "text": "Hua Tuo is the patron deity of Chinese medicine. His name is invoked in medical contexts the way Hippocrates is in Western medicine. Whether all the operations attributed to him are historically accurate is uncertain — ancient sources embellish freely — but his reputation reflects a real tradition of surgical practice that was sophisticated by any ancient standard."
+          "label": "Explore further",
+          "text": "Hua Tuo was also celebrated for acupuncture, moxibustion (burning dried herb near acupuncture points to stimulate healing), and a five-animal exercise set called Wuqinxi — mimicking tiger, deer, bear, ape, and crane — that became a foundational text of Chinese therapeutic movement still practiced today. The word mafeisan roughly translates as 'cannabis boiling powder,' though scholars debate the exact ingredients since no confirmed recipe survives."
         }
-      ]
+      ],
+      "commonsFile": "HuaTuo.jpg"
     },
     {
       "id": "evt-han-cao-cao",
       "label": "Cao Cao",
       "year": 196,
-      "description": "Cao Cao was the warlord who dominated the last decades of the Han dynasty and effectively ended it. Suppressing the Yellow Turbans, seizing Emperor Xian as his puppet, defeating rival warlords at the Battle of Guandu (200 CE), and consolidating northern China, he came within reach of reunifying the empire before his defeat at Red Cliffs (208 CE). He never took the imperial title himself; his son Cao Pi did in 220 CE.",
+      "description": "The dominant figure of the Han's final decades — a military commander, economic reformer, and accomplished poet who captured the puppet Emperor Xian in 196 CE and ran the empire in the emperor's name for a quarter century, crushing rival warlords while carefully never claiming the imperial title himself.",
       "wikiSlug": "Cao_Cao",
       "tier": 1,
       "tags": [
@@ -1845,18 +1377,11 @@
       ],
       "details": [
         {
-          "label": "The Strategist",
-          "text": "Cao Cao was one of the most capable military commanders and administrators in Chinese history. He reformed the northern economy, resettled displaced populations, revived agriculture, and built the most efficient military force of the Three Kingdoms period — all while conducting continuous campaigns against rivals. He wrote military commentaries on Sun Tzu's Art of War still studied today."
-        },
-        {
-          "label": "The Puppet Master",
-          "text": "From 196 CE, Cao Cao used Emperor Xian as a political tool — issuing all orders in the emperor's name, eliminating rivals as 'traitors to the Han,' and expanding his own power under the cover of restoring Han authority. He reportedly said: 'I was born in troubled times — if it were not for me, how many would have made themselves emperor?'"
-        },
-        {
-          "label": "Red Cliffs",
-          "text": "In 208 CE, Cao Cao's fleet was destroyed by the allied forces of Liu Bei and Sun Quan at Red Cliffs (Chibi) on the Yangtze. The defeat — probably involving disease as much as enemy action — stopped Cao Cao's reunification project and made the Three Kingdoms period permanent. His famous poem 'Short Song' was reportedly written the night before the battle, contemplating mortality and ambition."
+          "label": "Explore further",
+          "text": "Cao Cao's military agricultural colonies (tuntian) resettled war-displaced peasants on abandoned land, simultaneously solving a refugee crisis and feeding his armies — a policy later dynasties copied. He also wrote annotated commentaries on Sun Tzu's Art of War that are still studied today. His son Cao Pi inherited his territory and discarded his restraint: within months of Cao Cao's death, Cao Pi staged a formal Han abdication and declared himself emperor of the Wei dynasty."
         }
-      ]
+      ],
+      "commonsFile": "Cao_Cao_scth.jpg"
     },
     {
       "id": "evt-han-han-ends",
@@ -1889,31 +1414,24 @@
       "id": "evt-han-feng-shan-sacrifices",
       "label": "Feng and Shan Sacrifices on Mount Tai",
       "year": -110,
-      "description": "Emperor Wu performed the Feng and Shan sacrifices on Mount Tai in 110 BCE — the most sacred ritual in Chinese imperial religion, reserved for emperors who had achieved extraordinary merit. The Feng sacrifice on the summit reported the emperor's achievements to Heaven; the Shan sacrifice at the mountain's base reported to Earth. Only a handful of emperors in all of Chinese history dared perform these rites.",
+      "description": "In 110 BCE, Emperor Wu climbed Mount Tai in Shandong province to perform the Feng and Shan sacrifices — the most exalted ritual in Chinese imperial religion, reserved for emperors who had achieved extraordinary merit. The Feng sacrifice on the summit communicated directly with Heaven; the Shan sacrifice at the base reported to Earth.",
       "wikiSlug": "Feng_Shan",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "The Ritual",
-          "text": "The Feng and Shan sacrifices were shrouded in deliberate secrecy — Emperor Wu performed the summit ritual alone with a small retinue, and the exact words and procedures were never recorded publicly. Sima Qian, who was present, was forbidden from attending the summit ceremony. The secrecy itself was the point: only Heaven and the emperor communicated directly."
-        },
-        {
-          "label": "Political Purpose",
-          "text": "Emperor Wu's Feng and Shan ceremony was a claim to exceptional status — only the legendary sage-kings Yao and Shun and the first Qin emperor had performed it before. After decades of military victories, the Silk Road opening, and the Confucian state's establishment, Wu claimed enough merit to address Heaven directly. His court astrologers confirmed that auspicious omens — unusual plants, strange animals — validated the claim."
-        },
-        {
-          "label": "Cosmological Framework",
-          "text": "The sacrifices reflected the Han cosmological view: the emperor was the intermediary between Heaven and Earth, responsible for maintaining cosmic order through correct ritual. Natural disasters were signs of Heaven's displeasure; bountiful harvests were signs of approval. The Feng and Shan rites were the highest expression of this relationship — the emperor's direct report to the cosmos."
+          "label": "Explore further",
+          "text": "The summit ceremony was conducted in such secrecy that even the court historian Sima Qian, who was present for the journey, was forbidden from attending the rite itself. That secrecy was intentional: only the emperor and Heaven communicated directly, and any witness would contaminate the ritual's unique authority. Only a handful of Chinese emperors in all of history dared claim enough cosmic merit to perform these rites — performing them without sufficient achievement risked signaling Heaven's displeasure rather than invoking its favor."
         }
-      ]
+      ],
+      "commonsFile": "天贶殿_-_Tiankuang_Hall_-_2012.06_-_panoramio.jpg"
     },
     {
       "id": "evt-han-an-shigao",
       "label": "An Shigao's Buddhist Translations",
       "year": 148,
-      "description": "An Shigao, a Parthian prince who had renounced his throne to become a Buddhist monk, arrived in Luoyang around 148 CE and began the first systematic translation of Buddhist scriptures into Chinese. Over two decades he translated some 35 texts, focusing on meditation practices and mindfulness — introducing Chinese readers to concepts that had no equivalent in Confucian or Daoist thought.",
+      "description": "An Shigao was a Parthian prince who walked away from his throne to become a Buddhist monk, arriving in Luoyang around 148 CE to begin the first systematic translation of Indian Buddhist scriptures into Chinese — a twenty-year project yielding roughly 35 texts focused on meditation and mindfulness.",
       "wikiSlug": "An_Shigao",
       "tier": 2,
       "tags": [
@@ -1922,16 +1440,8 @@
       "category": "religion",
       "details": [
         {
-          "label": "The Translator",
-          "text": "An Shigao was born a prince of Parthia (modern Iran) who abdicated his throne to pursue Buddhist practice. He traveled the Silk Road to China, arriving at the Eastern Han capital of Luoyang during Emperor Huan's reign. His translations were collaborative: he explained the Sanskrit texts orally while Chinese assistants rendered them into literary Chinese."
-        },
-        {
-          "label": "What He Translated",
-          "text": "An Shigao focused on Theravada meditation texts — the Anapanasati Sutra (mindful breathing), texts on the four foundations of mindfulness, and early Abhidharma philosophical works. These were practical instruction manuals for meditation practice, not the grand Mahayana philosophical texts that later translators would bring. They gave Chinese practitioners a method, not just a philosophy."
-        },
-        {
-          "label": "The Translation Problem",
-          "text": "Translating Buddhist concepts into Chinese required creative invention. Sanskrit terms like 'dharma,' 'karma,' and 'nirvana' had no Chinese equivalents. An Shigao and his successors borrowed Daoist vocabulary — rendering nirvana as 'wuwei' (non-action) and dharma as 'dao' (the Way). This made Buddhism accessible but also subtly changed what Chinese Buddhists understood by these terms."
+          "label": "Explore further",
+          "text": "An Shigao is the earliest known translator of Indian Buddhist texts into Chinese, making him a foundational figure for the entire subsequent history of East Asian Buddhism. His method was collaborative: he explained Sanskrit texts orally while Chinese assistants rendered them into literary Chinese. Because no precise Chinese equivalents existed for terms like \"dharma\" or \"nirvana,\" his translations borrowed Daoist vocabulary — a creative workaround that also subtly reshaped what Chinese readers understood Buddhism to be."
         }
       ]
     },
@@ -1939,23 +1449,15 @@
       "id": "evt-han-taiping-dao",
       "label": "Way of Great Peace Movement",
       "year": 170,
-      "description": "The Way of Great Peace (Taiping Dao), a millenarian Daoist movement led by Zhang Jue, spread rapidly through the famine-stricken provinces of eastern China in the 170s CE. Combining faith healing, communal confession, and an apocalyptic prophecy that the corrupt 'azure heaven' of the Han would be replaced by a righteous 'yellow heaven,' the movement organized millions of followers into 36 regional cells — the infrastructure for the Yellow Turban Rebellion of 184 CE.",
+      "description": "The Way of Great Peace (Taiping Dao) was a millenarian Daoist movement that swept through famine-stricken eastern China in the 170s CE, teaching that Heaven would soon destroy the corrupt Han order and install a new age of universal peace — and organizing millions of desperate followers into the network that launched the Yellow Turban Rebellion of 184 CE.",
       "wikiSlug": "Way_of_the_Celestial_Masters",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "The Scripture",
-          "text": "The movement's inspiration was the Taiping Jing (Scripture of Great Peace), a text that combined Daoist cosmology with social criticism. It argued that the wealthy had stolen the wealth of Heaven and Earth, that inequality was a cosmic crime, and that Heaven would soon send a chosen leader to establish a new age of universal peace. Zhang Jue claimed to be that leader."
-        },
-        {
-          "label": "Faith Healing",
-          "text": "Zhang Jue attracted followers by healing the sick through a combination of prayer, confession of sins, and drinking consecrated water mixed with ashes from burned talismans. In a society where famine and epidemic were rampant and medical care was available only to the wealthy, this free healing ministry drew millions. The political message was embedded in the spiritual practice."
-        },
-        {
-          "label": "The Organization",
-          "text": "What distinguished the Taiping Dao from other popular religious movements was its administrative sophistication. Zhang Jue divided his followers into 36 fang (regional cells) with designated commanders, creating a parallel government structure that could mobilize for coordinated action. When the rebellion launched in 184 CE, it erupted simultaneously across eight provinces — evidence of genuine organizational discipline."
+          "label": "Explore further",
+          "text": "The movement's scripture, the Taiping Jing (Scripture of Great Peace), framed inequality as a cosmic crime: the wealthy had literally stolen the wealth of Heaven and Earth, and Heaven would respond with catastrophe. Leader Zhang Jue offered faith healing and communal confession alongside the apocalyptic prophecy, giving the movement practical appeal in communities devastated by floods and epidemics. The slogan \"The azure heaven is dead; the yellow heaven shall rise\" gave the eventual rebels their name."
         }
       ]
     }
