@@ -71,21 +71,35 @@
       "id": "evt-gt-jastorf",
       "label": "The Jastorf Culture",
       "year": -500,
-      "description": "The Iron Age farming communities of Jutland, southern Scandinavia, and the north German plain that represent the earliest attested Germanic-speaking peoples, characterized by cremation cemeteries, iron tools, and small unwalled villages.",
+      "description": "The earliest recognizable Germanic communities: Iron Age farming villages spread across Jutland, southern Scandinavia, and the north German plain from roughly 500 BCE onward, identified by their cremation cemeteries, iron tools, and small unwalled settlements.",
       "wikiSlug": "Jastorf_culture",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The culture is named after a type-site in Lower Saxony, Germany, where archaeologists first identified its distinctive pottery and burial style. It ran from the 6th to the 1st century BCE — a span longer than the entire history of the United States. The thin soils and short growing seasons of this zone meant the land could never comfortably feed a growing population, which is why its people kept moving."
+        }
+      ],
+      "commonsFile": "02023_Bronze_neck-ring_from_the_Jastorf_Culture_found_in_Kopaniewo.jpg"
     },
     {
       "id": "evt-gt-iron-age-origins",
       "label": "Germanic Iron Age Begins",
       "year": -500,
-      "description": "Iron replaced bronze as the dominant metal for tools and weapons across the Jastorf-culture zone, setting the technological foundation for the Germanic warrior societies that would confront Rome.",
+      "description": "Around 500 BCE, iron replaced bronze across the Germanic north, giving small farming communities cheaper, harder tools and weapons — the material foundation for the warrior culture that would eventually collide with Rome.",
       "wikiSlug": "Germanic_peoples",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Iron's great advantage over bronze was that it required no tin, which had to be traded from distant sources; iron ore was available almost everywhere in northern Europe. The shift democratized weapons: a village blacksmith could arm a farmer where bronze-age bronze-work had required specialist workshops. Germanic communities at this stage lived in small, unwalled hamlets of just a few extended families — nothing like the hill-forts their Celtic neighbors to the southwest were building at the same moment."
+        }
+      ],
+      "commonsFile": "The_Cherusker_03.jpg"
     },
     {
       "id": "evt-gt-germanic-languages",
@@ -101,131 +115,220 @@
       "id": "evt-gt-cimbri-migration",
       "label": "The Cimbri and Teutones Migrate",
       "year": -113,
-      "description": "Germanic peoples from the Jutland peninsula moved south and west in search of land, beginning a decade of war that traumatized the Roman Republic.",
+      "description": "In 113 BCE, the Cimbri — an entire people on the move, not just an army — walked south out of the Jutland peninsula and into a Roman force in the eastern Alps, launching more than a decade of war that came closer to destroying the Roman Republic than anything since Hannibal.",
       "wikiSlug": "Cimbrian_War",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cimbrian War was the first time since the Second Punic War that Rome itself was seriously threatened — the Cimbri and their allies got close enough to Italy that Roman citizens could plausibly picture their city sacked. The migration included not just warriors but the whole society: women, children, elderly, wagons, and livestock, which made it nearly impossible for Roman commanders to corner and defeat. The war ended only in 101 BCE, nearly twelve years after it began."
+        }
+      ],
+      "commonsFile": "The_defeat_of_the_Cimbri.jpg"
     },
     {
       "id": "evt-gt-ambrones",
       "label": "The Ambrones Join the Migration",
       "year": -113,
-      "description": "A third migratory people, the Ambrones, accompanied the Cimbri and Teutones southward, contributing to the mass movement that Rome struggled to comprehend or resist.",
+      "description": "A third migratory people, the Ambrones, traveled alongside the Cimbri and Teutones, though Roman writers were genuinely unsure where they came from or even what they were — possibly Germanic, possibly something else entirely.",
       "wikiSlug": "Ambrones",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Ambrones are one of antiquity's unsolved puzzles: ancient sources named them but couldn't agree on their origins, and modern scholars still debate whether they were a Germanic tribe from Jutland, a Celtic group, or a mixed community. Their name survived long enough that a medieval Swiss canton (Amden) may preserve its echo — though that connection is contested."
+        }
+      ]
     },
     {
       "id": "evt-gt-noreia",
       "label": "Battle of Noreia",
       "year": -113,
-      "description": "The Cimbri destroyed a Roman army under consul Gnaeus Papirius Carbo in the eastern Alps, Rome's first defeat at Germanic hands and the opening shock of the Cimbric Terror.",
+      "description": "In 113 BCE, the Cimbri turned a Roman ambush back on its author, destroying consul Gnaeus Papirius Carbo's army in the eastern Alps — the opening blow of the Cimbrian War and Rome's first taste of what the Germanic migrations could do.",
       "wikiSlug": "Battle_of_Noreia",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The exact location of Noreia is still contested by archaeologists; the most plausible candidates are in modern Austria's Styria region. Carbo had offered to guide the Cimbri out of allied territory peacefully, then immediately ordered those same guides to walk them into his ambush — a breach of good faith that the Romans themselves recorded without apparent embarrassment. Despite the catastrophic loss, the Cimbri did not exploit their opening: they simply wandered west into Gaul, apparently still looking for land to settle rather than empire to loot."
+        }
+      ],
+      "commonsFile": "Cimbrians_and_Teutons-fr.jpg"
     },
     {
       "id": "evt-gt-terror-cimbricus",
       "label": "The Terror Cimbricus",
       "year": -110,
-      "description": "Rome named the escalating Germanic threat the terror Cimbricus as the Cimbri and Teutones roamed Gaul and Spain for years, repeatedly eluding Roman attempts to corner and destroy them.",
+      "description": "Rome gave its decade-long nightmare a name: the terror Cimbricus (the Cimbric Terror), a period from the 110s into the 100s BCE when the Cimbri and Teutones roamed Gaul and Spain for years, annihilating one Roman army after another.",
       "wikiSlug": "Cimbrian_War",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At the Battle of Arausio in 105 BCE — the worst Roman defeat of the entire episode — Roman forces lost somewhere between 60,000 and 80,000 soldiers in a single day, a casualty count that rivaled Cannae, Hannibal's signature massacre. The crisis directly launched the career of Gaius Marius, who used the emergency to rebuild the Roman army from scratch on a professional basis — a reform that ultimately made the legions of the late Republic and empire possible."
+        }
+      ],
+      "commonsFile": "Mario_vincitore_dei_Cimbri.jpg"
     },
     {
       "id": "evt-gt-arausio",
       "label": "Battle of Arausio",
       "year": -105,
-      "description": "One of the bloodiest defeats in Roman military history, in which the Cimbri and Teutones wiped out two consular armies on the Rhône near modern Orange in southern France.",
+      "description": "On 6 October 105 BCE, the Cimbri and Teutones wiped out two Roman armies on the Rhône near modern Orange in southern France — the deadliest single defeat in Roman military history to that point, with ancient sources claiming up to 80,000 Roman dead.",
       "wikiSlug": "Battle_of_Arausio",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The disaster was largely self-inflicted: proconsul Quintus Servilius Caepio and consul Gnaeus Mallius Maximus so despised each other that they refused to coordinate, leaving their armies to be destroyed separately. Caepio had earlier sparked a scandal by stealing the sacred gold of Tolosa (Toulouse) from a Gallic sanctuary — ancient writers treated his defeat at Arausio as divine punishment for the theft. The road to Italy lay completely open after the battle, yet the Cimbri turned away a second time, a decision whose reasoning was never recorded."
+        }
+      ]
     },
     {
       "id": "evt-gt-marius-reforms",
       "label": "Marius Reforms the Roman Army",
       "year": -104,
-      "description": "Gaius Marius used his unprecedented run of consecutive consulships to restructure the Roman legions, professionalizing a force that had been repeatedly shattered by the Germanic invaders.",
+      "description": "Between 107 and 104 BCE, Gaius Marius overhauled the Roman legions from the ground up — opening service to landless citizens (the 'proletarianization' of the army), standardizing equipment, and reorganizing the fighting units into cohorts — turning a citizen militia into something closer to a professional army.",
       "wikiSlug": "Marian_reforms",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before Marius, Roman soldiers were required to own property and supply their own arms; his reform let any citizen volunteer, with the state providing equipment. This created soldiers whose livelihoods depended on their general's success, laying the personal-loyalty dynamic that later enabled Sulla, Pompey, and Caesar to march their armies on Rome itself. The eagle standard (the aquila) became the supreme symbol of each legion under Marius — losing it in battle was considered catastrophic disgrace, a fact that echoes through Roman military history for centuries."
+        }
+      ],
+      "commonsFile": "Roman_aquila.jpg"
     },
     {
       "id": "evt-gt-marius-consulships",
       "label": "Marius Elected Consul Five Years Running",
       "year": -104,
-      "description": "Rome suspended its constitutional rule against consecutive consulships to keep the capable general Gaius Marius in command, a precedent that later strongmen such as Sulla, Pompey, and Caesar would exploit.",
+      "description": "In a constitutionally unprecedented stretch from 107 to 100 BCE, Gaius Marius was elected consul seven times — five of those years consecutively after Arausio — as Rome suspended its own rules against repeated tenure to keep its most capable general in command.",
       "wikiSlug": "Gaius_Marius",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Marius came from a rural family in Arpinum (modern Arpino), well outside the old Roman aristocratic networks, and the Senate's willingness to repeatedly elect a 'new man' of his background reflected sheer desperation. His seven consulships remained a Republican record until the Republic itself was abolished. The willingness to set aside constitutional norms under existential pressure was the exact precedent later strongmen studied: Sulla used the lesson to march on Rome in 88 BCE, and Caesar watched both examples carefully."
+        }
+      ],
+      "commonsFile": "Gaius_Fundanius,_denarius,_101_BC,_RRC_326-1.jpg"
     },
     {
       "id": "evt-gt-aquae-sextiae",
       "label": "Battle of Aquae Sextiae",
       "year": -102,
-      "description": "Gaius Marius destroyed the Teutones and Ambrones near modern Aix-en-Provence, the turning point of the Cimbrian War that effectively ended the Teutones as a people.",
+      "description": "In 102 BCE, Marius destroyed the Teutones and Ambrones near modern Aix-en-Provence in a carefully chosen ambush that annihilated one of the two Germanic peoples threatening Italy, ending the Teutones as a distinct people.",
       "wikiSlug": "Battle_of_Aquae_Sextiae",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Marius picked a hilltop position that forced the Teutones to attack uphill, then concealed a flanking force that hit them from behind as the main battle raged — a double-envelopment that was the product of two years of patient drilling. Ancient sources claim 100,000 Teutones were killed or captured, with prisoners sold into slavery so numerous they temporarily crashed the Italian slave market. The Ambrones attacked first, a day before the main battle, and were destroyed separately — their name briefly became a Latin insult word for low-grade rabble."
+        }
+      ],
+      "commonsFile": "John_Harris_Valda_-_The_Battle_of_Aquae_Sextiae_in_102_BC.jpg"
     },
     {
       "id": "evt-gt-vercellae",
       "label": "Battle of Vercellae",
       "year": -101,
-      "description": "Marius and Catulus annihilated the Cimbri on the Po plain of northern Italy, ending the Cimbric Terror and leaving both the Cimbri and the Teutones effectively destroyed.",
+      "description": "On 30 July 101 BCE, Marius and his co-commander Quintus Lutatius Catulus annihilated the Cimbri on the sweltering Po plain of northern Italy, ending the Cimbrian War and erasing both the Cimbri and the Teutones from history.",
       "wikiSlug": "Battle_of_Vercellae",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cimbri under their king Boiorix actually sent ahead to ask Marius which day he preferred to fight — an act of warrior-culture bravado that Roman writers found equal parts baffling and admirable. The battle was fought in extreme summer heat; ancient sources say the Cimbri, coming from the cool north, were physically debilitated by the Italian sun, struggling to fight in conditions the Italian soldiers took for granted. Boiorix died in the battle. The Tiepolo painting commissioned centuries later depicts the battle's chaos with theatrical grandeur that says more about 18th-century Italian taste than Roman tactics."
+        }
+      ],
+      "commonsFile": "Tiepolo_Vercellae.jpg"
     },
     {
       "id": "evt-gt-caesar-commentarii",
       "label": "Caesar Writes the Gallic War Commentaries",
       "year": -52,
-      "description": "Julius Caesar composed his Commentarii de Bello Gallico, which codified the Rhine as an ethnic and political boundary and created the foundational Roman image of the Germanic peoples.",
+      "description": "In the 50s BCE, Julius Caesar wrote his Gallic War commentaries in the third person, inventing the Rhine as a clean ethnic boundary between Gauls and Germani and creating the image of Germanic peoples that Roman (and later European) writers would repeat for centuries.",
       "wikiSlug": "Commentarii_de_Bello_Gallico",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Caesar's portrayal of the Germani as more savage and warlike than the Gauls was partly self-serving: it justified why he conquered Gaul but prudently stopped at the Rhine rather than pushing further east. The *Commentarii* were political literature written for a Roman audience while the war was still ongoing, and Caesar controlled the narrative completely. His Rhine-as-boundary idea was so influential that later Romans treated it as a law of nature rather than a military convenience — shaping policy long after Caesar was dead."
+        }
+      ],
+      "commonsFile": "Caesar_bsb_beck.jpg"
     },
     {
       "id": "evt-gt-ariovistus",
       "label": "Ariovistus Crosses the Rhine",
       "year": -71,
-      "description": "The Suebic king Ariovistus led Germanic warriors into Gaul as mercenaries for a Gaulish faction and then refused to leave, settling tens of thousands of his people on Gaulish land.",
+      "description": "The Suebic king Ariovistus brought Germanic warriors into Gaul as hired muscle for a Gaulish civil war, then refused to leave — settling tens of thousands of his people on Gaulish land and demanding more.",
       "wikiSlug": "Ariovistus",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ariovistus had been backing the Arverni and Sequani tribes against their rivals, the Aedui, and it was the beaten Aedui who eventually appealed to Rome for help. Before Caesar fought him, the two men held a formal parley in which Ariovistus pointedly noted that Caesar was lecturing him about invading Gaul while in the middle of invading Gaul himself. After his defeat at the Battle of Vosges in 58 BC, Ariovistus disappears entirely from the historical record."
+        }
+      ],
+      "commonsFile": "Caesar_and_Ariovistus_(meeting_before_the_battle)_by_Johann_Nepomuk_Geiger_(cropped).jpg"
     },
     {
       "id": "evt-gt-suebi-confederation",
       "label": "The Suebi Confederation",
       "year": -60,
-      "description": "The Suebi, described by Caesar as the largest and most feared of the Germanic peoples, were a sprawling interior confederation whose name survives in the German region of Swabia.",
+      "description": "The Suebi were the largest Germanic confederation of the Roman era — less a single tribe than a sprawling alliance of peoples from the Elbe River heartland whose name survives today in the German region of Swabia.",
       "wikiSlug": "Suebi",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Suebi originated near the Elbe in what is now eastern Germany, but Suebic groups eventually spread across Central Europe, and by the 5th and 6th centuries some had carved out kingdoms in Spain, Portugal, and Italy. Their language is considered a main predecessor of medieval Old High German, and through it the modern German language. Archaeologically, pre-Roman Suebi are tied to the Jastorf culture, the same north German material tradition the narrative calls the Germani's hard-country homeland."
+        }
+      ],
+      "commonsFile": "Osterby_Man_Suebian-Knot.jpg"
     },
     {
       "id": "evt-gt-caesar-ariovistus",
       "label": "Caesar Defeats Ariovistus",
       "year": -58,
-      "description": "Julius Caesar crushed Ariovistus and drove the Suebi back across the Rhine near modern Alsace, fixing the river as the eastern limit of Roman Gaul.",
+      "description": "On September 14, 58 BC, Caesar crushed Ariovistus near the Vosges mountains in modern Alsace and drove the surviving Suebi back across the Rhine — the second major pitched battle of the Gallic Wars.",
       "wikiSlug": "Battle_of_Vosges_(58_BC)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle is usually called the Battle of Vosges (sometimes Battle of Vesontio after the town nearby). It was fought the same year Caesar arrived in Gaul, meaning he had cleared the most dangerous Rhine crossing threat within months of taking command. Ariovistus's defeat handed Caesar both a military victory and a clean political narrative: the Rhine was now framed as a natural boundary that Rome had defended, not just a river Caesar happened to stop at."
+        }
+      ],
+      "commonsFile": "Battaglia_Ariovisto_Mulhouse_png.png"
     },
     {
       "id": "evt-gt-caesar-rhine-crossing",
@@ -241,81 +344,137 @@
       "id": "evt-gt-rhine-frontier",
       "label": "The Rhine Becomes Rome's Frontier",
       "year": -55,
-      "description": "Caesar's strategic decision to hold the Rhine bank and not the far side hardened the river into a durable political and military boundary between the Roman world and free Germania.",
+      "description": "After his victory over Ariovistus, Caesar chose the Rhine as the eastern limit of Roman Gaul — a strategic and rhetorical decision that hardened the river into a four-century border between the Roman world and free Germania.",
       "wikiSlug": "Rhine",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Rhine drains about 185,000 square kilometers and runs from the Swiss Alps all the way to the North Sea, making it one of Europe's most formidable natural lines. Caesar reinforced the psychological weight of the decision by twice bridging the river in 55 and 53 BC — spectacular engineering demonstrations — then immediately withdrawing, signaling that Rome could cross but chose not to stay. That posture of deliberate non-conquest shaped Roman policy toward Germania for generations."
+        }
+      ],
+      "commonsFile": "Middle_Bridge,_Basel,_Switzerland.JPG"
     },
     {
       "id": "evt-gt-germanic-ethnographic-line",
       "label": "Caesar's Gaul-Germania Distinction",
       "year": -55,
-      "description": "In his Commentaries Caesar drew a sharp literary boundary between the settled, conquerable Gauls west of the Rhine and the wild, unconquerable Germani to the east, a political fiction with four centuries of consequences.",
+      "description": "In his Commentaries, Caesar drew a sharp literary boundary between the settled, conquerable Gauls west of the Rhine and the wild, unconquerable Germani to the east — a political fiction that stuck for four centuries and shaped everything from where Rome built its walls to where France and Germany eventually drew their border.",
       "wikiSlug": "Germania",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roman geographers mapped \"Germania\" as stretching roughly from the Rhine in the west to the Vistula in the east, and from the upper Danube north to Scandinavia — an enormous zone defined almost entirely by Caesar's pen. In reality, plenty of people Caesar called Germani lived west of the Rhine, and plenty he called Gauls lived east of it; the two worlds blended across a wide borderland. Caesar's clean line was later institutionalized into two actual Roman provinces — Germania Superior and Germania Inferior — which governed the near bank while the rest of his \"Germania\" remained, as he had framed it, outside the civilizable world."
+        }
+      ],
+      "commonsFile": "Germanias.png"
     },
     {
       "id": "evt-gt-drusus",
       "label": "Drusus Campaigns in Germania",
       "year": -12,
-      "description": "Augustus's stepson Drusus led deep campaigns from the Rhine toward the Elbe, beginning Rome's serious attempt to conquer and provincialize the Germanic interior.",
+      "description": "Nero Claudius Drusus, stepson of Augustus and one of Rome's most aggressive frontier generals, led a series of deep campaigns from the Rhine toward the Elbe beginning in 12 BCE, aiming to turn the Germanic interior into Roman provinces.",
       "wikiSlug": "Nero_Claudius_Drusus",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Drusus crossed the Rhine more times than any Roman before him and was the first Roman general to navigate the North Sea beyond the Rhine delta. He died in 9 BCE not in battle but from injuries after falling from his horse during the campaign season, aged just 29. His campaigns earned him the posthumous victory title 'Germanicus,' which his son inherited and made famous."
+        }
+      ],
+      "commonsFile": "Drusus_l'ancien_Rome_augGP2014.jpg"
     },
     {
       "id": "evt-gt-tiberius-campaigns",
       "label": "Tiberius Commands on the Rhine",
       "year": -8,
-      "description": "The future emperor Tiberius, stepson of Augustus, commanded repeated campaigns across the Rhine as part of the systematic Roman effort to establish Germanic provinces between the Rhine and the Elbe.",
+      "description": "The future emperor Tiberius, Augustus's other stepson, commanded multiple Rhine campaigns through the late first century BCE, twice reaching the Elbe and helping establish the framework for what Rome hoped would become permanent Germanic provinces.",
       "wikiSlug": "Tiberius",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tiberius's Rhine command was interrupted twice by Augustus's orders — once to suppress a major revolt in Pannonia (modern-day Balkans) and once recalled in apparent political disgrace. Before Teutoburg he was the most militarily experienced Roman alive, having conquered or subdued Pannonia, Dalmatia, Raetia, and large parts of Germania."
+        }
+      ],
+      "commonsFile": "8095_-_Roma_-_Ara_Pacis_-_Tiberio_-_Foto_Giovanni_Dall'Orto_-_28-Mar-2008.jpg"
     },
     {
       "id": "evt-gt-waldgirmes",
       "label": "Roman Town at Waldgirmes",
       "year": 4,
-      "description": "Archaeologists have excavated a planned Roman civilian settlement with a forum and the remains of a gilded imperial statue at Waldgirmes on the Lahn, evidence that Rome intended permanent occupation of interior Germania.",
+      "description": "At Waldgirmes on the Lahn river, archaeologists found the remains of a planned Roman civilian town under construction around 4 CE — the oldest known stone buildings in Magna Germania — proving Rome intended to stay in the Germanic interior long-term, not just garrison it.",
       "wikiSlug": "Waldgirmes_Forum",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The excavation turned up the scattered fragments of a gilded bronze equestrian statue of Augustus, which had been deliberately smashed and thrown into a well — an act of unmistakable symbolic violence after the Teutoburg disaster. The site's forum grid and building footprints mirror towns built in pacified Gaul, not a military camp layout."
+        }
+      ],
+      "commonsFile": "Forum_waldgirmes082009-1.jpg"
     },
     {
       "id": "evt-gt-cherusci",
       "label": "The Cherusci and Roman Hostage Policy",
       "year": 5,
-      "description": "Germanic chieftains including those of the Cherusci sent sons to be raised and educated in Rome, a policy meant to secure loyalty that instead produced Roman-trained leaders with inside knowledge of the empire.",
+      "description": "The Cherusci were a Germanic people of the Weser river country whose chieftains sent sons to be educated in Rome as part of Augustus's hostage-and-alliance policy — a system designed to secure loyalty that accidentally created Roman-trained insiders like Arminius.",
       "wikiSlug": "Cherusci",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cherusci occupied a strategically important stretch of the Weser valley that lay directly across Rome's intended line of march toward the Elbe. After Teutoburg, the tribe fragmented badly: a rival chieftain named Segestes, Arminius's own father-in-law, had actually warned Varus of the plot before it happened but was ignored."
+        }
+      ],
+      "commonsFile": "Carl_Theodor_von_Piloty_Thusnelda_im_Triumphzug_des_Germanicus.jpg"
     },
     {
       "id": "evt-gt-arminius",
       "label": "Arminius Unites the Cherusci",
       "year": 9,
-      "description": "A Roman-trained, Roman-citizen Cheruscan noble forged a secret coalition of Germanic peoples against the army of Publius Quinctilius Varus, using his position as a trusted Roman auxiliary commander to prepare the ambush.",
+      "description": "Arminius was a Cheruscan nobleman who had been raised in Rome, served as a Roman officer, earned citizenship and equestrian rank, then used that insider knowledge to secretly forge a multi-tribal coalition and plan the destruction of three Roman legions.",
       "wikiSlug": "Arminius",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His actual Germanic name is lost — 'Arminius' is the Latinized version, and the 'Hermann' that German nationalists celebrated in the 19th century is a much later invention with no ancient basis. Roman historian Tacitus, writing about a century after the events, called him 'unquestionably the liberator of Germany' — a remarkable tribute from the side that lost."
+        }
+      ],
+      "commonsFile": "Hermannsdenkmal_statue.jpg"
     },
     {
       "id": "evt-gt-teutoburg",
       "label": "Battle of the Teutoburg Forest",
       "year": 9,
-      "description": "Arminius ambushed and destroyed three Roman legions with their auxiliaries and camp followers in a three-day running ambush in the forests of northwestern Germany, ending Rome's bid to conquer Germania.",
+      "description": "Over three days in September 9 CE, Arminius's Germanic alliance ambushed and annihilated three Roman legions — roughly 15,000 to 20,000 soldiers plus thousands of camp followers — in a running ambush through forested northwestern Germany, ending Rome's two-decade bid to conquer the Germanic interior.",
       "wikiSlug": "Battle_of_the_Teutoburg_Forest",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The actual killing ground was lost for centuries and only identified in the 1980s and 1990s at Kalkriese near Osnabrück, where archaeologists found Roman coins, weapons, and bones scattered across a roughly 6-mile (10-km) corridor. Excavations have uncovered a built turf rampart the attackers used for cover, confirming the ambush was carefully engineered terrain rather than an opportunistic attack."
+        }
+      ],
+      "commonsFile": "Reconstruction_of_the_improvised_fortifications_prepared_by_the_Germanic_tribes_for_the_final_phase_of_the_Varus_battle,_Museum_und_Park_Kalkriese,_Germany_(9699813301).jpg"
     },
     {
       "id": "evt-gt-kalkriese",
@@ -331,170 +490,284 @@
       "id": "evt-gt-legion-numbers-retired",
       "label": "Legion Numbers XVII, XVIII, XIX Retired",
       "year": 9,
-      "description": "The three legion numbers destroyed at Teutoburg Forest were never reused in the Roman army, an unprecedented acknowledgment of catastrophe that shows the psychological depth of the defeat on Rome.",
+      "description": "After Teutoburg, Rome permanently retired the numbers of the three destroyed legions — XVII, XVIII, and XIX — which were never reassigned in the entire subsequent history of the Roman army, an acknowledgment of catastrophe with no real precedent.",
       "wikiSlug": "Battle_of_the_Teutoburg_Forest",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The comparison to Cannae (216 BCE), where Hannibal killed perhaps 50,000–70,000 Romans in a single afternoon, puts Teutoburg's roughly 15,000–20,000 dead in perspective — Cannae was physically worse. But Rome renamed no legions after Cannae; it only did so after Teutoburg, suggesting the psychological and strategic blow landed differently."
+        }
+      ],
+      "commonsFile": "Epitaph_des_Marcus_Caelius.JPG"
     },
     {
       "id": "evt-gt-varus-suicide",
       "label": "Varus Dies at Teutoburg",
       "year": 9,
-      "description": "The Roman governor Publius Quinctilius Varus, realizing his army was being systematically destroyed, killed himself during the Teutoburg ambush rather than face capture.",
+      "description": "Publius Quinctilius Varus, the Roman governor who commanded the doomed column, killed himself during the third day of the Teutoburg ambush rather than be captured — standard Roman practice for a general who had lost an army.",
       "wikiSlug": "Publius_Quinctilius_Varus",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Varus was not a reckless incompetent but an experienced administrator who had governed Syria and suppressed a Jewish revolt; the mistake was trusting Arminius, not general ineptitude. His head was sent by the Germanic leaders to the king of the Marcomanni, Maroboduus, as an invitation to join the anti-Roman coalition — Maroboduus sent it on to Rome instead."
+        }
+      ],
+      "commonsFile": "Gegenstempel_Varus.jpg"
     },
     {
       "id": "evt-gt-germanicus",
       "label": "Germanicus's Punitive Campaigns",
       "year": 15,
-      "description": "Germanicus led large punitive campaigns across the Rhine, recovered two of the three lost legionary eagles, and buried the Roman dead still lying at the Teutoburg site, before Tiberius recalled him.",
+      "description": "Between 14 and 16 CE, Germanicus — son of Drusus, heir-apparent under Tiberius — led large punitive campaigns across the Rhine, fought Arminius directly, recovered two of the three lost legionary eagles, and gave the Roman dead at Teutoburg a proper burial six years after the battle.",
       "wikiSlug": "Germanicus",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tacitus describes the scene at the battlefield in vivid terms: whitened bones strewn across a wide area, altars where officers had been sacrificed, and shattered equipment half-buried in the mud. Germanicus won genuine military victories but Tiberius ended the campaign anyway, calculating that glory for his designated successor was politically inconvenient as much as strategically unnecessary."
+        }
+      ],
+      "commonsFile": "(Toulouse)_Portrait_de_Germanicus_-_Musée_Saint-Raymond_Ra_342_c.jpg"
     },
     {
       "id": "evt-gt-tiberius-recalls-germanicus",
       "label": "Tiberius Ends the Conquest of Germania",
       "year": 16,
-      "description": "Emperor Tiberius recalled Germanicus and permanently abandoned Rome's attempt to conquer Germania, judging the forested, poor country not worth the cost of permanent occupation.",
+      "description": "In 16 CE, Emperor Tiberius recalled Germanicus and formally abandoned Rome's conquest of Germania, deciding the forested, lightly taxable country east of the Rhine wasn't worth the blood and treasure required to permanently hold it.",
       "wikiSlug": "Germania",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This decision locked in the Rhine-Danube frontier for the next four centuries. The abandoned territory was never designated a formal province; Rome's two actual provinces named 'Germania' — Germania Superior and Germania Inferior — were narrow strips along the Rhine's west bank, not the interior."
+        }
+      ]
     },
     {
       "id": "evt-gt-arminius-death",
       "label": "Arminius Killed by His Own People",
       "year": 21,
-      "description": "Having saved Germanic independence, Arminius was murdered by members of his own people who feared he was using his coalition-building success to make himself a king, illustrating the fatal tension of Germanic political culture.",
+      "description": "Around 21 CE, Arminius was killed by members of his own tribe who suspected he was using his fame and coalition-building success to make himself a king — a fate that illustrates the central contradiction of Germanic political culture, where a leader strong enough to unite independent chiefs against Rome was immediately too dangerous to tolerate once Rome was gone.",
       "wikiSlug": "Arminius",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tacitus records that Arminius's own father-in-law Segestes had been his enemy throughout — Arminius had essentially kidnapped Segestes's daughter to marry her — and remained loyal to Rome even during the battle. Arminius's son, conceived after the ambush and born into Roman captivity, grew up in Ravenna and never returned to Germania."
+        }
+      ],
+      "commonsFile": "Arminius_pushkin.jpg"
     },
     {
       "id": "evt-gt-tacitus-germania",
       "label": "Tacitus Writes Germania",
       "year": 98,
-      "description": "The Roman historian's ethnographic treatise on the Germanic peoples used their supposed virtue as a mirror held up to a decadent Rome, and is the single richest surviving written source on early Germanic society.",
+      "description": "Written around 98 CE by the Roman senator and historian Tacitus, the Germania is the only book-length account of the Germanic peoples to survive from the ancient world — an ethnography whose real target audience was Rome, not Germania.",
       "wikiSlug": "Germania_(book)",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tacitus almost certainly never visited Germania himself; his sources were traders, soldiers, and earlier writers. The book's full Latin title, De Origine et Situ Germanorum (On the Origin and Situation of the Germans), was largely forgotten until a manuscript resurfaced in Renaissance Italy. Because no other comparable source exists, scholars today still argue over which passages reflect real observation and which are pure rhetorical invention."
+        }
+      ],
+      "commonsFile": "Gaius_Cornelius_Tacitus_mirror.jpg"
     },
     {
       "id": "evt-gt-tacitus-nerthus",
       "label": "Tacitus Describes Nerthus",
       "year": 98,
-      "description": "In the Germania, Tacitus records a Germanic goddess named Nerthus worshipped with a wagon procession and accompanied by the ritual drowning of her attendants, one of the rare named deities in early Germanic sources.",
+      "description": "Tacitus records a Germanic goddess called Nerthus — an earth deity — worshipped by multiple tribes through a wagon procession; at its conclusion, the wagon, its sacred objects, and the enslaved attendants who had touched them were all drowned in a lake.",
       "wikiSlug": "Nerthus",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nerthus is the earliest named Germanic goddess in any surviving source. Her name is linguistically related to the Norse god Njörðr, a male sea deity, suggesting the early Germanic divine world did not map neatly onto later Norse mythology's gender assignments. No physical wagon matching her description has been found, but several richly fitted wagons from the Iron Age have been excavated from Danish bogs, the most famous being the Dejbjerg wagons, which some scholars associate with exactly this kind of ritual."
+        }
+      ],
+      "commonsFile": "Nerthus_by_Emil_Doepler.jpg"
     },
     {
       "id": "evt-gt-germanic-assembly",
       "label": "The Germanic Thing Assembly",
       "year": 100,
-      "description": "Tacitus and other Roman sources describe Germanic councils of free armed men who signaled approval by clashing weapons and disapproval by groaning, a collective political forum with no parallel in Roman government.",
+      "description": "The Thing (also spelled 'thing' or 'ting') was the open assembly of free armed men that governed early Germanic communities — warriors signaled approval by clashing their spears, disapproval by groaning, and leaders advised rather than commanded.",
       "wikiSlug": "Thing_(assembly)",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word 'thing' survives in modern place names across the former Germanic world, from Iceland's Althing (still the name of its parliament) to Tynwald in the Isle of Man, one of the world's oldest continuously sitting legislatures. Things were held at prominent, accessible locations and combined lawmaking with market and social functions. The ritual weapon-clashing described by Tacitus is independently confirmed in later Germanic law codes."
+        }
+      ],
+      "commonsFile": "Germaanse_volksvergadering_(cropped).jpg"
     },
     {
       "id": "evt-gt-germanic-kingship",
       "label": "Germanic Kingship and Its Limits",
       "year": 100,
-      "description": "Germanic kings led by persuasion and prestige rather than coercion; royal authority was constrained by the assembly of free warriors and could not command obedience through bureaucratic or police power.",
+      "description": "Germanic kings held power through persuasion and personal prestige, not coercion; there was no bureaucracy, no standing army, no police force to enforce royal will, and the assembly of free warriors could — and sometimes did — override or ignore a king.",
       "wikiSlug": "Germanic_kingship",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars call this model 'sacral kingship': the king's authority rested partly on claimed divine descent or religious status, not just military success. The thesis holds that true executive monarchy only developed among the Germanic peoples through sustained contact with the Roman Empire and later the Christian Church, both of which modeled what centralized, bureaucratic rule actually looked like. Before that contact, 'king' among the Germanic peoples was closer to 'head of the most prestigious war-band' than to any modern sense of the word."
+        }
+      ]
     },
     {
       "id": "evt-gt-comitatus",
       "label": "The Comitatus War-Band",
       "year": 100,
-      "description": "The sworn band of warriors bound to a chief by personal loyalty and reciprocal gift-giving, the social engine of Germanic politics that Tacitus called the comitatus and that drove constant pressure for raiding and plunder.",
+      "description": "The comitatus (pronounced 'koh-mih-TAH-tus') was the sworn war-band at the heart of Germanic society: warriors who pledged personal loyalty to a successful chief, lived in his hall, and accepted his gifts of weapons and gold in exchange for fighting — and, in the ideal, dying — at his side.",
       "wikiSlug": "Comitatus_(warband)",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Latin word comitatus simply means 'a group of companions,' and Roman writers used it because no Germanic equivalent survived in their sources. Scholars debate whether Tacitus's description is a reliable institution or a Roman literary trope, since the ideal of retainer-loyalty also appears in Roman epic poetry. What is not debated is the institution's later influence: historians trace the origins of medieval feudal bonds directly to this kind of personal lord-retainer relationship."
+        }
+      ]
     },
     {
       "id": "evt-gt-germanic-paganism",
       "label": "Germanic Polytheism and Sacred Groves",
       "year": 100,
-      "description": "Early Germanic religion centered on gods worshipped in sacred groves and wetlands rather than temples, with ritual sacrifice including the deposit of war-captives, bent weapons, and whole boats into bogs.",
+      "description": "Early Germanic religion was practiced outdoors — in sacred groves and at wetlands — rather than in temples, and involved serious ritual sacrifice including weapons, animals, and human captives deposited in bogs as payment to the divine.",
       "wikiSlug": "Germanic_paganism",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Because the Germanic peoples left no religious texts of their own, almost everything known about their beliefs comes from Roman writers and from Norse sources written more than a thousand years later in Scandinavia — a significant geographic and temporal gap that makes direct comparison unreliable. Germanic religion overlapped heavily with Celtic practice: both peoples used sacred groves (the Latin 'lucus') and made wetland offerings, suggesting a shared broader tradition across Iron Age northern Europe. The gold bracteates (thin stamped medallions) found across the Germanic world are among the few physical religious objects that can be tied directly to this early period."
+        }
+      ],
+      "commonsFile": "Bracteate_from_Funen,_Denmark_(DR_BR42).jpg"
     },
     {
       "id": "evt-gt-bog-deposits",
       "label": "Germanic Bog Offerings",
       "year": 100,
-      "description": "Germanic peoples deposited war spoils, weapons, and sacrificial victims in lakes and bogs as offerings to divine powers, a practice that has preserved remarkable archaeological evidence including the Tollund Man and the Nydam boat.",
+      "description": "After a battle victory, Germanic peoples repaid their gods by destroying the spoils: enemy weapons were bent and broken, captives killed, and sometimes an entire captured ship was dragged into a bog and sunk — the goods given to the divine, not kept.",
       "wikiSlug": "Votive_deposit",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Nydam boat (found in southern Denmark in 1863) is the most spectacular example: a 75-foot-long (23-meter) oak rowing vessel from around 320 CE, deliberately broken apart and deposited in a bog along with weapons, tools, and human remains. The Tollund Man, recovered from a Danish bog in 1950, was found with a noose still around his neck and is one of hundreds of bog bodies now known from the Germanic and Celtic world, many showing signs of ritual killing. These deposits have preserved organic material — wood, leather, textiles — that survives nowhere else from this period."
+        }
+      ]
     },
     {
       "id": "evt-gt-germanic-women",
       "label": "Germanic Women and Prophetic Authority",
       "year": 100,
-      "description": "Multiple Roman sources, including Tacitus, record that Germanic free women held a form of prophetic and political authority near battle, a status unlike that of Roman women and consistent across independent sources.",
+      "description": "Multiple independent Roman sources, not just Tacitus, record that Germanic free women held a recognized form of prophetic and political authority — they were present near battle and consulted as oracles, a public role with no equivalent for respectable Roman women.",
       "wikiSlug": "Seeress_(Germanic)",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most famous example Tacitus names elsewhere is Veleda, a seeress of the Bructeri tribe who during the revolt of 69 CE was treated by both Germanic and Roman sources as a genuine political power — Roman embassies sent gifts to her, and her prophecies influenced whether alliances held. The Old Norse term for such a figure is völva (staff-bearer), and excavated graves of women buried with ritual staffs have been found across the Germanic world, suggesting the role had real material trappings, not just literary decoration."
+        }
+      ],
+      "commonsFile": "Finds_from_a_priestess'_grave.jpg"
     },
     {
       "id": "evt-gt-limes",
       "label": "The Limes Germanicus Built",
       "year": 83,
-      "description": "Rome fortified its German frontier with a continuous system of forts, watchtowers, military roads, and in places a timber palisade or earthwork, designed to channel and tax cross-frontier movement rather than seal it.",
+      "description": "Rome's Germanic frontier line, the Limes Germanicus, was a linked system of forts, watchtowers, military roads, and timber palisade running for hundreds of miles — built not to stop armies but to channel movement through checkpoints, tax the traffic, and make the border legible to imperial administrators.",
       "wikiSlug": "Limes_Germanicus",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Limes Germanicus ran from the Rhine delta to the Danube, covering roughly 550 miles (885 km) of frontier. It remained Rome's primary control instrument from around 83 AD until the Alemanni broke through decisively in 260 AD. At its peak the system included more than 60 major forts and hundreds of smaller watchtowers spaced close enough to signal each other visually."
+        }
+      ],
+      "commonsFile": "Castellum_NigrumPullum_vogelvlucht_impressie_Stevie_Xinas_2016.jpg"
     },
     {
       "id": "evt-gt-roman-trade-goods",
       "label": "Roman Luxury Goods Cross the Frontier",
       "year": 100,
-      "description": "Roman silver coin, fine red tableware, glass, bronze vessels, and wine flowed across the Limes into Germanic territory, enriching the frontier chiefs who controlled access to the trade and allowing them to recruit larger war-bands.",
+      "description": "Roman manufactured wealth crossed the Limes in one direction while raw materials flowed back: silver coin, fine red Samian pottery, glass vessels, and wine moved north into Germanic hands, enriching the frontier chiefs who controlled access and giving them the resources to recruit bigger war-bands.",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Archaeologists have found hoards of Roman silver denarii and intact Roman wine amphoras hundreds of miles beyond the actual frontier, showing the trade penetrated far deeper than the border zone. The pattern mirrors what happened earlier with Iron Age Celtic elites, who also traded raw materials for Mediterranean prestige goods and used the resulting wealth to consolidate political power. Roman wine was particularly valued because its production required tools and infrastructure the Germanic world did not have."
+        }
+      ]
     },
     {
       "id": "evt-gt-amber-road",
       "label": "The Amber Road Trade",
       "year": 100,
-      "description": "Baltic amber, furs, cattle hides, and slaves flowed south to the empire in exchange for Roman manufactured goods, enriching frontier chiefs and binding the Germanic world economically to the empire across the Limes.",
+      "description": "The Amber Road was one of the ancient world's great long-distance trade routes, carrying fossilized Baltic tree resin south to the Mediterranean for centuries; Rome's appetite for amber as jewelry and protective amulets made it a commodity that commanded prices wildly above its weight.",
       "wikiSlug": "Amber_Road",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Amber trade routes connecting the Baltic coast to the Mediterranean predate Rome by millennia, with Baltic amber found in Mycenaean Greek tombs. The Romans believed amber (called \"electron\" by the Greeks) had protective and healing properties, driving demand that was essentially magical rather than practical. A single pound of Baltic amber could fetch as much as a healthy enslaved person at the height of Roman demand."
+        }
+      ],
+      "commonsFile": "Baltis_amber_road.jpg"
     },
     {
       "id": "evt-gt-germanic-auxilia",
       "label": "Germanic Auxiliaries in the Roman Army",
       "year": 100,
-      "description": "Rome recruited Germani as auxiliary troops in its legions from early on, training them in Roman tactics and organization and sending them back to the frontier as veterans with inside knowledge of imperial methods.",
+      "description": "Rome recruited Germanic warriors as auxiliaries — non-citizen units attached to the legions — training them in Roman formation tactics, logistics, and siege techniques, then sending the veterans home with inside knowledge of exactly how the empire fought.",
       "wikiSlug": "Auxiliaries_(Roman_military)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By the 2nd century, auxiliary units actually outnumbered citizen legionaries, representing three-fifths of Rome's total land forces. Auxiliary recruits were mostly volunteers rather than conscripts, attracted by steady pay, plunder, and the prospect of Roman citizenship on discharge after 25 years. Arminius, who destroyed three legions in the Teutoburg Forest, had served as an auxiliary commander and earned Roman citizenship before turning that training against his former employers."
+        }
+      ],
+      "commonsFile": "028_Conrad_Cichorius,_Die_Reliefs_der_Traianssäule,_Tafel_XXVIII.jpg"
     },
     {
       "id": "evt-gt-przeworsk",
@@ -510,21 +783,35 @@
       "id": "evt-gt-elder-futhark",
       "label": "The Elder Futhark Runes Appear",
       "year": 150,
-      "description": "The earliest runic alphabet appeared among the Germanic peoples, its angular letter-shapes adapted from Mediterranean scripts encountered along the frontier, used for short inscriptions on weapons, jewelry, and memorial stones.",
+      "description": "The Elder Futhark, the oldest runic alphabet, appeared among the Germanic peoples around the 2nd century CE — its 24 angular letters clearly adapted from Mediterranean scripts (Latin and the related North Italic alphabets) encountered along the frontier, not invented independently.",
       "wikiSlug": "Elder_Futhark",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name \"futhark\" works like \"alphabet\": it comes from the sound-values of the first six letters (f, u, th, a, r, k). The angular, straight-line shapes of runic letters are not decorative; they were designed specifically to be cut into wood and metal, where curved strokes are hard to carve cleanly. The Elder Futhark was used across the whole Germanic world from roughly the 2nd to the 8th century before regional variants like the Norse Younger Futhark simplified it."
+        }
+      ],
+      "commonsFile": "Einangsteinen_inscription.jpg"
     },
     {
       "id": "evt-gt-runic-inscriptions-function",
       "label": "Runes as Ritual and Ownership Marks",
       "year": 175,
-      "description": "Despite centuries of runic literacy, the Germani produced no tax records, law codes, or chronicles in runes; the script was used for personal names, makers' marks, charms, and dedications, reflecting a society that ran on oral memory rather than written administration.",
+      "description": "Although the Germanic peoples had runic writing for centuries, they left no tax records, law codes, chronicles, or letters in runes — the script was reserved for ownership marks, charms, dedications, and curses, because a society that ran on oral memory and personal loyalty simply had no need for written administration.",
       "wikiSlug": "Runes",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The surviving Elder Futhark corpus runs to only about 350 inscriptions spread across three centuries and an entire continent — an astonishingly thin record for a literate culture. Most are just a name or a phrase of five words or fewer. The longest runic inscriptions of the early period tend to be curses on whoever steals the object. The contrast with Rome, which left millions of written documents in the same era, perfectly illustrates what writing is for: wherever there is a bureaucratic state, archives appear; where there is not, they do not."
+        }
+      ],
+      "commonsFile": "Björketorpsstenen_runor.jpg"
     },
     {
       "id": "evt-gt-runic-spread",
@@ -540,171 +827,288 @@
       "id": "evt-gt-germanic-oral-culture",
       "label": "Germanic Oral Memory and Law",
       "year": 150,
-      "description": "In the absence of written records, Germanic law was carried in the heads of specialists who recited it aloud at assemblies, descent was tracked through memorized genealogies, and heroic deeds survived as poems performed in the mead-hall.",
+      "description": "Germanic law was not written down but memorized: legal specialists recited the rules aloud at the public assembly (the *Thing*), genealogies were tracked in living memory, and heroic deeds survived only as poems performed in the mead-hall — a deliberate oral system, not a gap waiting to be filled.",
       "wikiSlug": "Germanic_law",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The oral transmission of law was so reliable that when Germanic kingdoms eventually did write down law codes (starting in the 5th–6th centuries), they used the records to formalize custom that had been stable for generations. The Anglo-Saxon and Frankish law codes explicitly describe themselves as transcriptions of existing spoken law rather than new legislation. Scholars of Germanic law note that many features previously assumed to be primitive turned out to derive from sophisticated oral jurisprudence with precise technical vocabulary."
+        }
+      ],
+      "commonsFile": "Cpg164_0035_wergild.jpg"
     },
     {
       "id": "evt-gt-marcomanni",
       "label": "The Marcomanni in Bohemia",
       "year": 9,
-      "description": "The Marcomanni, a Germanic people led by the king Maroboduus, settled in Bohemia after their expulsion from the Rhine country by Roman campaigns, establishing a durable kingdom on Rome's Danube flank.",
+      "description": "The Marcomanni (roughly 'border men') were a Germanic people who settled in what is now Bohemia around 9 BC under their Roman-educated king Maroboduus, naming the region 'Boiohaemum' after the Celtic Boii who had left — the name Bohemia still carries that history.",
       "wikiSlug": "Marcomanni",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Maroboduus had literally grown up in Rome, educated at the imperial court, before being installed as king — Rome's attempt to create a friendly buffer state on its own border. He built a confederation powerful enough that Augustus considered him a strategic threat and quietly encouraged his internal rivals. Maroboduus was eventually overthrown around 19 CE, ending up as a Roman-protected exile in Ravenna for eighteen years, a peculiar footnote to the whole project."
+        }
+      ],
+      "commonsFile": "Marcomannia_e_Sarmatia_178-179_dC.jpg"
     },
     {
       "id": "evt-gt-marcomannic-wars",
       "label": "The Marcomannic Wars",
       "year": 166,
-      "description": "A grand coalition led by the Marcomanni and Quadi broke across the Danube, beginning the empire's long third-century crisis and marking the first time a Germanic force reached Italian soil since the Cimbri.",
+      "description": "Around 166–167 CE a large coalition of Germanic and Sarmatian peoples led by the Marcomanni and Quadi smashed across the Danube, drove deep into Roman territory, and briefly reached Italy — the first foreign force to do so in over 250 years.",
       "wikiSlug": "Marcomannic_Wars",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The wars dragged on for roughly fourteen years, with fighting along the entire northeastern Danube frontier, not just in Bohemia. Rome was simultaneously dealing with the Antonine Plague, meaning Marcus had to fight a multi-front crisis with a depleted army and a collapsing tax base. Cassius Dio and the gossipy Historia Augusta are the main surviving literary sources, both written long after the fact and neither fully reliable, which is one reason historians still argue about the wars' exact scope and chronology."
+        }
+      ],
+      "commonsFile": "Column_of_Marcus_Aurelius_-_detail4.jpg"
     },
     {
       "id": "evt-gt-antonine-plague",
       "label": "The Antonine Plague",
       "year": 165,
-      "description": "A devastating pandemic, probably smallpox, carried back by Roman armies from the east raged across the empire for years during the Marcomannic Wars, gutting the army and tax base Rome needed at the moment of maximum Germanic pressure.",
+      "description": "A pandemic — probably smallpox — broke out in 165 CE, carried back by Roman armies returning from campaigns in the east, and raged across the empire for fifteen years, killing somewhere between a tenth and a quarter of the population in the hardest-hit regions at precisely the moment the Danube frontier cracked.",
       "wikiSlug": "Antonine_Plague",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The plague is named 'Antonine' after the dynasty, and also called the 'Plague of Galen' after the famous physician who observed it firsthand and left descriptions that form the basis of modern identification as smallpox. Galen actually fled Rome during the worst of it, which his ancient critics noted and his modern admirers prefer not to dwell on. The death toll gutted the legions Marcus needed for the Marcomannic Wars, forcing him to recruit from unusual sources — including, pointedly, Germanic fighters themselves."
+        }
+      ],
+      "commonsFile": "Galenosgruppe_(Wiener_Dioskurides).jpg"
     },
     {
       "id": "evt-gt-marcus-aurelius",
       "label": "Marcus Aurelius on the Danube",
       "year": 170,
-      "description": "The philosopher-emperor spent his last years personally on campaign against the Germanic confederations, fighting a war he found distasteful but strategically unavoidable, and composing his Meditations in the field.",
+      "description": "Marcus Aurelius (161–180 CE) was the last of the 'Five Good Emperors,' a Stoic philosopher raised to rule at the empire's height who spent the final thirteen years of his reign not in Rome but grinding out a war on the Danube he found philosophically distasteful and could not avoid.",
       "wikiSlug": "Marcus_Aurelius",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Marcus served as consul three times before becoming emperor — unusual for someone who hadn't yet held the office — reflecting how carefully he had been groomed by his predecessor Hadrian and then Antoninus Pius. He was the last emperor of the Pax Romana, the roughly 200-year period of relative peace from Augustus onward, and his death in 180 is often used as the conventional closing date for that era. Unlike nearly every emperor before him, he voluntarily shared power, ruling jointly with his adoptive brother Lucius Verus from 161 until Verus died in 169."
+        }
+      ],
+      "commonsFile": "MSR-ra-61-b-1-DM.jpg"
     },
     {
       "id": "evt-gt-column-marcus-aurelius",
       "label": "Column of Marcus Aurelius",
       "year": 193,
-      "description": "The spiral relief column erected in Rome to commemorate the Marcomannic Wars records the conflict as grim attrition rather than glory — Roman soldiers burning villages, leading captives, executing prisoners — a departure from the triumphalist style of Trajan's column.",
+      "description": "The Column of Marcus Aurelius, still standing in Rome's Piazza Colonna, is a nearly 100-foot stone shaft wound with a 367-foot spiral frieze depicting the Marcomannic Wars — and it reads nothing like Trajan's triumphalist column: the scenes are grimmer, the figures cruder, the war shown as attrition and burning rather than glory.",
       "wikiSlug": "Column_of_Marcus_Aurelius",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The column's frieze spirals upward 21 times and was originally topped by a statue of Marcus Aurelius, which was replaced in 1589 by a statue of Saint Peter that stands there today. Construction began after Marcus's death in 180 and was completed around 193 CE, meaning it was finished under Septimius Severus, who had his own propaganda reasons for linking himself to the previous dynasty. The cruder, more expressionistic carving style compared to Trajan's column has led some art historians to see it as an early marker of the shift toward late-antique visual culture."
+        }
+      ],
+      "commonsFile": "Colonna_di_Marco_aurelio_-_Frontale.jpg"
     },
     {
       "id": "evt-gt-rain-miracle",
       "label": "The Rain Miracle of the Quadi War",
       "year": 172,
-      "description": "A sudden storm reportedly saved a Roman force surrounded by the Quadi; pagans attributed it to a magician while Christians claimed the prayers of soldiers, a dispute preserved on the Column of Marcus Aurelius that reflects the empire's shifting religious identity.",
+      "description": "In 172 CE, during a battle against the Quadi, a sudden storm reportedly saved a Roman force that had been surrounded and was dying of thirst; pagans credited a magician named Arnuphis, Christians claimed the prayers of soldiers in a 'Thundering Legion,' and the argument itself tells you something about an empire whose religious identity was quietly cracking.",
       "wikiSlug": "Column_of_Marcus_Aurelius",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The rain miracle panel is one of the most famous scenes on the Column of Marcus Aurelius, showing a rain god with outstretched arms pouring water on the Romans while lightning strikes their enemies. The Christian version of the story, claiming a 'legio fulminata' (Thundering Legion) full of Christian soldiers prayed it into existence, appears in Christian apologetic literature by the late second century — early enough to be embarrassing for pagans, late enough to be convenient for Christians. Marcus himself, in his letters, makes no mention of the event at all."
+        }
+      ],
+      "commonsFile": "Detail.from.column.of.marcus.aurelius.arp.jpg"
     },
     {
       "id": "evt-gt-germani-settled-inside-empire",
       "label": "Germani Settled Inside the Empire",
       "year": 175,
-      "description": "Marcus Aurelius settled large numbers of defeated Germanic peoples inside Roman provincial territory under terms requiring them to farm the land and supply soldiers, establishing at new scale the policy of absorption that the empire would increasingly rely on.",
+      "description": "During and after the Marcomannic Wars, Marcus Aurelius settled large numbers of defeated Germanic peoples inside Roman provincial territory — obliging them to farm the land and supply soldiers — establishing at a new scale the policy of absorption (called laeti or foederati arrangements) that the empire would rely on more and more over the following two centuries.",
       "wikiSlug": "Foederati",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The arrangement wasn't entirely new: Rome had been settling allied peoples on provincial land for generations. What changed under Marcus was the scale and the precedent — doing it with recently-hostile war captives rather than long-term allies. The term foederati (from foedus, 'treaty') covered peoples bound by formal agreements to provide troops; the distinction between 'we let them in on our terms' and 'we can no longer keep them out' would blur irreversibly over the next two hundred years."
+        }
+      ]
     },
     {
       "id": "evt-gt-marcus-meditations",
       "label": "Marcus Aurelius Writes the Meditations",
       "year": 170,
-      "description": "The emperor composed his private Stoic notebooks while on the Danube frontier, the philosophical counterpart to the grim military reality of the Germanic wars recorded on his column.",
+      "description": "The Meditations is a private notebook Marcus Aurelius kept for himself — never published, never titled, written in Greek — in which he argued with himself about duty, mortality, and keeping one's equanimity while running an empire, composed largely while on campaign on the Danube frontier.",
       "wikiSlug": "Meditations",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The book survives as twelve books, though scholars think the order is largely arbitrary — it was a working journal, not a polished treatise. It was first printed in 1559 from a manuscript whose origins are murky; no one knows how it survived the 1,400 years between Marcus's death and that edition. The philosophy throughout is Stoic, and Marcus cites earlier Stoics like Epictetus (a former slave) as his models — the spectacle of the most powerful man in the world taking moral instruction from a man who had been someone's property is one of antiquity's more arresting ironies."
+        }
+      ],
+      "commonsFile": "Marcus_Aurelius._De_seipso,_seu_vita_sua_(Xylander,_1558).jpg"
     },
     {
       "id": "evt-gt-crisis-third-century",
       "label": "The Crisis of the Third Century",
       "year": 235,
-      "description": "A fifty-year near-collapse of the Roman Empire marked by rapid turnover of emperors, currency debasement, plague, and simultaneous Germanic breakthroughs on multiple frontiers, which accelerated the formation of the great Germanic confederations.",
+      "description": "Between 235 and 284 CE the Roman Empire nearly tore itself apart — emperors murdered in rapid succession, currency collapsed, plague swept the provinces, and the frontiers cracked on every side simultaneously, giving the Germanic confederations the opening they needed to grow from frontier nuisances into history's main characters.",
       "wikiSlug": "Crisis_of_the_Third_Century",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At the height of the crisis the empire actually split into three separate states at once: the breakaway Gallic Empire in the west, the Palmyrene Kingdom in the east, and what remained of the central government in between. The period saw roughly fifty emperors in fifty years, most dying violently. It was this concentrated chaos — not a single catastrophic battle — that transformed the Germanic world."
+        }
+      ],
+      "commonsFile": "5305_-_Brescia_-_S._Giulia_-_Ritratto_di_Claudio_II_il_Gotico_-_Foto_Giovanni_Dall'Orto,_25_Giu_2011_(cropped).jpg"
     },
     {
       "id": "evt-gt-alemanni",
       "label": "The Alemanni Confederation Forms",
       "year": 213,
-      "description": "A new confederation of upper Rhine and Danube peoples first named in Roman sources began raiding Roman Gaul and Italy; their name, meaning roughly 'all the men,' reveals their nature as a political coalition of many smaller groups.",
+      "description": "The Alemanni were a confederation of upper Rhine and Danube peoples — the name means roughly 'all the men,' a label that advertises its own nature as a coalition welded from many smaller groups — first mentioned in Roman sources in 213 CE and a permanent menace to Gaul and northern Italy for centuries afterward.",
       "wikiSlug": "Alemanni",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In 260 CE the Alemanni seized the Agri Decumates (the roughly triangular wedge of land between the upper Rhine and upper Danube that Rome had held for generations), forcing Rome to fall back to the rivers as defensive lines. They eventually expanded into Alsace and northern Switzerland, where their dialect became the basis of Old High German. The modern French and Spanish words for Germany — 'Allemagne' and 'Alemania' — are simply this one confederation's name, frozen into neighboring languages."
+        }
+      ],
+      "commonsFile": "Alamannischi_Girtelbschleg.jpg"
     },
     {
       "id": "evt-gt-confederation-snowball",
       "label": "The Confederation Snowball Mechanism",
       "year": 230,
-      "description": "Successful war-leaders enriched by Roman silver and raiding attracted more warriors; more warriors meant more victories; more victories drew in remnants of smaller peoples, causing confederations to accrete under winning names at accelerating pace during the third-century crisis.",
+      "description": "The great Germanic confederations of the third century grew not by ethnic solidarity but by political momentum: a successful war-leader enriched by Roman raiding attracted warriors, whose victories drew in remnants of smaller peoples, who folded into the winning name for protection and plunder, building the confederation like a snowball rolling downhill.",
       "wikiSlug": "Germanic_peoples",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This accretion model means confederation names like 'Alemanni' or 'Franks' were brands of successful political coalitions, not the names of coherent ethnic groups that had existed for centuries. The same mechanism had been working at smaller scale all along — the comitatus system (a war-band of warriors personally loyal to a leader) was always the building block — but the third-century combination of a weakened, raidable Rome and large standing opportunities accelerated the process dramatically."
+        }
+      ],
+      "commonsFile": "Bronze_figure_of_a_German_Bibliothèque_Nationale.jpg"
     },
     {
       "id": "evt-gt-franks",
       "label": "The Franks First Named",
       "year": 257,
-      "description": "Roman sources first record the Franks, a confederation of lower-Rhine peoples whose name may mean 'the fierce' or 'the free,' the ancestors of the people who would give France its name and build the empire of Charlemagne.",
+      "description": "The Franks were a new confederation of lower-Rhine peoples who appear in Roman sources around the mid-third century — their name is often translated 'the fierce' or 'the free,' though the etymology is genuinely uncertain — and they are the direct ancestors of the people who eventually give France its name and build Charlemagne's empire.",
       "wikiSlug": "Franks",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Franks weren't a single tribe that expanded but a new political label that accreted across a wide stretch of the lower Rhine, eventually absorbing speakers of multiple languages and becoming Catholic. By the early medieval period, much of what is now the Netherlands, Germany, Belgium, Luxembourg, and France could be described as Frankish territory. The confederation that started as a Roman-era frontier name went on to shape the political map of western Europe for a millennium."
+        }
+      ],
+      "commonsFile": "C._814_Frankish_Kingdoms.jpg"
     },
     {
       "id": "evt-gt-goths-danube",
       "label": "The Goths Reach the Danube",
       "year": 238,
-      "description": "Gothic peoples appeared on the lower Danube and began raiding deep into the Balkans and Asia Minor, sacking cities far inside the empire and inaugurating the most dangerous phase of Germanic pressure on Rome.",
+      "description": "The Goths, a large confederation from the lower Danube and Black Sea region, began crossing into Roman territory and raiding deep into the Balkans and Asia Minor in the mid-third century — sacking cities, looting provinces, and demonstrating a capacity for organized, large-scale warfare that smaller Germanic groups had never achieved.",
       "wikiSlug": "Gothic_Wars",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gothic raiding included naval operations on the Black Sea and into the Aegean, attacking cities like Thessalonica and Ephesus that had not seen an enemy in generations. The Gothic Wars as a series of conflicts would run from 249 to 554 CE — over three hundred years — making them one of the longest sustained military confrontations in ancient history. The Goths' story after this chapter is the subject of the next book in this chain."
+        }
+      ]
     },
     {
       "id": "evt-gt-abritus",
       "label": "Battle of Abritus",
       "year": 251,
-      "description": "A Gothic force defeated and killed the emperor Decius in battle in modern Bulgaria, the first time a reigning Roman emperor had died fighting a foreign enemy, a milestone that revealed the empire's vulnerability.",
+      "description": "In the summer of 251 CE, a Gothic force under King Cniva (pronounced 'K-NYE-va') defeated a Roman army at Abritus in modern Bulgaria, killing not just Emperor Decius but his son and co-emperor Herennius Etruscus alongside him — the first time a reigning Roman emperor had ever been killed in battle by a foreign enemy.",
       "wikiSlug": "Battle_of_Abritus",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Roman historian Ammianus Marcellinus ranked Abritus alongside the Teutoburg Forest disaster (9 CE) and the Battle of Adrianople (378 CE) as one of Rome's three most catastrophic defeats — which says something about how badly the empire was shaken. Cniva had already sacked Philippopolis (modern Plovdiv, Bulgaria) before Abritus, demonstrating that this was a coordinated campaign, not a raid."
+        }
+      ],
+      "commonsFile": "10_2023_-_Palazzo_Altemps,_Roma,_Lazio,_00186,_Italia_-_Sarcofago_Grande_Ludovisi_(Grande_Ludovisi_sarcophagus)_-_Arte_Romana_-_Photo_Paolo_Villa_FO232047_ombre_gimp_bis.jpg"
     },
     {
       "id": "evt-gt-saxons",
       "label": "Saxon Sea-Raiders on the North Sea",
       "year": 280,
-      "description": "Saxon pirates raided the coasts of Gaul and Britain so persistently that Rome built an entire chain of coastal forts, the Saxon Shore defenses, specifically against them.",
+      "description": "The Saxons were a coalition of north German coastal peoples who turned to sea-raiding with enough persistence and violence that Rome eventually built an entire dedicated chain of coastal forts — the 'Saxon Shore' — specifically to defend against them along the Channel coasts of Britain and Gaul.",
       "wikiSlug": "Saxons",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Saxons were closely related to the Angles and Frisians along the same coastal stretch, and Roman sources often lumped these peoples together when describing raids on Britain and Gaul. Their descendants and namesakes would eventually cross the sea permanently, founding Anglo-Saxon England and giving their name to the English counties of Essex, Sussex, Middlesex, and Wessex."
+        }
+      ],
+      "commonsFile": "Seax_with_replica.jpg"
     },
     {
       "id": "evt-gt-saxon-shore",
       "label": "The Saxon Shore Forts",
       "year": 285,
-      "description": "Rome constructed a chain of coastal fortifications along the Channel coasts of Britain and Gaul in response to escalating Saxon sea-raiding, one of the most visible fourth-century adaptations to Germanic maritime pressure.",
+      "description": "Rome constructed the Saxon Shore — a coordinated chain of massive fortified harbors and signal stations along both sides of the English Channel — in the late third century specifically to counter Saxon sea-raiding, one of the clearest pieces of physical evidence that Germanic maritime power had become a strategic problem Rome could not ignore.",
       "wikiSlug": "Saxon_Shore",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Saxon Shore forts in Britain survive remarkably well: sites like Portchester Castle (Hampshire) still have walls standing 20 feet (6 meters) high, some of the best-preserved Roman military construction anywhere in the world. The command was led by an officer called the 'Count of the Saxon Shore' (Comes Litoris Saxonici), a title that only appears once Rome had admitted the raiders deserved their own dedicated military theater."
+        }
+      ],
+      "commonsFile": "Notitia_Dignitatum_-_Comes_litoris_Saxonici_per_Britanniam.jpg"
     },
     {
       "id": "evt-gt-soldier-emperors",
@@ -730,11 +1134,18 @@
       "id": "evt-gt-diocletian",
       "label": "Diocletian Reorganizes the Empire",
       "year": 284,
-      "description": "Diocletian took power and undertook the sweeping reorganization of imperial administration, the army, and the currency that stabilized Rome after the third-century crisis and bought the empire another century of survival.",
+      "description": "Diocletian seized power in 284 CE and undertook the most sweeping reorganization of the Roman state in centuries: rebuilding the currency, restructuring the army, splitting imperial administration between multiple emperors (the 'Tetrarchy'), and fortifying the frontiers in depth — buying the empire roughly another century of life.",
       "wikiSlug": "Diocletian",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Diocletian was born into a low-status family in Dalmatia (modern Croatia) and rose entirely through military rank, the classic path of the third century's 'soldier emperors.' He was one of the very few emperors of the crisis era who died of old age rather than assassination, abdicating in 305 and retiring to a palace at Split (whose ruins still stand today). His Edict on Maximum Prices, attempting to control inflation, is one of the most ambitious — and largely unsuccessful — price-control experiments in antiquity."
+        }
+      ],
+      "commonsFile": "Istanbul_-_Museo_archeol._-_Diocleziano_(284-305_d.C.)_-_Foto_G._Dall'Orto_28-5-2006_(cropped).jpg"
     },
     {
       "id": "evt-gt-nydam-boat",
@@ -750,151 +1161,250 @@
       "id": "evt-gt-constantine",
       "label": "Constantine Reunifies the Empire",
       "year": 312,
-      "description": "Constantine defeated his rivals and reunified the empire, also beginning the shift to an officially Christian state; his reign set the fourth-century framework within which the Germanic confederations would be fought, hired, and eventually inherited.",
+      "description": "Constantine I defeated his rivals at the Battle of Milvian Bridge in 312, reunified the empire, and became the first Roman emperor to convert to Christianity — reshaping the political and religious framework the Germanic world would eventually inherit.",
       "wikiSlug": "Constantine_the_Great",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Constantine founded Constantinople (modern Istanbul) as a new imperial capital in 330, deliberately placed at the crossroads of Europe and Asia; it would outlast the Western Empire by a thousand years. He issued the Edict of Milan in 313, decriminalizing Christianity across the empire — a policy that made the subsequent mass conversions among the Germanic peoples possible. His conversion reportedly followed a vision before the Milvian Bridge battle, though whether it was genuine faith or political calculation historians still argue."
+        }
+      ],
+      "commonsFile": "Statua_di_Costantino_ai_musei_capitolini.jpg"
     },
     {
       "id": "evt-gt-council-nicaea",
       "label": "Council of Nicaea and Arianism Condemned",
       "year": 325,
-      "description": "The imperial church council formally condemned the Arian theological position, which held Christ subordinate to God the Father; many Germanic peoples beyond the frontier were being converted to exactly this heretical form of Christianity.",
+      "description": "The First Council of Nicaea, convened by Constantine in 325 in Bithynia (northwest Turkey), formally defined orthodox Christian doctrine and condemned Arianism as heresy — but the condemned theology was already spreading beyond the frontier into the Germanic world.",
       "wikiSlug": "First_Council_of_Nicaea",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The council produced the Nicene Creed, still recited in most Christian churches today, which insists Christ is \"of one substance\" with the Father — the direct refutation of the Arian position. Constantine called the council partly to settle a dispute tearing apart the church he'd just allied with; the irony is that condemning Arianism loudly broadcast it to the very missionaries heading north of the Danube. The Gothic converts who received it weren't rebelling against Rome — Arianism was simply the form of Christianity that arrived first."
+        }
+      ],
+      "commonsFile": "Μιχαήλ_Δαμασκηνός_-_Α΄_Οικουμενική_Σύνοδος_7741.jpg"
     },
     {
       "id": "evt-gt-ulfilas-arian-mission",
       "label": "Ulfilas Converts the Goths",
       "year": 340,
-      "description": "The missionary bishop Ulfilas, working among the Goths, converted them to Arian Christianity and invented the Gothic alphabet to give them a Bible in their own language, ensuring that the Germanic heirs of Rome would be Christianized but heretically so.",
+      "description": "Ulfilas (around 311–383), a Gothic-born bishop of Cappadocian Greek descent, spent decades as a missionary among the Goths north of the Danube, converting them to Arian Christianity and inventing the Gothic alphabet to give them a written Bible in their own language.",
       "wikiSlug": "Ulfilas",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ulfilas's Gothic alphabet was derived from a mix of Greek, Latin, and runic characters — a custom script built specifically to transcribe a spoken language that had never had a written form. He reportedly translated the entire Bible except the Books of Kings, which he left out because he thought the Goths were already too warlike and didn't need extra inspiration. His mission worked so thoroughly that Arianism became the default Christianity of nearly all the Germanic successor kingdoms that replaced Rome in the West."
+        }
+      ],
+      "commonsFile": "Bischof_Ulfilas_erklärt_den_Goten_das_Evangelium.jpg"
     },
     {
       "id": "evt-gt-gothic-bible",
       "label": "Ulfilas Translates the Gothic Bible",
       "year": 350,
-      "description": "Ulfilas's translation of the Bible into Gothic using his invented alphabet was the first substantial literary text in any Germanic language, a milestone in Germanic writing history that helped spread Arian Christianity across the barbarian world.",
+      "description": "Ulfilas's translation of the Christian Bible into Gothic, completed around the mid-fourth century using the alphabet he invented for the purpose, is the oldest substantial text in any Germanic language and the foundation of everything we know about how Gothic sounded.",
       "wikiSlug": "Gothic_Bible",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most famous surviving manuscript is the Codex Argenteus (\"Silver Book\"), a sixth-century luxury copy written in silver and gold ink on purple-dyed vellum, now held in Uppsala, Sweden. Of the original 336 pages, 188 survive. Gothic has no living descendants — it died with the Goths — but the Bible translation means linguists can reconstruct it in far more detail than any other extinct Germanic language. Without Ulfilas, Gothic would be a handful of names on Roman military rosters."
+        }
+      ],
+      "commonsFile": "Codex_Argenteus_page.jpg"
     },
     {
       "id": "evt-gt-battle-strasbourg",
       "label": "Battle of Strasbourg",
       "year": 357,
-      "description": "The future emperor Julian shattered a large Alemannic army on the Rhine in what looked like proof that a competent Rome could still decisively defeat the Germanic confederations, a victory that masked the deeper pressures building beyond the frontier.",
+      "description": "At Strasbourg (Roman Argentoratum) in 357, the future emperor Julian crushed a joint Alemannic army under their paramount king Chnodomar, killing thousands and capturing Chnodomar himself — the most complete Roman tactical victory on the Rhine in a generation.",
       "wikiSlug": "Battle_of_Strasbourg",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Julian was commanding as Caesar (junior emperor) under Constantius II, not yet emperor himself; his victory here built the army's loyalty that would lead to his own elevation in 360. The Roman force was significantly outnumbered yet held its ground through disciplined infantry work, exactly the kind of outcome Rome needed to believe the frontier was still manageable. Chnodomar, the captured Alemannic king, was sent to Italy as a trophy — one of the last times Rome could claim that kind of symbolic dominance over a Germanic leader."
+        }
+      ],
+      "commonsFile": "Alemanni_expansion.png"
     },
     {
       "id": "evt-gt-foederati",
       "label": "Germanic Foederati as Imperial Pillar",
       "year": 350,
-      "description": "By the mid-fourth century, settling whole Germanic groups inside the empire under treaty, with military service under their own leaders, had become a structural pillar of imperial defense rather than an emergency measure.",
+      "description": "Foederati (\"feh-deh-RAH-tee,\" from Latin foedus, \"treaty\") were Germanic groups settled inside Roman territory under formal treaty, providing military service under their own leaders in exchange for land and pay — a policy that started as emergency triage and hardened into the empire's main defense model.",
       "wikiSlug": "Foederati",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike earlier auxiliaries who were fully integrated into Roman units, foederati served under their own chiefs with their own weapons and tactics, meaning they remained culturally Germanic even while drawing Roman pay. The arrangement worked as long as Roman gold flowed and Roman prestige held; when either dried up, the foederati had armies, territory, and commanders already in place. What began as a flexible recruitment tool became, quietly, the mechanism by which whole Germanic nations took up residence inside the empire's borders."
+        }
+      ]
     },
     {
       "id": "evt-gt-germanic-generals",
       "label": "Germanic Generals in the High Command",
       "year": 360,
-      "description": "By the fourth century Germanic officers held senior commands in the Roman field armies, making and sometimes unmaking emperors; the military had become structurally dependent on the very people it was defending against.",
+      "description": "By the mid-fourth century Germanic officers commanded entire Roman field armies, and some played kingmaker roles in imperial succession — the empire had promoted Germani so far up the military ladder that its defense was structurally dependent on them.",
       "wikiSlug": "Foederati",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This wasn't ignorance on Rome's part: emperors and senators noticed the trend and periodically complained about it. But the demographic damage of the third-century plagues and civil wars had gutted the pool of Roman-born soldiers, and the men who knew best how to fight Germanic confederation tactics were other Germani. Men like Stilicho (Vandal father, Roman career) and later Aetius would hold the Western Empire together through sheer personal competence — proof that the system worked right up until it didn't."
+        }
+      ]
     },
     {
       "id": "evt-gt-huns-approach",
       "label": "The Huns Move West",
       "year": 370,
-      "description": "A people from the Eurasian steppe unknown to Rome began moving west, transmitting pressure through the Gothic confederations on the Danube and setting in motion the catastrophe that would end the Germanic tribal era.",
+      "description": "Around 370 CE, the Huns, a nomadic people from the Eurasian steppe (the vast grassland belt stretching from Hungary to Mongolia), reached the Volga River and began pushing west, setting off a chain-reaction displacement that would crash the Gothic world into the Danube frontier.",
       "wikiSlug": "Huns",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Romans had literally no intelligence on the Huns before the Goths arrived as refugees describing them: they appear in no Roman source before 375. Hun cavalry tactics — composite bows fired at full gallop, feigned retreats, no fixed supply lines — were unlike anything the Goths or Romans had faced, and Gothic infantry confederations had no answer for them. By 430 the Huns had built a short-lived steppe empire reaching from the Hungarian plain; at their peak under Attila they extracted tribute from Constantinople itself."
+        }
+      ],
+      "commonsFile": "Estimated_map_of_Hunnic_political_control_under_Attila_(c._450_CE).jpg"
     },
     {
       "id": "evt-gt-gothic-danube-crossing-375",
       "label": "The Gothic Crossing of the Danube",
       "year": 375,
-      "description": "Pressed by the Hunnic advance, the Gothic confederations came apart and masses of Goths begged Rome to let them cross the Danube as refugees, the event that would lead within three years to Adrianople and the beginning of the end of the Western Empire.",
+      "description": "In 376 CE, masses of Goths fleeing the Hunnic advance begged the emperor Valens to let them cross the Danube as refugees; Valens agreed, and the mismanaged settlement that followed erupted into the Gothic War that ended at Adrianople in 378 with Valens dead and the empire fatally off-balance.",
       "wikiSlug": "Gothic_War_(376–382)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roman officials charged with settling the Gothic refugees extorted and starved them instead of honoring the terms Valens had agreed to — selling dog-meat at the price of a child in slavery, by one account. The resulting rebellion wasn't an invasion; it started as a refugee uprising against corrupt administrators. The Battle of Adrianople (378) killed Valens and two-thirds of his eastern field army, the worst Roman defeat since Cannae five centuries earlier. The Goths were never expelled — they were eventually settled inside the empire permanently, the first time a foreign people had been absorbed on their own terms."
+        }
+      ],
+      "commonsFile": "Theodosius_obeliszk_-_Isztambul,_2014.10.23_(2).JPG"
     },
     {
       "id": "evt-gt-tacitus-nazi-reception",
       "label": "Nazi Ideological Use of the Germania",
       "year": 98,
-      "description": "Tacitus's Germania was adopted by nineteenth-century German nationalists and then conscripted as near-scripture by Nazi racial ideology; Himmler made documented efforts to seize its oldest manuscript, demonstrating the danger of turning a real people into a mirror for someone else's ideology.",
+      "description": "The Germania became, over centuries, first a founding text of German nationalism and then near-scripture for Nazi racial ideology — Heinrich Himmler treated it as a sacred document and directed efforts to acquire its oldest manuscript, turning a Roman rhetorician's literary contrast into one of history's worst ideological props.",
       "wikiSlug": "Germania_(book)",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Germania's influence on German identity accelerated after the Renaissance, when humanist scholars used it to argue that the Germanic peoples were a pure, ancient race uncorrupted by Rome — a claim Tacitus neither made nor intended. By the 19th century, figures from Fichte to Wagner drew on it to construct romantic German nationalism. The irony Tacitus himself would have recognized: he was using the Germani as a rhetorical device to criticize Rome, and he was conscripted, nineteen centuries later, into a project to glorify exactly the kind of ethnic essentialism he had no concept of."
+        }
+      ],
+      "commonsFile": "Blaeu_1645_-_Germaniae_veteris_typus.jpg"
     },
     {
       "id": "evt-gt-codex-aesinas",
       "label": "The Codex Aesinas Manuscript",
       "year": 1400,
-      "description": "The oldest surviving manuscript of Tacitus's Germania, the Codex Aesinas, was held in a private Italian library and was the subject of a documented SS seizure attempt during World War II, illustrating the text's toxic afterlife.",
+      "description": "The Codex Aesinas is the oldest surviving manuscript of Tacitus's Germania, a 15th-century composite discovered in 1902 in the private library of an Italian noble family; the SS made documented attempts to seize it during World War II as a prize of Nazi ideology.",
       "wikiSlug": "Codex_Aesinas",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The codex survived because it was embedded within a larger private collection and not widely known; it was only discovered by chance in 1902 at the Baldeschi Balleani estate in Jesi, Italy. It is considered especially valuable because it appears to be a direct copy of a lost 9th-century Carolingian manuscript (the Codex Hersfeldensis), making it as close to Tacitus's original text as we are likely to get. In 1994 the family sold it to the Biblioteca Nazionale Centrale di Roma, where it is now formally catalogued as Codex Vittorio Emanuele 1631."
+        }
+      ],
+      "commonsFile": "Codex_Aesinas.jpg"
     },
     {
       "id": "evt-gt-north-sea-flood-push",
       "label": "North Sea Floods and Land Hunger",
       "year": -120,
-      "description": "Ancient sources attributed the Cimbric migration to a catastrophic North Sea flood; modern scholars link it to a combination of land hunger, climate stress, and the domino pressure of one migrating people displacing the next across the Danish peninsula.",
+      "description": "Something catastrophic drove the Cimbri and their neighbors off the Jutland peninsula around 120 BCE — ancient sources pointed to a massive North Sea flood; modern scholars lean toward land hunger, climate stress, and the chain-reaction pressure of one displaced people pushing the next.",
       "wikiSlug": "Cimbrian_War",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Roman writers Strabo and Poseidonius both recorded the flood tradition as fact, and there is genuine evidence of North Sea storm surges in this period. But archaeologists note the Jutland peninsula was already under demographic pressure before any flood; the most likely answer is a combination — climate stress that made marginal land unworkable, population growth that had outrun the soil, and then a final physical push. The uncertainty is real: the Germani left no written account of why they left."
+        }
+      ]
     },
     {
       "id": "evt-gt-cimbri-in-spain",
       "label": "The Cimbri Raid Spain",
       "year": -104,
-      "description": "After Arausio the Cimbri wandered into the Iberian peninsula rather than immediately pressing on Italy, buying Rome the crucial reprieve Marius used to rebuild and retrain the army for the decisive battles ahead.",
+      "description": "After their crushing victory at Arausio in 105 BCE, the Cimbri inexplicably bypassed Italy and wandered into the Iberian peninsula instead, giving Rome a two-year breathing space that Marius used to rebuild the army for the decisive battles to come.",
       "wikiSlug": "Cimbrian_War",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cimbri's Spanish excursion lasted roughly two years and ended in failure — the Iberian tribes, already battle-hardened against Rome, successfully resisted their incursions. The Cimbrian War is directly comparable to the Second Punic War in Roman consciousness: it was the second time within living memory that Italy itself had faced possible conquest, and it supercharged Roman anxiety about the peoples beyond the Alps. The war's outcome planted the idea, wrong but persistent, that a show of overwhelming force could permanently pacify the north."
+        }
+      ]
     },
     {
       "id": "evt-gt-carbo-failure",
       "label": "Gnaeus Papirius Carbo Ambushes the Cimbri",
       "year": -113,
-      "description": "The consul Carbo accepted the Cimbri's offer to withdraw, then treacherously instructed his guides to lead them into a prepared ambush; the Cimbri turned the trap around and destroyed his army, setting the pattern for Roman underestimation of Germanic foes.",
+      "description": "In 113 BCE, consul Gnaeus Papirius Carbo accepted the Cimbri's peaceful offer to withdraw from Roman-allied territory, then instructed his own guides to walk them into a prepared ambush — a treachery that backfired completely and set the tone for Rome's decade of catastrophic underestimation.",
       "wikiSlug": "Battle_of_Noreia",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Carbo's particular dishonesty matters because the Cimbri had done everything right: they sent envoys, apologized for crossing territory they did not know was allied to Rome, and offered to leave. Roman sources recording this do not treat Carbo's betrayal as shameful — the concept of good faith toward non-treaty peoples was simply not operative. After his defeat Carbo reportedly took his own life; some sources attribute this to the disgrace of the loss, others to an unrelated political prosecution. The location of the battle site, marked only as 'Noreia,' has never been definitively identified."
+        }
+      ]
     },
     {
       "id": "evt-gt-germanic-farming",
       "label": "Germanic Agricultural Communities",
       "year": -200,
-      "description": "Contrary to Caesar's propaganda, the Germanic peoples demonstrably farmed mixed-agriculture settlements across the north German plain and Jutland; archaeology has refuted the ancient claim that they had no settled agriculture or fixed property.",
+      "description": "Contrary to Caesar's propaganda that the Germani had no settled agriculture or fixed property, archaeology has confirmed that Germanic communities farmed mixed-crop settlements across the north German plain and Jutland long before Roman contact.",
       "wikiSlug": "Germanic_peoples",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Caesar's claim that the Germani \"have no agriculture and own no land\" served a specific rhetorical purpose: it cast them as nomads impossible to govern, which conveniently relieved Rome of any obligation to conquer and administer them. The Jastorf culture, the main archaeological fingerprint of pre-Roman Germanic peoples, shows permanent villages with grain storage pits and animal husbandry. The gap between Caesar's description and the physical evidence is one of the clearest examples scholars have of how the Commentaries were as much a political document as a military one."
+        }
+      ]
     },
     {
       "id": "evt-gt-maroboduus",
@@ -910,21 +1420,35 @@
       "id": "evt-gt-augustus-grief",
       "label": "Augustus Mourns the Lost Legions",
       "year": 9,
-      "description": "According to Suetonius, Augustus was so shattered by the Teutoburg disaster that he let his hair and beard grow unkempt for months and was heard crying out 'Quinctilius Varus, give me back my legions,' a scene that fixed the defeat's emotional weight in Roman memory.",
+      "description": "According to the Roman biographer Suetonius, a shattered Augustus let his hair and beard grow unkempt for months after Teutoburg and was heard slamming his head against a doorframe and crying 'Quinctilius Varus, give me back my legions!' — a moment of raw imperial anguish that lodged the disaster permanently in Roman memory.",
       "wikiSlug": "Augustus",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Suetonius wrote his account roughly a century after the events, and historians treat the theatrical details with some skepticism — but the emotional core rings true: Augustus had personally invested twenty years in the Germanic project. At the time of Teutoburg he was in his early 70s and the defeat came near the end of his reign, leaving him no time to answer it."
+        }
+      ],
+      "commonsFile": "Augustus_of_Prima_Porta.jpg"
     },
     {
       "id": "evt-gt-roman-provincial-plan",
       "label": "Rome's Plan to Provincialize Germania",
       "year": -12,
-      "description": "Augustus launched a systematic effort to turn the country between Rhine and Elbe into Roman provinces, bringing in traders and Roman law, extracting taxes, and building civilian infrastructure before the Teutoburg disaster reversed everything.",
+      "description": "Beginning around 12 BCE, Augustus pursued a systematic plan to provincialize the Germanic interior between the Rhine and the Elbe — the same machinery Rome had applied to Gaul — bringing in traders, Roman law courts, tax collectors, and civilian infrastructure before the Teutoburg disaster undid twenty years of work.",
       "wikiSlug": "Germania",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The administrative apparatus was already running: Germanic chieftains swore oaths of loyalty, hostages were held in Rome, and Roman courts were beginning to adjudge local disputes. The civilian town at Waldgirmes shows the project was past the military-camp phase and into actual colonization before it collapsed."
+        }
+      ],
+      "commonsFile": "Germania_(SM_1116).png"
     },
     {
       "id": "evt-gt-north-italic-scripts",
@@ -960,11 +1484,18 @@
       "id": "evt-gt-slave-trade-frontier",
       "label": "The Germanic Slave Trade",
       "year": 100,
-      "description": "Germanic war captives and purchased slaves passed continuously across the Limes into the Roman economy; the Germani were simultaneously suppliers of slaves and buyers, weaving them into the empire's commercial networks.",
+      "description": "The Limes frontier was a continuous slave market: Germanic war captives flowed into the Roman economy as enslaved labor, while the Germani also purchased slaves from Roman traders, making them simultaneously exporters and buyers in a trade that wove their world tightly into imperial commercial networks.",
       "wikiSlug": "Slavery_in_ancient_Rome",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Enslaved people in Rome occupied an enormous range of roles, from field laborers and mine workers to physicians, teachers, bankers, and civil servants — skilled enslaved people could earn their freedom through manumission, a path that produced a large and influential class of freedpersons in Roman society. The Germanic frontier supplied a steady stream of the unskilled end: war captives from raiding and inter-tribal conflict who entered the Roman economy as agricultural or mine labor. Blond Germanic hair had a separate market: Roman wig-makers paid premium prices for it."
+        }
+      ],
+      "commonsFile": "106_Conrad_Cichorius,_Die_Reliefs_der_Traianssäule,_Tafel_CVI.jpg"
     },
     {
       "id": "evt-gt-vandalic-peoples",
@@ -990,30 +1521,50 @@
       "id": "evt-gt-germanic-prestige-economy",
       "label": "The Roman Silver Prestige Economy",
       "year": 100,
-      "description": "Roman silver denarii circulated deep into Germanic territory as prestige currency; chiefs who controlled frontier trade accumulated silver that they redistributed as gifts to maintain their comitatus, making Roman coinage a structural part of Germanic political power.",
+      "description": "Roman silver denarii (coins) circulated deep into Germanic territory not primarily as money but as prestige objects; frontier chiefs accumulated silver to redistribute as gifts to followers, making Roman coinage the lifeblood of the Germanic political system of personal loyalty.",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Silver gift-giving was so central to Germanic leadership that the words for \"lord\" in several Germanic languages derive from words meaning bread-giver or ring-giver. Hoards of undamaged Roman coins found far beyond the frontier — unspent, never circulated — show they were being kept as wealth-displays rather than used in commerce. The same dynamic ran with gold: Roman aurei and later gold medallions appear in aristocratic graves hundreds of miles from the nearest Roman market."
+        }
+      ]
     },
     {
       "id": "evt-gt-quadi",
       "label": "The Quadi on the Middle Danube",
       "year": 50,
-      "description": "The Quadi, a Germanic people settled in the Danube bend country north of the Roman province of Pannonia, became a persistent raiding and diplomatic challenge for Rome and were key partners of the Marcomanni in the wars of Marcus Aurelius.",
+      "description": "The Quadi were a Germanic people settled just north of the Roman province of Pannonia (modern Slovakia and western Hungary), the easternmost of a cluster of four related kingdoms that established themselves along the Danube after 9 BC, and key partners of the Marcomanni in the wars of the 160s–180s.",
       "wikiSlug": "Quadi",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Quadi served as a cultural and political bridge between the Germanic world to their north, Rome to their south, and the Sarmatian Iazyges on the Hungarian plain to their east — they had complicated relationships in all three directions at once. Unlike purely hostile neighbors, they survived repeated Roman campaigns for nearly four centuries, from around 20 CE to roughly 400, longer than many far better-known peoples."
+        }
+      ],
+      "commonsFile": "Quadi_settlement_area.png"
     },
     {
       "id": "evt-gt-marcus-aurelius-death",
       "label": "Death of Marcus Aurelius on Campaign",
       "year": 180,
-      "description": "Marcus Aurelius died on the Danube frontier in 180 CE while still prosecuting the Germanic wars, taking with him the ambitious plan to push the Roman border forward to the Elbe that ancient sources say he had been planning.",
+      "description": "Marcus Aurelius died on March 17, 180 CE at Vindobona (modern Vienna) or nearby Sirmium, still on campaign near the Danube frontier, reportedly on the verge of completing the conquest of Marcomannia — a plan that died with him and was immediately abandoned by his son Commodus.",
       "wikiSlug": "Marcus_Aurelius",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His son and successor Commodus, who was with him on the campaign, made peace within months and returned to Rome — a decision the senatorial class found disgraceful but which ended over a decade of grinding warfare. Marcus's death is the conventional end-date of the Pax Romana. He was deified by the Senate, and his equestrian bronze statue (one of the only ones to survive antiquity) stood on the Capitoline Hill for centuries, preserved partly because medieval Romans misidentified it as Constantine the Great."
+        }
+      ],
+      "commonsFile": "0_Relief_-_Monument_honoraire_de_Marc_Aurèle_-_La_soumission_des_germains_(1).JPG"
     },
     {
       "id": "evt-gt-cassius-dio-source",
@@ -1039,21 +1590,35 @@
       "id": "evt-gt-stoicism-frontier",
       "label": "Stoic Philosophy on the Germanic Frontier",
       "year": 170,
-      "description": "Marcus Aurelius's Meditations, composed in Greek on the Danube frontier, brought Stoic philosophy into direct collision with the military realities of the Germanic wars, the collision that defines his reign as one of history's strange juxtapositions.",
+      "description": "Stoicism, the Greek philosophical school founded around 300 BCE in Athens, taught that only your own judgments are truly in your control and everything else — including empires, plague, and death — must be met with reasoned calm; it was the framework Marcus Aurelius used to manage a war he couldn't escape and a frontier he couldn't fix.",
       "wikiSlug": "Stoicism",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The school was founded by Zeno of Citium, who taught in the Stoa Poikile (a painted public porch in Athens — 'Stoic' literally means 'porch person'). By Marcus's day it had evolved significantly from its Greek origins into a Roman practice focused on daily self-examination and duty. The Meditations is unusual among Stoic texts in being genuinely private — most Stoic writing we have was intended for students or audiences; Marcus was talking to himself, which is one reason modern readers still find it strangely immediate."
+        }
+      ],
+      "commonsFile": "Paolo_Monti_-_Servizio_fotografico_(Napoli,_1969)_-_BEIC_6353768.jpg"
     },
     {
       "id": "evt-gt-empire-splits-three",
       "label": "The Gallic Empire and Palmyrene Split",
       "year": 260,
-      "description": "At the nadir of the third-century crisis the Roman Empire briefly broke into three pieces, with a breakaway Gallic Empire in the west (including Gaul, Britain, and Spain) and the Palmyrene Kingdom in the east, a fragmentation that left the Rhineland frontier dangerously exposed to Alemanni raiding.",
+      "description": "In 260 CE the Roman Empire fractured into three simultaneously competing states: the breakaway Gallic Empire (covering Gaul, Britain, and Spain) in the west, the Palmyrene Kingdom in the east, and the rump central government in between — leaving the Rhine frontier, where the Alemanni were already pressing, effectively undefended.",
       "wikiSlug": "Gallic_Empire",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Gallic Empire lasted fourteen years (260–274 CE) and had its own emperors, senate, and consuls — it wasn't a rebellion so much as a regional government that filled the vacuum Rome couldn't. Its first ruler, Postumus, was actually praised by some contemporaries for defending Gaul better than the central empire had. When the central emperor Aurelian reunified the empire in 274, he did so by military force, but was careful not to punish the Gallic provinces — he needed them intact."
+        }
+      ],
+      "commonsFile": "GallicEmpire262.png"
     },
     {
       "id": "evt-gt-claudius-gothicus",
@@ -1079,21 +1644,35 @@
       "id": "evt-gt-germanic-language-heritage",
       "label": "Germanic Languages Shape Modern Europe",
       "year": 375,
-      "description": "By the end of this period the Germanic language branch had diverged into the ancestors of English, Dutch, German, and the Scandinavian tongues; the survival of an unconquered Germanic world guaranteed that these languages, not Latin, would eventually dominate the northern half of Europe.",
+      "description": "The Germanic language branch — the family that includes English, Dutch, German, Swedish, and their cousins — survived Rome's four centuries of pressure intact, guaranteeing that roughly 515 million people today speak a tongue descended not from Latin but from the Iron Age dialects of an unconquered north.",
       "wikiSlug": "Germanic_languages",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "English is the world's most widely spoken language and a Germanic tongue, which means every English speaker is linguistically a descendant of those Iron Age north German and Scandinavian communities. All Germanic languages trace back to a single ancestor called Proto-Germanic, spoken along the North Sea and Baltic coasts — the exact coastline where this book began. The Romance languages (French, Spanish, Italian) descend from Latin, so the line between Germanic and Romance Europe is essentially the old frontier between the empire and the people who refused to join it."
+        }
+      ],
+      "commonsFile": "Germanic_languages_with_dialects_revised.png"
     },
     {
       "id": "evt-gt-angles-jutes",
       "label": "The Angles and Jutes of the North Sea Coast",
       "year": 300,
-      "description": "The Angles and Jutes, Germanic peoples sharing the north German and Danish coast with the Saxons, would cross the North Sea in the fifth century to settle Britain and, together with the Saxons, become the English — the ultimate expression of the same land-hungry northern migration the Cimbri began.",
+      "description": "The Angles and Jutes shared the north German and Danish coast with the Saxons, and when the fifth-century migrations began they crossed the sea together; 'England' itself is 'Angle-land,' and the very word 'English' carries the name of a small Germanic people whose home peninsula on the Danish coast can still be found on a modern map as Angeln.",
       "wikiSlug": "Angles_(tribe)",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Angles' name almost certainly comes from the Angeln peninsula in what is now the Schleswig-Holstein region of northern Germany — a narrow hook of land jutting into the Baltic. Tacitus, writing around 100 AD, already placed a people called the Anglii in that area, meaning the migration to Britain five centuries later was a long-running story, not a sudden bolt. The kingdoms the Angles founded — East Anglia, Mercia, Northumbria — became some of the most powerful in the Anglo-Saxon Heptarchy (the loose grouping of seven English kingdoms)."
+        }
+      ],
+      "commonsFile": "AngelnAngel.png"
     },
     {
       "id": "evt-gt-goths-sea-raids",
@@ -1129,31 +1708,52 @@
       "id": "evt-gt-arianism-spread",
       "label": "Arianism Spreads Among the Goths",
       "year": 341,
-      "description": "The theological position condemned at Nicaea — that Christ was created by and subordinate to the Father — spread rapidly among the Gothic peoples through Ulfilas's mission, ensuring the Germani who would inherit the Western Empire held a Christology the imperial church regarded as heresy.",
+      "description": "Arianism, the theological position that Christ was a created being subordinate to God the Father, spread rapidly among Gothic and other Germanic peoples through Ulfilas's mission — guaranteeing that the Germani who inherited the Western Roman Empire would be Christian but heretically so in Rome's eyes.",
       "wikiSlug": "Arianism",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The practical consequence was centuries of friction: Arian Germanic kings ruling over Nicene Roman populations in Italy, Spain, and North Africa created a religious fault line inside every successor kingdom. The Visigoths, Ostrogoths, Vandals, Burgundians, and Lombards were all Arian at the moment they took power. Some converted to Nicene Christianity (the Visigoths did so in 587); others — especially the Vandals in North Africa — actively persecuted their Nicene subjects, making religious identity a flashpoint long after the political settlement."
+        }
+      ],
+      "commonsFile": "Ariusz.JPG"
     },
     {
       "id": "evt-gt-julian-apostate",
       "label": "Julian the Apostate on the Rhine",
       "year": 355,
-      "description": "The emperor Julian, before his reign, commanded the Rhine frontier and won several victories against the Alemanni including the decisive Battle of Strasbourg, gaining the military reputation that led to his elevation as emperor and his ill-fated attempt to revive paganism.",
+      "description": "Julian commanded the Rhine frontier from 355 as Caesar (junior emperor) under Constantius II, winning a string of victories against the Alemanni that built his military reputation and ultimately his path to sole emperor in 361 — though he is remembered most for his failed attempt to reverse Christianity and restore the old Roman gods.",
       "wikiSlug": "Julian_(emperor)",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Julian was raised as a Christian but secretly rejected it, and once emperor launched a systematic program to revive traditional Roman religion — restricting Christian teachers, restoring pagan temples, and withdrawing imperial subsidies from the church. The Christian majority quickly labeled him \"the Apostate\" (the one who turned away). He died in 363 on campaign against Persia, struck by a spear under disputed circumstances; some ancient sources hint the wound might have come from his own side. His death ended the last serious challenge to Christianity's dominance, and the faith he tried to reverse became legally mandatory within a generation."
+        }
+      ],
+      "commonsFile": "Juliancng8851obverse.jpg"
     },
     {
       "id": "evt-gt-germanic-migration-mechanism",
       "label": "The Germanic Migration Pattern",
       "year": 375,
-      "description": "The recurring mechanism across four centuries: a society under land or demographic pressure sends warrior groups across the frontier as mercenaries; the mercenaries win, decline to leave, and eventually become landlords — a pattern that ended with the Germanic successor kingdoms inheriting Rome's western half.",
+      "description": "The Migration Period (roughly 300–700 AD) was the culmination of four centuries of the same recurring pattern: land-hungry Germanic warriors crossed Rome's frontier as soldiers or refugees, declined to leave, and eventually replaced the Roman administration entirely, producing the successor kingdoms that became medieval Europe.",
       "wikiSlug": "Migration_Period",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Migration Period saw the Western Roman Empire dissolve not in a single catastrophic conquest but through the gradual settlement of its own territory by the people it had long employed. Historians also call it the 'Barbarian Invasions,' though most migrations were negotiated rather than purely military. The Hunnic expansion from the east around 375 AD acted as the trigger that pushed multiple Germanic peoples across the frontier simultaneously, accelerating a process that had been building for generations."
+        }
+      ],
+      "commonsFile": "Invasions_of_the_Roman_Empire_1.png"
     },
     {
       "id": "evt-gt-gothic-alphabet",
@@ -1199,31 +1799,51 @@
       "id": "evt-gt-tacitus-mercury-mars",
       "label": "Tacitus Identifies Germanic Gods",
       "year": 98,
-      "description": "In the Germania, Tacitus identifies the principal Germanic gods using Roman equivalents: Mercury (probably Wotan/Odin), Mars (Tiw/Tyr), and Hercules (probably Thor), offering the earliest named reference to gods whose descendants survive in the days of the week.",
+      "description": "Tacitus identified the main Germanic gods through Roman equivalents — Mercury, Mars, and Hercules — a technique called interpretatio romana (Roman interpretation), which mapped unfamiliar foreign deities onto familiar Roman ones without assuming they were identical.",
       "wikiSlug": "Germanic_paganism",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mercury-to-Wotan equation is the origin of the English word Wednesday: Wōdnesdæg, Woden's day, a direct calque of the Latin Mercurii dies (Mercury's day). The same logic gives us Tuesday (Tiw/Tyr = Mars) and Thursday (Thor = Hercules or Jupiter, depending on the source). This means four days of the English week are named after Germanic gods whose earliest recorded existence is in Tacitus's Latin text written in 98 CE."
+        }
+      ],
+      "commonsFile": "069_orakelstaebchen_kamen_2019-03-20_001_b_16_4_1-9_beschnitt.jpg_1500x0_q90_subject_location-3615,1586_subsampling-2_upscale.jpg"
     },
     {
       "id": "evt-gt-frankish-inheritance",
       "label": "The Franks' Long Shadow",
       "year": 257,
-      "description": "The Frankish confederation's name became so dominant that it gave France its modern name, the Spanish and French words for Germany (Alemania, Allemagne) came from the rival Alemanni, and the Frankish successor-empire of Charlemagne would be the defining political fact of early medieval Europe.",
+      "description": "The Franks, a confederation that coalesced along the lower Rhine in the third century, left so deep a mark on western Europe that France takes its name from them, and Charlemagne's Frankish empire — built five centuries later on their foundation — shaped the political geography of the continent for a thousand years.",
       "wikiSlug": "Franks",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Franks were not a single ancient tribe but a new collective name that emerged around 257 AD for a cluster of Rhine-area Germanic peoples. Their influence was so total that in Arabic, Spanish, and many other languages, the word for a western European was simply 'Frank.' The rival Alemanni confederation gave Germany its name in French (Allemagne) and Spanish (Alemania), so two different Germanic groups effectively named the two largest countries of continental western Europe."
+        }
+      ]
     },
     {
       "id": "evt-gt-saxon-settlement-england",
       "label": "Saxons and the English Future",
       "year": 300,
-      "description": "The Saxons of the north German coast, whose sea-raiding prompted Rome's Saxon Shore defenses, would in the fifth century begin the migrations to Britain that produced Anglo-Saxon England; their name survived in the English county of Essex and in the old word 'Saxon' still used in some Celtic languages for 'English'.",
+      "description": "The Saxons of the north German coast — the same people whose sea-raids forced Rome to build its 'Saxon Shore' chain of coastal forts — would cross the North Sea in the fifth century and, together with the Angles and Jutes, turn a departing Roman province into Anglo-Saxon England.",
       "wikiSlug": "Anglo-Saxons",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Anglo-Saxon period in Britain ran from roughly 450 to 1066, when the Norman Conquest ended it — over six centuries of Germanic rule. By 1066 most people in what is now England spoke Old English, a Germanic language, and although modern English has borrowed heavily from Norman French and Latin since, the most basic everyday words (house, water, bread, child, hand) are still Old English. The county name Essex preserves the old tribal identity: 'East Saxons.'"
+        }
+      ],
+      "commonsFile": "2008-05-17-SuttonHoo_crop.jpg"
     },
     {
       "id": "evt-gt-germanic-amber-jewelry",
@@ -1289,11 +1909,18 @@
       "id": "evt-gt-frankish-gaul-raids",
       "label": "Franks and Alemanni Break into Gaul",
       "year": 260,
-      "description": "During the nadir of the third-century crisis, Frankish and Alemannic raiders repeatedly broke deep into Roman Gaul, with one attested Frankish raid ranging as far as Spain, demonstrating that the Rhine line had ceased to provide effective protection.",
+      "description": "During the worst years of the third-century crisis, Frankish and Alemannic raiders broke repeatedly through the Rhine frontier into Roman Gaul — with one Frankish raiding party documented as far south as Spain — demonstrating that the river line Rome had maintained for two centuries no longer offered reliable protection.",
       "wikiSlug": "Crisis_of_the_Third_Century",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Alemanni captured the Agri Decumates in 260 CE, the year the empire split three ways, permanently shortening the defensible Rhine-Danube frontier. Roman cities in Gaul responded by building walls for the first time in generations; dozens of Gallic towns shrank to their defensible cores during this period, a physical record of the fear the raids created. Some Frankish raiders who reached Spain were eventually captured and executed in North African arenas — their itinerary was that extraordinary."
+        }
+      ],
+      "commonsFile": "Aemilianus_RIC_IV_20_(obverse).jpg"
     },
     {
       "id": "evt-gt-germanic-music-epic",
@@ -1399,11 +2026,18 @@
       "id": "evt-gt-decius-killed",
       "label": "Emperor Decius Killed at Abritus",
       "year": 251,
-      "description": "Decius fell in the battle against the Goths at Abritus, becoming the first Roman emperor to be killed in battle by a foreign enemy; the event was so shocking that it was widely interpreted as a sign of divine abandonment of Rome.",
+      "description": "Emperor Decius died at the Battle of Abritus in 251 CE, cut down fighting the Goths in a Bulgarian marsh — the first Roman emperor ever killed in combat against a foreign foe, a shock so profound that Roman writers treated it as a sign the gods had abandoned the empire.",
       "wikiSlug": "Battle_of_Abritus",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Decius had originally marched to expel the Goths from the Balkans after they sacked Philippopolis; instead his army was maneuvered into difficult terrain and surrounded. His son Herennius Etruscus, whom he had made co-emperor to groom as his successor, was also killed in the same battle — Rome lost its emperor and its heir in a single afternoon. The throne passed to Trebonianus Gallus, who promptly paid the Goths tribute to leave, which told the Germanic world something important about Roman resolve."
+        }
+      ],
+      "commonsFile": "TraDec_15V.jpg"
     }
   ]
 }
