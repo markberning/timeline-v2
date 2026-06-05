@@ -4,6 +4,13 @@
 //   GEMINI_API_KEY=... node scripts/generate-maps.mjs <tlId>
 //   GEMINI_API_KEY=... node scripts/generate-maps.mjs <tlId> --chapter 3
 //   GEMINI_API_KEY=... node scripts/generate-maps.mjs <tlId> --dry-run
+//   GEMINI_API_KEY=... node scripts/generate-maps.mjs <tlId> --budget 25      # hard-stop before spend exceeds $25
+//   GEMINI_API_KEY=... node scripts/generate-maps.mjs <tlId> --max-images 10  # hard-stop after 10 paid calls
+//
+// Cost guard: --budget <usd> and/or --max-images <n> are checked BEFORE every
+// paid call, so the run can never exceed them. Per-image price is inferred from
+// the model (Pro 1K-2K $0.134, Pro 4K $0.24 with --4k, Flash $0.039) or pinned
+// with --price <usd>. The May 2026 runaway ($483) is why these exist.
 //
 // Reads map-prompts/<tlId>.md, splits it on "## Chapter N" headers,
 // prepends the global preamble (everything before the first chapter header)
@@ -27,8 +34,30 @@ const onlyChapter = onlyChapterIdx >= 0 ? Number(args[onlyChapterIdx + 1]) : nul
 const modelIdx = args.indexOf('--model')
 const model = modelIdx >= 0 ? args[modelIdx + 1] : DEFAULT_MODEL
 
+// ── Cost guard ───────────────────────────────────────────────────────────────
+const budgetIdx = args.indexOf('--budget')
+const budget = budgetIdx >= 0 ? Number(args[budgetIdx + 1]) : null
+const maxImagesIdx = args.indexOf('--max-images')
+const maxImages = maxImagesIdx >= 0 ? Number(args[maxImagesIdx + 1]) : null
+const priceIdx = args.indexOf('--price')
+const is4k = args.includes('--4k')
+// Per-image price (USD). --price overrides; otherwise inferred from the model.
+// Pro (Nano Banana Pro): $0.134 at 1K-2K, $0.24 at 4K. Flash: $0.039.
+const pricePerImage = priceIdx >= 0
+  ? Number(args[priceIdx + 1])
+  : /flash/i.test(model) ? 0.039 : (is4k ? 0.24 : 0.134)
+
+if (budget !== null && !(budget > 0)) {
+  console.error('--budget must be a positive dollar amount.')
+  process.exit(1)
+}
+if (maxImages !== null && !(Number.isInteger(maxImages) && maxImages > 0)) {
+  console.error('--max-images must be a positive integer.')
+  process.exit(1)
+}
+
 if (!tlId) {
-  console.error('Usage: node scripts/generate-maps.mjs <tlId> [--chapter N] [--dry-run]')
+  console.error('Usage: node scripts/generate-maps.mjs <tlId> [--chapter N] [--dry-run] [--budget USD] [--max-images N]')
   process.exit(1)
 }
 
@@ -65,6 +94,9 @@ if (chapters.length === 0) {
 console.log(`Parsed ${chapters.length} chapters from ${promptPath}`)
 console.log(`Model: ${model}`)
 console.log(`Preamble: ${preamble.length} chars`)
+console.log(`Price/image: $${pricePerImage.toFixed(3)}`)
+if (budget !== null) console.log(`Budget cap: $${budget.toFixed(2)} (~${Math.floor(budget / pricePerImage)} images max)`)
+if (maxImages !== null) console.log(`Max images this run: ${maxImages}`)
 
 const outDir = `public/maps/${tlId}`
 mkdirSync(outDir, { recursive: true })
@@ -74,6 +106,8 @@ const ai = dryRun ? null : new GoogleGenAI({ apiKey })
 let generated = 0
 let skipped = 0
 let failed = 0
+let attempts = 0 // paid API calls made (success or fail) — drives spend
+let capped = false
 
 for (const ch of chapters) {
   if (onlyChapter !== null && ch.number !== onlyChapter) continue
@@ -94,7 +128,20 @@ for (const ch of chapters) {
     continue
   }
 
+  // Cost guard — checked BEFORE the paid call so the run can never exceed it.
+  if (maxImages !== null && attempts >= maxImages) {
+    console.log(`  ch ${ch.number}: STOP — hit --max-images ${maxImages} (spent ~$${(attempts * pricePerImage).toFixed(2)}).`)
+    capped = true
+    break
+  }
+  if (budget !== null && (attempts + 1) * pricePerImage > budget + 1e-9) {
+    console.log(`  ch ${ch.number}: STOP — next image ($${pricePerImage.toFixed(3)}) would exceed --budget $${budget.toFixed(2)} (spent ~$${(attempts * pricePerImage).toFixed(2)}).`)
+    capped = true
+    break
+  }
+
   console.log(`  ch ${ch.number}: generating "${ch.title}" (${fullPrompt.length} chars)...`)
+  attempts++
   try {
     const bytes = await generateImage(ai, fullPrompt)
     writeFileSync(pngPath, bytes)
@@ -107,7 +154,8 @@ for (const ch of chapters) {
   }
 }
 
-console.log(`\nDone. generated=${generated} skipped=${skipped} failed=${failed}`)
+console.log(`\nDone. generated=${generated} skipped=${skipped} failed=${failed} | paid calls=${attempts}, est spend=$${(attempts * pricePerImage).toFixed(2)}`)
+if (capped) console.log('Stopped early at the budget/max-images cap — re-run to continue (existing maps are skipped).')
 if (generated > 0) {
   console.log(`Next: node scripts/optimize-maps.mjs   (converts new PNGs to .webp and deletes PNG originals)`)
 }
