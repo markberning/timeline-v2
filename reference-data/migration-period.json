@@ -79,71 +79,119 @@
       "id": "evt-mp-huns-europe",
       "label": "The Huns Enter Europe",
       "year": 375,
-      "description": "Mounted nomads from the eastern steppe overran the Goths and triggered the chain of migrations that ended the Western Empire.",
+      "description": "In the 370s CE, the Huns — horse-herding nomads from the Eurasian steppe — swept west across the Volga into the lands north of the Black Sea, shattering the Gothic confederations there and triggering a chain reaction of displaced peoples that would ultimately bring down the Western Roman Empire.",
       "wikiSlug": "Huns",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By 430 CE the Huns had assembled a vast empire stretching the length of the Danubian frontier, yet it would collapse completely within one generation of Attila's death. The peoples they set in motion included not just Goths but Vandals, Gepids, Heruli, Suebians, and Rugians — essentially every group that would divide up the old Western Empire between them. The Huns were first recorded east of the Volga, in what ancient writers called Scythia, before their rapid westward push into Roman awareness."
+        }
+      ],
+      "commonsFile": "Estimated_map_of_Hunnic_political_control_under_Attila_(c._450_CE).jpg"
     },
     {
       "id": "evt-mp-hunnic-society",
       "label": "Hunnic Society and Warfare",
       "year": 376,
-      "description": "The Huns were a confederation of horse nomads whose composite bows, mobile tactics, and lack of fixed settlements made them unlike any enemy Rome had faced. They herded cattle, extracted tribute, and incorporated defeated peoples into their ranks.",
+      "description": "Hunnic society was organized entirely around the horse: every man rode from childhood, herded cattle across open steppe, and fought with a composite bow (short layers of wood, horn, and sinew giving it the power of a much larger weapon) that he could fire accurately at a full gallop. They held no cities, farmed no land, and could not be beaten by the standard Roman tactic of burning an enemy's crops and towns.",
       "wikiSlug": "Huns",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Huns' language is essentially lost — scholars have argued for over a century whether it was Turkic, Mongolic, Iranian, or something with no surviving relatives, and the handful of personal names we have cannot resolve it. When the Huns broke a people, they typically absorbed that group's warriors into their confederation rather than wiping them out, meaning the force pressing on the Roman frontier kept growing as it moved. Their composite bow was engineered to solve a specific problem: enough power to punch through armor, small enough to draw and loose while a horse is galloping, which required a layered construction tradition passed down across generations of steppe cultures."
+        }
+      ],
+      "commonsFile": "02019_0566_(2)_Spatha_of_Jakuszowice.jpg"
     },
     {
       "id": "evt-mp-gothic-refugees",
       "label": "Gothic Refugees Flood the Empire",
       "year": 376,
-      "description": "Tens of thousands of Goths crossed the Danube fleeing the Huns, the first wave of peoples pushed into Roman territory.",
+      "description": "In 376 CE, hundreds of thousands of Goths massed on the north bank of the Danube and asked the Roman Empire for asylum — not as raiders but as a whole nation in flight from the Huns, the opening crack in what would become the Völkerwanderung (\"the wandering of the peoples\").",
       "wikiSlug": "Migration_Period",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Migration Period that followed was not a single invasion but a rolling cascade of peoples displaced across the former Roman frontier over two centuries, eventually producing the post-Roman kingdoms of medieval Europe. Almost every written source for these events was produced by Romans or Eastern Greek churchmen who were often far from the action, often hostile to the migrants, and often writing decades after the fact — which is why dates and motives from this era carry built-in uncertainty that careful historians flag."
+        }
+      ],
+      "commonsFile": "Invasions_of_the_Roman_Empire_1.png"
     },
     {
       "id": "evt-mp-adrianople",
       "label": "Battle of Adrianople",
       "year": 378,
-      "description": "Gothic cavalry shattered a Roman army and killed Emperor Valens, the greatest Roman military defeat in centuries. The disaster forced Rome to accept the Goths inside the empire as armed settlers rather than subjects.",
+      "description": "On 9 August 378 CE, Gothic cavalry destroyed the Eastern Roman field army near Adrianople (in the Roman province of Thracia, modern northwest Turkey) and killed Emperor Valens on the battlefield — one of the worst military disasters in Roman history and a humiliation that forced a complete rethink of how the empire handled armed peoples inside its borders.",
       "wikiSlug": "Battle_of_Adrianople",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Valens had been Eastern emperor since 364, a reign of fourteen years ended in a single afternoon; for a sitting emperor to die in battle against barbarians was almost unheard of in Roman history. The Gothic commander was Fritigern, who had led the Tervingi across the Danube just two years before — a man who arrived as a refugee and left as the killer of an emperor. The battle is often cited as the moment Rome stopped being able to dictate the terms on which it dealt with the peoples pressing on its frontiers."
+        }
+      ],
+      "commonsFile": "Late_Roman_soldier_re-enactor_depicting_an_infantry_officer.jpg"
     },
     {
       "id": "evt-mp-theodosius-foedus",
       "label": "Theodosius Makes Peace with the Goths",
       "year": 382,
-      "description": "Emperor Theodosius I settled the Goths inside the Balkans as federates, granting them land and autonomy in exchange for military service. The arrangement set a template for accommodating barbarian peoples that Rome would use — with increasing desperation — for the next century.",
+      "description": "In 382 CE, Emperor Theodosius I settled the Goths inside the Balkans as foederati (\"feh-deh-RAH-tee\" — allied peoples bound by a foedus, a treaty), letting them keep their own leaders and internal laws in exchange for farmland and military service. It was the first time Rome had done this with a whole intact armed nation rather than a broken, divided one.",
       "wikiSlug": "Foederati",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rome had been settling defeated barbarian groups as farmer-soldiers along the Rhine and Danube for two centuries before 382, but always with peoples who had lost and fragmented. The Gothic settlement was different because the Goths arrived undefeated, with their own kings still commanding, after just destroying a Roman army — creating something closer to an armed allied state inside the border than a settled prisoner population. That structural gap between \"defeated colonists\" and \"autonomous armed confederates\" is how, repeated over the next century, Roman provinces quietly became barbarian kingdoms."
+        }
+      ]
     },
     {
       "id": "evt-mp-pontic-steppe-goths",
       "label": "The Huns Shatter the Greuthungi Goths",
       "year": 375,
-      "description": "The Hunnic advance first overwhelmed the Greuthungi (later called Ostrogoths) on the Pontic steppe, then drove the Tervingi (later called Visigoths) toward the Danube frontier.",
+      "description": "The Hunnic advance first overwhelmed the Greuthungi (\"groy-THUNG-ee\") — the eastern Gothic confederation living on the Pontic steppe (open grassland north of the Black Sea) — then drove their western neighbors the Tervingi (\"TER-ving-ee\") to abandon their territory and run for the Danube. History would remember these two groups as the Ostrogoths and Visigoths.",
       "wikiSlug": "Goths",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Goths had been settled north of the lower Danube for roughly a century before the Hunnic crisis, known archaeologically through the Chernyakhov culture spanning present-day Ukraine, Moldova, and Romania. The speed of the Hunnic conquest was what terrified contemporaries: the sources do not record how many campaigns it required, only that it was very fast. The Goths were not strangers to Rome — they had been raiding Roman territory and also supplying soldiers to the Roman army for generations before the Huns made allies into refugees."
+        }
+      ],
+      "commonsFile": "Athanaric_and_Valens_on_the_Danbue.png"
     },
     {
       "id": "evt-mp-stilicho",
       "label": "Stilicho Commands the Western Army",
       "year": 395,
-      "description": "The half-Vandal general Stilicho became the dominant military figure in the Western Empire, holding together a disintegrating frontier through diplomacy, bribery, and hard fighting. His execution in 408 removed the West's last effective generalissimo.",
+      "description": "Stilicho was the son of a Vandal cavalry officer and a Roman woman, and by 395 had made himself the Western Empire's supreme military commander and effective regent for the weak emperor Honorius. For over a decade he held together a disintegrating frontier — until Honorius had him arrested and executed in 408 on suspicion of treason.",
       "wikiSlug": "Stilicho",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Stilicho was married to Serena, the adopted niece of Emperor Theodosius I, giving him a direct family tie to the imperial house. A famous ivory diptych (a carved two-panel ceremonial gift object) survives as one of the few near-contemporary images of him, showing him in full military dress with a shield bearing a chi-rho Christian symbol. His execution was followed almost immediately by a massacre of the Roman families of barbarian soldiers in his army, which drove tens of thousands of Gothic fighters directly into the service of Alaric and accelerated the very disaster Stilicho had spent his life preventing."
+        }
+      ],
+      "commonsFile": "Diptych_of_Stilicho.jpg"
     },
     {
       "id": "evt-mp-alaric-first-siege",
@@ -169,371 +217,622 @@
       "id": "evt-mp-radagaisus",
       "label": "Radagaisus Invades Italy",
       "year": 405,
-      "description": "A large Gothic war band under Radagaisus crossed the Danube and pushed deep into Italy before Stilicho defeated and executed him near Florence. The episode stripped frontier garrisons and set conditions for the Rhine crossing the following year.",
+      "description": "In 405-406, a Gothic king named Radagaisus led one of the largest barbarian war bands in memory deep into northern Italy, threatening Florence before the Roman general Stilicho cornered and destroyed him. The victory cost the West dearly: to win it, Stilicho stripped soldiers from the Rhine.",
       "wikiSlug": "Radagaisus",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Radagaisus was a committed pagan at a time when much of the Gothic leadership had already converted to Christianity, which made him a useful propaganda target for Roman Christian writers who framed his defeat as divine judgment. His force may have numbered in the hundreds of thousands including non-combatants, making it more a migrating people than a raiding army. After his capture near Fiesole above Florence, he was executed and his followers were sold into slavery or pressed into Roman units."
+        }
+      ],
+      "commonsFile": "Giorgio_Vasari_-_Defeat_of_Radagasio_below_Fiesole_-_Google_Art_Project.jpg"
     },
     {
       "id": "evt-mp-rhine-crossing",
       "label": "The Crossing of the Rhine",
       "year": 406,
-      "description": "On the last night of 406 a coalition of Vandals, Suebi, and Alans crossed the frozen Rhine, breaking the western frontier for good.",
+      "description": "On or around the last night of 406, a coalition of Vandals, Suebi, and Alans crossed the frozen Rhine River into Roman Gaul, shattering the most fortified border in the Western Empire — a line Julius Caesar had fixed nearly 460 years earlier and Rome had maintained ever since.",
       "wikiSlug": "Crossing_of_the_Rhine",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dramatic New Year's Eve date comes from a single line in Jerome, the great Christian scholar, and a minority of historians argue it may actually have been late 405. The Rhine had frozen solid, meaning the coalition could simply walk across rather than attempt a contested river crossing. Within a few years the Roman cities of Gaul, including Mainz, Worms, Reims, and Amiens, had all been sacked, and the event is now considered one of the defining hinge dates of the entire Migration Period."
+        }
+      ],
+      "commonsFile": "Loreley_mit_tal_von_linker_rheinseite.jpg"
     },
     {
       "id": "evt-mp-vandals-gaul",
       "label": "Vandals, Suebi, and Alans Enter Gaul",
       "year": 406,
-      "description": "The Rhine peoples ravaged Gaul for three years before moving on toward the Pyrenees and Hispania.",
+      "description": "The Vandals were a Germanic people who crossed the Rhine in 406 alongside the Suebi and the Iranian-speaking Alans, then spent roughly three years burning their way across Gaul before pressing south into Hispania. Their name would later become a byword for destruction, though the word 'vandalism' was coined in the eighteenth century, long after the fact.",
       "wikiSlug": "Vandals",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Vandals came in two related groups, the Hasding and Siling branches, who had distinct fates: the Silings were nearly wiped out in Hispania, while the Hasdins survived and eventually crossed into North Africa in 429. There they built a kingdom centered on Carthage that lasted over a century, until the Eastern Roman Empire finally crushed it in 534, making the Vandals the most geographically far-ranging of all the Rhine crossers."
+        }
+      ],
+      "commonsFile": "Vandal_cavalryman,_c._AD_500,_from_a_mosaic_pavement_at_Bordj_Djedid_near_Carthage.jpg"
     },
     {
       "id": "evt-mp-constantine-iii",
       "label": "Constantine III's Usurpation",
       "year": 407,
-      "description": "A soldier proclaimed emperor in Britain stripped the island and Gaul of troops, accelerating the western collapse.",
+      "description": "In 407 a common Roman soldier in Britain was proclaimed emperor by the island's garrison, took the name Constantine III because it sounded lucky, and crossed to Gaul with the mobile field troops — draining Britain of a military presence it would never get back.",
       "wikiSlug": "Constantine_III_(Western_Roman_emperor)",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Constantine III was briefly recognized as a legitimate co-emperor by Honorius in 409, when the court needed his help against other threats, making him one of the few usurpers to receive even temporary official status. He held Gaul and parts of Hispania at his peak, fighting Honorius's loyalists and the Rhine invaders simultaneously. He was executed in 411 after his revolt collapsed and he was captured, reportedly after being promised safe passage."
+        }
+      ],
+      "commonsFile": "Gold_Solidus_of_Constantine_III,_Lugdunum.jpg"
     },
     {
       "id": "evt-mp-britain-abandoned",
       "label": "Rome Abandons Britain",
       "year": 410,
-      "description": "The emperor Honorius told the British cities to look to their own defense, ending four centuries of Roman rule on the island.",
+      "description": "Around 410, with Gaul in chaos and Rome itself under Gothic siege, the self-governing cities of Roman Britain sent to the emperor Honorius asking for help against raiders and received a reply telling them to see to their own defense. After roughly four centuries, Roman government in Britain ended not with a dramatic withdrawal but with a request that was declined.",
       "wikiSlug": "End_of_Roman_rule_in_Britain",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famous 'Rescript of Honorius' survives in a single passage by the Eastern historian Zosimus, writing about a century after the events, and historians still debate whether it referred to Britain or to similarly named cities in southern Italy. What followed was a rapid collapse: urban life declined sharply within a generation, and Angles, Saxons, and Jutes began crossing the North Sea to settle in the following decades, a transformation so thorough it erased most Latin place names from the landscape."
+        }
+      ],
+      "commonsFile": "End.of.Roman.rule.in.Britain.383.410.jpg"
     },
     {
       "id": "evt-mp-burgundians",
       "label": "The Burgundian Kingdom on the Rhine",
       "year": 411,
-      "description": "The Burgundians settled a kingdom on the middle Rhine, later remembered in the Nibelung legends.",
+      "description": "Around 411 the Burgundians, a Germanic people from the Rhine frontier, were settled by Roman treaty at Worms and built the first Burgundian kingdom. In the 430s the Roman general Aetius destroyed it using Hunnic mercenaries; survivors were resettled near Lake Geneva, where a second Burgundian kingdom lasted until the Franks absorbed it in 534.",
       "wikiSlug": "Kingdom_of_the_Burgundians",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The annihilation of the first Rhine kingdom lodged so deeply in Germanic memory that it became the core of the Nibelung saga, the same legend Richard Wagner stretched into his four-opera Ring cycle in the nineteenth century. The second kingdom was more than a consolation prize: the surviving Burgundians helped defeat Attila at the Battle of the Catalaunian Plains in 451, a striking irony given that Hunnic troops had nearly wiped them out a generation earlier. At their height the Burgundians moved their capital from Geneva to Lyon and controlled key Alpine passes between Italy and the north."
+        }
+      ],
+      "commonsFile": "Karte_Koenigreich_Burgund_DE.png"
     },
     {
       "id": "evt-mp-visigoths-aquitaine",
       "label": "Visigoths Settled in Aquitaine",
       "year": 418,
-      "description": "The Western court granted the Visigoths federate territory in southwestern Gaul centered on Toulouse, the first formal barbarian kingdom carved out of Roman provincial land. The settlement was in exchange for military service against other barbarians.",
+      "description": "In 418 the Western Roman government formally granted the Visigoths the province of Aquitaine in southwest Gaul, with their capital at Toulouse — the first time Rome assigned a complete, prosperous province to a barbarian people under their own king as a permanent home. It was the template every successor state would copy.",
       "wikiSlug": "Visigothic_Kingdom",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The kingdom that grew from this treaty eventually stretched across the Pyrenees to cover most of the Iberian Peninsula, lasting until the Islamic conquest of 711 — nearly three centuries of continuous rule. The Eastern Roman (Byzantine) Empire later tried to claw back parts of Hispania and briefly succeeded, but the Visigoths outlasted those attempts. Inside the kingdom, the Visigoths kept Roman administrative structures running: Roman bureaucrats, Roman law for the Roman population, Latin as the language of government, so 'barbarian kingdom' looked a lot like a reorganized Roman province from the inside."
+        }
+      ],
+      "commonsFile": "Battle_between_Clovis_and_the_Visigoths.jpg"
     },
     {
       "id": "evt-mp-vandals-hispania",
       "label": "The Vandals Cross into Hispania",
       "year": 409,
-      "description": "Pushed by Rome and the Visigoths, the Vandals and their allies moved into the Iberian Peninsula.",
+      "description": "Pushed across the Pyrenees by Visigothic pressure in 409, the Vandals and their allies divided Hispania's provinces among themselves. The Alans were so badly mauled that their remnant surrendered their independence and merged into the Hasding Vandals — a distinct Iranian steppe people quietly ceasing to exist, their name surviving only as an honorific on another king's title.",
       "wikiSlug": "Vandals",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Vandals entering Hispania were actually two distinct groups, the Hasdings and the Silings, who had been separate for centuries. The Siling Vandals were virtually wiped out by Visigothic attacks in Spain, leaving the Hasdings as the dominant survivor with the Alans folded in. It was this battered, reconstituted coalition that crossed into North Africa in 429, built the Vandal kingdom that ruled Roman Africa for over a century, and sacked Rome in 455 — all growing from the damaged remnant that reassembled itself on the Spanish coast."
+        }
+      ]
     },
     {
       "id": "evt-mp-suebi-gallaecia",
       "label": "The Suebi Kingdom in Gallaecia",
       "year": 411,
-      "description": "The Suebi settled the northwest corner of Hispania (modern Galicia and northern Portugal) and built the longest-lasting of the Rhine-crossing peoples' kingdoms, surviving until the Visigoths absorbed them in 585.",
+      "description": "The Suebi settled the far northwest corner of Hispania around 409 and built a kingdom so quiet and so durable that it outlasted the Western Roman Empire itself by more than a century, surviving until the Visigoths finally absorbed it in 585 — 174 years after it was founded.",
       "wikiSlug": "Kingdom_of_the_Suebi",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "During the sixth century the Suebic kingdom formally declared itself the 'Kingdom of Galicia,' governing in the name of the Roman province rather than of the Germanic tribe — a sign that the distinction between Suebi and local Romans had worn nearly flat. The region's name, Galicia, sits on the map of northwestern Spain to this day as a direct linguistic echo of that old Roman province. The Suebic run of 174 years makes it the longest-lived of all the kingdoms founded during the great Rhine crossing of 406–409."
+        }
+      ],
+      "commonsFile": "Ariamirogaliza.jpg"
     },
     {
       "id": "evt-mp-alans-dispersed",
       "label": "The Alans Disperse into Hispania and Africa",
       "year": 418,
-      "description": "The Alan people, originally steppe-dwellers from the Caucasus region, split after heavy losses in Hispania: some joined the Vandals crossing into Africa, others were absorbed by neighboring peoples. The Alans effectively ceased to exist as a distinct group.",
+      "description": "The Alans were Iranian-speaking nomads from the steppe north of the Caucasus who ended up in Hispania after the Rhine crossing, took catastrophic losses from Visigothic and Roman attacks that killed their king, and then simply dissolved: the survivors merged into the Hasding Vandals, which is why Vandal kings ever after called themselves 'King of the Vandals and Alans' — a distinct people surviving only as a title.",
       "wikiSlug": "Alans",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Alans were part of the Sarmatian world, pastoral nomads of the Pontic-Caspian steppe, and had been raiding Rome's Caucasus provinces since the first century CE. The Goths had already broken their steppe dominance between 215 and 250 CE, so their westward migration was a second displacement before the Hunnic pressure added a third. Their Iranian language vanished entirely from the West; the only modern living descendant of the Alan tongue is Ossetic, spoken today in the North Caucasus."
+        }
+      ],
+      "commonsFile": "Alan_kingdom_hispania.png"
     },
     {
       "id": "evt-mp-federate-system",
       "label": "The Federate System Shapes the West",
       "year": 420,
-      "description": "Rome increasingly relied on barbarian federates — peoples settled on imperial land in exchange for military service — to defend frontiers it could no longer garrison. The system gradually transferred real power from the imperial court to barbarian commanders.",
+      "description": "Rome's answer to barbarian peoples it could neither defeat nor expel was the foederati deal: assign them defined land inside the empire, let their king keep command of his own warriors, call them Roman allies obligated to fight other enemies. On parchment it was a military alliance; on the ground it was a slow-motion independent kingdom.",
       "wikiSlug": "Foederati",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word foederati comes from foedus, Latin for 'treaty,' so these were literally 'treaty peoples' bound by a legal compact rather than conquest. The same term covered everything from a city's formal alliance with Rome to a full barbarian people resettled on imperial land, bundling a huge range of relationships under one word. The deepest trap was that barbarian federates kept their own commanders and customs, so Roman law and barbarian law ran in parallel on the same ground — and over time the distinction between 'allied commander' and 'independent king' became mostly a matter of which letters were still being sent to the emperor."
+        }
+      ],
+      "commonsFile": "Disco_de_Teodosio.jpg"
     },
     {
       "id": "evt-mp-geiseric-africa",
       "label": "Geiseric Leads the Vandals into Africa",
       "year": 429,
-      "description": "The Vandal king Geiseric ferried his people to North Africa, the empire's richest grain province.",
+      "description": "In 429, Vandal king Geiseric made one of the boldest gambles of the age: he loaded his entire people onto ships and ferried them across the Strait of Gibraltar from Spain into Roman North Africa, the wealthiest province the Western Empire still held.",
       "wikiSlug": "Genseric",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Geiseric ruled the Vandals and Alans for nearly five decades (428–477), one of the longest reigns of any barbarian king of the era. Roman sources describe him as lame from a riding accident yet universally feared as a cold, calculating strategist — enemies who underestimated him tended to regret it. He was still king when the Western Roman Empire formally collapsed in 476, outlasting virtually every Roman emperor he had ever dealt with."
+        }
+      ],
+      "commonsFile": "Archive-ugent-be-79D46426-CC9D-11E3-B56B-4FBAD43445F2_DS-213_(cropped).jpg"
     },
     {
       "id": "evt-mp-vandal-hippo",
       "label": "Siege of Hippo Regius",
       "year": 430,
-      "description": "The Vandals besieged Hippo Regius on the North African coast; the bishop Augustine of Hippo died during the siege. The city fell to the Vandals after a long blockade, stripping the empire of another major port.",
+      "description": "In 430 the Vandals besieged Hippo Regius, a major North African port — and the city happened to be home to Augustine, the most influential Christian thinker of the ancient world, who died inside the walls during the siege.",
       "wikiSlug": "Augustine_of_Hippo",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Augustine had written his masterwork *City of God* partly as a direct response to the Gothic sack of Rome in 410, arguing that the true eternal city was divine and imperishable, not Roman. He died in August 430 at roughly 75 years old. The Vandals took Hippo after a fourteen-month siege but, unusually, did not burn it — the library containing Augustine's manuscripts survived and his writings went on to shape Western Christian theology for over a thousand years."
+        }
+      ],
+      "commonsFile": "Saint_Augustine_by_Philippe_de_Champaigne.jpg"
     },
     {
       "id": "evt-mp-carthage-taken",
       "label": "The Vandals Take Carthage",
       "year": 439,
-      "description": "Geiseric seized Carthage and built a Mediterranean naval power that throttled Rome's grain and tax base.",
+      "description": "In 439 Geiseric seized Carthage itself — the Western Empire's second-greatest city and the hub of its African grain network — making it the permanent capital of his kingdom and cutting Rome's fiscal lifeline in a single move.",
       "wikiSlug": "Vandal_Kingdom",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Geiseric reportedly took Carthage by surprise on October 19, 439, while Roman attention was elsewhere — timing that looks deliberate rather than lucky. The Vandals had signed a treaty with Rome only four years earlier granting them Mauretania and Numidia; seizing Carthage was a straightforward breach. Contemporaries noted the grim symmetry: a new sea-power rising at Carthage to throttle Rome, six centuries after Rome had annihilated the original Carthaginian empire for exactly the same threat."
+        }
+      ]
     },
     {
       "id": "evt-mp-vandal-fleet",
       "label": "The Vandal Navy Dominates the Western Mediterranean",
       "year": 440,
-      "description": "Geiseric built a fleet that raided Sicily, Sardinia, and the Italian coastline, demonstrating that the Vandals had become the supreme naval power in the western sea. Rome lost control of its critical sea-lanes.",
+      "description": "Through the 440s the Vandal king Geiseric (pronounced 'GUY-zer-ik') built a fleet that raided Sicily, Sardinia, and the Italian coastline, making the Vandal Kingdom the dominant naval power in the western Mediterranean and cutting Rome off from critical grain and revenue routes.",
       "wikiSlug": "Vandal_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Vandal Kingdom was technically a confederation of Vandals and Alans, not purely a Vandal state, and it held its North African territory for 99 years (435-534 AD) — a remarkably long run for a successor state. Geiseric's fleet was so effective that the Western Empire could not retake Africa; it took the Eastern Roman reconquest under Belisarius in 533-534 to finally break Vandal naval power."
+        }
+      ]
     },
     {
       "id": "evt-mp-attila-rises",
       "label": "Attila Becomes King of the Huns",
       "year": 434,
-      "description": "Attila built the Hunnic confederation into the terror of two empires, extracting tribute from Constantinople.",
+      "description": "Around 434, Attila and his brother Bleda inherited rule of the Huns, and Attila would spend the next two decades forging them into the single most feared force in the known world — a confederation of Huns, Ostrogoths, Gepids, and Alans that stretched from the Rhine to the steppe.",
       "wikiSlug": "Attila",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Attila ruled not just Huns but a multi-ethnic empire of subject peoples whose Germanic warriors often outnumbered the Huns themselves. His title was not 'king' in the Roman sense but something closer to supreme war-leader whose authority depended on a constant flow of plunder and tribute. The Eastern Empire under Theodosius II paid him enormous sums to stay away, treating him as a legitimate treaty partner rather than a bandit."
+        }
+      ],
+      "commonsFile": "Attila_(Képes_krónika)_(cropped).jpg"
     },
     {
       "id": "evt-mp-bleda-killed",
       "label": "Attila Kills His Brother Bleda",
       "year": 445,
-      "description": "Attila murdered his co-ruler brother Bleda, becoming sole king of the Huns and concentrating all power in his hands. The killing removed the last internal check on his ambitions.",
+      "description": "In 445 Attila murdered his co-ruler brother Bleda, eliminating the last internal check on his power and concentrating the entire Hunnic confederation under a single will.",
       "wikiSlug": "Bleda",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The exact circumstances of Bleda's death are uncertain even by ancient standards — Jordanes says Attila killed him, but Jordanes wrote a century after the fact. One of the few personal details that survives about Bleda is that he kept a Moorish dwarf named Zerco as a court jester and had a suit of armor custom-made for him so Zerco could accompany him on campaign."
+        }
+      ]
     },
     {
       "id": "evt-mp-eastern-tribute",
       "label": "Attila Extracts Tribute from Constantinople",
       "year": 443,
-      "description": "After devastating raids through the Balkans, Attila extracted a large annual gold tribute from the Eastern Empire in the peace of Anatolius. Constantinople paid to avoid further destruction.",
+      "description": "Between 441 and 450 Attila systematically devastated the Balkans (the mountainous region between the Danube and Greece) and forced Constantinople to pay him off on an escalating scale, turning extortion into a foreign policy.",
       "wikiSlug": "Attila",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The numbers Priscus recorded are staggering: the 443 treaty set the annual tribute at 2,100 pounds of gold, plus a back-payment lump sum of 6,000 pounds. After the 447 campaign Attila roughly tripled the annual rate — a figure comparable to the cost of maintaining a full field army, paid every year just to keep one man at home. The Eastern Empire paid because fighting the Huns to a finish looked more expensive than the invoice."
+        }
+      ],
+      "commonsFile": "Attila_et_les_Huns_par_Georges-Antoine_Rochegrosse.jpg"
     },
     {
       "id": "evt-mp-hunnic-court",
       "label": "The Hunnic Court at the Theiss",
       "year": 448,
-      "description": "Described by the Roman envoy Priscus, Attila's court on the Hungarian plain combined steppe customs with Roman luxuries: wooden halls, silk-clad servants, gold and silver tableware, and a ruler who ostentatiously ate from a wooden platter to emphasize his warrior simplicity.",
+      "description": "Attila's court on the Hungarian plain, as recorded by the Roman envoy Priscus in 449, was a large timber-built compound of halls and stockades — not the savage encampment Roman propaganda imagined, but a functioning royal capital with servants, subject Germanic kings, and Roman defectors.",
       "wikiSlug": "Priscus",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Priscus records that at a formal banquet the guests and lesser lords ate from gold and silver plate while Attila himself used a plain wooden platter and drank from a plain wooden cup — a deliberate performance of warrior austerity amid looted imperial wealth. The court also included educated Romans who had crossed over voluntarily; one told Priscus to his face that life under Attila was freer than under Roman tax collectors."
+        }
+      ]
     },
     {
       "id": "evt-mp-attila-gaul",
       "label": "Attila Invades Gaul",
       "year": 451,
-      "description": "Attila led a vast army into Gaul, sacking cities until a Roman-Visigothic coalition confronted him.",
+      "description": "In 451 Attila led a massive army — Huns plus a great mass of Germanic subject peoples — across the Rhine into Gaul, sacking cities through the heart of the West in the deepest direct Hunnic penetration of Roman territory.",
       "wikiSlug": "Attila",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The invasion forced something previously impossible: it made Aetius, the last effective Western Roman general, field an army composed almost entirely of barbarian federates — Visigoths, Burgundians, and Franks — against another barbarian force. Attila's drive into Gaul effectively reversed the usual direction of the migration-period chain reaction, sending the pressure inward rather than outward through proxy peoples."
+        }
+      ],
+      "commonsFile": "Attila_Museum.JPG"
     },
     {
       "id": "evt-mp-catalaunian",
       "label": "Battle of the Catalaunian Plains",
       "year": 451,
-      "description": "Aetius and the Visigoths halted Attila in one of late antiquity's largest battles, his only major defeat.",
+      "description": "Fought on 20 June 451 somewhere in the Champagne region of northeastern France, the Battle of the Catalaunian Plains was one of the largest battles of late antiquity — a Roman-led coalition of Germanic kingdoms against a Hunnic confederation that was itself mostly Germanic subject troops, the old Roman-versus-barbarian frame dissolved entirely.",
       "wikiSlug": "Battle_of_the_Catalaunian_Plains",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Modern historians argue the decisive moment was actually the siege of Aurelianum (modern Orleans), not the field battle itself — the coalition's relief of that city stopped the Huns' deepest advance. The battle's outcome was tactically indecisive but strategically the only major reverse of Attila's career. The Visigothic king Theodoric I was killed in the fighting, trampled in the chaos, and his death was celebrated as a heroic legend among the Visigoths for generations."
+        }
+      ],
+      "commonsFile": "Thuróczy_krónika_-_Attila_király_csatája_a_catalaunumi_síkon.jpg"
     },
     {
       "id": "evt-mp-theodoric-i-dies",
       "label": "Theodoric I Dies at the Catalaunian Plains",
       "year": 451,
-      "description": "The Visigothic king Theodoric I was killed during the battle that bore his coalition's name as the moment of victory. His death was celebrated in Visigothic legend and demonstrates the scale of the fighting.",
+      "description": "Visigothic king Theodoric I — the same Theodoric who had settled his people in Aquitaine as Roman federates — was killed in the chaos of the Catalaunian Plains battle, trampled or struck down during the fighting, and became a celebrated heroic figure in Visigothic legend.",
       "wikiSlug": "Theodoric_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodoric I had ruled the Visigoths since 418, long enough that his people were by 451 a generation deep into settled Aquitaine. His son Thorismund was elected king on the battlefield, reportedly acclaimed by the assembled warriors on the spot. He is easily confused with Theodoric the Great (the Ostrogothic king who comes two generations later) — same name, completely unrelated, very different stories."
+        }
+      ],
+      "commonsFile": "Félix_Castello,_\"Teodorico,_rey_godo\",_1635.jpg"
     },
     {
       "id": "evt-mp-attila-italy",
       "label": "Attila Invades Italy",
       "year": 452,
-      "description": "Attila ravaged northern Italy before withdrawing after a famous meeting with Pope Leo I.",
+      "description": "Undeterred by the Catalaunian reverse, Attila turned south in 452 and drove through northern Italy, sacking Aquileia so thoroughly that refugees reportedly fled to the lagoon settlements that would eventually become Venice.",
       "wikiSlug": "Attila",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aquileia was one of the richest cities in the western empire, a major Adriatic trade hub; its destruction was so complete that it essentially ceased to exist as a functioning city. The Venice origin legend is a charming story repeated for a thousand years, but should be treated as legend with a kernel rather than documented fact. What is certain is that Attila still withdrew without pressing on to Rome — most likely because his army was being ravaged by disease and famine, and an Eastern Roman force was raiding the Hunnic homeland behind him."
+        }
+      ]
     },
     {
       "id": "evt-mp-pope-leo-attila",
       "label": "Pope Leo I Meets Attila",
       "year": 452,
-      "description": "Pope Leo I led a delegation that met Attila on the Mincio River; Attila withdrew from Italy shortly after, though disease and supply shortage likely played as large a role as the meeting. The encounter became a founding legend of papal political authority.",
+      "description": "In 452 Pope Leo I (bishop of Rome 440-461, later called 'the Great') rode out to meet Attila on the Mincio River in northern Italy; Attila withdrew shortly after, and the encounter became the founding legend of papal political authority.",
       "wikiSlug": "Pope_Leo_I",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The meeting itself is historical fact; the embassy including Leo went, and Attila left. Whether Leo's words caused the withdrawal is the contested part — the papal legend carefully omits that Attila's army was being ravaged by disease and famine and that an Eastern Roman force was raiding his homeland simultaneously. Leo is one of only three popes in history listed in the Annuario Pontificio with the title 'the Great,' alongside Gregory I and Nicholas I."
+        }
+      ],
+      "commonsFile": "Pope_St._Leo_I_the_Great.jpg"
     },
     {
       "id": "evt-mp-attila-death",
       "label": "Attila Dies; the Hunnic Empire Collapses",
       "year": 453,
-      "description": "Attila's sudden death and the Battle of Nedao shattered the Hunnic confederation within a year.",
+      "description": "In early 453 Attila died suddenly — by the standard account, of a haemorrhage in his sleep the night after a wedding feast — and within a year the vast empire he had built from pure personal authority had ceased to exist.",
       "wikiSlug": "Attila",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famous deathbed account comes not directly from Priscus but from Jordanes, a sixth-century writer summarizing a now-lost Gothic history a full century after the event, and through later compilers still — the lurid bedchamber detail is a tradition at two or three removes, not an eyewitness account. His sons immediately fought each other over the succession, which fractured the coalition of subject peoples who had only held together because of Attila and the flow of plunder he guaranteed."
+        }
+      ]
     },
     {
       "id": "evt-mp-nedao",
       "label": "Battle of Nedao",
       "year": 454,
-      "description": "Subject Germanic peoples destroyed the Huns' army and freed themselves, redrawing the map of central Europe.",
+      "description": "In 454, at an unidentified river in Pannonia (roughly modern Hungary), a coalition of former Hunnic subject peoples — Gepids, Ostrogoths, and others led by Gepid king Ardaric — destroyed the Hunnic army and the sons of Attila with it, ending the Hunnic empire in a single engagement.",
       "wikiSlug": "Battle_of_Nedao",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Battle of Nedao is the clearest demonstration of the age's deepest pattern: a power built purely on a successful warlord and the loyalty he bought with plunder was only as durable as the man himself. The Huns do not decline after Nedao — they simply vanish from the sources. By contrast, the Eastern Roman Empire the Huns had terrorized for twenty years, built on institutions rather than a man, would continue standing for another thousand years."
+        }
+      ],
+      "commonsFile": "Képes_krónika_-_11.oldal_-_Attila_király_(2).jpg"
     },
     {
       "id": "evt-mp-aetius",
       "label": "Aetius: the Last of the Romans",
       "year": 450,
-      "description": "Flavius Aetius was the dominant military commander of the Western Empire in the 430s–450s, skillfully playing barbarian groups against one another to maintain a semblance of Roman control. His murder by Emperor Valentinian III in 454 removed the West's last capable strategist.",
+      "description": "Flavius Aetius kept the crumbling Western Empire functional for two decades (433–454) not by winning battles but by playing barbarian groups against each other — hiring Huns against Burgundians, Visigoths against Huns — so that no single power could swallow Italy. His murder by the very emperor he served removed the last strategist capable of holding the West together.",
       "wikiSlug": "Flavius_Aetius",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aetius spent part of his youth as a hostage among the Huns, which is how he learned to leverage them as mercenaries long before Attila turned them into enemies. He held the title of magister militum (master of soldiers), the highest military office in the empire, for over two decades — an almost unheard-of run in an era when such men were routinely killed by rivals. His victory at the Catalaunian Plains in 451 was assembled without a Roman army large enough to fight alone; every soldier in that coalition was there because of personal deals Aetius had struck over two decades."
+        }
+      ]
     },
     {
       "id": "evt-mp-valentinian-murdered",
       "label": "Valentinian III Murdered",
       "year": 455,
-      "description": "Emperor Valentinian III was assassinated by loyalists of the general Aetius whom he had killed the year before. His death opened the floodgates to a series of short-lived emperors and the Vandal sack.",
+      "description": "Emperor Valentinian III, who had reigned since childhood, was stabbed to death in 455 by soldiers loyal to Aetius — the general Valentinian had killed with his own hands the previous year. His death left the Western throne vacant and set off the carousel of short-lived puppet emperors that ended in 476.",
       "wikiSlug": "Valentinian_III",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Valentinian's reign of nearly thirty years was among the longest of any late Western emperor, yet almost none of it was real governance: first his mother Galla Placidia ran the state as regent, then Aetius ran it as strongman. He was killed at the Campus Martius in Rome — reputedly while watching military exercises — by men from the Hunnic guard unit that Aetius had built. His reign began when he was six years old, installed by his mother, and ended in a field with a dagger."
+        }
+      ],
+      "commonsFile": "Bust_of_Valentinian_III,_Louvre_(cropped).jpg"
     },
     {
       "id": "evt-mp-sack-455",
       "label": "The Vandals Sack Rome",
       "year": 455,
-      "description": "Geiseric's Vandals plundered Rome for two weeks, the second sack of the city in half a century.",
+      "description": "In 455, using a dynastic dispute as his pretext, Geiseric sailed a Vandal army up the Tiber and spent roughly two weeks methodically stripping Rome of its imperial and religious treasures — the second sack of the city in forty-five years — then sailed home to Carthage with everything.",
       "wikiSlug": "Sack_of_Rome_(455)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pope Leo I reportedly met Geiseric at the city gates and negotiated terms: no killing of civilians, no burning of buildings — and the Vandals appear to have held to it, since the city physically survived. The word \"vandalism\" (meaning senseless destruction) was coined in 1794 by a French bishop describing revolutionary mob violence and borrowed the Vandal name retroactively; 455 was disciplined looting, not a rampage. Among the haul shipped back to Carthage were treasures Titus had taken from Jerusalem's Temple in 70 CE, which had sat in Rome for nearly four centuries."
+        }
+      ],
+      "commonsFile": "Genseric_sacking_rome_456.jpg"
     },
     {
       "id": "evt-mp-shadow-emperors",
       "label": "The Shadow Emperors of the West",
       "year": 455,
-      "description": "Between 455 and 476 the Western throne cycled through nine emperors in twenty-one years, most of them installed and discarded by Germanic warlords. Real power lay with military commanders, not the purple-clad figures on the throne.",
+      "description": "Between 455 and 476 the Western throne burned through roughly nine emperors in twenty-one years, almost none of whom held real power. They were figureheads installed and discarded by whoever commanded the soldiers — a revolving door of purple that says more about the empire's collapse than any single event.",
       "wikiSlug": "Fall_of_the_Western_Roman_Empire",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The structural trap was this: the army was the kingmaker, the army was largely barbarian federate soldiers, and the federate commanders were legally barred from taking the throne themselves — so they kept making and breaking Roman puppets instead of just seizing power directly. Historians of state failure point to this period as a textbook example where the symbolic apparatus of government (emperors, laws, titles) outlasted the material capacity (taxes, territory, army) by decades, the symbol propped up because Roman legitimacy still had real value even after Roman power had gone."
+        }
+      ],
+      "commonsFile": "Consular_diptych_Probus_406.jpg"
     },
     {
       "id": "evt-mp-ricimer",
       "label": "Ricimer Controls the Western Court",
       "year": 456,
-      "description": "The half-Visigothic general Ricimer became the kingmaker of the Western Empire, making and unmaking emperors from 456 to 472 while himself barred from the throne by his barbarian blood. He exemplified the paradox of the late Western Empire: real power in barbarian hands, symbolic authority remaining Roman.",
+      "description": "Ricimer, a general of Suebic-Visigothic descent, was the real ruler of the Western Empire from 456 to 472 — installing and removing at least four emperors while himself barred from the throne by his barbarian blood and Arian faith. He is the perfect emblem of the late West: actual power was Germanic, while the Roman label still mattered enough that everyone kept pretending otherwise.",
       "wikiSlug": "Ricimer",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ricimer's personal seal, which survives, bears his monogram alongside a barbarian warrior image — a remarkable self-presentation for the man effectively governing what remained of Rome. In 472 he sacked Rome himself while besieging his own puppet emperor Anthemius, who had made the mistake of trying to act independently; the sack lasted three days. Ricimer died just forty days after that victory, and the unrest his death triggered directly accelerated the final collapse four years later."
+        }
+      ],
+      "commonsFile": "Ricimer's_Seal_(1).jpg"
     },
     {
       "id": "evt-mp-majorian",
       "label": "Majorian's Attempted Recovery",
       "year": 457,
-      "description": "Emperor Majorian undertook the most ambitious Western recovery effort of the fifth century, reforming taxation, rebuilding the fleet, and campaigning in Gaul and Hispania. His planned assault on the Vandals was betrayed; Ricimer had him executed in 461.",
+      "description": "Majorian, emperor from 457 to 461, was the last Western ruler to govern as an actual emperor rather than a puppet — he passed real reforms, rebuilt a fleet from nothing, and planned a full-scale assault to retake Vandal Africa. His fleet was burned at anchor on the Spanish coast before it could sail, almost certainly betrayed from within, and Ricimer had him executed five days after arresting him.",
       "wikiSlug": "Majorian",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Among Majorian's domestic reforms was a law explicitly banning the demolition of Rome's ancient public buildings for their stone — a sign of how badly the city had been cannibalized that such a law was necessary. Edward Gibbon, whose eighteenth-century Decline and Fall of the Roman Empire still shapes how this period is taught, singled Majorian out as the last Western emperor who had a realistic chance of saving the empire. His body was found by the road outside Dertosa (modern Tortosa in Spain), five days after Ricimer stopped him on his march back from the failed campaign."
+        }
+      ],
+      "commonsFile": "Solidus_Majorian_Arles_(obverse).jpg"
     },
     {
       "id": "evt-mp-soissons",
       "label": "The Domain of Soissons",
       "year": 461,
-      "description": "A rump Roman state in northern Gaul under Syagrius outlived the Western Empire by a decade.",
+      "description": "After the Western Empire lost Gaul to Visigoths and Burgundians, a functioning Roman holdout called the Domain of Soissons survived in the north under Syagrius — still collecting taxes, running Roman courts in Latin, maintaining an army, with no emperor left to report to. The Franks finally conquered it in 486, a full decade after 476.",
       "wikiSlug": "Domain_of_Soissons",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Syagrius reportedly called himself 'King of the Romans' (rex Romanorum) in some sources — a man running Roman civil administration under Roman law, but with no empire left to belong to. When the Frankish king Clovis defeated Syagrius in 486, he fled to the Visigoths; the Visigoths handed him back under diplomatic pressure, and Clovis had him executed. The Domain's survival is one of the clearest demonstrations that the 'fall' of Rome was a ragged, years-long process rather than a single collapse — a piece of working Rome outlasted the official end date by a decade."
+        }
+      ],
+      "commonsFile": "Map_of_Gaul,_476_AD.png"
     },
     {
       "id": "evt-mp-romulus-augustulus",
       "label": "Romulus Augustulus Deposed",
       "year": 476,
-      "description": "Odoacer deposed the boy-emperor Romulus Augustulus, the conventional end date of the Western Roman Empire.",
+      "description": "Romulus Augustulus — 'little Augustus' — was a teenage boy installed as Western emperor by his father in October 475 and deposed by the Germanic commander Odoacer less than a year later. His name combined Rome's legendary founder with its first emperor in a diminutive, making him history's most ironic footnote: the Western Roman Empire officially ended with a powerless child whose name was a mockery of everything it had once been.",
       "wikiSlug": "Romulus_Augustulus",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Odoacer did not kill him — he pensioned Romulus off to a villa in Campania with a comfortable annual income, probably because executing a child would have caused unnecessary trouble with no political benefit. He had reigned ten months and four days. In the move that tells you most about how little 476 meant to people living through it, Odoacer sent the Western imperial regalia — the diadem, the robes, the physical objects that made a man emperor — back to Constantinople with a note saying the West no longer needed its own emperor, treating the whole Western imperial office as an administrative redundancy."
+        }
+      ],
+      "commonsFile": "Gold_Solidus_of_Romulus_Augustulus.jpg"
     },
     {
       "id": "evt-mp-odoacer",
       "label": "Odoacer Rules Italy",
       "year": 476,
-      "description": "The Germanic commander Odoacer ruled Italy as king while nominally recognizing the Eastern emperor.",
+      "description": "Odoacer was a Germanic officer who led the Italian federate army in a coup, deposed Romulus Augustulus, and made himself king of Italy in 476 — while nominally acknowledging the Eastern emperor in Constantinople as his superior. He was not a conqueror from outside or a revolutionary from within; he was a product of the Roman military system itself, and his kingdom ran on Roman administrative structures.",
       "wikiSlug": "Odoacer",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Odoacer's ethnic origins were disputed even in antiquity — most sources call him a Scirian (a small East Germanic people from the middle Danube), while others add Hunnic ancestry, and he had grown up entirely inside the Roman military. His seventeen-year reign was arguably more stable than the preceding two decades of shadow emperors: he kept Roman law, the Roman Senate, and Roman administrative titles functioning. He was eventually overthrown by the Ostrogothic king Theodoric, sent by Constantinople to deal with him; Theodoric invited him to a peace banquet in 493 and stabbed him at the table."
+        }
+      ],
+      "commonsFile": "Coin_of_Odoacer_at_the_British_Museum_(obverse).png"
     },
     {
       "id": "evt-mp-nepos-exile",
       "label": "Julius Nepos: the Last Legitimate Western Emperor",
       "year": 475,
-      "description": "Julius Nepos, recognized by Constantinople as the legitimate Western emperor, was deposed and exiled to Dalmatia in 475. He remained alive — and technically emperor — until his assassination in 480, meaning the Western Empire's legal extinction was even messier than the 476 narrative suggests.",
+      "description": "Julius Nepos — installed as Western emperor in 474 with Constantinople's backing — was chased out of Italy in 475 by the coup that put Romulus Augustulus on the throne, and spent his remaining years in Dalmatia (the eastern Adriatic coast, modern Croatia) still claiming the imperial title. Constantinople kept recognizing him as the legitimate Western emperor until his murder in 480, making the empire's legal extinction considerably messier than the tidy 476 date suggests.",
       "wikiSlug": "Julius_Nepos",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Because Constantinople regarded Romulus as a usurper's puppet, Odoacer's 476 deposition technically removed someone who wasn't the real emperor at all — Nepos was still alive in Dalmatia. Nepos was killed in 480 by two of his own military companions in what looks like a palace conspiracy, and even after that the Eastern emperor Zeno never formally abolished the Western imperial title — he simply absorbed it, claiming sovereignty over the whole Roman world. Current historians increasingly treat Nepos, not Romulus, as the true last Western emperor, a reading that directly undercuts the famous 476 date."
+        }
+      ],
+      "commonsFile": "Gold_Tremissis_of_Julius_Nepos.jpg"
     },
     {
       "id": "evt-mp-annona-collapse",
       "label": "The Collapse of the Grain Fleet",
       "year": 442,
-      "description": "The Vandal seizure of Africa ended the great state grain shipments that had fed Rome, unravelling the Mediterranean economy.",
+      "description": "The annona (\"uh-NOH-nah\") was the Roman state's grain-supply system: African wheat levied as tax, organized onto government ships, and delivered to feed Rome's population — and when the Vandals took Africa, the whole machine ceased to function at the African end.",
       "wikiSlug": "Cura_Annonae",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The annona had been running in some form since the late Roman Republic, making it one of the longest-lived logistical institutions in ancient history. At its peak it fed an estimated 200,000 recipients in Rome on the free grain dole, with the broader city of roughly a million depending on the imports. The Eastern Empire survived the century in part because it had Egypt as its own secure breadbasket; the West had no equivalent fallback once Africa was gone."
+        }
+      ],
+      "commonsFile": "Haifa-maritime-museum-Roman-grain-ship-2c-1.jpg"
     },
     {
       "id": "evt-mp-urban-contraction",
@@ -549,101 +848,170 @@
       "id": "evt-mp-clovis-rises",
       "label": "Clovis Unites the Franks",
       "year": 481,
-      "description": "Clovis I welded the Frankish groups into a single kingdom that would become the dominant power in the West.",
+      "description": "Around 481 Clovis I became king of one Frankish group along the lower Rhine and spent three decades welding the scattered Frankish tribes into a single kingdom — the seed of what would eventually become France.",
       "wikiSlug": "Clovis_I",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Clovis founded the Merovingian dynasty, which held power for over two and a half centuries before handing off to the line of Charlemagne. He was the first barbarian king to unite multiple Frankish groups under one ruler rather than leaving them under a cluster of petty kings. Charles de Gaulle, centuries later, called him \"the first king of what would become France.\" His name — a Germanic original pronounced roughly \"KLOH-vis\" — was the same name French later softened into \"Louis,\" which is why eighteen French kings carried it."
+        }
+      ],
+      "commonsFile": "Ary_Scheffer_-_Bataille_de_Tolbiac_496.jpg"
     },
     {
       "id": "evt-mp-soissons-battle",
       "label": "Battle of Soissons",
       "year": 486,
-      "description": "Clovis destroyed the last Roman domain in Gaul, opening the way to Frankish rule.",
+      "description": "In 486 Clovis crushed the last surviving Roman domain in Gaul, a rump statelet around Soissons held by a Roman military governor named Syagrius, absorbing its territory and its trained Roman administrators.",
       "wikiSlug": "Battle_of_Soissons_(486)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Syagrius's little realm was the last piece of the western empire still flying Roman colors — a patchwork domain in northern Gaul that had somehow survived the chaos of the 470s. After the Frankish victory, Syagrius fled to the Visigothic king, who handed him back to Clovis under pressure; he was quietly killed. The battle handed Clovis not just land but a ready-made corps of literate Gallo-Roman administrators, exactly the people he needed to run a growing kingdom."
+        }
+      ],
+      "commonsFile": "Syagrius_brought_before_Clovis.jpg"
     },
     {
       "id": "evt-mp-clovis-baptism",
       "label": "The Baptism of Clovis",
       "year": 496,
-      "description": "Clovis converted directly to Catholic Christianity, aligning the Franks with the Roman population they ruled.",
+      "description": "Somewhere between 496 and 508, Clovis converted to Catholic (not Arian) Christianity — the single most consequential political decision of the entire migration period, because it put him on the same side of the theological divide as the Roman population he ruled.",
       "wikiSlug": "Clovis_I",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The main source, bishop Gregory of Tours writing in the 590s, frames the conversion as a desperate battlefield vow against the Alemanni — Clovis pledging to the Christian god that if he won, he would convert. The scene closely mirrors Constantine the Great's famous conversion vision before battle, and scholars still argue whether Gregory built that parallel deliberately to cast Clovis as a new Constantine. What is certain is that Clovis was baptized by the bishop Remigius of Reims, and that he chose the Catholic (Nicene) rite, not the Arian version most Germanic rulers followed."
+        }
+      ],
+      "commonsFile": "Baptême_de_Clovis.jpg"
     },
     {
       "id": "evt-mp-vouille",
       "label": "Battle of Vouillé",
       "year": 507,
-      "description": "Clovis defeated and killed the Visigothic king Alaric II at Vouillé, driving the Visigoths out of Gaul and confining them to Hispania. The battle established the Franks as the dominant power in the former western provinces.",
+      "description": "At Vouillé (near modern Poitiers, western France) in 507, Clovis defeated and personally killed the Visigothic king Alaric II, driving the Visigoths almost entirely out of Gaul and confining them to Spain for the next two centuries.",
       "wikiSlug": "Battle_of_Vouillé",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle was the direct payoff of Clovis's Catholic conversion: he could present himself as an orthodox Christian king liberating Roman Gaul from Arian heretics, and the Gallo-Roman bishops actively supported the campaign. Alaric II had issued his legal code, the Breviary of Alaric, only the year before — a last-minute effort to stabilize his kingdom that did not save it. The surviving Visigoths regrouped in Spain with their capital at Toledo, where they would finally abandon Arianism themselves, under King Reccared, in 589 — vindicating Clovis's logic eighty years after his death."
+        }
+      ],
+      "commonsFile": "Clovis_tue_Alaric_II.jpg"
     },
     {
       "id": "evt-mp-lex-salica",
       "label": "The Lex Salica Codified",
       "year": 507,
-      "description": "Clovis commissioned the written codification of Frankish customary law as the Lex Salica, creating a legal text that governed the Frankish kingdom and influenced European law for centuries.",
+      "description": "Around 507–511 Clovis had Frankish customary law written down in Latin as the Lex Salica (\"Salian law\"), turning centuries of unwritten Germanic custom into a formal legal text that would shape European law for nearly a thousand years.",
       "wikiSlug": "Lex_Salica",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Lex Salica contains some of the earliest known instances of written Old Dutch, embedded in legal formulae. Dozens of manuscripts survive, and the law was amended as late as the ninth century. Its most consequential clause barred daughters from inheriting certain family land — a rule about farm succession that French and English lawyers in the fourteenth century seized on to argue no woman could inherit the French crown, a doctrine that helped trigger the Hundred Years' War. A sixth-century barbarian homestead rule was still deciding royal succession eight centuries later."
+        }
+      ],
+      "commonsFile": "Jugement_de_Childebert_III_accordant_à_l'abbaye_de_Saint-Denis_la_terre_de_Hodenc-l'Evêque_dans_l'Oise.jpg"
     },
     {
       "id": "evt-mp-gundobad-law",
       "label": "Gundobad and Burgundian Law",
       "year": 502,
-      "description": "The Burgundian king Gundobad issued the Lex Romana Burgundionum (Burgundian law for Romans) alongside a separate barbarian code, managing the coexistence of his Burgundian and Gallo-Roman subjects. The dual-code approach was characteristic of the successor kingdoms.",
+      "description": "The Burgundian king Gundobad (ruled 473–516) issued two separate legal codes — one for his Burgundian warriors, one (the Lex Romana Burgundionum) for his Roman subjects — a dual-law approach that was the characteristic legal signature of all the successor kingdoms.",
       "wikiSlug": "Gundobad",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before becoming king of the Burgundians, Gundobad had actually served as a Roman patrician in the dying Western Empire from 472 to 473, making him one of the most Rome-immersed barbarian rulers of the era. His legal synthesis was unusually sophisticated: the Lex Burgundionum blended Roman legal concepts with Germanic custom rather than treating the two populations as completely separate systems. The dual-code model across successor kingdoms reflects a shared implicit assumption — that the Germanic conquerors were not abolishing Rome but managing its estate, keeping the Roman population governed by something recognizably Roman."
+        }
+      ],
+      "commonsFile": "Gondebaud_par_Roger_Ferrier_Place_du_bourg_de_Four.JPG"
     },
     {
       "id": "evt-mp-breviary-alaric",
       "label": "The Breviary of Alaric",
       "year": 506,
-      "description": "The Visigothic king Alaric II issued a simplified digest of Roman law for his Roman subjects, preserving a body of late Roman legal practice in the West long after the empire's collapse.",
+      "description": "On February 2, 506, the Visigothic king Alaric II issued the Breviary of Alaric — a simplified digest of Roman law compiled by Roman jurists for the Roman subjects of his kingdom, an Arian Gothic king carefully preserving Roman jurisprudence for the conquered Romans he ruled.",
       "wikiSlug": "Breviary_of_Alaric",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Breviary applied specifically to Hispano-Roman and Gallo-Roman subjects living under Visigothic rule, not to the Gothic nobility who lived under their own separate code. It was formally promulgated with the approval of Alaric's bishops and nobles — a deliberate act of legitimacy-building. The text survived the collapse of the Visigothic kingdom in Gaul just a year later (at Vouillé, 507) and continued to be used in parts of southern Gaul and Spain for centuries afterward, preserving a body of late Roman legal practice long after the empire that produced it was gone."
+        }
+      ],
+      "commonsFile": "Paris,_BnF_Ms_Latin_4404_fol_1v-2r_Breviarium_Alarici_Frontispiece.jpg"
     },
     {
       "id": "evt-mp-theodoric-ostrogoths",
       "label": "Theodoric the Great Conquers Italy",
       "year": 493,
-      "description": "The Ostrogothic king Theodoric, sent by Constantinople to resolve the Odoacer problem, defeated and killed Odoacer and established the Ostrogothic Kingdom of Italy. Theodoric ruled as an effective overlord of multiple Germanic kingdoms, presenting himself as the legitimate heir of Roman administration.",
+      "description": "In 493, the Ostrogothic king Theodoric defeated and killed the Italian strongman Odoacer and became ruler of Italy — governing Romans through Roman institutions, keeping the Senate and grain dole running, and presenting his Gothic kingship as the legitimate continuation of Roman government.",
       "wikiSlug": "Theodoric_the_Great",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodoric had been sent into Italy by the Eastern emperor in Constantinople specifically to deal with Odoacer, giving his conquest a veneer of imperial legitimacy from the start. In 497 Constantinople formally sent him the former Western imperial regalia — the symbolic toolkit of empire — and he was referred to by the Italian aristocracy using the imperial title \"princeps.\" Though Theodoric himself never claimed the title emperor, scholars describe him as a Western Roman emperor in all but name, ruling a territory stretching from the Atlantic to the Adriatic."
+        }
+      ],
+      "commonsFile": "Teodorico_re_dei_Goti_(493-526).png"
     },
     {
       "id": "evt-mp-theodoric-overlord",
       "label": "Theodoric as Overlord of the West",
       "year": 500,
-      "description": "At his peak Theodoric held Italy and controlled the Visigoths through his daughter, the Burgundians through marriage alliance, and the Alamans through protection. His Ravenna court employed Roman administrators like Cassiodorus and the philosopher Boethius.",
+      "description": "Around 500, Theodoric was the effective overlord of most of the former western provinces — controlling Italy directly, the Visigoths through his daughter, the Burgundians through marriage alliance — and his Ravenna court was the most culturally Roman-looking state in the West.",
       "wikiSlug": "Theodoric_the_Great",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodoric's network of marriage alliances was the standard diplomatic tool of the age: daughters and sisters married into rival royal houses created a web of kin obligation meant to make war between partners politically costly. It held together as long as he lived. His court employed Roman intellectuals including the philosopher Boethius and the administrator Cassiodorus, who preserved vast amounts of classical learning. Theodoric himself reportedly could not read easily — he used a stencil to sign his name — yet he grasped completely that the prestige of Roman civilization was worth keeping even after its power was gone."
+        }
+      ]
     },
     {
       "id": "evt-mp-boethius",
       "label": "Boethius and the Consolation of Philosophy",
       "year": 523,
-      "description": "The philosopher and Roman aristocrat Boethius was imprisoned and executed by Theodoric on charges of treason. He wrote the Consolation of Philosophy while awaiting death — a meditation on fortune and reason that became one of the most widely read books of the Middle Ages.",
+      "description": "The Roman philosopher and senator Boethius was imprisoned by Theodoric in 523 on charges of treason and executed around 524–526; in his cell he wrote the Consolation of Philosophy, a dialogue arguing that fortune is fickle and worldly loss cannot touch what truly matters — one of the most widely copied books of the entire Middle Ages.",
       "wikiSlug": "Boethius",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Boethius had been magister officiorum (essentially the top civil administrator) in Theodoric's government, a rare Roman aristocrat trusted with real power in a Gothic kingdom. The Consolation was written as a prose-and-poetry dialogue with Philosophy personified — a form called Menippean satire, blending genres — and was translated into Old English by King Alfred the Great, into Middle English by Geoffrey Chaucer, and into dozens of other languages over the following thousand years. It became a standard text of medieval education partly because almost no one was better placed than a brilliant man awaiting execution to make a convincing case that worldly honors are worthless."
+        }
+      ],
+      "commonsFile": "Boethius.jpeg"
     },
     {
       "id": "evt-mp-cassiodorus",
@@ -659,11 +1027,18 @@
       "id": "evt-mp-arian-controversy",
       "label": "The Arian-Catholic Fault Line in Successor Kingdoms",
       "year": 480,
-      "description": "Most Germanic ruling classes were Arian Christians — following the theology condemned at Nicaea — while their Roman subjects were Catholic. This difference in faith created a persistent political and social divide in the Visigothic, Vandal, Burgundian, and Ostrogothic kingdoms.",
+      "description": "Almost every Germanic ruling people that took over a piece of the Western Empire — Visigoths, Vandals, Burgundians, Ostrogoths — had converted to Arian Christianity, a theology condemned as heresy by the mainstream Roman Church, which meant the warrior ruling class and the conquered Roman population worshipped separately and regarded each other as heretics.",
       "wikiSlug": "Arianism",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Arianism held that Christ the Son was created by and subordinate to God the Father, not co-eternal with him — a position the Council of Nicaea had formally condemned in 325. The Gothic missionary Ulfilas had converted the Goths to this Arian version in the fourth century and even created a Gothic alphabet to translate the Bible into Gothic. The practical political consequence was that Catholic bishops — the de facto civic leaders of surviving Roman cities, organizing food, charity, and local defense — were structurally unreconcilable with their own Arian kings, leaving every Arian kingdom sitting permanently over a population whose natural leaders it could never fully co-opt."
+        }
+      ],
+      "commonsFile": "Ariusz.JPG"
     },
     {
       "id": "evt-mp-arian-conversions",
@@ -679,11 +1054,18 @@
       "id": "evt-mp-clovis-church-alliance",
       "label": "The Frankish Church Alliance",
       "year": 500,
-      "description": "By converting to Catholic Christianity rather than Arianism, Clovis gained the active support of the Gallo-Roman bishops, the most powerful local administrators surviving from the Roman period. The alliance between the Frankish crown and the Catholic Church became the defining feature of medieval European politics.",
+      "description": "When Clovis chose Catholic Christianity, the Gallo-Roman bishops — by 500 the most powerful surviving administrators in any western city — transformed overnight from reluctant subjects into active partners, giving the Frankish crown the institutional backbone no other barbarian kingdom had.",
       "wikiSlug": "Clovis_I",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Every other major successor kingdom — Visigothic, Vandal, Burgundian, Ostrogothic — had a Germanic warrior class that was Arian and a conquered Roman population that was Catholic, creating a structural fault line that no amount of tolerant governance could fully close. In the Frankish realm that fault line simply did not exist. The bishops organized charity, food distribution, and local defense; by allying with them, Clovis gained co-administrators for every town in Gaul. This partnership between the Frankish crown and the Catholic Church is the direct foundation of medieval European civilization."
+        }
+      ],
+      "commonsFile": "Saint_Remy_baptise_Clovis_détail.jpg"
     },
     {
       "id": "evt-mp-vandal-church-persecution",
@@ -709,11 +1091,18 @@
       "id": "evt-mp-justinian-ambition",
       "label": "Justinian Declares the Reconquest",
       "year": 527,
-      "description": "Emperor Justinian I came to power with a vision of restoring the united Roman Empire. Working with his formidable wife Theodora and a circle of brilliant administrators, he launched legal reforms and military campaigns to reclaim the western provinces.",
+      "description": "Justinian I, Eastern Roman emperor from 527 to 565, came to power with a single overriding ambition: the renovatio imperii (restoration of the Roman Empire to its old western boundaries) — a project his own advisers considered unaffordable and near-impossible given the simultaneous Persian war on the empire's opposite frontier.",
       "wikiSlug": "Justinian_I",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Justinian's reign also produced the Corpus Juris Civilis, the most comprehensive codification of Roman law ever assembled, which became the foundation of civil law across much of Europe and still underpins legal systems today. He ruled for 38 years, longer than almost any emperor before or after him, governing from the wealthiest and most intact state in the known western world."
+        }
+      ],
+      "commonsFile": "Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg"
     },
     {
       "id": "evt-mp-corpus-juris",
@@ -729,71 +1118,119 @@
       "id": "evt-mp-belisarius-north-africa",
       "label": "Belisarius Lands in North Africa",
       "year": 533,
-      "description": "Justinian's general Belisarius sailed to North Africa with a relatively small but professional force. He won two rapid battles against the Vandal king Gelimer and entered Carthage within months of landing.",
+      "description": "Flavius Belisarius, Justinian's greatest general, landed in North Africa in 533 and dismantled the Vandal kingdom in two decisive battles, entering Carthage virtually without a fight — one of the most complete quick conquests in late antique history.",
       "wikiSlug": "Belisarius",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Belisarius is considered one of the greatest commanders in Byzantine history and is ranked among history's finest generals, yet he spent much of his career under suspicion at court and was at one point stripped of his command and briefly imprisoned by a jealous Justinian. He reportedly died in poverty in 565, the same year as the emperor he had served for nearly four decades."
+        }
+      ],
+      "commonsFile": "Belisarius_mosaic.jpg"
     },
     {
       "id": "evt-mp-vandal-war-533",
       "label": "Belisarius Destroys the Vandal Kingdom",
       "year": 533,
-      "description": "Justinian's general Belisarius reconquered North Africa in a lightning campaign, ending the Vandal state.",
+      "description": "The Vandalic War (533–534) was Justinian's opening western campaign: Belisarius landed in North Africa and dismantled the Vandal kingdom — which had dominated the western Mediterranean for a century — in under two years, beginning the renovatio imperii in spectacular fashion.",
       "wikiSlug": "Vandalic_War",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Belisarius's expeditionary force numbered only around 15,000 soldiers, a remarkably small army for a campaign of this ambition. The Vandals were fatally wrong-footed because their best troops were away suppressing a rebellion in Sardinia when he landed. The campaign's speed shocked contemporaries and created the mistaken impression that Italy would be equally quick."
+        }
+      ],
+      "commonsFile": "Vandalic_War_campaign_map.png"
     },
     {
       "id": "evt-mp-vandal-kingdom-end",
       "label": "The Vandal Kingdom Extinguished",
       "year": 534,
-      "description": "Gelimer, the last Vandal king, surrendered to Belisarius and walked in a triumph through Constantinople. The Vandal people were dispersed into the Byzantine army; the Vandal ruling class effectively ceased to exist as a political entity.",
+      "description": "In 534 the last Vandal king Gelimer surrendered to Belisarius, walked in a Roman triumph through Constantinople (a ceremony the city had not staged in generations), and was pensioned off with country estates — the same soft landing given to Romulus Augustulus. Within a generation the Vandals had ceased to exist as a distinct people.",
       "wikiSlug": "Vandalic_War",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gelimer reportedly quoted scripture at the moment of his triumph rather than weeping, which observers recorded as either stoic dignity or madness. The Vandal warriors absorbed into the Byzantine army were posted far from Africa and scattered across frontier garrisons, which is precisely how a conqueror ensures a conquered people loses the cohesion to revolt."
+        }
+      ],
+      "commonsFile": "Arch_of_Titus_Menorah.png"
     },
     {
       "id": "evt-mp-gothic-war-italy",
       "label": "The Gothic War Begins in Italy",
       "year": 535,
-      "description": "After deposing Theodoric's successors, Justinian sent Belisarius to reconquer Italy from the Ostrogoths. The war dragged on for nearly two decades and devastated the Italian peninsula far more than any barbarian raid had.",
+      "description": "In 535 Emperor Justinian sent his general Belisarius to reclaim Italy from the Ostrogoths, beginning a war everyone expected to be brief that turned into a twenty-year catastrophe — ultimately devastating the peninsula far more comprehensively than any barbarian migration had done.",
       "wikiSlug": "Gothic_War_(535–554)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Belisarius took Sicily in 535 and Rome in 536, then lost Rome as the Goths rallied, retook it, and was eventually recalled as Justinian shifted resources elsewhere. The Ostrogothic king Totila reversed nearly all Byzantine gains before Narses finally ended the war. Historians consider the Gothic War — not the Visigothic sack of 410 or the Odoacer transition of 476 — the true demographic and economic killer of late antique Italy: two decades of siege warfare, scorched-earth campaigning, and famine destroyed the senatorial class and the urban infrastructure that had survived the earlier migrations intact."
+        }
+      ],
+      "commonsFile": "Erster_und_Zweiter_Gotenkrieg.png"
     },
     {
       "id": "evt-mp-belisarius-rome",
       "label": "Belisarius Takes and Holds Rome",
       "year": 536,
-      "description": "Belisarius entered Rome in 536 and then defended it against Ostrogothic siege for more than a year — one of the most remarkable defensive operations of late antiquity. The city changed hands multiple times during the war.",
+      "description": "Belisarius entered Rome in December 536 and held it for over a year against a massive Ostrogothic siege — one of the great defensive feats of late antiquity — but the war ground on regardless, and the city eventually changed hands four or five times over the following decade and a half.",
       "wikiSlug": "Gothic_War_(535–554)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "To deny the besieging Goths access to the watercourses, Belisarius cut Rome's aqueducts — ending a supply system that had served the city for eight centuries and that was never fully restored. Rome's population, already fallen from over a million at its peak to perhaps a few hundred thousand, collapsed to a tiny fraction of that by the time the Gothic War finally ended."
+        }
+      ],
+      "commonsFile": "Archive-ugent-be-79D46426-CC9D-11E3-B56B-4FBAD43445F2_DS-212_(cropped).jpg"
     },
     {
       "id": "evt-mp-narses-gothic-war",
       "label": "Narses Ends the Gothic War",
       "year": 552,
-      "description": "The eunuch general Narses finished what Belisarius had started, defeating the Ostrogothic king Totila at the Battle of Busta Gallorum and then crushing the remnants under Teia. Italy was back under Byzantine control — ruined, depopulated, and exhausted.",
+      "description": "The Armenian-born general Narses finished the Gothic War in 552, defeating the Ostrogothic king Totila at the Battle of Busta Gallorum and then crushing the last resistance under Totila's successor Teia — handing Italy back to Justinian's empire, but leaving it ruined, depopulated, and unable to resist the next wave of invaders.",
       "wikiSlug": "Narses",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Narses was already in his seventies when he took command in Italy, having spent most of his career as a palace eunuch and court administrator — an unusual path to generalship even in an era when eunuchs wielded substantial Byzantine court power. Totila was killed during the Battle of Busta Gallorum itself, ending Ostrogothic military leadership in a single afternoon. Narses then governed Italy as exarch (imperial viceroy) until around 567, when he was reportedly recalled after the pope complained to the empress — and his departure left Italy's defenses hollowed out just as the Lombards were preparing to cross the Alps."
+        }
+      ],
+      "commonsFile": "Narses.jpg"
     },
     {
       "id": "evt-mp-pragmatic-sanction",
       "label": "The Pragmatic Sanction",
       "year": 554,
-      "description": "Justinian's Pragmatic Sanction re-established imperial law across Italy, formally ending the Ostrogothic kingdom. It attempted to restore Roman administration to a peninsula that had been ravaged by nearly twenty years of continuous warfare.",
+      "description": "Justinian's Pragmatic Sanction of 554 was the sweeping imperial decree that formally ended the Gothic War, re-establishing Roman law across Italy, restoring property confiscated under Ostrogothic rule, and reorganizing the peninsula's administration — on paper, completing the reconquest.",
       "wikiSlug": "Pragmatic_sanction",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The decree restored the Italian Senate and landed aristocracy to their pre-Gothic legal standing, but the Senate had been effectively destroyed by the war and never played a meaningful political role again. The Lombards invaded Italy just fourteen years later in 568, overrunning most of what the Pragmatic Sanction had just reorganized and ending Byzantine control of the peninsula's interior for good."
+        }
+      ]
     },
     {
       "id": "evt-mp-lazic-war",
@@ -809,101 +1246,170 @@
       "id": "evt-mp-cost-of-italy",
       "label": "The Human Cost of the Gothic War",
       "year": 545,
-      "description": "Contemporary accounts describe Italian cities depopulated, farmland reverting to swamp, and populations starved during the Gothic War sieges. The war that was supposed to restore Roman civilization to Italy did more lasting damage to it than the migrations themselves.",
+      "description": "The Gothic War's human toll dwarfed anything the preceding century of barbarian migration had produced: contemporary historian Procopius describes Italian cities emptied of their populations, farmland reverting to swamp, and people literally starved to death inside besieged walls — the reconquest wrecked the last living fragment of Roman civilization in the West.",
       "wikiSlug": "Gothic_War_(535–554)",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Procopius served on Belisarius's staff and witnessed much of the war firsthand, making his account of the devastation more reliable than most ancient reports of wartime destruction. Modern estimates suggest Italy's population fell by roughly a third during the Gothic War. The structural irony the chapter names is real: barbarian kingdoms generally had every incentive to preserve what they had taken because they were moving in; the empire that came to liberate Italy treated every Gothic-held city as an enemy fortress and stormed it repeatedly."
+        }
+      ]
     },
     {
       "id": "evt-mp-dust-veil-536",
       "label": "The Dust Veil of 536",
       "year": 536,
-      "description": "A volcanic catastrophe dimmed the sun for over a year, causing crop failure and famine across the post-Roman world.",
+      "description": "In 536 a massive volcanic eruption threw enough sulfate aerosols into the stratosphere to dim the sun across the Northern Hemisphere for over a year, turning it a pale bluish color and triggering summer frosts, crop failures, and famine across the post-Roman world.",
       "wikiSlug": "Volcanic_winter_of_536",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Constantinople itself began experiencing darkened skies and cooling temperatures as early as March 536. Multiple independent contemporary writers — including Procopius in the East — recorded the sun giving only feeble, moonlike light with no proper heat for somewhere between twelve and eighteen months. The volcanic winter of 536 is confirmed as one of the most severe and prolonged episodes of climate cooling in the Northern Hemisphere in the past two thousand years, caused by at least three eruptions of still-uncertain origin."
+        }
+      ],
+      "commonsFile": "SS_Filippo_e_Giacomo,_Nosedo._Lapide_del_536_d.c._Photo_by_Giovanni_Dall'Orto,_3_July_2022_2.jpg"
     },
     {
       "id": "evt-mp-536-dendro",
       "label": "Tree Ring Evidence of 536 Climate Collapse",
       "year": 536,
-      "description": "Ice cores and tree rings from across the Northern Hemisphere record a dramatic cooling event beginning in 536, now linked to a massive volcanic eruption. The resulting agricultural failures compounded the social disruptions of the migration era.",
+      "description": "The 536 climate catastrophe is not just a story told by ancient chroniclers — it is physically preserved: tree rings across the Northern Hemisphere show a sudden multi-year growth collapse, and polar ice cores hold massive sulfate spikes in their 536 layers, the chemical fingerprint of stratospheric volcanic eruptions.",
       "wikiSlug": "Volcanic_winter_of_536",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Each annual layer of polar ice traps whatever was in the atmosphere that year, making ice cores a year-by-year chemical diary completely independent of any written source. Trees work the same way thermally: wide rings in warm years, thin ones in cold ones. The convergence of ice-core sulfate spikes, dendrochronology (tree-ring science), and the written accounts of darkened skies elevated 536 from suspected legend to one of the best-attested climate events of the first millennium. Scientists have identified at least three distinct eruptions contributing to the prolonged cooling that lasted until roughly 545."
+        }
+      ],
+      "commonsFile": "Volcanic_winter_of_536–550_temperature_anomaly.png"
     },
     {
       "id": "evt-mp-plague-justinian",
       "label": "The Plague of Justinian",
       "year": 541,
-      "description": "The first recorded bubonic plague pandemic killed a vast share of the Mediterranean population.",
+      "description": "Starting in Egypt in 541, the Plague of Justinian became the first historically documented pandemic of Yersinia pestis — the same bacterium behind the Black Death — killing roughly a fifth of the population in Constantinople alone at its peak and recurring in waves for two centuries.",
       "wikiSlug": "Plague_of_Justinian",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pathogen identification is no longer a guess: scientists have recovered actual Yersinia pestis DNA from the teeth of people buried in sixth-century plague graves. Emperor Justinian I contracted the disease in 542 and survived, which is partly why his court historian Procopius gives us the first detailed clinical description of bubonic plague, including the telltale buboes (swollen lymph nodes in the groin and armpits) that are the disease's signature. The plague spread around the entire Mediterranean basin by 544 and persisted in northern Europe and the Arabian Peninsula until at least 549 in its first recorded cycle."
+        }
+      ],
+      "commonsFile": "Plaguet03.jpg"
     },
     {
       "id": "evt-mp-plague-spread",
       "label": "The Plague Spreads to the West",
       "year": 543,
-      "description": "The Plague of Justinian reached Constantinople in 541 and spread rapidly along trade routes to Egypt, North Africa, Gaul, and the British Isles. It returned in multiple waves through the late sixth and seventh centuries, fundamentally reshaping Mediterranean demographics.",
+      "description": "From Egypt the Plague of Justinian traveled the Roman world's still-functioning sea-lanes with terrible efficiency, reaching Constantinople by 542 and spreading to North Africa, Italy, Gaul, Spain, and the British Isles within two years, then returning in at least eighteen documented waves over the next two centuries.",
       "wikiSlug": "Plague_of_Justinian",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its peak in Constantinople, Procopius reported deaths in the thousands per day — figures supported by mass burial sites excavated around the city. The plague's most consequential strategic effect was fiscal and military: the Eastern Empire strong enough to retake Africa and Italy in the 530s could no longer raise the soldiers or tax revenue to defend those gains in the 550s, because the taxable population had collapsed. Justinian's reconquest was sealed shut not on a battlefield but by a bacterium."
+        }
+      ],
+      "commonsFile": "Hand_necrosis_caused_by_plague.jpg"
     },
     {
       "id": "evt-mp-lombard-pannonia",
       "label": "The Lombards in Pannonia",
       "year": 547,
-      "description": "The Lombards, originally from Scandinavia, had migrated south over centuries and settled in Pannonia (modern Hungary) as Byzantine allies. They absorbed Gepid and other peoples and built up strength for their eventual Italian invasion.",
+      "description": "Before their Italian invasion, the Lombards spent roughly a century settled in Pannonia (the old Roman province on the middle Danube, covering parts of modern Austria, Slovenia, and Hungary), serving as Eastern Roman allies and absorbing neighboring peoples — most importantly the Gepids — in the snowball fashion that characterized every major migration of the period.",
       "wikiSlug": "Lombards",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roman writers of the first and second centuries AD already placed the Lombards on the lower Elbe near modern Hamburg, making their Pannonian phase a midpoint in a centuries-long southward drift. Their status as Byzantine federates (allied troops) gave them access to Roman military subsidies and technology, the same arrangement that had integrated the Goths and Burgundians before them. When they vacated Pannonia in 568, the Avars — a steppe people newly arrived from the East — moved into the vacuum almost immediately."
+        }
+      ],
+      "commonsFile": "Grave_goods_from_Lesencetomaj,_Hungary_-_1.jpg"
     },
     {
       "id": "evt-mp-lombards-italy",
       "label": "The Lombards Invade Italy",
       "year": 568,
-      "description": "The Lombards poured into a Byzantine-ruined Italy, the last of the great Germanic migrations into the West.",
+      "description": "In 568 the Lombards — a Germanic people who had spent a century in Pannonia (roughly modern western Hungary) as Byzantine allies — walked into a plague-ravaged, war-destroyed Italy and met almost no serious resistance, the last and in some ways easiest of all the great Migration Period invasions.",
       "wikiSlug": "Lombards",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Lombards gave their name to Lombardy, the northern Italian region they dominated for two centuries, which still bears it today. Unlike the Goths, the Lombards never controlled all of Italy — the Eastern Empire clung to fortified coastal zones at Ravenna, Rome, and the south — meaning the peninsula became a permanent patchwork of Lombard duchies and Byzantine enclaves, a fragmentation that shaped Italian political geography for over a thousand years. Roman historians of the first and second centuries AD already placed the Lombards along the lower Elbe near modern Hamburg."
+        }
+      ],
+      "commonsFile": "118_of_'(Italy_and_her_Invaders,_Vol._1-4.)'_(11217175325).jpg"
     },
     {
       "id": "evt-mp-alboin",
       "label": "Alboin Leads the Lombards",
       "year": 568,
-      "description": "King Alboin led the Lombard people from Pannonia into Italy, founding a kingdom centered on Pavia.",
+      "description": "Alboin, king of the Lombards from around 560, led his entire people out of Pannonia and into Italy in 568 — a migration of a whole nation, not just an army — and is remembered both as the founder of Lombard Italy and as the subject of one of the grimmer dynastic sagas of the period.",
       "wikiSlug": "Alboin",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Lombard tradition, preserved by the historian Paul the Deacon writing two centuries later, claims Alboin made a drinking cup from the skull of the Gepid king Cunimund (whom he had killed in battle) and forced Cunimund's daughter Rosamund — his own wife — to drink from it at a feast, which drove her to arrange his assassination in 572. Alboin's destruction of the Gepids before the invasion was itself region-altering: it ended Germanic dominance in the Pannonian Basin and opened the area to the Avars, a new steppe people who immediately moved in."
+        }
+      ],
+      "commonsFile": "Alboin's_entrance_into_Pavia.jpg"
     },
     {
       "id": "evt-mp-lombard-pavia",
       "label": "Pavia Becomes the Lombard Capital",
       "year": 572,
-      "description": "After a three-year siege, the Lombards captured Pavia (ancient Ticinum) and made it their royal capital. The Lombard kingdom that emerged divided Italy into a patchwork of Lombard-held territories and Byzantine exarchates that persisted for two centuries.",
+      "description": "After a three-year siege, the Lombards captured Pavia (the ancient Roman city of Ticinum, roughly 22 miles south of Milan) in 572 and made it their royal capital, anchoring a Lombard kingdom that would persist until Charlemagne ended it in 774.",
       "wikiSlug": "Lombard_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Lombard king was elected by the top-ranking nobles — the dukes — rather than inheriting by birth, and every attempt to establish a hereditary dynasty ultimately failed. Below the dukes, the kingdom was subdivided into gastaldates (local administrative units at the city level), blending Germanic custom with adapted Roman municipal organization. The region of Lombardy in modern northern Italy takes its name directly from these conquerors, as does the city of Pavia, which remained a major political center long after the kingdom fell."
+        }
+      ],
+      "commonsFile": "Lombard_(Kingdom_of)_Italy.png"
     },
     {
       "id": "evt-mp-post-roman-west",
       "label": "The Post-Roman West Takes Shape",
       "year": 568,
-      "description": "By the late sixth century the Western provinces had become a settled map of Germanic kingdoms, the foundation of medieval Europe.",
+      "description": "By the late sixth century the former Western Roman provinces had settled into a durable map of Germanic kingdoms — Frankish Gaul, Visigothic Spain, Lombard Italy, Anglo-Saxon England — each rooted in the federate arrangements Rome had made as it lost the ability to defend its own frontiers, and each now a foundation stone of medieval Europe.",
       "wikiSlug": "Barbarian_kingdoms",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Historians conventionally end the era of the barbarian kingdoms with Charlemagne's coronation as emperor in 800, though a handful of small Anglo-Saxon kingdoms persisted until Alfred the Great unified them in 886. The most durable of all these successor states was the Frankish kingdom: the Merovingian alliance with the Roman Church gave it a legitimizing institution older than any Germanic monarchy, and that combination became the structural skeleton of what we call medieval Christendom."
+        }
+      ],
+      "commonsFile": "Europe_and_the_Near_East_at_476_AD.png"
     },
     {
       "id": "evt-mp-law-codes",
@@ -929,21 +1435,34 @@
       "id": "evt-mp-church-as-continuity",
       "label": "The Church as Administrative Continuity",
       "year": 480,
-      "description": "As imperial administration collapsed in the West, bishops assumed civic functions: negotiating with barbarian kings, organizing food distribution, maintaining aqueducts, and preserving Latin literacy. The Church became the primary institution of administrative continuity between the Roman and medieval worlds.",
+      "description": "As the Western imperial government collapsed across the fifth and sixth centuries, the Catholic Church's bishops quietly filled the vacuum — organizing grain distribution, negotiating with Germanic war-bands, maintaining city walls, ransoming captives, and keeping Latin literacy alive — becoming the only continuous administrative institution bridging the Roman and medieval worlds.",
       "wikiSlug": "Catholic_Church",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The process was improvised rather than planned: when no secular authority could pay for walls or feed a starving city, the bishop — who controlled the vast landed estates the Church had accumulated over centuries — simply did it. Pope Gregory I (590–604) is the clearest example: he effectively governed Rome, organized its food supply, and negotiated directly with Lombard warlords to keep them off the city because the Eastern Empire's exarch at Ravenna could not. This is why medieval bishops were simultaneously spiritual leaders, landlords, judges, and occasionally generals — they inherited the functions the empire had dropped."
+        }
+      ]
     },
     {
       "id": "evt-mp-priscus-embassy",
       "label": "Priscus's Embassy to Attila",
       "year": 449,
-      "description": "The rhetorician Priscus accompanied a Roman diplomatic mission to Attila's camp and recorded detailed observations of Hunnic life, court ceremony, and Attila's personality. His account is the most vivid primary source from the migration period.",
+      "description": "In 449 the Greek rhetorician Priscus accompanied a Roman diplomatic embassy to Attila's camp on the Hungarian plain and wrote up what he saw — the single most valuable eyewitness source for the migration period, preserved only because a later compiler quoted it at length.",
       "wikiSlug": "Priscus",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Priscus's account is notable for its ambivalence: he is clearly a trained Roman observer sent to flatter a potential enemy, yet his portrait of Attila is neither monster nor noble savage but a coldly effective politician. Most of what he recorded survived only indirectly, through later writers quoting or paraphrasing him — the haemorrhage account of Attila's death, for instance, reaches us through Jordanes a full century on, not from Priscus's own hand."
+        }
+      ],
+      "commonsFile": "PriscusofPanium.jpg"
     },
     {
       "id": "evt-mp-burgundian-laws",
@@ -989,11 +1508,18 @@
       "id": "evt-mp-hagia-sophia",
       "label": "Justinian Builds the Hagia Sophia",
       "year": 537,
-      "description": "Justinian's rebuild of the Hagia Sophia in Constantinople produced the largest domed interior in the ancient world and remains one of humanity's greatest architectural achievements. Its construction demonstrated that even as the West fragmented, the Eastern Empire retained its wealth and ambition.",
+      "description": "Completed in 537, Justinian's Hagia Sophia (Greek for \"Holy Wisdom\") in Constantinople was the largest domed interior in the world and the first major building to use a fully pendentive dome (a technique that allows a circular dome to sit above a square base) — a structural breakthrough that redefined what architecture could do.",
       "wikiSlug": "Hagia_Sophia",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The original church burned in the Nika Riots; Justinian commissioned the replacement almost immediately and it was completed in under six years, a remarkable pace for a structure of that scale and ambition. The dome, roughly 107 feet (33 m) across, was so bold it partially collapsed in an earthquake in 558 and had to be rebuilt with a steeper profile. The building served as the greatest cathedral in Christendom for nearly 900 years, until the Ottoman conquest of Constantinople in 1453 converted it to a mosque."
+        }
+      ],
+      "commonsFile": "Hagia_Sophia_(228968325).jpeg"
     },
     {
       "id": "evt-mp-edictum-rothari",
@@ -1019,31 +1545,52 @@
       "id": "evt-mp-theodora",
       "label": "Theodora, Co-ruler of the East",
       "year": 527,
-      "description": "Justinian's wife Theodora exercised real political power as co-ruler, reportedly stiffening Justinian's resolve during the Nika Riots and influencing religious and social policy. She represents the outsized role of capable individuals at the Byzantine court.",
+      "description": "Theodora, Justinian's wife and co-empress from 527 until her death in 548, exercised genuine political power in a court that technically barred women from official authority — shaping religious policy, championing legal protections for women, and (by contemporary account) personally stiffening Justinian's resolve during the Nika Riots when he was on the verge of fleeing.",
       "wikiSlug": "Theodora_(wife_of_Justinian_I)",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodora came from a circus family: her father was a bear-keeper at the hippodrome and she had worked as an actress, a profession that carried deep social stigma in Roman law. Justinian changed the law specifically so he could marry her. She championed Monophysite Christianity (the belief that Christ had a single divine nature, not the two-nature formula of official doctrine), giving her significant influence over the theological controversies that defined much of the reign."
+        }
+      ],
+      "commonsFile": "Theodora_mosaic_-_Basilica_San_Vitale_(Ravenna)_v2.jpg"
     },
     {
       "id": "evt-mp-nika-riots",
       "label": "The Nika Riots",
       "year": 532,
-      "description": "A mass uprising in Constantinople — the Nika Riots — nearly toppled Justinian before imperial troops suppressed it at a cost of tens of thousands of lives. The crisis demonstrated the volatility of the Eastern capital even as Justinian prepared his western campaigns.",
+      "description": "The Nika Riots of January 532 were the most violent uprising in Constantinople's history: a week of stadium-faction fury that erupted into full rebellion, burned roughly half the city, and nearly toppled Justinian before his troops killed tens of thousands of rioters in the hippodrome to end it.",
       "wikiSlug": "Nika_riots",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The riot began as a feud between the Blues and Greens (the two great chariot-racing fan factions that functioned as the closest thing Constantinople had to political parties) but quickly merged into a broader revolt when both sides united against Justinian's government. The rebuilding afterward gave Justinian the opportunity — and the site — to construct the Hagia Sophia on the ruins of its burned predecessor."
+        }
+      ],
+      "commonsFile": "Turkey-03228_-_Hippodrome_of_Constantinople_(11312626353).jpg"
     },
     {
       "id": "evt-mp-visigothic-conversion",
       "label": "The Visigothic Conversion to Catholicism",
       "year": 589,
-      "description": "King Reccared of the Visigoths formally converted from Arianism to Catholicism at the Third Council of Toledo, ending the religious divide between the Germanic rulers and their Roman subjects in Spain. The conversion exemplified the broader process by which the successor kingdoms fused into a new European Christian civilization.",
+      "description": "In 589 at the Third Council of Toledo, the Visigothic king Reccared formally renounced Arianism and converted himself and his kingdom to Catholic Christianity, ending the religious fault line between Gothic rulers and their Roman subjects in Spain — following the logic Clovis had demonstrated eighty years earlier.",
       "wikiSlug": "Third_Council_of_Toledo",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Third Council of Toledo is also notable for codifying the filioque clause into Western Christian practice — the addition to the Nicene Creed stating that the Holy Spirit proceeds from both the Father and the Son, a detail that would later become a central point of dispute in the Great Schism between Rome and Constantinople. The council also enacted restrictions on Jews. Reccared's conversion did not happen in a vacuum: several Arian bishops led an armed revolt against it, which Reccared suppressed, showing how deeply the theological divide had run through Visigothic society."
+        }
+      ],
+      "commonsFile": "III_Concilio_de_Toledo_(Museo_del_Prado).jpg"
     },
     {
       "id": "evt-mp-germanic-kingship",
@@ -1099,21 +1646,33 @@
       "id": "evt-mp-vandal-grain-trade",
       "label": "The Vandals Control North African Grain",
       "year": 440,
-      "description": "By controlling North Africa, Geiseric held the granary that had fed Rome and the western armies for centuries. The loss of African grain and tax revenue accelerated the fiscal collapse of the Western Empire and forced it to reduce the army further.",
+      "description": "With North Africa in Vandal hands after 439, the annona (\"uh-NOH-nah\") — Rome's centuries-old state machine that taxed African grain and shipped it to feed the capital — simply stopped, stripping the Western Empire of its largest revenue source at a stroke.",
       "wikiSlug": "Vandal_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The annona was not a commercial market but a government logistical artery: grain levied as tax, organized on state vessels, and distributed free to roughly 200,000 Roman citizens on the dole. The city's total population of around a million depended on imported grain — Italy alone could not feed it. Geiseric grasped that holding the switch on this supply gave him leverage no battlefield victory could match: he could threaten famine in Rome without ever leaving Carthage."
+        }
+      ]
     },
     {
       "id": "evt-mp-goths-split",
       "label": "Goths Split into Visigoths and Ostrogoths",
       "year": 395,
-      "description": "The death of Theodosius I and the division of the empire between his sons formalized the split between the Gothic groups: the Visigoths under Alaric headed west, while the Ostrogoths remained tied to the Hunnic sphere until Attila's death freed them.",
+      "description": "The formal division of the Roman Empire after Theodosius I's death in 395 accelerated the split between the Gothic groups: the Visigoths under Alaric moved west into Roman territory while the Ostrogoths remained under Hunnic domination until Attila's death freed them.",
       "wikiSlug": "Goths",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Goths appear in Roman sources from the third century AD, living north of the lower Danube in what is now Ukraine and Romania, where archaeologists connect them to the Chernyakhov culture. The Visigoth/Ostrogoth split was not a clean political event but a gradual geographic divergence shaped by decades of Hunnic pressure and Roman engagement — both groups would eventually disappear as distinct peoples, absorbed into the post-Roman kingdoms they helped create."
+        }
+      ]
     },
     {
       "id": "evt-mp-clovis-alemanni",
