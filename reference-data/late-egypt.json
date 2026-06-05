@@ -83,726 +83,1198 @@
       "label": "Smendes I",
       "year": -1069,
       "endYear": -1043,
-      "description": "Smendes I founded the Twenty-first Dynasty at Tanis, marking the beginning of the Third Intermediate Period as Egypt split between northern and southern rulers.",
+      "description": "Smendes I founded Egypt's Twenty-first Dynasty at Tanis (a Delta city, not the old southern capital) around 1069 BCE, kicking off the Third Intermediate Period — four centuries of split rule between a northern pharaoh and a semi-independent priestly dynasty in the south.",
       "wikiSlug": "Smendes_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Smendes' exact relationship to the previous Twentieth Dynasty is still debated; he may have married into it rather than descending from it. He ruled from Tanis, a city that had no particular prestige before his reign — it was essentially promoted by royal fiat. Despite the political split, both his dynasty and the southern High Priests maintained the full pharaonic trappings, a shared performance of unity neither side wanted to disrupt."
+        }
+      ],
+      "commonsFile": "Canopic_Smendes_Met.jpg"
     },
     {
       "id": "evt-tanis-royal-tombs",
       "label": "Tanis Royal Tombs",
       "year": -1000,
-      "description": "The royal tombs at Tanis contained spectacular gold funerary masks and treasures rivaling Tutankhamun's, discovered intact by Pierre Montet in 1939.",
+      "description": "The royal tombs at Tanis, buried beneath a temple courtyard and discovered intact by French archaeologist Pierre Montet in 1939, contained gold funerary masks, silver coffins, and jewelry rivaling Tutankhamun's treasure — and almost nobody knows they exist.",
       "wikiSlug": "Tanis",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Montet announced his discovery the same month Germany invaded Poland, so the world press was otherwise occupied and the find never got its moment. Unlike Tutankhamun's tomb in the Valley of the Kings, the Tanis burials were placed inside the city temple precinct, probably because the Valley of the Kings had already been thoroughly robbed by this era. The silver coffin of pharaoh Psusennes I is considered one of the finest pieces of ancient Egyptian metalwork ever found."
+        }
+      ],
+      "commonsFile": "Ruins_of_Tanis.jpg"
     },
     {
       "id": "evt-shoshenq-i",
       "label": "Shoshenq I",
       "year": -943,
       "endYear": -922,
-      "description": "Libyan pharaoh who founded the Twenty-second Dynasty, reunifying Egypt after the fragmented Third Intermediate Period.",
+      "description": "Shoshenq I, a Libyan military commander whose people had been settled in the Delta as mercenaries and frontier guards for generations, seized the throne around 943 BCE when the Twenty-first Dynasty ran out of heirs — founding the Twenty-second Dynasty and briefly reunifying Egypt under Libyan rule.",
       "wikiSlug": "Shoshenq_I",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shoshenq placed his own family members in key positions across Egypt, including the High Priesthood of Amun at Thebes, attempting to stitch the country together through kinship networks rather than force. His reunification didn't outlast his dynasty: within two generations, rival Libyan dynasties had fragmented the Delta into competing principalities, each calling its ruler pharaoh."
+        }
+      ],
+      "commonsFile": "Description_of_Israelites_and_Judean_war_prisoners_from_Shoshenq_I's_(Biblical_Shishak)_campign_to_Canaan._Karnak_(926-5_BCE)._Niv_Lugassi.png"
     },
     {
       "id": "evt-shoshenq-levant",
       "label": "Shoshenq's Levantine Campaign",
       "year": -925,
-      "description": "Pharaoh Shoshenq I launched a military campaign into the Levant, sacking Jerusalem's Temple treasures. The campaign is recorded on the Bubastite Portal at Karnak.",
+      "description": "Around 925 BCE, Shoshenq I launched a military campaign into the Levant, sacking cities in both the Kingdom of Israel and the Kingdom of Judah — the most significant Egyptian military action in the region in over a century.",
       "wikiSlug": "Shoshenq_I",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Hebrew Bible records a pharaoh named \"Shishak\" who plundered the Temple of Solomon in Jerusalem, and scholars widely identify him with Shoshenq I, though the details don't align perfectly. The campaign is also inscribed on a massive stone gateway at Karnak called the Bubastite Portal, listing over a hundred conquered towns. Even a politically fragmented Egypt, it turns out, could still project real military muscle into the Levant — at least for one season."
+        }
+      ],
+      "commonsFile": "Shoshenq_I_by_Rosellini.jpg"
     },
     {
       "id": "evt-karnak-bubastite",
       "label": "Bubastite Portal",
       "year": -925,
-      "description": "Shoshenq I erected the Bubastite Portal at Karnak, recording his victorious campaign into ancient Israel and Judah.",
+      "description": "The Bubastite Portal is a massive stone gateway at Karnak temple, erected by Shoshenq I around 925 BCE, covered in carved reliefs listing the towns he conquered in Israel and Judah — making it one of the few ancient Egyptian monuments that cross-references a Biblical event.",
       "wikiSlug": "Bubastite_Portal",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The portal's name comes from Bubastis (a Delta city sacred to the cat goddess Bastet), Shoshenq's ancestral power base. The relief shows Shoshenq in the traditional pose of a conquering pharaoh, smiting captive enemies, with each captive's oval cartouche containing a place name — over 150 in total, though many are damaged. Scholars use this list as one of the key anchors for synchronizing Egyptian and Levantine chronology."
+        }
+      ],
+      "commonsFile": "Bubastis_portal_at_Karnak.jpg"
     },
     {
       "id": "evt-kushite-conquest",
       "label": "Kushite Conquest",
       "year": -747,
       "endYear": -656,
-      "description": "The Kingdom of Kush invaded and conquered Egypt, establishing the Twenty-fifth Dynasty. The Kushite pharaohs restored traditional Egyptian temples and culture.",
+      "description": "Starting around 747 BCE, the Kingdom of Kush (centered in what is now northern Sudan) swept north and conquered all of Egypt, founding the Twenty-fifth Dynasty — a line of pharaohs who were so thoroughly Egyptianized that they saw themselves as restorers of a broken sacred order, not foreign conquerors.",
       "wikiSlug": "Twenty-fifth_Dynasty_of_Egypt",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Twenty-fifth Dynasty is sometimes called the \"Black Pharaohs\" in modern scholarship, a reference that Kushite kings themselves would have found puzzling — in their own ideology they were the legitimate heirs of Egyptian civilization, which their ancestors had absorbed over centuries of Egyptian colonization of Nubia. They revived pyramid burial, a form already abandoned in Egypt for over five hundred years, and continued building pyramids in Nubia long after their Egyptian empire ended."
+        }
+      ],
+      "commonsFile": "Rulers_of_Kush,_Kerma_Museum.jpg"
     },
     {
       "id": "evt-king-piye",
       "label": "King Piye",
       "year": -747,
       "endYear": -714,
-      "description": "Kushite king who conquered Egypt from the south, unifying it under the Twenty-fifth Dynasty. Piye's Victory Stela at Gebel Barkal is one of the longest ancient Egyptian texts.",
+      "description": "Piye (pronounced PEE-yeh), the Kushite king who conquered Egypt around 747 BCE, left behind the Victory Stela at Jebel Barkal — one of the longest ancient Egyptian texts ever inscribed — then went home to Kush, leaving his defeated enemies in place as vassals.",
       "wikiSlug": "Piye",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Victory Stela reveals an unusually personal conqueror: Piye was so offended by the ritual impurity of the Delta rulers that he refused to let them into his presence until they had cleansed themselves. He was outraged that horses in Egypt were being starved, and the stela records his evident pleasure that one surrendering ruler's stables were well-maintained. After conquering the entire country from the Fourth Cataract to the Mediterranean, he returned to Napata and was buried under a pyramid at El-Kurru — having apparently had no interest in actually ruling Egypt."
+        }
+      ],
+      "commonsFile": "Stele_Piye_Mariette.jpg"
     },
     {
       "id": "evt-shabaka",
       "label": "Shabaka Stone",
       "year": -710,
-      "description": "Pharaoh Shabaka ordered the Memphite creation theology inscribed on stone, preserving one of Egypt's oldest religious texts from a decaying papyrus scroll.",
+      "description": "The Shabaka Stone is a piece of black granite in the British Museum inscribed with an ancient Egyptian creation story — the Memphite Theology, in which the god Ptah creates the world through thought and speech — copied onto stone around 710 BCE by order of Pharaoh Shabaka after the original papyrus was found rotting.",
       "wikiSlug": "Shabaka_Stone",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars are genuinely divided on whether the Memphite Theology is an ancient text Shabaka was preserving or a new composition his court dressed up as ancient to add authority. The stone itself was later repurposed as a millstone, leaving the central hieroglyphs badly damaged. Shabaka's act of ordering the copy fits the Twenty-fifth Dynasty's defining obsession: Egypt's past must be saved from decay, even when the past itself is partly invented."
+        }
+      ],
+      "commonsFile": "Shabaka_Stone_at_the_British_Museum.jpg"
     },
     {
       "id": "evt-taharqa",
       "label": "Taharqa",
       "year": -690,
       "endYear": -664,
-      "description": "Kushite pharaoh and greatest builder of the Twenty-fifth Dynasty, who restored temples across Egypt and Nubia. He clashed with the Assyrian Empire and is mentioned in the Hebrew Bible as an ally of Judah.",
+      "description": "Taharqa (reigned 690–664 BCE) was the greatest builder of the Kushite Twenty-fifth Dynasty — a pharaoh who raised temples across both Egypt and Nubia and whose single surviving column at Karnak, nearly 70 feet (21 meters) tall, is still one of the most imposing standing columns in Egypt.",
       "wikiSlug": "Taharqa",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Hebrew Bible calls him \"Tirhakah king of Ethiopia\" and lists him as an ally of the Judean king Hezekiah against the Assyrian Sennacherib — making Taharqa one of the few ancient Egyptian rulers named in both scripture and surviving inscriptions, though scholars debate whether the biblical timeline fits. At Jebel Barkal in Nubia, he carved a temple directly into the sacred mountain. His reign ended badly: the Assyrian king Esarhaddon defeated him in 671 BCE, captured Memphis, and drove him back toward Kush."
+        }
+      ],
+      "commonsFile": "Taharqa,_Louvre_Museum.jpg"
     },
     {
       "id": "evt-assyrian-conquest",
       "label": "Assyrian Conquest",
       "year": -671,
       "endYear": -654,
-      "description": "The Assyrian Empire under Esarhaddon and Ashurbanipal conquered Egypt, sacking Thebes and ending the Twenty-fifth Dynasty's rule.",
+      "description": "Between 671 and 663 BCE, the Assyrian Empire under Esarhaddon and then Ashurbanipal conquered Egypt — the first time any foreign army had done so since the Hyksos over a thousand years earlier — defeating Taharqa twice and installing puppet rulers in the Delta.",
       "wikiSlug": "Assyrian_conquest_of_Egypt",
       "tier": 3,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Assyrian conquest was brief but decisive: Egypt was too large and distant for Assyria to garrison directly, so they relied on local vassals, which meant control was always fragile. Taharqa retook Memphis the moment each Assyrian army withdrew. It took two invasions and the eventual sack of Thebes to permanently end Kushite rule. The conquest also represented the Neo-Assyrian Empire at its absolute territorial peak — no empire before had controlled territory stretching from the Persian Gulf to the Nile Delta."
+        }
+      ],
+      "commonsFile": "Asarhadon_Berlín_04.JPG"
     },
     {
       "id": "evt-psamtik-i",
       "label": "Psamtik I",
       "year": -664,
       "endYear": -610,
-      "description": "Psamtik I reunified Egypt after Assyrian domination, founding the Twenty-sixth Dynasty and inaugurating the Late Period.",
+      "description": "Psamtik I reunified Egypt in 664 BCE after decades of Assyrian domination and internal fragmentation, founding the Twenty-sixth (Saite) Dynasty and launching the cultural renaissance that defined the last great chapter of native Egyptian rule.",
       "wikiSlug": "Psamtik_I",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Psamtik I started as an Assyrian client — installed by Ashurbanipal himself to govern Sais in the Delta. He used Greek and Carian mercenaries to gradually push out Assyrian influence and reunify the country, a slow consolidation that took roughly a decade. His success at leveraging foreign military muscle to restore native sovereignty became the playbook every Saite pharaoh after him followed — including Amasis."
+        }
+      ],
+      "commonsFile": "Bust_from_Statue_of_a_King_MET_EGX.358.jpeg"
     },
     {
       "id": "evt-saite-renaissance",
       "label": "Saite Renaissance",
       "year": -664,
       "endYear": -525,
-      "description": "The Twenty-sixth Dynasty launched a deliberate cultural revival, copying Old Kingdom artistic styles and restoring ancient monuments in a conscious effort to reconnect with Egypt's glorious past.",
+      "description": "The Twenty-sixth Dynasty (664–525 BCE), based at Sais in the Delta, launched a deliberate cultural revival — commissioning art that consciously copied Old Kingdom originals and restoring temples abandoned for centuries, in a bid to legitimize their rule by reclaiming Egypt's deepest past.",
       "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Saite Period is the last native Egyptian dynasty before Persian conquest in 525 BCE. Artistically, Saite sculptors didn't just copy Old Kingdom models — by many assessments they technically surpassed them, achieving a refinement and polish that the originals lacked. The dynasty also presided over the expansion of foreign trade, establishing Greek merchant colonies at Naucratis and hiring Greek mercenaries — a pragmatic internationalism paired with fierce cultural conservatism."
+        }
+      ],
+      "commonsFile": "Portrait_of_a_Pharaoh_of_the_Saite_Dynasty.jpg"
     },
     {
       "id": "evt-sack-of-thebes",
       "label": "Sack of Thebes",
       "year": -663,
-      "description": "Ashurbanipal's Assyrian army sacked Thebes, plundering centuries of accumulated temple treasure from what had been the richest city in the ancient world.",
+      "description": "In 663 BCE, the Assyrian king Ashurbanipal sacked Thebes (then the richest city in the ancient world), stripping centuries of accumulated temple treasure and effectively ending Kushite control of Egypt.",
       "wikiSlug": "Sack_of_Thebes",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The sack shocked the ancient world so badly that the Hebrew prophet Nahum invoked it decades later as a warning to Nineveh: \"Are you better than Thebes?\" (Nahum 3:8) — it was shorthand for \"even the mightiest city can fall.\" The immediate trigger was a Kushite counter-attack: Tantamani had briefly retaken Memphis and killed Necho I of Sais (father of Psamtik I), prompting Ashurbanipal's punishing campaign deep into Upper Egypt."
+        }
+      ],
+      "commonsFile": "Ashurbanipal_II's_army_attacking_Memphis,_Egypt,_645-635_BCE,_from_Nineveh,_Iraq._British_Museum.jpg"
     },
     {
       "id": "evt-greek-mercenaries",
       "label": "Greek Mercenaries in Egypt",
       "year": -660,
-      "description": "Psamtik I recruited Ionian and Carian Greek mercenaries to help secure Egyptian independence from Assyria, beginning a long tradition of Greek military service in Egypt.",
+      "description": "Psamtik I recruited Ionian and Carian Greek hoplites (heavily armored soldiers fighting in tight formation) to bolster his army around 660 BCE, giving Egypt a military edge that neither his Libyan rivals nor the weakening Assyrian garrison could match.",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Greeks who arrived were eventually settled in permanent garrison towns in the Delta, most notably at Naucratis. This was not Egypt's first experience with foreign soldiers — Libyan mercenaries had been serving in Egyptian armies for centuries — but the Greek presence was different in scale and consequence: it opened Egypt to sustained Greek commercial and cultural contact that would grow steadily until Alexander's conquest three centuries later."
+        }
+      ]
     },
     {
       "id": "evt-demotic",
       "label": "Demotic Script",
       "year": -650,
-      "description": "Demotic replaced hieratic as the everyday writing system of Egypt. Faster to write, it was used for legal, commercial, and literary texts.",
+      "description": "Demotic was the everyday cursive script of Late Period Egypt — faster and more compact than hieroglyphs or hieratic — used for contracts, court records, and personal letters from around 650 BCE onward.",
       "wikiSlug": "Demotic_Egyptian_script",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name \"demotic\" was coined by Herodotus, from the Greek word for \"popular\" — distinguishing it from the priestly hieratic and monumental hieroglyphic scripts used alongside it. All three scripts coexisted simultaneously in the same society for centuries, with context determining which one applied. Demotic survived long after the pharaohs were gone, still being written by Egyptian priests as late as 452 CE — making it one of the longest-lived scripts in human history."
+        }
+      ],
+      "commonsFile": "DemoticScriptsRosettaStoneReplica.jpg"
     },
     {
       "id": "evt-naucratis",
       "label": "Naucratis Trading Colony",
       "year": -630,
-      "description": "The Greek trading colony of Naucratis in the Nile Delta became the first permanent Greek settlement in Egypt, a hub for cross-Mediterranean commerce and cultural exchange.",
+      "description": "Naucratis was Egypt's sole licensed Greek trading port, established in the Nile Delta around 630 BCE and formally reorganized by Amasis — a controlled gateway where Greek merchants could trade but could not spread freely into Egypt proper.",
       "wikiSlug": "Naucratis",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its peak, Naucratis hosted merchants from at least nine Greek city-states, each with their own designated temple precinct. The city lay on the Canopic branch of the Nile, about 45 miles (72 km) from the sea — far enough inland to be easily monitored. Archaeological excavations there have turned up vast quantities of Greek painted pottery alongside Egyptian faience, making it one of the richest cross-cultural artifact assemblages in the ancient Mediterranean."
+        }
+      ],
+      "commonsFile": "Plate_sphinx_BM_GR1965.9-30.705.jpg"
     },
     {
       "id": "evt-necho-ii",
       "label": "Necho II",
       "year": -610,
       "endYear": -595,
-      "description": "Ambitious Saite pharaoh who projected Egyptian power into the Levant, began the Canal of the Pharaohs linking the Nile to the Red Sea, and commissioned a Phoenician circumnavigation of Africa.",
+      "description": "Necho II, pharaoh of the Twenty-sixth Dynasty from 610 to 595 BCE, pushed Egyptian power deep into the Levant, began the canal linking the Nile to the Red Sea, and commissioned the first known circumnavigation of Africa — a voyage completed by a Phoenician crew in three years.",
       "wikiSlug": "Necho_II",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus records the circumnavigation skeptically but preserves a detail that convinced later historians it actually happened: the Phoenician sailors reported that as they rounded Africa's southern tip, the sun was on their right — which from the northern hemisphere sounds wrong but is exactly what you would observe in the southern hemisphere. Necho apparently abandoned the canal project midway after an oracle warned it would benefit foreigners (Darius I finished it a century later). His son Psammetichus II reportedly tried to erase his father's name from monuments after succeeding him."
+        }
+      ],
+      "commonsFile": "Stele_Apis_Necho_II_Petrie.jpg"
     },
     {
       "id": "evt-battle-megiddo-609",
       "label": "Battle of Megiddo (609 BCE)",
       "year": -609,
-      "description": "Pharaoh Necho II defeated and killed King Josiah of Judah at Megiddo while marching to support the dying Assyrian Empire against Babylon. The battle ended Judah's brief independence.",
+      "description": "In 609 BCE, Pharaoh Necho II defeated and killed King Josiah of Judah at the ancient fortress city of Megiddo, reducing Judah to an Egyptian vassal state while Necho marched to prop up the crumbling Assyrian Empire.",
       "wikiSlug": "Battle_of_Megiddo_(609_BC)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle is recorded in no fewer than three ancient sources: the Hebrew Bible (2 Kings 23), the Greek text 1 Esdras, and the Jewish historian Josephus. Josiah's death was so shocking that it became a byword in Hebrew writing for unexpected national catastrophe. Necho replaced the dead king's chosen successor with his own puppet, Jehoiakim, and imposed a silver-and-gold tribute on Judah — brief imperial management that would unravel within four years at Carchemish."
+        }
+      ],
+      "commonsFile": "Necho-KnellingStatue_BrooklynMuseum.png"
     },
     {
       "id": "evt-battle-carchemish",
       "label": "Battle of Carchemish",
       "year": -605,
-      "description": "Nebuchadnezzar II of Babylon crushed the Egyptian army at Carchemish, ending Egypt's bid for control of the Levant and establishing Babylonian dominance over the Near East.",
+      "description": "In 605 BCE, the Babylonian prince Nebuchadnezzar II crushed the Egyptian army at Carchemish (a major river crossing on the Euphrates in modern Syria), ending Egypt's last serious attempt to dominate the Levant.",
       "wikiSlug": "Battle_of_Carchemish",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Egypt had allied with the crumbling remnants of the Assyrian Empire against Babylon — a desperate move to preserve a buffer state on its northeastern border. The defeat was so decisive that Egypt never again projected military power into Syria-Palestine. Nebuchadnezzar went on to conquer Jerusalem twice and destroy Solomon's Temple, events that would not have happened had Egypt won at Carchemish."
+        }
+      ],
+      "commonsFile": "The_Battle_of_Carchemish.png"
     },
     {
       "id": "evt-africa-circumnavigation",
       "label": "Circumnavigation of Africa",
       "year": -600,
-      "description": "Pharaoh Necho II commissioned Phoenician sailors to circumnavigate Africa. According to Herodotus, they completed the three-year voyage — over two thousand years before Vasco da Gama.",
+      "description": "Around 600 BCE, Phoenician sailors commissioned by Necho II completed a three-year voyage around the entire continent of Africa — the first recorded circumnavigation, more than two thousand years before Vasco da Gama.",
       "wikiSlug": "Necho_II",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The detail that most convinced modern scholars the voyage was real is also the one that baffled Herodotus: the sailors reported the sun was on their right (to the north) as they rounded the southern tip of Africa sailing westward. Herodotus called this unbelievable, but it is exactly correct for anyone sailing west below the Tropic of Capricorn — an ancient storyteller making it up would never have invented it. Despite the achievement, the voyage produced no lasting maps, no trade routes, and no follow-up expedition."
+        }
+      ],
+      "commonsFile": "Galley_-_Layard_-_Ninive_page_324_detail.png"
     },
     {
       "id": "evt-suez-canal-precursor",
       "label": "Canal of the Pharaohs",
       "year": -600,
-      "description": "Pharaoh Necho II began construction of a canal linking the Nile to the Red Sea — an ancient precursor to the modern Suez Canal.",
+      "description": "The Canal of the Pharaohs was Necho II's attempt to link the Nile Delta to the Red Sea via the Wadi Tumilat valley — a roughly 100-mile (160 km) waterway that prefigured the modern Suez Canal by 2,400 years.",
       "wikiSlug": "Canal_of_the_Pharaohs",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike the modern Suez Canal, which cuts straight across the isthmus from the Mediterranean, Necho's route ran east from the Delta and then south to the Red Sea — a longer, more indirect path dictated by geography. The canal was eventually completed (whether by Darius I, or later by Ptolemy II — ancient sources disagree) and remained in use with interruptions until 767 CE, when it was closed for strategic reasons during a rebellion. When finished it was wide enough for two triremes (three-banked warships) to pass each other."
+        }
+      ],
+      "commonsFile": "SuezCanal-EO.JPG"
     },
     {
       "id": "evt-psamtik-ii",
       "label": "Psamtik II",
       "year": -595,
       "endYear": -589,
-      "description": "Saite pharaoh who campaigned deep into Nubia against the Kingdom of Kush and systematically erased the names of the Twenty-fifth Dynasty Kushite pharaohs from Egyptian monuments.",
+      "description": "Psamtik II (reigned 595–589 BCE) campaigned deep into Nubia to strike at the Kingdom of Kush, then launched a systematic erasure of the Twenty-fifth Dynasty Kushite pharaohs' names from Egyptian monuments — essentially trying to write them out of history.",
       "wikiSlug": "Psamtik_II",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Psamtik II's birth name, Nefer-Ib-Re, means \"Beautiful is the Heart of Re\" — the kind of throne name that projects divine favor, even as he erased the names of predecessors who had used the same gods to legitimize their own rule. The Kushite kingdom he campaigned against was not destroyed; it survived and continued to flourish from its capital at Napata, and would outlast the Saite Dynasty by centuries."
+        }
+      ],
+      "commonsFile": "Statue_Psamtik_II_Louvre.jpg"
     },
     {
       "id": "evt-abu-simbel-graffiti",
       "label": "Abu Simbel Graffiti",
       "year": -591,
-      "description": "Greek and Carian mercenaries serving Psamtik II carved graffiti on the legs of the colossal statues at Abu Simbel — some of the earliest surviving Greek inscriptions, scratched by bored soldiers on campaign.",
+      "description": "Greek and Carian (Anatolian) mercenaries serving in Psamtik II's Nubian campaign carved their names and notes on the legs of Ramesses II's colossal statues at Abu Simbel around 591 BCE — some of the earliest Greek inscriptions to survive anywhere.",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The graffiti mention individual soldiers by name and record that they came \"this far\" with the pharaoh's army, giving us a rare ground-level soldier's-eye record of an ancient campaign. The statues they carved on were already some 800 years old at the time — Ramesses II had built Abu Simbel around 1264 BCE. Carian, the other language scratched into the stone, is an Anatolian tongue written in its own distinct script, distinct from Greek; finding both languages side-by-side is a window into the multinational mercenary culture of the Saite army."
+        }
+      ]
     },
     {
       "id": "evt-apries",
       "label": "Apries",
       "year": -589,
       "endYear": -570,
-      "description": "Saite pharaoh whose failed military intervention in Libya triggered a mutiny that brought his general Amasis to power. Apries was eventually killed in battle against his own former troops.",
+      "description": "Apries (reigned 589–570 BCE) was the Saite pharaoh whose disastrous military expedition to Libya triggered a soldiers' mutiny, ending with his own general Amasis seizing the throne and Apries killed fighting his former army.",
       "wikiSlug": "Apries",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Apries is called \"Hophra\" in the Book of Jeremiah (44:30), where the prophet predicts his fall — one of the few Egyptian rulers named directly in Hebrew scripture. Herodotus records that Amasis signaled his takeover with a piece of political theater: when Apries sent an envoy to calm the rebels, Amasis placed a helmet on the envoy's head in front of the troops, a wordless declaration that he, not Apries, was in charge. The army immediately acclaimed Amasis pharaoh."
+        }
+      ],
+      "commonsFile": "Sphinx_of_Apries-N_515-IMG_0583-gradient.jpg"
     },
     {
       "id": "evt-amasis-ii",
       "label": "Amasis II",
       "year": -570,
       "endYear": -526,
-      "description": "Usurper general who became one of Egypt's most capable late pharaohs, cultivating Greek alliances, expanding trade, and presiding over a prosperous reign. Herodotus portrays him as a shrewd and jovial ruler.",
+      "description": "A common soldier who rose to pharaoh by mutiny, Amasis II ruled Egypt for forty-four years (570–526 BCE), proving shrewder than any king his subjects expected — consolidating power through strategic marriages, priestly gifts, and a deliberately approachable public persona.",
       "wikiSlug": "Amasis_II",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Amasis was the first pharaoh to conquer Cyprus, adding the island to Egypt's sphere of influence. He also sent lavish dedications to Greek sanctuaries — including gilt statues to Delphi — as diplomatic investments rather than acts of piety. His 44-year reign made him one of the longest-ruling pharaohs of the Late Period, yet he died just six months before the Persian invasion that undid everything he built."
+        }
+      ],
+      "commonsFile": "Head_of_Amasis_II,_c._550_BCE._From_Egypt._Neues_Museum,_Berlin,_Germany.jpg"
     },
     {
       "id": "evt-egyptian-medicine-greeks",
       "label": "Egyptian Medicine Influences Greece",
       "year": -550,
-      "description": "Greek physicians traveled to Egypt to study its advanced medical traditions. Egyptian surgical techniques, pharmacology, and anatomical knowledge significantly influenced the development of Greek medicine.",
+      "description": "Egyptian medicine was among the most sophisticated in the ancient world, with specialized physicians, surgical manuals, and extensive pharmacopeias — and Greek doctors came to Egypt to learn, openly acknowledging the debt that later shaped Western medicine.",
       "wikiSlug": "Ancient_Egyptian_medicine",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Edwin Smith Papyrus (c. 1600 BCE) describes 48 surgical cases in clinical, rational terms with almost no religious content — a striking contrast to magical healing texts of the same era. Egyptian medicine also recognized specialization by body part centuries before Greece: eye doctors, dentists, and \"belly doctors\" each had their own training and titles. The Greek physician Galen, writing in the 2nd century CE, still cited Egyptian pharmacological knowledge as authoritative."
+        }
+      ],
+      "commonsFile": "Edwin_Smith_Papyrus_v2.jpg"
     },
     {
       "id": "evt-pythagoras-egypt",
       "label": "Pythagoras Visits Egypt",
       "year": -535,
-      "description": "According to ancient tradition, Pythagoras spent years studying with Egyptian priests, learning geometry and religious doctrines including the transmigration of souls before founding his school in Italy.",
+      "description": "Pythagoras of Samos (born around 570 BCE) reportedly traveled to Egypt and spent years studying with its priests, absorbing Egyptian geometry and religious ideas about the soul before founding his own philosophical brotherhood in southern Italy around 530 BCE.",
       "wikiSlug": "Pythagoras",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The ancient sources say Pythagoras was circumcised to gain access to Egyptian temple archives — a remarkable concession suggesting the Egyptians took his apprenticeship seriously. The doctrine of metempsychosis (the soul's transmigration through multiple bodies after death), for which Pythagoras was famous in Greece, closely resembles Egyptian beliefs about the ka and the afterlife journey. Whether Pythagoras directly borrowed these ideas or developed them in parallel remains debated, but the chronological and geographic overlap is hard to dismiss."
+        }
+      ],
+      "commonsFile": "Pythagoras_in_the_Roman_Forum,_Colosseum.jpg"
     },
     {
       "id": "evt-psamtik-iii",
       "label": "Psamtik III",
       "year": -526,
       "endYear": -525,
-      "description": "The last pharaoh of the Twenty-sixth Dynasty, who reigned only six months before his defeat by Cambyses II at the Battle of Pelusium ended Egyptian independence for over a century.",
+      "description": "The last pharaoh of the Twenty-sixth Dynasty, Psamtik III ruled Egypt for barely six months before Cambyses II's army crushed him at Pelusium in 525 BCE, ending over a century of native Saite rule.",
       "wikiSlug": "Psamtik_III",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "After his defeat, Psamtik III was carried off to Susa in chains rather than killed outright — Cambyses reportedly gave him a degree of respect at first. He later committed suicide, according to Herodotus, after being caught in a plot to rebel. His entire reign, conquest included, lasted less than a year, making it one of the shortest and most catastrophic in Egyptian history."
+        }
+      ],
+      "commonsFile": "Meeting_Between_Cambyses_II_and_Psammetichus_III.jpg"
     },
     {
       "id": "evt-persian-conquest",
       "label": "Persian Conquest",
       "year": -525,
-      "description": "Cambyses II of Persia defeated Psamtik III at Pelusium and annexed Egypt, making it a satrapy of the Achaemenid Empire.",
+      "description": "At the Battle of Pelusium in 525 BCE, the Persian army under Cambyses II shattered Egypt's forces and annexed the country as the Twenty-seventh Dynasty — ending 140 years of Saite independence and making Egypt a province of the world's largest empire.",
       "wikiSlug": "Battle_of_Pelusium_(525_BC)",
       "tier": 2,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pelusium sat at the northeastern tip of the Delta, the traditional \"gateway to Egypt\" — every major land invasion from the east passed through it. A later tradition claims Cambyses used a psychological weapon at Pelusium: ordering his soldiers to herd cats in front of them, knowing the Egyptians revered the animals and would refuse to attack. The story is almost certainly apocryphal, but it reflects the genuine Greek and later Roman fascination with Egyptian religious scruples. After the battle, Cambyses took Memphis after a siege and formally assumed all pharaonic titles."
+        }
+      ],
+      "commonsFile": "Henry_Charles_Seppings-Wrightː_The_Sea_Fight_at_Pelusium_(Hutchinson's_History_of_the_Nations,_1922).jpg"
     },
     {
       "id": "evt-cambyses-ii-egypt",
       "label": "Cambyses II in Egypt",
       "year": -525,
       "endYear": -522,
-      "description": "Persian king who conquered Egypt and reportedly desecrated temples and killed the sacred Apis bull, though these stories may be Egyptian propaganda. His lost army in the Sahara remains one of antiquity's great mysteries.",
+      "description": "Cambyses II, second king of the Achaemenid Persian Empire, ruled Egypt from 525 to 522 BCE — leaving behind a reputation for sacrilege and madness that modern historians largely blame on Egyptian propaganda.",
       "wikiSlug": "Cambyses_II",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Apis bull stela from the Serapeum at Saqqara records a proper ritual burial of a sacred bull during Cambyses's reign, directly contradicting the story that he stabbed it in a fit of rage. After suppressing Egypt, Cambyses expanded Persian Africa further by taking Cyrenaica (coastal eastern Libya). He died in spring 522 BCE while rushing back to Persia to crush a revolt — sources disagree whether by suicide, murder, or an accidental sword wound."
+        }
+      ],
+      "commonsFile": "Stela_Cambyses_Apis_closeup.jpg"
     },
     {
       "id": "evt-battle-pelusium",
       "label": "Battle of Pelusium",
       "year": -525,
-      "description": "Cambyses II routed the Egyptian army at Pelusium, allegedly using cats and sacred animals as shields knowing the Egyptians would not risk harming them. Egypt became a Persian satrapy.",
+      "description": "Cambyses II decisively defeated the Egyptian army at the fortress city of Pelusium in 525 BCE, opening the Nile Delta to Persian conquest and ending Egypt's independence for over two centuries.",
       "wikiSlug": "Battle_of_Pelusium_(525_BC)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle was preceded by a siege of Gaza and followed immediately by the fall of Memphis, meaning Egypt's entire defense collapsed within weeks. The famous cat-shield story — Cambyses using animals sacred to Egyptians as human shields — comes only from the Roman-era writer Polyaenus, writing 600 years after the fact, and no contemporary source supports it. The city of Pelusium itself sat on a now-silted branch of the Nile, 30 km southeast of modern Port Said."
+        }
+      ],
+      "commonsFile": "Le_roi_Cambyse_au_siège_de_Péluse_par_Paul-Marie_Lenoir.jpg"
     },
     {
       "id": "evt-udjahorresnet",
       "label": "Udjahorresnet",
       "year": -520,
-      "description": "Egyptian priest and physician who served as advisor to both Cambyses II and Darius I, helping the Persians govern Egypt through its native institutions. His autobiography on a naophorous statue is a rare Egyptian collaborator's perspective.",
+      "description": "Udjahorresnet was an Egyptian priest and royal physician who chose collaboration over resistance, serving Cambyses II and then Darius I as a cultural go-between who helped Persian rulers navigate Egyptian religious life.",
       "wikiSlug": "Udjahorresnet",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He left a detailed autobiography carved on a naophorous statue (a type of Egyptian portrait statue where the subject holds a miniature shrine) now in the Vatican Museums. The inscription describes him persuading Cambyses to purge squatters from the sacred temple of Neith at Sais and perform proper Egyptian rites there — suggesting the Persian king was at least willing to observe protocol when coached. Udjahorresnet was later sent by Darius I to restore the Egyptian House of Life, a kind of temple scriptorium and medical school."
+        }
+      ],
+      "commonsFile": "Museo_Gregoriano_004a.jpg"
     },
     {
       "id": "evt-darius-i-egypt",
       "label": "Darius I in Egypt",
       "year": -518,
-      "description": "Darius I visited Egypt and proved a more respectful ruler than Cambyses, completing the Canal of the Pharaohs, codifying Egyptian law, and building the Temple of Hibis at Kharga Oasis — the largest Persian-period temple in Egypt.",
+      "description": "Darius I, the third Achaemenid Great King, visited Egypt around 518 BCE and governed it far more diplomatically than Cambyses had — completing major infrastructure projects, codifying Egyptian law, and presenting himself as a legitimate pharaoh.",
       "wikiSlug": "Darius_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Darius finished the Canal of the Pharaohs linking the Nile to the Red Sea, then commemorated it with trilingual stelae in Old Persian, Elamite, Babylonian, and Egyptian — a deliberate statement of multicultural legitimacy. He also ordered Egyptian law codified in both demotic (the everyday Egyptian script) and Aramaic (the Persian Empire's administrative language), a practical recognition that governing Egypt meant working within its existing legal traditions. Egypt was assessed at 700 talents of silver annually, making it the Persian Empire's wealthiest province."
+        }
+      ],
+      "commonsFile": "Darius_I.jpg"
     },
     {
       "id": "evt-hibis-temple",
       "label": "Temple of Hibis",
       "year": -510,
-      "description": "Darius I built the Temple of Hibis at Kharga Oasis, dedicated to Amun. It is the best-preserved temple from the Persian period in Egypt and shows Persian rulers embracing Egyptian religious traditions.",
+      "description": "The Temple of Hibis at Kharga Oasis (about 300 miles southwest of Cairo) is the only temple from the Persian occupation of Egypt that has survived in reasonably good condition — built by Darius I in full Egyptian style as a deliberate act of political legitimacy.",
       "wikiSlug": "Temple_of_Hibis",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple was dedicated to a local fusion of two Amun forms: 'Amun of Hibis' and 'Amun-Ra of Karnak who dwells in Hibis.' Darius I's choice to build in traditional Egyptian architectural vocabulary — rather than Persian style — illustrates the core dynamic of Late Egypt: conquerors found it cheaper and more effective to adopt the existing religious system than to fight it. The temple is the largest ancient structure surviving at Kharga Oasis."
+        }
+      ],
+      "commonsFile": "HibisComplete.jpg"
     },
     {
       "id": "evt-serapeum-expansion",
       "label": "Serapeum Expansion",
       "year": -500,
-      "description": "The Serapeum at Saqqara, the vast underground burial complex for sacred Apis bulls, was expanded with massive granite sarcophagi during the Late Period as the Apis cult reached peak importance.",
+      "description": "The Serapeum at Saqqara is a vast underground burial complex carved into the bedrock beneath the desert plateau near Memphis, lined with enormous granite sarcophagi — each weighing up to 70 tons — housing the mummified remains of the sacred Apis bulls, each interred with full royal honors.",
       "wikiSlug": "Serapeum_of_Saqqara",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "French archaeologist Auguste Mariette rediscovered the Serapeum in 1851 by tracking clues in Strabo's ancient description of a sphinx-lined avenue. The granite sarcophagi were quarried at Aswan, hundreds of miles away, then transported and lowered into underground galleries so narrow that the margin for error was measured in inches — how the Egyptians moved 70-ton blocks through those passages remains an open engineering question. In the Hellenistic period, the Apis bull's posthumous identity as Osiris-Apis was rebranded as Serapis, a syncretic god who became one of the most widely worshipped deities across the Greek world."
+        }
+      ],
+      "commonsFile": "Abandoned_sacrophagus2.jpg"
     },
     {
       "id": "evt-animal-cult-explosion",
       "label": "Animal Cult Explosion",
       "year": -500,
-      "description": "The Late Period saw a massive expansion of animal cults across Egypt, with millions of ibises, cats, baboons, and crocodiles mummified as votive offerings. Animal necropolises became a major religious industry.",
+      "description": "Beginning around 500 BCE, what had been elite temple practices became a mass popular movement: millions of animals (ibises, cats, baboons, crocodiles, even beetles) were mummified and sold as votive offerings to the gods, turning the temple workshop into a booming commercial industry.",
       "wikiSlug": "Animal_mummy",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "X-ray analysis of animal mummies has revealed many are fraudulent — empty linen wrappings, partial animals, or entirely the wrong species inside — pointing to temple workshops running what amounted to a religious scam at industrial scale. At the ibis catacombs at Saqqara alone, archaeologists estimate four million mummified ibises. The cults were also a genuine democratizing force: for the first time, an ordinary Egyptian with a few coins could make a personal offering to a god without a priest or pharaoh as intermediary."
+        }
+      ],
+      "commonsFile": "British_museum,_Egypt_mummies_of_animals_(4423733728).jpg"
     },
     {
       "id": "evt-inaros-revolt",
       "label": "Inaros Revolt",
       "year": -460,
       "endYear": -454,
-      "description": "Libyan prince Inaros led a major Egyptian revolt against Persian rule, initially defeating a Persian army and seizing Memphis with Athenian naval support before being crushed and executed.",
+      "description": "Libyan prince Inaros II led Egypt's most serious revolt against Persian rule in 460 BCE, defeating the Persian satrap Achaemenes in battle and drawing in a massive Athenian naval expedition before being crushed, captured, and crucified six years later.",
       "wikiSlug": "Inaros_II",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Inaros defeated the satrap Achaemenes — who was Xerxes' own brother — in open battle at Papremis, a victory of real significance. The Athenian fleet that came to his aid numbered 200 ships, one of Athens' largest overseas commitments ever. After his capture, Inaros was held at Susa for five years while Persian officials debated his fate; he was eventually crucified, reportedly at the insistence of Xerxes' widow Amestris, who wanted revenge for her son Achaemenes."
+        }
+      ],
+      "commonsFile": "Inarus_and_possible_Greek_generals_as_prisonners__seized_by_Artaxerxes_I.jpg"
     },
     {
       "id": "evt-herodotus-egypt",
       "label": "Herodotus Visits Egypt",
       "year": -450,
-      "description": "The Greek historian Herodotus traveled extensively in Egypt during Persian rule, recording detailed observations of Egyptian customs, religion, and history in Book II of his Histories — an invaluable (if sometimes fanciful) primary source.",
+      "description": "The Greek historian Herodotus visited Egypt around 450 BCE during Persian rule and devoted the entire second book of his Histories to Egyptian customs, religion, geography, and history — the most detailed outsider account of ancient Egypt before the modern era.",
       "wikiSlug": "Herodotus",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus was himself from Halicarnassus, a Greek city under Persian control, meaning he traveled to Egypt as a subject of the same empire that governed it. His Book II describes mummification techniques, the annual Nile flood, animal cults, and temple practices with a mix of genuine observation and credulous acceptance of priestly tall tales — including the claim that Egyptian records stretched back 11,340 years. Cicero later gave him the title 'Father of History,' though ancient critics also called him the 'Father of Lies.'"
+        }
+      ],
+      "commonsFile": "Marble_bust_of_Herodotos_MET_DT11742_(cropped).jpg"
     },
     {
       "id": "evt-egyptian-calendar",
       "label": "Egyptian Calendar Influence",
       "year": -450,
-      "description": "The Egyptian 365-day civil calendar, with its twelve 30-day months plus five epagomenal days, influenced Greek and later Roman calendar reform. It was the most practical calendar in the ancient world.",
+      "description": "The Egyptian 365-day civil calendar — 12 months of 30 days each, plus 5 extra days at the end of the year — was the most stable and practical timekeeping system in the ancient world, and its basic structure underlies the calendar the modern world still uses.",
       "wikiSlug": "Egyptian_calendar",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The calendar divided each month into three 10-day periods called decans (the origin of our word 'decade'), and evidence from the Nineteenth and Twentieth Dynasties suggests craftsmen may have had the last two days of each decan off — a 10-day work week with a 2-day weekend. Julius Caesar's 45 BCE calendar reform was designed by the Egyptian astronomer Sosigenes of Alexandria and borrowed directly from the Egyptian model, adding only the concept of the leap year. The Western world's 365-day year is a direct inheritance."
+        }
+      ],
+      "commonsFile": "Kom_Ombo_Temple_Calendar_2.JPG"
     },
     {
       "id": "evt-elephantine-papyri",
       "label": "Elephantine Papyri",
       "year": -450,
-      "description": "Aramaic papyri from the Jewish military colony at Elephantine on the Nile reveal a vibrant multicultural community under Persian rule, with its own temple to Yahweh and detailed legal and personal correspondence.",
+      "description": "A cache of Aramaic-language papyri from a Jewish military colony at Elephantine — the island at Egypt's southern border — reveals the cosmopolitan reality of Persian-era Egypt: Jewish soldiers serving a Persian king in an Egyptian city, running their own courts and maintaining a temple to Yahweh.",
       "wikiSlug": "Elephantine_papyri",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The papyri include divorce documents, property contracts, and a remarkable letter in which the colony asks the Persian governor of Judah for permission to rebuild their Yahweh temple after it was destroyed in a local conflict with priests of the Egyptian ram-god Khnum next door. The collection spans roughly a century and was preserved by the extreme dryness of Upper Egypt. It is one of the earliest documentary archives of Jewish community life outside the Bible."
+        }
+      ],
+      "commonsFile": "Papyrus_narrating_the_story_of_the_wise_chancellor_Ahiqar._Aramaic_script._5th_century_BCE._From_Elephantine,_Egypt._Neues_Museum.jpg"
     },
     {
       "id": "evt-temple-archives",
       "label": "Temple Archives of the Late Period",
       "year": -450,
-      "description": "Egyptian temples maintained vast archives of ritual texts, medical papyri, astronomical tables, and administrative records during the Late Period, preserving millennia of accumulated knowledge.",
+      "description": "Every major Egyptian temple maintained a House of Life (per-ankh), a working institution where priests compiled, copied, and guarded texts on ritual, medicine, astronomy, mathematics, and law — the accumulated operational knowledge that made the priestly class indispensable to every conqueror who tried to govern Egypt.",
       "wikiSlug": "House_of_Life",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The House of Life was not a library in the passive sense but a living knowledge factory: new scribes were trained there, texts were actively updated, and the expertise that ran the state (flood prediction, land surveying after inundation, legal archives) was reproduced generation after generation. No foreign governor could replace it — a Persian satrap who wanted to know when the Nile would flood had no other institution to ask. This structural dependency is why successive conquerors (Persians, Macedonians, Romans) all ended up performing Egyptian rituals and dressing as pharaohs on temple walls: controlling the country meant keeping the Houses of Life operational."
+        }
+      ],
+      "commonsFile": "Temple_of_Ain_Al_Muftella,_Bahariya_Oasis,_Egypt_05.jpg"
     },
     {
       "id": "evt-amyrtaeus",
       "label": "Amyrtaeus",
       "year": -404,
       "endYear": -399,
-      "description": "Amyrtaeus of Sais expelled the Persians and became the sole pharaoh of the Twenty-eighth Dynasty, restoring native Egyptian rule after over a century of Persian occupation.",
+      "description": "Amyrtaeus of Sais expelled the Persian garrison in 404 BCE and declared himself pharaoh — the sole ruler of the Twenty-eighth Dynasty and the man who ended Egypt's first Persian occupation after more than a century of foreign rule.",
       "wikiSlug": "Amyrtaeus",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Amyrtaeus is unique in Egyptian history as the only king of his dynasty — not one successor, no co-regents, no heirs. He may have been descended from Psamtik III, the last Saite pharaoh, giving him a claim to the old royal line. His overthrow came not from foreign invasion but from a legal proceeding: later sources say he was convicted of violating his own laws, which is either a genuine legal tradition at work or a story invented by the dynasty that replaced him."
+        }
+      ],
+      "commonsFile": "Amyrtaios_aramaic_papyrus_Sachau.png"
     },
     {
       "id": "evt-imhotep-cult",
       "label": "Cult of Imhotep",
       "year": -400,
-      "description": "The Old Kingdom architect Imhotep was deified in the Late Period as a god of medicine and wisdom, with temples dedicated to his healing cult. The Greeks identified him with their own god Asclepius.",
+      "description": "Imhotep, the Old Kingdom architect who designed the Step Pyramid around 2650 BCE, was gradually elevated to godhood over the following two thousand years, eventually worshipped as a god of medicine whose temples drew pilgrims seeking miraculous cures.",
       "wikiSlug": "Imhotep",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Greeks identified Imhotep with their own healing god Asclepius (whose symbol, the snake-entwined staff, is still used by medicine today), and Ptolemaic-era temples at Saqqara and Philae were active healing sanctuaries. As a historical person, almost nothing survives about Imhotep beyond his titles — yet his deification, 2,000 years after his death, makes him one of very few non-royal ancient Egyptians to be fully worshipped as a god. Egyptian medical knowledge, transmitted partly through his cult tradition, influenced Greek medical writers directly."
+        }
+      ],
+      "commonsFile": "Imhotep,_donated_by_Padisu_MET_DP164134.jpg"
     },
     {
       "id": "evt-twenty-ninth-dynasty",
       "label": "Twenty-ninth Dynasty",
       "year": -399,
       "endYear": -380,
-      "description": "A short-lived native dynasty based at Mendes in the Delta that maintained Egyptian independence through diplomatic alliances with Athens and Sparta against the Persian threat.",
+      "description": "The Twenty-ninth Dynasty (399–380 BCE), founded at the Delta city of Mendes by Nepherites I after he overthrew Amyrtaeus, lasted only twenty years but held Egypt together through constant Persian pressure by cultivating alliances with Athens and Sparta.",
       "wikiSlug": "Twenty-ninth_Dynasty_of_Egypt",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dynasty produced four pharaohs in just nineteen years — an average reign of under five years each — suggesting intense internal instability even as Egypt held off Persia externally. Nepherites I sent a gift of shipbuilding timber and grain to Sparta to support the Spartans' war against Persia, explicitly buying Greek military backing with Nile surplus. The dynasty's capital at Mendes was in the central Delta, a deliberate counterweight to Sais in the west."
+        }
+      ],
+      "commonsFile": "Statue_Achoris_Petrie_01.jpg"
     },
     {
       "id": "evt-grain-trade-athens",
       "label": "Egyptian Grain Trade with Athens",
       "year": -394,
-      "description": "Egypt supplied grain to Athens and other Greek city-states, establishing the Nile Delta as a major breadbasket of the eastern Mediterranean and deepening Greco-Egyptian economic ties.",
+      "description": "Egypt's Nile Delta was the breadbasket of the eastern Mediterranean, and during the last independence period its pharaohs turned grain exports into explicit political currency — supplying Athens and other Greek cities in exchange for diplomatic backing against Persia.",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The grain relationship between the Nile and the Aegean was centuries old, but the Twenty-ninth and Thirtieth dynasties turned it into a formal strategic tool: grain shipments accompanied by military alliances, not just commerce. Athens, chronically dependent on imported grain after the Peloponnesian War's devastation of Attica, was particularly vulnerable to this leverage. Egyptian grain also went to Sparta and to various mercenary employers across the Greek world, making Egypt a kind of neutral paymaster for Greek military talent."
+        }
+      ]
     },
     {
       "id": "evt-plato-egypt",
       "label": "Plato's Egypt",
       "year": -390,
-      "description": "Plato reportedly visited Egypt and was deeply impressed by Egyptian learning, incorporating Egyptian ideas about the soul, the state, and the myth of Atlantis into his philosophical works.",
+      "description": "The Athenian philosopher Plato reportedly visited Egypt around 390 BCE and was deeply impressed by Egyptian learning — and his works contain unmistakable echoes of Egyptian thought, including the myth of Atlantis, which he attributes to an Egyptian priest.",
       "wikiSlug": "Plato",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Plato attributes the Atlantis story explicitly to Solon, who allegedly heard it from Egyptian priests at Sais, making Egypt the claimed ultimate source of that famous myth. The concept of the soul as immortal and cyclically reincarnating — central to Platonism — has close parallels in Egyptian religious thought, though scholars fiercely debate direct borrowing versus independent development. Plato founded his Academy around 387 BCE, roughly contemporary with his supposed Egyptian trip, and ancient tradition credits the visit with shaping his ideas about priestly philosopher-rulers — the basis of his ideal state in the Republic."
+        }
+      ],
+      "commonsFile": "Plato_Silanion_Musei_Capitolini_MC1377.png"
     },
     {
       "id": "evt-nectanebo-i",
       "label": "Nectanebo I",
       "year": -380,
       "endYear": -362,
-      "description": "Founder of the Thirtieth Dynasty, Egypt's last native dynasty. A prolific temple builder who successfully repelled a massive Persian invasion in 373 BCE and presided over a cultural flourishing.",
+      "description": "Nectanebo I (ruled 380–362 BCE) founded Egypt's last native dynasty — the Thirtieth — and became one of its most prolific temple builders, successfully repelling a massive Persian invasion in 373 BCE that could have ended Egyptian independence sixty years early.",
       "wikiSlug": "Nectanebo_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Persian invasion of 373 BCE was a major coordinated assault involving a large fleet and army, but it arrived during the Nile flood season and Nectanebo used the flooded terrain to bog the invaders down — the Persians eventually withdrew, handing Egypt a victory that preserved another generation of independence. Nectanebo I began construction at dozens of temple sites across Egypt and founded the 30th Dynasty's tradition of monumental building that his successors Nectanebo I and II continued, leaving a building legacy that the Ptolemies later intentionally mimicked to claim cultural continuity."
+        }
+      ],
+      "commonsFile": "Nectanebo_I_with_khepresh_crown.jpg"
     },
     {
       "id": "evt-temple-philae",
       "label": "Temple of Philae",
       "year": -380,
-      "description": "The Temple of Isis at Philae was built on an island in the Nile. It was one of the last active temples of the ancient Egyptian religion, operating until 550 CE.",
+      "description": "The Temple of Isis at Philae, begun under Nectanebo I on an island at Egypt's southern frontier, became one of history's most durable religious sites — the last place on Earth where the ancient Egyptian gods were actively worshipped, its priests performing the old rites until the Byzantine emperor Justinian ordered it closed around 550 CE.",
       "wikiSlug": "Philae",
       "tier": 3,
       "tags": [
         "architecture"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The last known hieroglyphic inscription anywhere in the world — the Graffito of Esmet-Akhom, carved at Philae in 394 CE — makes this island the final footprint of the entire ancient Egyptian writing tradition. The temple kept operating for nearly two centuries after the rest of Egypt converted to Christianity, because the Roman emperors initially tolerated it as a concession to the Blemmye and Nubian tribes to the south who still worshipped Isis. Most of the visible structures today date to the Ptolemaic and Roman periods; the modern complex was relocated to nearby Agilkia Island in the 1970s to save it from the rising waters of Lake Nasser."
+        }
+      ],
+      "commonsFile": "Philae_temple_at_night.jpg"
     },
     {
       "id": "evt-divine-birth-narratives",
       "label": "Divine Birth Narratives",
       "year": -370,
-      "description": "The mammisi (birth houses) at Thirtieth Dynasty temples elaborated the theology of divine birth, depicting the pharaoh as the child of a god. These narratives influenced Ptolemaic and even early Christian iconography.",
+      "description": "The mammisi (\"birth house,\" from a Coptic word meaning birthplace) was a small temple attached to a larger complex where the divine birth of a god-child — usually Horus, born of Isis and Osiris — was depicted in elaborate relief, establishing every pharaoh as the child of a god and heir of that divine lineage.",
       "wikiSlug": "Mammisi",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The term \"mammisi\" was coined not by the ancient Egyptians but by the French Egyptologist Jean-François Champollion in the 19th century — the ancient name is unknown. The form was standardized in the Thirtieth Dynasty but then enthusiastically adopted and expanded by the Ptolemaic pharaohs, who used it to claim the same divine legitimacy as their native predecessors. Early Christian nativity iconography — the divine infant, the sheltering mother, the celestial announcement — shows striking structural parallels to the mammisi birth sequence, though the connection remains debated."
+        }
+      ],
+      "commonsFile": "Dendera_relief.jpg"
     },
     {
       "id": "evt-nectanebo-ii",
       "label": "Nectanebo II",
       "year": -360,
       "endYear": -343,
-      "description": "Nectanebo II was the last native-born pharaoh of Egypt. His defeat by the Persians ended indigenous Egyptian rule.",
+      "description": "Nectanebo II (reigned 360–343 BCE) was the last native-born pharaoh of ancient Egypt — after his defeat by Artaxerxes III, no person of Egyptian birth would rule Egypt as an independent sovereign again until the modern era, a gap of over two thousand years.",
       "wikiSlug": "Nectanebo_II",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nectanebo II is the most attested native pharaoh in surviving statuary; more inscribed statues of him exist than of almost any other Egyptian king, reflecting his intense building program across two decades. The Greek Romance of Alexander, a popular novel of late antiquity, claimed that Nectanebo II fled to Macedonia and magically fathered Alexander the Great — making Egypt's last native pharaoh the literal biological ancestor of Egypt's next conqueror. His ultimate fate is genuinely unknown: he vanished after the Persian breakthrough in 343 BCE, possibly fleeing to Nubia, and left no record of death or burial."
+        }
+      ],
+      "commonsFile": "Head_of_Nectanebo_II-MBA_Lyon_H1701-IMG_0204.jpg"
     },
     {
       "id": "evt-astronomical-observations",
       "label": "Late Period Astronomical Observations",
       "year": -350,
-      "description": "Egyptian priests maintained sophisticated astronomical observations at temples across the Late Period, tracking stellar decans and planetary movements. This tradition later fed directly into Hellenistic astronomy at Alexandria.",
+      "description": "Late Period Egyptian temple priests maintained systematic astronomical records, tracking 36 stellar groups called decans whose sequential rising through the night sky marked the hours of darkness, and correlating Nile flood timing with the rising of the star Sirius — practical knowledge that fed directly into the astronomy of Hellenistic Alexandria.",
       "wikiSlug": "Egyptian_astronomy",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Sothic cycle, anchored to the heliacal rising of Sirius, was the backbone of the Egyptian calendar and was accurate enough to still be used as a dating tool by modern Egyptologists. Egyptian astronomical data and methods were a direct source for the Ptolemaic Library and Museum at Alexandria — Eratosthenes, Hipparchus, and the astronomer Ptolemy all built on Egyptian foundations, translating temple records into Greek theoretical frameworks. The decan system itself was adopted into Greek astrology and is the ancestor of the 36 decans that still appear in Western astrological tradition."
+        }
+      ],
+      "commonsFile": "Dendera_Deckenrelief_08.JPG"
     },
     {
       "id": "evt-persian-reconquest",
       "label": "Persian Reconquest",
       "year": -343,
-      "description": "Artaxerxes III of Persia reconquered Egypt after two failed attempts, ending the last native dynasty. Persian rule was harsh, with temples reportedly looted and sacred animals killed.",
+      "description": "Artaxerxes III of Persia ended Egypt's last independence in 343 BCE with an overwhelming invasion that broke through the Delta defenses at multiple points simultaneously, driving Nectanebo II into an unknown exile and beginning the Second Persian Period.",
       "wikiSlug": "Artaxerxes_III",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The key difference from the failed 373 BCE invasion was tactical unity: Artaxerxes III sent three separate columns into three different Delta branches simultaneously, so that Egyptian defenders couldn't concentrate their forces. The Rhodian mercenary commander Mentor brought Greek tactical expertise to the Persian side, directly countering the Greek mercenaries fighting for Nectanebo II. Ancient sources report that Artaxerxes III looted Egyptian temples and killed sacred animals after the conquest — a claim Egyptian priests repeated for generations — though modern historians treat this as at least partly religious propaganda designed to delegitimize Persian rule."
+        }
+      ],
+      "commonsFile": "Artaxerxes_III_as_Pharao.jpg"
     },
     {
       "id": "evt-artaxerxes-iii-egypt",
       "label": "Artaxerxes III",
       "year": -343,
       "endYear": -338,
-      "description": "Persian king who finally crushed Egyptian independence after Nectanebo II fled south. His brutal occupation created the resentment that made Egyptians welcome Alexander as a liberator a decade later.",
+      "description": "Artaxerxes III (ruled 359–338 BCE) was the Achaemenid Persian king who crushed Egypt's sixty years of independence in 343 BCE, reinstalling Persian rule with a harshness that made Egyptians actively welcome Alexander a decade later.",
       "wikiSlug": "Artaxerxes_III",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Artaxerxes III was the son of Artaxerxes II and clawed back an empire his father had let fray — Egypt was just one of several revolts he suppressed. He died in 338 BCE, almost certainly poisoned by his own court eunuch Bagoas, making him the first of three successive Achaemenid kings Bagoas would murder or depose in rapid succession. His campaign against Egypt was his crowning military achievement, but the dynasty he preserved would collapse to Alexander within a decade of his death."
+        }
+      ],
+      "commonsFile": "Rock_relief_of_Artaxerxes_III_in_Persepolis.jpg"
     },
     {
       "id": "evt-dream-stele-tradition",
       "label": "Dream Stele Tradition",
       "year": -340,
-      "description": "The tradition of recording divine dreams on stelae flourished in the Late Period. Nectanebo II's dream stele at the Serapeum follows a pattern stretching back to Thutmose IV's famous sphinx dream.",
+      "description": "Dream stelae — inscribed stone slabs recording a divine dream in which a god commanded the pharaoh to act — were a recurring form of royal religious propaganda in ancient Egypt, with Nectanebo II's stela at the Serapeum consciously echoing Thutmose IV's famous Dream Stele carved beside the Great Sphinx a thousand years earlier.",
       "wikiSlug": "Dream_Stele",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Thutmose IV's Dream Stele, still standing between the Sphinx's paws today, records the young prince's dream in which the Sphinx promised him the kingship if he cleared the sand that had buried it — a story almost certainly invented after he became king to explain why he deserved the throne despite not being the designated heir. Nectanebo II's stela follows the same formula: divine instruction + royal obedience = legitimate rule. The repetition of this specific narrative template across a thousand years of Egyptian history suggests it was a recognized genre that audiences understood as a legitimacy claim, not a literal historical report."
+        }
+      ],
+      "commonsFile": "Great_Sphinx_with_Stelae.jpg"
     },
     {
       "id": "evt-alexander",
       "label": "Alexander Conquers Egypt",
       "year": -332,
-      "description": "Alexander the Great conquered Egypt from the Persians without a battle. He founded Alexandria and was crowned pharaoh at Memphis.",
+      "description": "In 332 BCE Alexander the Great walked into Egypt without firing a shot — the Persian satrap simply surrendered — and was crowned pharaoh at Memphis, carefully performing every ritual that said 'I am not a Persian, I am your king.'",
       "wikiSlug": "Alexander_the_Great",
       "tier": 2,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alexander succeeded his father Philip II at just twenty years old after Philip's assassination in 336 BCE, and within four years had already destroyed the main Persian army at the Battle of Issus and spent seven months besieging Tyre. His unbroken battlefield record across an empire stretching from Greece to northwestern India makes him one of the most studied military commanders in history. He died in Babylon in 323 BCE at thirty-two, having never lost a battle."
+        }
+      ],
+      "commonsFile": "Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg"
     },
     {
       "id": "evt-siwa-oracle",
       "label": "Oracle of Siwa",
       "year": -332,
-      "description": "Alexander made a dangerous journey across the Libyan desert to consult the Oracle of Amun at Siwa Oasis, where the priests reportedly greeted him as the son of Zeus-Ammon, legitimizing his rule in Egyptian religious terms.",
+      "description": "In 332 BCE Alexander made a grueling desert crossing — roughly 350 miles (560 km) through the Sahara — to consult the Oracle of Amun at Siwa Oasis, one of the most prestigious oracles in the ancient world, rivaling Delphi.",
       "wikiSlug": "Siwa_Oasis",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Siwa Oasis sits 50 km (31 mi) east of the Libya–Egypt border in the Western Desert, and its oracle had attracted Greek visitors for at least a century before Alexander arrived — the Spartans reportedly sent envoys, and the poet Pindar composed a hymn to Zeus-Ammon. Alexander entered the sanctuary alone and never revealed what the priest said, but later traditions claim he was greeted as 'son of Zeus-Ammon,' a phrase that worked as divine confirmation in both Egyptian and Greek religious terms simultaneously."
+        }
+      ]
     },
     {
       "id": "evt-alexandria-founded",
       "label": "Alexandria Founded",
       "year": -331,
-      "description": "Alexander the Great founded Alexandria, which became the Mediterranean's greatest trading hub and intellectual capital for centuries.",
+      "description": "In January 331 BCE Alexander laid out a new city on the Mediterranean coast of Egypt — naming it, with characteristic restraint, after himself — on a site chosen for its double natural harbors and its position at the crossroads of Mediterranean and Egyptian trade.",
       "wikiSlug": "Alexandria",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The city was planned on a Hippodamian grid (a right-angled street layout named for the Greek urban planner Hippodamus) by the architect Dinocrates of Rhodes. According to ancient tradition, when the engineers ran out of chalk to mark the street lines in the sand, they used barley flour from the army's supplies — and birds immediately descended to eat it, which the seers read as a sign the city would feed multitudes. Alexandria was the only major city Alexander founded that became the largest in its region, eventually housing perhaps half a million people by the first century BCE."
+        }
+      ],
+      "commonsFile": "113KOM_EL_SHOQAFA_CATACOMBS.jpg"
     },
     {
       "id": "evt-ptolemy-i",
       "label": "Ptolemy I",
       "year": -305,
       "endYear": -282,
-      "description": "Ptolemy I Soter, a general of Alexander the Great, founded the Ptolemaic Dynasty and established Alexandria as a center of learning.",
+      "description": "Ptolemy I Soter (ruled 305–282 BCE) was Alexander's closest Macedonian general who claimed Egypt after Alexander's death, declared himself pharaoh, and founded the dynasty that would rule for nearly three centuries — ending only with Cleopatra.",
       "wikiSlug": "Ptolemy_I_Soter",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ptolemy was also a historian: he wrote a firsthand account of Alexander's campaigns that later became one of the main sources used by Arrian when writing Alexander's biography centuries later, though Ptolemy's original text is lost. He secured Egypt's position early by reportedly stealing Alexander's body as it was being transported back to Macedonia — diverting the funeral cortege to Alexandria, where Alexander's tomb became a major religious and political landmark. He took the epithet 'Soter' (savior) after defending the island of Rhodes against siege."
+        }
+      ],
+      "commonsFile": "Ptolemy_I_Soter_Louvre_Ma849_A.jpg"
     },
     {
       "id": "evt-serapis",
       "label": "Serapis Cult Established",
       "year": -305,
-      "description": "Ptolemy I created the cult of Serapis, merging Egyptian Osiris-Apis with Greek Zeus to unify his Greek and Egyptian subjects under one deity.",
+      "description": "Around 305 BCE, Ptolemy I engineered a new god from scratch: Serapis, a deliberate fusion of the Egyptian gods Osiris and Apis with the Greek gods Zeus and Hades, designed to give his mixed Greek and Egyptian population a deity they could share.",
       "wikiSlug": "Serapis",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Serapis is one of antiquity's most deliberately constructed deities — a syncretic god invented by royal decree to solve a political problem. He was depicted with Greek iconography (a bearded Zeus-like figure with a grain basket called a modius on his head) rather than Egyptian forms, which suggests the cult was pitched primarily at the Greek immigrant population rather than native Egyptians who already had their own gods. The Serapeum at Alexandria became one of the grandest temple complexes in the city and survived until 391 CE, when it was destroyed by a Christian mob."
+        }
+      ],
+      "commonsFile": "Serapis_Pio-Clementino_Inv689_n2.jpg"
     },
     {
       "id": "evt-library",
       "label": "Library of Alexandria",
       "year": -283,
-      "description": "The Great Library of Alexandria was founded by Ptolemy I, becoming the ancient world's greatest center of scholarship and housing hundreds of thousands of scrolls.",
+      "description": "The Great Library of Alexandria, founded around 283 BCE under Ptolemaic patronage, was the ancient world's most ambitious attempt to collect every text ever written — at its peak, estimates of its scroll holdings range from 40,000 to 700,000.",
       "wikiSlug": "Library_of_Alexandria",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Library was part of a larger institution called the Mouseion (literally 'home of the Muses,' the origin of the word 'museum'), which functioned as a state-funded research institute where scholars received salaries, meals, and lodging. The Ptolemies acquired books by an aggressive policy that included inspecting all ships docking in Alexandria and confiscating any scrolls found on board — the originals were kept and copies returned to their owners. The library was probably begun under Ptolemy II rather than Ptolemy I, despite the founding myth often crediting the father."
+        }
+      ],
+      "commonsFile": "Ancientlibraryalex.jpg"
     },
     {
       "id": "evt-lighthouse",
       "label": "Lighthouse of Alexandria",
       "year": -280,
-      "description": "The Pharos of Alexandria, one of the Seven Wonders, was built on the island of Pharos. At 100m tall, it guided ships into the harbor for centuries.",
+      "description": "The Pharos of Alexandria (completed around 280 BCE under Ptolemy II) was one of the Seven Wonders of the Ancient World — a tower at least 330 feet (100 m) tall whose fire guided ships into harbor and stood for over a thousand years before earthquakes toppled it.",
       "wikiSlug": "Lighthouse_of_Alexandria",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pharos was built on the small island of Pharos just off Alexandria's coast, connected to the city by a causeway called the Heptastadion (seven stades long, roughly 1,300 meters). For many centuries it was one of the tallest man-made structures in the world. It survived largely intact until a series of earthquakes between 956 and 1323 CE progressively damaged and finally collapsed it — a 14th-century Arab traveler reported finding only a stump. The island's name, Pharos, became the word for 'lighthouse' in French (phare), Spanish (faro), Italian (faro), and several other languages."
+        }
+      ],
+      "commonsFile": "Book_of_Wonders_folio_36a_cropped.jpg"
     },
     {
       "id": "evt-manetho",
       "label": "Manetho",
       "year": -280,
-      "description": "Egyptian priest Manetho wrote Aegyptiaca, a history of Egypt that established the system of dynasties still used by Egyptologists today.",
+      "description": "Manetho was an Egyptian priest writing in Greek around 280 BCE who organized three thousand years of pharaonic history into a sequence of thirty dynasties — a framework that modern Egyptologists still use today.",
       "wikiSlug": "Manetho",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "None of Manetho's original texts have survived; everything we know of his work comes from fragments quoted by later writers including the Jewish historian Josephus, who cited Manetho while arguing about the antiquity of the Jewish people. Manetho himself apparently argued that the Hyksos (the foreign rulers who occupied Egypt in the Second Intermediate Period) were the ancestors of the Israelites — a claim Josephus quoted precisely in order to rebut it, preserving the passage in the process. His dynasty-numbering system was so useful that it remained the standard framework for two thousand years despite being based on an ancient Egyptian text that modern scholars can't directly verify."
+        }
+      ],
+      "commonsFile": "OsirisPriest.jpg"
     },
     {
       "id": "evt-eratosthenes-egypt",
       "label": "Eratosthenes",
       "year": -276,
       "endYear": -194,
-      "description": "Greek polymath who served as chief librarian at Alexandria, calculated the circumference of the Earth with remarkable accuracy, and invented the discipline of geography.",
+      "description": "Eratosthenes (c. 276–194 BCE) was the chief librarian at Alexandria who calculated the circumference of the Earth using two Egyptian cities, a well, and the angle of a shadow at noon — arriving at a figure remarkably close to the correct value.",
       "wikiSlug": "Eratosthenes",
       "tier": 3,
       "tags": [
         "science"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His method was elegantly simple: he knew that at noon on the summer solstice, the sun shone straight to the bottom of a well in Syene (modern Aswan) with no shadow, meaning the sun was directly overhead. On the same day in Alexandria, a vertical stick cast a shadow of about 7.2 degrees. Since he knew the overland distance between the two cities, he could calculate the full circumference from the fraction of the circle that arc represented. Beyond Earth's circumference, he also coined the terms 'geography' and 'geographer,' mapped the known world, and calculated the tilt of Earth's axis — all before 200 BCE."
+        }
+      ],
+      "commonsFile": "Eratosthenes_Teaching_in_Alexandria_(Bernardo_Strozzi,_Montreal).jpg"
     },
     {
       "id": "evt-temple-edfu",
       "label": "Temple of Edfu",
       "year": -237,
-      "description": "The Temple of Horus at Edfu is the best-preserved ancient temple in Egypt. Built during the Ptolemaic period, its inscriptions are a major source for understanding Egyptian religious ritual.",
+      "description": "The Temple of Horus at Edfu, built by the Ptolemaic rulers between 237 and 57 BCE, is the best-preserved ancient temple in Egypt — its walls still covered in hieroglyphic texts that record the mythology, ritual, and theology of the pharaonic system at its most complete.",
       "wikiSlug": "Temple_of_Edfu",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inscriptions describe Edfu's mythical identity as 'the Island of Creation,' tying every stone of the building to Egyptian cosmology. The walls also preserve scenes from a Sacred Drama re-enacting the eternal conflict between the god Horus and his enemy Seth — a ritual that had been performed for thousands of years. The temple took 180 years to build, spanning multiple Ptolemaic reigns, and was completed just 27 years before Cleopatra's death ended the dynasty."
+        }
+      ],
+      "commonsFile": "Temple_Edfou_Egypte.jpg"
     },
     {
       "id": "evt-grain-trade",
       "label": "Rome's Granary",
       "year": -200,
-      "description": "Egypt became the primary grain supplier for Rome, shipping millions of bushels annually — making it the most strategically vital province in the empire.",
+      "description": "Egypt fed Rome — literally. After the Roman annexation in 30 BCE, Egypt shipped millions of bushels of grain annually to the capital, making it the empire's most strategically irreplaceable province.",
       "wikiSlug": "Cura_Annonae",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rome's grain-distribution system (the cura annonae) supplied free or heavily subsidized grain to roughly 200,000 adult male citizens by the imperial period. The city's population had grown to around one million people by the 2nd century CE, all of whom depended on imported grain. Roman emperors were so aware of Egypt's leverage that they barred senators from visiting the province without explicit imperial permission — a politician who controlled Egypt's grain supply could effectively hold Rome hostage."
+        }
+      ],
+      "commonsFile": "Europe_180ad_roman_trade_map.png"
     },
     {
       "id": "evt-rosetta-stone",
       "label": "Rosetta Stone",
       "year": -196,
-      "description": "A decree of Ptolemy V was inscribed in hieroglyphs, demotic, and Greek on a granite stele. Its 1799 discovery was the key to deciphering hieroglyphs.",
+      "description": "The Rosetta Stone is a granodiorite (a granite-like rock) slab inscribed in 196 BCE with the same royal decree in three scripts — hieroglyphs, demotic (a cursive Egyptian script), and Greek — because no single writing system could reach all of Egypt's population at once.",
       "wikiSlug": "Rosetta_Stone",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The decree honored Ptolemy V Epiphanes, a Greek-speaking teenager ruling a country whose common people spoke Egyptian. The stone was carved at Memphis by priests who needed to communicate with three separate literate audiences simultaneously. Discovered by French soldiers near Rosetta (Rashid) in 1799 during Napoleon's Egyptian campaign, it became the key to decipherment because scholars could use the readable Greek text to work backward into the unknown scripts. Jean-François Champollion cracked the hieroglyphic code in 1822 — 1,428 years after the last hieroglyphic inscription was carved."
+        }
+      ],
+      "commonsFile": "Rosetta_Stone.JPG"
     },
     {
       "id": "evt-cleopatra",
       "label": "Cleopatra VII",
       "year": -51,
       "endYear": -30,
-      "description": "Cleopatra VII, the last active pharaoh, allied with Julius Caesar and Mark Antony to preserve Egyptian independence. Her death ended the Ptolemaic Kingdom.",
+      "description": "Cleopatra VII (ruled 51–30 BCE) was the last active pharaoh of Egypt — the only Ptolemaic ruler in nearly three centuries of Greek dynastic rule who bothered to learn Egyptian. Her alliances with Caesar and then Mark Antony were her best attempts to keep Rome from swallowing the kingdom outright.",
       "wikiSlug": "Cleopatra",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cleopatra was fluent in several languages beyond Greek and Egyptian, positioning herself as a genuinely cosmopolitan ruler rather than the purely Hellenistic monarch her predecessors had been. Her defeat at the Battle of Actium in 31 BCE and subsequent suicide in 30 BCE ended not just her reign but the entire Hellenistic world — the Mediterranean epoch that had begun when Alexander the Great died in 323 BCE. Egypt immediately became a Roman province, its grain surplus now feeding the empire rather than an independent kingdom."
+        }
+      ],
+      "commonsFile": "Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
     },
     {
       "id": "evt-actium",
       "label": "Battle of Actium",
       "year": -31,
-      "description": "Octavian's naval victory over Cleopatra and Mark Antony at Actium sealed the fate of Ptolemaic Egypt and ended the Hellenistic era.",
+      "description": "On September 2, 31 BCE, Octavian's fleet (commanded by Marcus Agrippa) destroyed the combined naval forces of Cleopatra and Mark Antony in the Ionian Sea off Actium, Greece — ending the last challenge to Roman dominance and sealing Egypt's fate as a Roman province.",
       "wikiSlug": "Battle_of_Actium",
       "tier": 2,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle was decided partly because Cleopatra withdrew her squadron during the fighting — ancient sources dispute whether this was panic, a prearranged escape plan, or a signal that Antony chose to follow. Antony and Cleopatra both escaped to Alexandria, where Antony died by suicide after receiving a false report that Cleopatra was already dead. Octavian arrived in Alexandria a month later, becoming Rome's first emperor (as Augustus) in part because Egypt's grain wealth now flowed directly to him — he treated Egypt as his personal property, barring Roman senators from even visiting without permission."
+        }
+      ],
+      "commonsFile": "Medinaceli_Actium_reliefs_06.jpg"
     }
   ]
 }
