@@ -83,162 +83,258 @@
       "label": "Mentuhotep II",
       "year": -2061,
       "endYear": -2010,
-      "description": "Mentuhotep II reunified Egypt after the chaos of the First Intermediate Period, founding the Middle Kingdom from his base in Thebes.",
+      "description": "Mentuhotep II was the Theban king who reunified a fractured Egypt around 2061 BCE after the chaos of the First Intermediate Period, founding the Middle Kingdom and ruling for roughly fifty-one years.",
       "wikiSlug": "Mentuhotep_II",
       "tier": 2,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "According to the Turin King List (a papyrus record of Egyptian rulers) he reigned for 51 years — one of the longest reigns in Egyptian history. His mortuary temple at Deir el-Bahari, built directly where Hatshepsut would later build her own, was the architectural model she consciously echoed. He is also notable for launching military campaigns that reconsolidated Egypt's southern territory and reestablished control over Nubia and the Sinai."
+        }
+      ],
+      "commonsFile": "Statue_of_Montuhotep_from_Deir_al-Bahri,_11th_Dynasty,_2065-2014_BCE;_Egyptian_Museum,_Cairo_(3).jpg"
     },
     {
       "id": "evt-karnak-begun",
       "label": "Temple of Karnak Begun",
       "year": -2000,
-      "description": "Construction began on the Temple of Karnak near Thebes. Over 2,000 years of expansion made it the largest religious complex ever built.",
+      "description": "The Karnak temple complex near Thebes is the largest religious building ever constructed — a sprawling city of temples, pylons, and sacred lakes that grew continuously from the Middle Kingdom through the Ptolemaic era, its core dedicated to the god Amun.",
       "wikiSlug": "Karnak",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Construction began under Senusret I around 2000 BCE and was still being added to by Ptolemaic pharaohs 1,700 years later — making it one of the longest continuous construction projects in human history. The complex covers about 200 acres (81 hectares), large enough to contain several of Europe's great cathedrals simultaneously. The Hypostyle Hall alone, built mainly under Ramesses II, contains 134 massive columns in 16 rows, the tallest reaching 69 feet (21 meters)."
+        }
+      ],
+      "commonsFile": "Egypt,_Luxor,_Karnak_temple_complex_-_panoramio_-_Alx_R_(4)_(lintel).jpg"
     },
     {
       "id": "evt-amenemhat-i",
       "label": "Amenemhat I",
       "year": -1991,
       "endYear": -1962,
-      "description": "Founder of the Twelfth Dynasty and the Middle Kingdom's golden age. He moved the capital to Itjtawy and was likely assassinated, as recounted in the Instructions of Amenemhat.",
+      "description": "Amenemhat I was Mentuhotep IV's vizier who seized the throne around 1991 BCE, founding the Twelfth Dynasty and moving the capital to the new city of Itjtawy near the Faiyum — a deliberate break from the old power centers at Memphis and Thebes.",
       "wikiSlug": "Amenemhat_I",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Amenemhat I introduced the practice of co-regency, naming his son Senusret I as co-ruler before his own death — likely as a direct response to the vulnerability that led to his assassination. The name of his new capital, Itjtawy, was essentially a boast: it meant \"Amenemhat is the one who seizes the Two Lands.\" Despite his best precautions, he was murdered around 1962 BCE, the regicide that inspired the Instructions of Amenemhat and the flight of Sinuhe."
+        }
+      ],
+      "commonsFile": "Amenemhat_I_cropped.jpg"
     },
     {
       "id": "evt-amenemhat",
       "label": "Instructions of Amenemhat",
       "year": -1985,
-      "description": "This literary text, purportedly the ghost of Amenemhat I advising his son, is a masterwork of Middle Egyptian literature and political propaganda.",
+      "description": "The Instructions of Amenemhat is an ancient Egyptian literary poem in which the ghost of the murdered pharaoh Amenemhat I addresses his son Senusret I with bitter advice: trust no one, not friends, not brothers, not the men who eat your bread.",
       "wikiSlug": "Instruction_of_Amenemhat",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The poem is almost certainly political fiction, not a real deathbed speech — it was composed during or shortly after Senusret I's reign to justify the new king's legitimacy. It became a core text in the Egyptian school curriculum, copied by generations of student scribes for over a thousand years. The assassination scene is unusually vivid for an official Egyptian text: the pharaoh describes being attacked in his sleep, weapons drawn while he dozed — a rare crack in the polished public image Egyptian royalty normally projected."
+        }
+      ],
+      "commonsFile": "Scribe's_exercise_tablet_1.jpg"
     },
     {
       "id": "evt-senusret-iii",
       "label": "Senusret III",
       "year": -1878,
       "endYear": -1839,
-      "description": "Senusret III was the most powerful Middle Kingdom pharaoh, expanding Egypt's southern border deep into Nubia and reforming the administration.",
+      "description": "Senusret III (reigned c. 1878–1839 BCE) was the most consequential Middle Kingdom pharaoh — he broke the power of Egypt's hereditary provincial governors (the nomarchs) by replacing their system with a centralized royal bureaucracy, solving the structural problem that had destroyed the Old Kingdom.",
       "wikiSlug": "Senusret_III",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Senusret III was one of the very few Egyptian pharaohs to be deified and worshipped as a god during his own lifetime, not just after death. His distinctive portrait statues — heavy-lidded, downturned mouth, lined face — are unlike any earlier royal sculpture, conveying a kind of weary authority rather than idealized youth. Later Egyptians remembered him so powerfully that Greek historians merged him with legends of a great Egyptian conqueror they called \"Sesostris,\" crediting him with conquests as far as Europe."
+        }
+      ],
+      "commonsFile": "Portrait_head_of_pharaoh_Sesostris-Senusret_III_from_a_sphinx_statue_02_(cropped).jpg"
     },
     {
       "id": "evt-sinuhe",
       "label": "Story of Sinuhe",
       "year": -1875,
-      "description": "Considered the greatest work of ancient Egyptian literature, the Story of Sinuhe tells of a courtier's exile and return — a tale of identity and belonging.",
+      "description": "The Story of Sinuhe (composed around the early Twelfth Dynasty, c. 1875 BCE) is considered the greatest work of ancient Egyptian literature — a courtier flees Egypt after a royal succession crisis, builds a life among Asiatic tribes, and finally returns home to die in dignity.",
       "wikiSlug": "Story_of_Sinuhe",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The story was so beloved that it was copied continuously for at least 750 years after it was written — an extraordinary span for any literary work. It survives in more manuscript copies than any other Egyptian literary text. Scholars debate whether Sinuhe was a fictional character or based on a real person; the story's emotional realism and its exploration of Egyptian identity abroad give it a psychological depth unusual for ancient literature."
+        }
+      ],
+      "commonsFile": "Papyrus_Ramesseum_A_01.jpg"
     },
     {
       "id": "evt-nubian-campaigns",
       "label": "Nubian Campaigns",
       "year": -1870,
       "endYear": -1840,
-      "description": "Senusret III launched a series of devastating campaigns into Nubia, building massive fortresses along the Nile to secure Egypt's southern border.",
+      "description": "Senusret III campaigned into Nubia at least four times, pushing the Egyptian frontier to the Second Cataract and anchoring it with a chain of at least thirteen massive fortresses stretching 250 miles (400 km) into what is now northern Sudan.",
       "wikiSlug": "Buhen",
       "tier": 3,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fortress at Buhen had walls 16 feet (5 meters) thick, a dry moat, archer loopholes, and a sloped stone glacis at the base to prevent scaling — fortification engineering that would not be surpassed in the ancient world for centuries. Senusret III had a boundary stele carved at Semna that is astonishingly direct: it warned future pharaohs that any son who abandoned this border \"is not my son, and was not born to me.\" The fortresses also served as trade control points, taxing the flow of gold, ivory, and enslaved people moving north from the powerful Kerma kingdom further upstream."
+        }
+      ],
+      "commonsFile": "Buhen3.jpg"
     },
     {
       "id": "evt-faiyum-irrigation",
       "label": "Faiyum Irrigation Project",
       "year": -1850,
-      "description": "Middle Kingdom pharaohs, especially Amenemhat III, engineered a massive irrigation project to reclaim the Faiyum oasis, creating one of Egypt most productive agricultural regions.",
+      "description": "Middle Kingdom pharaohs, especially Amenemhat III (reigned c. 1860–1814 BCE), engineered a large-scale irrigation system to channel Nile floodwater into the Faiyum (a natural oasis depression southwest of Memphis), turning seasonal marshland into one of Egypt's most productive farming regions.",
       "wikiSlug": "Faiyum",
       "tier": 3,
       "tags": [
         "architecture"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When Herodotus, the Greek historian, visited Egypt around 450 BCE — over a thousand years after the original works — he described the artificial lake in the Faiyum and the labyrinthine temple beside it as more impressive than the pyramids themselves. The Faiyum also became a center of crocodile worship: Lake Moeris teemed with sacred crocodiles, and the crocodile god Sobek had his most important cult there. The last pharaoh of the Middle Kingdom, Sobekneferu, took her name partly from this connection."
+        }
+      ],
+      "commonsFile": "MadinatFayyumWaterWheel.jpg"
     },
     {
       "id": "evt-hyksos-invasion",
       "label": "Hyksos Invasion",
       "year": -1650,
       "endYear": -1550,
-      "description": "The Hyksos, a Semitic people from the Levant, conquered Lower Egypt and ruled from Avaris for a century, introducing the horse-drawn chariot to Egypt.",
+      "description": "The Hyksos (a Semitic people from the Levant) conquered Lower Egypt around 1650 BCE and ruled from the Delta city of Avaris for about a century — introducing the horse-drawn chariot and composite bow to Egypt before being expelled by the Theban Ahmose I around 1550 BCE.",
       "wikiSlug": "Hyksos",
       "tier": 2,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name 'Hyksos' comes from the Egyptian heka khaseshet, meaning roughly 'rulers of foreign lands.' They didn't arrive as a sudden military invasion but through a gradual migration into the Delta that eventually converted into political control. Their century of rule was deeply humiliating to later Egyptian memory — the expulsion of the Hyksos became the founding myth of the New Kingdom, and Ahmose's campaign to drive them out is the earliest military campaign in history documented in a soldier's own first-person account (the autobiography of Ahmose, son of Abana)."
+        }
+      ],
+      "commonsFile": "Painting_of_foreign_delegation_in_the_tomb_of_Khnumhotep_II_circa_1900_BCE_(Detail_mentioning_\"Abisha_the_Hyksos\"_in_hieroglyphs).jpg"
     },
     {
       "id": "evt-rhind-papyrus",
       "label": "Rhind Mathematical Papyrus",
       "year": -1650,
-      "description": "The most extensive Egyptian mathematical document, containing 84 problems covering arithmetic, algebra, geometry, and fractions. It reveals how Egyptians calculated areas, volumes, and pyramid slopes.",
+      "description": "The Rhind Mathematical Papyrus, copied during the reign of the Hyksos pharaoh Apepi around 1650 BCE, is the most extensive mathematical document to survive from ancient Egypt — 84 problems covering arithmetic, fractions, geometry, and practical calculations like pyramid slopes.",
       "wikiSlug": "Rhind_Mathematical_Papyrus",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The papyrus was copied by a scribe named Ahmes, who noted that he was transcribing an older Middle Kingdom document — making it a copy of a copy, already ancient when the Hyksos ruled. It was purchased by Scottish antiquarian Alexander Henry Rhind in Luxor in 1858, which is how it got its modern name. The problems are practical and professional: calculating how to divide bread among workers, how much grain fills a cylindrical granary, and what slope angle a ramp must be to meet a pyramid's face."
+        }
+      ],
+      "commonsFile": "Rhind_Mathematical_Papyrus.jpg"
     },
     {
       "id": "evt-hyksos-chariot",
       "label": "Chariot Warfare Adopted",
       "year": -1600,
-      "description": "The Hyksos introduced the horse-drawn chariot and composite bow to Egypt, revolutionizing Egyptian warfare. After expelling the Hyksos, Egypt adopted these weapons to build its New Kingdom empire.",
+      "description": "The Hyksos brought the horse-drawn chariot and composite bow to Egypt — weapons that had already transformed warfare across the Near East — and Egypt's adoption of both technologies after expelling the Hyksos became the engine of New Kingdom imperial expansion.",
       "wikiSlug": "Chariot",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The oldest known chariots come from burials of the Sintashta culture in what is now Russia, dated to around 1950–1880 BCE — meaning the technology took roughly 300 years to travel from the Eurasian steppe to Egypt via the Levant. The composite bow was built from layers of wood, horn, and sinew glued under tension, making it more powerful and shorter than a plain wooden bow — exactly what you need when shooting from a moving chariot. Egypt's neighbors the Mitanni were so famous for horse-breeding and chariot training that they wrote dedicated manuals on both subjects."
+        }
+      ]
     },
     {
       "id": "evt-edwin-smith",
       "label": "Edwin Smith Papyrus",
       "year": -1600,
-      "description": "The world's oldest known surgical treatise describes 48 cases with rational, anatomical approaches to injuries — remarkably modern for its time.",
+      "description": "The Edwin Smith Papyrus, copied around 1600 BCE, is the world's oldest known surgical treatise: 48 case studies describing injuries with systematic, anatomical reasoning that reads more like a modern medical manual than ancient superstition.",
       "wikiSlug": "Edwin_Smith_Papyrus",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The papyrus is organized head-to-toe: it starts with head injuries and works systematically down the body — making it the first known example of anatomical classification. Of the 48 cases, 14 are declared untreatable, and the physician is instructed not to waste effort on them (\"An ailment not to be treated\") — a startlingly rational triage approach. The text was purchased in 1862 by American Egyptologist Edwin Smith in Luxor and later donated to the New York Historical Society, where it remained largely unstudied until a full translation appeared in 1930."
+        }
+      ],
+      "commonsFile": "Edwin_Smith_Papyrus_v2.jpg"
     },
     {
       "id": "evt-ahmose-i",
       "label": "Ahmose I",
       "year": -1565,
       "endYear": -1525,
-      "description": "First pharaoh of the Eighteenth Dynasty, Ahmose I reunified Egypt and launched the New Kingdom — Egypt's most prosperous and powerful era.",
+      "description": "Founder of the Eighteenth Dynasty and the New Kingdom, Ahmose I drove out the Hyksos occupiers, reunified Egypt from the Mediterranean to deep into Nubia, and set the stage for five centuries of Egyptian imperial dominance.",
       "wikiSlug": "Ahmose_I",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ahmose came to the throne as a child — possibly as young as ten — with his mother Ahhotep I serving as regent while the liberation wars were still ongoing. His campaigns are documented not through royal records but through the tomb autobiography of a naval officer named Ahmose son of Ibana, who fought in nearly every major battle and described the siege of the Hyksos stronghold Sharuhen in Palestine as lasting three full years. Ahmose also reasserted control over Nubia during his reign, regarrisoning old Middle Kingdom fortresses at the Second Cataract."
+        }
+      ],
+      "commonsFile": "Head_of_Ahmose_I_MET_DP140854.jpg"
     },
     {
       "id": "evt-expulsion-hyksos",
       "label": "Expulsion of the Hyksos",
       "year": -1555,
-      "description": "Ahmose I drove the Hyksos invaders out of Egypt after a century of foreign rule, reunifying Upper and Lower Egypt under native Egyptian rule.",
+      "description": "Around 1550 BCE, Ahmose I stormed the Hyksos capital of Avaris in the Nile Delta, ending roughly a century of foreign rule over northern Egypt — the first and only time Egypt had ever been conquered by outsiders.",
       "wikiSlug": "Hyksos",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Archaeological excavations at Tell el-Dab'a (the site of ancient Avaris) revealed destruction layers consistent with a military assault: burned buildings, abandoned storerooms, and a sudden halt in occupation. After taking Avaris, Ahmose didn't stop at the Egyptian border — he pursued the fleeing Hyksos into southern Palestine and besieged their fortress at Sharuhen for three years to prevent a comeback. The trauma of the Hyksos occupation became the psychological engine of the New Kingdom empire: the lesson Egypt drew was that the best defense is an offense deep enough that no enemy ever reaches the homeland again."
+        }
+      ]
     },
     {
       "id": "evt-book-of-dead",
@@ -265,93 +361,149 @@
       "label": "Thutmose I",
       "year": -1506,
       "endYear": -1493,
-      "description": "Expanded Egypt's empire to its greatest extent to date, campaigning deep into Nubia and reaching the Euphrates River. He was the first pharaoh buried in the Valley of the Kings.",
+      "description": "The third pharaoh of the Eighteenth Dynasty, Thutmose I pushed Egypt's borders further than any previous ruler — deep into Nubia past the Fourth Cataract in the south, and all the way to the Euphrates River in modern Syria in the north.",
       "wikiSlug": "Thutmose_I",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When Thutmose I's army reached the Euphrates, the Egyptian soldiers were so disoriented by a river that flows from north to south (the opposite of the Nile's direction) that they called it \"that inverted water.\" He erected a victory stele on the riverbank marking Egypt's new northern reach, effectively announcing Egypt's arrival as a great-power competitor alongside the Mitanni and the Hittites. Thutmose I also created the first Viceroy of Kush — an Egyptian colonial governor whose title was \"King's Son of Kush\" — to administer Nubia and extract the gold that would finance the New Kingdom's armies and monuments."
+        }
+      ],
+      "commonsFile": "Egyptian_Sandstone_Head_of_Thutmose_I,_Karnak_(Thebes),_18th_Dynasty_(35727582483).jpg"
     },
     {
       "id": "evt-valley-of-kings",
       "label": "Valley of the Kings",
       "year": -1504,
-      "description": "Thutmose I was the first pharaoh buried in the Valley of the Kings, beginning a tradition that would continue for 500 years.",
+      "description": "The Valley of the Kings is a desert ravine on the west bank of Thebes where Egypt's New Kingdom pharaohs (and powerful nobles) cut rock tombs for nearly 500 years, from the Eighteenth through Twentieth Dynasties — home to at least 63 known tombs, including Tutankhamun's.",
       "wikiSlug": "Valley_of_the_Kings",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The valley was chosen for secrecy — a departure from the obvious pyramid tradition — but its location was not secret for long; organized robbery gangs were at work within a few centuries of the first burials. Rock-cut tombs proved no safer than pyramids. The site is also called 'the Valley of the Gates of the Kings' in ancient texts, and it sits beneath a natural pyramid-shaped peak called al-Qurn, which may have been part of why the site was selected."
+        }
+      ],
+      "commonsFile": "Luxor,_Tal_der_Könige_(1995,_860x605).jpg"
     },
     {
       "id": "evt-deir-el-medina",
       "label": "Deir el-Medina Founded",
       "year": -1504,
-      "description": "The workers' village of Deir el-Medina was established to house artisans building the royal tombs. It provides the richest record of daily life in ancient Egypt.",
+      "description": "Deir el-Medina (\"dare el-meh-DEE-nah\") was a walled village on the west bank of Thebes housing the skilled craftsmen who carved and painted the royal tombs — and it accidentally became the richest single record of ordinary life in the ancient world.",
       "wikiSlug": "Deir_el-Medina",
       "tier": 3,
       "tags": [
         "trade"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The village's ancient Egyptian name was Set Maat (\"Place of Truth\"), and its workers were formally titled \"Servants in the Place of Truth.\" Because the literate residents threw their personal documents — legal disputes, love letters, laundry lists, medical recipes — into communal rubbish heaps that the dry desert air preserved intact, archaeologists recovered a snapshot of daily life spanning nearly five hundred years. The village was occupied continuously from roughly 1504 BCE through the end of the New Kingdom around 1069 BCE."
+        }
+      ],
+      "commonsFile": "Deir_el-Medina_ruins_(2009a).jpg"
     },
     {
       "id": "evt-hatshepsut",
       "label": "Hatshepsut",
       "year": -1479,
       "endYear": -1458,
-      "description": "Hatshepsut was one of Egypt's most successful pharaohs. She expanded trade networks, launched the expedition to Punt, and built her famous mortuary temple at Deir el-Bahari.",
+      "description": "Hatshepsut (reigned c. 1479–1458 BCE) was the sixth pharaoh of the Eighteenth Dynasty — a woman who ruled not as queen regent but as full pharaoh, depicted in statues wearing the double crown and false beard, and who launched a celebrated trade expedition to the land of Punt.",
       "wikiSlug": "Hatshepsut",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "She was Egypt's second confirmed female pharaoh (after Middle Kingdom's Sobekneferu) but by far the more documented. Her mortuary temple at Deir el-Bahari is one of the architectural masterpieces of the ancient world — three colonnaded terraces built into the cliffs. After her death, her successor Thutmose III had her images systematically defaced from monuments, a campaign of erasure that kept her largely unknown until modern archaeology recovered her name."
+        }
+      ],
+      "commonsFile": "Seated_Statue_of_Hatshepsut_MET_Hatshepsut2012.jpg"
     },
     {
       "id": "evt-hatshepsut-temple",
       "label": "Temple of Hatshepsut",
       "year": -1470,
-      "description": "Hatshepsut's mortuary temple at Deir el-Bahari is a masterpiece of ancient architecture, featuring colonnaded terraces carved into limestone cliffs.",
+      "description": "Hatshepsut's mortuary temple at Deir el-Bahari on the west bank of Thebes is one of the most architecturally refined buildings of the ancient world: three colonnaded terraces rising from the desert floor directly into the limestone cliffs, with the innermost sanctuary cut into the rock itself.",
       "wikiSlug": "Mortuary_Temple_of_Hatshepsut",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple is built immediately adjacent to the much older mortuary temple of Mentuhotep II, and its terraced design consciously echoes that earlier building while surpassing it in scale and elegance. Its east-west axis was aligned to receive the sacred barque of Amun-Re during the Beautiful Festival of the Valley, while its north-south axis represented the pharaoh's life cycle from coronation to rebirth. Hatshepsut's own tomb (KV20) lies inside the same cliff massif directly behind it."
+        }
+      ],
+      "commonsFile": "Templo_funerario_de_Hatshepsut,_Luxor,_Egipto,_2022-04-03,_DD_13.jpg"
     },
     {
       "id": "evt-punt-expedition",
       "label": "Expedition to Punt",
       "year": -1470,
-      "description": "Hatshepsut sent a major trading expedition to the Land of Punt (probably modern Eritrea/Somalia), returning with myrrh trees, gold, ebony, and exotic animals.",
+      "description": "Around 1470 BCE, Hatshepsut sent five ships to Punt — a semi-legendary land the Egyptians called 'God's Land' — returning with myrrh trees, gold, ebony, ivory, baboons, and panther skins in what became the most elaborately documented trading voyage in Egyptian history.",
       "wikiSlug": "Land_of_Punt",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Recent archaeological evidence places Punt in northwestern Eritrea, though the exact location has been debated for over a century. The Punt reliefs at Deir el-Bahari are notable for including a famously detailed depiction of the chief of Punt's wife, shown as unusually corpulent — whether this is accurate portraiture or something else, scholars still disagree. The expedition was framed in the reliefs as a divine command from Amun himself, lending it the weight of religious mandate rather than mere commerce."
+        }
+      ],
+      "commonsFile": "Journey_to_Punt.jpg"
     },
     {
       "id": "evt-thutmose-iii",
       "label": "Thutmose III",
       "year": -1458,
       "endYear": -1425,
-      "description": "Called the 'Napoleon of Egypt,' Thutmose III conducted 17 military campaigns and expanded the Egyptian Empire to its greatest extent.",
+      "description": "Thutmose III (reigned c. 1458–1425 BCE) conducted 17 military campaigns into the Levant, Nubia, and Syria, building the Egyptian Empire to its greatest territorial extent — stretching from the Fourth Cataract of the Nile to the Euphrates River.",
       "wikiSlug": "Thutmose_III",
       "tier": 2,
       "tags": [
         "military"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His victory at the Battle of Megiddo (c. 1457 BCE) is the earliest battle in history recorded in detailed tactical accounts, describing his bold decision to take a narrow mountain pass his generals warned against. Thutmose III was also an obsessive collector: he brought back plants, animals, and luxury goods from conquered territories, including a botanical garden depicted on the walls of Karnak. Despite being called 'the Napoleon of Egypt' by modern historians, he stood only about 5 feet 3 inches (1.6 meters) tall, according to his mummy."
+        }
+      ],
+      "commonsFile": "Thutmosis_III-2_(cropped).jpg"
     },
     {
       "id": "evt-megiddo",
       "label": "Battle of Megiddo",
       "year": -1457,
-      "description": "Thutmose III's decisive victory at Megiddo crushed a Canaanite coalition and established Egyptian dominance over the Levant for generations.",
+      "description": "The Battle of Megiddo (1457 BCE) is the earliest battle in recorded history with a detailed tactical account — Thutmose III's scribes wrote down the approach march, the war council debate, and the pharaoh's fateful decision to push through the narrow Aruna Pass, catching the Canaanite coalition completely off-guard.",
       "wikiSlug": "Battle_of_Megiddo_(15th_century_BC)",
       "tier": 2,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Megiddo marks the first recorded use of the composite bow in battle, and the first known military body count. Every detail of the engagement comes from a single Egyptian source: the Hall of Annals carved on the walls of the Temple of Amun-Re at Karnak. The siege that followed — forced on the Egyptians because their own soldiers stopped to loot the enemy camp instead of pursuing — lasted seven months."
+        }
+      ],
+      "commonsFile": "Thutmose_III_at_Karnak.jpg"
     },
     {
       "id": "evt-water-clock",
@@ -368,69 +520,111 @@
       "label": "New Kingdom Nubian Empire",
       "year": -1500,
       "endYear": -1070,
-      "description": "Egypt controlled Nubia as far as the Fourth Cataract during the New Kingdom, extracting gold, building temples at Abu Simbel and Soleb, and appointing a Viceroy of Kush to govern the territory.",
+      "description": "During the New Kingdom (roughly 1500–1070 BCE), Egypt governed Nubia all the way to the Fourth Cataract — about 750 miles south of the traditional border — appointing a 'Viceroy of Kush' and embedding Egyptian culture so thoroughly that Nubian elites were given Egyptian names and educated in Egyptian schools.",
       "wikiSlug": "Nubia",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Kerma culture, one of Africa's earliest civilizations, had dominated this stretch of the Nile for roughly a thousand years before Thutmose I's forces overran it around 1500 BCE. Egypt's approach to Nubian rule was cultural colonialism on a scale not matched until Rome: temples, scribal schools, and administrative hierarchies all pushed Egyptian identity southward while gold flowed north."
+        }
+      ],
+      "commonsFile": "Rulers_of_Kush,_Kerma_Museum.jpg"
     },
     {
       "id": "evt-luxor-temple",
       "label": "Temple of Luxor",
       "year": -1400,
-      "description": "Amenhotep III began construction of the Temple of Luxor, later expanded by Ramesses II. It was dedicated to the rejuvenation of kingship.",
+      "description": "The Luxor Temple, begun by Amenhotep III around 1400 BCE and expanded by Ramesses II, stands on the east bank of the Nile at what is now the city of Luxor — uniquely, it was not dedicated to a god or a deified pharaoh but to the regeneration of kingship itself.",
       "wikiSlug": "Luxor_Temple",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple was connected to Karnak (about 2 miles/3 km north) by an avenue of human-headed sphinxes — the Avenue of Sphinxes — lined with over a thousand statues. Alexander the Great visited and had a sanctuary rebuilt within it, identifying himself with the Egyptian divine kingship tradition. The temple was in continuous use for over 3,000 years; a mosque built inside it in the 13th century CE is still active today."
+        }
+      ],
+      "commonsFile": "Templo_de_Luxor,_Luxor,_Egipto,_2022-04-01,_DD_01.jpg"
     },
     {
       "id": "evt-amenhotep-iii",
       "label": "Amenhotep III",
       "year": -1391,
       "endYear": -1353,
-      "description": "Amenhotep III presided over Egypt at the peak of its power and prosperity. He built the Luxor Temple, the Colossi of Memnon, and maintained vast diplomatic networks. His reign was an era of unprecedented artistic achievement.",
+      "description": "Amenhotep III ruled Egypt at the absolute peak of its wealth and power for nearly four decades, commissioning the Colossi of Memnon, the Luxor Temple, and hundreds of other monuments while managing a sophisticated diplomatic network across the Near East.",
       "wikiSlug": "Amenhotep_III",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Amenhotep III built more statues of himself than any other pharaoh — over 250 have been identified. He was an enthusiastic diplomat as well as builder, corresponding with Babylon, Mitanni, and Assyria in the Amarna Letters (the archive his son would inherit). His health declined severely in his later years, and he may have co-reigned with Akhenaten for several years before his death — a \"co-regency\" theory that remains contested among Egyptologists."
+        }
+      ],
+      "commonsFile": "Colossal_Amenhotep_III_British_Museum.jpg"
     },
     {
       "id": "evt-amenhotep-iii-diplomacy",
       "label": "Amarna Diplomatic System",
       "year": -1380,
       "endYear": -1330,
-      "description": "Egypt maintained a sophisticated diplomatic network with Near Eastern powers including Babylon, Mitanni, and the Hittites. The Amarna Letters archive preserves hundreds of cuneiform tablets documenting this international system.",
+      "description": "The Amarna Letters are a cache of roughly 380 cuneiform tablets discovered in 1887 at the ruins of Tell el-Amarna, representing the diplomatic archive of the Egyptian court during the reigns of Amenhotep III and Akhenaten — the most complete window we have into the Bronze Age international system.",
       "wikiSlug": "Amarna_letters",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The tablets are written in Akkadian, the diplomatic common language of the Near East (the ancient equivalent of French in 18th-century Europe), even between powers that didn't speak it natively. They include a Babylonian king complaining that Amenhotep III's gold gifts seemed to be plated rather than solid — \"Gold is like dirt in your country,\" he wrote — and Mitanni king Tushratta repeatedly demanding promised return gifts after sending his daughter as a bride. When Amenhotep III was asked to send an Egyptian princess in return, his answer was flat: \"From of old, a daughter of the king of Egypt has not been given to anyone.\""
+        }
+      ],
+      "commonsFile": "Five_Amarna_letters_on_display_at_the_British_Museum,_LondonA.jpg"
     },
     {
       "id": "evt-nefertiti",
       "label": "Nefertiti",
       "year": -1370,
-      "description": "Queen Nefertiti was Akhenaten's Great Royal Wife and may have co-ruled as pharaoh. Her painted limestone bust is one of the most iconic works of ancient art.",
+      "description": "Nefertiti was Akhenaten's Great Royal Wife and co-architect of the Aten religious revolution — possibly the most powerful queen in Egyptian history, and possibly a pharaoh in her own right after Akhenaten's death.",
       "wikiSlug": "Nefertiti",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Her painted limestone bust, carved around 1345 BCE and now in Berlin's Neues Museum, is one of the most reproduced works of art from the ancient world — notable for its unfinished left eye, which scholars believe was never inlaid because it was a sculptor's studio model, not a public piece. Evidence suggests she may have ruled briefly as a pharaoh named Neferneferuaten after Akhenaten died, before Tutankhamun took the throne. Her mummy has never been definitively identified."
+        }
+      ],
+      "commonsFile": "Nofretete_Neues_Museum.jpg"
     },
     {
       "id": "evt-colossi-memnon",
       "label": "Colossi of Memnon",
       "year": -1350,
-      "description": "Two massive stone statues of Amenhotep III were erected at the entrance to his mortuary temple. They became a famous Roman-era tourist attraction.",
+      "description": "Two colossal seated statues of Amenhotep III, each about 60 feet (18 meters) tall and carved from single blocks of quartzite, once guarded the entrance to his mortuary temple on the west bank of Thebes — a temple so thoroughly dismantled in antiquity for its stone that only the statues remain.",
       "wikiSlug": "Colossi_of_Memnon",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The northern colossus was cracked by an earthquake in 27 BCE and afterward emitted a haunting musical hum at dawn, which ancient Greeks and Romans attributed to the mythical Ethiopian king Memnon greeting his mother Eos, goddess of the dawn. The statues collected 107 Roman-era inscriptions in Greek and Latin between roughly 20 and 250 CE — essentially ancient graffiti left by tourists amazed at the sound. Emperor Septimius Severus had the cracked statue repaired around 199 CE, and the singing stopped permanently. The quartzite used came from quarries near modern Cairo, roughly 400 miles (640 km) away."
+        }
+      ],
+      "commonsFile": "Colossi_of_Memnon_May_2015_2.JPG"
     },
     {
       "id": "evt-meritaten",
@@ -448,443 +642,720 @@
       "label": "Akhenaten",
       "year": -1353,
       "endYear": -1336,
-      "description": "Akhenaten imposed monotheistic worship of the sun disk Aten, moved the capital to Amarna, and revolutionized Egyptian art with a naturalistic style.",
+      "description": "Akhenaten (reigned c. 1353–1336 BCE) dismantled Egypt's traditional pantheon, declared the sun disk Aten the only true god, moved the capital to a brand-new city called Amarna, and revolutionized Egyptian art with an unprecedented naturalistic style — then was condemned to near-erasure after his death.",
       "wikiSlug": "Akhenaten",
       "tier": 2,
       "tags": [
         "religion",
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was born Amenhotep IV and only renamed himself 'Akhenaten' (meaning 'Effective for Aten') in year 5 of his reign. His Amarna art style is instantly recognizable — elongated skulls, pendulous bellies, drooping chins — so distinctive that scholars debate whether it was a theological statement (showing the royal family as divine hybrids) or reflects an actual physical condition like Marfan syndrome. After his death, Egypt spent decades systematically erasing his name and image from monuments in one of history's most thorough acts of official forgetting."
+        }
+      ],
+      "commonsFile": "GD-EG-Caire-Musée061.JPG"
     },
     {
       "id": "evt-amarna-revolution",
       "label": "Amarna Revolution",
       "year": -1346,
-      "description": "Akhenaten banned the worship of all gods except Aten (the sun disk), moved the capital to Amarna, and imposed history's first known monotheistic religion.",
+      "description": "The Amarna Revolution was Akhenaten's systematic dismantling of Egypt's traditional religion: he shut down the vast Amun priesthood, ordered the god's name chiseled off monuments across the country, and declared the sun disk Aten the one true god.",
       "wikiSlug": "Atenism",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars still debate whether Atenism was truly monotheistic or \"henotheistic\" (one god supreme among many) — a distinction Akhenaten himself may not have cared about. The Amun priesthood he targeted was one of the wealthiest institutions in Egypt, controlling enormous landholdings and thousands of workers, making the revolution as much a power grab as a religious one. The religion died with him; no subsequent culture adopted it."
+        }
+      ],
+      "commonsFile": "Colossal_Statue_of_Amenhotep_IV_from_Karnak,_1356-1350_BCE_(4).jpg"
     },
     {
       "id": "evt-amun-restored",
       "label": "Amun Worship Restored",
       "year": -1332,
-      "description": "Tutankhamun reversed Akhenaten's religious revolution, restoring the traditional pantheon headed by Amun-Ra and returning the capital to Thebes.",
+      "description": "The Restoration Stela, erected at Karnak early in Tutankhamun's reign, formally reversed Akhenaten's revolution: the old gods were reinstated, the temples reopened, and the Amarna experiment was officially declared a catastrophe.",
       "wikiSlug": "Restoration_Stela",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stela was discovered in 1905 by French Egyptologist Georges Legrain in fragmented condition. Its text describes a land where temples had \"fallen into ruin\" and the gods had \"turned their backs\" on Egypt — almost certainly political spin, but it captures the real disruption that the Aten revolution caused to Egypt's temple economies and priestly networks. The stela is a rare document: an ancient government's official post-mortem on its own failed revolution."
+        }
+      ],
+      "commonsFile": "Theban_region,_Temple_Complex_of_Amon_in_Karnak,_19th_century_pictures,_1870-1888,_photo_35_of_91_-_Archivio_fotografico_Museo_Egizio,_Turin_INV17_004.jpg"
     },
     {
       "id": "evt-tutankhamun",
       "label": "Tutankhamun",
       "year": -1332,
       "endYear": -1323,
-      "description": "The boy pharaoh Tutankhamun restored traditional Egyptian religion after Akhenaten's revolution. His intact tomb, discovered in 1922, revolutionized Egyptology.",
+      "description": "Tutankhamun (reigned c. 1332–1323 BCE) was the boy pharaoh who reversed Akhenaten's religious revolution and restored the traditional gods — remembered today almost entirely because his tomb was sealed intact for 3,245 years until Howard Carter opened it in 1922.",
       "wikiSlug": "Tutankhamun",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He died at roughly 18–19 years old; CT scans of his mummy show a badly broken leg shortly before death, though whether it was an accident, a fall from a chariot, or foul play remains debated. His tomb contained over 5,000 objects including the solid gold death mask weighing 24 pounds (11 kg). The discovery triggered 'Tutmania' worldwide and created the modern popular fascination with ancient Egypt. He was a minor king by New Kingdom standards; the completeness of his tomb is essentially an accident of geography — it was buried under debris from later tomb construction and forgotten."
+        }
+      ],
+      "commonsFile": "CairoEgMuseumTaaMaskMostlyPhotographed.jpg"
     },
     {
       "id": "evt-horemheb",
       "label": "Horemheb",
       "year": -1319,
       "endYear": -1292,
-      "description": "The last pharaoh of the Eighteenth Dynasty, Horemheb was a military commander who restored order after the Amarna period and erased Akhenaten, Tutankhamun, and Ay from official records.",
+      "description": "Horemheb, a military commander with no royal blood, became the last pharaoh of the Eighteenth Dynasty and methodically erased the entire Amarna period from Egypt's official history — reassigning monuments to himself and removing Akhenaten, Tutankhamun, and Ay from the king lists entirely.",
       "wikiSlug": "Horemheb",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Horemheb was of common birth and secured his claim to the throne partly by marrying Mutnedjmet, believed to be the daughter of his predecessor Ay. His erasure of the Amarna pharaohs was so thorough that later Egyptians recorded Horemheb as the direct successor of Amenhotep III — a gap of nearly forty years simply gone. He ruled for at least 14 years, reorganized the army and bureaucracy, and when he died without an heir, passed the throne to his vizier Paramessu, who became Ramesses I."
+        }
+      ],
+      "commonsFile": "StatueOfHoremhebAndTheGodHorus-DetailOfHoremheb01_KunsthistorischesMuseum_Nov13-10.jpg"
     },
     {
       "id": "evt-seti-i",
       "label": "Seti I",
       "year": -1294,
       "endYear": -1279,
-      "description": "Restored Egyptian power after the Amarna period's upheaval, campaigning in the Levant and Nubia. His temple at Abydos contains the famous King List and some of Egypt's finest relief carvings.",
+      "description": "Seti I, father of Ramesses II, was the true builder of Nineteenth Dynasty power: he campaigned in the Levant and Nubia, and his temple at Abydos is considered among the finest buildings in all of Egypt.",
       "wikiSlug": "Seti_I",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His throne name Menmaatre means \"Eternal is the Justice of Ra,\" while his birth name Sety Merenptah means \"Man of Set, beloved of Ptah\" — an unusual dual devotion to two very different gods. The Abydos King List he carved in his temple names every pharaoh from the legendary Menes onward but deliberately skips the Hyksos rulers, Hatshepsut, and the entire Amarna line — a political erasure that shaped how ancient Egyptians (and later historians) remembered their own past."
+        }
+      ],
+      "commonsFile": "SetiI-KneelingStatueOfferingToOsiris-CloseUp_MetropolitanMuseum.png"
     },
     {
       "id": "evt-ramesses-ii",
       "label": "Ramesses II",
       "year": -1279,
       "endYear": -1213,
-      "description": "Ramesses II 'the Great' reigned 66 years — one of Egypt's longest and most celebrated reigns, marked by monumental building and military campaigns.",
+      "description": "Ramesses II \"the Great\" reigned for 66 years (roughly 1279–1213 BCE), fathered at least 80 children, and inscribed his name on more monuments across more territory than any pharaoh before or after — including plenty of monuments he didn't actually build.",
       "wikiSlug": "Ramesses_II",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His wikiExtract notes he conducted no fewer than 15 military campaigns, all claimed as victories — he officially excluded Kadesh from the count by calling it a personal triumph rather than a draw. He may share the record for longest reign with Pepi II of the Old Kingdom, but Pepi II's 90-plus years are disputed; Ramesses' 66 years are among the best-documented in Egyptian history. His mummy, now in Cairo, shows he suffered from arthritis, dental disease, and atherosclerosis in old age — a very human end for the most-inscribed man in the ancient world."
+        }
+      ],
+      "commonsFile": "Ramses_II_British_Museum.jpg"
     },
     {
       "id": "evt-nefertari",
       "label": "Nefertari",
       "year": -1290,
-      "description": "Ramesses II's favorite queen, Nefertari was given an exquisitely painted tomb in the Valley of the Queens — the finest in all of Egypt.",
+      "description": "Nefertari was Ramesses II's first and most beloved Great Royal Wife, and her tomb (QV66) in the Valley of the Queens contains the finest painted decoration of any tomb in Egypt — vivid, colorful, and remarkably intact.",
       "wikiSlug": "Nefertari",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Her wikiExtract notes she was highly educated and able to read and write hieroglyphs — a rare skill even among royalty. She used those skills diplomatically, corresponding directly with Hittite royalty including the queen of Hattusili III after the peace treaty was signed, making her an active player in Bronze Age international diplomacy. Ramesses built a temple at Abu Simbel specifically for her, one of the very few temples in Egyptian history dedicated to a living queen rather than a god."
+        }
+      ],
+      "commonsFile": "Tomb_of_Nefertari_(52785688763).jpg"
     },
     {
       "id": "evt-kadesh",
       "label": "Battle of Kadesh",
       "year": -1274,
-      "description": "Ramesses II fought the Hittites at Kadesh in the largest chariot battle of the ancient world. The resulting treaty is history's earliest known peace agreement.",
+      "description": "The Battle of Kadesh (roughly 1274 BCE) was the largest chariot battle in recorded history — roughly 20,000 Egyptian troops against a comparable Hittite force — and ended in a stalemate that both sides immediately declared a victory.",
       "wikiSlug": "Battle_of_Kadesh",
       "tier": 2,
       "tags": [
         "military",
         "diplomacy"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ramesses II inscribed his version of the battle on the walls of five separate temples, making it the most thoroughly propagandized military event in the ancient world. The surviving Hittite account, found in the archives at Hattusha (the Hittite capital in modern Turkey), also claims victory — making Kadesh the earliest known case of dueling official narratives in written history. The Egyptian army was nearly routed in the opening phase because Ramesses had trusted false intelligence from captured Hittite scouts who were, in fact, planted spies."
+        }
+      ],
+      "commonsFile": "Egypt_Abou_Simbel6.jpg"
     },
     {
       "id": "evt-abu-simbel",
       "label": "Abu Simbel Temples",
       "year": -1264,
-      "description": "Ramesses II carved two massive temples into the cliff face at Abu Simbel, featuring four 20-meter colossal statues of himself at the entrance.",
+      "description": "Abu Simbel is a pair of rock-cut temples in Nubia carved under Ramesses II around 1264 BCE — the larger featuring four seated colossal statues of Ramesses II, each 65 feet (20 meters) tall, cut directly from the sandstone cliff face.",
       "wikiSlug": "Abu_Simbel",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple is aligned so that twice a year (around February 22 and October 22, near the traditional dates of Ramesses II's birthday and coronation), sunlight penetrates the entire 180-foot (55-meter) length of the main temple and illuminates the statues of the gods in the inner sanctuary — a feat of astronomical engineering. Between 1964 and 1968, the entire complex was cut into blocks and relocated 200 feet (65 meters) uphill to save it from rising Lake Nasser after the Aswan High Dam was built, in one of history's most ambitious archaeological salvage operations."
+        }
+      ],
+      "commonsFile": "Ramsis,_Aswan_Governorate,_Egypt_-_panoramio.jpg"
     },
     {
       "id": "evt-egyptian-hittite-treaty",
       "label": "Egyptian-Hittite Peace Treaty",
       "year": -1259,
-      "description": "Ramesses II and Hattusili III signed the world's oldest surviving peace treaty, ending decades of warfare between Egypt and the Hittite Empire. A copy hangs in the UN headquarters.",
+      "description": "The Egyptian-Hittite Peace Treaty of 1259 BCE is the oldest known surviving peace treaty in world history — the first time two sovereign powers formally agreed in writing to end hostilities, extradite fugitives, and come to each other's military aid.",
       "wikiSlug": "Egyptian–Hittite_peace_treaty",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The treaty's wikiExtract notes it is sometimes called the Treaty of Kadesh but the text itself never mentions the battle. It was written in Akkadian (the era's diplomatic language) on both sides, and both the Egyptian and Hittite versions have survived — the only ancient Near Eastern treaty for which that is true. A replica hangs today at the United Nations headquarters in New York. Despite the \"Eternal Treaty\" label, the wikiExtract is frank: an atmosphere of enmity between the two powers persisted for years before the alliance was truly sealed."
+        }
+      ],
+      "commonsFile": "Clay_tablet,_Egyptian-Hittite_peace_treaty_between_Ramesses_II_and_Ḫattušili_III,_mid-13th_century_BCE._Neus_Museum,_Berlin.jpg"
     },
     {
       "id": "evt-ramesses-iii",
       "label": "Ramesses III",
       "year": -1186,
       "endYear": -1155,
-      "description": "Ramesses III was the last great warrior pharaoh, defeating the Sea Peoples in a series of dramatic land and naval battles.",
+      "description": "Ramesses III (reigned c. 1186–1155 BCE) was the second pharaoh of the Twentieth Dynasty and the last New Kingdom ruler to wield real military power, defeating the Sea Peoples in both land and naval engagements and keeping Egypt intact while every neighboring civilization collapsed.",
       "wikiSlug": "Ramesses_III",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars have pinned his reign start to a specific date — 26 March 1186 BCE — unusually precise for the ancient world. He modeled himself so consciously on Ramesses II that he gave his sons the same names as Ramesses II's sons and copied the earlier king's inscriptions almost word for word. His mummy, examined by modern CT scans, shows his throat was cut — he was assassinated in the \"Harem Conspiracy\" organized by a lesser wife trying to put her son on the throne."
+        }
+      ],
+      "commonsFile": "KhonsuTemple-Karnak-RamessesIII-2.jpg"
     },
     {
       "id": "evt-sea-peoples",
       "label": "Sea Peoples Invasion",
       "year": -1178,
-      "description": "Ramesses III repelled a massive invasion by the Sea Peoples — a mysterious coalition that had already destroyed the Hittite Empire and many Mediterranean civilizations.",
+      "description": "Around 1200 BCE a loose confederation of migrating peoples — known to Egyptians collectively as the Sea Peoples — swept across the eastern Mediterranean, destroying the Hittite Empire, sacking coastal cities, and crashing the Bronze Age international trading system before being stopped at Egypt's border.",
       "wikiSlug": "Sea_Peoples",
       "tier": 2,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The term 'Sea Peoples' was coined not by the Egyptians but by 19th-century French Egyptologist Emmanuel de Rougé; the Egyptians had no single name for the whole group. Modern scholars increasingly treat them not as outside aggressors but as a symptom — displaced populations already set in motion by the same climate shocks, droughts, and systems failures that were collapsing the civilizations they raided. The ox-carts full of families shown in the Medinet Habu reliefs confirm they were migrating, not merely raiding."
+        }
+      ],
+      "commonsFile": "Medinet_Habu_Ramses_III._Tempel_Nordostwand_Abzeichnung_01.jpg"
     },
     {
       "id": "evt-workers-strike",
       "label": "First Recorded Workers Strike",
       "year": -1170,
-      "description": "Artisans at Deir el-Medina staged the earliest recorded labor strike in history when their grain rations went unpaid during Ramesses III reign. The event reveals economic decline late in the New Kingdom.",
+      "description": "Around 1170 BCE, the tomb-builders of Deir el-Medina (the artisan village that had served the Valley of the Kings for three centuries) walked off the job when their grain wages went unpaid for weeks — staging what is recognized as the first recorded workers' strike in human history.",
       "wikiSlug": "Deir_el-Medina",
       "tier": 3,
       "tags": [
         "trade"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The workers didn't riot; they staged a sit-in at nearby mortuary temples and appealed through official channels, which shows a surprisingly organized labor culture. The strike was documented in multiple papyri — the Turin Strike Papyrus records officials scrambling to source grain from temple granaries to pay the men off. The strikes recurred in subsequent years, each one a sign that the state's grain-redistribution system (Egypt used no coins; wages were paid in food) was breaking down under the fiscal strain of the Sea Peoples wars."
+        }
+      ],
+      "commonsFile": "Deir_el-Medina,_Luxor,_Egipto,_2022-04-03,_DD_18.jpg"
     },
     {
       "id": "evt-sobekneferu",
       "label": "Sobekneferu",
       "year": -1806,
       "endYear": -1802,
-      "description": "The first confirmed female pharaoh in Egyptian history, Sobekneferu was the last ruler of the Twelfth Dynasty. She appears in the Turin King List with her own cartouche and regnal years.",
+      "description": "Sobekneferu (reigned c. 1806–1802 BCE) was the first confirmed female pharaoh in Egyptian history, the last ruler of the Twelfth Dynasty, and the first ruler to incorporate the crocodile god Sobek's name into her own royal titulary.",
       "wikiSlug": "Sobekneferu",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Her reign lasted exactly 3 years, 10 months, and 24 days, according to the Turin King List — an unusually precise figure that shows she was formally counted as a legitimate pharaoh, not erased from records the way Hatshepsut would be centuries later. She adopted the full male royal titulary but modified some titles to acknowledge her womanhood, using \"daughter of Re\" and \"female Horus\" — a careful navigation of a role that had no existing template for a woman. Statues show her wearing both the female sheath dress and the male kilt simultaneously, a visual statement about her dual nature as both woman and pharaoh."
+        }
+      ],
+      "commonsFile": "Statue_of_Sobekneferu_(Berlin_Egyptian_Museum_14475).jpg"
     },
     {
       "id": "evt-seqenenre-tao",
       "label": "Seqenenre Tao",
       "year": -1560,
       "endYear": -1555,
-      "description": "Theban pharaoh whose mummy bears horrific battle wounds from Hyksos-style weapons. He died fighting the Hyksos occupiers, beginning the war of liberation that his successors would finish.",
+      "description": "Seqenenre Tao was the Theban pharaoh who launched the war against the Hyksos occupiers — and probably died fighting them, his mummy showing multiple axe and blade wounds to the head consistent with Hyksos-style weapons.",
       "wikiSlug": "Seqenenre_Tao",
       "tier": 3,
       "tags": [
         "military"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His mummy, found in the Deir el-Bahri cache in 1881, shows at least four distinct head wounds: an axe blow above the left eye, a caved-in left cheekbone, a dagger wound behind the left ear, and a mace blow to the right forehead — injuries from multiple attackers striking from different angles. The weapons types match axes excavated at Tell el-Dab'a, the Hyksos capital, tying the murder weapon to the murderers with physical evidence. Whether he died on a battlefield or was assassinated in his sleep is still debated by Egyptologists."
+        }
+      ],
+      "commonsFile": "Ceremonial_Battle_Axe_Inscribed_with_Name_of_King_Seqenenre_Tao_LACMA_M.80.203.43.jpg"
     },
     {
       "id": "evt-kamose",
       "label": "Kamose",
       "year": -1555,
       "endYear": -1550,
-      "description": "Last pharaoh of the Seventeenth Dynasty, Kamose continued the war against the Hyksos, raiding deep into their territory and intercepting a Hyksos letter proposing a joint attack with Kerma.",
+      "description": "Kamose, the last pharaoh of the Seventeenth Dynasty, pushed the Theban liberation war deep into Hyksos territory — reaching the walls of Avaris itself — before dying before he could finish the job.",
       "wikiSlug": "Kamose",
       "tier": 3,
       "tags": [
         "military"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Two stone stelae set up at Karnak record Kamose's campaigns in unusual firsthand detail, including a captured diplomatic letter from the Hyksos king Apepi to the ruler of the Kerma kingdom in Nubia, proposing a coordinated pincer attack on Thebes from north and south simultaneously — a plan Kamose intercepted and foiled. He is usually credited with only a three-to-five year reign, making his military reach all the more striking. The final expulsion of the Hyksos was left to his successor, Ahmose I."
+        }
+      ],
+      "commonsFile": "Coffin_of_King_Kamose_2017.jpg"
     },
     {
       "id": "evt-ahhotep-i",
       "label": "Ahhotep I",
       "year": -1560,
       "endYear": -1530,
-      "description": "Queen regent during the early reign of Ahmose I, Ahhotep I's tomb contained golden flies (military valor awards), suggesting she played an active role in the Hyksos liberation wars.",
+      "description": "Queen Ahhotep I served as regent for the child-king Ahmose I during the final phase of the Hyksos liberation wars, and her tomb goods — including the golden fly necklaces awarded to soldiers for battlefield valor — suggest she was more than a figurehead.",
       "wikiSlug": "Ahhotep_I",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ahhotep was the daughter of Queen Tetisheri and the wife (and likely sister) of Pharaoh Seqenenre Tao, who died of head wounds widely attributed to a Hyksos battle encounter. She thus bridges three generations of the liberation struggle: she was the daughter of its founding matriarch, wife of its first warrior-pharaoh, and mother of the king who finally won. Her tomb also contained model weapons and a ceremonial axe decorated with Hyksos enemies, unusual items for a queen's burial and a strong signal of active wartime authority."
+        }
+      ],
+      "commonsFile": "Queen_Ahhotep's_coffin_from_Deir_el-Bahri_(closeup).jpg"
     },
     {
       "id": "evt-ahmose-nefertari",
       "label": "Ahmose-Nefertari",
       "year": -1550,
       "endYear": -1495,
-      "description": "Wife of Ahmose I, she transformed the title God's Wife of Amun into a major political institution and was later deified as patron goddess of the Theban necropolis.",
+      "description": "Wife of Ahmose I and mother of Amenhotep I, Ahmose-Nefertari turned the priestly title God's Wife of Amun into one of the most powerful positions in the Egyptian state — and after her death she was worshipped as a goddess for centuries.",
       "wikiSlug": "Ahmose-Nefertari",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ahmose-Nefertari was the daughter of Seqenenre Tao and Ahhotep I, making her both sister and wife to Ahmose I (dynastic intermarriage was standard Egyptian royal practice). The God's Wife of Amun title gave her independent estates, income, and religious authority at the great temple complex of Karnak — a power base separate from the king's. Her image in Theban tomb paintings consistently shows her with black skin, which Egyptologists interpret as a symbolic reference to fertility and resurrection (the black silt of the Nile flood) rather than a literal portrait, though the debate continues."
+        }
+      ],
+      "commonsFile": "Queen_Ahmose-Nefertari_Neues_Museum_26042018_2.jpg"
     },
     {
       "id": "evt-amenhotep-i",
       "label": "Amenhotep I",
       "year": -1525,
       "endYear": -1504,
-      "description": "Second pharaoh of the Eighteenth Dynasty, Amenhotep I consolidated the reconquest, campaigned in Nubia, and is traditionally credited with founding the artisans' village of Deir el-Medina.",
+      "description": "The second pharaoh of the Eighteenth Dynasty, Amenhotep I consolidated Ahmose's victories, campaigned in Nubia to extend Egyptian control, and is traditionally credited with founding the artisans' village of Deir el-Medina.",
       "wikiSlug": "Amenhotep_I",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Amenhotep I reigned roughly 1526–1506 BCE and was unusual among Egyptian pharaohs in one notable respect: he appears to have left no surviving heir of his body, and the throne passed to Thutmose I, who was likely a military commander of non-royal birth. Despite this, Amenhotep I was revered long after his death — he and his mother Ahmose-Nefertari were worshipped as patron deities by the workers of Deir el-Medina for generations, with their own festival days and small shrines within the village."
+        }
+      ],
+      "commonsFile": "Cult_statue_of_Amenhotep_I,_limestone_-_Museo_Egizio_Turin_C_1372_p02.jpg"
     },
     {
       "id": "evt-senenmut",
       "label": "Senenmut",
       "year": -1473,
       "endYear": -1458,
-      "description": "Non-royal architect and chief steward under Hatshepsut, Senenmut held more power than any non-royal individual since Imhotep. He designed Hatshepsut's mortuary temple and served as tutor to Princess Neferure.",
+      "description": "Senenmut was a man of non-royal birth who rose to become Hatshepsut's most powerful official — her chief steward, architect of her mortuary temple, overseer of all royal works, and tutor to Princess Neferure.",
       "wikiSlug": "Senenmut",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His name literally means 'brother of Mut' (the mother-goddess), though it can also translate as 'uncle.' He accumulated over eighty titles during Hatshepsut's reign, a concentration of authority unprecedented for a commoner. He is buried in two tombs at Thebes — an unusual arrangement that may reflect the exceptional breadth of his roles — and disappears from the record entirely after Hatshepsut's death."
+        }
+      ],
+      "commonsFile": "Senenmut_Munich_25102016_5.jpg"
     },
     {
       "id": "evt-amenhotep-ii",
       "label": "Amenhotep II",
       "year": -1427,
       "endYear": -1401,
-      "description": "Son and successor of Thutmose III, Amenhotep II was famed for physical prowess — his inscriptions boast of driving arrows through copper targets from a speeding chariot. He maintained the empire his father built.",
+      "description": "Amenhotep II (reigned roughly 1427–1401 BCE) inherited his father Thutmose III's empire and held it with a few campaigns in Syria, but is better remembered for his propaganda as a physical specimen — his inscriptions claim he could drive arrows through copper targets from a moving chariot and that no other man could draw his bow.",
       "wikiSlug": "Amenhotep_II",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Amenhotep II's reign saw the effective end of large-scale conflict between Egypt and Mitanni, the other great power competing for Syria — the two states moved toward a peace arrangement that would solidify under his successors. His consort Tiaa was deliberately kept out of any public prominence until their son Thutmose IV came to power, suggesting genuine court politics around succession."
+        }
+      ],
+      "commonsFile": "Statua_di_Amenhotep_II_che_presenta_due_vasi_-_Museo_Egizio_Torino_C_1375_f05_(cropped).jpg"
     },
     {
       "id": "evt-queen-tiye",
       "label": "Queen Tiye",
       "year": -1398,
       "endYear": -1338,
-      "description": "Great Royal Wife of Amenhotep III and one of the most politically influential women in the ancient world. Foreign kings addressed diplomatic correspondence directly to her, acknowledging her policy-making authority.",
+      "description": "Great Royal Wife of Amenhotep III and arguably the most politically powerful queen Egypt ever produced, Tiye was born to non-royal parents yet received unprecedented diplomatic recognition — foreign kings addressed her directly on matters of state, both during and after her husband's reign.",
       "wikiSlug": "Tiye",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "DNA analysis in 2010 confirmed Tiye's identity from a mummy known as \"The Elder Lady,\" found in the tomb of Amenhotep II (KV35) in 1898 — meaning her remains had been in the Valley of the Kings for over a century without anyone realizing who she was. She outlived her husband and remained a figure of political authority under her son Akhenaten, which is why the king of Mitanni, Tushratta, wrote to her after Amenhotep III's death asking her to safeguard the two kingdoms' alliance. Her parentage was so un-royal that Amenhotep III had a special set of commemorative scarabs made just to announce the marriage."
+        }
+      ],
+      "commonsFile": "Ägyptisches_Museum_Berlin_027_detail_01.jpg"
     },
     {
       "id": "evt-ankhesenamun",
       "label": "Ankhesenamun",
       "year": -1348,
       "endYear": -1322,
-      "description": "Tutankhamun's widow who wrote a desperate letter to the Hittite king Suppiluliuma I requesting a prince to marry, to prevent a commoner from seizing the throne. The prince was murdered en route.",
+      "description": "After Tutankhamun died, his widowed queen Ankhesenamun wrote to Egypt's greatest enemy — Hittite king Suppiluliuma I — asking him to send a son to become her husband and pharaoh, rather than allow an Egyptian courtier to seize the throne.",
       "wikiSlug": "Ankhesenamun",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This letter survives in the Hittite archives at Hattusha, making it one of the most extraordinary documents from the ancient world — an Egyptian queen attempting to hand her country's throne to a foreign prince. Suppiluliuma was so suspicious of the offer that he sent a special envoy to Egypt first to verify it was genuine. The prince he eventually sent, Zannanza, was murdered on the road, almost certainly on orders from within the Egyptian court. Ankhesenamun was then married to the elderly courtier Ay and vanishes from history entirely after that."
+        }
+      ],
+      "commonsFile": "Ägyptischer_Maler_um_1350_v._Chr._001.jpg"
     },
     {
       "id": "evt-great-hymn-aten",
       "label": "Great Hymn to the Aten",
       "year": -1345,
-      "description": "Attributed to Akhenaten, this hymn praising the Aten as sole creator god contains striking parallels to Psalm 104 and is one of the earliest expressions of monotheistic theology.",
+      "description": "The Great Hymn to the Aten, attributed to Akhenaten himself, is a celebratory poem praising the sun disk as the sole creator of all living things — and it reads strikingly like Psalm 104 from the Hebrew Bible, composed centuries later.",
       "wikiSlug": "Great_Hymn_to_the_Aten",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The hymn is the longest of several poems addressed to the Aten and survives inscribed on the tomb wall of the courtier Ay at Amarna. Unlike traditional Egyptian religious texts, which are full of demons, judgment, and danger, the Great Hymn is warm and joyful — focused on light, fertility, and the diversity of life. Scholars have debated since the nineteenth century whether the similarities to Psalm 104 reflect direct influence on early Israelite religion or a coincidental parallel; the evidence remains circumstantial."
+        }
+      ],
+      "commonsFile": "Great_Hymn_to_the_Aten_from_Ay's_EA25_tomb.jpg"
     },
     {
       "id": "evt-egyptian-love-poetry",
       "label": "Egyptian Love Poetry",
       "year": -1250,
-      "description": "New Kingdom lyric poetry preserved on papyri and ostraca from Deir el-Medina — frank, sensual verses about desire and longing that stand alongside the Song of Solomon and Sappho.",
+      "description": "New Kingdom Egypt produced a body of lyric love poetry — preserved on papyrus scrolls and pottery fragments from the workers' village at Deir el-Medina — that is frank, sensual, and emotionally direct in ways that surprise most readers expecting only mummies and stone monuments.",
       "wikiSlug": "Ancient_Egyptian_literature#Love_poetry",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The poems use a recurring metaphor of physical symptoms of longing — racing heart, lost appetite, inability to apply eye makeup — that map almost exactly onto how people describe falling in love today. They survive because Deir el-Medina's craftsmen, who built the royal tombs, were unusually literate by ancient standards and left an extraordinary archive of everyday writing. The love poems are estimated to date mostly to the Nineteenth and Twentieth Dynasties, placing them squarely in the Ramessid era — the same cultural moment that produced the world's most bombastic royal propaganda."
+        }
+      ],
+      "commonsFile": "AbbottPapyrus-BritishMuseum-August21-08.jpg"
     },
     {
       "id": "evt-merneptah-stele",
       "label": "Merneptah Stele",
       "year": -1208,
-      "description": "Also called the Israel Stele, this victory inscription by Pharaoh Merneptah contains the earliest known reference to Israel in any ancient text.",
+      "description": "The Merneptah Stele (also called the Israel Stele) is a large victory inscription carved around 1208 BCE that contains the earliest known reference to Israel in any ancient text — a single line claiming the pharaoh had laid Israel waste.",
       "wikiSlug": "Merneptah_Stele",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stele was discovered at Thebes in 1896 by Flinders Petrie and is now in the Egyptian Museum in Cairo. The reference to Israel is brief and incidental — the stele's main subject is Merneptah's defeat of a Libyan invasion — but those few words make it one of the most scrutinized lines of text in ancient history, a rare point where Egyptian records and the history of the Abrahamic religions intersect in the archaeological record. The hieroglyphic determinative (a category marker) used with \"Israel\" indicates a people or tribal group rather than a settled city-state, suggesting the Israelites at this date were not yet urbanized."
+        }
+      ],
+      "commonsFile": "Merneptah_Steli_(cropped).jpg"
     },
     {
       "id": "evt-turin-strike-papyrus",
       "label": "Turin Strike Papyrus",
       "year": -1170,
-      "description": "The administrative record documenting the workers' strike at Deir el-Medina, preserving the workers' complaints and officials' responses in bureaucratic detail.",
+      "description": "The Turin Strike Papyrus is the administrative record of the Deir el-Medina labor strikes, preserving the workers' complaints, the officials' responses, and the bureaucratic scramble to find grain — a ground-level document of New Kingdom economic collapse.",
       "wikiSlug": "Judicial_Papyrus_of_Turin",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The papyrus is held in the Museo Egizio in Turin, Italy, which houses the world's largest collection of ancient Egyptian artifacts outside Cairo. Note: a separate document, the Judicial Papyrus of Turin, records an entirely different scandal — the 'Harem Conspiracy' assassination plot against Ramesses III — showing that the Turin collection preserves multiple crisis documents from the same troubled reign."
+        }
+      ],
+      "commonsFile": "The_so-called_'Strike_Papyrus'_written_by_Amunnakht,_papyurs_-_Museo_Egizio_(Turin)_C_1880_p03.jpg"
     },
     {
       "id": "evt-ramesseum",
       "label": "The Ramesseum",
       "year": -1260,
-      "description": "Ramesses II's mortuary temple on the west bank of Thebes, featuring a colossal statue weighing over 1,000 tons. Its ruins inspired Shelley's poem Ozymandias.",
+      "description": "The Ramesseum is Ramesses II's mortuary temple on the west bank of Thebes, built around 1260 BCE and once dominated by a seated colossus of the pharaoh weighing over 1,000 tons — whose fallen, shattered remains inspired Percy Bysshe Shelley's 1818 poem 'Ozymandias.'",
       "wikiSlug": "Ramesseum",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The colossus, carved from a single block of granite quarried at Aswan and transported hundreds of miles, was one of the heaviest objects ever moved in the ancient world. The temple also contained a large library (the 'House of Life') and granaries that stored enough grain to feed thousands — temples functioned as economic redistribution centers, not just religious ones. Shelley wrote 'Ozymandias' after the British Museum acquired a fragment of the statue in 1821; 'Ozymandias' is the Greek rendering of Ramesses II's throne name, Usermaatre."
+        }
+      ],
+      "commonsFile": "BM,_AES_Egyptian_Sulpture_~_Colossal_bust_of_Ramesses_II,_the_'Younger_Memnon'_(1250_BC)_(Room_4).jpg"
     },
     {
       "id": "evt-medinet-habu",
       "label": "Medinet Habu",
       "year": -1180,
-      "description": "Mortuary temple of Ramesses III on the west bank of Thebes, decorated with vivid reliefs of the Sea Peoples battles — one of the earliest depictions of naval warfare.",
+      "description": "Medinet Habu is Ramesses III's mortuary temple on the west bank of Thebes — the largest and best-preserved New Kingdom temple after Karnak, its walls covered in vivid reliefs recording the Sea Peoples battles, including the earliest known depiction of a naval engagement.",
       "wikiSlug": "Medinet_Habu_(temple)",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple was built partly from recycled stone: some of its materials came from the destroyed mortuary temple of Tausret, the last pharaoh of the Nineteenth Dynasty. After the New Kingdom fell, the temple complex became a small town — Coptic Christians converted parts of it and built a monastery there, which is why the site carries an Arabic name (Medinet Habu means roughly 'town of Habu') centuries after the pharaohs were gone."
+        }
+      ],
+      "commonsFile": "2nd_Courtyard_Medinet_Habu_R01.jpg"
     },
     {
       "id": "evt-great-hypostyle-hall",
       "label": "Great Hypostyle Hall",
       "year": -1280,
-      "description": "The most spectacular interior space in Egyptian architecture: 134 columns in the temple of Karnak, the central twelve rising 69 feet high. Begun by Seti I, completed by Ramesses II.",
+      "description": "The Great Hypostyle Hall at Karnak is the most jaw-dropping interior space in Egyptian architecture: 134 columns filling an area larger than the interior of Notre-Dame de Paris, the central twelve rising 69 feet (21 meters) with capitals wide enough for a hundred people to stand on.",
       "wikiSlug": "Great_Hypostyle_Hall",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Seti I began the northern half; Ramesses II completed the southern half and then — characteristically — carved his name over much of his father's work. The hall's design traces back conceptually to Hatshepsut's chapel at Deir el-Bahri, making it a project that spans three dynasties. At its peak the columns were painted in vivid red, blue, and yellow; traces of that color survive today in the more sheltered sections."
+        }
+      ],
+      "commonsFile": "Temple_de_Louxor_68.jpg"
     },
     {
       "id": "evt-battle-delta",
       "label": "Battle of the Delta",
       "year": -1178,
-      "description": "Ramesses III's naval victory over the Sea Peoples in the mouths of the Nile — one of the earliest naval battles in recorded history, depicted in vivid reliefs at Medinet Habu.",
+      "description": "The Battle of the Delta (c. 1178 BCE) was Ramesses III's naval victory over the Sea Peoples at the mouths of the Nile — one of the earliest sea battles in recorded history, and the engagement that prevented Egypt from being overrun.",
       "wikiSlug": "Battle_of_the_Delta",
       "tier": 3,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle's exact location is unknown; the Medinet Habu reliefs record both Delta fighting and a concurrent land engagement on the Syrian frontier, and scholars debate whether these were one campaign or two. Egyptian archers stationed on shore as well as on ships poured arrows into enemy vessels, a tactic that turned the shallow Nile mouths into a killing ground where the Sea Peoples' sail-powered ships had little room to maneuver. The defeated captives were not massacred but settled as military colonists along Egypt's frontiers."
+        }
+      ],
+      "commonsFile": "Prisoners_from_the_Battle_of_the_Nile_Delta.jpg"
     },
     {
       "id": "evt-opet-festival",
       "label": "Opet Festival",
       "year": -1400,
-      "description": "Annual religious procession carrying the sacred barque of Amun from Karnak to Luxor Temple, celebrating the divine rejuvenation of the pharaoh's kingship.",
+      "description": "The Opet Festival was the most important annual religious event in Thebes: a grand procession in which the sacred barque (ceremonial boat) of the god Amun was carried from the Karnak temple to the Luxor temple so the pharaoh could undergo a secret ritual renewal of his divine right to rule.",
       "wikiSlug": "Opet_Festival",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The festival took place during the second month of Akhet — the Nile flood season — when the fields were underwater and much of the population was free to watch. Over the course of the New Kingdom, the festival grew from an 11-day affair to as long as 27 days, reflecting how central the ritual had become to royal legitimacy. The procession route was eventually lined with a sphinx-lined avenue connecting Karnak to Luxor; remnants of that avenue, known as the Avenue of Sphinxes, have been excavated and partially restored and can be walked today."
+        }
+      ],
+      "commonsFile": "Karnak_Temples.jpg"
     },
     {
       "id": "evt-glass-production",
       "label": "Egyptian Glass Production",
       "year": -1380,
-      "description": "Egyptian glass-making reached its peak under Amenhotep III, producing polychrome vessels and jewelry in brilliant blues, greens, and yellows that were luxury exports across the eastern Mediterranean.",
+      "description": "Egyptian glass-making reached its technical and artistic peak under Amenhotep III, producing polychrome vessels, jewelry, and decorative objects in brilliant blues, greens, yellows, and whites that were coveted luxury exports across the eastern Mediterranean world.",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Egyptian glass of this period was a true prestige commodity — glass vessels have been found at Mycenaean Greek sites and across the Levant, carried along the same trade routes as gold and lapis lazuli. Egyptian craftsmen used a core-forming technique: winding molten glass around a clay or sand core, then adding trails of contrasting colors dragged into wave or feather patterns while still hot. The blue color that defines this glass comes from copper oxide; the distinctive turquoise came from mixing copper with a silica-rich sand formula that Egypt alone had mastered at scale."
+        }
+      ],
+      "commonsFile": "Egyptian_Miniature_Glasswares.jpg"
     },
     {
       "id": "evt-nubian-gold-trade",
       "label": "Nubian Gold Trade",
       "year": -1500,
       "endYear": -1070,
-      "description": "The gold mines of Upper Nubia and the Eastern Desert produced a flow of gold that made Egypt the richest power in the Bronze Age world, financing armies, temples, and diplomacy.",
+      "description": "The gold mines of Upper Nubia and the Eastern Desert made Egypt the wealthiest state in the Bronze Age world — the treasure that funded armies, built temples, and bankrolled the sophisticated diplomatic gift-exchange network that kept great kings talking instead of fighting.",
       "wikiSlug": "Gold_mining",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Egyptian correspondence from this period (preserved in the Amarna Letters) shows foreign kings constantly pressing the pharaoh for gold, with one Babylonian king writing bluntly that 'gold is like dirt in your country.' The wealth flowing from Nubia was so central to Egyptian power that control of the mining regions was a core strategic objective of every New Kingdom pharaoh."
+        }
+      ]
     },
     {
       "id": "evt-levantine-vassal-system",
       "label": "Levantine Vassal System",
       "year": -1458,
       "endYear": -1178,
-      "description": "Egypt maintained control of Levantine city-states through a vassal network: local kings paid tribute, sent sons as hostages to the Egyptian court, and provided military support when called upon.",
+      "description": "Rather than ruling the Levantine city-states directly, Egypt kept local kings on their thrones as vassals — required to pay annual tribute, station Egyptian garrisons at key ports like Gaza and Byblos, and send their sons to the Egyptian court, where the boys were raised to be loyal, pro-Egyptian rulers when they returned home.",
       "wikiSlug": "New_Kingdom_of_Egypt#Foreign_policy",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The hostage-education system was quietly brilliant: the sons of Canaanite and Syrian rulers grew up in the Egyptian court, learned to think Egyptian, and went home as reliable clients rather than resentful subjects. The whole arrangement only worked when Egypt was strong and attentive, as the collapse under Akhenaten would prove — his neglect of the Amarna Letters left loyal vassal kings begging for help that never came."
+        }
+      ]
     },
     {
       "id": "evt-merneptah",
       "label": "Merneptah",
       "year": -1213,
       "endYear": -1203,
-      "description": "Thirteenth son of Ramesses II, Merneptah came to the throne in his sixties and defeated a major Libyan invasion. His victory stele contains the earliest known reference to Israel.",
+      "description": "Merneptah, the thirteenth son of Ramesses II, came to the throne already in his sixties and reigned about ten years, defeating a major Libyan invasion and producing the stele that contains history's first written mention of Israel.",
       "wikiSlug": "Merneptah",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His wikiExtract notes he was the first royal-born pharaoh since Tutankhamun — an unusual gap, since intervening pharaohs including Ramesses II had non-royal blood. Contemporary records are precise about his dates: he began his reign on August 13, 1213 BCE and died on May 2, 1203 BCE. His mummy shows he suffered from severe arthritis and atherosclerosis, and dental records suggest he was around 70 years old at death — meaning he had waited most of his life while his father reigned for 66 years."
+        }
+      ],
+      "commonsFile": "Buste_de_Meremptah_(la_Villette,_2023).jpg"
     },
     {
       "id": "evt-tomb-robberies",
       "label": "Great Tomb Robbery Trials",
       "year": -1126,
-      "description": "A series of papyri document the investigation and prosecution of organized gangs systematically looting royal tombs at Thebes, revealing the breakdown of state authority in the late New Kingdom.",
+      "description": "A series of papyri from the reign of Ramesses IX (c. 1126–1108 BCE) document the systematic looting of royal tombs on the west bank of Thebes — organized gangs with inside help from tomb guards and officials, stripping gold from coffins and amulets from royal mummies.",
       "wikiSlug": "Abbott_Papyrus",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Abbott Papyrus records the political rivalry between two Theban officials — Pawero (overseer of the necropolis) and Paser (mayor of Thebes) — each accusing the other of enabling the thefts, revealing the robberies were as much a political scandal as a criminal one. Suspects were interrogated under beating. The robberies ultimately forced priests in the Twenty-First Dynasty to secretly rewrap and rebury dozens of royal mummies in hidden caches, where they were found intact in 1881."
+        }
+      ]
     },
     {
       "id": "evt-papyrus-harris",
       "label": "Papyrus Harris I",
       "year": -1155,
-      "description": "The longest papyrus in existence (133 feet), compiled at Ramesses III's death, recording his temple donations. It reveals the Amun temple controlled 81,000 workers and vast agricultural lands.",
+      "description": "Papyrus Harris I is the longest papyrus ever found — 133 feet (41 meters), roughly 1,500 lines — compiled at the death of Ramesses III to record his donations to Egypt's temples, and an inadvertent balance sheet showing just how much of Egypt's economy the Amun priesthood had absorbed.",
       "wikiSlug": "Papyrus_Harris_I",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The papyrus was found near Medinet Habu, purchased by British collector Anthony Charles Harris in 1855, and entered the British Museum in 1872 where it remains today as EA 9999. Its figures for the Amun temple — 81,000 workers, 421,000 head of cattle, 691,000 acres of agricultural land, 65 towns — mean the temple system may have controlled more of Egypt's productive output than the pharaoh himself, a slow-motion transfer of sovereignty accomplished through royal piety over centuries."
+        }
+      ],
+      "commonsFile": "Papyrus_Harris_I_Pl._LXXVI.jpg"
     },
     {
       "id": "evt-herihor",
       "label": "Herihor",
       "year": -1080,
       "endYear": -1074,
-      "description": "High Priest of Amun and Viceroy of Kush who effectively ruled Upper Egypt independently, having himself depicted at Karnak in pharaonic scale — a visual claim of equality with the king.",
+      "description": "Herihor was an Egyptian military officer who, by c. 1080 BCE, held simultaneously the posts of High Priest of Amun, Viceroy of Kush, and vizier — effectively ruling Upper Egypt as an independent power while Ramesses XI controlled only the Delta.",
       "wikiSlug": "Herihor",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At Karnak, Herihor had himself depicted in temple reliefs at the same scale as the pharaoh — a deliberate visual statement of equal status in an art tradition where size literally meant rank. Whether he formally took royal titles is still debated by Egyptologists. His rule lasted only about six years (1080–1074 BCE), but it established the precedent that a high priest could be a king in all but name, fragmenting Egypt into the two-headed state that defines the Third Intermediate Period."
+        }
+      ],
+      "commonsFile": "KingHerihorAdoreOsiris.jpg"
     }
   ]
 }
