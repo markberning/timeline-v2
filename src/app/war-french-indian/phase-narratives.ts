@@ -66,6 +66,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "Washington halted at the Great Meadows, a natural clearing in the Pennsylvania backcountry that offered water and grazing, and made it his base. There, word reached him from Tanaghrisson that a French party was camped in a rocky glen about 7 miles (11 km) off. On the night of May 27, 1754, Washington led roughly forty Virginians through the dark to find it, joining a dozen Mingo warriors under Tanaghrisson along the way. At dawn on May 28 they closed in on the French camp, which had posted no sentries. The French numbered perhaps thirty-five, under a young officer named Second Ensign Joseph Coulon de Villiers, Sieur de Jumonville."
       },
       {
+        "fig": "/war-img/fi-the-spark-map.jpg",
+        "cap": "Where the war started, 1754. Washington marched up from Wills Creek to Great Meadows, struck the French party in a glen a few miles off (Jumonville Glen), then fell back and built Fort Necessity at the Meadows, the half-built fort he would surrender in July. Fort Duquesne, the French strongpoint, sat at the Forks of the Ohio to the northwest.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "What exactly happened next is the first of several things about this day that the surviving evidence cannot settle. The French survivors said the Virginians opened fire without warning. Washington said a Frenchman fired first. Who pulled the first trigger is genuinely lost. What is clear is that Washington's men poured fire into the camp, the fight lasted about fifteen minutes, and the French moved to surrender."
       },
       {
