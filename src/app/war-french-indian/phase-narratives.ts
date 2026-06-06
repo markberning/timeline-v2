@@ -521,6 +521,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "His method was the opposite of Braddock's fatal speed. Rather than reopen Braddock's old road up from Virginia, Forbes ordered a brand-new road cut due west across the Pennsylvania mountains, building fortified supply depots, Fort Bedford and Fort Ligonier, at each stage as he went. Colonel George Washington, commanding the Virginia troops in the army, argued hard for the southern Virginia route; Forbes overruled him and built his own. The Forbes Road advanced slowly and could not be cut off behind itself, an iron tether the French could not sever the way they had savaged Braddock."
       },
       {
+        "fig": "/war-img/fi-forbes-road-map.jpg",
+        "cap": "Forbes's answer to Braddock: instead of reopening the southern road, he cut a brand-new road due west across the Pennsylvania mountains, building Fort Bedford and Fort Ligonier as supply depots as he went, and ground his way to the Forks of the Ohio. The French burned Fort Duquesne and left in November 1758.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "The advance was not bloodless. In September a detachment under Major James Grant of the Highlanders, around 850 men sent forward to scout Fort Duquesne, split itself into separate pieces that could not support one another. On September 14, 1758, the French garrison and roughly 500 Native warriors sortied out and destroyed the fragments one at a time. The British lost some 342 men killed, wounded, and captured, Grant himself among the prisoners, against a French and Native loss of around sixteen. It was a sharp reminder that the Native nations of the Ohio were still, for now, fighting for France, and that as long as they did, the French could hold the country."
       },
       {
