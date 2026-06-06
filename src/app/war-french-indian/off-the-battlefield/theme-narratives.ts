@@ -119,6 +119,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Fort Presque Isle came first, on the shore of Lake Erie at present-day Erie, Pennsylvania, with construction beginning on the 15th of May 1753. Next came Fort Le Boeuf, inland on French Creek at modern Waterford, Pennsylvania, begun on the 11th of July 1753. Fort Machault followed in August 1753, where French Creek meets the Allegheny at a place called Venango, present-day Franklin, Pennsylvania. The fourth and most important would come at the Forks of the Ohio itself, the fort that would be named Fort Duquesne."
       },
       {
+        "fig": "/war-img/fi-ohio-forts-map.jpg",
+        "cap": "The French fort chain in the Ohio Country, built 1753 and 1754: Presque Isle on Lake Erie, then Le Boeuf, then Machault (Venango), and finally Fort Duquesne at the Forks of the Ohio, the site of present-day Pittsburgh. The British forts and the Braddock and Forbes roads, cut later to push back into the country, are marked too.",
+        "credit": "Thomas Cool, 2006 / Wikimedia Commons (public domain)"
+      },
+      {
         "p": "These forts were the last links in France's effort to connect Canada with the Illinois Country and Louisiana, the physical version of the land bridge. With them, France was no longer just claiming the Ohio. France was building the wall that would cut the British colonies off from the west for good. Virginia could not let that stand, and the man who would not let it stand was an Ohio Company shareholder."
       },
       {
