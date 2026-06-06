@@ -35,6 +35,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "The Shawnee, an Algonquian-speaking people, began returning to the Ohio Country in those decades. The Delaware (who call themselves the Lenape) had been pushed west out of their home valleys along the Delaware and Susquehanna Rivers, and by 1724 they had founded the village of Kittanning on the Allegheny River. The Mingo were Iroquois people, mostly Seneca and Cayuga, who had migrated south and west into the Ohio Country and lived there half-independent of the home Confederacy's councils back east. The Wyandot, the people also known as the Huron or Wendat, lived in the region too."
       },
       {
+        "fig": "/war-img/fi-ohio-native-towns.jpg",
+        "cap": "Whose land it was, around 1750: the four Ohio nations and their towns — the Delaware at Kittanning on the Allegheny, the Mingo at Logstown below the Forks, the Shawnee at Lower Shawneetown on the Scioto, and the Miami at Pickawillany on the Great Miami.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "These were nations that had already fled colonial pressure once, settling new ground precisely because it was beyond the colonists' reach. The venture forming back east in Virginia existed for one purpose: to reach it."
       },
       {
