@@ -49,170 +49,268 @@
       "id": "evt-homer",
       "label": "Homer composes epics",
       "year": -750,
-      "description": "Homer composed the Iliad and the Odyssey, the foundational works of Western literature. These epic poems shaped Greek identity, religion, and education for centuries.",
+      "description": "Around 750 BCE, the epic poems the Iliad and the Odyssey — composed in the oral tradition about the legendary Trojan War and its aftermath — were set down in writing, becoming the shared cultural bedrock of every Greek city-state from Athens to Syracuse.",
       "wikiSlug": "Homer",
       "tier": 2,
       "tags": [
         "culture"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Whether 'Homer' was a single poet or a tradition is still debated; what is not debated is the poems' reach. Every Greek child memorized passages, and the works were treated as moral and theological instruction, not just literature. The poems preserve garbled but recognizable memories of the Mycenaean world — Linear B tablets confirm that places Homer describes (Pylos, Mycenae, Knossos) were real Bronze Age centers."
+        }
+      ],
+      "commonsFile": "Homer_At_the_British_Museum_2024_(3x4_cropped).jpg"
     },
     {
       "id": "evt-greek-alphabet",
       "label": "Greek Alphabet adopted",
       "year": -800,
-      "description": "The Greeks adapted the Phoenician alphabet, adding vowels to create the first true alphabet. This innovation enabled widespread literacy and became the ancestor of Latin and Cyrillic scripts.",
+      "description": "Around 800 BCE, Greek speakers adapted the Phoenician consonant-only script and did something revolutionary: they repurposed several Phoenician letters to represent vowel sounds, creating the world's first true alphabet, the direct ancestor of the one you are reading right now.",
       "wikiSlug": "Greek_alphabet",
       "tier": 2,
       "tags": [
         "culture"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Greek alphabet existed in dozens of local variants during the Archaic period — different city-states used different letter forms — before the 24-letter Ionic-based Euclidean alphabet became the standard across the Greek world by the end of the 4th century BCE. The names of the letters (alpha, beta, gamma) are direct adaptations of Phoenician letter names: 'aleph' meant 'ox' and 'beth' meant 'house' in Phoenician. Both the Latin alphabet and Cyrillic script descend from Greek, meaning this 8th-century innovation underlies most writing systems in use across Europe today."
+        }
+      ],
+      "commonsFile": "Dipylon_Inscription.JPG"
     },
     {
       "id": "evt-first-olympics",
       "label": "First Olympic Games",
       "year": -776,
-      "description": "The first recorded Olympic Games were held at Olympia in honor of Zeus. The games united Greek city-states in peaceful competition every four years and became a cornerstone of Greek culture.",
+      "description": "The first recorded Olympic Games were held in 776 BCE at Olympia, a sanctuary in the western Peloponnese dedicated to Zeus. The original contest was a single footrace; the Games grew to include wrestling, boxing, chariot racing, and the brutal pankration over the following centuries.",
       "wikiSlug": "Ancient_Olympic_Games",
       "tier": 1,
       "tags": [
         "culture"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Olympics ran continuously for over a thousand years, only ending under the Christian Roman emperor Theodosius I in 393 CE (with some evidence of later, unofficial games). Winners received nothing but an olive wreath — yet victors became celebrities whose home cities sometimes knocked holes in their walls to let them enter in triumph, on the logic that a city producing such men needed no gates. The word 'stadium' comes directly from the stadion, the ~192-meter footrace that was the original and for centuries the only Olympic event."
+        }
+      ],
+      "commonsFile": "Ancient_Olympic_Starting_Line.JPG"
     },
     {
       "id": "evt-greek-colonization",
       "label": "Greek Colonization begins",
       "year": -750,
-      "description": "Greek city-states began establishing colonies across the Mediterranean and Black Sea coasts. Settlements from Massalia to Byzantion spread Greek culture and created extensive trade networks.",
+      "description": "Starting around 750 BCE, Greek city-states sent organized groups of settlers to found independent new poleis across the Mediterranean and Black Sea coasts — from Massalia (modern Marseilles) in the west to Byzantion (modern Istanbul) in the northeast, spreading Greek language, culture, and gods across an enormous arc.",
       "wikiSlug": "Greek_colonisation",
       "tier": 2,
       "tags": [
         "expansion"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The colonies were not politically controlled by their founding cities (metropoleis) — they were independent from birth, linked only by religion, dialect, and family ties. This was population pressure and political exile as much as ambition: rocky Greek soil couldn't feed growing populations, and political losers in factional disputes preferred founding a new city to living under the winners. Greek colonists on the Black Sea coast established trade relationships with Scythian nomads, and the resulting cultural exchange helped feed the philosophical revolution that would transform Greece in the 6th century BCE."
+        }
+      ],
+      "commonsFile": "Agrigento-Tempio_della_Concordia01.JPG"
     },
     {
       "id": "evt-hesiod",
       "label": "Hesiod's Works and Days",
       "year": -700,
-      "description": "Hesiod composed Works and Days and Theogony, establishing Greek mythological cosmology and providing a guide to agricultural life. His writings are among the earliest Greek literary works after Homer.",
+      "description": "Hesiod was an early Greek poet (active around 750–650 BCE) who composed the Theogony, laying out the genealogy and birth stories of the Greek gods, and Works and Days, a practical farming almanac mixed with moral wisdom about how human life got progressively worse from a golden age to the present iron age. He is one of the two foundational voices of Greek literature, alongside Homer.",
       "wikiSlug": "Hesiod",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hesiod is unusual in archaic Greek poetry for writing about himself: Works and Days opens with an address to his brother Perses, with whom he was in a land dispute, making it one of the oldest surviving pieces of personal, autobiographical writing in Western literature. He describes himself as a farmer in Boeotia (central Greece) to whom the Muses appeared on Mount Helicon and gave him the gift of poetry — the first known literary account of poetic inspiration. Unlike Homer, whose identity is entirely obscure, Hesiod gives us enough biographical detail that scholars treat him as a real, locatable historical figure."
+        }
+      ],
+      "commonsFile": "Bust_of_Hesiod_(?)-Ancient_Roman_busts_in_the_Neues_Museum.jpg"
     },
     {
       "id": "evt-sparta-constitution",
       "label": "Spartan Constitution",
       "year": -700,
-      "description": "Lycurgus traditionally established Sparta's unique constitution, creating the dual kingship, the Gerousia council, and the agoge military training system. Sparta became the most formidable military power in Greece.",
+      "description": "Sparta's constitution (called the Great Rhetra) organized the entire city-state around military readiness: two hereditary kings as commanders, a council of elders (the Gerousia) as the supreme court, and an assembly of full citizens that could vote but not propose law. The system was legendarily attributed to a lawgiver named Lycurgus, though modern scholars debate whether Lycurgus was a real person or a mythical composite.",
       "wikiSlug": "Great_Rhetra",
       "tier": 2,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Great Rhetra was deliberately kept unwritten — Lycurgus supposedly forbade recording it, believing that a constitution written down could be argued over and amended, while one passed down orally through practice was more durable. The five elected 'ephors' (overseers) who supervised the kings and ran daily government held office for only one year and could not be re-elected, a remarkable term-limit innovation for the ancient world. The Spartan assembly voted by shouting rather than ballot — the louder side won, which made the process fast and nearly impossible to dispute."
+        }
+      ],
+      "commonsFile": "SpartaGreatRhetra.png"
     },
     {
       "id": "evt-coinage-lydia",
       "label": "First Greek Coinage",
       "year": -600,
-      "description": "Greek city-states adopted coinage from Lydia, minting their own coins in silver and electrum. Standardized currency revolutionized trade across the Mediterranean world.",
+      "description": "Around 600 BCE, Greek city-states began minting their own coins in silver and electrum (a natural gold-silver alloy), adopting the idea from Lydia in western Anatolia. Each polis stamped its coins with its own emblem, turning currency into civic identity as well as a medium of exchange.",
       "wikiSlug": "Ancient_Greek_coinage",
       "tier": 3,
       "tags": [
         "economy"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Lydians are credited with minting the world's first standardized coins (in electrum) around 600 BCE; the Greeks rapidly adapted the technology and took it further, with Athens' silver 'owls' (tetradrachms stamped with Athena's owl) becoming the dominant international trade currency of the 5th century BCE — the equivalent of the US dollar in the ancient Mediterranean. Silver for Athenian coins came largely from the mines at Laurion in southern Attica, worked by tens of thousands of enslaved people. A single polis's coin design could circulate across the entire Mediterranean world."
+        }
+      ],
+      "commonsFile": "ATTICA,_Athens._Circa_545-525-15_BC.jpg"
     },
     {
       "id": "evt-sappho",
       "label": "Sappho of Lesbos",
       "year": -610,
-      "description": "Sappho composed lyric poetry on the island of Lesbos, celebrated across the ancient world for its emotional intensity. Plato called her the 'Tenth Muse' for the beauty of her verse.",
+      "description": "Sappho was a lyric poet from the island of Lesbos, active around 610–570 BCE, whose work was celebrated throughout the ancient world for its emotional directness and personal intensity. In a tradition dominated by public, heroic verse (Homer, Hesiod), she wrote about love, longing, jealousy, and loss from a first-person perspective — making her the first great poet of private experience in the Western literary tradition.",
       "wikiSlug": "Sappho",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Almost all of Sappho's work is lost; only one poem (the Ode to Aphrodite) survives complete, with the rest existing only in fragments — some preserved because later writers quoted a few lines, others recovered from ancient papyrus scraps found in Egyptian trash heaps. Ancient commentators listed her alongside Homer as one of the greatest Greek poets, and she was given the title 'The Tenth Muse' (the nine traditional Muses being the divine patrons of the arts). The ancient city of Mytilene on Lesbos put her image on its coins, one of the very few women depicted on ancient Greek coinage."
+        }
+      ],
+      "commonsFile": "Brygos_Painter_ARV_385_228_Alkaios_and_Sappho_-_Dionysos_and_maenad_(07).jpg"
     },
     {
       "id": "evt-draco",
       "label": "Draco's Law Code",
       "year": -621,
-      "description": "Draco established Athens' first written law code, replacing oral tradition with codified justice. Though notoriously harsh, it was a critical step toward the rule of law in Athens.",
+      "description": "Draco gave Athens its first written law code around 621 BCE, ending the era when aristocratic judges could interpret unwritten rules however they chose. The code was so brutal — reportedly prescribing death for most offenses including petty theft — that his name became a byword for cruelty: anything excessively harsh is still called 'draconian.'",
       "wikiSlug": "Draco_(lawgiver)",
       "tier": 3,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Almost nothing concrete is known about Draco's other laws because Solon repealed most of them within a generation; the only Draconian law that survived into later Athenian practice was the homicide statute. A stone inscription from 409/408 BCE records part of that homicide law and explicitly labels it 'the law of Draco,' making it one of the oldest surviving pieces of Athenian legal text. Ancient sources say Draco himself was an otherwise obscure figure — no biography survives and scholars aren't even certain of his exact dates."
+        }
+      ],
+      "commonsFile": "Draco_engraving_from_1833_(cropped).jpg"
     },
     {
       "id": "evt-solon",
       "label": "Solon's Reforms",
       "year": -594,
-      "description": "Solon reformed Athenian law and the constitution, abolishing debt slavery and creating property-based political classes. His reforms laid the groundwork for Athenian democracy.",
+      "description": "Solon was appointed in 594 BCE as a special mediator with sweeping powers to defuse Athens' debt crisis, in which small farmers were being sold into slavery to repay what they owed. He cancelled all outstanding debts in one stroke (the seisachtheia, or 'shaking off of burdens'), banned debt slavery permanently, and restructured political rights along four wealth tiers rather than birth alone.",
       "wikiSlug": "Solon",
       "tier": 2,
       "tags": [
         "politics",
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "After completing his reforms, Solon reportedly left Athens for ten years to prevent pressure from either side to revise the laws — he told people his reforms were 'the best they would accept, not the best he could imagine.' He was also a poet, and some of his verse survives, giving a rare first-person account of a major ancient politician's own thinking. Solon was counted among the legendary 'Seven Sages of Greece,' a classical list of the wisest men of the archaic period."
+        }
+      ],
+      "commonsFile": "Ignoto,_c.d._solone,_replica_del_90_dc_ca_da_orig._greco_del_110_ac._ca,_6143.JPG"
     },
     {
       "id": "evt-thales",
       "label": "Thales of Miletus",
       "year": -585,
-      "description": "Thales is credited with predicting a solar eclipse and proposing that water is the fundamental substance of all matter. He is considered the first Western philosopher and founder of natural science.",
+      "description": "Thales of Miletus (around 624–546 BCE) was the first person in the surviving record to propose natural, non-divine explanations for natural phenomena — he argued that water was the fundamental substance underlying all of reality. He also reportedly predicted a solar eclipse in 585 BCE, demonstrating that astronomical events followed predictable patterns rather than divine whims.",
       "wikiSlug": "Thales_of_Miletus",
       "tier": 2,
       "tags": [
         "philosophy"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Thales left no writings; everything we know about him comes from later authors, primarily Aristotle, which makes verifying the details of his ideas difficult. He was included in the ancient list of the 'Seven Sages of Greece' alongside Solon, which tells you how contemporaries and near-contemporaries ranked him. Beyond philosophy, ancient sources credit him with practical achievements: measuring the height of Egyptian pyramids by their shadows, calculating distances to ships at sea using geometry, and advising the Lydian king Croesus on military strategy."
+        }
+      ],
+      "commonsFile": "Illustrerad_Verldshistoria_band_I_Ill_107.jpg"
     },
     {
       "id": "evt-pythagoras",
       "label": "Pythagoras founds school",
       "year": -530,
-      "description": "Pythagoras established a philosophical and mathematical community in Croton, southern Italy. His theorem on right triangles and his work on musical harmonics profoundly influenced mathematics and philosophy.",
+      "description": "Pythagoras founded a philosophical school at Croton in southern Italy around 530 BCE that was equal parts mathematical research community and religious brotherhood. His followers proved the theorem bearing his name deductively from first principles and discovered that musical intervals could be expressed as simple number ratios — a finding that led them to believe the entire universe was structured by mathematics.",
       "wikiSlug": "Pythagoras",
       "tier": 2,
       "tags": [
         "philosophy"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pythagorean community had strict rules that sound bizarre today: members were forbidden to eat beans, could not step over a broom, and were not allowed to touch white roosters. Initiates were sworn to secrecy, and the community reportedly fell apart when a member (Hippasus) revealed that the square root of 2 was irrational — a number that couldn't be expressed as a ratio — which contradicted core Pythagorean beliefs about number and was, according to legend, punishable by drowning. Pythagoras himself may have been as much a religious leader as a mathematician; his followers believed in reincarnation and that the soul could inhabit animal bodies."
+        }
+      ],
+      "commonsFile": "Bronnikov_gimnpifagoreizev.jpg"
     },
     {
       "id": "evt-peisistratos",
       "label": "Peisistratos, Tyrant of Athens",
       "year": -561,
       "endYear": -527,
-      "description": "Peisistratos seized power as tyrant of Athens and patronized the arts, commissioning the first written editions of Homer's epics. His rule saw Athens grow into a major cultural center.",
+      "description": "Peisistratos seized Athens three separate times between 561 and 546 BCE, each time using a mix of popular support, foreign muscle, and showmanship — including the famous chariot stunt where he rode into the city alongside a woman dressed as the goddess Athena. His rule was unusually stable and left Athens richer and more culturally prominent than he found it.",
       "wikiSlug": "Peisistratos",
       "tier": 3,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Peisistratos is credited with founding the Panathenaic Games in 566 BCE, a city-wide festival that became one of the most important in the Greek world. He also commissioned the first attempt at a definitive written text of Homer's epics — before him, the Iliad and Odyssey existed only in oral performance traditions that varied from one recitation to the next. Despite seizing power by force, he largely left Solon's laws in place and governed through existing institutions rather than dismantling them."
+        }
+      ],
+      "commonsFile": "Statue_of_Peisistratos.jpg"
     },
     {
       "id": "evt-cleisthenes",
       "label": "Cleisthenes establishes Democracy",
       "year": -508,
-      "description": "Cleisthenes reorganized Athenian political structure into ten tribes, established the Council of 500, and introduced ostracism. His reforms created the world's first democracy.",
+      "description": "Cleisthenes overhauled Athenian politics in 508 BCE, breaking up the old aristocratic kinship blocs by redrawing all citizens into ten new tribes that deliberately mixed urban, coastal, and rural residents. He added the Council of 500 (selected by lottery, not election), the full citizen assembly with sovereign authority, and ostracism — the vote-to-exile mechanism that let citizens banish any individual they feared was getting too powerful.",
       "wikiSlug": "Cleisthenes",
       "tier": 2,
       "tags": [
         "politics",
         "founding"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ostracism required a minimum of 6,000 votes cast before anyone could be exiled — citizens scratched a name onto a shard of broken pottery (an ostracon), and archaeologists have found thousands of these ballots, some naming major Athenian figures including Themistocles and Aristides. Cleisthenes was himself a member of the aristocratic Alcmaeonid clan — he essentially betrayed his own class to build the democratic coalition that kept him in power. Historians call him 'the father of Athenian democracy,' a title Solon doesn't get because Solon's reforms still preserved a property-based hierarchy."
+        }
+      ],
+      "commonsFile": "Cleisthenes.jpg"
     },
     {
       "id": "evt-temple-artemis",
@@ -231,395 +329,626 @@
       "label": "Ionian Revolt",
       "year": -499,
       "endYear": -493,
-      "description": "Greek cities in Ionia revolted against Persian rule with Athenian support. The revolt's failure provoked the Persian Wars, as Darius I vowed revenge against Athens.",
+      "description": "In 499 BCE, Greek cities along the Anatolian coast rose up against the Persian Empire — a six-year rebellion that failed badly but lit the fuse for the Persian invasions of mainland Greece.",
       "wikiSlug": "Ionian_Revolt",
       "tier": 3,
       "tags": [
         "politics"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The revolt was triggered partly by a botched Persian expedition to conquer the island of Naxos, which the tyrant Aristagoras had promised would be easy pickings. When the mission collapsed, Aristagoras knew he'd be removed from power, so he flipped sides and called the whole region to rebellion — a personal self-preservation move dressed up as a freedom fight. Athens and Eretria each sent ships (20 and 5 respectively), but Sparta refused outright when told the Persian capital was a three-month march away. The revolt's final defeat at the Battle of Lade in 494 BCE, where the Persian navy crushed the Greek fleet, ended with Miletus — the revolt's ringleader city — being completely destroyed."
+        }
+      ],
+      "commonsFile": "Darius_detail_on_the_Darius_vase.jpg"
     },
     {
       "id": "evt-marathon",
       "label": "Battle of Marathon",
       "year": -490,
-      "description": "An outnumbered Athenian army defeated the Persian invasion force on the plain of Marathon. The victory preserved Greek independence and demonstrated the effectiveness of the hoplite phalanx.",
+      "description": "At Marathon in 490 BCE, roughly 10,000 Athenian and Plataean soldiers defeated a Persian invasion force estimated at two to three times their number, running the last stretch of the charge to close the ground before Persian archers could shred their ranks. The victory — Athens' first major military test — became the founding myth of Athenian military confidence.",
       "wikiSlug": "Battle_of_Marathon",
       "tier": 1,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Persian commanders Datis and Artaphernes chose Marathon's broad coastal plain specifically because it was ideal ground for their cavalry, but the cavalry appears to have been absent or unengaged during the actual battle — one of history's more debated tactical mysteries. The Athenians left their fallen on the battlefield under a burial mound (the Soros) that still exists; 192 Athenian dead were recovered, suggesting casualties were remarkably light for a battle against a professional imperial army. The legend of a runner carrying news of the victory to Athens is first recorded by Plutarch, writing 600 years after the battle — the modern marathon race distance of 26.2 miles comes from the 1908 London Olympics, not antiquity."
+        }
+      ],
+      "commonsFile": "Scene_of_the_Battle_of_Marathon.jpg"
     },
     {
       "id": "evt-thermopylae",
       "label": "Battle of Thermopylae",
       "year": -484.5,
-      "description": "King Leonidas and 300 Spartans made their legendary last stand against Xerxes' massive Persian army at the narrow pass of Thermopylae. Their sacrifice became an enduring symbol of courage against overwhelming odds.",
+      "description": "In 480 BCE, King Leonidas of Sparta and a force of roughly 7,000 Greeks — including 300 Spartans — held the narrow coastal pass of Thermopylae against Xerxes' enormous Persian invasion army for three days before being outflanked and annihilated. Their stand delayed the Persian advance and became antiquity's most celebrated example of disciplined courage against impossible odds.",
       "wikiSlug": "Battle_of_Thermopylae",
       "tier": 2,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pass was betrayed by a local man named Ephialtes, who showed the Persians a mountain path around it — the Greeks at Thermopylae were not overrun, they were outflanked from behind while fighting to the front. Leonidas dismissed the bulk of the Greek force when the betrayal was discovered, keeping the Spartans and a few hundred Thespians and Thebans for the final stand; the Thespians stayed voluntarily, the Thebans may have been kept as hostages. The actual width of the pass in 480 BCE was roughly 15 meters (about 50 feet) — barely wide enough for a cart — though millennia of silting have since widened the coastline dramatically."
+        }
+      ],
+      "commonsFile": "Léonidas_aux_Thermopyles_-_Jacques-Louis_David_-_Musée_du_Louvre_Peintures_INV_3690_-_L_3711.jpg"
     },
     {
       "id": "evt-salamis",
       "label": "Battle of Salamis",
       "year": -481.5,
-      "description": "Themistocles lured the Persian fleet into the narrow straits of Salamis, where the outnumbered Greek triremes destroyed the Persian navy. This decisive naval victory turned the tide of the Persian Wars.",
+      "description": "In late September 480 BCE, a Greek fleet of roughly 370 triremes lured Xerxes' much larger Persian navy into the narrow Salamis strait and destroyed it, ending any realistic chance of a Persian conquest of Greece.",
       "wikiSlug": "Battle_of_Salamis",
       "tier": 2,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Themistocles sent a secret message to Xerxes warning that the Greeks were planning to escape, goading the Persian king into ordering his fleet into the strait at night — exactly where the Greeks wanted them. The narrow channel meant Persian numerical advantage (perhaps 600-800 ships) became a liability: ships jammed together, oars fouled, and the heavier Greek triremes rammed at close quarters. Xerxes watched the destruction from a golden throne on the shore. The loss of naval superiority meant he could no longer supply his massive land army through hostile territory, forcing him to withdraw to Asia."
+        }
+      ],
+      "commonsFile": "Battle_of_Salamis_battle_order.jpg"
     },
     {
       "id": "evt-plataea",
       "label": "Battle of Plataea",
       "year": -479,
-      "description": "A united Greek army defeated the Persian forces at Plataea, ending the second Persian invasion of Greece. This land victory, combined with Salamis, secured Greek freedom from Persian rule.",
+      "description": "In 479 BCE, the largest Greek army ever assembled — around 40,000 hoplites under the Spartan regent Pausanias — shattered the remaining Persian land force at Plataea in Boeotia, killing the Persian general Mardonius and ending the invasion.",
       "wikiSlug": "Battle_of_Plataea",
       "tier": 3,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle was not a clean clash but a grinding multi-day affair involving maneuvering, skirmishing, and supply problems before the decisive Greek charge. Mardonius, the Persian commander, had actually counseled Xerxes to stay and fight; his death in the final assault broke Persian resistance. Ancient tradition held that on the same day, the Greek fleet destroyed the remnant of the Persian navy at the Battle of Mycale on the Anatolian coast — though modern historians think the simultaneity is probably legendary."
+        }
+      ],
+      "commonsFile": "Scene_of_the_Battle_of_Plataea.jpg"
     },
     {
       "id": "evt-aeschylus-oresteia",
       "label": "Aeschylus' Oresteia",
       "year": -458,
-      "description": "Aeschylus premiered the Oresteia trilogy at the Dionysia festival, the only complete Greek tragic trilogy to survive. It explored justice, vengeance, and the transition from blood feuds to civic law.",
+      "description": "In 458 BCE, Aeschylus premiered the Oresteia at the Great Dionysia festival — three connected plays telling the story of Agamemnon's murder, his son's revenge, and the founding of a law court in Athens. It is the only complete Greek tragic trilogy to survive.",
       "wikiSlug": "Oresteia",
       "tier": 3,
       "tags": [
         "culture"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The trilogy ends with the goddess Athena establishing a jury court in Athens to try Orestes for killing his mother — effectively a founding myth for Athenian democracy itself, arguing that civic law replaces the blood-feud cycle. Aeschylus also invented the second actor: Greek drama had originally featured just one actor plus a chorus, and adding a second character was a structural revolution that made dramatic conflict possible. He had fought at Marathon 32 years earlier; his epitaph reportedly mentioned the battle but not his plays."
+        }
+      ],
+      "commonsFile": "Orestes_Pursued_by_the_Furies_by_William-Adolphe_Bouguereau_(1862)_-_Google_Art_Project.jpg"
     },
     {
       "id": "evt-pericles",
       "label": "Pericles leads Athens",
       "year": -461,
       "endYear": -429,
-      "description": "Pericles dominated Athenian politics for over 30 years, expanding democracy, building the Parthenon, and making Athens the cultural capital of Greece. His age is considered the golden age of Athens.",
+      "description": "Pericles ran Athens for roughly 30 years (461–429 BCE), transforming a defensive alliance into an empire, rebuilding the Acropolis after the Persian sack, and championing radical democracy — the idea that every male citizen should participate in governing the city.",
       "wikiSlug": "Pericles",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pericles was elected general (strategos) year after year — not because the office was powerful by design, but because he was so good at persuading the assembly that he effectively controlled policy. He funneled the Delian League's tribute into Athenian building projects, a move that enraged league members who saw it as theft. When the plague killed him in 429 BCE, Athens never again had a single leader of comparable authority and judgment."
+        }
+      ],
+      "commonsFile": "Pericles_Pio-Clementino_Inv269_n2.jpg"
     },
     {
       "id": "evt-parthenon",
       "label": "Parthenon completed",
       "year": -432,
-      "description": "The Parthenon was completed atop the Acropolis, a masterpiece of Doric architecture housing Phidias' colossal gold-and-ivory statue of Athena. It remains the supreme symbol of Classical Greek civilization.",
+      "description": "The Parthenon was completed in 432 BCE on Athens' Acropolis — a Doric temple to the goddess Athena housing a 40-foot (12 m) gold-and-ivory cult statue by the sculptor Phidias. It is considered the peak achievement of Classical Greek architecture.",
       "wikiSlug": "Parthenon",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Parthenon contains almost no straight lines: columns tilt slightly inward, floors curve gently upward, and column drums are subtly wider at the middle — all optical corrections to make the building look perfectly straight to the human eye. The 160-meter (525 ft) interior frieze carved around all four sides depicted the Panathenaic procession (Athens' annual festival), almost uniquely showing living citizens rather than gods or myth. It served as a treasury, then a Byzantine church, then an Ottoman mosque, before a Venetian artillery shell hit the stored gunpowder inside in 1687 and blew off the roof."
+        }
+      ],
+      "commonsFile": "The_Parthenon_in_Athens.jpg"
     },
     {
       "id": "evt-herodotus",
       "label": "Herodotus writes Histories",
       "year": -440,
-      "description": "Herodotus composed the Histories, chronicling the Greco-Persian Wars and the customs of Mediterranean peoples. Called the 'Father of History,' he pioneered systematic historical inquiry.",
+      "description": "Herodotus (roughly 484–425 BCE) wrote the Histories, a sprawling account of the Greco-Persian Wars and the peoples of the known world — the first attempt to systematically collect and record historical events, earning him the title 'Father of History.'",
       "wikiSlug": "Herodotus",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus was born in Halicarnassus in what is now Turkey, then under Persian control, and traveled widely across Egypt, Mesopotamia, Scythia, and the Black Sea region before settling in the Greek colony of Thurii in Italy. He was the first writer to apply the Greek word historia ('inquiry') to a prose work — before him, the word just meant research or investigation, not a genre. His critics, including Thucydides, accused him of credulity for including folk tales alongside facts; modern scholars have repeatedly vindicated his accounts when archaeology catches up with them."
+        }
+      ],
+      "commonsFile": "Marble_bust_of_Herodotos_MET_DT11742_(cropped).jpg"
     },
     {
       "id": "evt-sophocles-antigone",
       "label": "Sophocles' Antigone",
       "year": -441,
-      "description": "Sophocles staged Antigone, one of the greatest Greek tragedies, exploring the conflict between divine law and human authority. His work elevated tragic drama to new heights of psychological depth.",
+      "description": "Staged around 441 BCE, Sophocles' Antigone dramatizes a woman who defies her king's edict to leave her brother's body unburied — pitting divine obligation against state authority — and the catastrophe that follows when neither side will yield.",
       "wikiSlug": "Antigone_(Sophocles_play)",
       "tier": 3,
       "tags": [
         "culture"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sophocles wrote over 120 plays but only seven survive complete; Antigone is part of the Theban trilogy alongside Oedipus Rex and Oedipus at Colonus. Aristotle singled out Oedipus Rex as the perfect tragedy in his Poetics, but Antigone has proved more politically resonant across the centuries — it has been performed as protest or allegory under fascist regimes, colonial occupations, and authoritarian governments worldwide. Sophocles also served as a general alongside Pericles, so he wrote tragedy while helping run the empire that funded it."
+        }
+      ],
+      "commonsFile": "Lytras_nikiforos_antigone_polynices.jpeg"
     },
     {
       "id": "evt-hippocrates",
       "label": "Hippocrates of Kos",
       "year": -430,
-      "description": "Hippocrates founded rational medicine, separating healing from religion and superstition. The Hippocratic Oath and his clinical methods established principles still followed in medicine today.",
+      "description": "Hippocrates of Kos (working around 430 BCE) is called the Father of Medicine for insisting that diseases have natural, not supernatural, causes — that illness is something to be observed, diagnosed, and treated, not prayed away.",
       "wikiSlug": "Hippocrates",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Hippocratic Corpus, a collection of some 60 texts associated with his school, established the systematic clinical observation of patients and the principle of prognosis (predicting a disease's course). Hippocrates identified the four humors — blood, phlegm, yellow bile, and black bile — as the bodily fluids whose balance determined health, a framework that would dominate Western medicine until the 17th century. The Hippocratic Oath's core injunction 'first, do no harm' does not actually appear in the original Greek text of the oath — it entered medicine later as a summary of its spirit."
+        }
+      ],
+      "commonsFile": "Hippocrates.jpg"
     },
     {
       "id": "evt-plague-athens",
       "label": "Plague of Athens",
       "year": -430,
-      "description": "A devastating plague struck Athens during the Peloponnesian War, killing a quarter of the population including Pericles. Thucydides' clinical description is the earliest detailed account of an epidemic.",
+      "description": "In 430 BCE a lethal epidemic swept through Athens, killing roughly one in four residents — including Pericles. The cause is still debated (typhoid, smallpox, and Ebola-like hemorrhagic fever are all candidates), and Thucydides' clinical account is the oldest detailed epidemic description in Western literature.",
       "wikiSlug": "Plague_of_Athens",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The disease hit hardest in the overcrowded space inside the Long Walls where Pericles had told Attica's rural population to shelter — his own defensive strategy created the conditions for mass death. Thucydides contracted the plague himself, survived, and described symptoms including burning eyes, bloody throats, rashes, and uncontrollable thirst. The epidemic also killed soldiers in the field: an Athenian expedition to the Peloponnesian coast lost 1,050 out of 4,000 hoplites to the disease."
+        }
+      ],
+      "commonsFile": "Plague_in_an_Ancient_City_LACMA_AC1997.10.1_(1_of_2).jpg"
     },
     {
       "id": "evt-socrates",
       "label": "Socrates teaches in Athens",
       "year": -470,
       "endYear": -399,
-      "description": "Socrates revolutionized philosophy through his method of probing dialogue, questioning assumptions about virtue, justice, and knowledge. His trial and execution in 399 BCE made him Western philosophy's foundational martyr.",
+      "description": "Socrates (470–399 BCE) never wrote anything down, charged no fees, and held no office — but his method of relentless public questioning (the Socratic method: probe every assumption until it collapses) transformed philosophy. In 399 BCE, Athens put him on trial for impiety and corrupting youth, and executed him.",
       "wikiSlug": "Socrates",
       "tier": 2,
       "tags": [
         "philosophy"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Socrates was offered the chance to propose his own punishment at trial and reportedly suggested the city pay him a pension — which did not help his case. He was also offered the chance to escape prison before the execution and refused, arguing it would be unjust to break the law simply because the verdict was wrong. His student Plato, who witnessed the trial, was so horrified that he spent the rest of his life building a philosophy designed to explain how democratic majorities could be so catastrophically wrong."
+        }
+      ],
+      "commonsFile": "Alcibades_being_taught_by_Socrates,_François-André_Vincent.jpg"
     },
     {
       "id": "evt-euripides-medea",
       "label": "Euripides' Medea",
       "year": -431,
-      "description": "Euripides premiered Medea, a psychologically complex tragedy about a woman's revenge against her unfaithful husband. His realistic portrayal of human emotions transformed Greek drama.",
+      "description": "Premiered in 431 BCE, Euripides' Medea follows a foreign woman abandoned by her Greek husband who takes revenge by murdering his new wife and their own children — a pitiless psychological study that audiences found deeply unsettling.",
       "wikiSlug": "Medea_(play)",
       "tier": 3,
       "tags": [
         "culture"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Medea actually placed third (last) in the competition the year it was first performed — ancient Athenian judges were not ready for it. Euripides was the most psychologically modern of the three great tragedians: his characters reason about their own destructive impulses rather than simply acting on them, and Medea's famous speech where she debates whether to kill her sons remains one of the most disturbing passages in ancient literature. He was enormously popular in later centuries, and more of his plays survive (18-19) than those of Aeschylus and Sophocles combined."
+        }
+      ],
+      "commonsFile": "Alfons_Mucha_-_Medea.jpg"
     },
     {
       "id": "evt-peloponnesian-war-start",
       "label": "Peloponnesian War begins",
       "year": -431,
-      "description": "Sparta and Athens plunged into a devastating 27-year war that engulfed all of Greece. Thucydides' account of the conflict became the foundational work of political realism and military history.",
+      "description": "The Peloponnesian War (431-404 BCE) was a 27-year catastrophe that pitted Athens and its Delian League allies against Sparta and the Peloponnesian League, eventually engulfing virtually the entire Greek world. Sparta ultimately won, with crucial late-war financial backing from Persia, but the conflict left both sides so exhausted that it opened the door for the era of Macedonian dominance.",
       "wikiSlug": "Peloponnesian_War",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Thucydides, an Athenian general who was exiled for a battlefield failure and spent the rest of the war interviewing participants on both sides, wrote his account of the conflict as a work 'for all time' rather than a narrative for his own generation — it became the founding text of political realism and military history. The war ended when a Spartan-backed Athenian faction overthrew the democracy and installed the Thirty Tyrants, a brutal oligarchic junta that murdered around 1,500 Athenians in under a year before being overthrown. Athens restored its democracy in 403 BCE, but the trauma of the war and the Tyrants shadowed the city's politics for decades — and contributed directly to the mood that condemned Socrates in 399 BCE."
+        }
+      ],
+      "commonsFile": "Pelop_war_en.png"
     },
     {
       "id": "evt-athens-falls",
       "label": "Athens surrenders to Sparta",
       "year": -404,
-      "description": "After the destruction of its fleet at Aegospotami, Athens was besieged and forced to surrender, ending the Peloponnesian War. Sparta dismantled the Long Walls and imposed the Thirty Tyrants.",
+      "description": "In 405 BCE the Spartan admiral Lysander caught the Athenian fleet beached and unguarded at Aegospotami, capturing nearly 170 ships in one stroke. Athens, unable to feed itself without the grain route from the Black Sea, surrendered the following spring.",
       "wikiSlug": "Battle_of_Aegospotami",
       "tier": 2,
       "tags": [
         "politics"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The surrender terms required Athens to tear down the Long Walls to the music of flutes — Sparta's allies treated it as a celebration. Athens' fleet was reduced from over 150 ships to just 12. The puppet government Sparta installed, the Thirty Tyrants, executed around 1,500 Athenians in under a year before being overthrown — a larger death toll than the entire last decade of war on the Athenian side."
+        }
+      ],
+      "commonsFile": "Meeting_between_Cyrus_the_Younger_and_Lysander,_by_Francesco_Antonio_Grue_(1618-1673),_maiolica_with_a_dusting_technique,_Castelli_manufacture,_Abruzzo._Italy,_17th_century.jpg"
     },
     {
       "id": "evt-trial-socrates",
       "label": "Trial and Death of Socrates",
       "year": -399,
-      "description": "Socrates was tried on charges of impiety and corrupting the youth, found guilty, and executed by drinking hemlock. Plato's Apology immortalized his defense and transformed him into philosophy's greatest martyr.",
+      "description": "In 399 BCE, Athens put the philosopher Socrates on trial before a jury of 501 citizens, charging him with impiety and corrupting the youth. He was found guilty by a narrow margin and executed by drinking hemlock — a death he accepted voluntarily, refusing offers of exile, and that became the foundational event of Western philosophy.",
       "wikiSlug": "Trial_of_Socrates",
       "tier": 2,
       "tags": [
         "philosophy"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The real political subtext was Socrates' association with the Thirty Tyrants, the brutal oligarchic junta Athens had endured after losing the Peloponnesian War; his former student Critias had led that regime. Socrates was seventy years old at his death, and had spent decades publicly questioning Athenian politicians, generals, and craftsmen, demonstrating that the people most confident in their expertise knew the least. Plato, who witnessed the trial, spent the rest of his life writing dialogues that both preserved Socrates' arguments and grappled with why Athens had killed its wisest citizen."
+        }
+      ],
+      "commonsFile": "David_-_The_Death_of_Socrates.jpg"
     },
     {
       "id": "evt-plato-academy",
       "label": "Plato founds the Academy",
       "year": -387,
-      "description": "Plato established the Academy in Athens, the Western world's first institution of higher learning. It operated for nearly 900 years, producing thinkers who shaped philosophy, mathematics, and political theory.",
+      "description": "Around 387 BCE, Plato founded the Academy in Athens — named for the olive grove of the hero Academus where it was located — establishing the Western world's first institution of higher learning. Aristotle studied there for twenty years, and the school survived in various forms for nearly 900 years until the Byzantine emperor Justinian shut it down in 529 CE.",
       "wikiSlug": "Platonic_Academy",
       "tier": 2,
       "tags": [
         "philosophy",
         "science"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Academy outlasted its founder by centuries but changed character over time: after Plato's death it became a center of Academic Skepticism, the philosophical position that certain knowledge is impossible, before being revived as a Neoplatonist school in the 5th century CE. The word 'academy' itself — now used for everything from military schools to the Oscars — descends directly from this grove outside Athens. Aristotle, the school's most famous student, eventually left to found a rival institution, the Lyceum, after being passed over as Plato's successor."
+        }
+      ],
+      "commonsFile": "\"The_School_of_Athens\"_by_Raffaello_Sanzio_da_Urbino.jpg"
     },
     {
       "id": "evt-plato-republic",
       "label": "Plato writes The Republic",
       "year": -375,
-      "description": "Plato composed The Republic, exploring justice, the ideal state, and the Allegory of the Cave. It remains one of the most influential works in the history of Western philosophy and political thought.",
+      "description": "Plato's Republic, written around 375 BCE, is a wide-ranging philosophical dialogue on justice, the structure of an ideal state, and the nature of reality — best remembered for the Allegory of the Cave and its vision of philosopher-kings as the ideal rulers. It remains one of the most widely read and debated works in the history of philosophy.",
       "wikiSlug": "Republic_(Plato)",
       "tier": 2,
       "tags": [
         "philosophy"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The earliest surviving manuscript of the Republic dates to around 895 CE — over 1,200 years after it was written — and is held in the Bibliothèque nationale de France in Paris (it's the Codex Parisinus graecus 1807, whose opening page is the event's lead image). The dialogue is structured as a single long conversation, nominally set at the house of Cephalus in the port of Piraeus, and takes place over one evening — meaning Plato imagined all of this as one very long dinner party argument. The *Republic* influenced not just philosophy but political theory across Islamic, Jewish, and Christian traditions for two millennia."
+        }
+      ],
+      "commonsFile": "Politeia_beginning._Codex_Parisinus_graecus_1807.jpg"
     },
     {
       "id": "evt-thebes-leuctra",
       "label": "Battle of Leuctra",
       "year": -371,
-      "description": "Epaminondas of Thebes defeated the Spartans at Leuctra using his revolutionary oblique phalanx formation. This battle shattered Spartan military supremacy and made Thebes briefly the leading Greek power.",
+      "description": "At Leuctra in 371 BCE, the Theban general Epaminondas crushed a full Spartan army by stacking his left wing fifty shields deep — instead of the usual eight to twelve — and smashing it into the Spartans' elite right wing before the rest of the line even engaged. Roughly 400 of the 700 full Spartan citizen-soldiers present were killed, including their king, in the first decisive defeat a Spartan army had ever suffered on a pitched battlefield.",
       "wikiSlug": "Battle_of_Leuctra",
       "tier": 3,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle took place on July 6, 371 BCE near the village of Leuctra in Boeotia, in territory belonging to the city of Thespiae. The Spartan king killed was Cleombrotus I, who had crossed into Boeotia specifically to crush the Theban threat. Leuctra didn't just wound Sparta militarily — it shattered the psychological myth of Spartan invincibility that had kept the rest of Greece cowed for generations."
+        }
+      ],
+      "commonsFile": "Pelopidas_leading_the_Thebans_at_the_battle_of_Leuctra.jpg"
     },
     {
       "id": "evt-aristotle",
       "label": "Aristotle founds the Lyceum",
       "year": -335,
-      "description": "Aristotle established the Lyceum in Athens after tutoring Alexander the Great. His systematic works on logic, biology, ethics, and politics became the foundation of Western science and philosophy for two millennia.",
+      "description": "Aristotle founded the Lyceum in Athens in 335 BCE after tutoring Alexander the Great and studying for twenty years at Plato's Academy. His output was staggering — systematic works on logic, biology, ethics, politics, rhetoric, and poetics that served as the intellectual framework for Western science and philosophy for roughly two thousand years.",
       "wikiSlug": "Aristotle",
       "tier": 2,
       "tags": [
         "science"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aristotle's school was called 'Peripatetic' (from the Greek for 'walking around'), supposedly because he taught while strolling with students through the Lyceum's covered walkways. His biological writings alone described roughly 500 animal species, many through direct dissection — he was doing empirical science a century before Rome existed. When the Islamic world rediscovered his works in the 9th century and transmitted them back to medieval Europe, Dante simply called him 'the master of those who know.'"
+        }
+      ],
+      "commonsFile": "Aristotle_Altemps_Inv8575.jpg"
     },
     {
       "id": "evt-philip-ii",
       "label": "Philip II of Macedon",
       "year": -359,
       "endYear": -336,
-      "description": "Philip II transformed Macedon from a weak kingdom into Greece's dominant power, introducing the sarissa pike and professional army. His victory at Chaeronea in 338 BCE united Greece under Macedonian hegemony.",
+      "description": "Philip II became king of a near-bankrupt, embattled Macedon in 359 BCE at age twenty-three and within two decades transformed it into the dominant military power in the Greek world. He invented the sarissa pike phalanx, combined it with elite cavalry and siege engineers into a revolutionary combined-arms force, and outmaneuvered every Greek city-state through a lethal mix of battlefield skill and diplomatic manipulation.",
       "wikiSlug": "Philip_II_of_Macedon",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Philip had learned tactics firsthand as a teenage hostage in Thebes, where he studied Epaminondas' innovations directly. He had at least seven wives, each marriage a calculated political alliance with a different neighboring kingdom or faction — he was weaponizing matrimony on an industrial scale. He was assassinated in 336 BCE at his daughter's wedding by one of his own bodyguards, and while the motive appears to have been personal, suspicion has shadowed his estranged wife Olympias and his son Alexander ever since."
+        }
+      ],
+      "commonsFile": "Phillip_II,_king_of_Macedonia,_Roman_copy_of_Greek_original,_Ny_Carlsberg_Glyptotek,_Copenhagen_(36420294055).jpg"
     },
     {
       "id": "evt-chaeronea",
       "label": "Battle of Chaeronea",
       "year": -338,
-      "description": "Philip II and his son Alexander defeated the combined forces of Athens and Thebes at Chaeronea. This decisive battle ended Greek city-state independence and established Macedonian supremacy over Greece.",
+      "description": "The Battle of Chaeronea in 338 BCE was Philip II's decisive victory over the combined armies of Athens and Thebes, ending Greek city-state independence. Philip's eighteen-year-old son Alexander commanded the Macedonian left wing that annihilated the Sacred Band of Thebes — the elite 300-man unit that had been undefeated for forty years.",
       "wikiSlug": "Battle_of_Chaeronea_(338_BC)",
       "tier": 2,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Sacred Band died in their pairs, fighting to the last man — their burial mound and the famous Lion of Chaeronea monument that marked it still stand at the battlefield today. Philip followed his military victory with a calculated political settlement: he organized the Greeks into the League of Corinth and positioned himself as hegemon leading a pan-Greek war of revenge against Persia, framing conquest as liberation. The battle took place in Boeotia, near the same region where Epaminondas had shattered Spartan power a generation earlier."
+        }
+      ],
+      "commonsFile": "Chaironeia_lion.JPG"
     },
     {
       "id": "evt-demosthenes",
       "label": "Demosthenes' Philippics",
       "year": -351,
-      "description": "Demosthenes delivered his famous Philippics, orations warning Athens of the Macedonian threat. He is regarded as the greatest orator of antiquity, and his speeches remain models of persuasive rhetoric.",
+      "description": "Demosthenes was the greatest orator of ancient Athens and spent much of the 350s-340s BCE delivering increasingly urgent speeches — the Philippics — warning that Philip of Macedon was systematically dismantling Greek freedom while the city-states squabbled. His name gave English the word 'philippic' for any bitter, denunciatory speech.",
       "wikiSlug": "Demosthenes",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Demosthenes was a self-made rhetorician: orphaned young, he sued his own corrupt guardians at age twenty to recover his inheritance, training himself by rehearsing speeches with pebbles in his mouth to cure a stammer. He made his living as a professional speechwriter before entering politics. After Chaeronea, he continued resisting Macedonian power and eventually took poison rather than be captured by Antipater's agents in 322 BCE — the year after Alexander died."
+        }
+      ],
+      "commonsFile": "Demosthenes_Polyeuctos_Louvre_Ma237_n01.jpg"
     },
     {
       "id": "evt-alexander-great",
       "label": "Alexander the Great",
       "year": -336,
       "endYear": -323,
-      "description": "Alexander conquered the Persian Empire, Egypt, and territories as far as India, creating the largest empire the world had seen. His conquests spread Greek culture across three continents, launching the Hellenistic age.",
+      "description": "Alexander III of Macedon (356–323 BCE) conquered the Persian Empire, Egypt, and territories as far as northwestern India in just thirteen years, creating the largest empire the world had seen and launching the Hellenistic age that would spread Greek culture across three continents.",
       "wikiSlug": "Alexander_the_Great",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alexander was undefeated in pitched battle throughout his entire campaign. He founded over twenty cities named Alexandria across his empire, from Egypt to Afghanistan. He died in Babylon in 323 BCE at age 32, apparently from illness (the exact cause — typhoid fever, alcohol poisoning, and assassination are all proposed) after refusing to turn back from a planned Arabian campaign. He left no designated successor, reportedly saying his empire would go \"to the strongest.\""
+        }
+      ],
+      "commonsFile": "Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg"
     },
     {
       "id": "evt-granicus",
       "label": "Battle of the Granicus",
       "year": -334,
-      "description": "Alexander won his first major battle against the Persian Empire at the Granicus River. The victory opened Asia Minor to Macedonian conquest and demonstrated Alexander's tactical brilliance.",
+      "description": "Alexander's first pitched battle against Persia, fought at a river crossing in northwestern Anatolia in May 334 BCE, where he personally led a cavalry charge and nearly got himself killed — saved only when a companion severed his attacker's arm.",
       "wikiSlug": "Battle_of_the_Granicus",
       "tier": 3,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Persian commanders at Granicus made the unusual decision to place their cavalry at the river's edge rather than behind it, a formation that proved fatal. Alexander was struck on the helmet by a Persian nobleman's sword and was moments from death before Cleitus the Black intervened. The victory opened the entire Anatolian coast, and Alexander promptly liberated the Greek Ionian cities there, presenting the campaign as revenge for Persia's original conquest of those cities 200 years earlier."
+        }
+      ],
+      "commonsFile": "Charles_Le_Brun,_Le_Passage_du_Granique,_1665.png"
     },
     {
       "id": "evt-issus",
       "label": "Battle of Issus",
       "year": -333,
-      "description": "Alexander defeated Darius III at Issus despite being greatly outnumbered. The Persian king fled the battlefield, leaving his family and treasure behind, shattering Persian morale.",
+      "description": "At Issus in November 333 BCE, Alexander caught the Persian king Darius III in a narrow coastal plain and drove straight for him — Darius fled the battlefield, abandoning his mother, wife, children, and royal treasury.",
       "wikiSlug": "Battle_of_Issus",
       "tier": 3,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The captured Persian royal family became one of Alexander's most powerful propaganda tools: he treated Darius's mother, wife, and daughters with conspicuous courtesy, refusing to ransom or humiliate them, and the story was deliberately circulated to show he was a gentleman-conqueror. Darius later offered Alexander all Persian territory west of the Euphrates and a substantial ransom for his family; Alexander refused, because he already held the initiative. The battle mosaic found at Pompeii — now in Naples — is one of the most celebrated ancient artworks depicting Alexander's face."
+        }
+      ],
+      "commonsFile": "Battle_of_Issus_mosaic_-_Museo_Archeologico_Nazionale_-_Naples_2013-05-16_16-25-06_BW.jpg"
     },
     {
       "id": "evt-gaugamela",
       "label": "Battle of Gaugamela",
       "year": -331,
-      "description": "Alexander's decisive victory over Darius III at Gaugamela destroyed the Persian Empire. The battle showcased Alexander's tactical genius against a far larger force on terrain chosen by his enemy.",
+      "description": "The final showdown between Alexander and Darius III, fought on a flat plain in what is now northern Iraq in October 331 BCE — Alexander's wedge-charge through a gap in the Persian line collapsed the largest army Darius could assemble and ended the Achaemenid Empire.",
       "wikiSlug": "Battle_of_Gaugamela",
       "tier": 2,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Darius had the plain leveled in advance specifically to give his scythed chariots room to operate, yet Alexander's tactics neutralized them anyway by having infantry open lanes to let the chariots pass through harmlessly. Ancient sources claim Darius fielded a million men; modern estimates put his army at 50,000–100,000 — still roughly double Alexander's force of about 47,000. After the battle, Alexander captured three Persian capitals — Babylon, Susa, and Persepolis — in rapid succession, seizing accumulated royal treasuries that reportedly required 20,000 mules and 5,000 camels to transport."
+        }
+      ],
+      "commonsFile": "Pietro_da_Cortona_-_Battle_of_Alexander_versus_Darius_-_Google_Art_Project.jpg"
     },
     {
       "id": "evt-greece-alexandria-founded",
       "label": "Alexandria founded",
       "year": -331,
-      "description": "Alexander founded Alexandria on Egypt's Mediterranean coast, which became the greatest city of the Hellenistic world. Its famous Library and Lighthouse made it the center of learning and commerce for centuries.",
+      "description": "In 331 BCE Alexander chose a narrow strip of land between the Mediterranean and Lake Mareotis in Egypt to build a new city — Alexandria — which would grow into the greatest metropolis of the ancient world, home to the famous Library and Lighthouse.",
       "wikiSlug": "Alexandria",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alexander personally walked out the city's street grid with grain (having no chalk on hand), and when birds ate the grain, his seers interpreted it as an omen that the city would feed the world. Within a century of his death, Alexandria had a population of perhaps 300,000–500,000, making it one of the largest cities in antiquity, rivaling Rome itself. The Great Library eventually held an estimated 400,000–700,000 papyrus scrolls — the largest collection of knowledge in the ancient world — though Alexander himself spent almost no time in the city he founded."
+        }
+      ],
+      "commonsFile": "113KOM_EL_SHOQAFA_CATACOMBS.jpg"
     },
     {
       "id": "evt-diogenes",
       "label": "Diogenes the Cynic",
       "year": -404,
       "endYear": -323,
-      "description": "Diogenes of Sinope lived in extreme simplicity, challenging social conventions and advocating virtue through action rather than theory. His confrontations with Alexander the Great became legendary philosophical anecdotes.",
+      "description": "Diogenes of Sinope (roughly 404-323 BCE) was the most famous of the Cynics — a philosophical movement that rejected wealth, status, and social convention in favor of living as simply as nature allowed. He reportedly lived in a large ceramic jar, begged for food, owned nothing, and deployed shocking public behavior as a form of philosophical argument.",
       "wikiSlug": "Diogenes",
       "tier": 3,
       "tags": [
         "philosophy"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cynics took their name from the Greek word for 'dog-like' (kynikos) — an insult they adopted as a badge of honor, embracing the dog's reputation for shamelessness and living by instinct. When asked where he was from, Diogenes said 'I am a citizen of the world' (kosmopolites) — the first recorded use of the word 'cosmopolitan.' The Alexander-and-the-sunlight encounter was famous enough in antiquity that multiple ancient sources record it, though like most Diogenes stories, it may be legend burnished over time."
+        }
+      ],
+      "commonsFile": "Diogenes_Mosaic_Römisch-Germanisches_Museum.jpg"
     },
     {
       "id": "evt-wars-diadochi",
       "label": "Wars of the Diadochi",
       "year": -322,
       "endYear": -281,
-      "description": "Alexander's generals fought brutal wars for control of his empire, eventually splitting it into the Ptolemaic, Seleucid, and Antigonid kingdoms. These successor states shaped the Hellenistic world for centuries.",
+      "description": "After Alexander died in 323 BCE, his generals (the Diadochi, \"successors\") fought each other for forty years across his entire empire. By 281 BCE the dust had settled into three major kingdoms: Ptolemaic Egypt, the Seleucid East, and Antigonid Macedon.",
       "wikiSlug": "Wars_of_the_Diadochi",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The legitimate heirs — Alexander's infant son Alexander IV and his intellectually disabled half-brother Philip III — were both murdered during the wars, leaving no Argead dynasty to fight over. The decisive turning point was the Battle of Ipsus in 301 BCE, where Antigonus the One-Eyed (the strongest of the successors) was killed, ending any chance one general would reunite the whole empire. The fighting did not fully stop until 272 BCE, when control of Macedon itself was finally settled — a full fifty years after Alexander's death."
+        }
+      ],
+      "commonsFile": "Diadochi_satraps_babylon.png"
     },
     {
       "id": "evt-euclid",
       "label": "Euclid's Elements",
       "year": -300,
-      "description": "Euclid compiled the Elements in Alexandria, systematizing geometry into axioms, postulates, and proofs. It became the most influential mathematics textbook in history, used for over 2,000 years.",
+      "description": "Working in Alexandria around 300 BCE, Euclid compiled the Elements — a systematic treatment of geometry built from axioms and logical proofs that remained the standard geometry textbook for over 2,000 years.",
       "wikiSlug": "Euclid's_Elements",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Elements is, after the Bible, possibly the most published book in Western history. Euclid organized existing Greek mathematical knowledge so rigorously that his framework was not displaced until the 19th century, when mathematicians developed non-Euclidean geometries. A papyrus fragment of the Elements dated to around 100 CE is among the oldest surviving mathematical manuscripts."
+        }
+      ],
+      "commonsFile": "P.Penn._Museum_inv._E02748_Euclid's_Elements_2.5.jpg"
     },
     {
       "id": "evt-library-alexandria",
       "label": "Library of Alexandria",
       "year": -295,
-      "description": "The Library of Alexandria was established under Ptolemy I, aiming to collect all the world's knowledge. At its peak, it held hundreds of thousands of scrolls and attracted the greatest scholars of the ancient world.",
+      "description": "The Library of Alexandria, founded around 295 BCE under Ptolemy I and expanded under his son, aimed to collect every text ever written. It was part of the Mouseion (\"shrine of the Muses\"), effectively the world's first state-funded research university.",
       "wikiSlug": "Library_of_Alexandria",
       "tier": 2,
       "tags": [
         "writing",
         "science"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Estimates of the library's holdings range from 40,000 to 700,000 scrolls — ancient sources go even higher, but the real number is unknowable. The Ptolemaic government reportedly had all ships docking at Alexandria searched for books; any scrolls found were copied and the originals kept, with copies given back to the owners. The English word \"museum\" comes directly from the Mouseion that housed the library."
+        }
+      ],
+      "commonsFile": "Ancientlibraryalex.jpg"
     },
     {
       "id": "evt-colossus-rhodes",
@@ -636,171 +965,276 @@
       "label": "Archimedes of Syracuse",
       "year": -287,
       "endYear": -212,
-      "description": "Archimedes made groundbreaking contributions to mathematics, physics, and engineering, discovering the principle of buoyancy and calculating pi. He is regarded as the greatest scientist of the ancient world.",
+      "description": "Archimedes of Syracuse (roughly 287–212 BCE) was the greatest scientist and mathematician of the ancient world — he calculated pi to unprecedented accuracy, discovered the principle of buoyancy, and invented siege engines that held off a Roman army for two years.",
       "wikiSlug": "Archimedes",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Archimedes anticipated integral calculus by nearly 1,900 years, using what he called the \"method of exhaustion\" to calculate areas and volumes of curved shapes. His war machines — cranes that could lift Roman ships out of the water by their prows and drop them — so unnerved the Roman besiegers of Syracuse that soldiers reportedly fled at the sight of any rope or wooden beam appearing over the city walls. He was killed by a Roman soldier in 212 BCE reportedly while absorbed in a geometric diagram in the sand."
+        }
+      ],
+      "commonsFile": "Domenico-Fetti_Archimedes_1620.jpg"
     },
     {
       "id": "evt-eratosthenes",
       "label": "Eratosthenes measures the Earth",
       "year": -240,
-      "description": "Eratosthenes calculated Earth's circumference with remarkable accuracy using shadow angles at Alexandria and Syene. His measurement was within 2% of the modern value, demonstrating Greek scientific sophistication.",
+      "description": "Around 240 BCE, Eratosthenes — chief librarian at Alexandria — calculated the circumference of the Earth by comparing shadow angles in two Egyptian cities on the same day, arriving within about 2% of the modern value of 24,901 miles (40,075 km).",
       "wikiSlug": "Eratosthenes",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Eratosthenes also coined the words \"geography\" and \"geographer,\" produced the most accurate world map of antiquity, and calculated the tilt of Earth's axis (again remarkably accurately). His Earth-measurement method required only a vertical stick, a protractor, and the known distance between Alexandria and Syene (modern Aswan) — tools any educated person could use. He was a genuine polymath: also a poet, music theorist, and philosopher."
+        }
+      ],
+      "commonsFile": "Eratosthenes_Teaching_in_Alexandria_(Bernardo_Strozzi,_Montreal).jpg"
     },
     {
       "id": "evt-stoicism-founded",
       "label": "Stoicism founded",
       "year": -300,
-      "description": "Zeno of Citium founded Stoic philosophy in Athens, teaching from the Stoa Poikile. Stoicism's emphasis on virtue, reason, and acceptance of fate became one of the most enduring philosophical traditions in history.",
+      "description": "Around 300 BCE, Zeno of Citium founded Stoic philosophy in Athens, teaching from a colonnaded walkway called the Stoa Poikile (\"Painted Porch\"). Stoicism held that virtue alone is truly good and that external circumstances — wealth, health, reputation — are ultimately indifferent to a well-lived life.",
       "wikiSlug": "Stoicism",
       "tier": 2,
       "tags": [
         "philosophy"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The school took its name from the Stoa Poikile, not from its founder, making it one of the only major philosophies named after a building. Stoicism became the dominant philosophy of the Roman world, followed by emperors (Marcus Aurelius), senators (Seneca), and slaves (Epictetus) alike. Its influence flows directly into modern cognitive-behavioral therapy, which shares Stoicism's core premise that it's not events but our judgments about events that disturb us."
+        }
+      ],
+      "commonsFile": "Paolo_Monti_-_Servizio_fotografico_(Napoli,_1969)_-_BEIC_6353768.jpg"
     },
     {
       "id": "evt-epicurus",
       "label": "Epicurus founds his school",
       "year": -306,
-      "description": "Epicurus established his philosophical school, the Garden, in Athens, teaching that pleasure (understood as tranquility) is the highest good. His atomic theory and ethical philosophy influenced Roman and modern thought.",
+      "description": "In 306 BCE, Epicurus established a philosophical community called the Garden in Athens and taught that the highest good is tranquility of mind (ataraxia), achieved through moderate pleasures, freedom from fear, and close friendship.",
       "wikiSlug": "Epicurus",
       "tier": 3,
       "tags": [
         "philosophy"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Garden was notably open to women and enslaved people — unusual for an ancient Greek philosophical school. Epicurus also taught a materialist physics: the universe is made of atoms moving through void, the gods do not intervene in human affairs, and death is simply the dissolution of atoms and therefore nothing to fear. His philosophy has been misread as hedonism for 2,000 years; the actual Epicurean ideal was a quiet, simple life centered on intellectual pleasure and friendship, not indulgence."
+        }
+      ],
+      "commonsFile": "Epikouros_BM_1843.jpg"
     },
     {
       "id": "evt-lighthouse-alexandria",
       "label": "Lighthouse of Alexandria",
       "year": -283,
-      "description": "The Pharos of Alexandria was completed under Ptolemy II, standing over 100 meters tall as one of the Seven Wonders. Its beacon guided ships into the busy harbor for centuries.",
+      "description": "The Pharos of Alexandria, completed around 283 BCE under Ptolemy II, stood over 330 feet (100 meters) tall — one of the Seven Wonders of the Ancient World — and guided ships into Alexandria's harbor for roughly 1,500 years.",
       "wikiSlug": "Lighthouse_of_Alexandria",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pharos gave the word for \"lighthouse\" to French (phare), Italian (faro), and Spanish (faro) — all derived from its name. It was damaged by a series of earthquakes between 956 and 1323 CE and gradually fell into ruin; its stones were eventually used to build a medieval fort that still stands on the same island today. For centuries it was one of the tallest human-built structures on Earth."
+        }
+      ],
+      "commonsFile": "Lighthouse_-_Thiersch.png"
     },
     {
       "id": "evt-pyrrhus-italy",
       "label": "Pyrrhus invades Italy",
       "year": -280,
-      "description": "King Pyrrhus of Epirus invaded Italy to aid Greek colonies against Rome, winning costly battles that gave rise to the term 'Pyrrhic victory.' His campaigns marked the beginning of Rome's expansion into the Greek world.",
+      "description": "In 280 BCE, King Pyrrhus of Epirus (a kingdom in northwestern Greece) invaded southern Italy to defend Greek colonies from Roman expansion. He won several battles but with such devastating losses that his victories gave English the phrase \"Pyrrhic victory\" — a win so costly it's effectively a defeat.",
       "wikiSlug": "Pyrrhic_War",
       "tier": 3,
       "tags": [
         "military"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pyrrhus is said to have remarked after one of his costly victories: \"One more such victory and we are ruined.\" Despite his tactical brilliance, he was unable to convert battlefield wins into lasting strategic gains; Rome simply kept raising new armies. After being driven from both Italy and Sicily, Pyrrhus returned to Greece, where he was killed in 272 BCE during street fighting in Argos — reportedly struck by a roof tile thrown by an old woman."
+        }
+      ],
+      "commonsFile": "Pyros.jpg"
     },
     {
       "id": "evt-achaean-league",
       "label": "Achaean League rises",
       "year": -277,
-      "description": "The Achaean League became the dominant federal state in the Peloponnese, representing one of the ancient world's most sophisticated experiments in representative government and interstate cooperation.",
+      "description": "Re-founded in 280 BCE, the Achaean League was a federation of Greek city-states in the Peloponnese that developed one of antiquity's most sophisticated systems of representative federal government — with a common assembly, elected magistrates, and shared foreign policy.",
       "wikiSlug": "Achaean_League",
       "tier": 3,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The League's constitution was studied and admired by American Founding Fathers, including James Madison, who referenced it in the Federalist Papers as a historical precedent for federal union. At its height under the general Philopoemen in the early 2nd century BCE, the League controlled most of the Peloponnese and forced even Sparta to join. It was dissolved by Rome in 146 BCE, the same year Rome destroyed Corinth."
+        }
+      ],
+      "commonsFile": "Achaean_League_192_BC.png"
     },
     {
       "id": "evt-septuagint",
       "label": "Septuagint translated",
       "year": -250,
-      "description": "Jewish scholars in Alexandria translated the Hebrew Bible into Greek, creating the Septuagint. This translation made Jewish scripture accessible to the Hellenistic world and later became the Old Testament of early Christianity.",
+      "description": "Around 250 BCE, Jewish scholars in Alexandria translated the Hebrew Bible into Greek, producing the Septuagint (named for the legendary seventy-two translators). This made Jewish scripture accessible to the Greek-speaking world and later became the Old Testament of early Christianity.",
       "wikiSlug": "Septuagint",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "According to the Letter of Aristeas, Ptolemy II Philadelphus commissioned the translation for the Library of Alexandria — six scholars from each of the twelve tribes of Israel worked on it. The name \"Septuagint\" (from the Latin for seventy) is abbreviated LXX in scholarly notation. Early Christians used the Septuagint as their primary scripture before the New Testament was written, which is why the Old Testament quotations in the New Testament often differ from the Hebrew original."
+        }
+      ],
+      "commonsFile": "Letter_of_Aristeas_(Vat._gr._747_f._1r).jpg"
     },
     {
       "id": "evt-antikythera",
       "label": "Antikythera Mechanism",
       "year": -200,
-      "description": "The Antikythera mechanism, an ancient analog computer, was built to predict astronomical positions and eclipses. Discovered in a shipwreck in 1901, it demonstrates an astonishing level of Greek technological sophistication.",
+      "description": "The Antikythera mechanism, built around 200 BCE and recovered from a shipwreck in 1901, is a bronze analog computer that predicted astronomical positions, tracked eclipse cycles, and may have calculated Olympic Games dates — the most sophisticated geared device from antiquity.",
       "wikiSlug": "Antikythera_mechanism",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nothing mechanically comparable was built in Europe for over a thousand years after the Antikythera mechanism. The device contains at least 30 bronze gears (some analyses suggest 37) meshing at precisely calculated ratios. It was discovered by sponge divers off the Greek island of Antikythera in 1900–1901, sitting in about 45 meters of water among a Roman-era shipwreck. Modern X-ray tomography has revealed text inscriptions on its internal plates that still haven't been fully decoded."
+        }
+      ],
+      "commonsFile": "Antikythera_Fragment_A_(Front).webp"
     },
     {
       "id": "evt-greek-theater-origins",
       "label": "Greek Tragedy emerges",
       "year": -534,
-      "description": "Thespis is traditionally credited as the first actor to step out of the chorus at the Dionysia festival in Athens, inventing theatrical drama. His innovation launched the tradition of Greek tragedy.",
+      "description": "Around 534 BCE, a performer named Thespis reportedly stepped out of the religious chorus at Athens' Great Dionysia festival and spoke as an individual character — inventing the concept of the actor in one step. Before Thespis, Greek religious performances were purely choral; after him, someone could stand before an audience and pretend to be someone else.",
       "wikiSlug": "Thespis",
       "tier": 2,
       "tags": [
         "culture"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word 'thespian' (meaning actor) directly preserves Thespis's name, making him one of the few ancient individuals whose name survived as a common English word. Ancient sources disagree on the details: some say Thespis was the first to introduce a single principal actor in addition to the chorus; others say he performed entirely solo. He reportedly performed from a cart (a theatrical wagon), which gave him a portable stage — a tradition that may have influenced the later design of Greek theatres."
+        }
+      ],
+      "commonsFile": "Formella_15,_il_carro_di_Tespi_(Theatrica),_nino_pisano,_1334-1336.JPG"
     },
     {
       "id": "evt-aristophanes",
       "label": "Aristophanes' Comedies",
       "year": -425,
-      "description": "Aristophanes wrote satirical comedies like The Clouds, The Birds, and Lysistrata that lampooned Athenian politics, philosophy, and society. He is the greatest writer of Old Comedy and the only one whose complete plays survive.",
+      "description": "Aristophanes (circa 446–386 BCE) was the comic genius of the Peloponnesian War era, writing sharp political satires performed at public festivals before audiences of thousands. His eleven surviving plays mock Socrates, lampoon demagogues like Cleon, and in Lysistrata (411 BCE) have the women of Greece go on a sex strike to end the war.",
       "wikiSlug": "Aristophanes",
       "tier": 3,
       "tags": [
         "culture"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aristophanes wrote around 40 plays but only 11 survive — they're the only complete examples of Old Comedy that exist. His depiction of Socrates in The Clouds as a con artist and sophist (professional arguer-for-hire) may have contributed to the real Socrates' eventual execution; Plato noted that jurors had likely seen the play. Aristophanes was performing during the actual war, which means his audiences included veterans who had just watched the disasters he was mocking."
+        }
+      ],
+      "commonsFile": "Bust_of_Aristophanes.jpg"
     },
     {
       "id": "evt-thucydides",
       "label": "Thucydides writes History",
       "year": -411,
-      "description": "Thucydides composed his History of the Peloponnesian War, applying rigorous analytical methods to historical events. His work is considered the first truly scientific history and a masterpiece of political realism.",
+      "description": "Thucydides (circa 460–400 BCE) wrote the History of the Peloponnesian War — the first work of history to strip out mythology, focus on human causes, and analyze war as a political and strategic problem. He was also a failed Athenian general, which gave him particular insight into military disaster.",
       "wikiSlug": "Thucydides",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Thucydides was exiled from Athens for 20 years after failing to relieve the city of Amphipolis in 424 BCE — the exile is probably what gave him time to write. He never finished the book; it cuts off abruptly in 411 BCE, seven years before the war ended. Military academies and international relations programs still assign it today because his core argument — that fear, honor, and self-interest drive states — has held up for 2,500 years."
+        }
+      ],
+      "commonsFile": "Thucydides_pushkin01.jpg"
     },
     {
       "id": "evt-olympic-zeus",
       "label": "Statue of Zeus at Olympia",
       "year": -435,
-      "description": "Phidias created the colossal seated statue of Zeus at Olympia, one of the Seven Wonders of the Ancient World. The 12-meter gold-and-ivory figure awed visitors for over 800 years.",
+      "description": "Around 435 BCE, Phidias completed a seated Zeus at Olympia roughly 41 feet (12.4 meters) tall — gold and ivory over a wood frame, seated on an elaborate throne — so overwhelming in presence that the ancient writer Strabo said it would have touched the ceiling if it stood up.",
       "wikiSlug": "Statue_of_Zeus_at_Olympia",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Zeus was one of the Seven Wonders of the Ancient World and stood in its temple for over 800 years. The Roman emperor Caligula reportedly tried to have it shipped to Rome, but the attempt was abandoned (legend says the statue 'laughed' at the workers). It likely perished in a fire in the 5th century CE, either at Olympia or in Constantinople where some sources say it was moved."
+        }
+      ],
+      "commonsFile": "Le_Jupiter_Olympien_ou_l'art_de_la_sculpture_antique.jpg"
     },
     {
       "id": "evt-eleusinian-mysteries",
       "label": "Eleusinian Mysteries flourish",
       "year": -600,
-      "description": "The Eleusinian Mysteries, secret religious rites honoring Demeter and Persephone, attracted initiates from across the Greek world. They promised a blessed afterlife and were considered the most important religious ceremonies in Greece.",
+      "description": "Held annually near Athens at the sanctuary of Eleusis, the Eleusinian Mysteries were secret initiation rites dedicated to Demeter (goddess of grain) and her daughter Persephone. They promised initiates a blessed afterlife and were considered the most important religious ceremonies in Greece for over a thousand years.",
       "wikiSlug": "Eleusinian_Mysteries",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mysteries were kept so secret that, despite being practiced for roughly 2,000 years and attracting initiates including Roman emperors, we still do not know exactly what happened in the inner ceremony. What is known: initiates fasted, drank a ritual barley-and-mint drink called the kykeon, and experienced something so transformative that participants described losing their fear of death. The rites likely have roots in Mycenaean religion, making them among the oldest continuously practiced religious traditions in the ancient world."
+        }
+      ],
+      "commonsFile": "Great_Eleusinian_Relief.jpg"
     },
     {
       "id": "evt-delphi-oracle",
       "label": "Oracle at Delphi",
       "year": -750,
-      "description": "The Oracle at Delphi, where the Pythia spoke prophecies of Apollo, became the most prestigious religious site in Greece. City-states and kings consulted it before wars, colonization, and major decisions.",
+      "description": "The Oracle at Delphi, where a priestess called the Pythia delivered prophecies on behalf of the god Apollo, was the most authoritative religious institution in the Greek world. City-states and kings across the Mediterranean consulted it before wars, founding new colonies, and making major political decisions — and Delphi grew fabulously wealthy on the offerings they left behind.",
       "wikiSlug": "Pythia",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pythia sat on a tripod over a fissure in the rock at the Temple of Apollo; modern geological surveys have confirmed that the site sits at the intersection of two fault lines and that hydrocarbon gases, including ethylene, could have seeped from the rock — potentially explaining the trance states ancient sources describe. Delphi's inscribed maxims 'Know thyself' and 'Nothing in excess' were attributed to Apollo and became foundational to Greek ethical philosophy. The sanctuary was considered so sacred that attacking Delphi was treated as a crime against all Greeks — several wars (the 'Sacred Wars') were fought specifically to defend or control it."
+        }
+      ],
+      "commonsFile": "Archaeological_Site_of_Delphi_by_Joy_of_Museums.jpg"
     },
     {
       "id": "evt-heraclitus",
@@ -818,78 +1252,127 @@
       "id": "evt-mausoleum-halicarnassus",
       "label": "Mausoleum at Halicarnassus",
       "year": -350,
-      "description": "The Mausoleum at Halicarnassus was built for Mausolus, satrap of Caria, and became one of the Seven Wonders. Its name gave rise to the modern word 'mausoleum' for monumental tombs.",
+      "description": "The Mausoleum at Halicarnassus, built between 353 and 351 BCE in what is now southwestern Turkey, was the tomb of Mausolus — a local governor (satrap) of the Persian province of Caria — and became one of the Seven Wonders of the Ancient World. Its design was so famous that his name became the universal word for any monumental tomb.",
       "wikiSlug": "Mausoleum_at_Halicarnassus",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mausolus was technically a Persian subject but ran Caria as a virtually independent kingdom, using Greek architects (Satyros of Paros and Pythius of Priene) and sculptors — a perfect illustration of how Greek culture and Persian power had become deeply entangled by the 4th century. The tomb was built partly by his sister-wife Artemisia II, who continued the project after his death and reportedly mixed some of his ashes into a drink she consumed as an act of mourning. Fragments of the Mausoleum's sculpture survive in the British Museum, removed by a 15th-century Crusader knight who used the structure as a stone quarry."
+        }
+      ],
+      "commonsFile": "Mausoleum_at_Halicarnassus_at_the_Bodrum_Museum_of_Underwater_Archaeology.jpg"
     },
     {
       "id": "evt-greece-ptolemy-i",
       "label": "Ptolemy I founds dynasty",
       "year": -305,
-      "description": "Ptolemy I Soter, one of Alexander's generals, declared himself pharaoh of Egypt and founded the Ptolemaic dynasty. He established Alexandria as the intellectual capital of the Hellenistic world.",
+      "description": "Ptolemy I Soter, one of Alexander's most trusted commanders, seized Egypt right after Alexander's death and in 305 BCE declared himself pharaoh, founding a dynasty that would rule for nearly three centuries.",
       "wikiSlug": "Ptolemy_I_Soter",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ptolemy was the only Diadochi general who had also written a history of Alexander's campaigns — his account became a primary source for the later historian Arrian. He secured Egypt so skillfully that no rival general ever succeeded in taking it from him. His dynasty adopted full Egyptian religious practice, including the tradition of royal siblings marrying each other, producing the eventual Ptolemy-and-Cleopatra line that ended only with Rome."
+        }
+      ],
+      "commonsFile": "Ptolemy_I_Soter_Louvre_Ma849_A.jpg"
     },
     {
       "id": "evt-corinth-destroyed",
       "label": "Rome destroys Corinth",
       "year": -146,
-      "description": "Rome destroyed Corinth and dissolved the Achaean League, bringing mainland Greece under Roman control. Greek independence effectively ended, though Greek culture continued to dominate the eastern Mediterranean.",
+      "description": "In 146 BCE, Rome sacked and leveled Corinth — one of Greece's wealthiest cities — after the Achaean League defied Roman authority. The population was enslaved or killed, the city was razed, and its art treasures were shipped to Rome, ending Greek political independence.",
       "wikiSlug": "Battle_of_Corinth_(146_BC)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Roman general Lucius Mummius reportedly had no idea what Greek art was worth: ancient sources claim he told the ship captains transporting statues and paintings that if they damaged anything, they'd have to replace it with new ones. In the same year Rome destroyed Carthage, the Phoenician city that had been its greatest rival — two of the Mediterranean's oldest civilizations erased in a single year. Corinth was later refounded as a Roman colony by Julius Caesar in 44 BCE, the same year of his assassination."
+        }
+      ],
+      "commonsFile": "Tony_robert-fleury,_l'ultimo_giorno_di_corinto,_ante_1870.JPG"
     },
     {
       "id": "evt-greece-cleopatra",
       "label": "Cleopatra VII",
       "year": -69,
       "endYear": -30,
-      "description": "Cleopatra VII, the last active ruler of the Ptolemaic Kingdom, allied with Julius Caesar and Mark Antony to preserve Egyptian independence. Her death marked the end of the Hellenistic era and Egyptian sovereignty.",
+      "description": "Cleopatra VII (69–30 BCE), the last active Ptolemaic pharaoh, allied first with Julius Caesar and then with Mark Antony in a bid to keep Egypt independent from Rome. Her death by suicide in 30 BCE ended a dynasty that had ruled Egypt for nearly three centuries.",
       "wikiSlug": "Cleopatra",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cleopatra was the only Ptolemaic ruler in nearly 300 years of the dynasty to actually learn the Egyptian language — her predecessors had ruled Egypt while speaking only Greek. She also reportedly spoke eight or nine languages total. After Octavian's victory at Actium and Antony's suicide, Cleopatra was reportedly kept alive as a prize for Octavian's planned triumph in Rome; she killed herself (by asp bite, according to tradition, though the method is debated) to avoid that humiliation."
+        }
+      ],
+      "commonsFile": "Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
     },
     {
       "id": "evt-battle-actium",
       "label": "Battle of Actium",
       "year": -31,
-      "description": "Octavian's fleet defeated Antony and Cleopatra at Actium, ending the last major Hellenistic kingdom. Egypt became a Roman province, closing the Hellenistic age that Alexander had opened three centuries earlier.",
+      "description": "On September 2, 31 BCE, Octavian's fleet (commanded in practice by Marcus Agrippa) defeated the combined fleets of Mark Antony and Cleopatra off the coast of northwestern Greece, ending the last independent Hellenistic kingdom.",
       "wikiSlug": "Battle_of_Actium",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle was decided less by naval combat than by Cleopatra's unexpected withdrawal with her 60 ships mid-battle — Antony followed her, abandoning his own fleet and army, which then surrendered. Octavian's victory made him the undisputed master of the Roman world; he would soon become Augustus, the first emperor. Egypt's annexation gave Rome control of the ancient world's most productive grain supply, funding the entire imperial project."
+        }
+      ],
+      "commonsFile": "Medinaceli_Actium_reliefs_06.jpg"
     },
     {
       "id": "evt-silver-mines-laurium",
       "label": "Silver Mines of Laurium",
       "year": -483,
-      "description": "Athens discovered a rich silver vein at Laurium. Themistocles convinced the assembly to use the wealth to build 200 triremes, creating the navy that would win the Battle of Salamis.",
+      "description": "In 483 BCE, Athens struck a rich new silver vein at the Laurium mines in southern Attica — and instead of dividing the windfall among citizens, Themistocles convinced the assembly to invest every drachma in building 200 warships.",
       "wikiSlug": "Laurium",
       "tier": 3,
       "tags": [
         "economy"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Laurium's mines had long been one of Athens' main revenue sources, worked by enslaved labor in notoriously brutal conditions. The new vein discovered around 483 BCE was unusually rich; the default plan was to distribute the profits as a dividend to every citizen. Themistocles argued that Aegina (a rival Greek island city) was the real threat — using Persia as the pretext was probably too alarming — and the assembly voted for the fleet. Those 200 triremes became the decisive weapon at Salamis just three years later."
+        }
+      ],
+      "commonsFile": "Carte_du_Laurion_antique.jpg"
     },
     {
       "id": "evt-agora-athens",
       "label": "Athenian Agora flourishes",
       "year": -500,
-      "description": "The Agora of Athens became the commercial, political, and social heart of the city, housing markets, law courts, and philosophical schools. It was the birthplace of democratic debate and civic life.",
+      "description": "The Agora of Athens — a large open square northwest of the Acropolis — served as the city's commercial market, political assembly ground, and philosophical gathering place from the 6th century BCE onward, functioning as the physical heart of Athenian democratic life.",
       "wikiSlug": "Ancient_Agora_of_Athens",
       "tier": 3,
       "tags": [
         "architecture"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Stoa Poikile (\"Painted Porch\"), where Zeno founded Stoicism, stood on the northern edge of the Agora. The Agora also housed the Tholos, where the rotating committee of 50 citizens who governed Athens day-to-day actually lived and ate at public expense around the clock, always ready for emergencies. Excavations by the American School of Classical Studies, ongoing since 1931, have uncovered over 400,000 objects there."
+        }
+      ],
+      "commonsFile": "Agora_-_Athènes_(GRA1)_-_2022-03-26_-_97.jpg"
     },
     {
       "id": "evt-silk-road-hellenistic",
@@ -905,72 +1388,113 @@
       "id": "evt-rhodian-sea-law",
       "label": "Rhodian Sea Law",
       "year": -300,
-      "description": "Rhodes established maritime law codes governing trade, piracy, and shipping that became the standard across the Mediterranean. These laws influenced Roman maritime law and, through it, modern admiralty law.",
+      "description": "The island state of Rhodes developed maritime law codes governing trade, shipping liability, and piracy that became the standard across the Hellenistic Mediterranean. These principles were absorbed into Roman law and form the root of modern admiralty law.",
       "wikiSlug": "Rhodian_Sea_Law",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The core Rhodian principle of \"general average\" — if cargo is thrown overboard to save a ship, all cargo owners share the loss proportionally — is still a foundational rule in maritime insurance today. Rhodes was the dominant naval power in the eastern Mediterranean through much of the 3rd and 2nd centuries BCE, maintaining the sea lanes against piracy as a deliberate commercial policy. Roman jurists explicitly cited the Rhodian Sea Law in the Corpus Juris Civilis, the 6th-century CE legal code that underlies most modern European law."
+        }
+      ]
     },
     {
       "id": "evt-herophilus",
       "label": "Herophilus pioneers anatomy",
       "year": -274,
-      "description": "Herophilus of Chalcedon performed systematic human dissections in Alexandria, distinguishing arteries from veins and mapping the nervous system. He is considered the father of anatomy.",
+      "description": "Herophilus of Chalcedon, working in Alexandria around 280 BCE, was the first scientist to systematically dissect human cadavers, distinguishing arteries from veins and mapping the nervous system. He is considered the father of anatomy.",
       "wikiSlug": "Herophilus",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herophilus identified the brain (not the heart) as the seat of intelligence — a radical departure from prevailing Greek thought. He distinguished sensory nerves from motor nerves and gave the duodenum (the first section of the small intestine) its name, from the Greek for \"twelve fingers\" — its approximate length. His written works, reportedly nine or more books, are entirely lost; everything known about him comes from later summaries."
+        }
+      ],
+      "commonsFile": "Zaragoza_-_Antigua_Facultad_de_Medicina_-_Medallón_-_Herófilo.jpg"
     },
     {
       "id": "evt-aristarchus",
       "label": "Aristarchus proposes heliocentrism",
       "year": -270,
-      "description": "Aristarchus of Samos proposed that the Earth revolves around the Sun, anticipating Copernicus by 1,800 years. Though not widely accepted in antiquity, his heliocentric model was a remarkable intellectual achievement.",
+      "description": "Around 270 BCE, Aristarchus of Samos proposed that the Earth orbits the Sun — the first known heliocentric model in history, anticipating Copernicus by roughly 1,800 years.",
       "wikiSlug": "Aristarchus_of_Samos",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aristarchus also argued that the Earth rotates on its axis once a day and that the stars appear fixed only because they are enormously far away. His heliocentric idea was rejected by most ancient philosophers partly on the grounds of impiety and partly because the stellar parallax (apparent star-position shifts) his model predicted could not be detected with naked-eye instruments — a valid observational objection, even though his underlying conclusion was correct."
+        }
+      ],
+      "commonsFile": "Aristarchus_working.jpg"
     },
     {
       "id": "evt-themistocles",
       "label": "Themistocles",
       "year": -524,
       "endYear": -459,
-      "description": "Themistocles convinced Athens to build a massive fleet of triremes, which proved decisive at the Battle of Salamis against the Persian navy. His strategic vision transformed Athens into a naval superpower.",
+      "description": "Themistocles was the Athenian strategist who built the fleet that saved Greece — a populist outsider who saw the Persian threat more clearly than anyone and persuaded Athens to spend its silver windfall on warships instead of cash payouts.",
       "wikiSlug": "Themistocles",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was one of the first prominent Athenian politicians who was not from the old aristocracy, building his career on the support of lower-class citizens. He was elected archon (chief magistrate) as early as 493 BCE and immediately began pushing for naval expansion. At Salamis he tricked Xerxes into committing the Persian fleet to the narrow strait by sending a secret message to the Persian king claiming the Greeks were about to flee — an audacious piece of battlefield deception that set up the entire engagement."
+        }
+      ],
+      "commonsFile": "AGMA_Ostrakon_Thémistocle_1.jpg"
     },
     {
       "id": "evt-leonidas",
       "label": "Leonidas I of Sparta",
       "year": -540,
       "endYear": -480,
-      "description": "King Leonidas led 300 Spartans and allied Greeks in their legendary stand at Thermopylae against Xerxes' Persian army. His sacrifice became the defining symbol of Spartan courage and Greek resistance.",
+      "description": "Leonidas I was the Spartan king who led the doomed defense at Thermopylae in 480 BCE, becoming the defining symbol of Spartan discipline and sacrifice in the face of impossible odds.",
       "wikiSlug": "Leonidas_I",
       "tier": 2,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Leonidas only became king around 489 BCE after his half-brother Cleomenes I died — he was not the crown prince but came to the throne late in life. He claimed descent from Heracles (Hercules), which every Agiad dynasty king did, tracing the bloodline back more than a dozen generations. He ruled jointly with a co-king, Leotychidas II, as Sparta always had two kings simultaneously from two separate royal families as a check on each other's power."
+        }
+      ],
+      "commonsFile": "Helmed_Hoplite_Sparta.JPG"
     },
     {
       "id": "evt-democritus",
       "label": "Democritus",
       "year": -460,
       "endYear": -370,
-      "description": "Democritus proposed that all matter is composed of indivisible atoms moving through void, laying the foundation for atomic theory two millennia before modern physics confirmed it. He also contributed to mathematics, ethics, and epistemology.",
+      "description": "Democritus (roughly 460–370 BCE) proposed that all matter consists of tiny indivisible particles — atoms (from the Greek atomos, \"uncuttable\") — moving through empty space. His atomic theory anticipated modern physics by over two millennia.",
       "wikiSlug": "Democritus",
       "tier": 2,
       "tags": [
         "people",
         "philosophy"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Democritus reportedly wrote more than 70 works on philosophy, mathematics, music, and natural science — all of them lost. He is said to have blinded himself deliberately to avoid being distracted by visual sensations while thinking, though this story is almost certainly apocryphal. His atomic theory was later picked up by Epicurus and then by the Roman poet Lucretius in De Rerum Natura, which is the primary channel through which atomism survived into the Renaissance."
+        }
+      ],
+      "commonsFile": "Charles-Antoine_Coypel_-_The_Cheerful_Democritus.jpg"
     },
     {
       "id": "evt-parmenides",
@@ -990,74 +1514,116 @@
       "label": "Anaxagoras",
       "year": -500,
       "endYear": -428,
-      "description": "Anaxagoras brought philosophy to Athens and was Pericles' teacher. He proposed that the sun was a mass of burning metal larger than the Peloponnese, and that a cosmic Mind (Nous) ordered the universe from primordial chaos.",
+      "description": "Anaxagoras (roughly 500–428 BCE) was the philosopher who brought Ionian rational inquiry to Athens, became Pericles' personal teacher, and got prosecuted for declaring the sun was not a god but a mass of burning rock larger than the entire Peloponnese.",
       "wikiSlug": "Anaxagoras",
       "tier": 3,
       "tags": [
         "people",
         "philosophy"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His central philosophical concept was Nous (NOO-s, 'Mind') — a cosmic intelligence that initiated the rotation of the universe from a primal mixture of matter, then stood apart from it. This was an unusual move: a divine mind that set everything in motion but did not intervene afterward. He was charged with impiety and went into exile at Lampsacus rather than face execution, setting an early template for the philosopher-prosecuted-for-questioning-the-gods pattern that would end with Socrates."
+        }
+      ],
+      "commonsFile": "Anaxagoras_Lebiedzki_Rahl.jpg"
     },
     {
       "id": "evt-xenophanes",
       "label": "Xenophanes",
       "year": -570,
       "endYear": -475,
-      "description": "Xenophanes challenged Greek polytheism, arguing that mortals create gods in their own image and that there is one greatest god unlike humans in form or thought. He also recognized fossils as evidence that land was once under sea.",
+      "description": "Xenophanes of Colophon (around 570–475 BCE) was a traveling philosopher who challenged Greek religion head-on: he observed that Thracians depicted their gods as blonde and blue-eyed while Ethiopians depicted theirs as dark-skinned, and concluded that humans simply invent gods in their own image. He also noticed marine fossils embedded in inland rock and correctly deduced that the land had once been under the sea.",
       "wikiSlug": "Xenophanes",
       "tier": 3,
       "tags": [
         "religion",
         "philosophy"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Xenophanes proposed instead a single, non-human deity — greatest among gods and mortals, 'not similar to mortals in body or in thought' — making him one of the earliest known monotheistic thinkers in the Western tradition, though his 'god' was more of an abstract principle than a personal deity. His fossil observations were genuinely ahead of their time: he reportedly found fish impressions in quarries at Syracuse and Paros, and imprints of marine creatures in Maltese rock, and drew the correct geological conclusion roughly 2,400 years before modern geology caught up."
+        }
+      ],
+      "commonsFile": "Xenophanes_in_Thomas_Stanley_History_of_Philosophy.jpg"
     },
     {
       "id": "evt-phidias",
       "label": "Phidias",
       "year": -478.5,
       "endYear": -430,
-      "description": "The greatest sculptor of Classical Greece, overseeing the sculptural program of the Parthenon and creating the colossal Statue of Zeus at Olympia, one of the Seven Wonders.",
+      "description": "Phidias was the supreme sculptor of Classical Greece, overseeing the entire sculptural program of the Parthenon and personally crafting the colossal gold-and-ivory cult statues of both Athena in Athens and Zeus at Olympia.",
       "wikiSlug": "Phidias",
       "tier": 3,
       "tags": [
         "architecture"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was also sculptor, painter, and architect — the Renaissance-man concept applied to 5th-century Athens. His two great chryselephantine statues (gold sheets and carved ivory mounted over a wooden frame) were ancient superlatives: the Athena Parthenos stood over 38 feet tall inside the Parthenon, the Zeus at Olympia roughly 40 feet seated. Both were destroyed in antiquity and survive only in descriptions and small Roman copies. Phidias was reportedly prosecuted near the end of his life, accused of embezzling gold from the Athena statue."
+        }
+      ],
+      "commonsFile": "1868_Lawrence_Alma-Tadema_-_Phidias_Showing_the_Frieze_of_the_Parthenon_to_his_Friends.jpg"
     },
     {
       "id": "evt-delian-league",
       "label": "Delian League Founded",
       "year": -478,
-      "description": "Athens formed the Delian League, an alliance of Greek city-states to continue the fight against Persia. Athens gradually transformed it into an empire, collecting tribute and suppressing revolts.",
+      "description": "After the Persian Wars, Athens organized 150–330 Greek city-states into the Delian League (478 BCE) — originally a mutual-defense alliance against Persia, headquartered on the sacred island of Delos. Athens then spent the next few decades quietly converting it into an empire it controlled.",
       "wikiSlug": "Delian_League",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The league's treasury started on Delos but Athens moved it to the Acropolis in 454 BCE, citing security concerns — which conveniently put the money under Athenian control. Member states that tried to leave were reconquered by force; Athens called them 'allies' while treating them as subjects. The tribute-funded Parthenon was literally built with money allies had contributed for a war that was largely over by then."
+        }
+      ],
+      "commonsFile": "History_of_Greece_for_High_Schools_and_Academies_(1899)_(14576880059).jpg"
     },
     {
       "id": "evt-sicilian-expedition",
       "label": "Sicilian Expedition",
       "year": -415,
       "endYear": -413,
-      "description": "Athens launched a massive naval expedition against Syracuse in Sicily that ended in catastrophic defeat. The destruction of the Athenian fleet and army was a turning point in the Peloponnesian War.",
+      "description": "In 415 BCE Athens sent 134 warships and around 27,000 men to conquer Syracuse in Sicily — the biggest Greek city in the western Mediterranean. Two years later the entire force was destroyed, and most survivors died in Syracusan stone quarries.",
       "wikiSlug": "Sicilian_Expedition",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The expedition's architect, Alcibiades, was recalled mid-voyage on suspicion of sacrilege and defected to Sparta rather than face trial — then advised the Spartans on how to defeat his own city. The Athenians' fatal mistake was not the attack itself but the slow, hesitant siege: the cautious general Nicias refused to withdraw even when it was clear the situation was lost, and the delay turned defeat into annihilation. Athens lost roughly 200 triremes (warships) in total — a staggering portion of its fleet."
+        }
+      ],
+      "commonsFile": "Destruction_of_the_Athenian_army_at_Syracuse.jpg"
     },
     {
       "id": "evt-theater-epidaurus",
       "label": "Theater of Epidaurus",
       "year": -340,
-      "description": "The Theater of Epidaurus, seating 14,000, is the best-preserved ancient Greek theater and renowned for its extraordinary acoustics. A whisper from the stage can be heard in the highest seats.",
+      "description": "The Theater of Epidaurus, built around 340 BCE in the northeastern Peloponnese, is the best-preserved ancient Greek theater in existence and a UNESCO World Heritage Site famous for acoustic engineering so precise that a coin dropped on the central stage is audible in the highest of its 14,000 seats.",
       "wikiSlug": "Theatre_of_Epidaurus",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The theater was designed by Polykleitos the Younger and sat within the sanctuary of Asclepius, the god of medicine — Greeks came here to be healed and then watched plays as part of the treatment, which tells you something about how they understood the relationship between art and health. Modern acoustic researchers discovered that the theater's limestone seating acts as a natural filter, absorbing low-frequency crowd noise while amplifying higher-frequency voices from the stage. It still hosts performances today during the annual Epidaurus Festival."
+        }
+      ],
+      "commonsFile": "The_great_theater_of_Epidaurus,_designed_by_Polykleitos_the_Younger_in_the_4th_century_BC,_Sanctuary_of_Asklepeios_at_Epidaurus,_Greece_(14015010416).jpg"
     },
     {
       "id": "evt-laurion-silver",
@@ -1075,71 +1641,112 @@
       "id": "evt-xenophon-anabasis",
       "label": "Xenophon's Anabasis",
       "year": -370,
-      "description": "Xenophon chronicled the march of 10,000 Greek mercenaries through hostile Persian territory, one of the great adventure narratives of antiquity and a key military history text.",
+      "description": "Around 370 BCE, Xenophon published his Anabasis (\"The March Up-Country\"), an account of his own experience leading 10,000 Greek mercenaries on a 1,500-mile (2,400 km) fighting retreat through Persian-controlled territory after their employer — a Persian prince — was killed in battle. It is one of antiquity's great survival narratives and also a military intelligence report on Persian vulnerability.",
       "wikiSlug": "Anabasis_(Xenophon)",
       "tier": 3,
       "tags": [
         "wars"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The expedition it describes happened in 401 BCE, meaning Xenophon was writing thirty years after the events — likely from notes and memory. The soldiers' famous shout 'Thalatta! Thalatta!' ('The sea! The sea!') when they finally glimpsed the Black Sea coast became one of antiquity's most celebrated moments of collective relief. Philip of Macedon and later Alexander almost certainly read the Anabasis: it demonstrated that a small disciplined Greek force could march deep into the Persian heartland and come back alive, making Persian conquest seem possible rather than suicidal."
+        }
+      ],
+      "commonsFile": "Adrien_Guignet_-_Retreat_of_the_ten_thousand.jpg"
     },
     {
       "id": "evt-persian-wars",
       "label": "Greco-Persian Wars",
       "year": -499,
       "endYear": -449,
-      "description": "The Greco-Persian Wars pitted the Greek city-states against the Achaemenid Empire in a series of invasions. Greek victories at Marathon, Salamis, and Plataea preserved Greek independence and shaped Western civilization.",
+      "description": "The Greco-Persian Wars (499–449 BCE) were fifty years of intermittent conflict between the Greek city-states and the Achaemenid Persian Empire, starting with the failed Ionian Revolt and ending after Greek victories at Marathon, Thermopylae, Salamis, and Plataea.",
       "wikiSlug": "Greco-Persian_Wars",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The wars began when Persian king Cyrus the Great absorbed the Greek-inhabited region of Ionia (the Aegean coast of modern Turkey) in 547 BCE and installed puppet tyrants over the Greek cities there — the resulting resentment eventually exploded into the Ionian Revolt of 499 BCE, which Athens and Eretria supported with ships. Persia's two full invasions of Greece (490 and 480 BCE) failed, but the conflict permanently forged a shared Greek identity around the idea of \"Greek freedom\" versus \"Persian despotism,\" an identity Alexander explicitly invoked when he launched his own invasion 150 years later."
+        }
+      ],
+      "commonsFile": "Greek-Persian_duel_1.jpg"
     },
     {
       "id": "evt-xerxes-invasion",
       "label": "Xerxes Invades Greece",
       "year": -475.5,
-      "description": "Xerxes I assembled the largest army the ancient world had seen to conquer Greece, crossing the Hellespont on a bridge of boats. His campaign culminated in defeats at Thermopylae, Salamis, and Plataea.",
+      "description": "In 480 BCE, Xerxes I marched the largest army the ancient world had ever seen across a bridge of boats over the Hellespont strait, intent on finishing what his father Darius had started: the conquest of Greece.",
       "wikiSlug": "Second_Persian_invasion_of_Greece",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus claimed 1.7 million soldiers — a number modern historians consider wildly inflated; realistic estimates range from 70,000 to 300,000 troops, plus 600 to 1,200 warships. Xerxes spent several years of preparation after Darius died in 486 BCE, including engineering a pontoon bridge of boats across the Hellespont that was reportedly destroyed by a storm and had to be rebuilt. Only about a tenth of all Greek city-states joined the resistance; the majority either stayed neutral or submitted to Persia outright."
+        }
+      ],
+      "commonsFile": "Second_Persian_Invasion.jpg"
     },
     {
       "id": "evt-delian-league-treasury",
       "label": "Delian Treasury Moved to Athens",
       "year": -454,
-      "description": "Athens transferred the Delian League treasury from Delos to Athens, effectively converting the anti-Persian alliance into an Athenian empire. The tribute funded the Parthenon and other building projects.",
+      "description": "In 454 BCE, Athens moved the Delian League's treasury from the sacred island of Delos to Athens itself, turning an anti-Persian alliance into an Athenian cash register. The official reason was 'safekeeping'; the real reason was control.",
       "wikiSlug": "Delian_League",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The move followed a costly Athenian military disaster in Egypt, which gave Pericles a plausible security rationale. Once in Athens, the tribute was carved in stone on the Athenian Acropolis — surviving inscription fragments show the annual 'first-fruits' paid to Athena, a one-sixtieth tax on collected tribute that effectively made the goddess a partner in the empire. The treasury's arrival in Athens is the moment historians mark as the League's transformation into a full empire."
+        }
+      ],
+      "commonsFile": "Athenian_Empire_in_445_BC_according_to_the_Tribute_Lists.jpg"
     },
     {
       "id": "evt-corinthian-war",
       "label": "Corinthian War",
       "year": -395,
       "endYear": -387,
-      "description": "Athens, Thebes, Corinth, and Argos allied against Spartan hegemony with Persian financial backing. The resulting King Peace reasserted Persian influence over Greek affairs in Asia Minor.",
+      "description": "Former Spartan allies — Athens, Thebes, Corinth, and Argos — turned on Sparta within a decade of its victory in the Peloponnesian War, fed up with Spartan arrogance and heavy-handed rule. The war ended with the King's Peace of 387 BCE, a humiliating settlement dictated by Persia that handed Greek cities in Asia Minor back to Persian control.",
       "wikiSlug": "Corinthian_War",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Persia switched sides mid-war: it initially bankrolled the anti-Spartan coalition, then pivoted to backing Sparta once Athens started rebuilding a fleet that threatened Persian Aegean interests. The war erupted while the Spartan king Agesilaus II was away campaigning in Asia against Persia — his own allies exploited his absence to open a second front at home. The King's Peace was also called the Peace of Antalcidas after the Spartan diplomat who negotiated it, giving a Spartan's name to a treaty that handed Greek autonomy to Persia."
+        }
+      ],
+      "commonsFile": "Grave_relief_of_Dexileos,_son_of_Lysanias,_of_Thorikos_(Ca._390_BC)_(4454389225).jpg"
     },
     {
       "id": "evt-olympic-truce",
       "label": "Olympic Truce Tradition",
       "year": -776,
-      "description": "The ekecheiria (sacred truce) was declared before each Olympic Games, halting warfare across Greece to allow safe travel to Olympia. This pan-Hellenic tradition reinforced shared Greek identity across rival city-states.",
+      "description": "Before each Olympic Games, heralds fanned out across the Greek world to announce the ekecheiria (sacred truce), suspending all warfare so athletes and spectators could travel safely to and from Olympia. It was the one institution that could, in theory, pause Greek city-states from killing each other.",
       "wikiSlug": "Olympic_truce",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The truce protected the host region of Elis and the roads to Olympia, not all of Greece — active wars elsewhere were technically allowed to continue, though participants were expected to let travelers pass unmolested. Violations of the truce were taken seriously: Sparta was famously fined and barred from competing at one Olympiad for attacking a fort during the sacred period. The modern Olympic truce, revived by the UN in 1993, is a direct callback to this ancient institution."
+        }
+      ]
     },
     {
       "id": "evt-minoan-crete",
@@ -1159,13 +1766,20 @@
       "label": "Mycenaean Civilization",
       "year": -1600,
       "endYear": -1100,
-      "description": "The Mycenaeans built fortified citadels at Mycenae, Tiryns, and Pylos and dominated the Aegean. They are the likely historical basis for Homer Trojan War and their Linear B script is the earliest Greek writing.",
+      "description": "The Bronze Age palace civilization of mainland Greece (roughly 1750–1050 BCE), centered on fortified citadels at Mycenae, Tiryns, and Pylos. They ran palace economies, traded across the eastern Mediterranean, and left behind the earliest known Greek writing (Linear B clay tablets).",
       "wikiSlug": "Mycenaean_Greece",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mycenaean palace bureaucrats tracked inventories of sheep, weapons, and oil on clay tablets in Linear B — a syllabic script that would vanish entirely with the palace collapse around 1200 BCE, leaving Greece illiterate for three centuries. At their peak, Mycenaean settlements extended as far as Cyprus, the Levant, and southern Italy. The famous gold 'Mask of Agamemnon' found at Mycenae by Heinrich Schliemann in 1876 actually predates any historical Agamemnon by three centuries."
+        }
+      ],
+      "commonsFile": "Akhilleus_Patroklos_Antikensammlung_Berlin_F2278.jpg"
     },
     {
       "id": "evt-trojan-war",
@@ -1181,26 +1795,40 @@
       "id": "evt-athenian-long-walls",
       "label": "Long Walls of Athens",
       "year": -461,
-      "description": "Athens built the Long Walls connecting the city to its port at Piraeus, making it invulnerable to siege by land. The walls symbolized Athenian naval power and were demolished after defeat in the Peloponnesian War.",
+      "description": "The Long Walls were two parallel fortification corridors connecting Athens to its port at Piraeus (about 4 miles / 6.5 km apart), turning the city into an island on land — attackers could burn every farm in Attica and Athens would still receive grain ships and stay fed.",
       "wikiSlug": "Long_Walls",
       "tier": 3,
       "tags": [
         "wars"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The walls were first built in the 460s BCE and were one of the main reasons Sparta's strategy of annual land invasions could never force Athens to surrender on its own terms. The Corinthians and Thebans reportedly wanted Athens razed entirely in 404 BCE; Sparta blocked that but insisted the walls be demolished. When Athens recovered, it rebuilt them in the 390s BCE — Sparta accepted this because they needed Athenian help against Thebes."
+        }
+      ],
+      "commonsFile": "The_Piraeus_and_the_Long_Walls_of_Athens.jpg"
     },
     {
       "id": "evt-empedocles",
       "label": "Empedocles",
       "year": -490,
       "endYear": -430,
-      "description": "Empedocles proposed that all matter consists of four elements: earth, water, air, and fire, combined and separated by Love and Strife. His four-element theory dominated Western natural philosophy until the Scientific Revolution.",
+      "description": "Empedocles (roughly 490–430 BCE) proposed that everything in the universe is made of four elements — earth, water, air, and fire — pushed together and pulled apart by forces he called Love and Strife. His model dominated Western natural philosophy for nearly 2,000 years.",
       "wikiSlug": "Empedocles",
       "tier": 3,
       "tags": [
         "philosophy"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Empedocles was from Akragas in Sicily, not mainland Greece, and was a figure of almost legendary strangeness in antiquity: he reportedly wore a golden crown and bronze sandals, and the story (almost certainly apocryphal) goes that he threw himself into Mount Etna to prove he was a god. More verifiably, he proposed an early version of evolutionary thinking — creatures with poorly combined parts perished, while better-combined ones survived, a rough foreshadowing of natural selection. His four-element theory was the framework Hippocrates used for humoral medicine."
+        }
+      ],
+      "commonsFile": "Empedokles.jpeg"
     }
   ],
   "wikiSlug": "Ancient_Greece"
