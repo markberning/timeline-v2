@@ -335,7 +335,7 @@ export default function WarHome() {
         <button className="p-iconbtn" onClick={() => setMenu(true)} aria-label="Menu">{I.menu}</button>
       </header>
 
-      <WarBreadcrumb crumbs={warCrumbs(CIVIL_WAR)} bare />
+      <WarBreadcrumb crumbs={warCrumbs(CIVIL_WAR, thFilter !== 'All' ? { lane: thFilter } : undefined)} bare />
 
       {/* editorial masthead */}
       <div className="p-mast">

@@ -93,7 +93,17 @@ export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; b
     if (ln && ln.kind === 'theatre') return `${cfg.routeBase}?theatre=${id}`
     return cfg.battles.filter(b => b.theatre === id && b.href).sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))[0]?.href
   }
-  const laneOptions: CrumbOption[] = cfg.lanes.map(l => { const h = firstHref(l.id); return { label: l.label, href: h, disabled: !h, color: l.color?.dot, tint: l.kind === 'theatre' } })
+  // The lane dropdown groups the battle-grouping lanes (geographic theatres for the
+  // CW, chronological phases for F&I) first, then sets the story spine + off-the-
+  // battlefield below a divider so they don't read as extra "theatres".
+  const laneOpt = (l: WarConfig['lanes'][number]): CrumbOption => { const h = firstHref(l.id); return { label: l.label, href: h, disabled: !h, color: l.color?.dot, tint: l.kind === 'theatre' } }
+  const battleLanes = cfg.lanes.filter(l => l.kind === 'theatre' || l.kind === 'phase')
+  const beyondLanes = cfg.lanes.filter(l => l.kind === 'story' || l.kind === 'offfield')
+  const laneOptions: CrumbOption[] = [
+    ...battleLanes.map(laneOpt),
+    ...(beyondLanes.length ? [{ label: 'Beyond the battles', heading: true } as CrumbOption] : []),
+    ...beyondLanes.map(laneOpt),
+  ]
   const activeLane = laneOf(lane)
 
   // Filtered to the active lane when one is chosen; the off-field lane (or no lane)

@@ -23,7 +23,7 @@ export const CIVIL_WAR: WarConfig = {
   frontDoorId: 'cw',
   crumbShort: 'ACW',
   crumbFull: 'American Civil War',
-  laneNoun: 'Theatre',
+  laneNoun: 'Jump to',
   accent: WAR_ACCENT,
   geoScopeToggle: true,
   sides: [

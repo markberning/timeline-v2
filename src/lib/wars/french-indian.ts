@@ -28,7 +28,7 @@ export const FRENCH_INDIAN: WarConfig = {
   frontDoorId: 'fi',
   crumbShort: 'F&I',
   crumbFull: 'The French and Indian War',
-  laneNoun: 'Phase',
+  laneNoun: 'Jump to',
   accent: WAR_ACCENT,
   geoScopeToggle: false,
   sides: [
@@ -43,7 +43,7 @@ export const FRENCH_INDIAN: WarConfig = {
     { id: 'peace-fuse', kind: 'phase', label: 'The Peace and Its Fuse', short: 'The Peace', href: '/war-french-indian/peace-fuse', ready: true, color: { light: '#8a5b86', dark: '#c79cd0', dot: '#8a5b86' }, skinVar: '--fi-peace', mapHex: '#c79cd0' },
     // Story spine: F&I's phases ARE the chapters, so "Story" lands on the home's
     // Story tab (the phase list) rather than a separate how-the-war page like the CW.
-    { id: 'fi-story', kind: 'story', label: 'The War Story', short: 'Story', href: '/war-french-indian', ready: true, color: { light: WAR_ACCENT, dark: WAR_ACCENT, dot: WAR_ACCENT } },
+    { id: 'fi-story', kind: 'story', label: 'The War Story', short: 'Story', href: '/war-french-indian/story', ready: true, color: { light: WAR_ACCENT, dark: WAR_ACCENT, dot: WAR_ACCENT } },
     { id: 'offfield', kind: 'offfield', label: 'Off the Battlefield', short: 'Off-Field', href: '/war-french-indian/off-the-battlefield', ready: true, color: { light: '#c2611f', dark: '#e07f3c', dot: '#d96a26' }, mapHex: '#d96a26' },
   ],
   // Grouped by phase (theatre = phase id). hook/href/img set at build time.
