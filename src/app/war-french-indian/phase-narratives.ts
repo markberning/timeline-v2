@@ -200,6 +200,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "Braddock's own column left Fort Cumberland, Maryland, on May 29, 1755, headed roughly 110 miles west through the Allegheny Mountains. It moved at a crawl, sometimes only 2 miles a day, because Braddock insisted on building a road as he went. The road outlasted everything else about the campaign: cut through the mountains by his soldiers, \"Braddock's Road\" became a lasting artery of American westward expansion. To speed the final approach he split his force of about 2,100 men, taking a fast \"flying column\" of roughly 1,300 ahead under his own command and leaving a slower supply column of about 800 under Colonel Thomas Dunbar behind. Among the volunteers riding with him was George Washington, serving as an unpaid aide-de-camp, sick with dysentery for much of the march and carried for a stretch in a wagon."
       },
       {
+        "fig": "/war-img/fi-braddock-monongahela-map.jpg",
+        "cap": "Braddock's 1755 march: from Fort Cumberland on the Potomac, northwest over the Allegheny Mountains along the road his men cut, past Great Meadows, to the Monongahela. He crossed the river ten miles below Fort Duquesne and was ambushed and routed there on 9 July.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "Before he ever reached the French, Braddock made a decision that cost him an army. A group of Ohio Lenape (also called Delaware) chiefs came to him, led by Shingas (Lenape), and asked the question that mattered most to them: if the British drove the French out, would Native peoples be allowed to keep living and hunting on their own land. Shingas asked whether Native friends of the English might be \"Permitted to Live and Trade Among the English and have Hunting Ground sufficient to Support themselves and Familys.\" Braddock answered that \"No Savage Should Inherit the Land.\" The chiefs told him they would not fight alongside him. He replied that he \"did not need their Help.\""
       },
       {
