@@ -120,8 +120,8 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "fig": "/war-img/fi-ohio-forts-map.jpg",
-        "cap": "The French fort chain in the Ohio Country, built 1753 and 1754: Presque Isle on Lake Erie, then Le Boeuf, then Machault (Venango), and finally Fort Duquesne at the Forks of the Ohio, the site of present-day Pittsburgh. The British forts and the Braddock and Forbes roads, cut later to push back into the country, are marked too.",
-        "credit": "Thomas Cool, 2006 / Wikimedia Commons (public domain)"
+        "cap": "The French fort chain in the Ohio Country, built 1753 and 1754: Fort Presque Isle on Lake Erie, then Fort Le Boeuf, then Fort Machault (Venango), and finally Fort Duquesne at the Forks of the Ohio, the site of present-day Pittsburgh. The dotted line traces the line of control France ran south from the lake to the Forks; the British forward base at Wills Creek and Fort Necessity lie to the south.",
+        "credit": "Stuff Happened"
       },
       {
         "p": "These forts were the last links in France's effort to connect Canada with the Illinois Country and Louisiana, the physical version of the land bridge. With them, France was no longer just claiming the Ohio. France was building the wall that would cut the British colonies off from the west for good. Virginia could not let that stand, and the man who would not let it stand was an Ohio Company shareholder."
