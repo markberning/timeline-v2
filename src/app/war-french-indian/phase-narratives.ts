@@ -387,6 +387,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "Pitt's plan for 1758 was to hit New France in three places at the same time, so that wherever the French concentrated to defend, they would leave two other doors open. One army would take Louisbourg, the great fortress on Cape Breton Island that guarded the mouth of the Gulf of St. Lawrence, the only deep-water sea route to Quebec and the heart of New France; with Louisbourg taken, a British fleet could sail up that river to Quebec the next year. A second, the largest, would drive north up the Lake Champlain corridor against Fort Carillon, the gate to the heart of Canada. A third would push west through the Pennsylvania wilderness to Fort Duquesne, the French strongpoint at the Forks of the Ohio that had started the whole war."
       },
       {
+        "fig": "/war-img/fi-pitt-offensives-map.jpg",
+        "cap": "Pitt's 1758 design: three simultaneous blows so France could not be strong everywhere. One army by sea against Louisbourg, the gateway to the St. Lawrence; one north up Lake Champlain against Fort Carillon; one west on the Forbes Road against Fort Duquesne. A fourth, unplanned, would fall on Fort Frontenac and cut the French supply line.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "Three thrusts, one logic: a France too stretched to be strong everywhere. Two of the three would succeed. The third would become the bloodiest disaster of the entire war. And a fourth blow, not even in the original design, would turn out to matter as much as any of them."
       },
       {
