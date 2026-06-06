@@ -1540,6 +1540,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Sandusky, in Ohio, fell on May 16 when Wyandots gained entry under cover of a friendly council, then killed some fifteen soldiers and burned the place. St. Joseph, in Michigan, went on May 25 to Potawatomis using the same trick, most of its fifteen-man garrison killed. At Fort Miami, in Indiana, on May 27, the commander was lured outside by a Miami woman and his nine men gave up. Ouiatenon, also in Indiana, fell on June 1 when Weas, Kickapoos, and Mascoutens took its roughly twenty men without a drop of blood. Venango, in Pennsylvania, fell in mid-June with its entire garrison of about a dozen killed by Senecas. Le Boeuf burned on June 18, though most of its dozen men escaped toward Fort Pitt. Presque Isle held two days against some 250 warriors before surrendering on June 19 and 20."
       },
       {
+        "fig": "/war-img/fi-pontiacs-war-map.jpg",
+        "cap": "Pontiac's War, 1763. In a matter of weeks the coalition took eight of the dozen British posts across the Great Lakes and the Ohio (Sandusky, Saint Joseph, Miami, Ouiatenon, Venango, Le Boeuf, Presque Isle, and Michilimackinac). Only the three biggest held out under siege: Detroit, Fort Pitt, and Niagara.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "The most famous capture of all came at Fort Michilimackinac, on the strait between Lakes Michigan and Huron, in early June. The Ojibwe staged a game of baggataway (the stick-and-ball game the French called lacrosse) outside the walls to mark the king's birthday. The soldiers came out to watch, gates open, guard down. A player sent the ball arcing toward the palisade, and the players sprinted after it as if it were nothing but the game. At the wall, the women who had been standing by handed the warriors the weapons they had carried in hidden under their blankets, and the players became a war party in an instant. Roughly half the thirty-five-man garrison was killed; the rest were taken. It worked because the British could not imagine the people they had insulted were already at war with them."
       },
       {
