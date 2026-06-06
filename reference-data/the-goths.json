@@ -79,140 +79,235 @@
       "id": "evt-gth-scandza",
       "label": "Jordanes' Scandza Origin Legend",
       "year": 150,
-      "description": "The historian Jordanes records the Gothic tradition that the people had migrated long before from the island of Scandza in the far north.",
+      "description": "The only book-length account of Gothic origins is the Getica, written in Constantinople around 551 CE by a man named Jordanes — a summary, made partly from memory, of an earlier lost history written to flatter Gothic kings. It is the essential, deeply unreliable spine of everything we think we know about early Gothic history.",
       "wikiSlug": "Getica",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jordanes says he produced the Getica in three days, working from memory of Cassiodorus's twelve-volume original, which he claims to have borrowed only briefly. The original Cassiodorus history is now completely lost, so there is no way to check how faithfully Jordanes summarized it. Jordanes describes himself as of Gothic descent but writes in Latin, making him one of the very few people of Gothic background to leave any writing at all."
+        }
+      ]
     },
     {
       "id": "evt-gth-wielbark",
       "label": "The Wielbark Culture",
       "year": 150,
-      "description": "The archaeological culture of the lower Vistula associated with the early Goths before their migration south.",
+      "description": "The Wielbark culture — named after a site near modern Malbork in northern Poland — is the archaeological fingerprint scholars associate with early Gothic communities along the Vistula River, from roughly the first century through the Gothic migration south.",
       "wikiSlug": "Wielbark_culture",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Wielbark culture is notable for replacing the preceding Oksywie culture in the lower Vistula region, and its spread southeastward tracks the route the Gothic migration legend describes. The culture's distinctive mix of cremation and inhumation burials in the same cemetery is rare for Iron Age northern Europe. Wielbark sites show a striking near-absence of weapons in graves — unusual for a warrior society — suggesting a belief system that separated martial identity from the afterlife."
+        }
+      ],
+      "commonsFile": "02024_Fibula_from_Gronowo_(Groß_Grünow)_,_Goths,_Wielbark_culture.jpg"
     },
     {
       "id": "evt-gth-wielbark-burials",
       "label": "Wielbark Burial Rites",
       "year": 160,
-      "description": "Wielbark cemeteries reveal a mix of cremation and inhumation burials, with grave goods of amber beads, bronze brooches, and Roman imports suggesting prosperous communities.",
+      "description": "Wielbark cemeteries mix cremation and laid-out inhumation burials side by side, and they stand out sharply from neighboring cultures by burying almost no weapons — even in the graves of wealthy individuals — while lavishing the dead with amber beads, silver brooches, and imported Roman goods.",
       "wikiSlug": "Wielbark_culture",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The near-total absence of weapons in Wielbark graves puzzles archaeologists because weapon burial was standard practice in the surrounding Germanic and Baltic Iron Age world. Baltic amber found in Wielbark graves was a high-value export commodity: Roman writers prized it so heavily that a single amber ornament could be worth more than a healthy slave in Rome's markets. Roman coins and bronze vessels appear in Wielbark graves despite the communities being several weeks' travel from the nearest Roman province."
+        }
+      ],
+      "commonsFile": "02019_(4)_Frauengrab_des_2._Jahrhunderts_n._Chr._aus_Bagicz.png"
     },
     {
       "id": "evt-gth-gothiscandza",
       "label": "Gothiscandza: The First Gothic Homeland",
       "year": 170,
-      "description": "Jordanes names Gothiscandza — the landing place on the southern Baltic coast — as the first beachhead of the Gothic migration before their southward drive.",
+      "description": "In the Gothic origin legend recorded by Jordanes, Gothiscandza — roughly \"the Gothic coast\" — was the name the migrants gave to their landing point on the southern Baltic shore after sailing south from Scandza (almost certainly Scandinavia), the starting line of the whole Gothic story.",
       "wikiSlug": "Getica",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jordanes names a king called Berig as leading the founding fleet of three ships, a suspiciously round number common to origin myths. The legend explains the origin of the Gepids — a closely related people who were real historical actors — by claiming their ship fell behind, earning them the mocking nickname meaning \"the sluggards.\" Most scholars locate Gothiscandza somewhere along the coast of what is now northern Poland, though no site has been confirmed archaeologically."
+        }
+      ],
+      "commonsFile": "Goths4.PNG"
     },
     {
       "id": "evt-gth-vistula-amber",
       "label": "Baltic Amber Trade Routes",
       "year": 175,
-      "description": "Early Gothic communities along the Vistula participated in the long-distance amber trade that ran south to Roman markets, acquiring prestige goods and provincial Roman coinage.",
+      "description": "Gothic communities settled along the Vistula sat astride the Amber Road — the ancient trade corridor that carried fossilized Baltic tree resin south to Roman Mediterranean markets for centuries — making them prosperous participants in long-distance commerce rather than isolated forest peoples.",
       "wikiSlug": "Amber_Road",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Baltic amber (succinite) washing up on North Sea and Baltic beaches is found in burial sites as far away as ancient Egypt, showing the trade route predates Rome by well over a thousand years. Roman demand was so intense that Emperor Nero reportedly sent an expedition specifically to the Baltic coast to source amber supplies for gladiatorial games. The trade brought not just coins but actual Roman luxury goods — glass, wine, bronze vessels — deep into the Baltic interior, meaning Gothic villagers had been physically handling pieces of the empire long before they ever attacked it."
+        }
+      ],
+      "commonsFile": "Baltis_amber_road.jpg"
     },
     {
       "id": "evt-gth-migration-south",
       "label": "The Goths Migrate to the Black Sea",
       "year": 200,
-      "description": "Gothic peoples moved south to the Pontic steppe, where they dominated a multiethnic world of farmers and horsemen.",
+      "description": "By the early-to-mid third century CE, peoples the Roman world was labeling Goths had completed a multigenerational southward migration from the Vistula basin to the Pontic steppe (the grasslands north of the Black Sea), arriving at the edge of the Roman frontier with appetite and momentum.",
       "wikiSlug": "Goths",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roman sources first specifically mention Goths in the 3rd century AD, placing them north of the lower Danube in what is now Ukraine, Moldova, and Romania. The driving engine of the migration was almost certainly land pressure: Baltic-zone farming with iron tools and short growing seasons left little room for surplus population, and the Roman world's wealth — already physically present in Gothic villages via the amber trade — pointed south like a compass needle. The archaeological Chernyakhov culture, which flourished across the Black Sea steppe in the 3rd and 4th centuries, is the material trace of the Goths in their new homeland."
+        }
+      ],
+      "commonsFile": "Athanaric_and_Valens_on_the_Danbue.png"
     },
     {
       "id": "evt-gth-oksywie-transition",
       "label": "Gothic Absorption of Oksywie Communities",
       "year": 200,
-      "description": "During the southward movement Gothic-associated groups absorbed or displaced earlier Oksywie-culture populations, expanding the Wielbark cultural zone before the final migration.",
+      "description": "As Wielbark-associated groups moved southward along the Vistula in the second and third centuries, they absorbed or displaced the earlier Oksywie culture — a neighboring Iron Age society — expanding the zone of Wielbark material culture in the process.",
       "wikiSlug": "Wielbark_culture",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Oksywie culture (named for a site near modern Gdynia) preceded the Wielbark in the lower Vistula region and shared the broader Germanic cultural sphere. The transition between them is not obviously violent in the archaeological record — graves shift style rather than showing destruction layers — suggesting assimilation rather than outright conquest. Modern archaeologists debate whether the Wielbark expansion represents one ethnic group displacing another or a change in burial fashion spreading through an existing population."
+        }
+      ],
+      "commonsFile": "02019_0574_(2)_Glass_beakers_from_a_graves_found_in_Pomerania,_Witkowice,_Borkowice,_second_half_of_the_4th_c.jpg"
     },
     {
       "id": "evt-gth-chernyakhov",
       "label": "The Chernyakhov Culture",
       "year": 250,
-      "description": "A rich material culture spanning modern Ukraine and Romania, blending Gothic, Sarmatian, and provincial-Roman elements.",
+      "description": "The Chernyakhov culture is the archaeological fingerprint left by the Goths and their neighbors across modern Ukraine, Romania, and Moldova — a dense, multi-ethnic zone of settlements, workshops, and trade goods that overturns every stereotype of Gothic barbarism.",
       "wikiSlug": "Chernyakhov_culture",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The culture is named after a site in Ukraine, and it flourished from the 2nd through the 5th centuries AD across a massive swath of Eastern Europe. Scholars once hotly debated whether it represented the Goths at all, but advances in methodology have made the connection, in the words of historians Matthews and Heather, \"irresistible.\" The population was genuinely mixed — Gothic, Geto-Dacian, and Sarmatian peoples living and working side by side — which is why \"Chernyakhov culture\" describes an economic zone, not a single ethnicity."
+        }
+      ],
+      "commonsFile": "Sântana_de_Mureș_culture,_Moldova,_4th_c_AD._Fibulae._National_History_Museum_of_Moldova.jpg"
     },
     {
       "id": "evt-gth-chernyakhov-crafts",
       "label": "Chernyakhov Wheel-Thrown Pottery",
       "year": 260,
-      "description": "Chernyakhov sites yield high-quality wheel-thrown pottery and evidence of iron smelting, indicating a sophisticated craft economy at the Gothic Black Sea frontier.",
+      "description": "Chernyakhov settlements produced wheel-thrown, kiln-fired pottery at a quality local regions had never seen before — evidence not of nomadic raiders but of full craft specialization, with dedicated potters, iron smelters, bronze smiths, and bone-comb makers running a working market economy.",
       "wikiSlug": "Chernyakhov_culture",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hand-built pottery can be made by any village household; wheel-thrown, kiln-fired pottery at scale requires specialists who make only pots, a market to sell them in, and a society organized enough to feed people who don't grow their own food. Chernyakhov workshops also turned out silver belt fittings and brooches — the prestige accessories of a culture that wanted to look wealthy, because it was. The culture's span ran from the 2nd to the 5th century AD, and at its height stretched across Ukraine, Romania, and Moldova."
+        }
+      ],
+      "commonsFile": "Chernyakhov_01.jpg"
     },
     {
       "id": "evt-gth-roman-frontier-trade",
       "label": "Goths at the Roman Frontier Markets",
       "year": 230,
-      "description": "The Danube frontier hosted regular treaty markets (fora) where Gothic and other barbarian groups exchanged furs, slaves, and grain for Roman metalwork, wine, and glass.",
+      "description": "Regular treaty markets along the Danube frontier let Gothic groups swap grain, hides, and slaves for Roman wine, olive oil, glassware, and silver coin — the flow of prestige goods that turned Gothic chiefs into serious warlords.",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The exchange was structured: Rome set up designated border markets (called fora) to control and tax the flow. Roman amphora jars — the tall clay containers that shipped wine and olive oil in bulk — turn up in Chernyakhov sites far into the Gothic interior, showing goods moved well beyond the frontier zone itself. The wealth didn't just enrich individuals; it was reinvested in armed followings, because in this world a chief's loyal retinue stayed loyal exactly as long as the gold kept coming."
+        }
+      ]
     },
     {
       "id": "evt-gth-first-raids",
       "label": "First Gothic Raids Across the Danube",
       "year": 238,
-      "description": "Gothic groups crossed the Danube into the Roman province of Moesia during the political upheaval following the murder of Emperor Maximinus Thrax.",
+      "description": "Around 238 CE, Gothic groups crossed the lower Danube into the Roman province of Moesia (roughly modern Bulgaria and Serbia), exploiting the political chaos after Emperor Maximinus Thrax was murdered — and discovered that raiding the empire worked.",
       "wikiSlug": "Gothic_Wars",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The timing was everything: the empire was entering what historians call the Crisis of the Third Century, a fifty-year stretch of civil wars, plague, and near-collapse during which emperors rose and fell at a terrifying pace. A successful first raid came home loaded with silver, slaves, and prestige, and in a world where a war-leader's followers stayed loyal only as long as he kept delivering, one successful raid made the next raid nearly inevitable. The Gothic Wars that followed would continue, on and off, for over three centuries."
+        }
+      ]
     },
     {
       "id": "evt-gth-decius-campaigns",
       "label": "Emperor Decius' Danube Campaigns",
       "year": 249,
-      "description": "Emperor Decius personally led armies against Gothic incursions in the Balkans, attempting to restore the Danube frontier after a decade of intermittent raiding.",
+      "description": "Decius, a Balkan-born soldier who had seized the throne in 249, personally led Roman armies into the Balkans to drive back Gothic raiders — the kind of hands-on frontier soldiering that had made him emperor in the first place.",
       "wikiSlug": "Decius",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Decius's full name was Gaius Messius Quintus Trajanus Decius — the 'Trajanus' was a deliberate nod to the conquering emperor Trajan, a piece of political branding meant to project strength. He reigned less than two years before dying at Abritus, the shortest reign of any emperor who tried and failed to stabilize the Danube frontier in this period."
+        }
+      ],
+      "commonsFile": "Bust_of_Decius_(loan_from_Capitoline_Museums)_-_Glyptothek_-_Munich_-_Germany_2017.jpg"
     },
     {
       "id": "evt-gth-abritus",
       "label": "Battle of Abritus — Decius Killed",
       "year": 251,
-      "description": "A Gothic army under Cniva ambushed the Roman force at Abritus in Moesia, killing Emperor Decius and his son, the first sitting emperor to fall in battle against a foreign enemy.",
+      "description": "At Abritus in Moesia (northeastern Bulgaria) in 251 CE, a Gothic army under Cniva lured a Roman force onto marshy ground and destroyed it, killing Emperor Decius and his son — the first sitting Roman emperor ever killed in battle against a foreign enemy.",
       "wikiSlug": "Battle_of_Abritus",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Roman historian Ammianus Marcellinus ranked Abritus alongside the catastrophes of Teutoburg Forest (9 CE) and the later Battle of Adrianople (378 CE) as one of Rome's worst military disasters. The battle was also known in ancient sources as the Battle of Forum Terebronii. Some Roman accounts hint at treachery within Roman ranks on the day, which would make the defeat partly an inside job rather than a clean Gothic triumph."
+        }
+      ],
+      "commonsFile": "10_2023_-_Palazzo_Altemps,_Roma,_Lazio,_00186,_Italia_-_Sarcofago_Grande_Ludovisi_(Grande_Ludovisi_sarcophagus)_-_Arte_Romana_-_Photo_Paolo_Villa_FO232047_ombre_gimp_bis.jpg"
     },
     {
       "id": "evt-gth-cniva",
       "label": "Cniva and the Gothic Siege of Philippopolis",
       "year": 250,
-      "description": "The Gothic leader Cniva besieged and sacked Philippopolis in Thrace, one of the largest Roman cities in the Balkans, carrying off enormous plunder and thousands of prisoners.",
+      "description": "The Gothic king Cniva led the first Gothic campaign we can follow in detail, besieging and sacking the major Roman city of Philippopolis (modern Plovdiv, Bulgaria) around 250 CE and hauling off vast plunder and thousands of captives.",
       "wikiSlug": "Cniva",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "After destroying the army of Emperor Decius at Abritus in 251, Cniva negotiated from a position of total strength: the new emperor Trebonianus Gallus actually paid Cniva tribute and let him withdraw with all his spoils unmolested, a humiliation Rome had rarely swallowed. Cniva is the first Gothic individual whose campaigns can be reconstructed, yet everything we know about him comes from Roman writers describing the man who beat them."
+        }
+      ],
+      "commonsFile": "The_ancient_Roman_Theatre_in_Plovdiv,_Bulgaria.jpg"
     },
     {
       "id": "evt-gth-thessalonica-threat",
@@ -228,121 +323,202 @@
       "id": "evt-gth-aegean-raids",
       "label": "Gothic Sea-Raids on the Aegean",
       "year": 268,
-      "description": "Gothic fleets ravaged the cities of Greece and Asia Minor, including the sack of Athens, in the empire's deepest crisis.",
+      "description": "Through the 250s and 260s CE, Gothic war-leaders assembled fleets using Greek coastal populations and Black Sea shipbuilding skills, then sent them through the Bosphorus and Dardanelles into the Aegean — the first time a Germanic people went to war by sea.",
       "wikiSlug": "Crisis_of_the_Third_Century",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Goths had zero seafaring tradition of their own; they got their ships by controlling the Greek-descended coastal cities along the Black Sea's northern shore, whose populations knew how to build and sail vessels. This was two full centuries before the Vandals built a Mediterranean navy — making the Goths the pioneers of Germanic naval warfare, a fact that rarely gets the credit it deserves."
+        }
+      ]
     },
     {
       "id": "evt-gth-sack-of-athens",
       "label": "Gothic Sack of Athens",
       "year": 267,
-      "description": "A seaborne Gothic raid plundered Athens, burning the Agora's library and damaging much of the lower city, though the Acropolis was defended.",
+      "description": "Around 267 CE, seaborne Germanic raiders sacked Athens — the intellectual and symbolic capital of the classical world — burning much of the lower city and the old marketplace, a destruction archaeologists can still see in the ground today.",
       "wikiSlug": "Sack_of_Athens_(267_AD)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The raiders at Athens were primarily the Heruli (a Germanic group allied with the Goths), not Goths themselves — the sources distinguish them, though both groups operated together in this era's Aegean raids. Before the attack, Athens was recently walled, yet the defenses failed; afterward, the Athenian historian Dexippus reportedly led citizens in driving the raiders out, one of the rare cases where a city's inhabitants fought back. Athens shrank dramatically after 267, its population contracting to the area around the Roman Agora, enclosed by a new hasty wall."
+        }
+      ]
     },
     {
       "id": "evt-gth-ephesus-raid",
       "label": "Raid on Ephesus and Asia Minor",
       "year": 263,
-      "description": "Gothic raiding parties attacked Ephesus and other wealthy cities of western Asia Minor, looting temples and carrying off captives including craftsmen and clergy.",
+      "description": "Gothic and allied raiders struck Ephesus (in modern western Turkey), one of the wealthiest cities in the Roman world, looting the famous Temple of Artemis — one of the Seven Wonders of the ancient world — in the 260s CE.",
       "wikiSlug": "Gothic_Wars",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Temple of Artemis at Ephesus had already been burned once before, by a lone arsonist named Herostratus in 356 BCE (the night Alexander the Great was born, ancient writers loved to note). The Gothic raid was the temple's final serious blow; it was never fully restored to its former glory afterward, eventually falling into ruin and disuse as Christianity spread through the region."
+        }
+      ]
     },
     {
       "id": "evt-gth-naissus",
       "label": "Battle of Naissus",
       "year": 269,
-      "description": "The emperor Claudius II won a crushing victory over a vast Gothic host, earning the title Gothicus and a generation of frontier respite.",
+      "description": "Around 269 CE, Emperor Claudius II shattered a massive Gothic host at Naissus (modern Niš, Serbia), then spent months hunting down survivors through the Balkan mountains, ending the great Gothic raiding era in a grinding campaign rather than a single decisive stroke.",
       "wikiSlug": "Battle_of_Naissus",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The victory at Naissus was not just one battle: disease ripped through the crowded Gothic camps during and after the fighting, finishing what the Roman cavalry had started. The battle's exact year is disputed — sources give 268 or 269 CE — and some evidence suggests the future emperor Aurelian played a key role leading the cavalry pursuit that turned a battle win into a near-total destruction."
+        }
+      ],
+      "commonsFile": "Lodovico_Pogliaghi_-_Roman_soldiers_raping_Gothic_women_after_the_victory_at_the_battle_of_Naissus,_268-269.png"
     },
     {
       "id": "evt-gth-claudius-gothicus",
       "label": "Claudius II 'Gothicus'",
       "year": 269,
-      "description": "The emperor Claudius II received the honorific Gothicus after Naissus and died of plague the following year; the Senate deified him and Goths were settled as coloni on depopulated Balkan land.",
+      "description": "After Naissus, the Senate awarded Emperor Claudius II the victory title 'Gothicus' (conqueror of the Goths) — then he died of plague the following year and was deified, becoming one of Rome's most honored short-reign emperors.",
       "wikiSlug": "Claudius_Gothicus",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Claudius Gothicus reigned only about two years (268–270 CE), yet the Senate declared him a god and later emperors, including Constantine, claimed him as an ancestor to borrow his prestige. Many of the Goths his army didn't kill were settled inside the empire as coloni — tied tenant farmers — on Balkan land emptied by years of raiding and plague, a policy that foreshadowed how Rome would eventually absorb (and be transformed by) the very peoples it fought."
+        }
+      ],
+      "commonsFile": "5305_-_Brescia_-_S._Giulia_-_Ritratto_di_Claudio_II_il_Gotico_-_Foto_Giovanni_Dall'Orto,_25_Giu_2011.jpg"
     },
     {
       "id": "evt-gth-aurelian-dacia",
       "label": "Aurelian Abandons Dacia",
       "year": 271,
-      "description": "Emperor Aurelian withdrew Roman administration from Transylvanian Dacia, conceding the province to Gothic and Carpi control and shortening the defensible frontier.",
+      "description": "In 271 CE, Emperor Aurelian made a blunt strategic decision: he pulled the Roman army and administration out of Dacia (roughly modern Transylvania), abandoned a province Rome had held for 165 years, and shortened the Danube frontier to something he could actually defend.",
       "wikiSlug": "Aurelian",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aurelian called the abandoned territory 'Dacia Aureliana' — renaming it on the safe side of the Danube as if the label could soften the loss. Despite giving up Dacia, Aurelian went on to reunify the entire fractured empire (it had briefly split into three competing pieces) and earned the title Restitutor Orbis, 'Restorer of the World.' The Roman population he evacuated from old Dacia left behind towns, farms, and a century and a half of Roman graves — a ghost province."
+        }
+      ],
+      "commonsFile": "Aureus_of_Aurelian_(Milan)_(obverse).jpg"
     },
     {
       "id": "evt-gth-split",
       "label": "Visigoths and Ostrogoths Diverge",
       "year": 290,
-      "description": "The Goths separated into the Tervingi and Greuthungi, the peoples later remembered as the Visigoths and Ostrogoths.",
+      "description": "By around 290 CE the Gothic world had fractured into two distinct peoples divided by the Dniester River: the Tervingi to the west (ancestors of the Visigoths) and the Greuthungi to the east (ancestors of the Ostrogoths), with the familiar 'Visigoth/Ostrogoth' labels only solidifying centuries later.",
       "wikiSlug": "Visigoths",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The tidy 'western Goths/eastern Goths' translation is almost certainly wrong — 'Visigoth' likely meant something closer to 'noble Goths' and 'Ostrogoth' something like 'Goths of the rising sun,' honorific labels rather than compass directions. The neat two-tribe scheme was largely popularized by the sixth-century writer Jordanes, working for an Ostrogothic court that wanted a clean, ancient pedigree — making it partly a retrojection onto a messier reality of many shifting groups."
+        }
+      ],
+      "commonsFile": "Visigothic_-_Pair_of_Eagle_Fibula_-_Walters_54421,_54422_-_Group.jpg"
     },
     {
       "id": "evt-gth-tervingi-reiks",
       "label": "The Tervingi Reiks System",
       "year": 295,
-      "description": "The Tervingi (Visigoths) were governed by a council of nobles called reiks and a paramount war-leader, a flexible leadership structure distinct from hereditary kingship.",
+      "description": "The Tervingi governed themselves through a council of noble warriors called reiks (a Gothic word related to the Latin rex) who could elevate a single war-leader in times of crisis — but never a hereditary king, because their system was built on consent, not blood.",
       "wikiSlug": "Visigoths",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roman sources deliberately called the Tervingi's paramount leader a 'judge,' not a king — a word choice that signals bounded authority through arbitration rather than rulership by right. The reiks title is related to the root that survives in the modern German word 'Reich' (realm/empire), showing how deeply this political vocabulary embedded itself in later European history."
+        }
+      ],
+      "commonsFile": "Belt_Buckle_MET_h1_1988.305a,b.jpg"
     },
     {
       "id": "evt-gth-greuthungi-kings",
       "label": "Greuthungi Royal Lineage",
       "year": 300,
-      "description": "The Greuthungi developed a more centralized kingship under the Amali dynasty, a ruling house that legitimized Ostrogothic power through claimed divine descent.",
+      "description": "Out on the open steppe east of the Dniester, the Greuthungi took a different political path from their Tervingi cousins: they developed a centralized hereditary kingship anchored in a single royal house, the Amali dynasty, who bolstered their rule with a pedigree of heroic and semi-divine ancestors.",
       "wikiSlug": "Ostrogoths",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Amali dynasty's elaborate founding genealogy — tracing their lineage back through heroes and demigods — was recorded by the sixth-century historian Jordanes, who was writing for an Ostrogothic court that commissioned the history, making the deep ancestral generations essentially dynastic propaganda. That same Amali line eventually produced Theodoric the Great, the Gothic king who ruled Italy from a marble palace in Ravenna."
+        }
+      ],
+      "commonsFile": "Tomb_of_Theodoric_the_Great_Ravenna_(cropped).jpg"
     },
     {
       "id": "evt-gth-black-sea-trade",
       "label": "The Gothic Black Sea Trade",
       "year": 300,
-      "description": "From the Pontic steppe the Goths controlled grain, slaves, and Roman goods moving between the empire and the barbarian interior.",
+      "description": "Positioned on the Pontic steppe north of the Black Sea, the Goths sat astride the exchange routes between the Roman Empire and the barbarian interior — controlling the flow of grain, slaves, furs, and Roman prestige goods that made Gothic war-leaders rich.",
       "wikiSlug": "Chernyakhov_culture",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Black Sea coast had been ringed with Greek colonial cities for a thousand years before the Goths arrived, and those cities were now under Roman influence, full of merchants and grain ships. The Goths effectively became the middlemen between those coastal trading ports and the vast steppe interior. The same prestige-goods mechanism that had enriched chiefs in earlier Germanic societies ran at full strength here, but on a much larger scale — the Black Sea was one of the most commercially active bodies of water in the ancient world."
+        }
+      ],
+      "commonsFile": "0375_Ukraine.png"
     },
     {
       "id": "evt-gth-gothic-social-structure",
       "label": "Gothic Social Tiers: Nobles, Freemen, Slaves",
       "year": 310,
-      "description": "Gothic society comprised an aristocratic warrior class (ansis), free farmers (frijahalsa), and a dependent or enslaved population of Roman captives and subjugated peoples.",
+      "description": "Gothic society in the third and fourth centuries was stratified into three layers: an aristocratic warrior class at the top, free farmers who owned land and served in war in the middle, and at the bottom a dependent and enslaved population that included Roman captives taken in the great raids.",
       "wikiSlug": "Goths",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The archaeological evidence from Chernyakhov culture sites (the village remains left by the Goths of this era) is unambiguous: this was a settled, farming people, not a nomadic camp. Roman prisoners and their descendants supplied the agricultural labor that kept the aristocracy's estates running, making the Gothic raids partly a labor-acquisition system."
+        }
+      ],
+      "commonsFile": "Bischof_Ulfilas_erklärt_den_Goten_das_Evangelium.jpg"
     },
     {
       "id": "evt-gth-gothic-agriculture",
       "label": "Gothic Settlement Agriculture",
       "year": 320,
-      "description": "Chernyakhov-culture sites show substantial permanent villages with long-houses, granaries, and evidence of crop rotation, contradicting purely nomadic stereotypes.",
+      "description": "Chernyakhov-culture sites reveal substantial, permanent villages with long timber houses, sunken-floored workshops, and grain storage facilities — the archaeological profile of a settled farming society, not a wandering horde.",
       "wikiSlug": "Chernyakhov_culture",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The presence of granaries implies not just subsistence farming but surplus — enough stored grain to feed specialists and to trade. Iron tools found at these sites were used for field work, meaning Gothic agriculture was productive enough to require proper tooling. This picture of settled prosperity is one reason historians now argue the Goths were not simply pushed westward by the Huns out of desperation — they were a wealthy, organized society that had to be militarily defeated before it moved."
+        }
+      ],
+      "commonsFile": "Chernyakhov.PNG"
     },
     {
       "id": "evt-gth-constantine-treaty",
@@ -358,61 +534,100 @@
       "id": "evt-gth-early-christianity",
       "label": "Early Christianity Among the Goths",
       "year": 341,
-      "description": "Before Ulfilas' mission, individual Roman captives and traders had already introduced Christian practices among Goths near the Danube frontier.",
+      "description": "Christianity reached the Goths not through official missions but through Roman captives taken in the third-century raids and resettled among Gothic communities. These prisoners kept their faith, passed it to their children and their captors' neighbors, and created a small Christian presence among the Goths generations before any bishop crossed the frontier.",
       "wikiSlug": "Goths",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This bottom-up transmission pattern — through the unfree rather than the powerful — is what made Gothic Christianity durable. Because it spread first among captives with no political leverage, it took root as a personal and community faith before it ever became a leadership decision. By the time Ulfilas arrived with an official mandate, he was building on a foundation already decades old."
+        }
+      ]
     },
     {
       "id": "evt-gth-ulfilas-bishop",
       "label": "Ulfilas Consecrated Bishop of the Goths",
       "year": 341,
-      "description": "The churchman Ulfilas was consecrated bishop by Eusebius of Nicomedia in Constantinople, receiving a formal ecclesiastical mandate to evangelize the Gothic people.",
+      "description": "Around 341 CE, Ulfilas (\"little wolf\" in Gothic) traveled to Constantinople and was consecrated bishop by Eusebius of Nicomedia, receiving a formal church mandate to bring Christianity to his people across the Danube. The bishop who consecrated him was a leading Arian — a detail that permanently shaped what kind of Christians the Goths would become.",
       "wikiSlug": "Ulfilas",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ulfilas was of Cappadocian Greek descent (modern central Turkey), probably tracing his ancestry to Roman captives taken in the third-century Gothic raids. He served as bishop to the Goths for roughly four decades, dying around 383 CE. His Gothic name, Wulfila, survives alongside the Greek form Ulfilas in the ancient sources."
+        }
+      ]
     },
     {
       "id": "evt-gth-ulfilas",
       "label": "Ulfilas Translates the Gothic Bible",
       "year": 350,
-      "description": "The missionary bishop Ulfilas devised a Gothic alphabet and translated the Bible, making the Goths a literate, Christian people.",
+      "description": "Around 350 CE, the Gothic bishop Ulfilas (also spelled Wulfila) invented a new alphabet specifically for the Gothic language and used it to translate the Bible — giving the Goths their own written scripture and making them the first Germanic people with a literary tradition in their own tongue.",
       "wikiSlug": "Ulfilas",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ulfilas was of Cappadocian Greek descent (from what is now central Turkey) and had been ordained bishop of the Goths in Constantinople around 341. His translation was Arian Christian, which is why Gothic Christianity remained Arian for generations — a doctrinal detail that would shape Gothic diplomacy and identity long after Ulfilas himself died around 383."
+        }
+      ]
     },
     {
       "id": "evt-gth-gothic-bible",
       "label": "The Gothic Bible",
       "year": 350,
-      "description": "The earliest substantial text in any Germanic language, surviving most famously in the silver-inked Codex Argenteus.",
+      "description": "The Gothic Bible is the oldest substantial text in any Germanic language — by roughly three centuries. That means the deepest written root of English, German, Dutch, and every Scandinavian language is not a Norse saga or an Anglo-Saxon poem but a fourth-century Gothic Gospel translated by an Arian bishop the Roman church had condemned.",
       "wikiSlug": "Gothic_Bible",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Most of what survives is the four Gospels and parts of Paul's letters; the Old Testament text is almost entirely lost. Because Gothic was written down so early, before the Germanic family had drifted apart, the language preserves sounds and forms that linguists use to reconstruct Proto-Germanic, the unwritten common ancestor. The Beowulf manuscript is roughly six hundred years younger."
+        }
+      ],
+      "commonsFile": "Lord's_Prayer_in_Wulfila's_Gothic_alphabet,_with_transliteration_-_Vaterunser_in_Wulfila's_gotischer_Schrift,_mit_Übertragung.jpg"
     },
     {
       "id": "evt-gth-gothic-alphabet",
       "label": "The Gothic Alphabet",
       "year": 350,
-      "description": "Ulfilas created a 27-letter script drawing on Greek, Latin, and runic sources to render Gothic sounds, an act that simultaneously created Gothic literacy.",
+      "description": "To write Gothic down, Ulfilas engineered an alphabet from scratch: roughly 25–27 letters pulling most letterforms from Greek, a few from Latin, and a handful of runic shapes for sounds neither classical script could handle. It was not an evolution from earlier scripts but a purpose-built tool, designed to do one specific job.",
       "wikiSlug": "Gothic_alphabet",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars count the letter total differently because a few characters are contested — some may be numerals borrowed into the alphabet rather than true letters. The Gothic alphabet is notable for being one of the very few writing systems in history whose inventor is actually known by name. The Greek-majority letterforms reflect Ulfilas's own bilingual Greek-Gothic background."
+        }
+      ],
+      "commonsFile": "Codex_Vindobonensis_795_20v.jpg"
     },
     {
       "id": "evt-gth-arianism",
       "label": "The Goths Adopt Arian Christianity",
       "year": 360,
-      "description": "The Goths embraced the Arian form of Christianity, setting them religiously apart from the Catholic Romans they would rule.",
+      "description": "Arianism (named for the Alexandrian priest Arius) held that God the Son was created by the Father and subordinate to him — not co-eternal, not of the same substance. The Council of Nicaea condemned it as heresy in 325 CE, but it remained in imperial favor for decades, and when Ulfilas was consecrated, the churchman who commissioned him was firmly on the Arian side.",
       "wikiSlug": "Arianism",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Nicene Creed's phrase \"of one substance with the Father\" (Greek: homoousios) was specifically drafted to rule out the Arian position — the single word homoousios was the crux of the whole dispute. For much of the mid-fourth century Roman emperors backed Arian bishops, making Arianism not a fringe heresy but a court theology. When the Goths later ruled Catholic populations in Gaul, Spain, and Italy, the religious divide between Arian rulers and Nicene subjects created a fault line that helped end every Gothic kingdom."
+        }
+      ],
+      "commonsFile": "Ariusz.JPG"
     },
     {
       "id": "evt-gth-nicene-arian-divide",
@@ -428,181 +643,304 @@
       "id": "evt-gth-martyr-persecution",
       "label": "Pagan Gothic Persecution of Christians",
       "year": 370,
-      "description": "The Tervingi leader Athanaric persecuted Arian Gothic Christians, carting an idol through the settlements and demanding sacrifice; those who refused faced execution.",
+      "description": "Around 370 CE, Athanaric launched a persecution of Gothic Christians, rolling a wagon bearing images of the old pagan gods from settlement to settlement and forcing every household to sacrifice before it. Those who refused — the Christians — were publicly identified by their refusal and killed, with one remembered incident of a congregation burned alive inside their tent-church while they sang.",
       "wikiSlug": "Athanaric",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The moving-idol test was a deliberate loyalty ritual that made Christian identity visible in front of an entire community — refusal was a public act, not a private one. The Gothic church produced its own named martyrs from this persecution, and a church with martyrs tends to grow rather than shrink. The persecution is the clearest evidence that Gothic Christianity was already a significant social force, not a fringe phenomenon, by the time Athanaric felt threatened enough to act."
+        }
+      ]
     },
     {
       "id": "evt-gth-athanaric",
       "label": "Athanaric, Judge of the Visigoths",
       "year": 370,
-      "description": "Athanaric led the Tervingi as 'judge' rather than king, resisting Roman pressure and internal conversion to Christianity, before eventually dying a refugee in Constantinople.",
+      "description": "Athanaric held power over the Tervingi Goths in the 360s and 370s as their \"judge\" — a title that carried paramount authority without the hereditary weight of a king. He fought off Roman incursions, suppressed Gothic Christians as a political threat, and ended his days as a refugee welcomed into Constantinople by the emperor Theodosius, dying there in 381 CE.",
       "wikiSlug": "Athanaric",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When the Huns shattered Gothic society in 375, Athanaric refused to cross the Danube into the empire, retreating instead into the Carpathians — a point of pride that soon became untenable. Theodosius gave him a state funeral in Constantinople with full imperial honors, a remarkable gesture toward a former enemy. Athanaric is sometimes called the first king of the Visigoths, though he never used that title himself."
+        }
+      ],
+      "commonsFile": "01-ATANARICO.JPG"
     },
     {
       "id": "evt-gth-ermanaric",
       "label": "Ermanaric's Greuthungi Empire",
       "year": 370,
-      "description": "The Greuthungi king Ermanaric built a vast domain across the Pontic steppe subjugating numerous neighboring peoples, an accomplishment later celebrated in Germanic epic poetry.",
+      "description": "The Greuthungi king Ermanaric dominated a wide swath of the Pontic steppe (the grassland north of the Black Sea) in the mid-fourth century, subjugating the Heruli, Slavic peoples, and Finnic groups — and becoming so celebrated that Germanic peoples were still singing epic songs about him in the Viking Age.",
       "wikiSlug": "Ermanaric",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ermanaric is one of only a handful of Gothic figures mentioned in two separate Roman sources: the eyewitness historian Ammianus Marcellinus and the much later Jordanes. The legend of his death is grimly memorable: a woman of a subject people was torn apart by horses on his orders, and her brothers wounded him so badly he died slowly as the Huns closed in — a story that surfaced centuries later in both Old Norse and Old English verse."
+        }
+      ],
+      "commonsFile": "Imperio_Romano.jpg"
     },
     {
       "id": "evt-gth-codex-argenteus",
       "label": "The Codex Argenteus",
       "year": 370,
-      "description": "The Codex Argenteus, written in silver and gold ink on purple vellum, survives as the finest Gothic manuscript and the primary witness to Ulfilas' biblical translation.",
+      "description": "The Codex Argenteus (Latin: \"the silver book\") is a sixth-century luxury copy of the Gothic Gospels made in Ostrogothic Italy: purple-dyed vellum, entire text in silver ink, opening lines and holy names in gold. It is the single most important surviving witness to Ulfilas's translation — a heretical barbarian scripture that became one of the great treasures of European manuscript history.",
       "wikiSlug": "Codex_Argenteus",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Of the original 336 leaves, 187 survive, now permanently displayed at Uppsala University's Carolina Rediviva library in Sweden, where it is known as \"Silverbibeln\" (the Silver Bible). It was added to UNESCO's Memory of the World Register in 2011. The manuscript was probably produced at Ravenna for the Ostrogothic court, making it as much a political statement about Gothic legitimacy as a religious text."
+        }
+      ],
+      "commonsFile": "Codex_Argenteus_page.jpg"
     },
     {
       "id": "evt-gth-huns",
       "label": "The Huns Shatter the Greuthungi",
       "year": 375,
-      "description": "The sudden arrival of the Huns destroyed the Ostrogothic power on the steppe and set the Visigoths fleeing toward Rome.",
+      "description": "Around 375 CE, the Huns swept in from the eastern steppe and destroyed the Greuthungi (eastern Goths), collapsing the great domain that Ermanaric had built — and sending terrified survivors westward to warn the Tervingi that something unstoppable was coming.",
       "wikiSlug": "Huns",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Huns had arrived on the Volga as early as 370 CE, kicking off a chain reaction that pushed Goths, Alans, Vandals, Gepids, and half a dozen other peoples out of their homelands at once. By around 430 they would consolidate a vast empire on the Danubian frontier — but in 375 they were still a shock to the system that no Roman geographer had mapped or anticipated."
+        }
+      ],
+      "commonsFile": "Estimated_map_of_Hunnic_political_control_under_Attila_(c._450_CE).jpg"
     },
     {
       "id": "evt-gth-ermanaric-death",
       "label": "Ermanaric's Death Before the Huns",
       "year": 375,
-      "description": "According to ancient sources, Ermanaric died — by his own hand or in battle — as the Hunnic invasion overwhelmed his domain, marking the end of Greuthungi independence.",
+      "description": "Around 375 CE, Ermanaric — the Greuthungi king whose domain stretched across much of the Ukrainian steppe — died as the Hunnic assault overwhelmed his realm; ancient sources disagree on whether he fell in battle or took his own life rather than survive the destruction of everything he had built.",
       "wikiSlug": "Ermanaric",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ammianus Marcellinus describes Ermanaric as a 'warlike king' who commanded great areas of Scythia, while the sixth-century historian Jordanes later inflated him into a legendary conqueror to rival Alexander. In later Germanic heroic legend Ermanaric became a figure of tragic treachery, appearing in Old English poetry and Norse sagas long after the Goths themselves had vanished as a distinct people."
+        }
+      ]
     },
     {
       "id": "evt-gth-huns-tactics",
       "label": "Hunnic Cavalry Tactics on the Steppe",
       "year": 375,
-      "description": "The Huns' composite reflex bows and coordinated feigned-retreat tactics gave them a decisive edge over Gothic infantry-heavy forces on the open steppe.",
+      "description": "The Huns fought from horseback using a composite reflex bow — a short, recurved weapon built of layered wood, horn, and sinew that packed the punch of a much longer bow and could be fired at a full gallop — a combination the Gothic infantry-and-charge model had no answer for.",
       "wikiSlug": "Huns",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The feigned retreat was central to Hunnic tactics: they would shower an enemy with arrows, ride away the instant the line advanced, then swarm back when it broke formation and tired. Gothic strength was built around a single disciplined infantry stand followed by a noble cavalry charge — both of which the Huns simply declined to receive, making Gothic military skill nearly useless against them."
+        }
+      ],
+      "commonsFile": "02019_0565_Reflexbogen,_Fürsten-Grab_von_Jakuszowice.jpg"
     },
     {
       "id": "evt-gth-fritigern-crossing",
       "label": "Fritigern Leads the Goths Across the Danube",
       "year": 376,
-      "description": "The emperor Valens admitted desperate Gothic refugees into the empire; Roman mistreatment soon drove them to revolt.",
+      "description": "In 376 CE the Tervingi chieftain Fritigern led his entire people — men, women, children, the old and sick — to the north bank of the Danube and petitioned Emperor Valens to let them cross into the Roman Empire, the first time an entire Germanic nation had asked to be admitted as refugees rather than invaders.",
       "wikiSlug": "Fritigern",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Fritigern's decisive move was framing his people as Arian Christians, the same branch of Christianity the emperor Valens personally favored — a calculated bit of religious diplomacy that made the emperor far more sympathetic. Valens saw an upside too: a settled barbarian nation would mean new taxpayers and, crucially, a massive pool of military recruits he badly needed for wars on his eastern frontier."
+        }
+      ]
     },
     {
       "id": "evt-gth-danube-crossing-conditions",
       "label": "Starvation and Exploitation of Gothic Refugees",
       "year": 376,
-      "description": "Roman officials charged with resettling the Goths extracted bribes, took Gothic children as slaves, and sold dog-meat at extortionate prices, triggering the revolt they had been sent to prevent.",
+      "description": "The Roman officials assigned to receive and feed the Gothic refugees — Lupicinus and Maximus — treated the crisis as a money-making opportunity: they sold the starving Goths food at extortionate prices, and when the Goths ran out of money and goods, accepted Gothic children as slaves in exchange for grain, sometimes at the rate of one child per dog.",
       "wikiSlug": "Gothic_War_(376–382)",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This episode is recorded by Roman sources themselves, not by Gothic ones — meaning it is the conquerors' own confession of what happened. The Gothic War of 376–382 that followed is now considered one of the causes historians point to in the long decline of the Western Roman Empire, though scholars still debate just how decisive Adrianople really was."
+        }
+      ],
+      "commonsFile": "Theodosius_obeliszk_-_Isztambul,_2014.10.23_(2).JPG"
     },
     {
       "id": "evt-gth-lupicinus-feast",
       "label": "Lupicinus' Treacherous Feast",
       "year": 377,
-      "description": "The Roman commander Lupicinus attempted to assassinate the Gothic leaders Fritigern and Alavivus at a banquet; Fritigern escaped and the revolt erupted across Thrace.",
+      "description": "In 377 CE the Roman commander Lupicinus invited Gothic leaders including Fritigern to a banquet and attempted to murder them there — a classic Roman gambit to decapitate a restless group's leadership in a single stroke. Fritigern escaped, and the full revolt across the province of Thrace erupted immediately after.",
       "wikiSlug": "Gothic_War_(376–382)",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Gothic War that followed drew in not just the Tervingi but surviving Greuthungi who had also crossed the Danube, escaped Gothic slaves, and workers from Thracian mines where sold Goths had been put to forced labor underground — a coalition of the desperate that Rome had inadvertently created. The war burned through the Balkans for two full years before Valens marched a field army to end it at Adrianople in 378."
+        }
+      ],
+      "commonsFile": "Guerra_gotica_376-382_-_anno_377.png"
     },
     {
       "id": "evt-gth-adrianople",
       "label": "Battle of Adrianople",
       "year": 378,
-      "description": "The Goths destroyed the eastern Roman field army and killed the emperor Valens, the worst Roman defeat since Cannae.",
+      "description": "On August 9, 378 CE, outside the city of Adrianople in what is now European Turkey, the Gothic leader Fritigern destroyed the eastern Roman field army and killed the reigning emperor in a single afternoon — the worst Roman defeat since Cannae in 216 BCE.",
       "wikiSlug": "Battle_of_Adrianople",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Adrianople was fought in the Roman province of Thracia, placing the catastrophe deep inside imperial territory, not at the frontier. The ancient historian Ammianus Marcellinus, who was a soldier himself, explicitly reached for Cannae as his comparison — meaning not just a bad loss but the worst category of loss that existed in Roman historical memory. The battle took barely an afternoon to end an army that could not be replaced."
+        }
+      ],
+      "commonsFile": "Lodovico_Pogliaghi_-_Battle_of_Adrianople,_378.png"
     },
     {
       "id": "evt-gth-valens-death",
       "label": "Death of Emperor Valens",
       "year": 378,
-      "description": "Valens was killed at Adrianople — tradition held he burned to death in a farmhouse — becoming the first Roman emperor to die on the battlefield against a foreign enemy in over a century.",
+      "description": "Emperor Valens was killed at Adrianople, becoming the first reigning Roman emperor to die at the hands of a foreign enemy in over a century — his body was never recovered, and the tradition that he burned to death anonymously in a peasant farmhouse cannot be confirmed.",
       "wikiSlug": "Valens",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Valens had come to power in 364 not through military glory but as co-emperor appointed by his elder brother Valentinian I, who handed him the eastern half of the empire to manage. His reign was largely unremarkable before Adrianople, which makes the manner of his death — the master of the Roman world vanishing into a burning barn, unrecognized — one of the more haunting images of the late Roman period."
+        }
+      ],
+      "commonsFile": "INC-3015-a_Солид._Валент_II._Ок._364_г._(аверс).png"
     },
     {
       "id": "evt-gth-adrianople-cavalry",
       "label": "Gothic Heavy Cavalry at Adrianople",
       "year": 378,
-      "description": "The arrival of Greuthungi cavalry on the Roman flank at Adrianople was decisive; the battle demonstrated that heavily armored cavalry could break Roman infantry formations.",
+      "description": "The Gothic Greuthungi cavalry (the heavily armored lancers of the eastern Goths, inheritors of steppe riding traditions) returned from foraging at exactly the moment the Roman line was locked forward against the Gothic wagon-ring, crashed into the exposed Roman flank, and turned a hard fight into a massacre.",
       "wikiSlug": "Battle_of_Adrianople",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gothic leader Fritigern deliberately stalled the battle with envoys and drawn-out negotiations — not out of hesitation but to buy time for his cavalry to return. The Roman infantry in the final crush were packed so tightly by the pressure from two sides that contemporary sources say men could not raise their weapons or even fall when they were killed. It was discipline and patience, not a lucky flank charge, that destroyed Rome that day."
+        }
+      ],
+      "commonsFile": "Late_Roman_soldier_re-enactor_depicting_an_infantry_officer.jpg"
     },
     {
       "id": "evt-gth-theodosius-rebuilds",
       "label": "Theodosius I Rebuilds the Eastern Army",
       "year": 379,
-      "description": "The new eastern emperor Theodosius I recruited massively — including Goths — to rebuild the shattered field army after Adrianople, accelerating the barbarization of Roman forces.",
+      "description": "After Adrianople shattered the eastern field army, the new emperor Theodosius I spent years recruiting massively to rebuild it — including recruiting Goths themselves — accelerating the long trend of the Roman army filling up with the very peoples it had been fighting.",
       "wikiSlug": "Theodosius_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodosius was Roman emperor from 379 to 395, handed the eastern throne specifically because the east needed a capable general after Adrianople. His rebuilding strategy was pragmatic rather than principled: he needed bodies, the Goths were formidable fighters, and the empire's earlier manpower base had been badly depleted by decades of plague and civil war. He would later be called 'the Great' partly for holding the empire together through this crisis, though the terms he made with the Goths were widely recognized even at the time as disadvantageous."
+        }
+      ],
+      "commonsFile": "Disc_of_Theodosius.png"
     },
     {
       "id": "evt-gth-foedus-382",
       "label": "The Gothic Foedus of 382",
       "year": 382,
-      "description": "Theodosius I settled the Goths inside the empire as autonomous federates, an unprecedented armed nation within Roman borders.",
+      "description": "The foedus (treaty) of 382 CE settled the Goths inside the Roman Empire as a semi-autonomous armed nation — keeping their own leaders, fighting in their own units under their own commanders, and governing themselves on collectively granted Balkan land — terms without precedent in Roman history.",
       "wikiSlug": "Theodosius_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The novelty was not that barbarians were settled inside the empire (that had happened under Marcus Aurelius) but that this group was never broken up or absorbed as individual recruits. Earlier settled peoples were distributed, disarmed, and Romanized; the Goths of 382 remained organized, armed, and self-governing. Theodosius's own contemporaries noted the arrangement was disadvantageous — a nominal ally that answered to Gothic commanders, not Roman ones."
+        }
+      ],
+      "commonsFile": "Anthonis_van_Dyck_005.jpg"
     },
     {
       "id": "evt-gth-foedus-significance",
       "label": "The Foedus as a Constitutional Novelty",
       "year": 382,
-      "description": "The 382 treaty gave the Goths collective land in Moesia, their own commanders, and exemption from Roman civil jurisdiction — the first time a barbarian group lived inside the empire under its own laws.",
+      "description": "The 382 treaty ending the Gothic War was unlike any deal Rome had struck before: it settled the Goths collectively on imperial land in Moesia (modern Bulgaria), let them keep their own commanders and internal laws, and exempted them from Roman civil jurisdiction — a barbarian nation living inside the empire but not absorbed by it.",
       "wikiSlug": "Foederati",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rome had used the foederati (\"treaty people\") arrangement for generations with small war-bands, giving them land and provisions in exchange for military service. The 382 settlement scaled that bargain to an entire sovereign-ish people for the first time, setting a template that Visigoths, Vandals, and Burgundians would all use in the fifth century when the western empire began to dissolve around them."
+        }
+      ],
+      "commonsFile": "Reliefs_on_the_base_of_the_Obelisk_of_Theodosius.jpg"
     },
     {
       "id": "evt-gth-alaric",
       "label": "Alaric Becomes King of the Visigoths",
       "year": 395,
-      "description": "Alaric united the Gothic federates and turned them into a mobile army bargaining and warring its way across the empire.",
+      "description": "Alaric I was the first king of the Visigoths, rising to lead the Goths settled in Moesia (the Balkans territory acquired after Adrianople) in 395 CE — immediately after Theodosius's death left his people unpaid, leaderless, and freshly bled at the Frigidus.",
       "wikiSlug": "Alaric_I",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alaric came to leadership of the very Goths who had occupied Moesia since the post-Adrianople settlement — he was a product of the foedus system, a Gothic commander who had served in Roman forces. His subsequent career was not simple warlordism but a prolonged, often frustrated attempt to get the empire to give his people the pay and formal status they had been promised and never fully received. The sack of Rome in 410 was the end of that negotiation failing."
+        }
+      ],
+      "commonsFile": "Alarich_steel_engraving.jpg"
     },
     {
       "id": "evt-gth-theodosius-death",
       "label": "Death of Theodosius I and Empire's Division",
       "year": 395,
-      "description": "The death of Theodosius I permanently divided the Roman Empire between his sons; Alaric's Goths, unpaid and leaderless, began raiding immediately.",
+      "description": "When Theodosius I died in 395 CE, he was the last man to rule the entire Roman Empire; at his death the empire split permanently between his two young sons, east and west, and the Gothic federates inside it — unpaid, resentful after the Frigidus — chose their own king and began to move.",
       "wikiSlug": "Theodosius_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodosius left the west to his son Honorius (age 10) and the east to Arcadius (age 17), neither capable of managing the Gothic problem their father had barely contained by force of personal authority. The split at his death was not formally declared permanent — no one announced the end of a united empire — but the two courts never reunited, and the division hardened immediately into a structural reality that no later emperor could reverse."
+        }
+      ],
+      "commonsFile": "Bust_of_Theodosius_I.jpg"
     },
     {
       "id": "evt-gth-alaric-greece",
@@ -618,11 +956,18 @@
       "id": "evt-gth-stilicho-alaric",
       "label": "Stilicho and Alaric: Rival and Partner",
       "year": 397,
-      "description": "The Vandal-born Roman general Stilicho repeatedly outmaneuvered but never destroyed Alaric, and the two men oscillated between military confrontation and diplomatic partnership.",
+      "description": "The half-Vandal Roman general Stilicho was the western empire's most powerful commander for over a decade, repeatedly outfighting Alaric but never finishing him off — a deliberate choice that kept the Gothic army as a political tool.",
       "wikiSlug": "Stilicho",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Stilicho was married to Serena, the niece of Emperor Theodosius I, making him family to the imperial house even as rivals used his Vandal ancestry against him. He served simultaneously as guardian to the boy-emperor Honorius, meaning the defense of Rome rested almost entirely on a man who was, by the old Roman definition, a barbarian himself. His refusal to destroy Alaric outright was likely a calculated gamble: keeping a formidable Gothic army intact gave Stilicho leverage over the eastern court in Constantinople, with which he had a long territorial dispute over Illyricum."
+        }
+      ],
+      "commonsFile": "Diptych_of_Stilicho.jpg"
     },
     {
       "id": "evt-gth-alaric-illyricum",
@@ -648,120 +993,198 @@
       "id": "evt-gth-pollentia",
       "label": "Battle of Pollentia",
       "year": 402,
-      "description": "Stilicho attacked Alaric's camp at Pollentia on Easter Sunday, capturing Gothic baggage and Alaric's family, but the Gothic army escaped intact.",
+      "description": "On Easter Sunday 402, Stilicho launched a surprise attack on Alaric's army at Pollentia in northern Italy, capturing the Gothic baggage train — the wagons carrying families, supplies, and plunder — and forcing Alaric to retreat from Italy.",
       "wikiSlug": "Battle_of_Pollentia",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The timing was deliberate and controversial: attacking on the holiest day of the Christian calendar was seen by many as a scandal, and the Gothic troops, many of whom were also Christians, were initially caught off-guard by the violation of the sacred truce. Despite the Roman tactical victory, Alaric was able to recover enough to fight again the following year at Verona, where Stilicho defeated him a second time but again let him escape. Alaric did not return to Italy for six years — until Stilicho was dead."
+        }
+      ]
     },
     {
       "id": "evt-gth-stilicho-execution",
       "label": "Stilicho Executed",
       "year": 408,
-      "description": "The weak western emperor Honorius had Stilicho arrested and executed under suspicion of treason, depriving Rome of its most capable defender just as Alaric renewed his advance.",
+      "description": "In August 408, Emperor Honorius had his most capable general, Stilicho, arrested and beheaded on a charge of treason — one of the most self-destructive decisions in Roman history, coming just as Alaric was preparing his first march on Rome.",
       "wikiSlug": "Stilicho",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The purge went far beyond Stilicho himself: soldiers loyal to him were massacred across the western empire, and Roman troops then slaughtered the wives and children of the barbarian federate soldiers serving in the Roman army. The result was that tens of thousands of those federates — men who had been fighting for Rome — defected directly to Alaric, transforming his army almost overnight. Honorius then retreated to Ravenna, a city surrounded by marshes on the Adriatic coast, making it nearly impossible for Alaric to reach him and giving the emperor a safe perch from which to refuse every negotiation."
+        }
+      ]
     },
     {
       "id": "evt-gth-rome-blockade",
       "label": "Alaric Blockades Rome",
       "year": 408,
-      "description": "Alaric besieged Rome twice before the final sack, cutting the city's grain supply and extracting enormous ransoms in gold, silver, silk, and pepper.",
+      "description": "Before the famous sack, Alaric besieged Rome twice (408 and 409), each time cutting off the grain supply until the city agreed to pay enormous ransoms — his goal throughout was a negotiated settlement, not destruction.",
       "wikiSlug": "Alaric_I",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The ransom extracted in 408, recorded by the historian Zosimus, included gold, silver, silk, dyed hides, and three thousand pounds of pepper — pepper being an Indian spice so valuable in the ancient world that it was stored like bullion. Even starving and under siege, Rome could still produce a king's ransom in luxury goods that had traveled from halfway around the world. In 409, Alaric escalated by installing a puppet emperor of his own, the city prefect Priscus Attalus, to put additional political pressure on Honorius — but the court in Ravenna still refused to grant Alaric what he actually wanted: land and a senior military title."
+        }
+      ],
+      "commonsFile": "Alaric_entering_Athens.jpg"
     },
     {
       "id": "evt-gth-sack-410",
       "label": "Alaric Sacks Rome",
       "year": 410,
-      "description": "The Visigoths sacked the city of Rome for three days, an event that shook the Roman world and prompted Augustine's City of God.",
+      "description": "On August 24, 410 CE, after years of failed negotiation, the Visigoths entered Rome and plundered the city for three days — the first foreign enemy to take Rome in nearly 800 years, sending a shockwave across the entire ancient world.",
       "wikiSlug": "Sack_of_Rome_(410)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The sack was notably restrained by ancient standards: Alaric, an Arian Christian, ordered the great basilicas of Saint Peter and Saint Paul treated as sanctuaries, and there was no general massacre. Jerome, translating scripture in Bethlehem when the news arrived, wrote that it struck him speechless: \"the city which had taken the whole world was itself taken.\" Administratively, Rome was no longer even the western capital at that point — Ravenna had been the seat of government since 402 — but the symbolic force of the eternal city falling was so overwhelming that the practical fact barely registered."
+        }
+      ],
+      "commonsFile": "Visigoths_sack_Rome.jpg"
     },
     {
       "id": "evt-gth-city-of-god",
       "label": "Augustine Writes The City of God",
       "year": 413,
-      "description": "The theologian Augustine of Hippo began his great work in response to pagan charges that Rome had fallen because it abandoned its gods, arguing that the earthly city was always secondary to the City of God.",
+      "description": "After the sack, the North African bishop Augustine of Hippo began writing The City of God, a massive work refuting pagan claims that Rome fell because it abandoned its old gods — and in doing so, built the political theology that shaped medieval Europe for a thousand years.",
       "wikiSlug": "The_City_of_God",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Augustine took thirteen years to complete the work (413–426 CE), producing twenty-two books in total. Its central argument — that no earthly empire, not even Rome, was ever truly eternal, and that Christians owe their deepest loyalty to the heavenly City of God rather than any human state — gave the medieval church a philosophical basis for asserting authority independent of (and in some readings above) secular rulers. The book directly addresses questions still debated today: the existence of evil, free will versus divine foreknowledge, and the nature of just war."
+        }
+      ],
+      "commonsFile": "City_of_God_Manuscript.jpg"
     },
     {
       "id": "evt-gth-alaric-death",
       "label": "Death of Alaric at Cosentia",
       "year": 410,
-      "description": "Alaric died of fever at Cosentia in southern Italy months after the sack; his followers supposedly diverted a river to bury him with his treasure beneath the riverbed.",
+      "description": "Months after sacking Rome, Alaric died of fever somewhere in southern Italy while leading his people toward Africa — having achieved the most famous military feat of his age and gotten nothing he had actually asked for: land, a title, a home.",
       "wikiSlug": "Alaric_I",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alaric had spent his entire adult life inside the Roman system, fighting Rome's wars and then fighting Rome itself, all in pursuit of a formal, recognized settlement. The cruel irony is that what he wanted was modest — a senior generalship and farmland for his people — and the empire spent fifteen years refusing him things it routinely granted to other federate leaders. He was likely in his mid-forties when he died, and the cause (\"fever\") is vague enough that it could have been malaria, typhoid, or something else entirely; the sources are not specific."
+        }
+      ]
     },
     {
       "id": "evt-gth-busento-burial",
       "label": "The Busento River Burial Legend",
       "year": 410,
-      "description": "The legend of Alaric buried beneath the River Busento — workers allegedly killed afterward to keep the secret — became one of the most enduring myths of the Migration Age.",
+      "description": "According to Jordanes, Alaric's followers diverted the River Busento, buried him with treasure in the dry riverbed, restored the flow, and killed all the workers to keep the location secret — a story almost certainly too perfect to be literally true.",
       "wikiSlug": "Alaric_I",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The tale comes from Jordanes, the 6th-century Gothic historian whose reliability is always in question (he was writing 150 years after the event and had clear reasons to mythologize Gothic leaders). No grave has ever been found despite periodic archaeological searches near modern Cosenza in Calabria, Italy. The story's structure — secret burial, silenced witnesses, lost treasure — mirrors other famous burial legends from the ancient world and the Migration Age, which is itself a reason to hold it lightly. What it reliably shows is how electric Alaric's death was: it generated legend almost immediately."
+        }
+      ],
+      "commonsFile": "Corona_de_(29049230050).jpg"
     },
     {
       "id": "evt-gth-athaulf",
       "label": "Athaulf Leads Visigoths into Gaul",
       "year": 412,
-      "description": "Alaric's brother-in-law Athaulf led the Visigoths out of Italy into southern Gaul, articulating a vision of Gothic-Roman partnership rather than the destruction of the empire.",
+      "description": "Alaric's brother-in-law Athaulf took command of the Visigoths after 410 and led them out of Italy into southern Gaul (modern France), articulating a strikingly new idea: that Gothic arms should restore Rome, not replace it.",
       "wikiSlug": "Ataulf",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Athaulf's famous remark — that he had once dreamed of a Gothic empire where Rome had been, but concluded the Goths could never function without Roman law and order — survives in the historian Orosius and is one of the most remarkable self-assessments from the entire Migration Age. It suggests a Gothic leadership class that had internalized Roman governance deeply enough to recognize they could not simply discard it. Athaulf was assassinated in Barcelona in 415, barely three years into his reign, before he could fully build the state he envisioned — but the kingdom his successors built in Toulouse became exactly what he described."
+        }
+      ]
     },
     {
       "id": "evt-gth-galla-placidia",
       "label": "Galla Placidia Marries Athaulf",
       "year": 414,
-      "description": "The Roman princess Galla Placidia, captured in the sack of Rome, married the Gothic king Athaulf at Narbonne in a Roman-style ceremony, symbolizing the ambiguous new Gothic-Roman world.",
+      "description": "At Narbonne in 414, Galla Placidia — sister of Emperor Honorius, captured in the sack of Rome — married the Gothic king Athaulf in a full Roman ceremony, a living symbol of the fused Gothic-Roman world that was being born.",
       "wikiSlug": "Galla_Placidia",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Galla Placidia wore Roman robes at the wedding and the ceremony followed Roman customs, signaling Athaulf's deliberate positioning as a Roman partner, not a conqueror. She and Athaulf had a son, Theodosius, who died in infancy — his death, commemorated with a silver coffin in Barcelona, was mourned as a genuine dynastic tragedy. After Athaulf's assassination in 415, Galla Placidia was passed between Gothic factions and eventually returned to Ravenna, where she later became regent for her son Valentinian III and was one of the most powerful figures in the western empire for decades."
+        }
+      ],
+      "commonsFile": "Galla_placidia,_solido_del_422.JPG"
     },
     {
       "id": "evt-gth-aquitaine",
       "label": "The Visigoths Settle in Aquitaine",
       "year": 418,
-      "description": "Rome granted the Visigoths land in southern Gaul, where they built the kingdom of Toulouse as nominal imperial allies.",
+      "description": "In 418 CE Rome formally granted the Visigoths land in Aquitaine, the fertile southwestern Gaul region around the Garonne valley — the moment a wandering people finally got a permanent address inside the empire.",
       "wikiSlug": "Visigothic_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Visigoths were settled under King Wallia, who had negotiated the deal with the imperial government; Wallia himself died the same year the settlement was formalized. The kingdom they built in Aquitaine would eventually extend far beyond Gaul to cover most of the Iberian Peninsula. Unlike the eastern empire, the Visigothic Kingdom successfully resisted Byzantine attempts to reassert Roman authority over its territory."
+        }
+      ],
+      "commonsFile": "Battle_between_Clovis_and_the_Visigoths.jpg"
     },
     {
       "id": "evt-gth-toulouse-kingdom",
       "label": "Kingdom of Toulouse Founded",
       "year": 418,
-      "description": "The Visigothic settlement in Aquitaine Secunda established the first enduring Germanic kingdom on Roman soil, with Toulouse as its capital and Roman landowners as neighbors.",
+      "description": "The settlement in Aquitaine became the Kingdom of Toulouse — the first Germanic successor state to plant itself inside the western Roman world and actually make it stick, with Toulouse as the capital and Gothic king ruling over a Roman administrative apparatus.",
       "wikiSlug": "Visigothic_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The kingdom lasted nearly a century before its destruction at Vouillé in 507. The Visigoths maintained independence from the Eastern Roman (Byzantine) Empire even as the western half collapsed around them. Their kingdom was distinctive in keeping the Roman landowning class largely intact rather than displacing it wholesale."
+        }
+      ]
     },
     {
       "id": "evt-gth-gothic-hospitalitas",
       "label": "Gothic Hospitalitas Land Distribution",
       "year": 418,
-      "description": "The Visigoths in Aquitaine received land through the Roman hospitalitas system, under which barbarian soldiers were theoretically billeted with landowners who surrendered a portion of their estates.",
+      "description": "The Visigoths were settled in Aquitaine through a Roman legal mechanism called hospitalitas — rules originally designed to billet soldiers with civilian landowners — adapted so Gothic warriors became armed neighbors to Roman estate-owners rather than conquerors.",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars still actively debate whether what actually changed hands under Gothic hospitalitas was the land itself or just the tax revenue from it — the sources are genuinely ambiguous. The system created a Gothic-Roman mixed society almost by design: the same legal roof covered both peoples, neither simply erasing the other."
+        }
+      ]
     },
     {
       "id": "evt-gth-visigothic-architecture",
@@ -777,11 +1200,18 @@
       "id": "evt-gth-theodoric-i",
       "label": "Theodoric I Rules the Visigoths",
       "year": 418,
-      "description": "Theodoric I reigned for nearly three decades, consolidating the Toulousain kingdom and expanding its territory while maintaining a tense alliance with Rome.",
+      "description": "Theodoric I ruled the Visigoths from 418 to 451 — a reign of over three decades that transformed the Aquitaine settlement from a Roman grant into a genuine independent power with a real capital, a real army, and a king who died in battle against the Huns.",
       "wikiSlug": "Theodoric_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodoric I was the son of Alaric's successor Ataulf's rival, and his long reign gave the kingdom rare stability in a period of violent succession. His son Thorismund was acclaimed king on the battlefield itself, surrounded by the dead of the Catalaunian Plains — one of the more dramatic royal inaugurations in Gothic history."
+        }
+      ],
+      "commonsFile": "Félix_Castello,_\"Teodorico,_rey_godo\",_1635.jpg"
     },
     {
       "id": "evt-gth-aetius-alliance",
@@ -797,11 +1227,18 @@
       "id": "evt-gth-catalaunian",
       "label": "Visigoths Fight Attila at the Catalaunian Plains",
       "year": 451,
-      "description": "The Visigothic king Theodoric I died helping the Roman general Aetius halt Attila the Hun in Gaul.",
+      "description": "In 451 CE the Visigothic king Theodoric I died fighting alongside the Roman general Aetius to stop Attila the Hun at the Battle of the Catalaunian Plains — the largest battle of the age, fought between two coalitions that were both mostly barbarian.",
       "wikiSlug": "Battle_of_the_Catalaunian_Plains",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle took place on 20 June 451 and is considered one of the last major military operations of the Western Roman Empire. Attila died only two years later in 453, and his empire rapidly disintegrated after the subsequent Battle of Nedao in 454. Historians agree the decisive moment was actually the earlier siege of Aurelianum (modern Orléans), which blocked the Hunnic advance before the plains battle even began."
+        }
+      ],
+      "commonsFile": "Thuróczy_krónika_-_Attila_király_csatája_a_catalaunumi_síkon.jpg"
     },
     {
       "id": "evt-gth-thorismund",
@@ -827,41 +1264,68 @@
       "id": "evt-gth-euric",
       "label": "Euric Becomes Visigothic King",
       "year": 466,
-      "description": "Euric killed his brother Theodoric II and turned the Visigothic kingdom from a Roman client into an independent power, expanding aggressively into Spain and southern Gaul.",
+      "description": "Euric seized the Visigothic throne in 466 by killing his brother Theodoric II, then transformed the kingdom from a nominal Roman client into an outright independent power — and expanded it dramatically across southern Gaul and most of Hispania.",
       "wikiSlug": "Euric",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Euric was the son of Theodoric I, making the family tree a sequence of murders: Thorismund killed (by Theodoric II), Theodoric II killed (by Euric). He ruled until 484, one of the longer Gothic reigns. His expansion happened to coincide exactly with the final collapse of the western empire in the 470s, which left a power vacuum he was well-positioned to fill."
+        }
+      ],
+      "commonsFile": "Eurico,_rey_de_los_Visigodos_(Museo_del_Prado).jpg"
     },
     {
       "id": "evt-gth-euric-code",
       "label": "The Code of Euric",
       "year": 475,
-      "description": "The Visigothic king Euric issued one of the earliest written Germanic law codes, blending Gothic custom with Roman law.",
+      "description": "Around 475 Euric issued the Code of Euric — one of the earliest written law codes produced by any Germanic people, blending Gothic custom with Roman legal form, drafted in Latin by a Roman lawyer named Leo.",
       "wikiSlug": "Code_of_Euric",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The man who actually compiled the code was Leo of Narbonne, a Roman lawyer and Euric's principal counsellor — meaning a Roman jurist wrote the legal foundation of a Gothic kingdom. The code was issued probably at Toulouse and confirmed Gothic customs while reshaping them in Roman legal language. It would later be superseded, partly, by Alaric II's Breviary, which was aimed specifically at the Roman subjects Euric's code had largely ignored."
+        }
+      ],
+      "commonsFile": "Clermont,_Bibliothèque_du_Patrimoine,_MS_201_(175)_fol_11v_Lex_Romana_Visigothorum_-_Incipit.jpg"
     },
     {
       "id": "evt-gth-euric-hispania",
       "label": "Euric Conquers Most of Hispania",
       "year": 476,
-      "description": "Euric's armies overran the Iberian Peninsula, ending the last remnants of direct Roman administration and making the Visigoths the dominant power of the western Mediterranean.",
+      "description": "In the 470s Euric's armies swept across the Iberian Peninsula, ending the last remnants of direct Roman administration and making the Visigoths the dominant power in the western Mediterranean — all while the western empire was visibly dying around him.",
       "wikiSlug": "Euric",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Euric's Iberian conquests came during the same window (around 476) when Romulus Augustulus, the last western Roman emperor, was deposed by Odoacer — meaning Euric effectively outlasted the empire he was supposedly serving. He ruled until 484, leaving his son Alaric II a kingdom spanning most of the Iberian Peninsula plus large parts of southern Gaul."
+        }
+      ]
     },
     {
       "id": "evt-gth-odoacer",
       "label": "Odoacer Deposes the Last Western Emperor",
       "year": 476,
-      "description": "The Germanic commander Odoacer removed Romulus Augustulus and ruled Italy as king, ending the Western Roman line.",
+      "description": "In 476 CE a Germanic officer named Odoacer (\"OH-doh-AY-ser\") deposed the last western emperor — a child named Romulus Augustulus — sent the imperial regalia to Constantinople, and ruled Italy as king himself, the act historians traditionally call the fall of the Western Roman Empire.",
       "wikiSlug": "Odoacer",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Odoacer was from the Middle Danube region and had risen through the ranks of the Roman army before leading the revolt. He kept the Roman Senate functioning and the civil administration almost entirely intact during his 17-year rule, meaning Theodoric inherited a working state, not a ruin. The eastern emperor formally recognized him only as a kind of viceroy, never fully endorsing his title."
+        }
+      ],
+      "commonsFile": "Coin_of_Odoacer_at_the_British_Museum_(obverse).png"
     },
     {
       "id": "evt-gth-roman-senate-odoacer",
@@ -887,21 +1351,35 @@
       "id": "evt-gth-alaric-ii-breviary",
       "label": "Breviary of Alaric",
       "year": 506,
-      "description": "Alaric II issued the Breviary of Alaric — a systematic digest of Roman law for his Gallo-Roman subjects — demonstrating Visigothic commitment to governing through recognized legal frameworks.",
+      "description": "In 506 CE Alaric II published the Breviary of Alaric — a full digest of Roman law, compiled by Roman jurists, officially issued for his Gallo-Roman subjects — a barbarian king producing an authoritative edition of Roman law for the Romans he ruled.",
       "wikiSlug": "Breviary_of_Alaric",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Breviary was promulgated on 2 February 506, the 22nd year of Alaric II's reign. It explicitly did not apply to Visigothic nobles, who continued to live under Euric's Gothic code — the two populations had separate legal systems running in parallel under one king. The text also addressed Catholic Church matters in Book 16, even though Alaric himself was Arian."
+        }
+      ],
+      "commonsFile": "Paris,_BnF_Ms_Latin_4404_fol_1v-2r_Breviarium_Alarici_Frontispiece.jpg"
     },
     {
       "id": "evt-gth-vouille",
       "label": "Battle of Vouillé",
       "year": 507,
-      "description": "Clovis and the Franks defeated and killed the Visigothic king Alaric II, driving the Visigoths south into Hispania.",
+      "description": "At the Battle of Vouillé in 507 CE, Clovis and his Frankish army crushed the Visigoths and killed Alaric II, ending the Kingdom of Toulouse and driving the surviving Visigoths south across the Pyrenees into Spain.",
       "wikiSlug": "Battle_of_Vouillé",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Clovis had converted to Catholic Christianity around 500 CE, which allowed him to frame the war against the Arian Visigoths as a holy cause — and the Catholic Gallo-Roman population of the Gothic kingdom had little reason to resist a Catholic conqueror. The battle was fought near modern Poitiers. The later bishop Gregory of Tours recorded a tradition that Clovis killed Alaric II personally, though most historians treat the personal duel as legendary embellishment."
+        }
+      ],
+      "commonsFile": "Clovis_tue_Alaric_II.jpg"
     },
     {
       "id": "evt-gth-clovis-franks",
@@ -927,61 +1405,103 @@
       "id": "evt-gth-toledo",
       "label": "The Visigothic Kingdom of Toledo",
       "year": 540,
-      "description": "The Visigoths re-centered their kingdom on the Iberian Peninsula with its capital at Toledo.",
+      "description": "After the loss of Gaul, the Visigoths rebuilt their kingdom on the Iberian Peninsula with Toledo as its new capital — a state that would rule most of Spain for two more centuries after the western empire itself was gone.",
       "wikiSlug": "Visigothic_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Visigothic Kingdom of Toledo eventually resolved its Arian-Catholic divide by converting the whole Gothic people to Catholic Christianity — the same fault line that had helped destroy the Toulouse kingdom was finally closed. The kingdom lasted until 711, when an Arab and Berber army crossed from North Africa and destroyed it, ending over 300 years of Gothic rule on the peninsula."
+        }
+      ],
+      "commonsFile": "Leovigild_CNG_97-722237_(obverse).jpg"
     },
     {
       "id": "evt-gth-theodoric-departs",
       "label": "Theodoric Sent West by Constantinople",
       "year": 488,
-      "description": "The eastern emperor Zeno commissioned Theodoric the Amal to invade Italy and overthrow Odoacer, solving two problems: removing a dangerous Goth from the Balkans and replacing an unrecognized ruler in Italy.",
+      "description": "Around 488, Emperor Zeno of Constantinople solved his Theodoric problem with elegant cynicism: he commissioned the restless Ostrogothic king to invade Italy and overthrow Odoacer, dispatching one dangerous force by aiming it at another.",
       "wikiSlug": "Theodoric_the_Great",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodoric had spent years as a hostage in Constantinople as a boy, absorbing Roman imperial culture firsthand. Despite only ever calling himself rex (king), later Italian aristocrats gave him the imperial title princeps, and Constantinople sent him the actual western imperial regalia in 497. His realm eventually stretched from the Atlantic to the Adriatic, making him the most powerful ruler in the former western empire."
+        }
+      ],
+      "commonsFile": "Teodorico_re_dei_Goti_(493-526).png"
     },
     {
       "id": "evt-gth-isonzo-verona",
       "label": "Theodoric Defeats Odoacer at Isonzo and Verona",
       "year": 489,
-      "description": "Theodoric won two major field battles against Odoacer in 489, at the Isonzo River and near Verona, driving his opponent to refuge in Ravenna.",
+      "description": "In 489 Theodoric crushed Odoacer in two major pitched battles — at the Isonzo River near the Alps and then again near Verona — driving him back toward Ravenna and establishing Gothic supremacy in the Italian field.",
       "wikiSlug": "Theodoric_the_Great",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A third battle followed at the Adda River in 490 before Odoacer was finally pinned inside Ravenna. The speed of the Gothic advance surprised contemporary observers; within a single campaign season Theodoric had seized most of the peninsula, leaving only the swamp-fortified capital to reduce. Theodoric fought at the head of an entire migrating people, not just an army."
+        }
+      ],
+      "commonsFile": "Europe_at_the_death_of_Theoderic_the_Great_in_526.jpg"
     },
     {
       "id": "evt-gth-ravenna-siege",
       "label": "Siege of Ravenna",
       "year": 490,
-      "description": "Theodoric blockaded Ravenna for three years; the city's swamp defenses made it virtually impregnable until famine and a naval victory forced Odoacer to negotiate.",
+      "description": "After sweeping the Italian field, Theodoric found Ravenna effectively impregnable: the city sat in marshland that made assault impossible, and he had to blockade it for three years before starvation and a Gothic naval victory forced Odoacer to negotiate.",
       "wikiSlug": "Theodoric_the_Great",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ravenna had been the western imperial capital since 402 because its swamp-girdle made it nearly impossible to take by force — the same quality that would keep it as Theodoric's own capital afterward. The naval battle that broke the siege cut off Odoacer's last supply route across the Adriatic. The city yielded in 493 by treaty, not by storm."
+        }
+      ],
+      "commonsFile": "Ravenna,_a_study_(1913)_(14763743132).jpg"
     },
     {
       "id": "evt-gth-theodoric-italy",
       "label": "Theodoric the Great Conquers Italy",
       "year": 493,
-      "description": "The Ostrogothic king Theodoric defeated and killed Odoacer and established a Gothic-Roman kingdom ruled from Ravenna.",
+      "description": "In 493 Theodoric the Great founded the Ostrogothic Kingdom of Italy, ruling as king from Ravenna and deliberately presenting himself as a restorer of Roman civilization rather than its conqueror.",
       "wikiSlug": "Theodoric_the_Great",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodoric was the first ruler since the empire's fracture to hold a domain stretching from what is now southern France to the western Balkans. He governed as a patrician of the eastern empire in theory while acting as a fully independent western king in practice — a studied legal ambiguity that kept Constantinople nominally satisfied. The Italian Senate, the consulship, and the Roman tax system all continued under his rule with minimal disruption."
+        }
+      ],
+      "commonsFile": "Teodorico_re_dei_Goti_(493-526)_white.jpg"
     },
     {
       "id": "evt-gth-odoacer-killed",
       "label": "Theodoric Kills Odoacer at Ravenna",
       "year": 493,
-      "description": "Theodoric invited Odoacer to a banquet under a peace treaty and personally killed him; ancient sources report he declared that Odoacer had no bones — a bitter warrior's joke.",
+      "description": "Ten days after the peace treaty that was supposed to give both men joint rule of Italy, Theodoric personally killed Odoacer at a banquet — a founding act of treachery that the later philosopher-king's admirers never satisfactorily explained away.",
       "wikiSlug": "Odoacer",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The later writer Jordanes recorded a grim warrior's quip attributed to Theodoric on surveying the body: that Odoacer \"had no bones in him,\" meaning the sword had passed clean through. Historians treat the anecdote as almost certainly invented by a court-flattering source, though the murder itself is not in doubt. Odoacer had ruled Italy for 17 years and by most accounts done so reasonably well."
+        }
+      ],
+      "commonsFile": "Kingdom_of_Italy_-_476_to_479_AD.png"
     },
     {
       "id": "evt-gth-ravenna",
@@ -997,41 +1517,68 @@
       "id": "evt-gth-sant-apollinare",
       "label": "Sant'Apollinare Nuovo, Ravenna",
       "year": 504,
-      "description": "Theodoric built the palatine basilica of Sant'Apollinare Nuovo in Ravenna, decorated with magnificent mosaics; the building stands today as one of the finest examples of early medieval architecture.",
+      "description": "In 504 Theodoric dedicated Sant'Apollinare Nuovo in Ravenna, his personal palace chapel, and lined its walls with mosaics of exceptional quality — an Arian church built to proclaim that Gothic Christianity was every bit as magnificent as Roman Catholicism.",
       "wikiSlug": "Sant'Apollinare_Nuovo",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The basilica was originally dedicated to \"Christ the Redeemer\"; its current name dates only from the 9th century, after Catholic authorities took it over and systematically replaced the Arian mosaics with their own. Some of Theodoric's original mosaics survive in the upper nave, including a famous procession of martyrs — though the portraits of Gothic courtiers that once flanked the palace mosaic were scraped out after the Byzantine conquest. The building is a UNESCO World Heritage Site."
+        }
+      ],
+      "commonsFile": "Ravenna,_sant'apollinare_nuovo,_ext._01.JPG"
     },
     {
       "id": "evt-gth-mausoleum-theodoric",
       "label": "Mausoleum of Theodoric Built",
       "year": 520,
-      "description": "Theodoric's massive circular mausoleum outside Ravenna, capped by a monolithic stone dome quarried and transported without mortar joints, remains a masterwork of early medieval construction.",
+      "description": "Around 520 Theodoric built his own mausoleum outside Ravenna, crowned with a single monolithic limestone slab roughly 33 feet (10 meters) across and weighing around 230 tons — a dome that is one solid piece of rock, not Roman mortared masonry.",
       "wikiSlug": "Mausoleum_of_Theodoric",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The leading theory is that the stone was quarried on the Istrian coast across the Adriatic, though a closer Apennine source is also argued; how it was moved and lifted without modern equipment remains unexplained. The building is the only Ostrogothic royal monument still standing in anything close to its original form. After the Byzantine conquest Theodoric's bones were reportedly removed and the tomb repurposed, but the structure itself survived intact."
+        }
+      ],
+      "commonsFile": "Mausoleum_of_Theodoric_(Ravenna)_-_Exterior.jpg"
     },
     {
       "id": "evt-gth-ostrogothic-admin",
       "label": "Ostrogothic Dual Administration",
       "year": 500,
-      "description": "Theodoric ran Italy through a dual system: Goths held military command, Romans held civil offices, with the Roman Senate, law courts, and tax administration left substantially intact.",
+      "description": "Theodoric ran Italy as a deliberate dual state: Goths held all military posts, Romans ran every civil office — the Senate, courts, treasury, and bureaucracy — creating a kingdom that looked Roman from the inside and Gothic from the barracks.",
       "wikiSlug": "Ostrogothic_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodoric formally called himself \"King of the Goths and Romans,\" signaling that he intended to govern both peoples rather than just rule over one. The old senatorial dynasties like the Anicii and Symmachi found the Gothic regime a stable patron; their consuls and prefects served as under Theodoric much as under any Roman emperor. The Ostrogothic Kingdom at its peak encompassed most of Italy and significant parts of the western Balkans and southern France."
+        }
+      ],
+      "commonsFile": "(Ostrogothic)_Kingdom_of_italy_-_508_to_534_AD.png"
     },
     {
       "id": "evt-gth-edictum-theodorici",
       "label": "Edictum Theodorici",
       "year": 500,
-      "description": "Theodoric issued a law code (the Edictum Theodorici) applicable to both Goths and Romans, aiming to reduce conflict between the two communities through a shared legal standard.",
+      "description": "Theodoric issued the Edictum Theodorici, a law code applying equally to Goths and Romans, intended to reduce friction between the two communities sharing the same peninsula under very different legal traditions.",
       "wikiSlug": "Edictum_Theodorici",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Edictum is one of several Germanic law codes from this era (alongside Visigothic and Burgundian codes) that tried to manage the collision of Roman civil law and Germanic customary law in the same territory. Its date is still debated by scholars — some place it early in the reign, others later. The code's very existence shows Theodoric understood that a dual military-civil state only works if the two sides have a common legal floor to stand on."
+        }
+      ]
     },
     {
       "id": "evt-gth-roman-aristocrats",
@@ -1047,11 +1594,18 @@
       "id": "evt-gth-cassiodorus",
       "label": "Cassiodorus Serves the Gothic Court",
       "year": 510,
-      "description": "The Roman senator Cassiodorus administered and chronicled the Ostrogothic state, later preserving classical learning in his monastery.",
+      "description": "The Roman senator Cassiodorus (\"kas-ee-oh-DOR-us\") served as Theodoric's chief administrator and letter-writer, producing the official correspondence that kept the Gothic-Roman dual state running, and later founded a monastery dedicated to preserving classical learning.",
       "wikiSlug": "Cassiodorus",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cassiodorus's collected letters (the Variae) are one of the primary sources for Theodoric's reign; \"Senator\" was part of his family surname, not a rank. In later life he founded the Vivarium monastery in Calabria, where he organized a scriptorium to copy and preserve both Christian and classical texts at a moment when the ability to read Greek was dying in the Latin West. He also wrote a Gothic history that only survives through Jordanes's abridgment."
+        }
+      ],
+      "commonsFile": "Gesta_Theodorici_-_Flavius_Magnus_Aurelius_Cassiodorus_(c_485_-_c_580).jpg"
     },
     {
       "id": "evt-gth-cassiodorus-variae",
@@ -1077,21 +1631,35 @@
       "id": "evt-gth-boethius",
       "label": "Boethius Executed by Theodoric",
       "year": 524,
-      "description": "The philosopher Boethius, accused of treason, wrote the Consolation of Philosophy in prison before his execution.",
+      "description": "Around 523 Theodoric arrested Boethius (\"boh-EE-thee-us\"), the finest Roman scholar at his court, on charges of treasonous correspondence with Constantinople, and executed him in 524 without the full legal hearing his senatorial rank should have guaranteed.",
       "wikiSlug": "Boethius",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Boethius had already translated portions of Aristotle's logic and written foundational textbooks on arithmetic and music before his arrest; his larger ambition was to render all of Plato and Aristotle into Latin. His local cult in the Diocese of Pavia was formally sanctioned by Rome in 1883. Theodoric also executed Boethius's father-in-law Symmachus, a respected senior senator, on related charges — a double blow that permanently damaged the Gothic regime's reputation with the Roman aristocracy."
+        }
+      ],
+      "commonsFile": "Boethius.jpeg"
     },
     {
       "id": "evt-gth-consolation",
       "label": "Consolation of Philosophy",
       "year": 524,
-      "description": "Boethius' Consolation, written awaiting execution, became one of the most widely read books of the Middle Ages, blending Platonic philosophy with Stoic acceptance of Fortune's wheel.",
+      "description": "In prison awaiting execution, Boethius wrote The Consolation of Philosophy — a dialogue in which Lady Philosophy visits his cell and argues him through despair — and it became one of the most copied and translated books of the entire Middle Ages.",
       "wikiSlug": "Consolation_of_Philosophy",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Consolation was written in 523 and is often called the last great work of the classical Western tradition. It was translated into Old English by King Alfred the Great, into Middle English by Geoffrey Chaucer, and into numerous other medieval vernaculars — its readership was wider than almost any other text between Augustine and Dante. Strikingly, the book barely mentions Christianity despite Boethius being a Christian theologian; it reasons entirely from classical Platonic and Stoic philosophy."
+        }
+      ],
+      "commonsFile": "Consolation_of_philosophy_1385_boethius_images.jpg"
     },
     {
       "id": "evt-gth-symmachus-execution",
@@ -1127,21 +1695,34 @@
       "id": "evt-gth-amalasuntha",
       "label": "Amalasuntha as Regent",
       "year": 526,
-      "description": "Theodoric's daughter Amalasuntha governed the Ostrogothic kingdom as regent for her son, emphasizing Roman culture and seeking closer ties with Constantinople against Gothic noble opposition.",
+      "description": "After Theodoric's death in 526, his daughter Amalasuntha (\"ah-mah-lah-SOON-tah\") ruled the Ostrogothic kingdom as regent for her young son, pushing a pro-Roman, pro-Constantinople line until Gothic nobles forced her hand, her son died, and her co-ruler had her strangled in 535.",
       "wikiSlug": "Amalasuntha",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Amalasuntha was praised by both Cassiodorus and the eastern historian Procopius as unusually wise and trilingual in Latin, Greek, and Gothic. Her insistence on giving her son Athalaric a Roman literary education rather than a warrior's upbringing was the specific flashpoint that united the Gothic nobility against her. Emperor Justinian used her murder as his legal and moral pretext to launch the Gothic War, the catastrophic 20-year conflict that would destroy both the Ostrogothic kingdom and much of Italy."
+        }
+      ],
+      "commonsFile": "Ritratto_femminile_di_tipo_ariadne-amalasunta,_480-525_dc_ca,_da_s.m._ai_monti_(musei_capitolini).jpg"
     },
     {
       "id": "evt-gth-amalasuntha-murdered",
       "label": "Murder of Amalasuntha",
       "year": 535,
-      "description": "Amalasuntha was murdered on the orders of her co-ruler Theodahad; Justinian used her death as a pretext to launch the Gothic War.",
+      "description": "The Ostrogothic queen-regent Amalasuntha, a multilingual, Roman-educated ruler who had governed Italy on behalf of her son, was deposed and strangled by her co-ruler Theodahad in 535. Emperor Justinian, who had cultivated her as a friendly contact, seized on her murder as the legal excuse he needed to invade Italy.",
       "wikiSlug": "Amalasuntha",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Amalasuntha governed as regent for her son Athalaric and then as queen regnant after he died — a rare case of a woman ruling an independent Germanic kingdom in her own right. Procopius describes her as speaking Latin, Greek, and Gothic fluently. Her murder came just six months after she had become sole ruler, the result of Gothic nobles who resented her pro-Roman sympathies and her authority over them."
+        }
+      ]
     },
     {
       "id": "evt-gth-gothic-arian-clergy",
@@ -1157,51 +1738,86 @@
       "id": "evt-gth-justinian-war",
       "label": "Justinian Launches the Gothic War",
       "year": 535,
-      "description": "The Eastern emperor Justinian sent armies to reconquer Italy from the Ostrogoths, beginning a devastating twenty-year war.",
+      "description": "In 535 Emperor Justinian I launched his great project of reconquest, sending armies to retake Italy from the Ostrogoths as part of a broader campaign to restore the old Roman Empire from Constantinople. The war would grind on for twenty years and leave Italy more ruined than any barbarian invasion had.",
       "wikiSlug": "Gothic_War_(535–554)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Gothic War was part of a larger reconquest that Justinian had already proven out in North Africa, where his general Belisarius had smashed the Vandal kingdom and retaken Carthage in just a year in 533–534. Italy was a far harder target: the peninsula is long and mountainous, defensible at almost every point, and the Ostrogoths had two generations of settlement and the loyalty of much of the local population behind them."
+        }
+      ],
+      "commonsFile": "Erster_und_Zweiter_Gotenkrieg.png"
     },
     {
       "id": "evt-gth-belisarius-sicily",
       "label": "Belisarius Takes Sicily",
       "year": 535,
-      "description": "Justinian's general Belisarius landed in Sicily and advanced rapidly northward; the Ostrogoths, poorly prepared, offered little resistance to the initial invasion.",
+      "description": "Belisarius, Justinian's finest general, landed in Sicily in 535 and swept the island with almost no resistance — the Ostrogoths had never fortified it heavily and the local population offered no fight on their behalf.",
       "wikiSlug": "Belisarius",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Belisarius had already won fame by destroying the Vandal kingdom in North Africa the previous year, a campaign that took less than twelve months from landing to victory. His Italian campaign opened just as impressively: Sicily fell so quickly that the main difficulty was not the enemy but the logistics of keeping a Mediterranean-scale amphibious army fed and moving."
+        }
+      ],
+      "commonsFile": "Belisarius_mosaic.jpg"
     },
     {
       "id": "evt-gth-belisarius-naples",
       "label": "Belisarius Captures Naples",
       "year": 536,
-      "description": "Belisarius stormed Naples through a dry aqueduct channel, surprising the defenders and opening the road to Rome.",
+      "description": "Belisarius took the heavily defended city of Naples in 536 by sending a commando party through a disused aqueduct channel into the city at night, surprising the garrison and opening the gates.",
       "wikiSlug": "Belisarius",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Our source for the aqueduct story is Procopius, who served on Belisarius's personal staff and was present for the war. Procopius himself notes that the story has the texture of a literary set piece — secret tunnel entry is a stock dramatic device in ancient history writing — so the precise details may be sharpened even if the city did fall to a surprise infiltration. The fall of Naples cleared the road north to Rome, which the Gothic garrison then abandoned without a fight."
+        }
+      ],
+      "commonsFile": "Belisarius_by_Francois-Andre_Vincent.jpg"
     },
     {
       "id": "evt-gth-belisarius-rome",
       "label": "Belisarius Enters Rome",
       "year": 536,
-      "description": "Belisarius occupied Rome without a fight as the Gothic garrison withdrew, beginning a siege that would last over a year.",
+      "description": "In late 536 Belisarius entered Rome as the Gothic garrison simply marched out, choosing not to defend the city. It was the first time a Roman army had held the city in over sixty years.",
       "wikiSlug": "Gothic_War_(535–554)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rome's capture without a fight was a propaganda windfall for Justinian but a tactical problem for Belisarius: the city's enormous perimeter walls required more troops to defend than he had. The Goths promptly recognized this and returned with a full army the following year to besiege him inside the very city they had just vacated. The walls that saved Belisarius were the Aurelian Walls, built in the 270s CE during an earlier era of external threats."
+        }
+      ],
+      "commonsFile": "Tancredi_Scarpelli_-_Byzantine_General_Belisarius_conquering_Rome_in_536_(537).jpg"
     },
     {
       "id": "evt-gth-siege-of-rome",
       "label": "Gothic Siege of Rome",
       "year": 537,
-      "description": "The Ostrogothic king Witigis besieged Rome with a large army for more than a year; Belisarius held the city using Aurelian's walls and a strategy of harassment and supply.",
+      "description": "The new Gothic king Witigis besieged Belisarius inside Rome for over a year beginning in 537, throwing repeated assaults at the city's massive third-century walls and cutting the aqueducts to deny the defenders water.",
       "wikiSlug": "Gothic_War_(535–554)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Procopius gives a remarkably detailed account of the siege, including the specific engagements at each of Rome's gates and the logistics Belisarius used to keep the city supplied by sea via the port of Ostia. The Goths cut Rome's famous aqueducts — the same infrastructure Theodoric had so carefully maintained — to deny the defenders mill power as much as drinking water; Belisarius improvised floating mills on the Tiber to keep grain grinding. The siege ended when Byzantine reinforcements arrived and Witigis could no longer maintain his encircling army."
+        }
+      ],
+      "commonsFile": "Vitige,_king_of_the_Goths,_besieging_the_mausoleum_of_Hadrian_in_Rome_in_537_(L._Pogliaghi).png"
     },
     {
       "id": "evt-gth-belisarius",
@@ -1217,21 +1833,35 @@
       "id": "evt-gth-witigis-ravenna",
       "label": "Witigis Surrenders Ravenna",
       "year": 540,
-      "description": "The Gothic king Witigis surrendered Ravenna by a ruse — Belisarius let the Goths believe he would become their emperor — and was taken to Constantinople as a prisoner.",
+      "description": "Belisarius captured the impregnable Ostrogothic capital Ravenna in 540 not by storm but by a spectacular deception: he let the Goths believe he would accept their offer to crown him western emperor, walked into the city under that pretense, and then seized it for Justinian instead.",
       "wikiSlug": "Witigis",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Witigis and the Gothic leaders genuinely believed they were inviting Belisarius to become a western emperor, a reasonable offer from their point of view — powerful generals had seized the western throne before. Belisarius played along, and then handed Ravenna and Witigis to Constantinople. Witigis was taken to the eastern capital, given a comfortable retirement, and died there in 542. Ravenna's natural defenses were extraordinary: it sat in a coastal swamp accessible only by narrow causeways, which is why the Goths had chosen it as their capital in the first place."
+        }
+      ],
+      "commonsFile": "Quarter_Siliqua_of_Witigis.jpg"
     },
     {
       "id": "evt-gth-totila",
       "label": "Totila's Gothic Revival",
       "year": 541,
-      "description": "The energetic king Totila reconquered most of Italy and held it for a decade against the Eastern Empire.",
+      "description": "From the edge of total collapse in 541, the new Gothic king Totila reconquered nearly all of Italy within two years and held it against the full military weight of the Eastern Roman Empire for a decade, proving himself one of the most capable war leaders the Goths ever produced.",
       "wikiSlug": "Totila",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Totila's birth name was Baduila — coins he minted still read BADUILA REX — and he was related to the Gothic royal family but not of the main Amali line. His military successes were built not just on battlefield skill but on the political insight that Justinian's tax regime had turned the Italian population against the reconquest: ordinary Italians were finding imperial liberation considerably worse than Gothic rule, and Totila exploited that resentment systematically."
+        }
+      ],
+      "commonsFile": "Francesco_Salviati_-_Portrait_of_Totila,_c._1549.jpg"
     },
     {
       "id": "evt-gth-totila-rome-retaken",
@@ -1257,80 +1887,134 @@
       "id": "evt-gth-totila-social-policy",
       "label": "Totila's Alliance with the Roman Poor",
       "year": 543,
-      "description": "Totila freed slaves, cancelled rents, and invited the dispossessed to join his army, presenting the Gothic cause as liberation from aristocratic Roman landlords and building a broad coalition.",
+      "description": "Totila fought the war with a social program as much as an army: he freed enslaved people who joined him, cancelled the rents that great landowners collected, and wrote sophisticated letters in Latin to the Roman Senate arguing that the Goths were liberating Italy from imperial exploitation — a Gothic king writing classical Roman political rhetoric against Constantinople.",
       "wikiSlug": "Totila",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Roman sources, hostile to Totila by definition, cannot quite suppress how effective this strategy was: enslaved people, dispossessed farmers, and poor Italians flocked to his cause in ways they had never supported the earlier Gothic kings. Totila also built a Gothic fleet by controlling Italian ports and recruiting local shipwrights — a people who had arrived from the steppe two centuries earlier was now fighting naval actions in the Adriatic and raiding Sicily from the sea."
+        }
+      ],
+      "commonsFile": "Baduila_BMC_044.jpg"
     },
     {
       "id": "evt-gth-narses-appointed",
       "label": "Narses Appointed Commander in Italy",
       "year": 551,
-      "description": "Justinian replaced the recalled Belisarius with the elderly eunuch general Narses, who arrived with a large, well-supplied army and a reputation for meticulous logistics.",
+      "description": "In 551 Justinian replaced the repeatedly undermined Belisarius with Narses, an elderly castrated palace official who had never had a conventional military career but whom Justinian trusted absolutely — and crucially, gave him something Belisarius had never received: a large, fully funded, fully supplied army.",
       "wikiSlug": "Narses",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Narses was around seventy-five years old when he took command, having spent his career in the imperial treasury and household. Eunuchs (castrated men) held many of the most powerful positions in the Byzantine court precisely because they could not found dynasties or pass power to children, making them trusted royal servants. He had, however, shown competence on a smaller Italian campaign in 538, so the appointment was not purely a political gesture — Justinian knew what he was getting."
+        }
+      ],
+      "commonsFile": "Narses.jpg"
     },
     {
       "id": "evt-gth-taginae",
       "label": "Battle of Taginae",
       "year": 552,
-      "description": "The eunuch general Narses defeated and killed Totila, breaking Ostrogothic resistance for good.",
+      "description": "In July 552 the Byzantine general Narses met Totila's Gothic army at Taginae in the Apennine mountains, anchored his flanks with massed dismounted archers, broke the Gothic cavalry charge, and killed Totila as he fled the battlefield — the single blow that ended Gothic resistance.",
       "wikiSlug": "Battle_of_Taginae",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Narses's tactical innovation at Taginae was to place his best archers on the wings in a crescent, dismounted and dug in, so that a Gothic cavalry charge would ride into a crossfire from both sides while his center held. Totila reportedly tried to delay the battle to wait for reinforcements, using theatrical single-combat displays and maneuvering; Narses attacked before those reinforcements arrived. The battle is also called Busta Gallorum, meaning the \"burial mounds of the Gauls,\" a reference to an ancient battle on the same site."
+        }
+      ],
+      "commonsFile": "Hermann_Knackfuß_-_Totila's_death_after_the_battle_of_Taginae,_552.jpg"
     },
     {
       "id": "evt-gth-mons-lactarius",
       "label": "Battle of Mons Lactarius",
       "year": 553,
-      "description": "Narses destroyed the last organized Gothic army under Teia at Mons Lactarius in Campania; the remaining Goths negotiated surrender and most crossed the Alps into Frankish territory.",
+      "description": "In late 552 the last Gothic king Teia made his final stand at Mons Lactarius, near Mount Vesuvius, was killed in a daylong battle, and the surviving Goths negotiated terms and crossed the Alps out of Italy for good — the end of the Ostrogothic kingdom as an organized state.",
       "wikiSlug": "Battle_of_Mons_Lactarius",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Teia had gathered the remaining Gothic treasury at Cumae and led the last Gothic forces south to face Narses near Vesuvius. The battle reportedly lasted two days with enormous casualties on both sides, and Teia was killed fighting in the front rank. The Gothic survivors who crossed the Alps were absorbed into Frankish territory; some settled in what is now Bavaria. The wikiExtract dates the battle to October 552, which conflicts with the event year of 553, but most sources place it in late 552."
+        }
+      ],
+      "commonsFile": "Gothic_Battle_of_Mons_Lactarius_on_Vesuvius.jpg"
     },
     {
       "id": "evt-gth-end",
       "label": "The End of Ostrogothic Italy",
       "year": 554,
-      "description": "Justinian's Pragmatic Sanction reimposed imperial rule over a ruined Italy, closing the Gothic chapter of the West.",
+      "description": "In 554 Justinian issued the Pragmatic Sanction, formally reimposing Roman imperial law over Italy, restoring confiscated estates to their pre-war owners, and erasing the Ostrogothic legal order — on paper a triumph, in reality a decree written over a half-empty, plague-ravaged ruin.",
       "wikiSlug": "Gothic_War_(535–554)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pragmatic Sanction canceled all of Totila's social reforms in one stroke: the enslaved people he had freed, the rents he had cancelled, the dispossessed farmers he had settled were all legally returned to their pre-war status. The great landlords got their property back; the poor got the same regime that had made them prefer Gothic rule in the first place. The decree also reimposed the full weight of imperial Roman taxation on a peninsula that had just lost a large fraction of its population."
+        }
+      ],
+      "commonsFile": "Archive-ugent-be-79D46426-CC9D-11E3-B56B-4FBAD43445F2_DS-212_(cropped).jpg"
     },
     {
       "id": "evt-gth-pragmatic-sanction",
       "label": "Pragmatic Sanction of 554",
       "year": 554,
-      "description": "Justinian's Pragmatic Sanction restored imperial law, returned confiscated estates to their pre-war owners, and formally ended the Ostrogothic legal order, though Italy was too devastated to recover quickly.",
+      "description": "The Pragmatic Sanction of 554 was Justinian's formal decree reimposing Roman law on Italy, reversing all of Totila's social reforms, and restoring the pre-war property order — a legal clean sweep that undid twenty years of Gothic social policy in a single document.",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Sanction's reversal of Totila's reforms meant that enslaved people he had freed were legally re-enslaved, land redistributions were cancelled, and the fiscal regime that had driven ordinary Italians to prefer Gothic rule came back in full. The document was a kind of political irony made permanent: the \"restoration\" of Rome meant restoring the exact conditions of inequality that had made the reconquest so costly and so resented."
+        }
+      ]
     },
     {
       "id": "evt-gth-italy-devastation",
       "label": "Italy Devastated by the Gothic War",
       "year": 554,
-      "description": "Twenty years of siege, famine, and plague had depopulated cities, ruined the aqueducts, and shattered the agricultural economy; Italy would not recover its pre-war population for centuries.",
+      "description": "By 554 twenty years of siege, famine, scorched earth, and plague had broken Italy in ways that would take centuries to repair: cities emptied, aqueducts smashed, farmland abandoned, and the population reduced to a fraction of what it had been under the Ostrogoths.",
       "wikiSlug": "Gothic_War_(535–554)",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The aqueducts, which Theodoric had famously maintained and which Belisarius had been forced to defend against Gothic sabotage, were permanently destroyed during the final phases of the war and never fully rebuilt. Rome's population, which had still numbered in the hundreds of thousands in the early sixth century, may have fallen to as low as 20,000–30,000 in the decades after the war — a city-sized hollowing out that reshaped the physical landscape as ancient monuments were quarried for building material. Italy's pre-war population level is generally thought not to have recovered until the High Middle Ages."
+        }
+      ]
     },
     {
       "id": "evt-gth-lombard-arrival",
       "label": "Forward Pointer: Lombard Invasion of Italy",
       "year": 568,
-      "description": "Just fourteen years after Justinian's reconquest, the Lombards invaded northern Italy, undoing the Byzantine restoration and confirming that the Ostrogothic interlude had been Italy's last era of post-Roman stability for generations.",
+      "description": "Just fourteen years after Justinian's supposed restoration, the Lombards — a Germanic confederation from the middle Danube — walked into a northern Italy stripped of defenders by the Gothic War and took most of it almost without a fight in 568, proving that the reconquest had hollowed out exactly the thing it claimed to restore.",
       "wikiSlug": "Lombards",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Lombards had lived near what is now Austria and Slovenia before their Italian invasion, and some of their warriors had actually served in Narses's Byzantine army against the Goths — they knew Italy's geography, its political weakness, and its depleted defenses from the inside. Their name survives today in Lombardy, the northern Italian region that still bears it. Unlike the Ostrogoths, the Lombards never tried to preserve Roman institutions: they divided Italy into semi-independent duchies and ruled it as a patchwork of local power rather than a unified kingdom, a settlement that shaped northern Italian politics for centuries."
+        }
+      ],
+      "commonsFile": "Italien_zur_Langobardenzeit.jpg"
     },
     {
       "id": "evt-gth-visigothic-hispania-continues",
@@ -1366,11 +2050,17 @@
       "id": "evt-gth-slavery-captives",
       "label": "Roman Captives as Gothic Slaves",
       "year": 260,
-      "description": "Gothic raiding parties took enormous numbers of Roman captives who were settled in the Gothic territories as agricultural laborers; some became artisans and clergy, transmitting Roman skills northward.",
+      "description": "Gothic raiding parties brought Roman captives back to the Pontic steppe by the tens of thousands, settling them as farm laborers and craft workers — and inadvertently seeding Gothic society with Roman technical skills and, eventually, Christianity.",
       "wikiSlug": "Goths",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Among the captives were skilled artisans and Christian clergy, whose forced presence in Gothic communities became one of the main channels through which both Roman craftsmanship and the Christian faith first reached the Goths. The slave economy was therefore one of the stranger drivers of Gothic cultural transformation — ideas and techniques that would later define Gothic civilization arrived in the heads of people who had been taken by force. The Gothic economy was, in a real sense, partly built on the unfree."
+        }
+      ]
     },
     {
       "id": "evt-gth-ostrogothic-trade-italy",
@@ -1406,21 +2096,35 @@
       "id": "evt-gth-gothic-war-plague",
       "label": "Plague of Justinian During Gothic War",
       "year": 542,
-      "description": "The Plague of Justinian struck Italy during the Gothic War, killing soldiers and civilians on both sides and further disrupting the food supply in an already devastated peninsula.",
+      "description": "The Plague of Justinian, almost certainly the first great outbreak of bubonic plague in European history, hit the Mediterranean beginning in 541 and swept through Italy in the middle of the Gothic War, killing soldiers and civilians on both sides and finishing off a peninsula that war and famine had already gutted.",
       "wikiSlug": "Plague_of_Justinian",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The plague arrived in Roman Egypt in 541 and spread around the entire Mediterranean within three years. Emperor Justinian himself caught it and survived, which is how we know the year: his court historian Procopius noted it. Bubonic plague kills by swelling the lymph nodes into black lumps called buboes (hence the name) and can carry off a large fraction of an exposed population within weeks; estimates for Constantinople alone suggest it killed thousands per day at its peak. In an Italy already depopulated by twenty years of war, the plague removed the farmers, craftsmen, and soldiers who might otherwise have rebuilt."
+        }
+      ],
+      "commonsFile": "Plaguet03.jpg"
     },
     {
       "id": "evt-gth-frigidus",
       "label": "Goths Fight at the Battle of Frigidus",
       "year": 394,
-      "description": "Theodosius I used Gothic federate troops as shock infantry at the Battle of the Frigidus, where they suffered disproportionate casualties — an experience that deepened Gothic resentment of Roman commanders.",
+      "description": "In 394 CE, Emperor Theodosius I used his Gothic federate troops as front-line shock infantry at the Battle of the Frigidus (a river crossing in the eastern Alps), where roughly half of them died on the brutal first day while Roman regulars waited behind them — a deliberate sacrifice that the Goths did not forget.",
       "wikiSlug": "Battle_of_the_Frigidus",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Frigidus was also a civil war with a religious dimension: Theodosius, a committed Christian, framed his fight against the usurper Eugenius as a defense of the new faith against a last revival of the old pagan order. The battlefield was almost certainly in the Vipava Valley of modern Slovenia, a narrow alpine pass where Theodosius's army had little room to maneuver and the Gothic losses in the chokepoint were especially severe."
+        }
+      ],
+      "commonsFile": "Janez_Vajkard_Valvasor_-_Bitka_med_Teodozijem_in_Evgenijem.jpg"
     },
     {
       "id": "evt-gth-getica-jordanes",
@@ -1436,21 +2140,35 @@
       "id": "evt-gth-gothic-runic",
       "label": "Gothic Runic Inscriptions",
       "year": 300,
-      "description": "A small corpus of runic inscriptions associated with Gothic populations along the Black Sea frontier attests to literacy practices before Ulfilas' new alphabet, linking the Goths to the broader Germanic runic tradition.",
+      "description": "Before Ulfilas, the Goths (like other Germanic peoples) used the Elder Futhark — angular runes carved on weapons, brooches, and small objects. A handful of Gothic runic inscriptions survive from the Black Sea frontier, proving the Goths were not wholly unlettered, but runes were a script for short charms and maker's marks, not for copying out a Bible.",
       "wikiSlug": "Runic_alphabets",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Elder Futhark is the oldest form of the runic alphabet, used across the Germanic world from roughly the second to eighth centuries CE. Runes run horizontally but were adapted for carving on hard surfaces, so their letterforms are angular and avoid curved strokes — a practical constraint that made them poor tools for writing long texts on vellum. Ulfilas borrowed a small number of runic letterforms into his new Gothic alphabet specifically for sounds Greek and Latin had no characters for."
+        }
+      ],
+      "commonsFile": "Björketorpsstenen_runor.jpg"
     },
     {
       "id": "evt-gth-fritigern-religion",
       "label": "Fritigern's Christianity as Diplomacy",
       "year": 376,
-      "description": "Fritigern presented himself as a Christian leader when negotiating with the Roman empire, a calculated move that aligned him with Arian Gothic communities and imperial sympathy.",
+      "description": "When Fritigern negotiated with Emperor Valens in 376, he presented himself as a fellow Arian Christian — the same doctrinal camp Valens belonged to, and a politically loaded alignment in a Roman world where Arian and Nicene Christians were in open ideological conflict.",
       "wikiSlug": "Fritigern",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Arianism held that Christ was the Son of God but was a created being, subordinate to and therefore not co-equal with the Father — the council of Nicaea (325 CE) had ruled that heresy, but eastern emperors including Valens kept favoring it. Fritigern's religious positioning was the direct payoff of the Arian missionary work Ulfilas had done among the Goths for decades: Gothic Christianity had always been Arian, and that accident of conversion history was now a diplomatic asset."
+        }
+      ],
+      "commonsFile": "Baptism_of_Christ._Mosaic_in_Arian_Baptistry._Ravenna,_Italy.jpg"
     },
     {
       "id": "evt-gth-roman-baths-ostrogothic",
@@ -1486,11 +2204,17 @@
       "id": "evt-gth-wielbark-iron",
       "label": "Wielbark Iron-Working",
       "year": 180,
-      "description": "Wielbark-culture settlements show evidence of local iron smelting using bog ore, producing tools and weapons that supported the Gothic communities before their southward migration.",
+      "description": "Wielbark-culture communities smelted their own iron from bog ore — iron-rich deposits that form naturally in marshy ground — producing tools, agricultural implements, and weapons that made them self-sufficient well before they became the Gothic people of the historical record.",
       "wikiSlug": "Wielbark_culture",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bog iron smelting requires no mining: iron compounds precipitate naturally from groundwater in wetlands and can be harvested from the surface. The technology was widespread in Iron Age northern Europe, but Wielbark settlements show localized production suggesting each community maintained its own smithing rather than relying on trade. This iron-working capacity would later translate directly into Gothic military capability during the migration period, when communities moving through hostile territory depended on the ability to forge and repair weapons in the field."
+        }
+      ]
     },
     {
       "id": "evt-gth-chernyakhov-bronze-casting",
@@ -1536,11 +2260,18 @@
       "id": "evt-gth-chernyakhov-trade-amphora",
       "label": "Roman Amphora Imports at Chernyakhov Sites",
       "year": 280,
-      "description": "Archaeological excavations of Chernyakhov settlements find Roman wine and olive oil amphora, fine terra sigillata ware, and bronze vessels, demonstrating active commercial exchange with the empire.",
+      "description": "Roman wine and olive oil amphorae, fine red tableware (terra sigillata), and bronze vessels found inside Chernyakhov settlements are the hard archaeological proof that the Goths were active, prosperous participants in the Roman trade network — not isolated outsiders.",
       "wikiSlug": "Chernyakhov_culture",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Terra sigillata — the glossy red Roman factory pottery found across the empire from Britain to Syria — shows up at sites deep in Gothic territory, well north of the Danube. Roman glass, which required specialized furnaces and skilled glassblowers, also appears at these sites, meaning luxury goods were moving hundreds of miles inland. The Chernyakhov culture flourished from the 2nd through the 5th century AD, and its trade connections to the empire were active for much of that entire span."
+        }
+      ],
+      "commonsFile": "Chernyakhov_culture._Coral,_vessel,_glass,_Roman_amphora._Ukrainian_Academy_of_Sciences_Archaeological_Museum.jpeg"
     },
     {
       "id": "evt-gth-visigothic-reccared",
@@ -1556,11 +2287,18 @@
       "id": "evt-gth-gothic-epic-poetry",
       "label": "Gothic Oral Epic Tradition",
       "year": 450,
-      "description": "Gothic oral poetry celebrated heroes such as Ermanaric and Theodoric; these traditions survived in Old Norse and Old English verse (Beowulf names Gothic kings), reflecting a shared Germanic heroic literary culture.",
+      "description": "Gothic oral poetry celebrated warrior-heroes like Ermanaric and Theodoric in songs passed down through generations, and those stories spread across the entire Germanic world — the same tales later surfacing in Old English epic (Beowulf names Gothic kings) and Old Norse verse centuries after the Goths themselves had vanished.",
       "wikiSlug": "Germanic_heroic_legend",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Germanic heroic legend characteristically reworked real historical figures through the lens of an oral heroic code that prized honor, glory, and loyalty above all else — the historical Ermanaric of the fourth century became a larger-than-life figure in Old Norse sagas and the Old English poem Widsith. This cross-cultural survival of Gothic heroes in non-Gothic literature is one of the clearest signs of how much cultural traffic moved between Germanic peoples during and after the Migration Period."
+        }
+      ],
+      "commonsFile": "A_minstrel_sings_of_famous_deeds_by_J._R._Skelton_c_1910.jpg"
     },
     {
       "id": "evt-gth-gothic-bible-manuscripts",
