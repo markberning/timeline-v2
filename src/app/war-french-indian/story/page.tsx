@@ -10,14 +10,15 @@ import '../../war-civil-war/war-skin.css'
 import { WarBreadcrumb } from '@/components/mode/war-chrome'
 import { WarHeader, WAR_ICONS } from '@/components/mode/war-header'
 import { warCrumbs } from '@/components/mode/theatre-page'
+import { WAR_STORY_COLOR } from '@/lib/wars/layer-colors'
 import { FRENCH_INDIAN as W } from '@/lib/wars/french-indian'
 
 export default function FrenchIndianStoryPage() {
   const spine = [...W.chapters].sort((a, b) => (a.year !== b.year ? a.year - b.year : a.m - b.m))
   return (
-    <div className="war-skin rd-land" style={{ ['--accent' as string]: W.accent } as React.CSSProperties}>
+    <div className="war-skin rd-land" style={{ ['--accent' as string]: 'var(--warstory)' } as React.CSSProperties}>
       <WarHeader backHref="/war-french-indian" title={W.name} />
-      <WarBreadcrumb crumbs={warCrumbs(W, { lane: 'fi-story' })} accent={W.accent} bare />
+      <WarBreadcrumb crumbs={warCrumbs(W, { lane: 'fi-story' })} accent={WAR_STORY_COLOR.dark} bare />
 
       <div className="p-mast">
         <div className="p-eyebrow">The war story</div>

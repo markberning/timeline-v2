@@ -91,8 +91,8 @@ function hl(text: string, q: string) {
 
 function StoryTab() {
   return (
-    <div className="p-page">
-      <a className="p-storycard" href="/war-civil-war/how-the-war-was-fought">
+    <div className="p-page story-spine">
+      <a className="p-storycard story" href="/war-civil-war/how-the-war-was-fought">
         <div className="row">
           <span className="chip"><span className="sq" /><span className="p-label">The Civil War story</span></span>
         </div>

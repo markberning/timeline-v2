@@ -7,6 +7,7 @@
 
 import { MAJORS, THEMES, CHAPTERS } from '@/lib/civil-war-roster'
 import { COMMANDERS } from '@/lib/civil-war-commanders'
+import { WAR_STORY_COLOR, WAR_OFFFIELD_COLOR } from './layer-colors'
 import type { WarConfig } from './types'
 
 // Concrete hexes inlined here (not imported from the 'use client' war-chrome module,
@@ -35,8 +36,8 @@ export const CIVIL_WAR: WarConfig = {
     { id: 'west', kind: 'theatre', label: 'Western Theatre', short: 'Western', groupHead: 'Western', href: '/war-civil-war/western', ready: true, color: { light: '#4e8a52', dark: '#84c089', dot: '#4e8a52' }, skinVar: '--th-west', mapHex: '#84c089' },
     { id: 'tmis', kind: 'theatre', label: 'Trans-Mississippi', short: 'Trans-Miss', href: '/war-civil-war/trans-mississippi', ready: true, color: { light: '#b3852f', dark: '#d8b25a', dot: '#b3852f' }, skinVar: '--th-tmis', mapHex: '#d8b25a' },
     { id: 'naval', kind: 'theatre', label: 'Naval & Coastal', short: 'Naval', href: '/war-civil-war/naval', ready: true, color: { light: '#2c7d99', dark: '#5fb0cc', dot: '#2c7d99' }, skinVar: '--th-naval', mapHex: '#5fb0cc' },
-    { id: 'howfought', kind: 'story', label: 'How the War Happened', short: 'Story', href: '/war-civil-war/how-the-war-was-fought', ready: true, color: { light: WAR_ACCENT, dark: WAR_ACCENT, dot: WAR_ACCENT } },
-    { id: 'offfield', kind: 'offfield', label: 'Off the Battlefield', short: 'Off-Field', href: '/war-civil-war/off-the-battlefield', ready: true, color: { light: '#c2611f', dark: '#e07f3c', dot: '#d96a26' }, skinVar: '--otbf', mapHex: '#d96a26' },
+    { id: 'howfought', kind: 'story', label: 'How the War Happened', short: 'Story', href: '/war-civil-war/how-the-war-was-fought', ready: true, color: WAR_STORY_COLOR, skinVar: '--warstory' },
+    { id: 'offfield', kind: 'offfield', label: 'Off the Battlefield', short: 'Off-Field', href: '/war-civil-war/off-the-battlefield', ready: true, color: WAR_OFFFIELD_COLOR, skinVar: '--otbf', mapHex: '#d96a26' },
   ],
   battles: MAJORS,
   themes: THEMES,

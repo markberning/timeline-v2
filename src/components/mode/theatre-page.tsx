@@ -15,7 +15,7 @@ import { useState } from 'react'
 import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
 import { BattleCard, CordTimeline } from './war-battle-card'
 import { theatreEv, theatreSpine, majorCount, type Theatre } from '@/lib/civil-war-roster'
-import { WAR_EVENTS, WAR_BANDS } from './war-front-door'
+import { WAR_EVENTS } from './war-front-door'
 import { CIVIL_WAR } from '@/lib/wars/civil-war'
 import type { WarConfig } from '@/lib/wars/types'
 
@@ -56,9 +56,6 @@ export interface TheatreData {
   timelineIntro: string
 }
 
-// War-era band colours for the war-switch dropdown dots.
-const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b => [b.id, b.color]))
-
 // The unified ACW breadcrumb: ACW › Theatre › Battle/Event, on EVERY ACW page —
 // all three crumbs are interactive dropdowns (the thread switch lives in the
 // ThreadBar tier above). War switches war (all US wars, color-coded by era,
@@ -72,10 +69,11 @@ const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b =>
 // it unchanged. `civilWarCrumbs` below is a thin Civil-War-bound delegate, so the ~45
 // Civil War leaf pages keep calling it and their output is byte-identical.
 export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; battleId?: string } = {}): Crumb[] {
-  const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band], tint: true }))
-  // This war's signature colour (matches its own option dot) for the war rung tint.
-  const selfWar = WAR_EVENTS.find(w => w.href === cfg.routeBase)
-  const warColor = (selfWar && BAND_COLOR[selfWar.band]) || cfg.accent
+  // The war level is one shared colour for ALL wars — stone (cfg.accent). The
+  // picker list is flattened to the same stone (no per-war band tints), so "war"
+  // reads as one identity everywhere; theatre/story/off-field carry the colour.
+  const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: cfg.accent, tint: true }))
+  const warColor = cfg.accent
   const laneOf = (id?: string) => (id ? cfg.lanes.find(l => l.id === id) : undefined)
   const laneDot = (id: string) => laneOf(id)?.color?.dot
   const offfieldDot = cfg.lanes.find(l => l.kind === 'offfield')?.color?.dot
@@ -147,14 +145,14 @@ export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; b
   if (activeLane && activeChapter && activeLane.id === activeChapter.id) {
     const storyLane = cfg.lanes.find(l => l.kind === 'story')
     return [
-      { label: cfg.crumbShort, short: cfg.crumbShort, color: warColor, href: cfg.routeBase, options: warOptions, currentLabel: cfg.crumbFull },
+      { label: cfg.crumbFull, short: cfg.crumbShort, responsive: true, color: warColor, href: cfg.routeBase, options: warOptions, currentLabel: cfg.crumbFull },
       ...(storyLane ? [{ label: storyLane.short ?? storyLane.label, color: storyLane.color?.dot, href: storyLane.href, options: laneOptions } as Crumb] : []),
       { label: activeLane.short ?? activeLane.label, currentLabel: activeChapter.name, options: chapterJump, active: true },
     ]
   }
 
   return [
-    { label: cfg.crumbShort, short: cfg.crumbShort, color: onWarHome ? cfg.accent : warColor, href: cfg.routeBase, options: warOptions, currentLabel: cfg.crumbFull },
+    { label: cfg.crumbFull, short: cfg.crumbShort, responsive: true, color: onWarHome ? cfg.accent : warColor, href: cfg.routeBase, options: warOptions, currentLabel: cfg.crumbFull },
     { label: activeLane?.label ?? cfg.laneNoun, short: activeLane ? activeLane.short : undefined, color: activeLane?.color?.dot, href: lane ? firstHref(lane) : undefined, options: laneOptions, active: !!lane && !battleId },
     { label: battleLabel, currentLabel: battleFull, options: activeLane?.kind === 'story' ? chapterJump : jump, active: !!battleId,
       scopeToggle: cfg.geoScopeToggle && geoLane ? { scopedLabel: activeLane?.short ?? activeLane?.label ?? cfg.laneNoun, allOptions: jumpAll } : undefined },
@@ -171,7 +169,7 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
 // ladder — the vertical (War) and the war picker (current, "All Wars"). The
 // Theatre / Battle rungs only appear once you've drilled into a specific war.
 export function warHomeCrumbs(): Crumb[] {
-  const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
+  const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: CIVIL_WAR.accent }))
   return [
     { label: 'All Wars', options: warOptions, active: true },
   ]

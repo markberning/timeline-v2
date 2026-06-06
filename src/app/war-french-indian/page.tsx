@@ -10,7 +10,7 @@
 // masthead. Not linked from the /war front door until there's real content.
 
 import '../war-civil-war/war-skin.css'
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { WarHeader, WAR_ICONS } from '@/components/mode/war-header'
 import { FRENCH_INDIAN as W } from '@/lib/wars/french-indian'
 import { WarBreadcrumb } from '@/components/mode/war-chrome'
@@ -50,8 +50,8 @@ function SpineRow({ no, title, sub, right, href, dot }: { no?: string; title: st
 
 function StoryTab() {
   return (
-    <div className="p-page">
-      <div className="p-storycard fi-dim">
+    <div className="p-page story-spine">
+      <div className="p-storycard story fi-dim">
         <div className="row">
           <span className="chip"><span className="sq" /><span className="p-label">The war story</span></span>
           {soonPill}
@@ -61,7 +61,7 @@ function StoryTab() {
         <div className="sc-meta">5 phases that lead to 14 battles and 8 chapters off the battlefield.</div>
       </div>
       {W.chapters.map((c, i) => (
-        <SpineRow key={c.id} no={String(i + 1).padStart(2, '0')} title={c.short ?? c.name} sub={c.hook} right={(c.date.match(/\d{4}/) || [''])[0]} href={c.href} dot={laneDot(c.id)} />
+        <SpineRow key={c.id} no={String(i + 1).padStart(2, '0')} title={c.short ?? c.name} sub={c.hook} right={(c.date.match(/\d{4}/) || [''])[0]} href={c.href} />
       ))}
     </div>
   )
@@ -70,7 +70,6 @@ function StoryTab() {
 function BattlesTab() {
   const list = useMemo(() => [...W.battles].sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m)), [])
   const years = [...new Set(list.map(b => b.year))]
-  const laneLabel = (id: string) => W.lanes.find(l => l.id === id)?.short ?? id
   return (
     <div className="p-page">
       <div className="p-sechead"><h2 className="p-label">Every battle</h2><span className="ct">{list.length} battles</span></div>
@@ -80,9 +79,10 @@ function BattlesTab() {
             <div className="p-yr"><span className="ylab">{yr}</span><span className="yline" /></div>
             {list.filter(b => b.year === yr).map(b => {
               const dot = laneDot(b.theatre)
+              // One theatre, so no per-battle theatre tag — just the plum timeline dot.
               const row = (
                 <>
-                  <span className="bh"><b className="p-serif">{b.name}</b><span className="th" style={{ color: dot }}>{laneLabel(b.theatre)}</span></span>
+                  <span className="bh"><b className="p-serif">{b.name}</b></span>
                   <span className="place">{b.place}</span>
                   <span className="note">{b.hook ?? soonPill}</span>
                 </>
@@ -128,6 +128,15 @@ function OffFieldTab() {
 
 export default function FrenchIndianHome() {
   const [tab, setTab] = useState('story')
+  // Deep link from the breadcrumb "The Battles" theatre crumb:
+  // /war-french-indian?theatre=fi-battles lands on the Battles tab, scrolled to it.
+  useEffect(() => {
+    const th = new URLSearchParams(window.location.search).get('theatre')
+    if (th === 'fi-battles') {
+      setTab('battles')
+      requestAnimationFrame(() => document.querySelector('.p-subnav')?.scrollIntoView({ block: 'start' }))
+    }
+  }, [])
   return (
     <div className="war-skin">
       <WarHeader backHref="/war" title={W.name} />

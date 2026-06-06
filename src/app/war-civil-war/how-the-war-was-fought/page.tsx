@@ -9,17 +9,18 @@
 // (the calm war-level parent, outside the five theatre hues).
 
 import '../war-skin.css'
-import { WarBreadcrumb, WAR_ACCENT } from '@/components/mode/war-chrome'
+import { WarBreadcrumb } from '@/components/mode/war-chrome'
 import { WarHeader, WAR_ICONS } from '@/components/mode/war-header'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
+import { WAR_STORY_COLOR } from '@/lib/wars/layer-colors'
 import { CHAPTERS } from '@/lib/civil-war-roster'
 
 export default function HowTheWarWasFoughtPage() {
   const spine = [...CHAPTERS].sort((a, b) => (a.year !== b.year ? a.year - b.year : a.m - b.m))
   return (
-    <div className="war-skin rd-land" style={{ ['--accent' as string]: WAR_ACCENT } as React.CSSProperties}>
+    <div className="war-skin rd-land" style={{ ['--accent' as string]: 'var(--warstory)' } as React.CSSProperties}>
       <WarHeader backHref="/war-civil-war" />
-      <WarBreadcrumb crumbs={civilWarCrumbs({ theatre: 'howfought' })} accent={WAR_ACCENT} bare />
+      <WarBreadcrumb crumbs={civilWarCrumbs({ theatre: 'howfought' })} accent={WAR_STORY_COLOR.dark} bare />
 
       <div className="p-mast">
         <div className="p-eyebrow">The Civil War story</div>

@@ -80,6 +80,7 @@ export interface Crumb {
   color?: string // fixed pill colour overriding the page accent (e.g. the ACW war crumb's oxblood signature)
   accentBar?: string // thread accent: render as a square rectangle with a colored left bar (the mode crumb)
   icon?: string // small leading emblem (e.g. /thread-icons/{kind}.webp)
+  responsive?: boolean // show the FULL `label` when the trail fits, fall back to `short` only when the bar would overflow (the war-name crumb)
 }
 
 // Just the breadcrumb bar (sticky, top:0) — shared by the war/art pages and the
@@ -97,6 +98,28 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, bare = false 
   const faint = 'color-mix(in srgb, var(--foreground) 38%, transparent)'
   const chip = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
   const ell: React.CSSProperties = { minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }
+  // Responsive war-name crumb: render the FULL name, and collapse it to the short
+  // form only when the trail would overflow the bar. We remember the natural full
+  // width measured while NOT compact (fullW), so re-expanding when the viewport grows
+  // doesn't thrash against the now-narrower compact layout. Signature keys the remeasure
+  // to the actual crumb labels (crumbs is a fresh array each render, so we can't dep on it).
+  const navRef = useRef<HTMLElement>(null)
+  const fullW = useRef(0)
+  const [compact, setCompact] = useState(false)
+  const sig = crumbs.map(c => (c.currentLabel ?? '') + '|' + (c.label ?? '')).join('›')
+  useLayoutEffect(() => { setCompact(false); fullW.current = 0 }, [sig])
+  useLayoutEffect(() => {
+    const el = navRef.current
+    if (!el) return
+    const measure = () => {
+      if (!compact) fullW.current = el.scrollWidth
+      setCompact(fullW.current > el.clientWidth + 1)
+    }
+    measure()
+    const ro = new ResizeObserver(measure)
+    ro.observe(el)
+    return () => ro.disconnect()
+  }, [compact, sig])
   // tier 2: the where-am-I trail (war/art drilldown), with dropdown crumbs.
   const trail = (
     <div style={{
@@ -110,10 +133,10 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, bare = false 
       // 50px height lets the next sticky bar offset by exactly that.
       ...(bare ? { position: 'sticky' as const, top: 'var(--hdr, 52px)', zIndex: 25 } : null),
     }}>
-      <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflowX: 'auto', overflowY: 'hidden', whiteSpace: 'nowrap', scrollbarWidth: 'none' }}>
+      <nav ref={navRef} style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflowX: 'auto', overflowY: 'hidden', whiteSpace: 'nowrap', scrollbarWidth: 'none' }}>
         {crumbs.map((c, i) => {
           const last = i === crumbs.length - 1
-          const text = !last && c.short ? c.short : c.label
+          const text = c.responsive && !compact ? c.label : (!last && c.short ? c.short : c.label)
           return (
             <Fragment key={i}>
               {i > 0 && <span aria-hidden style={{ color: faint, fontFamily: SANS, fontSize: 11, flexShrink: 0, padding: '0 2px' }}>›</span>}
@@ -123,7 +146,7 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, bare = false 
                 // when it's the current page's leaf (c.active), gray otherwise.
                 // only the crumb that IS the current page lights up — not the
                 // trailing generic picker just because it's last
-                ? <CrumbDropdown crumb={c} emphasized={!!c.active} chip={chip} faint={faint} muted={muted} accent={accent} maxLabel={last ? 124 : 164} />
+                ? <CrumbDropdown crumb={c} emphasized={!!c.active} compact={compact} chip={chip} faint={faint} muted={muted} accent={accent} maxLabel={last ? 124 : 164} />
                 : c.href && !last
                   ? <a href={c.href} style={{ padding: '2px 1px', color: muted, fontFamily: SANS, fontSize: 11.5, fontWeight: 500, textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
                   : <span style={{ padding: '2px 1px', fontFamily: SANS, fontSize: 11.5, color: last ? accent : muted, fontWeight: last ? 700 : 500, flex: '0 1 auto', ...ell }}>{text}</span>}
@@ -224,7 +247,7 @@ export function WarViewToggle({ view, onView }: { view: View; onView: (v: View) 
 // scrolls (the jump list is long) and is clamped to the viewport so the
 // rightmost crumb's menu doesn't run off-screen.
 const MENU_W = 252
-function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel = 168 }: { crumb: Crumb; chip: string; faint: string; muted: string; accent: string; emphasized: boolean; maxLabel?: number }) {
+function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, compact = false, maxLabel = 168 }: { crumb: Crumb; chip: string; faint: string; muted: string; accent: string; emphasized: boolean; compact?: boolean; maxLabel?: number }) {
   const [open, setOpen] = useState(false)
   // Battle/Event crumb only: a [this-theatre | All] scope toggle. Defaults to the
   // scoped (current-theatre) list; "All" swaps in every theatre's battles.
@@ -237,7 +260,9 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
   // even when it's the current page) — the full name still lives in the page's
   // hero title. The dropdown options + ✓ matching still use the full `label`.
   // `pill` = a fixed crumb colour (the ACW band colour) overriding the accent.
-  const label = crumb.short ?? crumb.label
+  // Responsive crumb shows its FULL label when the trail fits; collapses to `short`
+  // only when the parent measured an overflow (compact).
+  const label = crumb.responsive && !compact ? crumb.label : (crumb.short ?? crumb.label)
   const pill = crumb.color
   // The breadcrumb <nav> scrolls horizontally (overflow-x: auto), which clips an
   // absolutely-positioned menu hanging below it. Anchor the menu with
@@ -292,14 +317,19 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
       {canSplit
         ? <a href={crumb.href} style={{ ...labelStyle, textDecoration: 'underline', textUnderlineOffset: 2 }}>{label}</a>
         : <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ ...labelStyle, display: 'inline-flex', alignItems: 'center' }}>{label}</button>}
-      {/* short vertical divider between the link text and the arrow dot */}
-      {canSplit && <span aria-hidden style={{ flexShrink: 0, width: 1, height: 14, margin: '0 5px', background: alpha('#888', 0.34) }} />}
-      {/* the ▾ in its own stone circle — a distinct, tappable "open the menu" dot */}
+      {/* SPLIT case only: a clear vertical divider bar sets the link text apart from
+          the separate menu dot, so the two read as distinct controls. The SAME-control
+          case has no divider and tucks the chevron tight against its own text. */}
+      {canSplit && <span aria-hidden style={{ flexShrink: 0, width: 1, height: 13, margin: '0 7px', background: alpha('#888', 0.3) }} />}
+      {/* the ▾. SPLIT: its own bordered stone circle — a clearly-bounded, tappable
+          "open the menu" button held apart from the link. SAME-control: a bare chevron
+          hugging the text. */}
       <button onClick={() => setOpen(o => !o)} aria-expanded={open} aria-label={`${label} menu`} style={{
         display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, appearance: 'none', cursor: 'pointer',
-        marginLeft: canSplit ? 0 : 1, width: 24, height: 24, padding: 0, border: 'none', borderRadius: 999,
+        marginLeft: canSplit ? 0 : 0, width: canSplit ? 22 : 15, height: canSplit ? 22 : 24, padding: 0, borderRadius: 999,
+        border: canSplit ? `1px solid ${alpha(WAR_ACCENT, open ? 0.7 : 0.5)}` : 'none',
         color: canSplit ? 'var(--foreground)' : color,
-        background: canSplit ? alpha(WAR_ACCENT, open ? 0.48 : 0.28) : 'transparent',
+        background: canSplit ? alpha(WAR_ACCENT, open ? 0.4 : 0.2) : 'transparent',
       }}>
         {chevron}
       </button>
