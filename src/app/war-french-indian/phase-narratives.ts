@@ -760,6 +760,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "On September 8, 1760, the city of Montreal surrendered, and with it the last French army in Canada. The Marquis de Vaudreuil, the last governor-general of New France (the French colony centered on the St. Lawrence River), signed the capitulation (the formal surrender document, settling the terms on which a defeated army hands itself over) to General Jeffery Amherst, the British commander-in-chief in North America. After six years of fighting, France was beaten on the continent. Britain had won the prize it set out to win in the Ohio woods in 1754. And almost everything that went wrong for Britain over the next twenty years flowed directly from the size of that victory."
       },
       {
+        "fig": "/war-img/fi-jeffery-amherst.jpg",
+        "cap": "General Jeffery Amherst, the British commander-in-chief who took Montreal and accepted the surrender of New France in 1760. Portrait by Sir Joshua Reynolds.",
+        "credit": "Sir Joshua Reynolds / public domain"
+      },
+      {
         "p": "This is the last chapter of the military story, and it is the \"so what\" of the whole war. It does not cover battles; it links down to the themes that carry the aftermath. What it carries is the shape of the peace, and the shape is a paradox. The most complete victory Britain had ever won in the Americas left it deeper in debt than it had ever been, holding more hostile interior than it could govern, and facing two sets of people who had every reason to resent the new order: the Native nations whose land the victory opened, and the colonists whom the victory was supposed to have rescued. The war that made Britain supreme in North America lit the fuse that would cost it the Thirteen Colonies."
       },
       {
