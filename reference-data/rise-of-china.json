@@ -57,66 +57,107 @@
       "id": "evt-roc-reform-opening",
       "label": "Reform and Opening-Up begins",
       "year": 1978,
-      "description": "Deng Xiaoping launched sweeping economic reforms at the Third Plenum, shifting China from central planning toward market-oriented growth.",
+      "description": "The Third Plenum of December 1978 — a routine Communist Party committee meeting — turned out to be the hinge of modern Chinese history: the leadership formally shifted the party's central task from Mao's permanent 'class struggle' to building the economy.",
       "wikiSlug": "Reform_and_opening-up",
       "tier": 1,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reforms that followed are now credited with lifting roughly 800 million people out of poverty over four decades, described by the World Bank as 'the fastest sustained expansion by a major economy in history.' The initial package included reopening universities, restoring civil courts, and allowing small-scale private farming — all of which had been abolished or crippled during the Cultural Revolution."
+        }
+      ],
+      "commonsFile": "2011_深圳_莲花山顶－邓小平头像_-_panoramio.jpg"
     },
     {
       "id": "evt-roc-deng-paramount",
       "label": "Deng Xiaoping becomes paramount leader",
       "year": 1978,
-      "description": "Deng Xiaoping consolidated power as China's de facto leader, sidelining Hua Guofeng and steering the country toward pragmatic modernization.",
+      "description": "By 1978 Deng Xiaoping had effectively displaced Hua Guofeng as China's real decision-maker, becoming what the system called a 'paramount leader' — supreme authority exercised through personal networks and military control rather than any formal title.",
       "wikiSlug": "Deng_Xiaoping",
       "tier": 1,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At the height of his power Deng's only official posts were chairman of the Central Military Commission and, improbably, chairman of the Chinese Bridge Association — the card game, not the engineering structure. He never held the presidency or the party general secretaryship, which means the most consequential leader of the world's most populous country left no constitutional blueprint for who his power actually belonged to."
+        }
+      ],
+      "commonsFile": "Deng_Xiaoping_Atlanta_1979-5_(cropped).jpg"
     },
     {
       "id": "evt-roc-sez-shenzhen",
       "label": "Shenzhen Special Economic Zone",
       "year": 1980,
-      "description": "China established Shenzhen as its first Special Economic Zone, offering tax incentives and market freedoms that transformed a fishing village into a megacity.",
+      "description": "In 1980 China carved Shenzhen — a stretch of paddies and fishing villages across from Hong Kong — into its first Special Economic Zone (SEZ), a fenced-off pocket where foreign companies could hire, fire, import, and export free of the planned economy's rules. Within a generation the experiment turned a region of a few hundred thousand people into a city of over 17 million and the world's fourth-busiest container port.",
       "wikiSlug": "Shenzhen",
       "tier": 1,
       "category": "trade",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shenzhen's GDP has since surpassed both Hong Kong and Singapore, the very capitalist city-states it was designed to learn from. The zone was deliberately sited on the border because proximity to Hong Kong's capital, factory networks, and Cantonese-speaking entrepreneurs mattered far more than any local resource. In its first decade, the overwhelming share of investment flowing in was overseas Chinese money, not Western multinationals."
+        }
+      ],
+      "commonsFile": "Commercial_area_of_futian_to_east2020.jpg"
     },
     {
       "id": "evt-roc-one-child",
       "label": "One-Child Policy enacted",
       "year": 1980,
-      "description": "The Chinese government introduced the one-child policy to curb population growth, a measure that would shape demographics for decades.",
+      "description": "Launched in 1979–80, the one-child policy was a state-enforced birth-control program that restricted most urban couples to a single child, backed by fines, mandatory contraception, and in many cases forced sterilizations and abortions.",
       "wikiSlug": "One-child_policy",
       "tier": 2,
       "category": "rulers",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The policy contained extensive exceptions from the start: rural families whose first child was a girl were often permitted a second; ethnic minorities were generally exempt; and by the 2000s, wealthy families could simply pay the 'social maintenance fee' (a fine that in some cities reached six times the annual household income) and have a second child anyway, making it effectively a tax on children for the rich. The sex-selective abortions the policy encouraged produced one of the most skewed gender ratios in modern demographic history, with roughly 115–120 boys born per 100 girls at the policy's peak."
+        }
+      ],
+      "commonsFile": "PlannedBirthCeramicPaintings-Xinhui.jpg"
     },
     {
       "id": "evt-roc-household-responsibility",
       "label": "Household Responsibility System",
       "year": 1981,
-      "description": "Agricultural decollectivization allowed rural families to farm their own plots, dramatically boosting food production and rural incomes.",
+      "description": "The Household Responsibility System replaced collective farming by letting rural families contract plots of state-owned land, keep everything they grew above the government quota, and sell the surplus at market prices — reconnecting effort to reward for the first time since collectivization.",
       "wikiSlug": "Household_responsibility_system",
       "tier": 3,
       "category": "trade",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Although the system was officially established nationwide in 1982, it had been quietly running in Anhui and Sichuan provinces since 1979, shielded by reformist provincial officials before Beijing signed off. Land itself remained state property; what changed was who decided what to plant and who pocketed the profit. The multi-tier price system it created — lowest price for quota grain, a higher rate for above-quota sales to the state, and open market price for the rest — was an early experiment in letting prices do work that planners couldn't."
+        }
+      ],
+      "commonsFile": "Baochangdaohu_documents_from_Liaoyuan_Community_copy.jpg"
     },
     {
       "id": "evt-roc-democracy-wall",
       "label": "Democracy Wall movement",
       "year": 1978,
       "endYear": 1979,
-      "description": "Activists posted political critiques on a wall in Beijing, briefly testing the limits of free expression before the government shut it down.",
+      "description": "From late 1978 into 1979, citizens covered a stretch of brick wall on Xidan Street in Beijing with handwritten 'big character posters' criticizing Mao, the Cultural Revolution, and the political system — a brief, unprecedented experiment in public dissent that became known as Democracy Wall.",
       "wikiSlug": "Democracy_Wall",
       "tier": 3,
       "category": "people",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Deng initially tolerated and even encouraged the wall because its attacks on the Maoist old guard served his own political agenda against Hua Guofeng's faction; foreign journalists were quietly allowed to photograph it. The movement spread beyond Beijing, with unofficial journals and petition campaigns appearing in dozens of other cities before the crackdown — making it, as historians have noted, the first genuinely nationwide autonomous political movement since 1949."
+        }
+      ]
     },
     {
       "id": "evt-roc-sino-vietnamese-war",
@@ -132,21 +173,34 @@
       "id": "evt-roc-xiamen-sez",
       "label": "Xiamen and Zhuhai SEZs opened",
       "year": 1980,
-      "description": "Additional Special Economic Zones in Xiamen and Zhuhai expanded the experiment in market economics along China's southeastern coast.",
+      "description": "Alongside Shenzhen, China opened SEZs in Xiamen (facing Taiwan), Zhuhai (facing Macau), and Shantou in 1980 — each site chosen as an antenna aimed at a specific pool of overseas Chinese capital and know-how rather than for any local industrial base.",
       "wikiSlug": "Special_economic_zones_of_China",
       "tier": 3,
       "category": "trade",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The four original SEZs all sat on China's southeastern coast where dialect, family ties, and ferry rides connected the mainland to Hong Kong, Macau, and Taiwan. The zones offered a simple package unavailable anywhere else in China: duty-free component imports, the right to export freely, and labor contracts that let managers actually hire and fire — revolutionary in a system where state factories could do none of those things."
+        }
+      ]
     },
     {
       "id": "evt-roc-joint-declaration",
       "label": "Sino-British Joint Declaration",
       "year": 1984,
-      "description": "China and Britain agreed that Hong Kong would return to Chinese sovereignty in 1997 under a 'one country, two systems' framework.",
+      "description": "The 1984 Sino-British Joint Declaration was the treaty that settled Hong Kong's fate: signed by Margaret Thatcher and Zhao Ziyang, it committed Britain to handing the territory over in 1997 and China to preserving Hong Kong's way of life under the \"one country, two systems\" formula.",
       "wikiSlug": "Sino-British_Joint_Declaration",
       "tier": 2,
       "category": "rulers",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The declaration was registered with the United Nations as a binding international treaty, meaning China's obligations were technically enforceable under international law — a detail that became fiercely contested after 2020. Negotiations were triggered by a legal technicality: Britain's lease on the New Territories (the mainland portion of Hong Kong) ran out in 1997, and without that land the rest of the colony was not viable on its own."
+        }
+      ],
+      "commonsFile": "Hongkong_1980_(View_from_Peak).jpg"
     },
     {
       "id": "evt-roc-shanghai-stock",
@@ -162,22 +216,35 @@
       "id": "evt-roc-tiananmen",
       "label": "Tiananmen Square protests",
       "year": 1989,
-      "description": "Pro-democracy demonstrations in Beijing were crushed by military force on June 4, killing hundreds to thousands and drawing global condemnation.",
+      "description": "The largest protest movement in PRC history — students and workers filling Tiananmen Square and dozens of other cities from April to June 1989 — was ended by martial law and army force, killing an officially suppressed number of people that independent estimates put from several hundred to over a thousand.",
       "wikiSlug": "1989_Tiananmen_Square_protests_and_massacre",
       "tier": 1,
       "category": "wars",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The protests began as public mourning for Hu Yaobang and escalated into demands against corruption and inflation, for press freedom and party accountability — not a call for multiparty democracy so much as a demand that the party live up to its own promises. The movement spread to more than 400 cities across China, making it far more than a Beijing campus affair. At the height of the demonstrations, more than a million people were in the streets of Beijing alone. The precise death toll may never be confirmed: the state that controls the records has spent three decades ensuring the event cannot be publicly mentioned inside China."
+        }
+      ],
+      "commonsFile": "Události_na_náměstí_Tian_an_men,_Čína_1989,_foto_Jiří_Tondl.jpg"
     },
     {
       "id": "evt-roc-southern-tour",
       "label": "Deng's Southern Tour",
       "year": 1992,
-      "description": "Deng Xiaoping toured southern China to reinvigorate economic reform after a conservative backlash, declaring that markets and socialism were compatible.",
+      "description": "In early 1992, eighty-seven-year-old Deng Xiaoping — holding no official office — toured Shenzhen and the southern boom zones and delivered a blunt ultimatum: reform had to accelerate, and anyone who opposed it should step down. Central propaganda tried to suppress his words; the southern press ran them anyway, and the conservative line collapsed within months.",
       "wikiSlug": "Deng_Xiaoping%27s_southern_tour",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "people"
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Deng's most quoted line from the tour — \"development is the only hard truth\" — became a Party slogan, but the whole visit was technically unofficial; he traveled as a private citizen with no formal agenda. His remarks were first circulated not by Xinhua but by a small Shenzhen paper and a Guangdong TV report, before pirated transcripts spread nationwide. The tour is widely considered the single most consequential political speech of the post-Mao era."
+        }
       ]
     },
     {
@@ -196,33 +263,53 @@
       "id": "evt-roc-hong-kong-handover",
       "label": "Hong Kong handover",
       "year": 1997,
-      "description": "Britain returned sovereignty of Hong Kong to China, ending 156 years of colonial rule under the 'one country, two systems' arrangement.",
+      "description": "At midnight on July 1, 1997, Britain handed Hong Kong back to China, ending 156 years of colonial rule under a deal that promised the territory could keep its own legal system, free press, and capitalist economy for fifty years.",
       "wikiSlug": "Handover_of_Hong_Kong",
       "tier": 1,
       "category": "rulers",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The handover ceremony took place in a purpose-built venue during a torrential rainstorm, with Prince Charles and Chris Patten, Hong Kong's last governor, departing by Royal Yacht Britannia. The 156-year clock started in 1841, when Britain claimed Hong Kong Island as a prize of the First Opium War — so the ceremony was explicitly the reversal of that original humiliation. Under the \"one country, two systems\" formula, Hong Kong was to maintain its separate legal and economic identity until 2047."
+        }
+      ]
     },
     {
       "id": "evt-roc-jiang-zemin",
       "label": "Jiang Zemin consolidates power",
       "year": 1993,
-      "description": "Jiang Zemin assumed the presidency and pursued market reforms while maintaining strict Communist Party control over politics.",
+      "description": "Jiang Zemin, the former Shanghai party boss elevated to general secretary as a compromise choice after Tiananmen, spent the 1990s consolidating into one of modern China's most durable leaders — simultaneously chairing the Party, the military, and the presidency, and serving until 2002-2004.",
       "wikiSlug": "Jiang_Zemin",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jiang was widely dismissed as a caretaker when Deng picked him in 1989, but he outlasted every rival and added his own ideological stamp: \"Three Represents,\" a 2000 doctrine that opened the Party to private entrepreneurs — a direct reversal of Marxist-Leninist orthodoxy. He was the first Chinese leader to visit a sitting U.S. president's ranch, meeting George W. Bush at Crawford, Texas in 2002."
+        }
+      ],
+      "commonsFile": "Jiang_Zemin_2002_(cropped).jpg"
     },
     {
       "id": "evt-roc-falun-gong",
       "label": "Falun Gong crackdown",
       "year": 1999,
-      "description": "The Chinese government banned Falun Gong after a mass demonstration in Beijing, launching a sustained campaign of persecution against practitioners.",
+      "description": "In July 1999, the Chinese government banned Falun Gong — a popular meditation and spiritual movement combining *qigong* (breathing exercises) with Buddhist and Taoist ideas — and launched a sustained campaign of arrests, forced re-education, and suppression that continues today.",
       "wikiSlug": "Persecution_of_Falun_Gong",
       "tier": 3,
       "category": "religion",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The trigger was a silent demonstration on April 25, 1999, in which roughly ten thousand Falun Gong practitioners gathered outside the leadership compound in Zhongnanhai in Beijing — the largest public gathering near the compound since 1989. The state's alarm was not about the movement's religious content but its organizational capacity: it had mobilized millions without the party knowing. At its peak before the ban, Falun Gong is estimated to have had 70 million practitioners in China, potentially outnumbering Communist Party members."
+        }
+      ],
+      "commonsFile": "Speaker_at_Washington_DC._STOP_the_Persecution_of_Falun_Gong.jpg"
     },
     {
       "id": "evt-roc-macau-handover",
@@ -238,11 +325,18 @@
       "id": "evt-roc-wto",
       "label": "China joins the WTO",
       "year": 2001,
-      "description": "China's accession to the World Trade Organization integrated it into the global trading system, turbocharging export-driven growth.",
+      "description": "On December 11, 2001, China formally joined the World Trade Organization, locking in access to the markets of the developed world and triggering one of the fastest manufacturing expansions in economic history — Chinese exports roughly quadrupled over the following decade.",
       "wikiSlug": "China_and_the_World_Trade_Organization",
       "tier": 1,
       "category": "trade",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Negotiations for WTO entry had dragged on for fifteen years, longer than for any other country at the time. The Western governments backing China's entry operated on an explicit theory: that trade integration would gradually liberalize China politically. That prediction failed; China grew wealthier and more authoritarian simultaneously, and the gap between the forecast and what happened is itself one of the defining facts of the 21st century. The manufacturing jobs that moved to China during this period became the central grievance behind political upheavals in the US and Europe a decade later."
+        }
+      ],
+      "commonsFile": "President_Bill_Clinton_and_Chinese_President_Jiang_Zemin_at_the_Arrival_Ceremony.jpg"
     },
     {
       "id": "evt-roc-shenzhou-5",
@@ -260,45 +354,73 @@
       "id": "evt-roc-hu-jintao",
       "label": "Hu Jintao becomes president",
       "year": 2003,
-      "description": "Hu Jintao succeeded Jiang Zemin, promoting a 'harmonious society' while overseeing China's rise as the world's factory.",
+      "description": "Hu Jintao led China as both Communist Party general secretary (2002–2012) and president (2003–2013), overseeing the peak export boom while promoting his signature 'harmonious society' slogan — an official admission that growth alone wasn't enough.",
       "wikiSlug": "Hu_Jintao",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hu had been on the Politburo Standing Committee, China's highest ruling body, since 1992 — making him a ten-year insider before he ever took the top job. His decade in power coincided with China's GDP roughly tripling and its share of world manufacturing surging past the United States. Despite the boom, he left office having made almost no political reforms, and his successor Xi Jinping would systematically dismantle the collective-leadership norms Hu had tried to uphold."
+        }
+      ],
+      "commonsFile": "Chinese_President_Hu_Jintao_in_2011.jpg"
     },
     {
       "id": "evt-roc-beijing-olympics",
       "label": "Beijing Summer Olympics",
       "year": 2008,
-      "description": "China hosted the 2008 Olympics, showcasing its modernization with landmarks like the Bird's Nest stadium and a spectacular opening ceremony.",
+      "description": "China hosted the 2008 Summer Olympics in Beijing — the first time the Games had come to China — fielding 10,942 athletes from 204 countries across 28 sports in a spectacle explicitly designed to announce China's return as a first-rank power.",
       "wikiSlug": "2008_Summer_Olympics",
       "tier": 2,
       "category": "architecture",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Beijing became only the second communist-governed city ever to host the Summer Games, after Moscow in 1980. It was also the third time the Summer Olympics had been held in East Asia, following Tokyo (1964) and Seoul (1988). Years later Beijing doubled down on the distinction, hosting the 2022 Winter Games — making it the first city ever to host both the Summer and Winter Olympics."
+        }
+      ],
+      "commonsFile": "2008_Summer_Olympics_Opening_Ceremony_11.jpg"
     },
     {
       "id": "evt-roc-sichuan-earthquake",
       "label": "Sichuan earthquake",
       "year": 2008,
-      "description": "A devastating 7.9-magnitude earthquake killed nearly 70,000 people in Sichuan province, exposing shoddy school construction.",
+      "description": "On May 12, 2008 — three months before the Olympics — a magnitude-8.0 earthquake struck Sichuan province, killing nearly 70,000 people and exposing the \"tofu-dreg\" shoddy school construction that became a national scandal.",
       "wikiSlug": "2008_Sichuan_earthquake",
       "tier": 3,
       "category": "architecture",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The quake's rupture tore along a fault for over 150 miles (240 km), with surface ground shifts of several meters, and triggered roughly 200,000 landslides plus more than 800 \"quake lakes\" (reservoirs formed when landslides dammed rivers) across an area of 42,000 square miles (110,000 sq km) — the largest number of earthquake-triggered geohazards ever recorded. Aftershocks above magnitude 6 continued for months. Tremors were felt as far away as Bangkok and Hanoi."
+        }
+      ],
+      "commonsFile": "2008년_중앙119구조단_중국_쓰촨성_대지진_국제_출동(四川省_大地震,_사천성_대지진)_SSL27231.JPG"
     },
     {
       "id": "evt-roc-high-speed-rail",
       "label": "High-speed rail network launched",
       "year": 2008,
-      "description": "China opened its first high-speed rail line between Beijing and Tianjin, beginning a massive expansion that created the world's largest HSR network.",
+      "description": "China opened its first high-speed rail line between Beijing and Tianjin in 2008, and within fifteen years had built more than 50,000 km (31,000 miles) of high-speed track — more than the rest of the world combined.",
       "wikiSlug": "High-speed_rail_in_China",
       "tier": 2,
       "category": "science",
       "tags": [
         "architecture"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The network is almost entirely owned and operated by the China State Railway Group under the brand China Railway High-speed (CRH), with design speeds of 200 to 380 km/h (120 to 240 mph). China now accounts for roughly two-thirds of the world's total high-speed rail ridership. The buildout happened at a pace that genuinely has no precedent: the United States built its interstate highway system over about four decades; China built a larger high-speed rail network in roughly one."
+        }
+      ],
+      "commonsFile": "201708_CRH380D-1531_at_Jinhuanan_Station.jpg"
     },
     {
       "id": "evt-roc-confucius-institutes",
@@ -314,55 +436,89 @@
       "id": "evt-roc-second-largest-economy",
       "label": "China becomes world's second-largest economy",
       "year": 2010,
-      "description": "China's GDP surpassed Japan's, making it the world's second-largest economy after the United States.",
+      "description": "In 2010 China's GDP surpassed Japan's, making China the world's second-largest economy by nominal output — displacing the country whose own postwar miracle had been East Asia's original growth template.",
       "wikiSlug": "Economy_of_China",
       "tier": 2,
       "category": "trade",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By 2016 China had also become the world's largest economy by purchasing power parity (PPP), a measure that adjusts for local price levels and arguably better reflects real productive capacity. As of 2025 China accounts for about 19 percent of global GDP on a PPP basis and around 17 percent in nominal terms — numbers that would have seemed fantastical when Deng launched the reforms in 1978."
+        }
+      ]
     },
     {
       "id": "evt-roc-xi-jinping",
       "label": "Xi Jinping becomes president",
       "year": 2012,
-      "description": "Xi Jinping assumed the presidency and rapidly centralized power, launching an anti-corruption campaign and asserting a more nationalist vision.",
+      "description": "Xi Jinping became general secretary of the Chinese Communist Party in November 2012 and president in March 2013, entering office with a reputation as a careful consensus-builder — and then rapidly dismantling the consensus-building system itself.",
       "wikiSlug": "Xi_Jinping",
       "tier": 1,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Xi holds three overlapping titles simultaneously: party general secretary, state president, and chairman of both military commissions — a concentration of formal offices no leader since Mao had achieved. His father, Xi Zhongxun, was a veteran revolutionary who fell from grace during the Cultural Revolution, meaning Xi spent part of his teenage years in a cave dwelling in rural Shaanxi as a 'sent-down youth.' That personal biography — elite origin, then humiliation, then rehabilitation — shaped a worldview the party apparatus would later canonize as 'Xi Jinping Thought.'"
+        }
+      ],
+      "commonsFile": "Xi_Jinping_meets_Putin_May_2026.jpg"
     },
     {
       "id": "evt-roc-anti-corruption",
       "label": "Anti-corruption campaign",
       "year": 2013,
-      "description": "Xi Jinping launched a sweeping anti-corruption drive that purged over a million officials, consolidating his authority within the Party.",
+      "description": "Beginning in late 2012, Xi launched the most extensive anti-corruption drive in the history of CCP governance, targeting officials at every level through the Central Commission for Discipline Inspection (CCDI), the party's internal watchdog.",
       "wikiSlug": "Anti-corruption_campaign_under_Xi_Jinping",
       "tier": 2,
       "category": "rulers",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The CCDI's mandate expanded dramatically under Xi: it was given authority not just over party members but over military officers and heads of major state enterprises, groups that had previously operated in separate disciplinary universes. Investigations were conducted through 'shuanggui' (双规), a party-internal detention system that operated outside normal legal procedures — suspects could be held and interrogated for months before any formal charges. By the end of the campaign's first decade, more than 1.5 million officials had been formally disciplined."
+        }
+      ],
+      "commonsFile": "Distribution_map_of_implicated_officials_(Provincial-Ministerial_level_and_higher)_since_18th_CPC_National_Congress.jpg"
     },
     {
       "id": "evt-roc-belt-and-road",
       "label": "Belt and Road Initiative launched",
       "year": 2013,
-      "description": "Xi Jinping announced an ambitious global infrastructure and investment program spanning Asia, Africa, and Europe to expand Chinese economic influence.",
+      "description": "Xi Jinping's Belt and Road Initiative, launched in 2013, was a Chinese-financed and Chinese-built infrastructure push — ports, railways, fiber, power plants — across more than 150 countries, the largest development-finance program since the Marshall Plan.",
       "wikiSlug": "Belt_and_Road_Initiative",
       "tier": 1,
       "category": "trade",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name references the ancient Silk Road trade routes, but the modern version was announced in two separate speeches: the 'Belt' (overland corridors) in Kazakhstan and the 'Road' (maritime routes) in Indonesia, both in 2013. At its peak, Belt and Road projects spanned six designated economic corridors stretching from East Asia to Western Europe and East Africa. The initiative was written into China's constitution in 2017, a signal of how central it had become to Xi's vision of China's global role."
+        }
+      ],
+      "commonsFile": "\"Belt_and_Road\"_economic_corridor_and_its_path_city_topographic_map.jpg"
     },
     {
       "id": "evt-roc-south-china-sea",
       "label": "South China Sea island-building",
       "year": 2014,
-      "description": "China constructed artificial islands with military installations in disputed South China Sea waters, escalating territorial tensions with neighbors.",
+      "description": "Between 2013 and 2016, China dredged millions of tons of sand to build seven artificial islands in the disputed Spratly Islands, then installed runways, radar installations, missile batteries, and port facilities — converting uninhabited reefs into military outposts in some of the world's most important shipping lanes.",
       "wikiSlug": "Great_Wall_of_Sand",
       "tier": 2,
       "category": "wars",
       "tags": [
         "architecture"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The construction was described by a US admiral as 'the Great Wall of Sand.' At its peak, Chinese dredgers were adding roughly 100 acres of new land per month. The completed installations gave China the ability to project air and naval power 500–1,000 miles from its coast for the first time, covering sea lanes through which roughly one-third of all global trade passes. The neighboring claimants — Vietnam, the Philippines, Malaysia, Brunei, and Taiwan — all protested but none had the military capacity to stop the construction."
+        }
+      ],
+      "commonsFile": "GreatWallOfSand.jpg"
     },
     {
       "id": "evt-roc-aiib",
@@ -388,61 +544,103 @@
       "id": "evt-roc-term-limits-removed",
       "label": "Presidential term limits removed",
       "year": 2018,
-      "description": "The National People's Congress abolished presidential term limits, allowing Xi Jinping to rule indefinitely and marking a return to strongman politics.",
+      "description": "On March 11, 2018, the National People's Congress voted 2,958 to 2 (with 3 abstentions) to abolish the two-term presidential limit Deng Xiaoping had written into the 1982 constitution, clearing the way for Xi to remain in office indefinitely.",
       "wikiSlug": "2018_amendment_to_the_Constitution_of_China",
       "tier": 2,
       "category": "rulers",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The amendment passed after less than two weeks of public 'consultation,' and delegates reported receiving the proposed changes just days before the vote. It also elevated 'Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era' into the constitution's preamble — only Mao Zedong's name appears in the constitution in the same direct, personal form. The two 'no' votes and three abstentions, in a 2,963-member body where blank ballots are effectively impossible, attracted intense international attention precisely because of how few people publicly dissented."
+        }
+      ],
+      "commonsFile": "2018-03-11_第十三届全国人民代表大会第一次会议表决修宪案.jpg"
     },
     {
       "id": "evt-roc-trade-war",
       "label": "US–China trade war begins",
       "year": 2018,
-      "description": "The United States imposed tariffs on hundreds of billions of dollars in Chinese goods, sparking a trade war that disrupted global supply chains.",
+      "description": "Starting in 2018, the US imposed tariffs on hundreds of billions of dollars of Chinese exports — citing IP theft, forced technology transfer, and China's explicit plan to dominate key industries — and China hit back, launching the most consequential trade conflict since the Great Depression.",
       "wikiSlug": "China–United_States_trade_war",
       "tier": 2,
       "category": "trade",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The original US tariff list targeted $34 billion in Chinese goods and grew in several rounds to cover roughly $350 billion. China's retaliatory tariffs targeted American agriculture specifically, hitting Midwestern soybean and pork farmers hardest. The two sides signed a 'phase one' agreement in January 2020 requiring China to buy an extra $200 billion in US goods — a target China never came close to meeting. By the end of Trump's first term, US media broadly characterized the war as a failure for American consumers, who bore most of the tariff costs."
+        }
+      ],
+      "commonsFile": "Meeting_Between_the_United_States_and_China_on_Trade_(33053070308).jpg"
     },
     {
       "id": "evt-roc-hong-kong-protests",
       "label": "Hong Kong protests",
       "year": 2019,
-      "description": "Millions of Hong Kong residents protested an extradition bill, escalating into a broader pro-democracy movement met with increasing force.",
+      "description": "The largest protests in Hong Kong's history — triggered by a bill that would allow extradition to mainland China — grew into a sustained pro-democracy movement that brought an estimated quarter to a third of the city's population into the streets.",
       "wikiSlug": "2019–2020_Hong_Kong_protests",
       "tier": 2,
       "category": "wars",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "What started as opposition to a single extradition bill became something much broader: protesters adopted a five-point platform including full democratic elections and an independent inquiry into police conduct. At its peak in June 2019, organizers claimed over two million marchers in a city of about 7.5 million. The protests lasted into 2020, making them not just the biggest in HK history but one of the longest sustained urban uprisings anywhere in the world that decade."
+        }
+      ],
+      "commonsFile": "Hong_Kong_anti-extradition_bill_protest_(48108527758).jpg"
     },
     {
       "id": "evt-roc-uyghur-camps",
       "label": "Uyghur detention camps exposed",
       "year": 2018,
-      "description": "Reports revealed China's mass internment of Uyghur Muslims in Xinjiang, drawing international accusations of genocide and human rights abuses.",
+      "description": "From around 2017, China subjected Uyghurs — a Turkic-speaking, mostly Muslim people of Xinjiang — to mass internment in 'vocational training' camps, pervasive surveillance, forced labor, and birth suppression, with detention estimates running to around a million or more.",
       "wikiSlug": "Uyghur_genocide",
       "tier": 2,
       "category": "religion",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scale of the system became undeniable through a combination of satellite imagery showing rapid construction of large walled facilities, leaked internal documents (the 'China Cables' and 'Xinjiang Papers') that described operational protocols and a shoot-to-kill policy for escape attempts, and consistent survivor testimony from people who made it abroad. The United States formally designated the treatment of Uyghurs as genocide in 2021; other governments and most human rights scholars have preferred 'crimes against humanity' as more defensible under international law, while China insists the facilities are voluntary counter-terrorism education centers."
+        }
+      ],
+      "commonsFile": "01.UyghurRights.XiJinping.WhiteHouse.WDC.25September2015.jpg"
     },
     {
       "id": "evt-roc-covid-wuhan",
       "label": "COVID-19 emerges in Wuhan",
       "year": 2020,
-      "description": "A novel coronavirus emerged in Wuhan, leading to a global pandemic and prompting China's strict zero-COVID lockdown policies.",
+      "description": "A novel coronavirus first detected in Wuhan in late 2019 spread into a global pandemic, triggering the sharpest test the People's Republic had faced since Tiananmen — and a response that briefly looked like proof of the system's strength.",
       "wikiSlug": "COVID-19_pandemic_in_mainland_China",
       "tier": 1,
       "category": "science",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "China was not only where the outbreak began but the first country to impose mass-scale emergency quarantine in response, an approach the WHO called 'unprecedented in public health history.' The government's early response drew both international praise for its eventual containment and fierce criticism for the weeks of suppression that let the virus spread before any official alarm was raised."
+        }
+      ],
+      "commonsFile": "2020-1-23_湖北黄冈黄州区的一个公交车上.jpg"
     },
     {
       "id": "evt-roc-national-security-law",
       "label": "Hong Kong National Security Law",
       "year": 2020,
-      "description": "Beijing imposed a sweeping national security law on Hong Kong, effectively ending the territory's political autonomy and silencing dissent.",
+      "description": "Passed on 30 June 2020 and imposed directly by Beijing over Hong Kong's own legislature, this sweeping law criminalized secession, subversion, and 'collusion with foreign forces' in terms broad enough to cover most opposition politics and most critical journalism.",
       "wikiSlug": "2020_Hong_Kong_national_security_law",
       "tier": 3,
       "category": "rulers",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The law came into force the same day it was passed — Hong Kong residents woke up to a new legal reality with no public debate or local legislative vote. Within months, dozens of opposition figures were arrested under it, multiple pro-democracy newspapers shut down, and the city's independent civil society effectively dissolved. The UK responded by opening a special visa pathway for eligible Hong Kongers, eventually drawing hundreds of thousands of applicants."
+        }
+      ],
+      "commonsFile": "1_july_2020_implementation_Hong_Kong_Law_streets_in_Causeway_Bay.jpg"
     },
     {
       "id": "evt-roc-space-station",
@@ -458,35 +656,56 @@
       "id": "evt-roc-liu-xiaobo",
       "label": "Liu Xiaobo wins Nobel Peace Prize",
       "year": 2010,
-      "description": "Imprisoned dissident Liu Xiaobo was awarded the Nobel Peace Prize for his nonviolent struggle for human rights, enraging the Chinese government.",
+      "description": "In 2010, the Nobel Committee awarded its Peace Prize to Liu Xiaobo — a Chinese literary critic, philosopher, and repeat prisoner serving an eleven-year sentence for helping write Charter 08 — making him the first Chinese citizen awarded the prize while living in China.",
       "wikiSlug": "Liu_Xiaobo",
       "tier": 3,
       "category": "people",
       "tags": [
         "writing"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Liu had been arrested and imprisoned multiple times since the 1989 crackdown, becoming China's most prominent dissident over two decades. At the Oslo ceremony, his prize sat on an empty chair — his wife was under house arrest and no family member was permitted to collect it on his behalf. He died in state custody on July 13, 2017, of liver cancer, becoming the second Nobel Peace Prize laureate to die in custody, after Carl von Ossietzky in Nazi Germany in 1938."
+        }
+      ],
+      "commonsFile": "NobelP2.png"
     },
     {
       "id": "evt-roc-charter-08",
       "label": "Charter 08 published",
       "year": 2008,
-      "description": "Liu Xiaobo and other intellectuals published Charter 08, a manifesto calling for political reforms, free expression, and an independent judiciary in China.",
+      "description": "Published on December 10, 2008 — the 60th anniversary of the Universal Declaration of Human Rights — Charter 08 was a manifesto signed by over 300 Chinese intellectuals and activists calling for constitutional democracy, an independent judiciary, and an end to one-party rule.",
       "wikiSlug": "Charter_08",
       "tier": 3,
       "category": "writing",
-      "tags": []
+      "tags": [],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The document took its name and format directly from Charter 77, the famous Czechoslovak dissident manifesto against Soviet rule — a deliberate signal that its authors saw China's situation in the same terms. More than 10,000 people inside and outside China eventually signed it. It was described as the first challenge to CCP one-party rule with a unified strategy, and authorities responded immediately: lead author Liu Xiaobo was arrested before it was even officially published."
+        }
+      ],
+      "commonsFile": "Political_Charter_08_Parade_A02.jpg"
     },
     {
       "id": "evt-roc-jack-ma-alibaba",
       "label": "Alibaba founded by Jack Ma",
       "year": 1999,
-      "description": "Jack Ma founded Alibaba in his Hangzhou apartment, building it into one of the world's largest e-commerce companies.",
+      "description": "Jack Ma, a former English teacher who was rejected by Harvard ten times and failed the college entrance exam twice, founded Alibaba in 1999 in his Hangzhou apartment and turned it into one of the world's most valuable companies.",
       "wikiSlug": "Alibaba_Group",
       "tier": 3,
       "category": "people",
       "tags": [
         "trade"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alibaba launched on June 28, 1999, initially as a B2B marketplace connecting Chinese manufacturers to foreign buyers — a different model from Amazon's direct retail. Ma famously said he knew nothing about technology and hired engineers to build what he envisioned. Its 2014 IPO on the New York Stock Exchange raised $25 billion, the largest IPO in history at that point, and valued the company at $168 billion on its first trading day."
+        }
+      ],
+      "commonsFile": "20th_Anniversary_Schwab_Foundation_Gala_Dinner_(44887783681)_(cropped).jpg"
     },
     {
       "id": "evt-roc-three-gorges-complete",
@@ -505,25 +724,39 @@
       "label": "Hua Guofeng's Interregnum",
       "year": 1976,
       "endYear": 1978,
-      "description": "Mao's anointed successor Hua Guofeng arrested the Gang of Four but clung to Maoist orthodoxy with the 'Two Whatevers', leaving him no answer to a country desperate for change.",
+      "description": "Hua Guofeng arrested Mao's radical inner circle (the Gang of Four) in October 1976 and took power, but his 'Two Whatevers' policy — promising to uphold every decision Mao ever made — left him intellectually paralyzed at a moment when the country needed a clean break.",
       "wikiSlug": "Hua_Guofeng",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hua held three top posts simultaneously: party chairman, premier, and chairman of the Central Military Commission — a concentration of formal titles no Chinese leader before or since has matched. Despite his rapid sidelining, he remained a member of the Central Committee all the way until 2002, quietly attending congresses for over two decades after his real power had evaporated."
+        }
+      ],
+      "commonsFile": "Musée_de_Bretagne_-_Hua_Guofeng_197904-02_(cropped).jpg"
     },
     {
       "id": "evt-roc-deng-third-return",
       "label": "Deng Xiaoping's Third Return",
       "year": 1977,
-      "description": "Purged twice under Mao, Deng was rehabilitated in 1977 and within two years out-maneuvered Hua Guofeng to become China's paramount leader without ever taking the top title.",
+      "description": "Deng Xiaoping had already been purged and rehabilitated twice under Mao; when he came back a third time in 1977 at the age of seventy-two, he returned not as a survivor looking for safety but as a man with a plan to rebuild everything Maoism had broken.",
       "wikiSlug": "Deng_Xiaoping",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Deng's son Deng Pufang was thrown — or jumped, accounts differ — from a building during a Red Guard interrogation session in the Cultural Revolution, leaving him permanently paralyzed; Deng never spoke of it publicly but the injury became known and added a personal dimension to his later reversal of Cultural Revolution verdicts. Deng had also survived the Long March of 1934–35, the 6,000-mile (9,600 km) retreat that became the founding myth of the Communist Party, meaning his revolutionary credentials were unimpeachable even when his politics were condemned."
+        }
+      ],
+      "commonsFile": "Deng_Xiaoping_at_the_arrival_ceremony_for_the_Vice_Premier_of_China_(cropped).jpg"
     },
     {
       "id": "evt-roc-gaokao-restored",
@@ -539,45 +772,72 @@
       "id": "evt-roc-truth-criterion",
       "label": "The Practice Criterion Debate",
       "year": 1978,
-      "description": "A 1978 essay arguing 'practice is the sole criterion of truth' was the coded ideological weapon that broke Maoist orthodoxy and cleared the road for reform.",
+      "description": "A May 1978 newspaper essay titled 'Practice Is the Sole Criterion for Testing Truth' sounds like academic philosophy but was in fact a precision political attack: if reality — not Mao's words — was the test of policy, then Hua Guofeng's 'Two Whatevers' had no leg to stand on.",
       "wikiSlug": "Boluan_Fanzheng",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The essay was published in the Guangming Daily and quickly reprinted by the People's Daily and Liberation Army Daily, giving it official-seeming weight before Hua's loyalists could suppress it — the distribution speed itself was a signal of who was winning the power struggle. The debate it triggered is considered the single most important ideological confrontation of the post-Mao transition, because it licensed every subsequent reform by reframing Marxism as a practical, revisable tool rather than a fixed scripture."
+        }
+      ],
+      "commonsFile": "1967-05_民众学习毛主席语录.jpg"
     },
     {
       "id": "evt-roc-boluan-fanzheng",
       "label": "Boluan Fanzheng: Reversing the Verdicts",
       "year": 1977,
       "endYear": 1982,
-      "description": "The party systematically reversed Cultural Revolution verdicts, rehabilitating millions of purged officials and intellectuals and restoring the institutions Mao had smashed.",
+      "description": "Boluan Fanzheng (roughly 'eliminating chaos, returning to normal') was the sweeping post-Mao correction: purged officials were rehabilitated, Cultural Revolution verdicts reversed, schools and courts rebuilt, and the institutions Mao had smashed were put back together.",
       "wikiSlug": "Boluan_Fanzheng",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scale of rehabilitation was enormous — estimates suggest around 3 million officials and intellectuals had their verdicts overturned during this period, including posthumous rehabilitations for people who had died during the Cultural Revolution. The restoration of university entrance exams in 1977 drew 5.7 million applicants for roughly 270,000 spots, the first test in a decade: a generation that had been sent to farms instead of campuses flooded the gates."
+        }
+      ],
+      "commonsFile": "CN-Beijing_Tiananmen_Gate.jpg"
     },
     {
       "id": "evt-roc-wei-jingsheng",
       "label": "Wei Jingsheng and the Fifth Modernization",
       "year": 1978,
       "endYear": 1979,
-      "description": "The electrician Wei Jingsheng demanded democracy as a necessary 'Fifth Modernization' on Democracy Wall; his long imprisonment marked the hard limit of permitted dissent.",
+      "description": "In December 1978 an electrician named Wei Jingsheng posted a manifesto on Democracy Wall arguing that Deng's Four Modernizations were worthless without a Fifth: democracy — and that the Communist Party was a dictatorship, not a socialist government. Within months he was in prison.",
       "wikiSlug": "Wei_Jingsheng",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wei served nearly fourteen years before a brief 1993 release, was re-arrested in 1994, and served another three years — eighteen years total in Chinese prisons for one essay. He was finally deported to the United States in 1997 on what the government called 'medical parole,' and founded the Wei Jingsheng Foundation in New York the following year. His case made him perhaps the most internationally recognized Chinese dissident of the reform era before the 1989 generation."
+        }
+      ],
+      "commonsFile": "Wei_Jingsheng_par_Claude_Truong-Ngoc_novembre_2013.jpg"
     },
     {
       "id": "evt-roc-resolution-history",
       "label": "The Resolution on Party History",
       "year": 1981,
-      "description": "The 1981 verdict that Mao was '70 percent right, 30 percent wrong' let the party repudiate the Cultural Revolution without repudiating itself.",
+      "description": "The 1981 'Resolution on Party History' was the Chinese Communist Party's official verdict on the Mao era: 70 percent right, 30 percent wrong — a formula carefully calibrated to bury the Cultural Revolution and the Great Leap Famine as mistakes without discrediting the revolution itself.",
       "wikiSlug": "Resolution_on_Certain_Questions_in_the_History_of_Our_Party_since_the_Founding_of_the_People's_Republic_of_China",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The resolution was drafted over two years under Deng's direct supervision and went through more than twenty revisions; Deng personally insisted on the 70/30 framing over objections from both hardliners who wanted less criticism and reformers who wanted more. By formally closing the books on Mao, the document also served a practical purpose: it made further demands for a fuller accounting illegitimate, setting the template the party still uses today."
+        }
+      ]
     },
     {
       "id": "evt-roc-gang-four-trial",
@@ -594,71 +854,110 @@
       "id": "evt-roc-deng-doctrine",
       "label": "Seek Truth from Facts",
       "year": 1978,
-      "description": "Deng's pragmatism, summed up as 'seek truth from facts' and 'it doesn't matter if a cat is black or white as long as it catches mice', replaced ideological purity as the test of policy.",
+      "description": "Deng's governing philosophy — 'seek truth from facts' and 'it doesn't matter whether a cat is black or white, as long as it catches mice' — replaced ideological color-matching with a single simple test: does it work?",
       "wikiSlug": "Deng_Xiaoping_Theory",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 'black cat, white cat' line is often attributed to a 1962 speech Deng gave at the height of post-famine recovery, meaning he had been saying it for sixteen years before reform gave it its real audience. Deng Xiaoping Theory, which codified these ideas, was formally written into the Chinese Communist Party constitution in 1997 — the year of his death — and remains there today as one of the party's guiding ideologies alongside Marxism-Leninism and Mao Zedong Thought."
+        }
+      ]
     },
     {
       "id": "evt-roc-xiaogang-contract",
       "label": "The Xiaogang Secret Contract",
       "year": 1978,
-      "description": "Eighteen starving farmers in Xiaogang village secretly divided collective land among households in 1978, risking execution; the harvest tripled and the model spread nationwide.",
+      "description": "In December 1978, eighteen starving households in Xiaogang village, Anhui province, secretly divided their collective farmland and signed a fingerprint contract agreeing to meet the state quota and keep everything above it — an act that was, at the time, punishable by execution.",
       "wikiSlug": "Xiaogang,_Anhui",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The secret pact included a pledge that if any signer were executed, the others would raise their children — written into the contract because several of the farmers couldn't write and pressed fingerprints instead of signatures. The next harvest on the same land with the same tools was dramatically larger than the previous years combined. Deng Xiaoping's leadership later ratified what the farmers had invented illegally, turning a crime into national policy. Today Xiaogang is a state-celebrated 'reform village' with a museum on the site."
+        }
+      ],
+      "commonsFile": "凤阳县－小岗村景色_-_panoramio.jpg"
     },
     {
       "id": "evt-roc-rural-boom",
       "label": "The Rural Income Boom",
       "year": 1979,
       "endYear": 1984,
-      "description": "Decollectivization and higher procurement prices roughly doubled rural incomes in six years, the fastest mass poverty reduction in the early reform era.",
+      "description": "Between 1979 and 1984, the Household Responsibility System and higher state procurement prices roughly doubled average rural incomes — the fastest mass poverty reduction of the entire early reform era, achieved with no foreign investment and no Special Economic Zones.",
       "wikiSlug": "Economic_history_of_China_(1949%E2%80%93present)",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The gains came almost entirely from incentive change rather than new technology, irrigation, or seed varieties — the same land, the same tools, the same farmers, but output soared once effort connected to reward. The rural boom also freed tens of millions of farm laborers who were suddenly surplus to agriculture, creating the workforce that would flood into township factories and, later, coastal cities."
+        }
+      ]
     },
     {
       "id": "evt-roc-township-enterprises",
       "label": "Township and Village Enterprises",
       "year": 1984,
       "endYear": 1996,
-      "description": "Rural collective factories outside the plan grew explosively, absorbing surplus farm labor and proving market production could outperform state industry.",
+      "description": "Township and village enterprises (TVEs) were small rural factories — making bricks, textiles, tools, processed food — owned nominally by local collectives but run for profit, and they grew explosively through the 1980s and early 1990s, absorbing surplus farm labor and outcompeting state industry.",
       "wikiSlug": "Township_and_village_enterprises",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "TVEs were not state-planned and not quite private — they occupied a legal gray zone that shielded them from ideological attack while letting them operate like market firms. By the mid-1990s they accounted for a substantial share of China's entire non-state industrial output. They proved, on Chinese soil before any Special Economic Zone had scaled, that market-oriented production beat planning; they were later restructured and largely privatized as the economy formalized."
+        }
+      ]
     },
     {
       "id": "evt-roc-hu-yaobang",
       "label": "Hu Yaobang, the Liberal Reformer",
       "year": 1980,
       "endYear": 1987,
-      "description": "As party general secretary Hu Yaobang drove rehabilitations and openness; his tolerance of dissent made him the reform camp's standard-bearer and got him purged in 1987.",
+      "description": "Hu Yaobang served as the Communist Party's top official from 1981 to 1987, driving the rehabilitation of millions persecuted during the Cultural Revolution and pushing an unusually open intellectual climate — until hardliners forced him out for tolerating student protests.",
       "wikiSlug": "Hu_Yaobang",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hu was a genuine liberal by the standards of the system: he rehabilitated not just individuals but entire ethnic groups and encouraged writers and academics to push limits. His forced resignation in January 1987, after student demonstrations he had refused to suppress, left a wound that never healed — when Hu died in April 1989, students gathered to mourn him, and those mourning crowds became the seed of the Tiananmen Square protests."
+        }
+      ],
+      "commonsFile": "1953_huyaobang.jpg"
     },
     {
       "id": "evt-roc-zhao-ziyang",
       "label": "Zhao Ziyang and the Reform Engine",
       "year": 1980,
       "endYear": 1989,
-      "description": "The technocrat Zhao Ziyang ran economic policy as premier and party chief, championing market reform until his fall over Tiananmen.",
+      "description": "Zhao Ziyang was the brilliant technocrat who designed and ran China's economic reforms as premier (1980–1987) and then party general secretary (1987–1989), until he refused to endorse martial law during the Tiananmen protests and spent the remaining sixteen years of his life under house arrest.",
       "wikiSlug": "Zhao_Ziyang",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before becoming premier nationally, Zhao had run Sichuan province, where he'd quietly allowed farmers to contract land ahead of official policy — making him one of the original protectors of the reform that became the Household Responsibility System. His secret memoir, recorded on hidden cassette tapes and smuggled out after his death in 2005, was published abroad as 'Prisoner of the State' and remains banned in China. He was never formally expelled from the party, leaving his status deliberately ambiguous."
+        }
+      ],
+      "commonsFile": "Bezoek_Chinese_premier_Zhao_Ziyang_,_met_premier_Lubbers_tijdens_regeringsdiner,_Bestanddeelnr_933-3563_(cropped).jpg"
     },
     {
       "id": "evt-roc-special-zone-law",
@@ -684,21 +983,35 @@
       "id": "evt-roc-sino-soviet-thaw",
       "label": "The Sino-Soviet Normalization",
       "year": 1989,
-      "description": "Gorbachev's 1989 Beijing summit ended three decades of Sino-Soviet hostility, just as the USSR itself entered terminal crisis.",
+      "description": "Mikhail Gorbachev's May 1989 Beijing summit was the first Sino-Soviet head-of-state meeting since the 1960 ideological split, ending nearly thirty years of open hostility — but it unfolded against the backdrop of the Tiananmen protests and, within two years, the USSR itself had collapsed.",
       "wikiSlug": "Sino-Soviet_relations",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The summit required last-minute rerouting of Gorbachev's motorcade because Tiananmen Square — the symbolic heart of the welcoming ceremony — was occupied by protesters; Chinese state television struggled to cover the visit without showing the demonstrations. The normalization meant China and the USSR both formally renounced the ideological feud over who represented true Marxism-Leninism. Within months of the summit, Gorbachev's reforms had accelerated the fall of Eastern European communist states, and Chinese leaders watched those events as a warning about what political liberalization leads to."
+        }
+      ],
+      "commonsFile": "PRC_Soviet_Locator.png"
     },
     {
       "id": "evt-roc-shekou-model",
       "label": "The Shekou Industrial Zone",
       "year": 1979,
-      "description": "The Shekou zone near Shenzhen pioneered labor contracts, bonuses, and the slogan 'time is money, efficiency is life' — capitalist practice rebranded as reform.",
+      "description": "Shekou, an industrial enclave inside Shenzhen established in 1979, was the earliest laboratory for what market reform actually looked like on the ground — labor contracts, performance bonuses, competitive hiring, and a billboard proclaiming 'time is money, efficiency is life,' a slogan that would have been dangerously subversive just years before.",
       "wikiSlug": "Shekou",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shekou was developed by China Merchants, a state-owned company, which gave the experiment just enough ideological cover to run capitalist practices under a socialist flag. Its model — worker contracts instead of lifetime assignments, bonuses tied to output — became the template that spread to the broader SEZ system and eventually to state enterprises across China."
+        }
+      ],
+      "commonsFile": "Shekou,Shenzhen,_China_深圳南山区蛇口翠竹园_-_panoramio.jpg"
     },
     {
       "id": "evt-roc-coastal-cities-1984",
@@ -714,42 +1027,68 @@
       "label": "Overseas Chinese Capital",
       "year": 1980,
       "endYear": 1995,
-      "description": "Hong Kong, Taiwanese, and diaspora investors supplied the bulk of early foreign capital and factory know-how, pouring into the southern zones.",
+      "description": "Through the 1980s and into the 1990s, the dominant source of 'foreign' investment flooding into China's southern zones was not Western multinationals but overseas Chinese — entrepreneurs from Hong Kong, Taiwan, and the wider diaspora who moved factories a few miles across a border into a workforce that cost a fraction of what labor did at home.",
       "wikiSlug": "Overseas_Chinese",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By 2011 the global Chinese diaspora numbered over 40 million people, a network built across centuries of emigration from southeastern China — the same coastal communities that the SEZs were deliberately positioned to reach. Hong Kong investors in particular could do the move in a day: same language, family connections on both sides, and a shared understanding of how mainland officialdom actually worked that no foreign multinational could replicate."
+        }
+      ],
+      "commonsFile": "Brooklyn_Chinatown.png"
     },
     {
       "id": "evt-roc-shenzhen-speed",
       "label": "Shenzhen Speed",
       "year": 1982,
       "endYear": 1985,
-      "description": "A skyscraper rising at a floor every few days made 'Shenzhen speed' the slogan for the breakneck transformation of a fishing region into a city of millions.",
+      "description": "The phrase 'Shenzhen speed' entered the Chinese language in the early 1980s to describe construction so fast that a skyscraper rose at roughly a floor every few days — a physical emblem of the velocity at which a farming and fishing backwater was being rebuilt as a global manufacturing hub.",
       "wikiSlug": "Shenzhen",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The speed was possible because Shenzhen wasn't inventing an industrial economy from scratch — it was importing one that already existed next door in Hong Kong, down to the factory managers, machinery suppliers, and shipping routes. By 2020 the city held 17.5 million people and had become one of the densest concentrations of electronics manufacturing on Earth, a transformation that took roughly fifteen years for its most visible phase."
+        }
+      ],
+      "commonsFile": "(CHN-Guangdong)_Taxis_at_University_of_Hong_Kong-Shenzhen_Hospital_2024-05-24.jpg"
     },
     {
       "id": "evt-roc-anti-spiritual-pollution",
       "label": "The Anti-Spiritual-Pollution Campaign",
       "year": 1983,
-      "description": "A 1983 conservative backlash against Western 'spiritual pollution' was reined in within months — an early skirmish in the recurring fight over how far opening could go.",
+      "description": "In late 1983 conservative factions inside the Communist Party launched the Anti-Spiritual Pollution Campaign, targeting Western ideas, liberal literature, and the cultural side effects of the open door — a direct challenge to the reform wing that was reined in within three months.",
       "wikiSlug": "Anti-Spiritual_Pollution_Campaign",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The campaign ran from October 1983 to January 1984, a remarkably short window that itself signals how decisively the reformers held the upper hand at that moment. 'Spiritual pollution' was the party's term for Western-inspired individualism, erotic literature, and liberal political ideas seeping in alongside foreign investment — the conservative argument that you couldn't open the economy without opening the ideology, and that the ideology was worth protecting."
+        }
+      ]
     },
     {
       "id": "evt-roc-special-zone-debate",
       "label": "Is Shenzhen Capitalist?",
       "year": 1985,
-      "description": "Hardliners attacked the zones as capitalist enclaves; the question of whether reform was betraying socialism shadowed every step of the 1980s.",
+      "description": "Through the mid-1980s, a live and dangerous internal debate inside the Chinese Communist Party asked whether the Special Economic Zones were undermining socialism — hardliners called them capitalist enclaves breeding inequality and foreign dependency, while reformers deflected with the studied ambiguity of 'socialism with Chinese characteristics.'",
       "wikiSlug": "Special_economic_zones_of_China",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The phrase 'socialism with Chinese characteristics' was specifically designed to be unanswerable: it acknowledged that what China was doing looked like capitalism while insisting it was something categorically different. The real arrangement — state-supervised market economics with no political pluralism — was something Western analysts kept predicting would have to resolve in one direction or the other, and for thirty years it didn't."
+        }
+      ]
     },
     {
       "id": "evt-roc-baoshan-steel",
@@ -765,54 +1104,84 @@
       "id": "evt-roc-urban-reform-1984",
       "label": "The Urban Economic Reform",
       "year": 1984,
-      "description": "The 1984 decision extended reform from farms to cities and state factories, granting enterprises autonomy and profit retention — far harder than rural reform.",
+      "description": "In 1984 the party formally extended Deng's economic reform from the countryside into the cities and state-owned factories, telling enterprises they could keep a share of their profits and make more of their own decisions — a far thornier problem than letting farmers keep grain surpluses.",
       "wikiSlug": "Chinese_economic_reform",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 1984 decision is often called the 'second phase' of reform, and it marked the first time Chinese state enterprises were legally allowed to retain profits rather than remit everything to the state. The reform was rolled out gradually city by city, with Shenzhen and the other Special Economic Zones (set up in 1980 in Guangdong province) serving as the test beds. Urban per-capita income roughly doubled between 1984 and 1988 — the fastest sustained rise China had seen in the twentieth century — which is part of why the inflation shock that followed felt so destabilizing."
+        }
+      ]
     },
     {
       "id": "evt-roc-dual-price-system",
       "label": "The Dual-Track Price System",
       "year": 1985,
       "endYear": 1993,
-      "description": "Goods had a low planned price and a high market price at once; the gap created the era's defining fortune and its defining grievance — official profiteering.",
+      "description": "China's 'dual-track' price system gave the same commodity — steel, coal, cement — two prices at once: a low, state-set planned price for quota output and a higher market price for anything produced above quota, threading a needle between keeping the old command economy stable and letting a real market grow at its edges.",
       "wikiSlug": "Dual-track_price_system",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The system was formally introduced in 1985 and was not fully abolished until 1993, meaning it ran for nearly a decade. Economists later called it a near-textbook case of a 'Pareto-improving' reform: in theory it left no one worse off while creating new incentives — quota holders still got their planned deliveries, and everyone above quota could profit from the market. The flaw the theory missed was that controlling access to the cheap quota allocation became enormously valuable, turning quota management into the key political resource of the decade."
+        }
+      ]
     },
     {
       "id": "evt-roc-guandao",
       "label": "Official Profiteering",
       "year": 1985,
       "endYear": 1989,
-      "description": "Cadres and their children bought at the planned price and sold at the market price ('guandao'), the visible corruption that fed public anger before 1989.",
+      "description": "Guandao (pronounced 'gwahn-DAO', literally 'official profiteering') was the practice of officials and their families buying goods at the low planned price and flipping them at the high market price — a built-in arbitrage that turned political connections into cash, and became the defining grievance of the 1980s.",
       "wikiSlug": "Corruption_in_China",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word guandao entered everyday Chinese speech as a catch-all for the visible gap between connected insiders and ordinary people. The children of senior party leaders who converted their parents' influence into private business empires became known as 'princelings' (taizidang) — a label that stuck and resurfaced decades later when Xi Jinping's anti-corruption campaign explicitly targeted that same network. Surveys in the late 1980s consistently ranked official corruption as the public's top concern, ahead of inflation itself."
+        }
+      ]
     },
     {
       "id": "evt-roc-1988-inflation",
       "label": "The 1988 Inflation Panic",
       "year": 1988,
-      "description": "An attempt to free prices triggered double-digit inflation and panic bank runs and buying, forcing a retreat and discrediting the reformers' timing.",
+      "description": "In 1988, with Deng's backing, reformers decided to rip off the price-control bandage all at once — and triggered a panic: double-digit inflation, bank runs, and citizens emptying store shelves to convert rapidly shrinking cash into durable goods before it lost more value.",
       "wikiSlug": "Chinese_economic_reform",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Retail price inflation hit roughly 18–19 percent in 1988, the highest since the founding of the People's Republic. The panic buying was so intense that stores in major cities temporarily ran out of basic goods like soap, matches, and cooking oil. The government reversed course within weeks and imposed an austerity 'rectification' (zhili zhengdun) that slashed credit and investment — which slowed inflation but also stalled the reform program and threw many township enterprises into crisis, adding unemployment to the list of grievances heading into 1989."
+        }
+      ]
     },
     {
       "id": "evt-roc-1986-student-protests",
       "label": "The 1986 Student Protests",
       "year": 1986,
       "endYear": 1987,
-      "description": "Student demonstrations for democracy in late 1986 led directly to Hu Yaobang's 1987 ouster for being too soft on 'bourgeois liberalization'.",
+      "description": "Student demonstrations that spread across Chinese cities in late 1986, demanding faster political reform, were the direct trigger for Hu Yaobang's ouster in January 1987 — and Hu's ouster was the direct trigger for the 1989 crisis.",
       "wikiSlug": "1986_Chinese_student_demonstrations",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 1986 protests were sparked partly by physicist Fang Lizhi, a vice president of the University of Science and Technology of China, who gave a series of lectures openly calling for democratization — essentially daring the party to silence an internationally respected scientist. The demonstrations started at his university in Hefei before spreading to Shanghai and a dozen other cities. Deng Xiaoping personally demanded Hu's removal, reportedly saying that Hu's failure to crack down showed weakness; Fang Lizhi and two other intellectuals were expelled from the party as a symbolic warning. The whole episode established the pattern that played out again, fatally, in 1989."
+        }
+      ]
     },
     {
       "id": "evt-roc-fang-lizhi",
@@ -832,104 +1201,168 @@
       "label": "The Culture Fever",
       "year": 1985,
       "endYear": 1989,
-      "description": "A wave of translation, debate, and self-examination — books, salons, the TV essay 'River Elegy' — asked whether Chinese tradition itself blocked modernization.",
+      "description": "Through the mid-to-late 1980s, China's universities and cities were seized by a 'culture fever' (wenhua re): a rush to translate and debate Western philosophy, literature, and social theory, and a fierce public argument about whether Chinese tradition itself — Confucian hierarchy, agrarian insularity — was the obstacle to modernity.",
       "wikiSlug": "Chinese_intellectualism",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Publishers printed hundreds of newly translated Western titles, from Sartre to Freud to Kafka, in runs that sold out immediately; one popular series called 'Culture: China and the World' sold millions of copies. The debate echoed arguments made during the May Fourth Movement of 1919 almost beat for beat — proof, as the chapter notes, that the question had never been resolved, only buried under Mao. University lecture halls routinely overflowed for talks on Western political philosophy, creating a generation of students who had grown up reading ideas the system officially rejected."
+        }
+      ]
     },
     {
       "id": "evt-roc-river-elegy",
       "label": "River Elegy",
       "year": 1988,
-      "description": "The 1988 television series 'River Elegy' attacked Chinese tradition as a closed inland culture and was watched by hundreds of millions before being banned after 1989.",
+      "description": "River Elegy (He Shang) was a six-part CCTV documentary broadcast in June 1988 that was watched by hundreds of millions of Chinese viewers — and promptly became the most politically controversial television program the country had ever produced, arguing that China's inward, river-and-soil civilization had to open to the modern 'blue' oceanic world or perish.",
       "wikiSlug": "River_Elegy",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The series was written by Su Xiaokang and Wang Luxiang and used footage of the Yellow River — traditional symbol of Chinese civilization — as its central visual argument for why that tradition was holding the country back. It was rebroadcast by official request of the State Council just weeks after its first airing, suggesting reformers in the leadership saw it as a useful provocation. After June 4, 1989, it was banned outright and Su Xiaokang fled into exile; the series has never been officially rehabilitated in China."
+        }
+      ]
     },
     {
       "id": "evt-roc-special-economic-debate",
       "label": "Price Reform Stalls",
       "year": 1988,
-      "description": "After the inflation panic, the leadership split between accelerating the market and a conservative 'rectification', and froze — the standoff that set the stage for 1989.",
+      "description": "After the 1988 inflation panic, the party's reform coalition cracked in the open: General Secretary Zhao Ziyang pushed to stay the course toward a market economy while the conservative faction, backed by Premier Li Peng and elder leaders, demanded retrenchment — a leadership split that paralyzed reform and remained unresolved when students gathered in April 1989.",
       "wikiSlug": "Chinese_economic_reform",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The split was not merely tactical but personal and ideological: Zhao had been the architect of both the rural and urban reforms and staked his political standing on them. The conservatives forced through the 'rectification' program over his objections, effectively stripping him of control over economic policy. Zhao later recorded his own account of these events in secret audio diaries that were smuggled out of China after his death under house arrest in 2005, published as 'Prisoner of the State' in 2009."
+        }
+      ]
     },
     {
       "id": "evt-roc-hu-yaobang-death",
       "label": "The Death of Hu Yaobang",
       "year": 1989,
-      "description": "The death of the purged liberal Hu Yaobang in April 1989 became the pretext for mass mourning that turned into the largest protest movement in PRC history.",
+      "description": "Hu Yaobang, the reform-minded party chief purged in 1987 for tolerating student protest, died of a heart attack on April 15, 1989; public mourning for a disgraced liberal was the only politically legal form of dissent, and it ignited the movement that became Tiananmen.",
       "wikiSlug": "Hu_Yaobang",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hu had been one of Deng Xiaoping's closest allies and rose to lead the party after the Cultural Revolution. His death came just eight days after suffering a heart attack during a Politburo meeting — he collapsed at the table. Mourning a disgraced official echoed the 1976 Qingming protests for Zhou Enlai, which had also turned into a pro-reform demonstration; the party's leaders recognized the pattern immediately, which is part of why the situation alarmed them so quickly."
+        }
+      ],
+      "commonsFile": "Hu_Yaobang_and_Nilde_Iotti_(7)_(4to3).jpg"
     },
     {
       "id": "evt-roc-hunger-strike",
       "label": "The Tiananmen Hunger Strike",
       "year": 1989,
-      "description": "A student hunger strike in May 1989, timed to Gorbachev's visit, won mass public sympathy and humiliated the leadership before the world's cameras.",
+      "description": "In mid-May 1989, thousands of students in Tiananmen Square began a hunger strike timed to Mikhail Gorbachev's historic state visit — forcing the welcoming ceremony to be moved and putting the government in the impossible position of letting young people starve before the world's cameras.",
       "wikiSlug": "1989_Tiananmen_Square_protests_and_massacre",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its peak, around 3,000 students were on hunger strike simultaneously, with hundreds hospitalized; the spectacle of ambulances removing unconscious students from the square in front of foreign press corps already there for the Soviet summit was a public-relations catastrophe for the government. The Gorbachev visit was meant to be Deng's crowning diplomatic moment — the first Sino-Soviet normalization summit since the 1960 split — and instead became the backdrop to the crisis. The hunger strike was what finally split the Politburo visibly, with Zhao Ziyang arguing publicly for dialogue and Li Peng pushing for force."
+        }
+      ],
+      "commonsFile": "2009candlevigil1.jpg"
     },
     {
       "id": "evt-roc-zhao-ziyang-fall",
       "label": "The Fall of Zhao Ziyang",
       "year": 1989,
-      "description": "Party chief Zhao Ziyang, who opposed force and went to plead with the students, was purged and held under house arrest until his death in 2005.",
+      "description": "Zhao Ziyang — premier, then party general secretary — refused to endorse martial law and went personally to Tiananmen Square on May 19 to tell the hunger strikers \"we have come too late\"; it was the last time he appeared in public, and he spent the remaining sixteen years of his life under house arrest.",
       "wikiSlug": "Zhao_Ziyang",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zhao's final square visit, megaphone in hand, was filmed and broadcast widely outside China; inside China the footage was suppressed. He was never formally tried or expelled from the party — he was simply erased, a deliberate non-person whose name was banned from publication. Zhao secretly dictated his memoirs onto cassette tapes that were smuggled out of China and published in 2009, four years after his death, under the title \"Prisoner of the State.\" He was the highest-ranking Chinese official ever to openly oppose a government crackdown."
+        }
+      ]
     },
     {
       "id": "evt-roc-martial-law-1989",
       "label": "Martial Law and the June Fourth Crackdown",
       "year": 1989,
-      "description": "The army cleared central Beijing by force on the night of June 3-4, 1989; the death toll, hidden by the state, is estimated from several hundred to well over a thousand.",
+      "description": "On the night of June 3–4, 1989, the People's Liberation Army moved into central Beijing under martial law and cleared the square by force; most of the killing happened not in Tiananmen itself but on the approach avenues to the west, where soldiers shot through crowds blocking the columns.",
       "wikiSlug": "1989_Tiananmen_Square_protests_and_massacre",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Martial law had been declared on May 20 but the first troop movements were turned back by human blockades of citizens — it took two weeks and a second, larger deployment before the army broke through. The Beijing military garrison initially balked at the order to fire on civilians; units were reportedly rotated in from remote provinces whose soldiers had no personal ties to the capital's population. At least seven army generals reportedly opposed the crackdown in writing. The official Chinese government death toll of roughly 200–300 counts soldiers as well as civilians and has never been revised upward."
+        }
+      ],
+      "commonsFile": "AK-47_and_Type_56_DD-ST-85-01269.jpg"
     },
     {
       "id": "evt-roc-tank-man",
       "label": "Tank Man",
       "year": 1989,
-      "description": "An unidentified man halting a column of tanks on Chang'an Avenue became the most reproduced image of the era and is censored inside China to this day.",
+      "description": "On June 5, 1989 — the morning after the crackdown — an unidentified man with shopping bags stepped in front of a column of Type 59 tanks on Chang'an Avenue and held them for several minutes; the photograph became one of the most recognized images of the twentieth century and is comprehensively censored inside China.",
       "wikiSlug": "Tank_Man",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Four photographers captured the standoff from the Beijing Hotel balcony — the best-known image was shot by AP photographer Jeff Widener. The man's identity has never been confirmed despite decades of investigation; a 1990 PBS interview in which a man claiming to be him appeared has never been verified. The Chinese government's official response when asked about him has varied between \"he was not killed\" and \"we cannot find him.\" The image is so thoroughly blocked in China that polling of young Chinese adults finds many have never seen it, even as it is among the most-shared news photographs globally."
+        }
+      ]
     },
     {
       "id": "evt-roc-li-peng",
       "label": "Li Peng, the Hardliner",
       "year": 1989,
-      "description": "Premier Li Peng, who declared martial law and defended the crackdown, became the public face of the hard line and a lasting target of popular loathing.",
+      "description": "Premier Li Peng (pronounced Lee Pung) was the public face of the hardline response — he signed the martial law declaration on May 20 and appeared on state television to announce it — and became the most personally despised figure of 1989 among protesters and much of the Chinese public.",
       "wikiSlug": "Li_Peng",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Li Peng went on to serve as premier until 1998, then chaired the National People's Congress (China's top legislature) until 2003 — his political career survived the crackdown entirely intact. He was reportedly adopted as a child by Zhou Enlai and Deng Yingchao after his father, a communist martyr, was killed in 1931. His daughter and son built substantial business empires in the electricity sector, making him a symbol of the very princelings-and-corruption problem the 1989 protesters were demonstrating against."
+        }
+      ],
+      "commonsFile": "Lipeng.jpg"
     },
     {
       "id": "evt-roc-1989-sanctions",
       "label": "Sanctions and Isolation",
       "year": 1989,
       "endYear": 1992,
-      "description": "Western arms embargoes and frozen relations isolated China after June 1989, briefly threatening the entire opening before economics overrode outrage.",
+      "description": "Within days of June 4, the US, European Community, and other Western nations suspended arms sales, froze high-level contacts, and imposed economic sanctions on China — a pariah period that lasted roughly three years before trade interests overwhelmed moral outrage.",
       "wikiSlug": "1989_Tiananmen_Square_protests_and_massacre",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The European Union arms embargo imposed in 1989 remains formally in place to this day, making it one of the longest-running sanctions regimes in EU history, though it is widely criticized as largely symbolic given how loosely it is defined. The World Bank suspended loans to China in June 1989; the US Congress passed sanctions legislation that the Bush administration partly watered down through executive waivers. Within two years of the crackdown, most Western governments had quietly resumed normal diplomatic and trade relations, concluding that engagement was preferable to isolation — a calculation China's leaders had correctly anticipated."
+        }
+      ]
     },
     {
       "id": "evt-roc-pudong",
@@ -945,45 +1378,69 @@
       "id": "evt-roc-socialist-market-economy",
       "label": "The Socialist Market Economy",
       "year": 1992,
-      "description": "The 1992 Party Congress formally adopted a 'socialist market economy', ending the question of whether markets were ideologically permissible.",
+      "description": "At the 14th Party Congress in October 1992, Jiang Zemin officially enshrined the goal of a \"socialist market economy\" — the formulation that closed thirty years of ideological debate about whether markets were compatible with Communist rule and opened the door to the investment boom of the 1990s.",
       "wikiSlug": "Socialist_market_economy",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before 1992, Chinese reformers had to use workarounds like \"socialist commodity economy\" to avoid the politically toxic word \"market\"; the 1992 phrasing was a deliberate ideological breakthrough, not a technicality. The formula — state ownership predominates but markets set prices — became the blueprint that every subsequent leadership generation has inherited without replacing."
+        }
+      ]
     },
     {
       "id": "evt-roc-xiahai",
       "label": "Xiahai: Jumping into the Sea",
       "year": 1992,
       "endYear": 1996,
-      "description": "After the Southern Tour, officials and academics quit secure posts to 'jump into the sea' of private business, a cultural turn toward money-making.",
+      "description": "After the Southern Tour, a wave of officials, academics, and engineers quit their safe state salaries to start private businesses — a movement the Chinese press called xiahai (\"jumping into the sea\"), borrowing a phrase that once implied recklessness to describe what was now the fashionable move.",
       "wikiSlug": "Chinese_economic_reform",
       "tier": 3,
       "tags": [
         "trade"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Some estimates put the number of officials who \"jumped\" in the early-to-mid 1990s at over 100,000, many of them middle-rank bureaucrats who understood exactly which industries the government would favor. The phenomenon produced a class of entrepreneurs with deep regulatory contacts — a structural advantage that still shapes Chinese business today. A companion slang term, \"xia gang\" (leaving one's post), captured the millions of state-enterprise workers simultaneously pushed out involuntarily as reforms downsized the SOE sector."
+        }
+      ]
     },
     {
       "id": "evt-roc-tax-reform-1994",
       "label": "The 1994 Fiscal Reform",
       "year": 1994,
-      "description": "Zhu Rongji's 1994 tax-sharing reform recentralized revenue to Beijing, the fiscal machinery that funded the next two decades of state power and infrastructure.",
+      "description": "Zhu Rongji's 1994 tax-sharing reform (known as the fenshuizhi, or \"revenue-sharing system\") stripped the provinces of the fiscal autonomy they had accumulated through the 1980s and recentralized the bulk of tax revenue to Beijing, giving the central government the financial muscle it had lacked.",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before 1994 the central government collected less than a quarter of total government revenue; after the reform it captured the majority, reversing a decade of provincial fiscal independence. The reform was deeply unpopular with rich coastal provinces who lost revenue, but Zhu pushed it through by granting them guaranteed transfer payments as compensation. That central fiscal machine — not the boom itself — is what funded the Three Gorges Dam, the 2008 stimulus, and eventually the Belt and Road."
+        }
+      ]
     },
     {
       "id": "evt-roc-deng-death",
       "label": "The Death of Deng Xiaoping",
       "year": 1997,
-      "description": "Deng died in February 1997, months before the Hong Kong handover he had designed; the reforms continued without him, the proof his system could outlive its founder.",
+      "description": "Deng Xiaoping died on February 19, 1997, at ninety-two, months before the Hong Kong handover he had designed. Unlike every Chinese strongman before him, his death produced no succession crisis — Jiang Zemin was already running the country, the reforms continued, and the machine simply kept going.",
       "wikiSlug": "Deng_Xiaoping",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Deng had been in poor health for years and had made no significant public appearance since the Southern Tour; the official cause of death was Parkinson's disease and a lung infection. He outlived Mao by over twenty years and, unlike Mao, deliberately dismantled the cult of personality around himself — he is buried in a modest grave rather than lying embalmed in a mausoleum. The Hong Kong handover he had negotiated under the \"one country, two systems\" formula took place just 130 days after his death."
+        }
+      ]
     },
     {
       "id": "evt-roc-taiwan-strait-1995",
@@ -1000,56 +1457,89 @@
       "id": "evt-roc-special-1992-consensus",
       "label": "The 1992 Consensus",
       "year": 1992,
-      "description": "An ambiguous formula that both sides agreed there was 'one China' while disagreeing what that meant became the fragile basis of cross-strait stability.",
+      "description": "A political formula reached in 1992 between representatives of the mainland and Taiwan that allowed both sides to accept 'one China' in principle while leaving entirely undefined what 'one China' actually meant — a deliberate ambiguity that kept cross-strait dialogue alive for decades.",
       "wikiSlug": "1992_Consensus",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The term '1992 Consensus' was actually coined only in 2000, eight years after the meeting it describes, by a Taiwanese official — which is part of why its very existence remains contested, with Beijing and Taipei holding incompatible accounts of what was agreed. The formula worked as long as both sides preferred managed ambiguity to a confrontation neither wanted; it began to collapse when Xi Jinping insisted it meant Beijing's definition of 'one China,' and Taiwan's voters elected leaders who refused to endorse it."
+        }
+      ]
     },
     {
       "id": "evt-roc-asian-financial-crisis",
       "label": "The Asian Financial Crisis",
       "year": 1997,
       "endYear": 1998,
-      "description": "By not devaluing the yuan while its neighbors' economies collapsed, China won regional credibility and contrasted its stability with the volatility of open markets.",
+      "description": "Starting in Thailand in July 1997, a currency and financial collapse tore through Southeast Asia and South Korea, wiping out years of \"economic miracle\" growth — and China, with its closed capital account and non-convertible yuan, sat it out almost unscathed.",
       "wikiSlug": "1997_Asian_financial_crisis",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The crisis began when Thailand was forced to abandon its dollar peg and the baht collapsed; within months Indonesia, South Korea, and Malaysia were in freefall. China's deliberate choice not to devalue the yuan — which would have undercut its neighbors' exports and deepened the spiral — earned lasting goodwill across the region. The episode hardened Chinese policymakers' conviction that fully open capital markets were dangerous, a caution that shaped its financial policy for the next two decades."
+        }
+      ],
+      "commonsFile": "Indonesia_money_supply_increases_and_inflation.webp"
     },
     {
       "id": "evt-roc-soe-reform",
       "label": "The Great State-Sector Layoffs",
       "year": 1997,
       "endYear": 2003,
-      "description": "Zhu Rongji's 'grasp the big, release the small' restructuring laid off tens of millions of state workers, ending the socialist 'iron rice bowl' of guaranteed jobs.",
+      "description": "Premier Zhu Rongji's \"grasp the big, release the small\" policy in the late 1990s shut down or sold off tens of thousands of state factories, laying off an estimated 30–40 million urban workers and dismantling the socialist \"iron rice bowl\" — the cradle-to-grave guarantee of jobs, housing, and pensions that Mao's system had promised.",
       "wikiSlug": "Chinese_economic_reform",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The displaced workers were called *xiagang* (literally \"off the post\") — a softer official euphemism for unemployment in a system that had insisted unemployment couldn't exist under socialism. Many were middle-aged workers in industrial rust-belt cities like Shenyang and Harbin, where entire factory towns lost their economic reason to exist. The restructuring was brutal but fast; by 2003, the state-owned sector's share of urban employment had fallen by roughly half from its late-1980s peak."
+        }
+      ]
     },
     {
       "id": "evt-roc-zhu-rongji",
       "label": "Zhu Rongji, the Economic Czar",
       "year": 1998,
       "endYear": 2003,
-      "description": "Premier Zhu Rongji pushed the painful SOE, banking, and WTO reforms, the technocrat who made China's market turn irreversible.",
+      "description": "Premier Zhu Rongji (1998–2003) was the technocrat who ran the hard side of China's economic transformation — downsizing bloated state enterprises, cleaning up the banking system, and driving China's accession to the World Trade Organization over intense domestic opposition.",
       "wikiSlug": "Zhu_Rongji",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When Zhu took office he announced he would take on the state-owned enterprise reform knowing it would throw tens of millions out of work, reportedly saying he had \"one hundred coffins prepared — ninety-nine for the corrupt officials and one for myself.\" Under his tenure, roughly 30 million SOE workers were laid off in the largest peacetime labor restructuring in history. He trained as an electrical engineer and taught economics before entering politics — one of the first technically trained leaders in modern China."
+        }
+      ],
+      "commonsFile": "Prem._Rongji_at_a_Press_Conference_(1999).jpg"
     },
     {
       "id": "evt-roc-housing-reform",
       "label": "The End of Allocated Housing",
       "year": 1998,
-      "description": "Abolishing state-allocated housing in 1998 created a private property market that became the main store of household wealth and the economy's biggest engine and risk.",
+      "description": "In 1998, China abolished the work-unit housing system — the decades-old practice of state employers providing apartments to workers at near-zero cost — and created an overnight private property market that would become both the primary engine of household wealth and, eventually, the economy's most dangerous vulnerability.",
       "wikiSlug": "Real_estate_in_China",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before the reform, roughly 80% of urban Chinese lived in housing allocated by their *danwei* (work unit) and paid nominal rents worth almost nothing. After 1998, those same residents could buy their units at heavily subsidized prices, giving millions of families their first asset. Within a decade, real estate had become so dominant that Chinese household wealth was more concentrated in property than in almost any other major economy."
+        }
+      ],
+      "commonsFile": "南京旭光里小区_-_panoramio_(1).jpg"
     },
     {
       "id": "evt-roc-belgrade-embassy",
@@ -1087,58 +1577,91 @@
       "id": "evt-roc-sars",
       "label": "The SARS Epidemic",
       "year": 2003,
-      "description": "Initial concealment of the 2003 SARS outbreak became a national scandal and a rehearsed warning about information control and epidemics that 2020 would echo.",
+      "description": "SARS (Severe Acute Respiratory Syndrome), a deadly coronavirus that emerged in southern China in late 2002, spread internationally partly because local officials suppressed early reports — a dry run for the information-control failures that would matter even more in 2020.",
       "wikiSlug": "Severe_acute_respiratory_syndrome",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The virus, SARS-CoV-1, was later traced by Chinese scientists through the intermediary of Asian palm civets back to horseshoe bats in Yunnan province. The 2002–2004 outbreak infected more than 8,000 people in 29 countries and killed nearly 800. China's initial concealment triggered a rare rebuke from the World Health Organization and forced the sacking of the health minister and the mayor of Beijing — but the structural incentives that rewarded concealment over transparency were never addressed."
+        }
+      ],
+      "commonsFile": "SARS_xray.jpg"
     },
     {
       "id": "evt-roc-wen-jiabao",
       "label": "Wen Jiabao, the People's Premier",
       "year": 2003,
       "endYear": 2013,
-      "description": "Premier Wen Jiabao cultivated a populist image while presiding over the boom, the inequality, and the stimulus that defined the Hu-Wen decade.",
+      "description": "Wen Jiabao served as premier from 2003 to 2013, making him the government's economic manager through the boom, the 2008 financial crisis, and the massive stimulus package that followed — earning him a reputation as 'the People's Premier' for his visible empathy with ordinary citizens.",
       "wikiSlug": "Wen_Jiabao",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wen was the third-ranking member of the Politburo Standing Committee throughout the Hu decade, responsible for day-to-day economic policy. He wept publicly at earthquake disaster sites and was photographed visiting flood victims, cultivating a contrast with the party's usual remoteness. Years after leaving office, investigative reports alleged his family had accumulated enormous hidden wealth, a contradiction the censors swiftly suppressed inside China."
+        }
+      ],
+      "commonsFile": "Wen_Jiabao_-_Annual_Meeting_of_the_New_Champions_2012.jpg"
     },
     {
       "id": "evt-roc-migrant-workers",
       "label": "The Migrant-Worker Economy",
       "year": 2000,
       "endYear": 2015,
-      "description": "Some 200-300 million rural migrants, denied urban benefits by the hukou registration system, built and staffed the export factories — the human engine of the boom.",
+      "description": "Between roughly 200 and 300 million rural Chinese workers moved to coastal factory cities and construction sites — the single largest internal migration in human history, and the human engine that made Chinese exports so cheap for two decades.",
       "wikiSlug": "Migration_in_China",
       "tier": 1,
       "tags": [
         "trade"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Because their hukou (household registration) remained rural, these workers were legally non-residents in the cities where they lived and worked, which meant they were typically excluded from local schools, health care, and welfare programs. The International Labour Organization has called China's internal migration one of the most extensive in the world. Workers were genuinely mobile in a downturn — companies could shed them and they had no local safety net to claim, which made Chinese manufacturing extraordinarily flexible during global slowdowns."
+        }
+      ]
     },
     {
       "id": "evt-roc-harmonious-society",
       "label": "The Harmonious Society",
       "year": 2004,
-      "description": "Hu Jintao's 'harmonious society' acknowledged that breakneck growth had produced dangerous inequality, pollution, and unrest — and prescribed mostly slogans.",
+      "description": "Hu Jintao's 'Harmonious Society' slogan, formally adopted as party policy around 2004–2005, was an official acknowledgment that unchecked GDP growth had produced inequality, social unrest, and environmental damage — and a signal the party would try to rebalance toward social stability.",
       "wikiSlug": "Harmonious_Society",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The concept was explicitly positioned as a course correction from pure growth-at-all-costs, pairing 'harmonious society' with a separate goal of becoming a 'moderately prosperous society.' In practice, most of the tools that could have actually reduced inequality — independent courts, free press, accountable local officials, free trade unions — were precisely the political reforms the party wouldn't permit after 1989, so the slogan mostly named the problem without solving it."
+        }
+      ]
     },
     {
       "id": "evt-roc-wto-boom",
       "label": "The Export Juggernaut",
       "year": 2002,
       "endYear": 2008,
-      "description": "After WTO entry exports roughly quadrupled in six years, China ran enormous trade surpluses and became the indispensable workshop of the global economy.",
+      "description": "Following its 2001 WTO entry, China's exports roughly quadrupled by 2008, making it the world's largest exporter and running persistent trade surpluses that reshaped global manufacturing — and generated enormous political friction with the United States and Europe.",
       "wikiSlug": "Economy_of_China",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "China became the world's second-largest economy by nominal GDP and, by purchasing power parity (a measure that adjusts for price differences), is now the world's largest economy — a position it reached within barely a generation of being poorer per capita than most of sub-Saharan Africa. The state-owned enterprise sector coexists with a large private sector that contributes roughly 60 percent of GDP and 80 percent of urban employment. The trade surpluses of the 2002–2008 period funded a foreign-exchange reserve buildup that reached nearly $4 trillion, the largest in history."
+        }
+      ],
+      "commonsFile": "Pudong_Shanghai_November_2017_panorama.jpg"
     },
     {
       "id": "evt-roc-abolish-ag-tax",
@@ -1155,11 +1678,17 @@
       "label": "The Widening Gap",
       "year": 2003,
       "endYear": 2012,
-      "description": "The reform boom produced one of the world's fastest rises in inequality, a coastal-inland and urban-rural chasm that became the regime's central social anxiety.",
+      "description": "China's reform era produced one of the fastest rises in income inequality ever recorded, transforming a country that had been strikingly egalitarian in 1978 into one where the coastal-inland and urban-rural divides became yawning chasms by the 2000s.",
       "wikiSlug": "Income_inequality_in_China",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before the 1978 reforms, China's income distribution was described by the Asian Development Bank Institute as 'egalitarian in all aspects' — a legacy of Maoist redistribution, however brutal. Within a generation, China's Gini coefficient (a standard inequality measure, where 0 is perfect equality and 1 is total concentration) rose to among the highest in the world, above the United States. The coastal-inland gap was geographic as well as economic: a factory worker in Shenzhen might earn five times what a farmer in Guizhou made in the same year."
+        }
+      ]
     },
     {
       "id": "evt-roc-shenzhou-7",
@@ -1187,215 +1716,347 @@
       "id": "evt-roc-melamine-milk",
       "label": "The Tainted Milk Scandal",
       "year": 2008,
-      "description": "Melamine-laced infant formula sickened 300,000 babies and became the symbol of a growth model that had outrun safety, regulation, and trust.",
+      "description": "In 2008, Chinese dairy company Sanlu was found to have adulterated infant formula with melamine, an industrial chemical added to fake higher protein readings — sickening 300,000 babies, killing six, and becoming the defining symbol of a regulatory system overwhelmed by the speed of the boom.",
       "wikiSlug": "2008_Chinese_milk_scandal",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Melamine was added specifically to fool nitrogen-based protein tests: the chemical is nitrogen-rich and mimics protein in standard quality-control checks, meaning the fraud was invisible to the tests companies were running. More than 54,000 infants were hospitalized with kidney stones or kidney damage. The scandal engulfed not just Sanlu but dozens of other dairy brands and triggered a global wave of product recalls — Chinese dairy exports were banned in multiple countries, and the Chinese government ultimately paid out hundreds of millions of dollars in compensation."
+        }
+      ],
+      "commonsFile": "2008_Chinese_milk_scandal_-_empty_milk_shelves.jpg"
     },
     {
       "id": "evt-roc-birds-nest",
       "label": "The Bird's Nest and the New Beijing",
       "year": 2008,
-      "description": "The Bird's Nest stadium, the Water Cube, and a rebuilt Beijing turned the 2008 Olympics into a coming-out spectacle of national arrival.",
+      "description": "The Beijing National Stadium — universally nicknamed the Bird's Nest for its interlocking steel lattice — was built in four years and holds 80,000 people; it was the centerpiece of the Olympic opening ceremony that announced China's arrival to the world.",
       "wikiSlug": "Beijing_National_Stadium",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stadium covers 204,000 square meters (about 50 acres) and broke ground in December 2003, with construction officially starting in March 2004 and finishing just in time in June 2008. It sits in the Olympic Green in Chaoyang district, the same park corridor that holds the Water Cube aquatics center — together they became the two most-photographed buildings of the decade."
+        }
+      ],
+      "commonsFile": "Beijing_China_Beijing-National-Stadium-01.jpg"
     },
     {
       "id": "evt-roc-gfc-2008",
       "label": "The Global Financial Crisis Hits",
       "year": 2008,
       "endYear": 2009,
-      "description": "The 2008 Western crash collapsed Chinese exports and shut tens of thousands of factories, briefly threatening the social bargain of jobs-for-stability.",
+      "description": "When the American mortgage market collapsed in September 2008 and cascaded into a global crash, Chinese exports fell roughly 20 percent, tens of thousands of factories closed, and an estimated 20 million migrant workers lost their jobs almost overnight.",
       "wikiSlug": "Chinese_economic_stimulus_program",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "China's economic growth, which had been running above 10 percent, slid toward 6 percent by late 2008 — terrifying for a government whose legitimacy rested on steady prosperity. The speed of the reversal was unlike anything since 1989: factory orders dried up faster than workers could be retrained or redeployed, and the rural towns those migrants returned to had not planned to absorb them."
+        }
+      ]
     },
     {
       "id": "evt-roc-four-trillion",
       "label": "The Four-Trillion-Yuan Stimulus",
       "year": 2008,
       "endYear": 2009,
-      "description": "A colossal 2008-09 stimulus, mostly debt-financed infrastructure and property, pulled the world economy along but left a mountain of local-government debt.",
+      "description": "On November 9, 2008, China's State Council announced a four-trillion-yuan (roughly $586 billion) stimulus package — one of the largest fiscal interventions in history relative to GDP — channeled almost entirely into infrastructure, construction, and lending through local-government vehicles.",
       "wikiSlug": "Chinese_economic_stimulus_program",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The plan worked in the short run: growth rebounded from near 6 percent back to over 10 percent by mid-2009. But critics trace the surge in Chinese local-government and state-enterprise debt directly to this moment; the World Bank recommended similar public-works approaches to the US and EU, but both chose quantitative easing instead. The stimulus essentially traded a short-term jobs crisis for a long-term debt mountain."
+        }
+      ]
     },
     {
       "id": "evt-roc-export-collapse-2009",
       "label": "The 2009 Export Collapse",
       "year": 2009,
-      "description": "A roughly 20 percent fall in exports and tens of millions of migrant job losses in 2009 forced the pivot from exports toward investment-led growth.",
+      "description": "In 2009 Chinese exports dropped roughly 20 percent as global demand evaporated — the steepest fall since the reform era began — forcing Beijing to pivot from an export-led growth model toward debt-financed domestic investment.",
       "wikiSlug": "Chinese_economic_stimulus_program",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The collapse was structural, not just cyclical: the Western consumers who had powered China's factory boom were now deleveraging and would never return to pre-crisis spending rates. That reality made the four-trillion-yuan stimulus not just a rescue measure but a permanent reorientation — from making things for the world to building things for China, paid for with borrowed money."
+        }
+      ]
     },
     {
       "id": "evt-roc-jasmine-2011",
       "label": "The Jasmine Scare",
       "year": 2011,
-      "description": "Anonymous online calls for Arab-Spring-style 'Jasmine' gatherings in 2011 produced almost no protesters but a huge preemptive crackdown that revealed elite anxiety.",
+      "description": "In February 2011, anonymous online posts called on Chinese citizens to gather at specific street corners for Arab-Spring-style \"Jasmine\" demonstrations — almost nobody showed up, but the government deployed massive police forces anyway and detained dozens of dissidents preemptively.",
       "wikiSlug": "2011_Chinese_pro-democracy_protests",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The calls for protests spread across over a dozen cities starting February 20, 2011, closely timed to the fall of authoritarian governments in Tunisia and Egypt. The disproportion of the crackdown relative to the actual turnout was itself revealing: the government even censored the word \"jasmine\" on search engines, scrubbing a flower from the internet because it had become a symbol. The episode showed that Beijing was watching the Arab Spring with something close to terror, not confidence."
+        }
+      ],
+      "commonsFile": "Jasmine_Revolution_in_China_-_Beijing_11_02_20_crowd_2.jpg"
     },
     {
       "id": "evt-roc-ai-weiwei",
       "label": "The Detention of Ai Weiwei",
       "year": 2011,
-      "description": "The 2011 disappearance of the artist Ai Weiwei, who had documented the Sichuan school deaths, signaled a hardening line on celebrity dissent.",
+      "description": "Ai Weiwei, a celebrated contemporary artist and architect who had helped design the Bird's Nest, spent years documenting the names of children killed in collapsed Sichuan schools — then in April 2011 was arrested at Beijing airport and held for 81 days without charge.",
       "wikiSlug": "Ai_Weiwei",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ai grew up in China's remote northwest, where his father (the poet Ai Qing) had been exiled during the Anti-Rightist Campaign — giving him a family-level memory of state punishment that shaped his later activism. His arrest was officially for \"economic crimes,\" but followed directly from his investigation of the Sichuan schools corruption scandal. He was released without trial after international pressure, then placed under various forms of surveillance and travel restriction for years."
+        }
+      ],
+      "commonsFile": "Aj_Wej-wej_I_(2017).jpg"
     },
     {
       "id": "evt-roc-wenzhou-crash",
       "label": "The Wenzhou High-Speed Rail Crash",
       "year": 2011,
-      "description": "A 2011 bullet-train collision and the rushed burial of a carriage became a viral parable about speed, cover-up, and the costs of the growth model.",
+      "description": "On July 23, 2011, a high-speed train rear-ended a stalled train on a viaduct near Wenzhou, killing 40 people and injuring at least 192 — and then authorities made it far worse by ordering a wrecked carriage buried while rescuers were still searching for survivors.",
       "wikiSlug": "Wenzhou_train_collision",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The crash was caused by a combination of signal-design defects and poor management — in other words, the very systems meant to make the high-speed network safe had been built too fast and without adequate quality control. Outrage over the burial order spread on Weibo before censors could contain it, turning a railway accident into a national referendum on whether officials cared about the people they were supposed to serve. One infant, Xiang Weiyi, was pulled alive from the wreckage hours after authorities declared the rescue over — a fact that made the premature burial order even harder to forgive."
+        }
+      ],
+      "commonsFile": "D3115.jpg"
     },
     {
       "id": "evt-roc-weibo-era",
       "label": "The Weibo Moment",
       "year": 2010,
       "endYear": 2013,
-      "description": "For a few years microblogs created an unprecedented semi-public square where scandals and official lies could be exposed before censorship caught up.",
+      "description": "Weibo, a Twitter-like microblog launched in August 2009, gave China its first real semi-public national square — a place where scandals, disasters, and official lies could spread faster than censors could kill them.",
       "wikiSlug": "Sina_Weibo",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Weibo grew to over 582 million monthly active users at its peak, making it one of the largest social media platforms on earth. The platform's open architecture meant viral posts could reach millions in hours, outrunning the state's slow-moving propaganda apparatus — which is precisely why authorities eventually invested heavily in real-time censorship infrastructure and steered traffic toward more controllable apps like WeChat."
+        }
+      ]
     },
     {
       "id": "evt-roc-ghost-cities",
       "label": "Ghost Cities and the Property Engine",
       "year": 2010,
       "endYear": 2015,
-      "description": "Debt-fueled construction produced empty districts and a property sector that became a quarter of the economy — its greatest growth driver and deepest fragility.",
+      "description": "Debt-fueled construction through the 2010s produced vast newly built districts with almost no residents — \"ghost cities\" built not because anyone needed to live there, but because building kept the growth numbers up and generated tax revenue for local governments.",
       "wikiSlug": "Under-occupied_developments_in_China",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The phenomenon was first reported as early as 2009, before the wave peaked. Notably, many developments initially condemned as permanent ghost cities have since filled in and become functioning urban centers — the phenomenon was partly a timing artifact of China's rapid internal migration, not pure overbuilding. The property sector eventually grew to account for roughly a quarter of China's total economic activity, making it both the country's biggest growth engine and its deepest structural vulnerability."
+        }
+      ],
+      "commonsFile": "Chenggong,_Kunming,_Yunnan_province,_China.jpg"
     },
     {
       "id": "evt-roc-bo-xilai",
       "label": "Bo Xilai and the Chongqing Model",
       "year": 2007,
       "endYear": 2012,
-      "description": "The charismatic Chongqing boss Bo Xilai built a populist 'red culture' and crime-crackdown machine and a power base that frightened the leadership.",
+      "description": "Bo Xilai, the Communist Party chief of the giant megacity of Chongqing (population: roughly 30 million), built a national profile from 2007 to 2012 through a nostalgia-fueled Maoist \"red culture\" campaign and a brutal crackdown on organized crime — openly positioning himself for the top leadership in a system where openly positioning yourself is forbidden.",
       "wikiSlug": "Bo_Xilai",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bo came from the very top of China's political aristocracy: his father, Bo Yibo, was a founding revolutionary elder and a member of the \"Eight Immortals\" who shaped the post-Mao era. Before Chongqing, Bo served as Mayor of Dalian, Governor of Liaoning, and Minister of Commerce — a career path engineered for the summit. His Chongqing anti-mafia drive, called \"Strike Black,\" was later found to have used torture and fabricated evidence, targeting rivals as much as criminals."
+        }
+      ],
+      "commonsFile": "Bo-_Ferrero-Waldner_meeting_(2007).jpg"
     },
     {
       "id": "evt-roc-wang-lijun",
       "label": "The Wang Lijun Incident",
       "year": 2012,
-      "description": "Bo's police chief fled to a US consulate in 2012 with evidence that his patron's wife had murdered a British businessman, detonating the affair.",
+      "description": "On February 6, 2012, Wang Lijun — Bo Xilai's police chief and chief enforcer of the Chongqing crime crackdown — walked into the US consulate in Chengdu and spent over 30 hours there, handing over evidence that Bo's wife, Gu Kailai, had poisoned British businessman Neil Heywood.",
       "wikiSlug": "Wang_Lijun_incident",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wang had apparently fallen out with Bo after confronting him with evidence of Gu's role in the murder, and feared Bo would have him killed. The Chinese government's initial cover story was that Wang had gone to the consulate for \"vacation-style medical treatment\" — a phrase so absurd it became a dark joke. Wang eventually left the consulate voluntarily and was taken directly to Beijing by state security agents; he was later sentenced to 15 years in prison for defection and bending the law."
+        }
+      ],
+      "commonsFile": "USCG-Chengdu.jpg"
     },
     {
       "id": "evt-roc-bo-xilai-fall",
       "label": "The Fall of Bo Xilai",
       "year": 2012,
       "endYear": 2013,
-      "description": "Bo's purge and life sentence was the largest elite scandal in decades and the cleared path for Xi Jinping's uncontested rise.",
+      "description": "By September 2013, Bo Xilai had been expelled from the Communist Party, stripped of all offices, tried on charges of bribery, embezzlement, and abuse of power, and sentenced to life in prison — the most spectacular elite downfall in China since the Gang of Four in 1976.",
       "wikiSlug": "Bo_Xilai",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bo's wife, Gu Kailai, was separately convicted of Neil Heywood's murder and received a suspended death sentence (meaning life imprisonment in practice). The trial itself was tightly managed, but Bo's combative courtroom performance — denying charges, retracting his confession, challenging witnesses — was unusual enough that the proceedings were partially live-blogged by Chinese state media, an unprecedented move apparently designed to demonstrate procedural legitimacy. The affair cleared the field for Xi Jinping and also gave the new leadership a powerful template for using anti-corruption prosecutions against political rivals."
+        }
+      ],
+      "commonsFile": "US_Secretary_Gutierrez_meets_with_Chinese_Minister_Bo_Xilai.jpg"
     },
     {
       "id": "evt-roc-leadership-2012",
       "label": "The 18th Party Congress",
       "year": 2012,
-      "description": "The 2012 congress installed Xi Jinping as party leader amid open elite anxiety about corruption, inequality, and a model running out of room.",
+      "description": "The 18th National Congress of the Communist Party, held November 8–14, 2012, formally installed Xi Jinping as party General Secretary and handed him command of the military — completing a once-a-decade leadership handover in a system with no elections, where succession is decided entirely by elite bargaining behind closed doors.",
       "wikiSlug": "18th_National_Congress_of_the_Chinese_Communist_Party",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The congress had 2,268 delegates, but real decisions had been made in the months before by the outgoing Standing Committee. Xi was broadly understood at the time as a safe, dull consensus choice — a \"compromise candidate\" whose main qualification was that he had not made dangerous enemies. Within two years that reading would look like the biggest political miscalculation in modern Chinese history, as Xi moved to consolidate personal power on a scale not seen since Mao."
+        }
+      ],
+      "commonsFile": "18th_National_Congress_of_the_Communist_Party_of_China.jpg"
     },
     {
       "id": "evt-roc-tigers-flies",
       "label": "Tigers and Flies",
       "year": 2013,
       "endYear": 2017,
-      "description": "Xi's anti-graft drive jailed retired security chief Zhou Yongkang, generals, and over a million officials, simultaneously cleaning house and destroying rivals.",
+      "description": "Xi's phrase 'hunting both tigers and flies' — senior officials and petty bureaucrats alike — became the campaign's defining slogan, and its biggest tiger was Zhou Yongkang, the retired security czar and Politburo Standing Committee member prosecuted in 2014, the most senior figure ever jailed in PRC history.",
       "wikiSlug": "Anti-corruption_campaign_under_Xi_Jinping",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zhou Yongkang had overseen China's vast domestic security apparatus, including the police, courts, and secret services, and his network of allies inside those institutions made him genuinely dangerous to Xi's consolidation of power. He was sentenced to life imprisonment in 2015. The generals caught in the same sweep included Xu Caihou and Guo Boxiong, the two most senior officers in the People's Liberation Army — both former vice chairmen of the Central Military Commission — accused of selling promotions for cash."
+        }
+      ]
     },
     {
       "id": "evt-roc-chinese-dream",
       "label": "The Chinese Dream",
       "year": 2012,
-      "description": "Xi's signature slogan, the 'great rejuvenation of the Chinese nation' by mid-century, fused national pride to party rule and the century-of-humiliation memory.",
+      "description": "The 'Chinese Dream' — Xi's signature political concept, formally the 'great rejuvenation of the Chinese nation' — debuted in November 2012 when Xi toured a national-history exhibit titled 'The Road to National Rejuvenation' days after becoming party leader.",
       "wikiSlug": "Chinese_Dream",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The concept set two concrete centenary targets: a 'moderately prosperous society' by 2021, the party's 100th anniversary, and a 'fully developed nation' by 2049, the PRC's centenary. Unlike the Maoist slogans it superficially resembles, the Chinese Dream was explicitly personal and consumerist in its early framing — official messaging emphasized individual prosperity and family comfort — before gradually shifting toward national power and international standing as Xi's tenure lengthened."
+        }
+      ],
+      "commonsFile": "Chinese_Dream,_South_Lake_Park,_Panzhou,_Guizhou,_China,_1_November_2019.jpg"
     },
     {
       "id": "evt-roc-document-9",
       "label": "Document No. 9",
       "year": 2013,
-      "description": "A 2013 internal directive forbade promoting constitutional democracy, civil society, and press freedom — the ideological blueprint of the Xi era.",
+      "description": "Document No. 9 (officially the 'Communiqué on the Current State of the Ideological Sphere') was a classified 2013 directive circulated inside the party listing seven dangerous 'false ideological trends' to be suppressed, from constitutional democracy to an independent press.",
       "wikiSlug": "Document_Number_Nine",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The document was leaked to the New York Times in 2013, making its contents public despite never being officially released. Its seventh prohibited topic, 'historical nihilism,' was a direct instruction to prevent honest public discussion of the Great Leap Forward, the Cultural Revolution, and Tiananmen — framing party self-criticism as a foreign-inspired threat. The directive effectively ended the limited tolerance for political debate that had briefly flourished on Weibo between roughly 2009 and 2012."
+        }
+      ]
     },
     {
       "id": "evt-roc-709-crackdown",
       "label": "The 709 Lawyers Crackdown",
       "year": 2015,
-      "description": "The July 2015 roundup of rights lawyers gutted the small legal-activist community that had tried to use the regime's own courts against it.",
+      "description": "On July 9, 2015 — the '709' date that gave the crackdown its name — police simultaneously detained hundreds of human-rights lawyers and legal activists across China, dismantling the community that had spent a decade trying to use the party's own legal system to defend citizens.",
       "wikiSlug": "709_crackdown",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "More than 300 lawyers and activists were eventually detained, questioned, or placed under surveillance. Several of those arrested — including Wang Yu, who had taken on sensitive cases involving Falun Gong practitioners and Uyghurs — were held incommunicado for months and later appeared in televised 'confessions' that rights groups condemned as coerced. The crackdown marked the effective end of the 'rights defense' (weiquan) movement, which had been one of the only organized civil-society forces operating inside China."
+        }
+      ]
     },
     {
       "id": "evt-roc-two-child",
       "label": "The End of the One-Child Policy",
       "year": 2015,
       "endYear": 2016,
-      "description": "After 35 years the one-child policy was scrapped in 2015 as China confronted a shrinking workforce and aging it could no longer ignore.",
+      "description": "China replaced the one-child policy with a two-child limit in October 2015 (effective January 2016), not as a liberalizing reform but as a demographic emergency measure — the working-age population had already begun to shrink.",
       "wikiSlug": "Two-child_policy",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fertility rate by 2015 had fallen to roughly 1.5–1.6 births per woman, well below the 2.1 replacement level, partly because of the policy and partly because of rising urban living costs. Even after the two-child limit was lifted, birth rates continued to fall — couples who had grown up as only children often chose to remain childless or have one child regardless of official permission. China would further loosen the rule to three children in 2021, then drop all birth limits entirely, but the demographic trajectory barely shifted."
+        }
+      ]
     },
     {
       "id": "evt-roc-xi-core",
       "label": "Xi Named the Core",
       "year": 2016,
-      "description": "The party designated Xi its 'core' leader in 2016, a status Hu Jintao never held, formalizing the most concentrated personal power since Mao.",
+      "description": "In October 2016 the party's Central Committee officially designated Xi Jinping the 'core' (核心, héxīn) of the party's leadership — a status his predecessor Hu Jintao was deliberately never given and that signals a qualitatively different concentration of authority.",
       "wikiSlug": "Xi_Jinping",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 'core' designation had last been applied to Jiang Zemin, who held it from 1989 onward, and before him to Deng Xiaoping and Mao. Hu Jintao's deliberate exclusion from the title was itself a signal of the collective-leadership era: no single figure was supposed to be indispensable. Restoring it to Xi formalized what had become functionally obvious — that the other six members of the Politburo Standing Committee were no longer peers managing a consensus but subordinates executing his decisions."
+        }
+      ],
+      "commonsFile": "2015_Ma–Xi_Meeting_08.jpg"
     },
     {
       "id": "evt-roc-pla-reform",
@@ -1413,156 +2074,250 @@
       "label": "The Targeted Poverty Campaign",
       "year": 2013,
       "endYear": 2020,
-      "description": "A vast 'targeted poverty alleviation' drive that Beijing declared in 2020 had eliminated extreme rural poverty — a real achievement and a contested statistic.",
+      "description": "Xi Jinping's 'Targeted Poverty Alleviation' campaign, launched in 2013, deployed government officials village-by-village to register and assist the rural poor, and in 2020 Beijing declared absolute poverty — as defined by the World Bank threshold — eliminated in China.",
       "wikiSlug": "Poverty_alleviation_in_China",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The World Bank figure most often cited is that China lifted roughly 800 million people out of extreme poverty over the full reform era from 1978 to 2020 — the largest poverty reduction in human history by any measure. The 'targeted' approach meant individual household registration and personalized intervention, not blanket cash transfers, which made it administratively intensive. Serious economists note that the outcome depends heavily on where the poverty line is set and how much weight to give different phases of reform — the rural land reforms of the 1980s versus the export boom versus the 2013–2020 campaign — but the broad direction of the data is not disputed."
+        }
+      ],
+      "commonsFile": "坪垭藏族乡_-_Mapillary_(xp5dD0P2BLng1HyOUb9Dub).jpg"
     },
     {
       "id": "evt-roc-made-in-china-2025",
       "label": "Made in China 2025",
       "year": 2015,
-      "description": "An industrial plan to dominate robotics, chips, electric vehicles, and aerospace by 2025 became the explicit target of the American response.",
+      "description": "Signed in 2015, Made in China 2025 was an explicit industrial policy to shift China from cheap-labor assembly into high-tech dominance in ten sectors — including chips, robotics, electric vehicles, and aerospace.",
       "wikiSlug": "Made_in_China_2025",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The plan targeted 70% domestic content in high-tech industries by 2025 and set specific market-share goals for Chinese companies both at home and globally. It became a lightning rod in the 2018 US-China trade war — American officials cited it as proof of unfair state-directed competition — and Beijing quietly stopped using the name in official communications after 2019, even as the underlying policy continued. The plan was modeled partly on Germany's 'Industrie 4.0' strategy, which China's planners had studied closely."
+        }
+      ],
+      "commonsFile": "COMAC_B-001A_May_2017.jpg"
     },
     {
       "id": "evt-roc-tech-giants",
       "label": "The Platform Economy",
       "year": 2010,
       "endYear": 2020,
-      "description": "Alibaba, Tencent, and a generation of platforms built a near-cashless, app-mediated economy that for a decade was the freest and most dynamic part of Chinese life.",
+      "description": "Through the 2010s, Alibaba, Tencent, Baidu, and a wave of startups built a platform economy that for a decade was the most dynamic, globally competitive part of Chinese life — before Beijing turned the regulatory screws.",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its peak around 2020, Alibaba alone was worth more than $800 billion, and Ant Group — its financial arm — was on track for what would have been the world's largest IPO. The sector's freedom was real but always conditional: companies operated with an implicit license that could be revoked, and it was. Jack Ma's public criticism of Chinese banking regulators in October 2020 triggered a campaign that wiped hundreds of billions off the sector's value within months and made him largely disappear from public life."
+        }
+      ]
     },
     {
       "id": "evt-roc-mobile-payments",
       "label": "The Cashless Leap",
       "year": 2014,
       "endYear": 2019,
-      "description": "QR-code payment by phone went from novelty to near-universal in five years, leapfrogging cards and putting daily commerce on two private super-apps.",
+      "description": "Between roughly 2014 and 2019, China skipped the credit-card era almost entirely, going from cash to QR-code smartphone payments via two super-apps — Alipay and WeChat Pay — faster than any large economy in history.",
       "wikiSlug": "Mobile_payments_in_China",
       "tier": 3,
       "tags": [
         "trade"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "China had low credit-card penetration in 2010 partly because state banks were slow to issue them, which left a gap that mobile apps filled almost overnight. By 2019, mobile payments in China totaled roughly $49 trillion annually — more than the entire U.S. economy. The QR code itself, invented in Japan in 1994, became the unlikely backbone of the world's most advanced payment system because it required no special terminal hardware, letting even street vendors join instantly."
+        }
+      ]
     },
     {
       "id": "evt-roc-surveillance-state",
       "label": "The Surveillance State",
       "year": 2015,
       "endYear": 2020,
-      "description": "Hundreds of millions of cameras, facial recognition, and big-data policing built the most comprehensive domestic surveillance system in history.",
+      "description": "By the late 2010s China had built the world's most sophisticated mass-surveillance network — over 700 million cameras by 2023, facial recognition deployed at transit hubs and city streets, and big-data systems that could flag individuals in real time.",
       "wikiSlug": "Mass_surveillance_in_China",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "China's surveillance build-out was partly enabled by homegrown AI companies like Hikvision and Dahua, which became the world's largest manufacturers of surveillance cameras and supplied systems to dozens of other governments. In some pilot cities, facial recognition was used to publicly shame jaywalkers by displaying their faces on digital billboards. The system's data feeds are increasingly integrated with AI, allowing police to predict and pre-empt protests rather than just respond to them after the fact."
+        }
+      ],
+      "commonsFile": "Surveillance_camera_at_Tiananmen_Square,_2009.jpg"
     },
     {
       "id": "evt-roc-social-credit",
       "label": "The Social Credit System",
       "year": 2014,
       "endYear": 2020,
-      "description": "A patchwork of blacklists and scoring schemes, less the unified dystopia of Western imagination but a real apparatus of behavioral control and exclusion.",
+      "description": "China's 'social credit system' was not the unified citizen score of Western imagination but a real and expanding set of blacklists that could ban people from flights, trains, and schools — enforced with minimal due process.",
       "wikiSlug": "Social_Credit_System",
       "tier": 2,
       "tags": [
         "science"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The system actually operates through dozens of separate databases run by different agencies and municipalities, which is why the dystopian 'one score' image never quite matched reality — though that fragmentation made it harder, not easier, for individuals to challenge or understand why they were blacklisted. The corporate version of the system, which rates businesses on regulatory compliance, is actually older and more developed than the individual version. By 2019, the flight and train blacklists had collectively blocked people from purchasing tickets tens of millions of times."
+        }
+      ]
     },
     {
       "id": "evt-roc-change-moon",
       "label": "The Chang'e Lunar Program",
       "year": 2013,
       "endYear": 2019,
-      "description": "China landed rovers on the Moon, including the first ever on its far side in 2019, and returned lunar samples — a methodical bid for first-rank space power.",
+      "description": "China's Chang'e lunar program methodically advanced from orbit to landing to far-side landing: in January 2019, Chang'e 4 became the first spacecraft ever to touch down on the Moon's far side, a hemisphere no mission had ever reached.",
       "wikiSlug": "Chang%27e_4",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The far side never faces Earth, which means radio communication requires a relay satellite — China first placed the Queqiao satellite in a special orbital position before Chang'e 4 could even attempt the landing. The rover, named Yutu-2 (Jade Rabbit 2), found evidence of a deep mantle material exposed by an ancient asteroid impact, data not obtainable from the near side. Chang'e 5 followed in 2020 and returned the first lunar samples to Earth since the Soviet Luna 24 mission in 1976."
+        }
+      ],
+      "commonsFile": "Yutu_rover.jpg"
     },
     {
       "id": "evt-roc-bri-debt",
       "label": "The Belt and Road and Its Critics",
       "year": 2013,
       "endYear": 2020,
-      "description": "Ports, railways, and power plants across Eurasia and Africa extended Chinese influence and drew charges of 'debt-trap diplomacy' the evidence only partly supports.",
+      "description": "Belt and Road loans fueled real infrastructure across Asia, Africa, and Latin America but also generated serious debt problems — and a Western narrative of deliberate 'debt-trap diplomacy' that careful research found largely overstated.",
       "wikiSlug": "Belt_and_Road_Initiative",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 'debt-trap' framing became dominant in Western policy circles around 2017–2018, but researchers at Johns Hopkins and elsewhere found that China actually renegotiated or wrote off dozens of loans rather than seizing assets. The more accurate picture is chaotic lending by multiple Chinese state banks with little coordination, not a unified strategic masterplan. That said, Belt and Road did entrench Chinese contractors: most agreements required Chinese firms and Chinese labor, limiting local economic spillover."
+        }
+      ],
+      "commonsFile": "A_general_view_of_Mombasa_Port_on_Kenya's_Indian_Ocean_coast.jpg"
     },
     {
       "id": "evt-roc-hambantota",
       "label": "The Hambantota Port Lease",
       "year": 2017,
-      "description": "Sri Lanka's 99-year lease of a Chinese-built port after a debt default became the global symbol, fair or not, of Belt and Road risk.",
+      "description": "In 2017, Sri Lanka signed over a 99-year lease on the Chinese-built Hambantota port after the country couldn't service its loans, making the port the global symbol of Belt and Road risk — and of the contested 'debt-trap' debate.",
       "wikiSlug": "Hambantota_International_Port",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The port was a pet project of Sri Lankan president Mahinda Rajapaksa, not something China pushed on an unwilling government; his own family's political interests in the region partly drove the original decision to build it. Even after the lease, China Merchants Port Holdings — the operator — struggled to make Hambantota commercially viable, since most Sri Lankan trade flows through Colombo to the north. The lease does grant China operational control near a strategically sensitive position in the Indian Ocean, which is why India and the U.S. watched it closely regardless of whether a 'trap' was intended."
+        }
+      ],
+      "commonsFile": "Hambantota_Port_Docks_two_ships.jpg"
     },
     {
       "id": "evt-roc-umbrella-2014",
       "label": "The Umbrella Movement",
       "year": 2014,
-      "description": "A 79-day occupation of central Hong Kong demanding genuine universal suffrage failed to win concessions but radicalized a generation.",
+      "description": "A 79-day sit-in occupation of central Hong Kong in 2014, where protesters deployed umbrellas against police pepper spray while demanding genuine universal suffrage for the city's chief executive.",
       "wikiSlug": "2014_Hong_Kong_protests",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The protests ran from late September to mid-December 2014, paralyzing key commercial districts for over two months. Despite the scale, Beijing made zero concessions — but the movement radicalized a generation of Hong Kong activists who went on to lead the far larger 2019 uprising. The umbrella became the enduring symbol not of victory but of a city that had tried peaceful means and been ignored."
+        }
+      ],
+      "commonsFile": "Umbrella_Revolution_in_Admiralty_Night_View_20141010.jpg"
     },
     {
       "id": "evt-roc-causeway-booksellers",
       "label": "The Causeway Bay Booksellers",
       "year": 2015,
       "endYear": 2016,
-      "description": "Five Hong Kong booksellers who sold gossipy titles on China's leaders vanished into mainland custody in 2015-16, shattering the 'two systems' firewall.",
+      "description": "Five staff of the Causeway Bay bookshop — which sold gossipy, often salacious titles about China's leaders that were banned on the mainland — vanished between October and December 2015, reappearing in mainland custody by early 2016.",
       "wikiSlug": "Causeway_Bay_Books_disappearances",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At least two of the five disappeared from mainland China itself, one from Thailand — but the most alarming case was a man who vanished from inside Hong Kong and was later revealed to be in Shenzhen without the travel documents needed to cross the border legally, suggesting he was taken across by mainland agents. One of the five, Swedish citizen Gui Minhai, has been held the longest and repeatedly re-sentenced; as of the mid-2020s he remained in Chinese custody despite international pressure."
+        }
+      ],
+      "commonsFile": "Causeway_Bay_Bookstore.jpg"
     },
     {
       "id": "evt-roc-hk-exodus",
       "label": "The Hong Kong Exodus",
       "year": 2020,
       "endYear": 2023,
-      "description": "After the security law, a wave of Hong Kongers emigrated on a British visa scheme, draining the city of much of its dissenting professional class.",
+      "description": "After the 2020 National Security Law, a wave of Hong Kong residents — particularly professionals, journalists, and activists — emigrated, many using a British National (Overseas) visa scheme created specifically in response to the law.",
       "wikiSlug": "Emigration_from_Hong_Kong",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The UK's BN(O) visa scheme, relaunched in 2021, allowed around three million eligible Hong Kongers and their close family members a path to British residency and eventual citizenship. Estimates suggest over 100,000 people left for Britain alone in the first two years. The emigration hollowed out much of the city's independent civil society, legal profession, and English-language press — losses that accelerated the very transformation the law had been designed to achieve."
+        }
+      ]
     },
     {
       "id": "evt-roc-tsai-ing-wen",
       "label": "Tsai Ing-wen and the Taiwan Pivot",
       "year": 2016,
-      "description": "Taiwan's 2016 election of the independence-leaning Tsai Ing-wen ended cross-strait detente and fed a cycle of pressure and counter-pressure.",
+      "description": "Tsai Ing-wen, a legal scholar and member of the independence-leaning Democratic Progressive Party, became Taiwan's first female president in 2016 — a result that effectively ended the warmer cross-strait period that had prevailed under her predecessor.",
       "wikiSlug": "Tsai_Ing-wen",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tsai served two full terms until 2024 and won re-election in 2020 with the largest popular-vote total in Taiwan's democratic history, widely interpreted as a direct response to events in Hong Kong. She consistently refused to endorse the '1992 Consensus' framework that Beijing demanded as the basis for dialogue, and her tenure coincided with a sharp escalation in Chinese military activity around the island."
+        }
+      ],
+      "commonsFile": "Tsai_Ing-wen_2016_MOFA_Portrait.png"
     },
     {
       "id": "evt-roc-sunflower-2014",
       "label": "The Sunflower Movement",
       "year": 2014,
-      "description": "Taiwanese students occupying the legislature against a 2014 trade pact with Beijing turned the island's politics decisively against integration.",
+      "description": "In March 2014, Taiwanese students and civic groups occupied the legislature in Taipei to block a services trade agreement with Beijing that critics feared would make Taiwan's economy dangerously dependent on the mainland.",
       "wikiSlug": "Sunflower_Student_Movement",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The occupation lasted 24 days, from March 18 to April 10, 2014 — the protesters physically inside the legislature chamber itself, which was unprecedented in Taiwan's history. The agreement they opposed (the Cross-Strait Service Trade Agreement) was never ratified, a direct result of the protest's pressure. The movement permanently shifted Taiwan's political center of gravity against integration and directly boosted the DPP, the party that won the presidency two years later."
+        }
+      ],
+      "commonsFile": "Sunflower_Movement_collage.jpg"
     },
     {
       "id": "evt-roc-ma-xi-2015",
@@ -1579,176 +2334,285 @@
       "label": "Military Pressure on Taiwan",
       "year": 2016,
       "endYear": 2022,
-      "description": "Record warplane incursions and exercises around Taiwan became routine as Beijing abandoned patience and Washington deepened arms support.",
+      "description": "From around 2016 onward, and dramatically accelerating after 2020, the People's Liberation Army began routinely crossing the median line of the Taiwan Strait with warplanes and staging large-scale naval exercises explicitly rehearsing a blockade or invasion.",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "PLA aircraft incursions into Taiwan's Air Defense Identification Zone (ADIZ) went from occasional to near-daily by 2020–2021, with single-day records repeatedly broken. The US responded by deepening arms sales and, eventually, unofficial signals of security commitment. The escalation created a situation with no clear de-escalation mechanism — each Chinese exercise prompted US shows of support, which Beijing cited as justification for the next exercise."
+        }
+      ],
+      "commonsFile": "PLA-Taiwan-202208.map.png"
     },
     {
       "id": "evt-roc-huawei-meng",
       "label": "Huawei and the Meng Wanzhou Affair",
       "year": 2018,
       "endYear": 2021,
-      "description": "The 2018 Canadian arrest of Huawei's CFO on US sanctions charges, and China's hostage-style detention of two Canadians, marked the shift to open technological warfare.",
+      "description": "In December 2018, Canadian authorities arrested Meng Wanzhou — CFO of Huawei and daughter of its founder Ren Zhengfei — at a Vancouver airport on a US extradition request alleging she had lied to banks about Huawei's dealings with Iran, violating US sanctions. China responded within days by detaining two Canadian citizens, Michael Kovrig and Michael Spavor, in conditions widely seen as diplomatic hostage-taking.",
       "wikiSlug": "Meng_Wanzhou",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Meng was held under house arrest in her Vancouver mansion for almost three years, wearing an ankle monitor, before reaching a deferred prosecution agreement with the US Justice Department in September 2021 — the same day Kovrig and Spavor were released and flown home. The parallel timing made the swap explicit even if both governments denied it. The affair accelerated multiple countries' decisions to exclude Huawei from their 5G networks, costing the company tens of billions in potential contracts."
+        }
+      ],
+      "commonsFile": "Meng_Wanzhou_in_Vancouver_(2021).jpg"
     },
     {
       "id": "evt-roc-chip-war",
       "label": "The Chip War",
       "year": 2019,
       "endYear": 2022,
-      "description": "US export controls cutting China off from advanced semiconductors and the tools to make them became the central front of the rivalry.",
+      "description": "The deeper and more lasting front of the US–China rivalry was semiconductors: from 2019 onward the US progressively barred China from buying the most advanced chips and, more crucially, the Dutch lithography machines and American software without which no one can make them — an attempt to freeze China a generation behind at the one technology that powers everything else.",
       "wikiSlug": "United_States%E2%80%93China_trade_war",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The key chokepoint was EUV (extreme ultraviolet) lithography machines made by the Dutch firm ASML — without them, no chip factory on earth can manufacture the most advanced processors. The US persuaded the Netherlands to block ASML exports to China in 2019 and 2023. The 2022 US CHIPS Act simultaneously offered $52 billion in subsidies to rebuild domestic semiconductor manufacturing. The export controls covered not just chips but the specialized software (EDA tools) used to design them, meaning China struggled to design its way around the hardware ban."
+        }
+      ],
+      "commonsFile": "Building_of_Taiwan_Semiconductor_Manufacturing_Fab_12B_at_night.jpg"
     },
     {
       "id": "evt-roc-wolf-warrior",
       "label": "Wolf-Warrior Diplomacy",
       "year": 2019,
       "endYear": 2022,
-      "description": "A combative new diplomatic style, named for an action-movie franchise, traded soft-power patience for aggressive nationalism, often counterproductively.",
+      "description": "Around 2019 China's diplomats abandoned the patient, low-profile soft-power approach of earlier decades for a combative nationalist style nicknamed 'wolf-warrior diplomacy' after a hit Chinese action-film franchise — publicly hectoring host countries, amplifying conspiracy theories, and turning press conferences into confrontations.",
       "wikiSlug": "Wolf_warrior_diplomacy",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name comes from the Wolf Warrior films (2015 and 2017) — Chinese action blockbusters whose tagline was 'Anyone who offends China, no matter how remote, must be exterminated.' Spokesperson Zhao Lijian became the face of the style, most notoriously posting a fabricated image on Twitter in 2020 suggesting Australian soldiers had murdered an Afghan child. The approach backfired strategically: opinion polling across wealthy democracies showed sharp drops in favorable views of China in 2020–2021, accelerating the very anti-China alignment it was supposedly resisting."
+        }
+      ],
+      "commonsFile": "赵立坚20200603.png"
     },
     {
       "id": "evt-roc-hague-2016",
       "label": "The South China Sea Ruling",
       "year": 2016,
-      "description": "An international tribunal rejected China's expansive sea claims in 2016; Beijing ignored the ruling and kept militarizing its artificial islands.",
+      "description": "In 2016 an international arbitral tribunal convened under the UN Convention on the Law of the Sea ruled almost entirely against China's sweeping South China Sea claims — and Beijing's response was to ignore the ruling entirely, calling the tribunal illegitimate, and press on with military construction on its artificial islands.",
       "wikiSlug": "Philippines_v._China",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The case was brought by the Philippines, and the tribunal found that China's 'nine-dash line' — the historic boundary claim covering roughly 90% of the South China Sea — had no legal basis under international maritime law. China refused to participate in the proceedings and declared the result 'null and void.' The ruling was the most complete legal rejection of a major power's territorial claim in modern international law, yet had zero enforcement mechanism. No other claimant state has since brought a similar case, partly fearing China's reaction."
+        }
+      ],
+      "commonsFile": "1947_Nanhai_Zhudao.png"
     },
     {
       "id": "evt-roc-galwan-2020",
       "label": "The Galwan Valley Clash",
       "year": 2020,
-      "description": "A 2020 hand-to-hand Himalayan border clash killed soldiers on both sides and pushed India decisively toward the United States — an echo of 1962.",
+      "description": "In June 2020, Indian and Chinese troops fought a savage hand-to-hand battle without firearms — rocks, clubs, and bare fists in freezing Himalayan terrain — in the Galwan Valley, killing at least 20 Indian soldiers and an unacknowledged but significant number of Chinese troops, the worst India–China violence since the 1962 border war.",
       "wikiSlug": "2020%E2%80%932021_China%E2%80%93India_skirmishes",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Both sides' troops had followed long-standing protocols banning firearms in the disputed zone — so the soldiers used rocks, studded clubs, and improvised weapons, fighting in the dark along a glacial river at 14,000 feet (4,270 meters). China did not officially acknowledge any deaths for months; Indian media later reported at least 45 Chinese casualties. The clash was the direct trigger for India banning 59 Chinese apps including TikTok and significantly expanding its Quad engagement — converting what had been an economically cautious India into an active American strategic partner."
+        }
+      ],
+      "commonsFile": "Kashmir_Region_(2020_skirmish_locations).jpg"
     },
     {
       "id": "evt-roc-quad-aukus",
       "label": "The Quad and AUKUS",
       "year": 2017,
       "endYear": 2021,
-      "description": "The revived US-Japan-India-Australia Quad and the AUKUS submarine pact were the hard-power architecture of containing Chinese power in the Indo-Pacific.",
+      "description": "The Quadrilateral Security Dialogue — the US, Japan, India, and Australia — was revived in 2017 and upgraded to leader-level summits in 2021; separately, the AUKUS pact signed the same year committed the US and UK to helping Australia acquire nuclear-powered submarines, building the hard-power architecture of Indo-Pacific pushback against China.",
       "wikiSlug": "Quadrilateral_Security_Dialogue",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Quad had originally been formed after the 2004 Indian Ocean tsunami for disaster relief coordination, then quietly shelved after China protested; its revival for security purposes was itself a signal of how much had changed. The AUKUS announcement blindsided France, which had a $66 billion conventional submarine contract with Australia that was instantly cancelled — producing the sharpest transatlantic diplomatic row in years. Australia's first nuclear-powered submarine is not expected to be operational until the early 2030s at the earliest."
+        }
+      ],
+      "commonsFile": "20230520g7summit_quad03.jpg"
     },
     {
       "id": "evt-roc-decoupling",
       "label": "Decoupling and De-Risking",
       "year": 2018,
       "endYear": 2023,
-      "description": "Tariffs, investment screening, and supply-chain 'de-risking' began unwinding the economic integration that had defined the previous thirty years.",
+      "description": "Beginning around 2018, the word 'decoupling' entered the policy vocabulary to describe the deliberate partial unwinding of US–China economic integration — tariffs, investment bans, export controls, and supply-chain restructuring that together tried to reduce dependence on a strategic rival, later softened to the blander term 'de-risking.'",
       "wikiSlug": "China%E2%80%93United_States_trade_war",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The US Foreign Investment Risk Review Modernization Act (FIRRMA, 2018) expanded CFIUS screening of Chinese investment in American companies to cover minority stakes and technology transfers, not just full acquisitions. The 'friend-shoring' concept that followed — moving supply chains to politically allied countries — pushed manufacturing toward Vietnam, India, and Mexico. Despite years of decoupling rhetoric, US–China trade hit record highs in 2022, illustrating how deeply intertwined the two economies remained even as governments tried to separate them."
+        }
+      ]
     },
     {
       "id": "evt-roc-li-wenliang",
       "label": "The Death of Li Wenliang",
       "year": 2020,
-      "description": "The Wuhan doctor silenced for warning of the new virus, then killed by it in February 2020, became a national symbol of the cost of suppressing the truth.",
+      "description": "Wuhan ophthalmologist Li Wenliang sent a private WeChat warning to colleagues about a SARS-like illness in December 2019, was summoned by police and forced to sign a statement calling it a false rumor, then caught the virus from a patient and died on February 7, 2020.",
       "wikiSlug": "Li_Wenliang",
       "tier": 2,
       "tags": [
         "science"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Li was only 33 years old when he died. Before his death he gave a final interview from his hospital bed in which he said he hoped recovered patients could return to normal life — a detail that made his death land even harder. The night he died, the hashtag 'I want freedom of speech' briefly broke through censorship and trended nationally before being scrubbed, one of the fastest and most visible censor mobilizations of the Xi era."
+        }
+      ]
     },
     {
       "id": "evt-roc-wuhan-lockdown",
       "label": "The Wuhan Lockdown",
       "year": 2020,
-      "description": "The unprecedented 76-day sealing of an 11-million city in early 2020 was both a brutal containment success and a template for permanent emergency power.",
+      "description": "On January 23, 2020, China sealed Wuhan — a city of eleven million, roughly the size of London — in a 76-day lockdown that became the blueprint for zero-COVID and the most-watched emergency public-health experiment in modern history.",
       "wikiSlug": "COVID-19_lockdown_in_Wuhan",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Xi Jinping later said he personally authorized the lockdown decision. The WHO, while noting it exceeded its own standard guidelines, publicly praised the move as a bold act of containment. At the time of the lockdown announcement, hundreds of thousands of residents had already left Wuhan for the Lunar New Year holiday, a timing that shaped the early international spread of the virus."
+        }
+      ],
+      "commonsFile": "Policemen_wearing_masks_patrolling_Wuhan_Tianhe_Airport_during_Wuhan_coronavirus_outbreak.jpg"
     },
     {
       "id": "evt-roc-zero-covid",
       "label": "The Zero-COVID Policy",
       "year": 2020,
       "endYear": 2022,
-      "description": "Years of mass testing, snap lockdowns, and quarantine kept death tolls low at first but isolated China, battered the economy, and exhausted the public.",
+      "description": "China's zero-COVID policy — mass testing, immediate snap lockdowns the moment any case appeared, mandatory quarantine camps, and contact-tracing apps tied to a person's right to enter buildings or board transit — aimed to drive the virus to zero in every outbreak and then resume normal life.",
       "wikiSlug": "Zero-COVID",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The strategy's internal logic was fundamentally different from the 'living with COVID' approach adopted by most democracies: it treated each outbreak as a discrete emergency to be extinguished rather than a chronic risk to be managed. For most of 2020 and 2021 it genuinely held deaths to a tiny fraction of Western tolls, which the government broadcast as evidence of systemic superiority — a claim that had real force before the policy's collapse."
+        }
+      ],
+      "commonsFile": "Anti-COVID_Slogans_in_Lushunkou_District,_Dalian_City_02.jpg"
     },
     {
       "id": "evt-roc-shanghai-lockdown",
       "label": "The Shanghai Lockdown",
       "year": 2022,
-      "description": "The two-month 2022 lockdown of 25 million people in China's richest city, with food shortages and forced separations, broke much of the public's patience.",
+      "description": "In spring 2022, Shanghai — China's wealthiest, most internationally connected city — was locked down for roughly two months to contain an Omicron outbreak, confining twenty-five million people in conditions that shocked the country: food shortages, families forcibly separated, pets killed in buildings.",
       "wikiSlug": "COVID-19_pandemic_in_Shanghai",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Shanghai was the city where the contradiction of zero-COVID became impossible to ignore: it was home to China's largest expatriate community, its biggest financial hub, and many of the country's most educated and internationally aware residents — the people least likely to accept the logic of indefinite confinement without complaint. Videos of residents shouting from balconies and drone footage of officials broadcasting lockdown instructions circulated globally and could not be fully suppressed domestically."
+        }
+      ],
+      "commonsFile": "Health_screening_at_Shanghai_Pudong_International_Airport_-_2020_(cropped).jpg"
     },
     {
       "id": "evt-roc-white-paper",
       "label": "The White Paper Protests",
       "year": 2022,
-      "description": "After a deadly locked-down apartment fire, blank-paper protests spread across cities in November 2022 — the broadest open defiance since 1989.",
+      "description": "After a fire in a locked-down apartment building in Urumqi, Xinjiang killed at least ten people — with witnesses saying lockdown barriers may have impeded escape — protesters in dozens of cities and elite universities took to the streets in November 2022, many holding up blank A4 sheets of white paper as a symbol of everything they were not permitted to say.",
       "wikiSlug": "2022_COVID-19_protests_in_China",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The protests were the widest open defiance since 1989, spanning Beijing, Shanghai, Chengdu, Wuhan, and campuses including Tsinghua, China's most prestigious university. The blank paper became one of the most striking protest symbols of the decade precisely because its meaning was self-evident and impossible to ban: the paper itself was the censorship. At the furthest edge of the protests, a small number of demonstrators explicitly called for Xi Jinping to step down — a demand essentially unvoiced in public in China since Tiananmen."
+        }
+      ],
+      "commonsFile": "西南交通大学学生悼念乌鲁木齐火灾逝者_01.jpg"
     },
     {
       "id": "evt-roc-zero-covid-end",
       "label": "The Abrupt Reopening",
       "year": 2022,
       "endYear": 2023,
-      "description": "Zero-COVID was abandoned almost overnight in December 2022 with no preparation, producing a vast, undercounted wave of deaths over the following months.",
+      "description": "In December 2022, just weeks after the white-paper protests, China abruptly dismantled zero-COVID with almost no public announcement and no preparatory vaccination campaign for the elderly, triggering a massive wave of infections across a population with almost no natural immunity and low booster rates.",
       "wikiSlug": "Zero-COVID",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Independent epidemiologists estimated the sudden reopening killed between one and two million people in a matter of months — a toll the official statistics, which recorded only tens of thousands of COVID deaths, did not reflect. The reversal was so fast and so unexplained that many Chinese citizens struggled to understand whether it had even happened: local officials who had been threatening lockdowns days earlier were suddenly silent. The mismatch between official and estimated death tolls became one of the most cited pieces of evidence for systematic Chinese data manipulation."
+        }
+      ],
+      "commonsFile": "Coronavirus._SARS-CoV-2.png"
     },
     {
       "id": "evt-roc-third-term",
       "label": "Xi's Third Term",
       "year": 2022,
-      "description": "The 2022 congress gave Xi a norm-breaking third term and a stacked leadership, and ended with his predecessor Hu Jintao led from the stage on camera.",
+      "description": "The 20th Party Congress in October 2022 gave Xi Jinping a third five-year term as general secretary, shattering the two-term norm Deng Xiaoping had built to prevent a repeat of Mao, and filled the Politburo Standing Committee entirely with Xi loyalists.",
       "wikiSlug": "20th_National_Congress_of_the_Chinese_Communist_Party",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The congress ended with a moment broadcast live around the world: former president Hu Jintao, frail and apparently confused, was firmly taken by the arm by an aide and led from the stage while Xi watched without reaction. The image was read internationally as a deliberate public humiliation of the collective-leadership era — though the Chinese government later said Hu had left for health reasons. The 2,296 delegates at the congress were chosen through a process ultimately controlled by Xi, meaning the body that confirmed his third term had itself been assembled to ensure that outcome."
+        }
+      ],
+      "commonsFile": "Publicity_board_of_the_20th_National_Congress_of_the_Chinese_Communist_Party,_Xixin_Chan_Temple_2023022402.jpg"
     },
     {
       "id": "evt-roc-evergrande",
       "label": "The Property Crisis",
       "year": 2021,
       "endYear": 2024,
-      "description": "The default of the developer Evergrande in 2021 cracked the debt-and-property model that had driven a quarter of GDP, with no clear replacement engine.",
+      "description": "The 2021 default of Evergrande (Héngdà in Mandarin), once the world's most indebted property developer, cracked the debt-fueled real-estate model that had powered roughly a quarter of China's entire economy since the 2008 stimulus — and no replacement engine has been identified.",
       "wikiSlug": "2020%E2%80%932023_Chinese_property_sector_crisis",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Evergrande had liabilities exceeding $300 billion at the time of its default — the largest property-company debt load in history. The crisis was not just about one company: dozens of developers defaulted in the following years, millions of apartments that buyers had pre-purchased and paid for remained unfinished, and the property sector's contraction dragged government land-sale revenues (a major source of local government funding) down sharply. The combination of developer defaults, unfinished homes, and local government fiscal stress became the defining structural problem of the post-COVID Chinese economy."
+        }
+      ]
     },
     {
       "id": "evt-roc-common-prosperity",
@@ -1765,33 +2629,52 @@
       "id": "evt-roc-demographic-decline",
       "label": "The Population Turns Down",
       "year": 2022,
-      "description": "China's population began shrinking in 2022, decades earlier than once forecast, raising the question of whether it will grow old before it grows rich.",
+      "description": "China's total population fell in 2022 for the first time since the Great Leap Forward famine of the early 1960s, beginning what demographers expect to be a long structural decline — decades earlier than the government's own projections had assumed.",
       "wikiSlug": "Demographics_of_China",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "China was the world's most populous country until India surpassed it in the first half of 2023. The decline is the combined product of the one-child policy's long demographic echo, a sharp drop in births since the late 2010s, and a cultural shift among younger urban Chinese who increasingly choose not to marry or have children regardless of government incentives. The combination of a shrinking workforce, a rapidly aging population, and slowing economic growth raises the classic 'grow old before you grow rich' problem that China's planners have spent decades trying to avoid."
+        }
+      ],
+      "commonsFile": "Population_pyramid_China_2026.png"
     },
     {
       "id": "evt-roc-youth-unemployment",
       "label": "The Post-COVID Malaise",
       "year": 2023,
       "endYear": 2024,
-      "description": "Record youth unemployment, a stalled property sector, and waning confidence ended the assumption of perpetual fast growth that had underpinned the social bargain.",
+      "description": "By mid-2023, China's official youth unemployment rate (for those aged 16–24) hit 21.3 percent before the government abruptly stopped publishing the monthly figure, a sign of the economic stagnation and confidence collapse that followed COVID's end.",
       "wikiSlug": "Economy_of_China",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The halt in publishing youth unemployment data was itself read as an admission of how politically sensitive the number had become. China's economy is still the second-largest in the world by nominal GDP and the largest by purchasing power parity, but the post-COVID years broke a forty-year assumption: that growth would always be fast enough to absorb discontent. The term 'lying flat' (tǎng píng) — opting out of competitive career-and-consumption culture — had gone viral in 2021 among young Chinese, and the youth unemployment crisis gave it material weight."
+        }
+      ]
     },
     {
       "id": "evt-roc-great-rejuvenation",
       "label": "Toward 2049",
       "year": 2021,
       "endYear": 2024,
-      "description": "With centenary goals for 2049 and a frozen succession, the regime's bet is that national rejuvenation under one-party rule can substitute for the growth that bought consent.",
+      "description": "With term limits gone and a 2049 centenary deadline written into official doctrine, Xi's China has staked its legitimacy on delivering 'national rejuvenation' — global power status, Taiwan 'reunification,' and technological leadership — in place of the growth-driven social contract that sustained the previous four decades.",
       "wikiSlug": "Chinese_Dream",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 2049 goal is paired with a 2035 interim target — 'basically realizing socialist modernization' — giving the regime a mid-century roadmap with two checkpoints. The bet is structurally different from the Deng-to-Hu era's implicit bargain ('we deliver growth, you stay out of politics'): as growth slows, nationalism and great-power status must carry more of the legitimacy load. Analysts call this the 'performance legitimacy' shift — moving from material delivery to identity and pride as the main reason the public accepts one-party rule."
+        }
+      ]
     }
   ]
 }
