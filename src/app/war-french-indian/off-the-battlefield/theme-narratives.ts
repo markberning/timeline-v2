@@ -382,6 +382,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "His name was Theyanoguin, known to the British as Hendrick, a Mohawk leader of the Bear Clan based at Canajoharie. (He is often confused with an older Mohawk of the same English name who had visited Queen Anne in London in 1710; they were two different men.) Hendrick was a Christian convert and the foremost Mohawk diplomat of his day, and he had run out of patience with the British."
       },
       {
+        "fig": "/war-img/fi-king-hendrick.jpg",
+        "cap": "Theyanoguin, the Mohawk leader the British called King Hendrick — the foremost Mohawk diplomat of his day. He declared the Covenant Chain broken over fraudulent land deals, then said it to the colonial delegates' faces at Albany in 1754.",
+        "credit": "Mezzotint, 1755 / Library of Congress"
+      },
+      {
         "p": "In 1753 he had stood before New York's governor and declared the Covenant Chain broken, citing roughly 800,000 acres of Mohawk land lost to fraudulent dealing. (That figure is the grievance Hendrick voiced rather than an audited survey, but the size of the anger is the point.) Then in June 1754, at a gathering of colonial delegates and Iroquois leaders in Albany called to shore up the alliance, he said it to their faces, in a speech that has outlived almost everything else said there."
       },
       {
@@ -935,6 +940,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "For a man who had risked his life for the rank, the insult was unbearable. George Washington learned it first and learned it hardest. In 1754 he was the young commander of the Virginia Regiment, a colonel by his colony's commission. Then Governor Robert Dinwiddie moved to break the regiment into independent companies under captains, which would have knocked Washington from colonel down to captain even if the Crown handed him a regular commission to go with it. Washington resigned rather than swallow it. The disparity between a captaincy and his former rank, he wrote, was \"too great to expect any real satisfaction or enjoyment in a Corps, where I once did, or thought I had a right to, command.\""
       },
       {
+        "fig": "/war-img/fi-washington-1772.jpg",
+        "cap": "George Washington as the young colonel of the Virginia Regiment — the provincial officer who resigned rather than be knocked down to captain by the Crown's rules. Charles Willson Peale painted him in 1772 in the uniform he had worn in this war.",
+        "credit": "Charles Willson Peale, 1772 / public domain"
+      },
+      {
         "p": "\"I think, the disparity between the present offer of a Company, and my former Rank, too great to expect any real satisfaction or enjoyment in a Corps, where I once did, or thought I had a right to, command.\" — George Washington, 1754",
         "q": true
       },
@@ -1173,6 +1183,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "George Grenville took over as head of the Treasury and prime minister in April 1763, and his logic was, on its own terms, almost reasonable. The colonists were the war's chief beneficiaries; France had been swept off their continent. The army being kept in America was being kept for their defense. So they should help pay for it."
       },
       {
+        "fig": "/war-img/fi-george-grenville.jpg",
+        "cap": "George Grenville, who became head of the Treasury and prime minister in 1763 and concluded that the American colonies — the war's chief beneficiaries — should help pay for the army keeping the conquest.",
+        "credit": "18th-century portrait / public domain"
+      },
+      {
         "p": "He was not asking them to retire the national debt, or even to cover its interest. He wanted only a partial contribution toward the cost of their own garrison. The army ran somewhere around £200,000 a year; his whole American revenue program was projected to raise only about £78,000 to £79,000 of it. A share, not the whole bill."
       },
       {
@@ -1374,6 +1389,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "That same year, the second piece of paper appeared. On 7 October 1763, King George III issued the Royal Proclamation of 1763, and it drew a line."
+      },
+      {
+        "fig": "/war-img/fi-george-iii.jpg",
+        "cap": "King George III, in whose name the Royal Proclamation of 1763 closed the west to colonial settlement. Coronation portrait by Allan Ramsay.",
+        "credit": "Allan Ramsay, 1761–1762 / Royal Collection (public domain)"
       },
       {
         "p": "The line ran roughly along the crest of the Appalachian Mountains, the long ridge that separated the settled colonies on the Atlantic coast from the interior, following the high ground from Georgia in the south up through the colonies. Everything west of that crest was closed to colonial settlement. In the Proclamation's own language, the Crown would \"reserve under our Sovereignty, Protection, and Dominion, for the use of the said Indians, all the Lands and Territories\" beyond the new provinces. The West was reserved for the Native nations."
