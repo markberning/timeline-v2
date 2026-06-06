@@ -61,1213 +61,1921 @@
       "id": "evt-founding-rome",
       "label": "Founding of Rome",
       "year": -753,
-      "description": "According to legend, Romulus founded the city of Rome on the Palatine Hill after killing his twin brother Remus. This traditional date marks the beginning of Roman civilization and the Roman Kingdom.",
+      "description": "The traditional founding of Rome on April 21, 753 BCE — a date the Romans themselves invented — marks the point at which scattered hilltop farming villages above the Tiber began coalescing into something that would eventually become a city.",
       "wikiSlug": "Founding_of_Rome",
       "tier": 1,
       "tags": [
         "founding",
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Archaeology confirms the general story: the hills around Rome were settled by around 1600 BCE and the valley that later became the Roman Forum already had a developed necropolis by at least 1000 BCE. The city's origin was less a single founding moment than a gradual merger of hilltop villages — a process probably influenced by the same wave of city-state formation spreading outward from ancient Greece. The traditional founding date of 753 BCE was calculated centuries after the fact by Roman scholars, not witnessed by anyone."
+        }
+      ],
+      "commonsFile": "Kapitolinische_Wölfin_Museum_Capitolini.jpg"
     },
     {
       "id": "evt-romulus",
       "label": "Romulus",
       "year": -753,
       "endYear": -717,
-      "description": "Romulus served as the first King of Rome, establishing the Senate, the legions, and many foundational Roman institutions. He is said to have been taken up to heaven in a whirlwind.",
+      "description": "Romulus was the legendary founder and first king of Rome, said to have established the Senate, defined Rome's first laws, and founded the city in 753 BCE — a mythological figure whose deeds were central to how Romans understood their own identity.",
       "wikiSlug": "Romulus",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The ancient Romans were themselves skeptical of the legend's details: they debated seriously whether Romulus had been taken up to heaven in a whirlwind (the pious version) or torn apart and eaten by senators who hid the pieces under their togas (the cynical version). Livy, writing under Augustus, records both stories without choosing between them. The myth of Romulus and Remus being nursed by a wolf was so central to Roman identity that Romans displayed the she-wolf image on coins, standards, and public monuments throughout the empire's history."
+        }
+      ],
+      "commonsFile": "Capitoline_she-wolf_Musei_Capitolini_MC1181.jpg"
     },
     {
       "id": "evt-numa-pompilius",
       "label": "Numa Pompilius",
       "year": -715,
       "endYear": -673,
-      "description": "The second King of Rome, Numa Pompilius was credited with establishing most of Rome's religious institutions, including the Vestal Virgins and the calendar reform adding January and February.",
+      "description": "Numa Pompilius, Rome's second king and a Sabine by origin, is credited with building the entire framework of Roman religion — the Vestal Virgins, the priestly colleges, the calendar, and the office of chief priest.",
       "wikiSlug": "Numa_Pompilius",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Numa reportedly added January and February to what had been a ten-month Roman year, which is why September, October, November, and December (Latin for seventh, eighth, ninth, tenth) still have the wrong numbers. The title he created, Pontifex Maximus (chief priest), survived through the emperors, who kept it as a personal title, and eventually passed to the Bishop of Rome — which is why the Pope still holds that exact title today. Numa's reign was so famously peaceful that later Romans used his name as shorthand for wise, pious governance."
+        }
+      ],
+      "commonsFile": "Numapisocng6371obverse.jpg"
     },
     {
       "id": "evt-servian-wall",
       "label": "Servian Wall",
       "year": -578,
-      "description": "King Servius Tullius constructed the first defensive wall around Rome, enclosing all seven hills. The Servian Wall defined the city's boundaries for centuries.",
+      "description": "Built in the early 4th century BCE (tradition assigns its origins to King Servius Tullius, though modern archaeology dates the actual construction later), the Servian Wall was a massive defensive barrier of volcanic tuff encircling Rome's seven hills — roughly 11 km (6.8 mi) long, up to 10 m (33 ft) tall, with at least 16 gates.",
       "wikiSlug": "Servian_Wall",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The wall was 3.6 m (12 ft) thick at its base and enclosed 246 hectares — large enough to be one of the biggest walled urban areas in the ancient Mediterranean at the time. It remained Rome's primary defense for six centuries, until the city outgrew it and the much larger Aurelian Walls replaced it in the 3rd century CE. Substantial sections still survive, most visibly in the wall exposed near Rome's main Termini train station."
+        }
+      ],
+      "commonsFile": "Servian_Wall-Termini_Station.jpg"
     },
     {
       "id": "evt-republic-founded",
       "label": "Roman Republic Founded",
       "year": -509,
-      "description": "The Romans overthrew the last king, Lucius Tarquinius Superbus, and established a republic governed by elected magistrates and the Senate. This event shaped Western political thought for millennia.",
+      "description": "In 509 BCE, the Romans expelled their last king (Tarquinius Superbus, 'Tarquin the Proud') and replaced monarchy with a republic — two elected consuls who served one-year terms, a Senate of aristocratic advisors, and a web of checks designed to ensure no single person could ever hold the power a king had. The system lasted, with modifications, for nearly 500 years.",
       "wikiSlug": "Roman_Republic",
       "tier": 1,
       "tags": [
         "politics",
         "founding"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The founding story involves a rape: Tarquin's son Sextus assaulted the noblewoman Lucretia, who then told her family what happened and killed herself rather than live with the dishonor — her death triggering the uprising that expelled the kings. Modern historians debate how much of this is legend versus history, but the Romans treated it as foundational fact and referenced it constantly in their political rhetoric. The two-consul system was deliberately designed so each consul could veto the other, the ancestor of modern separation-of-powers thinking."
+        }
+      ],
+      "commonsFile": "04305_-_Roma_-_Fori_-_Curia_Iulia_-_Foto_Giovanni_Dall'Orto_-_18-Mar-2008.jpg"
     },
     {
       "id": "evt-twelve-tables",
       "label": "Twelve Tables",
       "year": -450,
-      "description": "Rome's first written legal code, the Twelve Tables, was inscribed on bronze tablets and displayed in the Forum. They formed the foundation of Roman law and influenced Western legal systems.",
+      "description": "In 449 BCE Rome produced its first written law code — twelve bronze tablets displayed publicly in the Forum — ending the patrician priests' monopoly on legal interpretation and establishing the principle that law must be written, visible, and apply to everyone.",
       "wikiSlug": "Twelve_Tables",
       "tier": 2,
       "tags": [
         "law"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Twelve Tables were drafted by a special commission of ten men called the decemviri (\"ten men\"), assembled specifically for this task. The code covered property, inheritance, debt, and procedure, and included some brutal provisions: an insolvent debtor's creditors could legally sell him into slavery across the Tiber. The Tables weren't sophisticated by later Roman standards, but they were foundational — Roman jurists were still citing them centuries later as the origin of the entire legal tradition."
+        }
+      ],
+      "commonsFile": "Loix_des_Douze_Tables.jpg"
     },
     {
       "id": "evt-sack-of-rome-gauls",
       "label": "Gallic Sack of Rome",
       "year": -390,
-      "description": "A Gallic army under Brennus defeated the Romans at the Battle of the Allia and sacked most of Rome. This traumatic event left a lasting mark on Roman consciousness and military policy.",
+      "description": "Around 390 BCE (some ancient sources say 387), a Gallic warband from the Po Valley smashed a Roman army at the Battle of the Allia, marched into Rome, and occupied the city for months until the Romans paid a gold ransom — the most traumatic military humiliation of the early Republic.",
       "wikiSlug": "Battle_of_the_Allia",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The attackers were the Senones, a Gallic tribe who had invaded northern Italy and pushed south. Their leader Brennus became legendary for throwing his sword onto the ransom scales and declaring \"Vae victis\" (\"Woe to the conquered\") when Romans complained the weights were rigged. The event drove Rome to rebuild its walls and reform its military, and the cultural memory of the sack remained vivid enough that Julius Caesar invoked it 350 years later to justify his conquest of Gaul."
+        }
+      ]
     },
     {
       "id": "evt-appian-way",
       "label": "Appian Way Built",
       "year": -312,
-      "description": "Censor Appius Claudius Caecus began construction of the Via Appia, the first major Roman road, connecting Rome to Capua. It became the model for Rome's vast road network spanning the empire.",
+      "description": "In 312 BCE, censor Appius Claudius Caecus ordered the construction of Rome's first great military road, connecting Rome to Capua — 132 miles (212 km) of precisely engineered stone pavement that could move troops and supplies faster than anything in Italy. It eventually extended to Brindisi on the heel of the boot, becoming the spine of Roman communications.",
       "wikiSlug": "Appian_Way",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Appian Way was remarkable engineering for its era: it was laid on deep foundations, cambered (curved on top) to drain rainwater, and paved with interlocking stone polygons fitted so tightly that many sections survived in use into the medieval period. Appius Claudius Caecus was also blind (his cognomen *Caecus* means \"the blind one\"), which hasn't stopped historians from considering him one of the most consequential Roman censors — he also extended the franchise and reformed the Senate."
+        }
+      ],
+      "commonsFile": "Paesaggio_dell'Appia_antica.jpg"
     },
     {
       "id": "evt-aqua-appia",
       "label": "First Aqueduct (Aqua Appia)",
       "year": -312,
-      "description": "The Aqua Appia was Rome's first aqueduct, built by Appius Claudius Caecus to bring fresh water into the city. Roman aqueduct engineering would eventually supply a million residents with water.",
+      "description": "Also in 312 BCE, the same Appius Claudius Caecus built the Aqua Appia, Rome's first aqueduct — a mostly underground channel drawing fresh water from springs about 10 miles (16 km) east of the city into Rome's growing neighborhoods.",
       "wikiSlug": "Aqua_Appia",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Aqua Appia ran for about 16.4 km (roughly 10 miles), almost entirely underground to protect the water from contamination and heat. Uniquely for a Roman aqueduct it entered the city at a low elevation, limiting which neighborhoods it could serve by gravity. By the end of the 1st century BCE it had been largely repurposed as a sewer — the city had grown to depend on later, higher-arching aqueducts instead."
+        }
+      ],
+      "commonsFile": "AcueductoSegovia_edit1.jpg"
     },
     {
       "id": "evt-first-punic-war",
       "label": "First Punic War",
       "year": -264,
       "endYear": -241,
-      "description": "Rome's first major overseas conflict against Carthage was fought primarily over control of Sicily. Rome built a navy from scratch and won, gaining its first provinces outside the Italian peninsula.",
+      "description": "The first of three wars between Rome and Carthage, fought primarily over control of Sicily, lasting 23 years and ending with Rome gaining its first overseas territory outside Italy.",
       "wikiSlug": "First_Punic_War",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was the longest continuous conflict and greatest naval war of antiquity to that point. Rome started the war with no warships at all and ended it as a credible naval power — an extraordinary institutional pivot in a single generation. Carthage paid a massive indemnity of 3,200 talents of silver on top of ceding Sicily, a financial blow that crippled its ability to pay mercenary troops and directly sparked a brutal internal uprising (the Mercenary War) immediately after."
+        }
+      ],
+      "commonsFile": "First_Punic_War_264_BC_v3.png"
     },
     {
       "id": "evt-second-punic-war",
       "label": "Second Punic War",
       "year": -218,
       "endYear": -201,
-      "description": "Hannibal Barca invaded Italy by crossing the Alps with war elephants and won devastating victories at Trebia, Lake Trasimene, and Cannae. Rome eventually prevailed under Scipio Africanus at Zama.",
+      "description": "The seventeen-year war in which Carthaginian general Hannibal invaded Italy, won three catastrophic battles against Rome, and was ultimately defeated in North Africa by Scipio Africanus — the conflict that made Rome master of the western Mediterranean.",
       "wikiSlug": "Second_Punic_War",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Three separate military theatres ran simultaneously: Italy (Hannibal's campaign), Iberia (his brother Hasdrubal's defense of Carthaginian colonies), and eventually Africa (Scipio's invasion). Macedon under Philip V allied with Carthage after Cannae, dragging Greece into the conflict and creating a fourth front Rome had to manage. The war cost Carthage its entire overseas empire, its navy, and its independence in foreign affairs — terms so severe that a third war became almost inevitable."
+        }
+      ],
+      "commonsFile": "Archimedes_before_his_death_with_the_Roman_soldier,_Roman_mosaic.jpg"
     },
     {
       "id": "evt-hannibal",
       "label": "Hannibal Barca",
       "year": -247,
       "endYear": -183,
-      "description": "Hannibal is regarded as one of history's greatest military commanders. His crossing of the Alps and campaign in Italy for over 15 years remains one of the most audacious military operations ever attempted.",
+      "description": "Carthaginian general Hannibal Barca spent his entire adult life trying to destroy Rome, crossing the Alps with war elephants in 218 BCE and campaigning undefeated in Italy for fifteen years — yet ultimately lost the war when Scipio took the fight to Africa.",
       "wikiSlug": "Hannibal",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hannibal's father Hamilcar made him swear, as a boy, that he would never be a friend of Rome — a vow he kept completely. After losing the war, Hannibal reinvented himself as a reforming Carthaginian statesman before Rome pressured his exile; he then spent years advising eastern kings against Rome until, cornered and refusing capture, he took poison around 183 BCE — the same year as Scipio Africanus, his great nemesis, who also died in exile that year."
+        }
+      ],
+      "commonsFile": "Hannibal_Barca_bust_from_Capua_photo.jpg"
     },
     {
       "id": "evt-scipio-africanus",
       "label": "Scipio Africanus",
       "year": -236,
       "endYear": -183,
-      "description": "Publius Cornelius Scipio Africanus defeated Hannibal at the Battle of Zama in 202 BCE, ending the Second Punic War. He is considered one of Rome's greatest generals.",
+      "description": "Publius Cornelius Scipio, later called Africanus, was the Roman general who ended the Second Punic War by taking the fight directly to Carthage's homeland and defeating Hannibal at Zama in 202 BCE.",
       "wikiSlug": "Scipio_Africanus",
       "tier": 3,
       "tags": [
         "wars"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scipio first proved himself at 25 by capturing Cartagena (New Carthage), Carthage's main base in Spain, in a single bold assault in 209 BCE — a victory that gave Rome the entire Iberian supply chain. He explicitly studied Hannibal's tactics and adapted the Roman army's rigid formation to more flexible maneuver units. He and Hannibal reportedly met after Zama for a private conversation, preserved by Livy, in which each named the other among history's greatest commanders."
+        }
+      ],
+      "commonsFile": "Continence_of_Scipio_mg_0095.jpg"
     },
     {
       "id": "evt-third-punic-war",
       "label": "Third Punic War",
       "year": -149,
       "endYear": -146,
-      "description": "Rome besieged and utterly destroyed Carthage, salting the earth and selling survivors into slavery. The phrase 'Carthago delenda est' became synonymous with relentless determination.",
+      "description": "Rome's final reckoning with Carthage: a three-year siege (149–146 BCE) that ended with the city utterly destroyed, its population killed or enslaved, and the site left in ruins — the most deliberate erasure of a major civilization in the ancient world.",
       "wikiSlug": "Third_Punic_War",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The war's legal pretext was thin: Carthage had sent an army against the Numidian king Masinissa (Rome's ally) who had been raiding Carthaginian territory for years with Roman permission. Rome's actual demands before the siege escalated from disarmament to the staggering ultimatum that Carthage must physically move its population 10 miles (16 km) inland — effectively destroying the city's reason for existence as a port. The Carthaginians, on receiving this final demand, chose to fight rather than comply, melting down gold jewelry to cast weapons and reportedly using women's hair for bowstrings."
+        }
+      ],
+      "commonsFile": "Carthage_view.jpg"
     },
     {
       "id": "evt-conquest-greece",
       "label": "Conquest of Greece",
       "year": -146,
-      "description": "Rome destroyed Corinth and absorbed Greece as the province of Achaea in the same year Carthage fell. Greek culture profoundly influenced Roman art, philosophy, and religion.",
+      "description": "In 146 BCE — the same year as Carthage's destruction — Rome sacked and demolished Corinth and absorbed mainland Greece as the province of Achaea, completing its control of the entire Mediterranean world.",
       "wikiSlug": "Roman_Greece",
       "tier": 3,
       "tags": [
         "politics"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The destruction of Corinth was partly a calculated message: Rome had also destroyed Carthage that same year, and leveling a second wealthy city sent an unmistakable signal about the cost of defiance. Yet Rome's relationship with Greece was deeply ambivalent — the poet Horace captured it with the line that 'conquered Greece took captive her savage conqueror,' meaning Greek art, philosophy, and literature immediately began transforming Roman culture from within. Greek slaves poured into Roman households as tutors, physicians, and secretaries, making Greek the second language of the Roman elite within a generation."
+        }
+      ],
+      "commonsFile": "Putz123.jpg"
     },
     {
       "id": "evt-tiberius-gracchus",
       "label": "Tiberius Gracchus",
       "year": -133,
-      "description": "Tribune Tiberius Gracchus proposed radical land reforms to help Rome's poor and was murdered by senators. His death marked the beginning of a century of political violence that would destroy the Republic.",
+      "description": "In 133 BCE, tribune Tiberius Gracchus proposed redistributing public land from wealthy landowners back to landless citizens — a plan that made him wildly popular with the poor and a marked man to the Senate. A mob of senators beat him to death with furniture on the Capitol steps, the first political murder in the Forum's history.",
       "wikiSlug": "Tiberius_Gracchus",
       "tier": 3,
       "tags": [
         "politics"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tiberius had actually served with distinction in both the Third Punic War in Africa and the Numantine War in Spain before entering politics. His land reform targeted the *ager publicus* (public land), which wealthy Romans had long occupied illegally beyond the legal limit — meaning the law Tiberius tried to enforce had existed for decades and simply been ignored by the very men who killed him."
+        }
+      ],
+      "commonsFile": "Eugene_Guillaume_-_the_Gracchi_(cropped).jpg"
     },
     {
       "id": "evt-gaius-marius",
       "label": "Marius Reforms the Army",
       "year": -107,
-      "description": "Consul Gaius Marius reformed the Roman army, opening enlistment to landless citizens and creating a professional standing army. This produced soldiers loyal to their generals rather than the state.",
+      "description": "In 107 BCE, consul Gaius Marius scrapped the old citizen-militia model and opened the Roman army to anyone — including the landless poor — equipping them at state expense. The result was a professional force that fought better than any before it, and whose loyalty ran to the general who promised them land and pay, not to the Senate or the Republic.",
       "wikiSlug": "Marian_reforms",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Marius won an unprecedented seven consulships over the course of his career, shattering the convention of one term per lifetime. The cohort system he standardized — dividing the legion into ten tactical units rather than the older manipular (smaller-unit) arrangement — made Roman armies far more flexible on varied terrain. The eagle (*aquila*) standard that became the symbol of every legion also dates to the Marian reforms."
+        }
+      ],
+      "commonsFile": "RRC_326.1_Gaius_Fundanius_depicting_Gaius_Marius_triumphator.png"
     },
     {
       "id": "evt-social-war",
       "label": "Social War",
       "year": -91,
       "endYear": -87,
-      "description": "Rome's Italian allies revolted demanding Roman citizenship. Though Rome won militarily, it granted citizenship to all Italian allies, transforming the political landscape of the Republic.",
+      "description": "From 91 to 87 BCE, Rome's Italian allies — the *socii* — rose in open revolt after being denied the citizenship they'd bled for across generations of Roman wars. Rome won on the battlefield but lost the argument: to end the war, the Senate granted citizenship to all Italian allies, roughly doubling the Roman citizen body overnight.",
       "wikiSlug": "Social_War_(90–88_BC)",
       "tier": 3,
       "tags": [
         "politics"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The rebels didn't just revolt — they set up a rival state, with its own capital (Corfinium, renamed Italica), its own Senate of 500, and its own magistrates. Some coins minted by the Italian rebels depicted an Italian bull goring a Roman wolf. The war's death toll has been estimated in the tens of thousands on both sides, making it one of the bloodiest conflicts on Italian soil before the civil wars."
+        }
+      ],
+      "commonsFile": "C._Papius_Mutilus,_denarius,_90_BC,_Campana_100.png"
     },
     {
       "id": "evt-sulla-dictatorship",
       "label": "Sulla's Dictatorship",
       "year": -82,
       "endYear": -79,
-      "description": "Lucius Cornelius Sulla marched on Rome twice and became dictator, carrying out proscriptions that killed thousands of political opponents. He set the precedent for military strongmen seizing power.",
+      "description": "Lucius Cornelius Sulla (c. 138–78 BCE) was the first Roman general to march his army into Rome itself and seize power by force — twice — before becoming dictator in 82 BCE. His 'proscriptions' (posted lists of enemies whose murder was legally encouraged and rewarded) killed thousands and set the template for every power grab that followed.",
       "wikiSlug": "Sulla",
       "tier": 3,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sulla's proscriptions were chillingly bureaucratic: names were published on public lists, anyone on the list could be killed by anyone for a cash reward, and the killer could keep part of the victim's confiscated property. Estimated deaths range from 1,500 to 9,000 prominent Romans. Most surprisingly, Sulla then voluntarily resigned his dictatorship in 79 BCE and retired to private life — the only Roman strongman to do so — dying peacefully the following year, which baffled everyone. Caesar, a young man who made Sulla's enemies list and survived through family connections, later said Sulla showed he 'didn't know his political ABCs' by giving up power."
+        }
+      ],
+      "commonsFile": "Q._Pompeius_Rufus,_denarius,_54_BC,_RRC_434-1_(Sulla_only).jpg"
     },
     {
       "id": "evt-spartacus",
       "label": "Spartacus Revolt",
       "year": -73,
       "endYear": -71,
-      "description": "Spartacus, a Thracian gladiator, led the largest slave uprising in Roman history. His army of 70,000 defeated multiple Roman legions before being crushed by Marcus Licinius Crassus.",
+      "description": "In 73 BCE, a Thracian gladiator named Spartacus broke out of a training school at Capua with roughly 70 companions and sparked the largest slave revolt in Roman history. At its peak his army numbered 70,000 or more; it took two years and Rome's wealthiest general, Marcus Crassus, to crush it — ending with 6,000 crucified rebels lining the 130-mile (210 km) Appian Way.",
       "wikiSlug": "Third_Servile_War",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Third Servile War was the only slave rebellion that directly threatened the Roman heartland of Italy — earlier revolts (in Sicily) never got close to Rome. Spartacus won several pitched battles against Roman legions, at one point defeating a consular army, which was supposed to be nearly impossible for a non-state force. His ultimate goal remains debated: ancient sources disagree on whether he wanted to escape Italy or march on Rome itself."
+        }
+      ],
+      "commonsFile": "3rd_servile_72_plutarch.png"
     },
     {
       "id": "evt-cicero",
       "label": "Cicero",
       "year": -106,
       "endYear": -43,
-      "description": "Marcus Tullius Cicero was Rome's greatest orator and a defender of the Republic. His writings on law, politics, and philosophy became foundational texts of Western civilization.",
+      "description": "Marcus Tullius Cicero (106–43 BCE) was Rome's greatest orator and a committed defender of the Republic — a 'new man' (no consuls in his family line) who rose entirely through talent and eventually served as consul in 63 BCE. He was executed on Mark Antony's orders after Caesar's assassination, his head and hands displayed on the Rostra from which he had delivered his greatest speeches.",
       "wikiSlug": "Cicero",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cicero's philosophical and rhetorical writings were so widely copied and preserved that he is one of the best-documented people in all of antiquity — over 900 of his letters survive, offering a remarkably candid window into Roman political life. He exposed and crushed the Catilinarian conspiracy (a coup attempt in 63 BCE) without a military force, using oratory and legal maneuvering alone, which he considered his greatest achievement. His letters to his friend Atticus reveal a man often privately terrified and uncertain, a sharp contrast to the confident public voice — making him feel oddly modern."
+        }
+      ],
+      "commonsFile": "Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg"
     },
     {
       "id": "evt-first-triumvirate",
       "label": "First Triumvirate",
       "year": -60,
-      "description": "Caesar, Pompey, and Crassus formed an informal political alliance that dominated Roman politics. This power-sharing arrangement sidelined the Senate and set the stage for civil war.",
+      "description": "In 60 BCE, Caesar, Pompey, and Crassus made a private back-room deal — not a legal office, just a secret pact — to pool their influence so that nothing in Roman politics could happen without their say. It was the quiet arrangement that broke five centuries of republican government.",
       "wikiSlug": "First_Triumvirate",
       "tier": 3,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The alliance had no official name at the time; Romans called it a 'coalition of the three' only in retrospect. It was sealed partly by a dynastic marriage: Pompey married Caesar's daughter Julia, whose death in 54 BCE (before Crassus died at Carrhae) is often cited as the emotional glue that held the alliance together longer than it deserved. Caesar used his 59 BCE consulship to ram through a land-redistribution bill for Pompey's veterans over furious Senate opposition — the political payoff that launched everything."
+        }
+      ],
+      "commonsFile": "César_(13667960455).jpg"
     },
     {
       "id": "evt-gallic-wars",
       "label": "Gallic Wars",
       "year": -58,
       "endYear": -50,
-      "description": "Julius Caesar conquered Gaul (modern France) in a series of brilliant campaigns, adding vast territory to Rome and building a fiercely loyal veteran army. He also briefly invaded Britain.",
+      "description": "From 58 to 50 BCE, Caesar systematically conquered all of Gaul (roughly modern France and Belgium), fighting dozens of battles, crossing the Rhine into Germania, and twice landing in Britain — no Roman general had done either before. The campaigns made him the most dangerous man in Rome.",
       "wikiSlug": "Gallic_Wars",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The decisive moment came at the siege of Alesia in 52 BCE, where Caesar simultaneously besieged the Gallic chieftain Vercingetorix inside the town AND built a second ring of fortifications facing outward to fend off a 250,000-strong relief army — one of the most audacious double-encirclements in military history. Caesar's own published account, the *Commentarii de Bello Gallico*, written in the third person to sound objective, was political propaganda as much as history, sent back to Rome in installments while he was still fighting."
+        }
+      ],
+      "commonsFile": "Lionel_Royer_-_Vercingetorix_Throwing_down_His_Weapons_at_the_feet_of_Julius_Caesar.jpg"
     },
     {
       "id": "evt-caesar-crosses-rubicon",
       "label": "Caesar Crosses the Rubicon",
       "year": -49,
-      "description": "Julius Caesar led his legion across the Rubicon River, starting a civil war against the Senate and Pompey. The phrase 'crossing the Rubicon' became a metaphor for passing a point of no return.",
+      "description": "On January 10, 49 BCE, Caesar marched his Thirteenth Legion across the Rubicon — a small river in northeastern Italy that was the legal boundary between his province and Italy proper — choosing civil war over surrender to his political enemies. The phrase 'crossing the Rubicon' has meant 'passing the point of no return' in every Western language since.",
       "wikiSlug": "Crossing_the_Rubicon",
       "tier": 2,
       "tags": [
         "politics"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Rubicon itself was so minor a stream that its exact location was lost for centuries; modern scholars only identified a plausible candidate in recent decades. Caesar crossed with just one legion (about 5,000 men) against an enemy that could theoretically field dozens — the audacity was less military than psychological. Pompey and most of the Senate fled Rome so rapidly they left the treasury behind, which Caesar immediately seized."
+        }
+      ],
+      "commonsFile": "LocationRubicon.PNG"
     },
     {
       "id": "evt-julius-caesar",
       "label": "Julius Caesar",
       "year": -100,
       "endYear": -44,
-      "description": "Gaius Julius Caesar was a military genius, political reformer, and dictator whose assassination on the Ides of March transformed Rome forever. His name became a title for future rulers (Kaiser, Tsar).",
+      "description": "Julius Caesar (100–44 BCE) conquered Gaul, defeated Pompey in civil war, and made himself dictator for life — then was stabbed 23 times on the Senate floor on March 15, 44 BCE by a conspiracy of senators who feared he intended to make himself king.",
       "wikiSlug": "Julius_Caesar",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "According to the physician who examined Caesar's body, only one of the 23 stab wounds was actually fatal — the second wound to the chest. Ironically, his assassination had the opposite of its intended effect: instead of restoring the Republic, it triggered 13 more years of civil war and ended with Caesar's adopted heir Octavian holding far more absolute power than Caesar ever had."
+        }
+      ],
+      "commonsFile": "Retrato_de_Julio_César_(26724093101)_(cropped).jpg"
     },
     {
       "id": "evt-assassination-caesar",
       "label": "Assassination of Caesar",
       "year": -44,
-      "description": "Julius Caesar was stabbed to death by a group of senators led by Brutus and Cassius on the Ides of March. Rather than restoring the Republic, his murder triggered another round of civil wars.",
+      "description": "On March 15, 44 BCE — the Ides of March — roughly sixty senators stabbed Julius Caesar 23 times in the Senate house. The conspirators called themselves Liberators and thought they were saving the Republic; instead they triggered thirteen more years of civil war that destroyed it permanently.",
       "wikiSlug": "Assassination_of_Julius_Caesar",
       "tier": 2,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The assassination happened at the Curia of Pompey (a meeting hall in the Theatre of Pompey complex) — meaning Caesar died at the foot of a statue of his old rival, as the narrative notes. Of the 23 wounds, ancient physicians examining the body concluded only one was fatal. Brutus was himself wounded during the chaotic stabbing, likely struck by a fellow conspirator. Caesar had been warned about a plot that morning and was reportedly urged not to go to the Senate; he dismissed the warnings."
+        }
+      ],
+      "commonsFile": "Vincenzo_Camuccini_-_La_morte_di_Cesare_(cropped_3-2).jpg"
     },
     {
       "id": "evt-vergil",
       "label": "Virgil",
       "year": -70,
       "endYear": -19,
-      "description": "Publius Vergilius Maro wrote the Aeneid, Rome's national epic connecting Roman origins to the fall of Troy. He is considered one of the greatest poets in the Western tradition.",
+      "description": "Virgil (70–19 BCE) wrote the Aeneid, the epic poem that gave Rome its official origin story by connecting the city's founding bloodline to the Trojan War hero Aeneas — a piece of deliberate political mythology commissioned under the emperor Augustus.",
       "wikiSlug": "Virgil",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Virgil also wrote the Eclogues and the Georgics before the Aeneid, making him the preeminent poet of Rome's greatest literary generation. He died before finishing the Aeneid and reportedly asked that it be burned — Augustus overruled him and ordered it published. The poem's framing of Rome as Troy's heir gave Romans a pedigree older than Greece's, a rhetorical move that helped justify their cultural borrowing from the Greeks while claiming superior ancestral dignity."
+        }
+      ],
+      "commonsFile": "Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg"
     },
     {
       "id": "evt-rome-battle-actium",
       "label": "Battle of Actium",
       "year": -31,
-      "description": "Octavian's fleet defeated the combined forces of Mark Antony and Cleopatra off the coast of Greece. This decisive naval battle ended the Roman Republic's civil wars and made Octavian sole ruler.",
+      "description": "On September 2, 31 BCE, Octavian's fleet — commanded by the brilliant admiral Agrippa — defeated the combined naval forces of Mark Antony and Cleopatra off the western coast of Greece. The battle ended Rome's civil wars and left Octavian the undisputed master of the Mediterranean.",
       "wikiSlug": "Battle_of_Actium",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle was something of an anticlimax in execution: Cleopatra's squadron broke through the Roman line and fled toward Egypt, Antony inexplicably followed her, and the rest of their fleet surrendered. Historians still debate whether this was a planned escape (the treasure fleet was allegedly aboard Cleopatra's ships) or a catastrophic failure of nerve. Agrippa, not Octavian, was the real tactical commander; Octavian reportedly suffered seasickness during the engagement."
+        }
+      ],
+      "commonsFile": "Medinaceli_Actium_reliefs_06.jpg"
     },
     {
       "id": "evt-augustus",
       "label": "Augustus (First Emperor)",
       "year": -63,
       "endYear": 14,
-      "description": "Born Gaius Octavius, Augustus became Rome's first emperor and transformed the Republic into the Principate. His 40-year reign brought peace, prosperity, and a golden age of art and literature.",
+      "description": "Born Gaius Octavius in 63 BCE, Augustus became Rome's first emperor — though he carefully avoided the title, calling himself 'first citizen' instead — and ruled for 40 years. His Principate (the system of one-man rule dressed up as a restored republic) became the template for the Roman Empire for the next 300 years.",
       "wikiSlug": "Augustus",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Augustus was so physically unimpressive — short, prone to illness, with bad teeth — that his enemies found it hard to take him seriously, a miscalculation that proved fatal for all of them. He was also a lifelong insomniac who kept notepads by his bed to write down ideas in the night. His famous boast that he 'found Rome a city of brick and left it a city of marble' is roughly true: he built or restored 82 temples in a single year and personally funded the construction of a new Forum."
+        }
+      ],
+      "commonsFile": "Augustus_of_Prima_Porta.jpg"
     },
     {
       "id": "evt-principate-begins",
       "label": "Principate Begins",
       "year": -27,
-      "description": "The Senate granted Octavian the title Augustus, marking the formal beginning of the Roman Empire. He carefully maintained the fiction of republican government while holding supreme power.",
+      "description": "On January 16, 27 BCE, the Senate gave Octavian the honorific title Augustus and handed him control of the provinces with legions, inaugurating the Principate — a monarchy dressed up as a restored Republic, with Augustus as its carefully humble 'first citizen.'",
       "wikiSlug": "Principate",
       "tier": 2,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title 'Augustus' had never been used as a personal name before; it carried quasi-religious weight, implying someone set apart by divine favor. Augustus simultaneously held 'tribunicia potestas' (the tribunes' powers), making his person legally sacrosanct and giving him veto over any act of government — without ever calling himself tribune. He held this annual, renewable power continuously for the rest of his life, and emperors would use the tribunate count as their official reign clock."
+        }
+      ],
+      "commonsFile": "August_Labicana_Massimo_Inv56230.jpg"
     },
     {
       "id": "evt-ovid",
       "label": "Ovid",
       "year": -43,
       "endYear": 17,
-      "description": "Publius Ovidius Naso authored the Metamorphoses, a sweeping mythological epic that became one of the most influential works of Western literature. Augustus exiled him to the Black Sea in 8 CE.",
+      "description": "Ovid (Publius Ovidius Naso, 43 BCE–17 CE) was the sharpest, wittiest poet of the Augustan age, best known for the Metamorphoses — 15 books of mythological transformations that became perhaps the single most-read ancient text in medieval and Renaissance Europe.",
       "wikiSlug": "Ovid",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Augustus exiled Ovid in 8 CE to Tomis on the Black Sea (modern Constanța, Romania), citing a 'poem and a mistake' (carmen et error) — but what the mistake was, Ovid never spelled out, and scholars still argue about it. He spent the last decade of his life writing miserable letters home begging for recall; none of his pleas worked, and he died in exile around 17 CE, never returned to Rome."
+        }
+      ],
+      "commonsFile": "Ovid_by_an_anonymous_sculptor.jpg"
     },
     {
       "id": "evt-roman-concrete",
       "label": "Roman Concrete Perfected",
       "year": -25,
-      "description": "Roman engineers perfected opus caementicium, a volcanic ash-based concrete that could set underwater. This revolutionary material enabled the construction of domes, harbors, and structures that still stand today.",
+      "description": "Roman engineers perfected opus caementicium, a concrete mixing volcanic ash (pozzolana) with lime and seawater that could set underwater and actually gets stronger over centuries — the material behind every Roman dome, arch, harbor, and aqueduct.",
       "wikiSlug": "Roman_concrete",
       "tier": 3,
       "tags": [
         "architecture"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Modern materials scientists studying Roman harbor blocks found that seawater reacts with the volcanic ash to grow rare mineral crystals called aluminous tobermorite inside the concrete, which reinforce it over time — a self-healing mechanism Portland cement completely lacks. The unreinforced concrete dome of the Pantheon, cast around 125 CE, is still the world's largest of its kind and has never needed structural repair."
+        }
+      ],
+      "commonsFile": "Rome-Pantheon-Interieur1.jpg"
     },
     {
       "id": "evt-livy",
       "label": "Livy's History of Rome",
       "year": -27,
-      "description": "Titus Livius began writing Ab Urbe Condita, a monumental 142-book history of Rome from its founding. Though only 35 books survive, it remains a primary source for early Roman history.",
+      "description": "Titus Livius (Livy) began his monumental 142-book history Ab Urbe Condita (\"From the Founding of the City\") around 27 BCE, making him our single most important — and most unreliable — source for Rome's first five centuries.",
       "wikiSlug": "Livy",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Only 35 of Livy's 142 books survive; the rest are known only from ancient summaries. He was on good terms with Augustus and even encouraged the future emperor Claudius to take up history writing. Livy was writing about events from the early kingdom roughly seven hundred years after the fact, working from earlier Roman annals, family records, and oral tradition — he himself acknowledged that the story of Rome's first centuries was more legend than history, but told it anyway because Romans needed it."
+        }
+      ],
+      "commonsFile": "Titus-Livius-Austrian-Parliament-Building.jpg"
     },
     {
       "id": "evt-jesus-crucifixion",
       "label": "Crucifixion of Jesus",
       "year": 30,
-      "description": "Jesus of Nazareth was crucified in Jerusalem under the authority of the Roman prefect Pontius Pilate. This event gave rise to Christianity, which would eventually transform the Roman Empire and Western civilization.",
+      "description": "Around 30 CE, Roman prefect Pontius Pilate ordered the crucifixion of Jesus of Nazareth in the province of Judaea — an execution that sparked a new religious movement and, within three centuries, transformed the Roman Empire.",
       "wikiSlug": "Crucifixion_of_Jesus",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars debate the exact year: the most commonly proposed dates are 30 CE and 33 CE, with neither definitively settled. Crucifixion was specifically a Roman method of execution reserved for non-citizens and slaves, considered too degrading to apply to Roman citizens. The account of Jesus's trial before both a Jewish council (the Sanhedrin) and Pontius Pilate is corroborated in broad outline by non-Christian Roman sources, including Tacitus writing around 116 CE."
+        }
+      ],
+      "commonsFile": "Cristo_crucificado.jpg"
     },
     {
       "id": "evt-tiberius",
       "label": "Tiberius",
       "year": 14,
       "endYear": 37,
-      "description": "Augustus's stepson Tiberius became the second emperor and proved a capable but unpopular ruler. He withdrew to Capri in his later years, governing through his prefect Sejanus.",
+      "description": "Tiberius (14–37 CE), Augustus's dour stepson, was a highly capable general who had conquered Pannonia and Dalmatia, but proved a sullen, suspicious emperor who spent his last decade governing by letter from the island of Capri while his prefect Sejanus ran a reign of terror in Rome.",
       "wikiSlug": "Tiberius",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sejanus, head of the Praetorian Guard, came closer to seizing the empire than almost any non-emperor in Roman history — he had the Senate and courts under his thumb by 31 CE. Tiberius eventually caught on and had Sejanus arrested and executed; the Roman crowd tore his body apart in the street. Tiberius died in 37 CE, possibly smothered by his own successor Caligula or the Praetorian prefect, depending on the ancient source."
+        }
+      ],
+      "commonsFile": "8095_-_Roma_-_Ara_Pacis_-_Tiberio_-_Foto_Giovanni_Dall'Orto_-_28-Mar-2008.jpg"
     },
     {
       "id": "evt-caligula",
       "label": "Caligula",
       "year": 37,
       "endYear": 41,
-      "description": "Gaius Caesar, known as Caligula, began his reign with promise but descended into tyranny and possibly madness. He was assassinated by the Praetorian Guard after less than four years.",
+      "description": "Caligula (37–41 CE), born Gaius Julius Caesar Germanicus, started his reign to popular celebration after grim Tiberius, then within a year descended into erratic cruelty before being stabbed to death by Praetorian officers in a palace corridor — the first emperor to be assassinated.",
       "wikiSlug": "Caligula",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famous horse-consul story (that Caligula planned to make his horse Incitatus a consul) likely wasn't madness but a calculated insult to the Senate — effectively saying 'my horse could do your job.' Caligula's reign lasted less than four years, yet he managed to spend the entire treasury surplus Augustus had accumulated; Suetonius claims he blew through the equivalent of 2.7 billion sesterces in under a year."
+        }
+      ],
+      "commonsFile": "Caligula.Carlsberg_Glyptotek.(cropped).jpg"
     },
     {
       "id": "evt-claudius-britain",
       "label": "Conquest of Britain",
       "year": 43,
-      "description": "Emperor Claudius launched the Roman invasion of Britain, adding it as a province. Roman rule would last nearly 400 years and leave a lasting imprint on British culture and infrastructure.",
+      "description": "In 43 CE, Emperor Claudius sent four legions (roughly 40,000 troops) across the Channel to conquer Britain, personally traveling there for a symbolic 16-day visit to accept a surrender — beginning nearly 400 years of Roman rule over most of the island.",
       "wikiSlug": "Roman_conquest_of_Britain",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Claudius needed a military triumph to shore up his political legitimacy (he had been dragged to power by the Praetorians, not chosen by the Senate). The invasion force included war elephants, which reportedly terrified the British tribes. Roman Britain eventually produced Hadrian's Wall, a network of roads, cities like Londinium (London) and Eboracum (York), and a population that remained largely Romano-British in culture for centuries."
+        }
+      ],
+      "commonsFile": "Roman.Britain.campaigns.43.to.84.jpg"
     },
     {
       "id": "evt-nero",
       "label": "Nero",
       "year": 54,
       "endYear": 68,
-      "description": "Nero was the last Julio-Claudian emperor, remembered for his artistic pretensions, persecution of Christians, and the Great Fire of Rome in 64 CE. He committed suicide when the Senate declared him a public enemy.",
+      "description": "Nero (emperor 54–68 CE) was the last ruler of the Julio-Claudian dynasty, infamous for executing his own mother Agrippina, blaming Christians for the Great Fire of Rome in 64 CE, and performing publicly as a singer and actor — something the Roman aristocracy found almost as scandalous as the murders. When the legions revolted he fled Rome and died by suicide at age 30.",
       "wikiSlug": "Nero",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Great Fire of Rome burned for six days and destroyed or severely damaged roughly two-thirds of the city; the story that Nero 'fiddled while Rome burned' is apocryphal (the fiddle didn't exist yet, and he was reportedly in Antium when the fire started). He used the cleared land to build the Domus Aurea (Golden House), a palace complex covering an estimated 200–300 acres of central Rome, which was so resented that subsequent emperors built public monuments — including the Colosseum — directly on its grounds. Despite his reputation, several provinces mourned him; three separate pretenders claiming to be Nero arose in the eastern empire in the decades after his death."
+        }
+      ],
+      "commonsFile": "Nero_Glyptothek_Munich_321.jpg"
     },
     {
       "id": "evt-great-fire-rome",
       "label": "Great Fire of Rome",
       "year": 64,
-      "description": "A devastating fire burned for six days, destroying ten of Rome's fourteen districts. Nero used the cleared land to build his lavish Domus Aurea and blamed Christians for the fire, launching persecutions.",
+      "description": "The Great Fire of Rome broke out on July 18–19, 64 CE, burned for six days, reignited, and ultimately destroyed or badly damaged ten of the city's fourteen districts — the worst urban disaster in Rome's history.",
       "wikiSlug": "Great_Fire_of_Rome",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The ancient sources (Tacitus, Suetonius) disagree sharply on whether Nero started the fire deliberately to clear land, happened to be performing when it broke out, or genuinely organized relief efforts — modern historians lean toward accident. What is certain is that Nero used the cleared land to build the Domus Aurea, his sprawling 100-to-300-acre pleasure palace, and that he blamed the city's small Christian community for the fire, with the result that Christians were burned alive in his gardens as public entertainment."
+        }
+      ],
+      "commonsFile": "Karl_von_Piloty_Nero_Róma_égését_szemléli.jpg"
     },
     {
       "id": "evt-destruction-jerusalem",
       "label": "Destruction of Jerusalem",
       "year": 70,
-      "description": "Emperor Vespasian's son Titus besieged and destroyed Jerusalem, including the Second Temple. This catastrophic event reshaped Judaism and is commemorated on the Arch of Titus in Rome.",
+      "description": "In 70 CE, Roman forces under Titus (then Vespasian's general, not yet emperor) besieged Jerusalem for five months, breached its walls, and destroyed the Second Temple — the center of Jewish worship. The catastrophe ended the temple-based sacrificial cult and reshaped Judaism into the text-and-synagogue-centered religion that survived into the modern world.",
       "wikiSlug": "Siege_of_Jerusalem_(70_CE)",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The siege coincided with the Jewish Passover festival, trapping hundreds of thousands of pilgrims inside the city with the defenders. The Roman historian Josephus — himself a Jewish commander who had surrendered and defected — estimated over a million dead and nearly 100,000 enslaved, numbers modern scholars consider exaggerated but indicative of massive casualties. The golden menorah and other Temple treasures were paraded through Rome in triumph and depicted on the Arch of Titus, which still stands in the Roman Forum; the menorah's whereabouts have been a subject of speculation ever since."
+        }
+      ],
+      "commonsFile": "(Venice)_La_distruzione_del_tempio_di_Gerusalemme_-Francesco_Hayez_-_gallerie_Accademia_Venice.jpg"
     },
     {
       "id": "evt-colosseum",
       "label": "Colosseum Completed",
       "year": 80,
-      "description": "The Flavian Amphitheatre, known as the Colosseum, was completed under Emperor Titus. Seating 50,000 spectators, it hosted gladiatorial contests and remains the largest amphitheatre ever built.",
+      "description": "The Colosseum (formally the Flavian Amphitheatre) was completed under Emperor Titus in 80 CE — an elliptical arena seating roughly 50,000 spectators that hosted gladiatorial combat, animal hunts, and public executions, and remains the largest amphitheatre ever built.",
       "wikiSlug": "Colosseum",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inaugural games ran for 100 days, during which ancient sources claim 9,000 animals were killed. The arena floor could be flooded for staged naval battles (naumachia), though engineers later installed the hypogeum — an elaborate underground network of tunnels, cages, and mechanical lifts — which made flooding impractical. The Colosseum was built largely by Jewish prisoners of war taken after the sack of Jerusalem in 70 CE."
+        }
+      ],
+      "commonsFile": "Colosseo_2020.jpg"
     },
     {
       "id": "evt-pompeii",
       "label": "Destruction of Pompeii",
       "year": 79,
-      "description": "Mount Vesuvius erupted catastrophically, burying Pompeii and Herculaneum under volcanic ash. The preserved cities provide an unparalleled snapshot of daily Roman life, rediscovered in the 18th century.",
+      "description": "In August 79 CE, Mount Vesuvius erupted with catastrophic force, burying the prosperous city of Pompeii under meters of volcanic ash and the neighboring city of Herculaneum under a torrent of superheated pyroclastic flow. The cities were sealed and forgotten until excavations began in the 18th century, revealing Roman daily life frozen mid-moment.",
       "wikiSlug": "Eruption_of_Mount_Vesuvius_in_79_AD",
       "tier": 2,
       "tags": [
         "science"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The eruption was so powerful it ejected material 33 km (21 miles) into the atmosphere and released roughly 100,000 times the thermal energy of the Hiroshima atomic bomb. Herculaneum, which was closer to the volcano, was hit by pyroclastic surges rather than ash fall — meaning its wooden structures, food, and even papyrus scrolls were carbonized and preserved in ways Pompeii's ash burial could not match. Plaster casts of Pompeii victims are actually voids left in hardened ash after bodies decomposed; excavators fill them with plaster to reveal the shapes of people and animals in their final moments."
+        }
+      ],
+      "commonsFile": "Pompeii&Vesuvius.JPG"
     },
     {
       "id": "evt-pliny-elder",
       "label": "Pliny the Elder",
       "year": 23,
       "endYear": 79,
-      "description": "Gaius Plinius Secundus wrote the Naturalis Historia, a 37-volume encyclopedia of the natural world. He died observing the eruption of Vesuvius, exemplifying Roman scientific curiosity.",
+      "description": "Pliny the Elder (23–79 CE) was a Roman officer, lawyer, and relentless intellectual who somehow found time to write the Naturalis Historia — a 37-volume encyclopedia covering astronomy, geography, medicine, botany, and art that served as the Western world's go-to reference for over a thousand years.",
       "wikiSlug": "Pliny_the_Elder",
       "tier": 3,
       "tags": [
         "writing",
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pliny reportedly slept as little as possible, had books read to him during meals and baths, and dictated notes even while being carried by litter through Rome — essentially working every waking hour. The Naturalis Historia runs to about 20,000 'noteworthy facts' drawn from some 2,000 works by 100 authors, making it the largest surviving work of Latin prose from antiquity. When Vesuvius erupted, Pliny the Elder commanded the Roman fleet at Misenum; rather than fleeing, he sailed toward the volcano to observe it and help stranded residents, and died on the beach at Stabiae — possibly from the toxic gases, though his nephew believed it was his heart."
+        }
+      ],
+      "commonsFile": "Grande_Illustrazione_del_Lombardo_Veneto_Vol_3_Plinio_Secondo_300dpi.jpg"
     },
     {
       "id": "evt-trajan",
       "label": "Trajan",
       "year": 98,
       "endYear": 117,
-      "description": "Trajan expanded the Roman Empire to its greatest territorial extent, conquering Dacia and Mesopotamia. He was considered one of the 'Five Good Emperors' and an ideal ruler.",
+      "description": "Trajan (emperor 98–117 CE) was the soldier-emperor who pushed Rome to its largest territorial footprint ever, conquering Dacia (modern Romania) and briefly occupying Mesopotamia — earning the Senate's title optimus princeps (best ruler) and the enduring reputation as the ideal emperor.",
       "wikiSlug": "Trajan",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Trajan's Column in Rome, completed in 113 CE, is 98 feet (30 m) tall and spirals 625 relief sculptures telling the story of his Dacian wars — it is still standing and was designed as his tomb (his ashes were placed in a chamber at its base). The conquest of Dacia flooded Rome with gold: ancient sources claim he brought back 165 tons of gold and 330 tons of silver from the Dacian king's treasury, funding a decade of building projects."
+        }
+      ],
+      "commonsFile": "Traianus_Glyptothek_Munich_336.jpg"
     },
     {
       "id": "evt-trajans-column",
       "label": "Trajan's Column",
       "year": 113,
-      "description": "This 30-meter carved column in Rome depicts Trajan's Dacian Wars in a continuous spiral frieze of 2,662 figures. It is a masterpiece of Roman narrative art and a key historical source.",
+      "description": "Trajan's Column, dedicated in 113 CE, is a 98-foot (30-meter) marble column in Rome covered in a continuous spiral carved frieze depicting Trajan's two Dacian Wars across 2,662 individual figures. It is one of the most detailed records of the Roman army ever made.",
       "wikiSlug": "Trajan's_Column",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "If you unrolled the spiral frieze from top to bottom it would stretch about 200 meters (656 feet) — and it was originally painted in vivid colors. The column also served as Trajan's tomb: his ashes were placed in a golden urn in the base after his death. Remarkably, the figures near the top were carved in higher relief than those at the bottom to account for perspective distortion when viewed from the ground, showing a sophisticated understanding of how viewers would actually see the work."
+        }
+      ],
+      "commonsFile": "Trajan's_Column_HD.jpg"
     },
     {
       "id": "evt-hadrian",
       "label": "Hadrian",
       "year": 117,
       "endYear": 138,
-      "description": "Hadrian consolidated the empire's borders, building his famous wall in Britain and the Pantheon in Rome. He was a cultured philhellene who traveled extensively throughout his empire.",
+      "description": "Hadrian (emperor 117–138 CE) was the traveled, cultured opposite of a conquering general — he spent half his reign touring the provinces, pulled back Trajan's eastern conquests as indefensible, rebuilt the Pantheon, and ordered the famous wall across northern Britain that still bears his name.",
       "wikiSlug": "Hadrian",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hadrian's Wall stretched 73 miles (117 km) across the full width of northern Britain and was manned by thousands of auxiliary soldiers drawn from across the empire — units from Syria, North Africa, and the Danube all served there. Hadrian was openly in love with a young Greek man named Antinous; when Antinous drowned mysteriously in the Nile in 130 CE, Hadrian founded a city at the spot (Antinoopolis) and had him declared a god, one of the last people in antiquity to receive official divine status."
+        }
+      ],
+      "commonsFile": "München_SMAEK_2019-03-23n.jpg"
     },
     {
       "id": "evt-hadrians-wall",
       "label": "Hadrian's Wall",
       "year": 122,
-      "description": "Emperor Hadrian ordered the construction of a 73-mile wall across northern Britain to mark the empire's frontier. It remains one of the most impressive Roman engineering achievements.",
+      "description": "Beginning in 122 CE, Hadrian ordered the construction of a stone wall stretching 73 miles (117 km) across the narrowest point of northern Britain, from the North Sea to the Solway Firth. It was the empire's northernmost land frontier, manned by thousands of soldiers and serving as both a military barrier and a customs checkpoint.",
       "wikiSlug": "Hadrian's_Wall",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The wall was not just a line — it was a full defensive system including a ditch on the north side, a military road on the south, forts every 5 miles holding full cohorts (500–1,000 soldiers), smaller milecastles every Roman mile, and signal towers in between. At its peak it may have been garrisoned by around 9,000–10,000 soldiers. Large sections of the wall still stand today, and the site is a UNESCO World Heritage Site; walking tours follow the original line through the northern English countryside."
+        }
+      ]
     },
     {
       "id": "evt-pantheon",
       "label": "Pantheon Rebuilt",
       "year": 125,
-      "description": "Hadrian rebuilt the Pantheon with its revolutionary unreinforced concrete dome, still the world's largest of its kind. Its oculus and perfect proportions make it one of the best-preserved Roman buildings.",
+      "description": "Around 125 CE, Hadrian rebuilt the Pantheon ('temple to all the gods') in Rome with a breathtaking unreinforced concrete dome 142 feet (43 meters) in diameter — the largest such dome in the world for over 1,300 years. The only source of light is the oculus (eye), a 27-foot (8.2-meter) circular opening at the dome's apex that lets a shaft of sunlight sweep across the interior.",
       "wikiSlug": "Pantheon,_Rome",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pantheon's dome was not surpassed in diameter until Brunelleschi built Florence's cathedral dome in the 1430s — over 1,300 years later — and even then, Brunelleschi studied the Pantheon extensively to figure out how to do it. The dome's concrete mix gets progressively lighter toward the top (using pumice aggregate near the oculus instead of heavier stone), a deliberate engineering decision to reduce stress at the dome's crown. Despite being nearly 1,900 years old, the Pantheon has been in continuous use — first as a Roman temple, then as a Christian church since 609 CE — and the tombs of Raphael and the first kings of unified Italy are inside it."
+        }
+      ],
+      "commonsFile": "Pantheon_(Rome)_-_Right_side_and_front.jpg"
     },
     {
       "id": "evt-marcus-aurelius",
       "label": "Marcus Aurelius",
       "year": 161,
       "endYear": 180,
-      "description": "The last of the 'Five Good Emperors,' Marcus Aurelius was a Stoic philosopher-king who spent much of his reign fighting Germanic tribes. His Meditations remains a classic of Stoic philosophy.",
+      "description": "Marcus Aurelius (emperor 161–180 CE) was the philosopher-king the Stoics had theorized about — he genuinely was a trained Stoic philosopher AND emperor — who spent most of his reign not writing in his journal but fighting grinding wars on the Danube frontier against Germanic tribes.",
       "wikiSlug": "Marcus_Aurelius",
       "tier": 2,
       "tags": [
         "people",
         "writing"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Meditations — Marcus Aurelius's famous private journal of Stoic philosophy — was written mostly in military camps on the northern frontier and was never intended for publication; it survived by accident and was first printed in 1558. He ruled jointly with his adoptive brother Lucius Verus (161–169 CE) in the first true co-emperorship in Roman history; Verus died, probably of the Antonine Plague, a pandemic that killed an estimated 5–10 million people across the empire during their reign."
+        }
+      ],
+      "commonsFile": "MSR-ra-61-b-1-DM.jpg"
     },
     {
       "id": "evt-meditations",
       "label": "Meditations of Marcus Aurelius",
       "year": 170,
-      "description": "Written during military campaigns along the Danube, Marcus Aurelius's personal journal of Stoic philosophy was never intended for publication. It became one of the most influential philosophical works in history.",
+      "description": "The Meditations of Marcus Aurelius is a series of private journal entries written in Greek during military campaigns on the Danube frontier, recording his attempts to live up to Stoic philosophy while governing an empire. It was never intended for anyone else to read.",
       "wikiSlug": "Meditations",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Meditations has no title — Marcus gave it none — and survives in a single medieval manuscript whose origin is unknown; the title was assigned by editors. It is structured as twelve books of notes to himself, often repetitive, often self-critical, with Marcus reminding himself of the same principles over and over as though struggling to believe them. The Stoic idea running through all of it — that you cannot control external events, only your response to them — was picked up centuries later by cognitive behavioral therapy as a foundational insight."
+        }
+      ],
+      "commonsFile": "Marcus_Aurelius._De_seipso,_seu_vita_sua_(Xylander,_1558).jpg"
     },
     {
       "id": "evt-galen",
       "label": "Galen",
       "year": 129,
       "endYear": 216,
-      "description": "Galen of Pergamon was the most accomplished physician in the Roman Empire, whose anatomical and medical theories dominated Western medicine for 1,300 years. He served as physician to several emperors.",
+      "description": "Galen of Pergamon (129–216 CE) was the most influential physician in the ancient world, whose anatomical treatises became the foundation of Western and Islamic medicine for over a millennium. He served as personal physician to Emperor Marcus Aurelius and at least two of his successors.",
       "wikiSlug": "Galen",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Galen wrote an estimated 600 treatises — roughly 3 million words — of which about 300 survive, making him by sheer volume the most prolific author from the ancient world whose works are still extant. His anatomy was based largely on dissections of Barbary apes and pigs rather than humans (Roman law restricted human dissection), which introduced some significant errors — such as believing the liver, not the heart, was the center of the blood system — that persisted in medical education until the 16th century. He demonstrated that arteries carry blood rather than air by cutting one open in a live animal, disproving a 400-year-old anatomical assumption."
+        }
+      ],
+      "commonsFile": "Galenus.jpg"
     },
     {
       "id": "evt-ptolemy",
       "label": "Ptolemy",
       "year": 100,
       "endYear": 170,
-      "description": "Claudius Ptolemy wrote the Almagest, the definitive astronomical treatise of antiquity, and the Geographia, which mapped the known world. His geocentric model dominated astronomy until Copernicus.",
+      "description": "Claudius Ptolemy (roughly 100–170 CE), working in Roman Alexandria, wrote the Almagest — the definitive guide to ancient astronomy — and the Geographia, which assembled the most comprehensive map of the known world up to that point. His Earth-centered model of the solar system dominated Western and Islamic astronomy for 1,400 years.",
       "wikiSlug": "Ptolemy",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ptolemy's Geographia listed the coordinates of about 8,000 places across Europe, Africa, and Asia, complete with instructions for projecting a curved Earth onto a flat map — essentially a manual for cartography that Renaissance explorers used directly when they 'rediscovered' it in the 15th century. His Almagest was preserved mainly through Arabic translation; European scholars got it back via the Islamic Golden Age (Chapter 10), and its title is itself an Arabic corruption of the Greek megiste ('greatest'). He also wrote the Tetrabiblos, a foundational text of Western astrology — in antiquity, astronomy and astrology were not separate disciplines."
+        }
+      ],
+      "commonsFile": "Ptolemy_1476_with_armillary_sphere_model.jpg"
     },
     {
       "id": "evt-commodus",
       "label": "Commodus",
       "year": 180,
       "endYear": 192,
-      "description": "Marcus Aurelius's son Commodus was a vain and incompetent emperor who fancied himself a gladiator. His assassination plunged Rome into civil war and ended the era of the Five Good Emperors.",
+      "description": "Marcus Aurelius's son Commodus (emperor 180–192 CE) was vain, violent, and spectacularly disinterested in governing — he renamed the months after himself, fought as a gladiator in the Colosseum, and was eventually strangled in his bath on New Year's Eve 192 CE, plunging Rome into civil war.",
       "wikiSlug": "Commodus",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Commodus fought in the arena at least 735 times, always against opponents deliberately hobbled to ensure he won, and charged the public treasury a gladiator's fee for each appearance. He renamed Rome itself \"Colonia Commodiana\" (Commodian Colony), effectively declaring the city his personal property. He also identified himself with Hercules, appearing in public wearing a lion skin and carrying a club."
+        }
+      ],
+      "commonsFile": "Commodo_vestito_da_Ercole_ai_Musei_Capitolini.jpg"
     },
     {
       "id": "evt-roman-roads",
       "label": "Roman Road Network at Peak",
       "year": 120,
-      "description": "At its height the Roman road network spanned over 400,000 kilometers, connecting every province of the empire. These engineered highways facilitated trade, troop movement, and communication across three continents.",
+      "description": "At its peak (around the 2nd century CE), the Roman road network stretched over 250,000 miles (400,000 km), linking every province from Britain to Mesopotamia — the largest integrated road system the ancient world ever built and a direct descendant of that first stretch of Appian Way.",
       "wikiSlug": "Roman_roads",
       "tier": 3,
       "tags": [
         "architecture"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roman roads were built to a standardized spec: a foundation of gravel or rubble, topped with a cambered stone surface wide enough for two carts to pass (typically around 4–6 m or 13–20 ft for a major road), with drainage ditches and raised footpaths on both sides. Milestones recorded distances to the nearest town and back to Rome. The network outlasted the empire itself — many modern European highways still follow the exact routes Roman engineers surveyed two thousand years ago."
+        }
+      ],
+      "commonsFile": "Appian_Way.jpg"
     },
     {
       "id": "evt-silk-road-trade",
       "label": "Rome-China Silk Trade",
       "year": -30,
-      "description": "Roman demand for Chinese silk drove a vast overland trade network connecting the Mediterranean to East Asia. Roman gold flowed east while luxury goods flowed west, creating the first global economy.",
+      "description": "Roman gold flowed east along the Silk Road — the overland and maritime trade network connecting the Mediterranean to China and India — in exchange for silk, spices, and incense, creating the ancient world's closest equivalent to a global economy.",
       "wikiSlug": "Sino-Roman_relations",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roman coins have been found in archaeological sites in India, Vietnam, and China, demonstrating the real reach of this trade. The intermediary Parthian Empire deliberately blocked direct Roman-Chinese contact to protect its lucrative middleman position; in 97 CE the Chinese general Ban Chao sent an envoy named Gan Ying toward Rome, but Parthian sailors apparently talked him out of crossing the Persian Gulf by describing the terrifying length of the sea voyage."
+        }
+      ],
+      "commonsFile": "East-Hem_050ad.jpg"
     },
     {
       "id": "evt-rome-grain-trade",
       "label": "Egyptian Grain Supply",
       "year": -30,
-      "description": "After annexing Egypt, Rome depended on Egyptian grain to feed its million-plus population. The annona, the state grain supply, became a critical political tool and logistical achievement.",
+      "description": "After annexing Egypt in 30 BCE, Rome ran the annona — a state grain logistics system that shipped Egyptian wheat to the port of Ostia and distributed it to over a million Romans, with around 200,000 adult male citizens receiving their monthly ration essentially free.",
       "wikiSlug": "Cura_Annonae",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The grain dole (frumentatio) was not charity but a political institution: it had existed since the Gracchan reforms of the 2nd century BCE, and Julius Caesar had tried to cut the rolls. Augustus expanded it and kept it close to 200,000 recipients. Ships carrying Egyptian grain were among the largest cargo vessels in the ancient world, some displacing over 1,000 tons — roughly the size of an 18th-century naval frigate."
+        }
+      ],
+      "commonsFile": "Haifa-maritime-museum-Roman-grain-ship-2c-1.jpg"
     },
     {
       "id": "evt-port-ostia",
       "label": "Port of Ostia Expanded",
       "year": 42,
-      "description": "Emperor Claudius began a massive expansion of Ostia's harbor to handle the growing volume of Mediterranean trade. The port complex became one of the ancient world's largest commercial hubs.",
+      "description": "Emperor Claudius began construction of Portus around 42 CE — a massive artificial harbor at the mouth of the Tiber to supplement Ostia, eventually covering about 350 acres (140 hectares) with warehouses, a lighthouse, and an imperial palace.",
       "wikiSlug": "Portus",
       "tier": 3,
       "tags": [
         "architecture"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Claudius's harbor was considered too exposed to storms and silted badly; his successor Trajan added an inner hexagonal basin around 112 CE that became the real working heart of the port, clearly visible today in satellite images as a perfect hexagon near Rome's Fiumicino airport. At its height Portus may have handled up to 200 ships per day, making it the busiest commercial port on earth."
+        }
+      ],
+      "commonsFile": "Italy-0510_(5149691364).jpg"
     },
     {
       "id": "evt-antonine-plague",
       "label": "Antonine Plague",
       "year": 165,
       "endYear": 180,
-      "description": "A devastating pandemic, likely smallpox, killed an estimated 5 million people across the Roman Empire. It weakened the military, disrupted trade, and may have contributed to Rome's eventual decline.",
+      "description": "The Antonine Plague (165–180 CE), probably smallpox, swept the Roman Empire after soldiers returning from a campaign in the east brought it home, killing an estimated 5 to 10 million people over 15 years. It struck at the precise moment Germanic tribes were pressing the Danube frontier, weakening the army when it could least afford it.",
       "wikiSlug": "Antonine_Plague",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The plague was named after the Antonine dynasty because it killed throughout their reigns, but Galen — who witnessed it firsthand at Rome — described its symptoms in enough detail that modern epidemiologists are fairly confident it was smallpox or a close relative. At its peak the plague killed an estimated 2,000 people per day in Rome alone. The pandemic's economic disruption was significant: tax revenues dropped, some cities were depopulated, and recruitment pressure on the military led to unprecedented steps including arming gladiators and allowing Germanic tribes to settle inside the empire as allied soldiers — a practice that would have enormous long-term consequences."
+        }
+      ],
+      "commonsFile": "Aurelius180AD.png"
     },
     {
       "id": "evt-caracalla-citizenship",
       "label": "Edict of Caracalla",
       "year": 212,
-      "description": "Emperor Caracalla extended Roman citizenship to all free inhabitants of the empire. This revolutionary decree unified the empire legally but also diluted the special status citizenship had carried.",
+      "description": "In 212 CE, Emperor Caracalla issued the Constitutio Antoniniana (the Edict of Caracalla), extending full Roman citizenship to every free person in the empire — the largest single grant of citizenship in the ancient world.",
       "wikiSlug": "Constitutio_Antoniniana",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before the edict, only a fraction of the empire's tens of millions of inhabitants were citizens; the rest were peregrini (foreigners under Roman rule) who paid lighter taxes. Because citizens paid inheritance and manumission taxes that non-citizens did not, the decree was almost certainly a fiscal measure: the tax base expanded by millions overnight. The only surviving physical copy is a fragmentary Greek papyrus discovered in Egypt."
+        }
+      ],
+      "commonsFile": "Gießen,_MS_Papyrus_Gissensis_40_Constitutio_Antoniniana_crop.jpg"
     },
     {
       "id": "evt-baths-caracalla",
       "label": "Baths of Caracalla",
       "year": 216,
-      "description": "These enormous public baths could accommodate 1,600 bathers and included libraries, gardens, and exercise areas. They exemplified Roman urban engineering and the importance of public amenities.",
+      "description": "The Baths of Caracalla, completed around 216–217 CE, were Rome's second-largest public bathing complex — a sprawling social hub that included hot and cold pools, libraries, exercise courts, and gardens, all free to enter.",
       "wikiSlug": "Baths_of_Caracalla",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The baths required a dedicated aqueduct branch and an underground service tunnel system (still explorable today) where workers and donkeys circled continuously to stoke the furnaces. They remained in operation for over three centuries until the Ostrogoths cut the aqueducts in 537 CE. In the 20th century, the ruins became famous as an outdoor opera venue — Verdi's Aida was performed there regularly."
+        }
+      ],
+      "commonsFile": "Baths_of_Caracalla,_facing_Caldarium.jpg"
     },
     {
       "id": "evt-crisis-third-century",
       "label": "Crisis of the Third Century",
       "year": 235,
       "endYear": 284,
-      "description": "The empire nearly collapsed under the weight of civil wars, plague, economic crisis, and barbarian invasions. In 50 years, over 20 emperors claimed the throne as the empire fragmented.",
+      "description": "Between 235 and 284 CE, the Roman Empire nearly disintegrated: more than twenty emperors ruled and died (most violently) in fifty years, the empire split into three competing states, plague killed millions, and barbarian invasions breached the Rhine and Danube simultaneously.",
       "wikiSlug": "Crisis_of_the_Third_Century",
       "tier": 2,
       "tags": [
         "politics"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The period began when soldiers murdered Emperor Severus Alexander and proclaimed their general Maximinus Thrax emperor — the first emperor who never even visited Rome. At the nadir, the empire had fractured into the Gallic Empire in the west, the Palmyrene Empire in the east, and a rump central state — three separate governments all claiming to be Rome. Diocletian, who ended the crisis in 284, did so partly by permanently splitting imperial administration between multiple co-emperors (the Tetrarchy, or rule of four), an admission that the empire had become too large for one man to govern."
+        }
+      ],
+      "commonsFile": "5305_-_Brescia_-_S._Giulia_-_Ritratto_di_Claudio_II_il_Gotico_-_Foto_Giovanni_Dall'Orto,_25_Giu_2011_(cropped).jpg"
     },
     {
       "id": "evt-diocletian",
       "label": "Diocletian's Reforms",
       "year": 284,
       "endYear": 305,
-      "description": "Diocletian ended the Crisis of the Third Century and created the Tetrarchy, dividing the empire among four co-rulers. His administrative and economic reforms stabilized the empire but increased authoritarianism.",
+      "description": "Diocletian (emperor 284–305 CE) was a low-born Dalmatian soldier who clawed his way to power and then reorganized the entire empire — splitting rule among four co-emperors (the Tetrarchy), doubling the number of provinces, separating civilian from military authority, and reforming taxation — before voluntarily retiring to grow cabbages, the only emperor who ever quit.",
       "wikiSlug": "Diocletian",
       "tier": 2,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Diocletian's abdication in 305 CE was genuinely unprecedented: no Roman emperor had ever voluntarily stepped down. He retired to a massive palace at Spalatum (modern Split, Croatia), whose outer walls and fortifications are so substantial that the medieval city of Split literally grew up inside them — you can still walk the streets of Diocletian's palace today. He doubled the size of the imperial bureaucracy and army, tripling the tax burden required to sustain it."
+        }
+      ],
+      "commonsFile": "Istanbul_-_Museo_archeol._-_Diocleziano_(284-305_d.C.)_-_Foto_G._Dall'Orto_28-5-2006_(cropped).jpg"
     },
     {
       "id": "evt-great-persecution",
       "label": "Great Persecution of Christians",
       "year": 303,
       "endYear": 311,
-      "description": "Diocletian launched the last and most severe persecution of Christians in the Roman Empire. Churches were destroyed, scriptures burned, and clergy imprisoned, but the faith continued to spread.",
+      "description": "The Diocletianic Persecution (303–311 CE) was the last and most brutal Roman crackdown on Christians — churches demolished, scriptures burned, clergy imprisoned, and holdouts tortured or executed — yet it failed to destroy the faith, instead creating a generation of martyrs that strengthened it.",
       "wikiSlug": "Diocletianic_Persecution",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The persecution was sharply uneven: in the west, the co-emperor Constantius applied only the mildest first edict (demolishing churches, confiscating texts) and largely avoided bloodshed, while in the eastern provinces Diocletian ruled directly, enforcement was lethal. The edicts were revoked piecemeal over nearly a decade; Galerius, one of the persecutors, issued a formal toleration edict on his deathbed in 311 CE — effectively admitting the policy had failed."
+        }
+      ],
+      "commonsFile": "St._George_before_Diocletianus._A_mural_from_the_Ubisi_Monastery,_Georgia..jpg"
     },
     {
       "id": "evt-constantine",
       "label": "Constantine the Great",
       "year": 306,
       "endYear": 337,
-      "description": "Constantine reunified the Roman Empire, founded Constantinople, and became the first emperor to convert to Christianity. His reign fundamentally reshaped the political and religious landscape of the Western world.",
+      "description": "Constantine I (ruled 306–337 CE) fought his way to sole control of the Roman Empire, converted to Christianity, and founded Constantinople — three decisions that together redirected the course of Western civilization.",
       "wikiSlug": "Constantine_the_Great",
       "tier": 1,
       "tags": [
         "religion",
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Constantine waited until his deathbed in 337 CE to be baptized, a common late-antique strategy since baptism was believed to wash away all prior sins. His mother Helena, later venerated as a saint, made a famous pilgrimage to Jerusalem around 326–328 CE and reportedly discovered relics including fragments of the True Cross. Despite championing Christianity, Constantine kept the title Pontifex Maximus (chief priest of the Roman state religion) his entire reign, never formally renouncing his pagan priestly role."
+        }
+      ],
+      "commonsFile": "Statua_di_Costantino_ai_musei_capitolini.jpg"
     },
     {
       "id": "evt-edict-milan",
       "label": "Edict of Milan",
       "year": 313,
-      "description": "Constantine and Licinius issued the Edict of Milan, granting religious tolerance throughout the empire and ending the persecution of Christians. This marked a turning point in the history of Christianity.",
+      "description": "In February 313 CE, Constantine and his co-emperor Licinius issued the Edict of Milan, ending the persecution of Christians, legalizing Christian worship, and ordering confiscated church property returned — the moment Christianity went from illegal sect to protected religion.",
       "wikiSlug": "Edict_of_Milan",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Edict of Milan was not actually a new law but a letter sent to provincial governors outlining existing policy — the legal framework had been partly set two years earlier by the dying emperor Galerius, one of Christianity's harshest persecutors, who issued his own grudging toleration edict in 311 CE. The Milan agreement extended those protections to all religions, not Christians exclusively, establishing a general principle of religious freedom that was genuinely novel in Roman governance."
+        }
+      ],
+      "commonsFile": "Constantine_Chiaramonti_Inv1749.jpg"
     },
     {
       "id": "evt-council-nicaea",
       "label": "Council of Nicaea",
       "year": 325,
-      "description": "Constantine convened the first ecumenical council of Christian bishops at Nicaea. It produced the Nicene Creed, defining core Christian doctrine and establishing the relationship between church and state.",
+      "description": "In 325 CE, Constantine convened the first empire-wide council of Christian bishops at Nicaea (modern northwestern Turkey) to resolve the Arian controversy — and the resulting Nicene Creed became the doctrinal standard for mainstream Christianity ever since.",
       "wikiSlug": "First_Council_of_Nicaea",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The council ran from May to July 325 CE with roughly 250–318 bishops attending, nearly all from the eastern empire — western bishops were largely absent or sent representatives. The key dispute was a single Greek word: homoousios (\"of the same substance\") versus homoiousios (\"of similar substance\"), describing Christ's relationship to God the Father; a single iota (the letter between them) separated the two positions and generated centuries of church conflict. Constantine paid all travel expenses for the bishops out of the imperial treasury, turning what could have been a modest clerical meeting into a lavish imperial occasion."
+        }
+      ],
+      "commonsFile": "Μιχαήλ_Δαμασκηνός_-_Α΄_Οικουμενική_Σύνοδος_7741.jpg"
     },
     {
       "id": "evt-constantinople-founded",
       "label": "Constantinople Founded",
       "year": 330,
-      "description": "Constantine inaugurated his new capital at Byzantium, renaming it Constantinople. Built on a strategic peninsula, it would become the greatest city in the medieval world and endure until 1453.",
+      "description": "In 330 CE, Constantine inaugurated a new imperial capital at the site of the ancient Greek colony of Byzantium, at the southern tip of the Bosporus strait — a city he named Constantinople that would remain the greatest urban center in the Mediterranean world for centuries.",
       "wikiSlug": "Constantinople",
       "tier": 2,
       "tags": [
         "politics"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Constantine ran a foundation ceremony modeled on Rome's own legendary founding, including marking the city's boundaries in person on horseback. The new capital was stocked with art looted from across the empire: statues, obelisks, and monuments were shipped in to give it instant prestige. Constantinople's land walls, built by Emperor Theodosius II in 413 CE, proved so effective that the city fell to a siege only twice in over a thousand years — to the Fourth Crusade in 1204 and to Ottoman cannon in 1453."
+        }
+      ],
+      "commonsFile": "Byzantine_Constantinople-en.png"
     },
     {
       "id": "evt-julian-apostasy",
       "label": "Julian the Apostate",
       "year": 361,
       "endYear": 363,
-      "description": "Emperor Julian attempted to reverse the Christianization of the empire and restore traditional Roman religion. His brief reign and death in battle ended the last serious pagan revival.",
+      "description": "Julian (ruled 361–363 CE), Constantine's nephew and the last pagan emperor, was raised Christian but secretly converted to Neoplatonist philosophy and spent his reign restoring pagan temples and stripping Christian clergy of privileges — only to die fighting the Sassanid Persians after just 20 months in power.",
       "wikiSlug": "Julian_(emperor)",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Julian was a serious intellectual who wrote prolifically in Greek — surviving works include philosophical treatises, satire, and personal letters. His anti-Christian strategy was notably non-violent: rather than persecuting Christians, he cut off their state funding and banned them from teaching classical literature (on the logic that they didn't believe in the gods whose stories they were teaching). He died from a spear wound at the Battle of Samarra in 363 CE, and the pagan restoration collapsed immediately with his death."
+        }
+      ],
+      "commonsFile": "Juliancng8851obverse.jpg"
     },
     {
       "id": "evt-christianity-state-religion",
       "label": "Christianity Becomes State Religion",
       "year": 380,
-      "description": "Emperor Theodosius I issued the Edict of Thessalonica, making Nicene Christianity the official state religion and banning pagan worship. This completed Rome's transformation from pagan to Christian empire.",
+      "description": "On February 27, 380 CE, Emperor Theodosius I issued the Edict of Thessalonica, making Nicene Christianity the sole official religion of the Roman Empire and condemning all other Christian sects — let alone pagan worship — as illegal.",
       "wikiSlug": "Edict_of_Thessalonica",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The edict explicitly condemned Arian Christianity (the variant holding that Christ was subordinate to God) as the heresy of \"foolish madmen,\" reflecting how politically charged theological disputes had become. A decade later in 391 CE, Theodosius banned pagan sacrifice and closed the ancient temples entirely. The Olympic Games, celebrated without interruption for over a thousand years since 776 BCE, were abolished around this time — the last games recorded were held in 393 CE."
+        }
+      ]
     },
     {
       "id": "evt-empire-divided",
       "label": "Empire Permanently Divided",
       "year": 395,
-      "description": "After the death of Theodosius I, the Roman Empire was permanently split between his sons into Western and Eastern halves. The Eastern Empire would survive for another thousand years as Byzantium.",
+      "description": "When Theodosius I died in 395 CE, he split the Roman Empire between his two young sons — Arcadius in the east and Honorius in the west — an administrative division intended to be temporary that instead proved permanent.",
       "wikiSlug": "Fall_of_the_Western_Roman_Empire",
       "tier": 2,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Arcadius was about 17 and Honorius only 10 when they inherited the two halves, meaning real power rested with military strongmen (notably the half-Vandal general Stilicho in the west). The western half would fall to Germanic kingdoms within 81 years, in 476 CE. The eastern half — governed from Constantinople and never calling itself anything but \"the Roman Empire\" — would continue for another 1,058 years until 1453 CE."
+        }
+      ],
+      "commonsFile": "Consular_diptych_Probus_406.jpg"
     },
     {
       "id": "evt-sack-rome-visigoths",
       "label": "Visigoth Sack of Rome",
       "year": 410,
-      "description": "Alaric and his Visigoths sacked Rome for three days, the first time the city had fallen to a foreign enemy in 800 years. The event shocked the Roman world and inspired Augustine's City of God.",
+      "description": "On August 24, 410 CE, Alaric and his Visigoths entered Rome through the Salarian Gate and plundered the city for three days — the first foreign enemy to take Rome in 800 years, since the Gallic sack of 390 BCE.",
       "wikiSlug": "Sack_of_Rome_(410)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At the time of the sack, Rome was no longer even the Western Empire's administrative capital — that role had passed first to Milan and then to Ravenna in 402 CE, just eight years earlier. The Visigoths, who were Arian Christians, deliberately spared churches and avoided wholesale massacre, making this one of the more restrained sackings in ancient history. Jerome, writing from Bethlehem, said: 'The city which had taken the whole world was itself taken.' Augustine responded by writing the entire City of God to argue that earthly cities were always doomed to fall."
+        }
+      ],
+      "commonsFile": "Visigoths_sack_Rome.jpg"
     },
     {
       "id": "evt-augustine",
       "label": "Augustine of Hippo",
       "year": 354,
       "endYear": 430,
-      "description": "Saint Augustine was the most influential Christian theologian of Late Antiquity. His Confessions and City of God shaped Western philosophy, theology, and political thought for over a millennium.",
+      "description": "Augustine of Hippo (354–430 CE), bishop of a North African city and former dissolute student-turned-theologian, wrote the two books that would define Western Christian thought for the next thousand years: the Confessions and the City of God.",
       "wikiSlug": "Augustine_of_Hippo",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Augustine spent his early adult years as a Manichaean (a Persian dualist religion that saw the universe as a battle between light and darkness) before converting to Christianity at age 32. His Confessions, addressed directly to God as a long prayer, invented the genre of introspective autobiography — nothing quite like it had been written in classical antiquity. He wrote City of God partly as a response to pagans who blamed Christianity for the Visigothic sack of Rome in 410 CE, arguing that earthly empires are always temporary while the true Christian community transcends any political state."
+        }
+      ],
+      "commonsFile": "Saint_Augustine_by_Philippe_de_Champaigne.jpg"
     },
     {
       "id": "evt-vandal-sack-rome",
       "label": "Vandal Sack of Rome",
       "year": 455,
-      "description": "The Vandals under Gaiseric looted Rome for two weeks, stripping the city of its treasures including items from the Temple of Jerusalem. The word 'vandalism' derives from their name.",
+      "description": "In June 455 CE, the Vandal king Gaiseric led a systematic two-week looting of Rome far more thorough than Alaric's three-day sack — stripping temples, palaces, and public buildings of everything portable, and reportedly carrying off the treasures Titus had taken from the Temple of Jerusalem four centuries earlier.",
       "wikiSlug": "Sack_of_Rome_(455)",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Vandals had originally migrated from central Europe through Spain and across to North Africa, where they seized the province of Africa Proconsularis — Rome's breadbasket — and its tax revenues, a blow from which the Western Empire never financially recovered. Gaiseric reportedly received advance warning that Rome was undefended when the empress Eudoxia, furious over a dynastic murder, actually invited him to intervene. The word 'vandalism' stuck to their name despite being a later coinage; scholars note that the Vandals were organized raiders, not wanton destroyers, and actually left most of Rome's buildings standing."
+        }
+      ],
+      "commonsFile": "Genseric_sacking_rome_456.jpg"
     },
     {
       "id": "evt-fall-western-rome",
       "label": "Fall of Western Roman Empire",
       "year": 476,
-      "description": "The Germanic chieftain Odoacer deposed the last Western Roman Emperor, Romulus Augustulus. This traditional date marks the end of the Western Roman Empire and the beginning of the Middle Ages.",
+      "description": "In 476 CE, a Germanic chieftain named Odoacer deposed the teenage emperor Romulus Augustulus, mailed the imperial regalia to Constantinople, and quietly informed the Senate that the Western Empire no longer needed an emperor — not a thunderclap, but a shrug.",
       "wikiSlug": "Fall_of_the_Western_Roman_Empire",
       "tier": 1,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Historians have proposed over 200 distinct causes for the fall, making it one of the most debated events in all of scholarship. The Eastern Empire, equally Christian and facing many of the same pressures, continued uninterrupted for another 977 years until 1453 — which means the 'fall' of Rome really only describes one half of a two-part empire. The process was so gradual that many contemporaries barely noticed: the Roman Senate kept meeting, the aqueducts kept flowing, and Latin remained the language of law and religion across the former provinces."
+        }
+      ]
     },
     {
       "id": "evt-roman-forum",
       "label": "Roman Forum",
       "year": -500,
-      "description": "The Forum Romanum served as the civic, commercial, and religious center of Rome for centuries. Its temples, basilicas, and arches made it the heart of the ancient world's greatest city.",
+      "description": "The Forum Romanum was the open plaza at the center of Rome where the city conducted its public life — trials, speeches, elections, religious rituals, and commerce — for over a thousand years, surrounded by temples, basilicas (law courts), and triumphal arches.",
       "wikiSlug": "Roman_Forum",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Forum began as a marshy low point between Rome's hills, drained by the Cloaca Maxima (one of the world's first major sewers, still functioning today) around the 6th century BCE. By Augustus's time it had become so cramped with monuments that he built the Forum of Augustus next door to handle the overflow. The word 'forum' (open public space) gave us 'forensic' (of the courts) and 'forum' in its modern sense of public debate."
+        }
+      ],
+      "commonsFile": "Foro_Romano_Musei_Capitolini_Roma.jpg"
     },
     {
       "id": "evt-temple-jupiter",
       "label": "Temple of Jupiter Capitolinus",
       "year": -509,
-      "description": "The Temple of Jupiter Optimus Maximus on the Capitoline Hill was Rome's most important temple, dedicated in the same year as the Republic's founding. It was the center of Roman state religion.",
+      "description": "The Temple of Jupiter Optimus Maximus (\"Jupiter Best and Greatest\") on the Capitoline Hill was Rome's most sacred temple, the destination of triumphal processions and the symbolic heart of Roman state religion for nearly a thousand years.",
       "wikiSlug": "Temple_of_Jupiter_Optimus_Maximus",
       "tier": 3,
       "tags": [
         "architecture"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple was built in the Etruscan architectural style: raised on a high stone podium, with a deep front porch and three inner chambers (one each for Jupiter, Juno, and Minerva — the Capitoline Triad). It was destroyed and rebuilt at least three times by fire, each time larger and more lavish than before. Every Roman general who celebrated a triumph ended his victory parade here, dedicating a portion of the spoils to Jupiter — the temple's treasury became one of the great repositories of conquered wealth in the ancient world."
+        }
+      ],
+      "commonsFile": "TempleofCapitoliumRome.jpg"
     },
     {
       "id": "evt-lex-hortensia",
       "label": "Lex Hortensia",
       "year": -287,
-      "description": "This law made decisions of the plebeian assembly binding on all citizens, including patricians. It marked the culmination of the Conflict of the Orders and established a more democratic Roman government.",
+      "description": "The Lex Hortensia of 287 BCE was the final breakthrough of the Conflict of the Orders: it made decisions of the plebeian assembly (plebiscita) binding on all Romans, including the patrician aristocracy, without requiring Senate approval — effectively completing the plebeians' two-century campaign for legal equality.",
       "wikiSlug": "Lex_Hortensia",
       "tier": 3,
       "tags": [
         "politics"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The law was passed by a dictator named Quintus Hortensius, appointed specifically to resolve a crisis after the plebeians had seceded — again — to the Janiculum hill. The irony is sharp: an emergency one-man ruler handed the commoners their greatest democratic victory. After 287 BCE the distinction between patrician and plebeian mattered mainly for social prestige and a handful of religious offices; in law and politics, it was essentially over."
+        }
+      ]
     },
     {
       "id": "evt-roman-currency",
       "label": "Denarius Introduced",
       "year": -211,
-      "description": "Rome introduced the silver denarius, which became the standard currency across the Mediterranean world for centuries. Roman coinage facilitated trade and spread Roman culture throughout the empire.",
+      "description": "The silver denarius, introduced around 211 BCE during the Second Punic War, became Rome's standard coin for over four centuries — the dollar of the ancient world, found from Britain to Mesopotamia and referenced in the New Testament.",
       "wikiSlug": "Denarius",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A Roman legionary was paid about 225 denarii per year under Augustus. The coin's silver content was gradually debased by later emperors short on cash: by the 270s CE, 'silver' antoniniani (the denarius's successor) were only about 2-5% silver, essentially bronze coins with a silver wash — a debasement that contributed to the economic crisis of the third century."
+        }
+      ],
+      "commonsFile": "Octavian_and_Antony_denarius.jpg"
     },
     {
       "id": "evt-cato-elder",
       "label": "Cato the Elder",
       "year": -234,
       "endYear": -149,
-      "description": "Marcus Porcius Cato was a statesman known for ending every speech with 'Carthage must be destroyed.' He wrote De Agri Cultura, the oldest surviving complete prose work in Latin.",
+      "description": "Marcus Porcius Cato was the relentlessly conservative Roman senator who campaigned obsessively for Carthage's destruction, ending every speech — regardless of topic — with 'Carthago delenda est' ('Carthage must be destroyed').",
       "wikiSlug": "Cato_the_Elder",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cato's famous phrase was actually a rhetorical trick: Roman senators traditionally ended speeches with a formal statement of their personal position on the day's most pressing issue. By making 'Carthage must be destroyed' his standing conclusion to every speech — even debates about Italian drainage — he turned it into a drumbeat that outlasted any single argument. His agricultural manual De Agri Cultura, written around 160 BCE, is the oldest surviving complete prose work in Latin and covers everything from olive pressing to medicinal cabbage recipes."
+        }
+      ],
+      "commonsFile": "Patrizio_Torlonia.jpg"
     },
     {
       "id": "evt-cleopatra-rome",
       "label": "Cleopatra & Rome",
       "year": -48,
       "endYear": -30,
-      "description": "Cleopatra VII allied with Julius Caesar and later Mark Antony, intertwining Egyptian and Roman politics. Her death in 30 BCE ended the Ptolemaic dynasty and made Egypt a Roman province.",
+      "description": "Cleopatra VII (69–30 BCE), the last active pharaoh of Egypt, allied with Julius Caesar and later Mark Antony in bids to maintain Egyptian independence against Rome — a losing gamble that ended with her suicide (by asp, according to tradition) and Egypt becoming a Roman province.",
       "wikiSlug": "Cleopatra",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cleopatra was the only ruler of the Ptolemaic dynasty (Greek rulers of Egypt since 305 BCE) who actually bothered to learn Egyptian — she spoke at least nine languages total. Her relationship with Antony produced three children, and Augustus kept the eldest, Caesarion (Caesar's son), alive just long enough to confirm he posed no dynastic threat before having him killed. Cleopatra's Alexandria was the intellectual capital of the Mediterranean world, home to the Great Library and a population possibly second only to Rome itself."
+        }
+      ],
+      "commonsFile": "Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
     },
     {
       "id": "evt-pompey",
       "label": "Pompey the Great",
       "year": -106,
       "endYear": -48,
-      "description": "Gnaeus Pompeius Magnus conquered the East, cleared the Mediterranean of pirates, and formed the First Triumvirate with Caesar and Crassus. His rivalry with Caesar led to civil war and his assassination in Egypt.",
+      "description": "Pompey the Great (106–48 BCE) was Rome's most celebrated general before Caesar — he cleared the Mediterranean of pirates in a staggering 89 days, conquered the East, and brought more territory into Rome than any commander before him — until his rivalry with Caesar ended in defeat, flight to Egypt, and murder on a beach.",
       "wikiSlug": "Pompey",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pompey earned his cognomen 'Magnus' (the Great) at just 25, a title Sulla sarcastically awarded him that stuck. His piracy campaign in 67 BCE was a logistical masterpiece: he divided the Mediterranean into 13 zones, assigned a fleet to each, and swept them simultaneously — a problem that had plagued Rome for decades was solved in three months. He had already celebrated three full triumphs (the highest military honor) before the age of 40, an unprecedented record."
+        }
+      ],
+      "commonsFile": "(Venice)_Pompey_the_Great,_Museo_Archeologico_Nazionale.jpg"
     },
     {
       "id": "evt-mark-antony",
       "label": "Mark Antony",
       "year": -83,
       "endYear": -30,
-      "description": "Marcus Antonius was Caesar's chief lieutenant, a member of the Second Triumvirate, and ruler of Rome's eastern provinces. His alliance with Cleopatra and defeat at Actium ended the Roman Republic.",
+      "description": "Mark Antony (83–30 BCE) was Caesar's hard-drinking, intensely loyal general and co-consul who, after Caesar's murder, briefly dominated Rome before his alliance with Cleopatra and decade-long rivalry with Octavian ended in his suicide following the defeat at Actium.",
       "wikiSlug": "Mark_Antony",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Antony delivered Caesar's funeral oration, which Plutarch and Shakespeare both report turned the Roman mob from indifference to rage against the assassins — one of the most consequential speeches in Roman history, though we have no verbatim record of what he actually said. He was a notably physical, populist figure who deliberately cultivated the image of a soldier-citizen rather than an aristocrat, associating himself with the hero Hercules. The propaganda war Octavian ran against him — framing him as Cleopatra's puppet who had abandoned Roman values for eastern decadence — is one of history's earliest examples of sustained political character assassination."
+        }
+      ],
+      "commonsFile": "Octavian_and_Antony_denarius_(obverse).jpg"
     },
     {
       "id": "evt-vespasian",
       "label": "Vespasian",
       "year": 69,
       "endYear": 79,
-      "description": "Titus Flavius Vespasianus founded the Flavian dynasty after the chaos of the Year of Four Emperors. He restored fiscal stability, began construction of the Colosseum, and established a pragmatic style of rule.",
+      "description": "Vespasian (emperor 69–79 CE) founded the Flavian dynasty after the chaos of the Year of Four Emperors, stabilizing Rome's finances with blunt practicality — including a notorious tax on public urinals — and beginning construction of the Colosseum on the site of Nero's private lake.",
       "wikiSlug": "Vespasian",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Vespasian came from a non-aristocratic Italian equestrian family, making him the first emperor without noble Roman lineage. His famous quip about the urine tax — holding up a coin and asking \"Does this smell?\" — gave rise to the Latin saying 'pecunia non olet' (money does not stink), still used today. He reportedly faced his death with a dry joke: \"Dear me, I think I'm becoming a god,\" poking fun at the Roman practice of deifying emperors posthumously."
+        }
+      ],
+      "commonsFile": "Vespasian,_from_Naples,_c._AD_70,_Ny_Carlsberg_Glyptotek,_Copenhagen_(13646730625).jpg"
     },
     {
       "id": "evt-year-four-emperors",
       "label": "Year of Four Emperors",
       "year": 69,
-      "description": "After Nero's suicide, four men claimed the throne in rapid succession — Galba, Otho, Vitellius, and Vespasian. The resulting civil war demonstrated the fragility of imperial succession and that emperors could be made outside Rome.",
+      "description": "In 69 CE, four men claimed the Roman throne in a single year — Galba, Otho, Vitellius, and Vespasian — as legions across the empire each backed their own commander. It was the first civil war since Augustus and proved that the throne could be won by military force from the provinces.",
       "wikiSlug": "Year_of_the_Four_Emperors",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The instability came down to money: Galba lost his throne specifically because he refused to pay the Praetorian Guard the customary donative (cash bonus) that emperors had been expected to deliver since Augustus. Otho, who arranged Galba's murder, lasted only three months before Vitellius's Rhine legions defeated him at the First Battle of Bedriacum. Vespasian's eventual victory was secured after his forces captured Rome and killed Vitellius — reportedly by dragging him through the streets before throwing him in the Tiber."
+        }
+      ],
+      "commonsFile": "Year_of_the_Four_Emperors.jpg"
     },
     {
       "id": "evt-seneca",
       "label": "Seneca the Younger",
       "year": -4,
       "endYear": 65,
-      "description": "Lucius Annaeus Seneca was a Stoic philosopher, dramatist, and advisor to Emperor Nero. His letters and essays on ethics remain among the most influential works of Roman philosophy. Nero forced him to commit suicide.",
+      "description": "Seneca the Younger (c. 4 BCE–65 CE) was Nero's tutor and chief political advisor, and simultaneously one of Rome's greatest Stoic philosophers — a tension he acknowledged with uncomfortable honesty, since he was also one of the wealthiest men in Rome. When Nero turned on him, he faced death by forced suicide with the composure his philosophy had long preached.",
       "wikiSlug": "Seneca_the_Younger",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Seneca was exiled to Corsica for eight years under Emperor Claudius on adultery charges (likely fabricated) before being recalled to tutor the young Nero — a remarkable reversal of fortune. His Letters to Lucilius, 124 short philosophical letters written in his final years, are the most accessible entry point into Roman Stoic thought: practical, witty, and self-aware about the gap between professing philosophy and actually living it. His death scene, described by Tacitus, was deliberately modeled on the death of Socrates — Seneca even asked for wine to pour as a libation — though, as Tacitus dryly notes, the hemlock comparison was somewhat undercut by the messy multi-stage nature of Nero's method."
+        }
+      ],
+      "commonsFile": "0_Sénèque_-_Musée_du_Prado_-_Cat._144_-_(2).JPG"
     },
     {
       "id": "evt-nerva",
       "label": "Nerva",
       "year": 96,
       "endYear": 98,
-      "description": "Introduced the system of adoptive succession after Domitian's assassination, choosing Trajan as his heir. This principle produced the Five Good Emperors and Rome's greatest era of stability.",
+      "description": "Nerva (emperor 96–98 CE) was a 66-year-old senator chosen by the Senate itself after the assassination of the paranoid Domitian — the first time in Roman history the Senate had genuinely selected an emperor. His key innovation was adopting the successful general Trajan as his heir rather than relying on a biological successor, establishing the principle that would produce Rome's golden age.",
       "wikiSlug": "Nerva",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nerva was already nearly 66 when he took power and reigned for only 16 months, making him the shortest-reigning of the Five Good Emperors. His tenure was precarious: the Praetorian Guard mutinied and forced him to hand over Domitian's assassins for punishment, humiliating him publicly. The adoption of Trajan — a competent military commander the Guard respected — was partly a political survival move, since Nerva had no real power base of his own."
+        }
+      ],
+      "commonsFile": "Head_of_Marcus_Cocceius_Nerva_in_Museo_Nazionale_Romano.jpg"
     },
     {
       "id": "evt-codex-theodosianus",
       "label": "Codex Theodosianus",
       "year": 438,
-      "description": "The first official compilation of Roman imperial law, systematizing centuries of legislation. It profoundly influenced medieval European law and the later Justinian Code.",
+      "description": "Issued in 438 CE by Emperor Theodosius II in Constantinople, the Codex Theodosianus was the first official compilation of Roman imperial law — sixteen books collecting and organizing every valid imperial edict since Constantine, giving the crumbling empire a unified legal backbone that would outlast the empire itself.",
       "wikiSlug": "Codex_Theodosianus",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The commission to compile the code was established in 429 and took nine years to complete, sifting through centuries of accumulated edicts, rescripts, and constitutions. About one-quarter of its text also appears in the Breviary of Alaric (not the sacker — a later Visigoth king named Alaric II), who promulgated it as law for his Roman subjects in 506. The Codex directly shaped Justinian's far more comprehensive Corpus Juris Civilis, compiled a century later, which in turn became the foundation of civil law systems across continental Europe, Latin America, and much of the modern world."
+        }
+      ],
+      "commonsFile": "Paris,_BnF_Ms_Latin_9643_fol_62v-63r_Excerpt_(7.10-7.11)_from_the_Codex_Theodosianus.jpg"
     },
     {
       "id": "evt-battle-cannae",
       "label": "Battle of Cannae",
       "year": -216,
-      "description": "Hannibal annihilated a Roman army of 80,000 using a double-envelopment maneuver, inflicting the worst defeat in Roman history. The battle remains a textbook example of tactical genius.",
+      "description": "On August 2, 216 BCE, the Carthaginian general Hannibal encircled and destroyed a Roman army of roughly 80,000 men near the village of Cannae in southeast Italy — the worst single-day defeat in Roman history, and a double-envelopment maneuver still studied in military academies today.",
       "wikiSlug": "Battle_of_Cannae",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roman casualties estimates range from 47,500 to 70,000 killed in a single afternoon, which would make Cannae one of the bloodiest days of battle in all of human history. Hannibal achieved it by deliberately weakening his center to draw the Romans in, then curving his flanks inward to surround them — a maneuver so perfect that it became the template for encirclement tactics ever after, from the German Schlieffen Plan to Norman Schwarzkopf's Desert Storm 'left hook.' Despite the catastrophe, Rome refused to negotiate with Carthage, levied new legions, and eventually won the war — a resilience that made the battle as famous for Roman character as for Hannibal's genius."
+        }
+      ],
+      "commonsFile": "The_Death_of_Paulus_Aemilius_at_the_Battle_of_Cannae_(Yale_University_Art_Gallery_scan).jpg"
     },
     {
       "id": "evt-battle-zama",
       "label": "Battle of Zama",
       "year": -202,
-      "description": "Scipio Africanus defeated Hannibal at Zama in North Africa, ending the Second Punic War and establishing Rome as the dominant power in the western Mediterranean.",
+      "description": "Fought in 202 BCE in what is now Tunisia, the Battle of Zama saw Scipio Africanus defeat Hannibal and end the Second Punic War — forcing Carthage to surrender its empire, its navy, and its freedom to wage war.",
       "wikiSlug": "Battle_of_Zama",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Carthage actually outnumbered Rome at Zama, fielding 80 war elephants alongside 40,000–50,000 troops against Scipio's roughly 40,000 men. Scipio countered the elephants by drilling his soldiers to open lanes in the formation and let the animals charge harmlessly through — a tactic copied from an earlier engagement. Hannibal's experienced veterans were placed in the rear line specifically to keep newer troops from fleeing, a sign of how little confidence he had in his own army."
+        }
+      ],
+      "commonsFile": "The_Battle_Between_Scipio_and_Hannibal_at_Zama.jpg"
     },
     {
       "id": "evt-battle-adrianople",
       "label": "Battle of Adrianople",
       "year": 378,
-      "description": "The Visigoths destroyed a Roman army and killed Emperor Valens, one of the most catastrophic Roman military defeats. It demonstrated the empire's inability to control barbarian migrations.",
+      "description": "On August 9, 378 CE, Visigoth rebels annihilated a Roman army near Adrianople in Thrace and killed Emperor Valens on the battlefield — one of the worst Roman military disasters since Cannae, and the turning point that forced Rome to rely on barbarian foederati to defend its own borders.",
       "wikiSlug": "Battle_of_Adrianople",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Visigoths had originally been admitted into Roman territory as refugees fleeing the Huns, but corrupt Roman officials cheated them out of promised food and supplies, sparking the revolt. Valens, who rushed into battle without waiting for his co-emperor Gratian's reinforcements, is believed to have died in the fighting — his body was never found. The Roman army that lost at Adrianople had been assembled from across the Eastern frontier, stripping defenses elsewhere, and the replacements the empire could recruit afterward were overwhelmingly Germanic foederati whose primary loyalty was to their own commanders."
+        }
+      ],
+      "commonsFile": "Late_Roman_soldier_re-enactor_depicting_an_infantry_officer.jpg"
     },
     {
       "id": "evt-tacitus",
       "label": "Tacitus",
       "year": 56,
       "endYear": 120,
-      "description": "Rome's greatest historian, whose Annals and Histories provide the most detailed account of the early empire. His mordant style and political analysis remain unmatched.",
+      "description": "Tacitus (c. 56–120 CE) was Rome's sharpest and most skeptical historian — his Annals and Histories dissect the early empire's rulers with a corrosive wit that has shaped how we read Roman politics ever since.",
       "wikiSlug": "Tacitus",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tacitus's most famous observation — that emperors could be made outside Rome — came from his analysis of the chaos following Nero's death in 68 CE, when four generals fought for the throne in a single year. His works nearly vanished entirely: the Annals survive in just two manuscript traditions, both from medieval monastery copies, and about a third of the text (including the entire reign of Caligula) is permanently lost."
+        }
+      ],
+      "commonsFile": "Wien-_Parlament-Tacitus.jpg"
     },
     {
       "id": "evt-pont-du-gard",
       "label": "Pont du Gard",
       "year": 19,
-      "description": "The Pont du Gard aqueduct bridge in southern Gaul stands 49 meters high across three tiers of arches, carrying water 50 km to Nîmes. Among the most impressive Roman engineering works.",
+      "description": "The Pont du Gard is a three-tiered Roman aqueduct bridge in southern France, standing 160 feet (49 meters) high and carrying water 31 miles (50 km) to the city of Nîmes — built around the first century CE and still standing without mortar in its lower tiers.",
       "wikiSlug": "Pont_du_Gard",
       "tier": 3,
       "tags": [
         "science"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The aqueduct channel at the top drops only 17 meters over its entire 50-km run — a gradient of 1 in 3,000 — requiring surveying precision that modern engineers marvel at. The structure was built without mortar in the lower two tiers; the stones were cut so precisely and their weight so carefully distributed that friction alone holds them in place after nearly 2,000 years."
+        }
+      ],
+      "commonsFile": "Pont_du_Gard_BLS.jpg"
     },
     {
       "id": "evt-paul-missions",
       "label": "Paul's Missionary Journeys",
       "year": 45,
       "endYear": 64,
-      "description": "Paul of Tarsus spread Christianity across the eastern Mediterranean, founding churches in Asia Minor and Greece. His epistles form a major portion of the New Testament.",
+      "description": "Paul of Tarsus (originally Saul, a Jewish Pharisee who persecuted Christians before a dramatic conversion) traveled the eastern Mediterranean from roughly 45–64 CE, founding churches from Asia Minor to Greece to Rome and writing the epistles that gave Christianity its theological framework.",
       "wikiSlug": "Paul_the_Apostle",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Paul was a Roman citizen by birth — a legal status that gave him rights to appeal his case to the emperor himself, which Acts describes him doing. His letters are the oldest surviving Christian documents, predating the four gospels by decades. He wrote in Greek, not Aramaic, which helped Christianity spread among the educated non-Jewish population of the empire far faster than a purely Aramaic tradition could have."
+        }
+      ],
+      "commonsFile": "Fresco_of_Saint_Paul_at_Ephesus.jpg"
     },
     {
       "id": "evt-vitruvius",
       "label": "Vitruvius' De Architectura",
       "year": -15,
-      "description": "The only surviving ancient treatise on architecture and engineering. It influenced Renaissance architects and established principles of design still referenced today.",
+      "description": "Vitruvius (1st century BCE) wrote De Architectura, the only complete architectural treatise to survive from the ancient world, covering everything from temple proportions to siege engines to acoustics — and it was this book that Renaissance architects like Brunelleschi and Palladio used to reverse-engineer Roman design.",
       "wikiSlug": "Vitruvius",
       "tier": 3,
       "tags": [
         "architecture",
         "writing"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Vitruvius dedicated his work to Augustus, but it seems to have been largely ignored in its own day; no major surviving Roman building is known to follow his rules exactly. The book vanished for centuries until the humanist scholar Poggio Bracciolini rediscovered a manuscript at a Swiss monastery in 1414 CE, launching the Renaissance craze for classical proportion."
+        }
+      ],
+      "commonsFile": "Vitruvio_Pollione_portrait_(cropped).jpg"
     },
     {
       "id": "evt-conflict-of-orders",
       "label": "Conflict of the Orders",
       "year": -494,
       "endYear": -287,
-      "description": "The plebeians waged a two-century struggle for political equality with the patricians, using secessions and strikes to win tribunes, access to office, and legal protections. It shaped Rome into a more representative republic.",
+      "description": "For two centuries (roughly 494–287 BCE) the plebeians (commoners) waged a grinding political campaign against the patricians (hereditary aristocrats) who monopolized Rome's offices, priesthoods, and courts — winning concession after concession through walkouts, legal challenges, and sheer persistence.",
       "wikiSlug": "Conflict_of_the_Orders",
       "tier": 2,
       "tags": [
         "politics"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The plebeians' most powerful weapon was the secession: they literally walked out of the city and camped on a nearby hill, refusing to fight Rome's wars until their demands were met. The first secession, around 494 BCE, produced the office of tribune of the plebs — a magistrate whose person was sacrosanct (killing one was a capital offense) and who could veto any government action. No other ancient civilization invented anything directly comparable."
+        }
+      ]
     },
     {
       "id": "evt-samnite-wars",
       "label": "Samnite Wars",
       "year": -343,
       "endYear": -290,
-      "description": "Three wars against the Samnites of central Italy established Roman dominance over the Italian peninsula. The wars drove Roman military innovation and the expansion of the road network.",
+      "description": "Three rounds of war against the Samnites of the central Apennine mountains (343–290 BCE) were the wars that made Rome master of the Italian peninsula — hard-fought campaigns against a tough, mountain-wise enemy on terrain that neutralized Roman advantages.",
       "wikiSlug": "Samnite_Wars",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rome's worst single defeat of the era came during the Second Samnite War at the Caudine Forks (321 BCE): an entire Roman army was trapped in a narrow mountain pass and forced to surrender, with soldiers made to pass under a yoke of enemy spears in ritual humiliation. Rome responded not by changing tactics but by outlasting the Samnites — raising new armies after every defeat until the enemy ran out of the will to keep fighting. After the third war ended in 290 BCE, much of the surviving Samnite population was absorbed into Rome's alliance network."
+        }
+      ],
+      "commonsFile": "Ancient_bronze_greek_helmet_-South_Italy.jpg"
     },
     {
       "id": "evt-cloacamaxima",
       "label": "Cloaca Maxima",
       "year": -600,
-      "description": "The Cloaca Maxima was one of the world earliest sewage systems, draining the marshy Forum valley into the Tiber. Originally an open channel, it was later enclosed and sections remain in use today.",
+      "description": "The Cloaca Maxima (\"Greatest Drain\") was a massive sewer built under Etruscan kings to drain the marshy valley between Rome's hills, transforming a mosquito-ridden flood plain into the space that became the Roman Forum.",
       "wikiSlug": "Cloaca_Maxima",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cloaca Maxima began as an open-air canal before being enclosed into a tunnel — large enough that ancient sources describe boats navigating inside it. The general Agrippa toured the entire system by boat around 33 BCE to inspect its condition. By the first century CE, all eleven of Rome's aqueducts fed into the sewer network. Some sections of the original drain are still carrying water into the Tiber today, roughly 2,500 years after construction."
+        }
+      ],
+      "commonsFile": "CloacaMaxima2019.jpg"
     },
     {
       "id": "evt-gaius-gracchus",
       "label": "Gaius Gracchus",
       "year": -123,
       "endYear": -121,
-      "description": "Following his brother Tiberius, Gaius Gracchus pushed ambitious reforms including subsidized grain, road building, and extending citizenship. He was killed in political violence, deepening the crisis of the Late Republic.",
+      "description": "Tiberius's younger brother Gaius picked up the reform cause a decade later, broadening it to include subsidized grain for Rome's urban poor, colonial settlements, and Roman citizenship for Italian allies. The Senate responded in 121 BCE by hunting him down and massacring roughly 3,000 of his supporters — dwarfing the violence that had killed Tiberius.",
       "wikiSlug": "Gaius_Gracchus",
       "tier": 3,
       "tags": [
         "politics"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gaius served two consecutive tribunates (123 and 122 BCE), itself an expansion of political norms, and pushed through a remarkably wide legislative agenda including reforms to the court system and rules governing how provincial commands were assigned. When the Senate finally moved against him, Gaius reportedly had a slave kill him rather than be captured — the Senate then put a price on his head, paid in the head's weight in gold."
+        }
+      ],
+      "commonsFile": "Eugene_Guillaume_-_the_Gracchi_(cropped)_Gaius.jpg"
     },
     {
       "id": "evt-pax-romana",
       "label": "Pax Romana",
       "year": -27,
       "endYear": 180,
-      "description": "The Pax Romana was a roughly 200-year period of relative peace and stability across the Roman Empire. Trade, urbanization, and cultural exchange flourished, and the empire reached its greatest territorial extent.",
+      "description": "The Pax Romana ('Roman Peace') was roughly 200 years of comparative stability across the Mediterranean, from Augustus's accession in 27 BCE to the death of Marcus Aurelius in 180 CE — the longest stretch of large-scale peace the ancient western world ever knew.",
       "wikiSlug": "Pax_Romana",
       "tier": 1,
       "tags": [
         "trade"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The phrase 'Pax Romana' was not a contemporary slogan but a later historian's label; the Romans themselves called it the time of the 'felicitas temporum' (good fortune of the age). Despite its name, the era saw constant frontier warfare, the destruction of Jerusalem (70 CE), and the bloody Year of the Four Emperors — the 'peace' applied mostly to the empire's interior, not its edges."
+        }
+      ],
+      "commonsFile": "Impero_romano_sotto_Ottaviano_Augusto_30aC_-_6dC.jpg"
     },
     {
       "id": "evt-roman-aqueducts",
       "label": "Roman Aqueduct System at Peak",
       "year": 100,
-      "description": "By the 2nd century CE, Rome was served by eleven aqueducts delivering over a million cubic meters of water daily. The system supplied public baths, fountains, and private homes across the city.",
+      "description": "By the 2nd century CE, eleven aqueducts fed Rome with over a million cubic meters of water daily — supplying public baths, street fountains, private homes, and industrial operations across a city of a million people, a hydraulic feat unmatched until modern times.",
       "wikiSlug": "Roman_aqueduct",
       "tier": 3,
       "tags": [
         "architecture"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roman aqueducts relied entirely on gravity — no pumps, just precise surveying to maintain a continuous gentle slope over tens of miles of tunnels, channels, and the iconic arched bridge segments. The longest, the Aqua Marcia (built 144 BCE), ran 91 km (57 miles). Surplus water ran continuously through fountains and baths and flushed sewers — Romans didn't store water so much as let it flow through the city constantly. The system also served mines, farms, and industrial mills throughout the empire, not just urban centers."
+        }
+      ],
+      "commonsFile": "Aqua_Anio_Vetus,_Tivoli_-_51072576848.jpg"
     },
     {
       "id": "evt-attila-the-hun",
       "label": "Attila the Hun",
       "year": 434,
       "endYear": 453,
-      "description": "Attila united the Hunnic tribes and terrorized both halves of the Roman Empire, extracting massive tributes. His invasion of Gaul was stopped at the Battle of the Catalaunian Plains in 451.",
+      "description": "Attila ruled the Hunnic Empire from 434 until his sudden death in 453 CE, extracting enormous tribute payments from Constantinople and launching a devastating invasion of Gaul in 451 that was only stopped at the Battle of the Catalaunian Plains by a Roman-Visigoth coalition.",
       "wikiSlug": "Attila",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Attila's empire was not just Huns — it included Ostrogoths, Alans, Gepids, and other peoples, making it a multiethnic steppe confederation rather than a single tribe. He died in 453 on his wedding night, reportedly from a nosebleed (acute hemorrhage is the modern interpretation), and his vast empire immediately fragmented as his sons fought each other. The year after Gaul, he invaded Italy itself but withdrew before reaching Rome — plague in his army and the appearance of Eastern Roman forces on the Danube likely deterred him more than Pope Leo I's famous plea, whatever the legend says."
+        }
+      ],
+      "commonsFile": "Attila_(Képes_krónika)_(cropped).jpg"
     },
     {
       "id": "evt-crassus",
       "label": "Marcus Licinius Crassus",
       "year": -115,
       "endYear": -53,
-      "description": "The wealthiest man in Roman history, Crassus crushed Spartacus revolt and formed the First Triumvirate with Caesar and Pompey. His death at Carrhae fighting the Parthians destabilized the alliance.",
+      "description": "Marcus Licinius Crassus (c. 115–53 BCE) was the wealthiest man in Roman history — his fortune built partly through a fire-brigade scheme where he bought burning buildings at panic prices, then extinguished them — and the money behind the First Triumvirate. His catastrophic defeat by the Parthians at Carrhae ended the alliance.",
       "wikiSlug": "Marcus_Licinius_Crassus",
       "tier": 3,
       "tags": [
         "wars"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Crassus's fire-brigade operation is one of history's first documented real estate scams: he maintained a private firefighting force, and when a building caught fire he would negotiate a purchase price with the panicking owner before his men would lift a bucket. He also famously crushed the Spartacus slave revolt in 71 BCE, crucifying 6,000 surviving slaves along the Appian Way from Capua to Rome — one cross every 40 yards for 130 miles. The story of molten gold being poured down his throat at death is reported by ancient sources but considered likely apocryphal by modern historians."
+        }
+      ],
+      "commonsFile": "Bust_of_a_Roman,_Ny_Carlsberg_Glyptotek.jpg"
     }
   ],
   "wikiSlug": "Ancient_Rome",
