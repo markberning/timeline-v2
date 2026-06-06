@@ -135,6 +135,11 @@ export default function FrenchIndianHome() {
         <h1 className="p-mast-title p-serif">The French &amp;<br />Indian War</h1>
         <p className="p-stand">{STANDFIRST}</p>
       </div>
+      <div className="p-heroband">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/war-img/fi-war-hero.jpg" alt="" />
+      </div>
+      <div className="p-credit">The Death of General Wolfe · Benjamin West, 1770 · public domain</div>
 
       <div className="p-subnav">
         <div className="p-seg">
