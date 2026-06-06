@@ -62,66 +62,108 @@
       "id": "evt-khmer-jayavarman-ii",
       "label": "Jayavarman II founds Khmer Empire",
       "year": 802,
-      "description": "Jayavarman II declared independence from Java and established himself as a devaraja (god-king) on Phnom Kulen, founding the Khmer Empire.",
+      "description": "The prince who united the Khmer lands and declared independence from Java, founding the Khmer Empire in 802. He is considered the empire's founding king, though no inscriptions from his own reign survive — everything we know comes from texts written generations later.",
       "wikiSlug": "Jayavarman_II",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jayavarman II was taken to Java as a child, likely as a hostage or ward of the Shailendra dynasty, and was installed as Java's vassal around 800 before breaking free. He didn't start big — he built his empire incrementally by absorbing small, weak kingdoms one at a time. He founded at least four capitals during his reign, including Mahendraparvata, Indrapura, Amarendrapura, and Hariharalaya, suggesting a mobile, campaign-style kingship rather than a settled court. Despite founding the dynasty that would rule for six centuries, not a single inscription commissioned by Jayavarman II himself has ever been found."
+        }
+      ],
+      "commonsFile": "Le_Bouddha_couché_(Phnom_Kulen)_(6825003355).jpg"
     },
     {
       "id": "evt-khmer-devaraja-cult",
       "label": "Devaraja cult established",
       "year": 802,
-      "description": "The devaraja concept identified the king as an earthly manifestation of a Hindu god, providing the religious foundation for Khmer royal authority for centuries.",
+      "description": "The \"god-king\" ideology that fused Khmer royal authority with Hindu divinity, making the king a living manifestation of Shiva (or another deity) on earth. It provided the religious justification for Khmer royal power for six hundred years.",
       "wikiSlug": "Devaraja",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The devaraja concept didn't originate in Cambodia — it was already well developed in Java, where the same Shailendra dynasty that held Jayavarman II captive had institutionalized it, and their Prambanan temple complex was one expression of the same idea. Whether the devaraja referred to the king's own divine essence or simply to a state deity the king sponsored is still genuinely debated by scholars. The concept spread across mainland Southeast Asia, underpinning the temple complexes at Ayutthaya (Thailand) and Angkor Wat alike."
+        }
+      ],
+      "commonsFile": "Harihara_Majapahit_1.JPG"
     },
     {
       "id": "evt-khmer-indravarman-i",
       "label": "Indravarman I",
       "year": 877,
       "endYear": 889,
-      "description": "Indravarman I built the first large baray (reservoir) and the Preah Ko and Bakong temples, establishing the template for Khmer hydraulic and temple engineering.",
+      "description": "The king who set the definitive template for Khmer rulership: build a great reservoir, build a temple to your ancestors, build a temple-mountain for your god. Every major Khmer king for the next five centuries followed exactly that formula.",
       "wikiSlug": "Indravarman_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Indravarman I reigned from Hariharalaya, the same capital Jayavarman II had established, and concentrated his twelve-year reign on construction rather than conquest — a deliberate rebranding of kingship from warrior to builder-patron. His three monuments (Indratataka, Preah Ko, Bakong) were built in rapid succession in the 870s–880s and are all still partially standing at the Roluos site today. The formula he established — water, ancestors, mountain — would be repeated at larger and larger scales all the way to Angkor Wat itself."
+        }
+      ],
+      "commonsFile": "Gardienne_du_temple_Preah_Kô_(Angkor)_(6823876596).jpg"
     },
     {
       "id": "evt-khmer-bakong",
       "label": "Bakong temple built",
       "year": 881,
-      "description": "The Bakong was the first major sandstone temple-mountain at Angkor, dedicated to Shiva. It established the pyramid form that would define Khmer temple architecture.",
+      "description": "The first major sandstone temple-mountain of the Khmer Empire, built by Indravarman I around 881 as his state temple at Hariharalaya. It established the stepped pyramid form that would define Khmer sacred architecture for centuries.",
       "wikiSlug": "Bakong",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bakong is a five-tiered sandstone pyramid about 65 feet (20 m) tall, surrounded by a moat and eight brick satellite towers — a cosmological map in stone representing Mount Meru, the mythical axis of the Hindu universe, surrounded by the world-ocean. It is technically the earliest surviving sandstone temple-mountain in the Khmer tradition (earlier temples used brick). A working Buddhist monastery stands within its grounds today, making Bakong one of the few ancient Khmer temples still in active religious use."
+        }
+      ],
+      "commonsFile": "Roulos_Group_-_005_Bakong_(8587796725).jpg"
     },
     {
       "id": "evt-khmer-yasodharapura",
       "label": "Yasodharapura founded",
       "year": 889,
-      "description": "Yasovarman I established Yasodharapura as the Khmer capital and built the massive East Baray reservoir, beginning Angkor's era as the empire's center.",
+      "description": "The original name for what we call Angkor — a royal city Yasovarman I founded in 889 CE, centered on the temple of Phnom Bakheng, that became the Khmer capital for most of the next five centuries.",
       "wikiSlug": "Yasodharapura",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "\"Angkor\" is not actually a proper name: it is the Khmer pronunciation of the Sanskrit word *nagara*, meaning simply \"city.\" Yasodharapura was never one fixed city but a living palimpsest — successive kings tore down, rebuilt, and recentered it so many times that archaeologists count multiple overlapping capital footprints on the same plain. The site as a whole covers roughly 400 square miles (1,000 sq km), making it the largest pre-industrial urban complex ever found."
+        }
+      ],
+      "commonsFile": "Angkor_Thom_southern_gate_(6208399744).jpg"
     },
     {
       "id": "evt-khmer-east-baray",
       "label": "East Baray constructed",
       "year": 889,
-      "description": "The East Baray was an enormous reservoir measuring 7.5 by 1.8 kilometers, part of the sophisticated hydraulic system that sustained Angkor's large population.",
+      "description": "The first of the great Angkorian reservoirs, built around 900 CE by Yasovarman I — a hand-dug rectangular lake roughly 7.2 by 1.7 km, fed by the Siem Reap River, and one of the largest hand-cut water bodies ever built before the industrial era.",
       "wikiSlug": "East_Baray",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dikes alone contain roughly 8 million cubic meters of fill — all moved without metal tools, wheels, or draft animals in the Western sense. The reservoir held over 36 million cubic meters of water at full capacity. Inscribed stones marking its construction were placed at all four corners, suggesting the Khmer treated the baray's dedication as a formal, ceremonially bounded act, not just infrastructure."
+        }
+      ],
+      "commonsFile": "Angkor_Ruins_from_Space.jpg"
     },
     {
       "id": "evt-khmer-rajendravarman",
@@ -138,13 +180,20 @@
       "id": "evt-khmer-banteay-srei",
       "label": "Banteay Srei built",
       "year": 967,
-      "description": "Banteay Srei is a small but exquisitely carved temple with the finest decorative sculpture in Khmer art, featuring intricate scenes from Hindu mythology.",
+      "description": "A small tenth-century temple built of deep rose-pink sandstone, dedicated to Shiva and Parvati, and widely regarded as the finest decorative carving in the entire Khmer world — the \"jewel of Khmer art.\"",
       "wikiSlug": "Banteay_Srei",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Banteay Srei lies 25 km (16 mi) northeast of the main Angkor group, which kept it off the main tourist circuit until modern roads arrived. Its carvings are so sharp and deep that nineteenth-century French explorers genuinely questioned their age; the writer André Malraux was so convinced of their value that in 1923 he prised four carved blocks loose and was arrested trying to smuggle them out — a scandal that eventually helped galvanize French institutional protection of Angkor."
+        }
+      ],
+      "commonsFile": "Banteay_Srei_(Sept_2009c).jpg"
     },
     {
       "id": "evt-khmer-suryavarman-i",
@@ -163,294 +212,475 @@
       "id": "evt-khmer-west-baray",
       "label": "West Baray constructed",
       "year": 1050,
-      "description": "The West Baray, measuring 8 by 2.1 kilometers, was the largest Khmer reservoir and a masterpiece of hydraulic engineering that supported intensive rice cultivation.",
+      "description": "The largest reservoir at Angkor, measuring roughly 7.8 by 2.1 km, built around the mid-eleventh century — so large it still holds water today, and so sacred that a Hindu temple sits on an artificial island at its center.",
       "wikiSlug": "West_Baray",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The West Baray's earthen dikes stand nearly 12 meters (39 feet) tall and contain a current maximum capacity of 53 million cubic meters of water — larger than the East Baray it succeeded. The temple on the island inside it, the West Mebon, once held a colossal reclining bronze Vishnu; fragments of the statue survive and are now in the National Museum of Cambodia in Phnom Penh."
+        }
+      ]
     },
     {
       "id": "evt-khmer-baphuon",
       "label": "Baphuon temple built",
       "year": 1060,
-      "description": "The Baphuon was a massive temple-mountain at Angkor Thom dedicated to Shiva, described by a Chinese visitor as a truly impressive sight of copper towers.",
+      "description": "The Baphuon is a massive sandstone temple-mountain at Angkor, built on an artificial hill and originally dedicated to Shiva — so structurally ambitious that it has been sagging, collapsing, and being pieced back together for most of its existence.",
       "wikiSlug": "Baphuon",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Despite centuries of attribution to Udayadityavarman II, a 2015 French study using AMS Carbon-14 dating on iron crampons built into the structure dated construction to the reign of Suryavarman I (1010–1050) — making it the major temple of a king who previously had no state temple assigned to him. The temple's nickname in Sanskrit, svarnādrī (\"golden mountain\"), hints at how it was once clad or gilded; the Chinese envoy Zhou Daguan, visiting in the 1290s, called it a \"tower of bronze\" and a \"truly astonishing spectacle.\""
+        }
+      ],
+      "commonsFile": "2016_Angkor,_Angkor_Thom,_Baphuon_(17).jpg"
     },
     {
       "id": "evt-khmer-suryavarman-ii",
       "label": "Suryavarman II",
       "year": 1113,
       "endYear": 1150,
-      "description": "Suryavarman II united a fragmented empire through diplomacy and conquest, and commissioned Angkor Wat, the greatest achievement of Khmer civilization.",
+      "description": "Suryavarman II ruled the Khmer Empire from 1113 to 1150, reuniting a fractured kingdom through force of arms and leaving behind Angkor Wat — the largest religious complex ever built — as his permanent signature on the world.",
       "wikiSlug": "Suryavarman_II",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His posthumous name, Paramavishnuloka, means 'he who has gone to the supreme world of Vishnu' — confirming that in death he was considered to have merged with the god to whom he dedicated his temple. Historians rank him among the greatest Khmer rulers partly because he restored centralized royal authority after decades of fragmentation, not merely because of the monument."
+        }
+      ],
+      "commonsFile": "Angkor_Wat,_Camboya,_2013-08-16,_DD_084.JPG"
     },
     {
       "id": "evt-khmer-angkor-wat",
       "label": "Angkor Wat built",
       "year": 1120,
       "endYear": 1150,
-      "description": "The largest religious monument in the world, Angkor Wat was dedicated to Vishnu and served as Suryavarman II's state temple and eventual mausoleum.",
+      "description": "Built between roughly 1113 and 1150 on a footprint of about 162 hectares (400 acres), Angkor Wat is the largest religious complex on Earth — a sandstone mountain dedicated to Vishnu, surrounded by a vast moat, and still standing in Cambodia today.",
       "wikiSlug": "Angkor_Wat",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stone came from Phnom Kulen quarries about 30 miles (48 km) away and was almost certainly floated down purpose-built canals — an infrastructure feat still being mapped by modern lidar surveys. The temple appears on the Cambodian national flag, the only building in the world to hold that distinction. Unlike every major Khmer temple before it, Angkor Wat faces west rather than east — an orientation associated with death and sunset, reinforcing the funerary-temple theory."
+        }
+      ],
+      "commonsFile": "Angkor_Wat_Panorama_View.jpg"
     },
     {
       "id": "evt-khmer-cham-invasion",
       "label": "Cham invasion and sack of Angkor",
       "year": 1177,
-      "description": "The Champa kingdom launched a naval invasion up the Tonle Sap and sacked Angkor, the most devastating military defeat in Khmer history.",
+      "description": "The Champa kingdom's naval invasion up the Tonlé Sap in 1177 was not a raid but a conquest: the Cham fleet arrived at the undefended lake shore of Angkor, the capital's most vulnerable side, and turned the world's largest religious complex into an occupied city.",
       "wikiSlug": "Khmer–Cham_wars",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Khmer–Cham conflict spanned the mid-10th to early 13th centuries, but 1177 was its decisive turning point in both directions — the Cham high-water mark, and the humiliation that produced Jayavarman VII. Tensions had peaked in the mid-12th century when both empires deployed full field armies against each other; Suryavarman II's repeated invasions of Champa set up the revenge. The wars ultimately ended not with another sack but with the Khmer voluntarily withdrawing from an occupation of Champa in 1220 — a mirror image of what Champa had done to them."
+        }
+      ],
+      "commonsFile": "Angkor_Thom_Bayon_60.jpg"
     },
     {
       "id": "evt-khmer-jayavarman-vii",
       "label": "Jayavarman VII",
       "year": 1181,
       "endYear": 1218,
-      "description": "The greatest Khmer king drove out the Chams and launched an unprecedented building program including Angkor Thom, the Bayon, and Ta Prohm. He converted the state religion to Mahayana Buddhism.",
+      "description": "Jayavarman VII (reigned 1181–1218) is considered the most powerful king the Khmer Empire ever produced: he expelled the Cham, rebuilt Angkor, converted the state religion to Mahayana Buddhism, and constructed more stone monuments than all his predecessors combined.",
       "wikiSlug": "Jayavarman_VII",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Historians credit him with something genuinely unusual for the medieval world: a welfare state. His government didn't just build temples — it built hospitals stocked with medicine, paved roads lined with rest-houses, and reservoirs to feed the population, all explicitly framed as acts of Buddhist compassion rather than royal glory. No Khmer king before or after him attempted anything at that scale."
+        }
+      ],
+      "commonsFile": "Jayavarman-vii.jpg"
     },
     {
       "id": "evt-khmer-angkor-thom",
       "label": "Angkor Thom built",
       "year": 1190,
-      "description": "Jayavarman VII built the walled city of Angkor Thom with its famous face towers at the gates. At its peak it housed nearly a million people in the greater Angkor area.",
+      "description": "Angkor Thom ('the Great City') was Jayavarman VII's new walled royal capital, roughly 2.2 miles (3.5 km) on each side, entered through five monumental gate-towers each crowned with enormous serene stone faces, approached by causeways lined with gods and demons.",
       "wikiSlug": "Angkor_Thom",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Angkor Thom covers 9 square kilometers (about 3.5 square miles) and was the last great capital city the Khmer Empire ever built. It enclosed earlier monuments as well as Jayavarman's own, making it a palimpsest of the entire empire's history. It remained the imperial capital until the empire's effective end in the 15th century."
+        }
+      ],
+      "commonsFile": "Angkor_Thom_(II).jpg"
     },
     {
       "id": "evt-khmer-bayon",
       "label": "Bayon temple built",
       "year": 1200,
-      "description": "The Bayon is famous for its 216 massive stone faces representing the bodhisattva Avalokiteshvara, reflecting Jayavarman VII's Buddhist devotion.",
+      "description": "The Bayon is the state temple at the heart of Angkor Thom, built by Jayavarman VII in the late 12th or early 13th century: a multi-tiered stone mountain covered with giant carved faces, conceived as a Mahayana Buddhist monument centered on the bodhisattva of compassion.",
       "wikiSlug": "Bayon",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple started Mahayana and ended Theravada — as that newer Buddhist tradition spread through Cambodia after Jayavarman's death, the Bayon was adapted to it, becoming a continuing sacred space under a different theological system. Its iconography and layout were specifically designed to tie Buddhist compassion to royal authority, making the temple and the king theologically inseparable."
+        }
+      ]
     },
     {
       "id": "evt-khmer-ta-prohm",
       "label": "Ta Prohm built",
       "year": 1186,
-      "description": "Ta Prohm was built as a Buddhist monastery and university. Its inscription records that 12,640 people served the temple, illustrating the scale of Khmer religious institutions.",
+      "description": "Ta Prohm was built in 1186 as a Mahayana Buddhist monastery and university dedicated to Jayavarman VII's mother, and today is the most photographed ruin at Angkor — the one where enormous fig and silk-cotton tree roots have been left to consume the stone walls.",
       "wikiSlug": "Ta_Prohm",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The decision to leave Ta Prohm unrestored — letting the trees keep their grip — was deliberate, made by conservators who wanted to preserve the romantic, nature-reclaimed atmosphere it had when European explorers first described it. Its original name was Rajavihara ('the royal monastery'). The stela inscription records 615 temple dancers among the staff, which gives a vivid sense that this was as much a performing-arts institution as a place of worship."
+        }
+      ],
+      "commonsFile": "17_-_Ta_Prohm.jpg"
     },
     {
       "id": "evt-khmer-hospitals",
       "label": "Jayavarman VII's hospital network",
       "year": 1186,
-      "description": "Jayavarman VII built 102 hospitals across the empire, staffed with doctors and supplied with medicines. Inscriptions detail their administration and Buddhist charitable purpose.",
+      "description": "Jayavarman VII founded 102 hospitals (arogyasala, 'houses for the sick') across the empire, staffed with doctors and stocked with rice and medicine at royal expense — the most extensive public health system the ancient world of mainland Southeast Asia ever saw.",
       "wikiSlug": "Jayavarman_VII",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The hospitals are documented not by archaeology but by identical stone edicts found at sites scattered across modern Cambodia, Thailand, and Laos, proving the network was real and empire-wide. The Buddhist framing was explicit: caring for the sick was an act of royal compassion, the same theology that drove temple-building. Jayavarman VII is the reason he is still invoked in modern Cambodia as a symbol of the state caring for its people."
+        }
+      ]
     },
     {
       "id": "evt-khmer-roads",
       "label": "Royal road network built",
       "year": 1190,
-      "description": "Jayavarman VII constructed a network of raised roads with 121 rest houses connecting Angkor to provincial capitals, facilitating trade and administration.",
+      "description": "Jayavarman VII laid out a network of stone-paved royal roads radiating from Angkor to the provincial capitals and toward Champa, the infrastructure backbone of his empire — the largest road system mainland Southeast Asia had seen.",
       "wikiSlug": "Jayavarman_VII",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The main northwestern road to Phimai (in modern Thailand) ran about 140 miles (225 km) and was the most important single route in the network. Roads allowed rapid troop movement, which mattered in a reign defined by military reconquest, but the inscriptions frame them in Buddhist terms: moving people and goods was a form of imperial compassion, just like hospitals. The roads and the rest-houses were built as a single integrated project."
+        }
+      ],
+      "commonsFile": "Ancient_Khmer_Road_System.png"
     },
     {
       "id": "evt-khmer-buddhism-state",
       "label": "Mahayana Buddhism becomes state religion",
       "year": 1181,
-      "description": "Jayavarman VII replaced Hinduism with Mahayana Buddhism as the state religion, transforming Khmer art, architecture, and royal ideology.",
+      "description": "When Jayavarman VII took the throne in 1181 he replaced the centuries-old Hindu devaraja system with Mahayana Buddhism as the official state religion, reshaping Khmer art, royal ideology, and the entire logic of what a king was supposed to do.",
       "wikiSlug": "Buddhism_in_Cambodia",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The religion didn't stick in the form he chose: by the 13th century Theravada Buddhism — the older, more austere, monastic-focused branch — was spreading through mainland Southeast Asia from Sri Lanka, and it quietly displaced his Mahayana system. Today Cambodia is 97% Theravada Buddhist, and Theravada has been the official state religion since the 13th century — a direct consequence of the same religious currents that would eventually erode everything Jayavarman VII built."
+        }
+      ],
+      "commonsFile": "BuddhistMonk01a.jpg"
     },
     {
       "id": "evt-khmer-theravada",
       "label": "Theravada Buddhism spreads",
       "year": 1250,
-      "description": "Theravada Buddhism gradually replaced Mahayana Buddhism and Hinduism among the Khmer population, reducing the god-king ideology that sustained monumental building.",
+      "description": "From around the mid-thirteenth century, Theravada Buddhism spread steadily through Khmer society from the bottom up, carried by ordinary monks and Pali scriptures rather than royal command — a grassroots religious shift that gradually undermined the god-king ideology underpinning Angkor's monumental building programs.",
       "wikiSlug": "Theravada",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theravada arrived in Cambodia largely via the Mon people and the rising Tai kingdoms to the northwest, both of whom adopted it from Sri Lankan missionary monks. The Pali language of Theravada scriptures was accessible to ordinary monks and laypeople in a way Sanskrit never was, making it a genuinely popular religion rather than a court one. By the fourteenth century, Pali had effectively displaced Sanskrit as the prestige religious language of mainland Southeast Asia."
+        }
+      ],
+      "commonsFile": "Buddhism-meditation-burma.jpg"
     },
     {
       "id": "evt-khmer-zhou-daguan",
       "label": "Zhou Daguan visits Angkor",
       "year": 1296,
-      "description": "Chinese diplomat Zhou Daguan spent a year at Angkor and wrote a detailed account of daily life, trade, religion, and architecture — the most important written record of the Khmer Empire.",
+      "description": "In 1296 the Chinese diplomat Zhou Daguan arrived at Angkor on a Yuan-dynasty mission and stayed for nearly a year, observing palace processions, markets, festivals, law, and daily life — then wrote it all down in a short book that became the single most important written source on the living Khmer city.",
       "wikiSlug": "Zhou_Daguan",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zhou Daguan served under Temür Khan, Kublai's grandson, and was part of a formal diplomatic delegation, not a lone explorer. He arrived in August 1296 and stayed until July 1297 at the court of King Indravarman III. Where his account can be cross-checked against inscriptions and archaeology, scholars have found him 'strikingly often right' — an unusually good track record for a foreign visitor working through interpreters."
+        }
+      ],
+      "commonsFile": "Bayonmarket01.JPG"
     },
     {
       "id": "evt-khmer-chinese-trade",
       "label": "Chinese trade with Angkor",
       "year": 1000,
-      "description": "Chinese merchants traded ceramics, silk, and metals for Khmer forest products, spices, and precious woods, making Angkor a hub of Southeast Asian commerce.",
+      "description": "Chinese merchants regularly traded with Angkor, bringing silk, porcelain, ironware, and paper in exchange for the forest products the Chinese court and market prized: kingfisher feathers (used in jewelry), elephant ivory, aromatic hardwoods, and cardamom.",
       "wikiSlug": "Khmer_Empire",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zhou Daguan noted that Chinese goods were among the most desirable luxury imports in Angkor, and that Chinese merchants were a visible presence in the capital. The exchange was asymmetric in an interesting way: China exported manufactured goods and received raw or lightly processed natural products — a pattern that prefigures the later colonial spice trade by several centuries. Porcelain shards from China are among the most common artifacts recovered from Angkor-period archaeological sites across Cambodia."
+        }
+      ],
+      "commonsFile": "An_artists_representation_of_Angkor_Thom_Cambodia_at_musée_Guimet.jpg"
     },
     {
       "id": "evt-khmer-indian-ocean-trade",
       "label": "Indian Ocean trade connections",
       "year": 900,
-      "description": "The Khmer Empire connected to Indian Ocean trade networks through coastal ports, exporting rice, forest products, and slaves while importing Indian textiles and Chinese ceramics.",
+      "description": "The lower Mekong's coastal ports — Oc Eo being the earliest documented — tapped into a relay trade network that ran from the Roman Mediterranean to Han China. The monsoon winds drove it: sailors rode the southwest monsoon east in summer and the northeast monsoon west in winter, stopping at mainland Southeast Asian ports in between.",
       "wikiSlug": "Indian_Ocean_trade",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Indian Ocean trade is older than Rome: South Asian, Southeast Asian, and East African maritime networks were active by at least 1000 BCE. The Mekong delta's position made it a natural layover point between India and China — goods changed hands here rather than any single ship making the full journey. The same monsoon trade world that brought Indianization to the Khmer would later produce Srivijaya out on the Indonesian islands, making Funan the mainland prologue to that maritime empire."
+        }
+      ]
     },
     {
       "id": "evt-khmer-inscriptions",
       "label": "Khmer Sanskrit inscriptions",
       "year": 850,
-      "description": "The Khmer court produced elaborate Sanskrit and Old Khmer inscriptions recording royal deeds, temple foundations, and legal transactions. Over 1,200 survive.",
+      "description": "The Khmer court produced over 1,200 surviving inscriptions in Sanskrit and Old Khmer, recording royal genealogies, temple dedications, land grants, and labor obligations. They are the primary written source for Khmer history and one of the richest epigraphic records in all of Southeast Asia.",
       "wikiSlug": "Khmer_Empire",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inscriptions span nearly a millennium, from the early 7th century to the early 15th, and their bilingual structure is itself historically telling: the Sanskrit verse sections are formulaic royal praise, while the Old Khmer prose sections contain the actual transactional records — who donated which rice fields, how many oxen, how many temple servants. Historians have essentially reconstructed Khmer administrative and economic life from the boring half of these inscriptions. The corpus is so large that it remains only partially translated into modern languages."
+        }
+      ],
+      "commonsFile": "5th_century_Champassak_Inscription_of_Devanika,_Sanskrit_Hindu_Khmer_kingdom,_Vat_Phou_Kurukshetra,_Laos.jpg"
     },
     {
       "id": "evt-khmer-sdok-kok-thom",
       "label": "Sdok Kok Thom inscription",
       "year": 1052,
-      "description": "This inscription provides the most detailed account of the devaraja cult's origins and the history of the Khmer priesthood, a crucial historical source.",
+      "description": "The Sdok Kok Thom inscription, carved in 1052, is the single most important written source for early Khmer history — a priestly family's detailed account of the devaraja cult's founding and its hereditary chaplaincy across generations of kings.",
       "wikiSlug": "Sdok_Kok_Thom",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inscription is bilingual (Sanskrit and Old Khmer) and exceptionally long by Angkorian standards, tracing the priestly family's service through a succession of kings all the way back to Jayavarman II himself. The temple that houses it is located in present-day Thailand — proof of how far west Khmer territory once extended. Because the inscription was commissioned by the very family whose hereditary status it documents, historians weigh it carefully: it is invaluable precisely because it is detailed, and suspect precisely because it is self-interested."
+        }
+      ],
+      "commonsFile": "Prasat_Sdok_Kok_Thom_(II).jpg"
     },
     {
       "id": "evt-khmer-hydraulic-city",
       "label": "Angkor's hydraulic network",
       "year": 1000,
-      "description": "Angkor's system of barays, canals, and rice paddies supported a population of up to a million people, making it the largest pre-industrial city in the world.",
+      "description": "Angkor's water management system — a sprawling network of reservoirs, canals, and rice paddies spread across hundreds of square miles — that made it the largest low-density urban complex in the pre-industrial world.",
       "wikiSlug": "Angkor",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "LiDAR surveys conducted from 2012 onward revealed that the Angkor urban footprint extended over roughly 400 square miles (1,000 sq km), far larger than the temple cores visible above ground, with water-management infrastructure woven throughout. At its height, sometime around the twelfth century, Angkor may have supported a population of 750,000 to one million people — larger than any European city of the same period. The same network whose construction made that population possible is now the leading candidate for one of the causes of Angkor's eventual collapse."
+        }
+      ],
+      "commonsFile": "Karta_AngkorWat.PNG"
     },
     {
       "id": "evt-khmer-iron-smelting",
       "label": "Khmer iron smelting",
       "year": 900,
-      "description": "The Khmer produced iron tools and weapons using smelting technology, essential for agriculture, construction, and military power.",
+      "description": "By the last centuries BCE, Mon-Khmer communities along the lower Mekong were already smelting iron — producing tools for wet-rice farming and weapons long before any state existed to organize them. The iron technology is part of why this region could support dense agricultural settlements in the first place.",
       "wikiSlug": "Khmer_Empire",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Iron smelting arrived in mainland Southeast Asia as part of a broader late-Bronze Age / early-Iron Age transition around 500 BCE. At the height of the Khmer Empire, iron production scaled up to support massive construction projects: iron tools cut the sandstone blocks for Angkor Wat's 5 million tons of stone. The empire's control of iron-producing regions in the Cardamom Mountains was one element of its economic power base."
+        }
+      ]
     },
     {
       "id": "evt-khmer-ayutthaya-wars",
       "label": "Ayutthaya-Khmer wars",
       "year": 1350,
       "endYear": 1431,
-      "description": "The rising Siamese kingdom of Ayutthaya repeatedly attacked the weakened Khmer Empire, culminating in the sack of Angkor in 1431.",
+      "description": "The century-long series of Ayutthaya-Khmer wars (roughly 1350–1431) ended the Angkorian era — not by toppling a thriving empire, but by landing the decisive blow on a capital already in long structural decline.",
       "wikiSlug": "Fall_of_Angkor",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Thai chronicle traditions describe the final siege of Angkor Thom as lasting approximately seven months, beginning in 1430 before the city fell in 1431 — a long, grinding operation rather than a swift conquest. The siege is conventionally called the \"fall of Angkor,\" but historians increasingly read it as the administrative end of a city whose political and economic center of gravity had already been shifting southward toward the rivers and the sea for decades."
+        }
+      ]
     },
     {
       "id": "evt-khmer-fall-angkor",
       "label": "Fall of Angkor",
       "year": 1431,
-      "description": "Siamese forces sacked Angkor, forcing the Khmer court to abandon the city and relocate south to Phnom Penh, ending the Angkorian era.",
+      "description": "In 1431 an Ayutthayan army captured and looted Angkor after a siege of roughly seven months, and the Khmer court chose not to return — ending 600 years of Angkor as a royal capital and marking the conventional close of the Khmer Empire's imperial age.",
       "wikiSlug": "Fall_of_Angkor",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The event is called the \"sack of Angkor\" in some sources, but what was sacked was specifically Angkor Thom, the royal city — Angkor Wat itself was not destroyed. The Khmer court's decision not to move back was driven as much by economic logic (the south, near the Mekong-Tonlé Sap confluence, was better positioned for maritime trade) as by military defeat."
+        }
+      ],
+      "commonsFile": "Angkor_The_Lost_Empire_of_Cambodia_(52709264803).jpg"
     },
     {
       "id": "evt-khmer-rice-cultivation",
       "label": "Intensive rice cultivation",
       "year": 900,
-      "description": "The Khmer hydraulic system enabled multiple rice harvests per year, generating the agricultural surplus that funded the empire's monumental building programs.",
+      "description": "The Khmer hydraulic system — a network of reservoirs (barays) and canals built over several centuries — let farmers irrigate dry-season crops and buffer against drought, turning the Angkor region's single reliable monsoon harvest into something closer to a year-round food engine. It's the infrastructure that funded the temples.",
       "wikiSlug": "Khmer_Empire",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its peak, the Angkor hydraulic network covered roughly 1,000 square km (390 sq mi) of managed waterscape. The largest reservoir, the West Baray, is about 8 km (5 mi) long and 2.1 km (1.3 mi) wide — still holds water today. Modern LiDAR surveys have revealed the full extent of the canal grid, showing a planned urban-agricultural landscape far larger than anyone suspected from ground-level observation."
+        }
+      ]
     },
     {
       "id": "evt-khmer-preah-vihear",
       "label": "Preah Vihear temple built",
       "year": 1023,
-      "description": "Perched atop a cliff in the Dangrek Mountains, Preah Vihear is a masterpiece of Khmer architecture adapted to dramatic natural terrain.",
+      "description": "Preah Vihear is a Hindu temple strung along a cliff edge in the Dangrek Mountains (the natural wall between Cambodia and Thailand), built and extended across the 11th and 12th centuries, with a processional stairway climbing 800 feet (240 m) to a shrine overlooking the entire Cambodian plain below.",
       "wikiSlug": "Preah_Vihear",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple sits on a 525-meter (1,722 ft) cliff and began as a Hindu temple before eventually becoming Buddhist — a physical record of the region's shifting religious currents over a thousand years. Its cliff-top location became a geopolitical flashpoint in the modern era: the International Court of Justice ruled on its ownership in 1962 (awarding it to Cambodia), then had to rule again in 2013 after armed clashes between Cambodian and Thai forces near the site in 2011."
+        }
+      ],
+      "commonsFile": "03_Prasat_Preah_Vihear-nX-06478.jpg"
     },
     {
       "id": "evt-khmer-jayavarman-iv",
       "label": "Jayavarman IV moves capital to Koh Ker",
       "year": 928,
       "endYear": 944,
-      "description": "Jayavarman IV briefly moved the Khmer capital to Koh Ker, where he built a massive seven-tiered pyramid temple, before his successors returned to Angkor.",
+      "description": "A usurping king who, around 928 CE, abandoned Angkor entirely and built a new capital 75 miles (120 km) to the northeast at Koh Ker — an episode that lasted barely twenty years before his successor reversed it.",
       "wikiSlug": "Koh_Ker",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Koh Ker is not a single temple but a dense jungle complex: more than 180 sanctuaries have been identified in a protected area of 81 square kilometers (31 sq mi), most still hidden in forest and not yet fully demined. The site was inscribed as a UNESCO World Heritage Site in 2023, centuries after it was abandoned — one of the most recently recognized major Angkorian sites."
+        }
+      ],
+      "commonsFile": "0505280017PThompyramid.jpg"
     },
     {
       "id": "evt-khmer-bas-reliefs",
       "label": "Angkor Wat bas-reliefs carved",
       "year": 1140,
-      "description": "The 600-meter gallery of bas-reliefs at Angkor Wat depicts Hindu epics, historical battles, and scenes of heaven and hell in extraordinary detail.",
+      "description": "Running nearly half a mile (about 800 meters) around Angkor Wat's third enclosure wall, the continuous bas-relief galleries are the largest program of narrative stone carving ever created — depicting Hindu epics, Khmer military history, heavenly apsara dancers, and vivid scenes of the afterlife.",
       "wikiSlug": "Angkor_Wat",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reliefs include a remarkably detailed vision of hell (Naraka) showing sinners being punished in different torments appropriate to their crimes — a legal and moral catalogue in stone. The carvings were originally painted in bright colors, traces of which still survive in sheltered areas of the gallery."
+        }
+      ],
+      "commonsFile": "Angkor-4+.JPG"
     },
     {
       "id": "evt-khmer-champa-defeat",
       "label": "Jayavarman VII defeats Champa",
       "year": 1203,
-      "description": "Jayavarman VII conquered the Champa kingdom after decades of conflict, briefly annexing it as a Khmer vassal state at the empire's greatest territorial extent.",
+      "description": "In 1203 Jayavarman VII's forces completed the conquest of Champa, briefly making it a Khmer vassal — the high-water mark of Khmer imperial reach, reversing the humiliation of the 1177 sack of Angkor and closing a centuries-long cycle of warfare.",
       "wikiSlug": "Khmer–Cham_wars",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Bayon's bas-reliefs include a celebrated depiction of naval combat between the Khmer and Cham, showing the battle on the Tonle Sap lake in graphic detail — one of the largest narrative battle scenes in ancient Southeast Asian art. The conflict had escalated sharply in the mid-12th century before the 1177 Cham breakthrough; Jayavarman VII spent the first decade of his reign fighting to undo that breakthrough before turning to conquest."
+        }
+      ]
     },
     {
       "id": "evt-khmer-divakarapandita",
@@ -467,101 +697,171 @@
       "id": "evt-khmer-funan-rise",
       "label": "Kingdom of Funan rises",
       "year": 50,
-      "description": "Funan, the first major state in the lower Mekong delta, emerges in Chinese records as a trading kingdom with the port of Oc Eo. Its rulers adopted Indian titles, Sanskrit, and Hindu-Buddhist religion, making it the seedbed of the cultural pattern the Khmer would inherit.",
+      "description": "Funan — the name comes from Chinese accounts; no one knows what its people called it — was a loose network of trading statelets in the lower Mekong delta, the first organized polity the outside world noticed in what is now Cambodia. Its rulers adopted Sanskrit, Hindu-Buddhist religion, and Indian royal titles, laying the cultural template the Khmer would inherit.",
       "wikiSlug": "Funan",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Funan's trade connections ran far beyond its immediate region: its port of Oc Eo handled goods from the Roman Empire, India, and Han China simultaneously. The kingdom sent tribute missions to China as early as the 3rd century CE. Funan encompassed parts of what are now Cambodia, Thailand, and Vietnam — it was a regional network rather than a single centralized state, which is part of why it could be absorbed so gradually by Chenla."
+        }
+      ],
+      "commonsFile": "Bodhisattva_Lokeshvara_of_My_Tho.jpg"
     },
     {
       "id": "evt-khmer-oc-eo",
       "label": "Oc Eo, the great port",
       "year": 100,
-      "description": "Oc Eo on the Gulf of Thailand was Funan's international harbor. Excavations have turned up Roman coins, Indian jewelry, and Han Chinese goods, showing the lower Mekong was plugged into a trade network running from the Mediterranean to China centuries before Angkor.",
+      "description": "Oc Eo, buried under the Mekong delta in southern Vietnam, was Funan's main port and one of the most cosmopolitan trading sites in the ancient world. Excavations have recovered Roman coins, Indian carved gems, Han Chinese bronze mirrors, and a canal system linking the harbor to inland settlements — physical proof that the lower Mekong was wired into global commerce centuries before Angkor.",
       "wikiSlug": "Oc_Eo",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Greek and Roman geographers may have known the site as 'Cattigara,' a mysterious eastern port listed at the edge of the known world in Ptolemy's 2nd-century geography. The canal network connecting Oc Eo to inland sites stretched roughly 90 miles (150 km), an engineering project that foreshadows the hydraulic ambition Angkor would make famous. The port was active from at least the 2nd century BCE to as late as the 12th century CE."
+        }
+      ],
+      "commonsFile": "Di_tích_Gò_Cây_Thị_A.jpg"
     },
     {
       "id": "evt-khmer-kaundinya-legend",
       "label": "The Kaundinya–Soma founding legend",
       "year": 100,
-      "description": "Funan's origin story has a brahmin named Kaundinya marrying the local naga (serpent) princess Soma. Recorded in Sanskrit and Chinese sources, it is the founding template for Southeast Asian Indianized kingship: a foreign holy man weds an indigenous water-goddess.",
+      "description": "Funan's founding myth stars Kaundinya, a brahmin (a member of the hereditary Hindu priestly class) who sailed in from India, married the local naga (serpent-spirit) princess Soma, and founded the dynasty. It's the whole story of Indianization compressed into a wedding: foreign sacred knowledge meets indigenous water-goddess, and a kingdom results.",
       "wikiSlug": "Kaundinya_I",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Soma — not Kaundinya — appears to have been the first monarch; Kaundinya is described as her consort who later became co-ruler, which makes Funan's legendary founder a woman. The naga serpent she embodies is not just a symbol: in Southeast Asian cosmology, nagas are the spirits of the soil and water who must be appeased before any building can begin, which is why naga balustrades guard every temple at Angkor. The story appears in both Sanskrit inscriptions and Chinese dynastic histories, showing it circulated widely in the ancient world."
+        }
+      ],
+      "commonsFile": "Statue_of_Kaundinya_I_and_Queen_Soma.jpg"
     },
     {
       "id": "evt-khmer-indianization",
       "label": "Indianization of the lower Mekong",
       "year": 200,
-      "description": "Over centuries local elites adopted Sanskrit, the Hindu gods Shiva and Vishnu, Buddhism, Indian scripts, statecraft manuals, and the calendar. Scholars debate whether this was driven by trade, by brahmin advisers, or by local rulers shopping for prestige; it was almost certainly all three.",
+      "description": "From roughly the 1st to the 7th century CE, the elites of Southeast Asia voluntarily adopted an enormous package of Indian culture: Sanskrit, Hindu and Buddhist religion, Indian writing systems, royal rituals, law codes, and the idea that a king is the earthly axis of the cosmos. Historians call this Indianization, and not one Indian soldier was involved.",
       "wikiSlug": "Greater_India",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The process was driven by usefulness as much as prestige: a Sanskrit-literate brahmin priest could hand a local chief a god-descended genealogy, a coronation ceremony that upgraded him from strongman to sacred king, and a writing system for taxing people — all in one visit. The cultural transfer was selective and syncretic; Southeast Asian societies kept their own languages, their own agricultural gods, and their own social structures while adding the Indian overlay. The result — Indian on the surface, indigenous underneath — is visible in every Angkorian temple inscription, which typically opens in ornate Sanskrit verse and then switches to plain Old Khmer for the property records."
+        }
+      ],
+      "commonsFile": "006_Bujang_Valley_Candi.jpg"
     },
     {
       "id": "evt-khmer-chenla-emerges",
       "label": "Chenla emerges in the interior",
       "year": 550,
-      "description": "Chenla, an inland Khmer-speaking polity up the Mekong, eclipsed and absorbed Funan during the 6th and 7th centuries. The name is Chinese; the people called their land by other names. Chenla is the direct political ancestor of the Khmer Empire.",
+      "description": "Chenla was an inland Khmer-speaking polity further up the Mekong that absorbed and replaced Funan during the 6th and 7th centuries. The name is Chinese — the Khmer never used it — and the kingdom is the direct political ancestor of the Angkorian empire.",
       "wikiSlug": "Chenla",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The very meaning of 'Chenla' is a matter of scholarly dispute: one folk etymology links it to 'Pure Beeswax' (a real regional export), another to 'Defeated Siam,' but the leading historian of the period, Michael Vickery, concluded the original meaning is simply unknown. Unlike coastal Funan, Chenla was an agricultural inland power, which is the structural shift that eventually made Angkor possible — the surplus came from land, not sea lanes."
+        }
+      ],
+      "commonsFile": "Mainland_Southeast_Asia_in_700_CE_(cropped).png"
     },
     {
       "id": "evt-khmer-oldest-inscription",
       "label": "Oldest dated Khmer inscription",
       "year": 611,
-      "description": "The inscription K.557/600 of 611-612 CE is the oldest securely dated text in the Khmer language, one of the earliest dated vernacular inscriptions in all of Southeast Asia. Khmer was written alongside prestige Sanskrit for a thousand years.",
+      "description": "The inscription scholars label K.557, carved in 611–612 CE, is the oldest securely dated text in the Khmer language and one of the earliest dated vernacular inscriptions anywhere in Southeast Asia. From the very beginning, Khmer scribes wrote in two registers: ornate Sanskrit verse for religion and royal glory, plain Old Khmer prose for the practical business of who owned what.",
       "wikiSlug": "Old_Khmer",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Old Khmer inscriptions from the 7th century onward number over a thousand in total, giving historians one of the most extensive documentation records in all of Southeast Asia for the pre-modern period. The bilingual inscription style is historically invaluable: the Sanskrit half tells you what the king wanted posterity to think, while the Khmer half records the actual property transfers, labor obligations, and cattle counts that kept a temple running — the accounting survived because the poetry needed it as context."
+        }
+      ],
+      "commonsFile": "03-National_Museum_of_Cambodia-nX-1.jpg"
     },
     {
       "id": "evt-khmer-isanavarman",
       "label": "Isanavarman I and Isanapura",
       "year": 616,
-      "description": "Isanavarman I built Isanapura (modern Sambor Prei Kuk), a brick temple-city that is the largest pre-Angkorian monument complex and a UNESCO site. It shows the temple-mountain idea taking shape two centuries before Angkor.",
+      "description": "Isanavarman I, king of Chenla around 616 CE, built the temple-city of Isanapura — modern Sambor Prei Kuk — as his capital and royal sanctuary. It is the largest surviving pre-Angkorian monument complex and a UNESCO World Heritage Site, and it proves the idea of a sacred king living at the center of a built sacred mountain was already two centuries old before anyone laid a stone at Angkor.",
       "wikiSlug": "Sambor_Prei_Kuk",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sambor Prei Kuk sits 176 km (109 mi) east of Angkor and 30 km (19 mi) north of Kampong Thom, spread across three main temple groups with more than 100 individual brick towers still standing. The complex pioneered octagonal tower forms and 'flying palace' bas-reliefs — architectural vocabulary Angkor would later absorb and vastly amplify in sandstone. Isanavarman I's reign is also the moment Chenla reaches its greatest extent, briefly uniting most of the lower Mekong basin under one ruler."
+        }
+      ],
+      "commonsFile": "Cambodge-Sambor.JPG"
     },
     {
       "id": "evt-khmer-sambor-prei-kuk",
       "label": "Sambor Prei Kuk temples",
       "year": 625,
-      "description": "The brick towers of Sambor Prei Kuk, with their octagonal shrines and 'flying palace' carvings, are the architectural prototype the Angkorian style would later refine in sandstone.",
+      "description": "The brick towers of Sambor Prei Kuk are the Angkorian style's direct ancestor — octagonal shrines, 'flying palace' carvings, and the whole idea of a temple-mountain as a king's seat, all executed two centuries before Angkor existed. Built in the early 7th century and declared a UNESCO World Heritage Site in 2017.",
       "wikiSlug": "Sambor_Prei_Kuk",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The site's 'flying palace' (prasat) reliefs depict multi-storied palatial buildings suspended in the air, held up by figures and mythological animals — a distinctive decorative motif that appears nowhere else and dates this architectural tradition precisely. Sambor Prei Kuk's brick construction is itself significant: the shift from brick to sandstone at Angkor was a deliberate upgrade in permanence, not a discovery. The site is located in Kampong Thom Province, about 206 km (128 mi) north of Phnom Penh, and remained in partial use as a religious site through the Angkor period."
+        }
+      ],
+      "commonsFile": "Musée_Guimet_897_01.jpg"
     },
     {
       "id": "evt-khmer-chenla-split",
       "label": "Land Chenla and Water Chenla",
       "year": 707,
-      "description": "Chinese sources report Chenla fracturing into a northern 'Land Chenla' and a southern, coastal 'Water Chenla' around 700. The political disunity of the 8th century is the chaos Jayavarman II would later claim to have ended.",
+      "description": "Around 700 CE, Chinese sources describe Chenla fracturing into 'Land Chenla' in the north and 'Water Chenla' along the coast. The southern half appears to have fallen under the influence of a Javanese sea power, setting up the political humiliation that Jayavarman II would make it his life's work to reverse.",
       "wikiSlug": "Chenla",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The split is attested only in Chinese diplomatic records, not in any Khmer inscription, so historians treat it cautiously — it may describe a real political breakup or simply reflect the fact that two different Chenla rulers sent separate tribute missions to the Tang court. Either way, the coastal 'Water Chenla' was exposed to the Javanese maritime world in ways the inland zone was not, and the tradition of Javanese overlordship — whether real or remembered — became the founding grievance of the Angkorian empire."
+        }
+      ],
+      "commonsFile": "Buddha_of_Binh_Hoa.jpg"
     },
     {
       "id": "evt-khmer-javanese-overlord",
       "label": "Javanese (Sailendra) overlordship",
       "year": 780,
-      "description": "Eighth-century Khmer tradition holds that Water Chenla fell under the influence of 'Java' — most likely the Sailendra dynasty of the Srivijaya world. Jayavarman II's later ritual was explicitly designed to end this foreign overlordship.",
+      "description": "Eighth-century tradition holds that Water Chenla came under the thumb of 'Java' — most likely the Sailendra dynasty, the Mahayana Buddhist rulers of central Java who also built Borobudur. The Sailendras were the maritime powerbrokers of the Srivijaya world, and their influence over the lower Mekong became the founding grievance Jayavarman II later claimed to have erased.",
       "wikiSlug": "Shailendra_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Sailendras were remarkable patrons of Buddhist architecture: they built Borobudur, the colossal stepped-pyramid stupa in central Java that is now a UNESCO World Heritage Site and the largest Buddhist monument in the world. Whether their 'overlordship' of Chenla was a real tribute relationship or a later Khmer diplomatic fiction used to justify Jayavarman II's independence ceremony is debated — no Javanese inscription mentions Chenla. The Shailendra dynasty's name means 'kings of the mountain,' the same title Khmer kings would later claim."
+        }
+      ],
+      "commonsFile": "Borobudur-Nothwest-view.jpg"
     },
     {
       "id": "evt-khmer-pre-angkor-art",
@@ -576,92 +876,154 @@
       "id": "evt-khmer-rice-base",
       "label": "Wet-rice farming and the Tonle Sap",
       "year": 400,
-      "description": "The flood-retreat agriculture of the Tonle Sap great lake — the lake quadruples in size each monsoon, then drops fish and silt as it recedes — gave the lower Mekong one of the richest food bases in the pre-modern world, the economic engine every Khmer state ran on.",
+      "description": "The Tonlé Sap lake — the great reversing lake fed by the Mekong monsoon flood — is the food machine that made Khmer civilization possible. Every year the lake roughly quadruples in size, drowning the surrounding forest, and then retreats, leaving behind thick silt and an extraordinary concentration of fish. No conquering general, no engineering feat, just geography handing out surplus every year for free.",
       "wikiSlug": "Tonl%C3%A9_Sap",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tonlé Sap is one of the most productive inland fisheries on Earth even today, with fish yields per hectare that rival marine coastal fisheries. The annual flood-retreat cycle rebuilds the lake's floodplain soils each year, meaning farmers didn't need to fallow fields or move to stay productive. The lake's fish-nursery effect works because the flooded forest provides spawning cover — the moment the water retreats, fish concentrate into the shrinking lake in densities that make mass harvesting straightforward."
+        }
+      ]
     },
     {
       "id": "evt-khmer-mahendraparvata",
       "label": "Mahendraparvata on Phnom Kulen",
       "year": 802,
-      "description": "Jayavarman II's mountaintop capital on Phnom Kulen, the holy plateau north of Angkor. LiDAR surveys in 2012 revealed a planned grid city in the forest there, confirming the inscriptions' account of an early royal center.",
+      "description": "Jayavarman II's mountaintop capital on Phnom Kulen, the forested sandstone plateau 30 miles (48 km) north of Angkor, where the founding devaraja ceremony took place in 802. Hidden under jungle for centuries, the city was only confirmed by LiDAR aerial survey in 2012.",
       "wikiSlug": "Mahendraparvata",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 2012 expedition, led by archaeologists Jean-Baptiste Chevance and Damian Evans, used airborne laser scanning (LiDAR) to strip away the forest canopy digitally and reveal a planned grid city beneath — streets, temple mounds, and water management infrastructure invisible from the ground. The discovery confirmed that what the inscriptions described as a royal capital was a real, substantial urban settlement, not just a ritual hilltop. Much of Mahendraparvata still lies unexcavated under the forest."
+        }
+      ],
+      "commonsFile": "Les_linga_dans_le_lit_de_la_rivière_sacrée_(Phnom_Kulen)_(6824988525).jpg"
     },
     {
       "id": "evt-khmer-hariharalaya",
       "label": "Hariharalaya capital at Roluos",
       "year": 802,
-      "description": "Jayavarman II's main lowland capital, at modern Roluos southeast of Angkor, named for Harihara (the fused Shiva-Vishnu deity). It remained the Khmer center until the move to Angkor proper at the end of the 9th century.",
+      "description": "Jayavarman II's main lowland capital at modern Roluos, southeast of Angkor, named for Harihara — the single deity formed by fusing Shiva and Vishnu into one body. It served as the Khmer political center until the court moved to Angkor proper at the end of the 9th century.",
       "wikiSlug": "Hariharalaya",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name Hariharalaya means \"abode of Harihara,\" and the choice to dedicate a capital to the fused god rather than Shiva or Vishnu alone reflects a characteristically Khmer pragmatism — honoring both great Hindu traditions at once. The city's three surviving temples (Preah Ko, Bakong, and Lolei) were all built within a single generation and established the water-ancestors-mountain construction formula that every later Khmer king would repeat. Today the area is called Roluos, a short drive from Siem Reap."
+        }
+      ],
+      "commonsFile": "Harihara_Musée_Guimet_897_1.jpg"
     },
     {
       "id": "evt-khmer-jayavarman-iii",
       "label": "Jayavarman III",
       "year": 835,
-      "description": "Son and successor of Jayavarman II, remembered chiefly as a legendary elephant-hunter. His reign is thinly documented — the gap typical of the early empire, whose history is reconstructed mostly from a single later inscription.",
+      "description": "Son and successor of Jayavarman II, who reigned from 835 to 877. The inscriptions remember him mainly as a legendary elephant-hunter — a telling measure of how thin the documentary record is for this early period.",
       "wikiSlug": "Jayavarman_III",
       "tier": 3,
       "tags": [],
       "category": "rulers",
-      "endYear": 877
+      "endYear": 877,
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "One surviving inscription describes Jayavarman III failing to catch a wild elephant during a hunt, then receiving a divine promise that he would secure the animal if he built a sanctuary — which he did. According to tradition, he may have died in 877 while chasing a wild elephant. His royal posthumous name was Vishnuloka, placing him under Vishnu's protection, though his temples have never been conclusively identified. His successor Indravarman I would far overshadow him as a builder."
+        }
+      ],
+      "commonsFile": "Cambogia,_visnu_da_phnom_bok,_stile_di_bakheng,_890-910_ca..JPG"
     },
     {
       "id": "evt-khmer-preah-ko",
       "label": "Preah Ko temple",
       "year": 879,
-      "description": "Indravarman I's brick temple at Hariharalaya, dedicated to his royal ancestors. Its dedicatory inscription is a key source for the murky genealogy linking Jayavarman II to the later kings.",
+      "description": "The first temple built at Hariharalaya, constructed by Indravarman I in 879 to honor his royal ancestors. Its dedicatory inscription is one of the best surviving sources for the hazy genealogy linking Jayavarman II to later kings.",
       "wikiSlug": "Preah_Ko",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Preah Ko means \"sacred bull\" in Khmer, a reference to Nandi, the bull mount of Shiva — three stone Nandi statues still guard the temple's eastern approach. The six brick towers are arranged in two rows: the front three honored male ancestors (including Jayavarman II), the back three honored female ancestors, each tower's deity named after the ancestor it commemorated. The inscription carved on its doorposts is in both Sanskrit and Old Khmer, making it one of the earliest substantial Old Khmer texts known."
+        }
+      ],
+      "commonsFile": "Preah_Ko_1.jpg"
     },
     {
       "id": "evt-khmer-indratataka",
       "label": "Indratataka, the first great baray",
       "year": 877,
-      "description": "Indravarman I's reservoir at Roluos, the first of the enormous Khmer barays. Whether the barays were primarily for irrigation, for ritual cosmology, or for water storage and flood control is one of the central debates in Angkorian studies.",
+      "description": "Indravarman I's great reservoir at Roluos, the first of the massive Khmer barays (rectangular reservoirs). Whether the barays served primarily as irrigation infrastructure, ritual cosmological symbols, or flood-season water storage is one of the most debated questions in Angkor scholarship.",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Indratataka was roughly 3.8 km long and 800 m wide — a vast artificial lake held by earthen embankments, not cut stone. The debate over baray function has real stakes: the \"hydraulic city\" theory (barays as irrigation networks feeding rice paddies) was the dominant model for decades, but more recent archaeology suggests the canals connecting them to fields were too small for large-scale irrigation, pushing scholars toward the ritual-cosmological interpretation. The question matters because if the barays were symbolic rather than functional, the collapse of Angkor's water system looks less like an infrastructure failure and more like a political one."
+        }
+      ],
+      "commonsFile": "Lolei1.JPG"
     },
     {
       "id": "evt-khmer-sdok-account",
       "label": "The Sdok Kok Thom account of Jayavarman II",
       "year": 802,
-      "description": "Almost everything known about Jayavarman II comes from the Sdok Kok Thom inscription, carved in 1052 — 250 years after the events. Historians treat its dramatic founding narrative as a later dynasty's origin myth as much as a record.",
+      "description": "The primary — and nearly sole — written source for Jayavarman II's reign: the Sdok Kok Thom inscription, commissioned in 1052 by a priestly family to glorify their hereditary office administering the devaraja cult. Historians treat its account of 802 as part charter myth, part historical memory.",
       "wikiSlug": "Sdok_Kok_Thom_Inscription",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inscription was carved at the Sdok Kok Thom temple, which still stands in what is now Sa Kaeo Province in eastern Thailand — outside modern Cambodia entirely, a reminder of how far the Khmer Empire's reach once extended. The priestly family who commissioned it had held the office of royal devaraja chaplain across multiple reigns, so their account of the cult's founding served to legitimize their own status as much as to record history. The 250-year gap between the events described and the inscription's composition is roughly the same as the gap between today and the American Revolution."
+        }
+      ],
+      "commonsFile": "Prasat_Sdok_Kok_Thom-007.jpg"
     },
     {
       "id": "evt-khmer-yasovarman-i",
       "label": "Yasovarman I",
       "year": 889,
-      "description": "Yasovarman I moved the capital to the Angkor plain and founded Yasodharapura, the city that — repeatedly rebuilt — would be the Khmer capital for 500 years. He also built ashrams for Hindus, Buddhists, and ascetics alike.",
+      "description": "The king who put Angkor on the map — literally. Yasovarman I reigned 889–910 CE, moved the Khmer capital to the plain between Tonlé Sap and the Kulen hills, and built the infrastructure that made that plain the empire's permanent center.",
       "wikiSlug": "Yasovarman_I",
       "tier": 2,
       "tags": [],
       "category": "rulers",
-      "endYear": 910
+      "endYear": 910,
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yasovarman was known to later tradition as the \"Leper King,\" a title attached to him through legend rather than any confirmed diagnosis — it was a stock epithet applied to several Angkorian rulers, possibly rooted in a Sanskrit pun on a royal title. Beyond the capital, he built a chain of ashrams (rest-houses and religious retreats) at major temples across the whole empire — one of the largest acts of royal religious patronage the Khmer record shows."
+        }
+      ],
+      "commonsFile": "LeperKing.JPG"
     },
     {
       "id": "evt-khmer-phnom-bakheng",
       "label": "Phnom Bakheng temple-mountain",
       "year": 907,
-      "description": "Yasovarman I's state temple on a natural hill, a stepped pyramid representing Mount Meru, the cosmic mountain at the center of the Hindu universe. Its 109 towers encode an astronomical and cosmological scheme.",
+      "description": "Yasovarman I's state temple, built on a real natural hill at the center of the Angkor plain — a stepped stone pyramid designed to be Mount Meru, the axis of the Hindu universe, at human scale.",
       "wikiSlug": "Phnom_Bakheng",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Phnom Bakheng's 109 towers are not arbitrary: scholars have shown the count encodes astronomical cycles, including the number of days in the lunar calendar. The temple is dedicated to Shiva and sits about 65 meters (213 feet) above the plain — today it is one of the most visited spots at Angkor for sunset views of Angkor Wat, which was built roughly 1.5 km to the southeast nearly two centuries later. Its popularity has made it one of the most erosion-threatened monuments at the site, requiring ongoing conservation since 2004."
+        }
+      ],
+      "commonsFile": "Phnom_Bakheng_temple_at_Angkor,_Cambodia.jpg"
     },
     {
       "id": "evt-khmer-lolei",
@@ -677,21 +1039,34 @@
       "id": "evt-khmer-koh-ker-pyramid",
       "label": "Prasat Thom pyramid at Koh Ker",
       "year": 928,
-      "description": "When Jayavarman IV moved the capital 75 miles northeast to Koh Ker, he built a seven-tiered sandstone pyramid, the steepest and most un-Angkorian of the temple-mountains, before the court returned to Angkor.",
+      "description": "Prasat Thom, the seven-tiered sandstone pyramid at Koh Ker — the steepest, most vertically aggressive temple-mountain the Khmer ever built, raised by Jayavarman IV for a capital that existed for only about sixteen years.",
       "wikiSlug": "Koh_Ker",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike classic Angkor pyramids with their graduated proportions, Prasat Thom rises almost straight up — its silhouette genuinely resembles Mesoamerican pyramids, a coincidence that has fascinated comparativists. The wider Koh Ker site contains more than 180 separate sanctuaries across 81 square kilometers, and most remain unexcavated in jungle so dense and still incompletely demined that tourists can only visit about two dozen of them."
+        }
+      ],
+      "commonsFile": "Koh_Ker_temple(2007).jpg"
     },
     {
       "id": "evt-khmer-return-angkor",
       "label": "Rajendravarman returns the capital to Angkor",
       "year": 944,
-      "description": "Rajendravarman II brought the court back from Koh Ker to Yasodharapura and rebuilt it, ending a generation of dislocation and restoring Angkor as the permanent center.",
+      "description": "In 944 CE, King Rajendravarman II ended a generation of dislocation by bringing the royal court back from Koh Ker to Yasodharapura — restoring Angkor as the Khmer capital and reopening its building program.",
       "wikiSlug": "Rajendravarman_II",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rajendravarman reigned 944–968 CE and was one of the most prolific builders of the revival era, commissioning multiple temples including the East Mebon and Pre Rup. His reign also produced the conditions that made Banteay Srei possible: a stable, culturally confident court in which a learned Brahmin minister, not just a king, could endow a major temple."
+        }
+      ]
     },
     {
       "id": "evt-khmer-pre-rup",
@@ -707,62 +1082,103 @@
       "id": "evt-khmer-east-mebon",
       "label": "East Mebon temple",
       "year": 953,
-      "description": "A temple built on an artificial island in the middle of the East Baray, reachable only by boat — the clearest single proof that the great reservoirs were full of water and ritually central, not dry ceremonial rectangles.",
+      "description": "A tenth-century temple built on an artificial island at the center of the East Baray — reachable only by boat when the reservoir was full, and the clearest physical proof that the great barays were working bodies of water, not ceremonial dry plazas.",
       "wikiSlug": "East_Mebon",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The East Mebon was built by King Rajendravarman II in 953 CE and dedicated to Shiva; its five towers follow the quincunx pattern (four corners plus center) that represents Mount Meru and its surrounding peaks. The reservoir it sat in, the East Baray, is now entirely dry — so today the \"island\" temple sits in a rice-field plain, its original relationship to the water visible only in the earthen dike outlines that surround it."
+        }
+      ],
+      "commonsFile": "Mebon_Oriental,_Angkor,_Camboya,_2013-08-17,_DD_05.JPG"
     },
     {
       "id": "evt-khmer-yajnavaraha",
       "label": "Yajnavaraha, the scholar-builder of Banteay Srei",
       "year": 967,
-      "description": "Banteay Srei was built not by a king but by Yajnavaraha, a brahmin guru and royal teacher. Its miniature scale and astonishingly deep pink-sandstone carving make it the most admired single monument at Angkor.",
+      "description": "The scholar-courtier who built Banteay Srei — Yajnavaraha was a Brahmin guru and royal teacher, not a king, making him one of the only non-royal patrons of a major Angkorian temple on record.",
       "wikiSlug": "Banteay_Srei",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yajnavaraha is identified in Banteay Srei's foundation inscriptions as a grandson of King Harshavarman I and a teacher to King Rajendravarman II — placing him at the apex of the Khmer intellectual elite without holding the throne. Building a temple was normally a royal act and a statement of cosmic authority; that a courtier could do it at this scale, with this quality, suggests Rajendravarman's reign was unusually secure and culturally generous."
+        }
+      ],
+      "commonsFile": "Banteay_Srei_full2.jpg"
     },
     {
       "id": "evt-khmer-baray-debate",
       "label": "The baray debate: irrigation or cosmos?",
       "year": 1000,
-      "description": "Bernard-Philippe Groslier argued the barays fed a vast irrigation network sustaining a 'hydraulic city.' Critics countered they were mainly cosmological and for urban supply. Modern survey suggests the truth is both, on a scale larger than either side first imagined.",
+      "description": "The central scholarly argument about what Angkor's giant reservoirs were actually for — irrigation network feeding millions, or sacred cosmological ocean around Mount Meru — with the current consensus landing on \"both, and bigger than either side thought.\"",
       "wikiSlug": "Baray",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The \"hydraulic city\" theory was formally proposed by French archaeologist Bernard-Philippe Groslier in 1979, and became dominant enough that Angkor's fall was often attributed to the barays silting up. The strongest skeptics argued that putting temples on islands in the middle of the reservoirs proved they were sacred, not agricultural — you don't irrigate crops around your god's island. LiDAR (laser) mapping in the 2010s revealed the full scale of Angkor's water network was even more extensive than Groslier imagined, though not the tidy triple-harvest grid his strongest version proposed."
+        }
+      ],
+      "commonsFile": "Srah_Srang,_Angkor,_Camboya,_2013-08-16,_DD_07.JPG"
     },
     {
       "id": "evt-khmer-civil-war-1002",
       "label": "The succession war of 1002–1010",
       "year": 1002,
-      "description": "Suryavarman I won the throne after an eight-year civil war against the rival king Jayaviravarman, a reminder that Khmer succession had no fixed rule and was often settled by force.",
+      "description": "Suryavarman I seized the Khmer throne after eight years of civil war against a rival king named Jayaviravarman — a reminder that the Khmer had no fixed succession rule, so the crown went to whoever could outlast the other guy on the battlefield.",
       "wikiSlug": "Suryavarman_I",
       "tier": 2,
       "tags": [],
       "category": "wars",
-      "endYear": 1010
+      "endYear": 1010,
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Suryavarman I was a Mahayana Buddhist (a northern school that emphasizes compassion and the aspiration for universal enlightenment) in a kingdom that had largely been Hindu, and he was also tolerant of the Theravada Buddhist presence growing in the realm — a notable religious open-handedness from a king who took power by force. His reign would run until 1050, nearly half a century, making him one of the longest-ruling kings in Angkor's history."
+        }
+      ],
+      "commonsFile": "Phimeanakas,_Angkor_Thom,_Camboya,_2013-08-16,_DD_09.jpg"
     },
     {
       "id": "evt-khmer-oath-inscription",
       "label": "The oath of the 4,000 officials",
       "year": 1011,
-      "description": "Suryavarman I had a loyalty oath sworn by some 4,000 officials carved into the gateway of the royal palace at Angkor — a rare, concrete document of how a king without a standing bureaucracy bound an elite to himself.",
+      "description": "With no professional civil service to hold the state together, Suryavarman I did something extraordinary: he had roughly 4,000 court officials swear a detailed loyalty oath to him personally, then had the whole text carved into the stone gateway of the royal palace so the commitment was literally built into the building.",
       "wikiSlug": "Suryavarman_I",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The oath text spelled out vivid self-curses — officials called down supernatural punishment on themselves and their families if they broke faith, giving the binding force of ritual threat in place of institutional contract. It is one of the most detailed administrative documents to survive from the entire Angkorian period, and its existence tells us as much about the Khmer state's weakness as its ambition: no paperwork bureaucracy, so loyalty had to be manufactured from stone and dread."
+        }
+      ]
     },
     {
       "id": "evt-khmer-expansion-lavo",
       "label": "Expansion into the Chao Phraya basin",
       "year": 1025,
-      "description": "Suryavarman I pushed Khmer power west into the Mon kingdom of Lavo (Lopburi, in central Thailand), beginning the long Khmer presence in what is now Thailand that later Thai kingdoms would inherit and turn against Angkor.",
+      "description": "Suryavarman I pushed Khmer power westward into the Mon kingdom of Lavo — modern Lopburi, in central Thailand — extending Angkor's reach across much of the Chao Phraya basin and planting Khmer governors and temples on ground that later Thai kingdoms would inherit and eventually turn against their former masters.",
       "wikiSlug": "Lavo_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Lavo Kingdom was a political entity (mandala, a loosely organized sphere of influence rather than a hard-bordered state) that had existed since at least the 7th century on the left bank of the Chao Phraya River. Its capital later shifted to a place the Chinese called Xiān in the 1080s, and by the late 1200s both Lavo and its neighbor were sending separate embassies to China — signs the region was already fracturing away from Khmer control long before the Thai kingdoms fully broke free."
+        }
+      ],
+      "commonsFile": "Map-of-southeast-asia_1000_-_1100_CE.png"
     },
     {
       "id": "evt-khmer-phimeanakas",
@@ -778,32 +1194,52 @@
       "id": "evt-khmer-kamvau-revolt",
       "label": "The Kamvau revolt",
       "year": 1051,
-      "description": "A general named Kamvau rebelled against Udayadityavarman II; the suppression is recorded in detail in an inscription praising the loyal general Sangrama, one of the few accounts of internal Khmer warfare.",
+      "description": "A general named Kamvau launched an armed rebellion against Udayadityavarman II, one of several revolts during his reign; the suppression was recorded in a stone inscription praising the loyal general who put it down — a rare ground-level account of what Khmer internal warfare actually looked like.",
       "wikiSlug": "Udayadityavarman_II",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Most Khmer inscriptions celebrate kings and gods, not the tactical details of civil conflict, which makes the Kamvau rebellion account unusually candid. The loyal officer credited with crushing the revolt is named in the inscription, giving us one of the few named non-royal military figures from 11th-century Angkor. The episode fits the wider pattern of this era: every king who built big also fought someone at home."
+        }
+      ]
     },
     {
       "id": "evt-khmer-udayadityavarman-ii",
       "label": "Udayadityavarman II",
       "year": 1050,
-      "description": "Builder of the Baphuon and the West Baray, he faced multiple revolts. His reign shows the cost of monumental ambition: grand temples above, rebellion below.",
+      "description": "Udayadityavarman II ruled Angkor from 1050 to 1066, building the Baphuon and the West Baray while fighting off multiple armed revolts — a king who ran the monument-building machine at full throttle and felt the machine shake under him.",
       "wikiSlug": "Udayadityavarman_II",
       "tier": 2,
       "tags": [],
       "category": "rulers",
-      "endYear": 1066
+      "endYear": 1066,
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was not Suryavarman I's son; he descended instead from the line of Yasovarman I's spouse, which means yet another lateral succession — the throne jumping sideways through the family tree rather than straight down. The stela carved in his honor survives and is one of the few royal monuments from this reign that gives scholars a dated anchor for the period."
+        }
+      ],
+      "commonsFile": "Udayadityavarman_II_stela.jpg"
     },
     {
       "id": "evt-khmer-west-mebon",
       "label": "West Mebon and the bronze Vishnu",
       "year": 1060,
-      "description": "On an island in the West Baray stood a temple housing a colossal reclining bronze Vishnu, fragments of which survive — proof the West Baray, like the East, held water and ritual meaning together.",
+      "description": "The West Mebon is a temple set on an artificial island in the center of the West Baray, the largest reservoir at Angkor, and its most famous feature was a colossal reclining bronze Vishnu — fragments of which were found during excavations and are now in the National Museum in Phnom Penh.",
       "wikiSlug": "West_Mebon",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The West Baray measures roughly 5 miles (8 km) long by 1.5 miles (2.4 km) wide, making it the largest of Angkor's reservoirs and one of the biggest human-made water bodies in the ancient world. The temple's exact construction date is uncertain; current evidence points to the 11th century during the reigns of Suryavarman I and Udayadityavarman II, meaning it may straddle both reigns rather than belonging cleanly to either."
+        }
+      ],
+      "commonsFile": "West_Mebon_0008.jpg"
     },
     {
       "id": "evt-khmer-harshavarman-iii",
@@ -830,72 +1266,121 @@
       "id": "evt-khmer-suryavarman-ii-coup",
       "label": "Suryavarman II seizes the throne",
       "year": 1113,
-      "description": "An inscription says the young Suryavarman II won the throne by leaping onto his rival's war-elephant and killing his great-uncle Dharanindravarman I in battle 'as Garuda kills a serpent' — royal propaganda preserving the violence of Khmer succession.",
+      "description": "In 1113 a young prince named Suryavarman II seized the Khmer throne by leaping onto his great-uncle's war-elephant and killing him in battle — then had the act commemorated in royal inscriptions as a divine eagle destroying a serpent, turning political murder into sacred myth.",
       "wikiSlug": "Suryavarman_II",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The great-uncle he killed was Dharanindravarman I, who had himself recently usurped the throne — meaning two coups in quick succession. The Garuda-kills-serpent imagery was not improvised flattery: it deliberately cast Suryavarman as the vehicle of Vishnu, pre-loading the religious logic that would later define Angkor Wat itself."
+        }
+      ],
+      "commonsFile": "Angkor_Wat-102-Spiegelung-2007-gje.jpg"
     },
     {
       "id": "evt-khmer-angkor-wat-vishnu",
       "label": "Angkor Wat dedicated to Vishnu",
       "year": 1120,
-      "description": "Almost every Khmer state temple honored Shiva; Angkor Wat is dedicated to Vishnu and faces west, the direction of death. The likeliest explanation is that it was built as Suryavarman II's funerary temple, where he would merge with the god after death.",
+      "description": "Where almost every Khmer state temple before it honored Shiva and faced east, Angkor Wat breaks both conventions — dedicated to Vishnu and oriented west toward the setting sun, the Hindu direction of death, pointing to its function as Suryavarman II's funerary temple.",
       "wikiSlug": "Angkor_Wat",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The westward orientation also means that at certain times of year the rising sun aligns perfectly with the central tower when viewed from the main causeway — an astronomical relationship that some researchers believe was deliberately engineered. The shift from Shiva to Vishnu as the royal patron deity was itself unusual and may reflect Suryavarman's personal religious commitments rather than a broader dynastic change."
+        }
+      ],
+      "commonsFile": "Buddhist_monks_in_front_of_the_Angkor_Wat.jpg"
     },
     {
       "id": "evt-khmer-angkor-wat-meru",
       "label": "Angkor Wat as a model of the cosmos",
       "year": 1130,
-      "description": "The five central towers represent the peaks of Mount Meru; the moat is the cosmic ocean; the concentric galleries are the mountain ranges of Hindu cosmology. The temple is a scale model of the universe meant to be walked through.",
+      "description": "Angkor Wat is a three-dimensional map of Hindu cosmology: its five towers are the five peaks of Mount Meru (the axis of the universe), its concentric galleries are the encircling mountain ranges, and its enormous moat is the cosmic ocean — a cosmos you are meant to walk through on foot.",
       "wikiSlug": "Angkor_Wat",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The main approach causeway stretches roughly 820 feet (250 meters) from the outer gate to the temple entrance, lined with stone balustrades shaped like the body of Naga serpents — the same cosmic serpents that appear in the Churning of the Sea of Milk relief inside. The central tower rises about 213 feet (65 meters) above the ground, making it visible from miles away across the flat Cambodian plain."
+        }
+      ],
+      "commonsFile": "2016_Angkor,_Angkor_Wat,_Główna_świątynia_(27).jpg"
     },
     {
       "id": "evt-khmer-churning-relief",
       "label": "The Churning of the Sea of Milk",
       "year": 1140,
-      "description": "Angkor Wat's most famous bas-relief shows gods and demons using the serpent Vasuki to churn the cosmic ocean for the elixir of immortality, with Vishnu presiding — over half a mile of carved galleries in total.",
+      "description": "The most famous of Angkor Wat's bas-reliefs runs nearly 160 feet (49 meters) along the east gallery and depicts the Hindu myth of the Churning of the Sea of Milk: gods and demons, using the serpent Vasuki as a cosmic rope around Mount Mandara, churning the ocean to extract the elixir of immortality, with Vishnu at the center.",
       "wikiSlug": "Samudra_Manthana",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The panel shows 92 demons pulling one end of the serpent and 88 gods pulling the other — the slight numerical imbalance is deliberate, reflecting their relative strength in the mythology. The scene includes the churning's byproducts: the goddess Lakshmi, the divine physician Dhanvantari, and the poison Halahala that Shiva must swallow to save the universe."
+        }
+      ],
+      "commonsFile": "Samudra-Manthan-The-Churning-of-the-Ocean-of-Milk.jpg"
     },
     {
       "id": "evt-khmer-historic-procession",
       "label": "The historic procession panel",
       "year": 1140,
-      "description": "One Angkor Wat gallery shows Suryavarman II himself holding court and reviewing his army — a rare near-contemporary portrait of a Khmer king and the only one labelled by inscription.",
+      "description": "On the south gallery's western half, a bas-relief shows Suryavarman II seated on a throne beneath a multi-tiered parasol, reviewing his army on the march — his name is carved in the stone beside him, making it the only securely identified, labeled portrait of a Khmer king from his own lifetime.",
       "wikiSlug": "Angkor_Wat",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The procession panel includes his commanders and their armies arranged in registers, many identified by short inscriptions, giving historians a rare organizational snapshot of a twelfth-century Khmer military force. The panel was likely carved after the 1145 sack of Vijaya, when Suryavarman's military prestige was at its peak — the victory may be what warranted the royal portrait."
+        }
+      ],
+      "commonsFile": "Suryavarman_II_Angkor_Wat_0869.jpg"
     },
     {
       "id": "evt-khmer-song-embassy",
       "label": "Embassies to Song China",
       "year": 1116,
-      "description": "Suryavarman II sent embassies to the Song court in 1116 and 1120; Chinese records ('Zhenla') describe the kingdom's wealth, war-elephants, and customs, part of the steady China–Angkor diplomatic and trade link.",
+      "description": "Suryavarman II sent formal embassies to the Song dynasty court of China in 1116 and 1120, cementing a diplomatic and trade relationship that gave the Chinese their most detailed written descriptions of the Khmer kingdom's wealth and military.",
       "wikiSlug": "Song_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Chinese records refer to the kingdom as 'Zhenla,' a name inherited from the older Chenla polity of centuries earlier — they were apparently still using the outdated label even though the Khmer Empire had existed for roughly three hundred years by then. The descriptions specifically mention war-elephants, which the Chinese found striking enough to record in detail."
+        }
+      ],
+      "commonsFile": "Beijing.China_printing_museum.Plate_of_Paper_money.Northern_Song_Dynasty.jpg"
     },
     {
       "id": "evt-khmer-champa-daiviet-wars",
       "label": "Wars against Champa and Dai Viet",
       "year": 1128,
-      "description": "Suryavarman II launched repeated invasions of Dai Viet (northern Vietnam) and Champa, sacking the Cham capital Vijaya in 1145 and briefly occupying it — aggression that helped provoke the devastating Cham counterstroke of 1177.",
+      "description": "From the late 1120s through the 1140s, Suryavarman II repeatedly attacked his neighbors — Dai Viet to the northeast and the Hindu kingdom of Champa along the Vietnamese coast — sacking the Cham capital Vijaya in 1145 in the most dramatic of these campaigns.",
       "wikiSlug": "Champa",
       "tier": 2,
       "tags": [],
       "category": "wars",
-      "endYear": 1150
+      "endYear": 1150,
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 1145 sack of Vijaya was not a permanent conquest: Champa recovered, and Suryavarman's later campaigns against Dai Viet ended in failure. The aggression created lasting enmity with Champa that would have catastrophic consequences for Angkor after Suryavarman's death — the Chams returned the favor in 1177 by sailing up the Mekong and sacking Angkor itself."
+        }
+      ],
+      "commonsFile": "2024_-_Mỹ_Sơn_Group_B,_C_and_D_-_img_03.jpg"
     },
     {
       "id": "evt-khmer-beng-mealea",
@@ -921,92 +1406,151 @@
       "id": "evt-khmer-interregnum-1150",
       "label": "Death of Suryavarman II and the slide into chaos",
       "year": 1150,
-      "description": "Suryavarman II died around 1150, probably on a failed campaign. The throne passed through weak and contested hands for a generation, leaving Angkor dangerously exposed.",
+      "description": "Suryavarman II died around 1150, probably during a failed military campaign, and the Khmer throne immediately fell into contested succession — a generation of weak kings that left the empire unable to defend itself when a devastating external attack came a generation later.",
       "wikiSlug": "Suryavarman_II",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His posthumous name Paramavishnuloka ('gone to Vishnu's supreme realm') was awarded after death rather than used in his lifetime, suggesting the deification was retrospective — the formal closing of the god-king arc his temple had staged. He died without a clear named heir, and at least two competing claimants fought for the throne in the years after his death."
+        }
+      ]
     },
     {
       "id": "evt-khmer-yasovarman-ii",
       "label": "Yasovarman II overthrown",
       "year": 1165,
-      "description": "Yasovarman II was deposed and killed by a usurping official, Tribhuvanadityavarman — the kind of internal collapse that left Angkor unable to resist the Cham attack twelve years later.",
+      "description": "Yasovarman II ruled the Khmer Empire from around 1160 until 1165, when a court official named Tribhuvanadityavarman overthrew and killed him — a violent coup that left the empire divided and leaderless just as Champa was sharpening its plans.",
       "wikiSlug": "Yasovarman_II",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yasovarman II came to power succeeding Dharanindravarman II, making his reign a brief interlude between two longer reigns. The usurper Tribhuvanadityavarman who killed him was a mandarin — a high court official — not a rival royal, which made the coup a double humiliation: not even a prince thought the throne worth waiting for. That instability directly enabled the Cham to time their 1177 attack when Angkor's political center had been hollowed out."
+        }
+      ]
     },
     {
       "id": "evt-khmer-champa-background",
       "label": "Champa, the Cham kingdom on the coast",
       "year": 1150,
-      "description": "Champa was a string of Hindu kingdoms on the central Vietnam coast whose people spoke Cham, an Austronesian language — a completely different family from the Mon-Khmer of the Khmer, as far apart as English and Malay. They were the Khmer's mirror-image maritime rival.",
+      "description": "Champa was a collection of Hindu kingdoms strung along the central coast of modern Vietnam, whose people spoke an Austronesian language — the same family as Malay and Polynesian — placing them in a completely different linguistic and cultural world from the Khmer despite sharing Indianized court culture.",
       "wikiSlug": "Champa",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Champa's roots go back to roughly the 2nd century CE, making it one of the oldest continuous polities in Southeast Asia — it only ceased to exist as a political entity in 1832, a span of roughly 1,600 years. Because the Cham were a maritime people on a coastal strip rather than a riverine people controlling an inland lake, their military power projected outward by sea in ways the Khmer, masters of the Tonlé Sap, simply couldn't match. That geographic contrast — coast vs. lake plain — is what made the 1177 naval assault a strategic surprise the Khmer had no doctrine to prevent."
+        }
+      ]
     },
     {
       "id": "evt-khmer-1177-naval-sack",
       "label": "The 1177 naval sack of Angkor",
       "year": 1177,
-      "description": "A Cham fleet under Jaya Indravarman IV sailed up the Mekong, across the Tonle Sap, and took Yasodharapura by surprise, killing the king and burning the city. It is the single greatest catastrophe in Khmer history before 1431.",
+      "description": "In 1177, Cham king Jaya Indravarman IV sent a fleet up the Mekong river, across the Tonlé Sap lake, and fell on Yasodharapura (the capital we know as Angkor) from the water side — reportedly guided by a defector — killing the Khmer king and burning the greatest city in Southeast Asia.",
       "wikiSlug": "Khmer–Cham_wars",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Khmer–Cham wars had been running since 950 CE, when it was actually the Khmer who opened hostilities by sacking the Cham principality of Kauthara. By 1177 the roles had completely reversed: the aggressor of a century earlier was now the one being sacked. The use of an inside guide — a defector who knew the lake's navigable channels — points to political fractures within Angkor itself, suggesting the capital's fall was partly an inside job. Cham occupation of the Angkor heartland then lasted roughly four years, the longest foreign military occupation the empire would ever suffer."
+        }
+      ],
+      "commonsFile": "Naval_Battle_Bayon1108.jpg"
     },
     {
       "id": "evt-khmer-cham-occupation",
       "label": "Four years of Cham occupation",
       "year": 1178,
-      "description": "From 1177 to 1181 Champa effectively occupied the Angkor region. The humiliation, and the leader who ended it, became the founding story of the reign that followed.",
+      "description": "For roughly four years — from the 1177 sack until about 1181 — Champa held the Angkor heartland, an occupation without precedent in Khmer history and the crisis that forged the empire's greatest king.",
       "wikiSlug": "Khmer–Cham_wars",
       "tier": 2,
       "tags": [],
       "category": "wars",
-      "endYear": 1181
+      "endYear": 1181,
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Bayon's outer gallery reliefs, carved a generation later, depict this occupation and its reversal in ground-level detail: capsizing war-canoes, hand-to-hand deck fighting, and crocodiles in the lake consuming the men who fell overboard. That Jayavarman VII chose to memorialize the humiliation in stone rather than erase it from the record suggests he understood the occupation as the legitimizing origin story of his reign. The wars between the two empires continued after the occupation ended, finally concluding when the Khmer voluntarily left Champa in 1220."
+        }
+      ],
+      "commonsFile": "Angkor_Thom,_Bayon_08.jpg"
     },
     {
       "id": "evt-khmer-jvii-resistance",
       "label": "The future Jayavarman VII raises resistance",
       "year": 1178,
-      "description": "A royal prince in his late fifties — the future Jayavarman VII — emerged from obscurity to lead the Khmer fightback, winning a decisive naval battle on the Tonle Sap that the Bayon reliefs would later immortalize.",
+      "description": "A royal prince already in his late fifties — the future Jayavarman VII — came out of years of obscurity during the Cham occupation to organize Khmer resistance, eventually winning a decisive naval battle on the Tonlé Sap and driving the Cham out around 1181.",
       "wikiSlug": "Jayavarman_VII",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jayavarman VII was born around 1122, making him nearly 60 at his coronation in 1181 — an extraordinarily late start for a man who would go on to build more stone monuments than any other Khmer king. His mother was Queen Sri Jayarajacudamani and his father was King Dharanindravarman II, so he had a legitimate royal pedigree; the mystery is where he spent the two or three decades before the occupation. Some sources suggest he may have spent time in Champa itself — possibly as a diplomatic envoy or even in something close to voluntary exile — which, if true, would mean the man who expelled the Cham had lived among them. He became the first Khmer king fully devoted to Buddhism, a personal conviction that reshaped every institution of the empire he rebuilt."
+        }
+      ],
+      "commonsFile": "JayavarmanVII.jpg"
     },
     {
       "id": "evt-khmer-bayon-naval-reliefs",
       "label": "The Bayon's naval battle reliefs",
       "year": 1200,
-      "description": "The outer galleries of the Bayon carry vivid carvings of the Khmer–Cham naval war: warriors, capsized boats, crocodiles eating the drowned. They are the closest thing to a documentary record of the 1177 disaster and its reversal.",
+      "description": "The outer galleries of the Bayon — Jayavarman VII's state temple at the center of Angkor Thom — carry some of the most vivid military carvings in Southeast Asia: Khmer and Cham warships, soldiers fighting on the decks, capsized boats, and crocodiles eating the drowned. They are the closest thing to a documentary record of the 1177 catastrophe and its reversal.",
       "wikiSlug": "Bayon",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Bayon was built in the late 12th or early 13th century as a Mahayana Buddhist temple centered on the Bodhisattva of compassion — an unusual choice for a temple that also serves as a war memorial. Its most recognizable feature is the forest of giant stone faces (there are over 200 of them across the towers), each representing the Bodhisattva Avalokiteshvara, or possibly Jayavarman VII himself — scholars still debate which. The naval reliefs on the outer walls occupy the lower register while celestial scenes occupy the upper, placing the messy human war literally beneath the divine order it restored."
+        }
+      ],
+      "commonsFile": "Bayon,_Angkor_Thom,_Camboya,_2013-08-17,_DD_37.JPG"
     },
     {
       "id": "evt-khmer-jvii-coronation",
       "label": "Jayavarman VII crowned at about sixty",
       "year": 1181,
-      "description": "After expelling the Cham, Jayavarman VII was crowned around 1181 at roughly sixty years old. In about forty years he built more of Angkor than any king before or since.",
+      "description": "Around 1181, after driving out the Cham invaders who had torched Angkor, Jayavarman VII was crowned king at roughly sixty years old — an age when most rulers are winding down, not gearing up for the most ambitious building program in Southeast Asian history.",
       "wikiSlug": "Jayavarman_VII",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His posthumous name, Mahaparamasaugata, is a Pali honorific meaning roughly 'the great supreme follower of the Buddha' — a title that underlines how completely he identified kingship with Buddhist devotion. He was only the second Khmer king ever to be a Buddhist, making his reign a genuine religious rupture, not just a policy tweak."
+        }
+      ]
     },
     {
       "id": "evt-khmer-mahayana-king",
       "label": "The bodhisattva-king ideology",
       "year": 1181,
-      "description": "Jayavarman VII recast Khmer kingship in Mahayana Buddhist terms: the king as a bodhisattva who postpones his own enlightenment to relieve the suffering of his people. It was a profound break from the Hindu devaraja, and it justified an enormous program of public works.",
+      "description": "Jayavarman VII recast Khmer kingship in Mahayana Buddhist terms: where Hindu kings had been god-kings housing a divine essence in stone temples, he presented himself as a bodhisattva — a being who has earned escape from the cycle of rebirth but voluntarily stays to relieve the suffering of others.",
       "wikiSlug": "Mahayana",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mahayana ('the Great Vehicle') is today the largest branch of Buddhism, covering traditions from Tibet to Japan, and the bodhisattva ideal is its defining theological contribution. By fusing the king's person with the bodhisattva ideal, Jayavarman VII turned public infrastructure — hospitals, roads, reservoirs — into sacred acts indistinguishable from temple-building, which is exactly what his inscriptions claim."
+        }
+      ],
+      "commonsFile": "Cambodian_-_Eight-armed_Avalokiteshvara_-_Walters_542726.jpg"
     },
     {
       "id": "evt-khmer-angkor-thom-city",
@@ -1022,72 +1566,118 @@
       "id": "evt-khmer-bayon-faces",
       "label": "The Bayon's face-towers",
       "year": 1200,
-      "description": "The Bayon bristles with some 200 huge serene stone faces on around fifty towers. Whether they represent the bodhisattva Avalokiteshvara, the king himself, or a deliberate fusion of both is still genuinely unsettled among scholars.",
+      "description": "Around 200 massive stone faces look out from roughly fifty towers at the Bayon — calm, faintly smiling, gazing in every direction so that from nowhere inside the temple are you unobserved. Who they represent is still a genuine scholarly dispute.",
       "wikiSlug": "Bayon",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The three competing readings — Avalokiteshvara the bodhisattva of compassion, the king himself, or a deliberate fusion of both — are not just academic hair-splitting: which one is right changes the entire meaning of the monument. The 'deliberate ambiguity' theory is increasingly favored precisely because a bodhisattva-king ideology requires the two to be inseparable. Scholars who study the Bayon full-time will tell you straight up that it remains an open question."
+        }
+      ],
+      "commonsFile": "Faces_on_Prasat_Bayon_-_Angkor_Thom_(6208401646).jpg"
     },
     {
       "id": "evt-khmer-ta-prohm-inscription",
       "label": "Ta Prohm and its census inscription",
       "year": 1186,
-      "description": "Ta Prohm's foundation stela records the staggering establishment it required: tens of thousands of villagers in attendance and over 12,000 people resident at the temple itself, a rare hard number for Angkor's scale.",
+      "description": "Ta Prohm's foundation stela is essentially a census of a small city: it records nearly 80,000 people required to maintain or serve the temple, including over 2,700 officials — one of the most precise population figures we have for any single Khmer institution.",
       "wikiSlug": "Ta_Prohm",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The narrative gives the '12,640 resident' figure; the full inscription pushes the total to nearly 80,000 when surrounding villages are included, which makes Ta Prohm's support network larger than most medieval European cities. The inscription also lists the temple's endowment in material goods: rice, cloth, and wax in quantities that underscore how vast the agricultural surplus funneled through the royal religious establishment really was."
+        }
+      ],
+      "commonsFile": "Angkor_-_Ta_Prohm_-_033_Lintel_Figures_(8581974594).jpg"
     },
     {
       "id": "evt-khmer-preah-khan",
       "label": "Preah Khan, temple for his father",
       "year": 1191,
-      "description": "A huge temple-monastery and Buddhist university honoring Jayavarman VII's father, its inscription recording nearly a thousand teachers and a population of tens of thousands attached to it.",
+      "description": "Preah Khan was built in 1191 as a Buddhist temple-university honoring Jayavarman VII's father, and its inscription records an organization of nearly 100,000 officials and servants — making it, by inscription count, the largest single institution in Khmer history.",
       "wikiSlug": "Preah_Khan",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Like Ta Prohm, Preah Khan has been left largely unrestored, with trees and vegetation still threading through the galleries. It sits just west of the Jayatataka baray (the northern reservoir), which it was designed in concert with, and northeast of Angkor Thom — the three projects formed a connected religious and hydraulic complex. The flat, gallery-based design is complicated by Hindu satellite temples added later, showing how fluidly Buddhist and Hindu sacred space coexisted even after the official state religion shifted."
+        }
+      ],
+      "commonsFile": "Preah_Khan,_Angkor,_Camboya,_2013-08-17,_DD_26.JPG"
     },
     {
       "id": "evt-khmer-neak-pean",
       "label": "Neak Pean and the Jayatataka baray",
       "year": 1191,
-      "description": "A small island temple in a new northern reservoir, conceived as the mythical Himalayan lake Anavatapta whose waters healed all illness — a watery emblem of the king's healing ideology.",
+      "description": "Neak Pean is a small island temple set in the center of the Jayatataka reservoir, conceived as Anavatapta — the mythical Himalayan lake whose four outflowing rivers were said to cure all disease — a monument that is literally a healing ideology made in water and stone.",
       "wikiSlug": "Neak_Pean",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Neak Pean means 'the entwined serpents' in Khmer, referring to the two nagas (divine serpents) coiled around the circular base of the central island. The temple served as the 'Mebon' — the island shrine — of the Preah Khan baray, the same hydraulic system that fed Preah Khan. The design is unusually intimate by Angkor standards: where other temple-mountains overwhelm with scale, Neak Pean is meant to be contemplative, a jewel in the middle of water."
+        }
+      ],
+      "commonsFile": "Neakpeancentralpond2014.jpg"
     },
     {
       "id": "evt-khmer-hospital-edicts",
       "label": "The hospital edict inscriptions",
       "year": 1186,
-      "description": "Identical stone edicts found across the empire announce a network of arogyasala (houses of the sick) endowed by the king with rice, medicine, and staff — the inscriptions that document Jayavarman VII's famous 102 hospitals.",
+      "description": "Identical stone inscriptions found from Angkor deep into modern Thailand and Laos announce royally funded 'houses for the sick' (arogyasala) — the physical documentation behind the famous claim that Jayavarman VII built 102 hospitals across the Khmer Empire.",
       "wikiSlug": "Jayavarman_VII",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The uniformity of the edicts is itself striking: the same text, the same administrative formula, reproduced in stone at dozens of sites hundreds of miles apart, which tells you there was a genuine imperial bureaucracy managing the network, not just ad hoc local charity. Each edict specifies staffing (including female practitioners for female patients) and standard supplies, suggesting something closer to a regulated system than a royal gesture."
+        }
+      ]
     },
     {
       "id": "evt-khmer-dharmasala",
       "label": "The rest-house roads",
       "year": 1190,
-      "description": "Jayavarman VII's inscriptions describe 121 'houses with fire' — rest-houses spaced a day's travel apart along the royal roads radiating from Angkor toward Phimai, Champa, and the provinces.",
+      "description": "Along the royal roads, 121 'houses with fire' (rest-houses) were spaced roughly a day's travel apart — lit beacons providing shelter, food, and fire for travelers, pilgrims, merchants, and troops moving across the empire.",
       "wikiSlug": "Ancient_Khmer_Highway",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Angkor-to-Phimai road is the best-documented stretch: 225 km (140 mi) of paved roadway with regular rest-house stops, functioning as a state-maintained highway for the movement of people, goods, and armies. The phrase 'houses with fire' in the inscriptions is evocative — it suggests that fire (for warmth, cooking, and light) was the defining amenity, the thing a traveler needed most after a day on the road. Some of these rest-house sites have been archaeologically confirmed."
+        }
+      ]
     },
     {
       "id": "evt-khmer-champa-annexed",
       "label": "The annexation of Champa",
       "year": 1203,
-      "description": "Khmer forces under Jayavarman VII overran and annexed Champa outright from about 1203 to 1220, the high-water mark of Khmer imperial reach — though the occupation proved impossible to hold.",
+      "description": "Between about 1203 and 1220, Khmer armies under Jayavarman VII conquered and outright annexed Champa — the very kingdom that had sacked Angkor in 1177 — marking the greatest territorial extent in Khmer history, though the occupation proved impossible to hold.",
       "wikiSlug": "Champa",
       "tier": 2,
       "tags": [],
       "category": "wars",
-      "endYear": 1220
+      "endYear": 1220,
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Khmer-Cham conflict had been running for over 250 years before this point, with raids and counterraids stretching back to 950 CE. The 1177 Cham sack of Angkor was the worst single blow the empire suffered before its final decline; the 1203 annexation was the full reversal. But occupying Champa's long coastal territories, stretching along what is now central Vietnam, was a different challenge from defeating it in battle, and the Khmer voluntarily withdrew in 1220."
+        }
+      ]
     },
     {
       "id": "evt-khmer-jayarajadevi",
@@ -1103,11 +1693,17 @@
       "id": "evt-khmer-jvii-death",
       "label": "Death of Jayavarman VII and imperial exhaustion",
       "year": 1218,
-      "description": "Jayavarman VII died around 1218. Many historians argue his colossal building program drained the treasury, labor, and land of the empire, leaving a magnificent but overextended state to his heirs — a debated but influential thesis.",
+      "description": "Jayavarman VII died around 1218, leaving behind the most ambitious construction program in Southeast Asian history — and a debate, still unresolved, about whether that program spent the empire's future along with its present.",
       "wikiSlug": "Jayavarman_VII",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 'exhaustion thesis' — that colossal corvée labor and treasury drain broke the empire — is vivid and influential but remains contested. What is solidly established: after his death around 1218, no Khmer king ever built on anything like that scale again, and the empire's outer territories began contracting almost immediately. The question of cause versus coincidence is the argument the book returns to in Chapter 10."
+        }
+      ]
     },
     {
       "id": "evt-khmer-indravarman-ii",
@@ -1124,314 +1720,519 @@
       "id": "evt-khmer-jayavarman-viii",
       "label": "Jayavarman VIII and the Hindu reaction",
       "year": 1243,
-      "description": "Jayavarman VIII presided over a violent Hindu backlash: thousands of Buddha images at the Bayon and other temples were smashed or recut into Shiva lingas. The defaced statues are still visible today.",
+      "description": "Jayavarman VIII (reigning 1243–1295) reversed his predecessor's Buddhism and ordered a systematic smashing of Buddha images across Angkor's temples, recuting many into Shiva lingas — a deliberate act of religious erasure you can still see in the empty niches and chiseled stones at the Bayon today.",
       "wikiSlug": "Jayavarman_VIII",
       "tier": 2,
       "tags": [],
       "category": "religion",
-      "endYear": 1295
+      "endYear": 1295,
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jayavarman VIII was overthrown in 1295 by his own son-in-law, Srindravarman, which ended the Hindu reaction almost immediately. His reign also produced the only significant Mongol diplomatic pressure on Angkor: Kublai Khan's Yuan dynasty demanded submission, and Jayavarman VIII chose tribute over war. His posthumous name, Paramesvarapada, translates roughly as 'he whose feet are at the highest lord' — a very Shaivite title for a very Shaivite king."
+        }
+      ]
     },
     {
       "id": "evt-khmer-mongol-threat",
       "label": "The Mongol Yuan threat",
       "year": 1283,
-      "description": "Kublai Khan's Yuan armies, having attacked Champa and Dai Viet, demanded Khmer submission around 1283; Angkor sent tribute and avoided invasion, unlike its neighbors. The episode shows Angkor still mattered on the Asian stage.",
+      "description": "Around 1283, Kublai Khan's Yuan dynasty demanded that Angkor acknowledge Mongol overlordship; unlike neighboring Champa and Dai Viet, which fought and suffered devastating raids, the Khmer court sent tribute and bought peace — a pragmatic choice that kept the city intact.",
       "wikiSlug": "Mongol_invasions_of_Vietnam",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mongol campaigns against Dai Viet involved three major invasions (1258, 1284–85, and 1287–88) and against Champa one large campaign; both kingdoms suffered enormous destruction but ultimately repelled Mongol occupation. Angkor's tributary submission placed it in the same category as many other Southeast Asian polities that chose accommodation: the Yuan accepted tribute as a face-saving alternative to costly jungle warfare. The episode confirms that in the 1280s Angkor was still a major enough regional power to be worth threatening rather than simply ignoring."
+        }
+      ],
+      "commonsFile": "Yuan_invasions_of_Southeast_Asia.jpg"
     },
     {
       "id": "evt-khmer-srindravarman",
       "label": "Srindravarman converts to Theravada",
       "year": 1295,
-      "description": "Srindravarman, who took the throne in 1295, is associated with the decisive royal turn to Theravada Buddhism — the austere, monastic, Pali-scripture form that would soon make the god-king temple economy obsolete.",
+      "description": "When Srindravarman took the Khmer throne around 1295, the court adopted Theravada Buddhism — the older, monk-centered, Pali-scripture form — marking the definitive end of the god-king religious model that had built Angkor.",
       "wikiSlug": "Theravada",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theravada is Buddhism's oldest surviving school, tracing an unbroken line through the Pali Canon for over two thousand years. It came to Cambodia not by royal decree from above but by popular spread from Sri Lanka through Mon and Tai communities — ordinary monks, village monasteries, and vernacular scripture. That bottom-up path is exactly what made it so hard for any future king to reverse."
+        }
+      ],
+      "commonsFile": "AjahnChahSangha.jpg"
     },
     {
       "id": "evt-khmer-zhou-customs",
       "label": "Zhou Daguan's 'Customs of Cambodia'",
       "year": 1297,
-      "description": "The Yuan envoy Zhou Daguan spent nearly a year at Angkor in 1296–97 and wrote the only detailed eyewitness account of the living city: its markets, slavery, women traders, royal processions, trial-by-ordeal, and festivals. Almost everything we know about daily Angkorian life comes from this one short book.",
+      "description": "Zhou Daguan's short book 'The Customs of Cambodia,' written after he returned to China, is the only detailed eyewitness account of daily life inside the Khmer Empire: markets run overwhelmingly by women, a tiered slavery system, royal processions on elephants, trial by ordeal, and the goods the Chinese wanted most (kingfisher feathers, ivory, aromatic woods).",
       "wikiSlug": "Zhou_Daguan",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The book notes that trade at Angkor's markets was conducted almost entirely by women — a detail that surprised the Chinese observer and has no parallel in court inscriptions. Zhou also observed strict sumptuary laws governing roofing material: only the king could tile his palace, while commoners were restricted to thatch. The work was translated into French in the nineteenth century and only into English in the twentieth; Paul Pelliot's annotated French edition remains a scholarly standard."
+        }
+      ],
+      "commonsFile": "Mémoires_sur_les_coutumes_du_Cambodge_de_Tcheou_Ta-Kouan.jpg"
     },
     {
       "id": "evt-khmer-society-slavery",
       "label": "Khmer society: rank, labor, and slavery",
       "year": 1250,
-      "description": "Angkorian society ran on graded obligation: temple workers, bonded laborers, and slaves drawn from upland peoples, below a thin elite of officials, brahmins, and monks. Inscriptions list temple workforces by the thousand.",
+      "description": "Angkorian society was sharply stratified from princes and Brahmins down through monks, freemen, and a large population of bonded laborers and slaves, many drawn from upland peoples — the workforce that maintained temples, farmed rice lands, and carried the hydraulic city.",
       "wikiSlug": "Khmer_Empire",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Temple inscriptions list workforces by the thousand, recording names, tasks, and origins of slaves attached to specific sanctuaries. Some inscriptions suggest slaves could hold property and have legal standing in limited ways, though they remained bound to their temple. The Khmer word for upland peoples used in these contexts signals that slavery disproportionately fell on ethnic minorities from the forested highlands, not on the lowland Khmer core population."
+        }
+      ],
+      "commonsFile": "Angkor-Banteay_Srei-18-Prasats-Suedliche_Bibliothek-2007-gje.jpg"
     },
     {
       "id": "evt-khmer-tonle-sap-fishery",
       "label": "The Tonle Sap fishery",
       "year": 1250,
-      "description": "The reversing flow of the Tonle Sap — the river that runs backward each monsoon — created one of the most productive inland fisheries on Earth, the protein supply that fed Angkor's enormous population.",
+      "description": "The Tonlé Sap lake in Cambodia performs a remarkable annual reversal: each monsoon season the Mekong floods so high that the lake's outlet river actually reverses direction and the lake expands to four or five times its dry-season size, creating one of the most productive freshwater fisheries on Earth and the protein engine of Angkor's enormous population.",
       "wikiSlug": "Tonl%C3%A9_Sap",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At peak flood the Tonlé Sap expands from roughly 2,500 square kilometers to around 16,000 square kilometers, inundating forests and creating ideal spawning conditions for dozens of fish species. Zhou Daguan described the fish as so abundant that nets were almost unnecessary in parts of the lake. This same fishery still makes Cambodia one of the world's highest per-capita consumers of freshwater fish today."
+        }
+      ]
     },
     {
       "id": "evt-khmer-rice-cropping-debate",
       "label": "The rice-cropping debate",
       "year": 1250,
-      "description": "How intensively Angkor farmed — single, double, or triple rice crops a year, and how much the barays irrigated — is fiercely debated. Groslier's high estimates have been cut sharply by later soil and survey work, lowering older million-plus city population guesses.",
+      "description": "Historians still argue over how many rice harvests per year Angkor's hydraulic system actually produced, because the answer determines whether the city held hundreds of thousands or close to a million people at its height — one of the most contested questions in Southeast Asian archaeology.",
       "wikiSlug": "Angkor",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bernard-Philippe Groslier, the French archaeologist who dominated Angkor studies for decades, argued for an intensive multi-crop system that could feed a million people — the 'hydraulic city' model. Later soil sampling and pollen analysis have been skeptical, finding evidence that some of the great barays (reservoirs) were underused or silted early. The lidar surveys discussed in Chapter 10 added a new dimension by showing how geographically extensive Angkor was, which could support either side depending on how one models density versus extent."
+        }
+      ],
+      "commonsFile": "Angkor_Chau_Say_Tevoda_2009.jpg"
     },
     {
       "id": "evt-khmer-last-sanskrit",
       "label": "The last great Sanskrit inscription",
       "year": 1327,
-      "description": "The inscription of Jayavarmaparamesvara in 1327 is the last major Sanskrit royal inscription at Angkor. Its silence afterward marks the end of the brahmin-Sanskrit court culture that had run the empire for five centuries.",
+      "description": "The royal inscription of 1327, carved in Sanskrit, is the last major Sanskrit-language dedication at Angkor — after it, the brahmin court culture that had sustained the empire's ideology for five centuries goes silent, not conquered but simply no longer in demand.",
       "wikiSlug": "Sanskrit",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sanskrit had reached Cambodia as part of the broader Indianization of Southeast Asia in the early medieval period, arriving not through conquest but through Brahmin priests, court culture, and religious prestige. At Angkor it functioned as the exclusive language of royal inscriptions and temple dedications — nothing secular, nothing vernacular. The 1327 inscription's silence is all the more striking because Khmer-language inscriptions continued for some time after: the court dropped Sanskrit before it dropped writing altogether, suggesting a deliberate cultural shift rather than administrative collapse."
+        }
+      ],
+      "commonsFile": "1010_CE_Brihadishwara_Shiva_Temple,_inscription,_built_by_Rajaraja_I,_Thanjavur_Tamil_Nadu_India.jpg"
     },
     {
       "id": "evt-khmer-theravada-shift",
       "label": "Why Theravada changed everything",
       "year": 1300,
-      "description": "Theravada Buddhism needed no god-king and no giant state temple, only monks and modest wooden monasteries. It quietly removed the entire religious justification for the monumental building and forced labor the Angkorian state was built on.",
+      "description": "Theravada Buddhism required no god-king, no mountain-temple uniting ruler and cosmos, and no army of corvée laborers hauling stone — only monks, the Pali scriptures, and a modest wooden monastery per village, quietly removing the religious reason for everything Angkor's state economy was built on.",
       "wikiSlug": "Theravada",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The shift was not a conquest or a revolution — no inscriptions announce it, no king formally abolished the devaraja cult. Instead the state simply stopped producing the Sanskrit inscriptions, temple dedications, and divine-kingship rituals that had generated almost all the Angkorian written record. Historians notice the silence more than any single event: the gap between 'inscriptions still happening' and 'no more inscriptions' is what marks the end of the old system."
+        }
+      ],
+      "commonsFile": "018_Sakka_in_Tavatimsa_Heaven_(30583616922).jpg"
     },
     {
       "id": "evt-khmer-no-more-temples",
       "label": "The end of monumental construction",
       "year": 1300,
-      "description": "After Jayavarman VII no king built another great stone temple. The clearest visible sign of Angkor's transformation is simply that the building, after five centuries, stops.",
+      "description": "After Jayavarman VII, no Khmer king ever commissioned another great stone temple — the five-century tradition of building mountain-temples for the gods simply stops, the most visible sign that the civilization had become something fundamentally different.",
       "wikiSlug": "Angkor",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The temple-building tradition depended on a Hindu-Brahminical theology in which the king was a god-king whose merit was expressed in stone; once Theravada Buddhism took hold — which teaches that kings earn merit through giving, not building monuments to themselves — the entire religious justification for massive construction evaporated. Angkor Thom, the last great royal city, was essentially Jayavarman VII's final statement: everything built after 1220 or so is modification, repair, or small-scale addition, never a new monument of comparable scale."
+        }
+      ]
     },
     {
       "id": "evt-khmer-sukhothai",
       "label": "The rise of the Tai kingdoms",
       "year": 1238,
-      "description": "Tai-speaking peoples, long present on Angkor's western frontier, founded independent kingdoms — Sukhothai around 1238, then the far more powerful Ayutthaya in 1351 — turning the old Khmer west into the Khmer's deadliest enemy.",
+      "description": "Tai-speaking peoples on Angkor's western frontier founded the kingdom of Sukhothai around 1238, the first of the independent Siamese polities that would eventually produce the civilization that finished the Angkorian era.",
       "wikiSlug": "Sukhothai_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sukhothai evolved from a trading hub into a full kingdom under Si Inthrathit in 1238, and it absorbed enormous amounts of Khmer political culture, court ritual, and artistic style in the process — the Khmer essentially taught their western neighbors how to run a kingdom. Sukhothai remained independent until 1438, when it came under the influence of its far more powerful southern neighbor, Ayutthaya, the kingdom that would ultimately sack Angkor."
+        }
+      ],
+      "commonsFile": "Bangkok_National_Museum_-_2017-04-22_(008).jpg"
     },
     {
       "id": "evt-khmer-ayutthaya-founded",
       "label": "Ayutthaya founded",
       "year": 1351,
-      "description": "The Siamese kingdom of Ayutthaya, founded in 1351 on the lower Chao Phraya, inherited Khmer statecraft and court culture and then spent a century attacking Angkor itself.",
+      "description": "The kingdom of Ayutthaya, founded in 1351 on the lower Chao Phraya river in what is now Thailand, absorbed the Khmer model of Indianized kingship so thoroughly that it became the Khmer Empire's most dangerous enemy — a civilization shaped in Angkor's image that spent a century dismantling it.",
       "wikiSlug": "Ayutthaya_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "European travelers in the early 16th century ranked Ayutthaya as one of the three great powers of Asia — a striking rise for a kingdom barely a century and a half old. The Ayutthaya Kingdom survived until 1767, making it one of the longest-lasting polities in Southeast Asian history, and its political and cultural legacy is considered the direct foundation of modern Thailand."
+        }
+      ],
+      "commonsFile": "02-ปราสาทนครหลวง.jpg"
     },
     {
       "id": "evt-khmer-siamese-sieges",
       "label": "The Siamese sieges of Angkor",
       "year": 1369,
-      "description": "Ayutthayan chronicles record repeated sieges and captures of Angkor across the late 14th and early 15th centuries, each one carrying off people and treasure and making the exposed lakeside capital harder to hold.",
+      "description": "Ayutthayan armies attacked Angkor repeatedly across the late 14th and early 15th centuries — campaigns in 1352, 1369, and 1389 that carried off people, treasure, and sacred images, grinding down a capital already weakened from within.",
       "wikiSlug": "Ayutthaya_Kingdom",
       "tier": 2,
       "tags": [],
       "category": "wars",
-      "endYear": 1431
+      "endYear": 1431,
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The carrying-off of sacred images was not simply looting — in Indianized Southeast Asian warfare, capturing a kingdom's protective deity statues was understood as spiritually defeating the kingdom itself, stripping it of divine protection. Each raid also stripped Angkor of the skilled craftspeople and court officials needed to maintain a functioning capital, so the sieges compounded the administrative collapse already under way."
+        }
+      ],
+      "commonsFile": "001_Wihan_Phra_Mongkhon_Bophit_(9197756441).jpg"
     },
     {
       "id": "evt-khmer-canal-decay",
       "label": "Decay of the hydraulic network",
       "year": 1350,
-      "description": "Excavation shows Angkor's vast canal and reservoir system silting up, being patched, and partly breaking down in the 14th–15th centuries — a slow infrastructural failure that left the city more fragile with every flood and drought.",
+      "description": "Archaeological excavation shows Angkor's vast network of canals, reservoirs, and distribution channels slowly silting up, being patchily repaired, and partly breaking down across the 14th and 15th centuries — a long infrastructural unraveling that left the city increasingly vulnerable to both flood and drought.",
       "wikiSlug": "Angkor",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Modern ground-penetrating radar surveys have revealed the full extraordinary scale of Angkor's water management system — hundreds of kilometers of channels and embankments — making the failure of that system one of the largest infrastructure collapses in pre-modern history. Research published in the 2010s suggests that extreme monsoon variability (intense floods alternating with droughts) in the late 14th and early 15th centuries accelerated the breakdown of channels already suffering from deferred maintenance and a shrinking labor force."
+        }
+      ],
+      "commonsFile": "Angkor_Thom_Porta_Sud_interior.jpg"
     },
     {
       "id": "evt-khmer-move-phnom-penh",
       "label": "The court moves south to Phnom Penh",
       "year": 1432,
-      "description": "After the 1431 sack the Khmer court relocated to the Chaktomuk–Phnom Penh area near the river confluence, closer to maritime trade and farther from Ayutthaya — a strategic shift as much as a flight.",
+      "description": "After the 1431 sack the Khmer court relocated south to the Chaktomuk area and eventually Phnom Penh, at the confluence of the Tonlé Sap and Mekong rivers — a position far better suited to the maritime trade economy that was replacing the old rice-surplus empire.",
       "wikiSlug": "Phnom_Penh",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The city's name derives from Wat Phnom, a Buddhist temple, and Lady Penh, its legendary founder — a distinctly Theravada-inflected origin story that signals how fully the new capital belonged to the post-Angkorian religious world. Phnom Penh's location at the junction of the Tonlé Sap and Mekong made it a natural hub for the riverine and coastal trade networks that post-Angkorian Cambodia would depend on instead of the old inland agricultural surplus model."
+        }
+      ],
+      "commonsFile": "2016_Phnom_Penh,_Budynek_sądu_(04).jpg"
     },
     {
       "id": "evt-khmer-wat-continues",
       "label": "Angkor Wat was never truly abandoned",
       "year": 1450,
-      "description": "Angkor Wat itself was continuously maintained as a Theravada Buddhist pilgrimage temple after 1431, with monks, inscriptions, and Japanese and other pilgrims into the 17th century. The 'lost city swallowed by jungle' is a Western myth — the great temple was always known and used.",
+      "description": "Angkor Wat was never abandoned — after the court left in 1431 the great temple complex was converted into a Theravada Buddhist monastery and pilgrimage site, continuously maintained by monks and visited by pilgrims for centuries, including Japanese visitors who left 16th- and 17th-century graffiti on its walls.",
       "wikiSlug": "Angkor_Wat",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Angkor Wat is the largest religious complex in the world, covering a site of 162.6 hectares, and it has been in continuous use as an active center of Buddhist worship from the late 13th century to the present day. The \"lost city swallowed by the jungle\" narrative — the most famous thing most people think they know about Angkor — is a European invention: Cambodian kings, monks, and pilgrims never lost track of the temple, and Khmer royal inscriptions were still being added to its walls in the 1500s."
+        }
+      ]
     },
     {
       "id": "evt-khmer-middle-period",
       "label": "Cambodia's Middle Period",
       "year": 1500,
-      "description": "Post-Angkorian Cambodia — the 'Middle Period,' centered on Lovek and Oudong — was a smaller Theravada kingdom squeezed between expanding Siam and Vietnam, the long political twilight after the empire.",
+      "description": "Post-Angkorian Cambodia — historians call this the 'Middle Period' — was a smaller Theravada Buddhist kingdom centered first at Lovek and then Oudong, squeezed politically between an expanding Siam to the west and a growing Vietnamese presence to the east.",
       "wikiSlug": "History_of_Cambodia",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The shift from Angkorian to Middle Period Cambodia represents a near-total restructuring of how the state worked: the great hydraulic rice-surplus economy of the inland capital gave way to a trading-state model, relying on river commerce and coastal connections rather than monumental irrigation and temple-centered surplus extraction. The Middle Period lasted roughly from the mid-15th century until the French colonial period in the 19th century — nearly four centuries of Cambodian history that most Western accounts skip almost entirely in favor of ancient Angkor."
+        }
+      ],
+      "commonsFile": "AMH-7235-KB_Bird's_eye_view_of_Eauweck.jpg"
     },
     {
       "id": "evt-khmer-ang-chan-reoccupation",
       "label": "Ang Chan's brief reoccupation",
       "year": 1550,
-      "description": "In the 16th century King Ang Chan I briefly re-established a royal presence at Angkor and added inscriptions and reliefs to the still-functioning Angkor Wat, evidence the site never left Khmer memory.",
+      "description": "King Ang Chan I, who reigned from 1516 to 1566, briefly re-established a royal presence at Angkor and added new bas-relief carvings and inscriptions to Angkor Wat — proof that the site never left Khmer royal memory in the centuries after the court moved south.",
       "wikiSlug": "Ang_Chan_I",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ang Chan I's reign was itself a story of Cambodian resilience and entanglement with Siam: he was ousted by a usurper in 1512, fled to Siam, and returned with a Siamese army in 1516 to reclaim his throne — the very kingdom that had sacked Angkor now helping a Khmer king back to power, a sign of how fluid the political relationships were. His additions to Angkor Wat are among the few datable post-Angkorian inscriptions on the monument and are key evidence for historians reconstructing the site's post-1431 history."
+        }
+      ],
+      "commonsFile": "Angkor_Vat_(6931599619).jpg"
     },
     {
       "id": "evt-khmer-groslier-thesis",
       "label": "Groslier's hydraulic-collapse thesis",
       "year": 1979,
-      "description": "Bernard-Philippe Groslier argued in 1979 that Angkor was a 'hydraulic city' whose overextended, silt-choked waterworks collapsed under its own weight. Hugely influential, it has since been heavily qualified rather than discarded.",
+      "description": "In 1979, the archaeologist Bernard-Philippe Groslier proposed that Angkor was essentially a giant water-management machine (a 'hydraulic city') whose aging canals and reservoirs silted up and failed, starving the population and triggering collapse. It was the dominant explanation for a generation.",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Groslier coined the term 'hydraulic city' for Angkor in the 1970s, arguing that the entire civilization was built around an industrial-scale irrigation network. Later LiDAR surveys confirmed the water network's extraordinary scale, but also showed it was far more distributed and locally managed than Groslier's single-machine model assumed. The thesis wasn't wrong about infrastructure stress — it was wrong about having a single cause."
+        }
+      ],
+      "commonsFile": "Angkor_SPOT_1184.jpg"
     },
     {
       "id": "evt-khmer-climate-evidence",
       "label": "The climate evidence",
       "year": 2010,
-      "description": "Tree-ring studies (Buckley and colleagues, 2010) showed that 14th–15th-century Southeast Asia swung between severe multi-decade droughts and violent monsoons — extreme stress on a water-management city, now seen as a major contributing cause of Angkor's decline.",
+      "description": "In 2010, dendrochronologist Brendan Buckley and colleagues published tree-ring data showing that 14th- and 15th-century mainland Southeast Asia endured wild climate swings — long droughts followed by violent monsoon floods — exactly the worst possible conditions for an aging reservoir-and-canal system.",
       "wikiSlug": "Angkor",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The tree-ring records came from rare long-lived cypress species in the region, one of the only climate proxies precise enough to resolve decade-by-decade conditions for medieval Southeast Asia. The data revealed at least two prolonged 'megadroughts' in the 14th and 15th centuries, separated by years of extreme flooding. This wasn't just 'dry then wet' — the rapid alternation made it impossible for the Khmer's slow-response earthwork reservoirs (the barays) to buffer effectively."
+        }
+      ]
     },
     {
       "id": "evt-khmer-collapse-consensus",
       "label": "The multi-causal consensus",
       "year": 2015,
-      "description": "Modern scholarship treats Angkor's decline as no single 'fall' but a convergence: climate shocks, hydraulic decay, the Theravada shift away from the temple economy, Ayutthayan war, and the pull of maritime trade toward the coast.",
+      "description": "The current scholarly consensus on Angkor's end is deliberately multi-causal: climate shocks, hydraulic decay, the Theravada Buddhist shift that made the old god-king temple economy obsolete, the pull of maritime trade toward the coast, and Ayutthayan war pressure all converged. No single 'fall.'",
       "wikiSlug": "Angkor",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Angkor and the Classic Maya are the two most-cited test cases in the global academic debate about 'civilizational collapse' — and in both cases the last two decades of research have produced the same finding: the dramatic single-cause story is the wrong one. The scholarly phrase now used is 'urban transformation' rather than 'collapse,' reflecting that population didn't vanish but redistributed toward the coast and Phnom Penh."
+        }
+      ]
     },
     {
       "id": "evt-khmer-european-visitors",
       "label": "First European visitors",
       "year": 1586,
-      "description": "Portuguese travelers — the friar Antonio da Magdalena around 1586, later retold by the chronicler Diogo do Couto — left the earliest European descriptions of Angkor Wat, calling it the work of a vanished, impossible civilization.",
+      "description": "Portuguese friar António da Madalena visited Angkor Wat around 1586 and left the earliest European written account, preserved by the chronicler Diogo do Couto, calling it so extraordinary that 'it is not possible to describe it with a pen.' He was by no means alone — Angkor Wat was a functioning pilgrimage temple that European travelers could and did visit.",
       "wikiSlug": "Angkor_Wat",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Da Madalena's account, written around 1586 and preserved in Diogo do Couto's 'Décadas da Ásia,' is considered the oldest surviving European description of Angkor Wat. He attributed the temple's construction to Alexander the Great, which tells you how outside the European frame of reference a Khmer temple complex was. Japanese pilgrims left graffiti at Angkor Wat in the early 17th century, and a Japanese map from around 1620 depicts the complex — evidence that Asian awareness of the site never lapsed."
+        }
+      ]
     },
     {
       "id": "evt-khmer-mouhot",
       "label": "Henri Mouhot publicizes Angkor",
       "year": 1860,
-      "description": "The French naturalist Henri Mouhot visited Angkor in 1860; his posthumously published journal made it a Western sensation. He did not 'discover' it — Cambodians had never lost it — but he turned it into a global icon.",
+      "description": "French naturalist Henri Mouhot visited Angkor in 1860, and his posthumously published journal (he died of typhoid fever in Laos in 1861) turned the temples into a European sensation. He is conventionally called the 'discoverer' of Angkor — a label the chapter dismantles, since Cambodians had never stopped using the site.",
       "wikiSlug": "Henri_Mouhot",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mouhot was in Cambodia primarily to collect beetles and butterflies for European natural history collections, not to find ancient ruins. His journal, published in 'Le Tour du Monde' in 1863, reached a huge audience and directly inspired French colonial interest in the region. Local guides led him to Angkor Wat — the temple had resident monks and active worshippers the whole time."
+        }
+      ],
+      "commonsFile": "Henri_Mouhot.jpg"
     },
     {
       "id": "evt-khmer-efeo",
       "label": "The École française d'Extrême-Orient",
       "year": 1907,
-      "description": "From 1907 the EFEO ran nearly a century of clearance, study, and 'anastylosis' restoration at Angkor, reassembling collapsed temples from their original stones — the work that made the park visitable and shaped what tourists see.",
+      "description": "From 1907, the École française d'Extrême-Orient (EFEO — France's Far East research institute) ran nearly a century of clearing, excavation, and reconstruction at Angkor. Their core method was anastylosis (reassembling a collapsed structure from its own original stones, adding minimal new material), which is why visitors today see standing temples rather than rubble fields.",
       "wikiSlug": "%C3%89cole_fran%C3%A7aise_d%27Extr%C3%AAme-Orient",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The EFEO's most famous anastylosis project was the Baphuon temple, which had collapsed into roughly a million loose stones. When the Khmer Rouge drove the EFEO out in 1972, the team's documentation notes were destroyed — meaning they had to reconstruct which stone went where largely from scratch when work resumed in the 1990s. The Baphuon was finally completed in 2011, nearly a century after the project began."
+        }
+      ]
     },
     {
       "id": "evt-khmer-angkor-returned",
       "label": "Angkor returned to Cambodia",
       "year": 1907,
-      "description": "The Angkor region had been under Siamese control; a 1907 Franco-Siamese treaty transferred it back, putting the monuments inside French-protectorate Cambodia and, later, the independent nation.",
+      "description": "The Angkor region had been under Siamese (Thai) control since the 15th century; a 1907 treaty negotiated under French pressure transferred it back to French-protectorate Cambodia, putting the monuments inside the country that built them — the administrative fact that made a Cambodian UNESCO claim possible decades later.",
       "wikiSlug": "Franco-Siamese_War",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The transfer was part of a broader Franco-Siamese negotiation in which France, already controlling Indochina, pressured Siam to cede the northwest Cambodian provinces including Siem Reap and Battambang. Siam got other border concessions in return. The 1907 transfer is why the Preah Vihear temple dispute of 2008–2013 could be adjudicated by the World Court as a Cambodia–Thailand border question at all."
+        }
+      ],
+      "commonsFile": "The_Franco-Siamese_Frontier_Dispute,_the_French_forcing_the_Menam_-_The_Graphic_-_1893.jpg"
     },
     {
       "id": "evt-khmer-flag",
       "label": "Angkor Wat on the national flag",
       "year": 1953,
-      "description": "Angkor Wat appears on every Cambodian flag since independence in 1953 — through monarchy, republic, the Khmer Rouge, and today — the only world flag to feature a building, and the spine of modern Cambodian identity.",
+      "description": "Angkor Wat has appeared on every Cambodian national flag since independence in 1953 — through the monarchy, the Khmer Republic, the Khmer Rouge's Democratic Kampuchea, and the present state. It is the only national flag on Earth to depict a building.",
       "wikiSlug": "Flag_of_Cambodia",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Khmer Rouge, who despised most traditional Cambodian culture and attempted to erase the pre-revolutionary past, nonetheless kept Angkor Wat on their flag — a measure of how foundational the symbol was. Even they could not afford to discard it. The flag's design (blue-red-blue bands with a white Angkor Wat silhouette) dates to independence negotiations in 1948, predating the formal 1953 independence date."
+        }
+      ]
     },
     {
       "id": "evt-khmer-rouge-damage",
       "label": "War, the Khmer Rouge, and looting",
       "year": 1975,
-      "description": "Angkor lay in a war zone from the 1970s into the 1990s: Khmer Rouge occupation, landmines, neglect, and heavy statue looting and trafficking did more damage in two decades than the previous five centuries of jungle.",
+      "description": "From the early 1970s through the late 1990s, Angkor sat inside an active war zone — Khmer Rouge occupation and genocide, Vietnamese invasion, insurgency in the surrounding jungle, and landmines throughout the fields. The statue looting and trafficking during those decades did more physical damage to Angkor's sculpture than the previous five centuries of forest encroachment.",
       "wikiSlug": "Khmer_Rouge",
       "tier": 2,
       "tags": [],
       "category": "wars",
-      "endYear": 1998
+      "endYear": 1998,
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Khmer Rouge's four-year rule (1975–1979) killed an estimated 1.5 to 2 million people — roughly a quarter of Cambodia's population. The sculptures stripped from Angkor during the conflict period ended up in European and American art markets and museums; repatriation cases are still being litigated decades later. APSARA Authority surveys after the war found thousands of statue bases with severed heads, the heads having been sawed off for export."
+        }
+      ],
+      "commonsFile": "Bullet_holes_at_angkor_wat.jpg"
     },
     {
       "id": "evt-khmer-unesco",
       "label": "UNESCO World Heritage listing",
       "year": 1992,
-      "description": "Angkor was inscribed as a World Heritage Site in 1992 and immediately placed on the danger list, triggering a large international rescue and conservation effort coordinated through the Cambodian APSARA Authority.",
+      "description": "Angkor was inscribed as a UNESCO World Heritage Site in 1992 and simultaneously placed on the danger list, reflecting the site's post-war state of deterioration and active looting. The listing triggered a coordinated international conservation response managed through Cambodia's APSARA Authority.",
       "wikiSlug": "Angkor",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 'danger list' designation was unusual — most sites are inscribed as heritage first, and only later flagged as at risk. Angkor's simultaneous inscription-plus-danger-listing reflected the urgency: the country had just emerged from decades of war and the site was being actively stripped. APSARA (the Authority for the Protection and Management of Angkor and the Region of Siem Reap) was established in 1995 specifically to manage the site. Angkor was removed from the danger list in 2004, one of the faster recoveries in UNESCO's history."
+        }
+      ]
     },
     {
       "id": "evt-khmer-lidar",
       "label": "The LiDAR revolution",
       "year": 2012,
-      "description": "Airborne laser scanning by the Greater Angkor Project (2007, 2012, 2015; Evans and colleagues) stripped away the forest digitally and revealed Angkor as a low-density urban sprawl of perhaps 1,000 square kilometers — among the largest pre-industrial settlements ever found, and a rewrite of the whole 'collapse' picture.",
+      "description": "Beginning in 2007 and most dramatically in 2012 and 2015, the Greater Angkor Project flew LiDAR (airborne lasers that pulse through forest canopy and time the returns off bare ground) over the region. The results were transformative: Angkor was not a cluster of temples in the jungle but a continuous low-density urban sprawl covering roughly 1,000 square kilometers — one of the largest pre-industrial settlements ever identified on Earth.",
       "wikiSlug": "Angkor",
       "tier": 1,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 2015 LiDAR survey, led by archaeologist Damian Evans, covered 734 square kilometers in a single two-week flight — more area than any previous airborne survey in archaeology. It revealed not just the scale of Angkor but previously unknown large cities nearby (including Mahendraparvata on Phnom Kulen, the possible site of the 802 founding ceremony) that had been completely invisible under the forest. The survey also found that Angkor's water network was even more extensive and complex than Groslier had imagined — vindicating the 'hydraulic city' idea in scale while complicating it in structure."
+        }
+      ]
     },
     {
       "id": "evt-khmer-tourism",
       "label": "Mass tourism and Angkor today",
       "year": 2010,
-      "description": "Angkor draws millions of visitors and is the engine of Cambodia's tourism economy, creating a new tension between the site as living heritage, national symbol, and managed attraction.",
+      "description": "Angkor draws millions of visitors a year (over 2 million annually before COVID) and is the backbone of Cambodia's tourism economy, creating the central management tension the APSARA Authority now navigates: preserving a fragile ancient site that is simultaneously a living Buddhist shrine and the country's primary revenue-generating attraction.",
       "wikiSlug": "Angkor",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sunrise at Angkor Wat has become one of the most photographed moments in Southeast Asian tourism, drawing thousands of visitors to the western causeway before dawn. Tourism revenue funds conservation but also drives the groundwater depletion (from hotels and development in Siem Reap) that is now considered a serious structural threat to the temples' foundations — a modern hydraulic problem the Khmer could not have anticipated."
+        }
+      ]
     },
     {
       "id": "evt-khmer-preah-vihear-dispute",
       "label": "The Preah Vihear border conflict",
       "year": 2008,
-      "description": "A modern Cambodia–Thailand armed dispute over the 11th-century Preah Vihear temple — awarded to Cambodia by the World Court in 1962 and reaffirmed in 2013 — showing Angkorian monuments are still live political symbols.",
+      "description": "Preah Vihear, an 11th-century Khmer cliff temple on the Thai-Cambodian border, was first awarded to Cambodia by the International Court of Justice in 1962. Its 2008 UNESCO listing reignited the dispute, triggering armed clashes along the border in 2008–2011 that killed dozens. The World Court reaffirmed Cambodia's title in 2013.",
       "wikiSlug": "Cambodian%E2%80%93Thai_border_dispute",
       "tier": 3,
       "tags": [],
       "category": "wars",
-      "endYear": 2013
+      "endYear": 2013,
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 2008–2011 clashes were the most serious military conflict between Cambodia and Thailand in decades, with both sides deploying artillery and infantry. The dispute was partly about the temple, but also about the surrounding 4.6-square-kilometer buffer zone, which Thailand disputed as sovereign territory. The 2013 ICJ ruling clarified that the whole promontory, not just the temple structure, belonged to Cambodia — a distinction that had been legally ambiguous since the 1962 decision."
+        }
+      ],
+      "commonsFile": "Geschil_Cambodja-Thailand_voor_het_Internationale_Hof_van_Justitie,_Bestanddeelnr_912-3273.jpg"
     }
   ],
   "countryIds": [
