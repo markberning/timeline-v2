@@ -653,6 +653,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "He had already made the case in print, and made it unforgettable. On May 9, 1754, weeks before the congress, his Pennsylvania Gazette ran a small woodcut he had drawn: a snake cut into eight pieces, each segment labeled for a colony or region, under the words \"JOIN, or DIE.\" It is widely regarded as the first American political cartoon. The image leaned on an old folk superstition that a snake chopped to pieces could come back to life if the parts were rejoined before sunset. The message was not subtle. Reunite, or die in pieces. The cartoon ran before the Albany delegates ever sat down. It was the argument for union, printed first; the plan was what Franklin carried to Albany next."
       },
       {
+        "fig": "/war-img/fi-join-or-die.jpg",
+        "cap": "\"JOIN, or DIE\" — the woodcut Franklin ran in his Pennsylvania Gazette on 9 May 1754, weeks before the Albany Congress. A snake cut into eight pieces, one per colony or region, played on the folk belief that a severed snake would revive if its parts were rejoined before sunset. It is widely called the first American political cartoon.",
+        "credit": "Benjamin Franklin, 1754 / Library of Congress"
+      },
+      {
         "p": "At Albany the commissioners voted on June 24 to take up the question of union. A committee worked out a draft, with Thomas Hutchinson of Massachusetts among those shaping it, and submitted it on June 28. On July 10, one day before the congress broke up, it was adopted: the Albany Plan of Union."
       },
       {
