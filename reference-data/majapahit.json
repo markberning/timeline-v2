@@ -62,135 +62,224 @@
       "id": "evt-majapahit-indianization",
       "label": "Indianization of Java begins",
       "year": 100,
-      "description": "From the early centuries CE Javanese courts voluntarily adopted Sanskrit, Hinduism centered on Shiva, and Mahayana Buddhism through traders and prestige, never under an Indian army, the opposite mechanism from Vietnam's conquered Sinicization.",
+      "description": "Beginning in roughly the first centuries CE, Javanese courts voluntarily adopted a package of Indian culture — Sanskrit for ritual and inscriptions, Hinduism centered on Shiva, Mahayana Buddhism, and above all the Indian idea of the king as a node of cosmic order. No Indian army was ever present; this was a prestige import, not a conquest.",
       "wikiSlug": "Greater_India",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Historians call this long uneven process 'Indianization,' and it stretched across an enormous arc from Vietnam to the Philippines — though Java absorbed it voluntarily while Vietnam was absorbing Chinese civilization as a conquered province resisting its occupier. Local rulers kept their own languages for daily life and their own ancestor spirits underneath the new gods; what they bought from India was a grammar of legitimacy. The Sanskrit cultural sphere historians call 'Greater India' ultimately shaped law, astronomy, and literature across most of maritime Southeast Asia."
+        }
+      ],
+      "commonsFile": "006_Bujang_Valley_Candi.jpg"
     },
     {
       "id": "evt-majapahit-sailendra",
       "label": "The Buddhist Sailendra dynasty",
       "year": 750,
       "endYear": 900,
-      "description": "The Sailendra dynasty of central Java patronized Mahayana Buddhism and raised Borobudur, the same dynasty linked to the maritime Srivijaya world across the Strait of Malacca.",
+      "description": "The Sailendra dynasty emerged in 8th-century central Java as devoted patrons of Mahayana Buddhism, covering the fertile Kedu Plain with Buddhist monuments and commissioning the colossal stupa of Borobudur.",
       "wikiSlug": "Shailendra_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Sailendras were closely linked to the maritime empire of Srivijaya across the strait in Sumatra — the same Buddhist cultural world spanning both islands at once. Their name likely means 'Kings of the Mountain,' a direct echo of the cosmic-mountain theology behind their temple-building program. A UNESCO World Heritage Site today, Borobudur is the single largest Buddhist monument on Earth."
+        }
+      ],
+      "commonsFile": "Sailendra_King_and_Queen,_Borobudur.jpg"
     },
     {
       "id": "evt-majapahit-mataram-sanjaya",
       "label": "The Hindu Mataram (Sanjaya) kingdom",
       "year": 732,
       "endYear": 929,
-      "description": "The Sanjaya line of the Mataram kingdom championed Shaivite Hinduism in central Java and built the Prambanan temple-complex a few miles and a few decades from Buddhist Borobudur.",
+      "description": "The Sanjaya line of the Mataram kingdom championed Shaivite Hinduism on the same central Javanese plain as their Buddhist Sailendra rivals, ruling from 732 until the eastward move around 929 and building Prambanan as their cosmic counter to Borobudur.",
       "wikiSlug": "Mataram_Kingdom",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mataram kingdom is also called the Medang kingdom in later inscriptions, and modern scholars debate whether the Sanjaya and Sailendra were genuinely rival dynasties or intermarried branches of a single ruling class. The kingdom was established by King Sanjaya, whose inscription of 732 CE is one of the oldest datable records of Javanese Hindu kingship. After the eastward move its rulers adopted a new dynastic name, the Ishana dynasty, but maintained the same tradition of Sanskrit court culture."
+        }
+      ],
+      "commonsFile": "039_Stairway_to_Inner_Sanctum,_Candi_Badut_(40417064281).jpg"
     },
     {
       "id": "evt-majapahit-borobudur",
       "label": "Borobudur completed",
       "year": 825,
-      "description": "The Sailendra Buddhists finished Borobudur, a stepped stone mountain climbed as a walking meditation past two and a half miles of reliefs to seventy-two summit stupas, built as an artificial cosmic mountain so a king could sit at the ordered center of the world.",
+      "description": "Borobudur, finished around 825, is a stepped stone pyramid you climb as a walking meditation, past roughly two and a half miles of carved relief panels, to reach 72 bell-shaped stupas at the summit — the largest Buddhist monument on Earth, built as an artificial cosmic mountain.",
       "wikiSlug": "Borobudur",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reliefs spiraling up Borobudur's terraces depict the entire Buddhist cosmos in stone: the lowest levels show the world of desire and its consequences, the middle levels the world of form, and the open-air summit the formless realm of nirvana. The stupa was buried under volcanic ash and jungle for centuries before its rediscovery in 1814 by the British colonial administrator Thomas Stamford Raffles. It took a multinational UNESCO restoration project from 1975 to 1982 to stabilize the monument — over a million stones were dismantled and relaid."
+        }
+      ],
+      "commonsFile": "Pradaksina.jpg"
     },
     {
       "id": "evt-majapahit-prambanan",
       "label": "Prambanan completed",
       "year": 850,
-      "description": "Prambanan, a forest of sharp Hindu temple-towers for Shiva, Vishnu, and Brahma, answered Borobudur as the Shaivite cosmic mountain, the same king-as-pivot theology that runs to the god-kings of Majapahit.",
+      "description": "Prambanan, finished around 850, is a Hindu temple-forest of sharp towers dedicated to the Trimurti — Brahma the creator, Vishnu the preserver, Shiva the destroyer — built just 11 miles (17 km) from Borobudur as its Shaivite cosmic-mountain answer.",
       "wikiSlug": "Prambanan",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The central tower of Prambanan rises 154 feet (47 m), making it the tallest Hindu temple in Indonesia and one of the tallest in Southeast Asia. Like Borobudur it was abandoned, damaged by earthquakes, and gradually buried before 19th-century rediscovery; a 2006 earthquake toppled hundreds of its stones and triggered a restoration program still ongoing. The compound originally held 240 individual temples, of which only the main trio has been fully restored."
+        }
+      ],
+      "commonsFile": "Prambanan_Temple_Yogyakarta_Indonesia.jpg"
     },
     {
       "id": "evt-majapahit-move-east",
       "label": "Javanese power shifts to East Java",
       "year": 929,
-      "description": "Around 929 the center of Javanese power moved abruptly from the central plain to the Brantas River valley in the east, for reasons still debated, after which the story of Java is an East Java story.",
+      "description": "Around 929, King Mpu Sindok moved the seat of Javanese power from the central plain to the Brantas River valley in East Java — an abrupt relocation whose real cause is still debated but whose consequences shaped every kingdom that followed.",
       "wikiSlug": "Mpu_Sindok",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mpu Sindok was the last Sanjaya-line king of Mataram and the first to rule from East Java; his move is documented in his own inscriptions, which record him as 'Sri Isanawikrama' and place his court in the Brantas delta region. The inscription record goes effectively silent for central Java after his reign, which is part of what makes the abandonment so puzzling — no conquest, no obvious successor kingdom on the old plain. Sindok's daughter married into the lineage that eventually produced Airlangga, who in turn split his kingdom into the predecessor states of Kediri."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-merapi-theory",
       "label": "The debated Merapi-eruption explanation",
       "year": 929,
-      "description": "The traditional explanation for the move east is a catastrophic eruption of Mount Merapi, but the surviving evidence is thinner than the story and a slow shift toward better river trade is at least as likely.",
+      "description": "Mount Merapi, the most active volcano in Indonesia, is the traditional explanation for why the center of Javanese civilization abandoned the central plain around 929 — a catastrophic eruption that buried the monument-rich landscape.",
       "wikiSlug": "Mount_Merapi",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mount Merapi has erupted regularly since at least 1548, with major eruptions documented in 1006, 1672, 1822, and most recently 2010, when it killed over 350 people and displaced 350,000. The 1006 event is the one most often cited in connection with the eastward move, though it comes after 929 in the historical record, which is part of why scholars dispute the volcanic-catastrophe narrative. Merapi stands roughly 17 miles (28 km) north of Yogyakarta and its summit reaches 9,551 feet (2,911 m)."
+        }
+      ],
+      "commonsFile": "Pendidikan_Karakter_Dan_Nasionalisme.jpg"
     },
     {
       "id": "evt-majapahit-brantas",
       "label": "The Brantas River spine",
       "year": 930,
-      "description": "The Brantas River became the spine of Javanese power, irrigating a huge rice surplus and floating that surplus to Java Sea ports, the dual engine no other maritime power in the region commanded.",
+      "description": "The Brantas, East Java's longest river at 200 miles (320 km), formed the spine of every major Javanese kingdom from the 10th century onward — irrigating a vast rice surplus inland and floating that surplus down to Java Sea ports.",
       "wikiSlug": "Brantas_River",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Brantas drains over 4,200 square miles (11,000 km²) of some of the most volcanically enriched soil on Earth, collecting runoff from Mounts Kawi, Kelud, Wilis, Welirang, and Anjasmoro. Its course is almost spiral-shaped: the river heads southeast from its source, then curves south, southwest, west, north, and finally east before splitting into the Kalimas and Porong channels at the coast. This geometry meant a single river system connected the interior rice lands to multiple coastal ports, giving whoever controlled the Brantas both agricultural and commercial leverage simultaneously."
+        }
+      ],
+      "commonsFile": "COLLECTIE_TROPENMUSEUM_De_rivier_Brandas_TMnr_3728-1021.jpg"
     },
     {
       "id": "evt-majapahit-kediri",
       "label": "The Kingdom of Kediri",
       "year": 1042,
       "endYear": 1222,
-      "description": "Kediri ruled East Java for nearly two centuries and is remembered above all for its court poets, who rebuilt the Sanskrit epics in Old Javanese verse.",
+      "description": "The Kingdom of Kediri ruled East Java from roughly 1042 to 1222, centered on the western Brantas valley, and is remembered less for its politics than for the extraordinary literary flowering of its court — the age when Sanskrit epic became Old Javanese poetry.",
       "wikiSlug": "Kingdom_of_Kediri",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Among Kediri's landmark works are Mpu Sedah's Kakawin Bharatayuddha, a retelling of the Mahabharata's great war in Javanese meters, and Mpu Dharmaja's Smaradhana, a poem about the god of love. Despite nearly two centuries of rule, Kediri left almost no monumental architecture — its legacy is entirely literary, which is unusual for a major Javanese kingdom and may reflect a deliberate court preference for patronizing poets over builders."
+        }
+      ],
+      "commonsFile": "Airlangga.jpg"
     },
     {
       "id": "evt-majapahit-kakawin",
       "label": "The Old Javanese kakawin tradition",
       "year": 1150,
-      "description": "Kediri's writers created kakawin, poetry in Indian meters but a Javanese tongue, appropriating rather than translating Sanskrit literature; the most important source for Majapahit's golden age is itself a kakawin.",
+      "description": "Kakawin are long narrative poems composed in Old Javanese (also called Kawi) using rhythms and meters borrowed from Sanskrit — not translations of Indian literature but Javanese appropriations of it, rebuilding the epics with local names, local gods, and a local voice.",
       "wikiSlug": "Kakawin",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The kakawin tradition ran from roughly the 9th through the 16th centuries, performed at royal courts across central and east Java and surviving on into Bali where the tradition continues today. The greatest kakawin of the Majapahit period, the Nagarakretagama composed by the court poet Mpu Prapanca in 1365, is the single richest contemporary source for Majapahit's golden age — a detailed verse census of the empire's provinces, vassals, and court ceremonies. One verse of that poem, 'Bhinneka Tunggal Ika' (roughly 'Unity in Diversity'), became the official motto of modern Indonesia."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-ken-arok",
       "label": "Ken Arok founds Singhasari",
       "year": 1222,
-      "description": "According to the legendary Pararaton, the commoner adventurer Ken Arok rose from bandit to kingmaker with a cursed forged dagger and defeated Kediri at the battle of Ganter to found Singhasari.",
+      "description": "Ken Arok was the legendary founder of Singhasari — a commoner who, according to the later chronicle Pararaton, rose from banditry to throne through murder, a cursed magical dagger, and the defeat of Kediri at the Battle of Ganter in 1222.",
       "wikiSlug": "Ken_Arok",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pararaton, the 'Book of Kings,' was compiled around 1481 or later, more than two and a half centuries after Ken Arok's reign, and braids historical reigns together with curses, divine parentage claims, and magic weapons — making it closer to legend than chronicle. The cursed dagger Ken Arok supposedly commissioned, the Empu Gandring blade, is said to have killed its maker, its owner, and several subsequent kings before being lost. Ken Arok is also claimed as the ancestor of the entire Rajasa dynasty that ran through Singhasari into Majapahit."
+        }
+      ],
+      "commonsFile": "Bali-lontar-Tojan-Kénangrok.jpg"
     },
     {
       "id": "evt-majapahit-battle-ganter",
       "label": "The Battle of Ganter",
       "year": 1222,
-      "description": "Ken Arok's victory at Ganter in 1222 ended Kediri and founded Singhasari, the kingdom Majapahit's founders would claim descent from.",
+      "description": "The Battle of Ganter in 1222 was Ken Arok's decisive victory over the last king of Kediri, Kertajaya, ending nearly two centuries of Kediri rule in East Java and launching the dynasty that Majapahit would later claim as its founding ancestor.",
       "wikiSlug": "Singhasari",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Singhasari, the kingdom born from Ganter, also went by the name Tumapel — both names refer to the same East Javanese state, with Singhasari becoming the retrospective label used by later chronicles. The kingdom's territory was centered several kilometers north of modern Malang city, and its name survives in the Singosari district of Malang Regency today. Singhasari inherited both Kediri's Brantas-valley rice base and its literary court culture, then extended Javanese power far beyond Java itself for the first time."
+        }
+      ],
+      "commonsFile": "Candi_singosari.jpg"
     },
     {
       "id": "evt-majapahit-singhasari",
       "label": "The Kingdom of Singhasari",
       "year": 1222,
       "endYear": 1292,
-      "description": "Singhasari ruled East Java for the seventy years before Majapahit and was the dynasty Majapahit claimed as its parent and avenger.",
+      "description": "The Kingdom of Singhasari (also called Tumapel) ruled East Java from 1222 to 1292, succeeding Kediri as the dominant power on the island and producing the line of rulers — culminating in Kertanagara — whose legacy Majapahit was founded to avenge and continue.",
       "wikiSlug": "Singhasari",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Singhasari's 70-year lifespan was marked by repeated court coups: Ken Arok was himself murdered, his successors were murdered in turn, and the Pararaton frames the entire dynasty as haunted by the curse on Ken Arok's dagger. Despite the instability, Singhasari expanded Javanese power into Bali, Borneo, and eventually Sumatra through the Pamalayu expeditions — an imperial reach no earlier Javanese kingdom had attempted. The dynasty ended when a vassal revolt by the prince Jayakatwang of Kediri (a deliberate act of dynastic revenge) toppled Kertanagara in 1292."
+        }
+      ],
+      "commonsFile": "Prajnaparamita_Java_Front.JPG"
     },
     {
       "id": "evt-majapahit-wisnuwardhana",
@@ -208,527 +297,871 @@
       "label": "Kertanagara, last king of Singhasari",
       "year": 1268,
       "endYear": 1292,
-      "description": "Kertanagara was an expansionist with a Tantric Shiva-Buddhist program who aimed to build a Javanese-led bloc across the western archipelago; his insult to Kublai Khan's envoy set up everything that followed.",
+      "description": "Kertanagara, the last and most ambitious king of Singhasari, reigned from 1268 to 1292 and pursued a Javanese-led maritime bloc across the western archipelago — a sound strategy executed against the wrong threat, since the real danger was coming from Kublai Khan's China.",
       "wikiSlug": "Kertanegara_of_Singhasari",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kertanagara's title, Sri Maharajadiraja ('Great King of Kings'), signals his claim to paramount sovereignty over the whole archipelago, not merely Java. When Kublai Khan sent an envoy demanding submission, Kertanagara reportedly had the man mutilated — cutting off his ear or tattooing his face, depending on the source — a theatrical defiance that guaranteed Mongol retaliation. He was killed in 1292 not by the Mongols but by an internal revolt, and it was his son-in-law Raden Wijaya who would turn the subsequent Mongol invasion into the founding of Majapahit."
+        }
+      ],
+      "commonsFile": "063_Main_Statue,_Joko_Dolog_(39706345204).jpg"
     },
     {
       "id": "evt-majapahit-tantric-shaiva-buddha",
       "label": "Kertanagara's Tantric Shiva-Buddhism",
       "year": 1270,
-      "description": "Kertanagara followed an intense Tantric form of Shiva-Buddhism in which the king ritually identified himself with a fierce god, a self-conception behind his theatrical defiance of the Mongols.",
+      "description": "Kertanagara practiced an intense Tantric form of Shiva-Buddhism in which the king ritually identified himself with a fierce deity — a theology that fused Shiva the destroyer and the Buddha into a single divine-royal persona unique to Java.",
       "wikiSlug": "Kertanegara_of_Singhasari",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Shiva-Buddha fusion (sometimes called Shivabuddha) is one of the distinctively Javanese contributions to South and Southeast Asian religious history, reflecting centuries of Hindu and Buddhist traditions coexisting on the same island rather than competing. Kertanagara's posthumous temple name, Sivabuddha, confirms that he was literally deified in this hybrid form after his death. His Tantric practice involved esoteric rituals — including reportedly the ritual consumption of alcohol and meat in a spiritual inversion of normal rules — that shocked more orthodox contemporaries."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-pamalayu",
       "label": "The Pamalayu expedition",
       "year": 1275,
       "endYear": 1286,
-      "description": "Around 1275 and again in 1286 Kertanagara launched the Pamalayu naval expedition to Sumatra, pulling the wreckage of declining Srivijaya into Singhasari's orbit, the same campaign that from Sumatra marks Java's takeover of the strait.",
+      "description": "The Pamalayu expedition, decreed in 1275 and possibly not executed until later, was Kertanagara's naval campaign to assert Singhasari's dominance over the old Malayu lands of Sumatra, pulling the remnants of the declining Srivijaya world into Java's orbit.",
       "wikiSlug": "Pamalayu_expedition",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most concrete surviving artifact of the Pamalayu is a Buddhist statue called the Amoghapasa, which Kertanagara sent to the ruler of Dharmasraya in Sumatra in 1286 as a gift and symbol of Javanese protection — its inscription records the event and is one of the key dated documents of the period. The expedition created the diplomatic network that Majapahit later inherited and expanded into a genuine empire of tribute relationships. Seen from Sumatra, the Pamalayu marks the moment Java supplanted the Srivijayan world as the dominant maritime power of the western archipelago."
+        }
+      ],
+      "commonsFile": "Amoghapasa_Padang_Roco_Inscription_Front.JPG"
     },
     {
       "id": "evt-majapahit-srivijaya-inheritance",
       "label": "The Srivijaya inheritance",
       "year": 1025,
       "endYear": 1293,
-      "description": "The long decline of Srivijaya, the trade empire of the Malacca Strait, opened the sea space that a Java able to be both rice power and trade power would eventually fill.",
+      "description": "Srivijaya was a Malay thalassocracy (sea-empire) based in Sumatra that dominated the Malacca Strait trade route between China and India from roughly the 7th to the 11th century; its long decline from the 11th century onward created the maritime vacuum that Majapahit would eventually fill.",
       "wikiSlug": "Srivijaya",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Srivijaya's power rested almost entirely on controlling the chokepoint of the Strait of Malacca and taxing the trade that passed through it — it had thin soil and no major rice surplus, making it a prestige-goods economy dependent on commerce rather than agriculture. A devastating raid by the Chola Empire of South India in 1025 broke Srivijaya's monopoly on the strait and began its long unraveling. By the time Kertanagara launched the Pamalayu in the 1270s–80s, Srivijaya had fragmented into several competing successor states centered on Dharmasraya and Malayu."
+        }
+      ],
+      "commonsFile": "032_Avadana_Level_1,_Ship_and_Crew.jpg"
     },
     {
       "id": "evt-majapahit-kublai-demand",
       "label": "Kublai Khan demands submission",
       "year": 1289,
-      "description": "Kublai Khan, ruler of the Yuan dynasty that had just conquered China, sent an envoy demanding that Kertanagara submit in person or by hostage, his standard aggressive tributary policy backed by the threat of a fleet.",
+      "description": "Kublai Khan, ruler of the Mongol-led Yuan dynasty that had just conquered China, sent an envoy to Java in 1289 demanding that Kertanagara formally submit to his supremacy — the standard opening move in a tributary policy backed by the threat of a very large fleet.",
       "wikiSlug": "Kublai_Khan",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kublai Khan proclaimed the Yuan dynasty in 1271 and ruled until his death in 1294, meaning the Java expedition consumed some of his final years. His aggressive tributary outreach wasn't unique to Java — he sent the same demand to Japan, Vietnam, and Champa in the same era, triggering catastrophic campaigns each time. The Java demand came just eight years after his second failed Japan invasion, suggesting he had not absorbed the lesson about the costs of long-distance seaborne coercion."
+        }
+      ],
+      "commonsFile": "YuanEmperorAlbumKhubilaiPortrait.jpg"
     },
     {
       "id": "evt-majapahit-meng-qi",
       "label": "The envoy Meng Qi mutilated",
       "year": 1289,
-      "description": "Kertanagara had Kublai's envoy Meng Qi disfigured and sent home, a calculated public insult from a king with a wrathful-god self-conception that guaranteed a war.",
+      "description": "Kertanagara's answer to the Yuan envoy Meng Qi was a deliberate public insult: he had the man disfigured (the sources say branded or cut) and sent back to Kublai's court — a theatrical refusal from a king who conceived of himself as a wrathful god, and a move that made a punitive war certain.",
       "wikiSlug": "Mongol_invasion_of_Java",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mutilation of an envoy was one of the most serious diplomatic provocations possible in this era; it was understood universally as a declaration of contempt rather than mere non-compliance. The maiming guaranteed Kublai could not back down without loss of face across his entire tributary network. Kertanagara never saw the army it summoned — he was dead before the fleet arrived."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-jayakatwang-revolt",
       "label": "Jayakatwang's revolt kills Kertanagara",
       "year": 1292,
-      "description": "Jayakatwang of Kediri, nursing a three-generation grudge, rebelled in 1292, stormed the Singhasari court while its army was away in Sumatra, and killed Kertanagara, extinguishing Singhasari months before the Mongols landed.",
+      "description": "While the Mongol fleet was still mustering at sea, Jayakatwang — ruler of Kediri, the old kingdom Singhasari had crushed in 1222 — rose in revolt in 1292, stormed the Singhasari court with its army away in Sumatra, and killed Kertanagara, collapsing the kingdom months before any foreign army landed.",
       "wikiSlug": "Jayakatwang",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jayakatwang was a vassal who owed Kertanagara formal loyalty and tribute, making his revolt a betrayal of the feudal contract, not just a military attack. He became king of a brief second Kingdom of Kediri — but his reign lasted barely a year before Raden Wijaya and the Mongols ended it. His timing, however accidental, was near-perfect: Singhasari's best troops were thousands of miles away in Sumatra when he struck."
+        }
+      ],
+      "commonsFile": "Close-up_of_warriors_from_KITLV_87835_-_Isidore_van_Kinsbergen_-_Relief_on_Tjandi_Panataran_near_Blitar_-_Before_1900.jpg"
     },
     {
       "id": "evt-majapahit-yuan-fleet",
       "label": "The Yuan invasion fleet sails for Java",
       "year": 1292,
-      "description": "Kublai assembled a punitive expedition, by the Yuanshi's inflated figures some twenty to thirty thousand troops and a thousand ships under three commanders, which reached Java in early 1293.",
+      "description": "Kublai assembled a punitive expedition that the official Yuan history puts at twenty to thirty thousand troops aboard roughly a thousand ships — a figure historians treat as inflated but directionally accurate for an enormous, expensive armada — which reached Java in early 1293.",
       "wikiSlug": "Mongol_invasion_of_Java",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The three commanders — Shi Bi, Ike Mese, and Gaoxing — led what was one of the largest seaborne expeditions the Mongols had ever mounted outside of the Japan invasions. The fleet sailed from China having already missed its primary target: Kertanagara was dead by the time they arrived. Their orders were improvised mid-campaign once they learned the political situation on Java had changed entirely."
+        }
+      ],
+      "commonsFile": "Mongol_invasion_of_java_(map).png"
     },
     {
       "id": "evt-majapahit-shi-bi",
       "label": "The Yuan commanders Shi Bi, Ike Mese, and Gaoxing",
       "year": 1293,
-      "description": "The three Yuan commanders led the Java expedition; two were punished on return for the failure recorded in the official History of the Yuan.",
+      "description": "The Yuan expedition was commanded by three generals — Shi Bi, Ike Mese, and Gaoxing — who led the campaign on Java and then returned to China to face the consequences: the official History of the Yuan records that two of the three were punished for the failure.",
       "wikiSlug": "Mongol_invasion_of_Java",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Punishing commanders for a failed campaign was standard Mongol accountability practice; the disgrace fell on the leaders even when the defeat stemmed from a diplomatic ambush they could not have foreseen. The Java expedition is one of three major Mongol seaborne failures in Asia — alongside the two Japan invasions — and remains the only one where the enemy used betrayal rather than weather or terrain as the decisive weapon. The *Yuanshi* (the official History of the Yuan, compiled under the next dynasty) is the primary surviving source for the expedition's numbers and outcome."
+        }
+      ],
+      "commonsFile": "A_bowl-mouthed_cannon_found_in_Java,_from_Julian_Permata_colllection.png"
     },
     {
       "id": "evt-majapahit-madura",
       "label": "Raden Wijaya sheltered before the strike",
       "year": 1292,
-      "description": "After the coup the fugitive Singhasari prince Raden Wijaya survived in saga-shaped episodes, made peace with Jayakatwang long enough to be granted forest land to clear, and waited for the Mongol fleet.",
+      "description": "After Jayakatwang's coup Raden Wijaya — Kertanagara's son-in-law and a Singhasari prince — survived as a fugitive, made a tactical peace with the usurper to be granted a patch of forest land in the Brantas delta to clear, and waited there for the Mongol fleet to appear.",
       "wikiSlug": "Raden_Wijaya",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The *Pararaton* (a Javanese chronicle meaning 'Book of Kings') preserves Wijaya's flight as adventure saga, including a scene where starving men are saved by coconuts and a refuge at a place called Madura. His regnal name was later Kertarajasa Jayawardhana. The forest land he was given to clear — a gesture from Jayakatwang that was meant to neutralize him — became the founding site of Majapahit itself, named after the bitter maja fruit found there."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-raden-wijaya-alliance",
       "label": "Raden Wijaya allies with the Mongols",
       "year": 1293,
-      "description": "Raden Wijaya told the Yuan commanders he would submit to the Great Khan and help them destroy Jayakatwang, the man who had killed their target Kertanagara; the Mongols accepted.",
+      "description": "Raden Wijaya sent word to the Yuan commanders that he, as Kertanagara's heir, would formally submit to the Great Khan — and would help them destroy Jayakatwang, the man who had already killed their original target. The Mongols accepted the alliance and marched inland.",
       "wikiSlug": "Raden_Wijaya",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wijaya's offer solved an awkward problem for the Mongols: their target was already dead and their legal justification for the expedition had evaporated. By accepting his submission and his military help, the commanders could still return to China with a plausible success. Wijaya's later regnal name, Kertarajasa Jayawardhana, translates roughly as 'victorious king who advances through conflict' — a name that reads as a direct monument to this exact maneuver."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-fall-of-kediri-1293",
       "label": "The fall of Jayakatwang's Kediri",
       "year": 1293,
-      "description": "The combined Yuan-Wijaya force crushed Jayakatwang in early 1293; the usurper was captured and died in Mongol custody, the man who killed Singhasari's king destroyed by Singhasari's heir using a Chinese army.",
+      "description": "The combined Yuan-Wijaya army crushed Jayakatwang in early 1293; the usurper was captured and died in Mongol custody, killed by Singhasari's heir using a Chinese army three generations after Singhasari had first conquered Kediri.",
       "wikiSlug": "Jayakatwang",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jayakatwang's reign as king of the revived Kediri lasted roughly a year — one of the shortest in Javanese history. His defeat completed a brutal karmic loop: Singhasari had overthrown Kediri in 1222, Kediri killed Singhasari's last king in 1292, and Singhasari's surviving heir erased Kediri again in 1293 with foreign help. The Mongols almost certainly expected Java to become a tribute-paying vassal after the campaign; what they got instead was an ambush."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-mongol-expulsion",
       "label": "Raden Wijaya expels the Mongols",
       "year": 1293,
-      "description": "With Jayakatwang destroyed and the Yuan force off-guard, Raden Wijaya ambushed the Mongol columns, inflicted heavy casualties, and harried the survivors to their ships, the only one of the three great failed Mongol seaborne invasions defeated chiefly by a single ruler's nerve.",
+      "description": "With Jayakatwang gone and the Yuan troops dispersed and off-guard, Raden Wijaya ambushed the Mongol columns as they moved toward the coast, inflicted heavy casualties, and harried the survivors to their ships — ending the world's most feared army's third disastrous seaborne invasion.",
       "wikiSlug": "Mongol_invasion_of_Java",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The *Yuanshi* records that the Yuan force lost thousands before reaching their ships, and that the commanders chose to sail rather than regroup because the monsoon was about to turn against any return voyage. This made the betrayal practically unrecoverable: the seasonal winds that made the South China Sea navigable also set a hard deadline for retreat. Of the three great Mongol seaborne failures — Japan twice, Java once — Java alone was decided by a single man's calculated double-cross rather than by weather or terrain."
+        }
+      ],
+      "commonsFile": "Bedil_kuno_atau_meriam_kuno_Jawa_cetbang.png"
     },
     {
       "id": "evt-majapahit-founding",
       "label": "Founding of Majapahit",
       "year": 1293,
-      "description": "Raden Wijaya founded Majapahit on the cleared bitter-maja forest in the lower Brantas valley near modern Mojokerto, a kingdom named by tradition after a sour fruit a hungry work crew tasted while clearing brush.",
+      "description": "In 1293, Raden Wijaya established the Majapahit kingdom on a patch of cleared jungle in the lower Brantas valley near modern Mojokerto — its name a Javanese joke, 'bitter maja,' after the sour fruit a work crew tasted while hacking brush. The tiny settlement would become the most expansive state island Southeast Asia ever produced.",
       "wikiSlug": "Majapahit",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its greatest extent Majapahit was a thalassocracy (a sea-based empire) whose territory and tributary states covered nearly the entire Nusantara archipelago, spanning both Asia and Oceania. The empire lasted over two centuries before collapsing in 1527, when the Islamic Sultanate of Demak invaded — and its fall directly triggered the rise of Islamic kingdoms across Java."
+        }
+      ],
+      "commonsFile": "Surya_Majapahit_2.jpg"
     },
     {
       "id": "evt-majapahit-wilwatikta",
       "label": "Wilwatikta, the Sanskrit capital name",
       "year": 1293,
-      "description": "The capital's grand Sanskrit name, Wilwatikta, a learned synonym for the same bitter-fruit tree, doubled the homely Javanese nickname, Indianization in a single word: a local reality wearing an imported prestige form.",
+      "description": "The capital carried two names at once: the homely Javanese 'Majapahit' (bitter maja) and the grand Sanskrit court name Wilwatikta, a learned synonym for the same bitter-fruit tree — the duality itself a miniature of Indianization, local reality wrapped in imported prestige.",
       "wikiSlug": "Trowulan",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The physical remains of Wilwatikta lie under the modern archaeological site of Trowulan, a 100-square-kilometer zone in Mojokerto Regency that scholars believe was the empire's capital city. The site was described in detail by the 14th-century poet Mpu Prapanca in his Nagarakretagama, and a 15th-century Chinese source also records it. The capital was razed in 1478 during a succession conflict and never rebuilt."
+        }
+      ],
+      "commonsFile": "Eksotika_Candi_Bajang_Ratu.jpg"
     },
     {
       "id": "evt-majapahit-kertarajasa",
       "label": "Raden Wijaya consecrated as Kertarajasa Jayawardhana",
       "year": 1293,
       "endYear": 1309,
-      "description": "Consecrated under the throne name Kertarajasa Jayawardhana, the founder embodied the three-name royal system in which a man, a reign, and a god are aspects of one sacred office.",
+      "description": "Consecrated king in late 1293, Raden Wijaya took the regnal name Kertarajasa Jayawardhana and ruled until 1309 — a short reign consumed by putting down the very war-hero companions who had made him king.",
       "wikiSlug": "Raden_Wijaya",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "After his death Wijaya was enshrined as Harihara, a composite deity fusing Shiva and Vishnu, one of the most powerful god-forms in the Hindu-Buddhist cosmology — not one god but two fused into one, mirroring the dual Shiva-Buddhist synthesis Majapahit practiced. The famous Harihara statue from his mortuary temple, now in the National Museum in Jakarta, is one of the finest examples of Majapahit sculpture."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-multiple-names",
       "label": "The three-name royal system",
       "year": 1293,
-      "description": "Javanese kings carried a birth name, a regnal name, and a posthumous temple name tied to the god they were enshrined as, reflecting a real theory of kingship in which the king is a role the cosmos wears.",
+      "description": "A Javanese king of this era carried at least three names — birth name, regnal name, and posthumous temple name — because the royal office was genuinely understood as three things at once: a man, a reign, and a god.",
       "wikiSlug": "Raden_Wijaya",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This layered naming wasn't just ceremony; it reflected a Javanese-Hindu theory of sacred kingship (devaraja, 'god-king') in which the ruler was a living incarnation of divine power, not merely its representative. The posthumous temple name tied the dead king to the specific deity he was ritually merged with, making the memorial temple a site of ongoing divine presence rather than simple commemoration."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-four-queens",
       "label": "The marriage to the four Singhasari princesses",
       "year": 1293,
-      "description": "Raden Wijaya married four daughters of the dead Singhasari king Kertanagara, binding the new dynasty to the old one it claimed to avenge and continue.",
+      "description": "Raden Wijaya married all four daughters of the slain Singhasari king Kertanagara — a calculated political act that grafted the new dynasty's legitimacy onto the prestige of the old one it claimed to avenge.",
       "wikiSlug": "Raden_Wijaya",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Marrying the daughters of the previous dynasty was a standard legitimacy-transfer move across medieval Southeast Asia, but doing it four times simultaneously was unusually thorough. The youngest queen, Gayatri (the Rajapatni), proved the most consequential: she outlived her husband by over 40 years and wielded effective influence over the next two reigns as the royal matriarch."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-companion-rebellions",
       "label": "The companion rebellions",
       "year": 1295,
       "endYear": 1316,
-      "description": "The loyal companions who had been fugitives with Raden Wijaya began revolting within two years over the distribution of spoils, the classic founder's dilemma that made the new dynasty's first decade its most dangerous.",
+      "description": "Within two years of the founding, Raden Wijaya's own war-hero companions began revolting — not against the kingdom itself but over the division of its rewards, a series of uprisings that stretched from roughly 1295 into the next reign and nearly destroyed the dynasty before it stabilized.",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This pattern — the first generation's fighters becoming the second generation's rebels — recurs in founding dynasties everywhere from Rome to the Mongol Empire: loyalty forged in shared fugitive hardship does not automatically transfer to the unequal hierarchy of a court. The three main rebellions (Ranggalawe, Sora, Nambi) are told in the Pararaton as saga-shaped personal dramas, but the structural dynamic they describe — comrades who feel they made the king — is historically consistent."
+        }
+      ],
+      "commonsFile": "Pemberontakan_di_majapahit.jpg"
     },
     {
       "id": "evt-majapahit-ranggalawe",
       "label": "The Ranggalawe rebellion",
       "year": 1295,
-      "description": "A powerful follower remembered as Ranggalawe rose around 1295, the first of the saga-shaped companion revolts the Pararaton describes.",
+      "description": "Around 1295, a powerful companion named Ranggalawe became the first of Wijaya's war-hero followers to revolt, a saga-shaped story in the Pararaton of personal grievance and a dramatic last stand.",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ranggalawe is remembered in Javanese tradition as the lord of Tuban, a key north-coast port — making his revolt not just a personal grudge but a challenge from a strategically vital regional power. The Pararaton frames his rebellion as stemming from fury that a less-deserving man was appointed chief minister over him, the kind of honor-wound that could undo a new dynasty in its first years."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-sora",
       "label": "The Sora rebellion",
       "year": 1300,
-      "description": "Another of Raden Wijaya's war-hero companions, Sora, revolted a few years after Ranggalawe in the same pattern of comrades who felt they had made the king.",
+      "description": "A few years after Ranggalawe, another war-hero companion named Sora revolted in the same pattern — a comrade who had helped make the king deciding the reward was not enough for the risk he had taken.",
       "wikiSlug": "Majapahit",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By the time Sora rebelled, Majapahit had already shown it could survive one major companion revolt, which itself was a stabilizing signal. The broader Majapahit empire later grew into a Hindu-Buddhist thalassocracy (sea empire) controlling nearly the entire Nusantara archipelago — a trajectory that required exactly this messy founding decade to establish central authority over its own war-band."
+        }
+      ],
+      "commonsFile": "214_Krishnayana_Reliefs_(26560692388).jpg"
     },
     {
       "id": "evt-majapahit-gayatri",
       "label": "Queen Gayatri, the Rajapatni",
       "year": 1293,
       "endYear": 1350,
-      "description": "The youngest of the founder's four queens, Gayatri the Rajapatni, outlived her husband by decades, took Buddhist vows, and became the matriarch around whom the next two reigns turned.",
+      "description": "Gayatri Rajapatni, the youngest of Wijaya's four queens and a daughter of the Singhasari king Kertanagara, was one of the most consequential figures in early Majapahit — she outlived her husband by over four decades, took Buddhist religious vows, and served as the dynastic anchor of the next two reigns.",
       "wikiSlug": "Gayatri_Rajapatni",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gayatri was the mother of Tribhuwana Wijayatunggadewi, who became Majapahit's queen regnant (a woman ruling in her own right, not just as consort) — an unusually direct matrilineal line of power for a Hindu-Buddhist empire. The famous Prajnaparamita statue from East Java, often identified with Gayatri herself, depicts the Buddhist goddess of wisdom and is considered one of the masterpieces of classical Indonesian sculpture."
+        }
+      ],
+      "commonsFile": "087_Gayatri_Rajapatni_(38620020630).jpg"
     },
     {
       "id": "evt-majapahit-wijaya-death",
       "label": "Death of Raden Wijaya",
       "year": 1309,
-      "description": "Raden Wijaya died in 1309 and was enshrined as a god, a fugitive who had founded what would become the most expansive state island Southeast Asia ever produced.",
+      "description": "Raden Wijaya died in 1309, ending a 16-year reign spent largely suppressing the war-hero companions who had helped him win the throne, and was posthumously enshrined as Harihara, a divine fusion of Shiva and Vishnu.",
       "wikiSlug": "Raden_Wijaya",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wijaya's mortuary temple, where his Harihara statue stood, was at Simping (now Candi Sumberjati in East Java) — one of the royal shrine complexes that physically mapped Majapahit's sacred geography. The enshrining of dead kings as specific Hindu-Buddhist deities was not metaphor; it made the temple a living cult site where the deified king's power could be accessed through ritual, binding the dynasty's legitimacy to sacred landscape."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-pararaton",
       "label": "The Pararaton, the Book of Kings",
       "year": 1481,
-      "description": "The Pararaton, compiled around 1481 or after, braids real reigns with curses, prophecies, and a magic dagger; it is the legend-shaped chronicle through which most of early Majapahit reaches us.",
+      "description": "The Pararaton ('Book of Kings'), a 16th-century Javanese chronicle written in the Old Javanese literary language Kawi, is the main text through which the founding of Majapahit reaches us — 32 folio pages braiding real reigns with curses, prophecies, and legendary origins.",
       "wikiSlug": "Pararaton",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pararaton begins not with Majapahit but with Ken Angrok, the low-born founder of Singhasari (the predecessor kingdom), weaving his story as a saga of a man supernaturally destined to be king — a framing that colors how it then presents Wijaya and Majapahit's own founding. Despite its legendary wrapping, scholars treat it as a useful source when cross-checked against the Nagarakretagama poem and stone inscriptions, which together give early Majapahit more corroboration than most Southeast Asian kingdoms of the same period."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-jayanegara",
       "label": "The troubled reign of Jayanegara",
       "year": 1309,
       "endYear": 1328,
-      "description": "Raden Wijaya's son Jayanegara reigned through a disaster held together by other people, the unfinished business of the founding generation coming due in a string of revolts.",
+      "description": "Raden Wijaya's only son Jayanegara inherited the Majapahit throne in 1309 and held it for nearly two decades, mostly by relying on stronger men around him while a string of revolts from the founding era kept arriving on his doorstep.",
       "wikiSlug": "Jayanegara",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jayanegara was also titled Prince of Kediri even before he became emperor, a sign of how carefully the founding dynasty spread its claims across the region. The Pararaton's damning portrait of him — weak, poorly advised, morally compromised — comes from a chronicle written well after his reign and shaped by later political interests, so historians treat it as character assassination that may contain a kernel of truth but cannot be taken straight. His nickname in the Pararaton, \"Kala Gemet\" (roughly \"weak villain\"), is almost certainly a hostile invention rather than a contemporary label."
+        }
+      ],
+      "commonsFile": "Bajang_Ratu_Gate_Trowulan.jpg"
     },
     {
       "id": "evt-majapahit-nambi",
       "label": "The Nambi rebellion destroyed",
       "year": 1316,
-      "description": "The holdout companion Nambi was finally destroyed around 1316, closing the last of the founding-generation revolts under Jayanegara.",
+      "description": "Around 1316 the last of the great companion-rebels from the founding generation, a man named Nambi, was hunted down and destroyed, finally closing the book on the revolts that had plagued Majapahit since its founding days.",
       "wikiSlug": "Majapahit",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nambi had been one of Raden Wijaya's original allies — a founding-generation insider whose rebellion was therefore especially dangerous, since it came with institutional knowledge of the kingdom's vulnerabilities. His destruction marked the end of a phase where the dynasty's enemies were people who had actually helped build it, clearing the way for a different kind of internal threat to emerge."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-kuti-revolt",
       "label": "The Kuti revolt",
       "year": 1319,
-      "description": "Around 1319 a court figure remembered as Kuti led a revolt that actually drove Jayanegara out of his own capital, the most dangerous of the early rebellions.",
+      "description": "Around 1319 a court insider named Kuti led the most dangerous rebellion of Jayanegara's reign, briefly seizing the capital and forcing the king to flee — the only time a Majapahit monarch was actually driven from his own seat of power.",
       "wikiSlug": "Fela_Kuti",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The traditional account says Kuti was a dharmaputra, one of the high-ranking noble companions (dharmaputras were a class of court grandees), which is why the revolt had enough resources to take the capital itself rather than just raiding the fringes. Gajah Mada's counterstrategy reportedly involved posing as a defector to identify which nobles were still loyal to the throne before launching the retaking force — a piece of intelligence tradecraft that, true or embellished, became foundational to his legend."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-gajah-mada-rises",
       "label": "Gajah Mada saves the king",
       "year": 1319,
-      "description": "An officer of the bhayangkara royal bodyguard named Gajah Mada smuggled Jayanegara to safety, held the loyalists together, and led the counterstrike that broke the Kuti revolt, putting an obscure-born man on a ladder no commoner had climbed.",
+      "description": "A bodyguard officer named Gajah Mada smuggled the fleeing king to safety during the Kuti revolt, held loyalists together with a disinformation campaign, then led the counterstrike that retook the capital — and in doing so put an obscure-born soldier on the path to the highest office in the land.",
       "wikiSlug": "Gajah_Mada",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gajah Mada's origins are genuinely unclear; the sources give him no noble pedigree, which made his eventual rise to Mahapatih (prime minister) structurally unprecedented for a commoner in Javanese court culture. He is also known by the name Jirnnodhara in some manuscripts. The relief depicting him at the National Monument (Monas) in Jakarta — carved centuries after his death — shows how thoroughly he was later mythologized as the archetypal loyal servant who becomes the empire's true architect."
+        }
+      ],
+      "commonsFile": "Gajah_Mada_in_Relief_of_Indonesian_History,_Monas.JPG"
     },
     {
       "id": "evt-majapahit-jayanegara-murder",
       "label": "The murder of Jayanegara",
       "year": 1328,
-      "description": "In 1328 Jayanegara was stabbed by his court physician Tanca in an affair the Pararaton wraps in unrecoverable palace-intrigue motives; Gajah Mada then killed Tanca.",
+      "description": "In 1328 Jayanegara was stabbed by his court physician, a man named Tanca; Gajah Mada then killed Tanca, and the childless king's death opened the throne to the first queen regnant in Majapahit's history.",
       "wikiSlug": "Jayanegara",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pararaton offers a motive for the assassination — claiming Tanca acted out of personal grievance after the king took his wife — but historians treat this as the kind of tidy narrative a chronicle invents when the real motive is lost. The killing of the physician by Gajah Mada immediately afterward could be read as loyal revenge, or as the silencing of a witness; the sources don't let you decide. Both the Pararaton and the Nagarakretagama record the death, which at least confirms the basic fact even if the circumstances remain murky."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-tribhuwana",
       "label": "Queen Tribhuwana Wijayatunggadewi",
       "year": 1329,
       "endYear": 1350,
-      "description": "Tribhuwana, a daughter of the founder, ruled as queen regnant on behalf of the renunciant matriarch Gayatri, so that for three decades the two most powerful figures at court were women, a documented structural feature not a modern projection.",
+      "description": "Tribhuwana Wijayatunggadewi, a daughter of the founder Raden Wijaya, ruled Majapahit as queen regnant from 1329 to 1350 — not as a placeholder for a male heir, but as the active sovereign — while her mother the matriarch Gayatri held ultimate spiritual authority from behind a religious vow.",
       "wikiSlug": "Tribhuwana_Wijayatunggadewi",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tribhuwana bore the regnal title Tribhuwannottunggadewi Jayawishnuwardhani and the personal title Bhre Kahuripan, indicating she held a territorial lordship in addition to the throne. Her reign saw the beginning of Majapahit's serious territorial expansion, driven largely by the partnership she forged with Gajah Mada as her Mahapatih. The Nagarakretagama describes her as a woman of extraordinary valor, wisdom, and intelligence — notably, this praise comes from a court poem written during the reign of her own son, so it reflects official dynastic memory rather than hostile or neutral testimony."
+        }
+      ],
+      "commonsFile": "MET_DT5002.jpg"
     },
     {
       "id": "evt-majapahit-sadeng",
       "label": "The Sadeng and Keta rebellion",
       "year": 1331,
-      "description": "A serious rebellion in the eastern districts of Sadeng and Keta in 1331 was crushed, and in the reshuffle that followed Gajah Mada was promoted to the highest office below the throne.",
+      "description": "In 1331 a rebellion broke out in the eastern Javanese districts of Sadeng and Keta; Gajah Mada crushed it, and the victory handed Tribhuwana the political opening to elevate him to the highest office in the realm.",
       "wikiSlug": "Majapahit",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sadeng and Keta were in East Java, meaning this was a rebellion close to the Majapahit heartland rather than a distant vassal revolt — which made suppressing it a high-stakes test of the dynasty's control over its own backyard. The promotion that followed was not just a reward; it was a structural reorganization that concentrated administrative and military authority in a single non-royal hand for the first time, a gamble that would define the next two decades of Majapahit history."
+        }
+      ],
+      "commonsFile": "(139_of_160)_(cropped).jpg"
     },
     {
       "id": "evt-majapahit-gajah-mada-mahapatih",
       "label": "Gajah Mada becomes Mahapatih",
       "year": 1334,
-      "description": "Gajah Mada was raised to Mahapatih Amangkubhumi, roughly prime minister and chancellor of the realm; the bodyguard who had carried a king out of a burning capital now ran the government.",
+      "description": "Around 1334 Gajah Mada was appointed Mahapatih Amangkubhumi — roughly prime minister and chancellor of the realm — making a commoner with no royal blood the effective administrator of the most powerful kingdom in the archipelago.",
       "wikiSlug": "Gajah_Mada",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mahapatih title combined administrative and military command in a way that had no real precedent for a non-noble in Javanese court culture, making Gajah Mada's appointment a genuine structural break from tradition. It was at or around this promotion that he reportedly swore the Palapa Oath — a vow to abstain from spices (or earthly pleasures, depending on translation) until he had unified the entire archipelago under Majapahit — a declaration that became the founding text of Indonesian nationalist mythology six centuries later. The oath is recorded in the Pararaton and its exact wording remains debated, but its symbolic weight in modern Indonesia is enormous: Indonesia's first domestic satellite network, launched in 1976, was named Palapa in his honor."
+        }
+      ],
+      "commonsFile": "023_Close_Up,_Wringin_Lawang_(40429713221).jpg"
     },
     {
       "id": "evt-majapahit-palapa-oath",
       "label": "The Palapa Oath",
       "year": 1334,
-      "description": "According to the later Pararaton, Gajah Mada vowed not to taste palapa until he had brought the whole Nusantara under Majapahit; the key word is untranslatable and the source is a century and a half late, yet the idea would later be read as the first statement of the Indonesian nation.",
+      "description": "Around 1334, when Gajah Mada was elevated to Mahapatih (prime minister) of Majapahit, he supposedly swore the Sumpah Palapa — a vow not to taste 'palapa' until he had unified the whole Nusantara (the archipelago) under Majapahit's rule. The catch: the account comes from a chronicle written a century and a half after the fact, and scholars still cannot agree on what 'palapa' actually means.",
       "wikiSlug": "Palapa_oath",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The oath was recorded in the Pararaton, a Javanese chronicle composed around 1481 — roughly 150 years after Gajah Mada supposedly spoke the words. The exact year of his inauguration is itself disputed, with sources giving either 1334 or 1336. 'Palapa' has been read by different scholars as spices, worldly pleasures, or rest — meaning the most famous sentence in Indonesian history turns on a word nobody can definitively translate. The oath's fame exploded in the 20th century when Indonesian nationalists adopted it as the founding statement of the archipelago-as-nation, lending the uncertain vow a political life far beyond medieval Java."
+        }
+      ],
+      "commonsFile": "Patih_Gajah_Mada.jpg"
     },
     {
       "id": "evt-majapahit-nusantara",
       "label": "The Nusantara campaigns",
       "year": 1340,
       "endYear": 1357,
-      "description": "Through Tribhuwana's reign and into her son's, Gajah Mada directed campaigns and tributary projection outward from East Java across the islands, the expansion that can be defended as history even where the oath cannot.",
+      "description": "From roughly 1340 to 1357, Gajah Mada directed Majapahit's outward expansion — a mix of military campaigns and tributary pressure that extended the empire's reach from East Java across Sumatra, Borneo, the Malay Peninsula, and the eastern islands. How much was conquest and how much was a court poet's flattering inventory is the central question of Majapahit historiography.",
       "wikiSlug": "Nusantara_(term)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The term 'Nusantara' is Old Javanese for 'outer islands,' literally the lands beyond Java. Gajah Mada's chancellorship (as Mahapatih) spanned roughly three decades and overlapped with the reigns of both Queen Tribhuwana and her son Hayam Wuruk. Contemporary inscriptions confirm his office and authority, though the full scope of territorial control he achieved remains debated — tributary acknowledgment and actual governance were very different things in the 14th-century archipelago."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-bali-conquest",
       "label": "The conquest of Bali",
       "year": 1343,
-      "description": "Around 1343 Majapahit forces overthrew the indigenous Balinese Pejeng dynasty and brought the island under Javanese control, the reason Bali remained Hindu inside the world's largest Muslim-majority country five centuries later.",
+      "description": "Around 1343, Majapahit forces overthrew the indigenous Pejeng (Bedahulu) dynasty of Bali, bringing the island under Javanese control. This single conquest is why Bali today remains the only predominantly Hindu place in the world's largest Muslim-majority country — the Hindu-Javanese order installed by Majapahit outlasted the empire itself by five centuries.",
       "wikiSlug": "Bali_Kingdom",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Balinese kingdom Majapahit overthrew traced its culture to a blend of native Balinese spirit-and-ancestor reverence fused with Hinduism imported through Java from India. After the conquest, Majapahit installed its own princes and priests, transplanting Javanese Hindu-Buddhist court culture to the island so thoroughly that when Islam swept Java in the 15th and 16th centuries, Bali's religious identity held firm. The Pejeng dynasty is associated with the 'Moon of Pejeng,' a large bronze kettledrum still housed in a Balinese temple and considered a sacred heirloom of the pre-Majapahit era."
+        }
+      ],
+      "commonsFile": "DenpasarPuraMaospahit.JPG"
     },
     {
       "id": "evt-majapahit-tumasik",
       "label": "Tumasik named in the oath",
       "year": 1334,
-      "description": "The Pararaton's list of lands in the Palapa Oath included Tumasik, the trading post that is old Singapore, alongside Sumatra, Borneo, the Malay Peninsula, the eastern islands, Bali, and Sunda.",
+      "description": "The Palapa Oath's target list included Tumasik — the trading post on the island at the southern tip of the Malay Peninsula that we know today as Singapore. The Pararaton names it alongside Sumatra, Borneo, the Malay coast, Bali, and Sunda as the lands Gajah Mada vowed to bring under Majapahit.",
       "wikiSlug": "Kingdom_of_Singapura",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Kingdom of Singapura (Tumasik) was founded around 1299 by Sang Nila Utama according to Malay tradition, making it a relatively young polity when Gajah Mada supposedly named it in his oath. It sat at the narrowest chokepoint of the maritime spice route between the South China Sea and the Indian Ocean, making it a prize any regional power would covet. The kingdom lasted until its fall between 1396 and 1398, after which the ruling line retreated north and founded the Malacca Sultanate — a successor state that would itself become one of Southeast Asia's great trading powers."
+        }
+      ],
+      "commonsFile": "Part_of_Singapore_Island_(British_Library_India_Office_Records,_1825,_detail).jpg"
     },
     {
       "id": "evt-majapahit-bubat",
       "label": "The Bubat tragedy",
       "year": 1357,
-      "description": "Around 1357, according to the late Sundanese-Javanese poetic tradition, Gajah Mada demanded the Sundanese princess be delivered as tribute not received as a queen; the Sundanese refused and were massacred at the field of Bubat, an episode of contested historicity that makes Gajah Mada a unifier or a butcher depending on which island's chronicle you read.",
+      "description": "Around 1357, a Sundanese royal party arrived at the field of Bubat near the Majapahit capital for the wedding of their princess to King Hayam Wuruk — and Gajah Mada reportedly refused to receive her as a queen, insisting she be presented as tribute from a vassal. The Sundanese refused; the entire party was massacred. The episode's historicity is contested, but its cultural weight is not: 'Majapahit' still lands as glory in Java and as atrocity in Sunda.",
       "wikiSlug": "Battle_of_Bubat",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle took place at Bubat Square on the northern edge of Trowulan, Majapahit's capital area. The Sundanese sources and Javanese sources frame the same event in opposite moral terms — one side's unification policy is the other side's treacherous ambush of a wedding party. The date in Saka calendar reckoning is 1279 Saka, corresponding to 1357 CE. Gajah Mada fell from court favor in the aftermath and never recovered his position."
+        }
+      ],
+      "commonsFile": "Bubat_war_statue.jpg"
     },
     {
       "id": "evt-majapahit-dyah-pitaloka",
       "label": "Dyah Pitaloka of Sunda",
       "year": 1357,
-      "description": "The Sundanese princess Dyah Pitaloka, betrothed to Hayam Wuruk, killed herself when her royal party was massacred at Bubat, the reason Majapahit and Gajah Mada carry a permanent bitter charge in Sundanese memory.",
+      "description": "Dyah Pitaloka Citraresmi (roughly 1340–1357) was the princess of the united Sunda and Galuh kingdoms of West Java, betrothed to Hayam Wuruk of Majapahit. When Gajah Mada demanded her party submit as tributaries rather than arrive as equals, she took her own life after the massacre at Bubat — and became the defining figure of Sundanese cultural memory of the event.",
       "wikiSlug": "Dyah_Pitaloka_Citraresmi",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Dyah Pitaloka is described in the Pararaton as a young woman of extraordinary beauty who had captured Hayam Wuruk's genuine desire — he wanted her as his queen, not as tribute, making Gajah Mada's intervention a unilateral political act that contradicted the king's own wishes. The Sundanese tradition treats her death as a noble sacrifice; in West Java she is remembered as a tragic heroine, not a footnote. Her story is one of the clearest examples in the archipelago of how a single event can generate opposed national memories across a cultural boundary that is only 200 miles wide."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-kidung-sunda",
       "label": "The Kidung Sunda source",
       "year": 1500,
-      "description": "The Bubat episode survives mainly in the Kidung Sunda and related late poetic tradition, partisan and non-contemporary, which is exactly why the same Gajah Mada appears as glory or atrocity by source.",
+      "description": "The Kidung Sunda is a Middle Javanese poem, likely composed in Bali, that provides one of the main accounts of the Bubat tragedy. It is a late, partisan source — written well after the events and from a perspective hostile to Gajah Mada — which is precisely what makes it valuable: it shows how the same story was already being told differently depending on who was doing the telling.",
       "wikiSlug": "Kidung_Sunda",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Kidung Sunda is notable for leaving the Sundanese princess unnamed — the identification with Dyah Pitaloka Citraresmi comes from cross-referencing with the Pararaton, not from the poem itself. The poem frames Gajah Mada as a grand vizier who 'betrayed his king' by blocking the marriage, a framing that directly contradicts any reading of him as loyally executing Majapahit policy. Being of 'probable Balinese provenance,' it was preserved in a culture that inherited Majapahit's Hindu-Javanese tradition while also maintaining its own distinct memory of Javanese imperial overreach."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-gajah-mada-death",
       "label": "The death of Gajah Mada",
       "year": 1364,
-      "description": "Gajah Mada fell from favor at court after Bubat and died around 1364; the man left the stage but the argument over him never has.",
+      "description": "Gajah Mada fell from favor at court after the Bubat disaster and died around 1364, having held the Mahapatih office for roughly three decades. He was Majapahit's most powerful chancellor and the man most credited with driving the empire to its territorial peak — and also the man whose legacy split along ethnic lines the moment he was gone.",
       "wikiSlug": "Gajah_Mada",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gajah Mada is also referred to in some Old Javanese sources by the name Jirnnodhara. Contemporary inscriptions confirm his existence and high office, making him unusual among medieval Javanese figures in having a documentary footprint beyond court poetry alone. He served under at least two monarchs — Queen Tribhuwana and her son Hayam Wuruk — and the Nagarakretagama, a court poem composed while he lived (1365), credits him directly with Majapahit's expansion. His death left no obvious successor capable of holding the empire's reach together, and the slow fragmentation of Majapahit's tributary network began within a generation."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-hayam-wuruk",
       "label": "The reign of Hayam Wuruk",
       "year": 1350,
       "endYear": 1389,
-      "description": "Hayam Wuruk, throne name Rajasanagara, reigned over Majapahit's high-water mark: political stability, a famous minister, a court that produced lasting literature, and a capital the ground confirms was real and rich.",
+      "description": "Hayam Wuruk (throne name Rajasanagara, reigned 1350–1389) was the fourth emperor of Majapahit and the one whose reign defines the empire's peak — political stability, a celebrated prime minister, and a court that produced the literature we still read today.",
       "wikiSlug": "Hayam_Wuruk",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hayam Wuruk was born in 1334, meaning he took the throne at roughly sixteen. His name is sometimes rendered 'Hayam Vuruk' in Dutch-era scholarship, and he carried at least four official names across his reign. The Hindu epics the Ramayana and the Mahabharata became deeply embedded in Javanese culture specifically through his reign, spread via wayang kulit (shadow puppet theater). He was succeeded not by a son but by his son-in-law Wikramawardhana, a succession arrangement that would help trigger the later civil war."
+        }
+      ],
+      "commonsFile": "Trowulan_Gate,_East_Java_1342.JPG"
     },
     {
       "id": "evt-majapahit-nagarakretagama",
       "label": "The Nagarakretagama composed",
       "year": 1365,
-      "description": "Mpu Prapanca composed the Nagarakretagama, a 98-canto Old Javanese praise-poem glorifying a living king, an unmatched near-contemporary picture of the court whose every detail was selected to flatter, surviving in exactly one manuscript.",
+      "description": "The Nagarakretagama is a 98-canto Old Javanese praise-poem written on palm leaf (lontar) in 1365, the single most detailed source on Majapahit at its height — and also a piece of royal flattery, not a neutral chronicle.",
       "wikiSlug": "Nagarakretagama",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The poem is also known as the Desawarnana ('description of the districts') and survives in Bali under that name. It was written in the kakawin form, using Indian metrical schemes imported to Java, which was itself a mark of courtly prestige. The manuscript confirms temples, palaces, and ceremonial observances in enough detail that archaeologists have used it as a field guide — cross-checking its descriptions against physical remains at Trowulan."
+        }
+      ],
+      "commonsFile": "Nagarakertagama.jpg"
     },
     {
       "id": "evt-majapahit-mpu-prapanca",
       "label": "Mpu Prapanca, court poet",
       "year": 1365,
-      "description": "Mpu Prapanca, the pen name of a senior official supervising Buddhist affairs, wrote the Nagarakretagama as a courtier glorifying his king, its strength and its trap at once.",
+      "description": "Mpu Prapanca was a senior court official in charge of Buddhist religious affairs who wrote the Nagarakretagama under a pen name — his real name is unknown — making him at once the empire's best witness and its most interested one.",
       "wikiSlug": "Prapanca",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title 'Mpu' marks him as a learned master or craftsman of letters, a honorific for high-ranking court scholars. Writing a kakawin praise-poem for a living king was a legitimate literary genre, not considered dishonest flattery by the standards of the day — Prapanca's contemporaries would have understood the genre's conventions. His insider position as a Buddhist official in a Shiva-Buddha court also means the religious descriptions in his poem are more reliable than most other sections, since he had professional knowledge."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-trowulan",
       "label": "The capital at Trowulan",
       "year": 1350,
-      "description": "The capital at Trowulan was not a walled citadel but a sprawl of brick compounds, pavilions, gateways, and water channels on a grid of canals, a planned hydraulic city the region had not seen before.",
+      "description": "Trowulan, in the lower Brantas plain of East Java, was Majapahit's capital — not a single fortress but about 100 square kilometers of brick compounds, pavilions, and canals, a planned hydraulic city the archaeology confirms was real and densely populated.",
       "wikiSlug": "Trowulan",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The site was razed in 1478 during an invasion by Girindrawardhana targeting a rival king, after which the Majapahit capital shifted to Daha (present-day Kediri). The Trowulan Museum today holds thousands of recovered artifacts. The city's original name was 'Majapahit' or 'Wilwatikta' — the empire took its name from its capital, not the other way around."
+        }
+      ],
+      "commonsFile": "Indonesien_2016_Trowulan_Gapura_Wringin_Lawang.jpg"
     },
     {
       "id": "evt-majapahit-segaran",
       "label": "The Segaran reservoir",
       "year": 1350,
-      "description": "The great rectangular Segaran reservoir anchored Trowulan's canal grid, the rice-and-water engineering of East Java turned into a capital.",
+      "description": "The Segaran was a massive rectangular artificial reservoir at the heart of Trowulan, the anchor of the city's canal grid and a feat of hydraulic engineering that supported a dense urban population in a tropical floodplain.",
       "wikiSlug": "Trowulan",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Segaran ('sea-like') measures roughly 375 by 175 meters and still holds water seasonally today. Its scale suggests it served multiple purposes: flood control, water supply, fish farming, and ceremonial display. The reservoir is one of the clearest pieces of archaeological evidence that Trowulan was a planned capital, not an organic settlement — someone designed this city from the start."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-candi-bentar",
       "label": "The candi bentar split gate",
       "year": 1350,
-      "description": "Trowulan's split ceremonial gateways, the candi bentar, are still the signature gate form of Balinese temples today, part of the Majapahit world preserved on Bali after it died on Java.",
+      "description": "The candi bentar (split gate) is a ceremonial entrance split perfectly in two, creating a central passage — a classical Javanese gate form found at Trowulan that is still the defining entrance of Balinese temples today.",
       "wikiSlug": "Candi_bentar",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The structure's defining feature is its asymmetry of decoration: the outer faces are elaborately carved while the passage sides are left completely plain, creating a dramatic threshold effect. Split gates are found across Java, Bali, and Lombok, but it is in Bali where they became most dominant as the architecture of Hindu practice survived there after Islam spread through Java. The candi bentar is among the most direct visual links between fourteenth-century Majapahit and present-day Balinese religious life."
+        }
+      ],
+      "commonsFile": "Pura_Lempuyang_Luhur,_Gunung_Lempuyang,_Bali_(492079834).jpg"
     },
     {
       "id": "evt-majapahit-terracotta",
       "label": "The Trowulan terracotta",
       "year": 1350,
-      "description": "Archaeology at Trowulan recovered brick foundations, terracotta figurines, and piggy-bank money boxes that confirm a large, dense, prosperous urban center, the part of the praise-poem's picture the ground supports.",
+      "description": "Excavations at Trowulan have turned up brick foundations, terracotta figurines, and clay piggy-bank money boxes that confirm the capital was densely populated and commercially active — physical evidence that agrees with the praise-poem's picture of a wealthy court.",
       "wikiSlug": "Trowulan",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The terracotta money boxes are particularly striking: they are identical in shape to forms found across Southeast Asia and confirm that Trowulan had a monetized economy where ordinary people saved coins. The figurines include portraits, animals, and ritual objects — a window into daily life the poem never bothered to describe. Trowulan's 100-square-kilometer extent, confirmed by survey, would have made it one of the largest cities in fourteenth-century Southeast Asia."
+        }
+      ],
+      "commonsFile": "053_Relief,_Couple_at_Home,_Museum_Mojopahit_(26558400478).jpg"
     },
     {
       "id": "evt-majapahit-royal-progress",
       "label": "The annual royal progress",
       "year": 1360,
-      "description": "Each year the king and court physically toured the realm in a vast procession, a moving display of sovereignty that bound distant districts by showing up, a thalassocracy's answer to governing without a bureaucracy.",
+      "description": "Each year, Hayam Wuruk and his entire court left Trowulan in a vast procession of ox-carts and retainers to tour the realm — a moving show of royal power that tied distant regions to the center not through bureaucrats but through the king's physical presence.",
       "wikiSlug": "Nagarakretagama",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Nagarakretagama describes the royal progress in detail, including specific stopping points and ceremonies along the route, making it one of the poem's most vivid sections. The practice is a classic solution to the problem of governing a pre-bureaucratic empire: personal sovereignty must be seen to be real. The procession also carried religious meaning — the king was a divine figure, and his arrival in a district was a sacred event, not merely a political one."
+        }
+      ],
+      "commonsFile": "Nagarakretagama_of_Indonesian_14th_century_Majapahit_manuscript.jpg"
     },
     {
       "id": "evt-majapahit-shiva-buddha",
       "label": "The Shiva-Buddha state cult",
       "year": 1350,
-      "description": "Majapahit's state cult fused Shiva and the Buddha as two faces of one ultimate reality, the king ritually identified with that fused divinity in life and enshrined as a god in death, a worked-out theological position with its own scripture.",
+      "description": "Majapahit's state religion fused Shiva and the Buddha into a single divinity, with the king identified as that fused god in life and enshrined as him after death — a worked-out theological position, not just vague tolerance, with its own scriptures.",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The theological term for this fusion is 'Shiva-Buddha' or sometimes 'Bhatara Guru,' and it built on centuries of gradual Hindu-Buddhist synthesis in Java going back to the eighth century. The king was not merely protected by the gods but was understood to be a manifestation of divine reality — a concept with deep roots in Indian kingship theory (the idea of the 'devaraja,' or god-king) that Java absorbed and elaborated. Death rituals for Majapahit kings included elaborate mortuary temples where the king was worshipped in the merged divine form."
+        }
+      ],
+      "commonsFile": "Arca_Harihara_kembar_di_Museum_Trowulan.jpg"
     },
     {
       "id": "evt-majapahit-devaraja",
       "label": "The god-king and cosmic-mountain ideology",
       "year": 1350,
-      "description": "The king as the human pivot of a mountain-shaped cosmos, the thread from Borobudur straight through to the god-kings of Majapahit, was the load-bearing concept of the whole civilization.",
+      "description": "The devaraja concept — the king as a divine, mountain-dwelling pivot of cosmic order, a manifestation of the gods on Earth — was the load-bearing political theology of the Indianized kingdoms, connecting Borobudur's Sailendra patrons to Prambanan's Sanjaya kings to the god-kings of Majapahit five hundred years later.",
       "wikiSlug": "Devaraja",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The devaraja idea developed from both Indian Hinduism and local ancestor-spirit traditions depending on the region, giving it a remarkable flexibility across very different cultures. In Java it was institutionalized most visibly through temple construction — each major pyramid or tower complex was literally the king's cosmic mountain, his divine residence on Earth. The concept was not merely symbolic: it provided the political justification for a king's authority over both territory and religious practice, collapsing the distinction between priest and monarch."
+        }
+      ],
+      "commonsFile": "Harihara_Majapahit_1.JPG"
     },
     {
       "id": "evt-majapahit-sutasoma",
       "label": "Mpu Tantular's Sutasoma",
       "year": 1365,
-      "description": "The court poet Mpu Tantular composed the kakawin Sutasoma in Hayam Wuruk's reign, the scripture of the worked-out Shiva-Buddha position.",
+      "description": "The Kakawin Sutasoma is an Old Javanese poem composed by the court poet Mpu Tantular during Hayam Wuruk's reign, the literary scripture of Majapahit's Shiva-Buddha synthesis, based on an ancient Buddhist Jataka story about the bodhisattva Sutasoma.",
       "wikiSlug": "Kakawin_Sutasoma",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The poem draws on the Mahasutasoma Jataka, a tale of the Buddha's past life as a noble prince who defeats a cannibal king through non-violence. Tantular used this framework to argue that apparent religious differences between Hinduism and Buddhism dissolve at the deepest level of understanding. The kakawin is still read in Bali today as a living religious text, not merely a historical artifact — it survived the shift from Java to Bali that preserved so much of Majapahit's cultural legacy."
+        }
+      ],
+      "commonsFile": "COLLECTIE_TROPENMUSEUM_Gouden_reliëf_met_de_voorstelling_van_Sutasoma_gedragen_door_Kalmasapada_TMnr_2960-319.jpg"
     },
     {
       "id": "evt-majapahit-bhinneka",
       "label": "Bhinneka Tunggal Ika",
       "year": 1365,
-      "description": "A verse of the Sutasoma argues that Shiva and Buddha are different yet one, Bhinneka Tunggal Ika, a line written to reconcile two religions that is today the official motto of the Republic of Indonesia.",
+      "description": "Bhinneka Tunggal Ika — 'they are different, they are one' — is a line from the Sutasoma arguing that Shiva and Buddha share one ultimate nature; written in fourteenth-century Java to reconcile two religions, it is today the official national motto of Indonesia.",
       "wikiSlug": "Bhinneka_Tunggal_Ika",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The phrase is inscribed on the scroll gripped by the Garuda Pancasila, Indonesia's national emblem, and is enshrined in Article 36A of the Indonesian constitution. The original religious meaning — specifically about Hindu-Buddhist unity — has been officially reinterpreted as a statement about Indonesia's ethnic, linguistic, and religious diversity as a modern nation. The distance between those two meanings is itself a measure of how much a six-century-old empire had to be repackaged to serve a twentieth-century republic."
+        }
+      ],
+      "commonsFile": "Kakawin_Sutasoma_of_Mpu_Tantular_14th_century_manuscript_of_Indonesia.jpg"
     },
     {
       "id": "evt-majapahit-surya-majapahit",
@@ -744,416 +1177,691 @@
       "id": "evt-majapahit-hayam-wuruk-death",
       "label": "Death of Hayam Wuruk",
       "year": 1389,
-      "description": "Hayam Wuruk died in 1389; the poem that makes his reign legible was already a generation old, its single copy drifting toward the Lombok library and the 1894 fire.",
+      "description": "Hayam Wuruk died in 1389, ending Majapahit's most stable and best-documented reign; the poem that makes it legible was already a generation old by then, its single manuscript slowly drifting east toward Lombok and the fire that nearly destroyed it in 1894.",
       "wikiSlug": "Hayam_Wuruk",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He died leaving a contested succession: his daughter Kusumawardhani inherited through her husband Wikramawardhana, but an illegitimate son Wirabhumi also claimed the throne, a conflict that would erupt into the Paregreg civil war (1405–1406) within a generation of his death. The wayang kulit tradition he helped entrench became one of the longest-surviving cultural legacies of his reign — Javanese shadow puppetry is still performed today and still draws on the Ramayana and Mahabharata he made central to court culture."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-tributary-list",
       "label": "The Nagarakretagama tributary list",
       "year": 1365,
-      "description": "Cantos 13 and 14 list lands subject to Hayam Wuruk spanning essentially all of modern Indonesia and beyond; read literally Majapahit was one of the largest empires on the planet, and twentieth-century nationalists read it exactly that literally.",
+      "description": "In 1365, the court poet Mpu Prapanca wrote the Nagarakretagama, an Old Javanese eulogy to King Hayam Wuruk listing lands subject to Majapahit — essentially all of modern Indonesia plus stretches of the Malay Peninsula, the Philippines, and beyond. Twentieth-century Indonesian nationalists read the list literally as proof of a precolonial empire and wrote it into the founding national story.",
       "wikiSlug": "Nagarakretagama",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The poem was composed on lontar (palm leaf) as a kakawin, a prestige verse form borrowed from Indian literary tradition, meaning every line was crafted for flattery, not cartography. Scholars debate how much of the list reflects real tribute relationships versus diplomatic encounters that a skilled poet could dress up as submission. The manuscript itself was lost from scholarly view for centuries and only rediscovered in Lombok in 1894."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-mandala",
       "label": "The mandala model of the state",
       "year": 1365,
-      "description": "The dominant modern reading, associated with O. W. Wolters, holds that classical Southeast Asian states were not territorial empires but concentric fields of influence, so the tributary list is a prestige network and partly aspirational, not a map of an empire.",
+      "description": "The historian O. W. Wolters, writing in the 1980s, gave scholars a framework to reread Majapahit's claims: the mandala (Sanskrit for 'circle'), a model in which classical Southeast Asian states were not territorial empires with fixed borders but concentric fields of influence radiating from a royal center. In this reading, the farther you get from the capital, the thinner the actual control.",
       "wikiSlug": "Mandala_(political_model)",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mandala model emphasizes that loyalty to a center was personal and ceremonial — rulers sent tribute to acknowledge a more powerful king's prestige, not because an administration governed them. City-states and principalities in this system could simultaneously orbit multiple centers, pledging loyalty to whichever power's fleet was closest. The concept reshapes not just Majapahit but nearly every large state in medieval Southeast Asia."
+        }
+      ],
+      "commonsFile": "Mandalas1360-2.png"
     },
     {
       "id": "evt-majapahit-rice-economy",
       "label": "The Brantas rice surplus",
       "year": 1350,
-      "description": "The Brantas and eastern Java river plains produced a grain surplus large enough to feed cities and provision fleets, the agricultural base almost no other maritime power in the region had.",
+      "description": "The Brantas River valley and eastern Java's river plains produced a grain surplus large enough to feed cities and provision oceangoing fleets, giving Majapahit an agricultural foundation that most island powers in the region simply lacked.",
       "wikiSlug": "Majapahit",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rice surpluses meant Majapahit could supply its own ships rather than depending on the trade networks it was trying to dominate — a strategic advantage over purely maritime rivals like Srivijaya, which controlled sea lanes but had no comparable agricultural hinterland. Control of East Java's irrigated paddies was as load-bearing to Majapahit's power as its navy."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-spice-trade",
       "label": "The Maluku spice entrepot",
       "year": 1350,
-      "description": "Java was the hinge where the spice production of the east, cloves and nutmeg from Maluku found nowhere else on Earth, met the China-India sea lane.",
+      "description": "The Maluku Islands (also called the Moluccas) in eastern Indonesia were the only place on Earth in the medieval period where cloves and nutmeg grew wild, making them the source of the most valuable commodities in long-distance trade. Java's position between these islands and the China-India sea lane made Majapahit the natural middleman.",
       "wikiSlug": "Maluku_Islands",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cloves and nutmeg commanded prices in medieval Europe and the Middle East that made the spice trade the rough equivalent of the modern oil trade — fortunes, wars, and eventually European colonialism all traced back to Maluku. Majapahit never directly controlled the spice islands but extracted wealth by being the transit hub where eastern spices changed hands on their way west."
+        }
+      ],
+      "commonsFile": "Maluku_Islands_en.png"
     },
     {
       "id": "evt-majapahit-ports",
       "label": "The north-coast ports",
       "year": 1350,
-      "description": "Majapahit's ports, Tuban, Gresik, and the rivermouth complex near modern Surabaya, were thick with foreign merchant communities.",
+      "description": "Majapahit's north-coast Java ports — Tuban, Gresik, and the rivermouth complex near modern Surabaya — were the engine of its commercial wealth, crowded with foreign merchant communities from China, India, and the Malay world.",
       "wikiSlug": "Tuban",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tuban sits about 62 miles (100 km) west of Surabaya on Java's north coast and was one of the busiest medieval entrepôts in the archipelago; Chinese, Javanese, and Malay merchants all maintained communities there. These port cities operated with substantial autonomy under Majapahit's umbrella, handling their own commercial laws and customs even as they funneled tax revenue and tribute upward to the royal court."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-kepeng",
       "label": "Chinese kepeng cash currency",
       "year": 1350,
-      "description": "The currency that oiled the economy was imported Chinese copper coins called kepeng, strung by the thousand, a Javanese empire running on a foreign reserve currency.",
+      "description": "The currency circulating through Majapahit's markets was not Javanese — it was Chinese copper cash coins called kepeng (cash coins introduced by Chinese traders), strung together in long chains of a thousand, effectively making a Javanese empire run on a foreign reserve currency.",
       "wikiSlug": "Kepeng",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kepeng coins trace back to Tang dynasty Chinese imperial coinage and became widespread in Java only after Singhasari's defeat of the Mongol invasion in the late 13th century opened the region to intensified Chinese trade. When the Ming dynasty later banned direct trade with the archipelago, local rulers began minting their own imitation kepeng from copper alloys, lead, and tin — thinner and lower quality than the originals, a kind of medieval currency debasement."
+        }
+      ],
+      "commonsFile": "Indonesian_bulk_strings_of_cash_coins_-_Scott_Semans.jpg"
     },
     {
       "id": "evt-majapahit-wang-dayuan",
       "label": "Wang Dayuan visits Java",
       "year": 1330,
-      "description": "The Chinese traveler Wang Dayuan, who visited Java in the 1330s, independently described a Java of busy ports, mixed populations, and a rice-and-spice economy of real scale.",
+      "description": "Wang Dayuan, a Chinese merchant-traveler from Jiangxi, made two major voyages through maritime Southeast Asia in the 1330s and wrote them up in a detailed account that is one of the few independent foreign-witness descriptions of Java in the Majapahit era.",
       "wikiSlug": "Wang_Dayuan",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wang's account is significant precisely because he was a trader writing practical commercial observations, not a court poet commissioned to flatter a king — so his description of Java's busy ports and mixed populations corroborates the economic picture the Nagarakretagama gives from the inside. His work predates the Ming treasure fleet voyages by about eighty years and belongs to an older tradition of private Chinese maritime commerce that the Ming state would later try to suppress."
+        }
+      ],
+      "commonsFile": "Daoyi_Zhilue_Cover.jpg"
     },
     {
       "id": "evt-majapahit-wikramawardhana",
       "label": "The reign of Wikramawardhana",
       "year": 1389,
       "endYear": 1429,
-      "description": "Hayam Wuruk's designated heir Wikramawardhana, a nephew and son-in-law, inherited a structural trap: a kingdom with two centers and two plausible claims.",
+      "description": "Wikramawardhana, nephew and son-in-law of Hayam Wuruk, became Majapahit's fifth monarch in 1389 and ruled until 1429 — a reign defined less by achievement than by the slow unraveling he inherited. His regnal name, Bhra Hyang Wisesa, meant something like 'The Revered Almighty,' a title that sat uneasily over a court that spent its first decade quietly arming for civil war.",
       "wikiSlug": "Wikramawardhana",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wikramawardhana's claim rested on being both Hayam Wuruk's nephew and his son-in-law, giving him a double dynastic tie — but neither connection made the eastern court's rival claim disappear. He reigned for 40 years, longer than the civil war that scarred his early rule, yet the sources for his reign thin out sharply after the Paregreg War, suggesting the court's administrative vitality had already contracted."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-bhre-wirabhumi",
       "label": "Bhre Wirabhumi and the eastern court",
       "year": 1389,
       "endYear": 1406,
-      "description": "Bhre Wirabhumi, Hayam Wuruk's son by a secondary consort, held the eastern apanage, so the kingdom had a western court and an eastern court with rival claims.",
+      "description": "Bhre Wirabhumi, Hayam Wuruk's son by a secondary consort, governed the eastern apanage (Blambangan) as a semi-autonomous 'eastern court' — a parallel power center that made Majapahit functionally two kingdoms for roughly fifteen years before open war broke the arrangement.",
       "wikiSlug": "Regreg_War",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Regreg War's name for the two courts — Kedhaton Kulon (western court) and Kedhaton Wetan (eastern court) — makes the structural split explicit: these weren't factions, they were rival administrative centers with their own courts and resources. The eastern court's base in Blambangan, at Java's far eastern tip, placed Wirabhumi as far from the capital as possible while still technically inside the empire, which probably encouraged his confidence that he could hold out."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-paregreg",
       "label": "The Paregreg War",
       "year": 1404,
-      "description": "The Paregreg War, a dynastic civil war between the western and eastern courts ending with Wirabhumi beheaded around 1406, did not lose a province but lost the illusion the tributary network ran on, and the outer rings began to detach.",
+      "description": "The Paregreg War (1404–1406) was the civil war between Majapahit's western and eastern courts that ended with Bhre Wirabhumi's beheading — a victory that cost Majapahit more than it won, because the years of internal fighting proved to every tributary that the center could no longer compel anyone.",
       "wikiSlug": "Paregreg_war",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The war's name is sometimes read as meaning 'it ground on slowly,' which captures its damage: not a single decisive campaign but an exhausting drain of court finances, military attention, and administrative capacity. The 'calamity, crisis, and exhaustion' the chronicles describe weren't just rhetorical — the financial drain of internal war is precisely what stripped Majapahit of the logistical ability to project force, and a thalassocracy that can't project force is no longer a thalassocracy."
+        }
+      ],
+      "commonsFile": "Illustration_of_Dyah_Suhita.jpg"
     },
     {
       "id": "evt-majapahit-suhita",
       "label": "Queen Suhita",
       "year": 1429,
       "endYear": 1447,
-      "description": "The queen Suhita reigned to about 1447 at the head of a sequence of rulers whose order, dates, and even number are disputed as the contemporary sources thin to almost nothing.",
+      "description": "Suhita, the sixth monarch of Majapahit, was a queen regnant (a woman who ruled in her own right, not as a consort) who held the throne from 1429 to around 1447 — the only woman to rule Majapahit and one of the few female rulers in the medieval Javanese record.",
       "wikiSlug": "Suhita",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Suhita reigned for roughly 18 years, which made her one of the more stable rulers in Majapahit's murky post-Paregreg sequence — most of her successors lasted only a few years each. Her accession itself reflects the succession chaos: she was Wikramawardhana's daughter, meaning she came to power in part because the male line had fragmented badly enough that a woman's claim was the cleaner option."
+        }
+      ],
+      "commonsFile": "Suhita.jpg"
     },
     {
       "id": "evt-majapahit-kertawijaya",
       "label": "King Kertawijaya",
       "year": 1447,
       "endYear": 1451,
-      "description": "Kertawijaya was one of the short-lived rulers in the contested mid-fifteenth-century line that the later Javanese-Islamic tradition collapsed into a tidy series of five kings all called Brawijaya.",
+      "description": "Kertawijaya, Majapahit's seventh monarch, reigned from 1447 to 1451 under the regnal name Sri Maharaja Wijayaparakramawardhana — a four-year rule that typifies the short, contested reigns that made this stretch of Majapahit history so hard to reconstruct.",
       "wikiSlug": "Kertawijaya",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kertawijaya's reign lasted only four years, yet his full regnal name ran to thirty-one syllables — a disproportion that captures something real about late Majapahit: the ceremonial apparatus of royal grandeur was still being maintained even as the actual power it represented contracted. The brevity of his reign (and the reigns of several successors) suggests succession was no longer resolving cleanly even after a ruler took the throne."
+        }
+      ],
+      "commonsFile": "COLLECTIE_TROPENMUSEUM_Het_graf_van_Putri_Campa_een_prinses_uit_de_periode_van_Majapahit_TMnr_60027337.jpg"
     },
     {
       "id": "evt-majapahit-brawijaya-fiction",
       "label": "The 'Brawijaya' king fiction",
       "year": 1450,
-      "description": "The later Javanese-Islamic chronicle tradition laid a clean line of five kings all called Brawijaya over a messy, contested, thinning fifteenth-century reality, the same kind of tidy number later applied to the Nine Saints.",
+      "description": "Later Javanese-Islamic chronicles tidied up Majapahit's chaotic fifteenth-century succession by inventing a clean line of five kings all named Brawijaya (Brawijaya I through V) — a retrospective fiction that collapsed a genuinely messy, contested, poorly-documented reality into the kind of tidy numbered sequence that makes a story easier to tell.",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 'Brawijaya' tradition is a revealing example of how oral and chronicle cultures handle historical confusion: rather than preserve the uncertainty, they impose narrative order after the fact. This same impulse produced the Nine Wali (Nine Saints) tradition for early Javanese Islam — another suspiciously clean number applied to a messy historical process. Specialists today still disagree on how many rulers actually reigned and in what order during this period, because the contemporary inscriptions that would settle the question simply stop being produced."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-zheng-he",
       "label": "Zheng He's treasure fleets reach Java",
       "year": 1405,
-      "description": "Between 1405 and 1433 the Ming admiral Zheng He's enormous armadas crossed the Indian Ocean on seven voyages, with Java a regular waypoint, a fleet larger than anything Majapahit had ever floated.",
+      "description": "Between 1405 and 1433 the Ming admiral Zheng He led seven massive treasure-fleet voyages across the Indian Ocean, with Java a regular stop — armadas numbering hundreds of ships that dwarfed anything Majapahit could put to sea.",
       "wikiSlug": "Ming_treasure_voyages",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Yongle Emperor ordered the fleet built in 1403, just two years before the first voyage departed. The seven voyages ranged from India's Malabar Coast all the way to East Africa and the Arabian Peninsula — the furthest any premodern Chinese fleet ever reached. The scale was staggering: individual treasure ships are estimated at over 400 feet long, larger than any European vessel of the era."
+        }
+      ],
+      "commonsFile": "Admiral_Zhenghe.jpg"
     },
     {
       "id": "evt-majapahit-zheng-he-incident",
       "label": "The 1406 killing of Zheng He's men",
       "year": 1406,
-      "description": "Around 1406 some 170 of Zheng He's men were killed in the Paregreg fighting after coming ashore in a warring court's territory; the Ming demanded a gold indemnity, accepted an apology and partial payment, and let the rest go, a perfect miniature of where power now sat.",
+      "description": "Around 1406 roughly 170 of Zheng He's men came ashore in warring Javanese territory and were killed, apparently mistaken for enemies; the Ming demanded a gold indemnity, accepted an apology and partial payment, and let most of the debt go.",
       "wikiSlug": "Ming_treasure_voyages",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The incident happened during the Paregreg civil war's messy aftermath, when multiple Javanese factions were still fighting. The Ming court's willingness to settle for an apology rather than retaliate reflects the voyages' core purpose: projecting prestige and securing tribute relationships, not territorial conquest. That calculus — a foreign admiral's men killed on Java without military consequence — is a precise measure of how far Majapahit's deterrent power had slipped."
+        }
+      ],
+      "commonsFile": "ZhengHeShips.gif"
     },
     {
       "id": "evt-majapahit-ma-huan",
       "label": "Ma Huan's account of Java",
       "year": 1433,
-      "description": "Zheng He's Muslim interpreter Ma Huan wrote one of the best foreign descriptions of fifteenth-century Java: busy ports, a thriving mixed economy, and established communities of foreign and Chinese Muslims already trading in the north-coast cities.",
+      "description": "Zheng He's Muslim interpreter and travel writer Ma Huan accompanied the admiral on three voyages and wrote up what he saw, leaving one of the best foreign accounts of fifteenth-century Java: busy ports, a mixed economy, and Muslim communities already settled in the north-coast trading towns.",
       "wikiSlug": "Ma_Huan",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ma Huan was born in Zhejiang and learned Arabic specifically to serve as a translator on the voyages. His book is called the Yingya Shenglan (\"Overall Survey of the Ocean's Shores\"). The detail that proved most historically consequential in his Java account was not the politics or the markets — it was his matter-of-fact observation that Chinese Muslim settlers were already there, living and trading, before any official conversion push."
+        }
+      ],
+      "commonsFile": "Yingya_Shenglan_(Jilu_Huiban),_first_page.jpg"
     },
     {
       "id": "evt-majapahit-islamization",
       "label": "The Islamization of Java",
       "year": 1400,
       "endYear": 1500,
-      "description": "Java became Muslim not by conquest or a single convert-king but the way it had become Indianized: through trade, prestige, and slow elite adoption from the coast inward, the agricultural Hindu-Buddhist interior turning last.",
+      "description": "Java did not become Muslim by conquest or decree but through a century-long process of trade, intermarriage, and slow elite adoption, spreading from the cosmopolitan north-coast ports inward toward the Hindu-Buddhist agricultural interior.",
       "wikiSlug": "Spread_of_Islam_in_Indonesia",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The ambiguity begins at the very start: scholars still debate whether Islam arrived in the archipelago directly from Arabia in the 9th century or came later via Gujarat or Persia through Sufi traders. The patchwork result — a coast that went Muslim while the interior courts held Hindu-Buddhist forms for another century — shows a conversion running along commercial logic rather than political command."
+        }
+      ],
+      "commonsFile": "Meuseujid_Raya_Bayturrahman.JPG"
     },
     {
       "id": "evt-majapahit-muslim-merchants",
       "label": "The Muslim merchant networks",
       "year": 1400,
-      "description": "The agents of conversion were Gujarati and other Indian, Persian, Arab, and notably Chinese Muslim traders who had been a normal part of the Java Sea economy for generations.",
+      "description": "The agents of Java's Islamization were Muslim traders from Gujarat, Persia, Arabia, and notably China — merchants who had been a normal, unremarkable part of the Java Sea economy for generations before conversion became a political fact.",
       "wikiSlug": "Spread_of_Islam_in_Indonesia",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars note that both the 9th-century Arab arrival theory and the later Gujarati Sufi theory agree on one thing: Islam came first where the trade was. The merchant networks did not need a missionary campaign because the commercial incentive — speaking the same religious language as your trading partners — did the quiet work of outreach across generations."
+        }
+      ],
+      "commonsFile": "Masjid_demak.jpg"
     },
     {
       "id": "evt-majapahit-pasisir",
       "label": "The pasisir coast turns Muslim",
       "year": 1450,
-      "description": "The cosmopolitan north-coast trading towns, the pasisir, turned Muslim first because that is where the merchant networks, marriages, and commercial advantage of sharing the traders' religion concentrated.",
+      "description": "The pasisir (the northern coastal strip of Java) turned Muslim first, because its cosmopolitan port towns were where merchant networks, cross-cultural marriages, and the commercial advantage of shared religion all concentrated.",
       "wikiSlug": "Pasisir",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike the rice-farming kingdoms of the interior, the pasisiran economy was built on Java Sea trade and shaped by centuries of foreign contact, including resident Arab and Chinese communities. That structural difference — coast oriented outward, interior oriented inward — explains why the same island could be simultaneously Muslim on its rim and Hindu-Buddhist at its core for more than a century."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-troloyo",
       "label": "The Troloyo Muslim gravestones",
       "year": 1376,
-      "description": "The Muslim gravestones at Troloyo near the Trowulan capital, some self-dated to the fourteenth century, are hard evidence of Muslims buried in the royal necropolis while Majapahit was still a Hindu-Buddhist power.",
+      "description": "Muslim gravestones at Troloyo, near the Majapahit capital of Trowulan, some self-dated by their own inscriptions to the fourteenth century, prove that Muslims were buried in the royal necropolis while the empire was still a Hindu-Buddhist power.",
       "wikiSlug": "Trowulan",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Trowulan covers roughly 100 square kilometers and is described in the 14th-century court poem Nagarakretagama as the imperial capital. The co-existence of Muslim graves inside that capital — not at its edges but in its necropolis — means Islamization was not an outside force that arrived at the end of Majapahit: it was already inside the walls. The Trowulan Museum today holds a large collection of artifacts from the site."
+        }
+      ],
+      "commonsFile": "COLLECTIE_TROPENMUSEUM_Tralaja_moslim_begraafplaats_van_zeven_kroonprinsen_bij_de_ruïnes_van_Majapahit_in_de_buurt_van_Modjowarno_TMnr_60042354.jpg"
     },
     {
       "id": "evt-majapahit-wali-songo",
       "label": "The Wali Songo, the Nine Saints",
       "year": 1450,
       "endYear": 1550,
-      "description": "Javanese Islamic memory personalizes the slow conversion into nine holy men credited with converting Java by preaching and adapted Javanese forms; they are later hagiography, a tidy number over a messy reality, but encode a true mechanism.",
+      "description": "Javanese Islamic memory organizes the messy century-long conversion into nine named holy men, the Wali Songo, credited with bringing Islam through preaching and adapted local culture — a later hagiographic shape imposed on a real but undocumented process.",
       "wikiSlug": "Wali_Sanga",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word wali comes from Arabic for Muslim saint; songo is the Javanese word for nine. The saints come to us through chronicles written by the much later Islamic Mataram Sultanate — a state that deliberately reused a prestigious old Hindu name — giving the conversion the narrative arc of a sacred drama with a fixed cast. The round number nine is the storyteller's arithmetic: charismatic teachers genuinely spread Islam through Java, but counting them was a later act of memory-making, not record-keeping."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-wayang-islam",
       "label": "Islam adapts the wayang",
       "year": 1480,
-      "description": "The Wali Songo legends have the saints adapting Javanese forms like the shadow-puppet theater to Islamic stories, the conversion running through charismatic teachers and localized culture.",
+      "description": "Wali Songo legends credit the saints with adapting Javanese shadow-puppet theater (wayang) to Islamic stories — converting through culture rather than coercion, making new beliefs legible in familiar forms.",
       "wikiSlug": "Wayang",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wayang performances traditionally ran midnight to dawn, performed by a dalang (a puppeteer who is also a spiritual leader), with a gamelan orchestra, and drew stories from the Hindu epics Ramayana and Mahabharata. Weaving Islamic narratives into that deeply rooted performance tradition was a documented strategy for reaching audiences who would never have sat through a foreign sermon but would happily stay up all night for a good puppet show."
+        }
+      ],
+      "commonsFile": "Wayang_sejarah.jpg"
     },
     {
       "id": "evt-majapahit-demak",
       "label": "The Demak Sultanate rises",
       "year": 1475,
-      "description": "On the north coast a Muslim port-polity at Demak rose to dominate the pasisir trade and became the first Islamic sultanate on Java, positioned exactly where Majapahit was weakest.",
+      "description": "Demak, a Muslim port-polity on Java's north coast, rose in the last quarter of the fifteenth century to dominate the pasisir trade lanes and become the first Islamic sultanate on Java — positioned exactly where Majapahit was most exposed.",
       "wikiSlug": "Demak_Sultanate",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Demak Sultanate drew its Islamic influence from Chinese Muslim, Gujarati, Arab, and regional sources including the powerful Malacca Sultanate and the Samudra Pasai kingdom in Sumatra. At its height it controlled most of Java's northern coast and parts of southern Sumatra — the very trade geography that had been Majapahit's economic lifeline. The sultanate was a port fief of Majapahit before it became its successor."
+        }
+      ],
+      "commonsFile": "Demak_extent.png"
     },
     {
       "id": "evt-majapahit-raden-patah",
       "label": "Raden Patah of Demak",
       "year": 1478,
-      "description": "Tradition makes Demak's founder Raden Patah a son of the last Majapahit king turned against his Hindu father, a genealogical story almost certainly designed to give the new Muslim order legitimate descent from the old Hindu one.",
+      "description": "Raden Patah (also known as Jin Bun) founded the Demak Sultanate and is traditionally cast as a son of Majapahit's last king — a genealogical story almost certainly invented to make the new Muslim order look like a legitimate inheritance rather than a foreign rupture.",
       "wikiSlug": "Raden_Patah",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Raden Patah ascended to Demak's throne in 1475 but remained formally a vassal of Majapahit until 1478, the year of Trowulan's fall. The Wali Sanga themselves appointed him Sultan of Demak, giving the sultanate both a royal bloodline claim (via the Majapahit story) and a religious mandate. His coin — one of the few surviving physical traces of his rule — carries the title Panembahan Jimbun."
+        }
+      ],
+      "commonsFile": "MUS_Koin_Sultan_Pangeran_Raden_Fatah.png"
     },
     {
       "id": "evt-majapahit-candrasengkala",
       "label": "The 'sirna ilang' chronogram",
       "year": 1478,
-      "description": "The candrasengkala sirna ilang kertaning bumi, a date encoded as a poetic phrase, decodes to 1478 and was long repeated as the fall of Majapahit, though it almost certainly marks a different event.",
+      "description": "A candrasengkala (a Javanese date encoded as a poetic phrase whose words stand for digits) reads 'sirna ilang kertaning bumi' — 'the prosperity of the land vanished and was gone' — decoding to 1478 CE, long cited as the fall of Majapahit.",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Candrasengkala (literally 'moon-digit verse') is still used in Javanese culture today to commemorate important dates, with each word in the phrase carrying a numerical value drawn from a traditional symbolic vocabulary. The phrase sirna ilang kertaning bumi assigns specific digit values to produce the Javanese saka year 1400, which converts to 1478 CE. Because the chronogram was poetic rather than documentary, later historians realized it almost certainly records the fall of a particular king, not the empire itself — a reminder that medieval Javanese 'dates' are literary arguments dressed as numbers."
+        }
+      ],
+      "commonsFile": "Prasasti_Jiyu_atau_Trailokyapuri_III_A.jpg"
     },
     {
       "id": "evt-majapahit-girindrawardhana",
       "label": "Girindrawardhana's coup of 1478",
       "year": 1478,
-      "description": "In 1478 a Hindu rival line from the Kediri-Daha region under Girindrawardhana overthrew the reigning Majapahit king, one Hindu faction replacing another, the kingdom continuing in weakened form with its center shifting inland to Daha.",
+      "description": "In 1478 a Hindu rival line from the Kediri-Daha region, under a ruler called Girindrawardhana, overthrew the reigning Majapahit king — one Hindu faction displacing another, the kingdom continuing in weakened form with its center shifting inland to Daha.",
       "wikiSlug": "Girindrawardhana",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Girindrawardhana is identified in a Jiyu inscription as 'Sri Wilwatikta Jenggala Kediri,' meaning ruler of Majapahit, Janggala, and Kediri simultaneously — a claim that stacked three royal titles onto one man. Chinese sources record him as 'Pa Bu Ta La' and note he was 'constantly at war' with the Muslim ruler of Demak, Pate Rodim, suggesting the final decades were a grinding two-front conflict rather than a sudden collapse. Modern historians believe he is also the historical basis of the legendary figure Brawijaya in later Javanese chronicles."
+        }
+      ],
+      "commonsFile": "Cetbang_Majapahit_of_1470-1478,_collection_of_The_Metropolitan_Museum_of_Art.jpg"
     },
     {
       "id": "evt-majapahit-daha-remnant",
       "label": "Majapahit-Daha, the inland remnant",
       "year": 1478,
       "endYear": 1527,
-      "description": "The much-reduced Majapahit-Daha state continued for another half century, the kingdom not so much ended as relocated inland and shrunken.",
+      "description": "After 1478 the Majapahit state survived in shrunken, inland form at Daha (in the Kediri region of eastern Java) for another half-century, its tributaries peeling away and its coast turning Muslim while the Hindu core held on.",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The city of Trowulan, the old Majapahit capital, was razed during Girindrawardhana's 1478 invasion, so the rump state operated from Daha rather than the original ceremonial center. This inland retreat mirrors a pattern seen across Southeast Asia's Hindu kingdoms as Muslim port cities accumulated trade wealth and political leverage — the interior held older ritual prestige, the coast held the new economic power, and the two were structurally incompatible."
+        }
+      ],
+      "commonsFile": "Vishnu_Kediri.jpg"
     },
     {
       "id": "evt-majapahit-trenggana",
       "label": "Sultan Trenggana of Demak",
       "year": 1527,
-      "description": "The Demak Sultanate under its sultan Trenggana finally conquered the Majapahit-Daha state around 1527, the actual extinction coming late and against Demak.",
+      "description": "Trenggana, the third Sultan of the Demak Sultanate on Java's north coast, finished off the shrunken Majapahit-Daha state around 1527 — the actual, final extinction of the Hindu kingdom that had once dominated the archipelago.",
       "wikiSlug": "Trenggana",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Trenggana ruled Demak from 1521 to 1546, making his reign the hinge between the end of Hindu Java and the consolidation of Islamic power across the island. Demak was itself the first major Islamic sultanate on Java, founded by a son-in-law of the region's leading Muslim saint, so its conquest of Majapahit carried both military and religious symbolic weight. Trenggana was also the sultan who sent fleets west to attack Portuguese Malacca, placing the final conquest of Majapahit inside a much larger regional contest for maritime dominance."
+        }
+      ],
+      "commonsFile": "Royal_Tombs_of_Demak.jpg"
     },
     {
       "id": "evt-majapahit-fall-1527",
       "label": "The conquest of Majapahit",
       "year": 1527,
-      "description": "Majapahit fell in 1478 by a poem's date for the wrong event, around 1527 by the Demak conquest, or gradually across the period between as tributaries detached and the coast turned Muslim, the chosen date depending entirely on which source you privilege.",
+      "description": "Majapahit — the Javanese Hindu-Buddhist sea empire that at its height claimed tributaries across nearly the entire Nusantara archipelago — collapsed in 1527 when the Sultanate of Demak completed its conquest, ending Hindu-Buddhist political dominance in Java.",
       "wikiSlug": "Majapahit",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fall triggered what the narrative calls a cascading source problem: 1478 is a poem's date for an internal coup, 1527 is the actual Demak conquest, and 'gradual' is the honest answer if you count the decades of tributary losses in between. Majapahit is also spelled Wilwatikta in inscriptions — a name derived from the 'bitter maja fruit' origin story — and its modern reputation as a unified pan-archipelago empire rests heavily on a single fourteenth-century praise-poem whose tributary list was written to flatter a king, not to survey borders."
+        }
+      ],
+      "commonsFile": "Map_of_Malay_Archipelago_in_15th_century.png"
     },
     {
       "id": "evt-majapahit-exodus-bali",
       "label": "The Hindu-Javanese exodus to Bali",
       "year": 1500,
       "endYear": 1550,
-      "description": "The Hindu-Javanese elite of priests, aristocrats, scholars, and artists moved east across the strait to Bali, the island Majapahit had conquered around 1343, where the Majapahit order became the island's identity.",
+      "description": "As Java fell to Islam, the Hindu-Javanese elite — priests, aristocrats, scholars, and artists — migrated east across the narrow Lombok Strait to Bali, the island Majapahit had conquered around 1343, carrying the entire cultural order with them.",
       "wikiSlug": "Balinese_people",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Balinese people today number about 4.2 million, making up roughly 85% of Bali's population, and remain distinctive among Indonesian ethnic groups for their adherence to Balinese Hinduism rather than Islam or Christianity. Balinese aristocratic families (the Ksatria and Brahmin castes) trace direct genealogical descent from Majapahit refugee lines, and the Balinese calendar, temple festivals, and court literature all preserve Old Javanese forms that died out on Java itself. The strait between Java and Bali — the Bali Strait, barely 2.4 km at its narrowest — is one of the most consequential short crossings in Southeast Asian history."
+        }
+      ],
+      "commonsFile": "Bali1981-019.jpg"
     },
     {
       "id": "evt-majapahit-bali-hindu",
       "label": "Bali preserves the Majapahit world",
       "year": 1550,
-      "description": "Balinese aristocratic houses trace descent to Majapahit refugees, and the island's priestly tradition, caste structure, literature, and split candi bentar gateways are the Majapahit world preserved after it died on Java, the reason Bali is Hindu today.",
+      "description": "Bali is Hindu today — inside the world's largest Muslim-majority nation — because the Majapahit world relocated there rather than dying: Balinese aristocratic houses trace descent to Majapahit refugees, and the island's temples, priestly tradition, caste structure, and split candi bentar gateways are the Majapahit order preserved.",
       "wikiSlug": "Balinese_Hinduism",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Balinese Hinduism is a locally evolved synthesis, not a direct transplant of Indian Hinduism — it blends indigenous Balinese animism and ancestor veneration with the Hindu-Buddhist forms Majapahit carried east, producing a religious system organized around communal temple networks (the tri kahyangan tiga system) rather than a priestly hierarchy. The candi bentar, a split gateway found at nearly every Balinese temple entrance, is an architectural form that originated in Majapahit Java and survives almost nowhere else. Tanah Lot, one of Bali's most recognized sea temples, was built in the 16th century by a Majapahit-era priest, making it a direct architectural monument to the refugee tradition."
+        }
+      ],
+      "commonsFile": "TanahLot_2014.JPG"
     },
     {
       "id": "evt-majapahit-tengger-osing",
       "label": "The Tengger and Osing survivals",
       "year": 1550,
-      "description": "Smaller pockets, the Tengger of the volcanic Bromo highlands and the Osing of the far eastern tip, are other surviving folds of the same Hindu-Javanese world.",
+      "description": "Not all of Java's Hindu-Javanese world fled to Bali: the Tengger people of the volcanic highlands around Mount Bromo and the Osing of Java's far eastern tip are surviving pockets of the same tradition, still practicing Hindu rites inside an overwhelmingly Muslim island.",
       "wikiSlug": "Tenggerese_people",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tenggerese, centered in the Bromo Tengger Semeru National Park, are described as the only Javanese group who remained Hindu from the Majapahit era — the wikiExtract notes the Osing have since been Islamized, making Tengger the last continuously Hindu community on Java itself. Their most important ritual is Yadnya Kasada, a ceremony in which offerings are thrown into the active crater of Mount Bromo, a practice with no direct Indian parallel that scholars read as an ancient Javanese volcanic cult absorbed into the Hindu framework. The isolation of the Tengger highlands — ringed by a 10-km-wide caldera — is precisely what allowed the community to survive religious change that swept the lower valleys."
+        }
+      ],
+      "commonsFile": "COLLECTIE_TROPENMUSEUM_Priesters_uit_het_Tengger_district_Oost-Java_TMnr_10001180.jpg"
     },
     {
       "id": "evt-majapahit-lombok-1894",
       "label": "The Dutch sack of Cakranagara, Lombok",
       "year": 1894,
-      "description": "In 1894 a Dutch military expedition sacked the palace of the Balinese kingdom of Cakranagara on Lombok, and the single surviving Nagarakretagama manuscript was carried out of the burning library.",
+      "description": "In 1894 a Dutch military expedition sacked the palace of the Balinese kingdom of Cakranagara on the island of Lombok, and in the burning library a Dutch officer recognized and rescued the only surviving manuscript of the Nagarakretagama.",
       "wikiSlug": "Lombok",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Dutch intervention in Lombok was framed as supporting one Balinese royal house against another, but ended in a full annexation — a pattern repeated across Dutch expansion in the East Indies. The rescue of the manuscript was partly accidental: Dutch soldiers were looting the palace library when a military officer identified the palm-leaf lontar bundle as something significant and pulled it from the fire. Lombok sits between Bali to the west and Sumbawa to the east and had been under Balinese royal rule since the 18th century, which is why a Majapahit-era Javanese manuscript ended up in a Balinese palace there at all."
+        }
+      ],
+      "commonsFile": "75_ct_diamond_Lombok_treasure_Museum_Volkenkunde_Leiden.jpg"
     },
     {
       "id": "evt-majapahit-nagarakretagama-found",
       "label": "The Nagarakretagama recovered and published",
       "year": 1894,
-      "description": "Recovered at Lombok in 1894 and published, the single surviving manuscript suddenly handed the modern world a near-contemporary text that listed a Majapahit stretching across the entire archipelago.",
+      "description": "The Nagarakretagama — an Old Javanese eulogy to the king Hayam Wuruk, written in 1365 by the court poet Mpu Prapanca — was the single surviving manuscript recovered at Lombok in 1894 and published to the modern world, suddenly providing a near-contemporary document listing Majapahit's tributary reach across the archipelago.",
       "wikiSlug": "Nagarakretagama",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The poem was written on lontar (palm leaf) as a kakawin, a prestige literary form derived from Indian Sanskrit verse, and is the most detailed contemporary source on Majapahit's court life, geography, and ceremonies. Its tributary list — the passage nationalists later read as proof of a pan-archipelago state — was a standard feature of Southeast Asian royal eulogies, written to glorify the king's power rather than to document actual administrative control. UNESCO inscribed the Nagarakretagama on its Memory of the World register in 2008, recognizing it as one of the most important surviving pre-colonial documents in Southeast Asian history."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-brandes-pararaton",
       "label": "Brandes publishes the Pararaton",
       "year": 1896,
-      "description": "The Dutch scholar J. L. A. Brandes published the Pararaton in 1896, another piece of the modern Majapahit image being assembled by colonial scholarship.",
+      "description": "Dutch scholar J. L. A. Brandes published the Pararaton in 1896, a 16th-century Javanese chronicle telling the history of the Singhasari and Majapahit kings — the text that gave the modern world Gajah Mada's Palapa Oath as a literary set piece.",
       "wikiSlug": "Pararaton",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pararaton (meaning 'Book of Kings' in Old Javanese) runs to only about 32 folio pages in its original form — a remarkably short text for a work that would carry so much modern historical weight. It was written in Kawi (Old Javanese), the literary language of the Majapahit court, but probably composed well after the events it describes, making it closer to a legendary chronicle than a contemporary record. The text opens with the supernatural origin story of Ken Angrok, the founder of Singhasari, framing the entire Majapahit royal lineage as descended from a semi-divine usurper — a founding myth structure that Indonesian nationalists quietly set aside when elevating Gajah Mada as a secular national hero."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-trowulan-excavated",
       "label": "Trowulan excavated by colonial scholars",
       "year": 1900,
-      "description": "Dutch colonial scholars excavated the brick city at Trowulan, recovering the material proof of a large, prosperous capital and feeding the modern reconstruction of Majapahit.",
+      "description": "Dutch colonial scholars excavated Trowulan, the buried brick capital of Majapahit in East Java, recovering temples, gateways, and artifacts that proved a large, wealthy city had once existed there — turning legend into archaeology.",
       "wikiSlug": "Trowulan",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Trowulan site covers roughly 100 square kilometers, making it one of the largest archaeological complexes in Southeast Asia, and includes the ruins of bathing pools, royal roads, and the distinctive red-brick temples that define the Majapahit architectural style. The Bajang Ratu gate — a tall, elaborately carved split candi bentar — is one of the best-preserved structures and has become the visual shorthand for Majapahit in Indonesian popular culture. Trowulan has been theorized but never fully confirmed as the capital city described in the Nagarakretagama, a debate that mirrors the broader Majapahit interpretive problem: the physical evidence is real, but whether it matches the literary claims is still contested."
+        }
+      ],
+      "commonsFile": "065_Excavations,_Situs_Sumur_Upas_(39718786984).jpg"
     },
     {
       "id": "evt-majapahit-nationalist-myth",
       "label": "Majapahit as Indonesian foundation myth",
       "year": 1945,
-      "description": "Twentieth-century Indonesian nationalists, building a country from a colonial assemblage with no shared precolonial past, made Majapahit the answer to whether they were ever one thing before the colonizer, reading the tributary list literally because its territory mapped onto the modern republic.",
+      "description": "Twentieth-century Indonesian nationalists, building a new republic from a colonial assemblage with no shared precolonial political past, conscripted Majapahit as their founding ancestor — reading the Nagarakretagama's tributary list as proof that 'Indonesia' had existed before the Dutch made it.",
       "wikiSlug": "Greater_Indonesia",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Dutch East Indies unified hundreds of languages, ethnic groups, and islands by force of colonial administration, not by any shared prior political identity — which made the question 'were we ever one thing before?' existentially urgent for nationalists. The Nagarakretagama's territory, when mapped, overlapped strikingly with the Dutch colonial borders that became Indonesia's national borders in 1945, a coincidence that was too useful to interrogate carefully. The concept of 'Greater Indonesia' also attracted irredentist uses — some nationalists argued Majapahit's reach justified uniting the Dutch East Indies with British Malaya and British Borneo, a claim that fed decades of regional tension."
+        }
+      ],
+      "commonsFile": "Prasasti_Gajah_Mada.jpg"
     },
     {
       "id": "evt-majapahit-gajah-mada-hero",
       "label": "Gajah Mada conscripted as national hero",
       "year": 1945,
-      "description": "The Palapa Oath was reread as the first articulation of Indonesian unity and Gajah Mada became a national founding hero, his name given to a major university.",
+      "description": "The medieval Majapahit military commander Gajah Mada was conscripted as a national founding hero by Indonesian nationalists: his legendary Palapa Oath was reread as the first vision of Indonesian unity, and Gadjah Mada University in Yogyakarta — one of Indonesia's most prestigious — was named for him.",
       "wikiSlug": "Gajah_Mada",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gajah Mada served as mahapatih (prime minister) of Majapahit in the 14th century and is credited in Old Javanese texts with bringing the empire to its greatest extent. His relief appears on the Monas (National Monument) in Jakarta alongside other founding figures, placing him literally in bronze next to 20th-century independence leaders as though he belonged to the same lineage. The irony the narrative names is real: Gajah Mada's actual Palapa Oath (as recorded in the Pararaton) was a personal abstinence vow, not a political manifesto — the nationalist reading required stripping away its original religious framing entirely."
+        }
+      ]
     },
     {
       "id": "evt-majapahit-bhinneka-motto",
       "label": "Bhinneka Tunggal Ika becomes the national motto",
       "year": 1950,
-      "description": "Mpu Tantular's fourteenth-century theological line was lifted onto the new republic's coat of arms as the national motto, now meaning unity across hundreds of ethnicities rather than the fusion of Shiva and Buddha.",
+      "description": "The line 'Bhinneka Tunggal Ika' — written by the 14th-century Majapahit poet Mpu Tantular to argue that Shiva and the Buddha were aspects of the same divine truth — was lifted onto independent Indonesia's coat of arms as the national motto, now reread as 'Unity in Diversity' across hundreds of ethnic groups.",
       "wikiSlug": "Bhinneka_Tunggal_Ika",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The phrase comes from Mpu Tantular's Kakawin Sutasoma, a Buddhist devotional poem composed around 1365 that argued for religious tolerance between Hinduism and Buddhism — a theological position, not a political one. It is enshrined in Article 36A of Indonesia's constitution, giving a medieval Sanskrit-inflected Old Javanese religious verse the same constitutional standing as the republic's founding principles. The national emblem, the Garuda Pancasila, shows the eagle (Garuda, the Hindu vehicle of Vishnu) gripping a scroll bearing the motto — a layering of Hindu iconography, Buddhist verse, and modern nationalist meaning that is itself a compressed history of the Majapahit afterlife."
+        }
+      ],
+      "commonsFile": "Garuda_Pancasila.jpg"
     },
     {
       "id": "evt-majapahit-palapa-satellite",
       "label": "The Palapa satellite launched",
       "year": 1976,
-      "description": "Indonesia's first communications satellite, launched in 1976 to bind the archipelago by signal the way Majapahit's fleets supposedly had by sail, was named Palapa after the oath.",
+      "description": "In 1976 Indonesia launched its first communications satellite — named Palapa, after Gajah Mada's medieval oath — making it the first developing country to operate its own domestic satellite system, and binding the archipelago by signal the way Majapahit's fleets supposedly had by sail.",
       "wikiSlug": "Palapa",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Palapa satellite system is owned by Indosat and the first launch in July 1976 made Indonesia only the third country in the world (after the US and Canada) to have a domestic satellite communications network. The projected cost was US$1 billion, a vast investment for a country that had only been independent for 31 years — the naming choice was not casual, it was a deliberate claim that modern telecommunications was completing the archipelago-wide unity Gajah Mada had vowed to achieve. The Palapa series grew to multiple satellites and the name has since been reused for a major national fiber-optic backbone project, extending the medieval oath's semantic life into the internet era."
+        }
+      ],
+      "commonsFile": "STS-41-B_Palapa_B-2_deployment.jpg"
     }
   ]
 }
