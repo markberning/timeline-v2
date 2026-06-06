@@ -392,7 +392,7 @@
 .war-skin .rd-pill .ic { flex: 0 0 auto; width: 22px; height: 22px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); display: flex; align-items: center; justify-content: center; font-size: 13px; }
 .war-skin .rd-pill .tx { min-width: 0; flex: 1; }
 .war-skin .rd-pill .tx .k { display: block; font: 700 9.5px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
-.war-skin .rd-pill .tx .l { display: block; font: 600 16px/1.25 var(--serif); color: var(--ink); margin-top: 2px; }
+.war-skin .rd-pill .tx .l { display: block; font: 600 16px/1.25 var(--serif); color: var(--accent); margin-top: 2px; }
 
 /* "meanwhile in…" card */
 .war-skin .rd-meanwhile { margin-top: 28px; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; background: var(--chip); }
