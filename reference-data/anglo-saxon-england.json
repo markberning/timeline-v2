@@ -81,101 +81,171 @@
       "id": "evt-ase-legions-leave",
       "label": "The Legions Leave Britain",
       "year": 410,
-      "description": "Roman military and civil authority ended in Britain, beginning the island's transformation into Anglo-Saxon England.",
+      "description": "Rome's military and civil authority in Britain collapsed not in a single dramatic moment but through a decade of troop withdrawals, dried-up coin shipments, and unanswered appeals — until by around 410 the island was simply on its own.",
       "wikiSlug": "End_of_Roman_rule_in_Britain",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The process began as early as 383, when the usurper Magnus Maximus stripped troops from northern and western Britain to fight for the imperial throne on the Continent. A further decisive blow came in 407, when another usurper, Constantine III, took the remaining mobile Roman soldiers to Gaul after Germanic tribes crossed the frozen Rhine — after that there was essentially no field army left. The Romano-British themselves deposed the last Roman officials around 410, and urban life collapsed in the following decades as the structures that had sustained it — paid soldiers, tax revenue, trade networks — simply ceased to function."
+        }
+      ],
+      "commonsFile": "End.of.Roman.rule.in.Britain.383.410.jpg"
     },
     {
       "id": "evt-ase-rescript-honorius",
       "label": "The Rescript of Honorius",
       "year": 410,
-      "description": "Emperor Honorius reportedly told the cities of Britain to look to their own defense, the symbolic moment Rome cut the island loose.",
+      "description": "Around 410, Emperor Honorius reportedly sent a letter to the cities of Britain telling them to see to their own defense — the most quoted, and most disputed, single moment in Rome's abandonment of the island.",
       "wikiSlug": "Honorius",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Honorius ruled the crumbling Western Roman Empire from 393 to 423, and his reign was defined by crisis: in 410 Rome itself was sacked by the Visigoths under Alaric, the first time the city had fallen in nearly 800 years. The 'Rescript' comes from the sixth-century Greek historian Zosimus, who wrote a century after the fact and had a strong anti-Christian agenda — many modern historians suspect the passage actually refers to Bruttium, a region of southern Italy, not Britain at all. Whether the letter was real or a textual accident, the underlying reality it describes — no help coming — was absolutely true."
+        }
+      ],
+      "commonsFile": "Diptych_of_Honorius_(body).jpg"
     },
     {
       "id": "evt-ase-saxon-shore",
       "label": "The Saxon Shore Forts",
       "year": 410,
-      "description": "A chain of late-Roman coastal forts from the Wash to the Solent, built to repel seaborne raiders, now left to local commanders as imperial control dissolved.",
+      "description": "The Saxon Shore was a Roman military command: a chain of massive coastal forts running from the Wash on England's east coast round the southeast and along the south to the Solent, built specifically to intercept Germanic sea-raiders — proof that the Saxon threat was old news long before Rome left.",
       "wikiSlug": "Saxon_Shore",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The command was established in the late third century and was led by an officer called the 'Count of the Saxon Shore' (comes litoris Saxonici). Several of the forts survive today with walls still standing to impressive height — among the best-preserved Roman military structures anywhere in the world. The system covered both sides of the English Channel, with parallel fortifications in Gaul that were eventually broken off as a separate command in the late fourth century."
+        }
+      ],
+      "commonsFile": "Notitia_Dignitatum_-_Comes_litoris_Saxonici_per_Britanniam.jpg"
     },
     {
       "id": "evt-ase-pelagius",
       "label": "Pelagianism and the British Church",
       "year": 415,
-      "description": "The British-born theologian Pelagius had taught that humans could earn salvation through free will — his ideas found a receptive audience in post-Roman Britain and drew repeated condemnation from Rome.",
+      "description": "The British-born monk Pelagius shook the late Roman church with the argument that human beings, through free will, could choose good and earn salvation without an overwhelming push of divine grace — a doctrine his opponents, led by Augustine of Hippo, got condemned as heresy.",
       "wikiSlug": "Pelagius",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pelagius was formally accused of heresy at the Synod of Diospolis in 415, the same year the church empire-wide was moving against his ideas. Almost nothing is known about his personal life — not even his birthdate or where exactly in Britain he was from, though he was clearly fluent in Latin before arriving in Rome. His ideas proved remarkably durable in Britain partly because the island was now cut off enough from Continental church authority to keep entertaining banned theology."
+        }
+      ],
+      "commonsFile": "Pelagius.jpg"
     },
     {
       "id": "evt-ase-germanus-visit",
       "label": "Germanus of Auxerre Visits Britain",
       "year": 429,
-      "description": "A Gallic bishop twice visited Britain to suppress Pelagianism and reportedly led Britons in a bloodless 'Hallelujah Victory' against Pictish raiders.",
+      "description": "In 429, the Gallic bishop Germanus of Auxerre crossed the Channel to argue post-Roman Britain out of Pelagianism — and his visit left one of the most vivid (if unreliable) snapshots of what Britain actually looked like a generation after Rome's departure.",
       "wikiSlug": "Germanus_of_Auxerre",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Germanus was no ivory-tower bishop: he had been a senior Roman government official before entering the church, and he brought that administrator's energy to his mission. His biographer claims he also personally led a British warband to a bloodless victory over Pictish and Saxon raiders by having the whole force shout 'Hallelujah' until the enemy broke and fled. He made at least two visits to Britain. He also played an important role in promoting the cult of Saint Alban — Britain's first recorded Christian martyr — reportedly having Alban's own martyrdom story written down for public display after receiving it in a vision."
+        }
+      ],
+      "commonsFile": "P1010345_Paris_Ier_Eglise_Saint-Germain_l'Auxerrois_statue_Saint-Germain_reductwk.JPG"
     },
     {
       "id": "evt-ase-sub-roman-britain",
       "label": "Sub-Roman Britain",
       "year": 425,
-      "description": "In the decades after Roman withdrawal, British elites maintained villa culture, Latin literacy, and Christian worship even as military order collapsed and raids intensified.",
+      "description": "Sub-Roman Britain is what historians call the strange in-between period after Roman withdrawal: not an overnight ruin but a long, uneven fade in which villa estates, Latin literacy, and a sophisticated Christian church coexisted with accelerating military collapse.",
       "wikiSlug": "Sub-Roman_Britain",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The term originally came from archaeology — specifically from pottery finds showing locally made wares declining noticeably in quality from the Roman standard, as the supply chains and specialized workshops behind mass-produced Roman goods dissolved. The period is conventionally dated from Constantine III's withdrawal of troops in 407 all the way to the Battle of Deorham in 577, when the Anglo-Saxons finally severed the southwestern British kingdoms from Wales. The almost complete absence of written records from most of this span is why it was once called simply the 'Dark Ages.'"
+        }
+      ],
+      "commonsFile": "Barbury_Castle_Hill_Fort,_near_Swindon_-_western_entrance.jpg"
     },
     {
       "id": "evt-ase-pictish-raids",
       "label": "Pictish and Irish Raids Intensify",
       "year": 430,
-      "description": "Without Roman legions, Britain's northern and western coasts faced sustained raiding from Picts out of Scotland and Gaels from Ireland.",
+      "description": "With the Roman legions gone, Britain's northern and western frontiers were open: Picts out of what is now Scotland raided south down the east coast, and Gaelic-speaking raiders from Ireland — whom Roman writers called the Scotti — struck the Irish Sea coasts.",
       "wikiSlug": "Picts",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Picts are one of early medieval history's great mysteries — their origins, language, and culture are still debated, though they are assumed to be descendants of the Iron Age tribes the Romans called the Caledonii and never conquered. Their name Picti appears in Latin records from the late third century AD, but it was likely a Roman nickname (possibly meaning 'painted people') rather than what they called themselves. Their territory was not a single unified kingdom but a loose collection of chiefdoms that only began consolidating under one dominant power, the kingdom of Fortriu, in the seventh century."
+        }
+      ],
+      "commonsFile": "Serpent_stone.JPG"
     },
     {
       "id": "evt-ase-vortigern",
       "label": "Vortigern Invites Saxon Mercenaries",
       "year": 449,
-      "description": "A British leader reportedly hired Saxon warriors for defense, who then turned on their employers and settled the land.",
+      "description": "A British ruler tradition calls Vortigern reportedly invited Saxon mercenaries to defend against Pictish raids from the north — a hire that ended with the hired help seizing land for themselves.",
       "wikiSlug": "Vortigern",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name \"Vortigern\" may not be a personal name at all but a Brittonic title meaning roughly \"high king\" — scholars debate whether it was a name or a rank. Even whether Vortigern appears in the original text of Gildas is contested: his name shows up in some manuscripts of Gildas's work but may have been added by later copyists, not written by Gildas himself. The mechanism he used — paying Germanic warriors to solve a border problem and losing control of them — is the same pattern that played out across the late Roman Empire, from Gaul to Italy."
+        }
+      ],
+      "commonsFile": "Vortigern_and_Rowena.png"
     },
     {
       "id": "evt-ase-hengist-horsa",
       "label": "Hengist and Horsa Land in Kent",
       "year": 449,
-      "description": "The legendary Jutish brothers of the founding tradition of Kent, marking the start of the Anglo-Saxon settlement.",
+      "description": "According to the eighth-century historian Bede, two brothers named Hengist and Horsa led the first Germanic settlers into Kent around 449, granted the Isle of Thanet as their base before turning on their British employers.",
       "wikiSlug": "Hengist_and_Horsa",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Both names simply mean \"horse\" in Old Germanic — Hengist (stallion) and Horsa (horse) — and twin horse-founders appear as a recurring motif in Germanic founding legends, which is exactly the kind of too-neat pattern historians flag. The name Hengist does appear independently in the Old English poem Beowulf and in an Old Frisian text, suggesting at least the name was real and used, even if the biography is legendary. Tradition credits Hengist as the first king of Kent, and the Kentish royal dynasty (the Oiscingas) traced its lineage back to him for centuries."
+        }
+      ],
+      "commonsFile": "Hengist_and_Horsa.jpg"
     },
     {
       "id": "evt-ase-adventus",
       "label": "The Adventus Saxonum",
       "year": 450,
-      "description": "The arrival in force of Germanic peoples who reshaped the language, religion, and politics of lowland Britain.",
+      "description": "From around 450, Germanic peoples from the North Sea coast crossed into Britain in growing numbers — an arrival the Britons would later call the Adventus Saxonum, \"the coming of the Saxons\" — and within two centuries had replaced the Celtic language of lowland Britain with what became English.",
       "wikiSlug": "Anglo-Saxon_settlement_of_Britain",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Old English's closest known living relative is Old Frisian, a language still spoken in small coastal communities in the Netherlands and Germany — the two tongues diverged from the same North Sea Germanic dialect only after the migration. The first Germanic speakers in Britain were not invaders at all but soldiers recruited by the Roman administration in the 4th century, decades before Rome formally withdrew. Place-name evidence is striking: in eastern England, almost no Celtic names survive below the river level, a pattern that points to replacement rather than mere overlay."
+        }
+      ],
+      "commonsFile": "1130_Anglo-Saxon_Crossing.jpg"
     },
     {
       "id": "evt-ase-angles-migration",
@@ -211,321 +281,542 @@
       "id": "evt-ase-brittonic-survival",
       "label": "Brittonic Languages Retreat West",
       "year": 470,
-      "description": "As Germanic settlers moved inland, Brittonic-speaking communities were pushed into Wales, Cornwall, and Cumbria, where their language survived as Welsh and Cornish.",
+      "description": "As Germanic settlement spread inland from the eastern coasts, Brittonic-speaking communities retreated into the highland west — Wales, Cornwall, and Cumbria — where their languages survived as Welsh and Cornish, still spoken today.",
       "wikiSlug": "Brittonic_languages",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Welsh and Cornish are both descended from the same Brittonic Celtic spoken across lowland Britain before the Anglo-Saxon settlement; Breton, spoken in northwestern France, is a third survivor, carried there by British emigrants fleeing the Saxon advance. Welsh has the largest speaker base of any Celtic language, with roughly 800,000 speakers today. The Brittonic branch is one of two main divisions of the Insular Celtic languages — the other is Goidelic, which includes Irish, Scottish Gaelic, and Manx — and the two branches had already been diverging for over a thousand years before the Anglo-Saxon period."
+        }
+      ],
+      "commonsFile": "Map_Gaels_Brythons_Picts.png"
     },
     {
       "id": "evt-ase-ambrosius",
       "label": "Ambrosius Aurelianus Leads the Britons",
       "year": 475,
-      "description": "A Romano-British war leader described by Gildas as the last of the Roman nobility, who organized effective British resistance against the Saxon advance.",
+      "description": "Ambrosius Aurelianus was a Romano-British war leader — named by Gildas as the last of the Roman nobility — who rallied British resistance against the Saxon advance in the late 5th century, making him one of the very few historical figures to emerge from this fog by name.",
       "wikiSlug": "Ambrosius_Aurelianus",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gildas describes Ambrosius's parents as having \"worn the purple\" — a phrase implying imperial Roman rank, though whether this is literal family history or literary flattery is unknown. Later legend handled him roughly: Geoffrey of Monmouth transformed him into King Arthur's uncle, the brother of Uther Pendragon, folding a probably-historical figure into the Arthurian cycle. In an earlier version of the tradition he appears as a boy-prophet who outwits the tyrant Vortigern — and that boy-prophet was later renamed Merlin."
+        }
+      ],
+      "commonsFile": "History_of_the_Kings_(f.66)_Emrys_Wledig.jpg"
     },
     {
       "id": "evt-ase-badon",
       "label": "The Battle of Mount Badon",
       "year": 500,
-      "description": "A British victory that checked the Saxon advance for a generation and gathered the later Arthurian legend.",
+      "description": "Around 500, a British force won a major victory against the Saxons at a place Gildas calls Mount Badon — a battle well enough attested by early medieval standards to count as real, and decisive enough to buy the Britons roughly a generation of relative peace.",
       "wikiSlug": "Battle_of_Badon",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gildas, writing closest to the event, treats Badon as a living memory — scholars have used his phrasing to argue the battle happened in the year of his own birth, though the grammar is genuinely ambiguous. The location of Mount Badon is entirely unknown: candidates proposed over the centuries include sites in Somerset, Wiltshire, and the Scottish Borders, none with conclusive evidence. Arthur's name does not appear anywhere in Gildas's account; the first text to connect Arthur specifically to Badon is the Historia Brittonum, compiled roughly three centuries after the battle."
+        }
+      ],
+      "commonsFile": "Liddington_Castle,_Liddington,_Swindon_-_geograph.org.uk_-_624639.jpg"
     },
     {
       "id": "evt-ase-arthurian-legend",
       "label": "The Arthurian Legend Takes Root",
       "year": 510,
-      "description": "Around the memory of the Badon victory, a cycle of stories about a British king Arthur began to develop, eventually becoming the most enduring body of legend in the English language.",
+      "description": "In the centuries after the Badon victory, a tradition grew attaching the name of a British king Arthur to the memory of the resistance — a legend that grew, fed by the political needs of later Britons and medieval Europe, into the most enduring body of stories in the English language.",
       "wikiSlug": "King_Arthur",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The explosive growth of the Arthur legend is largely the work of one man: Geoffrey of Monmouth, whose Historia Regum Britanniae (around 1138) invented or imported Camelot, Guinevere, Merlin, and the sword in the stone from whole cloth, and who was described by a near-contemporary as someone who \"made up\" his sources. The legend served a real political purpose: later Welsh kings and then the Plantagenet monarchy both found it useful to claim descent from or connection to a glorious British past. Arthur appears in pre-Geoffrey Welsh texts — the poem Y Gododdin and the tale Culhwch and Olwen — as a warrior and giant-slayer, with no Camelot and no round table."
+        }
+      ],
+      "commonsFile": "Arth_tapestry2.jpg"
     },
     {
       "id": "evt-ase-gildas",
       "label": "Gildas Writes On the Ruin of Britain",
       "year": 540,
-      "description": "A British cleric's furious sermon-history, the only substantial contemporary narrative of the post-Roman collapse.",
+      "description": "Around 540, a British monk named Gildas wrote the only substantial near-contemporary account of the post-Roman collapse — not as history but as a blistering moral sermon blaming British sin for British catastrophe.",
       "wikiSlug": "Gildas",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gildas was celebrated in his own lifetime for his command of Biblical Latin, earning the epithet \"Sapiens\" (the Wise). Later in life he left Britain entirely, emigrating to Brittany where he founded a monastery still known today as Saint-Gildas-de-Rhuys. His deliberate refusal to name the Saxon leaders he described — only calling the British ruler a \"proud tyrant\" — is almost certainly a theological choice, denying the villains the dignity of a name."
+        }
+      ],
+      "commonsFile": "Statue_St-Gildas_07082.jpg"
     },
     {
       "id": "evt-ase-kent",
       "label": "The Kingdom of Kent",
       "year": 488,
-      "description": "The Jutish kingdom of Kent emerged as the earliest and, under Æthelberht, the leading English realm.",
+      "description": "The kingdom of Kent, planted in the southeast corner of Britain closest to the Continent, was the first English kingdom to crystallize into something recognizable, its elite burying their dead with garnet-studded gold and imported Frankish glassware.",
       "wikiSlug": "Kingdom_of_Kent",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kent's rulers styled their dynasty as the Oiscingas (or Oiscingas), a distinct dynastic label no other English kingdom used, hinting at how early and separately Kentish kingship took shape. The kingdom absorbed or absorbed into Wessex only in the mid-ninth century, lasting some three to four centuries as an independent realm. Its proximity to Frankish Gaul meant Kentish kings could arrange royal marriages and trading links across the Channel decades before any other English power."
+        }
+      ],
+      "commonsFile": "Hengest_and_Horsa_Verstegan.jpg"
     },
     {
       "id": "evt-ase-wessex",
       "label": "The Founding of Wessex",
       "year": 519,
-      "description": "The kingdom of the West Saxons took shape in the Thames valley, the dynasty that would eventually unite England.",
+      "description": "The kingdom of the West Saxons began in the south of Britain around 519 and outlasted every other Anglo-Saxon kingdom, its royal line eventually conquering the Danish successor-kingdoms to become the first kings of a unified England.",
       "wikiSlug": "Wessex",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wessex did not call itself 'West Saxon' at the start — Bede uses the name Gewisse for the early people, and the title 'King of the West Saxons' only appears in a charter of 686. The kingdom stretched from its upper Thames origins southward and westward over three centuries before Alfred's dynasty turned it into the engine of English unification. When Æthelstan conquered York in 927 he dropped 'King of the West Saxons' entirely and styled himself 'King of the English.'"
+        }
+      ],
+      "commonsFile": "Angleterre_871.png"
     },
     {
       "id": "evt-ase-cerdic",
       "label": "Cerdic, First King of Wessex",
       "year": 519,
-      "description": "Cerdic is recorded in the Anglo-Saxon Chronicle as the founder of the West Saxon royal dynasty, though his origins and the details of his reign remain deeply obscure.",
+      "description": "Cerdic is the man the Anglo-Saxon Chronicle names as the founder and first king of Wessex, reigning around 519–534, though his very existence is disputed and his name — a Celtic, Brittonic name, not a Germanic one — raises the uncomfortable possibility that the 'first Saxon king' was at least half British.",
       "wikiSlug": "Cerdic_of_Wessex",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Every subsequent king of Wessex, all the way to the unified English monarchy, claimed descent from Cerdic, making him the most politically important ancestor in English royal genealogy. Yet the first king to actually call himself 'King of the West Saxons' in a document was Cædwalla in 686, more than 150 years after Cerdic supposedly reigned. His Brittonic name (the same root as the British Caratacus) has led some scholars to suggest the early West Saxon leadership was a fusion of Briton and Saxon, not a clean Germanic conquest."
+        }
+      ],
+      "commonsFile": "Cherdik_-_John_Speed.jpg"
     },
     {
       "id": "evt-ase-east-anglia",
       "label": "East Anglia Emerges",
       "year": 520,
-      "description": "The Anglian kingdom of East Anglia coalesced in the fertile lowlands north of the Thames estuary, its royal family, the Wuffinga dynasty, later associated with the Sutton Hoo burials.",
+      "description": "The kingdom of East Anglia (roughly modern Norfolk, Suffolk, and Cambridgeshire) coalesced from Anglian settlers in the fertile lowlands northeast of London, its ruling Wuffingas dynasty eventually producing Rædwald and the Sutton Hoo burials.",
       "wikiSlug": "East_Anglia",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Wuffingas dynasty name is thought to derive from a founding ancestor called Wuffa, meaning 'wolf-people' — a dynastic animal-name of the kind common across early medieval Germanic kingdoms. East Anglia's wealth came partly from its exceptional agricultural land and partly from its access to North Sea trade routes, which explains why Scandinavian-style metalwork and Byzantine silver could end up in a Suffolk burial mound."
+        }
+      ]
     },
     {
       "id": "evt-ase-northumbria-forms",
       "label": "Bernicia and Deira Form Northumbria",
       "year": 547,
-      "description": "Two Anglian kingdoms, Bernicia in the northeast and Deira further south, would eventually merge into the powerful kingdom of Northumbria.",
+      "description": "Two separate Anglian kingdoms — Bernicia, hugging the northeast coast, and Deira to its south around what is now Yorkshire — were repeatedly forced together by conquest and repeatedly fell apart again before finally fusing into the single great kingdom of Northumbria.",
       "wikiSlug": "Kingdom_of_Northumbria",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Northumbria's name is simply descriptive: 'the land north of the Humber,' the wide river estuary that cuts across the north of England. The kingdom, once unified, stretched from the Humber deep into what is now southern Scotland, making it geographically the largest of the Anglo-Saxon kingdoms. It existed as a political entity from around 654 until the Norman Conquest in 1066, encompassing the golden age of Bede, Lindisfarne, and the Northumbrian church."
+        }
+      ],
+      "commonsFile": "Coin_of_Aldfrith.png"
     },
     {
       "id": "evt-ase-mercia-emerges",
       "label": "Mercia Emerges in the Midlands",
       "year": 560,
-      "description": "The inland kingdom of Mercia, whose name may mean 'the march people,' consolidated in the midlands and would grow into the dominant English power of the 8th century.",
+      "description": "Mercia, the inland midlands kingdom whose name likely means 'border people' (referring to its position on the edge of Welsh territory), consolidated from scattered Anglian groups in the sixth century and would become the dominant English power of the eighth.",
       "wikiSlug": "Mercia",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mercia's name — from Old English 'Mierce,' meaning 'the march people' — reflects its origins as a frontier zone against the British kingdoms to the west, a dynamic that would later produce Offa's Dyke, the great earthwork boundary wall. Unlike Kent or East Anglia, Mercia had no coastline, making its eventual supremacy over coastal rivals a striking demonstration that military dominance could outweigh geographic access to trade."
+        }
+      ],
+      "commonsFile": "Mercian_Supremacy_x_4_alt.png"
     },
     {
       "id": "evt-ase-heptarchy",
       "label": "The Heptarchy Takes Shape",
       "year": 600,
-      "description": "By 600 the English lands were organized into the cluster of competing kingdoms later called the Heptarchy.",
+      "description": "Later historians coined the tidy label 'Heptarchy' (Greek for 'rule of seven') for the cluster of small kingdoms that divided Anglo-Saxon England from roughly the sixth to eighth centuries — but the name was always a schoolbook simplification, coined not by the Anglo-Saxons themselves but by a twelfth-century historian.",
       "wikiSlug": "Heptarchy",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The term was invented by Henry of Huntingdon in the twelfth century, centuries after the period it describes. In reality England never had exactly seven co-equal kingdoms at any one moment; the count fluctuated as smaller kingdoms were absorbed or collapsed. By the eighth century the patchwork had consolidated into just four dominant powers: East Anglia, Mercia, Northumbria, and Wessex."
+        }
+      ],
+      "commonsFile": "Anglo-Saxon_Heptarchy.jpg"
     },
     {
       "id": "evt-ase-aethelberht",
       "label": "Æthelberht of Kent",
       "year": 589,
-      "description": "The first Christian English king, whose overlordship and Frankish marriage opened England to the Roman mission.",
+      "description": "Æthelberht of Kent (ruled from about 589) was the first Anglo-Saxon king to convert to Christianity and the third ruler Bede lists as holding overlordship over the other English kingdoms — a combination that made his court the obvious landing spot for Rome's missionary push.",
       "wikiSlug": "Æthelberht_of_Kent",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Æthelberht issued the earliest surviving law code written in any Germanic language, a set of decrees composed in Old English rather than Latin, which is remarkable given that he himself was a convert exposed to literate Christian culture only late in his reign. He died in 616 or 617, and his death was immediately followed by a pagan reaction in Kent, suggesting that Christianity's hold on the kingdom was far from secure the moment its royal sponsor was gone."
+        }
+      ],
+      "commonsFile": "Aethelberht_of_Kent_sculpture_on_Canterbury_Cathedral.jpg"
     },
     {
       "id": "evt-ase-bertha-kent",
       "label": "Bertha of Kent and the Frankish Connection",
       "year": 580,
-      "description": "A Christian Frankish princess who married Æthelberht of Kent, she maintained Christian worship in Canterbury before Augustine arrived and helped prepare the ground for the Gregorian mission.",
+      "description": "Bertha was a Frankish princess and practicing Christian who married Æthelberht of Kent around 580 with the explicit condition that she be allowed to keep her faith, bringing her own bishop with her — which meant that when Augustine's mission arrived in 597 it found a Christian royal household already in place, not a pagan stronghold.",
       "wikiSlug": "Bertha_of_Kent",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bertha is credited as the person who genuinely made the Gregorian mission possible: without a Christian queen at court, Gregory's monks would have had no safe foothold. She worshipped at the old Romano-British church of St Martin's in Canterbury, which still stands and is one of the oldest churches in the English-speaking world. Her importance has been largely overshadowed by Augustine's in later tradition."
+        }
+      ],
+      "commonsFile": "Bertha_of_Kent,_Canterbury_cathedral-stained_glass_26.jpg"
     },
     {
       "id": "evt-ase-bretwalda",
       "label": "The Bretwalda Concept",
       "year": 600,
-      "description": "Bede listed a series of kings who held overlordship, or imperium, over the other English kingdoms — later called Bretwaldas — showing that political dominance above the individual kingdoms was a recognized institution.",
+      "description": "The concept of the Bretwalda — an Old English word meaning roughly 'Britain-ruler' or 'wide-ruler' — described whoever among the English kings had clawed their way to informal overlordship, extracting tribute and hostages from their rivals without ever holding a formal crown over all of England.",
       "wikiSlug": "Bretwalda",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bede listed seven Bretwaldas in his Ecclesiastical History, and the later Anglo-Saxon Chronicle added an eighth (Egbert of Wessex), treating the sequence as a kind of proto-kingship of England. The term itself appears only once in Old English sources, in the Chronicle entry for 829, suggesting it may have been a late coinage applied retrospectively rather than a title kings actually used during their lifetimes."
+        }
+      ],
+      "commonsFile": "Entry_for_827_in_the_Anglo-Saxon_Chronicle,_which_lists_the_eight_bretwaldas.gif"
     },
     {
       "id": "evt-ase-raedwald",
       "label": "Rædwald of East Anglia, Bretwalda",
       "year": 616,
-      "description": "The most powerful English king of his generation, Rædwald held overlordship and hedged his Christianity by maintaining a pagan altar alongside a Christian one.",
+      "description": "Rædwald of East Anglia (reigned roughly 599–624) was the most powerful English king of his generation, strong enough to overthrow the king of Northumbria in battle and install his own candidate on that throne — and notorious for hedging his religious bets by keeping a Christian altar and a pagan altar side by side in the same temple.",
       "wikiSlug": "Rædwald_of_East_Anglia",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rædwald's decisive moment came at the Battle of the River Idle in 616, where he killed Æthelfrith of Northumbria — but his own son Rægenhere was killed in the same fight, giving the victory a personally devastating edge. The Viking raids of the ninth century later destroyed virtually all East Anglian monastic records, which is why Rædwald's reign survives only in fragments through Bede; an entire kingdom's written memory was erased."
+        }
+      ],
+      "commonsFile": "Great_Buckle.JPG"
     },
     {
       "id": "evt-ase-augustine",
       "label": "The Gregorian Mission of Augustine",
       "year": 597,
-      "description": "Pope Gregory's mission under Augustine landed in Kent and began the conversion of the English to Roman Christianity.",
+      "description": "In 597 Pope Gregory I dispatched a band of Roman monks led by Augustine to convert the Anglo-Saxons, targeting Kent because its king held overlordship over southern England and his queen was already a practicing Christian. It was the most consequential peacetime arrival in Anglo-Saxon history.",
       "wikiSlug": "Gregorian_mission",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mission was originally stopped dead in its tracks — the monks turned back partway through Gaul, so frightened by reports of the English that Augustine had to travel back to Rome to get Gregory's personal insistence before they continued. Gregory sent Augustine back with letters of authority addressed to Frankish bishops along the route. The last missionary from the original group died in 653, by which point Roman Christianity was established across the south."
+        }
+      ],
+      "commonsFile": "AugsutineGospelsFolio129vStLuke.jpg"
     },
     {
       "id": "evt-ase-gregory-great",
       "label": "Pope Gregory the Great Sends the Mission",
       "year": 596,
-      "description": "Gregory I organized and dispatched the Roman mission to the English, reportedly inspired by seeing fair-haired Angle slaves in the Roman market — the origin of the celebrated 'Not Angles but Angels' pun.",
+      "description": "Pope Gregory I — one of the most capable administrators the medieval church ever produced — personally organized the mission to the English, reportedly after seeing Anglo-Saxon boys for sale in the Roman slave market and deciding a people that beautiful should not be left in paganism.",
       "wikiSlug": "Pope_Gregory_I",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Gregory was the 64th Bishop of Rome and served from 590 until his death on 12 March 604. The famous 'Non Angli sed angeli' pun — 'not Angles but angels' — works only in Latin, which is the tell that it is almost certainly a polished story rather than a real quip. Gregory himself never made it to Britain; he ran the mission entirely from Rome through letters."
+        }
+      ],
+      "commonsFile": "Gregory_the_Great_with_the_Holy_Spirit.jpg"
     },
     {
       "id": "evt-ase-canterbury",
       "label": "The See of Canterbury Founded",
       "year": 597,
-      "description": "Augustine established the archbishopric of Canterbury, the enduring center of the English church.",
+      "description": "When Augustine arrived from Rome in 597 and baptized the Kentish king Æthelberht, he established the see of Canterbury as the head of the English church — the institution that, despite everything, still occupies that role today.",
       "wikiSlug": "Archbishop_of_Canterbury",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Augustine was sent by Pope Gregory the Great, who famously saw blond English slaves in Rome and allegedly said they were 'not Angles but angels.' Canterbury was chosen because Æthelberht's Frankish queen Bertha was already Christian and worshipping there, so there was an existing Christian presence. The archbishopric predates England as a political entity by nearly three centuries."
+        }
+      ],
+      "commonsFile": "CanterburyCathedral.png"
     },
     {
       "id": "evt-ase-aethelberht-law",
       "label": "The Law Code of Æthelberht",
       "year": 600,
-      "description": "The earliest surviving document in English, a written code of compensations issued by the king of Kent.",
+      "description": "Issued by the king of Kent probably within a decade of his conversion, Æthelberht's law code is the earliest surviving continuous text in any Germanic vernacular — the moment England first wrote its own language down — and its contents are almost entirely a compensation schedule pricing injuries from death to a missing thumb.",
       "wikiSlug": "Law_of_Æthelberht",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The code survives only in a single 12th-century manuscript called the Textus Roffensis, compiled at Rochester centuries after the original. The Frankish Lex Salica and Visigothic codes predate it but were written in Latin; Æthelberht's is first because it used the people's own spoken tongue. The wergild schedule itemizes compensation down to individual fingers, with the thumb valued higher than the forefinger."
+        }
+      ],
+      "commonsFile": "Law_of_Æthelberht.jpg"
     },
     {
       "id": "evt-ase-wergild-system",
       "label": "The Wergild System of Compensation",
       "year": 600,
-      "description": "Anglo-Saxon law ordered social relations around wergild — the 'man price' that had to be paid to a victim's family for injury or death, with the sum scaled precisely to the rank of the victim.",
+      "description": "Wergild (\"man-price\") was the precise monetary value placed on a person's life by their social rank — the sum their killer owed to the victim's family, turning what would otherwise be a blood feud into a payable debt.",
       "wikiSlug": "Wergild",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The system went well beyond death: there were separate, lower tariffs for a tooth, a finger, an eye, and an ear, so that any injury had a calculable settlement. In a society with no police, no prisons, and no state monopoly on violence, this was genuine social engineering — it gave kin groups a financial alternative to retaliatory killing. The wergild table is consequently the clearest surviving x-ray of Anglo-Saxon class structure, because it priced each rank's body at a different rate with cold legal precision."
+        }
+      ],
+      "commonsFile": "Cpg164_0035_wergild.jpg"
     },
     {
       "id": "evt-ase-iona-mission",
       "label": "The Iona Monastery and the Irish Mission",
       "year": 563,
-      "description": "Colum Cille founded the monastery of Iona off the Scottish coast, which became the mother house of a network of Irish-tradition monasteries spreading Christianity into Northumbria.",
+      "description": "In 563, the Irish monk Colum Cille (also known by the Latin name Columba) founded a monastery on Iona, a tiny island off the west coast of Scotland, and it became the launching pad for a distinctly Irish style of Christianity — monastic, ascetic, and built around wandering holy men rather than city bishops — that would eventually compete with Rome's mission for the soul of England.",
       "wikiSlug": "Iona_Abbey",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Iona sits off the larger Isle of Mull and is still an active religious site today. The Irish church it seeded organized itself around monasteries as power centers rather than the Roman model of territorial bishoprics — a structural difference that would force a direct confrontation at the Synod of Whitby in 664. Columba himself was an Irish aristocrat who left Ireland under disputed circumstances and founded Iona in self-imposed exile."
+        }
+      ],
+      "commonsFile": "Iona_Abbey_(45322644484).jpg"
     },
     {
       "id": "evt-ase-aidan",
       "label": "Aidan of Lindisfarne",
       "year": 635,
-      "description": "An Irish monk from Iona invited by King Oswald, Aidan was the founding bishop of Lindisfarne and the principal evangelist of Northumbria.",
+      "description": "Aidan was an Irish monk from the monastery of Iona who, around 635, was invited by the Northumbrian king Oswald to bring Christianity to the north of England. He founded the monastery on Lindisfarne and spent years travelling the Northumbrian countryside on foot, teaching and baptizing.",
       "wikiSlug": "Aidan_of_Lindisfarne",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bede, who admired Aidan enormously despite doctrinal differences over the Easter date, praised him above all for refusing to ride a horse among the poor — he gave away the royal horse Oswald gifted him to the first beggar he met. Aidan died in 651 leaning against the wall of a church he was sheltering beside during a raid; the wooden prop he was resting on was said to have survived multiple fires at that site. His successor Finan continued the Lindisfarne school, and within a generation Northumbrian monks trained in Aidan's tradition were founding daughter monasteries across England."
+        }
+      ],
+      "commonsFile": "Saint_Aidan.jpg"
     },
     {
       "id": "evt-ase-paulinus-york",
       "label": "Paulinus Baptizes Edwin at York",
       "year": 627,
-      "description": "The Roman missionary Paulinus accompanied Edwin of Northumbria's Kentish bride and baptized the king, establishing York as an archbishopric and bringing Roman Christianity to the north.",
+      "description": "Paulinus was a Roman missionary who arrived in England in 604 as part of Gregory's second wave, and in 627 he baptized the Northumbrian king Edwin at York — establishing York as an archbishopric and bringing the Roman church hundreds of miles north of Canterbury for the first time.",
       "wikiSlug": "Paulinus_of_York",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Paulinus had traveled north as the chaplain attached to Edwin's new Kentish bride Æthelburh, which is how Roman Christianity gained a foothold in Northumbria before Iona did. When Edwin was killed in 633, Paulinus fled south with the queen rather than stay and hold the mission — a retreat that effectively left Northumbria without Roman Christianity and opened the door for Aidan."
+        }
+      ],
+      "commonsFile": "LeningradBedeHiRes.jpg"
     },
     {
       "id": "evt-ase-edwin",
       "label": "Edwin of Northumbria Converts",
       "year": 627,
-      "description": "The powerful Northumbrian king accepted Christianity, extending the new faith across the north.",
+      "description": "Edwin was the dominant king of Northumbria from around 616 and the first Northumbrian ruler to accept Christianity, baptized by Paulinus at York in 627 — but the faith he carried traveled along the wires of lordship, and when he was killed six years later by the pagan Mercian king Penda, much of Northumbria snapped back to paganism with him.",
       "wikiSlug": "Edwin_of_Northumbria",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Edwin is venerated as a saint, and his story illustrates exactly how fragile top-down conversion was: he held overlordship over most of England, making his baptism an enormous symbolic event, but the whole edifice rested on one man's life. He was killed at the Battle of Hatfield Chase in 633. Bede's account of Edwin's council debating the new faith preserves the famous sparrow-in-the-hall speech — one of the most vivid passages in early medieval literature."
+        }
+      ],
+      "commonsFile": "Saint_King_Edwin_of_Northumbria.jpg"
     },
     {
       "id": "evt-ase-sutton-hoo",
       "label": "The Sutton Hoo Ship Burial",
       "year": 625,
-      "description": "A royal East Anglian ship burial of staggering wealth, the richest archaeological window onto the pagan English elite.",
+      "description": "The Sutton Hoo ship burial in Suffolk, likely from around 625, was the richest royal grave ever found in England — a 90-foot (27-meter) ship buried under a mound, packed with gold and garnet jewelry, silver plate, weapons, and a ceremonial iron helmet, a window into the pagan East Anglian elite at the exact moment Christianity was arriving.",
       "wikiSlug": "Sutton_Hoo",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The burial contained no body — either it dissolved entirely in the acidic sandy soil, or the mound was always a cenotaph (an empty memorial) rather than an actual grave. The gold and garnet shoulder clasps found in the burial use a cloisonné technique (thin metal cells filled with colored stone or glass) so fine that modern jewelers struggle to replicate it. The helmet, now one of the most recognizable objects in the British Museum, was found in 500 fragments and took conservators years to reassemble."
+        }
+      ],
+      "commonsFile": "Sutton_Hoo_burial_site.jpg"
     },
     {
       "id": "evt-ase-sutton-hoo-helmet",
       "label": "The Sutton Hoo Helmet",
       "year": 625,
-      "description": "The iconic iron and copper-alloy face helmet found in the Sutton Hoo ship burial, now the most recognizable artifact of early medieval England.",
+      "description": "The Sutton Hoo helmet is an iron face-mask war-helm inlaid with copper alloy, bronze, silver, and garnet, probably associated with King Rædwald and now the single most recognizable artifact of early medieval England — an object so elaborately decorated it functioned as something close to a crown.",
       "wikiSlug": "Sutton_Hoo_helmet",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The helmet was found in around 500 fragments and has been reconstructed twice: once in 1946 and again in 1971, with the second reconstruction significantly changing its appearance. Its design is closely paralleled by helmets found at Vendel and Valsgärde in Sweden, confirming a shared aristocratic visual culture across the North Sea. The eyebrows are tipped with gilded boar-heads, invoking the protective power that pagan Germanic tradition attributed to the boar."
+        }
+      ],
+      "commonsFile": "Sutton_Hoo_helmet_2016.png"
     },
     {
       "id": "evt-ase-pagan-apostasy",
       "label": "Pagan Apostasy After Edwin's Death",
       "year": 633,
-      "description": "When Edwin of Northumbria was killed in battle by Penda and Cadwallon, much of Northumbria reverted to paganism — demonstrating how fragile the early conversions were.",
+      "description": "When Penda and his Welsh ally Cadwallon killed Edwin of Northumbria at the Battle of Hatfield Chase in 633, much of Northumbria promptly abandoned Christianity and returned to paganism — a stark reminder that early conversion was personal loyalty as much as belief.",
       "wikiSlug": "Edwin_of_Northumbria",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Edwin had been the first Northumbrian king to convert, baptized by Paulinus of York in 627; his death wiped out nearly everything built in those six years. Bede records that after Edwin fell, Paulinus fled south with the queen, abandoning his missionary work entirely. Edwin was later venerated as a martyr and saint, with a major cult centered on York Minster."
+        }
+      ]
     },
     {
       "id": "evt-ase-penda",
       "label": "Penda of Mercia, the Last Pagan King",
       "year": 633,
-      "description": "The formidable pagan king of Mercia dominated central England and killed several Christian rivals before his fall.",
+      "description": "Penda, king of the Midlands kingdom of Mercia, was the last and most formidable pagan king in England — a war-leader who spent decades killing Christian rivals and demonstrating that the conversion was never inevitable.",
       "wikiSlug": "Penda_of_Mercia",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Penda allied with the Christian Welsh king Cadwallon to defeat Edwin at Hatfield Chase in 633, showing he was perfectly willing to work across religious lines when it suited him. His kingdom of Mercia — whose name likely meant 'border people' — sat at the center of England, making him impossible to ignore. Despite ruling a pagan kingdom for roughly 30 years, Penda reportedly never stopped Christian missionaries from preaching, he simply didn't care to convert himself."
+        }
+      ],
+      "commonsFile": "Penda_of_Mercia.jpg"
     },
     {
       "id": "evt-ase-oswald",
       "label": "Oswald of Northumbria",
       "year": 634,
-      "description": "The warrior-saint king who restored Northumbrian power and brought Irish monks from Iona to Lindisfarne.",
+      "description": "Oswald reclaimed Northumbria in 634, invited Irish monks from Iona to establish Lindisfarne, and became the kingdom's most venerated royal saint after Penda killed him in 642.",
       "wikiSlug": "Oswald_of_Northumbria",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Oswald had spent his exile among the Irish monks of Iona before taking the throne, which is why he looked there rather than Rome when he wanted a bishop — he sent for Aidan, who founded Lindisfarne. His death at the Battle of Maserfield was treated immediately as a martyrdom; Bede reports that miracles were said to occur at the spot where he fell, and his dismembered body parts were distributed as relics across England and the Continent."
+        }
+      ],
+      "commonsFile": "Saint_Oswald_Durham_Cathedral.jpg"
     },
     {
       "id": "evt-ase-lindisfarne-founded",
       "label": "Lindisfarne Monastery Founded",
       "year": 635,
-      "description": "Aidan founded the island monastery of Lindisfarne, the spiritual heart of Northumbrian Christianity.",
+      "description": "Lindisfarne — also called Holy Island — is a tidal island off the Northumbrian coast that Aidan chose in 635 as the base for his monastery, making it the spiritual center of northern English Christianity and one of the most famous religious sites in Britain for the next fourteen centuries.",
       "wikiSlug": "Lindisfarne",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The island is genuinely tidal: it is cut off from the mainland at high tide and connected by a causeway at low tide, a pattern the monks exploited as a natural defense and a mark of the island's sacred separation from the world. The monastery was destroyed in the Viking raid of 793 — one of the most famous events in Anglo-Saxon history — but the community survived and eventually settled at Durham. Lindisfarne is today a hotspot for both historical tourism and bird watching."
+        }
+      ],
+      "commonsFile": "Lindisfarne_Priory_with_Castle_in_the_background._-_geograph.org.uk_-_271803.jpg"
     },
     {
       "id": "evt-ase-battle-winwaed",
       "label": "Battle of the River Winwæd",
       "year": 655,
-      "description": "Oswiu of Northumbria defeated and killed Penda of Mercia, ending the last pagan challenge to Christian domination in England.",
+      "description": "On 15 November 655, Oswiu of Northumbria destroyed Penda's much larger Mercian army at the flooded River Winwæd, killing Penda and ending the last serious pagan military challenge to Christianity in England.",
       "wikiSlug": "Battle_of_the_Winwaed",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bede says the battle was fought in rain and flood so heavy that many of Penda's men drowned trying to flee — the river did as much killing as the swords. Oswiu had vowed to give his infant daughter to God and donate land for 12 monasteries if he won, and Bede says he kept both promises. The exact location of the Winwæd has never been firmly identified; the most likely candidates are near Leeds."
+        }
+      ]
     },
     {
       "id": "evt-ase-oswiu",
@@ -541,41 +832,68 @@
       "id": "evt-ase-whitby",
       "label": "The Synod of Whitby",
       "year": 664,
-      "description": "The English church chose Roman over Irish practice, aligning England with Latin Christendom.",
+      "description": "The Synod of Whitby (664) was the church council where King Oswiu of Northumbria ruled that England would follow Rome's method for calculating Easter, pulling the English church permanently into Latin continental Christianity rather than the Irish monastic tradition.",
       "wikiSlug": "Synod_of_Whitby",
       "tier": 1,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The council was held at Hilda's monastery — known at the time as Streonshalh, not Whitby, which is a later Viking name. Oswiu's decisive argument was almost comically practical: he didn't want to quarrel with Peter, who held the keys to heaven. The Irish contingent, led by Colmán of Lindisfarne, refused to accept the ruling and departed for Ireland, taking many of Aidan's relics with them."
+        }
+      ],
+      "commonsFile": "At_Whitby_Abbey_2008_05.jpg"
     },
     {
       "id": "evt-ase-easter-controversy",
       "label": "The Easter Controversy",
       "year": 664,
-      "description": "The core dispute at Whitby was how to calculate the date of Easter — Irish and Roman methods diverged, with the Roman method triumphing and bringing English Christianity fully into continental conformity.",
+      "description": "The fight over Easter's date wasn't a minor liturgical squabble — the two churches used incompatible astronomical tables to calculate it, so they often landed on different Sundays, splitting the most important feast of the Christian year.",
       "wikiSlug": "Easter_controversy",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dispute goes back to at least the 2nd century, when some Christians in Asia Minor kept Passover's lunar date (14 Nisan) regardless of the day of the week — the 'Quartodeciman' controversy. The Irish church was using a calculation cycle that Rome had already superseded; the Roman method was tied to a 19-year lunar cycle called the Metonic cycle. The gap between the two systems meant Easter could fall weeks apart in the same year."
+        }
+      ]
     },
     {
       "id": "evt-ase-hilda-whitby",
       "label": "Hilda of Whitby",
       "year": 657,
-      "description": "A royal abbess who founded the double monastery at Whitby and hosted the Synod; she was among the most powerful women in the early English church and educated five future bishops.",
+      "description": "Hilda of Whitby was abbess of the double monastery at Streonshalh, a woman of the Northumbrian royal line so authoritative that kings sought her counsel and five of her students became bishops — the most powerful woman in the early English church.",
       "wikiSlug": "Hilda_of_Whitby",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hilda was already in her fifties when she founded Whitby around 657, having previously run a convent on the River Wear. Bede says she required her monks to spend time on Scripture and 'good works,' producing an unusually intellectual community by the standards of the day. She died in 680 and was later canonized; her feast day is 17 November, and she is the patron saint of poets and learning in the English church."
+        }
+      ],
+      "commonsFile": "St_Hilda_(Stained_glass,_Chester_Cathedral)_(cropped).JPG"
     },
     {
       "id": "evt-ase-theodore",
       "label": "Theodore of Tarsus Reorganizes the Church",
       "year": 669,
-      "description": "The Greek archbishop of Canterbury unified and structured the English church into stable dioceses.",
+      "description": "Theodore of Tarsus, a Greek-speaking scholar from what is now southern Turkey, became Archbishop of Canterbury in 668 and spent two decades turning the English church from a patchwork of royal conversions into a single organized institution with proper dioceses, schools, and a chain of authority.",
       "wikiSlug": "Theodore_of_Tarsus",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodore arrived in England at roughly 66 years old — ancient by 7th-century standards — having fled Tarsus after the Persian conquest and studied in Constantinople before fetching up in Rome. He and his African companion Hadrian made the Canterbury school the best in the 7th-century West, teaching Greek at a time when almost no Latin scholars read it. Theodore was the first Archbishop of Canterbury whose authority all the English kingdoms actually accepted — none of his predecessors had managed that."
+        }
+      ],
+      "commonsFile": "Saint_Theodore_of_Tarsus_stained_glass_at_St_John_the_Evangelist,_Knotty_Ash.jpg"
     },
     {
       "id": "evt-ase-hadrian-abbot",
@@ -591,21 +909,35 @@
       "id": "evt-ase-caedmon",
       "label": "Cædmon's Hymn",
       "year": 670,
-      "description": "The earliest recorded Old English poem, composed by an illiterate herdsman at Whitby and reported by Bede.",
+      "description": "Cædmon was an illiterate herdsman at Whitby who, according to Bede, received the gift of song in a dream and composed the first Old English religious verse — fusing the warrior-hall poetic tradition with Christian content and becoming the seed of English literature.",
       "wikiSlug": "Cædmon",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cædmon's Hymn, nine lines praising God the Creator, is the earliest English poem we can date and attribute to a named author; the oldest surviving manuscript copy dates to around 737. The hymn uses the full apparatus of Germanic heroic verse — alliteration, compound kennings (a 'kenning' being a two-word poetic phrase like 'whale-road' for sea) — applied entirely to Christian theology. Bede says Hilda was so struck that she persuaded Cædmon to take monastic vows and spend the rest of his life composing religious verse."
+        }
+      ],
+      "commonsFile": "MemorialToCaedmon(RichardThomas)Jul2006.jpg"
     },
     {
       "id": "evt-ase-wilfrid",
       "label": "Wilfrid of York",
       "year": 664,
-      "description": "A champion of Roman practice at Whitby, Wilfrid became bishop of York and used his connections to Rome and the Frankish church to shape the English church's continental alignment.",
+      "description": "Wilfrid was the most politically powerful churchman in 7th-century Northumbria — the man who won the Roman Easter argument at Whitby in 664 and went on to become Bishop of York, building stone churches at Hexham and Ripon and repeatedly appealing to Rome when English kings tried to clip his power.",
       "wikiSlug": "Wilfrid",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wilfrid's career involved no fewer than five appeals to the papacy and two formal exiles from Northumbria — an extraordinary record of conflict with royal authority at a time when kings routinely controlled church appointments. He is credited with introducing the Benedictine Rule (the standard monastic code of western Europe) to Northumbria. His crypt at Hexham, built partly from reused Roman stonework, is one of the oldest intact rooms in England and visitors can still descend into it."
+        }
+      ],
+      "commonsFile": "7th-century_Hexham_crypt.jpg"
     },
     {
       "id": "evt-ase-cuthbert",
@@ -621,51 +953,85 @@
       "id": "evt-ase-benedict-biscop",
       "label": "Benedict Biscop and the Wearmouth Library",
       "year": 674,
-      "description": "A Northumbrian nobleman turned monk, Benedict Biscop made multiple journeys to Rome, returning each time with books, relics, panel paintings, and skilled craftsmen that transformed the twin monasteries of Wearmouth and Jarrow.",
+      "description": "A Northumbrian nobleman who gave up the warrior life to become a monk, Benedict Biscop made at least five grueling journeys to Rome and back, each time returning with chests of books, panel paintings, and foreign craftsmen who would transform northern England into a center of European learning.",
       "wikiSlug": "Benedict_Biscop",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Biscop was given lands by King Ecgfrith of Northumbria to build his monasteries, an arrangement that essentially converted royal military patronage into a continental library. He also brought back from Rome a chief cantor, Abbot John of Saint Martin's, to teach the monks Roman-style chanting — an art as foreign to Northumbria as glazed windows. He was canonized after his death and his feast day is still observed on January 12."
+        }
+      ]
     },
     {
       "id": "evt-ase-jarrow",
       "label": "The Monastery of Wearmouth-Jarrow",
       "year": 682,
-      "description": "A twin Northumbrian monastery whose library and scriptorium made it a powerhouse of European scholarship.",
+      "description": "Wearmouth-Jarrow was a twin Benedictine monastery straddling two sites on the Northumbrian coast, founded in 674 (Wearmouth) and 682 (Jarrow), whose library and scriptorium made it the scholarly powerhouse of early medieval England — and the home of Bede for his entire life.",
       "wikiSlug": "Monkwearmouth–Jarrow_Abbey",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The founder, Benedict Biscop, made five separate trips to Rome to acquire books, relics, and craftsmen — including glaziers, since stained glass windows were unknown in England at the time. At its peak Wearmouth-Jarrow probably held over 300 manuscripts, an extraordinary number for early medieval Europe. The twin monastery produced not only Bede but also trained Ceolfrith, who commissioned the Codex Amiatinus — a complete single-volume Latin Bible that is now the oldest surviving intact Latin Bible in existence, carried to Rome as a gift to the Pope in 716."
+        }
+      ],
+      "commonsFile": "Monk's_Cell,_Gearwe,_Bede's_World,_Jarrow_(6880755713).jpg"
     },
     {
       "id": "evt-ase-stone-churches",
       "label": "Stone Church Building in Northumbria",
       "year": 675,
-      "description": "The late 7th century saw the introduction of Roman stone construction techniques to Northumbria, as Benedict Biscop imported Frankish glaziers and masons to build basilica-plan churches at Wearmouth and Jarrow.",
+      "description": "Before Benedict Biscop, the English built everything — halls, churches, palaces — in timber; when he imported Frankish masons and glaziers in the 670s to raise mortared-stone basilicas at Wearmouth and Jarrow, it was the first time that Roman construction technology had appeared in Northumbria since the legions left.",
       "wikiSlug": "Anglo-Saxon_architecture",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The church at Brixworth in Northamptonshire, built partly from salvaged Roman bricks, is one of the largest surviving Anglo-Saxon buildings and still stands today. Wilfrid's crypt at Hexham Abbey, carved partly from reused Roman stonework, is another you can walk into. Anglo-Saxon builders eventually developed their own decorative vocabulary — the distinctive long-and-short quoins (corner stones) at Earls Barton tower are a signature of the later style."
+        }
+      ],
+      "commonsFile": "EarlsBartonChurch.JPG"
     },
     {
       "id": "evt-ase-willibrord",
       "label": "Willibrord and the Frisian Mission",
       "year": 690,
-      "description": "A Northumbrian monk who became the 'Apostle of the Frisians,' establishing a mission in what is now the Netherlands with papal backing and Frankish support.",
+      "description": "The Northumbrian monk Willibrord crossed the North Sea around 690 with papal backing and Frankish protection to evangelize the Frisians — the seafaring people of what is now the Netherlands coast — and became the first Bishop of Utrecht and the 'Apostle of the Frisians.'",
       "wikiSlug": "Willibrord",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Willibrord had spent twelve years in Ireland studying under the abbot Egbert before making his mission to the Continent, giving him both Irish monastic discipline and Roman missionary strategy. He founded the Abbey of Echternach in what is now Luxembourg in 698, which still exists today and holds his tomb. His mission required navigating a complex political situation: the Frisians were frequent enemies of the Frankish kingdom whose protection he relied on, so his progress depended as much on Carolingian military expansion as on preaching."
+        }
+      ],
+      "commonsFile": "Georg_Sturm,_Willibrordus_predikt_het_Christendom_aan_de_Friezen.jpg"
     },
     {
       "id": "evt-ase-old-english-runes",
       "label": "Old English and the Runic Tradition",
       "year": 650,
-      "description": "The Anglo-Saxons used a runic alphabet called the futhorc for inscriptions on weapons, jewelry, and stones before Latin letters displaced it for literary uses.",
+      "description": "The futhorc was the Anglo-Saxon runic alphabet — angular letters designed to be cut into wood, bone, metal, and stone — used for names, charms, and short inscriptions before Latin letters took over for literary writing.",
       "wikiSlug": "Anglo-Saxon_futhorc",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The futhorc expanded the older 24-character Germanic runic alphabet (the Elder Futhark) to 28 and eventually up to 34 characters, adapting it for the specific sounds of Old English. While Scandinavians were simultaneously simplifying their runic alphabet down to just 16 characters, the Anglo-Saxons were making theirs more complex and phonetically precise. Runic inscriptions survive on a wide range of objects — coins, sword pommels, finger rings, and stone monuments — suggesting literacy in runes was not confined to specialists but spread across the warrior and craft classes."
+        }
+      ],
+      "commonsFile": "Abecedarium_anguliscum_scan.jpg"
     },
     {
       "id": "evt-ase-franks-casket",
@@ -681,11 +1047,18 @@
       "id": "evt-ase-lindisfarne-gospels",
       "label": "The Lindisfarne Gospels",
       "year": 715,
-      "description": "A masterpiece of insular manuscript art, fusing Celtic, Germanic, and Mediterranean design.",
+      "description": "Made on the tidal island of Lindisfarne around 715, the Lindisfarne Gospels fuse Celtic interlace, Germanic animal ornament, and Mediterranean Christian imagery into one of the supreme achievements of early medieval art — thought to have been written and illuminated by a single bishop, Eadfrith, as an act of years-long devotion.",
       "wikiSlug": "Lindisfarne_Gospels",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The book's great 'carpet pages' — full sheets of pure abstract interlace — are so dense and precise they were once thought to require a magnifying glass to design, though no evidence of early medieval lenses has been found. A 10th-century colophon (a note added at the end) by the priest Aldred also provides the first known interlinear gloss in Old English, translating the Latin text word by word above each line — making the manuscript a foundational document of the English language as well as a work of art. It has been held by the British Library since 1753."
+        }
+      ],
+      "commonsFile": "LindisfarneFol27rIncipitMatt.jpg"
     },
     {
       "id": "evt-ase-eadfrith-gospels",
@@ -701,31 +1074,50 @@
       "id": "evt-ase-codex-amiatinus",
       "label": "The Codex Amiatinus",
       "year": 716,
-      "description": "The oldest surviving complete Latin Bible, produced at Wearmouth-Jarrow as a gift for the pope.",
+      "description": "The Codex Amiatinus is the oldest surviving complete Latin Bible in the world — made at Wearmouth-Jarrow around 700, weighing about 75 pounds (34 kg), and crafted so convincingly in a classical Mediterranean style that scholars in Italy assumed for centuries it had been made in sixth-century Rome.",
       "wikiSlug": "Codex_Amiatinus",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was one of three identical giant Bibles made at Wearmouth-Jarrow at the same time, a project requiring the hides of roughly 515 calves. The abbot carrying it to Rome as a papal gift, Ceolfrith, died at Langres in Burgundy in 716 before completing the journey; his monks apparently delivered it for him. The manuscript was rediscovered at the Monastery of San Salvatore on Monte Amiata in Tuscany, and only definitively identified as English in origin in 1886 by the scholar Giovanni Battista de Rossi."
+        }
+      ],
+      "commonsFile": "CodxAmiatinusFolio5rEzra.jpg"
     },
     {
       "id": "evt-ase-bede-computus",
       "label": "Bede's Reckoning of Time",
       "year": 725,
-      "description": "Bede's treatise on the computus systematized calendar science and popularized dating years from the Incarnation.",
+      "description": "Bede's 'Reckoning of Time,' completed around 725, was the definitive medieval textbook for calculating the date of Easter — a genuinely hard astronomical problem requiring years of lunar and solar cycles to be reconciled — and it remained the standard reference in Europe for centuries.",
       "wikiSlug": "The_Reckoning_of_Time",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Easter calculation problem (called the computus) required tracking the 19-year Metonic cycle that reconciles lunar months with solar years, the same cycle the ancient Greeks had identified. Bede's treatise also introduced the concept of a year zero and extended the system backward into BC dates for the first time, which is why we can sensibly speak of events happening 'before Christ' using the same numbering scheme. His work went beyond Easter tables into genuine natural science, including original observations about tides."
+        }
+      ]
     },
     {
       "id": "evt-ase-bede",
       "label": "Bede Writes the Ecclesiastical History",
       "year": 731,
-      "description": "Bede's history of the English church and people, the foundational narrative of Anglo-Saxon England.",
+      "description": "Bede was given to Wearmouth-Jarrow as a child of about seven and never really left, spending his entire life reading, writing, and teaching — and becoming the most learned man in western Europe and the single most important historian of the early Middle Ages.",
       "wikiSlug": "Bede",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His Ecclesiastical History, completed in 731, is notable for its method as much as its content: Bede named his sources, carefully distinguished reliable documents from oral hearsay, and was explicitly skeptical about miracles he could not verify — habits that would be called modern if a later writer had them. He wrote more than sixty works in total, covering scripture, biography, grammar, and natural science. Pope Leo XIII declared him a Doctor of the Church in 1899, the only Englishman ever to hold that title."
+        }
+      ]
     },
     {
       "id": "evt-ase-bede-natura-rerum",
@@ -741,21 +1133,35 @@
       "id": "evt-ase-bede-anno-domini",
       "label": "Bede Popularizes Anno Domini Dating",
       "year": 731,
-      "description": "Through the Ecclesiastical History and the Reckoning of Time, Bede made the system of dating years from the birth of Christ standard across the Latin world.",
+      "description": "Bede did not invent the Anno Domini calendar — a Roman monk named Dionysius Exiguus had worked it out two centuries earlier — but by using it consistently across his widely read historical and scientific writing, Bede made it the standard dating system for the entire Latin world, and eventually the whole globe.",
       "wikiSlug": "Anno_Domini",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Dionysius created the AD system around 525 to calculate Easter tables, but almost nobody outside a narrow circle used it; the system sat largely dormant for roughly two centuries. Bede's Ecclesiastical History, copied and distributed across every major monastery in Europe, spread the convention so effectively that Charlemagne's court adopted it in the 790s. The system is now used by roughly eight billion people; almost none of them know the chain runs back to a monk's library on the Northumbrian coast."
+        }
+      ],
+      "commonsFile": "Austria_Klagenfurt_Dome_12.jpg"
     },
     {
       "id": "evt-ase-boniface",
       "label": "Boniface, Apostle of the Germans",
       "year": 754,
-      "description": "The West Saxon missionary who reorganized the Frankish church and evangelized Germania before his martyrdom.",
+      "description": "Boniface, a West Saxon monk born around 675, spent decades reorganizing the whole Frankish church and evangelizing the still-pagan Germanic peoples east of the Rhine — founding monasteries, establishing bishoprics, binding the Continental church tightly to Rome — before being killed by pagans in Frisia in 754 at about age 80.",
       "wikiSlug": "Boniface",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His most famous act was felling a giant oak at Geismar in Hesse sacred to the thunder-god Thunor (called Thor in Norse tradition), daring the god to strike him down; when nothing happened, the crowd's faith in the old religion reportedly collapsed. The timber from the oak was used to build a chapel. Pope Gregory III made him Archbishop of Mainz, the most senior church position in the Germanic lands. He is said to have been holding a book of Ambrose's writings over his head trying to ward off sword blows when he was killed — a detail so fitting for a scholar-missionary that historians debate whether it is legend."
+        }
+      ],
+      "commonsFile": "Saint_Boniface_by_Cornelis_Bloemaert.jpg"
     },
     {
       "id": "evt-ase-boniface-oak",
@@ -771,221 +1177,369 @@
       "id": "evt-ase-alcuin",
       "label": "Alcuin of York",
       "year": 780,
-      "description": "The greatest scholar of the age, educated at York's cathedral school and later summoned by Charlemagne to direct his palace academy — the English intellectual at the heart of the Carolingian Renaissance.",
+      "description": "Alcuin of York (born around 735) was the most celebrated scholar of 8th-century England — educated at the famous cathedral school of York, then recruited by Charlemagne to run the palace academy at Aachen, the intellectual engine of the Carolingian Renaissance.",
       "wikiSlug": "Alcuin",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Charlemagne's biographer Einhard called Alcuin \"the most learned man anywhere to be found\" — a remarkable endorsement for an Englishman running the education system of the Frankish empire. Alcuin gave members of Charlemagne's court whimsical scholarly nicknames: Charlemagne himself was \"David\" (after the biblical king), while Alcuin styled himself \"Flaccus\" (after the Roman poet Horace). He wrote influential manuals on grammar, rhetoric, and dialectic that structured European education for centuries after his death in 804."
+        }
+      ],
+      "commonsFile": "Raban-Maur_Alcuin_Otgar.jpg"
     },
     {
       "id": "evt-ase-york-school",
       "label": "The Cathedral School at York",
       "year": 735,
-      "description": "The school at York became the foremost center of learning in 8th-century England, building one of Europe's great libraries and training the generation of scholars who carried English learning to the Continent.",
+      "description": "The cathedral school at York, built up over the 8th century under a succession of scholar-bishops, became the leading center of learning in England and assembled one of the great libraries of early medieval Europe — the direct institutional heir of the Canterbury school founded by Theodore a century earlier.",
       "wikiSlug": "York_Minster",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alcuin, York's most famous graduate, wrote a poem cataloguing the school's library holdings that lists authors from Virgil and Pliny to the Church Fathers — a remarkable snapshot of what an 8th-century English scholar could read. The school's library was exceptional by any contemporary standard: most monasteries outside England had far smaller collections. York's prominence helps explain why Charlemagne looked specifically to England when he wanted someone to revitalize learning on the Continent."
+        }
+      ],
+      "commonsFile": "York_Minster_(2797690).jpg"
     },
     {
       "id": "evt-ase-tribal-hidage",
       "label": "The Tribal Hidage",
       "year": 700,
-      "description": "An assessment list of the peoples and kingdoms owing tribute, a rare window onto early English political geography.",
+      "description": "The Tribal Hidage is a tribute-assessment list naming 35 peoples and kingdoms of early England, each assigned a number of 'hides' (a hide being a unit of land sufficient to support one household) — the closest thing that survives to an administrative map of the Anglo-Saxon world.",
       "wikiSlug": "Tribal_Hidage",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The document is headed by Mercia and covers almost entirely the territory south of the Humber, which scholars read as evidence it was compiled by a Mercian king, most likely during the period of Mercian supremacy in the seventh or eighth century. Wessex is assigned 100,000 hides — by far the largest figure on the list — and scholars suspect this number was deliberately inflated, possibly as flattery or political acknowledgment of Wessex's status rather than a real assessment."
+        }
+      ],
+      "commonsFile": "Tribal_Hidage_(1912_map_by_Brownbill).jpg"
     },
     {
       "id": "evt-ase-aethelbald",
       "label": "Æthelbald of Mercia",
       "year": 716,
-      "description": "The long-reigning Mercian king who established Mercian dominance over southern England.",
+      "description": "Æthelbald ruled Mercia from 716 to 757, making himself overlord of every kingdom south of the Humber and styling himself not just king of the Mercians but king of all the southern English — the most dominant figure in Britain for most of his reign.",
       "wikiSlug": "Æthelbald_of_Mercia",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Æthelbald came to the throne after his cousin Ceolred had driven him into exile, so his forty-year reign began as an unlikely comeback. He was eventually killed in 757 by his own bodyguard at Seckington, which triggered the civil war that brought Offa to power. A charter from around 736 — the Æthelbald \"Ismere\" diploma — is one of the earliest surviving documents in which an English king claims lordship over the whole southern English."
+        }
+      ],
+      "commonsFile": "The_Repton_Stone-_detail.JPG"
     },
     {
       "id": "evt-ase-aethelbald-charter",
       "label": "Æthelbald's Southumbrian Overlordship",
       "year": 736,
-      "description": "By the 730s Æthelbald of Mercia was styling himself 'king not just of the Mercians but of all the provinces called by the general name of the South English' — overlordship backed by military power and charters.",
+      "description": "By the 730s Æthelbald was issuing charters that named him king of all the southern English — not just a battlefield overlord but an administrative one, whose authority over subordinate kings was recorded in writing and backed by tribute.",
       "wikiSlug": "Æthelbald_of_Mercia",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word \"Southumbria\" (the lands south of the Humber river) framed this overlordship as a geographic claim, not just a military one. The Mercian court became one of the most prolific charter-producing institutions in Britain, giving Mercian kingship a paper trail that earlier Bretwaldas entirely lacked. Æthelbald also attended synods and presided over church business in the south, treating those kingdoms' churches as within his sphere of governance."
+        }
+      ],
+      "commonsFile": "Aethelbald_charter_Cyneberht_736.jpg"
     },
     {
       "id": "evt-ase-offa",
       "label": "Offa of Mercia",
       "year": 757,
-      "description": "The most powerful pre-Viking English king, who dealt with Charlemagne as a near-equal.",
+      "description": "Offa (reigned 757–796) was king of Mercia, the dominant midland kingdom, and the most powerful English ruler before Alfred — a king who extended Mercian overlordship across most of southern England, minted high-quality silver coins, and dealt with Charlemagne as a diplomatic equal.",
       "wikiSlug": "Offa_of_Mercia",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Offa's silver pennies, bearing his name and face in a style borrowed from Roman coinage, were so reliably made that Charlemagne agreed to accept them in trade — a form of international monetary credibility no previous English king had achieved. He had King Æthelberht II of East Anglia beheaded in 794, probably for attempting to break free of Mercian control, then reportedly felt guilty enough about it to found a monastery at Hereford in penance. Offa's Dyke, the massive earthwork running roughly 150 miles (240 km) along the Welsh border, may have been built partly as a prestige project signaling his power as much as a defensive barrier."
+        }
+      ],
+      "commonsFile": "Offa_of_Mercia.jpg"
     },
     {
       "id": "evt-ase-offa-charlemagne",
       "label": "Offa's Diplomacy with Charlemagne",
       "year": 796,
-      "description": "Offa negotiated with Charlemagne as a near-equal, including a trade treaty, arranged marriages, and a joint call for better clergy education — the most substantial diplomatic exchange between England and the Continent before the Norman Conquest.",
+      "description": "Offa and Charlemagne, the dominant ruler of continental Europe, dealt with each other as near-equal sovereigns — signing what amounts to the first recorded commercial treaty between an English king and a Continental power.",
       "wikiSlug": "Offa_of_Mercia",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two rulers' relationship was not always cordial: Charlemagne once proposed a marriage between his son and Offa's daughter, but Offa countered by demanding that one of his own sons marry a Frankish princess in return — Charlemagne was insulted and closed the ports to English merchants for a period. Alcuin of York, the leading scholar of the age, served at Charlemagne's court and acted as an informal go-between in the correspondence. Charlemagne's letters to Offa survive partly through Alcuin's own archive and show Charlemagne framing the relationship as a mutual obligation between Christian rulers."
+        }
+      ],
+      "commonsFile": "Cynethryth_penny.jpg"
     },
     {
       "id": "evt-ase-offas-dyke",
       "label": "Offa's Dyke Built",
       "year": 785,
-      "description": "A great earthwork rampart along the Welsh border, the largest engineering project of early medieval Britain.",
+      "description": "Offa's Dyke is a massive earthwork — a bank with a western ditch — running roughly 80 miles (130 km) along the Mercia–Wales frontier, the largest engineering project in early medieval Britain and a permanent political boundary cut into the landscape.",
       "wikiSlug": "Offa's_Dyke",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Modern archaeology has found that the Dyke is not a single continuous structure; it has gaps, particularly in the north, and some sections may predate Offa. The earthwork in completed sections stands up to 8 meters (26 feet) from ditch bottom to bank top — a formidable obstacle even without troops. Large stretches remain walkable today as a designated long-distance footpath, the Offa's Dyke Path, one of Britain's national trails."
+        }
+      ],
+      "commonsFile": "Offa's_Dyke_near_Clun.jpg"
     },
     {
       "id": "evt-ase-offa-coinage",
       "label": "Offa's Silver Penny",
       "year": 765,
-      "description": "Offa's reformed silver penny set the standard for English currency for centuries.",
+      "description": "Offa reformed the English silver penny into a reliable, standardized coin struck in the king's name, setting the template for English currency that endured for five hundred years.",
       "wikiSlug": "Offa_of_Mercia",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The older North Sea coins called sceattas were small, thick, and often anonymous; Offa's penny was thinner, broader, and bore his name and portrait — a conscious claim of royal control over trade. A handful of Offa's pennies carry the name and portrait of his queen Cynethryth, making her the only Anglo-Saxon queen known to have appeared on coinage in her own lifetime. Offa also struck gold dinars in imitation of Abbasid Islamic coins, probably to facilitate trade with Islamic merchants; one survives with Offa's name clumsily inserted into the Arabic inscription."
+        }
+      ],
+      "commonsFile": "IOW-C8BD83_Early-Medieval_(Anglo-Saxon)_Coin,_Penny_of_Offa_(FindID_423937).jpg"
     },
     {
       "id": "evt-ase-offa-mercian-church",
       "label": "Offa Creates the Archbishopric of Lichfield",
       "year": 787,
-      "description": "Seeking ecclesiastical independence from Canterbury, Offa persuaded the pope to elevate Lichfield to an archbishopric — a status it held only briefly but that showed the extent of Mercian royal power over the church.",
+      "description": "In 787 Offa convinced Pope Hadrian I to elevate Lichfield, deep inside Mercia, to an archbishopric — splitting ecclesiastical authority away from Canterbury and giving Offa a senior churchman he could control rather than one rooted in rival Kent.",
       "wikiSlug": "Archbishopric_of_Lichfield",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Offa's method was subtle: he hosted papal legates in England in 786, staged impressive church councils, and backed the reforms the papacy wanted, building up goodwill before making his request. The Lichfield archbishopric covered the dioceses of Mercia and East Anglia — essentially Offa's political empire — but was always resented by Canterbury and was abolished in 803, only seven years after Offa's death. It stands as a rare example of a medieval English king successfully reshaping the structure of the church through diplomacy rather than schism."
+        }
+      ]
     },
     {
       "id": "evt-ase-wic-hamwic",
       "label": "Hamwic: Southampton as a Trading Emporium",
       "year": 700,
-      "description": "Hamwic, at the mouth of the River Itchen near modern Southampton, was one of the largest and best-documented of the early medieval English trading emporia, covering over 40 hectares with planned streets and industrial production.",
+      "description": "Hamwic was a large, planned Anglo-Saxon trading settlement near modern Southampton, covering roughly 40 to 45 hectares with laid-out streets and active craft workshops — one of England's most important middle Saxon emporia.",
       "wikiSlug": "Hamwic",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hamwic was positioned on the east bank of the Itchen river rather than inside any Roman fortification, a deliberate choice that characterizes the wic type: open, accessible to ships, not defended. Excavations have found evidence of metalworking, textile production, bone-comb manufacturing, and imported Rhenish pottery and glass, showing it was a genuine production and exchange center, not just a market. The settlement appears to have been established under the patronage of the kings of Wessex in the late seventh century and declined with the onset of Viking raiding in the ninth."
+        }
+      ]
     },
     {
       "id": "evt-ase-wic-lundenwic",
       "label": "Lundenwic: Middle Saxon London",
       "year": 650,
-      "description": "While the old Roman walled city was largely abandoned, a new trading settlement called Lundenwic grew up a mile to the west along the Thames Strand, becoming the commercial hub of middle Saxon England.",
+      "description": "Lundenwic was the Anglo-Saxon trading town that grew up a mile west of the old Roman city walls along the Thames Strand — a busy emporium whose name fossilized in the modern London placename \"Aldwych\" (\"old wic\").",
       "wikiSlug": "Lundenwic",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Roman city of Londinium had been largely abandoned; the Anglo-Saxons did not live inside its walls but built their trading settlement on the open riverfront to the west, where ships could beach easily. At its peak in the eighth century, Lundenwic may have had a population of several thousand, making it one of the largest settlements in England. Alfred the Great refounded the settlement inside the old Roman walls in 886 after the Viking threat made the open, undefended site untenable — the old wic became the \"Aldwych\" and the walled city was reactivated."
+        }
+      ]
     },
     {
       "id": "evt-ase-wic-ipswich",
       "label": "Ipswich as a Trading Town",
       "year": 650,
-      "description": "Ipswich was one of the earliest English planned towns, an emporium producing distinctive Ipswich ware pottery and trading across the North Sea to Frisia and Scandinavia.",
+      "description": "Ipswich in East Anglia was one of England's earliest planned towns, producing its own distinctive pottery at an industrial scale and exporting it across the North Sea — an early medieval manufacturing hub, not just a market.",
       "wikiSlug": "Ipswich",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "\"Ipswich ware\" is so recognizable archaeologically that it serves as a dating marker across sites in eastern England and beyond: finding it in a layer reliably indicates middle Saxon activity, roughly the seventh to ninth centuries. The pottery was wheel-thrown at a time when most English ceramics were still hand-built, suggesting a level of specialized craft production unusual for the period. Ipswich was also deeply embedded in the North Sea slave trade, one of the more valuable and disturbing commodities moving through these emporia."
+        }
+      ]
     },
     {
       "id": "evt-ase-sceattas",
       "label": "Sceat Coinage and North Sea Trade",
       "year": 680,
-      "description": "Small silver coins called sceattas circulated across the North Sea trading zone connecting England, Frisia, and Francia, evidence of a vibrant if undocumented commercial world.",
+      "description": "Small, thick silver coins called sceattas (\"SHAT-as\") circulated from the late seventh century across the North Sea trading zone linking England, Frisia (the Low Countries), and Francia — evidence of a commercial economy well before English kings began asserting control over coinage.",
       "wikiSlug": "Sceatta",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sceattas were normally anonymous — they carried symbols or crude heads rather than a ruler's name, which is one reason historians long underestimated how widely they circulated. Modern metal-detecting finds have revealed them in huge numbers across eastern England, suggesting the trading economy of this period was far more active than the written sources imply. They were typically struck at around 1.0–1.3 grams of silver, and their weight varied significantly between mints and periods, which is precisely the instability Offa's penny reform was designed to fix."
+        }
+      ],
+      "commonsFile": "Aldfrith_sceat_685_76001849.jpg"
     },
     {
       "id": "evt-ase-ceorl-thegn",
       "label": "The Ceorl and Thegn Social Structure",
       "year": 650,
-      "description": "Anglo-Saxon society was stratified into the free peasant (ceorl) who worked the land, the thegn who held land by military service to a lord, and the nobleman (eorl) — all bound together by ties of loyalty, land, and wergild.",
+      "description": "Anglo-Saxon free society divided into the ceorl (a free farming man, the vast majority of the population) and the thegn (a land-holding warrior aristocrat who served a lord or king) — with the thegn's legal life valued at several times a ceorl's under the wergild system.",
       "wikiSlug": "Thegn",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word \"churl,\" now an insult for a rude or mean person, descends directly from \"ceorl\" — a linguistic record of how later centuries thought about the peasant class. A thegn's rank was not purely hereditary: the law codes describe how a prosperous ceorl who accumulated enough land and a church, a kitchen, and a bell-house could in theory rise into the thegn class. Below the ceorl sat slaves — war captives and the enslaved poor — who had no wergild of their own because they were property, a substantial and mostly invisible part of this society."
+        }
+      ],
+      "commonsFile": "Godwin_the_thane_seal_first_half_11th_century.jpg"
     },
     {
       "id": "evt-ase-witan",
       "label": "The Witan and Anglo-Saxon Kingship",
       "year": 650,
-      "description": "English kings ruled in consultation with the witan, an informal council of great men — bishops, ealdormen, and senior thegns — whose consent legitimized major decisions including the choice of a new king.",
+      "description": "The witan (\"wise men\") was the informal council of bishops, ealdormen, and senior thegns whose consent gave an Anglo-Saxon king's decisions their legitimacy — most critically, the choice of who became the next king.",
       "wikiSlug": "Witenagemot",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Because kingship was hereditary within a royal kindred rather than by strict primogeniture, the witan effectively chose among multiple eligible men each time a king died, making succession a negotiated act rather than an automatic handover. The council had no fixed membership, no set schedule, and no defined powers — it was simply whoever the king had around him at the time. This is why so many Anglo-Saxon successions ended in violence: without a single automatic heir, a pool of throne-worthy claimants plus a council that picked among them was a structural recipe for civil war."
+        }
+      ],
+      "commonsFile": "Hexateuch_king.jpg"
     },
     {
       "id": "evt-ase-open-field",
       "label": "The Open-Field Farming System",
       "year": 650,
-      "description": "Anglo-Saxon agriculture organized the landscape into large open fields divided into strips farmed by individual families, with shared pasture and woodland — a system that would dominate English farming until the enclosures.",
+      "description": "Anglo-Saxon villages farmed their land as large open fields divided into long strips, with each household holding scattered strips spread across the fields rather than one consolidated block — sharing the good and bad soil equally.",
       "wikiSlug": "Open-field_system",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The system required genuine communal coordination: neighbours had to agree on crop rotations, ploughing schedules, and when to let animals onto the stubble. Beyond the cultivated strips, villagers held rights to shared meadow, pasture, and woodland — the \"commons\" whose memory survives in English place names and in later legal fights over enclosure. The open-field pattern stamped itself on the map in the form of the long, lazy S-curves still visible in some English fields, the fossil shape of a plough team turning across a strip."
+        }
+      ],
+      "commonsFile": "Plan_mediaeval_manor.jpg"
     },
     {
       "id": "evt-ase-beowulf-composition",
       "label": "Beowulf Composed",
       "year": 725,
-      "description": "The great Old English epic poem, set in Scandinavia but composed in England, preserves pre-Christian heroic traditions even as its surviving manuscript dates to around 1000 CE.",
+      "description": "Beowulf is the great Old English epic poem: 3,182 lines of alliterative verse telling the story of a Geatish warrior-hero who defeats monsters in the Danish hall Heorot and later dies fighting a dragon. Set in pagan Scandinavia, it was composed in Christian England, probably somewhere in the 8th century.",
       "wikiSlug": "Beowulf",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The only surviving manuscript of Beowulf — now in the British Library as part of the Nowell Codex — was nearly destroyed in a fire in 1731; the edges of its pages are still scorched. Scholars disagree widely on when the poem was actually composed, with estimates ranging from the early 7th century to the 10th, because the text shows layers of both pagan heroic tradition and Christian overlay. The monster Grendel is described as a descendant of the biblical Cain — one of several places where a Christian scribe's hand is visible inside an older story."
+        }
+      ],
+      "commonsFile": "Beowulf_Cotton_MS_Vitellius_A_XV_f._132r.jpg"
     },
     {
       "id": "evt-ase-old-english-language",
       "label": "Old English as a Written Language",
       "year": 650,
-      "description": "Anglo-Saxon England developed Old English into a fully literary language, used for law, poetry, religious instruction, and history — an unusual achievement in a Europe where Latin monopolized most writing.",
+      "description": "Anglo-Saxon England built Old English into a fully literary language used for law, poetry, religious instruction, and history — an unusual achievement in early medieval Europe, where Latin held a near-monopoly on serious writing.",
       "wikiSlug": "Old_English",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Most early medieval European vernaculars were spoken, not written at any length; the Anglo-Saxons were almost unique in choosing to develop their own language as a vehicle for literature and governance rather than relying on Latin alone. The church drove part of this: bishops and priests preached in English so ordinary congregations could understand, which created demand for religious texts in the vernacular. Old English survived as a literary language until the Norman Conquest in 1066, after which French and Latin displaced it among the literate classes and the language began evolving — under that pressure — into what eventually became Middle English."
+        }
+      ],
+      "commonsFile": "2022_04_16_-_MAP_West_Germanic_–_cc._580_CE_-_END.png"
     },
     {
       "id": "evt-ase-runic-inscriptions",
       "label": "The Ruthwell Cross and Runic Poetry",
       "year": 700,
-      "description": "The Ruthwell Cross in Dumfriesshire bears verses from the Old English poem The Dream of the Rood carved in runic script — evidence of a literate culture that moved fluidly between runes and Latin letters.",
+      "description": "The Ruthwell Cross, an eighth-century stone preaching cross in what is now southwestern Scotland, bears verses from the Old English poem The Dream of the Rood carved in runic script — a striking collision of Christian message and pre-Christian alphabet.",
       "wikiSlug": "Ruthwell_Cross",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cross stands about 17 feet tall and is carved on all four sides with biblical scenes, vine scrolls, and Latin inscriptions alongside the runic poem — a physical demonstration that runes and Latin letters coexisted rather than simply replacing each other. The runic excerpts on the Ruthwell Cross are among the oldest surviving Old English verse, predating the complete manuscript of the poem by perhaps two centuries. The cross itself had a turbulent history: it was ordered smashed during the Scottish Reformation in 1642 as a superstitious monument and was later reassembled from pieces, with some fragments still missing."
+        }
+      ],
+      "commonsFile": "The_Ruthwell_Cross_-_geograph.org.uk_-_939546.jpg"
     },
     {
       "id": "evt-ase-double-monasteries",
       "label": "Double Monasteries in Anglo-Saxon England",
       "year": 640,
-      "description": "A distinctively English institution: monasteries housing both monks and nuns under a single abbess, typically a woman of royal blood — Whitby under Hilda being the most prominent example.",
+      "description": "The double monastery — a single community of both monks and nuns under one roof, almost always headed by a woman of royal blood — was a distinctively English institution that placed a small number of royal women at the very top of the church's intellectual and political life.",
       "wikiSlug": "Double_monastery",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The institution spread from Gaul into Anglo-Saxon England in the 7th century, but the English version was unusual in how consistently the abbess, not an abbot, held supreme authority. Beyond Hilda at Whitby, royal abbesses like Æthelthryth at Ely and Mildred at Minster-in-Thanet ran major centers of learning and patronage. The Second Council of Nicaea formally banned double monasteries in 787, though the decree took generations to enforce in England."
+        }
+      ]
     },
     {
       "id": "evt-ase-church-councils",
       "label": "English Church Councils",
       "year": 672,
-      "description": "Theodore of Tarsus convened the first all-English church council at Hertford in 672, establishing unified canonical discipline across all the English kingdoms for the first time.",
+      "description": "In 672 Theodore convened the Council of Hertford, the first occasion on which all the English kingdoms — still politically separate and frequently at war — accepted a single common rule for anything, making it one of the earliest moments of English unity.",
       "wikiSlug": "Council_of_Hertford",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The council issued ten canons covering topics like bishops not intruding in other dioceses, monks not wandering without permission, and the indissolubility of marriage. Bede is the main source and includes the full text of the council's decisions. Theodore's political achievement here was arguably as significant as any military victory: getting rival kings to send representatives and agree to a shared legal framework."
+        }
+      ]
     },
     {
       "id": "evt-ase-ecgfrith",
@@ -1001,11 +1555,18 @@
       "id": "evt-ase-irish-illumination",
       "label": "Insular Manuscript Art Tradition",
       "year": 650,
-      "description": "The distinctive style of illuminated manuscripts produced in Ireland and Northumbria — combining interlace ornament, zoomorphic patterns, and Mediterranean iconography — was one of the supreme artistic achievements of early medieval Europe.",
+      "description": "Insular art (from the Latin 'insula,' meaning island) is the distinctive style of illuminated manuscripts made in Ireland and Britain from roughly the 6th to 9th centuries, combining Celtic abstract interlace, Germanic animal patterns, and Mediterranean Christian iconography into something no single tradition could have produced alone.",
       "wikiSlug": "Insular_art",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The style emerged from the same fusion that defines this whole period: Irish monks trained in abstract La Tène metalwork ornament encountered the figure-based Mediterranean art arriving with Christianity, and Germanic settlers brought their own tradition of interlaced animal ornament. The Book of Durrow, made around 680, is an early example showing the style forming; the Lindisfarne Gospels and Book of Kells represent its peak. The animal forms in insular art — birds, fish, and quadrupeds stretched and knotted into geometric patterns — are so tightly integrated with the abstract interlace that the boundary between creature and ornament dissolves."
+        }
+      ],
+      "commonsFile": "KellsFol292rIncipJohn.jpg"
     },
     {
       "id": "evt-ase-book-of-durrow",
@@ -1071,80 +1632,134 @@
       "id": "evt-ase-portland-raid",
       "label": "First Norse Contact at Portland",
       "year": 789,
-      "description": "A reeve of Dorset rode to meet what he took for merchants on the Dorset coast — they were Norse raiders who killed him; the Anglo-Saxon Chronicle calls it the first ships of the Danes to come to England.",
+      "description": "Around 789, a royal reeve (the king's local administrative agent) named Beaduheard rode down to the Dorset coast near Portland to process what he assumed were incoming traders — three ships of Norse sailors killed him. The Anglo-Saxon Chronicle, written a century later, marks it as the first arrival of Danish ships on English shores.",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Beaduheard's title, reeve, was so durable that a reeve overseeing a shire became a \"shire-reeve,\" which eroded over centuries into the modern word \"sheriff.\" The Chronicle entry is frustratingly brief — just a few lines — and the exact year is disputed, with some manuscripts placing the event in 787 rather than 789. The ships landed at a place called Portland, a peninsula jutting into the English Channel, well south of any major monastery, which is why the reeve's first instinct was commerce rather than alarm."
+        }
+      ]
     },
     {
       "id": "evt-ase-lindisfarne-raid",
       "label": "The Raid on Lindisfarne",
       "year": 793,
-      "description": "Norse raiders sacked the monastery of Lindisfarne, the shock that traditionally opens the Viking Age.",
+      "description": "In 793, Norse raiders descended on the monastery of Lindisfarne — a tidal island off the Northumbrian coast and the spiritual heartland of English Christianity — killing monks, taking others as slaves, and stripping its treasures. It is the event that traditionally marks the opening of the Viking Age.",
       "wikiSlug": "Viking_raid_on_Lindisfarne",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Lindisfarne was chosen by the Irish monk Aidan in 635 precisely because it was island-like and remote — ideal for a monastic community, disastrously exposed to seaborne attack. The monastery held both Saint Cuthbert's shrine and the Lindisfarne Gospels, among the most ornate books produced in early medieval Europe. A contemporary account in the Anglo-Saxon Chronicle says the attack was preceded by dire omens: whirlwinds, lightning, and \"fiery dragons\" flying through the air — likely the community's terrified retrospective framework for an event that had no precedent."
+        }
+      ],
+      "commonsFile": "Holy_Island_Sunrise_(again)_(15064111624).jpg"
     },
     {
       "id": "evt-ase-alcuin-letter",
       "label": "Alcuin's Letter on Lindisfarne",
       "year": 793,
-      "description": "From Charlemagne's court, the Northumbrian scholar Alcuin wrote letters expressing horror at the Lindisfarne attack, calling it a punishment for English sins — the most vivid contemporary response to the raid.",
+      "description": "When news of the Lindisfarne raid reached Charlemagne's court, Alcuin wrote letters to the king of Northumbria and to the monks of Lindisfarne expressing horror and theological alarm — the most vivid surviving contemporary reaction to the attack, framing it as divine punishment for English worldliness.",
       "wikiSlug": "Alcuin",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alcuin's letter to the monks of Lindisfarne contains one of the most quoted lines of early medieval Europe: drawing on the biblical prophet Jeremiah, he described the attack as \"a plague of evil breaking out from the north.\" He also wrote to King Æthelred of Northumbria warning him to root out the sins — drunkenness, fornication, greed among clergy — that Alcuin believed had invited God's punishment. The letters survive in full and remain the primary source for how 8th-century English intellectuals processed the shock of Viking violence."
+        }
+      ]
     },
     {
       "id": "evt-ase-jarrow-raid",
       "label": "Viking Raid on Jarrow",
       "year": 794,
-      "description": "Norse raiders struck Wearmouth-Jarrow the year after Lindisfarne — Bede's own monastery — showing the raids were systematic and not a one-off shock.",
+      "description": "In 794, Norse raiders struck Wearmouth-Jarrow, Bede's own twin monastery on the Northumbrian coast, just one year after Lindisfarne — confirming that the 793 attack was not an isolated freak event but the opening move of a sustained campaign against the richest undefended sites on the English coast.",
       "wikiSlug": "Monkwearmouth–Jarrow_Abbey",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Annals of Ulster record that the 794 Jarrow raid went worse for the attackers than Lindisfarne had: their leader was killed, and some of the raiding force drowned on the way home. Even so, the monastery suffered damage and the raids continued elsewhere. Wearmouth-Jarrow housed what was probably the largest collection of books in 8th-century England, assembled by the founder Benedict Biscop on multiple trips to Rome — a cultural resource as irreplaceable as anything the raiders could carry off."
+        }
+      ],
+      "commonsFile": "St_Peters_Church_2019_02.jpg"
     },
     {
       "id": "evt-ase-offa-death",
       "label": "Death of Offa and Mercian Decline",
       "year": 796,
-      "description": "Offa died in 796 and his son Ecgfrith survived him by only a few months; within a generation Mercian supremacy had collapsed, setting the stage for Wessex's eventual rise to dominance.",
+      "description": "Offa died in July 796 and his son Ecgfrith, whom he had anointed co-king to ensure succession, died just four months later — the entire Mercian superstructure built over forty years collapsed within a generation for lack of any institutional foundation.",
       "wikiSlug": "Offa_of_Mercia",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ecgfrith's death so soon after his father's was seen by contemporaries as divine punishment for the way Offa had cleared rivals to install him. The scholar Alcuin wrote that the sins of the father had been visited on the son. After Ecgfrith, the Mercian throne passed to a distant cousin, Coenwulf, who maintained Mercian power for another generation but could never quite replicate Offa's reach — and the kingdom had no further ruler of comparable stature before Danish raids began dismantling it."
+        }
+      ],
+      "commonsFile": "Anglo-Saxon_Chronicle_-_Offa_Myrcna_cyning.jpg"
     },
     {
       "id": "evt-ase-gewisse",
       "label": "The Gewisse: West Saxon Origins",
       "year": 519,
-      "description": "The West Saxons traced their origins to a group called the Gewisse, whose name may mean 'the confederates'; their early history in the upper Thames valley is imperfectly recorded in the Chronicle.",
+      "description": "Before they called themselves West Saxons, the people who would build Wessex went by the name Gewisse — possibly meaning 'the sure ones' or 'the confederates' — a tribal label rooted in the upper Thames valley around Dorchester-on-Thames.",
       "wikiSlug": "Gewisse",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bede, writing in the 730s, consistently calls the early West Saxons the Gewisse rather than West Saxons, suggesting the ethnic name was still current in living memory a century after Cerdic. Some scholars see the name as pointing to a mixed British-Germanic origin, with 'confederates' implying a coalition across ethnic lines rather than a single migrant group."
+        }
+      ],
+      "commonsFile": "Peterborough_Chronicle_cropped.jpg"
     },
     {
       "id": "evt-ase-pagan-burial",
       "label": "Anglo-Saxon Pagan Burial Practices",
       "year": 450,
-      "description": "Early Anglo-Saxon cemeteries show a mix of cremation and inhumation with grave goods — weapons, jewelry, and drinking vessels — reflecting Germanic pagan beliefs about the afterlife and social rank.",
+      "description": "Early Anglo-Saxon cemeteries (fifth to seventh centuries) reveal a mix of cremation and burial with grave goods — weapons, jewelry, drinking horns, and food — reflecting a Germanic pagan worldview where rank and identity followed you into the ground.",
       "wikiSlug": "Burial_in_Anglo-Saxon_England",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unusually for early medieval societies, Anglo-Saxon cemeteries placed wealthy and ordinary burials side by side in shared grounds rather than in segregated elite zones, which archaeologists read as a community asserting social bonds even across status lines. The shift from furnished pagan burials to unfurnished Christian ones happens gradually over the seventh century and is one of the clearest material markers of conversion archaeologists can actually track in the ground."
+        }
+      ],
+      "commonsFile": "Saxon_Princess_Kirkleatham.jpg"
     },
     {
       "id": "evt-ase-migration-debate",
       "label": "The Migration Debate: Invasion or Infiltration",
       "year": 475,
-      "description": "Modern archaeologists debate whether the Anglo-Saxon transition was a mass migration of people or a gradual adoption of Germanic culture by an existing Brittonic population — genetic and isotopic evidence now suggests both processes operated simultaneously.",
+      "description": "Whether Anglo-Saxon England was made by a massive folk migration or a small warrior elite whose culture spread across a largely surviving Brittonic population is one of the most genuinely contested debates in early medieval history — and modern ancient-DNA evidence now suggests both sides were partly right.",
       "wikiSlug": "Anglo-Saxon_settlement_of_Britain",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ancient-DNA analysis of skeletons from eastern England shows a substantial continental North Sea genetic signal — far too large to be explained by a tiny elite alone — while the signal weakens progressively as you move west, exactly the gradient a real but uneven migration would leave. Tooth enamel isotope analysis can tell whether an individual grew up locally or overseas by reading the chemical signature of the water they drank as children, giving archaeologists a direct test of individual migrants. Old English absorbed remarkably few Celtic loanwords given that millions of Celtic speakers were presumably present — a pattern more consistent with separation and social dominance than with simple peaceful coexistence."
+        }
+      ],
+      "commonsFile": "Beda_Petersburgiensis_f3v.jpg"
     },
     {
       "id": "evt-ase-wic-fordwich",
@@ -1180,11 +1795,18 @@
       "id": "evt-ase-east-anglia-submission",
       "label": "East Anglia Submits to Mercia",
       "year": 794,
-      "description": "Offa had King Æthelberht II of East Anglia beheaded in 794, effectively absorbing his kingdom — the most dramatic demonstration of Mercian supremacy and of the ruthlessness behind Offa's courtly diplomacy.",
+      "description": "In 794 Offa had King Æthelberht II of East Anglia beheaded, eliminating a sub-king who had grown too independent — the sharpest demonstration of what Mercian overlordship actually meant when tested.",
       "wikiSlug": "Æthelberht_II_of_East_Anglia",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Æthelberht may have come to Offa's court to negotiate a marriage alliance when he was killed, which later tradition presented as a treacherous act that horrified contemporaries. He was quickly venerated as a martyr; within decades he had a saint's cult, and the cathedral at Hereford is still dedicated to him. The circumstances of his death were murky enough that later writers blamed Offa's queen Cynethryth rather than Offa himself for ordering the execution."
+        }
+      ],
+      "commonsFile": "St_Ethelbert_the_King.jpg"
     },
     {
       "id": "evt-ase-gospel-making",
@@ -1200,21 +1822,33 @@
       "id": "evt-ase-ealdorman",
       "label": "The Ealdorman and Local Governance",
       "year": 700,
-      "description": "Anglo-Saxon kings governed their kingdoms through ealdormen — senior nobles who administered shires, led local military levies, and presided over the hundred courts.",
+      "description": "The ealdorman was the senior noble who governed a shire on the king's behalf — leading the local military levy, presiding over the chief court, and collecting revenues — in an age with no professional civil service.",
       "wikiSlug": "Ealdorman",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title ealdorman is the direct ancestor of the modern word \"alderman,\" still used in city councils today. In the eleventh century the office evolved into the title of earl, which the Danish king Cnut formalized after the conquest. The shires ealdormen administered were so durable that many of their boundaries survive unchanged into modern English counties, and the county names themselves — Hampshire, Yorkshire — still carry the Old English suffix."
+        }
+      ]
     },
     {
       "id": "evt-ase-church-land",
       "label": "Bookland and Church Land Grants",
       "year": 680,
-      "description": "English kings increasingly granted land to the church by charter, creating a new form of landholding — bookland — held by written deed rather than customary right, and transforming both the church and the land market.",
+      "description": "From the late seventh century onward, English kings granted land to the church by written charter, creating \"bookland\" — property held in perpetuity by a written deed rather than by the old customary arrangements tied to family and service.",
       "wikiSlug": "Bookland",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bookland was legally revolutionary: ordinary landholding in Anglo-Saxon England was conditional on continued service and could not be freely alienated from the family, but a charter-granted estate could be sold, given away, or bequeathed at the holder's will. Churches accumulated vast permanent estates this way that survived any king's death or change of regime. The Latin word used in these documents, \"donatio\" (gift), deliberately echoed Roman imperial land grants — the church was importing a Roman legal concept into an English setting."
+        }
+      ]
     },
     {
       "id": "evt-ase-frankish-garnet",
@@ -1240,11 +1874,18 @@
       "id": "evt-ase-dream-of-rood",
       "label": "The Dream of the Rood",
       "year": 700,
-      "description": "One of the finest Old English poems, in which the cross speaks as a warrior-companion of Christ — a fusion of Germanic heroic tradition and Christian theology that exemplifies the creative vitality of Anglo-Saxon literature.",
+      "description": "The Dream of the Rood is an Old English poem in which the Cross itself narrates the Crucifixion as a loyal warrior-companion describing his lord's last battle — Christian theology expressed entirely through the voice and values of Germanic heroic tradition.",
       "wikiSlug": "The_Dream_of_the_Rood",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The poem survives complete in the Vercelli Book, a tenth-century manuscript found in northern Italy whose journey there is unknown — a reminder of how randomly early medieval texts survived. The conceit of a speaking object (the rood, or cross) reflecting on its role is called a \"riddle\" or prosopopoeia, a technique the Anglo-Saxons used widely in shorter poems. The Dream of the Rood is widely considered the finest religious poem in Old English and one of the earliest dream-vision poems in any European vernacular literature."
+        }
+      ],
+      "commonsFile": "The_Dream_of_the_Rood.jpg"
     },
     {
       "id": "evt-ase-sussex-conversion",
@@ -1310,11 +1951,18 @@
       "id": "evt-ase-tidal-knowledge",
       "label": "Anglo-Saxon Tidal Knowledge",
       "year": 725,
-      "description": "Bede's observations of North Sea tidal patterns contributed to a body of practical maritime knowledge that also informed his computistical writings on the moon's influence on the sea.",
+      "description": "Living beside the long tidal coast of the North Sea, Bede made careful, original observations about tides — recording that the moon drives them, that high tide arrives at different times along different stretches of coastline, and that tidal heights vary with the lunar phase — real empirical science written from a cold monastery in the eighth century.",
       "wikiSlug": "Bede",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bede coined the Latin term 'ledo' to describe the 'establishment of port' — the lag between the moon's position and high tide at a specific location — a concept still used by mariners today under the English phrase 'high water full and change.' His tidal observations appear in De Temporum Ratione (The Reckoning of Time) and represent the first systematic written treatment of tidal variation in European literature. He correctly identified the spring and neap tide cycle as linked to the moon's phases."
+        }
+      ],
+      "commonsFile": "E-codices_bke-0047_001v_medium_(cropped).jpg"
     },
     {
       "id": "evt-ase-herbal-medicine",
