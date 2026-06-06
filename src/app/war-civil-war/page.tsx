@@ -309,6 +309,18 @@ export default function WarHome() {
   const [bq, setBq] = useState('')
   const [thFilter, setThFilter] = useState('All')
 
+  // Deep link from the breadcrumb "Theatre" crumb: /war-civil-war?theatre=east
+  // lands on the Theatres tab with that theatre's chip selected, scrolled to the
+  // tab bar.
+  useEffect(() => {
+    const th = new URLSearchParams(window.location.search).get('theatre')
+    if (th && THEATRE[th]) {
+      setThFilter(th)
+      setTab('theatres')
+      requestAnimationFrame(() => document.querySelector('.p-subnav')?.scrollIntoView({ block: 'start' }))
+    }
+  }, [])
+
   return (
     <div className="war-skin">
       {/* sticky header */}

@@ -72,7 +72,10 @@ const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b =>
 // it unchanged. `civilWarCrumbs` below is a thin Civil-War-bound delegate, so the ~45
 // Civil War leaf pages keep calling it and their output is byte-identical.
 export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; battleId?: string } = {}): Crumb[] {
-  const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
+  const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band], tint: true }))
+  // This war's signature colour (matches its own option dot) for the war rung tint.
+  const selfWar = WAR_EVENTS.find(w => w.href === cfg.routeBase)
+  const warColor = (selfWar && BAND_COLOR[selfWar.band]) || cfg.accent
   const laneOf = (id?: string) => (id ? cfg.lanes.find(l => l.id === id) : undefined)
   const laneDot = (id: string) => laneOf(id)?.color?.dot
   const offfieldDot = cfg.lanes.find(l => l.kind === 'offfield')?.color?.dot
@@ -82,12 +85,15 @@ export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; b
   // landing page; a battle-grouping lane jumps to its earliest built battle.
   const firstHref = (id: string): string | undefined => {
     const ln = laneOf(id)
-    // story / offfield / phase lanes keep their own landing page; a geographic
-    // theatre lane (CW) jumps to its earliest built battle (theatre pages retired).
+    // story / offfield / phase lanes keep their own landing page.
     if (ln && (ln.kind === 'story' || ln.kind === 'offfield' || ln.kind === 'phase')) return ln.ready ? ln.href : undefined
+    // a geographic theatre lane links back to the war home with that theatre
+    // selected + scrolled into view (the standalone theatre pages are retired),
+    // not the theatre's first battle.
+    if (ln && ln.kind === 'theatre') return `${cfg.routeBase}?theatre=${id}`
     return cfg.battles.filter(b => b.theatre === id && b.href).sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))[0]?.href
   }
-  const laneOptions: CrumbOption[] = cfg.lanes.map(l => { const h = firstHref(l.id); return { label: l.label, href: h, disabled: !h, color: l.color?.dot } })
+  const laneOptions: CrumbOption[] = cfg.lanes.map(l => { const h = firstHref(l.id); return { label: l.label, href: h, disabled: !h, color: l.color?.dot, tint: l.kind === 'theatre' } })
   const activeLane = laneOf(lane)
 
   // Filtered to the active lane when one is chosen; the off-field lane (or no lane)
@@ -132,8 +138,8 @@ export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; b
   }
 
   return [
-    { label: cfg.crumbShort, short: cfg.crumbShort, color: onWarHome ? cfg.accent : undefined, href: cfg.routeBase, options: warOptions, currentLabel: cfg.crumbFull },
-    { label: activeLane?.label ?? cfg.laneNoun, short: activeLane ? activeLane.short : undefined, href: lane ? firstHref(lane) : undefined, options: laneOptions, active: !!lane && !battleId },
+    { label: cfg.crumbShort, short: cfg.crumbShort, color: onWarHome ? cfg.accent : warColor, href: cfg.routeBase, options: warOptions, currentLabel: cfg.crumbFull },
+    { label: activeLane?.label ?? cfg.laneNoun, short: activeLane ? activeLane.short : undefined, color: activeLane?.color?.dot, href: lane ? firstHref(lane) : undefined, options: laneOptions, active: !!lane && !battleId },
     { label: battleLabel, currentLabel: battleFull, options: activeLane?.kind === 'story' ? chapterJump : jump, active: !!battleId,
       scopeToggle: cfg.geoScopeToggle && geoLane ? { scopedLabel: activeLane?.short ?? activeLane?.label ?? cfg.laneNoun, allOptions: jumpAll } : undefined },
   ]

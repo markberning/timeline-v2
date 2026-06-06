@@ -31,7 +31,7 @@ const NARR: Record<string, Narr> = {
       { h: 'Eli Whitney’s box', eyebrow: 'Turning point' },
       { p: `In 1793, a Massachusetts-born inventor named Eli Whitney (pronounced “WIT-nee”), recently graduated from Yale and visiting a Georgia plantation, built a device to do exactly that. His cotton gin was almost embarrassingly simple: a hand crank pulled the cotton fiber through a comb-like grid of slender wires, set too narrow to let the seeds pass, so the fiber was dragged free and the seeds were left behind. Whitney applied for the patent on October 28, 1793, and it was granted on March 14, 1794.` },
       { p: `The math of it was staggering. A single hand laborer could clean about one pound of short-staple cotton in ten hours. Whitney’s gin could clean roughly fifty pounds of fiber a day. The seed bottleneck, the one thing standing between the South and a cotton fortune, simply vanished.` },
-      { fig: ‘/war-img/cotton-gin.jpg’, cap: ‘Enslaved people working an early cotton gin while white planters look on: the machine at the center of the boom, and the human labor it multiplied rather than spared.’, credit: ‘William L. Sheppard, “The First Cotton-Gin,” Harper’s Weekly, December 18, 1869 · public domain’ },
+      { fig: '/war-img/cotton-gin.jpg', cap: `Enslaved people working an early cotton gin while white planters look on: the machine at the center of the boom, and the human labor it multiplied rather than spared.`, credit: `William L. Sheppard, “The First Cotton-Gin,” Harper’s Weekly, December 18, 1869 · public domain` },
 
       { h: 'The machine that backfired' },
       { fig: '/war-img/slavery-cotton-plantation-hands.jpg', cap: `The "hands" the boom demanded were people. Enslaved men, women, and children gathered around a cart at James Hopkinson's cotton plantation on Edisto Island, South Carolina, photographed in 1862, one of the earliest real photographs of plantation slavery in the Deep South, made only because Union troops had just taken this stretch of coast.`, credit: `Henry P. Moore · albumen print · 1862 · Library of Congress, Prints & Photographs Division · public domain` },
@@ -90,7 +90,7 @@ const NARR: Record<string, Narr> = {
     meanwhile: {
       region: 'the nation’s politics',
       title: 'The Road to War',
-      body: ‘Cotton built the wealth and the certainty; the country’s politics had to contain them, and couldn’t. Compromise after compromise tried to settle whether slavery would spread into the West, each one holding for a while and then breaking. That long unraveling ran from the halls of Congress to violence on the frontier.’,
+      body: `Cotton built the wealth and the certainty; the country’s politics had to contain them, and couldn’t. Compromise after compromise tried to settle whether slavery would spread into the West, each one holding for a while and then breaking. That long unraveling ran from the halls of Congress to violence on the frontier.`,
     },
   },
 }

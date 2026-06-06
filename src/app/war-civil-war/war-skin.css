@@ -108,7 +108,7 @@
 .war-skin .p-credit { font: 400 10px/1.4 var(--mono); letter-spacing: .02em; color: var(--muted); padding: 9px 18px; background: var(--paper); }
 
 /* ---- sticky sub-nav (two seg rows + filter) ---- */
-.war-skin .p-subnav { position: sticky; top: var(--hdr); z-index: 20; background: var(--paper); border-bottom: 1px solid var(--line-soft); padding-bottom: 12px; }
+.war-skin .p-subnav { position: sticky; top: var(--hdr); scroll-margin-top: var(--hdr); z-index: 20; background: var(--paper); border-bottom: 1px solid var(--line-soft); padding-bottom: 12px; }
 /* on pages with the sticky breadcrumb above it (the battle dossier), the tab bar
    sticks below that 50px bar; the home has no breadcrumb so it keeps top:var(--hdr) */
 .war-skin .p-subnav.below-crumb { top: calc(var(--hdr) + 50px); }
@@ -126,7 +126,8 @@
 
 .war-skin .p-bsearch { display: flex; align-items: center; gap: 8px; margin: 10px 14px 0; background: var(--chip); border: 1px solid var(--line-soft); border-radius: 11px; padding: 10px 12px; color: var(--muted); }
 .war-skin .p-bsearch svg { flex: 0 0 auto; }
-.war-skin .p-bsearch input { flex: 1; min-width: 0; border: 0; background: transparent; outline: none; color: var(--ink); font: 500 14px/1.1 var(--sans); }
+/* 16px min font-size keeps iOS Safari from auto-zooming when the field is focused. */
+.war-skin .p-bsearch input { flex: 1; min-width: 0; border: 0; background: transparent; outline: none; color: var(--ink); font: 500 16px/1.1 var(--sans); }
 .war-skin .p-bsearch input::placeholder { color: var(--muted); }
 .war-skin .p-bsearch .clr { flex: 0 0 auto; display: flex; align-items: center; justify-content: center; color: var(--muted); width: 22px; height: 22px; border-radius: 50%; background: var(--paper-3); }
 
