@@ -1,6 +1,6 @@
 # The War Within the North
 
-> EYEBROW: How a republic held a free election in the middle of a civil war — and survived it
+> EYEBROW: How a republic held a free election in the middle of a civil war, and survived it
 
 Here is something that almost never happens in human history, and the United States did it in November 1864, in the fourth bloody year of a war that had already killed hundreds of thousands of its own people: it held a regularly scheduled presidential election, on time, with a real opposition party, an anti-administration press, and an incumbent who fully expected to lose. Wars are usually the excuse to *cancel* elections: suspend the rules, declare an emergency, and let the man in charge stay in charge until the danger passes. The danger had rarely been greater than it was for Abraham Lincoln in 1864. And the election went ahead anyway.
 

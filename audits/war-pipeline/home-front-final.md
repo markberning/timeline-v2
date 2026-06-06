@@ -32,7 +32,7 @@ But look at how the law landed on an ordinary Confederate soldier, a man from th
 
 Here is the strangest part. The Twenty-Negro Law barely exempted anyone. The actual numbers were tiny, a few hundred men per state, set against an estimated 38,000 or so overseers across the whole Confederacy. The handful of men it let off the hook was almost beside the point. What it cost the Confederacy was not manpower but morale, the corrosive, war-long conviction among ordinary soldiers and their families that the system was rigged for the rich. The government kept tightening the screws on it, adding fees, a requirement that the exempted man had already been an overseer before the war, even mandatory sales of meat to the army at fixed prices, and none of it touched the underlying fury. The number of men exempted was small; the resentment was enormous, and it never went away.
 
-## The North's turn — and a price tag
+## The North's turn, and a price tag
 
 > EYEBROW: The $300 man
 

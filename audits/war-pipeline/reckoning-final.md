@@ -52,7 +52,7 @@ But the single largest economic blow to the South wasn't a burned city. It was e
 
 What's harder to convey is the dollar cost of the whole catastrophe, and the honest answer is that the numbers get slippery fast. The *direct* wartime spending of both sides (guns, food, wages, ships) ran to well over **$6.7 billion** in 1860s money, with the Union spending far more than the Confederacy. Some modern attempts to bundle in everything else and adjust for inflation run into the *trillions* of today's dollars, but those are rough advocacy-group estimates, so take them as a loose gesture at the scale rather than a real number. The firmer point is the long shadow: the eleven ex-Confederate states stayed poor for roughly a *century*, their land values depressed, their planters in debt, their economy reorganized not toward recovery but around sharecropping and tenant farming. The war didn't just defeat the South. It impoverished it for three generations, and the four million people it had just freed were turned loose into exactly that wreckage, with nothing of their own.
 
-## Four million free — and then what?
+## Four million free, and then what?
 
 > EYEBROW: What changed
 
