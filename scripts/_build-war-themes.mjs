@@ -285,7 +285,12 @@ const CONFIGS = [
 ]
 
 function parse(md) {
-  const cut = md.indexOf('\n## MEANWHILE HANDOFF')
+  // Prose stops at the MEANWHILE HANDOFF section; also hard-stop at the FACT
+  // LEDGER so a file that lacks a MEANWHILE HANDOFF never ships its internal
+  // editorial beat-map / [REV] / fact-gate notes as reader prose.
+  let cut = md.indexOf('\n## MEANWHILE HANDOFF')
+  const ledger = md.indexOf('\n## FACT LEDGER')
+  if (ledger >= 0 && (cut < 0 || ledger < cut)) cut = ledger
   const lines = (cut >= 0 ? md.slice(0, cut) : md).split('\n')
   const blocks = []
   let para = [], quote = []
