@@ -97,11 +97,15 @@ export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; b
   // CW, chronological phases for F&I) first, then sets the story spine + off-the-
   // battlefield below a divider so they don't read as extra "theatres".
   const laneOpt = (l: WarConfig['lanes'][number]): CrumbOption => { const h = firstHref(l.id); return { label: l.label, href: h, disabled: !h, color: l.color?.dot, tint: l.kind === 'theatre' } }
-  const battleLanes = cfg.lanes.filter(l => l.kind === 'theatre' || l.kind === 'phase')
+  // Geographic theatres (CW) head the dropdown; the story spine + off-the-battlefield
+  // follow under a divider. A phase-shaped war (F&I) has no battle-grouping lanes here
+  // — its phases are chapters reached through the Story rung — so its dropdown is just
+  // Story + Off the Field.
+  const battleLanes = cfg.lanes.filter(l => l.kind === 'theatre')
   const beyondLanes = cfg.lanes.filter(l => l.kind === 'story' || l.kind === 'offfield')
   const laneOptions: CrumbOption[] = [
     ...battleLanes.map(laneOpt),
-    ...(beyondLanes.length ? [{ label: 'Beyond the battles', heading: true } as CrumbOption] : []),
+    ...(battleLanes.length && beyondLanes.length ? [{ label: 'Beyond the battles', heading: true } as CrumbOption] : []),
     ...beyondLanes.map(laneOpt),
   ]
   const activeLane = laneOf(lane)
@@ -136,14 +140,16 @@ export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; b
   // muted ancestor crumb.
   const onWarHome = !lane && !battleId
 
-  // F&I case: a phase lane and its story chapter are the SAME node (lane.id === chapter.id),
-  // so the default three-rung trail would double the title. Collapse to a single active
-  // leaf that still jumps across phases. CW never hits this (its story lane 'howfought'
-  // ≠ its chapter ids), so the Civil War trail is unchanged.
+  // F&I case: a phase lane and its story chapter are the SAME node (lane.id === chapter.id).
+  // Render the full trail War › Story › Chapter by inserting the story-spine rung, rather
+  // than doubling the phase title. CW never hits this (its story lane 'howfought' ≠ its
+  // chapter ids), so the Civil War trail is unchanged.
   if (activeLane && activeChapter && activeLane.id === activeChapter.id) {
+    const storyLane = cfg.lanes.find(l => l.kind === 'story')
     return [
-      { label: cfg.crumbShort, short: cfg.crumbShort, href: cfg.routeBase, options: warOptions, currentLabel: cfg.crumbFull },
-      { label: activeLane.short ?? activeLane.label, currentLabel: activeChapter.name, options: laneOptions, active: true },
+      { label: cfg.crumbShort, short: cfg.crumbShort, color: warColor, href: cfg.routeBase, options: warOptions, currentLabel: cfg.crumbFull },
+      ...(storyLane ? [{ label: storyLane.short ?? storyLane.label, color: storyLane.color?.dot, href: storyLane.href, options: laneOptions } as Crumb] : []),
+      { label: activeLane.short ?? activeLane.label, currentLabel: activeChapter.name, options: chapterJump, active: true },
     ]
   }
 
