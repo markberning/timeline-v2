@@ -23,7 +23,7 @@ export function PhaseLanding({ phase }: { phase: string }) {
   const lane = phaseLanes[idx]
   if (!lane) return null
   const chapter = W.chapters.find(c => c.id === phase)
-  const accent = lane.color?.dark ?? W.accent
+  const accent = lane.skinVar ? `var(${lane.skinVar})` : (lane.color?.dark ?? W.accent)
   const narr: Narr | undefined = PHASE_NARR[phase]
 
   // Authored phase → the full gated chapter, rendered like a Civil War story chapter.
