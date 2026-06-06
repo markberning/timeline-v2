@@ -94,6 +94,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "His method was strange and formal. At the mouth of each major tributary of the Ohio, Céloron's men buried an inscribed lead plate in the ground, a slab of lead about 11 inches by 7.5 inches, and nailed the French royal arms to a tree nearby. The plates claimed the land for King Louis XV of France. The text on them announced \"the renewal of the possession we have taken of the said river Ohio and of all those which empty into it, and of all the lands on both sides as far as the sources.\" At least six of these markers went into the ground that summer, including one at the confluence with the Chadakoin on the 29th of July, one at the mouth of the Muskingum on the 15th of August, and one at the mouth of the Kanawha on the 18th of August."
       },
       {
+        "fig": "/war-img/fi-ohio-celoron-route.jpg",
+        "cap": "Céloron de Blainville's 1749 expedition: from Montreal through the Great Lakes, down the Allegheny and the Ohio, and home up the Maumee past Detroit. He buried inscribed lead plates at the tributary mouths, claiming the whole watershed for France.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "\"the renewal of the possession we have taken of the said river Ohio and of all those which empty into it, and of all the lands on both sides as far as the sources.\" — inscription on Céloron's lead plates, 1749",
         "q": true
       },
