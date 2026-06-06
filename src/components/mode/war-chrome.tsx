@@ -340,7 +340,7 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
               )
               return (
                 <a key={`o${oi}`} href={o.href} onClick={() => setOpen(false)} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, padding: '7px 10px', fontFamily: SANS, fontSize: 12, fontWeight: current ? 700 : 500, color: 'var(--foreground)', textDecoration: 'none', borderRadius: 7, background: current ? chip : 'transparent', ...barStyle }}>
-                  <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>{lead}<span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: o.tint ? o.color : undefined, textDecoration: 'underline', textUnderlineOffset: 2 }}>{o.label}</span></span>
+                  <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>{lead}<span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: o.tint ? o.color : undefined }}>{o.label}</span></span>
                   {current
                     ? <span style={{ flexShrink: 0, color: accent, fontWeight: 700 }}>✓</span>
                     : o.date

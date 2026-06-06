@@ -14,6 +14,9 @@ import { SearchOverlay } from '@/components/chronology/search-overlay'
 import { CHAPTERS, MAJORS, THEMES } from '@/lib/civil-war-roster'
 import { COMMANDERS } from '@/lib/civil-war-commanders'
 import { TheatresTab } from './theatres-tab'
+import { WarBreadcrumb } from '@/components/mode/war-chrome'
+import { warCrumbs } from '@/components/mode/theatre-page'
+import { CIVIL_WAR } from '@/lib/wars/civil-war'
 
 // ---- inline icons (replace prototype's PI set) ----
 const I = {
@@ -332,6 +335,8 @@ export default function WarHome() {
         <button className="p-iconbtn" onClick={() => setMenu(true)} aria-label="Menu">{I.menu}</button>
       </header>
 
+      <WarBreadcrumb crumbs={warCrumbs(CIVIL_WAR)} bare />
+
       {/* editorial masthead */}
       <div className="p-mast">
         <div className="p-eyebrow">War · 1861&ndash;1865</div>
@@ -345,7 +350,7 @@ export default function WarHome() {
       <div className="p-credit">Storming Fort Wagner · Kurz &amp; Allison · public domain</div>
 
       {/* sticky two-row tab bar (+ battle filter on the Battles tab) */}
-      <div className="p-subnav">
+      <div className="p-subnav below-crumb">
         {TAB_ROWS.map((row, ri) => (
           <div className="p-seg" key={ri}>
             {row.map(t => (

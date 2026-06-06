@@ -13,6 +13,8 @@ import '../war-civil-war/war-skin.css'
 import { useMemo, useState } from 'react'
 import { WarHeader, WAR_ICONS } from '@/components/mode/war-header'
 import { FRENCH_INDIAN as W } from '@/lib/wars/french-indian'
+import { WarBreadcrumb } from '@/components/mode/war-chrome'
+import { warCrumbs } from '@/components/mode/theatre-page'
 
 const STANDFIRST = 'Nine years in the North American woods decided who would rule the continent — Britain or France — and the contest turned, more than anything, on the Native nations whose land it was. The British victory ejected France, and its costs and broken promises lit the fuse to the Revolution.'
 
@@ -130,6 +132,8 @@ export default function FrenchIndianHome() {
     <div className="war-skin">
       <WarHeader backHref="/war" title={W.name} />
 
+      <WarBreadcrumb crumbs={warCrumbs(W)} accent={W.accent} bare />
+
       <div className="p-mast">
         <div className="p-eyebrow">War · 1754&ndash;1763</div>
         <h1 className="p-mast-title p-serif">The French &amp;<br />Indian War</h1>
@@ -141,7 +145,7 @@ export default function FrenchIndianHome() {
       </div>
       <div className="p-credit">The Death of General Wolfe · Benjamin West, 1770 · public domain</div>
 
-      <div className="p-subnav">
+      <div className="p-subnav below-crumb">
         <div className="p-seg">
           {TABS.map(t => (
             <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => setTab(t.k)}>{t.label}</button>
