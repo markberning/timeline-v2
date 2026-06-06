@@ -151,7 +151,7 @@ export const PHASE_NARR: Record<string, Narr> = {
         "eyebrow": "A frontier clash goes global"
       },
       {
-        "p": "What happened in 1754 is almost absurd in its scale. A twenty-two-year-old provincial officer, an unfinished fort, a fifteen-minute fight in a glen, and a mistranslated word touched off a war that France and Britain would fight not only in North America but in Europe, the Caribbean, West Africa, India, and the Philippines."
+        "p": "A twenty-two-year-old provincial officer, an unfinished fort, a fifteen-minute fight in a glen, and a mistranslated word touched off a war that France and Britain would fight not only in North America but in Europe, the Caribbean, West Africa, India, and the Philippines."
       },
       {
         "p": "The widening can be traced step by step. In 1755 Britain sent regulars across the Atlantic under Major General Edward Braddock, who marched on Fort Duquesne and was destroyed near it that July. Through the second half of 1755 the British navy began seizing French ships without any declaration of war, an undeclared naval war on top of the land fighting. Then the alliances of Europe flipped. In a realignment historians call the Diplomatic Revolution, Britain bound itself to Prussia (the Convention of Westminster, January 1756) and France bound itself to Austria (the First Treaty of Versailles, May 1756), reversing the partnerships of the previous war. Britain formally declared war on France on May 17, 1756, and France declared war that June. The fighting spread into Europe, India, the Caribbean, and West Africa. The frontier clash had become the Seven Years' War, a genuinely global conflict, the first of its kind."
