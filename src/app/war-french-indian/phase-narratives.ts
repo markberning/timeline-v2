@@ -614,6 +614,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "Quebec was the capital, the prize, and a problem. The city sat on a height above the St. Lawrence, behind walls, with the river itself as its moat, and Montcalm, the commanding general of French regular forces, held the surrounding country with somewhere between 12,000 and 13,000 men. Wolfe himself reportedly called it the strongest country in the world. Wolfe had about 8,500 troops, fewer than the 12,000 originally planned after a measles outbreak thinned the ranks, and he had something the defenders could not match: the Royal Navy."
       },
       {
+        "fig": "/war-img/fi-siege-of-quebec-map.jpg",
+        "cap": "The siege of Quebec, 1759. The city stood on a cliff above the St. Lawrence; the British camped on Île d'Orléans and shelled the town for two months from batteries at Pointe-Lévis across the river. On the night of 12–13 September they slipped downriver, scaled the cliff at L'Anse-au-Foulon, and formed on the Plains of Abraham west of the walls.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "The fleet was the whole campaign. Admiral Charles Saunders had brought it up the treacherous St. Lawrence, water the French believed too dangerous for a hostile fleet to navigate, and without that fleet Wolfe could not have been there at all. The British established a base on the Île d'Orléans, an island in the river just below the city, in late June 1759, and then they settled in to a siege that would last all summer."
       },
       {
