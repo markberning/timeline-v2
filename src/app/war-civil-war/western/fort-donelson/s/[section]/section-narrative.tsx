@@ -5,7 +5,7 @@
 // critic → revise. Data only; rendered by the shared <BattleSectionReader>.
 //
 // VOICE PASS 2026-06-01 (dossier-retrofit): brought to the locked house-voice
-// rules — no em-dashes; marquee names (Grant, Winfield Scott, Jefferson Davis)
+// rules — no em-dashes; marquee names (Grant, Jefferson Davis)
 // carry no side-tag while every other side-affiliated person is tagged once on
 // first mention per section; full rank spelled out on first appearance per
 // section; meta-narrator / editorial asides and fabricated pull-quotes removed

@@ -5,7 +5,7 @@
 // critic → revise. Data only; rendered by the shared <BattleSectionReader>.
 //
 // House-voice rules (locked 2026-06-01): no reader-facing em-dashes; marquee names
-// (Sherman, Lee, Grant) carry no side-tag while every other side-affiliated person
+// (Lee, Grant) carry no side-tag while every other side-affiliated person
 // is tagged once on first mention per section; full rank spelled out on first
 // appearance per section; the cause (slavery) named once, plainly; cross-refs are
 // pills to allowlisted routes. Facts web-verified against the American Battlefield
@@ -22,7 +22,7 @@ const BENTONVILLE_NARR: Record<string, Narr> = {
     blocks: [
       { locator: {
         eyebrow: 'Where and when · March 1865',
-        caption: 'Bentonville sits in the flat pine country of central North Carolina, on the Goldsboro Road near Mill Creek. William T. Sherman was driving northeast out of South Carolina toward Goldsboro, where two more Union armies waited to join him. Joseph E. Johnston (South) gathered the scraps of the Confederacy in the West and threw them at one wing of Sherman’s column here, a long day’s march short of the junction.',
+        caption: 'Bentonville sits in the flat pine country of central North Carolina, on the Goldsboro Road near Mill Creek. William T. Sherman (North) was driving northeast out of South Carolina toward Goldsboro, where two more Union armies waited to join him. Joseph E. Johnston (South) gathered the scraps of the Confederacy in the West and threw them at one wing of Sherman’s column here, a long day’s march short of the junction.',
         frame: { lonMin: -79.6, lonMax: -77.0, latMin: 34.8, latMax: 36.4 },
         states: [
           { name: 'North Carolina', tone: 'focus', label: 'NORTH CAROLINA', labelLon: -77.3, labelLat: 36.2 },
