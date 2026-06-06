@@ -313,6 +313,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "In August 1757 Montcalm came south for the fort Johnson had built after Lake George. Fort William Henry stood at the southern tip of Lake George in the Province of New York, the northern anchor of the corridor down to Albany; the French held Fort Carillon (later Ticonderoga) about 15 miles to the north. Montcalm assembled the largest force yet seen in North American warfare to take it: 6,200 regulars and militia and about 1,800 Native warriors drawn from roughly 33 nations, a coalition reaching from the Great Lakes and the St. Lawrence, the Odawa, Abenaki, Potawatomi, Nipissing, Ojibwa, Menominee, Caughnawaga, and many more, some of whom had traveled hundreds of miles to be there."
       },
       {
+        "fig": "/war-img/fi-montcalm.jpg",
+        "cap": "Louis-Joseph, Marquis de Montcalm, the French commander who took Oswego in 1756 and Fort William Henry in 1757 and held New France's defense until his death at Quebec. Traditional likeness; no certain portrait of him from life survives.",
+        "credit": "Library of Congress / public domain"
+      },
+      {
         "p": "The largest part of that coalition came up from the pays d'en haut, the upper country of the Great Lakes, and they came for their own reasons, not Montcalm's. They served without pay, asking only for rations, ammunition, and what gifts the French could give, because what they had come north to win was the substance of war as their own cultures counted it: honors that proved a warrior's standing, plunder, and captives to adopt as replacements for their own dead, to ransom, or to hold for ritual. France's victory at Oswego the year before had circulated through their villages as a story of a generous and winning ally, and that story is what drew them. They came inside the French alliance, an alliance of trade and gifts that supplied them, but they came as men with their own purposes, and those purposes would matter enormously when the fort fell."
       },
       {
