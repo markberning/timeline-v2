@@ -825,6 +825,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "The ships of the first wave, in 1755, were aimed at the British colonies down the Atlantic seaboard: roughly 2,000 Acadians to Massachusetts, 1,100 to Virginia, 1,000 to Maryland, and hundreds each to Connecticut, Pennsylvania, the Carolinas, Georgia, and New York. The idea, in Lawrence's words, was to disperse the Acadians \"among his Majesty's Colonies upon the Continent of America,\" scattered so widely and thinly that they could never reassemble into a people."
       },
       {
+        "fig": "/war-img/fi-acadian-diaspora-map.jpg",
+        "cap": "The scattering of the Acadians, 1755–1764: deported from Grand-Pré and the Bay of Fundy down the Atlantic coast into the Thirteen Colonies, shipped across the sea to France, and at last, by way of the Gulf, to Louisiana, where the exiles became the Cajuns.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "The colonies they were dumped into mostly did not want them. These were poor, French-speaking, Catholic refugees arriving by the boatload in Protestant English colonies that had been at war with France for as long as anyone could remember. Virginia refused to take its shipload and sent the exiles on to England. Elsewhere they were held in poverty, treated as a burden, kept at arm's length. People who had owned good farms a few months earlier were now beggars in a strange country whose language they did not speak."
       },
       {
