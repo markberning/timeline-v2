@@ -41,6 +41,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "France moved first, and moved with soldiers. Through 1753 it planted a chain of forts running south from Lake Erie toward the Forks of the Ohio, turning a paper claim into a physical fact. Dinwiddie answered with a letter, carried by a very young man: in late 1753 he sent twenty-one-year-old Major George Washington on a thousand-mile winter round trip to demand the French withdraw. The fort commander, Jacques Legardeur de Saint-Pierre, heard him out courteously and refused flatly, saying France's claim was beyond dispute and that he did not consider himself obliged to leave. Washington nearly drowned in the ice-choked Allegheny coming home, then handed Dinwiddie a journal of the trip. Dinwiddie published it, broadcasting the French threat and making the unknown major a name on two continents. The errand had failed. The next move would not be a letter."
       },
       {
+        "fig": "/war-img/fi-washington-mission-map.jpg",
+        "cap": "Washington's 1753 mission: a thousand-mile winter round trip from Williamsburg, out past Wills Creek to the Forks of the Ohio and Logstown, then up past Venango to Fort Le Boeuf, where the French commander heard the twenty-one-year-old's ultimatum and refused it.",
+        "credit": "Stuff Happened"
+      },
+      {
         "h": "The Forks Are Lost",
         "eyebrow": "A fort taken before it was finished"
       },
