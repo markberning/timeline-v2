@@ -141,7 +141,7 @@ export function BattleSectionReader({
 
   return (
     <div className="war-skin" style={{ ['--accent' as string]: accentVar } as React.CSSProperties}>
-      <WarHeader backHref={headerBack} />
+      <WarHeader backHref={headerBack} title={war.name} />
 
       {/* where-am-I trail — the dual-action breadcrumb (each crumb links, and
           tapping opens the theatre/battle/chapter jump dropdown) */}

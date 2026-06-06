@@ -22,7 +22,7 @@ export const WAR_ICONS = {
 
 const MENU = [
   { k: 'civ', n: 'Civ', s: 'Civilizations', href: '/' },
-  { k: 'war', n: 'War', s: 'American Civil War', href: '/war' },
+  { k: 'war', n: 'War', s: 'Battles & causes', href: '/war' },
   { k: 'art', n: 'Art', s: 'Movements & works', href: '/art' },
   { k: 'music', n: 'Music', s: 'Eras & composers', href: '/music' },
 ]
