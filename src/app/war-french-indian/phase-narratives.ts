@@ -361,6 +361,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "The man who turned it around never fired a shot in this war and never crossed the ocean. William Pitt the Elder was a politician, brilliant, arrogant, and convinced of his own indispensability, and in June 1757 he formed a government that handed him what he wanted. The arrangement was odd. The Duke of Newcastle, Thomas Pelham-Holles, was the nominal head, managing the House of Lords, the Treasury, and the vast machinery of political patronage. Pitt took the title of Secretary of State for the Southern Department (the British minister responsible, among other things, for the American colonies), which on paper made him a senior minister but not the head of government. In practice it made him the war minister of the British Empire in all but name. Newcastle ran the politics; Pitt ran the war. Of his own fitness for it Pitt had no doubt at all."
       },
       {
+        "fig": "/war-img/fi-william-pitt.jpg",
+        "cap": "William Pitt the Elder, the Secretary of State who took the war in hand in 1757 and ran it from London, pouring British men and money into North America.",
+        "credit": "After Richard Brompton, 1772 / public domain"
+      },
+      {
         "p": "My Lord, I am sure I can save this country, and no one else can. — William Pitt, on forming the coalition",
         "q": true
       },
@@ -644,6 +649,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "By September, Wolfe was running out of summer and patience. He had spent months failing to draw Montcalm out from behind his defenses, and the river would freeze him out before long. So he gambled on a place the French thought no army could use: a cove called L'Anse-au-Foulon, about 1.9 miles (3 km) upstream from the city, at the foot of a cliff 174 feet (53 m) high. The French believed the height itself was a wall. They were wrong."
       },
       {
+        "fig": "/war-img/fi-james-wolfe.jpg",
+        "cap": "Major General James Wolfe, who led the Quebec expedition and was killed in the moment of victory on the Plains of Abraham. Portrait after J. S. C. Schaak.",
+        "credit": "After J. S. C. Schaak / public domain"
+      },
+      {
         "pill": "/war-french-indian/conquest/quebec",
         "plabel": "Quebec"
       },
@@ -694,6 +704,11 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "p": "For the final act, Amherst went back to Pitt's original idea and aimed three armies at a single point. Montreal was the last French stronghold, and in the summer of 1760 some 18,000 British troops closed in on it from three directions, so that Lévis, with a melting army, could not possibly defend against all of them."
+      },
+      {
+        "fig": "/war-img/fi-montreal-converge-map.jpg",
+        "cap": "The end, 1760: Amherst revived Pitt's three-pronged idea and aimed three armies at Montreal at once, his own down the St. Lawrence from Lake Ontario, Murray's up from Quebec, and Haviland's north from Lake Champlain. Trapped, New France surrendered on 8 September.",
+        "credit": "Stuff Happened"
       },
       {
         "pill": "/war-french-indian/conquest/montreal",
