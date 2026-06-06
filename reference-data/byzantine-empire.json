@@ -66,459 +66,770 @@
       "id": "evt-constantinople-founded",
       "label": "Constantinople Founded",
       "year": 330,
-      "description": "Emperor Constantine I dedicated his new capital on the site of ancient Byzantium, making it the center of the eastern Roman world.",
+      "description": "On May 11, 330, Constantine formally dedicated his new capital on the strategic peninsula where the ancient Greek colony of Byzantion had stood — renaming it Constantinople and transplanting every major Roman institution from the Senate to free grain distribution.",
       "wikiSlug": "Constantinople",
       "tier": 1,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The official name at dedication was Nova Roma ('New Rome'), and Constantine engineered seven hills on the peninsula to match Rome's legendary seven hills. The city served as the capital of four successive empires — Roman, Byzantine, Latin (briefly, 1204–1261), and Ottoman — for nearly 1,600 continuous years until the Ottoman sultanate was abolished in 1922. Constantine stripped pagan art treasures from Athens, Delphi, and Ephesus to decorate its forums and Hippodrome."
+        }
+      ],
+      "commonsFile": "Byzantine_Constantinople-en.png"
     },
     {
       "id": "evt-theodosius-i",
       "label": "Theodosius I",
       "year": 379,
       "endYear": 395,
-      "description": "Last emperor to rule both eastern and western halves of the Roman Empire. Made Christianity the official state religion.",
+      "description": "Emperor from 379 to 395, Theodosius I was the last man to rule both halves of the Roman Empire, ended the Arian controversy with the Edict of Thessalonica, and on his death split the empire between his two sons — the division that made the Byzantine story possible.",
       "wikiSlug": "Theodosius_I",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "religion"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodosius ended the Gothic War (376–382) on terms that were strategically risky: the Goths remained politically autonomous within Roman territory as nominal allies, a settlement that stored up trouble for the western half. His two sons were poor choices for co-emperors — Arcadius in the East was dominated by court factions, Honorius in the West was dominated by his general Stilicho. The western court relocated from Milan to Ravenna in 402, choosing a swamp-protected city over the traditional capital as barbarian pressure mounted."
+        }
+      ],
+      "commonsFile": "Disc_of_Theodosius.png"
     },
     {
       "id": "evt-edict-thessalonica",
       "label": "Edict of Thessalonica",
       "year": 380,
-      "description": "Declared Nicene Christianity the official state religion of the Roman Empire, shaping Byzantine identity for a millennium.",
+      "description": "Issued on February 27, 380 by Emperor Theodosius I, this decree made Nicene Christianity the official state religion of the Roman Empire — ending three centuries of toleration for other faiths and setting the course of European religious identity.",
       "wikiSlug": "Edict_of_Thessalonica",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The edict explicitly condemned other Christian interpretations, including Arianism, as heresies of 'foolish madmen' and authorized their punishment. Within eleven years of the edict, Theodosius banned pagan animal sacrifice entirely (391) and abolished the Olympic Games, which had run every four years since 776 BCE. A thousand-year religious civilization — the entire ritual and intellectual world of classical antiquity — was officially dissolved in a single generation."
+        }
+      ]
     },
     {
       "id": "evt-division-empire",
       "label": "Division of the Empire",
       "year": 395,
-      "description": "Upon the death of Theodosius I, the Roman Empire was permanently divided into eastern and western halves.",
+      "description": "When Theodosius I died in 395, the Roman Empire was split between his sons Arcadius (East, capital Constantinople) and Honorius (West, capital Milan then Ravenna) — a division that was intended as temporary administration but became permanent, setting the Byzantine story on its own track.",
       "wikiSlug": "East–West_Schism",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Legally, the empire remained a single state after 395 — there was one body of Roman law, one Senate tradition, and eastern emperors continued to claim authority over the West even after 476. In practice, the two courts grew apart in language (Latin retreating in the East, Greek becoming the working tongue of administration), religion (the Arian controversy played out very differently in each half), and culture. No single person would ever rule both halves again after Theodosius."
+        }
+      ]
     },
     {
       "id": "evt-theodosian-walls",
       "label": "Theodosian Walls Built",
       "year": 413,
-      "description": "Triple line of fortifications built under Theodosius II that protected Constantinople for over a thousand years.",
+      "description": "Built in 408–413 under Emperor Theodosius II, these were not one wall but a layered system — a moat, an outer wall, a terrace, and a massive inner wall with 96 towers — stretching four miles (6.5 km) across the only land approach to Constantinople.",
       "wikiSlug": "Walls_of_Constantinople",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inner wall stood roughly 40 feet (12 meters) tall and 16 feet (5 meters) thick, with towers positioned so that any attacker approaching one was within bowshot of two others. The walls were not breached by a foreign army for over a thousand years, surviving sieges by Avars, Arabs, Bulgars, and Rus'. They finally fell in 1453 only because the Ottoman sultan Mehmed II brought enormous bronze cannons cast by a Hungarian engineer — the first time gunpowder artillery had been turned on Constantinople."
+        }
+      ],
+      "commonsFile": "Theodosian_Walls_of_Constantinople.jpg"
     },
     {
       "id": "evt-council-chalcedon",
       "label": "Council of Chalcedon",
       "year": 451,
-      "description": "Fourth ecumenical council defined orthodox Christology, leading to lasting schisms with Coptic and Syriac churches.",
+      "description": "The fourth empire-wide church council (451), convened at Chalcedon across the Bosporus from Constantinople, settled how Christ could be simultaneously divine and human — and in doing so permanently split Christianity, creating the Coptic, Syriac, Armenian, and Ethiopian Orthodox churches that survive today.",
       "wikiSlug": "Council_of_Chalcedon",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Over 520 bishops attended, making Chalcedon the largest and best-documented of the first seven ecumenical councils. The churches that rejected its ruling — the Monophysites of Egypt and Syria — never reconciled, and their alienation from Constantinople had direct military consequences: when Arab armies invaded Egypt and Syria in the 630s–640s, local populations who had been persecuted for two centuries over this dispute largely welcomed the newcomers. The Chalcedonian Definition — Christ in two natures 'without confusion, without change, without division, without separation' — remains official doctrine for Catholic, Orthodox, and most Protestant churches today."
+        }
+      ],
+      "commonsFile": "Fourth_ecumenical_council_of_chalcedon_-_1876.jpg"
     },
     {
       "id": "evt-fall-western-rome",
       "label": "Fall of Western Rome",
       "year": 476,
-      "description": "Deposition of Romulus Augustulus ended the Western Roman Empire, leaving Byzantium as sole heir to Rome.",
+      "description": "In 476, the Germanic general Odoacer deposed the last western emperor, the teenage Romulus Augustulus, and sent the imperial regalia east to Constantinople — ending the western half of the Roman Empire while the eastern half watched and carried on.",
       "wikiSlug": "Fall_of_the_Western_Roman_Empire",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "To the Byzantines, 476 was not experienced as a catastrophe but as an administrative consolidation: the empire was once again technically unified under one emperor in Constantinople, with Odoacer ruling Italy as a king nominally under eastern authority. The psychological shock of that year was the 410 Visigoth sack of Rome — an event that rattled western Christian civilization but left Constantinople completely unaffected. The western provinces' vulnerability traced directly to geography and revenue: longer frontiers, smaller tax base, less defensible capital."
+        }
+      ],
+      "commonsFile": "Consular_diptych_Probus_406.jpg"
     },
     {
       "id": "evt-justinian-i",
       "label": "Justinian I",
       "year": 527,
       "endYear": 565,
-      "description": "One of Byzantium's greatest emperors, he reconquered much of the western Mediterranean and oversaw a golden age of law, architecture, and art.",
+      "description": "Justinian I was the Byzantine emperor (527–565) who reconquered North Africa, Italy, and southern Spain, codified Roman law, built Hagia Sophia, and drove the empire to the edge of bankruptcy doing it — the last ruler who came close to reuniting the old Roman world.",
       "wikiSlug": "Justinian_I",
       "tier": 1,
       "category": "rulers",
       "tags": [
         "people",
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Born Petrus Sabbatius in a Macedonian village around 482, he was brought to Constantinople as a teenager and educated at his uncle Justin's expense. He was reportedly a workaholic who slept only a few hours a night — Procopius called him 'the sleepless emperor.' Despite his enormous building program and military campaigns, he found time to personally participate in theological debates, drafting texts and chairing councils in ways most emperors delegated entirely to clergy."
+        }
+      ],
+      "commonsFile": "Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg"
     },
     {
       "id": "evt-corpus-juris-civilis",
       "label": "Corpus Juris Civilis",
       "year": 529,
-      "description": "Justinian's codification of Roman law became the foundation of legal systems across Europe for centuries.",
+      "description": "The Corpus Juris Civilis — the massive codification of Roman law ordered by Emperor Justinian and completed between 529 and 534 — became the foundation of civil law across Europe and much of the world, rediscovered at Bologna around 1070 and taught at every European university through the Middle Ages.",
       "wikiSlug": "Corpus_Juris_Civilis",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Corpus has three main parts: the Codex (imperial edicts), the Digest (excerpts from the great classical jurists), and the Institutes (a student textbook). The Digest alone condensed roughly three million lines of earlier legal writing into 150,000 lines — an editorial compression of about 95%. The legal systems of France, Germany, Spain, Italy, the Netherlands, Quebec, Louisiana, and most of Latin America all descend from this project. It is one of the most consequential administrative acts in human history, and it was produced in Constantinople."
+        }
+      ],
+      "commonsFile": "Corpus_Iuris_Civilis_-_Dionísio_Godofredo_-_1583.jpg"
     },
     {
       "id": "evt-nika-riots",
       "label": "Nika Riots",
       "year": 532,
-      "description": "Massive urban revolt in Constantinople nearly toppled Justinian. Empress Theodora's resolve helped suppress the uprising.",
+      "description": "In January 532, the Blues and Greens — Constantinople's rival chariot-racing factions, which doubled as political militias — briefly united against Justinian, torching half the city and nearly forcing him off the throne in the most violent urban uprising in Byzantine history.",
       "wikiSlug": "Nika_riots",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word 'Nika' means 'conquer' in Greek — the chant the rioters used as a battle cry. Nearly half of Constantinople was destroyed in the week-long violence, including the original Hagia Sophia and the Senate House. The senators actually acclaimed a rival emperor (Hypatius, a nephew of the late Anastasius) in the Hippodrome before Belisarius's troops sealed the exits and carried out a massacre that Procopius put at 30,000 dead."
+        }
+      ],
+      "commonsFile": "Turkey-03228_-_Hippodrome_of_Constantinople_(11312626353).jpg"
     },
     {
       "id": "evt-hagia-sophia",
       "label": "Hagia Sophia Completed",
       "year": 537,
-      "description": "Justinian's great cathedral, with its revolutionary pendentive dome, was the world's largest interior space for nearly a thousand years.",
+      "description": "Hagia Sophia (dedicated 537) was Justinian's replacement for the church burned in the Nika riots — a mathematical feat designed by two geometers, not builders, whose pendentive dome (a triangular curved surface that transitions a round dome onto a square base) became the template for Byzantine, Ottoman, and Russian church architecture for the next fifteen centuries.",
       "wikiSlug": "Hagia_Sophia",
       "tier": 1,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dome spans 102 feet (31 meters) and rises 180 feet (55 meters) above the floor — the world's largest enclosed interior for nearly a thousand years, until Seville Cathedral was completed in the early 1500s. The original dome partially collapsed in a 558 earthquake and was rebuilt higher and steeper by Isidore the Younger, the original architect's nephew. When the Ottomans took Constantinople in 1453, they kept the building intact and converted it to a mosque; it has been continuously roofed and in use for about 1,500 years."
+        }
+      ],
+      "commonsFile": "Hagia_Sophia_(228968325).jpeg"
     },
     {
       "id": "evt-theodora",
       "label": "Empress Theodora",
       "year": 527,
       "endYear": 548,
-      "description": "Co-ruler with Justinian, she championed women's rights and religious tolerance. One of the most powerful women in Byzantine history.",
+      "description": "Theodora was Justinian's wife and co-ruler — crowned empress in her own right in 527 — who wielded independent political authority, protected religious minorities, and pushed through legislation expanding women's rights in ways no previous Roman empress had attempted.",
       "wikiSlug": "Theodora_(wife_of_Justinian_I)",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodora is venerated as a saint in both the Eastern Orthodox and Oriental Orthodox churches, commemorated on November 14 — remarkable for someone Procopius's Secret History painted as a former actress and circus performer. She ran her own diplomatic correspondence and maintained her own court, independently hosting embassies from foreign powers. She died of cancer in 548, and Justinian appears never to have fully recovered politically from losing her counsel."
+        }
+      ],
+      "commonsFile": "Theodora_mosaic_-_Basilica_San_Vitale_(Ravenna)_v2.jpg"
     },
     {
       "id": "evt-belisarius-reconquest",
       "label": "Belisarius Reconquers Italy",
       "year": 535,
       "endYear": 540,
-      "description": "General Belisarius recaptured North Africa and much of Italy from the Ostrogoths in Justinian's ambitious western campaigns.",
+      "description": "Belisarius (c. 500–565) was the Byzantine general who carried Justinian's reconquest of the West — landing in Sicily in 535, taking Naples and Rome within a year, and capturing the Ostrogothic capital Ravenna in 540 — before being repeatedly pulled back east by an emperor who feared his popularity.",
       "wikiSlug": "Belisarius",
       "tier": 2,
       "category": "wars",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Belisarius held Rome against a year-long Gothic siege in 537–538 with a force far smaller than the besieging army, using the Aurelian Walls and careful supply management to outlast the Goths. Despite his extraordinary record, Justinian repeatedly deprived him of troops and resources, apparently worried he might become a rival for the throne — a suspicion that appears never to have been warranted. Late in life he was briefly arrested on charges of corruption (548) and then rehabilitated, dying in 565 a few months before Justinian himself."
+        }
+      ],
+      "commonsFile": "Belisarius_mosaic.jpg"
     },
     {
       "id": "evt-plague-justinian",
       "label": "Plague of Justinian",
       "year": 541,
-      "description": "First major bubonic plague pandemic devastated Constantinople and the empire, killing up to a quarter of the eastern Mediterranean's population.",
+      "description": "The Plague of Justinian (541 onward) was the first recorded pandemic of bubonic plague — caused by the same bacterium as the later Black Death — which killed an estimated 25–40% of Constantinople's population in its first wave and returned in successive outbreaks for two centuries.",
       "wikiSlug": "Plague_of_Justinian",
       "tier": 2,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The disease traveled from Egypt to Constantinople along the grain supply route and from there to every Mediterranean port — a geographic path that followed imperial logistics exactly. Procopius, who lived through the 541 outbreak in Constantinople, wrote a clinical description that modern medical historians recognize as accurate: bubonic swellings, sudden fever, hallucinations, death within days. Justinian himself contracted plague in 542 and recovered; the empire as an institution did not, as collapsed tax revenues, depleted armies, and shrunken cities permanently weakened Byzantine capacity to hold its reconquered territories."
+        }
+      ],
+      "commonsFile": "Plaguet03.jpg"
     },
     {
       "id": "evt-silk-smuggling",
       "label": "Silk Production Begins",
       "year": 552,
-      "description": "Byzantine monks smuggled silkworm eggs from China, breaking the Silk Road monopoly and establishing a lucrative domestic silk industry.",
+      "description": "Around 552 AD, two monks smuggled living silkworm eggs out of Central Asia — probably hidden in hollow walking staves — and delivered them to Emperor Justinian I, ending the Silk Road middlemen's monopoly and launching a Byzantine domestic silk industry that would supply the empire's most lucrative export for centuries.",
       "wikiSlug": "Smuggling_of_silkworm_eggs_into_the_Byzantine_Empire",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before the smuggling operation, Byzantium had to buy finished silk from Sassanid Persian merchants at prices the Persians could set unilaterally — a strategic vulnerability Justinian found intolerable. The monks' operation broke not just the Persian monopoly but China's multi-century grip on silk production technology. By the tenth century, Byzantine state workshops in Constantinople and Greek cities like Thebes and Corinth produced silk so prized that certain grades dyed in imperial purple were legally reserved for the emperor alone, with export punishable by death."
+        }
+      ],
+      "commonsFile": "Silk_route.jpg"
     },
     {
       "id": "evt-heraclius",
       "label": "Heraclius",
       "year": 610,
       "endYear": 641,
-      "description": "Overthrew the tyrant Phocas and defeated the Sassanid Persians, but lost the Levant and Egypt to the Arab conquests.",
+      "description": "The son of the Exarch of Carthage who sailed east with the African fleet in 610, overthrew the murderous tyrant Phocas, and then spent thirty years fighting the most dramatic comeback in Byzantine history — winning back everything, then losing it all again to the Arab conquests before he died.",
       "wikiSlug": "Heraclius",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Heraclius personally led cavalry charges at the Battle of Nineveh in 627, killing three Persian commanders in single combat according to Byzantine sources. His later reign unraveled badly: he became erratic and reclusive, married his own niece Martina (scandalizing the church), and died in 641 watching Arab armies take the provinces he had spent decades recovering."
+        }
+      ],
+      "commonsFile": "Heraclius_solidus.jpg"
     },
     {
       "id": "evt-greek-official-language",
       "label": "Greek Becomes Official Language",
       "year": 620,
-      "description": "Heraclius replaced Latin with Greek as the empire's official administrative language, reflecting the eastern character of Byzantium.",
+      "description": "Around 620, Heraclius formalized what had been true on the ground for centuries: the empire was a Greek-speaking state. Latin was dropped as the language of imperial documents, the emperor's title shifted from the Latin *Imperator* to the Greek *Basileus*, and the bureaucracy finally caught up with reality.",
       "wikiSlug": "Medieval_Greek",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word *Basileus* had previously been reserved for foreign monarchs — using it for the Roman emperor was itself a statement that this was no longer the old Rome. By the eighth century, Latin in Constantinople had become a specialist skill, like reading classical Greek in a modern university, and theological disputes between East and West were increasingly conducted by people who literally could not read each other's documents in the original."
+        }
+      ],
+      "commonsFile": "Anthologia_Graeca_Planudes_BM_Add_16409_p_1.jpg"
     },
     {
       "id": "evt-arab-siege-674",
       "label": "First Arab Siege of Constantinople",
       "year": 674,
       "endYear": 678,
-      "description": "Umayyad fleet blockaded Constantinople for four years but was repelled with the help of Greek fire.",
+      "description": "From 674 to 678, the Umayyad Caliphate — the Arab empire that had just absorbed Syria, Egypt, and Persia — ran a four-year naval blockade of Constantinople, repeatedly trying to force the Bosporus strait and take the city by sea.",
       "wikiSlug": "Siege_of_Constantinople_(674%E2%80%93678)",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The siege ended the Umayyad dream of a quick maritime knockout blow: after the Arab fleet was wrecked by Greek fire, the Caliphate agreed to a 30-year peace treaty and even paid an annual tribute to Byzantium. It was the first large-scale test of Greek fire in combat, and the Byzantine navy's decisive edge here effectively established the formula that Constantinople was impregnable so long as it controlled the strait."
+        }
+      ],
+      "commonsFile": "Arab-Byzantine_Wars_during_Muawiya's_governorship_and_caliphate.png"
     },
     {
       "id": "evt-greek-fire",
       "label": "Greek Fire Invented",
       "year": 672,
-      "description": "Kallinikos of Heliopolis developed Greek fire, an incendiary naval weapon that became Byzantium's most feared military secret.",
+      "description": "Greek fire was a Byzantine naval incendiary — a liquid that ignited on contact with water and could not be put out — invented around 672 by a Syrian Greek refugee named Kallinikos and kept as a closely guarded state secret for centuries.",
       "wikiSlug": "Greek_fire",
       "tier": 2,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The formula was so secret it was held by a single family and manufactured in one workshop inside the imperial palace; the exact composition died with the empire and has never been conclusively recovered. Unlike ordinary fire, it burned on the surface of the sea, meaning an enemy sailor who jumped overboard to escape flames on his ship was no safer in the water. Byzantine sailors could deploy it as grenades or spray it through pressurized bronze tubes mounted on warships."
+        }
+      ],
+      "commonsFile": "Greekfire-madridskylitzes1.jpg"
     },
     {
       "id": "evt-arab-siege-717",
       "label": "Second Arab Siege of Constantinople",
       "year": 717,
       "endYear": 718,
-      "description": "Leo III repelled a massive Umayyad siege, decisively ending Arab ambitions to conquer Constantinople.",
+      "description": "In 717-718 the Umayyad caliph Sulayman sent his brother Maslama with roughly 80,000 troops and 1,800 ships for a final, all-or-nothing assault on Constantinople — the largest military operation ever mounted against the city.",
       "wikiSlug": "Siege_of_Constantinople_(717%E2%80%93718)",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Of the 1,800 ships that set out, only five returned home. The Arab army camped through an unusually severe winter on the Thracian plain, freezing and starving; a Bulgarian force bribed by Emperor Leo III attacked their rear; and their supply fleet — partly crewed by Egyptian Christian conscripts who defected on contact — was destroyed by Greek fire in successive engagements. The failure broke Umayyad prestige so badly that it contributed directly to the dynasty's collapse in the Abbasid revolution of 750."
+        }
+      ],
+      "commonsFile": "Cantiga_28_Panel_1_-_The_8th_Century_Siege_of_Costantinople.JPG"
     },
     {
       "id": "evt-iconoclasm-begins",
       "label": "Iconoclasm Begins",
       "year": 726,
-      "description": "Emperor Leo III banned the veneration of religious images, sparking a century-long theological and political crisis.",
+      "description": "In 726, Emperor Leo III ordered the removal of religious images (icons) from Christian churches and homes, kicking off a 117-year theological civil war — the Byzantine Iconoclasm — over whether painted depictions of Christ and saints were legitimate aids to worship or forbidden idol-worship.",
       "wikiSlug": "Byzantine_Iconoclasm",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Leo framed the ban as a response to military disaster: he believed the empire's recent losses were divine punishment for worshipping images in violation of the Old Testament's prohibition on graven images, and pointed to Islam's austere image-free culture as a model. The controversy immediately widened into a power struggle between the emperor and the papacy: Pope Gregory III convened a synod condemning iconoclasm in 731, and Leo retaliated by confiscating papal estates in southern Italy and transferring ecclesiastical jurisdiction there to the Patriarch of Constantinople."
+        }
+      ],
+      "commonsFile": "48-manasses-chronicle.jpg"
     },
     {
       "id": "evt-irene-empress",
       "label": "Empress Irene",
       "year": 797,
       "endYear": 802,
-      "description": "First woman to rule Byzantium in her own right, she restored icon veneration at the Second Council of Nicaea in 787.",
+      "description": "Irene of Athens (c. 752-803) was the first woman to rule the Byzantine Empire as sole monarch — she signed imperial documents using the male title Basileus — after engineering the arrest and blinding of her own son Constantine VI in 797.",
       "wikiSlug": "Irene_of_Athens",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Western papacy used the supposed \"vacancy\" of the imperial throne (since no woman could be emperor, in their view) as one justification for crowning Charlemagne emperor on Christmas Day 800 — a direct consequence of Irene's reign. Despite having blinded her own son, the Eastern Orthodox Church later canonized her as a saint, on the grounds that her restoration of icon veneration at the Second Council of Nicaea outweighed her personal crimes. She was exiled to the island of Lesbos in 802 and died there the following year."
+        }
+      ],
+      "commonsFile": "Irene_solidus_sb_1599_(obverse).jpg"
     },
     {
       "id": "evt-triumph-orthodoxy",
       "label": "Triumph of Orthodoxy",
       "year": 843,
-      "description": "Empress Theodora permanently restored icon veneration, ending the iconoclast controversy. Still celebrated as a feast day.",
+      "description": "On March 11, 843 — the first Sunday of Lent — Empress Theodora organized a great procession through Constantinople that formally restored icon veneration and permanently ended the 117-year iconoclast controversy.",
       "wikiSlug": "Triumph_of_Orthodoxy",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodora had secretly kept her own icons hidden behind a mirror throughout her husband Emperor Theophilos's reign, waiting for the moment she could act. The date she chose, the first Sunday of Lent, was not accidental: it linked the restoration of icons to the season of repentance and renewal. Every Eastern Orthodox church in the world still observes this Sunday — called the Sunday of Orthodoxy or the Feast of Orthodoxy — as its first major liturgical feast of the year, commemorating the moment that defined the icon-rich worship of contemporary Orthodoxy."
+        }
+      ],
+      "commonsFile": "Triumph_orthodoxy.jpg"
     },
     {
       "id": "evt-cyril-methodius",
       "label": "Mission of Cyril and Methodius",
       "year": 863,
-      "description": "Byzantine missionaries created the Glagolitic alphabet to evangelize the Slavs, laying the foundation for Cyrillic script.",
+      "description": "Two brothers from Thessalonica invented a new alphabet and translated the Bible and Orthodox liturgy into the Slavic language, giving the Slavic world written Christianity in its own tongue for the first time.",
       "wikiSlug": "Saints_Cyril_and_Methodius",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cyril (born Constantine) was a professional scholar who invented the Glagolitic alphabet specifically to capture Slavic sounds that had no Greek equivalent. The Cyrillic alphabet that replaced it — named after Cyril but actually developed by his disciples — adapts Greek letters and today serves Russian, Bulgarian, Serbian, Ukrainian, and around 50 other languages. By translating scripture rather than insisting on Latin, Constantinople gave Slavic Christianity far deeper roots than Rome achieved with its Latin-only policy in northern Europe."
+        }
+      ],
+      "commonsFile": "Sv_Kiril_Metodij_Zahari_Zograf_Trojanski_mon_1848.jpg"
     },
     {
       "id": "evt-basil-i",
       "label": "Basil I (Macedonian Dynasty)",
       "year": 867,
       "endYear": 886,
-      "description": "Founded the Macedonian dynasty that presided over Byzantium's greatest cultural and military golden age.",
+      "description": "An Armenian peasant who rose from stable groom to imperial companion — and then murdered his way to the throne — Basil I founded the Macedonian dynasty, which would go on to become the longest-lasting and most successful in Byzantine history.",
       "wikiSlug": "Basil_I",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Basil's path to the throne required two murders: first he killed Emperor Michael III's chief minister with imperial approval in 866, then murdered Michael himself the following year after being adopted as co-emperor. Despite this bloody beginning, Byzantine court historians spent generations softening the story, since Basil was the dynasty's founder and his descendants needed the origin story to be respectable. He also initiated a major legal codification, the Basilika, consolidating Justinian's law code into Greek for the first time."
+        }
+      ],
+      "commonsFile": "Roman_Emperor_Basil_I.png"
     },
     {
       "id": "evt-constantine-vii",
       "label": "Constantine VII Porphyrogennetos",
       "year": 913,
       "endYear": 959,
-      "description": "Scholar-emperor who authored major works on imperial administration and ceremonies, preserving invaluable historical knowledge.",
+      "description": "Pushed aside for decades by stronger men, Constantine VII \"Born-in-the-Purple\" spent his long years as a figurehead becoming one of Byzantium's most prolific scholar-emperors — commissioning encyclopedic works on court ceremony, geopolitics, and history that are now foundational sources for medieval studies.",
       "wikiSlug": "Constantine_VII",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "writing"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Constantine's nickname Porphyrogennetos (\"born in the purple\") referred to the Porphyra, the special purple-marble birthing chamber in the imperial palace reserved for children born to a reigning emperor — a mark of legitimacy that distinguished him from rulers who seized power after the fact. He reigned technically from age seven but only held real power for his last fifteen years, after Romanos I was deposed by his own sons in 944."
+        }
+      ],
+      "commonsFile": "Constantine_VII_Porphyrogenitus_(2).jpeg"
     },
     {
       "id": "evt-reconquest-crete",
       "label": "Reconquest of Crete",
       "year": 961,
-      "description": "Nikephoros Phokas recaptured Crete from the Arabs, restoring Byzantine naval dominance in the eastern Mediterranean.",
+      "description": "In 960–961, the general Nikephoros Phokas besieged and captured Chandax (modern Heraklion), ending 137 years of Arab rule over Crete and restoring Byzantine naval supremacy in the Aegean — the empire's most important military success in two centuries.",
       "wikiSlug": "Byzantine_reconquest_of_Crete",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Arab-held Crete had functioned as a permanent piracy base since the 820s, allowing Muslim raiders to devastate Byzantine coastal towns and disrupt Aegean trade for over a century with near-impunity. The campaign was a massive combined operation involving a large Byzantine fleet and a prolonged siege of the fortified Arab capital Chandax. Nikephoros's success at Crete was what catapulted him to the imperial throne just two years later, in 963."
+        }
+      ],
+      "commonsFile": "Byzantines_under_Nikephoros_Phokas_besiege_Chandax.png"
     },
     {
       "id": "evt-basil-ii",
       "label": "Basil II the Bulgar-Slayer",
       "year": 976,
       "endYear": 1025,
-      "description": "Byzantium's greatest warrior-emperor expanded the empire to its largest medieval extent, conquering Bulgaria after decades of war.",
+      "description": "Basil II ruled for nearly fifty years (976–1025), transforming Byzantium into the dominant power of the eastern Mediterranean through relentless military campaigning, iron fiscal discipline, and the complete destruction of the First Bulgarian Empire.",
       "wikiSlug": "Basil_II",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "people",
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Basil's 49-year, 11-month reign was the longest of any Roman emperor in history. He was famously ascetic — described as sleeping on the floor, wearing plain military gear in the palace, and having no interest in court ceremony or literary patronage. He kept the treasury full by aggressively clawing back aristocratic land grants and taxing large estates, and when he died in 1025 the empire was at its greatest medieval extent with a war chest large enough to fund a major campaign. His successors burned through that inheritance in about fifty years."
+        }
+      ],
+      "commonsFile": "Basilios_II.jpg"
     },
     {
       "id": "evt-conversion-rus",
       "label": "Christianization of Kievan Rus'",
       "year": 988,
-      "description": "Vladimir I of Kyiv adopted Orthodox Christianity from Byzantium, permanently linking the Slavic world to Constantinople's religious orbit.",
+      "description": "In 988, Prince Vladimir of Kyiv converted to Orthodox Christianity and mass-baptized his people in the Dnieper River, permanently locking Russia, Ukraine, and Belarus into the Byzantine religious and cultural orbit rather than the Latin West's.",
       "wikiSlug": "Christianization_of_Kievan_Rus%27",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Vladimir's conversion came as part of a deal: Basil II needed military help against a domestic rebellion, and Vladimir wanted to marry the emperor's sister Anna — a request Byzantine emperors normally refused flatly, as marrying a purple-born princess to a foreign ruler was considered beneath imperial dignity. The Rus' chronicle the Primary Chronicle records the famous story of Vladimir's envoys reporting that the liturgy at Hagia Sophia was so beautiful \"we knew not whether we were in heaven or on earth\" — almost certainly stylized, but reflecting the real impression Constantinople made on visitors. The conversion oriented Russian high culture toward Greek models and ultimately laid the groundwork for Moscow's later claim to be the Third Rome."
+        }
+      ]
     },
     {
       "id": "evt-battle-kleidion",
       "label": "Battle of Kleidion",
       "year": 1014,
-      "description": "Basil II crushed the Bulgarian army and legendarily blinded 15,000 prisoners, ending Bulgarian resistance.",
+      "description": "On July 29, 1014, Basil II surrounded a Bulgarian army of around 15,000 men in a mountain pass in modern southwestern Bulgaria and captured nearly all of them — then, by Byzantine accounts, ordered 99 in every 100 blinded, leaving one man per hundred with a single eye to lead the rest home to Tsar Samuel.",
       "wikiSlug": "Battle_of_Kleidion",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tsar Samuel reportedly suffered a stroke and died within two days of seeing his army return blinded, though the scale of the blinding is debated by modern historians. The sobriquet Boulgaroktonos (\"Bulgar-Slayer\") attached to Basil was not used in his own lifetime; the earliest known attestation comes roughly a century later. The Bulgarian Empire collapsed entirely within four years of Kleidion, with the whole Bulgarian state absorbed into Byzantium by 1018 — the first time the Balkans had been fully Byzantine in four centuries."
+        }
+      ],
+      "commonsFile": "SamuilsDeathBGhistory.jpg"
     },
     {
       "id": "evt-great-schism",
       "label": "Great Schism",
       "year": 1054,
-      "description": "Mutual excommunication between the papal legate and Patriarch of Constantinople permanently split Christianity into Catholic and Orthodox.",
+      "description": "On July 16, 1054, a papal legate named Cardinal Humbert marched into Hagia Sophia during the Divine Liturgy and dropped a letter of excommunication on the high altar, directed at Patriarch Michael Cerularius of Constantinople. Cerularius excommunicated Humbert back. The Latin and Greek churches had been arguing for centuries over the Filioque clause, unleavened bread, clerical celibacy, and papal supremacy — but this public, theatrical confrontation in Christendom's most famous church made the break permanent.",
       "wikiSlug": "East%E2%80%93West_Schism",
       "tier": 1,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The legal standing of both acts was shaky: the pope who had authorized Humbert's mission (Leo IX) had died three months before the excommunication was delivered, and Cerularius's counter-excommunication was a personal act rather than a formal church council ruling. Neither anathema was technically aimed at the entire opposing church — just the specific individuals involved. The mutual excommunications were formally lifted in 1965 by Pope Paul VI and Patriarch Athenagoras, nearly 900 years later, as a gesture of Vatican II-era goodwill; the underlying schism, however, remains in place to this day."
+        }
+      ],
+      "commonsFile": "VeľkáVýchodnáSchízma.png"
     },
     {
       "id": "evt-battle-manzikert",
       "label": "Battle of Manzikert",
       "year": 1071,
-      "description": "Seljuk Turks defeated and captured Emperor Romanos IV, opening Anatolia to Turkish settlement and permanently weakening the empire.",
+      "description": "On August 26, 1071, the Byzantine army of Emperor Romanos IV Diogenes collided with the Seljuk Turks under Sultan Alp Arslan (alp ar-SLAN, 'Heroic Lion') on a high Anatolian plain near Manzikert (modern Malazgirt in eastern Turkey). The battle ended in catastrophic Byzantine defeat and the capture of the emperor — the first Roman ruler taken alive on a battlefield since Valerian was seized by the Persians eight centuries earlier.",
       "wikiSlug": "Battle_of_Manzikert",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The disaster was partly an inside job: Romanos's reserve corps, commanded by Andronikos Doukas (a rival aristocratic faction), deliberately left the field rather than support the emperor at the critical moment. Alp Arslan treated his captive with conspicuous generosity and released him after extracting a peace treaty, calculating that a live Romanos returning to a divided court was more useful than a power vacuum — and he was right. Within months, the Doukas faction in Constantinople had deposed Romanos, had him blinded, and repudiated the treaty, leaving Anatolia's frontier completely undefended. Within a decade, Turkic nomads had overrun the entire plateau."
+        }
+      ],
+      "commonsFile": "Battle_of_Manzikert_(1071).webp"
     },
     {
       "id": "evt-alexios-i",
       "label": "Alexios I Komnenos",
       "year": 1081,
       "endYear": 1118,
-      "description": "Stabilized the empire after decades of crisis, skillfully managing the First Crusade and restoring Byzantine prestige.",
+      "description": "Alexios I Komnenos seized the Byzantine throne in 1081 by coup and spent the next 37 years pulling the empire back from the edge — reforming its currency, outmaneuvering Norman and Turkic invaders, and redirecting a mass of Western crusaders he never asked for.",
       "wikiSlug": "Alexios_I_Komnenos",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "people",
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Despite the chaos of his seizure of power, Alexios's soldiers sacked Constantinople's wealthy quarters for three full days after admitting him. He was not the first of his family to rule — his uncle Isaac I had held the throne briefly in the 1050s before being pushed aside. He died in 1118 still ruling, having outlasted every enemy who had seemed on the verge of destroying him."
+        }
+      ],
+      "commonsFile": "Alexios_I_Komnenos.jpg"
     },
     {
       "id": "evt-anna-komnene",
       "label": "Anna Komnene",
       "year": 1083,
       "endYear": 1153,
-      "description": "Daughter of Alexios I and author of the Alexiad, she is considered one of the first female historians in Western tradition.",
+      "description": "Anna Komnene (1083–1153) was a Byzantine princess and the most important historian of the First Crusade era, born in the purple chamber of the imperial palace and raised at the epicenter of her father Alexios I's reign.",
       "wikiSlug": "Anna_Komnene",
       "tier": 3,
       "category": "people",
       "tags": [
         "writing"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Beyond her writing, Anna was a serious political player: she conspired to depose her own brother John II in favor of her husband Nikephoros Bryennios, and was exiled to a convent when the plot failed. She wrote the Alexiad while confined there in her later years. Her Greek prose was deliberately archaizing — she modeled her style on classical Attic authors writing centuries before her."
+        }
+      ],
+      "commonsFile": "Anna_Komnene_(cropped).jpg"
     },
     {
       "id": "evt-first-crusade",
       "label": "First Crusade Passes Through",
       "year": 1097,
-      "description": "Crusader armies transited Byzantine territory, creating a tense alliance that briefly restored Nicaea and Antioch to the empire.",
+      "description": "In 1095 Alexios I asked Pope Urban II for Western mercenary soldiers to help fight the Seljuk Turks; what arrived was the First Crusade — perhaps 100,000 armed pilgrims who crossed Byzantine territory, recovered Nicaea for the empire, then kept Antioch for themselves.",
       "wikiSlug": "First_Crusade",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The very first wave, the \"People's Crusade\" under Peter the Hermit, was roughly 40,000 mostly untrained pilgrims whom Alexios hastily ferried across the Bosphorus; the Seljuks massacred them within weeks. The crusader leaders each swore oaths to Alexios to return formerly Byzantine territory, an oath Bohemond of Taranto (son of Alexios's old enemy Robert Guiscard) then broke by keeping Antioch. Both sides spent the next century nursing the grievance."
+        }
+      ],
+      "commonsFile": "1099_Siege_of_Jerusalem.jpg"
     },
     {
       "id": "evt-venetian-trade-privileges",
       "label": "Venetian Trade Privileges",
       "year": 1082,
-      "description": "Alexios I granted Venice sweeping tax exemptions in exchange for naval aid, giving Italian merchants dominance in Byzantine commerce.",
+      "description": "Desperate for a navy to fight the Norman invasion, Alexios I cut a deal with Venice in 1082: full exemption from Byzantine customs duties and dedicated trading quarters throughout the empire in exchange for Venetian ships.",
       "wikiSlug": "Byzantine–Venetian_treaty_of_1082",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The arrangement was enshrined in an imperial chrysobull (\"golden bull\" — a document sealed with a gold medallion), the highest form of Byzantine legal decree. The practical result was that Venetian merchants now paid no tariffs while their Greek competitors paid full rates in their own markets. Historians credit this single deal with hollowing out Byzantine commercial independence for the next three centuries."
+        }
+      ],
+      "commonsFile": "South-eastern_Europe_c._1000.jpg"
     },
     {
       "id": "evt-fourth-crusade",
       "label": "Fourth Crusade Sacks Constantinople",
       "year": 1204,
-      "description": "Crusaders diverted to Constantinople, sacking the city and establishing the Latin Empire. A catastrophic blow from which Byzantium never fully recovered.",
+      "description": "In April 1204, western Christian crusaders who had originally set out to liberate Jerusalem instead stormed, looted, and occupied Constantinople — the largest Christian city in the world — over three catastrophic days, establishing a French-led Latin Empire on the rubble of nine centuries of Byzantine civilization.",
       "wikiSlug": "Fourth_Crusade",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The crusade's original contract with Venice called for 85,000 silver marks to transport 33,500 men and 4,500 horses — but only about a third of the promised troops showed up, leaving the crusaders unable to pay and fatally dependent on Venetian priorities. Pope Innocent III explicitly excommunicated the entire crusade after it sacked the Catholic city of Zara, then had to walk part of that back before the expedition reached Constantinople. The three days of looting that followed the city's fall destroyed more surviving classical antiquity than any event between the burning of the Library of Alexandria and the Reformation, according to eyewitness accounts."
+        }
+      ],
+      "commonsFile": "ConquestOfConstantinopleByTheCrusadersIn1204.jpg"
     },
     {
       "id": "evt-latin-empire",
       "label": "Latin Empire",
       "year": 1204,
       "endYear": 1261,
-      "description": "Crusader state established in Constantinople while Byzantine successor states regrouped in Nicaea, Trebizond, and Epirus.",
+      "description": "The crusader state that replaced Byzantium in Constantinople from 1204 to 1261 — a feudal patchwork of French lordships and Venetian trading colonies superimposed on the former Roman capital, recognized by the Catholic Church but never controlling more than a fraction of the old empire's territory.",
       "wikiSlug": "Latin_Empire",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The spoils were divided before the walls were even breached: the leading crusaders agreed in advance that Venice would receive three-eighths of all loot and territory, and that a Latin emperor would be elected by a committee. Venice came away with the choicest ports — Crete, the Peloponnese harbors, and a full quarter of Constantinople itself including Hagia Sophia, which it converted into a Latin Catholic cathedral. The Latin Empire never solved its financial or military problems and spent most of its existence in desperate debt, eventually pawning even the Crown of Thorns to Venetian bankers."
+        }
+      ],
+      "commonsFile": "Enrico_Dandolo_gravestone.jpg"
     },
     {
       "id": "evt-recapture-constantinople",
       "label": "Constantinople Recaptured",
       "year": 1261,
-      "description": "Michael VIII Palaiologos retook Constantinople from the Latins, restoring the Byzantine Empire but in a greatly diminished state.",
+      "description": "On July 25, 1261, a Nicaean scouting force of roughly 800 men under General Alexios Strategopoulos slipped through an unguarded postern gate and took Constantinople without a real fight, ending fifty-seven years of Latin rule and restoring the Byzantine Empire — now in badly diminished form.",
       "wikiSlug": "Recapture_of_Constantinople_(1261)",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reconquest was essentially an accident of timing: the city's Latin garrison had been sent away to attack a Venetian rival in the Black Sea, leaving the walls almost undefended when Strategopoulos arrived on a routine reconnaissance. The Latin Emperor Baldwin II fled by sea as the Nicaeans entered, never to return. When Michael VIII processed into Hagia Sophia for his triumphal coronation, he found a stripped Catholic shell — the gold mosaics, silver iconostasis, and most furnishings were gone, looted fifty-seven years earlier."
+        }
+      ],
+      "commonsFile": "39._La_flotta_Veneziana_raccoglie_gli_abitanti_Latini_fuggenti_da_Costantinopoli_ripreso_da_Greci,_25_Luglio_1261.jpg"
     },
     {
       "id": "evt-hesychasm",
       "label": "Hesychast Controversy",
       "year": 1341,
-      "description": "Theological dispute resolved in favor of Gregory Palamas, establishing hesychast mysticism as official Orthodox doctrine.",
+      "description": "Hesychasm (HESS-ih-kazm) was a contemplative prayer practice developed by monks on Mount Athos, centered on the repeated Jesus Prayer and the claim that advanced practitioners could physically perceive an uncreated divine light — the same light seen at Christ's Transfiguration.",
       "wikiSlug": "Hesychasm",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The practice was attacked by the Calabrian Greek monk Barlaam, who argued that any claimed direct experience of God's light was either a hallucination or heresy, since God's essence is strictly unknowable. Gregory Palamas's defense — that humans can experience God's energies (activities) without reaching His essence (inner being) — became official Orthodox doctrine at councils in 1341, 1347, and 1351. The eighteenth-century compilation called the Philokalia, a foundational text of Orthodox spirituality still in wide use today, grew directly out of the Hesychast tradition."
+        }
+      ],
+      "commonsFile": "Christ_Pantocrator_mosaic_from_Hagia_Sophia_2240_x_3109_pixels_2.5_MB.jpg"
     },
     {
       "id": "evt-gemistos-plethon",
       "label": "Gemistos Plethon",
       "year": 1355,
       "endYear": 1452,
-      "description": "Byzantine philosopher who championed Platonic thought and influenced Italian Renaissance humanism during the Council of Florence.",
+      "description": "Gemistos Plethon was the elderly Byzantine philosopher who attended the Council of Florence and gave lectures on Plato so electrifying that Cosimo de' Medici immediately founded the Florentine Platonic Academy — a direct chain from a Byzantine court philosopher to the intellectual heart of the Italian Renaissance.",
       "wikiSlug": "Gemistus_Pletho",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Plethon harbored a secret his contemporaries would have found scandalous: his final work, the Nomoi (Book of Laws), which he circulated only among close friends, openly rejected Christianity in favor of reviving the worship of the classical Hellenic gods, mixed with elements from Zoroaster and ancient Persian thought. He was, in other words, the man who helped spark the Christian Renaissance while privately practicing a reconstructed Greek paganism. After his death, the Patriarch of Constantinople ordered his Nomoi burned as heretical."
+        }
+      ],
+      "commonsFile": "Benozzo_Gozzoli,_Pletone,_Cappella_dei_Magi.jpg"
     },
     {
-      "id": "evt-ottoman-advance",
+      "id": "evt-battle-kosovo",
       "label": "Battle of Kosovo",
       "year": 1389,
       "description": "Ottoman victory over the Serbs eliminated Byzantium's last major Balkan ally, tightening the noose around Constantinople.",
       "wikiSlug": "Battle_of_Kosovo",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle on the Field of Blackbirds was a bloodbath that killed both commanders. The Ottoman sultan Murad I — the only Ottoman sultan ever to die on a battlefield — was cut down in his own tent, by tradition stabbed by the Serbian knight Miloš Obilić, who had talked his way in by feigning desertion. The Serbian prince Lazar was captured and beheaded the same day. Murad’s son Bayezid I was proclaimed sultan on the field and at once had his own brother strangled to lock down the succession — and the defeat hardened into the founding wound of Serbian national memory, retold in epic poetry for centuries."
+        }
+      ]
     },
     {
       "id": "evt-constantine-xi",
       "label": "Constantine XI Palaiologos",
       "year": 1449,
       "endYear": 1453,
-      "description": "Last Byzantine emperor, he died fighting on the walls during the final Ottoman siege, becoming a legendary figure in Greek culture.",
+      "description": "Constantine XI Palaiologos was the last Byzantine emperor, a former Despot of the Morea summoned to Constantinople on his brother's death — he inherited an impossible siege and, according to every eyewitness account, died fighting in the breach on May 29, 1453, after reportedly throwing off his imperial robes to die as a common soldier.",
       "wikiSlug": "Constantine_XI_Palaiologos",
       "tier": 2,
       "category": "rulers",
       "tags": [
         "people",
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His body was never definitively identified; several later 'discoveries' of imperial remains have all been disputed by scholars. Constantine's full name was Constantine XI Dragases Palaiologos — the 'Dragases' from his maternal grandfather, a Serbian prince, which he used in official documents as a nod to his Balkan allies. His death formally ended the Eastern Roman Empire, which by that point had been continuously present for 1,123 years since Constantine the Great founded Constantinople in 330 CE."
+        }
+      ],
+      "commonsFile": "Konstantinos_XI_Palaiologos_fresco_(less_edited).jpg"
     },
     {
       "id": "evt-fall-constantinople",
       "label": "Fall of Constantinople",
       "year": 1453,
-      "description": "Sultan Mehmed II breached the walls with massive cannons, ending the Byzantine Empire after 1,123 years and marking the end of the medieval era.",
+      "description": "On May 29, 1453, after a 53-day siege, Ottoman Sultan Mehmed II's army poured through a breach in the Theodosian Walls and ended 1,123 years of Byzantine rule — one of the most documented catastrophes of the Middle Ages, witnessed by Greeks, Italians, and Ottomans who all left accounts.",
       "wikiSlug": "Fall_of_Constantinople",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mehmed had to drag 70 ships overland on greased wooden ramps over the hill behind Galata to bypass the Golden Horn chain blocking his fleet — one of the most audacious engineering feats of medieval siege warfare. The decisive crack came when the Genoese commander Giovanni Giustiniani Longo was wounded and ordered his troops to carry him to the rear, triggering what the rest of the garrison mistook as a general retreat. Mehmed had ordered three days of customary plunder but cut it to one day on the evening of May 29 because his troops had become uncontrollable and he wanted to preserve his new capital intact."
+        }
+      ],
+      "commonsFile": "Siege_of_Constantinople_fresco,_Moldovița_monastery,_Vatra_Moldoviței,_2017.jpg"
     },
     {
       "id": "evt-university-constantinople",
       "label": "University of Constantinople",
       "year": 425,
-      "description": "Theodosius II founded a higher education institution that became a major center for law, philosophy, and rhetoric.",
+      "description": "Emperor Theodosius II founded the University of Constantinople in 425 — an imperially funded cluster of about 31 chairs in Greek and Latin grammar, rhetoric, philosophy, and law that trained civil servants, lawyers, and clergy for the empire's institutions across a thousand years.",
       "wikiSlug": "University_of_Constantinople",
       "tier": 3,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The university was not a single building but a set of endowed teaching positions, making it structurally more like a funded faculty than a campus. It survived, with interruptions, from the fifth century to the fifteenth — one of the longest-lived educational institutions in European history. In the ninth century the court scholar Leo the Mathematician ran its philosophy branch from the Magnaura Palace; in the eleventh century the philosopher Michael Psellos reorganized it and awarded himself the title 'consul of the philosophers,' a job title he appears to have invented."
+        }
+      ],
+      "commonsFile": "30-59a.jpg"
     },
     {
       "id": "evt-procopius",
@@ -535,610 +846,1014 @@
       "label": "John of Damascus",
       "year": 676,
       "endYear": 749,
-      "description": "Theologian and polymath who wrote the definitive defense of icon veneration and systematized Orthodox theology.",
+      "description": "John of Damascus (c. 676-749) was a Christian theologian and polymath living under Umayyad rule in Damascus who wrote the most influential defense of icon veneration — safely beyond the reach of any Byzantine emperor who might want to silence him.",
       "wikiSlug": "John_of_Damascus",
       "tier": 3,
       "category": "people",
       "tags": [
         "religion"
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His family had administered Damascus for generations, first under the Byzantines and then under the Arab caliphs, giving him a uniquely detached perch from which to critique imperial religious policy. Beyond theology, he was a composer of liturgical hymns still used in Eastern Christian services worldwide and in western Lutheran Easter worship, and he produced a systematic summary of Christian theology called the Fount of Knowledge that became a standard reference text for medieval scholars in both East and West."
+        }
       ]
     },
     {
       "id": "evt-theme-system",
       "label": "Theme System Established",
       "year": 640,
-      "description": "Military-administrative reorganization divided the empire into themes, creating a citizen-soldier system that strengthened defense.",
+      "description": "The theme system was the empire's improvised solution to a cash crisis: instead of paying soldiers in money it no longer had, the state granted them farmland in exchange for hereditary military service. It divided Anatolia into large military districts (themes), each run by a single *strategos* (general) who was simultaneously military commander and civilian governor.",
       "wikiSlug": "Theme_(Byzantine_district)",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The original four Anatolian themes — the Anatolikon, Armeniakon, Opsikion, and Thrakesion — each took their names from the army units that had been stationed there, not from the geography. The system proved so durable that the themes kept multiplying: by the tenth century there were dozens, and the term stayed in use until the very end of the empire in 1453."
+        }
+      ],
+      "commonsFile": "Droysen_-_Oströmisches_Reich.jpg"
     },
     {
       "id": "evt-constantine-i",
       "label": "Constantine I the Great",
       "year": 306,
       "endYear": 337,
-      "description": "First Roman emperor to convert to Christianity, he founded Constantinople and set the stage for the Byzantine Empire.",
+      "description": "Roman emperor from 306 to 337, Constantine was the first emperor to convert to Christianity — legalizing the faith, convening the Council of Nicaea, and founding Constantinople as a new imperial capital that would outlast Rome itself by a thousand years.",
       "wikiSlug": "Constantine_the_Great",
       "tier": 1,
       "category": "rulers",
       "tags": [
         "people",
         "religion"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Constantine was not baptized until his deathbed in 337, and then by an Arian bishop — the very theological faction his own Council of Nicaea had just condemned. Despite this, the Eastern Orthodox Church canonized him as 'Equal-to-the-Apostles' (Isapostolos), the highest honor given to a non-martyr. He was born around 272 in what is now Serbia, the son of a military officer who rose through the Tetrarchy system."
+        }
+      ],
+      "commonsFile": "Statua_di_Costantino_ai_musei_capitolini.jpg"
     },
     {
       "id": "evt-hippodrome",
       "label": "Hippodrome of Constantinople",
       "year": 330,
-      "description": "The great chariot-racing arena seated up to 100,000 spectators and served as the center of Byzantine public life and political upheaval.",
+      "description": "The Hippodrome of Constantinople was the empire's great chariot-racing arena and its loudest public forum — a 1,400-foot (430-meter) oval where up to 100,000 spectators cheered, rioted, and shouted demands directly at the emperor seated in his private imperial box.",
       "wikiSlug": "Hippodrome_of_Constantinople",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Hippodrome's central spine was lined with monuments looted from across the Mediterranean, including the Serpent Column originally cast to commemorate the Greek victory at Plataea in 479 BC — already over 800 years old when Constantine installed it there. The two great chariot factions, the Blues and Greens, doubled as neighborhood power brokers who controlled city districts and organized political claques. The arena was not demolished but buried; its footprint is preserved almost exactly in the shape of Istanbul's modern Sultanahmet Square, with the Egyptian obelisk of Theodosius still standing in place."
+        }
+      ],
+      "commonsFile": "A_view_from_The_Sphendone_of_the_Hippodrome.jpg"
     },
     {
       "id": "evt-council-nicaea",
       "label": "First Council of Nicaea",
       "year": 325,
-      "description": "Constantine convened the first ecumenical council, which produced the Nicene Creed and established key doctrines of mainstream Christianity.",
+      "description": "The first empire-wide gathering of Christian bishops, convened by Constantine in 325 in the Bithynian city of Nicaea (modern İznik, Turkey) to settle a doctrinal war over the nature of Christ — and producing the Nicene Creed still recited in churches every Sunday.",
       "wikiSlug": "First_Council_of_Nicaea",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dispute the council was settling — Arianism vs. Nicene Christianity — came down to a single Greek letter: whether Christ was homoousios ('of the same substance' as the Father) or homoiousios ('of like substance'). The council ran from May until the end of July 325, with over 300 bishops attending. Despite the council's ruling, the Arian controversy raged for another fifty years, with Constantine's own son Constantius II reversing the outcome and persecuting the Nicene side."
+        }
+      ],
+      "commonsFile": "Μιχαήλ_Δαμασκηνός_-_Α΄_Οικουμενική_Σύνοδος_7741.jpg"
     },
     {
       "id": "evt-narses-italy",
       "label": "Narses Completes Reconquest of Italy",
       "year": 553,
-      "description": "The eunuch general Narses defeated the last Ostrogothic resistance at the Battle of Mons Lactarius, completing Justinian's reconquest of Italy.",
+      "description": "Narses — a 75-year-old Armenian eunuch who had previously served as a palace chamberlain — completed the Byzantine reconquest of Italy in 552–553 by destroying the last Ostrogothic armies at Taginae and Mons Lactarius, demonstrating one of late antiquity's most surprising late-career military talents.",
       "wikiSlug": "Narses",
       "tier": 3,
       "category": "wars",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Narses had no formal military training before being entrusted with an army, yet he outmaneuvered and defeated Totila — the Ostrogothic king who had clawed back most of Italy from Belisarius — at the Battle of Taginae in 552, where Totila himself was killed. The Gothic War lasted nineteen years total (535–554), far longer than Justinian's planners intended, and left Italy so devastated that Rome's population may have fallen below 50,000 from a peak of half a million. Narses then governed Italy as Byzantine exarch for fifteen more years, until being dismissed around 567."
+        }
+      ],
+      "commonsFile": "Narses.jpg"
     },
     {
       "id": "evt-battle-yarmuk",
       "label": "Battle of Yarmouk",
       "year": 636,
-      "description": "Arab forces decisively defeated the Byzantine army at Yarmouk, leading to the permanent loss of Syria, Palestine, and eventually Egypt.",
+      "description": "In August 636, Arab general Khalid ibn al-Walid lured a Byzantine army that outnumbered his perhaps two-to-one into broken terrain along the Yarmouk River near the modern Syria-Jordan border, exploited a sandstorm, and shattered it — ending Roman rule in Syria at a stroke.",
       "wikiSlug": "Battle_of_Yarmouk",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Byzantine commander Vahan was an Armenian eunuch who was killed or captured in the rout. The local Syrian and Palestinian populations, many of them Monophysite Christians whom Constantinople had spent centuries persecuting, offered little resistance to the Arab takeover — the new rulers offered lower taxes and religious tolerance in exchange for the *jizya* (a head tax on non-Muslims), a better deal than they'd had under Byzantium."
+        }
+      ],
+      "commonsFile": "Hayton_BNF886_9v.jpg"
     },
     {
       "id": "evt-theodore-studite",
       "label": "Theodore the Studite",
       "year": 759,
       "endYear": 826,
-      "description": "Influential monk and theologian who championed icon veneration and reformed monastic life through the Stoudios Monastery's rule.",
+      "description": "Theodore the Studite (759-826) was the abbot of the Stoudios Monastery in Constantinople and the most tenacious defender of icons during the second iconoclast wave — repeatedly imprisoned and exiled for refusing to back down.",
       "wikiSlug": "Theodore_the_Studite",
       "tier": 3,
       "category": "people",
       "tags": [
         "religion"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was imprisoned and exiled at least three times by different emperors, yet used the periods between to rebuild his monastery into the most intellectually serious religious community in the empire. The monastic rule he wrote — the Stoudite Rule — became the template for monasticism across the Byzantine and Slavic worlds, and many of the famous monasteries of Mount Athos still follow modified versions of it today. He maintained active letter correspondences with hundreds of figures across the empire, including many women, among them the composer and nun Kassia."
+        }
+      ],
+      "commonsFile": "Studite.jpg"
     },
     {
       "id": "evt-bezant-gold-coin",
       "label": "Byzantine Gold Solidus (Bezant)",
       "year": 498,
-      "description": "The gold solidus, known in the West as the bezant, served as the international trade currency of the Mediterranean for over 700 years.",
+      "description": "The Byzantine gold solidus — called the 'bezant' by Western Europeans — was the most trusted coin in the medieval world, struck at a nearly pure 4.45 grams of gold and accepted from Britain to India as an international store of value for over seven centuries.",
       "wikiSlug": "Solidus_(coin)",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Constantine introduced the solidus in 312 AD as a replacement for the debased aureus, and its gold purity held remarkably stable until the 1040s — an unbroken monetary standard longer than any modern currency has maintained. Foreign rulers from Anglo-Saxon England to the kingdoms of sub-Saharan Africa hoarded bezants without ever planning to spend them, treating them purely as reserves. The coin's reliability was so trusted that medieval Western European rulers sometimes imitated its design on their own lesser-quality coins to borrow its prestige."
+        }
+      ],
+      "commonsFile": "Gold_Solidus_of_Valentinian_II_-_obverse_YORYM_1998_853.jpg"
     },
     {
       "id": "evt-byzantine-civil-war-1341",
       "label": "Byzantine Civil War",
       "year": 1341,
       "endYear": 1347,
-      "description": "A devastating civil war between John V Palaiologos and John VI Kantakouzenos that invited Serbian and Ottoman intervention, fatally weakening the empire.",
+      "description": "The Byzantine Civil War of 1341–1347 was a six-year internal conflict between the regency of the young John V Palaiologos and the general John Kantakouzenos — simultaneously a dynastic fight, a class war, and a theological dispute, and it invited the Ottomans into Europe for the first time.",
       "wikiSlug": "Byzantine_civil_war_of_1341%E2%80%931347",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The city of Thessalonica (Greece's second city) broke away from both factions during the war and was governed from 1342 to 1349 by a revolutionary popular movement called the Zealots — a rare medieval experiment in something resembling urban democratic self-government. The civil war debased the Byzantine currency repeatedly and shredded what remained of the army; the Italian merchant enclaves extracted fresh trade privileges in exchange for every emergency loan. By the war's end the empire had essentially traded sovereignty for survival."
+        }
+      ]
     },
     {
       "id": "evt-hagia-eirene",
       "label": "Hagia Eirene Rebuilt",
       "year": 548,
-      "description": "Justinian rebuilt the Church of Hagia Eirene after the Nika riots. It is the oldest surviving church in Istanbul still in its original form.",
+      "description": "Hagia Eirene (\"Holy Peace\") is an early Byzantine church rebuilt by Justinian around 548 after the Nika riots burned the previous structure — and one of only two Byzantine churches in Istanbul that were never converted into mosques, making it a rare intact survivor of sixth-century Constantinople.",
       "wikiSlug": "Hagia_Irene",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Because Hagia Eirene was pressed into service as an arsenal after the Ottoman conquest — storing weapons in Topkapı Palace's outer courtyard — it was never converted to a mosque, accidentally preserving its original Byzantine structure. It is now a museum and concert hall, used for classical performances partly because its stone interior produces exceptional acoustics. It was also the site of the Second Ecumenical Council in 381, making it one of the oldest continuously documented Christian gathering places in the world."
+        }
+      ],
+      "commonsFile": "Hagia_Irene,_Istanbul_(52112279404)_(cropped).jpg"
     },
     {
       "id": "evt-procopius-secret-history",
       "label": "Procopius's Secret History",
       "year": 550,
-      "description": "Procopius's scandalous unpublished memoir savaged Justinian, Theodora, and Belisarius in unsparing detail, offering a counter-narrative to his official panegyrics.",
+      "description": "Procopius of Caesarea (c. 500–570) was the greatest Greek historian of the age — Justinian's own official chronicler — who secretly wrote the Anekdota (the 'Secret History'), a blistering private memoir savaging Justinian, Theodora, and Belisarius that he never dared publish in his lifetime.",
       "wikiSlug": "The_Secret_History",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Secret History survived by accident: a single Vatican manuscript was rediscovered in the seventeenth century, nearly eleven hundred years after it was written. Procopius wrote official panegyrics to Justinian by day (his Buildings lavishly praised the emperor's construction projects) while apparently venting his real views in private. Historians still debate how much of the Secret History's lurid biographical detail is accurate versus polemic — but its political observations about Justinian's autocratic style are consistent with other sources and are taken seriously."
+        }
+      ]
     },
     {
       "id": "evt-photius-bibliotheca",
       "label": "Photius's Bibliotheca",
       "year": 858,
-      "description": "Patriarch Photius compiled summaries and critiques of 279 books — many now lost — creating an invaluable window into ancient and Byzantine literature.",
+      "description": "Patriarch Photius compiled the Bibliotheca (also called the Myriobiblos, \"ten thousand books\") around 858 — summaries and critical reviews of 279 works he had read, including hundreds of texts that have since been entirely lost.",
       "wikiSlug": "Bibliotheca_(Photius)",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Without the Bibliotheca, large portions of ancient Greek literature would be unknowable today: Photius preserves plot summaries, author details, and direct quotations from works that no longer physically exist. The text includes lost histories, novels, theological treatises, and secular scholarship — effectively a reading list from one of the best-stocked libraries in the ninth-century world. Photius wrote it as a letter to his brother, who had been away from Constantinople during a reading circle the two had participated in together."
+        }
+      ],
+      "commonsFile": "Bibliotheca_cover.jpg"
     },
     {
       "id": "evt-leo-mathematician",
       "label": "Leo the Mathematician's Automata",
       "year": 840,
-      "description": "The scholar Leo designed mechanical golden lions, singing birds, and a throne that rose to the ceiling for the imperial throne room, dazzling foreign envoys.",
+      "description": "Leo the Mathematician, the ninth-century Byzantine polymath who ran the Magnaura School in Constantinople, designed the automata of the imperial throne room: mechanical golden lions that roared, bronze birds that sang, and a throne on a hydraulic lift that rose to the ceiling while foreign ambassadors prostrated themselves on the floor below.",
       "wikiSlug": "Leo_the_Mathematician",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Leo is credited with inventing or reintroducing the use of letter symbols in algebra to Byzantine scholarship, and with setting up a chain of fire-signal beacons across Anatolia that could relay military alerts from the eastern frontier to Constantinople in under an hour — a ninth-century communications network. The Western bishop Liutprand of Cremona, visiting in 949, described the automata in his memoirs with a mixture of astonishment and wounded pride: he found the whole performance impressive despite his best efforts to seem unimpressed as a dignified Latin envoy."
+        }
+      ]
     },
     {
       "id": "evt-rus-byzantine-treaty",
       "label": "Rus'–Byzantine Treaty",
       "year": 907,
-      "description": "Prince Oleg of Kyiv's naval raid on Constantinople forced a treaty granting Rus' merchants advantageous trading terms in the imperial capital.",
+      "description": "Following a Rus' naval raid on Constantinople, Prince Oleg of Kyiv extracted a treaty around 907 granting Rus' merchants privileged trading access to the Byzantine capital — the first formal diplomatic link between Constantinople and the Slavic-Norse state on the Dnieper.",
       "wikiSlug": "Rus'–Byzantine_Treaty_(945)",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The 907 treaty gave Rus' merchants the right to trade in Constantinople duty-free and to receive monthly provisions from the imperial government while there — remarkably favorable terms that built a substantial Rus' merchant community in the city. A later treaty in 944–945, signed by Igor of Kyiv after a less successful raid, was less generous, suggesting the Rus' had overplayed their hand. These commercial treaties were the practical foundation of Rus'–Byzantine relations before the religious conversion of 988 made the relationship much deeper."
+        }
+      ],
+      "commonsFile": "Присяга_воинов_Олега_оружием_и_богом_Перуном;_утверждение_мирною_договора_Олега_с_греками.jpg"
     },
     {
       "id": "evt-de-administrando-imperio",
       "label": "De Administrando Imperio",
       "year": 952,
-      "description": "Constantine VII's confidential manual on imperial statecraft compiled ethnographic reports on neighboring peoples and detailed diplomatic strategy — a unique document of Byzantine geopolitics.",
+      "description": "A confidential diplomatic manual written by Constantine VII for his son around 952, containing detailed ethnographic profiles of every Byzantine neighbor — Pechenegs, Khazars, Bulgarians, Rus', Arabs, Franks — with blunt advice on how to manipulate each one.",
       "wikiSlug": "De_Administrando_Imperio",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The De Administrando Imperio (Latin for \"On the Administration of the Empire\") is among the most candid political documents to survive from the medieval world — it was never intended for public eyes, which is why it speaks so plainly about playing foreign powers against each other. It preserves details about the early Rus', Pechenegs, and Slavic peoples that exist nowhere else, making it indispensable for historians of early Eastern Europe. The work was essentially a classified intelligence briefing, not unlike a modern foreign-ministry handbook."
+        }
+      ],
+      "commonsFile": "Constantini_Imperatoris_Porphyrogeniti,_de_Administrando_Imperio_ad_Romanvm_F.jpg"
     },
     {
       "id": "evt-souda-lexicon",
       "label": "Souda Lexicon",
       "year": 980,
-      "description": "Byzantine scholars compiled the Souda, a massive 30,000-entry Greek-language encyclopedia of history, literature, and biography that preserved knowledge of hundreds of otherwise lost ancient works.",
+      "description": "Compiled around 980, the Souda (or Suda) is a massive 30,000-entry Greek encyclopedia covering history, biography, literature, philosophy, and grammar — the single most important surviving source for knowledge of ancient Greek civilization.",
       "wikiSlug": "Suda",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Souda preserves quotations and biographical information from hundreds of ancient works that no longer exist in any other form, making it one of the great accidental archives of human knowledge. It was organized alphabetically — a relatively unusual structure for the time — and drew on sources ranging from pre-Christian Greek philosophy to contemporary Byzantine scholarship. The encyclopedia's compiler or compilers are unknown; earlier scholars assumed a single author named \"Suidas,\" but this appears to have been a misreading of the title."
+        }
+      ],
+      "commonsFile": "Suda,_Vaticanus_graecus_1296.jpg"
     },
     {
       "id": "evt-hosios-loukas",
       "label": "Hosios Loukas Monastery",
       "year": 1011,
-      "description": "The catholicon of Hosios Loukas in Boeotia was completed with some of the finest Byzantine mosaics surviving today, an apex of Middle Byzantine monumental art.",
+      "description": "The monastery of Hosios Loukas (HOH-see-os LOO-kas, 'Holy Luke') in Boeotia (central Greece) was completed around 1011 and preserves some of the finest surviving mosaic programs in Middle Byzantine art — golden tessera figures covering domes and vaults in the hieratic, timeless style that defines Byzantine religious imagery.",
       "wikiSlug": "Hosios_Loukas",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The complex is actually two churches built side by side, with the larger catholicon (main church) dating to the early eleventh century; together they form one of the best-preserved Middle Byzantine architectural ensembles anywhere. The monastery became a UNESCO World Heritage Site in 1990, listed alongside Nea Moni on Chios and the Daphni Monastery near Athens as the three key surviving monuments of Middle Byzantine art. The mosaics survived the Ottoman period intact, partly because the site is remote enough that it escaped the more thorough looting and whitewashing that destroyed interior decoration in more accessible churches."
+        }
+      ],
+      "commonsFile": "Μονή_Οσίου_Λουκά_1290.jpg"
     },
     {
       "id": "evt-alexiad",
       "label": "The Alexiad",
       "year": 1148,
-      "description": "Anna Komnene completed her Alexiad, a history of her father Alexios I's reign — the first major historical work known to have been written by a woman.",
+      "description": "Completed around 1148 by Princess Anna Komnene, the Alexiad is a sweeping history of her father Alexios I's reign — the first major historical work known to have been written by a woman in the European tradition, and the richest Byzantine-side source for the First Crusade.",
       "wikiSlug": "Alexiad",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Anna wrote in artificial Attic Greek — a deliberately archaic literary register, not the spoken language of her day — which was a mark of serious scholarly ambition. The text is openly partisan: Anna despised the crusader princes and recorded their faults with obvious relish. It was popular enough to be paraphrased into vernacular medieval Greek two centuries later to make it more readable."
+        }
+      ],
+      "commonsFile": "Anna_comnena,_alexiade,_forse_da_costantinopoli,_XII_secolo_(pluteo_70.2).jpg"
     },
     {
       "id": "evt-constantius-ii",
       "label": "Constantius II",
       "year": 337,
       "endYear": 361,
-      "description": "Son of Constantine, he ruled the entire empire from 350 and promoted Arianism, persecuting Nicene Christians — his theological meddling set the tone for centuries of emperors intervening in church disputes.",
+      "description": "Constantine's son ruled the whole empire from 350 to 361 and used imperial power to promote Arianism — the theological position his father's council had condemned — repeatedly exiling the orthodox bishop Athanasius of Alexandria and proving that whoever held the throne could rewrite official Christianity.",
       "wikiSlug": "Constantius_II",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "religion"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Constantius II also fought constant wars on two fronts simultaneously: against the Sasanian Persian Empire in the east and Germanic peoples along the Rhine-Danube frontier. His reign produced a pattern — emperors intervening forcefully in church doctrine — that would destabilize Byzantine politics for centuries. The Arian controversy he championed did not finally resolve in favor of Nicene Christianity until the Council of Constantinople in 381, twenty years after his death."
+        }
+      ],
+      "commonsFile": "Bust_of_Constantius_II_(Mary_Harrsch).jpg"
     },
     {
       "id": "evt-julian-apostate",
       "label": "Julian the Apostate",
       "year": 361,
       "endYear": 363,
-      "description": "The last pagan emperor briefly reversed Constantine's Christianization, restoring sacrifices and temple funding before dying on campaign against Persia — the final attempt to turn back Christianity's tide.",
+      "description": "The last pagan Roman emperor (361–363), Julian had been raised Christian but privately converted to Neoplatonic philosophy, and on taking the throne reopened pagan temples, restored animal sacrifice, and withdrew church privileges — paganism's last imperial stand, cut short when a spear killed him in Persia.",
       "wikiSlug": "Julian_(emperor)",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "religion"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Julian was a serious philosopher and author who wrote in Greek, not just a reactionary — he genuinely believed classical Hellenic religion was intellectually superior to Christianity. His attempt to rebuild the Jerusalem Temple was abandoned when an earthquake or fire destroyed the construction site. He died during a poorly planned invasion of Sasanian Persia after just 20 months as sole emperor; his famous alleged last words — 'You have conquered, Galilean' — are almost certainly a later Christian invention."
+        }
+      ],
+      "commonsFile": "Juliancng8851obverse.jpg"
     },
     {
       "id": "evt-theodosius-ii",
       "label": "Theodosius II",
       "year": 408,
       "endYear": 450,
-      "description": "The long-reigning eastern emperor who built the Theodosian Walls, established the University of Constantinople, and assembled the Theodosian Code — an early codification of Roman law that prefigured Justinian's great project.",
+      "description": "The eastern emperor from 408 to 450 — child emperor for most of his reign, dominated by his older sister Pulcheria — who gave Constantinople its famous triple walls, compiled the Theodosian Code (the first systematic codification of Roman law), and presided over the theological chaos of Nestorianism and the Chalcedon crisis.",
       "wikiSlug": "Theodosius_II",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "architecture"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Theodosius II was known as 'the Calligrapher' for his beautiful handwriting — a telling detail about a reign in which real power rested with his regent and then his sister. His Theodosian Code (438) gathered imperial legislation going back to Constantine into one authoritative text, a direct predecessor of Justinian's later legal masterwork. He also established the University of Constantinople, one of the earliest state-funded institutions of higher learning."
+        }
+      ],
+      "commonsFile": "Theodosius_II_Louvre_Ma1036.jpg"
     },
     {
       "id": "evt-anastasius-i",
       "label": "Anastasius I Currency Reform",
       "year": 498,
-      "description": "Emperor Anastasius I overhauled the bronze coinage system, creating clearly denominated follis coins that stabilized everyday commerce and filled the treasury — one of late antiquity's most successful fiscal reforms.",
+      "description": "Emperor Anastasius I (r. 491–518) overhauled the empire's bronze coinage in 498, replacing tiny, hard-to-count low-denomination coins with large, clearly marked follis pieces — a practical reform that stabilized everyday commerce and left the treasury so flush that his successors could afford Justinian's wars.",
       "wikiSlug": "Anastasius_I_(emperor)",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Anastasius came to the throne at age 61 as a career civil servant, chosen by the empress widow Ariadne — an unlikely emperor who turned out to be one of the most capable fiscal managers in Byzantine history. In addition to the coin reform, he abolished the deeply hated collatio lustralis, a tax on merchants and artisans collected every four years that had ground down urban trade for over a century. When he died in 518 he left a treasury surplus reported at 320,000 pounds of gold — a war chest that directly funded Justinian's reconquest campaigns two decades later."
+        }
+      ],
+      "commonsFile": "3820464_Anastasius_I_Half_Follis.jpg"
     },
     {
       "id": "evt-justin-i",
       "label": "Justin I",
       "year": 518,
       "endYear": 527,
-      "description": "An illiterate soldier who rose to emperor, Justin I reoriented Byzantine policy toward the West and groomed his brilliant nephew Justinian as co-emperor — the dynasty's real founder.",
+      "description": "Justin I was the illiterate Thracian peasant-soldier who clawed his way to the top of the Byzantine imperial guard and seized the throne in 518 when Emperor Anastasius died without an heir — founding the dynasty that would produce his far more famous nephew, Justinian.",
       "wikiSlug": "Justin_I",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Justin came to Constantinople as a young man with nothing but his boots, joining the Excubitors (the elite palace guard) and spending decades rising through the ranks. He was roughly 68 years old when he became emperor, making him one of the oldest men ever to seize the Byzantine throne. His consort Euphemia, also of humble origins, reportedly opposed Justinian's marriage to the low-born Theodora — she died before the wedding could happen."
+        }
+      ],
+      "commonsFile": "Solidus_of_Justin_I_(obverse).jpg"
     },
     {
       "id": "evt-belisarius-north-africa",
       "label": "Belisarius Reconquers North Africa",
       "year": 533,
       "endYear": 534,
-      "description": "In a lightning campaign, Belisarius destroyed the Vandal kingdom and restored North Africa to Byzantine rule in under a year — a stunning upset that emboldened Justinian's grander ambitions in Italy.",
+      "description": "In 533–534, Justinian's general Belisarius landed in North Africa with roughly 15,000 men and dismantled the Vandal Kingdom — a Germanic state that had ruled the region for a century — in under a year, winning two pitched battles and capturing the Vandal king Gelimer.",
       "wikiSlug": "Vandalic_War",
       "tier": 3,
       "category": "wars",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This was the first Roman triumph granted to a non-imperial general since the time of Augustus — Belisarius rode a chariot to the Hippodrome with the captured Vandal king Gelimer walking before him as a prisoner. The Vandals had ruled North Africa since Gaiseric's conquests in the 430s and had built a Mediterranean fleet powerful enough to sack Rome twice; by the 530s they had become soft enough that a much smaller Byzantine force destroyed them in a single campaign season. The reconquest returned the grain-producing African provinces and their tax revenues to Constantinople."
+        }
+      ],
+      "commonsFile": "Vandalic_War_campaign_map.png"
     },
     {
       "id": "evt-three-chapters-controversy",
       "label": "Three Chapters Controversy",
       "year": 553,
-      "description": "Justinian's Fifth Ecumenical Council condemned three theologians to appease the Monophysites, backfiring by alienating the western church and creating lasting splits that outlasted the empire.",
+      "description": "In 553, Justinian convened the Fifth Ecumenical Council and pressured it into condemning three long-dead Syrian bishops — a theological maneuver meant to win over the Monophysite churches of Egypt and Syria without formally repudiating the Council of Chalcedon, which satisfied neither side.",
       "wikiSlug": "Three-Chapter_Controversy",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pope Vigilius was physically transported to Constantinople and kept under a kind of imperial house arrest until he signed off on the condemnations — a coercion so blatant that his successors spent decades trying to reverse it. The Monophysites, who wanted Chalcedon itself repudiated, were unmoved. The western church, outraged that dead theologians could be retroactively condemned, saw the whole episode as proof that eastern emperors treated the church as a department of government. The schism between Rome and Constantinople was not formally declared, but the Three Chapters affair deepened a mutual distrust that would not heal."
+        }
+      ]
     },
     {
       "id": "evt-heraclius-nineveh",
       "label": "Battle of Nineveh — Sassanids Crushed",
       "year": 627,
-      "description": "Heraclius destroyed the main Sassanid army at Nineveh, the climax of his audacious counter-offensive deep into Persia that recovered all lost Byzantine territories — one of history's greatest military comebacks.",
+      "description": "On December 12, 627, Heraclius led the Byzantine cavalry to a crushing victory over the main Sasanian field army at Nineveh — the same site as the ancient Assyrian capital destroyed twelve centuries earlier — effectively ending the longest and costliest war Byzantium had ever fought.",
       "wikiSlug": "Battle_of_Nineveh_(627)",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle site's name was not lost on Byzantine writers: fighting at the ruins of Nineveh, where the Medes and Babylonians had destroyed a great empire, carried obvious symbolic weight. Khosrow II was overthrown and executed by his own nobles just months after the defeat, and his successor sued for peace almost immediately, returning all conquered territory including Egypt."
+        }
+      ],
+      "commonsFile": "Cherub_plaque_Louvre_MRR245.jpg"
     },
     {
       "id": "evt-true-cross-recovered",
       "label": "True Cross Recovered",
       "year": 630,
-      "description": "Heraclius returned the relic of the True Cross to Jerusalem after years of Persian captivity, making the triumphant entry that became one of Byzantine history's most celebrated moments — before Arab armies arrived just six years later.",
+      "description": "In March 630, Heraclius rode into Jerusalem barefoot and in a hair shirt, personally carrying the relic of the True Cross back to the Church of the Holy Sepulchre after fourteen years of Persian captivity — the most theatrical religious pageant of late antiquity, celebrated annually afterward as the Feast of the Exaltation of the Holy Cross.",
       "wikiSlug": "True_Cross",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Sasanians had seized the True Cross when they sacked Jerusalem in 614, taking it to Ctesiphon as a war trophy. The recovery was so significant to Byzantine religious identity that the feast commemorating it is still observed in the Eastern Orthodox calendar today. Within six years of the triumph, Arab armies would take Jerusalem again and the relic would be evacuated to Constantinople."
+        }
+      ],
+      "commonsFile": "5281-20080123-jerusalem-holy-sepulchre-treasure.jpg"
     },
     {
       "id": "evt-loss-egypt",
       "label": "Loss of Egypt to the Arabs",
       "year": 642,
-      "description": "Arab forces completed the conquest of Egypt, stripping Byzantium of its wealthiest province and its primary grain supply — a demographic and fiscal catastrophe from which the empire never recovered its former scale.",
+      "description": "Between 639 and 642 AD, Arab armies of the Rashidun Caliphate (the first Islamic state after the Prophet Muhammad's death) under general Amr ibn al-As swept through Byzantine Egypt, ending seven centuries of Roman rule and stripping the empire of its single most valuable province — the ancient grain basket of the Mediterranean and a massive source of imperial tax revenue.",
       "wikiSlug": "Muslim_conquest_of_Egypt",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Egypt had been under Greek and then Roman rule since Alexander the Great conquered it in 332 BC — nearly a thousand unbroken years of Greco-Roman governance ending in roughly three years of Arab campaigning. The conquest was as much political as military: the Egyptian population was largely Coptic Christian (Monophysite), which placed them in decades of theological conflict with Constantinople's Chalcedonian orthodoxy, and many Egyptians were at best indifferent to Byzantine rule and offered limited resistance. The loss was so large that the empire's entire administrative and fiscal structure had to be rebuilt around a much smaller, Anatolian-Balkan core."
+        }
+      ],
+      "commonsFile": "Fortress_of_Babylon,_built_by_Diocletian_300_CE;_Old_Cairo_(4)_(52086142797).jpg"
     },
     {
       "id": "evt-sixth-ecumenical-council",
       "label": "Sixth Ecumenical Council",
       "year": 681,
-      "description": "The Third Council of Constantinople condemned Monothelitism — the compromise doctrine that Christ had one will — and anathematized a sitting pope, resolving a decades-long theological crisis that had divided church and empire.",
+      "description": "The Third Council of Constantinople (680–681) formally condemned Monothelitism — the compromise doctrine that Christ had two natures but a single will — declared Christ to have two wills, and in the process anathematized Pope Honorius I posthumously for having endorsed the heresy, making it one of the few moments the church officially condemned a pope.",
       "wikiSlug": "Third_Council_of_Constantinople",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The anathema of Honorius I became a live problem for the First Vatican Council in 1870, when it declared papal infallibility: defenders had to argue that Honorius's letters were personal opinions rather than formal doctrinal pronouncements. The council also rehabilitated Maximos the Confessor, whose tongue and hand had been cut off for opposing the same doctrine it now declared heretical."
+        }
+      ],
+      "commonsFile": "45-manasses-chronicle.jpg"
     },
     {
       "id": "evt-maximos-confessor",
       "label": "Maximos the Confessor Martyred",
       "year": 662,
-      "description": "The theologian Maximos, who had battled Monothelitism for decades, was tortured, had his tongue and right hand cut off, and died in exile — his stubborn resistance ultimately vindicated at the Sixth Council nineteen years later.",
+      "description": "Maximos the Confessor (c. 580–662) was a former imperial secretary turned monk who became the leading theologian of the age by refusing to accept the empire's Monothelitism compromise. Tried for treason in 654, he had his tongue and right hand cut off — the instruments of his offense, since he had spoken and written against imperial policy — and died in Caucasian exile.",
       "wikiSlug": "Maximus_the_Confessor",
       "tier": 3,
       "category": "religion",
       "tags": [
         "people"
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Maximos had been a high-ranking court official before abandoning imperial service for monastic life, giving him an insider's understanding of the politics he was defying. He was formally vindicated at the Sixth Ecumenical Council nineteen years after his death, and the council went further still: it anathematized Pope Honorius I, a sitting (if long-dead) pope who had endorsed Monothelitism — a ruling that would complicate Catholic arguments for papal infallibility for centuries."
+        }
       ]
     },
     {
       "id": "evt-council-hieria",
       "label": "Council of Hieria",
       "year": 754,
-      "description": "Emperor Constantine V convened an iconoclast council of 338 bishops that condemned icon veneration as idolatry — the high-water mark of imperial iconoclasm, later rejected and anathematized by the Second Council of Nicaea.",
+      "description": "In 754, Emperor Constantine V packed 338 bishops into a council at the palace of Hieria and got them to formally condemn icon veneration as idolatry — declaring it the Seventh Ecumenical Council, the highest authority in Christian doctrine.",
       "wikiSlug": "Council_of_Hieria",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The council's claim to ecumenical authority had a fatal flaw: none of the five great patriarchates (Rome, Constantinople, Alexandria, Antioch, Jerusalem) sent their patriarchs to attend, and the Pope of Rome was conspicuously absent. When the Second Council of Nicaea convened in 787 to reverse Hieria's rulings, it also formally anathematized — cursed — the council's leadership by name, an almost unprecedented step that erased Hieria from the official list of valid councils entirely."
+        }
+      ]
     },
     {
       "id": "evt-second-council-nicaea",
       "label": "Second Council of Nicaea",
       "year": 787,
-      "description": "Empress Irene convened the Seventh Ecumenical Council which definitively restored icon veneration, drawing the theological boundary between legitimate veneration and forbidden worship — a definition still used by Orthodox and Catholic churches.",
+      "description": "The Second Council of Nicaea in 787 — recognized by both Catholic and Orthodox churches as the Seventh Ecumenical Council — reversed the iconoclast ban by establishing the precise theological line between legitimate veneration of an icon and forbidden worship of it.",
       "wikiSlug": "Second_Council_of_Nicaea",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The council had to be convened twice: a first attempt in 786 was physically broken up by iconoclast soldiers who invaded the church and threatened the bishops. Empress Irene dissolved and reassigned those troops before trying again in Nicaea. The key theological formula it adopted — that honor shown to an image passes through to the person depicted — came directly from John of Damascus's writings, meaning a theologian living under Muslim rule in Damascus had effectively authored the doctrine of the empire's highest church council."
+        }
+      ],
+      "commonsFile": "Menologion_of_Basil_024.jpg"
     },
     {
       "id": "evt-photian-schism",
       "label": "Photian Schism",
       "year": 863,
       "endYear": 867,
-      "description": "A bitter dispute between Rome and Constantinople over Patriarch Photius's legitimacy erupted into mutual condemnations — a rehearsal for the Great Schism of 1054, rehearsing every argument about papal supremacy versus conciliar authority.",
+      "description": "A four-year standoff (863–867) between Rome and Constantinople over whether the Byzantine emperor could appoint his own patriarch without papal approval — ending in mutual condemnations and previewing every argument of the Great Schism two centuries later.",
       "wikiSlug": "Photian_schism",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Photius had been a lay civil servant with no clerical background; he was rushed through all six ranks of holy orders in just six days to reach the patriarchate, a speed Rome flatly refused to recognize. The dispute crystallized two theological fault lines that still divide Roman Catholics and Eastern Orthodox today: whether the Holy Spirit proceeds from the Father alone or also from the Son (the Filioque clause), and whether Rome's bishop holds supreme authority over the entire church or is merely first among equals."
+        }
+      ],
+      "commonsFile": "Патриарх_фотий.png"
     },
     {
       "id": "evt-romanos-i-lekapenos",
       "label": "Romanos I Lekapenos Seizes Power",
       "year": 920,
       "endYear": 944,
-      "description": "An admiral-turned-emperor, Romanos I sidelined the legitimate heir Constantine VII and ruled as senior emperor for 24 years, conducting successful wars against Bulgaria and issuing reforms protecting small landholders from aristocratic encroachment.",
+      "description": "An admiral who muscled his way into power in 920 by marrying his daughter to the legitimate heir Constantine VII, Romanos I ruled as senior emperor for 24 years — fighting Bulgaria, protecting small farmers from predatory aristocrats, and outlasting his political rivals — before his own sons deposed him.",
       "wikiSlug": "Romanos_I_Lekapenos",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Romanos's land legislation against the dynatoi (\"the powerful ones,\" the great aristocratic landowners) tried to stop the absorption of small peasant farms into large private estates — a policy Basil II would later enforce even more aggressively. His reign ended in a family coup: his own sons arrested him in 944 and sent him to a monastery, but they miscalculated badly, as Constantine VII immediately took sole power and they lost everything they had schemed to gain."
+        }
+      ],
+      "commonsFile": "Seal_of_Romanos_I_Lekapenos.png"
     },
     {
       "id": "evt-nikephoros-ii-phokas",
       "label": "Nikephoros II Phokas Reconquers Antioch",
       "year": 969,
-      "description": "The soldier-emperor Nikephoros II retook Antioch from the Hamdanid Arabs, restoring one of Christianity's oldest cities to Byzantine rule after three centuries of Muslim control — the apex of the Macedonian military revival.",
+      "description": "Soldier-emperor Nikephoros II Phokas — already famous for reconquering Crete — pushed the eastern frontier deep into Syria and in 969 recaptured Antioch, one of the five original seats of Christian authority, lost to the Arabs since 638.",
       "wikiSlug": "Nikephoros_II",
       "tier": 3,
       "category": "wars",
       "tags": [
         "people"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nikephoros earned the nickname \"pale death of the Saracens\" for his relentless eastern campaigns, which also recovered Cyprus and Cilicia (the southeastern coast of modern Turkey). His reign ended in one of Byzantium's more spectacular palace murders: his wife Theophano conspired with her lover, the general John Tzimiskes, to have Nikephoros stabbed in his bedroom while he slept on the floor in his characteristic ascetic military style. Tzimiskes continued the eastern push, reportedly reaching as far as Mesopotamia before an unrelated crisis pulled him back."
+        }
+      ],
+      "commonsFile": "Nikephoros_Phokas.jpg"
     },
     {
       "id": "evt-michael-psellos",
       "label": "Michael Psellos",
       "year": 1018,
       "endYear": 1078,
-      "description": "The foremost intellectual of the Macedonian-Komnenian transition, Psellos revived Platonic philosophy at Constantinople and wrote the Chronographia — a shrewd psychological portrait of the emperors he served and sometimes manipulated.",
+      "description": "Michael Psellos (PSEL-os, 1017/18–1078) was the sharpest mind at the Byzantine court for half a century — philosopher, historian, and palace operator who served multiple emperors and wrote the Chronographia, a memoir of court life so psychologically shrewd and gossipy that it reads almost like a modern political memoir.",
       "wikiSlug": "Michael_Psellos",
       "tier": 3,
       "category": "people",
       "tags": [
         "writing"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Psellos championed a revival of Platonic philosophy at a time when Plato's pagan metaphysics made many churchmen uncomfortable, and his student John Italos was later put on trial for heresy when he pushed the Neoplatonist line too far. He was also, by his own account, instrumental in repositioning the power of multiple emperors — advising, flattering, and occasionally steering them — which means his Chronographia has to be read with one eye on what he's covering up. His account remains one of the only detailed first-person sources for the reigns of six eleventh-century emperors."
+        }
+      ],
+      "commonsFile": "Michael_Psellos.jpg"
     },
     {
       "id": "evt-currency-debasement",
       "label": "Currency Debasement Begins",
       "year": 1030,
-      "description": "Starting under Constantine IX, emperors began systematically reducing the gold content of the nomisma — the coin that had held stable for 700 years. By the 1070s it had lost 70% of its gold, triggering inflation and fiscal crisis.",
+      "description": "The nomisma (no-MIZ-mah), Byzantium's gold coin, had held steady at roughly 4.5 grams of near-pure gold for over six centuries — the most stable currency in the medieval world. Starting around 1030, successive emperors quietly shaved the gold content to cover budget shortfalls, and by the 1070s the coin was about 30% gold, visibly redder in color from the copper filler, and no longer trusted in international markets.",
       "wikiSlug": "Solidus",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The coin was known in the West as the 'bezant' and served as the de facto reserve currency of the entire Mediterranean trading world — Byzantine gold was accepted from England to India without question. The debasement was driven partly by the dynatoi (dih-NAH-toy), the great landed aristocrats who had spent the post-Basil II years buying up peasant smallholdings and converting tax-paying farms into tax-exempt estates, collapsing the state's revenue base. The hollowing-out of the coin also eroded soldiers' real wages, since their pay was fixed in nomismata that now bought far less — a feedback loop that weakened the army exactly when new enemies were closing in."
+        }
+      ],
+      "commonsFile": "Theodosius_II_solidus.jpg"
     },
     {
       "id": "evt-hyperpyron-alexios",
       "label": "Hyperpyron Introduced",
       "year": 1092,
-      "description": "Alexios I Komnenos replaced the debased nomisma with the hyperpyron — a new high-purity gold coin — restoring monetary confidence and laying a sound fiscal foundation for the Komnenian military recovery.",
+      "description": "In 1092, Alexios I replaced the catastrophically debased Byzantine gold coin with the hyperpyron (\"super-refined\"), an 87%-pure gold coin that restored confidence in Byzantine money and became the eastern Mediterranean's standard currency for two centuries.",
       "wikiSlug": "Hyperpyron",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The old solidus had held its gold content near-constant for seven centuries before the crisis emperors debased it in the eleventh century; foreigners had stopped accepting it and were using their own coins in Byzantine markets. The hyperpyron was slightly less pure than the original solidus but reliable enough to do the job. It would eventually be debased again under later Komnenian successors."
+        }
+      ],
+      "commonsFile": "Hyperpyron-Manuel_I-sb1965.jpg"
     },
     {
       "id": "evt-john-ii-komnenos",
       "label": "John II Kalojohannes",
       "year": 1118,
       "endYear": 1143,
-      "description": "Often called Byzantium's finest emperor, John II waged relentless campaigns to restore prestige — recovering Cilicia, reasserting suzerainty over Antioch, and pushing into the Holy Land — before dying from a hunting accident.",
+      "description": "John II Komnenos (ruled 1118–1143), known as \"John the Good\" or \"Kalojohannes,\" was the most methodically effective Komnenian emperor — campaigning almost without pause against Pechenegs, Hungarians, Seljuks, and the crusader states to steadily rebuild imperial territory.",
       "wikiSlug": "John_II_Komnenos",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "wars"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He destroyed the Pecheneg confederation permanently at the Battle of Beroia in 1122, ending a nomadic threat that had plagued the empire for decades. His reign ended in one of history's more improbable deaths: a poisoned arrow from his own quiver, accidentally self-inflicted while boar hunting in Cilicia; the wound became infected and killed him. Contemporaries suspected assassination but no credible plot was ever documented."
+        }
+      ],
+      "commonsFile": "Jean_II_Comnene.jpg"
     },
     {
       "id": "evt-battle-myriokephalon",
       "label": "Battle of Myriokephalon",
       "year": 1176,
-      "description": "Manuel I's ambitious campaign to reconquer Anatolia ended in catastrophic ambush — the Seljuks destroyed the Byzantine army in a mountain pass, ending forever the dream of recovering the Anatolian heartland.",
+      "description": "On September 17, 1176, the Seljuk Sultan Kilij Arslan II ambushed Manuel I's massive Byzantine army in a mountain pass in southwestern Anatolia called Myriokephalon (\"Place of a Thousand Heads\"), inflicting heavy casualties and ending permanently the Byzantine dream of reconquering the Anatolian interior.",
       "wikiSlug": "Battle_of_Myriokephalon",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Manuel himself survived and successfully extracted the remnant of his force, but he wrote to western rulers comparing the defeat directly to Manzikert — a century-old disaster the Byzantines still measured all catastrophes against. The pass's name turned out to be apt. After Myriokephalon, no serious Byzantine attempt was ever made to retake Anatolia."
+        }
+      ],
+      "commonsFile": "Crusades_surprised_by_turks.jpg"
     },
     {
       "id": "evt-genoa-pisa-privileges",
       "label": "Genoese and Pisan Trade Privileges",
       "year": 1111,
-      "description": "John II and his successors extended sweeping trade concessions to Pisa (1111) and Genoa (1155), completing the transfer of Byzantine maritime commerce to Italian city-states and devastating domestic Greek merchants.",
+      "description": "Following the 1082 Venetian deal, successive Komnenian emperors extended matching trade exemptions to Pisa (1111) and Genoa (1155), completing the surrender of Byzantine maritime commerce to Italian city-states and leaving Greek merchants outcompeted in their own home ports.",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By the mid-twelfth century three rival Italian trading colonies operated simultaneously in Constantinople, each with its own dedicated quarter, its own exemptions, and its own grievances against the others and against the Byzantines. The arrangement meant the empire collected almost no customs revenue from the very trade passing through its own capital."
+        }
+      ]
     },
     {
       "id": "evt-andronikos-i-overthrow",
       "label": "Andronikos I Overthrown",
       "year": 1185,
-      "description": "The brutal emperor Andronikos I, who had massacred the Latin population of Constantinople in 1182, was overthrown and lynched by a mob — ending the Komnenian dynasty and opening an era of dynastic instability.",
+      "description": "Andronikos I Komnenos, who had seized the throne through a series of murders in 1182–1183 and presided over the massacre of Constantinople's entire Latin merchant population, was himself overthrown in 1185 and lynched over three days in the Hippodrome — ending the Komnenian dynasty.",
       "wikiSlug": "Andronikos_I_Komnenos",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Andronikos's death was extraordinarily brutal even by Byzantine standards: the crowd tore out his eyes, cut off his right hand, pulled his teeth, peeled his skin, and hacked his body apart. He was around 65 years old. The massacre of Latin merchants he had overseen in 1182 — perhaps 60,000 Italians killed or enslaved — is considered one of the direct causes of the Fourth Crusade's sack of Constantinople in 1204."
+        }
+      ],
+      "commonsFile": "Death_of_andronic_I.png"
     },
     {
       "id": "evt-empire-nicaea",
       "label": "Empire of Nicaea",
       "year": 1204,
       "endYear": 1261,
-      "description": "Byzantine court refugees established a rump state at Nicaea under Theodore I Laskaris, which became the empire's legitimate successor — carefully husbanding resources for the eventual reconquest of Constantinople.",
+      "description": "When Constantinople fell in 1204, the Byzantine aristocracy reconstituted a functioning state at Nicaea (in northwestern Anatolia, about 60 miles / 100 km southeast of Constantinople), which kept the imperial title, the Patriarchate, and the institutional memory of Byzantium alive through fifty-seven years of exile.",
       "wikiSlug": "Empire_of_Nicaea",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nicaea was the largest of three Byzantine exile states — the others being Trebizond on the Black Sea coast and Epirus in northwestern Greece — and was recognized by most of the Orthodox world as the legitimate Roman successor. The Patriarchate of Constantinople relocated to Nicaea and continued consecrating Greek bishops as if operating from the original see, preserving the ecclesiastical chain of legitimacy. Under John III Vatatzes, Nicaea systematically isolated the Latin Empire until it controlled little more than Constantinople itself."
+        }
+      ],
+      "commonsFile": "LatinEmpire2.png"
     },
     {
       "id": "evt-john-iii-vatatzes",
       "label": "John III Vatatzes",
       "year": 1221,
       "endYear": 1254,
-      "description": "The ablest emperor of Nicaean exile, John III expanded the state's economy through agricultural self-sufficiency, pushed the Latins to just Thrace, and built the diplomatic and military foundations for the 1261 reconquest.",
+      "description": "The most capable emperor of the Nicaean exile period, John III Doukas Vatatzes (ruled 1221–1254) transformed the rump state into a self-sufficient agricultural and military power that reduced the Latin Empire to a Constantinople-sized relic and built the foundation for the eventual reconquest.",
       "wikiSlug": "John_III_Doukas_Vatatzes",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "John III reportedly issued chickens and grain to peasant villages as part of a deliberate drive toward agricultural self-sufficiency, funding his military campaigns without Italian merchant loans. He was so scrupulous about domestic production that he once gave his wife a crown made from the proceeds of eggs sold from his imperial chicken farm — a story that survived in Byzantine chronicles as a pointed contrast to the Latin Empire's constant bankruptcy. He also restored the University of Constantinople in exile at Nicaea, contributing to what later historians called the Palaeologan Renaissance."
+        }
+      ],
+      "commonsFile": "149_-_John_III_Doukas_Vatatzes_(Mutinensis_-_color).png"
     },
     {
       "id": "evt-michael-viii",
       "label": "Michael VIII Palaiologos",
       "year": 1261,
       "endYear": 1282,
-      "description": "Founder of the last Byzantine dynasty, Michael VIII retook Constantinople and pursued a grand diplomatic strategy — including a short-lived union with Rome — to keep the Angevins from launching a reconquest.",
+      "description": "Michael VIII Palaiologos (ruled 1261–1282) retook Constantinople, founded the Palaiologan dynasty that would rule Byzantium until 1453, and spent his reign using diplomacy rather than armies to prevent a western counter-crusade from taking it back.",
       "wikiSlug": "Michael_VIII_Palaiologos",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His most audacious gambit was the Union of Lyons in 1274 — a formal reunion of the Greek and Latin churches under papal authority, deeply loathed by virtually every Greek clergyman and layperson, used purely as a diplomatic tool to keep Pope Gregory X from blessing Charles of Anjou's planned invasion. When that wasn't enough, Michael secretly funded the Sicilian Vespers in 1282 — a violent popular uprising that massacred thousands of French troops and officials across Sicily, destroying Charles's invasion staging base in a single night. His son Andronikos II repudiated the church union the day Michael died, but the empire had survived."
+        }
+      ],
+      "commonsFile": "Miniature_of_Michael_VIII.png"
     },
     {
       "id": "evt-battle-pelekanon",
       "label": "Battle of Pelekanon",
       "year": 1329,
-      "description": "Ottoman forces defeated Andronikos III, ending Byzantine hopes of recovering Nicaea. The defeat signaled that the empire could no longer protect its Anatolian cities, accelerating their defection to the Ottomans.",
+      "description": "At the Battle of Pelekanon (June 1329), on the southern shore of the Sea of Marmara, the Ottoman emir Orhan defeated Emperor Andronikos III's relief force — ending any serious Byzantine attempt to hold its remaining Anatolian cities and sealing the fate of Nicaea, which fell shortly after.",
       "wikiSlug": "Battle_of_Pelekanon",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Andronikos III was wounded during the battle, which contributed to the Byzantine retreat. Nicaea had been the empire's wartime capital for half a century (1204–1261) after the Fourth Crusade seized Constantinople — losing it to the Ottomans was not just a strategic defeat but the erasure of that identity. Nicomedia (modern İzmit), the old eastern imperial capital where Constantine the Great had died, fell to the Ottomans shortly afterward, completing the loss of Bithynia."
+        }
+      ],
+      "commonsFile": "Orhan_I_area_map.png"
     },
     {
       "id": "evt-ottomans-europe",
       "label": "Ottomans Cross into Europe",
       "year": 1354,
-      "description": "The Ottomans seized Gallipoli — their first permanent foothold in Europe — largely because John VI Kantakouzenos had invited them as mercenaries during the civil war. Byzantium had inadvertently handed its eventual destroyers a bridgehead.",
+      "description": "In 1354 an earthquake demolished the walls of the Byzantine fortress at Gallipoli (the narrow peninsula controlling the Dardanelles strait between Europe and Asia), and Ottoman forces already in the area — invited there by Kantakouzenos during the civil war — simply occupied the ruins and refused to leave.",
       "wikiSlug": "Fall_of_Gallipoli",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The earthquake struck in March 1354, and Orhan's forces moved in within days. Byzantine Emperor John V Palaiologos reportedly wept when Kantakouzenos told him the fortress was lost. Kantakouzenos offered to buy Gallipoli back from Orhan for cash; Orhan declined. The loss of Gallipoli gave the Ottomans a permanent crossing point between Asia and Europe that they would hold for the next five and a half centuries."
+        }
+      ],
+      "commonsFile": "Byzantine_empire_1355.jpg"
     },
     {
       "id": "evt-fall-adrianople",
       "label": "Fall of Adrianople",
       "year": 1369,
-      "description": "The Ottomans took Adrianople (Edirne) and made it their capital, surrounding Constantinople with Ottoman-controlled territory on all sides and reducing the empire to its capital city and scattered outposts.",
+      "description": "The Ottomans captured Adrianople (modern Edirne, in what is now northwest Turkey) around 1369 and made it their new capital — placing the heart of Ottoman power in Europe itself, on the western side of the Dardanelles, and encircling Constantinople on the land side.",
       "wikiSlug": "Edirne",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Adrianople had been a major Roman and Byzantine city for over a thousand years; it was the site of the catastrophic Roman defeat by Visigoths in 378 that had permanently destabilized the Western empire (covered in the Ancient Rome and Goths narratives). Making it an Ottoman capital was a pointed signal: this was not a raid but a permanent transfer of civilization. The city's famous Selimiye Mosque, built by Suleiman the Magnificent's architect Sinan in the 1570s and considered by many the apex of Ottoman architecture, now dominates its skyline."
+        }
+      ],
+      "commonsFile": "Selimiye_Mosque_and_The_Statue_of_Architect_Sinan_-_panoramio.jpg"
     },
     {
       "id": "evt-gregory-palamas",
       "label": "Gregory Palamas",
       "year": 1296,
       "endYear": 1359,
-      "description": "The monk-theologian who formalized the Hesychast teaching that humans can experience God's uncreated energies directly — now a cornerstone of Eastern Orthodox theology. His canonization in 1368 made Palamism official Orthodox doctrine.",
+      "description": "Gregory Palamas (c. 1296–1359) was a Mount Athos monk turned Archbishop of Thessalonica whose theological distinction between God's unknowable essence and His knowable energies resolved one of Christianity's deepest tensions — and remains the defining difference between Eastern Orthodox and Western Christian theology.",
       "wikiSlug": "Gregory_Palamas",
       "tier": 3,
       "category": "people",
       "tags": [
         "religion"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Palamas fought three successive theological controversies over roughly two decades against different opponents: first Barlaam, then the monk Gregory Akindynos, then the historian Nikephoros Gregoras. He was canonized in 1368, less than a decade after his death — unusually fast even for medieval standards. The Second Sunday of Lent in the Orthodox calendar is still dedicated to his memory, making Palamism structurally embedded in Orthodox liturgical life."
+        }
+      ],
+      "commonsFile": "Григорий_Палама_14в.jpg"
     },
     {
       "id": "evt-manuel-ii-western-tour",
       "label": "Manuel II's Western Tour",
       "year": 1399,
       "endYear": 1402,
-      "description": "Emperor Manuel II made a remarkable diplomatic tour of Europe — visiting Venice, Paris, and London to beg for military aid against the Ottomans. He was received with honor but returned with little concrete help.",
+      "description": "Emperor Manuel II Palaiologos (ruled 1391–1425) spent three years (1399–1402) traveling through the courts of Venice, Paris, and London to plead for military aid against the Ottomans — the Roman emperor as a supplicant, received with honor and sympathy but sent home with almost nothing.",
       "wikiSlug": "Manuel_II_Palaiologos",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Manuel spent Christmas 1400 at the court of King Henry IV in London, and was painted in his imperial regalia by an English manuscript illustrator — one of the only surviving contemporary depictions of a Byzantine emperor in western art. The French king Charles VI hosted him in Paris for months and reportedly wept at the state of the empire. Manuel was known as one of the most cultured emperors of his era; he wrote theology, letters, and a funeral oration for his brother. He returned to Constantinople in 1402 to find the Ottoman threat had evaporated overnight thanks to Tamerlane."
+        }
+      ],
+      "commonsFile": "Manuel_II_Palaiologos_(cropped).jpg"
     },
     {
       "id": "evt-tamerlane-ankara",
       "label": "Tamerlane Defeats Ottomans at Ankara",
       "year": 1402,
-      "description": "Timur's crushing defeat and capture of Sultan Bayezid I at the Battle of Ankara gave Byzantium a crucial half-century reprieve as the Ottoman state fragmented — an unexpected lifeline that delayed the final siege by fifty years.",
+      "description": "On July 28, 1402, the Mongol-Turkic conqueror Timur (Tamerlane) crushed the Ottoman army at the Battle of Ankara, captured Sultan Bayezid I in person, and triggered an Ottoman civil war — accidentally giving Constantinople a fifty-year reprieve from the siege that had been imminent.",
       "wikiSlug": "Battle_of_Ankara",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bayezid I died in Timur's captivity in 1403; accounts differ on whether he was treated respectfully or humiliatingly, but the captivity itself was the symbolic inversion of Ottoman power. Timur then distributed the Anatolian territory among Bayezid's surviving sons as vassals, which immediately set them fighting each other — the Ottoman Interregnum (1402–1413). Byzantine Emperor Manuel II had been abroad in western Europe begging for help when the battle happened; he returned to find the pressure simply gone."
+        }
+      ],
+      "commonsFile": "Timur_reviews_his_troops_in_the_plain_of_Sivas_in_the_battle_of_Ankara_in_mid-summer_1402._Zafarnama_of_1436,_facing_folios_356r_(left),_355v_(right).jpg"
     },
     {
       "id": "evt-council-florence",
       "label": "Council of Florence",
       "year": 1439,
-      "description": "Desperate for western military aid, Byzantine Emperor John VIII signed a union with Rome acknowledging papal supremacy. The Greek clergy and populace rejected it, leaving Byzantium isolated — the famous quip: 'Better the turban than the tiara.'",
+      "description": "In a last-ditch bid for western military help, Emperor John VIII traveled to Italy and signed a church union with Rome at Florence in 1439, conceding papal supremacy and other long-disputed theological points. Back home, the Greek clergy and population refused to accept it — the whole gamble collapsed without producing the promised armies.",
       "wikiSlug": "Council_of_Florence",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The council was originally convened in Basel in 1431 but migrated to Ferrara, then Florence, partly to escape a plague outbreak. The Greek philosopher Plethon attended as a court philosopher and used his time in Florence to lecture on Plato — directly inspiring Cosimo de' Medici's later founding of the Platonic Academy. Only one Greek bishop, Mark of Ephesus, refused to sign the Decree of Union on July 6, 1439; he became an instant hero back in Constantinople. The crusade the union was supposed to unlock — launched in 1444 under King Vladislav III — ended in total disaster at the Battle of Varna, so the Greeks had surrendered their religious independence for nothing."
+        }
+      ],
+      "commonsFile": "Nuremberg_chronicles_f_244v_2_Concilium_florentinum.jpg"
     },
     {
       "id": "evt-bessarion",
       "label": "Cardinal Bessarion",
       "year": 1403,
       "endYear": 1472,
-      "description": "The Byzantine scholar-bishop who supported the Council of Florence union, settled in Rome, and donated his vast Greek manuscript collection to Venice — preserving hundreds of classical texts and becoming a central figure in the Renaissance transmission of ancient knowledge.",
+      "description": "Cardinal Bessarion was the Byzantine scholar-bishop who staked everything on the Florence church union and then spent his remaining decades in Rome building the largest Greek manuscript collection in the Western world — over six hundred volumes — before donating them to Venice, founding what became the Biblioteca Marciana.",
       "wikiSlug": "Bessarion",
       "tier": 3,
       "category": "people",
       "tags": [
         "writing"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bessarion was twice seriously considered for election as Pope — a Byzantine Orthodox-turned-Catholic cardinal nearly becoming head of the Roman Church. He also held the ceremonial title of Latin Patriarch of Constantinople, meaning that at the very moment the real patriarch was being appointed by the Ottoman Sultan, Rome's nominal patriarch was a Greek refugee scholar in Italy. His manuscript bequest to Venice in 1468 was explicitly motivated by fear that without a safe Western repository, the remaining Greek texts would be lost forever."
+        }
+      ],
+      "commonsFile": "Johannes_Bessarion_aport012.png"
     },
     {
       "id": "evt-greek-scholars-west",
       "label": "Greek Scholars Flee to Italy",
       "year": 1453,
-      "description": "The fall of Constantinople drove a generation of Byzantine scholars and their manuscript libraries to Italy, energizing Renaissance humanism with direct access to Plato, Aristotle, and Greek patristics in the original.",
+      "description": "When Constantinople fell in 1453, a generation of Byzantine scholars fled to Italy carrying manuscripts of Plato, Aristotle, and the Greek classical canon — texts the Latin West had not been able to read in over a thousand years. They brought the originals, knew the language fluently, and were willing to teach, accelerating the Italian Renaissance into a serious engagement with Greek thought.",
       "wikiSlug": "Greek_scholars_in_the_Renaissance",
       "tier": 2,
       "category": "people",
       "tags": [
         "writing"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The migration had been underway before the fall: Manuel Chrysoloras was teaching Greek in Florence as early as 1397, training the first wave of Italian Greek scholars a full half-century before the conquest. The Venetian printer Aldus Manutius employed Cretan Greek refugees specifically to typeset the Aldine editions of the Greek classics in the 1490s–1500s, giving the rest of Europe its first reliable printed access to Sophocles, Thucydides, and Aristophanes. Demetrius Chalcondyles, one of the refugee scholars, edited the first printed edition of Homer in 1488 — the first time that text had ever appeared in type."
+        }
+      ],
+      "commonsFile": "Argyropoulos_(detail)_Calling_of_the_Apostles.JPG"
     },
     {
       "id": "evt-zeno-henotikon",
       "label": "Henotikon of Zeno",
       "year": 482,
-      "description": "Emperor Zeno issued the Henotikon — a theological compromise edict attempting to reconcile Chalcedonians and Monophysites — that instead triggered the Acacian Schism with Rome, the first formal break between eastern and western churches.",
+      "description": "In 482, Emperor Zeno issued the Henotikon — a deliberately vague theological compromise edict meant to paper over the Chalcedonian split between Monophysite Egypt/Syria and Dyophysite Rome/Constantinople — that instead triggered the first formal break between the eastern and western churches.",
       "wikiSlug": "Henotikon",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Acacian Schism (named after Patriarch Acacius of Constantinople, who backed the Henotikon) lasted from 484 to 519 — 35 years of formal broken communion between Rome and Constantinople. It was eventually patched up, but it set a pattern of estrangement and reconciliation that would repeat for the next six centuries until the permanent break in 1054. The Henotikon itself satisfied almost no one: it was rejected by strict Chalcedonians as too soft and by strict Monophysites as not going far enough."
+        }
+      ],
+      "commonsFile": "Spas_vsederzhitel_sinay_(cropped1).jpg"
     },
     {
       "id": "evt-varangian-guard",
       "label": "Varangian Guard Founded",
       "year": 988,
-      "description": "Basil II enrolled 6,000 Norse-Rus warriors sent by Vladimir of Kyiv into an elite imperial bodyguard — the famed Varangian Guard. Later staffed by Anglo-Saxons after the Norman Conquest, it served Byzantine emperors for over four centuries.",
+      "description": "In 988, as part of the marriage deal with Prince Vladimir, Basil II received 6,000 Norse-Rus warriors who became the Varangian Guard — the emperor's elite personal bodyguard, deliberately recruited from men with no local political loyalties.",
       "wikiSlug": "Varangian_Guard",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Varangians were loyal to the imperial office rather than to any individual emperor, switching allegiance smoothly even when the new emperor had just murdered the old one. After the Norman Conquest of England in 1066, large numbers of displaced Anglo-Saxons traveled to Constantinople and enrolled in the Guard, making it substantially Anglo-Saxon by the late eleventh century. The future Norwegian king Harald Hardrada served in the Varangian Guard before returning to Scandinavia and dying at the Battle of Stamford Bridge in 1066 — the same year the Norman Conquest was reshaping who ended up in Byzantine service."
+        }
+      ],
+      "commonsFile": "A_Thracesian_woman_kills_a_Varangian.jpg"
     },
     {
       "id": "evt-john-kantakouzenos",
       "label": "John VI Kantakouzenos",
       "year": 1347,
       "endYear": 1354,
-      "description": "A nobleman who won the civil war and ruled as emperor, Kantakouzenos then abdicated to become a monk — later writing a major history of his own reign. His invitation of Ottoman mercenaries proved catastrophic for Byzantine survival.",
+      "description": "John VI Kantakouzenos was the senior Byzantine nobleman who fought a six-year civil war to become emperor (1347–1354), invited the Ottomans into Europe in the process, then abdicated to become a monk — and spent his final decades as a historian writing his own self-justifying account of the catastrophe he had caused.",
       "wikiSlug": "John_VI_Kantakouzenos",
       "tier": 3,
       "category": "rulers",
       "tags": [
         "writing"
-      ]
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kantakouzenos lived to roughly age 90 or 91, making him the longest-lived Roman emperor on record. He took the monastic name Joasaph Christodoulos after his abdication and wrote a four-volume history of the civil war that remains a primary source for the period despite its obvious bias. His daughter Theodora, whom he had married to Ottoman Sultan Orhan as part of the civil war alliance, never returned to Byzantine court life; she remained in the Ottoman harem."
+        }
+      ],
+      "commonsFile": "156_-_John_VI_Kantakouzenos_(Mutinensis_-_color).png"
     },
     {
       "id": "evt-demetrios-kydones",
       "label": "Demetrios Kydones",
       "year": 1324,
       "endYear": 1398,
-      "description": "The influential minister and translator who rendered Aquinas's Summa Theologiae into Greek, opening Latin scholasticism to Byzantine readers — a bridge figure in the late Byzantine intellectual engagement with the West.",
+      "description": "Demetrios Kydones (c. 1324–1398) was an imperial minister who translated Thomas Aquinas's Summa Theologiae into Greek — the first time Latin scholastic philosophy was fully accessible to Byzantine readers — and served three successive emperors as the empire's chief minister.",
       "wikiSlug": "Demetrios_Kydones",
       "tier": 3,
       "category": "people",
       "tags": [
         "writing"
+      ],
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kydones served as Mesazon (the Byzantine equivalent of prime minister) under John VI Kantakouzenos, John V Palaiologos, and Manuel II Palaiologos — an almost unheard-of span of continuous service across three reigns. His translation work led him eventually to convert to Roman Catholicism, which made him theologically suspect at a court that had just institutionalized Palamism. He also translated Aquinas's Summa Contra Gentiles and several works by Albertus Magnus, single-handedly opening a generation of Byzantine engagement with Western scholasticism."
+        }
       ]
     },
     {
@@ -1146,20 +1861,34 @@
       "label": "Andronikos II's Fiscal Disasters",
       "year": 1282,
       "endYear": 1328,
-      "description": "Andronikos II dismantled the Byzantine navy to save money, granting its operations to Genoese contractors — a decision that left Constantinople wholly dependent on Italian sea power and fatally undermined Byzantine commercial independence.",
+      "description": "Andronikos II Palaiologos (ruled 1282–1328) tried to fix Byzantine finances by disbanding the imperial navy and outsourcing sea defense to Genoese merchants — a cost-cutting move that permanently surrendered Byzantine control of its own waters.",
       "wikiSlug": "Andronikos_II_Palaiologos",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Genoese used their contracted role to fortify Galata, a district across the Golden Horn from Constantinople, as a fully autonomous walled enclave with its own laws and tax revenue entirely outside imperial authority. Andronikos's fiscal belt-tightening came despite the empire having just recovered Constantinople in 1261; the treasury was effectively insolvent from day one of the restoration. His reign ended with his own grandson Andronikos III deposing him after seven years of civil war, after which he retired to a monastery."
+        }
+      ],
+      "commonsFile": "Miniature_of_Andronikos_II.png"
     },
     {
       "id": "evt-catalan-company",
       "label": "Catalan Company Ravages Greece",
       "year": 1303,
       "endYear": 1311,
-      "description": "Hired as mercenaries against the Turks, the Catalan Company turned on their Byzantine employers after a dispute, ravaging Thrace and Macedonia for years before seizing the Duchy of Athens — a textbook example of the empire's inability to control hired forces.",
+      "description": "The Catalan Company — Aragonese mercenary veterans hired to fight the Turks in 1303 — turned on Byzantium after the assassination of their leader Roger de Flor, spent years ravaging the empire's own Balkan provinces, and then seized the Duchy of Athens as their permanent base.",
       "wikiSlug": "Catalan_Company",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Catalans were composed largely of Almogavars (al-moh-gah-VARS), hardened light infantry who had spent decades fighting in the Sicilian wars and were left unemployed by the 1302 peace treaty. After murdering and plundering their way through Thrace and Macedonia for four years, they defeated the Frankish Duke of Athens at the Battle of Halmyros in 1311 — a swampy engagement where the Catalans flooded the plain to neutralize the Frankish cavalry. They then ruled the Duchy for the next seventy-seven years, never returning to Aragon."
+        }
+      ],
+      "commonsFile": "Crònica_de_Ramon_Muntaner.jpg"
     },
     {
       "id": "evt-hagios-demetrios-mosaics",
@@ -1174,10 +1903,16 @@
       "id": "evt-reconquest-spain",
       "label": "Reconquest of Southern Spain",
       "year": 554,
-      "description": "Justinian's forces seized a foothold in southeastern Spain (the province of Spania) from the Visigoths, briefly extending Byzantine rule to the Iberian Peninsula — the westernmost reach of the empire's restoration ambitions.",
+      "description": "In 554, Byzantine forces seized a strip of southeastern Spain — the province of Spania, running roughly from Cartagena to Cadiz — from the Visigoths, giving Justinian a toehold on the Iberian Peninsula and, briefly, a nearly complete ring of Roman control around the Mediterranean.",
       "wikiSlug": "Spania",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Spania was established partly by invitation: a faction in a Visigothic civil war asked Justinian for military help, and his forces arrived and then simply stayed. The province lasted about seventy years before the Visigoths recovered it around 624, making it one of the most short-lived of Justinian's reconquests. At its greatest extent, Justinian's empire controlled coastline from Spain to Syria — the last time any single state would hold the entire Mediterranean rim until the twentieth century."
+        }
+      ]
     },
     {
       "id": "evt-marcian-emperor",
