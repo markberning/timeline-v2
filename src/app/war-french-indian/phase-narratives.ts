@@ -193,6 +193,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "The general was Major General Edward Braddock, Commander in Chief of British forces in North America, and he came to win the war in a year. He brought regulars, full-time professional soldiers of the standing British army, the kind both empires built their order of battle around; the colonies, by contrast, raised provincials, short-term troops enlisted for a single campaign and sent home after. That fault line, regulars who scorned the provincials and provincials who resented the regulars, runs through everything that follows in this chapter. At the Congress of Alexandria in Virginia (April 14, 1755), Braddock laid out a four-pronged offensive meant to strike New France at four points at once and leave it nowhere to concentrate a defense. He would lead the main blow himself, marching on Fort Duquesne at the Forks of the Ohio (the French strongpoint at modern Pittsburgh, Pennsylvania, whose seizure the year before had touched off the war). Governor William Shirley, the governor of Massachusetts, would take Fort Niagara on Lake Ontario. Sir William Johnson, Britain's Superintendent of Indian Affairs for the northern colonies, would take Fort Saint-Frédéric at Crown Point on Lake Champlain. Colonel Robert Monckton would take Fort Beauséjour, a French post on the Bay of Fundy in Nova Scotia."
       },
       {
+        "fig": "/war-img/fi-edward-braddock.jpg",
+        "cap": "Major General Edward Braddock, the British commander-in-chief who marched on Fort Duquesne in 1755 and was killed in the disaster at the Monongahela. No portrait of him from life survives; this is a later engraving.",
+        "credit": "Engraving by William Sartain / Library of Congress"
+      },
+      {
         "pill": "/war-french-indian/off-the-battlefield/regulars-provincials",
         "plabel": "Regulars & Provincials"
       },
