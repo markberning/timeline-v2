@@ -417,6 +417,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "The first blow landed on a fortress in the sea fog off Nova Scotia. Louisbourg sat on Île-Royale, today's Cape Breton Island, and it guarded the mouth of the St. Lawrence; whoever held it held the door to Quebec. The British came at it with overwhelming force: somewhere between 11,000 and 14,000 troops under General Jeffery Amherst, carried and covered by a fleet of forty warships and a hundred and fifty transports under Admiral Edward Boscawen. Inside the walls, the governor and commander Chevalier de Drucour had about 7,000 defenders, a squadron of warships in the harbor, and the Mi'kmaq (pronounced \"MIG-maw\"), the Indigenous nation of the region and longstanding allies of France, who fought alongside the garrison throughout the siege."
       },
       {
+        "fig": "/war-img/fi-louisbourg-siege.jpg",
+        "cap": "A view of Louisbourg under siege in 1758, taken near the lighthouse. The fortress on Cape Breton guarded the mouth of the St. Lawrence; once it fell, a British fleet could sail up the river to Quebec.",
+        "credit": "Engraving after Captain Ince, 1762 / New York Public Library (public domain)"
+      },
+      {
         "p": "The hinge of the whole operation was the landing, and it nearly failed. On June 8, 1758, Brigadier General James Wolfe led his division at Kennington Cove, a rocky beach the French had judged too dangerous to need much defending and then defended anyway, throwing back the first boats. As Wolfe's men were being repulsed, some of his light infantry boats drifted east along the shore and stumbled on an undefended slot in the rocks. They went ashore on their own initiative and held it, and the rest of the division followed them in. Unsure how many British had landed, the French pulled back toward the fortress and gave up the outer defenses."
       },
       {

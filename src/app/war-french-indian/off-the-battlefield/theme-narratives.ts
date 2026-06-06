@@ -1050,6 +1050,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Some colonists tried to fight the way the country demanded. In 1755 Robert Rogers of New Hampshire raised the ranger companies that bore his name, independent units for long-range patrol, scouting, ambush, and raiding. They marched on snowshoes, moved in silence, used cover, and struck from hiding, methods drawn largely from Native woodland warfare. Rogers wrote them down as his 28 Rules of Ranging, the first written code of these tactics, and trained both regular and provincial officers in them. The rangers were exactly the kind of soldier the forest rewarded, and Wolfe despised them all the same. Their war was not gentle: in 1759 Rogers led a destructive raid on the Abenaki village of Saint-François (Odanak), a reminder that the people on the receiving end of this woodland war were communities of families, not scenery."
       },
       {
+        "fig": "/war-img/fi-robert-rogers.jpg",
+        "cap": "Major Robert Rogers, who raised the ranger companies in 1755 and wrote the first code of woodland-warfare tactics. The rangers fought the way the forest rewarded — and Wolfe despised them anyway.",
+        "credit": "Mezzotint, 1776 / public domain"
+      },
+      {
         "p": "The British could not win without Native allies, and the man who knew it best was Sir William Johnson, an Irish immigrant who had settled in the Mohawk Valley in 1738, learned the Mohawk language and customs, and became the Crown's Superintendent of Indian Affairs. His job was to win over the Iroquois Confederacy, the powerful league also called the Six Nations or Haudenosaunee, which had been trying to stay neutral between the empires. The Mohawk leaned most toward Britain, and their elder statesman Hendrick, known in his own language as Theyanoguin (Mohawk), brought warriors to the cause; at the Battle of Lake George in 1755, Johnson and Hendrick mustered some 200 Mohawks alongside about 1,500 colonial troops, and Hendrick was killed in the fighting."
       },
       {
@@ -1262,6 +1267,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "While the delegates argued the law, others made the law impossible to enforce. The Sons of Liberty, networks of organized protest and intimidation, went after the men appointed to sell the stamps. In Boston on 14 August 1765, the Massachusetts stamp distributor Andrew Oliver was hanged in effigy and his property attacked; he resigned. By 16 November, twelve stamp distributors had quit under pressure. Colonial merchants piled on with non-importation agreements, refusing to buy British goods, which turned British merchants into a lobby for repeal back home. By the day the Stamp Act took effect, 1 November 1765, it was a dead letter. There was almost nobody left willing to hand out a stamp."
+      },
+      {
+        "fig": "/war-img/fi-stamp-act-repeal.jpg",
+        "cap": "\"The Repeal, or the Funeral Procession of Miss Americ-Stamp\" — a 1766 London print mocking the death of the Stamp Act, which colonial protest and a merchants' boycott had already made unenforceable.",
+        "credit": "Engraving, 1766 / Library of Congress"
       },
       {
         "h": "Repeal, and the principle Britain kept",
@@ -1553,6 +1563,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "History gave this war one man's name, \"Pontiac's War,\" and the name is misleading. Pontiac (Obwandiyag) was a war chief of the Odawa (Ottawa) and one of the most prominent figures of the rising at Detroit. He was not its supreme commander, because there was no supreme commander. This was a broad, decentralized coalition of many nations, each rising for its own reasons across a thousand miles of country. Among them were the Odawa, the Ojibwe, the Potawatomi, the Wyandot (Huron), the Lenape (Delaware), the Shawnee, and the Seneca/Mingo, along with the Miami, the Wea, the Kickapoo, the Mascouten, and others. Leaders rose with them: Guyasuta (Seneca/Mingo), and Charlot Kaské (Shawnee), the most uncompromising of all, who would later cross the Mississippi rather than make peace."
+      },
+      {
+        "fig": "/war-img/fi-pontiac.jpg",
+        "cap": "Pontiac (Obwandiyag), the Odawa war chief whose name the rising carried — though it was a broad coalition with no single commander. No portrait of him from life survives; this is a later imagined likeness.",
+        "credit": "Later depiction / New York Public Library (public domain)"
       },
       {
         "p": "On April 27, 1763, Pontiac held a war council on the Ecorse River, about 10 miles (16 km) southwest of Fort Detroit. He stood and retold Neolin's vision, and turned the prophet's spiritual message toward war."
