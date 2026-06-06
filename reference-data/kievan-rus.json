@@ -75,261 +75,459 @@
       "id": "evt-slavic-migrations",
       "label": "Early Slavic Migrations",
       "year": 550,
-      "description": "Slavic peoples expanded across Eastern Europe from the 6th century, settling the forests and river valleys between the Baltic and the Black Sea. These East Slavic tribes formed the demographic base of the future Rus'.",
+      "description": "From around the 6th century, Slavic-speaking peoples spread across Eastern Europe in one of the great quiet migrations of the early medieval world, filling the forests and river valleys between the Baltic and the Black Sea and becoming the vast demographic majority that the later Rurikid rulers would govern in their own language within two or three generations.",
       "wikiSlug": "Early_Slavs",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Where exactly the Slavs came from before the Migration Period is still debated; the most accepted candidate for their original homeland is Polesia, the vast marshland straddling modern Belarus, Ukraine, and Poland. The expansion happened without major recorded battles or a single identifiable leader — it was a gradual agricultural spread rather than a conquest, which is partly why it left so little written record. The East Slavs who settled the river valleys of what became Rus' were organized in tribal groupings (Polyans, Drevlians, Krivichians, and others) that appear throughout the Chronicle as the peoples Rurik and his successors either invited or subjugated."
+        }
+      ],
+      "commonsFile": "Freilichtmuseum_Groß_Raden_-_Rüstung_1.jpg"
     },
     {
       "id": "evt-khazar-khaganate-rise",
       "label": "Rise of the Khazar Khaganate",
       "year": 650,
-      "description": "The Khazars, a Turkic steppe people, built a powerful trading khaganate on the lower Volga that dominated the Pontic steppe. Many East Slavic tribes paid them tribute before the Rus' challenged their power.",
+      "description": "The Khazars — a semi-nomadic Turkic people — built the most powerful state on the western steppe from roughly the mid-7th century, straddling the lower Volga and controlling the chokepoints of Eurasian trade. Several East Slavic tribes paid them tribute before the Rus' challenged that arrangement.",
       "wikiSlug": "Khazars",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Khazar ruling elite famously converted to Judaism — a documented historical fact confirmed by both Khazar correspondence and independent Arab and Byzantine sources, not a legend — making the Khaganate one of only a handful of polities outside the ancient Levant to adopt Judaism as a state religion. Khazaria commanded the western end of the Silk Road and taxed traffic between China, the Middle East, and the Baltic world, minting no coins of its own and living entirely on tolls. At its height it ran a fortified frontier line against the deeper steppe, holding off nomadic pressure that might otherwise have rolled straight into Eastern Europe."
+        }
+      ],
+      "commonsFile": "Chasaren.jpg"
     },
     {
       "id": "evt-volga-trade-route",
       "label": "Volga Trade Route Opens",
       "year": 800,
-      "description": "Norse and Slavic merchants developed the Volga trade route linking the Baltic to the Caspian and the Abbasid Caliphate. Vast hoards of Islamic silver dirhams flowed north in exchange for furs, slaves, and amber.",
+      "description": "The Volga river highway ran from the Baltic east and south to the Caspian Sea, connecting Norse and Slavic traders directly to the silver-rich markets of the Abbasid Caliphate. This eastern route was, by weight of silver, the single most lucrative trade artery in the early medieval world.",
       "wikiSlug": "Volga_trade_route",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chess reached medieval Rus' along the Caspian-Volga corridor from Persia and Arabia — a board game traveling north in merchant baggage alongside silver. The powerful Volga Bulgars (a Turkic people settled near the confluence of the Kama and Volga rivers, not to be confused with the Danube Bulgars of southeastern Europe) acted as commercial middlemen, running two trading cities east of what is now Moscow. The Rus' sometimes pushed all the way to Baghdad on this route, well past the Caspian."
+        }
+      ],
+      "commonsFile": "Volok_by_Roerich.jpg"
     },
     {
       "id": "evt-rhos-annales-bertiniani",
       "label": "First Mention of the Rhos",
       "year": 839,
-      "description": "The Annals of St. Bertin record envoys of the 'Rhos' arriving at the Frankish court, identified as Swedes. This is the earliest dated reference to the people who would found Rus'.",
+      "description": "In 839 — over two decades before the Chronicle's 862 invitation — Frankish court annals recorded envoys of a people called the 'Rhos,' whose ruler used a steppe-emperor title, arriving via Constantinople; the Franks investigated and concluded these Rhos were, in fact, Swedes. It is the earliest dated external evidence that Scandinavians were already operating between the Baltic and Byzantium under the name 'Rus'.'",
       "wikiSlug": "Rus'_people",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The annals in question, the Annals of Saint-Bertin, were written by churchmen with no stake in the political questions of Kyiv and no knowledge of the Primary Chronicle — which makes the entry unusually clean as evidence. The ruler of the Rhos is described using the title *khagan*, borrowed from the Khazars (a powerful steppe empire to the east), which suggests the Scandinavian-Rus' leadership was already imitating or competing with the prestigious titles of the Eurasian steppe world by the 830s. The 839 entry doesn't mention Novgorod, Kyiv, or Rurik at all — it simply records Swedes calling themselves Rhos and traveling the Byzantine-Frankish diplomatic circuit."
+        }
+      ],
+      "commonsFile": "Funeral_of_ruthenian_noble_by_Siemiradzki.jpg"
     },
     {
       "id": "evt-rus-raid-constantinople-860",
       "label": "Rus' Attack Constantinople",
       "year": 860,
-      "description": "A Rus' fleet sailed down the Dnieper and besieged Constantinople, ravaging its suburbs before withdrawing. The raid stunned Byzantium and prompted the first Christian missions to the Rus'.",
+      "description": "On June 18, 860, a Rus' fleet of roughly 200 ships appeared without warning in the Bosphorus and ravaged the suburbs of Constantinople while the Byzantine emperor was away on campaign. It is the earliest absolutely fixed date in Rus' history, confirmed not by any Rus' source but by the Patriarch of Constantinople himself.",
       "wikiSlug": "Rus'%E2%80%93Byzantine_War_(860)",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Patriarch Photius, preaching in the city as the raiders struck, called the Rus' ἔθνος ἄγνωστον — 'an unknown people' — which tells us how little Byzantium knew of its northern neighbors at that point. His two surviving sermons are the first time the name 'Rus' appears in any Greek source. The fleet withdrew without capturing the city, possibly due to a storm; Byzantine accounts later attributed the retreat to a miracle involving the Virgin's veil."
+        }
+      ],
+      "commonsFile": "10_1_List_of_Radzivill_Chron.jpg"
     },
     {
       "id": "evt-photian-mission",
       "label": "First Christian Mission to the Rus'",
       "year": 867,
-      "description": "Patriarch Photius of Constantinople reported sending a bishop to convert some of the Rus' after the 860 raid. This abortive 'Photian baptism' was the first Christian contact with the Rus' elite.",
+      "description": "After the shock of the 860 raid, Patriarch Photius of Constantinople dispatched a Christian mission — the 'Photian baptism' — to convert at least some of the Rus' elite. A bishop was sent, a handful of chiefs converted, and then the whole effort evaporated without producing a church, clergy, or lasting institution.",
       "wikiSlug": "Photios_I_of_Constantinople",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Photius was simultaneously sending the missionaries Cyril and Methodius into Great Moravia during the same years — Byzantine missionary work was a coordinated instrument of foreign policy aimed at every pagan neighbor at once, not a series of accidents. The Photian mission to the Rus' failed to stick because faith without the slow machinery of a church (buildings, priests, schools) rarely survives the death of the first converts."
+        }
+      ],
+      "commonsFile": "Facial_Chronicle_-_b.13,_p.414_-_Photios_baptising_king_of_Bulgars.gif"
     },
     {
       "id": "evt-rurik-novgorod",
       "label": "Rurik Founds Novgorod",
       "year": 862,
-      "description": "According to the Primary Chronicle, the Varangian chieftain Rurik was invited to rule the warring Slavic and Finnic tribes and settled at Novgorod. His dynasty would rule Rus' for over seven centuries.",
+      "description": "In 862, the Primary Chronicle says the Slavic and Finnic tribes of the north, sick of fighting each other, sent overseas to invite a Varangian chieftain named Rurik to come rule them — and he did, settling at Novgorod. The story is almost certainly a legitimation myth dressed around a real Scandinavian warlord who made himself the permanent boss of the northern river hub.",
       "wikiSlug": "Rurik",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Chronicle's own versions of the story contradict each other: in one, Rurik settles directly at Novgorod; in another, he starts at a nearby site called Ladoga first. The three-brothers detail — Rurik arriving with Sineus and Truvor — is a folkloric number that appears across foundation legends worldwide and is widely regarded as literary invention. Rurik's reign was brief and the Chronicle records almost nothing he actually did; his real historical weight is as a name on a dynastic hook, not as a documented ruler."
+        }
+      ],
+      "commonsFile": "Calling_of_varangians_01.jpg"
     },
     {
       "id": "evt-askold-dir-kyiv",
       "label": "Askold and Dir Rule Kyiv",
       "year": 864,
-      "description": "Two of Rurik's followers, Askold and Dir, broke away and seized control of Kyiv on the Dnieper. They led the Rus' fleet against Constantinople before being overthrown by Oleg.",
+      "description": "The Chronicle says two of Rurik's men, Askold and Dir, asked leave to travel south to Constantinople and on the way seized Kyiv on the Dnieper River, setting themselves up as its rulers — though whether they were really Rurik's followers or independent Scandinavian chiefs is unrecoverable.",
       "wikiSlug": "Askold_and_Dir",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Some historians have argued that Askold and Dir are garbled memories of a pre-Rurikid Kyivan dynasty that had nothing to do with Rurik at all — the Chronicle had every reason to make everyone a Rurik subordinate so the later dynasty's claim to Kyiv ran through him. The pair are best documented not by the Chronicle but by the Byzantine raid they led against Constantinople, which can be partially cross-checked against Greek sources (that attack is covered in the next chapter). Their fate was to be killed by Oleg, Rurik's successor, who then took Kyiv and united the northern and southern hubs of the river network."
+        }
+      ],
+      "commonsFile": "A04_Smert_Askolda_&_Dira.jpg"
     },
     {
       "id": "evt-oleg-seizes-kyiv",
       "label": "Oleg Seizes Kyiv",
       "year": 882,
-      "description": "Oleg the Wise, regent for Rurik's son Igor, captured Kyiv by treachery, killed Askold and Dir, and made it his capital. He declared Kyiv 'the mother of Rus' cities,' founding the Kievan state.",
+      "description": "In 882, Oleg the Wise — regent for the infant Igor, son of Rurik — sailed south from Novgorod, lured Kyiv's rulers Askold and Dir to the riverbank under a false merchant's story, and had them killed. He declared Kyiv 'the mother of Rus' cities' and made it his capital, and the date 882 is the conventional birth-year of Kievan Rus'.",
       "wikiSlug": "Oleg_of_Novgorod",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Oleg held Kyiv not just as a base but as a toll-gate: the city sits at the midpoint of the Dnieper, precisely where furs and slaves from the north had to pass before reaching Byzantine silver in the south. The chronicle story of the ships hiding warriors behind a merchant cover has the structure of a Norse saga motif, suggesting it was polished in retelling across generations before the Chronicle was written around 1113."
+        }
+      ]
     },
     {
       "id": "evt-oleg-subjugates-tribes",
       "label": "Oleg Subjugates the Slavic Tribes",
       "year": 885,
-      "description": "Oleg campaigned against the Drevlians, Severians, and Radimichs, redirecting their tribute from the Khazars to Kyiv. He bound the East Slavic tribes into a single tribute-paying realm.",
+      "description": "After taking Kyiv, Oleg spent years forcing the surrounding East Slavic tribes — the Drevlians ('forest people'), Severians, and Radimichs — to stop paying tribute to the Khazars and start paying it to him. This tribute redirection was not a side campaign; it was the economic foundation of the new Rus' state.",
       "wikiSlug": "Oleg_of_Novgorod",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Oleg collected tribute through a practice called the poliudye ('going among the people'): each winter the prince and his druzhina war-band made a circuit of subject settlements, gathering furs, honey, wax, and slaves, then shipped the whole haul south to Constantinople in spring. The Drevlians in particular resisted Rus' domination — their resentment would eventually lead them to murder Igor, Oleg's successor, in 945 when he pushed the tribute too far."
+        }
+      ],
+      "commonsFile": "Приношение_князю_Олегу_дани_покоренными_народами.jpg"
     },
     {
       "id": "evt-trade-route-greeks",
       "label": "The Route from the Varangians to the Greeks",
       "year": 890,
-      "description": "The Dnieper river route linking the Baltic to Constantinople became the economic spine of Rus'. Annual merchant convoys carried furs, wax, honey, and slaves south past dangerous cataracts to Byzantine markets.",
+      "description": "The river highway linking the Baltic Sea to Constantinople — running through Lake Ladoga, the Volkhov river, the Dnieper, and out to the Black Sea — was the economic spine of Kievan Rus'. Annual convoys of boats loaded with furs, wax, honey, and enslaved people made the roughly 1,400-mile journey south to Byzantine markets.",
       "wikiSlug": "Trade_route_from_the_Varangians_to_the_Greeks",
       "tier": 1,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The route required multiple portages (places where boats had to be physically dragged overland between river systems), the most grueling being the stretch around the Dnieper rapids in what is now southern Ukraine, where boats had to be unloaded and hauled past waterfalls in the open — exactly where steppe nomads liked to ambush them. The Dnieper rapids were so notorious that Emperor Constantine VII recorded their names in both Norse and Slavic around 950, giving historians a rare bilingual snapshot of who was actually doing the rowing. An alternative branch ran down the Dniester instead."
+        }
+      ],
+      "commonsFile": "Kaubateed_varjaagide_juurest_kreeklasteni.gif"
     },
     {
       "id": "evt-oleg-raid-constantinople-907",
       "label": "Oleg's Campaign Against Constantinople",
       "year": 907,
-      "description": "The Primary Chronicle describes Oleg leading a vast fleet against Constantinople, famously nailing his shield to the city gates. The campaign forced Byzantium to negotiate a favorable trade treaty.",
+      "description": "The Primary Chronicle describes Oleg launching a massive fleet against Constantinople in 907 — complete with ships fitted with wheels to sail overland past the chained harbor — forcing the Byzantines to negotiate. The ships-on-wheels and the famous shield nailed to the city gate are almost certainly heroic legend; no Byzantine source records the campaign at all.",
       "wikiSlug": "Rus'%E2%80%93Byzantine_War_(907)",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The loud silence in the Byzantine record is the most telling clue: the 860 raid, which definitely happened, left sermons, chronicle entries, and a remembered trauma. A fleet that reached the walls in 907 would have done the same. What historians do accept is that Oleg conducted some kind of military or diplomatic pressure around this time that forced Byzantium to negotiate, because the treaty of 911 — which demonstrably exists — had to come from somewhere."
+        }
+      ],
+      "commonsFile": "Oleg_tsargrad.jpg"
     },
     {
       "id": "evt-rus-byzantine-treaty-911",
       "label": "Rus'–Byzantine Treaty of 911",
       "year": 911,
-      "description": "Oleg concluded a detailed commercial treaty granting Rus' merchants tax-free trade and lodging in Constantinople. It is the earliest surviving diplomatic document of the Rus' state.",
+      "description": "The 911 treaty between the Rus' and Byzantium is the oldest document the Rus' state itself helped produce — a detailed commercial and extradition agreement granting Rus' merchants tax-free trade and regulated housing in Constantinople. Its businesslike legal clauses are stronger proof that Kievan Rus' was a real state than any chronicle slogan.",
       "wikiSlug": "Rus'%E2%80%93Byzantine_Treaty_(911)",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The treaty covers remarkably practical ground: registration procedures for Rus' traders entering the city, how to handle a killing between a Rus' and a Greek, what to do about runaway slaves and beached ships. Byzantium extended these unusually generous trading privileges mainly to powers it could not simply crush — in 911 the empire's army was tied down in a grinding war with the First Bulgarian Empire, making a hostile Rus' fleet on the Black Sea a two-front nightmare worth buying off with tax exemptions."
+        }
+      ],
+      "commonsFile": "Присяга_воинов_Олега_оружием_и_богом_Перуном;_утверждение_мирною_договора_Олега_с_греками.jpg"
     },
     {
       "id": "evt-igor-becomes-prince",
       "label": "Igor Becomes Prince of Kyiv",
       "year": 913,
-      "description": "Igor, son of Rurik, took sole power after Oleg's death and continued campaigns against rebellious tribes and the steppe Pechenegs. His reign was marked by harsh tribute extraction.",
+      "description": "When Oleg died around 912–913, Igor — Rurik's son, the infant Oleg had held up at Kyiv's riverbank three decades earlier — finally took sole power as Prince of Kyiv. He inherited a functioning tribute system and a treaty with Byzantium, and then proceeded to push both harder than they could bear.",
       "wikiSlug": "Igor_of_Kiev",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Igor's reign lasted until 945, when the Drevlians — the same forest tribe Oleg had subjugated — killed him after he returned to collect tribute a second time in a single season, demanding more than the customary amount. His widow Olga's revenge on the Drevlians, and her eventual personal conversion to Christianity, are the defining events of Chapter 4."
+        }
+      ],
+      "commonsFile": "Knyaz_Igor_in_945_by_Lebedev.jpg"
     },
     {
       "id": "evt-rus-caspian-expedition-913",
       "label": "Rus' Caspian Expedition",
       "year": 913,
-      "description": "A large Rus' raiding fleet sailed down the Volga with Khazar permission and plundered Muslim ports around the Caspian Sea. Most of the raiders were destroyed on the return journey.",
+      "description": "A Rus' fleet of roughly 500 ships sailed down the Volga with Khazar permission and spent months raiding the Muslim ports along the southern Caspian coast. Most of the force was wiped out on the way home — first by the Khazars, then by local tribes on the middle Volga.",
       "wikiSlug": "Caspian_expeditions_of_the_Rus'",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The expedition plundered the Gorgan region (present-day Iran) as well as Gilan and Mazandaran, taking slaves and goods. The Arab scholar al-Mas'udi, who had traveled those shores himself, recorded the raid independently, making it one of the best-attested early Rus' events outside the Chronicle. The Khazars had allowed the fleet through on the promise of a cut of the plunder — and then exacted that cut violently when the raiders returned."
+        }
+      ],
+      "commonsFile": "Rus_Caspian.png"
     },
     {
       "id": "evt-igor-raid-constantinople-941",
       "label": "Igor's Failed Raid on Constantinople",
       "year": 941,
-      "description": "Igor led a fleet against Byzantium but was crushed when the Byzantine navy deployed Greek fire against his ships. The disaster forced him into a less favorable second campaign.",
+      "description": "Igor launched a massive fleet attack on Constantinople in 941, only to have the Byzantine navy turn it into a catastrophe using Greek fire. Survivors limped home having barely seen the city's walls.",
       "wikiSlug": "Rus'%E2%80%93Byzantine_War_(941)",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Byzantine chronicler Theophanes Continuatus describes the Rus' hurling themselves overboard to escape the burning ships, preferring the water to the fire — and drowning in their armor. Igor returned just three years later, in 944, with a coalition force that also included Pecheneg steppe riders, enough of a threat that Byzantium chose to negotiate rather than fight again."
+        }
+      ],
+      "commonsFile": "Radzivill_Igor_war_on_Greeks.jpg"
     },
     {
       "id": "evt-rus-byzantine-treaty-945",
       "label": "Rus'–Byzantine Treaty of 945",
       "year": 945,
-      "description": "After renewed campaigns Igor concluded a new treaty with Byzantium with stricter terms on Rus' merchants and military obligations. The text reveals a partly Christianized Rus' elite.",
+      "description": "After Igor's second campaign, Byzantium negotiated a new treaty with the Rus' that imposed stricter terms on Rus' merchants and tighter military commitments. Its oath ceremony is a rare early document showing a partly Christianized Rus' ruling class.",
       "wikiSlug": "Rus'%E2%80%93Byzantine_Treaty_(945)",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike Oleg's 911 treaty, the 945 version required Rus' merchants to operate under tighter Byzantine supervision and limited their ability to winter inside Constantinople. The split oath — pagans swearing by Perun, a Christian group swearing in a church — proves Christian influence had reached the Rus' elite more than forty years before Vladimir's official conversion, meaning 988 was a state decision about an already-present religion, not a first introduction."
+        }
+      ],
+      "commonsFile": "Русско-византийский_договор_944_года.jpg"
     },
     {
       "id": "evt-igor-killed-drevlians",
       "label": "Igor Killed by the Drevlians",
       "year": 945,
-      "description": "Returning to extract a second round of tribute, Igor was captured and gruesomely executed by the Drevlian tribe. His death triggered Olga's famous campaign of revenge.",
+      "description": "Igor turned back to the Drevlian forest tribe to squeeze out a second tribute payment in the same season, and they killed him for it. The Byzantine historian Leo the Deacon reports he was bound between two bent trees and torn apart when they were released.",
       "wikiSlug": "Drevlians",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Drevlians inhabited the forested right-bank Ukraine west of Kyiv, along the Teteriv and Uzh rivers — a distinct tribal territory with their own prince, Mal. The Chronicle gives them one of its most pithy lines: 'when a wolf gets among the sheep, he carries off the whole flock unless he is killed.' Igor's death was not just a murder; it exposed the structural flaw of the entire tribute system — there was no fixed rate, so a greedy prince could always come back."
+        }
+      ]
     },
     {
       "id": "evt-olga-regency",
       "label": "Olga Becomes Regent",
       "year": 945,
-      "description": "Olga assumed the regency for her young son Svyatoslav, becoming the effective ruler of Rus'. She proved a formidable administrator and diplomat.",
+      "description": "With Igor dead and their son Svyatoslav still a small child, Olga (Old Norse Helga) seized the regency and became the effective ruler of Rus' — the first woman to hold real power in the story.",
       "wikiSlug": "Olga_of_Kiev",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Her name is the feminine form of Oleg — Old Norse Helga to his Helgi — which is why the Chronicle has a male regent named Oleg in Chapter 3 and a female regent named Olga a generation later with suspiciously similar root names. She ruled as regent from 945 until 957 and was later the first Rus' ruler to be baptized, though her grandson Vladimir (not her son) is the one who made Christianity the state religion."
+        }
+      ],
+      "commonsFile": "1000_Olga.jpg"
     },
     {
       "id": "evt-olga-revenge-drevlians",
       "label": "Olga's Revenge on the Drevlians",
       "year": 946,
-      "description": "Olga annihilated the Drevlians, burying envoys alive, burning others, and incinerating their capital Iskorosten using fire-bearing birds. The campaign crushed the last major tribal challenge to Kyiv.",
+      "description": "Olga annihilated the Drevlians in four legendary acts: burying their envoys alive in a boat-carried pit, burning a second embassy in a locked bathhouse, massacring the elite at a funeral feast, then destroying their capital Iskorosten by tying smoldering tinder to birds that flew home to roost.",
       "wikiSlug": "Drevlians",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The flaming-bird motif appears in Norse saga and in other medieval literatures — it is almost certainly a traveling story attached to Olga rather than a literal report. But historians accept the underlying event: she crushed the Drevlians so thoroughly that no East Slavic tribe ever again tried to secede from Kyiv by force. The four-act structure in the Chronicle — buried, burned, butchered, burned again — reads with the unmistakable rhythm of folklore, not a military dispatch."
+        }
+      ],
+      "commonsFile": "Месть_княгини_Ольги.jpg"
     },
     {
       "id": "evt-olga-tribute-reform",
       "label": "Olga's Administrative Reforms",
       "year": 947,
-      "description": "Olga replaced the chaotic system of roving tribute collection with fixed quotas and regional collection points called pogosty. This was the first systematic state administration in Rus'.",
+      "description": "After crushing the Drevlians, Olga replaced the open-ended poliudye (the prince's roving tribute circuit) with fixed quotas and permanent regional collection posts called pogosty — the first systematic state administration in Rus' history.",
       "wikiSlug": "Olga_of_Kiev",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pogosty show up as named, functioning places in later sources, which is why historians accept the reform as genuinely historical while staying skeptical about the bathhouse and the birds. The change converted what was essentially a warlord's protection racket — no fixed rate, enforced by whoever the prince could bring — into something with predictable rates and set locations, the institutional difference between banditry and government."
+        }
+      ]
     },
     {
       "id": "evt-olga-baptism",
       "label": "Olga Converts to Christianity",
       "year": 957,
-      "description": "Olga traveled to Constantinople and was baptized a Christian, possibly with Emperor Constantine VII as godfather. She became the first Rus' ruler to adopt the faith, though the realm stayed pagan.",
+      "description": "Around 957 Olga traveled to Constantinople and was baptized a Christian, taking the name Elena. Emperor Constantine VII Porphyrogenitus recorded the protocol of her reception in his book on imperial ceremonies — making it one of the best-documented events of early Rus' history.",
       "wikiSlug": "Olga_of_Kiev",
       "tier": 1,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Constantine's ceremonial account is valuable precisely because it is an independent Byzantine administrative record, not a Chronicle legend: it names the dates, the seating arrangements, the gifts given. The Chronicle adds a folk-tale gloss — that Olga tricked the emperor into standing as her godfather and then refused his marriage proposal on the grounds that marrying one's godfather was incest under church law. Treat the romantic trick as a folk-motif; the baptism itself is well-corroborated."
+        }
+      ],
+      "commonsFile": "St_Olga_by_Nesterov_in_1892_(cropped).jpg"
     },
     {
       "id": "evt-olga-otto-mission",
       "label": "Olga's Latin Mission Request",
       "year": 959,
-      "description": "Olga sent envoys to the German king Otto I requesting a bishop, and Adalbert of Magdeburg was dispatched but expelled. The episode shows Rus' weighing Western against Eastern Christianity.",
+      "description": "When Byzantium dragged its feet on supplying clergy after Olga's baptism, she sent envoys west to the German king Otto I requesting a Latin bishop instead. Otto dispatched a monk named Adalbert, who arrived in Kyiv around 961, found no church infrastructure or court support, and left within a year.",
       "wikiSlug": "Adalbert_of_Magdeburg",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Adalbert was later consecrated bishop 'of the Rus'' — a title that turned out to be aspirational rather than descriptive. Several of his companions were killed on the way out of Kyiv. The episode is the clearest evidence that the choice between Eastern and Western Christianity was still genuinely open in the 950s; it only closed eastward with Vladimir's decision in 988, and then it stayed closed for a thousand years."
+        }
+      ],
+      "commonsFile": "Adalbert_of_Magdeburg.jpg"
     },
     {
       "id": "evt-olga-canonized",
       "label": "Olga Venerated as a Saint",
       "year": 1547,
-      "description": "Olga was later canonized by the Orthodox Church and titled 'Equal to the Apostles' for paving the way to Christianization. She remains one of the most venerated figures in East Slavic Christianity.",
+      "description": "Centuries after her death, the Orthodox Church canonized Olga and gave her the title 'Equal to the Apostles' — the same rank as Constantine the Great — for preparing the ground that her grandson Vladimir built on.",
       "wikiSlug": "Olga_of_Kiev",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title 'Equal to the Apostles' (Isapóstolos in Greek) is one of the highest honors the Orthodox Church can confer and is reserved for rulers or missionaries credited with bringing a whole people to Christianity. Olga's canonization is formally dated to 1547 under Tsar Ivan the Terrible, though she had been venerated locally for centuries before. Her feast day in the Orthodox calendar is July 11."
+        }
+      ]
     },
     {
       "id": "evt-svyatoslav-takes-power",
       "label": "Svyatoslav Takes Power",
       "year": 962,
-      "description": "Svyatoslav I came of age and seized direct rule, devoting his reign almost entirely to military conquest. A staunch pagan, he rejected his mother's Christianity.",
+      "description": "Svyatoslav I, son of Igor and Olga, took direct rule around 962 and became the most purely military prince in Kyiv's history — campaigning light, sleeping on the ground, and never attacking without first sending a herald to warn his enemies he was coming.",
       "wikiSlug": "Sviatoslav_I_of_Kiev",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His name was itself a statement: Oleg, Igor, and Olga are all Norse names, but Svyatoslav is fully Slavic, meaning roughly 'holy glory' — the first Slavic name in the dynasty's main line, marking the moment the ruling house stopped naming children in the language of its Norse founders. He also reportedly sent a herald ahead of every campaign with the message 'I am coming against you' — not chivalry, but a calculated psychological weapon designed to panic enemies into gathering in one place he could destroy in a single battle."
+        }
+      ],
+      "commonsFile": "Sviatoslav_by_Eugene_Lanceray_1886.JPG"
     },
     {
       "id": "evt-svyatoslav-vyatichi",
       "label": "Svyatoslav Subdues the Vyatichi",
       "year": 964,
-      "description": "Svyatoslav campaigned along the Oka River and brought the Vyatichi tribe, the last Slavs paying tribute to the Khazars, under Kyiv's control. The move set up his assault on Khazaria.",
+      "description": "Around 964 Svyatoslav marched into the Oka River forests and brought the Vyatichi — the last East Slavic tribe still paying tribute to the Khazar Khaganate rather than Kyiv — under his control, cutting Khazaria off from its Slavic revenue base before he went for the Khaganate itself.",
       "wikiSlug": "Vyatichi",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Vyatichi were known for unusually tenacious resistance to outside rule; even after Svyatoslav's campaign they kept their traditional customs and remained culturally distinct for generations. Their territory in the Oka-Moskva-Don river country was also strategically central: controlling it meant controlling the overland corridors between the Volga trade routes and the forest heartland of Rus'."
+        }
+      ],
+      "commonsFile": "Приношение_вятичами_дани_Святославу_Игоревичу.jpg"
     },
     {
       "id": "evt-svyatoslav-destroys-khazaria",
       "label": "Svyatoslav Destroys the Khazar Khaganate",
       "year": 965,
-      "description": "Svyatoslav sacked the Khazar capital Atil and the fortress of Sarkel, shattering the Khaganate that had dominated the steppe for three centuries. Rus' gained control of the Volga trade routes.",
+      "description": "Around 965 Svyatoslav sacked the Khazar fortress of Sarkel on the Don and then the capital Atil on the Volga delta, shattering the Khaganate so completely it effectively vanished from history within a generation.",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sarkel had a dark irony built into it: Byzantine engineers had constructed the fortress around 840 *for* the Khazars, because Constantinople valued Khazaria as a strategic buffer absorbing nomad pressure on the empire's northern flank. By destroying it, Svyatoslav dismantled a piece of Byzantine grand strategy — one reason Byzantium soon decided he was too dangerous to leave alone. The collapse also opened the steppe door: with Khazaria gone, the Pechenegs grew bolder immediately, the Cumans arrived a century later, and the Mongols came through the same gap two and a half centuries after that."
+        }
+      ]
     },
     {
       "id": "evt-svyatoslav-first-bulgaria",
       "label": "Svyatoslav Invades Bulgaria",
       "year": 968,
-      "description": "Invited by Byzantium to attack the First Bulgarian Empire, Svyatoslav conquered the Danube region and resolved to move his capital there. His ambitions alarmed Constantinople.",
+      "description": "Around 968 the Byzantine emperor hired Svyatoslav to attack the First Bulgarian Empire on the lower Danube; Svyatoslav succeeded so thoroughly he decided to move his capital there, announcing that 'all riches flow' to the Danube — Greek gold, Bohemian silver, Rus' furs, slaves.",
       "wikiSlug": "Sviatoslav's_invasion_of_Bulgaria",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The invasion began as a Byzantine proxy operation but quickly became a liability: Svyatoslav conquered northeastern Bulgaria, occupied it, and declared the Danube town of Pereyaslavets his new capital, treating Kyiv as negotiable. This alarmed Constantinople far more than a Bulgarian rival had — Bulgaria was a known quantity; a militarized Rus' state planted on the Danube was not. The conflict ultimately ended with Byzantium absorbing eastern Bulgaria outright, turning its own hired sword into a territorial gain."
+        }
+      ],
+      "commonsFile": "63-manasses-chronicle.jpg"
     },
     {
       "id": "evt-pecheneg-siege-kyiv-968",
       "label": "Pecheneg Siege of Kyiv",
       "year": 968,
-      "description": "While Svyatoslav was in Bulgaria, the Pechenegs besieged Kyiv where Olga and his sons were trapped. The city held until Svyatoslav rushed back to relieve it.",
+      "description": "While Svyatoslav was conquering Bulgaria, the Pechenegs (a semi-nomadic Turkic people who dominated the western steppe) besieged Kyiv itself around 968, trapping the aged princess Olga and Svyatoslav's young sons inside the city walls.",
       "wikiSlug": "Pechenegs",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Chronicle records the Kyivans shouting a reproach at Svyatoslav when he finally rushed home to relieve the city: 'You, prince, seek and guard a foreign land, and your own you have abandoned.' It is the political heart of his entire reign in one sentence. The Pechenegs had controlled the steppes between the Volga and the Danube since the late 9th century and would remain Rus''s most dangerous steppe neighbor until the Battle of the Alta River in 1036 finally broke their power."
+        }
+      ],
+      "commonsFile": "The_Pechenegs_defeating_the_Rus,_from_the_Skyllitzes_Matritensis,_fol._173r,_(Public_Domain)_via_Creative_Commons.jpg"
     },
     {
       "id": "evt-svyatoslav-byzantine-war",
@@ -344,37 +542,65 @@
       "id": "evt-svyatoslav-killed",
       "label": "Svyatoslav Killed by the Pechenegs",
       "year": 972,
-      "description": "Ambushed at the Dnieper cataracts on his way home, Svyatoslav was killed by the Pecheneg khan Kurya, who made his skull into a drinking cup. His death sparked a war of succession among his sons.",
+      "description": "In spring 972, ambushed at the Dnieper rapids (the exposed portage stretch where steppe raiders could lie in wait) on his way home from the Balkans, Svyatoslav was killed by the Pecheneg khan Kurya. He was perhaps thirty years old.",
       "wikiSlug": "Sviatoslav_I_of_Kiev",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Chronicle says Kurya had Svyatoslav's skull lined with gold and used as a drinking cup — not independently confirmed for this event, but the custom was demonstrably real: Byzantine sources record that the Bulgar khan Krum did exactly the same with the skull of the Byzantine emperor Nikephoros I after killing him in battle in 811. Svyatoslav left no succession plan, only several sons posted in different towns and a war-band loyal to personal glory, which produced the dynasty's first great fratricidal civil war."
+        }
+      ],
+      "commonsFile": "64-manasses-chronicle.jpg"
     },
     {
       "id": "evt-fratricidal-war-972",
       "label": "War of the Sons of Svyatoslav",
       "year": 977,
-      "description": "Yaropolk, Oleg, and Vladimir fought a fratricidal war for Kyiv after their father's death. Oleg was killed and Vladimir fled to Scandinavia to raise an army.",
+      "description": "After Svyatoslav's death in 972, his three sons went to war over the realm. Oleg was killed, his body found in a ditch, and the youngest son Vladimir fled to Scandinavia to raise a hired Varangian army.",
       "wikiSlug": "Yaropolk_I_of_Kiev",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yaropolk ruled Kyiv for roughly six years (972–978) before Vladimir returned and had him killed during a parley the Chronicle bluntly describes as a trap. The same Chronicle that celebrates Vladimir as a saint does not clean up his route to the throne, which is part of why scholars consider its skeleton credible even when doubting its glosses."
+        }
+      ],
+      "commonsFile": "Yaropolk_murder.jpg"
     },
     {
       "id": "evt-vladimir-seizes-kyiv",
       "label": "Vladimir Seizes Kyiv",
       "year": 980,
-      "description": "Vladimir returned with a Varangian army, defeated and killed his brother Yaropolk, and made himself sole ruler of Rus'. He would become its most consequential prince.",
+      "description": "Around 978–980 Vladimir marched south with a Varangian force, took Novgorod, then besieged Kyiv and had his brother Yaropolk killed, making himself the sole ruler of all Rus'.",
       "wikiSlug": "Vladimir_the_Great",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Vladimir was the son of a housekeeper, not a princess, which made him technically the least legitimate of the three brothers in the eyes of the court — a detail the Chronicle records pointedly, because it sharpens just how completely a bastard son with the right army could leapfrog dynastic precedent. He would go on to reign for 35 years, longer than any other Kyivan prince."
+        }
+      ],
+      "commonsFile": "1000_Vladimir_2.jpg"
     },
     {
       "id": "evt-vladimir-pagan-pantheon",
       "label": "Vladimir's Pagan Pantheon",
       "year": 980,
-      "description": "Vladimir erected idols of Perun and other Slavic gods on a hill in Kyiv in an attempt to unify the realm around a state paganism. The experiment failed within a decade.",
+      "description": "Around 980 Vladimir erected a group of Slavic idol statues on a hill in Kyiv — topped by Perun, the thunder-god, given a silver head and gold mustache — in a deliberate attempt to forge a single official state religion for the realm.",
       "wikiSlug": "Slavic_paganism",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The experiment exposed a structural weakness: a homegrown paganism had no clergy, no scripture, and no doctrine that made obeying the prince a religious duty. Every literate neighbor (Byzantines, Bulgarians, Volga Bulgars, Khazars) had exactly that built into their faith. Without a permanent priesthood to teach obedience every week, a hill-top idol could punish oath-breakers but could not hold a kingdom together."
+        }
+      ],
+      "commonsFile": "\"Swiatowid_(cult_statue)\",_Kraków_2013.2.jpg"
     },
     {
       "id": "evt-vladimir-cherven-towns",
@@ -389,82 +615,143 @@
       "id": "evt-vladimir-faith-test",
       "label": "Vladimir's Investigation of the Faiths",
       "year": 987,
-      "description": "According to the Chronicle, Vladimir sent envoys to examine Islam, Judaism, Latin Christianity, and Byzantine Orthodoxy. Awed by the liturgy in the Hagia Sophia, the envoys recommended the Greek faith.",
+      "description": "The Chronicle's most famous story: around 987 Vladimir sent envoys to observe Islam, Judaism, Latin Christianity, and Byzantine Orthodoxy in person before choosing a faith for his realm — a 'comparison shopping' of religions.",
       "wikiSlug": "Christianization_of_Kievan_Rus'",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scholars consider this a literary set-piece rather than a verbatim record — a near-identical debate story is told about the Khazar conversion to Judaism, and the vivid one-liners (Vladimir supposedly rejecting Islam because 'drinking is the joy of the Rus'') are the hallmark of polished legend, not court minutes. The actual grounds for choosing Byzantium were entirely practical: it was the richest neighbor, the trade route already ran there, and Vladimir's grandmother Olga had been baptized Orthodox two generations earlier."
+        }
+      ],
+      "commonsFile": "58-manasses-chronicle.jpg"
     },
     {
       "id": "evt-siege-of-chersonesus",
       "label": "Vladimir Captures Chersonesus",
       "year": 988,
-      "description": "Vladimir besieged and took the Byzantine city of Chersonesus in Crimea to pressure Constantinople. He used it as leverage to secure a Byzantine imperial bride.",
+      "description": "When Byzantium stalled on delivering Princess Anna after Vladimir had already sent his troops, Vladimir besieged and captured Chersonesus (kher-soh-NEE-sus), a major Byzantine colonial city on the Crimean coast, and held it hostage until Constantinople delivered the bride.",
       "wikiSlug": "Chersonesus",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chersonesus had been a Greek colony for about 2,500 years by this point — founded in the 6th century BC — and was one of Byzantium's key commercial and strategic outposts on the Black Sea. Vladimir was baptized there (or possibly in Kyiv — the Chronicle itself records two traditions and admits it cannot resolve the discrepancy, which is characteristic of its honesty about gaps in the record)."
+        }
+      ],
+      "commonsFile": "Chersonesos_columns.jpg"
     },
     {
       "id": "evt-vladimir-marries-anna",
       "label": "Vladimir Marries Anna Porphyrogenita",
       "year": 988,
-      "description": "Vladimir married Anna, sister of Emperor Basil II, an extraordinary match into the Byzantine imperial family. In return he sent the Varangian Guard that saved Basil's throne.",
+      "description": "As his price for sending troops to save Basil II, Vladimir demanded marriage to Anna — a porphyrogenita (por-FEER-oh-jeh-NEE-tah), meaning a princess born to a reigning emperor inside the purple-draped imperial birthing chamber, the highest-ranking royal bride in the Christian world.",
       "wikiSlug": "Anna_Porphyrogenita",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Byzantium had flatly refused to give porphyrogenitai to Western emperors and Bulgarian tsars who had asked — the title was considered too sacred to export. That Basil now offered one to a recently pagan Rus' prince measures exactly how close to ruin the Phokas revolt had brought him. Anna reportedly wept when told she was to be sent north, calling it 'captivity among barbarians,' according to the Chronicle."
+        }
+      ]
     },
     {
       "id": "evt-baptism-of-rus",
       "label": "The Baptism of Rus'",
       "year": 988,
-      "description": "Vladimir was baptized and ordered the mass baptism of the people of Kyiv in the Dnieper, toppling the pagan idols. The conversion bound Rus' permanently to Eastern Orthodox Christianity.",
+      "description": "In 988 Vladimir was baptized and ordered the mass baptism of Kyiv's population in the Dnieper River, while the pagan idols he had erected eight years earlier — including Perun — were pulled down, flogged, and thrown in the river.",
       "wikiSlug": "Christianization_of_Kievan_Rus'",
       "tier": 1,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The river ceremony changed the official religion of the prince and his capital; the actual Christianization of the countryside took generations. Pagan priests called volkhvy (VOL-khvee) retained real authority in rural areas and twice led open revolts — presenting the old gods as the cure when famine struck and the new church failed to prevent it. The Chronicle, written by Orthodox monks, records these revolts without suppressing them."
+        }
+      ],
+      "commonsFile": "Lebedev_baptism.jpg"
     },
     {
       "id": "evt-varangian-guard",
       "label": "Founding of the Varangian Guard",
       "year": 988,
-      "description": "Vladimir dispatched 6,000 warriors to Constantinople who became the elite Varangian Guard of the Byzantine emperors. The unit served the empire for over two centuries.",
+      "description": "The roughly 6,000 Norse-Rus' warriors Vladimir sent to save Basil II never went home. Retained on imperial pay, sworn personally to the emperor, they became the Varangian Guard — the elite bodyguard unit of the Byzantine emperors for over two centuries.",
       "wikiSlug": "Varangian_Guard",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Guard was a deliberate design: by recruiting fighters from far outside Byzantium, emperors got men with no local loyalties or political debts who could suppress Byzantine revolts without hesitation. After 1066, dispossessed Anglo-Saxon nobles fleeing the Norman Conquest of England joined in large numbers, giving the unit a remarkably multicultural Norse-then-English composition at its height."
+        }
+      ],
+      "commonsFile": "A_Thracesian_woman_kills_a_Varangian.jpg"
     },
     {
       "id": "evt-church-of-the-tithes",
       "label": "Church of the Tithes Built",
       "year": 996,
-      "description": "Vladimir built the Church of the Tithes in Kyiv, the first stone church in Rus', funded by a tenth of princely revenues. It became the religious center of the new Christian state.",
+      "description": "Vladimir built the Church of the Tithes in Kyiv around 996 — the first stone church in all of Rus' — and endowed it with a permanent tenth of princely revenues, making it a self-sustaining institution rather than a one-off donation.",
       "wikiSlug": "Church_of_the_Tithes",
       "tier": 2,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its formal name was the Church of the Dormition of the Virgin, and it was built with Byzantine and local workers on the site where two Varangian Christian martyrs, Theodor and his son Johann, had been killed by a pagan mob — a deliberately symbolic choice of location. It stood for 244 years before Batu Khan's Mongol army destroyed it during the Siege of Kyiv in 1240."
+        }
+      ],
+      "commonsFile": "Desjatynna_westerfeld.jpg"
     },
     {
       "id": "evt-metropolitanate-kyiv",
       "label": "Metropolitanate of Kyiv Established",
       "year": 988,
-      "description": "A church hierarchy under a metropolitan appointed from Constantinople was organized for Rus'. The Greek-led church became a major cultural and political institution.",
+      "description": "With conversion came a formal church hierarchy: a Metropolitanate of Kyiv was organized as a single administrative province of the Eastern Church, with its top bishop (the metropolitan) appointed by and answerable to the Patriarch of Constantinople — not chosen locally.",
       "wikiSlug": "Metropolitanate_of_Kiev_and_all_Rus'",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "That chain of command — Kyiv parish to metropolitan to Constantinople — is what actually anchored Rus' to the Byzantine world for centuries, not any single baptism ceremony. The metropolitan seat moved first to Vladimir-na-Klyazme in 1299 and then to Moscow in 1325, tracing the political gravity of power across East Slavic history long after Kyiv itself had fallen to the Mongols."
+        }
+      ]
     },
     {
       "id": "evt-vladimir-fortress-lines",
       "label": "Vladimir's Defensive Fortifications",
       "year": 990,
-      "description": "Vladimir built lines of fortified towns and earthen ramparts, the so-called Serpent's Walls, along the southern frontier against the Pechenegs. The system protected Kyiv's agricultural heartland.",
+      "description": "Vladimir built a deep defensive belt along Rus''s vulnerable southern steppe frontier — lines of fortified towns connected by earthen ramparts later called the Serpent's Walls — to shield Kyiv's agricultural heartland from Pecheneg raids.",
       "wikiSlug": "Serpent's_Wall",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The surviving earthworks stretch roughly 1,000 km (620 miles) and represent less than 20% of the original system. They were built roughly parallel to the Dnieper tributaries, using the rivers themselves as the first line of defense and the ramparts as the second — an integrated landscape defense rather than a single wall."
+        }
+      ],
+      "commonsFile": "Serpent's_wall.jpg"
     },
     {
       "id": "evt-cyrillic-spread-rus",
       "label": "Cyrillic Script Adopted in Rus'",
       "year": 990,
-      "description": "Following conversion, the Cyrillic alphabet and Old Church Slavonic liturgy spread through Rus' via Byzantine and Bulgarian clergy. Literacy and book culture became tied to the church.",
+      "description": "Conversion brought the Cyrillic alphabet and Old Church Slavonic (a literary South Slavic standard developed by Bulgarian scholars) north into Rus', giving East Slavs a script and a church language close enough to their own spoken tongue that worshippers could broadly follow the liturgy.",
       "wikiSlug": "Early_Cyrillic_alphabet",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cyrillic was developed at the Preslav Literary School in Bulgaria in the late 9th century — systematized possibly at the Council of Preslav in 893 — and carried the name of missionary Saint Cyril, who had adapted Greek letters for the Slavs. The choice of an Orthodox rite in a Slavic-adjacent language rather than Latin set the permanent cultural boundary between Eastern and Western Europe: that border today runs exactly where the Orthodox-Catholic divide does."
+        }
+      ],
+      "commonsFile": "Archangel_Gospel_03.jpg"
     },
     {
       "id": "evt-vladimir-schools",
@@ -479,55 +766,96 @@
       "id": "evt-vladimir-death-918",
       "label": "Death of Vladimir the Great",
       "year": 1015,
-      "description": "Vladimir died while preparing to march against his rebellious son Yaroslav, leaving the succession contested. He was later canonized as a saint and 'Equal to the Apostles.'",
+      "description": "Vladimir the Great died in 1015 while preparing to move against his rebellious son Yaroslav, leaving the throne of Kyiv wide open and his many sons scrambling. He had already been canonized as a saint equal to the apostles for bringing Christianity to Rus'.",
       "wikiSlug": "Vladimir_the_Great",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Vladimir had his baptismal name Basil after Emperor Basil II, who was his patron and father-in-law through the marriage to Princess Anna. Despite being remembered as a Christian saint, he held power for decades as a ruthless pagan warlord first — the conversion in 988 came after roughly a decade of consolidating control by force. He died at Berestove, a rural estate outside Kyiv, and his body reportedly had to be smuggled out at night to avoid Svyatopolk's forces seizing it."
+        }
+      ],
+      "commonsFile": "Vladimir_campaign_on_Korsun_by_Roerich.jpg"
     },
     {
       "id": "evt-boris-and-gleb",
       "label": "Murder of Boris and Gleb",
       "year": 1015,
-      "description": "Svyatopolk the Accursed had his half-brothers Boris and Gleb killed in the succession struggle. The two princes, who refused to resist, became the first canonized saints of Rus'.",
+      "description": "In the bloody succession war after Vladimir's death, his son Svyatopolk had half-brothers Boris and Gleb murdered. The two chose not to fight back, and their willing submission to death made them the first saints ever canonized in Rus'.",
       "wikiSlug": "Boris_and_Gleb",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Boris and Gleb were assigned the Christian names Roman and David at baptism — the names they carry in liturgical use today. Their feast day falls on July 24. The category of sainthood they were granted, 'passion-bearers' (strastoterptsy), was genuinely new: Byzantine tradition had no equivalent category, so Rus' essentially invented it for them. The choice said something deliberately pointed about how this young Christian culture saw power and violence."
+        }
+      ],
+      "commonsFile": "Boris_Savvin.jpg"
     },
     {
       "id": "evt-war-yaroslav-svyatopolk",
       "label": "Yaroslav's War Against Svyatopolk",
       "year": 1016,
-      "description": "Yaroslav of Novgorod fought a multi-year civil war against Svyatopolk, who was backed by his Polish father-in-law Bolesław I. Yaroslav's decisive victory came at the Alta River in 1019.",
+      "description": "After Vladimir's death, Yaroslav of Novgorod waged a years-long civil war against his brother Svyatopolk, who brought in Polish forces under King Bolesław I. The war ground on with shifting control of Kyiv until a decisive battle at the Alta River around 1019.",
       "wikiSlug": "Yaroslav_the_Wise",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yaroslav funded the war largely with help from his Novgorodian subjects, who provided levies and money — a debt he repaid with significant civic privileges for the city that helped make Novgorod a semi-autonomous power in later centuries. The Polish king Bolesław actually occupied Kyiv for a period during the conflict, a reminder that Latin-Christian Poland was already a full participant in Rus' politics barely a generation after both kingdoms converted."
+        }
+      ],
+      "commonsFile": "2_hryvnia_2005_front.jpg"
     },
     {
       "id": "evt-yaroslav-takes-kyiv",
       "label": "Yaroslav the Wise Takes Kyiv",
       "year": 1019,
-      "description": "Yaroslav defeated Svyatopolk and secured Kyiv, beginning a 35-year reign regarded as the golden age of Rus'. He shared power for a time with his brother Mstislav of Chernigov.",
+      "description": "Yaroslav secured Kyiv in 1019 after defeating Svyatopolk, beginning what became a 35-year reign celebrated as Rus's golden age. For a time he shared the realm with his capable brother Mstislav, dividing territory along the Dnieper River.",
       "wikiSlug": "Yaroslav_the_Wise",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yaroslav's baptismal name was George, after Saint George, a detail the sources preserve even as the epithet 'the Wise' eclipsed everything else. He had been Prince of Novgorod from around 1010 before the succession war began, so he came to Kyiv as an experienced regional ruler, not a newcomer. The division of Rus' with Mstislav lasted until 1036 and was by most accounts genuinely cooperative — unusual in a dynasty defined by brotherly violence."
+        }
+      ],
+      "commonsFile": "2_hryvnia_coin_of_Ukraine,_2018_(reverse).jpg"
     },
     {
       "id": "evt-battle-of-listven",
       "label": "Battle of Listven",
       "year": 1024,
-      "description": "Yaroslav's brother Mstislav of Tmutarakan defeated him at Listven, forcing a division of Rus' along the Dnieper. The two ruled jointly until Mstislav's death in 1036.",
+      "description": "In 1024 Yaroslav's brother Mstislav, prince of the distant outpost of Tmutarakan on the Black Sea, defeated him in open battle at Listven and forced a split of Rus' along the Dnieper. The two then ruled their halves jointly and without apparent conflict until Mstislav died heirless in 1036.",
       "wikiSlug": "Mstislav_of_Chernigov",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mstislav is one of the more vivid figures in the chronicle tradition: before Listven he famously killed the Kasogian (Circassian) champion Rededia in single combat to settle a war, a duel the Primary Chronicle recounts in detail. Tmutarakan, his base, sat on the Taman peninsula by the Strait of Kerch and was a genuine trading outpost deep in former Khazar territory — holding it meant a window onto the Black Sea and the steppe world the Rus' had been navigating for a century."
+        }
+      ],
+      "commonsFile": "Mstislav_and_Rededia.jpg"
     },
     {
       "id": "evt-yaroslav-defeats-pechenegs",
       "label": "Yaroslav Crushes the Pechenegs",
       "year": 1036,
-      "description": "Yaroslav decisively defeated the Pechenegs outside Kyiv, ending their threat to the southern frontier. He commemorated the victory by building the Saint Sophia Cathedral on the battlefield.",
+      "description": "Around 1036 Yaroslav crushed the Pechenegs in a decisive battle outside Kyiv's walls, ending more than two centuries of nomadic raiding from the steppe. The victory was so complete that the Pechenegs essentially disappeared as an independent force in the region.",
       "wikiSlug": "Pechenegs",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Pechenegs were a Turkic-speaking semi-nomadic people from Central Asia who had controlled the steppe corridors of southeastern Europe and the Crimean Peninsula since the ninth century. After 1036 their remnants were absorbed by the next wave of steppe nomads, the Cumans (Kipchaks), who would then become Rus's new steppe problem. Yaroslav marked the victory by building Saint Sophia Cathedral on or near the site — a habit of victory-churches that Byzantium had also popularized."
+        }
+      ]
     },
     {
       "id": "evt-yaroslav-sole-ruler",
@@ -542,28 +870,49 @@
       "id": "evt-saint-sophia-kyiv",
       "label": "Saint Sophia Cathedral of Kyiv Built",
       "year": 1037,
-      "description": "Yaroslav built the Saint Sophia Cathedral in Kyiv, a vast Byzantine-style church with mosaics and frescoes that became the spiritual heart of Rus'. It survives as a UNESCO World Heritage Site.",
+      "description": "Beginning around 1037, Yaroslav built the Saint Sophia Cathedral in Kyiv — a vast Byzantine-style cathedral with thirteen domes and an interior covered in gold-ground mosaics and frescoes executed by Greek craftsmen. It is a UNESCO World Heritage Site and one of the very few buildings in this narrative the reader could actually walk into today.",
       "wikiSlug": "Saint_Sophia_Cathedral_in_Kyiv",
       "tier": 1,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The towering mosaic of the praying Virgin in the apse, known as the Orans (Latin for 'praying'), is among the most intact eleventh-century mosaics in the world — gold tesserae applied by the same craftsmen trained on Constantinople's own imperial buildings. The cathedral was named for Hagia Sophia in Constantinople, but it was not a copy: it was a deliberate claim of equivalence. The bell tower visible today is from the 17th century; the original exterior looked considerably more austere."
+        }
+      ],
+      "commonsFile": "80-391-0151_Kyiv_St.Sophia's_Cathedral_RB_18_2_(cropped).jpg"
     },
     {
       "id": "evt-golden-gate-kyiv",
       "label": "Golden Gate of Kyiv Built",
       "year": 1037,
-      "description": "Yaroslav constructed the monumental Golden Gate as the main fortified entrance to Kyiv, modeled on the gates of Constantinople. It symbolized the city's imperial ambitions.",
+      "description": "Around 1037 Yaroslav built the Golden Gate of Kyiv, a massive ceremonial entrance modeled directly on the Golden Gate of Constantinople — the arch through which Byzantine emperors staged triumphal entries. Building its copy in Kyiv was a specific statement: Rus' could now do imperial ceremony.",
       "wikiSlug": "Golden_Gate,_Kyiv",
       "tier": 2,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The original structure was dismantled in the Middle Ages, and the current reconstructed gate (completed in 1982 for Kyiv's 1,500th anniversary) is a scholarly approximation built over the surviving foundation stumps rather than a survival of the original. A small church of the Annunciation sat atop the gate, another detail copied from Constantinople's own Golden Gate. The extravagance of the project — gate plus church plus triumphalist design — all signaled that Yaroslav was not building a frontier fortress but an imperial capital."
+        }
+      ],
+      "commonsFile": "Golden_Gate_Kiev_2018_G1.jpg"
     },
     {
       "id": "evt-russkaya-pravda",
       "label": "Issuance of the Russkaya Pravda",
       "year": 1019,
-      "description": "Yaroslav issued the Russkaya Pravda, the first written law code of Rus', regulating blood feud, fines, and property. It became the foundation of East Slavic legal tradition.",
+      "description": "The Russkaya Pravda (roos-KAH-ya PRAHV-da), meaning 'Rus' Justice' or 'Rus' Law,' was the first written law code of Rus', associated with Yaroslav in the early eleventh century. It regulated the blood feud by setting out exactly who could avenge a killing — and what payment in silver could replace vengeance.",
       "wikiSlug": "Russkaya_Pravda",
       "tier": 1,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The oldest surviving manuscript we have is a 12th-century copy called the Synodal copy (Синодальный список), which is the same manuscript whose first page is in the lead image. The code scaled fines (called vira, payable partly to the prince and partly to the victim's kin) by the status of the victim — a principle that makes it a rich window into the actual social hierarchy of Rus', including free peasants, debt-bondsmen, slaves, and merchants. Later additions by Yaroslav's sons and Vladimir Monomakh capped moneylenders' interest rates, suggesting the code evolved in response to real social tensions."
+        }
+      ],
+      "commonsFile": "The_instance_Sinodal`niy_of_Pravda_Ruskaya_page_1.jpg"
     },
     {
       "id": "evt-yaroslav-library",
@@ -578,28 +927,49 @@
       "id": "evt-yaroslav-dynastic-marriages",
       "label": "Yaroslav's European Marriage Alliances",
       "year": 1040,
-      "description": "Yaroslav married his children into the royal houses of France, Norway, Hungary, and Poland, earning the nickname 'father-in-law of Europe.' His daughter Anne became Queen of France.",
+      "description": "Yaroslav systematically married his children into the royal families of France, Norway, Hungary, Poland, and the German imperial orbit, earning the nickname 'father-in-law of Europe.' The network is documented from European sources as well as Rus' ones.",
       "wikiSlug": "Anne_of_Kiev",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scale of it is worth sitting with: within a single generation, the dynasty that Viking traders and raiders had built in the ninth century was marrying at the same level as the oldest royal houses of Latin Christendom. Yaroslav himself married a Swedish princess, Ingegerd of Sweden, which made him simultaneously son-in-law of the Swedish king. The marriages also carried cultural traffic in both directions — Anne took Cyrillic literacy to France, while European ideas about royal ceremony, church architecture, and legal tradition flowed east."
+        }
+      ],
+      "commonsFile": "Córki_Jarosława.jpeg"
     },
     {
       "id": "evt-hilarion-metropolitan",
       "label": "Hilarion Appointed Metropolitan",
       "year": 1051,
-      "description": "Yaroslav had the native cleric Hilarion installed as Metropolitan of Kyiv without Constantinople's approval, asserting church independence. Hilarion authored the landmark Sermon on Law and Grace.",
+      "description": "In 1051 Yaroslav had the native Rus' monk Hilarion installed as Metropolitan of Kyiv — the head of the entire Rus' church — by a council of Rus' bishops, bypassing the usual appointment by Constantinople. It was the first time a Rus', not a Greek, held the post.",
       "wikiSlug": "Hilarion_of_Kiev",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hilarion was living as a hermit in a cave on the Berestove hill outside Kyiv when Yaroslav selected him — the same bluff where the Kyiv Caves Monastery would soon be founded, suggesting these cave-dwelling ascetics formed a loose spiritual network at the edge of the capital. Whether Constantinople formally objected or quietly accepted the appointment is genuinely unclear from the surviving sources; historians still disagree. Hilarion disappears from the sources after 1054, and his successor was again a Greek, suggesting the independence was either reversed or not sustained."
+        }
+      ],
+      "commonsFile": "Illarion_ikona.jpg"
     },
     {
       "id": "evt-sermon-law-grace",
       "label": "Sermon on Law and Grace Composed",
       "year": 1050,
-      "description": "Metropolitan Hilarion composed the Sermon on Law and Grace, the earliest surviving original work of Rus' literature. It celebrated Rus's place among Christian nations.",
+      "description": "The Sermon on Law and Grace, written by Hilarion around 1050, is the oldest surviving original literary work produced in Rus' — meaning composed here, not translated from Greek. It is a sophisticated theological oration that places Rus' among the legitimate Christian nations and celebrates Vladimir as the prince who made it so.",
       "wikiSlug": "Sermon_on_Law_and_Grace",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The sermon draws a contrast between the Old Testament Law (associated with Judaism) and the New Testament Grace (associated with Christianity), casting Rus' conversion as full participation in the latter — a theological argument, not just a political one. Hilarion was considered a writer worthy of imitation by later Rus' authors, meaning the Sermon directly shaped the stylistic and rhetorical toolkit of all subsequent Rus' literature. It predates the Primary Chronicle by several decades, which makes it our earliest window into how Rus' intellectuals thought about their own place in history."
+        }
+      ],
+      "commonsFile": "Torzhestvennik_with_Sermon_on_Law_and_Grace_(15th_c.,_GIM)_by_shakko.jpg"
     },
     {
       "id": "evt-rus-byzantine-war-1043",
@@ -614,91 +984,159 @@
       "id": "evt-kyiv-monastery-caves",
       "label": "Founding of the Kyiv Pechersk Lavra",
       "year": 1051,
-      "description": "Saint Anthony and Saint Theodosius founded the Monastery of the Caves at Kyiv, which became the premier monastic and intellectual center of Rus'. It produced chronicles, saints, and church leaders.",
+      "description": "The Kyiv Pechersk Lavra (kyiv-peh-CHERSK LAH-vrah) — the Monastery of the Caves — was founded around 1051 by the hermit Anthony, who dug his first cell into the soft limestone cliffs above the Dnieper. It became the intellectual and spiritual heart of Rus', producing the Primary Chronicle itself.",
       "wikiSlug": "Kyiv_Pechersk_Lavra",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name 'Pechersk' comes from the Old Slavonic word for cave (pechera); the monks literally dug interconnected cells, chapels, and burial galleries into the hillside, a deliberate imitation of the Egyptian desert hermits who founded early Christian monasticism. The catacombs with the mummified remains of the early monks remain open to visitors today. The monastery grew under Theodosius into a major institutional center — scriptorium, library, and training ground for bishops — within a single generation of its founding."
+        }
+      ],
+      "commonsFile": "2005-08-15_Pechersk_Lavra_seen_from_river_Dnepr_Kiev_311.JPG"
     },
     {
       "id": "evt-yaroslav-death-rota",
       "label": "Death of Yaroslav and the Rota System",
       "year": 1054,
-      "description": "Yaroslav's deathbed testament divided Rus' among his sons under a rota system rotating senior princes among thrones. The arrangement intended to prevent strife but instead institutionalized it.",
+      "description": "When Yaroslav the Wise died in 1054 he left a deathbed plan to end the bloody succession wars that had defined every Rus' reign before his: the lestvitsa (LEST-veet-sa, 'the ladder'), a rotating seniority system where princes moved from city to city as they aged up the hierarchy rather than passing thrones to their own sons. It was elegant in theory and catastrophic in practice.",
       "wikiSlug": "Rota_system",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The system was not Yaroslav's invention from scratch — it drew on existing lateral (brother-to-brother) succession customs, and the historian Sergei Soloviev only codified it as a formal concept in 1860, centuries after it had already failed. A prince whose father died before reaching Kyiv was permanently expelled from the ladder as an 'izgoi' (outcast), creating a permanent class of legally disinherited princes with war-bands and grievances. The throne of Kyiv was the top rung, but the system assumed everyone would wait their turn — an assumption that almost no one honored once cousins and grand-nephews multiplied."
+        }
+      ]
     },
     {
       "id": "evt-triumvirate-yaroslavichi",
       "label": "Triumvirate of the Yaroslavichi",
       "year": 1054,
-      "description": "Yaroslav's three eldest sons, Izyaslav, Svyatoslav, and Vsevolod, jointly governed Rus' for two decades. The triumvirate revised the law code as the Pravda of the Yaroslavichi.",
+      "description": "For roughly two decades after Yaroslav's death, his three eldest sons — Izyaslav, Svyatoslav, and Vsevolod — governed Rus' as a joint triumvirate and even cooperated to expand the law code inherited from their father. It was the rota working as advertised, and it was the last time it would.",
       "wikiSlug": "Iziaslav_I_of_Kiev",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Izyaslav, the eldest, held the senior throne at Kyiv but was driven out twice — once by his own people and once by his brothers — before dying in battle in 1078, which tells you how cooperative the triumvirate really was. The brothers' legal revision, the Pravda of the Yaroslavichi, notably codified blood-money rates and regulated debt servitude, matters that would explode into revolt by 1113. Izyaslav's seal, one of the few surviving portraits of any Yaroslavich, shows a Byzantine-style ruler figure — a reminder that these princes still thought of themselves as heirs to a Roman Christian tradition."
+        }
+      ],
+      "commonsFile": "Совместный_обед_Изяслава_I.jpg"
     },
     {
       "id": "evt-cuman-arrival",
       "label": "Arrival of the Cumans",
       "year": 1055,
-      "description": "The Cumans (Polovtsy), a new Turkic steppe confederation, appeared on the Rus' frontier and would raid and trade with the principalities for nearly two centuries. They became Rus's chief steppe rival.",
+      "description": "Around 1055 the Cumans (also called Polovtsy in Rus' sources and Kipchaks further east) arrived on the Rus' steppe frontier — a Turkic nomadic confederation from Central Asia who would raid, trade, and intermarry with the principalities for nearly two centuries.",
       "wikiSlug": "Cumans",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cumans formed the western branch of a larger Cuman–Kipchak confederation that stretched across the Eurasian steppe from the Carpathians to western Siberia, one of the most geographically sprawling nomadic alliances of the medieval world. Their arrival pushed out the previous dominant group, the Pechenegs, whom Yaroslav the Wise had crushed around 1036 — each steppe power replacing the last in a cycle the Rus' knew well. Cuman warriors were prized as mercenaries across Eurasia; the Georgian and Byzantine armies both hired them, and they eventually founded ruling dynasties in Bulgaria and Hungary."
+        }
+      ]
     },
     {
       "id": "evt-battle-of-the-alta-1068",
       "label": "Cuman Victory at the Alta River",
       "year": 1068,
-      "description": "The Cumans crushed the combined armies of the Yaroslavichi at the Alta River, exposing the realm to devastating raids. The defeat sparked a popular uprising in Kyiv.",
+      "description": "In 1068 the Cumans (a Turkic nomad confederation that had replaced the Pechenegs on the southern steppe) shattered the combined army of all three Yaroslavichi at the Alta River — the same patch of ground south of Kyiv where Yaroslav had won his throne in 1019. The defeat broke the triumvirate's credibility and ignited a revolt in the capital.",
       "wikiSlug": "Cumans",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cumans, called Polovtsy in Rus' chronicles, spoke a Turkic language closely related to modern Kazakh and ranged across the steppe from the Danube to the Urals. Their cavalry tactics — fast raids, feigned retreats, devastating archery — made them nearly impossible to defeat in open field unless Rus' princes could agree to coordinate, which they almost never did. The Alta battlefield's symbolic weight was not lost on contemporaries: losing where your father had won was a statement about the dynasty's decline."
+        }
+      ],
+      "commonsFile": "0925_Kipchak_style_helmet_13th_c.JPG"
     },
     {
       "id": "evt-kyiv-uprising-1068",
       "label": "Kyiv Uprising of 1068",
       "year": 1068,
-      "description": "After the defeat by the Cumans the people of Kyiv rose up, expelled Prince Izyaslav, and briefly freed a rival prince. It was an early demonstration of the power of the veche assembly.",
+      "description": "After the Alta defeat, the people of Kyiv convened their veche (VEH-cheh, the open town assembly of free adult men) and drove out Prince Izyaslav, briefly installing a rival prince from prison. It was one of the earliest clear demonstrations that the population of Rus' cities was not merely scenery in the princes' wars.",
       "wikiSlug": "Iziaslav_I_of_Kiev",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Izyaslav had refused to arm the townspeople for a counter-attack after the Alta defeat, which the veche took as either cowardice or contempt — and chose to act themselves. He would be restored with Polish military help within a year, but the episode showed that Kyiv's population could and would remove a prince by direct action, a precedent that would recur. The veche's power was especially strong in Novgorod, where it eventually evolved into a formal institution that hired and fired princes on contract."
+        }
+      ],
+      "commonsFile": "Izyaslav_I_Yaroslavich.png"
     },
     {
       "id": "evt-primary-chronicle-begun",
       "label": "Compilation of the Primary Chronicle",
       "year": 1113,
-      "description": "Monks of the Kyiv Caves Monastery, traditionally the monk Nestor, compiled the Tale of Bygone Years, the foundational chronicle of Rus' history. It remains the chief narrative source for the era.",
+      "description": "Around 1113 monks at the Kyiv Caves Monastery compiled the Primary Chronicle (in Old East Slavic: Povest' vremennykh let, 'The Tale of Bygone Years'), assembling earlier records and oral traditions into the foundational narrative of Rus' history from around 850 to 1110. It is the single most important written source for the era, and also the most contested.",
       "wikiSlug": "Primary_Chronicle",
       "tier": 1,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The tradition that a monk named Nestor wrote the Chronicle is itself a tradition rather than a settled fact — modern scholars believe the text we have is a later reworking of his reworking of still earlier material, layered like geological strata. The Chronicle covers events from the 850s–880s that it was recording 250 years after the fact, equivalent to someone writing today about the early 1770s using only oral tradition and church-sponsored legends. The Radziwiłł Chronicle, a later illustrated manuscript, provides many of the most recognizable images of this period, though it dates from the 15th century."
+        }
+      ],
+      "commonsFile": "14_2_List_of_Radzivill_Chron.jpg"
     },
     {
       "id": "evt-novgorod-veche",
       "label": "Rise of the Novgorod Veche",
       "year": 1080,
-      "description": "Novgorod developed a powerful popular assembly, the veche, that hired and dismissed its princes. The city evolved into a quasi-republican mercantile commune unique in Rus'.",
+      "description": "Among the Rus' cities Novgorod developed the most powerful version of the veche, the open assembly of free adult men that governed civic life, to the point where its princes were effectively employees hired on contract and dismissed if they underperformed. No other Rus' city went as far toward self-governance.",
       "wikiSlug": "Veche",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Novgorod's veche rang a great bell to summon citizens and decided by acclamation rather than counted vote — whoever's side shouted louder won, which occasionally meant two factions shouting simultaneously from opposite ends of the main bridge with real violence following. The city's merchants and wealthier householders dominated in practice even though any free man could attend. The Novgorod veche survived until 1478, when Ivan III of Moscow suppressed it and famously carted the bell away as a trophy of the city's absorption into Muscovite Russia."
+        }
+      ],
+      "commonsFile": "Pskov_Veche_Vasnetsov.jpg"
     },
     {
       "id": "evt-novgorod-birch-bark",
       "label": "Novgorod Birch-Bark Letters",
       "year": 1050,
-      "description": "Surviving birch-bark letters from Novgorod reveal widespread everyday literacy among merchants, women, and children. They are an extraordinary window into ordinary medieval Rus' life.",
+      "description": "From the 1950s onward, Novgorod's waterlogged soil began yielding thousands of birch-bark letters — everyday documents scratched with a stylus by ordinary townspeople from the eleventh century on, proving that medieval Rus' literacy reached far beyond monks and princes.",
       "wikiSlug": "Birch_bark_manuscript",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Among the finds: a boy named Onfim left school exercises and doodles of himself as a mounted warrior; a woman wrote to manage property transactions; someone sent a furious letter after being jilted; merchants fired off debt notices and shopping lists. No other medieval European city has produced anything like this volume of ordinary voices. The letters survive because birch bark lasts for centuries in anaerobic waterlogged soil — Novgorod's particular geology turned out to be an accidental archive."
+        }
+      ],
+      "commonsFile": "Birch_bark_document_210.jpg"
     },
     {
       "id": "evt-novgorod-trade-baltic",
       "label": "Novgorod's Baltic Fur Trade",
       "year": 1100,
-      "description": "Novgorod grew rich exporting furs, wax, and honey from its vast northern hinterland to German and Scandinavian merchants. It later became a key partner of the Hanseatic League.",
+      "description": "Novgorod sat at the crossroads of the northern fur country and the Baltic, and grew fabulously rich shipping squirrel and sable pelts, beeswax, and honey westward to German and Scandinavian merchants — becoming the eastern anchor of what would formalize as the Hanseatic League.",
       "wikiSlug": "Republic_of_Novgorod",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Novgorod Republic stretched from the Gulf of Finland all the way to the Ural Mountains at its height, making it one of the largest states in medieval Europe by territory. Its culture was deeply shaped by Byzantine contacts, and the Novgorod school of icon painting became one of the most distinctive artistic traditions in the medieval world. The city was formally known as 'Lord Novgorod the Great,' a title that tells you exactly how its citizens thought of themselves."
+        }
+      ],
+      "commonsFile": "Novgorod1400.png"
     },
     {
       "id": "evt-saint-sophia-novgorod",
@@ -713,162 +1151,285 @@
       "id": "evt-council-of-lyubech",
       "label": "Council of Lyubech",
       "year": 1097,
-      "description": "The princes met at Lyubech and agreed that each branch of the dynasty would hold its patrimony hereditarily. The deal legitimized the breakup of Rus' into separate principalities.",
+      "description": "In 1097 the leading princes met at Lyubech on the Dnieper and agreed that each branch of the dynasty would hold its territory hereditarily — passing it to its own sons instead of rotating it around the shared ladder. The council that was convened to save Rus' unity formally ratified its breakup.",
       "wikiSlug": "Council_of_Liubech",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The council ended the Chernigov war of succession (1093–1097) between Sviatopolk II and Vladimir Monomakh against Oleg of Chernigov — so it was at least partly a practical peace deal between real combatants, not purely a constitutional reform. The key phrase agreed upon was 'kazhdo da derzhit otchinu svoiu' ('let each hold his own patrimony'), which historians read as either the birth certificate of the separate Russian principalities or as one milestone in a longer drift, with genuine scholarly disagreement about how decisive a single meeting could be. Today a large bronze monument stands in Lubech, Ukraine, commemorating the 1097 council."
+        }
+      ],
+      "commonsFile": "I_zjazady_książąt_Rusi_Kijowskiej._Brąz,_granit._1997_Lubecz,_Ukraina.jpg"
     },
     {
       "id": "evt-vasilko-blinding",
       "label": "Blinding of Vasilko of Terebovl",
       "year": 1097,
-      "description": "Shortly after the Lyubech council, Prince Vasilko was seized and blinded by rivals, igniting a fresh round of civil war. The atrocity is vividly recounted in the Primary Chronicle.",
+      "description": "In 1097, days after the Lyubech council had sworn all the princes to peace, Prince Vasilko of Terebovl was lured to Kyiv under a false pretext, seized, held down, and blinded with a knife — a Byzantine-style method for disqualifying a rival from rule without technically killing him. The Primary Chronicle's account of the attack is the most viscerally horrified passage in the whole document.",
       "wikiSlug": "Vasilko_Rostislavich",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "What the chronicler found shocking was not blinding itself — it was a recognized political tool borrowed from Byzantine practice — but that it was done through a betrayed safe-conduct, by fellow princes, immediately after a solemn sworn peace. Vasilko was the first member of the Rurik dynasty to be blinded, according to the chronicle tradition, which is why the act registered as a rupture. Despite losing his eyes, Vasilko continued to rule Terebovl and even conducted military campaigns afterward, suggesting the blindness was understood as degrading but not completely incapacitating."
+        }
+      ],
+      "commonsFile": "Приезд_Василька_Ростиславича_Теребовльского_на_двор_Святополка_Изяславича_Киевского.jpg"
     },
     {
       "id": "evt-monomakh-anti-cuman",
       "label": "Vladimir Monomakh's Cuman Campaigns",
       "year": 1103,
-      "description": "Prince Vladimir Monomakh organized coalition campaigns deep into the steppe that broke Cuman power for a generation. He emerged as the most respected leader in Rus'.",
+      "description": "Around 1103, at a council at Dolobsk, Vladimir Monomakh persuaded the quarreling princes to stop hiring Cumans against each other and instead launch a united preemptive strike deep into the steppe. The coalition campaigns shattered Cuman power for a generation and turned Monomakh into the moral conscience of Rus'.",
       "wikiSlug": "Vladimir_II_Monomakh",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Monomakh conducted 83 large-scale campaigns against the Cumans (Polovtsians) over his career, according to sources, earning enough fear and respect that Cuman khans avoided direct confrontation with him when possible. The 1103 campaign was launched in early spring specifically to catch the nomads before their horses had fattened on summer grass and before the raiding season began — an unusually sophisticated strategic calculation compared to the usual reactive defense. The Eastern Orthodox Church later canonized Monomakh; he is commemorated on May 6."
+        }
+      ],
+      "commonsFile": "Vladimir_monomakh.jpg"
     },
     {
       "id": "evt-monomakh-grand-prince",
       "label": "Vladimir Monomakh Becomes Grand Prince",
       "year": 1113,
-      "description": "Summoned to Kyiv during a popular revolt, Vladimir Monomakh restored order and briefly reunited much of Rus' under strong central rule. His reign was remembered as a last flourishing of Kievan unity.",
+      "description": "When an unpopular prince died in 1113 and Kyiv's debtors erupted in a revolt against moneylenders, the city's assembly summoned Vladimir Monomakh to the throne — skipping over the strict ladder order because no one else commanded enough respect to stop the violence. He held the realm together through sheer personal authority until his death in 1125.",
       "wikiSlug": "Vladimir_II_Monomakh",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Monomakh reigned from 1113 to 1125, consolidating more territory than any Kyiv prince since Yaroslav, and his court maintained close ties with Constantinople — the surname Monomakh came from his maternal grandfather, the Byzantine emperor Constantine IX Monomachos. He is not to be confused with Vladimir the Great, who baptized Rus' in 988; the same first name four generations apart has confused readers ever since. The Eastern Orthodox Church venerates him as a saint and counts him among 122 saints of Ukraine and Russia."
+        }
+      ],
+      "commonsFile": "Instruction_of_Vladimir_II_Monomakh.jpeg"
     },
     {
       "id": "evt-monomakh-instruction",
       "label": "Vladimir Monomakh's Instruction",
       "year": 1117,
-      "description": "Vladimir Monomakh wrote his Instruction, a moral and political testament to his sons, a rare piece of secular Rus' literature. It blends autobiography with advice on Christian princely conduct.",
+      "description": "Near the end of his life Vladimir Monomakh wrote his Instruction (Poucheniye) to his sons: part autobiography, part military memoir, part manual of Christian princely conduct. It is one of the only surviving documents from the whole Rus' era written in a ruler's own voice rather than filtered through a monk's chronicle.",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Instruction survives as an insert within the Laurentian Chronicle manuscript and includes a vivid autobiographical section where Monomakh lists his military campaigns, hunting exploits (he describes being gored by a boar, tossed by a bison, and clawed by a bear), and diplomatic journeys — concrete personal detail almost entirely absent from the chronicle tradition. He advises his sons to greet guests warmly, personally supervise their households, and never execute a man or put out his eyes without trial. The text was probably written around 1117."
+        }
+      ]
     },
     {
       "id": "evt-monomakh-statute",
       "label": "Statute of Vladimir Monomakh",
       "year": 1113,
-      "description": "Monomakh issued a statute capping the interest moneylenders could charge, easing the debt crisis behind the Kyiv revolt. It was added to the Russkaya Pravda.",
+      "description": "To defuse the 1113 debt revolt, Monomakh issued a statute capping interest rates moneylenders could legally charge and limiting the conditions under which an unpayable loan could reduce a borrower's family to bondage. The reform was added to the Russkaya Pravda, Rus' main legal code.",
       "wikiSlug": "Russkaya_Pravda",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Russkaya Pravda had been accumulating since Yaroslav's era and was revised multiple times over two centuries, making it less a fixed constitution than a living palimpsest of different princely decisions. Monomakh's addition specifically addressed the 'zakupy' (bondage laborers) and set a maximum three-year limit on the debt-bondage that could be imposed — a meaningful protection in a society where a bad harvest could be the first step into permanent servitude. The Sinodal manuscript copy, dating to around 1280, is the oldest surviving version of the complete text."
+        }
+      ]
     },
     {
       "id": "evt-mstislav-the-great",
       "label": "Reign of Mstislav the Great",
       "year": 1125,
-      "description": "Mstislav the Great, son of Monomakh, briefly held the principalities together by force and prestige. He was the last Kyiv prince to command obedience across Rus'.",
+      "description": "Mstislav the Great, son of Monomakh, inherited his father's prestige and held the principalities together by force and reputation from 1125 to 1132. When he died the realm dissolved — he was the last Kyiv prince the other princes would actually obey.",
       "wikiSlug": "Mstislav_I_of_Kiev",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mstislav had been groomed for leadership since childhood: his father installed him as Prince of Novgorod at age five, and he spent decades building military credibility before inheriting the senior throne. He was also called 'Harold' in Western sources, reflecting a maternal English connection through his mother, a daughter of the last Anglo-Saxon king Harold Godwinson's lineage — one of those small reminders that Rus' was woven into European dynastic networks far more than its later isolation suggests. After his death in April 1132, the chronicle tradition records that Rus' simply split, with no single event triggering it."
+        }
+      ],
+      "commonsFile": "Mstislav_I_of_Rus.jpg"
     },
     {
       "id": "evt-final-fragmentation-1132",
       "label": "Final Fragmentation of Rus'",
       "year": 1132,
-      "description": "After Mstislav's death the realm dissolved into roughly a dozen sovereign principalities that warred constantly for the title of Kyiv. Kievan Rus' ceased to function as a unified state.",
+      "description": "After Mstislav's death in 1132 no prince commanded enough respect to hold Rus' together, and the realm quietly dissolved into roughly a dozen sovereign principalities — Kyiv, Novgorod, Vladimir-Suzdal, Galicia-Volhynia, and others — that shared a dynasty and a church but were otherwise independent states. The ladder had no working rungs left.",
       "wikiSlug": "Feudal_fragmentation",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fragmentation was not a sudden collapse but the end of a process: from about 12 principalities in the mid-12th century, the number grew to roughly 250 by the eve of the Mongol invasion in 1237, as each hereditary line subdivided its territory among its own sons. Historians debate whether Kievan Rus' should be understood as a coherent state at all, or always as a loose dynastic network that looked unified only when one prince was strong enough to dominate the others. The Mongols who arrived a century later did not destroy a unified Russia — they destroyed a patchwork of rival principalities that had been fighting each other for generations."
+        }
+      ]
     },
     {
       "id": "evt-galicia-volhynia-rise",
       "label": "Rise of Galicia-Volhynia",
       "year": 1140,
-      "description": "The southwestern principality of Galicia-Volhynia grew wealthy on salt, trade, and fertile land, becoming a powerful rival to Kyiv and Suzdal. It maintained close ties with Poland and Hungary.",
+      "description": "The southwestern principality of Galicia-Volhynia occupied fertile, salt-rich land near the Carpathians and developed a powerful noble class and strong trade ties with Catholic Poland and Hungary — pulling it culturally westward, away from the Kyiv-Constantinople axis.",
       "wikiSlug": "Kingdom_of_Galicia%E2%80%93Volhynia",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Galicia's salt deposits were a major medieval economic asset — rock salt was one of the essential commodities of the pre-refrigeration world, and controlling its production gave the region durable revenue independent of the volatile steppe trade routes. The principality's westward diplomatic orientation, reinforced by its proximity to the Polish and Hungarian kingdoms, meant that Latin-Christian influences reached Galician courts and monasteries in ways they simply did not in Vladimir or Novgorod."
+        }
+      ],
+      "commonsFile": "Triangle_of_Kyiv_Chernihiv_Pereyaslavl_1132.png"
     },
     {
       "id": "evt-yuri-dolgoruki",
       "label": "Yuri Dolgoruki and the Rise of Suzdal",
       "year": 1149,
-      "description": "Yuri 'Long Arm' Dolgoruki built up the northeastern Rostov-Suzdal land and repeatedly campaigned south to seize Kyiv. His ambitions shifted the realm's center of gravity northeast.",
+      "description": "Yuri Dolgoruki ('Yuri the Long-Armed') was a son of Vladimir Monomakh who aggressively colonized the northeastern forest country around Rostov and Suzdal, founding and fortifying towns to pull settlers in from the south — laying the groundwork for Vladimir-Suzdal's later dominance.",
       "wikiSlug": "Yuri_Dolgorukiy",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yuri's nickname came from his habit of reaching south to grab Kyiv rather than staying put in his northeastern lands — he seized it multiple times. The wikiExtract notes he successfully curbed the privileges of the landowning boyar class in Rostov-Suzdal, a notable achievement given how assertive that class proved elsewhere; this helped make the northeast structurally more autocratic than other principalities from an early date. His building program transformed a frontier backwater into an independent regional power that would eventually outcompete the old Kyiv center."
+        }
+      ],
+      "commonsFile": "Yuri_I_Dolgoruky.png"
     },
     {
       "id": "evt-founding-of-moscow",
       "label": "First Mention of Moscow",
       "year": 1147,
-      "description": "Yuri Dolgoruki is recorded inviting an ally to a feast at Moscow, the first documented reference to the future capital. At the time it was an obscure frontier outpost.",
+      "description": "In 1147 Yuri Dolgoruki sent word to an ally to meet him 'at Moscow' for a feast — a single line in a chronicle that is the very first written mention of the future capital of Russia, at this point an obscure frontier stockade too minor to rate more than a clause.",
       "wikiSlug": "History_of_Moscow",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The city only began to grow meaningfully around the Moscow Kremlin in the 14th century, nearly two hundred years after this first mention. The name itself may derive from the Moskva River, which likely has a Finnic or Slavic root — the forests around early Moscow were Finnic-speaking territory before Slavic settlement pushed in. Moscow served as capital of the Grand Duchy of Moscow, then the Tsardom of Russia, before Peter the Great moved the capital to Saint Petersburg in the early 18th century — and then became capital again in 1918."
+        }
+      ],
+      "commonsFile": "1638_moscow_Oleariy.jpg"
     },
     {
       "id": "evt-andrey-bogolyubsky",
       "label": "Andrey Bogolyubsky Rules Vladimir",
       "year": 1157,
-      "description": "Andrey Bogolyubsky made Vladimir-on-Klyazma his capital and ruled as an autocratic prince, refusing to move to Kyiv. He shifted prestige decisively to the northeast.",
+      "description": "Andrey Bogolyubsky ('Andrey the God-Loving') made Vladimir-on-Klyazma his capital from 1157 and ruled as a genuine autocrat — unlike his predecessors, he refused to leave for Kyiv even when he had the power to take it, insisting the northeast was now the center of the Rus' world.",
       "wikiSlug": "Andrey_Bogolyubsky",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Andrey was the son of Yuri Dolgoruki and accompanied his father on a capture of Kyiv in 1149, so he knew the old capital firsthand. The Russian Orthodox Church canonized him as a saint in 1702 — nearly five and a half centuries after his death — a measure of how central his memory remained to Russian national identity. His autocratic style was genuinely novel: he expelled his own brothers and father's boyars from the northeast, concentrating power in a way that prefigured later Muscovite princely rule."
+        }
+      ],
+      "commonsFile": "Andrey_Bogolyubsky_-_Vladimir_Historical_Museum.jpg"
     },
     {
       "id": "evt-dormition-cathedral-vladimir",
       "label": "Dormition Cathedral of Vladimir Built",
       "year": 1160,
-      "description": "Andrey Bogolyubsky built the white-stone Dormition Cathedral in Vladimir, asserting the city's claim to leadership of Rus'. Its architecture defined the northeastern style.",
+      "description": "Around 1160 Andrey Bogolyubsky built the Dormition Cathedral (also called the Assumption Cathedral) in Vladimir in white limestone, asserting his city's claim to spiritual leadership of Rus' — it was considered the mother church of Russia through the 13th century.",
       "wikiSlug": "Dormition_Cathedral,_Vladimir",
       "tier": 2,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cathedral is now part of the UNESCO World Heritage Site 'White Monuments of Vladimir and Suzdal,' recognized alongside the Church of the Intercession on the Nerl. It was later expanded by Vsevolod the Big Nest in the 1180s–90s, nearly doubling in size, and its frescoes include rare surviving works by the painter Andrei Rublev from 1408. The Dormition became the model that later Moscow cathedral builders consciously copied when they wanted to claim continuity with the medieval northeast."
+        }
+      ],
+      "commonsFile": "Dormition_of_the_Theotokos_Cathedral_Vladimir_2016-06-23_6402.jpg"
     },
     {
       "id": "evt-church-intercession-nerl",
       "label": "Church of the Intercession on the Nerl",
       "year": 1165,
-      "description": "Andrey Bogolyubsky built the Church of the Intercession on the Nerl, regarded as a masterpiece of early Russian architecture. Its elegant white-stone form became an enduring national symbol.",
+      "description": "Around 1165 Andrey Bogolyubsky built the Church of the Intercession on the Nerl — a single white limestone cube standing alone in a flood meadow at the junction of two rivers near Vladimir — and it became the most celebrated example of the Vladimir-Suzdal architectural school.",
       "wikiSlug": "Church_of_the_Intercession_on_the_Nerl",
       "tier": 2,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The church sits 8 miles (13 km) northeast of Vladimir, and in spring floods the entire meadow around its base, making it appear to float on the water — an effect that made it famous long before photography. Its walls still carry 12th-century stone carvings, virtually unaltered from the original build. The church's fame as a national symbol is partly a 19th and 20th-century construction: painters, scholars, and eventually schoolbook photographs canonized it as the purest surviving thing medieval Russia made, the way a particular cathedral becomes 'the' national image elsewhere."
+        }
+      ],
+      "commonsFile": "Bogolyubovo_asv2019-01_img06_Intercession_Church.jpg"
     },
     {
       "id": "evt-icon-vladimir",
       "label": "The Theotokos of Vladimir Icon",
       "year": 1155,
-      "description": "Andrey Bogolyubsky brought the revered Byzantine icon later known as Our Lady of Vladimir to the northeast. It became the most sacred image and palladium of the Rus' lands.",
+      "description": "The icon known as Our Lady of Vladimir (the Theotokos of Vladimir) is a 12th-century Byzantine masterpiece that Andrey Bogolyubsky took north to become the sacred protector-image, or palladium, of his new capital — the most venerated icon in Russia for centuries.",
       "wikiSlug": "Theotokos_of_Vladimir",
       "tier": 2,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The icon is an early example of the Eleusa type (the Virgin tenderly cheek-to-cheek with the Christ Child), and its near-destruction in the 13th century necessitated at least five major restorations — yet enough of the original Byzantine paint survived to make it one of the most studied medieval icons in existence. Several pivotal moments in Russian history were attributed to its miraculous intercession, including the defense against Tamerlane's invasion in 1395. The original is now in the Tretyakov Gallery in Moscow rather than in a church."
+        }
+      ],
+      "commonsFile": "Virgin_of_Vladimir.jpg"
     },
     {
       "id": "evt-sack-of-kyiv-1169",
       "label": "Sack of Kyiv by Andrey Bogolyubsky",
       "year": 1169,
-      "description": "Andrey Bogolyubsky's coalition stormed and brutally sacked Kyiv, then declined to rule from it, installing a subordinate instead. The event symbolized the eclipse of the old capital.",
+      "description": "In 1169, forces loyal to Andrey Bogolyubsky stormed and brutally sacked Kyiv — but Andrey then refused to move there, instead installing a subordinate to hold it while he returned to rule from Vladimir. The looting of the mother city by a Rus' prince who didn't even want to live there was the symbolic end of Kyiv's primacy.",
       "wikiSlug": "Andrey_Bogolyubsky",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The sack was carried out by Andrey's son rather than Andrey himself — the father directed the coalition from the northeast without leading it personally, which itself signals the new order: a Vladimir prince could project overwhelming force on Kyiv without needing to be there. Andrey famously carried off sacred icons from Kyiv's churches, including what would become the icon of Our Lady of Vladimir, transplanting Kyiv's spiritual prestige to his new capital rather than inheriting it through residence. The Russian Orthodox Church later made Andrey a saint, partly for this act of relocating sacred objects to the northeast."
+        }
+      ],
+      "commonsFile": "Prince_Andrei_I_Bogolyubsky,_fresco.jpg"
     },
     {
       "id": "evt-andrey-assassinated",
       "label": "Assassination of Andrey Bogolyubsky",
       "year": 1174,
-      "description": "Andrey Bogolyubsky was murdered by disgruntled boyars in a palace conspiracy, triggering a war over Vladimir-Suzdal. His brother Vsevolod eventually restored order.",
+      "description": "In 1174 Andrey Bogolyubsky was murdered in his palace at Bogolyubovo by a group of disgruntled boyars in a conspiracy — proof that being the most powerful prince in Rus' did not make you safe from your own household — triggering a succession war before his brother Vsevolod prevailed.",
       "wikiSlug": "Andrey_Bogolyubsky",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Andrey was canonized by the Russian Orthodox Church in 1702, making him a saint more than five centuries after his death — an unusually long delay that reflects how the memory of him evolved through later centuries rather than being established quickly. His assassins reportedly attacked him at night; he fought back unarmed after his sword was hidden, but was overpowered. The conspiracy involved members of his personal bodyguard and close palace staff, which underscores a recurring pattern in this period: autocratic consolidation bred precisely the resentment that killed these princes."
+        }
+      ],
+      "commonsFile": "Князь_Андрей_Боголюбский.jpg"
     },
     {
       "id": "evt-vsevolod-big-nest",
       "label": "Vsevolod the Big Nest Rules Vladimir",
       "year": 1176,
-      "description": "Vsevolod the Big Nest brought Vladimir-Suzdal to its height, dominating northeastern Rus' and fathering a huge brood that seeded later dynasties. He was the most powerful prince of his generation.",
+      "description": "Vsevolod III, called 'the Big Nest' for his enormous brood of children, ruled Vladimir-Suzdal from 1176 to 1212 and brought it to the peak of its power — the dominant principality in Rus' — while his many sons seeded the dynasty that would eventually produce the rulers of Muscovy.",
       "wikiSlug": "Vsevolod_the_Big_Nest",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Vsevolod's long reign of 36 years is credited for much of Vladimir's architectural glory, including expansion of the Dormition Cathedral. The 'Big Nest' epithet was apt: his sons and grandsons carved Vladimir-Suzdal into competing sub-principalities after his death, which weakened it significantly just before the Mongol invasion. His descendants included the princes of Moscow, meaning the lineage of modern Russia's ruling line traces directly through his enormous family."
+        }
+      ],
+      "commonsFile": "Vladimir_StDemetriusCathedral_6875.jpg"
     },
     {
       "id": "evt-novgorod-vs-suzdal-1170",
@@ -883,163 +1444,287 @@
       "id": "evt-tale-of-igor",
       "label": "The Tale of Igor's Campaign",
       "year": 1185,
-      "description": "The epic poem The Tale of Igor's Campaign recounts Prince Igor Svyatoslavich's disastrous raid against the Cumans. It is the masterpiece of Old East Slavic literature.",
+      "description": "The Tale of Igor's Campaign (Slovo o polku Igoreve) is an anonymous Old East Slavic prose-poem composed shortly after 1185 that turns Prince Igor's catastrophic raid against the Cumans into a lament for princely disunity — and is considered the supreme literary work of the entire Rus' civilization.",
       "wikiSlug": "The_Tale_of_Igor's_Campaign",
       "tier": 1,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The poem survives only through a single manuscript discovered in the late eighteenth century and then destroyed in the Moscow fire of 1812, leaving only a copy and an early print — and this provenance sparked a long debate about forgery. The linguist Andrey Zaliznyak demonstrated in careful analysis that the text consistently obeys subtle features of twelfth-century East Slavic grammar (including patterns of reduced vowels and second-position clitics) that scholars did not reconstruct until the twentieth century, making deliberate forgery by an eighteenth-century forger essentially impossible. The poem's solar eclipse — which the army reads as an omen — matches the astronomically verified eclipse of 1 May 1185, one of the rare moments where literature, chronicle, and astronomy all point to the same date."
+        }
+      ],
+      "commonsFile": "Slovo_o_polku_igoreve_1800.djvu"
     },
     {
       "id": "evt-igor-campaign-cumans",
       "label": "Igor Svyatoslavich's Cuman Campaign",
       "year": 1185,
-      "description": "Prince Igor of Novgorod-Seversk led an ill-fated expedition against the Cumans that ended in his army's destruction and his own capture. The defeat inspired the famous epic.",
+      "description": "In 1185 Prince Igor Svyatoslavich of Novgorod-Seversk launched a glory-seeking private raid against the Cumans without waiting for allied princes — his outnumbered army was surrounded, destroyed, and Igor himself captured, an unremarkable military disaster that happened to generate the greatest poem in the Old East Slavic language.",
       "wikiSlug": "Igor_Svyatoslavich",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Igor was eventually held for ransom by the Cumans rather than killed, and he escaped captivity the following year (1186) with the help of a Cuman named Ovlur, an insider — a detail the chronicles record and which may hint at the same web of personal ties that made the Cuman–Rus' frontier so entangled. The campaign Igor bypassed consulting on was Vladimir Monomakh's grandson Svyatoslav of Kyiv, the nominal senior prince, whose anger at Igor's freelancing gives the poem much of its political edge. Igor later became Prince of Chernigov (1198–1201/02), suggesting the military disaster did not end his career."
+        }
+      ],
+      "commonsFile": "After_the_battle_of_Igor_Svyatoslavich_with_the_Cumans_par_Victor_Mikhailovich_Vasnetsov.jpg"
     },
     {
       "id": "evt-roman-galicia-volhynia",
       "label": "Roman the Great Unites Galicia-Volhynia",
       "year": 1199,
-      "description": "Roman Mstislavich merged Galicia and Volhynia into a single powerful southwestern state and briefly held Kyiv. He campaigned successfully against the Cumans and Lithuanians.",
+      "description": "Around 1199 Prince Roman Mstislavich — known to posterity as Roman the Great — merged the principalities of Galicia and Volhynia into a single southwestern state powerful enough to briefly hold Kyiv, and founded the Romanovichi dynastic branch that would rule the region until 1340.",
       "wikiSlug": "Roman_the_Great",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Roman's title claim was sweeping: he was Prince of Novgorod, Volhynia, and Galicia at various points, and his seizure of Kyiv made him the most powerful Rurikid of his moment. The Romanovichi branch he founded proved durable: his descendants ruled Galicia-Volhynia for nearly a century and a half after his death, surviving the Mongol storm that wiped out most of the northeastern princely lines."
+        }
+      ],
+      "commonsFile": "NevrevN_RGalickiyPrinimMIN.jpg"
     },
     {
       "id": "evt-sack-of-kyiv-1203",
       "label": "Second Sack of Kyiv",
       "year": 1203,
-      "description": "Rurik Rostislavich and his Cuman allies sacked Kyiv even more savagely than in 1169, looting churches and enslaving citizens. The city never fully recovered its former wealth.",
+      "description": "In 1203 the Rus' prince Rurik Rostislavich and his Cuman (steppe nomad) allies sacked Kyiv even more savagely than in 1169, looting its churches and enslaving citizens — a Rus' prince, aided by outsiders, destroyed the civilization's own symbolic capital.",
       "wikiSlug": "Kyiv",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cumans (also called Kipchaks) were the dominant steppe confederation on Kyiv's southern flank in this period, and the fact that a Rus' prince could hire them to sack the mother city tells you how completely the old order had dissolved. Kyiv never recovered its pre-fragmentation wealth or population after this second sack; when the Mongols arrived in 1240 they found a city already significantly diminished. The city remained the seat of the Orthodox metropolitan (the chief bishop) for decades more, preserving ecclesiastical prestige long after political and economic primacy had moved north."
+        }
+      ]
     },
     {
       "id": "evt-mongols-unite",
       "label": "Genghis Khan Unites the Mongols",
       "year": 1206,
-      "description": "Genghis Khan unified the Mongol tribes and launched the conquests that would soon reach Rus'. The Mongol war machine was unlike anything the principalities had faced.",
+      "description": "In 1206 at a great assembly of steppe tribes, Temüjin was proclaimed Genghis Khan — 'universal ruler' — unifying the Mongol peoples under a single war-state that within fifteen years had shattered northern China and the vast Islamic empire of Khwarazm, building the largest contiguous empire in history.",
       "wikiSlug": "Genghis_Khan",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The title 'Genghis Khan' (Chinggis Khan in closer transliteration) is usually glossed as 'universal ruler' or 'fierce ruler,' though the precise etymology is still debated by scholars — what is undisputed is that the title marked a political transformation from victorious war-leader to sovereign of a unified nation. Before unification, the Mongol tribes had been fragmented and often at war with each other; Temüjin spent years in captivity as a boy and clawed back power through alliance-building and conquest. The kurultai (assembly) of 1206 where he was proclaimed was held at the source of the Onon River in modern Mongolia, a site with ceremonial significance the Mongols themselves marked."
+        }
+      ],
+      "commonsFile": "YuanEmperorAlbumGenghisPortrait.jpg"
     },
     {
       "id": "evt-battle-kalka-river",
       "label": "Battle of the Kalka River",
       "year": 1223,
-      "description": "A Mongol reconnaissance force under Subutai and Jebe annihilated a combined Rus'–Cuman army at the Kalka River. The disaster was a grim warning the divided princes failed to heed.",
+      "description": "On 31 May 1223 a Mongol reconnaissance force under generals Subutai and Jebe annihilated a combined Rus'–Cuman army at the Kalka River — the Mongols' classic feigned-retreat tactic luring the disorganized coalition into pursuit before destroying it piecemeal — then simply rode east and vanished, leaving the principalities thirteen years to prepare for the return they never prepared for.",
       "wikiSlug": "Battle_of_the_Kalka_River",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Subutai and Jebe had been sent originally to chase the fleeing Khwarazmian ruler Shah Jalal ad-Din; the sweep west past the Caspian was an opportunistic intelligence loop, not an invasion — everything they observed about Rus' terrain, rivers, and armies went back in a report that became the operational plan for Batu Khan's full conquest in 1237–42. Captured Rus' princes after Kalka were reportedly executed by being laid under heavy boards on which the Mongol commanders feasted — the chronicle interprets this as respecting a steppe taboo against spilling royal blood on the ground (a method documented elsewhere in Mongol practice). The battle was fought in what is now Donetsk Oblast, Ukraine, on the banks of the Kalka River (the modern Kalchyk)."
+        }
+      ],
+      "commonsFile": "Daniil_Romanovich_and_Mstislav_Mstislavich_with_their_troops.jpg"
     },
     {
       "id": "evt-mongol-invasion-begins",
       "label": "Batu Khan Invades Rus'",
       "year": 1237,
-      "description": "Batu Khan led the main Mongol army into the northeastern principalities, beginning the systematic conquest of Rus'. The campaign destroyed the medieval Rus' political order.",
+      "description": "In the winter of 1237 Batu Khan, a grandson of Genghis Khan, led a massive Mongol coalition army into northeastern Rus' — the opening blow of a campaign that would destroy the Kievan Rus' political order within three years. They came deliberately in winter, using frozen rivers as highways.",
       "wikiSlug": "Mongol_invasion_of_Kievan_Rus'",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The campaign was commanded in the field by Subutai, the same general who had routed the Rus' at the Kalka River in 1223. The Mongols' decisive edge wasn't numbers but siege engineering absorbed from conquered China and Persia — stone-throwing trebuchets that could demolish the earthen-and-timber walls Rus' towns had built to stop horsemen with no siege equipment at all. Several northwestern cities including Novgorod, Pskov, Smolensk, and Polotsk escaped destruction entirely — geography and the spring thaw saved them."
+        }
+      ],
+      "commonsFile": "Folio_20_verso._The_quriltay_of_Mongol_princes_prior_to_the_Russian_campaign_of_634_(1236_CE).jpg"
     },
     {
       "id": "evt-sack-of-ryazan",
       "label": "Destruction of Ryazan",
       "year": 1237,
-      "description": "The Mongols besieged and obliterated Ryazan after its prince refused tribute, massacring the population. Its fall opened the road into the heart of northeastern Rus'.",
+      "description": "Ryazan was the first northeastern Rus' city in the Mongols' path — it refused submission in December 1237, was besieged and destroyed so completely that it was never rebuilt on its original site. The road into the heart of Rus' now stood open.",
       "wikiSlug": "Siege_of_Ryazan",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ryazan's prince sent envoys to neighboring Vladimir and Chernigov for help before the siege; both refused to send forces. The city fell after roughly six days of assault. A later literary lament, 'The Tale of the Destruction of Ryazan,' was composed to mourn the catastrophe — it is one of the most vivid Old Rus' texts on the invasion, though written decades after the event."
+        }
+      ],
+      "commonsFile": "RYAZAN.JPG"
     },
     {
       "id": "evt-sack-of-vladimir-1238",
       "label": "Sack of Vladimir",
       "year": 1238,
-      "description": "The Mongols stormed Vladimir, burning the cathedral with the prince's family sheltering inside. Grand Prince Yuri II was killed days later at the Sit River.",
+      "description": "Vladimir — the proud capital Grand Prince Andrei Bogolyubsky had built to rival Kyiv — fell to the Mongols in February 1238. The prince's family and much of the population took shelter in the Dormition Cathedral; the Mongols burned it down on top of them.",
       "wikiSlug": "Siege_of_Vladimir",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Grand Prince Yuri II was not in the city when it fell; he had marched north to raise a relief army. He was caught and destroyed with his forces at the Sit River just days later. Vladimir's great Dormition Cathedral (built 1158–1160) had been adorned with some of the finest Byzantine-influenced frescoes in all of Rus' — most were lost in the fire."
+        }
+      ],
+      "commonsFile": "Mongols_at_the_walls_of_Vladimir_1238_Vassily_Maximov.jpg"
     },
     {
       "id": "evt-battle-sit-river",
       "label": "Battle of the Sit River",
       "year": 1238,
-      "description": "The Mongols destroyed the army of Grand Prince Yuri II of Vladimir, who was killed in the fighting. Northeastern Rus' lay open to occupation.",
+      "description": "On 4 March 1238, Mongol forces annihilated the army of Grand Prince Yuri II of Vladimir on the frozen Sit River — killing the prince himself and eliminating the last organized military resistance in northeastern Rus'.",
       "wikiSlug": "Battle_of_the_Sit_River",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle took place in dense forest well north of Vladimir, in what is now Tver Oblast. Yuri had been waiting for reinforcements from his brothers and nephews that never arrived. His head was reportedly cut off and sent to Batu Khan. With his death, no prince of the northeast had an army in the field — the principalities fell city by city afterward with no coordinated defense."
+        }
+      ],
+      "commonsFile": "27_History_of_the_Russian_state_in_the_image_of_its_sovereign_rulers_-_fragment.jpg"
     },
     {
       "id": "evt-defense-of-kozelsk",
       "label": "Defense of Kozelsk",
       "year": 1238,
-      "description": "The small town of Kozelsk held out against the Mongols for seven weeks before being annihilated, earning Batu's epithet 'the evil city.' It became a byword for desperate resistance.",
+      "description": "The small town of Kozelsk held out against the full Mongol army for seven weeks in the spring of 1238 before it was overwhelmed and annihilated — a resistance so stubborn that Batu Khan reportedly named it 'the evil city' and killed every last inhabitant.",
       "wikiSlug": "Siege_of_Kozelsk",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kozelsk was technically a dependency of the Principality of Chernigov, and its prince was a child at the time. The seven-week resistance is remarkable given that major cities like Vladimir had fallen in days. The Russian chronicles make Kozelsk a symbol of heroic defiance; the town has been awarded the title 'City of Military Glory' by the modern Russian government."
+        }
+      ],
+      "commonsFile": "Oborona_Kozelska.jpg"
     },
     {
       "id": "evt-sack-of-chernigov",
       "label": "Sack of Chernigov",
       "year": 1239,
-      "description": "The Mongols destroyed Chernigov, one of the great cities of southern Rus', as they advanced toward Kyiv. The southern principalities now faced the full Mongol onslaught.",
+      "description": "In 1239 the Mongols swept through the southern Rus' lands, destroying Chernigov — one of the oldest and grandest cities of Rus', rival to Kyiv itself for centuries. Its fall cleared the path for the final assault on the mother city.",
       "wikiSlug": "Chernihiv",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chernigov had been a major princely capital since the tenth century and was home to some of Rus's oldest stone churches, including the Transfiguration Cathedral begun around 1036. Unlike Kyiv, Chernigov was partially resettled after the Mongol destruction, though it never recovered its former prominence. The city today is Chernihiv in northern Ukraine."
+        }
+      ]
     },
     {
       "id": "evt-sack-of-kyiv-1240",
       "label": "The Sack of Kyiv",
       "year": 1240,
-      "description": "Batu Khan's army stormed Kyiv after a brutal siege, slaughtering the population and razing the great churches. The fall of the mother city marked the end of Kievan Rus'.",
+      "description": "Between 28 November and 6 December 1240, Batu Khan's army bombarded and stormed Kyiv — the mother city of Rus', baptized by Vladimir and rebuilt by Yaroslav — massacring the population and wrecking the great churches. The 882–1240 state was over.",
       "wikiSlug": "Siege_of_Kiev_(1240)",
       "tier": 1,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The siege lasted barely a week to ten days, a humiliating contrast to the obscure fort of Kozelsk which had held for seven weeks the year before. A Franciscan friar, John of Plano Carpini, passed through six years later and found fields still covered with skulls and the once-great city reduced to around two hundred houses. The fall of Kyiv allowed Batu to press westward — within months his forces defeated the Polish and Hungarian armies in the same campaigning season."
+        }
+      ],
+      "commonsFile": "Siege_of_Kiev_(1240).png"
     },
     {
       "id": "evt-golden-horde-established",
       "label": "Establishment of the Golden Horde",
       "year": 1242,
-      "description": "Batu Khan established the Golden Horde on the lower Volga, subjecting the surviving Rus' principalities to tribute and overlordship. The 'Mongol Yoke' would last roughly 240 years.",
+      "description": "Around 1242 Batu Khan settled on the lower Volga and established the Golden Horde — the westernmost of the four khanates into which the Mongol Empire was fragmenting. The surviving Rus' principalities were ruled not by occupation but by tribute and overlordship, a system that lasted roughly 240 years.",
       "wikiSlug": "Golden_Horde",
       "tier": 1,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Golden Horde's capital, Sarai, on the Volga delta, became a major city with a population in the tens of thousands — far larger than most Rus' cities of the period. Over the following century the Horde converted to Islam under khans Berke and Öz Beg, grew rich on Black Sea trade through the Genoese colony at Caffa in Crimea, and was the route by which the Black Death traveled from the steppe to western Europe in the 1340s."
+        }
+      ],
+      "commonsFile": "Map_of_the_Golden_Horde_(with_text).png"
     },
     {
       "id": "evt-alexander-nevsky-neva",
       "label": "Alexander Nevsky at the Neva",
       "year": 1240,
-      "description": "Prince Alexander of Novgorod defeated a Swedish force on the Neva River, earning the name Nevsky. He preserved Novgorod's independence as the rest of Rus' fell.",
+      "description": "In July 1240, the young Prince Alexander of Novgorod met a Swedish force that had landed on the Neva River and drove it off in a fast surprise attack — earning him the epithet 'Nevsky' (of the Neva). This was the same year Kyiv fell to the Mongols.",
       "wikiSlug": "Alexander_Nevsky",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Alexander was around 19 or 20 years old at the time of the Neva battle. The victory was celebrated locally but is mentioned only briefly in the chronicles — it was the later Lake Peipus victory and his strategic submission to the Mongols that shaped his historical reputation. The Russian Orthodox Church canonized him in 1547; he became a Soviet icon when Stalin commissioned the Eisenstein film in 1938, presenting him as the eternal defender of Russia against western invaders."
+        }
+      ],
+      "commonsFile": "Alexander_Newski.jpg"
     },
     {
       "id": "evt-battle-on-the-ice",
       "label": "Battle on the Ice",
       "year": 1242,
-      "description": "Alexander Nevsky defeated the Livonian Order on the frozen Lake Peipus, halting Catholic crusader expansion into Rus'. The victory secured Novgorod's western frontier.",
+      "description": "On 5 April 1242, Alexander Nevsky led the forces of Novgorod and Vladimir onto the frozen surface of Lake Peipus and crushed the army of the Livonian Order — Catholic crusading knights who had been pressing into Orthodox Rus' from the west.",
       "wikiSlug": "Battle_on_the_Ice",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The exact site of the battle was unknown for centuries; Soviet-era archaeological expeditions in the 1950s–60s tried to locate it using the chronicle descriptions and underwater surveys. Sergei Eisenstein's 1938 film 'Alexander Nevsky' — commissioned by Stalin as anti-German propaganda on the eve of World War II — made the battle one of the most iconic scenes in Russian cinema, complete with knights plunging through cracking ice, though historians debate whether the ice actually gave way. The battle halted the Livonian Order's eastern expansion for decades."
+        }
+      ],
+      "commonsFile": "Facial_Chronicle_-_b.06,_page_085_-_Battle_of_the_Ice.jpg"
     },
     {
       "id": "evt-yarlik-system",
       "label": "The Yarlik and Tribute System",
       "year": 1243,
-      "description": "Rus' princes had to travel to the Horde to receive a yarlik, a patent legitimizing their rule, and to deliver tribute. The Horde played rival princes against one another for control.",
+      "description": "After the conquest, every Rus' prince had to travel to the Horde's court to receive a yarlik (yar-LEEK) — a formal patent without which his rule was illegitimate — and to deliver tribute collected by Mongol census officials. The Horde deliberately played rivals against one another to keep Rus' divided.",
       "wikiSlug": "Mongol_yoke",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In 1327 the city of Tver rose and massacred a Mongol tax party; the prince of Moscow, Ivan Kalita ('Moneybag'), seized the moment — he led a Mongol punitive army against Tver, crushed his Rus' rival, and was rewarded with the yarlik for the grand-princely title plus the right to collect everyone's tribute. Moscow's rise was built directly on being the Horde's most reliable enforcer. The Orthodox Church received a stunning exemption: by Mongol decree it owed no tribute at all, which is a major reason it emerged from two centuries of the Yoke richer and more powerful than it went in."
+        }
+      ],
+      "commonsFile": "Defense_Of_Ryazan.jpg"
     },
     {
       "id": "evt-galicia-volhynia-survives",
       "label": "Daniel of Galicia's Kingdom",
       "year": 1253,
-      "description": "Daniel of Galicia accepted a royal crown from the Pope and tried to organize resistance to the Mongols in the southwest. His kingdom preserved a distinct western Rus' tradition.",
+      "description": "Daniel of Galicia, ruler of the southwestern principality that had survived the Mongols better than most, accepted a royal crown from Pope Innocent IV in 1253 — a bid for papal backing to organize resistance against the Horde. His kingdom became the seedbed of western Rus' tradition.",
       "wikiSlug": "Daniel_of_Galicia",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Daniel (1201–1266) was the son of Roman the Great and had already held Kyiv briefly in 1240, the very year the Mongols destroyed it. Despite the papal coronation, the promised crusade against the Mongols never materialized — the western powers were too consumed by their own conflicts. His kingdom of Galicia-Volhynia was absorbed into the Kingdom of Poland and the Grand Duchy of Lithuania in the fourteenth century, making it a key conduit for Latin and Catholic influence into the Rus' lands — a divergence from the Moscow trajectory that shaped the distinct identity of modern Ukraine."
+        }
+      ],
+      "commonsFile": "Даниил_Галицкий_(cropped).jpg"
     },
     {
       "id": "evt-metropolitan-moves-vladimir",
@@ -1054,82 +1739,144 @@
       "id": "evt-rise-of-moscow",
       "label": "The Rise of Moscow",
       "year": 1325,
-      "description": "Under Ivan I, Moscow won the right to collect tribute for the Horde and became the seat of the metropolitan, beginning its rise as the heir to Rus'. It would eventually unify the Russian lands.",
+      "description": "Through the fourteenth century, the princes of Moscow parlayed their role as the Horde's tax collectors into growing power — winning the grand-princely yarlik, attracting the Orthodox metropolitan bishop to settle in the city, and steadily absorbing neighboring principalities.",
       "wikiSlug": "Grand_Duchy_of_Moscow",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Moscow's rise was anything but inevitable — in 1300 it was a minor frontier outpost. Ivan I (Kalita, 'Moneybag') who died in 1341 is usually credited as the architect: he collected tribute from all Rus' princes on the Horde's behalf, skimming enough to buy up neighboring lands. The Metropolitan of the Orthodox Church relocated from Vladimir to Moscow around 1325, cementing the city's claim to spiritual as well as fiscal authority. By the late fifteenth century, Ivan III would stop paying tribute entirely and claim the title 'Sovereign of all Rus'.'"
+        }
+      ],
+      "commonsFile": "Muscovy_1390_1525.png"
     },
     {
       "id": "evt-three-nations-legacy",
       "label": "The Threefold Legacy of Rus'",
       "year": 1340,
-      "description": "The lands of Kievan Rus' diverged into the future Russian, Ukrainian, and Belarusian nations, each claiming the Kievan inheritance. The dynasty, church, and law of Rus' shaped all three.",
+      "description": "The lands of Kievan Rus' did not recover as one state — under the weight of the Mongol Yoke and the different fates of its regions, they diverged over two centuries into three distinct trajectories that became Russia, Ukraine, and Belarus. All three speak East Slavic languages, all three use the Cyrillic alphabet, and all three claim the Kievan inheritance.",
       "wikiSlug": "Kievan_Rus'",
       "tier": 1,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name 'Kievan Rus'' itself was coined by nineteenth-century Russian historians — the people of the period never used it. Modern Russia, Ukraine, and Belarus each read the medieval chronicles in their own national favor: Moscow as unbroken continuation, Ukraine as the homeland where the cradle stood, Belarus as a distinct western branch. The political stakes turned lethal when Russia's 2022 invasion of Ukraine was explicitly framed around the 'one people' argument — an illustration that the gap between what medieval sources can actually prove and what modern states need them to mean is not an academic footnote but a live and deadly dispute."
+        }
+      ],
+      "commonsFile": "Location_of_Kyivan_Rus.png"
     },
     {
       "id": "evt-druzhina-warband",
       "label": "The Druzhina Warband",
       "year": 900,
-      "description": "Rus' princes ruled with a druzhina, a retinue of professional warriors who advised, fought, and shared tribute. This Norse-rooted institution was the core of early Rus' politics.",
+      "description": "The druzhina (droo-ZHEE-nah) was the Norse-rooted retinue of professional warriors at the core of every Rus' prince's power: they fought beside him, advised him, enforced the tribute circuit, and shared in the take. Without the druzhina there was no state, only a chieftain.",
       "wikiSlug": "Druzhina",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The druzhina was not simply a bodyguard — senior druzhina members served as the prince's council and regional administrators, giving the institution a dual role as both military force and proto-bureaucracy. Its Norse origins gradually faded as Slavic warriors joined; by the 11th century the druzhina had evolved into a more formal boyar (noble) class that would eventually constrain princely power."
+        }
+      ],
+      "commonsFile": "Monomakh's_hunting.jpg"
     },
     {
       "id": "evt-slave-trade-rus",
       "label": "The Rus' Slave Trade",
       "year": 920,
-      "description": "Rus' merchants captured and sold Slavic and other captives to Byzantine and Islamic markets, a pillar of the river economy. Arab travelers described the trade in detail.",
+      "description": "Slavic captives taken in raids and tribute wars were one of the Rus' chief exports, sold into Byzantine and Islamic markets — a fact woven into the very word 'slave,' which shares its root with 'Slav' in several European languages.",
       "wikiSlug": "Slavery_in_medieval_Europe",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ibn Fadlan's 922 account on the Volga is partly a description of Rus' slave-traders displaying women for sale alongside their furs and wax — the most vivid eyewitness record of the trade. Medieval Islamic and Byzantine households and armies depended on northern slave markets, and the demand drove Rus' raiding as surely as the demand for fur did. Both economies ran on the same rivers at the same time."
+        }
+      ],
+      "commonsFile": "Reeve_and_Serfs.jpg"
     },
     {
       "id": "evt-ibn-fadlan-account",
       "label": "Ibn Fadlan Describes the Rus'",
       "year": 922,
-      "description": "The Abbasid envoy Ibn Fadlan met Rus' traders on the Volga and recorded a vivid account of their customs, including a chieftain's ship burial. It is a key external source on the early Rus'.",
+      "description": "In 922 the Abbasid diplomat Ibn Fadlan encountered Rus' traders on the Volga and wrote the most vivid outside description of the early Rus' in existence — their appearance, hygiene (which appalled him), and the ship-burning funeral of a chieftain he watched from start to finish.",
       "wikiSlug": "Ibn_Fadlan",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ibn Fadlan described the Rus' as tattooed from fingernails to neck, always armed, and appallingly filthy by his Baghdad standards — they shared a single wash-basin each morning, he wrote, horrified. The funeral he witnessed lasted ten days: the chieftain's body was kept while a slave girl volunteered to die with him, the ship was hauled ashore and loaded with grave-goods and sacrificed animals, the girl was ritually killed, and the whole assembly was burned to ash. A Rus' man told Ibn Fadlan, contemptuously, that burning was a better fate than rotting in the ground."
+        }
+      ],
+      "commonsFile": "Ibn_Fadhlan_manuscript.jpg"
     },
     {
       "id": "evt-constantine-de-administrando",
       "label": "Constantine VII Describes the Rus' Trade",
       "year": 950,
-      "description": "Emperor Constantine VII's De Administrando Imperio describes the annual Rus' merchant convoy down the Dnieper and the perilous portage past the cataracts. It details the names of the rapids in Norse and Slavic.",
+      "description": "Around 950 CE, the Byzantine emperor Constantine VII wrote a detailed administrative manual that happens to include the most precise outside description of the annual Rus' trade convoy — naming every dangerous rapid on the Dnieper in both Old Norse and Slavic, a linguistic fossil caught mid-assimilation.",
       "wikiSlug": "De_Administrando_Imperio",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Constantine names the fourth and worst cataract as *Neasit* in Slavic (after the pelicans nesting there) and *Aeifor* in the Rus' tongue — transparently Old Norse for 'ever-fierce.' The two lists don't match, because they came from two different populations using the same river. Constantine wrote with no stake in Rus' legend-making, which makes his bilingual rapid-names one of the strongest independent confirmations that the trading class of 950 was genuinely Norse-and-Slav, bilingual and in mid-transition. The convoy traveled under armed escort because the Pechenegs (nomadic steppe warriors) waited at the portages."
+        }
+      ],
+      "commonsFile": "Constantini_Imperatoris_Porphyrogeniti,_de_Administrando_Imperio_ad_Romanvm_F.jpg"
     },
     {
       "id": "evt-dirham-silver-economy",
       "label": "The Silver Dirham Economy",
       "year": 930,
-      "description": "Millions of Islamic silver dirhams flowed into Rus' through the Volga trade, forming the basis of its money economy before native coinage. Vast hoards have been excavated across the region.",
+      "description": "Before Rus' ever minted its own coins, the north's money supply was imported Islamic silver: millions of dirhams (small silver coins) struck in Baghdad and Central Asia and carried up the Volga by traders, leaving buried hoards now excavated across Russia, Ukraine, and Scandinavia.",
       "wikiSlug": "Dirham",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The single biggest source of this silver was the Samanid dynasty, a Persian Muslim dynasty ruling Central Asia from Bukhara whose mints sat near Central Asian silver lodes — their coins dominate tenth-century hoards. Hundreds of these buried hoards have been found, the physical residue of a trade balance: the north exported furs and slaves and received back silver. The flow collapsed around 1000 CE when the Samanid silver mines began to exhaust, sending the whole northern economy into restructuring."
+        }
+      ],
+      "commonsFile": "AlHakemII_dirhem_MedinaAzahara.jpg"
     },
     {
       "id": "evt-vladimir-coinage",
       "label": "Vladimir Mints the First Rus' Coins",
       "year": 990,
-      "description": "Vladimir struck the first Rus' gold and silver coins, the zlatnik and srebrenik, bearing his portrait and the trident emblem. They were more a statement of sovereignty than a working currency.",
+      "description": "Around 990 CE, Vladimir the Great struck the first Rus' coins — the gold zlatnik (ZLAT-neek) and the silver srebrenik (sreh-BREH-neek) — bearing his portrait on one side and the dynastic trident on the other, announcing Rus' as a real sovereign state to the world.",
       "wikiSlug": "Vladimir_the_Great",
       "tier": 3,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These coins were a political statement, not an economic tool: too few were minted to function as everyday currency, and Islamic dirhams remained the actual money of commerce. Vladimir was baptized into Christianity around 988, and the coins' portrait convention directly imitates Byzantine imperial coinage — a deliberate visual claim to the same tier of Christian kingship. Almost no zlatniki survive; fewer than a dozen are known."
+        }
+      ],
+      "commonsFile": "Coin_of_Vladimir_the_Great.JPG"
     },
     {
       "id": "evt-trident-emblem",
       "label": "The Rurikid Trident Emblem",
       "year": 980,
-      "description": "The Rurikid princes used a stylized trident or bident as a dynastic seal stamped on coins and artifacts. It survives today as the national emblem of Ukraine.",
+      "description": "The Rurikid dynasty stamped a stylized trident (or bident — scholars still debate the exact form) onto coins and artifacts as their dynastic seal, a symbol that survived a thousand years of history to become the national emblem of Ukraine today.",
       "wikiSlug": "Coat_of_arms_of_Ukraine",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The tryzub (trident) appears on Vladimir's late-tenth-century coins, on lead seals, and scratched into stone — it was the Rurikid family mark, not a state symbol, closer to a noble heraldic device than a national flag. Its exact meaning in the tenth century is unknown; theories range from a falcon in stoop to a boat anchor to a purely decorative design. Ukraine adopted it as the coat of arms in 1992 after independence, making the leap from medieval dynasty to modern republic emblem entirely unplanned."
+        }
+      ]
     },
     {
       "id": "evt-kyiv-mosaics-frescoes",
@@ -1162,10 +1909,16 @@
       "id": "evt-monastic-medicine",
       "label": "Monastic Medicine at the Caves Monastery",
       "year": 1100,
-      "description": "The Kyiv Caves Monastery ran an infirmary and produced healer-monks such as Saint Agapetus, blending herbal remedies with Byzantine medical knowledge. It was an early center of care in Rus'.",
+      "description": "The Kyiv Caves Monastery (the Pechersk Lavra, founded under Yaroslav the Wise) ran an infirmary where healer-monks blended local herbal remedies with Byzantine medical knowledge — the inherited classical learning of Galen and Hippocrates, transmitted through the Greek church.",
       "wikiSlug": "Kyiv_Pechersk_Lavra",
       "tier": 3,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most celebrated healer-monk was Agapetus of the Caves, whose cures were credited as miracles; his methods apparently combined herbal treatments with prayer, and he refused payment. Byzantine medicine brought to Rus' via the church carried humoral theory (the Greek idea that health depended on balancing four bodily fluids), dietary regimens, and the systematic written case — approaches Rus' folk healing simply did not have. The monastery also produced the Primary Chronicle, trained bishops, and ran the main scriptorium: it was simultaneously hospital, seminary, and publishing house."
+        }
+      ]
     },
     {
       "id": "evt-eupraxia-medical-treatise",
@@ -1180,19 +1933,33 @@
       "id": "evt-rus-chronicle-astronomy",
       "label": "Chronicle Records of Comets and Eclipses",
       "year": 1185,
-      "description": "Rus' chroniclers carefully recorded comets, solar eclipses, and other celestial events as omens, including the eclipse during Igor's 1185 campaign. These notices are valued by modern astronomers.",
+      "description": "Rus' chroniclers systematically recorded celestial events — solar eclipses, comets, unusual auroras — treating them as divine omens, and these entries now serve as precision cross-checks for modern astronomers and historians trying to date events in the narrative.",
       "wikiSlug": "Primary_Chronicle",
       "tier": 3,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Primary Chronicle (Povest' vremennykh let, 'Tale of Bygone Years') was compiled in Kyiv around the 1110s and remains the single most important source for early Rus' history; it likely went through multiple monastic revision stages before reaching its surviving form. The eclipse recorded at the start of Igor's 1185 campaign in the Tale of Igor's Campaign is independently confirmed by the Laurentian Chronicle, and the date — 1 May 1185 — is astronomically verified, making it one of the most precisely datable events in the entire Rus' narrative. Chronicle entries on omens, though religiously framed, were recorded with enough specificity (direction, duration, color) that astronomers can identify which actual celestial events they describe."
+        }
+      ],
+      "commonsFile": "Radzivill_chronicle_123.jpg"
     },
     {
       "id": "evt-kirik-novgorodian",
       "label": "Kirik of Novgorod's Calendrical Work",
       "year": 1136,
-      "description": "The monk Kirik of Novgorod wrote a treatise on calculating the calendar and church dates, the earliest mathematical-chronological work of Rus'. It demonstrates the computational learning of the clergy.",
+      "description": "In 1136, the monk Kirik of Novgorod wrote a treatise on calculating dates and intervals — the first mathematical work produced in the East Slavic world — demonstrating that the clergy's literacy extended to sophisticated computational reasoning, not just scripture copying.",
       "wikiSlug": "Kirik_the_Novgorodian",
       "tier": 3,
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kirik's Uchenie o chislakh ('The Doctrine of Numbers') calculated how many hours, minutes, and seconds had elapsed since the Creation according to Byzantine reckoning — a feat of sustained arithmetic that served the practical need to calculate the date of Easter and other moveable feasts each year. He also wrote entries in the Novgorod First Chronicle and compiled 152 theological questions he put to Archbishop Niphont, a document that survives as a window into the pastoral concerns of a twelfth-century Rus' cleric."
+        }
+      ],
+      "commonsFile": "Cyr8.gif"
     },
     {
       "id": "evt-translation-greek-texts",
@@ -1215,19 +1982,33 @@
       "id": "evt-ostromir-gospel",
       "label": "The Ostromir Gospel",
       "year": 1057,
-      "description": "The Ostromir Gospel, copied in Novgorod, is the oldest dated East Slavic manuscript book, lavishly illuminated. It is a landmark of early Rus' book art.",
+      "description": "Copied in Novgorod in 1056–1057 and commissioned by the posadnik (mayor) Ostromir, this lavishly illuminated gospel book is the oldest precisely dated manuscript from the East Slavic world — 'precisely dated' because the scribe wrote the year directly into the text.",
       "wikiSlug": "Ostromir_Gospel",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scribe Deacon Gregory took seven months to complete it, noting in the colophon (a scribal note at the end) the year, the patron, and a curse on anyone who steals the book. Its illuminations show Byzantine influence but with distinctly Rus' stylistic features, evidence of a maturing local book-art tradition only 70 years after the conversion. The book is now held in the National Library of Russia in St. Petersburg."
+        }
+      ],
+      "commonsFile": "Ostromirovo.jpg"
     },
     {
       "id": "evt-novgorod-codex",
       "label": "The Novgorod Codex",
       "year": 1010,
-      "description": "The wax-tablet Novgorod Codex is possibly the oldest book of Rus', revealing the writing practices of the earliest Christian generation. It pushes literacy back to the conversion era.",
+      "description": "Unearthed in Novgorod in 2000, the Novgorod Codex is a wax writing tablet — three wooden boards filled with wax that its owner wrote on and repeatedly erased over decades — and is likely the oldest surviving book from Kievan Rus'.",
       "wikiSlug": "Novgorod_Codex",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Because the owner kept writing on the same wax over decades, the impressions of earlier texts survive faintly beneath later ones, making the tablet a palimpsest (a document where earlier writing shows through). Radiocarbon dating and stratigraphy (reading the soil layers it was buried in) place it around the start of the eleventh century, earlier than the Ostromir Gospel's 1057 date — though unlike the Ostromir Gospel, it carries no explicit date inside itself. The visible text is Psalms passages, suggesting a church context, but the hidden layers may contain much more."
+        }
+      ],
+      "commonsFile": "Novgorod_Codex_-_colour.jpg"
     },
     {
       "id": "evt-paterik-caves",
@@ -1242,10 +2023,16 @@
       "id": "evt-pilgrim-daniel",
       "label": "Abbot Daniel's Pilgrimage Account",
       "year": 1107,
-      "description": "Abbot Daniel travelled to the Holy Land and wrote the earliest Rus' pilgrimage narrative, describing Jerusalem and the crusader kingdom. It is a notable work of Rus' travel literature.",
+      "description": "Around 1107, Abbot Daniel traveled from Rus' to Jerusalem and wrote a detailed account of what he saw in the crusader kingdom — the first Rus' travel book, and a valuable independent record of the Holy Land in the decades after the First Crusade.",
       "wikiSlug": "Daniel_the_Traveller",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Daniel spent 16 months in the Holy Land, visiting holy sites and describing them for an audience that had no way to go themselves. He was received by the crusader king Baldwin I of Jerusalem, who allowed him to place a lamp in the Church of the Holy Sepulchre on behalf of 'the Russian land' — a small diplomatic recognition of Rus' as a Christian kingdom at the far edge of the Latin world. His account names distances in versts (a Rus' unit of roughly two-thirds of a mile) and describes the geography, buildings, and local Christian communities with the curiosity of a trained observer."
+        }
+      ]
     },
     {
       "id": "evt-clement-smolyatich",
@@ -1260,28 +2047,48 @@
       "id": "evt-cyril-of-turov",
       "label": "Cyril of Turov, the Rus' Chrysostom",
       "year": 1170,
-      "description": "Bishop Cyril of Turov composed elegant sermons and prayers that mark a high point of Rus' rhetorical literature. He was nicknamed the 'Russian Chrysostom' for his eloquence.",
+      "description": "Bishop Cyril of Turov (in what is now southern Belarus) composed sermons and prayers of such rhetorical elegance that he was nicknamed the 'Rus' Chrysostom' — 'Chrysostom' meaning 'golden-mouthed' in Greek, the highest compliment available for a preacher in the Orthodox world.",
       "wikiSlug": "Cyril_of_Turov",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The original Chrysostom — John Chrysostom, fourth-century Archbishop of Constantinople — was the most admired preacher in the entire Greek church, so the nickname placed Cyril in the highest possible company. His feast day in the Eastern Orthodox Church falls on April 28. Cyril also wrote allegorical parables and prayers that are still used in Orthodox liturgy today, making him one of the few Rus' writers whose work survived in living religious practice rather than just as historical artifact."
+        }
+      ],
+      "commonsFile": "Cyril_of_Turov_by_O.Chirikov_(Muz.ist._rel).jpg"
     },
     {
       "id": "evt-paganism-persistence",
       "label": "Persistence of Slavic Paganism",
       "year": 1071,
-      "description": "Pagan beliefs and volkhv sorcerers survived for generations after conversion, sparking revolts such as the 1071 uprisings recorded in the Chronicle. Christianization of the countryside was slow and uneven.",
+      "description": "Slavic paganism — a polytheistic, nature-rooted religion centered on agricultural cycles and ancestor worship — survived the official Christianization for centuries, with pagan sorcerers (volkhvy) leading uprisings as late as 1071, recorded without embarrassment in the Chronicle.",
       "wikiSlug": "Slavic_paganism",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Chronicle records that in 1071, volkhvy (singular: volkhv, a pagan sorcerer-priest) led violent uprisings in the Rostov region and on the Sheksna River, inciting crowds against the local elite during a famine — blaming the grain shortage on the women who 'held abundance.' A local prince suppressed one uprising by executing the volkhvy himself. Slavic paganism had no single unified pantheon across the vast East Slav territories, and the depth of Christian penetration in the deep countryside was genuinely thin for generations after the conversion."
+        }
+      ]
     },
     {
       "id": "evt-dvoeverie-folk-religion",
       "label": "Dvoeverie: Christian-Pagan Syncretism",
       "year": 1150,
-      "description": "Popular Rus' religion blended Orthodox practice with surviving pagan customs, a phenomenon later called dvoeverie or 'double faith.' Folk ritual coexisted with the official church for centuries.",
+      "description": "Popular Rus' religion settled into what later scholars called dvoeverie (dvo-yeh-VYEH-ree-yeh, meaning 'double faith') — Orthodox Christianity layered over surviving pagan custom, with village life observing both without feeling a contradiction.",
       "wikiSlug": "Slavic_paganism",
       "tier": 3,
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In practice, dvoeverie meant sliding pre-Christian spring and midsummer fertility festivals onto the nearest saints' days, leaving food for the household spirit (the domovoi) behind the stove while also keeping icons, and consulting a volkhv about a sick cow while asking a priest about a sick soul. Whether dvoeverie was a coherent historical reality or partly a later scholarly construct is genuinely debated; the honest reading is that Christianity dominated the towns and the elite while the countryside's religious life was far more syncretic and less legible to the sources that survive."
+        }
+      ],
+      "commonsFile": "Czeko_potocka_ofiarawelesowi.jpg"
     },
     {
       "id": "evt-east-west-schism-1054",
@@ -1296,46 +2103,81 @@
       "id": "evt-anna-of-kiev-france",
       "label": "Anne of Kyiv, Queen of France",
       "year": 1051,
-      "description": "Yaroslav's daughter Anne married King Henry I of France and served as regent for her son. She signed documents in Cyrillic and embodied Rus's place in European royal networks.",
+      "description": "Anne of Kyiv (also written Anna Yaroslavna) married King Henry I of France in 1051 and after his death in 1060 served as regent for their young son, the future King Philip I. She is one of the most documented Rus' women in any European source.",
       "wikiSlug": "Anne_of_Kiev",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Anne could read and write in Cyrillic, which was unusual for a queen in Western Europe at the time; surviving French royal charters bear her Cyrillic signature alongside the Latin text. She later had a controversial second marriage to Count Ralph IV of Valois, which led to a dispute with the pope. She also founded the Abbey of Saint Vincent at Senlis — a concrete institution that outlasted her and left a physical trace of a Rus' princess in northern France."
+        }
+      ],
+      "commonsFile": "AnnaKyjev.jpg"
     },
     {
       "id": "evt-elisaveta-norway",
       "label": "Elisaveta of Kyiv, Queen of Norway",
       "year": 1019,
-      "description": "Yaroslav's daughter Elisaveta married the Norwegian king Harald Hardrada, who served Yaroslav before becoming king. Their marriage exemplified Kyiv's deep ties to Scandinavia.",
+      "description": "Yaroslav's daughter Elisaveta (known in Norwegian sources as Elisiv) married Harald Hardrada, king of Norway and the most formidable Viking warrior-king of the age. Harald had served in Yaroslav's own retinue and in the Byzantine Varangian Guard before winning his crown.",
       "wikiSlug": "Elisiv_of_Kiev",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Harald reportedly courted Elisaveta from afar while serving in Byzantium, and Norse sagas credit his ambition to win her as a motive for his extraordinary military career — though sagas are literary as much as historical. He died in 1066 at the Battle of Stamford Bridge in northern England, invading to claim the English throne, just days before William the Conqueror landed at Hastings. That one chain — Kyiv daughter, Norwegian king, English invasion, Norman conquest — ties the whole Viking-age world together."
+        }
+      ],
+      "commonsFile": "Elisiv_of_Kiev.jpg"
     },
     {
       "id": "evt-boyar-class",
       "label": "Rise of the Boyar Aristocracy",
       "year": 1100,
-      "description": "The senior druzhina evolved into a landed boyar aristocracy that dominated councils and local power in the principalities. Boyars increasingly checked and challenged princely authority.",
+      "description": "The senior warrior retinues of earlier princes gradually evolved into a hereditary boyar (BOY-ar) aristocracy — landowning nobles who dominated local councils and could, and often did, check or remove the princes above them.",
       "wikiSlug": "Boyar",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Boyars ranked just below ruling princes and grand princes across Bulgaria, Kievan Rus', Moldavia, Wallachia, and Lithuania — a remarkably consistent noble tier across Eastern Europe. The word's origin is debated but the power was real: in Galicia-Volhynia the boyar class was assertive enough to make and unmake rulers, while in Vladimir-Suzdal the same boyar resistance eventually produced the assassination of Andrey Bogolyubsky. The class persisted into the 17th century before being formally absorbed into later Russian administrative structures."
+        }
+      ],
+      "commonsFile": "Bojaren.jpg"
     },
     {
       "id": "evt-smerdy-peasants",
       "label": "Peasants and Bonded Labor in Rus'",
       "year": 1100,
-      "description": "Rus' society rested on smerdy (free peasants), zakupy (debt-bondsmen), and kholopy (slaves), as defined in the Russkaya Pravda. Land and labor relations grew more stratified over time.",
+      "description": "Rus' society beneath the princes and boyars was codified in the Russkaya Pravda (the legal code), which named and priced the ranks: free peasants (smerdy), debt-bondsmen (zakupy), and outright slaves (kholopy) — the last category treated in law as property, not persons.",
       "wikiSlug": "Russkaya_Pravda",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The legal tell is precise: killing a kholop (slave) was treated as property damage to the owner, not as a killing of a person warranting the blood-price (vira) owed for a free person. The zakupy occupied a murky middle zone — technically free, but working off a debt that could shade into permanent bondage if they couldn't repay. The boyar class (senior landholding aristocracy) crystallized across the twelfth century as the formerly mobile princely war-bands settled onto estates, increasingly checking princely power, especially in Novgorod and Galicia."
+        }
+      ],
+      "commonsFile": "Bilibin_justice.jpg"
     },
     {
       "id": "evt-novgorod-republic-formalized",
       "label": "Novgorod Republic Formalized",
       "year": 1136,
-      "description": "Novgorod expelled its prince and made the veche supreme, formally establishing the merchant republic with elected officials. It became the most distinctive polity of the Rus' world.",
+      "description": "In 1136 Novgorod's popular assembly (the veche) expelled its prince and reorganized the city so that princes were hired on contract — salaried military commanders who could be fired at will — making it the only genuine republic in the medieval Rus' world.",
       "wikiSlug": "Republic_of_Novgorod",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The veche-governed system lasted roughly three centuries in this form, an almost unmatched run for a medieval republic. Real authority rested with the elected posadnik (a kind of mayor-governor) and the archbishop, who was also chosen by the assembly rather than appointed from outside — giving Novgorod's church a civic role closer to a branch of city government than a spiritual parallel institution. The closest European comparison at the time was oligarchic merchant republics like medieval Venice."
+        }
+      ],
+      "commonsFile": "1237_Kievan_Rus'_Livonia_Lithuania.png"
     },
     {
       "id": "evt-pskov-autonomy",
@@ -1377,28 +2219,48 @@
       "id": "evt-cuman-marriage-diplomacy",
       "label": "Cuman Marriage Diplomacy",
       "year": 1107,
-      "description": "Rus' princes increasingly sealed peace with the Cumans through marriage alliances, blurring the line between enemy and kin. Steppe diplomacy became a permanent feature of Rus' politics.",
+      "description": "From the early twelfth century, Rus' princes routinely sealed peace with Cuman khans through marriage alliances, so that by mid-century many princes had Cuman mothers, wives, and fathers-in-law — making the steppe a third partner in Rus' politics rather than simply an external threat.",
       "wikiSlug": "Cumans",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The intermarriage was so deep that it ran in both directions: Cuman khans also accepted Rus' brides, and the alliances came with military obligations that regularly pulled Cuman cavalry into inter-princely wars. Köten Khan, whose daughter married a Rus' prince, was one of the commanders at the Kalka River in 1223 — meaning the Rus' forces fighting the Mongols there were literally the in-laws of some of their Cuman allies. This is the intimacy that made the Mongol destruction of the Cumans in 1236–37 so devastating to Rus' strategy."
+        }
+      ],
+      "commonsFile": "2014-09-22._Донецкий_краеведческий_музей_010.jpg"
     },
     {
       "id": "evt-kyiv-population-peak",
       "label": "Kyiv at Its Height",
       "year": 1100,
-      "description": "At its peak Kyiv may have held tens of thousands of people with hundreds of churches, rivaling the great cities of Europe. Visitors compared it to Constantinople.",
+      "description": "At its twelfth-century height, Kyiv was one of the largest cities in Europe — possibly tens of thousands of inhabitants, hundreds of churches, crowded with goldsmiths producing cloisonné enamel and filigree work that rivaled Byzantine craftsmanship.",
       "wikiSlug": "Kyiv",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Western visitors compared Kyiv to Constantinople, which was hyperbole but not insanity — it was genuinely enormous by the standards of the time. The city's goldsmiths specialized in kolt temple-pendants (filigree ornaments worn hanging from a woman's headdress) and niello metalwork at a quality that has survived in museum collections as evidence of a skilled urban craftsman class, not just court luxury. The comparison to Constantinople carried real diplomatic weight: it positioned Kyiv as the legitimate heir of Byzantine civilization in the north."
+        }
+      ],
+      "commonsFile": "Monomachos_at_Uvetichi.jpg"
     },
     {
       "id": "evt-rus-amber-fur-exports",
       "label": "Furs, Wax, and Honey Exports",
       "year": 1050,
-      "description": "The Rus' economy exported forest products, especially squirrel and sable furs, beeswax, and honey, in exchange for silver, silk, and wine. The fur trade underpinned princely and merchant wealth.",
+      "description": "The Rus' economy ran on forest exports: sable, marten, beaver, and squirrel furs, along with beeswax and honey, all funneled south along the great rivers to Byzantine and Islamic buyers in exchange for silver, silk, and wine.",
       "wikiSlug": "Fur_trade",
       "tier": 2,
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Squirrel pelts functioned as a near-currency in the north, counted in standard bundles and used to pay fines, taxes, and debts at fixed exchange rates — a genuine unit of account, not just a trade good. Amber from the Baltic coast traveled the same route, prized across the Mediterranean world. The global fur trade that later opened Siberia and North America was built on exactly this model of cold-forest extraction feeding southern luxury markets."
+        }
+      ]
     },
     {
       "id": "evt-rus-crafts-jewelry",
@@ -1431,10 +2293,17 @@
       "id": "evt-battle-of-stugna",
       "label": "Cuman Victory at the Stugna River",
       "year": 1093,
-      "description": "The Cumans defeated a Rus' coalition at the Stugna River, where Prince Rostislav drowned in the retreat. The defeat is lamented in the Tale of Igor's Campaign.",
+      "description": "In 1093 the Cumans crushed a Rus' coalition at the Stugna River south of Kyiv, killing several princes including Rostislav, who drowned in the retreat — a defeat devastating enough that it lodged in cultural memory and was later mourned in the Tale of Igor's Campaign.",
       "wikiSlug": "Sviatopolk_II_of_Kiev",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The defeat at the Stugna came in the same year Sviatopolk II took the Kyiv throne, and the timing made it doubly catastrophic: a new grand prince unable to defend the frontier lost authority immediately. The Stugna flows into the Dnieper just south of Kyiv, meaning the Cumans had breached Rus' core territory, not a distant borderland. The drowning of Prince Rostislav in the rout is one of the specific laments in the Tale of Igor's Campaign, written nearly a century later — the disaster had become the shorthand for steppe grief."
+        }
+      ],
+      "commonsFile": "Svyatopolk_II_-_fresco_of_the_Novospassky_Monastery.png"
     },
     {
       "id": "evt-dolobsk-council-1103",
@@ -1503,10 +2372,16 @@
       "id": "evt-novgorod-survives-mongols",
       "label": "Novgorod Spared the Mongol Sack",
       "year": 1238,
-      "description": "Bogged down by spring mud, the Mongols turned back roughly 60 miles short of Novgorod, sparing the city destruction. Novgorod submitted to tribute but kept its institutions.",
+      "description": "Novgorod, the merchant republic of the far northwest, was never sacked by the Mongols — the spring thaw turned its approaches to impassable swamp and the army turned back roughly 60 miles short. It submitted to pay tribute but kept its veche (citizen assembly) and its Baltic trade intact.",
       "wikiSlug": "Republic_of_Novgorod",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Novgorod was the easternmost member of the Hanseatic League, the powerful northern European trading alliance, and its commercial ties to the Baltic made it one of the wealthiest cities in medieval Europe. The city's icon-painting tradition, already distinguished, flourished further during the Mongol period precisely because the city was never destroyed — the Novgorod school became one of the defining artistic traditions of medieval Rus'."
+        }
+      ]
     },
     {
       "id": "evt-legacy-orthodox-church",
@@ -1530,10 +2405,17 @@
       "id": "evt-varangian-rus-debate",
       "label": "The Normanist Question",
       "year": 1749,
-      "description": "The origin of the Rus' became a centuries-long scholarly and nationalist debate over Norse versus Slavic founders. The argument still colors East Slavic identity politics today.",
+      "description": "For nearly three centuries, historians have fought over whether the Rus' state was founded by Scandinavians or was essentially a Slavic achievement onto which a small Norse elite was grafted — a dispute called the Normanist controversy, which has been shaped at every turn by nationalism rather than evidence.",
       "wikiSlug": "Normanist_theory",
       "tier": 3,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The debate began in the Russian Academy of Sciences in the 1740s, where German-born scholars proposed the Normanist reading and the Russian polymath Mikhail Lomonosov furiously rejected it — the argument was tangled with national pride from the very first exchange. Under Stalin, the Normanist theory was effectively banned in Soviet scholarship as an insult to Slavic people, institutionally requiring anti-Normanist conclusions for decades. Today's mainstream consensus is a synthesis: the Scandinavian element is real and visible in archaeology and personal names, but the resulting state was thoroughly Slavic in language and culture within a couple of generations."
+        }
+      ],
+      "commonsFile": "Antinormanism_and_normanism,_the_dispute_between_Kostomarov_and_Pogodin.jpg"
     },
     {
       "id": "evt-byzantine-court-influence",
@@ -1593,73 +2475,128 @@
       "id": "evt-rurikid-dynasty-defined",
       "label": "The Rurikid Dynasty",
       "year": 950,
-      "description": "All legitimate Rus' princes traced descent from Rurik, making dynasty membership the basis of political legitimacy. The Rurikids would rule Russian lands until 1598.",
+      "description": "All legitimate Rus' princes traced their claim to rule through descent from Rurik, making lineage from a single ninth-century Varangian chieftain the political bedrock of Rus' governance for seven centuries — down to the last Rurikid tsar, Feodor I, who died without an heir in 1598.",
       "wikiSlug": "Rurik_dynasty",
       "tier": 2,
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Rurikids are one of the longest-reigning dynasties in European history, producing rulers across not just Kievan Rus' but its successor principalities including Novgorod, Vladimir-Suzdal, and eventually Muscovy (Moscow). By the time the dynasty ended in 1598 the original Norse names — Rurik, Helgi (Oleg), Ingvar (Igor) — had given way entirely to Slavic ones like Yaroslav, Vladimir, and Svyatoslav, the linguistic shift tracking the dynasty's full assimilation into Slavic culture. The dynasty's collapse triggered the catastrophic Time of Troubles in Russia, a decade of civil war and foreign invasion before the Romanovs took over in 1613."
+        }
+      ],
+      "commonsFile": "Coin_of_Yaroslav_the_Wise_(reverse).png"
     },
     {
       "id": "evt-greek-fire-byzantium",
       "label": "Greek Fire",
       "year": 941,
-      "description": "Greek fire was a closely guarded Byzantine incendiary weapon, a burning liquid sprayed under pressure from bronze siphons that kept burning on water. It destroyed Igor's Rus' fleet outside Constantinople in 941.",
+      "description": "Greek fire was Byzantium's most feared secret weapon — a burning petroleum-based liquid sprayed from bronze siphons on ship prows that kept burning on water and could not be put out by dousing. It had already annihilated Arab fleets twice outside Constantinople before it shredded Igor's fleet in 941.",
       "wikiSlug": "Greek_fire",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The recipe was so closely guarded that even today historians argue over the exact formula, with modern consensus pointing to petroleum mixed with resins — roughly comparable to napalm. Rus' survivors told the Chronicle that the Greeks had 'the lightning of heaven' and had set the sea itself on fire. Byzantine crews could also hurl it in ceramic grenades, not just spray it from tubes, giving them multiple delivery methods in close combat."
+        }
+      ],
+      "commonsFile": "Greekfire-madridskylitzes1.jpg"
     },
     {
       "id": "evt-leo-the-deacon",
       "label": "Leo the Deacon's History",
       "year": 990,
-      "description": "Leo the Deacon was a Constantinople churchman who wrote a Greek history within a generation of Svyatoslav's wars and was present on the Byzantine side at the 971 Danube campaign. His eyewitness portrait of Svyatoslav is a key independent source.",
+      "description": "Leo the Deacon was a Byzantine Greek historian writing in Constantinople within a generation of Svyatoslav's campaigns; he was present on the Byzantine side at the 971 Danube siege and left the only eyewitness physical description of the Rus' prince.",
       "wikiSlug": "Leo_the_Deacon",
       "tier": 2,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Leo described Svyatoslav at their one face-to-face meeting: stocky, shaven-headed except for a single side-lock, wearing a gold earring, flat-nosed, with pale grey-blue eyes — and rowing his own boat, dressed no differently from his men except for being slightly cleaner. His account of the eastern campaigns (the Khazar wars) was reported secondhand, but his Danube material is direct observation, which is why historians treat it as the more reliable layer of his history."
+        }
+      ]
     },
     {
       "id": "evt-basil-ii-bulgar-slayer",
       "label": "Basil II, the Bulgar-Slayer",
       "year": 988,
-      "description": "Basil II was the Byzantine soldier-emperor whose desperate civil war against the rebel Bardas Phokas forced the bargain that converted Rus'. He later annihilated the First Bulgarian Empire, earning the name Bulgar-Slayer.",
+      "description": "Basil II was the Byzantine emperor who reigned 49 years (976–1025) and is remembered for two things: nearly losing his throne to a rebel general in 988, which forced the bargain with Vladimir, and later crushing Bulgaria so completely he blinded 15,000 prisoners.",
       "wikiSlug": "Basil_II",
       "tier": 2,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His reign of 49 years and 11 months was the longest of any Roman emperor on record. The 'Bulgar-Slayer' epithet came from his annihilation of the Bulgarian army around 1014, after which he sent 15,000 captives home blinded — every hundredth man left with one eye to lead them — a sight that reportedly killed Tsar Samuel of Bulgaria on the spot from shock."
+        }
+      ],
+      "commonsFile": "Basilios_II.jpg"
     },
     {
       "id": "evt-revolt-bardas-phokas",
       "label": "Revolt of Bardas Phokas",
       "year": 987,
-      "description": "The Byzantine general Bardas Phokas revolted, declared himself emperor, and by 988 controlled the Asian shore opposite Constantinople. His revolt drove Basil II to the marriage-and-conversion bargain with Vladimir.",
+      "description": "In 987–988 the Byzantine general Bardas Phokas the Younger revolted, declared himself emperor, and won control of the Anatolian army — cutting off Constantinople's main manpower and pushing Basil II to make the desperate deal with Vladimir.",
       "wikiSlug": "Bardas_Phokas_the_Younger",
       "tier": 2,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Phokas came from the most powerful military dynasty in Byzantium and had already participated in two prior revolts before his final bid. He collapsed and died in front of his own troops at the battle of Abydos in 989 — sources describe it as a stroke or possibly poison — at the exact moment when his army, seeing him fall, broke and fled, effectively handing Basil the victory."
+        }
+      ],
+      "commonsFile": "Clash_between_the_armies_of_Bardas_Skleros_and_Bardas_Phokas.jpg"
     },
     {
       "id": "evt-john-i-tzimiskes",
       "label": "John I Tzimiskes",
       "year": 969,
-      "description": "John I Tzimiskes seized the Byzantine throne in a 969 palace coup and turned the empire's full weight against Svyatoslav's Rus', whom his predecessor had hired. He besieged the Rus' at Dorostolon and forced them out of the Balkans.",
+      "description": "John I Tzimiskes seized the Byzantine throne in a palace coup in 969, murdering his predecessor (his own uncle by marriage), and immediately turned the empire's full military force against Svyatoslav, the very Rus' prince his predecessor had hired to attack Bulgaria.",
       "wikiSlug": "John_I_Tzimiskes",
       "tier": 3,
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tzimiskes was one of the most capable soldier-emperors Byzantium produced: his reign also pushed the empire's eastern frontier into Syria against the Fatimid Caliphate. He came to power through the Macedonian dynasty's recurring pattern of powerful military families displacing the legitimate line — he was a member of the Katakalon-Phokas milieu but married into the Skleros family, keeping the aristocratic coalitions that ran the empire's army onside."
+        }
+      ],
+      "commonsFile": "Coronation_of_John_Tzimiskes.jpg"
     },
     {
       "id": "evt-siege-of-dorostolon-971",
       "label": "Siege of Dorostolon",
       "year": 971,
-      "description": "John I Tzimiskes penned Svyatoslav's Rus' army into the Danube fortress of Dorostolon and besieged it until starvation forced terms. Svyatoslav agreed to abandon the Balkans for good.",
+      "description": "In 971 Tzimiskes besieged Svyatoslav's army inside the Danube fortress of Dorostolon (modern Silistra, Bulgaria) until starvation forced terms; it was here that Leo the Deacon saw the two leaders meet face to face and recorded his eyewitness portrait of the Rus' prince.",
       "wikiSlug": "Siege_of_Dorostolon",
       "tier": 3,
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The siege was the climactic confrontation of a two-year war in which the Rus' and Byzantines traded several major field battles before the Byzantines' superior logistics — including Greek fire deployed by the imperial fleet on the Danube — pinned the Rus' inside the fortress. Svyatoslav reportedly told his men before one sortie that a warrior has no choice but to fight or die, because there is no escape: a speech Leo the Deacon preserves that later Russian historians treated as a founding statement of military valor."
+        }
+      ],
+      "commonsFile": "BelagerungvonDorostolon.jpg"
     },
     {
       "id": "evt-hagia-sophia-constantinople",
       "label": "Hagia Sophia of Constantinople",
       "year": 987,
-      "description": "Hagia Sophia was the colossal sixth-century domed cathedral of Byzantium, then the largest enclosed space in the Christian world. Vladimir's envoys reported being unsure whether they stood in heaven or on earth there, and it became the model for Saint Sophia of Kyiv.",
+      "description": "Hagia Sophia (\"Holy Wisdom\") in Constantinople was the largest enclosed space in the Christian world when Vladimir's envoys entered it — a sixth-century domed cathedral so vast that Byzantine emperors built it partly as a statement of divine authority.",
       "wikiSlug": "Hagia_Sophia",
       "tier": 3,
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Completed in 537 AD, Hagia Sophia held the record as the world's largest interior space for nearly a thousand years. The dome appears to float because its weight is carried by a ring of forty arched windows at its base, a then-revolutionary pendentive design that stunned every contemporary who described it. Norse-Rus' Varangian guards later scratched runic graffiti into its marble parapets, physical traces still readable today."
+        }
+      ],
+      "commonsFile": "Hagia_Sophia_(228968325).jpeg"
     },
     {
       "id": "evt-harald-hardrada-varangian",
@@ -1674,10 +2611,17 @@
       "id": "evt-john-plano-carpini",
       "label": "John of Plano Carpini in Kyiv",
       "year": 1246,
-      "description": "John of Plano Carpini, a Franciscan friar sent by the Pope to the Mongol court, passed through ruined Kyiv in 1246 and recorded fields of skulls and a city shrunk to barely two hundred houses. His report is the most reliable outside measure of Kyiv's destruction.",
+      "description": "In 1246 a Franciscan friar named John of Plano Carpini, dispatched by Pope Innocent IV on a diplomatic mission to the Mongol Great Khan, passed through the ruins of Kyiv and recorded what he saw — the most reliable outside account of the destruction.",
       "wikiSlug": "Giovanni_da_Pian_del_Carpine",
       "tier": 3,
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His report to the Pope, the 'Ystoria Mongalorum' (History of the Mongols), is one of the earliest Western accounts of Central Asia and the Mongol court, written after he reached Mongolia itself. He described Kyiv's ruins with fields 'littered with countless skulls and bones of dead men' and the city shrunk to barely two hundred houses — a detail all the more striking because he had no stake in Rus' legend, unlike the grieving local monks. He was later appointed Archbishop of Antivari (now Bar, in Montenegro)."
+        }
+      ],
+      "commonsFile": "Central_Asian_trade_routes.jpg"
     }
   ]
 }
