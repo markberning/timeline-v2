@@ -1369,6 +1369,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "The line ran roughly along the crest of the Appalachian Mountains, the long ridge that separated the settled colonies on the Atlantic coast from the interior, following the high ground from Georgia in the south up through the colonies. Everything west of that crest was closed to colonial settlement. In the Proclamation's own language, the Crown would \"reserve under our Sovereignty, Protection, and Dominion, for the use of the said Indians, all the Lands and Territories\" beyond the new provinces. The West was reserved for the Native nations."
       },
       {
+        "fig": "/war-img/fi-proclamation-line-map.jpg",
+        "cap": "The Royal Proclamation of 1763 drew a line down the crest of the Appalachians: east of it, the Thirteen Colonies, open to settlement; west of it to the Mississippi, an Indian Reserve closed to colonists. Quebec, East Florida, and West Florida became new British provinces; Spanish Louisiana lay across the Mississippi.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "It went further than just drawing a boundary. The Proclamation forbade colonial governors from granting any land beyond their borders, and it forbade private individuals from buying land directly from Native peoples at all. If Native land was to change hands, the Proclamation said, \"the same shall be Purchased only for Us, in our Name, at some public Meeting or Assembly of the said Indians.\" Only the Crown could buy, and only in the open, at a formal council. A frontier speculator could no longer ride west, find a chief, and trade rum for a valley."
       },
       {
