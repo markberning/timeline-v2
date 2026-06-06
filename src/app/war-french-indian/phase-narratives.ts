@@ -24,6 +24,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "The Ohio Country was a loosely bounded region west of the Appalachian Mountains and south of Lake Erie, the upper basin of the Ohio River, roughly today's western Pennsylvania, eastern Ohio, and northern West Virginia. To London and Paris it looked like empty interior. It was nothing of the kind. It was home to several Indigenous nations, and it was the hinge the balance of North America turned on. For France, holding it meant linking New France in the north to Louisiana in the south down one spine of forts and trade. For Virginia, it was the next direction of growth, land its charter claimed and its farmers and speculators meant to take."
       },
       {
+        "fig": "/war-img/fi-new-france-map.jpg",
+        "cap": "Why the Ohio Country mattered. New France ran in a long arc, from Canada and the St. Lawrence down through the Great Lakes and the Mississippi to Louisiana and the Gulf; the Thirteen British Colonies hugged the Atlantic coast east of the Appalachians. The upper Ohio valley was the hinge between them — a wall of British farms planted across it would saw New France in half.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "Underneath the rivalry sat a difference that shaped how Native nations chose sides. The French came mostly to hunt, trade, and garrison. The British came to clear forest, plant crops, and stay. A French fort was a trading partner with cannon; a British farm was the leading edge of dispossession. That difference pushed several Ohio nations toward France, even as one Ohio leader worked to pull Britain in for reasons of his own."
       },
       {
