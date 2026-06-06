@@ -706,6 +706,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "On the night of September 12 into the early hours of September 13, 1759, British boats slipped down the dark river and British troops began climbing the cliff. A British officer answered a French sentry's challenge in fluent French and the column was waved through. (Which officer it was, the accounts cannot agree.) The guard post at the top was commanded by Louis Du Pont Duchambon de Vergor, who failed to raise an effective alarm. By dawn, somewhere between 4,400 and 5,000 British soldiers stood in battle order on the Plains of Abraham, a farmer's open field just west of the city walls. Montcalm woke to find an army where there was supposed to be a cliff."
       },
       {
+        "fig": "/war-img/fi-plains-of-abraham-map.jpg",
+        "cap": "Wolfe's gamble. By night the British slipped downriver, landed at the Anse-au-Foulon about two miles west of Quebec, climbed the cliff the French thought was a wall, and by dawn stood in line on the Plains of Abraham just west of the city — behind the main French camp at Beauport. Montcalm marched out to meet them; both generals were killed, and Quebec fell.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "What he did next is generally judged his worst decision of the war. Around ten in the morning, rather than wait for reinforcements, Montcalm ordered a general advance. His reasoning was that every hour he waited, the British would dig in and drag up more guns from the river, and the army on the plains was the only thing standing between Wolfe and the city walls behind it; he judged that he had to drive them off the heights at once, before they could fortify. He had a separate force under Louis Antoine de Bougainville upstream at Cap Rouge that could have come up behind the British and trapped them against the cliff they had just climbed, and the Chevalier de Lévis was not yet on the field either. But Bougainville had missed the night movement downriver and was hours away. By attacking immediately, Montcalm threw away his one chance to crush Wolfe between two forces."
       },
       {
