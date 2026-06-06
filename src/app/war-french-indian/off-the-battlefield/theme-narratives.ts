@@ -307,6 +307,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "That relationship ran through a wide circle of nations. The French called the Great Lakes interior the pays d'en haut, the \"upper country,\" and its peoples were France's deepest allies: the Ottawa (Odawa), the Ojibwe (also called Chippewa), the Potawatomi, the Huron-Wyandot, and others like the Mississauga and the Winnebago. Closer to the French heartland, strung along the St. Lawrence near Montreal, were the mission communities known as the Seven Nations of Canada: seven Catholic Native villages allied to New France. The most reliable of them was Kahnawake (\"near the rapids\"), a Mohawk town across the river from Montreal."
       },
       {
+        "fig": "/war-img/fi-french-alliances-map.jpg",
+        "cap": "France's reach into the interior. The pays d'en haut nations of the Great Lakes — Ojibwe, Ottawa, Potawatomi, Wyandot — and the St. Lawrence mission village of Kahnawake were tied to Montreal by the fur trade and the yearly gifts, which made the interior French in all but name.",
+        "credit": "Stuff Happened"
+      },
+      {
         "p": "The Kahnawake Mohawk carry a sharp irony. Their ancestors were Mohawk who, after French raids on the Mohawk villages in New York in the 1660s, converted to Catholicism and resettled on the St. Lawrence. A century later their descendants were France's most dependable Native allies, which meant that when the war came, Mohawk would fight Mohawk: Kahnawake Mohawk for France, and the Mohawk of the New York valley for Britain. The nations were not blocs. They were communities making their own choices."
       },
       {
