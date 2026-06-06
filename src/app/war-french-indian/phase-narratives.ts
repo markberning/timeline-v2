@@ -265,7 +265,12 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "The one prong that came to open battle on the New York frontier was Johnson's. His objective was Crown Point, far up the Lake Champlain corridor, and he advanced toward it from Albany up the Hudson River. He commanded about 1,720 provincial troops and roughly 200 Iroquois allies, the Mohawk among them. The Mohawk were there for a reason that had little to do with British strategy and everything to do with Johnson himself. He had lived for years in the Mohawk Valley, spoke the Mohawk language, took part in their councils, and was in a long relationship with Molly Brant; the Mohawk knew him as \"Warraghiggey,\" \"he who does great things,\" and trusted him as they trusted no other British official. For the Mohawk, the British alliance was a calculation about land and trade, that British goods were cheap and that Britain had promised to protect their territory, but it ran through this one man's personal credit."
       },
       {
-        "p": "At the heart of that alliance was Hendrick Theyanoguin (Mohawk, Bear Clan), known to the British as \"King Hendrick,\" about 64 years old, the paramount Mohawk war chief. More than any other person, he was the reason the Six Nations of the Iroquois Confederacy still leaned Britain's way at all."
+        "fig": "/war-img/fi-lake-champlain-corridor-map.jpg",
+        "cap": "The war road between British New York and French Canada. Johnson advanced from Albany up the Hudson toward Crown Point, was stopped at the south end of Lake George in 1755, and dug in there at the fort he named Fort William Henry — the one Montcalm would take in 1757. Fort Carillon and Crown Point stayed French.",
+        "credit": "Stuff Happened"
+      },
+      {
+        "p": "At the heart of that alliance was Hendrick Theyanoguin (Bear Clan), known to the British as \"King Hendrick,\" about 64 years old, the paramount Mohawk war chief. More than any other person, he was the reason the Six Nations of the Iroquois Confederacy still leaned Britain's way at all."
       },
       {
         "pill": "/war-french-indian/disaster/lake-george",
