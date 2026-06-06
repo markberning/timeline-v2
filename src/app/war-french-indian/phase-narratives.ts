@@ -21,46 +21,24 @@ export const PHASE_NARR: Record<string, Narr> = {
         "eyebrow": "Two empires, one valley"
       },
       {
-        "p": "The Ohio Country was a loosely bounded region west of the Appalachian Mountains and south of Lake Erie, the upper basin of the Ohio River, roughly what is today western Pennsylvania, eastern Ohio, and northern West Virginia. To a mapmaker in London or Paris it looked like empty interior. It was nothing of the kind. It was home to several Indigenous nations, and it was the hinge on which the entire balance of North America turned."
+        "p": "The Ohio Country was a loosely bounded region west of the Appalachian Mountains and south of Lake Erie, the upper basin of the Ohio River, roughly today's western Pennsylvania, eastern Ohio, and northern West Virginia. To London and Paris it looked like empty interior. It was nothing of the kind. It was home to several Indigenous nations, and it was the hinge the balance of North America turned on. For France, holding it meant linking New France in the north to Louisiana in the south down one spine of forts and trade. For Virginia, it was the next direction of growth, land its charter claimed and its farmers and speculators meant to take."
       },
       {
-        "p": "For France, controlling the Ohio Country meant connecting New France (the French colony of Canada, centered on the St. Lawrence River) to Louisiana and the French settlements along the Mississippi and Illinois rivers far to the south. Hold the Ohio, and the French could draw an arc of forts and trade routes down the spine of the continent, hemming British settlers permanently east of the mountains. For the British colonies, especially Virginia, the Ohio Valley was the natural direction of growth, land they considered theirs by the wording of their colonial charters, and the place their farmers and speculators meant to expand into next."
+        "p": "Underneath the rivalry sat a difference that shaped how Native nations chose sides. The French came mostly to hunt, trade, and garrison. The British came to clear forest, plant crops, and stay. A French fort was a trading partner with cannon; a British farm was the leading edge of dispossession. That difference pushed several Ohio nations toward France, even as one Ohio leader worked to pull Britain in for reasons of his own."
       },
       {
-        "p": "There was a deeper difference under the rivalry, and it shaped how Native nations saw each side. The French came mostly to hunt, trade, and garrison, not to settle and farm in large numbers, which made them less of an immediate threat to Indigenous land and ways of life. British colonists came to clear forest, plant crops, and stay, which meant displacing the people already living there. A French fort was a trading partner with cannons. A British farm was the leading edge of dispossession. That distinction would push several Ohio nations toward France even as one Ohio leader was trying to pull Britain in."
-      },
-      {
-        "p": "The engine of Virginia's ambition had a name and a balance sheet. In 1748 a group of prominent Virginians formed the Ohio Company of Virginia, a land-speculation venture, to settle the Ohio Country, trade with Native Americans, and block the French. The British Crown granted it 500,000 acres in the Ohio Valley in 1749, with 200,000 acres up front and 300,000 more promised if the company settled a hundred families within seven years. Its members were a roster of Virginia's powerful: among them Lawrence and Augustine Washington, George's older half-brothers, and Robert Dinwiddie (British), the lieutenant governor of Virginia and the colony's acting head, who was himself a stockholder in the company. Washington was both an investor in the venture and, soon, the soldier sent to defend it. When Dinwiddie acted to defend Virginia's claim to the Ohio, he was also defending his own investment, a conflict of interest historians point to as one reason Virginia pushed west so hard. France had a hard-nosed stake of its own. Holding the Ohio was how New France linked itself down the Ohio and Mississippi to Louisiana and the Illinois Country, and how it protected the fur trade that was the economic spine of the whole French empire in the interior. Both sides were chasing land and money; neither was acting on principle."
+        "p": "Virginia's ambition had a name and a balance sheet: the Ohio Company of Virginia, a land-speculation venture formed in 1748 to take and sell that western country. Its shareholders ran from George Washington's older half-brothers to Robert Dinwiddie (British), the lieutenant governor who would soon send soldiers to defend land he had money in. How a real-estate scheme pulled two empires into the woods is its own story, told alongside this one."
       },
       {
         "pill": "/war-french-indian/off-the-battlefield/ohio-company",
         "plabel": "The Ohio Country & the Ohio Company"
       },
       {
-        "h": "The Forts and the Ultimatum",
-        "eyebrow": "Washington's first long walk"
+        "h": "The French Won't Leave",
+        "eyebrow": "Washington's first errand"
       },
       {
-        "p": "The French moved first, and they moved with soldiers. In the spring of 1753 the Marquis Duquesne (French), the governor general of New France, ordered roughly 1,500 troops south from Fort Niagara to plant a chain of forts down toward the Ohio. The expedition was commanded by Paul Marin de la Malgue (French), who pushed his men so hard that he died on the campaign in October 1753. By the time the column was done, the French had a string of strongpoints running from the shore of Lake Erie inland: Fort Presque Isle at modern Erie, Pennsylvania, then Fort Le Boeuf to its south, and Fort Machault (also called Venango) at the junction of French Creek and the Allegheny River, built on a seized British trading post. The forts were timber stockades with bastions and a handful of cannon, links in a chain meant to make French ownership of the Ohio a physical fact."
-      },
-      {
-        "p": "Dinwiddie's answer was to send a letter, and to send it by a very young man. In late October 1753 he handed twenty-one-year-old Major George Washington a commission, instructions, and £150 for expenses, and a single mission: carry a formal demand to the French commander to leave the Ohio Valley. Washington was a Virginia militia officer with no real military experience and a great deal of ambition. He set out from Williamsburg, Virginia's capital, on October 31 with a small party. It included Christopher Gist (British), a frontiersman and Ohio Company guide who knew the country, and Jacob Van Braam (British), a Dutch-born veteran who had taught Washington fencing and some French, and who would later translate a document that haunted Washington for the rest of his life."
-      },
-      {
-        "p": "At Logstown, a Native town on the south bank of the Ohio near modern Ambridge, Pennsylvania, the party was joined by the man who would shape everything that followed: Tanaghrisson (Mingo/Seneca), known to the British as \"the Half-King.\" He gave Washington an escort and, more importantly, a measure of Indigenous legitimacy on a journey through Indigenous land. He was not Washington's subordinate. He had his own reasons for wanting to walk into the French forts, and Washington did not fully grasp them."
-      },
-      {
-        "p": "Tanaghrisson had walked this ground before, at the same place, on the other side of the bargain. In June 1752, Virginia commissioners and Ohio Company men had met him and other Ohio leaders at Logstown, and there, under steady pressure, he had consented to British settlement on the south and east bank of the Ohio. He had gone further: he had personally asked the British to put up \"a strong House, at the Fork\" of the Monongahela, a fortified British post at the very point where the rivers met. So the French fort chain of 1753 did not look to him like one European power expanding into contested ground. It looked like the breaking of an agreement he had brokered with his own hand, and the seizure of a spot he had himself invited the British to fortify. His grievance was concrete and personal, not an abstract quarrel between distant crowns."
-      },
-      {
-        "p": "The French were polite and immovable. At Venango in early December, Captain Philippe-Thomas Chabert de Joncaire (French) told Washington plainly that it was \"their absolute Design to take Possession of the Ohio.\" Days later, at Fort Le Boeuf, Washington delivered Dinwiddie's ultimatum to the fort's commander, Captain Jacques Legardeur de Saint-Pierre (French), who received the young major courteously and rejected the demand without flinching. France's claim to the valley, he said, was beyond dispute, and as for the order to withdraw, his answer was flat."
-      },
-      {
-        "p": "As to the summons you send me to retire, I do not think myself obliged to obey it. — Saint-Pierre, December 1753",
-        "q": true
-      },
-      {
-        "p": "Washington turned for home in mid-December and nearly died doing it, almost drowning in the ice-choked Allegheny River on the way back. He reached Williamsburg in January 1754 and handed Dinwiddie a detailed journal of the trip. Dinwiddie promptly published it, broadcasting the French threat to London and to the other colonies. A twenty-one-year-old's travel diary had become a piece of imperial propaganda, and Washington, almost overnight, had a name."
+        "p": "France moved first, and moved with soldiers. Through 1753 it planted a chain of forts running south from Lake Erie toward the Forks of the Ohio, turning a paper claim into a physical fact. Dinwiddie answered with a letter, carried by a very young man: in late 1753 he sent twenty-one-year-old Major George Washington (British) on a thousand-mile winter round trip to demand the French withdraw. The fort commander, Jacques Legardeur de Saint-Pierre (French), heard him out courteously and refused flatly, saying France's claim was beyond dispute and that he did not consider himself obliged to leave. Washington nearly drowned in the ice-choked Allegheny coming home, then handed Dinwiddie a journal of the trip. Dinwiddie published it, broadcasting the French threat and making the unknown major a name on two continents. The errand had failed. The next move would not be a letter."
       },
       {
         "h": "The Forks Are Lost",
