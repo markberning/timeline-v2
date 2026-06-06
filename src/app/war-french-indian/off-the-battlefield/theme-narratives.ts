@@ -421,6 +421,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "That force was overwhelmingly Native. Of roughly nine hundred fighters, only around 250 were French troops and Canadian militia; the rest, somewhere near 640, were warriors from the Great Lakes nations (Ottawa, Ojibwe, Potawatomi, Huron) and the Ohio nations (Delaware, Shawnee, Mingo), with Abenaki as well. The French field commander was killed almost at once. After that the warriors carried the fight, firing from the cover of the trees into Braddock's tight European formations standing exposed in the open."
       },
       {
+        "fig": "/war-img/fi-monongahela-defeat.jpg",
+        "cap": "Braddock's defeat at the Monongahela, 9 July 1755, in a later engraving. The French field commander fell at once; his overwhelmingly Native force then fought from cover and cut the exposed British column to pieces.",
+        "credit": "Engraving by John Andrew / Library of Congress"
+      },
+      {
         "p": "It was a slaughter. Of Braddock's roughly 1,300 to 1,460 engaged, more than 900 were killed or wounded; the French and their allies lost only a few dozen. Braddock himself was mortally wounded and died four days later, on July 13. A young Virginia officer named George Washington helped organize the survivors' retreat. The lesson of the Monongahela is the lesson of the whole war in miniature: the empire that held the Native alliances held the interior, and in 1755 that empire was France."
       },
       {
@@ -817,6 +822,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "The most famous scene of the whole upheaval played out at Grand-Pré. On 5 September 1755, a New England provincial officer named Lieutenant Colonel John Winslow, acting under Lawrence's orders, summoned the men and boys of the district into the parish church. Once they were inside, he read them their sentence. He seems to have known exactly what he was doing to them. \"The Part of Duty I am now upon,\" he told the assembled men, \"is what tho necessary is very disagreeable to my natural make & temper.\" Then he delivered the blow: their lands, their houses, their cattle and livestock \"of all kinds and live stock of all sortes are forfitted to the Crown,\" and they themselves were to be removed from the province. (Those are Winslow's own words from his journal, in the loose spelling of 1755.)"
+      },
+      {
+        "fig": "/war-img/fi-acadian-expulsion.jpg",
+        "cap": "The deportation of the Acadians from Grand-Pré, 1755, in a later depiction. Winslow read the men their sentence in the parish church; then came the roundups, the crowded ships, and the burning of the marsh farms.",
+        "credit": "Engraving / public domain"
       },
       {
         "p": "The roundups began. British troops collected families at gunpoint and put them aboard transport ships packed tight, roughly two people for every ton of the vessel's capacity. Behind them, the soldiers did what Lawrence had ordered: they burned the houses, the barns, and the crops, so that the marsh farms the Acadians had built over a century became smoke. Winslow watched the embarkation at Grand-Pré in October and wrote down what he saw. The people, he recorded, \"went verry [solemnly] and unwillingly, the women in great distress carrying their children in their arms.\""
