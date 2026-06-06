@@ -360,7 +360,7 @@
 .war-skin .rd-head .bd { min-width: 0; flex: 1; align-self: center; }
 .war-skin .rd-head .nm { font: 600 23px/1.1 var(--serif); color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; letter-spacing: -.01em; }
 .war-skin .rd-head .meta { font: 400 15px/1.3 var(--serif); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 3px; }
-.war-skin .rd-head .meta .sub { font: 700 11px/1.2 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+.war-skin .rd-head .meta .sub { font: 700 12px/1.2 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
 .war-skin .rd-head .meta .dot { color: var(--muted); opacity: .55; }
 .war-skin .rd-head .meta .dt { font: 600 11px/1 var(--mono); letter-spacing: .02em; color: var(--muted); }
 
