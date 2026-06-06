@@ -154,11 +154,6 @@ export function BattleSectionReader({
               ? <div className="fb" style={{ background: `linear-gradient(135deg, ${heroPalette[0]}, ${heroPalette[1]} 55%, ${heroPalette[2]})` }} />
               // eslint-disable-next-line @next/next/no-img-element
               : <img src={heroImage} alt="" onError={() => setHeroFailed(true)} style={{ objectPosition: heroFocus, transform: `scale(${heroScale})`, transformOrigin: 'center' }} />}
-            <div className="fade" />
-            <div className="cap">
-              <div className="ey">{n.eyebrow}</div>
-              <h1>{n.title}</h1>
-            </div>
           </div>
           {heroCredit && <div className="p-credit">{heroCredit}</div>}
         </>

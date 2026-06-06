@@ -350,7 +350,7 @@
 .war-skin .rd-hero .fb { position: absolute; inset: 0; }
 .war-skin .rd-hero .fade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 26%, rgba(8, 8, 8, .9) 100%); }
 .war-skin .rd-hero .cap { position: absolute; left: 0; right: 0; bottom: 0; padding: 16px 18px; color: #fff; }
-.war-skin .rd-hero .cap .ey { font: 700 15.5px/1.25 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: color-mix(in srgb, var(--accent) 60%, white); text-shadow: 0 1px 3px rgba(0, 0, 0, .7); }
+.war-skin .rd-hero .cap .ey { font: 700 10px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: color-mix(in srgb, var(--accent) 60%, white); text-shadow: 0 1px 3px rgba(0, 0, 0, .7); }
 .war-skin .rd-hero .cap h1 { font: 500 30px/1.04 var(--serif); letter-spacing: -.012em; margin: 6px 0 0; text-shadow: 0 2px 12px rgba(0, 0, 0, .55); }
 
 /* sticky reading header: accent rule · battle name · subtitle + date */
