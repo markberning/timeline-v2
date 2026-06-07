@@ -201,7 +201,11 @@ export function castCrumbs(cfg: WarConfig, { commanders, sides, commanderId }: {
   const current = commanderId ? commanders.find(c => c.id === commanderId) : undefined
   return [
     base[0],
-    { label: 'Cast', active: !current, href: current ? castBase : undefined, options: base[1].options },
+    // `color: cfg.accent` (stone, cast's neutral layer colour) keeps this crumb at the
+    // same weight/treatment as the theatre/story/off-field section crumbs, which all
+    // carry a layer colour — without it the Cast crumb rendered lighter (weight 500)
+    // and the bar shifted slightly when moving between cast and the other sections.
+    { label: 'Cast', active: !current, href: current ? castBase : undefined, options: base[1].options, color: cfg.accent },
     current
       ? { label: current.name, active: true, currentLabel: current.name, options: opts }
       : { label: 'Commander', options: opts },
