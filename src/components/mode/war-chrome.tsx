@@ -4,10 +4,10 @@ import { Fragment, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { ThreadBar } from '@/components/thread-bar'
 
-// Combined height of the two pinned top tiers (ThreadBar 54 + breadcrumb row 50).
-// Anything that sticks BELOW the breadcrumb (the view toggle, a reader's own
-// sub-header) pins at this offset.
-export const CHROME_TOP = 104
+// Combined height of the two pinned top tiers on a war-skin page: the .p-hdr header
+// (56px — see --hdr in war-skin.css) + the breadcrumb row (50px). Anything that
+// sticks BELOW the breadcrumb (the view toggle, a reader's own sub-header) pins here.
+export const CHROME_TOP = 106
 
 // Shared chrome for the War drilldown pages (War → Theatre → Battle):
 // a consistent breadcrumb + a Timeline/Dossier view toggle at the top of
@@ -131,7 +131,7 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, bare = false 
       // jump dropdowns stay reachable at any scroll depth. (--hdr is the header
       // height inside .war-skin; falls back for any non-skin caller.) The fixed
       // 50px height lets the next sticky bar offset by exactly that.
-      ...(bare ? { position: 'sticky' as const, top: 'var(--hdr, 52px)', zIndex: 25 } : null),
+      ...(bare ? { position: 'sticky' as const, top: 'var(--hdr, 56px)', zIndex: 25 } : null),
     }}>
       <nav ref={navRef} style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflowX: 'auto', overflowY: 'hidden', whiteSpace: 'nowrap', scrollbarWidth: 'none' }}>
         {crumbs.map((c, i) => {

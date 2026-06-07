@@ -42,7 +42,11 @@
   --serif: var(--font-spectral), Georgia, serif;
   --sans: var(--font-archivo), "Helvetica Neue", Helvetica, Arial, sans-serif;
   --mono: var(--font-spline-mono), ui-monospace, monospace;
-  --hdr: calc(env(safe-area-inset-top, 0px) + 52px);
+  /* The sticky .p-hdr header's real height: 10px top pad + 34px (the tallest child,
+     the icon buttons) + 11px bottom pad + 1px border = 56px. The breadcrumb sticks
+     at this offset; if it's short, the header overlaps and clips the breadcrumb when
+     scrolled (it looked a few px thinner in any sticky-engaged view). */
+  --hdr: calc(env(safe-area-inset-top, 0px) + 56px);
 
   font-family: var(--sans);
   color: var(--ink);
@@ -123,9 +127,11 @@
 
 /* ---- sticky sub-nav (two seg rows + filter) ---- */
 .war-skin .p-subnav { position: sticky; top: var(--hdr); scroll-margin-top: var(--hdr); z-index: 20; background: var(--paper); border-bottom: 1px solid var(--line-soft); padding-bottom: 12px; }
-/* on pages with the sticky breadcrumb above it (the battle dossier), the tab bar
-   sticks below that 50px bar; the home has no breadcrumb so it keeps top:var(--hdr) */
-.war-skin .p-subnav.below-crumb { top: calc(var(--hdr) + 50px); }
+/* with the sticky breadcrumb above it (the war home + the battle dossier), the tab
+   bar sticks below that 50px bar — and its scroll-margin must match, or a deep-link
+   scrollIntoView (e.g. selecting a theatre) overshoots by 50px and hides the content
+   (the dotted map) under the chrome. */
+.war-skin .p-subnav.below-crumb { top: calc(var(--hdr) + 50px); scroll-margin-top: calc(var(--hdr) + 50px); }
 .war-skin .p-seg { display: flex; gap: 4px; background: var(--paper-3); border-radius: 9px; padding: 4px; margin: 9px 14px 0; }
 .war-skin .p-seg button { flex: 1 1 0; min-width: 0; font: 600 12px/1 var(--sans); letter-spacing: .01em; color: var(--ink-soft); padding: 9px 4px; border-radius: 6px; transition: all .16s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .war-skin .p-seg button.on { background: var(--paper); color: var(--ink); box-shadow: 0 1px 2px rgba(0, 0, 0, .12); }
