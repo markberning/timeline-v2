@@ -19,7 +19,7 @@
 // sides; an escalating per-phase palette) — tunable design values, not yet rendered.
 
 import { WAR_STORY_COLOR, WAR_OFFFIELD_COLOR, THEATRE_PALETTE } from './layer-colors'
-import { fiCastIdForName } from '@/lib/french-indian-commanders'
+import { fiCastIdForName, FI_COMMANDERS } from '@/lib/french-indian-commanders'
 import type { WarConfig } from './types'
 
 const WAR_ACCENT = '#8a7a66'
@@ -99,7 +99,59 @@ export const FRENCH_INDIAN: WarConfig = {
     { id: 'conquest', name: 'The Conquest of Canada', phase: 'total', type: 'MILITARY', size: 'l', date: '1759–1760', year: 1759, m: 1, href: '/war-french-indian/conquest' },
     { id: 'peace-fuse', name: 'The Peace and Its Fuse', phase: 'after', type: 'MILITARY', size: 'l', date: '1760–1763', year: 1760, m: 1, href: '/war-french-indian/peace-fuse' },
   ],
-  commanders: {},
+  commanders: FI_COMMANDERS,
+  home: {
+    eyebrow: 'War · 1754–1763',
+    title: ['The French &', 'Indian War'],
+    standfirst: 'Nine years in the North American woods decided who would rule the continent — Britain or France — and the contest turned, more than anything, on the Native nations whose land it was. The British victory ejected France, and its costs and broken promises lit the fuse to the Revolution.',
+    heroImg: '/war-img/fi-war-hero.jpg',
+    heroCredit: 'The Death of General Wolfe · Benjamin West, 1770 · public domain',
+    footer: true,
+    storyCard: {
+      kicker: 'The war story',
+      heading: 'Five phases, 1754 to 1763',
+      body: 'The whole war as one through-line: the spark in the Ohio woods, the years Britain reeled, the turn under Pitt, the conquest of Canada, and the peace that set up the Revolution. The connective tissue between the causes and the battles.',
+      meta: '5 phases that lead to 14 battles and 8 chapters off the battlefield.',
+    },
+    castCard: {
+      kicker: 'Follow a commander',
+      heading: 'The commanders',
+      body: 'Six men carry the whole war, battle to battle, from the Pennsylvania backwoods to the surrender of Montreal. Pick one and watch their arc unfold, command to command.',
+    },
+    offfieldCard: {
+      kicker: 'Off the battlefield',
+      count: '8 chapters',
+      heading: 'Why we fought, and who paid for it',
+      body: 'The war beyond the battles: the scramble for the Ohio country, the contest for Native alliances, the Acadian expulsion, the first stirrings of colonial union, and the debts and broken promises that pointed straight at the Revolution.',
+    },
+    offfieldPhases: [
+      ['causes', 'Why they fought'],
+      ['hard', 'The war years'],
+      ['after', 'The peace & the reckoning'],
+    ],
+    battleMap: {
+      eyebrow: 'The theatre · 1754–1763',
+      accent: '#c79cd0',
+      frame: { lonMin: -82.4, lonMax: -58.3, latMin: 38.7, latMax: 47.7 },
+      states: [
+        { name: 'New York', label: 'NEW YORK', labelLon: -75.4, labelLat: 42.7, labelSize: 13 },
+        { name: 'Pennsylvania' },
+        { name: 'Quebec', label: 'QUÉBEC', labelLon: -72.5, labelLat: 47.2, labelSize: 13 },
+        { name: 'Nova Scotia', label: 'NOVA SCOTIA', labelLon: -62.6, labelLat: 45.0, labelSize: 11 },
+        { name: 'Ontario' }, { name: 'New Brunswick' }, { name: 'Prince Edward Island' },
+        { name: 'Maryland' }, { name: 'Virginia' }, { name: 'Ohio' }, { name: 'West Virginia' },
+        { name: 'New Jersey' }, { name: 'Connecticut' }, { name: 'Massachusetts' }, { name: 'Vermont' },
+        { name: 'New Hampshire' }, { name: 'Maine' }, { name: 'Delaware' }, { name: 'Rhode Island' },
+      ],
+      coords: {
+        'fi-jumonville': [39.85, -79.62], 'fi-fort-necessity': [39.81, -79.59], 'fi-monongahela': [40.40, -79.86],
+        'fi-lake-george': [43.43, -73.64], 'fi-oswego': [43.46, -76.51], 'fi-fort-william-henry': [43.42, -73.71],
+        'fi-carillon': [43.84, -73.39], 'fi-louisbourg': [45.92, -59.97], 'fi-frontenac': [44.23, -76.48],
+        'fi-fort-duquesne': [40.44, -80.01], 'fi-niagara': [43.26, -79.06], 'fi-quebec': [46.81, -71.21],
+        'fi-sainte-foy': [46.78, -71.28], 'fi-montreal': [45.50, -73.57],
+      },
+    },
+  },
   castIdForName: fiCastIdForName,
   // No-portrait fallback: British/French cards show their period flag; a Native (or
   // other) side with no flag falls back to an initials monogram. A real portrait wins.

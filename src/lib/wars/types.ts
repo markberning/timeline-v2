@@ -79,6 +79,34 @@ export interface WarCommander {
   appearances: WarCommanderAppearance[]
 }
 
+// The war home page's war-specific content (the masthead, the lead card copy per tab,
+// the off-the-battlefield phase groupings, and — for a one-theatre war — the all-battles
+// overview map). Everything else on the home (the tab bar, the chapter/battle/theme/cast
+// lists) is derived from the WarConfig itself by the shared <WarHome>. A war with this
+// block set renders through <WarHome>; the Civil War (with its extra Theatres/Facts tabs)
+// stays on its own page for now.
+export interface WarHomeConfig {
+  eyebrow: string                       // 'War · 1754–1763'
+  title: string[]                       // masthead title lines, joined by <br/> — e.g. ['The French &', 'Indian War']
+  standfirst: string
+  heroImg: string
+  heroCredit: string
+  footer?: boolean                      // show the "Part of the American wars" front-door footer
+  storyCard: { kicker: string; heading: string; body: string; meta?: string }
+  castCard?: { kicker: string; heading: string; body: string }
+  offfieldCard: { kicker: string; count: string; heading: string; body: string }
+  offfieldPhases: [string, string][]    // theme.phase id → group heading, in order
+  // The all-battles overview map (one-theatre wars). lon/lat frame, the state outlines
+  // drawn under the dots, per-battle coordinates, and the map's eyebrow + accent hex.
+  battleMap?: {
+    eyebrow: string
+    accent: string
+    frame: { lonMin: number; lonMax: number; latMin: number; latMax: number }
+    states: { name: string; label?: string; labelLon?: number; labelLat?: number; labelSize?: number }[]
+    coords: Record<string, [number, number]>
+  }
+}
+
 export interface WarConfig {
   id: string                 // 'civil-war' | 'french-indian'
   name: string               // 'American Civil War'
@@ -111,4 +139,7 @@ export interface WarConfig {
   // other side with no flag falls back to an initials monogram). A real portrait always
   // wins. Omit for a war whose commanders all have portraits (the CW). e.g. F&I sides.
   sideFlags?: Record<string, string>
+  // The war home's war-specific content. When set, the war renders through the shared
+  // <WarHome>; omit for a war with a bespoke home (the Civil War, for its extra tabs).
+  home?: WarHomeConfig
 }
