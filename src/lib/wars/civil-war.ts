@@ -26,6 +26,7 @@ export const CIVIL_WAR: WarConfig = {
   crumbFull: 'American Civil War',
   laneNoun: 'Jump to',
   accent: WAR_ACCENT,
+  castHref: '/war-civil-war/cast',
   geoScopeToggle: true,
   sides: [
     { code: 'u', label: 'Union', short: 'Union', cssVar: '--union', color: { light: '#1d4ed8', dark: '#7c9bd1' } },

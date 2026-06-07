@@ -32,6 +32,7 @@ export const FRENCH_INDIAN: WarConfig = {
   crumbFull: 'French & Indian War',
   laneNoun: 'Jump to',
   accent: WAR_ACCENT,
+  castHref: '/war-french-indian/cast',
   geoScopeToggle: false,
   sides: [
     { code: 'br', label: 'British', short: 'British', cssVar: '--brit', color: { light: '#b13b3b', dark: '#d98a86' } },

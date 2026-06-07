@@ -101,10 +101,14 @@ export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; b
   // Story + Off the Field.
   const battleLanes = cfg.lanes.filter(l => l.kind === 'theatre')
   const beyondLanes = cfg.lanes.filter(l => l.kind === 'story' || l.kind === 'offfield')
+  // The cast hub isn't a lane (it cuts across the battles), so it's synthesised here:
+  // a "The Cast" entry that joins the Story + Off-the-Battlefield group, in war accent.
+  const castOpt: CrumbOption[] = cfg.castHref ? [{ label: 'The Cast', href: cfg.castHref, color: cfg.accent }] : []
+  const beyondOptions = [...beyondLanes.map(laneOpt), ...castOpt]
   const laneOptions: CrumbOption[] = [
     ...battleLanes.map(laneOpt),
-    ...(battleLanes.length && beyondLanes.length ? [{ label: 'Beyond the battles', heading: true } as CrumbOption] : []),
-    ...beyondLanes.map(laneOpt),
+    ...(battleLanes.length && beyondOptions.length ? [{ label: 'Beyond the battles', heading: true } as CrumbOption] : []),
+    ...beyondOptions,
   ]
   const activeLane = laneOf(lane)
 

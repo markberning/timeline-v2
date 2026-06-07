@@ -10,6 +10,8 @@ import '../war-skin.css'
 import { useState } from 'react'
 import { WarBreadcrumb, WAR_ACCENT, type Crumb } from '@/components/mode/war-chrome'
 import { WarHeader } from '@/components/mode/war-header'
+import { warCrumbs } from '@/components/mode/theatre-page'
+import { CIVIL_WAR } from '@/lib/wars/civil-war'
 import { COMMANDERS } from '@/lib/civil-war-commanders'
 import { MAJORS } from '@/lib/civil-war-roster'
 
@@ -34,10 +36,10 @@ export default function CastPage() {
 
   const list = ALL.filter(c => (side === 'all' || c.side === side) && (theatre === 'all' || c.theatres.has(theatre)))
 
-  const crumbs: Crumb[] = [
-    { label: 'ACW', short: 'ACW', href: '/war-civil-war' },
-    { label: 'Cast', active: true },
-  ]
+  // Reuse the standard war breadcrumb (war rung + the section "Jump to" dropdown),
+  // then append the Cast leaf, so the cast bar matches the rest of the war app.
+  const base = warCrumbs(CIVIL_WAR)
+  const crumbs: Crumb[] = [base[0], base[1], { label: 'Cast', active: true }]
 
   return (
     <div className="war-skin">

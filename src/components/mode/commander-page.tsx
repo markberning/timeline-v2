@@ -11,6 +11,8 @@ import '../../app/war-civil-war/war-skin.css'
 import { useState } from 'react'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import { WarHeader } from '@/components/mode/war-header'
+import { warCrumbs } from '@/components/mode/theatre-page'
+import { CIVIL_WAR } from '@/lib/wars/civil-war'
 import { COMMANDERS } from '@/lib/civil-war-commanders'
 import { MAJORS } from '@/lib/civil-war-roster'
 
@@ -63,11 +65,10 @@ export function CommanderPage({ id }: { id: string }) {
   if (!c) return null
   const side = SIDE[c.side]
 
-  const crumbs: Crumb[] = [
-    { label: 'ACW', short: 'ACW', href: '/war-civil-war' },
-    { label: 'Cast', href: '/war-civil-war/cast' },
-    { label: c.name, active: true },
-  ]
+  // Standard war breadcrumb (war rung + section "Jump to" dropdown), then Cast and the
+  // commander leaf, so the arc bar matches the rest of the war app.
+  const base = warCrumbs(CIVIL_WAR)
+  const crumbs: Crumb[] = [base[0], base[1], { label: 'Cast', href: '/war-civil-war/cast' }, { label: c.name, active: true }]
 
   // appearances, joined to the roster + sorted chronologically.
   const arc = c.appearances

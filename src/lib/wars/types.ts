@@ -88,6 +88,10 @@ export interface WarConfig {
   crumbFull: string          // 'American Civil War' — the ✓-matched full label
   laneNoun: string           // generic placeholder for the lane crumb ('Theatre' / 'Phase')
   accent: string             // war identity colour (WAR_ACCENT stone), concrete hex
+  // The "follow a commander" cast hub, if the war has one. When set, the section
+  // "Jump to" dropdown lists "The Cast" in the Beyond-the-battles group alongside
+  // the Story spine and Off the Battlefield. Omit for a war with no cast yet.
+  castHref?: string          // e.g. '/war-civil-war/cast'
   // CW groups battles in 4 geographic theatres, so its battle-jump menu offers a
   // [this theatre | All battles] scope toggle. The F&I war groups by phase and does
   // not. Flag it here so the generic crumb builder knows whether to emit the toggle.
