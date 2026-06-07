@@ -115,8 +115,9 @@ function BattlesTab() {
     setMapTop(Math.round(stuck + sub.offsetHeight))
   }, [])
 
-  // The active battle = the lowest list row whose top has scrolled above the map's
-  // bottom edge (i.e. the one sitting just under the pinned map).
+  // The active battle = the lowest list row whose top has scrolled above the reading
+  // line. We do NOT run this on mount: at the top of the list the first battle
+  // (Jumonville) stays lit; detection only kicks in once the reader actually scrolls.
   useEffect(() => {
     const rows = Array.from(document.querySelectorAll<HTMLElement>('.p-bt[data-id]'))
     if (!rows.length) return
@@ -136,7 +137,6 @@ function BattlesTab() {
         if (cur) setActive(cur)
       })
     }
-    onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => { window.removeEventListener('scroll', onScroll); cancelAnimationFrame(raf) }
   }, [mapTop])
