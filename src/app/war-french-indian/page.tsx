@@ -13,6 +13,7 @@ import '../war-civil-war/war-skin.css'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { WarHeader, WAR_ICONS } from '@/components/mode/war-header'
 import { FRENCH_INDIAN as W } from '@/lib/wars/french-indian'
+import { FI_COMMANDERS } from '@/lib/french-indian-commanders'
 import { WarBreadcrumb } from '@/components/mode/war-chrome'
 import { warCrumbs } from '@/components/mode/theatre-page'
 import { DottedMap, type Dot } from '@/components/mode/dotted-map'
@@ -22,11 +23,13 @@ const STANDFIRST = 'Nine years in the North American woods decided who would rul
 const TABS = [
   { k: 'story', label: 'Story' },
   { k: 'battles', label: 'Battles' },
+  { k: 'cast', label: 'Commanders' },
   { k: 'offfield', label: 'Off the Field' },
 ]
 
 // Each home tab maps to a config lane, so the breadcrumb's jump rung reflects the
 // active tab (War › Battles, not the generic "Jump to") and its dropdown switches tabs.
+// The Commanders tab has no lane of its own, so it falls back to the generic crumb.
 const TAB_LANE: Record<string, string> = { story: 'fi-story', battles: 'fi-battles', offfield: 'offfield' }
 
 // Off-the-battlefield phase groupings (the heart of this war).
@@ -68,14 +71,37 @@ function StoryTab() {
       {W.chapters.map((c, i) => (
         <SpineRow key={c.id} no={String(i + 1).padStart(2, '0')} title={c.short ?? c.name} sub={c.hook} right={(c.date.match(/\d{4}/) || [''])[0]} href={c.href} />
       ))}
-      <a className="p-storycard cast fi-dim" href="/war-french-indian/cast" style={{ display: 'block', textDecoration: 'none', marginTop: 12 }}>
+    </div>
+  )
+}
+
+// The Commanders tab: the cast gallery. Six recurring commanders, each card deep-links
+// to that commander's arc page (the same cards as the standalone /cast hub).
+const CAST_LIST = Object.values(FI_COMMANDERS)
+  .slice()
+  .sort((a, b) => b.appearances.length - a.appearances.length || a.name.localeCompare(b.name))
+
+function CastTab() {
+  return (
+    <div className="p-page">
+      <div className="p-storycard story fi-dim" style={{ marginBottom: 14 }}>
         <div className="row">
           <span className="chip"><span className="sq" style={{ background: 'var(--fi-battles)' }} /><span className="p-label">Follow a commander</span></span>
         </div>
-        <h3 className="p-serif">The cast</h3>
-        <p>Six commanders carry the whole war, battle to battle: Montcalm, Wolfe, Washington, Amherst, Lévis, and Sir William Johnson. Pick one and watch their arc unfold, from the first command to the last surrender.</p>
-        <div className="sc-meta">6 commanders · the war told as their arcs</div>
-      </a>
+        <h3 className="p-serif">The commanders</h3>
+        <p>Six men carry the whole war, battle to battle, from the Pennsylvania backwoods to the surrender of Montreal. Pick one and watch their arc unfold, command to command.</p>
+      </div>
+      <div className="p-cmdgrid">
+        {CAST_LIST.map(c => (
+          <a key={c.id} className={'p-cmdcard ' + c.side} href={`/war-french-indian/cast/${c.id}/`}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <span className="pic"><img src={c.portrait} alt="" /></span>
+            <b>{c.name}</b>
+            <span className="meta">{c.appearances.length} {c.appearances.length === 1 ? 'battle' : 'battles'}</span>
+            <span className="ep">{c.epithet}</span>
+          </a>
+        ))}
+      </div>
     </div>
   )
 }
@@ -248,7 +274,7 @@ export default function FrenchIndianHome() {
     <div className="war-skin">
       <WarHeader backHref="/war" title={W.name} />
 
-      <WarBreadcrumb crumbs={warCrumbs(W, picked ? { lane: TAB_LANE[tab] } : undefined)} accent={W.accent} bare />
+      <WarBreadcrumb crumbs={warCrumbs(W, picked && TAB_LANE[tab] ? { lane: TAB_LANE[tab] } : undefined)} accent={W.accent} bare />
 
       <div className="p-mast">
         <div className="p-eyebrow">War · 1754&ndash;1763</div>
@@ -271,6 +297,7 @@ export default function FrenchIndianHome() {
 
       {tab === 'story' && <StoryTab />}
       {tab === 'battles' && <BattlesTab />}
+      {tab === 'cast' && <CastTab />}
       {tab === 'offfield' && <OffFieldTab />}
 
       <div className="bp-foot">
