@@ -180,12 +180,17 @@ function OffFieldTab() {
 
 export default function FrenchIndianHome() {
   const [tab, setTab] = useState('story')
+  // Like the ACW home: the breadcrumb's jump rung reads the generic "Jump to" on load
+  // (its dropdown lists all three sections), and switches to the section's name only
+  // once the reader picks one. `picked` tracks whether a selection has been made.
+  const [picked, setPicked] = useState(false)
+  const pick = (k: string) => { setTab(k); setPicked(true) }
   // Deep link from the breadcrumb "The Battles" theatre crumb:
   // /war-french-indian?theatre=fi-battles lands on the Battles tab, scrolled to it.
   useEffect(() => {
     const th = new URLSearchParams(window.location.search).get('theatre')
     if (th === 'fi-battles') {
-      setTab('battles')
+      pick('battles')
       requestAnimationFrame(() => document.querySelector('.p-subnav')?.scrollIntoView({ block: 'start' }))
     }
   }, [])
@@ -193,7 +198,7 @@ export default function FrenchIndianHome() {
     <div className="war-skin">
       <WarHeader backHref="/war" title={W.name} />
 
-      <WarBreadcrumb crumbs={warCrumbs(W, { lane: TAB_LANE[tab] }).slice(0, 2)} accent={W.accent} bare />
+      <WarBreadcrumb crumbs={warCrumbs(W, picked ? { lane: TAB_LANE[tab] } : undefined)} accent={W.accent} bare />
 
       <div className="p-mast">
         <div className="p-eyebrow">War · 1754&ndash;1763</div>
@@ -209,7 +214,7 @@ export default function FrenchIndianHome() {
       <div className="p-subnav below-crumb">
         <div className="p-seg">
           {TABS.map(t => (
-            <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => setTab(t.k)}>{t.label}</button>
+            <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>{t.label}</button>
           ))}
         </div>
       </div>
