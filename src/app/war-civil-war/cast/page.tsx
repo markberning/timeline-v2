@@ -36,10 +36,11 @@ export default function CastPage() {
 
   const list = ALL.filter(c => (side === 'all' || c.side === side) && (theatre === 'all' || c.theatres.has(theatre)))
 
-  // Reuse the standard war breadcrumb (war rung + the section "Jump to" dropdown),
-  // then append the Cast leaf, so the cast bar matches the rest of the war app.
+  // Reuse the standard war breadcrumb's war rung, then make Cast itself the section
+  // crumb — it carries the same "Jump to" dropdown (theatres/story/off-field/cast),
+  // so the trail reads "ACW › Cast" with no redundant "Jump to" rung.
   const base = warCrumbs(CIVIL_WAR)
-  const crumbs: Crumb[] = [base[0], base[1], { label: 'Cast', active: true }]
+  const crumbs: Crumb[] = [base[0], { label: 'Cast', active: true, options: base[1].options }]
 
   return (
     <div className="war-skin">

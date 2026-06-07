@@ -65,10 +65,10 @@ export function CommanderPage({ id }: { id: string }) {
   if (!c) return null
   const side = SIDE[c.side]
 
-  // Standard war breadcrumb (war rung + section "Jump to" dropdown), then Cast and the
-  // commander leaf, so the arc bar matches the rest of the war app.
+  // War rung, then Cast as the section crumb (carrying the standard "Jump to"
+  // dropdown), then the commander leaf — trail reads "ACW › Cast › Name".
   const base = warCrumbs(CIVIL_WAR)
-  const crumbs: Crumb[] = [base[0], base[1], { label: 'Cast', href: '/war-civil-war/cast' }, { label: c.name, active: true }]
+  const crumbs: Crumb[] = [base[0], { label: 'Cast', href: '/war-civil-war/cast', options: base[1].options }, { label: c.name, active: true }]
 
   // appearances, joined to the roster + sorted chronologically.
   const arc = c.appearances

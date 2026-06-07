@@ -44,10 +44,10 @@ export function FICommanderPage({ id }: { id: string }) {
   if (!c) return null
   const side = SIDE[c.side]
 
-  // Standard war breadcrumb (war rung + section "Jump to" dropdown), then Cast and the
-  // commander leaf, so the bar matches the rest of the war app.
+  // War rung, then Cast as the section crumb (carrying the standard "Jump to"
+  // dropdown), then the commander leaf — trail reads "F&I › Cast › Name".
   const base = warCrumbs(FRENCH_INDIAN)
-  const crumbs: Crumb[] = [base[0], base[1], { label: 'Cast', href: '/war-french-indian/cast' }, { label: c.name, active: true }]
+  const crumbs: Crumb[] = [base[0], { label: 'Cast', href: '/war-french-indian/cast', options: base[1].options }, { label: c.name, active: true }]
 
   const arc = c.appearances
     .map(a => ({ a, b: byId[a.battleId] }))

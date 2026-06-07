@@ -25,10 +25,10 @@ export default function FICastPage() {
   const [side, setSide] = useState<'all' | FISide>('all')
   const list = ALL.filter(c => side === 'all' || c.side === side)
 
-  // Reuse the standard war breadcrumb (war rung + the section "Jump to" dropdown),
-  // then append the Cast leaf, so the cast bar matches the rest of the war app.
+  // War rung, then Cast itself as the section crumb — it carries the standard
+  // "Jump to" dropdown, so the trail reads "F&I › Cast" with no redundant rung.
   const base = warCrumbs(FRENCH_INDIAN)
-  const crumbs: Crumb[] = [base[0], base[1], { label: 'Cast', active: true }]
+  const crumbs: Crumb[] = [base[0], { label: 'Cast', active: true, options: base[1].options }]
 
   return (
     <div className="war-skin">
