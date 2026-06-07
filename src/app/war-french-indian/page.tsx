@@ -144,7 +144,7 @@ function BattlesTab() {
   const dots: Dot[] = list.map(b => {
     const ll = FI_BATTLE_LL[b.id]; if (!ll) return null
     const isA = b.id === active
-    return { lat: ll[0], lon: ll[1], heavy: isA, color: isA ? '#e6c2ec' : '#6f6374' }
+    return { lat: ll[0], lon: ll[1], active: isA, color: isA ? '#e9c7ef' : '#615767' }
   }).filter(Boolean) as Dot[]
 
   return (
