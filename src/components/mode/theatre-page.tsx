@@ -169,6 +169,45 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
   return warCrumbs(CIVIL_WAR, { lane: theatre, battleId })
 }
 
+// ── The cast bar ────────────────────────────────────────────────────────────
+// "Follow a commander" shares the SAME 3-rung breadcrumb shape across every war:
+//     War  ›  Cast  ›  Commander
+// The war rung + the section "Jump to" dropdown are reused from warCrumbs; this adds
+// the Cast section crumb (carrying that dropdown) and a leaf whose own dropdown lists
+// every commander, grouped by side. It is driven entirely by data each war passes in
+// — its commander registry + side metadata — so a NEW war gets the identical bar for
+// free (one `<war>CastCrumbs` binder per war; see commander-page / fi-commander-page).
+export interface CastSide { code: string; label: string; dot: string }   // dot = concrete hex (the dropdown portals outside .war-skin)
+export interface CastCommander { id: string; name: string; side: string }
+
+export function castCommanderOptions(commanders: CastCommander[], castBase: string, sides: CastSide[]): CrumbOption[] {
+  return sides.flatMap(s => {
+    const list = commanders.filter(c => c.side === s.code).sort((a, b) => a.name.localeCompare(b.name))
+    if (!list.length) return []
+    return [
+      { label: s.label, heading: true, color: s.dot } as CrumbOption,
+      ...list.map(c => ({ label: c.name, href: `${castBase}/${c.id}/`, color: s.dot })),
+    ]
+  })
+}
+
+// The full cast trail. No commanderId → the cast hub (Cast active, a "Commander"
+// placeholder leaf, mirroring the battle placeholder on a war home). With one → an
+// arc page (Cast becomes a link, the leaf is that commander, ✓-ed in its own list).
+export function castCrumbs(cfg: WarConfig, { commanders, sides, commanderId }: { commanders: CastCommander[]; sides: CastSide[]; commanderId?: string }): Crumb[] {
+  const base = warCrumbs(cfg)
+  const castBase = cfg.castHref ?? `${cfg.routeBase}/cast`
+  const opts = castCommanderOptions(commanders, castBase, sides)
+  const current = commanderId ? commanders.find(c => c.id === commanderId) : undefined
+  return [
+    base[0],
+    { label: 'Cast', active: !current, href: current ? castBase : undefined, options: base[1].options },
+    current
+      ? { label: current.name, active: true, currentLabel: current.name, options: opts }
+      : { label: 'Commander', options: opts },
+  ]
+}
+
 // The all-wars front door (/war) breadcrumb: just the first two rungs of the
 // ladder — the vertical (War) and the war picker (current, "All Wars"). The
 // Theatre / Battle rungs only appear once you've drilled into a specific war.

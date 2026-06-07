@@ -10,9 +10,7 @@ import '../war-skin.css'
 import { useState } from 'react'
 import { WarBreadcrumb, WAR_ACCENT, type Crumb } from '@/components/mode/war-chrome'
 import { WarHeader } from '@/components/mode/war-header'
-import { warCrumbs } from '@/components/mode/theatre-page'
-import { castCommanderOptions } from '@/components/mode/commander-page'
-import { CIVIL_WAR } from '@/lib/wars/civil-war'
+import { civilWarCastCrumbs } from '@/components/mode/commander-page'
 import { COMMANDERS } from '@/lib/civil-war-commanders'
 import { MAJORS } from '@/lib/civil-war-roster'
 
@@ -37,15 +35,8 @@ export default function CastPage() {
 
   const list = ALL.filter(c => (side === 'all' || c.side === side) && (theatre === 'all' || c.theatres.has(theatre)))
 
-  // War rung, then Cast as the section crumb (carrying the standard "Jump to"
-  // dropdown), then a leaf that lists every commander — trail reads
-  // "ACW › Cast › Commander", mirroring the battle pattern on the war home.
-  const base = warCrumbs(CIVIL_WAR)
-  const crumbs: Crumb[] = [
-    base[0],
-    { label: 'Cast', active: true, options: base[1].options },
-    { label: 'Commander', options: castCommanderOptions() },
-  ]
+  // The shared cast bar: War › Cast › Commander (the leaf lists every commander).
+  const crumbs: Crumb[] = civilWarCastCrumbs()
 
   return (
     <div className="war-skin">

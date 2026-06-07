@@ -11,9 +11,9 @@
 
 import '../../app/war-civil-war/war-skin.css'
 import { useState } from 'react'
-import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
+import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import { WarHeader } from '@/components/mode/war-header'
-import { warCrumbs } from '@/components/mode/theatre-page'
+import { castCrumbs, type CastSide } from '@/components/mode/theatre-page'
 import { FI_COMMANDERS, type FISide } from '@/lib/french-indian-commanders'
 import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 
@@ -22,25 +22,15 @@ const SIDE: Record<FISide, { label: string; v: string }> = {
   c: { label: 'French', v: 'var(--french)' },
 }
 
-// Concrete side hexes for the cast-jump dropdown (it portals to <body>, outside
-// .war-skin, so the --brit/--french CSS vars can't resolve there). Mirror the
-// saturated side colours from the WarConfig.
-const SIDE_DOT: Record<FISide, string> = { u: '#b13b3b', c: '#3a5fa5' }
-
-// The cast crumb's leaf dropdown: every commander, grouped British then French,
-// alphabetical within each side, dot-coded by side. Shared by the cast hub leaf and
-// each commander arc page (where the current commander gets the ✓ via currentLabel).
-export function fiCastCommanderOptions(): CrumbOption[] {
-  const all = Object.values(FI_COMMANDERS)
-  const group = (sd: FISide, head: string): CrumbOption[] => {
-    const list = all.filter(c => c.side === sd).sort((a, b) => a.name.localeCompare(b.name))
-    if (!list.length) return []
-    return [
-      { label: head, heading: true, color: SIDE_DOT[sd] },
-      ...list.map(c => ({ label: c.name, href: `/war-french-indian/cast/${c.id}/`, color: SIDE_DOT[sd] })),
-    ]
-  }
-  return [...group('u', 'British'), ...group('c', 'French')]
+// The F&I cast-bar binding: side metadata (concrete hexes — the dropdown portals
+// outside .war-skin) + the bound crumb builder the cast hub and every commander arc
+// call. One binder per war = how the shared cast bar reaches a new war (castCrumbs).
+const FI_CAST_SIDES: CastSide[] = [
+  { code: 'u', label: 'British', dot: '#b13b3b' },
+  { code: 'c', label: 'French', dot: '#3a5fa5' },
+]
+export function frenchIndianCastCrumbs(commanderId?: string): Crumb[] {
+  return castCrumbs(FRENCH_INDIAN, { commanders: Object.values(FI_COMMANDERS), sides: FI_CAST_SIDES, commanderId })
 }
 const RAIL = 'var(--fi-battles)' // the single F&I theatre colour (plum)
 const MONTH = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -65,15 +55,8 @@ export function FICommanderPage({ id }: { id: string }) {
   if (!c) return null
   const side = SIDE[c.side]
 
-  // War rung, then Cast as the section crumb (carrying the standard "Jump to"
-  // dropdown), then the commander leaf whose own dropdown lists every commander —
-  // trail reads "F&I › Cast › Name".
-  const base = warCrumbs(FRENCH_INDIAN)
-  const crumbs: Crumb[] = [
-    base[0],
-    { label: 'Cast', href: '/war-french-indian/cast', options: base[1].options },
-    { label: c.name, active: true, currentLabel: c.name, options: fiCastCommanderOptions() },
-  ]
+  // The shared cast bar: War › Cast › Name (the leaf lists every commander).
+  const crumbs = frenchIndianCastCrumbs(id)
 
   const arc = c.appearances
     .map(a => ({ a, b: byId[a.battleId] }))

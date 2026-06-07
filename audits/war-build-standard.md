@@ -120,6 +120,14 @@ Notes:
 - The breadcrumb is fully config-driven (`warCrumbs(cfg)`): war-name + theatre-name
   rungs/options are tinted their identity colour and link entries are underlined, for
   **every** war automatically (add a war to the registry + `WAR_EVENTS` and it inherits).
+- The **cast bar** (`castCrumbs(cfg, …)` in `theatre-page.tsx`) is the same shape for
+  every war: `War › Cast › Commander`, where the Cast rung carries the section
+  "Jump to" dropdown (theatres/story/off-field/cast — set `WarConfig.castHref`) and the
+  leaf rung lists every commander grouped by side. A new war wires it with ONE binder
+  (`<war>CastCrumbs(commanderId?)` — see `civilWarCastCrumbs` / `frenchIndianCastCrumbs`)
+  that passes its commander registry + side metadata (`{ code, label, dot }`, dot =
+  concrete hex since the dropdown portals outside `.war-skin`). Both the cast hub page
+  and each commander arc call that one binder.
 
 ---
 
