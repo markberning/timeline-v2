@@ -131,10 +131,44 @@ Notes:
 
 ---
 
-## 6. Target (deferred): one system
+## 6. Turnkey: how to add a new war (the chrome is config-driven)
 
-War #3 should NOT invent a fifth storage format. The intended end state is the F&I
-block-array model (clean TS data + one shared renderer) for every surface, with the
-hardcoded CW interior lifted into per-war `WarConfig`. Plan: `audits/war-second-war-plan.md`.
-Do this as its own project before war #3; it is not a blocker for voice/content work
-on the existing two.
+The whole war chrome is now config-driven — a new war is a `WarConfig` + a route tree of
+content, not a fork of the Civil War. Use the **French & Indian War as the template**
+(the clean, data-driven build); the Civil War is the feature-rich flagship and keeps a
+couple of warranted bespoke pieces (its own home page for the extra Theatres/Facts tabs;
+its themes/chapters still as generated `.tsx`). What a new war wires up:
+
+1. **`WarConfig`** (`src/lib/wars/<id>.ts`) + register it in `registry.ts` and add its
+   `href` to `WAR_EVENTS` (`war-front-door.tsx`). The config carries: `sides`, `lanes`
+   (theatres/phases + the story + off-field lanes), `battles`/`themes`/`chapters`,
+   `commanders`, `castHref`, `sideFlags` (no-portrait fallback), `castIdForName` (via
+   `makeCastLookup`), and a `home` block (masthead, per-tab card copy, off-field phase
+   groupings, the all-battles map data).
+2. **Home** — one line: `<WarHome cfg={MY_WAR} />` (`components/mode/war-home.tsx`). It
+   renders the masthead, the four core tabs, and the scroll-linked battle map from config.
+3. **Cast** — a commander registry (`<id>-commanders.ts`) + a `<war>CastCrumbs` binder
+   (mirror `frenchIndianCastCrumbs`); the cast hub + arc pages reuse `<CommanderArc>` and
+   the shared `castCrumbs`. Point `WarConfig.commanders` at the registry.
+4. **Battles** — thin `page.tsx` per battle handing a `BattleData` to the shared
+   `<BattleDossier>` (`components/mode/battle-dossier.tsx`); sections via
+   `<BattleSectionReader>` reading the block-array `Narr` data.
+5. **Themes / chapters** — the F&I model: one consolidated data file
+   (`theme-narratives.ts` / `phase-narratives.ts`, built by `_build-fi-themes.mjs` /
+   `_build-fi-phases.mjs`) rendered live by `<BattleSectionReader>` through a dynamic
+   `[theme]` / `[phase]` route. Do NOT invent a new storage format, and do NOT copy the
+   Civil War's older per-file generated `.tsx`.
+6. Breadcrumb, section jump-bar, cast bar, dossier, commander arc, and the war skin are
+   all inherited unchanged.
+
+**What's intentionally NOT unified** (judged poor ROI / not a new-war blocker, 2026-06-07):
+- The **Civil War home** stays its own page (its Theatres + Facts tabs + battle search are
+  warranted by its content; folding them into `<WarHome>` would make it a conditional mess
+  at real regression risk to the live flagship).
+- **Migrating the CW themes/chapters** off generated `.tsx` to the data model is legacy
+  cleanup, not a turnkey enabler (new wars already use the data model). Old plan in
+  `audits/war-second-war-plan.md` (now largely executed/superseded by the above).
+- The **per-war CSS palette** (`--th-*`, `--union`, etc. in `war-skin.css`): a new war adds
+  ~6 lines to the light + dark blocks. Injecting it from config was scoped out — the
+  config palette had drifted from the CSS and the dual light/dark injection wasn't worth
+  the regression risk for ~6 saved lines.
