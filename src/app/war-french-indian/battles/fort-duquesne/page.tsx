@@ -21,27 +21,12 @@ const DATA: BattleData = {
   date: 'September–November 1758',
   place: 'the Forks of the Ohio (Pittsburgh)',
   note: 'The prize the whole war was fought over fell, in the end, without a fight.',
-  // The dotted locator map below greets the reader on the masthead in place of a hero
-  // image; this hero is required by the type but never rendered while locator is set.
+  // No born-verified landscape historical scene of Fort Duquesne's fall exists (the only
+  // on-subject art is a tall portrait engraving + a framed museum blockhouse photo, neither
+  // usable in the landscape band), so this dossier ships with no cover image — the gradient
+  // band stands in. The dotted locator map moved into the first section, like the other F&I
+  // battles (the ACW pattern).
   hero: { img: '', pal: ['#2e2a22', '#4a4030', '#15120c'] },
-  locator: {
-    eyebrow: 'Where and when · 1758',
-    caption: 'Forbes cut a brand-new road west across Pennsylvania, from Carlisle through Fort Bedford (Raystown) and Fort Ligonier toward the French stronghold of Fort Duquesne at the Forks of the Ohio (today Pittsburgh), building a fort every stretch and advancing only from cover behind him.',
-    frame: { lonMin: -80.7, lonMax: -76.9, latMin: 39.8, latMax: 41.15 },
-    states: [
-      { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -77.9, labelLat: 40.95 },
-      { name: 'Maryland', label: 'MARYLAND', labelLon: -78.2, labelLat: 39.55, labelSize: 13 },
-      { name: 'Virginia', label: 'VIRGINIA', labelLon: -79.6, labelLat: 39.4, labelSize: 13 },
-      { name: 'Ohio', label: 'OHIO', labelLon: -80.55, labelLat: 40.6, labelSize: 13 },
-      { name: 'West Virginia' },
-    ],
-    dots: [
-      { name: 'Fort Duquesne', lat: 40.44, lon: -80.01, heavy: true, anchor: 'end' },
-      { name: 'Fort Ligonier', lat: 40.24, lon: -79.24, color: '#8a8175', anchor: 'start' },
-      { name: 'Fort Bedford (Raystown)', lat: 40.02, lon: -78.50, color: '#8a8175', anchor: 'start' },
-      { name: 'Carlisle', lat: 40.20, lon: -77.19, color: '#8a8175', anchor: 'start' },
-    ],
-  },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

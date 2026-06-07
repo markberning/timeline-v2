@@ -3,9 +3,9 @@
 
 In the summer of 1754 the British colonies in North America had a problem they could not solve one colony at a time. War had already started on the Ohio frontier, the land beyond the Appalachian Mountains where the colonies, France, and a half-dozen Native nations all claimed the same rivers. A young Virginia officer named Lieutenant Colonel George Washington had marched west that spring and stumbled into the opening shots of it: a deadly skirmish at a place called Jumonville Glen in May, and then, on July 3, a humiliating surrender at a hasty stockade he had named Fort Necessity. Those small, ugly fights in the woods were the first sparks of what would grow into a war fought on three continents.
 
-So when delegates from seven colonies gathered at Albany, New York, that June, the situation was urgent. But the meeting was not really their idea, and the thing it is remembered for was not the first thing on its agenda.
+[FIGURE: The contested Ohio Country, the frontier the Albany Congress met to defend against France. | The contested Ohio Country, the frontier the Albany Congress met to defend against France. | John Mitchell, 1755 · Library of Congress | /war-img/fi-ohio-mitchell-map-1755.jpg]
 
-[FIGURE: A period map of the Ohio Country and the Appalachian frontier, c.1754 | The disputed ground. The Ohio Country was claimed at once by Britain, France, and the Native nations who actually lived there, and in 1754 it was already at war. | ]
+So when delegates from seven colonies gathered at Albany, New York, that June, the situation was urgent. But the meeting was not really their idea, and the thing it is remembered for was not the first thing on its agenda.
 
 ## Why London called the meeting
 > eyebrow: The order from across the ocean
@@ -27,11 +27,9 @@ The reason the colonies met at all was that the Native nations were drifting awa
 
 Seven colonies sent delegates, twenty-one commissioners in all: New York, Pennsylvania, Maryland, and the four New England colonies (New Hampshire, Massachusetts, Rhode Island, and Connecticut). Virginia, New Jersey, and the southern colonies did not bother to come, even though the union plan that emerged would later set aside seats for them.
 
-The chairman was James DeLancey (British), the Lieutenant Governor of New York, meaning the deputy to the colony's royal governor. Among the commissioners were men whose names would echo later. Thomas Hutchinson (British) of Massachusetts, who would help draft the union plan and one day become the colony's royal governor and a hated symbol of Crown authority. Stephen Hopkins (British) of Rhode Island, who would live to sign the Declaration of Independence. William Johnson (British) of New York, the colonies' most important go-between with the Iroquois and later the Crown's Superintendent of Indian Affairs. And, from Pennsylvania, Benjamin Franklin, who arrived with an idea bigger than the meeting he had been sent to.
+The chairman was James DeLancey, the Lieutenant Governor of New York, meaning the deputy to the colony's royal governor. Among the commissioners were men whose names would echo later. Thomas Hutchinson of Massachusetts, who would help draft the union plan and one day become the colony's royal governor and a hated symbol of Crown authority. Stephen Hopkins of Rhode Island, who would live to sign the Declaration of Independence. William Johnson of New York, the colonies' most important go-between with the Iroquois and later the Crown's Superintendent of Indian Affairs. And, from Pennsylvania, Benjamin Franklin, who arrived with an idea bigger than the meeting he had been sent to.
 
 They met daily, mostly in the city hall at Albany, from June 19 to July 11, 1754.
-
-[FIGURE: Eighteenth-century engraving or sketch of Albany, New York | Albany in the 1750s was the gateway to Iroquois country and the natural place for a treaty council. | ]
 
 ## The Iroquois come to the table
 > eyebrow: The first business, and the bluntest voice in the room
@@ -41,6 +39,8 @@ About 150 Iroquois delegates came to Albany. This was not a side event. By Londo
 A word on who they were. The Iroquois Confederacy, who call themselves the Haudenosaunee ("People of the Longhouse"), were by 1754 a league of Six Nations: the Mohawk, Oneida, Onondaga, Cayuga, Seneca, and, since around 1722, the Tuscarora. Their central council fire, the seat of the confederacy's decision-making, burned at Onondaga in what is now central New York. They were not anyone's subjects. They were a power, and they negotiated like one, protecting their own land and their own interests and playing the British and French empires against each other as it suited them.
 
 The man who spoke for them at Albany was a Mohawk leader named Theyanoguin, born around 1692 and known to the English by his baptismal name, Hendrick, and often called King Hendrick. He was a sachem (a civil leader), a warrior, and an orator, and when he rose to address the commissioners around July 2, he did not soften anything.
+
+[FIGURE: Theyanoguin (Hendrick), who told the assembled British officials they were as unguarded as a house with no walls. | Theyanoguin (Hendrick), who told the assembled British officials they were as unguarded as a house with no walls. | Mezzotint, 1755 · Library of Congress | /war-img/fi-king-hendrick.jpg]
 
 He started with the silence. The British had let the friendship fire go cold.
 
@@ -54,9 +54,7 @@ And then he said the line that landed hardest, contrasting French energy on the 
 
 > quote: "Look at the French, they are men; they are fortifying every where; but, we are ashamed to say it, you are like women, bare and open, without any fortifications." — Theyanoguin (Hendrick), as recorded at Albany, 1754
 
-It is worth being honest about how these words reach us. Hendrick spoke in Mohawk; what survives is the speech as written down by interpreters and clerks and printed in the congress proceedings. We have it as recorded, filtered through other men's pens, not as a recording. But the force of it is unmistakable, and so is the point underneath it. He was not pleading. He was telling a partner it had failed to hold up its end, and reminding it who needed whom.
-
-[FIGURE: Portrait of Theyanoguin (Hendrick), the Mohawk leader | Theyanoguin, called Hendrick by the English, spoke for the assembled Iroquois at Albany and did not spare the British their failures. | ]
+These words reach us secondhand. Hendrick spoke in Mohawk; what survives is the speech as written down by interpreters and clerks and printed in the congress proceedings. We have it as recorded, filtered through other men's pens, not as a recording. But the force of it is unmistakable, and so is the point underneath it. He was not pleading. He was telling a partner it had failed to hold up its end, and reminding it who needed whom.
 
 He also named the thing the whole war was actually about. The empires were fighting over ground that belonged to Native nations, and Native nations stood to lose either way.
 
@@ -77,7 +75,7 @@ On or around July 11, the very day the congress closed, agents of Connecticut's 
 
 The people who actually lived in the Wyoming Valley were not in the room. They were the Delaware (who call themselves the Lenape), already shoved off their land once by the swindle known as the Walking Purchase of 1737, and the Shawnee. Neither nation was a party to this sale of their own home. Being sold out at Albany pushed the Delaware and the Shawnee toward the French, and that drift would come back as fire and blood along the Pennsylvania frontier within a few years.
 
-Pennsylvania, not to be outdone, ran its own grab at the same congress. Its Indian agent Conrad Weiser (British) secured a deed to unceded Iroquois land west of the Susquehanna, reaching toward the Ohio and Lake Erie, for a nominal sum and a promise of more. ("Cede" means to formally hand over territory; "unceded" land is land that was never given up.) The Connecticut and Pennsylvania claims overlapped, and that overlap would later explode into the Pennamite-Yankee Wars, settlers of the two colonies shooting at each other over the same valley starting in 1769.
+Pennsylvania, not to be outdone, ran its own grab at the same congress. Its Indian agent Conrad Weiser secured a deed to unceded Iroquois land west of the Susquehanna, reaching toward the Ohio and Lake Erie, for a nominal sum and a promise of more. ("Cede" means to formally hand over territory; "unceded" land is land that was never given up.) The Connecticut and Pennsylvania claims overlapped, and that overlap would later explode into the Pennamite-Yankee Wars, settlers of the two colonies shooting at each other over the same valley starting in 1769.
 
 The same gathering that renewed the Covenant Chain also stripped land from Native nations who were not even present to object. Both things happened in the same town, in the same three weeks.
 
@@ -90,15 +88,13 @@ Benjamin Franklin had come to Albany carrying more than the agenda. He had been 
 
 He had already made the case in print, and made it unforgettable. On May 9, 1754, weeks before the congress, his Pennsylvania Gazette ran a small woodcut he had drawn: a snake cut into eight pieces, each segment labeled for a colony or region, under the words "JOIN, or DIE." It is widely regarded as the first American political cartoon. The image leaned on an old folk superstition that a snake chopped to pieces could come back to life if the parts were rejoined before sunset. The message was not subtle. Reunite, or die in pieces. The cartoon ran before the Albany delegates ever sat down. It was the argument for union, printed first; the plan was what Franklin carried to Albany next.
 
-[FIGURE: Franklin's "Join, or Die" woodcut from the Pennsylvania Gazette, May 9, 1754 | The first American political cartoon. The snake, cut into eight pieces and labeled by colony, made the case for union weeks before the Albany Congress met. | Library of Congress]
+[FIGURE: "JOIN, or DIE" — the woodcut Franklin ran in his Pennsylvania Gazette on 9 May 1754, weeks before the Albany Congress. A snake cut into eight pieces, one per colony or region, played on the folk belief that a severed snake would revive if its parts were rejoined before sunset. It is widely called the first American political cartoon. | "JOIN, or DIE" — the woodcut Franklin ran in his Pennsylvania Gazette on 9 May 1754, weeks before the Albany Congress. A snake cut into eight pieces, one per colony or region, played on the folk belief that a severed snake would revive if its parts were rejoined before sunset. It is widely called the first American political cartoon. | Benjamin Franklin, 1754 / Library of Congress | /war-img/fi-join-or-die.jpg]
 
 At Albany the commissioners voted on June 24 to take up the question of union. A committee worked out a draft, with Thomas Hutchinson of Massachusetts among those shaping it, and submitted it on June 28. On July 10, one day before the congress broke up, it was adopted: the Albany Plan of Union.
 
 The plan tried to thread a hard needle. It proposed a single government over all the colonies for shared purposes, with two heads. At the top would sit a President-General, a single executive appointed and paid by the Crown, meaning the king chose him and the king's treasury supported him. Underneath would sit a Grand Council, a legislature whose members were chosen by the colonial assemblies, the elected bodies that governed each colony. So the colonies would elect the lawmakers, and the king would appoint the boss, whose consent was required for everything the council did. The council would meet each year at Philadelphia, and members would serve three-year terms.
 
 Seats were handed out by colony, forty-eight in all to start, with the bigger colonies getting more: Massachusetts and Virginia seven each, Pennsylvania six, Connecticut five, on down to two apiece for New Hampshire and Rhode Island. After three years the apportionment (the share-out of seats) would be adjusted to match what each colony actually paid in.
-
-[FIGURE: A clean reproduction or printing of the Albany Plan of Union, 1754 | Adopted July 10, 1754. A President-General appointed by the Crown, a Grand Council elected by the colonies, and real power over defense, Indian affairs, and the western lands. | ]
 
 And the powers were real. The union would handle common defense (raising and paying soldiers, building forts, fitting out armed ships). It would run Indian affairs, holding treaties, declaring war or making peace with Native nations, and regulating the trade. It would control the western lands, buying territory from Native nations on the Crown's behalf and managing new settlements. And to pay for all of it, the union could levy taxes and duties. The three things the plan most wanted to take out of thirteen quarreling hands and put into one were defense, Indian affairs, and western lands. The same things, in other words, that the colonies had just spent three weeks mishandling in person.
 
@@ -130,4 +126,3 @@ Franklin thought the refusal had cost more than a plan. In his autobiography he 
 
 [War Finance & the Road to Taxation](/war-french-indian/off-the-battlefield/war-finance)
 
-[FIGURE: A later reuse of the "Join, or Die" snake during the Stamp Act crisis or Revolution | Franklin's snake outlived its first cause. By the 1760s and 1770s the colonists had turned a call for imperial defense into a symbol of resistance against the Crown, a meaning Franklin never intended. | ]

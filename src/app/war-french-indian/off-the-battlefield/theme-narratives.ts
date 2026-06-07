@@ -304,6 +304,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "France's advantage was old. For a hundred years French traders had pushed deep into the interior to buy beaver pelts, and the men who did it (the voyageurs who paddled the canoe routes, and the coureurs de bois, the unlicensed \"runners of the woods\") did not stay behind fort walls. They lived in Native villages, learned the languages, married Native women, and raised children with a foot in both worlds. By the 1750s France's relationship with the interior nations was built out of kinship and need: France needed the fur, and the fur came through marriage and friendship, not conquest."
       },
       {
+        "fig": "/war-img/fi-voyageurs-canoe.jpg",
+        "cap": "A fur-trade canoe brigade. France's alliances ran along the rivers and lakes of the interior, built canoe by canoe and village by village, not signed at a fort gate.",
+        "credit": "Canoe Manned by Voyageurs · Frances Anne Hopkins · 1869 · public domain"
+      },
+      {
         "p": "That relationship ran through a wide circle of nations. The French called the Great Lakes interior the pays d'en haut, the \"upper country,\" and its peoples were France's deepest allies: the Ottawa (Odawa), the Ojibwe (also called Chippewa), the Potawatomi, the Huron-Wyandot, and others like the Mississauga and the Winnebago. Closer to the French heartland, strung along the St. Lawrence near Montreal, were the mission communities known as the Seven Nations of Canada: seven Catholic Native villages allied to New France. The most reliable of them was Kahnawake (\"near the rapids\"), a Mohawk town across the river from Montreal."
       },
       {
@@ -363,6 +368,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "The man Britain trusted to hold the Iroquois was Sir William Johnson, an Irish-born trader who had settled in New York's Mohawk Valley, learned the Mohawk language, and steeped himself in Iroquois custom. The Mohawk adopted him around 1742 as an honorary sachem (a civil leader) and gave him the name Warraghiyagey, \"a man who undertakes great things.\" In 1756 the Crown made him Superintendent of Indian Affairs for the Northern District, a post that reported straight to London over the heads of the colonial governments, with one job: revive the Covenant Chain and win the wary Iroquois to Britain. Johnson's closest link to the Six Nations was personal. His household partner was Molly Brant (Konwatsi'tsiaienni), a Mohawk clan mother whose standing among her people made her a power broker in her own right; she ran his household and her diplomacy and intelligence were central to his influence. Her younger brother Joseph Brant (Thayendanegea) was a boy in these years, about thirteen when he went with Johnson to his first battle in 1755; his fame would come later, in another war."
+      },
+      {
+        "fig": "/war-img/fi-william-johnson.jpg",
+        "cap": "Sir William Johnson, the Mohawk-speaking agent through whom Britain's whole northern alliance ran.",
+        "credit": "portrait · public domain"
       },
       {
         "h": "The Iroquois play their own game",
@@ -482,6 +492,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "q": true
       },
       {
+        "fig": "/war-img/fi-fwh-massacre.jpg",
+        "cap": "The column attacked as it left Fort William Henry, 1757. The surrender terms gave France's Native allies nothing, and they took their own.",
+        "credit": "Alfred Bobbett, after Felix O. C. Darley · wood engraving · 1870–1880 · Library of Congress · public domain"
+      },
+      {
         "p": "The episode became a legend, and the legend inflated it. Jonathan Carver's 1778 account claimed as many as 1,500 dead, a figure later echoed by the historian Benson Lossing, and James Fenimore Cooper's 1826 novel The Last of the Mohicans cemented the legend in the popular imagination. Modern scholarship puts the toll far lower, somewhere between about 69 and 184 British killed or missing, under eight percent of those who had surrendered, and forensic work on the dead has found that disease killed more of them than weapons did. Whether Montcalm could have stopped it is still argued: one tradition holds that his officers did what they could and were simply overwhelmed, another that he saw it coming and acted only once the worst was underway."
       },
       {
@@ -509,6 +524,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "Britain's commander in North America, Jeffery Amherst, drew the obvious conclusion and acted on it. To him the Native nations were no longer allies to be cultivated; they were conquered subjects, and subjects did not need to be paid for their loyalty. Beginning in early 1761 he ended the customary gift-giving, the very practice that, in Native eyes, was the alliance itself. He restricted the sale of gunpowder and ammunition to Native traders, which was not an inconvenience but a threat to hunting and the entire fur economy. And he made little secret of his contempt; Native people complained that the British treated them no better than slaves or dogs. Amherst thought he was cutting waste. He was severing every cord that had held the interior together."
+      },
+      {
+        "fig": "/war-img/fi-jeffery-amherst.jpg",
+        "cap": "Jeffery Amherst, who ended the gift-giving that held the alliances together and later mused about spreading smallpox to the nations he had stopped courting.",
+        "credit": "Sir Joshua Reynolds · public domain"
       },
       {
         "p": "\"Could it not be contrived to send the Small Pox among those disaffected tribes of Indians? We must on this occasion use every stratagem in our power to reduce them.\" — Jeffery Amherst to Henry Bouquet, 1763",
@@ -539,6 +559,11 @@ export const THEME_NARR: Record<string, Narr> = {
     "blocks": [
       {
         "p": "In the summer of 1754 the British colonies in North America had a problem they could not solve one colony at a time. War had already started on the Ohio frontier, the land beyond the Appalachian Mountains where the colonies, France, and a half-dozen Native nations all claimed the same rivers. A young Virginia officer named Lieutenant Colonel George Washington had marched west that spring and stumbled into the opening shots of it: a deadly skirmish at a place called Jumonville Glen in May, and then, on July 3, a humiliating surrender at a hasty stockade he had named Fort Necessity. Those small, ugly fights in the woods were the first sparks of what would grow into a war fought on three continents."
+      },
+      {
+        "fig": "/war-img/fi-ohio-mitchell-map-1755.jpg",
+        "cap": "The contested Ohio Country, the frontier the Albany Congress met to defend against France.",
+        "credit": "John Mitchell, 1755 · Library of Congress"
       },
       {
         "p": "So when delegates from seven colonies gathered at Albany, New York, that June, the situation was urgent. But the meeting was not really their idea, and the thing it is remembered for was not the first thing on its agenda."
@@ -592,6 +617,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "The man who spoke for them at Albany was a Mohawk leader named Theyanoguin, born around 1692 and known to the English by his baptismal name, Hendrick, and often called King Hendrick. He was a sachem (a civil leader), a warrior, and an orator, and when he rose to address the commissioners around July 2, he did not soften anything."
+      },
+      {
+        "fig": "/war-img/fi-king-hendrick.jpg",
+        "cap": "Theyanoguin (Hendrick), who told the assembled British officials they were as unguarded as a house with no walls.",
+        "credit": "Mezzotint, 1755 · Library of Congress"
       },
       {
         "p": "He started with the silence. The British had let the friendship fire go cold."
@@ -832,6 +862,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "The roundups began. British troops collected families at gunpoint and put them aboard transport ships packed tight, roughly two people for every ton of the vessel's capacity. Behind them, the soldiers did what Lawrence had ordered: they burned the houses, the barns, and the crops, so that the marsh farms the Acadians had built over a century became smoke. Winslow watched the embarkation at Grand-Pré in October and wrote down what he saw. The people, he recorded, \"went verry [solemnly] and unwillingly, the women in great distress carrying their children in their arms.\""
       },
       {
+        "fig": "/war-img/fi-acadian-deportation-boats.jpg",
+        "cap": "The deportation boats. Through the autumn of 1755 the British loaded Acadian families onto transports and scattered them down the Atlantic seaboard, often splitting families between ships.",
+        "credit": "Acadian deportation · Myles Birket Foster · 1866 · public domain"
+      },
+      {
         "p": "Lawrence had said, on paper, that whole families should travel together on the same ship. In practice that promise was broken again and again. Husbands were loaded onto one vessel and wives and children onto another, bound for different colonies, and never found each other again."
       },
       {
@@ -868,6 +903,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "The horror of it concentrated into a few December nights. A convoy had left Île Saint-Jean in October 1758 bound for France, and three of its transport ships were lost that December. The Duke William foundered in the North Atlantic around 13 December with over 360 Acadians aboard, roughly 97 km (about 20 leagues) off the French coast; the captain survived, but the families did not. The Violet went down a day earlier with more than 280 Acadians, lost with all of them. The Ruby, carrying around 310, ran aground at Pico Island in the Azores, where about 213 of those aboard died. Across the three ships, close to 1,000 Acadians died in a single week."
+      },
+      {
+        "fig": "/war-img/fi-storm-ship.jpg",
+        "cap": "A transport foundering in heavy seas. Many of the deportation ships were overcrowded and unseaworthy, and hundreds of Acadians died on the Atlantic crossing.",
+        "credit": "A Shipwreck in Stormy Seas · Claude-Joseph Vernet · circa 1773 · public domain"
       },
       {
         "p": "Aboard the Duke William was an elder named Noël Doiron, with his wife Marie, five of their grown children and their spouses, and more than thirty grandchildren. About 120 people of one family. None of them survived."
@@ -972,6 +1012,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Major General Edward Braddock set the tone in 1755. He thought little of the colonials and less of the Native scouts a man would need to fight in the forest, and he marched toward the French stronghold of Fort Duquesne (where Pittsburgh now stands) with only eight Mingo guides. He meant to fight as gentlemen fought in Europe, in tight ranks in the open, and he waved off Washington's warning that the French and their Native allies would not oblige him by standing in a line to be shot at. Benjamin Franklin, who supplied the wagons for the march, reportedly came away remembering Braddock's flat dismissal of both the Americans and the Native warriors who might have saved him. His contempt for both the colonials and the Native scouts cost him at the Monongahela."
       },
       {
+        "fig": "/war-img/fi-edward-braddock.jpg",
+        "cap": "Major General Edward Braddock, the regular who scorned provincials and Native allies and was destroyed for it on the Monongahela.",
+        "credit": "engraving · public domain"
+      },
+      {
         "pill": "/war-french-indian/disaster/monongahela",
         "plabel": "The Monongahela"
       },
@@ -1050,6 +1095,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "That European tactics could not survive in the forest was proven in a single afternoon. On 9 July 1755, about ten miles east of present-day Pittsburgh, Braddock's flying column (a fast-moving advance force) of roughly 1,300 regulars and provincials ran into a French and Native force near the Monongahela River. The opposing force, under Captain Daniel Liénard de Beaujeu, was 891 strong: 108 French marine troops, 146 Canadian militia, and 637 Native warriors from the Ottawa, Ojibwa, Potawatomi, Abenaki, Lenni Lenape (also called Delaware), and Huron nations, led in part by men such as Shingas and the French-Ojibwa officer Charles Michel Mouet de Langlade. (Some accounts place the Ottawa leader Pontiac there as well; others doubt it.) Beaujeu was killed almost at once. It did not matter. His warriors fought from cover, from behind every tree, while Braddock held his men in their tight road column, a packed target that could see almost no one to shoot back at. The result was a slaughter."
       },
       {
+        "fig": "/war-img/fi-monongahela-defeat.jpg",
+        "cap": "The Monongahela, 1755: British regulars packed on a forest road, shot to pieces by an enemy they could not see. The case against fighting European-style in American woods.",
+        "credit": "public domain"
+      },
+      {
         "p": "The British lost 457 killed and more than 450 wounded; of 86 officers, 26 were killed and 37 wounded. The French and Native force lost 39 killed and 57 wounded. The backwoodsmen had warned exactly this would happen. Washington, the unpaid volunteer who had begged to come, found fault with the regulars, restored what order he could, and formed the rear guard that covered the survivors' retreat."
       },
       {
@@ -1082,6 +1132,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "The colonies answered the way they never had under threats. Manpower poured in, the provincial regiments swelling once again off the same militia rolls the colonies had drawn on from the start. With those ranks full, the British turned to the conquest of Canada itself: Louisbourg fell in 1758, Quebec in 1759, Montreal in 1760. Pitt had discovered that the colonists would not be driven but could be persuaded, that they would spend their sons freely once they were treated as partners rather than as inferiors. It was a lesson London would forget with stunning speed."
+      },
+      {
+        "fig": "/war-img/fi-william-pitt.jpg",
+        "cap": "William Pitt, whose subsidies finally turned the colonies' provincial regiments into a war-winning force.",
+        "credit": "After Richard Brompton, 1772 · public domain"
       },
       {
         "p": "There was a bill coming due for all that lavish spending, and where Britain would later try to collect it set the empire on the road to its own undoing."
@@ -1126,7 +1181,22 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Wars are paid for largely on credit. A government at war borrows what it needs by selling bonds (promises to lenders to repay the money later, with interest), and the interest, the yearly fee for borrowing, becomes a fixed bill that comes due whether or not the fighting has stopped. That bill is the national debt, and Britain's national debt roughly doubled over the course of the war, climbing from about £75 million when the fighting began in 1756 to somewhere around £130 million by 1763, a figure most often cited at £132.6 million."
       },
       {
+        "fig": "/war-img/fi-william-pitt.jpg",
+        "cap": "William Pitt, whose spending won the war and ran up the debt that taxation would have to pay off.",
+        "credit": "After Richard Brompton, 1772 · public domain"
+      },
+      {
+        "fig": "/war-img/fi-pitt-offensives-map.jpg",
+        "cap": "Pitt's global offensives — the scale of the war that ran Britain's debt to the breaking point.",
+        "credit": "Stuff Happened map · public domain"
+      },
+      {
         "p": "The number itself is hard to feel. What made it bite was the interest. Servicing the debt, just paying the yearly fee on all that borrowing, swallowed an enormous share of the entire national budget after the war, by some accounts more than half of it. A government can win a war and still spend the peace cornered by its own creditors, and that is roughly where Britain found itself."
+      },
+      {
+        "fig": "/war-img/fi-george-iii.jpg",
+        "cap": "George III, on whose accession the enormous bill for the war finally came due.",
+        "credit": "Allan Ramsay, 1761–1762 · Royal Collection · public domain"
       },
       {
         "p": "Worse, the spending did not stop when the shooting did. There was now an empire to hold."
@@ -1242,6 +1312,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Every earlier duty had been external, a tax on goods crossing a border, collected at the port, the kind of thing colonists had grudgingly accepted as part of regulating trade. The stamp tax was internal: a tax on ordinary transactions happening entirely inside a colony, with nothing crossing any border at all. It required a purchased, embossed government stamp on newspapers, pamphlets, legal documents, magazines, playing cards, dice, and a long list of other papers used in daily life. It landed on lawyers, printers, merchants, and tavern-keepers all at once, which meant it landed on exactly the people most able to make noise about it, and on ordinary colonists every time they reached for a sheet of paper."
       },
       {
+        "fig": "/war-img/fi-stamp-act-stamp.jpg",
+        "cap": "A proof sheet of the one-penny stamps of 1765. Every legal document, newspaper, and pamphlet in the colonies was now meant to carry one, and the colonists were to pay for the privilege.",
+        "credit": "Proof sheet of one-penny stamps, Stamp Act 1765 · British Library · 1765 · public domain"
+      },
+      {
         "p": "And the duty had to be paid in specie, in gold and silver coin, the very hard money the Currency Act had just made scarcer. The two acts caught the colonies in a vise: pay a new tax, in the one currency we have just helped drain out of your economy."
       },
       {
@@ -1277,6 +1352,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "While the delegates argued the law, others made the law impossible to enforce. The Sons of Liberty, networks of organized protest and intimidation, went after the men appointed to sell the stamps. In Boston on 14 August 1765, the Massachusetts stamp distributor Andrew Oliver was hanged in effigy and his property attacked; he resigned. By 16 November, twelve stamp distributors had quit under pressure. Colonial merchants piled on with non-importation agreements, refusing to buy British goods, which turned British merchants into a lobby for repeal back home. By the day the Stamp Act took effect, 1 November 1765, it was a dead letter. There was almost nobody left willing to hand out a stamp."
+      },
+      {
+        "fig": "/war-img/fi-stamp-act-riots.jpg",
+        "cap": "The Stamp Act riots in Boston, 1765; the banner reads \"The Folly of England and the Ruin of America.\" The war's debt had become the colonies' grievance.",
+        "credit": "The Stamp Act Riots at Boston · Cassell's Illustrated History of England · 1865 · public domain"
       },
       {
         "fig": "/war-img/fi-stamp-act-repeal.jpg",
@@ -1343,10 +1423,20 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "By the standards of that war, the North American front had already been settled. Quebec fell in 1759, Montreal in 1760, and with them New France, France's whole mainland empire, was effectively conquered. But a world war does not stop because one of its theatres goes quiet. The powers kept fighting for two more years, on oceans and continents an ocean away, until everyone involved was exhausted and broke."
       },
       {
+        "fig": "/war-img/fi-montreal-surrender.jpg",
+        "cap": "The surrender of Montreal, 1760 — the conquest the Treaty of Paris would make permanent three years later.",
+        "credit": "Francis Hayman · painting · 1760 · public domain"
+      },
+      {
         "p": "Spain made things worse for itself by jumping in late. In August 1761 Spain signed the Third Family Compact with France, an alliance between the two Bourbon monarchies (Spain and France were ruled by branches of the same royal family, the Bourbons). Spain then embargoed British trade, seized British goods, and threw out British merchants, and Britain declared war on Spain on 4 January 1762. It was a costly bet. In August 1762 a British expedition captured Havana, the great port of Spanish Cuba. About a month later another British force took Manila in the Philippines. Spain had entered the war to help France and instead lost two of its richest colonial cities to the British navy."
       },
       {
         "p": "So when the diplomats finally sat down, Britain held nearly every good card. Over the course of the war it had taken Canada, the sugar islands of Guadeloupe and Martinique, Dominica, Pondicherry (France's main trading post in India), Senegal in West Africa, and Havana and Manila from Spain. The only question left was how much of that haul Britain would keep."
+      },
+      {
+        "fig": "/war-img/fi-havana-1762.jpg",
+        "cap": "The British capture of Havana, August 1762. The war had gone global, and Spain's late entry only added more of its empire to Britain's winnings at the peace table.",
+        "credit": "The Capture of Havana, 1762: Taking the Town · Dominic Serres · circa 1775 · public domain"
       },
       {
         "h": "The Treaty of Paris, 10 February 1763",
@@ -1357,6 +1447,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "The heart of it was a single enormous transfer. France gave up Canada with all its dependencies, and all of its territory east of the Mississippi River, to Britain. The treaty fixed the new border as a line \"drawn along the middle of the River Mississippi, from its source to the river Iberville.\" From the Atlantic seaboard to that river, the whole interior was now nominally British."
+      },
+      {
+        "fig": "/war-img/fi-new-france-map.jpg",
+        "cap": "New France before the war — the North American empire France signed away in 1763.",
+        "credit": "Stuff Happened map"
       },
       {
         "p": "There was one strange exception written into the text. The treaty said \"the town of New Orleans and the island in which it is situated, which shall remain to France.\" On paper, France kept its city at the mouth of the great river. In reality, France had already given it away. A few months earlier, in the secret Treaty of Fontainebleau of November 1762, France had quietly handed Louisiana, meaning everything west of the Mississippi, plus New Orleans itself, to Spain. So the New Orleans the Paris treaty left \"to France\" was already promised elsewhere. France was not keeping a foothold on the mainland. It was leaving entirely, just through two different doors. (Spain would not actually take physical possession of New Orleans until 1769.)"
@@ -1535,6 +1630,11 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "The man in charge of that single power was General Jeffery Amherst, the British commander-in-chief in North America. He looked at the Native nations and saw conquered subjects, not allies, and he changed three things that mattered enormously."
       },
       {
+        "fig": "/war-img/fi-jeffery-amherst.jpg",
+        "cap": "Jeffery Amherst, whose gift-cutting and musings about spreading smallpox helped light the uprising.",
+        "credit": "Sir Joshua Reynolds · public domain"
+      },
+      {
         "p": "First, he ended the gift-giving. In Native diplomacy, the annual presents (guns, knives, ammunition, tobacco, clothing) were not bribes and were never understood as bribes. The giving of gifts *was* the alliance. It renewed the relationship every year, an act of respect that said the parties were still bound to each other. The French had practiced it for generations because they understood what it meant. Amherst looked at the same gifts and saw money spent buying good behavior, and around 1761 he started shutting it off. Many of the nations read this exactly as it was meant: the British now looked on them as a conquered people rather than as friends."
       },
       {
@@ -1661,7 +1761,17 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "On December 14, 1763, about fifty Paxton Boys rode into Conestoga Town, killed and scalped the six people they found there, and burned the village. The roughly fourteen survivors, who had been away, including women and children, were placed for their safety in protective custody in the Lancaster workhouse. It did not save them. On December 27 the Paxton Boys broke into the workhouse and murdered them all, about twenty Conestoga dead in total, and the community was ended. In February 1764 several hundred Paxton Boys marched on Philadelphia meaning to kill the Native people sheltering there too. A delegation led by Benjamin Franklin met them and turned them back, on a promise that their grievances would be heard. No one was ever convicted of the murders. The accusation that the Conestoga had been spies was never anything but a lie. The empire had written down its wish to be rid of Native people; here, in the same months, settlers made it real against a town that had only ever kept the peace."
       },
       {
+        "fig": "/war-img/fi-paxton-massacre.jpg",
+        "cap": "The Paxton Boys massacre the Conestoga at Lancaster, 1763. Frontier vigilantes, enraged by the war, murdered peaceful Native people the colony had promised to protect.",
+        "credit": "Massacre of the Indians at Lancaster by the Paxton Boys · lithograph · 1841 · public domain"
+      },
+      {
         "p": "Relief finally fought its way through to Fort Pitt. Colonel Bouquet, marching some 500 men toward the fort, was intercepted about 25 miles (40 km) east of it by a force of Lenape, Shawnee, Mingo, and Wyandot warriors. Over two brutal days on August 5 and 6, at a place called Bushy Run, Bouquet won by faking a retreat that drew the warriors into a charge, then turning on them. The victory cost him dearly, around fifty killed and sixty wounded, close to a quarter of his men, but it broke the intercepting force, and around August 20 the siege of Fort Pitt lifted."
+      },
+      {
+        "fig": "/war-img/fi-bushy-run.jpg",
+        "cap": "The Battle of Bushy Run, August 1763. Bouquet's relief column fought its way through to besieged Fort Pitt, breaking the Native ambush with a feigned retreat.",
+        "credit": "The Battle of Bushy Run · C. W. Jefferys · circa 1915 · public domain"
       },
       {
         "p": "The fighting did not stop neatly even then. On September 14, at the Niagara portage (the overland carry of boats and goods between two stretches of water), Senecas ambushed a supply train and the troops sent to save it, killing more than seventy soldiers and teamsters at a spot the colonists named Devil's Hole. It was the deadliest single British loss of the war, and proof that the rising was nowhere near contained."
@@ -1677,7 +1787,17 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Amherst was recalled to London in the autumn of 1763 and replaced as commander by General Thomas Gage. And Sir William Johnson, the same superintendent Amherst had ordered to cut off the gifts, was now authorized to restore them, to bring back the gift-giving and the patient diplomacy that the old commander had abolished. This was a deliberate, conscious reversal. The rising had proven that the alliance system could not simply be cancelled by decree, that the relationship the French had understood and Amherst had despised was the only thing that had ever made the interior governable at all."
       },
       {
+        "fig": "/war-img/fi-william-johnson.jpg",
+        "cap": "Sir William Johnson, who negotiated the peace that wound down Pontiac's War at Niagara in 1764.",
+        "credit": "portrait · public domain"
+      },
+      {
         "p": "The peace came in pieces over the next two years, and it did not come all at once or in unison. The coalition nations made terms on their own timetables, and resistance lingered in the Illinois country into 1764 and 1765, where the British had not yet taken the last French fort. The Shawnee leader Charlot Kaské rejected any accommodation, sought French help as far away as New Orleans, and finally crossed the Mississippi with other refugees rather than live under British rule. The peace, like the war, was a coalition's, not a king's. At a great congress at Niagara in July and August 1764, Johnson met with around 2,000 Native people and began rebuilding relations nation by nation. That October, Bouquet marched into the Ohio country to the Muskingum River, where the Ohio nations agreed to peace and returned more than 200 captives. And on July 25, 1766, at Fort Ontario at Oswego, Pontiac himself made a formal peace with Johnson. The terms: no land was ceded, no prisoners were surrendered, no hostages were taken. Johnson treated Pontiac with exceptional deference. For a war the colonists called a rebellion, it ended remarkably like a peace between powers."
+      },
+      {
+        "fig": "/war-img/fi-ohio-council-fire-1766.jpg",
+        "cap": "Bouquet's expedition forces the Ohio nations to give up their captives, 1764 — the war's hard aftermath.",
+        "credit": "After Benjamin West, 1766 · Library of Congress"
       },
       {
         "h": "The Line on the Map",
@@ -1688,6 +1808,11 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "The Proclamation drew a line. It ran along the crest of the Appalachian Mountains, following the watershed: rivers that drained east to the Atlantic marked land open to colonists, rivers that drained west to the Mississippi marked country reserved to the nations. West of that line, colonial settlement was barred outright, creating a vast \"Indian Reserve.\" And to close the usual back door, it forbade private citizens from buying Native land at all; only the Crown could purchase it."
+      },
+      {
+        "fig": "/war-img/fi-proclamation-line-map.jpg",
+        "cap": "The Proclamation Line of 1763 — London's attempt to buy quiet by fencing settlers out of the west.",
+        "credit": "Stuff Happened map"
       },
       {
         "p": "\"...the several Nations or Tribes of Indians with whom We are connected, and who live under our Protection, should not be molested or disturbed in the Possession of such Parts of Our Dominions and Territories as, not having been ceded to or purchased by Us, are reserved to them ... as their Hunting Grounds.\" — Royal Proclamation of 1763",

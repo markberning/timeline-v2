@@ -1,13 +1,11 @@
 # The Ohio Country & the Ohio Company
-
 > eyebrow: How a real-estate deal lit a world war
 
 A world war began as a property scheme. Not over a throne, not over a religion, but over a stretch of rich river-bottom land west of the mountains that a handful of Virginia gentlemen meant to buy cheap and sell dear. They never lived there. The people who did live there, Shawnee and Delaware and Mingo and Wyandot families, had already moved once to get away from men exactly like these. The gentlemen formed a company, won a king's signature on hundreds of thousands of acres, and the rest of the continent's empires answered. By the time the shooting started, the deal had a name on it in two languages and a fort going up on the very spot the company's paperwork demanded.
 
-[FIGURE: The Mitchell Map of 1755 | The Mitchell Map of 1755, the great map of the war, laid out Britain's and France's rival claims across the continent. The contested Ohio Country sits in the interior west of the Appalachians, where France wanted a corridor, Virginia wanted farmland, and four Native nations actually lived. | John Mitchell, 1755 / Library of Congress | /war-img/fi-ohio-mitchell-map-1755.jpg]
+[FIGURE: The Mitchell Map of 1755, the great map of the war, laid out Britain's and France's rival claims across the continent. The contested Ohio Country sits in the interior west of the Appalachians, where France wanted a corridor, Virginia wanted farmland, and four Native nations actually lived. | The Mitchell Map of 1755, the great map of the war, laid out Britain's and France's rival claims across the continent. The contested Ohio Country sits in the interior west of the Appalachians, where France wanted a corridor, Virginia wanted farmland, and four Native nations actually lived. | John Mitchell, 1755 / Library of Congress | /war-img/fi-ohio-mitchell-map-1755.jpg]
 
 ## The land everyone wanted and no empire held
-
 > eyebrow: The Ohio Country, 1748
 
 The Ohio Country was a loosely drawn region west of the Appalachian Mountains and south of Lake Erie, the upper valley of the Ohio River. A trader's map from 1752 ran its rough edges from the Wabash River in the west to the Thirteen Colonies in the east, Lake Erie in the north, the Cumberland River in the south. To a tidewater planter in coastal Virginia it was the best unclaimed farmland on the continent. To France it was something more vital: the land bridge. New France ran in a long arc, from Canada and the St. Lawrence River in the north down through the Illinois Country to Louisiana and the mouth of the Mississippi in the south, and the Ohio valley was the hinge that held the two ends together. A wall of British farms planted across that valley would saw New France in half.
@@ -18,12 +16,11 @@ The people who lived there were Native nations. A century earlier, in the 1600s,
 
 The Shawnee, an Algonquian-speaking people, began returning to the Ohio Country in those decades. The Delaware (who call themselves the Lenape) had been pushed west out of their home valleys along the Delaware and Susquehanna Rivers, and by 1724 they had founded the village of Kittanning on the Allegheny River. The Mingo were Iroquois people, mostly Seneca and Cayuga, who had migrated south and west into the Ohio Country and lived there half-independent of the home Confederacy's councils back east. The Wyandot, the people also known as the Huron or Wendat, lived in the region too.
 
+[FIGURE: Whose land it was, around 1750: the four Ohio nations and their towns — the Delaware at Kittanning on the Allegheny, the Mingo at Logstown below the Forks, the Shawnee at Lower Shawneetown on the Scioto, and the Miami at Pickawillany on the Great Miami. | Whose land it was, around 1750: the four Ohio nations and their towns — the Delaware at Kittanning on the Allegheny, the Mingo at Logstown below the Forks, the Shawnee at Lower Shawneetown on the Scioto, and the Miami at Pickawillany on the Great Miami. | Stuff Happened | /war-img/fi-ohio-native-towns.jpg]
+
 These were nations that had already fled colonial pressure once, settling new ground precisely because it was beyond the colonists' reach. The venture forming back east in Virginia existed for one purpose: to reach it.
 
-[FIGURE: A depiction of a Shawnee or Delaware village on the Ohio in the mid-1700s | The Ohio nations had moved west to escape colonial encroachment. The Ohio Company's whole purpose was to follow them and take the new land too. | Public domain]
-
 ## A syndicate of planters and a king's signature
-
 > eyebrow: The Ohio Company of Virginia, 1748–1749
 
 In 1748 a group of Virginia gentlemen organized themselves into the Ohio Company of Virginia. The founders were Thomas Lee and the brothers Lawrence and Augustine Washington, fronting the interest of a circle of Virginia, Maryland, and British investors in the Ohio Country. They were speculators, which is the polite name for people who buy land cheap on the bet that they can sell it dear later, and the Ohio was the bet of a lifetime.
@@ -34,14 +31,13 @@ The numbers were enormous. The Crown granted 500,000 acres in the Ohio valley, t
 
 The grant ordered the Company to plant a hundred families and raise a fort on land where Shawnee, Delaware, Mingo, and Wyandot families were already living. The settlement condition and the dispossession are the same fact stated two ways. The Company existed to take that ground and sell it.
 
-[FIGURE: Portrait of Lawrence Washington | Lawrence Washington, George's older half-brother and a founder of the Ohio Company. The Company was a who's who of tidewater Virginia: the Lees, the Washingtons, and a London merchant who lobbied the king. | Portrait c. 1738 / Mount Vernon Ladies' Association | /war-img/fi-ohio-lawrence-washington.jpg]
+[FIGURE: Lawrence Washington, George's older half-brother and a founder of the Ohio Company. The Company was a who's who of tidewater Virginia: the Lees, the Washingtons, and a London merchant who lobbied the king. | Lawrence Washington, George's older half-brother and a founder of the Ohio Company. The Company was a who's who of tidewater Virginia: the Lees, the Washingtons, and a London merchant who lobbied the king. | Portrait c. 1738 / Mount Vernon Ladies' Association | /war-img/fi-ohio-lawrence-washington.jpg]
 
 The roster of investors reads like a roll call of the Virginia gentry, and a few names matter for what comes later. Thomas Lee organized it. Lawrence and Augustine Washington were in, and so was their younger half-brother, a teenage shareholder named George Washington. George Mason joined and became the Company's treasurer in 1752. John Mercer and his sons held shares, and other tidewater shareholders besides, along with the London merchant John Hanbury, who had steered the petition through the Privy Council. And one more investor matters more than any of them for the chain of events to come: Robert Dinwiddie, the man who would soon be Lieutenant Governor of Virginia, held shares in the Ohio Company too.
 
 By about 1750 the Company had put a foothold on the ground, a fortified storehouse at Wills Creek (near the present-day West Virginia and Maryland border), a forward base from which to push west.
 
 ## The land rush and the king of the traders
-
 > eyebrow: Rivals for the Ohio, 1749–1750
 
 The Ohio Company was not alone. The Ohio was the prize of the age, and other speculators wanted it too. The Loyal Company of Virginia organized at about the same time, a rival syndicate whose investors included Dr. Thomas Walker, William Cabell, and Peter Jefferson, the father of Thomas Jefferson. The two companies were after the same kind of thing: huge tracts of western land, won cheap, sold dear.
@@ -53,7 +49,6 @@ Then there was George Croghan, the Irish-born Pennsylvania trader the frontier c
 Croghan's deed had a legal problem. Pennsylvania law barred private men from buying land directly from Native nations, which made his purchase invalid at home. Virginia practice was looser about such things, and so the king of the traders ended up working for Virginia's Ohio Company instead. By 1750 Croghan and the interpreter Andrew Montour were guiding the Company's scout, Christopher Gist, on a tour through the Ohio Indian villages, scouting the land the Company meant to sell.
 
 ## Lead plates in the ground
-
 > eyebrow: France answers, 1749
 
 France was watching all of this, and France answered first with ceremony and then with forts.
@@ -62,28 +57,30 @@ In the summer of 1749 the governor of New France sent an officer named Pierre-Jo
 
 His method was strange and formal. At the mouth of each major tributary of the Ohio, Céloron's men buried an inscribed lead plate in the ground, a slab of lead about 11 inches by 7.5 inches, and nailed the French royal arms to a tree nearby. The plates claimed the land for King Louis XV of France. The text on them announced "the renewal of the possession we have taken of the said river Ohio and of all those which empty into it, and of all the lands on both sides as far as the sources." At least six of these markers went into the ground that summer, including one at the confluence with the Chadakoin on the 29th of July, one at the mouth of the Muskingum on the 15th of August, and one at the mouth of the Kanawha on the 18th of August.
 
+[FIGURE: Céloron de Blainville's 1749 expedition: from Montreal through the Great Lakes, down the Allegheny and the Ohio, and home up the Maumee past Detroit. He buried inscribed lead plates at the tributary mouths, claiming the whole watershed for France. | Céloron de Blainville's 1749 expedition: from Montreal through the Great Lakes, down the Allegheny and the Ohio, and home up the Maumee past Detroit. He buried inscribed lead plates at the tributary mouths, claiming the whole watershed for France. | Stuff Happened | /war-img/fi-ohio-celoron-route.jpg]
+
 > quote: "the renewal of the possession we have taken of the said river Ohio and of all those which empty into it, and of all the lands on both sides as far as the sources." — inscription on Céloron's lead plates, 1749
 
-[FIGURE: An 1877 engraving of a Céloron lead-plate inscription | An 1877 engraving of one of the Céloron lead-plate inscriptions. France claimed the whole Ohio watershed by burying plates like this at the river mouths. The Ohio nations were not consulted, and some tore the markers back out of the ground. | Engraving, 1877 / public domain | /war-img/fi-ohio-celoron-plate-1877.png]
+[FIGURE: An 1877 engraving of one of the Céloron lead-plate inscriptions. France claimed the whole Ohio watershed by burying plates like this at the river mouths. The Ohio nations were not consulted, and some tore the markers back out of the ground. | An 1877 engraving of one of the Céloron lead-plate inscriptions. France claimed the whole Ohio watershed by burying plates like this at the river mouths. The Ohio nations were not consulted, and some tore the markers back out of the ground. | Engraving, 1877 / public domain | /war-img/fi-ohio-celoron-plate-1877.png]
 
 It changed nothing on the ground. When Céloron reached Logstown, a Native town on the Ohio, he found English traders doing business and ordered them out. Further down, near Lower Shawneetown around the 25th of August, he summoned the traders again and warned them to leave. They did not leave. Worse for France, Céloron's high-handed manner offended even the Iroquois traveling in his own party. Some of them peeled off and went home, and as they went they pulled the nailed French plates back down off the trees. The expedition returned to Montreal on the 10th of November 1749 having accomplished nothing durable. The British traders stayed. The Ohio nations were not won over. Céloron himself reported back that the nations of the Ohio were very badly disposed toward the French and devoted entirely to the English.
 
 The lead plates are easy to laugh at, but someone is missing from the ceremony. France claimed the river and all the land on both sides of it as far as the sources, and at no point did anyone think to ask the Shawnee, the Delaware, the Mingo, or the Wyandot whose country it was. That silence is the same silence on the British paperwork. Two empires were trading away a land neither of them lived on.
 
 ## A chain of forts toward the Forks
-
 > eyebrow: France builds the wall, 1753–1754
 
 Ceremony had not moved the Ohio nations or cleared the traders out, so France reached for stone and timber. In 1753 and 1754 the French built a chain of forts to wall the British out of the Ohio and run a line of control from Lake Erie down toward the Forks. There were four, and they shared a design: a rectangle of roughly 75 by 105 feet with a bastion (a projecting corner platform for guns) at each of the four corners.
 
 Fort Presque Isle came first, on the shore of Lake Erie at present-day Erie, Pennsylvania, with construction beginning on the 15th of May 1753. Next came Fort Le Boeuf, inland on French Creek at modern Waterford, Pennsylvania, begun on the 11th of July 1753. Fort Machault followed in August 1753, where French Creek meets the Allegheny at a place called Venango, present-day Franklin, Pennsylvania. The fourth and most important would come at the Forks of the Ohio itself, the fort that would be named Fort Duquesne.
 
+[FIGURE: The French fort chain in the Ohio Country, built 1753 and 1754: Fort Presque Isle on Lake Erie, then Fort Le Boeuf, then Fort Machault (Venango), and finally Fort Duquesne at the Forks of the Ohio, the site of present-day Pittsburgh. The dotted line traces the line of control France ran south from the lake to the Forks; the British forward base at Wills Creek and Fort Necessity lie to the south. | The French fort chain in the Ohio Country, built 1753 and 1754: Fort Presque Isle on Lake Erie, then Fort Le Boeuf, then Fort Machault (Venango), and finally Fort Duquesne at the Forks of the Ohio, the site of present-day Pittsburgh. The dotted line traces the line of control France ran south from the lake to the Forks; the British forward base at Wills Creek and Fort Necessity lie to the south. | Stuff Happened | /war-img/fi-ohio-forts-map.jpg]
+
 These forts were the last links in France's effort to connect Canada with the Illinois Country and Louisiana, the physical version of the land bridge. With them, France was no longer just claiming the Ohio. France was building the wall that would cut the British colonies off from the west for good. Virginia could not let that stand, and the man who would not let it stand was an Ohio Company shareholder.
 
-[FIGURE: Léry's 1755 plan of Fort Duquesne | A French engineer's 1755 plan of Fort Duquesne, the bastioned timber fort at the Forks. Forts like it ran a line from Lake Erie down toward the Ohio: the physical wall meant to seal the British out. | Gaspard-Joseph Chaussegros de Léry, 1755 / Archives Canada-France | /war-img/fi-ohio-fort-duquesne-plan-1755.jpg]
+[FIGURE: A French engineer's 1755 plan of Fort Duquesne, the bastioned timber fort at the Forks. Forts like it ran a line from Lake Erie down toward the Ohio: the physical wall meant to seal the British out. | A French engineer's 1755 plan of Fort Duquesne, the bastioned timber fort at the Forks. Forts like it ran a line from Lake Erie down toward the Ohio: the physical wall meant to seal the British out. | Gaspard-Joseph Chaussegros de Léry, 1755 / Archives Canada-France | /war-img/fi-ohio-fort-duquesne-plan-1755.jpg]
 
 ## An ultimatum carried by a 21-year-old
-
 > eyebrow: Washington's mission to Fort Le Boeuf, 1753
 
 By 1753 Robert Dinwiddie was Lieutenant Governor of Virginia, and he was also a shareholder in the Ohio Company. The official sending an imperial ultimatum to France over the Ohio Country had a private financial stake in who ended up owning it. The empire's interest and the Company's interest had become, in Dinwiddie's person, the same interest.
@@ -98,10 +95,9 @@ Saint-Pierre added that his orders came from his commanding general and that he 
 
 Washington left Fort Le Boeuf on the 16th of December and made the hard winter trip back, reaching Williamsburg around the middle of January 1754. He handed Dinwiddie the refusal and, with it, the journal he had kept on the road. That journal was published in Williamsburg in 1754 as *The Journal of Major George Washington*, and it made the unknown 21-year-old a name on two continents. It also recorded the voice of the man who had escorted him to the fort.
 
-[FIGURE: Title page of The Journal of Major George Washington (Williamsburg, 1754) | Washington's published journal made an unknown 21-year-old internationally famous, and preserved the words of the Ohio nations' leaders. | Williamsburg, 1754 / public domain | /war-img/fi-ohio-washington-journal-1754.jpg]
+[FIGURE: Washington's published journal made an unknown 21-year-old internationally famous, and preserved the words of the Ohio nations' leaders. | Washington's published journal made an unknown 21-year-old internationally famous, and preserved the words of the Ohio nations' leaders. | Williamsburg, 1754 / public domain | /war-img/fi-ohio-washington-journal-1754.jpg]
 
 ## The land does not belong to either of you
-
 > eyebrow: Tanaghrisson, Logstown, and the Ohio nations' own claim
 
 The Ohio nations were never the backdrop. They were a third power, playing the two empires against each other to hold their own ground.
@@ -110,7 +106,7 @@ The man at the center is Tanaghrisson, also written Tanacharison, the leader the
 
 The Iroquois Confederacy claimed the whole country by right of conquest, won in the Beaver Wars a century before, and treated it as theirs to negotiate away to the British. But the people actually living on it, the four nations of the Ohio, did not accept that the Iroquois could sell their ground out from under them. The British, for their part, loved dealing through the Iroquois, and through the Half-King, precisely because it produced land cessions (formal handovers of land) that the resident nations had never agreed to. Buy the land from a council that did not live there, and you never had to ask the families who did.
 
-[FIGURE: A council fire between a British officer and Ohio nations' leaders, after Benjamin West | A council fire between a British officer and the Ohio nations' leaders, engraved after Benjamin West in 1766. It shows a later Ohio Country council, but the scene is the same diplomacy that played out at Logstown in 1752, where Virginia pressed the Six Nations to confirm a land cession the resident nations had never agreed to. | After Benjamin West, 1766 / Library of Congress | /war-img/fi-ohio-council-fire-1766.jpg]
+[FIGURE: A council fire between a British officer and the Ohio nations' leaders, engraved after Benjamin West in 1766. It shows a later Ohio Country council, but the scene is the same diplomacy that played out at Logstown in 1752, where Virginia pressed the Six Nations to confirm a land cession the resident nations had never agreed to. | A council fire between a British officer and the Ohio nations' leaders, engraved after Benjamin West in 1766. It shows a later Ohio Country council, but the scene is the same diplomacy that played out at Logstown in 1752, where Virginia pressed the Six Nations to confirm a land cession the resident nations had never agreed to. | After Benjamin West, 1766 / Library of Congress | /war-img/fi-ohio-council-fire-1766.jpg]
 
 This came to a head at Logstown in June 1752. Logstown sat on the east bank of the Ohio about 14 miles below the Forks, near present-day Ambridge, Pennsylvania, and there Virginia's commissioners met the Six Nations. Virginia sent Joshua Fry, Lunsford Lomax, and James Patton; the Ohio Company sent Christopher Gist, William Trent, and William Beverley. Andrew Montour, who had guided Gist's 1750 tour, was the interpreter at the council, and he was treated as more than a translator: Tanaghrisson addressed him by his Indian name, Eghnisara, and spoke to him as a man with standing among them. The British came to get two things: a confirmation of the earlier 1744 Treaty of Lancaster, which the British read as ceding Native land beyond the Allegheny Mountains, and consent to a Company fort and Company settlements on the Ohio.
 
@@ -129,24 +125,22 @@ And he threw France's own past friendship back in its face, calling the French t
 [The Contest for Native Alliances](/war-french-indian/off-the-battlefield/native-alliances)
 
 ## The town France burned to make a point
-
 > eyebrow: Pickawillany, 21 June 1752
 
 The Ohio nations were not only refusing land cessions in council. One of them had already gone further, choosing British trade over its French master outright, and the same June that Tanaghrisson stood at Logstown, France answered that choice with fire. The place was Pickawillany, a Miami (Twightwee) trading town on the west bank of the Great Miami River, near present-day Piqua, Ohio. The Miami chief Memeskia had founded it in late 1747 after breaking with the French, and within a few years it had grown to roughly 400 families and become the largest center of British trade in the whole Ohio Country. Memeskia had walked away from the French because their fur monopoly meant worse goods at worse prices, and he turned instead to Pennsylvania traders, the same Pennsylvanians reaching west under Virginia's rival. The British called him "Old Briton" for it; the French called him "La Demoiselle." His town undersold the French and pulled neighboring nations out of the French orbit, and France was watching that happen.
 
 On the 21st of June 1752, days after the Logstown council, France moved. Charles Michel de Langlade, a young Métis officer in the French interest, led about 240 Ottawa and Ojibwe warriors down from the Great Lakes against Pickawillany, striking in the morning while most of the Miami men were away hunting. They killed about 13 Miami and an English blacksmith, captured several Pennsylvania traders, looted the goods, and burned the town. Memeskia was killed, and the attackers, by the accounts that come down to us, reportedly boiled and ate him within sight of the survivors, a deliberate act meant to punish his friendship with the English. The surviving Miami abandoned Pickawillany and drifted back toward the French. Historians often call the raid one of the opening actions of the war. France had shown it would use force to keep the Ohio nations in line, and Britain had shown it could not protect even the most prominent Native partner it had courted. The Ohio nations were choosing for themselves, and Pickawillany was what it cost when one of them chose wrong in France's eyes.
 
-[FIGURE: The 1752 raid on Pickawillany, a later illustration | The 1752 raid on Pickawillany, in a later illustration. The Miami had chosen British trade over a French master; France destroyed the town and killed the chief for it, more than a year before the first shots most histories count. | Illustration, 1905 / public domain | /war-img/fi-ohio-pickawillany.png]
+[FIGURE: The 1752 raid on Pickawillany, in a later illustration. The Miami had chosen British trade over a French master; France destroyed the town and killed the chief for it, more than a year before the first shots most histories count. | The 1752 raid on Pickawillany, in a later illustration. The Miami had chosen British trade over a French master; France destroyed the town and killed the chief for it, more than a year before the first shots most histories count. | Illustration, 1905 / public domain | /war-img/fi-ohio-pickawillany.png]
 
 ## The race for the Forks
-
 > eyebrow: Fort Prince George becomes Fort Duquesne, 1754
 
 It all came down to one point on the map. The Forks of the Ohio, where the Allegheny and the Monongahela join to form the Ohio, sits where downtown Pittsburgh stands today, and it commanded river movement in every direction. Whoever held the Forks held the valley. The Ohio Company's grant had specifically ordered it to build its fort here, and Washington, scouting the site on his 1753 trip, had seen exactly why.
 
 > quote: "As I got down before the Canoe, I spent some Time in viewing the Rivers, & the Land in the Fork; which I think extremely well situated for a Fort, as it has the absolute Command of both Rivers." — George Washington, Journal, 1753
 
-[FIGURE: Lewis Evans's 1755 map of the middle British colonies | Lewis Evans's 1755 map of the middle British colonies, the best contemporary mapping of the Ohio Country. Its river network shows why the Forks, where the Allegheny and Monongahela join, commanded movement in every direction. The Ohio Company's grant required a fort here; the race to build it first triggered the war. | Lewis Evans, 1755 / Bibliothèque nationale de France | /war-img/fi-ohio-evans-map-1755.jpg]
+[FIGURE: Lewis Evans's 1755 map of the middle British colonies, the best contemporary mapping of the Ohio Country. Its river network shows why the Forks, where the Allegheny and Monongahela join, commanded movement in every direction. The Ohio Company's grant required a fort here; the race to build it first triggered the war. | Lewis Evans's 1755 map of the middle British colonies, the best contemporary mapping of the Ohio Country. Its river network shows why the Forks, where the Allegheny and Monongahela join, commanded movement in every direction. The Ohio Company's grant required a fort here; the race to build it first triggered the war. | Lewis Evans, 1755 / Bibliothèque nationale de France | /war-img/fi-ohio-evans-map-1755.jpg]
 
 Virginia moved first, barely. On the 17th of February 1754 a Virginia work party under Captain William Trent, with Ensign Edward Ward commanding on the spot, began throwing up a small fort at the Forks, called Fort Prince George, or simply Trent's Fort. It was a modest thing, and it did not last two months. A French force of 500 or more men under Claude-Pierre Pécaudy de Contrecoeur arrived at the Forks on the 17th of April 1754 and demanded surrender, and Ensign Ward, badly outnumbered, gave up the position without a fight the next day.
 
@@ -155,7 +149,6 @@ The French tore down the British work and built their own fort on the same groun
 The Ohio Company's charter ordered it to build a fort at the Forks. France built a fort on that exact spot first. The first shots of a world war would be fired over who owned that ground, and the ground was never empty: Shawnee, Delaware, Mingo, and Wyandot families were living on it the whole time. The real-estate venture and the war were not two things. They were one.
 
 ## What was already being taken
-
 > eyebrow: The cost, before the war was even lit
 
 The polite language of grants and treaties is built to hide what this was. The contest for the Ohio was a contest over Native land, and the people who lost it were the people who lived there.
@@ -173,3 +166,4 @@ The first blood would be spilled within weeks, in two small fights along the sam
 A month later the French answered, and Washington made his stand behind a hasty stockade in a mountain meadow.
 
 [Fort Necessity](/war-french-indian/ohio-spark/fort-necessity)
+
