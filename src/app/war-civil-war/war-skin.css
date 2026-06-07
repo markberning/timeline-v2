@@ -325,8 +325,13 @@
    side-marker; centered, full colour, not a likeness. Native cards with no portrait
    get an initials monogram instead (there is no single period Native flag). */
 .war-skin .bp-cmd .pic.flag img { object-position: center; }
+/* The French pavillon royal is the strewn fleur-de-lis field; zoom the crop so a
+   few fleurs read large at thumbnail size. The Union flag reads at full crop. */
+.war-skin .bp-cmd .pic.flag-c img { transform: scale(1.9); }
 .war-skin .bp-cmd .pic.mono { display: flex; align-items: center; justify-content: center; }
-.war-skin .bp-cmd .pic.mono .mg { font-family: var(--serif); font-weight: 600; font-size: 19px; letter-spacing: 0.02em; color: color-mix(in srgb, var(--ink) 52%, transparent); }
+/* The disc is always dark, so the monogram is a fixed warm-light tone (not the
+   theme-adaptive ink, which went dark-on-dark and read as an empty black circle). */
+.war-skin .bp-cmd .pic.mono .mg { font-family: var(--serif); font-weight: 600; font-size: 19px; letter-spacing: 0.02em; color: rgba(237, 229, 211, 0.66); }
 .war-skin .bp-cmd .bd { flex: 1; min-width: 0; }
 .war-skin .bp-cmd .bd .nm { font: 600 16px/1.1 var(--serif); color: var(--ink); }
 .war-skin .bp-cmd .bd .role { display: flex; align-items: center; gap: 8px; margin: 6px 0 9px; }

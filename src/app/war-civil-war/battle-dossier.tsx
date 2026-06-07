@@ -270,7 +270,7 @@ export function BattleDossier({ data }: { data: BattleData }) {
           const mono = (!picSrc && isFI) ? initials(c.name) : ''
           return (
             <div className={'bp-cmd ' + c.side} key={c.name}>
-              <span className={'pic' + (flagSrc ? ' flag' : '') + (mono ? ' mono' : '')}>
+              <span className={'pic' + (flagSrc ? ' flag flag-' + c.side : '') + (mono ? ' mono' : '')}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 {picSrc ? <img src={picSrc} alt="" /> : mono ? <span className="mg">{mono}</span> : null}
               </span>
