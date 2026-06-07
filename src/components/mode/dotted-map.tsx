@@ -1,11 +1,13 @@
 'use client'
 
 // Shared dotted-outline map for the War pages. Renders real US state borders
-// (from src/lib/us-state-outlines.ts) as dotted lines — theme-aware, no grid
-// snapping — with battle dots, capital markers, an optional capital-to-capital
-// corridor, and free labels. Used by the theatre maps and the war home.
+// (from src/lib/us-state-outlines.ts) plus Canadian provinces (ca-province-outlines.ts,
+// for the French and Indian War) as dotted lines — theme-aware, no grid snapping —
+// with battle dots, capital markers, an optional capital-to-capital corridor, and free
+// labels. Used by the theatre maps and the war home.
 
 import { US_STATE_OUTLINES } from '@/lib/us-state-outlines'
+import { CA_PROVINCE_OUTLINES } from '@/lib/ca-province-outlines'
 import { alpha } from '@/components/mode/war-chrome'
 
 const SANS = 'var(--font-geist-sans)'
@@ -74,7 +76,7 @@ export function DottedMap({
   const toneLabel = (t?: Tone, c?: string) => c ? alpha(c, t === 'faint' ? 0.5 : 0.95) : t === 'focus' ? alpha(accent, 0.95) : FG(0.55)
 
   const ringD = (ring: number[][]) => ring.map((p, i) => (i ? 'L' : 'M') + X(p[0]).toFixed(1) + ' ' + Y(p[1]).toFixed(1)).join(' ') + 'Z'
-  const stateD = (name: string) => (US_STATE_OUTLINES[name] || []).flatMap(poly => poly.map(ringD)).join(' ')
+  const stateD = (name: string) => ((US_STATE_OUTLINES[name] || CA_PROVINCE_OUTLINES[name] || []) as [number, number][][][]).flatMap(poly => poly.map(ringD)).join(' ')
 
   // gridline degrees within frame
   const vlines: number[] = [], hlines: number[] = []
