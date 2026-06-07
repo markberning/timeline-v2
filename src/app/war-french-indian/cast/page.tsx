@@ -10,6 +10,7 @@ import { useState } from 'react'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import { WarHeader } from '@/components/mode/war-header'
 import { warCrumbs } from '@/components/mode/theatre-page'
+import { fiCastCommanderOptions } from '@/components/mode/fi-commander-page'
 import { FI_COMMANDERS, type FISide } from '@/lib/french-indian-commanders'
 import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 
@@ -25,10 +26,15 @@ export default function FICastPage() {
   const [side, setSide] = useState<'all' | FISide>('all')
   const list = ALL.filter(c => side === 'all' || c.side === side)
 
-  // War rung, then Cast itself as the section crumb — it carries the standard
-  // "Jump to" dropdown, so the trail reads "F&I › Cast" with no redundant rung.
+  // War rung, then Cast as the section crumb (carrying the standard "Jump to"
+  // dropdown), then a leaf that lists every commander — trail reads
+  // "F&I › Cast › Commander", mirroring the battle pattern on the war home.
   const base = warCrumbs(FRENCH_INDIAN)
-  const crumbs: Crumb[] = [base[0], { label: 'Cast', active: true, options: base[1].options }]
+  const crumbs: Crumb[] = [
+    base[0],
+    { label: 'Cast', active: true, options: base[1].options },
+    { label: 'Commander', options: fiCastCommanderOptions() },
+  ]
 
   return (
     <div className="war-skin">

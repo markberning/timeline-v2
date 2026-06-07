@@ -9,7 +9,7 @@
 
 import '../../app/war-civil-war/war-skin.css'
 import { useState } from 'react'
-import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
+import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { WarHeader } from '@/components/mode/war-header'
 import { warCrumbs } from '@/components/mode/theatre-page'
 import { CIVIL_WAR } from '@/lib/wars/civil-war'
@@ -31,6 +31,27 @@ const SIDE: Record<string, { label: string; v: string }> = {
 const MONTH = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 const byId = Object.fromEntries(MAJORS.map(b => [b.id, b]))
+
+// Concrete side hexes for the cast-jump dropdown (it portals to <body>, outside
+// .war-skin, so the --union/--confed CSS vars can't resolve there). Mirror the
+// saturated side colours from the WarConfig.
+const SIDE_DOT: Record<string, string> = { U: '#1d4ed8', C: '#b44d3b' }
+
+// The cast crumb's leaf dropdown: every commander, grouped Union then Confederate,
+// alphabetical within each side, dot-coded by side. Shared by the cast hub leaf and
+// each commander arc page (where the current commander gets the ✓ via currentLabel).
+export function castCommanderOptions(): CrumbOption[] {
+  const all = Object.values(COMMANDERS)
+  const group = (side: string, head: string): CrumbOption[] => {
+    const list = all.filter(c => c.side === side).sort((a, b) => a.name.localeCompare(b.name))
+    if (!list.length) return []
+    return [
+      { label: head, heading: true, color: SIDE_DOT[side] },
+      ...list.map(c => ({ label: c.name, href: `/war-civil-war/cast/${c.id}/`, color: SIDE_DOT[side] })),
+    ]
+  }
+  return [...group('U', 'Union'), ...group('C', 'Confederate')]
+}
 const mix = (v: string, pct: number) => `color-mix(in srgb, ${v} ${pct}%, transparent)`
 const ink = (pct: number) => `color-mix(in srgb, var(--ink) ${pct}%, transparent)`
 
@@ -66,9 +87,14 @@ export function CommanderPage({ id }: { id: string }) {
   const side = SIDE[c.side]
 
   // War rung, then Cast as the section crumb (carrying the standard "Jump to"
-  // dropdown), then the commander leaf — trail reads "ACW › Cast › Name".
+  // dropdown), then the commander leaf whose own dropdown lists every commander —
+  // trail reads "ACW › Cast › Name".
   const base = warCrumbs(CIVIL_WAR)
-  const crumbs: Crumb[] = [base[0], { label: 'Cast', href: '/war-civil-war/cast', options: base[1].options }, { label: c.name, active: true }]
+  const crumbs: Crumb[] = [
+    base[0],
+    { label: 'Cast', href: '/war-civil-war/cast', options: base[1].options },
+    { label: c.name, active: true, currentLabel: c.name, options: castCommanderOptions() },
+  ]
 
   // appearances, joined to the roster + sorted chronologically.
   const arc = c.appearances
