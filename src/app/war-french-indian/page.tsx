@@ -116,19 +116,21 @@ function BattlesTab() {
   }, [])
 
   // The active battle = the lowest list row whose top has scrolled above the reading
-  // line. We do NOT run this on mount: at the top of the list the first battle
-  // (Jumonville) stays lit; detection only kicks in once the reader actually scrolls.
+  // line. The line sits a fixed lead below the pinned map (earlier than the map edge),
+  // but no further than just above the SECOND row at rest, so at the top of the list
+  // the first battle (Jumonville) stays lit until the reader actually scrolls.
   useEffect(() => {
     const rows = Array.from(document.querySelectorAll<HTMLElement>('.p-bt[data-id]'))
-    if (!rows.length) return
+    if (rows.length < 2) return
     let raf = 0
     const onScroll = () => {
       cancelAnimationFrame(raf)
       raf = requestAnimationFrame(() => {
-        // Trigger ~40% down the area below the pinned map, so a battle lights up
-        // earlier (while its row is still well down the list), not only at the map edge.
+        // A fixed lead below the pinned map: earlier than the map edge, but smaller
+        // than one row, so at the top of the list only the first battle is above it
+        // (the second row rests a full row further down) and Jumonville stays lit.
         const mapBottom = mapRef.current?.getBoundingClientRect().bottom ?? mapTop
-        const line = mapBottom + Math.max(60, (window.innerHeight - mapBottom) * 0.4)
+        const line = mapBottom + 84
         let cur = rows[0].dataset.id
         for (const r of rows) {
           if (r.getBoundingClientRect().top <= line) cur = r.dataset.id
@@ -137,6 +139,7 @@ function BattlesTab() {
         if (cur) setActive(cur)
       })
     }
+    onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => { window.removeEventListener('scroll', onScroll); cancelAnimationFrame(raf) }
   }, [mapTop])
