@@ -16,6 +16,24 @@ const OSWEGO_NARR: Record<string, Narr> = {
     eyebrow: 'Oswego · The only door on the lake',
     title: 'The prize on the lake',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when · August 1756',
+        caption: 'Oswego was Britain’s only naval and trading post on Lake Ontario, a wedge in the side of French communications west. Montcalm staged the expedition out of Fort Frontenac across the lake and rowed it to the British base at the mouth of the Oswego River.',
+        frame: { lonMin: -79.6, lonMax: -75.4, latMin: 42.9, latMax: 44.7 },
+        states: [
+          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -76.0, labelLat: 43.2 },
+          { name: 'Ontario', label: 'ONTARIO (NEW FRANCE)', labelLon: -78.2, labelLat: 44.35, labelSize: 12 },
+          { name: 'Pennsylvania' },
+        ],
+        lakes: [
+          { name: 'Lake Ontario', label: 'LAKE ONTARIO', labelLon: -77.4, labelLat: 43.62, labelSize: 13 },
+        ],
+        dots: [
+          { name: 'Fort Frontenac', lat: 44.23, lon: -76.48, color: '#8a8175', anchor: 'end' },
+          { name: 'Fort Oswego', date: 'Aug 10–14, 1756', lat: 43.46, lon: -76.52, heavy: true, anchor: 'start', dateBelow: true },
+          { name: 'Fort Niagara', lat: 43.26, lon: -79.06, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
       { p: 'Lake Ontario is the smallest of the Great Lakes and one of the most important pieces of ground in North America, because of where it sits. It is the hinge between the settled British and French colonies in the east and the vast interior to the west, the country the French called the pays d’en haut (the “upper country,” meaning the whole Great Lakes basin and the lands beyond). Whoever controlled the lake controlled the water road that fed Fort Niagara, the Ohio Country, and every French post in the west. The fur trade ran along it. The empires of Britain and France both reached for it. And the land around it was not theirs to begin with. It was the country of the Haudenosaunee, the Six Nations of the Iroquois, and the nation nearest to the lake’s southeast corner, the Onondaga, watched both crowds of newcomers with a careful eye.' },
       { fig: '/war-img/fi-oswego-map.jpg', cap: 'Oswego’s position on the south shore of Lake Ontario, the lone British foothold on the Great Lakes that made it the prize Montcalm came for in 1756.', credit: 'Map asset · public domain' },
       { p: 'On that southeast corner, at the mouth of the Oswego River, the British held the one thing the French could not stand: a base on the lake itself. Oswego was the only British naval and trading post on Lake Ontario, a wedge driven straight into the side of French communications west. From it the British could trade for furs that would otherwise have gone to the French, and from it, in theory, they could threaten Fort Niagara and the whole western lifeline. As long as Oswego stood, the French hold on the interior had a knife at its throat.' },

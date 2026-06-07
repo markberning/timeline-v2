@@ -22,21 +22,7 @@ const DATA: BattleData = {
   date: 'June–September 1759',
   place: 'Quebec City',
   note: 'The summer-long siege that ended in fifteen minutes on the Plains of Abraham, a farm field above the river where two generals died and a continent changed hands.',
-  hero: { img: '', pal: ['#2a2c33', '#3a4150', '#10131a'] },
-  locator: {
-    eyebrow: 'Where and when · 1759',
-    caption: 'Quebec sat on a high rock above the St. Lawrence, the capital and heart of New France. Wolfe based his army on Île d’Orléans below the city, failed against the Beauport lines at Montmorency in July, and in September slipped his men up the cliff at the Anse au Foulon onto the Plains of Abraham at the city’s gate.',
-    frame: { lonMin: -73.8, lonMax: -68.5, latMin: 45.4, latMax: 48.6 },
-    states: [
-      { name: 'Quebec', tone: 'focus', label: 'QUEBEC (NEW FRANCE)', labelLon: -72.6, labelLat: 48.3, labelSize: 13 },
-    ],
-    dots: [
-      { name: 'Plains of Abraham / Quebec City', date: 'Sep 13, 1759', lat: 46.80, lon: -71.21, heavy: true, anchor: 'end', dateBelow: true },
-      { name: 'Anse au Foulon', lat: 46.79, lon: -71.23, color: '#8a8175', anchor: 'start', dx: 14, dy: 22 },
-      { name: 'Montmorency', lat: 46.89, lon: -71.15, color: '#8a8175', anchor: 'end', dy: -10 },
-      { name: 'Île d’Orléans', lat: 46.95, lon: -70.95, color: '#8a8175', anchor: 'start' },
-    ],
-  },
+  hero: { img: '/war-img/fi-quebec-view-of-the-taking.jpg', pal: ['#2a2c33', '#3a4150', '#10131a'], credit: 'A View of the Taking of Quebec · Hervey Smyth, engraved by P. Benazech · circa 1760 · public domain' },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

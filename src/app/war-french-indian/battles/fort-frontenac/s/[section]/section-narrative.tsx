@@ -16,6 +16,22 @@ const FRONTENAC_NARR: Record<string, Narr> = {
     eyebrow: 'Fort Frontenac · The depot on the water',
     title: 'The lynchpin on the lake',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when · August 1758',
+        caption: 'Frontenac sat at Cataraqui, where Lake Ontario pours back into the St. Lawrence, the depot the whole French west hung on. Bradstreet ran his bateaux up the inland route past the ruins of Oswego and out across the open lake the French navy controlled, landing within a mile of the fort.',
+        frame: { lonMin: -77.3, lonMax: -75.5, latMin: 43.2, latMax: 44.65 },
+        states: [
+          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -76.1, labelLat: 43.4 },
+          { name: 'Ontario', label: 'ONTARIO (NEW FRANCE)', labelLon: -76.55, labelLat: 44.5, labelSize: 11 },
+        ],
+        lakes: [
+          { name: 'Lake Ontario', label: 'LAKE ONTARIO', labelLon: -76.7, labelLat: 43.78, labelSize: 13 },
+        ],
+        dots: [
+          { name: 'Fort Frontenac', date: 'Aug 25–27, 1758', lat: 44.23, lon: -76.48, heavy: true, anchor: 'end', dateBelow: true },
+          { name: 'Fort Oswego', lat: 43.46, lon: -76.52, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
       { p: 'Look at a map of French Canada in the middle of the eighteenth century and you find a long, thin lifeline of water. It runs up the St. Lawrence River from Quebec City and Montreal, the two great eastern centers, and then it has to reach a thousand miles into the interior, out to the forts strung across the Great Lakes and down into the Ohio Country. Everything the western posts needed (food, powder, trade goods, the cloth and coats and knives that bought the friendship of Native nations) had to travel that line. And the place where the river opened into the lakes, the gate the whole western system hung on, was a fort at a spot the French called Cataraqui, on the eastern end of Lake Ontario where the lake pours back into the St. Lawrence. The ground was Haudenosaunee land, the country of the Six Nations of the Iroquois, long before either crown drew a line on it. Today it is Kingston, Ontario. Then it was Fort Frontenac.' },
       { fig: '/war-img/fi-frontenac-cataracoui-view.jpg', cap: 'Fort Frontenac at Cataraqui, where Lake Ontario pours back into the St. Lawrence. This was the depot the whole French west hung on, sitting on a lake the French were sure was theirs.', credit: 'unknown artist · watercolor · 1759 · Library and Archives Canada · public domain' },
       { p: 'Frontenac was not much to look at by 1758. It was an aging stone fort, its walls crumbling, in poor condition. But what it was mattered far more than how it looked. It was a depot, the hinge of French communications and supply on Lake Ontario. Goods came up the river to Frontenac and went out across the lake from there to the western posts. It was one of only two real supply roads from the eastern heart of Canada to the west; the other ran up the Ottawa River. Cut Frontenac, and you cut half the lifeline, the half that fed Lake Ontario, the lake forts, and the Ohio Country posts farther on, including Fort Duquesne, the French stronghold at the Forks of the Ohio that had humiliated the British more than once.' },

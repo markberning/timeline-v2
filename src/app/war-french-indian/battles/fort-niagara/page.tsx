@@ -20,25 +20,7 @@ const DATA: BattleData = {
   date: 'July 1759',
   place: 'Youngstown, New York',
   note: 'The British slammed the western door of New France, and a relief column was gutted by a Haudenosaunee parley before it ever reached the walls.',
-  hero: { img: '', pal: ['#2a2c33', '#3a4150', '#10131a'] },
-  locator: {
-    eyebrow: 'Where and when · July 1759',
-    caption: 'Fort Niagara stood where the Niagara River meets Lake Ontario, the one valve on the carrying place between the lower and upper Great Lakes. The British came down the lake from their base at Oswego in the east. The relief column was destroyed at La Belle-Famille, about two miles south of the fort.',
-    frame: { lonMin: -80.2, lonMax: -76.0, latMin: 42.8, latMax: 44.2 },
-    states: [
-      { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -77.2, labelLat: 43.05 },
-      { name: 'Ontario', label: 'ONTARIO (NEW FRANCE)', labelLon: -79.3, labelLat: 43.9, labelSize: 12 },
-    ],
-    lakes: [
-      { name: 'Lake Ontario', label: 'LAKE ONTARIO', labelLon: -77.6, labelLat: 43.7, labelSize: 13 },
-      { name: 'Lake Erie', label: 'LAKE ERIE', labelLon: -79.6, labelLat: 42.9, labelSize: 12 },
-    ],
-    dots: [
-      { name: 'Fort Niagara', date: 'Jul 1759', lat: 43.26, lon: -79.06, heavy: true, anchor: 'end' },
-      { name: 'La Belle-Famille', lat: 43.23, lon: -79.05, color: '#8a8175', anchor: 'end', dy: 16 },
-      { name: 'Fort Oswego', lat: 43.46, lon: -76.52, color: '#8a8175', anchor: 'start' },
-    ],
-  },
+  hero: { img: '/war-img/fi-niagara-1759-view.jpg', pal: ['#2a2c33', '#3a4150', '#10131a'], credit: 'engraved for the Royal Magazine, after a 1758 drawing on the spot · engraving · London, September 1759 · New York Public Library (Emmet Collection) · public domain' },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

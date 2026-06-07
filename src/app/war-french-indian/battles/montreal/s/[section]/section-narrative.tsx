@@ -17,6 +17,26 @@ const MONTREAL_NARR: Record<string, Narr> = {
     eyebrow: 'Montreal · The noose closes',
     title: 'Three armies',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when · September 1760',
+        caption: 'Amherst’s plan was a closing fist. Three British armies set out from three edges of the colony, Amherst down the St. Lawrence from Lake Ontario, Murray up the river from Quebec, and Haviland up the Lake Champlain corridor from the south, and converged on the island of Montreal within about a day of one another. The French inside the walls woke to enemies on every side and nowhere left to run.',
+        frame: { lonMin: -77.0, lonMax: -70.6, latMin: 43.2, latMax: 47.1 },
+        states: [
+          { name: 'Quebec', tone: 'focus', label: 'QUEBEC (NEW FRANCE)', labelLon: -72.4, labelLat: 46.7, labelSize: 12 },
+          { name: 'Ontario', label: 'ONTARIO', labelLon: -76.3, labelLat: 44.55, labelSize: 11 },
+          { name: 'New York', label: 'NEW YORK', labelLon: -75.2, labelLat: 43.35, labelSize: 12 },
+        ],
+        lakes: [
+          { name: 'Lake Ontario', label: 'LAKE ONTARIO', labelLon: -76.95, labelLat: 43.78, labelSize: 11, labelAnchor: 'middle' },
+          { name: 'Lake Champlain', label: 'LAKE CHAMPLAIN', labelLon: -73.25, labelLat: 44.35, labelSize: 9, labelAnchor: 'start' },
+        ],
+        dots: [
+          { name: 'Montreal', date: 'Sep 8, 1760', lat: 45.50, lon: -73.57, heavy: true, anchor: 'end', dateBelow: true },
+          { name: 'Fort Oswego · Amherst from the west', lat: 43.46, lon: -76.52, color: '#8a8175', anchor: 'start', dx: 8, dy: 4 },
+          { name: 'Quebec City · Murray from the east', lat: 46.81, lon: -71.21, color: '#8a8175', anchor: 'end' },
+          { name: 'Île aux Noix · Haviland from the south', lat: 45.13, lon: -73.28, color: '#8a8175', anchor: 'start', dx: 10, dy: 14 },
+        ],
+      } },
       { p: 'By the summer of 1760, the French and Indian War in Canada was very nearly lost. Quebec, the great fortress city on the St. Lawrence River, had fallen to the British the year before. The French had thrown one last punch in the spring, winning a hard battle just outside the city’s walls at Sainte-Foy in April, only to find that the river thawed in the British navy’s favor: when a British fleet sailed up first, the French had to give up the siege and fall back. That left one place still flying the white flag of the French king in Canada. Montreal, an island town up the St. Lawrence, was the last French stronghold on the continent, and in 1760 the British decided to end the war by taking it.' },
       { fig: '/war-img/fi-montreal-converge-map.jpg', cap: 'Amherst’s plan was a closing fist: three armies set out from three edges of the colony and converged on the island of Montreal within about a day of one another.', credit: 'Convergence map' },
       { pill: '/war-french-indian/battles/quebec', plabel: 'Quebec, the 1759 conquest that doomed New France' },

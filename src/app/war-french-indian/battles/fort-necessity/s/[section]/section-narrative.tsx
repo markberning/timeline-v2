@@ -15,6 +15,23 @@ const FORT_NECESSITY_NARR: Record<string, Narr> = {
     eyebrow: 'Fort Necessity · Bracing for revenge',
     title: 'A fort named Necessity',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when · July 1754',
+        caption: 'After the killing at Jumonville Glen, Washington fell back to Great Meadows and built Fort Necessity, a stockade in an open mountain meadow. A French revenge force came down from Fort Duquesne at the Forks of the Ohio.',
+        frame: { lonMin: -81.0, lonMax: -78.0, latMin: 39.2, latMax: 40.85 },
+        states: [
+          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78.6, labelLat: 40.6 },
+          { name: 'Maryland', label: 'MARYLAND', labelLon: -78.5, labelLat: 39.45, labelSize: 13 },
+          { name: 'Virginia', label: 'VIRGINIA', labelLon: -79.7, labelLat: 39.3, labelSize: 13 },
+          { name: 'Ohio', label: 'OHIO', labelLon: -80.7, labelLat: 40.4, labelSize: 13 },
+          { name: 'West Virginia' },
+        ],
+        dots: [
+          { name: 'Fort Necessity', date: 'July 3, 1754', lat: 39.81, lon: -79.59, heavy: true, anchor: 'start', dateBelow: true },
+          { name: 'Fort Duquesne', lat: 40.44, lon: -80.01, color: '#8a8175', anchor: 'end' },
+          { name: 'Fort Cumberland', lat: 39.65, lon: -78.76, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
       { p: 'It began with blood in a wet ravine. On May 28, 1754, a young Virginia officer named George Washington (British), then twenty-two, surprised a small French party in the woods of western Pennsylvania at a place called Jumonville Glen. The skirmish was over in minutes, but its ending was ugly: the French commander, an officer named Jumonville, lay dead among the wounded, killed by Tanaghrisson, the Mingo leader the British called the Half King, after the shooting had stopped. Roughly ten or twelve French were killed and some twenty-one taken prisoner. Whatever exactly had happened in that glen, one thing was certain. The French at Fort Duquesne, the timber stronghold they had just raised at the Forks of the Ohio (the junction of two rivers that is now Pittsburgh), would come for revenge.' },
       { pill: '/war-french-indian/battles/jumonville-glen', plabel: 'The skirmish that started it: Jumonville Glen, May 1754' },
       { fig: '/war-img/fi-new-france-map.jpg', cap: 'New France and the Ohio Country: the vast interior that France claimed from the St. Lawrence to the Gulf, and that Virginia and the Ohio nations both contested.', credit: 'Stuff Happened map' },

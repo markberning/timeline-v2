@@ -20,25 +20,9 @@ const DATA: BattleData = {
   place: 'Fayette County, Pennsylvania',
   note: 'The backwoods skirmish that helped set off a world war.',
   hero: {
-    img: '/war-img/fi-the-spark-map.jpg',
+    img: '/war-img/fi-jumonville-glen-hero.jpg',
     pal: ['#2e2a20', '#4a4030', '#14110a'],
-  },
-  locator: {
-    eyebrow: 'Where and when · May 1754',
-    caption: 'Washington marched out from Great Meadows in the dark and surrounded a French party in a glen in the Pennsylvania backcountry, about ten miles off, beyond Laurel Ridge. The French had come up from Fort Duquesne at the Forks of the Ohio.',
-    frame: { lonMin: -81.0, lonMax: -78.0, latMin: 39.2, latMax: 40.85 },
-    states: [
-      { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78.6, labelLat: 40.6 },
-      { name: 'Maryland', label: 'MARYLAND', labelLon: -78.5, labelLat: 39.45, labelSize: 13 },
-      { name: 'Virginia', label: 'VIRGINIA', labelLon: -79.7, labelLat: 39.3, labelSize: 13 },
-      { name: 'Ohio', label: 'OHIO', labelLon: -80.7, labelLat: 40.4, labelSize: 13 },
-      { name: 'West Virginia' },
-    ],
-    dots: [
-      { name: 'Jumonville Glen', date: 'May 28, 1754', lat: 39.85, lon: -79.62, heavy: true, anchor: 'start', dateBelow: true },
-      { name: 'Fort Duquesne', lat: 40.44, lon: -80.01, color: '#8a8175', anchor: 'end' },
-      { name: 'Fort Cumberland', lat: 39.65, lon: -78.76, color: '#8a8175', anchor: 'start' },
-    ],
+    credit: 'La mort de Jumonville, 1754 · Castello, in Le Tour du Monde · 1882 · public domain',
   },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },

@@ -22,27 +22,7 @@ const DATA: BattleData = {
   date: 'September 8, 1760',
   place: 'Montreal',
   note: 'Three armies closed on the last French town in Canada, and New France came to an end almost without a shot.',
-  hero: { img: '', pal: ['#2a2c33', '#3a4150', '#10131a'] },
-  locator: {
-    eyebrow: 'Where and when · September 1760',
-    caption: 'Amherst’s plan was a closing fist. Three British armies set out from three edges of the colony, Amherst down the St. Lawrence from Lake Ontario, Murray up the river from Quebec, and Haviland up the Lake Champlain corridor from the south, and converged on the island of Montreal within about a day of one another. The French inside the walls woke to enemies on every side and nowhere left to run.',
-    frame: { lonMin: -77.0, lonMax: -70.6, latMin: 43.2, latMax: 47.1 },
-    states: [
-      { name: 'Quebec', tone: 'focus', label: 'QUEBEC (NEW FRANCE)', labelLon: -72.4, labelLat: 46.7, labelSize: 12 },
-      { name: 'Ontario', label: 'ONTARIO', labelLon: -76.3, labelLat: 44.55, labelSize: 11 },
-      { name: 'New York', label: 'NEW YORK', labelLon: -75.2, labelLat: 43.35, labelSize: 12 },
-    ],
-    lakes: [
-      { name: 'Lake Ontario', label: 'LAKE ONTARIO', labelLon: -76.95, labelLat: 43.78, labelSize: 11, labelAnchor: 'middle' },
-      { name: 'Lake Champlain', label: 'LAKE CHAMPLAIN', labelLon: -73.25, labelLat: 44.35, labelSize: 9, labelAnchor: 'start' },
-    ],
-    dots: [
-      { name: 'Montreal', date: 'Sep 8, 1760', lat: 45.50, lon: -73.57, heavy: true, anchor: 'end', dateBelow: true },
-      { name: 'Fort Oswego · Amherst from the west', lat: 43.46, lon: -76.52, color: '#8a8175', anchor: 'start', dx: 8, dy: 4 },
-      { name: 'Quebec City · Murray from the east', lat: 46.81, lon: -71.21, color: '#8a8175', anchor: 'end' },
-      { name: 'Île aux Noix · Haviland from the south', lat: 45.13, lon: -73.28, color: '#8a8175', anchor: 'start', dx: 10, dy: 14 },
-    ],
-  },
+  hero: { img: '/war-img/fi-montreal-east-view.jpg', pal: ['#2a2c33', '#3a4150', '#10131a'], credit: 'Thomas Patten (drawing), P. Canot (engraving) · handcoloured engraving · 1760, published 1768 · Wikimedia Commons · public domain' },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

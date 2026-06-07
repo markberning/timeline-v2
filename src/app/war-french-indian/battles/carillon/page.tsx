@@ -22,24 +22,7 @@ const DATA: BattleData = {
   date: 'July 8, 1758',
   place: 'Ticonderoga, New York',
   note: 'The largest army in America wrecked itself against a wall of logs its own commander refused to use his guns on.',
-  hero: { img: '', pal: ['#2a2c33', '#3a4150', '#10131a'] },
-  locator: {
-    eyebrow: 'Where and when · July 1758',
-    caption: 'Fort Carillon sat on the narrow neck of land between Lake George and Lake Champlain, the great water corridor from the British colonies up toward the French heart of Canada. Abercromby’s army rowed the length of Lake George from Fort William Henry, landed at the north end, and marched overland to the French works.',
-    frame: { lonMin: -74.05, lonMax: -72.95, latMin: 43.30, latMax: 44.20 },
-    states: [
-      { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -73.85, labelLat: 43.95 },
-    ],
-    lakes: [
-      { name: 'Lake George', label: 'LAKE GEORGE', labelLon: -73.78, labelLat: 43.55, labelSize: 12 },
-      { name: 'Lake Champlain', label: 'LAKE CHAMPLAIN', labelLon: -73.18, labelLat: 44.05, labelSize: 12 },
-    ],
-    dots: [
-      { name: 'Fort Carillon (Ticonderoga)', date: 'July 8, 1758', lat: 43.84, lon: -73.39, heavy: true, anchor: 'end', dateBelow: true },
-      { name: 'Lake George landing', lat: 43.62, lon: -73.51, color: '#8a8175', anchor: 'start' },
-      { name: 'Fort William Henry', lat: 43.42, lon: -73.71, color: '#8a8175', anchor: 'start' },
-    ],
-  },
+  hero: { img: '/war-img/fi-carillon-hero.jpg', pal: ['#2a2c33', '#3a4150', '#10131a'], credit: 'Battle of Carillon, 1758 · from Tuttle\'s History of the Dominion of Canada · circa 1877 · public domain' },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

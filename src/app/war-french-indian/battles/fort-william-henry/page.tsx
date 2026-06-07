@@ -21,24 +21,7 @@ const DATA: BattleData = {
   date: 'August 3–9, 1757',
   place: 'Lake George, New York',
   note: 'The siege the British lost by the book, and the massacre the myth made ten times too large.',
-  hero: { img: '', pal: ['#2a2c33', '#3a4150', '#10131a'] },
-  locator: {
-    eyebrow: 'Where and when · August 1757',
-    caption: 'Fort William Henry sat at the south end of Lake George, the British south anchor on the corridor between Albany and Montreal. Montcalm came down the lake from Fort Carillon (Ticonderoga); the relief that never came waited sixteen miles south at Fort Edward, on the Hudson.',
-    frame: { lonMin: -74.25, lonMax: -72.95, latMin: 43.05, latMax: 44.15 },
-    states: [
-      { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -74.05, labelLat: 43.5 },
-    ],
-    lakes: [
-      { name: 'Lake George', label: 'LAKE GEORGE', labelLon: -73.95, labelLat: 43.62, labelSize: 12 },
-      { name: 'Lake Champlain', label: 'LAKE CHAMPLAIN', labelLon: -73.02, labelLat: 43.78, labelSize: 12 },
-    ],
-    dots: [
-      { name: 'Fort Carillon (Ticonderoga)', lat: 43.84, lon: -73.39, color: '#8a8175', anchor: 'end' },
-      { name: 'Fort William Henry', date: 'Aug 3–9, 1757', lat: 43.42, lon: -73.71, heavy: true, anchor: 'start', dateBelow: true },
-      { name: 'Fort Edward', lat: 43.27, lon: -73.59, color: '#8a8175', anchor: 'start' },
-    ],
-  },
+  hero: { img: '/war-img/fi-fwh-massacre.jpg', pal: ['#2a2c33', '#3a4150', '#10131a'], credit: 'Alfred Bobbett (engraver), after Felix O. C. Darley · wood engraving · published 1870–1880 · Library of Congress · public domain' },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

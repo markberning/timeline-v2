@@ -16,6 +16,24 @@ const NIAGARA_NARR: Record<string, Narr> = {
     eyebrow: 'Niagara · The key to the west',
     title: 'The gateway to the west',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when · July 1759',
+        caption: 'Fort Niagara stood where the Niagara River meets Lake Ontario, the one valve on the carrying place between the lower and upper Great Lakes. The British came down the lake from their base at Oswego in the east. The relief column was destroyed at La Belle-Famille, about two miles south of the fort.',
+        frame: { lonMin: -80.2, lonMax: -76.0, latMin: 42.8, latMax: 44.2 },
+        states: [
+          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -77.2, labelLat: 43.05 },
+          { name: 'Ontario', label: 'ONTARIO (NEW FRANCE)', labelLon: -79.3, labelLat: 43.9, labelSize: 12 },
+        ],
+        lakes: [
+          { name: 'Lake Ontario', label: 'LAKE ONTARIO', labelLon: -77.6, labelLat: 43.7, labelSize: 13 },
+          { name: 'Lake Erie', label: 'LAKE ERIE', labelLon: -79.6, labelLat: 42.9, labelSize: 12 },
+        ],
+        dots: [
+          { name: 'Fort Niagara', date: 'Jul 1759', lat: 43.26, lon: -79.06, heavy: true, anchor: 'end' },
+          { name: 'La Belle-Famille', lat: 43.23, lon: -79.05, color: '#8a8175', anchor: 'end', dy: 16 },
+          { name: 'Fort Oswego', lat: 43.46, lon: -76.52, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
       { p: 'There is one door between the lower Great Lakes and the upper ones, and Fort Niagara stood in it. Lake Erie pours north over Niagara Falls and down the Niagara River into Lake Ontario, and no boat can run the falls. To move men or muskets or barrels of trade goods from one lake to the other, you have to come ashore and carry everything overland around the cataract, along a path called the Niagara Portage. Whoever held that portage held the only practical road between the two halves of the inland sea. The French held it, with a stone fort planted where the river meets Lake Ontario.' },
       { fig: '/war-img/fi-niagara-1759-view.jpg', cap: 'A contemporary view of Fort Niagara, where the Niagara River meets Lake Ontario and the one valve stood on the carrying place between the lower and upper Great Lakes. Drawn on the spot in 1758 and engraved the month after the fort fell to Sir William Johnson on July 25, 1759.', credit: 'engraved for the Royal Magazine, after a 1758 drawing on the spot · engraving · London, September 1759 · New York Public Library (Emmet Collection) · public domain' },
       { p: 'That fort was not just a strongpoint. It was a valve on the whole French west. Through the Niagara carrying place ran the lifeline that tied the French towns on the St. Lawrence River to Detroit, to the upper Great Lakes, to the Ohio Country, and on down to Louisiana. Every soldier, every keg of powder, every blanket and gun bound for the western posts passed this one point. Cut it, and every French fort and trading house to the west and south would be left dangling at the end of a rope that no longer reached anything. They would starve, or surrender, or be abandoned.' },

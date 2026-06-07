@@ -21,19 +21,7 @@ const DATA: BattleData = {
   date: 'April 28, 1760',
   place: 'Quebec City',
   note: 'The last French victory of the war in Canada, won on the open field and made worthless by the wrong fleet coming up the river.',
-  hero: { img: '', pal: ['#2a2c33', '#3a4150', '#10131a'] },
-  locator: {
-    eyebrow: 'Where and when · April 1760',
-    caption: 'Everything in this campaign was a race up a frozen river. Lévis marched his rebuilt army two hundred miles down the thawing St. Lawrence from Montreal to retake Quebec, and beat the British garrison in the open at Sainte-Foy. Then both sides watched the water to see whose fleet would come up first.',
-    frame: { lonMin: -75.4, lonMax: -69.4, latMin: 44.6, latMax: 48.4 },
-    states: [
-      { name: 'Quebec', tone: 'focus', label: 'QUEBEC (NEW FRANCE)', labelLon: -73.1, labelLat: 47.7, labelSize: 12 },
-    ],
-    dots: [
-      { name: 'Montreal', lat: 45.50, lon: -73.57, color: '#8a8175', anchor: 'start' },
-      { name: 'Sainte-Foy / Quebec City', date: 'Apr 28, 1760', lat: 46.79, lon: -71.25, heavy: true, anchor: 'end', dateBelow: true },
-    ],
-  },
+  hero: { img: '/war-img/fi-sainte-foy-quebec-view.jpg', pal: ['#2a2c33', '#3a4150', '#10131a'], credit: 'Pierre Charles Canot, after Richard Short · engraving · 1761 · public domain' },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

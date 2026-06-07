@@ -20,23 +20,7 @@ const DATA: BattleData = {
   date: 'August 25–27, 1758',
   place: 'Cataraqui (Kingston, Ontario)',
   note: 'A provincial army rowed across a lake nobody believed they would cross and cut one of the two arteries of New France in two days, for almost no blood at all.',
-  hero: { img: '', pal: ['#2a2c33', '#3a4150', '#10131a'] },
-  locator: {
-    eyebrow: 'Where and when · August 1758',
-    caption: 'Frontenac sat at Cataraqui, where Lake Ontario pours back into the St. Lawrence, the depot the whole French west hung on. Bradstreet ran his bateaux up the inland route past the ruins of Oswego and out across the open lake the French navy controlled, landing within a mile of the fort.',
-    frame: { lonMin: -77.3, lonMax: -75.5, latMin: 43.2, latMax: 44.65 },
-    states: [
-      { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -76.1, labelLat: 43.4 },
-      { name: 'Ontario', label: 'ONTARIO (NEW FRANCE)', labelLon: -76.55, labelLat: 44.5, labelSize: 11 },
-    ],
-    lakes: [
-      { name: 'Lake Ontario', label: 'LAKE ONTARIO', labelLon: -76.7, labelLat: 43.78, labelSize: 13 },
-    ],
-    dots: [
-      { name: 'Fort Frontenac', date: 'Aug 25–27, 1758', lat: 44.23, lon: -76.48, heavy: true, anchor: 'end', dateBelow: true },
-      { name: 'Fort Oswego', lat: 43.46, lon: -76.52, color: '#8a8175', anchor: 'start' },
-    ],
-  },
+  hero: { img: '/war-img/fi-frontenac-capture-engraving.jpg', pal: ['#2a2c33', '#3a4150', '#10131a'], credit: 'John Henry Walker · engraving · 19th c. · Library and Archives Canada · public domain' },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

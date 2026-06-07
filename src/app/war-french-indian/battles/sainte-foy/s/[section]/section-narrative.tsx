@@ -16,6 +16,18 @@ const SAINTE_FOY_NARR: Record<string, Narr> = {
     eyebrow: 'Sainte-Foy · A city held by sick men',
     title: 'The winter garrison',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when · April 1760',
+        caption: 'Everything in this campaign was a race up a frozen river. Lévis marched his rebuilt army two hundred miles down the thawing St. Lawrence from Montreal to retake Quebec, and beat the British garrison in the open at Sainte-Foy. Then both sides watched the water to see whose fleet would come up first.',
+        frame: { lonMin: -75.4, lonMax: -69.4, latMin: 44.6, latMax: 48.4 },
+        states: [
+          { name: 'Quebec', tone: 'focus', label: 'QUEBEC (NEW FRANCE)', labelLon: -73.1, labelLat: 47.7, labelSize: 12 },
+        ],
+        dots: [
+          { name: 'Montreal', lat: 45.50, lon: -73.57, color: '#8a8175', anchor: 'start' },
+          { name: 'Sainte-Foy / Quebec City', date: 'Apr 28, 1760', lat: 46.79, lon: -71.25, heavy: true, anchor: 'end', dateBelow: true },
+        ],
+      } },
       { p: 'Quebec, the capital of New France, fell to the British in September 1759. After the British army climbed the cliffs above the St. Lawrence River and beat the French on a farm field called the Plains of Abraham, the city surrendered, and both opposing generals, James Wolfe (British) and the Marquis de Montcalm (French), were dead of their wounds within a day of each other the following morning. The British had the prize. What they did not have was a way to keep it through a Canadian winter.' },
       { fig: '/war-img/fi-sainte-foy-quebec-view.jpg', cap: 'Quebec seen across the St. Lawrence from Point Levy, drawn just after the British took the city in 1759. This was the prize Murray spent the winter trying to keep alive and Lévis spent it preparing to take back.', credit: 'Pierre Charles Canot, after Richard Short · engraving · 1761 · public domain' },
       { p: 'The man left holding it was Brigadier General James Murray (British), and the army he held it with came apart in his hands. He had started the winter with something like six to seven thousand men. The city he had just helped capture was a wreck, smashed by the British bombardment that took it, so there was little intact housing, and his men spent the deep cold in makeshift, exposed shelters. There was not enough firewood. Worse, there was no fresh food. The garrison (the body of soldiers stationed in a place to hold it) lived almost entirely on salt provisions (meat preserved in barrels of brine, which keeps for months but carries none of the nutrition fresh food does), and on that diet the soldiers came down with scurvy, the wasting disease that sets in when the body is starved of what we now call vitamin C. It spread until there was barely a man in the ranks, even among those still counted fit for duty, who was wholly free of it.' },

@@ -16,7 +16,7 @@ import { warCrumbs } from '@/components/mode/theatre-page'
 import { warForRoute } from '@/lib/wars/registry'
 import { CIVIL_WAR } from '@/lib/wars/civil-war'
 import { Lightbox } from '@/components/lightbox'
-import { DottedMap, type Frame, type StateSpec, type Dot, type FreeLabel } from '@/components/mode/dotted-map'
+import { DottedMap, type Frame, type StateSpec, type Dot, type LakeSpec, type FreeLabel } from '@/components/mode/dotted-map'
 
 const MONTH_FULL: Record<string, string> = { Jan: 'January', Feb: 'February', Mar: 'March', Apr: 'April', May: 'May', Jun: 'June', Jul: 'July', Aug: 'August', Sep: 'September', Sept: 'September', Oct: 'October', Nov: 'November', Dec: 'December' }
 
@@ -27,7 +27,7 @@ export type Block =
   // a between-paragraph "go read that story" link, rendered as an accent pill
   | { pill: string; plabel: string }
   // the zoomed-out "establishing shot": a real-geography dotted locator map
-  | { locator: { eyebrow?: string; caption?: string; frame: Frame; states: StateSpec[]; dots?: Dot[]; labels?: FreeLabel[]; vbWidth?: number } }
+  | { locator: { eyebrow?: string; caption?: string; frame: Frame; states: StateSpec[]; dots?: Dot[]; lakes?: LakeSpec[]; labels?: FreeLabel[]; vbWidth?: number } }
 
 export interface Narr {
   eyebrow: string

@@ -20,24 +20,7 @@ const DATA: BattleData = {
   date: 'June 8 – July 26, 1758',
   place: 'Île-Royale (Cape Breton)',
   note: 'The British took the great sea fortress at the throat of the continent, and the road to Quebec swung open.',
-  hero: { img: '', pal: ['#2a2c33', '#3a4150', '#10131a'] },
-  locator: {
-    eyebrow: 'Where and when · Summer 1758',
-    caption: 'Louisbourg sat on the rocky southeast coast of Cape Breton Island, a walled town and naval base guarding the Gulf of St. Lawrence and the river road to Quebec. Amherst’s fleet staged out of Halifax, landed in the surf at Gabarus Bay, and closed a seven-week siege around the fortress.',
-    frame: { lonMin: -64.6, lonMax: -59.2, latMin: 44.3, latMax: 47.2 },
-    states: [
-      { name: 'Nova Scotia', tone: 'focus', label: 'NOVA SCOTIA', labelLon: -63.2, labelLat: 45.2, labelSize: 13 },
-      { name: 'New Brunswick', label: 'NEW BRUNSWICK', labelLon: -64.0, labelLat: 46.6, labelSize: 11 },
-    ],
-    dots: [
-      { name: 'Louisbourg', date: 'Jun–Jul 1758', lat: 45.89, lon: -59.98, heavy: true, anchor: 'end', dateBelow: true },
-      { name: 'Gabarus Bay (the landing)', lat: 45.87, lon: -60.06, color: '#8a8175', anchor: 'start' },
-      { name: 'Halifax', lat: 44.65, lon: -63.57, color: '#8a8175', anchor: 'start' },
-    ],
-    labels: [
-      { text: 'TO THE ST. LAWRENCE & QUEBEC', lon: -62.8, lat: 47.0, kind: 'faint', size: 11, anchor: 'middle' },
-    ],
-  },
+  hero: { img: '/war-img/fi-louisbourg-siege.jpg', pal: ['#2a2c33', '#3a4150', '#10131a'], credit: 'Siege of Louisbourg, 1758 · public domain' },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

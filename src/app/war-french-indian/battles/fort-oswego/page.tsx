@@ -20,25 +20,7 @@ const DATA: BattleData = {
   date: 'August 10–14, 1756',
   place: 'Oswego, New York',
   note: 'The new French general’s first American victory, and a grim rehearsal for Fort William Henry.',
-  hero: { img: '', pal: ['#2a2c33', '#3a4150', '#10131a'] },
-  locator: {
-    eyebrow: 'Where and when · August 1756',
-    caption: 'Oswego was Britain’s only naval and trading post on Lake Ontario, a wedge in the side of French communications west. Montcalm staged the expedition out of Fort Frontenac across the lake and rowed it to the British base at the mouth of the Oswego River.',
-    frame: { lonMin: -79.6, lonMax: -75.4, latMin: 42.9, latMax: 44.7 },
-    states: [
-      { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -76.0, labelLat: 43.2 },
-      { name: 'Ontario', label: 'ONTARIO (NEW FRANCE)', labelLon: -78.2, labelLat: 44.35, labelSize: 12 },
-      { name: 'Pennsylvania' },
-    ],
-    lakes: [
-      { name: 'Lake Ontario', label: 'LAKE ONTARIO', labelLon: -77.4, labelLat: 43.62, labelSize: 13 },
-    ],
-    dots: [
-      { name: 'Fort Frontenac', lat: 44.23, lon: -76.48, color: '#8a8175', anchor: 'end' },
-      { name: 'Fort Oswego', date: 'Aug 10–14, 1756', lat: 43.46, lon: -76.52, heavy: true, anchor: 'start', dateBelow: true },
-      { name: 'Fort Niagara', lat: 43.26, lon: -79.06, color: '#8a8175', anchor: 'start' },
-    ],
-  },
+  hero: { img: '/war-img/fi-fort-oswego-hero.jpg', pal: ['#2a2c33', '#3a4150', '#10131a'], credit: 'Capitulation of Oswego, 1756 · from Tuttle\'s History of the Dominion of Canada · circa 1877 · public domain' },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

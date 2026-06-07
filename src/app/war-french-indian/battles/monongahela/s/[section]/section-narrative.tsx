@@ -15,6 +15,25 @@ const MONONGAHELA_NARR: Record<string, Narr> = {
     eyebrow: 'Monongahela · The march in',
     title: 'The road to the forks',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when · July 1755',
+        caption: 'Braddock cut a road northwest from Fort Cumberland in Maryland toward the French stronghold of Fort Duquesne, at the Forks of the Ohio (today Pittsburgh). The battle caught his army on the Monongahela River about ten miles short of the fort.',
+        frame: { lonMin: -80.8, lonMax: -77.5, latMin: 39.2, latMax: 41.1 },
+        states: [
+          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78.2, labelLat: 40.85 },
+          { name: 'Maryland', label: 'MARYLAND', labelLon: -78.3, labelLat: 39.45, labelSize: 13 },
+          { name: 'Virginia', label: 'VIRGINIA', labelLon: -79.6, labelLat: 39.3, labelSize: 13 },
+          { name: 'Ohio', label: 'OHIO', labelLon: -80.6, labelLat: 40.5, labelSize: 13 },
+          { name: 'West Virginia' },
+          { name: 'New York' },
+        ],
+        dots: [
+          { name: 'Fort Duquesne', lat: 40.44, lon: -80.01, color: '#8a8175', anchor: 'end' },
+          { name: 'The Monongahela', date: 'July 9, 1755', lat: 40.40, lon: -79.86, heavy: true, anchor: 'start', dateBelow: true },
+          { name: 'Fort Necessity', lat: 39.81, lon: -79.59, color: '#8a8175', anchor: 'end' },
+          { name: 'Fort Cumberland', lat: 39.65, lon: -78.76, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
       { p: 'Two great rivers, the Allegheny and the Monongahela, meet in the wilderness of western Pennsylvania and join to become the Ohio, the river road into the whole interior of the continent. Whoever held that junction, the Forks of the Ohio, held the gateway to the fur trade and to millions of acres of land beyond the mountains. Both Britain and France claimed it. Neither would let it go. But the land was not empty, and it was not theirs. Living on it were Native nations, the Shawnee, the Lenape (also called Delaware), the Mingo and others, and underneath the imperial flags this war was, from the start, a fight over their country and who would get to keep settlers off it.' },
       { p: 'The French got there first. They built Fort Duquesne at the Forks, a timber stronghold under the command of Claude-Pierre Pécaudy de Contrecœur, and held the most valuable real estate on the frontier. The British had already tried to push them off it and failed. A young Virginia officer named George Washington (British), then twenty-two, had fired the opening shots of the contest in 1754 at a place called Jumonville Glen, then been cornered and forced to surrender his own little stockade, Fort Necessity, that July. The lesson London drew was simple: send professionals.' },
       { pill: '/war-french-indian/battles/fort-necessity', plabel: "Washington's 1754 surrender at Fort Necessity" },
