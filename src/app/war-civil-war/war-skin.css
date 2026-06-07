@@ -15,9 +15,11 @@
   --union: #345080;
   --confed: #9d3a2b;
   /* French & Indian War side identities (British / French); reused by battle dossiers
-     that pass sideColors. Light-mode values. */
+     that pass sideColors. Light-mode values. --native = the third "allied" side used
+     for Native nations in the commander list. */
   --brit: #b13b3b;
   --french: #3a5fa5;
+  --native: #9c6f3a;
   --eyebrow: #5c61a0;
   /* theatre palette (distinct from the union/confed SIDE colors) */
   --th-east: #8a5b86;   /* plum */
@@ -63,6 +65,7 @@
   /* F&I side identities, dark-mode values */
   --brit: #d98a86;
   --french: #8aa6d8;
+  --native: #cba46a;
   --eyebrow: #9ea4e6;
   --th-east: #c79cd0;
   --th-west: #84c089;
@@ -324,6 +327,7 @@
 .war-skin .bp-cmd .bd .role .sd { font: 700 8.5px/1 var(--sans); letter-spacing: .07em; padding: 3px 7px; border-radius: 999px; color: #fff; flex: 0 0 auto; }
 .war-skin .bp-cmd.u .bd .role .sd { background: var(--union); }
 .war-skin .bp-cmd.c .bd .role .sd { background: var(--confed); }
+.war-skin .bp-cmd.n .bd .role .sd { background: var(--native, #9c6f3a); }
 .war-skin .bp-cmd .bd .role .rl { font: 600 9px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .war-skin .bp-cmd .bd .bio { font: 400 12.5px/1.5 var(--sans); color: var(--ink-soft); }
 /* link to the commander's full arc (cast page), shown only where one exists */

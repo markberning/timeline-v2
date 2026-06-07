@@ -37,7 +37,10 @@ const MENU = [
 
 // ---- data shape (every battle page hands one of these in) ----
 export type Theatre = 'east' | 'west' | 'tmis' | 'naval'
-export type Side = 'u' | 'c'
+// 'u' = side one, 'c' = side two. 'n' = a third, "allied" affiliation used only in the
+// commander list (e.g. F&I Native nations fighting alongside one side); it never appears
+// in the two-way face-off or casualty bar. Each 'n' commander carries its own sideLabel.
+export type Side = 'u' | 'c' | 'n'
 
 export type BattleData = {
   theatre: string            // lane id — a theatre for the CW, a phase for the F&I war
@@ -68,7 +71,7 @@ export type BattleData = {
   footer: { title: string; sub: string; href: string }
 }
 export type BattleSide = { side: Side; tag: string; force: string; str: string; cmd: string; note: string }
-export type Commander = { name: string; role: string; side: Side; img: string; bio: React.ReactNode }
+export type Commander = { name: string; role: string; side: Side; img: string; bio: React.ReactNode; sideLabel?: string }
 export type Section = { id: string; eyebrow: string; title: string; blurb: string; img?: string }
 
 const TABS = [
@@ -235,7 +238,7 @@ export function BattleDossier({ data }: { data: BattleData }) {
               </span>
               <div className="bd">
                 <div className="nm p-serif">{c.name}</div>
-                <div className="role"><span className="sd">{c.side === 'u' ? (data.sideNames?.u ?? 'UNION') : (data.sideNames?.c ?? 'CSA')}</span><span className="rl">{c.role}</span></div>
+                <div className="role"><span className="sd">{c.sideLabel ?? (c.side === 'u' ? (data.sideNames?.u ?? 'UNION') : c.side === 'c' ? (data.sideNames?.c ?? 'CSA') : 'ALLIED')}</span><span className="rl">{c.role}</span></div>
                 <div className="bio">{c.bio}</div>
                 {arc && <a className="arc" href={`${war.routeBase}/cast/${arc}`}>Follow the full arc</a>}
               </div>
