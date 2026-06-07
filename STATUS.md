@@ -10,7 +10,14 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ## ▶ COLD-START HANDOFF — 2026-05-28 (read this FIRST)
 
-**🆕🆕🆕 NEWEST (2026-05-29 late — event-upgrade GATED + single-civ TEST done, sweep awaiting user OK):**
+**✅ EVENT-UPGRADE SWEEP COMPLETE (verified 2026-06-07) — 109/109 civs swept.** Both gates
+green corpus-wide: `lint-event-cards` 109 civs · 0 NEW gaps · every civ "✓ full" (55
+grandfathered honest-rejects); `lint-event-photos` 109 civs · 70% floor · 0 NEW thin chapters
+(202 grandfathered). Last sweep commit russian-empire 2026-06-06. The "NEXT: 104 civs remaining"
+note below is the 2026-05-29 starting point, kept for history — the rollout has since finished.
+See `audits/event-upgrade-sweep-progress.md`.
+
+**🆕🆕🆕 (2026-05-29 late — event-upgrade GATED + single-civ TEST done; historic, sweep now COMPLETE per banner above):**
 1. **War card image fix DEPLOYED + live** (Version `240e0281`; war card photo restored on all sizes). Plus the wave-2 backward cross-pass committed (`49cdda3`).
 2. **Event upgrade now BAKED INTO THE PIPELINE as a gate (G14):** `scripts/lint-event-cards.ts` — every SURFACED event (eventId linked via .event-links) must carry the 2-part card (description + non-empty "Explore further" details). Shape-only (born-verified facts are a creation step; photo half stays gated by `fix-links --strict`). Baseline `audits/event-card-baseline.json` grandfathers the **104 legacy civs not yet swept**; wired into ship-check so **every new civ + every swept civ is zero-tolerance**. The 5 rollout civs (aoe/ast/lai/medieval-japan/islamic-persia) are held to 100%. Commit `ec53aec`. CLAUDE step 14 + script list updated.
 3. **Single-civ TEST = carthage (commit `c112f53`, pushed, NOT deployed — review checkpoint).** Full recipe: 8 per-chapter agents authored web-verified description + Explore-further beat for all 74 surfaced events + ran the photo vision pass (52 commonsFile overrides viewed+captioned, 22 honest rejections). Gates GREEN: G14 74/74, fix-links --strict clean. Review at **localhost:3000/civ/carthage** (dev server running).

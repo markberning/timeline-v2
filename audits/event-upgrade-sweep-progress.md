@@ -53,7 +53,14 @@ docs/content-pipeline.md step 13 + memory/feedback_wikimedia_rate_limit.
 
 ## Count
 
-**Done: 48 / 109 civs**  ·  **61 civs remaining, smallest-first.**
+**✅ COMPLETE — 109 / 109 civs swept (verified 2026-06-07).** 0 remaining.
+Both ship gates green corpus-wide: `lint-event-cards` = 109 civs · **0 NEW gaps** ·
+every civ "✓ full" (55 grandfathered honest-rejects); `lint-event-photos` = 109 civs ·
+70% floor · **0 NEW thin chapters** (202 grandfathered image-poor chapters). Last sweep
+commit: russian-empire, 2026-06-06. Re-verify any time via
+`git log --oneline | grep 'event-upgrade sweep:'` + the two gate scripts.
+
+**Historic snapshot (2026-06-03 pause): Done 48 / 109 · 61 remaining, smallest-first.**
 
 > The authoritative swept list is computed, not hand-maintained: `git log --oneline | grep
 > 'event-upgrade sweep:'` (the gated civs) **plus** the 14 cards-carried rollout/pilot civs
