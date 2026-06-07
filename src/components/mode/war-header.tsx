@@ -6,7 +6,9 @@
 // `.war-skin` wrapper (the caller supplies it); styles come from ./war-skin.css.
 
 import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
+import { warForRoute } from '@/lib/wars/registry'
 
 export const WAR_ICONS = {
   back: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6" /></svg>,
@@ -45,23 +47,28 @@ function ThemeSwitch() {
   )
 }
 
-// The editorial header used across the war redesign. `backHref` is the round
-// back button's destination (defaults to the war home). `active` highlights the
-// current vertical in the slide-in menu. `title`/`subtitle` set the wordmark —
-// the ACW pages keep the default; the all-wars front door overrides it.
+// The editorial header used across the war redesign. The wordmark + back target are
+// resolved FROM THE ROUTE (warForRoute on the current pathname) so every war shows its
+// own header app-wide, even if a caller forgets to pass props — this is what kept the
+// F&I pages showing the ACW wordmark. Explicit `title`/`backHref` still override (the
+// all-wars front door sets its own). `active` highlights the current vertical in the menu.
 export function WarHeader({
-  backHref = '/war-civil-war',
+  backHref,
   active = 'war',
-  title = 'American Civil War',
+  title,
   subtitle = 'Stuff Happened · War',
 }: { backHref?: string; active?: string; title?: string; subtitle?: string }) {
   const [menu, setMenu] = useState(false)
   const [search, setSearch] = useState(false)
+  const pathname = usePathname()
+  const war = warForRoute(pathname ?? '')
+  const wmTitle = title ?? war?.name ?? 'American Wars'
+  const backTo = backHref ?? war?.routeBase ?? '/war'
   return (
     <>
       <header className="p-hdr">
-        <a className="back" href={backHref} aria-label="Back">{WAR_ICONS.back}</a>
-        <div className="wm"><b>{title}</b><span>{subtitle}</span></div>
+        <a className="back" href={backTo} aria-label="Back">{WAR_ICONS.back}</a>
+        <div className="wm"><b>{wmTitle}</b><span>{subtitle}</span></div>
         <ThemeSwitch />
         <button className="p-iconbtn" onClick={() => setSearch(true)} aria-label="Search">{WAR_ICONS.search}</button>
         <button className="p-iconbtn" onClick={() => setMenu(true)} aria-label="Menu">{WAR_ICONS.menu}</button>

@@ -9,6 +9,7 @@ import '../../war-civil-war/war-skin.css'
 import { useState } from 'react'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import { WarHeader } from '@/components/mode/war-header'
+import { warCrumbs } from '@/components/mode/theatre-page'
 import { FI_COMMANDERS, type FISide } from '@/lib/french-indian-commanders'
 import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 
@@ -24,10 +25,10 @@ export default function FICastPage() {
   const [side, setSide] = useState<'all' | FISide>('all')
   const list = ALL.filter(c => side === 'all' || c.side === side)
 
-  const crumbs: Crumb[] = [
-    { label: 'F&I', short: 'F&I', href: '/war-french-indian' },
-    { label: 'Cast', active: true },
-  ]
+  // Reuse the standard war breadcrumb (war rung + the section "Jump to" dropdown),
+  // then append the Cast leaf, so the cast bar matches the rest of the war app.
+  const base = warCrumbs(FRENCH_INDIAN)
+  const crumbs: Crumb[] = [base[0], base[1], { label: 'Cast', active: true }]
 
   return (
     <div className="war-skin">

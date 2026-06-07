@@ -13,6 +13,7 @@ import '../../app/war-civil-war/war-skin.css'
 import { useState } from 'react'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import { WarHeader } from '@/components/mode/war-header'
+import { warCrumbs } from '@/components/mode/theatre-page'
 import { FI_COMMANDERS, type FISide } from '@/lib/french-indian-commanders'
 import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 
@@ -43,11 +44,10 @@ export function FICommanderPage({ id }: { id: string }) {
   if (!c) return null
   const side = SIDE[c.side]
 
-  const crumbs: Crumb[] = [
-    { label: 'F&I', short: 'F&I', href: '/war-french-indian' },
-    { label: 'Cast', href: '/war-french-indian/cast' },
-    { label: c.name, active: true },
-  ]
+  // Standard war breadcrumb (war rung + section "Jump to" dropdown), then Cast and the
+  // commander leaf, so the bar matches the rest of the war app.
+  const base = warCrumbs(FRENCH_INDIAN)
+  const crumbs: Crumb[] = [base[0], base[1], { label: 'Cast', href: '/war-french-indian/cast' }, { label: c.name, active: true }]
 
   const arc = c.appearances
     .map(a => ({ a, b: byId[a.battleId] }))
