@@ -68,6 +68,14 @@ function StoryTab() {
       {W.chapters.map((c, i) => (
         <SpineRow key={c.id} no={String(i + 1).padStart(2, '0')} title={c.short ?? c.name} sub={c.hook} right={(c.date.match(/\d{4}/) || [''])[0]} href={c.href} />
       ))}
+      <a className="p-storycard cast fi-dim" href="/war-french-indian/cast" style={{ display: 'block', textDecoration: 'none', marginTop: 12 }}>
+        <div className="row">
+          <span className="chip"><span className="sq" style={{ background: 'var(--fi-battles)' }} /><span className="p-label">Follow a commander</span></span>
+        </div>
+        <h3 className="p-serif">The cast</h3>
+        <p>Six commanders carry the whole war, battle to battle: Montcalm, Wolfe, Washington, Amherst, Lévis, and Sir William Johnson. Pick one and watch their arc unfold, from the first command to the last surrender.</p>
+        <div className="sc-meta">6 commanders · the war told as their arcs</div>
+      </a>
     </div>
   )
 }

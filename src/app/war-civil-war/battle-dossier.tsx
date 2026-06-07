@@ -12,9 +12,20 @@ import { useEffect, useRef, useState } from 'react'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import { castIdForName } from '@/lib/civil-war-commanders'
+import { fiCastIdForName } from '@/lib/french-indian-commanders'
 import { warForRoute } from '@/lib/wars/registry'
 import { CIVIL_WAR } from '@/lib/wars/civil-war'
+import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 import { DottedMap, type Frame, type StateSpec, type Dot, type LakeSpec, type FreeLabel } from '@/components/mode/dotted-map'
+
+// Representative period figures used as a no-portrait fallback on F&I commander
+// cards (uniform/costume plates, clearly type-figures not individual likenesses).
+// A real born-verified portrait always wins; this only fills a card that has none.
+const FI_REP_IMG: Record<string, string> = {
+  u: '/war-img/fi-rep-british.jpg',
+  c: '/war-img/fi-rep-french.jpg',
+  n: '/war-img/fi-rep-native.jpg',
+}
 
 // ---- inline icons (shared with the war home) ----
 const I = {
@@ -239,14 +250,21 @@ export function BattleDossier({ data }: { data: BattleData }) {
         )}
 
         {tab === 'commanders' && data.commanders.map(c => {
-          // cast arcs exist only for the CW today; other wars get no arc link until
-          // their cast roster is authored.
-          const arc = war === CIVIL_WAR ? castIdForName(c.name) : undefined
+          // cast arcs exist for the CW and the F&I war; other wars get no arc link
+          // until their cast roster is authored.
+          const arc = war === CIVIL_WAR ? castIdForName(c.name)
+            : war === FRENCH_INDIAN ? fiCastIdForName(c.name)
+            : undefined
+          // F&I commanders with no born-verified portrait fall back to a
+          // representative period figure by side (clearly a type-figure, not a
+          // claimed likeness). A real portrait always wins.
+          const isRep = !c.img && war === FRENCH_INDIAN && !!FI_REP_IMG[c.side]
+          const picSrc = c.img || (isRep ? FI_REP_IMG[c.side] : '')
           return (
             <div className={'bp-cmd ' + c.side} key={c.name}>
-              <span className="pic">
+              <span className={'pic' + (isRep ? ' rep' : '')}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={c.img} alt="" />
+                {picSrc && <img src={picSrc} alt="" />}
               </span>
               <div className="bd">
                 <div className="nm p-serif">{c.name}</div>
