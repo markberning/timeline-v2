@@ -68,9 +68,9 @@ export const FRENCH_INDIAN: WarConfig = {
     { id: 'fi-fort-william-henry', name: 'Fort William Henry', year: 1757, m: 8, mo: 'Aug', place: 'Lake George, NY', theatre: 'fi-battles', size: 'l', href: '/war-french-indian/battles/fort-william-henry' },
     // ── Pitt's Turn (1758) ──
     { id: 'fi-carillon', name: 'Carillon (Ticonderoga)', year: 1758, m: 7, mo: 'Jul', place: 'Ticonderoga, NY', theatre: 'fi-battles', size: 'm', href: '/war-french-indian/battles/carillon' },
-    { id: 'fi-louisbourg', name: 'Louisbourg', year: 1758, m: 7, mo: 'Jun–Jul', place: 'Île-Royale (Cape Breton)', theatre: 'fi-battles', size: 'l' },
-    { id: 'fi-frontenac', name: 'Fort Frontenac', year: 1758, m: 8, mo: 'Aug', place: 'Kingston, ON', theatre: 'fi-battles', size: 's' },
-    { id: 'fi-fort-duquesne', name: 'Fort Duquesne', year: 1758, m: 11, mo: 'Nov', place: 'Pittsburgh, PA', theatre: 'fi-battles', size: 'm' },
+    { id: 'fi-louisbourg', name: 'Louisbourg', year: 1758, m: 7, mo: 'Jun–Jul', place: 'Île-Royale (Cape Breton)', theatre: 'fi-battles', size: 'l', href: '/war-french-indian/battles/louisbourg' },
+    { id: 'fi-frontenac', name: 'Fort Frontenac', year: 1758, m: 8, mo: 'Aug', place: 'Kingston, ON', theatre: 'fi-battles', size: 's', href: '/war-french-indian/battles/fort-frontenac' },
+    { id: 'fi-fort-duquesne', name: 'Fort Duquesne', year: 1758, m: 11, mo: 'Nov', place: 'Pittsburgh, PA', theatre: 'fi-battles', size: 'm', href: '/war-french-indian/battles/fort-duquesne' },
     // ── The Conquest of Canada (1759–60) ──
     { id: 'fi-niagara', name: 'Fort Niagara', year: 1759, m: 7, mo: 'Jul', place: 'Youngstown, NY', theatre: 'fi-battles', size: 'm' },
     { id: 'fi-quebec', name: 'Quebec (Plains of Abraham)', year: 1759, m: 9, mo: 'Sep', place: 'Quebec City', theatre: 'fi-battles', size: 'xl' },
