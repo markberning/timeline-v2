@@ -124,7 +124,10 @@ function BattlesTab() {
     const onScroll = () => {
       cancelAnimationFrame(raf)
       raf = requestAnimationFrame(() => {
-        const line = (mapRef.current?.getBoundingClientRect().bottom ?? mapTop) + 14
+        // Trigger ~40% down the area below the pinned map, so a battle lights up
+        // earlier (while its row is still well down the list), not only at the map edge.
+        const mapBottom = mapRef.current?.getBoundingClientRect().bottom ?? mapTop
+        const line = mapBottom + Math.max(60, (window.innerHeight - mapBottom) * 0.4)
         let cur = rows[0].dataset.id
         for (const r of rows) {
           if (r.getBoundingClientRect().top <= line) cur = r.dataset.id
@@ -144,7 +147,7 @@ function BattlesTab() {
   const dots: Dot[] = list.map(b => {
     const ll = FI_BATTLE_LL[b.id]; if (!ll) return null
     const isA = b.id === active
-    return { lat: ll[0], lon: ll[1], active: isA, color: isA ? '#e9c7ef' : '#615767' }
+    return { lat: ll[0], lon: ll[1], active: isA, plain: !isA, color: isA ? '#e23bd6' : '#6b6170' }
   }).filter(Boolean) as Dot[]
 
   return (
