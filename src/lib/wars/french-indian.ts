@@ -72,10 +72,10 @@ export const FRENCH_INDIAN: WarConfig = {
     { id: 'fi-frontenac', name: 'Fort Frontenac', year: 1758, m: 8, mo: 'Aug', place: 'Kingston, ON', theatre: 'fi-battles', size: 's', href: '/war-french-indian/battles/fort-frontenac' },
     { id: 'fi-fort-duquesne', name: 'Fort Duquesne', year: 1758, m: 11, mo: 'Nov', place: 'Pittsburgh, PA', theatre: 'fi-battles', size: 'm', href: '/war-french-indian/battles/fort-duquesne' },
     // ── The Conquest of Canada (1759–60) ──
-    { id: 'fi-niagara', name: 'Fort Niagara', year: 1759, m: 7, mo: 'Jul', place: 'Youngstown, NY', theatre: 'fi-battles', size: 'm' },
-    { id: 'fi-quebec', name: 'Quebec (Plains of Abraham)', year: 1759, m: 9, mo: 'Sep', place: 'Quebec City', theatre: 'fi-battles', size: 'xl' },
-    { id: 'fi-sainte-foy', name: 'Sainte-Foy', year: 1760, m: 4, mo: 'Apr', place: 'Quebec City', theatre: 'fi-battles', size: 'm' },
-    { id: 'fi-montreal', name: 'Montreal', year: 1760, m: 9, mo: 'Sep', place: 'Montreal, QC', theatre: 'fi-battles', size: 'l' },
+    { id: 'fi-niagara', name: 'Fort Niagara', year: 1759, m: 7, mo: 'Jul', place: 'Youngstown, NY', theatre: 'fi-battles', size: 'm', href: '/war-french-indian/battles/fort-niagara' },
+    { id: 'fi-quebec', name: 'Quebec (Plains of Abraham)', year: 1759, m: 9, mo: 'Sep', place: 'Quebec City', theatre: 'fi-battles', size: 'xl', href: '/war-french-indian/battles/quebec' },
+    { id: 'fi-sainte-foy', name: 'Sainte-Foy', year: 1760, m: 4, mo: 'Apr', place: 'Quebec City', theatre: 'fi-battles', size: 'm', href: '/war-french-indian/battles/sainte-foy' },
+    { id: 'fi-montreal', name: 'Montreal', year: 1760, m: 9, mo: 'Sep', place: 'Montreal, QC', theatre: 'fi-battles', size: 'l', href: '/war-french-indian/battles/montreal' },
   ],
   // Off the battlefield — the heart of this war (weighted at least as heavily as the
   // battles). type uses the same vocabulary as the Civil War themes.
