@@ -15,25 +15,9 @@ const FORT_NECESSITY_NARR: Record<string, Narr> = {
     eyebrow: 'Fort Necessity · Bracing for revenge',
     title: 'A fort named Necessity',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · July 1754',
-        caption: 'After the killing at Jumonville Glen, Washington fell back to Great Meadows and built Fort Necessity, a stockade in an open mountain meadow. A French revenge force came down from Fort Duquesne at the Forks of the Ohio.',
-        frame: { lonMin: -81.0, lonMax: -78.0, latMin: 39.2, latMax: 40.85 },
-        states: [
-          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78.6, labelLat: 40.6 },
-          { name: 'Maryland', label: 'MARYLAND', labelLon: -78.5, labelLat: 39.45, labelSize: 13 },
-          { name: 'Virginia', label: 'VIRGINIA', labelLon: -79.7, labelLat: 39.3, labelSize: 13 },
-          { name: 'Ohio', label: 'OHIO', labelLon: -80.7, labelLat: 40.4, labelSize: 13 },
-          { name: 'West Virginia' },
-        ],
-        dots: [
-          { name: 'Fort Necessity', date: 'July 3, 1754', lat: 39.81, lon: -79.59, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Fort Duquesne', lat: 40.44, lon: -80.01, color: '#8a8175', anchor: 'end' },
-          { name: 'Fort Cumberland', lat: 39.65, lon: -78.76, color: '#8a8175', anchor: 'start' },
-        ],
-      } },
       { p: 'It began with blood in a wet ravine. On May 28, 1754, a young Virginia officer named George Washington (British), then twenty-two, surprised a small French party in the woods of western Pennsylvania at a place called Jumonville Glen. The skirmish was over in minutes, but its ending was ugly: the French commander, an officer named Jumonville, lay dead among the wounded, killed by Tanaghrisson, the Mingo leader the British called the Half King, after the shooting had stopped. Roughly ten or twelve French were killed and some twenty-one taken prisoner. Whatever exactly had happened in that glen, one thing was certain. The French at Fort Duquesne, the timber stronghold they had just raised at the Forks of the Ohio (the junction of two rivers that is now Pittsburgh), would come for revenge.' },
       { pill: '/war-french-indian/battles/jumonville-glen', plabel: 'The skirmish that started it: Jumonville Glen, May 1754' },
+      { fig: '/war-img/fi-new-france-map.jpg', cap: 'New France and the Ohio Country: the vast interior that France claimed from the St. Lawrence to the Gulf, and that Virginia and the Ohio nations both contested.', credit: 'Stuff Happened map' },
       { p: 'This was always a fight over the Ohio Country, the vast interior beyond the Allegheny Mountains, and the river road into it. Both Britain and France claimed the Forks; both wanted the land and the fur and trade that came with it. France had gotten there first and built Fort Duquesne. But the land was not theirs, and it was not empty. Living on it were Native nations, the Mingo (the Ohio Iroquois), the Lenape (also called Delaware), the Shawnee and others, each navigating between two empires to hold onto their own country and their own freedom to act. For a Mingo family at the Forks, the abstraction had a face: the bottomland where they planted their corn, the runs where they trapped beaver to trade for powder and cloth, the river path their relatives had traveled for generations. It had never stopped being their country, even as two distant crowns argued over who would get to keep settlers off it. Washington had a small Virginia force out near the Forks to contest the French claim, and now he had started a shooting war he was in no shape to finish.' },
       { p: 'He fell back to a wide, marshy clearing called Great Meadows and dug in. There, between roughly the last day of May and the first days of June, his men threw up a small round palisade of upright logs about seven feet high and only about fifty feet across, with a shed inside for ammunition and shallow entrenchments dug outside the walls. Washington named it, fittingly, Fort Necessity. It was not a fortress. It was a circle of logs in an open meadow, about as wide as a modern tennis court is long, big enough to hold powder and a knot of men, and not much more.' },
       { p: 'The ground was bad in a way that would matter terribly. The little fort sat in a low, boggy depression, and the meadow was ringed by wooded high ground. Washington misjudged the distance to those trees. He seems to have believed the tree line stood safely out of musket range; in fact the woods came down within musket range, the nearest trees under sixty yards off, close enough for men hidden among the trunks to fire down into the open fort and the trenches around it. He had built a target and stood his army in the middle of it.' },

@@ -23,6 +23,25 @@ const DATA: BattleData = {
     img: '/war-img/fi-monongahela-defeat.jpg',
     pal: ['#3a2a1c', '#5a3526', '#140b06'],
   },
+  locator: {
+    eyebrow: 'Where and when · July 1755',
+    caption: 'Braddock cut a road northwest from Fort Cumberland in Maryland toward the French stronghold of Fort Duquesne, at the Forks of the Ohio (today Pittsburgh). The battle caught his army on the Monongahela River about ten miles short of the fort.',
+    frame: { lonMin: -80.8, lonMax: -77.5, latMin: 39.2, latMax: 41.1 },
+    states: [
+      { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78.2, labelLat: 40.85 },
+      { name: 'Maryland', label: 'MARYLAND', labelLon: -78.3, labelLat: 39.45, labelSize: 13 },
+      { name: 'Virginia', label: 'VIRGINIA', labelLon: -79.6, labelLat: 39.3, labelSize: 13 },
+      { name: 'Ohio', label: 'OHIO', labelLon: -80.6, labelLat: 40.5, labelSize: 13 },
+      { name: 'West Virginia' },
+      { name: 'New York' },
+    ],
+    dots: [
+      { name: 'Fort Duquesne', lat: 40.44, lon: -80.01, color: '#8a8175', anchor: 'end' },
+      { name: 'The Monongahela', date: 'July 9, 1755', lat: 40.40, lon: -79.86, heavy: true, anchor: 'start', dateBelow: true },
+      { name: 'Fort Necessity', lat: 39.81, lon: -79.59, color: '#8a8175', anchor: 'end' },
+      { name: 'Fort Cumberland', lat: 39.65, lon: -78.76, color: '#8a8175', anchor: 'start' },
+    ],
+  },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

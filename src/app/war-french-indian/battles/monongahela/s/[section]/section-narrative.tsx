@@ -15,25 +15,6 @@ const MONONGAHELA_NARR: Record<string, Narr> = {
     eyebrow: 'Monongahela · The march in',
     title: 'The road to the forks',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · July 1755',
-        caption: 'Braddock cut a road northwest from Fort Cumberland in Maryland toward the French stronghold of Fort Duquesne, at the Forks of the Ohio (today Pittsburgh). The battle caught his army on the Monongahela River about ten miles short of the fort.',
-        frame: { lonMin: -80.8, lonMax: -77.5, latMin: 39.2, latMax: 41.1 },
-        states: [
-          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78.2, labelLat: 40.85 },
-          { name: 'Maryland', label: 'MARYLAND', labelLon: -78.3, labelLat: 39.45, labelSize: 13 },
-          { name: 'Virginia', label: 'VIRGINIA', labelLon: -79.6, labelLat: 39.3, labelSize: 13 },
-          { name: 'Ohio', label: 'OHIO', labelLon: -80.6, labelLat: 40.5, labelSize: 13 },
-          { name: 'West Virginia' },
-          { name: 'New York' },
-        ],
-        dots: [
-          { name: 'Fort Duquesne', lat: 40.44, lon: -80.01, color: '#8a8175', anchor: 'end' },
-          { name: 'The Monongahela', date: 'July 9, 1755', lat: 40.40, lon: -79.86, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Fort Necessity', lat: 39.81, lon: -79.59, color: '#8a8175', anchor: 'end' },
-          { name: 'Fort Cumberland', lat: 39.65, lon: -78.76, color: '#8a8175', anchor: 'start' },
-        ],
-      } },
       { p: 'Two great rivers, the Allegheny and the Monongahela, meet in the wilderness of western Pennsylvania and join to become the Ohio, the river road into the whole interior of the continent. Whoever held that junction, the Forks of the Ohio, held the gateway to the fur trade and to millions of acres of land beyond the mountains. Both Britain and France claimed it. Neither would let it go. But the land was not empty, and it was not theirs. Living on it were Native nations, the Shawnee, the Lenape (also called Delaware), the Mingo and others, and underneath the imperial flags this war was, from the start, a fight over their country and who would get to keep settlers off it.' },
       { p: 'The French got there first. They built Fort Duquesne at the Forks, a timber stronghold under the command of Claude-Pierre Pécaudy de Contrecœur, and held the most valuable real estate on the frontier. The British had already tried to push them off it and failed. A young Virginia officer named George Washington (British), then twenty-two, had fired the opening shots of the contest in 1754 at a place called Jumonville Glen, then been cornered and forced to surrender his own little stockade, Fort Necessity, that July. The lesson London drew was simple: send professionals.' },
       { pill: '/war-french-indian/battles/fort-necessity', plabel: "Washington's 1754 surrender at Fort Necessity" },
@@ -64,6 +45,7 @@ const MONONGAHELA_NARR: Record<string, Narr> = {
     eyebrow: 'Monongahela · The killing',
     title: 'The slaughter on the road',
     blocks: [
+      { fig: '/war-img/fi-monongahela-defeat.jpg', cap: 'The rout on Braddock’s road, July 9, 1755: regulars packed on a forest track, fired on from every side by an enemy they could not see.', credit: 'public domain' },
       { p: 'What happened next was not a battle so much as a butchering, and the thing that made it possible was the discipline the British were so proud of. Gage’s advance guard, hit hard and from cover, fell back and ran into the main body coming up behind. The two crowded together on the narrow road and bunched into a dense, jostling mass, hundreds of men in bright coats packed onto a cut track in the forest while an enemy they could barely glimpse fired into them from the trees and ravines on either flank.' },
       { p: 'The British way of fighting had no answer to this. Their whole system, ranks firing volleys on command, depended on an enemy willing to stand in the open and trade fire; against men shooting from cover who never massed into a target, there was nothing to aim the volleys at. So the regulars did the only thing they had ever been trained to do. They formed up and fired into the woods, on command, at an enemy who would not stand to be shot. Their fire mostly hit leaves and trunks. The return fire hit men.' },
       { p: 'Worse, in the smoke and panic the British began firing on each other. The colonial provincials had taken to fighting from behind trees, the sane thing to do, the thing the situation demanded, and the regulars cut them down for it, shooting their own countrymen for breaking ranks. It was an injustice that would run through the whole war: the men who fought the right way killed by the men who would not. Over the noise came the war-whoops of the warriors, and between the fire pouring out of ground they could not see, and their own volleys doing nothing, and those cries, the line at the edges began to come apart. Their nerve gave way.' },

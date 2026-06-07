@@ -23,6 +23,23 @@ const DATA: BattleData = {
     img: '/war-img/fi-new-france-map.jpg',
     pal: ['#2b2a24', '#46412f', '#12100a'],
   },
+  locator: {
+    eyebrow: 'Where and when · July 1754',
+    caption: 'After the killing at Jumonville Glen, Washington fell back to Great Meadows and built Fort Necessity, a stockade in an open mountain meadow. A French revenge force came down from Fort Duquesne at the Forks of the Ohio.',
+    frame: { lonMin: -81.0, lonMax: -78.0, latMin: 39.2, latMax: 40.85 },
+    states: [
+      { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78.6, labelLat: 40.6 },
+      { name: 'Maryland', label: 'MARYLAND', labelLon: -78.5, labelLat: 39.45, labelSize: 13 },
+      { name: 'Virginia', label: 'VIRGINIA', labelLon: -79.7, labelLat: 39.3, labelSize: 13 },
+      { name: 'Ohio', label: 'OHIO', labelLon: -80.7, labelLat: 40.4, labelSize: 13 },
+      { name: 'West Virginia' },
+    ],
+    dots: [
+      { name: 'Fort Necessity', date: 'July 3, 1754', lat: 39.81, lon: -79.59, heavy: true, anchor: 'start', dateBelow: true },
+      { name: 'Fort Duquesne', lat: 40.44, lon: -80.01, color: '#8a8175', anchor: 'end' },
+      { name: 'Fort Cumberland', lat: 39.65, lon: -78.76, color: '#8a8175', anchor: 'start' },
+    ],
+  },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [
