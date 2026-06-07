@@ -4,7 +4,7 @@
 // (stat strip + armies face-off + casualties) · outcome card · commanders strip ·
 // numbered section list. Content via the war content pipeline (audits/war-content-pipeline.md).
 
-import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 // FLAG: hero credit — /war-img/forts-jackson-hero.jpg has no source/PD comment in the original; credit left blank pending verification.

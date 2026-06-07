@@ -5,7 +5,7 @@
 // (audits/war-content-pipeline.md): fact pack → author → fact-check + storytelling
 // critic → revise → integrate.
 
-import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const DATA: BattleData = {

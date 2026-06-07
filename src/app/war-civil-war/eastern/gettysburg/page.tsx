@@ -8,7 +8,7 @@
 import { useState } from 'react'
 import { SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
-import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 
 const num = (n: number) => n.toLocaleString('en-US')
 

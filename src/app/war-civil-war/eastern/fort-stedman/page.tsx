@@ -6,7 +6,7 @@
 // pipeline (audits/war-content-pipeline.md). Facts web-verified against American
 // Battlefield Trust, NPS (Petersburg National Battlefield), and Wikipedia.
 
-import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const DATA: BattleData = {

@@ -8,7 +8,7 @@
 // masthead is the dotted Lake George / Lake Champlain locator map (no hero image yet).
 // Sources: audits/war-pipeline/fi-fort-william-henry-*.
 
-import { BattleDossier, type BattleData } from '../../../war-civil-war/battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { warCrumbs } from '@/components/mode/theatre-page'
 import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 

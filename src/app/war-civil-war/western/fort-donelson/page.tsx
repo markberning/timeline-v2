@@ -8,7 +8,7 @@
 // in the legend; BattleData.casualties only accepts integers. Using union:2700.
 // The "killed & wounded" qualifier is lost in the conversion.
 
-import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const DATA: BattleData = {

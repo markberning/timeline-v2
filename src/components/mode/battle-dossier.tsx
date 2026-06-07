@@ -7,7 +7,7 @@
 // the two SIDES keep the union/confed palette. Skin tokens live in ./war-skin.css.
 // Every battle page is a thin wrapper that hands one BattleData object to this.
 
-import './war-skin.css'
+import '../../app/war-civil-war/war-skin.css'
 import { useEffect, useRef, useState } from 'react'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'

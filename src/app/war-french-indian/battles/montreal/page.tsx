@@ -9,7 +9,7 @@
 // born-verified prose. The dossier masthead is the dotted three-army-convergence
 // locator map (no hero image). Source: audits/war-pipeline/fi-montreal-*.
 
-import { BattleDossier, type BattleData } from '../../../war-civil-war/battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { warCrumbs } from '@/components/mode/theatre-page'
 import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 

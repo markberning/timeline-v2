@@ -4,7 +4,7 @@
 // <BattleDossier> (new war skin, tabbed). Content via the war content pipeline
 // (audits/war-content-pipeline.md).
 
-import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const DATA: BattleData = {

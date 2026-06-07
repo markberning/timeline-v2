@@ -7,7 +7,7 @@
 // via sideNames + sideColors. Commander bios are gated, born-verified prose. The dossier
 // masthead is the dotted Lake Ontario / Lake Erie locator map (no hero image exists yet).
 
-import { BattleDossier, type BattleData } from '../../../war-civil-war/battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { warCrumbs } from '@/components/mode/theatre-page'
 import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 

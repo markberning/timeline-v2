@@ -8,7 +8,7 @@
 // prose. The dossier masthead is the dotted St. Lawrence locator map (Montreal-to-Quebec
 // river corridor; no hero image exists yet). Sources: audits/war-pipeline/fi-sainte-foy-*.
 
-import { BattleDossier, type BattleData } from '../../../war-civil-war/battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { warCrumbs } from '@/components/mode/theatre-page'
 import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 

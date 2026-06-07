@@ -8,7 +8,7 @@
 // campaign carry a third 'n' affiliation (LENAPE) on the commanders board. Commander
 // bios are gated, born-verified prose. Sources: audits/war-pipeline/fi-fort-duquesne-*.
 
-import { BattleDossier, type BattleData } from '../../../war-civil-war/battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { warCrumbs } from '@/components/mode/theatre-page'
 import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 

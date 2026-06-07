@@ -7,7 +7,7 @@
 // the legend; BattleData.casualties only accepts integers. Using csa:2800. The
 // "(mostly captured)" qualifier is lost in the conversion.
 
-import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const DATA: BattleData = {

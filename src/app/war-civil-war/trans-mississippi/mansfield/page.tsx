@@ -6,7 +6,7 @@
 // pipeline (audits/war-content-pipeline.md): audits/war-pipeline/mansfield-final.md
 // + mansfield-factpack.md.
 
-import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 // FLAG: hero credit — /war-img/mansfield-hero.jpg has no source/PD comment in the original; credit left blank pending verification.

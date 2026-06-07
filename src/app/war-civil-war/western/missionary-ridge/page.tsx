@@ -5,7 +5,7 @@
 // card · commanders strip · numbered section list. Content via the war content pipeline
 // (audits/war-content-pipeline.md).
 
-import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 // FLAG: hero.credit — no credit string or comment in the original source file; needs a born-verified attribution.

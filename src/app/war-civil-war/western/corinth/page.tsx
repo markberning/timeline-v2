@@ -7,7 +7,7 @@
 // BattleData.casualties only accepts integers. Using csa:4500 (midpoint from source).
 // The range annotation is lost in the conversion.
 
-import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const DATA: BattleData = {

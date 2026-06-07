@@ -6,7 +6,7 @@
 // special-cased: the bombardment killed no one — the lone death (Pvt. Hough)
 // came by accident during the surrender salute.
 
-import { BattleDossier, type BattleData } from '../../battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const DATA: BattleData = {

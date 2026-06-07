@@ -6,7 +6,7 @@
 // gates → reconcile → revise. Sides are war-aware: British (red) / French (blue), set
 // via sideNames + sideColors. Commander bios are gated, born-verified prose.
 
-import { BattleDossier, type BattleData } from '../../../war-civil-war/battle-dossier'
+import { BattleDossier, type BattleData } from '../../../../components/mode/battle-dossier'
 import { warCrumbs } from '@/components/mode/theatre-page'
 import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 
