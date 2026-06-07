@@ -62,7 +62,7 @@ export const FRENCH_INDIAN: WarConfig = {
     { id: 'fi-jumonville', name: 'Jumonville Glen', year: 1754, m: 5, mo: 'May', place: 'Fayette Co., PA', theatre: 'fi-battles', size: 'm' },
     { id: 'fi-fort-necessity', name: 'Fort Necessity', year: 1754, m: 7, mo: 'Jul', place: 'Great Meadows, PA', theatre: 'fi-battles', size: 'm' },
     // ── Years of Disaster (1755–57) ──
-    { id: 'fi-monongahela', name: 'The Monongahela', year: 1755, m: 7, mo: 'Jul', place: 'Braddock, PA', theatre: 'fi-battles', size: 'l' },
+    { id: 'fi-monongahela', name: 'The Monongahela', year: 1755, m: 7, mo: 'Jul', place: 'Braddock, PA', theatre: 'fi-battles', size: 'l', href: '/war-french-indian/battles/monongahela', img: '/war-img/fi-monongahela-defeat.jpg' },
     { id: 'fi-lake-george', name: 'Lake George', year: 1755, m: 9, mo: 'Sep', place: 'Lake George, NY', theatre: 'fi-battles', size: 'm' },
     { id: 'fi-oswego', name: 'Fort Oswego', year: 1756, m: 8, mo: 'Aug', place: 'Oswego, NY', theatre: 'fi-battles', size: 's' },
     { id: 'fi-fort-william-henry', name: 'Fort William Henry', year: 1757, m: 8, mo: 'Aug', place: 'Lake George, NY', theatre: 'fi-battles', size: 'l' },

@@ -43,6 +43,12 @@ export type BattleData = {
   theatre: string            // lane id — a theatre for the CW, a phase for the F&I war
   crumbs: Crumb[]            // from warCrumbs() — carries the jump dropdown
   backHref?: string          // back-arrow target (defaults to the war home)
+  // Side identity is generic: 'u' = side one, 'c' = side two. The Civil War keeps the
+  // defaults (Union / Confederate, blue / red). Other wars override the tag text and
+  // re-tint the two side colours by passing sideNames + sideColors (e.g. F&I:
+  // British / French). Backward-compatible: omit both and CW behaviour is unchanged.
+  sideNames?: { u: string; c: string }   // role-tag text (default UNION / CSA)
+  sideColors?: { u: string; c: string }  // CSS colour values; override --union / --confed at the dossier root
   eyebrow: string            // "Battle · Naval & Coastal"
   title: string
   date: string
@@ -128,8 +134,15 @@ export function BattleDossier({ data }: { data: BattleData }) {
   const cas = data.casualties
   const casTotal = cas ? cas.union + cas.csa + (cas.civ ?? 0) : 0
 
+  // Re-tint the two sides for non-CW wars (F&I: British red / French blue). The whole
+  // side UI (face-off blocks, casualty bar, commander rings) reads var(--union)/--confed,
+  // so overriding those two vars at the root recolours everything without touching CSS.
+  const sideVars = data.sideColors
+    ? { ['--union' as string]: data.sideColors.u, ['--confed' as string]: data.sideColors.c }
+    : {}
+
   return (
-    <div className="war-skin" style={{ ['--accent' as string]: accent } as React.CSSProperties}>
+    <div className="war-skin" style={{ ['--accent' as string]: accent, ...sideVars } as React.CSSProperties}>
       {/* sticky header */}
       <header className="p-hdr">
         <a className="back" href={data.backHref ?? war.routeBase} aria-label={`Back to the ${war.name}`}>{I.back}</a>
@@ -222,7 +235,7 @@ export function BattleDossier({ data }: { data: BattleData }) {
               </span>
               <div className="bd">
                 <div className="nm p-serif">{c.name}</div>
-                <div className="role"><span className="sd">{c.side === 'u' ? 'UNION' : 'CSA'}</span><span className="rl">{c.role}</span></div>
+                <div className="role"><span className="sd">{c.side === 'u' ? (data.sideNames?.u ?? 'UNION') : (data.sideNames?.c ?? 'CSA')}</span><span className="rl">{c.role}</span></div>
                 <div className="bio">{c.bio}</div>
                 {arc && <a className="arc" href={`${war.routeBase}/cast/${arc}`}>Follow the full arc</a>}
               </div>

@@ -1,0 +1,111 @@
+'use client'
+
+// The Monongahela (Braddock's Defeat, 1755), battle sections. Produced through the
+// war content pipeline (audits/war-content-pipeline.md): fact pack → author (Opus) →
+// five critic gates (fact-check + storytelling + comprehensiveness + clarity +
+// fairness, Sonnet, parallel) → reconcile → revise. Data only; rendered by the shared
+// <BattleSectionReader>. House voice: no em-dashes; British/French side-tags once on
+// first mention per section; stakes named plainly (an imperial war that was, on the
+// ground, a war over Native land). Sources: audits/war-pipeline/fi-monongahela-*.
+
+import { BattleSectionReader, type Narr } from '@/components/mode/battle-reader'
+
+const MONONGAHELA_NARR: Record<string, Narr> = {
+  'the-road-to-the-forks': {
+    eyebrow: 'Monongahela · The march in',
+    title: 'The road to the forks',
+    blocks: [
+      { locator: {
+        eyebrow: 'Where and when · July 1755',
+        caption: 'Braddock cut a road northwest from Fort Cumberland in Maryland toward the French stronghold of Fort Duquesne, at the Forks of the Ohio (today Pittsburgh). The battle caught his army on the Monongahela River about ten miles short of the fort.',
+        frame: { lonMin: -80.8, lonMax: -77.5, latMin: 39.2, latMax: 41.1 },
+        states: [
+          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78.2, labelLat: 40.85 },
+          { name: 'Maryland', label: 'MARYLAND', labelLon: -78.3, labelLat: 39.45, labelSize: 13 },
+          { name: 'Virginia', label: 'VIRGINIA', labelLon: -79.6, labelLat: 39.3, labelSize: 13 },
+          { name: 'Ohio', label: 'OHIO', labelLon: -80.6, labelLat: 40.5, labelSize: 13 },
+          { name: 'West Virginia' },
+          { name: 'New York' },
+        ],
+        dots: [
+          { name: 'Fort Duquesne', lat: 40.44, lon: -80.01, color: '#8a8175', anchor: 'end' },
+          { name: 'The Monongahela', date: 'July 9, 1755', lat: 40.40, lon: -79.86, heavy: true, anchor: 'start', dateBelow: true },
+          { name: 'Fort Necessity', lat: 39.81, lon: -79.59, color: '#8a8175', anchor: 'end' },
+          { name: 'Fort Cumberland', lat: 39.65, lon: -78.76, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
+      { p: 'Two great rivers, the Allegheny and the Monongahela, meet in the wilderness of western Pennsylvania and join to become the Ohio, the river road into the whole interior of the continent. Whoever held that junction, the Forks of the Ohio, held the gateway to the fur trade and to millions of acres of land beyond the mountains. Both Britain and France claimed it. Neither would let it go. But the land was not empty, and it was not theirs. Living on it were Native nations, the Shawnee, the Lenape (also called Delaware), the Mingo and others, and underneath the imperial flags this war was, from the start, a fight over their country and who would get to keep settlers off it.' },
+      { p: 'The French got there first. They built Fort Duquesne at the Forks, a timber stronghold under the command of Claude-Pierre Pécaudy de Contrecœur, and held the most valuable real estate on the frontier. The British had already tried to push them off it and failed. A young Virginia officer named George Washington (British), then twenty-two, had fired the opening shots of the contest in 1754 at a place called Jumonville Glen, then been cornered and forced to surrender his own little stockade, Fort Necessity, that July. The lesson London drew was simple: send professionals.' },
+      { pill: '/war-french-indian/battles/fort-necessity', plabel: "Washington's 1754 surrender at Fort Necessity" },
+      { p: 'So they sent Major General Edward Braddock, a career soldier of sixty, rigid, brave, and certain that the way to fight a war was the way it was fought in Europe: disciplined ranks, volleys on command, men standing shoulder to shoulder. He was made Commander-in-Chief in North America in 1755. His drive on Fort Duquesne was the flagship of four British attacks launched that summer (the others aimed at Crown Point on Lake Champlain, at Fort Niagara, and at Fort Beauséjour in Nova Scotia), and it would become the worst failure among them. On May 29 he marched out of Fort Cumberland, Maryland, at the head of two regiments of regulars (the king’s professional, full-time soldiers) brought over from Ireland, stiffened with provincials, the part-time troops raised in the colonies. One of his colonels, Thomas Dunbar, would matter a great deal later.' },
+      { fig: '/war-img/fi-edward-braddock.jpg', cap: 'Major General Edward Braddock, who carried European parade-ground tactics into the American forest and was killed leading the column that those tactics destroyed.', credit: 'public domain' },
+      { p: 'His enemy was not just the French. It was the Allegheny Mountains. Braddock’s army had to drag men, provisions, and heavy siege cannon across a hundred and ten miles of dense, trackless forest, cutting a road as it went, the road that came to bear his name. At first they made as little as two miles a day. Benjamin Franklin scrounged the wagons that kept them moving. Daniel Boone, then a young man, drove one of those wagons as a teamster.' },
+      { p: 'Braddock had no patience for the country or for the people who knew how to fight in it. He waved off colonial warnings that the woods were no place for parade-ground tactics; his men, he said, would fight as gentlemen. And he made a choice that cost him the help he needed most. Before the campaign, the Lenape war chief Shingas and other Ohio leaders came to him and asked, plainly, what the English would do with the Ohio land if they won it. By Shingas’s own later account, Braddock told them the English would inhabit and inherit the land, and that no savage should inherit the land. Asked a second time, he gave the same answer, and said he did not need their help. So the Ohio warriors who might have scouted and screened his march withheld it. He went into the deepest forest in the world with about eight Native scouts.' },
+      { p: 'Then, to gain time, he split his force. A fast flying column (a stripped-down, fast-moving detachment) of roughly thirteen hundred men went ahead under his own command, traveling light toward Fort Duquesne. The rest, a supply column of some eight hundred under Dunbar, fell far behind.' },
+    ],
+    meanwhile: { region: 'London', title: 'A war nobody had declared', body: 'When Braddock sailed for America, Britain and France were not formally at war. The fighting over the Ohio Country ran ahead of the diplomats; the two crowns were still nominally at peace even as their soldiers cut roads and built forts at each other in the wilderness. That gap between paper and practice would matter later, when the French got hold of Braddock’s papers.' },
+  },
+
+  'the-crossing': {
+    eyebrow: 'Monongahela · First contact',
+    title: 'The crossing',
+    blocks: [
+      { p: 'They crossed in good order, flags flying and fife and drum beating, the regulars in their red coats stepping through the July shallows of the Monongahela in the sun. It was the morning of July 9, 1755, and the flying column had come down to the river about ten miles short of Fort Duquesne. To avoid a narrows where the bank closed in and would have forced the men into a tight column, the army forded the river not once but twice, wading across, marching a stretch on the far side, and wading back. They were close now. Spirits were high. The hardest part, they thought, was the mountains, and the mountains were behind them.' },
+      { p: 'Inside Fort Duquesne, Contrecœur was not waiting to be besieged. He sent a force out to hit the British at the water. To lead it he chose Captain Daniel-Hyacinthe-Marie Liénard de Beaujeu (French), who did something no parade-ground general would have understood: he put on full war regalia (a warrior’s ceremonial war dress) and war paint, and went among the Native warriors not as a commander issuing orders but as one of them, persuading them to come out and fight. Hundreds followed.' },
+      { p: 'It was a force of about nine hundred men, and the great majority of them were Native warriors, roughly six hundred, drawn from the western Great Lakes and the Ohio country, fighting for their own stake in the land. With them went about a hundred French colonial regulars and a hundred and fifty Canadian militia. A Canadian officer, Charles-Michel Mouet de Langlade, had done much of the work of bringing the nations together. The warriors came from many peoples, with their own reasons to keep the British off the Ohio.' },
+      { fig: '/war-img/fi-braddock-monongahela-map.jpg', cap: 'Braddock’s road ran a hundred and ten miles from Fort Cumberland across the Allegheny Mountains, past Great Meadows, to the Monongahela crossing. The battle fell a few miles short of Fort Duquesne, at the Forks of the Ohio.', credit: 'Stuff Happened map' },
+      { p: 'Beaujeu’s force did not arrive in time to lay the ambush he wanted. The two armies simply ran into each other. Around one in the afternoon, the British advance guard of about three hundred men under Lieutenant Colonel Thomas Gage came face to face on the road with Beaujeu’s column coming the other way. It was a collision, not a trap, a meeting engagement in which both sides were surprised. Gage’s men opened fire first.' },
+      { p: 'In those first volleys Beaujeu fell dead. For a moment the French attack might have come apart with its leader gone. It did not. Captain Jean-Daniel Dumas (French), the second-in-command, took charge and steadied the men. And then the warriors did what they had come to do. Instead of standing in the road to trade volleys, they melted into the trees and poured down into the ravines on both sides of the British column, taking cover, working around the flanks, and firing into the packed red ranks from ground the British could not even see.' },
+    ],
+    meanwhile: { region: 'Fort Duquesne', title: 'A garrison that gambled', body: 'Contrecœur had only a small garrison and a powerful column marching on him. The orthodox move was to wait behind his walls. Instead he emptied much of his fighting strength out the gate to meet the British in the open forest. It was a gamble that, but for the warriors’ choice to fight in their own way, could have left him with no army and no fort.' },
+  },
+
+  'the-slaughter-on-the-road': {
+    eyebrow: 'Monongahela · The killing',
+    title: 'The slaughter on the road',
+    blocks: [
+      { p: 'What happened next was not a battle so much as a butchering, and the thing that made it possible was the discipline the British were so proud of. Gage’s advance guard, hit hard and from cover, fell back and ran into the main body coming up behind. The two crowded together on the narrow road and bunched into a dense, jostling mass, hundreds of men in bright coats packed onto a cut track in the forest while an enemy they could barely glimpse fired into them from the trees and ravines on either flank.' },
+      { p: 'The British way of fighting had no answer to this. Their whole system, ranks firing volleys on command, depended on an enemy willing to stand in the open and trade fire; against men shooting from cover who never massed into a target, there was nothing to aim the volleys at. So the regulars did the only thing they had ever been trained to do. They formed up and fired into the woods, on command, at an enemy who would not stand to be shot. Their fire mostly hit leaves and trunks. The return fire hit men.' },
+      { p: 'Worse, in the smoke and panic the British began firing on each other. The colonial provincials had taken to fighting from behind trees, the sane thing to do, the thing the situation demanded, and the regulars cut them down for it, shooting their own countrymen for breaking ranks. It was an injustice that would run through the whole war: the men who fought the right way killed by the men who would not. Over the noise came the war-whoops of the warriors, and between the fire pouring out of ground they could not see, and their own volleys doing nothing, and those cries, the line at the edges began to come apart. Their nerve gave way.' },
+      { p: 'Braddock rode into the chaos trying to force order back onto it. He would not let his men break ranks and take cover; he wanted his lines, his volleys, his gentlemen. He had horse after horse shot from under him and kept mounting another. For about three hours he fought to hold a formation that was killing the men who stood in it. Then a ball took him through the chest. He may even have been shot by one of his own men, in the confusion; no one ever knew for certain. He went down, and with him went what was left of the army’s will to fight.' },
+      { p: 'Through all of it rode the twenty-three-year-old volunteer aide, George Washington (British), who had no formal command at all and had rejoined the column only the day before, still weak from a hard bout of dysentery. He carried Braddock’s orders through the fire, trying to steady the men. Two horses were shot dead under him. Four bullets tore through his coat. He was not touched. He saw the regulars he was trying to rally simply break, and days later, writing home, he could not get over how completely they had gone to pieces: they "were struck with such a panic," he wrote, "that they behaved with more cowardice than it is possible to conceive." When the line finally dissolved and the survivors fled back toward the river, it was Washington who pulled together a rear guard to cover them as they ran.' },
+      { p: 'The flight back across the Monongahela was a rout, panic and broken men splashing back over the fords they had crossed in such fine order that morning. The French and their allies did not chase them far. They stopped to take the field, to loot the dead and wounded and to take scalps. Some of the men captured alive were carried back toward Fort Duquesne and burned at the stake on the riverbank that night, in sight of the captive colonist James Smith, who watched it from inside the fort. The French command did not stop it.' },
+    ],
+    meanwhile: { region: 'The frontier', title: "The provincials' verdict", body: 'The colonial troops who had fought from behind trees, and been shot by their own army for it, drew a lasting lesson from the road that day. The vaunted British regular, standing in a perfect line, had been the easiest target in the forest. It was a humiliation the regulars felt and the colonists remembered.' },
+  },
+
+  'buried-in-the-road': {
+    eyebrow: 'Monongahela · The cost',
+    title: 'Buried in the road',
+    blocks: [
+      { p: 'Of roughly fourteen hundred and sixty men who crossed the Monongahela that morning, about nine hundred and seventy-six were dead or wounded by the time the firing stopped, two of every three, in three to four hours. The officers, who stayed mounted and visible trying to hold the line, were cut down worst of all: of eighty-six officers, sixty-three were killed or wounded. Of the roughly fifty women who traveled with the army as camp followers, the wives, nurses, and cooks who went with every army of the day, only about four came back. Against this the French and their allies lost very lightly, somewhere between two and four dozen killed, Beaujeu the one death that mattered to them.' },
+      { p: 'Braddock lived four more days. Carried with the retreat back toward the Fort Necessity country where Washington had surrendered the year before, he died on the night of July 13. His reported last words, passed down secondhand and never certain in their wording, were a stunned "Who would have thought it?" and, to his wounded aide Captain Robert Orme, "We shall better know how to deal with them another time."' },
+      { p: 'He had asked Washington to see to his burial. The chaplain had been wounded, so Washington himself read the service. Then they buried Braddock in the middle of the road his own army had cut through the wilderness, and drove the wagons and horses of the retreat over the grave to flatten it and hide it, so that the French and the warriors could not find the body and desecrate it. He lay there unmarked and unfound until 1804, when men repairing the road turned up his remains, known again only by the buttons of an officer’s uniform. Daniel Boone, the wagoner, had gotten out alive by cutting his team loose and riding.' },
+      { p: 'The disaster did not end at the riverbank. Colonel Dunbar, taking command of the survivors and the trailing supply column, looked at the wreck of the campaign and judged it hopeless. He burned the stores, the cannon, around a hundred and fifty wagons, everything that might slow a retreat, and pulled back, eventually all the way to Philadelphia. That left the entire frontier behind him undefended, and the farms and settlements out beyond the mountains open to whatever came. What came was years of raids. The defeat had done more than wreck an army; it had proven British weakness in front of every nation watching, and it pushed the wavering Ohio peoples toward the French. The Lenape and the Shawnee, the same nations whose land both empires had been bleeding for, carried much of the fighting that now tore the borders of Pennsylvania, Maryland, and Virginia for years. The war the empires called their own was still, on the ground, a war over whose country this was.' },
+      { p: 'The French gained more than a victory. On the field they captured Braddock’s military papers, his whole plan for the war, written while the two crowns were still officially at peace, a diplomatic and propaganda windfall. They took his artillery train and his supplies and turned them against other British forts.' },
+      { pill: '/war-french-indian/battles/fort-duquesne', plabel: 'Fort Duquesne held until the British finally took it in 1758' },
+      { p: 'It was one of the worst defeats in British colonial history, and it opened a stretch of the war so bleak it earned its own grim label, the "Years of Disaster" of 1755 to 1757, before the tide finally turned. Fort Duquesne stayed French until 1758, when the Forbes Expedition at last took the Forks; the British rebuilt it as Fort Pitt, and the town that grew up around it became Pittsburgh. One reputation came out of the catastrophe rising. The young aide who had two horses killed under him and four holes shot through his coat and walked off the field unhurt was, from that day, a man people in the colonies had heard of, and his own account of his survival reads like a man who could not quite believe it himself.' },
+      { fig: '/war-img/fi-washington-1772.jpg', cap: 'George Washington in 1772, the earliest known portrait of him, painted by Charles Willson Peale seventeen years after the Monongahela and showing him in the uniform of his French and Indian War service.', credit: 'Charles Willson Peale, 1772 · public domain' },
+      { p: 'By the all-powerful dispensations of Providence, I have been protected beyond all human probability and expectation; for I had four bullets through my coat, and two horses shot under me, yet escaped unhurt, altho’ death was levelling my companions on every side of me.', q: true },
+      { p: 'The advance guard overrun first on the road was led by Lieutenant Colonel Thomas Gage. Twenty years later, as the British general in Boston, he would give the orders that started the Revolution at Lexington.' },
+      { pill: '/war-french-indian/off-the-battlefield/ohio-company', plabel: 'The Ohio Country and the land both empires wanted' },
+    ],
+    meanwhile: { region: 'The Ohio Country', title: 'Whose land it was', body: 'The ground both empires bled for was already home to the Shawnee, the Lenape, the Mingo and other nations, who fought beside the French at the Monongahela in large part to keep British settlers off it. Shingas had asked Braddock the plainest question of the whole war, and Braddock had answered it honestly: the English meant to take the land and leave them nothing. The Ohio nations believed him, and acted on it.' },
+  },
+}
+
+export function SectionNarrative({ id }: { id: string }) {
+  return <BattleSectionReader
+    sections={MONONGAHELA_NARR}
+    id={id}
+    slug="monongahela"
+    battleName="The Monongahela"
+    theatreId="fi-battles"
+    battleId="fi-monongahela"
+    theatreHref="/war-french-indian/battles"
+    accent="var(--fi-battles)"
+    endHref="/war-french-indian?theatre=fi-battles"
+    endKicker="Back to the war"
+    endLabel="All the battles"
+  />
+}

@@ -14,6 +14,10 @@
   --line-soft: rgba(34, 32, 30, .08);
   --union: #345080;
   --confed: #9d3a2b;
+  /* French & Indian War side identities (British / French); reused by battle dossiers
+     that pass sideColors. Light-mode values. */
+  --brit: #b13b3b;
+  --french: #3a5fa5;
   --eyebrow: #5c61a0;
   /* theatre palette (distinct from the union/confed SIDE colors) */
   --th-east: #8a5b86;   /* plum */
@@ -56,6 +60,9 @@
   --line-soft: rgba(241, 234, 221, .08);
   --union: #7c9bd1;
   --confed: #df8158;
+  /* F&I side identities, dark-mode values */
+  --brit: #d98a86;
+  --french: #8aa6d8;
   --eyebrow: #9ea4e6;
   --th-east: #c79cd0;
   --th-west: #84c089;
