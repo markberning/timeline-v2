@@ -264,10 +264,15 @@
 .war-skin .p-cmdcard .pic::after { position: absolute; left: 7px; bottom: 7px; padding: 3px 7px; border-radius: 999px; font: 700 8.5px/1 var(--sans); letter-spacing: .07em; color: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, .4); }
 .war-skin .p-cmdcard.u .pic::after { content: 'UNION'; background: var(--union); }
 .war-skin .p-cmdcard.c .pic::after { content: 'CSA'; background: var(--confed); }
+/* French & Indian War cast cards (.fi): British/French identity, not Union/CSA. */
+.war-skin .p-cmdcard.fi.u .pic::after { content: 'BRITISH'; background: var(--brit); }
+.war-skin .p-cmdcard.fi.c .pic::after { content: 'FRENCH'; background: var(--french); }
 .war-skin .p-cmdcard b { display: block; margin-top: 8px; font: 500 16px/1.15 var(--serif); color: var(--ink); }
 .war-skin .p-cmdcard .meta { display: block; margin-top: 3px; font: 700 9.5px/1 var(--sans); letter-spacing: .4px; text-transform: uppercase; }
 .war-skin .p-cmdcard.u .meta { color: var(--union); }
 .war-skin .p-cmdcard.c .meta { color: var(--confed); }
+.war-skin .p-cmdcard.fi.u .meta { color: var(--brit); }
+.war-skin .p-cmdcard.fi.c .meta { color: var(--french); }
 .war-skin .p-cmdcard .ep { display: block; margin-top: 3px; font: italic 400 11.5px/1.35 var(--serif); color: var(--muted); }
 
 /* ===================== BATTLE PAGE (.bp-*) =====================

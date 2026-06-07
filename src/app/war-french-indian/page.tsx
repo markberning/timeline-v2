@@ -93,7 +93,7 @@ function CastTab() {
       </div>
       <div className="p-cmdgrid">
         {CAST_LIST.map(c => (
-          <a key={c.id} className={'p-cmdcard ' + c.side} href={`/war-french-indian/cast/${c.id}/`}>
+          <a key={c.id} className={'p-cmdcard fi ' + c.side} href={`/war-french-indian/cast/${c.id}/`}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <span className="pic"><img src={c.portrait} alt="" /></span>
             <b>{c.name}</b>
