@@ -13,6 +13,8 @@
 // full cast rollout. A `transition` caption marks where a commander's arc shifts
 // theatre (e.g. Grant promoted east).
 
+import { makeCastLookup } from '@/lib/wars/cast-lookup'
+
 export type Side = 'U' | 'C'
 
 export interface CommanderAppearance {
@@ -703,13 +705,7 @@ const CAST_BY_NAME: Record<string, string> = {
   'Franz Sigel': 'sigel',
 }
 
-// Look up a commander's arc id by display name; curly quotes are normalized to
-// straight so both glyph styles of the "Stonewall" nickname match one key.
-export function castIdForName(name: string): string | undefined {
-  const key = name
-    .replace(/[‘’]/g, "'")
-    .replace(/[“”]/g, '"')
-    .replace(/\s+/g, ' ')
-    .trim()
-  return CAST_BY_NAME[key]
-}
+// Look up a commander's arc id by display name (shared normalize-then-lookup; curly
+// quotes are normalized to straight so both glyph styles of the "Stonewall" nickname
+// match one key). Exposed on CIVIL_WAR as `castIdForName`.
+export const castIdForName = makeCastLookup(CAST_BY_NAME)

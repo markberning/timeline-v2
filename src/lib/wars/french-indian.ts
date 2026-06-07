@@ -19,6 +19,7 @@
 // sides; an escalating per-phase palette) — tunable design values, not yet rendered.
 
 import { WAR_STORY_COLOR, WAR_OFFFIELD_COLOR, THEATRE_PALETTE } from './layer-colors'
+import { fiCastIdForName } from '@/lib/french-indian-commanders'
 import type { WarConfig } from './types'
 
 const WAR_ACCENT = '#8a7a66'
@@ -99,4 +100,11 @@ export const FRENCH_INDIAN: WarConfig = {
     { id: 'peace-fuse', name: 'The Peace and Its Fuse', phase: 'after', type: 'MILITARY', size: 'l', date: '1760–1763', year: 1760, m: 1, href: '/war-french-indian/peace-fuse' },
   ],
   commanders: {},
+  castIdForName: fiCastIdForName,
+  // No-portrait fallback: British/French cards show their period flag; a Native (or
+  // other) side with no flag falls back to an initials monogram. A real portrait wins.
+  sideFlags: {
+    u: '/war-img/fi-flag-british.png',
+    c: '/war-img/fi-flag-french.png',
+  },
 }

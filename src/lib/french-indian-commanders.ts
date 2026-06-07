@@ -14,6 +14,8 @@
 // the recurrence bar, so the cast is British/French; the arcs keep the Native nations
 // as independent actors in the prose, never props.
 
+import { makeCastLookup } from '@/lib/wars/cast-lookup'
+
 export type FISide = 'u' | 'c'
 
 export interface FICommanderAppearance {
@@ -195,11 +197,4 @@ const FI_CAST_BY_NAME: Record<string, string> = {
   'Sir William Johnson': 'johnson',
 }
 
-export function fiCastIdForName(name: string): string | undefined {
-  const key = name
-    .replace(/[‘’]/g, "'")
-    .replace(/[“”]/g, '"')
-    .replace(/\s+/g, ' ')
-    .trim()
-  return FI_CAST_BY_NAME[key]
-}
+export const fiCastIdForName = makeCastLookup(FI_CAST_BY_NAME)

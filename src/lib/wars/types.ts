@@ -102,4 +102,13 @@ export interface WarConfig {
   themes: WarTheme[]         // off the battlefield
   chapters: WarTheme[]       // the war-story spine
   commanders: Record<string, WarCommander>
+  // Map a dossier's commander display name → its cast-arc id (a war's hand-verified
+  // table via makeCastLookup). The battle dossier calls this to add the "Follow the
+  // full arc" link; a war with no cast yet leaves it undefined (no link).
+  castIdForName?: (name: string) => string | undefined
+  // No-portrait fallback for commander cards: a side-code → flag-image map. When set,
+  // a commander with no born-verified portrait shows their side's flag (and a Native /
+  // other side with no flag falls back to an initials monogram). A real portrait always
+  // wins. Omit for a war whose commanders all have portraits (the CW). e.g. F&I sides.
+  sideFlags?: Record<string, string>
 }

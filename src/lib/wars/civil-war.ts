@@ -6,7 +6,7 @@
 // refactor). See audits/war-second-war-plan.md.
 
 import { MAJORS, THEMES, CHAPTERS } from '@/lib/civil-war-roster'
-import { COMMANDERS } from '@/lib/civil-war-commanders'
+import { COMMANDERS, castIdForName } from '@/lib/civil-war-commanders'
 import { WAR_STORY_COLOR, WAR_OFFFIELD_COLOR } from './layer-colors'
 import type { WarConfig } from './types'
 
@@ -44,4 +44,6 @@ export const CIVIL_WAR: WarConfig = {
   themes: THEMES,
   chapters: CHAPTERS,
   commanders: COMMANDERS,
+  castIdForName,
+  // No sideFlags: every Civil War commander card carries a born-verified portrait.
 }

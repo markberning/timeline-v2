@@ -11,22 +11,13 @@ import './war-skin.css'
 import { useEffect, useRef, useState } from 'react'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
-import { castIdForName } from '@/lib/civil-war-commanders'
-import { fiCastIdForName } from '@/lib/french-indian-commanders'
 import { warForRoute } from '@/lib/wars/registry'
 import { CIVIL_WAR } from '@/lib/wars/civil-war'
-import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 import { DottedMap, type Frame, type StateSpec, type Dot, type LakeSpec, type FreeLabel } from '@/components/mode/dotted-map'
 
-// No-portrait fallback on F&I commander cards. British/French sides get their
-// period flag (the pre-1801 Union flag / the Bourbon pavillon royal) — a flag reads
-// at thumbnail size and is plainly a side-marker, never a claimed likeness. There is
-// no single period "Native" flag, so Native cards fall back to an initials monogram.
-// A real born-verified portrait always wins; this only fills a card that has none.
-const FI_FLAG_IMG: Record<string, string> = {
-  u: '/war-img/fi-flag-british.png',
-  c: '/war-img/fi-flag-french.png',
-}
+// No-portrait fallback initials for a commander card with no portrait and no side flag
+// (e.g. a Native leader). British/French flags + the rest of the scheme are driven by
+// the war's `sideFlags` config (see WarConfig); a real born-verified portrait wins.
 const initials = (name: string) => {
   const t = name.replace(/[(),.]/g, '').trim().split(/\s+/).filter(Boolean)
   const first = t[0]?.[0] ?? ''
@@ -257,17 +248,14 @@ export function BattleDossier({ data }: { data: BattleData }) {
         )}
 
         {tab === 'commanders' && data.commanders.map(c => {
-          // cast arcs exist for the CW and the F&I war; other wars get no arc link
-          // until their cast roster is authored.
-          const arc = war === CIVIL_WAR ? castIdForName(c.name)
-            : war === FRENCH_INDIAN ? fiCastIdForName(c.name)
-            : undefined
-          // F&I commanders with no born-verified portrait: British/French get a side
-          // flag, Native get an initials monogram. A real portrait always wins.
-          const isFI = war === FRENCH_INDIAN
-          const flagSrc = (!c.img && isFI && FI_FLAG_IMG[c.side]) || ''
+          // The "Follow the full arc" link, where this war has a cast roster (config-
+          // driven; a war with none returns undefined → no link).
+          const arc = war.castIdForName?.(c.name)
+          // No-portrait fallback: a war with `sideFlags` shows the side flag, else an
+          // initials monogram (Native / flagless sides). A real portrait always wins.
+          const flagSrc = (!c.img && war.sideFlags?.[c.side]) || ''
           const picSrc = c.img || flagSrc
-          const mono = (!picSrc && isFI) ? initials(c.name) : ''
+          const mono = (!picSrc && war.sideFlags) ? initials(c.name) : ''
           return (
             <div className={'bp-cmd ' + c.side} key={c.name}>
               <span className={'pic' + (flagSrc ? ' flag flag-' + c.side : '') + (mono ? ' mono' : '')}>
