@@ -10,12 +10,12 @@
 // masthead. Not linked from the /war front door until there's real content.
 
 import '../war-civil-war/war-skin.css'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { WarHeader, WAR_ICONS } from '@/components/mode/war-header'
 import { FRENCH_INDIAN as W } from '@/lib/wars/french-indian'
 import { WarBreadcrumb } from '@/components/mode/war-chrome'
 import { warCrumbs } from '@/components/mode/theatre-page'
-import { DottedMap } from '@/components/mode/dotted-map'
+import { DottedMap, type Dot } from '@/components/mode/dotted-map'
 
 const STANDFIRST = 'Nine years in the North American woods decided who would rule the continent — Britain or France — and the contest turned, more than anything, on the Native nations whose land it was. The British victory ejected France, and its costs and broken promises lit the fuse to the Revolution.'
 
@@ -81,49 +81,87 @@ const FI_BATTLE_LL: Record<string, [number, number]> = {
   'fi-fort-duquesne': [40.44, -80.01], 'fi-niagara': [43.26, -79.06], 'fi-quebec': [46.81, -71.21],
   'fi-sainte-foy': [46.78, -71.28], 'fi-montreal': [45.50, -73.57],
 }
-// The major battles get a name label on the map (the rest are dots); anchors point each
-// label at open space, away from its neighbours.
-const FI_MAP_LABELS: Record<string, { anchor: 'start' | 'end' | 'middle'; dateBelow?: boolean }> = {
-  'fi-monongahela': { anchor: 'start' }, 'fi-fort-william-henry': { anchor: 'start' },
-  'fi-louisbourg': { anchor: 'end' }, 'fi-quebec': { anchor: 'start' }, 'fi-montreal': { anchor: 'end' },
-}
+const FI_FRAME = { lonMin: -82.4, lonMax: -58.3, latMin: 38.7, latMax: 47.7 }
+const FI_MID_LON = (FI_FRAME.lonMin + FI_FRAME.lonMax) / 2
+// Outlines drawn under the dots: US states + the five eastern provinces; a few big
+// labels for orientation (battle names are driven by scroll, so the map carries only
+// region labels here).
+const FI_MAP_STATES = [
+  { name: 'New York', label: 'NEW YORK', labelLon: -75.4, labelLat: 42.7, labelSize: 13 },
+  { name: 'Pennsylvania' },
+  { name: 'Quebec', label: 'QUÉBEC', labelLon: -72.5, labelLat: 47.2, labelSize: 13 },
+  { name: 'Nova Scotia', label: 'NOVA SCOTIA', labelLon: -62.6, labelLat: 45.0, labelSize: 11 },
+  { name: 'Ontario' }, { name: 'New Brunswick' }, { name: 'Prince Edward Island' },
+  { name: 'Maryland' }, { name: 'Virginia' }, { name: 'Ohio' }, { name: 'West Virginia' },
+  { name: 'New Jersey' }, { name: 'Connecticut' }, { name: 'Massachusetts' }, { name: 'Vermont' },
+  { name: 'New Hampshire' }, { name: 'Maine' }, { name: 'Delaware' }, { name: 'Rhode Island' },
+]
 
-function AllBattlesMap() {
-  const dots = W.battles.map(b => {
-    const ll = FI_BATTLE_LL[b.id]; if (!ll) return null
-    const lab = FI_MAP_LABELS[b.id]
-    return {
-      name: lab ? b.name : undefined, date: lab ? String(b.year) : undefined,
-      lat: ll[0], lon: ll[1], heavy: !!lab, anchor: lab?.anchor, dateBelow: lab?.dateBelow,
-    }
-  }).filter(Boolean) as { name?: string; date?: string; lat: number; lon: number; heavy?: boolean; anchor?: 'start' | 'end' | 'middle'; dateBelow?: boolean }[]
-  return (
-    <DottedMap
-      eyebrow="The theatre · 1754–1763"
-      caption="Fourteen battles, from the Forks of the Ohio to the St. Lawrence and Cape Breton. The fighting climbed north from the Pennsylvania frontier, up the Lake George and Lake Champlain corridor, and along the river road to the conquest of Canada."
-      accent="#c79cd0"
-      frame={{ lonMin: -82.4, lonMax: -58.3, latMin: 38.7, latMax: 47.7 }}
-      states={[
-        { name: 'New York', label: 'NEW YORK', labelLon: -75.4, labelLat: 42.7, labelSize: 13 },
-        { name: 'Pennsylvania' },
-        { name: 'Quebec', label: 'QUÉBEC', labelLon: -72.5, labelLat: 47.2, labelSize: 13 },
-        { name: 'Nova Scotia', label: 'NOVA SCOTIA', labelLon: -62.6, labelLat: 45.0, labelSize: 11 },
-        { name: 'Ontario' }, { name: 'New Brunswick' }, { name: 'Prince Edward Island' },
-        { name: 'Maryland' }, { name: 'Virginia' }, { name: 'Ohio' }, { name: 'West Virginia' },
-        { name: 'New Jersey' }, { name: 'Connecticut' }, { name: 'Massachusetts' }, { name: 'Vermont' },
-        { name: 'New Hampshire' }, { name: 'Maine' }, { name: 'Delaware' }, { name: 'Rhode Island' },
-      ]}
-      dots={dots}
-    />
-  )
-}
-
+// The Battles tab: a dotted map of all 14 battles, pinned at the top, plus the timeline
+// list. The map and list are scroll-linked — whichever battle is at the top of the list
+// is the "active" one: its dot lights up and shows its title, switching as you scroll.
+// Only one label shows at a time, so the dense clusters never collide.
 function BattlesTab() {
   const list = useMemo(() => [...W.battles].sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m)), [])
   const years = [...new Set(list.map(b => b.year))]
+  const [active, setActive] = useState<string | undefined>(list[0]?.id)
+  const [mapTop, setMapTop] = useState(154)
+  const mapRef = useRef<HTMLDivElement>(null)
+
+  // Pin the map directly below the sticky chrome (header + breadcrumb + tab bar).
+  useEffect(() => {
+    const sub = document.querySelector('.p-subnav') as HTMLElement | null
+    if (!sub) return
+    const stuck = parseFloat(getComputedStyle(sub).top) || 102
+    setMapTop(Math.round(stuck + sub.offsetHeight))
+  }, [])
+
+  // The active battle = the lowest list row whose top has scrolled above the map's
+  // bottom edge (i.e. the one sitting just under the pinned map).
+  useEffect(() => {
+    const rows = Array.from(document.querySelectorAll<HTMLElement>('.p-bt[data-id]'))
+    if (!rows.length) return
+    let raf = 0
+    const onScroll = () => {
+      cancelAnimationFrame(raf)
+      raf = requestAnimationFrame(() => {
+        const line = (mapRef.current?.getBoundingClientRect().bottom ?? mapTop) + 14
+        let cur = rows[0].dataset.id
+        for (const r of rows) {
+          if (r.getBoundingClientRect().top <= line) cur = r.dataset.id
+          else break
+        }
+        if (cur) setActive(cur)
+      })
+    }
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => { window.removeEventListener('scroll', onScroll); cancelAnimationFrame(raf) }
+  }, [mapTop])
+
+  const activeB = list.find(b => b.id === active)
+  const dots: Dot[] = list.map(b => {
+    const ll = FI_BATTLE_LL[b.id]; if (!ll) return null
+    const isA = b.id === active
+    return {
+      name: isA ? b.name : undefined, date: isA ? String(b.year) : undefined,
+      lat: ll[0], lon: ll[1], heavy: isA, dateBelow: true,
+      anchor: (ll[1] < FI_MID_LON ? 'start' : 'end') as 'start' | 'end',
+      color: isA ? '#e6c2ec' : '#6f6374',
+    }
+  }).filter(Boolean) as Dot[]
+
   return (
     <div className="p-page">
-      <AllBattlesMap />
+      <div ref={mapRef} className="fi-stickymap" style={{ position: 'sticky', top: mapTop, zIndex: 10, background: 'var(--paper)' }}>
+        <DottedMap eyebrow="The theatre · 1754–1763" accent="#c79cd0" frame={FI_FRAME} states={FI_MAP_STATES} dots={dots} />
+        {activeB && (
+          <a className="fi-mapcap" href={activeB.href ?? undefined} style={{ pointerEvents: activeB.href ? 'auto' : 'none' }}>
+            <b className="p-serif">{activeB.name}</b>
+            <span>{activeB.place} · {activeB.year}{activeB.href ? '' : ' · soon'}</span>
+          </a>
+        )}
+      </div>
       <div className="p-sechead"><h2 className="p-label">Every battle</h2><span className="ct">{list.length} battles</span></div>
       <div className="p-tl">
         {years.map(yr => (
@@ -139,10 +177,10 @@ function BattlesTab() {
                   <span className="note">{b.hook ?? soonPill}</span>
                 </>
               )
-              const cls = 'p-bt' + (b.size === 'l' || b.size === 'xl' ? ' key' : '') + (b.href ? '' : ' fi-dim')
+              const cls = 'p-bt' + (b.size === 'l' || b.size === 'xl' ? ' key' : '') + (b.href ? '' : ' fi-dim') + (b.id === active ? ' fi-active' : '')
               return b.href
-                ? <a className={cls} key={b.id} href={b.href} style={{ ['--dot' as string]: dot }}>{row}</a>
-                : <div className={cls} key={b.id} style={{ ['--dot' as string]: dot }}>{row}</div>
+                ? <a className={cls} key={b.id} data-id={b.id} href={b.href} style={{ ['--dot' as string]: dot }}>{row}</a>
+                : <div className={cls} key={b.id} data-id={b.id} style={{ ['--dot' as string]: dot }}>{row}</div>
             })}
           </div>
         ))}

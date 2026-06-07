@@ -458,3 +458,12 @@
    and Indian home): a dimmed, non-interactive row + a small "Soon" pill */
 .war-skin .fi-dim { opacity: .62; cursor: default; }
 .war-skin .fi-soon { display: inline-flex; align-items: center; font-family: var(--sans); font-size: 8.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); border: 1px solid color-mix(in srgb, var(--ink) 22%, transparent); border-radius: 999px; padding: 1px 6px; }
+
+/* Battles-tab scroll-linked map: the pinned map + the active-battle readout below it,
+   and the matching highlight on the active list row. */
+.war-skin .fi-stickymap { padding-bottom: 10px; border-bottom: 1px solid var(--line-soft); margin-bottom: 4px; }
+.war-skin .fi-mapcap { display: flex; flex-direction: column; gap: 2px; margin-top: 9px; text-decoration: none; color: inherit; }
+.war-skin .fi-mapcap b { font-size: 15px; color: var(--ink); }
+.war-skin .fi-mapcap span { font: 400 11.5px/1.3 var(--mono); color: var(--muted); }
+.war-skin .p-bt.fi-active { background: color-mix(in srgb, #8a5b86 12%, transparent); }
+.war-skin .p-bt.fi-active::before { background: #c79cd0; border-color: #c79cd0; }
