@@ -27,6 +27,18 @@ not where errors are first discovered. `scripts/retarget-links.mjs` +
 tools for the legacy 100 only — NEVER part of creating a new civ** (auto-
 retargeting guesses, and guesses are sometimes confidently wrong).
 
+**Paid-API-key rule (locked 2026-06-07, standing user directive).** Any pipeline
+step that spends money against a paid API key MUST be called out **loudly, in
+plain language, BEFORE it runs** — name the step, the key, and roughly what it
+will cost — so the user can stop it first. Never run a paid step silently.
+**The only paid step anywhere in the pipeline is map generation/QA** (`maps-build.mjs`
+/ `generate-maps.mjs`, the Gemini image API, `.env.local` `GEMINI_API_KEY`).
+Everything else is free: all link/coverage/card/density gates are deterministic
+(no LLM), and the **born-verified image pass uses only free public-domain sources**
+— Library of Congress (`tile.loc.gov`), the Wikimedia Commons MediaWiki API, and
+`upload.wikimedia.org` — fetched with a plain paced downloader, no key. So an image
+pass needs no warning; a map regen does.
+
 0. **Pull v1 reference data + expand to target density** — check `~/projects/personal/timeline/src/data/{tlId}.json`, copy to `reference-data/{tlId}.json`. **Hard target: 10–15 events per chapter** (e.g. a 20-chapter TL ⇒ ~200–220 events), spread across all 8 categories — *enforced* by `lint-density.ts` (new civs get zero tolerance; not grandfathered). The event pool is reused across chapters. Verify the `label` field matches `navigator-tls.ts`.
    **Event-popup content standard (LOCKED 2026-05-29 — `celtic-cultures` ch1 is the reference pilot, user-approved).** Every event is a **two-part "explore further" card**, never a bare wiki sentence: (a) `description` = a tight, engaging house-voice *what-it-is* (define + hook, 1–2 sentences) — NEVER a flat list or "characterized by…" encyclopedia prose; (b) a `details` array with one entry `[{ "label": "Explore further", "text": "…" }]` — 2–4 sentences that give the reader something the narrative does NOT (the mechanism, the vivid concrete detail, the surprising "wait, really?" fact). **Born-verified facts only:** web-verify every concrete claim in the "Explore further" beat, hedge genuinely-contested ones, never invent color. The beat must ADD to the chapter, not repeat it. (The photo + caption half of the popup is step 13.)
 0.5. **Narrative-movement map (self-checked spec — NO user-approval pause; pause lifted 2026-05-18 at user request)** — still produce it: list the distinct dramatic movements (rise / crisis / transformation / collapse / afterlife …) and write the chapter list + one-line throughline per chapter. It is the build spec that lets chapters be drafted/curated in parallel — author it, don't wait on it. **Chapter count = number of movements**, NOT a civ-type template and NOT "take the heavier option"; **no cap on chapter count or chapter length** — story length drives structure. The user has standing-approved every map and removed the checkpoint: when they say "start building `<civ>`", run the whole pipeline autonomously with no approval stop, **provided the two invariants hold** — (a) ≥10–15 events per chapter (enforced zero-tolerance by `lint-density.ts`, step 0), and (b) chapter count/length unlimited (driven by the movements, never a template). This lifts ONLY the planning pause; every quality gate is unchanged. See `memory/feedback_civ_build_autonomy`.

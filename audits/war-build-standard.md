@@ -63,11 +63,22 @@ were applied to F&I and then carried to the Civil War (2026-06-06).
 
 ## 3. Media + maps
 
+- **Paid-API-key rule (locked 2026-06-07, standing user directive).** Any step that
+  spends money against a paid API key is announced **loudly, in plain language,
+  BEFORE it runs** — name the step, the key, the rough cost — never run silently.
+  The **only paid step in the war build is map generation** (Gemini image API). The
+  **born-verified image pass costs nothing**: it pulls only free public-domain sources
+  (Library of Congress `tile.loc.gov`, the Wikimedia Commons API, `upload.wikimedia.org`)
+  with a plain paced downloader, no key. An image pass needs no warning; a map regen does.
 - **Born-verified images** — every photo/print confirmed against its real
   page/image at the moment it's written; public-domain or properly-licensed only;
   caption states the real date/source. A representative era artifact beats blank;
   reject is the last resort. Hero/card aspect must match the frame (no portrait in a
-  landscape band — `feedback_hero_must_be_landscape`).
+  landscape band — `feedback_hero_must_be_landscape`). Method: a per-battle manifest
+  of FIGURE entries (filename · byte-verifiable direct URL · orientation · caption ·
+  credit · placement · subject-verification), then a serial 429-proof fetcher into
+  `public/war-img/` (`scripts/_dl-war-images2.mjs` pattern). A missing portrait beats
+  a wrong one — minor figures with no verified likeness stay `img: ''`.
 - **Maps** — many per battle, one per geographic beat; labels match the prose's named
   places; big solid legible fonts; tap-to-zoom; dotted real-geometry state outlines
   for strategic/theatre/home maps (`feedback_war_maps_dense_legible`,
