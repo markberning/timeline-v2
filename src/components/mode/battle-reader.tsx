@@ -51,6 +51,24 @@ function emph(text: string, base: number): React.ReactNode[] {
     return seg
   })
 }
+// A between-paragraph "go read that story" pill is colored + kicker-labelled by the
+// LAYER it points TO (the locked war color taxonomy: color = which layer), not by the
+// section it sits in. Off-the-Battlefield → orange; a battle → its theatre color (the
+// theatre name); anything else (war-story chapters / F&I phases) → the oxblood spine.
+// Returns a CSS var (resolves light/dark inside .war-skin) + the destination-type kicker.
+function pillDest(href: string, fallback: typeof CIVIL_WAR): { cssVar: string; kicker: string } {
+  const w = warForRoute(href) ?? fallback
+  if (href.includes('/off-the-battlefield')) return { cssVar: '--otbf', kicker: 'Off the field' }
+  const battle = w.battles
+    .filter(b => b.href && href.startsWith(b.href))
+    .sort((a, b) => (b.href!.length - a.href!.length))[0]
+  if (battle) {
+    const lane = w.lanes.find(l => l.id === battle.theatre)
+    return { cssVar: lane?.skinVar ?? '--accent', kicker: lane?.label ?? 'The battle' }
+  }
+  return { cssVar: '--warstory', kicker: 'The war story' }
+}
+
 function fmt(text: string): React.ReactNode {
   if (!/[*[]/.test(text)) return text
   const linkRe = /\[([^\]]+)\]\((\/[^\s)]+)\)/g
@@ -190,15 +208,18 @@ export function BattleSectionReader({
                 <DottedMap accent={accentHex} {...b.locator} />
               </div>
             )
-            if ('pill' in b) return (
-              <a key={i} className="rd-pill" href={b.pill}>
-                <span className="ic" aria-hidden>→</span>
-                <span className="tx">
-                  <span className="k">Read the full story</span>
-                  <span className="l">{b.plabel}</span>
-                </span>
-              </a>
-            )
+            if ('pill' in b) {
+              const d = pillDest(b.pill, war)
+              return (
+                <a key={i} className="rd-pill" href={b.pill} style={{ ['--accent' as string]: `var(${d.cssVar})` } as React.CSSProperties}>
+                  <span className="ic" aria-hidden>→</span>
+                  <span className="tx">
+                    <span className="k">{d.kicker}</span>
+                    <span className="l">{b.plabel}</span>
+                  </span>
+                </a>
+              )
+            }
             if ('fig' in b) return (
               <figure key={i} className="rd-fig" data-no-zoom>
                 <div

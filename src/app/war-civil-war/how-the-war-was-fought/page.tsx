@@ -25,7 +25,7 @@ export default function HowTheWarWasFoughtPage() {
       <div className="p-mast">
         <div className="p-eyebrow">The Civil War story</div>
         <h1 className="p-mast-title p-serif">How the War<br />Happened</h1>
-        <p className="p-stand">Read these five chapters and you have read the war. They carry the whole thing, from the first shot at Fort Sumter to the surrender at Appomattox: how two unready nations raised armies, how each battle bent the strategy, how casualties and broken supply lines wore the South down, and how a war to save the Union became a war to end slavery. This is the spine the rest of the section hangs on. Every chapter opens a door into the battles it set in motion and the upheavals off the field that drove them, so you can read straight through as one story or follow any thread as far down as it goes.</p>
+        <p className="p-stand">From the first shot at Fort Sumter to the surrender at Appomattox, two unready nations raised armies almost from nothing and learned to fight as they went. Each battle bent the strategy that came after it. Casualties and broken supply lines slowly wore the South down, and a war begun to save the Union became a war to end slavery.</p>
       </div>
       <div className="p-heroband">
         {/* eslint-disable-next-line @next/next/no-img-element */}
