@@ -18,13 +18,20 @@ import { CIVIL_WAR } from '@/lib/wars/civil-war'
 import { FRENCH_INDIAN } from '@/lib/wars/french-indian'
 import { DottedMap, type Frame, type StateSpec, type Dot, type LakeSpec, type FreeLabel } from '@/components/mode/dotted-map'
 
-// Representative period figures used as a no-portrait fallback on F&I commander
-// cards (uniform/costume plates, clearly type-figures not individual likenesses).
+// No-portrait fallback on F&I commander cards. British/French sides get their
+// period flag (the pre-1801 Union flag / the Bourbon pavillon royal) — a flag reads
+// at thumbnail size and is plainly a side-marker, never a claimed likeness. There is
+// no single period "Native" flag, so Native cards fall back to an initials monogram.
 // A real born-verified portrait always wins; this only fills a card that has none.
-const FI_REP_IMG: Record<string, string> = {
-  u: '/war-img/fi-rep-british.jpg',
-  c: '/war-img/fi-rep-french.jpg',
-  n: '/war-img/fi-rep-native.jpg',
+const FI_FLAG_IMG: Record<string, string> = {
+  u: '/war-img/fi-flag-british.png',
+  c: '/war-img/fi-flag-french.png',
+}
+const initials = (name: string) => {
+  const t = name.replace(/[(),.]/g, '').trim().split(/\s+/).filter(Boolean)
+  const first = t[0]?.[0] ?? ''
+  const last = t.length > 1 ? t[t.length - 1][0] : ''
+  return (first + last).toUpperCase()
 }
 
 // ---- inline icons (shared with the war home) ----
@@ -255,16 +262,17 @@ export function BattleDossier({ data }: { data: BattleData }) {
           const arc = war === CIVIL_WAR ? castIdForName(c.name)
             : war === FRENCH_INDIAN ? fiCastIdForName(c.name)
             : undefined
-          // F&I commanders with no born-verified portrait fall back to a
-          // representative period figure by side (clearly a type-figure, not a
-          // claimed likeness). A real portrait always wins.
-          const isRep = !c.img && war === FRENCH_INDIAN && !!FI_REP_IMG[c.side]
-          const picSrc = c.img || (isRep ? FI_REP_IMG[c.side] : '')
+          // F&I commanders with no born-verified portrait: British/French get a side
+          // flag, Native get an initials monogram. A real portrait always wins.
+          const isFI = war === FRENCH_INDIAN
+          const flagSrc = (!c.img && isFI && FI_FLAG_IMG[c.side]) || ''
+          const picSrc = c.img || flagSrc
+          const mono = (!picSrc && isFI) ? initials(c.name) : ''
           return (
             <div className={'bp-cmd ' + c.side} key={c.name}>
-              <span className={'pic' + (isRep ? ' rep' : '')}>
+              <span className={'pic' + (flagSrc ? ' flag' : '') + (mono ? ' mono' : '')}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                {picSrc && <img src={picSrc} alt="" />}
+                {picSrc ? <img src={picSrc} alt="" /> : mono ? <span className="mg">{mono}</span> : null}
               </span>
               <div className="bd">
                 <div className="nm p-serif">{c.name}</div>
