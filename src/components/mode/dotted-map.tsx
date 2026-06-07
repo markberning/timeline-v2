@@ -8,6 +8,7 @@
 
 import { US_STATE_OUTLINES } from '@/lib/us-state-outlines'
 import { CA_PROVINCE_OUTLINES } from '@/lib/ca-province-outlines'
+import { LAKE_OUTLINES } from '@/lib/lake-outlines'
 import { alpha } from '@/components/mode/war-chrome'
 
 const SANS = 'var(--font-geist-sans)'
@@ -37,12 +38,15 @@ export type Capital = { name: string; lat: number; lon: number; dx?: number; dy?
 export type Corridor = { fromLon: number; fromLat: number; toLon: number; toLat: number; label?: string; labelLon?: number; labelLat?: number; labelAnchor?: 'start' | 'end'; dashed?: boolean }
 export type River = { pts: [number, number][]; label?: string; labelLon?: number; labelLat?: number; labelAnchor?: 'start' | 'middle' | 'end' }
 export type FreeLabel = { text: string; lon: number; lat: number; kind?: 'accent' | 'water' | 'faint'; size?: number; anchor?: 'start' | 'middle' | 'end' }
+// A named lake from LAKE_OUTLINES, drawn as a soft-filled, dotted water shape with an
+// optional label. The geography that defines the Champlain corridor battles.
+export type LakeSpec = { name: string; label?: string; labelLon?: number; labelLat?: number; labelSize?: number; labelAnchor?: 'start' | 'middle' | 'end' }
 
 export function DottedMap({
-  eyebrow, caption, accent, frame, states, dots = [], capitals = [], corridor, rivers = [], labels = [], callouts = [], vbWidth = 680, vbHeight, geoInset, inset = true,
+  eyebrow, caption, accent, frame, states, dots = [], capitals = [], corridor, rivers = [], lakes = [], labels = [], callouts = [], vbWidth = 680, vbHeight, geoInset, inset = true,
 }: {
   eyebrow?: string; caption?: string; accent: string; frame: Frame
-  states: StateSpec[]; dots?: Dot[]; capitals?: Capital[]; corridor?: Corridor; rivers?: River[]; labels?: FreeLabel[]; callouts?: Callout[]; vbWidth?: number; vbHeight?: number; geoInset?: { l?: number; r?: number; t?: number; b?: number }; inset?: boolean
+  states: StateSpec[]; dots?: Dot[]; capitals?: Capital[]; corridor?: Corridor; rivers?: River[]; lakes?: LakeSpec[]; labels?: FreeLabel[]; callouts?: Callout[]; vbWidth?: number; vbHeight?: number; geoInset?: { l?: number; r?: number; t?: number; b?: number }; inset?: boolean
 }) {
   const { lonMin, lonMax, latMin, latMax } = frame
   const midLat = (latMin + latMax) / 2, kx = Math.cos(midLat * Math.PI / 180), pad = 24
@@ -93,6 +97,15 @@ export function DottedMap({
         <svg viewBox={`0 0 ${W} ${H}`} style={{ width: '100%', height: 'auto', display: 'block' }}>
           {vlines.map(lo => <line key={`v${lo}`} x1={X(lo)} y1={0} x2={X(lo)} y2={H} stroke={GRID} strokeWidth={1} />)}
           {hlines.map(la => <line key={`h${la}`} x1={0} y1={Y(la)} x2={W} y2={Y(la)} stroke={GRID} strokeWidth={1} />)}
+          {lakes.map((lk, i) => {
+            const polys = LAKE_OUTLINES[lk.name] || []
+            return (
+              <g key={`lk${i}`}>
+                {polys.map((ring, j) => <path key={j} d={'M' + ring.map(p => X(p[0]).toFixed(1) + ' ' + Y(p[1]).toFixed(1)).join(' L ') + ' Z'} fill={alpha('#0ea5e9', 0.14)} stroke={alpha('#0ea5e9', 0.5)} strokeWidth={1.3} strokeDasharray="1.5 3" strokeLinejoin="round" />)}
+                {lk.label && <text x={X(lk.labelLon!)} y={Y(lk.labelLat!)} fontFamily={MONO} fontSize={lk.labelSize ?? 13} fontStyle="italic" fill={water} textAnchor={lk.labelAnchor ?? 'middle'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3.4}>{lk.label}</text>}
+              </g>
+            )
+          })}
           {ordered.map(st => (
             <path key={st.name} d={stateD(st.name)} fill={st.fill ? alpha(st.color ?? accent, 0.1) : 'none'} stroke={toneStroke(st.tone, st.color)} strokeWidth={st.tone === 'focus' ? 2 : 1.7} strokeDasharray={dash} strokeLinecap="round" strokeLinejoin="round" />
           ))}

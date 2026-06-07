@@ -23,6 +23,27 @@ const DATA: BattleData = {
     img: '/war-img/fi-lake-champlain-corridor-map.jpg',
     pal: ['#23282b', '#33454a', '#0c1012'],
   },
+  locator: {
+    eyebrow: 'Where and when · September 1755',
+    caption: 'The battle was fought at the south end of Lake George, on the war road between Albany on the Hudson and the French forts on Lake Champlain. Johnson was driving north toward Crown Point; Dieskau marched south to stop him.',
+    frame: { lonMin: -74.7, lonMax: -72.7, latMin: 42.4, latMax: 44.3 },
+    states: [
+      { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -74.4, labelLat: 43.0 },
+      { name: 'Vermont', label: 'VERMONT', labelLon: -72.92, labelLat: 43.6, labelSize: 13 },
+      { name: 'Massachusetts' },
+    ],
+    lakes: [
+      { name: 'Lake George', label: 'Lake George', labelLon: -73.58, labelLat: 43.58, labelAnchor: 'start', labelSize: 11 },
+      { name: 'Lake Champlain', label: 'Lake Champlain', labelLon: -73.16, labelLat: 44.05, labelAnchor: 'start', labelSize: 11 },
+    ],
+    dots: [
+      { name: 'Lake George', date: 'Sept 8, 1755', lat: 43.42, lon: -73.71, heavy: true, anchor: 'end', dateBelow: true },
+      { name: 'Crown Point', lat: 44.03, lon: -73.43, color: '#8a8175', anchor: 'start' },
+      { name: 'Ticonderoga', lat: 43.84, lon: -73.39, color: '#8a8175', anchor: 'start' },
+      { name: 'Fort Edward', lat: 43.27, lon: -73.58, color: '#8a8175', anchor: 'end' },
+      { name: 'Albany', lat: 42.65, lon: -73.75, color: '#8a8175', anchor: 'end' },
+    ],
+  },
   sideNames: { u: 'BRITISH', c: 'FRENCH' },
   sideColors: { u: 'var(--brit)', c: 'var(--french)' },
   stats: [

@@ -16,23 +16,7 @@ const LAKE_GEORGE_NARR: Record<string, Narr> = {
     eyebrow: 'Lake George · The march south',
     title: 'The Bloody Morning Scout',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · September 1755',
-        caption: 'The battle was fought at the south end of Lake George, on the war road between Albany on the Hudson and the French forts on Lake Champlain. Johnson was driving north toward Crown Point; Dieskau marched south to stop him.',
-        frame: { lonMin: -74.7, lonMax: -72.7, latMin: 42.4, latMax: 44.3 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -74.4, labelLat: 43.4 },
-          { name: 'Vermont', label: 'VERMONT', labelLon: -72.95, labelLat: 43.9, labelSize: 13 },
-          { name: 'Massachusetts' },
-        ],
-        dots: [
-          { name: 'Lake George', date: 'Sept 8, 1755', lat: 43.42, lon: -73.71, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Crown Point', lat: 44.03, lon: -73.43, color: '#8a8175', anchor: 'start' },
-          { name: 'Ticonderoga', lat: 43.84, lon: -73.39, color: '#8a8175', anchor: 'start' },
-          { name: 'Fort Edward', lat: 43.27, lon: -73.58, color: '#8a8175', anchor: 'end' },
-          { name: 'Albany', lat: 42.65, lon: -73.75, color: '#8a8175', anchor: 'end' },
-        ],
-      } },
+      { fig: '/war-img/fi-lake-champlain-corridor-map.jpg', cap: 'The Lake George–Lake Champlain corridor, the war road between Albany on the Hudson and the French forts on the lakes. Johnson was driving north toward the French at Crown Point; Dieskau marched south to stop him.', credit: 'Stuff Happened map' },
       { p: 'The summer of 1755 was a bad one for British arms in North America. London had launched four attacks on New France at once, and the flagship of them, Major General Edward Braddock’s drive on the Forks of the Ohio, had ended in slaughter on the Monongahela in July, two of every three men dead or wounded in the forest. Britain badly needed a victory, and a hero to hang it on. The next prong of that same offensive was still moving. Its target was Fort St. Frédéric at Crown Point, a French stone fort on Lake Champlain that guarded the great invasion highway of the northeast: the chain of water running from the St. Lawrence down Lake Champlain to Lake George and on to the Hudson and Albany, the corridor down which armies could pass between New France and the British colonies. Whoever held it held the door. And the door ran straight through the homeland of the Haudenosaunee, the six-nation Iroquois confederacy, whose land this was, whose fur trade ran along these waters, and whose alliance both empires were desperate to win.' },
       { pill: '/war-french-indian/off-the-battlefield/native-alliances', plabel: 'Both empires courting the Haudenosaunee' },
       { p: 'The man London chose to lead the Crown Point expedition was not a soldier at all. William Johnson (British) was an Irish-born trader and landowner, born around 1715 in County Meath, who had settled in the Mohawk Valley of New York and made himself the colony\'s agent to the Iroquois. He spoke their languages, lived among them, married into them, and had been adopted as an honorary Mohawk sachem (a respected civil leader and counselor); they called him Warraghiyagey, "a man who undertakes great things." He held a major general\'s commission despite almost no military experience. What he had instead was the one thing Braddock had thrown away on the Ohio: the trust and the help of Native allies.' },

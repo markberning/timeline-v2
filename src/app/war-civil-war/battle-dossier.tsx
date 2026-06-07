@@ -14,6 +14,7 @@ import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import { castIdForName } from '@/lib/civil-war-commanders'
 import { warForRoute } from '@/lib/wars/registry'
 import { CIVIL_WAR } from '@/lib/wars/civil-war'
+import { DottedMap, type Frame, type StateSpec, type Dot, type LakeSpec, type FreeLabel } from '@/components/mode/dotted-map'
 
 // ---- inline icons (shared with the war home) ----
 const I = {
@@ -57,6 +58,10 @@ export type BattleData = {
   date: string
   place: string
   hero: { img: string; pal: [string, string, string]; credit?: string } // credit omitted when no verified provenance (never invented)
+  // Optional dotted establishing map shown on the dossier masthead IN PLACE OF the hero
+  // image (the orientation map greets the reader where they land; the historical hero
+  // image then lives inline in the first section). Used by the F&I battles.
+  locator?: { eyebrow?: string; caption?: string; frame: Frame; states: StateSpec[]; dots?: Dot[]; lakes?: LakeSpec[]; labels?: FreeLabel[] }
   stats: { label: string; value: string; win?: Side }[]   // 3 stats; mark winner
   sides: [BattleSide, BattleSide]
   note?: React.ReactNode      // glance callout (e.g. the bloodless note)
@@ -124,6 +129,7 @@ export function BattleDossier({ data }: { data: BattleData }) {
   const war = warForRoute(data.footer?.href ?? '') ?? CIVIL_WAR
   const lane = war.lanes.find(l => l.id === data.theatre)
   const accent = lane?.skinVar ? `var(${lane.skinVar})` : (lane?.mapHex ?? war.accent)
+  const mapHex = lane?.mapHex ?? (typeof war.accent === 'string' ? war.accent : '#8a5b86') // concrete hex for DottedMap colour math
 
   const changeTab = (id: string) => {
     setTab(id)
@@ -166,8 +172,14 @@ export function BattleDossier({ data }: { data: BattleData }) {
         <div className="bp-meta">{data.date} · {data.place}</div>
       </div>
       <div style={{ marginTop: 16 }} />
-      <Hero hero={data.hero} />
-      {data.hero.credit && <div className="p-credit">{data.hero.credit}</div>}
+      {data.locator ? (
+        <DottedMap accent={mapHex} frame={data.locator.frame} states={data.locator.states} dots={data.locator.dots} lakes={data.locator.lakes} labels={data.locator.labels} eyebrow={data.locator.eyebrow} caption={data.locator.caption} />
+      ) : (
+        <>
+          <Hero hero={data.hero} />
+          {data.hero.credit && <div className="p-credit">{data.hero.credit}</div>}
+        </>
+      )}
 
       {/* sticky tab bar */}
       <div className="p-subnav below-crumb" ref={subnavRef}>
