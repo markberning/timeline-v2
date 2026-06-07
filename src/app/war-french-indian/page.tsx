@@ -82,7 +82,6 @@ const FI_BATTLE_LL: Record<string, [number, number]> = {
   'fi-sainte-foy': [46.78, -71.28], 'fi-montreal': [45.50, -73.57],
 }
 const FI_FRAME = { lonMin: -82.4, lonMax: -58.3, latMin: 38.7, latMax: 47.7 }
-const FI_MID_LON = (FI_FRAME.lonMin + FI_FRAME.lonMax) / 2
 // Outlines drawn under the dots: US states + the five eastern provinces; a few big
 // labels for orientation (battle names are driven by scroll, so the map carries only
 // region labels here).
@@ -140,27 +139,26 @@ function BattlesTab() {
   }, [mapTop])
 
   const activeB = list.find(b => b.id === active)
+  // No per-dot labels: the active battle's title lives in a fixed corner readout
+  // (below), so only the dot itself lights up at its location as you scroll.
   const dots: Dot[] = list.map(b => {
     const ll = FI_BATTLE_LL[b.id]; if (!ll) return null
     const isA = b.id === active
-    return {
-      name: isA ? b.name : undefined, date: isA ? String(b.year) : undefined,
-      lat: ll[0], lon: ll[1], heavy: isA, dateBelow: true,
-      anchor: (ll[1] < FI_MID_LON ? 'start' : 'end') as 'start' | 'end',
-      color: isA ? '#e6c2ec' : '#6f6374',
-    }
+    return { lat: ll[0], lon: ll[1], heavy: isA, color: isA ? '#e6c2ec' : '#6f6374' }
   }).filter(Boolean) as Dot[]
 
   return (
     <div className="p-page">
       <div ref={mapRef} className="fi-stickymap" style={{ position: 'sticky', top: mapTop, zIndex: 10, background: 'var(--paper)' }}>
-        <DottedMap eyebrow="The theatre · 1754–1763" accent="#c79cd0" frame={FI_FRAME} states={FI_MAP_STATES} dots={dots} />
-        {activeB && (
-          <a className="fi-mapcap" href={activeB.href ?? undefined} style={{ pointerEvents: activeB.href ? 'auto' : 'none' }}>
-            <b className="p-serif">{activeB.name}</b>
-            <span>{activeB.place} · {activeB.year}{activeB.href ? '' : ' · soon'}</span>
-          </a>
-        )}
+        <div className="fi-mapwrap">
+          <DottedMap eyebrow="The theatre · 1754–1763" accent="#c79cd0" frame={FI_FRAME} states={FI_MAP_STATES} dots={dots} />
+          {activeB && (
+            <a className="fi-mapcap" href={activeB.href ?? undefined} style={{ pointerEvents: activeB.href ? 'auto' : 'none' }}>
+              <b className="p-serif">{activeB.name}</b>
+              <span>{activeB.place} · {activeB.year}{activeB.href ? '' : ' · soon'}</span>
+            </a>
+          )}
+        </div>
       </div>
       <div className="p-sechead"><h2 className="p-label">Every battle</h2><span className="ct">{list.length} battles</span></div>
       <div className="p-tl">
