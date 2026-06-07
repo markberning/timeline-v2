@@ -64,10 +64,10 @@ export const FRENCH_INDIAN: WarConfig = {
     // ── Years of Disaster (1755–57) ──
     { id: 'fi-monongahela', name: 'The Monongahela', year: 1755, m: 7, mo: 'Jul', place: 'Braddock, PA', theatre: 'fi-battles', size: 'l', href: '/war-french-indian/battles/monongahela', img: '/war-img/fi-monongahela-defeat.jpg' },
     { id: 'fi-lake-george', name: 'Lake George', year: 1755, m: 9, mo: 'Sep', place: 'Lake George, NY', theatre: 'fi-battles', size: 'm', href: '/war-french-indian/battles/lake-george', img: '/war-img/fi-lake-champlain-corridor-map.jpg' },
-    { id: 'fi-oswego', name: 'Fort Oswego', year: 1756, m: 8, mo: 'Aug', place: 'Oswego, NY', theatre: 'fi-battles', size: 's' },
-    { id: 'fi-fort-william-henry', name: 'Fort William Henry', year: 1757, m: 8, mo: 'Aug', place: 'Lake George, NY', theatre: 'fi-battles', size: 'l' },
+    { id: 'fi-oswego', name: 'Fort Oswego', year: 1756, m: 8, mo: 'Aug', place: 'Oswego, NY', theatre: 'fi-battles', size: 's', href: '/war-french-indian/battles/fort-oswego' },
+    { id: 'fi-fort-william-henry', name: 'Fort William Henry', year: 1757, m: 8, mo: 'Aug', place: 'Lake George, NY', theatre: 'fi-battles', size: 'l', href: '/war-french-indian/battles/fort-william-henry' },
     // ── Pitt's Turn (1758) ──
-    { id: 'fi-carillon', name: 'Carillon (Ticonderoga)', year: 1758, m: 7, mo: 'Jul', place: 'Ticonderoga, NY', theatre: 'fi-battles', size: 'm' },
+    { id: 'fi-carillon', name: 'Carillon (Ticonderoga)', year: 1758, m: 7, mo: 'Jul', place: 'Ticonderoga, NY', theatre: 'fi-battles', size: 'm', href: '/war-french-indian/battles/carillon' },
     { id: 'fi-louisbourg', name: 'Louisbourg', year: 1758, m: 7, mo: 'Jun–Jul', place: 'Île-Royale (Cape Breton)', theatre: 'fi-battles', size: 'l' },
     { id: 'fi-frontenac', name: 'Fort Frontenac', year: 1758, m: 8, mo: 'Aug', place: 'Kingston, ON', theatre: 'fi-battles', size: 's' },
     { id: 'fi-fort-duquesne', name: 'Fort Duquesne', year: 1758, m: 11, mo: 'Nov', place: 'Pittsburgh, PA', theatre: 'fi-battles', size: 'm' },
