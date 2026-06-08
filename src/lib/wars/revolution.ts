@@ -94,7 +94,7 @@ export const REVOLUTION: WarConfig = {
   // the reckoning. Weighted at least as heavily as the battles.
   themes: [
     // ── Why we fought (causes) ──
-    { id: 'rev-bill-due', name: 'The Bill Comes Due', short: 'The Bill Comes Due', phase: 'causes', type: 'CAUSE', size: 'l', date: '1763–1764', year: 1763, m: 10 },
+    { id: 'rev-bill-due', name: 'The Bill Comes Due', short: 'The Bill Comes Due', phase: 'causes', type: 'CAUSE', size: 'l', date: '1763–1764', year: 1763, m: 10, hook: 'A victorious Britain, broke, decides the colonies must pay.', href: '/war-revolution/off-the-battlefield/bill-comes-due' },
     { id: 'rev-stamp-act', name: 'The Stamp Act', short: 'The Stamp Act', phase: 'causes', type: 'POLITICS', size: 'l', date: '1765', year: 1765, m: 3 },
     { id: 'rev-townshend', name: 'The Townshend Acts & the Boston Massacre', short: 'The Boston Massacre', phase: 'causes', type: 'POLITICS', size: 'l', date: '1767–1770', year: 1767, m: 6 },
     { id: 'rev-tea-party', name: 'The Tea Party & the Intolerable Acts', short: 'The Tea Party', phase: 'causes', type: 'POLITICS', size: 'l', date: '1773–1774', year: 1773, m: 12 },
