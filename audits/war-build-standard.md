@@ -161,6 +161,20 @@ its themes/chapters still as generated `.tsx`). What a new war wires up:
 6. Breadcrumb, section jump-bar, cast bar, dossier, commander arc, and the war skin are
    all inherited unchanged.
 
+**Turnkey seams found building war #3 (the Revolution, 2026-06-07) — both real, neither a blocker:**
+1. **`<WarHome>` is single-battle-lane only.** Its Battles tab lists battles chronologically
+   by year under one overview map; it has NO geographic "Theatres" grid (that's the one
+   thing the CW keeps its own home for). A genuinely multi-theatre war (the Revolution)
+   must either take the F&I shape (one battle lane + chronological PHASES as the story
+   spine — what the Revolution does) or get a bespoke/extended home. The F&I shape is the
+   documented turnkey path and the phases usually double as the geography.
+2. **`<WarHome>` CastTab hardcodes the F&I skin.** It emits `className={'p-cmdcard fi ' + c.side}`,
+   so the side pill labels come from the `.p-cmdcard.fi.u/.c` CSS rules (BRITISH / FRENCH).
+   A third war's cast cards render with F&I's labels until this is generalized — drive the
+   variant class + side label/color from the WarConfig (e.g. a `cmdSkin`/side-label hook)
+   and add the war's CSS. **DO THIS when building the Revolution's commanders** (American /
+   British), not before.
+
 **What's intentionally NOT unified** (judged poor ROI / not a new-war blocker, 2026-06-07):
 - The **Civil War home** stays its own page (its Theatres + Facts tabs + battle search are
   warranted by its content; folding them into `<WarHome>` would make it a conditional mess
