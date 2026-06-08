@@ -14,7 +14,7 @@ import { WarHeader, WAR_ICONS } from '@/components/mode/war-header'
 import { WarBreadcrumb } from '@/components/mode/war-chrome'
 import { warCrumbs } from '@/components/mode/theatre-page'
 import { DottedMap, type Dot } from '@/components/mode/dotted-map'
-import type { WarConfig } from '@/lib/wars/types'
+import type { WarConfig, WarBattle } from '@/lib/wars/types'
 
 const soonPill = <span className="fi-soon">Soon</span>
 
@@ -84,10 +84,15 @@ function CastTab({ cfg }: { cfg: WarConfig }) {
 // The Battles tab with the scroll-linked all-battles map (one-theatre wars). The map
 // and list are scroll-linked — whichever battle is at the top of the list is "active":
 // its dot lights up + shows its title, switching as you scroll. Only one label at a
-// time, so dense clusters never collide.
+// time, so dense clusters never collide. When the war defines `battleRegions` (a war
+// that travels, like the Revolution), the list groups by GEOGRAPHIC region and the dots
+// are coloured by region; otherwise it groups by year with flat-grey dots (F&I).
 function BattlesTab({ cfg }: { cfg: WarConfig }) {
   const map = cfg.home!.battleMap!
+  const regions = cfg.home!.battleRegions
+  const regionById = useMemo(() => Object.fromEntries((regions ?? []).map(r => [r.id, r])), [regions])
   const laneDot = (id: string) => cfg.lanes.find(l => l.id === id)?.color?.dot
+  const dotFor = (b: WarBattle) => (b.region && regionById[b.region]?.color.dot) || laneDot(b.theatre)
   const list = useMemo(() => [...cfg.battles].sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m)), [cfg])
   const years = [...new Set(list.map(b => b.year))]
   const [active, setActive] = useState<string | undefined>(list[0]?.id)
@@ -127,8 +132,29 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
   const dots: Dot[] = list.map(b => {
     const ll = map.coords[b.id]; if (!ll) return null
     const isA = b.id === active
-    return { lat: ll[0], lon: ll[1], active: isA, plain: !isA, color: isA ? '#e23bd6' : '#6b6170' }
+    return { lat: ll[0], lon: ll[1], active: isA, plain: !isA, color: isA ? '#e23bd6' : (dotFor(b) ?? '#6b6170') }
   }).filter(Boolean) as Dot[]
+
+  // Grouped rendering: by GEOGRAPHIC region (each chronological inside) when the war
+  // defines regions, else by year. Same row markup + scroll-link data-id either way.
+  const groups = regions
+    ? regions.map(r => ({ key: r.id, label: r.label, sub: r.range, color: r.color.dot, items: list.filter(b => b.region === r.id) })).filter(g => g.items.length)
+    : years.map(y => ({ key: String(y), label: String(y), sub: undefined as string | undefined, color: undefined as string | undefined, items: list.filter(b => b.year === y) }))
+
+  const renderRow = (b: WarBattle) => {
+    const dot = dotFor(b)
+    const row = (
+      <>
+        <span className="bh"><b className="p-serif">{b.name}</b>{regions ? <span className="th">{b.year}</span> : null}</span>
+        <span className="place">{b.place}</span>
+        <span className="note">{b.hook ?? soonPill}</span>
+      </>
+    )
+    const cls = 'p-bt' + (b.size === 'l' || b.size === 'xl' ? ' key' : '') + (b.href ? '' : ' fi-dim') + (b.id === active ? ' fi-active' : '')
+    return b.href
+      ? <a className={cls} key={b.id} data-id={b.id} href={b.href} style={{ ['--dot' as string]: dot }}>{row}</a>
+      : <div className={cls} key={b.id} data-id={b.id} style={{ ['--dot' as string]: dot }}>{row}</div>
+  }
 
   return (
     <div className="p-page">
@@ -145,23 +171,14 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
       </div>
       <div className="p-sechead"><h2 className="p-label">Every battle</h2><span className="ct">{list.length} battles</span></div>
       <div className="p-tl">
-        {years.map(yr => (
-          <div key={yr}>
-            <div className="p-yr"><span className="ylab">{yr}</span><span className="yline" /></div>
-            {list.filter(b => b.year === yr).map(b => {
-              const dot = laneDot(b.theatre)
-              const row = (
-                <>
-                  <span className="bh"><b className="p-serif">{b.name}</b></span>
-                  <span className="place">{b.place}</span>
-                  <span className="note">{b.hook ?? soonPill}</span>
-                </>
-              )
-              const cls = 'p-bt' + (b.size === 'l' || b.size === 'xl' ? ' key' : '') + (b.href ? '' : ' fi-dim') + (b.id === active ? ' fi-active' : '')
-              return b.href
-                ? <a className={cls} key={b.id} data-id={b.id} href={b.href} style={{ ['--dot' as string]: dot }}>{row}</a>
-                : <div className={cls} key={b.id} data-id={b.id} style={{ ['--dot' as string]: dot }}>{row}</div>
-            })}
+        {groups.map(g => (
+          <div key={g.key}>
+            <div className="p-yr">
+              <span className="ylab" style={g.color ? { color: g.color } : undefined}>{g.label}</span>
+              <span className="yline" />
+              {g.sub && <span className="p-mono" style={{ fontSize: 11, color: g.color ?? 'var(--muted)' }}>{g.sub}</span>}
+            </div>
+            {g.items.map(renderRow)}
           </div>
         ))}
       </div>

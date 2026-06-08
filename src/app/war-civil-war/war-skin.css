@@ -497,6 +497,10 @@
 /* Battles-tab scroll-linked map: the pinned map + the active-battle readout below it,
    and the matching highlight on the active list row. */
 .war-skin .fi-stickymap { padding-bottom: 10px; border-bottom: 1px solid var(--line-soft); margin-bottom: 4px; }
+/* Cap the sticky all-battles map so a tall (north–south) frame can't eat the screen and
+   leave no room for the scrolling battle list. The SVG keeps its aspect (centres with
+   small side gutters when the frame is tall). Short/wide frames (F&I) stay under the cap. */
+.war-skin .fi-stickymap svg { max-height: 40vh; }
 .war-skin .fi-mapwrap { position: relative; }
 /* Fixed corner readout: the active battle's title stays put in the map's lower-right
    (open ocean in this frame) as you scroll, so it never jumps around the dots. */

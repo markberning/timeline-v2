@@ -61,6 +61,11 @@ export interface WarBattle {
   theatre: string
   size: WarSize
   href?: string; img?: string; short?: string; hook?: string
+  // Optional GEOGRAPHIC region (e.g. 'new-england', 'the-south'). A war whose battles
+  // travel across the map (the Revolution) can group its all-battles list + colour its
+  // map dots by region without the full CW theatre grid; the region ids are defined in
+  // WarHomeConfig.battleRegions. Omit for a war that groups chronologically (F&I).
+  region?: string
 }
 
 // An off-the-battlefield theme OR a war-story chapter (same shape; the CW Theme).
@@ -105,6 +110,12 @@ export interface WarHomeConfig {
     states: { name: string; label?: string; labelLon?: number; labelLat?: number; labelSize?: number }[]
     coords: Record<string, [number, number]>
   }
+  // Optional GEOGRAPHIC regions for the Battles tab (a war whose battles travel — the
+  // Revolution). When set, the all-battles list groups by region (in this order, each
+  // region's battles chronological) and the map dots are coloured by region, instead of
+  // the default by-year grouping with flat-grey dots. Each region carries a year-range
+  // sublabel and a light/dark/dot colour. Omit for a chronological war (F&I).
+  battleRegions?: { id: string; label: string; range: string; color: { light: string; dark: string; dot: string } }[]
 }
 
 export interface WarConfig {

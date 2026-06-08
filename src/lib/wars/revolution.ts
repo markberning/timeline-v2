@@ -62,32 +62,32 @@ export const REVOLUTION: WarConfig = {
   // chronological signposts only. href/img set at build time (unbuilt → "Soon").
   battles: [
     // ── Outbreak (1775) ──
-    { id: 'rev-lexington', name: 'Lexington & Concord', year: 1775, m: 4, mo: 'Apr', place: 'Middlesex Co., MA', theatre: 'rev-battles', size: 'l' },
-    { id: 'rev-bunker-hill', name: 'Bunker Hill', year: 1775, m: 6, mo: 'Jun', place: 'Charlestown, MA', theatre: 'rev-battles', size: 'l' },
-    { id: 'rev-quebec', name: 'Quebec', year: 1775, m: 12, mo: 'Dec', place: 'Quebec City', theatre: 'rev-battles', size: 'm' },
+    { id: 'rev-lexington', name: 'Lexington & Concord', year: 1775, m: 4, mo: 'Apr', place: 'Middlesex Co., MA', theatre: 'rev-battles', region: 'new-england', size: 'l' },
+    { id: 'rev-bunker-hill', name: 'Bunker Hill', year: 1775, m: 6, mo: 'Jun', place: 'Charlestown, MA', theatre: 'rev-battles', region: 'new-england', size: 'l' },
+    { id: 'rev-quebec', name: 'Quebec', year: 1775, m: 12, mo: 'Dec', place: 'Quebec City', theatre: 'rev-battles', region: 'new-england', size: 'm' },
     // ── The War for the North (1776) ──
-    { id: 'rev-long-island', name: 'Long Island', year: 1776, m: 8, mo: 'Aug', place: 'Brooklyn, NY', theatre: 'rev-battles', size: 'l' },
-    { id: 'rev-trenton', name: 'Trenton', year: 1776, m: 12, mo: 'Dec', place: 'Trenton, NJ', theatre: 'rev-battles', size: 'l' },
-    { id: 'rev-princeton', name: 'Princeton', year: 1777, m: 1, mo: 'Jan', place: 'Princeton, NJ', theatre: 'rev-battles', size: 'm' },
+    { id: 'rev-long-island', name: 'Long Island', year: 1776, m: 8, mo: 'Aug', place: 'Brooklyn, NY', theatre: 'rev-battles', region: 'middle', size: 'l' },
+    { id: 'rev-trenton', name: 'Trenton', year: 1776, m: 12, mo: 'Dec', place: 'Trenton, NJ', theatre: 'rev-battles', region: 'middle', size: 'l' },
+    { id: 'rev-princeton', name: 'Princeton', year: 1777, m: 1, mo: 'Jan', place: 'Princeton, NJ', theatre: 'rev-battles', region: 'middle', size: 'm' },
     // ── Two Armies (1777) ──
-    { id: 'rev-ticonderoga', name: 'Fort Ticonderoga', year: 1777, m: 7, mo: 'Jul', place: 'Ticonderoga, NY', theatre: 'rev-battles', size: 's' },
-    { id: 'rev-bennington', name: 'Bennington', year: 1777, m: 8, mo: 'Aug', place: 'Walloomsac, NY', theatre: 'rev-battles', size: 'm' },
-    { id: 'rev-brandywine', name: 'Brandywine', year: 1777, m: 9, mo: 'Sep', place: 'Chadds Ford, PA', theatre: 'rev-battles', size: 'm' },
-    { id: 'rev-saratoga', name: 'Saratoga', year: 1777, m: 9, mo: 'Sep–Oct', place: 'Stillwater, NY', theatre: 'rev-battles', size: 'xl' },
-    { id: 'rev-germantown', name: 'Germantown', year: 1777, m: 10, mo: 'Oct', place: 'Philadelphia, PA', theatre: 'rev-battles', size: 'm' },
+    { id: 'rev-ticonderoga', name: 'Fort Ticonderoga', year: 1777, m: 7, mo: 'Jul', place: 'Ticonderoga, NY', theatre: 'rev-battles', region: 'saratoga', size: 's' },
+    { id: 'rev-bennington', name: 'Bennington', year: 1777, m: 8, mo: 'Aug', place: 'Walloomsac, NY', theatre: 'rev-battles', region: 'saratoga', size: 'm' },
+    { id: 'rev-brandywine', name: 'Brandywine', year: 1777, m: 9, mo: 'Sep', place: 'Chadds Ford, PA', theatre: 'rev-battles', region: 'pennsylvania', size: 'm' },
+    { id: 'rev-saratoga', name: 'Saratoga', year: 1777, m: 9, mo: 'Sep–Oct', place: 'Stillwater, NY', theatre: 'rev-battles', region: 'saratoga', size: 'xl' },
+    { id: 'rev-germantown', name: 'Germantown', year: 1777, m: 10, mo: 'Oct', place: 'Philadelphia, PA', theatre: 'rev-battles', region: 'pennsylvania', size: 'm' },
     // ── A World War (1778–1780) ──
-    { id: 'rev-monmouth', name: 'Monmouth', year: 1778, m: 6, mo: 'Jun', place: 'Freehold, NJ', theatre: 'rev-battles', size: 'm' },
-    { id: 'rev-vincennes', name: 'Vincennes', year: 1779, m: 2, mo: 'Feb', place: 'Vincennes, IN', theatre: 'rev-battles', size: 's' },
-    { id: 'rev-stony-point', name: 'Stony Point', year: 1779, m: 7, mo: 'Jul', place: 'Stony Point, NY', theatre: 'rev-battles', size: 's' },
-    { id: 'rev-bonhomme-richard', name: 'Bonhomme Richard vs. Serapis', year: 1779, m: 9, mo: 'Sep', place: 'Off Flamborough Head, England', theatre: 'rev-battles', size: 'm' },
-    { id: 'rev-savannah', name: 'Savannah', year: 1779, m: 10, mo: 'Oct', place: 'Savannah, GA', theatre: 'rev-battles', size: 'm' },
-    { id: 'rev-charleston', name: 'Charleston', year: 1780, m: 5, mo: 'May', place: 'Charleston, SC', theatre: 'rev-battles', size: 'm' },
-    { id: 'rev-camden', name: 'Camden', year: 1780, m: 8, mo: 'Aug', place: 'Camden, SC', theatre: 'rev-battles', size: 'm' },
-    { id: 'rev-kings-mountain', name: "Kings Mountain", year: 1780, m: 10, mo: 'Oct', place: 'York Co., SC', theatre: 'rev-battles', size: 'l' },
+    { id: 'rev-monmouth', name: 'Monmouth', year: 1778, m: 6, mo: 'Jun', place: 'Freehold, NJ', theatre: 'rev-battles', region: 'middle', size: 'm' },
+    { id: 'rev-vincennes', name: 'Vincennes', year: 1779, m: 2, mo: 'Feb', place: 'Vincennes, IN', theatre: 'rev-battles', region: 'wider', size: 's' },
+    { id: 'rev-stony-point', name: 'Stony Point', year: 1779, m: 7, mo: 'Jul', place: 'Stony Point, NY', theatre: 'rev-battles', region: 'middle', size: 's' },
+    { id: 'rev-bonhomme-richard', name: 'Bonhomme Richard vs. Serapis', year: 1779, m: 9, mo: 'Sep', place: 'Off Flamborough Head, England', theatre: 'rev-battles', region: 'wider', size: 'm' },
+    { id: 'rev-savannah', name: 'Savannah', year: 1779, m: 10, mo: 'Oct', place: 'Savannah, GA', theatre: 'rev-battles', region: 'south', size: 'm' },
+    { id: 'rev-charleston', name: 'Charleston', year: 1780, m: 5, mo: 'May', place: 'Charleston, SC', theatre: 'rev-battles', region: 'south', size: 'm' },
+    { id: 'rev-camden', name: 'Camden', year: 1780, m: 8, mo: 'Aug', place: 'Camden, SC', theatre: 'rev-battles', region: 'south', size: 'm' },
+    { id: 'rev-kings-mountain', name: "Kings Mountain", year: 1780, m: 10, mo: 'Oct', place: 'York Co., SC', theatre: 'rev-battles', region: 'south', size: 'l' },
     // ── The Southern Turn & Yorktown (1781) ──
-    { id: 'rev-cowpens', name: 'Cowpens', year: 1781, m: 1, mo: 'Jan', place: 'Cowpens, SC', theatre: 'rev-battles', size: 'l' },
-    { id: 'rev-guilford', name: 'Guilford Courthouse', year: 1781, m: 3, mo: 'Mar', place: 'Greensboro, NC', theatre: 'rev-battles', size: 'm' },
-    { id: 'rev-yorktown', name: 'Yorktown', year: 1781, m: 10, mo: 'Oct', place: 'Yorktown, VA', theatre: 'rev-battles', size: 'xl' },
+    { id: 'rev-cowpens', name: 'Cowpens', year: 1781, m: 1, mo: 'Jan', place: 'Cowpens, SC', theatre: 'rev-battles', region: 'south', size: 'l' },
+    { id: 'rev-guilford', name: 'Guilford Courthouse', year: 1781, m: 3, mo: 'Mar', place: 'Greensboro, NC', theatre: 'rev-battles', region: 'south', size: 'm' },
+    { id: 'rev-yorktown', name: 'Yorktown', year: 1781, m: 10, mo: 'Oct', place: 'Yorktown, VA', theatre: 'rev-battles', region: 'south', size: 'xl' },
   ],
   // Off the battlefield — the HEART of this war. Six causes chapters (the road to
   // revolution, picking up from where the F&I war ended), the war-years chapters, and
@@ -144,10 +144,25 @@ export const REVOLUTION: WarConfig = {
       ['war', 'The war years'],
       ['reckoning', 'The peace & the reckoning'],
     ],
+    // GEOGRAPHIC regions — the war travels down the seaboard, so the Battles tab groups
+    // by region (each chronological inside) and the map dots are coloured by region. The
+    // 'wider' catch-all holds the off-map naval + frontier fights (no dot on the seaboard
+    // frame). Colours are the reserved theatre palette + one slate for the catch-all.
+    battleRegions: [
+      { id: 'new-england', label: 'New England & Canada', range: '1775', color: { light: '#2c7d99', dark: '#5fb0cc', dot: '#2c7d99' } },
+      { id: 'middle', label: 'New York & New Jersey', range: '1776–79', color: { light: '#8a5b86', dark: '#c79cd0', dot: '#8a5b86' } },
+      { id: 'saratoga', label: 'The Hudson & Saratoga', range: '1777', color: { light: '#b3852f', dark: '#d8b25a', dot: '#b3852f' } },
+      { id: 'pennsylvania', label: 'Pennsylvania', range: '1777', color: { light: '#4e8a52', dark: '#84c089', dot: '#4e8a52' } },
+      { id: 'south', label: 'The South', range: '1779–81', color: { light: '#b3502f', dark: '#d98a5a', dot: '#b3502f' } },
+      { id: 'wider', label: 'At Sea & the Frontier', range: '1779', color: { light: '#5b6b80', dark: '#93a6c0', dot: '#5b6b80' } },
+    ],
     battleMap: {
       eyebrow: 'The seaboard · 1775–1783',
       accent: '#7bbf80',
-      frame: { lonMin: -82.0, lonMax: -69.0, latMin: 31.3, latMax: 47.4 },
+      // Wide frame (Ohio country to the Atlantic) so the tall north–south spread of dots
+      // renders close to landscape — the map is height-capped on the Battles tab, and a
+      // wider frame keeps the side gutters small instead of a tall sliver.
+      frame: { lonMin: -85.5, lonMax: -66.5, latMin: 31.3, latMax: 47.4 },
       states: [
         { name: 'Massachusetts', label: 'MASS.', labelLon: -72.1, labelLat: 42.3, labelSize: 11 },
         { name: 'New York', label: 'NEW YORK', labelLon: -75.6, labelLat: 43.0, labelSize: 13 },
