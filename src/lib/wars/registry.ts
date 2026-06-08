@@ -4,10 +4,11 @@
 import type { WarConfig } from './types'
 import { CIVIL_WAR } from './civil-war'
 import { FRENCH_INDIAN } from './french-indian'
+import { REVOLUTION } from './revolution'
 
 export type { WarConfig } from './types'
 
-export const WARS: WarConfig[] = [CIVIL_WAR, FRENCH_INDIAN]
+export const WARS: WarConfig[] = [CIVIL_WAR, FRENCH_INDIAN, REVOLUTION]
 
 export const warById = (id: string): WarConfig | undefined => WARS.find(w => w.id === id)
 
