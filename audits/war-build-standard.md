@@ -95,6 +95,31 @@ parallel) → revise → integrate**, with 2 hard gates (story + facts). Maps ar
 at creation time. Full spec: `audits/war-content-pipeline.md`. The mandate
 (CLAUDE.md): no section ships author-and-hope; a passing draft is not a gated draft.
 
+### 4a. The McPherson test — for the war-story spine (year/phase chapters)
+
+McPherson (*Battle Cry of Freedom*) refused a topical/thematic split because the war's
+spheres — military, diplomacy, slavery/emancipation, Northern politics, dissent — were
+*simultaneous and impinged on each other*: "none can be understood apart from the whole."
+His example is fall 1862 (Maryland + Kentucky invasions + European-intervention diplomacy +
+the Emancipation Proclamation + anti-draft/anti-Black riots + martial law + the Peace
+Democrats' fall-election bid, all at once). Our **off-the-battlefield silo + per-battle
+modular stories are structurally the split he warns against**; the thing that redeems it is
+the chronological **year/phase spine**, which is our McPherson layer.
+
+Audit of the CW 1862 spine chapter (2026-06-08): the moral/diplomatic braid is strong
+(weaves emancipation + European recognition + the elections into one chronological thread,
+closes "the military story and the moral one had become a single story"). Two gaps it still
+has, to AVOID when authoring future spine chapters:
+- **Pull the home-front/political thread into the spine, not the silo.** The CW spine left
+  draft riots / martial law / habeas / civil liberties almost entirely to the OTBF themes;
+  the battles↔domestic-dissent braid is the seam still split.
+- **Build for simultaneity, not sequence.** The CW spine chains beats (West → Antietam →
+  emancipation → elections) where McPherson collapses them into one pulse. Write at least one
+  spine chapter per war that deliberately fuses a simultaneous moment instead of chaining it.
+  (Revolution candidates: 1776 — Declaration + NY-campaign disaster + Loyalist civil war +
+  first reach to France; or 1781 — Yorktown unwinnable without the French fleet + war-weariness
+  + the southern civil war.)
+
 ---
 
 ## 5. Content systems map — which file to edit (until unification)
