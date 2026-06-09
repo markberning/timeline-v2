@@ -2,8 +2,9 @@ import type { Metadata } from 'next'
 import { getAllNarrativeIds, getNarrative } from '@/lib/data'
 import { NarrativeReader } from '@/components/narrative-reader'
 import { CivBreadcrumb } from '@/components/civ-breadcrumb'
-import { ThreadBar } from '@/components/thread-bar'
+import { WarHeader } from '@/components/mode/war-header'
 import { MinCivHeader } from '@/components/min-civ-header'
+import '../../war-civil-war/war-skin.css'
 import { getChainsForTimeline, getChainPosition } from '../../../../reference-data/tl-chains'
 import { NAVIGATOR_TLS } from '@/lib/navigator-tls'
 import { formatYearRange } from '@/lib/chronology-data'
@@ -44,8 +45,8 @@ export default async function CivilizationPage({ params }: PageProps) {
 
   return (
     <div className="max-w-prose mx-auto px-5">
-      <div data-top-nav className="sticky top-0 z-20 -mx-5">
-        <ThreadBar />
+      <div data-top-nav className="war-skin sticky top-0 z-20 -mx-5" style={{ minHeight: 0, background: 'transparent' }}>
+        <WarHeader active="civ" title={narrative.label} subtitle="Stuff Happened · Civ" backHref="/" />
         <CivBreadcrumb
           civId={civilizationId}
           civLabel={narrative.label}
