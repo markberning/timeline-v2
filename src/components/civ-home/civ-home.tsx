@@ -8,7 +8,7 @@
 // literally — fit to the app's own data + style).
 
 import { useState } from 'react'
-import { SectionHomeBar } from '@/components/section-home-bar'
+import { WarHeader } from '@/components/mode/war-header'
 import { SORTED_CIVS, CHAINS_BY_REGION, CIV_CHAIN_MAP, formatYear, formatYearRange } from '@/lib/chronology-data'
 import { NAVIGATOR_TLS, REGION_LABELS, REGION_COLORS, type NavigatorRegion } from '@/lib/navigator-tls'
 import { ERA_BANDS, eraOfYear } from '@/lib/civ-eras'
@@ -280,9 +280,12 @@ export function CivHome() {
     <div style={{ minHeight: '100dvh', display: 'flex', justifyContent: 'center', background: 'var(--background)', backgroundImage: `radial-gradient(120% 60% at 50% 0%, color-mix(in srgb, var(--foreground) 5%, transparent), transparent 60%)` }}>
       {/* phone-width column */}
       <div style={{ width: '100%', maxWidth: 440, minHeight: '100dvh', background: 'var(--background)', borderLeft: `1px solid ${BORDER}`, borderRight: `1px solid ${BORDER}`, display: 'flex', flexDirection: 'column', boxShadow: '0 0 40px rgba(0,0,0,0.04)' }}>
-        {/* shared section-home bar (just the top thread bar — the home's own
-            Timeline/Chains/Globe + filter handle browsing, so no pill row here) */}
-        <SectionHomeBar />
+        {/* editorial header (the shared WarHeader, civ-scoped) — matches the civ
+            reader; the home's own Timeline/Chains/Globe + filter handle browsing,
+            so no breadcrumb row here. */}
+        <div className="war-skin" style={{ position: 'sticky', top: 0, zIndex: 20, minHeight: 0, background: 'transparent' }}>
+          <WarHeader active="civ" title="Civilizations" subtitle="Stuff Happened · Civ" backHref="/" />
+        </div>
 
         {/* app title + what-this-is — sits where the filter row used to live and
             scrolls away; the functional bar above stays put. The struck-scope
