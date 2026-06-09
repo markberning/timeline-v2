@@ -28,6 +28,7 @@
   --th-naval: #2c7d99;  /* cyan-teal */
   --otbf: #c2611f;      /* off-the-battlefield — burnt orange (dot = #d96a26) */
   --warstory: #7a1f2e;  /* the war-story spine — deep oxblood (reserved, both wars; src/lib/wars/layer-colors.ts) */
+  --thread: #5b6b80;    /* cross-cutting THREAD layer (e.g. /threads/the-parties) — neutral slate */
   --fi-battles: #8a5b86; /* F&I's single theatre — plum (THEATRE_PALETTE.plum, mirrors --th-east) */
   /* F&I war phase palette — light-mode hues (darker, for the parchment bg) */
   --fi-ohio: #4e8a52;     /* The Ohio Spark — green */
@@ -82,6 +83,7 @@
   --th-naval: #5fb0cc;
   --otbf: #e07f3c;
   --warstory: #cb6470;
+  --thread: #93a6c0;
   --fi-battles: #c79cd0;
   /* F&I war phase palette — dark-mode hues (brighter) */
   --fi-ohio: #84c089;

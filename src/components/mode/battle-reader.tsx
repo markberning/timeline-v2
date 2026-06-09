@@ -57,6 +57,7 @@ function emph(text: string, base: number): React.ReactNode[] {
 // theatre name); anything else (war-story chapters / F&I phases) → the oxblood spine.
 // Returns a CSS var (resolves light/dark inside .war-skin) + the destination-type kicker.
 function pillDest(href: string, fallback: typeof CIVIL_WAR): { cssVar: string; kicker: string } {
+  if (href.startsWith('/threads/')) return { cssVar: '--thread', kicker: 'A thread' }
   const w = warForRoute(href) ?? fallback
   if (href.includes('/off-the-battlefield')) return { cssVar: '--otbf', kicker: 'Off the field' }
   const battle = w.battles
