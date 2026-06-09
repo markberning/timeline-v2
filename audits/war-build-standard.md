@@ -63,13 +63,17 @@ were applied to F&I and then carried to the Civil War (2026-06-06).
 
 ## 3. Media + maps
 
-- **Paid-API-key rule (locked 2026-06-07, standing user directive).** Any step that
-  spends money against a paid API key is announced **loudly, in plain language,
-  BEFORE it runs** — name the step, the key, the rough cost — never run silently.
-  The **only paid step in the war build is map generation** (Gemini image API). The
-  **born-verified image pass costs nothing**: it pulls only free public-domain sources
-  (Library of Congress `tile.loc.gov`, the Wikimedia Commons API, `upload.wikimedia.org`)
-  with a plain paced downloader, no key. An image pass needs no warning; a map regen does.
+- **User-key cost-API approval gate (UPGRADED 2026-06-09, standing user directive — no exceptions).**
+  Any step that makes a **cost-incurring API call on a key the USER supplied** (`.env.local`)
+  must be **requested from the user and explicitly approved BEFORE it runs** — request,
+  wait for the yes, then run; never silently. Gated surfaces: **Gemini map/image
+  generation** (Gemini Flash, `GEMINI_API_KEY`) and **Claude vision / batch passes that
+  run through a user-provided Anthropic/Claude key in a script**. NOT gated: the
+  **born-verified image pass's byte-downloads** (free public-domain sources — Library of
+  Congress `tile.loc.gov`, Wikimedia Commons API, `upload.wikimedia.org`, no key), the
+  deterministic no-LLM gates, the **Claude Code subagents spawned via the Agent tool**
+  (text or vision — harness-billed, not a user key), and deploy/push. See
+  `memory/feedback_paid_api_key_loud` + the `CLAUDE.md` top-section rule.
 - **Born-verified images** — every photo/print confirmed against its real
   page/image at the moment it's written; public-domain or properly-licensed only;
   caption states the real date/source. A representative era artifact beats blank;

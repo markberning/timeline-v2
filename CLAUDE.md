@@ -3,6 +3,13 @@
 ## What This Is
 A mobile-first reading app for long-form historical narratives. Each civilization gets a complete, chapter-based narrative (like a short book) that the reader reads on their phone. The v1 interactive timeline explorer (stuffhappened.com) is frozen; this is a fresh start focused on reading, not zooming.
 
+## Cost API calls on a USER-PROVIDED key — ASK FIRST, NO EXCEPTIONS (locked 2026-06-09)
+**Any step that makes a paid API call using an API key the USER supplied to the project (the `.env.local` keys) must be requested from the user and explicitly approved BEFORE it runs. No exceptions.** Request it, wait for the yes, then run — never silently, never "to save a step." The paid, user-keyed surfaces:
+- **Gemini image/map generation** — the Gemini Flash image model (`maps-build.mjs` / `generate-maps.mjs`, `GEMINI_API_KEY`).
+- **Claude vision / batch passes that run through a user-provided Anthropic/Claude key in a script** (image QA, vision-pick, and the like).
+
+NOT gated (run freely): free byte-downloads from public-domain sources (Wikimedia Commons, Library of Congress — no key); the deterministic gates (link / coverage / card / density — no LLM); the **Claude Code authoring/orchestration subagents I spawn** (fact pack / author / critics / reviser / image-fetch+verify — billed to the session, NOT a user key, so they are normal work — per `memory/feedback_cost_framing`); and **deploy/push to our own infra** (Cloudflare / GitHub — governed by the Publish Policy below, stays autonomous). See `memory/feedback_paid_api_key_loud`.
+
 ## The Product
 - **Format**: chapter-based prose narratives, one per civilization
 - **Voice**: informal, informational, conversational — popular history, not academic. "A delightful piece of royal propaganda" is the tone.

@@ -27,17 +27,19 @@ not where errors are first discovered. `scripts/retarget-links.mjs` +
 tools for the legacy 100 only — NEVER part of creating a new civ** (auto-
 retargeting guesses, and guesses are sometimes confidently wrong).
 
-**Paid-API-key rule (locked 2026-06-07, standing user directive).** Any pipeline
-step that spends money against a paid API key MUST be called out **loudly, in
-plain language, BEFORE it runs** — name the step, the key, and roughly what it
-will cost — so the user can stop it first. Never run a paid step silently.
-**The only paid step anywhere in the pipeline is map generation/QA** (`maps-build.mjs`
-/ `generate-maps.mjs`, the Gemini image API, `.env.local` `GEMINI_API_KEY`).
-Everything else is free: all link/coverage/card/density gates are deterministic
-(no LLM), and the **born-verified image pass uses only free public-domain sources**
-— Library of Congress (`tile.loc.gov`), the Wikimedia Commons MediaWiki API, and
-`upload.wikimedia.org` — fetched with a plain paced downloader, no key. So an image
-pass needs no warning; a map regen does.
+**User-key cost-API approval gate (UPGRADED 2026-06-09, standing user directive — no
+exceptions).** Any pipeline step that makes a **cost-incurring API call on a key the
+USER supplied** (`.env.local`) MUST be **requested from the user and explicitly approved
+BEFORE it runs** — request it, wait for the yes, then run. Never run such a step silently.
+Gated surfaces: **map generation/QA** (`maps-build.mjs` / `generate-maps.mjs`, the Gemini
+Flash image API, `GEMINI_API_KEY`) and **any Claude vision / batch pass that runs through
+a user-provided Anthropic/Claude key in a script**. Everything else is free and ungated:
+all link/coverage/card/density gates are deterministic (no LLM); the **born-verified image
+pass's downloads use only free public-domain sources** — Library of Congress (`tile.loc.gov`),
+the Wikimedia Commons MediaWiki API, and `upload.wikimedia.org` — fetched with a plain paced
+downloader, no key; and the **Claude Code subagents spawned via the Agent tool** (text or
+vision) are harness-billed, not on a user key. So an image-download pass and subagent
+orchestration need no approval; a Gemini map regen or a user-keyed vision pass does.
 
 0. **Pull v1 reference data + expand to target density** — check `~/projects/personal/timeline/src/data/{tlId}.json`, copy to `reference-data/{tlId}.json`. **Hard target: 10–15 events per chapter** (e.g. a 20-chapter TL ⇒ ~200–220 events), spread across all 8 categories — *enforced* by `lint-density.ts` (new civs get zero tolerance; not grandfathered). The event pool is reused across chapters. Verify the `label` field matches `navigator-tls.ts`.
    **Event-popup content standard (LOCKED 2026-05-29 — `celtic-cultures` ch1 is the reference pilot, user-approved).** Every event is a **two-part "explore further" card**, never a bare wiki sentence: (a) `description` = a tight, engaging house-voice *what-it-is* (define + hook, 1–2 sentences) — NEVER a flat list or "characterized by…" encyclopedia prose; (b) a `details` array with one entry `[{ "label": "Explore further", "text": "…" }]` — 2–4 sentences that give the reader something the narrative does NOT (the mechanism, the vivid concrete detail, the surprising "wait, really?" fact). **Born-verified facts only:** web-verify every concrete claim in the "Explore further" beat, hedge genuinely-contested ones, never invent color. The beat must ADD to the chapter, not repeat it. (The photo + caption half of the popup is step 13.)
