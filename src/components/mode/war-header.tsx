@@ -23,11 +23,20 @@ export const WAR_ICONS = {
 }
 
 const MENU = [
-  { k: 'civ', n: 'Civ', s: 'Civilizations', href: '/' },
+  { k: 'civ', n: 'Civ', s: 'Civilizations', href: '/civ' },
   { k: 'war', n: 'War', s: 'Battles & causes', href: '/war' },
   { k: 'art', n: 'Art', s: 'Movements & works', href: '/art' },
   { k: 'music', n: 'Music', s: 'Eras & composers', href: '/music' },
 ]
+
+// The menu footer tagline adapts to the vertical the header is serving (it's shared
+// chrome now, not war-only — "one war at a time" was wrong on a civ page).
+const TAGLINE: Record<string, string> = {
+  civ: 'one civilization at a time.',
+  war: 'one war at a time.',
+  art: 'one movement at a time.',
+  music: 'one era at a time.',
+}
 
 function ThemeSwitch() {
   const [dark, setDark] = useState(true)
@@ -80,11 +89,12 @@ export function WarHeader({
           <div className="p-menu">
             <div className="mh"><b>Stuff Happened</b><button className="p-iconbtn" onClick={() => setMenu(false)}>{WAR_ICONS.close}</button></div>
             <nav>
+              <a href="/">Home<span className="sub">All four threads</span></a>
               {MENU.map(it => (
                 <a key={it.k} className={it.k === active ? 'on' : ''} href={it.href}>{it.n}<span className="sub">{it.s}</span></a>
               ))}
             </nav>
-            <div className="mf"><span>Long-form history,<br />one war at a time.</span></div>
+            <div className="mf"><span>Long-form history,<br />{TAGLINE[active] ?? 'one story at a time.'}</span></div>
           </div>
         </>
       )}

@@ -46,7 +46,7 @@ export default async function CivilizationPage({ params }: PageProps) {
   return (
     <div className="max-w-prose mx-auto px-5">
       <div data-top-nav className="war-skin sticky top-0 z-20 -mx-5" style={{ minHeight: 0, background: 'transparent' }}>
-        <WarHeader active="civ" title={narrative.label} subtitle="Stuff Happened · Civ" backHref="/" />
+        <WarHeader active="civ" title={narrative.label} subtitle="Stuff Happened · Civ" backHref="/civ" />
         <CivBreadcrumb
           civId={civilizationId}
           civLabel={narrative.label}
