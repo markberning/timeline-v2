@@ -96,7 +96,7 @@ export const REVOLUTION: WarConfig = {
     // ── Why we fought (causes) ──
     { id: 'rev-bill-due', name: 'The Bill Comes Due', short: 'The Bill Comes Due', phase: 'causes', type: 'CAUSE', size: 'l', date: '1763–1764', year: 1763, m: 10, hook: 'A victorious Britain, broke, decides the colonies must pay.', href: '/war-revolution/off-the-battlefield/bill-comes-due' },
     { id: 'rev-stamp-act', name: 'The Stamp Act', short: 'The Stamp Act', phase: 'causes', type: 'POLITICS', size: 'l', date: '1765', year: 1765, m: 3, hook: 'Parliament taxes every sheet of paper, and the colonies erupt.', href: '/war-revolution/off-the-battlefield/stamp-act' },
-    { id: 'rev-townshend', name: 'The Townshend Acts & the Boston Massacre', short: 'The Boston Massacre', phase: 'causes', type: 'POLITICS', size: 'l', date: '1767–1770', year: 1767, m: 6 },
+    { id: 'rev-townshend', name: 'The Townshend Acts & the Boston Massacre', short: 'The Boston Massacre', phase: 'causes', type: 'POLITICS', size: 'l', date: '1767–1770', year: 1767, m: 6, hook: 'A cleverer tax, an army in Boston, and five dead on King Street.', href: '/war-revolution/off-the-battlefield/boston-massacre' },
     { id: 'rev-tea-party', name: 'The Tea Party & the Intolerable Acts', short: 'The Tea Party', phase: 'causes', type: 'POLITICS', size: 'l', date: '1773–1774', year: 1773, m: 12 },
     { id: 'rev-idea-independence', name: 'The Idea of Independence', short: 'The Idea of Independence', phase: 'causes', type: 'POLITICS', size: 'l', date: '1774–1776', year: 1776, m: 7 },
     { id: 'rev-civil-war', name: 'A Civil War Among Themselves', short: 'A Civil War Among Themselves', phase: 'causes', type: 'SOCIETY', size: 'l', date: '1775–1783', year: 1775, m: 1 },

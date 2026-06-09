@@ -298,5 +298,155 @@ export const THEME_NARR: Record<string, Narr> = {
       "title": "A retreat that conceded nothing",
       "body": "To the men in Westminster, repealing the Stamp Act was not backing down on principle. The boycott was hurting British merchants and the tax could not be collected, so they cut their losses. The Declaratory Act, passed the same day, was there to make the point unmistakable: Parliament could still bind the colonies in all cases whatsoever. They thought they had ended a nuisance, not lost an argument."
     }
+  },
+  "boston-massacre": {
+    "eyebrow": "Parliament tries again, this time cleverly, and Boston gets an army",
+    "title": "The Townshend Acts & the Boston Massacre",
+    "blocks": [
+      {
+        "p": "Here was the clever part. The colonists had spent the Stamp Act crisis insisting on a distinction between two kinds of taxes: external duties on trade, collected at the ports, which they would accept, and internal taxes laid simply to raise money, which they would not. Parliament had backed down on the Stamp Act but kept the asserted power to bind the colonies \"in all cases whatsoever\" (Chapter 2), and it meant to use that power. So the next minister to reach into colonial pockets decided to tax them on the side of the line they had said was fine, and dare them to object."
+      },
+      {
+        "p": "That minister was Charles Townshend (pronounced \"TOWNZ-end\"), the Chancellor of the Exchequer (the British government's chief finance minister, the official in charge of taxes and the treasury, the senior Cabinet figure who introduces the money bills Parliament then votes on). He was a famous talker, brilliant and reckless, who once gave a speech to the House of Commons so dazzling and so drunk it earned him the nickname \"Champagne Charlie.\" Horace Walpole, a prolific letter-writer and memoirist who chronicled the London political world of his day, said it ran \"an hour, with torrents of wit, ridicule, vanity, lies, and beautiful language.\" In 1767 Townshend set out to call the colonists' bluff."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/stamp-act",
+        "plabel": "The Stamp Act"
+      },
+      {
+        "h": "Townshend's gambit",
+        "eyebrow": "External duties, with a sharp hidden point"
+      },
+      {
+        "p": "In mid-1767 Parliament passed a cluster of related laws that together became known as the Townshend Acts. The core measure, the Revenue Act, received royal assent on 29 June 1767. It laid import duties on a short list of goods brought into the colonies: glass, lead, paints and painters' colors, paper, and tea. Every one of them was collected at the port as the ship came in. Every one of them was, by the colonists' own definition, an external duty. That was the entire design. Townshend was taking the colonists at their word, taxing only the kind of tax they had publicly said they could live with."
+      },
+      {
+        "p": "The amount of money involved was modest, and the money was never really the point. The point was buried in what the revenue was *for*. The duties were earmarked to pay the salaries of royal governors and judges in the colonies directly, out of the Crown's own collected funds."
+      },
+      {
+        "p": "To see why that was alarming, you have to know where those officials' pay had come from before. For generations the colonial assemblies (the elected local legislatures, one per colony, that ran each colony's internal affairs) had voted the governors' and judges' salaries themselves, year by year. That gave the assemblies enormous leverage. A royal governor who crossed his assembly could find his pay held hostage, and a judge knew who signed his check. The power of the purse was the colonists' single strongest check on Crown officials sent from London. Townshend's duties would cut that cord. A governor paid from London answered to London and could ignore the assembly that no longer fed him. So a tax that looked small was aimed at something large: prying the king's officials loose from local control."
+      },
+      {
+        "p": "The cluster came with enforcement to match. The Commissioners of Customs Act, also of 29 June 1767, created a new five-man American Board of Customs Commissioners, seated at Boston in November 1767, to police the trade laws and collect the duties up close. The board could act without waiting on London, hired more customs officers, and paid informers. To do their searching the customs men leaned on writs of assistance (open-ended search warrants that let an officer search any premises for smuggled goods without naming a specific place or cause), the same general warrants that James Otis, a Boston lawyer who became a patriot hero for arguing against these very search warrants in court in 1761, had famously denounced. None of this was new in kind. What was new was the will to actually enforce it, and to plant the enforcers in the middle of Boston."
+      },
+      {
+        "p": "Townshend himself never saw what his acts set off. He died suddenly of a fever in September 1767, aged forty-two, before any word of colonial resistance could reach him. The gambit outlived the gambler."
+      },
+      {
+        "h": "The colonial answer",
+        "eyebrow": "A sharper principle, the homespun boycott, and a vote of 92 to 17"
+      },
+      {
+        "p": "Most colonists refused to take the bait, though not without argument and not all at once. And in refusing it, they sharpened their own case. During the Stamp Act crisis they had drawn the line between external and internal taxes. Now they redrew it. The test, they decided, was not *where* the tax was collected but *why* it was laid. A duty meant to regulate trade was one thing. A duty meant to raise revenue from Americans without the consent of their own assemblies was another, and it was illegitimate whether you collected it at the port or in the parlor. No tax for revenue, external or internal, without consent. Townshend had tried to trap them on a technicality, and they answered by moving the principle out from under him."
+      },
+      {
+        "p": "The clearest statement of that argument belonged to John Dickinson. Parliament could regulate the colonies' trade, he granted; what it could not do was tax Americans for revenue without their consent, by any name, at any port. That was the whole case in a sentence, and Dickinson made it sound like common sense rather than rebellion. He was a wealthy Philadelphia lawyer who wrote under the modest persona of a \"Pennsylvania Farmer,\" precisely so the case would read as plain country wisdom and not as elite lawyering. His tone was moderate, and he urged petition and patient resistance, not violence and not independence. The argument earned its audience. Beginning on 2 December 1767, his *Letters from a Farmer in Pennsylvania* appeared in a Philadelphia newspaper, twelve letters in all, running over the following weeks and then collected as a pamphlet. They were reprinted almost everywhere, in nineteen of the twenty-three colonial English-language newspapers and abroad in London, Dublin, and Paris. Dickinson became the calm, careful face of the colonial case, and he set the terms most colonists argued on."
+      },
+      {
+        "p": "The institutional answer came out of Massachusetts. Early in 1768 Samuel Adams, working with James Otis, drafted what became the Massachusetts Circular Letter, a letter from the Massachusetts House of Representatives to the other colonial assemblies urging them to resist the Townshend taxation together. The Massachusetts House approved it on 11 February 1768 and sent it round."
+      },
+      {
+        "p": "London treated a letter as a rebellion. Lord Hillsborough, newly installed as the first Secretary of State for the Colonies (a cabinet minister created in 1768 specifically to manage America), ordered the Massachusetts House to take the letter back, to rescind it (formally vote to withdraw and cancel it), and instructed the other royal governors to dissolve any assembly that dared endorse it. On 30 June 1768 the Massachusetts House refused to rescind, by a vote of 92 to 17. \"The Massachusetts 92\" became an instant patriot emblem, the number painted on signs and worked into toasts. Governor Francis Bernard answered the defiance by dissolving the Massachusetts assembly outright, and several other royal governors dissolved their own assemblies as those took up the letter. London had set out to isolate Massachusetts and instead handed every colony a shared grievance and a number to rally around."
+      },
+      {
+        "p": "Behind the pamphlets and the votes, the colonists reached again for the weapon that had actually beaten the Stamp Act: the boycott. Merchants revived nonimportation, the pledge to buy no British goods until the duties were repealed. Boston's merchants signed the Boston Non-Importation Agreement on 1 August 1768, and New York joined that year. Philadelphia held out, joining only in 1769 after its merchants had quietly stocked up on British goods first, a delay that was its own small proof that the colonies were not one mind moving together but many interests calculating separately."
+      },
+      {
+        "p": "A boycott of British cloth only works if someone makes the cloth at home. That someone was women. Across the colonies, spinning and weaving became public, political acts. Groups calling themselves the Daughters of Liberty (informal groups of colonial women who took the name to signal patriot loyalty) held spinning bees, gatherings where dozens of women spun thread together in a kind of patriotic performance, and homespun cloth, rough fabric woven in colonial households instead of bought from Britain, turned into a badge of loyalty to the cause. Wearing homespun said which side you were on. This was not decoration around the edges of the real protest. Refusing to buy British goods was the protest, and the women who made the substitutes at home were the ones who made the refusal possible."
+      },
+      {
+        "fig": "/war-img/rev-boston-dickinson.jpg",
+        "cap": "John Dickinson, the wealthy Philadelphia lawyer who wrote as a humble \"Pennsylvania Farmer.\" His twelve calm, lawyerly letters denied that Parliament could tax the colonies for revenue by any name, and set the terms most colonists argued on.",
+        "credit": "Portrait of John Dickinson, Charles Willson Peale · public domain"
+      },
+      {
+        "h": "The occupation",
+        "eyebrow": "A seized sloop, a riot, and regiments in the streets"
+      },
+      {
+        "p": "The new customs board had a miserable time in Boston from the moment it sat down in November 1767. Bostonians harassed the commissioners, crowded them, and intimidated them as a matter of routine. The friction finally caught fire over a ship."
+      },
+      {
+        "p": "The ship was the *Liberty*, a sloop belonging to John Hancock, one of Boston's richest merchants. In May 1768 customs officers boarded her and found only about twenty-five pipes (large casks) of Madeira wine aboard, far less than a vessel her size could carry, which looked very much like most of her cargo had been quietly run ashore without paying the duty. That was the contemporary suspicion, not a proven fact. A month later, with the Royal Navy warship HMS *Romney* now anchored in the harbor, a customs official revised his earlier account, claiming far more had been smuggled. On 10 June 1768 the officers seized the *Liberty*, marked her, and had her towed out under the *Romney*'s guns. Boston erupted. A waterfront riot broke out, the Custom House (the office where the duties were collected) was attacked, and officers were roughed up. The customs commissioners fled for their lives, first out to the *Romney* and then to Castle William, a British military fort on an island just offshore, beyond the reach of the town."
+      },
+      {
+        "p": "This was the riot that brought the army. London, reading the *Liberty* affair and Boston's general defiance as a town slipping out of control, sent regular troops to garrison it. On 1 October 1768 the 14th and 29th Regiments of Foot (infantry units, each several hundred soldiers strong) landed at Long Wharf, about twelve hundred soldiers off a fleet of naval vessels, and marched up King Street into the town. To one hostile observer they came \"with insolent Parade, Drums beating, Fifes playing, and Colours flying,\" though the drums and colors were simply how a regiment came ashore anywhere in the empire. What read as insolence to a Bostonian was routine garrison procedure. A detachment of the 59th Regiment and a couple of artillery pieces came with them. In November two more regiments, the 64th and 65th, arrived, pushing the garrison well over two thousand men."
+      },
+      {
+        "p": "An army in a city is one thing in wartime and another thing entirely in peace. Boston was not under siege and not at war. It was a working port suddenly full of off-duty soldiers competing with local men for scarce day labor, packed into disputed quarters, trading insults and shoves with townspeople who had not asked them to come and did not want them there. That friction did not explode. It ground on, day after day, for sixteen months. The thing to hold onto is the duration. What happened on King Street in March 1770 was not a single spark in dry grass. It was the moment a year and a half of accumulated resentment, on both sides, finally went off."
+      },
+      {
+        "fig": "/war-img/rev-boston-troops-landing.jpg",
+        "cap": "Paul Revere's engraving of the British landing of October 1768: warships crowding the harbor and the regiments coming ashore at Long Wharf to garrison a town that was not at war. The occupation ground on for sixteen months before the violence on King Street.",
+        "credit": "Paul Revere, \"A View of Part of the Town of Boston… and Brittish Ships of War Landing Their Troops! 1768\" · public domain"
+      },
+      {
+        "h": "The killings on King Street",
+        "eyebrow": "A cornered relief party, a pelting crowd, and five dead"
+      },
+      {
+        "p": "The night of 5 March 1770 began with a small, stupid quarrel. A wigmaker's apprentice, a boy of about thirteen named Edward Garrick, called out a British officer over an unpaid bill near the Custom House. The lone sentry posted there, Private Hugh White of the 29th Regiment, told the boy to show some respect. Insults flew both ways, and then White stepped out and struck Garrick on the head with his musket. A crowd began to gather around the single soldier. Church bells rang, which usually meant a fire, and the sound pulled still more people into the street toward White, who now had his back to the Custom House wall and a swelling, angry crowd in front of him."
+      },
+      {
+        "p": "Captain Thomas Preston marched a relief party down to rescue his sentry, a corporal and six or seven privates of the 29th with bayonets fixed to their muskets. They pushed through to White and formed up against the building, and now there were eight soldiers in all, counting Preston, cornered against a wall in the dark with the crowd pressing in."
+      },
+      {
+        "p": "The crowd was not a gentle one. It was made up of waterfront workers, sailors, and young apprentices, the men who had spent sixteen months elbowing these same soldiers for work and space, and they had come spoiling for it. How big the crowd was, nobody can say for certain. There are more than two hundred surviving eyewitness accounts and they disagree wildly, with estimates running from fifty or sixty people up to three or four hundred. Patriot witnesses remembered a small knot of bystanders; the soldiers' defenders remembered a mob. What the accounts agree on is what the crowd did. They pelted the soldiers with snowballs, chunks of ice, oyster shells, and sticks. They jeered. And they dared the soldiers to shoot, shouting \"Fire!\" at men they did not believe would dare. The soldiers were genuinely menaced, cornered, and being hit, by a crowd that was taunting them to do the one thing they would later hang for."
+      },
+      {
+        "p": "Then the dark and the noise took over. Private Hugh Montgomery went down. A club, a chunk of ice, something thrown, no one ever agreed what. He got back to his feet and fired. Then others fired, raggedly, not in any order, not in a volley. What set it off was never settled. Whether Preston gave the word, whether Montgomery shot on his own after being struck, whether someone in the crowd shouted \"fire\" and the soldiers took it for a command, that was the very question the trial would turn on."
+      },
+      {
+        "p": "No order from Preston was ever proven."
+      },
+      {
+        "p": "Five townspeople were killed, none of them armed with a gun. Three died on the spot: Crispus Attucks, a dockworker and sailor of African and Wampanoag (a Native people of coastal Massachusetts) descent; Samuel Gray, a ropemaker; and James Caldwell, a mariner. Samuel Maverick, a seventeen-year-old apprentice, died early the next morning. Patrick Carr, an Irish immigrant who made leather breeches, lingered and died of his wounds nine days later, on 14 March. About six others were wounded. The five dead were buried together after a funeral procession that drew one of the largest crowds colonial Boston had ever seen, and they were laid in a shared grave at the Granary Burying Ground."
+      },
+      {
+        "p": "Crispus Attucks is worth pausing on, carefully, because so much was later piled onto him. What is known is spare: he was of African and Wampanoag descent, born around 1723, worked the docks and the sea, and was at or near the front of the crowd and among the first to fall, often called the first to die. Whether he actually led the crowd toward the soldiers, as later legend insisted, is disputed and probably mythologized. A generation later abolitionists would make him \"the first martyr of liberty,\" and a Crispus Attucks Day was held in Boston in 1858, but that is the work of the 1850s, not testimony from 1770. There is no honest portrait of the man. The one thing that can be said plainly, without reading anything into his own motives, is the bitter fact of it: a man of African descent was among the first to die in a struggle that, when it won, would not free the enslaved."
+      },
+      {
+        "h": "The name and the engraving",
+        "eyebrow": "How five killings on a winter night became \"the Massacre\""
+      },
+      {
+        "p": "What happened on King Street was a chaotic, violent nighttime confrontation in which a small, cornered, genuinely menaced relief party fired into a hostile crowd that had been pelting them and daring them to shoot. Five unarmed townspeople died, which is its own terrible fact and does not need exaggerating. It was not a planned slaughter and it was not one-sided. But \"a chaotic nighttime confrontation with deaths on one side\" does not move a crowd. So Boston's patriots gave it a name that did: the Boston Massacre. The word was a choice, and it was the right one for their purpose. A massacre is a deliberate killing of the helpless, which is not what the witnesses described, but it is what the word told everyone who heard it."
+      },
+      {
+        "p": "The picture did the rest. Within weeks Paul Revere, the Boston silversmith and engraver, advertised a print on 26 March 1770 titled *The Bloody Massacre Perpetrated in King Street*. It became the single most effective piece of propaganda of the entire pre-Revolution, and almost nothing in it is true. Revere's engraving shows a neat line of redcoats firing in unison on a clear command, an officer behind them with his sword raised giving the order. It shows a defenseless, well-dressed crowd doing nothing, with no snowballs, no ice, no clubs, no provocation of any kind. It sets the scene in broad daylight, though the killings happened around half past nine at night. It labels the Custom House \"Butcher's Hall\" and adds a musket firing from one of its windows, an atrocity that was alleged and never proven. Every one of those details is wrong, and every one of them was wrong on purpose, chosen to convert a messy street fight into a disciplined execution of innocents."
+      },
+      {
+        "p": "Revere did not even design it. A young Boston artist named Henry Pelham drew the scene first. Revere saw Pelham's drawing, copied it, and rushed his own version to print first, without crediting him. Pelham wrote Revere a furious letter on 29 March 1770 accusing him of the theft, which only underlines the point: the image that taught the colonies what to feel about the Massacre was a copy of a copy, engineered for effect rather than accuracy. It worked anyway. It worked because it was vivid, and because most of the people who saw it were never going to be in a courtroom checking it against the evidence."
+      },
+      {
+        "fig": "/war-img/rev-boston-engraving.jpg",
+        "cap": "Propaganda, and deliberately false. Paul Revere's famous engraving shows redcoats firing in a disciplined line on an officer's order, into a passive, defenseless crowd, in daylight, beside a Custom House relabeled \"Butcher's Hall.\" In fact the soldiers were a cornered relief party pelted with ice and clubs and dared to fire, at night, with no order ever proven. Revere copied the design from Henry Pelham and printed it first without credit.",
+        "credit": "Paul Revere, \"The Bloody Massacre Perpetrated in King Street,\" 1770 · Library of Congress · public domain"
+      },
+      {
+        "h": "The trial and the half-repeal",
+        "eyebrow": "John Adams defends the soldiers, and Parliament keeps one tax"
+      },
+      {
+        "p": "Here the story turns in a direction the engraving would never lead you to expect. When the eight soldiers and their captain came to trial, the man who stood up to defend them was John Adams, a Boston lawyer and as committed a patriot as any in the town. It is hard to overstate how exposed this put him. He was a public Boston patriot agreeing to defend the very soldiers who had killed Boston patriots, in front of the neighbors of the dead. He took the case anyway, with Josiah Quincy Jr., another young Boston patriot lawyer, on principle. If British soldiers could not get a fair trial in Boston, then Boston's claim to be defending the rights of Englishmen was a lie, and the rule of law the patriots said they stood for would be exposed as mob rule wearing a wig. Adams knew the defense might cost him his standing with his own side, and he took it anyway. He judged it afterward \"one of the best Pieces of Service I ever rendered my Country.\" In his closing argument he gave the case its most famous line: \"Facts are stubborn things; and whatever may be our wishes, our inclinations, or the dictates of our passions, they cannot alter the state of facts and evidence.\""
+      },
+      {
+        "p": "The facts, soberly weighed, did not support a charge of murder. Captain Preston was tried in late October 1770 and acquitted, because the prosecution could not prove he had ordered his men to fire. The eight soldiers were tried in November. Six were acquitted outright. Two, Hugh Montgomery and Matthew Kilroy, were convicted only of manslaughter rather than murder. Cornered and provoked, with no deliberate plan to kill ever proven, they had killed unlawfully but not willfully, and that is the line between the two charges. They escaped the gallows by pleading benefit of clergy, an old legal mercy that began as a privilege for clergymen claiming trial in church courts and had hardened by this period into a one-time pardon: a first offender could escape the noose once. To make sure the mercy could only be used once, the court branded each man on the thumb, a permanent mark that the pardon had been spent and could never be claimed again, and released them. The defense was helped, pointedly, by one of the victims. Patrick Carr, the Irishman who took nine days to die, told his doctor before he died that he thought the soldiers had fired in self-defense and bore them no malice, and his dying words were allowed in as evidence. A Boston jury, in other words, looked hard at the killings the engraving called a massacre and declined to call them murder."
+      },
+      {
+        "p": "While all of this played out, London was quietly conceding most of the fight. On 5 March 1770, the very day of the killings, though news of them had not yet crossed the ocean, Lord North (the king's new First Minister, the equivalent of a prime minister) moved in the House of Commons to repeal most of the Townshend duties. The repeal of the duties on glass, lead, paints, and paper became law that spring. But North deliberately kept one of them. The tax on tea stayed on the books, and North argued plainly that it had to, as a token to assert \"the right of taxing the Americans.\" It was the Declaratory Act all over again, scaled down to a single commodity: give up the revenue, keep the principle. Parliament would surrender almost everything before it would surrender the bare claim that it could tax the colonies at all."
+      },
+      {
+        "p": "With the duties cut to tea alone, the boycott lost its reason for being and fell apart. Nonimportation collapsed colony by colony through 1770, in New York, then Philadelphia, then Boston, as merchants tired of the sacrifice declared the fight substantially won. And here the road to revolution does something that is easy to forget, because we know what comes later: it went quiet. A genuine calm settled over the colonies from 1770 onward, and it held for the better part of three years. The crowds went home. The committees stopped meeting. Independence was still nobody's goal, and most colonists still thought of themselves as aggrieved Britons who had won most of their argument and could now get back to business."
+      },
+      {
+        "p": "But not all of it. One small tax was left standing in the law books, deliberately, as Parliament's flag planted in colonial ground: the duty on tea. It was still burning, very low, and it had not gone out."
+      }
+    ],
+    "meanwhile": {
+      "region": "London",
+      "title": "A penny of principle on a pound of tea",
+      "body": "Lord North thought he had defused the colonies cheaply. Repeal the duties that were costing British merchants their American trade, keep the one on tea purely to prove the point, and the agitation would die down. In the narrow sense he was right. The boycotts collapsed and the colonies fell quiet for years. What he had actually done was leave a single, deliberate tax in place as a matter of principle, on the one commodity Americans drank by the ton."
+    }
   }
 }
