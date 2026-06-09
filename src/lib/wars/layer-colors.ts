@@ -1,7 +1,7 @@
 // The two cross-war LAYER colors — reserved, used nowhere else in the war app.
 //
 // Every war has two theatre-independent layers that behave identically: the
-// narrative spine ("The War Story") and the causes/society/aftermath layer
+// narrative spine ("How the War Happened") and the causes/society/aftermath layer
 // ("Off the Battlefield"). They are NOT theatres and never borrow a theatre's
 // color. Both wars' configs, every landing page, the home tabs, and the
 // breadcrumb all read these two values, so a third war inherits them for free.

@@ -21,8 +21,8 @@ export default function FrenchIndianStoryPage() {
       <WarBreadcrumb crumbs={warCrumbs(W, { lane: 'fi-story' })} accent={WAR_STORY_COLOR.dark} bare />
 
       <div className="p-mast">
-        <div className="p-eyebrow">The war story</div>
-        <h1 className="p-mast-title p-serif">The War<br />Story</h1>
+        <div className="p-eyebrow">The French &amp; Indian story</div>
+        <h1 className="p-mast-title p-serif">How the War<br />Happened</h1>
         <p className="p-stand">The French and Indian War in five phases, 1754 to 1763. A backwoods clash in the Ohio Country escalated into a war for the continent: three years of British disaster, the turn under William Pitt, the conquest of Canada, and a peace whose costs and broken promises lit the fuse to the Revolution. Read straight through as one story, or drop into any phase and follow it down to its battles.</p>
       </div>
 

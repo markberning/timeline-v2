@@ -55,7 +55,7 @@ export const REVOLUTION: WarConfig = {
     { id: 'southern-turn', kind: 'phase', label: 'The Southern Turn & Yorktown', short: 'The South', href: '/war-revolution/southern-turn', ready: true, color: WAR_STORY_COLOR, skinVar: '--warstory' },
     { id: 'the-peace', kind: 'phase', label: 'The Peace', short: 'The Peace', href: '/war-revolution/the-peace', ready: true, color: WAR_STORY_COLOR, skinVar: '--warstory' },
     // The story spine lands on the home's Story tab (the phase list).
-    { id: 'rev-story', kind: 'story', label: 'The War Story', short: 'Story', href: '/war-revolution/story', ready: true, color: WAR_STORY_COLOR, skinVar: '--warstory' },
+    { id: 'rev-story', kind: 'story', label: 'How the War Happened', short: 'How it Happened', href: '/war-revolution/story', ready: false, color: WAR_STORY_COLOR, skinVar: '--warstory' },
     { id: 'offfield', kind: 'offfield', label: 'Off the Battlefield', short: 'Off-Field', href: '/war-revolution/off-the-battlefield', ready: true, color: WAR_OFFFIELD_COLOR, mapHex: '#d96a26' },
   ],
   // All battles live in the single 'rev-battles' theatre (green). Phase comments are

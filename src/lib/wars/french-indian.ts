@@ -54,7 +54,7 @@ export const FRENCH_INDIAN: WarConfig = {
     { id: 'conquest', kind: 'phase', label: 'The Conquest of Canada', short: 'Conquest', href: '/war-french-indian/conquest', ready: true, color: WAR_STORY_COLOR, skinVar: '--warstory' },
     { id: 'peace-fuse', kind: 'phase', label: 'The Peace and Its Fuse', short: 'The Peace', href: '/war-french-indian/peace-fuse', ready: true, color: WAR_STORY_COLOR, skinVar: '--warstory' },
     // Story spine lands on the home's Story tab (the phase list).
-    { id: 'fi-story', kind: 'story', label: 'The War Story', short: 'Story', href: '/war-french-indian/story', ready: true, color: WAR_STORY_COLOR, skinVar: '--warstory' },
+    { id: 'fi-story', kind: 'story', label: 'How the War Happened', short: 'How it Happened', href: '/war-french-indian/story', ready: true, color: WAR_STORY_COLOR, skinVar: '--warstory' },
     { id: 'offfield', kind: 'offfield', label: 'Off the Battlefield', short: 'Off-Field', href: '/war-french-indian/off-the-battlefield', ready: true, color: WAR_OFFFIELD_COLOR, mapHex: '#d96a26' },
   ],
   // All battles live in the single 'fi-battles' theatre (plum). The year/phase
