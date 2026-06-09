@@ -156,5 +156,147 @@ export const THEME_NARR: Record<string, Narr> = {
       "title": "A new king, a new resolve",
       "body": "George III had taken the throne in 1760 determined to govern, not just reign. His ministers looked at a real war debt and a vast new empire and saw one problem they thought they had every right to fix: the colonies had grown used to running themselves, and that was going to stop."
     }
+  },
+  "stamp-act": {
+    "eyebrow": "The internal tax arrives, and the argument blows wide open",
+    "title": "The Stamp Act",
+    "blocks": [
+      {
+        "p": "The internal tax the colonists had sworn Parliament could never lay on them arrived on 22 March 1765. Where the Sugar Act of the year before had been a duty on trade collected at the ports, the Stamp Act reached inside the colonies and taxed activity there, landing squarely on the side of the line the colonists had spent a year insisting was theirs alone. There was nothing left to argue about over what kind of tax it was. The argument they had been having in pamphlets and assembly resolutions was about to spill into the streets."
+      },
+      {
+        "p": "It passed easily. Parliament, the British legislature, runs on two chambers: the elected House of Commons and the appointed House of Lords. The Stamp Act cleared the Commons by a wide margin, with 49 opposed, and the Lords passed it without a recorded vote against. To the men in Westminster it was not a provocation but a settled piece of housekeeping, sponsored by George Grenville (the meticulous finance minister of Chapter 1), aimed at the same problem as everything else: the war debt, and the cost of the army Britain was keeping in North America. The act would not take effect until 1 November 1765, which gave the colonies seven months to read it, and to react."
+      },
+      {
+        "fig": "/war-img/rev-stamp-stamp.jpg",
+        "cap": "The object itself: a one-penny stamp, crown and scepter and the word AMERICA, that by law had to appear on a long list of everyday paper. Almost none were ever sold.",
+        "credit": "British proof of the 1765 one-penny stamp · public domain"
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/bill-comes-due",
+        "plabel": "The bill comes due"
+      },
+      {
+        "h": "A tax on paper",
+        "eyebrow": "Why this one detonated"
+      },
+      {
+        "p": "The mechanism was simple, which was part of why it reached so far. A wide range of paper goods now had to be printed on, or carry, an embossed tax stamp, special stamped paper you bought from a royal distributor. No stamp, no legal validity. The list of taxed items was deliberately broad. It covered legal documents and contracts, court papers, the ship's papers and clearances a merchant needed to move cargo, licenses, newspapers, pamphlets, almanacs, and, down at the level of an ordinary evening, playing cards and dice."
+      },
+      {
+        "p": "That list is the whole story of why this tax detonated where the Sugar Act had only grumbled. The Sugar Act fell mainly on importers of molasses. The Stamp Act fell on the loudest and most literate people in colonial life, and on nearly everyone else besides. Lawyers could not file a paper without it. Printers and newspapermen, the men who set the public mood in type, were taxed on their newspapers, their pamphlets, and their almanacs. Merchants were taxed on the documents that made trade legal. And in the taverns where colonists argued and drank, the cards and the dice were taxed too. The structure of the tax put it squarely on the professions most able to write, print, and argue their way to outrage, and reached the daily life of just about everyone else."
+      },
+      {
+        "p": "Two more features sharpened the grievance. The tax had to be paid in specie (hard coin, gold and silver, as opposed to paper money), and coin was chronically scarce in the colonies, so the act demanded the one form of money colonists had least of. And anyone accused of evading it would be tried in a vice-admiralty court, the juryless tribunal before a single Crown judge that Chapter 1 introduced, the same enforcement colonists had already come to hate under the Sugar Act."
+      },
+      {
+        "p": "Britain did not see any of this as outrageous, and it helps to understand why. The Stamp Act was modeled on a stamp duty that had existed in Britain itself since 1694, first levied under William III and Mary II to help pay for a war against France. Britons at home had been buying stamped paper for some seventy years. From Grenville's side of the ocean, asking the colonies to shoulder a tax their fellow subjects in England had paid for two generations did not look like tyranny. It looked like fairness, finally applied evenly. The colonists, who elected nobody to the Parliament doing the taxing, saw the same act from the opposite shore and called it theft."
+      },
+      {
+        "h": "The colonies catch fire",
+        "eyebrow": "Patrick Henry, and a Congress that bows as it objects"
+      },
+      {
+        "p": "The first sparks flew in Virginia. On 29 May 1765, a young, newly seated member of the House of Burgesses (Virginia's elected assembly) named Patrick Henry rose to propose a set of resolutions (formal statements of position, not binding laws) against the Stamp Act. He offered seven resolves. The House, more cautious than he was, adopted only the first four; it passed the fifth and then struck it from the record the next day, once the firebrand Henry had reportedly gone home; and the sixth and seventh, the most radical, it never adopted at all. On paper, Virginia had said something fairly measured."
+      },
+      {
+        "p": "That is not what the rest of the colonies heard. Newspapers up and down the coast printed all seven of Henry's resolves as though every one had passed, including the inflammatory ones Virginia had refused. The shared sense that Virginia had thrown down a bold, near-defiant challenge was built on resolutions Virginia had not actually enacted. The myth traveled faster, and farther, than the fact."
+      },
+      {
+        "p": "Henry's speech that day became famous too, though here the ground is shakier. Tradition holds that he warned the king by invoking the men who had killed tyrants, something to the effect that Caesar had his Brutus and Charles the First his Cromwell, and that George the Third might profit by their example, and that when cries of \"Treason!\" went up he answered that if this be treason, make the most of it. It is a marvelous scene. It is also not securely documented. The fullest version rests heavily on a single account that surfaced long after, and the surviving accounts disagree on the exact words, on which tyrant-killers Henry named, and even on whether he half-apologized to the House afterward. What can be said safely is that Henry gave a defiant, near-treasonous speech that held up the killers of kings as a warning to King George III, and that it drew shouts of treason. The exact lines are tradition, not transcript."
+      },
+      {
+        "fig": "/war-img/rev-stamp-henry.jpg",
+        "cap": "Patrick Henry, whose 1765 resolves against the Stamp Act electrified the colonies, partly because newspapers printed resolutions Virginia had refused to pass. This is a later likeness; no one painted Henry from life at the time of the speech.",
+        "credit": "Portrait of Patrick Henry, after Thomas Sully · public domain"
+      },
+      {
+        "p": "From 7 to 25 October 1765, delegates from nine of the thirteen colonies, twenty-seven men in all, met in New York City as the Stamp Act Congress. It was the first time representatives of multiple colonies had gathered and acted jointly to oppose a measure from London."
+      },
+      {
+        "p": "What the Congress produced is worth reading closely, because it tells you how far from independence these men still were. They issued a Declaration of Rights and Grievances, agreed in mid-October, and petitioned the King and both houses of Parliament. They claimed the rights of Englishmen: that they could be taxed only with their own consent, given through their own elected representatives; that they were entitled to trial by jury; and that only their own colonial assemblies could tax them. And in the same breath, they professed their loyalty and allegiance to the Crown. This was not a body threatening rebellion. It was a body bowing to the king while it objected to his Parliament, asking, by formal petition, for rights it believed it already held as British subjects."
+      },
+      {
+        "h": "The crowds turn to force",
+        "eyebrow": "Effigies, a gutted mansion, and an empire's unease"
+      },
+      {
+        "p": "In Boston the crowds moved first, and hard. On 14 August 1765, a crowd hung an effigy (a stuffed dummy made to represent a hated person) of Andrew Oliver, the man appointed to distribute the stamps in Massachusetts, from a great elm that became known as the Liberty Tree. They paraded the effigy, tore down a building said to be his stamp office, and carried the wreckage to his door. The message was not subtle, and it worked. Oliver resigned within days, first privately and then publicly."
+      },
+      {
+        "p": "This kind of organizing had a name and a network behind it. Out of 1765 came local resistance groups that called themselves the Sons of Liberty, forming in Boston, New York, and elsewhere to coordinate protest and, when they chose, crowd action. The name came from across the ocean. In a February 1765 speech in the House of Commons, the Irish-born member Isaac Barré, who had served in North America during the French war and rose to speak in the colonists' defense, called them \"sons of liberty\" while arguing against the tax. The colonists liked the phrase enough to take it as their own, and the organizing spread along the coast."
+      },
+      {
+        "p": "Twelve days after Oliver's door, the crowd went much further, and crossed a line that troubled even people who hated the tax. On the night of 26 August 1765, a Boston mob attacked the mansion of Thomas Hutchinson, the colony's Crown-appointed lieutenant governor (deputy to the royal governor) and chief justice. They did not just frighten him. They tore the place apart from the inside, splitting the woodwork, breaking down the doors, smashing the furniture, scattering and destroying his library and his papers, and ruining the garden, with the damage later put at roughly £2,200, a fortune at the time. By some accounts they carried off hundreds of pounds in cash as well. By morning one of the finest houses in Boston was a gutted shell."
+      },
+      {
+        "p": "The bitter irony is that Hutchinson privately thought the Stamp Act was bad policy. He had not made it and did not like it. But as a Crown officer he held that a law, however foolish, had to be obeyed until it was repealed (formally cancelled), and for that the crowd nearly destroyed him. Because Hutchinson held his offices by Crown appointment, the attack was also an attack on royal authority itself. It disturbed a great many colonists who opposed the tax just as firmly as the mob did. It was one thing to petition, to boycott, to burn an effigy of an official who could resign and be safe; it was another to ransack the home of a man who agreed the tax was wrong. The crowds that fought the Stamp Act were never one mind. They spanned genuine principle, local grievance, and plain opportunism, and the more respectable opponents of the tax watched the violence with real unease, worried about what they had helped unleash. The quarrel was already, in part, Britons against Britons over what the British constitution required."
+      },
+      {
+        "p": "Whatever the unease, the pressure achieved its object. Up and down the coast, stamp distributors were threatened, hung in effigy, and coerced into resigning before the act could even take effect on 1 November. By the time that date arrived, there was almost no one left to sell the stamps. The result was a tax effectively nullified before it began. Barely any stamps were ever sold or used in the mainland colonies. Some courts and presses briefly suspended business; most simply carried on with unstamped paper as if the law did not exist."
+      },
+      {
+        "p": "The printers turned their predicament into theater. On 31 October 1765, the eve of the act, William Bradford laid out the front page of his *Pennsylvania Journal and Weekly Advertiser* as a tombstone. A skull and crossbones stood in for the hated stamp, with the line that it was \"An emblem of the effects of the STAMP,\" and the page mourned the paper as \"EXPIRING: In Hopes of a Resurrection to LIFE again.\" It was a funeral notice for the press itself. It was also pure performance: Bradford did not actually stop printing, and the *Journal* came out the following week as usual. The death was a protest, not a closing."
+      },
+      {
+        "fig": "/war-img/rev-stamp-tombstone.jpg",
+        "cap": "William Bradford dressed his Pennsylvania Journal as a gravestone the day before the Stamp Act took effect, complete with a skull-and-crossbones mock stamp. He kept printing anyway.",
+        "credit": "Pennsylvania Journal front page, 1765 · Library of Congress · public domain"
+      },
+      {
+        "h": "The boycott bites",
+        "eyebrow": "Hitting Britain where it could feel it"
+      },
+      {
+        "p": "Refusing the stamps killed the tax in America. What got it killed in London was money. Colonial merchants reached for a tool that turned out to be far more powerful than any petition: they stopped buying. In nonimportation agreements, merchants pledged to import no British goods until the act was repealed. New York's merchants agreed first, on 31 October 1765, often counted at roughly two hundred of them, and Boston and Philadelphia followed before the year was out."
+      },
+      {
+        "p": "These were among the first large-scale economic boycotts the colonies had ever organized, and they hit a real nerve. The colonies were a major market for British manufactures, and when that market closed, the order books of British merchants and manufacturers emptied and their workers went idle. Those merchants and manufacturers were also voters and petitioners with the ear of Parliament, and they used it, crowding the lobbies and pressing for repeal not on any constitutional principle but on the plain ground that the act was wrecking their trade."
+      },
+      {
+        "h": "Repeal, and its sting",
+        "eyebrow": "The tax goes, the principle stays"
+      },
+      {
+        "p": "By early 1766 the political ground in London had shifted. Grenville was no longer in charge. His ministry (the cabinet of ministers running the government) had fallen back in July 1765, when the king dismissed Grenville and his colleagues and replaced them with a ministry under the Marquess of Rockingham, an aristocratic politician more inclined to find a way out. But the reason had nothing to do with American protest. Grenville fell over a falling-out with King George III, before the worst of the colonial unrest, and it would be a mistake to imagine the colonists had toppled him. What mattered was that the new ministry was more willing to find a way out."
+      },
+      {
+        "p": "The way out came partly through Benjamin Franklin, the Pennsylvania printer and scientist then serving in London as a colonial agent (an unofficial representative a colonial assembly hired to lobby for it in London). On 13 February 1766, Franklin sat for a formal hearing in which members of the House of Commons questioned him directly, answering a long string of questions, commonly counted at well over a hundred. He told the members what colonists had been saying for two years: that the colonies accepted external duties on trade but rejected an internal tax like the stamp tax. His testimony was widely printed and genuinely influential."
+      },
+      {
+        "p": "On 18 March 1766, Parliament repealed the Stamp Act. But it is essential to see why, and to see what Parliament did in the very same breath. Repeal was justified to the members not as an admission that the colonists were right, but on grounds of expediency: the act was strangling British trade and had proven impossible to enforce. To make sure no one mistook a practical retreat for a surrender of principle, Parliament passed, on the same day, the Declaratory Act, which asserted its full authority to make laws binding the colonies \"in all cases whatsoever.\""
+      },
+      {
+        "p": "That phrase is the heart of the matter. Parliament gave up the tax and kept the power. It conceded nothing the colonists had actually been arguing about, the question of whether it could tax them without their consent, and instead restated, in the broadest possible language, the very authority they denied it held. The repeal was real relief, but it was not a colonial victory of principle. It was a retreat on the tax paired with a flat restatement of the very power the colonists denied Parliament held."
+      },
+      {
+        "fig": "/war-img/rev-stamp-repeal-cartoon.jpg",
+        "cap": "A London cartoon of 1766 stages the repeal as a funeral, with the dead \"Miss Ame-Stamp\" carried to her grave. The repeal was driven less by principle than by British merchants whose trade the boycott had wrecked.",
+        "credit": "\"The Repeal, or the Funeral of Miss Ame-Stamp,\" Benjamin Wilson, 1766 · public domain"
+      },
+      {
+        "h": "What it meant",
+        "eyebrow": "A win that settled nothing"
+      },
+      {
+        "p": "When the news reached the colonies in the spring of 1766, New York heard it on 26 April, and the colonists celebrated. They lifted the boycotts and dropped the nonimportation pledges. And the crucial thing about how they celebrated is whom they celebrated as. They rejoiced as loyal Britons who had won a fight inside the empire, by petition and protest and pressure, not as a people taking a step toward leaving it. In gratitude, New York commissioned two statues from a London sculptor (commissioned in the flush of 1766, though both went up only in 1770): one of William Pitt the Elder, a prominent British politician who had spoken against the Stamp Act as a violation of colonial rights, and a gilded equestrian statue of King George III himself, raised on Bowling Green in New York. They were thanking their king and their friends in Parliament. In 1765 and 1766, independence was essentially nobody's goal."
+      },
+      {
+        "fig": "/war-img/rev-stamp-liberty-tree.jpg",
+        "cap": "Paul Revere's 1766 engraving of the illuminated obelisk Boston raised under its Liberty Tree to celebrate the repeal. The Liberty Tree, shown on one panel, was the same elm where crowds had hung the stamp distributor in effigy the year before.",
+        "credit": "Paul Revere, 1766 · public domain"
+      },
+      {
+        "p": "For all the celebrating, nothing underneath had actually been settled. The colonists thought they had won, and in the narrow sense of the tax they had. But the Declaratory Act sat there in the law books saying, in the plainest words Parliament could find, that it could bind the colonies in all cases whatsoever. The exact power the colonists insisted Parliament did not possess had just been reaffirmed by the same Parliament that pretended to retreat. The constitutional gap that opened in 1764 was still wide open in 1766; the two sides had merely stepped back from the edge of it."
+      },
+      {
+        "p": "What the colonists took away was not just relief. It was a method. They had learned to organize across colony lines, in the Stamp Act Congress and the spreading network of the Sons of Liberty. They had discovered that a coordinated boycott could reach across an ocean and move Parliament where petitions could not. They had a playbook now, written in a single year of crisis, and the unresolved question of who could tax them was not going to stay quiet for long."
+      }
+    ],
+    "meanwhile": {
+      "region": "London",
+      "title": "A retreat that conceded nothing",
+      "body": "To the men in Westminster, repealing the Stamp Act was not backing down on principle. The boycott was hurting British merchants and the tax could not be collected, so they cut their losses. The Declaratory Act, passed the same day, was there to make the point unmistakable: Parliament could still bind the colonies in all cases whatsoever. They thought they had ended a nuisance, not lost an argument."
+    }
   }
 }
