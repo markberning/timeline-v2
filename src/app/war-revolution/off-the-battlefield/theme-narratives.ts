@@ -1857,5 +1857,242 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Whichever course a nation steered, Britain, the Patriots, or neutrality, the Revolution ended for it in the same place: invaded country, burned towns, refugee camps, and a peace that left no nation in the room where terms were set. The Oneida and the Stockbridge, who chose the winners, were dispossessed barely slower than the Seneca and the Cherokee, who chose the losers. The neutral Shawnee lost Cornstalk, the neutral Delaware lost White Eyes and then Gnadenhutten, and the Chickamauga Cherokee, who refused the peace altogether, were still fighting from their new towns a decade after the Revolution ended. To the Seneca, Washington was the Town Destroyer to the end, and the name outlived the war. The nations lost at the peace table a war that most of them had not lost in the field. That is what happened, and naming the side a nation chose explains almost none of it."
       }
     ]
+  },
+  "french-alliance": {
+    "eyebrow": "How an absolute monarchy bankrolled a republic, out of spite",
+    "title": "The French Alliance & the Global War",
+    "blocks": [
+      {
+        "p": "Picture the strangest backer a revolution ever had. The American Revolution was a tax revolt against a king, run by men who believed in elected assemblies and had just told the world that governments get their authority from the consent of the governed. And the foreign power that armed them, funded them, sailed its fleet across an ocean for them, and put its own soldiers in the trenches beside them was the most absolute monarchy in Europe: the France of Louis XVI, a king who ruled by divine right and answered to no parliament at all."
+      },
+      {
+        "p": "France did not do this because it loved liberty. France did it because it hated Britain, and because a humiliation eighteen years in the making was finally close enough to avenge. That grudge turned a colonial rebellion that probably could not have won on its own into an independent country. It also ran up a bill that helped destroy the monarchy that paid it."
+      },
+      {
+        "h": "Why France cared",
+        "eyebrow": "A grudge eighteen years in the making"
+      },
+      {
+        "p": "To understand why a French king would spend himself into ruin for a pack of republican rebels, you have to go back to 1763 and a war France had lost badly. The Seven Years' War (called the French and Indian War in America, where this vertical tells the whole of it) ended with the Peace of Paris in February 1763, and the peace was a disaster for France. She was thrown out of mainland North America entirely (Canada went to Britain, Louisiana to Spain), and her navy had been smashed. At the start of that year France had something like forty-seven ships of the line (the big multi-deck warships that fought in the main battle line, the era's capital ships) against Britain's hundred and eleven. The contest had not even been close."
+      },
+      {
+        "p": "From that defeat forward, a single idea drove French foreign policy: get even. The man who set the project going was the duc de Choiseul, France's foreign minister (the official who runs a country's dealings with other nations, the king's chief diplomat) through the 1760s, who also held the war and navy portfolios and rebuilt the fleet with a future war of revenge openly in view; in about a decade French naval strength roughly doubled. Choiseul was also among the first to grasp that by taking Canada away from France, Britain had removed the very thing that kept her own colonists loyal: the French threat on their border. Frightened colonists need a mother country. Safe ones start to wonder why they are paying for one. So he sent secret observers across the Atlantic to watch for colonial discontent, among them a German-born officer named Johann de Kalb, who toured the colonies in 1768 sniffing out exactly that."
+      },
+      {
+        "p": "The man who inherited the foreign ministry and saw the project through was Charles Gravier, the comte de Vergennes, who took the post in 1774 and held it until he died in 1787. Vergennes carried Choiseul's logic to its conclusion: American independence would amputate the most valuable limb of the British empire and tip the balance of power in Europe (the rough parity that kept any one country from dominating the others) back toward France. This was cold arithmetic, not sympathy. He did not care about the rights of Englishmen in Massachusetts. He cared that anything which weakened Britain strengthened France, and he said so. In a memorandum pressing the king to intervene, he laid it out about as plainly as a diplomat ever does."
+      },
+      {
+        "p": "England is the natural enemy of France… All means to reduce the power and greatness of England… are just, legitimate and even necessary. — the comte de Vergennes, advising Louis XVI",
+        "q": true
+      },
+      {
+        "p": "Not everyone in the French government thought this was wise. The finance minister, Turgot, warned in 1776 that France simply could not afford another war, that the treasury was already strained and a long fight with Britain would break it. He was right, as it turned out. He also lost the argument and his job. The grudge won."
+      },
+      {
+        "p": "So here is the irony that runs underneath this entire chapter. An absolute monarchy, financed by borrowed money it did not have, deliberately set out to put an anti-tax, anti-king republic on its feet, because hurting its rival mattered more than the contradiction. Vergennes saw the risk clearly, that a successful revolution against a monarchy might be a dangerous thing for a monarchy to sponsor, and ran it anyway."
+      },
+      {
+        "h": "The playwright's secret company",
+        "eyebrow": "France goes to war while pretending not to"
+      },
+      {
+        "p": "France did not wait for a formal alliance to start helping. From 1776, two years before she came into the war openly, she was already funneling weapons and powder to the Americans through one of the more colorful schemes in the history of espionage. The man at the center of it was Pierre-Augustin Caron de Beaumarchais, a watchmaker's son who had made himself famous as a playwright (he wrote *The Barber of Seville*, and would later write *The Marriage of Figaro*) and who moonlighted as a royal fixer and secret agent. Beaumarchais lobbied Vergennes hard to back the Americans, and once the government agreed to do it quietly, he was the one who ran the operation."
+      },
+      {
+        "p": "The cover was a fake trading house with a Spanish-sounding name, Roderigue Hortalez and Company, set up in 1776 to look like an ordinary private firm. It was nothing of the kind. Its seed money came from the French treasury (a million livres handed over in June 1776), a matching million from Spain, and roughly another million from private investors. (The livre was the French unit of money of the day; think of these millions as the price of a fleet, real money even for a great kingdom.) Through this front, and out through French ports and the West Indies (the chain of Caribbean islands where both France and Britain held rich sugar colonies), flowed shiploads of muskets, field guns, gunpowder, tents, and uniforms, the basic equipment an army needs and the Americans could not make for themselves."
+      },
+      {
+        "p": "How much it mattered is hard to overstate. The Continental Army that beat the British at Saratoga in 1777, the victory that brought France into the open, was fighting largely with French-supplied gear, and historians credit the Hortalez cargoes with most of the gunpowder the Americans burned in that campaign. There is a broader figure behind it: in the war's first years, before France came in openly, roughly nine-tenths of the gunpowder available to the Americans came from overseas, the great bulk of it French. The colonies could field men. They could not, on their own, arm them. France filled the gap before she ever fired a shot."
+      },
+      {
+        "p": "Whether all of this was a gift or a loan was disputed from the very start, and never really resolved in Beaumarchais's lifetime. The Americans tended to assume the supplies were the French crown's generous present; Beaumarchais kept sending Congress bills. He died in 1799 still owed, and the United States eventually settled with his heirs, decades later, for a fraction of what he claimed. The man who armed the Revolution got stiffed by it, a plot turn he would have appreciated."
+      },
+      {
+        "fig": "/war-img/rev-french-treaty.jpg",
+        "cap": "The signature page of the 1778 Treaty of Alliance, with Conrad-Alexandre Gérard signing for France and Franklin, Deane, and Lee for the United States. With these treaties France became the first major power to formally recognize American independence, and a colonial tax revolt acquired the backing of a European great power.",
+        "credit": "Treaty of Alliance (1778), signature page · National Archives, U.S. federal record · public domain"
+      },
+      {
+        "p": "Beaumarchais was not the only Frenchman pouring into the American cause. Congress's agent in Paris, a Connecticut merchant named Silas Deane, had spent 1776 handing out promises of Continental Army commissions to European officers almost by the boatload, many of them self-promoting adventurers who showed up demanding to be made generals. Congress had been desperate for trained soldiers and over-promised, and now a flood of foreign officers waving contracts was stirring real resentment among the American officers they were being placed above. The worst case was a Frenchman named du Coudray, promised a major general's rank and command of the entire artillery, an arrangement so infuriating that three of Washington's best, Henry Knox, Nathanael Greene, and John Sullivan, threatened to resign rather than serve under him. The problem solved itself in September 1777 when du Coudray drowned crossing the Schuylkill River."
+      },
+      {
+        "p": "A few of the foreign volunteers were worth far more than the trouble. One was a nineteen-year-old aristocrat, the marquis de Lafayette, who arrived in June 1777, served without pay, and made himself genuinely useful (his own larger story is told elsewhere in this vertical). Another arrived with a résumé that had been quietly improved. Friedrich Wilhelm von Steuben came to America carrying a letter of introduction from Franklin and Deane that described him as a \"Lieutenant General in the King of Prussia's service.\" He had in fact left the Prussian army as a captain. The promotion was invented on purpose, to make him sound impressive enough for Congress to take seriously, and the remarkable thing is that he then earned the fake rank several times over. Steuben reached the Continental Army's winter camp at Valley Forge in February 1778, offered at first to serve for nothing, and drilled a ragged, half-trained army into a disciplined fighting force. The padded résumé got him in the door. The work he did once inside was real."
+      },
+      {
+        "h": "Franklin in Paris",
+        "eyebrow": "A backwoods philosopher, carefully performed"
+      },
+      {
+        "p": "The single most effective American in France never commanded a soldier. Benjamin Franklin landed at the end of 1776 and settled at Passy, just outside Paris, where he would stay for the rest of the war. He arrived world-famous, the man who had tamed lightning with a kite and a key, the most celebrated American alive. And he understood something most diplomats never grasp: that fame is a tool, and the trick is to give people the version of you they already want to see."
+      },
+      {
+        "p": "Paris wanted a sage from the wilderness, a natural philosopher straight out of the forests of the New World, simple and unspoiled by European frippery. So that is what Franklin gave them. He put away the formal wigs and fine clothes a man of his standing was expected to wear, and went about in plain dress and a fur cap. He knew exactly what he was doing, and he was funny about it. Writing home in early 1777, he described his own costume with a straight face."
+      },
+      {
+        "p": "…very plainly dress'd, wearing my thin grey strait Hair, that peeks out under my only Coiffure, a fine Fur Cap, which comes down my Forehead almost to my Spectacles. — Benjamin Franklin, 1777",
+        "q": true
+      },
+      {
+        "p": "The performance worked beyond anything he could have planned. Paris went mad for him. His face turned up everywhere, on medallions, in prints and busts, on snuffboxes, even worn in rings. He told his daughter, in a letter from 1779, that the craze had \"made your father's face as well known as that of the moon.\" A foreign diplomat had become a fashion, and the fashion was useful, because a France enchanted by Franklin was a France inclined to give Franklin what he asked for."
+      },
+      {
+        "fig": "/war-img/rev-french-franklin.jpg",
+        "cap": "The fur-cap image that fed the Paris craze: an engraving after a 1777 portrait, showing Franklin in the plain dress and fur hat he wore as a calculated costume. The republican-simplicity look was a performance for a Paris that wanted a sage from the wilderness, and it worked.",
+        "credit": "Engraving of Benjamin Franklin after Cochin, 1777 · public domain"
+      },
+      {
+        "p": "The most theatrical moment came in April 1778, at a session of the Académie des Sciences, France's grand scientific society. Franklin was there, and so was Voltaire, the aged king of the French Enlightenment, now near death. The crowd would not settle until the two old men greeted each other in the French manner, embracing and kissing on both cheeks. When they did, the room erupted, with cries that it was Solon and Sophocles embracing, two ancient sages. John Adams, no friend of Franklin's habits, sat in the audience and recorded the whole thing in his diary, which is how we know it actually happened rather than being one of the many Franklin stories that grew in the retelling."
+      },
+      {
+        "p": "But the fur cap should not eat the man. Behind the costume was a working diplomat doing the unglamorous labor of keeping a war funded and supplied. Franklin negotiated loan after loan and royal gift after royal gift as the Continental currency collapsed, year after year. He kept the supply pipeline moving through French ports. He handled the legal tangles of American privateers, privately owned ships licensed to raid enemy commerce, using French harbors (the raiders themselves belong to the War at Sea chapter), and the slow correspondence over the exchange of American sailors rotting in English prisons. And above all he managed the one relationship the whole alliance rested on, his rapport with Vergennes, who found the prickly Adams hard going and much preferred to deal with the patient, agreeable Franklin. The fur cap got him noticed. The diplomacy got the alliance."
+      },
+      {
+        "h": "Saratoga turns the key",
+        "eyebrow": "A surrender in upstate New York becomes a treaty in Paris"
+      },
+      {
+        "p": "Through 1777 France was watching and waiting for proof that the Americans could actually win. Nobody wanted to back a loser, and worse, nobody wanted to enter the war only to have Britain and the colonies patch up their quarrel and leave France facing the Royal Navy alone. The proof arrived on the fourth of December 1777, carried to Franklin at Passy by a young Bostonian named Jonathan Loring Austin: news of the British surrender at Saratoga, where an entire British army under General Burgoyne had been forced to lay down its arms in upstate New York. (Austin also carried word that the British had taken Philadelphia, but next to Saratoga that hardly registered.)"
+      },
+      {
+        "p": "This was exactly what Vergennes had been waiting for, and it cut two ways at once. Saratoga proved the Americans could destroy a British field army in the open. It also raised the alarming possibility that London, frightened by the defeat, would offer the colonies a generous settlement and end the war before France could get into it. Both pointed the same direction: move now. Two days after the news arrived, Louis XVI agreed to open negotiations for a formal alliance."
+      },
+      {
+        "p": "They came together fast. On the sixth of February 1778, in Paris, the two sides signed a pair of treaties, with Conrad-Alexandre Gérard signing for France and Franklin, Deane, and Arthur Lee for the United States. The first was a Treaty of Amity and Commerce, a trade agreement; by putting his name to it the French king made France the first major power to formally recognize the United States. Recognition was a diplomatic act in its own right, the formal step of declaring a place a legitimate sovereign state and agreeing to deal with it as an equal, and no great power had yet been willing to take it. The second was the Treaty of Alliance, and it was the one that mattered for the war. It was a defensive alliance, technically triggered only if Britain and France went to war, which everyone in the room understood was now a certainty. Its terms were blunt about the goal."
+      },
+      {
+        "p": "The essential and direct End of the present defensive alliance is to maintain effectually the liberty, Sovereignty, and independance absolute and unlimited of the said united States, as well in Matters of Gouvernement as of commerce. — Treaty of Alliance, 1778",
+        "q": true
+      },
+      {
+        "p": "It also bound the two countries together for the duration. Neither party, the treaty said, would make a separate peace with Britain without the other's consent, and neither would lay down its arms until American independence was secured. France guaranteed American independence and possessions; the United States, in return, guaranteed France's possessions in the Americas, a clause that would come back to bite American politics fifteen years later but does not need chasing down here. A separate secret article left the door open for Spain to join later."
+      },
+      {
+        "p": "From there events moved quickly into open war. France notified London of the commercial treaty in March 1778, and Britain promptly recalled its ambassador. On the twentieth of March, Louis XVI formally received Franklin and the American commissioners at Versailles, the vast royal palace complex twelve miles outside Paris, the rebels welcomed at the most magnificent court in Europe. Neither side bothered with a formal declaration of war. The shooting simply started at sea, in June 1778, off the coast of Brittany."
+      },
+      {
+        "p": "Britain, meanwhile, had finally figured out the danger it was in, and tried to make a deal years too late. Frightened by Saratoga and the looming French threat, Parliament in early 1778 repealed the hated tea duty and renounced any intention of taxing the colonies for revenue. It sent a peace commission under the Earl of Carlisle authorized to offer everything short of independence: suspension of every objectionable law passed since 1763, no taxation by Parliament, effectively home rule inside the empire. The commissioners reached Philadelphia in June 1778, just as the British army was being ordered to abandon the city, which rather undercut their bargaining position, and Congress refused to even negotiate unless Britain first recognized independence or pulled its forces out, neither of which the commission could grant. One commissioner, Johnstone, resorted to attempted bribery, and reportedly got the answer that the man he approached was not worth purchasing, but such as he was, the King of Great Britain was not rich enough to do it. The bitter joke writes itself: the terms Britain offered in 1778 would have ended the whole crisis cold in 1775. After Saratoga and the French treaty, they were a generous settlement for a war that no longer existed."
+      },
+      {
+        "h": "Britain alone",
+        "eyebrow": "One rebellion becomes a world war"
+      },
+      {
+        "p": "The French alliance did something the colonies could never have done by themselves: it turned their local rebellion into a global war, and left Britain to fight it without a friend. Once France was in, others followed, each for its own reasons."
+      },
+      {
+        "p": "Spain came in first, in 1779, and exactly how Spain came in matters, because it is one of the most commonly muddled points in the whole story. Spain did not ally with the United States. Spain allied with France. By the Treaty of Aranjuez in April 1779, Spain agreed to join France's war in exchange for French help recovering territory it wanted back from Britain, above all the great fortress of Gibraltar, plus Minorca and the Floridas. Spain declared war on Britain that June, but it never signed any treaty with the Americans and did not recognize American independence until the general peace of 1783. This was deliberate. Spain had its own sprawling empire full of restless colonies, and the last thing a Spanish king wanted to do was publicly bless a successful revolt by colonists against their mother country. Spain wanted Gibraltar back. It did not want to teach its own colonies how independence was done."
+      },
+      {
+        "p": "Gibraltar, in fact, quietly shaped the entire alliance, and it is worth tracing the chain once: France had pledged to fight until Spain recovered the rock, the no-separate-peace clause bound France and America to make peace only together, and so by those two links the American war was now legally chained to a Spanish siege in the Mediterranean. (The Great Siege of Gibraltar dragged on from 1779 to 1783, and never succeeded.) One Spanish commander deserves a line. Bernardo de Gálvez, the young governor of Spanish Louisiana, had been slipping supplies up the Mississippi to the rebels even before Spain entered the war, and once at war he rolled up the British posts along the Gulf Coast, taking Baton Rouge, Mobile, and finally, in a 1781 siege, Pensacola, sweeping Britain out of the Gulf and pinning down British resources far from the thirteen colonies."
+      },
+      {
+        "p": "Then the Dutch. Britain declared war on the Dutch Republic in December 1780, partly because the Dutch were drifting toward a league of neutral nations forming up to resist British naval high-handedness (London's habit of stopping and searching neutral merchant ships for goods bound to its enemies), and partly on the pretext of a draft treaty between Dutch and American agents found in the captured papers of an American envoy, Henry Laurens, taken at sea earlier that year."
+      },
+      {
+        "p": "Add it all up and you get the strategic picture inverted from top to bottom. In the Seven Years' War, Britain had fought with continental allies who tied France down in Europe, and with the upper hand at sea. By 1780 Britain faced France, Spain, and the Dutch Republic at sea all at once, plus a land rebellion in America, plus a hostile bloc of neutral naval powers, and not one ally on the European continent. The combined French and Spanish fleets outnumbered the Royal Navy; in the summer of 1779 a joint Franco-Spanish fleet actually cruised the English Channel and the south coast of England braced for an invasion that never came (it fell apart from disease and confusion rather than any battle). Britain had leveraged its naval dominance for two decades; now the powers that had felt that leverage had pulled together, and the rebellion in America was the thread that had stitched the coalition into one."
+      },
+      {
+        "h": "The rocky middle",
+        "eyebrow": "Three years, no victory, and an alliance nearly soured"
+      },
+      {
+        "p": "It would be tidy to say that France joined the war and victory followed. It did not. For three years the alliance was a frustration and at moments very nearly a failure, and the men who lived through 1778 to 1780 had no idea Yorktown was coming. The first French fleet to reach America made a mess of things twice over."
+      },
+      {
+        "p": "The fleet belonged to the comte d'Estaing, a vice admiral who sailed from the Mediterranean in the spring of 1778 with twelve ships of the line. The crossing took so long that by the time he arrived the British had already evacuated Philadelphia, the target he had been sent to help attack. He moved on to New York, where his pilots decided the deepest of his ships could not safely cross the sandbar off Sandy Hook at the harbor entrance, so the first joint Franco-American operation was redirected to Newport, Rhode Island, in August 1778. There it fell apart. As d'Estaing maneuvered to fight the British fleet, a two-day northeasterly gale battered both fleets and dismasted several French ships, including the flagship. His fleet mauled, d'Estaing announced he was taking it to Boston for repairs, which meant abandoning the American army he was supposed to be supporting in the middle of its operation."
+      },
+      {
+        "p": "The Americans were furious, and they did not hide it. John Sullivan, the American commander, and his generals signed a formal written protest at the French departure, and Sullivan's public criticism got so heated that it was rumored Lafayette might challenge him to a duel over the insult to France. In Boston that September a brawl between locals and French sailors left a French officer mortally wounded. The brand-new alliance, in its very first joint operation, had nearly come apart, and it took real work by Washington and Lafayette to smooth it over."
+      },
+      {
+        "p": "D'Estaing's second act was worse. In October 1779 he came up from the West Indies and joined an American force besieging the British garrison at Savannah, Georgia. Rather than settle in for a patient siege, the allies threw a frontal assault at the British works, and it was a slaughter. Something like two hundred and forty allied troops were killed and roughly five hundred and eighty wounded, a lopsided defeat. D'Estaing himself was wounded twice, leading from the front, and the Polish nobleman Casimir Pulaski, who had organized American cavalry, was mortally hurt. The fleet then sailed away, and an emboldened Britain went on to capture Charleston the following spring."
+      },
+      {
+        "p": "It is worth being fair to d'Estaing here, in both directions. He was brave, and at Newport he had been genuinely unlucky with the weather and faced a real navigational problem at New York. But brave and unlucky at Newport, and brave and badly wrong at Savannah, still added up to the same brutal fact: two years into the alliance, France had delivered not one victory on American soil. The partnership France had promised was, so far, a series of expensive disappointments."
+      },
+      {
+        "p": "What was keeping the American war alive in these years was not French battles but French money, and the money was needed because the army's own pay had become a joke. The Continental dollar was collapsing so fast that in early 1780 Congress formally devalued it at forty old dollars to one, and the phrase \"not worth a Continental\" entered the language. A soldier could be handed a fistful of Continental paper and not be able to buy a meal with it; what he wanted, and almost never saw, was hard coin, actual silver and gold that held its value when the paper would not. What kept Congress solvent was the steady flow of French loans and outright royal gifts that Franklin negotiated in Paris, almost annually. (A loan has to be repaid; a gift does not, and France gave both.) In 1781 alone the package included a gift of several million livres plus a large loan that France guaranteed on the Americans' behalf. The exact totals were disputed even at the time, but the order of magnitude is clear: French direct aid across the war ran into the tens of millions of livres, a substantial chunk of it given outright rather than lent. The American Revolution ran on French credit, and that French silver was, for many a half-starved Continental, the difference between an army and a mob. Without it, Congress would have been bankrupt long before any French fleet turned the war."
+      },
+      {
+        "h": "The army that paid its way",
+        "eyebrow": "French regulars under an American general"
+      },
+      {
+        "p": "In 1780 France changed its bet. Instead of sending only a fleet that came and went, it sent an army to stay. The general was the comte de Rochambeau, a fifty-five-year-old professional soldier who had fought through two previous wars, and he landed at Newport in July 1780 with about fifty-five hundred troops. It started badly: the promised second division never arrived (it was blockaded in a French port), and a British squadron promptly bottled up the French fleet in Narragansett Bay, so Rochambeau's army sat at Newport for nearly a year, going nowhere."
+      },
+      {
+        "p": "But the French court had learned the lesson of d'Estaing's wreck. Rochambeau's orders placed his corps under Washington's overall command. This was a genuinely extraordinary thing to do: to put a French lieutenant general and his disciplined regiments of the line, the standing professional troops of a royal army, under the authority of a colonial militia officer with no formal European rank was close to unthinkable by the protocol of the day. France did it on purpose, to make sure the alliance would never again founder on a French commander going his own way, and Rochambeau played the loyal subordinate in public throughout the campaign."
+      },
+      {
+        "p": "The other thing Rochambeau's army did was pay. Armies of the eighteenth century lived off the country they marched through, which usually meant taking what they wanted from the people in the way. Rochambeau's French paid instead, in hard coin: for their supplies, for local labor, for the very ground they camped on. They brought provisions from France, hired American tradesmen by the hundred, and kept iron discipline in the ranks. Newport had not wanted them at first (these were Catholic French soldiers, the descendants of the very enemy New England had spent generations dreading on its frontier), but a French army that spent real silver and behaved itself wore the suspicion down."
+      },
+      {
+        "p": "The French saw the army they were now bound to, and what they saw surprised them. Rochambeau's own aide-de-camp, Baron Ludwig von Closen, watched the Continental ranks march in the summer of 1781 and set down in his journal that it was incredible that soldiers \"composed of men of every age, even of children of fifteen, of whites and blacks, almost naked, unpaid, and rather poorly fed, can march so well and withstand fire so steadfastly.\" It is one of the clearest contemporary glimpses, recorded through French eyes, of the fact that the army fighting for American liberty had Black men in its ranks, and that it held the line in spite of having almost nothing."
+      },
+      {
+        "fig": "/war-img/rev-french-rochambeau.jpg",
+        "cap": "The comte de Rochambeau, the veteran French general sent in 1780 to command an army that would stay. His orders placed him under Washington's overall command, an almost unheard-of subordination of French regulars to a colonial general, and it was the deliberate fix for the friction d'Estaing had caused.",
+        "credit": "Portrait of the comte de Rochambeau · public domain"
+      },
+      {
+        "p": "For all that, the alliance was a marriage of convenience, and both partners knew it. Vergennes had armed the republic to wound Britain, not to love it, and the Americans, for their part, kept a wary eye on a French crown that had its own empire and its own designs in the Americas and had not crossed the ocean out of affection for elected assemblies. Each side was using the other against a common enemy, and both understood the arrangement for exactly what it was."
+      },
+      {
+        "p": "Washington and Rochambeau met to plan twice. The first conference, at Hartford in September 1780, was interrupted by the news of Benedict Arnold's treason. The second, at Wethersfield, Connecticut, in May 1781, was the consequential one, because word had arrived that a great French fleet under the comte de Grasse would be coming north for the summer, and the two generals had to decide where to use it."
+      },
+      {
+        "p": "Here the story has been mangled by legend, so it is worth getting right. Washington wanted to attack New York, where the main British army sat, and the formal plan that came out of Wethersfield said New York. Rochambeau preferred a target far to the south, in the Chesapeake Bay region of Virginia, and while he deferred to Washington in public, he wrote privately to de Grasse suggesting the Chesapeake was the better destination and asking him to bring troops and money there. In the end the choice was de Grasse's, because the armies would have to go wherever the fleet went. In August 1781 he made his decision and sailed for the Chesapeake. When the news reached Washington in mid-August, he dropped the New York plan entirely and threw the combined armies into a forced march of some four hundred and fifty miles to Virginia, screening the move with fake camps and bread ovens opposite New York to keep the British guessing. Washington did not plan Yorktown all along. Washington wanted New York, Rochambeau steered toward Virginia, de Grasse decided, and Washington executed the pivot brilliantly once the decision was made."
+      },
+      {
+        "h": "The machine finally meshes",
+        "eyebrow": "Fleet, army, and silver converge on Yorktown"
+      },
+      {
+        "p": "For three years the parts of the alliance had never quite fit together. In the late summer of 1781, all at once, they did. A French admiral committed everything, Spanish silver appeared out of nowhere, and the Continental Army, a French army, and a French fleet all arrived at the same point on the map at the same time."
+      },
+      {
+        "p": "The admiral was the comte de Grasse, and he went all in. From the French Caribbean base at Cap-Français, on what is now Haiti, he stripped his station of every warship he had, bringing all twenty-eight of his ships of the line north along with around three thousand French regulars, who joined Lafayette's force in Virginia at the start of September. It was a commander betting his whole fleet on a single throw."
+      },
+      {
+        "p": "The expedition needed hard cash that nobody had: the armies had to be paid, and Continental paper was worthless. The money came from Havana, and the way it came is worth telling because the famous version is wrong. The legend says the ladies of Havana pledged their diamonds to fund the cause, a lovely story that turns out to be later invention, traceable to an anonymous pamphlet written after the war by someone who was not there. What actually happened is less romantic and more impressive. A Spanish royal official named Francisco de Saavedra, working with de Grasse, raised roughly half a million pesos in Havana in about forty-eight hours, in mid-August 1781, pulling it together from the colonial treasury, merchants, and private lenders, and a French frigate carried it to the fleet. Spanish silver, raised in two days, paid for the campaign that won American independence. That September, at Head of Elk in Maryland, many Continental soldiers were handed a month's pay in actual coin, borrowed from Rochambeau's war chest, the first real money some of them had seen in their service."
+      },
+      {
+        "p": "Then came the one naval battle this chapter will linger on, and only for a moment, because the sea war proper belongs to the War at Sea chapter. On the fifth of September 1781, de Grasse stood out of the Chesapeake with twenty-four ships of the line and fought a British fleet of nineteen under Admiral Graves off the Virginia Capes. Tactically it was a maul, with no ships sunk on either side. Strategically it was total. Graves limped back to New York, the British relief never got through, a second French squadron slipped into the bay with the heavy siege guns, and Lord Cornwallis's British army at Yorktown was sealed in by land and cut off by sea. Washington had said for years that everything depended on controlling the water. For exactly these few weeks, the alliance had it, and a few weeks was all it needed."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/war-at-sea",
+        "plabel": "The War at Sea"
+      },
+      {
+        "p": "Yorktown itself was a Franco-American operation through and through. Cornwallis had dug in on a low peninsula where the York River meets the Chesapeake, with water at his back, which made him strong against an assault from the land and helpless once the French fleet closed the river behind him. When the siege closed in, between late September and mid-October 1781, the Continental regulars numbered around eight thousand, with another three thousand or so militia, and the French regulars (Rochambeau's corps plus the troops de Grasse had brought) ran to roughly eight thousand as well. The French, in other words, were about half the trained troops in the lines, and the entire fleet offshore, the thing that made the siege possible at all, was French. French military engineers laid out the formal siege, the textbook European business of digging parallel trenches ever closer to the enemy works and emplacing the batteries (the grouped cannon) to pound them. On the night of the fourteenth of October, the allies stormed the two redoubts that anchored the British defenses, side by side, the French taking one and the Americans (under Lafayette's command, with the assault led by Alexander Hamilton) taking the other."
+      },
+      {
+        "p": "Five days later it was over. Cornwallis surrendered his army, somewhere between seven and eight thousand men, on the nineteenth of October 1781. Pleading illness, he did not appear himself, and sent his deputy, Brigadier General Charles O'Hara, to give up the army's sword. O'Hara tried to surrender it to Rochambeau, who declined and pointed him to Washington, who in turn directed him to his own second-in-command. It was a small piece of theater, and a perfect image of what the alliance was: the French general gracefully refusing the honor and handing it to the American, the partnership composed into a single gesture on a field in Virginia."
+      },
+      {
+        "fig": "/war-img/rev-french-yorktown.jpg",
+        "cap": "Trumbull's later painting of the Yorktown surrender, with the French line on one side and the American on the other, framing the moment. The composition is the alliance made into a picture, two armies flanking the act that won the war. Cornwallis is absent (he sent O'Hara in his place); the figure on the white horse is Washington's second, Benjamin Lincoln.",
+        "credit": "John Trumbull, \"Surrender of Lord Cornwallis,\" painted 1820 · public domain"
+      },
+      {
+        "p": "Yorktown ended the major fighting in America, but it did not end the war. The fleets kept fighting in the Caribbean, the siege of Gibraltar ground on into 1783, and it would take two more years of negotiation to turn the victory into a peace, a story that belongs to the Treaty of Paris chapter. What Yorktown ended was any serious British hope of reconquering the colonies. And it sent the bill, at last, to Paris."
+      },
+      {
+        "h": "What it cost France",
+        "eyebrow": "The kingdom that won America, and what winning did to it"
+      },
+      {
+        "p": "France got her revenge. She had set out in 1763 to even the score with Britain, and at Yorktown she did, helping to amputate Britain's most valuable colonies and reversing the humiliation of the Seven Years' War. And it ruined her."
+      },
+      {
+        "p": "The numbers are slippery and the accounting was disputed even at the time, so they are best given as a range. France's total spending on the war is usually put somewhere around a billion to a billion and a third livres, with the higher figure the most commonly cited. That was more than double the crown's entire annual revenue, with the year 1781 alone costing well over two hundred million. And nearly all of it was borrowed. France's finance minister had paid for the war with loans rather than new taxes, which kept it politically painless in the short run and piled up a mountain of debt for later."
+      },
+      {
+        "p": "Later arrived soon enough. Servicing that war debt was a major driver of the financial crisis that gripped the French monarchy through the 1780s, the crisis that drove the crown first to summon an Assembly of Notables in 1787 and then, in 1789, the Estates-General, the assembly that turned into the French Revolution. The connection should be stated carefully. The American war's debt was a major contributor to the monarchy's collapse, not its sole cause; France's tax system had structural problems older and deeper than any single war. But the debt France took on to free America genuinely helped bankrupt the monarchy, and it was one of the roads that led to 1789. Vergennes, the architect of the whole project, did not live to see it. He died in early 1787, a few weeks before the Assembly of Notables he had helped make necessary ever met."
+      },
+      {
+        "p": "So who won the American Revolution? The honest answer refuses both flattering versions. It is not true that the Americans won it on their own, and it is not true that France won it for them. Both halves were necessary, and neither was sufficient. French money armed the Continental Army from the first year, French gifts and loans kept Congress solvent when its own currency was worthless, the French navy made Yorktown possible, and French soldiers were half the army that captured it. The neatest summary comes from the U.S. State Department's own historians, who put it plainly: \"French assistance was crucial in securing the British surrender at Yorktown in 1781.\" But French power had to be multiplied by something, and that something was an American army that refused to die. For six years, through defeats and freezing winters and mutinies and a collapsing currency, the Continentals kept an army in the field and the population kept the rebellion alive. France's fleets and silver were decisive. The American refusal to quit was what made there be anything for that decisiveness to finish. The alliance worked, in the end, because both halves finally meshed, and it took until the autumn of 1781 for them to do it."
+      }
+    ]
   }
 }
