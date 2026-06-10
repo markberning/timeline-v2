@@ -1,0 +1,21 @@
+# CRITIC FINDINGS — "An Army from Nothing" (all 4 critics: PASS-WITH-FIXES)
+
+## FACT-CHECK
+- **SHOULD-FIX:** "Nine days out of Valley Forge" — the army left June 19, Monmouth June 28; the count is arguable. Use "ten days after leaving Valley Forge" or "days after leaving Valley Forge."
+- **SHOULD-FIX:** the Laurens quote must be verbatim: "Starve—dissolve—or disperse" (Founders Online uses em-dashes INSIDE the quotation; verbatim quotes keep their original punctuation — the em-dash ban applies to our prose, not to quoted source text). Fix in prose AND ledger.
+- NITs: "Fairfax county company" → Fairfax Independent Company; Blue Book "until 1814" follows the pack (sources split 1812/1814) — fine.
+
+## STORYTELLING (target ~5,000; draft ~6,382)
+- **BLOCKER (meta-narration):** cut the opening's "This is the story of that army as an institution: who filled it…" sentence.
+- **BLOCKER:** "Who actually served" runs abstract too long — put a concrete face/type BEFORE the statistics paragraph (a specific composite: the landless nineteen-year-old, the new immigrant, the indentured man — drawn from pack material).
+- SHOULD-FIX trims: condense Morristown to ~3 sentences folded into an adjacent section (~200w); compress the paper-vs-reality strength paragraph from 7 sentences to 2 (~120w); consolidate the Black-soldiers "worth stating precisely" re-explanation into the main passage (~120w); trim the Adams nomination-speech hedge (~100w).
+- SHOULD-FIX rewrites: make Mifflin a person who failed, not a parenthetical ("The officer responsible for all of it… had simply stopped doing the job… They didn't."); reorder the currency section effect-before-cause (open with the soldier holding paper that evaporates, then the mechanism; rates become confirmation); add one re-attribution sentence before the Martin rice-and-vinegar pull quote (or weave the quote into the specific-supplies passage as evidence).
+- NITs: the anti-Valley-Forge-myth beat is stated twice — cut the second "frozen tableau" instance and let the Banister quote carry it; tighten "arguably the first mass military immunization program in history" → "may have been the first mass military immunization on record, and it worked"; currency figure caption "when the paper still held value" contradicts the prose → "when the press was still new and the slide had barely begun."
+
+## CLARITY (one-clause insertions)
+- SHOULD-FIX: define bounty at first use ("a cash payment at enlistment — the only lever for a man signing years away for paper wages"); state the substitute mechanism IN PROSE ("a drafted man with money could pay a poorer neighbor to serve in his place — the law allowed it, and the rate climbed all war"); gloss furlough ("sent home temporarily, with the legal obligation to return if called, rather than discharged"); gloss half-pay ("a pension of half your active-duty pay for life — the only deferred compensation ever promised to officers who'd often had no pay at all"); add the drill→survival mechanism beat ("an untrained force under fire bunches, panics, or freezes; a drilled one executes the rehearsed sequence faster than the enemy can reload"); gloss court-martial ("tried by a panel of officers under military law"); name the Commissary General vs Quartermaster General split once ("the commissary bought food; the quartermaster moved everything — both broke at once").
+- NITs: rage militaire add "war-fever"; muster rolls "(the army's attendance registers)"; Board of Sergeants "elected among themselves"; SIGNPOST the inoculation section's backward jump to Feb 1777 ("Back in February 1777, before Valley Forge…") or reorder; Cincinnatus clause sharpen ("left his farm to save Rome, then went straight back to his plow"); introduce Nathanael Greene on first use ("one of Washington's most capable generals"); Anthony Wayne ("the Pennsylvania Line's own commander").
+
+## FRAMING (PASS — one SHOULD-FIX)
+- **SHOULD-FIX:** the substitutes/bounty class mechanism must appear in PROSE, not just the ledger (same fix as clarity above — one sentence, the documented mechanism, no editorializing).
+- NITs: one bridging clause linking Valley Forge's "ordinary winter" to Morristown's "coldest of the century" so the myth-correction reads as one argument; optionally add Gouverneur Morris to the Newburgh nationalists.
