@@ -27,3 +27,7 @@ tokens-per-point for budgeting all remaining ARW work.
 - tokens-per-point: ~**300k agent-tokens per weekly point**, ~74k per window point
 - Remaining ARW (4 themes + 6 spine + integration) ≈ **21–23 weekly points** → ~21% → mid-40s%
 - One 5-hour window holds ~11 chapters from empty; ~8 points/chapter
+
+## Boost caveat (added after test)
+User reports a **1.5x usage allowance until July**. These rates were measured UNDER the boost.
+Post-boost projection: ~**3 weekly pts / ~12 window pts per chapter**. Recalibrate with one fresh reading on the first July chapter.
