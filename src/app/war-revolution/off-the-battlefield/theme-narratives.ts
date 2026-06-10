@@ -448,5 +448,1238 @@ export const THEME_NARR: Record<string, Narr> = {
       "title": "A penny of principle on a pound of tea",
       "body": "Lord North thought he had defused the colonies cheaply. Repeal the duties that were costing British merchants their American trade, keep the one on tea purely to prove the point, and the agitation would die down. In the narrow sense he was right. The boycotts collapsed and the colonies fell quiet for years. What he had actually done was leave a single, deliberate tax in place as a matter of principle, on the one commodity Americans drank by the ton."
     }
+  },
+  "tea-party": {
+    "eyebrow": "Parliament tries to bail out a tea company and accidentally unites a continent",
+    "title": "The Tea Party & the Intolerable Acts",
+    "blocks": [
+      {
+        "p": "One small tax had been left standing in the law books, deliberately, as Parliament's flag planted in colonial ground (Chapter 3). The duty on tea was still there, three pence a pound, collected as the tea came into port. It collected almost nothing, because the colonies had largely stopped buying the legal, taxed tea and gone back to the smuggled kind, and for three years that was where the matter sat, burning very low. Then, in 1773, Parliament did the one thing that could fan it back to life: it tried to make the colonists buy that taxed tea after all, by making it cheaper than the smuggled kind. Parliament thought it was offering a bargain. The colonists saw a trap, and they were right. To see how a cheaper cup of tea could end with men throwing a fortune into the harbor, start with the three quiet years before it, and with what was being built in them."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/boston-massacre",
+        "plabel": "The Townshend Acts & the Boston Massacre"
+      },
+      {
+        "h": "The lull breaks down",
+        "eyebrow": "A burned schooner, the judges' salaries, and a network wired between the towns"
+      },
+      {
+        "p": "The calm of 1770 to 1773 was real, but not empty. Two things happened in it that put the question of colonial rights back on the table, and a third got built in answer that would matter more than either."
+      },
+      {
+        "p": "The first was a fire in Rhode Island. The Royal Navy ran revenue schooners (small, fast warships used as customs patrol boats) up and down the American coast to catch smugglers, and one of them, HMS *Gaspee*, worked Narragansett Bay under a lieutenant named William Dudingston, thoroughly hated by the locals. On 9 June 1772, chasing a packet boat called the *Hannah*, the *Gaspee* ran aground in the shallows off Gaspee Point near Warwick and stuck fast. In the small hours of the next morning a flotilla of longboats full of Providence men, led by the merchant John Brown and the ship captain Abraham Whipple, rowed out to the stranded schooner, boarded her, shot and wounded Dudingston, put his crew ashore, and burned the *Gaspee* to the waterline."
+      },
+      {
+        "p": "The burning was a serious crime, but it was not the part that frightened people; London's response was. A royal commission of inquiry was set up to find the men who had done it, and it was empowered to ship suspects across the ocean to be tried in England, away from any Rhode Island jury that might know them and refuse to convict. This was the old vice-admiralty nightmare (Chapters 1 and 2) made flesh: an Englishman dragged from his own town and tried three thousand miles from any neighbor who could speak for him. Rhode Islanders simply stonewalled the commission, which could not gather enough evidence and gave up; nobody was ever prosecuted. But the threat had been made out loud, and it traveled."
+      },
+      {
+        "p": "The second thing was about money, and about a purse-string. Word reached Massachusetts in the fall of 1772 that the Crown would now pay the salaries of the colony's senior judges directly out of London funds, the same trick already used on the governor (Chapter 3). For generations the assembly had voted those salaries itself, year by year, which gave it leverage over the men on the bench. A judge who held his commission \"during pleasure\" (removable whenever the Crown wished) and now drew his pay from London depended on London for, as John Adams later put it, \"Bread as well as office.\" Chief Justice Peter Oliver and his four associate judges first took half-pay from the province while waiting on the Crown's share; under public pressure through 1773 the associates backed away from the Crown salary, but Oliver refused to, and the Massachusetts House began moving toward impeaching him. First juries, with the *Gaspee*; now judges; the lull was over in everything but name."
+      },
+      {
+        "p": "The answer to both was a new machine for resistance. At a Boston town meeting that November, Samuel Adams, with Joseph Warren a key collaborator, moved to create a standing Committee of Correspondence, a permanent body whose job was to state the rights of the colonists in writing and send that statement out to every other town. Instead of each town reacting to each crisis on its own, a few hours late and out of step with its neighbors, the towns would be wired together by a constant exchange of letters, so that the next outrage could be answered everywhere at once, in one voice. More than a hundred Massachusetts towns formed answering committees within months. Then the idea jumped the colony line. In March 1773 the Virginia House of Burgesses (Virginia's elected colonial assembly) created the first standing intercolonial committee of correspondence, naming men whose names would soon be famous, among them Peyton Randolph, Richard Henry Lee, Patrick Henry, and Thomas Jefferson. By February 1774 eleven colonies had committees; with Pennsylvania's the following spring, every colony that would one day rebel had one. The resistance had grown a nervous system, so that the next time Parliament reached out to touch the colonies, they could flinch as one body."
+      },
+      {
+        "p": "A private scandal added one more reason to trust nobody in the royal establishment. Benjamin Franklin, serving in London as agent for the Massachusetts House, had got hold of old private letters that Thomas Hutchinson, by now the royal governor of Massachusetts, had written years before, in one of which he argued that the colonies, at their distance from Britain, could not keep every English liberty, that there must be \"an abridgment of what are called English liberties.\" Samuel Adams saw to it that the letters were published in June 1773, and to patriot readers they were a confession that the governor himself had been quietly arguing in London for cutting their rights down. The House petitioned the Crown to remove him. Boston, that autumn, would take nothing on faith from Thomas Hutchinson, and it was about to face him over a cargo of tea."
+      },
+      {
+        "h": "The trap baited as a bargain",
+        "eyebrow": "A bankrupt company, a mountain of tea, and the cheapest possible way to surrender a principle"
+      },
+      {
+        "p": "The Tea Act of 1773 was a trap, but to see how, begin with a company that had nothing to do with America and everything to do with why the tea was coming."
+      },
+      {
+        "p": "The East India Company was the gigantic, half-governmental trading corporation that ran Britain's commerce with India and China, and in 1773 it was sliding toward collapse. It owed the British government £400,000 a year by agreement, it had been hammered by famine and war in Bengal and by a credit panic the year before, and it was sitting on something like seventeen or eighteen million pounds of tea, unsold, rotting in British warehouses, because cheap smuggled Dutch tea had eaten its American market alive. Too big and too entangled with the state to fail, the company was propped up by Parliament with a massive government loan and, crucially, with a plan to get that warehouse mountain of tea moving."
+      },
+      {
+        "p": "That plan was the Tea Act, which received royal assent on 10 May 1773, and its mechanics are worth getting exactly right, because the whole crisis turns on them. Before the Act, company tea took a long, expensive road to an American teacup: London auction to British wholesalers to colonial merchants to shopkeepers, everyone taking a cut along the way. The Tea Act cut that road short. For the first time the company could ship its tea directly to America in its own name and sell it through a handful of hand-picked colonial agents called consignees (local merchants chosen by the company to receive and sell its tea on commission), and the various duties the tea would have paid in Britain were refunded or waived. With the middlemen and the British duties stripped out, the price fell far enough that legal company tea would now undersell the smuggled Dutch tea Americans had been drinking."
+      },
+      {
+        "p": "And that is the trap. Nobody was being squeezed; colonists were being offered cheaper tea than ever. But there was a catch sewn into the price, the one duty the Act deliberately left in place: the three-pence-a-pound Townshend tax, still collected in the colonial port as the tea landed. So every cheap, legal cup now carried that tax inside it, and to drink it was to pay the tax, and to pay the tax was to concede, with your own money, that Parliament had the right to tax the colonies whenever it pleased. This was the Declaratory Act's bare principle (Chapter 2) dressed up as a discount. Lord North had kept the tea duty precisely as a token of the right to tax (Chapter 3); now he had built a clever little machine to make Americans swallow it voluntarily, by making refusal cost them money."
+      },
+      {
+        "p": "The Act also united two groups who did not usually march together: men of principle and men of money. The Whigs (colonial politicians who held that Parliament had no right to tax the colonies without their consent) objected to the duty outright. But the merchants had their own reason to hate the Act, and it had nothing to do with principle: by selling only through its chosen consignees, the company had cut every other colonial tea merchant out of the trade in one stroke, the honest importers and the smugglers alike, the whole world of men like John Hancock. The legal merchant feared a monopoly, the smuggler feared cheap legal tea drowning his business, the Whig feared the principle, and the Tea Act fused all three fears into one opposition. That autumn the company sent its tea to four ports, Boston, New York, Philadelphia, and Charleston, naming a handful of consignees in each. In Boston the list included Richard Clarke and his sons, Benjamin Faneuil, Joshua Winslow, and, pointedly, the governor's own two sons, Thomas Jr. and Elisha Hutchinson, the men who alone of all the ports' consignees would refuse to back down, because the governor would not let them."
+      },
+      {
+        "h": "The standoff at Griffin's Wharf",
+        "eyebrow": "A town that won't let the tea land, a governor who won't let the ships leave, and a clock running for both"
+      },
+      {
+        "p": "The fight began before the tea arrived, with the consignees. In every other port the company's agents, faced with the town's anger, simply resigned, and that ended it. Boston's would not. Early in November the Sons of Liberty (the resistance network that had organized the Stamp Act protests) sent the Clarkes an anonymous summons to appear at the Liberty Tree and resign publicly; the consignees did not come. A crowd led by William Molineux went to Clarke's warehouse instead and tried to force the counting-room door, and on 17 November another attacked Richard Clarke's house. Still they would not resign. Stiffened by Hutchinson, whose own sons were among them, they took refuge at Castle William, the British fort on a harbor island, and waited."
+      },
+      {
+        "p": "Then the ships came in, and it matters that all three were ordinary colonial-owned merchant ships carrying the company's tea as freight, not company vessels. The *Dartmouth*, owned by the Rotch family of Nantucket (Quaker whaling merchants), arrived on Sunday, 28 November 1773 with 114 chests of tea, and it was her arrival that started the clock that would govern everything. The *Eleanor* and the *Beaver* followed over the next two weeks with the rest, and all three ended up tied at Griffin's Wharf."
+      },
+      {
+        "p": "Now the squeeze. British customs law gave a ship twenty days, once she formally entered port and reported her cargo, to land that cargo and pay the duty on it. If the twenty days ran out unpaid, customs officers could seize the cargo themselves, and seized tea could then be landed under the guns of the warships in the harbor, the duty effectively collected. For the *Dartmouth*, the first ship in, that clock ran out on 17 December, which made the night of the 16th the last chance to do anything."
+      },
+      {
+        "p": "What made it a genuine trap was that the escape was blocked at both ends. The town's demand was simple: send the ships back to England with the tea still aboard, duty unpaid. But a ship that had formally entered port could not legally clear outward (get the customs permission to depart) until her duty was paid, and the duty was the one thing the town would not allow. The one man who could grant a pass to let the ships slip past Castle William, the fort that guarded the harbor mouth, and the warships beyond it, was Governor Hutchinson, and Hutchinson flatly refused. His refusal had a logic of its own: he had watched mob pressure roll back royal authority at every crisis since the Stamp Act, and he believed that granting the pass now would concede that a crowd in the street could override the law whenever it chose to gather. So the tea could not land, because the town would not let it; the ships could not leave, because the governor would not let them; and the clock ran on regardless of what anyone wanted."
+      },
+      {
+        "p": "The town met the standoff with mass meetings unlike ordinary town meetings. Ordinary town meetings were for qualified voters; these were open to anyone, and called themselves \"the Body of the People.\" The day after the *Dartmouth* docked, a meeting at Faneuil Hall overflowed and moved to the Old South Meeting House, the largest building in Boston. The Body resolved that the tea must go back without a penny of duty paid, and posted an armed watch of twenty-five men on the ships so not one chest could be quietly landed in the night. The meetings went on through the first half of December as the clock wound down."
+      },
+      {
+        "p": "On 16 December the *Dartmouth*'s twenty days were nearly up. Somewhere between five and seven thousand people, in a town of about sixteen thousand, packed into and around Old South in a cold rain for the last meeting. They sent the *Dartmouth*'s owner, young Francis Rotch, riding out one last time to Hutchinson's country house at Milton to beg for the pass that would let his ship go home. Rotch rode back after dark with the answer everyone expected: refused. Inside Old South thousands stood pressed together in the candlelight, soaked and silent, waiting to hear what could be done now that the last door had shut. By the famous account, Samuel Adams then rose and said this meeting could do nothing further to save the country, the words long retold as a prearranged signal to launch what came next. That signal story is doubted now: the line first surfaced in print a century later, and witnesses said people did not move until ten or fifteen minutes after the remark, so it reads better as a thing Adams may have said than as the starting gun of legend. However it began, war whoops sounded at the door, and the crowd spilled out of Old South down toward Griffin's Wharf."
+      },
+      {
+        "h": "The destruction of the tea",
+        "eyebrow": "Three hours, three ships, and a discipline that was the whole point"
+      },
+      {
+        "p": "What happened next took about three hours and was, for a riot, astonishingly orderly. Beginning around six or seven in the evening on Thursday, 16 December 1773, parties of men boarded all three ships at Griffin's Wharf, broke open the holds, hauled the chests up on deck, split them with hatchets, and tipped the tea and the broken chests into the harbor, where the low tide left it heaped in the shallows. When it was done they had destroyed more than 340 chests (the traditional figure is 342; the three ships' manifests of 114, 114, and 112 add up to 340), over 92,000 pounds of tea, around 46 tons, worth £9,659 in the money of the day, a fortune poured into the sea."
+      },
+      {
+        "p": "The men who did it wore a disguise, and it needs handling with some care, because it is so often gotten wrong. They wrapped themselves in blankets worn like coats, smeared their faces dark with soot and lampblack (a fine black pigment), and carried hatchets they called tomahawks, costuming themselves loosely as \"Mohawks.\" This was not an attempt to fool anyone into thinking actual Mohawk people had done it, and no Mohawks were anywhere near Boston; everyone present knew perfectly well who these men were, neighbors all. The disguise hid individual faces, because what they were about to do was a hanging-level crime against property the Crown protected, and it carried a meaning besides: to costume yourself as a person of this continent, an American, rather than a Briton. Many were not men of standing but young apprentices and journeymen, sixteen of the documented participants still in their teens. Estimates of how many took part run from thirty or so core organizers up to a hundred and thirty or more once volunteers from the meeting joined in; about 116 are documented by name, though that count leans heavily on claims and family memories recorded long after."
+      },
+      {
+        "p": "The discipline is the part that lasted, and it was deliberate. Nothing but the tea was touched. There was no looting and no damage to the ships, and the men swept the decks clean when they finished. The organizers knew that a looting riot would have squandered the whole point of the act, turning a stand on principle into common theft and handing London exactly the lawless mob it wanted to see. So when one man tried to stuff tea into the lining of his coat to keep, the others stripped it off him and roughed him up: this was destruction, not theft. One padlock got broken, a ship captain's private property, and a replacement was sent to him the next day. No one was killed; the only real injury was to a man named John Crane, knocked cold by a falling crate and at first taken for dead, who came around later. Every man there swore himself to secrecy, a vow most of them kept for decades and many to the grave; only one participant was ever even arrested, and no one was ever convicted."
+      },
+      {
+        "p": "The strangest detail is what did not happen. Royal Navy warships lay close by in the harbor, well within range, and watched the whole thing without firing a shot. No order came to attack townspeople committing what was, on the surface, three hours of vandalism in a crowded port. One participant remembered it six decades later: \"We were surrounded by British armed ships, but no attempt was made to resist us.\""
+      },
+      {
+        "p": "Then there was no other Alternative but to destroy it or let it be landed. — John Adams, diary, 17 December 1773",
+        "q": true
+      },
+      {
+        "p": "John Adams wrote that the next morning, and it shows how even a cautious, lawyerly patriot squared the destruction with himself. Landing the tea, he reasoned, meant \"giving up the Principle of Taxation by Parliamentary Authority, against which the Continent have struggled for 10 years,\" and the ships could not get past the fort and the warships to take it home, so there was nothing else for it. He did not flinch from what had been done; he exulted in it, calling it \"the most magnificent Movement of all\" and \"an Epocha in History\" (his spelling of epoch). That a man as careful as Adams reached for words like majesty and sublimity over the destruction of private property tells you how completely the principle had come to outweigh the property."
+      },
+      {
+        "p": "But it did not look that way to everyone, and the disapproval was not only English. To many Americans this was simply a town destroying a private company's goods and then refusing to pay for them, a crime dressed up as a cause. Benjamin Franklin, no friend of the tea tax, thought Boston ought to make good the loss out of its own pocket, and plenty of moderate colonists agreed that a stand on principle did not license the wrecking of property. The destruction had shocked the colonies' friends almost as much as their enemies."
+      },
+      {
+        "p": "One thing nobody called it that night was the Boston Tea Party. To the people who did it and the people who heard about it, it was \"the destruction of the tea.\" The jaunty name we use would not show up in print for another fifty years or so, in the 1820s or 1830s, long after the men who did it were old or gone."
+      },
+      {
+        "fig": "/war-img/rev-tea-party-destruction.jpg",
+        "cap": "A romanticized scene of the night, made seventy-three years after it happened. The real participants wore thin blankets and soot, not the elaborate feathered costumes a Victorian artist imagined. The print's own title, \"The Destruction of Tea,\" is a quiet clue that \"Boston Tea Party\" was not yet the standard name even in 1846.",
+        "credit": "Nathaniel Currier, \"The Destruction of Tea at Boston Harbor,\" 1846 · Library of Congress · public domain (published 1846; Currier d. 1888)"
+      },
+      {
+        "h": "The other ports",
+        "eyebrow": "The same tea, four cities, and only one of them ending in the harbor"
+      },
+      {
+        "p": "Boston was not the rule. It was the exception, and the difference is the whole point: the same company tea went to four ports, and only in Boston was any of it destroyed, because only in Boston did the consignees refuse to resign and the governor refuse to bend. The other three cities show what the normal outcome looked like."
+      },
+      {
+        "p": "In Charleston the ship *London* arrived on 2 December 1773. The consignees were pressured into resigning, and when the twenty days ran out with nobody to claim the tea, the customs collector seized the 257 chests for non-payment and locked them in the cellars of the Exchange building. There they sat until the revolutionary government later sold the tea off to help fund the cause. No harbor, no hatchets."
+      },
+      {
+        "p": "In Philadelphia the *Polly* came up the Delaware in late December with a much larger load, 697 chests, but a committee had warned off the river pilots and the captain with handbills promising to tar and feather anyone who helped land the tea. A mass meeting of perhaps eight thousand people on 27 December, one of the largest gatherings the colonies had yet seen, resolved that the tea would not land; the consignees had already quit. Captain Ayres took the hint, reprovisioned, and sailed the *Polly* and all her chests straight back to England."
+      },
+      {
+        "p": "New York's turn came late, because its tea ship had been blown off course. The *Nancy* did not reach Sandy Hook until 18 April 1774, by which time her consignees had resigned months earlier, and her captain was persuaded, under threat, to turn around for England without unloading. A few days later another ship arrived claiming to carry no tea at all, but New Yorkers found 18 chests the captain was smuggling in on his own account and dumped those in the harbor, a small New York tea party of its own. The pattern, in three cities out of four, was resignation and turn-back. Boston became the flashpoint not because Bostonians were braver but because Hutchinson and his consignee sons had made retreat impossible there."
+      },
+      {
+        "h": "Parliament's answer",
+        "eyebrow": "The Coercive Acts, one by one, and the long-planned law the colonists folded in with them"
+      },
+      {
+        "p": "News of the destruction reached London in January 1774, and it landed badly even with the friends of America. This was not a tax to argue over; it was the wanton destruction of a private company's property by a town that then declined to pay for it. Lord North's government resolved to make an example, not of all the colonies, but of Boston and Massachusetts specifically, to cut the radicals off."
+      },
+      {
+        "p": "It began with Franklin, the most prominent American in London and lately exposed as the man who leaked Hutchinson's letters. Two days after the news broke, on 29 January 1774, he was made to stand for the better part of an hour in the chamber of the Privy Council (the King's senior advisory council, the most powerful body in Britain) known as the Cockpit, while the Solicitor-General, Alexander Wedderburn (the Crown's senior lawyer), flayed him before a packed and jeering audience. Wedderburn called Franklin a \"true incendiary\" and named him the \"first mover and prime conductor of this whole contrivance.\" The room laughed and applauded as the abuse landed, and Franklin stood through all of it without changing his face. The next day the government stripped him of his post as deputy postmaster-general for North America, a paid Crown appointment that had put one of America's most famous men on the British government's own payroll. He wrote later: \"I made no justification of myself, but held a cool, sullen silence, reserving myself to some future opportunity.\" The man humiliated in the Cockpit had come to London as one of the empire's great believers in itself; he did not stay one."
+      },
+      {
+        "p": "Then came the laws. Across the spring of 1774 Parliament passed a series of acts to punish Boston and bring Massachusetts to heel, what Americans would later come to call the Intolerable Acts (the men who passed them called them the Coercive Acts, and that is what they were in 1774). They came one at a time."
+      },
+      {
+        "p": "The **Boston Port Act**, given royal assent on 31 March 1774 and in force from 1 June, closed the port of Boston outright. No ship could load or unload there until the town paid the East India Company and the customs for the destroyed tea and the King was satisfied that order had returned; customs business was moved up the coast to Salem and Marblehead. The Act passed the Commons without even a recorded vote against it and the Lords unanimously, a measure of how completely British opinion had turned against Boston."
+      },
+      {
+        "p": "Next, and far larger, came the **Massachusetts Government Act** of 20 May 1774, which went after something bigger than a harbor: it rewrote the colony's charter (the Crown-issued document that legally guaranteed Massachusetts its form of self-government), the 1691 grant that had governed the province for over eighty years. The Council, the upper house of the legislature, had been elected; now the Crown would appoint it. Judges, sheriffs, and most officials would be appointed by the governor, juries would be summoned by those appointed sheriffs, and town meetings, the bedrock of New England self-government, were limited to one a year unless the governor granted permission for more. This was the Act that frightened the other colonies most. Boston could be told it had earned its punishment by destroying property; but if Parliament could simply abolish the elected government of one colony by a vote in Westminster, it could abolish any colony's, and no charter anywhere was safe."
+      },
+      {
+        "p": "The **Administration of Justice Act**, also of 20 May 1774, let the governor move the trial of a royal official charged with a capital crime, committed while putting down a riot or enforcing the revenue laws, to another colony or to Britain. On its face it was a fair-trial measure for officials who could not get an impartial hearing locally. Colonists read it the other way around and called it the \"Murder Act,\" the charge being that a royal official could now kill a colonist and be whisked away to a friendly court where no local jury would ever judge him."
+      },
+      {
+        "p": "The **Quartering Act of 1774**, on 2 June, applied to all the colonies and let a governor take over unoccupied buildings to house troops when the barracks would not serve. The schoolbook image of redcoats billeted in people's parlors is wrong: this Act reached empty buildings, not occupied homes."
+      },
+      {
+        "p": "And then there was the **Quebec Act**, which received royal assent on 22 June 1774 and was not actually part of the punishment at all. It was a long-planned settlement for the formerly French Canada that Britain had conquered, and on its own terms it was a tolerant one: it allowed the free practice of Catholicism, restored French civil law (which meant no jury in civil cases), set up government by an appointed council with no elected assembly, and extended Quebec's boundary south and west to the Ohio and Mississippi rivers, over land that Virginia and other colonies claimed for themselves. From Canada's side it was a generous accommodation of a conquered people. To American Protestants it read as three insults stacked together: a Catholic Church on their border, a colony with no elected assembly, and a land-grab swallowing the west they wanted. Because it came out of the same session as the punishments, the colonists simply lumped it in with them as a fifth Intolerable Act, whatever Parliament had intended by it."
+      },
+      {
+        "fig": "/war-img/rev-tea-party-bitter-draught.jpg",
+        "cap": "A British satire from 1774, sympathetic to the colonies: a half-clothed \"America\" pinned down while Lord North pours tea down her throat, the Boston Port Bill protruding from his pocket. It captures how the Coercive Acts looked to Britain's own opposition, as force-feeding a colony.",
+        "credit": "\"The Able Doctor, or America Swallowing the Bitter Draught,\" London Magazine, 1774 · public domain"
+      },
+      {
+        "h": "Boston under the blockade, and the call that followed",
+        "eyebrow": "A general for a governor, relief by the shipload, and the colonies deciding to meet"
+      },
+      {
+        "p": "To enforce all this, London changed who ran Massachusetts. On 13 May 1774 General Thomas Gage, the commander-in-chief of the British army in North America, landed in Boston as the colony's new royal governor: a general where a civilian had been, which told the town exactly what kind of government it was now under. Thomas Hutchinson, who had refused the pass and held the line through the whole tea crisis, sailed for England on 1 June, and never saw America again."
+      },
+      {
+        "p": "That same 1 June the Boston Port Act took effect and the Royal Navy sealed the harbor. The day was marked across the colonies as a day of mourning, with fasts, tolling bells, and flags at half-mast, not just in Boston but in towns that had never seen a tea ship. Gage moved the seat of government up to Salem as the Act required, and Boston, a port city whose whole life ran through its wharves, was cut off from the sea."
+      },
+      {
+        "p": "And here the punishment did the opposite of what it was designed to do. It had been meant to isolate Boston and frighten the other colonies into keeping their distance; instead the committees of correspondence, built two years earlier for exactly this moment, carried Boston's appeal out across the continent, and relief came pouring back in, overland and through Marblehead, the legal landing point, for Boston's Committee of Donations to distribute: grain and rye and corn by the thousands of bushels, rice from South Carolina, sheep and cattle driven down from Connecticut and across New England, flour, fish, and money. By the end of the year more than a hundred relief shipments had arrived. A town that London had tried to make a cautionary example of was instead being fed by every colony that watched it happen, and every colony had noticed that a Massachusetts-wide demolition of self-government could just as easily come for them."
+      },
+      {
+        "p": "So the colonies began, separately and then together, to reach for the one answer big enough to meet a continental threat: a meeting of them all. In Virginia, the royal governor dissolved the House of Burgesses, ordering it to stop meeting, on 26 May for daring to declare a day of fasting in sympathy with Boston. The next day the burgesses walked down to the Raleigh Tavern in Williamsburg and proposed an annual congress of all the colonies, and the committees carried the idea from colony to colony through the early summer."
+      },
+      {
+        "p": "In Massachusetts it came to a head behind a locked door. On 17 June 1774 the House, meeting in Salem, took up the question of sending men to such a congress. Gage got wind of it and sent the province secretary, Thomas Flucker, with a proclamation dissolving the assembly before it could act, but the House had the door locked. Flucker stood on the stairs outside and read the dissolution to a door that would not open, while inside the members went ahead and voted: five delegates, Thomas Cushing, Samuel Adams, John Adams, Robert Treat Paine, and James Bowdoin, to meet the other colonies at Philadelphia that September. The order to disband had arrived too late, and a closed door had kept it out just long enough."
+      },
+      {
+        "p": "The delegates would gather in Philadelphia in the fall. What they would do once they got there was, that summer, anyone's guess."
+      },
+      {
+        "fig": "/war-img/rev-tea-party-gage.jpg",
+        "cap": "General Thomas Gage, painted about 1768, some six years before he arrived in Boston as Massachusetts's new royal governor in May 1774. Sending a serving general to govern a colony told Bostonians plainly that they were now under military rule.",
+        "credit": "John Singleton Copley, \"Portrait of General Thomas Gage,\" c. 1768 · public domain (Copley d. 1815)"
+      }
+    ]
+  },
+  "idea-of-independence": {
+    "eyebrow": "How the unthinkable became official in twenty-two months",
+    "title": "The Idea of Independence",
+    "blocks": [
+      {
+        "p": "In September 1774, fifty-six delegates (the representatives each colony sent) from twelve colonies gathered in a Philadelphia carpenters' guildhall to do something that had never been done before, and not one of them came to break with Britain. They came to get the Intolerable Acts repealed (Chapter 4): to make the king and his ministers back down, restore Boston's port, and leave the colonists in peace as the loyal British subjects they still believed themselves to be. The boldest thing this first congress would do was organize a boycott. Its formal petition called the colonists George III's \"most loyal subjects.\" If you had stood in that hall and proposed independence, the room would have looked at you as if you had lost your mind."
+      },
+      {
+        "p": "Twenty-two months later, in that same city, a different congress voted that the colonies were \"free and independent states,\" absolved of all allegiance to the British crown. The men in the room had not changed their natures. The world around them had. The distance between those two votes is the chapter, and the thing that closed it was not a few radicals talking everyone into it. Step by step, the British government itself kept removing every other option until independence was the only door left unlocked."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/tea-party",
+        "plabel": "The Tea Party & the Intolerable Acts"
+      },
+      {
+        "h": "The Congress that wasn't a rebellion",
+        "eyebrow": "Carpenters' Hall, the Suffolk Resolves, and a road not taken"
+      },
+      {
+        "p": "The First Continental Congress convened on 5 September 1774 at Carpenters' Hall in Philadelphia, a brick guild house barely twenty years old, lent to the delegates by the city's master builders, and sat until 26 October. Fifty-six delegates came from twelve colonies. Only Georgia stayed home, its royal governor still firmly in control and the colony wanting British troops to help against raids on its frontier. The delegates elected Peyton Randolph of Virginia their president and made Charles Thomson of Philadelphia, who was not even a delegate, their secretary."
+      },
+      {
+        "p": "The roster reads, in hindsight, like a list of men a country would later name things after: George Washington, Patrick Henry, and Richard Henry Lee of Virginia; the cousins John Adams and Samuel Adams of Massachusetts; John Jay of New York; John Dickinson and Joseph Galloway of Pennsylvania. They did not all want the same thing, and that disagreement is the most important fact about the Congress. In the opening debates, Patrick Henry reached for the grand version of it. As John Adams recorded it in his notes, Henry declared that the old colonial labels had dissolved: \"I am not a Virginian, but an American.\" It was a thrilling line, and in 1774 mostly aspiration. The men in the room thought of themselves first as Virginians and Pennsylvanians and New Englanders, with different economies, different churches, and a long habit of distrusting one another."
+      },
+      {
+        "p": "What pulled them toward the radical edge was a packet of resolutions carried down from Massachusetts. The towns of Suffolk County, which included Boston, had met at Milton on 9 September and adopted resolves (formal statements voted by a body, carrying its authority) drafted largely by Dr. Joseph Warren, a Boston physician and patriot organizer. The Suffolk Resolves declared the Intolerable Acts unconstitutional and owed no obedience, urged a boycott of British goods, and told the militia to prepare. Paul Revere, the Boston silversmith and express rider, carried them to Philadelphia, and on 17 September the Congress voted to endorse them. For a body that had been in session less than two weeks, endorsing a document that called the king's laws void and told men to drill was a long step."
+      },
+      {
+        "p": "But the Congress contained its own counterweight, and his name was Joseph Galloway. A conservative Pennsylvania lawyer, Galloway thought the whole quarrel could be settled inside the empire rather than against it, and on 28 September he proposed a plan to do exactly that. The Galloway Plan of Union would have created a Grand Council of the colonies, a kind of American parliament whose members the colonial assemblies would choose, working alongside a president-general appointed by the crown; the American body and the British Parliament would share authority over American affairs, each able to veto the other. It was a genuine constitutional compromise, an attempt to give the colonies a real voice in the empire without leaving it."
+      },
+      {
+        "p": "And the Congress did not laugh Galloway's plan out of the room. It came within a single colony's vote of adopting it. A motion to set the plan aside carried by a narrow margin, six colonies to five (the count rests on Galloway's own later account, so treat it softly), and only weeks afterward, on 22 October, was the plan rejected outright and struck from the official journal entirely. In the autumn of 1774, half of the Continental Congress wanted a permanent constitutional union *with* Britain. Independence was not on the table. The argument was over how to stay."
+      },
+      {
+        "p": "What the Congress did agree on was milder than independence and, in the long run, more consequential than anyone in the hall guessed. On 14 October it issued a Declaration and Resolves, a statement of rights: the colonists were entitled to life, liberty, and property, to the rights of Englishmen, and to be taxed only by their own assemblies. It granted that Parliament could regulate external trade \"from the necessity of the case,\" but denied any right to tax or legislate for the colonies internally. This was the language of aggrieved Britons asking for their due, not of a new nation."
+      },
+      {
+        "p": "Then, on 20 October, the Congress created the Continental Association, the quiet revolution of the session. On its face the Association was just a boycott with a schedule: no British or Irish goods imported after 1 December 1774, no consuming them after 1 March 1775, and, if the Intolerable Acts were not repealed, no exports to Britain, Ireland, or the West Indies after 10 September 1775 (the export ban delayed a year so planters could sell one more crop). One clause even pledged the signers to import no more enslaved people after December and to quit the slave trade altogether, a boycott measure rather than an act of conscience, but a clause worth noticing. The teeth were in Article 11. Every county, city, and town was to elect a committee to watch the trade, publish the names of violators in the newspapers as \"enemies of American liberty,\" and enforce the boycott. A name printed in the gazette was a sentence: neighbors stopped buying from the man and stopped selling to him until he recanted or was ruined."
+      },
+      {
+        "p": "Thousands of these local committees sprang up across the colonies, and that is the thing that mattered. Ordinary colonists, elected by their neighbors, began administering a continental policy that no royal official had authorized and no royal court could stop. They inspected ledgers, shamed merchants, and ran the boycott town by town. Nobody called it a government. It functioned as one. The Congress dissolved on 26 October, agreeing to reconvene the following May if their grievances were not redressed, and went home. Behind it, in every colony, an embryonic shadow government had quietly come to life."
+      },
+      {
+        "h": "The winter shadow state",
+        "eyebrow": "Massachusetts slips out of royal control before a shot is fired"
+      },
+      {
+        "p": "In Massachusetts that shadow government did not stay embryonic for long. The colony's royal governor was now General Thomas Gage, the commander of the British army in North America, installed under the Intolerable Acts to bring the province to heel. Outside Boston, he was failing before the winter was over."
+      },
+      {
+        "p": "The warning came early. On 1 September 1774, Gage quietly sent about 250 regulars to remove the provincial gunpowder from a magazine at Charlestown. The operation was bloodless and finished by noon, but rumor inflated it into a massacre, and within a day thousands of militiamen were converging on Cambridge before the truth caught up and they stood down. This was the Powder Alarm, and it taught both sides the same lesson from opposite directions. The colonists learned they could put thousands of armed men in the field on a day's rumor. Gage learned he could trust nothing past the Boston town line."
+      },
+      {
+        "p": "When Gage canceled the colonial legislature's session, the elected representatives simply met anyway, first at Salem and then Concord, and reorganized themselves as the Massachusetts Provincial Congress with John Hancock, the wealthy Boston merchant, as president. It was an illegal body by royal lights, and the towns obeyed it as if it were the lawful government, because to them it was. It created a Committee of Safety with the power to call out the militia, and a Committee of Supplies that began stockpiling arms, powder, and food, much of it at Concord. To keep the militia ready for the next alarm, the Provincial Congress directed the regiments to hold roughly a quarter to a third of their men prepared to muster at a minute's warning. These were the minute companies, the minutemen."
+      },
+      {
+        "p": "By the start of 1775, the situation was plain even if nobody said it aloud. Royal government functioned inside Boston, under the protection of Gage's regiments, and essentially nowhere else in the province. Gage spent the cold months probing for the colonists' stockpiled arms, and a powder-and-cannon expedition toward Salem in February ended in a tense standoff with no blood shed. The countryside had slipped out of his hands. What remained was the question of when, not whether, the friction would finally produce a shot."
+      },
+      {
+        "h": "The battles as news",
+        "eyebrow": "Two days of fighting change what people will say out loud"
+      },
+      {
+        "p": "It produced one on 19 April 1775, at Lexington and Concord. British regulars and Massachusetts militia killed one another, the king's army fell back into Boston, and within hours the New England militia had it under siege. That is the whole of the event for this chapter. The fighting belongs to another telling. What matters here is what the *news* did, and the news moved faster and changed more than the muskets."
+      },
+      {
+        "p": "The Massachusetts Committee of Safety sent fast courier riders galloping south within hours, carrying a copied letter, the \"Lexington Alarm,\" that was forwarded from town to town down the seaboard. It reached New York in days, Philadelphia in under a week, and the whole coast from Maine to Georgia in roughly twenty days. The news even reached London first in the patriots' own version: a fast Salem schooner carried the Massachusetts account across the Atlantic ahead of Gage's official dispatch, so that when word arrived in London on 28 May, the first story the British government heard about Lexington was the American one."
+      },
+      {
+        "p": "The effect of that news was to collapse the middle ground. Militias mobilized in every colony, royal governors began losing their grip, and several would eventually flee to warships in their harbors. The question colonists argued over changed from \"how do we win back our rights?\" to \"how do we fight a war we never voted for?\" And yet, crucially, most of them still framed the fighting exactly as they always had: as loyal subjects defending themselves against a ministry's army, not as a nation fighting for independence. They were shooting at the king's soldiers and still petitioning the king. That contradiction was about to get sharper."
+      },
+      {
+        "p": "It got sharper on 17 June 1775, at Bunker Hill. The British took the hill overlooking Boston, but at a cost of roughly a thousand casualties, an appalling share of them officers. General Henry Clinton, surveying the price, called it \"a dear bought victory.\" Dr. Joseph Warren, the author of the Suffolk Resolves, was killed in the redoubt. Again the event is a single beat; the politics are the point. In Britain the casualty lists did not soften opinion. They hardened it. The cost of one New England hilltop convinced the king and his ministers that they were no longer dealing with wayward subjects to be coaxed back but with enemies to be beaten. Gage's recall went out within days of his report arriving, and the appetite for compromise died in London at the precise moment a peace offering from the colonies was crossing the ocean toward it."
+      },
+      {
+        "h": "Both directions at once",
+        "eyebrow": "A petition and a declaration of war, signed the same week"
+      },
+      {
+        "p": "That peace offering came from the Second Continental Congress, which had convened on 10 May 1775 in the Pennsylvania State House in Philadelphia, three weeks after Lexington. The room had some new faces. Benjamin Franklin was back from a long stint in London. John Hancock arrived from Massachusetts and became president on 24 May when Randolph was recalled to Virginia. From late June, a tall, quiet Virginian named Thomas Jefferson took his seat. The Congress adopted the New England army besieging Boston as a Continental Army and gave its command to George Washington, whose war begins elsewhere."
+      },
+      {
+        "p": "The Second Congress is best understood by a single, almost unbelievable fact: in the first week of July 1775, it adopted two documents that point in opposite directions, and it meant both of them."
+      },
+      {
+        "p": "The first was the Olive Branch Petition, adopted on 5 July and drafted chiefly by John Dickinson, the Pennsylvania lawyer who led the moderates. It is worth being clear about Dickinson, because the easy story makes men like him into cowards, and he was nothing of the kind. He professed the colonies' deep attachment to George III, laid the blame for the conflict squarely on the king's ministers, and begged the king himself to open a path back to reconciliation. Many delegates thought the petition useless. They signed it anyway, to keep the moderates and the wavering middle colonies inside the cause. The very next day, on 6 July, the same Congress adopted the Declaration of the Causes and Necessity of Taking Up Arms, a document justifying the war it was now fighting. Americans, it said, would die free rather than live enslaved. And in nearly the same breath it explicitly disavowed independence, denying any \"ambitious design of separating from Great-Britain, and establishing independent states.\" The irony runs deep, because the Declaration of Causes was drafted by Jefferson and then heavily revised by Dickinson, so the same moderate hand shaped both the plea for peace and the justification for war. Picture Dickinson at his desk that week, sharpening the language of a war declaration in one stack of papers and the language of unbending loyalty in the other, believing every word of both. Loyal subjects, fighting the king's army, swearing they did not want to leave the empire: that was the Congress in July 1775, holding both directions at once."
+      },
+      {
+        "p": "The petition's fate settled the matter, though it would take months for everyone to admit it. A petition was the formal legal channel a subject still had to his king, the constitutional thread that said *we are inside your protection and you owe us a hearing*, which is exactly why what happened next stung. Richard Penn, a grandson of Pennsylvania's founder, and Arthur Lee carried the Olive Branch Petition to London and presented it to the colonial secretary, Lord Dartmouth, on 1 September 1775. They were told that because the king had not received it on his throne, no answer would be given. He would not read it at all. And there was a worse fact in the timing: the king had already proclaimed the colonies in open rebellion nine days *before* the petition was even delivered. The olive branch had been answered before it arrived."
+      },
+      {
+        "h": "The door closes from London",
+        "eyebrow": "Each American step toward independence is met, or beaten, by a step from London"
+      },
+      {
+        "p": "Every move the colonists made toward independence was matched, and often preceded, by a move from London that made reconciliation harder. It was not the radicals who kept removing the middle ground. It was the king's own government, acting on the advice of his ministers and with the votes of his Parliament, which is to say the whole machinery of British rule turning against the colonies at once."
+      },
+      {
+        "p": "On 23 August 1775, George III issued a Proclamation for Suppressing Rebellion and Sedition, declaring the American colonies in \"open and avowed rebellion\" and commanding loyal subjects and officers to put it down and to report anyone carrying on \"traitorous correspondence\" with the rebels. It had been drafted before the Olive Branch Petition even reached the government. In effect, the proclamation *was* the king's answer to a petition he refused to read."
+      },
+      {
+        "p": "Then, on 26 October 1775, George III opened Parliament with a speech that said the quiet part out loud. The rebellion, he declared, was \"manifestly carried on for the purpose of establishing an independent Empire,\" the work of a \"desperate conspiracy\" whose professions of loyalty were insincere, \"meant only to amuse.\" He announced enlarged forces and \"friendly offers of foreign assistance,\" the opening that would soon bring German troops into the fight against British subjects: soldiers rented from German princes, the largest contingent supplied by the ruler of Hesse-Cassel, which is why the colonists would call them all Hessians. The irony is exact. In October 1775 the king was accusing the Americans of fighting for independence while they were still officially denying it in writing. He called it before they did, and by treating them as a nation already, he helped make them one."
+      },
+      {
+        "p": "The last bolt slid home on 22 December 1775, when the Prohibitory Act received royal assent. Parliament outlawed all trade with the thirteen colonies, blockaded their ports, and declared American ships and cargoes lawful prize \"as if open enemies,\" with captured crews liable to be forced into service. Britain had formally placed the colonies outside its protection. When the text reached America early in 1776, John Adams read it for exactly what it was. The act, he wrote, \"throws thirteen colonies out of the royal protection, levels all distinctions, and makes us independent in Spight of all our supplications and Entreaties.\" He even joked that Parliament had done the colonists' work for them, passing what amounted to an act of independence so that the formal break could come \"from the British Parliament rather than the American Congress.\" Add the sight of American towns in flames, the Royal Navy having burned Falmouth in Maine in October and Norfolk in Virginia on New Year's Day 1776, and the word \"protection\" began to sound like a bad joke. London kept proving the radicals' case for them."
+      },
+      {
+        "h": "Common Sense",
+        "eyebrow": "A failed Englishman gives the unthinkable a plain-English voice"
+      },
+      {
+        "p": "Into that opening walked the unlikeliest persuader in the story. On 30 November 1774, Thomas Paine came ashore at Philadelphia carrying almost nothing but an introduction from Benjamin Franklin, whom he had met in London. He was thirty-seven and, by every measure his world used, a failure: born in Thetford, England, the son of a staymaker (a maker of the whalebone stays that stiffened women's corsets), he had been a sailor, a schoolteacher, a shopkeeper, and twice a dismissed excise officer (a tax collector), and he arrived bankrupt, his first wife dead and his second marriage dissolved. Within months he was editing a magazine, and within a year he would write the pamphlet that changed the argument."
+      },
+      {
+        "p": "On 10 January 1776, in Philadelphia, the printer Robert Bell ran off a pamphlet (a short, cheap, unbound booklet, the era's mass-market op-ed) that carried no author's name, signed only \"Written by an Englishman.\" Paine had wanted to call it \"Plain Truth\"; his friend Benjamin Rush suggested a better title. They called it *Common Sense*."
+      },
+      {
+        "p": "Every patriot pamphlet before it had attacked Parliament's policies while professing loyalty to the king. Paine did something nobody in the colonial argument had quite done: he attacked monarchy itself. He argued that hereditary kingship was absurd on its face and unsupported by Scripture, walking his readers through the Old Testament in the plain cadence of a dissenting sermon, because the Bible was the one book his entire audience had read. He demystified the English crown's origins, describing William the Conqueror as \"a French bastard landing with an armed banditti.\" He stripped George III of his dignity, calling him not the father of his people but \"the Royal Brute of Britain.\" And he made separation feel less like treason than like common sense, the title doing its work. The relationship between an island and a continent was simply backward: \"Small islands not capable of protecting themselves,\" he wrote, \"are the proper objects for kingdoms to take under their care; but there is something very absurd, in supposing a continent to be perpetually governed by an island.\""
+      },
+      {
+        "p": "The cause of America is in a great measure the cause of all mankind. — Thomas Paine, Common Sense, 1776",
+        "q": true
+      },
+      {
+        "p": "He told his readers their fight belonged to the whole world, not just to them. He told them reconciliation was finished, in the voice of nature itself: \"The blood of the slain, the weeping voice of nature cries, ''TIS TIME TO PART.'\" And in place of a king he offered a republic, where \"a government of our own is our natural right\" and, in a phrase that turned the whole order upside down, \"in America THE LAW IS KING.\" In an appendix added in February he handed the colonists a sense of their own scale no one had given them before: \"We have it in our power to begin the world over again.\""
+      },
+      {
+        "p": "The style was the weapon. Paine wrote in short, declarative, un-Latined sentences, citing Scripture and ship-rigging instead of John Locke and legal precedent. Contemporaries felt the difference at once. George Washington wrote that the \"sound Doctrine, and unanswerable reasoning\" of *Common Sense* would \"not leave numbers at a loss to decide upon the Propriety of a Separation,\" and a few months later reported that it was \"working a powerful change\" in the minds of many men in Virginia."
+      },
+      {
+        "p": "How many copies it sold is a question worth getting right, because the legend has run wild. The old textbook figure of half a million is inflated and abandoned; Paine himself claimed over a hundred thousand in three months, and modern scholars suspect far fewer, perhaps seventy-five thousand or less in the first year. But the honest version needs no inflated number. *Common Sense* went through some twenty-five printings in a single year, in more than a dozen towns, and was read aloud in taverns and army camps when an ordinary pamphlet sold one or two thousand copies in its whole life. By any measure of its own day, it was the bestselling thing that had ever been printed in America. Paine took no profit from it; he gave his author's share to the cause."
+      },
+      {
+        "p": "It did not convert everyone, and the most telling holdout was a man who already wanted independence. John Adams admired the assault on monarchy but recoiled from Paine's plan for governing the new republic, a single all-powerful assembly with nothing to check it, and wrote his own pamphlet, *Thoughts on Government*, partly to answer it. That is the measure of how radical *Common Sense* was: it was too radical even for the radicals."
+      },
+      {
+        "fig": "/war-img/rev-idea-commonsense.jpg",
+        "cap": "The title page of Common Sense, printed in Philadelphia by Robert Bell on 10 January 1776 and published anonymously, \"Written by an Englishman.\" Paine attacked not just Parliament's policies but monarchy itself, in plain language built for reading aloud. Some twenty-five printings appeared within a year, making it the bestselling thing yet printed in America.",
+        "credit": "Common Sense title page, R. Bell printing, 1776 (Library of Congress) · public domain"
+      },
+      {
+        "h": "The cascade of spring",
+        "eyebrow": "Colony by colony, from concur to propose to resolve"
+      },
+      {
+        "p": "After *Common Sense*, the persuading was finished mostly by bad news. The text of the Prohibitory Act arrived in February and March. Then came confirmation that the crown had hired thousands of German mercenaries, news firming up through the spring. For many colonists who had clung to reconciliation, hired foreign soldiers turned loose on British subjects was the last straw, and the colonies began, one after another, to instruct their delegates."
+      },
+      {
+        "p": "The pressure ran upward as much as down. In town meetings, county committees, and the new provincial congresses, ordinary people were passing their own resolutions and sending them to the men they had elected, telling their delegations in Philadelphia which way to vote. North Carolina went first. On 12 April 1776, its provincial congress at Halifax (the colony's own extralegal assembly, meeting because royal government had collapsed), eighty-three delegates voting unanimously, empowered its delegates in Philadelphia to \"concur with the delegates of the other Colonies in declaring Independency.\" Note the careful word: *concur*, not propose. North Carolina would join such a vote, but it would not lead. Virginia went further. On 15 May the Virginia Convention at Williamsburg instructed its delegation to *propose* independence outright, and set about writing its own constitution. That instruction is why the motion, when it came, came from a Virginian."
+      },
+      {
+        "p": "Congress itself took a half-step in the same direction the same week. On 10 May it resolved that any colony whose government was inadequate should form a new one \"sufficient to the exigencies of their affairs,\" which sounded innocent enough. The bite was in a preamble (the introductory \"whereas\" statement that gives the reasons for what follows) that John Adams wrote and the Congress passed on 15 May, while Dickinson happened to be absent. Because the king had rejected reconciliation and was hiring foreign troops, it declared, \"the exercise of every kind of authority under the said crown should be totally suppressed.\" Royal authority, suppressed by the reasoning bolted onto a modest resolution. Adams knew what he had done. \"This Day,\" he wrote to James Warren, \"the Congress has passed the most important Resolution, that ever was taken in America.\" Through May and June the instructions kept coming, pushing delegation after delegation toward independence, while the Pennsylvania and Maryland delegations remained barred from voting for it into late June."
+      },
+      {
+        "fig": "/war-img/rev-idea-trumbull.jpg",
+        "cap": "John Trumbull's famous canvas, painted in 1818 and now in the Capitol rotunda, is the image most Americans picture for the Declaration, and it shows the wrong moment: not a signing but the drafting committee presenting its work on 28 June 1776, and it gathers in one room men who were never all there together. The decision came on 2 July, the text on 4 July, and the signing mostly weeks later.",
+        "credit": "John Trumbull, \"Declaration of Independence,\" 1818 · public domain"
+      },
+      {
+        "p": "Then, on 7 June 1776, Richard Henry Lee of Virginia rose in Congress and moved the resolution his colony had told him to make, and John Adams seconded it. \"Resolved,\" it ran, \"That these United Colonies are, and of right ought to be, free and independent States, that they are absolved from all allegiance to the British Crown, and that all political connection between them and the State of Great Britain is, and ought to be, totally dissolved.\" The unthinkable was now a motion on the floor. But the middle colonies still could not vote for it, so on 10 June the Congress postponed the decision three weeks, to the first of July, to let those delegations get fresh instructions from home. And it did one thing more, so that no time would be lost if the vote carried: it appointed a committee to draft a declaration in the meantime."
+      },
+      {
+        "h": "The Declaration",
+        "eyebrow": "A felicitous pen, a passage cut, and the wrong date for a holiday"
+      },
+      {
+        "p": "The committee, appointed on 11 June, had five members: Thomas Jefferson, John Adams, Benjamin Franklin, Roger Sherman of Connecticut, and Robert R. Livingston of New York. They gave the actual writing to Jefferson, thirty-three years old and known for a graceful pen. (Adams, telling the story decades later, remembered urging Jefferson to take the job with the line \"You can write ten times better than I can,\" though Jefferson disputed the details of that memory.)"
+      },
+      {
+        "p": "Jefferson drafted the document in the rented second-floor parlor of a young bricklayer's new house at Seventh and Market Streets, writing on a portable lap desk of his own design. For most of June he sat alone in that hired room, building the case sentence by sentence while a war went on around him. Franklin and Adams made light edits; the committee reported the draft on 28 June. What Jefferson produced has three parts. It opens with a theory of government, the famous creed that \"all men are created equal,\" endowed by their Creator with \"certain unalienable Rights,\" among them \"Life, Liberty and the pursuit of Happiness,\" to secure which governments are instituted, \"deriving their just powers from the consent of the governed,\" and which the people may alter or abolish when they turn destructive. Then comes the indictment: twenty-seven grievances, every one aimed at the king. \"He has refused... He has dissolved... He has plundered our seas, ravaged our Coasts, burnt our towns.\" And then the conclusion, folding in Lee's resolution almost word for word: these colonies \"are, and of Right ought to be Free and Independent States,\" their signers pledging \"our Lives, our Fortunes and our sacred Honor.\""
+      },
+      {
+        "p": "The relentless focus on the king can mislead. The historical George III was a constitutional monarch backing the policies of his ministers and his Parliament, not a lone tyrant inventing a crisis, and historians largely clear him of personally engineering it (though after Lexington he was genuinely the hardliner). The Declaration's parade of royal villainy was a deliberate legal strategy, not a biography. By 1776 the colonists denied that Parliament had ever held authority over them at all, so there was no point indicting it; the king was the last constitutional thread that still tied them to Britain, and the document's whole job was to cut it."
+      },
+      {
+        "p": "When Congress took up the draft from 2 to 4 July, it cut roughly a quarter of Jefferson's words, tightening as it went. The longest single deletion was Jefferson's furious 168-word attack on the African slave trade, which blamed the king for waging \"cruel war against human nature itself, violating its most sacred rights of life & liberty in the persons of a distant people who never offended him,\" carrying them \"into slavery in another hemisphere,\" an \"execrable commerce.\" Jefferson himself recorded why it died: it was struck \"in complaisance to South Carolina and Georgia, who had never attempted to restrain the importation of slaves, and who on the contrary still wished to continue it,\" and because, he added, \"our northern brethren also I believe felt a little tender under those censures; for tho' their people have very few slaves themselves yet they had been pretty considerable carriers of them to others.\""
+      },
+      {
+        "p": "The contradiction has to be named, and named flatly. The man who wrote that all men are created equal enslaved more than six hundred people across his lifetime. The Congress that proclaimed unalienable rights to liberty cut the one passage condemning the slave trade in order to keep the slave-trading colonies, north and south, inside the new nation. And the cut passage was itself a piece of evasion, blaming the king for an institution the colonists profited from and chose to keep. The nation declared itself free in a document edited to protect slavery. That reckoning has its own chapter later. Here it is enough to say it plainly and not look away."
+      },
+      {
+        "p": "The votes themselves are a story the holiday gets wrong. On 1 July the Congress first took up the question in a committee of the whole, the looser, relaxed-rules format it used for debating before any count was put on the record. In that preliminary tally, nine colonies stood for independence. Pennsylvania and South Carolina were against; Delaware's two present delegates split one and one; and New York abstained, its delegates bound by year-old instructions that forbade a yes. An abstention is not a no: New York's men declined to vote either way, which meant no colony was yet recorded against independence in the vote that would matter. Overnight, Caesar Rodney of Delaware, a delegate who had been away on business, rode some seventy or eighty miles through a thunderstorm to reach Philadelphia in time, arriving on 2 July still in his boots and spurs, and broke his colony's tie for independence. South Carolina swung over for the sake of a unanimous front. And in Pennsylvania, Dickinson and Robert Morris, who could not bring themselves to vote yes, deliberately stayed away so as not to be counted, letting their delegation carry three to two in favor. (Note the two kinds of silence: New York was present and abstaining, on the record; Dickinson simply absented himself.) So on 2 July 1776 the Continental Congress voted for independence, twelve colonies to none, with New York abstaining. Legally, that was the moment. That was Independence Day."
+      },
+      {
+        "p": "John Adams thought so. Writing to his wife Abigail on 3 July, he predicted that \"the Second Day of July 1776, will be the most memorable Epocha, in the History of America,\" and that \"It ought to be solemnized with Pomp and Parade, with Shews, Games, Sports, Guns, Bells, Bonfires and Illuminations from one End of this Continent to the other from this Time forward forever more.\" He was right about everything except the date. The country would celebrate two days off, on 4 July, the day Congress finished editing and adopted the *text* of the Declaration (adopted meaning voted to approve the wording, which is a separate act from signing it) and ordered it printed. Adams was clear-eyed about the cost of what he was celebrating, too: \"I am well aware of the Toil and Blood and Treasure, that it will cost Us to maintain this Declaration, and support and defend these States.\""
+      },
+      {
+        "p": "The rest happened quickly. On the night of 4 July, the Philadelphia printer John Dunlap ran off roughly two hundred broadside copies (a broadside being a large single sheet printed on one side, made to be posted and read in public), the first printing of the Declaration, and these went by express to the states and the army. New York's convention finally assented on 9 July, and because New York had only abstained rather than voted no, that late yes left no colony on record against, letting Congress have the document engrossed (copied in formal script onto parchment as the official record) on 19 July as \"the unanimous declaration of the thirteen united states of America.\" That parchment was signed mostly on 2 August, not on the Fourth, with a few members signing later still, one as late as November, fifty-six signers in all. So the famous date marks the approval of the words, not the day the names went on. (The familiar Franklin line about how the signers \"must all hang together, or most assuredly we shall all hang separately\" is a charming legend that was not attached to him until decades later, but the gallows mood behind it was real: treason carried death, and every man who signed knew it.)"
+      },
+      {
+        "p": "The Declaration was read aloud first on 8 July, by Colonel John Nixon, a Philadelphia militia officer, in the State House yard in Philadelphia, to ringing bells and cheers. The next day it was read to Washington's army in New York, and that evening the city gave the Revolution one of its most vivid images. Soldiers and townspeople streamed down to Bowling Green, where a gilded lead statue of George III on horseback had stood since 1770, threw ropes over the king and his mount, and hauled the whole thing crashing off its pedestal. They knocked the head loose, broke the figure apart, and carted the pieces away. Most of the lead was hauled to Litchfield, Connecticut, and melted into musket balls, the recorded tally running to better than forty-two thousand cartridges. The king of England, cast into ammunition to be fired at the king's own army."
+      },
+      {
+        "fig": "/war-img/rev-idea-statue.jpg",
+        "cap": "The crowd hauling George III's gilded statue off its pedestal at Bowling Green in New York, ropes thrown over the king on his horse, after the Declaration was read to Washington's troops on 9 July 1776; most of the lead was carted to Connecticut and melted into musket balls. The canvas was painted more than eighty years after the event and is a romantic later imagining that stages details wrong (the real crowd was mostly soldiers and workmen), but the core fact holds: a king's image became the ammunition fired at his army.",
+        "credit": "Johannes A. Oertel, \"Pulling Down the Statue of King George III, N.Y.C.,\" c. 1859 · public domain"
+      },
+      {
+        "p": "And so the thing that had been unthinkable in a Philadelphia guildhall in the autumn of 1774 was, by the high summer of 1776, official. Thirteen colonies now called themselves states, at war with their king, with a creed on parchment they would spend centuries arguing about. But declaring independence settled almost nothing on the ground. A vote in Philadelphia did not make a single farmer in the Carolina backcountry or a single merchant on the Hudson choose a side. The Declaration announced a nation; it did not produce one. What it produced, in every town and along every road, was the harder and more intimate question of who you were now: a question to be answered not by Congress but by neighbors, looking hard at one another across fences and pews and deciding, one by one, whose side they were on."
+      }
+    ]
+  },
+  "civil-war-among-themselves": {
+    "eyebrow": "The Revolution was the first American civil war, fought by Britons against Britons, Americans against Americans, fathers against sons",
+    "title": "A Civil War Among Themselves",
+    "blocks": [
+      {
+        "p": "In the summer of 1776 the thirteen colonies stopped calling themselves colonies and started calling themselves states, and that single change in vocabulary forced a question down onto every household in America: which side are you on? Somewhere in New Jersey that year a father held a royal commission while his own father drifted toward independence, and the two of them never spoke as friends again. The political story (Chapter 5) ends with the parchment and the cheers. The story underneath it was just beginning, and it was not a story about Americans against Britain. It was a story about Americans against each other."
+      },
+      {
+        "p": "In 1775 almost everyone on the field, in both armies, was a British subject. The argument was conducted in the language of the rights of Englishmen, by men who had grown up under the same king. Edmund Burke, the British statesman who defended the Americans in Parliament, never once called it \"the American Revolution.\" He called it the American war, a civil war inside the empire, and from the first shots he doubted the empire could ever be whole again. Officers and politicians on both shores reached for the same adjective for it: unnatural. A war among one people."
+      },
+      {
+        "p": "It was a civil war three ways at once. Britons against Britons, in the sense Burke meant. Americans against Americans, because a large minority of the colonists never wanted independence at all and a good number of them took up arms to stop it. And families against themselves, split down the middle by the same quarrel that split the country, sometimes never to be repaired."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/idea-of-independence",
+        "plabel": "The Idea of Independence"
+      },
+      {
+        "h": "The fifth of the country that lost",
+        "eyebrow": "Who the Loyalists actually were, and the one-third line that is wrong"
+      },
+      {
+        "p": "Start with a number, because the number is where the myths live. You have probably heard that John Adams said the Revolution split Americans into thirds: a third for it, a third against it, a third sitting on the fence. It is one of the most repeated lines in American history, and it is wrong. Adams did write about thirds, in a letter to James Lloyd in January 1815, but he was describing how Americans had felt about the *French* Revolution in the 1790s, not their own in the 1770s. The line gets lifted out of its letter, pointed at the wrong revolution, and passed along as fact. It is not a description of 1776. It is a misquotation."
+      },
+      {
+        "p": "So put it down and reach for the real estimate. The standard quantitative study, by the historian Paul H. Smith, counted Loyalists from their militia rolls, their regimental enlistments, their compensation claims, and the records of those who fled, and arrived at roughly a fifth of the white population, with other scholars landing in the same fifteen-to-twenty-percent neighborhood. (Count the enslaved into the total and the figure drops to about a sixth, a different denominator measuring a different thing, so a fifth of *white* Americans is the careful version.) Patriots were the larger group, but not an overwhelming majority. And the largest group of all may have been neither. The historian Alan Taylor, who argues this was genuinely America's first civil war, sketches a rough split of about a fifth Loyalist, two-fifths Patriot, and two-fifths a wavering middle who chose a side by which army was nearest, which way their neighbors leaned, and what their own families were doing, rather than by principle. That middle is the biggest faction in the story and the one most easily forgotten, because it left the fewest speeches behind."
+      },
+      {
+        "p": "The Loyalists called themselves Loyalists. Their enemies called them Tories, borrowing the name of a British political party and flinging it as an insult, the same way \"Whig,\" another borrowed party name, got pinned on the patriots. The patriots coined \"Tory\"; the Loyalists coined nothing kinder back. Both words are in the sources and both will appear here, but it is worth knowing which side meant which as an insult."
+      },
+      {
+        "p": "Who were they? Not one kind of person, because the easiest mistake is to imagine the Loyalist as a single cartoon. They were royal officeholders, governors and judges and customs men whose salaries and oaths ran straight to the Crown. They were Anglican clergy, many of whom had literally sworn allegiance to the king as the head of their church, and the parishioners who sat in their pews, especially in New England and New York where Anglicans were a self-conscious minority surrounded by other faiths. They were recent immigrants, above all the Scottish Highlanders of the Carolinas and the Mohawk Valley, many of whom had sworn loyalty to the Crown after their own failed rebellion a generation before and now held their land on the king's terms. They were merchants whose credit and trade tied them to London. They were tenant farmers in the Hudson Valley who chose the king partly to spite the great patriot landlords who had crushed their rent protests in the 1760s. And tens of thousands of enslaved people calculated, correctly, that the British were the side offering freedom: Lord Dunmore, the royal governor of Virginia, had promised liberty in November 1775 to any enslaved person who would leave a rebel master and serve the king, which made Loyalism, for them, the emancipation side. (Their war is large enough to need its own telling, in the chapter on slavery and the Revolution; note here only that the offer was one of the strongest pulls toward the king's lines that the war produced.)"
+      },
+      {
+        "p": "And some of them were simply people who thought the patriots were wrong. This is the category the patriotic version of the story leaves out, and it is the one that matters most for understanding the war as a war between reasonable people. Peter Van Schaack of New York is the face of it. A lawyer who read the same Enlightenment philosophers the patriots read, he agreed that the taxes were unjust and still concluded that the case for armed rebellion against a lawful king had not been made: better to keep petitioning an empire that had protected the colonies than to tear it apart, and a mob enforcing virtue at the end of a rope frightened him more than a Parliament three thousand miles away. New York banished him for it, and he spent the war in exile in London, declining to act against his own country even as it punished him. Men like Van Schaack were not cowards and they were not traitors. They lost, which is a different thing."
+      },
+      {
+        "p": "Loyalism was not spread evenly across the map. It ran strongest in the middle colonies and the Deep South: in New York, above all in the city, on Long Island, and up the lower Hudson; in New Jersey; in Georgia; and in the South Carolina backcountry. New York was the single largest source of soldiers for the king. It ran weakest in New England and Virginia, where the patriot grip was firm. In the South the line often fell between the backcountry and the tidewater, with up-country settlers taking the king's side against the coastal gentry who ran the rebellion, though that was a tendency and not a law: the southern backcountry also bred some of the most ferocious patriot militia in America, which is exactly why the fighting there became what it became."
+      },
+      {
+        "p": "How many of them actually fought? Over the whole war, about nineteen thousand Americans enlisted in the regular Loyalist regiments, the \"provincial line.\" That meant they were the Loyalist regular army, full-time soldiers organized and paid like British redcoats and serving on the same regular-army footing, distinct from the part-time local militia, and they were organized into some fifty units. At no single moment were there more than about ten thousand of them under arms at once. Beyond the regulars came thousands more in local militia, irregular bands, and the unglamorous work of guiding and spying, a number no one ever counted. These were not a handful of bitter aristocrats. This was an army's worth of Americans fighting other Americans."
+      },
+      {
+        "h": "The Franklins",
+        "eyebrow": "The most famous American family in the world, broken for good"
+      },
+      {
+        "p": "If you want to feel what the war did to families, you do not need a stranger. You can use the most famous American who ever lived."
+      },
+      {
+        "p": "Benjamin Franklin had one surviving son, William, born out of wedlock around 1730 and raised in Benjamin's own house. For most of their lives they were not just father and son but partners. William was at his father's side through the years in London, through the experiments, through the long campaign to defend the colonies inside the empire. And in 1763, while the two of them were together in England at the height of their closeness, William was made royal governor of New Jersey. He owed the post, in a sense, to being Benjamin Franklin's son."
+      },
+      {
+        "p": "When the crisis came, the son stayed the king's man. While his father moved toward independence, William held his royal commission and tried to keep New Jersey loyal. In January 1776 the militia put him under watch; in June, after he attempted to convene the royal legislature one last time, the New Jersey Provincial Congress declared him \"an enemy to the liberties of this country,\" arrested him, and sent him to Connecticut. He spent two years a prisoner there. When he was caught issuing pardons and corresponding for the Crown, they gave him eight months of solitary confinement in the Litchfield jail, a filthy cell with no writing materials. While he was held, his wife Elizabeth died in British-occupied New York, and his request to go to her was refused. He never saw her again."
+      },
+      {
+        "p": "Exchanged at the end of 1778 for a captured patriot official, William went to occupied New York City, the Loyalist capital, and there he did not retire quietly into exile. He became president of the Board of Associated Loyalists, an organization that sent Loyalist raiders out of New York to plunder and kill along the New Jersey and Connecticut shores. Under his board, in April 1782, Loyalist irregulars would hang a captured patriot militia captain on a New Jersey beach (a killing we will come back to). The break between father and son was now not just political. It was blood spilled."
+      },
+      {
+        "p": "In August 1782 William sailed for Britain. He never lived in America again."
+      },
+      {
+        "p": "The Franklins were the most famous case, not the only one. In New York, the Morris family of Morrisania managed to put nearly every position in the war under one roof. Lewis Morris signed the Declaration of Independence. His half-brother Gouverneur Morris helped write the Constitution. Another half-brother, Staats Long Morris, was a major-general in the British army, posted by the War Office to a distant garrison on Minorca specifically so that he would not have to fight on his native soil. And their mother, Sarah, was a Loyalist who handed the family estate over to the British military once they occupied New York. One household: a Signer, a framer, a British general, and a Loyalist matriarch. In Massachusetts the split landed on the Quincy brothers with an almost unbearable neatness. Samuel Quincy had been the prosecutor at the Boston Massacre trials (Chapter 3), the man arguing the Crown's case against the soldiers; his brother Josiah Quincy Jr. had been on the defense, helping John Adams win the soldiers a fair hearing. When the war came it reversed them. Samuel, who had prosecuted for the Crown, became a Loyalist and sailed for England in 1775; his wife disagreed and stayed behind with the children, and Samuel never came home. Josiah, who had defended the king's soldiers, was the patriot, and died at sea that same spring returning from a political mission, the two brothers passing in opposite directions across the same ocean."
+      },
+      {
+        "fig": "/war-img/rev-civilwar-wfranklin.jpg",
+        "cap": "William Franklin, Benjamin Franklin's only son, the last royal governor of New Jersey, and the patriot leader's most painful enemy. He stayed loyal to the king his father was abandoning, ran a Loyalist raiding board out of occupied New York, and died in London in 1813, never having returned to America. The two never reconciled.",
+        "credit": "William Franklin, attributed to Mather Brown, late 1780s · public domain"
+      },
+      {
+        "h": "The machinery of choosing sides",
+        "eyebrow": "How a country with no police made everyone declare (committees, oaths, confiscation, tar)"
+      },
+      {
+        "p": "Nobody got to stay on the fence for long, and the reason is worth understanding because it is the most uncomfortable part of the patriot story. The Revolution did not win allegiance only by persuasion. It built machinery to extract it, and the machinery was coercive by design."
+      },
+      {
+        "p": "It began with the committees. To enforce the boycott of British goods that the Continental Congress had organized in 1774 (Chapter 5), towns and counties elected committees of inspection, observation, and safety. These were not lynch mobs; they were elected or quasi-elected local bodies, the seed of self-government. But their job quickly grew beyond watching what people bought. They summoned suspects, demanded public recantations and printed them in the newspapers, decided who could travel, disarmed the people they called \"disaffected,\" and recommended arrests. By 1775 and 1776, across most of the country, these committees *were* the government, and they were watching their neighbors."
+      },
+      {
+        "p": "Then came the oaths. Every one of the thirteen states required a loyalty oath of its citizens, and eleven of them required swearing off allegiance to the king outright, an oath of abjuration, which simply means an oath renouncing the king; New Jersey had one in place by September 1776. Refusing to swear had a price, and the price was a deliberate machine for making neutrality impossible. A non-juror, a man who refused the oath, could be disarmed; militia officers were empowered to walk into his house and take his guns. He could be taxed at double or triple the normal rate; Maryland used treble assessments. He could lose the vote, lose the right to hold office, sit on a jury, sue in court, buy or sell land, or practice a profession. In Massachusetts a man who refused the oath could be jailed and shipped out of the state within forty days, at his own expense. You did not have to fight for the king to be punished. You only had to decline to swear against him."
+      },
+      {
+        "p": "Then came confiscation. Every state passed laws to seize Loyalist property, and they used them. New York's Forfeiture Act of 1779 was the most aggressive: it named prominent Loyalists, banished them, declared that a named Loyalist who returned could be put to death by order of the legislature, and put their estates up for sale through state commissioners. Massachusetts banished some three hundred named Loyalists, headed by the former royal governor, and made the return of a banished person punishable by death. There is no reliable single figure for the total value of what was taken; the best measure we have is what the Loyalists themselves would later claim back from the British government, which ran to millions of pounds. The point is the scale: this was not a few estates here and there. It was a systematic transfer of property out of the hands of the losing side."
+      },
+      {
+        "p": "The machinery's sharpest edge was death, and it was used. In Philadelphia in November 1778, Pennsylvania hanged two Quakers, John Roberts and Abraham Carlisle, convicted of treason for aiding the British during their occupation of the city, despite a petition for mercy signed by hundreds of their neighbors. Executions like that were rare. The threat behind them was not."
+      },
+      {
+        "p": "And then, lower in the machinery, was the violence done to the body. Tarring and feathering was the Revolution's signature crowd punishment, usually either waved away as rough humor or inflated into murder, and it was neither. Pine tar was heated until it would pour, the victim was stripped, the scalding tar was applied to bare skin, feathers were thrown on, and the man was carted through the streets as a spectacle. It was torture and it was theater. It was also, in the great majority of cases, not fatal: a survey of more than seventy recorded incidents found no deaths from the tarring itself. But \"not fatal\" is a long way from harmless, and the worst-documented case, the customs officer John Malcolm in Boston, shows what it actually did. A crowd dragged him out one winter night, stripped him, poured scalding tar on his bare skin, feathered him, and carted him through the cold for hours, whipping him and threatening to hang him and to cut off his ears until he cursed the king. When he finally warmed up afterward, his tarred flesh peeled off in strips, and he was bedridden for some eight weeks. He had brought a measure of it on himself; he had clubbed a man in the street that day. And the man he had clubbed, watching the crowd's revenge go too far, tried to cover Malcolm with his own coat. Even in the cruelty there was a flash of the shared humanity that civil wars are supposed to extinguish. (Malcolm's tarring came in early 1774, a year before the war proper; it is the established practice the war then inherited and made worse.)"
+      },
+      {
+        "p": "All of that ran one direction where the patriots held the ground. Where the king's men held the ground, the same machine ran the other way, wearing a red coat. Occupied New York City was the Loyalist capital for the whole war, under military rule, its rebel-leaning residents subject to suspicion, surveillance, and seizure: the British army requisitioned rebel houses for quarters and supply and stripped abandoned patriot estates for the war effort. When the British took Charleston in 1780 they did the same in the South, running a commissioner of sequestered estates who seized rebel plantations and turned their crops and their enslaved labor to the Crown's account. The Board of Associated Loyalists that William Franklin came to lead sent raiders out to plunder and kidnap and kill in revenge. And the British built their own engine for abolishing neutrality, the exact mirror of the patriot oaths. After Charleston fell, the British commander Sir Henry Clinton issued a proclamation in June 1780 that voided the paroles most South Carolinians had taken and demanded a full oath of allegiance, including a willingness to bear arms for the king, on pain of being treated as a rebel. At a stroke he abolished sitting-it-out for everyone in the state. Where the patriot test oaths punished a man for declining to swear against the king, Clinton's oath punished a man for declining to take up arms for him; between the two instruments, the fence was closed from both ends. Men who had been quietly trying to stay neutral now had to fight for the king or be counted his enemy, and thousands who would have stayed home chose rebellion instead. It is widely judged one of the worst blunders Britain made in the entire war, and it is the sharpest irony in the whole story: the largest faction in America, the people who wanted only to be left out of it, were not allowed to be, by either side."
+      },
+      {
+        "h": "The dirty war",
+        "eyebrow": "The Neutral Ground, the war of neighbors, and the cycle of reprisal in the South"
+      },
+      {
+        "p": "There were two wars going on, and the second ran the entire length of the first. One was the war of the great battles, fought between Washington's Continentals and the British army, the war that gets the maps and the monuments. The other was a war of neighbors, fought in the gaps between the armies for the whole seven years, and it was uglier than most of what the regulars did to each other."
+      },
+      {
+        "p": "Its clearest landscape was the Neutral Ground. Between the British lines around Manhattan and the American lines up in the Hudson Highlands lay some thirty miles of Westchester County that belonged to neither, raided by both for seven years. Two kinds of armed bands worked it. The \"Cowboys\" were Loyalist-aligned cattle thieves who drove stolen livestock down to the British market in New York (the first time Americans used that word, for raiders, not ranchers). The \"Skinners\" were the label that stuck to the patriot-aligned plunderers, though that name owes as much to a novel written decades later as to anything anyone was called at the time. Bands on both sides robbed whoever they could catch, regardless of politics, and the plain truth of the Neutral Ground is that allegiance was mostly a pretext for the theft. By 1783 it was a wasteland of burned fences, stripped farms, and abandoned fields, its people robbed by whichever side reached them first."
+      },
+      {
+        "p": "New Jersey was so fought-over they called it the cockpit of the Revolution, the pit where the fighting never stopped. It changed hands and allegiance again and again, and the winter raiding of 1777, the Forage War of constant small-unit skirmishing over food and fodder, shaded into years of neighbor-on-neighbor violence, worst in Monmouth County. There a failed Loyalist uprising early in 1777 left armed Loyalists hiding in the pine woods, the \"Pine Robbers,\" part partisans and part bandits, kept alive by a British-held New York that paid hard money for Jersey timber and food. The patriots answered in kind. Monmouth's Association for Retaliation, formed in 1780 to protect its members, did its own share of plundering peaceable Loyalist neighbors and settling private scores under cover of the cause. This was the cycle that produced the killing William Franklin's board would approve: in April 1782, Loyalist raiders took the captured patriot captain Joshua Huddy from custody, rowed him to the Jersey shore, and hanged him on the beach in revenge for a Loyalist's death, leaving a placard on his body. Washington was so enraged he threatened to hang a British officer chosen by lot in return. The scandal helped finish off the Board of Associated Loyalists and sped William Franklin's departure for England. Neighbor killing neighbor, with the most famous patriot in the world's son signing off on it."
+      },
+      {
+        "p": "The worst of it was in the southern backcountry, and there the civil war stopped even pretending to be anything else. After Charleston fell and Clinton's no-neutrality proclamation lit the fuse, the Carolina and Georgia backcountry collapsed into open partisan war: Whig militia against Tory militia, neighbor against neighbor, each atrocity feeding the next. When General Nathanael Greene arrived to take command of the southern army at the end of 1780, he wrote to Alexander Hamilton in something close to disbelief."
+      },
+      {
+        "p": "The division among the people is much greater than I imagined and the Whigs and Tories persecute eachother, with little less than savage fury. There is nothing but murders and devastations in every quarter. — Nathanael Greene, 1781",
+        "q": true
+      },
+      {
+        "p": "The cycle had a shape, and naming the links is the only honest way to tell it, because each side's atrocity was the other side's justification. The British and Loyalists hanged captured patriots at Camden, Ninety Six, and Augusta. In May 1780 at the Waxhaws, the cavalry of Banastre Tarleton, a British officer commanding the British Legion (a unit whose name sounds imperial but was recruited almost entirely from American Loyalists), cut down a force of surrendering Virginia Continentals. Whether Tarleton ordered the killing is genuinely disputed: his horse went down, his men believed him killed, and control was lost. What is not disputed is that the patriots took from it a battle cry, \"Tarleton's quarter\" and \"Remember Buford,\" that licensed their own killing of men trying to surrender."
+      },
+      {
+        "p": "That cry was answered at Kings Mountain in October 1780, and Kings Mountain is the clearest proof on offer, so it is worth slowing down on what it *was* even though its full story belongs to a battle page of its own. A force of about nine hundred patriot backcountry militia, including the \"Overmountain Men\" (frontier settlers from the far side of the Appalachians, in what is now Tennessee and western North Carolina), stormed a hill held by Major Patrick Ferguson and roughly eleven hundred Loyalists. Ferguson's command was about a hundred Loyalist provincials from New York and New Jersey and Connecticut and some eight hundred Carolina Loyalist militia. When the fighting was over Ferguson was dead and his force destroyed. Here is the fact that makes the whole argument in a single line: of the roughly two thousand men on that field, the only British soldier present was Major Ferguson himself. Every other man on both sides, the ones who stormed the hill and the ones who died defending it, was American. The hundred provincials in red coats were American colonists wearing the king's uniform. A battle remembered as a famous American victory over the British was, almost to a man, Americans killing Americans."
+      },
+      {
+        "p": "And it did not end with the battle. A week after Kings Mountain, the victorious patriot militia convened a rough field court at Biggerstaff's Old Fields near Gilbert Town, North Carolina, tried some thirty Loyalist prisoners, condemned a dozen, and hanged nine of them, justifying it as payment for the patriots the British had hanged at Camden and Ninety Six and Augusta. Nine men swung from a single oak in two days, and it was meant to be remembered. The cycle turned again four months later at the Haw River, where Loyalist militia riding to join the British mistook a patriot legion in green coats (the same green Tarleton's Legion wore) for Tarleton's men; the patriots rode down their line trading friendly greetings and then fell on them, killing at least ninety, some of them prisoners cut down afterward to cries of \"Remember Buford.\""
+      },
+      {
+        "p": "Nobody in this came to the cruelty clean, and the backcountry's bitterest figure shows how the cruelty was manufactured. To see it, back up a few years, because his wound came before most of what was just described. Thomas Brown was a young English-born planter in Georgia who wanted no part of the patriot cause. In August 1775 a Liberty crowd demanded he swear to it; he refused, and they fractured his skull with a musket butt, tied him to a tree, burned his feet until he lost two toes, partly scalped him, and tarred and feathered him. \"Burnfoot\" Brown survived, carried the headaches the rest of his life, and became one of the most feared Loyalist partisan commanders in the South, leading the King's Rangers (a Loyalist irregular force operating out of Georgia) with a hardness his enemies never forgave and never let him forget. The mob that tortured Thomas Brown into the king's camp got back everything it had given him, with interest. That is the lesson the southern backcountry teaches: each side made the other, and then each side blamed the other for what it had made."
+      },
+      {
+        "p": "The cycle's last turn came in late 1781, when the Loyalist major William Cunningham, called \"Bloody Bill,\" caught a band of patriot militia with rain-soaked guns, accepted their surrender, and then killed all but two of them, among the dead the captains Sterling Turner and James Butler. From there he opened a weeks-long revenge expedition of burnings and executions across the South Carolina backcountry that his enemies remembered as the Bloody Scout. By then the killing barely needed a reason. It had become its own engine."
+      },
+      {
+        "fig": "/war-img/rev-civilwar-kingsmountain.jpg",
+        "cap": "A later imagining of Kings Mountain, October 1780, painted in the nineteenth century. Of the roughly two thousand men who fought here, every one was American but a single Briton: Major Patrick Ferguson, shown falling, who commanded the Loyalists. The hill was stormed by American backcountry militia and defended by American Loyalists, which is what makes this celebrated patriot victory the chapter's clearest proof that the Revolution was a civil war.",
+        "credit": "Alonzo Chappel, \"Death of Major Ferguson at Kings Mountain,\" engraved mid-nineteenth century · public domain"
+      },
+      {
+        "h": "The exodus",
+        "eyebrow": "Sixty thousand people who chose the empire, and where they went"
+      },
+      {
+        "p": "When the war was lost, the losing side did what the losing side of a civil war does. It left."
+      },
+      {
+        "p": "About sixty thousand Loyalists fled the new United States during and after the war, by the careful modern count of the historian Maya Jasanoff. They did not flee alone. Some eight thousand of them were free Black Loyalists, people who had won their freedom by reaching the British lines, and the refugees also carried away with them roughly fifteen thousand enslaved people, so the same migration that delivered some to freedom carried others off in chains. Counting everyone, perhaps seventy-five thousand people in all, which Jasanoff reckons at somewhere around one American in forty, sailed away from the country rather than live in it. (Older estimates ran higher, up to eighty or a hundred thousand; Jasanoff's sixty thousand is the careful modern floor.)"
+      },
+      {
+        "p": "Where did they go? Most went north, into what was left of British North America. Around thirty thousand poured into Nova Scotia, so many that in 1784 Britain carved a brand-new colony, New Brunswick, out of the territory just to hold them. Several thousand more went up to Quebec. Some thirteen thousand crossed to Britain itself, the imperial homeland most of them had never seen. And around six thousand, mostly southerners, sailed to Jamaica and the Bahamas, taking the great majority of those fifteen thousand enslaved people with them, which is the plainest possible reminder that for thousands of human beings the Loyalist exodus was not a choice at all. The Loyalist diaspora reached, in small streams, as far as the British outposts of the Caribbean and beyond."
+      },
+      {
+        "p": "Nova Scotia is where you can watch the dream and its collapse in one place. A company of Loyalist refugees from New York chose a fine harbor on the Atlantic coast, and the first fleet landed in May 1783; the governor named the new town Shelburne after the prime minister who had just negotiated the peace. Within about a year it held some ten thousand people, which made it, by some reckonings and for one strange moment, the fourth-largest town in North America, behind only New York, Philadelphia, and Boston. Then the props came out. Government rations stopped in 1787, and the same year hundreds of houses already stood empty; by 1789 two-thirds of the town was abandoned; a generation later its population was counted in the hundreds. A boomtown built on refugees and rations, and when the rations stopped, it emptied. Just outside Shelburne, the settlement of Birchtown became the largest community of free Black people anywhere in North America, and it learned the bitterest lesson of all: promised land that never came, votes denied, a white population that turned on them, until in 1792 more than a thousand Black Loyalists gave up on Nova Scotia entirely and sailed for a new colony in Sierra Leone, on the coast of Africa, to try once more to be free. Their full story belongs to the chapter on slavery and the Revolution; here it stands as the exodus's harshest epilogue."
+      },
+      {
+        "fig": "/war-img/rev-civilwar-exodus.jpg",
+        "cap": "\"Tory Refugees on Their Way to Canada,\" a romantic reconstruction drawn in 1901, more than a century after the fact. It pictures the central act of the Loyalist defeat: some sixty thousand people, by the careful modern count, left the new United States rather than live in it, the largest share of them trudging north into the British provinces that would become English Canada.",
+        "credit": "Howard Pyle, \"Tory Refugees on Their Way to Canada,\" 1901 · public domain"
+      },
+      {
+        "p": "There was one more institution waiting for them, and it makes the point as cleanly as anything else. Parliament set up a commission in 1783 to compensate the Loyalists for what they had lost, and to it the exiles brought their claims: deeds, witnesses, inventories, proof that they had truly been loyal and truly been ruined. The numbers tell the scale of the catastrophe and the stinginess of the relief at once. Loyalists filed 3,225 claims seeking more than eight million pounds; the commission, after years of humiliating inquiry into every applicant's losses and loyalty, paid out about three million, roughly thirty-seven pence on the pound. But the existence of the commission is itself the deepest fact here. A government had set up an office to compensate the refugees of an American war, and the refugees were Americans. The British state formally recognized that it had losers in this fight, and that they were people it owed something to. These were war refugees, and everyone at the time understood them as such."
+      },
+      {
+        "h": "The long quiet",
+        "eyebrow": "Reabsorption without revenge, and the two countries one people became"
+      },
+      {
+        "p": "Here is the part of the story that should be hard to believe, given everything that came before it. After a civil war this savage in places, after the hangings and the burnings and the tar and the seizures, the country did not keep killing. It mostly stopped."
+      },
+      {
+        "p": "The Treaty of Paris in 1783 asked the states, in soft and non-binding language, to restore confiscated Loyalist property and to halt further persecution. The states largely ignored the property part; confiscations were not undone. But the open season was over, and what did *not* happen next is the genuine headline. There were no mass executions of the defeated. There was no permanently proscribed class of citizens, no generation of Loyalist guerrillas waging revenge from the hills. For an eighteenth-century civil war, the aftermath was startlingly mild, and historians have puzzled over the mildness ever since."
+      },
+      {
+        "p": "The mechanics of forgiveness turned out to be cheap and procedural, which is much of the explanation. There were simply too many Loyalists to put on trial for treason; you cannot prosecute a fifth of the country. So the states reached for the same instrument they had used to coerce loyalty in the first place: the oath. A man swore allegiance to his new state, a patriot neighbor vouched for him, and the matter was closed. Most Loyalists who had stayed kept or recovered their property and quietly became American citizens. Across the 1780s the discriminatory laws came down; Pennsylvania repealed its test act in 1789; in New York the young lawyer Alexander Hamilton, of all people, took up the defense of Loyalist clients against the state's revenge statutes, arguing that the peace treaty overrode them. Many of the exiles themselves drifted home once tempers cooled, slipping back into towns that had banished them as though the fever had simply passed."
+      },
+      {
+        "p": "But not everyone got the quiet. The reabsorption was real and it was surprising, and it was also not for the named, the prominent, and the banished. The men whose lives had been declared forfeit by statute, the great Loyalist families written into the confiscation acts, had no road home; for them there was only England. The Black Loyalists who had fled to Nova Scotia did not get folded gently back into anything; they got denied land and sailed for Africa."
+      },
+      {
+        "p": "And William Franklin never came back at all. When his father wrote his will, he made the cut explicit and put the reason in writing: \"The part he acted against me in the late war, which is of public notoriety, will account for my leaving him no more of an estate he endeavoured to deprive me of.\" He left his only son some distant land claims and forgave some debts, a pointedly token inheritance. Years earlier, when William had written from London asking to revive \"that affectionate Intercourse and Connexion\" they had once had, defending himself as a man who had \"uniformly acted from a strong Sense of what I conceived my Duty to my King,\" Benjamin had allowed, once, that \"We are Men, all subject to Errors,\" which sounded for a sentence like the door opening, and then closed it: \"there are Natural Duties which precede political Ones.\" A son's first duty was to his father, and his son had chosen the king. They met one last time, briefly and coldly, in England in 1785, mostly to settle business; there was no reconciliation. Benjamin Franklin died in Philadelphia in 1790, honored by a nation he had helped invent. William Franklin died in London in 1813, still an exile, the will standing as his father's last verdict."
+      },
+      {
+        "p": "Indeed nothing has ever hurt me so much and affected me with such keen Sensations, as to find my self deserted in my old Age by my only Son; and not only deserted, but to find him taking up Arms against me, in a Cause wherein my good Fame, Fortune and Life were all at Stake. — Benjamin Franklin to William Franklin, 1784",
+        "q": true
+      },
+      {
+        "p": "So the war that began among Britons ended by sorting one people into two countries. The United States was one of them. The other was English Canada, which the Loyalist refugees substantially founded, the empire's second try at a North America, built out of the people the first one had cast off. The Revolution did not only divide America from Britain. It divided America from itself, and then it populated a second nation with the half that lost. The country had to decide not only what it would be but who would be allowed to belong, and for a long and lucky stretch afterward, most of the people who had guessed wrong were quietly let back in."
+      }
+    ]
+  },
+  "army-from-nothing": {
+    "eyebrow": "How thirteen colonies that feared standing armies built one anyway, and kept it alive for eight years",
+    "title": "An Army from Nothing",
+    "blocks": [
+      {
+        "p": "In April 1775 there was no American army. There were militias, which is not the same thing, and the difference is the whole start of this story. A militia was every able-bodied man in a town, roughly sixteen to sixty, required to keep a musket and turn out a few days a year for drill (Massachusetts asked for at least six). The officers were neighbors, often elected, indistinguishable from the men they led, and everyone had a farm or a trade to get back to. That arrangement was magnificent for exactly one thing: a single desperate day. On April 19, 1775, when thousands of armed New Englanders swarmed a British column on the road back from Concord, the system worked precisely as designed. A war is the thing it was not designed for. Militiamen served for days or weeks and went home, legally, when their term ran out or the harvest called; there was no supply train, no sustained discipline, no command beyond neighbors cooperating. The crowd that penned the British inside Boston was an army only by courtesy. Somebody now had to turn it into a real one, inside a society that distrusted real armies on principle, and keep it standing eight years."
+      },
+      {
+        "p": "That distrust was the army's other enemy, alongside poverty. The men who built the colonial case against Britain had spent a decade warning that permanent professional armies were the death of liberty, and the British regulars garrisoning Boston were their living proof."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/civil-war-among-themselves",
+        "plabel": "A Civil War Among Themselves"
+      },
+      {
+        "h": "Congress adopts an army",
+        "eyebrow": "A continental cause needs a continental general, and one delegate wore a uniform to work"
+      },
+      {
+        "p": "On June 14, 1775, the Second Continental Congress voted to adopt the New England forces besieging Boston (along with forces gathering near New York) as a Continental Army, and authorized ten companies of expert riflemen from Pennsylvania, Maryland, and Virginia as the first troops raised directly under continental authority. That date is still kept as the birthday of the United States Army. The next day Congress had to decide who would command it."
+      },
+      {
+        "p": "It chose a Virginian, unanimously, and the choice was as much political as military. This was a New England army fighting a New England siege. Put a New Englander at its head and the other colonies could tell themselves this was somebody else's quarrel; put a Virginian at its head and a regional fight became a continental one. John Adams made the nomination speech and Samuel Adams seconded it. Years later Adams recalled telling Congress of a \"Gentleman from Virginia who was among Us\" who would \"command the Approbation of all America, and unite the cordial Exertions of all the Colonies better than any other Person in the Union.\" The phrasing is Adams remembering his own speech long afterward, but the strategy in it is real."
+      },
+      {
+        "p": "The Virginian was George Washington, and he had two other things going for him. He had commanded the Virginia Regiment in the French and Indian War, which made him about as experienced a soldier as any native-born American then alive. And he had spent the spring attending Congress in a military uniform, the buff-and-blue of his Fairfax Independent Company, the only delegate to come to work dressed for the war everyone could feel coming. While others debated, one man showed up looking ready, and Congress noticed."
+      },
+      {
+        "p": "He accepted on June 16 and did something that mattered out of all proportion to its cost: he refused a salary, asking only that Congress cover his expenses, which he then accounted for meticulously the whole war. (Different ledgers tally those expenses to wildly different totals, so the honest figure is \"six figures in the money of the day,\" not a clean number.) Refusing pay was a statement about what kind of officer he meant to be: not a man enriching himself on a standing army, the very thing his countrymen feared, but a citizen lending his service. On July 3, 1775, he took command at Cambridge, Massachusetts, and got his first look at what he had agreed to lead."
+      },
+      {
+        "h": "The army that dissolved in front of the enemy, twice",
+        "eyebrow": "Why one-year enlistments nearly killed the war before it started"
+      },
+      {
+        "p": "What Washington found at Cambridge was brave, filthy, short of gunpowder, and held together by enlistments that all expired with the calendar. He was a Virginia planter looking at a Yankee army where officers were elected by, and dressed like, their own privates, and his snobbery shows. To his cousin Lund Washington in August 1775 he wrote that the New England privates \"would fight very well (if properly Officered),\" then added that they were \"an exceeding dirty & nasty people,\" and savaged the officers as \"the most indifferent kind of People I ever saw,\" boasting that he had already broken one colonel and five captains \"for Cowardice, & for drawing more Pay & Provision's than they had Men in their Companies.\" It was a private letter and a planter's prejudice, but it caught a real clash: an army of equals, handed to a man who believed ranks ought to mean something."
+      },
+      {
+        "p": "The deeper problem was the clock. Almost the entire force had signed on only to the end of 1775; men could begin leaving December 1 and all were free to walk on January 1, and by late fall they were leaving in droves, Nathanael Greene (one of Washington's most capable generals) losing about three-quarters of his brigade. Washington said so to his friend Joseph Reed in November: \"Could I have foreseen what I have, & am like to experience, no consideration upon Earth should have induced me to accept this Command.\""
+      },
+      {
+        "p": "Now picture what he had to do next. The British army sat a musket-shot away, and Washington had to let one army walk home and sign up a brand-new one in the same trenches, without the enemy noticing how empty those trenches briefly were. He told Congress's president John Hancock that to \"disband one Army and recruit another, within that distance, of Twenty odd British regiments, is probably more than ever was attempted.\" He plugged the gaps with short-term militia, and the British, never realizing how hollow the lines opposite them had become, evacuated Boston in March 1776 anyway."
+      },
+      {
+        "p": "Then it happened again. The army raised for 1776 ran on the exact same one-year term, so it too expired on December 31, this time mid-campaign with the war's survival visibly at stake, days after the river crossing at Trenton. Washington rode along the veteran regiments and personally begged them to stay six weeks past their discharge for a ten-dollar bounty he pledged on his own authority before Congress had agreed to it. (There is a famous version of the speech he supposedly gave, but it comes from one sergeant's recollection set down decades later, so treat the words as legend and the appeal itself as fact.) Enough stayed to fight at Princeton. The army had nearly dissolved itself twice in twelve months, both times by design, and that twice-repeated near-death is what finally convinced Congress to stop building armies that fired themselves every New Year's Eve."
+      },
+      {
+        "h": "Who actually served",
+        "eyebrow": "Not the farmer with the musket over the fireplace"
+      },
+      {
+        "p": "Picture a landless boy of nineteen, with no farm to get back to and no trade that needed him, taking a cash bounty to sign years of his life away. Stand next to him a new immigrant just off the boat, Irish or German, with no land and few prospects, and a man who had come over as an indentured servant and worked off his term with nothing to show for it. Those are the men who filled the long-war Continental Army. Not the small farmer with the musket over his fireplace."
+      },
+      {
+        "p": "For a few months in 1775 the whole country seemed to want in. The historian Charles Royster gave this war-fever a name, the *rage militaire*, the passion for arms that briefly put tens of thousands of ordinary householders under arms. It carried a fantasy with it: a short, glorious war won quickly by virtuous citizen-soldiers who then went home. By 1776 the fever had broken and never came back. What arrived instead was a long grinding war, and the men with farms and shops and families increasingly decided that someone else could fight it."
+      },
+      {
+        "p": "So who was the someone else? Historians have answered by going through the muster rolls (the army's attendance registers), tax lists, and pension files, and what they keep finding is that the long-war Continental Army was a poor man's army. The typical private was young, late teens or early twenties, and poor: in the studied samples the great majority of long-service privates came from the propertyless or nearly so, one frequently cited finding being that under about ten percent owned taxable property. He was disproportionately an immigrant, a laborer, or a former servant; substantial shares of several state lines were Irish-born or German-born, and indentured servants, some convicts, even British deserters were taken on as the war ground forward and the recruiters grew less choosy. These are regional studies generalized, so the right way to hold them is \"the rolls suggest,\" not \"the census proves,\" but the pattern is unmistakable."
+      },
+      {
+        "p": "The men were pulled in by money and by quotas. To recruit, the states offered a bounty (a cash payment at enlistment, the only lever for a man signing years away for paper wages), and when volunteers ran short they drafted from the militia, with a catch: a drafted man with money could pay a poorer neighbor to serve in his place. The law allowed it, and the rate climbed all war. So the poor served for the propertied, by contract."
+      },
+      {
+        "p": "The yeoman-minuteman, the small farmer who grabbed the musket over his fireplace, is real, but he belongs to April 1775 and the militia surges, the citizens who turned out for a day and went home. He is not the man who stood in the Continental Line in 1778, 1779, and 1780. That man was, overwhelmingly, someone a settled society could most easily spare."
+      },
+      {
+        "p": "They included thousands of Black soldiers, one of the genuinely remarkable facts about the institution, and an easy one to overstate, so it is worth stating precisely. An official field tally, the \"Return of the Negroes in the Army\" of August 24, 1778, compiled under Adjutant General Alexander Scammell, counted 755 Black soldiers across roughly fourteen brigades of Washington's main army, about 3.6 percent of that force's rank and file, and more like five to eight percent in the brigades where they served. That return left out the Rhode Island and New Jersey regiments; counting those pushes the snapshot toward 950. Across the whole war, somewhere between 5,000 and 8,000 men of African descent served on the American side. And in the main army they served integrated: Black and white privates in the same companies, messes, and tents, the 1st Rhode Island Regiment being the notable exception that ran the other way, with Black rank and file under white officers. This was the last time soldiers of African descent served in racially integrated regular U.S. Army units at any scale until the Korean War era; the Army was ordered desegregated by executive order in 1948 and did it during Korea, in the early 1950s, so the integration of the Revolutionary ranks stood unmatched for some 170 years. The point is not that the army held an ideal of racial equality. It did not; it integrated because it needed bodies, and Washington's own policy on Black enlistment zigzagged before it settled. The full story of how those men got there, of Lord Dunmore's proclamation and the 1st Rhode Island, belongs to the chapter on slavery and the Revolution."
+      },
+      {
+        "p": "Women belonged to the army too, in their thousands: soldiers' wives and others who traveled with it the whole war, washing, nursing, and selling small goods to the troops, and who were officially carried on the ration rolls. They earned their bread and they have their own chapter; here it is enough to say they were there, and counted."
+      },
+      {
+        "fig": "/war-img/rev-army-verger.jpg",
+        "cap": "Jean-Baptiste-Antoine de Verger, a French officer on the Yorktown campaign, sketched these four American soldiers into his journal, and the man on the left is one of the earliest images of a Black American soldier in uniform. It catches what the muster rolls describe: a ragged, mixed army of the young and the poor, Black and white serving in the same ranks.",
+        "credit": "Jean-Baptiste-Antoine de Verger, \"Soldiers in Uniform,\" watercolor 1781–84, Anne S.K. Brown Military Collection, Brown University · public domain (artist d. 1851; pre-1929 reproduction)"
+      },
+      {
+        "h": "Three years, or the war",
+        "eyebrow": "The fix for the one-year army, and the ambiguity that would later blow up"
+      },
+      {
+        "p": "The cure for an army that dissolved every December was an army that signed on for the long haul. On September 16, 1776, with the two near-deaths fresh, Congress passed the Eighty-eight Battalion Resolve, setting a standing establishment of 88 battalions, about 60,000 men on paper, apportioned among the states by population, with enlistments not for one year but for \"three years or during the war.\" To get men to sign, it offered a twenty-dollar cash bounty and 100 acres of land to privates and noncommissioned officers who enlisted for the duration, the land scaling up by rank."
+      },
+      {
+        "p": "That phrase, \"three years or during the war,\" was meant to give the enlister a choice, and its ambiguity would become the legal heart of the worst mutiny of the war. Did a man sign for three years, or for the war, whichever came first, or whichever the recruiter later decided? Nobody had nailed it down, and four years on, with the war grinding past the three-year mark, that loose wording would put thousands of veterans and their officers on opposite sides of a knife."
+      },
+      {
+        "p": "The army was organized by state. Each state raised, clothed, and in theory paid its own numbered regiments, the Pennsylvania Line, the Connecticut Line, and so on, which together made up the Continental Line under Washington and Congress. States performed unevenly at supplying their own lines, so a soldier in a poorly run state's regiments could go cold and unpaid while another state's men did better, an inequity that fed straight into the breakdowns to come."
+      },
+      {
+        "p": "And the 88 battalions were a paper army, never close to filled. A regiment's paper strength ran around 580 to 750 men, but in the field it commonly mustered half that or less. Across the whole conflict perhaps 230,000 men served in the Continental Army at one time or another, yet at no single moment were there ever more than about 48,000 under arms, and never more than about 13,000 in one place. On paper, this; in reality, a fraction of it."
+      },
+      {
+        "h": "Paid in something that was turning into nothing",
+        "eyebrow": "A wage that evaporated in the pocket, and why"
+      },
+      {
+        "p": "Put yourself in the ranks on payday. Your pay was set at six and two-thirds dollars a month, routinely months and eventually years in arrears, and when it finally came it came in Continental paper that was worth less by the week. You were not simply unpaid, bad as that was; you were paid in a substance that evaporated in your pocket between payday and the store, as did your enlistment bounty and anything you tried to send home. Meanwhile civilians, sensibly, would rather sell their flour to the British for hard coin (gold or silver) than to their own army for notes nobody trusted. The man in the ranks was learning that patriotism had a market exchange rate, and his was crashing."
+      },
+      {
+        "p": "Here is why the paper was dying. Congress could not tax. It could only ask the states for money (requisition them), and they chronically sent less than asked, or it could print. So it printed: between 1775 and 1779 it emitted somewhere around 200 to 240 million dollars in Continental currency, paper with no tax revenue standing behind it to give it value. With nothing underneath it, state paper inflating alongside it, and British counterfeiters flooding the colonies with fakes, the Continental dollar slid and then plunged. It was worth maybe a third of hard coin in 1777, perhaps a sixth or an eighth in 1778, and by early 1780 had fallen to around 40 to 1, a level Congress itself made official that March by formally devaluing it at exactly that rate. By early 1781 it took 75, or 100, or in some places well past 100 paper dollars to buy a dollar of silver, and in May 1781 it simply stopped circulating. (Every depreciation table disagrees on the month-to-month rates, so these are ranges; the one hard anchor is Congress's own 40-to-1 devaluation.) Americans came out of the war with a new phrase for anything worthless: \"not worth a Continental.\""
+      },
+      {
+        "fig": "/war-img/rev-army-currency.jpg",
+        "cap": "This is the money the army was paid in: a one-third-dollar Continental note from 1776, when the press was still new and the slide had barely begun. With no power to tax, Congress paid for the war by printing notes like this, and with nothing standing behind them they slid toward worthlessness, until \"not worth a Continental\" became American shorthand for junk.",
+        "credit": "Continental Currency one-third-dollar note, February 17, 1776 · public domain (faithful reproduction of a 1776 document)"
+      },
+      {
+        "h": "How the system broke",
+        "eyebrow": "Valley Forge was a supply failure, not a snowstorm"
+      },
+      {
+        "p": "The famous winter is Valley Forge, and almost everyone has the wrong picture of it. The main army, about 12,000 soldiers (plus several hundred women and children with it), marched into Valley Forge, around twenty miles from British-occupied Philadelphia, on December 19, 1777, built well over a thousand log huts on a defensible plateau, and marched out on June 19, 1778. As many as 1,700 to 2,000 of them died there, something like one man in ten to one in six."
+      },
+      {
+        "p": "But they did not freeze to death in snowdrifts. They died of disease, the influenza, typhus, typhoid, and dysentery that breed in crowding and filthy water, and about two-thirds of the deaths came not in the depths of winter but in the warmer months of March, April, and May 1778, when the thaw and the camp's own waste did their work. The winter itself was, by Pennsylvania standards, ordinary. Valley Forge was not a meteorological catastrophe but a catastrophe of supply, and the difference matters, because a broken supply system is something humans build and can fix, and a blizzard is not."
+      },
+      {
+        "p": "So name the mechanism. The hunger and nakedness were real. Washington wrote to Congress's president Henry Laurens that unless the commissary was repaired, \"this Army must inevitably be reduced to one or other of these three things. Starve—dissolve—or disperse,\" and reported in the same letter \"no less than 2898 Men now in Camp unfit for duty, because they are barefoot and otherwise naked,\" nearly a quarter of the force. But the food existed in America. It simply did not reach the camp. Two departments were supposed to feed and clothe the army: the commissary bought food, and the quartermaster moved everything, and both broke at once. The Quartermaster General was Thomas Mifflin, the man responsible for transport, forage, and supply, and he had soured on the job. He drifted into politics, effectively stopped doing the work after mid-1777, and resigned that autumn, so the army went into winter quarters with its whole supply department leaderless: no forage system, broken wagon contracts, food rotting at depots for want of anyone to haul it. The Clothier General's department failed the same way, with clothing sitting in warehouses that never reached the men. And Congress, unable to pay cash, kept trying to buy supplies with certificates (IOUs) that farmers learned to dodge."
+      },
+      {
+        "p": "It got fixed, partly, by competence: Washington put Nathanael Greene in as Quartermaster General in the spring of 1778, and Greene audited the mess, reorganized the department, pre-positioned depots, and got the wagons rolling. Then the next fix created the next failure. In 1780 a broke Congress switched to a \"system of specific supplies,\" requisitioning actual goods, beef and flour and rum, from the states by quota, and the states under-delivered on goods exactly as they had on money; the hunger crises of 1779 to 1781 sit squarely on that mechanism. The soldiers starved because the system was broken: a Congress with no power to tax, a supply corps leaderless at the worst moment, a dead currency, and state quotas nobody enforced. Not because there was no food."
+      },
+      {
+        "p": "The bloody-footprints image, the one detail of Valley Forge as grim as legend says, is real, but it belongs to the marching and to memory. Washington wrote, months later in April 1778, of men \"without Shoes, by which their Marches might be traced by the Blood from their feet.\" A young private named Joseph Plumb Martin, who enlisted at fifteen and wrote his memories down some fifty years later as an old man with a pension claim on file, remembered men going barefoot \"till they might be tracked by their blood upon the rough frozen ground.\" Martin is the eyewitness this chapter leans on, but always at arm's length: his texture and his grievances are gold, his exact half-century-old dialogue handled with care. He remembered, too, what the supply failure looked like on a feast day, when Congress proclaimed a thanksgiving and the army's share of the celebration was the whole problem in one bitter line."
+      },
+      {
+        "p": "it gave each and every man a half a gill of rice, and a table spoon full of vinegar!! — Joseph Plumb Martin, recalling Congress's 1777 Thanksgiving \"gift\" (memoir, 1830)",
+        "q": true
+      },
+      {
+        "h": "The Prussian with the invented résumé",
+        "eyebrow": "How a half-pay captain sold as a lieutenant general turned a mob into an army"
+      },
+      {
+        "p": "The thing Valley Forge is actually remembered for, the redemption, arrived on February 23, 1778, in the person of a charming, broke, middle-aged German, and the best part is that he was not quite who anyone thought."
+      },
+      {
+        "p": "Friedrich Wilhelm von Steuben presented himself as a Prussian lieutenant general, recommended to Congress in a letter from Benjamin Franklin as \"a Lieutenant General in the King of Prussia's service.\" He was nothing of the kind. His real Prussian career had been respectable but modest: a captain and staff officer, out of the army since 1763, unemployed and deep in debt when the Americans found him in Paris. His \"Baron\" came from later service at a tiny German court, not from Prussian nobility that mattered. The kindest explanation for the inflation is that his actual staff title, rendered into French, looked grander than it was, and that Franklin and Silas Deane, who badly needed Congress to take their find seriously, did not hurry to correct the impression. Congress and Washington were promised a Prussian lieutenant general. They received a half-pay captain, who turned out to be exactly what the army needed, and nobody who watched him work ever asked for a refund."
+      },
+      {
+        "p": "What he did was teach the army to drill, and the method was clever. Instead of trying to train 12,000 men at once, he started with a single model company, about 100 to 150 men drawn from Washington's guard and the brigades, and drilled it personally, which alone astonished everyone, because a European general doing a sergeant's job of marching privates back and forth was a thing nobody had seen. Once that company had it, he cascaded the trained men outward into every brigade as instructors, so the lessons multiplied instead of bottlenecking on one teacher. He standardized the marching step, the manual of arms (the drilled motions for handling and loading a musket), and above all the bayonet and the maneuver from marching column into firing line. The difference was not cosmetic: an untrained force under fire bunches, panics, or freezes, while a drilled one executes the rehearsed sequence faster than the enemy can reload. Drill was survival."
+      },
+      {
+        "p": "He pulled this off speaking almost no English, drilling in French and German through translators, and when the men fumbled and his vocabulary of correction ran dry he would swear at them in German, then French, and then, gloriously, call for an aide to \"come and swear for me in English.\" The men loved him for it. (That line comes down through his secretary's circle in several versions, so it is a good anecdote rather than a pinned quote, but the scene is well attested.) Over the following winter he wrote the army's first drill manual, the *Regulations for the Order and Discipline of the Troops of the United States*, the \"Blue Book,\" approved by Congress in 1779 and used by the U.S. Army until 1814, and was made Inspector General, with the rank of major general, in May 1778."
+      },
+      {
+        "p": "It took. Ten days after leaving Valley Forge, at Monmouth on June 28, 1778, the army maneuvered under fire and traded volleys with British regulars to a standstill, the kind of stand-up fight the mob at Cambridge could never have managed. The drill had turned them into soldiers."
+      },
+      {
+        "fig": "/war-img/rev-army-steuben.jpg",
+        "cap": "Charles Willson Peale painted Baron von Steuben from life in 1780. The Prussian \"lieutenant general\" Franklin advertised to Congress was in reality a half-pay captain with an inflated title, but the drillmaster who cascaded a model company's training out through the whole army was the real thing, and the soldiers he made proved it at Monmouth.",
+        "credit": "Charles Willson Peale, portrait of Baron von Steuben, 1780 · public domain (Peale d. 1827)"
+      },
+      {
+        "h": "The harder winter nobody remembers",
+        "eyebrow": "Morristown was worse than Valley Forge, and got none of the glory"
+      },
+      {
+        "p": "If Valley Forge's winter was ordinary, the one that earned the legend came two years later and got none of it. The army wintered at Morristown, New Jersey, in 1779 and 1780 with around 10,000 to 12,000 troops hutted at Jockey Hollow, through what was very likely the coldest winter of the entire eighteenth century in that region, the only one on record cold enough that the waters around New York City froze solid, hard enough to haul heavy loads across. More than two dozen snowstorms swept the camp, and a January blizzard left something like four feet of snow. Washington, looking back that spring, wrote that \"the oldest people now living in this Country do not remember so hard a winter as the one we are now emerging from.\" Supply was worse than at Valley Forge, because this was the winter the specific-supplies system was failing, the currency was dead, and the roads were buried; Joseph Plumb Martin's starving passages, the ones people quote about Valley Forge, are actually about this camp. Yet fewer men died here, because the army had learned the lesson of Valley Forge that disease was the real killer, and met this winter with better huts, better sanitation, and smallpox held in check."
+      },
+      {
+        "h": "The quietest decision of the war",
+        "eyebrow": "Washington deliberately gives the whole army smallpox"
+      },
+      {
+        "p": "That smallpox was held in check at all was the result of a decision made three years earlier, and the story doubles back to find it. Through all of it, the steadiest killer was never the British. For every soldier who fell in battle, several died of disease, and the most feared was smallpox, which had already helped wreck the American invasion of Canada in 1775 and 1776. So back in February 1777, from an earlier winter encampment at Morristown and well before Valley Forge, Washington made one of the boldest medical decisions in military history, so quietly that it is barely remembered: he ordered the entire Continental Army inoculated against smallpox."
+      },
+      {
+        "p": "This was not vaccination, which did not yet exist. It was variolation (deliberately infecting a healthy person with material from a real smallpox sore, to give a milder controlled case and lifelong immunity), and it was genuinely dangerous: a few percent of those inoculated died of it, and all were laid up and contagious for weeks. An army caught half-down with deliberate pox would be helpless, so it was done in secret, in rotations, a batch at a time, so the enemy would never know the lines were weak. It may have been the first mass military immunization on record, and it worked: smallpox went from a strategic threat that could gut a campaign to a rare event in the ranks. The man remembered for crossing a river had, the month after, quietly inoculated his whole army against the thing far more likely to destroy it."
+      },
+      {
+        "h": "The breaking points",
+        "eyebrow": "Starving veterans go on strike, and keep insisting they are not switching sides"
+      },
+      {
+        "p": "By 1780 the bill for all of it, the dead currency, the broken supply, the years of arrears, came due, and the army began to break. What followed is usually filed under \"mutiny,\" which makes it sound like men abandoning a cause. It was closer to a labor strike by veterans who were owed everything and paid nothing, and who kept insisting, even in revolt, that they were not changing sides, and proved it."
+      },
+      {
+        "p": "The first crack was the Connecticut Line on May 25, 1780, at Jockey Hollow. After days on fractional rations, by Martin's account a little musty bread and a little beef every other day and then nothing, two regiments paraded under arms without orders, ready to march off and take food by force. Officers and steadier troops shoved them back into camp, and a colonel named Return Jonathan Meigs was bayoneted in the scuffle and survived. Nobody was executed, because the grievance was as plain as hunger and about five months' missing pay. Martin was there in the ranks: \"The men were now exasperated beyond endurance,\" he remembered; \"they could not stand it any longer; they saw no other alternative but to starve to death, or break up the army, give all up and go home.\""
+      },
+      {
+        "p": "The big one came on January 1, 1781, again at Jockey Hollow: the Pennsylvania Line, somewhere between 1,500 and 2,400 men, long-service veterans being held to the harsh reading of that 1776 phrase \"three years or during the war.\" They had served their three years and were now told the war's end was their out, not the three-year mark, all while being paid next to nothing for years on a twenty-dollar bounty when new recruits were lured in for hundreds. They killed or wounded several officers in the first eruption, then did something disciplined: they elected a Board of Sergeants from among themselves and marched in good order toward Princeton and Philadelphia to put their case to Congress and Pennsylvania. This was a negotiation conducted with muskets, not a desertion."
+      },
+      {
+        "p": "And they proved which side they were on. When the British commander Sir Henry Clinton, smelling opportunity, sent secret emissaries offering British pay and pardons if they would come over, the Pennsylvanians arrested them and handed them to the army, and the two men were tried as spies and hanged. The mutineers then settled with Pennsylvania's civilian president Joseph Reed, with General Anthony Wayne, the Pennsylvania Line's own commander, as the army's man on the scene: soldiers who had enlisted in 1776 and 1777 could take their discharge on their own oath about what their term had been. About half the Line took the discharge (many re-enlisting later for fresh bounties), the rest getting furloughs and back-pay promises. Their grievance, everyone privately admitted, was just, and not one was executed."
+      },
+      {
+        "p": "Three weeks later the same spirit flared in the New Jersey Line, about 200 men at Pompton on January 20, 1781, inspired by how well the Pennsylvanians had done and demanding the same things. This time Washington made the opposite call, the hard, unromantic counterweight to the story. He had conceded to Pennsylvania because he had to; a second successful mutiny on the heels of the first, he judged, would simply teach the whole army that mutiny worked, and then there would be no army. \"Unless this dangerous spirit can be suppressed by force,\" he wrote, \"there is an end to all subordination in the Army, and indeed to the Army itself.\" He sent General Robert Howe with 500 to 600 New England troops, who surrounded the camp at dawn on January 27, forced an unconditional surrender, and court-martialed three ringleaders on the spot (tried by a panel of officers under military law). Two of them, David Gilmore and John Tuttle, were shot by firing squads made up of their own fellow mutineers. The third was reprieved."
+      },
+      {
+        "p": "Both things have to be held together. The grievances were real, and Washington and everyone around him knew the men's claims were just; and the same institution that negotiated with one set of starving veterans shot two of the next set, by their comrades' hands, to keep the rest from learning the wrong lesson. The army survived 1781 on exactly that calibrated mix of concession and killing. The real indictment, the one nobody could say in public, ran not against the soldiers but against the Congress and the states that had made true grievances they could not afford to fully answer."
+      },
+      {
+        "h": "The army that chose not to be a threat",
+        "eyebrow": "Newburgh, the spectacles, and an institution that walked home unthanked"
+      },
+      {
+        "p": "After Yorktown in 1781 the fighting was effectively over, but the peace was not signed, and the army sat waiting at Newburgh, New York, with nothing to do and everything owed to it. The officers faced being sent home with years of pay in arrears and a 1780 congressional promise of half-pay pensions for life (a pension of half your active-duty pay for life, the only deferred compensation ever promised to officers who had often had no pay at all) that Congress had no money to fund and the states had no intention of honoring. Some men in Philadelphia, nationalists around the financier Robert Morris and including Gouverneur Morris and Alexander Hamilton, saw the army's righteous anger as a useful fire: if the soldiers got angry enough, perhaps the states could finally be frightened into granting Congress the power to tax. It was a dangerous game to play with armed, unpaid men."
+      },
+      {
+        "p": "In March 1783 it nearly caught. An anonymous paper, written by a young major named John Armstrong Jr. (an aide to General Horatio Gates), circulated through the camp calling an unauthorized mass meeting and hinting that the army should refuse to disband, or even to keep fighting if the war resumed, until it was paid. This was the unthinkable thing: an army turning its weight against the civilian government it served. Washington forbade the irregular meeting and called his own for March 15."
+      },
+      {
+        "p": "He came and spoke against the anonymous appeal, and the words did not land. Then he pulled out a letter from a congressman to read aloud, fumbled with it, and reached for a pair of spectacles almost none of his officers had ever seen him wear, saying, as one of them recorded it afterward, \"Gentlemen, you will permit me to put on my spectacles, for I have not only grown gray, but almost blind, in the service of my country.\" (The line is not in his prepared text; it survives through eyewitnesses, and the wording wobbles a little from account to account.) The room broke. Officers who had been ready to threaten the republic an hour earlier were in tears, and the meeting voted its confidence in Congress instead. Historians still argue how close to a real coup this ever was, and how deliberately the men in Philadelphia stoked it; what is not in doubt is that the most dangerous moment came and went in a camp assembly hall, and the army stood down."
+      },
+      {
+        "p": "Then it went home, mostly unthanked. With a preliminary peace ending the fighting, Congress voted in the spring of 1783 not to discharge the soldiers but to furlough them (sent home temporarily, with the legal obligation to return if called, rather than discharged), which was cheaper and reversible if the peace fell through, and the furloughs began on June 13, 1783. The men walked home with three months' pay in \"Morris notes\" (paper backed by Robert Morris's personal credit) and final-settlement certificates for everything else they were owed. Those certificates were paper promises, and a man with no shoes and a long road home could not eat a promise, so most sold them to speculators for a fraction of face value, and watched other men buy their back pay at a discount. Joseph Plumb Martin put the bitterness plainly:"
+      },
+      {
+        "p": "When the country had drained the last drop of service it could screw out of the poor soldiers, they were turned adrift like old worn-out horses, and nothing said about land to pasture them upon. — Joseph Plumb Martin, remembering the 1783 discharge half a century later (memoir, 1830)",
+        "q": true
+      },
+      {
+        "p": "The officers, before they scattered, founded a fraternal order, the Society of the Cincinnati, named for the Roman farmer-general Cincinnatus, who left his farm to save Rome and then went straight back to his plow. Its membership was to pass down through eldest sons, hereditary, and that single clause set off a real panic that the Revolution had just bred a military aristocracy. Washington tried to get the hereditary feature abolished; the state societies balked; the reform quietly died. A people who had spent eight years terrified of a standing army ended the war with an officers' order that passed its membership to their sons."
+      },
+      {
+        "p": "And there is the meaning of the whole thing. The republic's first national institution was an army with every reason to be furious: starved by a broken system, paid in paper that turned to nothing, held past its enlistments, and sent home with promises it had to sell to strangers to afford the walk. It had the grievance, it had the guns, and at Newburgh it had the moment, and it chose not to use any of that against the government it had built. The United States began with the one thing its founders feared most, a standing army, and the most important thing that army ever did was decide to lay itself down. The men who walked home unthanked in 1783 had won the war; the institution they had been, and then ceased to be, had settled the larger question, that in this country the army would answer to the government, and not the other way around."
+      }
+    ]
+  },
+  "slavery-and-the-revolution": {
+    "eyebrow": "A war for liberty fought by a society that held half a million people in bondage",
+    "title": "Slavery and the Revolution",
+    "blocks": [
+      {
+        "p": "In 1775 slavery was legal in every one of the thirteen colonies. Not most of them. All of them. Massachusetts, where the first shots were fired, allowed one person to own another, and so did every colony to its north and south. Out of roughly two and a half million people in British America, about half a million were enslaved, which is to say that close to one person in five living in the colonies that were about to declare that all men are created equal was, in law, the property of someone else."
+      },
+      {
+        "p": "The people of the time saw this perfectly well, and a striking number of them said so out loud. The contradiction at the center of the American Revolution, a war for liberty waged by enslavers, was named at the time, on every side, in pamphlets and private letters and even in the first draft of the Declaration of Independence. And the Revolution did two opposite things with it at once. It set off the first wave of abolition in the history of the Atlantic world, and it left slavery deeper and more secure where most of the enslaved actually lived."
+      },
+      {
+        "p": "Running underneath both, the steadiest thread in the whole story, were Black Americans themselves, who fought on both sides of this war for the same thing, their own freedom, and who took it from whichever army was selling it cheapest. That is the one consistent set of motives in this chapter. Everyone else's motives were tangled. Theirs were not."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/idea-of-independence",
+        "plabel": "The Idea of Independence"
+      },
+      {
+        "h": "The landscape in 1775",
+        "eyebrow": "Legal everywhere, dominant in the South"
+      },
+      {
+        "p": "It is tempting to file slavery under \"the South\" and move on. That is wrong. Slavery in 1775 was legal everywhere and dominant in the South, which is a different and more uncomfortable sentence."
+      },
+      {
+        "p": "Where it was dominant, it was overwhelming. In Virginia, the largest and most influential colony, enslaved people made up about forty percent of the population. In South Carolina they were a majority, around sixty percent of everyone in the colony, and in the rice parishes of the lowcountry the share ran far higher still, so that a white planter might live surrounded by Black people he owned and feared in roughly equal measure. Maryland and North Carolina each held well over a hundred thousand enslaved people. This was not an institution at the edges of Southern life; it was the economy, the labor system, and the social order all at once."
+      },
+      {
+        "p": "But the North was not clean. New York held the largest enslaved population of any Northern colony, with slavery woven into the working economy of New York City; the first real count, the 1790 census, would put the state's enslaved population above twenty-one thousand. New Jersey held more than eleven thousand. New England's numbers were smaller, a few percent, but real: enslaved people worked in Boston and Newport and on Connecticut farms. And Rhode Island merchants, in Newport and Bristol, were the leading American carriers of the Atlantic slave trade itself, the people who sailed the ships that brought captives across the ocean. The colony that would soon raise a regiment of formerly enslaved soldiers was, at the same moment, the American capital of slave trading."
+      },
+      {
+        "h": "The contradiction contemporaries saw",
+        "eyebrow": "From a London sneer to a private confession in Virginia"
+      },
+      {
+        "p": "The cleanest way to show that the contradiction was visible in 1775, and not a later invention, is to let the people of that year say it themselves, because they did, repeatedly, and in their own words."
+      },
+      {
+        "p": "In London, Samuel Johnson, the great dictionary-maker, had no patience for the colonists. He thought their grievances overblown and their cause unjust, and in a 1775 pamphlet attacking them he landed the line that has outlived every other thing said about American independence that year."
+      },
+      {
+        "p": "How is it that we hear the loudest yelps for liberty among the drivers of negroes? — Samuel Johnson, 1775",
+        "q": true
+      },
+      {
+        "p": "Johnson was a hostile witness. He opposed American independence and slavery both, and the line landed because it was true. But you did not have to be an enemy of the Revolution to see it. Almost a year before the fighting started, Abigail Adams wrote to her husband John from Braintree, Massachusetts, in plainer, more anguished form: \"I wish most sincerely there was not a slave in the province. It always appeared a most iniquitous scheme to me — fight ourselves for what we are daily robbing and plundering from those who have as good a right to freedom as we have.\" She wrote that amid rumors that enslaved people in Boston were planning to offer to fight for the royal governor in exchange for their freedom, which tells you the enslaved had already done the same arithmetic everyone else was doing, only sooner."
+      },
+      {
+        "p": "And then there is the one that is hard to read. In 1773, two years before he stood up and said \"give me liberty or give me death,\" Patrick Henry wrote a private letter to a Quaker abolitionist who had sent him an anti-slavery book. Henry agreed with the book. He called slavery \"repugnant to humanity.\" And then, owning people the entire time he wrote it, he confessed: \"I am drawn along by the general inconvenience of living without them. I will not, I cannot justify it.\" He knew exactly what he was doing, said it was wrong, and kept doing it because freeing his slaves would be inconvenient. He put none of his own spin on it, and there is none to add."
+      },
+      {
+        "p": "The contradiction even made it into the Declaration of Independence, and then got cut out. In his draft, Thomas Jefferson, who enslaved more than a hundred people, wrote a long passage blaming King George for the slave trade itself, accusing him of having \"waged cruel war against human nature itself\" by \"captivating and carrying\" Africans \"into slavery in another hemisphere.\" It is a remarkable thing for a slaveholder to have written, and incoherent in the same breath, because Jefferson went on to accuse the King of the opposite crime too: of \"exciting those very people to rise in arms among us,\" meaning that the King's offer of freedom to enslaved people who would fight for him counted, to Jefferson, as an outrage as well. Enslaving them was a crime, and freeing them was also a crime. Congress cut the whole passage, partly at the insistence of South Carolina, Georgia, and Northern merchants in the slave trade. What survived was one cold phrase, the charge that the King had stirred up \"domestic insurrections amongst us.\" That phrase was about the enslaved."
+      },
+      {
+        "p": "Many founders called slavery evil in private. Almost none of the slaveholding ones acted against their own holdings. Both halves are the record."
+      },
+      {
+        "h": "Dunmore's proclamation",
+        "eyebrow": "The royal governor who offered freedom, and meant to win a war by it"
+      },
+      {
+        "p": "Then the war forced the question, and it was the British who forced it first, for reasons that had nothing to do with conscience."
+      },
+      {
+        "p": "By the autumn of 1775, John Murray, the fourth Earl of Dunmore and the last royal governor of Virginia, had been driven out of his capital and was running what was left of his authority from a warship in the Chesapeake. He was losing, he needed soldiers, and he was sitting in a colony where forty percent of the people were held in bondage by the very planters in rebellion against him. On 7 November 1775, aboard the ship *William* off Norfolk, he signed a proclamation, proclaimed publicly a week later, that offered freedom to a specific group of enslaved people: \"all indented servants, Negroes, or others (appertaining to rebels) free, that are able and willing to bear arms, they joining his Majesty's troops.\" (The word \"indented\" is the period spelling of indentured.)"
+      },
+      {
+        "p": "Read the limits, because they are the whole truth of it. The offer applied only to people enslaved by rebels; if you were owned by a Loyalist, you stayed a slave. It applied only to those \"able and willing to bear arms,\" meaning able-bodied men, not their wives or children. And the stated purpose, in the document itself, was \"the more speedily reducing this colony to a proper sense of their duty,\" which is to say crushing the rebellion. Dunmore was no abolitionist: he personally enslaved dozens of Africans in Virginia and the Caribbean, and had bought a plantation outside Williamsburg the year before. He was a slaveholder offering freedom to other men's slaves as a weapon of war, and the men who took him up on it knew it and came anyway, because a cynical offer of freedom is still an offer of freedom, and they were in no position to be choosy about the motives of the person opening the door."
+      },
+      {
+        "p": "One of the men who answered was Harry Washington, enslaved at Mount Vernon by George Washington himself, who escaped to Dunmore's fleet in 1776. Keep his name; this chapter ends with him an ocean away."
+      },
+      {
+        "p": "They came in the hundreds. Estimates of how many reached Dunmore's lines run from around eight hundred to around two thousand, and they included women and children he had never invited. From the men, Dunmore formed an all-Black unit with white officers, the Ethiopian Regiment. A Virginia newspaper reported that the soldiers wore the words \"Liberty to Slaves,\" apparently on their uniforms, which, if the report is right, is a pointed answer to Patrick Henry's \"Liberty or Death,\" made by the very people Henry kept enslaved. The regiment fought, with a small share in an early skirmish at Kemp's Landing, and then was beaten badly at Great Bridge in December 1775, after which Dunmore abandoned Norfolk for his ships."
+      },
+      {
+        "p": "What killed most of them was not the Patriots. It was disease. Dunmore's floating community, crowded onto ships and islands, became a death trap, and smallpox above all tore through it. In the spring of 1776 his forces moved to Gwynn's Island in the Chesapeake, and hundreds of the Black recruits sickened and died there. When Patriot troops landed in July they found the dying and the unburied dead, and somewhere in those camps the sashes reading \"Liberty to Slaves\" were being buried with the men who had worn them. When Dunmore finally quit Virginia in August 1776, only about three hundred Black survivors sailed with him. The first mass bid for freedom of the war ended, for most who made it, on a sickbed."
+      },
+      {
+        "p": "But the proclamation did something its author never intended, one of the most important second-order effects in the whole Revolution. By threatening to free their human property, Dunmore terrified white Southerners and shoved the wavering ones toward independence. A planter who might have hesitated over a tea tax did not hesitate when the Crown started arming his slaves. The historian Gary Nash judged that the proclamation \"became a major factor in convincing white colonists that reconciliation with the mother country was impossible.\" Richard Henry Lee of Virginia wrote that Dunmore's conduct had, a few Scots excepted, \"united every Man in that large Colony.\" The British attempt to use slavery against the rebellion helped guarantee the rebellion would succeed as a slaveholders' cause."
+      },
+      {
+        "fig": "/war-img/rev-slavery-dunmore-proclamation.jpg",
+        "cap": "The proclamation itself, signed aboard a warship on 7 November 1775. Its offer of freedom reached only people enslaved by rebels, only able-bodied men willing to fight, and only as a way of \"reducing this colony to a proper sense of their duty,\" which is to say winning the war. Dunmore enslaved people himself.",
+        "credit": "Printed broadside of Lord Dunmore's Proclamation, 1775 · public-domain government document"
+      },
+      {
+        "fig": "/war-img/rev-slavery-dunmore-portrait.jpg",
+        "cap": "John Murray, the fourth Earl of Dunmore, the royal governor whose 1775 proclamation offered freedom to rebels' enslaved people as a weapon of war. He was no abolitionist: he personally enslaved dozens of Africans in Virginia and the Caribbean even as he proclaimed freedom to other men's slaves.",
+        "credit": "John Murray, 4th Earl of Dunmore, by Sir Joshua Reynolds, 1765 · public domain (artist d. 1792)"
+      },
+      {
+        "h": "Self-emancipation at scale",
+        "eyebrow": "Tens of thousands ran, and the count is a real fight"
+      },
+      {
+        "p": "Four years later the British widened the offer, and the trickle became a flood. (Self-emancipation is exactly what it sounds like: freeing yourself, by running, without waiting for an owner or a law to do it.)"
+      },
+      {
+        "p": "On 30 June 1779, Sir Henry Clinton, the British commander-in-chief, issued the Philipsburg Proclamation from his headquarters in New York. It promised \"to every NEGROE who shall desert the Rebel Standard, full security to follow within these Lines, any Occupation which he shall think proper.\" This was a far bigger door than Dunmore's. It applied across all the colonies, and it required no military service, so that any enslaved person of a rebel who could reach British lines was protected, women and children included. It was the largest invitation to self-emancipation in American history to that point."
+      },
+      {
+        "p": "It was also, like Dunmore's, carefully self-interested. The same proclamation threatened that any Black man captured fighting in the rebel army would be sold, and it left every Loyalist's slaves untouched. The British were freeing the enemy's slaves while protecting their friends' and threatening to sell the ones who fought for the wrong side. Freedom here was a lever, not a principle, both halves printed in the same document."
+      },
+      {
+        "p": "How many people seized the offer is the single most fought-over number in this story, inflated and deflated for two centuries. Tens of thousands of enslaved people ran to British lines over the course of the war; that much is beyond dispute. The count is not. Older histories, including the standard work of Sylvia Frey and Gary Nash, put the total flight as high as eighty thousand to a hundred thousand. More recent scholarship, led by the historian Cassandra Pybus, reworked the evidence and argued those figures were wildly too high; her estimate for the number who actually reached British lines is closer to twenty thousand to twenty-five thousand, with the work of Maya Jasanoff pointing to the same order of magnitude. We do not have a firm number, and the honest range is wide. What is not in dispute is that the flight was enormous and that disease, smallpox above all, killed perhaps half of those who ran before they ever tasted the freedom they had risked everything for. The largest emancipation movement of the century ran straight through an epidemic."
+      },
+      {
+        "p": "Even Jefferson's famous figure belongs in the doubtful column. He claimed that Virginia alone lost \"about thirty thousand\" enslaved people in 1781 during Cornwallis's campaign, most of them, he said, to smallpox and camp fever. The number echoed through the history books for two hundred years, until Pybus's reexamination, pointedly titled \"Jefferson's Faulty Math,\" concluded it was a baseless extrapolation. The flight was real and vast; the count is genuinely unsettled; no single clean total should ever be printed as if it were known."
+      },
+      {
+        "p": "One of those tens of thousands was Harry Washington, the man who had escaped Mount Vernon to Dunmore's fleet in 1776. He served in the British lines through the war, and at war's end was carried to Nova Scotia as a free man, his age recorded there as forty-three; in 1792 he would sail again, across the ocean to West Africa. The commander of the Continental Army spent the war chasing the British while one of his own enslaved people fought on the other side for the freedom Washington's cause would not give him. And he was not the only one to run from that plantation: in April 1781, when a British warship came up the Potomac, seventeen enslaved people fled Mount Vernon to reach it."
+      },
+      {
+        "h": "Black Patriots",
+        "eyebrow": "The men who chose the other army, and the freedom that came grudgingly"
+      },
+      {
+        "p": "Not everyone bet on the British. Thousands of Black Americans fought for the Patriot side, often for the same reason their counterparts ran the other way: because that was where they thought freedom lay, or because that was the side they were standing on when the war reached them. Crispus Attucks, among the first to die in the whole conflict, on King Street in 1770 (Chapter 3), was of African descent. Black men, free and enslaved, were at Lexington, at Concord, and at Bunker Hill before George Washington ever took command of the army."
+      },
+      {
+        "p": "What we know about them is often thinner than the legends that grew up later. At Bunker Hill, a free Black soldier named Salem Poor, who had bought his own freedom, did something that impressed fourteen Massachusetts officers enough that on 5 December 1775 they petitioned the legislature on his behalf, writing that he \"behaved like an Experienced officer, as Well as an Excellent Soldier,\" and that \"in the Person of this Sd. Negro Centers a Brave & gallant Soldier.\" No other soldier at Bunker Hill received a testimonial like it. And yet the petition never says what he actually did; the officers wrote that \"to set forth the particulars of his conduct would be tedious.\" The later story that he shot a British officer is nineteenth-century tradition with no contemporary evidence behind it. So what we have is solid: a contemporary document, signed by fourteen witnesses, naming a Black man's courage. We have the courage, not the deed, and we should not invent one. The similar tale of Peter Salem, another Black soldier said to have fired the shot that killed a British major at Bunker Hill, is also a legend that surfaced decades later; he certainly served, but the famous shot is a story, not a record."
+      },
+      {
+        "p": "George Washington's own position on Black soldiers lurched back and forth in a way that maps the war's pressures exactly. In July 1775, just after taking command, his headquarters told recruiters not to enlist any \"deserter from the Ministerial army, stroller, negro, or vagabond,\" a list that lumped free and enslaved Black men in with vagrants and the enemy's runaways. On 12 November 1775 his general orders barred all Black men, free or enslaved, from enlisting at all. Five days after that, Dunmore's proclamation was published, and the calculation changed overnight, because every Black man Washington turned away was a man the British would happily arm. On 30 December 1775 he reversed course for free Black veterans, announcing that since \"Numbers of Free Negroes are desirous of inlisting,\" recruiting officers could \"entertain them.\" Congress agreed in January 1776 for free Black men who had already served. After that the rule and the practice drifted apart: as white enlistments dried up, Black men were quietly taken in well past the formal limits, and they served, overwhelmingly, in the same units as white soldiers rather than in segregated ones. Historians have argued that the late-war Continental Army was the most racially integrated American army the country would field before Vietnam."
+      },
+      {
+        "p": "The one famous exception ran in the other direction. In February 1778, Rhode Island, unable to fill its quota of Continental soldiers, voted that \"every able-bodied negro, mulatto, or Indian man slave\" in the state could enlist, and that any who did \"shall be immediately discharged from the service of his master or mistress, and be absolutely free.\" The state compensated the owners at market value. About eighty-eight enslaved men enlisted in the first four months, and together with free Black and Native recruits the regiment counted roughly a hundred and forty men of color out of around two hundred and twenty-five. Alarmed at the cost, the assembly shut the slave-enlistment window after four months, on 10 June 1778. The 1st Rhode Island Regiment, sometimes called the Black Regiment, fought creditably that August at the Battle of Rhode Island, helping repel repeated assaults during the retreat from a failed operation against Newport. But be precise about what it was. It was never all-Black; it had white officers throughout, and later white replacements. It was a one-state, four-month experiment born of desperation, not a Continental policy. And the freedom it offered came with a price tag the state paid to the enslavers. It was real, and it was also exactly as far as the Patriot side was willing to go, which was not far."
+      },
+      {
+        "p": "How many Black men served the Patriot cause in all is, like the flight numbers, a range rather than a figure. The long-standard estimate is about five thousand; the Daughters of the American Revolution's *Forgotten Patriots* project has documented around sixty-six hundred named soldiers and sailors of color; recent scholarship argues for eight to ten thousand or more. The records are too thin for a better answer than \"somewhere between five and ten thousand.\""
+      },
+      {
+        "p": "The grind of getting free for that service is best seen in one man. James Armistead was enslaved in New Kent County, Virginia. With his owner's consent, he served the Marquis de Lafayette in 1781 as a spy, slipping into Cornwallis's camp and feeding Lafayette intelligence while feeding the British disinformation, work that helped set up the trap at Yorktown that effectively won the war. And then Virginia's 1783 law freeing enslaved men who had served as soldiers did not cover him, because a spy was not a soldier. It took a testimonial from Lafayette and a special act of the legislature in 1787, which compensated his owner two hundred and fifty pounds, to make him a free man, under the name James Lafayette. The man who helped win the decisive battle of American independence spent six more years owned before the country he had served got around to freeing him."
+      },
+      {
+        "fig": "/war-img/rev-slavery-armistead.jpg",
+        "cap": "James Armistead Lafayette, who spied inside Cornwallis's camp for the Marquis de Lafayette before Yorktown. Virginia's 1783 law freed enslaved soldiers but not enslaved spies; it took a testimonial from Lafayette and a special legislative act in 1787 to free him. This is a portrait made decades after the war, of an elderly man, not a wartime likeness.",
+        "credit": "Engraving of James Armistead Lafayette, early 19th century · public domain"
+      },
+      {
+        "h": "Slavery inside the cause",
+        "eyebrow": "Substitutes, the plan that died three times, and bounties paid in human beings"
+      },
+      {
+        "p": "At the same time the Patriot army recruited Black men for freedom, it ran on slavery in ways that deserve their own accounting."
+      },
+      {
+        "p": "Start with substitutes. State drafts let a man called up for service hire someone to go in his place, and slaveholders in several states sent enslaved men to serve as their substitutes. Freedom was sometimes promised for it, sometimes granted, and sometimes denied once the war was over and the enslaver wanted his property back. The abuse got common enough that Virginia passed a law in 1783 freeing enslaved men whose owners had passed them off as free substitutes and then tried to re-enslave them after they had risked their lives, the legislature calling out owners who had broken their own solemn promises. The free army needed a law to stop its own soldiers from being dragged back into slavery by the men they had served for."
+      },
+      {
+        "p": "Then there is the plan that might have changed the story, and didn't. John Laurens was a South Carolinian, Washington's aide, and the son of Henry Laurens, the president of the Continental Congress and one of the largest slave traders in American history. The younger Laurens proposed raising whole battalions of enslaved men who would be freed in exchange for their service. Alexander Hamilton backed it in a March 1779 letter, arguing bluntly that \"the negroes will make very excellent soldiers,\" that their \"natural faculties are probably as good as ours,\" and that giving them their freedom would have a good influence \"by opening a door to their emancipation.\" Congress, in March 1779, went so far as to recommend that South Carolina and Georgia raise three thousand Black soldiers, with owners compensated and the men freed at war's end with fifty dollars apiece. It recommended this only \"if they shall think the same expedient,\" and they did not. South Carolina rejected the plan furiously, three separate times, in 1779, 1780, and 1782, refusing even when the British occupied Charleston in between. One South Carolina leader reported it was \"received with great resentment, as a very dangerous and impolitic Step.\""
+      },
+      {
+        "p": "The plan died with the man who carried it. Washington, writing to John Laurens in 1782, diagnosed the failure without quite condemning it: \"That spirit of freedom which at the commencement of this contest would have gladly sacrificed every thing to the attainment of its object has long since subsided, and every selfish passion has taken its place.\" Washington was an enslaver who never put his own weight behind the plan, so this is a man describing a tide he was floating on, not fighting. A month later, in August 1782, John Laurens was killed in a pointless skirmish at the Combahee River in South Carolina, and the idea of a Black battalion freed for its service went into the ground with him."
+      },
+      {
+        "p": "And then there is the bluntest fact in the chapter, the one no euphemism survives contact with: the army of liberty paid some of its soldiers in human beings. From April 1781, the South Carolina general Thomas Sumter recruited state troops by promising them payment in enslaved people, confiscated from Loyalist owners, on a scale of roughly one enslaved person per private for ten months' service and more for officers. In February 1782 the South Carolina legislature formalized the practice into law. Georgia went further still, using enslaved people to pay public officials and settle the state's military debts. Not everyone went along; the partisan commander Francis Marion refused to recruit men on those terms. But the system was real and legal: a soldier could fight for American liberty and be handed a human being as his wage. Beneath all of it ran the quieter, constant fact that enslaved people dug the fortifications, drove the wagons, and cooked the food for both armies. Unfree labor underwrote the war for freedom from the bottom up."
+      },
+      {
+        "h": "The first abolition wave, and the entrenchment",
+        "eyebrow": "Five jurisdictions began ending slavery; nine in ten enslaved people felt nothing"
+      },
+      {
+        "p": "Out of this same war came something genuinely new in the history of the world: the first time any government anywhere had moved to legislate slavery out of existence. It happened in five Northern jurisdictions, and the precise mechanisms matter, because the gap between \"abolished slavery\" and what actually happened is where the honesty of this section lives. The shape of all of it was set by one bedrock problem: slavery was legal property, so ending it immediately meant either paying owners for that property or confiscating it, and almost no legislature would do either. Gradualism was the price of doing it at all."
+      },
+      {
+        "p": "Vermont came first, on 8 July 1777. Vermont was not even one of the thirteen colonies; it was an unrecognized breakaway republic. Its founding constitution declared that no adult could be held as a slave, no man past twenty-one and no woman past eighteen, unless they consented. That made it the first written constitution anywhere to ban adult slavery. It also came with loopholes, because children could still be held until those ages and enforcement was weak for years, so the ban was first and it was leaky, both at once."
+      },
+      {
+        "p": "Pennsylvania passed the first actual abolition statute by an elected legislature, the Act for the Gradual Abolition of Slavery, on 1 March 1780, and the word \"gradual\" is carrying an enormous load. The act freed no one then alive. Every person enslaved in Pennsylvania on the day it passed remained enslaved for the rest of their life, provided their owner registered them. Only children born after the act were born \"free,\" and even that freedom came with a long string attached: each such child owed indentured service, meaning bound and unpaid labor they could not quit, to their mother's enslaver until the age of twenty-eight. They were not slaves from birth, but they were tied to the same household, working without wages, for nearly three decades. Pennsylvania still had enslaved residents into the 1840s. This was abolition that began the end of slavery without freeing a single living person, and that gradualism is the honest face of Northern emancipation."
+      },
+      {
+        "p": "Massachusetts ended slavery a third way, through neither a constitution nor a statute but a courtroom. Its 1780 constitution declared that \"all men are born free and equal,\" and enslaved people took the state at its word. Elizabeth Freeman, an enslaved woman known as Mum Bett, sued for her freedom under that clause in 1781, alongside an enslaved man named Brom; the jury freed them. That same year an enslaved man named Quock Walker won his own freedom suit, and in a related 1783 case the chief justice of Massachusetts told the jury that slavery was simply incompatible with the new constitution, that \"there can be no such thing as perpetual servitude of a rational creature.\" Massachusetts never passed an abolition law and never amended its constitution to ban slavery. Slavery there withered under the weight of these verdicts and a collapsing willingness to defend it, until by the 1790 census Massachusetts reported zero enslaved people, the only one of the original states at zero. It was ended by court verdict and social collapse, not by statute. (Connecticut and Rhode Island would pass their own gradual-abolition acts in 1784, just after the war.)"
+      },
+      {
+        "p": "Even Virginia cracked open a door. Its 1782 manumission act let owners free enslaved people privately, by deed or will, for the first time since 1723 without petitioning the legislature case by case. (To manumit is for an owner to free a person they have enslaved; the act simply made that owner's choice legal without a special petition.) Virginia's free Black population jumped from a couple of thousand in 1782 to around twelve thousand eight hundred by 1790. But measure that against the roughly two hundred ninety-three thousand people still enslaved in Virginia in 1790, and manumission had freed a few percent. And the door did not stay open; in 1806 Virginia would require newly freed people to leave the state within a year or risk being enslaved again."
+      },
+      {
+        "p": "That is the whole of the good news, and the other side of the ledger is larger. South of Pennsylvania the war ended with slavery legally untouched everywhere it had existed, and in South Carolina and Georgia it ended positively reinforced, by Sumter's bounties and by the ferocious defense of human \"property\" that ran straight through the peace negotiations. Planters rebuilt their enslaved labor forces. The international slave trade reopened in the lower South. The legal machinery of slavery came out of a revolution for liberty stronger, not weaker, in the places where nine of every ten enslaved Americans actually lived. None of this needs the cotton boom to explain it; cotton's great expansion was still years off in 1783. The entrenchment was already real, built out of legal continuity and the war's own bargains, before cotton entered the story at all."
+      },
+      {
+        "h": "The evacuation",
+        "eyebrow": "The Book of Negroes, Washington demanding his property back, and the ships"
+      },
+      {
+        "p": "The war ended where so much of it had been fought over, at the water's edge, in New York harbor in 1783, with thousands of Black people waiting to find out whether they would sail to freedom or be handed back to slavery."
+      },
+      {
+        "p": "The peace treaty contained a clause, Article 7, barring the British from \"carrying away any Negroes or other property\" of Americans, and when word of it reached the Black refugees behind British lines in New York, it produced terror. Boston King, who had been enslaved in South Carolina, had escaped to the British, and had become a Methodist preacher, described it in a memoir years later: a \"report prevailed at New-York, that all the slaves, in number 2000, were to be delivered up to their masters,\" and \"this dreadful rumour filled us all with inexpressible anguish and terror, especially when we saw our old masters coming from Virginia, North-Carolina, and other parts, and seizing upon their slaves in the streets of New-York, or even dragging them out of their beds.\" The freedom they had risked everything for was, for a few weeks, in danger of being canceled by a sentence in a treaty."
+      },
+      {
+        "p": "It came down to a meeting. On 6 May 1783, at Orangetown, New York, George Washington met the British commander-in-chief, Sir Guy Carleton, who had succeeded Sir Henry Clinton, and pressed for the return of escaped enslaved people as American property under the treaty, including, pointedly, his own runaways from Mount Vernon. Carleton refused. Britain, he said, had promised these people their freedom in proclamations issued years before the treaty was signed, and the national honor required keeping that promise; according to a memoir by William Smith, who was present, \"no interpretation could be put upon the Articles inconsistent with prior Engagements binding the National Honor.\" Carleton's stand was genuinely honorable, and it was also argued entirely inside the logic of property. He did not dispute that people could be owned; he proposed instead that the British compensate the owners in money, and the ledger he was already keeping of every Black person who embarked existed partly so those claims could be settled later. He kept faith with the formerly enslaved in the language of the slaveholders' own property law."
+      },
+      {
+        "p": "That ledger was the Book of Negroes, kept by British officials between April and November 1783, recording the names, ages, descriptions, and former owners of the Black refugees leaving New York, and whether each carried a certificate of freedom. The certificate was the thing that mattered at the dock. It was a British military document, signed in the name of the commandant of New York, Brigadier General Samuel Birch (or General Musgrave), that named its bearer a free person under the wartime proclamations; without one you could not board a ship out. The process was not automatic. A joint British-American board sat at the embarkation, and a former owner could come before it and try to prove that a given person was his property rather than a freed Black Loyalist. People lost those hearings: the records include men and women claimed back and handed over before they could sail. That is why Boston King's terror and Carleton's national-honor stand both make sense at once. The certificate was real protection, but only people who had reached the British before the 1782 ceasefire held it securely, and the board, not the refugee, decided the close cases. The Book records about three thousand people. It survives in two original copies, has been digitized by the Nova Scotia Archives, and is the largest single document of its kind in eighteenth-century North America, a census, in effect, of people who had freed themselves. Boston King again, on receiving his certificate: \"each of us received a certificate from the commanding officer at New-York, which dispelled all our fears, and filled us with joy and gratitude.\""
+      },
+      {
+        "p": "Most of those three thousand sailed to Nova Scotia, where the settlement of Birchtown became one of the largest free Black communities in North America. The promises of land and provisions were mostly broken: poor land or no land, wage exploitation, legal inequality, and in 1784 outright anti-Black riots at nearby Shelburne. David George, a Baptist preacher who had freed himself behind British lines at Savannah, remembered in his 1793 account preaching in the open: \"I began to sing the first night in the woods at a camp, for there were no houses then built. The Black people came far and near.\" Disillusioned with Nova Scotia, 1,196 of these Black Loyalists boarded fifteen ships in January 1792 and sailed to West Africa, where they founded Freetown in Sierra Leone. Boston King was among them. So was David George. So was Harry Washington, once enslaved at Mount Vernon, who had now crossed the Atlantic to freedom in the opposite direction his ancestors had been carried."
+      },
+      {
+        "p": "But New York was the registry of the free, and it was not the whole evacuation. From Savannah in 1782 and from Charleston late that same year, the British carried off far larger numbers of Black people who were not free at all, the human property of departing Loyalists, roughly thirty-five hundred from Savannah and more than five thousand from Charleston, shipped to Jamaica, East Florida, and other plantation colonies to remain enslaved or be sold. Some Black people the British themselves held as captured \"rebel property\" were kept or sold off as well. The same empire that kept its word at New York carried thousands of others into continued slavery from two ports down the coast. British emancipation in this war was real, and selective, and self-interested, all three at once, and the chapter that told you only the first part would be lying by omission."
+      },
+      {
+        "h": "The sober landing",
+        "eyebrow": "1790, and the two Black Americas the war made"
+      },
+      {
+        "p": "So count it up. The Revolution produced the first wave of abolition at the scale of states in the entire history of Atlantic slavery; five Northern jurisdictions ended or began ending slavery between 1777 and 1784, the first polities anywhere to legislate it toward extinction. It freed, by flight and service and court verdict and manumission, tens of thousands of people. It created the first large free Black communities and institutions of the new nation, the churches and schools and petitions that would carry the next fight."
+      },
+      {
+        "p": "And it left slavery untouched where it mattered most. The first United States census, in 1790, counted almost seven hundred thousand enslaved people, nearly two hundred thousand more than the half million of 1775. Virginia alone held two hundred ninety-two thousand of them. The republic born from a war for liberty was, at its birth, the largest slaveholding nation in the hemisphere after Brazil and the Caribbean sugar colonies, a slaveholders' republic with a free-soil fringe along its northern edge."
+      },
+      {
+        "p": "Both of those Black Americas, the free settlers founding Freetown across an ocean and the nearly seven hundred thousand people still held in the new nation's own fields, came out of the same eight years. The Revolution was the largest emancipation event in American history before the Civil War, and it was the moment the American foundations of slavery were poured again, deeper. Both are true. The country would spend the next eighty years discovering it could not keep them both, and would settle the question only with a far bloodier war."
+      }
+    ]
+  },
+  "women-of-the-revolution": {
+    "eyebrow": "When the men marched off, the war moved into the kitchen",
+    "title": "Women of the Revolution",
+    "blocks": [
+      {
+        "p": "When the men marched off in 1775, the war did not stay at the front. It came home, into the farmyard and the shop and the account book, and it landed on people the law barely recognized as people. To understand what it landed on, you have to start with a single ugly word: coverture."
+      },
+      {
+        "p": "Coverture was the rule that governed a married woman's whole legal life under English common law, carried into every American colony. Marriage merged a wife's legal identity into her husband's so completely that, in law, she stopped existing as a separate person. William Blackstone, whose 1765 *Commentaries on the Laws of England* was the period's standard explanation of the law, put it without flinching: \"By marriage, the husband and wife are one person in law: that is, the very being or legal existence of the woman is suspended during the marriage, or at least is incorporated and consolidated into that of the husband.\" A married woman (the lawyers' term was *feme covert*, a woman \"covered\" by her husband) could not own property, keep her own wages, sign a contract, or sue in her own name. An unmarried woman or a widow (a *feme sole*) could do all of those things. Marriage was the line."
+      },
+      {
+        "p": "That is the fact every story in this chapter plays against. When the husbands left, somebody had to run the farm, keep the shop open, pay the taxes in money that was losing its value by the month, and decide when to flee an oncoming army. The people who did all of that were, on paper, not allowed to own the very property they were saving."
+      },
+      {
+        "h": "Deputy husbands",
+        "eyebrow": "Running an estate you were not allowed to own"
+      },
+      {
+        "p": "There was already a name for a wife who handled her husband's outside business while he was away. The historian Laurel Thatcher Ulrich called it the \"deputy husband\": in colonial households a wife routinely stood in for her husband in the family's dealings with the wider world, bargaining, keeping accounts, even handling legal matters, whenever he was gone. Nothing in the culture said a woman could not drive a hard bargain. The catch, as Ulrich noted, was that it was a deputy's power. She acted in his name, not on her own authority. She could run the whole estate and still not sell an acre of it, sign a note against it, or sue over it without his name on the paper."
+      },
+      {
+        "p": "The war took that occasional role and made it near-permanent. Husbands were not gone for a trading season now. They were gone for years. And the woman left in charge was managing, in his name, an estate the law said could never be hers."
+      },
+      {
+        "p": "Class decided what kind of war a woman had. A merchant's or lawyer's wife \"deputied\" a household with land, tenants, and money in it. A propertyless soldier's wife had no estate to run at all; when her husband enlisted or died, her choices narrowed to destitution or the army's baggage train. Abigail Adams's war and a camp follower's war were both real and both hard, but they were not the same war."
+      },
+      {
+        "h": "Remember the ladies",
+        "eyebrow": "Abigail Adams aims the Revolution's logic at the household"
+      },
+      {
+        "p": "Start with the famous one, because she said the famous thing. In the spring of 1776, with the Continental Congress in Philadelphia inching toward independence, Abigail Adams sat down in Braintree, Massachusetts, and wrote to her husband John, who was in the thick of it. The letter is dated 31 March 1776, and one passage of it has outlived almost everything else either of them wrote."
+      },
+      {
+        "p": "I desire you would Remember the Ladies, and be more generous and favourable to them than your ancestors. Do not put such unlimited power into the hands of the Husbands. Remember all Men would be tyrants if they could. — Abigail Adams, 1776",
+        "q": true
+      },
+      {
+        "p": "She went further, and the rest is sharper than the part people quote. If \"perticuliar care and attention is not paid to the Laidies,\" she warned, \"we are determined to foment a Rebelion, and will not hold ourselves bound by any Laws in which we have no voice, or Representation.\" She was taking the exact argument the colonists were making against Parliament, no laws without a voice in them, and turning it inward, against the men about to write the new code of laws. It is a joke and a threat in the same breath, and she meant both."
+      },
+      {
+        "p": "It is tempting to make her a suffragist a century and a half early, and tempting is exactly why it is wrong. Abigail Adams was not asking for the vote. Her target was the \"unlimited power… of the Husbands,\" which is to say coverture itself, the arrangement that let a husband own his wife's property and answer for nothing if he abused her. That was the tyranny she had in mind, and it was the daily one. Asking the new republic not to rebuild it into the founding law was radical enough on its own terms. She did not need to be asking for the franchise to be saying something dangerous."
+      },
+      {
+        "p": "John's reply, dated 14 April 1776, tells you how it landed. \"As to your extraordinary Code of Laws,\" he wrote, \"I cannot but laugh.\" He assured her that \"We know better than to repeal our Masculine systems,\" and joked that men would sooner take up arms than surrender the name of master and submit to \"the Despotism of the Peticoat.\" He laughed her off, and that is the truest preview of how the whole thing would end. The man who would help build the republic heard the argument, found it funny, and filed it away. The \"Masculine systems,\" as he promised, did not get repealed."
+      },
+      {
+        "p": "What the joking hides is that Abigail Adams spent the war proving the argument with her life rather than her pen. John was at Congress from 1774 to 1777, then in Europe on diplomatic missions from 1778 until she joined him abroad in 1784. For the better part of a decade she ran the Braintree farm and its tenants, raised and schooled the children through the war and the epidemics of 1775 and 1776, and handled the family money. More than that, she invested it, working largely through her uncle Cotton Tufts, putting funds into depreciated government securities (war bonds trading far below their face value because nobody was sure the government would ever pay) that paid off handsomely once the new federal government made good on its debts in the 1790s. Economic historians credit her with preserving and growing the Adams fortune. The man who could not stop laughing at her \"Code of Laws\" came home to an estate she had kept solvent. We can see all of this only because roughly 1,200 letters between them survive. She signed many of them \"Portia.\""
+      },
+      {
+        "fig": "/war-img/rev-women-abigail.jpg",
+        "cap": "Abigail Adams around 1766, a decade before \"Remember the Ladies.\" While her husband John sat in Congress and then crossed to Europe, she ran the family farm and finances for the better part of a decade and invested the money that preserved the Adams fortune. The roughly 1,200 surviving letters between them are why we can see the Revolution from the kitchen side at all.",
+        "credit": "Pastel of Abigail Smith Adams, Benjamin Blyth, c. 1766 · public domain (artist 18th c.)"
+      },
+      {
+        "h": "The army's working women",
+        "eyebrow": "The thousands who followed the baggage train, and what the work cost"
+      },
+      {
+        "p": "Now the other end of the class divide, the part of the war nobody painted a flattering portrait of. For every woman managing an estate from a parlor, there were others whose husbands' enlistment had pulled the floor out from under them. They did what the desperately poor have always done in a war: they followed the army."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/army-from-nothing",
+        "plabel": "An Army from Nothing"
+      },
+      {
+        "p": "They are called camp followers, and the first thing to say is what they were not. They were not, as a lazy old slander has it, a traveling brothel. The women of the army were overwhelmingly soldiers' wives, soldiers' widows, and refugees, poor women, often with children, who could not keep a household going once their man marched away and so went with him instead. Some were hired nurses; some were sutlers (licensed vendors who sold food, liquor, and small goods to the troops, the eighteenth-century camp store). A few were enslaved or indentured women brought along by others. Prostitution existed at the edges of every army in this period, but it does not describe this population, and the scholarship that has actually counted these women is blunt about that. They were working members of the military community, and the army knew it. The American Articles of War in 1776 swept \"all suttlers and retainers to a camp, and all persons whatsoever serving with the armies of the United States\" into military jurisdiction. They belonged to the army, in the historian Holly Mayer's phrase, and were subject to its discipline like anyone else in it."
+      },
+      {
+        "p": "What they did was the unglamorous labor an army cannot move without. The core trade was laundry, paid by the piece, and it was not busywork: clean clothes were disease control, the one defense an eighteenth-century camp had against the lice that carried typhus. A laundress might be bent over a tub of soldiers' shirts within earshot of the guns, and she stayed there because the work was hers and the wages were the only ones she had. Women nursed in the field hospitals, sometimes hired, sometimes simply drafted into it. They cooked, mended, carried water, and ran the sutler's trade. Unless a woman was formally employed as a laundress, nurse, or cook, she earned no wages at all. What she got was a ration: the daily allotment of food the army issued to keep her alive. The documented Continental norm, reconstructed from the army's surviving supply records, was a full ration for a woman and a half ration for each child, though it varied by period, commander, and unit, with some orders cutting women to a half ration; the harsher half-for-women, quarter-for-children version that often gets quoted as policy is not what the records show."
+      },
+      {
+        "p": "How many of them were there? On the American side, John U. Rees's count from the supply records puts it at roughly one woman for every thirty men, around two to three percent of the army's strength, drifting upward as the war wore on. The British army carried far more. General William Howe allowed six women per company on campaign in 1776 and 1777, and an August 1781 return for British-held New York worked out to about one woman for every four and a half soldiers. After Burgoyne's army surrendered at Saratoga in October 1777, something on the order of two thousand women went into captivity with it. The British, in short, dragged along several times the American proportion."
+      },
+      {
+        "p": "George Washington's feelings about all of this were a knot he never untied: he needed the work and resented the drag in the same breath. His general orders of 4 August 1777 complained that \"the multitude of women in particular, especially those who are pregnant, or have children, are a clog upon every movement,\" and told his commanders to \"use every reasonable method in their power to get rid of all such as are not absolutely necessary.\" He ordered that the women must not ride in the wagons but march on foot with the baggage, first in 1777 and then in some form nearly every year after. The women stayed anyway, every time, because the army could not get its washing done or its wounded tended without them, and because turning them out the gate meant turning them out to starve. By June 1781 Washington had bent far enough to allow that some would have to be permitted to ride or to walk in the ranks. The clog he kept trying to shed was the only thing keeping his men in clean shirts."
+      },
+      {
+        "p": "Following the army meant sharing the army's marches, its short rations, its diseases, and now and then its battles. Which is how some of these women ended up not behind the lines but at the guns."
+      },
+      {
+        "h": "At the guns",
+        "eyebrow": "Margaret Corbin, who was real, and Molly Pitcher, who was not"
+      },
+      {
+        "p": "Margaret Corbin is the one we can prove. She was born on the Pennsylvania frontier in 1751 (her parents were killed or carried off in a 1756 raid, though the details there are thin). She followed her husband, John Corbin, a Pennsylvania artilleryman, to war. On 16 November 1776 the British and their Hessian (German) troops stormed Fort Washington at the northern tip of Manhattan. The fort fell, and the assault was as bad as such things get. John Corbin was killed serving his cannon. Margaret stepped into his place at the gun and kept it firing until grapeshot (a cannon load of small iron balls that scattered like an enormous shotgun blast) tore into her, nearly severing her left arm and wounding her in the chest and jaw. The arm never worked again."
+      },
+      {
+        "p": "What makes Corbin more than an anecdote is what Congress did about her. On 6 July 1779 the Continental Congress resolved that Margaret Corbin, \"who was wounded and disabled in the attack on Fort Washington, whilst she heroically filled the post of her husband who was killed by her side serving a piece of artillery,\" should receive for the rest of her life a pension (a regular government payment to a veteran or a veteran's family) equal to one-half the monthly pay of a soldier, plus a suit of clothes or its cash value. That made her the first woman the United States ever pensioned for military service. Hold both halves of that at once: it was real recognition, written into the record by Congress, and it was set at half of what a man got. She was enrolled afterward in the Invalid Regiment (the unit for soldiers too maimed to fight but still on the books) at West Point, known around the post as \"Captain Molly.\" She died near West Point around 1800, poor and reportedly difficult, and largely forgotten."
+      },
+      {
+        "p": "There is a strange final beat. In 1926 the Daughters of the American Revolution dug up what they believed were Corbin's remains and reburied them with honors at West Point. In 2017 a forensic study found those remains belonged to an unknown man. Where Margaret Corbin actually lies is unknown; the monument still stands over the wrong grave."
+      },
+      {
+        "p": "Now the legend. If you have heard of a woman at a Revolutionary cannon, you have probably heard the name Molly Pitcher, and Molly Pitcher is not a person. No contemporary record names any such woman. The legend, a wife carrying water to the gun crews at the Battle of Monmouth in June 1778 who takes her fallen husband's place at the cannon, congealed in the nineteenth century out of several real threads, Corbin's \"Captain Molly\" story very likely among them. There probably was a real woman, or several, working the guns at Monmouth. The soldier Joseph Plumb Martin, decades later in his 1830 memoir, described one without naming her: a cannon shot from the enemy, he wrote, \"passed directly between her legs without doing any other damage than carrying away all the lower part of her petticoat,\" and she went right on working. The tidy name and the neat story are the invention."
+      },
+      {
+        "p": "The name got pinned, after she was dead, onto a Pennsylvania woman named Mary Ludwig Hays. What is documented about her is modest. She was at Monmouth with her artilleryman husband. In 1822 the Pennsylvania legislature granted her a forty-dollar annual pension \"for services rendered\" in the war, without naming Monmouth, a cannon, or any particular deed. Her obituaries in 1832 praised her wartime service to the sick and wounded and said nothing whatsoever about a cannon or a pitcher of water. The \"Molly Pitcher\" label was attached to her only afterward, by her son's obituary in 1856 and a centennial grave-marking in Carlisle in 1876."
+      },
+      {
+        "p": "That gap is the real story. The nineteenth century looked back at a war carried, in part, by thousands of anonymous working women, and preferred one tidy heroine with a charming name and a single dramatic act. It is much easier to put a Molly Pitcher on a lithograph than to reckon with the laundresses."
+      },
+      {
+        "fig": "/war-img/rev-women-molly-pitcher.jpg",
+        "cap": "A 19th-century lithograph of \"Molly Pitcher\" at the Battle of Monmouth. This is a legend, not a record: no contemporary source names any \"Molly Pitcher,\" and the image is Victorian mythmaking, not a depiction of a real event. The documented woman at a Revolutionary gun was Margaret Corbin at Fort Washington, the first woman the United States pensioned for military service.",
+        "credit": "Currier & Ives, \"The Women of '76: 'Molly Pitcher' the Heroine of Monmouth,\" mid-19th century · public domain"
+      },
+      {
+        "h": "Seventeen months as Robert Shurtliff",
+        "eyebrow": "Deborah Sampson enlisted, served, was wounded, and dug the ball out herself"
+      },
+      {
+        "p": "Margaret Corbin went to war as a wife and ended up at a gun by circumstance. Deborah Sampson went to war as a man, on purpose."
+      },
+      {
+        "p": "She was born in Plympton, Massachusetts, in December 1760, bound out as an indentured servant in Middleborough until she turned eighteen, then a weaver and a schoolteacher. In May 1782 she enlisted under the name \"Robert Shurtliff\" (the spelling wanders across the records) and was mustered into the 4th Massachusetts Regiment, serving with its light infantry company in the lower Hudson Valley. The war's big battles were already over; Yorktown had been won in October 1781. But the nasty little skirmishing war on the \"neutral ground\" around British-held New York had not stopped, and that is where she served."
+      },
+      {
+        "p": "She had tried once before and failed, taking an enlistment bounty (the cash signing bonus paid to a new recruit) in Middleborough under another name, spending some of it, and being found out. Her own church, the First Baptist Church of Middleborough, formally withdrew fellowship from her in September 1782 for \"dressing in men's clothes and enlisting as a Soldier.\" The church record is real, which makes it one of the firmest documents we have that she did exactly what the legend says she did."
+      },
+      {
+        "p": "Near Tarrytown, New York, in the summer of 1782, she was wounded in a skirmish, taking musket balls in the thigh and, by most accounts, a gash to the head. Here the documented spine and the embellished legend part company. What is consistent across the sources, including her own later pension materials, is that she concealed the thigh wound rather than let an army doctor undress her and discover what she was. The vivid particular, that she dug the ball out herself with a penknife and a needle, comes down to us through the embellished memoir we are about to get to. What is not in dispute is that a ball stayed lodged too deep to reach and rode in her leg for the rest of her life. She was found out in 1783 at Philadelphia, when she fell ill with a fever and the attending doctor discovered her secret and chose to keep it. She was honorably discharged at West Point on 25 October 1783, after about seventeen months in uniform."
+      },
+      {
+        "p": "Then came the longer fight, the one over money. Massachusetts granted her thirty-four pounds in withheld back pay in 1792. Five years later a writer named Herman Mann published *The Female Review*, an as-told-to \"memoir,\" and it is the reason her story is so tangled: Mann embellished freely, placing her at battles, including Yorktown, she could not possibly have fought, since she did not enlist until 1782. The rule for reading anything in Mann is to trust nothing on his word alone, and the trouble is that Sampson herself leaned on his version when she went on an 1802 lecture tour, performing her own story in uniform and going through the manual of arms (the drill of handling a musket) for the crowd. She had a powerful character witness too: Paul Revere visited her struggling Sharon farm, came away convinced, and in 1804 wrote to Congressman William Eustis that she was \"much more deserving than hundreds to whom Congress have been generous.\" It worked, slowly. In 1805 she was placed on the Massachusetts invalid pension roll, and later moved onto the general list. She died in Sharon in April 1827. In 1838 Congress passed relief for her heirs, what amounted to a survivor's benefit paid on a wife's military service, a first of its own kind."
+      },
+      {
+        "h": "The offering of the ladies",
+        "eyebrow": "America's first women's fundraising machine, and the shirts fight it lost"
+      },
+      {
+        "p": "By the late spring of 1780 the cause was in real trouble. The Continental currency was collapsing toward worthlessness, Charleston had just fallen, and Washington was reporting that his troops were nearly out of clothing, pay, and patience. Into that grim season came a broadside (a single printed sheet meant to be posted or handed around, the era's poster and pamphlet in one) that did something new."
+      },
+      {
+        "p": "It was titled \"The Sentiments of an American Woman,\" printed in Philadelphia on 10 June 1780, and it reads like a manifesto for women going to war by other means. Women, it declared, were \"Born for liberty, disdaining to bear the irons of a tyrannic government.\" It reached back for Joan of Arc, \"a French Maid\" who \"kindled up amongst her fellow-citizens, the flame of patriotism.\" And it made a claim with an edge on it: \"if opinion and manners did not forbid us to march to glory by the same paths as the Men, we should at least equal, and sometimes surpass them.\" Since opinion and manners did forbid that, women would give up their \"vain ornaments\" and hand the money to the army instead. It was published anonymously, but the writer was almost certainly Esther De Berdt Reed, the London-born wife of Pennsylvania's chief executive, Joseph Reed."
+      },
+      {
+        "p": "The words were only the start. Within days roughly three dozen Philadelphia women organized something the country had never seen: a door-to-door canvass of the entire city and its suburbs, with treasurers assigned by ward, a system for counting the money, and names written down as they came in. It was the first large-scale women's political fundraising organization in America. When Reed wrote to Washington on 4 July 1780, she could report more than three hundred thousand Continental dollars raised, from something like sixteen hundred donors."
+      },
+      {
+        "p": "That number needs its honest footnote. In 1780, in the middle of a hyperinflation, those three hundred thousand paper dollars were worth only a small fraction in hard coin, a few thousand dollars in real money. The achievement was never the sum. It was the machine: dozens of women, organized by ward, collecting from sixteen hundred people in a matter of weeks. Nothing like it had been built before."
+      },
+      {
+        "p": "And then the women lost the argument over what to do with it, which is its own small portrait of the period's politics. Esther Reed wanted to put hard cash directly into each soldier's hand, an extra bounty he could feel, pointedly routed around Congress's regular supply system. Washington said no. Cash, he argued, would breed discontent and drink; what the men actually needed was shirts. The women pushed back once. Washington held firm. Reed yielded, and in August she began buying linen. The women lost it gracefully, but it was a fight, not a happy collaboration: the men who ran the war told the women who had funded the gift what their gift would be."
+      },
+      {
+        "p": "Reed did not live to finish it. She died on 18 September 1780, of dysentery, at thirty-three, with the project half done. Sarah Franklin Bache, Benjamin Franklin's daughter, took it over, and the women sewed through the autumn. On 26 December 1780 Bache forwarded more than two thousand shirts to Washington's army, many of them, by tradition, carrying the name of the woman who made them stitched into the cloth. The model spread to New Jersey, Maryland, and Virginia, where Martha Jefferson lent her name to the effort."
+      },
+      {
+        "fig": "/war-img/rev-women-sentiments.jpg",
+        "cap": "\"The Sentiments of an American Woman,\" the Philadelphia broadside of June 1780 almost certainly written by Esther De Berdt Reed. It launched a door-to-door canvass that became the first large-scale women's political fundraising organization in America, raising paper money from some 1,600 donors. Washington overruled the women's plan to hand soldiers cash and had the money turned into more than 2,000 shirts.",
+        "credit": "\"The Sentiments of an American Woman,\" Philadelphia broadside, 1780 · Library of Congress · public domain"
+      },
+      {
+        "h": "Pen, press, and intelligence",
+        "eyebrow": "The women who wrote the propaganda and printed the treason"
+      },
+      {
+        "p": "Women fought this war with words and information too. Mary Katharine Goddard printed the treason. She ran the *Maryland Journal* and was postmaster of Baltimore from 1775 to 1789, among the first women to hold a federal office, and in January 1777, when Congress was sitting in Baltimore, it hired her press to print a new edition of the Declaration of Independence, the first printing to list the signers' names. At the foot of that document, in plain type, stands the line \"Baltimore, in Maryland: Printed by Mary Katharine Goddard.\" A woman's name sits on the treason that founded the country. Mercy Otis Warren, sister of the patriot firebrand James Otis and a constant correspondent of Abigail Adams, wrote the cause's satire under cover of anonymity through the war and then, in 1805, published a three-volume *History of the Rise, Progress and Termination of the American Revolution* under her own name, generally counted the first major history of the Revolution by an American woman, even as John Adams was sniffing that \"History is not the Province of the Ladies.\" Phillis Wheatley, enslaved in Boston and freed in 1773, sent Washington a poem in his honor and got a courtly reply inviting her to Head Quarters. (Whether she ever came is tradition, not record; the wider story of Black Americans in this war belongs to its own chapter.)"
+      },
+      {
+        "h": "The losers' war",
+        "eyebrow": "Grace Galloway and the Baroness Riedesel, who lost the war they were in"
+      },
+      {
+        "p": "Every story so far has been a winner's story, more or less. But women had stakes on the losing side too, and coverture made the losing especially cruel for them."
+      },
+      {
+        "p": "When a Loyalist man fled or was attainted (formally declared a traitor, with his property forfeit to the state), the law moved against his estate. And because of coverture, his wife had no separate claim to \"his\" property, even when she was the one who had brought that property into the marriage. The state could seize the entire household out from under the woman still living in it, on the grounds that none of it had ever legally been hers."
+      },
+      {
+        "p": "Grace Growden Galloway is the case to watch. She was the wife of Joseph Galloway, the prominent Loyalist who administered Philadelphia during the British occupation, and the daughter of Lawrence Growden, one of the richest men in Pennsylvania. She had brought vast Bucks County estates into her marriage, and marriage had transferred that inherited land to Joseph outright; what remained to Grace was only a widow's contingent claim, good if she outlived him and worth nothing while he ran the property. In June 1778, when the British evacuated Philadelphia, Joseph fled with them, taking their daughter, and left Grace behind deliberately, gambling that a wife in residence might hold the property where an attainted husband could not. Pennsylvania attainted him anyway and marked the estates for confiscation."
+      },
+      {
+        "p": "On the night of 20 August 1778, after ten o'clock, the man who came to evict her was Charles Willson Peale, the painter, serving as a commissioner of forfeited estates. She refused to leave on her own feet, pushed away the arm Peale offered her, and walked out of her own home on her own terms. That diary, kept through 1778 and 1779, is one of the great records of what dispossession felt like from the inside: the humiliation, the friends who suddenly were not friends (\"as I have no friends, they treat me as they please,\" she wrote), and a hard, unbroken pride."
+      },
+      {
+        "p": "striped & Turn'd out of Doors… I shou'd be Grace Growdon Galloway to ye last. — Grace Growden Galloway, diary, 1779",
+        "q": true
+      },
+      {
+        "p": "She spent her last years fighting to claw back her own inherited property, not for herself but for her daughter. She died on 6 February 1782 and was buried in an unmarked grave. There is a bitter coda: after the war Pennsylvania did restore the Growden inheritance to her daughter, the law conceding, far too late for Grace, that the property had never really been Joseph's to lose."
+      },
+      {
+        "p": "The other side's women suffered too, and one of them left the war's most vivid eyewitness account of all. Baroness Frederika von Riedesel was the wife of the major general who commanded the Brunswick troops fighting for the British under Burgoyne. (Brunswick was one of several German states whose rulers contracted their soldiers out to the British, the troops Americans lumped together as Hessians.) She crossed the Atlantic with three small daughters and kept a journal that was later published. Her record of the German army's collapse at Saratoga in October 1777 is unforgettable. Sheltering with her children and a crowd of the wounded in a farmhouse cellar while American cannon fire raked the building above them, she wrote: \"Eleven cannon balls went through the house, and we could plainly hear them rolling over our heads. One poor soldier, whose leg they were about to amputate, having been laid upon a table for this purpose, had the other leg taken off by another cannon ball.\" She described the stench and the screaming children, cleaned and fumigated the cellar with vinegar on hot coals, and nursed the wounded: \"I made them tea and coffee.\" When Burgoyne surrendered, she and her family went south into the long captivity of the defeated army."
+      },
+      {
+        "p": "Some of them lost everything they had, and the losing was no less total for being a woman's."
+      },
+      {
+        "h": "A Mohawk woman's war",
+        "eyebrow": "Molly Brant, and a different law of property entirely"
+      },
+      {
+        "p": "One more woman belongs here, partly because her own people ran their politics on a rule nearly the opposite of coverture. Molly Brant, known among the Mohawk as Konwatsi'tsiaienni, was born around 1736. She had been the longtime consort of Sir William Johnson, the British superintendent of Indian affairs, until his death in 1774, and she was the sister of the Mohawk war leader Joseph Brant. She was also, in her own right, a woman of real standing in the Six Nations, the confederacy of the Iroquois peoples, where clan matrons (the senior women of a clan) held formal political weight, a say in choosing leaders and in going to war. A Mohawk woman could hold an authority the common law denied a married Englishwoman entirely."
+      },
+      {
+        "p": "Her best-documented act of the war came in August 1777. Learning that patriot militia were marching to relieve the besieged Fort Stanwix, she sent Mohawk runners to warn the British and Native force in their path, and that warning set up the ambush at Oriskany on 6 August 1777, which shattered the patriot relief column. Through the rest of the war she sheltered Loyalists, kept them supplied, and worked to hold most of the Six Nations to the British alliance, and British officers rated her influence among the Mohawk above her famous brother's. When it was over, the side she had backed had lost, and she could not go home. The Crown gave her a house at Cataraqui (now Kingston, Ontario) and a hundred-pound annual pension, among the largest it paid to any Native person. Like Galloway and Riedesel, she ended on the losing side: her war closed with her exiled from the Mohawk Valley for good."
+      },
+      {
+        "h": "What the war changed, and what it didn't",
+        "eyebrow": "New arguments, new work, one strange decade of voting, and coverture intact"
+      },
+      {
+        "p": "So what did all of it come to?"
+      },
+      {
+        "p": "The clearest answer the postwar years produced was an idea the historian Linda Kerber later named \"republican motherhood.\" The logic ran like this: a republic survives only on the virtue of its citizens, mothers raise those citizens, and therefore a mother's work has a public, civic purpose. It gave women a real assignment in the new nation, and it had a measurable effect: a boom in female academies and literacy through the 1780s and 1790s, at least among white women of the middling sort and above. But look at what it actually granted. It dignified and educated women precisely as mothers of citizens, not as citizens themselves. It conceded no political rights at all. It was, as much as anything, the containment of Abigail Adams's argument: yes, women matter to the republic, in the nursery, where they can do no harm to the masculine systems."
+      },
+      {
+        "p": "There was one astonishing exception, and it has to be stated with care, because the loose version of it is wrong. New Jersey let women vote. The state's 1776 constitution gave the franchise to \"all inhabitants of this Colony, of full age, who are worth fifty pounds proclamation money, clear estate\" with a year's residence in the county, and said not one word about sex or race. New Jersey was alone among the thirteen states in this. But notice what coverture did to it. A married woman could not own fifty pounds in her own name, so the only women who could meet the property test were single women and widows, the *femes sole* of the chapter's opening. It was property-holding single women and widows who voted, alongside some free Black New Jerseyans who met the same bar. Never say flatly that \"New Jersey women could vote\"; say which ones, and why only those. Later election laws, in 1790 and 1797, made it explicit, referring to the voter as \"he or she,\" and women turned out in real numbers into the early 1800s. Then, in 1807, after a fraud-soaked local election and a cold partisan calculation that women's votes were going the wrong way, the legislature restricted the vote to free, white, male taxpayers, stripping women and Black voters in a single act and calling it fraud prevention. The American women who voted in 1800 were the last who would, in New Jersey, until 1920. Whether the 1776 wording was a deliberate opening or an accident of drafting that nobody bothered to close, historians still argue."
+      },
+      {
+        "p": "And coverture itself survived the whole thing untouched. No state abolished it. The married women's property acts that would finally begin to dismantle it were half a century and more away, scattered through the 1830s and 1840s and after. Divorce grew marginally easier in a few places, like Pennsylvania after its 1785 statute, but the change was thin. John Adams had promised, laughing, that the masculine systems would not be repealed, and they were not."
+      },
+      {
+        "p": "That is the honest landing. The Revolution put new arguments in women's mouths, the same ones the men were using against the king, about consent and voice and laws you have no part in making. It put new work in their hands, whole farms and funds and presses and the daily labor of an army. It wrapped a new ideology around their role. And it left their legal condition very nearly where it found it. The women of 1780 did not win their own revolution. What they handed forward to the next century was the argument, sharpened and on the record, that one day someone else would win."
+      }
+    ]
   }
 }
