@@ -1,0 +1,21 @@
+# CRITIC FINDINGS — "Women of the Revolution" (all 4 critics: PASS-WITH-FIXES, no blockers)
+
+## FACT-CHECK (all quotes verbatim-verified; all CARE items held)
+- **SHOULD-FIX:** John Adams "Despotism of the Peticoat" framing is inverted — he asserted men would sooner FIGHT than yield to it, not that he was subjected to it. Rewrite: "joked that men would sooner fight than yield to 'the Despotism of the Peticoat.'"
+- **SHOULD-FIX:** Goddard broadside — "the first printing to list **all** the signers' names" is wrong (55 of 56; McKean absent). Drop "all": "the first printing to list the signers' names."
+- NITs: NJ statutes — 1790 covered seven counties, 1797 statewide (acceptable to keep collapsed); the 1822 Hays pension's Monmouth reference is a known contested point (draft follows the pack's conservative JAR reading — fine, leave).
+
+## STORYTELLING (target ~5,100–5,200; draft ~6,100)
+- **BLOCKER (structure/length):** merge "Pen, press, and intelligence" into a compressed 150–200 word interstitial between the fundraising section and "The losers' war": keep Goddard (the imprint line is the sharpest beat), one sentence on Warren as the only named historian among the founders' generation, Wheatley one clause, Darragh to a parenthetical or cut (least documented, narratively dead-ends). Saves ~400 words.
+- SHOULD-FIX trims: compress the Sampson back half (lecture tour to one sentence; pension fight to three beats; cut the explicit "why did she do it" paragraph) ~180w; compress the ration-policy precision paragraph to one hedged sentence (the parsing belongs in the ledger) ~120w; drop the redundant coverture re-gloss in the Adams section ~40w.
+- SHOULD-FIX voice: cut the meta-narration "This is also where the chapter's other great divide opens up, and it is worth naming plainly before the famous names arrive" (keep the divide content, drop the announcement); cut the closing summary sentence of "The losers' war" ("Set Galloway and Riedesel beside the patriot women and the picture is honest at last") — end on "…no less total for being a woman's"; fix the Galloway eviction pre-emption — remove "records the scene with cold dignity" and let her action carry it; one concrete anchor sentence in the camp-follower section placing a woman in the work (laundresses working in range of fire) before the Washington general-orders quote.
+- Pull quotes confirmed right (Remember the Ladies + the Galloway "to ye last"); figures confirmed right (Adams pastel, Currier Pitcher as legend, Sentiments broadside). Riedesel portrait stays dropped (attribution unresolved) — flag for future upgrade.
+
+## CLARITY (no blockers)
+- SHOULD-FIX glosses: deputy-husband practical ceiling (one sentence: she could not sell an acre, sign a note, or sue without his name); "Continental" vs militia on first army use ("the national force raised by Congress, as distinct from each state's part-time militia"); why German troops are in this war (Brunswick "one of several German states whose rulers contracted their troops to the British, often called Hessians collectively"); the Galloway dower mechanism (marriage transferred her inherited land to Joseph outright; she held only a widow's contingent claim); the 1807 "partisan arithmetic" — either name it (both parties calculated women's votes were going against them) or simplify to "a calculation that women's votes were going the wrong way."
+- NITs: time-jump signpost before Mercy Otis Warren material if the section survives the merge ("Through the whole arc of the war and beyond…"); "ration returns" → "the army's supply records"; "fifty pounds proclamation money" → "fifty pounds in provincial currency"; re-anchor "femes sole" at the NJ section.
+
+## FRAMING (no blockers)
+- **SHOULD-FIX:** "women turned out to be very good at both" brushes the celebration-reel register — flatten (moot if the section merges, but keep the flat register in the merged paragraph).
+- **SHOULD-FIX:** Oriskany undersold — "the bloody ambush" → state the consequence without battle narrative: "the ambush at Oriskany on 6 August 1777, which shattered the patriot relief force."
+- NITs: hedge the 1838 Sampson heirs benefit ("what was, in effect, a survivor's benefit…" — pack rates MED); make Molly Brant's loss explicitly part of the losers' frame in her closing line (she too lost her homeland).
