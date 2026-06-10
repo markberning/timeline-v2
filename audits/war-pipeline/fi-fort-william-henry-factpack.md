@@ -1,0 +1,47 @@
+# FACT PACK — Siege of Fort William Henry & the "Massacre" (August 3-10, 1757)
+
+*French and Indian War. ONLY source. Handle the "massacre" with rigor and fairness: the popular "1,500 killed" is a MYTH; the real toll is ~70-185. Native war-aims framing is central. NO slavery angle. The Last of the Mohicans (Cooper, 1826) is FICTION, not a source.*
+
+## 1. IDENTITY & FRAMING
+- A formal French siege, the British surrender on honorable European terms, and the subsequent killing/captive-taking of surrendered British by France's Native allies — the "massacre." Siege Aug 3-9, 1757; surrender Aug 9; killing of the wounded in the fort (night Aug 9) + attack on the marching column (dawn Aug 10). Location: Fort William Henry, south end of Lake George, present-day Lake George village, NY (~43.42,-73.71). State NY. One of the war's most mythologized, contested episodes.
+
+## 2. BACKGROUND
+- Fort built fall 1755 by Sir William Johnson after his Battle of Lake George victory (engineer William Eyre, 44th Foot); named for two grandsons of George II. Anchored the British south end of the Lake George-Champlain corridor (the inland invasion route Albany↔Montreal). British base nearby: Fort Edward on the Hudson ~16 mi (26 km) south, under Brig. Gen. Daniel Webb. Montcalm came south from Fort Carillon (Ticonderoga) by ~250 bateaux + ~150 canoes.
+
+## 3. FORCES & COMMANDERS
+- French (Maj. Gen. Montcalm): ~7,600-8,000 total (~3,000 regulars + ~3,000 Canadian militia + nearly 2,000 Native allies). The Native allies (~1,800-2,000 from no fewer than 30-33 nations) were the LARGEST Native force of the war — two groups: ~979 pays d'en haut/Great Lakes "far" nations (Ottawa, Ojibwe/Chippewa, Menominee, Potawatomi, Winnebago, Sauk/Fox, a few Miami/Delaware, ~10 Iowa — some traveled ~1,500 miles) + ~820 mission/"domiciled" nations (Nipissing, Ottawa, Abenaki, Caughnawaga/Kahnawake Mohawk, Huron-Petun, Malecite, Mi'kmaq). Other officers: Chevalier de Lévis, Bourlamaque, Charles de Langlade (Great Lakes war leader), aide Bougainville. Full siege train.
+- British (Lt. Col. George Monro, 35th Foot — spelling "Monro" preferred, "Munro" variant): ~2,300-2,500 (Monro page 2,327; surrendered 2,308). 35th Foot regulars + provincials (CT/NJ/MA) + some 60th (Royal American); many in an entrenched camp outside the fort; several hundred sick incl. smallpox. Gen. Daniel Webb at Fort Edward REFUSED relief; his Aug 4 letter advising Monro to negotiate was intercepted and forwarded to Monro by Montcalm to break his will.
+
+## 4. THE SIEGE (Aug 3-9)
+- Aug 3 Montcalm arrives, summons surrender, Monro refuses. Textbook European siege (parallels, batteries). Aug 5 first battery fires; Aug 6 second battery (crossfire); Aug 7 Montcalm sends the intercepted Webb letter under truce; British guns bursting from overuse; no relief from Webb; Aug 8-9 white flag, surrender Aug 9. Monro's honorable defense won generous terms.
+
+## 5. SURRENDER TERMS (Aug 9)
+- Honors of war: the British + camp followers to withdraw under French escort to Fort Edward, NOT to fight for 18 months; keep muskets + one symbolic cannon but NO ammunition; keep colors; British to release French prisoners within three months; the too-badly-wounded left in the fort under French protection (where the first killings occurred). CRUCIAL: Montcalm negotiated the capitulation WITHOUT consulting his Native allies; the chiefs knew their warriors would never accept terms denying them spoils. (In 1758 Abercromby voided the parole; the 35th then served at Louisbourg.)
+
+## 6. THE "MASSACRE" (Aug 9-10) — MYTH VS SCHOLARSHIP
+- The allies came for plunder, scalps/trophies, and captives (to adopt/ransom/replace dead kin — the mourning-war tradition). A bloodless British march-away under European honors denied them all of it. Night Aug 9: a planned night march-out was called off when warriors massed. Dawn Aug 10 (~5am): warriors entered the fort, found little booty, and killed/scalped the ~70 sick and wounded left behind. As the column marched out toward Fort Edward, hundreds of warriors swarmed it — stripping clothing, snatching weapons/baggage, seizing people, tomahawking the most exposed (esp. the rear, Abenaki; women, children, servants, enslaved people carried off). French guards only partially able (or in some cases unwilling) to protect the column. Col. Joseph Frye (MA): "the savages fell upon our rear, killing and scalping."
+- SCALE (the central correction): The popular "1,500 killed" is FALSE — an inflated myth (Carver 1778, Dwight 1822, Cooper's novel). Modern scholarship (Ian K. Steele, Betrayals, 1990): dead-and-missing ≈ 69-184, at most ~8% of the 2,308 who surrendered; Anderson "as many as 185"; Penn Museum "closer to 185." WRITE TO: dead ≈ 70-185 (lead with Steele's ~69-184 / "fewer than 200"); explicitly debunk the 1,500 myth.
+- CAPTIVES: several hundred, ~300-500 (Anderson "between 300 and 500"); Montcalm secured ~500 for ransom, ~200 remained with the Indians, ~300 returned by Sept 27; ≥~40 chose to stay (adopted). MANY captives were adopted/ransomed, NOT killed (Montcalm ransomed at ~130 livres + thirty bottles of brandy each).
+- MONTCALM'S RESPONSIBILITY (contested — present the debate, don't resolve): he + officers physically intervened (mixed, partial success) and felt personally dishonored; Parkman = powerless-but-trying; Jennings = deliberately ignored; Steele = French over-promising of war trophies created the resentment that exploded when the terms denied them (the double "betrayal": Montcalm felt betrayed by his allies; the allies felt betrayed that the French denied them victory's spoils). Montcalm later partly blamed rum the British gave the Indians (sources call this dubious).
+- SMALLPOX: the garrison had smallpox among its sick; warriors who killed/scalped the wounded carried it home; it spread north along the trails, devastating Great Lakes/Canada villages (Potawatomi especially). Real but unmeasured.
+- ARCHAEOLOGY: does NOT settle the toll (only ~10 graves sampled in the 1950s); modern figures rest on documentary reconstruction.
+
+## 7. NATIVE PERSPECTIVE / STAKES (CENTRAL — fair, no "savage horde")
+- The ~30-33 nations were NOT a mindless mob: they fought for their own war aims (captives for the mourning-war, plunder, scalps/trophies proving prowess and manhood); returning empty-handed was humiliation. European "honors of war" (a beaten enemy marching off freely with arms and colors) violated their understanding of what victory/alliance owed them — and Montcalm had set those terms WITHOUT consulting them, so from the Native side the French broke faith. Present their agency and logic WITHOUT excusing/sanitizing the killing of prisoners, and WITHOUT the savage caricature; stress most captives were adopted/ransomed, not killed. Imperial + Native stakes; NO slavery angle.
+
+## 8. VERIFIED QUOTES (flag shaky)
+- Montcalm warning Monro at the summons: "I have it yet in my power to restrain the savages, and oblige them to observe a capitulation." (documented)
+- Montcalm's self-justification after: he "simply could not restrain 3,000 Indians of 33 different nations," excusing it by blaming rum (sources call the excuse dubious).
+- Bougainville (aide), diary: "The rum which was in the barges... caused them to commit great cruelties..." (Anderson quoting Bougainville).
+- Col. Joseph Frye (MA): "the savages fell upon our rear, killing and scalping."
+- Gen. Webb on survivors reaching Fort Edward: "about 30 of our people coming running down the hill out of the woods... mostly stripped to their shirts and breeches..."
+- DO NOT USE: "kill me but spare the English" and "mon cher Monro" — [UNVERIFIED], tied to fiction. The Last of the Mohicans is FICTION, not a source.
+
+## 9. AFTERMATH & CONSEQUENCES
+- Montcalm destroyed Fort William Henry and withdrew (~Aug 18, 1757); never rebuilt (ruins until a 1950s tourist reconstruction). Propaganda: poisoned Anglo-French relations, a British rallying cry ("remember Fort William Henry"); the inflated toll hardened British resolve AND fed undiscriminating anti-Indian hatred. Damaged the French-Native alliance: "never again would Indian allies flock to the French colors as they had in 1757" — pushed Montcalm toward conventional European war (a strategic loss for New France). British retaliated in kind (Amherst refused honours of war at Louisbourg 1758, Montreal 1760, citing FWH). Webb's failure to relieve drew lasting criticism. Smallpox devastated the western nations' villages.
+
+## 10. MAP GEOGRAPHY (state = New York)
+- Fort William Henry, south end of Lake George (~43.42,-73.71); Fort Edward on the Hudson ~16 mi south (~43.27,-73.58, Webb's base, the column's destination); Fort Carillon/Ticonderoga (~43.84,-73.39, Montcalm's staging base to the north); Albany (~42.65,-73.75). Spine: Montcalm came south down Lake George from Carillon → besieged the fort at the lake's south end → the surrendered column was attacked on the road south toward Fort Edward.
+
+## KNOWN UNCERTAINTIES
+1. Death toll ≈ 69-185 ("fewer than 200"); 1,500 is a MYTH; archaeology doesn't settle it — use the range + debunk. 2. Captives ~300-500 (~500 ransomed / ~200 retained / ~300 returned by late Sept / ≥40 stayed). 3. Montcalm's responsibility genuinely contested — present the debate. 4. Smallpox real but unquantified. 5. Massacre timeline (night Aug 9 → dawn Aug 10) imperfectly documented. 6. Two unverifiable quotes — do not use.
