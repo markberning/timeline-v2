@@ -55,7 +55,7 @@ export const REVOLUTION: WarConfig = {
     { id: 'southern-turn', kind: 'phase', label: 'The Southern Turn & Yorktown', short: 'The South', href: '/war-revolution/southern-turn', ready: true, color: WAR_STORY_COLOR, skinVar: '--warstory' },
     { id: 'the-peace', kind: 'phase', label: 'The Peace', short: 'The Peace', href: '/war-revolution/the-peace', ready: true, color: WAR_STORY_COLOR, skinVar: '--warstory' },
     // The story spine lands on the home's Story tab (the phase list).
-    { id: 'rev-story', kind: 'story', label: 'How the War Happened', short: 'How it Happened', href: '/war-revolution/story', ready: false, color: WAR_STORY_COLOR, skinVar: '--warstory' },
+    { id: 'rev-story', kind: 'story', label: 'How the War Happened', short: 'How it Happened', href: '/war-revolution/story', ready: true, color: WAR_STORY_COLOR, skinVar: '--warstory' },
     { id: 'offfield', kind: 'offfield', label: 'Off the Battlefield', short: 'Off-Field', href: '/war-revolution/off-the-battlefield', ready: true, color: WAR_OFFFIELD_COLOR, mapHex: '#d96a26' },
   ],
   // All battles live in the single 'rev-battles' theatre (green). Phase comments are
@@ -104,7 +104,7 @@ export const REVOLUTION: WarConfig = {
     { id: 'rev-army', name: 'An Army from Nothing', short: 'An Army from Nothing', phase: 'war', type: 'SOCIETY', size: 'l', date: '1775–1783', year: 1778, m: 1, hook: 'How a crowd of militiamen became an army that outlasted everything, including its pay.', href: '/war-revolution/off-the-battlefield/army-from-nothing' },
     { id: 'rev-slavery', name: 'Slavery and the Revolution', short: 'Slavery & the Revolution', phase: 'war', type: 'SOCIETY', size: 'l', date: '1775–1783', year: 1775, m: 11, hook: 'Half a million people enslaved in a war for liberty, and the freedom they took from both sides.', href: '/war-revolution/off-the-battlefield/slavery-and-the-revolution' },
     { id: 'rev-women', name: 'Women of the Revolution', short: 'Women of the Revolution', phase: 'war', type: 'SOCIETY', size: 'm', date: '1775–1783', year: 1776, m: 1, hook: 'The war ran through every household, and the law barely knew the women who carried it.', href: '/war-revolution/off-the-battlefield/women-of-the-revolution' },
-    { id: 'rev-native', name: 'Native Nations Caught Between', short: 'Native Nations', phase: 'war', type: 'SOCIETY', size: 'l', date: '1775–1783', year: 1779, m: 1 },
+    { id: 'rev-native', name: 'Native Nations Caught Between', short: 'Native Nations', phase: 'war', type: 'SOCIETY', size: 'l', date: '1775–1783', year: 1779, m: 1, hook: 'Dozens of nations chose between two land-hungry empires, and the peace ignored them all.', href: '/war-revolution/off-the-battlefield/native-nations' },
     { id: 'rev-french-alliance', name: 'The French Alliance & the Global War', short: 'The French Alliance', phase: 'war', type: 'POLITICS', size: 'l', date: '1778–1783', year: 1778, m: 2 },
     { id: 'rev-war-at-sea', name: 'The War at Sea', short: 'The War at Sea', phase: 'war', type: 'MILITARY', size: 'm', date: '1775–1783', year: 1779, m: 9 },
     // ── The peace & the reckoning ──
@@ -112,8 +112,8 @@ export const REVOLUTION: WarConfig = {
   ],
   // The war-story spine — six chapters, one per phase.
   chapters: [
-    { id: 'outbreak', name: 'Outbreak', phase: 'outbreak', type: 'MILITARY', size: 'l', date: '1775', year: 1775, m: 1 },
-    { id: 'the-north', name: 'The War for the North', phase: 'hard', type: 'MILITARY', size: 'l', date: '1776', year: 1776, m: 1 },
+    { id: 'outbreak', name: 'Outbreak', phase: 'outbreak', type: 'MILITARY', size: 'l', date: '1775', year: 1775, m: 1, hook: 'A standoff became a shooting war, a siege, an invasion, and a rebellion declared.', href: '/war-revolution/outbreak' },
+    { id: 'the-north', name: 'The War for the North', phase: 'hard', type: 'MILITARY', size: 'l', date: '1776', year: 1776, m: 1, hook: 'The Declaration, the New York disaster, and the ten days that kept the cause alive.', href: '/war-revolution/the-north' },
     { id: 'two-armies', name: 'Two Armies', phase: 'turning', type: 'MILITARY', size: 'l', date: '1777', year: 1777, m: 1 },
     { id: 'world-war', name: 'A World War', phase: 'total', type: 'MILITARY', size: 'l', date: '1778–1780', year: 1778, m: 1 },
     { id: 'southern-turn', name: 'The Southern Turn & Yorktown', phase: 'total', type: 'MILITARY', size: 'l', date: '1780–1781', year: 1780, m: 1 },

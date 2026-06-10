@@ -51,15 +51,22 @@ function parse(md) {
     if (!t) continue
 
     if (t === '--- meanwhile ---') {
+      // Unlike the F&I original (meanwhile always last), Revolution spine chapters may
+      // place the block mid-chapter — consume only its region:/title:/body: lines and
+      // keep parsing the rest of the file.
       const mw = { region: '', title: '', body: '' }
-      for (i++; i < lines.length; i++) {
-        const l = lines[i].trim()
+      let j = i + 1
+      for (; j < lines.length; j++) {
+        const l = lines[j].trim()
+        if (!l) continue
         if (l.startsWith('region:')) mw.region = l.slice(7).trim()
         else if (l.startsWith('title:')) mw.title = l.slice(6).trim()
         else if (l.startsWith('body:')) mw.body = l.slice(5).trim()
+        else break
       }
       meanwhile = mw
-      break
+      i = j - 1
+      continue
     }
 
     if (t.startsWith('## ')) {

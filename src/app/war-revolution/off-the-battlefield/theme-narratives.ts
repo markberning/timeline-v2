@@ -1681,5 +1681,181 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "That is the honest landing. The Revolution put new arguments in women's mouths, the same ones the men were using against the king, about consent and voice and laws you have no part in making. It put new work in their hands, whole farms and funds and presses and the daily labor of an army. It wrapped a new ideology around their role. And it left their legal condition very nearly where it found it. The women of 1780 did not win their own revolution. What they handed forward to the next century was the argument, sharpened and on the record, that one day someone else would win."
       }
     ]
+  },
+  "native-nations": {
+    "eyebrow": "Two empires of land-hungry colonizers, and the nations who had to choose between them",
+    "title": "Native Nations Caught Between",
+    "blocks": [
+      {
+        "p": "In the spring of 1775, weeks before a single shot was fired at Lexington, a different event settled the real stakes of the coming war. At Sycamore Shoals on the Watauga River, in what is now northeastern Tennessee, a North Carolina land speculator named Richard Henderson and his Transylvania Company \"bought\" roughly twenty million acres of Cherokee hunting grounds, most of present-day Kentucky and middle Tennessee, from a handful of senior Cherokee chiefs. An enormous theft of Native land, dressed up as a contract, that no government would stop: the price was about ten thousand pounds in trade goods, the proverbial wagonloads of cloth and guns and trinkets. The sale was illegal under the King's law and under Virginia's and North Carolina's, and it happened anyway. That is the whole war in miniature, before the war began."
+      },
+      {
+        "p": "One Cherokee refused to sign. Dragging Canoe, the son of one of the selling chiefs and a war leader of the younger generation, walked out of the council. He warned the buyers that the ceded country would be a dark and bloody ground to settle, that they would not have it in peace. (His exact words are not recoverable, and the famous claim that \"Kentucky\" means \"dark and bloody ground\" is a folk tale, not a fact; but the warning, and his repudiation of the sale, are real. No contemporary portrait of him survives.) He was overruled by the older chiefs, and the speculators got their paper. Hold onto that split inside one nation. It is the shape of everything that follows."
+      },
+      {
+        "pill": "/war-french-indian/off-the-battlefield/native-alliances",
+        "plabel": "The Contest for Native Alliances"
+      },
+      {
+        "p": "There was no \"the Indians.\" There were dozens of separate nations, each with its own government, its own interests, and its own bitter argument about what to do, running its own foreign policy toward two empires that both wanted its land. \"The Indians sided with the British\" is the sentence most people carry out of school, and it is false in almost every way a sentence can be false. The nation that most of them feared was not the King across the ocean. It was the colonists next door, the people of the new United States, who were already on the Cherokee hunting grounds, already over the line, already coming."
+      },
+      {
+        "h": "The line on the map",
+        "eyebrow": "Why the King looked like the lesser danger"
+      },
+      {
+        "p": "To understand the choices Native nations made in 1775, you have to start with a line. After the French and Indian War (the long imperial war that ended in 1763 and is told in its own chapter), the British Crown drew the Proclamation Line down the crest of the Appalachian Mountains and declared that colonial settlement stopped there. Everything west of the crest was, by the King's own decree, Indian country, closed to settlers. It was the one promise any government had ever made to hold the colonists back."
+      },
+      {
+        "p": "The promise was hollow in practice. Settlers crossed the line continuously, and colonial governments barely pretended to stop them, as Sycamore Shoals had just shown. But hollow or not, the Line drew the strategic map that every nation was reading in 1775. The rebelling colonists were the very people pushing across it, the speculators and squatters and surveyors hungry for the land. The King's distant government was the only power that had ever, however feebly, tried to restrain them. So for most nations the calculation was brutally simple. The rebels were the encroachers. The Crown was the flawed restrainer. If you had to bet on which of these two would leave you your country, you did not bet on the men already building cabins in it."
+      },
+      {
+        "p": "That is why most nations who fought chose Britain, and it is a completely different statement from \"the Indians sided with the British.\" For most of those nations, British alliance was not a new departure but a continuation: a century of treaty diplomacy, the chain of agreements the older generation called the covenant chain, already bound them to the Crown's agents, and the King's superintendents were the men they had dealt with all their lives. It was a strategic judgment about land, made nation by nation, and it was not unanimous anywhere. Plenty of nations chose the Patriots, or chose neutrality, for reasons just as concrete. The point is that every one of them was choosing. None of them was a backdrop."
+      },
+      {
+        "p": "Both sides understood this at the start, and both sides, at first, wanted the same thing from Native nations: not alliance but neutrality. Stay out of our family quarrel. The Continental Congress set up Indian departments and sent commissioners to talk peace; the British worked their old networks through the Indian superintendents (the Crown officials who managed relations with Native nations), Guy Johnson in the north and John Stuart in the south. In the late summer of 1775, Continental commissioners met delegates of the six-nation confederacy that called themselves the Haudenosaunee (the French said Iroquois) at Albany, and the confederacy pledged to stay neutral. One Oneida statement that year put the position in its own plain words."
+      },
+      {
+        "p": "We are unwilling to join on either side of such a contest, for we love you both, Old England and New. — Oneida declaration of neutrality, 1775",
+        "q": true
+      },
+      {
+        "p": "A few weeks later, on the edge of the Ohio country, the broad stretch between the Ohio River and the Great Lakes, American and Virginia commissioners met the nations who lived there, the Delaware, Shawnee, and Seneca among them, at Pittsburgh, and reaffirmed the Ohio River as the boundary and the peace as the policy. On paper, in the fall of 1775, the war was going to leave Indian country alone."
+      },
+      {
+        "p": "It did not. The war came to Indian country anyway, in every direction at once, and the nations who tried hardest to stay out of it were among the first to be destroyed."
+      },
+      {
+        "fig": "/war-img/rev-native-guy-johnson.jpg",
+        "cap": "Benjamin West painted the British Indian superintendent Guy Johnson with the Mohawk leader Karonghyontye (Captain David Hill) at his shoulder: the alliance the King's agents were working to build, set down in a single canvas. Johnson and his networks pulled most of the Six Nations toward Britain, but the painting flatters a partnership that was always a negotiation between separate powers, not a master and a follower.",
+        "credit": "Benjamin West, \"Colonel Guy Johnson and Karonghyontye,\" 1776, National Gallery of Art · painter d. 1820, public domain"
+      },
+      {
+        "h": "The confederacy fights itself",
+        "eyebrow": "How a smallpox winter and a covered fire broke the Six Nations apart"
+      },
+      {
+        "p": "The Six Nations were the most powerful Native polity in the Northeast: the Mohawk, Oneida, Onondaga, Cayuga, Seneca, and Tuscarora, bound together by the Great Law of Peace into a single council. (A confederacy is a league of separate nations that keep their own governments but act together in council on matters that touch them all.) Their homeland was a rough east-west band across what is now upstate New York, Mohawk country nearest the Hudson River in the east, Seneca country nearest Lake Erie in the west. For three centuries the league had been built precisely so its members would not kill each other. In 1777 the Revolution made them do it."
+      },
+      {
+        "p": "The neutrality of 1775 held for about two years, under mounting pressure from both warring sides. Then, in the winter of 1777, two things broke it. First, a smallpox epidemic swept through Onondaga, the central town that kept the confederacy's council fire, and killed a number of the leading sachems (the chiefs who sat in the grand council). The council fire at Onondaga was not a metaphor; it was the literal and ritual center of Haudenosaunee government, the place where the six nations reached one decision together. The Great Law required that war and peace be decided by the whole council in agreement, so that no single nation could speak for the league. With the fire's keepers dying, word went out that the central fire was covered over, raked out, extinguished. The exact ritual words vary in the record, but the constitutional meaning is clear and it is the thing that matters: with no functioning central council, each nation was now free to decide the war for itself."
+      },
+      {
+        "p": "They decided differently, and that is the catastrophe. The Mohawk, Seneca, Cayuga, and Onondaga warriors went largely with Britain. The Oneida and Tuscarora went largely with the Americans. Every one of those \"largely\" is doing real work, because individuals and whole villages broke the other way inside every nation; nobody was unanimous. The Oneida chose the Patriots for reasons of their own: decades of close ties to New England, and above all the long presence among them of Samuel Kirkland, a Presbyterian missionary who had lived in the Oneida country since 1766 and become a trusted counselor and the nation's conduit to the rebel cause. Washington later credited Kirkland's uncommon hold over them. On the other side, the Mohawk war leader Joseph Brant, whose Mohawk name was Thayendanegea, had sailed to London in 1775, met the King, and put the Mohawk land grievances directly to the British government. His case was blunt: the Mohawk had shown their loyalty to the Crown on every occasion, he told the Colonial Secretary, and had been very badly treated by the King's people in return. He wanted that loyalty answered with protection of Mohawk land, and he came home committed to the alliance that promised it. He would become the most famous Native commander of the war. (His sister Molly Brant held much of the Mohawk-British alliance together by her own intelligence and influence; her story belongs to the chapter on the war's women, and waits there.)"
+      },
+      {
+        "p": "What it meant for the confederacy to split became horribly concrete on 6 August 1777, in a ravine near a place called Oriskany. A column of about eight hundred Tryon County militia, with sixty to a hundred Oneida warriors alongside them, was marching to relieve a besieged American fort when it was ambushed by a force of Loyalists and British-allied Haudenosaunee, Seneca and Mohawk warriors among them. The fighting was brutal and close, and the militia column lost somewhere between roughly 385 and 465 men, killed and wounded out of about eight hundred, one of the bloodiest single days, in proportion, of the entire Revolution."
+      },
+      {
+        "p": "But the casualty count is not why Oriskany belongs in this chapter. It belongs here because of who was killing whom. Oneida warriors and Seneca and Mohawk warriors, members of the same confederacy, men bound by the Great Law of Peace, killed each other in that ravine. The reprisals ran straight back into the confederacy itself: Brant's Mohawks burned the Oneida town of Oriska, and Oneida warriors plundered the Mohawk towns in return. Haudenosaunee oral history remembers the place as a Place of Great Sadness, and the nations and the historians agree on what to call what happened there. It was a civil war inside the confederacy. The league that had been founded to end war among its members spent itself, in part, fighting itself, on behalf of two colonial powers neither of which would remember the favor."
+      },
+      {
+        "fig": "/war-img/rev-native-brant.jpg",
+        "cap": "George Romney painted Joseph Brant (Thayendanegea) during the Mohawk leader's 1775–76 visit to London, where he met the King and pressed Mohawk land grievances on the British government. He wears a gorget given to him by George III. Brant came home the most committed and most famous Native commander of the war, and a strategist whose real record the later \"Monster Brant\" legend would badly distort.",
+        "credit": "George Romney, \"Thayendanegea (Joseph Brant),\" 1776, National Gallery of Canada · painter d. 1802, public domain"
+      },
+      {
+        "p": "The frontier war that followed is where the propaganda gets thickest, so the facts have to be set down in plain order, taking neither side's frame. In July 1778, a Loyalist and Seneca-and-Cayuga force under John Butler destroyed the Patriot militia of the Wyoming Valley in Pennsylvania; roughly three hundred Patriots died, many of them killed in the rout or after surrendering. American newspapers then inflated the slaughter into pure horror. They reported the burning of women and children inside Forty Fort, a thing that never happened, and they pinned the whole campaign on Joseph Brant, who was not even at Wyoming. The \"Monster Brant\" of the broadsides was a printer's invention, and it stuck for a century. In November a Loyalist and Seneca-and-Mohawk force, this one with Brant, struck Cherry Valley in New York, where about thirty noncombatants were killed, most of them by Seneca warriors, while Brant is on record trying to stop the killing. These raids were what George Washington named as his reason for what he did in 1779. The honest way to hold these events is as a sequence, in order: real Patriot dead at Wyoming, real noncombatant dead at Cherry Valley, real and documented atrocity-invention in the press, and then what came next. Neither \"justified retaliation\" nor \"unprovoked savagery\" is the truth. The sequence is the truth."
+      },
+      {
+        "h": "A nation argues with itself",
+        "eyebrow": "The Cherokee war of 1776, and the man who would not stop fighting"
+      },
+      {
+        "p": "Dragging Canoe did not wait. In the summer of 1776, he and the younger Cherokee warriors did what the older chiefs had refused to sanction. They struck the settlements that the Sycamore Shoals sale and a hundred squatters' cabins had planted on Cherokee hunting ground, in the Watauga and Holston valleys and the Carolina backcountry, trying to drive the trespassers off the land before the land was lost for good. The attacks largely failed against the fortified frontier stations. And the Patriot answer was not a counter-raid but the systematic destruction of the Cherokee homeland. Late in 1776 three coordinated columns of Carolina and Virginia militia, several thousand men in all, marched into the Cherokee towns and burned them: the Lower Towns, the Middle Towns, and the Overhill Towns. Somewhere between roughly three dozen and fifty or more towns went up, along with the crops in the fields, the orchards, and the winter food stores, on the edge of winter. It was the same weapon Sullivan would carry to the Haudenosaunee three years later, tried out first in the south."
+      },
+      {
+        "p": "The older Cherokee chiefs, facing ruin, did what they judged would save what was left: they yielded great tracts of Cherokee country to stop the burning. In two treaties in 1777 they ceded land in the Carolinas, Tennessee, and Virginia. It was a rational, terrible bargain, and calling it a sellout misreads it as badly as calling Dragging Canoe a romantic misreads him. Both factions were playing bad hands as well as the hands could be played."
+      },
+      {
+        "p": "Dragging Canoe refused the bargain. He took the warriors and families who would not reconcile and led them south and west, to new towns near Chickamauga Creek (which gave them their name) by present-day Chattanooga, and from there fought on as the Chickamauga Cherokee, supplied for a while by Britain and then past Britain's surrender entirely, year after year, into the 1790s. His was a war of resistance that outlasted the Revolution itself by more than a decade. Accommodation and resistance, the older chiefs and the younger war leader, were not good guys and sellouts. They were two answers to one impossible question, and the Revolution made sure that neither answer worked."
+      },
+      {
+        "h": "The neutrals get murdered",
+        "eyebrow": "Cornstalk under a flag of truce, a first treaty, and a disputed death"
+      },
+      {
+        "p": "While the confederacy tore itself apart in New York, the Ohio country was learning a harder lesson: that in this war, neutrality did not protect you from the Americans. It marked you."
+      },
+      {
+        "p": "Cornstalk was the principal Shawnee advocate of staying out of the war. In the fall of 1777 he came in person to the American post at Fort Randolph, on the Ohio River, by the standard account to warn the garrison honestly that the tide among the nations was running toward Britain and that he might not be able to hold his own people back from the stream. It was the act of a man trying to keep faith with both sides at once, and it cost him his life. The American commander detained him as a hostage against his own nation's good behavior. Then, on 10 November 1777, after a soldier was killed nearby by unknown attackers, a party of militiamen stormed the cabin where Cornstalk was held and murdered him, his son Elinipsico, the Delaware leader Red Hawk, and a fourth man, all of them captives, all of them held under what amounted to a flag of truce. Virginia's governor, Patrick Henry, denounced the killings as a stain on the country and offered a reward for the murderers. The accused were tried. They were acquitted. No one was ever punished. The murder of Cornstalk gutted the Shawnee peace party at a stroke; most Shawnee now moved to the British war camp, and a minority withdrew west rather than fight at all. The man who had walked into an American fort to keep his people out of the war had handed them, by his death, the strongest possible argument for entering it."
+      },
+      {
+        "p": "The same pattern, the courting of a neutral nation followed by the destruction of its leaders, played out among the Delaware (the Lenape) with a crueler twist, because it came wrapped in a promise. On 17 September 1778, at Fort Pitt, the United States signed its first formal treaty with any Native nation. The Delaware leaders White Eyes, Captain Pipe, and John Kill Buck granted American troops passage through Delaware country and, in return, the new republic guaranteed the Delaware their territorial rights \"in the fullest and most ample manner.\" The treaty went further than any document the United States would sign with a Native nation for a very long time. Its sixth article held out, in its own words, the possibility of \"a state whereof the Delaware nation shall be the head, and have a representation in Congress,\" on the condition that Congress approve it. It was an extraordinary thing to put in writing: a Native nation not removed and not absorbed but seated as a member of the union, with a voice in the body that governed it. That was the future White Eyes had bet his nation on, the bet behind the whole American alliance. Congress never acted on it, and inaction was its own kind of policy: there was no debate, no vote, no rejection, just silence, and no Native state was ever created."
+      },
+      {
+        "p": "And the man whose vision the article reflected did not live to see it ignored. White Eyes, the Delaware leader who had bet his nation on the American alliance, joined an American expedition as a guide within weeks of signing the treaty, and the army reported that he died of smallpox. Years later George Morgan, the United States Indian agent (the federal officer appointed to deal with Native nations) who had known White Eyes well, wrote to Congress that this was a lie: that White Eyes had been treacherously put to death by American militia, and the murder covered up to keep the Delaware in the alliance. Historians generally accept that he was murdered. The exact circumstances are lost. So the record stands at exactly that level, and it should not be flattened: an official story of smallpox, a credible insider's testimony of murder and cover-up, and the details gone for good. It is a different evidentiary thing from Cornstalk's killing, which is documented to the date and the names, and the difference is worth keeping."
+      },
+      {
+        "p": "With White Eyes dead and the treaty's promises unmet, the Delaware alliance rotted from the inside. Captain Pipe led most of the Delaware to the British. The pacifist Delaware who had become Christian converts were left stranded between the two fires, suspected by both. That is the setup for the worst single thing in this chapter, which is coming. But first, the campaign that gave a name its lasting weight."
+      },
+      {
+        "h": "The town destroyer",
+        "eyebrow": "Washington burns forty towns, and a refugee winter at Niagara"
+      },
+      {
+        "p": "In the spring of 1779, George Washington decided to end the Haudenosaunee raids by destroying the Haudenosaunee homeland. His orders to Major General John Sullivan, dated 31 May 1779, are in the record and they are not ambiguous. The object, Washington wrote, was \"the total destruction and devastation of their settlements\" and the capture of as many prisoners as possible. Ruin the crops in the ground, he ordered, and prevent the planting of more. The country, he insisted, was \"not to be merely overrun but destroyed.\" And Sullivan was to \"listen to no overture of peace before the total ruin of their settlements\" was effected."
+      },
+      {
+        "p": "Sullivan carried the orders out to the letter. From June to October 1779, about 4,400 Continental soldiers swept through the Seneca and Cayuga heartland of central New York. There was only one real battle, at Newtown in late August, and it was small; the warriors and their families fell back ahead of the army rather than stand and be killed. The campaign's weapon was not the musket but hunger. By Sullivan's own report his army destroyed some forty towns and around 160,000 bushels of corn, along with vast stores of beans and squash and whole orchards of fruit trees, girdled and cut down (an orchard takes a generation to grow back). These were not the camps of a tribe on the move; they were settled towns with framed houses, fenced fields, and standing crops, and the soldiers who burned them said so in their journals. Almost no one died in combat. The killing came afterward, and in the winter."
+      },
+      {
+        "p": "The families burned out of those forty towns walked to the British post at Fort Niagara on Lake Ontario. By 21 September 1779 the British had counted 5,036 refugees crowded around the fort. Then came one of the most severe winters of the century, snow feet deep for weeks on end, game dying in the woods. There was not enough food. An unknown number of those refugees, credibly in the hundreds, died at Niagara that winter of starvation, exposure, scurvy, and disease. Sullivan's army was already home for the winter. The weapon Washington had reached for, the destruction of a people's food on the edge of winter, did its work in the cold and the dark, on women and children, months after the soldiers had gone."
+      },
+      {
+        "p": "It is worth being precise about what the campaign did and did not accomplish, because the textbook cliché says Sullivan \"broke the power of the Iroquois,\" and the evidence says otherwise. The homeland was destroyed; the resistance was not. The two years that followed, 1780 and 1781, brought the heaviest British-allied raiding of the entire war to the New York frontier, now launched from Niagara by men who had watched their towns burn. What broke at Sullivan's hands was the Haudenosaunee homeland. It was not the Haudenosaunee will to fight."
+      },
+      {
+        "p": "What the campaign did do was give an old name its permanent and bitter weight. The Seneca had a name for George Washington that was older than Washington himself: Conotocarious, the Town Destroyer, the devourer of villages. It had first been given in the late seventeenth century to George Washington's great-grandfather John Washington, after a piece of militia treachery against Native envoys, and the Seneca had remembered it and fastened it onto the young George Washington when he turned up on the Ohio frontier in 1753, before he had destroyed anything at all. After 1779 the inherited name was simply, exactly true. One Seneca leader who had fought through all of it, in the line at Oriskany and at Wyoming, was a war chief named Cornplanter. In December 1790 he stood before the President and said to his face what the name had come to mean."
+      },
+      {
+        "p": "When your army entered the country of the Six Nations, we called you the town-destroyer; and to this day, when your name is heard, our women look behind them and turn pale, and our children cling close to the necks of their mothers. — Cornplanter (Seneca) to President Washington, 1 December 1790",
+        "q": true
+      },
+      {
+        "fig": "/war-img/rev-native-cornplanter.jpg",
+        "cap": "F. Bartoli painted the Seneca war leader Cornplanter in 1796. Cornplanter fought through the whole Revolution, in the line at Oriskany and at Wyoming, and in 1790 told President Washington to his face what the inherited name \"Town Destroyer\" had come to mean to Seneca women and children after Sullivan's campaign. The portrait is one of the few life likenesses of any Native figure in this chapter; there is no authentic portrait of Cornstalk, White Eyes, or Dragging Canoe.",
+        "credit": "F. Bartoli, \"Ki-On-Twog-Ky (Cornplanter),\" 1796, New-York Historical Society · painter active 1780s–90s, public domain"
+      },
+      {
+        "p": "And here is the fact that kills the last comfortable myth, the one that whispers that the nations who chose the right side came out all right. They did not. In July 1780 a British-allied force led by Joseph Brant burned Kanonwalohale, the principal town of the Oneida, the nation that had bled for the Americans at Oriskany, because the Oneida had refused to defect to Britain. The Oneida and Tuscarora, America's first Native allies, the nations that had fought at Oriskany and stood with the Continental Army at Saratoga, spent the rest of the war as refugees in squalid camps around Schenectady, homeless in the country they had fought to defend. And the dispossession did not stop when the fighting did. In the decades after the peace, New York State pressured and maneuvered the Oneida out of nearly all of the homeland they had kept by backing the winning side, treaty by treaty, until the nation that had bet on America held almost nothing of New York at all. They were not \"the good Indians\" who were spared for choosing well. They were dispossessed barely slower than the nations who chose Britain. To the north, the same lesson: the Stockbridge Mohican company had served the Patriot cause from Bunker Hill onward, and it was cut to pieces at Kingsbridge near New York in 1778, the leader Daniel Nimham and his son Abraham killed; within a generation the weakened community was pushed off its Massachusetts land entirely. Choosing the winning side did not save you. There was, in the end, no side that saved you."
+      },
+      {
+        "h": "The slaughter at Gnadenhutten",
+        "eyebrow": "Pennsylvania militia murder ninety-six Christian pacifists"
+      },
+      {
+        "p": "The Moravian Delaware were the people who had tried hardest of all to have no part in the war, and they were murdered for a raid they did not commit."
+      },
+      {
+        "p": "They were Delaware and Mohican who had converted to the Christianity of the Moravian church (a Protestant sect that rejected all warfare on religious principle) and lived in three quiet mission towns, Gnadenhutten, Salem, and Schoenbrunn, on the Muskingum River in eastern Ohio. They held to neutrality out of religious conviction, and so both sides suspected them. In the fall of 1781 the British-allied nations forcibly removed them north to the Sandusky, where they nearly starved through the winter. In February 1782 more than a hundred and fifty of them were permitted to go back to their old towns to harvest the corn still standing in their abandoned fields."
+      },
+      {
+        "p": "In early March a body of about 160 Pennsylvania militiamen under Colonel David Williamson came upon the Christian Delaware gathering that corn at Gnadenhutten. The militia accused them of raids on the Pennsylvania frontier. The charge was false; the real raiders had passed through and gone. The militiamen held a vote on what to do with the unarmed harvesters, and the majority voted to kill them. A minority refused and stood apart. The condemned Delaware were told they would die in the morning, and they spent the night in prayer and in hymns. On 8 March 1782 the militia led them in groups into two buildings, and bludgeoned and scalped ninety-six people to death, about a third of them men, a third women, and a third children. Two boys, one of them scalped and left for dead, survived to tell it. Then the militia burned the town. No one was ever punished for any of it."
+      },
+      {
+        "p": "Three months later a follow-up American expedition against the Sandusky towns, under Colonel William Crawford, with some of the Gnadenhutten militia in its ranks, was routed. Crawford, who had not himself been at Gnadenhutten, was captured and executed by Delaware warriors on 11 June 1782, explicitly in retribution for the massacre. The cycle closed the way these cycles close."
+      },
+      {
+        "h": "The peace that ignored them",
+        "eyebrow": "A treaty with no Native signature, and a war lost at the table"
+      },
+      {
+        "p": "While all this burned in the interior, the southern nations were caught between a third pair of empires. When Spain entered the war and rolled up British West Florida, taking Mobile in 1780 and Pensacola in 1781, the Choctaw and Chickasaw and Creek had to choose among three colonial powers rather than two, and they split internally over it just as every nation did. None of it changed the ending. The ending was written in Paris, by men who had never seen any of this country."
+      },
+      {
+        "p": "On 3 September 1783, Britain and the United States signed the Treaty of Paris. Britain handed over everything east of the Mississippi, between the Great Lakes and Florida, to the new United States. Not one Native nation was present at the table. Not one was consulted. Not one was mentioned. There was no provision for Britain's allies, who had fought and burned for the King, and none for the neutrals, who had asked only to be left alone. This was a legal fiction the European powers had long maintained among themselves, that title to the land passed between Crowns by treaty, as though the nations who lived on it were not parties to anything. The land that Britain \"gave\" was overwhelmingly land that no American army had occupied or conquered, country where the nations still lived and still held the ground. The King had ceded what was never his to cede, and the nations at the British posts said exactly that when the news reached them: that they were a free people, allied to the King but never his subjects, and that he had sold what did not belong to him."
+      },
+      {
+        "p": "The United States then governed the interior as though it had won that land by conquest. It treated the nations that had fought for Britain as defeated enemies whose country was forfeit, and at Fort Stanwix in October 1784 American commissioners dictated terms to a Haudenosaunee delegation, holding hostages as a guarantee, and forced the cession of the confederacy's claims in the Ohio Valley and a strip of western New York. The Haudenosaunee council later repudiated the treaty as the unauthorized act of men who had no power to sign it. The United States enforced it anyway. That was the first forward beat of a dispossession that would run for a century, and it belongs to the chapters that come after this one."
+      },
+      {
+        "p": "The real disaster of the American Revolution for Indian peoples lay in its outcome. — Colin Calloway, The American Revolution in Indian Country, 1995",
+        "q": true
+      },
+      {
+        "p": "Whichever course a nation steered, Britain, the Patriots, or neutrality, the Revolution ended for it in the same place: invaded country, burned towns, refugee camps, and a peace that left no nation in the room where terms were set. The Oneida and the Stockbridge, who chose the winners, were dispossessed barely slower than the Seneca and the Cherokee, who chose the losers. The neutral Shawnee lost Cornstalk, the neutral Delaware lost White Eyes and then Gnadenhutten, and the Chickamauga Cherokee, who refused the peace altogether, were still fighting from their new towns a decade after the Revolution ended. To the Seneca, Washington was the Town Destroyer to the end, and the name outlived the war. The nations lost at the peace table a war that most of them had not lost in the field. That is what happened, and naming the side a nation chose explains almost none of it."
+      }
+    ]
   }
 }
