@@ -107,8 +107,10 @@ gate is deterministic. See `audits/pipeline-audit.md` for the gate rationale, an
 ## File Structure
 **Full annotated tree (every component, script, and content/audit file) is in
 `docs/content-pipeline.md`.** The load-bearing entry points:
-- `src/app/` — `page.tsx` (Civ Lib home) · `[civilizationId]/` (accordion reader) ·
-  `navigator/` · `globe/` · `review/` + `api/review/` (dev-only image curation)
+- `src/app/` — `page.tsx` (app home) · `civ/` (Civ home + `[civilizationId]/` reader; **now uses the
+  shared WarHeader chrome, not the ThreadBar** — see `memory/project_app_nav_redesign`) ·
+  `navigator/` · `globe/` · `review/` + `api/review/` (dev-only) · Phase-2 verticals
+  `war-civil-war/` `war-french-indian/` `war-revolution/` `art/` · cross-cutting `threads/the-parties/`
 - `src/lib/` — `navigator-tls.ts` (the 100 TLs + `hasContent` flag — **ship source of
   truth**) · `data.ts` (build-time content read) · `types.ts` · `accent-colors.ts` ·
   `categories.ts` · `chronology-data.ts`
@@ -148,8 +150,19 @@ See `BEHAVIORS.md` for detailed behavioral specs. Key features:
 
 ## Reader Features (planned)
 - Footnotes
-- Theme threads (track a concept across chapters)
+- Theme threads (track a concept across chapters) — **first instance SHIPPED**: the cross-cutting
+  `/threads` namespace, see below + `memory/project_threads_vertical`.
 - Top drawer: interactive map (Ch 1), self-building timeline (Ch 2+)
+
+## Threads (cross-cutting narratives — shipped 2026-06-08)
+A "thread" is a story that runs ACROSS time and cuts THROUGH the verticals (it is NOT a 5th
+vertical and NOT war-owned). Lives at `/threads/<slug>` with its own light identity (neutral
+slate, not the war skin). First + only thread so far: **"The Parties"** (`/threads/the-parties`),
+on how the US Democratic/Republican coalitions swapped over ~160 years; the Civil War "Lincoln's
+Rise" theme links INTO it. Same gated pipeline as war chapters; gated source in
+`audits/threads-pipeline/`, compiled by `scripts/_build-threads.mjs` → `src/app/threads/<slug>/narrative.ts`,
+rendered by a self-contained reader in `src/app/threads/the-parties/page.tsx`. Grows a `/threads`
+index + thread-home when a 2nd chapter/thread lands. See `memory/project_threads_vertical`.
 
 ## Writing Rules (summary — full rules in WRITING-RULES.md)
 - **Write for completeness**, not for the existing event list

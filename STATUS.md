@@ -10,6 +10,21 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ## ▶ COLD-START HANDOFF — 2026-05-28 (read this FIRST)
 
+**🆕 PHASE-2 SESSION (war / threads / nav / policy) — 2026-06-08→10. This STATUS doc is
+civ-corpus-centric; the Phase-2 work is carried in MEMORY (loaded every session). Pointers:**
+- **NEW POLICY — cost API calls on a USER-PROVIDED key need prior approval, NO EXCEPTIONS**
+  (Gemini Flash, Claude vision via a user key). Free downloads, harness-billed Claude Code
+  subagents, and deploy/push are NOT gated. Baked into `CLAUDE.md` top + `feedback_paid_api_key_loud`.
+- **American Revolution (war #3): causes arc 3/6 chapters LIVE** (bill-comes-due, stamp-act,
+  boston-massacre), each through the gated pipeline. Per-chapter recipe + next steps (tea-party,
+  then civil-war-among-themselves) in `memory/project_war_revolution`.
+- **`/threads` namespace SHIPPED** — first cross-cutting narrative "The Parties" at
+  `/threads/the-parties`. `memory/project_threads_vertical`.
+- **War-story spine renamed "How the War Happened" across all wars** + the McPherson
+  simultaneity doctrine (`audits/war-build-standard.md` §4a).
+- **Civ section moved off the ThreadBar onto the shared WarHeader chrome** (home + reader);
+  `memory/project_app_nav_redesign` (2026-06-09 update).
+
 **✅ EVENT-UPGRADE SWEEP COMPLETE (verified 2026-06-07) — 109/109 civs swept.** Both gates
 green corpus-wide: `lint-event-cards` 109 civs · 0 NEW gaps · every civ "✓ full" (55
 grandfathered honest-rejects); `lint-event-photos` 109 civs · 70% floor · 0 NEW thin chapters
