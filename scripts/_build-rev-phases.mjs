@@ -24,6 +24,7 @@ import { dirname, join } from 'node:path'
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const PHASES = ['outbreak', 'the-north', 'two-armies', 'world-war', 'southern-turn', 'the-peace']
 const PILL_RE = /^\[([^\]]+)\]\((\/[^\s)]+)\)$/
+const FIG_RE = /^\[FIGURE:/i
 
 function parse(md) {
   const lines = md.split('\n')
@@ -75,6 +76,16 @@ function parse(md) {
     }
 
     if (t.startsWith('> quote:')) { blocks.push({ p: t.slice('> quote:'.length).trim(), q: true }); continue }
+
+    // [FIGURE: desc | caption | credit | src] → { fig, cap, credit } (same convention
+    // as _build-rev-themes.mjs; spine chapters carry born-verified figures too).
+    if (FIG_RE.test(t)) {
+      const inner = t.replace(/^\[FIGURE:/i, '').replace(/\]\s*$/, '')
+      const f = inner.split('|').map(s => s.trim())
+      const src = f[3] || ''
+      if (src) blocks.push({ fig: src, cap: f[1] || '', credit: f[2] || '' })
+      continue
+    }
 
     const pill = t.match(PILL_RE)
     if (pill) { blocks.push({ pill: pill[2], plabel: pill[1] }); continue }
