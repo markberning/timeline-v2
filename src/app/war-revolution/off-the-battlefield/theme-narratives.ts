@@ -2094,5 +2094,455 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "So who won the American Revolution? The honest answer refuses both flattering versions. It is not true that the Americans won it on their own, and it is not true that France won it for them. Both halves were necessary, and neither was sufficient. French money armed the Continental Army from the first year, French gifts and loans kept Congress solvent when its own currency was worthless, the French navy made Yorktown possible, and French soldiers were half the army that captured it. The neatest summary comes from the U.S. State Department's own historians, who put it plainly: \"French assistance was crucial in securing the British surrender at Yorktown in 1781.\" But French power had to be multiplied by something, and that something was an American army that refused to die. For six years, through defeats and freezing winters and mutinies and a collapsing currency, the Continentals kept an army in the field and the population kept the rebellion alive. France's fleets and silver were decisive. The American refusal to quit was what made there be anything for that decisiveness to finish. The alliance worked, in the end, because both halves finally meshed, and it took until the autumn of 1781 for them to do it."
       }
     ]
+  },
+  "war-at-sea": {
+    "eyebrow": "A nation with no navy takes on the largest fleet on earth",
+    "title": "The War at Sea",
+    "blocks": [
+      {
+        "p": "In 1775 the rebels owned no warships. Not a few, not some. None. There was no naval administration, no dockyard that could build a battleship, no officer corps, no flag at sea. Across the water sat the Royal Navy, the largest and most experienced fleet in the world: somewhere around 270 vessels, more than a hundred of them ships of the line (the battleships of the age, big enough to stand in the main fighting formation). It had beaten the French and the Spanish navies inside living memory. The thirteen colonies proposed to fight it with nothing."
+      },
+      {
+        "p": "That should have ended the war at sea before it began, and in one sense it did. The Americans could never take command of the ocean, and the remarkable thing about their naval story is that they never tried. They didn't have to. Sea power, for Britain, meant three things: it could land an army anywhere on a thousand miles of coastline faster than George Washington could march to meet it; it could feed and arm that army across three thousand miles of water; and it could close American ports and choke the rebel economy with blockade (the practice of stationing warships off an enemy's harbors to stop ships going in or out). To beat that, the rebels would have needed a fleet they could not build. So they set themselves an easier task. Make the ocean expensive for Britain, run gunpowder in, embarrass the enemy where you could, and stay alive until somebody with a real navy joined the fight."
+      },
+      {
+        "p": "That, in the end, is exactly what happened. The man who finally tipped the war did it with twenty-eight French ships of the line in a battle where not one American vessel was present. The American war at sea was never one war but several, fought at once and barely on speaking terms: a tiny official navy, a swarm of legalized pirates, and a single captain who turned a sinking ship into a legend, with the war's darkest single place running underneath all of it."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/french-alliance",
+        "plabel": "The French Alliance & the Global War"
+      },
+      {
+        "h": "A navy on paper",
+        "eyebrow": "Fishing boats, thirteen doomed frigates, and one raid on an undefended island"
+      },
+      {
+        "p": "It began with fishing boats. In the fall of 1775 Washington was besieging the British army inside Boston, and he had a problem that was almost comic in its plainness: he had no gunpowder, and he had to watch British supply ships sail unmolested into Boston harbor carrying the very thing he lacked. His answer was to take small New England fishing schooners (fast two-masted coasters), bolt a few guns to them, crew them with soldiers who had been fishermen in civilian life, and send them out to rob the supply line."
+      },
+      {
+        "p": "The first was a schooner called *Hannah*, sailing in early September 1775 under Captain Nicholson Broughton, and she took a prize (a captured enemy vessel) within days. Over the next two years the little fleet grew to a half-dozen converted schooners working out of Beverly and Marblehead, Massachusetts. They took dozens of prizes, and one of them changed the war. On the evening of November 28, 1775, the schooner *Lee*, under Captain John Manley, fell in with a fat, unarmed British ordnance brig called the *Nancy* near the mouth of Boston harbor. The *Nancy*, not realizing what *Lee* was, actually signaled her for help; Manley sent across a boat of men with their weapons hidden and took her without a fight. Her hold was a quartermaster's dream: roughly two thousand muskets, a hundred thousand flints, tons of musket shot, barrels of powder, and a thirteen-inch brass mortar, the exact military stores an army outside Boston had no other way to get. One lucky capture by a re-purposed fishing boat had re-armed Washington's lines. That asymmetry, a tiny investment paying an enormous return when it lands, is the whole American sea war in a single night."
+      },
+      {
+        "p": "The Continental Congress, meanwhile, decided to build a real navy, and the decision was not unanimous. A great many delegates thought challenging the Royal Navy was lunacy; Samuel Chase of Maryland is supposed to have called it \"the maddest idea in the world.\" They voted to do it anyway. On October 13, 1775, Congress moved to fit out armed vessels to cruise against British supply ships, the date the United States Navy still keeps as its birthday. In December it ordered thirteen frigates built (frigates being the fast, single-gun-deck cruisers of the age, smaller than a ship of the line, used as scouts and raiders and convoy escorts). And, in a flourish that tells you how little Congress understood the sea, it ordered all thirteen built in three months."
+      },
+      {
+        "p": "What happened to those thirteen frigates is the Continental Navy in miniature. Four were burned or scuttled by their own side in 1777, before they ever sailed, to keep them out of British hands as the enemy advanced. Of the eight that did get to sea, the *Randolph* blew up in action in 1778 with more than three hundred men aboard, among the worst single-ship death tolls of the entire age of sail; the rest were captured or run aground, one by one, until the last was taken in 1781. Not a single one of the thirteen survived in American service to the end of the war. Across the whole conflict the navy floated perhaps sixty vessels, never more than about thirty-one at once, and took on the order of two hundred prizes. By war's end almost nothing was left. Congress sold the final ship in 1785, and the United States then had no navy at all, none, until 1794."
+      },
+      {
+        "p": "The navy's one and only fleet operation of the entire war makes the point as well as anything. Early in 1776 its first and only commander in chief, Esek Hopkins of Rhode Island, took a squadron of eight small converted merchantmen to sea. His orders pointed him at the American coast; instead he sailed for the Bahamas to grab British military stores from the island of New Providence, where on March 3 a landing party of marines and sailors under Captain Samuel Nicholas took the island's two forts without firing a shot (the first amphibious operation the Continental Marines ever made, amphibious meaning an attack from ships onto land). The haul was real enough, nearly a hundred cannon and a dozen and a half mortars. But the gunpowder, the actual reason for the trip, had been quietly shipped out of the harbor the night before, right under the squadron's nose. And on the way home the whole fleet failed to take one lonely twenty-gun British ship, the *Glasgow*, which mauled one of Hopkins's vessels and got clean away. Eight ships against one, and the one won the exchange. Hopkins was censured, suspended, and finally dismissed. The navy never operated as a fleet again."
+      },
+      {
+        "p": "Set the official navy down honestly, then. It carried diplomats and dispatches, ferried Benjamin Franklin to France, and produced the war's one immortal sea fight; what it never did was break a blockade, win a fleet action, or frighten the Royal Navy. A nuisance and a flag, not a fleet."
+      },
+      {
+        "h": "The real navy was a business",
+        "eyebrow": "Letters of marque, prize courts, and a war fought for shares"
+      },
+      {
+        "p": "The actual American sea war was not fought by the navy at all. It was fought by privateers, and privateering was, at bottom, a business."
+      },
+      {
+        "p": "A privateer was a privately owned, privately armed ship licensed by a government to attack and capture enemy vessels in wartime. The license was a single piece of paper called a letter of marque, and that paper was everything. With it, a captured enemy crew were lawful prisoners of war and the seized ship was lawful \"prize,\" to be sold for profit. Without it, the identical act was piracy, a hanging offense. The paper was the only thing standing between a respectable merchant captain and the gallows."
+      },
+      {
+        "p": "Here is how the machine ran. A syndicate of merchants would fit out and arm a fast ship, apply to Congress or to one of the states for a commission, and post a money bond promising good behavior (enemy ships only, prisoners treated properly). The ship then cruised for enemy merchantmen, and the typical capture involved almost no fighting at all: the prize was usually an unarmed or lightly armed trader that struck her colors, meaning hauled down her flag in surrender, the moment a privateer overhauled her and ran out the guns. A small prize crew (a handful of men put aboard to sail the capture into a friendly port while the privateer kept hunting) brought her in, where an admiralty court ruled the capture lawful and ordered ship and cargo sold at auction. The proceeds were split by a contract agreed in advance: roughly half to the owners, the rest divided among the officers and crew by shares. One rich prize could hand an ordinary sailor more money than years of navy pay."
+      },
+      {
+        "p": "That last fact is why privateering swallowed the war at sea. For an investor it was a speculative industry, a war lottery; merchant houses in Salem, Newburyport, Boston, Providence, Philadelphia, and Baltimore bought shares in cruises, and fortunes were made and lost on the turn of a single sail on the horizon. Robert Morris, who financed much of the Revolution, caught the logic of it in one line: \"One arrival will pay for two, three or four losses.\" For a sailor the pitch was unbeatable. A cruise ran two or three months against a year's enlistment in the navy, the discipline was looser, and the prize shares could dwarf a navy wage. The Continental Navy could not keep its frigates manned, in part, precisely because the privateers outbid it for crews; navy captains sat in port and watched their men melt away to the privateer wharves. The new money even rearranged the social order, or seemed to. \"Fellows who would have cleaned my shoes five years ago have amassed fortunes,\" James Warren wrote to John Adams, half marveling and half appalled."
+      },
+      {
+        "p": "How big was the swarm? Nobody knows precisely, and the popular numbers are wildly inflated, because vessels were re-commissioned voyage by voyage and counted more than once. Congress issued something like 1,700 letters of marque, the states issued hundreds more, and perhaps two thousand vessels carried the paper over the war. The prizes they took are the most contested number in the whole story: a conservative count of ships actually captured and condemned runs near six hundred, common scholarship puts it around twenty-three hundred, and records derived from the London insurance market push toward three thousand, several hundred of them later recaptured or ransomed back. The honest version is well over a thousand, several times what the entire Continental Navy managed."
+      },
+      {
+        "p": "One arrival will pay for two, three or four losses. — Robert Morris, on the arithmetic of privateering (quoted in scholarship)",
+        "q": true
+      },
+      {
+        "p": "What did all that capturing actually do to Britain? It did not threaten British control of the sea for one moment. No privateer could fight a frigate, let alone a ship of the line; this was economic harassment, not naval power. But economic harassment, brilliantly scaled, has teeth. Marine insurance premiums in London climbed steeply once American cruisers were loose: one documented series of army-contractor shipping rates rose from around thirteen percent in the spring of 1776 to roughly thirty-two percent by that summer, with West Indies routes worse still. The numbers vary by route and year, but the direction is plain; insurance roughly doubled, and worse on the bad runs. British merchants petitioned, prices rose, and the government had to organize convoys (groups of merchant ships sailing together under warship escort), which tied up Royal Navy ships that would otherwise have been tightening the blockade. One Lloyd's of London broker, watching the lawyers argue over whether American captures even counted as ordinary war losses, grumbled that \"the Loss of a Ship taken by the Provincials is like to make work for the Lawyers, the Underwriters declaring that they are not Pirates, and the Policy not providing against Rebels.\""
+      },
+      {
+        "p": "The unglamorous part is part of the truth too. Privateering was a business, and some of it wore its patriotism thin; cruises chased profit, not strategy, and it bled the navy and even the army of coastal men. And it was as dangerous as any battlefield. Plenty of cruises came home empty or never came home at all; the lottery cut both ways, and the losing ticket could be drowning, or a British prison. Thousands of captured privateersmen ended in those prisons, and most of the men who died in the war's deadliest single place were privateersmen, not navy or army at all; Newburyport reportedly lost something like a thousand men to the sea and to captivity. The shares were real. So was the reckoning."
+      },
+      {
+        "h": "One captain",
+        "eyebrow": "The raids, the legend, and the Scot who became America's first naval hero"
+      },
+      {
+        "p": "If the navy as an institution was a disappointment, it produced exactly one figure who was not, and he was a strange man to become America's first naval hero. He was Scottish. He was born plain John Paul in 1747, a gardener's son in Kirkcudbrightshire, on the very coast he would later raid. He went to sea around thirteen and rose to merchant captain, and he added \"Jones\" to his name after killing a mutinous sailor at Tobago in 1773; he said it was self-defense, and rather than stand trial he fled to America. So the man who became the founding saint of the United States Navy was a Scot fighting Britain with a killing already shadowing his name. Both halves of him, the brilliant fighting captain and the prickly, ambitious striver, were true at once."
+      },
+      {
+        "p": "He earned his early reputation legitimately. Commanding the little twelve-gun sloop *Providence* in 1776, he took or destroyed more than a dozen prizes on a single cruise, one of the navy's few unambiguous performers. In 1777 he carried the new flag to France aboard the sloop-of-war *Ranger*, and it was there, in the spring of 1778, that he did the thing no American had done: he took the war to Britain's home waters."
+      },
+      {
+        "p": "On the night of April 22, 1778, Jones rowed two boats of men into Whitehaven, the English port he had sailed from as a boy, meaning to burn the hundreds of merchant ships crowded in its tidal harbor. It mostly fizzled. The raiders' lanterns burned out; the story goes that the men stopped at a pub; one of them slipped off and roused the town; and in the end the shore batteries were spiked (their guns disabled by driving a spike into the touch-hole) and a single ship was set alight, the fire quickly doused. The material damage was trivial. The shock was not. It was the first hostile landing on English soil in something like a century, and panic and insurance jitters rippled along the whole coast. On the same day as the Whitehaven raid, Jones crossed the firth to St. Mary's Isle to seize the Earl of Selkirk and trade the nobleman for American sailors held in British jails. The plan was a kidnapping, plainly, and it failed plainly: the earl wasn't home, and the raid netted nothing but the family silver, which Jones let his prize-hungry crew carry off while Lady Selkirk, pregnant, handled the intrusion with composure. The epilogue is pure Jones. He wrote her a long, florid letter of apology, vowing to buy the plate back from his own crew at his own expense, and years later he did exactly that. A piratical act and a chivalric letter, in one man, the same week. Two days later, off the Irish coast, he fought and took the Royal Navy sloop-of-war *Drake* in about an hour and paraded her into a French port as proof that an American ship could beat a British one in a fair fight."
+      },
+      {
+        "p": "### Flamborough Head"
+      },
+      {
+        "p": "> eyebrow: He won the battle and lost the ship, and that is the legend"
+      },
+      {
+        "p": "The fight that made him immortal was, by any sane accounting, a disaster he refused to lose."
+      },
+      {
+        "p": "France had given Jones a worn-out old East Indiaman (a merchant ship built for the long India trade), which he armed with around forty guns and renamed *Bonhomme Richard*, \"Poor Richard,\" in honor of Franklin. With a small joint squadron under American colors, he was cruising around the British Isles when, late in the afternoon of September 23, 1779, off Flamborough Head on England's own Yorkshire coast in the northeast, he ran straight into a large Baltic convoy carrying the timber, tar, and hemp that were the raw materials of British sea power, escorted by a brand-new British warship, the forty-four-gun *Serapis* under Captain Richard Pearson. Pearson did the right thing at once: those naval stores were exactly what Britain could not lose, and he put his ship between the enemy and his convoy and waved the merchantmen to safety."
+      },
+      {
+        "p": "The *Serapis* was newer, faster, and better armed than the *Richard*, and early in the fight two of Jones's oldest, biggest guns burst when fired, killing their own crews and wrecking that part of the battery. After that Jones had only lighter pieces left while the *Serapis* threw heavier shot from more of her deck, and he could not win a gunnery duel, a contest of broadsides (a broadside being every gun on one side of a ship firing together). To lose that duel was to be pounded into surrender, into asking for quarter, which meant asking the enemy to stop killing you and accept your surrender. So Jones did the only thing that gave him a chance. He grappled. The two ships fouled, and Jones lashed them together into one burning raft, and for hours they fired into each other muzzle to muzzle in the moonlight, close enough that crowds reportedly watched from the headland. The *Serapis*'s heavy guns tore the *Richard* apart below the waterline while Jones's marines and sailors swept the enemy's open deck with musket fire and grenades thrown down from the rigging. Into this, madly, the *Richard*'s own consort the *Alliance* sailed around the locked pair and fired her broadsides into both ships, hulling Jones's flagship again and again. Whether her French captain was incompetent, deranged, or malicious was never settled; he was later court-martialed out of the navy over other conduct. The plain fact is that one of the American ships shot into its own flagship."
+      },
+      {
+        "p": "What turned it was a single sailor. A man crawled out along a yard with a bucket of grenades and dropped one through an open hatch on the *Serapis*, down onto a row of loose powder cartridges, and the explosion ran the length of the British gun deck and killed or burned dozens of men. By then the *Richard* was sinking under Jones's feet, her pumps failing, fire creeping toward the magazine. His own gunner, certain the ship was going down, began crying out for quarter. Jones would not have it. When Pearson hailed across the water to ask whether the *Richard* had struck, Jones answered, in his own later words, in the most determined negative, and the fight went on. Around half past ten it was Pearson, not Jones, who struck his colors, hauled down his flag in surrender, and the *Serapis* was Jones's. His own ship was not. The *Bonhomme Richard* was too far gone to save; her crew fought the flooding for a day and a half, and on the morning of September 25 she rolled over and sank. The victor's ship went to the bottom. The legend rests on precisely that. He won the battle and lost the ship, and refused to surrender either way."
+      },
+      {
+        "fig": "/war-img/rev-sea-flamborough.jpg",
+        "cap": "The fight that made John Paul Jones a legend, engraved within a year of it. Jones grappled his outgunned ship to the newer Serapis and held on for hours muzzle to muzzle until the British captain struck, then watched his own ship, the Bonhomme Richard, sink under him two days later.",
+        "credit": "Engraving after Richard Paton, \"Serapis and Bonhomme Richard,\" published 1780 · public domain (published 1780)"
+      },
+      {
+        "p": "The casualties were appalling for the age, roughly half the men on each ship. And the most famous American naval sentence ever spoken belongs to this deck, which is exactly why it has to be handled with care. Every schoolchild learns that when Pearson hailed to ask whether the *Richard* had struck, Jones roared back, \"I have not yet begun to fight!\" Those words are real in the sense that someone wrote them down. They are not real in the sense of being recorded at the time. They first appear in print in 1825, forty-six years after the battle and thirty-three years after Jones's death, in the recollection of his first lieutenant Richard Dale, who had stood beside him on that deck and was supplying his memories to a biographer. What Jones himself actually wrote, in his official report to Franklin ten days after the fight, was quieter and just as defiant: the English commodore \"asked me if I demanded quarters, and I having answered him in the most determined negative, they renewed the battle with redoubled fury.\" The defiance is documented in his own hand. The famous shout is an old man's memory, set down half a century later. The refusal happened; the line is a legend built around it."
+      },
+      {
+        "p": "…the English Commodore asked me if I demanded quarters, and I having answered him in the most determined negative, they renewed the battle with redoubled fury… — John Paul Jones, official report to Benjamin Franklin, October 3, 1779",
+        "q": true
+      },
+      {
+        "p": "There is one more honesty owed to the scene. Captain Pearson lost his ship, but he had saved his entire convoy, which was the whole point of his fight, and Britain knighted him for it. Jones never fought another major action under the American flag. He was feted in Paris, given a gold medal by Congress, served briefly and unhappily as a rear admiral in Catherine the Great's Russian navy (an appointment that collapsed in court intrigue and an unresolved accusation of assaulting a girl), and died alone in Paris in 1792, aged forty-five. His grave was lost for over a century, then found; he lies today in a marble crypt beneath the chapel of the U.S. Naval Academy at Annapolis. The navy that barely existed while he lived made him, after his death, its founding saint."
+      },
+      {
+        "h": "The worst day",
+        "eyebrow": "Penobscot, 1779, and a fleet that destroyed itself without a battle"
+      },
+      {
+        "p": "In the same year as Flamborough Head, America's largest naval expedition of the entire war set out, accomplished nothing, and burned itself to the waterline. A famous name went down with it."
+      },
+      {
+        "p": "In June 1779 a British force of perhaps seven hundred men, with three Royal Navy sloops, occupied a peninsula on Penobscot Bay, a deep inlet on the Maine coast well northeast of Boston, in what was then the Maine district of Massachusetts (today the town of Castine), and began building a fort to anchor a new Loyalist colony on the coast. Massachusetts, not Congress, mounted the response, and it was enormous: more than forty vessels in all, a mix of a few Continental Navy ships, state warships, and chartered privateers, carrying something over a thousand militiamen. The naval commander was Commodore Dudley Saltonstall; the artillery was led by Lieutenant Colonel Paul Revere, the same Paul Revere who had ridden to warn the militia outside Boston in 1775. Yes, that Paul Revere."
+      },
+      {
+        "p": "The expedition arrived in late July and promptly seized up. The militia stormed a bluff and took ground while the British fort was still half-built, its walls barely chest-high on a man. And then, for more than two weeks, nothing happened. The general would not assault the fort until the commodore destroyed the British sloops in the harbor, and the commodore would not take his ships in under the fort's guns to do it. Councils of war were held; letters flew; the days drained away. While the Americans argued, a Royal Navy relief squadron of seven warships came up the bay, and the American fleet did not fight it. It fled up the Penobscot River, and there, trapped against the shallows, the Americans burned and scuttled their own ships, effectively the entire fleet, more than forty vessels lost. The survivors walked home through the Maine woods. The expedition nearly broke the treasury of Massachusetts and cost the state somewhere around five hundred men."
+      },
+      {
+        "p": "The blame fell, as blame does, on whoever was nearest. Saltonstall was court-martialed and dismissed from the navy, the chief scapegoat for what had plainly been a collective failure of command. Paul Revere did not escape it either. An army officer accused him of disobedience and unsoldierly conduct during the retreat, the charges turning on a refused order about a boat and his leaving for Boston without leave, and he was relieved of his command. Both halves of what happened next are true: the disgrace was real at the time, and so was the vindication. Revere demanded a full court-martial to clear his name, got it, and in February 1782 was acquitted, the court finding the charges unsupported. Penobscot is routinely called the worst American naval disaster until Pearl Harbor in 1941, a comparison historians like to make rather than a measured statistic. But the bare fact stands on its own: in the same season John Paul Jones was making a legend off the coast of England, the largest fleet America ever assembled in the Revolution destroyed itself, without a battle, in a Maine river."
+      },
+      {
+        "h": "The dark ledger",
+        "eyebrow": "The prison hulks (stripped warships) of Wallabout Bay, where more Americans died than in all the war's battles"
+      },
+      {
+        "p": "Most of the men who chased those prize shares were not navy and not army. They were privateersmen, and if their luck ran out, Britain had a specific place waiting for them. It waited in a Brooklyn cove called Wallabout Bay."
+      },
+      {
+        "p": "Britain held captured American seamen, overwhelmingly privateersmen, in decommissioned warships, hulks with their masts and guns stripped out, moored off the Brooklyn shore of New York's East River. More than a dozen of these hulks served over the war. Privateersmen in particular fell into a legal trap: under a 1777 act of Parliament they could be denied the ordinary prisoner exchange that returned soldiers home, and so they rotted aboard the hulks for years. The most infamous of them was a former sixty-four-gun ship of the line called the *Jersey*, hulked and turned into a prison by about 1780, which the men aboard her called simply \"Hell.\""
+      },
+      {
+        "p": "The conditions are best told once, plainly, and then left to stand. A thousand or more men were packed below decks at a time; dysentery, smallpox, yellow fever, and typhus ran through the dark; the rations were starvation rations skimmed by contractors, and the water came foul from the cask. Survivors remembered the guards' nightly cry as the hatches opened in the morning, \"Rebels, turn out your dead,\" and the dead were carried up and buried in shallow sand on the shore, several a day at the worst of it. A young prisoner named Ebenezer Fox, captured at seventeen and held aboard the *Jersey*, wrote afterward that \"the idea of being a prisoner in such a place was sufficient to fill the mind with grief and distress\"; another survivor, Thomas Dring, remembered being forced below into \"a current of foul air with accumulated nauseousness which it is impossible for me to describe.\" And through all of it the British kept up a standing offer: any prisoner could walk off the hulk into freedom the moment he agreed to enlist in the king's own navy or army. The overwhelming majority refused. That refusal, made in the dark by starving men, is the quiet heroism of the whole story."
+      },
+      {
+        "p": "The idea of being a prisoner in such a place was sufficient to fill the mind with grief and distress. — Ebenezer Fox, captured at seventeen and held aboard the *Jersey*",
+        "q": true
+      },
+      {
+        "fig": "/war-img/rev-sea-jersey.jpg",
+        "cap": "The hold of the prison ship Jersey, where a thousand or more captured American sailors were held at a time and disease, starvation, and the foul air killed several a day. This is a later imagined depiction from 1855, not an eyewitness record, but it matches what survivors described.",
+        "credit": "F.O.C. Darley, engraved by Bookhout, \"Interior of the old Jersey prison ship,\" 1855 (Library of Congress) · public domain (published 1855)"
+      },
+      {
+        "p": "How many died there cannot be pinned down, because no complete death register survives, and it should never be printed as a hard count. The traditional figure for the *Jersey* and the other Wallabout hulks is around eleven thousand, but that came from early-nineteenth-century estimation, not a body count. Modern scholarship widens the lens and softens the certainty: the historian Edwin Burrows, in the standard study, reckoned that twenty-five to thirty thousand Americans were held in and around New York and that at least seventeen thousand or so may have died in British captivity all told, across the ships and the city's jails and sugar houses, while granting the evidence is fragmentary. For the ships alone, the serious range runs somewhere between about seven and twelve thousand dead."
+      },
+      {
+        "p": "Set that against the other number and you have the fact that ought to be better known than it is. About six thousand eight hundred Americans died in battle in the entire Revolutionary War. By any of the serious estimates, more Americans died in British captivity than fell in every battle of the war combined, and by Burrows's wider count, roughly twice as many. The deadliest place in the American Revolution was not a battlefield; it was a row of anchored hulks in a Brooklyn cove. For decades the bones washed out of the Wallabout sand with the tides, and they rest today beneath the Prison Ship Martyrs' Monument in Fort Greene Park, a tall column standing over what the harbor did to them."
+      },
+      {
+        "h": "The battle America didn't fight",
+        "eyebrow": "The Chesapeake, 1781, won by a French fleet with no American ship present"
+      },
+      {
+        "p": "Everything the rebels had managed at sea had kept the war alive without ever winning it. Winning it required a real fleet, and the Americans did not have one. They borrowed one."
+      },
+      {
+        "p": "When France came into the war in 1778 (followed by Spain and then a war with the Dutch), Britain suddenly had to fight a world war without a single ally, spreading the Royal Navy across the Channel, the Mediterranean, the rich sugar islands of the West Indies, India, and America at once. The American blockade, never airtight to begin with, stretched thin and tore, and French fleets began crossing the Atlantic more or less at will. The early interventions disappointed, an admiral missing his chances at New York and Newport and failing bloodily at Savannah, and the allies finally absorbed the hard lesson: naval superiority is worth nothing unless it arrives at the decisive place, at the decisive moment, in overwhelming local force."
+      },
+      {
+        "p": "In 1781 they finally applied it. Lord Cornwallis, the British commander who had been running the southern campaign, had dug in at Yorktown, expecting the navy to supply him or carry him off if things went wrong. Admiral the comte de Grasse gambled. He brought his entire West Indies fleet, twenty-eight ships of the line, north from the Caribbean and anchored inside the Chesapeake Bay, the wide estuary whose mouth controlled all access to Yorktown. A second, smaller French squadron sailed separately from Newport, carrying the heavy French siege guns. To break this up before it closed, a British fleet of nineteen ships of the line under Rear Admiral Thomas Graves sailed down from New York. What followed, on September 5, 1781, was the single most decisive naval battle of the American Revolution, and not one American ship took part in it. That absence is the entire point: the decisive sea battle of America's war for independence was fought between Britain and France, while the Americans waited on land."
+      },
+      {
+        "fig": "/war-img/rev-sea-capes.jpg",
+        "cap": "The French fleet beating out past Cape Henry to meet the British on September 5, 1781, in the battle that sealed Yorktown. No American ship took part, which is the whole point: the decisive naval action of the war was fought between Britain and France while the Americans waited on land.",
+        "credit": "V. Zveg, \"Battle of the Virginia Capes, 5 September 1781,\" 1962, official U.S. Navy painting · public domain (work of a U.S. Navy employee)"
+      },
+      {
+        "p": "Graves arrived off the capes that morning to find de Grasse already anchored inside the bay, and caught at a bad moment, with hundreds of his men ashore on boat duty. De Grasse sortied anyway, getting twenty-four of his twenty-eight ships out past Cape Henry against the tide rather than be trapped at anchor, his line strung out and short-handed. Graves had the wind, a real advantage under sail: the ship to windward chooses when to close and when to hold off, while the one to leeward can only wait. He had that choice, and a disordered French line to fall on as it came out, and he did not take it. Instead he did what British doctrine told him to do: he formed his own neat line of battle and waited for it to come parallel before engaging. A line of battle was the iron rule of fleet fighting, ships in single file so that every broadside could bear and no friendly ship blocked another's guns, and the Royal Navy's *Fighting Instructions* prized keeping that line unbroken above almost everything else. Battles between two matched, careful lines tended to be indecisive by their very design, which was exactly the outcome Britain could not afford, because a draw left the French holding the bay."
+      },
+      {
+        "p": "The fighting, when it finally came in the late afternoon, lasted about two hours, and only the leading and center ships of each fleet ever really engaged. Graves flew contradictory signals, the flags for \"line ahead\" and \"close action\" up together, and his rear division read the order to hold the line as the one that governed and never came into the fight at all. His leading ships, his van (the lead division), were badly mauled aloft. The French gunners aimed high, at masts and rigging rather than at hulls, so the British van came through the smoke still afloat but crippled overhead, able to steer downwind but not to maneuver. That is the whole battle in a single image: a fight that wrecked almost nothing and decided everything. The casualties were modest for a battle that decided a war, around ninety British dead and a few ships cut up, one so leaky she had to be burned days later; the French rather fewer. The argument over whether Graves or his subordinate was to blame ran on for years and was never settled; it is fairer to call it what it was, a failure of signals and doctrine rather than of nerve."
+      },
+      {
+        "p": "The battle was decided in the days after the guns stopped. The two fleets drifted south within sight of each other while Graves's mauled van was in no state to renew the fight, and when both finally turned back for the bay, the French got there first. De Grasse found the Newport squadron already inside with the siege artillery, and now had thirty-five or thirty-six ships of the line sealing the bay. Graves, outnumbered and battered, turned for New York to refit. That settled it. Cornwallis needed the bay to be supplied, reinforced, or evacuated, and after that week he had none of the three. When Britain's relief fleet finally sailed to save him, it left New York on October 19, 1781, the very day Cornwallis surrendered."
+      },
+      {
+        "p": "And while the Chesapeake decided America, the rest of the Royal Navy was scattered across the globe holding everything else: pinned to the marathon Great Siege of Gibraltar, fighting over the sugar islands of the West Indies, dueling squadrons off India. Britain did not lose the war at sea. It lost the sea at one place, for one month, and that one month was enough. Yorktown happened in the gap."
+      },
+      {
+        "h": "The honest verdict",
+        "eyebrow": "A navy of almost nothing, and the one month that mattered"
+      },
+      {
+        "p": "America never built a navy that mattered. The Continental Navy lost or burned essentially everything it ever floated; all thirteen of its original frigates were gone before the war ended, and the last ship was sold off in 1785. What America actually had at sea was three things and one borrowed one. It had privateers that stung, hundreds of ships chasing prizes, four-digit prize counts, London insurance rates climbing, a real and painful tax on Britain's commerce that never came close to threatening British command of the ocean. It had one captain who became a legend, mostly by refusing to surrender a ship that was sinking under him. It had a dark ledger of prison hulks that killed more of its sailors than every battle of the war combined. And when the moment came to actually win, it borrowed a navy: an ally's fleet won the decisive battle without a single American vessel present. The rebels never contested command of the sea. They made British sea power expensive, survived it, and borrowed a real fleet for the one month that counted."
+      },
+      {
+        "p": "The United States remembered all of it. When it finally built a fleet of its own, six frigates authorized in 1794, one of them the *Constitution*, it built them with the memory of a war it had fought at sea with almost nothing. The navy keeps its birthday in 1775. Its actual fleet begins in 1794. That, though, is a different story."
+      }
+    ]
+  },
+  "treaty-of-paris": {
+    "eyebrow": "Britain chose to stop, four Americans broke their orders, and somebody had to pay the bill",
+    "title": "The Treaty of Paris & What It Cost",
+    "blocks": [
+      {
+        "p": "Yorktown did not end the war. It ended Britain's appetite for it, which is a different thing."
+      },
+      {
+        "p": "When Cornwallis surrendered his army in Virginia in October 1781, he handed over one field army of seven or eight thousand men. Britain still had the rest. Its garrisons sat in New York City, Charleston, and Savannah; it held Canada, Nova Scotia, and East Florida; it had the largest navy in the world, tens of thousands of troops across its North American posts, and no military reason it had to quit. The war was lost politically, not annihilated on the field, and for two more years the fighting actually went on, some of its ugliest after Yorktown, not before. There was nothing inevitable about the ending. Britain stopped because Britain decided to stop."
+      },
+      {
+        "p": "The terms the Americans got in Paris were astonishing. But the country those terms created came with costs paid by people who never sat at the negotiating table: the Loyalists, the Native nations, the enslaved, the unpaid soldiers, and some twenty-five thousand of the dead. The treaty is where you read, article by article, who was about to pay for the victory."
+      },
+      {
+        "h": "The frontier kept bleeding",
+        "eyebrow": "The war did not stop just because the surrender did"
+      },
+      {
+        "p": "The two years between Yorktown and the final treaty were not quiet. On the frontier they were among the bloodiest of the whole war."
+      },
+      {
+        "p": "In March 1782, Pennsylvania militia under Colonel David Williamson rode into the Moravian mission town of Gnadenhutten in the Ohio country and murdered ninety-six unarmed Christian Delaware, pacifists who had taken no side, men and women and children, and no one was ever punished for it. Five months later a British, Loyalist, and Native force ambushed a column of pursuing Kentucky militia at the Licking River and killed about seventy of them in minutes at a place called Blue Licks; among the dead was Israel Boone, the son of Daniel Boone, who was there and had warned against the rash pursuit. That was nearly a year after Yorktown. The native-nations chapter tells both stories in full. The timing is the point: the surrender that supposedly ended the war did nothing to stop the killing on the western edge of it."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/native-nations",
+        "plabel": "The erasure of the Native nations"
+      },
+      {
+        "p": "And here is the thing the schoolbook version leaves out: while Britain was losing the American war, it was winning its world war. The Revolution had pulled in France, then Spain, then the Dutch, turning a colonial rebellion into a global contest, and in that wider war, 1782 went Britain's way. In April, off the islands called the Saintes near Guadeloupe, Admiral Sir George Rodney shattered a French fleet under the Comte de Grasse, the same admiral whose ships had sealed Yorktown the year before; de Grasse's flagship surrendered with de Grasse himself captured aboard, and the planned invasion of Jamaica was finished. In September, at Gibraltar, Spain and France threw the full weight of their siege at the British garrison with ten purpose-built floating batteries, engineered to be fireproof and unsinkable, carrying more than five thousand men. The defenders fired red-hot shot into them and burned all ten. Gibraltar, besieged since 1779, never fell."
+      },
+      {
+        "p": "So picture the British position in the autumn of 1782. The fleet had just won in the Caribbean, the Rock had just held, the sugar islands and India and Gibraltar were secure, and only the American piece of the war was lost. Letting the thirteen colonies go was not a military collapse. It was a calculation made in the House of Commons: cut the one unwinnable war, keep everything still winning. The war had also been ruinously expensive, the national debt roughly doubled across it, and a generation earlier the *previous* Treaty of Paris, the one that ended the French and Indian War in 1763, had opened with exactly this problem, a victorious empire staring at its own bill. Britain had been here before."
+      },
+      {
+        "h": "London turns",
+        "eyebrow": "A prime minister falls, a king drafts his abdication"
+      },
+      {
+        "p": "The news of Yorktown reached London on the last Sunday of November 1781. Lord George Germain, the minister responsible for the American war, carried it straight to the prime minister, Lord North, at Downing Street."
+      },
+      {
+        "p": "How North took it comes down to us through a chain worth naming, because the scene is famous and the sourcing is not airtight. The diarist Sir Nathaniel Wraxall asked Germain how the prime minister had reacted. As Germain told the story, North took the news \"as he would have taken a ball in his breast,\" threw open his arms, and paced the room crying out \"O God! it is all over!\" again and again. Wraxall wrote it down decades later, in memoirs he published in 1815. So this is North's reaction as remembered by the man he told it to, retold long after by a memoirist with a flair for a scene. Probably close to true, but not a transcript."
+      },
+      {
+        "p": "King George III took it differently. Where North wanted out, the king wanted to fight on; his first note acknowledged \"the deepest concern\" at the disaster in Virginia and showed no intention of quitting at all."
+      },
+      {
+        "p": "The Commons made the choice for both of them. The Commons is the lower house of Parliament, where a government survives only as long as it holds a majority of votes there. In February 1782 a motion against continuing offensive war in America failed by a single vote, then passed a few days later, 234 to 215, the House formally resolving against the further prosecution of offensive warfare on the continent. On 20 March 1782, North stood up in the Commons and announced his resignation rather than lose a no-confidence vote he knew was coming. A no-confidence vote is a formal motion declaring that Parliament has lost faith in the government; once it passes, the ministry has to resign. North had been prime minister for twelve years, and his was the first British government ever effectively brought down this way, by a House that had simply withdrawn its support."
+      },
+      {
+        "p": "The king took it harder than North did. Around the end of March he drafted an abdication message. Finding himself unable to conduct the war \"with effect\" or get any acceptable peace, it read, \"His Majesty therefore with much sorrow finds he can be of no further utility to his native country which drives him to the painful step of quitting it for ever.\" He never sent it. But he wrote it, which tells you how hard losing America landed on him. He was not a cartoon tyrant shrugging off a colony; he was a king who briefly contemplated giving up his throne over it."
+      },
+      {
+        "p": "The man who took over the peace was the Earl of Shelburne, after a short-lived ministry under the Marquess of Rockingham, the man who had repealed the Stamp Act back in 1766 (Chapter 2), died that summer. A ministry is the cabinet, the prime minister and his senior ministers, who govern as a bloc and fall together; when Rockingham's broke, Shelburne formed the next one. Shelburne's view of American independence explains why the Americans got terms as generous as they did."
+      },
+      {
+        "p": "He did not see independence as a catastrophe to be minimized. He saw it as an opportunity. Britain, he reasoned, could keep the *profits* of America, its trade, without the *costs*, the garrisons and the governors and the wars. The new republic was going to be a customer, and a generous boundary, handing the Americans the whole interior west to the Mississippi, was the way to bind that customer to British commerce and pry it loose from France. The new free-trade thinking of the age, the world of Adam Smith's *Wealth of Nations*, ran in exactly this direction. So the generosity in the treaty that is coming was not sentiment. It was strategy: keep the sugar islands and India and Gibraltar, which paid, and concede the continental interior to a country you intended to sell to for the next century."
+      },
+      {
+        "h": "The negotiators and the Vergennes problem",
+        "eyebrow": "Four Americans, one set of orders, and an order they broke"
+      },
+      {
+        "p": "Congress had named five commissioners to make the peace, official envoys empowered to negotiate and sign, and four of them ended up signing. Benjamin Franklin was in Paris throughout, the senior man and the one the British wanted to deal with. John Jay arrived from his frustrating posting in Madrid in June 1782. John Adams came down from the Netherlands in late October. Henry Laurens reached Paris two days before the preliminary articles were signed; captured at sea in 1780, he had spent more than a year in the Tower of London, the only American ever held there, and had been exchanged for Cornwallis himself. The fifth, Thomas Jefferson, was appointed but never crossed the Atlantic in time; his earlier appointment had lapsed amid his wife's illness and death, and when he was named again his sailing was held up until word came that the deal was already done."
+      },
+      {
+        "p": "On the British side, the preliminaries were negotiated by Richard Oswald, an elderly Scottish merchant who knew America well and was chosen by Shelburne precisely because he would be a congenial channel to Franklin; the definitive treaty the next year was signed for Britain by David Hartley, a member of Parliament, a longtime friend of Franklin, and a steady opponent of the war. One dry detail: Oswald had grown rich partly in the Atlantic slave trade, and Laurens, formerly one of the largest slave merchants in America, had been his Charleston associate, so both sides' peacemakers had slave-trade money on their hands. That was the company the table kept."
+      },
+      {
+        "p": "Now the part where the Americans broke their orders. Congress, desperate for French support after the military disasters of 1780, had sent its commissioners instructions in June 1781 that put them on a very short leash. They were \"to undertake nothing in the negotiations for peace or truce without their knowledge and concurrence,\" the *they* being the French, \"and ultimately to govern yourselves by their advice and opinion.\" The only things Congress treated as non-negotiable were independence and the French alliance; everything else, the commissioners were to clear with Versailles, where the Comte de Vergennes, France's foreign minister, ran the war and the diplomacy from the king's court outside Paris."
+      },
+      {
+        "p": "They did not. From the fall of 1782 the Americans negotiated their terms directly with Oswald without telling Vergennes what those terms were and without asking his advice. That was a flat violation of the June 1781 instructions, and it should be stated plainly: Franklin, Jay, and Adams were not following their orders, and they knew it. The man who pushed hardest for going around the French was Jay, and his reason was a suspicion."
+      },
+      {
+        "p": "That September, Vergennes's under-secretary, a man named Rayneval, slipped off to England in secret under a false name. Jay got wind of it and concluded that France was about to sell American interests short, working out a deal with Britain and Spain to hem the new republic in east of the mountains, since Spain badly wanted to keep the Americans away from the Mississippi. So Jay, without Franklin's agreement, sent his own back-channel messenger to London to tell Shelburne that Britain's real interest lay in a fast, generous, direct deal with the Americans alone. The honest version: Jay's suspicion was real and consequential, but probably overdrawn. Rayneval's errand was mostly about Franco-Spanish business, Gibraltar above all, not about carving up America. Jay was partly right in spirit, since France was certainly not fighting for American maximalism, and partly chasing a thinner conspiracy than he thought."
+      },
+      {
+        "p": "Here is the precise thing they did and did not do. They negotiated and signed without French knowledge of the terms, which broke their instructions. But the document they signed was a set of *preliminary* articles, meaning provisional terms that would take effect only once a general peace was reached, and they were written to be explicitly conditional on Britain and France settling first. The preamble said the treaty was \"not to be concluded untill terms of a peace shall be agreed upon between Great Britain and France.\" So it was not a separate peace in the legal sense; the 1778 alliance's pledge that neither ally would make a separate peace was bent in spirit, not broken in letter. Both halves are true: a real violation of their orders, wrapped inside a document carefully built so it could not jump ahead of France."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/french-alliance",
+        "plabel": "The French alliance"
+      },
+      {
+        "p": "Vergennes's reaction was not rage. He was struck less by betrayal than by how much the Americans had extracted. \"The English buy peace rather than make it,\" he marveled. His formal protest, sent to Franklin that December, reproached the commissioners mostly for the discourtesy of shipping the articles off to America without informing the French court."
+      },
+      {
+        "p": "What Franklin sent back took nerve. He showed the draft to Adams, Jay, and Laurens, who unanimously told him to send it, and then he sent it. \"Nothing has been agreed in the Preliminaries contrary to the Interests of France,\" he wrote, \"and no Peace is to take Place between us and England till you have concluded yours.\" He conceded the commissioners had neglected a small point of propriety. And then he turned the knife with perfect calm: \"The English, I just now learn, flatter themselves they have already divided us. I hope this little Misunderstanding will therefore be kept a perfect Secret, and that they will find themselves totally mistaken.\" Do not let the British see daylight between us, because that is exactly what they are hoping for."
+      },
+      {
+        "p": "The English buy peace rather than make it. — the Comte de Vergennes, 1782",
+        "q": true
+      },
+      {
+        "p": "And then the part that proves it worked. Vergennes accepted the apology, and France extended a fresh loan of six million livres in 1783, livres being the French currency of the day; the first money crossed the Atlantic on a ship that also carried the preliminary articles home to Congress. The foreign minister who had just been cut out of the deal financed its delivery."
+      },
+      {
+        "h": "The terms, article by article",
+        "eyebrow": "Ten articles, and the bill folded inside them"
+      },
+      {
+        "p": "The preliminary articles were signed on 30 November 1782; the definitive treaty that made them final was signed the following September, its terms nearly identical. There were ten articles. Here is what they actually said."
+      },
+      {
+        "p": "**Article 1** acknowledged independence, and it did so one state at a time. \"His Brittanic Majesty acknowledges the said United States,\" it read, and then it named them, \"New Hampshire, Massachusetts Bay, Rhode Island and Providence Plantations, Connecticut, New York, New Jersey, Pennsylvania, Maryland, Virginia, North Carolina, South Carolina and Georgia, to be free sovereign and independent states.\" The king recognized thirteen states, listed individually, not one nation, the plural a legal self-portrait that was an argument about what the United States even was, and one that would not be settled for eighty more years."
+      },
+      {
+        "p": "**Article 2** drew the boundaries, and they were enormous. The line ran from the highlands of the northeast, down the 45th parallel, through the middle of the Great Lakes, west to the Mississippi, and down the middle of the Mississippi to roughly the line of Florida. The new republic got everything from the Atlantic to the Mississippi and from the Great Lakes to the edge of Florida, roughly doubling the territory the thirteen states actually occupied. That land was full of nations who had not surrendered it and were not consulted. Almost all of the new half was Native homeland, which we will get to, because that is the single largest item on the bill."
+      },
+      {
+        "p": "**Article 3** was John Adams's crusade, and it turned on one carefully chosen word. Americans would \"continue to enjoy unmolested the **right** to take fish\" on the open ocean banks off Newfoundland, \"unmolested\" meaning without interference from British patrols, but would have only the \"**liberty** to take fish\" along the coasts and to dry their catch on the unsettled shores of Nova Scotia and Labrador. A *right* is yours; a *liberty* is a permission, and a permission can be revoked. Adams, New England's man, fought this distinction to the final session and counted the fisheries among the great services of his life, and the line between right and liberty would feed Anglo-American fishing quarrels for decades."
+      },
+      {
+        "p": "**Article 4** said creditors \"shall meet with no lawful impediment to the recovery of the full value in sterling money of all bona fide debts heretofore contracted.\" In practice that meant British merchants could sue Americans, mostly southern planters, for prewar debts. The states obstructed it for years; it became one of the two great broken promises of the treaty."
+      },
+      {
+        "p": "**Article 5** was the Loyalists' article, and it was designed to be toothless. Congress, it said, \"shall **earnestly recommend** it to the legislatures of the respective states\" to restore the confiscated estates of the Loyalists. *Recommend* was the whole trick, because Congress had no power to compel the states, and every negotiator on both sides knew the recommendation would be ignored. The British needed the words to show Parliament they had not simply abandoned the king's friends; the Americans gave them the words and nothing behind them. When the peace reached London, British critics savaged this article as exactly what it was, the abandonment of the Loyalists, and the fury over it helped bring Shelburne's own government down a few months later."
+      },
+      {
+        "p": "**Article 6** promised no future confiscations and no future prosecutions \"for, or by reason of, the part which he or they may have taken in the present war,\" the forward-looking half of the Loyalist settlement, flouted in the first postwar years about as widely as Article 5."
+      },
+      {
+        "p": "**Article 7** ordered the war ended and the British armies withdrawn, and folded into it were eleven words about human beings. The British, it said, would leave \"without causing any destruction, or carrying away any Negroes or other property of the American inhabitants.\" Henry Laurens, who had reached Paris two days earlier, procured that clause on the day of the preliminary signing; it was interlined into the document, and the witnesses' notes record the insertion. It is a slaveholder's clause, doing its work in a single grammatical move, classing people as \"property\" alongside furniture and livestock. The British commander in New York, Sir Guy Carleton, refused to apply it backward: people already freed by British proclamation, he held, were not \"property of the American inhabitants\" to be handed back, and in declining, freed them. The slavery chapter tells that whole confrontation; here it is enough to hold the three things together, the treaty text, the man who slipped the clause in, and the general who declined to honor it the way the slaveholders wanted."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/slavery-and-the-revolution",
+        "plabel": "Slavery and the Revolution"
+      },
+      {
+        "p": "**Articles 8, 9, and 10** were the housekeeping: the Mississippi would \"forever remain free and open\" to British subjects and American citizens; conquests made before news of the peace arrived were to be handed back without compensation; and ratifications, the formal final approval by each government that turns a signed draft into a binding treaty, were to be exchanged within six months of the definitive treaty's signing, a clock that would nearly embarrass Congress."
+      },
+      {
+        "p": "There was also a secret. The 30 November preliminaries carried a separate article, kept hidden from France: if Britain ended the war still holding West Florida, the boundary between West Florida and the United States would run farther north than the line offered to Spain. It never came to anything, because Spain kept the Floridas, the two Florida colonies, East and West, that Spain and Britain were dividing between them, but the commissioners had signed it behind their ally's back, and when the packet reached America it caused real discomfort."
+      },
+      {
+        "p": "The American treaty was only one of several signed the same day; Britain settled separately with France and Spain at Versailles. Spain took East Florida, kept West Florida and Minorca, and got nothing on Gibraltar, which the siege's failure had made non-negotiable. France got the island of Tobago and the post of Senegal, and a mountain of debt that historians have been pointing toward 1789 ever since. The boundary muddle in the Floridas, left vague, would poison relations between the United States and Spain for years."
+      },
+      {
+        "h": "Signed, sealed, ratified",
+        "eyebrow": "A hotel room on the Left Bank, and a painting nobody finished"
+      },
+      {
+        "p": "The preliminary articles were signed on 30 November 1782 by Oswald for Britain and by Adams, Franklin, Jay, and Laurens for the United States, conditional, by their own terms, on Britain and France settling. Britain, France, and Spain signed their own preliminaries that January, and the guns fell silent."
+      },
+      {
+        "p": "The definitive treaty was signed on Wednesday, 3 September 1783. Not at Versailles, where the great powers had signed theirs, but in a hotel room on the Left Bank of Paris, the lodgings of David Hartley at the Hôtel d'York, by Hartley, Adams, Franklin, and Jay; Laurens was not there. A deliberately ordinary room for the independence of a new country, signed across a table in rented lodgings."
+      },
+      {
+        "p": "There is a painting of the men who made the preliminary deal, and it tells the truth precisely because it was never finished: the British side is blank because Oswald and his secretary refused to pose for a picture of their own defeat. Benjamin West, the Pennsylvania-born artist who was at that moment also the history painter to George III, began a group portrait of the peacemakers. The American side is done: Jay, Adams, Franklin, Laurens, and Franklin's grandson William Temple Franklin, the commission's young secretary, all sit finished on the canvas. The right half, where the British negotiators were supposed to sit, is bare. Richard Oswald and his secretary Caleb Whitefoord refused to pose, and West never finished it."
+      },
+      {
+        "fig": "/war-img/rev-treaty-west.jpg",
+        "cap": "The peace, half painted. Benjamin West sat the Americans down for this group portrait, from the left Jay, Adams, Franklin, Henry Laurens, and Franklin's grandson and secretary William Temple Franklin. The right side is blank because the British commissioners, Richard Oswald and his secretary Caleb Whitefoord, refused to pose for a picture of their own defeat, and West never finished it.",
+        "credit": "Benjamin West, \"American Commissioners of the Preliminary Peace Agreement with Great Britain,\" 1783–84 (unfinished), Winterthur Museum · West d. 1820, public domain"
+      },
+      {
+        "p": "Then the treaty had to come home and be ratified, and it nearly did not make it in time. A treaty needed the approval of nine states, and through the winter of 1783 and into 1784 Congress, meeting in the Old Senate Chamber of the Maryland State House at Annapolis, could not get nine delegations into the room at once. The delegates were scattered, and Jefferson insisted, against those who wanted a shortcut, that nine states were constitutionally required and seven would not do. The arrival of one delegate from South Carolina finally completed the ninth delegation, and on 14 January 1784 Congress ratified unanimously, uncomfortably close to the six-month deadline. The ratification crossed the Atlantic late, the formal exchange in Paris did not happen until May, and the deadline was technically blown, which nobody by then was inclined to make anything of."
+      },
+      {
+        "h": "Who paid",
+        "eyebrow": "The bill, by name, for the people who were not at the table"
+      },
+      {
+        "p": "Vergennes, the French foreign minister who had been cut out of the deal, was right that the English had bought peace rather than made it. But a peace that good for the men in the room was paid for by people who were never in it."
+      },
+      {
+        "p": "The Loyalists paid first, the colonists who had stayed loyal to the Crown. Around sixty thousand of them left the new United States rather than live in it, carrying roughly fifteen thousand enslaved people, scattering to Canada, the Caribbean, and Britain. Article 5's \"earnest recommendation\" produced almost nothing from the states, so the Loyalists who got anything got it from Britain: Parliament set up a claims commission that examined more than three thousand claims and paid out, over years, on the order of three million pounds, Britain compensating its own refugees for a treaty article it had agreed to let die. The civil-war chapter follows them into exile."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/civil-war-among-themselves",
+        "plabel": "The civil war among themselves"
+      },
+      {
+        "p": "The Native nations paid the largest share, and the treaty paid them the cleanest insult available, which was silence. It contains no Native signatories, no Native provisions, and no mention of Native nations anywhere in its ten articles. Britain signed away the entire trans-Appalachian West, the homeland of the Haudenosaunee, the Six Nations of the Iroquois Confederacy, along with the Shawnee, the Delaware, the Cherokee, and dozens of other nations, many of them Britain's own wartime allies, without telling them, consulting them, or naming them. The nations the treaty erased were not defeated at any Paris table; the land transfer was a fiction performed entirely by the people who wanted the land. The United States then treated the handed-over country as conquered and, in 1784, at a post called Fort Stanwix, forced a punitive land-cession treaty on the Haudenosaunee. The native-nations chapter carries that forward. The single strongest sentence in the whole treaty is the one that is not in it."
+      },
+      {
+        "p": "The enslaved paid in two directions at once, some winning their freedom and some losing it, depending on which way the ships were sailing. At New York the British registered around three thousand Black refugees and carried them away to freedom over loud American protest, the people Carleton, the British commander in New York, had refused to apply Article 7 backward to, since they had already been freed. From Savannah and Charleston the year before, they had already carried off far larger numbers, several thousand at each port, but most of those were carried away *still enslaved*, the human property of departing Loyalists. And Article 7's eleven words had a fifty-year afterlife: American slaveholders' compensation demands poisoned relations between the two countries for decades, recurred after the War of 1812, went to the Tsar of Russia for arbitration, and were settled only in 1826, when Britain paid the United States more than a million dollars for people it had freed in the *second* war."
+      },
+      {
+        "p": "The soldiers paid in worthless paper. The army that had won the war was sent home beginning in the summer of 1783 with three months' pay and final-settlement certificates, paper promises of money owed. To a man walking home broke, with no farm waiting and no cash in his pocket, a certificate that might be honored someday was worth less than a meal today, so most of them sold the paper to speculators for a fraction of its face value and took whatever they could carry. The army chapter tells what those men were owed and how little they got. The line on the bill is short: the country could not pay the soldiers who had made it."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/army-from-nothing",
+        "plabel": "The army from nothing"
+      },
+      {
+        "p": "And then the dead. The standard scholarly count puts American military deaths at around twenty-five thousand, from battle, from the camp diseases that killed more men than any battle, and from the prison ships in New York harbor where men died by the thousands in the dark. Some twenty-five thousand, and probably more, with higher estimates running well above that; and on top of the soldiers sit the uncounted dead, the Patriot civilians, the Loyalist dead, the British and German dead, the Native dead, most of whom no one ever tallied. Twenty-five thousand was about one percent of a population of two and a half million. Put as a share of the people alive to die, the Revolution was the deadliest war in American history except for the Civil War. That is the honest form of the claim, and it is grim enough without rounding up."
+      },
+      {
+        "h": "The endings",
+        "eyebrow": "An evacuation, a farewell, and a general who handed back his power"
+      },
+      {
+        "p": "The British left in stages. Savannah went first, in the summer of 1782, the garrison and officials and Loyalists and their enslaved people sailing for St. Augustine and the West Indies and New York. Charleston followed in December, more than four thousand Loyalist civilians and over five thousand people of African descent carried out. New York, the largest and the last, did not empty until the end of 1783, almost two full years after Yorktown."
+      },
+      {
+        "p": "The day New York emptied, 25 November 1783, the city had been under British occupation for seven years. The handover was set for noon, and as the last redcoats rowed out to their ships, Washington and Governor George Clinton rode into Manhattan at the head of the American column. New York kept the date, \"Evacuation Day,\" as a civic holiday for the next hundred years."
+      },
+      {
+        "p": "There is a famous story attached to that morning, and it is worth telling the way New York told it for a century, which is to say as a story. The departing British, so the tale went, nailed their flag to the pole at Fort George, cut away the ropes, and greased the pole so no one could climb it and run up the American colors before the fleet had cleared the harbor. A young veteran named John Van Arsdale nailed cleats to the pole, climbed it hand over hand, tore down the British flag, and raised the Stars and Stripes while the British could still see it from their decks. It is a wonderful story, and it is also mostly a story: its fullest telling was written a full century later, for the 1883 centennial, by Van Arsdale's own grandson, and the details shift from version to version. Some flag incident at Fort George that morning is plausible; the polished heroics are family legend. New Yorkers loved it because it was the perfect small image of the larger thing: the British, leaving, denied even the last gesture."
+      },
+      {
+        "fig": "/war-img/rev-treaty-evacuation.jpg",
+        "cap": "A later, 1879 imagining of Evacuation Day, the flag going up at the Battery as Washington enters New York. The print belongs to the centennial generation that loved the greased-flagpole legend, not to anyone who stood in the street in 1783, which is exactly the spirit in which the story should be read.",
+        "credit": "\"'Evacuation day' and Washington's triumphal entry in New York City, Nov. 25th, 1783,\" chromolithograph, 1879, Library of Congress · published 1879, public domain"
+      },
+      {
+        "p": "Nine days later, on 4 December 1783, Washington said goodbye to his officers in the Long Room of Fraunces Tavern on Pearl Street. The only firsthand account of that afternoon is a memoir written by one of the officers in the room, Colonel Benjamin Tallmadge, a cavalry officer and Washington's chief of military intelligence through the war, who set it down in 1830, forty-seven years after the fact, so it is a recollection, not a transcript. By that recollection, Washington filled a glass of wine and said, \"With a heart full of love and gratitude I now take leave of you. I most devoutly wish that your latter days may be as prosperous and happy as your former ones have been glorious and honorable.\" Knox, standing nearest, stepped forward, and Washington, too overcome to speak, embraced him in silence, and then every officer in the room, one after another, in a room where, Tallmadge wrote, \"Not a word was uttered to break the solemn silence that prevailed, or to interrupt the tenderness of the interesting scene.\""
+      },
+      {
+        "p": "With a heart full of love and gratitude I now take leave of you. — George Washington at Fraunces Tavern, from Tallmadge's 1830 memoir",
+        "q": true
+      },
+      {
+        "p": "Around noon on 23 December 1783, in the Old Senate Chamber of the Maryland State House at Annapolis, Washington stood before the Congress of the United States to give back his commission as commander in chief. The man presiding over Congress that day was Thomas Mifflin, the failed quartermaster general of the Valley Forge winter, the man whose department had let the army freeze and starve; now, as President of Congress, it fell to him to receive the commission of the general who had held that army together through it. The delegates sat with their hats on while Washington stood bareheaded before them, the small staged detail that said which of them outranked the other: the civilians keep their hats on, and the general takes his off."
+      },
+      {
+        "p": "His hand shook as he read. An eyewitness, James McHenry, wrote that same day that it was \"a solemn and affecting spectacle; such an one as history does not present,\" that \"the spectators all wept,\" and that Washington, reaching the passage commending his officers to the country's care, \"was obliged to support the paper with both hands.\" He read to the close. \"Having now finished the work assigned me,\" he said, \"I retire from the great theatre of Action — and bidding an Affectionate farewell to this August body under whose orders I have so long acted, I here offer my Commission, and take my leave of all the employments of public life.\" He laid the commission on the table, left Annapolis that afternoon, and reached Mount Vernon on Christmas Eve, a private citizen for the first time in eight and a half years."
+      },
+      {
+        "p": "Having now finished the work assigned me, I retire from the great theatre of Action — and bidding an Affectionate farewell to this August body. — George Washington, resignation address, 23 December 1783",
+        "q": true
+      },
+      {
+        "fig": "/war-img/rev-treaty-resignation.jpg",
+        "cap": "John Trumbull's grand-manner version of the Annapolis resignation, painted for the Capitol Rotunda. It is commemoration, not record: Trumbull composed it four decades after the event and put figures in the gallery who were not actually there, including Martha Washington, who was not present that day.",
+        "credit": "John Trumbull, \"General George Washington Resigning His Commission,\" 1824, U.S. Capitol Rotunda · Trumbull d. 1843, public domain"
+      },
+      {
+        "p": "There is a line that gets attached to this moment, and it has to be handled honestly. The story goes that George III, told what Washington meant to do, said that if Washington really gave up his power and went home to his farm, \"he would be the greatest man in the world.\" The trouble is that the line comes to us only through the painter Benjamin West, who said the king said it, and West told it in at least two versions years apart that do not match each other. So it is not the king's words. It is a story the King's own painter told, worth knowing in that form and no stronger. What does not depend on any king's verdict is the act itself: a victorious general, commanding the only real army on the continent, handed his power back to a Congress so broke it could not pay the men he was dismissing, and then he went home. The Society of the Cincinnati, the officers' fraternity founded that same spring, had taken its name from the Roman farmer-general Cincinnatus, who won his war, laid down his command, and went back to his plow. At Annapolis the name became a literal description of what Washington did."
+      },
+      {
+        "h": "The ledger left open",
+        "eyebrow": "What the treaty did not settle, and who carries it forward"
+      },
+      {
+        "p": "The treaty was signed, and then almost nobody honored the parts of it that were inconvenient."
+      },
+      {
+        "p": "Britain, despite Article 7's promise to withdraw with \"all convenient speed,\" kept its garrisons in the northwestern posts, Detroit, Niagara, Oswego, and the others, on what was now United States soil, until 1796. Its excuse was that the Americans had broken the treaty first, by blocking British creditors under Article 4 and never restoring Loyalist property under Article 5, and the excuse was true. Both sides broke the treaty first, depending on who was counting. The debts and the Loyalist promises stayed broken for more than a decade, and a government that could not enforce its own peace treaty became one of the arguments for replacing it, part of the road to the Constitution."
+      },
+      {
+        "p": "And the West the treaty so generously gave away was full of nations that had surrendered nothing; Fort Stanwix and everything after it belonged to people who had not been at any table in Paris. The new territory also carried a contradiction the treaty did not touch and could not resolve, whether the country that doubled in size would carry slavery into the new land or keep it out, a question the next eighty years would be spent fighting over."
+      },
+      {
+        "p": "So the ending is a room in Annapolis: a general with shaking hands laying a piece of paper on a table, a Congress in tears, a hat held in the hand, and a road home in the cold. The country that the treaty made was twice the size of the country that had fought for it, deeply in debt, undeniably victorious, and wholly unfinished, an argument about itself that it had only just begun to have. The rest of it is that argument."
+      }
+    ]
   }
 }

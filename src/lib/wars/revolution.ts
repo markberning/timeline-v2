@@ -108,7 +108,7 @@ export const REVOLUTION: WarConfig = {
     { id: 'rev-french-alliance', name: 'The French Alliance & the Global War', short: 'The French Alliance', phase: 'war', type: 'POLITICS', size: 'l', date: '1778–1783', year: 1778, m: 2, hook: 'An absolute monarchy bankrolled a republic, and the bill helped bring down the king who paid it.', href: '/war-revolution/off-the-battlefield/french-alliance' },
     { id: 'rev-war-at-sea', name: 'The War at Sea', short: 'The War at Sea', phase: 'war', type: 'MILITARY', size: 'm', date: '1775–1783', year: 1779, m: 9 },
     // ── The peace & the reckoning ──
-    { id: 'rev-treaty', name: 'The Treaty of Paris & What It Cost', short: 'The Treaty of Paris', phase: 'reckoning', type: 'AFTERMATH', size: 'l', date: '1783', year: 1783, m: 9 },
+    { id: 'rev-treaty', name: 'The Treaty of Paris & What It Cost', short: 'The Treaty of Paris', phase: 'reckoning', type: 'AFTERMATH', size: 'l', date: '1783', year: 1783, m: 9, hook: 'Astonishing terms on paper, and a bill paid by everyone who was never in the room.', href: '/war-revolution/off-the-battlefield/treaty-of-paris' },
   ],
   // The war-story spine — six chapters, one per phase.
   chapters: [
