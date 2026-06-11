@@ -329,6 +329,10 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "It gave Washington a night. On the night of August 29, with a storm keeping the Royal Navy out of the East River, he evacuated the entire trapped army, about nine thousand men with their field guns, horses, and baggage, across the mile-wide river in the dark. The boats were rowed in near silence by Colonel John Glover's Marblehead regiment, Massachusetts fishermen and sailors who knew water the way the rest of the army knew dry land. Toward dawn a heavy fog rolled over Brooklyn and hid the last boatloads, Washington among them, crossing with the rear. When the British walked into the lines in the morning they found the campfires still burning and no one in them, the trenches empty, an army that had been beaten and surrounded gone across a river in under thirteen hours without losing almost anyone doing it."
       },
       {
+        "pill": "/war-revolution/battles/long-island",
+        "plabel": "Long Island: the full battle story"
+      },
+      {
         "h": "The fall of New York",
         "eyebrow": "A failed peace talk, a panic at Kips Bay, a fire in the night, and the worst defeat yet"
       },
@@ -400,6 +404,10 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "At dawn on December 26 the two American columns came down on Trenton and hit the roughly fourteen hundred Hessians of Colonel Johann Rall in the teeth of the storm. The fight lasted somewhere between forty-five minutes and an hour. Knox's guns swept the two main streets end to end; a Hessian counterattack into the open broke up under the fire; Rall went down mortally wounded, and the brigade laid down its arms in an orchard. The tally usually given is about twenty-two Hessians killed, eighty or ninety wounded, and some nine hundred captured, with a few hundred slipping away south. American battle casualties were a handful of wounded, among them a young lieutenant named James Monroe, a future president shot through the shoulder."
       },
       {
+        "pill": "/war-revolution/battles/trenton",
+        "plabel": "Trenton: the full battle story"
+      },
+      {
         "fig": "/war-img/rev-north-mercer.jpg",
         "cap": "John Trumbull's grand canvas of the death of General Hugh Mercer at Princeton, begun in the 1780s. It is a history painting composed years later, not an eyewitness sketch, with the chaos of the field arranged for the eye; Mercer, bayoneted and refusing to surrender, anchors the center while Washington rides up behind.",
         "credit": "John Trumbull, \"The Death of General Mercer at the Battle of Princeton, January 3, 1777\" · Yale University Art Gallery · public domain"
@@ -415,6 +423,10 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "p": "At dawn on January 3 his column ran into British brigades under Lieutenant Colonel Charles Mawhood marching the other way out of Princeton. The American vanguard under Brigadier General Hugh Mercer was overrun in the first shock; Mercer, thrown from his horse and refusing to surrender, was bayoneted seven times and left for dead (he lingered nine days and died). The American line wavered, and Washington rode straight into the gap to steady it, exposing himself to the enemy's fire to do it. Reportedly he called out, \"It is a fine fox chase, my boys!\" as the British broke, though that line too is tradition. The British line gave way, and the last defenders barricaded in Nassau Hall, the college's main building, surrendered."
+      },
+      {
+        "pill": "/war-revolution/battles/princeton",
+        "plabel": "Princeton: the full battle story"
       },
       {
         "fig": "/war-img/rev-north-crossing.jpg",
@@ -478,6 +490,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "plabel": "Carillon, 1758"
       },
       {
+        "pill": "/war-revolution/battles/ticonderoga-1777",
+        "plabel": "Fort Ticonderoga: the full battle story",
+        "soon": true
+      },
+      {
         "p": "Then the woods slowed everything down. From Skenesborough, Burgoyne chose the overland route to the Hudson through the drowned lowlands of Wood Creek rather than backtracking to the Lake George portage, the longer water route by which boats had to be hauled overland between the lakes. Major General Philip Schuyler, commanding the American Northern Department, turned the wilderness into a weapon: about a thousand axmen felling great trees across the track, some forty bridges destroyed, boulders rolled into the creek, the crops burned, the cattle driven off. Burgoyne's army, hauling its guns and an enormous baggage train, made roughly twenty miles in about three weeks, close to a mile a day, and reached the Hudson at Fort Edward at the end of July. Every day Schuyler stole was a day off Burgoyne's food and a day for the militia to gather, because an army that could not move could not feed itself off a wilderness it had already burned. Schuyler got no thanks for it. Congress, full of New England delegates who detested him and wanting a scapegoat for Ticonderoga, replaced him in August with Major General Horatio Gates, a former British officer turned Continental administrator with a gift for the politics of command and a cooler battlefield hand than the men around him. The fairness of it is plain in hindsight: Schuyler's delay bought the weeks that made September possible."
       },
       {
@@ -493,6 +510,11 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "p": "The army the McCrea story was helping to raise was the same army Burgoyne now needed supplies to fight, and he was running short of nearly everything. Short of horses, draft animals, and food, in mid-August he sent Lieutenant Colonel Friedrich Baum with seven or eight hundred men, dismounted German dragoons, loyalists, Canadians, and Natives, toward Bennington in the Hampshire Grants, the disputed back country that both New York and New Hampshire claimed and that is now Vermont, on intelligence that a rebel supply depot there was lightly held. It was not. Brigadier General John Stark, a Bunker Hill and Trenton veteran who had quit the Continental Army over a passed-over promotion, had raised some fifteen hundred New Hampshire militia in under a week on the condition that he answer to New Hampshire alone. On the sixteenth of August Stark, with his militia and Seth Warner's Green Mountain men arriving late in the day, enveloped Baum's hilltop and destroyed his force; Baum was mortally wounded, and a German relief column came up too late, was wrecked at dusk, and barely escaped. The cost to Burgoyne was about nine hundred men he could not replace, commonly given as around two hundred killed and seven hundred captured, against roughly thirty American dead. Stark's famous line about his wife Molly sleeping a widow that night is one the storybooks gave him in variant forms decades later, not anything we can show he said."
+      },
+      {
+        "pill": "/war-revolution/battles/bennington",
+        "plabel": "Bennington: the full battle story",
+        "soon": true
       },
       {
         "p": "This was the hinge of the northern campaign, eighteen days before the next one turned in Pennsylvania. Burgoyne had lost a tenth of his army for nothing, got no supplies, and watched his Native allies, already soured by his scolding over McCrea, begin to drift away in numbers. His own letter to Germain on the twentieth of August is the campaign's epitaph written in advance. In the same letter he admitted he had had no word from Howe confirming that anyone would cooperate with him at all."
@@ -528,6 +550,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "Washington decided to fight for the capital, and he made his stand behind Brandywine Creek at Chadds Ford on the Philadelphia road on the eleventh of September, with around eleven thousand men. Howe, with roughly fifteen thousand, replayed the move that had beaten the Americans on Long Island the year before: a noisy feint at the obvious crossing while the real weight swung wide around the flank and came in from behind. One division demonstrated loudly at the ford to fix Washington's attention while Lord Cornwallis, with Howe and some eight to nine thousand men, swung seventeen miles north, crossed the creek at fords Washington's intelligence had dismissed, and came down on the American right and rear in the afternoon. This time it was not the Long Island panic. The American right wheeled to face the new threat and fought hard around Birmingham Meetinghouse; Nathanael Greene's division covered a real retreat in good order. A nineteen-year-old French volunteer named the Marquis de Lafayette, two months into his American service and serving without a command, was shot in the leg trying to rally troops, a small wound that would matter a great deal to the alliance story. By dark Washington's army was beaten but intact, falling back toward Chester. The losses ran to around six hundred British killed and wounded against something like a thousand to thirteen hundred Americans, the American returns too incomplete to give a hard number. A planned rematch a few days later dissolved when a downpour soaked tens of thousands of cartridges, and Congress had already slipped out of Philadelphia overnight on the eighteenth and nineteenth of September, warned that the river fords were open."
       },
       {
+        "pill": "/war-revolution/battles/brandywine",
+        "plabel": "Brandywine: the full battle story",
+        "soon": true
+      },
+      {
         "p": "A night attack followed that the Americans would remember by a name. Brigadier General Anthony Wayne, detached with about fifteen hundred men to harry Howe's rear near his own boyhood home, believed his camp near Paoli Tavern was a secret. Local loyalist intelligence had given it away. On the night of the twentieth and twenty-first of September, Major General Charles Grey attacked at midnight with the flints pulled from his men's muskets so no accidental shot could warn the camp, bayonets only, and the camp was overrun by firelight in minutes. About fifty-three Americans were killed, many of them with multiple bayonet wounds, which fed sworn depositions of atrocity and gave the night its name, the \"Paoli Massacre.\" The brutality needed little embellishment, but the name overstates the case: quarter was given, the mercy of taking a surrendering enemy prisoner rather than killing him, and roughly seventy prisoners were taken. Modern assessments read it as a legal and brutally efficient night attack rather than a slaughter of the helpless. The Americans called it a massacre, and the name stuck, and \"Remember Paoli\" became a revenge cry."
       },
       {
@@ -539,6 +566,11 @@ export const PHASE_NARR: Record<string, Narr> = {
       {
         "p": "It served to keep our different parties in ignorance of each Others movements, and hindered their acting in concert. It also occasioned them to mistake One another for the Enemy, which, I believe, more than any thing else contributed to the misfortune which ensued. — George Washington, on the fog at Germantown, 1777",
         "q": true
+      },
+      {
+        "pill": "/war-revolution/battles/germantown",
+        "plabel": "Germantown: the full battle story",
+        "soon": true
       },
       {
         "p": "It is widely said that this beaten army's nerve to attack a victorious enemy three weeks later impressed France as much as anything that autumn. The strong version, a single sentence put in the French foreign minister's mouth, cannot be pinned to any contemporary document, so put it softly: the news crossing to Paris that fall carried Philadelphia's loss together with Germantown's audacity, and French observers read even this defeat as evidence that the American army would not die."
@@ -577,6 +609,11 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "p": "Burgoyne fell back to Saratoga in the rain, was surrounded by an American force now grown past seventeen thousand with militia still coming in, and opened talks. He extracted terms striking for a beaten army: not a surrender but a \"Convention,\" under which his troops would march to Boston, sail home to Europe, and not serve again in North America. The catch was plain even as he signed it, since troops shipped home would free other troops to come over in their place. On the seventeenth of October, somewhere around six thousand British and German soldiers grounded their arms in the meadow by the Hudson. By the story as it was later told, the American bands did not jeer, and Gates received Burgoyne with courtesy. With Ticonderoga and Bennington and the campaign's battles added to the six thousand who laid down their arms here, Britain's entire northern army of around ten thousand had simply ceased to exist."
+      },
+      {
+        "pill": "/war-revolution/battles/saratoga",
+        "plabel": "Saratoga: the full battle story",
+        "soon": true
       },
       {
         "fig": "/war-img/rev-twoarmies-saratoga.jpg",
@@ -661,6 +698,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "Washington rallied a line on the high ground at the hedgerow and Perrine's Ridge, and through the long afternoon the rebuilt Continental line did the thing it had never done before. It maneuvered under fire, dueled artillery, and threw back attacks by the British army's best troops, and it stood toe to toe until dark. That was the winter's payoff made visible. Clinton broke contact in the night and completed his march to Sandy Hook, where the army crossed to New York by sea. Tactically the day was a draw, but Washington's army held the field at the end of it, and an army that holds the field gets to call the result its own. Each side lost something over 350 men, with dozens of those deaths on both sides owed not to fire but to the heat. The water-carrier legend that grew out of this field belongs to the women's chapter, not here."
       },
       {
+        "pill": "/war-revolution/battles/monmouth",
+        "plabel": "Monmouth: the full battle story",
+        "soon": true
+      },
+      {
         "pill": "/war-revolution/off-the-battlefield/women-of-the-revolution",
         "plabel": "Women of the revolution"
       },
@@ -676,11 +718,21 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "Monmouth was the last great battle in the north. For the rest of the war the two main armies would sit watching each other around New York while the war was decided everywhere else. That is the hinge this whole chapter turns on."
       },
       {
+        "pill": "/war-revolution/battles/stony-point",
+        "plabel": "Stony Point: the full battle story",
+        "soon": true
+      },
+      {
         "h": "The center of gravity leaves",
         "eyebrow": "With France in, the Royal Navy starts counting sugar islands"
       },
       {
         "p": "The same summer that French fleet appeared, the strategic ground shifted under both sides, quietly and permanently. With France in the war, the Royal Navy could no longer pour itself onto the American coast. It had to cover home waters against invasion, and a combined French and Spanish armada actually entered the Channel in 1779. It had to relieve Gibraltar, the rock fortress at the mouth of the Mediterranean, besieged from 1779. And above all it had to hold the West Indies, where the sugar islands were among the most valuable real estate in the entire empire and a single fleet action could decide a war in an afternoon. The standard accounting is blunt: after 1778 the thirteen colonies were no longer Britain's first strategic priority. Home defense and the sugar islands came first."
+      },
+      {
+        "pill": "/war-revolution/battles/bonhomme-richard",
+        "plabel": "Bonhomme Richard vs Serapis: the full battle story",
+        "soon": true
       },
       {
         "p": "The West Indies front opened at once. The roughly 5,000 men Clinton had detached took St. Lucia in December 1778 and held it against the French fleet and a counter-landing, and for the rest of the war islands changed hands, Dominica and Grenada and St. Vincent passing to France, in a theater Americans rarely saw but which governed when French ships could come north at all. The same navy that decides whether Washington can ever trap a British army is, in any given month, off Martinique chasing sugar. Every French appearance on the American coast was a loan against the Caribbean calendar, and the fleets ran north only in hurricane season, roughly July through October."
@@ -699,7 +751,17 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "It opened cleanly. On December 29, 1778, Lieutenant Colonel Archibald Campbell, detached from New York with around 3,000 to 3,500 men, took Savannah, Georgia, nearly bloodlessly after an enslaved man led a column along a path through the swamp that flanked the small American garrison. Georgia's royal government was restored, the only state brought fully back under the Crown. The next autumn d'Estaing came back north from the Caribbean, in October 1779, with about 4,000 troops to retake Savannah alongside an American southern army. After a siege, the allied assault of October 9, 1779, on the Spring Hill redoubt was a bloody repulse, with allied losses commonly given somewhere between 800 and over a thousand against a few dozen on the British side. Casimir Pulaski, the Polish cavalry commander serving the American cause, was mortally wounded; d'Estaing himself was wounded twice; and the fleet sailed for France, leaving the southern port city of Charleston uncovered for 1780. Twice the alliance's promise was made visible, a French battle fleet riding off the American coast, and twice it went unredeemed."
       },
       {
+        "pill": "/war-revolution/battles/savannah",
+        "plabel": "Savannah: the full battle story",
+        "soon": true
+      },
+      {
         "p": "Then Clinton came south himself, sailing from New York in late December 1779 with about 8,700 men, reinforced toward 13,000 or 14,000, and laid siege to Charleston by land and sea. Major General Benjamin Lincoln, sealed inside the city with the civil government pressing him to defend it, surrendered on May 12, 1780: about 5,500 men, the standard figure though sources range from 5,000 to 6,000, perhaps half of them Continentals, along with the city, its ships, and hundreds of guns. It was the largest American surrender of the war, often called the worst American capitulation until Bataan in 1942. The defeated men were granted parole, a sworn promise to go home and not take up arms again in exchange for their freedom. Clinton sailed back to New York, expecting a French expedition northward, and left Lord Cornwallis about 8,300 men to hold and extend the conquest."
+      },
+      {
+        "pill": "/war-revolution/battles/charleston",
+        "plabel": "Charleston: the full battle story",
+        "soon": true
       },
       {
         "p": "Then, on June 3, 1780, Clinton issued the proclamation that undid his own victory. It tore up the paroles: every man who had sworn to sit the war out was now required to take an active oath to the Crown and turn out to fight for it, so a promise kept turned into a trap, and neutrals became enemies at a stroke. One day earlier and an ocean away, on June 2, London had begun to burn. The same world war was pressing on both ends of the empire in the same week, though the home-front fire is a thread the next section picks up; here the point is the local one, that the proclamation made every Carolinian who had laid down his arms choose a side again."
@@ -709,6 +771,11 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "p": "Congress had a man it wanted to send south, over Washington's own preference for Nathanael Greene: Horatio Gates, the celebrated victor of Saratoga. Near Camden, South Carolina, before dawn on August 16, 1780, Gates's half-starved army, roughly 3,000 to 4,000 fit for duty and about two-thirds untried militia, collided with Cornwallis. At first light the Virginia and North Carolina militia on the American left broke at the first British volley and bayonet charge, many without firing a shot, and ran. The Continentals under Major General Johann de Kalb, the Bavarian-born veteran who had crossed the ocean with Lafayette, stood almost alone and were destroyed. De Kalb, unhorsed and fighting on foot, took some eleven wounds and died three days later. American losses are chaotic in the surviving returns, commonly put at 600 to 900 killed and wounded with another thousand captured; the army effectively ceased to exist. Gates, the sixty-year-old hero of Saratoga, was swept off the field in the militia rout and kept riding. He reached Charlotte that night, about 60 miles, and Hillsborough, roughly 180 miles, in three days. Alexander Hamilton's contemporary jeer fixed it for history: he marveled that a general could put 180 miles between himself and his army in three and a half days, an admirable credit, he wrote, to the activity of a man at his time of life. It ended Gates's career."
+      },
+      {
+        "pill": "/war-revolution/battles/camden",
+        "plabel": "Camden: the full battle story",
+        "soon": true
       },
       {
         "p": "Stated plainly, with no melodrama: within three months the southern army surrendered at Charleston, the army sent to replace it was annihilated at Camden, South Carolina was garrisoned, and Georgia was royal again."
@@ -738,6 +805,11 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "p": "Sullivan's columns burned about forty towns with their orchards and their stored winter corn the same season Savannah's assault was failing far to the south, and thousands of Haudenosaunee wintered as refugees at British Niagara. The raids on the frontier did not stop. (Off to the west the same winters, George Rogers Clark waded about 170 men through the flooded Illinois country to retake the British post at Vincennes in February 1779, a tiny action that cast a long shadow over the map at the war's end.)"
+      },
+      {
+        "pill": "/war-revolution/battles/vincennes",
+        "plabel": "Vincennes: the full battle story",
+        "soon": true
       },
       {
         "h": "The home front nearly breaks",
@@ -807,6 +879,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "The last beat of the year is the one that turned the southern war, though almost no one could see it as a turn at the time. As Cornwallis pushed up into North Carolina, screening his left was Major Patrick Ferguson with about a thousand Loyalist provincials and militia, and the thing to hold onto is that Ferguson was the only British-born man on the field. Every other man, on both sides, was American. Ferguson had threatened to march over the mountains and lay the frontier settlements waste with fire and sword, and the threat summoned exactly what it named: roughly a thousand \"over-mountain men,\" frontier riflemen from what is now Tennessee, Virginia, and the Carolinas, ran him down at Kings Mountain, South Carolina, on October 7, 1780. The fight lasted about an hour up the wooded slopes. Ferguson was shot dead and his command annihilated, with the killing carried on after some Loyalists tried to surrender, \"Tarleton's quarter\" shouted as men were cut down, and nine prisoners hanged days afterward. The Waxhaws had come home."
       },
       {
+        "pill": "/war-revolution/battles/kings-mountain",
+        "plabel": "Kings Mountain: the full battle story",
+        "soon": true
+      },
+      {
         "pill": "/war-revolution/off-the-battlefield/civil-war-among-themselves",
         "plabel": "A civil war among themselves"
       },
@@ -869,6 +946,11 @@ export const PHASE_NARR: Record<string, Narr> = {
         "p": "The arithmetic was ruinous for the British. Tarleton lost something like a hundred to a hundred and ten killed, more than two hundred wounded, and five to six hundred captured, roughly eighty to ninety percent of his force destroyed or taken in forty-odd minutes, along with both his field guns, the colors of the 7th Regiment, and his baggage. Morgan's own losses were a few dozen. What it meant mattered more than the count. Cornwallis had just lost his light troops, the fast quarter of his army, the part that let him pursue and screen and move quickly, and everything he did for the next two months was an attempt to make up for losing them. Morgan himself, his health broken by sciatica, left the army within weeks. Cowpens was the last battle he would ever fight."
       },
       {
+        "pill": "/war-revolution/battles/cowpens",
+        "plabel": "Cowpens: the full battle story",
+        "soon": true
+      },
+      {
         "fig": "/war-img/rev-southern-cowpens.jpg",
         "cap": "A history painting made sixty-four years after the fight, not a record of it. It shows the cavalry clash at the climax, with the Black trooper of William Washington's dragoons firing to save Washington's life, a documented detail of the action the painting chose to dramatize. No contemporary image of the battle exists.",
         "credit": "William Ranney, \"The Battle of Cowpens,\" 1845 · South Carolina State House · public domain"
@@ -898,6 +980,11 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "p": "Greene, true to his doctrine, broke off and retreated in good order, leaving his guns behind rather than let his army be destroyed to hold a field. Cornwallis was left in possession of the ground, which by the rules of the day made it his victory. The bill for it was crushing: around five hundred and thirty British casualties, ninety-three killed, more than four hundred wounded, and some twenty-six missing, roughly a quarter to a third of the men he had put in, a disproportionate share of them officers and Guards he could not replace. American losses were about seventy-nine killed and a hundred and eighty-five wounded, plus a thousand-odd militia counted \"missing,\" which mostly meant men who had fired their volleys and walked home when the battle moved past them, the ordinary rhythm of militia service and not a rout. When the news reached London that June, the opposition leader Charles James Fox is reported to have told the House of Commons that another such victory would ruin the British Army, consciously echoing the ancient king Pyrrhus, who said much the same after winning a battle that wrecked his own forces."
+      },
+      {
+        "pill": "/war-revolution/battles/guilford-courthouse",
+        "plabel": "Guilford Courthouse: the full battle story",
+        "soon": true
       },
       {
         "p": "We fight get beat and fight again. — Nathanael Greene, 1 May 1781",
@@ -974,6 +1061,11 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "p": "For two days commissioners haggled the terms at the Moore House outside the lines. Washington refused the garrison the honors of war, the ceremonial courtesy by which a surrendering army marches out with its colors flying and a tune playing, the same humiliation the British had imposed on the American garrison at Charleston the year before. On the nineteenth of October the garrison marched out between the allied lines, French troops on one side and Americans on the other, their colors cased, furled and sheathed rather than flown. More than seven thousand soldiers surrendered, along with the army's naval personnel and more than two hundred guns. Cornwallis did not come out himself, pleading illness; he sent his second-in-command, Brigadier General Charles O'Hara, who offered his sword first to Rochambeau. Rochambeau pointed him across the line to Washington, and Washington, matching a deputy with a deputy, directed him to Major General Benjamin Lincoln, the officer who had surrendered Charleston to the British the year before. By tradition the British bands played \"The World Turned Upside Down\" as the men marched out, though no contemporary account names any tune and the story surfaces only in recollections written long afterward."
+      },
+      {
+        "pill": "/war-revolution/battles/yorktown",
+        "plabel": "Yorktown: the full battle story",
+        "soon": true
       },
       {
         "fig": "/war-img/rev-southern-bauman-map.jpg",

@@ -31,6 +31,8 @@ The confrontation that followed has been wrapped in legend for two centuries, an
 
 Washington rallied a line on the high ground at the hedgerow and Perrine's Ridge, and through the long afternoon the rebuilt Continental line did the thing it had never done before. It maneuvered under fire, dueled artillery, and threw back attacks by the British army's best troops, and it stood toe to toe until dark. That was the winter's payoff made visible. Clinton broke contact in the night and completed his march to Sandy Hook, where the army crossed to New York by sea. Tactically the day was a draw, but Washington's army held the field at the end of it, and an army that holds the field gets to call the result its own. Each side lost something over 350 men, with dozens of those deaths on both sides owed not to fire but to the heat. The water-carrier legend that grew out of this field belongs to the women's chapter, not here.
 
+[Monmouth: the full battle story](/war-revolution/battles/monmouth)
+
 [Women of the revolution](/war-revolution/off-the-battlefield/women-of-the-revolution)
 
 [FIGURE: A heroic 19th-century painting of Washington on horseback rallying retreating troops at Monmouth. | Emanuel Leutze painted this version of Washington steadying the broken line at Monmouth around 1854, roughly seventy-five years after the fact and by the same artist who painted Washington Crossing the Delaware. It is a heroic imagining, not a record, and it stages the confrontation-with-Lee legend the careful history has had to scrape off. | Emanuel Leutze, "Washington Rallying the Troops at Monmouth," 1851–54 · Berkeley Art Museum · public domain | /war-img/rev-worldwar-monmouth.jpg]
@@ -39,10 +41,14 @@ Lee, his honor stung, fired off two insolent letters and demanded a court-martia
 
 Monmouth was the last great battle in the north. For the rest of the war the two main armies would sit watching each other around New York while the war was decided everywhere else. That is the hinge this whole chapter turns on.
 
+[Stony Point: the full battle story](/war-revolution/battles/stony-point)
+
 ## The center of gravity leaves
 > eyebrow: With France in, the Royal Navy starts counting sugar islands
 
 The same summer that French fleet appeared, the strategic ground shifted under both sides, quietly and permanently. With France in the war, the Royal Navy could no longer pour itself onto the American coast. It had to cover home waters against invasion, and a combined French and Spanish armada actually entered the Channel in 1779. It had to relieve Gibraltar, the rock fortress at the mouth of the Mediterranean, besieged from 1779. And above all it had to hold the West Indies, where the sugar islands were among the most valuable real estate in the entire empire and a single fleet action could decide a war in an afternoon. The standard accounting is blunt: after 1778 the thirteen colonies were no longer Britain's first strategic priority. Home defense and the sugar islands came first.
+
+[Bonhomme Richard vs Serapis: the full battle story](/war-revolution/battles/bonhomme-richard)
 
 The West Indies front opened at once. The roughly 5,000 men Clinton had detached took St. Lucia in December 1778 and held it against the French fleet and a counter-landing, and for the rest of the war islands changed hands, Dominica and Grenada and St. Vincent passing to France, in a theater Americans rarely saw but which governed when French ships could come north at all. The same navy that decides whether Washington can ever trap a British army is, in any given month, off Martinique chasing sugar. Every French appearance on the American coast was a loan against the Caribbean calendar, and the fleets ran north only in hurricane season, roughly July through October.
 
@@ -55,13 +61,19 @@ The second time it came due, it shaped the southern war directly, so it belongs 
 
 It opened cleanly. On December 29, 1778, Lieutenant Colonel Archibald Campbell, detached from New York with around 3,000 to 3,500 men, took Savannah, Georgia, nearly bloodlessly after an enslaved man led a column along a path through the swamp that flanked the small American garrison. Georgia's royal government was restored, the only state brought fully back under the Crown. The next autumn d'Estaing came back north from the Caribbean, in October 1779, with about 4,000 troops to retake Savannah alongside an American southern army. After a siege, the allied assault of October 9, 1779, on the Spring Hill redoubt was a bloody repulse, with allied losses commonly given somewhere between 800 and over a thousand against a few dozen on the British side. Casimir Pulaski, the Polish cavalry commander serving the American cause, was mortally wounded; d'Estaing himself was wounded twice; and the fleet sailed for France, leaving the southern port city of Charleston uncovered for 1780. Twice the alliance's promise was made visible, a French battle fleet riding off the American coast, and twice it went unredeemed.
 
+[Savannah: the full battle story](/war-revolution/battles/savannah)
+
 Then Clinton came south himself, sailing from New York in late December 1779 with about 8,700 men, reinforced toward 13,000 or 14,000, and laid siege to Charleston by land and sea. Major General Benjamin Lincoln, sealed inside the city with the civil government pressing him to defend it, surrendered on May 12, 1780: about 5,500 men, the standard figure though sources range from 5,000 to 6,000, perhaps half of them Continentals, along with the city, its ships, and hundreds of guns. It was the largest American surrender of the war, often called the worst American capitulation until Bataan in 1942. The defeated men were granted parole, a sworn promise to go home and not take up arms again in exchange for their freedom. Clinton sailed back to New York, expecting a French expedition northward, and left Lord Cornwallis about 8,300 men to hold and extend the conquest.
+
+[Charleston: the full battle story](/war-revolution/battles/charleston)
 
 Then, on June 3, 1780, Clinton issued the proclamation that undid his own victory. It tore up the paroles: every man who had sworn to sit the war out was now required to take an active oath to the Crown and turn out to fight for it, so a promise kept turned into a trap, and neutrals became enemies at a stroke. One day earlier and an ocean away, on June 2, London had begun to burn. The same world war was pressing on both ends of the empire in the same week, though the home-front fire is a thread the next section picks up; here the point is the local one, that the proclamation made every Carolinian who had laid down his arms choose a side again.
 
 The conquest spread by the sword. On May 29, 1780, in the Waxhaws settlements near the North Carolina line, Lieutenant Colonel Banastre Tarleton's British Legion, about 270 men, most of them Loyalist provincials, came off a forced ride of more than a hundred miles and caught Colonel Abraham Buford's 350 to 420 Virginia Continentals, the last organized American force in South Carolina. In the smoke, the killing continued after resistance had stopped. Tarleton's horse went down, and by his own later account the report that he had been killed "stimulated the soldiers to a vindictive asperity not easily restrained." The Legion kept killing after the white flag was up, leaving roughly 113 dead and 150 wounded, most too badly cut to be moved, against a handful of its own losses. Whether this was massacre by intent or a command breakdown after Tarleton fell is genuinely argued by historians. What is certain is the wound evidence, men with multiple saber and bayonet wounds, and what the story became: "Tarleton's quarter," meaning no quarter at all, kill them where they stand, a backcountry battle cry that fed the partisan war for the rest of the conflict.
 
 Congress had a man it wanted to send south, over Washington's own preference for Nathanael Greene: Horatio Gates, the celebrated victor of Saratoga. Near Camden, South Carolina, before dawn on August 16, 1780, Gates's half-starved army, roughly 3,000 to 4,000 fit for duty and about two-thirds untried militia, collided with Cornwallis. At first light the Virginia and North Carolina militia on the American left broke at the first British volley and bayonet charge, many without firing a shot, and ran. The Continentals under Major General Johann de Kalb, the Bavarian-born veteran who had crossed the ocean with Lafayette, stood almost alone and were destroyed. De Kalb, unhorsed and fighting on foot, took some eleven wounds and died three days later. American losses are chaotic in the surviving returns, commonly put at 600 to 900 killed and wounded with another thousand captured; the army effectively ceased to exist. Gates, the sixty-year-old hero of Saratoga, was swept off the field in the militia rout and kept riding. He reached Charlotte that night, about 60 miles, and Hillsborough, roughly 180 miles, in three days. Alexander Hamilton's contemporary jeer fixed it for history: he marveled that a general could put 180 miles between himself and his army in three and a half days, an admirable credit, he wrote, to the activity of a man at his time of life. It ended Gates's career.
+
+[Camden: the full battle story](/war-revolution/battles/camden)
 
 Stated plainly, with no melodrama: within three months the southern army surrendered at Charleston, the army sent to replace it was annihilated at Camden, South Carolina was garrisoned, and Georgia was royal again.
 
@@ -79,6 +91,8 @@ The answer came in 1779. In late summer Washington sent Major General John Sulli
 > quote: The immediate objects are the total destruction and devastation of their settlements and the capture of as many prisoners of every age and sex as possible. — George Washington to Maj. Gen. John Sullivan, 1779
 
 Sullivan's columns burned about forty towns with their orchards and their stored winter corn the same season Savannah's assault was failing far to the south, and thousands of Haudenosaunee wintered as refugees at British Niagara. The raids on the frontier did not stop. (Off to the west the same winters, George Rogers Clark waded about 170 men through the flooded Illinois country to retake the British post at Vincennes in February 1779, a tiny action that cast a long shadow over the map at the war's end.)
+
+[Vincennes: the full battle story](/war-revolution/battles/vincennes)
 
 ## The home front nearly breaks
 > eyebrow: The money dies, the army freezes, and both capitals burn from the inside
@@ -122,6 +136,8 @@ In the end West Point never changed hands, the exposure set off a spasm of loyal
 > eyebrow: An all-American battle on a wooded slope kills the southern theory
 
 The last beat of the year is the one that turned the southern war, though almost no one could see it as a turn at the time. As Cornwallis pushed up into North Carolina, screening his left was Major Patrick Ferguson with about a thousand Loyalist provincials and militia, and the thing to hold onto is that Ferguson was the only British-born man on the field. Every other man, on both sides, was American. Ferguson had threatened to march over the mountains and lay the frontier settlements waste with fire and sword, and the threat summoned exactly what it named: roughly a thousand "over-mountain men," frontier riflemen from what is now Tennessee, Virginia, and the Carolinas, ran him down at Kings Mountain, South Carolina, on October 7, 1780. The fight lasted about an hour up the wooded slopes. Ferguson was shot dead and his command annihilated, with the killing carried on after some Loyalists tried to surrender, "Tarleton's quarter" shouted as men were cut down, and nine prisoners hanged days afterward. The Waxhaws had come home.
+
+[Kings Mountain: the full battle story](/war-revolution/battles/kings-mountain)
 
 [A civil war among themselves](/war-revolution/off-the-battlefield/civil-war-among-themselves)
 
