@@ -1,0 +1,21 @@
+# CRITIC FINDINGS — "The Peace" spine finale (all 4: PASS-WITH-FIXES)
+
+## FACT-CHECK (no blockers; all quotes verbatim incl. both pull quotes; CARE all held)
+- SHOULD-FIX: Gnadenhutten as "8 March 1782 (the militia had taken the town the day before)"; Asgill "nineteen or twenty years old"; the Knox choreography per Tallmadge ("Knox, nearest to him, turned; Washington, 'suffused in tears,' grasped his hand, and they embraced in silence, and then every officer in the room in turn"); Purple Heart "on 22 February 1932, Washington's two-hundredth birthday"; the closing recap "a measured walk a deliberate distance behind a departing enemy."
+- NITs: the Circular "four things" punctuation aligned to Founders if directly quoted; Nelson attribution may carry "27 October 1781."
+
+## STORYTELLING
+- **BLOCKER (the braid):** the in-between-ness is named, not enacted. (1) Press the Saintes/Huddy same-day coincidence into one breath at the Huddy section's opening ("On the same day Rodney shattered de Grasse's fleet at the Saintes, twelve hundred miles away a New Jersey militia captain was taken off a British prison ship and hanged on the Jersey shore.") — kill the "as it happened" parenthetical; (2) enact the Gibraltar-burning-while-the-army-waits-unpaid simultaneity (one date-press clause linking the two); the "The leaving" section's Wednesday-board braid is the standard — match it.
+- SHOULD-FIX: the Gibraltar visual belongs in PROSE before the Copley figure ("by midnight the batteries were burning like torches on the water, visible from the hills where the crowd had come to watch the Rock fall" — pack-supported facts only); trim Van Arsdale to one sentence (the badge intact); expand the expense-account beat to two sentences (the most character-revealing beat in the section); reconsider the Asgill figure ONLY if its print is PD-verifiable at the image step (else hold 3: Copley/Badge/Currier).
+- NITs: cut "and not the things the legend keeps" (the list does the work); cut the restating second sentence at the frontier section's open; cut the "And while the land war went quiet, the war at sea did the opposite" scene-changer (fold into the Saintes' own date).
+- ADJUDICATED: keep both slavery pills (distinct beats); 3 figures hold.
+
+## CLARITY
+- **BLOCKERS:** gloss the commission as the physical document ("the commission — the physical document of his appointment as commander-in-chief — that Congress had voted him in June 1775"); anchor "preliminary peace" ("the preliminary articles of peace, an agreement signed in Paris the previous November, binding in intent but awaiting formal ratification").
+- SHOULD-FIX: the ceasefire-vs-peace beat ("a formal ceasefire: the shooting stopped, but the war was not legally over"); Carleton re-anchored in the Huddy section ("Carleton, now the British commander in New York…"); Greene's re-intro ("the general Washington had sent south…"); "one of Washington's closest aides" for Laurens; furlough glossed ("sent home on leave in what was, in practice, a mass discharge Congress could not afford to name"); the lottery-as-only-instrument clause in the retaliation chain; floating batteries as ship-like structures first; Evacuation Day glossed at first use; the Book of Negroes' PURPOSE ("each name a documentary proof of freedom that could protect a person from being claimed as property"); New Windsor located; halyards plain ("cut the ropes used to raise a flag"); "Continental regulars" for Wayne's men.
+- NITs: neutral-ground gloss optional.
+
+## FRAMING (one small blocker)
+- **BLOCKER:** Israel Boone's AGE inside the family-accounts badge ("By the family's accounts Israel was twenty-three that summer, had been ill, and had refused both to stay home and to take a horse out of the rout").
+- SHOULD-FIX: the McGary badge moved forward of the narration ("called on every man who was not a coward to follow him (the words are tradition; the phrasing shifts from source to source)"); one clause before the Asgill traditional-telling rebuttal ("a story that forgets who ordered the drawing of the lot in the first place"); watch the Loyalist "founding new towns" clause (keep unnamed, no expansion).
+- NITs: "nineteen or twenty" (dup of fact-check); "revived on 22 February 1932 as the Purple Heart" (dup).
