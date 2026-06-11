@@ -160,3 +160,15 @@
 10. **Woodhull's "God save us all"** — legend, first recorded much later.
 11. **Field's "hour more precious" line**: attribution (Thomas W. Field, 1869) solid; exact wording varies across quotations — check the 1869 text before quoting verbatim; never attribute to Cadwalader or any participant.
 12. **D'Andrea painting license**: Commons-tagged PD via the National Guard, but contractor work-for-hire status undocumented — prefer 18th–19th-c. art for prime slots.
+
+## CORRECTIONS (post-critic)
+
+*Appended 2026-06-10 by the reconciler, from the fact gate (`rev-long-island-critic-fact.md`, blocker B1).*
+
+1. **§8.3 (the no-quarter British officer's letter) is WRONG on both its source citation and its quoted wording.**
+   - The quote is **NOT in E.J. Lowell, *The Hessians*, ch. 6**, on Wikisource or in an independent mirror — both were fetched at gate time. That chapter's no-quarter material is Colonel von Heeringen's (a Hessian): "The English did not give much quarter, and constantly urged our people to do the like." The Lowell/Wikisource citation must not be reused.
+   - The §8.3 wording ("gave no quarters; and ... they dispatched the rebels with their bayonets...") matches **no genuine web printing**. The attested form (American Battlefield Trust, "Hessians Auxiliaries," echoed across secondary sources) is, verbatim: "The Hessians and our brave Highlanders gave no quarters, and it was a fine sight to see with what alacrity they dispatched rebels with their bayonets, after we had surrounded them so that they could not resist." (Comma after "quarters"; "rebels," not "the rebels"; the closing clause is part of the attested sentence.)
+   - The "printed in London papers, 1776" provenance could **not be confirmed** in any reachable primary source; attribute only to "a British officer" unless a 1776 printing is actually located.
+   - Gate-check sources: https://en.wikisource.org/wiki/The_Hessians_and_the_other_German_auxiliaries_of_Great_Britain_in_the_revolutionary_war/6_The_Battle_of_Long_Island,_August,_1776 · https://www.americanwars.org/hessians-revolution/chapter-VI.htm · https://www.battlefields.org/learn/articles/hessians-auxiliaries
+2. **§5 wounded itemization clarified:** the "British ~290–293 wounded" figure is effectively the COMBINED British+Hessian wounded (standard split: British 267 + Hessian 26 = 293); do not add the Hessian 26 on top of it. Dossier-safe line: "~63–69 killed, ~290–293 wounded, ~30 missing" within the ~370–400 total.
+3. **§4 Howard's son:** carry no age. "Teenage" is web-supported but the sources disagree (NYC Parks: 14; Brownstoner-cited tradition: 16); the pack carries only "his son William Jr."

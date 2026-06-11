@@ -144,3 +144,8 @@
 - Mount Vernon digital encyclopedia (battle page 403'd on fetch; facts cross-confirmed elsewhere)
 - Wikimedia Commons API — every "File:" name in §9 checked live (existence + dimensions + license metadata)
 - Wikipedia geodata API — §10 coordinates (Trenton Battle Monument, Old Barracks, Assunpink, Princeton, Bordentown, Pennington, Washington Crossing, Bristol)
+
+## CORRECTIONS (post-critic, 2026-06-10)
+*Appended at the reconciler pass so the pack stays the complete source of record for the gated FINAL.*
+1. **ADD to §2 [HIGH — web-verified by the fact critic]:** In 1776 the Delaware River at and below Trenton had **no bridges**; every crossing was by ferry or boat. The first bridge over the Delaware at Trenton (the Lower Trenton Bridge, the "Trenton Makes" site) opened **January 30, 1806**. Sources: Delaware River Joint Toll Bridge Commission (DRJTBC) bridge history; structuremag.org; Wikipedia "Lower Trenton Bridge." This supports the Section 1 clause "could not follow at once across a river with no bridges" (originally flagged out-of-pack as fact-critic BLOCKER B1; resolved by adding the verified fact here, per the critic's recommended option (b)).
+2. **Maintainer flag (fact-critic NIT 7):** the Hessian wounded range is internally inconsistent — §5 says "~83–95" while Known Uncertainty 2 says "80–95." The draft/FINAL follow §5 ("roughly 90," ranges 83–95). Harmonize on the next pack revision.
