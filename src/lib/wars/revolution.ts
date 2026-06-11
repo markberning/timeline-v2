@@ -72,7 +72,7 @@ export const REVOLUTION: WarConfig = {
     // ── Two Armies (1777) ──
     { id: 'rev-ticonderoga', name: 'Fort Ticonderoga', year: 1777, m: 7, mo: 'Jul', place: 'Ticonderoga, NY', theatre: 'rev-battles', region: 'saratoga', size: 's' },
     { id: 'rev-bennington', name: 'Bennington', year: 1777, m: 8, mo: 'Aug', place: 'Walloomsac, NY', theatre: 'rev-battles', region: 'saratoga', size: 'm' },
-    { id: 'rev-brandywine', name: 'Brandywine', year: 1777, m: 9, mo: 'Sep', place: 'Chadds Ford, PA', theatre: 'rev-battles', region: 'pennsylvania', size: 'm' },
+    { id: 'rev-brandywine', name: 'Brandywine', year: 1777, m: 9, mo: 'Sep', place: 'Chadds Ford, PA', theatre: 'rev-battles', region: 'pennsylvania', size: 'm', href: '/war-revolution/battles/brandywine', img: '/war-img/rev-brandywine-card.jpg' },
     { id: 'rev-saratoga', name: 'Saratoga', year: 1777, m: 9, mo: 'Sep–Oct', place: 'Stillwater, NY', theatre: 'rev-battles', region: 'saratoga', size: 'xl' },
     { id: 'rev-germantown', name: 'Germantown', year: 1777, m: 10, mo: 'Oct', place: 'Philadelphia, PA', theatre: 'rev-battles', region: 'pennsylvania', size: 'm' },
     // ── A World War (1778–1780) ──
