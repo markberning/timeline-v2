@@ -95,7 +95,15 @@ function parse(md) {
     }
 
     const pill = t.match(PILL_RE)
-    if (pill) { blocks.push({ pill: pill[2], plabel: pill[1] }); continue }
+    if (pill) {
+      // Battle pills may point at battles that aren't built yet (spine links every
+      // battle up front, per the link doctrine). Mark those soon:true — the reader
+      // renders them non-tappable; rebuilding after the page ships flips them live.
+      const battleSlug = pill[2].match(/^\/war-revolution\/battles\/([a-z0-9-]+)$/)
+      const soon = battleSlug && !existsSync(join(ROOT, 'src/app/war-revolution/battles', battleSlug[1], 'page.tsx'))
+      blocks.push(soon ? { pill: pill[2], plabel: pill[1], soon: true } : { pill: pill[2], plabel: pill[1] })
+      continue
+    }
 
     blocks.push({ p: t })
   }

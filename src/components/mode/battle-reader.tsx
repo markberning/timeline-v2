@@ -24,8 +24,10 @@ export type Block =
   | { h: string; eyebrow?: string }
   | { p: string; i?: boolean; q?: boolean }
   | { fig: string; cap: string; credit: string }
-  // a between-paragraph "go read that story" link, rendered as an accent pill
-  | { pill: string; plabel: string }
+  // a between-paragraph "go read that story" link, rendered as an accent pill.
+  // soon: the target page isn't built yet — render non-tappable with a Soon tag
+  // (the build script sets this; it flips live automatically when the page ships)
+  | { pill: string; plabel: string; soon?: boolean }
   // the zoomed-out "establishing shot": a real-geography dotted locator map
   | { locator: { eyebrow?: string; caption?: string; frame: Frame; states: StateSpec[]; dots?: Dot[]; lakes?: LakeSpec[]; labels?: FreeLabel[]; vbWidth?: number } }
 
@@ -211,6 +213,15 @@ export function BattleSectionReader({
             )
             if ('pill' in b) {
               const d = pillDest(b.pill, war)
+              if (b.soon) return (
+                <span key={i} className="rd-pill" aria-disabled style={{ ['--accent' as string]: `var(${d.cssVar})`, opacity: 0.55, cursor: 'default' } as React.CSSProperties}>
+                  <span className="ic" aria-hidden>→</span>
+                  <span className="tx">
+                    <span className="k">{d.kicker} · Soon</span>
+                    <span className="l">{b.plabel}</span>
+                  </span>
+                </span>
+              )
               return (
                 <a key={i} className="rd-pill" href={b.pill} style={{ ['--accent' as string]: `var(${d.cssVar})` } as React.CSSProperties}>
                   <span className="ic" aria-hidden>→</span>
