@@ -491,8 +491,7 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "pill": "/war-revolution/battles/ticonderoga-1777",
-        "plabel": "Fort Ticonderoga: the full battle story",
-        "soon": true
+        "plabel": "Fort Ticonderoga: the full battle story"
       },
       {
         "p": "Then the woods slowed everything down. From Skenesborough, Burgoyne chose the overland route to the Hudson through the drowned lowlands of Wood Creek rather than backtracking to the Lake George portage, the longer water route by which boats had to be hauled overland between the lakes. Major General Philip Schuyler, commanding the American Northern Department, turned the wilderness into a weapon: about a thousand axmen felling great trees across the track, some forty bridges destroyed, boulders rolled into the creek, the crops burned, the cattle driven off. Burgoyne's army, hauling its guns and an enormous baggage train, made roughly twenty miles in about three weeks, close to a mile a day, and reached the Hudson at Fort Edward at the end of July. Every day Schuyler stole was a day off Burgoyne's food and a day for the militia to gather, because an army that could not move could not feed itself off a wilderness it had already burned. Schuyler got no thanks for it. Congress, full of New England delegates who detested him and wanting a scapegoat for Ticonderoga, replaced him in August with Major General Horatio Gates, a former British officer turned Continental administrator with a gift for the politics of command and a cooler battlefield hand than the men around him. The fairness of it is plain in hindsight: Schuyler's delay bought the weeks that made September possible."
@@ -513,8 +512,7 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "pill": "/war-revolution/battles/bennington",
-        "plabel": "Bennington: the full battle story",
-        "soon": true
+        "plabel": "Bennington: the full battle story"
       },
       {
         "p": "This was the hinge of the northern campaign, eighteen days before the next one turned in Pennsylvania. Burgoyne had lost a tenth of his army for nothing, got no supplies, and watched his Native allies, already soured by his scolding over McCrea, begin to drift away in numbers. His own letter to Germain on the twentieth of August is the campaign's epitaph written in advance. In the same letter he admitted he had had no word from Howe confirming that anyone would cooperate with him at all."
@@ -551,8 +549,7 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "pill": "/war-revolution/battles/brandywine",
-        "plabel": "Brandywine: the full battle story",
-        "soon": true
+        "plabel": "Brandywine: the full battle story"
       },
       {
         "p": "A night attack followed that the Americans would remember by a name. Brigadier General Anthony Wayne, detached with about fifteen hundred men to harry Howe's rear near his own boyhood home, believed his camp near Paoli Tavern was a secret. Local loyalist intelligence had given it away. On the night of the twentieth and twenty-first of September, Major General Charles Grey attacked at midnight with the flints pulled from his men's muskets so no accidental shot could warn the camp, bayonets only, and the camp was overrun by firelight in minutes. About fifty-three Americans were killed, many of them with multiple bayonet wounds, which fed sworn depositions of atrocity and gave the night its name, the \"Paoli Massacre.\" The brutality needed little embellishment, but the name overstates the case: quarter was given, the mercy of taking a surrendering enemy prisoner rather than killing him, and roughly seventy prisoners were taken. Modern assessments read it as a legal and brutally efficient night attack rather than a slaughter of the helpless. The Americans called it a massacre, and the name stuck, and \"Remember Paoli\" became a revenge cry."

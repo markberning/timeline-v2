@@ -70,7 +70,7 @@ export const REVOLUTION: WarConfig = {
     { id: 'rev-trenton', name: 'Trenton', year: 1776, m: 12, mo: 'Dec', place: 'Trenton, NJ', theatre: 'rev-battles', region: 'middle', size: 'l', href: '/war-revolution/battles/trenton', img: '/war-img/rev-trenton-card.jpg' },
     { id: 'rev-princeton', name: 'Princeton', year: 1777, m: 1, mo: 'Jan', place: 'Princeton, NJ', theatre: 'rev-battles', region: 'middle', size: 'm', href: '/war-revolution/battles/princeton', img: '/war-img/rev-princeton-card.jpg' },
     // ── Two Armies (1777) ──
-    { id: 'rev-ticonderoga', name: 'Fort Ticonderoga', year: 1777, m: 7, mo: 'Jul', place: 'Ticonderoga, NY', theatre: 'rev-battles', region: 'saratoga', size: 's' },
+    { id: 'rev-ticonderoga', name: 'Fort Ticonderoga', year: 1777, m: 7, mo: 'Jul', place: 'Ticonderoga, NY', theatre: 'rev-battles', region: 'saratoga', size: 's', href: '/war-revolution/battles/ticonderoga-1777', img: '/war-img/rev-ticonderoga1777-hero.jpg' },
     { id: 'rev-bennington', name: 'Bennington', year: 1777, m: 8, mo: 'Aug', place: 'Walloomsac, NY', theatre: 'rev-battles', region: 'saratoga', size: 'm', href: '/war-revolution/battles/bennington', img: '/war-img/rev-bennington-card.jpg' },
     { id: 'rev-brandywine', name: 'Brandywine', year: 1777, m: 9, mo: 'Sep', place: 'Chadds Ford, PA', theatre: 'rev-battles', region: 'pennsylvania', size: 'm', href: '/war-revolution/battles/brandywine', img: '/war-img/rev-brandywine-card.jpg' },
     { id: 'rev-saratoga', name: 'Saratoga', year: 1777, m: 9, mo: 'Sep–Oct', place: 'Stillwater, NY', theatre: 'rev-battles', region: 'saratoga', size: 'xl' },
