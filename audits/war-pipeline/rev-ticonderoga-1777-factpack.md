@@ -158,3 +158,21 @@ Sections follow the fi-carillon-factpack template. Confidence tags: [HIGH] / [ME
 11. **"Two 12-pounders" on Defiance** — solid for the first guns up; popular accounts inflate the battery; the guns NEVER FIRED before the evacuation (the threat alone won) [HIGH on never-fired].
 12. **Adams quote** — byte-exact text is "I think We shall never defend a Post, untill We shoot a General." (Aug 19, 1777); the "never be able to defend" version is a misquote.
 13. **The 1758 echo** — genuine and verified (Clerk urged Rattlesnake Hill in 1758; Trumbull/Wayne/Arnold proved the climb in 1776–77) — but keep the two neglects distinct: Abercromby's was an attacker declining a shortcut; the Americans' was a defender leaving its own key undefended.
+
+---
+## CORRECTIONS (post-critic, 2026-06-11)
+
+*Imported after the fact-critic pass on `rev-ticonderoga-1777-draft.md` (critic finding B2). The draft's
+1758-echo beat used three figures that were not in §2 above; the critic verified them independently
+(Wikipedia, "Battle of Carillon": ~16,000 men, "the largest single force ever deployed in North America
+at the time"; British official return 547 killed / 1,356 wounded / 77 missing ≈ 1,980 ≈ "two thousand")
+and they match the in-repo, born-verified `audits/war-pipeline/fi-carillon-factpack.md` (the F&I page this
+beat pills to). They are hereby part of this pack:*
+
+- **1758 British army size**: ~16,000 — the largest army yet assembled in North America at that date [HIGH].
+- **1758 British losses at Carillon**: ~2,000 (official return ≈1,980) [HIGH].
+- **Superlative bound**: the Carillon pack's own phrasing is "**one of** the bloodiest British defeats of
+  the war"; the web supports "the bloodiest battle of the war" (both sides' casualties), NOT specifically
+  "the bloodiest British defeat." Usable phrasings: "one of the bloodiest British defeats of the French
+  and Indian War" or "the bloodiest battle of the war." Do NOT use "the bloodiest British defeat of the
+  French and Indian War" — that over-claims past both packs.
