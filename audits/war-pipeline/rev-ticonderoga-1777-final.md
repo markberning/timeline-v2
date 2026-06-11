@@ -87,7 +87,7 @@ All pre-1928 works are public domain; verify each file page at fetch. Crop any p
 
 6. SECTION 2 inline (c, the Hubbardton beat) · `File:Hubbardton Battlefield - Hubbardton, Vermont.jpg` (3072×2304, landscape) → `/war-img/rev-ticonderoga1777-hubbardton.jpg`
    - Caption: The Hubbardton battlefield in Vermont, the ground of Monument Hill, where the American rearguard turned and fought the British pursuit under Simon Fraser on July 7, 1777. No period painting of the battle is known; the ground itself is the honest image.
-   - Credit: photograph · 2013 · Wikimedia Commons · CC BY-SA 2.0. IMAGE-AGENT INSTRUCTION: the photographer's name from the Commons file page AND the CC BY-SA 2.0 attribution MUST be recorded in this credit string at fetch time (CC BY-SA attribution is a license condition, not a style choice). If the photographer cannot be resolved, DROP the photo and run the section without it. Do not ship this line as written.
+   - Credit: photograph by Doug Kerr · 2013 · Wikimedia Commons · CC BY-SA 2.0. [Photographer resolved at fetch from the Commons file page.]
 
 7. SECTION 3 inline (the Saratoga forward-pointer) · `File:John Graham (1755-1817) (after) - The Burial of General Simon Fraser (1729–1777), after the Battle of Saratoga, 1777 - NAM. 1960-12-200 - National Army Museum.jpg` (1200×915, landscape) → `/war-img/rev-ticonderoga1777-fraser-burial.jpg`
    - Caption: The burial of Simon Fraser, after John Graham. The general who led the pursuit from Ticonderoga was mortally wounded at Bemis Heights that October and buried at dusk in the Great Redoubt. Where this campaign was heading.
