@@ -17,10 +17,6 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Then the accounting started, and the victory began to look like a problem."
       },
       {
-        "pill": "/war-french-indian/off-the-battlefield/treaty-of-paris",
-        "plabel": "The Treaty of Paris & the Proclamation Line"
-      },
-      {
         "h": "The cost of winning",
         "eyebrow": "A debt that roughly doubled"
       },
@@ -40,10 +36,6 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "The colonists would come to see the same army very differently. A standing army kept up in peacetime, quartered among them, looked less like protection than like control. They had not asked for it, and soon enough they would be asked to fund it."
-      },
-      {
-        "pill": "/war-french-indian/off-the-battlefield/war-finance",
-        "plabel": "The War Debt & the Road to Taxation"
       },
       {
         "h": "The end of the long leash",
@@ -72,10 +64,6 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "The Proclamation had been in the works before the frontier caught fire. What forced it into law was a war already burning in the interior. With the French gone, the Native nations of the Great Lakes and the Ohio Country had risen against the new British presence in a broad, coordinated resistance the British called Pontiac's War, after Pontiac, the Odawa war leader who organized and led the uprising. They fought to halt the settlers pushing onto their land and to force the British into honest terms of trade. London, looking at the cost of fighting them and the cost of the army it had just decided to keep, concluded that the cheapest way to keep the peace was to stop the land grab that kept provoking it. The line was, in part, an attempt to keep faith with Native nations who had just made the price of bad faith very clear."
-      },
-      {
-        "pill": "/war-french-indian/off-the-battlefield/pontiacs-war",
-        "plabel": "Pontiac's War & the Aftermath for Native Nations"
       },
       {
         "p": "To the colonists, the line was an outrage. Their charters, the founding documents that had created the colonies, claimed land running clear to the Pacific. Veterans had been promised western land for their service. Speculators had fortunes staked on the Ohio Country, among them a young Virginian named George Washington, who privately dismissed the Proclamation as a temporary measure to quiet the Native nations and went on quietly acquiring western claims anyway. For the first time, London was telling colonists where they could and could not go on what they thought of as their own continent."
@@ -145,10 +133,6 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "That was where the line sat at the close of 1764. The colonists had drawn a distinction, external taxes they would tolerate, internal taxes they would not, and Parliament had not yet truly tested it. The following year it would, with a tax aimed squarely at the internal side of the line, on the paper of everyday colonial life. It had a name, the Stamp Act, and it would blow the whole argument wide open."
-      },
-      {
-        "pill": "/war-revolution/off-the-battlefield/stamp-act",
-        "plabel": "The Stamp Act"
       }
     ],
     "meanwhile": {
@@ -171,10 +155,6 @@ export const THEME_NARR: Record<string, Narr> = {
         "fig": "/war-img/rev-stamp-stamp.jpg",
         "cap": "The object itself: a one-penny stamp, crown and scepter and the word AMERICA, that by law had to appear on a long list of everyday paper. Almost none were ever sold.",
         "credit": "British proof of the 1765 one-penny stamp · public domain"
-      },
-      {
-        "pill": "/war-revolution/off-the-battlefield/bill-comes-due",
-        "plabel": "The bill comes due"
       },
       {
         "h": "A tax on paper",
@@ -308,10 +288,6 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "That minister was Charles Townshend (pronounced \"TOWNZ-end\"), the Chancellor of the Exchequer (the British government's chief finance minister, the official in charge of taxes and the treasury, the senior Cabinet figure who introduces the money bills Parliament then votes on). He was a famous talker, brilliant and reckless, who once gave a speech to the House of Commons so dazzling and so drunk it earned him the nickname \"Champagne Charlie.\" Horace Walpole, a prolific letter-writer and memoirist who chronicled the London political world of his day, said it ran \"an hour, with torrents of wit, ridicule, vanity, lies, and beautiful language.\" In 1767 Townshend set out to call the colonists' bluff."
-      },
-      {
-        "pill": "/war-revolution/off-the-battlefield/stamp-act",
-        "plabel": "The Stamp Act"
       },
       {
         "h": "Townshend's gambit",
@@ -455,10 +431,6 @@ export const THEME_NARR: Record<string, Narr> = {
     "blocks": [
       {
         "p": "One small tax had been left standing in the law books, deliberately, as Parliament's flag planted in colonial ground (Chapter 3). The duty on tea was still there, three pence a pound, collected as the tea came into port. It collected almost nothing, because the colonies had largely stopped buying the legal, taxed tea and gone back to the smuggled kind, and for three years that was where the matter sat, burning very low. Then, in 1773, Parliament did the one thing that could fan it back to life: it tried to make the colonists buy that taxed tea after all, by making it cheaper than the smuggled kind. Parliament thought it was offering a bargain. The colonists saw a trap, and they were right. To see how a cheaper cup of tea could end with men throwing a fortune into the harbor, start with the three quiet years before it, and with what was being built in them."
-      },
-      {
-        "pill": "/war-revolution/off-the-battlefield/boston-massacre",
-        "plabel": "The Townshend Acts & the Boston Massacre"
       },
       {
         "h": "The lull breaks down",
@@ -644,10 +616,6 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "Twenty-two months later, in that same city, a different congress voted that the colonies were \"free and independent states,\" absolved of all allegiance to the British crown. The men in the room had not changed their natures. The world around them had. The distance between those two votes is the chapter, and the thing that closed it was not a few radicals talking everyone into it. Step by step, the British government itself kept removing every other option until independence was the only door left unlocked."
-      },
-      {
-        "pill": "/war-revolution/off-the-battlefield/tea-party",
-        "plabel": "The Tea Party & the Intolerable Acts"
       },
       {
         "h": "The Congress that wasn't a rebellion",
@@ -851,10 +819,6 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "It was a civil war three ways at once. Britons against Britons, in the sense Burke meant. Americans against Americans, because a large minority of the colonists never wanted independence at all and a good number of them took up arms to stop it. And families against themselves, split down the middle by the same quarrel that split the country, sometimes never to be repaired."
       },
       {
-        "pill": "/war-revolution/off-the-battlefield/idea-of-independence",
-        "plabel": "The Idea of Independence"
-      },
-      {
         "h": "The fifth of the country that lost",
         "eyebrow": "Who the Loyalists actually were, and the one-third line that is wrong"
       },
@@ -1032,10 +996,6 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "That distrust was the army's other enemy, alongside poverty. The men who built the colonial case against Britain had spent a decade warning that permanent professional armies were the death of liberty, and the British regulars garrisoning Boston were their living proof."
-      },
-      {
-        "pill": "/war-revolution/off-the-battlefield/civil-war-among-themselves",
-        "plabel": "A Civil War Among Themselves"
       },
       {
         "h": "Congress adopts an army",
@@ -1256,10 +1216,6 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "Running underneath both, the steadiest thread in the whole story, were Black Americans themselves, who fought on both sides of this war for the same thing, their own freedom, and who took it from whichever army was selling it cheapest. That is the one consistent set of motives in this chapter. Everyone else's motives were tangled. Theirs were not."
-      },
-      {
-        "pill": "/war-revolution/off-the-battlefield/idea-of-independence",
-        "plabel": "The Idea of Independence"
       },
       {
         "h": "The landscape in 1775",
@@ -1524,10 +1480,6 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Now the other end of the class divide, the part of the war nobody painted a flattering portrait of. For every woman managing an estate from a parlor, there were others whose husbands' enlistment had pulled the floor out from under them. They did what the desperately poor have always done in a war: they followed the army."
       },
       {
-        "pill": "/war-revolution/off-the-battlefield/army-from-nothing",
-        "plabel": "An Army from Nothing"
-      },
-      {
         "p": "They are called camp followers, and the first thing to say is what they were not. They were not, as a lazy old slander has it, a traveling brothel. The women of the army were overwhelmingly soldiers' wives, soldiers' widows, and refugees, poor women, often with children, who could not keep a household going once their man marched away and so went with him instead. Some were hired nurses; some were sutlers (licensed vendors who sold food, liquor, and small goods to the troops, the eighteenth-century camp store). A few were enslaved or indentured women brought along by others. Prostitution existed at the edges of every army in this period, but it does not describe this population, and the scholarship that has actually counted these women is blunt about that. They were working members of the military community, and the army knew it. The American Articles of War in 1776 swept \"all suttlers and retainers to a camp, and all persons whatsoever serving with the armies of the United States\" into military jurisdiction. They belonged to the army, in the historian Holly Mayer's phrase, and were subject to its discipline like anyone else in it."
       },
       {
@@ -1691,10 +1643,6 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "One Cherokee refused to sign. Dragging Canoe, the son of one of the selling chiefs and a war leader of the younger generation, walked out of the council. He warned the buyers that the ceded country would be a dark and bloody ground to settle, that they would not have it in peace. (His exact words are not recoverable, and the famous claim that \"Kentucky\" means \"dark and bloody ground\" is a folk tale, not a fact; but the warning, and his repudiation of the sale, are real. No contemporary portrait of him survives.) He was overruled by the older chiefs, and the speculators got their paper. Hold onto that split inside one nation. It is the shape of everything that follows."
-      },
-      {
-        "pill": "/war-french-indian/off-the-battlefield/native-alliances",
-        "plabel": "The Contest for Native Alliances"
       },
       {
         "p": "There was no \"the Indians.\" There were dozens of separate nations, each with its own government, its own interests, and its own bitter argument about what to do, running its own foreign policy toward two empires that both wanted its land. \"The Indians sided with the British\" is the sentence most people carry out of school, and it is false in almost every way a sentence can be false. The nation that most of them feared was not the King across the ocean. It was the colonists next door, the people of the new United States, who were already on the Cherokee hunting grounds, already over the line, already coming."
@@ -2060,10 +2008,6 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Then came the one naval battle this chapter will linger on, and only for a moment, because the sea war proper belongs to the War at Sea chapter. On the fifth of September 1781, de Grasse stood out of the Chesapeake with twenty-four ships of the line and fought a British fleet of nineteen under Admiral Graves off the Virginia Capes. Tactically it was a maul, with no ships sunk on either side. Strategically it was total. Graves limped back to New York, the British relief never got through, a second French squadron slipped into the bay with the heavy siege guns, and Lord Cornwallis's British army at Yorktown was sealed in by land and cut off by sea. Washington had said for years that everything depended on controlling the water. For exactly these few weeks, the alliance had it, and a few weeks was all it needed."
       },
       {
-        "pill": "/war-revolution/off-the-battlefield/war-at-sea",
-        "plabel": "The War at Sea"
-      },
-      {
         "p": "Yorktown itself was a Franco-American operation through and through. Cornwallis had dug in on a low peninsula where the York River meets the Chesapeake, with water at his back, which made him strong against an assault from the land and helpless once the French fleet closed the river behind him. When the siege closed in, between late September and mid-October 1781, the Continental regulars numbered around eight thousand, with another three thousand or so militia, and the French regulars (Rochambeau's corps plus the troops de Grasse had brought) ran to roughly eight thousand as well. The French, in other words, were about half the trained troops in the lines, and the entire fleet offshore, the thing that made the siege possible at all, was French. French military engineers laid out the formal siege, the textbook European business of digging parallel trenches ever closer to the enemy works and emplacing the batteries (the grouped cannon) to pound them. On the night of the fourteenth of October, the allies stormed the two redoubts that anchored the British defenses, side by side, the French taking one and the Americans (under Lafayette's command, with the assault led by Alexander Hamilton) taking the other."
       },
       {
@@ -2107,10 +2051,6 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "That, in the end, is exactly what happened. The man who finally tipped the war did it with twenty-eight French ships of the line in a battle where not one American vessel was present. The American war at sea was never one war but several, fought at once and barely on speaking terms: a tiny official navy, a swarm of legalized pirates, and a single captain who turned a sinking ship into a legend, with the war's darkest single place running underneath all of it."
-      },
-      {
-        "pill": "/war-revolution/off-the-battlefield/french-alliance",
-        "plabel": "The French Alliance & the Global War"
       },
       {
         "h": "A navy on paper",
@@ -2319,10 +2259,6 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "In March 1782, Pennsylvania militia under Colonel David Williamson rode into the Moravian mission town of Gnadenhutten in the Ohio country and murdered ninety-six unarmed Christian Delaware, pacifists who had taken no side, men and women and children, and no one was ever punished for it. Five months later a British, Loyalist, and Native force ambushed a column of pursuing Kentucky militia at the Licking River and killed about seventy of them in minutes at a place called Blue Licks; among the dead was Israel Boone, the son of Daniel Boone, who was there and had warned against the rash pursuit. That was nearly a year after Yorktown. The native-nations chapter tells both stories in full. The timing is the point: the surrender that supposedly ended the war did nothing to stop the killing on the western edge of it."
       },
       {
-        "pill": "/war-revolution/off-the-battlefield/native-nations",
-        "plabel": "The erasure of the Native nations"
-      },
-      {
         "p": "And here is the thing the schoolbook version leaves out: while Britain was losing the American war, it was winning its world war. The Revolution had pulled in France, then Spain, then the Dutch, turning a colonial rebellion into a global contest, and in that wider war, 1782 went Britain's way. In April, off the islands called the Saintes near Guadeloupe, Admiral Sir George Rodney shattered a French fleet under the Comte de Grasse, the same admiral whose ships had sealed Yorktown the year before; de Grasse's flagship surrendered with de Grasse himself captured aboard, and the planned invasion of Jamaica was finished. In September, at Gibraltar, Spain and France threw the full weight of their siege at the British garrison with ten purpose-built floating batteries, engineered to be fireproof and unsinkable, carrying more than five thousand men. The defenders fired red-hot shot into them and burned all ten. Gibraltar, besieged since 1779, never fell."
       },
       {
@@ -2376,10 +2312,6 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "Here is the precise thing they did and did not do. They negotiated and signed without French knowledge of the terms, which broke their instructions. But the document they signed was a set of *preliminary* articles, meaning provisional terms that would take effect only once a general peace was reached, and they were written to be explicitly conditional on Britain and France settling first. The preamble said the treaty was \"not to be concluded untill terms of a peace shall be agreed upon between Great Britain and France.\" So it was not a separate peace in the legal sense; the 1778 alliance's pledge that neither ally would make a separate peace was bent in spirit, not broken in letter. Both halves are true: a real violation of their orders, wrapped inside a document carefully built so it could not jump ahead of France."
       },
       {
-        "pill": "/war-revolution/off-the-battlefield/french-alliance",
-        "plabel": "The French alliance"
-      },
-      {
         "p": "Vergennes's reaction was not rage. He was struck less by betrayal than by how much the Americans had extracted. \"The English buy peace rather than make it,\" he marveled. His formal protest, sent to Franklin that December, reproached the commissioners mostly for the discourtesy of shipping the articles off to America without informing the French court."
       },
       {
@@ -2419,10 +2351,6 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "**Article 7** ordered the war ended and the British armies withdrawn, and folded into it were eleven words about human beings. The British, it said, would leave \"without causing any destruction, or carrying away any Negroes or other property of the American inhabitants.\" Henry Laurens, who had reached Paris two days earlier, procured that clause on the day of the preliminary signing; it was interlined into the document, and the witnesses' notes record the insertion. It is a slaveholder's clause, doing its work in a single grammatical move, classing people as \"property\" alongside furniture and livestock. The British commander in New York, Sir Guy Carleton, refused to apply it backward: people already freed by British proclamation, he held, were not \"property of the American inhabitants\" to be handed back, and in declining, freed them. The slavery chapter tells that whole confrontation; here it is enough to hold the three things together, the treaty text, the man who slipped the clause in, and the general who declined to honor it the way the slaveholders wanted."
-      },
-      {
-        "pill": "/war-revolution/off-the-battlefield/slavery-and-the-revolution",
-        "plabel": "Slavery and the Revolution"
       },
       {
         "p": "**Articles 8, 9, and 10** were the housekeeping: the Mississippi would \"forever remain free and open\" to British subjects and American citizens; conquests made before news of the peace arrived were to be handed back without compensation; and ratifications, the formal final approval by each government that turns a signed draft into a binding treaty, were to be exchanged within six months of the definitive treaty's signing, a clock that would nearly embarrass Congress."
@@ -2465,10 +2393,6 @@ export const THEME_NARR: Record<string, Narr> = {
         "p": "The Loyalists paid first, the colonists who had stayed loyal to the Crown. Around sixty thousand of them left the new United States rather than live in it, carrying roughly fifteen thousand enslaved people, scattering to Canada, the Caribbean, and Britain. Article 5's \"earnest recommendation\" produced almost nothing from the states, so the Loyalists who got anything got it from Britain: Parliament set up a claims commission that examined more than three thousand claims and paid out, over years, on the order of three million pounds, Britain compensating its own refugees for a treaty article it had agreed to let die. The civil-war chapter follows them into exile."
       },
       {
-        "pill": "/war-revolution/off-the-battlefield/civil-war-among-themselves",
-        "plabel": "The civil war among themselves"
-      },
-      {
         "p": "The Native nations paid the largest share, and the treaty paid them the cleanest insult available, which was silence. It contains no Native signatories, no Native provisions, and no mention of Native nations anywhere in its ten articles. Britain signed away the entire trans-Appalachian West, the homeland of the Haudenosaunee, the Six Nations of the Iroquois Confederacy, along with the Shawnee, the Delaware, the Cherokee, and dozens of other nations, many of them Britain's own wartime allies, without telling them, consulting them, or naming them. The nations the treaty erased were not defeated at any Paris table; the land transfer was a fiction performed entirely by the people who wanted the land. The United States then treated the handed-over country as conquered and, in 1784, at a post called Fort Stanwix, forced a punitive land-cession treaty on the Haudenosaunee. The native-nations chapter carries that forward. The single strongest sentence in the whole treaty is the one that is not in it."
       },
       {
@@ -2476,10 +2400,6 @@ export const THEME_NARR: Record<string, Narr> = {
       },
       {
         "p": "The soldiers paid in worthless paper. The army that had won the war was sent home beginning in the summer of 1783 with three months' pay and final-settlement certificates, paper promises of money owed. To a man walking home broke, with no farm waiting and no cash in his pocket, a certificate that might be honored someday was worth less than a meal today, so most of them sold the paper to speculators for a fraction of its face value and took whatever they could carry. The army chapter tells what those men were owed and how little they got. The line on the bill is short: the country could not pay the soldiers who had made it."
-      },
-      {
-        "pill": "/war-revolution/off-the-battlefield/army-from-nothing",
-        "plabel": "The army from nothing"
       },
       {
         "p": "And then the dead. The standard scholarly count puts American military deaths at around twenty-five thousand, from battle, from the camp diseases that killed more men than any battle, and from the prison ships in New York harbor where men died by the thousands in the dark. Some twenty-five thousand, and probably more, with higher estimates running well above that; and on top of the soldiers sit the uncounted dead, the Patriot civilians, the Loyalist dead, the British and German dead, the Native dead, most of whom no one ever tallied. Twenty-five thousand was about one percent of a population of two and a half million. Put as a share of the people alive to die, the Revolution was the deadliest war in American history except for the Civil War. That is the honest form of the claim, and it is grim enough without rounding up."

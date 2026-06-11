@@ -7,7 +7,6 @@ In 1775 almost everyone on the field, in both armies, was a British subject. The
 
 It was a civil war three ways at once. Britons against Britons, in the sense Burke meant. Americans against Americans, because a large minority of the colonists never wanted independence at all and a good number of them took up arms to stop it. And families against themselves, split down the middle by the same quarrel that split the country, sometimes never to be repaired.
 
-[The Idea of Independence](/war-revolution/off-the-battlefield/idea-of-independence)
 
 ## The fifth of the country that lost
 > eyebrow: Who the Loyalists actually were, and the one-third line that is wrong

@@ -5,7 +5,6 @@ In September 1774, fifty-six delegates (the representatives each colony sent) fr
 
 Twenty-two months later, in that same city, a different congress voted that the colonies were "free and independent states," absolved of all allegiance to the British crown. The men in the room had not changed their natures. The world around them had. The distance between those two votes is the chapter, and the thing that closed it was not a few radicals talking everyone into it. Step by step, the British government itself kept removing every other option until independence was the only door left unlocked.
 
-[The Tea Party & the Intolerable Acts](/war-revolution/off-the-battlefield/tea-party)
 
 ## The Congress that wasn't a rebellion
 > eyebrow: Carpenters' Hall, the Suffolk Resolves, and a road not taken

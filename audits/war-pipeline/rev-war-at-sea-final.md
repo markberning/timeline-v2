@@ -7,7 +7,6 @@ That should have ended the war at sea before it began, and in one sense it did. 
 
 That, in the end, is exactly what happened. The man who finally tipped the war did it with twenty-eight French ships of the line in a battle where not one American vessel was present. The American war at sea was never one war but several, fought at once and barely on speaking terms: a tiny official navy, a swarm of legalized pirates, and a single captain who turned a sinking ship into a legend, with the war's darkest single place running underneath all of it.
 
-[The French Alliance & the Global War](/war-revolution/off-the-battlefield/french-alliance)
 
 ## A navy on paper
 > eyebrow: Fishing boats, thirteen doomed frigates, and one raid on an undefended island

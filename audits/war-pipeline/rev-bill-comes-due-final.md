@@ -7,7 +7,6 @@ Then the accounting started, and the victory began to look like a problem.
 
 [FIGURE: A map of British North America after the 1763 Treaty of Paris, showing the new territory east of the Mississippi and Florida. | The empire after the Treaty of Paris, 1763. Britain now held everything from the Atlantic to the Mississippi, and the cost of holding it was about to land on someone. | Stuff Happened map · public domain | ]
 
-[The Treaty of Paris & the Proclamation Line](/war-french-indian/off-the-battlefield/treaty-of-paris)
 
 ## The cost of winning
 > eyebrow: A debt that roughly doubled
@@ -22,7 +21,6 @@ Worse, the spending did not stop when the shooting did. There was now an empire 
 
 The colonists would come to see the same army very differently. A standing army kept up in peacetime, quartered among them, looked less like protection than like control. They had not asked for it, and soon enough they would be asked to fund it.
 
-[The War Debt & the Road to Taxation](/war-french-indian/off-the-battlefield/war-finance)
 
 ## The end of the long leash
 > eyebrow: Salutary neglect, and the man who ended it
@@ -42,7 +40,6 @@ The first shock did not look like a tax at all. On 7 October 1763, King George I
 
 The Proclamation had been in the works before the frontier caught fire. What forced it into law was a war already burning in the interior. With the French gone, the Native nations of the Great Lakes and the Ohio Country had risen against the new British presence in a broad, coordinated resistance the British called Pontiac's War, after Pontiac, the Odawa war leader who organized and led the uprising. They fought to halt the settlers pushing onto their land and to force the British into honest terms of trade. London, looking at the cost of fighting them and the cost of the army it had just decided to keep, concluded that the cheapest way to keep the peace was to stop the land grab that kept provoking it. The line was, in part, an attempt to keep faith with Native nations who had just made the price of bad faith very clear.
 
-[Pontiac's War & the Aftermath for Native Nations](/war-french-indian/off-the-battlefield/pontiacs-war)
 
 To the colonists, the line was an outrage. Their charters, the founding documents that had created the colonies, claimed land running clear to the Pacific. Veterans had been promised western land for their service. Speculators had fortunes staked on the Ohio Country, among them a young Virginian named George Washington, who privately dismissed the Proclamation as a temporary measure to quiet the Native nations and went on quietly acquiring western claims anyway. For the first time, London was telling colonists where they could and could not go on what they thought of as their own continent.
 
@@ -93,7 +90,6 @@ It is worth being clear about what the colonists were, and were not, asking for 
 
 That was where the line sat at the close of 1764. The colonists had drawn a distinction, external taxes they would tolerate, internal taxes they would not, and Parliament had not yet truly tested it. The following year it would, with a tax aimed squarely at the internal side of the line, on the paper of everyday colonial life. It had a name, the Stamp Act, and it would blow the whole argument wide open.
 
-[The Stamp Act](/war-revolution/off-the-battlefield/stamp-act)
 
 --- meanwhile ---
 region: London

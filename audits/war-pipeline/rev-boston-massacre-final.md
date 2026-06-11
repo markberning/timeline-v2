@@ -5,7 +5,6 @@ Here was the clever part. The colonists had spent the Stamp Act crisis insisting
 
 That minister was Charles Townshend (pronounced "TOWNZ-end"), the Chancellor of the Exchequer (the British government's chief finance minister, the official in charge of taxes and the treasury, the senior Cabinet figure who introduces the money bills Parliament then votes on). He was a famous talker, brilliant and reckless, who once gave a speech to the House of Commons so dazzling and so drunk it earned him the nickname "Champagne Charlie." Horace Walpole, a prolific letter-writer and memoirist who chronicled the London political world of his day, said it ran "an hour, with torrents of wit, ridicule, vanity, lies, and beautiful language." In 1767 Townshend set out to call the colonists' bluff.
 
-[The Stamp Act](/war-revolution/off-the-battlefield/stamp-act)
 
 ## Townshend's gambit
 > eyebrow: External duties, with a sharp hidden point

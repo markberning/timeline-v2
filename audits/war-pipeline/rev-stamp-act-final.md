@@ -7,7 +7,6 @@ It passed easily. Parliament, the British legislature, runs on two chambers: the
 
 [FIGURE: A proof of the one-penny embossed revenue stamp required by the Stamp Act of 1765. | The object itself: a one-penny stamp, crown and scepter and the word AMERICA, that by law had to appear on a long list of everyday paper. Almost none were ever sold. | British proof of the 1765 one-penny stamp · public domain | /war-img/rev-stamp-stamp.jpg]
 
-[The bill comes due](/war-revolution/off-the-battlefield/bill-comes-due)
 
 ## A tax on paper
 > eyebrow: Why this one detonated

@@ -5,7 +5,6 @@ In the spring of 1775, weeks before a single shot was fired at Lexington, a diff
 
 One Cherokee refused to sign. Dragging Canoe, the son of one of the selling chiefs and a war leader of the younger generation, walked out of the council. He warned the buyers that the ceded country would be a dark and bloody ground to settle, that they would not have it in peace. (His exact words are not recoverable, and the famous claim that "Kentucky" means "dark and bloody ground" is a folk tale, not a fact; but the warning, and his repudiation of the sale, are real. No contemporary portrait of him survives.) He was overruled by the older chiefs, and the speculators got their paper. Hold onto that split inside one nation. It is the shape of everything that follows.
 
-[The Contest for Native Alliances](/war-french-indian/off-the-battlefield/native-alliances)
 
 There was no "the Indians." There were dozens of separate nations, each with its own government, its own interests, and its own bitter argument about what to do, running its own foreign policy toward two empires that both wanted its land. "The Indians sided with the British" is the sentence most people carry out of school, and it is false in almost every way a sentence can be false. The nation that most of them feared was not the King across the ocean. It was the colonists next door, the people of the new United States, who were already on the Cherokee hunting grounds, already over the line, already coming.
 

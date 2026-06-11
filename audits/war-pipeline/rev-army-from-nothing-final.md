@@ -5,7 +5,6 @@ In April 1775 there was no American army. There were militias, which is not the 
 
 That distrust was the army's other enemy, alongside poverty. The men who built the colonial case against Britain had spent a decade warning that permanent professional armies were the death of liberty, and the British regulars garrisoning Boston were their living proof.
 
-[A Civil War Among Themselves](/war-revolution/off-the-battlefield/civil-war-among-themselves)
 
 ## Congress adopts an army
 > eyebrow: A continental cause needs a continental general, and one delegate wore a uniform to work

@@ -7,7 +7,6 @@ The people of the time saw this perfectly well, and a striking number of them sa
 
 Running underneath both, the steadiest thread in the whole story, were Black Americans themselves, who fought on both sides of this war for the same thing, their own freedom, and who took it from whichever army was selling it cheapest. That is the one consistent set of motives in this chapter. Everyone else's motives were tangled. Theirs were not.
 
-[The Idea of Independence](/war-revolution/off-the-battlefield/idea-of-independence)
 
 ## The landscape in 1775
 > eyebrow: Legal everywhere, dominant in the South

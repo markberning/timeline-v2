@@ -3,7 +3,6 @@
 
 One small tax had been left standing in the law books, deliberately, as Parliament's flag planted in colonial ground (Chapter 3). The duty on tea was still there, three pence a pound, collected as the tea came into port. It collected almost nothing, because the colonies had largely stopped buying the legal, taxed tea and gone back to the smuggled kind, and for three years that was where the matter sat, burning very low. Then, in 1773, Parliament did the one thing that could fan it back to life: it tried to make the colonists buy that taxed tea after all, by making it cheaper than the smuggled kind. Parliament thought it was offering a bargain. The colonists saw a trap, and they were right. To see how a cheaper cup of tea could end with men throwing a fortune into the harbor, start with the three quiet years before it, and with what was being built in them.
 
-[The Townshend Acts & the Boston Massacre](/war-revolution/off-the-battlefield/boston-massacre)
 
 ## The lull breaks down
 > eyebrow: A burned schooner, the judges' salaries, and a network wired between the towns
