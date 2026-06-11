@@ -1,0 +1,20 @@
+# CRITIC FINDINGS — "A World War" spine chapter (all 4: PASS-WITH-FIXES; 2 BLOCKERs)
+
+## FACT-CHECK (all spot-checks confirm; CARE all held)
+- **SHOULD-FIX:** the Washington-to-Sullivan pull quote is truncated without an ellipsis — either add "…" after "settlements." or use the full verified sentence ("…and the capture of as many prisoners of every age and sex as possible") — the omitted clause is MORE damning and its absence softens the order.
+- NITs: de Kalb "Bavarian-born" follows the pack (fine); all ages/dates/figures confirmed.
+
+## STORYTELLING
+- **BLOCKER (the braid):** sections 3–6 run as sealed lanes. Required fixes: (1) rebuild the frontier section's opening to fire against a date the reader just lived ("On July 3, 1778, five days after Monmouth, Loyalist rangers and their Seneca allies destroyed the Wyoming Valley settlements…" — the critic's model); (2) braid the June 1–3 1780 cluster where it belongs: Clinton's parole proclamation (June 3) and the Gordon Riots beginning in London (June 2) are ONE DAY apart — press them together in the Charleston section, then let the home-front section close the loop instead of introducing it cold; (3) consider moving the d'Estaing interludes into "The war goes south" where they're causally operative.
+- SHOULD-FIX: one more concrete scene detail in the West Point running-down paragraph (Washington pressing to visit and being put off — ONLY if pack-supported; else another pack detail); fold the Hamilton-on-André pull quote into prose (it undercuts the Arnold quote six sentences later) — keep 4 pull quotes; cut the two meta announcements ("Here is the braid to hold onto…" and "Placed only in time, the beats run like this"); cut or compress Clark/Vincennes to a parenthetical; compress the Lee rehabilitation paragraph 6 sentences → 3; cut the army-from-nothing pill at section 2 (keep section 7's) → 7 pills.
+- NITs: "cleared the net" → "cleared the trap"; cold open "no one could see whole" → "no one could see it whole, or what the other strands were doing"; consider the Monmouth figure before the rehab paragraph.
+
+## CLARITY
+- **BLOCKERS:** gloss court-martial at first use ("a formal military trial"); gloss parole at Charleston AND the mechanism of voiding it (a sworn promise not to fight in exchange for freedom; Clinton's proclamation tore the oaths up and demanded active loyalty — a promise kept turned into a trap); fix "adjutant general and" (drop it or "the senior British staff officer who ran Clinton's intelligence").
+- SHOULD-FIX: feu de joie gloss leads with the translation; Mischianza's irony stated once (a staggering celebration for a general handing back an unfinished war); re-anchor Continentals vs militia at first Monmouth use; the West Point chain glossed as the literal physical barrier; Rochambeau's intro clause; West Point's strategic meaning completed (cut New England off from the rest); "specie" → "hard coin"; humanize 40:1 in one clause; Lord George Gordon "a member of Parliament."
+- NITs: "the top of the BRITISH army in America"; the Monmouth draw/held-field bridge; Arnold's "less than a third of what he'd asked"; cut "Here is the braid to hold onto" (dup of storytelling); Gates re-intro one clause richer; signpost the London→Hudson jump at the Arnold section top.
+
+## FRAMING
+- **BLOCKER:** Waxhaws "The surrender went wrong in the smoke" front-loads an accident frame — rephrase ("The surrender fell apart in the smoke" or "In the smoke, the killing continued after resistance had stopped: …").
+- SHOULD-FIX: one clause grounding the Loyalist-protection flaw in lived experience ("for a Loyalist family in the Carolina backcountry, that distinction barely existed; the army came, held the towns, and the raiders came the moment it moved on"); the closing eyebrow "with the turnaround already invisibly in place" → trim to "The lowest point" or stay-in-period phrasing.
+- NITs: Arnold "convinced" → "professing"/"by his own account"; Sullivan intro "the answer came the next year" → neutral time language; "West Point up for sale" appears twice in quick succession — vary one.
