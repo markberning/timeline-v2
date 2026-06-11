@@ -92,3 +92,7 @@
 8. **No doom-music:** the assault was forced by the December 31 enlistment cliff + the absence of effective artillery + no reinforcement before the river opened. It nearly worked at the Sault-au-Matelot end. Tell the calculation.
 9. **Habitants:** Quebec Act conciliation (Church + civil law) → elite loyalty + mass pragmatic neutrality; American silver shortage and bayonet-point requisitions turned neutrality cold. Hundreds served on EACH side. Neither "welcoming liberators" nor "loyal subjects" — interest, fairly told.
 10. **Montgomery quote verbatims** ("will of an oppressed people...", "wish it was well over... sigh for home like a New Englander") — substance HIGH, exact wording MED: pull exact text from a primary edition (founders.archives.gov / Force's American Archives) before quoting marks go on.
+
+## CORRECTIONS (post-critic, web-verified 2026-06-10)
+1. **Pointe-aux-Trembles coordinate in §9 is wrong.** The packed 46.75, -71.28 sits ~5 mi from Quebec City; the real Pointe-aux-Trembles (today's Neuville) is ~46.70, -71.58, matching the "~20 mi upriver" prose. Source: Wikipedia, Neuville (Quebec). The final's Locator A uses the corrected value.
+2. **Morgan's Cowpens interval: FIVE years, not six.** Dec 31, 1775 → Jan 17, 1781. Source: Wikipedia, Battle of Cowpens. The final says "at Cowpens in 1781."
