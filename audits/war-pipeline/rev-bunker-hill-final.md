@@ -77,7 +77,7 @@ All pre-1928 works are public domain; verify each file page at fetch.
    - Caption: Howard Pyle's 1897 painting of the British line advancing up the hill. Painted more than a century later, it catches what the day's survivors reported: the British regulars came on in order, three times, into the worst infantry fire of the era.
    - Credit: Howard Pyle · oil painting · 1897 · Wikimedia Commons · public domain
 
-4. SECTION 2 inline (b) · REUSE IN-REPO: `/war-img/rev-outbreak-warren.jpg` (Trumbull, "The Death of General Warren at the Battle of Bunker's Hill"; Commons `File:The Death of General Warren at the Battle of Bunker's Hill.jpg`). **cp the existing file, do not re-download.** Placed at the Warren beat.
+4. SECTION 2 inline (b) · REUSE IN-REPO: `/war-img/rev-outbreak-warren.jpg` (Trumbull, "The Death of General Warren at the Battle of Bunker's Hill"; Commons `File:The Death of General Warren at the Battle of Bunker's Hill.jpg`). **cp the existing file, do not re-download.** Placed at the Warren beat. [Installed as `/war-img/rev-bunkerhill-trumbull.jpg`; use that path.]
    - Caption: John Trumbull's "The Death of General Warren at the Battle of Bunker's Hill." A heroic composition painted eleven years after the battle by an artist who watched from across the harbor, not a record of how Warren actually died: the documented death is a musket ball to the head in the closing minutes, covering the retreat.
    - Credit: John Trumbull · oil painting · 1786 · Wikimedia Commons · public domain
 
@@ -88,7 +88,7 @@ All pre-1928 works are public domain; verify each file page at fetch.
 
 6. COMMANDER · Prescott: `File:William Prescott Statue, Aug 2019.jpg` (alt: `File:Prescott statue (36283).jpg`) → `/war-img/rev-bunkerhill-prescott.jpg`
    - Caption: W. W. Story's 1881 bronze of Prescott at the Bunker Hill Monument. No authentic life portrait of Prescott exists; the sculptor worked with help from a photograph of his grandson.
-   - Credit: photo of W. W. Story's 1881 bronze · Wikimedia Commons · **check the PHOTO's license at fetch** (the statue itself is PD).
+   - Credit: photo by Mys 721tx · CC BY-SA 3.0 · Wikimedia Commons (the statue itself is PD). [License verified at fetch.]
 
 7. COMMANDER · Warren: `File:JosephWarrenByCopley.jpeg` → `/war-img/rev-bunkerhill-warren.jpg`
    - Caption: Joseph Warren, painted from life by John Singleton Copley, c. 1765.
@@ -96,11 +96,11 @@ All pre-1928 works are public domain; verify each file page at fetch.
 
 8. COMMANDER · Stark: `File:General John Stark - Ulysses Tenney, c1790 (Manchester Hist Assoc MHA 316).jpg` → `/war-img/rev-bunkerhill-stark.jpg`
    - Caption: John Stark, after a c. 1790 portrait (this canvas is a later copy by Ulysses Tenney).
-   - Credit: Ulysses D. Tenney, after a c. 1790 likeness · Manchester Historic Association / Wikimedia Commons · public domain by age · **verify attribution on the file page at fetch**.
+   - Credit: Ulysses D. Tenney, after a c. 1790 likeness · Manchester Historic Association / Wikimedia Commons · public domain. [Attribution verified on the file page at fetch: Tenney (1826-1908), MHA 316.]
 
 9. COMMANDER · Putnam: `File:Israel putnam portrait.jpg` (cropped variant exists) → `/war-img/rev-bunkerhill-putnam.jpg`
-   - Caption: Israel Putnam, period portrait. (Caption to whatever painter/date the file page supports.)
-   - Credit: **verify painter and date on the file page at fetch** · Wikimedia Commons · public domain.
+   - Caption: Israel Putnam, in an 1864 lithograph by Dominique Fabronius (a 19th-century print, not a life portrait).
+   - Credit: Dominique C. Fabronius · lithograph · 1864 · Library of Congress / Wikimedia Commons · public domain. [Verified on the file page at fetch.]
 
 10. COMMANDER · Howe: `File:WilliamHowe1777ColorMezzotint.jpeg` (crop variant: `...(crop).jpeg`) → `/war-img/rev-bunkerhill-howe.jpg`
     - Caption: William Howe in a 1777 mezzotint (a type of engraved print), a period print claimed to be taken from life (no verified life portrait).
