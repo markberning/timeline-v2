@@ -82,7 +82,7 @@ All Commons filenames are exact, from the fact pack. Doolittle plates are PD (17
    - Commons: `File:Hancock-Clarke House, Lexington MA.jpg` (modern photo; CONFIRM CC LICENSE AT FETCH; if the license fails, drop the figure, section 1 reads fine without it)
    - target: /war-img/rev-lexington-hancock-clarke.jpg
    - caption: The Hancock-Clarke House in Lexington, where the rebel leaders John Hancock and Samuel Adams were staying on the night of April 18, and where Paul Revere, one of the two riders carrying the alarm out of Boston, arrived with the warning. Major John Pitcairn's captured silver-mounted pistols are displayed here today.
-   - credit: Wikimedia Commons · (license per file page at fetch)
+   - credit: photo by John Phelan · CC BY 3.0 · Wikimedia Commons. [License verified at fetch.]
 
 3. Section 2 inline · the North Bridge (Doolittle Plate III):
    - Commons: `File:Plate III, The Engagement at Concord, Amos Doolittle engravings of the Battle of Lexington and Concord, December 1775, reprint by Charles E. Goodspeed, Boston, 1903 - Concord Museum - Concord, MA - DSC05586.JPG` (4535×3452)
@@ -101,7 +101,7 @@ All Commons filenames are exact, from the fact pack. Doolittle plates are PD (17
    - Commons: `File:Jason Russell House - Arlington, Massachusetts.JPG` (modern photo; CONFIRM CC LICENSE AT FETCH); stronger alternate if licensed: `File:Jason Russell House Bullet Holes.jpg`
    - target: /war-img/rev-lexington-jason-russell.jpg
    - caption: The Jason Russell House in Menotomy (now Arlington), the single bloodiest spot of April 19: Russell and 11 other Americans were shot or bayoneted in the house and yard. The walls still show the bullet holes.
-   - credit: Wikimedia Commons · (license per file page at fetch)
+   - credit: photo by Daderot · CC BY-SA 3.0 · Wikimedia Commons. [License verified at fetch.]
 
 6. Commander · Smith:
    - Commons: `File:Francis Cotes (1726-1770) - Lieutenant Colonel Francis Smith (1723–1791), 10th Regiment of Foot, 1764 - NAM. 1969-09-33 - National Army Museum.jpg` (949×1200, PD)
