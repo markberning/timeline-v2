@@ -1,21 +1,30 @@
 /**
  * Cloudflare Workers + Static Assets config for Stuff Happened v2.
  *
- * The modern Cloudflare deploy path for static sites routes through
- * Workers: `npm run build` produces `out/` (Next static export), then
- * `npx wrangler deploy` uploads `out/` as a static asset bundle served
- * by a no-op Worker at the edge.
+ * `npm run build` produces `out/` (Next static export); `npx wrangler deploy`
+ * uploads `out/` as the static asset bundle.
  *
- * No `main` entry point — `assets` alone is enough for a pure static
- * site. Adding a main module would let us run edge logic before the
- * asset lookup, but we don't need any for this app.
+ * OFF-LIVE ARRANGEMENT (2026-06-11): v2 is served only at
+ * dev.stuffhappened.com while it's being finished. `worker/index.mjs` runs
+ * first on every request: dev.* gets the app, the apex 302s to
+ * v1.stuffhappened.com. The apex custom domain stays attached to this worker
+ * (it was bound via the dashboard). To take v2 live again: remove `main`,
+ * `run_worker_first`, and the asset `binding` below, delete worker/index.mjs,
+ * and redeploy.
  */
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "timeline-v2",
   "compatibility_date": "2024-12-30",
+  "main": "worker/index.mjs",
+  "routes": [
+    { "pattern": "dev.stuffhappened.com", "custom_domain": true },
+    { "pattern": "stuffhappened.com", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./out",
-    "not_found_handling": "404-page"
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": true
   }
 }
