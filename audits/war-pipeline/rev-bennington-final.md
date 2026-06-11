@@ -80,7 +80,7 @@ page before download. Crop print mats/borders per war doctrine.
 
 4. COMMANDER · Warner: `File:Seth Warner statue at Bennington Vermont.JPG` (2304×3072, portrait) → `/war-img/rev-bennington-warner-statue.jpg`
    - Caption: Seth Warner's statue in front of the Bennington Battle Monument. No portrait of Warner from life exists (the 19th-century engravings of him are inventions); the statue is how Vermont chose to remember him.
-   - Credit: photograph · Wikimedia Commons · CHECK FILE PAGE: if CC-licensed, photographer attribution is mandatory in the credit; if the license is not rights-safe, ship Warner's card as NONE with the no-likeness fact in the bio.
+   - Credit: photo by Hunter Kahn · Wikimedia Commons · public domain (released by the photographer). [License verified at fetch.]
    - (Alt angle if the license is cleaner: `File:2017-09-10 15 54 42 View of the statute of Colonel Seth Warner in front of the Bennington Battle Monument in Bennington, Bennington County, Vermont.jpg`.)
 
 5. COMMANDER · Baum: NONE. No verified portrait of Friedrich Baum exists (pack-verified against Commons and his Wikipedia article). His card states the fact.
@@ -97,11 +97,11 @@ page before download. Crop print mats/borders per war doctrine.
 
 9. SECTION 3 inline · `File:Bennington Battle Monument October 2021 001.jpg` (5464×3640, landscape) → `/war-img/rev-bennington-monument.jpg`
    - Caption: The 306-foot Bennington Battle Monument in Old Bennington, Vermont, completed in 1889. It stands at the supply depot Baum was marching for and never reached; the battlefield itself is ten miles away, across the state line in New York.
-   - Credit: photograph · October 2021 · Wikimedia Commons · CHECK FILE PAGE: modern photo, CC license expected; photographer attribution mandatory in the credit.
+   - Credit: photo by King of Hearts · CC BY-SA 4.0 · Wikimedia Commons · October 2021. [License verified at fetch; attribution mandatory.]
 
 10. OPTIONAL Section 3 alternate · `File:Bennington Battlefield State Historic Site 30May2008.jpg` (1582×1184, landscape) → `/war-img/rev-bennington-battlefield.jpg`
     - Caption: The hilltop today: Bennington Battlefield State Historic Site at Walloomsac, New York.
-    - Credit: photograph · 2008 · Wikimedia Commons · CHECK FILE PAGE: modern photo; photographer attribution if CC.
+    - Credit: photo by Cg-realms (Adam Lenhardt) · CC BY-SA 3.0 · Wikimedia Commons · 2008. [License verified at fetch; attribution mandatory if used.]
 
 Reference-only (geometry for our own locator SVGs, never shipped as page art): `File:Battle-of-bennington.jpg` (the full Faden 1780 multi-map sheet, portrait), `File:Bennington Heights, VT August 16, 1777.jpg` (1855 map), `File:Map of Bennington battlefield.jpg` (1912 book map).
 
