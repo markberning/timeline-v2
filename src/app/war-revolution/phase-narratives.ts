@@ -445,5 +445,801 @@ export const PHASE_NARR: Record<string, Narr> = {
       "title": "The most famous man in America, sailing for France",
       "body": "While the army ran out of New Jersey, the cause sent its best card across the ocean. On October 26, 1776, seventy-year-old Benjamin Franklin boarded the armed sloop Reprisal with two grandsons and put out to sea, named by Congress to join Silas Deane in Paris. He crossed in about a month through gales and past British cruisers, landed at Auray in Brittany in early December, and reached Paris just as the cause's stock hit bottom, to a sensation France could not stop talking about. The braid of the whole year is in that timing: the very weeks Washington's freezing remnant was retreating across New Jersey, America's most famous man stepped ashore in France to begin turning a colonial rebellion into a war the great powers would have to reckon with."
     }
+  },
+  "two-armies": {
+    "eyebrow": "The year Britain ran two wars at once, hundreds of miles apart, and only one of them mattered",
+    "title": "Two Armies",
+    "blocks": [
+      {
+        "p": "In the summer of 1777 Britain had two armies loose in America, and they were marching in opposite directions. One came down out of Canada, hacking south through the woods toward Albany on the Hudson River, sure it was about to cut New England off from the rest of the rebellion and end the war. The other loaded itself onto a fleet at New York and sailed away, south by sea, to take Philadelphia, the rebel capital, sure that capturing the largest city in America would end the war. Neither commander thought he needed the other, and nobody in London had forced the two plans to mesh. Across the ocean, in Paris, the foreign minister of France was watching both campaigns for one thing only: proof that this rebellion could survive long enough to be worth a war. The year would end with Britain holding a captured capital that decided nothing and missing an entire field army that had ceased to exist. The story of 1777 runs on two calendars, and the men under each could not hear the other one running."
+      },
+      {
+        "h": "The plan that wasn't one",
+        "eyebrow": "Two field commanders, two war plans, and a minister who approved both"
+      },
+      {
+        "p": "Start with the man who would lose the army. Lieutenant General John Burgoyne was a cavalry showman, a member of Parliament, and a playwright with one comedy already staged in London, and his friends called him \"Gentleman Johnny.\" Over the winter of 1776 and 1777 he had been in London lobbying past his own superior in Canada, and in February he handed the government a paper titled \"Thoughts for Conducting the War from the Side of Canada.\" The plan had a clean logic to it. A main army would push from Canada up Lake Champlain to Albany; a smaller force would come down the Mohawk Valley to the west to meet it; and the whole point was to seize the line of the Hudson and split New England, the granary and the manpower of the rebellion, off from the rest of the colonies, the head cut from the body. The Hudson was the corridor that mattered: the main artery up which men, supplies, and dispatches moved between New England and everywhere else, and a British army sitting across it would mean New England's soldiers and food could no longer reach the war. On paper, after the lessons of 1776, it made sense."
+      },
+      {
+        "p": "The other British general had his own plan, and he changed it more than once. General Sir William Howe, holding New York, had drawn up a scheme the previous November that included a strong prong up the Hudson to meet whatever came down from Canada. By his letters of early April 1777 he had dropped it. He would take Philadelphia instead, the rebel capital and the largest city in America, and he would take it by sea. He told London plainly that he could no longer support a junction, by which the generals meant the two armies physically linking up into one force on the Hudson. His theory was that seizing the capital would finally drag George Washington into the open, decisive battle the war kept refusing to produce. It was a real theory, wrongly weighted, not idiocy."
+      },
+      {
+        "p": "The man in the middle was Lord George Germain, the cabinet secretary running the American war from London across an ocean that took a letter six to ten weeks to cross one way. He approved Burgoyne's plan in March 1777, and Burgoyne had it in hand in Quebec by early May. He approved Howe's Philadelphia plan too, and Howe got the word in early June while he was already preparing to embark. On the eighteenth of May Germain wrote Howe a letter approving the Philadelphia expedition while trusting that it would be done in time for Howe to cooperate with the army coming from Canada."
+      },
+      {
+        "p": "That was a hope, not an order. It reached Howe in mid-August, at sea, long past the point where he could have turned around to act on it. Nobody in London ever issued a positive command making one of the two plans serve the other."
+      },
+      {
+        "p": "There is a famous story that explains the disaster as an accident of paperwork, and it is mostly a myth. The tale goes that an order positively directing Howe up the Hudson was drafted, but that Germain, impatient to leave for his country estate in Kent, would not wait for a clean copy, so the order was filed in a pigeonhole and never sent, dooming Burgoyne for want of a single dispatch. It is a good story. It traces to a much-later secondhand reminiscence, and historians working from the full published correspondence reject it as the explanation. Howe knew Burgoyne's plan; Germain had sent him a copy of Burgoyne's instructions. Howe had told London in April that he would not support a junction, and Germain approved the Philadelphia move anyway. The failure was not a missing piece of paper. It was a system that let two field commanders file separate war plans and a minister who ratified both without ever forcing them to fit together. A lost dispatch is a better story. It is not the true one."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/idea-of-independence",
+        "plabel": "The idea of independence"
+      },
+      {
+        "p": "Sir Henry Clinton, left holding New York with a reduced garrison of about seven thousand men, mostly loyalist and Hessian units, told Howe to his face that the move was wrong. He was overruled. So in the summer of 1777 the two British armies in the thirteen colonies set off in opposite directions, Burgoyne south toward Albany expecting cooperation, Howe south by sea toward Chesapeake Bay and away from him, with the Atlantic too slow for anyone to fix it once it had started."
+      },
+      {
+        "h": "Burgoyne comes south",
+        "eyebrow": "A fortress that fell to a hill, a thousand axmen, and a killing that recruited an army"
+      },
+      {
+        "p": "Burgoyne left Canada in June with something like seven thousand eight hundred regulars, roughly half of them British and half German troops from Brunswick and Hanau under Major General Friedrich Riedesel, plus a long artillery train, several hundred Canadians and loyalists, and ultimately around five hundred Native allies whose numbers rose and fell through the campaign. By the first of July he stood before Fort Ticonderoga, the great stone-and-earth work guarding the narrows between Lake Champlain and Lake George that the colonists had been calling the Gibraltar of the North. It was held by Major General Arthur St. Clair with an understrength garrison of perhaps two thousand five hundred to three thousand men."
+      },
+      {
+        "p": "The fort fell without a battle, and it fell to a hill. Southwest of Ticonderoga rose Sugar Loaf, a steep height the Americans had left unfortified on the assumption that nobody could drag guns up it. Burgoyne's engineers cut a road and dragged cannon to the summit. As the army's own story had it, the artillery commander put the principle simply: where a goat can go a man can go, and where a man can go he can drag a gun. When the garrison woke to a battery looking straight down into their works, the position was finished. On the night of the fifth and sixth of July, St. Clair evacuated, slipping his men out southeast and floating his supplies down to Skenesborough, and the British walked into Ticonderoga on the sixth without firing a shot. The rearguard was caught and mauled the next day at Hubbardton, the only real fight of the episode, but the covering force got the army away. The American public, raised on the legend of the Gibraltar of the North, was stunned; St. Clair was court-martialed for giving up the fort and later acquitted, having saved his army by losing the fortress. In London, by Horace Walpole's gossipy account, George III burst in on the Queen crying that he had beaten the Americans, all of them. It is the same ground, exactly, where a British army had bled to death in front of these walls in the last war, at the battle the French called Carillon in 1758; in 1777 the place changed hands twice over without a battle. And in New York that same week, Howe was still loading his fleet, his army not yet at sea, his face already turned the other way."
+      },
+      {
+        "pill": "/war-french-indian/battles/carillon",
+        "plabel": "Carillon, 1758"
+      },
+      {
+        "p": "Then the woods slowed everything down. From Skenesborough, Burgoyne chose the overland route to the Hudson through the drowned lowlands of Wood Creek rather than backtracking to the Lake George portage, the longer water route by which boats had to be hauled overland between the lakes. Major General Philip Schuyler, commanding the American Northern Department, turned the wilderness into a weapon: about a thousand axmen felling great trees across the track, some forty bridges destroyed, boulders rolled into the creek, the crops burned, the cattle driven off. Burgoyne's army, hauling its guns and an enormous baggage train, made roughly twenty miles in about three weeks, close to a mile a day, and reached the Hudson at Fort Edward at the end of July. Every day Schuyler stole was a day off Burgoyne's food and a day for the militia to gather, because an army that could not move could not feed itself off a wilderness it had already burned. Schuyler got no thanks for it. Congress, full of New England delegates who detested him and wanting a scapegoat for Ticonderoga, replaced him in August with Major General Horatio Gates, a former British officer turned Continental administrator with a gift for the politics of command and a cooler battlefield hand than the men around him. The fairness of it is plain in hindsight: Schuyler's delay bought the weeks that made September possible."
+      },
+      {
+        "p": "It was on that slow march, near Fort Edward on the twenty-seventh of July, that a killing became a weapon. Here is what is solid. Jane McCrea, a young woman from a patriot family but engaged to a loyalist officer serving in Burgoyne's own army, was taken by Native warriors attached to the British advance, and she was killed and scalped; her scalp was carried into the British camp, where her fiancé recognized her hair. How she died is not solid. The man blamed was said by one account to have killed her in a quarrel over the reward for escorting her; he himself claimed she had been hit by the musket fire of a pursuing American party. A nineteenth-century exhumation was reported to show bullet wounds and no tomahawk wound, and that report is itself contested. The honest line is the narrow one: she was killed in the custody of Britain's Native allies, and the details beyond that were argued over from the first week and still are."
+      },
+      {
+        "p": "What was not in doubt was the use the story was put to. Burgoyne demanded that the killer be executed, then pardoned him, afraid that hanging the man would cost him his entire Native contingent, which read in the American press as proof that the British general could not, or would not, police his own allies. The killing of a loyalist's fiancée, a woman engaged to a man in Burgoyne's own ranks, became the perfect recruiting poster: an invading army that could not protect even the women of its own friends. The story ran through the New England newspapers and the recruiting speeches all that August, and the militia turned out in numbers in the weeks that followed. McCrea was not the only thing swelling the American ranks, the shock of Ticonderoga and the news from around Bennington fed the same surge, but the recruiting literature carried her everywhere, and Gates put her into a public letter to Burgoyne in September as a set piece of British savagery, propaganda built to travel. It traveled to London and into the speeches of the opposition in Parliament. And while her story was running through the New England papers that August, Howe's armada was at sea hundreds of miles to the south, beating toward the Chesapeake, unable to send Burgoyne a man."
+      },
+      {
+        "fig": "/war-img/rev-twoarmies-mccrea.jpg",
+        "cap": "This is not evidence of how Jane McCrea died; it is what her story became. John Vanderlyn painted it in 1804, twenty-seven years after the fact and tied to an American epic poem, and it stages the contested tomahawk version as if it were settled truth. It belongs to the propaganda career of the killing, the recruiting poster made into a history painting, not to the record of the woman's death.",
+        "credit": "John Vanderlyn, \"The Death of Jane McCrea,\" 1804, Wadsworth Atheneum · public domain"
+      },
+      {
+        "p": "The army the McCrea story was helping to raise was the same army Burgoyne now needed supplies to fight, and he was running short of nearly everything. Short of horses, draft animals, and food, in mid-August he sent Lieutenant Colonel Friedrich Baum with seven or eight hundred men, dismounted German dragoons, loyalists, Canadians, and Natives, toward Bennington in the Hampshire Grants, the disputed back country that both New York and New Hampshire claimed and that is now Vermont, on intelligence that a rebel supply depot there was lightly held. It was not. Brigadier General John Stark, a Bunker Hill and Trenton veteran who had quit the Continental Army over a passed-over promotion, had raised some fifteen hundred New Hampshire militia in under a week on the condition that he answer to New Hampshire alone. On the sixteenth of August Stark, with his militia and Seth Warner's Green Mountain men arriving late in the day, enveloped Baum's hilltop and destroyed his force; Baum was mortally wounded, and a German relief column came up too late, was wrecked at dusk, and barely escaped. The cost to Burgoyne was about nine hundred men he could not replace, commonly given as around two hundred killed and seven hundred captured, against roughly thirty American dead. Stark's famous line about his wife Molly sleeping a widow that night is one the storybooks gave him in variant forms decades later, not anything we can show he said."
+      },
+      {
+        "p": "This was the hinge of the northern campaign, eighteen days before the next one turned in Pennsylvania. Burgoyne had lost a tenth of his army for nothing, got no supplies, and watched his Native allies, already soured by his scolding over McCrea, begin to drift away in numbers. His own letter to Germain on the twentieth of August is the campaign's epitaph written in advance. In the same letter he admitted he had had no word from Howe confirming that anyone would cooperate with him at all."
+      },
+      {
+        "p": "A country unpeopled and almost unknown in the last war, now abounds in the most active and most rebellious race of the continent, and hangs like a gathering storm upon my left. — John Burgoyne to Lord George Germain, 20 August 1777",
+        "q": true
+      },
+      {
+        "h": "The western prong",
+        "eyebrow": "A third army, a confederacy split in two, and a siege beaten by a rumor"
+      },
+      {
+        "p": "Burgoyne's plan had a third arm, and it failed in the same weeks. Brigadier General Barry St. Leger came east by way of Lake Ontario and Oswego with somewhere between seventeen hundred and two thousand men, a few hundred regulars and German riflemen, loyalist regiments, and eight hundred to a thousand Haudenosaunee warriors, the Iroquois confederacy of Six Nations that controlled this country, largely Mohawk and Seneca here, with the Mohawk leader Joseph Brant among them. His job was to take the Mohawk Valley and meet Burgoyne at Albany. In his way stood Fort Stanwix, rebuilt and garrisoned by about seven hundred and fifty Continentals; St. Leger laid siege to it at the start of August."
+      },
+      {
+        "p": "On the sixth of August a column of some eight hundred Tryon County militia, mostly German-speaking Palatine settlers under Brigadier General Nicholas Herkimer, with Oneida allies, marched to relieve the fort and was ambushed in a ravine at Oriskany, about six miles short of the walls. The fight was point-blank and hand-to-hand, neighbor against neighbor and Oneida against Mohawk and Seneca, the Haudenosaunee confederacy's own civil war beginning inside the American one. The native-nations chapter owns that story. The militia took appalling losses, commonly given as around four hundred of the eight hundred, among the bloodiest small actions of the war, and never reached the fort. But while the ambushers were away from the siege lines, the garrison sortied and sacked the nearly empty Native and loyalist camps, a blow that soured St. Leger's allies on the whole enterprise."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/native-nations",
+        "plabel": "Native nations"
+      },
+      {
+        "p": "The siege then collapsed over a rumor. Schuyler, before he was removed, had sent Major General Benedict Arnold west with about nine hundred Continentals. Arnold was already the most aggressive combat officer in the army, the man who had marched a force through the Maine wilderness to assault Quebec in the winter of 1775 and taken a leg wound on its frozen ramparts. Too short of men to fight his way through here, he weaponized a prisoner instead, releasing a loyalist-leaning local man named Hon Yost Schuyler, respected among the Mohawks, to run ahead and spread word that Arnold was coming on in overwhelming force. The core of this is documented: St. Leger's own report of the twenty-first of August records intelligence that Arnold was advancing \"by rapid and forced marches, with 3,000 men,\" roughly triple the truth, and an Oneida messenger working the same rumor among the warriors mattered at least as much as Hon Yost did. The storybook garnish, the prisoner answering \"how many?\" by pointing at the leaves, is nineteenth-century decoration. On the twenty-second of August St. Leger's Native allies quit, and the siege fell apart in a near-rout back to Oswego, tents standing and guns abandoned. Burgoyne's western prong was gone, and Arnold had not fired a shot."
+      },
+      {
+        "h": "Howe sails away",
+        "eyebrow": "An armada heading the wrong way, a flanking march, and bayonets in the dark"
+      },
+      {
+        "p": "The same days Burgoyne was dragging his guns through the drowned lowlands of Wood Creek, William Howe was loading fifteen thousand men onto ships in New York harbor to sail in the opposite direction. Between the fifth and the twenty-third of July he embarked something like fifteen to seventeen thousand troops on a fleet usually given as more than two hundred ships, his brother Admiral Richard Howe commanding the water, and on the twenty-third of July the whole armada sailed from Sandy Hook. Its destination was a secret even Washington could not crack for weeks; he marched his army back and forth across New Jersey and Pennsylvania chasing guesses while the British masts dropped below the horizon."
+      },
+      {
+        "p": "The fleet made it worse by sea. Off the mouth of the Delaware at the end of July, Howe took naval advice that the river approach to Philadelphia was too well defended, and stood back out into the Atlantic to go around by Chesapeake Bay, adding three sweltering weeks that killed horses and wrecked the cavalry. The army finally waded ashore at Head of Elk in Maryland on the twenty-fifth of August, about fifty-five miles from Philadelphia and, the whole point of it, hundreds of miles by sea away from Burgoyne. The braid is in the dates. Howe's troops were stepping onto the Maryland mud in the same ten days that Stark was wrecking Burgoyne's flank at Bennington and St. Leger's siege was collapsing on the Mohawk. Two British armies, two campaigns, the same fortnight, four hundred miles of water between them, and neither could hear the other. When Germain's letter of the eighteenth of May finally caught up with Howe, hoping Philadelphia would still leave time to help the northern army, he was at sea and the season was spent. He had already written Burgoyne, months before, that the northern army should expect little assistance from his direction."
+      },
+      {
+        "p": "Washington decided to fight for the capital, and he made his stand behind Brandywine Creek at Chadds Ford on the Philadelphia road on the eleventh of September, with around eleven thousand men. Howe, with roughly fifteen thousand, replayed the move that had beaten the Americans on Long Island the year before: a noisy feint at the obvious crossing while the real weight swung wide around the flank and came in from behind. One division demonstrated loudly at the ford to fix Washington's attention while Lord Cornwallis, with Howe and some eight to nine thousand men, swung seventeen miles north, crossed the creek at fords Washington's intelligence had dismissed, and came down on the American right and rear in the afternoon. This time it was not the Long Island panic. The American right wheeled to face the new threat and fought hard around Birmingham Meetinghouse; Nathanael Greene's division covered a real retreat in good order. A nineteen-year-old French volunteer named the Marquis de Lafayette, two months into his American service and serving without a command, was shot in the leg trying to rally troops, a small wound that would matter a great deal to the alliance story. By dark Washington's army was beaten but intact, falling back toward Chester. The losses ran to around six hundred British killed and wounded against something like a thousand to thirteen hundred Americans, the American returns too incomplete to give a hard number. A planned rematch a few days later dissolved when a downpour soaked tens of thousands of cartridges, and Congress had already slipped out of Philadelphia overnight on the eighteenth and nineteenth of September, warned that the river fords were open."
+      },
+      {
+        "p": "A night attack followed that the Americans would remember by a name. Brigadier General Anthony Wayne, detached with about fifteen hundred men to harry Howe's rear near his own boyhood home, believed his camp near Paoli Tavern was a secret. Local loyalist intelligence had given it away. On the night of the twentieth and twenty-first of September, Major General Charles Grey attacked at midnight with the flints pulled from his men's muskets so no accidental shot could warn the camp, bayonets only, and the camp was overrun by firelight in minutes. About fifty-three Americans were killed, many of them with multiple bayonet wounds, which fed sworn depositions of atrocity and gave the night its name, the \"Paoli Massacre.\" The brutality needed little embellishment, but the name overstates the case: quarter was given, the mercy of taking a surrendering enemy prisoner rather than killing him, and roughly seventy prisoners were taken. Modern assessments read it as a legal and brutally efficient night attack rather than a slaughter of the helpless. The Americans called it a massacre, and the name stuck, and \"Remember Paoli\" became a revenge cry."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/civil-war-among-themselves",
+        "plabel": "The civil war among themselves"
+      },
+      {
+        "p": "On the twenty-sixth of September, Cornwallis marched about three thousand men into Philadelphia unopposed, cheered by the loyalist remnant of a half-emptied city. The largest city in America, the seat of Congress, the symbol Howe had spent the entire year and the whole strategy to reach, was British. And it decided nothing. Congress had not surrendered; it had simply moved. Having left overnight on the eighteenth and nineteenth, it sat one day in Lancaster, crossed the Susquehanna River, and reconvened at York, Pennsylvania, on the thirtieth of September, where it would run the war through the winter from a small courthouse town. In Europe, taking the enemy's capital ended wars. This capital was a meeting, and the meeting got up and moved. The river was not even open to supply the prize: the American forts below the city kept Howe's fleet out until late November, months of hard fighting after Philadelphia had \"fallen.\""
+      },
+      {
+        "p": "A week later, beaten and reinforced, Washington turned and attacked. Howe had posted about nine thousand men at Germantown, five miles above Philadelphia, and on the fourth of October Washington came at them at dawn with some eleven thousand in four converging columns on a complicated night-march plan. In a dense fog thickened by powder smoke the plan came apart. Columns lost their schedule and lost each other; in the murk, by Washington's own later account, American units fired into one another. A small British force barricaded itself in a stone mansion, the Chew House, square in the American line of advance, and instead of leaving it masked and pushing on, the command stopped to batter the house and spent men and the morning's momentum on it; a large share of the American casualties fell around its walls. The army lost around a hundred and fifty killed, five hundred wounded, and four hundred captured or missing against perhaps seventy British killed and four hundred and fifty wounded, and it was a defeat. But the army marched off intact and, oddly, proud of itself, and Washington reported its spirits unbroken."
+      },
+      {
+        "p": "It served to keep our different parties in ignorance of each Others movements, and hindered their acting in concert. It also occasioned them to mistake One another for the Enemy, which, I believe, more than any thing else contributed to the misfortune which ensued. — George Washington, on the fog at Germantown, 1777",
+        "q": true
+      },
+      {
+        "p": "It is widely said that this beaten army's nerve to attack a victorious enemy three weeks later impressed France as much as anything that autumn. The strong version, a single sentence put in the French foreign minister's mouth, cannot be pinned to any contemporary document, so put it softly: the news crossing to Paris that fall carried Philadelphia's loss together with Germantown's audacity, and French observers read even this defeat as evidence that the American army would not die."
+      },
+      {
+        "fig": "/war-img/rev-twoarmies-paoli.jpg",
+        "cap": "The night attack at Paoli, painted in 1782 by Xavier della Gatta, evidently from a British participant's account. The flints are out and the work is being done with the bayonet in the dark; the picture was made for the victors. Roughly fifty-three Americans died here, many with multiple wounds, and the Americans called it a massacre, though quarter was given and prisoners were taken.",
+        "credit": "Xavier della Gatta, \"Battle of Paoli,\" 1782, Museum of the American Revolution · public domain"
+      },
+      {
+        "fig": "/war-img/rev-twoarmies-faden.jpg",
+        "cap": "The whole northern war on one sheet: Lake Champlain at the top, Albany at the bottom, and the marches of Burgoyne's army marked down the corridor between them. Published in London in 1780, while the war was still on, it shows the geography that made the plan look so clean on paper and proved so unforgiving on the ground.",
+        "credit": "William Faden, \"A Map of the Country in which the Army under Lt. General Burgoyne acted in the Campaign of 1777,\" London, 1780, Library of Congress · public domain"
+      },
+      {
+        "h": "Saratoga",
+        "eyebrow": "A bridge of boats, a feud between two difficult men, and an army that came apart"
+      },
+      {
+        "p": "Lay the two campaigns side by side at this exact moment and the year holds its breath. On the eleventh of September Washington's beaten but unbroken army was pulling back from Brandywine toward Chester, having failed to hold the road to one capital. On the thirteenth, four hundred miles north, John Burgoyne marched his army across the Hudson on a bridge of boats and cut his own line back to Canada, gambling everything on reaching the other prize at Albany. Eight days, four hundred miles, two armies that could not see each other, each staking a campaign on the same fortnight."
+      },
+      {
+        "p": "Below Burgoyne, Gates had dug in on Bemis Heights, bluffs commanding the river road, with the works laid out by the Polish engineer Thaddeus Kościuszko, and Gates's army was now something like seven to nine thousand strong and swelling every week with the militia that McCrea and Bennington had helped raise. Burgoyne had perhaps six or seven thousand men left and about a month of rations."
+      },
+      {
+        "p": "On the nineteenth of September, eight days after Brandywine, two armies four hundred miles apart fought on the same week's calendar. Burgoyne probed for the American left with three columns, and the fight opened at a clearing called Freeman's Farm, where Daniel Morgan's riflemen, the corps Washington had sent north, fired the first shots. Through the afternoon Arnold's wing fought the British center to a standstill in volley and countercharge until Riedesel's Germans, marching up from the river road, struck the American flank at dusk and saved the field. Where exactly Arnold himself was that afternoon is genuinely debated, on the field by some accounts, at headquarters by others; either way his wing fought the battle. The British held the ground and lost nearly six hundred men killed, wounded, or captured against more than three hundred Americans, and that arithmetic was the whole story: Burgoyne could not replace a single man, and Gates's camp grew by more than the day's losses inside a week. Burgoyne dug in and waited for help from New York."
+      },
+      {
+        "p": "The help came too late and too small. Sir Henry Clinton sortied up the Hudson from New York in early October, took two forts in the Highlands and burned Kingston, but he was more than a hundred and thirty miles short of Burgoyne and the season was closing. His couriers were caught; one was taken carrying his message inside a hollow silver bullet, which was retrieved and which hanged him. The relief that Burgoyne's whole campaign had assumed simply did not exist."
+      },
+      {
+        "p": "Inside the American camp the victory of the nineteenth had started a war of its own. Gates reported the battle to Congress without once naming Arnold, stripped Morgan's corps out of Arnold's command, and in the shouting match that followed relieved Arnold of command altogether. Arnold, vain and brave and nursing a year of real grievances over rank, refused a pass to leave and hung around the camp without a job, which is how matters stood when the army that the best combat officer on the continent had been forbidden to lead had to fight again. A quarrel between two difficult men, told straight, one of them the finest fighting general in the army that fall."
+      },
+      {
+        "p": "On the seventh of October, rations failing and the season gone, Burgoyne pushed a reconnaissance in force of fifteen hundred or more men, a probing attack meant to test the American left and find its edge, and Gates broke it in under an hour. Morgan, Poor, and Learned shattered the probe; Brigadier General Simon Fraser, rallying the British line, was shot dead by one of Morgan's riflemen. And then Arnold, without orders and without a command, rode into the fight. Accounts have Gates sending an aide to recall him who never caught up. Arnold helped sweep the field, led the failed rushes on one British redoubt, then swung against the redoubt on the far British right and was inside it when it fell, and in the last volleys his horse went down on top of him and shattered his left leg, the same leg he had been wounded in at Quebec two years before. The fall of that redoubt left Burgoyne's whole camp turnable, and he pulled back into the dark that night."
+      },
+      {
+        "p": "Burgoyne fell back to Saratoga in the rain, was surrounded by an American force now grown past seventeen thousand with militia still coming in, and opened talks. He extracted terms striking for a beaten army: not a surrender but a \"Convention,\" under which his troops would march to Boston, sail home to Europe, and not serve again in North America. The catch was plain even as he signed it, since troops shipped home would free other troops to come over in their place. On the seventeenth of October, somewhere around six thousand British and German soldiers grounded their arms in the meadow by the Hudson. By the story as it was later told, the American bands did not jeer, and Gates received Burgoyne with courtesy. With Ticonderoga and Bennington and the campaign's battles added to the six thousand who laid down their arms here, Britain's entire northern army of around ten thousand had simply ceased to exist."
+      },
+      {
+        "fig": "/war-img/rev-twoarmies-saratoga.jpg",
+        "cap": "The surrender at Saratoga as the new republic wanted to remember it. John Trumbull painted this in 1821, forty-four years later, as national myth-making for the Capitol Rotunda: a calm, dignified group portrait, Gates's magnanimity staged at the center, of what was really a rain-soaked field surrender by an army that had run out of time and rations. It is the official memory of the day rather than the day itself.",
+        "credit": "John Trumbull, \"Surrender of General Burgoyne,\" 1821, U.S. Capitol Rotunda · public domain"
+      },
+      {
+        "p": "The Convention had a strange afterlife. Congress, smelling the catch and seizing on Burgoyne's refusal to hand over a list of his troops, repudiated the deal, and the army never sailed: legally shabby on the American side and strategically obvious in the same breath, and both things are true. The \"Convention Army\" sat a year around Boston and was then marched some seven hundred miles south to Charlottesville in Virginia, leaking deserters and escapees the whole way, many of them melting quietly into the American population; by war's end only a fraction remained in custody. A treaty-shaped object that turned into a long captivity."
+      },
+      {
+        "h": "York, Paris, Valley Forge",
+        "eyebrow": "A homeless Congress, a fast brigantine, and an army marching into the snow"
+      },
+      {
+        "p": "So the year ran down on two notes at once. In a borrowed courthouse at York, the Congress that had been chased out of its capital did the year's most underrated work: on the fifteenth of November it adopted the Articles of Confederation and sent them to the states, the rebel government writing its own constitution while it was homeless. And on the Hudson, the news of Saratoga went onto a fast ship for France."
+      },
+      {
+        "p": "Massachusetts put the Saratoga dispatches aboard a brigantine within hours and sent her off at the end of October. The courier, Jonathan Loring Austin, landed at Nantes at the end of November and reached Benjamin Franklin at Passy, the village outside Paris where Franklin lived as the American commissioner working the French court, on the fourth of December. The scene survives because Austin himself told it. Franklin, braced for the worst, called out before the rider had even dismounted to ask whether Philadelphia had been taken. Yes sir, came the answer. And then, as Austin told the story afterward: \"But, sir, I have greater news than that. General Burgoyne and his whole army are prisoners of war.\" Within two days the French foreign minister's office had asked the American commissioners to reopen the conversation about an alliance. France committed to recognition in mid-December, and the treaties were signed early the next February. The french-alliance chapter carries the treaty from there; the spine carries only this hinge. Saratoga did not win the war by itself, and France did not enter on the strength of one battle. The decision rode on a year of covert aid and naval rearmament and ministerial argument, and the same dispatch pouch that carried Saratoga's proof carried Philadelphia's loss and Germantown's nerve. What the battle did was give the foreign minister of France the proof he needed to do the thing he already wanted to do. The army lost in the woods above Albany had bought a navy."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/french-alliance",
+        "plabel": "The French alliance"
+      },
+      {
+        "p": "Franklin had a line for the other capital, too, the one Howe thought he had won. Told that Howe had taken Philadelphia, Franklin is said to have answered that Philadelphia had taken Howe. It is an anecdote, reported early and often, and it has the shape of the year in it."
+      },
+      {
+        "p": "On the nineteenth of December, Washington marched his army, eleven or twelve thousand men with perhaps a third of them lacking serviceable shoes, into winter quarters at Valley Forge, eighteen miles from a British army wintering warm in the captured capital. There was a whispering campaign that fall, too, a loose network of grumblers who admired Gates and thought less of Washington, never an organized plot and never a motion to remove him, that the survivors would later dress up with the name of a \"cabal\" and that collapsed early the next year. What that winter made of the army, the hunger and the drill and the force that marched out in the spring a different thing, belongs to the army-from-nothing story; the spine carries only the freeze-frame at the year's end."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/army-from-nothing",
+        "plabel": "The army from nothing"
+      },
+      {
+        "p": "So the year's ledger, told flat. Britain took Philadelphia and got nothing for it: Congress governed on from York, the army stood intact in its huts at Valley Forge, and the captured city decided nothing at all. Britain lost an entire field army, surrendered with its general and its guns and its band playing, the first time in the war that European opinion had a thing it could measure. Two campaigns, two prizes, and only one of them was ever real, because Howe got the capital while Burgoyne needed the army Howe took to get it. Hold the four pictures together at the year's end: a homeless Congress legislating in a country courthouse at York; the snow starting to fall on a barefoot army at Valley Forge; Burgoyne's veterans tramping under guard toward Boston and a captivity that would outlast the war; and at Passy, by a fire, a printer from Philadelphia reading that his city was lost and that the war, quite possibly, was won."
+      }
+    ]
+  },
+  "world-war": {
+    "eyebrow": "Three years of going global, going south, and nearly dying at home, all at once",
+    "title": "A World War",
+    "blocks": [
+      {
+        "p": "In the last week of April 1778 a fast packet ship came up the Delaware with news that changed the war more than any battle had. France had signed a treaty of alliance with the United States. The men who heard it first at Valley Forge could not have known what it set in motion, and that is the truth of the three years that followed: everything came uncoupled and started moving at the same time, in directions no one could see it whole, or what the other strands were doing. The British army would walk out of the capital it had bled to take. The last great battle in the north would be fought in killing heat the same summer a French battle fleet appeared off the coast. The Royal Navy would start doing arithmetic about sugar islands while the money died in American pockets. The war's whole weight would slide south through Savannah and Charleston and a place called the Waxhaws, the army would freeze and mutiny in a New Jersey hollow, and the best fighting general the cause ever produced would put West Point up for sale. None of it ran in sequence. It ran in a braid, and the men living inside it mostly could not feel the other strands pulling."
+      },
+      {
+        "h": "Spring 1778, everything changes at once",
+        "eyebrow": "A treaty crosses the ocean and a war stops being about thirteen colonies"
+      },
+      {
+        "p": "France and the United States had signed two treaties in Paris on February 6, 1778: a Treaty of Amity and Commerce and a Treaty of Alliance, the second one operative if and when Britain and France went to war, which they did within months. The news reached Washington at Valley Forge at the very end of April. Congress ratified both treaties on May 4, and on May 6 the freezing, drilled, half-starved army that had survived the winter celebrated with a *feu de joie*. A \"joy fire\" is a running fire of muskets, touched off down the whole line in sequence so the sound rolled from one end of the camp to the other, and the men sent it up with cannon salutes and cheers for the King of France."
+      },
+      {
+        "p": "What the alliance meant can be said in one breath. France brought a real navy, the one thing the Revolution could never build for itself, plus money, arms, and eventually an army. And that changed the question Britain was answering. Britain's problem was no longer thirteen rebellious colonies on a far coast. Its problem was France, and from 1779 Spain, and from late 1780 the Dutch, which meant the English Channel and the threat of invasion, the fortress of Gibraltar, the rich sugar islands of the West Indies, and India. The American war became one front in a world war, and not obviously the most important front. That single fact governs the next three years."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/french-alliance",
+        "plabel": "The French alliance"
+      },
+      {
+        "p": "London moved first, and it moved twice in the same season. Parliament, shaken by the surrender of an entire British army at Saratoga the autumn before and racing the French news across the ocean, sent over the Carlisle Commission in 1778 to offer the Americans almost everything they had demanded back in 1775: repeal of the offending acts, no taxation by Parliament, everything short of independence. It was three years too late. Congress refused to talk on any basis but independence or British withdrawal, and the commission sailed home a failure by year's end. The empire that would not bend in 1775 now could not buy back what it had lost."
+      },
+      {
+        "p": "The other change was at the top of the British army in America. Sir William Howe, who had commanded there since 1775, had asked to be relieved back in October 1777; Sir Henry Clinton was named his successor on February 4, 1778, and took command at Philadelphia in May. Howe's officers threw him a farewell in the occupied city on May 18 called the Mischianza, an extravagant mock-medieval tournament with costumed knights jousting, a regatta, and fireworks. It was a staggering celebration for a general going home with the war unwon. He sailed for England a week later."
+      },
+      {
+        "p": "Clinton's orders ended the whole Philadelphia experiment. With France in the war, the ministry's instructions required him to peel off about 5,000 men for an expedition against the French island of St. Lucia in the West Indies and about 3,000 more for Florida, to abandon Philadelphia, and to hold New York, with authorization to evacuate even New York for Halifax if it came to that. So the army that had spent the bloody campaign of 1777 capturing the rebel capital marched out of it on June 18, 1778, without a shot fired: somewhere around 10,000 to 11,000 troops crossing New Jersey with a baggage train commonly described as stretching about twelve miles. Some 3,000 Philadelphia Loyalists went with the fleet rather than be left to face their neighbors. Congress was back in the city within days."
+      },
+      {
+        "h": "June 28, 1778, Monmouth",
+        "eyebrow": "The last great battle in the north, fought in heat that killed men where they stood"
+      },
+      {
+        "p": "Washington came out of Valley Forge after Clinton's column with an army the winter had remade. The new discipline, drilled into the men through that brutal season, is the institution chapter's story; what matters here is that the army that marched in pursuit could do things the army of 1776 could not."
+      },
+      {
+        "p": "His council of war split over whether to force a battle at all. Major General Charles Lee, the army's senior major general, freshly exchanged after sixteen months as a British prisoner and openly skeptical that Americans could ever stand against British regulars in the open field, argued against a general action. He declined command of the advance force when it was small, then claimed it by seniority when it grew to four or five thousand men."
+      },
+      {
+        "p": "The battle came on June 28, 1778, at Monmouth Court House near Freehold, New Jersey, in heat commonly given as near or above 100 degrees. Men on both sides died of it, dropping in the ranks without a wound on them. Lee's advance force, the cream of the Continentals (the long-service regulars, as against the short-term state militia who filled out an American army), engaged Clinton's rearguard and then, when British reinforcements wheeled around and came back at it, fell into a disordered, largely unordered retreat. Washington, riding forward to the sound of the guns, met the retreating columns coming the other way."
+      },
+      {
+        "p": "The confrontation that followed has been wrapped in legend for two centuries, and the legend needs scraping off. The famous version, Washington swearing until the leaves shook on the trees and cursing Lee off the field, rests on secondhand recollections written down decades later; the most quoted swearing account traces to General Charles Scott, who was not even present at the meeting. The careful modern study concludes Washington was furious but almost certainly not profane. He demanded an explanation, in words the court record renders as something close to \"I desire to know, sir, what is the reason, whence arises this disorder and confusion?\" He got a stammering answer. And he did not strip Lee on the spot; Lee was handed a delaying position minutes later. The documented temperature is exactly that: hot, controlled, decisive."
+      },
+      {
+        "p": "Washington rallied a line on the high ground at the hedgerow and Perrine's Ridge, and through the long afternoon the rebuilt Continental line did the thing it had never done before. It maneuvered under fire, dueled artillery, and threw back attacks by the British army's best troops, and it stood toe to toe until dark. That was the winter's payoff made visible. Clinton broke contact in the night and completed his march to Sandy Hook, where the army crossed to New York by sea. Tactically the day was a draw, but Washington's army held the field at the end of it, and an army that holds the field gets to call the result its own. Each side lost something over 350 men, with dozens of those deaths on both sides owed not to fire but to the heat. The water-carrier legend that grew out of this field belongs to the women's chapter, not here."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/women-of-the-revolution",
+        "plabel": "Women of the revolution"
+      },
+      {
+        "fig": "/war-img/rev-worldwar-monmouth.jpg",
+        "cap": "Emanuel Leutze painted this version of Washington steadying the broken line at Monmouth around 1854, roughly seventy-five years after the fact and by the same artist who painted Washington Crossing the Delaware. It is a heroic imagining, not a record, and it stages the confrontation-with-Lee legend the careful history has had to scrape off.",
+        "credit": "Emanuel Leutze, \"Washington Rallying the Troops at Monmouth,\" 1851–54 · Berkeley Art Museum · public domain"
+      },
+      {
+        "p": "Lee, his honor stung, fired off two insolent letters and demanded a court-martial, a formal military trial of an officer by a panel of his fellow officers, and got one. He was charged with disobedience of orders, with misbehavior before the enemy in an \"unnecessary, disorderly, and shameful retreat,\" and with disrespect to the commander-in-chief, and convicted on all three, the court softening \"shameful.\" He was suspended from command for a year, and in 1780 Congress dismissed him outright after yet another insulting letter. Modern scholarship has partly rehabilitated him: many historians now judge the retreat itself a defensible, even army-saving withdrawal by an exposed advance force facing Clinton's counterstroke, and read the verdict as substantially political, since the army could keep Lee or Washington but not both. His battlefield decision was far better than the legend made it; his conduct afterward was genuinely insubordinate and destroyed him."
+      },
+      {
+        "p": "Monmouth was the last great battle in the north. For the rest of the war the two main armies would sit watching each other around New York while the war was decided everywhere else. That is the hinge this whole chapter turns on."
+      },
+      {
+        "h": "The center of gravity leaves",
+        "eyebrow": "With France in, the Royal Navy starts counting sugar islands"
+      },
+      {
+        "p": "The same summer that French fleet appeared, the strategic ground shifted under both sides, quietly and permanently. With France in the war, the Royal Navy could no longer pour itself onto the American coast. It had to cover home waters against invasion, and a combined French and Spanish armada actually entered the Channel in 1779. It had to relieve Gibraltar, the rock fortress at the mouth of the Mediterranean, besieged from 1779. And above all it had to hold the West Indies, where the sugar islands were among the most valuable real estate in the entire empire and a single fleet action could decide a war in an afternoon. The standard accounting is blunt: after 1778 the thirteen colonies were no longer Britain's first strategic priority. Home defense and the sugar islands came first."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/war-at-sea",
+        "plabel": "The war at sea"
+      },
+      {
+        "p": "The West Indies front opened at once. The roughly 5,000 men Clinton had detached took St. Lucia in December 1778 and held it against the French fleet and a counter-landing, and for the rest of the war islands changed hands, Dominica and Grenada and St. Vincent passing to France, in a theater Americans rarely saw but which governed when French ships could come north at all. The same navy that decides whether Washington can ever trap a British army is, in any given month, off Martinique chasing sugar. Every French appearance on the American coast was a loan against the Caribbean calendar, and the fleets ran north only in hurricane season, roughly July through October."
+      },
+      {
+        "h": "The war goes south",
+        "eyebrow": "Savannah, then Charleston, then a string of catastrophes in one summer"
+      },
+      {
+        "p": "That loan came due twice in these years, and both times it came up short. The French admiral, the comte d'Estaing, arrived from Toulon in July 1778 with twelve ships of the line, the alliance's first physical payoff. The first joint operation, against British-held Newport, Rhode Island, in August, simply collapsed: d'Estaing sailed out to fight a British fleet, a two-day storm scattered and damaged both fleets before they could engage, and he took his ships to Boston for repairs over furious American protest, leaving an American army exposed to fight a creditable rear-guard action and withdraw. The first test of the alliance ended in bruised feelings and nothing gained."
+      },
+      {
+        "p": "The second time it came due, it shaped the southern war directly, so it belongs here. But first the theory that sent the army south, because the theory had an engine. London believed the southern colonies were thick with Loyalists who would rise the moment a British army arrived, hold reconquered ground behind it, and free up regulars for the world war. The flaw, which would take two years to surface, was that \"holding ground\" meant protecting those Loyalists from their rebel neighbors forever. For a Loyalist family in the Carolina backcountry that distinction barely existed: the army came, held the towns, and the rebel raiders came back the moment it moved on. But on paper it was elegant, and it set the army moving south."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/civil-war-among-themselves",
+        "plabel": "A civil war among themselves"
+      },
+      {
+        "p": "It opened cleanly. On December 29, 1778, Lieutenant Colonel Archibald Campbell, detached from New York with around 3,000 to 3,500 men, took Savannah, Georgia, nearly bloodlessly after an enslaved man led a column along a path through the swamp that flanked the small American garrison. Georgia's royal government was restored, the only state brought fully back under the Crown. The next autumn d'Estaing came back north from the Caribbean, in October 1779, with about 4,000 troops to retake Savannah alongside an American southern army. After a siege, the allied assault of October 9, 1779, on the Spring Hill redoubt was a bloody repulse, with allied losses commonly given somewhere between 800 and over a thousand against a few dozen on the British side. Casimir Pulaski, the Polish cavalry commander serving the American cause, was mortally wounded; d'Estaing himself was wounded twice; and the fleet sailed for France, leaving the southern port city of Charleston uncovered for 1780. Twice the alliance's promise was made visible, a French battle fleet riding off the American coast, and twice it went unredeemed."
+      },
+      {
+        "p": "Then Clinton came south himself, sailing from New York in late December 1779 with about 8,700 men, reinforced toward 13,000 or 14,000, and laid siege to Charleston by land and sea. Major General Benjamin Lincoln, sealed inside the city with the civil government pressing him to defend it, surrendered on May 12, 1780: about 5,500 men, the standard figure though sources range from 5,000 to 6,000, perhaps half of them Continentals, along with the city, its ships, and hundreds of guns. It was the largest American surrender of the war, often called the worst American capitulation until Bataan in 1942. The defeated men were granted parole, a sworn promise to go home and not take up arms again in exchange for their freedom. Clinton sailed back to New York, expecting a French expedition northward, and left Lord Cornwallis about 8,300 men to hold and extend the conquest."
+      },
+      {
+        "p": "Then, on June 3, 1780, Clinton issued the proclamation that undid his own victory. It tore up the paroles: every man who had sworn to sit the war out was now required to take an active oath to the Crown and turn out to fight for it, so a promise kept turned into a trap, and neutrals became enemies at a stroke. One day earlier and an ocean away, on June 2, London had begun to burn. The same world war was pressing on both ends of the empire in the same week, though the home-front fire is a thread the next section picks up; here the point is the local one, that the proclamation made every Carolinian who had laid down his arms choose a side again."
+      },
+      {
+        "p": "The conquest spread by the sword. On May 29, 1780, in the Waxhaws settlements near the North Carolina line, Lieutenant Colonel Banastre Tarleton's British Legion, about 270 men, most of them Loyalist provincials, came off a forced ride of more than a hundred miles and caught Colonel Abraham Buford's 350 to 420 Virginia Continentals, the last organized American force in South Carolina. In the smoke, the killing continued after resistance had stopped. Tarleton's horse went down, and by his own later account the report that he had been killed \"stimulated the soldiers to a vindictive asperity not easily restrained.\" The Legion kept killing after the white flag was up, leaving roughly 113 dead and 150 wounded, most too badly cut to be moved, against a handful of its own losses. Whether this was massacre by intent or a command breakdown after Tarleton fell is genuinely argued by historians. What is certain is the wound evidence, men with multiple saber and bayonet wounds, and what the story became: \"Tarleton's quarter,\" meaning no quarter at all, kill them where they stand, a backcountry battle cry that fed the partisan war for the rest of the conflict."
+      },
+      {
+        "p": "Congress had a man it wanted to send south, over Washington's own preference for Nathanael Greene: Horatio Gates, the celebrated victor of Saratoga. Near Camden, South Carolina, before dawn on August 16, 1780, Gates's half-starved army, roughly 3,000 to 4,000 fit for duty and about two-thirds untried militia, collided with Cornwallis. At first light the Virginia and North Carolina militia on the American left broke at the first British volley and bayonet charge, many without firing a shot, and ran. The Continentals under Major General Johann de Kalb, the Bavarian-born veteran who had crossed the ocean with Lafayette, stood almost alone and were destroyed. De Kalb, unhorsed and fighting on foot, took some eleven wounds and died three days later. American losses are chaotic in the surviving returns, commonly put at 600 to 900 killed and wounded with another thousand captured; the army effectively ceased to exist. Gates, the sixty-year-old hero of Saratoga, was swept off the field in the militia rout and kept riding. He reached Charlotte that night, about 60 miles, and Hillsborough, roughly 180 miles, in three days. Alexander Hamilton's contemporary jeer fixed it for history: he marveled that a general could put 180 miles between himself and his army in three and a half days, an admirable credit, he wrote, to the activity of a man at his time of life. It ended Gates's career."
+      },
+      {
+        "p": "Stated plainly, with no melodrama: within three months the southern army surrendered at Charleston, the army sent to replace it was annihilated at Camden, South Carolina was garrisoned, and Georgia was royal again."
+      },
+      {
+        "fig": "/war-img/rev-worldwar-dekalb.jpg",
+        "cap": "Johann de Kalb, the Bavarian-born general who came to America with Lafayette, fell at Camden with some eleven wounds and died three days later, after the militia around his Continentals broke and ran at the first British volley. The image is a later engraving, a heroic reconstruction rather than a record of the field.",
+        "credit": "Alonzo Chappel, \"Battle of Camden — Death of de Kalb,\" 19th century · public domain"
+      },
+      {
+        "h": "The frontier, the same seasons",
+        "eyebrow": "The valleys burn, and the army that answers burns Iroquoia"
+      },
+      {
+        "p": "On July 3, 1778, five days after the heat broke over Monmouth, the war opened a second front a long way west of it. In the Wyoming Valley of Pennsylvania, Loyalist rangers and their Seneca and other Iroquois allies destroyed the valley's militia and burned the settlements, and atrocity stories, some true and some embroidered, ran through the American press for months. While Washington's main army sat down to watch New York, the frontier kept burning on its own clock and to its own logic, and the full story of it, what the raids answered and who the nations were and what came after, belongs to its own chapter. On November 11, 1778, at Cherry Valley in New York, a Loyalist and Iroquois force overran the settlement and killed noncombatants along with the garrison's soldiers."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/native-nations",
+        "plabel": "Native nations"
+      },
+      {
+        "p": "The answer came in 1779. In late summer Washington sent Major General John Sullivan with somewhere between 3,200 and 4,500 men into Haudenosaunee country, the homeland of the Iroquois Confederacy, with orders that are the documented voice of it."
+      },
+      {
+        "p": "The immediate objects are the total destruction and devastation of their settlements and the capture of as many prisoners of every age and sex as possible. — George Washington to Maj. Gen. John Sullivan, 1779",
+        "q": true
+      },
+      {
+        "p": "Sullivan's columns burned about forty towns with their orchards and their stored winter corn the same season Savannah's assault was failing far to the south, and thousands of Haudenosaunee wintered as refugees at British Niagara. The raids on the frontier did not stop. (Off to the west the same winters, George Rogers Clark waded about 170 men through the flooded Illinois country to retake the British post at Vincennes in February 1779, a tiny action that cast a long shadow over the map at the war's end.)"
+      },
+      {
+        "h": "The home front nearly breaks",
+        "eyebrow": "The money dies, the army freezes, and both capitals burn from the inside"
+      },
+      {
+        "p": "Underneath the campaigns, the thing that nearly ended the Revolution in these years was not a battle. It was arithmetic. The Continental dollar, near par with silver in 1776, fell to about forty paper dollars to one in hard coin by early 1780, and on March 18, 1780, Congress itself ratified the collapse, officially revaluing the currency at forty to one and writing off roughly $200 million at face value. A dollar's wages now bought a few cents of bread. By 1781 the paper passed at more than a hundred to one and then stopped passing at all. The mechanism fits in a sentence: Congress had no power to tax, so it printed money; the states printed more; and the army was paid in paper that melted in the soldiers' pockets before they could spend it. Washington named the disease himself."
+      },
+      {
+        "p": "A waggon load of money will scarcely purchase a waggon load of provision. — George Washington to John Jay, 1779",
+        "q": true
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/army-from-nothing",
+        "plabel": "The army from nothing"
+      },
+      {
+        "p": "The main army spent the winter of 1779 to 1780 at Jockey Hollow near Morristown, New Jersey, through what the records call the Hard Winter, by the standard accounts the coldest winter in recorded 18th-century northeastern America. More than two dozen snowstorms came down on the camp, and the salt water froze so hard that New York Harbor could be crossed on the ice with heavy loads. Supply failed for weeks at a stretch, snow-buried roads on top of a dead currency, and by Washington's account the men at the worst of it ate every kind of horse food but hay. It was hungrier and colder than Valley Forge, and far less famous. The hunger had a breaking point. At dusk on May 25, 1780, regiments of the Connecticut Line paraded under arms without orders, months unpaid and days without meat, threatening to march home or take food at bayonet point, and respected officers and Pennsylvania troops talked them down, with the punishment kept light because every officer present knew the grievance was just. The institution bent that night without quite breaking."
+      },
+      {
+        "p": "And then, the same season, the other capital burned. London's worst riots of the century began on June 2, 1780, when Lord George Gordon, a member of Parliament who led the Protestant Association, marched it against the Catholic Relief Act of 1778, a measure that had eased some anti-Catholic laws partly to widen recruiting for the world war. The march swelled into nearly a week of burning. The mob broke open and torched Newgate Prison, destroyed Catholic chapels and houses, and attacked the Bank of England, and the army put it down only by firing into the crowds, leaving around 300 dead and some 200 wounded, with a couple dozen more later hanged. That fire began one day before Clinton's parole proclamation tore through the Carolinas, the two ends of the empire convulsing within a day of each other: in the same weeks that London celebrated the fall of Charleston, the capital of the empire was burning from the inside. The strain of fighting a world war was showing on both home fronts at once."
+      },
+      {
+        "h": "September 1780, Arnold",
+        "eyebrow": "The cause's best fighting general puts West Point up for sale"
+      },
+      {
+        "p": "While London burned and the southern army died, the war's strangest blow was being prepared quietly on the Hudson. It is worth being precise about who Benedict Arnold was by 1780, because the whole weight of the story sits on it. He was arguably the best fighting general the cause had: Ticonderoga, the brutal march through the Maine wilderness to Quebec, the naval fight at Valcour Island that bought a year of time, Ridgefield, and Saratoga twice over, the second time storming forward against orders with his leg shattered at the very moment of victory. And he had been burned again and again. In February 1777 Congress promoted five junior brigadiers to major general over his head; he kept resigning and kept being talked back into the service. As military governor of occupied Philadelphia from June 1778 he lived far beyond his means, married Peggy Shippen in April 1779, when she was eighteen and he thirty-eight and her family leaned neutral to Loyalist, was court-martialed over money-making schemes, and in April 1780 received a formal reprimand from Washington, mild in its wording and wounding to a man like Arnold. Deeply in debt, convinced the Revolution had fallen into the hands of smaller men, and professing outrage at the French alliance, he had a ledger of grievances, every item of it in the record. The arithmetic he drew from it was his own."
+      },
+      {
+        "p": "The correspondence had been running a long time. Arnold opened a ciphered channel to the British in May 1779, through Major John André, the senior British staff officer who ran Clinton's intelligence and who had known Peggy Shippen socially during the Philadelphia occupation, and the two sides haggled for sixteen months over price and product. Some of the correspondence moved through Peggy Shippen's circle and her hands; after the war the Crown paid her a pension of £350 a year; and contemporaries, Washington and Hamilton among them, believed her wholly innocent. How much she initiated or steered is still argued, and there it has to rest. Arnold asked £20,000 for West Point and its garrison. What he ultimately got was £6,315, less than a third of what he had asked, plus a pension of about £360 a year and a brigadier general's commission in the British army."
+      },
+      {
+        "p": "On August 3, 1780, after angling for it for months while pleading his ruined leg, Arnold received command of West Point, the fortress that held the chokepoint on the Hudson River, the corridor that could cut New England off from the rest of the colonies. He set about quietly running it down, dispersing the garrison, neglecting repairs, and leaving the weak links weak in the great iron chain strung across the river to bar enemy ships, all while feeding André its particulars."
+      },
+      {
+        "p": "The plot unraveled on a clock that can be followed almost hour by hour. On the night of September 21 into the 22nd, André came up the Hudson aboard the sloop-of-war HMS Vulture and met Arnold on the west bank below Stony Point, the only time the two men met face to face; the talk ran past dawn. That morning American shore guns drove the Vulture downriver and stranded André, who now had to go back overland: in civilian clothes, under the name \"John Anderson,\" carrying six papers in Arnold's own handwriting hidden in his stockings beneath his boots, with Arnold's pass in his pocket. Each of those choices, the clothes, the alias, the hidden papers, turned a uniformed staff officer into a spy under the laws of war."
+      },
+      {
+        "p": "On the morning of September 23, near Tarrytown, three armed Westchester militiamen, John Paulding, Isaac Van Wart, and David Williams, stopped him. André misread them badly, declared himself a British officer, and was searched to the boots; the papers came out. By their own later accounts he offered them his horse, his watch, and his money to let him go, and they refused and brought him in. In the affair's black-comic stroke, the duty officer they handed him to sent word to Arnold himself that \"John Anderson\" had been taken, and only one suspicious major's instinct kept the prisoner held while the captured papers went on separately toward Washington. Congress voted the three captors medals and pensions; whether they were patriot sentinels or road bandits who would have robbed any traveler was argued even at the time, and need not be resolved here."
+      },
+      {
+        "p": "The letter announcing André's capture reached Arnold on the morning of September 25, at breakfast in the house he used as headquarters across the river from West Point, with Washington's aides already at the table and Washington himself due within the hour. Arnold went upstairs and told Peggy, came down, rode to the river, and had his barge crew row him downstream to the waiting Vulture, clearing the trap by something like an hour. Washington arrived, toured West Point puzzled by its disarray, and understood only that afternoon, when the papers caught up with him. That same day, from the deck of the Vulture, Arnold wrote Washington a letter asking protection for his wife, and in it left the best answer there is to any temptation to climb inside his head."
+      },
+      {
+        "p": "The same principle of Love to my Country Actuates my present Conduct. — Benedict Arnold to George Washington, from HMS Vulture, 1780",
+        "q": true
+      },
+      {
+        "p": "The famous outburst attached to that morning, \"Arnold has betrayed us, whom can we trust now?\", comes down from Lafayette's recollection set down much later and canonized by biographers since; Hamilton, writing that same week, described Washington taking the news with outward composure. While Washington was in the house, Peggy Shippen Arnold raved that there was a hot iron on her head and that Washington meant to kill her child, and Hamilton and Washington, fully persuaded of her innocence, treated her with elaborate gentleness and passed her through the lines to Philadelphia. Whether that scene was breakdown or performance is exactly the part the evidence will not settle."
+      },
+      {
+        "p": "André's end came quickly and is where the romance began. A board of fourteen general officers, Greene presiding, with Lafayette and Steuben among the members, examined him at Tappan, New York, on September 29. On his own candid written account, conceding the clothes and the alias under no coercion at all, the board found him a spy and condemned him to death. Clinton's effort to save him failed, because Washington's unstated but unmistakable price was Arnold for André, and that was a price Clinton could not pay without ensuring no defector ever came over again. André asked to be shot as a soldier rather than hanged as a spy; the request was refused, since hanging was the legal death of a spy and to shoot him would concede he was not one, and by most accounts Washington never answered the letter, sparing himself the written no. On October 2, 1780, at Tappan, André walked out composed and flinched only at the sight of the gibbet. By the accounts of those present, including the army surgeon James Thacher, he helped fix the noose himself and asked the crowd to bear witness that he met his fate like a brave man. The American officers who had guarded him wrote of him afterward with open grief, and Hamilton, who thought him a spy who deserved to hang, wrote that never perhaps did any man suffer death with more justice, or deserve it less."
+      },
+      {
+        "p": "That grief was real, on both sides, and it is also exactly where the romanticizing of the doomed gallant officer began, set against the gross traitor who lived. The grief is a fact and belongs in the record; the romance is a historiographical fact to be named, not a register to write in. André was a professional intelligence officer running the largest betrayal of the war, and the board's law was sound. Britain would eventually put a monument to him in Westminster Abbey and move his remains there in 1821. Arnold got honors from no one."
+      },
+      {
+        "fig": "/war-img/rev-worldwar-andre.jpg",
+        "cap": "John André, a genuinely gifted amateur artist, drew himself in pen and ink on October 1, 1780, the day before he hanged, seated at a table and composed. The sketch survives at the Yale University Art Gallery. It is a condemned man's steady look at himself, made with hours to live.",
+        "credit": "John André, self-portrait, 1780 · Yale University Art Gallery (1832.103) · public domain"
+      },
+      {
+        "p": "In the end West Point never changed hands, the exposure set off a spasm of loyalty-testing politics through the army, and the Revolution acquired its permanent word for traitor."
+      },
+      {
+        "h": "October 7, 1780, Kings Mountain",
+        "eyebrow": "An all-American battle on a wooded slope kills the southern theory"
+      },
+      {
+        "p": "The last beat of the year is the one that turned the southern war, though almost no one could see it as a turn at the time. As Cornwallis pushed up into North Carolina, screening his left was Major Patrick Ferguson with about a thousand Loyalist provincials and militia, and the thing to hold onto is that Ferguson was the only British-born man on the field. Every other man, on both sides, was American. Ferguson had threatened to march over the mountains and lay the frontier settlements waste with fire and sword, and the threat summoned exactly what it named: roughly a thousand \"over-mountain men,\" frontier riflemen from what is now Tennessee, Virginia, and the Carolinas, ran him down at Kings Mountain, South Carolina, on October 7, 1780. The fight lasted about an hour up the wooded slopes. Ferguson was shot dead and his command annihilated, with the killing carried on after some Loyalists tried to surrender, \"Tarleton's quarter\" shouted as men were cut down, and nine prisoners hanged days afterward. The Waxhaws had come home."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/civil-war-among-themselves",
+        "plabel": "A civil war among themselves"
+      },
+      {
+        "p": "The consequence was the whole point. Cornwallis halted his invasion of North Carolina and fell back to winter in South Carolina, and the Loyalist-manpower theory, the engine of the entire southern strategy, died on that hill. Backcountry Loyalists never again rallied in force to a British column. Clinton would later call the battle the first link in a chain of evils that ended in the loss of America. The story of Kings Mountain, neighbors killing neighbors by name, belongs to the chapter on the war within the war; the spine takes only the hinge."
+      },
+      {
+        "h": "The end of 1780",
+        "eyebrow": "The lowest point"
+      },
+      {
+        "p": "Set the ledger down without violins. The money stood at forty to one and falling. The main army was unpaid and had already mutinied once. The southern army had been destroyed twice in a single summer, Georgia was royal again, South Carolina was garrisoned, the alliance was two failed expeditions old, and the hero of Saratoga was a brigadier general in a red coat recruiting a Loyalist legion in New York. In May, Washington had written it as plainly as it can be written."
+      },
+      {
+        "p": "We have almost ceased to hope. — George Washington to Joseph Reed, 1780",
+        "q": true
+      },
+      {
+        "p": "And yet the pieces of the recovery were already on the board, where a reader can see them and almost no one then could. On July 10 and 11, 1780, the comte de Rochambeau, the French general sent to fight alongside the Americans, had landed about 5,500 French regulars at Newport, Rhode Island, with a French squadron: a French army wintering on American soil, blockaded and idle for now, but there. In October, Washington at last got the choice Congress had denied him before Camden: he named Nathanael Greene to take the southern command, and Greene reached the beaten remnant at Charlotte at the start of December, roughly 2,300 men on the rolls and about 1,500 fit to fight. Kings Mountain had already broken the southern theory, and Daniel Morgan was riding with Greene. What any of them would do with what they had is the next chapter's story."
+      },
+      {
+        "p": "So the year closes on a freeze-frame. A French army sat frozen at Newport. A beaten remnant gathered at Charlotte under a new general. A traitor in a red coat walked free in New York. The money lay dead in the soldiers' pockets. The war looked, at the close of 1780, like a thing being lost at home, and it was already turning in places no one could yet see."
+      }
+    ]
+  },
+  "southern-turn": {
+    "eyebrow": "The year a French admiral's deadline, a divided British command, and a civil war in the backcountry all closed at once",
+    "title": "The Southern Turn & Yorktown",
+    "blocks": [
+      {
+        "p": "For five years the war had ground on without ending. The British held the cities they could reach by ship, the Americans held the country between them, and neither could finish the other off. Then came a year in which things that had been moving separately closed on the same point at the same time: a French admiral choosing the Chesapeake against the American commander's own plan, a British government losing its nerve in the Commons, and under both a civil war burning through the Carolina backcountry that the armies barely controlled. Together they trapped an army at the edge of the water, and nobody planning it in the spring knew that was where it would end."
+      },
+      {
+        "h": "Greene takes the wreckage",
+        "eyebrow": "A quartermaster inherits a beaten department and starts surveying rivers"
+      },
+      {
+        "p": "The southern war was very nearly lost before this year began. The British had taken Charleston in May 1780, and with it an entire American army surrendered inside the city; three months later they smashed a second army at Camden, in South Carolina, and sent its commander, Horatio Gates, fleeing sixty miles in a day. The whole Southern Department, the Continental command responsible for the war below Virginia, was one more defeat from disappearing. This time Congress did not pick the replacement itself, as it had picked the three southern commanders before; it let Washington choose, and Washington chose Major General Nathanael Greene, the Rhode Island ex-ironmaster raised a Quaker who had spent the middle of the war not in the field but running the army's supply."
+      },
+      {
+        "p": "Greene reached Charlotte, North Carolina, on the second of December 1780 and took command from Gates the next day. What he found was an army on paper of around twenty-three hundred men, barely fifteen hundred of them fit to fight, hungry and close to naked. He did not march them anywhere to fight. He had spent 1778 to 1780 as the Continental Army's Quartermaster General, the unglamorous officer in charge of wagons, depots, forage, and river crossings, and he ran the southern war the way a supply officer would. Before he engaged anyone, he sent engineers, the Polish volunteer Tadeusz Kosciuszko among them, to survey the rivers that crossed his theater, the Dan, the Yadkin, and the Catawba, and ordered boats built and staged at the crossings. The campaign that followed would be won as much by where the flatboats waited as by where the muskets fired."
+      },
+      {
+        "p": "Then he did the thing the manuals forbid. With a weaker army in front of a stronger one, Greene split it. On the sixteenth of December he detached Brigadier General Daniel Morgan, the Virginia rifleman and veteran of Quebec and Saratoga, with around six hundred Continentals plus militia, to operate west of the Catawba, the river running south through the Carolina upcountry, while Greene took the rest to a \"camp of repose\" at Cheraw, in South Carolina. The logic was a supply officer's: two smaller forces could forage two districts instead of starving in one, threaten the British posts from two directions, and force the British commander in the South, Lieutenant General Charles, Earl Cornwallis, to divide too, because if he massed against either American wing, the other was loose in his rear. Cornwallis took the bait. He sent Lieutenant Colonel Banastre Tarleton, the feared twenty-six-year-old cavalry commander whom the backcountry had nicknamed \"Bloody Ban\" after his men cut down surrendering Americans at the Waxhaws, with around eleven hundred men to destroy Morgan, while he moved north to cut Morgan off. That set up the battle that took the bait apart."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/army-from-nothing",
+        "plabel": "The army from nothing"
+      },
+      {
+        "h": "Cowpens",
+        "eyebrow": "A militia line asked for exactly two volleys, and a double envelopment"
+      },
+      {
+        "p": "Morgan chose his ground at a backcountry grazing common called the Cow Pens, in the upcountry of South Carolina, open woods on gentle rises with the Broad River some miles at his back. Standing with a river behind him broke another rule, and he meant it to: by his own later account he wanted no easy line of retreat, so that his militia could not melt away the way militia almost always did. How many men he had is genuinely unknown, the figure a range somewhere between eight hundred and nineteen hundred as arriving militia are counted in. The hard core was three hundred to four hundred Continentals under Lieutenant Colonel John Eager Howard, militia under Andrew Pickens, and eighty to a hundred dragoons under Lieutenant Colonel William Washington, the commander-in-chief's second cousin. Tarleton came on with something over a thousand."
+      },
+      {
+        "p": "Everyone knew militia ran; the question was when, and Morgan answered it by scripting the running in advance. He set three lines: skirmishers out front in the trees to bleed Tarleton's cavalry; behind them Pickens's militia line, asked for exactly two volleys aimed low and then permitted, in advance and out loud, to retire around the army's left and reform behind the third line; and on the main rise Howard's Continentals, with William Washington's horsemen hidden in reserve. What Morgan built on that ground was a machine made out of what militia could and could not do: a militia retreat, which in every previous battle had meant the line was breaking and the rout was starting, was here a planned movement. So when Tarleton's infantry saw the second line fall back and surged forward thinking they had won, they were running uphill, out of order, straight into fresh regulars who had not yet fired. Disordered men charging uphill cannot halt, dress their line, or reload; they took the volley at close range with nothing to give back."
+      },
+      {
+        "p": "Then the battle nearly came apart by accident and turned that into the kill. Howard ordered his right-hand company to wheel back to protect the flank; the order was misheard, and the whole Continental line began marching to the rear in good order. To Tarleton's men it looked like the regulars were breaking too, and they came on harder. Morgan rode along the retreating line, picked the spot, and on his command the Continentals halted, faced about, fired a single point-blank volley into the British packed in behind them, then went in with the bayonet. At the same moment William Washington's cavalry burst onto the British right and rear and Pickens's reformed militia came back around the other flank. The British were enveloped on both sides at once, the cleanest double envelopment of the war, and it folded in under an hour. Tarleton's own Legion cavalry refused his order to charge and rode off the field; Tarleton cut his way clear after a brief mounted clash with William Washington."
+      },
+      {
+        "p": "The arithmetic was ruinous for the British. Tarleton lost something like a hundred to a hundred and ten killed, more than two hundred wounded, and five to six hundred captured, roughly eighty to ninety percent of his force destroyed or taken in forty-odd minutes, along with both his field guns, the colors of the 7th Regiment, and his baggage. Morgan's own losses were a few dozen. What it meant mattered more than the count. Cornwallis had just lost his light troops, the fast quarter of his army, the part that let him pursue and screen and move quickly, and everything he did for the next two months was an attempt to make up for losing them. Morgan himself, his health broken by sciatica, left the army within weeks. Cowpens was the last battle he would ever fight."
+      },
+      {
+        "fig": "/war-img/rev-southern-cowpens.jpg",
+        "cap": "A history painting made sixty-four years after the fight, not a record of it. It shows the cavalry clash at the climax, with the Black trooper of William Washington's dragoons firing to save Washington's life, a documented detail of the action the painting chose to dramatize. No contemporary image of the battle exists.",
+        "credit": "William Ranney, \"The Battle of Cowpens,\" 1845 · South Carolina State House · public domain"
+      },
+      {
+        "h": "The race to the Dan",
+        "eyebrow": "A general burns his own supply train and loses a footrace to a river"
+      },
+      {
+        "p": "Cowpens forced Cornwallis's hand. Reinforced to somewhere between twenty-five hundred and three thousand by a column under Alexander Leslie, he set out to catch Morgan, retake the Cowpens prisoners, and destroy Greene's two wings before they could join. Then, at Ramsour's Mill in late January 1781, he made the campaign's most desperate decision: he burned his own baggage train. Tents, wagons, provisions, the officers' baggage, the rum casks staved in and poured into the mud, all of it set alight, with only ammunition, salt, hospital stores, and a few wagons kept back. He was turning his entire army into light infantry to match the speed he had lost at Cowpens, a British army deep in the American interior whose own commander had just destroyed its supply line on purpose."
+      },
+      {
+        "p": "What followed was a footrace across the Carolina midlands in the dead of winter. Morgan got his wing over the fords of the Catawba hours ahead of the pursuit, and the river rose behind him; Greene rode cross-country with a tiny escort to find Morgan, took hold of both wings, and steered them northeast toward the Dan River on the Virginia line, where safety lay on the far bank. The army marched ten to fifteen miles a day through freezing rain on frozen roads, rivers rising at every crossing, a rear guard of picked light troops under Otho Holland Williams, with the Legion of Henry \"Light-Horse Harry\" Lee, whose cavalry was Greene's fast-moving screen, holding within musket shot of the British advance."
+      },
+      {
+        "p": "The trick that won the race was the one Greene had set up in December with his river surveys. Cornwallis believed the lower Dan too deep to ford and its ferries too small to move an army, so he raced for the upper fords to get across ahead of Greene and trap him short of the river. But Greene's boats, staged weeks earlier on his quartermaster's orders, were waiting at the lower crossings at Irwin's Ferry and Boyd's Ferry. On the fourteenth of February 1781 the last Americans, Williams's rear guard, crossed into Virginia, and the boats crossed with them. Cornwallis reached the bank to find a river he could not cross and a country on his side of it that could not feed an army he had stripped of its wagons. He fell back to Hillsborough, raised the royal standard, and called on the loyalists of North Carolina to rise. The response was thin. Greene, refitted and reinforced with fresh Virginia and Carolina militia, recrossed the Dan on the twenty-second of February to keep those loyalists down and shadow Cornwallis."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/civil-war-among-themselves",
+        "plabel": "Civil war among themselves"
+      },
+      {
+        "h": "Guilford Courthouse",
+        "eyebrow": "Greene loses the field, Cornwallis loses a third of his army"
+      },
+      {
+        "p": "In mid-March Greene decided he was strong enough to give battle, and he chose the ground himself, at Guilford Courthouse in North Carolina. He had around forty-four hundred men, the majority militia many days from their homes; Cornwallis attacked with something between nineteen hundred and twenty-one hundred veterans. Greene copied Morgan's three-line scheme from Cowpens onto bigger, more wooded ground: North Carolina militia at a fence line, asked again for their two volleys; Virginia militia in the woods behind them; and the Continentals on the rise by the courthouse. But the lines at Guilford were set too far apart to support one another, a real flaw, not a detail to smooth over. The North Carolina militia fired their volleys and went, as planned; the fighting then ran about ninety minutes back through the three positions, ending in close hand-to-hand combat near the Continental line, where the British Guards and the 1st Maryland mixed at the bayonet and William Washington's cavalry slammed in."
+      },
+      {
+        "p": "At the crisis of that melee came the battle's most famous moment. The story is that Cornwallis, to break the deadlock, ordered his guns to fire grapeshot, clusters of small iron balls that turn a cannon into a giant shotgun, straight into the tangle of struggling men, killing his own Guards along with the Americans. The source for that deliberate version is the memoir of Henry \"Light-Horse Harry\" Lee, written some thirty years later and repeated by most writers since; the modern study of the battlefield, built on roughly a thousand soldiers' pension files, argues the guns were actually aimed at William Washington's charging cavalry and that few if any Guards were hit. The British guns fired into the chaos at the crisis, the field cleared, and the story that Cornwallis knowingly shredded his own Guards to do it comes from one American memoir written decades afterward, which modern research doubts."
+      },
+      {
+        "p": "Greene, true to his doctrine, broke off and retreated in good order, leaving his guns behind rather than let his army be destroyed to hold a field. Cornwallis was left in possession of the ground, which by the rules of the day made it his victory. The bill for it was crushing: around five hundred and thirty British casualties, ninety-three killed, more than four hundred wounded, and some twenty-six missing, roughly a quarter to a third of the men he had put in, a disproportionate share of them officers and Guards he could not replace. American losses were about seventy-nine killed and a hundred and eighty-five wounded, plus a thousand-odd militia counted \"missing,\" which mostly meant men who had fired their volleys and walked home when the battle moved past them, the ordinary rhythm of militia service and not a rout. When the news reached London that June, the opposition leader Charles James Fox is reported to have told the House of Commons that another such victory would ruin the British Army, consciously echoing the ancient king Pyrrhus, who said much the same after winning a battle that wrecked his own forces."
+      },
+      {
+        "p": "We fight get beat and fight again. — Nathanael Greene, 1 May 1781",
+        "q": true
+      },
+      {
+        "p": "Cornwallis's victory had ruined him in exactly that way. With hundreds of wounded he could not move fast, no supplies because he had burned them, and no loyalist rising to fill his ranks, he marched more than two hundred miles away from the war he had been fighting, to the coast at Wilmington, to refit. And there he made the decision that set up everything still to come. Rather than march back into South Carolina to hold the posts Greene was now threatening, he turned north into Virginia. There was a real argument for it: Virginia's roads and depots fed the southern war, and Cornwallis held, on his own theory, that the lower South could never be held until Virginia, the colony that supplied it, was subdued. But he did not ask his superior, Sir Henry Clinton, the British commander-in-chief in New York, who would write afterward that had Cornwallis hinted at the plan, he would certainly have tried to stop him."
+      },
+      {
+        "h": "The two-front spring",
+        "eyebrow": "Greene reclaims the interior by losing battles while Cornwallis marches into Virginia"
+      },
+      {
+        "p": "Greene did not chase Cornwallis to the coast. He did the harder thing, marching back into South Carolina, straight at the chain of British posts that held the interior, while the partisan bands of Francis Marion, Thomas Sumter, Andrew Pickens, and Lee's Legion picked off the smaller forts one at a time. The partisans were irregular fighters who lived in the swamps and struck without warning, then scattered before the British could answer. What happened next looks, battle by battle, like a string of American defeats, and it was the campaign that won the South. At Hobkirk's Hill, a mile and a half from Camden, on the twenty-fifth of April, the young British commander in South Carolina, Lord Rawdon, surprised Greene's camp and broke his line at the wrong moment, taking the field; two weeks later Rawdon evacuated Camden anyway, because the post could not be held with the countryside gone. At the loyalist-held star fort of Ninety Six, Greene laid a siege from late May into June, Kosciuszko digging the approaches, and the British relieved the garrison and then, in early July, abandoned it anyway. At Eutaw Springs, northwest of Charleston, on the eighth of September, Greene's men swept through the British camp and then dissolved into plundering it; the hungry, half-clothed soldiers stopped to strip the tents instead of finishing the rout, a British counterattack drove them off, and Greene lost the field again, in one of the bloodiest battles of the whole war by proportion, each side losing a quarter to a third of its strength. The British then fell back on Charleston for good."
+      },
+      {
+        "p": "There was the pattern: lost the field, and the British abandoned the post anyway, three times running. By September the British in the lower South held Charleston, Savannah, and the ground their cannon could see, and nothing else. Greene never won a single battle in the campaign, and he won the campaign."
+      },
+      {
+        "p": "While Greene unwound the lower South, Cornwallis was loose in Virginia, and Virginia was already burning when he got there. In January a British raiding force under Benedict Arnold, three months a British brigadier after betraying the American cause, had sailed up the James River and burned much of Richmond, with Governor Thomas Jefferson watching the smoke from across the river and a militia turnout of a couple hundred men, many of them unarmed. To deal with Arnold, Washington had sent the twenty-three-year-old Marquis de Lafayette, the French volunteer who had become one of his most trusted generals, south with around twelve hundred light infantry. When Cornwallis arrived from Wilmington on the twentieth of May and joined the other British forces in the state, swelling them past seven thousand, Lafayette commanded the only American field army in Virginia, perhaps three to four thousand counting militia, against more than twice his number. He did exactly what Greene was doing two states south: refused battle, hovered, gave ground, and kept his small army intact while Cornwallis marched the length of central Virginia unable to bring him to a fight."
+      },
+      {
+        "p": "There was one sharp scrape, at Green Spring near Jamestown on the sixth of July, where Brigadier General Anthony Wayne's advance walked into an ambush Cornwallis had laid and had to cut its way out. And Cornwallis nearly bagged Virginia's whole government, sending Tarleton to seize the legislature, which had fled to Charlottesville; on the night of the third of June a militia captain named Jack Jouett, who had spotted the column, rode some forty miles by back trails to outrun it and warn them, and Tarleton's dragoons reached Jefferson's house at Monticello minutes behind Jefferson's own departure, by the family's account. Seven legislators were caught, but the government, and Jefferson, whose term as governor was expiring that week, escaped over the Blue Ridge. Then, under slow and contradictory orders from Clinton to establish a naval station on the Chesapeake, Cornwallis settled his army of seven to nine thousand men at Yorktown and across the river at Gloucester Point, on the York River, in August. It was a deep-water anchorage, perfectly safe so long as the Royal Navy held the sea around it."
+      },
+      {
+        "h": "The same summer, everywhere at once",
+        "eyebrow": "A mutiny, a meeting Washington lost, an admiral's deadline, and a fleet of brick ovens"
+      },
+      {
+        "p": "On the first day of the year the Pennsylvania Line mutinied in its winter camp near Morristown, and nobody yet knew that the war would end in a Virginia tobacco port nine months later. They were somewhere between fifteen hundred and twenty-four hundred of the Continental Army's hardest, longest-serving veterans, and they had gone over the edge over years of no pay, no clothes, and disputed enlistment terms. Officers were killed and wounded in the scuffle; the men elected a Board of Sergeants and marched on Philadelphia to put their case to Congress. They were not changing sides. When Clinton sent agents from New York to recruit them for the Crown, the mutineers seized the agents and handed them over to be hanged as spies. The thing was settled by negotiation, about half the Line discharged, and when the New Jersey Line tried the same on the twentieth of January, Washington surrounded it and had two ringleaders shot by firing squads drawn from their own fellow mutineers. The army that would win the year very nearly dissolved in the year's first week."
+      },
+      {
+        "p": "The whole cause was running, that same winter and spring, on French coin and French gunpowder, and on a French army that could not yet be used: Rochambeau's five thousand regulars had sat idle at Newport, Rhode Island, since the middle of 1780, waiting for the one thing that would make them count, naval superiority off the American coast. On the twenty-first and twenty-second of May, Washington and the comte de Rochambeau, the French commander, met at Wethersfield, Connecticut, to plan the summer. Washington wanted New York, the great prize, Clinton's base, the city that had humiliated him in 1776, and the conference memorandum says plainly that New York was the plan. Rochambeau signed that memorandum agreeing to New York, and then, that same week, wrote directly to the French admiral in the West Indies, the comte de Grasse, making the Chesapeake case on its military merits: that Virginia, where Cornwallis was now loose and the country suffering, might serve far better. The campaign that would end the war thus began as a plan its American commander did not want, with his ally already steering elsewhere on paper Washington never saw."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/french-alliance",
+        "plabel": "The French alliance"
+      },
+      {
+        "p": "The decision that armed everything was made on the fifth of August, at Cap-Français on Saint-Domingue, by a man none of the Americans had met. The comte de Grasse, the French admiral commanding in the West Indies, answered Rochambeau's letter by committing not part of his fleet but all of it, twenty-eight ships of the line, the heavy battleships that decided who controlled a stretch of sea, to the Chesapeake rather than New York, with around three thousand French troops borrowed from the islands under the marquis de Saint-Simon and money raised in Havana to pay for the campaign, and he weighed anchor that same day, taking the unfrequented Bahama Channel to cross unseen. He set his own deadline as he went: he had to be back in the Caribbean by the middle of October, a window only weeks wide. The hinge of the war was a French admiral's choice and a French admiral's clock, made nine hundred miles from where Washington was still planning to attack New York."
+      },
+      {
+        "p": "The news reached Washington's headquarters on the fourteenth of August, by way of Newport. He gave up the plan he wanted in about a day. His diary that same evening recorded that matters having now come to a crisis and a decisive plan to be determined on, he was obliged to give up all idea of attacking New York and instead to move the French troops and a detachment of the American army to the Head of Elk, at the top of the Chesapeake, to be carried down to Virginia. Within days the armies were marching, around two thousand to twenty-five hundred Continentals and four to five thousand French swinging south from the Hudson, while Washington ran a deception to keep Clinton frozen in New York and blind to where the blow was going. He laid out fake staging camps in New Jersey, collected boats as if for an assault on Staten Island, planted false dispatches written to be intercepted, and had a field of brick bread ovens built at Chatham, New Jersey, with a real French bakery actually baking in them, the surest sign an army means to stay a long while in one place. Clinton did not conclude the army had gone south until around the second of September, the day it paraded through Philadelphia. Washington admitted the whole apparatus years afterward, writing that much trouble was taken and finesse used to misguide and bewilder Sir Henry Clinton in regard to the real object, by fictitious communications, as well as by making a deceptive provision of ovens, forage, and boats in his neighborhood."
+      },
+      {
+        "fig": "/war-img/rev-southern-siege.jpg",
+        "cap": "The king of France's own commissioned view of the siege, painted from the survey data of Rochambeau's engineers, which is a quiet argument about the campaign in itself: the fleet, the siege train, and the trenches it shows were overwhelmingly French. The American and French armies and de Grasse's fleet close the box around Yorktown on the York River.",
+        "credit": "Louis-Nicolas van Blarenberghe, \"The Siege of Yorktown,\" 1786 · Château de Versailles · public domain"
+      },
+      {
+        "p": "Then came the one beat that turned the trap shut, and the war-at-sea chapter owns the battle itself; the spine carries only its consequence. On the fifth of September, off the Virginia Capes at the mouth of the Chesapeake, de Grasse's twenty-four ships came out to meet a British fleet of nineteen under Admiral Thomas Graves. They fought two hours of broadsides, messy and indecisive, nobody sunk that day; but de Grasse then kept the British fleet at sea for days, long enough for a second French squadron under Barras to slip in from Newport with the heavy siege artillery. Graves, his ships battered, one of them later scuttled, turned back to New York. The bay was shut. Cornwallis's safe anchorage, the deep water that had made Yorktown a refuge, was now a trap with the enemy on three sides of him and his own navy gone."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/war-at-sea",
+        "plabel": "The war at sea"
+      },
+      {
+        "p": "In the same season the war was dying in London. It was six years old there, the national debt swollen, and the enemy coalition now ran to France, Spain, and the Dutch Republic at once, so that Britain was fighting in the Channel, the Caribbean, at Gibraltar, and in India at the same time, with no ally anywhere in Europe. That June the Commons beat back a motion against the American war, but the opposition was growing in the country, and on the twelfth of December, with the news from Virginia not yet across the Atlantic and Cornwallis already weeks a prisoner, a motion to end the war drew a hundred and seventy-nine votes against two hundred and twenty. The British public's war was dying before Cornwallis surrendered. And under all of it ran the war's ugliest layer, the southern civil war: in the Carolina backcountry the same twelve months were a cycle of reprisal hangings, plundered farms, and neighbor killing neighbor, loyalist against rebel, that the armies barely governed. That was the war Greene's patient map-winning was slowly strangling, fort by abandoned fort."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/civil-war-among-themselves",
+        "plabel": "Civil war among themselves"
+      },
+      {
+        "p": "For Yorktown to happen, all of it had to happen. A French admiral had to choose the Chesapeake with his whole fleet, against what Washington himself had wanted, on a self-imposed deadline only weeks wide, and get there before Graves could return. An army that had mutinied in January had to still be marching in September. A British command had to be split between a general in Virginia and a general in New York who had stopped trusting each other. A Parliament had to be losing its stomach for the war. And a southern interior had to have already slipped, post by post, from British hands. Remove any one strand and the year closes on nothing in particular, the way the five years before it had."
+      },
+      {
+        "h": "The siege",
+        "eyebrow": "Trenches dug in the rain, two redoubts taken in the dark, and a storm that ends the last escape"
+      },
+      {
+        "p": "The allied army marched out of Williamsburg on the twenty-eighth of September and closed around Yorktown: roughly eighty-eight hundred Americans, Continentals and Virginia militia, and around seventy-eight hundred French regulars, against Cornwallis's eight thousand or so behind the town's earthworks. Counting de Grasse's fleet and sailors in the bay, the French share of the whole effort was the larger one: the siege artillery, the fleet that sealed the bay, and the engineers who would run the siege were all French. On the night of the twenty-ninth into the thirtieth, Cornwallis pulled his men back into the town's inner line, on the strength of a letter from Clinton promising relief from New York, and the allies walked into the abandoned outer positions without a fight."
+      },
+      {
+        "p": "What followed was siegecraft, the formal European method of taking a fortified place by digging toward it in stages, run like clockwork. On the rainy night of the sixth of October the allies dug the first parallel, a trench line two miles long some six to eight hundred yards out from the British works, dug parallel to the enemy walls so the diggers were never exposed broadside to the guns, French engineers directing the work in the dark. On the ninth the batteries opened, the French guns at around three in the afternoon and the American battery at about five, with Washington, by tradition, firing the first American gun. From then the bombardment never stopped; French heated shot set the British frigate Charon ablaze in the river that night. On the eleventh the allies began a second parallel, only three hundred yards from the British line, but it could not be carried through to the river while two British strongpoints still held the allied left: Redoubts 9 and 10, a pair of fortified earthwork positions out ahead of the main works."
+      },
+      {
+        "p": "They were taken on the night of the fourteenth of October, in two simultaneous assaults, and the division of labor matters. The attackers went in after dark with bayonets only, muskets unloaded so no accidental shot could give them away. Redoubt 9 was stormed by around four hundred French troops, the Royal Deux-Ponts regiment and the Gâtinais grenadiers, under Lieutenant Colonel Guillaume de Deux-Ponts. Redoubt 10, nearer the river, was stormed by around four hundred American light infantry under Lieutenant Colonel Alexander Hamilton, who had lobbied Washington hard for the command, with John Laurens circling to take the rear. Both fell in under half an hour. The French losses at Redoubt 9 ran heavier than the American losses at 10, their redoubt holding a larger garrison and its obstacles less broken. That same night the second parallel was carried through to the river, and the allied guns moved up to point-blank range. It was one assault apiece, and the French one was the harder fight."
+      },
+      {
+        "p": "With his inner town now under guns he could not answer, Cornwallis made his last two throws. Before dawn on the sixteenth a British sortie spiked a few guns in the second parallel, driving iron spikes into the touchholes to silence them, but they were back in action within hours. That night he tried the only move left to him: to ferry his army across the York River to Gloucester Point and break out overland to the north. The first wave got across, and then a sudden storm scattered the boats and ended it, and the troops who had crossed had to be brought back the next morning. With the town wrecked, sickness spreading, ammunition nearly gone, and the promised relief fleet still sitting in New York, at about ten in the morning on the seventeenth a British drummer boy beat the parley on the parapet and an officer waved a white handkerchief, and the guns stopped. It was four years to the day since a British army had surrendered at Saratoga."
+      },
+      {
+        "p": "For two days commissioners haggled the terms at the Moore House outside the lines. Washington refused the garrison the honors of war, the ceremonial courtesy by which a surrendering army marches out with its colors flying and a tune playing, the same humiliation the British had imposed on the American garrison at Charleston the year before. On the nineteenth of October the garrison marched out between the allied lines, French troops on one side and Americans on the other, their colors cased, furled and sheathed rather than flown. More than seven thousand soldiers surrendered, along with the army's naval personnel and more than two hundred guns. Cornwallis did not come out himself, pleading illness; he sent his second-in-command, Brigadier General Charles O'Hara, who offered his sword first to Rochambeau. Rochambeau pointed him across the line to Washington, and Washington, matching a deputy with a deputy, directed him to Major General Benjamin Lincoln, the officer who had surrendered Charleston to the British the year before. By tradition the British bands played \"The World Turned Upside Down\" as the men marched out, though no contemporary account names any tune and the story surfaces only in recollections written long afterward."
+      },
+      {
+        "fig": "/war-img/rev-southern-bauman-map.jpg",
+        "cap": "The first published American map of the siege, surveyed days after the surrender by a Continental artillery officer who had served the guns there. The two parallels, the British works, and Redoubts 9 and 10 are all legible, a document of the siege drawn by a man who was in it.",
+        "credit": "Sebastian Bauman, \"Plan of the siege of York and Gloucester,\" 1782 · Library of Congress · public domain"
+      },
+      {
+        "h": "The night the war was decided",
+        "eyebrow": "The news reaches London, and a war is lost that is not yet over"
+      },
+      {
+        "p": "The dispatches crossed the Atlantic in about five weeks. On the twenty-fifth of November 1781 they reached London, going first to the house of Lord George Germain, the minister who had run the American war, and then by hand from minister to minister across the city to Lord North, the king's First Minister. The scene of North receiving it, and the words he is said to have spoken, belong to the next chapter; here it is enough that he took it as a man takes a mortal blow, and that the King's speech to open Parliament two days later had to be hurriedly rewritten around the news."
+      },
+      {
+        "p": "The war did not end at Yorktown. Britain still held New York, Charleston, and Savannah with some thirty thousand troops; the Royal Navy fought on and would win a large victory in the Caribbean at the Saintes the following April; Greene's army still watched Charleston; the frontier killing ran on into 1782. What ended at Yorktown was not the war but the British will to reconquer thirteen colonies by force. Within four months the Commons would vote against continuing the offensive war and North's government would fall, and the story of those votes, that fall, and the negotiation that followed is the next chapter's. The war was decided on the night a messenger reached Pall Mall with the news from Virginia, and it was not yet over."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/treaty-of-paris",
+        "plabel": "The treaty of Paris"
+      }
+    ]
+  },
+  "the-peace": {
+    "eyebrow": "The war was over and it was not over, and for two years nobody inside it could tell which",
+    "title": "The Peace",
+    "blocks": [
+      {
+        "p": "Eight days after Cornwallis handed over his sword at Yorktown, the man who had won the battle wrote his governor to warn him not to celebrate. The danger now, George Washington told Thomas Nelson, Jr., of Virginia, was that a great victory would make everyone relax, and that the relaxing would drag the war out longer than fighting it would. He was right to worry. Yorktown ended a campaign, not a war. Britain still held New York City, Charleston, and Savannah, still held Canada, still had the largest navy on earth and tens of thousands of soldiers in America who had never surrendered to anyone. The Continental Army marched back north and took up its old watch on the Hudson, and for two more years two armies sat staring at each other while diplomats an ocean away wrote and rewrote a peace nobody in the camps had seen. The frontier produced the ugliest year of the whole war in those same two years. The world war kept burning and actually turned Britain's way. A New Jersey militia captain was hanged, and a young British captain drew a slip of paper marked \"unfortunate,\" and a queen of France talked the Americans out of hanging him back. An unpaid army came closer to turning on the government it had created than at any moment of the fighting, and then stood down. The war did not end in a thunderclap. It ended in a long series of leavings, and the people living inside it could not see, until the very last of those leavings, that it was ending at all."
+      },
+      {
+        "p": "…my only apprehension (which I wish may be groundless) is, lest the late important success, instead of exciting our exertions, as it ought to do, should produce such a relaxation in the prosecution of the War, as will prolong the calamities of it. — George Washington to Gov. Thomas Nelson, Jr., 27 October 1781",
+        "q": true
+      },
+      {
+        "h": "The war that would not admit it was over",
+        "eyebrow": "Two armies on the Hudson, an enemy changing its orders, and a packet ship every week with the wrong news"
+      },
+      {
+        "p": "What the map said in the winter after Yorktown was that the war had years left in it. Britain garrisoned three American cities and most of a continent besides; the king's army in North America had taken a hard blow in Virginia and was otherwise intact. So Washington did the unglamorous thing. He marched his men back up from Virginia to the old lines along the Hudson River, and from the spring of 1782 he kept his headquarters in a stone farmhouse at Newburgh, New York, with the army cantoned a few miles south at New Windsor, within a long day's ride of the British lines around New York City. There the two armies sat, facing each other across a no-man's-land, for two more years."
+      },
+      {
+        "p": "The waiting had a texture, and the texture was the story. There were no more great battles in the north after Yorktown. Instead there were forage raids and whaleboat fights on Long Island Sound, sniping along the lawless strip of Westchester County that both sides called the neutral ground, the contested country between the lines where neither army held the ground and armed bands robbed whoever was left, and in the camps the long grind of drill, court-martial, and rumor. Every packet ship that crossed from Europe carried a new version of the peace, and none of them carried the peace itself. An army with an enemy in front of it and nothing to do but wait is an army with time to think, and what these men had most to think about was that they had not been paid."
+      },
+      {
+        "p": "The enemy across the lines changed its face and then its orders. Sir Guy Carleton arrived at New York in early May 1782 to replace Henry Clinton as the British commander-in-chief, and he came with instructions to stop fighting an offensive war and start preparing to leave. London had decided to quit (why it decided, and how the negotiation went, belongs to the story of the treaty itself). What the wind-down looked like from the American lines was the raids slackening, and then letters arriving from Carleton that proposed to treat the war as something already ending. Washington's posture never changed. He had said it to Nelson the week after Yorktown: do not believe it is over until it is signed."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/treaty-of-paris",
+        "plabel": "The Treaty of Paris"
+      },
+      {
+        "h": "The frontier's worst year",
+        "eyebrow": "A massacre in Ohio and a disaster in Kentucky, both after the surrender, both unheard at the peace table"
+      },
+      {
+        "p": "For the Ohio and Kentucky country, \"after Yorktown\" meant nothing at all."
+      },
+      {
+        "p": "Five months after Cornwallis gave up his army, Pennsylvania militia under Colonel David Williamson rode to the Moravian mission town of Gnadenhutten on the Muskingum River in Ohio, where unarmed, pacifist Christian Delaware (a Native nation, converts who had taken no side in the war) were living, and on 8 March 1782, the militia having taken the town the day before, murdered ninety-six of them, men, women, and children. No one was ever punished for it. The full story belongs to the history of the Native nations in this war; the fact that matters to the shape of the war is the date."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/native-nations",
+        "plabel": "Native nations"
+      },
+      {
+        "p": "Five months after that, Kentucky had its own disaster. On 19 August 1782 a force of British rangers and allied Wyandot and Shawnee fighters, pulling back from a failed raid on a settlement called Bryan's Station, let themselves be followed by about 182 pursuing Kentucky militia and baited them across the Licking River at a salt-lick ford. Daniel Boone, the famous frontiersman, was there as a militia officer, and he warned that the ground was an ambush. Hugh McGary spurred his horse into the ford anyway and called on every man who was not a coward to follow him (the words are tradition; the phrasing shifts from teller to teller). The trap closed in minutes. Of the roughly 182 men engaged, somewhere between seventy and seventy-seven were killed, about four in ten, including the colonels John Todd and Stephen Trigg. Among the dead was Boone's own son, Israel, shot down in the rout near his father. By the family's accounts Israel was twenty-three that summer, had been ill, and had refused both to stay home and to take a horse out of the rout, but those details come down through the family; the verified core is plain enough. Boone warned against the crossing, fought in it, and had to leave his son's body on the field, returning later to bury him. Blue Licks is often called the last battle of the Revolution. It was not quite, George Rogers Clark burned the Shawnee towns in retaliation that November, but it was among the last."
+      },
+      {
+        "p": "The peace being drafted in Paris had nothing in it for this war. The men fighting it were not at the table, and most of them were never even told it existed."
+      },
+      {
+        "h": "The global last acts",
+        "eyebrow": "The Yorktown admiral taken prisoner, ten \"unburnable\" batteries set on fire, and a stalemate everywhere at once"
+      },
+      {
+        "p": "The same spring the land war in the north went quiet, the sea war produced two of the biggest battles of the age. On 12 April 1782, in the Caribbean near Guadeloupe, the British admiral Sir George Rodney shattered the French fleet of the comte de Grasse, the same admiral whose ships had sealed off Yorktown six months earlier and made the surrender possible. De Grasse's flagship, the Ville de Paris, struck her colors with the admiral still aboard; about five French ships were taken or destroyed; and the planned French and Spanish invasion of Jamaica died in the water with them. The man who had won Yorktown's sea-lock spent the next two years a prisoner-guest in England. The news reached Europe just as the peace talks were forming, and it stiffened Britain's hand, Britain would grant the Americans their independence while winning its war against everyone else, which is part of why the terms came out the way they did."
+      },
+      {
+        "p": "Five months later came the war's strangest set piece. Spain and France had been besieging Gibraltar, the British fortress on its rock at the mouth of the Mediterranean, since 1779. On 13 September 1782 they staged their grand assault. They had built ten floating batteries, ship-like structures engineered to be fireproof and unsinkable, with soaked timber, sand-packed hulls, and water-circulation systems plumbed through them, carrying roughly 5,260 men and well over a hundred heavy guns, and they anchored them off the fortress walls while an army waited ashore to march in over the rubble. Spectators crowded the Spanish hills to watch the Rock fall, tens of thousands of them, by some accounts as many as eighty thousand, including French princes. The British garrison under General George Augustus Eliott answered with red-hot shot, cannonballs heated in furnaces until they glowed, fired to lodge and smolder inside the \"unburnable\" hulls. By midnight the batteries were burning like torches on the water, visible from the hills where the crowd had come to watch the Rock fall. By morning all ten were destroyed, and British gunboats rowed into the inferno to pull some 350 enemy survivors out of the water. The assault cost the allies somewhere around fourteen to fifteen hundred men, and it decided the siege, though the siege itself dragged on formally until the peace. Eighty thousand people had come to watch the Rock fall, and it did not fall."
+      },
+      {
+        "fig": "/war-img/rev-peace-gibraltar.jpg",
+        "cap": "John Singleton Copley's vast canvas of the night the floating batteries burned at Gibraltar, 13 September 1782. Copley was a contemporary working from survivors' accounts, not an eyewitness, and he painted the scene as commemoration: the ten \"unburnable\" batteries ablaze beneath the fortress, British boats rowing in among them to haul enemy crews out of the water.",
+        "credit": "John Singleton Copley, \"The Defeat of the Floating Batteries at Gibraltar, September 1782\" (1783–91), Guildhall Art Gallery, London · public domain (artist d. 1815)"
+      },
+      {
+        "p": "So 1782 at sea and abroad came out as a stalemate everywhere at once. Britain was winning in the Caribbean and at Gibraltar and holding in India; France and Spain were unbroken but out of winning moves; America could not touch the British garrisons sitting in its own cities. Nobody could deliver a knockout, and everybody was running out of money and reasons to keep paying for the war. Every party at the table now had better reasons to sign than to keep fighting."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/french-alliance",
+        "plabel": "The French alliance"
+      },
+      {
+        "h": "The South winds down",
+        "eyebrow": "A war of patrols outside Charleston, a pointless death on a river, and two cities given up by appointment"
+      },
+      {
+        "p": "While the north waited, a third American army was still in the field, and miserable. Nathanael Greene, the general Washington had sent south to recover the Carolinas, spent 1782 penning the British garrison into Charleston, South Carolina: his men unpaid, half-fed, sick with malaria, at times near mutiny. The fighting that was left was a war of patrols in the lowcountry heat, foraging skirmishes over rice boats and cattle and picket lines, the kind of fighting that kills men in ones and twos for ground that is about to be abandoned anyway."
+      },
+      {
+        "p": "It killed John Laurens that way. Laurens, a young South Carolinian who had been one of Washington's closest aides and who had spent the war pressing his state to raise regiments of enslaved men with their freedom as the bounty (that fight belongs to the larger story of slavery and the Revolution), rose from a sickbed on 27 August 1782 to join a small operation against a British foraging party on the Combahee River. He led a charge against a prepared position and fell in the first volley, twenty-seven years old, nearly a year after Yorktown and weeks before the British left his state for good. His own father, Henry Laurens, was in Europe that same season helping to negotiate the peace that would make the death pointless. Washington's verdict, written later, was that Laurens \"had not a fault, that I ever could discover, unless intrepidity bordering upon rashness could come under that denomination; and to this he was excited by the purest motives.\" Greene's was blunter: that he had died in \"a paltry little skirmish.\" It was not a martyrdom. It was a waste."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/slavery-and-the-revolution",
+        "plabel": "Slavery and the Revolution"
+      },
+      {
+        "p": "The South's war ended not in battles but in two departures by appointment. On 11 July 1782 the British garrison marched out of Savannah, Georgia, and sailed for New York and St. Augustine, and Anthony Wayne's Continental regulars took possession for Georgia's restored government; with the garrison went Loyalist families and thousands of enslaved people carried off still enslaved. Charleston followed on 14 December 1782, and that leaving was choreographed down to the step. By arrangement between the British general Alexander Leslie and the Americans, the British rear guard marched down to the boats at the morning gun and Wayne's advance followed them in at a deliberate distance, by agreement, no shots fired, with Greene and the governor entering in form later the same day. More than five thousand enslaved people sailed away with that garrison. The war in the South ended as a measured walk a deliberate distance behind a departing enemy."
+      },
+      {
+        "h": "The war almost eats one more man",
+        "eyebrow": "A militia captain hanged, a captain drawn by lot, and a queen who asked for his life"
+      },
+      {
+        "p": "In the middle of all this waiting, the war nearly killed one more man for no reason at all, and the way it almost happened, and the way it didn't, is the whole strange logic of the in-between war in one story: the old machinery of retaliation grinding on while the machinery of peace tried to shut it down."
+      },
+      {
+        "p": "On the same 12 April 1782 that Rodney was shattering de Grasse's fleet at the Saintes, twelve hundred miles away a New Jersey militia captain named Joshua Huddy was taken from British custody in New York by men of the Board of Associated Loyalists (the Loyalist irregular command, Americans who had stayed with the Crown and fought their neighbors) under Captain Richard Lippincott, carried across to the Jersey shore, and hanged. It was retaliation for the death of a Loyalist named Philip White in Patriot hands two weeks before. How White had actually died was propaganda on both sides, and there is no settling it. Pinned to Huddy's chest was a placard that ended \"UP GOES HUDDY FOR PHILIP WHITE.\""
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/civil-war-among-themselves",
+        "plabel": "Civil war among themselves"
+      },
+      {
+        "p": "Washington's answer was retaliation in kind, and it took him somewhere the war had so far refused to go. With his officers' unanimous backing he demanded the British hand over Lippincott to be tried; when they refused, he ordered that a captured British captain be chosen by lot and hanged in Huddy's place, the lottery the only instrument the era offered for matching one death to another without naming a man to die. The trouble was that no suitable prisoner could be found who was not protected by the terms of some surrender, and so on 18 May Washington ordered the lot drawn from among the prisoners taken at Yorktown, men explicitly shielded from exactly this by the fourteenth article of the Yorktown capitulation. It was a step over a line the war had held until then, and everyone involved understood it."
+      },
+      {
+        "p": "On 27 May 1782, at the Black Bear Tavern in Lancaster, Pennsylvania, thirteen British captains drew lots, the slips drawn from a hat by a drummer boy in the standard accounts. The paper marked \"unfortunate\" came to Captain Charles Asgill of the 1st Foot Guards, nineteen or twenty years old, four months in America before he was captured at Yorktown, heir to a London banking fortune. He was held in New Jersey under sentence of death for five months while the case tangled. Carleton, now the British commander in New York and trying to end the war quietly, court-martialed Lippincott and saw him acquitted, the court finding that he had acted under the Associated Loyalists' orders; Carleton condemned the Huddy hanging and warned that executing a man protected by a surrender would destroy all future confidence in treaties. Washington, boxed in by his own order, with the precedent poisonous whichever way it went, privately looked for a way out while the sentence still stood."
+      },
+      {
+        "p": "The way out came from a mother and a queen. Lady Asgill, the captain's mother, appealed to the French court, and Louis XVI and Marie Antoinette directed their foreign minister, the comte de Vergennes, to intercede. Vergennes wrote to Washington on 29 July 1782, asking in the monarchs' name for the young man's life, the indispensable ally requesting mercy as a favor. Washington forwarded the letter to Congress, and in early November 1782 Congress resolved to release Asgill, as a compliment to the king of France; Washington sent him his pass, and he sailed for England within the month. The traditional American telling of all this had Asgill kept in gentlemanly comfort and Washington straining every nerve to save him, a story that forgets who ordered the drawing of the lot in the first place. Asgill himself, years later, said otherwise, claiming he had been closely confined and harshly treated, and he credited the French court, and the queen in particular, not Washington's tenderness, for his life. The arc is certain; the texture of his captivity is contested and should be left where he left it, as something he said afterward. What is not contested is that Washington had ordered a treaty-protected prisoner hanged by lot, and that nobody was ever punished for Huddy."
+      },
+      {
+        "h": "The army's dangerous waiting",
+        "eyebrow": "An honor for men who could not be paid, an anonymous letter, a pair of spectacles, and the day the army stood down"
+      },
+      {
+        "p": "The real crisis of these two years was not on the frontier or at sea. It was in the camps on the Hudson, where an army that had won the war was being asked to disband without its pay, and was beginning to wonder out loud why it should."
+      },
+      {
+        "p": "Washington had no money to give the men, so he gave them an honor instead. From Newburgh, on 7 August 1782, his general orders created a badge for enlisted men and noncommissioned officers, \"the figure of a heart in purple cloth, or silk, edged with narrow lace or binding,\" to be awarded for any singularly meritorious action, its wearer allowed to pass guards and sentries like an officer. In the armies of Europe, medals were for officers. The point of this one was said out loud in the orders: in a patriot army the road to glory was open to everyone. Only three men are known to have received it, all of them Connecticut sergeants, Elijah Churchill and William Brown and Daniel Bissell. Then it was forgotten for a century and a half, until it was revived on 22 February 1932, Washington's two-hundredth birthday, as the Purple Heart."
+      },
+      {
+        "p": "The honor did not pay the men, and by the winter the men's patience was running out. In March 1783, while the floating batteries at Gibraltar had been ash for six months and the army on the Hudson was still waiting unpaid, an anonymous address circulated through the officers' camp at Newburgh, urging them to an irregular meeting and hinting that an army owed years of back pay should not meekly lay down its arms when the war ended. It was the most dangerous moment of the whole Revolution for the thing the Revolution was supposedly about: a victorious army, armed and unpaid, contemplating its own government. An army that turns on the civil power it serves is how republics die, and for a few March days the men who had fought eight years to make one looked as though they might be the ones to kill it. Washington forbade the meeting and called his own for 15 March. He spoke against the appeal, and then, taking out a letter to read to them, he reached for his spectacles and said, as one of the officers in the room recorded it afterward, that he had grown gray in their service and now found himself growing blind. Captain Samuel Shaw, who was there, wrote that \"there was something so natural, so unaffected, in this appeal, as rendered it superior to the most studied oratory; it forced its way to the heart, and you might see sensibility moisten every eye.\" The officers stood down. The army did not turn on the government it had made. (The machinery behind the conspiracy, and what the whole episode meant, belongs to the story of how that army was built and unbuilt.)"
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/army-from-nothing",
+        "plabel": "The army from nothing"
+      },
+      {
+        "p": "Then the news the camps had been waiting two years for finally came. Word reached America in the late winter of the preliminary articles of peace, an agreement signed in Paris the previous November, binding in intent but awaiting formal ratification. Washington's general orders of 18 April 1783 directed that the cessation of hostilities be proclaimed to the army at noon the next day: a formal ceasefire, which meant the shooting stopped but the war was not yet legally over. The next day was 19 April 1783, eight years to the day after the firing on Lexington green. Nothing in the record says Washington chose the date for the echo. The calendar simply landed there, and that evening the proclamation was read at the head of every regiment."
+      },
+      {
+        "p": "The army that had held together for eight years came apart on credit. From 13 June 1783 Congress furloughed the war's enlisted men home, sent off on leave in what was, in practice, a mass discharge Congress could not afford to name, with three months' pay in promissory notes that most of them would sell at a discount, because they needed money now and the notes promised it later. Joseph Plumb Martin, an enlisted man who had been in it almost from the start, wrote of the day his regiment broke up, in the memoir he published decades afterward, that \"there was as much sorrow as joy transfused on the occasion. We lived together as a family of brothers for several years (setting aside some little family squabbles, like most other families,) had shared with each other the hardships, dangers and sufferings incident to a soldier's life…\""
+      },
+      {
+        "p": "Washington gave the country one last word while he still wore the uniform. On 8 June 1783 he sent a letter to all thirteen state governors, a circular, telling them that winning the war had been the easy part. There were, he wrote, \"four things, which I humbly conceive, are essential to the well being, I may even venture to say, to the existence of the United States as an Independent Power\": an indissoluble union of the states under one federal head; a sacred regard to public justice; a proper peace establishment; and a friendly disposition among the people toward one another. This was, he told them, \"the moment when the eyes of the whole World are turned upon them,\" and according to the choices the states made now, \"they will stand or fall.\" The general who had spent eight years keeping the army alive was telling the country, on his way out, that the army had only bought it the chance to fail on its own."
+      },
+      {
+        "h": "The leaving",
+        "eyebrow": "A harbor full of other people's endings, a Wednesday board over who owned whom, and the last British troops marching to the boats"
+      },
+      {
+        "p": "Through 1783 New York harbor emptied itself northward. Fleet after fleet sailed carrying Loyalist refugees, around thirty thousand to Nova Scotia alone by the end of the year, people who had bet on the Crown and lost and were now leaving the country for good, founding new towns out of the camps. From the American lines the harbor was a year-long parade of other people's endings."
+      },
+      {
+        "p": "In the same harbor, in the same months, a joint British and American board met every Wednesday at Fraunces Tavern, on Pearl Street, to decide a different kind of ending. Carleton had taken a stand that people freed by British proclamation during the war would not be handed back into slavery, and so the board examined the claims of Black refugees to their freedom and registered the names of those it confirmed, some three thousand of them, in a ledger that came to be called the Book of Negroes, each name a documentary proof of freedom that could protect a person from being claimed as property, before the transports carried them to Nova Scotia. The room where those hearings were held over who owned whom was the same Long Room where, that December, Washington would say goodbye to his officers."
+      },
+      {
+        "pill": "/war-revolution/off-the-battlefield/slavery-and-the-revolution",
+        "plabel": "Slavery and the Revolution"
+      },
+      {
+        "p": "The last leaving in New York came on 25 November 1783, the day New Yorkers would call Evacuation Day, the morning the last British troops left the city for good. It was a cold, bright morning with the timetable agreed in advance. The British troops fell back through the city to the boats, and around midday a cannon shot marked the handover of a city that had been British for seven years, since the autumn the war for New York was lost. Henry Knox led the American advance down from the Bowery, and then Washington and Governor George Clinton rode in at the head of a column of soldiers and a crowd of citizens. The city they came into was scarred, burned-over districts from the great fire of 1776, wrecked churches, rotten wharves. A woman who watched the entry as a girl remembered it years later: the departing British \"were as if equipped for show… with their scarlet uniforms and burnished arms, made a brilliant display. The troops that marched in, on the contrary, were ill-clad and weather-beaten, and made a forlorn appearance; but then they were our troops… and my heart and my eyes were full.\" The story New Yorkers told for a century afterward was that the departing garrison had nailed the Union Jack to a greased flagpole and cut the halyards, the ropes used to raise a flag, and that a young veteran named John Van Arsdale nailed on cleats, climbed the pole, and ran up the Stars and Stripes before the British fleet had cleared the harbor (the fullest version was written a hundred years later by Van Arsdale's own grandson, and it is best left as the story they told)."
+      },
+      {
+        "fig": "/war-img/rev-peace-entry.jpg",
+        "cap": "A Currier & Ives print of Washington's entry into New York on Evacuation Day, 25 November 1783, made in 1857, three-quarters of a century after the fact. It is a commemorative imagining, not a record: the real entry was a weather-beaten column riding into a scarred and half-burned city the British had held for seven years.",
+        "credit": "\"Washington's entry into New York 1783,\" Currier & Ives, 1857 · public domain"
+      },
+      {
+        "p": "Washington did none of the things a conqueror does. There were no reprisals and no triumph theater. He had one errand left, and he stayed nine days to do it."
+      },
+      {
+        "h": "The goodbyes",
+        "eyebrow": "A farewell to the armies, an embrace in a tavern, an account settled to the penny, and a commission handed back"
+      },
+      {
+        "p": "The army got its own farewell first. On 2 November 1783, from Rocky Hill near Princeton, before the last of the men were discharged, Washington issued his Farewell Orders to the armies of the United States. The survival of the cause through eight years, he wrote, \"through almost every possible suffering and discouragement,\" had been \"little short of a standing Miracle.\" And of himself: \"The Curtain of seperation will soon be drawn, and the Military Scene to him will be closed for ever.\""
+      },
+      {
+        "p": "…the unparalleled perseverence of the Armies of the United States, through almost every possible suffering and discouragement, for the space of eight long years, was little short of a standing Miracle… — George Washington, Farewell Orders to the Armies, 1783",
+        "q": true
+      },
+      {
+        "p": "Nine days after the British sailed from New York, on 4 December 1783, Washington took leave of his officers in the Long Room at Fraunces Tavern, the same room that had spent the year hearing claims to freedom. The only firsthand account of what happened there is Colonel Benjamin Tallmadge's, written into a memoir nearly half a century later, in 1830, so it comes to us through one old man's memory of a day long past. By his telling, Washington filled a glass and said, \"With a heart full of love and gratitude I now take leave of you. I most devoutly wish that your latter days may be as prosperous and happy as your former ones have been glorious and honorable.\" Knox, nearest to him, turned; Washington, \"suffused in tears,\" grasped his hand, and they embraced in silence, and then every officer in the room in turn. \"Not a word was uttered to break the solemn silence.\" Most of these were men who had been with him since 1775 and 1776. Then he walked down to the Whitehall wharf between two ranks of his soldiers, boarded a barge, and waved his hat."
+      },
+      {
+        "p": "From New York to Annapolis the road south became a procession, town by town: escorts of light horse, bells and bonfires at New Brunswick and Trenton, a stop at Philadelphia on 8 December, then Wilmington and Baltimore. In Philadelphia he did one last piece of business that says as much about him as any speech. He sat down with the comptroller on 13 December and settled his wartime expense accounts. He had taken no salary for the eight and a half years of the war, only his expenses, and he had kept the receipts and itemized them to the end, down to the penny, the commander-in-chief of a victorious army closing his books like a clerk. He reached Annapolis, where Congress was sitting, on 19 December, and on 22 December Congress gave him a public dinner with thirteen toasts and thirteen guns."
+      },
+      {
+        "p": "On 23 December 1783, around noon, in the Old Senate Chamber of the Maryland State House, Washington stood before Congress to give the war back. As he read, his hands trembled, and at the passage about the officers who had served under him he steadied the paper with both hands. He read nine sentences and laid down the commission, the physical document of his appointment as commander-in-chief, that Congress had voted him in June 1775, when the army was militia on a green and he had agreed to command it. \"Having now finished the work assigned me,\" he said, \"I retire from the great theatre of Action, and bidding an Affectionate farewell to this August body under whose orders I have so long acted, I here offer my Commission, and take my leave of all the employments of public life.\" Eight and a half years and three days after he had accepted it, the army that began as farmers on a village green was formally out of existence, and its general was a private citizen on the road home. He left the chamber, mounted, and rode for the Potomac. He reached Mount Vernon on Christmas Eve, home for Christmas for the first time since the war began."
+      },
+      {
+        "h": "The arc shut",
+        "eyebrow": "From a green at dawn to a piece of paper laid on a table"
+      },
+      {
+        "p": "It had started on a green at dawn in April 1775, seventy-odd militiamen in the half-light of Lexington, and it ended with a commission laid on a table in a statehouse in December 1783, and a man riding down the Annapolis road toward home in the cold. In between were eight and a half years and the things this war was made of: a slip of paper marked \"unfortunate\" that was never used, a pair of spectacles taken out to read a letter, a badge cut from purple cloth for men who could not be paid, a harbor emptying of other people's endings, a tavern room where clerks wrote three thousand names into a ledger of who was free, and a proclamation of peace read to the regiments at noon on the eighth anniversary of the first shots. The man who rode home that Christmas Eve had warned, the week after his greatest victory, against believing the war was over. It had taken two more years to prove him right and then, at last, wrong."
+      }
+    ]
   }
 }

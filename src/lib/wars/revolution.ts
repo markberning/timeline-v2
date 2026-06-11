@@ -114,10 +114,10 @@ export const REVOLUTION: WarConfig = {
   chapters: [
     { id: 'outbreak', name: 'Outbreak', phase: 'outbreak', type: 'MILITARY', size: 'l', date: '1775', year: 1775, m: 1, hook: 'A standoff became a shooting war, a siege, an invasion, and a rebellion declared.', href: '/war-revolution/outbreak' },
     { id: 'the-north', name: 'The War for the North', phase: 'hard', type: 'MILITARY', size: 'l', date: '1776', year: 1776, m: 1, hook: 'The Declaration, the New York disaster, and the ten days that kept the cause alive.', href: '/war-revolution/the-north' },
-    { id: 'two-armies', name: 'Two Armies', phase: 'turning', type: 'MILITARY', size: 'l', date: '1777', year: 1777, m: 1 },
-    { id: 'world-war', name: 'A World War', phase: 'total', type: 'MILITARY', size: 'l', date: '1778–1780', year: 1778, m: 1 },
-    { id: 'southern-turn', name: 'The Southern Turn & Yorktown', phase: 'total', type: 'MILITARY', size: 'l', date: '1780–1781', year: 1780, m: 1 },
-    { id: 'the-peace', name: 'The Peace', phase: 'after', type: 'MILITARY', size: 'l', date: '1782–1783', year: 1782, m: 1 },
+    { id: 'two-armies', name: 'Two Armies', phase: 'turning', type: 'MILITARY', size: 'l', date: '1777', year: 1777, m: 1, hook: 'Two British armies, two separate wars, and the surrender that bought a navy.', href: '/war-revolution/two-armies' },
+    { id: 'world-war', name: 'A World War', phase: 'total', type: 'MILITARY', size: 'l', date: '1778–1780', year: 1778, m: 1, hook: 'The war goes global, goes south, and nearly dies at home; the hero turns traitor.', href: '/war-revolution/world-war' },
+    { id: 'southern-turn', name: 'The Southern Turn & Yorktown', phase: 'total', type: 'MILITARY', size: 'l', date: '1780–1781', year: 1780, m: 1, hook: 'Greene loses every battle and wins the map, and five strands meet at a tobacco port.', href: '/war-revolution/southern-turn' },
+    { id: 'the-peace', name: 'The Peace', phase: 'after', type: 'MILITARY', size: 'l', date: '1782–1783', year: 1782, m: 1, hook: 'Two years of waiting, leaving, and almost breaking, ended by a commission handed back.', href: '/war-revolution/the-peace' },
   ],
   commanders: {},
   home: {
