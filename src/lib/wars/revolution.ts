@@ -67,8 +67,8 @@ export const REVOLUTION: WarConfig = {
     { id: 'rev-quebec', name: 'Quebec', year: 1775, m: 12, mo: 'Dec', place: 'Quebec City', theatre: 'rev-battles', region: 'new-england', size: 'm', href: '/war-revolution/battles/quebec-1775', img: '/war-img/rev-quebec1775-clemens-card.jpg' },
     // ── The War for the North (1776) ──
     { id: 'rev-long-island', name: 'Long Island', year: 1776, m: 8, mo: 'Aug', place: 'Brooklyn, NY', theatre: 'rev-battles', region: 'middle', size: 'l', href: '/war-revolution/battles/long-island', img: '/war-img/rev-longisland-hero.jpg' },
-    { id: 'rev-trenton', name: 'Trenton', year: 1776, m: 12, mo: 'Dec', place: 'Trenton, NJ', theatre: 'rev-battles', region: 'middle', size: 'l' },
-    { id: 'rev-princeton', name: 'Princeton', year: 1777, m: 1, mo: 'Jan', place: 'Princeton, NJ', theatre: 'rev-battles', region: 'middle', size: 'm' },
+    { id: 'rev-trenton', name: 'Trenton', year: 1776, m: 12, mo: 'Dec', place: 'Trenton, NJ', theatre: 'rev-battles', region: 'middle', size: 'l', href: '/war-revolution/battles/trenton', img: '/war-img/rev-trenton-card.jpg' },
+    { id: 'rev-princeton', name: 'Princeton', year: 1777, m: 1, mo: 'Jan', place: 'Princeton, NJ', theatre: 'rev-battles', region: 'middle', size: 'm', href: '/war-revolution/battles/princeton', img: '/war-img/rev-princeton-card.jpg' },
     // ── Two Armies (1777) ──
     { id: 'rev-ticonderoga', name: 'Fort Ticonderoga', year: 1777, m: 7, mo: 'Jul', place: 'Ticonderoga, NY', theatre: 'rev-battles', region: 'saratoga', size: 's' },
     { id: 'rev-bennington', name: 'Bennington', year: 1777, m: 8, mo: 'Aug', place: 'Walloomsac, NY', theatre: 'rev-battles', region: 'saratoga', size: 'm' },
