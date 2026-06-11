@@ -62,7 +62,7 @@ export const REVOLUTION: WarConfig = {
   // chronological signposts only. href/img set at build time (unbuilt → "Soon").
   battles: [
     // ── Outbreak (1775) ──
-    { id: 'rev-lexington', name: 'Lexington & Concord', year: 1775, m: 4, mo: 'Apr', place: 'Middlesex Co., MA', theatre: 'rev-battles', region: 'new-england', size: 'l' },
+    { id: 'rev-lexington', name: 'Lexington & Concord', year: 1775, m: 4, mo: 'Apr', place: 'Middlesex Co., MA', theatre: 'rev-battles', region: 'new-england', size: 'l', href: '/war-revolution/battles/lexington-concord', img: '/war-img/rev-lexington-hero.jpg' },
     { id: 'rev-bunker-hill', name: 'Bunker Hill', year: 1775, m: 6, mo: 'Jun', place: 'Charlestown, MA', theatre: 'rev-battles', region: 'new-england', size: 'l', href: '/war-revolution/battles/bunker-hill', img: '/war-img/rev-bunkerhill-card.jpg' },
     { id: 'rev-quebec', name: 'Quebec', year: 1775, m: 12, mo: 'Dec', place: 'Quebec City', theatre: 'rev-battles', region: 'new-england', size: 'm', href: '/war-revolution/battles/quebec-1775', img: '/war-img/rev-quebec1775-clemens-card.jpg' },
     // ── The War for the North (1776) ──
