@@ -88,10 +88,7 @@ All pre-1928 works are public domain; verify each file page at fetch.
    - Caption: The night evacuation across the East River, in an 1856 engraving: the boats loading in the dark, the army leaving Brooklyn behind.
    - Credit: engraving · 1856 · Library of Congress / Wikimedia Commons · public domain
 
-6. BATTLE CARD (non-map print, landscape, per war doctrine) · `File:Battleoflongisland.jpg` (800×622) → `/war-img/rev-longisland-card.jpg`
-   - Caption: Lord Stirling leading an attack against the British to buy time for his command's escape; Alonzo Chappel, 1858.
-   - Credit: Alonzo Chappel · 1858 · Wikimedia Commons · public domain
-   - (A second Chappel composition, distinct from the hero. If one Chappel must serve both, the hero doubles as the card and this file is dropped.)
+6. BATTLE CARD (non-map print, landscape, per war doctrine) · DROPPED AT FETCH: `File:Battleoflongisland.jpg` proved to be the SAME Chappel composition as the hero, not a second one. Per this manifest's own fallback, the hero doubles as the card: use `/war-img/rev-longisland-hero.jpg` for the battles-array card image.
 
 7. COMMANDER · Washington: `File:George Washington by Peale 1776.jpg` (2467×3000) → `/war-img/rev-longisland-washington.jpg`
    - Caption: George Washington, painted from life by Charles Willson Peale in 1776, the year of the battle.
@@ -122,9 +119,9 @@ All pre-1928 works are public domain; verify each file page at fetch.
     - Credit: Thomas Gainsborough · oil painting · 1783 · Wikimedia Commons · public domain
 
 14. COMMANDER · Grant: `File:Major Gen. James Grant, Colonel of the 55th Foot, 1720-1806 (NYPL Hades-254503-429729).jpg` → `/war-img/rev-longisland-grant.jpg`
-    - Caption: James Grant, in a period print.
+    - Caption: James Grant, in a 19th-century print after an image by John Kay.
     - Credit: New York Public Library / Wikimedia Commons · public domain
-    - (AVOID `File:James-grant-1720-1806.jpg`: it is a 1798 John Kay caricature.)
+    - (AVOID `File:James-grant-1720-1806.jpg`: it is a 1798 John Kay caricature. The installed NYPL plate is a tamer bust redrawing after Kay; caption updated at fetch to say so honestly. FLAGGED for user veto if even the redrawing reads as caricature.)
 
 Rejected/held: `File:Battle of Long Island by Domenick D'Andrea.jpg` (modern National Guard Heritage painting; Commons-tagged PD via the National Guard but contractor work-for-hire status undocumented; pack prefers 18th–19th-century art for prime slots, so not used). `File:New york retreat 1776.jpg` (portrait aspect; backup inline only). `File:U.S. Army - Artillery Retreat from Long Island 1776.jpg` (small; backup only). `File:Battle of Long Island, 1776.svg` (CC BY-SA, modern; avoid for display).
 
