@@ -3,17 +3,20 @@
 
 By the start of 1775 the quarrel had a shape. Boston was a garrisoned town under boycott, held by an army that could not safely leave it. The countryside around it had quietly stopped obeying the royal government and started arming. Three thousand miles away, ministers in London were sure the colonists would back down the moment troops marched, the way they always had. And in the colonies, men who had watched Britain repeal the Stamp Act and gut the Townshend duties were just as sure the same firmness would work again (Chapter 3). Both sides were wrong at the same time: a standoff became a shooting war that became a continental siege, while a congress swore loyalty and raised an army, an invasion froze in the Maine woods, a royal governor offered freedom to the enslaved of rebel masters, and a king declared his subjects rebels before their plea for peace had even landed.
 
+[The bill from the last war](/war-revolution/off-the-battlefield/bill-comes-due)
+[The Stamp Act](/war-revolution/off-the-battlefield/stamp-act)
+
 ## A town held, a countryside arming
 > eyebrow: January 1775, and the royal government runs out past the city limits
 
 General Thomas Gage held Boston with about four thousand regulars, the professional, full-time soldiers of the British army, as distinct from the part-time militia he was up against. He was, on paper, the most powerful man in British North America: commander in chief of the army on the continent and, since the spring of 1774, royal governor of Massachusetts as well. In practice his authority stopped at the edge of town. The port had been closed by Parliament's punitive Coercive Acts (Chapter 4), the harbor was idle, and the seventeen thousand townspeople lived elbow to elbow with the troops sent to discipline them. Out past the city limits, Gage governed almost nothing at all.
 
+[The Boston Massacre](/war-revolution/off-the-battlefield/boston-massacre)
+[The tea and the Intolerable Acts](/war-revolution/off-the-battlefield/tea-party)
+
 The boycott was the visible half of it. The Continental Association, the trade ban the First Continental Congress had agreed the previous fall, had taken effect on the first of December and was being enforced house by house. Local committees of inspection checked who was still buying British goods and published the names of those who were. A shopkeeper who broke ranks did not just lose customers; he was a marked man, named in the papers, cut by his neighbors, sometimes dunned as a friend to the King. This was the first edge of a split that would harden into something darker than a boycott. The men who stayed loyal to the Crown, the Loyalists, were not foreigners or soldiers but the colonists' own neighbors and kin, and over the next year that fracture would turn whole counties into a war within the war. Imports from Britain did not just dip in 1775; they nearly stopped.
 
 The invisible half was the government that had grown up to replace the one Gage no longer ran. Massachusetts had simply built another. The Massachusetts Provincial Congress, an unauthorized assembly that first met in October 1774, governed the countryside through a Committee of Safety with the power to call out the militia. The word "militia" needs to be said precisely, because the myth has sanded it smooth. These were not farmers who would someday grab a musket off the wall. They were organized town companies with a system behind them that ran back to the 1600s: officers elected, musters held, alarm networks rehearsed. The Provincial Congress had told each town to enroll a faster tier inside that system, roughly a quarter to a third of the rolls, sworn to turn out "at a minute's warning." Those were the minute companies. And the Congress was stockpiling what an army needs to fight, muskets and powder and cannon, much of it inland at Concord and Worcester, where Gage's troops would have to march to reach it.
-
-[The army before there was an army](/war-revolution/off-the-battlefield/army-from-nothing)
-[A people splitting in two](/war-revolution/off-the-battlefield/civil-war-among-themselves)
 
 London answered the First Continental Congress that same winter, with three documents in three months that show a government still trying to win the argument and lose as little as possible. Lord North's Conciliatory Resolution, proposed in late February, offered any colony that taxed itself for its own defense and government a way out of being taxed by Parliament. It was a carrot with strings: Parliament kept the right, the colonists did the paying, and it pointedly dealt with colonies one at a time rather than recognize the Congress at all. The New England Restraining Act, in late March, was the stick: it choked New England's trade down to Britain, Ireland, and the British West Indies and barred New Englanders from the rich North Atlantic fisheries. And underneath both, a secret letter. Lord Dartmouth, the minister for the colonies, had written Gage in late January telling him the province was in rebellion in all but name and ordering him to act, the first step being to arrest the principal men of the Provincial Congress before they could organize further. The obvious targets, though the letter did not name them, were John Hancock and Samuel Adams. The letter reached Gage on the fourteenth of April. Four days later he moved, not against the leaders, but against the powder at Concord.
 
@@ -43,6 +46,8 @@ A little after nine thirty, at the North Bridge, roughly four hundred militia ca
 
 That was the curtain-raiser. The battle was the road home. Around noon the exhausted column started back toward Boston, sixteen miles of road that turned into a sixteen-mile ambush. Militia companies kept arriving in relays from town after town, eventually three to four thousand men, and fired from behind stone walls and trees and houses, then fell back and fired again. There were vicious fights at Meriam's Corner, at a bend the soldiers called the Bloody Angle, and worst of all at Menotomy, now Arlington, where the killing went house to house. At Lexington the column, near collapse, was met by a relief brigade of about a thousand fresh men and two cannon under Brigadier General Lord Hugh Percy, which roughly doubled the force and very likely saved it. Percy's disciplined withdrawal got the survivors to Charlestown and under the covering guns of the warships in the harbor by dark, the naval cannon keeping the pursuing militia at a distance.
 
+[Lexington & Concord: the full battle story](/war-revolution/battles/lexington-concord)
+
 The day's full butcher's bill came to 273 British casualties, 73 killed, 174 wounded, and 26 missing, out of something under eighteen hundred men engaged across the whole running fight. The Americans lost about ninety-three, with 49 killed. A force sent to confiscate some powder had marched into the countryside and been mauled coming home by an army nobody in London believed existed.
 
 ## The Atlantic race
@@ -66,8 +71,6 @@ In the dark before dawn on the tenth of May, far to the northwest, that army act
 
 Because the same day, in Philadelphia, the Second Continental Congress gaveled into session. It had been called months earlier as a routine follow-up, and now it opened three weeks into a shooting war that no congress had voted for, in a country it did not govern, on the very morning that a King's fort fell to men acting in the Congress's name without the Congress having the faintest idea it was happening.
 
-[The idea nobody had voted for yet](/war-revolution/off-the-battlefield/idea-of-independence)
-
 ## Breed's Hill
 > eyebrow: June 17, and the victory that frightened the victors
 
@@ -78,6 +81,8 @@ On the afternoon of the seventeenth, somewhere between two and three thousand Br
 The ground was the British achievement. The cost was the British shock. Out of somewhere between twenty-four hundred and three thousand men engaged, they lost 1,054, with 226 killed and 828 wounded, a staggering share of them officers. The Americans lost something in the range of four hundred and twenty to four hundred and fifty. And among the American dead was Dr. Joseph Warren, the man who had run the spy network and sent Revere and Dawes out in April, now a newly commissioned major general, who had gone into the redoubt as a volunteer and was killed in the retreat.
 
 Both sides learned the wrong lessons in opposite directions. Henry Clinton wrote that night that it had been "a dear bought victory, another such would have ruined us." Gage told the minister at war days later that the loss "is greater than we can bear," and added that these people had shown a spirit they had never shown against the French. London's takeaway was realistic: this would be a real war, and it would need a real army. The American takeaway was seductive and dangerous: militia behind earthworks could shred British regulars. Both lessons would shape the next year. After Breed's Hill the siege simply set, neither side able to break the other, the garrison inside Boston growing hungrier and sicker as the year wore on.
+
+[Bunker Hill: the full battle story](/war-revolution/battles/bunker-hill)
 
 > quote: A dear bought victory, another such would have ruined us. — Maj. Gen. Henry Clinton, the evening of 17 June 1775
 
@@ -90,8 +95,6 @@ The Congress in Philadelphia spent that June doing two things that look, from a 
 
 Then the same Congress turned around. On the fifth of July it adopted the Olive Branch Petition, a petition being a formal written plea to the Crown, drafted by John Dickinson, the moderate "Pennsylvania Farmer" of the Townshend years (Chapter 3). It was a direct and frankly loyal appeal to George III, blaming his ministers rather than the King, professing attachment to his person, and begging him to stop the war so reconciliation could begin. The very next day, the sixth of July, it adopted a Declaration of the Causes and Necessity of Taking Up Arms, written by Thomas Jefferson and Dickinson, which justified armed resistance while explicitly insisting the colonies were not seeking independence. The two were not as contradictory as they look: the petition begged the King to call off his ministers' war, and the army stood ready to fight that war if he would not. An olive branch to the throne, a musket aimed at Parliament's policy, both out of the same room in the same week. It is easy to call that hypocrisy. It is more honestly described as a body that had not made up its mind, holding both halves of an unresolved argument at once. The King, when the petition reached him in August, would not even receive it.
 
-[An army built out of nothing](/war-revolution/off-the-battlefield/army-from-nothing)
-
 ## North into Canada
 > eyebrow: September to December, and a march the maps had lied about
 
@@ -102,6 +105,8 @@ The first prong went up the lake under Brigadier General Richard Montgomery, an 
 The second prong was the one that became legend, and it deserves to, told straight. Benedict Arnold, Ticonderoga's other claimant and hungry for a command of his own, left Cambridge in mid-September with about eleven hundred men to reach Quebec by a back route up the Kennebec and Chaudière rivers through the Maine wilderness, a hard line of travel northeast across rivers and high ground that no army had taken before. The route was far longer and crueler than any map had shown. The boats leaked and the supplies drowned, the bogs froze, and a third of the force under Lieutenant Colonel Roger Enos, roughly three hundred men, turned back with most of the remaining food. The men who kept going ate boiled shoe leather, cartridge boxes, candles, and a dog. About six hundred of them, gaunt and half-starved, reached the St. Lawrence opposite Quebec in mid-November. It was an astonishing feat of endurance, and it arrived far too weak to do anything on its own.
 
 On the last night of the year, in a blizzard, the two prongs gambled everything. Montgomery, down to a few hundred effective men, had joined Arnold, and with their soldiers' enlistments set to expire at midnight on New Year's Eve, they could either attack now or watch the army melt away. So they went at the walls of Quebec in the dark and the driving snow, two thin columns converging on a fortified city they could not have held even if they took it, and the attack failed completely. Montgomery was killed by grapeshot, the cluster of small iron balls a cannon throws like an enormous shotgun, in the first minutes of his assault. Arnold's leg was shattered as he led the other. Daniel Morgan pushed deepest into the lower town and was captured there with the survivors, somewhere between four hundred and four hundred thirty Americans taken prisoner, against trivial British losses. Montgomery became the cause's first martyred general. The remnant under Arnold kept up a ragged pretense of a siege outside the walls through the winter, but the Canadian gamble had been lost on the year's last night. It had nearly worked on courage alone, and it had not worked.
+
+[Quebec 1775: the full battle story](/war-revolution/battles/quebec-1775)
 
 ## South into Virginia
 > eyebrow: November, and an emancipation offer from the King's own governor

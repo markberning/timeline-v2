@@ -90,7 +90,7 @@ All pre-1928 works are public domain; the two modern battlefield photos are Crea
 
 6. SECTION 3 inline (a) · `File:Princeton Battlefield - The Clarke House.jpg` → `/war-img/rev-princeton-clarke-house.jpg`
    - Caption: The Thomas Clarke House at Princeton Battlefield State Park, where Mercer was carried from the field and died of his wounds nine days after the battle.
-   - Credit: photo · CC BY-SA 4.0 · Wikimedia Commons (photographer attribution REQUIRED; take the name from the file page at fetch)
+   - Credit: photo by Chicagoshim · CC BY-SA 4.0 · Wikimedia Commons. [License verified at fetch.]
 
 7. SECTION 3 inline (b) · `File:Charles Willson Peale - George Washington at the Battle of Princeton - PP222 - Princeton University Art Museum.jpg` → `/war-img/rev-princeton-peale-washington.jpg`
    - Caption: Charles Willson Peale's "George Washington at the Battle of Princeton," the 1784 portrait the college's trustees commissioned, and, so the college's tradition goes, hung in the very frame that had held the battle-damaged portrait of King George II. Peale fought in the battle he painted, a militia lieutenant in Cadwalader's line.
