@@ -694,8 +694,7 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "pill": "/war-revolution/battles/monmouth",
-        "plabel": "Monmouth: the full battle story",
-        "soon": true
+        "plabel": "Monmouth: the full battle story"
       },
       {
         "pill": "/war-revolution/off-the-battlefield/women-of-the-revolution",
@@ -714,8 +713,7 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "pill": "/war-revolution/battles/stony-point",
-        "plabel": "Stony Point: the full battle story",
-        "soon": true
+        "plabel": "Stony Point: the full battle story"
       },
       {
         "h": "The center of gravity leaves",
@@ -803,8 +801,7 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "pill": "/war-revolution/battles/vincennes",
-        "plabel": "Vincennes: the full battle story",
-        "soon": true
+        "plabel": "Vincennes: the full battle story"
       },
       {
         "h": "The home front nearly breaks",

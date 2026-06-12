@@ -81,9 +81,10 @@ PORTRAIT and inline-only, never the hero band. Caption license caveats below are
    - Caption: The night attack on Fort Sackville, in an 1895 illustration by Edward Mason. The frontier riflemen fired through the unfinished stockade's ill-set gunports from houses, fences, and a riverbank, and by morning the fort's cannon were useless. The painting is more than a century younger than the fight; the silenced guns and the covered marksmen are the record.
    - Credit: Edward Mason · illustration · 1895 · Wikimedia Commons · public domain
 
-2. SECTION 1 inline (the western anchor) · `File:Wabash River - Henry Hamilton 1778.jpg` (Hamilton's own 1778 map of the Wabash route, PD) → `/war-img/rev-vincennes-hamilton-map.jpg`
-   - Caption: Henry Hamilton's own 1778 map of the Wabash River, the route his expedition came down from Detroit to retake Vincennes, and the river Clark's men would wade four months later. The single best primary artifact for this campaign is the enemy commander's drawing of the water that drowned the prairie around his fort.
-   - Credit: Henry Hamilton · manuscript map · 1778 · Wikimedia Commons · public domain
+2. SECTION 1 inline (the western anchor) · `File:Wabash River - Henry Hamilton 1778.jpg` (Hamilton's own 1778 wash sketch of the Wabash, PD) → `/war-img/rev-vincennes-hamilton-map.jpg`
+   - Caption: The Wabash River, drawn by Henry Hamilton himself on the 1778 expedition that came down it from Detroit to retake Vincennes. It is the enemy commander's own picture of the river that would drown the prairie around his fort, sketched while his boats were still on the water.
+   - Credit: Henry Hamilton · wash sketch · 1778 · Wikimedia Commons · public domain
+   - (IMAGE-AGENT RESULT 2026-06-12: the Commons file is a riverbank landscape sketch by Hamilton, NOT a manuscript map — no Hamilton Wabash map exists on Commons; caption and credit rewritten to match the verified artifact, which is genuinely his.)
    - (Alt western-anchor map if a beat wants Kaskaskia/Cahokia country: `File:A Plan of the several Villages in the Illinois Country with Part of the River Mississippi and c. by Tho. Hutchins.jpg`, Thomas Hutchins, pub. 1778, PD.)
 
 3. SECTION 2 inline (the march, portrait, INLINE ONLY) · `File:Clark's march against Vincennes, across the Wabash River through wilderness and flood - NARA - 518211.jpg` (NARA copy of the Ezra Winter mural, c. 1933; 1791×3000 PORTRAIT, NARA PD tag) → `/war-img/rev-vincennes-march-mural.jpg`
@@ -99,7 +100,8 @@ PORTRAIT and inline-only, never the hero band. Caption license caveats below are
 5. SECTION 3 inline (what we made of it) · `File:George Rogers Clark Memorial in Vincennes, Indiana.jpg` (modern photo; CHECK CC license + attribution at download) → `/war-img/rev-vincennes-memorial.jpg`
    - IMAGE-AGENT INSTRUCTION: this is a modern photograph, NOT public domain. Re-check the license tag on the file page at download time and record the CC author + license in the credit line. If the CC photo's license cannot be confirmed, fall back to the federal HABS sheets (PD): `File:PERSPECTIVE VIEW FROM THE NORTH - George Rogers Clark Memorial... HABS IND,42-VINC,4-1.tif` or `...AERIAL VIEW FROM THE NORTHEAST... 4-2.tif`.
    - Caption: The George Rogers Clark Memorial in Vincennes, a 16-column granite rotunda dedicated by President Franklin Roosevelt in 1936 on the presumed fort site. The fort's exact footprint has never been found; it lies somewhere inside the park. The building is high-imperial commemoration of exactly the conquest claim the record will not quite support.
-   - Credit: [record the CC author + license read off the file page at download] · Wikimedia Commons
+   - Credit: Agentmoose (English Wikipedia) · photograph · 2006 · Wikimedia Commons · CC BY-SA 2.5
+   - (IMAGE-AGENT RESULT 2026-06-12: license read off the file page at download; attribution mandatory in the shipped credit line.)
    - (Optional companion, PD: `File:Francis Vigo at George Rogers Clark Memorial.tif`, the Vigo statue on the riverbank; .tif may need conversion. Check license/format at download.)
 
 6. COMMANDER · Clark: `File:GEORGE ROGERS CLARK Jouett 12.jpg` (Matthew Harris Jouett oil, posthumous c. 1825; 2000×2816, PD, higher-res) → `/war-img/rev-vincennes-clark.jpg`

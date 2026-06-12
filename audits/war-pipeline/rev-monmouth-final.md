@@ -111,7 +111,7 @@ rev-monmouth prefix (cp, never modify the originals).
    - Credit: Charles Willson Peale · 1776 · Wikimedia Commons · public domain
 
 7. COMMANDER · Lee: NEW · `File:Major General Charles Lee MET DP104936.jpg` (Met, A.H. Ritchie engraving, 2862×3912, CC0) → `/war-img/rev-monmouth-lee.jpg`
-   - Caption: Charles Lee, in a nineteenth-century engraving by A.H. Ritchie. No portrait of Lee taken from life survives; this is a posthumous likeness, the cleanest formal image of the army's most experienced and most difficult general.
+   - Caption: Charles Lee, in a nineteenth-century engraving by A.H. Ritchie. No portrait of Lee taken from life survives; this is a posthumous likeness, a full-length profile with one of his beloved dogs, the cleanest surviving image of the army's most experienced and most difficult general.
    - Credit: A.H. Ritchie · engraving · 19th century · The Metropolitan Museum of Art / Wikimedia Commons · CC0
    - HANDLE-WITH-CARE: the "no life portrait exists / posthumous" caveat is mandatory in the caption.
    - (Character alternate, if the formal engraving reads stiff: `File:Caricature of Major-General Charles Lee from a drawing by Kosciusko (i.e. Kosciuszko) (NYPL b12349149-420584).jpg`, NYPL, 1808×3114, PD, a full-length profile with his dog, "said to be from a life sketch" — Lee was famous for his dogs. Caption must carry the "said to be from life" hedge.)
