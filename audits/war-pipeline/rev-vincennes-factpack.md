@@ -183,3 +183,38 @@
 8. The convoy capture figures (7 boats, ~40 prisoners, value) — secondary-source ranges [MED].
 9. Hamilton's "difficulties and dangers" tribute quote — chain not pinned byte-exact this session.
 10. The exact meeting place of the surrender parley: church (American accounts) vs parade before the gate (Hamilton). Both defensible; pick one and hedge or stage it at the church per Clark/Bowman with "by Hamilton's telling, before the gate."
+
+## PACK CORRECTIONS APPENDIX
+
+*Appended at reconciliation, 2026-06-12 (wave-3 Ticonderoga precedent). Where a §-line above is wrong,
+THIS appendix is the authority and the gated FINAL (`rev-vincennes-final.md`) follows it, not the
+original line. Each correction is web-verified by the fact-check critic pass or the follow-up
+verification pass noted in the brief.*
+
+- **PC1 — Vigo repayment year and arithmetic (overrides §2 and §3 "1876, forty years").** The debt
+  Virginia owed Francis Vigo was NOT paid until **1875**, and the payment went to his **estate**, not
+  "his heirs." Vigo died March 22, **1836**, so 1875 is **nearly forty years (thirty-nine years)**
+  later, not "forty years," and not 1876. The pack's "1876, forty years after he died" is wrong on
+  both the year and the span. Ship: "paid to his estate... in 1875, nearly forty years after he died
+  poor." [HIGH — Wikipedia, Francis Vigo; fact critic spot-check #3]
+
+- **PC2 — Philip Dejean's title (overrides §5d "magistrate").** Dejean was a **British-appointed
+  judge**, not a "magistrate." The standard secondary description is "a British appointed judge,
+  Philippe DeJean." Ship: "Detroit's notorious British-appointed judge Philip Dejean." [HIGH —
+  Wikipedia, Siege of Fort Sackville / Illinois campaign; fact critic spot-check #2]
+
+- **PC3 — the salute accident mechanism (overrides §5d / §7 "~26 captured 6-pounder cartridges
+  exploded").** The "**26 cartridges**" figure is unsupported and is NOT to be shipped. What is
+  supported: during the celebratory victory salute on February 25, a **captured British 6-pounder
+  cannon touched off the loose gunpowder charges** at the battery, **wounding six men including Maj.
+  Joseph Bowman**, who **died of the burns five months later** (August 14, 1779). Ship the mechanism
+  and the six-wounded / Bowman-dies-five-months-later facts; do NOT ship any cartridge count or imply
+  the cartridges themselves were the primary charge. [HIGH on mechanism + casualties — follow-up
+  web-verification pass per the reconcile brief; the "~26" caliber/count was also flagged
+  un-confirmable by fact critic SF3]
+
+- **PC4 — where Philip Dejean was captured (clarifies §5d; the pack lists him among the convoy
+  prisoners but the FINAL must not imply a fort-surrender capture).** Dejean was captured
+  **separately, on the Wabash, with the supply convoy coming down from Detroit**, by **Capt. Leonard
+  Helm's boat party** — NOT at Fort Sackville's surrender on February 25. The prose places his capture
+  with the convoy stream accordingly. [HIGH — follow-up web-verification pass per the reconcile brief]
