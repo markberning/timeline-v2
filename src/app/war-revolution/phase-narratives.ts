@@ -566,8 +566,7 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "pill": "/war-revolution/battles/germantown",
-        "plabel": "Germantown: the full battle story",
-        "soon": true
+        "plabel": "Germantown: the full battle story"
       },
       {
         "p": "It is widely said that this beaten army's nerve to attack a victorious enemy three weeks later impressed France as much as anything that autumn. The strong version, a single sentence put in the French foreign minister's mouth, cannot be pinned to any contemporary document, so put it softly: the news crossing to Paris that fall carried Philadelphia's loss together with Germantown's audacity, and French observers read even this defeat as evidence that the American army would not die."
@@ -609,8 +608,7 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "pill": "/war-revolution/battles/saratoga",
-        "plabel": "Saratoga: the full battle story",
-        "soon": true
+        "plabel": "Saratoga: the full battle story"
       },
       {
         "fig": "/war-img/rev-twoarmies-saratoga.jpg",
