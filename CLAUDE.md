@@ -63,6 +63,11 @@ surface checklist its ship-gate enforces. See
 - **music** — `audits/music-content-pipeline.md` (the art/war analog; music content
   not yet started, so the doc is ready before the first article, never after — already
   carries the "hear the break" + manifesto/founding-statement requirements).
+- **philosophy** — `audits/philosophy-content-pipeline.md` (5th vertical, agreed
+  2026-06-12; content not started, doc ready before the first article — carries the
+  "make them GET it" understanding gate, the key-passage block (the manifesto analog),
+  the break block, and the apocryphal-quote/potted-summary fact axes; v1 scope =
+  Western, Thales→Nietzsche).
 **Recurring failure mode to refuse:** hand-authoring a section and shipping it,
 then gating later (the Kahnweiler work and the art "Lay of the land" prologue both
 hit this; the user caught both). A passing draft is not a gated draft. If you catch
