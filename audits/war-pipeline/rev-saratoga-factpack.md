@@ -198,3 +198,35 @@
 14. **Flags sewn into a pillow** [MED]: Riedesel family/journal tradition with variants.
 15. **Gates's "obstinate old slut" line** [MED]: ubiquitous in secondary sources (commonly "to his wife, mid-Oct 1777") but primary citation thin — verify against Gates papers at authoring time or attribute loosely ("Gates crowed").
 16. **Boundary discipline**: France = battlefield half only (the verified chain: Austin reaches Passy Dec 4 → Vergennes's invitation Dec 6 → recognition decision Dec 17 → treaties Feb 6, 1778); the diplomacy's inside story belongs to the french-alliance theme. The Haudenosaunee civil war belongs to the native-nations theme.
+
+## PACK CORRECTIONS APPENDIX
+
+*Added at reconciliation (2026-06-12) by the reconcile+revise editor, recording the
+fact critic's web-verified corrections to two inherited pack errors. These do not edit
+the body of the pack above; they are the authoritative override for the FINAL. (Wave-3
+Ticonderoga precedent: pack errors caught at the critic gate are logged here, and the
+FINAL follows the appendix, not the original §-line.)*
+
+**PC1 · "three weeks before Freeman's Farm" (Gates's command date) → "a month before."**
+The pack §3 bio (Gates) reads "Took the Northern Department from Philip Schuyler on
+Aug 19, 1777, three weeks before Freeman's Farm." This is an arithmetic error.
+August 19 to September 19 is 31 days (four weeks and three days); three weeks would put
+the handover on September 9. The fact critic web-verified the August 19, 1777 command
+date (Wikipedia + corroborating sources) and the September 19 battle date, and confirmed
+the interval. **Correction:** read "a month before Freeman's Farm" wherever the
+three-weeks phrase appears (the Gates bio, the Gates commander-card caption, and the
+fact ledger). Authority: fact-critic verdict `rev-saratoga-critic-fact.md` B1
+(web spot-check #2).
+
+**PC2 · "~45 miles short of Albany" (Kingston, NY) → "about 50 miles short of Albany."**
+The pack §4 (Clinton's raid) and §6 give Kingston as "~45 miles short of Albany"
+without specifying nautical vs. statute miles. Kingston, NY to Albany, NY is
+approximately 52 statute miles straight-line and ~59 by road; the ~45 figure is
+consistent with nautical miles up the Hudson (~45 nm ≈ 52 statute miles) stated as if
+statute, which understates the gap in plain English. The fact critic web-verified the
+distance (Wikipedia's Kingston, NY article: "59 miles south of Albany" by road;
+~52 statute miles straight line). **Correction:** read "about 50 miles short of Albany"
+wherever the figure appears (the strategic locator inset note, the S1 MEANWHILE, and
+the S2 Clinton-raid prose). "About 50" is safe in any unit system and still conveys
+"nowhere near." Authority: fact-critic verdict `rev-saratoga-critic-fact.md` B2
+(web spot-check #4).
