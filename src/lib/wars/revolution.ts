@@ -74,7 +74,7 @@ export const REVOLUTION: WarConfig = {
     { id: 'rev-bennington', name: 'Bennington', year: 1777, m: 8, mo: 'Aug', place: 'Walloomsac, NY', theatre: 'rev-battles', region: 'saratoga', size: 'm', href: '/war-revolution/battles/bennington', img: '/war-img/rev-bennington-card.jpg' },
     { id: 'rev-brandywine', name: 'Brandywine', year: 1777, m: 9, mo: 'Sep', place: 'Chadds Ford, PA', theatre: 'rev-battles', region: 'pennsylvania', size: 'm', href: '/war-revolution/battles/brandywine', img: '/war-img/rev-brandywine-card.jpg' },
     { id: 'rev-saratoga', name: 'Saratoga', year: 1777, m: 9, mo: 'Sep–Oct', place: 'Stillwater, NY', theatre: 'rev-battles', region: 'saratoga', size: 'xl' },
-    { id: 'rev-germantown', name: 'Germantown', year: 1777, m: 10, mo: 'Oct', place: 'Philadelphia, PA', theatre: 'rev-battles', region: 'pennsylvania', size: 'm' },
+    { id: 'rev-germantown', name: 'Germantown', year: 1777, m: 10, mo: 'Oct', place: 'Philadelphia, PA', theatre: 'rev-battles', region: 'pennsylvania', size: 'm', href: '/war-revolution/battles/germantown', img: '/war-img/rev-germantown-card.jpg' },
     // ── A World War (1778–1780) ──
     { id: 'rev-monmouth', name: 'Monmouth', year: 1778, m: 6, mo: 'Jun', place: 'Freehold, NJ', theatre: 'rev-battles', region: 'middle', size: 'm' },
     { id: 'rev-vincennes', name: 'Vincennes', year: 1779, m: 2, mo: 'Feb', place: 'Vincennes, IN', theatre: 'rev-battles', region: 'wider', size: 's' },

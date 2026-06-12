@@ -87,9 +87,10 @@ rev-saratoga prefix (cp, never modify the originals).
    - Caption: John Vanderlyn's "The Death of Jane McCrea," painted in 1804, twenty-seven years after her killing. It is the icon of the legend, not a record of the event: who actually killed her was disputed within days and is genuinely unknown now. What the painting documents is the story Americans told each other in the fall of 1777.
    - Credit: John Vanderlyn · oil painting · 1804 · Wikimedia Commons · public domain
 
-4. SECTION 1 inline (the ground) · `File:John Neilson House, Bemis Heights, Stillwater, Saratoga County, NY.jpg` → `/war-img/rev-saratoga-neilson.jpg`
+4. SECTION 1 inline (the ground) · `File:GENERAL VIEW FROM SOUTHWEST - John Neilson House, Bemis Heights, Stillwater, Saratoga County, NY HABS NY,46-BEMHI,1A-1.tif` → `/war-img/rev-saratoga-neilson.jpg`
    - Caption: The Neilson farmhouse on Bemis Heights, the surviving farmhouse on the line Kościuszko fortified in September 1777. The American entrenchments ran along this high ground, with batteries commanding the river road below.
-   - Credit: photograph · Wikimedia Commons · [resolve photographer + license from the file page at fetch; attribution as required]
+   - Credit: photograph · Historic American Buildings Survey, Library of Congress / Wikimedia Commons · public domain
+   - (IMAGE-AGENT RESULT 2026-06-12: the originally named `File:John Neilson House...NY.jpg` is a Lossing engraving plate, NOT a photo of the house; substituted the HABS survey photograph, which matches the caption.)
 
 5. SECTION 2 inline (a, Freeman's Farm) · `File:Plan of the encampment and position of the army under His Excelly. Lt. General Burgoyne at Swords House on Hudson's River on Septr. 17th, with the positions of that part of the army engaged on the LOC gm71000662.jpg` → `/war-img/rev-saratoga-faden-freemans.jpg`
    - Caption: William Faden's engraved plan of the September 19 battle: Burgoyne's camp at Sword's House on the Hudson and the three columns that went forward to Freeman's Farm. Published in London from the army's own surveys.
@@ -101,11 +102,12 @@ rev-saratoga prefix (cp, never modify the originals).
 
 7. SECTION 2 inline (c, the ride) · `File:Battle of Saratoga - Gen. Arnold wounded in the attack on th - (3990851016).jpg` → `/war-img/rev-saratoga-arnold-wounded.jpg`
    - Caption: Arnold shot at the Breymann redoubt at dusk on October 7, his horse falling, in a 19th-century engraving. Made generations later, it prints the legend; the leg, the horse, and the fallen redoubt are all fact.
-   - Credit: 19th-century engraving · Wikimedia Commons · public domain
+   - Credit: 19th-century engraving · New York Public Library / Wikimedia Commons · no known copyright restrictions
 
 8. SECTION 2 inline (d, Frederika) · `File:Friederike von Riedesel.jpg` (Tischbein, 1762) → `/war-img/rev-saratoga-frederika.jpg`
    - Caption: Frederika Riedesel, painted by Johann Tischbein in 1762, fifteen years before the campaign, when she was sixteen. She crossed the Atlantic with three small daughters to follow her husband, and her journal of the campaign's last weeks is its best eyewitness account.
-   - Credit: Johann Friedrich August Tischbein · oil painting · 1762 · Wikimedia Commons · public domain
+   - Credit: Johann Heinrich Tischbein · oil painting · 1762 · Wikimedia Commons · public domain
+   - (IMAGE-AGENT RESULT 2026-06-12: the draft credited Johann Friedrich August Tischbein, impossible for a 1762 portrait, he was born 1750; the Commons file page attributes Johann Heinrich Tischbein.)
    - (Alt period print: `File:Baroness Riedesel.jpg`.)
 
 9. SECTION 3 inline (the surrender beat) · REUSE IN-REPO: `/war-img/rev-twoarmies-saratoga.jpg` (Trumbull's Surrender of General Burgoyne, the Capitol rotunda painting; the spine chapter's hero, used here INLINE only, varied caption). **cp to `/war-img/rev-saratoga-trumbull.jpg`.**
@@ -114,7 +116,8 @@ rev-saratoga prefix (cp, never modify the originals).
 
 10. SECTION 3 inline (the Boot Monument beat) · `File:Saratoga National Historical Park – Boot Monument.jpg` → `/war-img/rev-saratoga-boot.jpg`
     - Caption: The Boot Monument at Saratoga, erected in 1887 at the spot where Arnold fell storming the Breymann redoubt. It honors "the most brilliant soldier of the Continental Army," his shattered leg carved in stone. His name appears nowhere on it.
-    - Credit: photograph · Wikimedia Commons · **LICENSE CHECK REQUIRED at fetch** (modern photo; resolve photographer + CC license from the file page and attribute as required; the `– Cropped.png` variant is the fallback)
+    - Credit: Manuela Michailescu · CC BY-SA 4.0 · Wikimedia Commons
+    - (IMAGE-AGENT RESULT 2026-06-12: license check resolved at fetch; attribution + license are mandatory in the shipped credit line.)
 
 11. COMMANDER · Gates: `File:HoratioGatesByStuart.jpeg` → `/war-img/rev-saratoga-gates.jpg`
     - Caption: Horatio Gates, painted by Gilbert Stuart. The hero of Saratoga: a former British major turned the Continental Army's great organizer, who took command a month before Freeman's Farm.
