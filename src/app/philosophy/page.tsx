@@ -1,6 +1,7 @@
-// Philosophy vertical landing stub — minimal on purpose. One live era (The Greeks) plus quiet
+// Philosophy vertical landing — minimal on purpose. One live era (The Greeks) plus quiet
 // coming-soon rows for the other four. Same light bronze-olive identity as the era reader.
-// Deliberately UNLINKED from any nav/home/search/registry: the pilot ships reachable by URL only.
+// Wired into the registry as the 5th vertical (TlKind 'philosophy', accent #a08423): the
+// ThreadBar / app home / mode switcher all land here. Not in the search index or feed yet.
 
 import type { Metadata } from 'next'
 import Link from 'next/link'

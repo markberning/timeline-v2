@@ -2,11 +2,11 @@ export type NavigatorRegion = 'near-east' | 'africa' | 'asia' | 'europe' | 'amer
 
 /**
  * The content vertical a timeline belongs to (Phase 2 mode-switcher).
- * `civ` is the original 100-civ corpus; war/art/music are the planned
- * verticals. Entries omit `kind` to mean `'civ'` — read it through
+ * `civ` is the original 100-civ corpus; war/art/music/philosophy are the
+ * later verticals. Entries omit `kind` to mean `'civ'` — read it through
  * `tlKind()`, never `tl.kind` directly, so the default lives in one place.
  */
-export type TlKind = 'civ' | 'war' | 'art' | 'music'
+export type TlKind = 'civ' | 'war' | 'art' | 'music' | 'philosophy'
 
 export interface NavigatorTl {
   id: string
@@ -45,29 +45,33 @@ export const REGION_COLORS: Record<NavigatorRegion, string> = {
 }
 
 // ── Content verticals (Phase 2 mode-switcher) ──
-// Order the four doors appear in the switcher.
-export const TL_KIND_ORDER: TlKind[] = ['civ', 'war', 'art', 'music']
+// Order the doors appear in the switcher.
+export const TL_KIND_ORDER: TlKind[] = ['civ', 'war', 'art', 'music', 'philosophy']
 
 // Per-thread accent colour, shared by the app-home launcher, the breadcrumb
 // mode crumb, and the switcher dropdowns.
-export const TL_KIND_ACCENT: Record<TlKind, string> = { civ: '#d97706', war: '#b44d3b', art: '#7c3aed', music: '#1d4ed8' }
+export const TL_KIND_ACCENT: Record<TlKind, string> = { civ: '#d97706', war: '#b44d3b', art: '#7c3aed', music: '#1d4ed8', philosophy: '#a08423' }
 
 export const TL_KIND_LABELS: Record<TlKind, string> = {
   civ: 'Civilizations',
   war: 'Wars',
   art: 'Art',
   music: 'Music',
+  philosophy: 'Philosophy',
 }
 
 // Which verticals have shipped. Civ/War/Art are fully live with real content
 // (War = the complete American Civil War — 46 battles, 17 themes, the war story,
-// cast arcs); Music is still a "coming soon" door. Flip a flag when a vertical
-// ships — the shell reads this, no other change needed.
+// cast arcs); Philosophy has its own landing page (/philosophy) plus one shipped
+// era, so it is live (never a coming-soon door); Music is still a "coming soon"
+// door. Flip a flag when a vertical ships — the shell reads this, no other
+// change needed.
 export const TL_KIND_LIVE: Record<TlKind, boolean> = {
   civ: true,
   war: true,
   art: true,
   music: false,
+  philosophy: true,
 }
 
 /** A timeline's vertical, with the corpus default applied (`undefined` ⇒ 'civ'). */

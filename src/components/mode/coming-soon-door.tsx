@@ -10,6 +10,9 @@ const TEASERS: Record<TlKind, string> = {
   war: 'The conflicts that redrew the map — read as an escalating spine, from spark to aftermath.',
   art: 'A time-stamped influence tree: tap any work to see what it borrowed from and what it set off.',
   music: 'Era by era, sampleable — hear what each age actually sounded like.',
+  // Live vertical (its own front door at /philosophy), so the door never renders;
+  // entry exists only to keep the Record exhaustive.
+  philosophy: '',
 }
 
 /** Placeholder front door for a vertical that hasn't shipped yet. */

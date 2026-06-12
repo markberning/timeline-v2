@@ -25,7 +25,7 @@ function alpha(hex: string, a: number): string {
   return `rgba(${parseInt(h.slice(0, 2), 16)}, ${parseInt(h.slice(2, 4), 16)}, ${parseInt(h.slice(4, 6), 16)}, ${a})`
 }
 
-const ACCENT: Record<TlKind, string> = { civ: '#d97706', war: '#b44d3b', art: '#7c3aed', music: '#1d4ed8' }
+const ACCENT: Record<TlKind, string> = { civ: '#d97706', war: '#b44d3b', art: '#7c3aed', music: '#1d4ed8', philosophy: '#a08423' }
 const STONE = '#8a7a66' // neutral accent for the home's own controls
 
 // Trim a long blurb to a word boundary so it fits the compact tile.
@@ -47,6 +47,7 @@ const THREADS: Thread[] = [
   { kind: 'war', tag: 'Every conflict we couldn’t put down.', href: '/war', live: true },
   { kind: 'art', tag: 'Forty thousand years of making things.', href: '/art', live: true },
   { kind: 'music', tag: 'What we listened to, in order.', href: '/music', live: false },
+  { kind: 'philosophy', tag: 'What we thought, and why it changed.', href: '/philosophy', live: true },
 ]
 
 // Gemini-generated flat emblems (public/thread-icons/{kind}.webp) — one per
@@ -131,7 +132,7 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
         <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12, padding: '16px 16px 12px' }}>
           <div style={{ minWidth: 0 }}>
             <h1 style={{ fontFamily: SERIF, fontSize: 30, fontWeight: 600, color: INK, lineHeight: 1.0, margin: 0, letterSpacing: -0.3 }}>Stuff Happened</h1>
-            <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 14, color: MUTED, marginTop: 6 }}>The story of everything, in four threads.</div>
+            <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 14, color: MUTED, marginTop: 6 }}>The story of everything, in five threads.</div>
           </div>
           <div style={{ flexShrink: 0, display: 'flex', alignItems: 'center', gap: 4 }}>
             <button onClick={() => setSearchOpen(true)} aria-label="Search" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', color: MUTED, padding: 4, display: 'flex' }}>

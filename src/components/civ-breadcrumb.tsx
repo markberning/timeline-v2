@@ -36,10 +36,10 @@ const CHIP = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
 const OPEN_BG = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
 const MENU_BORDER = '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)'
 // Thread colours, matching the app-home launcher rows + emblems.
-const THREAD_ACCENT: Record<string, string> = { civ: '#d97706', war: '#b44d3b', art: '#7c3aed', music: '#1d4ed8' }
+const THREAD_ACCENT: Record<string, string> = { civ: '#d97706', war: '#b44d3b', art: '#7c3aed', music: '#1d4ed8', philosophy: '#a08423' }
 
-const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
-const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/civ', war: '/war', art: '/art', music: '/music' }
+const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music', philosophy: 'Phil' }
+const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/civ', war: '/war', art: '/art', music: '/music', philosophy: '/philosophy' }
 
 function alpha(hex: string, a: number): string {
   const h = hex.replace('#', '')

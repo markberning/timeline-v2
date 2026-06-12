@@ -23,8 +23,8 @@ const BAR_BG = 'color-mix(in srgb, var(--background) 92%, transparent)'
 const BORDER = '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)'
 const MUTED = 'color-mix(in srgb, var(--foreground) 60%, transparent)'
 
-const SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
-const HREF: Record<TlKind, string> = { civ: '/civ', war: '/war', art: '/art', music: '/music' }
+const SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music', philosophy: 'Phil' }
+const HREF: Record<TlKind, string> = { civ: '/civ', war: '/war', art: '/art', music: '/music', philosophy: '/philosophy' }
 
 // Tint a thread emblem via CSS mask. The colour is grayscale (muted) unless the
 // thread is selected, in which case it reads in its accent hue.
@@ -58,6 +58,7 @@ export function ThreadBar() {
     : path.startsWith('/war') ? 'war'
     : path.startsWith('/art') ? 'art'
     : path.startsWith('/music') ? 'music'
+    : path.startsWith('/philosophy') ? 'philosophy'
     : (path.startsWith('/civ') || path.startsWith('/globe') || path.startsWith('/navigator') || path.startsWith('/classic')) ? 'civ'
     : 'home'
 
