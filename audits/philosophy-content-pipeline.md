@@ -5,12 +5,11 @@ The gated process for producing a Philosophy narrative — the analog of the civ
 `audits/art-content-pipeline.md`, and `audits/music-content-pipeline.md`, re-pointed
 at philosophy's failure modes.
 
-**Status: READY, NOT YET RUN.** The Philosophy vertical does not exist yet — no
-routes, no content. This doc exists so the first philosophy article is gated from
-the START, never author-then-hope (the mistake the Kahnweiler work and the art
-"Lay of the land" prologue both made — see `audits/art-content-pipeline.md` proof
-runs 2 and 6). **No philosophy article ships without running these gates.** When
-the first one is built, log it as Proof run 1 at the bottom and flip this to ACTIVE.
+**Status: ACTIVE — run once (2026-06-12, "The Greeks" era read, gated from the
+start; see Proof run 1 at the bottom).** This doc was written BEFORE the first
+article so the vertical never had an ungated draft (the mistake the Kahnweiler work
+and the art "Lay of the land" prologue both made — see `audits/art-content-pipeline.md`
+proof runs 2 and 6). **No philosophy article ships without running these gates.**
 
 ## v1 scope (agreed 2026-06-12)
 **Western philosophy, Thales → Nietzsche.** A clean, complete arc on its own; the
@@ -251,3 +250,44 @@ born-verified text + standard image rules; genius-myth/women's-erasure/
 appropriation/Eurocentric → anachronism/strawman/lone-genius-and-transmission/
 Western-overclaim/posthumous-misuse; the beautiful-anecdote trap → the apocryphal
 quote + the potted summary (with the Diogenes Laertius flag standing).
+
+## Proof run 1 — DONE (2026-06-12) — "The Greeks" era read (kind: ERA, 7 ch)
+The vertical's FIRST article, gated from the start (no ungated-draft relapse — the
+doc predates the article by hours). Full run via background agents: fact pack →
+Opus author (+ Fact ledger, zero [VERIFY] left unresolved) → 5 Sonnet critics in
+parallel → Opus reviser → targeted r2 fact-check on all new material → coordinator
+gates 6–7 → provisional reader. Artifacts in `audits/philosophy-pipeline/greeks-*`.
+The gates earned their keep on the first pass:
+- **Fact-checker** — near-clean draft (every quote matched its verified pack entry
+  word-for-word; 0 blacklist leaks), but caught: Protagoras out-earned "Phidias or
+  any ten other sculptors" (*Meno* 91d), not "ten sculptors"; Zeno's TORTOISE is
+  Simplicius' tradition ~1,000 years post-Zeno (Aristotle says "the slowest
+  runner") → now a framed aside; one Diogenes anecdote outside its legend-frame.
+  The r2 pass caught "translated Aristotle" for al-Fārābī/Avicenna/Averroes (they
+  studied existing Arabic translations and wrote commentaries; corrected).
+- **Storytelling/understanding** — ch7 graded NEEDS WORK (no worked example, dropped
+  throughline) → rebuilt: opens on the 155 BC Carneades embassy, walks the Stoic
+  dichotomy + Epicurean death argument as explicit our-illustrations, closes by
+  resolving the hook's three questions; the courage elenchus extended one move to
+  land the method's "only strips, never builds" scandal.
+- **Comprehensiveness** — caught the SKEPTICS dropped entirely (4th Hellenistic
+  school; their absence also broke ch7's Cicero setup), Plotinus absent beyond a
+  label, the silent Democritus→Epicurus link, thin Chrysippus.
+- **Clarity** — 9 gloss gaps incl. "philosophy" itself never defined; the trial of
+  Socrates unintelligible without civic-religion-as-law; BC arithmetic unexplained.
+- **Framing** — 3 chapters TILTED: Arabic transmission un-named (now al-Fārābī,
+  Avicenna, Averroes with what they did), Hipparchia under-framed (now carries the
+  DL VI.96 own-chapter evidence), Democritus-atoms cheer reordered brake-first,
+  Protagoras' measure doctrine hedged as Plato's packaging.
+- **Cross-gate rule held**: the reviser's new Plotinus passage shipped with [VERIFY]
+  tags → targeted r2 fact-check verified all three (dates, system, Augustine
+  connection), wrote them into the pack as §11, and only then did the coordinator
+  clear the tags and name Augustine.
+- **Gates 6–7 (coordinator)** — 6 PD images load-checked by the coordinator's own
+  hand; the break block ships TEXT-ONLY (no honest "before" image exists; a missing
+  image beats a decorative one); coherence clean (two Zenos disambiguated both
+  directions, ch2 Anaxagoras setup pays off at the ch3 trial).
+- **Integration** — provisional reader `/philosophy/greeks` + `/philosophy` stub
+  (the-parties pattern, bronze-olive identity), UNLINKED (URL-only) pending the
+  vertical's real front-door design. Faithful transport machine-verified (all 67
+  paragraphs byte-identical to the gated md). tsc + eslint clean; both routes 200.
