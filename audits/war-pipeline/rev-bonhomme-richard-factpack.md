@@ -172,3 +172,25 @@
 12. **Pearson nailing his colors** — MED tradition; "by the accounts" framing only. His striking them in person is solid.
 13. **"Terror of the English" nickname** and any Dutch song lyrics — popular-account tier; attribute loosely or omit.
 14. **Sword-ceremony dialogue and the "make a lord of him" quip** — legend tier (Sec. 7b/7c); label or omit, never narrate as fact.
+
+---
+
+## PACK CORRECTIONS APPENDIX
+
+*Added at reconciliation (2026-06-12) by the reconcile+revise editor, recording the
+fact critic's web-verified correction to one inherited pack error. This does not edit the
+body of the pack above; it is the authoritative override for the FINAL. (Wave-3
+Ticonderoga / wave-4 Saratoga precedent: pack errors caught at the critic gate are logged
+here, and the FINAL follows the appendix, not the original §-line.)*
+
+**PC1 · Richard Dale's age at the battle, "23" → "22."**
+The pack §3 bio (Dale) reads "Virginia-born first lieutenant of the *Richard*, **23** at
+the battle," and §1's signature material and the cross-checks carry the same figure. This
+is an arithmetic error inherited from a birth-date-less source. **Richard Dale was born
+November 6, 1756**; the battle was September 23, 1779, so he was 22 years, 10 months, and
+17 days old at Flamborough Head. He did not turn 23 until six weeks after the action.
+The fact critic web-verified the November 6, 1756 birth date (Wikipedia, "Richard Dale
+(naval officer)") and the September 23, 1779 battle date, and confirmed the interval by
+arithmetic. **Correction:** read "twenty-two at the battle" (and "22") wherever the age
+appears (the Dale commander bio and the fact ledger on the FINAL). Authority: fact-critic
+verdict `rev-bonhomme-richard-critic-fact.md` B1 (web spot-check #1).

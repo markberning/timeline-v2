@@ -176,3 +176,46 @@
 11. **Clinton's departure date**: June 5 (most) vs June 8 — "early June."
 12. **Clinton's "few men in South Carolina…" boast**: secondary-universal, primary chain unverified this session — paraphrase only (§7.10).
 13. **Lincoln's exchange**: November 1780, for Maj. Gen. William Phillips [HIGH per the standard biographies]; the fuller cartel covering the rank-and-file came mid-1781.
+
+## PACK CORRECTIONS APPENDIX
+
+*Appended 2026-06-12 by the reconcile+revise editor for `rev-charleston-final.md`, following
+the Ticonderoga precedent: errors found during the critic gates are logged here so the §-body
+above is never silently overwritten and a future reviser sees the correction. The final
+narrative uses these corrected values; the §-body figures they supersede are flagged below.*
+
+- **PC1 — Washington's Yorktown quote: "Charlestown" (one word), not "Charles Town."**
+  §7.6 renders the Oct 18, 1781 Washington-to-Cornwallis line as "...the Garrison of Charles
+  Town" and vouches it "byte-exact (LOC/Founders)." The Founders Online primary text
+  (founders.archives.gov/documents/Washington/99-01-02-07192) reads the one-word spelling
+  **"Charlestown."** The rest of the quote is correct. The final uses "Charlestown."
+  [Source: fact-critic B1, web-confirmed against Founders Online.]
+
+- **PC2 — Woodford's march was ~800 miles Morristown-to-Charleston, not ~500.** §3's Woodford
+  bio gives "a ~500-mile, 28-day march from Morristown." The ~500-mile figure is the
+  **Petersburg-to-Charleston leg only**; the full Morristown-to-Charleston distance is
+  approximately **800 miles**. (The men marched down from Morristown to Petersburg first.)
+  The final uses "a march of some 800 miles from Morristown" in the sides panel, the Woodford
+  bio, the S1 prose, and the fact ledger. [Source: fact-critic B2, web-confirmed.]
+
+- **PC3 — Ewald's diary reads "charred arms and legs," with no "even to a veteran."** §7.3 and
+  §5-explosion correctly give "charred arms and legs scattered in every direction… a deplorable
+  sight." The draft had drifted to "charred limbs" and added an interpolation, "a deplorable
+  sight even to a veteran," that is not in the Ewald text (Tustin translation, Yale UP 1979,
+  p. 239; the diary's closing phrase is "Never in my life… a more deplorable sight"). The final
+  restores "charred arms and legs scattered in every direction, a deplorable sight" and drops
+  "even to a veteran." [Source: fact-critic B3, web-confirmed via the Journal of the American
+  Revolution sourced article.]
+
+- **PC-note (Moultrie's rank) — "soon major general" overstates the timeline.** §3's Moultrie
+  bio says "a brigadier (soon major general)." His promotion to major general came in **October
+  1782**, more than two years after Charleston, during his captivity/parole. The final keeps the
+  bio header's "Brig. (later Maj.) Gen." form; read "later," not "soon." [Source: fact-critic P2,
+  pack-level flag, no narrative impact.]
+
+- **POLISH-note (debris distance) — the "quarter-mile" figure is untethered from the named
+  eyewitness diaries.** §5-explosion's "Bodies and parts were thrown a quarter-mile" does not
+  appear in the four named eyewitness sources (Ewald, Hinrichs, Peebles, Moultrie); it traces to
+  a later anniversary narrative. The final drops the specific distance ("flung across the
+  streets"). The well-attested dramatic detail in the eyewitness chain is the corpse against the
+  Independent Church steeple, which the final omits for compression. [Source: fact-critic P1.]
