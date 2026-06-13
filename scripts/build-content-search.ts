@@ -48,7 +48,7 @@ const ART_PROSE_KEYS = new Set([
 ])
 
 interface Chapter { number: number; title: string; sentences: string[]; sectionId?: string }
-interface Entry { tlId: string; label: string; region: string; color: string; type: 'war' | 'art'; theatre: string; href: string; chapters: Chapter[] }
+interface Entry { tlId: string; label: string; region: string; color: string; type: 'war' | 'art' | 'philosophy'; theatre: string; href: string; chapters: Chapter[] }
 
 function walkFiles(dir: string, out: string[] = []): string[] {
   for (const name of readdirSync(dir)) {
@@ -193,6 +193,52 @@ async function artEntries(): Promise<Entry[]> {
   return out
 }
 
+const PHI_ACCENT = '#a08423'
+
+async function philosophyEntries(): Promise<Entry[]> {
+  const greeksModule = await import('../src/app/philosophy/greeks/narrative')
+  type PhiNarr = typeof greeksModule.GREEKS
+  type PhiChapter = PhiNarr['chapters'][number]
+  type PhiBlock = PhiChapter['blocks'][number]
+
+  const { GREEKS } = greeksModule
+  const { FAITH_REASON } = await import('../src/app/philosophy/faith-reason/narrative')
+  const { RATIONALISTS_EMPIRICISTS } = await import('../src/app/philosophy/rationalists-empiricists/narrative')
+  const { KANT_GERMANS } = await import('../src/app/philosophy/kant-germans/narrative')
+  const { NINETEENTH_CENTURY } = await import('../src/app/philosophy/nineteenth-century/narrative')
+
+  const eras: { eraId: string; narr: PhiNarr }[] = [
+    { eraId: 'greeks', narr: GREEKS },
+    { eraId: 'faith-reason', narr: FAITH_REASON },
+    { eraId: 'rationalists-empiricists', narr: RATIONALISTS_EMPIRICISTS },
+    { eraId: 'kant-germans', narr: KANT_GERMANS },
+    { eraId: 'nineteenth-century', narr: NINETEENTH_CENTURY },
+  ]
+
+  const out: Entry[] = []
+  for (const { eraId, narr } of eras) {
+    const chapters: Chapter[] = narr.chapters.map((ch: PhiChapter) => {
+      const sentences: string[] = ch.blocks
+        .filter((b: PhiBlock): b is { p: string } => 'p' in b)
+        .flatMap((b: { p: string }) => toSentences(b.p))
+      return { number: ch.num, title: ch.title, sentences }
+    })
+    const totalSentences = chapters.reduce((n: number, c: Chapter) => n + c.sentences.length, 0)
+    if (!totalSentences) continue
+    out.push({
+      tlId: `philosophy-${eraId}`,
+      label: narr.title,
+      region: '',
+      color: PHI_ACCENT,
+      type: 'philosophy',
+      theatre: 'Philosophy',
+      href: `/philosophy/${eraId}`,
+      chapters,
+    })
+  }
+  return out
+}
+
 async function main() {
   const files = walkFiles(WAR_ROOT).filter(f => readFileSync(f, 'utf-8').includes('import { BattleSectionReader'))
   const entries: Entry[] = []
@@ -224,15 +270,16 @@ async function main() {
   }
 
   const art = await artEntries()
+  const philosophy = await philosophyEntries()
 
-  // Merge: keep civ entries (no `type`), drop any prior war/art, append fresh.
+  // Merge: keep civ entries (no `type`), drop any prior war/art/philosophy, append fresh.
   const existing: any[] = existsSync(INDEX_PATH) ? JSON.parse(readFileSync(INDEX_PATH, 'utf-8')) : []
   const civ = existing.filter(e => !e.type)
-  const merged = [...civ, ...entries, ...art]
+  const merged = [...civ, ...entries, ...art, ...philosophy]
   writeFileSync(INDEX_PATH, JSON.stringify(merged))
   const count = (arr: Entry[]) => arr.reduce((n, e) => n + e.chapters.reduce((m, c) => m + c.sentences.length, 0), 0)
   const sizeMB = (Buffer.byteLength(JSON.stringify(merged)) / 1024 / 1024).toFixed(1)
-  console.log(`[content-search] +${entries.length} war (${count(entries)} sent.) +${art.length} art (${count(art)} sent.) → ${INDEX_PATH} (${civ.length} civ + ${entries.length} war + ${art.length} art, ${sizeMB} MB)`)
+  console.log(`[content-search] +${entries.length} war (${count(entries)} sent.) +${art.length} art (${count(art)} sent.) +${philosophy.length} philosophy (${count(philosophy)} sent.) → ${INDEX_PATH} (${civ.length} civ + ${entries.length} war + ${art.length} art + ${philosophy.length} philosophy, ${sizeMB} MB)`)
 }
 
 main()

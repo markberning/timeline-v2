@@ -14,8 +14,8 @@ interface SearchEntry {
   tlId: string
   label: string
   region: string
-  // war/art entries carry these; civ entries omit them (type defaults to civ)
-  type?: 'war' | 'art' | 'music'
+  // war/art/philosophy entries carry these; civ entries omit them (type defaults to civ)
+  type?: 'war' | 'art' | 'music' | 'philosophy'
   color?: string   // explicit accent (war theatre / art); else REGION_COLORS[region]
   href?: string    // base page href for non-civ entries
   theatre?: string // section label shown beside the title (e.g. "Eastern Theatre")
@@ -26,7 +26,7 @@ interface SearchResult {
   tlId: string
   label: string
   region: string
-  type?: 'war' | 'art' | 'music'
+  type?: 'war' | 'art' | 'music' | 'philosophy'
   color?: string
   href?: string
   theatre?: string
@@ -190,7 +190,7 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
             autoFocus
             value={query}
             onChange={e => setQuery(e.target.value)}
-            placeholder="Search civilizations, wars & art..."
+            placeholder="Search civilizations, wars, art & philosophy..."
             className="flex-1 bg-transparent text-[16px] font-[family-name:var(--font-lora)] italic outline-none placeholder:text-foreground/30"
           />
           {query && (

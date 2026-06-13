@@ -85,6 +85,24 @@ function musicPool(): FeedItem[] {
   return [...MUSIC_SOON]
 }
 
+const PHI_ERAS: { id: string; title: string; hook: string }[] = [
+  { id: 'greeks', title: 'The Greeks', hook: 'From Thales explaining the world without gods to the Stoics teaching you to meet your death — the thousand-year argument that started Western thought.' },
+  { id: 'faith-reason', title: 'Faith meets reason', hook: 'Augustine, Aquinas, and Ockham wrestle Christianity onto the Greek logic frame — and one small razor changes everything.' },
+  { id: 'rationalists-empiricists', title: 'The rationalists and the empiricists', hook: 'Descartes rebuilds knowledge from scratch; Hume burns the scaffolding. The two sides that Kant will have to reconcile.' },
+  { id: 'kant-germans', title: 'Kant and the Germans', hook: "Kant draws the mind's limits and invents modern ethics; Hegel turns history itself into philosophy." },
+  { id: 'nineteenth-century', title: 'The nineteenth century', hook: "Mill, Marx, Nietzsche, and Darwin all take aim at the Enlightenment's optimism from different angles." },
+]
+
+function philosophyPool(): FeedItem[] {
+  return PHI_ERAS.map(e => ({
+    kind: 'philosophy' as const,
+    type: 'Philosophy era',
+    title: e.title,
+    blurb: e.hook,
+    href: `/philosophy/${e.id}`,
+  }))
+}
+
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr]
   for (let i = a.length - 1; i > 0; i--) {
@@ -102,7 +120,7 @@ function shuffle<T>(arr: T[]): T[] {
 export function sampleFeed(n = 8, chapters: FeedItem[] = []): FeedItem[] {
   // chapters are built server-side (their data is fs-only) and passed in as a
   // ready-made pool; they ride as their own lane so they're always in the mix.
-  const pools = [shuffle(civPool()), shuffle(chapters), shuffle(warPool()), shuffle(artPool()), shuffle(musicPool())]
+  const pools = [shuffle(civPool()), shuffle(chapters), shuffle(warPool()), shuffle(artPool()), shuffle(musicPool()), shuffle(philosophyPool())]
   const out: FeedItem[] = []
   let i = 0
   while (out.length < n && pools.some(p => p.length)) {
