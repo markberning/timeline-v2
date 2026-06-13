@@ -79,8 +79,8 @@ export const REVOLUTION: WarConfig = {
     { id: 'rev-monmouth', name: 'Monmouth', year: 1778, m: 6, mo: 'Jun', place: 'Freehold, NJ', theatre: 'rev-battles', region: 'middle', size: 'm', href: '/war-revolution/battles/monmouth', img: '/war-img/rev-monmouth-card.jpg' },
     { id: 'rev-vincennes', name: 'Vincennes', year: 1779, m: 2, mo: 'Feb', place: 'Vincennes, IN', theatre: 'rev-battles', region: 'wider', size: 's', href: '/war-revolution/battles/vincennes', img: '/war-img/rev-vincennes-card.jpg' },
     { id: 'rev-stony-point', name: 'Stony Point', year: 1779, m: 7, mo: 'Jul', place: 'Stony Point, NY', theatre: 'rev-battles', region: 'middle', size: 's', href: '/war-revolution/battles/stony-point', img: '/war-img/rev-stony-point-card.jpg' },
-    { id: 'rev-bonhomme-richard', name: 'Bonhomme Richard vs. Serapis', year: 1779, m: 9, mo: 'Sep', place: 'Off Flamborough Head, England', theatre: 'rev-battles', region: 'wider', size: 'm' },
-    { id: 'rev-savannah', name: 'Savannah', year: 1779, m: 10, mo: 'Oct', place: 'Savannah, GA', theatre: 'rev-battles', region: 'south', size: 'm' },
+    { id: 'rev-bonhomme-richard', name: 'Bonhomme Richard vs. Serapis', year: 1779, m: 9, mo: 'Sep', place: 'Off Flamborough Head, England', theatre: 'rev-battles', region: 'wider', size: 'm', href: '/war-revolution/battles/bonhomme-richard', img: '/war-img/rev-bonhomme-richard-card.jpg' },
+    { id: 'rev-savannah', name: 'Savannah', year: 1779, m: 10, mo: 'Oct', place: 'Savannah, GA', theatre: 'rev-battles', region: 'south', size: 'm', href: '/war-revolution/battles/savannah', img: '/war-img/rev-savannah-card.jpg' },
     { id: 'rev-charleston', name: 'Charleston', year: 1780, m: 5, mo: 'May', place: 'Charleston, SC', theatre: 'rev-battles', region: 'south', size: 'm' },
     { id: 'rev-camden', name: 'Camden', year: 1780, m: 8, mo: 'Aug', place: 'Camden, SC', theatre: 'rev-battles', region: 'south', size: 'm' },
     { id: 'rev-kings-mountain', name: "Kings Mountain", year: 1780, m: 10, mo: 'Oct', place: 'York Co., SC', theatre: 'rev-battles', region: 'south', size: 'l' },
@@ -182,6 +182,9 @@ export const REVOLUTION: WarConfig = {
         'rev-ticonderoga': [43.84, -73.39], 'rev-bennington': [42.93, -73.30], 'rev-brandywine': [39.87, -75.59],
         'rev-saratoga': [43.01, -73.64], 'rev-germantown': [40.04, -75.18], 'rev-monmouth': [40.27, -74.32],
         'rev-vincennes': [38.68, -87.53],
+        // off the seaboard frame (the North Sea, off Flamborough Head): clipped by the
+        // viewBox exactly like Vincennes's off-frame frontier dot; kept for roster parity
+        'rev-bonhomme-richard': [54.12, -0.07],
         'rev-stony-point': [41.24, -73.97], 'rev-savannah': [32.08, -81.09], 'rev-charleston': [32.78, -79.93],
         'rev-camden': [34.25, -80.61], 'rev-kings-mountain': [35.14, -81.38], 'rev-cowpens': [35.13, -81.81],
         'rev-guilford': [36.13, -79.85], 'rev-yorktown': [37.24, -76.51],
