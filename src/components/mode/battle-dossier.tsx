@@ -13,6 +13,7 @@ import { SearchOverlay } from '@/components/chronology/search-overlay'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import { warForRoute } from '@/lib/wars/registry'
 import { CIVIL_WAR } from '@/lib/wars/civil-war'
+import { MENU } from '@/components/mode/war-header'
 import { DottedMap, type Frame, type StateSpec, type Dot, type LakeSpec, type FreeLabel } from '@/components/mode/dotted-map'
 
 // No-portrait fallback initials for a commander card with no portrait and no side flag
@@ -38,12 +39,6 @@ const I = {
   moon: <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" /></svg>,
 }
 
-const MENU = [
-  { k: 'civ', n: 'Civ', s: 'Civilizations', href: '/' },
-  { k: 'war', n: 'War', s: 'American Civil War', href: '/war' },
-  { k: 'art', n: 'Art', s: 'Movements & works', href: '/art' },
-  { k: 'music', n: 'Music', s: 'Eras & composers', href: '/music' },
-]
 
 // ---- data shape (every battle page hands one of these in) ----
 export type Theatre = 'east' | 'west' | 'tmis' | 'naval'

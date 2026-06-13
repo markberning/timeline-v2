@@ -22,7 +22,9 @@ export const WAR_ICONS = {
   moon: <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" /></svg>,
 }
 
-const MENU = [
+// Shared vertical menu (single source of truth — also used by the battle dossier so
+// the two headers can't drift, e.g. philosophy missing from one of them).
+export const MENU = [
   { k: 'civ', n: 'Civ', s: 'Civilizations', href: '/civ' },
   { k: 'war', n: 'War', s: 'Battles & causes', href: '/war' },
   { k: 'art', n: 'Art', s: 'Movements & works', href: '/art' },
