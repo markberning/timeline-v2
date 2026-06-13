@@ -1061,3 +1061,224 @@ vs. "later" for each.
     distinguish Descartes' two-substance dualism from Spinoza's one-substance-
     many-attributes view; use "substance dualism" for Descartes and be precise
     about Spinoza's position to avoid confusion.
+
+---
+
+## §11 — r2 additions (verified)
+
+**Added:** 2026-06-12 by r2 fact-checker (Sonnet 4.6, web-enabled).
+**Scope:** Claims introduced by the Opus REVISER in the r1→r2 revision pass and
+tagged [VERIFY]; all confirmed against named web sources on this date. Every item
+below is safe to ship without further verification. One MUST-FIX (Hume revision
+direction) is recorded here with the correct fact; the author must apply the fix
+before shipping.
+
+---
+
+### §11.1 — Scientific revolution backdrop (Hook)
+
+**Claim:** Copernicus moved the earth from the center (heliocentric proposal,
+*De revolutionibus* 1543); Galileo's telescopic observations and law of falling
+bodies broke Aristotelian physics; the new picture was of a universe running on
+matter, motion, and mathematics; by the 1630s the old certainties were rubble.
+
+**Status:** CONFIRMED
+
+**Sources:** Britannica (Galileo Galilei); SEP (Galileo Galilei, 2026); World
+History Encyclopedia (Astronomy in the Scientific Revolution); NASA Earth
+Observatory (Orbits History).
+
+**Notes:** Galileo's *Two New Sciences* (1638, falling bodies) came out one year
+after the *Discourse* (1637), but the results were established and circulated
+earlier. The backdrop framing is accurate at era altitude.
+
+---
+
+### §11.2 — Ockham → Descartes' demon as ancestral link (Break block)
+
+**Claim:** Ockham's voluntarism (God free to do anything not self-contradictory,
+no necessary connections guaranteed) is the medieval ancestor of Descartes'
+deceiving-God thought experiment.
+
+**Status:** CONFIRMED — as ancestry/parallel, not documented direct influence
+(the draft correctly frames it as "ancestor in the family line," not a causal
+reading chain)
+
+**Sources:** SEP (William of Ockham); "Overcoming Omnipotence: The Crisis of
+Divine Freedom in Ockham and Descartes" (Manchester University, Naragon / Snell);
+Wikipedia (Evil demon).
+
+**Key quotation from secondary source:** "It is often said that if Descartes is
+the father of modernism, then William of Ockham is its grandfather."
+
+**Framing rule:** ship as structural ancestor/parallel, not as documented influence.
+
+---
+
+### §11.3 — Malebranche occasionalism (Ch 3)
+
+**Claim:** Nicolas Malebranche's occasionalism holds that God is the direct cause
+of every apparent interaction between mind and body — and more broadly, that God
+is the only true causal agent and finite things have no genuine causal power.
+
+**Status:** CONFIRMED
+
+**Sources:** SEP (Nicolas Malebranche); SEP (Occasionalism); IEP (Occasionalism);
+Britannica (Malebranche and Occasionalism).
+
+**Key fact:** Malebranche developed occasionalism as a solution to the Cartesian
+mind-body interaction problem — exactly the context the draft places it in. The
+draft's parenthetical ("nothing in the world truly causes anything else") is also
+accurate: finite causal efficacy is zero on Malebranche's view.
+
+---
+
+### §11.4 — Locke and the Royal African Company (Ch 4)
+
+**Claim:** Locke was a shareholder in the Royal African Company, the English
+crown's monopoly on the Atlantic slave trade.
+
+**Status:** CONFIRMED
+
+**Sources:** Jacobin (Locke Against Freedom, 2015); Canopy Forum (Locke: The
+Slave Trader, 2025); Ingenta / Nazarbayev University research paper (John Locke's
+Royal African Company and Bahamas Adventurer Slave Stock, *History of Political
+Thought*, 2025); SEP (Locke, notes).
+
+**Detail:** Shares were acquired through his work for the Earl of Shaftesbury and
+the Lords Proprietors of Carolina; the 2025 study documents the share transfers in
+detail (paid partly in RAC shares as compensation). He divested around 1675.
+
+---
+
+### §11.5 — Fundamental Constitutions of Carolina (Ch 4)
+
+**Claim:** Locke had a hand in drafting the Fundamental Constitutions of Carolina
+(1669), which explicitly entrenched hereditary slavery. Article 110 reads: "Every
+Freeman of Carolina shall have absolute Power and Authority over his Negro Slaves,
+of what Opinion or Religion soever."
+
+**Status:** CONFIRMED — with exact wording recorded
+
+**Sources:** slaverylawpower.org (Fundamental Constitutions of Carolina 1669);
+Wikipedia (Fundamental Constitutions of Carolina); Econlib (text); multiple
+secondary sources on Locke-Carolina connection.
+
+**Exact wording of Article 110:** "Every Freeman of Carolina shall have absolute
+Power and Authority over his Negro Slaves, of what Opinion or Religion soever."
+(Note: original text capitalizes Power, Authority, Negro, Slaves.)
+
+**The draft quotes it as:** "absolute power and authority over his negro slaves" —
+a fair partial quotation; the trailing clause "of what Opinion or Religion soever"
+is omitted but not misrepresented.
+
+**Scholarly caution:** There is ongoing academic debate about the precise extent
+of Locke's personal contribution vs. Shaftesbury's to specific articles; his
+involvement in drafting the document is not in dispute, but the degree of
+responsibility for the slavery clause specifically remains contested. The draft's
+framing ("had a hand in drafting") accurately reflects the scholarly consensus
+without overclaiming sole authorship.
+
+---
+
+### §11.6 — Francis Bacon as empiricist forerunner (Ch 5)
+
+**Claim:** Francis Bacon (1561–1626) named the empiricist inductive method
+("start from observation, not from first principles") two generations before Locke.
+
+**Status:** CONFIRMED
+
+**Sources:** SEP (Francis Bacon); Britannica (Francis Bacon); *Novum Organum*
+(1620) — Bacon's major methodological work explicitly proposing systematic
+induction against Aristotelian deduction from first principles.
+
+**Precise framing:** The draft says Bacon "named" the method, not "invented
+empiricism" — this is the right altitude. Bacon articulated the inductive/
+observational approach as a systematic method; he did not provide a full theory of
+mind (which Locke added).
+
+---
+
+### §11.7 — Hume "Of National Characters" racist footnote (Ch 6)
+
+**Claim (corrected):** Hume added a footnote to his essay "Of National Characters"
+in 1753 (not in the original 1748 publication) asserting that he was "apt to suspect
+the negroes, and in general all the other species of men… to be naturally inferior
+to the whites." A later revision (1777, posthumous) narrowed the claim — removing
+"and in general all the other species of men" — and softened one phrase ("scarcely
+ever was" vs. "never was"), but retained the core anti-Black racial hierarchy claim.
+
+**Status:** CONFIRMED — with MUST-FIX noted
+
+**Sources:** David Hume Institute blog (full timeline); davidhume.org (full text
+of "Of National Characters," NC 20n6.1); Siris blog (full textual history across
+editions); ResearchGate (Hume's Revised Racism Revisited, MUSE 383246).
+
+**MUST-FIX for the draft:** The r2 draft says Hume "sharpened rather than softened"
+the footnote in a later revision. This is WRONG. The 1777 revision narrowed the
+scope (dropped all non-white groups except Black people) and softened one phrase
+("scarcely ever" replacing "never"). The draft must be corrected. See
+§1 Tag 6 of the gate-fact-r2 for the one-sentence fix.
+
+**Verified wording of the 1753 footnote (the form quoted in the draft):**
+"I am apt to suspect the negroes, and in general all the other species of men
+(for there are four or five different kinds) to be naturally inferior to the whites."
+
+**Publication notes:**
+- Essay first published: 1748 (footnote NOT present)
+- Footnote first added: 1753 edition
+- Final revision: 1777 (published posthumously)
+- Published under Hume's own name, in print, not a private letter
+
+---
+
+### §11.8 — Du Châtelet and the vis viva dispute (Ch 7)
+
+**Claim:** In the vis viva dispute, the Newtonian/Cartesian camp held the conserved
+quantity was mv (mass times velocity) and the Leibnizian camp held it was mv²
+(mass times velocity squared). Du Châtelet sided with the Leibnizians, against the
+prevailing consensus, and she turned out to be right: the squared quantity is what
+we now call kinetic energy.
+
+**Status:** CONFIRMED
+
+**Sources:** ResearchGate (Vis Viva Dispute, 1959 article by Iltis / Costabel);
+ResearchGate / SpringerLink (Leibniz's Quantity of Force: A 'Heresy'? Emilie du
+Châtelet's *Institutions* in the Context of the Vis Viva Controversy); Wikipedia
+(Kinetic energy); IOP (History of energy); Urania (du Châtelet scientific works).
+
+**Key detail:** The Dutch physicist Willem 's Gravesande experimentally demonstrated
+the mv² relationship around 1720 using balls dropped into clay. Du Châtelet drew on
+'s Gravesande's experimental work in her *Institutions de Physique* (1740) to argue
+for the Leibnizian position. The ½ coefficient (kinetic energy = ½mv²) was added
+by Coriolis in 1829; the squared-velocity relationship du Châtelet defended is what
+was vindicated.
+
+**Framing rule:** the draft correctly describes du Châtelet as making "an independent
+intervention in an open argument" — she was not merely a transmitter. Her
+*Institutions* synthesized the experimental and metaphysical arguments for mv² in
+a way that advanced the debate.
+
+---
+
+### §11.9 — Rousseau forward-pointer (born-verified, for coordinator)
+
+**Proposed one-sentence pointer:**
+"(The social-contract tradition did not end with Locke. Jean-Jacques Rousseau,
+1712 to 1778, would take it in a more radical direction in *The Social Contract*
+of 1762, grounding legitimate authority in what he called the 'general will' and
+carrying the argument toward the French Revolution — that is the next era's story.)"
+
+**Status:** CONFIRMED — all facts verified
+
+**Sources:** Britannica (The Social Contract); tutor2u (Rousseau 1712–1778);
+EBSCO Research Starters (Rousseau Publishes the Social Contract).
+
+**Verified facts:**
+- Rousseau dates 1712–1778 ✅
+- *The Social Contract* published 1762 ✅
+- "General will" as his central concept ✅
+- Link to the French Revolution ✅
+
+**Placement note:** Must be placed BEFORE the Locke-slavery close, not after it,
+to preserve the weight of that paragraph.

@@ -251,6 +251,54 @@ appropriation/Eurocentric → anachronism/strawman/lone-genius-and-transmission/
 Western-overclaim/posthumous-misuse; the beautiful-anecdote trap → the apocryphal
 quote + the potted summary (with the Diogenes Laertius flag standing).
 
+## Proof runs 3–5 — DONE (2026-06-12) — eras 3, 4, 5 (the v1 arc COMPLETE)
+The remaining three eras were built in ONE overlapping parallel sweep (coordinator =
+the main loop, all stages as background agents), completing the v1 roster (Western,
+Thales→Nietzsche). Per era: fact-pack agent (web, born-verified quotes, HEAD-checked
+images) → Opus author (+ ledger) → 5 Sonnet critics in parallel → coordinator
+reconcile → Opus reviser ([VERIFY] tags on all new material) → targeted r2
+fact-check → coordinator clears tags + runs gates 6–7 → reader build (machine-verified
+transport) → ship. All three: tsc+eslint clean, transport 1:1, routes 200.
+- **Era 3 "The rationalists and the empiricists"** (Descartes→Spinoza/Leibniz//Hobbes/
+  Locke→Berkeley→Hume, 7 ch). Gates caught: the cogito-locus trap (Latin slogan is
+  *Principles*/*Discourse*, the *Meditations* says "I am, I exist"), Hobbes "every man,
+  against every man" (not "war of all against all"), Locke "white paper" (not "tabula
+  rasa"), Berkeley steelmanned then LABELED idealism/immaterialism (the clarity gate
+  caught the missing label). Honest-warts axis added **Locke's Royal-African-Company
+  investment + the Carolina slavery clause** and **Hume's 1753 "Of National Characters"
+  racist footnote** — and the r2 fact-check CAUGHT the reviser's own error ("sharpened"
+  → the 1777 revision actually narrowed/softened it; added 1753 not 1748). Elisabeth of
+  Bohemia (the interaction objection) + du Châtelet (independent *vis viva* stance) ship
+  as genuine thinkers, paraphrase-only (no PD English). Coordinator-placed Rousseau
+  forward-pointer.
+- **Era 4 "Kant and the Germans"** (Kant→Hegel→Schopenhauer, 6 ch). The era's
+  tortoise-class catch = **"thesis–antithesis–synthesis" is NOT Hegel's** (Fichte's
+  triad, popularized by Chalybäus 1837, debunked by Mueller 1958/Kaufmann) — staged
+  like era-2's Ockham's razor. Key passage = Kant's "the starry heavens above and the
+  moral law within" pinned to the **Abbott PD wording** (coordinator caught that the
+  popular "above me/within me" is Beck's copyrighted text). Framing adds: Hegel's
+  stature set before Schopenhauer's insults, Fichte's recognition problem credited as
+  the master-slave engine, **Dara Shukoh** named (not "a Mughal prince"), and **Kant's
+  documented race-hierarchy writings** named honestly (Kleingeld). r2 fact-check: PASS,
+  0 must-fix, all 11 new claims confirmed.
+- **Era 5 "The nineteenth century"** (Mill+Harriet Taylor→Kierkegaard→Marx→Nietzsche,
+  6 ch) — ENDS THE WHOLE v1 ARC on the death of God. Kierkegaard ships ENTIRELY
+  paraphrase-only (all translations in copyright). The arc-closing key passage =
+  Nietzsche GS §343 + §125, both pinned to the **Thomas Common PD** text; the
+  coordinator VOIDED the r2 fact-checker's MF-1/2/3 as **false positives** (a Gutenberg
+  line-wrap made a single-line grep miss "the most murderous of all murderers" — the
+  quotes were Common-correct all along; caught before the reviser could "fix" right
+  quotes into wrong ones). Required framing all present + honest: the **Nietzsche
+  posthumous-misuse block** (Elisabeth Förster-Nietzsche, the *Will to Power*
+  compilation, Nazi appropriation, with motive hedged to documented EFFECT not intent),
+  **"God is dead" framed as crisis not boast**, **Harriet Taylor as genuine partner**
+  (with the 1869 *Subjection* dating tightened). Marx held at era altitude (philosophy,
+  not 20th-c politics).
+**Two coordinator-judgment saves this sweep** (both the "gate-pass ≠ correct / gate-fail
+≠ correct" rule in action): the era-5 false-positive quote flags (voided), and the
+era-3 Hume-revision-direction error (the r2 gate caught what r1 missed). 23 PD portraits
+eyeballed by the coordinator's own hand for right-subject before ship.
+
 ## Proof run 1 — DONE (2026-06-12) — "The Greeks" era read (kind: ERA, 7 ch)
 The vertical's FIRST article, gated from the start (no ungated-draft relapse — the
 doc predates the article by hours). Full run via background agents: fact pack →

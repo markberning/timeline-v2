@@ -944,3 +944,99 @@ Per the framing gate requirement:
    can bear it, and the task is immense.
 5. The framing trap to refuse: presenting this as atheism as a doctrine, as Nietzsche's
    victory lap. It is instead the announcement of a crisis with unknown resolution.
+
+---
+
+## §11 — r2 additions (verified)
+
+All claims below were confirmed by the round-2 fact-checker against web sources on
+2026-06-12. Sources listed for each entry.
+
+### 11.1 — Mill's *System of Logic* (1843)
+
+**Claim:** *A System of Logic, Ratiocinative and Inductive* was first published in 1843 by
+John W. Parker, London.
+
+**Confirmed:** Wikipedia — *A System of Logic*; multiple secondary bibliographic records;
+Marxists.org library entry. The date is uncontested across all sources.
+
+**Status:** VERIFIED (date of first edition).
+
+---
+
+### 11.2 — Mill's anti-apriorist / inductivist thesis
+
+**Claim:** Mill's *System of Logic* argues that even mathematical and logical truths are
+inductive generalizations from experience — an anti-apriorist empiricism that extends
+Hume and opposes Kant's synthetic a priori.
+
+**Confirmed:** SEP — John Stuart Mill (§2, "Epistemology and Philosophy of Science"):
+"there is in every step of arithmetical or algebraical calculation a real induction, a
+real inference of facts from facts." Mill "denies that mathematics enjoys special
+necessity or a priori status." Geometric axioms treated as empirical idealizations, not
+a priori certainties. IEP — Mill, John Stuart. Wikipedia — *A System of Logic*.
+
+**Status:** VERIFIED — the claim as written is an accurate paraphrase of Mill's position
+as confirmed by the SEP.
+
+---
+
+### 11.3 — Hackett 2026 *On Liberty* dual-authorship event
+
+**Claim:** In 2026 (publication date March 31, 2026), Hackett Publishing released an
+edition of *On Liberty* naming Harriet Taylor Mill as co-author on the title page — the
+first edition to do so in the book's publication history since 1859. The basis includes
+Mill's own *Autobiography* and a 2022 stylometric study in *Utilitas*.
+
+**Confirmed:** Daily Nous (2026-03-19) "On Liberty Now Officially Has Two Authors";
+CBC Radio (2026); Hackett Publishing product page; *Utilitas* — "Who Authored On Liberty?
+Stylometric Evidence on Harriet Taylor Mill's Contribution," by Schmidt-Petri, Schefczyk,
+and Osburg (online December 2, 2021; print June 2022, vol. 34, no. 2).
+
+**Precision notes:**
+- The Utilitas article was published online in December 2021 and in the print issue
+  dated June 2022. "2022 stylometric study" (using the print date) is accurate.
+- The event is a publisher's editorial decision (Hackett), not a governmental or legal
+  declaration of dual authorship. The shipped prose correctly says "reached print" and
+  "formalizing what Mill himself had said in his *Autobiography*" — no overstatement.
+- The edition lists six academic editors: Piers Norris Turner, Jo Ellen Jacobs,
+  Helen McCabe, Lilly Osburg, Michael Schefczyk, Christoph Schmidt-Petri.
+
+**Status:** VERIFIED — the claim as written is accurate and correctly framed.
+
+---
+
+### 11.4 — Feuerbach's *The Essence of Christianity* (1841): projection-critique
+
+**Claim:** Feuerbach's *The Essence of Christianity* (1841) argues God is a projection
+of human nature — our own best qualities (love, understanding, morality) thrown onto
+the sky and worshipped back. This is the move Marx took and said did not go far enough.
+Species-being (*Gattungswesen*) is Feuerbach's term, adopted by Marx.
+
+**Confirmed:** Wikipedia — *The Essence of Christianity*: "Thus God is nothing else than
+man: he is, so to speak, the outward projection of man's inward nature." Britannica —
+*The Essence of Christianity*. Wikipedia — Ludwig Feuerbach. Project Gutenberg #47025.
+
+**Precision note on "best qualities":** Feuerbach analyzes divine attributes (love,
+justice, wisdom, understanding) as projections of human excellences — the r2 paraphrase
+"our own best qualities" captures this accurately.
+
+**Status:** VERIFIED (date 1841; projection-critique thesis; species-being as Feuerbach's
+term adapted by Marx).
+
+---
+
+### 11.5 — BGE §22 perspectivism locus (Zimmern trans.)
+
+**Claim:** In *Beyond Good and Evil* §22 (trans. Helen Zimmern, Gutenberg #4363),
+Nietzsche argues that what physicists call "conformity of nature to law" is
+interpretation, not a text read off reality — and that the alternative reading
+(emphasizing power and the absence of law) is equally an interpretation.
+
+**Confirmed:** Project Gutenberg #4363 (Zimmern, 1907); Marxists.org — BGE Chapter 1
+(Zimmern text). §22 in the Zimmern translation explicitly frames "Nature's conformity
+to law" as an interpretation reflecting democratic values, not objective truth; the
+section closes by acknowledging even the counter-reading "is only interpretation."
+
+**Status:** VERIFIED — §22 is confirmed as the published-Nietzsche locus for perspectivism;
+the r2 description accurately paraphrases the Zimmern text without quoting it.

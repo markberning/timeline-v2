@@ -932,3 +932,247 @@ Mueller (1958). Hegel's own terms: *Aufhebung* (sublation), the three *moments*
 (understanding / dialectical / speculative), *determinate negation*.
 Sources: SEP *Hegel's Dialectics*, HandWiki *Thesis-antithesis-synthesis*,
 Chalybäus Wikipedia article, Mueller 1958 — all confirmed 2026-06-13.
+
+---
+
+## §11 — r2 additions (verified)
+
+**Added:** 2026-06-12, per `audits/philosophy-pipeline/kant-germans-gate-fact-r2.md`.
+All claims below were verified by the r2 fact-checker (web-enabled) against the sources
+listed. Every item is at the DOCUMENTED or CONFIRMED level unless otherwise noted.
+
+---
+
+### §11.1 — German Idealism: duration, figures, and movement scope
+
+**Claim:** German Idealism is a roughly sixty-year movement from the 1780s to the 1840s,
+constituted by Kant, Fichte, Schelling, and Hegel.
+
+**Status: VERIFIED**
+
+**Sources:** IEP — German Idealism (iep.utm.edu/germidea/); Wikipedia — German idealism;
+Philopedia — German Idealism period.
+
+The IEP, Wikipedia, and Philopedia all agree: German Idealism began in the 1780s with
+Kant and ran until approximately the 1840s (~60 years). The four canonical figures are
+Kant, Fichte, Schelling, and Hegel. The movement is characterized by systematic treatment
+of epistemology, logic, ethics, aesthetics, and political philosophy within an idealist
+framework. Schopenhauer is correctly classified as a counter-voice to the tradition, not
+a member of it.
+
+---
+
+### §11.2 — Third Critique: bridging function and the sublime
+
+**Claim:** The Critique of the Power of Judgment (1790) bridges the nature/freedom split
+opened by the first two Critiques. Beauty, the sublime, and teleological judgment are the
+three bridging domains. The sublime is the vivid concept: an experience that overwhelms
+the senses and makes us feel the mind's reach exceeds it, connecting us to the
+supersensible and thus to the domain of freedom.
+
+**Status: VERIFIED**
+
+**Sources:** NDPR — reviews of Kant on Freedom, Nature, and Judgment (Cambridge);
+ResearchGate — The Demand of Freedom in Kant's Critique of Judgment; SparkNotes Critique
+of Judgment summary (for the basic teaching); Wiley — Organisms and the form of freedom
+in Kant's third Critique.
+
+The third Critique seeks to bridge "an incalculable gulf" between the domains of nature
+(causal necessity, first Critique) and freedom (moral law, second Critique). The sublime
+specifically "puts us in touch with ideas of reason," connecting to the domain of freedom.
+Part II of the third Critique treats teleological judgment (purposiveness in nature) as
+the third bridging domain. The three Critiques' standard philosophical division
+(epistemology / ethics / aesthetics + teleology) is confirmed as Kant's own architecture.
+
+---
+
+### §11.3 — Fichte's recognition problem as the conceptual source of Hegel's master-slave dialectic
+
+**Claim:** Fichte first posed sharply the problem that a self knows itself as a self only
+through another self-consciousness confirming it (the recognition problem). Hegel built
+his master-slave dialectic on this Fichtean foundation, putting the recognition problem
+to work in a concrete narrative.
+
+**Status: VERIFIED**
+
+**Sources:** Encyclopedia MDPI — Master-Slave Dialectic; HandWiki — Master-slave dialectic;
+METU repository — "The Problem of Self-Consciousness and Recognition in Hegel"; Boston
+University Open — Freedom and Servitude: the master and slave dialectic in Hegel.
+
+The METU source states: "Fichte had only previously explored the issue in the history of
+philosophy of how self-consciousness requires recognition of another self-consciousness."
+Multiple sources confirm Hegel sought to resolve "a crucial problem that had troubled
+Fichte" and that the master-slave dialectic is his concrete working-out of the Fichtean
+insight that intersubjectivity is constitutive of self-consciousness.
+
+---
+
+### §11.4 — Hegel's conservatism: Berlin chair 1818, Burschenschaft opposition, Philosophy of Right and constitutional monarchy
+
+**Sub-claim A (Berlin chair, 1818): VERIFIED**
+Wikipedia, SEP, and Britannica all confirm Hegel accepted the chair of philosophy at the
+University of Berlin in 1818. Sources: Wikipedia — Georg Wilhelm Friedrich Hegel;
+Britannica — Georg Wilhelm Friedrich Hegel.
+
+**Sub-claim B (opposition to radical movements): VERIFIED WITH PRECISION NOTE**
+Hegel was appalled at what he saw as the irrationality and empty slogans of the
+Burschenschaft nationalist student movements and attacked their philosophical ally Jakob
+Fries in the Philosophy of Right's preface. He did not oppose reform as such; he opposed
+irrational revolutionary fervor and abstract nationalism.
+Sources: Hegel.net — Rosenkranz Life of Hegel ch. 13; Wikipedia — Burschenschaft.
+**Framing note:** "wrote against the more radical reformers of his day" is too broad;
+"wrote against the irrational nationalism of the Burschenschaft movements" is accurate.
+
+**Sub-claim C (Philosophy of Right, constitutional monarchy): VERIFIED**
+IEP confirms: "constitutional monarchy is the appropriate form of political authority in
+the modern world" per Hegel's Philosophy of Right. Britannica: he "criticized other
+government systems other than constitutional monarchy, which he considered the most
+reasonable form of the use of power." The IEP summarizes the Philosophy of Right as
+presenting constitutional monarchy as the synthesis of universal and subjective freedom.
+Sources: IEP — Hegel Social and Political Thought; Britannica — Hegel.
+
+---
+
+### §11.5 — Hegel's Science of Logic: Being → Nothing → Becoming opening triad
+
+**Claim:** The Science of Logic opens with the triad of pure Being → Nothing → Becoming.
+Pure Being with no determinate quality is indistinguishable from Nothing; both empty
+concepts pass over into Becoming, which holds them both as the movement of coming-to-be
+and passing-away. This is the first instance of Aufhebung (cancel and preserve
+simultaneously) and determinate negation (the result is shaped by what came before).
+
+**Status: VERIFIED**
+
+**Sources:** Wikipedia — Science of Logic; SEP — Hegel's Dialectics; MLK Jr. Research
+Institute — "Exposition of the First Triad of Categories of the Hegelian Logic"; Wiley
+Philosophy Compass — The Beginning of Hegel's Logic (Dunphy 2023).
+
+Wikipedia confirms: "The Science of Logic begins by considering the concept of pure being,
+derives from it the concepts of 'nothing' and 'becoming'." The MLK Jr. paper confirms the
+triad as the opening case of the Hegelian logical development. The Becoming synthesis
+"accommodates both concepts, since becoming contains both being and nothing in the sense
+that when something becomes it passes from nothingness to being."
+
+---
+
+### §11.6 — Dara Shukoh: biographical and translation facts
+
+**Claim:** Dara Shukoh was the eldest son and heir-apparent of the Mughal emperor Shah
+Jahan. In 1657 he completed a Persian translation of fifty Upanishads (titled Sirr-i-Akbar,
+"The Greatest Mystery"). The translation was selective and colored by Sufi mysticism.
+
+**Status: VERIFIED**
+
+**Sources:** Wikipedia — Dara Shikoh; Wikipedia — Sirr-i-Akbar; Britannica — Dara Shikoh;
+Brainly / GKToday (confirming the count of fifty); Live History India.
+
+Wikipedia states explicitly that Dara Shukoh "was the eldest son and heir-apparent of the
+Mughal emperor Shah Jahan" and "completed the translation of fifty Upanishads from their
+original Sanskrit into Persian in 1657." The Sufi coloring is confirmed: his project was
+rooted in interfaith dialogue between Islam and Hinduism and he was himself a Sufi
+practitioner. The work reached Anquetil-Duperron and through his 1801 Latin translation
+(*Oupnekhat*) reached Schopenhauer.
+
+---
+
+### §11.7 — Hegel's system stature by 1820
+
+**Claim:** By 1820, when Schopenhauer briefly tried to compete with Hegel's lectures at
+Berlin, Hegel's Phenomenology (1807) and Science of Logic (1812–16) already constituted
+the most comprehensive philosophical system produced by any post-Kantian — covering art,
+religion, law, and history within one developmental logic.
+
+**Status: VERIFIED**
+
+**Sources:** Wikipedia — Georg Wilhelm Friedrich Hegel; SEP — Hegel; IEP — German
+Idealism.
+
+Wikipedia describes Hegel's "principal achievement" as "the development of a comprehensive
+philosophical system, often termed absolute idealism, to account for reality as a unified
+whole" and notes this system covered logic, metaphysics, ethics, aesthetics, and political
+philosophy. By 1820 Hegel had published the Phenomenology, all three volumes of the Logic,
+and the first Encyclopaedia — no other post-Kantian philosopher had produced a system of
+comparable scope and articulation.
+
+---
+
+### §11.8 — Kant's race-hierarchy views and Kleingeld scholarship
+
+**Claim:** Kant's Observations on the Feeling of the Beautiful and Sublime (1764) and his
+lectures on geography and anthropology contain race-hierarchy claims in tension with his
+Humanity Formula. Pauline Kleingeld's scholarship (especially her 2007 "Kant's Second
+Thoughts on Race") is central to the debate. Scholars argue his views may have shifted
+toward fuller universalism late in his career.
+
+**Status: VERIFIED**
+
+**Sources:** ResearchGate — Kleingeld-Bernasconi debate; University of Groningen /
+Kleingeld (2007); Cambridge — White Progress: Kant, Race and Teleology; ResearchGate —
+The concept of race in Kant's lectures on anthropology; Cambridge — Anthropology, History,
+and Education (Observations chapter).
+
+The Observations (1764) is confirmed as "the foundational book of his racial philosophy"
+and "the first significant published account of Kant's race-thinking." His geography and
+anthropology lectures contain race-hierarchy material over three decades. Kleingeld 2007
+argues he defended racist views and may have revised them; Bernasconi disputes the
+extent of the revision. The tension with "every rational being is an end in itself" is
+genuine and documented.
+
+---
+
+### §11.9 — Schopenhauer's deepening Buddhist engagement in the 1840s
+
+**Claim:** Schopenhauer's engagement with Buddhist sources deepened in the 1840s as the
+first real European scholarly works on Buddhism became available. His system moved from
+predominantly Vedantic toward a more Buddhist orientation. The early "confirmation" became
+something more like a sustained engagement.
+
+**Status: VERIFIED**
+
+**Sources:** BPS Wheel — Schopenhauer and Buddhism (bps.lk); The Buddhist Society —
+Schopenhauer's Encounter with Buddhist Thought; academia.edu — Schopenhauer's Buddhism:
+A Historical-Philosophical Inquiry; Springer — Nothingness, Negativity, and Buddhism in
+Schopenhauer.
+
+BPS: "from 1844 onwards Schopenhauer incorporated the Buddhist concept of palingenesis
+into his system." The 1847 second edition of the Fourfold Root "marks a transition from
+predominantly Vedantic to a prevalently Buddhist orientation." Eugène Burnouf's
+*Introduction à l'histoire du Buddhisme indien* (1844) was the key European scholarly work
+that enabled this shift. Schopenhauer read it and added to his Buddhist bibliography
+throughout the 1840s–1850s.
+
+---
+
+### §11.10 — Schopenhauer's "On Women" (1851)
+
+**Claim:** Schopenhauer's 1851 essay "On Women," collected in Parerga and Paralipomena,
+is explicitly misogynist. It treats women as intellectually and morally lesser —
+incapable of producing great art or genius, with restricted agency appropriate in
+ways that would not be appropriate for men.
+
+**Status: VERIFIED**
+
+**Sources:** Cambridge Core — Schopenhauer: Parerga and Paralipomena, ch. 27 "On Women";
+ResearchGate / kritike.org — "The Limits of Misogyny: Schopenhauer, 'On Women'";
+reasonandmeaning.com; infobooks.org.
+
+The essay "On Women" was published in 1851 in the Parerga and Paralipomena, the same
+collection that made Schopenhauer famous. Multiple scholarly sources confirm it is
+"explicitly misogynist" (his characterization of women as lacking judgment, incapable of
+genius, and appropriately restricted in education and choice is documented); he is
+described in the secondary literature as "one of the most extreme misogynists in the
+history of modern philosophy." Schopenhauer grounds his views in his Will-doctrine rather
+than mere social convention.
+
+---
+
+### §11.11 — Kingdom of Ends (Abbott wording note)
+
+The r2 draft glosses the Kingdom of Ends as "every rational being is both author and
+subject of the same laws." This is accurate as a philosophical paraphrase but is NOT the
+Abbott wording. Abbott's formula (confirmed via secondary sources citing Gutenberg #5682):
+"Act according to the maxims of a universally legislating member of a merely possible
+kingdom of ends." (Groundwork 4:439.)
+
+**Use Abbott's phrasing if quoting; for paraphrase, confirm the framing does not use
+formula-like syntax that implies quotation accuracy.**

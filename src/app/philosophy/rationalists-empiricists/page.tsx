@@ -1,0 +1,175 @@
+// "The rationalists and the empiricists" — the third Philosophy era, in a provisional self-contained reader modeled on
+// the Greeks reader (src/app/philosophy/greeks/page.tsx): its own light identity (a quiet
+// bronze-olive, NOT the war stone skin, NOT the threads slate), dark-mode aware, mobile-first.
+// The prose lives in ./narrative.ts, a faithful transport of the gated draft in
+// audits/philosophy-pipeline/rationalists-empiricists-draft-r2.md — never edit content here or there; edit the
+// gated .md through the pipeline and re-transport. This page ships unlinked (URL-only pilot).
+
+import type { Metadata } from 'next'
+import Link from 'next/link'
+import type { ReactNode } from 'react'
+import { RATIONALISTS_EMPIRICISTS, type PhiFig } from './narrative'
+
+export const metadata: Metadata = {
+  title: 'The rationalists and the empiricists · Philosophy · Stuff Happened',
+  description:
+    'Western philosophy from Descartes through Spinoza, Leibniz, Hobbes, Locke and Berkeley to Hume: six minds rebuilding knowledge from scratch, and the Scotsman who showed the foundation might not hold.',
+}
+
+// Inline markup inside a paragraph: **bold**, *italic*, and [text](/internal-href) links.
+// Same parser as the threads reader; the rationalists-empiricists prose uses *italics* and **bold**.
+const INLINE_RE = /(\[([^\]]+)\]\((\/[^)]+)\))|(\*\*([^*]+)\*\*)|(\*([^*]+)\*)/
+function inline(text: string): ReactNode[] {
+  const out: ReactNode[] = []
+  let rest = text
+  let k = 0
+  while (rest) {
+    const m = rest.match(INLINE_RE)
+    if (!m || m.index === undefined) { out.push(rest); break }
+    if (m.index > 0) out.push(rest.slice(0, m.index))
+    if (m[1]) out.push(<a key={k++} href={m[3]} className="phi-link">{m[2]}</a>)
+    else if (m[4]) out.push(<strong key={k++}>{m[5]}</strong>)
+    else if (m[6]) out.push(<em key={k++}>{m[7]}</em>)
+    rest = rest.slice(m.index + m[0].length)
+  }
+  return out
+}
+
+function Fig({ f, hero }: { f: PhiFig; hero?: boolean }) {
+  return (
+    <figure className={'phi-fig' + (f.portrait ? ' phi-fig-portrait' : '') + (hero ? ' phi-fig-hero' : '')}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={f.fig} alt={f.alt} loading={hero ? 'eager' : 'lazy'} />
+      <figcaption>{f.cap}</figcaption>
+    </figure>
+  )
+}
+
+export default function RationalistsEmpiricistsEraPage() {
+  const n = RATIONALISTS_EMPIRICISTS
+  return (
+    <div className="phi-root">
+      <a href="#phi-article" className="phi-skip">Skip to article</a>
+
+      <header className="phi-topbar">
+        <Link href="/philosophy" className="phi-back">&larr; Philosophy</Link>
+        <span className="phi-kicker">An Era</span>
+      </header>
+
+      <main>
+        <Fig f={n.hero} hero />
+
+        <div className="phi-mast">
+          <p className="phi-eyebrow">Philosophy &middot; The third era</p>
+          <h1 className="phi-title">{n.title}</h1>
+          <p className="phi-lede">{inline(n.throughline)}</p>
+        </div>
+
+        <article id="phi-article" className="phi-body">
+          {n.hook.map((p, i) => (
+            <p key={i} className={'phi-p' + (i === 0 ? ' phi-drop' : '')}>{inline(p)}</p>
+          ))}
+
+          <section className="phi-break" aria-label="Why this is a break">
+            <h2 className="phi-break-h">The break</h2>
+            <div className="phi-break-row">
+              <span className="phi-break-tag">Before</span>
+              <span className="phi-break-label">{inline(n.brk.beforeLabel)}</span>
+            </div>
+            <div className="phi-break-row">
+              <span className="phi-break-tag phi-break-tag-after">After</span>
+              <span className="phi-break-label">{inline(n.brk.afterLabel)}</span>
+            </div>
+            {n.brk.paragraphs.map((p, i) => (
+              <p key={i} className="phi-p phi-break-p">{inline(p)}</p>
+            ))}
+          </section>
+
+          {n.chapters.map((ch) => (
+            <section key={ch.num} className="phi-ch">
+              <p className="phi-ch-ey">Chapter {ch.num}</p>
+              <h2 className="phi-ch-title">{ch.title}</h2>
+              <blockquote className="phi-epi">
+                <p>{inline(ch.epigraph.text)}</p>
+                <footer className="phi-epi-att">{inline(ch.epigraph.attribution)}</footer>
+              </blockquote>
+              {ch.blocks.map((b, i) =>
+                'p' in b
+                  ? <p key={i} className="phi-p">{inline(b.p)}</p>
+                  : <Fig key={i} f={b} />
+              )}
+            </section>
+          ))}
+        </article>
+      </main>
+
+      <footer className="phi-foot">
+        <div className="phi-foot-line" />
+        <p>Part of <strong>Philosophy</strong>, the history of Western thought told era by era. More eras on the way.</p>
+      </footer>
+
+      <style>{`
+        .phi-root { --bg:#ede5d3; --ink:#2b2722; --soft:#6b6357; --rule:#d8cdb6; --card:#f6f0e2;
+          --phi-accent:#6b5d2e;
+          background:var(--bg); color:var(--ink); min-height:100vh;
+          font-family: Lora, Georgia, 'Times New Roman', serif;
+          padding: 0 20px 64px; }
+        html.dark .phi-root { --bg:#22201e; --ink:#ece5d8; --soft:#a89f8f; --rule:#3a3631; --card:#2a2723;
+          --phi-accent:#c4b176; }
+        .phi-root a:focus-visible { outline: 2px solid var(--phi-accent); outline-offset: 2px; }
+        .phi-skip { position:absolute; left:-9999px; top:0; background:var(--card); color:var(--ink);
+          font-family: ui-sans-serif, system-ui, sans-serif; font-size:14px; padding:10px 16px;
+          border:1px solid var(--phi-accent); border-radius:6px; z-index:50; }
+        .phi-skip:focus { left:20px; top:12px; }
+        .phi-topbar { max-width: 680px; margin: 0 auto; display:flex; align-items:center; justify-content:space-between;
+          padding: 16px 0; font-family: ui-sans-serif, system-ui, sans-serif; }
+        .phi-back { color: var(--soft); text-decoration:none; font-size: 14px; padding: 6px 0; }
+        .phi-back:hover { color: var(--phi-accent); }
+        .phi-kicker { color: var(--phi-accent); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; }
+        .phi-mast { max-width: 680px; margin: 22px auto 14px; }
+        .phi-eyebrow { font-family: ui-sans-serif, system-ui, sans-serif; color: var(--phi-accent);
+          font-size: 12px; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; margin: 0 0 12px; }
+        .phi-title { font-size: 42px; line-height: 1.06; font-weight: 600; letter-spacing: -0.01em; margin: 0 0 14px; }
+        .phi-lede { font-size: 20px; line-height: 1.55; font-style: italic; color: var(--soft); margin: 0 0 8px; }
+        .phi-body { max-width: 680px; margin: 18px auto 0; }
+        .phi-p { font-size: 19px; line-height: 1.66; margin: 0 0 22px; }
+        .phi-drop::first-letter { float: left; font-size: 58px; line-height: .82; font-weight: 600;
+          padding: 6px 10px 0 0; color: var(--phi-accent); }
+        .phi-link { color: var(--phi-accent); text-decoration: underline; text-underline-offset: 2px;
+          text-decoration-thickness: 1px; }
+        .phi-break { background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+          padding: 22px 22px 4px; margin: 10px 0 34px; }
+        .phi-break-h { font-family: ui-sans-serif, system-ui, sans-serif; color: var(--phi-accent);
+          font-size: 12px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; margin: 0 0 14px; }
+        .phi-break-row { display:flex; align-items:baseline; gap: 12px; margin: 0 0 10px; }
+        .phi-break-tag { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; font-weight: 700;
+          letter-spacing: .1em; text-transform: uppercase; color: var(--soft); flex: 0 0 58px; }
+        .phi-break-tag-after { color: var(--phi-accent); }
+        .phi-break-label { font-size: 18px; font-style: italic; line-height: 1.4; }
+        .phi-break-p { font-size: 17.5px; margin-top: 16px; }
+        .phi-ch { margin-top: 44px; }
+        .phi-ch-ey { font-family: ui-sans-serif, system-ui, sans-serif; color: var(--phi-accent);
+          font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; margin: 0 0 6px; }
+        .phi-ch-title { font-size: 28px; line-height: 1.15; font-weight: 600; margin: 0 0 16px; letter-spacing: -0.01em; }
+        .phi-epi { font-size: 19px; line-height: 1.55; font-style: italic; margin: 0 0 26px;
+          border-left: 3px solid var(--phi-accent); padding-left: 18px; }
+        .phi-epi p { margin: 0 0 8px; }
+        .phi-epi-att { font-family: ui-sans-serif, system-ui, sans-serif; font-style: normal;
+          font-size: 13.5px; color: var(--soft); }
+        .phi-fig { max-width: 680px; margin: 30px auto 32px; }
+        .phi-fig img { width: 100%; height: auto; border-radius: 6px; display:block;
+          background: var(--card); border: 1px solid var(--rule); }
+        .phi-fig figcaption { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px;
+          line-height: 1.5; color: var(--soft); margin-top: 10px; }
+        .phi-fig-hero { margin: 4px auto 26px; max-width: 760px; }
+        .phi-fig-portrait { max-width: 400px; margin-left: auto; margin-right: auto; }
+        .phi-fig-portrait figcaption { text-align: left; }
+        .phi-foot { max-width: 680px; margin: 40px auto 0; }
+        .phi-foot-line { height:1px; background: var(--rule); margin-bottom: 16px; }
+        .phi-foot p { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; color: var(--soft); line-height: 1.6; }
+        @media (max-width: 520px) { .phi-title { font-size: 33px; } .phi-p { font-size: 18px; }
+          .phi-break { padding: 18px 16px 2px; } .phi-fig-portrait { max-width: 78%; } }
+      `}</style>
+    </div>
+  )
+}

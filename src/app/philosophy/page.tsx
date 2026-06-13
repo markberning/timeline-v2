@@ -11,12 +11,6 @@ export const metadata: Metadata = {
   description: 'The history of Western philosophy, told era by era.',
 }
 
-const COMING_SOON = [
-  'The rationalists and the empiricists',
-  'Kant and the Germans',
-  'The nineteenth century',
-]
-
 export default function PhilosophyHome() {
   return (
     <div className="phi-root">
@@ -43,15 +37,23 @@ export default function PhilosophyHome() {
           <span className="phi-card-sub">Augustine to Ockham, across three religions</span>
         </Link>
 
-        <h2 className="phi-soon-h">Coming soon</h2>
-        <ul className="phi-soon">
-          {COMING_SOON.map((t) => (
-            <li key={t} className="phi-soon-row">
-              <span className="phi-soon-name">{t}</span>
-              <span className="phi-soon-tag">Soon</span>
-            </li>
-          ))}
-        </ul>
+        <Link href="/philosophy/rationalists-empiricists" className="phi-card">
+          <span className="phi-card-ey">Era III &middot; Read now</span>
+          <span className="phi-card-title">The rationalists and the empiricists</span>
+          <span className="phi-card-sub">Descartes to Hume, rebuilding knowledge from scratch</span>
+        </Link>
+
+        <Link href="/philosophy/kant-germans" className="phi-card">
+          <span className="phi-card-ey">Era IV &middot; Read now</span>
+          <span className="phi-card-title">Kant and the Germans</span>
+          <span className="phi-card-sub">Kant, Hegel, and Schopenhauer</span>
+        </Link>
+
+        <Link href="/philosophy/nineteenth-century" className="phi-card">
+          <span className="phi-card-ey">Era V &middot; Read now</span>
+          <span className="phi-card-title">The nineteenth century</span>
+          <span className="phi-card-sub">Mill and Harriet Taylor to Nietzsche and the death of God</span>
+        </Link>
       </main>
 
       <style>{`
