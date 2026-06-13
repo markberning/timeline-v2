@@ -60,7 +60,7 @@ export function ArgumentMap() {
         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}><span style={{ width: 20, borderTop: '2px dashed #d2624a' }} /> reacted against</span>
       </div>
 
-      <svg viewBox="0 0 412 1540" style={{ display: 'block', width: '100%', height: 'auto' }} xmlns="http://www.w3.org/2000/svg">
+      <svg viewBox="0 0 412 1540" style={{ display: 'block', width: '100%', maxWidth: 412, margin: '0 auto', height: 'auto' }} xmlns="http://www.w3.org/2000/svg">
         {/* era bands */}
         {BANDS.map(([t, y0, y1]) => (
           <g key={t}>
