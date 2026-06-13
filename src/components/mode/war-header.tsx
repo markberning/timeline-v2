@@ -27,6 +27,7 @@ const MENU = [
   { k: 'war', n: 'War', s: 'Battles & causes', href: '/war' },
   { k: 'art', n: 'Art', s: 'Movements & works', href: '/art' },
   { k: 'music', n: 'Music', s: 'Eras & composers', href: '/music' },
+  { k: 'philosophy', n: 'Philosophy', s: 'Thinkers & ideas', href: '/philosophy' },
 ]
 
 // The menu footer tagline adapts to the vertical the header is serving (it's shared
@@ -36,6 +37,7 @@ const TAGLINE: Record<string, string> = {
   war: 'one war at a time.',
   art: 'one movement at a time.',
   music: 'one era at a time.',
+  philosophy: 'one thinker at a time.',
 }
 
 function ThemeSwitch() {
