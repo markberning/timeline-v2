@@ -18,8 +18,8 @@ export const metadata: Metadata = {
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
 const INK = 'var(--foreground)'
-const MUTED = 'color-mix(in srgb, var(--foreground) 64%, transparent)'
-const FAINT = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
+const MUTED = 'color-mix(in srgb, var(--foreground) 72%, transparent)'
+const FAINT = 'color-mix(in srgb, var(--foreground) 55%, transparent)'
 const BORDER = 'color-mix(in srgb, var(--foreground) 14%, transparent)'
 const CARD = 'color-mix(in srgb, var(--foreground) 4%, transparent)'
 const ACCENT = '#a08423'
@@ -163,6 +163,30 @@ export default function PhilosophyHome() {
               </div>
             </Link>
           ))}
+        </div>
+
+        {/* Thinker deep reads */}
+        <div style={{ padding: '2px 16px 32px' }}>
+          <div style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', color: FAINT, margin: '0 0 10px' }}>
+            Go deeper
+          </div>
+          <Link href="/philosophy/thinker/plato" style={{
+            display: 'flex', alignItems: 'stretch', gap: 12, padding: 10, borderRadius: 10,
+            border: `1px solid ${BORDER}`, background: CARD, textDecoration: 'none', color: INK,
+          }}>
+            <div style={{
+              width: 60, flexShrink: 0, alignSelf: 'stretch', minHeight: 76, borderRadius: 8,
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              background: 'linear-gradient(150deg, #7c6a2e, color-mix(in srgb, #7c6a2e 52%, #211f1b))',
+              fontFamily: SERIF, fontSize: 24, fontWeight: 600, color: 'rgba(255,255,255,.92)',
+              textShadow: '0 1px 3px rgba(0,0,0,.35)',
+            }} aria-hidden>&Pi;</div>
+            <div style={{ flex: 1, minWidth: 0, padding: '2px 0' }}>
+              <div style={{ fontFamily: SANS, fontSize: 11, color: MUTED, letterSpacing: 0.3 }}>Thinker &middot; from The Greeks</div>
+              <div style={{ fontFamily: SERIF, fontSize: 17, fontWeight: 600, lineHeight: 1.16, color: INK, margin: '3px 0 0', letterSpacing: -0.1 }}>Plato</div>
+              <div style={{ fontFamily: SERIF, fontSize: 13, lineHeight: 1.45, color: MUTED, margin: '6px 0 0' }}>The whole system, walked: the Forms, the cave and the divided line, the just soul, the Ring of Gyges, Diotima&rsquo;s ladder.</div>
+            </div>
+          </Link>
         </div>
       </main>
     </div>
