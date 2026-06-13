@@ -116,7 +116,7 @@ export function HomeBrowse() {
 
       {view === 'eras' && (
         <div style={{ padding: '14px 16px 6px' }}>
-          <p style={{ fontFamily: SANS, fontSize: 14, color: FAINT, margin: '0 0 12px' }}>The five eras, in order: the whole story as one narrative.</p>
+          <p style={{ fontFamily: SERIF, fontSize: 17, fontWeight: 600, color: INK, lineHeight: 1.3, letterSpacing: -0.1, margin: '2px 0 13px' }}>The five eras, in order: the whole story as one narrative.</p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 9 }}>
             {ERAS.map(era => (
               <Link key={era.id} href={`/philosophy/${era.id}`} style={{
