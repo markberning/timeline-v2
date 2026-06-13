@@ -42,8 +42,7 @@ export default function PhilosophyHome() {
             position: 'absolute', inset: 0,
             backgroundImage: 'url(/philosophy/school-of-athens.jpg)', backgroundSize: 'cover', backgroundPosition: 'center 34%',
           }} />
-          <div aria-hidden style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, color-mix(in srgb, var(--background) 12%, transparent) 0%, transparent 32%, color-mix(in srgb, var(--background) 60%, transparent) 86%, var(--background) 100%)' }} />
-          <div style={{ position: 'absolute', left: 14, bottom: 9, fontFamily: SANS, fontSize: 10, letterSpacing: '.02em', color: 'rgba(255,255,255,.78)', textShadow: '0 1px 3px rgba(0,0,0,.7)' }}>
+          <div style={{ position: 'absolute', left: 14, bottom: 9, fontFamily: SANS, fontSize: 10, letterSpacing: '.02em', color: 'rgba(255,255,255,.82)', textShadow: '0 1px 3px rgba(0,0,0,.85)' }}>
             Raphael · <span style={{ fontStyle: 'italic' }}>The School of Athens</span> · 1509–11
           </div>
         </div>
