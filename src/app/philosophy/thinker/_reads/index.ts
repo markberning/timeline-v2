@@ -6,11 +6,15 @@
 
 import type { PhiNarr } from '@/components/philosophy-reader'
 import { PLATO } from './plato'
+import { SOCRATES } from './socrates'
+import { HUME } from './hume'
 
 export interface ThinkerRead { narr: PhiNarr; eyebrow: string }
 
 export const THINKER_READS: Record<string, ThinkerRead> = {
+  socrates: { narr: SOCRATES, eyebrow: 'Independent' },
   plato: { narr: PLATO, eyebrow: 'Platonism' },
+  hume: { narr: HUME, eyebrow: 'Empiricists' },
 }
 
 export const hasRead = (id: string): boolean => id in THINKER_READS
