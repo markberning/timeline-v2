@@ -153,9 +153,9 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
         .phi-eyebrow { font-family: ui-sans-serif, system-ui, sans-serif; color: var(--phi-accent);
           font-size: 12px; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; margin: 0 0 12px; }
         .phi-title { font-size: 42px; line-height: 1.06; font-weight: 600; letter-spacing: -0.01em; margin: 0 0 14px; }
-        .phi-lede { font-size: 20px; line-height: 1.55; font-style: italic; color: var(--soft); margin: 0 0 8px; }
+        .phi-lede { font-size: 17.5px; line-height: 1.55; font-style: italic; color: var(--soft); margin: 0 0 8px; }
         .phi-body { max-width: 680px; margin: 18px auto 0; }
-        .phi-p { font-size: 19px; line-height: 1.66; margin: 0 0 22px; }
+        .phi-p { font-size: 17px; line-height: 1.68; margin: 0 0 20px; }
         .phi-drop::first-letter { float: left; font-size: 58px; line-height: .82; font-weight: 600;
           padding: 6px 10px 0 0; color: var(--phi-accent); }
         .phi-link { color: var(--phi-accent); text-decoration: underline; text-underline-offset: 2px;
@@ -168,13 +168,13 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
         .phi-break-tag { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; font-weight: 700;
           letter-spacing: .1em; text-transform: uppercase; color: var(--soft); flex: 0 0 58px; }
         .phi-break-tag-after { color: var(--phi-accent); }
-        .phi-break-label { font-size: 18px; font-style: italic; line-height: 1.4; }
-        .phi-break-p { font-size: 17.5px; margin-top: 16px; }
+        .phi-break-label { font-size: 16px; font-style: italic; line-height: 1.4; }
+        .phi-break-p { font-size: 15.5px; margin-top: 16px; }
         .phi-ch { margin-top: 44px; }
         .phi-ch-ey { font-family: ui-sans-serif, system-ui, sans-serif; color: var(--phi-accent);
           font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; margin: 0 0 6px; }
-        .phi-ch-title { font-size: 28px; line-height: 1.15; font-weight: 600; margin: 0 0 16px; letter-spacing: -0.01em; }
-        .phi-epi { font-size: 19px; line-height: 1.55; font-style: italic; margin: 0 0 26px;
+        .phi-ch-title { font-size: 24px; line-height: 1.18; font-weight: 600; margin: 0 0 16px; letter-spacing: -0.01em; }
+        .phi-epi { font-size: 16.5px; line-height: 1.55; font-style: italic; margin: 0 0 26px;
           border-left: 3px solid var(--phi-accent); padding-left: 18px; }
         .phi-epi p { margin: 0 0 8px; }
         .phi-epi-att { font-family: ui-sans-serif, system-ui, sans-serif; font-style: normal;
@@ -182,7 +182,7 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
         .phi-fig { max-width: 680px; margin: 30px auto 32px; }
         .phi-fig img { width: 100%; height: auto; border-radius: 6px; display:block;
           background: var(--card); border: 1px solid var(--rule); }
-        .phi-fig figcaption { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px;
+        .phi-fig figcaption { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px;
           line-height: 1.5; color: var(--soft); margin-top: 10px; }
         .phi-fig-hero { margin: 4px auto 26px; max-width: 760px; }
         .phi-fig-portrait { max-width: 400px; margin-left: auto; margin-right: auto; }
@@ -190,8 +190,8 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
         .phi-foot { max-width: 680px; margin: 40px auto 0; }
         .phi-foot-line { height:1px; background: var(--rule); margin-bottom: 16px; }
         .phi-foot p { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; color: var(--soft); line-height: 1.6; }
-        @media (max-width: 520px) { .phi-title { font-size: 33px; } .phi-p { font-size: 18px; }
-          .phi-break { padding: 18px 16px 2px; } .phi-fig-portrait { max-width: 78%; } }
+        @media (max-width: 520px) { .phi-title { font-size: 31px; } .phi-p { font-size: 16px; }
+          .phi-ch-title { font-size: 22px; } .phi-break { padding: 18px 16px 2px; } .phi-fig-portrait { max-width: 78%; } }
       `}</style>
     </div>
   )
