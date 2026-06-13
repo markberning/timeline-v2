@@ -767,3 +767,140 @@ frame explicitly as fake.)
 13. **Two image URLs HEAD-throttled** (Gozzoli Louvre, al-Rāzī/Gerard ms.) — API-verified (size+license+canonical URL) but direct HEAD returned 429 at check time; re-HEAD at integration (§7).
 14. **Fine-grained Confessions loci** — quotes verified word-for-word against the Pusey text (whole file grepped); the book numbers given (I, VII, VIII, X, XI) are from the text's structure, but the conventional section numbers (e.g., VIII.12.29) were not independently confirmed — fact-checker spot-checks any that ship in print.
 15. **Siger of Brabant's death** (stabbed by his clerk) — late-tradition tag from secondary sources; not deep-verified. Keep loose or cut.
+
+---
+
+## §11 — r2 additions (verified)
+
+*Added 2026-06-12 by the r2 fact-checker. Every claim below was confirmed
+adversarially against web sources (Stanford Encyclopedia of Philosophy, Wikipedia,
+reputable secondary literature) on this date. These supplement §§1–10; no
+conflicts found.*
+
+**12th-century Jewish communities in Latin Christendom — legal exclusion and
+periodic violence (CONFIRMED).**
+Sources: Wikipedia — Rhineland massacres (1096); Third Lateran Council (1179,
+residential/occupational restrictions); Norwich blood-libel (1144). Safe to
+assert at era altitude as written. Watch-point: compulsory Jewish badge is Fourth
+Lateran (1215) — do not attribute to the 12th century.
+
+**The Maimonidean controversy — 13th-century internal Jewish dispute over
+Maimonides' rationalism (CONFIRMED).**
+Sources: Wikipedia — Maimonidean controversy; SEP — Maimonides. Acute phase:
+1230s (Provence), with reciprocal bans and the 1232 book-burning by the Dominican
+Inquisition. Full arc: late 12th – early 14th century. The "as sharp as anything
+in the Latin schools" comparison is defensible. "A generation after his death"
+(Maimonides d. 1204) is loose but acceptable — the crisis peaks c. 30 years on.
+
+**Bernard of Clairvaux — affective mysticism; Trinity charge; Sens 1141
+(CONFIRMED in full).**
+Sources: SEP — Bernard of Clairvaux; Wikipedia — Council of Sens. (a) Affective
+mysticism: standard label; center of *De diligendo Deo* and 86 *Sermons on the
+Song of Songs*. (b) Trinity charge against Abelard: his flagship indictment
+(Arianism/Sabellianism), with secondary Pelagianism and Nestorianism charges also
+leveled. (c) Drove the case at Sens 1141: confirmed; some sources give 1140 due
+to calendar reckoning; 1141 is the conventional date and correct. Ship as confirmed.
+
+**Franciscan vs. Dominican intellectual traditions; Scotus and Ockham as
+Franciscans (CONFIRMED).**
+Sources: SEP — Duns Scotus; SEP — Ockham; Wikipedia — Dominican Order; Wikipedia
+— Franciscan Order. Dominicans as Order of Preachers, intellectualist by
+foundation: confirmed. Franciscan voluntarist/love-and-will tendency: confirmed
+as a philosophical characterization (pre-existing in Bonaventure, sharpened by
+Scotus). Scotus as Franciscan Friar Minor: confirmed. Ockham as Franciscan Friar
+Minor: confirmed.
+
+**1277 Paris condemnation — eternity of the world (Prop. 87) and celestial
+determinism among the 219 propositions (CONFIRMED).**
+Sources: Wikipedia — Condemnations of 1277; SEP — Condemnations at Paris. Both
+condemned items trace to Aristotle's *Physics* / *De Caelo* and Arabic
+commentators.
+
+**1277 document does NOT name individuals — CORRECTION TO PACK §2.**
+The condemnation document names no individuals; Tempier's preamble refers only to
+"certain scholars at the arts faculty." Siger of Brabant and Boethius of Dacia
+appear in marginal manuscript rubrics and are identified by modern historians
+(Hissette's research: ~79 of 219 propositions traced to known works), but were
+NOT named in the original document. The pack's §2 already flagged "named by
+tradition, not in the document." R2 draft dropped that hedge for one clause —
+this is the MF-R2-1 must-fix. Write: "identified by later historians though named
+in no surviving document."
+
+**1277 condemnations and Scotus's less-necessitarian metaphysics — causal link
+(CONFIRMED; "cautious" framing REJECTED).**
+Sources: Wikipedia — Condemnations of 1210–1277; SEP — Duns Scotus. The link is
+made by historians and is defensible. However, "more cautious" is a misleading
+word for Scotus's voluntarism: his emphasis on God's radical freedom was bolder,
+not more restrained, than Aquinas's position. What the condemnations endangered
+was Aristotelian necessitarianism. Correct framing: "will-centered, less
+necessitarian metaphysics." Franciscan voluntarism also predates 1277 (Bonaventure)
+— the condemnations accelerated a pre-existing tendency.
+
+**Scotus — univocity of being; Aquinas — analogical predication (CONFIRMED).**
+Sources: SEP — Duns Scotus (§3 Univocity); SEP — Analogy in Medieval Philosophy.
+Scotus's univocity: "being" has exactly the same sense said of God and creatures —
+central metaphysical innovation, confirmed. Aquinas's analogy: terms applied to
+God are neither univocal nor equivocal but analogical — confirmed. Scotus→Ockham
+link: directional claim confirmed; note that Ockham transformed (not simply adopted)
+the doctrine by dissolving Scotus's realism about common natures, but the r2
+framing ("lets the next man run the same ruthless logic on God") is directionally
+accurate at era altitude.
+
+**Jean Buridan — leading Parisian nominalist; via moderna (CONFIRMED — but
+generational framing is WRONG).**
+Sources: SEP — Jean Buridan; Wikipedia — Jean Buridan; Wikipedia — Via moderna.
+Buridan (c. 1301 – c. 1360) was a leading nominalist and a genuine via moderna
+figure. WRONG: he was Ockham's near-exact contemporary (only ~14 years younger,
+entirely overlapping in working life), not a transmitter of the next generation.
+Do NOT write "carried by logicians like Buridan" as if he came after Ockham. Write
+"Ockham's Parisian contemporary Buridan" or omit his name. This is MF-R2-2.
+
+**Luther at Erfurt under nominalist masters (CONFIRMED).**
+Sources: SEP — Luther; Wikipedia — Martin Luther (education); Wikipedia — Erfurt
+University. Professors Jodocus Trutfetter and Bartholomaeus Arnoldi of Usingen:
+confirmed via moderna followers. Erfurt was a key Ockhamist center. The relationship
+was formative but ambivalent (Luther later called them "hoggish theologians") — the
+r2 text does not overstate the debt.
+
+**Marsilio Ficino — Renaissance Platonic revival (CONFIRMED; "Platonic Academy"
+framing NEEDS-REFRAME if used).**
+Sources: SEP — Marsilio Ficino; Wikipedia — Marsilio Ficino; Wikipedia — Platonic
+Academy (Florence). Dates: 1433–1499 (exact). Translated all 36 Platonic dialogues
+(draft completed 1468–69, published 1484), Plotinus's Enneads, Hermetic Corpus.
+Medici patronage (Cosimo de' Medici, from 1462–63). "Trying to do for Plato what
+Aquinas did for Aristotle" is fair. REFRAME: "founded the Platonic Academy" is
+contested — modern scholarship (SEP) says the sources "do not permit us to
+understand the Platonic Academy as a formal school"; Wikipedia calls it an "informal
+discussion group" with no statutes or membership records; the name is a later
+historiographical label. Safe wording: "led an informal circle of Platonic
+scholarship" or "what later historians would call the Platonic Academy."
+
+**Augustine's privation-of-evil position (CONFIRMED — no pack entry existed).**
+Sources: Augustine *Confessions* Book VII (Platonists → incorporeal truth →
+privation of evil); *Enchiridion* chapters 10–14 (sustained privation argument).
+R2 account accurate: evil as privation of good, not a substance or rival power;
+the Manichaean (evil as dark co-equal substance) correctly named as the rival view
+Augustine held for nine years. The "dent, not the car" illustration is the author's
+own, not attributed to Augustine.
+
+**Al-Ghazālī's occasionalism undercuts Avicenna's Necessary Existent argument
+(CONFIRMED — philosophically).**
+Avicenna's contingency argument to the Necessary Existent requires causally
+necessary connections; al-Ghazālī's occasionalism (no created causal links are
+necessary — only God's reliable habit) removes the necessity the chain-of-causes
+argument relies on. This is a recognized point in secondary literature on the
+al-Ghazālī/Avicenna relationship. The r2 "loosened the bolts on Avicenna's own
+road to God" framing is accurate.
+
+**Hildegard of Bingen — vision-command wording in quotation marks (SHOULD-FIX).**
+The r2 text quotes "write down that which you see and hear" in quotation marks.
+The pack's §4 entry uses the same wording but did not pin a public-domain
+translation source. The Hart/Bishop translation of *Scivias* (Paulist Press, 1990)
+is under copyright. If no PD source can be confirmed, convert to paraphrase:
+"a voice commanded her to set down what she saw and heard." The pack's standing
+paraphrase-only doctrine applies to Hildegard.
+
+**All new glosses (Benedictine rule, Avignon papacy, Trinity formula, heresy
+definition, sharia/Torah disambiguation, Charlemagne, liberal arts trivium/
+quadrivium, mendicant friar contrast) — CONFIRMED.**
+See gate-fact-r2 §3 gloss table for individual verdicts. No errors found.
