@@ -5,7 +5,6 @@
 // house scale; bronze accent for accents only.
 
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { WarHeader } from '@/components/mode/war-header'
 import { WarBreadcrumb } from '@/components/mode/war-chrome'
 import { HomeBrowse } from '@/components/philosophy/home-browse'
@@ -23,18 +22,7 @@ const SERIF = 'var(--font-lora)'
 const INK = 'var(--foreground)'
 const MUTED = 'color-mix(in srgb, var(--foreground) 78%, transparent)'
 const FAINT = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
-const BORDER = 'color-mix(in srgb, var(--foreground) 14%, transparent)'
-const CARD = 'color-mix(in srgb, var(--foreground) 4%, transparent)'
 const ACCENT = '#a08423'
-
-type Era = { id: string; numeral: string; range: string; title: string; hook: string; tint: string }
-const ERAS: Era[] = [
-  { id: 'greeks', numeral: 'I', range: '585 BC – 529 AD', title: 'The Greeks', hook: 'The first people to explain the world without gods, and the long argument that started.', tint: '#7c6a2e' },
-  { id: 'faith-reason', numeral: 'II', range: '354 – 1347', title: 'Faith meets reason', hook: 'A thousand years of faith and reason needing each other and pulling apart, across three religions.', tint: '#9a6a32' },
-  { id: 'rationalists-empiricists', numeral: 'III', range: '1619 – 1776', title: 'The rationalists and the empiricists', hook: 'Six minds rebuild knowledge from scratch, and a Scotsman shows the foundation might not hold.', tint: '#5f6b3a' },
-  { id: 'kant-germans', numeral: 'IV', range: '1781 – 1860', title: 'Kant and the Germans', hook: 'The mind builds the world it sees, Spirit moves through history, and the world is blind will.', tint: '#6b5d2e' },
-  { id: 'nineteenth-century', numeral: 'V', range: '1843 – 1900', title: 'The nineteenth century', hook: 'Liberty, the leap, alienation, and the death of God that ends the arc.', tint: '#8a4f3f' },
-]
 
 const lbl = { fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase' as const, color: FAINT }
 
@@ -48,6 +36,18 @@ export default function PhilosophyHome() {
 
       <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', overflowX: 'hidden' }}>
       <main style={{ maxWidth: 640, margin: '0 auto', width: '100%' }}>
+        {/* hero — Raphael's School of Athens, the canonical image of the argument */}
+        <div style={{ position: 'relative', width: '100%', height: 200, overflow: 'hidden' }}>
+          <div style={{
+            position: 'absolute', inset: 0,
+            backgroundImage: 'url(/philosophy/school-of-athens.jpg)', backgroundSize: 'cover', backgroundPosition: 'center 34%',
+          }} />
+          <div aria-hidden style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, color-mix(in srgb, var(--background) 12%, transparent) 0%, transparent 32%, color-mix(in srgb, var(--background) 60%, transparent) 86%, var(--background) 100%)' }} />
+          <div style={{ position: 'absolute', left: 14, bottom: 9, fontFamily: SANS, fontSize: 10, letterSpacing: '.02em', color: 'rgba(255,255,255,.78)', textShadow: '0 1px 3px rgba(0,0,0,.7)' }}>
+            Raphael · <span style={{ fontStyle: 'italic' }}>The School of Athens</span> · 1509–11
+          </div>
+        </div>
+
         {/* intro */}
         <div style={{ padding: '16px 16px 4px' }}>
           <div style={{ ...lbl, color: ACCENT, marginBottom: 7 }}>The argument</div>
@@ -59,38 +59,12 @@ export default function PhilosophyHome() {
           </p>
         </div>
 
-        {/* browse: tree (argument map) ↔ schools, toggled */}
+        {/* browse: eras · schools · thinkers · tree, toggled */}
         <HomeBrowse />
-
-        {/* read it straight through */}
-        <div style={{ padding: '20px 16px 6px' }}>
-          <div style={{ ...lbl, marginBottom: 4 }}>Or read it straight through</div>
-          <p style={{ fontFamily: SANS, fontSize: 12.5, color: FAINT, margin: '0 0 12px' }}>The five eras, in order — the whole story as one narrative.</p>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 9 }}>
-            {ERAS.map(era => (
-              <Link key={era.id} href={`/philosophy/${era.id}`} style={{
-                display: 'flex', alignItems: 'stretch', gap: 12, padding: 10, borderRadius: 10,
-                border: `1px solid ${BORDER}`, background: CARD, textDecoration: 'none', color: INK,
-              }}>
-                <div aria-hidden style={{
-                  width: 52, flexShrink: 0, alignSelf: 'stretch', minHeight: 72, borderRadius: 8,
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  background: `linear-gradient(150deg, ${era.tint}, color-mix(in srgb, ${era.tint} 52%, #211f1b))`,
-                  fontFamily: SERIF, fontSize: 24, fontWeight: 600, color: 'rgba(255,255,255,.92)', textShadow: '0 1px 3px rgba(0,0,0,.35)',
-                }}>{era.numeral}</div>
-                <div style={{ flex: 1, minWidth: 0, padding: '2px 0' }}>
-                  <div style={{ fontFamily: SANS, fontSize: 11, color: FAINT, letterSpacing: '.3px' }}>{era.range}</div>
-                  <div style={{ fontFamily: SERIF, fontSize: 16.5, fontWeight: 600, lineHeight: 1.16, margin: '3px 0 0', letterSpacing: -0.1 }}>{era.title}</div>
-                  <div style={{ fontFamily: SERIF, fontSize: 13, lineHeight: 1.45, color: MUTED, margin: '6px 0 0' }}>{era.hook}</div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
 
         <div style={{ padding: '18px 16px 44px' }}>
           <p style={{ fontFamily: SANS, fontSize: 12.5, color: FAINT, lineHeight: 1.55, margin: 0 }}>
-            The deep reads — each thinker’s whole system, each work walked chapter by chapter — are filling in school by school. Plato is the first complete one.
+            The deep reads — each thinker’s whole system, each work walked chapter by chapter — are filling in school by school.
           </p>
         </div>
       </main>
