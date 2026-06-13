@@ -48,25 +48,34 @@ export function eraCrumbs(eraId: string): Crumb[] {
   ]
 }
 
+// The full School › Thinker › Work trail always shows, war-style: deeper levels
+// not yet chosen render as a noun-placeholder jump-dropdown ("Thinker", "Works")
+// so the reader can drill straight in, exactly like war's Theatre › Battle bar.
 export function schoolCrumbs(id: SchoolId): Crumb[] {
   const s = schoolById(id)!
   return [
     { label: 'Philosophy', href: '/philosophy' },
     { label: s.name, active: true, currentLabel: s.name,
       options: SCHOOLS.map(x => ({ label: x.name, href: `/philosophy/school/${x.id}` })) },
+    { label: 'Thinker',
+      options: thinkersOfSchool(id).map(x => ({ label: x.name, href: `/philosophy/thinker/${x.id}` })) },
   ]
 }
 export function thinkerCrumbs(thinkerId: string): Crumb[] {
   const t = thinkerById(thinkerId)!
   const s = schoolById(t.school)!
   const sibs = thinkersOfSchool(t.school)
-  return [
+  const works = worksOfThinker(thinkerId)
+  const crumbs: Crumb[] = [
     { label: 'Philosophy', href: '/philosophy' },
     { label: s.name, href: `/philosophy/school/${s.id}`,
       options: SCHOOLS.map(x => ({ label: x.name, href: `/philosophy/school/${x.id}` })) },
     { label: t.name, active: true, currentLabel: t.name,
       options: sibs.map(x => ({ label: x.name, href: `/philosophy/thinker/${x.id}` })) },
   ]
+  if (works.length) crumbs.push({ label: 'Works',
+    options: works.map(w => ({ label: w.title, href: `/philosophy/work/${w.id}` })) })
+  return crumbs
 }
 export function workCrumbs(workId: string, thinkerId: string): Crumb[] {
   const t = thinkerById(thinkerId)!
