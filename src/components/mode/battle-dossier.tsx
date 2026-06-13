@@ -206,23 +206,23 @@ export function BattleDossier({ data }: { data: BattleData }) {
             <div className="bp-stats">
               {data.stats.map(s => (
                 <div className={'st' + (s.win ? ' win ' + s.win : '')} key={s.label}>
-                  <b className="p-serif">{s.value}</b><span>{s.label}</span>
+                  <b>{s.value}</b><span>{s.label}</span>
                 </div>
               ))}
             </div>
             <div className="bp-vs">
               <div className={'bp-side ' + data.sides[0].side}>
                 <div className="tag"><span className="sq" />{data.sides[0].tag}</div>
-                <div className="force p-serif">{data.sides[0].force}</div>
-                <div className="str p-mono">{data.sides[0].str}</div>
+                <div className="force">{data.sides[0].force}</div>
+                <div className="str">{data.sides[0].str}</div>
                 <div className="cmd">{data.sides[0].cmd}</div>
                 <div className="sidenote">{data.sides[0].note}</div>
               </div>
               <div className="bp-vsbadge">vs</div>
               <div className={'bp-side ' + data.sides[1].side}>
                 <div className="tag"><span className="sq" />{data.sides[1].tag}</div>
-                <div className="force p-serif">{data.sides[1].force}</div>
-                <div className="str p-mono">{data.sides[1].str}</div>
+                <div className="force">{data.sides[1].force}</div>
+                <div className="str">{data.sides[1].str}</div>
                 <div className="cmd">{data.sides[1].cmd}</div>
                 <div className="sidenote">{data.sides[1].note}</div>
               </div>
