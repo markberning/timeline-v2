@@ -116,7 +116,7 @@ export interface HubRow {
 }
 
 export function PhiHub({
-  crumbs, accent, eyebrow, title, meta, blurb, glyph, iconId, stats, readButton, rowsLabel, rows, note, footerEra,
+  crumbs, accent, eyebrow, title, meta, blurb, glyph, iconId, stats, readButton, diagram, spine, cast, passages, rowsLabel, rows, note, footerEra,
 }: {
   crumbs: Crumb[]
   accent: string
@@ -128,6 +128,10 @@ export function PhiHub({
   iconId?: string
   stats?: { value: string; label: string }[]
   readButton?: { href: string; title: string; sub: string; soon?: boolean }
+  diagram?: { title: string; leftLabel: string; rightLabel: string; rows: { left: string; right: string }[]; caption: string }
+  spine?: { where: string; what: string }[]
+  cast?: { name: string; role: string }[]
+  passages?: { title: string; where: string; teaser: string }[]
   rowsLabel?: string
   rows?: HubRow[]
   note?: ReactNode
@@ -192,6 +196,83 @@ export function PhiHub({
             </span>
             <span style={{ flexShrink: 0, width: 30, height: 30, borderRadius: 999, background: readButton.soon ? 'transparent' : accent, color: readButton.soon ? FAINT : '#1c1a14', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, border: readButton.soon ? `1px solid ${BORDER}` : 'none' }}>{readButton.soon ? '·' : '→'}</span>
           </a>
+        )}
+
+        {/* the signature diagram — a parallel-structure visual (e.g. the city ↔ the soul) */}
+        {diagram && (
+          <div style={{ padding: '18px 16px 2px' }}>
+            <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: FAINT, marginBottom: 11 }}>{diagram.title}</div>
+            <div style={{ border: `1px solid ${BORDER}`, borderRadius: 12, background: CARD, overflow: 'hidden' }}>
+              <div style={{ display: 'flex', borderBottom: `1px solid ${BORDER}` }}>
+                <div style={{ flex: 1, textAlign: 'center', padding: '8px 6px', fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: accent }}>{diagram.leftLabel}</div>
+                <div style={{ width: 1, background: BORDER }} />
+                <div style={{ flex: 1, textAlign: 'center', padding: '8px 6px', fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: accent }}>{diagram.rightLabel}</div>
+              </div>
+              {diagram.rows.map((r, i) => (
+                <div key={i} style={{ display: 'flex', alignItems: 'stretch', borderTop: i === 0 ? 'none' : `1px solid ${BORDER}` }}>
+                  <div style={{ flex: 1, textAlign: 'center', padding: '11px 8px', fontFamily: SERIF, fontSize: 15, fontWeight: 600 }}>{r.left}</div>
+                  <div aria-hidden style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 26, color: FAINT, fontSize: 13 }}>=</div>
+                  <div style={{ flex: 1, textAlign: 'center', padding: '11px 8px', fontFamily: SERIF, fontSize: 15, fontWeight: 600 }}>{r.right}</div>
+                </div>
+              ))}
+            </div>
+            <div style={{ fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: MUTED, marginTop: 9, textWrap: 'pretty' }}>{diagram.caption}</div>
+          </div>
+        )}
+
+        {/* the dialogue map — the shape of the argument, beat by beat */}
+        {spine && spine.length > 0 && (
+          <div style={{ padding: '18px 16px 2px' }}>
+            <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: FAINT, marginBottom: 11 }}>The shape of the argument</div>
+            <div style={{ position: 'relative', paddingLeft: 18 }}>
+              <div aria-hidden style={{ position: 'absolute', left: 3, top: 6, bottom: 6, width: 2, background: `color-mix(in srgb, ${accent} 38%, transparent)` }} />
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                {spine.map((b, i) => (
+                  <div key={i} style={{ position: 'relative' }}>
+                    <span aria-hidden style={{ position: 'absolute', left: -18, top: 5, width: 8, height: 8, borderRadius: 999, background: accent, boxShadow: `0 0 0 3px var(--background)` }} />
+                    <div style={{ fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: accent }}>{b.where}</div>
+                    <div style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.45, color: INK, marginTop: 2, textWrap: 'pretty' }}>{b.what}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* the cast — who's in the room arguing */}
+        {cast && cast.length > 0 && (
+          <div style={{ padding: '18px 16px 2px' }}>
+            <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: FAINT, marginBottom: 11 }}>The cast</div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
+              {cast.map((c, i) => (
+                <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'baseline', padding: '9px 12px', border: `1px solid ${BORDER}`, borderRadius: 10, background: CARD }}>
+                  <span aria-hidden style={{ width: 7, height: 7, borderRadius: 999, background: accent, flexShrink: 0, transform: 'translateY(-1px)' }} />
+                  <span style={{ minWidth: 0 }}>
+                    <b style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 600 }}>{c.name}</b>
+                    <span style={{ fontFamily: SANS, fontSize: 12.5, color: MUTED }}> — {c.role}</span>
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* the famous bits — the set-pieces that tease the read */}
+        {passages && passages.length > 0 && (
+          <div style={{ padding: '18px 16px 2px' }}>
+            <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: FAINT, marginBottom: 11 }}>The famous bits</div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 9 }}>
+              {passages.map((p, i) => (
+                <div key={i} style={{ padding: 12, border: `1px solid ${BORDER}`, borderRadius: 11, background: CARD }}>
+                  <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
+                    <b style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 600, lineHeight: 1.2 }}>{p.title}</b>
+                    <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', color: accent }}>{p.where}</span>
+                  </div>
+                  <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.45, color: MUTED, marginTop: 5, textWrap: 'pretty' }}>{p.teaser}</div>
+                </div>
+              ))}
+            </div>
+          </div>
         )}
 
         {/* list */}

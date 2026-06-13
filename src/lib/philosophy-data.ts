@@ -44,6 +44,18 @@ export interface Thinker {
 }
 
 export interface WorkSection { id: string; title: string; blurb?: string; read?: boolean }
+// Cast + passages are the work-hub "front page" surfaces (who's in it, the set-pieces).
+// Both are gated content, authored from the work's verified fact pack — never from memory.
+export interface WorkCastMember { name: string; role: string }            // an interlocutor + one-line role
+export interface WorkPassage { title: string; where: string; teaser: string }  // a set-piece + which book + the hook
+export interface WorkSpineBeat { where: string; what: string }            // the shape of the argument, beat by beat
+export interface WorkDiagram {   // a "signature" parallel-structure diagram (e.g. the city ↔ the soul)
+  title: string
+  leftLabel: string
+  rightLabel: string
+  rows: { left: string; right: string }[]
+  caption: string
+}
 export interface Work {
   id: string
   title: string
@@ -52,6 +64,11 @@ export interface Work {
   form: string       // "Six meditations", "Ten books", …
   blurb: string      // one or two sentences — what it is
   sections: WorkSection[]
+  stats?: { value: string; label: string }[]  // orienting stat chips
+  diagram?: WorkDiagram      // the signature visual
+  spine?: WorkSpineBeat[]    // the dialogue map / shape of the argument
+  cast?: WorkCastMember[]    // the people arguing (shown on the hub)
+  passages?: WorkPassage[]   // "the famous bits" (shown on the hub)
   read?: boolean
 }
 
@@ -119,7 +136,47 @@ export const THINKERS: Record<string, Thinker> = {
 
 // ── Works (the marquee titles; sections + reads fill in through the pipeline) ──
 export const WORKS: Record<string, Work> = {
-  republic:   { id:'republic',   title:'The Republic',              year:'c.375 BCE', thinker:'plato',     form:'Ten books, in dialogue', blurb:'What is justice — and what would a perfectly just city, and a perfectly just soul, actually look like?', read:true, sections:[] },
+  republic:   { id:'republic',   title:'The Republic',              year:'c.375 BCE', thinker:'plato',     form:'Ten books, in dialogue', blurb:'What is justice — and what would a perfectly just city, and a perfectly just soul, actually look like?', read:true, sections:[],
+    stats: [
+      { value:'10', label:'Books' },
+      { value:'~375 BCE', label:'Written' },
+      { value:'Athens', label:'Set in' },
+    ],
+    diagram: {
+      title:'The city and the soul',
+      leftLabel:'City', rightLabel:'Soul',
+      rows: [
+        { left:'Rulers',    right:'Reason' },
+        { left:'Soldiers',  right:'Spirit' },
+        { left:'Producers', right:'Appetite' },
+      ],
+      caption:'The book’s central move: a city has the same three parts as a soul. Justice is each part doing its own work and not meddling in the others’ — wisdom belongs to the rulers, courage to the soldiers, and temperance holds the whole together.',
+    },
+    spine: [
+      { where:'Book I',       what:'What is justice? Three answers — and Thrasymachus’ attack — all fail.' },
+      { where:'Book II',      what:'Glaucon revives the challenge, so Socrates builds a city to read justice writ large.' },
+      { where:'Books II–IV',  what:'Three classes, the guardians’ education, and the same three parts found inside the soul.' },
+      { where:'Book V',       what:'Three waves: women guardians, families held in common, and the philosopher-king.' },
+      { where:'Books VI–VII', what:'The Good, the Sun, the Divided Line, and the Cave — the climb to real knowledge.' },
+      { where:'Books VIII–IX',what:'City and soul decay through five regimes; the tyrant is the unhappiest man alive.' },
+      { where:'Book X',       what:'Poetry put on trial, and the Myth of Er on how souls choose their next life.' },
+    ],
+    cast: [
+      { name:'Socrates',     role:'narrates the whole conversation the day after' },
+      { name:'Cephalus',     role:'the contented old host; justice is telling the truth and paying your debts' },
+      { name:'Polemarchus',  role:'Cephalus’ son; justice is giving each person their due' },
+      { name:'Thrasymachus', role:'the sophist who bursts in: justice is the interest of the stronger' },
+      { name:'Glaucon',      role:'Plato’s brother; presses the Ring of Gyges challenge' },
+      { name:'Adeimantus',   role:'Plato’s brother; argues justice is praised only for its rewards' },
+    ],
+    passages: [
+      { title:'The Ring of Gyges',        where:'Book II',  teaser:'A ring that turns you invisible — would anyone stay just if they could never be caught?' },
+      { title:'The Royal Lie',            where:'Book III', teaser:'A founding myth that sorts citizens into souls of gold, silver, and bronze.' },
+      { title:'Philosopher-kings',        where:'Book V',   teaser:'The claim Socrates calls almost unsayable: cities will not rest until philosophers rule.' },
+      { title:'The Sun and the Good',     where:'Book VI',  teaser:'The highest thing the mind can reach, said to lie beyond being itself.' },
+      { title:'The Allegory of the Cave', where:'Book VII', teaser:'Prisoners who take the shadows thrown on a wall for the whole of reality.' },
+      { title:'The Myth of Er',           where:'Book X',   teaser:'A soldier returns from death to report how souls choose their next lives.' },
+    ] },
   symposium:  { id:'symposium',  title:'The Symposium',             year:'c.385 BC', thinker:'plato',     form:'A single dinner party', blurb:'Seven speeches on the nature of love, climbing Diotima’s ladder from bodies to Beauty itself.', sections:[] },
   phaedo:     { id:'phaedo',     title:'Phaedo',                    year:'c.380 BC', thinker:'plato',     form:'Socrates’ last day', blurb:'On the soul’s immortality — the dialogue set in the hours before Socrates drinks the hemlock.', sections:[] },
   apology:    { id:'apology',    title:'Apology',                   year:'c.399 BC', thinker:'plato',     form:'A courtroom speech', blurb:'Plato’s account of Socrates’ defense at his trial — the unexamined life is not worth living.', sections:[] },

@@ -41,15 +41,20 @@ export default async function WorkHubPage({ params }: { params: Promise<{ workId
       meta={`${w.year} · ${w.form}`}
       blurb={w.blurb}
       glyph={w.year.replace(/[^\d]/g, '').slice(0, 4) || '·'}
+      stats={w.stats}
       readButton={{
         href: `/philosophy/work/${w.id}/read`,
         title: 'Read it',
-        sub: w.read ? `${w.sections.length} parts, in the house voice — no Latin required` : 'The read is on the way',
+        sub: w.read ? 'The whole work, in the house voice — no Greek required' : 'The read is on the way',
         soon: !w.read,
       }}
+      diagram={w.diagram}
+      spine={w.spine}
+      cast={w.cast}
+      passages={w.passages}
       rowsLabel={w.sections.length ? 'Inside the work' : undefined}
       rows={rows}
-      note={w.sections.length === 0 ? 'The section-by-section breakdown and the full read are being built. Meet the thinker first, above.' : undefined}
+      note={(!w.read && w.sections.length === 0) ? 'The full read is being built. Meet the thinker first, above.' : undefined}
       footerEra={{ href: `/philosophy/thinker/${t.id}`, label: `Back to ${t.name}` }}
     />
   )
