@@ -422,3 +422,123 @@ None of the following appear anywhere in Plato's texts. Each should be listed in
 9. **Plotinus's influence on Augustine** — already verified in era packs §11 (greeks-fact-pack.md §11 + faith-reason-fact-pack.md §2 Augustine entry). The Plato page references this chain for ch7 but relies on the already-verified era-pack material; no new verification needed here, but the coordinator should confirm the chain is consistent across pages before ship.
 
 10. **Whitehead** — "The safest general characterization…" is confirmed from secondary sources; no PD edition of *Process and Reality* exists for a live sourceUrl. The citation (1929, Free Press corrected ed. 1979, p. 39) is the scholarly standard. The author should cite it as such, not link a URL.
+
+---
+
+## §11 — r2 additions (verified)
+
+Fact-checker r2 pass, 2026-06-12. Every claim below was confirmed against web
+sources (Wikipedia, SEP, IEP, Perseus Digital Library, Jowett translation
+excerpts). Added by the reviser in `plato-draft-r2.md`; tagged [VERIFY] inline.
+
+### V1 — Berengar of Poitiers, c. 1150, earliest known Latin "amicus"-type formula
+
+**Confirmed claim:** The earliest known dateable Latin version of the "Amicus
+Plato, sed magis amica veritas" formula — using Socrates rather than Plato — appears
+in a letter by the 12th-century writer Berengar of Poitiers to the bishop of Mende,
+written "towards 1150" (Wikipedia). The text: "Amicus est Socrates, sed magis amica
+est ueritas." This predates Roger Bacon's Opus Majus (c. 1267), which also uses
+Socrates. Newton wrote the Plato version in a student notebook. The formula is a
+medieval paraphrase of Aristotle's NE 1096a sentiment, never a verbatim Aristotle
+quotation.
+
+**Sources:** Wikipedia "Amicus Plato, sed magis amica veritas"; Wikipedia "Berengar
+of Poitiers."
+
+**Precision note for future use:** Some manuscript traditions may carry even earlier
+analogues, but no dateable Latin text earlier than Berengar is currently identified
+in scholarly consensus.
+
+---
+
+### V2 — Theaetetus: three definitions of knowledge, each rejected, aporia
+
+**Confirmed claim:** In the *Theaetetus*, Plato has Socrates examine three
+definitions of knowledge: (1) knowledge is perception (aisthêsis, 151e–187a);
+(2) knowledge is true belief (orthê doxa, 187b–201c); (3) knowledge is true belief
+with an account/logos (meta logou alêthê doxan, 201d–210a). Each definition is
+refuted — D1 through arguments about common notions that sensation cannot supply;
+D2 through the jury counterexample (true belief produced without knowledge); D3
+through collapse of all viable interpretations of what "account/logos" must add.
+The dialogue ends in aporia: no positive definition survives.
+
+**Sources:** SEP "Plato on Knowledge in the Theaetetus"; Wikipedia "Theaetetus
+(dialogue)"; IEP "Plato: Theaetetus."
+
+**Note:** The Theaetetus is a late dialogue in which the Forms play no solving role;
+this is the passage in the r2 draft framed as "the one place Plato interrogates
+knowledge with the Forms set aside rather than pre-loaded as the answer."
+
+---
+
+### V3 — Antiochus of Ascalon: broke with Skeptical Academy; restored positive Platonic doctrine; Cicero as student; founded Middle Platonism
+
+**Confirmed claim:** Antiochus of Ascalon (c. 135/130 – c. 68 BC) was a 1st-
+century BC philosopher who rejected Academic skepticism under Philo of Larissa
+(break c. 88 BC), founded his own "Old Academy" asserting it restored authentic
+original Platonism betrayed by the skeptics of the New Academy, and reasserted
+positive doctrinal Platonism (dogmatism: knowledge is possible). Cicero studied
+under him in Athens, 79 BC, and preserved his doctrines. Middle Platonism is
+conventionally dated from Antiochus's break (~90 BC) to Plotinus (3rd century AD).
+His dogmatic Plato — not the Skeptical Academy's version — is what the Roman world
+inherited.
+
+**Precision note:** Antiochus's synthesis was eclectic (heavily Stoicized), and
+scholars debate whether his "Plato" was genuinely Platonic. His historical role as
+the hinge from Skeptical to doctrinal Platonism is, however, confirmed.
+
+**Sources:** Wikipedia "Antiochus of Ascalon"; Wikipedia "Middle Platonism"; SEP
+"Antiochus of Ascalon."
+
+---
+
+### V4 — Phaedrus Theuth/Thamus myth (274b–277a): writing breeds forgetting and appearance of wisdom
+
+**Confirmed claim:** Plato's *Phaedrus* (274b–277a) contains the myth of the
+Egyptian god Theuth presenting writing to king Thamus as a gift to improve memory
+and wisdom. Thamus refuses, making two objections: (1) writing will produce
+forgetfulness — people who rely on external marks will stop exercising their memory
+and lose it; (2) writing creates only the appearance of wisdom — readers will have
+exposure to many ideas without having understood them, mistaking having read a thing
+for having understood it. Jowett's rendering: Thamus says writing "will create
+forgetfulness in the learners' souls, because they will not use their memories; they
+will trust to the external written characters and not remember of themselves";
+students will be "having the show of wisdom without the reality."
+
+**Note:** "Theuth" is Jowett's transliteration of the Egyptian god (also rendered
+"Thoth" in other traditions). The section runs 274b–277a in the standard Stephanus
+pagination. The myth is followed by Socrates' own commentary drawing the conclusion
+that written texts cannot respond to questions and mislead readers.
+
+**Sources:** GradeSaver Phaedrus 274b–277a summary; LitCharts Phaedrus 274b–279c;
+conversational-leadership.net Myth of Thamus and Theuth; Perseus Digital Library
+Phaedrus page 274; Jowett translation excerpt (katherinewikoff.com 2025).
+
+---
+
+### V5 — Timaeus cosmology: Demiurge uses Forms as blueprints; dialogue traveled separately into Latin Middle Ages
+
+**Confirmed claim (two parts):**
+
+Part A: In the *Timaeus*, a divine craftsman (the Demiurge) shapes the visible
+world by looking to the Forms as his model/blueprints. SEP: "the Craftsman,
+imitating an unchanging and eternal model, imposes mathematical order on a
+preexistent chaos to generate the ordered universe." The model is "something that
+always is" — the eternal intelligible realm — and the craftsman works by ordering
+pre-existing chaos toward it.
+
+Part B: The *Timaeus* traveled separately into the Latin Middle Ages via the
+4th-century Latin translation by Calcidius (a partial translation to 53c, c. 321 CE
+with an extensive commentary). SEP: "Calcidius' Latin translation in the fourth
+century CE made it the only text of Plato available in the Middle Ages in the Latin
+West until the twelfth century." This made it the primary Platonic text shaping
+medieval Christian theology of creation. The 12th-century School of Chartres
+(Thierry of Chartres, William of Conches) wrote Christian commentaries on it,
+connecting it to Genesis and creatio ex nihilo. The reception is confirmed by the
+Cambridge University Press volume *Plato's Timaeus and the Latin Tradition* and
+by multiple scholarly sources noting its role in Augustine, medieval cosmology,
+and Christian Platonism.
+
+**Sources:** SEP "Plato's Timaeus"; Wikipedia "Timaeus"; Wikipedia "Calcidius";
+Wikipedia "Demiurge"; Cambridge University Press *Plato's Timaeus and the Latin
+Tradition*.
