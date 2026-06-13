@@ -329,7 +329,7 @@
 .war-skin .bp-side .cmd { font: 600 13.5px/1.4 var(--sans); color: var(--ink-soft); margin-top: 7px; }
 .war-skin .bp-side .sidenote { font: italic 400 15.5px/1.5 var(--serif); color: var(--ink-soft); margin-top: 10px; }
 .war-skin .bp-vsbadge { align-self: center; margin: 8px 0; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; font: italic 400 14px/1 var(--serif); color: var(--muted); background: var(--paper); }
-.war-skin .bp-note { font: 400 14.5px/1.55 var(--serif); color: var(--ink-soft); margin-top: 18px; border-left: 2px solid var(--accent); padding-left: 14px; }
+.war-skin .bp-note { font: 400 15.5px/1.55 var(--serif); color: var(--ink-soft); margin-top: 18px; border-left: 2px solid var(--accent); padding-left: 14px; }
 .war-skin .bp-note b { font-weight: 600; font-style: normal; color: var(--ink); }
 .war-skin .bp-cas { margin-top: 26px; padding-top: 22px; border-top: 1px solid var(--line-soft); }
 .war-skin .bp-cas .bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; margin-bottom: 9px; }
@@ -337,7 +337,7 @@
 .war-skin .bp-cas .legend { display: flex; gap: 14px; flex-wrap: wrap; }
 .war-skin .bp-cas .legend span { display: inline-flex; align-items: center; gap: 6px; font: 400 13.5px/1 var(--sans); color: var(--ink-soft); }
 .war-skin .bp-cas .legend span i { width: 9px; height: 9px; border-radius: 2px; }
-.war-skin .bp-casnote { margin-top: 10px; font: 400 13px/1.5 var(--sans); color: var(--muted); }
+.war-skin .bp-casnote { margin-top: 11px; font: 400 13.5px/1.65 var(--sans); color: var(--ink-soft); }
 
 /* commanders: photo rows */
 .war-skin .bp-cmd { display: flex; gap: 14px; padding: 17px 0; border-top: 1px solid var(--line-soft); align-items: flex-start; }
@@ -389,8 +389,8 @@
 /* footer — battle tab content drops its big bottom pad so the footer sits close */
 .war-skin .bp-body { padding-bottom: 12px; }
 .war-skin .bp-foot { padding: 18px 18px 54px; border-top: 1px solid var(--line-soft); }
-.war-skin .bp-foot a { display: flex; align-items: center; justify-content: space-between; gap: 14px; font: 600 16px/1.25 var(--serif); color: var(--ink); text-decoration: none; }
-.war-skin .bp-foot a .sub { display: block; font: 600 11px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
+.war-skin .bp-foot a { display: flex; align-items: center; justify-content: space-between; gap: 14px; font: 600 17.5px/1.25 var(--serif); color: var(--ink); text-decoration: none; }
+.war-skin .bp-foot a .sub { display: block; font: 600 12px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); margin-top: 6px; }
 .war-skin .bp-foot a .arr { flex: 0 0 auto; color: var(--muted); }
 
 /* ===================== NARRATIVE READER (.rd-*) =====================
