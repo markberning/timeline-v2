@@ -119,7 +119,7 @@ export const THINKERS: Record<string, Thinker> = {
 
 // ── Works (the marquee titles; sections + reads fill in through the pipeline) ──
 export const WORKS: Record<string, Work> = {
-  republic:   { id:'republic',   title:'The Republic',              year:'c.375 BC', thinker:'plato',     form:'Ten books, in dialogue', blurb:'What is justice — and what would a perfectly just city, and a perfectly just soul, actually look like?', sections:[] },
+  republic:   { id:'republic',   title:'The Republic',              year:'c.375 BCE', thinker:'plato',     form:'Ten books, in dialogue', blurb:'What is justice — and what would a perfectly just city, and a perfectly just soul, actually look like?', read:true, sections:[] },
   symposium:  { id:'symposium',  title:'The Symposium',             year:'c.385 BC', thinker:'plato',     form:'A single dinner party', blurb:'Seven speeches on the nature of love, climbing Diotima’s ladder from bodies to Beauty itself.', sections:[] },
   phaedo:     { id:'phaedo',     title:'Phaedo',                    year:'c.380 BC', thinker:'plato',     form:'Socrates’ last day', blurb:'On the soul’s immortality — the dialogue set in the hours before Socrates drinks the hemlock.', sections:[] },
   apology:    { id:'apology',    title:'Apology',                   year:'c.399 BC', thinker:'plato',     form:'A courtroom speech', blurb:'Plato’s account of Socrates’ defense at his trial — the unexamined life is not worth living.', sections:[] },
