@@ -148,7 +148,7 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, bare = false 
                 // trailing generic picker just because it's last
                 ? <CrumbDropdown crumb={c} emphasized={!!c.active} compact={compact} chip={chip} faint={faint} muted={muted} accent={accent} maxLabel={last ? 124 : 164} />
                 : c.href && !last
-                  ? <a href={c.href} style={{ padding: '2px 1px', color: muted, fontFamily: SANS, fontSize: 11.5, fontWeight: 500, textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
+                  ? <a href={c.href} style={{ padding: '2px 1px', color: muted, fontFamily: SANS, fontSize: 11.5, fontWeight: 500, textDecoration: 'underline', textUnderlineOffset: 2, flex: '0 1 auto', ...ell }}>{text}</a>
                   : <span style={{ padding: '2px 1px', fontFamily: SANS, fontSize: 11.5, color: last ? accent : muted, fontWeight: last ? 700 : 500, flex: '0 1 auto', ...ell }}>{text}</span>}
             </Fragment>
           )
