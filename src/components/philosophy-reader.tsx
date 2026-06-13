@@ -72,13 +72,10 @@ function Fig({ f, hero }: { f: PhiFig; hero?: boolean }) {
 export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: PhiNarr; eyebrow: string; backHref: string; crumbs?: Crumb[] }) {
   const n = narr
   return (
-    <div className="phi-root" style={{ display: 'flex', flexDirection: 'column', height: '100dvh', overflow: 'hidden' }}>
-      <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
-        <WarHeader active="philosophy" title="Western Philosophy" subtitle="Stuff Happened · Philosophy" backHref={backHref} />
-      </div>
+    <div className="phi-root war-skin">
+      <WarHeader active="philosophy" title="Western Philosophy" subtitle="Stuff Happened · Philosophy" backHref={backHref} />
       {crumbs && <WarBreadcrumb crumbs={crumbs} accent={PHI_ACCENT} bare />}
 
-      <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', overflowX: 'hidden' }}>
       <div style={{ padding: '0 20px' }}>
         <a href="#phi-article" className="phi-skip">Skip to article</a>
 
@@ -90,6 +87,22 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
             <h1 className="phi-title">{n.title}</h1>
             <p className="phi-lede">{inline(n.throughline)}</p>
           </div>
+
+          {n.chapters.length > 1 && (
+            <nav className="phi-toc" aria-label="Chapters in this read">
+              <p className="phi-toc-h">Contents</p>
+              <ol className="phi-toc-list">
+                {n.chapters.map((ch) => (
+                  <li key={ch.num}>
+                    <a href={`#phi-ch-${ch.num}`}>
+                      <span className="phi-toc-n">{ch.num}</span>
+                      <span className="phi-toc-t">{ch.title}</span>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
 
           <article id="phi-article" className="phi-body">
             {n.hook.map((p, i) => (
@@ -112,7 +125,7 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
             </section>
 
             {n.chapters.map((ch) => (
-              <section key={ch.num} className="phi-ch">
+              <section key={ch.num} id={`phi-ch-${ch.num}`} className="phi-ch">
                 <p className="phi-ch-ey">Chapter {ch.num}</p>
                 <h2 className="phi-ch-title">{ch.title}</h2>
                 <blockquote className="phi-epi">
@@ -134,7 +147,6 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
           <p>Part of <strong>Philosophy</strong>, the history of Western thought told era by era. More eras on the way.</p>
         </footer>
       </div>
-      </div>
 
       <style>{`
         .phi-root { --bg:#ede5d3; --ink:#2b2722; --soft:#6b6357; --rule:#d8cdb6; --card:#f6f0e2;
@@ -155,6 +167,14 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
         .phi-title { font-size: 42px; line-height: 1.06; font-weight: 600; letter-spacing: -0.01em; margin: 0 0 14px; }
         .phi-lede { font-size: 17.5px; line-height: 1.55; font-style: italic; color: var(--soft); margin: 0 0 8px; }
         .phi-body { max-width: 680px; margin: 18px auto 0; }
+        .phi-toc { max-width: 680px; margin: 20px auto 6px; border: 1px solid var(--rule); border-radius: 10px; background: var(--card); padding: 14px 16px 8px; }
+        .phi-toc-h { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; color: var(--phi-accent); margin: 0 0 11px; }
+        .phi-toc-list { list-style: none; margin: 0; padding: 0; }
+        .phi-toc-list li { margin: 0 0 9px; }
+        .phi-toc-list a { display: flex; align-items: baseline; gap: 11px; text-decoration: none; color: var(--ink); }
+        .phi-toc-n { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px; font-weight: 700; color: var(--phi-accent); flex: 0 0 16px; }
+        .phi-toc-t { font-size: 16px; line-height: 1.35; }
+        .phi-toc-list a:active .phi-toc-t, .phi-toc-list a:hover .phi-toc-t { text-decoration: underline; }
         .phi-p { font-size: 17px; line-height: 1.68; margin: 0 0 20px; }
         .phi-drop::first-letter { float: left; font-size: 58px; line-height: .82; font-weight: 600;
           padding: 6px 10px 0 0; color: var(--phi-accent); }
@@ -170,7 +190,7 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
         .phi-break-tag-after { color: var(--phi-accent); }
         .phi-break-label { font-size: 16px; font-style: italic; line-height: 1.4; }
         .phi-break-p { font-size: 15.5px; margin-top: 16px; }
-        .phi-ch { margin-top: 44px; }
+        .phi-ch { margin-top: 44px; scroll-margin-top: calc(var(--hdr, 56px) + 58px); }
         .phi-ch-ey { font-family: ui-sans-serif, system-ui, sans-serif; color: var(--phi-accent);
           font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; margin: 0 0 6px; }
         .phi-ch-title { font-size: 24px; line-height: 1.18; font-weight: 600; margin: 0 0 16px; letter-spacing: -0.01em; }

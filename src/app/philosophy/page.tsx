@@ -14,7 +14,7 @@ import '../war-civil-war/war-skin.css'
 export const metadata: Metadata = {
   title: 'Philosophy · Stuff Happened',
   description:
-    'The history of Western philosophy as a 2,600-year argument — mapped. Trace who taught whom and who tore it down, browse by school, or read it straight through in five eras.',
+    'The history of Western philosophy as a 2,600-year argument, mapped. Trace who taught whom and who tore it down, browse by school, or read it straight through in five eras.',
 }
 
 const SANS = 'var(--font-geist-sans)'
@@ -26,13 +26,10 @@ const ACCENT = '#a08423'
 
 export default function PhilosophyHome() {
   return (
-    <div style={{ background: 'var(--background)', color: INK, height: '100dvh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
-      <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
-        <WarHeader active="philosophy" title="Western Philosophy" subtitle="Stuff Happened · Philosophy" backHref="/" />
-      </div>
+    <div className="war-skin" style={{ background: 'var(--background)', color: INK, minHeight: '100dvh', fontFamily: SANS }}>
+      <WarHeader active="philosophy" title="Western Philosophy" subtitle="Stuff Happened · Philosophy" backHref="/" />
       <WarBreadcrumb crumbs={homeCrumbs()} accent={PHI_ACCENT} bare />
 
-      <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', overflowX: 'hidden' }}>
       <main style={{ maxWidth: 640, margin: '0 auto', width: '100%' }}>
         {/* hero — Raphael's School of Athens; an <img> so the corpus-wide GlobalImageZoom lightboxes it */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -53,20 +50,15 @@ export default function PhilosophyHome() {
             2,600 years of people refusing to agree.
           </h1>
           <p style={{ fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: MUTED, margin: '10px 0 0', maxWidth: 520 }}>
-            Not a reading list — a conversation. The lines are who taught whom, and who showed up centuries later to tear it down. Tap anyone to read them.
+            Not a reading list but a conversation. The lines are who taught whom, and who showed up centuries later to tear it down. Tap anyone to read them.
           </p>
         </div>
 
         {/* browse: eras · schools · thinkers · tree, toggled */}
         <HomeBrowse />
 
-        <div style={{ padding: '18px 16px 44px' }}>
-          <p style={{ fontFamily: SANS, fontSize: 14, color: FAINT, lineHeight: 1.55, margin: 0 }}>
-            The deep reads — each thinker’s whole system, each work walked chapter by chapter — are filling in school by school.
-          </p>
-        </div>
+        <div style={{ height: 40 }} />
       </main>
-      </div>
     </div>
   )
 }
