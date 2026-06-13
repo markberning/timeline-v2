@@ -88,7 +88,19 @@ export function DottedMap({
   for (let la = Math.ceil(latMin); la <= latMax; la++) hlines.push(la)
   // draw focus states last so they sit on top
   const ordered = [...states].sort((a, b) => (a.tone === 'focus' ? 1 : 0) - (b.tone === 'focus' ? 1 : 0))
-  const labelColor = (k?: string) => k === 'accent' ? alpha(accent, 0.65) : k === 'water' ? water : FG(0.4)
+  const labelColor = (k?: string) => k === 'accent' ? alpha(accent, 0.72) : k === 'water' ? water : FG(0.62)
+  // Keep free labels inside the frame: estimate text width and shift x so a label
+  // never starts or runs off the map edge. Only adjusts labels that would overflow;
+  // well-placed labels are untouched.
+  const clampLabelX = (x: number, anchor: string, text: string, size: number) => {
+    const w = text.length * size * 0.6 + Math.max(0, text.length - 1) * 0.5
+    let left = anchor === 'start' ? x : anchor === 'end' ? x - w : x - w / 2
+    let right = left + w
+    const m = 4
+    if (right > W - m) { const d = right - (W - m); x -= d; left -= d; right -= d }
+    if (left < m) { x += m - left }
+    return x
+  }
 
   return (
     <div style={{ padding: inset ? '20px 16px 22px' : 0, borderBottom: inset ? `1px solid ${BORDER}` : 'none' }}>
@@ -121,9 +133,12 @@ export function DottedMap({
           {states.filter(st => st.label).map(st => (
             <text key={`l${st.name}`} x={X(st.labelLon!)} y={Y(st.labelLat!)} fontFamily={MONO} fontSize={st.labelSize ?? 19} fontWeight={700} letterSpacing={1.8} fill={toneLabel(st.tone, st.color)} textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={5.5} strokeLinejoin="round">{st.label}</text>
           ))}
-          {labels.map((l, i) => (
-            <text key={`f${i}`} x={X(l.lon)} y={Y(l.lat)} fontFamily={MONO} fontSize={l.size ?? 15} letterSpacing={0.5} fill={labelColor(l.kind)} textAnchor={l.anchor ?? 'middle'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3.6}>{l.text}</text>
-          ))}
+          {labels.map((l, i) => {
+            const fs = l.size ?? 16
+            return (
+              <text key={`f${i}`} x={clampLabelX(X(l.lon), l.anchor ?? 'middle', l.text, fs)} y={Y(l.lat)} fontFamily={MONO} fontSize={fs} fontWeight={600} letterSpacing={0.5} fill={labelColor(l.kind)} textAnchor={l.anchor ?? 'middle'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3.8}>{l.text}</text>
+            )
+          })}
           {corridor && (
             <>
               <line x1={X(corridor.fromLon)} y1={Y(corridor.fromLat)} x2={X(corridor.toLon)} y2={Y(corridor.toLat)} stroke={FG(0.5)} strokeWidth={1.5} strokeDasharray="2 4" />
@@ -223,7 +238,7 @@ export function DottedMap({
           })}
         </svg>
       </div>
-      {caption && <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 10.5, color: FG(0.45) }}>{caption}</div>}
+      {caption && <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 11.5, lineHeight: 1.45, color: FG(0.62) }}>{caption}</div>}
     </div>
   )
 }
