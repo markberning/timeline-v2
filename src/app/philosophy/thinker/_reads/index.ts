@@ -10,6 +10,7 @@ import { SOCRATES } from './socrates'
 import { HUME } from './hume'
 import { DESCARTES } from './descartes'
 import { ARISTOTLE } from './aristotle'
+import { KANT } from './kant'
 
 export interface ThinkerRead { narr: PhiNarr; eyebrow: string }
 
@@ -19,6 +20,7 @@ export const THINKER_READS: Record<string, ThinkerRead> = {
   aristotle: { narr: ARISTOTLE, eyebrow: 'Aristotelians' },
   hume: { narr: HUME, eyebrow: 'Empiricists' },
   descartes: { narr: DESCARTES, eyebrow: 'Rationalists' },
+  kant: { narr: KANT, eyebrow: 'German Idealists' },
 }
 
 export const hasRead = (id: string): boolean => id in THINKER_READS
