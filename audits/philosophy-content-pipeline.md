@@ -137,6 +137,24 @@ Philosophy suffers TWO inherited-error classes, and the fact-checker hunts both:
    comparisons are the #1 comprehension tool; never bury a substantive line in
    muted/italic). Philosophy has good jokes — Diogenes alone is a sitcom — use
    them, but the wit serves the idea, never substitutes for it.
+   **VOICE RESTRAINT — talk TO a smart reader, never AT them (locked 2026-06-13,
+   `memory/feedback_philosophy_voice_plain`).** This is a ship-blocking voice axis,
+   not a nicety. REJECT and require rewrite for any of: (a) reader-commands /
+   second-person imperatives — "Read that again," "Watch," "Picture," "Imagine,"
+   "Sit with," "Feel the pull," "Hold that," "Run his question," "Notice that…"
+   (state the idea and let the reader react; this is the #1 offense); (b)
+   meta-narration / throat-clearing — "here is the part people miss," "here's the
+   thing," "it's more interesting than the slogan" (if it's interesting, just tell
+   it); (c) self-labeled asides — "a small honesty note," "the plain-language
+   version, the one you could say at dinner," "the dinner-table version" (say the
+   point plainly — keep the plain restatement, drop the label); (d) condescension —
+   glossing BC/AD arithmetic or anything a smart reader already knows; (e) vague
+   gestures referencing nothing concrete. Worked examples and the steelman stay —
+   they convert to plain third-person narration ("a man badly needs money," not
+   "you badly need money"), never to reader-coaching. The author writes this way
+   from the first draft; the reviser enforces it; voice-only fixes must never
+   touch a verified quote, fact, or structure (the era-5 don't-fix-correct-quotes
+   rule).
 3. **Comprehensiveness critic** (Sonnet, web-enabled) — independent must-cover
    checklist; COVERED/THIN/MISSING; MUST-ADD vs SHOULD-CONSIDER. Selective is
    correct — flag only genuinely essential gaps. Special philosophy duty: the
