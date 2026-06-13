@@ -15,6 +15,7 @@ import { AQUINAS } from './aquinas'
 import { ZENO_CITIUM } from './zeno-citium'
 import { MARCUS_AURELIUS } from './marcus-aurelius'
 import { NIETZSCHE } from './nietzsche'
+import { AUGUSTINE } from './augustine'
 
 export interface ThinkerRead { narr: PhiNarr; eyebrow: string }
 
@@ -29,6 +30,7 @@ export const THINKER_READS: Record<string, ThinkerRead> = {
   zeno: { narr: ZENO_CITIUM, eyebrow: 'Stoics' },
   aurelius: { narr: MARCUS_AURELIUS, eyebrow: 'Stoics' },
   nietzsche: { narr: NIETZSCHE, eyebrow: 'Independent' },
+  augustine: { narr: AUGUSTINE, eyebrow: 'Platonism' },
 }
 
 export const hasRead = (id: string): boolean => id in THINKER_READS
