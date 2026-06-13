@@ -6,10 +6,12 @@
 // with battle dots, capital markers, an optional capital-to-capital corridor, and free
 // labels. Used by the theatre maps and the war home.
 
+import { useState } from 'react'
 import { US_STATE_OUTLINES } from '@/lib/us-state-outlines'
 import { CA_PROVINCE_OUTLINES } from '@/lib/ca-province-outlines'
 import { LAKE_OUTLINES } from '@/lib/lake-outlines'
 import { alpha } from '@/components/mode/war-chrome'
+import { Lightbox } from '@/components/lightbox'
 
 const SANS = 'var(--font-geist-sans)'
 const MONO = 'var(--font-geist-mono)'
@@ -43,11 +45,12 @@ export type FreeLabel = { text: string; lon: number; lat: number; kind?: 'accent
 export type LakeSpec = { name: string; label?: string; labelLon?: number; labelLat?: number; labelSize?: number; labelAnchor?: 'start' | 'middle' | 'end' }
 
 export function DottedMap({
-  eyebrow, caption, accent, frame, states, dots = [], capitals = [], corridor, rivers = [], lakes = [], labels = [], callouts = [], vbWidth = 680, vbHeight, geoInset, inset = true,
+  eyebrow, caption, accent, frame, states, dots = [], capitals = [], corridor, rivers = [], lakes = [], labels = [], callouts = [], vbWidth = 680, vbHeight, geoInset, inset = true, zoomable = true,
 }: {
   eyebrow?: string; caption?: string; accent: string; frame: Frame
-  states: StateSpec[]; dots?: Dot[]; capitals?: Capital[]; corridor?: Corridor; rivers?: River[]; lakes?: LakeSpec[]; labels?: FreeLabel[]; callouts?: Callout[]; vbWidth?: number; vbHeight?: number; geoInset?: { l?: number; r?: number; t?: number; b?: number }; inset?: boolean
+  states: StateSpec[]; dots?: Dot[]; capitals?: Capital[]; corridor?: Corridor; rivers?: River[]; lakes?: LakeSpec[]; labels?: FreeLabel[]; callouts?: Callout[]; vbWidth?: number; vbHeight?: number; geoInset?: { l?: number; r?: number; t?: number; b?: number }; inset?: boolean; zoomable?: boolean
 }) {
+  const [lbOpen, setLbOpen] = useState(false)
   const { lonMin, lonMax, latMin, latMax } = frame
   const midLat = (latMin + latMax) / 2, kx = Math.cos(midLat * Math.PI / 180), pad = 24
   const rawW = (lonMax - lonMin) * kx, rawH = (latMax - latMin)
@@ -102,10 +105,7 @@ export function DottedMap({
     return x
   }
 
-  return (
-    <div style={{ padding: inset ? '20px 16px 22px' : 0, borderBottom: inset ? `1px solid ${BORDER}` : 'none' }}>
-      {eyebrow && <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: accent }}>{eyebrow}</div>}
-      <div style={{ marginTop: eyebrow ? 12 : 0, borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}`, background: CARD }}>
+  const svgEl = (
         <svg viewBox={`0 0 ${W} ${H}`} style={{ width: '100%', height: 'auto', display: 'block' }}>
           {vlines.map(lo => <line key={`v${lo}`} x1={X(lo)} y1={0} x2={X(lo)} y2={H} stroke={GRID} strokeWidth={1} />)}
           {hlines.map(la => <line key={`h${la}`} x1={0} y1={Y(la)} x2={W} y2={Y(la)} stroke={GRID} strokeWidth={1} />)}
@@ -237,8 +237,21 @@ export function DottedMap({
             )
           })}
         </svg>
+  )
+
+  return (
+    <div style={{ padding: inset ? '20px 16px 22px' : 0, borderBottom: inset ? `1px solid ${BORDER}` : 'none' }}>
+      {eyebrow && <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: accent }}>{eyebrow}</div>}
+      <div style={{ position: 'relative', marginTop: eyebrow ? 12 : 0, borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}`, background: CARD }}>
+        {svgEl}
+        {zoomable && (
+          <button onClick={() => setLbOpen(true)} aria-label="Enlarge map" style={{ position: 'absolute', top: 8, right: 8, width: 30, height: 30, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 7, border: `1px solid ${BORDER}`, background: FG(0.07), color: FG(0.7), cursor: 'zoom-in', WebkitBackdropFilter: 'blur(2px)', backdropFilter: 'blur(2px)' }}>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" /></svg>
+          </button>
+        )}
       </div>
       {caption && <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 11.5, lineHeight: 1.45, color: FG(0.62) }}>{caption}</div>}
+      {zoomable && lbOpen && <Lightbox node={<div style={{ padding: 14 }}>{svgEl}</div>} caption={caption} onClose={() => setLbOpen(false)} />}
     </div>
   )
 }

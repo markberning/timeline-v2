@@ -1,10 +1,11 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState, useRef, type ReactNode } from 'react'
 
 interface LightboxProps {
-  src: string
-  alt: string
+  src?: string
+  alt?: string
+  node?: ReactNode   // vector content (e.g. a dotted map SVG) shown instead of an <img>
   onClose: () => void
   caption?: string
 }
@@ -13,7 +14,7 @@ const DOUBLE_TAP_SCALE = 2.5
 const DOUBLE_TAP_MS = 300
 const SWIPE_DOWN_THRESHOLD = 80
 
-export function Lightbox({ src, alt, onClose, caption }: LightboxProps) {
+export function Lightbox({ src, alt, node, onClose, caption }: LightboxProps) {
   const [scale, setScale] = useState(1)
   const [translate, setTranslate] = useState({ x: 0, y: 0 })
   const lastDistance = useRef(0)
@@ -163,13 +164,27 @@ export function Lightbox({ src, alt, onClose, caption }: LightboxProps) {
       >
         ×
       </button>
-      <img
-        src={src}
-        alt={alt}
-        className="max-w-full max-h-full object-contain"
-        style={{ transform: `translate(${translate.x}px, ${translate.y}px) scale(${scale})` }}
-        draggable={false}
-      />
+      {node ? (
+        <div
+          className="max-w-full max-h-full"
+          style={{
+            width: 'min(96vw, 1000px)', maxHeight: '92vh', overflow: 'auto',
+            background: 'var(--background)', borderRadius: 8,
+            transform: `translate(${translate.x}px, ${translate.y}px) scale(${scale})`,
+            transformOrigin: 'center',
+          }}
+        >
+          {node}
+        </div>
+      ) : (
+        <img
+          src={src}
+          alt={alt}
+          className="max-w-full max-h-full object-contain"
+          style={{ transform: `translate(${translate.x}px, ${translate.y}px) scale(${scale})` }}
+          draggable={false}
+        />
+      )}
       {caption && scale <= 1.05 && (
         <div className="absolute bottom-0 left-0 right-0 px-6 pb-6 pt-10 text-center text-[12px] leading-snug text-white/70 pointer-events-none" style={{ background: 'linear-gradient(180deg, transparent, rgba(0,0,0,0.6))' }}>
           {caption}
