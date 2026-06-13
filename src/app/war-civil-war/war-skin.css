@@ -325,9 +325,9 @@
 .war-skin .bp-side.u .tag { color: var(--union); } .war-skin .bp-side.u .tag .sq { background: var(--union); }
 .war-skin .bp-side.c .tag { color: var(--confed); } .war-skin .bp-side.c .tag .sq { background: var(--confed); }
 .war-skin .bp-side .force { font: 600 19px/1.18 var(--serif); margin: 10px 0 3px; color: var(--ink); }
-.war-skin .bp-side .str { font: 600 13.5px/1.35 var(--sans); color: var(--ink-soft); }
-.war-skin .bp-side .cmd { font: 400 13.5px/1.4 var(--sans); color: var(--muted); margin-top: 7px; }
-.war-skin .bp-side .sidenote { font: italic 400 14.5px/1.45 var(--serif); color: var(--ink-soft); margin-top: 10px; }
+.war-skin .bp-side .str { font: 400 13.5px/1.35 var(--sans); color: var(--ink-soft); }
+.war-skin .bp-side .cmd { font: 600 13.5px/1.4 var(--sans); color: var(--ink-soft); margin-top: 7px; }
+.war-skin .bp-side .sidenote { font: italic 400 15.5px/1.5 var(--serif); color: var(--ink-soft); margin-top: 10px; }
 .war-skin .bp-vsbadge { align-self: center; margin: 8px 0; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; font: italic 400 14px/1 var(--serif); color: var(--muted); background: var(--paper); }
 .war-skin .bp-note { font: 400 14.5px/1.55 var(--serif); color: var(--ink-soft); margin-top: 18px; border-left: 2px solid var(--accent); padding-left: 14px; }
 .war-skin .bp-note b { font-weight: 600; font-style: normal; color: var(--ink); }
