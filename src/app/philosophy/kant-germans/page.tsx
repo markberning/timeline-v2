@@ -7,6 +7,7 @@
 import type { Metadata } from 'next'
 import { KANT_GERMANS } from './narrative'
 import { PhilosophyReader } from '@/components/philosophy-reader'
+import { eraCrumbs } from '@/components/philosophy/phi-chrome'
 
 export const metadata: Metadata = {
   title: 'Kant and the Germans · Philosophy · Stuff Happened',
@@ -15,5 +16,5 @@ export const metadata: Metadata = {
 }
 
 export default function KantGermansEraPage() {
-  return <PhilosophyReader narr={KANT_GERMANS} eyebrow="The fourth era" backHref="/philosophy" />
+  return <PhilosophyReader narr={KANT_GERMANS} eyebrow="The fourth era" backHref="/philosophy" crumbs={eraCrumbs('kant-germans')} />
 }

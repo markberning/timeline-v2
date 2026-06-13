@@ -7,6 +7,7 @@
 import type { Metadata } from 'next'
 import { RATIONALISTS_EMPIRICISTS } from './narrative'
 import { PhilosophyReader } from '@/components/philosophy-reader'
+import { eraCrumbs } from '@/components/philosophy/phi-chrome'
 
 export const metadata: Metadata = {
   title: 'The rationalists and the empiricists · Philosophy · Stuff Happened',
@@ -15,5 +16,5 @@ export const metadata: Metadata = {
 }
 
 export default function RationalistsEmpiricistsEraPage() {
-  return <PhilosophyReader narr={RATIONALISTS_EMPIRICISTS} eyebrow="The third era" backHref="/philosophy" />
+  return <PhilosophyReader narr={RATIONALISTS_EMPIRICISTS} eyebrow="The third era" backHref="/philosophy" crumbs={eraCrumbs('rationalists-empiricists')} />
 }

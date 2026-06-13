@@ -7,6 +7,7 @@
 import type { Metadata } from 'next'
 import { NINETEENTH_CENTURY } from './narrative'
 import { PhilosophyReader } from '@/components/philosophy-reader'
+import { eraCrumbs } from '@/components/philosophy/phi-chrome'
 
 export const metadata: Metadata = {
   title: 'The nineteenth century · Philosophy · Stuff Happened',
@@ -15,5 +16,5 @@ export const metadata: Metadata = {
 }
 
 export default function NineteenthCenturyEraPage() {
-  return <PhilosophyReader narr={NINETEENTH_CENTURY} eyebrow="The fifth era" backHref="/philosophy" />
+  return <PhilosophyReader narr={NINETEENTH_CENTURY} eyebrow="The fifth era" backHref="/philosophy" crumbs={eraCrumbs('nineteenth-century')} />
 }

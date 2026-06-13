@@ -7,8 +7,9 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { WarHeader } from '@/components/mode/war-header'
-import { ArgumentMap } from '@/components/philosophy/argument-map'
-import { SCHOOLS, thinkersOfSchool } from '@/lib/philosophy-data'
+import { WarBreadcrumb } from '@/components/mode/war-chrome'
+import { HomeBrowse } from '@/components/philosophy/home-browse'
+import { homeCrumbs, PHI_ACCENT } from '@/components/philosophy/phi-chrome'
 import '../war-civil-war/war-skin.css'
 
 export const metadata: Metadata = {
@@ -39,10 +40,11 @@ const lbl = { fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: '1
 
 export default function PhilosophyHome() {
   return (
-    <div style={{ background: 'var(--background)', color: INK, minHeight: '100vh' }}>
-      <div className="war-skin" style={{ position: 'sticky', top: 0, zIndex: 20, minHeight: 0, background: 'transparent' }}>
+    <div style={{ background: 'var(--background)', color: INK, minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
         <WarHeader active="philosophy" title="Philosophy" subtitle="Stuff Happened · Philosophy" backHref="/" />
       </div>
+      <WarBreadcrumb crumbs={homeCrumbs()} accent={PHI_ACCENT} bare />
 
       <main style={{ maxWidth: 640, margin: '0 auto' }}>
         {/* intro */}
@@ -56,32 +58,8 @@ export default function PhilosophyHome() {
           </p>
         </div>
 
-        {/* the argument map */}
-        <div style={{ padding: '12px 0 8px' }}>
-          <ArgumentMap />
-        </div>
-
-        {/* browse by school */}
-        <div style={{ padding: '14px 16px 6px' }}>
-          <div style={{ ...lbl, marginBottom: 11 }}>Browse by school</div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            {SCHOOLS.map(s => (
-              <Link key={s.id} href={`/philosophy/school/${s.id}`} style={{
-                display: 'flex', alignItems: 'center', gap: 12, padding: '11px 12px', borderRadius: 10,
-                border: `1px solid ${BORDER}`, background: CARD, textDecoration: 'none', color: INK,
-              }}>
-                <span aria-hidden style={{ width: 14, height: 36, flexShrink: 0, borderRadius: 4, background: `linear-gradient(${s.color}, color-mix(in srgb, ${s.color} 55%, #211f1b))` }} />
-                <span style={{ flex: 1, minWidth: 0 }}>
-                  <span style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
-                    <b style={{ fontFamily: SERIF, fontSize: 16.5, fontWeight: 600 }}>{s.name}</b>
-                    <span style={{ fontFamily: SANS, fontSize: 10.5, color: FAINT, flexShrink: 0 }}>{thinkersOfSchool(s.id).length} · {s.range}</span>
-                  </span>
-                  <span style={{ display: 'block', fontFamily: SERIF, fontSize: 13, color: MUTED, marginTop: 3, lineHeight: 1.4 }}>{s.oneLine}</span>
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
+        {/* browse: tree (argument map) ↔ schools, toggled */}
+        <HomeBrowse />
 
         {/* read it straight through */}
         <div style={{ padding: '20px 16px 6px' }}>

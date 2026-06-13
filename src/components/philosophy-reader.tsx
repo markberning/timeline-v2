@@ -9,6 +9,8 @@
 
 import type { ReactNode } from 'react'
 import { WarHeader } from '@/components/mode/war-header'
+import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
+import { PHI_ACCENT } from '@/components/philosophy/phi-chrome'
 import '../app/war-civil-war/war-skin.css'
 
 // Self-contained narrative shape (structurally identical to each narrative.ts's
@@ -67,13 +69,14 @@ function Fig({ f, hero }: { f: PhiFig; hero?: boolean }) {
   )
 }
 
-export function PhilosophyReader({ narr, eyebrow, backHref }: { narr: PhiNarr; eyebrow: string; backHref: string }) {
+export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: PhiNarr; eyebrow: string; backHref: string; crumbs?: Crumb[] }) {
   const n = narr
   return (
     <div className="phi-root">
-      <div className="war-skin" style={{ position: 'sticky', top: 0, zIndex: 20, minHeight: 0, background: 'transparent' }}>
+      <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
         <WarHeader active="philosophy" title="Philosophy" subtitle="Stuff Happened · Philosophy" backHref={backHref} />
       </div>
+      {crumbs && <WarBreadcrumb crumbs={crumbs} accent={PHI_ACCENT} bare />}
 
       <div style={{ padding: '0 20px' }}>
         <a href="#phi-article" className="phi-skip">Skip to article</a>

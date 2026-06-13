@@ -6,7 +6,7 @@
 
 import type { ReactNode } from 'react'
 import { WarHeader } from '@/components/mode/war-header'
-import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
+import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import {
   SCHOOLS, schoolById, thinkerById, thinkersOfSchool, worksOfThinker, type SchoolId,
 } from '@/lib/philosophy-data'
@@ -22,6 +22,32 @@ const CARD = 'color-mix(in srgb, var(--foreground) 4%, transparent)'
 export const PHI_ACCENT = '#a08423'
 
 // ── crumb builders (each active crumb carries its siblings as a jump dropdown) ──
+
+// The five chronological era reads, as crumb-dropdown options (the "read it straight
+// through" track — parallel to the school taxonomy, not inside it).
+export const ERA_CRUMB_OPTIONS: CrumbOption[] = [
+  { label: 'The Greeks', href: '/philosophy/greeks' },
+  { label: 'Faith meets reason', href: '/philosophy/faith-reason' },
+  { label: 'Rationalists & empiricists', href: '/philosophy/rationalists-empiricists' },
+  { label: 'Kant & the Germans', href: '/philosophy/kant-germans' },
+  { label: 'The nineteenth century', href: '/philosophy/nineteenth-century' },
+]
+
+// Home crumb — the bar is present on every philosophy surface for a consistent trail;
+// at the root it is just the section label (no parent to climb to).
+export function homeCrumbs(): Crumb[] {
+  return [{ label: 'Philosophy', active: true, currentLabel: 'Philosophy' }]
+}
+
+// Era-read crumb: Philosophy › <era>, the era crumb a jump-dropdown across all five.
+export function eraCrumbs(eraId: string): Crumb[] {
+  const cur = ERA_CRUMB_OPTIONS.find(e => e.href === `/philosophy/${eraId}`)
+  return [
+    { label: 'Philosophy', href: '/philosophy' },
+    { label: cur?.label ?? 'Era', active: true, currentLabel: cur?.label, options: ERA_CRUMB_OPTIONS },
+  ]
+}
+
 export function schoolCrumbs(id: SchoolId): Crumb[] {
   const s = schoolById(id)!
   return [

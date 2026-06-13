@@ -5,6 +5,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { PhilosophyReader } from '@/components/philosophy-reader'
+import { thinkerCrumbs } from '@/components/philosophy/phi-chrome'
 import { thinkerById } from '@/lib/philosophy-data'
 import { THINKER_READS, READ_IDS } from '../../_reads'
 
@@ -22,5 +23,5 @@ export default async function ThinkerSystemPage({ params }: { params: Promise<{ 
   const { thinkerId } = await params
   const entry = THINKER_READS[thinkerId]
   if (!entry) notFound()
-  return <PhilosophyReader narr={entry.narr} eyebrow={entry.eyebrow} backHref={`/philosophy/thinker/${thinkerId}`} />
+  return <PhilosophyReader narr={entry.narr} eyebrow={entry.eyebrow} backHref={`/philosophy/thinker/${thinkerId}`} crumbs={thinkerCrumbs(thinkerId)} />
 }

@@ -7,6 +7,7 @@
 import type { Metadata } from 'next'
 import { FAITH_REASON } from './narrative'
 import { PhilosophyReader } from '@/components/philosophy-reader'
+import { eraCrumbs } from '@/components/philosophy/phi-chrome'
 
 export const metadata: Metadata = {
   title: 'Faith meets reason · Philosophy · Stuff Happened',
@@ -15,5 +16,5 @@ export const metadata: Metadata = {
 }
 
 export default function FaithReasonEraPage() {
-  return <PhilosophyReader narr={FAITH_REASON} eyebrow="The second era" backHref="/philosophy" />
+  return <PhilosophyReader narr={FAITH_REASON} eyebrow="The second era" backHref="/philosophy" crumbs={eraCrumbs('faith-reason')} />
 }
