@@ -81,7 +81,7 @@ export const REVOLUTION: WarConfig = {
     { id: 'rev-stony-point', name: 'Stony Point', year: 1779, m: 7, mo: 'Jul', place: 'Stony Point, NY', theatre: 'rev-battles', region: 'middle', size: 's', href: '/war-revolution/battles/stony-point', img: '/war-img/rev-stony-point-card.jpg' },
     { id: 'rev-bonhomme-richard', name: 'Bonhomme Richard vs. Serapis', year: 1779, m: 9, mo: 'Sep', place: 'Off Flamborough Head, England', theatre: 'rev-battles', region: 'wider', size: 'm', href: '/war-revolution/battles/bonhomme-richard', img: '/war-img/rev-bonhomme-richard-card.jpg' },
     { id: 'rev-savannah', name: 'Savannah', year: 1779, m: 10, mo: 'Oct', place: 'Savannah, GA', theatre: 'rev-battles', region: 'south', size: 'm', href: '/war-revolution/battles/savannah', img: '/war-img/rev-savannah-card.jpg' },
-    { id: 'rev-charleston', name: 'Charleston', year: 1780, m: 5, mo: 'May', place: 'Charleston, SC', theatre: 'rev-battles', region: 'south', size: 'm' },
+    { id: 'rev-charleston', name: 'Charleston', year: 1780, m: 5, mo: 'May', place: 'Charleston, SC', theatre: 'rev-battles', region: 'south', size: 'm', href: '/war-revolution/battles/charleston', img: '/war-img/rev-charleston-card.jpg' },
     { id: 'rev-camden', name: 'Camden', year: 1780, m: 8, mo: 'Aug', place: 'Camden, SC', theatre: 'rev-battles', region: 'south', size: 'm' },
     { id: 'rev-kings-mountain', name: "Kings Mountain", year: 1780, m: 10, mo: 'Oct', place: 'York Co., SC', theatre: 'rev-battles', region: 'south', size: 'l' },
     // ── The Southern Turn & Yorktown (1781) ──

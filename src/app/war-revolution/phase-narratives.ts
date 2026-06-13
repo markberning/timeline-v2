@@ -724,8 +724,7 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "pill": "/war-revolution/battles/bonhomme-richard",
-        "plabel": "Bonhomme Richard vs Serapis: the full battle story",
-        "soon": true
+        "plabel": "Bonhomme Richard vs Serapis: the full battle story"
       },
       {
         "p": "The West Indies front opened at once. The roughly 5,000 men Clinton had detached took St. Lucia in December 1778 and held it against the French fleet and a counter-landing, and for the rest of the war islands changed hands, Dominica and Grenada and St. Vincent passing to France, in a theater Americans rarely saw but which governed when French ships could come north at all. The same navy that decides whether Washington can ever trap a British army is, in any given month, off Martinique chasing sugar. Every French appearance on the American coast was a loan against the Caribbean calendar, and the fleets ran north only in hurricane season, roughly July through October."
@@ -745,16 +744,14 @@ export const PHASE_NARR: Record<string, Narr> = {
       },
       {
         "pill": "/war-revolution/battles/savannah",
-        "plabel": "Savannah: the full battle story",
-        "soon": true
+        "plabel": "Savannah: the full battle story"
       },
       {
         "p": "Then Clinton came south himself, sailing from New York in late December 1779 with about 8,700 men, reinforced toward 13,000 or 14,000, and laid siege to Charleston by land and sea. Major General Benjamin Lincoln, sealed inside the city with the civil government pressing him to defend it, surrendered on May 12, 1780: about 5,500 men, the standard figure though sources range from 5,000 to 6,000, perhaps half of them Continentals, along with the city, its ships, and hundreds of guns. It was the largest American surrender of the war, often called the worst American capitulation until Bataan in 1942. The defeated men were granted parole, a sworn promise to go home and not take up arms again in exchange for their freedom. Clinton sailed back to New York, expecting a French expedition northward, and left Lord Cornwallis about 8,300 men to hold and extend the conquest."
       },
       {
         "pill": "/war-revolution/battles/charleston",
-        "plabel": "Charleston: the full battle story",
-        "soon": true
+        "plabel": "Charleston: the full battle story"
       },
       {
         "p": "Then, on June 3, 1780, Clinton issued the proclamation that undid his own victory. It tore up the paroles: every man who had sworn to sit the war out was now required to take an active oath to the Crown and turn out to fight for it, so a promise kept turned into a trap, and neutrals became enemies at a stroke. One day earlier and an ocean away, on June 2, London had begun to burn. The same world war was pressing on both ends of the empire in the same week, though the home-front fire is a thread the next section picks up; here the point is the local one, that the proclamation made every Carolinian who had laid down his arms choose a side again."
