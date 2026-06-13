@@ -105,6 +105,7 @@ export function workCrumbs(workId: string, thinkerId: string): Crumb[] {
 // ── row + hub layout ──────────────────────────────────────────────────────────
 export interface HubRow {
   glyph: string
+  iconId?: string    // when set, render /philosophy/icons/{iconId}.png instead of the letter
   tint: string
   title: string
   sub?: string
@@ -115,7 +116,7 @@ export interface HubRow {
 }
 
 export function PhiHub({
-  crumbs, accent, eyebrow, title, meta, blurb, glyph, stats, readButton, rowsLabel, rows, note, footerEra,
+  crumbs, accent, eyebrow, title, meta, blurb, glyph, iconId, stats, readButton, rowsLabel, rows, note, footerEra,
 }: {
   crumbs: Crumb[]
   accent: string
@@ -124,6 +125,7 @@ export function PhiHub({
   meta?: string
   blurb?: ReactNode
   glyph?: string
+  iconId?: string
   stats?: { value: string; label: string }[]
   readButton?: { href: string; title: string; sub: string; soon?: boolean }
   rowsLabel?: string
@@ -139,12 +141,17 @@ export function PhiHub({
       <main style={{ maxWidth: 640, margin: '0 auto', width: '100%' }}>
         {/* hero */}
         <div style={{ padding: '18px 16px 16px', display: 'flex', gap: 14, alignItems: 'flex-start' }}>
-          {glyph && (
+          {(glyph || iconId) && (
             <div aria-hidden style={{
               width: 64, height: 64, flexShrink: 0, borderRadius: 14, display: 'flex', alignItems: 'center', justifyContent: 'center',
               background: `linear-gradient(150deg, ${accent}, color-mix(in srgb, ${accent} 45%, #211f1b))`,
               fontFamily: SERIF, fontSize: 30, fontWeight: 600, color: 'rgba(255,255,255,.92)', textShadow: '0 1px 3px rgba(0,0,0,.35)',
-            }}>{glyph}</div>
+            }}>
+              {iconId
+                /* eslint-disable-next-line @next/next/no-img-element */
+                ? <img src={`/philosophy/icons/${iconId}.png`} alt="" data-no-zoom style={{ width: 38, height: 38, opacity: 0.95 }} />
+                : glyph}
+            </div>
           )}
           <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: '.16em', textTransform: 'uppercase', color: accent }}>{eyebrow}</div>
@@ -197,7 +204,12 @@ export function PhiHub({
                   width: 46, height: 46, flexShrink: 0, borderRadius: r.square ? 8 : 10, display: 'flex', alignItems: 'center', justifyContent: 'center',
                   background: `linear-gradient(150deg, ${r.tint}, color-mix(in srgb, ${r.tint} 45%, #211f1b))`,
                   fontFamily: SERIF, fontSize: r.square ? 15 : 20, fontWeight: 600, color: 'rgba(255,255,255,.92)',
-                }}>{r.glyph}</div>
+                }}>
+                  {r.iconId
+                    /* eslint-disable-next-line @next/next/no-img-element */
+                    ? <img src={`/philosophy/icons/${r.iconId}.png`} alt="" data-no-zoom style={{ width: 28, height: 28, opacity: 0.95 }} />
+                    : r.glyph}
+                </div>
                 <div style={{ flex: 1, minWidth: 0 }}>
                   <b style={{ display: 'block', fontFamily: SERIF, fontSize: 16, fontWeight: 600, lineHeight: 1.2 }}>{r.title}</b>
                   {r.sub && <div style={{ fontFamily: SANS, fontSize: 11, color: FAINT, marginTop: 3, letterSpacing: '.02em' }}>{r.sub}</div>}

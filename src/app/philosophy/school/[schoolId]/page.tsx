@@ -26,7 +26,7 @@ export default async function SchoolHubPage({ params }: { params: Promise<{ scho
   const thinkers = thinkersOfSchool(s.id as SchoolId)
 
   const rows: HubRow[] = thinkers.map(t => ({
-    glyph: t.glyph, tint: s.color,
+    glyph: t.glyph, iconId: t.id, tint: s.color,
     title: t.name, sub: t.dates, hook: t.epithet,
     href: `/philosophy/thinker/${t.id}`,
     badge: hasRead(t.id) ? 'read' : undefined,

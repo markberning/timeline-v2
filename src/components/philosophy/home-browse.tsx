@@ -96,7 +96,10 @@ export function HomeBrowse() {
                     width: 38, height: 38, flexShrink: 0, borderRadius: 9, display: 'flex', alignItems: 'center', justifyContent: 'center',
                     background: `linear-gradient(150deg, ${c}, color-mix(in srgb, ${c} 45%, #211f1b))`,
                     fontFamily: SERIF, fontSize: 18, fontWeight: 600, color: 'rgba(255,255,255,.92)', textShadow: '0 1px 2px rgba(0,0,0,.35)',
-                  }}>{t.glyph}</span>
+                  }}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={`/philosophy/icons/${t.id}.png`} alt="" data-no-zoom style={{ width: 23, height: 23, opacity: 0.95 }} />
+                  </span>
                   <span style={{ flex: 1, minWidth: 0 }}>
                     <span style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
                       <b style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 600, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{t.name}</b>
