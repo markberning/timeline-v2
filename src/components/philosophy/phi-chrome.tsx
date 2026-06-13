@@ -134,7 +134,7 @@ export function PhiHub({
   return (
     <div style={{ background: 'var(--background)', color: INK, height: '100dvh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
       <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
-        <WarHeader active="philosophy" title="Philosophy" subtitle="Stuff Happened · Philosophy" backHref="/philosophy" />
+        <WarHeader active="philosophy" title="Western Philosophy" subtitle="Stuff Happened · Philosophy" backHref="/philosophy" />
       </div>
       <WarBreadcrumb crumbs={crumbs} accent={accent} bare />
 

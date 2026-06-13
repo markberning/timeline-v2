@@ -74,7 +74,7 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
   return (
     <div className="phi-root" style={{ display: 'flex', flexDirection: 'column', height: '100dvh', overflow: 'hidden' }}>
       <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
-        <WarHeader active="philosophy" title="Philosophy" subtitle="Stuff Happened · Philosophy" backHref={backHref} />
+        <WarHeader active="philosophy" title="Western Philosophy" subtitle="Stuff Happened · Philosophy" backHref={backHref} />
       </div>
       {crumbs && <WarBreadcrumb crumbs={crumbs} accent={PHI_ACCENT} bare />}
 

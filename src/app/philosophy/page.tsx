@@ -24,36 +24,35 @@ const MUTED = 'color-mix(in srgb, var(--foreground) 78%, transparent)'
 const FAINT = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
 const ACCENT = '#a08423'
 
-const lbl = { fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: '1px', textTransform: 'uppercase' as const, color: FAINT }
-
 export default function PhilosophyHome() {
   return (
     <div style={{ background: 'var(--background)', color: INK, height: '100dvh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
       <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
-        <WarHeader active="philosophy" title="Philosophy" subtitle="Stuff Happened · Philosophy" backHref="/" />
+        <WarHeader active="philosophy" title="Western Philosophy" subtitle="Stuff Happened · Philosophy" backHref="/" />
       </div>
       <WarBreadcrumb crumbs={homeCrumbs()} accent={PHI_ACCENT} bare />
 
       <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', overflowX: 'hidden' }}>
       <main style={{ maxWidth: 640, margin: '0 auto', width: '100%' }}>
-        {/* hero — Raphael's School of Athens, the canonical image of the argument */}
-        <div style={{ position: 'relative', width: '100%', height: 200, overflow: 'hidden' }}>
-          <div style={{
-            position: 'absolute', inset: 0,
-            backgroundImage: 'url(/philosophy/school-of-athens.jpg)', backgroundSize: 'cover', backgroundPosition: 'center 34%',
-          }} />
-          <div style={{ position: 'absolute', left: 14, bottom: 9, fontFamily: SANS, fontSize: 10, letterSpacing: '.02em', color: 'rgba(255,255,255,.82)', textShadow: '0 1px 3px rgba(0,0,0,.85)' }}>
-            Raphael · <span style={{ fontStyle: 'italic' }}>The School of Athens</span> · 1509–11
-          </div>
+        {/* hero — Raphael's School of Athens; an <img> so the corpus-wide GlobalImageZoom lightboxes it */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/philosophy/school-of-athens.jpg"
+          alt="Raphael's fresco The School of Athens (1509–11)"
+          data-cap="Raphael · The School of Athens · 1509–11"
+          style={{ display: 'block', width: '100%', height: 200, objectFit: 'cover', objectPosition: 'center 34%', cursor: 'zoom-in' }}
+        />
+        <div style={{ padding: '6px 16px 0', fontFamily: SANS, fontSize: 10.5, letterSpacing: '.02em', color: FAINT }}>
+          Raphael · <span style={{ fontStyle: 'italic' }}>The School of Athens</span> · 1509–11
         </div>
 
-        {/* intro */}
+        {/* intro — type scale matched to the art/war front doors */}
         <div style={{ padding: '16px 16px 4px' }}>
-          <div style={{ ...lbl, color: ACCENT, marginBottom: 7 }}>The argument</div>
-          <h1 style={{ fontFamily: SERIF, fontSize: 27, fontWeight: 600, color: INK, lineHeight: 1.08, margin: 0, letterSpacing: -0.2 }}>
+          <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: ACCENT, marginBottom: 8 }}>The argument</div>
+          <h1 style={{ fontFamily: SERIF, fontSize: 28, fontWeight: 500, color: INK, lineHeight: 1.12, margin: 0, letterSpacing: -0.4 }}>
             2,600 years of people refusing to agree.
           </h1>
-          <p style={{ fontFamily: SANS, fontSize: 14, lineHeight: 1.5, color: MUTED, margin: '9px 0 0' }}>
+          <p style={{ fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: MUTED, margin: '10px 0 0', maxWidth: 520 }}>
             Not a reading list — a conversation. The lines are who taught whom, and who showed up centuries later to tear it down. Tap anyone to read them.
           </p>
         </div>
