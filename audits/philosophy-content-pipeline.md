@@ -5,8 +5,8 @@ The gated process for producing a Philosophy narrative — the analog of the civ
 `audits/art-content-pipeline.md`, and `audits/music-content-pipeline.md`, re-pointed
 at philosophy's failure modes.
 
-**Status: ACTIVE — run once (2026-06-12, "The Greeks" era read, gated from the
-start; see Proof run 1 at the bottom).** This doc was written BEFORE the first
+**Status: ACTIVE — run twice (2026-06-12: "The Greeks" era read, then "Faith meets
+reason"; see Proof runs 1–2 at the bottom).** This doc was written BEFORE the first
 article so the vertical never had an ungated draft (the mistake the Kahnweiler work
 and the art "Lay of the land" prologue both made — see `audits/art-content-pipeline.md`
 proof runs 2 and 6). **No philosophy article ships without running these gates.**
@@ -291,3 +291,52 @@ The gates earned their keep on the first pass:
   (the-parties pattern, bronze-olive identity), UNLINKED (URL-only) pending the
   vertical's real front-door design. Faithful transport machine-verified (all 67
   paragraphs byte-identical to the gated md). tsc + eslint clean; both routes 200.
+
+## Proof run 2 — DONE (2026-06-12) — "Faith meets reason" era read (kind: ERA, 7 ch)
+The vertical's SECOND article (Augustine → the Arabic transmission → Anselm/Abelard
+→ Aquinas → Ockham), gated start-to-ship. Same machine: fact pack → Opus author
+(+ Fact ledger) → 5 Sonnet critics in parallel → coordinator reconcile → Opus
+reviser → targeted r2 fact-check on all new/[VERIFY] material → coordinator gates
+6–7 → reader. Artifacts in `audits/philosophy-pipeline/faith-reason-*`. The gates
+earned their keep again:
+- **Fact-checker (r1)** — near-clean (every quote matched its verified pack entry),
+  but caught 4 must-fixes: the Gaunilo island misquoted as "richer" (Deane reads
+  "more excellent than all other countries"); Sens dated "around 1140" (the known
+  wrong year — it was 1141); a silently clipped "Now" in the Boethius eternity quote;
+  and the Hubbard/Hypatia fabrication chain told incompletely (Hubbard 1908 put the
+  "even to think wrongly" line in her father Theon's mouth; later retellings
+  re-attached it to Hypatia).
+- **Storytelling/understanding** — ch1 Augustine graded the Proof-run-1 risk
+  (biography, no worked example) → the privation theory of evil was run one full move
+  (what it buys against the Manichaean evil-as-substance view); ch3 al-Ghazālī's
+  occasionalism re-landed on Avicenna's OWN Necessary-Existent proof before the Hume
+  forward-pointer; the grace/nature "roof" analogy traded for Aquinas's own
+  light-and-sight family (flagged as our illustration, not a quote).
+- **Comprehensiveness** — caught the 1347→1619 gap silently teleported (now a short
+  honest via-moderna/Luther/Ficino bridge), Duns Scotus's univocity missing (the link
+  that motivates Ockham), the 1277 condemnation thin on its Aristotelian content, and
+  Augustine's privation un-worked.
+- **Clarity** — 9 gloss gaps: "scholastics" used before definition, "occasionalism"
+  unglossed, "the Law" ambiguous between sharia and Torah, Trinity/Avignon/heresy
+  assumed.
+- **Framing** — 4 must-fixes: Bernard of Clairvaux was a name-tag antagonist (now
+  carries his affective-mystical case against Abelard's method), the two Bernards
+  un-disambiguated, and **Hildegard of Bingen entirely absent** (spec-required; now a
+  full paragraph in ch5 — the visionary mode beside the logic machine).
+- **Cross-gate rule held** — the reviser's new material shipped with 9 [VERIFY] tags
+  → targeted r2 fact-check resolved all of them, wrote the confirmed claims into the
+  pack as §11, and surfaced 2 NEW must-fixes the reviser introduced (the 1277
+  document names no individuals — Siger/Boethius of Dacia are identified by later
+  historians; Jean Buridan was Ockham's CONTEMPORARY, not a next-generation
+  transmitter). Both fixed by the coordinator before clearing the tags.
+- **Gates 6–7 (coordinator)** — all quote sourceUrls load-checked (Gutenberg/Fordham/
+  archive.org/SEP all 200, two key quotes string-matched in their PD source); 10 PD
+  images eyeballed by the coordinator's own hand for right-subject (Ockham 1341 sketch,
+  Maimonides engraving, Averroes in the School of Athens, Hildegard Scivias frontispiece,
+  Coëtivy Fortune's-wheel, etc. — all correct); coherence with era 1 clean (Boethius
+  hand-off, Hypatia/Plotinus baton, the two-Zenos note all consistent; the
+  Avicenna→Descartes span corrected "three centuries"→"six").
+- **Integration** — provisional reader `/philosophy/faith-reason` + the `/philosophy`
+  landing flipped its card live (Era II · Read now), still UNLINKED app-wide pending
+  the front-door design. Faithful transport machine-verified (all 58 paragraphs match
+  the gated md 1:1). tsc + eslint clean; all three routes 200.

@@ -12,7 +12,6 @@ export const metadata: Metadata = {
 }
 
 const COMING_SOON = [
-  'Faith meets reason',
   'The rationalists and the empiricists',
   'Kant and the Germans',
   'The nineteenth century',
@@ -36,6 +35,12 @@ export default function PhilosophyHome() {
           <span className="phi-card-ey">Era I &middot; Read now</span>
           <span className="phi-card-title">The Greeks</span>
           <span className="phi-card-sub">Thales to the Hellenistic schools</span>
+        </Link>
+
+        <Link href="/philosophy/faith-reason" className="phi-card">
+          <span className="phi-card-ey">Era II &middot; Read now</span>
+          <span className="phi-card-title">Faith meets reason</span>
+          <span className="phi-card-sub">Augustine to Ockham, across three religions</span>
         </Link>
 
         <h2 className="phi-soon-h">Coming soon</h2>
