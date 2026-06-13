@@ -11,6 +11,7 @@ import { HUME } from './hume'
 import { DESCARTES } from './descartes'
 import { ARISTOTLE } from './aristotle'
 import { KANT } from './kant'
+import { AQUINAS } from './aquinas'
 
 export interface ThinkerRead { narr: PhiNarr; eyebrow: string }
 
@@ -18,6 +19,7 @@ export const THINKER_READS: Record<string, ThinkerRead> = {
   socrates: { narr: SOCRATES, eyebrow: 'Independent' },
   plato: { narr: PLATO, eyebrow: 'Platonism' },
   aristotle: { narr: ARISTOTLE, eyebrow: 'Aristotelians' },
+  aquinas: { narr: AQUINAS, eyebrow: 'Scholastics' },
   hume: { narr: HUME, eyebrow: 'Empiricists' },
   descartes: { narr: DESCARTES, eyebrow: 'Rationalists' },
   kant: { narr: KANT, eyebrow: 'German Idealists' },
