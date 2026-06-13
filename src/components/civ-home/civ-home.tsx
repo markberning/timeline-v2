@@ -21,8 +21,8 @@ const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
 
 const INK = 'var(--foreground)'
-const MUTED = 'color-mix(in srgb, var(--foreground) 72%, transparent)'
-const FAINT = 'color-mix(in srgb, var(--foreground) 55%, transparent)'
+const MUTED = 'color-mix(in srgb, var(--foreground) 78%, transparent)'
+const FAINT = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
 const BORDER = 'color-mix(in srgb, var(--foreground) 11%, transparent)'
 const BORDER_STRONG = 'color-mix(in srgb, var(--foreground) 20%, transparent)'
 const CHIP = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
@@ -80,7 +80,7 @@ function eraHeader(era: { label: string; start: number; end: number }) {
 function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof CIV_CHAIN_MAP.get>, color: string, withImage: boolean, onFilterChain?: (q: string, color: string) => void) {
   const range = formatYearRange(civ.startYear, civ.endYear)
   const desc = CIV_BLURBS[civ.id] ?? civ.subtitle
-  const chainPillStyle: React.CSSProperties = { flexShrink: 0, fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, background: alpha(color, 0.16), padding: '2px 7px', borderRadius: 999, whiteSpace: 'nowrap' }
+  const chainPillStyle: React.CSSProperties = { flexShrink: 0, fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, background: alpha(color, 0.16), padding: '2px 7px', borderRadius: 999, whiteSpace: 'nowrap' }
   // The chain badge doubles as a filter: tapping it narrows the list to that
   // chain (and stops the tap from also opening the civ behind it).
   const chainPill = ci && (onFilterChain ? (
@@ -118,7 +118,7 @@ function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof
         <div style={{ width: 88, flexShrink: 0, alignSelf: 'stretch', minHeight: 74, background: alpha(color, 0.1), display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 5, padding: '10px 8px' }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={icon} alt="" loading="lazy" style={{ width: 54, height: 54, objectFit: 'contain' }} className="dark:brightness-150" />
-          <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.3, textTransform: 'uppercase', color, lineHeight: 1.2, textAlign: 'center' }}>{iconLabel}</span>
+          <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.3, textTransform: 'uppercase', color, lineHeight: 1.2, textAlign: 'center' }}>{iconLabel}</span>
         </div>
         <div style={{ flex: 1, minWidth: 0, padding: '10px 12px' }}>{content}</div>
       </div>
@@ -206,7 +206,7 @@ function ChainsView({ query }: { query: string }) {
         const color = REGION_COLORS[region]
         return (
           <div key={region} style={{ marginTop: 10 }}>
-            <div style={{ padding: '8px 4px', fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color }}>{REGION_LABELS[region]}</div>
+            <div style={{ padding: '8px 4px', fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color }}>{REGION_LABELS[region]}</div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               {chains.map(chain => {
                 const civs = chain.entries.map(e => NAVIGATOR_TLS.find(t => t.id === e.timelineId)).filter(Boolean) as typeof NAVIGATOR_TLS

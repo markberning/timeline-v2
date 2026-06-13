@@ -17,8 +17,8 @@ import { ART_ACCENT, ART_ERAS, ART_CHIPS, ART_CLIMB, artAlpha, type ClimbNode } 
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
 
-const MUTED = 'color-mix(in srgb, var(--foreground) 72%, transparent)'
-const FAINT = 'color-mix(in srgb, var(--foreground) 55%, transparent)'
+const MUTED = 'color-mix(in srgb, var(--foreground) 78%, transparent)'
+const FAINT = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
 const BORDER = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
 const BORDER_STRONG = 'color-mix(in srgb, var(--foreground) 22%, transparent)'
 const CARD_BG = 'color-mix(in srgb, var(--foreground) 4%, transparent)'
@@ -75,7 +75,7 @@ function ArtHubIntro() {
     <>
       {/* Hero */}
       <div style={{ padding: '18px 18px 8px' }}>
-        <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', opacity: 0.55 }}>Art · Browse by era</div>
+        <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', opacity: 0.62 }}>Art · Browse by era</div>
         <h1 style={{ margin: '8px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 28, lineHeight: 1.12, letterSpacing: -0.4 }}>Forty thousand years of people making stuff.</h1>
         <p style={{ margin: '10px 0 0', fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: MUTED, maxWidth: 520 }}>
           Read it straight through, or skip to the parts everyone already has opinions about.

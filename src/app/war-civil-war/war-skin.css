@@ -8,8 +8,8 @@
   --paper-2: #fbf6ec;
   --paper-3: #eae1d1;
   --ink: #22201e;
-  --ink-soft: #4c4538;
-  --muted: #79705f;
+  --ink-soft: #443d31;
+  --muted: #6b6253;
   --line: rgba(34, 32, 30, .14);
   --line-soft: rgba(34, 32, 30, .08);
   --union: #345080;
@@ -66,8 +66,8 @@
   --paper-2: #2c2926;
   --paper-3: #3a352f;
   --ink: #f1eadd;
-  --ink-soft: #cfc6b5;
-  --muted: #a89e8a;
+  --ink-soft: #d8cfbe;
+  --muted: #b5ab96;
   --line: rgba(241, 234, 221, .15);
   --line-soft: rgba(241, 234, 221, .08);
   --union: #7c9bd1;
@@ -106,7 +106,7 @@
 
 .war-skin .p-serif { font-family: var(--serif); }
 .war-skin .p-mono { font-family: var(--mono); }
-.war-skin .p-label { font: 600 10.5px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+.war-skin .p-label { font: 600 11.5px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
 .war-skin .p-eyebrow { font: 600 11px/1 var(--sans); letter-spacing: .18em; text-transform: uppercase; color: var(--eyebrow); }
 
 /* ---- header (sticky, clears the status bar via safe-area) ---- */
@@ -121,7 +121,7 @@
 .war-skin .p-hdr .back { width: 30px; height: 30px; flex: 0 0 auto; display: flex; align-items: center; justify-content: center; border-radius: 50%; border: 1px solid var(--line); color: var(--ink-soft); }
 .war-skin .p-hdr .wm { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; line-height: 1.05; text-decoration: none; }
 .war-skin .p-hdr .wm b { font: 700 13.5px/1.1 var(--sans); color: var(--ink); }
-.war-skin .p-hdr .wm span { font: 600 9.5px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
+.war-skin .p-hdr .wm span { font: 600 10.5px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
 .war-skin .p-iconbtn { width: 34px; height: 34px; flex: 0 0 auto; display: flex; align-items: center; justify-content: center; border-radius: 9px; color: var(--ink-soft); transition: background .15s; }
 .war-skin .p-iconbtn:hover { background: var(--chip); }
 
@@ -134,7 +134,7 @@
 /* ---- hero band: full image, full column width (edge to edge), uncropped ---- */
 .war-skin .p-heroband { margin-top: 18px; position: relative; overflow: hidden; background: linear-gradient(160deg, #5f4730, #94703f 55%, #c39a63); }
 .war-skin .p-heroband img { width: 100%; height: auto; display: block; }
-.war-skin .p-credit { font: 400 10px/1.4 var(--mono); letter-spacing: .02em; color: var(--muted); padding: 9px 18px; background: var(--paper); }
+.war-skin .p-credit { font: 400 11px/1.4 var(--mono); letter-spacing: .02em; color: var(--muted); padding: 9px 18px; background: var(--paper); }
 
 /* ---- sticky sub-nav (two seg rows + filter) ---- */
 .war-skin .p-subnav { position: sticky; top: var(--hdr); scroll-margin-top: var(--hdr); z-index: 20; background: var(--paper); border-bottom: 1px solid var(--line-soft); padding-bottom: 12px; }
@@ -168,7 +168,7 @@
 @media (prefers-reduced-motion: reduce) { .war-skin .p-page { animation: none; } }
 .war-skin .p-sechead { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 14px; }
 .war-skin .p-sechead h2 { font: 600 13px/1 var(--sans); letter-spacing: .04em; }
-.war-skin .p-sechead .ct { font: 500 11px/1 var(--mono); color: var(--muted); }
+.war-skin .p-sechead .ct { font: 500 11.5px/1 var(--mono); color: var(--muted); }
 
 /* ---- story card + chapters ---- */
 .war-skin .p-storycard { border: 1px solid var(--line); border-radius: 9px; background: var(--paper-2); padding: 18px; margin-bottom: 8px; text-decoration: none; color: inherit; display: block; }
@@ -192,7 +192,7 @@
 .war-skin .p-chap .bd { flex: 1 1 auto; min-width: 0; }
 .war-skin .p-chap .bd b { display: block; font: 600 17px/1.18 var(--serif); color: var(--ink); }
 .war-skin .p-chap .bd span { display: block; font: 400 12.5px/1.4 var(--sans); color: var(--muted); margin-top: 4px; }
-.war-skin .p-chap .yr { font: 400 11px/1 var(--mono); color: var(--muted); flex: 0 0 auto; }
+.war-skin .p-chap .yr { font: 400 11.5px/1 var(--mono); color: var(--muted); flex: 0 0 auto; }
 .war-skin .p-chap .arr { flex: 0 0 auto; color: var(--muted); }
 
 /* ---- off-the-field phase headings (bigger than the rows, no double rule) ---- */
@@ -205,9 +205,9 @@
 .war-skin .p-th { border: 1px solid var(--line); border-radius: 9px; background: var(--paper-2); padding: 15px; transition: border-color .15s; text-decoration: none; color: inherit; display: block; }
 .war-skin .p-th .top { display: flex; align-items: baseline; justify-content: space-between; }
 .war-skin .p-th .top b { font: 600 18px/1.1 var(--serif); color: var(--ink); display: flex; align-items: center; gap: 8px; }
-.war-skin .p-th .top span { font: 500 10px/1 var(--mono); color: var(--muted); }
+.war-skin .p-th .top span { font: 500 11px/1 var(--mono); color: var(--muted); }
 .war-skin .p-th p { font: 400 12.5px/1.45 var(--sans); color: var(--ink-soft); margin-top: 7px; }
-.war-skin .p-th .mt { font: 500 10.5px/1 var(--mono); color: var(--muted); margin-top: 10px; display: flex; gap: 8px; }
+.war-skin .p-th .mt { font: 500 11.5px/1 var(--mono); color: var(--muted); margin-top: 10px; display: flex; gap: 8px; }
 .war-skin .p-th .mt b { color: var(--confed); }
 
 /* ---- battles timeline ---- */
@@ -223,8 +223,8 @@
 .war-skin .p-bt.key::before { background: var(--dot, var(--confed)); }
 .war-skin .p-bt .bh { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
 .war-skin .p-bt .bh b { font: 600 15.5px/1.18 var(--serif); color: var(--ink); }
-.war-skin .p-bt .bh .th { font: 500 9.5px/1 var(--mono); color: var(--muted); flex: 0 0 auto; text-transform: uppercase; letter-spacing: .04em; }
-.war-skin .p-bt .place { display: block; font: 400 10.5px/1.3 var(--mono); color: var(--muted); margin-top: 3px; }
+.war-skin .p-bt .bh .th { font: 500 10.5px/1 var(--mono); color: var(--muted); flex: 0 0 auto; text-transform: uppercase; letter-spacing: .04em; }
+.war-skin .p-bt .place { display: block; font: 400 11.5px/1.3 var(--mono); color: var(--muted); margin-top: 3px; }
 .war-skin .p-bt .note { display: block; font: 400 12.5px/1.4 var(--sans); color: var(--ink-soft); margin-top: 5px; }
 .war-skin .p-bt mark { background: transparent; color: var(--confed); font-weight: 700; }
 .war-skin .p-empty { text-align: center; color: var(--muted); font: 400 13px/1.5 var(--sans); padding: 30px 0; }
@@ -234,7 +234,7 @@
 .war-skin .p-stats .st { text-align: center; padding: 4px; border-left: 1px solid var(--line-soft); }
 .war-skin .p-stats .st:first-child { border-left: 0; }
 .war-skin .p-stats .st b { display: block; font: 500 28px/1 var(--serif); color: var(--ink); }
-.war-skin .p-stats .st span { display: block; font: 600 9.5px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+.war-skin .p-stats .st span { display: block; font: 600 11px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
 .war-skin .p-vs { display: grid; grid-template-columns: 1fr auto 1fr; align-items: start; gap: 12px; margin-bottom: 22px; }
 .war-skin .p-vs .nm { display: flex; align-items: center; gap: 6px; font: 700 11px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; }
 .war-skin .p-vs .side.r { text-align: right; }
@@ -268,7 +268,7 @@
 .war-skin .p-menu nav { padding: 14px 0; flex: 1; }
 .war-skin .p-menu nav a { display: flex; align-items: center; justify-content: space-between; padding: 15px 22px; font: 600 22px/1 var(--serif); color: var(--ink); border-left: 3px solid transparent; text-decoration: none; }
 .war-skin .p-menu nav a.on { color: var(--confed); border-left-color: var(--confed); }
-.war-skin .p-menu nav a .sub { font: 500 10px/1 var(--mono); color: var(--muted); }
+.war-skin .p-menu nav a .sub { font: 500 11px/1 var(--mono); color: var(--muted); }
 .war-skin .p-menu .mf { padding: 18px 22px 30px; border-top: 1px solid var(--line-soft); display: flex; align-items: center; justify-content: space-between; }
 .war-skin .p-menu .mf span { font: 400 11px/1.4 var(--mono); color: var(--muted); }
 
@@ -285,7 +285,7 @@
 .war-skin .p-cmdcard.fi.u .pic::after { content: 'BRITISH'; background: var(--brit); }
 .war-skin .p-cmdcard.fi.c .pic::after { content: 'FRENCH'; background: var(--french); }
 .war-skin .p-cmdcard b { display: block; margin-top: 8px; font: 500 16px/1.15 var(--serif); color: var(--ink); }
-.war-skin .p-cmdcard .meta { display: block; margin-top: 3px; font: 700 9.5px/1 var(--sans); letter-spacing: .4px; text-transform: uppercase; }
+.war-skin .p-cmdcard .meta { display: block; margin-top: 3px; font: 700 10.5px/1 var(--sans); letter-spacing: .4px; text-transform: uppercase; }
 .war-skin .p-cmdcard.u .meta { color: var(--union); }
 .war-skin .p-cmdcard.c .meta { color: var(--confed); }
 .war-skin .p-cmdcard.fi.u .meta { color: var(--brit); }
@@ -315,12 +315,12 @@
 .war-skin .bp-stats .st b { display: block; font: 600 17px/1.18 var(--serif); color: var(--ink); overflow-wrap: anywhere; }
 .war-skin .bp-stats .st.win.u b { color: var(--union); }
 .war-skin .bp-stats .st.win.c b { color: var(--confed); }
-.war-skin .bp-stats .st span { display: block; font: 700 10px/1.2 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-top: 7px; }
+.war-skin .bp-stats .st span { display: block; font: 700 11px/1.2 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-top: 7px; }
 
 /* glance: the two armies */
 .war-skin .bp-vs { display: flex; flex-direction: column; }
 .war-skin .bp-side { border: 1px solid var(--line); border-radius: 10px; background: var(--paper-2); padding: 15px; }
-.war-skin .bp-side .tag { font: 700 10px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; display: flex; align-items: center; gap: 7px; }
+.war-skin .bp-side .tag { font: 700 11px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; display: flex; align-items: center; gap: 7px; }
 .war-skin .bp-side .tag .sq { width: 12px; height: 9px; border-radius: 1px; }
 .war-skin .bp-side.u .tag { color: var(--union); } .war-skin .bp-side.u .tag .sq { background: var(--union); }
 .war-skin .bp-side.c .tag { color: var(--confed); } .war-skin .bp-side.c .tag .sq { background: var(--confed); }
@@ -358,11 +358,11 @@
 .war-skin .bp-cmd .bd { flex: 1; min-width: 0; }
 .war-skin .bp-cmd .bd .nm { font: 600 16px/1.1 var(--serif); color: var(--ink); }
 .war-skin .bp-cmd .bd .role { display: flex; align-items: center; gap: 8px; margin: 6px 0 9px; }
-.war-skin .bp-cmd .bd .role .sd { font: 700 8.5px/1 var(--sans); letter-spacing: .07em; padding: 3px 7px; border-radius: 999px; color: #fff; flex: 0 0 auto; }
+.war-skin .bp-cmd .bd .role .sd { font: 700 10px/1 var(--sans); letter-spacing: .07em; padding: 3px 7px; border-radius: 999px; color: #fff; flex: 0 0 auto; }
 .war-skin .bp-cmd.u .bd .role .sd { background: var(--union); }
 .war-skin .bp-cmd.c .bd .role .sd { background: var(--confed); }
 .war-skin .bp-cmd.n .bd .role .sd { background: var(--native, #9c6f3a); }
-.war-skin .bp-cmd .bd .role .rl { font: 600 9px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.war-skin .bp-cmd .bd .role .rl { font: 600 10.5px/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .war-skin .bp-cmd .bd .bio { font: 400 12.5px/1.5 var(--sans); color: var(--ink-soft); }
 /* link to the commander's full arc (cast page), shown only where one exists */
 .war-skin .bp-cmd .bd .arc { display: inline-block; margin-top: 9px; font: 700 10px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--accent); text-decoration: none; }
@@ -436,7 +436,7 @@
 .war-skin .rd-fig .frame { border-radius: 6px; overflow: hidden; background: var(--chip); border: 1px solid var(--line-soft); cursor: zoom-in; }
 .war-skin .rd-fig .frame.dead { cursor: default; }
 .war-skin .rd-fig figcaption { font: italic 400 13px/1.45 var(--serif); color: var(--ink-soft); margin-top: 8px; }
-.war-skin .rd-fig figcaption .cr { font: 400 10.5px/1.4 var(--mono); font-style: normal; letter-spacing: .02em; color: var(--muted); }
+.war-skin .rd-fig figcaption .cr { font: 400 11px/1.4 var(--mono); font-style: normal; letter-spacing: .02em; color: var(--muted); }
 
 /* locator-map wrapper */
 .war-skin .rd-map { margin: 18px 0 4px; }

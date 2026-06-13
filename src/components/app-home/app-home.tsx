@@ -15,8 +15,8 @@ import { sampleFeed, type FeedItem } from '@/lib/app-feed'
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
 const INK = 'var(--foreground)'
-const MUTED = 'color-mix(in srgb, var(--foreground) 72%, transparent)'
-const FAINT = 'color-mix(in srgb, var(--foreground) 55%, transparent)'
+const MUTED = 'color-mix(in srgb, var(--foreground) 78%, transparent)'
+const FAINT = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
 const BORDER = 'color-mix(in srgb, var(--foreground) 11%, transparent)'
 const CHIP = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
 
@@ -153,7 +153,7 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
                 <div style={{ flex: 1, minWidth: 0 }}>
                   <div style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>
                     <span style={{ fontFamily: SERIF, fontSize: 21, color: INK, lineHeight: 1.1 }}>{TL_KIND_LABELS[t.kind]}</span>
-                    {!t.live && <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.8, textTransform: 'uppercase', color, background: alpha(color, 0.14), padding: '1px 6px', borderRadius: 999 }}>Soon</span>}
+                    {!t.live && <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.8, textTransform: 'uppercase', color, background: alpha(color, 0.14), padding: '1px 6px', borderRadius: 999 }}>Soon</span>}
                   </div>
                   <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 13.5, color: MUTED, marginTop: 2 }}>{t.tag}</div>
                 </div>
@@ -174,7 +174,7 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
                 {/* 1 / 2 / 3-column segmented control — "Cols" label so it doesn't
                     read as pagination */}
                 <div style={{ display: 'inline-flex', alignItems: 'center', border: `1px solid ${BORDER}`, borderRadius: 999, overflow: 'hidden' }}>
-                  <span style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: FAINT, padding: '0 8px', borderRight: `1px solid ${BORDER}`, alignSelf: 'stretch', display: 'inline-flex', alignItems: 'center' }}>Cols</span>
+                  <span style={{ fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: FAINT, padding: '0 8px', borderRight: `1px solid ${BORDER}`, alignSelf: 'stretch', display: 'inline-flex', alignItems: 'center' }}>Cols</span>
                   {[1, 2, 3].map(n => {
                     const on = cols === n
                     return (
