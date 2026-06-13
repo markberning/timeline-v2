@@ -72,12 +72,13 @@ function Fig({ f, hero }: { f: PhiFig; hero?: boolean }) {
 export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: PhiNarr; eyebrow: string; backHref: string; crumbs?: Crumb[] }) {
   const n = narr
   return (
-    <div className="phi-root">
+    <div className="phi-root" style={{ display: 'flex', flexDirection: 'column', height: '100dvh', overflow: 'hidden' }}>
       <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
         <WarHeader active="philosophy" title="Philosophy" subtitle="Stuff Happened · Philosophy" backHref={backHref} />
       </div>
       {crumbs && <WarBreadcrumb crumbs={crumbs} accent={PHI_ACCENT} bare />}
 
+      <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', overflowX: 'hidden' }}>
       <div style={{ padding: '0 20px' }}>
         <a href="#phi-article" className="phi-skip">Skip to article</a>
 
@@ -132,6 +133,7 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
           <div className="phi-foot-line" />
           <p>Part of <strong>Philosophy</strong>, the history of Western thought told era by era. More eras on the way.</p>
         </footer>
+      </div>
       </div>
 
       <style>{`

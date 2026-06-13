@@ -40,13 +40,14 @@ const lbl = { fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: '1
 
 export default function PhilosophyHome() {
   return (
-    <div style={{ background: 'var(--background)', color: INK, minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <div style={{ background: 'var(--background)', color: INK, height: '100dvh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
       <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
         <WarHeader active="philosophy" title="Philosophy" subtitle="Stuff Happened · Philosophy" backHref="/" />
       </div>
       <WarBreadcrumb crumbs={homeCrumbs()} accent={PHI_ACCENT} bare />
 
-      <main style={{ maxWidth: 640, margin: '0 auto' }}>
+      <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', overflowX: 'hidden' }}>
+      <main style={{ maxWidth: 640, margin: '0 auto', width: '100%' }}>
         {/* intro */}
         <div style={{ padding: '16px 16px 4px' }}>
           <div style={{ ...lbl, color: ACCENT, marginBottom: 7 }}>The argument</div>
@@ -93,6 +94,7 @@ export default function PhilosophyHome() {
           </p>
         </div>
       </main>
+      </div>
     </div>
   )
 }

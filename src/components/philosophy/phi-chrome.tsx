@@ -114,12 +114,13 @@ export function PhiHub({
   footerEra?: { href: string; label: string }
 }) {
   return (
-    <div style={{ background: 'var(--background)', color: INK, minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <div style={{ background: 'var(--background)', color: INK, height: '100dvh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
       <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
         <WarHeader active="philosophy" title="Philosophy" subtitle="Stuff Happened · Philosophy" backHref="/philosophy" />
       </div>
       <WarBreadcrumb crumbs={crumbs} accent={accent} bare />
 
+      <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', overflowX: 'hidden' }}>
       <main style={{ maxWidth: 640, margin: '0 auto', width: '100%' }}>
         {/* hero */}
         <div style={{ padding: '18px 16px 16px', display: 'flex', gap: 14, alignItems: 'flex-start' }}>
@@ -202,6 +203,7 @@ export function PhiHub({
           </div>
         )}
       </main>
+      </div>
     </div>
   )
 }
