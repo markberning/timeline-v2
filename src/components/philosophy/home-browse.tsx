@@ -157,8 +157,8 @@ function Seg({ label, hint, active, onClick }: { label: string; hint: string; ac
         transition: 'background .15s ease',
       }}
     >
-      <span style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: '.3px', color: active ? ACCENT : MUTED }}>{label}</span>
-      <span style={{ fontFamily: SANS, fontSize: 10, color: FAINT }}>{hint}</span>
+      <span style={{ fontFamily: SANS, fontSize: 13, fontWeight: 700, letterSpacing: '.2px', color: active ? INK : MUTED }}>{label}</span>
+      <span style={{ fontFamily: SANS, fontSize: 11, lineHeight: 1.25, color: active ? MUTED : FAINT }}>{hint}</span>
     </button>
   )
 }
