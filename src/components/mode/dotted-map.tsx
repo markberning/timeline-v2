@@ -75,7 +75,7 @@ export function DottedMap({
   }
 
   const FG = (a: number) => `color-mix(in srgb, var(--foreground) ${Math.round(a * 100)}%, transparent)`
-  const GRAY = FG(0.42), FAINT = FG(0.22), GRID = FG(0.045)
+  const GRAY = FG(0.5), FAINT = FG(0.38), GRID = FG(0.045)
   const CARD = FG(0.04), BORDER = FG(0.12)
   const water = alpha('#0ea5e9', 0.9)
   const dash = '1.5 5.5'
