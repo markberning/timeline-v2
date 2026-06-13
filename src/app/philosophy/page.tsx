@@ -48,7 +48,7 @@ export default function PhilosophyHome() {
 
         {/* intro — type scale matched to the art/war front doors */}
         <div style={{ padding: '16px 16px 4px' }}>
-          <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: ACCENT, marginBottom: 8 }}>The argument</div>
+          <div style={{ fontFamily: SANS, fontSize: 12, fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', color: ACCENT, marginBottom: 8 }}>The argument</div>
           <h1 style={{ fontFamily: SERIF, fontSize: 28, fontWeight: 500, color: INK, lineHeight: 1.12, margin: 0, letterSpacing: -0.4 }}>
             2,600 years of people refusing to agree.
           </h1>
@@ -61,7 +61,7 @@ export default function PhilosophyHome() {
         <HomeBrowse />
 
         <div style={{ padding: '18px 16px 44px' }}>
-          <p style={{ fontFamily: SANS, fontSize: 12.5, color: FAINT, lineHeight: 1.55, margin: 0 }}>
+          <p style={{ fontFamily: SANS, fontSize: 14, color: FAINT, lineHeight: 1.55, margin: 0 }}>
             The deep reads — each thinker’s whole system, each work walked chapter by chapter — are filling in school by school.
           </p>
         </div>
