@@ -33,10 +33,19 @@ export const ERA_CRUMB_OPTIONS: CrumbOption[] = [
   { label: 'The nineteenth century', href: '/philosophy/nineteenth-century' },
 ]
 
-// Home crumb — the bar is present on every philosophy surface for a consistent trail;
-// at the root it is just the section label (no parent to climb to).
+// Home crumb — like the war home (War › Theatre › Battle), the root is active and the
+// deeper levels show as jump-dropdowns so the whole drill path is reachable from here:
+// Philosophy › School[all schools] › Thinker[all thinkers, grouped by school].
 export function homeCrumbs(): Crumb[] {
-  return [{ label: 'Philosophy', active: true, currentLabel: 'Philosophy' }]
+  const thinkerOpts: CrumbOption[] = SCHOOLS.flatMap(s => [
+    { label: s.name, heading: true },
+    ...thinkersOfSchool(s.id).map(t => ({ label: t.name, href: `/philosophy/thinker/${t.id}` })),
+  ])
+  return [
+    { label: 'Philosophy', active: true, currentLabel: 'Philosophy' },
+    { label: 'School', options: SCHOOLS.map(s => ({ label: s.name, href: `/philosophy/school/${s.id}` })) },
+    { label: 'Thinker', options: thinkerOpts },
+  ]
 }
 
 // Era-read crumb: Philosophy › <era>, the era crumb a jump-dropdown across all five.
