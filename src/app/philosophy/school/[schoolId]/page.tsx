@@ -7,6 +7,7 @@ import { notFound } from 'next/navigation'
 import { PhiHub, schoolCrumbs, type HubRow } from '@/components/philosophy/phi-chrome'
 import { SCHOOLS, schoolById, thinkersOfSchool, type SchoolId } from '@/lib/philosophy-data'
 import { hasRead } from '../../thinker/_reads'
+import { hasSchoolRead } from '../_reads'
 
 export function generateStaticParams() {
   return SCHOOLS.map(s => ({ schoolId: s.id }))
@@ -49,6 +50,11 @@ export default async function SchoolHubPage({ params }: { params: Promise<{ scho
         { value: s.id === 'indep' ? '—' : '1', label: 'Core claim' },
       ]}
       note={s.id === 'indep' ? 'These thinkers founded no school and joined none. They are listed together only because they refused every other label — the source, the loner, the dynamite.' : undefined}
+      readButton={hasSchoolRead(s.id) ? {
+        href: `/philosophy/school/${s.id}/read`,
+        title: `The whole ${s.name} story`,
+        sub: 'The tradition across the centuries, in the house voice',
+      } : undefined}
       rowsLabel="The thinkers"
       rows={rows}
     />

@@ -1,0 +1,18 @@
+// Registry of shipped school "the whole tradition" deep reads — the school-level
+// analog of the thinker _reads registry. Each entry is a faithful transport of a
+// gated draft (audits/philosophy-pipeline/*-school.read.ts). A school listed here
+// renders a full PhilosophyReader at /philosophy/school/<id>/read and shows a live
+// "Read the tradition" button on the school hub; schools absent here show no button.
+// Add a school by importing its narrative and adding one line — nothing else.
+
+import type { PhiNarr } from '@/components/philosophy-reader'
+import { PLATONISM } from './platonism'
+
+export interface SchoolRead { narr: PhiNarr; eyebrow: string }
+
+export const SCHOOL_READS: Record<string, SchoolRead> = {
+  plat: { narr: PLATONISM, eyebrow: 'The tradition' },
+}
+
+export const hasSchoolRead = (id: string): boolean => id in SCHOOL_READS
+export const SCHOOL_READ_IDS = Object.keys(SCHOOL_READS)
