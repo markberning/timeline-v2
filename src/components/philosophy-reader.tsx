@@ -165,7 +165,7 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
         .phi-eyebrow { font-family: ui-sans-serif, system-ui, sans-serif; color: var(--phi-accent);
           font-size: 12px; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; margin: 0 0 12px; }
         .phi-title { font-size: 42px; line-height: 1.06; font-weight: 600; letter-spacing: -0.01em; margin: 0 0 14px; }
-        .phi-lede { font-size: 17.5px; line-height: 1.55; font-style: italic; color: var(--soft); margin: 0 0 8px; }
+        .phi-lede { font-size: 15.5px; line-height: 1.55; font-style: italic; color: var(--ink); margin: 0 0 8px; }
         .phi-body { max-width: 680px; margin: 18px auto 0; }
         .phi-toc { max-width: 680px; margin: 20px auto 6px; border: 1px solid var(--rule); border-radius: 10px; background: var(--card); padding: 14px 16px 8px; }
         .phi-toc-h { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; color: var(--phi-accent); margin: 0 0 11px; }

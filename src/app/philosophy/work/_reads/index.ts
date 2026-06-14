@@ -13,6 +13,8 @@ import { PHAEDO } from './phaedo'
 import { CONFESSIONS } from './confessions'
 import { CITYOFGOD } from './cityofgod'
 import { METAPHYSICS } from './metaphysics'
+import { POLITICS } from './politics'
+import { NICOMACHEAN } from './nicomachean'
 
 export interface WorkRead { narr: PhiNarr; eyebrow: string }
 
@@ -24,6 +26,8 @@ export const WORK_READS: Record<string, WorkRead> = {
   confessions: { narr: CONFESSIONS, eyebrow: 'Augustine' },
   cityofgod: { narr: CITYOFGOD, eyebrow: 'Augustine' },
   metaphysics: { narr: METAPHYSICS, eyebrow: 'Aristotle' },
+  politics: { narr: POLITICS, eyebrow: 'Aristotle' },
+  nicomachean: { narr: NICOMACHEAN, eyebrow: 'Aristotle' },
 }
 
 export const hasWorkRead = (id: string): boolean => id in WORK_READS

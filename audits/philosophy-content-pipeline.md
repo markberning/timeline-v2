@@ -158,6 +158,7 @@ Philosophy suffers TWO inherited-error classes, and the fact-checker hunts both:
    parentheses). A finished read carries only a tiny handful, if any (target ≈ the
    reviser-clean Metaphysics read's ~10, mostly epigraph "— Author" attributions).
    Em-dashes INSIDE a quoted passage or an epigraph attribution line are left alone.
+   **(g) NO SELF-REFERENCE TO THE ARTIFACT (added 2026-06-14, the Platonism hero caption "the tradition this read traces").** The narration must never name itself or signpost its own structure: cut "this read," "this narrative," "this page," "at the head of this read," "it waits at the close," "the road to it starts here." Reword to drop the self-reference. Terse parenthetical cross-refs — "(Chapter 6)" — are fine and stay; the banned thing is the text talking about itself as a thing the reader is moving through.
    Worked examples and the steelman stay — they convert to plain third-person
    narration ("a man badly needs money," not "you badly need money"), never to
    reader-coaching. **The story/clarity gate enforces (a)–(f) as BLOCKERS (REVISE),
@@ -165,6 +166,26 @@ Philosophy suffers TWO inherited-error classes, and the fact-checker hunts both:
    shipped reads. The author writes this way from the first draft; the reviser
    enforces it; voice-only fixes must never touch a verified quote, fact, or
    structure (the era-5 don't-fix-correct-quotes rule).
+
+   #### AUTHOR VOICE CONTRACT — paste VERBATIM into every author brief (locked 2026-06-14)
+   Standing user instruction: build it right the first time; do NOT author-then-reject. The
+   gates are a CHECK, not a cleanup pass. A draft that arrives with any banned move below is an
+   author failure, not a normal step. Write the first draft already obeying ALL of these:
+   1. Tell the story; never address or coach the reader. BANNED: "notice", "picture", "hold
+      this", "watch", "consider how", "read that again", "sit with", "feel the pull". Write
+      "X is the case," not "notice that X."
+   2. No throat-clearing / meta-narration. BANNED: "here is the thing", "the part people miss",
+      "what's striking is", "make no mistake", "it's worth pausing". If it's interesting, say it.
+   3. The text never refers to itself. BANNED: "this read", "this narrative", "this page", "at
+      the head of this read", "it waits at the close", "the road to it starts here". Terse
+      parenthetical cross-refs — "(Chapter 6)" — are fine.
+   4. No em-dashes in narration. Use periods, commas, colons, semicolons, or parentheses
+      (parentheses for definitions, NEVER an em-dash). Em-dashes appear ONLY inside a verified
+      quote or an epigraph "— Author, Work" line.
+   5. No self-labeled asides ("to be honest", "a quick note"), no condescension (don't explain
+      the obvious), no vague gestures referencing nothing.
+   6. Worked examples in third person ("a man needs money"), never second person ("you need money").
+   See `memory/feedback_build_it_right_first_time` and `memory/feedback_philosophy_voice_plain`.
 3. **Comprehensiveness critic** (Sonnet, web-enabled) — independent must-cover
    checklist; COVERED/THIN/MISSING; MUST-ADD vs SHOULD-CONSIDER. Selective is
    correct — flag only genuinely essential gaps. Special philosophy duty: the
