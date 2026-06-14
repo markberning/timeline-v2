@@ -33,6 +33,31 @@ export const ERA_CRUMB_OPTIONS: CrumbOption[] = [
   { label: 'The nineteenth century', href: '/philosophy/nineteenth-century' },
 ]
 
+// Representative year per school for ordering the jump-dropdown (range start, so the
+// curated chronological order is preserved exactly).
+const SCHOOL_SORT_YEAR: Record<string, number> = {
+  pre: -585, plat: -380, arist: -350, stoa: -300, schol: 1078,
+  rat: 1637, emp: 1689, ideal: 1781, util: 1789, exist: 1843,
+}
+
+// The School jump-dropdown: every school in chronological order, BUT the Independents
+// (who founded no school and joined none — there are only four) are broken out as
+// themselves and slotted by birth year, so the list reads pre-socratics → Socrates →
+// Platonism → … → German Idealists → Schopenhauer → Utilitarians → Marx →
+// Existentialists → Nietzsche, instead of hiding them in one "Independent" bucket.
+export function schoolDropdownOptions(): CrumbOption[] {
+  const items: { year: number; opt: CrumbOption }[] = []
+  for (const s of SCHOOLS) {
+    if (s.id === 'indep') {
+      for (const t of thinkersOfSchool('indep')) items.push({ year: t.born, opt: { label: t.name, href: `/philosophy/thinker/${t.id}` } })
+    } else {
+      items.push({ year: SCHOOL_SORT_YEAR[s.id] ?? 0, opt: { label: s.name, href: `/philosophy/school/${s.id}` } })
+    }
+  }
+  items.sort((a, b) => a.year - b.year)
+  return items.map(i => i.opt)
+}
+
 // Home crumb — like the war home (War › Theatre › Battle), the root is active and the
 // deeper levels show as jump-dropdowns so the whole drill path is reachable from here:
 // Philosophy › School[all schools] › Thinker[all thinkers, grouped by school].
@@ -43,7 +68,7 @@ export function homeCrumbs(): Crumb[] {
   ])
   return [
     { label: 'Philosophy', active: true, currentLabel: 'Philosophy' },
-    { label: 'School', options: SCHOOLS.map(s => ({ label: s.name, href: `/philosophy/school/${s.id}` })) },
+    { label: 'School', options: schoolDropdownOptions() },
     { label: 'Thinker', options: thinkerOpts },
   ]
 }
@@ -65,7 +90,7 @@ export function schoolCrumbs(id: SchoolId): Crumb[] {
   return [
     { label: 'Philosophy', href: '/philosophy' },
     { label: s.name, active: true, currentLabel: s.name,
-      options: SCHOOLS.map(x => ({ label: x.name, href: `/philosophy/school/${x.id}` })) },
+      options: schoolDropdownOptions() },
     { label: 'Thinker',
       options: thinkersOfSchool(id).map(x => ({ label: x.name, href: `/philosophy/thinker/${x.id}` })) },
   ]
@@ -78,7 +103,7 @@ export function thinkerCrumbs(thinkerId: string): Crumb[] {
   const crumbs: Crumb[] = [
     { label: 'Philosophy', href: '/philosophy' },
     { label: s.name, href: `/philosophy/school/${s.id}`,
-      options: SCHOOLS.map(x => ({ label: x.name, href: `/philosophy/school/${x.id}` })) },
+      options: schoolDropdownOptions() },
     { label: t.name, active: true, currentLabel: t.name,
       options: sibs.map(x => ({ label: x.name, href: `/philosophy/thinker/${x.id}` })) },
   ]
@@ -94,7 +119,7 @@ export function workCrumbs(workId: string, thinkerId: string): Crumb[] {
   return [
     { label: 'Philosophy', href: '/philosophy' },
     { label: s.name, href: `/philosophy/school/${s.id}`,
-      options: SCHOOLS.map(x => ({ label: x.name, href: `/philosophy/school/${x.id}` })) },
+      options: schoolDropdownOptions() },
     { label: t.name, href: `/philosophy/thinker/${t.id}`,
       options: thinkersOfSchool(t.school).map(x => ({ label: x.name, href: `/philosophy/thinker/${x.id}` })) },
     { label: w.title, active: true, currentLabel: w.title,
