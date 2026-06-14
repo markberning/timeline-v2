@@ -182,7 +182,7 @@ export function PhiHub({
           </div>
         )}
 
-        {note && <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 13.5, color: FAINT, lineHeight: 1.5, padding: '14px 16px 0' }}>{note}</div>}
+        {note && <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 14, color: MUTED, lineHeight: 1.55, padding: '14px 16px 0' }}>{note}</div>}
 
         {/* read button */}
         {readButton && (
