@@ -57,8 +57,10 @@ export default async function ThinkerHubPage({ params }: { params: Promise<{ thi
       }}
       rowsLabel={works.length ? 'The works' : undefined}
       rows={rows}
-      note={works.length === 0 ? `${t.name}’s major works will appear here as the reads are built. For now, the deep read above is the way in.` : undefined}
-      footerEra={{ href: `/philosophy/${t.era}`, label: `Read ${t.name} in context — ${ERA_NAME[t.era]}` }}
+      note={!read
+        ? `${t.name} doesn’t have a standalone deep read yet. For now their ideas are covered inside the era story (${ERA_NAME[t.era]}, linked below), set in their place in the larger argument. A dedicated read is on the way.`
+        : (works.length === 0 ? `${t.name}’s major works will appear here as the reads are built.` : undefined)}
+      footerEra={{ href: `/philosophy/${t.era}`, label: read ? `Read ${t.name} in context: ${ERA_NAME[t.era]}` : `Go to the era story: ${ERA_NAME[t.era]}` }}
     />
   )
 }
