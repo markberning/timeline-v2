@@ -73,7 +73,7 @@ export default function PhilosophyMap() {
           <div style={{ fontFamily: SANS, fontSize: 12, fontWeight: 600, letterSpacing: '.15em', textTransform: 'uppercase', color: ACCENT, marginBottom: 8 }}>New here? Start here.</div>
           <h1 style={{ fontFamily: SERIF, fontSize: 28, fontWeight: 500, color: INK, lineHeight: 1.12, margin: 0, letterSpacing: -0.4 }}>The map of ideas</h1>
           <p style={{ fontFamily: SERIF, fontSize: 15, lineHeight: 1.55, color: MUTED, margin: '11px 0 0', textWrap: 'pretty' }}>
-            Philosophy runs on words ending in <i>-ism</i>, and most of them get mixed up with their everyday meanings. Here is each one in plain language: what it actually means, what it is <i>not</i>, a concrete example, and the idea sitting right next to it. You will meet these terms throughout the reads; tap any of them there to see this same card without losing your place.
+            Philosophy runs on words ending in <i>-ism</i>, and most of them get mixed up with their everyday meanings. Here is each one in plain language: what it actually means, what it is <i>not</i>, a concrete example, and the idea sitting right next to it.
           </p>
         </div>
 
