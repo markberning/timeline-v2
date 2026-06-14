@@ -54,6 +54,20 @@ export default function PhilosophyHome() {
           </p>
         </div>
 
+        {/* newcomer on-ramp — the plain-language glossary of the -isms and the branches */}
+        <a href="/philosophy/map" style={{
+          display: 'flex', alignItems: 'center', gap: 13, margin: '16px 16px 0', padding: '13px 15px',
+          border: `1px solid color-mix(in srgb, ${ACCENT} 40%, transparent)`, borderRadius: 12,
+          background: `color-mix(in srgb, ${ACCENT} 9%, transparent)`, textDecoration: 'none', color: INK,
+        }}>
+          <span aria-hidden style={{ flexShrink: 0, width: 38, height: 38, borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center', background: `linear-gradient(150deg, ${ACCENT}, color-mix(in srgb, ${ACCENT} 45%, #211f1b))`, fontFamily: SERIF, fontSize: 20, color: 'rgba(255,255,255,.92)' }}>?</span>
+          <span style={{ minWidth: 0 }}>
+            <b style={{ display: 'block', fontFamily: SERIF, fontSize: 16, fontWeight: 600 }}>New here? Start with the map of ideas.</b>
+            <span style={{ display: 'block', fontFamily: SANS, fontSize: 12.5, color: MUTED, marginTop: 2 }}>Every -ism in plain language: what it is, what it isn&rsquo;t, and an example.</span>
+          </span>
+          <span style={{ flexShrink: 0, color: ACCENT, fontSize: 18 }}>→</span>
+        </a>
+
         {/* browse: eras · schools · thinkers · tree, toggled */}
         <HomeBrowse />
 
