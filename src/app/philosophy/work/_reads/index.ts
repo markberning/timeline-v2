@@ -10,6 +10,8 @@ import { REPUBLIC } from './republic'
 import { SYMPOSIUM } from './symposium'
 import { APOLOGY } from './apology'
 import { PHAEDO } from './phaedo'
+import { CONFESSIONS } from './confessions'
+import { CITYOFGOD } from './cityofgod'
 
 export interface WorkRead { narr: PhiNarr; eyebrow: string }
 
@@ -18,6 +20,8 @@ export const WORK_READS: Record<string, WorkRead> = {
   symposium: { narr: SYMPOSIUM, eyebrow: 'Plato' },
   apology: { narr: APOLOGY, eyebrow: 'Plato' },
   phaedo: { narr: PHAEDO, eyebrow: 'Plato' },
+  confessions: { narr: CONFESSIONS, eyebrow: 'Augustine' },
+  cityofgod: { narr: CITYOFGOD, eyebrow: 'Augustine' },
 }
 
 export const hasWorkRead = (id: string): boolean => id in WORK_READS
