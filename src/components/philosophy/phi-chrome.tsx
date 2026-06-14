@@ -131,6 +131,7 @@ export function PhiHub({
   diagram?:
     | { kind: 'pairs'; title: string; leftLabel: string; rightLabel: string; rows: { left: string; right: string }[]; caption: string }
     | { kind: 'ladder'; title: string; rungs: string[]; caption: string }
+    | { kind: 'triad'; title: string; leftLabel: string; midLabel: string; rightLabel: string; rows: { left: string; mid: string; right: string }[]; caption: string }
   spine?: { where: string; what: string }[]
   cast?: { name: string; role: string }[]
   passages?: { title: string; where: string; teaser: string }[]
@@ -216,6 +217,24 @@ export function PhiHub({
                     <div style={{ flex: 1, textAlign: 'center', padding: '11px 8px', fontFamily: SERIF, fontSize: 15, fontWeight: 600 }}>{r.left}</div>
                     <div aria-hidden style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 26, color: FAINT, fontSize: 13 }}>=</div>
                     <div style={{ flex: 1, textAlign: 'center', padding: '11px 8px', fontFamily: SERIF, fontSize: 15, fontWeight: 600 }}>{r.right}</div>
+                  </div>
+                ))}
+              </div>
+            )}
+            {diagram.kind === 'triad' && (
+              <div style={{ border: `1px solid ${BORDER}`, borderRadius: 12, background: CARD, overflow: 'hidden' }}>
+                <div style={{ display: 'flex', borderBottom: `1px solid ${BORDER}` }}>
+                  <div style={{ flex: 1, textAlign: 'center', padding: '8px 5px', fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: FAINT }}>{diagram.leftLabel}</div>
+                  <div style={{ width: 1, background: BORDER }} />
+                  <div style={{ flex: 1, textAlign: 'center', padding: '8px 5px', fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: accent, background: `color-mix(in srgb, ${accent} 12%, transparent)` }}>{diagram.midLabel}</div>
+                  <div style={{ width: 1, background: BORDER }} />
+                  <div style={{ flex: 1, textAlign: 'center', padding: '8px 5px', fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: '.06em', textTransform: 'uppercase', color: FAINT }}>{diagram.rightLabel}</div>
+                </div>
+                {diagram.rows.map((r, i) => (
+                  <div key={i} style={{ display: 'flex', alignItems: 'stretch', borderTop: i === 0 ? 'none' : `1px solid ${BORDER}` }}>
+                    <div style={{ flex: 1, textAlign: 'center', padding: '10px 5px', fontFamily: SANS, fontSize: 12.5, color: MUTED }}>{r.left}</div>
+                    <div style={{ flex: 1, textAlign: 'center', padding: '10px 5px', fontFamily: SERIF, fontSize: 14.5, fontWeight: 600, color: INK, background: `color-mix(in srgb, ${accent} 9%, transparent)` }}>{r.mid}</div>
+                    <div style={{ flex: 1, textAlign: 'center', padding: '10px 5px', fontFamily: SANS, fontSize: 12.5, color: MUTED }}>{r.right}</div>
                   </div>
                 ))}
               </div>

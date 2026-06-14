@@ -49,12 +49,14 @@ export interface WorkSection { id: string; title: string; blurb?: string; read?:
 export interface WorkCastMember { name: string; role: string }            // an interlocutor + one-line role
 export interface WorkPassage { title: string; where: string; teaser: string }  // a set-piece + which book + the hook
 export interface WorkSpineBeat { where: string; what: string }            // the shape of the argument, beat by beat
-// A "signature" visual for the work. Two shapes so far:
+// A "signature" visual for the work. Three shapes so far:
 //  - 'pairs'  → a two-column correspondence (e.g. the Republic's city ↔ soul)
 //  - 'ladder' → a vertical ascent, rungs[0] = lowest (e.g. the Symposium's ladder of love)
+//  - 'triad'  → three columns with an emphasized middle (e.g. the Ethics' Deficiency · Mean · Excess)
 export type WorkDiagram =
   | { kind: 'pairs'; title: string; leftLabel: string; rightLabel: string; rows: { left: string; right: string }[]; caption: string }
   | { kind: 'ladder'; title: string; rungs: string[]; caption: string }
+  | { kind: 'triad'; title: string; leftLabel: string; midLabel: string; rightLabel: string; rows: { left: string; mid: string; right: string }[]; caption: string }
 export interface Work {
   id: string
   title: string
@@ -308,7 +310,46 @@ export const WORKS: Record<string, Work> = {
       { title:'“I to die, and you to live”', where:'The close',    teaser:'His last words to the court: which of us goes to the better fate, only God knows.' },
     ] },
   nicomachean:{ id:'nicomachean',title:'Nicomachean Ethics',       year:'c.340 BC', thinker:'aristotle', form:'Ten books', blurb:'What is the good life? Happiness as flourishing, virtue as a trained habit, the golden mean.', sections:[] },
-  metaphysics:{ id:'metaphysics',title:'Metaphysics',              year:'c.330 BC', thinker:'aristotle', form:'Fourteen books', blurb:'Being as being — substance, form and matter, and the unmoved mover behind all motion.', sections:[] },
+  metaphysics:{ id:'metaphysics',title:'Metaphysics',              year:'c.330 BCE', thinker:'aristotle', form:'Fourteen books', blurb:'What does it mean for anything to exist? A climb from the four causes to a single eternal mind that moves the whole cosmos by being loved.', read:true, sections:[],
+    stats: [
+      { value:'14', label:'Books' },
+      { value:'4th c. BCE', label:'Written' },
+      { value:'Being itself', label:'On' },
+    ],
+    diagram: {
+      kind:'pairs',
+      title:'The four causes',
+      leftLabel:'The cause', rightLabel:'For a bronze statue',
+      rows: [
+        { left:'Material',  right:'the bronze it’s made of' },
+        { left:'Formal',    right:'the shape that makes it a statue' },
+        { left:'Efficient', right:'the sculptor who shapes it' },
+        { left:'Final',     right:'what it’s for — to honor someone' },
+      ],
+      caption:'Aristotle’s master tool: the little word “why?” is secretly four questions, and you haven’t explained a thing until you’ve answered all four — above all what it’s for. (The worked statue example is from his Physics; the four-cause scheme runs through the Metaphysics.)',
+    },
+    spine: [
+      { where:'Books I–II',   what:'The itch to understand, and the four causes — the four-part answer to every “why.”' },
+      { where:'Book I',       what:'Where the earlier philosophers, Plato included, each saw only part of the picture.' },
+      { where:'Book IV',      what:'What this science even is: the study of being as being, resting on the one rule thought can’t do without.' },
+      { where:'Books VII–VIII', what:'The question under all questions — “what is being?” becomes “what is substance?”: form, matter, essence.' },
+      { where:'Book IX',      what:'Potentiality and actuality: how anything passes from what it could be to what it actually is.' },
+      { where:'Book XII',     what:'The summit: the unmoved mover, a mind that moves the whole cosmos by being loved.' },
+    ],
+    cast: [
+      { name:'Being qua being',      role:'the subject — what it is for anything to exist at all' },
+      { name:'The four causes',      role:'the four-part answer to every “why” — Aristotle’s master tool' },
+      { name:'Substance (ousia)',    role:'the primary kind of being; “what is being?” reduces to “what is substance?”' },
+      { name:'Potentiality & actuality', role:'the pair that explains all change — and actuality comes first' },
+      { name:'The unmoved mover',    role:'the eternal mind that moves the world by being loved, thinking only of itself' },
+    ],
+    passages: [
+      { title:'“All men by nature desire to know”', where:'Book I',  teaser:'The most famous opening in philosophy — and he proves it from something as ordinary as our love of looking.' },
+      { title:'The four causes',     where:'Book I',   teaser:'The little word “why?” is secretly four questions; you haven’t explained anything until you’ve answered all four.' },
+      { title:'Being as being',      where:'Book IV',  teaser:'Every other science studies a slice of reality; this one studies existence itself.' },
+      { title:'What is substance?',  where:'Book VII', teaser:'The oldest question there is — “what is being?” — turns out to be a question about which things are the real ones.' },
+      { title:'The unmoved mover',   where:'Book XII', teaser:'The thing that moves the whole universe never moves; it draws everything the way a beloved draws you across a room, and thinks only about thinking.' },
+    ] },
   politics:   { id:'politics',   title:'Politics',                  year:'c.330 BC', thinker:'aristotle', form:'Eight books', blurb:'Man is a political animal; a survey of constitutions and what makes a city good.', sections:[] },
   discourses: { id:'discourses', title:'Discourses',               year:'c.108',    thinker:'epictetus', form:'Lecture notes', blurb:'A freed slave’s teaching, written down by a student: focus only on what is in your power.', sections:[] },
   'meditations-ma':{ id:'meditations-ma', title:'Meditations',      year:'c.175',    thinker:'aurelius',  form:'Private notebooks', blurb:'An emperor’s Stoic reminders to himself, never meant to be read by anyone.', sections:[] },

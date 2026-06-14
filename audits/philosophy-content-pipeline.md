@@ -149,12 +149,22 @@ Philosophy suffers TWO inherited-error classes, and the fact-checker hunts both:
    version, the one you could say at dinner," "the dinner-table version" (say the
    point plainly — keep the plain restatement, drop the label); (d) condescension —
    glossing BC/AD arithmetic or anything a smart reader already knows; (e) vague
-   gestures referencing nothing concrete. Worked examples and the steelman stay —
-   they convert to plain third-person narration ("a man badly needs money," not
-   "you badly need money"), never to reader-coaching. The author writes this way
-   from the first draft; the reviser enforces it; voice-only fixes must never
-   touch a verified quote, fact, or structure (the era-5 don't-fix-correct-quotes
-   rule).
+   gestures referencing nothing concrete; **(f) EM-DASH OVERUSE — a hard blocker,
+   added 2026-06-14 after the shipped Republic read went out with 171 em-dashes.**
+   This is the standing war-voice "cut em-dashes corpus-wide" directive
+   (`memory/feedback_war_voice_restraint`) applied to philosophy. In running
+   narration the default is NO em-dash: convert to a period, comma, colon,
+   semicolon, or parentheses (an em-dash must NEVER introduce a definition — use
+   parentheses). A finished read carries only a tiny handful, if any (target ≈ the
+   reviser-clean Metaphysics read's ~10, mostly epigraph "— Author" attributions).
+   Em-dashes INSIDE a quoted passage or an epigraph attribution line are left alone.
+   Worked examples and the steelman stay — they convert to plain third-person
+   narration ("a man badly needs money," not "you badly need money"), never to
+   reader-coaching. **The story/clarity gate enforces (a)–(f) as BLOCKERS (REVISE),
+   never as "polish"** — treating them as polish is exactly how they leaked into the
+   shipped reads. The author writes this way from the first draft; the reviser
+   enforces it; voice-only fixes must never touch a verified quote, fact, or
+   structure (the era-5 don't-fix-correct-quotes rule).
 3. **Comprehensiveness critic** (Sonnet, web-enabled) — independent must-cover
    checklist; COVERED/THIN/MISSING; MUST-ADD vs SHOULD-CONSIDER. Selective is
    correct — flag only genuinely essential gaps. Special philosophy duty: the
