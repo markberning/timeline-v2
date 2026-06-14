@@ -33,7 +33,7 @@ export default async function SchoolHubPage({ params }: { params: Promise<{ scho
     badge: hasRead(t.id) ? 'read' : undefined,
   }))
 
-  const fromYear = thinkers.length ? thinkers[0].dates.split('–')[0].trim() : '—'
+  const fromYear = thinkers.length ? thinkers[0].dates.split('–')[0].trim() : '·'
 
   return (
     <PhiHub
@@ -47,9 +47,9 @@ export default async function SchoolHubPage({ params }: { params: Promise<{ scho
       stats={[
         { value: String(thinkers.length), label: thinkers.length === 1 ? 'Thinker' : 'Thinkers' },
         { value: fromYear.includes('BC') ? 'Ancient' : fromYear.replace('c.', ''), label: 'From' },
-        { value: s.id === 'indep' ? '—' : '1', label: 'Core claim' },
+        { value: s.id === 'indep' ? '·' : '1', label: 'Core claim' },
       ]}
-      note={s.id === 'indep' ? 'These thinkers founded no school and joined none. They are listed together only because they refused every other label — the source, the loner, the dynamite.' : undefined}
+      note={s.id === 'indep' ? 'These thinkers founded no school and joined none. They are listed together only because they refused every other label: the source, the loner, the dynamite.' : undefined}
       readButton={hasSchoolRead(s.id) ? {
         href: `/philosophy/school/${s.id}/read`,
         title: `The whole ${s.name} story`,

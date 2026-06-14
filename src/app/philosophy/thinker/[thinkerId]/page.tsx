@@ -49,18 +49,20 @@ export default async function ThinkerHubPage({ params }: { params: Promise<{ thi
         { value: t.dates.split('–')[0].trim().replace('c.', ''), label: 'From' },
         { value: s.name.split(' ')[0], label: 'School' },
       ]}
-      readButton={{
-        href: `/philosophy/thinker/${t.id}/system`,
-        title: `Walk ${t.name}’s whole system`,
-        sub: read ? 'The ideas in order, start to finish — one long read' : 'The deep read is on the way',
-        soon: !read,
-      }}
+      readButton={read
+        ? {
+            href: `/philosophy/thinker/${t.id}/system`,
+            title: `Walk ${t.name}’s whole system`,
+            sub: 'The ideas in order, start to finish, as one long read',
+          }
+        : {
+            href: `/philosophy/${t.era}`,
+            title: `How ${t.name} fits into the story`,
+            sub: `Read ${ERA_NAME[t.era]}, where ${t.name} appears`,
+          }}
       rowsLabel={works.length ? 'The works' : undefined}
       rows={rows}
-      note={!read
-        ? `${t.name} doesn’t have a standalone deep read yet. For now their ideas are covered inside the era story (${ERA_NAME[t.era]}, linked below), set in their place in the larger argument. A dedicated read is on the way.`
-        : (works.length === 0 ? `${t.name}’s major works will appear here as the reads are built.` : undefined)}
-      footerEra={{ href: `/philosophy/${t.era}`, label: read ? `Read ${t.name} in context: ${ERA_NAME[t.era]}` : `Go to the era story: ${ERA_NAME[t.era]}` }}
+      footerEra={read ? { href: `/philosophy/${t.era}`, label: `Read ${t.name} in context: ${ERA_NAME[t.era]}` } : undefined}
     />
   )
 }

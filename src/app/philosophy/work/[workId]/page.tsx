@@ -5,7 +5,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { PhiHub, workCrumbs, type HubRow } from '@/components/philosophy/phi-chrome'
-import { WORKS, workById, thinkerById, schoolById } from '@/lib/philosophy-data'
+import { WORKS, workById, thinkerById, schoolById, ERA_NAME } from '@/lib/philosophy-data'
 
 export function generateStaticParams() {
   return Object.keys(WORKS).map(workId => ({ workId }))
@@ -42,19 +42,23 @@ export default async function WorkHubPage({ params }: { params: Promise<{ workId
       blurb={w.blurb}
       glyph={w.year.replace(/[^\d]/g, '').slice(0, 4) || '·'}
       stats={w.stats}
-      readButton={{
-        href: `/philosophy/work/${w.id}/read`,
-        title: 'Read it',
-        sub: w.read ? 'The whole work, in the house voice — no Greek required' : 'The read is on the way',
-        soon: !w.read,
-      }}
+      readButton={w.read
+        ? {
+            href: `/philosophy/work/${w.id}/read`,
+            title: 'Read it',
+            sub: 'The whole work, in the house voice (no Greek required)',
+          }
+        : {
+            href: `/philosophy/${t.era}`,
+            title: `How ${w.title} fits into the story`,
+            sub: `Read ${ERA_NAME[t.era]}, where ${t.name} appears`,
+          }}
       diagram={w.diagram}
       spine={w.spine}
       cast={w.cast}
       passages={w.passages}
       rowsLabel={w.sections.length ? 'Inside the work' : undefined}
       rows={rows}
-      note={(!w.read && w.sections.length === 0) ? 'The full read is being built. Meet the thinker first, above.' : undefined}
       footerEra={{ href: `/philosophy/thinker/${t.id}`, label: `Back to ${t.name}` }}
     />
   )
