@@ -91,7 +91,7 @@ export default function PhilosophyMap() {
         {ISM_GROUPS.map(g => (
           <section key={g.title} id={groupSlug(g.title)} style={{ padding: '22px 16px 2px', scrollMarginTop: 70 }}>
             <h2 style={{ fontFamily: SERIF, fontSize: 21, fontWeight: 600, margin: 0, letterSpacing: -0.2 }}>{g.title}</h2>
-            {g.intro && <p style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 14, lineHeight: 1.5, color: FAINT, margin: '6px 0 0', textWrap: 'pretty' }}>{g.intro}</p>}
+            {g.intro && <p style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 14.5, lineHeight: 1.5, color: MUTED, margin: '6px 0 0', textWrap: 'pretty' }}>{g.intro}</p>}
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginTop: 14 }}>
               {g.entries.map(e => {
