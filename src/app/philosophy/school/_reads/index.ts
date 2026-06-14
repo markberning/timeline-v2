@@ -7,10 +7,12 @@
 
 import type { PhiNarr } from '@/components/philosophy-reader'
 import { PLATONISM } from './platonism'
+import { PRESOCRATICS } from './presocratics'
 
 export interface SchoolRead { narr: PhiNarr; eyebrow: string }
 
 export const SCHOOL_READS: Record<string, SchoolRead> = {
+  pre: { narr: PRESOCRATICS, eyebrow: 'The tradition' },
   plat: { narr: PLATONISM, eyebrow: 'The tradition' },
 }
 

@@ -16,10 +16,18 @@ import { ZENO_CITIUM } from './zeno-citium'
 import { MARCUS_AURELIUS } from './marcus-aurelius'
 import { NIETZSCHE } from './nietzsche'
 import { AUGUSTINE } from './augustine'
+import { THALES } from './thales'
+import { PYTHAGORAS } from './pythagoras'
+import { HERACLITUS } from './heraclitus'
+import { PARMENIDES } from './parmenides'
 
 export interface ThinkerRead { narr: PhiNarr; eyebrow: string }
 
 export const THINKER_READS: Record<string, ThinkerRead> = {
+  thales: { narr: THALES, eyebrow: 'Pre-Socratics' },
+  pythagoras: { narr: PYTHAGORAS, eyebrow: 'Pre-Socratics' },
+  heraclitus: { narr: HERACLITUS, eyebrow: 'Pre-Socratics' },
+  parmenides: { narr: PARMENIDES, eyebrow: 'Pre-Socratics' },
   socrates: { narr: SOCRATES, eyebrow: 'Independent' },
   plato: { narr: PLATO, eyebrow: 'Platonism' },
   aristotle: { narr: ARISTOTLE, eyebrow: 'Aristotelians' },
