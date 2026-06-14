@@ -128,7 +128,9 @@ export function PhiHub({
   iconId?: string
   stats?: { value: string; label: string }[]
   readButton?: { href: string; title: string; sub: string; soon?: boolean }
-  diagram?: { title: string; leftLabel: string; rightLabel: string; rows: { left: string; right: string }[]; caption: string }
+  diagram?:
+    | { kind: 'pairs'; title: string; leftLabel: string; rightLabel: string; rows: { left: string; right: string }[]; caption: string }
+    | { kind: 'ladder'; title: string; rungs: string[]; caption: string }
   spine?: { where: string; what: string }[]
   cast?: { name: string; role: string }[]
   passages?: { title: string; where: string; teaser: string }[]
@@ -198,24 +200,43 @@ export function PhiHub({
           </a>
         )}
 
-        {/* the signature diagram — a parallel-structure visual (e.g. the city ↔ the soul) */}
+        {/* the signature diagram — a 'pairs' correspondence (city ↔ soul) or a 'ladder' ascent (the ladder of love) */}
         {diagram && (
           <div style={{ padding: '18px 16px 2px' }}>
             <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: FAINT, marginBottom: 11 }}>{diagram.title}</div>
-            <div style={{ border: `1px solid ${BORDER}`, borderRadius: 12, background: CARD, overflow: 'hidden' }}>
-              <div style={{ display: 'flex', borderBottom: `1px solid ${BORDER}` }}>
-                <div style={{ flex: 1, textAlign: 'center', padding: '8px 6px', fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: accent }}>{diagram.leftLabel}</div>
-                <div style={{ width: 1, background: BORDER }} />
-                <div style={{ flex: 1, textAlign: 'center', padding: '8px 6px', fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: accent }}>{diagram.rightLabel}</div>
-              </div>
-              {diagram.rows.map((r, i) => (
-                <div key={i} style={{ display: 'flex', alignItems: 'stretch', borderTop: i === 0 ? 'none' : `1px solid ${BORDER}` }}>
-                  <div style={{ flex: 1, textAlign: 'center', padding: '11px 8px', fontFamily: SERIF, fontSize: 15, fontWeight: 600 }}>{r.left}</div>
-                  <div aria-hidden style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 26, color: FAINT, fontSize: 13 }}>=</div>
-                  <div style={{ flex: 1, textAlign: 'center', padding: '11px 8px', fontFamily: SERIF, fontSize: 15, fontWeight: 600 }}>{r.right}</div>
+            {diagram.kind === 'pairs' && (
+              <div style={{ border: `1px solid ${BORDER}`, borderRadius: 12, background: CARD, overflow: 'hidden' }}>
+                <div style={{ display: 'flex', borderBottom: `1px solid ${BORDER}` }}>
+                  <div style={{ flex: 1, textAlign: 'center', padding: '8px 6px', fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: accent }}>{diagram.leftLabel}</div>
+                  <div style={{ width: 1, background: BORDER }} />
+                  <div style={{ flex: 1, textAlign: 'center', padding: '8px 6px', fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: accent }}>{diagram.rightLabel}</div>
                 </div>
-              ))}
-            </div>
+                {diagram.rows.map((r, i) => (
+                  <div key={i} style={{ display: 'flex', alignItems: 'stretch', borderTop: i === 0 ? 'none' : `1px solid ${BORDER}` }}>
+                    <div style={{ flex: 1, textAlign: 'center', padding: '11px 8px', fontFamily: SERIF, fontSize: 15, fontWeight: 600 }}>{r.left}</div>
+                    <div aria-hidden style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 26, color: FAINT, fontSize: 13 }}>=</div>
+                    <div style={{ flex: 1, textAlign: 'center', padding: '11px 8px', fontFamily: SERIF, fontSize: 15, fontWeight: 600 }}>{r.right}</div>
+                  </div>
+                ))}
+              </div>
+            )}
+            {diagram.kind === 'ladder' && (
+              <div style={{ border: `1px solid ${BORDER}`, borderRadius: 12, background: CARD, overflow: 'hidden' }}>
+                {/* highest rung on top; the climb reads upward — step numbers count up from the bottom */}
+                {diagram.rungs.map((rung, i, arr) => {
+                  const step = arr.length - i           // top row = highest step number
+                  const top = i === 0
+                  return (
+                    <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '11px 13px', borderTop: top ? 'none' : `1px solid ${BORDER}` }}>
+                      <span aria-hidden style={{ flexShrink: 0, width: 22, height: 22, borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SANS, fontSize: 11, fontWeight: 700, color: top ? '#1c1a14' : accent, background: top ? accent : `color-mix(in srgb, ${accent} 16%, transparent)` }}>{step}</span>
+                      <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: top ? 700 : 600, color: INK }}>{rung}</span>
+                      {top && <span style={{ marginLeft: 'auto', fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: accent }}>the top</span>}
+                    </div>
+                  )
+                })}
+                <div style={{ padding: '6px 13px 9px', fontFamily: SANS, fontSize: 10.5, color: FAINT, letterSpacing: '.04em', borderTop: `1px solid ${BORDER}` }}>↑ the climb, bottom to top</div>
+              </div>
+            )}
             <div style={{ fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: MUTED, marginTop: 9, textWrap: 'pretty' }}>{diagram.caption}</div>
           </div>
         )}

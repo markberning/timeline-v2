@@ -7,11 +7,17 @@
 
 import type { PhiNarr } from '@/components/philosophy-reader'
 import { REPUBLIC } from './republic'
+import { SYMPOSIUM } from './symposium'
+import { APOLOGY } from './apology'
+import { PHAEDO } from './phaedo'
 
 export interface WorkRead { narr: PhiNarr; eyebrow: string }
 
 export const WORK_READS: Record<string, WorkRead> = {
   republic: { narr: REPUBLIC, eyebrow: 'Plato' },
+  symposium: { narr: SYMPOSIUM, eyebrow: 'Plato' },
+  apology: { narr: APOLOGY, eyebrow: 'Plato' },
+  phaedo: { narr: PHAEDO, eyebrow: 'Plato' },
 }
 
 export const hasWorkRead = (id: string): boolean => id in WORK_READS

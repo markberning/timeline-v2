@@ -49,13 +49,12 @@ export interface WorkSection { id: string; title: string; blurb?: string; read?:
 export interface WorkCastMember { name: string; role: string }            // an interlocutor + one-line role
 export interface WorkPassage { title: string; where: string; teaser: string }  // a set-piece + which book + the hook
 export interface WorkSpineBeat { where: string; what: string }            // the shape of the argument, beat by beat
-export interface WorkDiagram {   // a "signature" parallel-structure diagram (e.g. the city ↔ the soul)
-  title: string
-  leftLabel: string
-  rightLabel: string
-  rows: { left: string; right: string }[]
-  caption: string
-}
+// A "signature" visual for the work. Two shapes so far:
+//  - 'pairs'  → a two-column correspondence (e.g. the Republic's city ↔ soul)
+//  - 'ladder' → a vertical ascent, rungs[0] = lowest (e.g. the Symposium's ladder of love)
+export type WorkDiagram =
+  | { kind: 'pairs'; title: string; leftLabel: string; rightLabel: string; rows: { left: string; right: string }[]; caption: string }
+  | { kind: 'ladder'; title: string; rungs: string[]; caption: string }
 export interface Work {
   id: string
   title: string
@@ -143,6 +142,7 @@ export const WORKS: Record<string, Work> = {
       { value:'Athens', label:'Set in' },
     ],
     diagram: {
+      kind:'pairs',
       title:'The city and the soul',
       leftLabel:'City', rightLabel:'Soul',
       rows: [
@@ -177,9 +177,136 @@ export const WORKS: Record<string, Work> = {
       { title:'The Allegory of the Cave', where:'Book VII', teaser:'Prisoners who take the shadows thrown on a wall for the whole of reality.' },
       { title:'The Myth of Er',           where:'Book X',   teaser:'A soldier returns from death to report how souls choose their next lives.' },
     ] },
-  symposium:  { id:'symposium',  title:'The Symposium',             year:'c.385 BC', thinker:'plato',     form:'A single dinner party', blurb:'Seven speeches on the nature of love, climbing Diotima’s ladder from bodies to Beauty itself.', sections:[] },
-  phaedo:     { id:'phaedo',     title:'Phaedo',                    year:'c.380 BC', thinker:'plato',     form:'Socrates’ last day', blurb:'On the soul’s immortality — the dialogue set in the hours before Socrates drinks the hemlock.', sections:[] },
-  apology:    { id:'apology',    title:'Apology',                   year:'c.399 BC', thinker:'plato',     form:'A courtroom speech', blurb:'Plato’s account of Socrates’ defense at his trial — the unexamined life is not worth living.', sections:[] },
+  symposium:  { id:'symposium',  title:'The Symposium',             year:'c.385 BCE', thinker:'plato',     form:'A single dinner party', blurb:'At a drinking party, speeches on love climb from desire for a beautiful body all the way to Beauty itself — until a drunk Alcibiades crashes in to praise Socrates instead.', read:true, sections:[],
+    stats: [
+      { value:'7', label:'Speeches' },
+      { value:'~385 BCE', label:'Written' },
+      { value:'Athens', label:'Set in' },
+    ],
+    diagram: {
+      kind:'ladder',
+      title:'The ladder of love',
+      rungs: [
+        'One beautiful body',
+        'All beautiful bodies',
+        'Beautiful souls',
+        'Laws and institutions',
+        'Knowledge',
+        'Beauty itself',
+      ],
+      caption:'Diotima’s ladder: love begins as desire for one beautiful body and, trained upward, climbs through all bodies, then souls, then laws and knowledge, to Beauty itself — the eternal Form. The first rung is a physical body, which is why “Platonic love” meaning chaste affection gets the dialogue backwards.',
+    },
+    spine: [
+      { where:'Phaedrus',        what:'Love is the eldest god, and a spur to courage and sacrifice.' },
+      { where:'Pausanias',       what:'Two loves — a common, bodily one and a higher, heavenly one.' },
+      { where:'Eryximachus',     what:'A physician finds love at work all through nature.' },
+      { where:'Aristophanes',    what:'The comic myth: we were once whole, Zeus split us, and love is the search for our other half.' },
+      { where:'Agathon',         what:'Love as the youngest, fairest god — gorgeous, empty rhetoric.' },
+      { where:'Socrates & Diotima', what:'Love is no god but a needy in-between spirit, trainable into the climb to Beauty itself.' },
+      { where:'Alcibiades',      what:'A drunk gatecrasher praises Socrates instead — the ladder made flesh.' },
+    ],
+    cast: [
+      { name:'Phaedrus',     role:'opens: love is the oldest god, a spur to bravery and sacrifice' },
+      { name:'Pausanias',    role:'splits love into a common, bodily kind and a higher, heavenly one' },
+      { name:'Eryximachus',  role:'the doctor; finds love at work all through nature' },
+      { name:'Aristophanes', role:'the comic poet; tells the split-humans “other half” myth' },
+      { name:'Agathon',      role:'the host, fresh off a tragedy prize; love as the fairest young god' },
+      { name:'Socrates',     role:'refuses the game: love is a lack, not a god' },
+      { name:'Diotima',      role:'the priestess whose teaching Socrates relays — the ladder of love' },
+      { name:'Alcibiades',   role:'crashes in drunk and praises Socrates instead of love' },
+    ],
+    passages: [
+      { title:'The other half',            where:'Aristophanes', teaser:'We were once whole, four-armed and two-faced; Zeus split us, and love is the hunt for our missing half.' },
+      { title:'Love desires what it lacks', where:'Socrates',    teaser:'The question that deflates Agathon: you can’t already possess what you long for.' },
+      { title:'Love is a daimon',          where:'Diotima',      teaser:'Neither mortal nor god, but the in-between spirit that spans the gap between them.' },
+      { title:'The ladder of love',        where:'Diotima',      teaser:'Love climbs from one beautiful body through souls and laws and knowledge to Beauty itself.' },
+      { title:'The Silenus',               where:'Alcibiades',   teaser:'Socrates is ugly on the outside, and full of golden images within.' },
+      { title:'The night under the cloak', where:'Alcibiades',   teaser:'The most beautiful man in Athens tries to seduce Socrates, and nothing happens.' },
+    ] },
+  phaedo:     { id:'phaedo',     title:'Phaedo',                    year:'c.380 BCE', thinker:'plato',     form:'Socrates’ last day', blurb:'On his execution day, calm and even cheerful, Socrates argues that the soul outlives the body — four times over — and then drinks the hemlock.', read:true, sections:[],
+    stats: [
+      { value:'4', label:'Proofs' },
+      { value:'399 BCE', label:'Set' },
+      { value:'A prison', label:'Set in' },
+    ],
+    diagram: {
+      kind:'pairs',
+      title:'Body and soul',
+      leftLabel:'The body', rightLabel:'The soul',
+      rows: [
+        { left:'Visible',    right:'Invisible' },
+        { left:'Changing',   right:'Unchanging' },
+        { left:'Perishable', right:'Deathless' },
+      ],
+      caption:'The “affinity” argument: the body is like the things that decay — visible, changing, breakable — while the soul is more like the Forms it reasons about: invisible, unchanging, and so, Socrates argues, not the kind of thing that can die. It is one of four proofs the dialogue stacks, none meant to stand alone.',
+    },
+    spine: [
+      { where:'Why face death calmly', what:'Death is the soul set free from the body, and philosophy has been practice for it all along.' },
+      { where:'1 · Opposites',  what:'The living come from the dead and the dead from the living — so the soul must persist between lives.' },
+      { where:'2 · Recollection', what:'We recognize the Forms as if remembering them — so the soul knew them, and existed, before birth.' },
+      { where:'3 · Affinity',   what:'The soul resembles the invisible, unchanging Forms it grasps, so it is the imperishable kind of thing.' },
+      { where:'The objections', what:'Simmias: maybe the soul is just the body’s tuning, gone when the lyre breaks. Cebes: it may outlast many bodies and still wear out.' },
+      { where:'4 · The final proof', what:'The soul brings life, so it can no more admit death than fire can admit cold — therefore deathless.' },
+      { where:'The hemlock',    what:'A closing myth of the true earth, then the poison, the covered face, and a last debt owed to the god of healing.' },
+    ],
+    cast: [
+      { name:'Socrates',   role:'the condemned philosopher, calm and even cheerful, arguing the soul outlives the body' },
+      { name:'Phaedo',     role:'narrates the whole last day afterward, from Phlius' },
+      { name:'Echecrates', role:'the listener whose questions pull the story out of Phaedo' },
+      { name:'Cebes',      role:'the sharp objector: lasting a long time isn’t the same as never dying' },
+      { name:'Simmias',    role:'objects that the soul may be the body’s tuning, gone when the lyre breaks' },
+      { name:'Crito',      role:'the old friend who receives the last words about the cock owed to Asclepius' },
+    ],
+    passages: [
+      { title:'Practice for death',     where:'The thesis',      teaser:'The philosopher spends his life freeing the soul from the body — so death is the thing he has been training for.' },
+      { title:'Learning is remembering', where:'Recollection',   teaser:'We recognize the Forms as if recovering them — proof the soul knew them, and existed, before we were born.' },
+      { title:'The broken lyre',        where:'The objection',   teaser:'Simmias: maybe the soul is just the body’s tuning, and dies the moment the instrument breaks.' },
+      { title:'The final argument',     where:'The summit',      teaser:'The soul brings life, so it can no more admit death than fire can admit cold — therefore it cannot die.' },
+      { title:'The last words',         where:'The death',       teaser:'“Crito, I owe a cock to Asclepius” — the enigmatic close, as if death were the cure for a long illness.' },
+      { title:'The likely tale',        where:'The myth',        teaser:'A picture of the true earth and the soul’s journey after death — offered not as fact but as a story worth the risk.' },
+    ] },
+  apology:    { id:'apology',    title:'Apology',                   year:'399 BCE', thinker:'plato',     form:'A courtroom speech', blurb:'Socrates’ defense at his trial for his life — where he refuses to grovel, calls himself the city’s gadfly, and says the unexamined life is not worth living.', read:true, sections:[],
+    stats: [
+      { value:'399 BCE', label:'Tried' },
+      { value:'3', label:'Accusers' },
+      { value:'Death', label:'Sentence' },
+    ],
+    diagram: {
+      kind:'pairs',
+      title:'The oracle’s riddle',
+      leftLabel:'He questioned', rightLabel:'What he found',
+      rows: [
+        { left:'Politicians', right:'Thought wise, were not' },
+        { left:'Poets',       right:'Inspired, couldn’t explain it' },
+        { left:'Craftsmen',   right:'Skilled, but overreached' },
+      ],
+      caption:'Told by the Delphic oracle that no man was wiser, Socrates cross-examined Athens’ reputed experts to prove it wrong — and found each one thought he knew what he didn’t. His own “human wisdom” was only this: he at least knew that he did not know.',
+    },
+    spine: [
+      { where:'The old slander', what:'He answers the years-deep caricature first — the sky-gazing sophist of Aristophanes’ comedy — because rumor can’t be cross-examined.' },
+      { where:'The oracle',      what:'Why he made enemies: a god-given mission to test the oracle that called him wisest, by questioning everyone who claimed to know.' },
+      { where:'The charges',     what:'He cross-examines Meletus and traps him — the impiety charge contradicts itself.' },
+      { where:'The gadfly',      what:'He defends the examined life: he is the sting that keeps a sluggish Athens awake, a gift, not an enemy.' },
+      { where:'Incorruptible',   what:'His inner sign kept him out of politics; he twice defied unjust orders, under democracy and tyranny alike.' },
+      { where:'Guilty',          what:'Convicted narrowly — and instead of begging, he says he deserves free meals at public expense, then offers a token fine.' },
+      { where:'The sentence',    what:'Condemned to death, he tells the court that injustice runs faster than death, and no evil can touch a good man.' },
+    ],
+    cast: [
+      { name:'Socrates',    role:'the defendant, 70, on trial for his life — Athens’ self-described gadfly' },
+      { name:'Meletus',     role:'the young lead accuser, trapped in self-contradiction under questioning' },
+      { name:'Anytus',      role:'the powerful politician behind the prosecution, pushing for death' },
+      { name:'Lycon',       role:'the third accuser, speaking for the orators' },
+      { name:'Chaerephon',  role:'the old friend who asked the oracle if anyone was wiser than Socrates' },
+      { name:'The jury',    role:'~500 Athenian citizens who convict, then condemn him to death' },
+    ],
+    passages: [
+      { title:'The Delphic oracle',          where:'Human wisdom', teaser:'The oracle says no one is wiser than Socrates — so he sets out to prove it wrong, and learns the “wise” only think they know.' },
+      { title:'“I know that I know nothing”', where:'The real line', teaser:'What he actually says is subtler: he neither knows nor imagines he knows — and that not-overclaiming is his only wisdom.' },
+      { title:'The gadfly',                  where:'His mission',   teaser:'Athens is a great, sluggish horse; Socrates is the fly the god set on it to sting it awake.' },
+      { title:'The daimonion',               where:'The sign',     teaser:'A divine voice that only ever forbids — and its silence on the day of the trial is his proof that death is no evil.' },
+      { title:'The unexamined life',         where:'His stand',    teaser:'He would rather be put to death than give up questioning: a life without self-examination isn’t worth living.' },
+      { title:'“I to die, and you to live”', where:'The close',    teaser:'His last words to the court: which of us goes to the better fate, only God knows.' },
+    ] },
   nicomachean:{ id:'nicomachean',title:'Nicomachean Ethics',       year:'c.340 BC', thinker:'aristotle', form:'Ten books', blurb:'What is the good life? Happiness as flourishing, virtue as a trained habit, the golden mean.', sections:[] },
   metaphysics:{ id:'metaphysics',title:'Metaphysics',              year:'c.330 BC', thinker:'aristotle', form:'Fourteen books', blurb:'Being as being — substance, form and matter, and the unmoved mover behind all motion.', sections:[] },
   politics:   { id:'politics',   title:'Politics',                  year:'c.330 BC', thinker:'aristotle', form:'Eight books', blurb:'Man is a political animal; a survey of constitutions and what makes a city good.', sections:[] },
