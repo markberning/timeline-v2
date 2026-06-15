@@ -24,6 +24,9 @@ import { LEVIATHAN } from './leviathan'
 import { LOCKE_ESSAY } from './locke-essay'
 import { HUME_ENQUIRY } from './hume-enquiry'
 import { HUME_TREATISE } from './hume-treatise'
+import { CPR } from './cpr'
+import { GROUNDWORK } from './groundwork'
+import { PHENOMENOLOGY } from './phenomenology'
 
 export interface WorkRead { narr: PhiNarr; eyebrow: string }
 
@@ -46,6 +49,9 @@ export const WORK_READS: Record<string, WorkRead> = {
   essay: { narr: LOCKE_ESSAY, eyebrow: 'Locke' },
   enquiry: { narr: HUME_ENQUIRY, eyebrow: 'Hume' },
   treatise: { narr: HUME_TREATISE, eyebrow: 'Hume' },
+  cpr: { narr: CPR, eyebrow: 'Kant' },
+  groundwork: { narr: GROUNDWORK, eyebrow: 'Kant' },
+  phenomenology: { narr: PHENOMENOLOGY, eyebrow: 'Hegel' },
 }
 
 export const hasWorkRead = (id: string): boolean => id in WORK_READS

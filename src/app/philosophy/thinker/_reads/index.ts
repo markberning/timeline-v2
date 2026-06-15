@@ -32,6 +32,8 @@ import { LEIBNIZ } from './leibniz'
 import { HOBBES } from './hobbes'
 import { LOCKE } from './locke'
 import { BERKELEY } from './berkeley'
+import { HEGEL } from './hegel'
+import { FICHTE } from './fichte'
 
 export interface ThinkerRead { narr: PhiNarr; eyebrow: string }
 
@@ -58,6 +60,8 @@ export const THINKER_READS: Record<string, ThinkerRead> = {
   spinoza: { narr: SPINOZA, eyebrow: 'Rationalists' },
   leibniz: { narr: LEIBNIZ, eyebrow: 'Rationalists' },
   kant: { narr: KANT, eyebrow: 'German Idealists' },
+  fichte: { narr: FICHTE, eyebrow: 'German Idealists' },
+  hegel: { narr: HEGEL, eyebrow: 'German Idealists' },
   zeno: { narr: ZENO_CITIUM, eyebrow: 'Stoics' },
   epictetus: { narr: EPICTETUS, eyebrow: 'Stoics' },
   aurelius: { narr: MARCUS_AURELIUS, eyebrow: 'Stoics' },
