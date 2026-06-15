@@ -15,6 +15,9 @@ import { CITYOFGOD } from './cityofgod'
 import { METAPHYSICS } from './metaphysics'
 import { POLITICS } from './politics'
 import { NICOMACHEAN } from './nicomachean'
+import { DISCOURSES } from './discourses'
+import { MEDITATIONS } from './meditations'
+import { SUMMA } from './summa'
 
 export interface WorkRead { narr: PhiNarr; eyebrow: string }
 
@@ -28,6 +31,9 @@ export const WORK_READS: Record<string, WorkRead> = {
   metaphysics: { narr: METAPHYSICS, eyebrow: 'Aristotle' },
   politics: { narr: POLITICS, eyebrow: 'Aristotle' },
   nicomachean: { narr: NICOMACHEAN, eyebrow: 'Aristotle' },
+  discourses: { narr: DISCOURSES, eyebrow: 'Epictetus' },
+  'meditations-ma': { narr: MEDITATIONS, eyebrow: 'Marcus Aurelius' },
+  summa: { narr: SUMMA, eyebrow: 'Aquinas' },
 }
 
 export const hasWorkRead = (id: string): boolean => id in WORK_READS

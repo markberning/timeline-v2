@@ -173,18 +173,45 @@ Philosophy suffers TWO inherited-error classes, and the fact-checker hunts both:
    author failure, not a normal step. Write the first draft already obeying ALL of these:
    1. Tell the story; never address or coach the reader. BANNED: "notice", "picture", "hold
       this", "watch", "consider how", "read that again", "sit with", "feel the pull". Write
-      "X is the case," not "notice that X."
-   2. No throat-clearing / meta-narration. BANNED: "here is the thing", "the part people miss",
-      "what's striking is", "make no mistake", "it's worth pausing". If it's interesting, say it.
+      "X is the case," not "notice that X." ALSO never PRESUME or MANAGE the reader's reaction:
+      BANNED "the first reaction to this is usually a laugh", "the laugh should be allowed and
+      then set aside", "before you laugh", "you might be tempted to", "it's easy to dismiss this,
+      but", "resist the urge to", "do not be put off by". Don't narrate how the reader feels or
+      instruct them how to handle a feeling; just make the case. (locked 2026-06-14, user-flagged
+      on the Thales "everything is water" passage.)
+   2. No throat-clearing / meta-narration / scene-setting. BANNED: "here is the thing", "the part
+      people miss", "what's striking is", "make no mistake", "it's worth pausing". ALSO BANNED:
+      prescriptive framing that stages the discussion or tells the reader how to approach the
+      material before giving it — "a problem has to be faced squarely", "before any of his ideas, X
+      must be faced", "before we can understand X we must…", "one thing has to be said first", "it
+      shapes everything that can honestly be said", "this deserves its full weight", "the first
+      thing to notice". Do NOT announce, stage, or instruct. Just state the fact. The canonical
+      failure (locked 2026-06-14, user-flagged): NOT "Before any of his ideas, a problem has to be
+      faced squarely, because it shapes everything that can honestly be said. We do not really have
+      Thales," but simply "Almost nothing of Thales survives in his own words; what we know comes
+      secondhand, from writers centuries later." If it's interesting, say it.
    3. The text never refers to itself. BANNED: "this read", "this narrative", "this page", "at
       the head of this read", "it waits at the close", "the road to it starts here". Terse
       parenthetical cross-refs — "(Chapter 6)" — are fine.
    4. No em-dashes in narration. Use periods, commas, colons, semicolons, or parentheses
       (parentheses for definitions, NEVER an em-dash). Em-dashes appear ONLY inside a verified
       quote or an epigraph "— Author, Work" line.
-   5. No self-labeled asides ("to be honest", "a quick note"), no condescension (don't explain
-      the obvious), no vague gestures referencing nothing.
+   5. No self-labeled asides ("to be honest", "a quick note"), no vague gestures referencing
+      nothing, and TRUST THE READER (locked 2026-06-15, user line-editing the Thales reporters
+      passage): (a) do not gloss a word or idea any literate adult already knows ("which is
+      Aristotle inferring, not Thales testifying" explains what "inferring" means, cut it); (b)
+      do not tack on a clause that re-states the point you just made ("…what people said about a
+      famous old name, which is a different thing from documentation" — the first half already
+      says it, cut the tail; same for "which is a different thing from X", "in other words…",
+      "that is to say…" when the sentence already landed); (c) no cute or precious turns ("a
+      character to be enjoyed"); (d) be PRECISE and never self-contradictory ("the philosopher of
+      the following century, writing about two hundred years after" says two different things,
+      pick one: "writing about two centuries later"). Make the point once, plainly, and move on.
    6. Worked examples in third person ("a man needs money"), never second person ("you need money").
+   7. No editorial "we" that stages the inquiry or instructs the reader's stance. BANNED: "we must
+      face", "we have to ask", "we cannot say", "we need to see", "we do not really have X". Plain
+      reporting is fine ("little of his life is known"); name who when possible ("the sources don't
+      record…", "scholars can't reconstruct…"). Never use "we must/have to" to set up a point.
    See `memory/feedback_build_it_right_first_time` and `memory/feedback_philosophy_voice_plain`.
 3. **Comprehensiveness critic** (Sonnet, web-enabled) — independent must-cover
    checklist; COVERED/THIN/MISSING; MUST-ADD vs SHOULD-CONSIDER. Selective is

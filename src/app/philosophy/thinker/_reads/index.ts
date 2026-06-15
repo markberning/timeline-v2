@@ -25,6 +25,8 @@ import { AVICENNA } from './avicenna'
 import { AVERROES } from './averroes'
 import { MAIMONIDES } from './maimonides'
 import { EPICTETUS } from './epictetus'
+import { ANSELM } from './anselm'
+import { OCKHAM } from './ockham'
 
 export interface ThinkerRead { narr: PhiNarr; eyebrow: string }
 
@@ -40,7 +42,9 @@ export const THINKER_READS: Record<string, ThinkerRead> = {
   avicenna: { narr: AVICENNA, eyebrow: 'Aristotelians' },
   averroes: { narr: AVERROES, eyebrow: 'Aristotelians' },
   maimonides: { narr: MAIMONIDES, eyebrow: 'Aristotelians' },
+  anselm: { narr: ANSELM, eyebrow: 'Scholastics' },
   aquinas: { narr: AQUINAS, eyebrow: 'Scholastics' },
+  ockham: { narr: OCKHAM, eyebrow: 'Scholastics' },
   hume: { narr: HUME, eyebrow: 'Empiricists' },
   descartes: { narr: DESCARTES, eyebrow: 'Rationalists' },
   kant: { narr: KANT, eyebrow: 'German Idealists' },
