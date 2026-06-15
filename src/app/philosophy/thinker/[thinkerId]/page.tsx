@@ -44,11 +44,6 @@ export default async function ThinkerHubPage({ params }: { params: Promise<{ thi
       meta={`${t.dates} · ${s.name}`}
       blurb={t.epithet}
       iconId={t.id}
-      stats={[
-        { value: String(works.length), label: works.length === 1 ? 'Key work' : 'Key works' },
-        { value: t.dates.split('–')[0].trim().replace('c.', ''), label: 'From' },
-        { value: s.name.split(' ')[0], label: 'School' },
-      ]}
       readButton={read
         ? {
             href: `/philosophy/thinker/${t.id}/system`,

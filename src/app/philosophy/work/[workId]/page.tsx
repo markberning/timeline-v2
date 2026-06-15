@@ -46,7 +46,7 @@ export default async function WorkHubPage({ params }: { params: Promise<{ workId
         ? {
             href: `/philosophy/work/${w.id}/read`,
             title: 'Read it',
-            sub: 'The whole work, in the house voice (no Greek required)',
+            sub: 'Its ideas and famous passages, in plain English.',
           }
         : {
             href: `/philosophy/${t.era}`,
