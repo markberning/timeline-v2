@@ -40,7 +40,7 @@ export default async function WorkHubPage({ params }: { params: Promise<{ workId
       title={w.title}
       meta={`${w.year} · ${w.form}`}
       blurb={w.blurb}
-      glyph={w.year.replace(/[^\d]/g, '').slice(0, 4) || '·'}
+      glyph={w.year.match(/\d{1,4}/)?.[0] ?? '·'}
       stats={w.stats}
       readButton={w.read
         ? {

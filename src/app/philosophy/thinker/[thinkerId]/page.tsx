@@ -28,7 +28,7 @@ export default async function ThinkerHubPage({ params }: { params: Promise<{ thi
   const read = hasRead(t.id)
 
   const rows: HubRow[] = works.map(w => ({
-    glyph: w.year.replace(/[^\d]/g, '').slice(0, 4) || '·',
+    glyph: w.year.match(/\d{1,4}/)?.[0] ?? '·',
     tint: s.color, square: true,
     title: w.title, sub: `${w.year} · ${w.form}`, hook: w.blurb,
     href: `/philosophy/work/${w.id}`,
