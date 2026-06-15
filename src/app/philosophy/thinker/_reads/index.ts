@@ -20,6 +20,11 @@ import { THALES } from './thales'
 import { PYTHAGORAS } from './pythagoras'
 import { HERACLITUS } from './heraclitus'
 import { PARMENIDES } from './parmenides'
+import { PLOTINUS } from './plotinus'
+import { AVICENNA } from './avicenna'
+import { AVERROES } from './averroes'
+import { MAIMONIDES } from './maimonides'
+import { EPICTETUS } from './epictetus'
 
 export interface ThinkerRead { narr: PhiNarr; eyebrow: string }
 
@@ -30,12 +35,17 @@ export const THINKER_READS: Record<string, ThinkerRead> = {
   parmenides: { narr: PARMENIDES, eyebrow: 'Pre-Socratics' },
   socrates: { narr: SOCRATES, eyebrow: 'Independent' },
   plato: { narr: PLATO, eyebrow: 'Platonism' },
+  plotinus: { narr: PLOTINUS, eyebrow: 'Platonism' },
   aristotle: { narr: ARISTOTLE, eyebrow: 'Aristotelians' },
+  avicenna: { narr: AVICENNA, eyebrow: 'Aristotelians' },
+  averroes: { narr: AVERROES, eyebrow: 'Aristotelians' },
+  maimonides: { narr: MAIMONIDES, eyebrow: 'Aristotelians' },
   aquinas: { narr: AQUINAS, eyebrow: 'Scholastics' },
   hume: { narr: HUME, eyebrow: 'Empiricists' },
   descartes: { narr: DESCARTES, eyebrow: 'Rationalists' },
   kant: { narr: KANT, eyebrow: 'German Idealists' },
   zeno: { narr: ZENO_CITIUM, eyebrow: 'Stoics' },
+  epictetus: { narr: EPICTETUS, eyebrow: 'Stoics' },
   aurelius: { narr: MARCUS_AURELIUS, eyebrow: 'Stoics' },
   nietzsche: { narr: NIETZSCHE, eyebrow: 'Independent' },
   augustine: { narr: AUGUSTINE, eyebrow: 'Platonism' },

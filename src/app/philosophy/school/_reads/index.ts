@@ -8,12 +8,16 @@
 import type { PhiNarr } from '@/components/philosophy-reader'
 import { PLATONISM } from './platonism'
 import { PRESOCRATICS } from './presocratics'
+import { ARISTOTELIANISM } from './aristotelianism'
+import { STOICISM } from './stoicism'
 
 export interface SchoolRead { narr: PhiNarr; eyebrow: string }
 
 export const SCHOOL_READS: Record<string, SchoolRead> = {
   pre: { narr: PRESOCRATICS, eyebrow: 'The tradition' },
   plat: { narr: PLATONISM, eyebrow: 'The tradition' },
+  arist: { narr: ARISTOTELIANISM, eyebrow: 'The tradition' },
+  stoa: { narr: STOICISM, eyebrow: 'The tradition' },
 }
 
 export const hasSchoolRead = (id: string): boolean => id in SCHOOL_READS
