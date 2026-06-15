@@ -18,6 +18,8 @@ import { NICOMACHEAN } from './nicomachean'
 import { DISCOURSES } from './discourses'
 import { MEDITATIONS } from './meditations'
 import { SUMMA } from './summa'
+import { ETHICS } from './ethics'
+import { DESC_MEDITATIONS } from './descartes-meditations'
 
 export interface WorkRead { narr: PhiNarr; eyebrow: string }
 
@@ -34,6 +36,8 @@ export const WORK_READS: Record<string, WorkRead> = {
   discourses: { narr: DISCOURSES, eyebrow: 'Epictetus' },
   'meditations-ma': { narr: MEDITATIONS, eyebrow: 'Marcus Aurelius' },
   summa: { narr: SUMMA, eyebrow: 'Aquinas' },
+  ethics: { narr: ETHICS, eyebrow: 'Spinoza' },
+  meditations: { narr: DESC_MEDITATIONS, eyebrow: 'Descartes' },
 }
 
 export const hasWorkRead = (id: string): boolean => id in WORK_READS
