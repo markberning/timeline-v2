@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { PhiHub, workCrumbs, type HubRow } from '@/components/philosophy/phi-chrome'
 import { WORKS, workById, thinkerById, schoolById, ERA_NAME } from '@/lib/philosophy-data'
+import { WORK_ICONS } from '@/lib/philosophy-icon-labels'
 
 export function generateStaticParams() {
   return Object.keys(WORKS).map(workId => ({ workId }))
@@ -41,6 +42,7 @@ export default async function WorkHubPage({ params }: { params: Promise<{ workId
       meta={`${w.year} · ${w.form}`}
       blurb={w.blurb}
       glyph={w.year.match(/\d{1,4}/)?.[0] ?? '·'}
+      iconId={WORK_ICONS.has(w.id) ? w.id : undefined}
       stats={w.stats}
       readButton={w.read
         ? {

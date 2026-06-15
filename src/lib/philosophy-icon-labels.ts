@@ -1,3 +1,7 @@
+// Works that have a generated emblem in /public/philosophy/icons/<workId>.png.
+// A work listed here renders its emblem in place of the year glyph (rows + hub hero).
+export const WORK_ICONS = new Set<string>(['republic'])
+
 // Short captions for the generated thinker emblems (/public/philosophy/icons) —
 // each names the thinker's SIGNATURE IDEA (not just what the emblem depicts),
 // shown under the larger emblem on thinker rows (the civ-home-card treatment).

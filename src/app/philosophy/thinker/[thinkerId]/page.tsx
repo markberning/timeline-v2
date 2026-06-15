@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { PhiHub, thinkerCrumbs, type HubRow } from '@/components/philosophy/phi-chrome'
 import { THINKERS, thinkerById, schoolById, worksOfThinker, ERA_NAME } from '@/lib/philosophy-data'
+import { WORK_ICONS } from '@/lib/philosophy-icon-labels'
 import { hasRead } from '../_reads'
 
 export function generateStaticParams() {
@@ -29,6 +30,7 @@ export default async function ThinkerHubPage({ params }: { params: Promise<{ thi
 
   const rows: HubRow[] = works.map(w => ({
     glyph: w.year.match(/\d{1,4}/)?.[0] ?? '·',
+    iconId: WORK_ICONS.has(w.id) ? w.id : undefined,
     tint: s.color, square: true,
     title: w.title, sub: `${w.year} · ${w.form}`, hook: w.blurb,
     href: `/philosophy/work/${w.id}`,
