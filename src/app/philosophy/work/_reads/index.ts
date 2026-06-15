@@ -32,6 +32,10 @@ import { UTILITARIANISM_WORK } from './utilitarianism'
 import { FEARTREMBLING } from './feartrembling'
 import { MANIFESTO } from './manifesto'
 import { CAPITAL } from './capital'
+import { WWR } from './wwr'
+import { BEYONDGOOD } from './beyondgood'
+import { GENEALOGY } from './genealogy'
+import { GAYSCIENCE } from './gayscience'
 
 export interface WorkRead { narr: PhiNarr; eyebrow: string }
 
@@ -62,6 +66,10 @@ export const WORK_READS: Record<string, WorkRead> = {
   feartrembling: { narr: FEARTREMBLING, eyebrow: 'Kierkegaard' },
   manifesto: { narr: MANIFESTO, eyebrow: 'Marx' },
   capital: { narr: CAPITAL, eyebrow: 'Marx' },
+  wwr: { narr: WWR, eyebrow: 'Schopenhauer' },
+  beyondgood: { narr: BEYONDGOOD, eyebrow: 'Nietzsche' },
+  genealogy: { narr: GENEALOGY, eyebrow: 'Nietzsche' },
+  gayscience: { narr: GAYSCIENCE, eyebrow: 'Nietzsche' },
 }
 
 export const hasWorkRead = (id: string): boolean => id in WORK_READS
