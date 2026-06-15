@@ -1,6 +1,11 @@
 // Works that have a generated emblem in /public/philosophy/icons/<workId>.png.
 // A work listed here renders its emblem in place of the year glyph (rows + hub hero).
-export const WORK_ICONS = new Set<string>(['republic'])
+export const WORK_ICONS = new Set<string>([
+  'republic', 'symposium', 'phaedo', 'apology', 'politics', 'discourses', 'meditations-ma',
+  'cityofgod', 'summa', 'discourse', 'principles', 'ethics', 'monadology', 'leviathan', 'essay',
+  'treatise', 'enquiry', 'cpr', 'groundwork', 'phenomenology', 'wwr', 'liberty', 'utilitarianism',
+  'feartrembling', 'manifesto', 'capital', 'beyondgood', 'genealogy', 'gayscience',
+])
 
 // Short captions for the generated thinker emblems (/public/philosophy/icons) —
 // each names the thinker's SIGNATURE IDEA (not just what the emblem depicts),
