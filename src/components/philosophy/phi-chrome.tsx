@@ -176,19 +176,19 @@ export function PhiHub({
         {/* hero */}
         <div style={{ padding: '18px 16px 16px', display: 'flex', gap: 14, alignItems: 'flex-start' }}>
           {(glyph || iconId) && (
-            <div style={{ flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, width: 64 }}>
-              <div aria-hidden style={{
-                width: 64, height: 64, borderRadius: 14, display: 'flex', alignItems: 'center', justifyContent: 'center',
-                background: `linear-gradient(150deg, ${accent}, color-mix(in srgb, ${accent} 45%, #211f1b))`,
-                fontFamily: SERIF, fontSize: 30, fontWeight: 600, color: 'rgba(255,255,255,.92)', textShadow: '0 1px 3px rgba(0,0,0,.35)',
-              }}>
-                {iconId
-                  /* eslint-disable-next-line @next/next/no-img-element */
-                  ? <img src={`/philosophy/icons/${iconId}.png`} alt="" data-no-zoom style={{ width: 40, height: 40, opacity: 0.95 }} />
-                  : glyph}
-              </div>
+            <div aria-hidden style={{
+              flexShrink: 0, width: iconCaption ? 76 : 64, minHeight: 64, borderRadius: 14,
+              display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 6,
+              padding: iconCaption ? '11px 7px' : 0,
+              background: `linear-gradient(150deg, ${accent}, color-mix(in srgb, ${accent} 45%, #211f1b))`,
+              fontFamily: SERIF, fontSize: 30, fontWeight: 600, color: 'rgba(255,255,255,.92)', textShadow: '0 1px 3px rgba(0,0,0,.35)',
+            }}>
+              {iconId
+                /* eslint-disable-next-line @next/next/no-img-element */
+                ? <img src={`/philosophy/icons/${iconId}.png`} alt="" data-no-zoom style={{ width: 42, height: 42, opacity: 0.95 }} />
+                : glyph}
               {iconCaption && (
-                <span style={{ fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', color: accent, lineHeight: 1.15, textAlign: 'center' }}>{iconCaption}</span>
+                <span style={{ fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', color: 'rgba(255,255,255,.92)', lineHeight: 1.15, textAlign: 'center' }}>{iconCaption}</span>
               )}
             </div>
           )}
