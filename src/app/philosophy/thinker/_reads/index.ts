@@ -34,6 +34,12 @@ import { LOCKE } from './locke'
 import { BERKELEY } from './berkeley'
 import { HEGEL } from './hegel'
 import { FICHTE } from './fichte'
+import { BENTHAM } from './bentham'
+import { MILL } from './mill'
+import { TAYLOR } from './taylor'
+import { KIERKEGAARD } from './kierkegaard'
+import { SCHOPENHAUER } from './schopenhauer'
+import { MARX } from './marx'
 
 export interface ThinkerRead { narr: PhiNarr; eyebrow: string }
 
@@ -66,6 +72,12 @@ export const THINKER_READS: Record<string, ThinkerRead> = {
   epictetus: { narr: EPICTETUS, eyebrow: 'Stoics' },
   aurelius: { narr: MARCUS_AURELIUS, eyebrow: 'Stoics' },
   nietzsche: { narr: NIETZSCHE, eyebrow: 'Independent' },
+  bentham: { narr: BENTHAM, eyebrow: 'Utilitarians' },
+  mill: { narr: MILL, eyebrow: 'Utilitarians' },
+  taylor: { narr: TAYLOR, eyebrow: 'Utilitarians' },
+  kierkegaard: { narr: KIERKEGAARD, eyebrow: 'Existentialists' },
+  schopenhauer: { narr: SCHOPENHAUER, eyebrow: 'Independent' },
+  marx: { narr: MARX, eyebrow: 'Independent' },
   augustine: { narr: AUGUSTINE, eyebrow: 'Platonism' },
 }
 

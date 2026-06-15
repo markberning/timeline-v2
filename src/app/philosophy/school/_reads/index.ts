@@ -14,6 +14,9 @@ import { SCHOLASTICISM } from './scholasticism'
 import { RATIONALISM } from './rationalism'
 import { EMPIRICISM } from './empiricism'
 import { IDEALISM } from './idealism'
+import { UTILITARIANISM } from './utilitarianism'
+import { EXISTENTIALISM } from './existentialism'
+import { INDEPENDENTS } from './independents'
 
 export interface SchoolRead { narr: PhiNarr; eyebrow: string }
 
@@ -26,6 +29,9 @@ export const SCHOOL_READS: Record<string, SchoolRead> = {
   rat: { narr: RATIONALISM, eyebrow: 'The tradition' },
   emp: { narr: EMPIRICISM, eyebrow: 'The tradition' },
   ideal: { narr: IDEALISM, eyebrow: 'The tradition' },
+  util: { narr: UTILITARIANISM, eyebrow: 'The tradition' },
+  exist: { narr: EXISTENTIALISM, eyebrow: 'The tradition' },
+  indep: { narr: INDEPENDENTS, eyebrow: 'The tradition' },
 }
 
 export const hasSchoolRead = (id: string): boolean => id in SCHOOL_READS

@@ -27,6 +27,11 @@ import { HUME_TREATISE } from './hume-treatise'
 import { CPR } from './cpr'
 import { GROUNDWORK } from './groundwork'
 import { PHENOMENOLOGY } from './phenomenology'
+import { LIBERTY } from './liberty'
+import { UTILITARIANISM_WORK } from './utilitarianism'
+import { FEARTREMBLING } from './feartrembling'
+import { MANIFESTO } from './manifesto'
+import { CAPITAL } from './capital'
 
 export interface WorkRead { narr: PhiNarr; eyebrow: string }
 
@@ -52,6 +57,11 @@ export const WORK_READS: Record<string, WorkRead> = {
   cpr: { narr: CPR, eyebrow: 'Kant' },
   groundwork: { narr: GROUNDWORK, eyebrow: 'Kant' },
   phenomenology: { narr: PHENOMENOLOGY, eyebrow: 'Hegel' },
+  liberty: { narr: LIBERTY, eyebrow: 'Mill' },
+  utilitarianism: { narr: UTILITARIANISM_WORK, eyebrow: 'Mill' },
+  feartrembling: { narr: FEARTREMBLING, eyebrow: 'Kierkegaard' },
+  manifesto: { narr: MANIFESTO, eyebrow: 'Marx' },
+  capital: { narr: CAPITAL, eyebrow: 'Marx' },
 }
 
 export const hasWorkRead = (id: string): boolean => id in WORK_READS
