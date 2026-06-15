@@ -77,11 +77,14 @@ export function WarHeader({
   const war = warForRoute(pathname ?? '')
   const wmTitle = title ?? war?.name ?? 'American Wars'
   const backTo = backHref ?? war?.routeBase ?? '/war'
+  // The wordmark links to the active vertical's home (war resolves to its own war
+  // home so a specific war's title doesn't jump to the all-wars front door).
+  const homeHref = active === 'war' ? (war?.routeBase ?? '/war') : (MENU.find(m => m.k === active)?.href ?? '/')
   return (
     <>
       <header className="p-hdr">
         <a className="back" href={backTo} aria-label="Back">{WAR_ICONS.back}</a>
-        <div className="wm"><b>{wmTitle}</b><span>{subtitle}</span></div>
+        <a className="wm" href={homeHref}><b>{wmTitle}</b><span>{subtitle}</span></a>
         <ThemeSwitch />
         <button className="p-iconbtn" onClick={() => setSearch(true)} aria-label="Search">{WAR_ICONS.search}</button>
         <button className="p-iconbtn" onClick={() => setMenu(true)} aria-label="Menu">{WAR_ICONS.menu}</button>
