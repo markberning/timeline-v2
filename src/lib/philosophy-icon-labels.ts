@@ -7,6 +7,12 @@ export const WORK_ICONS = new Set<string>([
   'feartrembling', 'manifesto', 'capital', 'beyondgood', 'genealogy', 'gayscience',
 ])
 
+// Schools with a generated emblem in /public/philosophy/icons/school-<id>.png.
+// (Rationalists 'rat' still needs one.) Referenced as iconId `school-<id>`.
+export const SCHOOL_ICONS = new Set<string>([
+  'pre', 'plat', 'arist', 'stoa', 'schol', 'emp', 'ideal', 'util', 'exist', 'indep',
+])
+
 // Short captions for the generated thinker emblems (/public/philosophy/icons) —
 // each names the thinker's SIGNATURE IDEA (not just what the emblem depicts),
 // shown under the larger emblem on thinker rows (the civ-home-card treatment).

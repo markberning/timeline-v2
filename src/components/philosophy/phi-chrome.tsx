@@ -142,7 +142,7 @@ export interface HubRow {
 }
 
 export function PhiHub({
-  crumbs, accent, eyebrow, title, meta, blurb, glyph, iconId, stats, readButton, diagram, spine, cast, passages, rowsLabel, rows, note, footerEra,
+  crumbs, accent, eyebrow, title, meta, blurb, glyph, iconId, iconCaption, stats, readButton, diagram, spine, cast, passages, rowsLabel, rows, note, footerEra,
 }: {
   crumbs: Crumb[]
   accent: string
@@ -152,6 +152,7 @@ export function PhiHub({
   blurb?: ReactNode
   glyph?: string
   iconId?: string
+  iconCaption?: string
   stats?: { value: string; label: string }[]
   readButton?: { href: string; title: string; sub: string; soon?: boolean }
   diagram?:
@@ -175,15 +176,20 @@ export function PhiHub({
         {/* hero */}
         <div style={{ padding: '18px 16px 16px', display: 'flex', gap: 14, alignItems: 'flex-start' }}>
           {(glyph || iconId) && (
-            <div aria-hidden style={{
-              width: 64, height: 64, flexShrink: 0, borderRadius: 14, display: 'flex', alignItems: 'center', justifyContent: 'center',
-              background: `linear-gradient(150deg, ${accent}, color-mix(in srgb, ${accent} 45%, #211f1b))`,
-              fontFamily: SERIF, fontSize: 30, fontWeight: 600, color: 'rgba(255,255,255,.92)', textShadow: '0 1px 3px rgba(0,0,0,.35)',
-            }}>
-              {iconId
-                /* eslint-disable-next-line @next/next/no-img-element */
-                ? <img src={`/philosophy/icons/${iconId}.png`} alt="" data-no-zoom style={{ width: 38, height: 38, opacity: 0.95 }} />
-                : glyph}
+            <div style={{ flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, width: 64 }}>
+              <div aria-hidden style={{
+                width: 64, height: 64, borderRadius: 14, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                background: `linear-gradient(150deg, ${accent}, color-mix(in srgb, ${accent} 45%, #211f1b))`,
+                fontFamily: SERIF, fontSize: 30, fontWeight: 600, color: 'rgba(255,255,255,.92)', textShadow: '0 1px 3px rgba(0,0,0,.35)',
+              }}>
+                {iconId
+                  /* eslint-disable-next-line @next/next/no-img-element */
+                  ? <img src={`/philosophy/icons/${iconId}.png`} alt="" data-no-zoom style={{ width: 40, height: 40, opacity: 0.95 }} />
+                  : glyph}
+              </div>
+              {iconCaption && (
+                <span style={{ fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', color: accent, lineHeight: 1.15, textAlign: 'center' }}>{iconCaption}</span>
+              )}
             </div>
           )}
           <div style={{ flex: 1, minWidth: 0 }}>

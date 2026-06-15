@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { PhiHub, schoolCrumbs, type HubRow } from '@/components/philosophy/phi-chrome'
 import { SCHOOLS, schoolById, thinkersOfSchool, type SchoolId } from '@/lib/philosophy-data'
-import { THINKER_ICON_LABELS, THINKER_ICONS } from '@/lib/philosophy-icon-labels'
+import { THINKER_ICON_LABELS, THINKER_ICONS, SCHOOL_ICONS } from '@/lib/philosophy-icon-labels'
 import { hasRead } from '../../thinker/_reads'
 import { hasSchoolRead } from '../_reads'
 
@@ -43,6 +43,7 @@ export default async function SchoolHubPage({ params }: { params: Promise<{ scho
       meta={s.range}
       blurb={s.oneLine}
       glyph={s.name[0]}
+      iconId={SCHOOL_ICONS.has(s.id) ? `school-${s.id}` : undefined}
       note={s.id === 'indep' ? 'These thinkers founded no school and joined none. They are listed together only because they refused every other label: the source, the loner, the dynamite.' : undefined}
       readButton={hasSchoolRead(s.id) ? {
         href: `/philosophy/school/${s.id}/read`,
