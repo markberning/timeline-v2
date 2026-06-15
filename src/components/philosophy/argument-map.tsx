@@ -90,8 +90,9 @@ export function ArgumentMap() {
           const on = nodeOn(t.id)
           return (
             <a key={t.id} href={`/philosophy/thinker/${t.id}`} style={{ opacity: on ? 1 : 0.16, transition: 'opacity .2s' }}>
-              <circle cx={t.map!.x} cy={t.map!.y} r={14} fill="color-mix(in srgb, var(--foreground) 8%, var(--background))" stroke={c} strokeWidth={2.5} />
-              <circle cx={t.map!.x} cy={t.map!.y} r={5} fill={c} />
+              <circle cx={t.map!.x} cy={t.map!.y} r={15} fill={c} stroke="color-mix(in srgb, var(--background) 55%, transparent)" strokeWidth={1.5} />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <image href={`/philosophy/icons/${t.id}.png`} x={t.map!.x - 11} y={t.map!.y - 11} width={22} height={22} preserveAspectRatio="xMidYMid meet" style={{ opacity: 0.95 }} />
               <text x={t.map!.x + (left ? -20 : 20)} y={t.map!.y - 1} textAnchor={left ? 'end' : 'start'} fontFamily={SERIF} fontSize={13} fontWeight={600} fill="var(--foreground)">{t.name}</text>
               <text x={t.map!.x + (left ? -20 : 20)} y={t.map!.y + 12} textAnchor={left ? 'end' : 'start'} fontFamily={SANS} fontSize={9.5} fill={FAINT}>{t.dates}</text>
             </a>

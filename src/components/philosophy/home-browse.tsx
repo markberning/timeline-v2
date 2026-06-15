@@ -9,6 +9,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { ArgumentMap } from '@/components/philosophy/argument-map'
 import { SCHOOLS, THINKERS, thinkersOfSchool, schoolById, schoolColor } from '@/lib/philosophy-data'
+import { THINKER_ICONS } from '@/lib/philosophy-icon-labels'
 
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
@@ -97,8 +98,10 @@ export function HomeBrowse() {
                     background: `linear-gradient(150deg, ${c}, color-mix(in srgb, ${c} 45%, #211f1b))`,
                     fontFamily: SERIF, fontSize: 18, fontWeight: 600, color: 'rgba(255,255,255,.92)', textShadow: '0 1px 2px rgba(0,0,0,.35)',
                   }}>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={`/philosophy/icons/${t.id}.png`} alt="" data-no-zoom style={{ width: 23, height: 23, opacity: 0.95 }} />
+                    {THINKER_ICONS.has(t.id)
+                      /* eslint-disable-next-line @next/next/no-img-element */
+                      ? <img src={`/philosophy/icons/${t.id}.png`} alt="" data-no-zoom style={{ width: 23, height: 23, opacity: 0.95 }} />
+                      : t.glyph}
                   </span>
                   <span style={{ flex: 1, minWidth: 0 }}>
                     <span style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>

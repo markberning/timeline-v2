@@ -55,3 +55,9 @@ export const THINKER_ICON_LABELS: Record<string, string> = {
   marx: 'Class Struggle',
   nietzsche: 'Will to Power',
 }
+
+// Thinkers that have a generated emblem in /public/philosophy/icons/<id>.png.
+// Derived from the label map (every emblem'd thinker has a caption). A thinker NOT
+// in this set falls back to the letter glyph, so a missing emblem never shows a
+// broken image. (Ockham still needs an emblem — add the id here once it exists.)
+export const THINKER_ICONS = new Set<string>(Object.keys(THINKER_ICON_LABELS))

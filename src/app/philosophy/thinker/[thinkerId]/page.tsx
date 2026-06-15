@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { PhiHub, thinkerCrumbs, type HubRow } from '@/components/philosophy/phi-chrome'
 import { THINKERS, thinkerById, schoolById, worksOfThinker, ERA_NAME } from '@/lib/philosophy-data'
-import { WORK_ICONS } from '@/lib/philosophy-icon-labels'
+import { WORK_ICONS, THINKER_ICONS } from '@/lib/philosophy-icon-labels'
 import { hasRead } from '../_reads'
 
 export function generateStaticParams() {
@@ -45,7 +45,8 @@ export default async function ThinkerHubPage({ params }: { params: Promise<{ thi
       title={t.name}
       meta={`${t.dates} · ${s.name}`}
       blurb={t.epithet}
-      iconId={t.id}
+      glyph={t.glyph}
+      iconId={THINKER_ICONS.has(t.id) ? t.id : undefined}
       readButton={read
         ? {
             href: `/philosophy/thinker/${t.id}/system`,
