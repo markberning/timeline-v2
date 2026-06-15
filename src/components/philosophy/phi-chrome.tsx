@@ -131,6 +131,7 @@ export function workCrumbs(workId: string, thinkerId: string): Crumb[] {
 export interface HubRow {
   glyph: string
   iconId?: string    // when set, render /philosophy/icons/{iconId}.png instead of the letter
+  iconLabel?: string // when set (with iconId), render the larger emblem + caption panel (civ-card style)
   tint: string
   title: string
   sub?: string
@@ -345,17 +346,31 @@ export function PhiHub({
           <div style={{ padding: '16px 16px 8px' }}>
             {rowsLabel && <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: FAINT, marginBottom: 11 }}>{rowsLabel}</div>}
             {rows.map((r, i) => (
-              <a key={i} href={r.href} style={{ display: 'flex', gap: 12, alignItems: 'center', padding: 12, border: `1px solid ${BORDER}`, borderRadius: 11, background: CARD, textDecoration: 'none', color: INK, marginBottom: 9 }}>
-                <div aria-hidden style={{
-                  width: 46, height: 46, flexShrink: 0, borderRadius: r.square ? 8 : 10, display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  background: `linear-gradient(150deg, ${r.tint}, color-mix(in srgb, ${r.tint} 45%, #211f1b))`,
-                  fontFamily: SERIF, fontSize: r.square ? 15 : 20, fontWeight: 600, color: 'rgba(255,255,255,.92)',
-                }}>
-                  {r.iconId
-                    /* eslint-disable-next-line @next/next/no-img-element */
-                    ? <img src={`/philosophy/icons/${r.iconId}.png`} alt="" data-no-zoom style={{ width: 28, height: 28, opacity: 0.95 }} />
-                    : r.glyph}
-                </div>
+              <a key={i} href={r.href} style={{ display: 'flex', gap: 12, alignItems: 'center', padding: r.iconLabel ? '0 12px 0 0' : 12, border: `1px solid ${BORDER}`, borderRadius: 11, background: CARD, textDecoration: 'none', color: INK, marginBottom: 9, overflow: 'hidden' }}>
+                {r.iconId && r.iconLabel ? (
+                  // Larger emblem + caption panel (civ-card style): a tinted column
+                  // holding a big emblem with a short caption naming what it depicts.
+                  <div aria-hidden style={{
+                    width: 78, flexShrink: 0, alignSelf: 'stretch', minHeight: 84, borderRadius: 0,
+                    display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 6, padding: '12px 8px',
+                    background: `linear-gradient(150deg, ${r.tint}, color-mix(in srgb, ${r.tint} 45%, #211f1b))`,
+                  }}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={`/philosophy/icons/${r.iconId}.png`} alt="" data-no-zoom style={{ width: 46, height: 46, opacity: 0.95 }} />
+                    <span style={{ fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: '.05em', textTransform: 'uppercase', color: 'rgba(255,255,255,.9)', lineHeight: 1.15, textAlign: 'center' }}>{r.iconLabel}</span>
+                  </div>
+                ) : (
+                  <div aria-hidden style={{
+                    width: 46, height: 46, flexShrink: 0, borderRadius: r.square ? 8 : 10, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    background: `linear-gradient(150deg, ${r.tint}, color-mix(in srgb, ${r.tint} 45%, #211f1b))`,
+                    fontFamily: SERIF, fontSize: r.square ? 15 : 20, fontWeight: 600, color: 'rgba(255,255,255,.92)',
+                  }}>
+                    {r.iconId
+                      /* eslint-disable-next-line @next/next/no-img-element */
+                      ? <img src={`/philosophy/icons/${r.iconId}.png`} alt="" data-no-zoom style={{ width: 28, height: 28, opacity: 0.95 }} />
+                      : r.glyph}
+                  </div>
+                )}
                 <div style={{ flex: 1, minWidth: 0 }}>
                   <b style={{ display: 'block', fontFamily: SERIF, fontSize: 16, fontWeight: 600, lineHeight: 1.2 }}>{r.title}</b>
                   {r.sub && <div style={{ fontFamily: SANS, fontSize: 11, color: FAINT, marginTop: 3, letterSpacing: '.02em' }}>{r.sub}</div>}

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { PhiHub, schoolCrumbs, type HubRow } from '@/components/philosophy/phi-chrome'
 import { SCHOOLS, schoolById, thinkersOfSchool, type SchoolId } from '@/lib/philosophy-data'
+import { THINKER_ICON_LABELS } from '@/lib/philosophy-icon-labels'
 import { hasRead } from '../../thinker/_reads'
 import { hasSchoolRead } from '../_reads'
 
@@ -27,7 +28,7 @@ export default async function SchoolHubPage({ params }: { params: Promise<{ scho
   const thinkers = thinkersOfSchool(s.id as SchoolId)
 
   const rows: HubRow[] = thinkers.map(t => ({
-    glyph: t.glyph, iconId: t.id, tint: s.color,
+    glyph: t.glyph, iconId: t.id, iconLabel: THINKER_ICON_LABELS[t.id], tint: s.color,
     title: t.name, sub: t.dates, hook: t.epithet,
     href: `/philosophy/thinker/${t.id}`,
     badge: hasRead(t.id) ? 'read' : undefined,
