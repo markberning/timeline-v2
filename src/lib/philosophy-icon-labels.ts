@@ -8,9 +8,9 @@ export const WORK_ICONS = new Set<string>([
 ])
 
 // Schools with a generated emblem in /public/philosophy/icons/school-<id>.png.
-// (Rationalists 'rat' still needs one.) Referenced as iconId `school-<id>`.
+// (All 11 schools covered.) Referenced as iconId `school-<id>`.
 export const SCHOOL_ICONS = new Set<string>([
-  'pre', 'plat', 'arist', 'stoa', 'schol', 'emp', 'ideal', 'util', 'exist', 'indep',
+  'pre', 'plat', 'arist', 'stoa', 'schol', 'rat', 'emp', 'ideal', 'util', 'exist', 'indep',
 ])
 
 // Short captions for the generated thinker emblems (/public/philosophy/icons) —
@@ -39,6 +39,7 @@ export const THINKER_ICON_LABELS: Record<string, string> = {
   maimonides: 'The Hidden God',
   anselm: 'Proof of God',
   aquinas: 'The Five Ways',
+  ockham: 'Ockham’s Razor',
   // Rationalists
   descartes: 'I Think, Therefore',
   spinoza: 'God or Nature',
@@ -65,5 +66,5 @@ export const THINKER_ICON_LABELS: Record<string, string> = {
 // Thinkers that have a generated emblem in /public/philosophy/icons/<id>.png.
 // Derived from the label map (every emblem'd thinker has a caption). A thinker NOT
 // in this set falls back to the letter glyph, so a missing emblem never shows a
-// broken image. (Ockham still needs an emblem — add the id here once it exists.)
+// broken image. (All thinkers covered.)
 export const THINKER_ICONS = new Set<string>(Object.keys(THINKER_ICON_LABELS))
