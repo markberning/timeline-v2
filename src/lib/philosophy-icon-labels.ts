@@ -13,6 +13,22 @@ export const SCHOOL_ICONS = new Set<string>([
   'pre', 'plat', 'arist', 'stoa', 'schol', 'rat', 'emp', 'ideal', 'util', 'exist', 'indep',
 ])
 
+// Short idea-caption per school, shown under the larger school emblem (same
+// treatment as the thinker emblems).
+export const SCHOOL_ICON_LABELS: Record<string, string> = {
+  pre: 'The First Principle',
+  plat: 'The Forms',
+  arist: 'Study the World',
+  stoa: 'Live by Nature',
+  schol: 'Faith & Reason',
+  rat: 'Reason Alone',
+  emp: 'Through the Senses',
+  ideal: 'Mind Shapes Reality',
+  util: 'The Greatest Good',
+  exist: 'Existence First',
+  indep: 'No School',
+}
+
 // Short captions for the generated thinker emblems (/public/philosophy/icons) —
 // each names the thinker's SIGNATURE IDEA (not just what the emblem depicts),
 // shown under the larger emblem on thinker rows (the civ-home-card treatment).

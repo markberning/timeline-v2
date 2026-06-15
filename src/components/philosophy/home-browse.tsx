@@ -9,7 +9,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { ArgumentMap } from '@/components/philosophy/argument-map'
 import { SCHOOLS, THINKERS, thinkersOfSchool, schoolById, schoolColor } from '@/lib/philosophy-data'
-import { THINKER_ICONS, THINKER_ICON_LABELS, SCHOOL_ICONS } from '@/lib/philosophy-icon-labels'
+import { THINKER_ICONS, THINKER_ICON_LABELS, SCHOOL_ICONS, SCHOOL_ICON_LABELS } from '@/lib/philosophy-icon-labels'
 
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
@@ -66,19 +66,21 @@ export function HomeBrowse() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
             {SCHOOLS.map(s => (
               <Link key={s.id} href={`/philosophy/school/${s.id}`} style={{
-                display: 'flex', alignItems: 'center', gap: 12, padding: '11px 12px', borderRadius: 10,
-                border: `1px solid ${BORDER}`, background: CARD, textDecoration: 'none', color: INK,
+                display: 'flex', alignItems: 'center', gap: 12, padding: SCHOOL_ICONS.has(s.id) ? '0 12px 0 0' : '11px 12px', borderRadius: 10,
+                border: `1px solid ${BORDER}`, background: CARD, textDecoration: 'none', color: INK, overflow: 'hidden',
               }}>
                 {SCHOOL_ICONS.has(s.id) ? (
                   <span aria-hidden style={{
-                    width: 44, height: 44, flexShrink: 0, borderRadius: 9, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    width: 78, flexShrink: 0, alignSelf: 'stretch', minHeight: 76,
+                    display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 5, padding: '12px 6px',
                     background: `linear-gradient(150deg, ${s.color}, color-mix(in srgb, ${s.color} 45%, #211f1b))`,
                   }}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={`/philosophy/icons/school-${s.id}.png`} alt="" data-no-zoom style={{ width: 28, height: 28, opacity: 0.95 }} />
+                    <img src={`/philosophy/icons/school-${s.id}.png`} alt="" data-no-zoom style={{ width: 42, height: 42, opacity: 0.95 }} />
+                    {SCHOOL_ICON_LABELS[s.id] && <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: '.04em', textTransform: 'uppercase', color: 'rgba(255,255,255,.9)', lineHeight: 1.15, textAlign: 'center' }}>{SCHOOL_ICON_LABELS[s.id]}</span>}
                   </span>
                 ) : (
-                  <span aria-hidden style={{ width: 14, height: 36, flexShrink: 0, borderRadius: 4, background: `linear-gradient(${s.color}, color-mix(in srgb, ${s.color} 55%, #211f1b))` }} />
+                  <span aria-hidden style={{ width: 14, height: 36, flexShrink: 0, margin: '11px 0 11px 12px', borderRadius: 4, background: `linear-gradient(${s.color}, color-mix(in srgb, ${s.color} 55%, #211f1b))` }} />
                 )}
                 <span style={{ flex: 1, minWidth: 0 }}>
                   <span style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
