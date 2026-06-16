@@ -32,52 +32,18 @@ import type { Block } from '@/components/mode/battle-reader'
 // southern-theater context (Savannah, Camden, the Waxhaws, Clinton's coastal
 // passage) rides the caption tail as an off-frame note.
 const TACTICAL_LOCATOR: Block = {
-  locator: {
-    eyebrow: 'The ground · February–May 1780',
-    caption: 'The whole battle is geography. Charleston sits on a peninsula between two rivers, with only one land door, the neck at the top, and Lincoln\'s army fortified the door. Clinton would not storm it; he landed thirty miles south, worked up the sea islands and the Ashley\'s west bank for six weeks, crossed at Drayton Hall, and dug his way down the Neck. Arbuthnot\'s fleet ran past Fort Moultrie into the harbor in April, closing the city to the sea. The only way out left was north, across the Cooper. Off the frame: Savannah, taken in December 1778, lies a hundred miles down the coast, the fleet\'s February rendezvous on Clinton\'s long winter passage from New York; inland to the northwest sit Camden, the next disaster (August 16, 1780), and the Waxhaws, near the North Carolina line, where this story hands off (May 29).',
-    frame: { lonMin: -80.24, lonMax: -79.76, latMin: 32.53, latMax: 32.94 },
-    states: [
-      { name: 'South Carolina', tone: 'focus', label: 'SOUTH CAROLINA', labelLon: -80.215, labelLat: 32.925, labelSize: 11 },
-    ],
-    labels: [
-      { text: 'ASHLEY RIVER', lon: -79.995, lat: 32.825, kind: 'water', size: 9, anchor: 'end' },
-      { text: 'COOPER RIVER', lon: -79.905, lat: 32.865, kind: 'water', size: 9, anchor: 'start' },
-      { text: 'ATLANTIC OCEAN', lon: -79.86, lat: 32.585, kind: 'water', size: 10, anchor: 'middle' },
-    ],
-    dots: [
-      { name: 'Charleston', date: 'the city on the lower peninsula', lat: 32.776, lon: -79.931, heavy: true, anchor: 'start', dy: 14, dateBelow: true },
-      { name: 'The Hornwork', date: 'the American line across the Neck', lat: 32.788, lon: -79.937, heavy: true, anchor: 'end', dy: 0, dateBelow: true },
-      { name: 'The siege parallels', date: 'ground broken Apr 1', lat: 32.800, lon: -79.937, color: '#8a8175', anchor: 'start', dy: -10, dateBelow: true },
-      { name: 'Fort Moultrie, Sullivan\'s Island', date: 'fell without a shot, May 7', lat: 32.760, lon: -79.857, anchor: 'start', dy: 6, dateBelow: true },
-      { name: 'The harbor bar', date: 'Arbuthnot\'s run past the fort, Apr 8', lat: 32.710, lon: -79.830, color: '#8a8175', anchor: 'end', dy: 8, dateBelow: true },
-      { name: 'Fort Johnson', date: 'the British battery on James Island', lat: 32.690, lon: -79.899, anchor: 'end', dy: -6, dateBelow: true },
-      { name: 'Drayton Hall', date: 'the Ashley crossing, Mar 29', lat: 32.870, lon: -80.075, anchor: 'start', dy: -6, dateBelow: true },
-      { name: 'The British landing', date: 'Simmons Island, Feb 11', lat: 32.577, lon: -80.170, anchor: 'start', dy: -8, dateBelow: true },
-    ],
-  },
+  fig: '/war-img/rev-charleston-tac1.jpg',
+  cap: 'The whole battle is geography. Charleston sits on a peninsula between two rivers, with only one land door, the neck at the top, and Lincoln\'s army fortified the door. Clinton would not storm it; he landed thirty miles south, worked up the sea islands and the Ashley\'s west bank for six weeks, crossed at Drayton Hall, and dug his way down the Neck. Arbuthnot\'s fleet ran past Fort Moultrie into the harbor in April, closing the city to the sea. The only way out left was north, across the Cooper. Off the frame: Savannah, taken in December 1778, lies a hundred miles down the coast, the fleet\'s February rendezvous on Clinton\'s long winter passage from New York; inland to the northwest sit Camden, the next disaster (August 16, 1780), and the Waxhaws, near the North Carolina line, where this story hands off (May 29).',
+  credit: 'Stuff Happened map',
 }
 
 // Locator 2 · strategic: the Cooper River back door (Section 2). The escape
 // road and Tarleton's two strokes live in the caption (arrows are not
 // renderable in the locator contract).
 const BACKDOOR_LOCATOR: Block = {
-  locator: {
-    eyebrow: 'The back door · April–May 1780',
-    caption: 'The last way out ran north: out of the city, across the Cooper River, up the roads toward the Santee, and away. Huger\'s cavalry held that road open at Monck\'s Corner, thirty miles up the river. Tarleton hit them at three in the morning on April 14 and took the door, and the horses he badly needed; when the remnant regrouped on the Santee, he destroyed it again at Lenud\'s Ferry on May 6. After that there was no organized American force outside Charleston at all.',
-    frame: { lonMin: -80.2, lonMax: -79.5, latMin: 32.7, latMax: 33.4 },
-    states: [
-      { name: 'South Carolina', tone: 'focus', label: 'SOUTH CAROLINA', labelLon: -80.16, labelLat: 33.37, labelSize: 11 },
-    ],
-    labels: [
-      { text: 'COOPER RIVER', lon: -79.95, lat: 33.04, kind: 'water', size: 9, anchor: 'end' },
-      { text: 'SANTEE RIVER', lon: -79.93, lat: 33.345, kind: 'water', size: 9, anchor: 'middle' },
-    ],
-    dots: [
-      { name: 'Charleston', date: 'the trapped army', lat: 32.776, lon: -79.931, heavy: true, anchor: 'start', dy: 10, dateBelow: true },
-      { name: 'Monck\'s Corner / Biggin Bridge', date: 'Tarleton\'s night strike, Apr 14', lat: 33.196, lon: -80.013, heavy: true, anchor: 'end', dy: -6, dateBelow: true },
-      { name: 'Lenud\'s Ferry', date: 'Tarleton again, May 6', lat: 33.305, lon: -79.675, heavy: true, anchor: 'end', dy: 8, dateBelow: true },
-    ],
-  },
+  fig: '/war-img/rev-charleston-tac2.jpg',
+  cap: 'The last way out ran north: out of the city, across the Cooper River, up the roads toward the Santee, and away. Huger\'s cavalry held that road open at Monck\'s Corner, thirty miles up the river. Tarleton hit them at three in the morning on April 14 and took the door, and the horses he badly needed; when the remnant regrouped on the Santee, he destroyed it again at Lenud\'s Ferry on May 6. After that there was no organized American force outside Charleston at all.',
+  credit: 'Stuff Happened map',
 }
 
 const CHARLESTON_NARR: Record<string, Narr> = {

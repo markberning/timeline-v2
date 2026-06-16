@@ -29,52 +29,18 @@ import type { Block } from '@/components/mode/battle-reader'
 // Locator 1 · tactical: the town and the redoubt. Opens Sections 2 AND 3 per
 // the final; each section page stands alone.
 const TACTICAL_LOCATOR: Block = {
-  locator: {
-    eyebrow: 'The ground · September–October 1779',
-    caption: 'The town sat on a bluff above the river, with a roughly 1,200-foot arc of redoubts and batteries dug around its landward side in three weeks. The allies dug their approaches to the south and southwest, but the dawn assault went in on the British right, at the Spring Hill redoubt, where the defenders were believed to be mostly militia and were not. In the fog one French column lost its way in the Yamacraw swamp and came out in the open under the guns.',
-    frame: { lonMin: -81.16, lonMax: -81.03, latMin: 32.02, latMax: 32.12 },
-    states: [
-      { name: 'Georgia', tone: 'focus', label: 'GEORGIA', labelLon: -81.145, labelLat: 32.032, labelSize: 11 },
-      { name: 'South Carolina', tone: 'faint', label: 'SOUTH CAROLINA', labelLon: -81.057, labelLat: 32.113, labelSize: 10 },
-    ],
-    labels: [
-      { text: 'SAVANNAH RIVER', lon: -81.118, lat: 32.103, kind: 'water', size: 10, anchor: 'middle' },
-    ],
-    dots: [
-      { name: 'Savannah', date: 'the town on the bluff', lat: 32.081, lon: -81.091, heavy: true, anchor: 'start', dy: -6, dateBelow: true },
-      { name: 'Spring Hill redoubt', date: 'the assault\'s main blow, dawn Oct 9', lat: 32.076, lon: -81.099, heavy: true, anchor: 'end', dy: 10, dateBelow: true },
-      { name: 'Yamacraw swamp', date: 'Dillon\'s column, lost in the fog', lat: 32.086, lon: -81.103, anchor: 'end', dy: -8, dateBelow: true },
-      { name: 'The allied siege lines', date: 'the approaches, dug S and SW of town', lat: 32.070, lon: -81.090, color: '#8a8175', anchor: 'start', dy: 10, dateBelow: true },
-    ],
-  },
+  fig: '/war-img/rev-savannah-tac1.jpg',
+  cap: 'The town sat on a bluff above the river, with a roughly 1,200-foot arc of redoubts and batteries dug around its landward side in three weeks. The allies dug their approaches to the south and southwest, but the dawn assault went in on the British right, at the Spring Hill redoubt, where the defenders were believed to be mostly militia and were not. In the fog one French column lost its way in the Yamacraw swamp and came out in the open under the guns.',
+  credit: 'Stuff Happened map',
 }
 
 // Locator 2 · strategic: the southern coast (Section 1). The Caribbean run
 // (Cap-Français, St. Vincent, Grenada) is an inset NOTE folded into the
 // caption per the Saratoga precedent (never extend the main frame south).
 const STRATEGIC_LOCATOR: Block = {
-  locator: {
-    eyebrow: 'The southern coast · 1779–1780',
-    caption: 'The fleet came up from the Caribbean and stood in off Tybee Island; the French landed at Beaulieu on the Vernon River and closed on the town. The fatal water route runs up the right of the frame: Maitland threaded his 800 men from Beaufort, behind Daufuskie Island, through half-charted tidal creeks to Savannah, while the French navy and the American army each left the inside passage to the other. After the repulse Lincoln marched back up the Ebenezer road to Charleston, where Clinton came for him the next spring. Off the frame to the south, the Caribbean run: d\'Estaing brought the fleet up from Cap-Français (now Cap-Haïtien), the Chasseurs-Volontaires\' recruiting ground, after taking St. Vincent and Grenada that summer, racing the hurricane season north to Georgia.',
-    frame: { lonMin: -81.7, lonMax: -79.7, latMin: 31.6, latMax: 33.0 },
-    states: [
-      { name: 'Georgia', tone: 'focus', label: 'GEORGIA', labelLon: -81.52, labelLat: 32.62, labelSize: 12 },
-      { name: 'South Carolina', label: 'SOUTH CAROLINA', labelLon: -80.55, labelLat: 32.93, labelSize: 11 },
-    ],
-    labels: [
-      { text: 'ATLANTIC OCEAN', lon: -80.25, lat: 31.82, kind: 'water', size: 10, anchor: 'middle' },
-      { text: 'THE INSIDE PASSAGE', lon: -80.78, lat: 32.24, kind: 'water', size: 9, anchor: 'start' },
-    ],
-    dots: [
-      { name: 'Savannah', date: 'taken by Britain Dec 1778; besieged Sept–Oct 1779', lat: 32.081, lon: -81.091, heavy: true, anchor: 'end', dy: -8, dateBelow: true },
-      { name: 'Tybee Island', date: 'the fleet\'s anchorage off the bar', lat: 32.005, lon: -80.845, anchor: 'start', dy: 8, dateBelow: true },
-      { name: 'Beaulieu landing', date: 'the French come ashore, Sept 12', lat: 31.982, lon: -81.123, anchor: 'end', dy: 10, dateBelow: true },
-      { name: 'Beaufort / Port Royal Island', date: 'Maitland\'s start', lat: 32.432, lon: -80.670, heavy: true, anchor: 'start', dy: -6, dateBelow: true },
-      { name: 'Daufuskie Island', date: 'Wall\'s Cut & Skull Creek, Maitland\'s water route', lat: 32.10, lon: -80.88, anchor: 'start', dy: -10, dateBelow: true },
-      { name: 'Charleston', date: 'where Clinton comes in 1780', lat: 32.776, lon: -79.931, heavy: true, anchor: 'end', dy: 4, dateBelow: true },
-      { name: 'Ebenezer', date: 'Lincoln\'s withdrawal road to Charleston', lat: 32.37, lon: -81.19, color: '#8a8175', anchor: 'end', dy: 6, dateBelow: true },
-    ],
-  },
+  fig: '/war-img/rev-savannah-tac2.jpg',
+  cap: 'The fleet came up from the Caribbean and stood in off Tybee Island; the French landed at Beaulieu on the Vernon River and closed on the town. The fatal water route runs up the right of the frame: Maitland threaded his 800 men from Beaufort, behind Daufuskie Island, through half-charted tidal creeks to Savannah, while the French navy and the American army each left the inside passage to the other. After the repulse Lincoln marched back up the Ebenezer road to Charleston, where Clinton came for him the next spring. Off the frame to the south, the Caribbean run: d\'Estaing brought the fleet up from Cap-Français (now Cap-Haïtien), the Chasseurs-Volontaires\' recruiting ground, after taking St. Vincent and Grenada that summer, racing the hurricane season north to Georgia.',
+  credit: 'Stuff Happened map',
 }
 
 const SAVANNAH_NARR: Record<string, Narr> = {
