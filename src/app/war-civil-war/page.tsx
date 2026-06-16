@@ -27,6 +27,8 @@ const I = {
   arr: <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>,
   sun: <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></svg>,
   moon: <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" /></svg>,
+  lock: <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" strokeLinejoin="round"><rect x="4.5" y="11" width="15" height="9.5" rx="2" /><path d="M8 11V7.5a4 4 0 0 1 8 0V11" /></svg>,
+  unlock: <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" strokeLinejoin="round"><rect x="4.5" y="11" width="15" height="9.5" rx="2" /><path d="M8 11V7.5a4 4 0 0 1 7.6-1.8" /></svg>,
 }
 
 const TAB_ROWS: { k: string; label: string }[][] = [
@@ -311,10 +313,12 @@ export default function WarHome() {
   const [search, setSearch] = useState(false)
   const [bq, setBq] = useState('')
   const [thFilter, setThFilter] = useState('All')
-  // Focused browsing: picking a tab collapses the masthead/hero so the sticky tab bar
-  // pins to the top and only the tab's list scrolls. Stays collapsed until reload/back.
+  // Focused browsing: a lock toggle on the Battles tab collapses the masthead/hero so the
+  // sticky tab bar pins to the top and only the battle list scrolls. Off by default; only
+  // the Battles tab carries the control. Switching to any other tab releases the lock.
   const [locked, setLocked] = useState(false)
-  const pick = (k: string) => { setTab(k); setLocked(true); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
+  const pick = (k: string) => { setTab(k); if (k !== 'battles') setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
+  const toggleLock = () => { setTab('battles'); setLocked(v => !v); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
 
   // Deep link from the breadcrumb "Theatre" crumb: /war-civil-war?theatre=east
   // lands on the Theatres tab with that theatre's chip selected, scrolled to the
@@ -324,7 +328,6 @@ export default function WarHome() {
     if (th && THEATRE[th]) {
       setThFilter(th)
       setTab('theatres')
-      setLocked(true)
       requestAnimationFrame(() => document.querySelector('.p-subnav')?.scrollIntoView({ block: 'start' }))
     }
   }, [])
@@ -369,7 +372,18 @@ export default function WarHome() {
         {TAB_ROWS.map((row, ri) => (
           <div className="p-seg" key={ri}>
             {row.map(t => (
-              <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>{t.label}</button>
+              <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>
+                {t.label}
+                {t.k === 'battles' && (
+                  <span role="button" tabIndex={0}
+                    aria-label={locked ? 'Unlock — show the full page' : 'Lock the tab bar to the top'}
+                    onClick={e => { e.stopPropagation(); toggleLock() }}
+                    onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); toggleLock() } }}
+                    style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', marginLeft: 6, verticalAlign: 'middle', opacity: locked ? 1 : 0.65, cursor: 'pointer' }}>
+                    {locked ? I.lock : I.unlock}
+                  </span>
+                )}
+              </button>
             ))}
           </div>
         ))}

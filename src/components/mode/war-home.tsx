@@ -275,10 +275,12 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
   // The breadcrumb's jump rung reads the generic "Jump to" on load (its dropdown lists
   // every section), switching to the section's name only once the reader picks a tab.
   const [picked, setPicked] = useState(false)
-  // Focused browsing: picking a tab collapses the masthead/hero so the sticky tab bar
-  // pins to the top and only the tab's list scrolls. Stays collapsed until reload/back.
+  // Focused browsing: a lock toggle on the Battles tab collapses the masthead/hero so the
+  // sticky tab bar pins to the top and only the battle list scrolls. Off by default; only
+  // the Battles tab carries the control. Switching to any other tab releases the lock.
   const [locked, setLocked] = useState(false)
-  const pick = (k: string) => { setTab(k); setPicked(true); setLocked(true); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
+  const pick = (k: string) => { setTab(k); setPicked(true); if (k !== 'battles') setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
+  const toggleLock = () => { setPicked(true); setTab('battles'); setLocked(v => !v); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
 
   // Tabs: the four core sections. Commanders only when the war has a cast.
   const tabs = [
@@ -326,15 +328,20 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
       )}
 
       <div className="p-subnav below-crumb">
-        {locked && (
-          <button onClick={() => { setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }}
-            style={{ display: 'block', width: '100%', padding: '2px 0 7px', margin: 0, border: 'none', background: 'transparent', color: 'var(--muted)', font: '600 11px/1 var(--sans)', letterSpacing: '.09em', textTransform: 'uppercase', cursor: 'pointer' }}>
-            ⌃ Expand
-          </button>
-        )}
         <div className="p-seg">
           {tabs.map(t => (
-            <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>{t.label}</button>
+            <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>
+              {t.label}
+              {t.k === 'battles' && (
+                <span role="button" tabIndex={0}
+                  aria-label={locked ? 'Unlock — show the full page' : 'Lock the tab bar to the top'}
+                  onClick={e => { e.stopPropagation(); toggleLock() }}
+                  onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); toggleLock() } }}
+                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', marginLeft: 6, verticalAlign: 'middle', opacity: locked ? 1 : 0.65, cursor: 'pointer' }}>
+                  {locked ? WAR_ICONS.lock : WAR_ICONS.unlock}
+                </span>
+              )}
+            </button>
           ))}
         </div>
       </div>
