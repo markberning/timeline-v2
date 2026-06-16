@@ -21,29 +21,7 @@ const LONG_ISLAND_NARR: Record<string, Narr> = {
     eyebrow: 'Long Island · The armada',
     title: 'All London afloat',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · Summer 1776',
-        caption: 'Why New York: a deep sheltered harbor for the Royal Navy, and the mouth of the Hudson, the river corridor that could sever New England from the rest of the colonies. The British massed on Staten Island, landed across the Narrows (the channel between Staten Island and Long Island) at Gravesend Bay, and aimed at the fortified heights of Brooklyn, the high ground commanding the city across the East River.',
-        frame: { lonMin: -74.28, lonMax: -73.72, latMin: 40.46, latMax: 40.92 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -73.79, labelLat: 40.745, labelSize: 11 },
-          { name: 'New Jersey', label: 'NEW JERSEY', labelLon: -74.22, labelLat: 40.79, labelSize: 11 },
-          { name: 'Connecticut' },
-        ],
-        dots: [
-          { name: 'Staten Island', date: 'British camp, July–Aug', lat: 40.58, lon: -74.15, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Sandy Hook', date: 'the fleet\'s approach', lat: 40.47, lon: -74.00, color: '#8a8175', anchor: 'start', dy: -6 },
-          { name: 'Gravesend Bay (landing)', date: 'Aug 22, 1776', lat: 40.60, lon: -74.02, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Brooklyn Heights (the American works)', date: 'Aug 27, 1776', lat: 40.696, lon: -73.995, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'New York City (lower Manhattan)', lat: 40.705, lon: -74.010, color: '#8a8175', anchor: 'end', dy: -6 },
-        ],
-        labels: [
-          { text: 'HUDSON RIVER', lon: -74.03, lat: 40.86, kind: 'water', size: 11 },
-          { text: 'EAST RIVER', lon: -73.935, lat: 40.765, kind: 'water', size: 11 },
-          { text: 'NEW YORK HARBOR', lon: -74.055, lat: 40.655, kind: 'water', size: 11, anchor: 'end' },
-          { text: 'THE NARROWS', lon: -74.07, lat: 40.59, kind: 'water', size: 11, anchor: 'end' },
-        ],
-      } },
+      { fig: '/war-img/rev-longisland-tac1.jpg', cap: 'Why New York: a deep sheltered harbor for the Royal Navy, and the mouth of the Hudson, the river corridor that could sever New England from the rest of the colonies. The British massed on Staten Island, landed across the Narrows (the channel between Staten Island and Long Island) at Gravesend Bay, and aimed at the fortified heights of Brooklyn, the high ground commanding the city across the East River.', credit: 'Stuff Happened map' },
       { p: 'On March 17, 1776, the British army sailed out of Boston. George Washington, commanding the rebel army besieging the town, had put cannon (the guns hauled overland from Fort Ticonderoga, a captured British fort in upstate New York) on Dorchester Heights, the high ground overlooking the harbor, and the British position became untenable overnight. General William Howe (British), commanding the garrison, evacuated to Halifax, Nova Scotia, to refit (rest and resupply). He did not sail home. Both sides knew exactly where the war was going next: New York.' },
       { p: 'New York was worth more than Boston ever was, for three reasons. First, its deep, sheltered harbor was an ideal base for the Royal Navy, and Britain\'s navy was the one weapon the Americans could not answer at all. Second, the Hudson River: control that corridor, with a second British force coming down from Canada to meet the first, and you sever New England, the engine of the rebellion, from the colonies to the south. Third, New York\'s population was believed to be far more Loyalist (loyal to the king) than New England\'s. London endorsed the strategy, and the largest force Britain had ever sent abroad began assembling to carry it out.' },
       { p: 'Washington saw all of it coming and marched his army from Boston to New York that spring, arriving on April 13. The problem was that the city could not really be defended. Charles Lee (American), the general who had begun laying out the defenses earlier in the year, said so plainly: against a navy, New York was indefensible, but it could be made expensive. And abandoning one of America\'s greatest cities without a fight was politically unthinkable for a cause that needed people to believe it could win, so the Americans dug anyway, to make the British pay: fortifying Manhattan and, crucially, Brooklyn Heights, the high ground on Long Island that commands New York City (the city of 1776 sat only at the southern tip of Manhattan island) across the East River (the tidal channel, about a mile wide, separating Long Island from Manhattan). The lesson of Bunker Hill the year before (the fight outside Boston where the British stormed an American-held hill and bled terribly taking it) was burned into both armies: whoever holds the heights commands the town.' },
@@ -64,33 +42,7 @@ const LONG_ISLAND_NARR: Record<string, Narr> = {
     eyebrow: 'Long Island · The trap',
     title: 'The night march',
     blocks: [
-      { locator: {
-        eyebrow: 'The ground · August 27, 1776',
-        caption: 'The Heights of Guan, a wooded ridge, stood between the landing beaches and the Brooklyn works, crossable in force only at the passes: the Gowanus Road by the shore, Flatbush Pass, Bedford Pass, and, 3 miles east of the main line, the Jamaica Pass, watched by five mounted officers. The night column marched from Flatlands, around the open door, to the ground squarely behind the American line.',
-        frame: { lonMin: -74.06, lonMax: -73.88, latMin: 40.57, latMax: 40.72 },
-        states: [
-          { name: 'New York', tone: 'focus' },
-          { name: 'New Jersey' },
-        ],
-        dots: [
-          { name: 'Gravesend Bay', date: 'landing beaches', lat: 40.60, lon: -74.02, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Flatbush', date: 'Hessian center', lat: 40.650, lon: -73.959, color: '#8a8175', anchor: 'start', dy: 8, dateBelow: true },
-          { name: 'Flatlands', date: 'night march sets out, 9 p.m. Aug 26', lat: 40.621, lon: -73.935, color: '#8a8175', anchor: 'end', dateBelow: true },
-          { name: 'Red Lion Inn', date: 'first shots, around midnight', lat: 40.652, lon: -74.003, color: '#8a8175', anchor: 'end', dy: 8, dateBelow: true },
-          { name: 'Gowanus Road / Battle Hill', date: 'Stirling vs Grant', lat: 40.658, lon: -73.991, color: '#8a8175', anchor: 'start', dy: 10, dateBelow: true },
-          { name: 'Flatbush Pass / Battle Pass', date: 'Sullivan\'s center', lat: 40.6645, lon: -73.965, color: '#8a8175', anchor: 'start', dy: -10, dateBelow: true },
-          { name: 'Bedford Pass', lat: 40.667, lon: -73.956, color: '#8a8175', anchor: 'start', dy: 10 },
-          { name: 'Jamaica Pass', date: 'the open door', lat: 40.684, lon: -73.906, heavy: true, anchor: 'end', dy: -8, dateBelow: true },
-          { name: 'Howard\'s Halfway House', date: 'the tavern', lat: 40.678, lon: -73.903, color: '#8a8175', anchor: 'end', dy: 12, dateBelow: true },
-          { name: 'Old Stone House', date: 'the Maryland stand, Aug 27', lat: 40.673, lon: -73.984, color: '#8a8175', anchor: 'end', dateBelow: true },
-          { name: 'Brooklyn lines (the American works)', lat: 40.696, lon: -73.995, color: '#8a8175', anchor: 'start', dy: -6 },
-          { name: 'Cobble Hill fort', date: 'Washington\'s viewpoint', lat: 40.686, lon: -73.996, color: '#8a8175', anchor: 'end', dy: 6, dateBelow: true },
-        ],
-        labels: [
-          { text: 'EAST RIVER', lon: -74.005, lat: 40.712, kind: 'water', size: 11 },
-          { text: 'GOWANUS CREEK', lon: -74.005, lat: 40.668, kind: 'water', size: 10, anchor: 'end' },
-        ],
-      } },
+      { fig: '/war-img/rev-longisland-tac2.jpg', cap: 'The Heights of Guan, a wooded ridge, stood between the landing beaches and the Brooklyn works, crossable in force only at the passes: the Gowanus Road by the shore, Flatbush Pass, Bedford Pass, and, 3 miles east of the main line, the Jamaica Pass, watched by five mounted officers. The night column marched from Flatlands, around the open door, to the ground squarely behind the American line.', credit: 'Stuff Happened map' },
       { p: 'On the night of August 26, 1776, the American army on Long Island was watching the wrong doors. Some 20,000 British and Hessian (hired German professional) troops were ashore, facing the American fortifications at Brooklyn, across the East River from New York City, and between the two armies ran the Heights of Guan, a long wooded ridge an army could cross only at its passes: the Gowanus Road along the shore, Flatbush Pass and Bedford Pass in the center, and the Jamaica Pass far to the east, 3 miles from the main American line. The Americans had 3,000 to 4,000 men forward on the ridge under General John Sullivan (American), with pickets (small guard detachments posted out front to give warning) on the first three passes. At the Jamaica Pass they had five militia (part-time citizen soldier) officers on horseback.' },
       { p: 'Henry Clinton (British) knew what that meant. Clinton had grown up partly in New York, where his father had been royal governor, and local Loyalists (Americans loyal to the king) told him the Jamaica Pass was essentially unguarded. He proposed the kind of move armies attempt only in books: march the main body all night, around the far end of the American line, and appear behind it at breakfast. General William Howe (British), commanding, adopted the plan. Major General James Grant (British) with about 5,000 men would demonstrate (make a loud, threatening show of attack) against the American right on the shore road, and the Hessians under Lieutenant General von Heister would do the same at Flatbush Pass in the center, while roughly 10,000 men and 14 guns walked around the left.' },
       { p: 'The column set out from the village of Flatlands at about 9:00 p.m. on August 26: Clinton\'s vanguard (the lead element) in front, then Lord Cornwallis (British), Howe himself, and Lord Percy (British) bringing up the rear, moving northeast by back roads with Loyalist farmers as guides. Around 2:00 or 3:00 in the morning they reached a tavern near the Jamaica Pass called Howard\'s Halfway House, woke the tavern keeper, William Howard, and compelled him and his son to guide the army by a footpath around the pass. That scene comes down to us from the Howard family\'s own much-retold account, written down decades later, so the dialogue is tradition rather than record. The bones of it are solid: a tavern keeper and his son walking at the head of a British army.' },
@@ -112,23 +64,7 @@ const LONG_ISLAND_NARR: Record<string, Narr> = {
     eyebrow: 'Long Island · The escape',
     title: 'The escape in the fog',
     blocks: [
-      { locator: {
-        eyebrow: 'The crossing · August 29–30, 1776',
-        caption: 'Roughly a mile of tidal river separated the trapped army from Manhattan. On the night of August 29–30, Glover\'s Marblehead mariners and Hutchinson\'s Salem fishermen rowed some 9,000 to 9,500 men, with their guns, horses, and provisions, across it in the dark; toward dawn a fog settled over Brooklyn and hid the last boats.',
-        frame: { lonMin: -74.04, lonMax: -73.93, latMin: 40.66, latMax: 40.72 },
-        states: [
-          { name: 'New York', tone: 'focus' },
-        ],
-        dots: [
-          { name: 'Brooklyn lines (the trapped camp)', lat: 40.696, lon: -73.995, heavy: true, anchor: 'start', dy: 10 },
-          { name: 'Brooklyn ferry landing', date: 'embarkation, night of Aug 29–30', lat: 40.704, lon: -73.994, color: '#8a8175', anchor: 'start', dy: -8, dateBelow: true },
-          { name: 'Manhattan landing', lat: 40.709, lon: -74.001, color: '#8a8175', anchor: 'end', dy: -4 },
-          { name: 'Fort Putnam (today\'s Fort Greene Park)', lat: 40.691, lon: -73.976, color: '#8a8175', anchor: 'start' },
-        ],
-        labels: [
-          { text: 'EAST RIVER', lon: -74.015, lat: 40.7115, kind: 'water', size: 11, anchor: 'end' },
-        ],
-      } },
+      { fig: '/war-img/rev-longisland-tac3.jpg', cap: 'Roughly a mile of tidal river separated the trapped army from Manhattan. On the night of August 29–30, Glover\'s Marblehead mariners and Hutchinson\'s Salem fishermen rowed some 9,000 to 9,500 men, with their guns, horses, and provisions, across it in the dark; toward dawn a fog settled over Brooklyn and hid the last boats.', credit: 'Stuff Happened map' },
       { p: 'On the evening of August 27, 1776, what was left of the American army on Long Island sat inside its fortifications at Brooklyn, on the high ground across the East River (about a mile of tidal water) from New York City. The forward line on the ridge had been destroyed that morning; a thousand men or more were prisoners, two generals among them. General William Howe (British), rather than storm the works, had begun formal siege approaches, the slow, methodical digging of trenches toward an enemy position. Some 9,500 Americans were penned on a riverbank, and the Royal Navy, the largest fleet ever seen in American waters, lay just around the bend.' },
       { p: 'What saved them first was weather. On August 28 and 29 a cold nor\'easter (a storm blowing from the northeast) sat on New York: driving rain, flooded trenches, men who had not slept in days standing in water without tents or dry gunpowder, while the British siege trenches crept to within about 600 yards. But the same northeast wind that made the camp miserable kept the British warships out of the East River: a sailing ship cannot sail straight into the wind, and the wind was blowing straight down the river against them. George Washington, commanding, actually fed another 1,200 men across from Manhattan on the 28th, still thinking of holding Brooklyn. Then he grasped the real shape of the trap: the moment the wind shifted, British frigates (fast medium-sized warships) would sail into the river behind him, and 9,500 men, the heart of the Continental Army (the new national army), would be sealed in Brooklyn. The war could end there.' },
       { p: 'On the afternoon of August 29, at about 4:00, a council of war (a formal vote of the senior generals) voted unanimously to withdraw to Manhattan. Orders went out to collect every usable boat on the East River and the Hudson. The troops themselves were told nothing true: the word was that they were being relieved by fresh units during the night. The lie was the point; an army that knows it is retreating in front of an enemy tends to bolt.' },

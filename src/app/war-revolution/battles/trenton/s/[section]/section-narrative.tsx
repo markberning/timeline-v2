@@ -18,29 +18,7 @@ const TRENTON_NARR: Record<string, Narr> = {
     eyebrow: 'Trenton · The collapse',
     title: '"The game is pretty near up"',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · December 1776',
-        caption: 'The plan was three crossings in one night: Washington with the main body at McConkey\'s Ferry, nine miles above Trenton; Ewing directly opposite the town to seal the Assunpink bridge; Cadwalader downstream at Bristol to pin the post at Bordentown. River ice stopped Ewing entirely and turned Cadwalader back. Only Washington\'s column got over.',
-        frame: { lonMin: -75.00, lonMax: -74.58, latMin: 40.03, latMax: 40.40 },
-        states: [
-          { name: 'New Jersey', tone: 'focus', label: 'NEW JERSEY', labelLon: -74.625, labelLat: 40.27, labelSize: 12 },
-          { name: 'Pennsylvania', label: 'PENNSYLVANIA', labelLon: -74.95, labelLat: 40.075, labelSize: 11 },
-        ],
-        labels: [
-          { text: 'DELAWARE RIVER', lon: -74.90, lat: 40.345, kind: 'water', size: 11 },
-        ],
-        dots: [
-          { name: 'McConkey\'s Ferry', date: 'Washington\'s crossing, night of Dec 25–26, 1776', lat: 40.296, lon: -74.872, heavy: true, anchor: 'end', dateBelow: true },
-          { name: 'Trenton', date: 'the Hessian garrison', lat: 40.2258, lon: -74.7647, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Trenton Ferry', date: 'Ewing\'s failed crossing', lat: 40.211, lon: -74.772, color: '#8a8175', anchor: 'end', dy: 14, dateBelow: true },
-          { name: 'Bristol, Pa.', date: 'Cadwalader\'s failed crossing', lat: 40.103, lon: -74.851, color: '#8a8175', anchor: 'end', dateBelow: true },
-          { name: 'Dunk\'s Ferry', lat: 40.06, lon: -74.91, color: '#8a8175', anchor: 'start' },
-          { name: 'Bordentown', date: 'Hessian-British post', lat: 40.150, lon: -74.708, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Newtown, Pa.', date: 'Washington\'s HQ', lat: 40.229, lon: -74.937, color: '#8a8175', anchor: 'start', dy: -8, dateBelow: true },
-          { name: 'Pennington', lat: 40.325, lon: -74.789, color: '#8a8175', anchor: 'start' },
-          { name: 'Princeton', date: 'the Jan 3 battle', lat: 40.358, lon: -74.667, color: '#8a8175', anchor: 'end', dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-trenton-tac1.jpg', cap: 'The plan was three crossings in one night: Washington with the main body at McConkey\'s Ferry, nine miles above Trenton; Ewing directly opposite the town to seal the Assunpink bridge; Cadwalader downstream at Bristol to pin the post at Bordentown. River ice stopped Ewing entirely and turned Cadwalader back. Only Washington\'s column got over.', credit: 'Stuff Happened map' },
       { p: 'In December 1776 the American Revolution was dying, and the men running it knew it. The year had been a catastrophe since August. The British had beaten the Continental Army (the rebels\' regular army, as opposed to the part-time militia) at Long Island, taken New York City, and then, on November 16, taken Fort Washington at the northern tip of Manhattan with about 2,800 American soldiers captured in a single day. Fort Lee, across the Hudson (the river on Manhattan\'s west side), was abandoned four days later. George Washington (American), the army\'s commander in chief, spent November and December retreating across New Jersey with a force that shrank as it marched: enlistments running out, men deserting, men sick. In early December he crossed the Delaware River into Pennsylvania and took every boat he could find with him, so that the British could not follow at once across a river with no bridges. The Delaware was now the front line: the British army in New Jersey on the east bank, what was left of the American one in Pennsylvania on the west.' },
       { pill: '/war-revolution/the-north', plabel: '1776: the Declaration, the New York disaster, and the ten days that kept the cause alive' },
       { p: 'They did not especially want to follow. In mid-December General Sir William Howe (British), satisfied that the rebellion was nearly finished, suspended campaigning for the winter, strung a chain of outposts across New Jersey, running from the posts nearest New York down to the Delaware itself (Perth Amboy, New Brunswick, Princeton, Trenton, Bordentown), and went back to New York. The most exposed link in that chain was Trenton, a town on the east bank of the Delaware, garrisoned by about 1,500 Hessians (German soldiers in British service) under Colonel Johann Rall, a hard-fighting career soldier who had led the decisive assault at Fort Washington weeks before. The same day Howe went into winter quarters, the Americans lost another general: Charles Lee, Washington\'s senior subordinate, who had been slow-walking his orders to join the main army, was captured by British cavalry at Basking Ridge, New Jersey. There was a cold consolation in it. Lee\'s division marched on under Major General John Sullivan (American) and reached Washington, and regiments under Major General Horatio Gates (American) came in too. For the first time in weeks, Washington had enough men to attempt something.' },
@@ -58,25 +36,7 @@ const TRENTON_NARR: Record<string, Narr> = {
     eyebrow: 'Trenton · The night and the morning',
     title: 'Victory or death',
     blocks: [
-      { locator: {
-        eyebrow: 'Trenton · the morning of December 26, 1776',
-        caption: 'Greene\'s column came down the Pennington Road into the head of town, where Knox\'s guns swept King and Queen Streets downhill; Sullivan\'s column came up the River Road into the lower town. Because Ewing never crossed, the stone bridge over the Assunpink stayed open long enough for several hundred Hessians to escape south.',
-        frame: { lonMin: -74.80, lonMax: -74.74, latMin: 40.205, latMax: 40.245 },
-        states: [],
-        labels: [
-          { text: 'DELAWARE RIVER', lon: -74.788, lat: 40.210, kind: 'water', size: 12 },
-          { text: 'ASSUNPINK CREEK', lon: -74.752, lat: 40.2115, kind: 'water', size: 11 },
-        ],
-        dots: [
-          { name: 'Five Points', date: 'Knox\'s guns at the head of King & Queen Streets · ~8:00 a.m.', lat: 40.2258, lon: -74.7647, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Cooper-shop picket', date: 'Pennington Road · the first shots', lat: 40.235, lon: -74.78, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Greene\'s column', date: 'down the Pennington Road, from the northwest', lat: 40.242, lon: -74.793, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Sullivan\'s column', date: 'up the River Road, along the Delaware', lat: 40.224, lon: -74.795, color: '#8a8175', anchor: 'start', dy: -8, dateBelow: true },
-          { name: 'Old Barracks', date: 'garrison quarters', lat: 40.2197, lon: -74.7686, color: '#8a8175', anchor: 'end', dateBelow: true },
-          { name: 'Assunpink bridge', date: 'the open back door', lat: 40.218, lon: -74.764, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Assunpink Creek mouth', lat: 40.2164, lon: -74.77, color: '#8a8175', anchor: 'end', dy: 12 },
-        ],
-      } },
+      { fig: '/war-img/rev-trenton-tac2.jpg', cap: 'Greene\'s column came down the Pennington Road into the head of town, where Knox\'s guns swept King and Queen Streets downhill; Sullivan\'s column came up the River Road into the lower town. Because Ewing never crossed, the stone bridge over the Assunpink stayed open long enough for several hundred Hessians to escape south.', credit: 'Stuff Happened map' },
       { p: 'On Christmas night 1776, George Washington (American), commander in chief of a rebel army that would mostly dissolve when its enlistments expired on December 31, put about 2,400 men on the bank of the Delaware River at McConkey\'s Ferry. Nine miles downstream sat Trenton, New Jersey, and its garrison of about 1,500 Hessians (German troops in British service) under Colonel Johann Rall. The plan was three crossings and a converging attack before dawn. The password, written into the order of march, was "Victory or Death."' },
       { p: 'Christmas evening the weather broke into a nor\'easter: rain turning to sleet, snow, and hail, a high wind, and ice floes running in the 300-yard-wide river. The army crossed in the boats Washington had hoarded, big Durham boats (40-to-60-foot cargo boats built to haul raw iron) for the men and flat ferries for the horses and guns, poled by Colonel John Glover\'s (American) "Marbleheaders," a regiment (a unit of several hundred soldiers) of Massachusetts fishermen and sailors who had already rowed this army to safety off Long Island in August. Colonel Henry Knox (American), the 280-pound Boston bookseller turned artillery chief, ran the embarkation, his enormous voice carrying over the storm. He was taking across an unusually heavy 18 guns, and the loading took most of the night. Not a man or gun is recorded lost. Knox, writing to his wife Lucy, set the scene in one line: "The night was cold and stormy; it hailed with great violence; the troops marched with the most profound silence and good order."' },
       { fig: '/war-img/rev-trenton-leutze.jpg', cap: 'Emanuel Leutze\'s "Washington Crossing the Delaware," painted in 1851 in Düsseldorf, seventy-five years after the night. Deliberately heroic and wrong on the details (it shows daylight, a later flag, and a boat far too small): the image of the event, not a record of it.', credit: 'Emanuel Leutze · oil painting · 1851 · The Metropolitan Museum of Art / Wikimedia Commons · public domain' },
