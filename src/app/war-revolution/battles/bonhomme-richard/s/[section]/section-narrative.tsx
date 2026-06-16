@@ -31,55 +31,10 @@ import type { Block } from '@/components/mode/battle-reader'
 // Locator 1 · tactical: the battle off Flamborough Head (Section 2). The precise
 // battle site is unknown and the wreck never found; the markers are symbolic at
 // locator scale (pack §10).
-const TACTICAL_LOCATOR: Block = {
-  locator: {
-    eyebrow: 'The ground · September 23, 1779',
-    caption: 'Pearson\'s whole fight was about this geometry. The Baltic convoy ran inshore for the shelter of Bridlington and Scarborough while he stood the Serapis out to sea, between the merchantmen and the raider, and bought their escape with his ship. The two warships then fought a few miles off Flamborough Head, drifting north through the night, close enough that crowds gathered on the chalk cliffs from Scarborough down to the Head to watch by moonlight. The Bonhomme Richard sank two days later in open water off the coast; her wreck has never been found.',
-    frame: { lonMin: -0.85, lonMax: 0.45, latMin: 53.45, latMax: 54.65 },
-    states: [],
-    labels: [
-      { text: 'THE NORTH SEA', lon: 0.2, lat: 54.52, kind: 'water', size: 12, anchor: 'middle' },
-      { text: 'YORKSHIRE', lon: -0.62, lat: 54.45, kind: 'faint', size: 11, anchor: 'middle' },
-    ],
-    dots: [
-      { name: 'Flamborough Head', date: 'the chalk headland; the crowds on the cliffs', lat: 54.117, lon: -0.083, heavy: true, anchor: 'end', dy: 14, dateBelow: true },
-      { name: 'The battle site', date: 'Sept 23, evening', lat: 54.15, lon: 0.02, heavy: true, anchor: 'start', dy: -22, dateBelow: true },
-      { name: 'The sinking site', date: 'sank Sept 25; wreck never found', lat: 54.20, lon: 0.10, anchor: 'middle', dy: -26, dateBelow: true },
-      { name: 'Scarborough', date: 'northern end of the cliff-top crowds', lat: 54.288, lon: -0.402, anchor: 'end', dateBelow: true },
-      { name: 'Filey', lat: 54.210, lon: -0.289, anchor: 'end', dy: 18 },
-      { name: 'Bridlington', date: 'the convoy ran inshore to safety', lat: 54.085, lon: -0.187, anchor: 'end', dy: 8, dateBelow: true },
-      { name: 'Spurn Head', date: 'the squadron reunited the day before', lat: 53.577, lon: 0.110, anchor: 'end', dateBelow: true },
-      { name: 'Kingston upon Hull', date: 'Pearson\'s freedom-of-the-city, after', lat: 53.745, lon: -0.336, anchor: 'start', dateBelow: true },
-    ],
-  },
-}
+const TACTICAL_LOCATOR: Block = { fig: '/war-img/rev-bonhomme-tac1.jpg', cap: 'Pearson\'s whole fight was about this geometry. The Baltic convoy ran inshore for the shelter of Bridlington and Scarborough while he stood the Serapis out to sea, between the merchantmen and the raider, and bought their escape with his ship. The two warships then fought a few miles off Flamborough Head, drifting north through the night, close enough that crowds gathered on the chalk cliffs from Scarborough down to the Head to watch by moonlight. The Bonhomme Richard sank two days later in open water off the coast; her wreck has never been found.', credit: 'Stuff Happened map' }
 
 // Locator 2 · strategic: the cruise that drew the noose (Section 1).
-const STRATEGIC_LOCATOR: Block = {
-  locator: {
-    eyebrow: 'The cruise · August–December 1779',
-    caption: 'A French-financed squadron under American colors sailed out of France in August, looped the whole archipelago counter-clockwise scattering panic, stood within sight of Edinburgh until a gale blew it back out, and collided with the Baltic convoy at the elbow of England in September. Then it limped east into neutral Holland, to the Texel, the Dutch naval anchorage, with its flagship on the bottom and a captured British frigate flying its flag. The track reads as a noose drawn around Britain, which is exactly how the British coast, jumpy that summer over a Franco-Spanish invasion scare in the Channel, experienced it.',
-    frame: { lonMin: -11.5, lonMax: 5.5, latMin: 47.0, latMax: 59.5 },
-    states: [],
-    labels: [
-      { text: 'THE NORTH SEA', lon: 1.6, lat: 56.6, kind: 'water', size: 12, anchor: 'middle' },
-      { text: 'THE ATLANTIC', lon: -9.4, lat: 50.6, kind: 'water', size: 12, anchor: 'middle' },
-      { text: 'SCOTLAND', lon: -4.3, lat: 57.0, kind: 'faint', size: 11, anchor: 'middle' },
-      { text: 'ENGLAND', lon: -1.7, lat: 52.4, kind: 'faint', size: 11, anchor: 'middle' },
-      { text: 'IRELAND', lon: -8.0, lat: 53.3, kind: 'faint', size: 11, anchor: 'middle' },
-      { text: 'FRANCE', lon: -0.8, lat: 47.8, kind: 'faint', size: 11, anchor: 'middle' },
-    ],
-    dots: [
-      { name: 'Lorient / Groix roads', date: 'the squadron sails, Aug 14, 1779', lat: 47.748, lon: -3.366, heavy: true, anchor: 'start', dy: -10, dateBelow: true },
-      { name: 'Cape Wrath', date: 'about Sept 1', lat: 58.625, lon: -4.997, anchor: 'start', dy: -8, dateBelow: true },
-      { name: 'Flannan Isles', date: 'Jones\'s "Flamie Islands," late August', lat: 58.29, lon: -7.59, anchor: 'end', dy: 18, dateBelow: true },
-      { name: 'Firth of Forth / Leith', date: 'the aborted descent on Edinburgh\'s port; a gale blew him out', lat: 55.990, lon: -3.171, anchor: 'start', dateBelow: true },
-      { name: 'Flamborough Head', date: 'the collision with the convoy, Sept 23', lat: 54.117, lon: -0.083, heavy: true, anchor: 'end', dateBelow: true },
-      { name: 'The Texel', date: 'in with the captured Serapis, Oct 3; out Dec 27', lat: 53.05, lon: 4.80, heavy: true, anchor: 'end', dy: -14, dateBelow: true },
-      { name: 'Amsterdam', date: 'the celebrity reception', lat: 52.373, lon: 4.893, anchor: 'end', dy: 16, dateBelow: true },
-    ],
-  },
-}
+const STRATEGIC_LOCATOR: Block = { fig: '/war-img/rev-bonhomme-tac2.jpg', cap: 'A French-financed squadron under American colors sailed out of France in August, looped the whole archipelago counter-clockwise scattering panic, stood within sight of Edinburgh until a gale blew it back out, and collided with the Baltic convoy at the elbow of England in September. Then it limped east into neutral Holland, to the Texel, the Dutch naval anchorage, with its flagship on the bottom and a captured British frigate flying its flag. The track reads as a noose drawn around Britain, which is exactly how the British coast, jumpy that summer over a Franco-Spanish invasion scare in the Channel, experienced it.', credit: 'Stuff Happened map' }
 
 const BONHOMME_RICHARD_NARR: Record<string, Narr> = {
   'a-noose-around-britain': {

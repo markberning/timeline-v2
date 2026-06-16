@@ -24,26 +24,7 @@ const STONY_POINT_NARR: Record<string, Narr> = {
     eyebrow: 'Stony Point · The lure',
     title: 'Little Gibraltar',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · night of July 15–16, 1779',
-        caption: 'Stony Point is a rock surrounded by water on three sides, with a tidal marsh and a single causeway nearly closing off the fourth. Wayne\'s corps assembled at Springsteel\'s farm about a mile and a half west, then split: one column hooked south across the flooded flats, one north along the river, while Murfree\'s two companies fired at the center to pull the garrison toward the causeway. Across the river, Verplanck\'s Point held: the second half of the plan failed, and King\'s Ferry\'s east bank stayed British.',
-        frame: { lonMin: -74.05, lonMax: -73.90, latMin: 41.18, latMax: 41.31 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -74.043, labelLat: 41.302, labelSize: 11 },
-        ],
-        labels: [
-          { text: 'HUDSON RIVER', lon: -73.945, lat: 41.215, kind: 'water', size: 10, anchor: 'middle' },
-          { text: 'KING\'S FERRY', lon: -73.952, lat: 41.249, kind: 'faint', size: 9, anchor: 'start' },
-          { text: 'TIDAL MARSH', lon: -73.984, lat: 41.229, kind: 'faint', size: 9, anchor: 'end' },
-        ],
-        dots: [
-          { name: 'Stony Point', date: 'the fort, west bank', lat: 41.242, lon: -73.972, heavy: true, anchor: 'end', dy: -4, dateBelow: true },
-          { name: 'Verplanck\'s Point / Fort Lafayette', date: 'the ferry\'s far end, east bank', lat: 41.254, lon: -73.962, heavy: true, anchor: 'start', dy: -6, dateBelow: true },
-          { name: 'Springsteel\'s farm', date: 'the assembly point, ~1.5 miles west', lat: 41.236, lon: -74.000, color: '#8a8175', anchor: 'end', dy: 10, dateBelow: true },
-          { name: 'Haverstraw', date: 'south along the west bank', lat: 41.197, lon: -73.966, color: '#8a8175', anchor: 'end', dateBelow: true },
-          { name: 'Dunderberg Mountain', date: 'the march came around behind it, from the north', lat: 41.28, lon: -73.99, color: '#8a8175', anchor: 'start', dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-stonypoint-tac1.jpg', cap: 'Stony Point is a rock surrounded by water on three sides, with a tidal marsh and a single causeway nearly closing off the fourth. Wayne\'s corps assembled at Springsteel\'s farm about a mile and a half west, then split: one column hooked south across the flooded flats, one north along the river, while Murfree\'s two companies fired at the center to pull the garrison toward the causeway. Across the river, Verplanck\'s Point held: the second half of the plan failed, and King\'s Ferry\'s east bank stayed British.', credit: 'Stuff Happened map' },
       { p: 'By the summer of 1779 the war in the north had gone quiet, and the quiet was its own kind of problem. After the battle at Monmouth, in New Jersey, the previous June, the two main armies had stopped fighting general battles in the north for good. General Sir Henry Clinton, the British commander in chief in America, held New York City. George Washington (American), commander of the Continental Army (the rebels\' full-time regular army, as opposed to part-time militia), ringed the city from New Jersey and the Hudson Highlands, the rugged stretch where the river cuts through the mountains north of the city. Neither man could force the other to fight, and Britain\'s real war effort was sliding south, toward Georgia and the Carolinas. What Clinton wanted in the north was a cheap way to hurt Washington, or to make him come out and fight on open ground where British regulars and bayonets would tell.' },
       { p: 'He went looking for it on the Hudson, because the Hudson was the seam of the whole Revolution. The river ran north from New York City up into the heart of the rebellion, and a British army sitting across it could split New England, the furnace of the war, off from the rest of the states. The American answer was the fortress complex being built at West Point, a bend in the river about 50 miles above the city, with a great iron chain (a massive linked boom floated across the river\'s full width on logs) stretched over the water to physically block ships from passing upriver. And the southernmost safe crossing below West Point was King\'s Ferry, where the river narrowed between two points of land: Stony Point on the west bank and Verplanck\'s Point on the east. King\'s Ferry was the shortcut for men, mail, and supplies moving between New England and the mid-Atlantic states; losing it forced everything onto a long detour up through the mountains.' },
       { p: 'So in late May, Clinton took about 6,000 men and a naval squadron up the river and seized both ends of the ferry. The unfinished American blockhouse (a small log fort) on Stony Point was burned and abandoned without a fight; the little garrison of about 70 men across the river at Verplanck\'s surrendered on June 1. Clinton fortified both points, garrisoned them, and waited. West Point was only a dozen miles upriver now, and his real hope was that Washington would come down and fight for the crossing. He sent raiders to burn the Connecticut coast that same month, hitting New Haven, Fairfield, and Norwalk in a week, the same bait on a longer leash. Washington refused all of it. He shifted his army to cover West Point, set up headquarters at New Windsor, and started planning a counterstroke of his own.' },
@@ -78,32 +59,7 @@ const STONY_POINT_NARR: Record<string, Narr> = {
     eyebrow: 'Stony Point · What it meant',
     title: 'The quarter they gave',
     blocks: [
-      { locator: {
-        eyebrow: 'The campaign · May–October 1779',
-        caption: 'The summer\'s whole maneuver in one frame. Clinton pushed up the Hudson from New York and grabbed both ends of King\'s Ferry, twelve miles below the fortress at West Point, then burned the Connecticut coast, all of it bait to pull Washington down out of the Highlands. Washington never moved the army. He sent his light corps the other way, thirteen miles down the west bank, to take the point back in the dark. A month later Henry Lee copied the raid at Paulus Hook in New Jersey.',
-        frame: { lonMin: -74.35, lonMax: -72.80, latMin: 40.55, latMax: 41.65 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -74.30, labelLat: 41.59, labelSize: 12 },
-          { name: 'Connecticut', label: 'CONNECTICUT', labelLon: -73.06, labelLat: 41.56, labelSize: 10 },
-          { name: 'New Jersey', label: 'NEW JERSEY', labelLon: -74.29, labelLat: 40.66, labelSize: 10 },
-        ],
-        labels: [
-          { text: 'HUDSON RIVER', lon: -73.93, lat: 40.93, kind: 'water', size: 10, anchor: 'start' },
-          { text: 'LONG ISLAND SOUND', lon: -73.25, lat: 40.98, kind: 'water', size: 10, anchor: 'middle' },
-        ],
-        dots: [
-          { name: 'New York City', date: 'Clinton\'s base', lat: 40.713, lon: -74.006, heavy: true, anchor: 'start', dy: -4, dateBelow: true },
-          { name: 'Stony Point', date: 'July 16', lat: 41.242, lon: -73.972, heavy: true, anchor: 'end', dy: -6, dateBelow: true },
-          { name: 'Verplanck\'s Point', date: 'King\'s Ferry', lat: 41.254, lon: -73.962, anchor: 'start', dy: 10, dateBelow: true },
-          { name: 'West Point', date: 'the fortress and the great chain, ~12 miles upriver', lat: 41.391, lon: -73.956, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Fort Montgomery / Sandy Beach', date: 'the corps\' start line', lat: 41.334, lon: -73.987, color: '#8a8175', anchor: 'end', dy: 6, dateBelow: true },
-          { name: 'New Windsor', date: 'Washington\'s HQ', lat: 41.477, lon: -74.024, color: '#8a8175', anchor: 'end', dateBelow: true },
-          { name: 'New Haven', date: 'Tryon\'s raid, July 5', lat: 41.308, lon: -72.928, color: '#8a8175', anchor: 'end', dateBelow: true },
-          { name: 'Fairfield', date: 'Tryon\'s raid, July 8', lat: 41.141, lon: -73.264, color: '#8a8175', anchor: 'start', dy: 8, dateBelow: true },
-          { name: 'Norwalk', date: 'Tryon\'s raid, July 11', lat: 41.118, lon: -73.408, color: '#8a8175', anchor: 'end', dy: 10, dateBelow: true },
-          { name: 'Paulus Hook', date: 'the copycat raid, Aug 19', lat: 40.714, lon: -74.039, color: '#8a8175', anchor: 'end', dy: 8, dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-stonypoint-tac2.jpg', cap: 'The summer\'s whole maneuver in one frame. Clinton pushed up the Hudson from New York and grabbed both ends of King\'s Ferry, twelve miles below the fortress at West Point, then burned the Connecticut coast, all of it bait to pull Washington down out of the Highlands. Washington never moved the army. He sent his light corps the other way, thirteen miles down the west bank, to take the point back in the dark. A month later Henry Lee copied the raid at Paulus Hook in New Jersey.', credit: 'Stuff Happened map' },
       { p: 'The humanity of our brave Soldiery who scorned to take the lives of a vanquished foe, calling for mercy reflects the highest honor on them and accounts for the few of the enemy Killed on the occasion.', q: true },
       { p: 'That was Anthony Wayne (American), making the restraint the headline of his own report to Washington the day after Stony Point fell. The men of the Corps of Light Infantry had stormed a defended work in the dark, with Paoli and Old Tappan to avenge, and had given the surrendering garrison quarter, and both sides remarked on it and said so in writing.' },
       { p: 'One British voice said the same, from the other side of it. Commodore Sir George Collier (British), who had commanded the naval side of Clinton\'s operation that spring, wrote in his private journal that the rebels "had made the attack with a bravery they never before exhibited, and they showed at this moment a generosity and clemency which during the course of the Rebellion had no parallel." That is the meaning of the night, and it is worth being precise about. There was no massacre; the garrison asked for mercy and received it; the official British dead came to about twenty, not the heaps a storming was expected to leave, even though American accounts at the time claimed three times that number. The low number is the one the record supports, and the low number is exactly what makes the story true. An army that had been bayoneted in the dark, handed the chance to do the bayoneting, chose discipline.' },
