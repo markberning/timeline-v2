@@ -57,7 +57,7 @@ export default async function ThinkerHubPage({ params }: { params: Promise<{ thi
       glyph={t.glyph}
       iconId={THINKER_ICONS.has(t.id) ? t.id : undefined}
       iconCaption={THINKER_ICON_LABELS[t.id]}
-      hero={t.id === 'plato' && narr?.hero ? { fig: narr.hero.fig, alt: narr.hero.alt, portrait: narr.hero.portrait } : undefined}
+      hero={narr?.hero ? { fig: narr.hero.fig, alt: narr.hero.alt } : undefined}
       breakBlock={narr ? { before: plain(narr.brk.beforeLabel), after: plain(narr.brk.afterLabel) } : undefined}
       outline={narr ? narr.chapters.map(c => ({ num: c.num, title: plain(c.title) })) : undefined}
       outlineLabel={narr ? 'Inside the walk-through' : undefined}

@@ -49,6 +49,7 @@ export default async function SchoolHubPage({ params }: { params: Promise<{ scho
       glyph={s.name[0]}
       iconId={SCHOOL_ICONS.has(s.id) ? `school-${s.id}` : undefined}
       iconCaption={SCHOOL_ICON_LABELS[s.id]}
+      hero={narr?.hero ? { fig: narr.hero.fig, alt: narr.hero.alt } : undefined}
       breakBlock={narr ? { before: plain(narr.brk.beforeLabel), after: plain(narr.brk.afterLabel), label: 'The core claim' } : undefined}
       outline={narr ? narr.chapters.map(c => ({ num: c.num, title: plain(c.title) })) : undefined}
       outlineLabel={narr ? 'Inside the read' : undefined}
