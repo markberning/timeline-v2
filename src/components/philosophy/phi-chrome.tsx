@@ -142,7 +142,7 @@ export interface HubRow {
 }
 
 export function PhiHub({
-  crumbs, accent, eyebrow, title, meta, blurb, glyph, iconId, iconCaption, stats, breakBlock, readButton, outline, outlineLabel, diagram, spine, cast, passages, rowsLabel, rows, note, footerEra,
+  crumbs, accent, eyebrow, title, meta, blurb, glyph, iconId, iconCaption, hero, stats, breakBlock, readButton, outline, outlineLabel, diagram, spine, cast, passages, rowsLabel, rows, note, footerEra,
 }: {
   crumbs: Crumb[]
   accent: string
@@ -153,6 +153,7 @@ export function PhiHub({
   glyph?: string
   iconId?: string
   iconCaption?: string
+  hero?: { fig: string; alt: string; portrait?: boolean }
   stats?: { value: string; label: string }[]
   breakBlock?: { before: string; after: string; label?: string }
   outline?: { num: number; title: string }[]
@@ -176,9 +177,20 @@ export function PhiHub({
       <WarBreadcrumb crumbs={crumbs} accent={accent} bare />
 
       <main style={{ maxWidth: 640, margin: '0 auto', width: '100%' }}>
+        {/* landscape hero artifact — a contained banner above the title */}
+        {hero && !hero.portrait && (
+          <div style={{ padding: '14px 16px 0' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={hero.fig} alt={hero.alt} data-no-zoom style={{ width: '100%', maxHeight: 220, objectFit: 'cover', borderRadius: 10, border: `1px solid ${BORDER}`, display: 'block' }} />
+          </div>
+        )}
         {/* hero */}
         <div style={{ padding: '18px 16px 16px', display: 'flex', gap: 14, alignItems: 'flex-start' }}>
-          {(glyph || iconId) && (
+          {hero && hero.portrait ? (
+            // a thinker's own portrait, framed — the page gets a face
+            /* eslint-disable-next-line @next/next/no-img-element */
+            <img src={hero.fig} alt={hero.alt} data-no-zoom style={{ width: 116, flexShrink: 0, borderRadius: 9, border: `1px solid ${BORDER}`, background: CARD, display: 'block' }} />
+          ) : (glyph || iconId) && (
             <div aria-hidden style={{
               flexShrink: 0, width: iconCaption ? 76 : 64, minHeight: 64, borderRadius: 14,
               display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 6,
