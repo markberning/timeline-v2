@@ -29,33 +29,9 @@ import type { Block } from '@/components/mode/battle-reader'
 // Washington's near-parallel tracks, and the French fleet's near-miss, ride the
 // caption (no route arrows in the locator contract).
 const STRATEGIC_LOCATOR: Block = {
-  locator: {
-    eyebrow: 'The march across New Jersey · June 1778',
-    caption: 'Two armies crossing New Jersey on near-parallel roads. Clinton marched his 12-mile column from Philadelphia down through Mount Holly to Allentown, then turned northeast for the ships at Sandy Hook, the route that avoided crossing rivers in Washington\'s face. Washington crossed the Delaware upstream at Coryell\'s Ferry, held his council at Hopewell, and shadowed the British from the north. The two tracks converged at Monmouth. Days after Clinton\'s army was ferried safely to New York, a French fleet anchored off Sandy Hook, the great near-miss of the campaign.',
-    frame: { lonMin: -75.6, lonMax: -73.8, latMin: 39.7, latMax: 40.75 },
-    states: [
-      { name: 'New Jersey', tone: 'focus', label: 'NEW JERSEY', labelLon: -74.62, labelLat: 39.92, labelSize: 12 },
-      { name: 'Pennsylvania', label: 'PENNSYLVANIA', labelLon: -75.45, labelLat: 40.62, labelSize: 11 },
-      { name: 'New York', tone: 'faint' },
-      { name: 'Delaware', tone: 'faint' },
-    ],
-    labels: [
-      { text: 'DELAWARE RIVER', lon: -75.32, lat: 39.86, kind: 'water', size: 10, anchor: 'middle' },
-      { text: 'THE ATLANTIC', lon: -73.93, lat: 40.18, kind: 'water', size: 10, anchor: 'middle' },
-    ],
-    dots: [
-      { name: 'Philadelphia', date: 'abandoned by June 18', lat: 39.949, lon: -75.150, heavy: true, anchor: 'start', dy: 8, dateBelow: true },
-      { name: 'Valley Forge', date: 'the winter camp', lat: 40.097, lon: -75.460, anchor: 'start', dy: -6, dateBelow: true },
-      { name: 'Coryell\'s Ferry', date: 'Washington\'s Delaware crossing', lat: 40.366, lon: -74.943, anchor: 'end', dy: -6, dateBelow: true },
-      { name: 'Hopewell', date: 'the June 24 council of war', lat: 40.389, lon: -74.762, anchor: 'start', dy: -8, dateBelow: true },
-      { name: 'Allentown', date: 'Clinton turns NE for Sandy Hook', lat: 40.177, lon: -74.585, anchor: 'start', dy: 10, dateBelow: true },
-      { name: 'Englishtown', date: 'the vanguard\'s start line', lat: 40.298, lon: -74.358, color: '#8a8175', anchor: 'end', dy: -8, dateBelow: true },
-      { name: 'Monmouth Court House / Freehold', date: 'the battle, June 28', lat: 40.260, lon: -74.274, heavy: true, anchor: 'start', dy: 12, dateBelow: true },
-      { name: 'Middletown', date: 'Knyphausen\'s train marches on', lat: 40.396, lon: -74.092, anchor: 'end', dy: 10, dateBelow: true },
-      { name: 'Sandy Hook', date: 'the ships; d\'Estaing days too late', lat: 40.43, lon: -74.00, heavy: true, anchor: 'end', dy: -8, dateBelow: true },
-      { name: 'New York', date: 'Clinton\'s goal', lat: 40.713, lon: -74.006, anchor: 'end', dy: 6, dateBelow: true },
-    ],
-  },
+  fig: '/war-img/rev-monmouth-tac1.jpg',
+  cap: 'Two armies crossing New Jersey on near-parallel roads. Clinton marched his 12-mile column from Philadelphia down through Mount Holly to Allentown, then turned northeast for the ships at Sandy Hook, the route that avoided crossing rivers in Washington\'s face. Washington crossed the Delaware upstream at Coryell\'s Ferry, held his council at Hopewell, and shadowed the British from the north. The two tracks converged at Monmouth. Days after Clinton\'s army was ferried safely to New York, a French fleet anchored off Sandy Hook, the great near-miss of the campaign.',
+  credit: 'Stuff Happened map',
 }
 
 // Locator 2 · tactical: the battlefield (Sections 2–3 per the final). The three
@@ -63,24 +39,9 @@ const STRATEGIC_LOCATOR: Block = {
 // arrows live in the caption; the confrontation knoll and the parsonage farm
 // are APPROX, flagged in their date lines.
 const TACTICAL_LOCATOR: Block = {
-  locator: {
-    eyebrow: 'The ground · June 28, 1778',
-    caption: 'The ground did half the work. Three wooded ravines cut across the line of retreat, terrible to attack over and ideal to defend behind. Washington built his line behind them: Stirling\'s massed guns on Perrine Ridge, Greene\'s wing to the right, Wayne forward at the hedgerow covering the bridge, and the masterstroke, Greene\'s guns on Combs Hill across the southern ravine, able to fire down the length of any British line that formed. The British came on hard all afternoon and could not break it.',
-    frame: { lonMin: -74.45, lonMax: -74.20, latMin: 40.20, latMax: 40.34 },
-    states: [
-      { name: 'New Jersey', tone: 'focus', label: 'NEW JERSEY', labelLon: -74.435, labelLat: 40.332, labelSize: 11 },
-    ],
-    dots: [
-      { name: 'Englishtown', date: 'the vanguard\'s start; Steuben\'s reserve', lat: 40.298, lon: -74.358, anchor: 'end', dy: -6, dateBelow: true },
-      { name: 'Old Tennent Church', date: 'the field hospital; Monckton\'s grave', lat: 40.280, lon: -74.341, anchor: 'end', dy: 8, dateBelow: true },
-      { name: 'Perrine Ridge', date: 'Stirling\'s wing and the gun line', lat: 40.272, lon: -74.328, heavy: true, anchor: 'end', dy: -10, dateBelow: true },
-      { name: 'The hedgerow & Middle Brook bridge', date: 'Lee\'s rearguard stand', lat: 40.265, lon: -74.318, heavy: true, anchor: 'start', dy: -10, dateBelow: true },
-      { name: 'The confrontation knoll', date: 'where Washington met Lee (approx.)', lat: 40.2655, lon: -74.3215, color: '#8a8175', anchor: 'end', dy: 10, dateBelow: true },
-      { name: 'The parsonage farm', date: 'Wayne vs the grenadiers; Monckton killed (approx.)', lat: 40.261, lon: -74.320, color: '#8a8175', anchor: 'end', dy: 26, dateBelow: true },
-      { name: 'Combs Hill', date: 'Greene\'s enfilading guns', lat: 40.258, lon: -74.314, heavy: true, anchor: 'start', dy: 10, dateBelow: true },
-      { name: 'Monmouth Court House / Freehold', date: 'Clinton\'s camp; the morning fight began near here', lat: 40.260, lon: -74.274, anchor: 'start', dy: -4, dateBelow: true },
-    ],
-  },
+  fig: '/war-img/rev-monmouth-tac2.jpg',
+  cap: 'The ground did half the work. Three wooded ravines cut across the line of retreat, terrible to attack over and ideal to defend behind. Washington built his line behind them: Stirling\'s massed guns on Perrine Ridge, Greene\'s wing to the right, Wayne forward at the hedgerow covering the bridge, and the masterstroke, Greene\'s guns on Combs Hill across the southern ravine, able to fire down the length of any British line that formed. The British came on hard all afternoon and could not break it.',
+  credit: 'Stuff Happened map',
 }
 
 const MONMOUTH_NARR: Record<string, Narr> = {
