@@ -142,7 +142,7 @@ export interface HubRow {
 }
 
 export function PhiHub({
-  crumbs, accent, eyebrow, title, meta, blurb, glyph, iconId, iconCaption, stats, readButton, diagram, spine, cast, passages, rowsLabel, rows, note, footerEra,
+  crumbs, accent, eyebrow, title, meta, blurb, glyph, iconId, iconCaption, stats, breakBlock, readButton, outline, outlineLabel, diagram, spine, cast, passages, rowsLabel, rows, note, footerEra,
 }: {
   crumbs: Crumb[]
   accent: string
@@ -154,6 +154,9 @@ export function PhiHub({
   iconId?: string
   iconCaption?: string
   stats?: { value: string; label: string }[]
+  breakBlock?: { before: string; after: string; label?: string }
+  outline?: { num: number; title: string }[]
+  outlineLabel?: string
   readButton?: { href: string; title: string; sub: string; soon?: boolean }
   diagram?:
     | { kind: 'pairs'; title: string; leftLabel: string; rightLabel: string; rows: { left: string; right: string }[]; caption: string }
@@ -216,6 +219,23 @@ export function PhiHub({
 
         {note && <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 14, color: MUTED, lineHeight: 1.55, padding: '14px 16px 0' }}>{note}</div>}
 
+        {/* the break — what this thinker overturned, before → after (derived from the read) */}
+        {breakBlock && (
+          <div style={{ padding: '20px 16px 4px' }}>
+            <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: FAINT, marginBottom: 13 }}>{breakBlock.label ?? 'What he changed'}</div>
+            <div style={{ borderLeft: `2px solid ${accent}`, paddingLeft: 15, display: 'flex', flexDirection: 'column', gap: 13 }}>
+              <div>
+                <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: '.12em', textTransform: 'uppercase', color: FAINT, marginBottom: 4 }}>Before</div>
+                <div style={{ fontFamily: SERIF, fontSize: 15.5, fontStyle: 'italic', lineHeight: 1.42, color: MUTED, textWrap: 'pretty' }}>{breakBlock.before}</div>
+              </div>
+              <div>
+                <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: '.12em', textTransform: 'uppercase', color: accent, marginBottom: 4 }}>After</div>
+                <div style={{ fontFamily: SERIF, fontSize: 17, fontWeight: 600, lineHeight: 1.4, color: INK, textWrap: 'pretty' }}>{breakBlock.after}</div>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* read button */}
         {readButton && (
           <a href={readButton.soon ? undefined : readButton.href} style={{
@@ -231,6 +251,21 @@ export function PhiHub({
             </span>
             <span style={{ flexShrink: 0, width: 30, height: 30, borderRadius: 999, background: readButton.soon ? 'transparent' : accent, color: readButton.soon ? FAINT : '#1c1a14', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, border: readButton.soon ? `1px solid ${BORDER}` : 'none' }}>{readButton.soon ? '·' : '→'}</span>
           </a>
+        )}
+
+        {/* inside the walk-through — the read's chapters, as a numbered preview (no boxes; rules + accent numerals) */}
+        {outline && outline.length > 0 && (
+          <div style={{ padding: '20px 16px 2px' }}>
+            <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: FAINT, marginBottom: 6 }}>{outlineLabel ?? 'Inside the walk-through'}</div>
+            <div>
+              {outline.map((o, i) => (
+                <div key={i} style={{ display: 'flex', gap: 13, alignItems: 'baseline', padding: '10px 0', borderTop: i === 0 ? 'none' : `1px solid ${BORDER}` }}>
+                  <span aria-hidden style={{ flexShrink: 0, width: 18, fontFamily: SANS, fontSize: 12, fontWeight: 700, color: accent, fontVariantNumeric: 'tabular-nums' }}>{o.num}</span>
+                  <span style={{ fontFamily: SERIF, fontSize: 15.5, lineHeight: 1.35, color: INK, textWrap: 'pretty' }}>{o.title}</span>
+                </div>
+              ))}
+            </div>
+          </div>
         )}
 
         {/* the signature diagram — a 'pairs' correspondence (city ↔ soul) or a 'ladder' ascent (the ladder of love) */}

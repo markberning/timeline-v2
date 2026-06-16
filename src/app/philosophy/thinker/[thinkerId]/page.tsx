@@ -7,7 +7,9 @@ import { notFound } from 'next/navigation'
 import { PhiHub, thinkerCrumbs, type HubRow } from '@/components/philosophy/phi-chrome'
 import { THINKERS, thinkerById, schoolById, worksOfThinker, ERA_NAME } from '@/lib/philosophy-data'
 import { WORK_ICONS, THINKER_ICONS, THINKER_ICON_LABELS } from '@/lib/philosophy-icon-labels'
-import { hasRead } from '../_reads'
+import { hasRead, THINKER_READS } from '../_reads'
+
+const plain = (s: string) => s.replace(/\*+/g, '').replace(/`/g, '')
 
 export function generateStaticParams() {
   return Object.keys(THINKERS).map(thinkerId => ({ thinkerId }))
@@ -28,6 +30,13 @@ export default async function ThinkerHubPage({ params }: { params: Promise<{ thi
   const works = worksOfThinker(t.id)
   const read = hasRead(t.id)
 
+  // Prototype: the enriched "dossier" hub, assembled from the read's own gated
+  // material (throughline lead + the break + chapter outline). Plato only for now;
+  // roll to all read-backed thinkers once the design is signed off.
+  const narr = t.id === 'plato' ? THINKER_READS[t.id]?.narr : undefined
+  const richMeta = [t.dates, s.name, ERA_NAME[t.era], works.length ? `${works.length} works` : null]
+    .filter(Boolean).join('  ·  ')
+
   const rows: HubRow[] = works.map(w => ({
     glyph: w.year.match(/\d{1,4}/)?.[0] ?? '·',
     iconId: WORK_ICONS.has(w.id) ? w.id : undefined,
@@ -43,11 +52,14 @@ export default async function ThinkerHubPage({ params }: { params: Promise<{ thi
       accent={s.color}
       eyebrow={`Thinker · ${s.name}`}
       title={t.name}
-      meta={`${t.dates} · ${s.name}`}
-      blurb={t.epithet}
+      meta={narr ? richMeta : `${t.dates} · ${s.name}`}
+      blurb={narr?.throughline ?? t.epithet}
       glyph={t.glyph}
       iconId={THINKER_ICONS.has(t.id) ? t.id : undefined}
       iconCaption={THINKER_ICON_LABELS[t.id]}
+      breakBlock={narr ? { before: plain(narr.brk.beforeLabel), after: plain(narr.brk.afterLabel) } : undefined}
+      outline={narr ? narr.chapters.map(c => ({ num: c.num, title: plain(c.title) })) : undefined}
+      outlineLabel={narr ? 'Inside the walk-through' : undefined}
       readButton={read
         ? {
             href: `/philosophy/thinker/${t.id}/system`,
