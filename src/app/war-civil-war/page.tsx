@@ -117,7 +117,7 @@ function StoryTab() {
   )
 }
 
-function BattlesTab({ theatre, query }: { theatre: string; query: string }) {
+function BattlesTab({ theatre, query, locked }: { theatre: string; query: string; locked: boolean }) {
   const q = query.trim().toLowerCase()
   const list = useMemo(() => {
     let l = [...MAJORS].sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))
@@ -128,13 +128,13 @@ function BattlesTab({ theatre, query }: { theatre: string; query: string }) {
   const years = [...new Set(list.map(b => b.year))]
 
   return (
-    <div className="p-page">
-      <div className="p-sechead">
+    <div className="p-page" style={locked ? { flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' } : undefined}>
+      <div className="p-sechead" style={locked ? { flexShrink: 0 } : undefined}>
         <h2 className="p-label">{q ? `Matching “${query}”` : (theatre === 'All' ? 'Every battle' : `${THEATRE[theatre]?.label} theatre`)}</h2>
         <span className="ct">{list.length} battle{list.length !== 1 ? 's' : ''}</span>
       </div>
       {list.length ? (
-        <div className="p-tl">
+        <div className="p-tl" style={locked ? { flex: 1, minHeight: 0, overflowY: 'auto', WebkitOverflowScrolling: 'touch' } : undefined}>
           {years.map(yr => (
             <div key={yr}>
               <div className="p-yr"><span className="ylab">{yr}</span><span className="yline" /></div>
@@ -320,6 +320,15 @@ export default function WarHome() {
   const pick = (k: string) => { setTab(k); if (k !== 'battles') setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
   const toggleLock = () => { setTab('battles'); setLocked(v => !v); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
 
+  // When locked, freeze the document so only the battle list scrolls (root becomes a
+  // fixed full-viewport flex column below).
+  useEffect(() => {
+    if (!locked) return
+    const html = document.documentElement, prev = html.style.overflow
+    html.style.overflow = 'hidden'
+    return () => { html.style.overflow = prev }
+  }, [locked])
+
   // Deep link from the breadcrumb "Theatre" crumb: /war-civil-war?theatre=east
   // lands on the Theatres tab with that theatre's chip selected, scrolled to the
   // tab bar.
@@ -333,7 +342,7 @@ export default function WarHome() {
   }, [])
 
   return (
-    <div className={'war-skin' + (locked ? ' p-locked' : '')}>
+    <div className={'war-skin' + (locked ? ' p-locked' : '')} style={locked ? { position: 'fixed', inset: 0, display: 'flex', flexDirection: 'column' } : undefined}>
       {/* sticky header */}
       <header className="p-hdr">
         <a className="back" href="/war" aria-label="All wars">{I.back}</a>
@@ -408,7 +417,7 @@ export default function WarHome() {
 
       {/* active tab */}
       {tab === 'story' && <StoryTab />}
-      {tab === 'battles' && <BattlesTab theatre={thFilter} query={bq} />}
+      {tab === 'battles' && <BattlesTab theatre={thFilter} query={bq} locked={locked} />}
       {tab === 'offfield' && <OffFieldTab />}
       {tab === 'theatres' && <TheatresTab active={thFilter} goBattles={k => { setThFilter(k); pick('battles') }} />}
       {tab === 'commanders' && <CommandersTab />}

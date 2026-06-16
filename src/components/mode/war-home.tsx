@@ -87,7 +87,7 @@ function CastTab({ cfg }: { cfg: WarConfig }) {
 // time, so dense clusters never collide. When the war defines `battleRegions` (a war
 // that travels, like the Revolution), the list groups by GEOGRAPHIC region and the dots
 // are coloured by region; otherwise it groups by year with flat-grey dots (F&I).
-function BattlesTab({ cfg }: { cfg: WarConfig }) {
+function BattlesTab({ cfg, locked }: { cfg: WarConfig; locked: boolean }) {
   const map = cfg.home!.battleMap!
   const regions = cfg.home!.battleRegions
   const regionById = useMemo(() => Object.fromEntries((regions ?? []).map(r => [r.id, r])), [regions])
@@ -128,9 +128,11 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
       })
     }
     onScroll()
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => { window.removeEventListener('scroll', onScroll); cancelAnimationFrame(raf) }
-  }, [mapTop])
+    // capture:true so the active-battle tracker also fires when the inner list scrolls
+    // (locked mode) — scroll events don't bubble, but capturing ancestors still see them.
+    window.addEventListener('scroll', onScroll, { passive: true, capture: true })
+    return () => { window.removeEventListener('scroll', onScroll, true); cancelAnimationFrame(raf) }
+  }, [mapTop, locked])
 
   const activeB = list.find(b => b.id === active)
   // Resolve the active map view: a per-battle override (frontier / at-sea), else the
@@ -166,7 +168,7 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
       <>
         <span className="bh"><b className="p-serif">{b.name}</b>{regions ? <span className="th">{b.year}</span> : null}</span>
         <span className="place">{b.place}</span>
-        <span className="note">{b.hook ?? soonPill}</span>
+        <span className="note">{b.href ? b.hook : soonPill}</span>
       </>
     )
     const cls = 'p-bt' + (b.size === 'l' || b.size === 'xl' ? ' key' : '') + (b.href ? '' : ' fi-dim') + (b.id === active ? ' fi-active' : '')
@@ -176,8 +178,8 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
   }
 
   return (
-    <div className="p-page">
-      <div ref={mapRef} className="fi-stickymap" style={{ position: 'sticky', top: mapTop, zIndex: 10, background: 'var(--paper)' }}>
+    <div className="p-page" style={locked ? { flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' } : undefined}>
+      <div ref={mapRef} className="fi-stickymap" style={{ position: 'sticky', top: mapTop, zIndex: 10, background: 'var(--paper)', ...(locked ? { flexShrink: 0 } : {}) }}>
         <div className="fi-mapwrap">
           <div key={viewId} style={{ animation: 'fi-mapswap .28s ease' }}>
             {seaPanel ? (
@@ -216,18 +218,20 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
           )}
         </div>
       </div>
-      <div className="p-sechead"><h2 className="p-label">Every battle</h2><span className="ct">{list.length} battles</span></div>
-      <div className="p-tl">
-        {groups.map(g => (
-          <div key={g.key}>
-            <div className="p-yr">
-              <span className="ylab" style={g.color ? { color: g.color } : undefined}>{g.label}</span>
-              <span className="yline" />
-              {g.sub && <span className="p-mono" style={{ fontSize: 11, color: g.color ?? 'var(--muted)' }}>{g.sub}</span>}
+      <div className="fi-listscroll" style={locked ? { flex: 1, minHeight: 0, overflowY: 'auto', WebkitOverflowScrolling: 'touch' } : undefined}>
+        <div className="p-sechead"><h2 className="p-label">Every battle</h2><span className="ct">{list.length} battles</span></div>
+        <div className="p-tl">
+          {groups.map(g => (
+            <div key={g.key}>
+              <div className="p-yr">
+                <span className="ylab" style={g.color ? { color: g.color } : undefined}>{g.label}</span>
+                <span className="yline" />
+                {g.sub && <span className="p-mono" style={{ fontSize: 11, color: g.color ?? 'var(--muted)' }}>{g.sub}</span>}
+              </div>
+              {g.items.map(renderRow)}
             </div>
-            {g.items.map(renderRow)}
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
       <style>{`
         @keyframes fi-mapswap { from { opacity: .25 } to { opacity: 1 } }
@@ -282,6 +286,15 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
   const pick = (k: string) => { setTab(k); setPicked(true); if (k !== 'battles') setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
   const toggleLock = () => { setPicked(true); setTab('battles'); setLocked(v => !v); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
 
+  // When locked, freeze the page so only the battle list scrolls (the root becomes a
+  // fixed full-viewport flex column below; this kills the document scroll behind it).
+  useEffect(() => {
+    if (!locked) return
+    const html = document.documentElement, prev = html.style.overflow
+    html.style.overflow = 'hidden'
+    return () => { html.style.overflow = prev }
+  }, [locked])
+
   // Tabs: the four core sections. Commanders only when the war has a cast.
   const tabs = [
     { k: 'story', label: 'Story' },
@@ -307,7 +320,7 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
   }, [])
 
   return (
-    <div className={'war-skin' + (locked ? ' p-locked' : '')}>
+    <div className={'war-skin' + (locked ? ' p-locked' : '')} style={locked ? { position: 'fixed', inset: 0, display: 'flex', flexDirection: 'column' } : undefined}>
       <WarHeader backHref="/war" title={cfg.name} />
 
       <WarBreadcrumb crumbs={warCrumbs(cfg, picked && tabLane[tab] ? { lane: tabLane[tab] } : undefined)} accent={cfg.accent} bare />
@@ -347,11 +360,11 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
       </div>
 
       {tab === 'story' && <StoryTab cfg={cfg} />}
-      {tab === 'battles' && <BattlesTab cfg={cfg} />}
+      {tab === 'battles' && <BattlesTab cfg={cfg} locked={locked} />}
       {tab === 'cast' && <CastTab cfg={cfg} />}
       {tab === 'offfield' && <OffFieldTab cfg={cfg} />}
 
-      {home.footer && (
+      {home.footer && !locked && (
         <div className="bp-foot">
           <a href="/war">
             <span>Part of <b className="p-serif">the American wars</b><span className="sub">Every war the country has fought</span></span>
