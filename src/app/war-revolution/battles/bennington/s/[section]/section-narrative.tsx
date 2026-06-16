@@ -23,27 +23,7 @@ const BENNINGTON_NARR: Record<string, Narr> = {
     eyebrow: 'Bennington · The expedition',
     title: 'Marching for horses',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · August 16, 1777',
-        caption: 'Burgoyne\'s army sat on the Hudson at the end of a 150-mile wilderness supply line back to Canada. Baum\'s column struck about 25 miles east toward the depot at Bennington and was destroyed at Walloomsac, still in New York, about 10 miles short. Two months later, almost to the day, Burgoyne surrendered at Saratoga.',
-        frame: { lonMin: -73.80, lonMax: -73.05, latMin: 42.80, latMax: 43.35 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -73.76, labelLat: 43.325, labelSize: 12 },
-          { name: 'Vermont', label: 'VERMONT', labelLon: -73.16, labelLat: 43.32, labelSize: 11 },
-        ],
-        labels: [
-          { text: 'HUDSON RIVER', lon: -73.785, lat: 42.90, kind: 'water', size: 11, anchor: 'start' },
-        ],
-        dots: [
-          { name: 'Fort Edward', date: 'Burgoyne\'s forward depot', lat: 43.2683, lon: -73.5847, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Fort Miller', date: 'Baum\'s jump-off, east bank', lat: 43.13, lon: -73.59, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Cambridge', date: 'Baum\'s route east', lat: 43.0283, lon: -73.3817, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Walloomsac', date: 'the battlefield · Aug 16, 1777', lat: 42.9386, lon: -73.3044, heavy: true, anchor: 'end', dateBelow: true },
-          { name: 'Bennington depot', date: 'the objective, Vt.', lat: 42.8892, lon: -73.2156, heavy: true, anchor: 'end', dy: 8, dateBelow: true },
-          { name: 'Saratoga', date: 'Burgoyne\'s surrender, Oct 17', lat: 43.1008, lon: -73.5814, color: '#8a8175', anchor: 'start', dy: 14, dateBelow: true },
-          { name: 'Bemis Heights', date: 'the Saratoga battlefield', lat: 42.9989, lon: -73.6375, color: '#8a8175', anchor: 'start', dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-bennington-tac1.jpg', cap: 'Burgoyne\'s army sat on the Hudson at the end of a 150-mile wilderness supply line back to Canada. Baum\'s column struck about 25 miles east toward the depot at Bennington and was destroyed at Walloomsac, still in New York, about 10 miles short. Two months later, almost to the day, Burgoyne surrendered at Saratoga.', credit: 'Stuff Happened map' },
       { p: 'In the high summer of 1777 the British war plan was an army moving south. Lieutenant General John Burgoyne (British) had brought an invasion force of about 7,500 to 8,000 men down from Canada, taken Fort Ticonderoga (the fortress on the route south from Canada) on the way, and pushed on toward Albany on the Hudson River in New York. On a map it looked unstoppable. In a ledger it was in trouble, because an army has to eat, and Burgoyne\'s was now sitting at the end of a supply line that ran roughly 150 miles back through wilderness to Canada. His deputy quartermaster (his supply officer), Captain John Money, ran the arithmetic: under the best conditions the carts and boats on hand could bring only about four days\' worth of provisions forward to Fort Edward (the army\'s forward depot on the Hudson) at a time, and as little as one day\'s worth at worst. Just shifting the army\'s depots 13 miles down the river toward Saratoga was estimated at some fifteen days of hauling. The army was short of carts, short of draft animals, short of boats. It could fight anything in front of it and was slowly being defeated by its own wagon train.' },
       { p: 'Burgoyne would say it himself, in a letter to the government in London written four days after the raid that came of all this had already failed. What he needed was transport and food on the hoof, a way to stop living off distant supply depots (his "magazines," in the language of the day).' },
       { p: 'The possession of the cattle and carriages would certainly have enabled the army to leave their distant magazines, and to have acted with energy and dispatch.', q: true },
@@ -62,25 +42,7 @@ const BENNINGTON_NARR: Record<string, Narr> = {
     eyebrow: 'Bennington · The two fights',
     title: '"One continued clap of thunder"',
     blocks: [
-      { locator: {
-        eyebrow: 'The field · the two fights, August 16, 1777',
-        caption: 'Baum dug in on a steep hill above the Walloomsac bridge, his strongpoints scattered and too far apart to support each other. Stark\'s columns circled through the woods and took the position from every side at once; the second fight ran along the road to the west at dusk, when Breymann\'s relief column met Warner\'s arriving Green Mountain Boys. The depot both columns were marching for sat 8 to 10 road miles southeast, across the Vermont line.',
-        frame: { lonMin: -73.45, lonMax: -73.13, latMin: 42.84, latMax: 43.00 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -73.435, labelLat: 42.991, labelSize: 11 },
-          { name: 'Vermont', label: 'VERMONT', labelLon: -73.165, labelLat: 42.991, labelSize: 11 },
-        ],
-        labels: [
-          { text: 'WALLOOMSAC RIVER', lon: -73.41, lat: 42.905, kind: 'water', size: 10, anchor: 'start' },
-        ],
-        dots: [
-          { name: 'Baum\'s hilltop', date: 'first fight · ~3:00–5:00 p.m.', lat: 42.9386, lon: -73.3044, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Walloomsac bridge', date: 'the Loyalist breastwork', lat: 42.9242, lon: -73.3236, color: '#8a8175', anchor: 'end', dy: 10, dateBelow: true },
-          { name: 'Sancoick mill', date: 'first contact, Aug 14', lat: 42.95, lon: -73.35, color: '#8a8175', anchor: 'end', dy: -10, dateBelow: true },
-          { name: 'Second fight', date: '~4:30 p.m. to dusk', lat: 42.945, lon: -73.34, color: '#8a8175', anchor: 'end', dy: 16, dateBelow: true },
-          { name: 'Bennington depot', date: 'the objective', lat: 42.8892, lon: -73.2156, heavy: true, anchor: 'end', dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-bennington-tac2.jpg', cap: 'Baum dug in on a steep hill above the Walloomsac bridge, his strongpoints scattered and too far apart to support each other. Stark\'s columns circled through the woods and took the position from every side at once; the second fight ran along the road to the west at dusk, when Breymann\'s relief column met Warner\'s arriving Green Mountain Boys. The depot both columns were marching for sat 8 to 10 road miles southeast, across the Vermont line.', credit: 'Stuff Happened map' },
       { p: 'On August 15, 1777, it rained all day on two armies that could not see each other. On a steep hill above a bridge over the Walloomsac River, at the hamlet of Walloomsac, New York, sat Lieutenant Colonel Friedrich Baum (German, in British service) and the roughly 800 men that Lieutenant General John Burgoyne, the British invasion commander on the Hudson, had sent to seize the American supply depot at Bennington, 10 miles to the southeast. Baum knew by now that the depot was not weakly held: covering it was Brigadier General John Stark (American), whose New Hampshire militia (part-time citizen soldiers) and arriving allies would number between 2,000 and 2,500 across the day. The rain kept everyone\'s gunpowder wet and everyone\'s plans on hold.' },
       { p: 'Baum spent the day fortifying, and the shape he built was the shape of his defeat. The best troops he had, his dismounted Brunswick dragoons (German heavy cavalrymen serving on foot, the men this whole expedition was supposed to find horses for) and the British marksmen, dug a redoubt (an enclosed earthwork) with one cannon on the hilltop, about 300 feet above the bridge. Across the river, his Loyalist volunteers (Americans fighting for the king) built a breastwork (a chest-high wall of earth and logs to shoot over) covering the bridge itself. His Canadians, Native allies, and German detachments held a scatter of smaller posts between. Each strongpoint was too far from the next to help it. The same rain was meanwhile doing the Americans a second favor to the west, where the relief column Baum had asked for, roughly 550 to 650 German grenadiers (an army\'s biggest and heaviest assault infantry) and light infantry with two heavier cannon under Lieutenant Colonel Heinrich von Breymann, was crawling over roads turned to soup: a march that became notorious, something like 25 miles in over a day and a half, the ammunition carts bogging and overturning in the mud. The rain cost Baum a day he could not afford and handed it to Stark, whose strength was still arriving; Massachusetts militia came in during the night of the storm.' },
       { p: 'All through the wet lull, locals walked into Baum\'s lines presenting themselves as the promised Loyalist countryside, and were taken at face value. Many of them were Stark\'s men, looking the position over from the inside. The story New England told ever after adds a lovely detail: that the militiamen wore slips of white paper in their hats, the field sign the real Loyalists used, and so passed as friends, some right up next to the redoubts. That detail is tradition rather than documentation; Baum left no record of any of it, because in two days he would be dead.' },
@@ -101,25 +63,7 @@ const BENNINGTON_NARR: Record<string, Narr> = {
     eyebrow: 'Bennington · What it meant',
     title: 'A gathering storm',
     blocks: [
-      { locator: {
-        eyebrow: 'The campaign · August–October 1777',
-        caption: 'Burgoyne\'s army sat on the Hudson at the end of a 150-mile wilderness supply line back to Canada. Baum\'s column struck about 25 miles east toward the depot at Bennington and was destroyed at Walloomsac, still in New York, about 10 miles short. Two months later, almost to the day, Burgoyne surrendered at Saratoga.',
-        frame: { lonMin: -73.80, lonMax: -73.05, latMin: 42.80, latMax: 43.35 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -73.76, labelLat: 43.325, labelSize: 12 },
-          { name: 'Vermont', label: 'VERMONT', labelLon: -73.16, labelLat: 43.32, labelSize: 11 },
-        ],
-        labels: [
-          { text: 'HUDSON RIVER', lon: -73.785, lat: 42.90, kind: 'water', size: 11, anchor: 'start' },
-        ],
-        dots: [
-          { name: 'Fort Edward', date: 'Burgoyne\'s forward depot', lat: 43.2683, lon: -73.5847, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Walloomsac', date: 'the battlefield · Aug 16, 1777', lat: 42.9386, lon: -73.3044, heavy: true, anchor: 'end', dateBelow: true },
-          { name: 'Bennington depot', date: 'the objective, Vt.', lat: 42.8892, lon: -73.2156, color: '#8a8175', anchor: 'end', dy: 8, dateBelow: true },
-          { name: 'Saratoga', date: 'Burgoyne\'s surrender, Oct 17', lat: 43.1008, lon: -73.5814, heavy: true, anchor: 'start', dy: 14, dateBelow: true },
-          { name: 'Bemis Heights', date: 'the Saratoga battlefield', lat: 42.9989, lon: -73.6375, heavy: true, anchor: 'start', dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-bennington-tac3.jpg', cap: 'Burgoyne\'s army sat on the Hudson at the end of a 150-mile wilderness supply line back to Canada. Baum\'s column struck about 25 miles east toward the depot at Bennington and was destroyed at Walloomsac, still in New York, about 10 miles short. Two months later, almost to the day, Burgoyne surrendered at Saratoga.', credit: 'Stuff Happened map' },
       { p: 'Lieutenant General John Burgoyne (British), commanding the invasion army on the Hudson, got nothing he had sent for. The expedition he had dispatched toward the supply depot at Bennington was supposed to come back with horses for his unmounted German cavalry, draft animals and carts for his starving supply line, and cattle and flour for his men. It came back with nothing. Baum\'s column never came back at all, and Breymann\'s came back broken, without its cannon, its wounded, or its baggage. Across the two fights of August 16 at Walloomsac, New York, Burgoyne lost about 900 to 1,000 men, roughly one in seven of his field army: some 200 to 230 killed and wounded left on the field, and about 700 taken prisoner, along with all four cannon. The dragoons (the German cavalry regiment that had marched from Canada on foot) still had no horses; most of the regiment\'s survivors were now prisoners, and it effectively ceased to exist as a fighting unit. The army still had to drag its food forward by hand. The "energy and dispatch" Burgoyne had said the captured cattle and carts would buy him never arrived, because the cattle and carts never did.' },
       { p: 'The defeat also cost him his eyes. Most of the Native warriors allied to the expedition, whose confidence in the campaign broke at Bennington, abandoned Burgoyne in the weeks afterward, and with them went much of his army\'s screen of scouts and its reach into the countryside for food. His letter to London four days after the battle is a study in a general discovering what country he is actually in. "Wherever the King\'s forces point," he wrote, "militia, to the amount of three or four thousand, assemble in twenty-four hours; they bring with them their subsistence, etc." And of the region that had just destroyed a seventh of his army, the Hampshire Grants (the frontier territory that is now Vermont), he wrote the campaign\'s epitaph in advance.' },
       { p: 'The Hampshire Grants in particular, a country unpeopled and almost unknown in the last war, now abounds in the most active and most rebellious race of the continent, and hangs like a gathering storm upon my left.', q: true },

@@ -25,26 +25,7 @@ const TICONDEROGA_NARR: Record<string, Narr> = {
     eyebrow: 'Ticonderoga 1777 · The third time',
     title: 'The Gibraltar of the North',
     blocks: [
-      { locator: {
-        eyebrow: 'The ground · the fort and the heights',
-        caption: 'The American position was really three positions: the old fort, the 1758 French lines (earthworks left from the French war nineteen years earlier) west of it, and the star fort on Mount Independence across the quarter-mile narrows, linked by a floating bridge. Mount Defiance, 850 feet of rock southwest of the fort, overlooked all of it from cannon range, and nobody had fortified it.',
-        frame: { lonMin: -73.46, lonMax: -73.34, latMin: 43.80, latMax: 43.875 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -73.455, labelLat: 43.872, labelSize: 11 },
-          { name: 'Vermont', label: 'VERMONT', labelLon: -73.345, labelLat: 43.872, labelSize: 11 },
-        ],
-        lakes: [
-          { name: 'Lake Champlain', label: 'LAKE CHAMPLAIN', labelLon: -73.378, labelLat: 43.806, labelSize: 10, labelAnchor: 'middle' },
-        ],
-        dots: [
-          { name: 'Fort Ticonderoga', date: 'the old fort + French lines', lat: 43.841, lon: -73.387, heavy: true, anchor: 'end', dateBelow: true },
-          { name: 'Mount Defiance', date: '850 ft, undefended', lat: 43.830, lon: -73.405, heavy: true, anchor: 'end', dy: 10, dateBelow: true },
-          { name: 'Mount Independence', date: 'the Vermont-shore works', lat: 43.821, lon: -73.384, anchor: 'start', dateBelow: true },
-          { name: 'Floating bridge + boom', lat: 43.831, lon: -73.3855, color: '#8a8175', anchor: 'start', dy: -4 },
-          { name: 'Mount Hope', date: 'outpost on the portage', lat: 43.853, lon: -73.428, anchor: 'start', dy: -8, dateBelow: true },
-          { name: 'La Chute falls', date: 'Ticonderoga village', lat: 43.848, lon: -73.424, color: '#8a8175', anchor: 'start', dy: 14, dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-ticonderoga-tac1.jpg', cap: 'The American position was really three positions: the old fort, the 1758 French lines (earthworks left from the French war nineteen years earlier) west of it, and the star fort on Mount Independence across the quarter-mile narrows, linked by a floating bridge. Mount Defiance, 850 feet of rock southwest of the fort, overlooked all of it from cannon range, and nobody had fortified it.', credit: 'Stuff Happened map' },
       { p: 'In the summer of 1777, Fort Ticonderoga was the most famous place in America. People called it the Gibraltar of the North, after the British rock fortress in the Mediterranean that was supposed to be impossible to take, and they meant it. The fort sat on a neck of land in upstate New York where two long lakes nearly touch: Lake George to the southwest, Lake Champlain running north toward Canada, and between them the La Chute River, a short, violent stream that drops 220 feet in about three and a half miles (the portage, the carrying-place where boats had to be dragged overland). Those lakes were the water highway between Canada and the American colonies, the natural invasion route in either direction, and the fort sat on the narrows like a hand on a gate. Whoever held Ticonderoga held the road.' },
       { fig: '/war-img/rev-ticonderoga1777-faden.jpg', cap: 'William Faden\'s 1780 map of the country the British general John Burgoyne\'s army marched through in 1777: the Lake Champlain corridor running south toward Albany, with Ticonderoga at the narrows where the lakes meet. The whole invasion runs down this page, top to bottom.', credit: 'William Faden · engraved map · 1780 · Library of Congress / Wikimedia Commons · public domain' },
       { p: 'By 1777 the place had already been famous twice. In 1758, when it was a French fort called Carillon, the largest army yet assembled in North America came up Lake George to take it and wrecked itself against a wall of logs, one of the bloodiest British defeats of the French and Indian War. One man in that doomed army had seen how to avoid all of it. Abercromby, the British commander, had an engineer named Matthew Clerk who pointed at a bare hill overlooking the French lines, a height the British called Rattlesnake Hill, and urged that cannon be hauled up it to fire down into the works. Abercromby ignored the hill, attacked head-on, and lost two thousand men. Remember the hill.' },
@@ -66,27 +47,7 @@ const TICONDEROGA_NARR: Record<string, Narr> = {
     eyebrow: 'Ticonderoga 1777 · The week',
     title: 'The guns that never fired',
     blocks: [
-      { locator: {
-        eyebrow: 'The retreat week · July 5–8, 1777',
-        caption: 'The retreat split in two at the fort: everything that could float went south up the lake to Skenesborough, and the main body marched southeast through Vermont. The British chased both, by water and by road, and caught both rearguards.',
-        frame: { lonMin: -73.78, lonMax: -73.05, latMin: 43.20, latMax: 43.90 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -73.765, labelLat: 43.885, labelSize: 12 },
-          { name: 'Vermont', label: 'VERMONT', labelLon: -73.10, labelLat: 43.885, labelSize: 11 },
-        ],
-        lakes: [
-          { name: 'Lake Champlain', label: 'LAKE CHAMPLAIN', labelLon: -73.45, labelLat: 43.875, labelSize: 10, labelAnchor: 'end' },
-          { name: 'Lake George', label: 'LAKE GEORGE', labelLon: -73.72, labelLat: 43.50, labelSize: 10, labelAnchor: 'end' },
-        ],
-        dots: [
-          { name: 'Fort Ticonderoga', date: 'evacuated, night of July 5–6', lat: 43.841, lon: -73.387, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Hubbardton', date: 'the rearguard battle · July 7', lat: 43.695, lon: -73.139, heavy: true, anchor: 'end', dateBelow: true },
-          { name: 'Castleton', date: 'St. Clair\'s July 6 halt', lat: 43.610, lon: -73.178, color: '#8a8175', anchor: 'start', dy: 8, dateBelow: true },
-          { name: 'Skenesborough', date: 'flotilla destroyed · July 6', lat: 43.556, lon: -73.404, anchor: 'end', dateBelow: true },
-          { name: 'Fort Anne', date: 'the July 8 fight', lat: 43.426, lon: -73.480, anchor: 'start', dateBelow: true },
-          { name: 'Fort Edward', date: 'the army reassembles', lat: 43.270, lon: -73.585, anchor: 'end', dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-ticonderoga-tac2.jpg', cap: 'The retreat split in two at the fort: everything that could float went south up the lake to Skenesborough, and the main body marched southeast through Vermont. The British chased both, by water and by road, and caught both rearguards.', credit: 'Stuff Happened map' },
       { p: 'By June 30, 1777, the British invasion army under Lieutenant General John Burgoyne had staged at Crown Point, about 10 miles north of Ticonderoga, and on July 2 it came on in two wings: Brigadier General Simon Fraser\'s Advanced Corps of grenadiers (the army\'s big assault infantry), light infantry, and marksmen leading the British division down the west shore toward the old fort and the 1758 French lines (earthworks left from the French war nineteen years earlier), and Baron Riedesel\'s Germans down the east shore toward Mount Independence and the road behind it, the garrison\'s only escape route by land. Too short of men to hold the outer ground, the American commander, Major General Arthur St. Clair, pulled in the nearly cut-off garrison of Mount Hope, the outpost covering the portage road and the water supply, on the morning of July 2; the withdrawing troops burned it behind them, and Fraser\'s men occupied the height. That afternoon a picket line (an outlying guard) banged away at British and Native skirmishers on the west lines. Those few hours of musketry were nearly the entire battle of Fort Ticonderoga.' },
       { p: 'The real action was an engineering survey. On July 3 and 4, Lieutenant William Twiss, one of Burgoyne\'s engineers, climbed Sugar Loaf, the Americans\' name for the 850-foot hill they had left bare (the British were already calling it Mount Defiance), and reported what the ignored warnings of 1758 and 1776 had said: the summit commanded both forts, and a road could be cut up the back slope. Fraser and Major General William Phillips, Burgoyne\'s artillery commander, put about 400 men and most of the army\'s draft cattle on the job. Phillips is supposed to have said (the attribution is traditional; no document records it), "Where a goat can go, a man can go; and where a man can go, he can drag a gun." By midday on July 5 the first two guns, a pair of 12-pounders (cannon throwing twelve-pound iron balls), stood on the summit. The work was meant to stay hidden until the battery could fire.' },
       { p: 'It did not stay hidden. The night of July 4 the Americans had seen campfires on the summit, lit by Native warriors with the road-cutting force; on the morning of the 5th there was movement and a flash of scarlet on the bare rock. Every man who looked up understood the geometry at once. Cannon on that summit could drop shot into every corner of the fort and Mount Independence both, while the forts\' own guns could do almost nothing about a battery 850 feet over their heads. Around noon St. Clair called his four brigade commanders into council, and the vote was unanimous.' },
@@ -110,37 +71,7 @@ const TICONDEROGA_NARR: Record<string, Narr> = {
     eyebrow: 'Ticonderoga 1777 · What it meant',
     title: '"Shoot a general"',
     blocks: [
-      { locator: {
-        eyebrow: 'The campaign · Canada to Albany, 1777',
-        caption: 'Burgoyne\'s plan ran straight down this map: from Canada south along Lake Champlain, through Ticonderoga, to Albany. After Skenesborough he pushed his army overland toward Fort Edward, 23 miles of creek and forest that American axemen turned into a three-week obstacle course, while his supply line stretched all the way back to Canada behind him.',
-        frame: { lonMin: -74.4, lonMax: -72.7, latMin: 42.5, latMax: 45.6 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -74.36, labelLat: 44.55, labelSize: 12 },
-          { name: 'Vermont', label: 'VERMONT', labelLon: -72.78, labelLat: 44.25, labelSize: 11 },
-          { name: 'Massachusetts', tone: 'faint' },
-        ],
-        lakes: [
-          { name: 'Lake Champlain', label: 'LAKE CHAMPLAIN', labelLon: -73.25, labelLat: 44.55, labelSize: 10, labelAnchor: 'start' },
-          { name: 'Lake George', label: 'LAKE GEORGE', labelLon: -73.78, labelLat: 43.62, labelSize: 9, labelAnchor: 'end' },
-        ],
-        labels: [
-          { text: 'HUDSON RIVER', lon: -73.82, lat: 42.82, kind: 'water', size: 10, anchor: 'end' },
-        ],
-        dots: [
-          { name: 'Montreal', lat: 45.502, lon: -73.567, color: '#8a8175', anchor: 'end', dateBelow: true },
-          { name: 'Saint-Jean', date: 'the campaign starts', lat: 45.307, lon: -73.262, anchor: 'start', dateBelow: true },
-          { name: 'Crown Point', date: 'British staging · June 30', lat: 44.03, lon: -73.43, anchor: 'end', dateBelow: true },
-          { name: 'Fort Ticonderoga', date: 'fell July 6, 1777', lat: 43.841, lon: -73.387, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Hubbardton', date: 'July 7', lat: 43.695, lon: -73.139, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Castleton', lat: 43.610, lon: -73.178, color: '#8a8175', anchor: 'start', dy: 10, dateBelow: true },
-          { name: 'Skenesborough', date: 'flotilla destroyed · July 6', lat: 43.556, lon: -73.404, anchor: 'end', dateBelow: true },
-          { name: 'Fort Anne', date: 'July 8', lat: 43.426, lon: -73.480, anchor: 'start', dy: 8, dateBelow: true },
-          { name: 'Fort George', date: 'the guns\' water route', lat: 43.419, lon: -73.709, color: '#8a8175', anchor: 'end', dateBelow: true },
-          { name: 'Fort Edward', date: 'Schuyler\'s assembly point', lat: 43.270, lon: -73.585, anchor: 'end', dy: 10, dateBelow: true },
-          { name: 'Saratoga', date: 'the campaign ends · Oct 17', lat: 43.012, lon: -73.647, heavy: true, anchor: 'end', dateBelow: true },
-          { name: 'Albany', date: 'the objective, never reached', lat: 42.653, lon: -73.756, anchor: 'end', dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-ticonderoga-tac3.jpg', cap: 'Burgoyne\'s plan ran straight down this map: from Canada south along Lake Champlain, through Ticonderoga, to Albany. After Skenesborough he pushed his army overland toward Fort Edward, 23 miles of creek and forest that American axemen turned into a three-week obstacle course, while his supply line stretched all the way back to Canada behind him.', credit: 'Stuff Happened map' },
       { p: 'The news that the Gibraltar of the North had been abandoned without a battle landed on the two capitals like two different thunderclaps. In Philadelphia, Congress was stunned. Nobody outside the northern army understood the arithmetic of the place (the hollow garrison, the sprawling works, the bare hill), so the explanations people reached for were darker: incompetence, cowardice, treason. Rumor said St. Clair (the American general who had ordered the retreat) and Philip Schuyler (his superior, commanding the Northern Department from Albany) had been bribed, and one story, absurd even by the standards of wartime rumor, had the British paying them in silver balls fired into the fort for the generals to collect. Washington, the American commander-in-chief, who had genuinely not seen it coming, wrote to Schuyler that the evacuation was "an event of chagrin and surprise not apprehended, nor within the compass of my reasoning." John Adams, writing to his wife Abigail that August, put the country\'s fury into one sentence, and since the line is usually misquoted, here it is exactly as he wrote it, period spelling and all.' },
       { p: 'I think We shall never defend a Post, untill We shoot a General.', q: true },
       { p: 'Nobody shot a general, but heads rolled upward. Congress recalled both St. Clair and Schuyler from the Northern Department, and Schuyler\'s replacement, Horatio Gates, took over in August, a change of command that would shape the politics of everything that happened at Saratoga. Both recalled generals demanded courts-martial (military trials) to clear their names, and both were acquitted: St. Clair, tried in 1778 on every charge his enemies could draft, was acquitted "with the highest honor," and Schuyler was cleared of neglect of duty the same autumn. Congress confirmed both verdicts. It did not matter. Neither man ever led a major field command again. St. Clair, in his report to Congress that July, had stated his own defense plainly: "I have made good a retreat from under the nose of an army at least four times their numbers." It took years, and a lost British army, for that sentence to read as the achievement it was.' },

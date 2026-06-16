@@ -19,30 +19,7 @@ const BRANDYWINE_NARR: Record<string, Narr> = {
     eyebrow: 'Brandywine · The sea move and the creek',
     title: 'A wall with a handful of doors',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · September 11, 1777',
-        caption: 'The Brandywine was a wall with a handful of doors: an army crossed at fords (the shallow places where men could wade), and Washington guarded every one he knew about, from Pyle\'s Ford below Chadds Ford up to Buffington\'s at the forks. Above the forks, Trimble\'s and Jefferis\'s fords stood open, and Cornwallis\'s column came through them onto Osborne\'s Hill, squarely behind the American right.',
-        frame: { lonMin: -75.74, lonMax: -75.52, latMin: 39.82, latMax: 39.96 },
-        states: [
-          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -75.71, labelLat: 39.951, labelSize: 11 },
-          { name: 'Delaware' },
-        ],
-        labels: [
-          { text: 'BRANDYWINE CREEK', lon: -75.69, lat: 39.852, kind: 'water', size: 11 },
-          { text: 'WEST BRANCH', lon: -75.728, lat: 39.937, kind: 'water', size: 10, anchor: 'start' },
-          { text: 'EAST BRANCH', lon: -75.628, lat: 39.954, kind: 'water', size: 10 },
-        ],
-        dots: [
-          { name: 'Chadds Ford', date: 'the American center; Washington\'s HQ', lat: 39.872, lon: -75.589, heavy: true, anchor: 'end', dateBelow: true },
-          { name: 'Birmingham Meetinghouse', date: 'the afternoon fight', lat: 39.906, lon: -75.595, heavy: true, anchor: 'end', dy: -6, dateBelow: true },
-          { name: 'Kennett Square', date: 'Howe\'s HQ; both columns\' start', lat: 39.844, lon: -75.711, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Trimble\'s Ford', date: 'first crossing, unguarded', lat: 39.923, lon: -75.687, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Jefferis\'s Ford', date: 'the unwatched defile', lat: 39.939, lon: -75.636, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'The forks', date: 'East/West Branch confluence', lat: 39.89, lon: -75.62, color: '#8a8175', anchor: 'end', dateBelow: true },
-          { name: 'Osborne\'s Hill', date: 'Cornwallis deploys', lat: 39.925, lon: -75.595, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Dilworth', date: 'the evening stand', lat: 39.899, lon: -75.567, color: '#8a8175', anchor: 'end', dy: 8, dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-brandywine-tac1.jpg', cap: 'The Brandywine was a wall with a handful of doors: an army crossed at fords (the shallow places where men could wade), and Washington guarded every one he knew about, from Pyle\'s Ford below Chadds Ford up to Buffington\'s at the forks. Above the forks, Trimble\'s and Jefferis\'s fords stood open, and Cornwallis\'s column came through them onto Osborne\'s Hill, squarely behind the American right.', credit: 'Stuff Happened map' },
       { p: 'In the summer of 1777 Britain had two armies in America and two plans that had remarkably little to do with each other. One army, under General John Burgoyne, was coming down from Canada toward Albany, New York. The other, the main army under General Sir William Howe (British), the commander in chief in America, was going after Philadelphia, the rebel capital and the largest city in America. Howe hoped that reaching for the capital would force George Washington (American), commander of the Continental Army (the rebels\' regular army, as opposed to part-time militia), into the decisive battle the British wanted. Howe had told his superiors in London he intended Pennsylvania; London approved, while hoping he could somehow still cooperate with Burgoyne; no order ever required him to go north. So when Howe went south, Burgoyne\'s army was on its own. Who deserves the blame for that, Howe, London\'s sloppy coordination, or Burgoyne\'s own overconfidence, is an argument historians have been having for two and a half centuries. The fact pattern is not argued: Howe sailed away, the northern army went unsupported, and that fall it surrendered at Saratoga.' },
       { pill: '/war-revolution/two-armies', plabel: '1777: two British armies, two separate wars' },
       { p: 'And he did sail, which was the strange part. Rather than march overland across New Jersey (where Washington had spent the spring sparring with him without ever offering battle), Howe put his army to sea. On July 23, 1777, a fleet of more than 260 ships carrying some 16,000 to 17,000 troops stood out from Sandy Hook, New York. The obvious route ran up the Delaware River, the water highway straight to Philadelphia, and the fleet duly reached the mouth of the Delaware around July 30. There it stopped. Admiral Richard Howe, the general\'s brother, and his captains judged the river approach too risky: the Americans had forts and underwater obstructions called chevaux-de-frise (rows of sunken, iron-tipped spikes designed to tear out a ship\'s hull) below Philadelphia, and no safe landing place within reach. So the fleet turned around and sailed the long way, down the coast and up Chesapeake Bay (the next great bay to the south) instead.' },
@@ -84,30 +61,7 @@ const BRANDYWINE_NARR: Record<string, Narr> = {
     eyebrow: 'Brandywine · What it meant',
     title: 'Masters of the field',
     blocks: [
-      { locator: {
-        eyebrow: 'The campaign · August–September 1777',
-        caption: 'A six-week sea move put Howe\'s army ashore at Head of Elk on August 25, about 45 to 50 miles from Philadelphia, barely closer than it had been at New York. The road to the capital ran through the Brandywine. After the battle the beaten army rallied at Chester, Wayne\'s division was bayoneted in its camp near Paoli on the night of September 20, and Cornwallis marched into Philadelphia unopposed on September 26.',
-        frame: { lonMin: -76.00, lonMax: -75.00, latMin: 39.50, latMax: 40.10 },
-        states: [
-          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -75.86, labelLat: 40.05, labelSize: 12 },
-          { name: 'Maryland', label: 'MARYLAND', labelLon: -75.9, labelLat: 39.665, labelSize: 10 },
-          { name: 'Delaware', label: 'DELAWARE', labelLon: -75.50, labelLat: 39.545, labelSize: 10 },
-          { name: 'New Jersey', label: 'NEW JERSEY', labelLon: -75.22, labelLat: 39.56, labelSize: 10 },
-        ],
-        labels: [
-          { text: 'DELAWARE RIVER', lon: -75.28, lat: 39.77, kind: 'water', size: 11 },
-          { text: 'CHESAPEAKE BAY', lon: -75.97, lat: 39.53, kind: 'water', size: 11, anchor: 'start' },
-        ],
-        dots: [
-          { name: 'Brandywine / Chadds Ford', date: 'Sept 11', lat: 39.872, lon: -75.589, heavy: true, anchor: 'end', dy: -6, dateBelow: true },
-          { name: 'Philadelphia', date: 'falls Sept 26', lat: 39.953, lon: -75.164, heavy: true, anchor: 'end', dateBelow: true },
-          { name: 'Head of Elk, Md.', date: 'the landing, Aug 25', lat: 39.608, lon: -75.830, color: '#8a8175', anchor: 'start', dy: 14, dateBelow: true },
-          { name: 'Cooch\'s Bridge, Del.', date: 'Sept 3 skirmish', lat: 39.640, lon: -75.727, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Kennett Square, Pa.', date: 'Howe\'s HQ, Sept 10', lat: 39.844, lon: -75.711, color: '#8a8175', anchor: 'end', dy: 16, dateBelow: true },
-          { name: 'Chester, Pa.', date: 'the midnight rally point', lat: 39.847, lon: -75.373, color: '#8a8175', anchor: 'start', dateBelow: true },
-          { name: 'Paoli', date: 'the night attack, Sept 20–21', lat: 40.030, lon: -75.518, color: '#8a8175', anchor: 'start', dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-brandywine-tac2.jpg', cap: 'A six-week sea move put Howe\'s army ashore at Head of Elk on August 25, about 45 to 50 miles from Philadelphia, barely closer than it had been at New York. The road to the capital ran through the Brandywine. After the battle the beaten army rallied at Chester, Wayne\'s division was bayoneted in its camp near Paoli on the night of September 20, and Cornwallis marched into Philadelphia unopposed on September 26.', credit: 'Stuff Happened map' },
       { p: 'At midnight on September 11, 1777, from the town of Chester on the Delaware River, where his beaten army was still walking in, George Washington (American), commander of the Continental Army, reported the day to John Hancock, the president of the Continental Congress (the assembly governing the rebelling colonies, sitting up the river in Philadelphia). "I am sorry to inform you," he wrote, "that in this days engagement we have been obliged to leave the enemy masters of the field." The missing apostrophe is his; the candor is too. And then, in the same letter, the sentence that turned out to matter more:' },
       { p: 'Notwithstanding the misfortune of the day, I am happy to find the troops in good spirits; and I hope another time we shall compensate for the losses now sustained.', q: true },
       { p: 'The counting afterward says a great deal about the day, including how hard it is to count. The British and their Hessians (the German troops serving with them) filed an official return of 587 casualties, call it around 580 to 600, and only about 40 of them were Hessians. American observers guessed British losses at 2,000, but they were guessing from a distance. On the American side there is no return at all. None was ever issued, and none survives, so every American figure is an estimate: roughly 200 to 300 killed, 500 to 750 wounded, and 350 to 400 captured, a total somewhere around 1,100 to 1,300. Nathanael Greene, the American division commander whose stand at Dilworth had covered the retreat, put his own army\'s loss at 1,200 to 1,300. Eleven of the army\'s fourteen guns on the field were gone.' },
