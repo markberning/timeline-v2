@@ -271,8 +271,10 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
         </main>
 
         <footer className="phi-foot">
-          <div className="phi-foot-line" />
-          <p>Part of <strong>Philosophy</strong>, the history of Western thought told era by era. More eras on the way.</p>
+          <a href="/philosophy">
+            <span>Part of <b>Philosophy</b><span className="sub">The history of Western thought</span></span>
+            <span className="phi-foot-arr" aria-hidden>→</span>
+          </a>
         </footer>
       </div>
 
@@ -370,9 +372,10 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
         .phi-fig-hero { margin: 4px auto 26px; max-width: 760px; }
         .phi-fig-portrait { max-width: 400px; margin-left: auto; margin-right: auto; }
         .phi-fig-portrait figcaption { text-align: left; }
-        .phi-foot { max-width: 680px; margin: 40px auto 0; }
-        .phi-foot-line { height:1px; background: var(--rule); margin-bottom: 16px; }
-        .phi-foot p { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; color: var(--soft); line-height: 1.6; }
+        .phi-foot { max-width: 680px; margin: 40px auto 0; padding: 18px 16px 24px; border-top: 1px solid var(--rule); }
+        .phi-foot a { display: flex; align-items: center; justify-content: space-between; gap: 14px; font: 600 17.5px/1.25 Lora, Georgia, serif; color: var(--ink); text-decoration: none; }
+        .phi-foot a .sub { display: block; font: 600 12px/1 ui-sans-serif, system-ui, sans-serif; letter-spacing: .1em; text-transform: uppercase; color: var(--soft); margin-top: 6px; }
+        .phi-foot-arr { flex: 0 0 auto; color: var(--soft); }
         @media (max-width: 520px) { .phi-title { font-size: 31px; } .phi-p { font-size: 16px; }
           .phi-ch-title { font-size: 22px; } .phi-break { padding: 18px 16px 2px; } .phi-fig-portrait { max-width: 78%; } }
       `}</style>

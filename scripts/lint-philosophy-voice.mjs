@@ -53,6 +53,21 @@ const RULES = [
   [/\bthunderclap\b/i, 'hyperbole: "thunderclap"'],
   [/\btook the world by storm\b/i, 'hyperbole: "took the world by storm"'],
   [/\bswallowed the (future|world)\b/i, 'hyperbole: "swallowed the future"'],
+  // presuming the reader already knows
+  [/\bever(yone|ybody) knows\b/i, 'presuming knowledge: "everyone knows"'],
+  // presuming/managing the reader's judgment of the subject
+  [/\breason to think less of\b/i, 'presuming judgment: "no reason to think less of"'],
+  // editorializing aesthetic verdicts
+  [/\bcharming\b/i, 'editorializing: "charming"'],
+  // figurative/cute turns that should be said plainly
+  [/\btripping over\b/i, 'cute figure: "tripping over"'],
+  [/\bwas busy\b/i, 'personification: "was busy"'],
+  [/\bcartoon\b/i, 'cute figure: "cartoon"'],
+  [/\bcloser to the ground\b/i, 'figurative: "closer to the ground"'],
+  [/\bridden on\b/i, 'figurative: "ridden on"'],
+  [/\bcomes wrapped in\b|wrapped in a slogan/i, 'figurative: "wrapped in (a slogan)"'],
+  [/\bin the neighbou?rhood of\b/i, 'odd register: "in the neighborhood of"'],
+  [/\bturns on\b/i, 'overused: "turns on"'],
   // odd register
   [/\bcash(ed)? (it )?out\b/i, 'odd register: "cash out"'],
   // self-reference to the artifact
