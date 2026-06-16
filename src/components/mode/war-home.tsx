@@ -181,9 +181,28 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
         <div className="fi-mapwrap">
           <div key={viewId} style={{ animation: 'fi-mapswap .28s ease' }}>
             {seaPanel ? (
+              // Schematic locator for an at-sea fight outside the dotted-map engine's
+              // US/Canada geometry (Bonhomme Richard, off England). A hand-drawn coast +
+              // headland + offshore dot — stylized, not geo-exact, but it reads as a map
+              // instead of a blank card. Top-left is left clear for the fi-mapcap overlay.
               <div className="fi-seapanel">
-                <span className="sp-eye">{seaPanel.title}</span>
-                <span className="sp-sub">{seaPanel.sub}</span>
+                <svg viewBox="0 0 680 420" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+                  {[70, 160, 250, 340].map(y => (
+                    <line key={y} x1={330} y1={y} x2={648} y2={y} stroke="color-mix(in srgb, #0ea5e9 28%, transparent)" strokeWidth={1} strokeDasharray="2 8" />
+                  ))}
+                  <path d="M 130,-20 C 160,70 210,140 295,200 C 210,260 160,330 130,440 L -20,440 L -20,-20 Z" fill="color-mix(in srgb, var(--ink) 6%, transparent)" />
+                  <path d="M 130,-20 C 160,70 210,140 295,200 C 210,260 160,330 130,440" fill="none" stroke="color-mix(in srgb, var(--ink) 36%, transparent)" strokeWidth={2} strokeDasharray="1.5 5.5" strokeLinecap="round" />
+                  <text x={92} y={258} fontFamily="var(--sans)" fontSize={17} fontWeight={700} letterSpacing={2} fill="color-mix(in srgb, var(--ink) 52%, transparent)" textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--paper)" strokeWidth={4}>ENGLAND</text>
+                  <text x={540} y={104} fontFamily="var(--sans)" fontSize={13.5} fontWeight={600} letterSpacing={1.4} fill="#2f93c4" textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--paper)" strokeWidth={4}>NORTH SEA</text>
+                  <line x1={297} y1={201} x2={462} y2={206} stroke="color-mix(in srgb, #e23bd6 55%, transparent)" strokeWidth={1.4} />
+                  <text x={300} y={236} fontFamily="var(--serif)" fontSize={13} fontStyle="italic" fill="var(--muted)" textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--paper)" strokeWidth={3.6}>Flamborough Head</text>
+                  <circle cx={470} cy={206} r={9} fill="none" stroke="#e23bd6" strokeWidth={2.5}>
+                    <animate attributeName="r" values="9;22" dur="1.6s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.75;0" dur="1.6s" repeatCount="indefinite" />
+                  </circle>
+                  <circle cx={470} cy={206} r={7.5} fill="#e23bd6" stroke="var(--paper)" strokeWidth={2} />
+                  <text x={340} y={400} fontFamily="var(--serif)" fontSize={12.5} fill="var(--muted)" textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--paper)" strokeWidth={3.4}>{seaPanel.sub}</text>
+                </svg>
               </div>
             ) : (
               <DottedMap accent={map.accent} frame={viewFrame} states={viewStates} labels={viewLabels} lakes={viewLakes} dots={dots} />
@@ -215,9 +234,8 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
         /* aspect/height tracks the dotted maps (~landscape) so swapping to an adjacent
            battle's sea panel doesn't shift the list height (which ping-ponged the
            scroll-linked active battle — Bonhomme Richard ⇄ Vincennes). */
-        .war-skin .fi-seapanel { display:flex; flex-direction:column; gap:6px; align-items:center; justify-content:center; text-align:center; aspect-ratio:1.7/1; min-height:180px; max-height:40vh; padding:22px 18px; border:1px solid var(--line-soft); border-radius:10px; background: color-mix(in srgb, #4a6b86 13%, var(--paper)); }
-        .war-skin .fi-seapanel .sp-eye { font:700 12.5px/1.3 var(--sans); letter-spacing:.03em; color:var(--ink); }
-        .war-skin .fi-seapanel .sp-sub { font:400 12.5px/1.5 var(--serif); color:var(--muted); max-width:330px; }
+        .war-skin .fi-seapanel { position:relative; aspect-ratio:1.62/1; min-height:180px; max-height:40vh; border:1px solid var(--line-soft); border-radius:10px; overflow:hidden; background: color-mix(in srgb, #4a6b86 12%, var(--paper)); }
+        .war-skin .fi-seapanel svg { position:absolute; inset:0; width:100%; height:100%; display:block; }
       `}</style>
     </div>
   )
@@ -308,17 +326,17 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
       )}
 
       <div className="p-subnav below-crumb">
+        {locked && (
+          <button onClick={() => { setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }}
+            style={{ display: 'block', width: '100%', padding: '2px 0 7px', margin: 0, border: 'none', background: 'transparent', color: 'var(--muted)', font: '600 11px/1 var(--sans)', letterSpacing: '.09em', textTransform: 'uppercase', cursor: 'pointer' }}>
+            ⌃ Expand
+          </button>
+        )}
         <div className="p-seg">
           {tabs.map(t => (
             <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>{t.label}</button>
           ))}
         </div>
-        {locked && (
-          <button onClick={() => { setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }}
-            style={{ display: 'block', width: '100%', padding: '7px 0 2px', margin: 0, border: 'none', background: 'transparent', color: 'var(--muted)', font: '600 11px/1 var(--sans)', letterSpacing: '.09em', textTransform: 'uppercase', cursor: 'pointer' }}>
-            ⌄ Show intro
-          </button>
-        )}
       </div>
 
       {tab === 'story' && <StoryTab cfg={cfg} />}

@@ -360,6 +360,12 @@ export default function WarHome() {
 
       {/* sticky two-row tab bar (+ battle filter on the Battles tab) */}
       <div className="p-subnav below-crumb">
+        {locked && (
+          <button onClick={() => { setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }}
+            style={{ display: 'block', width: '100%', padding: '2px 0 7px', margin: 0, border: 'none', background: 'transparent', color: 'var(--muted)', font: '600 11px/1 var(--sans)', letterSpacing: '.09em', textTransform: 'uppercase', cursor: 'pointer' }}>
+            ⌃ Expand
+          </button>
+        )}
         {TAB_ROWS.map((row, ri) => (
           <div className="p-seg" key={ri}>
             {row.map(t => (
@@ -383,12 +389,6 @@ export default function WarHome() {
               </button>
             ))}
           </div>
-        )}
-        {locked && (
-          <button onClick={() => { setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }}
-            style={{ display: 'block', width: '100%', padding: '7px 0 2px', margin: 0, border: 'none', background: 'transparent', color: 'var(--muted)', font: '600 11px/1 var(--sans)', letterSpacing: '.09em', textTransform: 'uppercase', cursor: 'pointer' }}>
-            ⌄ Show intro
-          </button>
         )}
       </div>
 
