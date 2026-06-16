@@ -177,20 +177,14 @@ export function PhiHub({
       <WarBreadcrumb crumbs={crumbs} accent={accent} bare />
 
       <main style={{ maxWidth: 640, margin: '0 auto', width: '100%' }}>
-        {/* landscape hero artifact — a contained banner above the title */}
-        {hero && !hero.portrait && (
-          <div style={{ padding: '14px 16px 0' }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={hero.fig} alt={hero.alt} data-no-zoom style={{ width: '100%', maxHeight: 220, objectFit: 'cover', borderRadius: 10, border: `1px solid ${BORDER}`, display: 'block' }} />
-          </div>
-        )}
         {/* hero */}
         <div style={{ padding: '18px 16px 16px', display: 'flex', gap: 14, alignItems: 'flex-start' }}>
-          {hero && hero.portrait ? (
-            // a thinker's own portrait, framed — the page gets a face
+          {hero && (
+            // the read's own born-verified portrait/artifact, framed and uncropped (natural aspect)
             /* eslint-disable-next-line @next/next/no-img-element */
-            <img src={hero.fig} alt={hero.alt} data-no-zoom style={{ width: 116, flexShrink: 0, borderRadius: 9, border: `1px solid ${BORDER}`, background: CARD, display: 'block' }} />
-          ) : (glyph || iconId) && (
+            <img src={hero.fig} alt={hero.alt} data-no-zoom style={{ width: 132, flexShrink: 0, borderRadius: 9, border: `1px solid ${BORDER}`, background: CARD, display: 'block' }} />
+          )}
+          {!hero && (glyph || iconId) && (
             <div aria-hidden style={{
               flexShrink: 0, width: iconCaption ? 76 : 64, minHeight: 64, borderRadius: 14,
               display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 6,
