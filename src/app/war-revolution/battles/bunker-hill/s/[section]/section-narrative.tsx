@@ -17,28 +17,7 @@ const BUNKER_HILL_NARR: Record<string, Narr> = {
     eyebrow: 'Bunker Hill · The night dig',
     title: 'The wrong hill',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · June 1775',
-        caption: 'The Charlestown peninsula sat across the water from Boston, joined to the mainland only by the narrow Neck. The Americans were ordered to fortify Bunker Hill, the higher hill near the Neck, and dug in on Breed’s Hill instead, lower and well forward, within cannon range of Boston.',
-        frame: { lonMin: -71.095, lonMax: -71.035, latMin: 42.350, latMax: 42.392 },
-        states: [
-          { name: 'Massachusetts', tone: 'focus' },
-        ],
-        dots: [
-          { name: 'Breed’s Hill (the redoubt)', date: 'June 17, 1775', lat: 42.3764, lon: -71.0608, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Bunker Hill (the ordered objective)', lat: 42.3805, lon: -71.0660, color: '#8a8175', anchor: 'end' },
-          { name: 'Charlestown Neck', lat: 42.3855, lon: -71.0720, color: '#8a8175', anchor: 'end' },
-          { name: 'Charlestown (village)', lat: 42.3725, lon: -71.0620, color: '#8a8175', anchor: 'end' },
-          { name: 'Moulton’s Point', lat: 42.3735, lon: -71.0490, color: '#8a8175', anchor: 'start' },
-          { name: 'Copp’s Hill battery (Boston)', lat: 42.3672, lon: -71.0561, color: '#8a8175', anchor: 'start' },
-          { name: 'Boston', lat: 42.3580, lon: -71.0600, color: '#8a8175', anchor: 'start' },
-        ],
-        labels: [
-          { text: 'MYSTIC RIVER', lon: -71.052, lat: 42.3895, kind: 'water', size: 11 },
-          { text: 'CHARLES RIVER', lon: -71.082, lat: 42.3660, kind: 'water', size: 11 },
-          { text: 'BOSTON HARBOR', lon: -71.044, lat: 42.3560, kind: 'water', size: 11 },
-        ],
-      } },
+      { fig: '/war-img/rev-bunkerhill-tac1.jpg', cap: 'The Charlestown peninsula sat across the water from Boston, joined to the mainland only by the narrow Neck. The Americans were ordered to fortify Bunker Hill, the higher hill near the Neck, and dug in on Breed’s Hill instead, lower and well forward, within cannon range of Boston.', credit: 'Stuff Happened map' },
       { p: 'In June 1775 the strangest army in America had the king’s troops trapped in a town. Two months after the shooting at Lexington and Concord (the April skirmishes outside Boston where the war began), a New England militia army (part-time citizen soldiers, as opposed to Britain’s professional regulars) had gathered around Boston, somewhere between fifteen and twenty thousand farmers and tradesmen with muskets, the number swelling and shrinking week to week. Inside the town sat General Thomas Gage (British) and a garrison of roughly six to six and a half thousand regulars, penned in. It was a siege, eight weeks old, and it was stuck. What would unstick it was geography. Two sets of unoccupied heights commanded Boston and its harbor: Dorchester Heights to the south, and the hills of the Charlestown peninsula just across the water to the north. Whoever fortified them first, and put cannon on them, would dominate the town. Both sides knew it. Neither had moved.' },
       { pill: '/war-revolution/outbreak', plabel: 'How a standoff became a shooting war and a siege' },
       { p: 'The British moved first, on paper. On May 25 the warship Cerberus had delivered three newly arrived major generals, William Howe, Henry Clinton, and John Burgoyne (all British). Pushed by them, Gage finalized a plan on June 12 to break the siege: seize Dorchester Neck and fortify Dorchester Heights first, march on the American lines at Roxbury, then take the Charlestown heights. Execution was set for Sunday, June 18.' },
@@ -57,27 +36,7 @@ const BUNKER_HILL_NARR: Record<string, Narr> = {
     eyebrow: 'Bunker Hill · The assaults',
     title: 'Three times up the hill',
     blocks: [
-      { locator: {
-        eyebrow: 'The ground · June 17, 1775',
-        caption: 'Howe’s plan was to hold the redoubt’s defenders in place with a show of force while the light infantry charged up the narrow Mystic beach to turn the line. The beach, about as wide as a wagon, ran straight into Stark’s stone wall.',
-        frame: { lonMin: -71.082, lonMax: -71.042, latMin: 42.360, latMax: 42.390 },
-        states: [
-          { name: 'Massachusetts', tone: 'focus' },
-        ],
-        dots: [
-          { name: 'The redoubt (Breed’s Hill)', lat: 42.3764, lon: -71.0608, heavy: true, anchor: 'end' },
-          { name: 'Rail fence', lat: 42.3790, lon: -71.0580, color: '#8a8175', anchor: 'start' },
-          { name: 'Stark’s beach wall (Mystic strand)', lat: 42.3800, lon: -71.0565, color: '#8a8175', anchor: 'start', dy: -6 },
-          { name: 'Moulton’s Point (British landing)', lat: 42.3735, lon: -71.0490, color: '#8a8175', anchor: 'end' },
-          { name: 'Charlestown (burned)', lat: 42.3725, lon: -71.0620, color: '#8a8175', anchor: 'end' },
-          { name: 'Copp’s Hill battery', lat: 42.3672, lon: -71.0561, color: '#8a8175', anchor: 'start' },
-          { name: 'Bunker Hill (Putnam’s rally point)', lat: 42.3805, lon: -71.0660, color: '#8a8175', anchor: 'end' },
-        ],
-        labels: [
-          { text: 'MYSTIC RIVER', lon: -71.052, lat: 42.3885, kind: 'water', size: 11 },
-          { text: 'CHARLES RIVER', lon: -71.076, lat: 42.3655, kind: 'water', size: 11 },
-        ],
-      } },
+      { fig: '/war-img/rev-bunkerhill-tac2.jpg', cap: 'Howe’s plan was to hold the redoubt’s defenders in place with a show of force while the light infantry charged up the narrow Mystic beach to turn the line. The beach, about as wide as a wagon, ran straight into Stark’s stone wall.', credit: 'Stuff Happened map' },
       { p: 'The night before, the American militia army besieging Boston had dug a small dirt fort (a redoubt) on Breed’s Hill, on the Charlestown peninsula just across the water from the city, close enough to put cannon in range of the town. On the morning of June 17 the British command decided to cross the harbor and take it by direct assault. From about one in the afternoon the longboats began putting Major General William Howe’s (British) first wave ashore, some 1,500 men, at Moulton’s Point on the eastern corner of the peninsula, unopposed and out of musket range. And then Howe stopped. He could see the American position growing in front of him: a rail fence now extended the line from the redoubt down toward the Mystic River (the water along the peninsula’s north side), and fresh men were streaming across the Neck (the narrow strip of land that was the only way on or off the peninsula) to fill it. He sent back for reinforcements and let his men eat while the navy worked the hill over. The pause cost him two hours, and the Americans spent them on their open left flank. Captain Thomas Knowlton’s (American) Connecticut men held the rail fence (an ordinary farm fence of wooden rails, its gaps stuffed with hay so it read as solid cover). Colonel John Stark (American), who had walked his big New Hampshire regiment across the shot-swept Neck at a deliberate pace, cannonballs and all, extended the fence line and then saw the hole in the position: a strip of open beach along the Mystic, below the riverbank, where a column could walk right around the American line at the water’s edge. He put men on the strand behind a hastily piled stone wall and, the story has it, drove a stake about forty yards out as a firing mark. Also coming onto the peninsula that afternoon was Joseph Warren (American), a Boston physician, the president of the Massachusetts Provincial Congress (the rebels’ stand-in legislature for the colony), commissioned a major general three days earlier; offered command twice that day, he refused it both times and took a musket in the ranks.' },
       { p: 'That beach was Howe’s whole plan. The assault was designed as an envelopment: Brigadier General Robert Pigot (British) would demonstrate (make a threatening show of attack, to pin the defenders in place) against the redoubt on the left while the grenadiers (the big assault companies of each regiment) struck the rail fence, and the light infantry (the fast flanking companies) charged in column up the Mystic beach to turn the line and take the defenders from behind. The beach was about as wide as a wagon. The column had no room to spread out. At around three o’clock it came on, the light company of the Welch Fusiliers (a British infantry regiment) leading, and Stark’s men held their fire to about fifty paces and then delivered rotating volleys (ranks firing in turn, so someone was always loaded and the fire never paused) that wrecked the head of the column. The survivors recoiled. Ninety-six British dead were counted on that little beach afterward.' },
       { p: 'With the flanking move dead on the beach, the rest of the first assault went in frontally and was shot flat: grenadiers at the rail fence, Pigot’s wing at the redoubt, regulars (Britain’s professional full-time soldiers) struggling uphill through thick unmown grass, over fences and brick kilns, in wool that felt like a hundred degrees, while defenders rested their muskets on the fence rails and fired low. The lines fell back.' },
