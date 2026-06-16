@@ -311,6 +311,10 @@ export default function WarHome() {
   const [search, setSearch] = useState(false)
   const [bq, setBq] = useState('')
   const [thFilter, setThFilter] = useState('All')
+  // Focused browsing: picking a tab collapses the masthead/hero so the sticky tab bar
+  // pins to the top and only the tab's list scrolls. Stays collapsed until reload/back.
+  const [locked, setLocked] = useState(false)
+  const pick = (k: string) => { setTab(k); setLocked(true); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
 
   // Deep link from the breadcrumb "Theatre" crumb: /war-civil-war?theatre=east
   // lands on the Theatres tab with that theatre's chip selected, scrolled to the
@@ -320,12 +324,13 @@ export default function WarHome() {
     if (th && THEATRE[th]) {
       setThFilter(th)
       setTab('theatres')
+      setLocked(true)
       requestAnimationFrame(() => document.querySelector('.p-subnav')?.scrollIntoView({ block: 'start' }))
     }
   }, [])
 
   return (
-    <div className="war-skin">
+    <div className={'war-skin' + (locked ? ' p-locked' : '')}>
       {/* sticky header */}
       <header className="p-hdr">
         <a className="back" href="/war" aria-label="All wars">{I.back}</a>
@@ -338,23 +343,27 @@ export default function WarHome() {
       <WarBreadcrumb crumbs={warCrumbs(CIVIL_WAR, thFilter !== 'All' ? { lane: thFilter } : undefined)} bare />
 
       {/* editorial masthead */}
-      <div className="p-mast">
-        <div className="p-eyebrow">War · 1861&ndash;1865</div>
-        <h1 className="p-mast-title p-serif">American<br />Civil War</h1>
-        <p className="p-stand">{STANDFIRST}</p>
-      </div>
-      <div className="p-heroband">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/war-img/civil-war-hero.jpg" alt="" />
-      </div>
-      <div className="p-credit">Storming Fort Wagner · Kurz &amp; Allison · public domain</div>
+      {!locked && (
+        <>
+          <div className="p-mast">
+            <div className="p-eyebrow">War · 1861&ndash;1865</div>
+            <h1 className="p-mast-title p-serif">American<br />Civil War</h1>
+            <p className="p-stand">{STANDFIRST}</p>
+          </div>
+          <div className="p-heroband">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/war-img/civil-war-hero.jpg" alt="" />
+          </div>
+          <div className="p-credit">Storming Fort Wagner · Kurz &amp; Allison · public domain</div>
+        </>
+      )}
 
       {/* sticky two-row tab bar (+ battle filter on the Battles tab) */}
       <div className="p-subnav below-crumb">
         {TAB_ROWS.map((row, ri) => (
           <div className="p-seg" key={ri}>
             {row.map(t => (
-              <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => setTab(t.k)}>{t.label}</button>
+              <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>{t.label}</button>
             ))}
           </div>
         ))}
@@ -381,7 +390,7 @@ export default function WarHome() {
       {tab === 'story' && <StoryTab />}
       {tab === 'battles' && <BattlesTab theatre={thFilter} query={bq} />}
       {tab === 'offfield' && <OffFieldTab />}
-      {tab === 'theatres' && <TheatresTab active={thFilter} goBattles={k => { setThFilter(k); setTab('battles') }} />}
+      {tab === 'theatres' && <TheatresTab active={thFilter} goBattles={k => { setThFilter(k); pick('battles') }} />}
       {tab === 'commanders' && <CommandersTab />}
       {tab === 'facts' && <FactsTab />}
 

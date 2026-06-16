@@ -220,7 +220,10 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
   // The breadcrumb's jump rung reads the generic "Jump to" on load (its dropdown lists
   // every section), switching to the section's name only once the reader picks a tab.
   const [picked, setPicked] = useState(false)
-  const pick = (k: string) => { setTab(k); setPicked(true) }
+  // Focused browsing: picking a tab collapses the masthead/hero so the sticky tab bar
+  // pins to the top and only the tab's list scrolls. Stays collapsed until reload/back.
+  const [locked, setLocked] = useState(false)
+  const pick = (k: string) => { setTab(k); setPicked(true); setLocked(true); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
 
   // Tabs: the four core sections. Commanders only when the war has a cast.
   const tabs = [
@@ -247,21 +250,25 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
   }, [])
 
   return (
-    <div className="war-skin">
+    <div className={'war-skin' + (locked ? ' p-locked' : '')}>
       <WarHeader backHref="/war" title={cfg.name} />
 
       <WarBreadcrumb crumbs={warCrumbs(cfg, picked && tabLane[tab] ? { lane: tabLane[tab] } : undefined)} accent={cfg.accent} bare />
 
-      <div className="p-mast">
-        <div className="p-eyebrow">{home.eyebrow}</div>
-        <h1 className="p-mast-title p-serif">{home.title.map((line, i) => <Fragment key={i}>{i > 0 && <br />}{line}</Fragment>)}</h1>
-        <p className="p-stand">{home.standfirst}</p>
-      </div>
-      <div className="p-heroband">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={home.heroImg} alt="" />
-      </div>
-      <div className="p-credit">{home.heroCredit}</div>
+      {!locked && (
+        <>
+          <div className="p-mast">
+            <div className="p-eyebrow">{home.eyebrow}</div>
+            <h1 className="p-mast-title p-serif">{home.title.map((line, i) => <Fragment key={i}>{i > 0 && <br />}{line}</Fragment>)}</h1>
+            <p className="p-stand">{home.standfirst}</p>
+          </div>
+          <div className="p-heroband">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={home.heroImg} alt="" />
+          </div>
+          <div className="p-credit">{home.heroCredit}</div>
+        </>
+      )}
 
       <div className="p-subnav below-crumb">
         <div className="p-seg">
