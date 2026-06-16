@@ -25,64 +25,12 @@ import type { Block } from '@/components/mode/battle-reader'
 
 // Locator 1 · tactical: the two battles. Opens Sections 1 AND 2 per the final
 // ("a tactical frame serving both battles"); each section page stands alone.
-const TACTICAL_LOCATOR: Block = {
-  locator: {
-    eyebrow: 'The ground · Sept 19 & Oct 7, 1777',
-    caption: 'Both battles were fought in the forest clearings northwest of the American line, and the line is the reason why. Kościuszko\'s entrenchments on Bemis Heights commanded the defile where the Albany road squeezed between the bluff and the Hudson; Burgoyne could not go through it, so twice he tried to swing west around the American left, into the woods where Morgan\'s riflemen were waiting.',
-    frame: { lonMin: -73.70, lonMax: -73.56, latMin: 42.96, latMax: 43.04 },
-    states: [
-      { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -73.69, labelLat: 43.036, labelSize: 11 },
-    ],
-    labels: [
-      { text: 'HUDSON RIVER', lon: -73.578, lat: 42.985, kind: 'water', size: 10, anchor: 'middle' },
-      { text: 'RIVER ROAD TO ALBANY', lon: -73.617, lat: 42.963, kind: 'faint', size: 10, anchor: 'middle' },
-    ],
-    dots: [
-      { name: 'Bemis Heights', date: 'the American line; the Neilson farm', lat: 42.987, lon: -73.642, heavy: true, anchor: 'end', dy: -8, dateBelow: true },
-      { name: 'The river defile', date: 'the road Burgoyne could not force', lat: 42.975, lon: -73.628, color: '#8a8175', anchor: 'start', dy: 8, dateBelow: true },
-      { name: 'Freeman\'s Farm', date: 'the Sept 19 clearing', lat: 43.003, lon: -73.633, heavy: true, anchor: 'start', dy: 12, dateBelow: true },
-      { name: 'Balcarres Redoubt', date: 'the fortified farm, after Sept 19', lat: 43.004, lon: -73.635, color: '#8a8175', anchor: 'end', dy: 23, dateBelow: true },
-      { name: 'Breymann Redoubt', date: 'stormed at dusk Oct 7', lat: 43.0084, lon: -73.6394, heavy: true, anchor: 'end', dy: -14, dateBelow: true },
-      { name: 'Barber\'s wheat field', date: 'the Oct 7 opening', lat: 42.997, lon: -73.645, color: '#8a8175', anchor: 'end', dy: 6, dateBelow: true },
-      { name: 'Great Redoubt', date: 'Fraser\'s burial; the river bluff', lat: 43.012, lon: -73.612, anchor: 'start', dy: 10, dateBelow: true },
-      { name: 'Sword\'s House', date: 'Burgoyne\'s camp, Sept 17–19', lat: 43.02, lon: -73.61, anchor: 'start', dy: -8, dateBelow: true },
-    ],
-  },
-}
+const TACTICAL_LOCATOR: Block = { fig: '/war-img/rev-saratoga-tac1.jpg', cap: 'Both battles were fought in the forest clearings northwest of the American line, and the line is the reason why. Kościuszko\'s entrenchments on Bemis Heights commanded the defile where the Albany road squeezed between the bluff and the Hudson; Burgoyne could not go through it, so twice he tried to swing west around the American left, into the woods where Morgan\'s riflemen were waiting.', credit: 'Stuff Happened map' }
 
 // Locator 2 · strategic: the campaign collapses (Section 3). Clinton's too-late
 // Highlands raid is an inset NOTE folded into the caption per the final (never
 // extend the main frame toward the Highlands).
-const STRATEGIC_LOCATOR: Block = {
-  locator: {
-    eyebrow: 'The campaign collapses · July–October 1777',
-    caption: 'The whole campaign ran down this map and died ten miles short of where it stalled. Ticonderoga fell in July; Bennington and Stanwix broke the army\'s reach in August; the crossing in September made Albany the only way out. After October 7 the army retreated north to Saratoga, and the militia closed the circle around it. Off the frame to the south, Clinton\'s raid, Oct 3–16: ~3,000 men stormed the Highlands forts and burned Kingston, still about 50 miles short of Albany. A raid, not a rescue; nothing he did could have arrived in time.',
-    frame: { lonMin: -75.6, lonMax: -73.0, latMin: 42.55, latMax: 43.95 },
-    states: [
-      { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -75.48, labelLat: 43.88, labelSize: 12 },
-      { name: 'Vermont', label: 'VERMONT', labelLon: -73.08, labelLat: 43.66, labelSize: 11 },
-      { name: 'Massachusetts', tone: 'faint' },
-    ],
-    lakes: [
-      { name: 'Lake Champlain', label: 'LAKE CHAMPLAIN', labelLon: -73.34, labelLat: 43.88, labelSize: 10, labelAnchor: 'start' },
-      { name: 'Lake George', label: 'LAKE GEORGE', labelLon: -73.73, labelLat: 43.55, labelSize: 9, labelAnchor: 'end' },
-    ],
-    labels: [
-      { text: 'HUDSON RIVER', lon: -73.53, lat: 43.04, kind: 'water', size: 10, anchor: 'start' },
-    ],
-    dots: [
-      { name: 'Fort Ticonderoga', date: 'the July triumph; abandoned by Britain in November', lat: 43.842, lon: -73.387, anchor: 'end', dateBelow: true },
-      { name: 'Fort Edward', date: 'Jane McCrea, July 27; Stark seals the north in October', lat: 43.267, lon: -73.581, anchor: 'end', dateBelow: true },
-      { name: 'Bennington battlefield', date: 'Walloomsac, NY; the Aug 16 bleeding', lat: 42.936, lon: -73.305, anchor: 'end', dy: 6, dateBelow: true },
-      { name: 'Fort Stanwix', date: 'the failed western prong, siege abandoned Aug 22', lat: 43.211, lon: -75.455, anchor: 'start', dateBelow: true },
-      { name: 'The Hudson crossing', date: 'bridge of boats, Sept 13–15; no going back', lat: 43.11, lon: -73.58, color: '#8a8175', anchor: 'start', dy: -10, dateBelow: true },
-      { name: 'Saratoga / Schuylerville', date: 'the trap closes; the Fort Hardy surrender meadow, Oct 17', lat: 43.101, lon: -73.581, heavy: true, anchor: 'end', dy: 8, dateBelow: true },
-      { name: 'Bemis Heights / the battlefield', lat: 42.987, lon: -73.642, heavy: true, anchor: 'end', dy: -6 },
-      { name: 'Stillwater', lat: 42.967, lon: -73.683, color: '#8a8175', anchor: 'start', dy: 10 },
-      { name: 'Albany', date: 'the goal he never reached', lat: 42.652, lon: -73.757, anchor: 'start', dy: 4, dateBelow: true },
-    ],
-  },
-}
+const STRATEGIC_LOCATOR: Block = { fig: '/war-img/rev-saratoga-tac2.jpg', cap: 'The whole campaign ran down this map and died ten miles short of where it stalled. Ticonderoga fell in July; Bennington and Stanwix broke the army\'s reach in August; the crossing in September made Albany the only way out. After October 7 the army retreated north to Saratoga, and the militia closed the circle around it. Off the frame to the south, Clinton\'s raid, Oct 3–16: ~3,000 men stormed the Highlands forts and burned Kingston, still about 50 miles short of Albany. A raid, not a rescue; nothing he did could have arrived in time.', credit: 'Stuff Happened map' }
 
 const SARATOGA_NARR: Record<string, Narr> = {
   'the-squeeze': {
