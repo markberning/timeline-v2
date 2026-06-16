@@ -20,28 +20,7 @@ const PRINCETON_NARR: Record<string, Narr> = {
     eyebrow: 'Princeton · The trap that wasn\'t',
     title: 'The campfires were burning',
     blocks: [
-      { locator: {
-        eyebrow: 'The ten days · Trenton to Princeton',
-        caption: 'Cornwallis marched the 11 miles down the Post Road from Princeton on January 2 and pinned Washington against Assunpink Creek. That night the American army slipped east and north by back roads, around the British left, and appeared at Princeton at sunrise, a dozen miles behind him.',
-        frame: { lonMin: -74.85, lonMax: -74.40, latMin: 40.17, latMax: 40.53 },
-        states: [
-          { name: 'New Jersey', tone: 'focus', label: 'NEW JERSEY', labelLon: -74.55, labelLat: 40.20, labelSize: 11 },
-          { name: 'Pennsylvania', label: 'PA.', labelLon: -74.81, labelLat: 40.205, labelSize: 11 },
-        ],
-        labels: [
-          { text: 'DELAWARE RIVER', lon: -74.76, lat: 40.188, kind: 'water', size: 11 },
-          { text: 'ASSUNPINK CREEK', lon: -74.71, lat: 40.245, kind: 'water', size: 10 },
-          { text: '↑ MORRISTOWN · winter quarters, arrived Jan 6', lon: -74.45, lat: 40.512, size: 10.5, anchor: 'end' },
-        ],
-        dots: [
-          { name: 'Trenton', date: 'January 2, 1777', lat: 40.2203, lon: -74.7659, heavy: true, anchor: 'start', dy: -34, dateBelow: true },
-          { name: 'Assunpink bridge', date: 'three assaults repulsed', lat: 40.218, lon: -74.762, color: '#8a8175', anchor: 'start', dy: 12, dateBelow: true },
-          { name: 'Maidenhead, modern Lawrenceville', date: 'Leslie\'s 1,500 overnight', lat: 40.3010, lon: -74.7374, color: '#8a8175', anchor: 'start', dy: -2, dateBelow: true },
-          { name: 'Quaker Bridge', date: 'the night march\'s creek crossing', lat: 40.283, lon: -74.661, color: '#8a8175', anchor: 'start', dy: -2, dateBelow: true },
-          { name: 'Princeton', date: 'January 3, 1777', lat: 40.3487, lon: -74.6594, heavy: true, anchor: 'start', dy: -14, dateBelow: true },
-          { name: 'New Brunswick', date: 'British depots, the £70,000 pay chest', lat: 40.4936, lon: -74.4436, color: '#8a8175', anchor: 'end', dy: -2, dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-princeton-tac1.jpg', cap: 'Cornwallis marched the 11 miles down the Post Road from Princeton on January 2 and pinned Washington against Assunpink Creek. That night the American army slipped east and north by back roads, around the British left, and appeared at Princeton at sunrise, a dozen miles behind him.', credit: 'Stuff Happened map' },
       { p: 'On the evening of January 2, 1777, the American Revolution had been squeezed into one low ridge of ground beside a creek in New Jersey. George Washington\'s Continental Army (the rebels\' regular army, as opposed to the part-time militia) stood on the high ground south of Assunpink Creek, the stream that runs into the Delaware River (the wide river dividing New Jersey from Pennsylvania) at the south edge of Trenton, and across the creek sat a British army under Lieutenant General Charles, Earl Cornwallis, about 5,500 strong, with the river at Washington\'s back and no good way out. A week earlier this would have seemed an impossible place for the Americans to be, because a week earlier the war had looked over. Washington had spent the fall of 1776 losing New York and retreating across New Jersey, and in December he had privately written, "I think the game is pretty near up." Then, at Christmas, he had crossed the icy Delaware from the Pennsylvania side, where his army had been camped, and on the morning of December 26 destroyed the garrison (the force stationed to hold a town) of Hessians (German professional soldiers hired by Britain) at Trenton, taking some 900 prisoners. He had pulled back across the river with his prizes, then crossed again in the last days of December and concentrated at Trenton, daring the British to come and do something about it.' },
       { pill: '/war-revolution/the-north', plabel: 'The 1776 collapse and the ten days that answered it: the war for the North' },
       { p: 'The army that made the dare was held together with paper and promises. The enlistments of most of Washington\'s Continentals expired on December 31, and on the 30th and 31st he had persuaded the bulk of them to stay six more weeks for a ten-dollar bounty (a cash bonus for staying). Cornwallis, for his part, had been about to go home: his baggage was aboard ship for England when the news from Trenton canceled his leave. On January 2 he marched from Princeton, about 11 miles up the Post Road (the main highway between New York and Philadelphia), to finish the rebellion. He left roughly 1,200 men at Princeton under Lieutenant Colonel Charles Mawhood and dropped another 1,500 under Brigadier Alexander Leslie at Maidenhead (modern Lawrenceville), halfway down the road. Counting everything in the area he had about 8,000 men. Getting the rest of them to Trenton took all day, because Colonel Edward Hand\'s Pennsylvania riflemen and supporting troops fought the column down the whole road, at Five Mile Run, at Shabakunk Creek, at Stockton Hollow, delaying so stubbornly that the British several times deployed into full battle line believing they had met the main American army. Cornwallis\'s vanguard (the leading troops of his column) reached Trenton at dusk.' },
@@ -61,22 +40,7 @@ const PRINCETON_NARR: Record<string, Narr> = {
     eyebrow: 'Princeton · The battle',
     title: 'Sunrise at the orchard',
     blocks: [
-      { locator: {
-        eyebrow: 'The Princeton battlefield · January 3, 1777',
-        caption: 'The fight began near William Clarke\'s farm and orchard about 1.5 miles southwest of town, between the Post Road (today\'s US 206) and the back road. It ended in town at Nassau Hall, where cannon were brought up and some 194 British soldiers surrendered.',
-        frame: { lonMin: -74.70, lonMax: -74.64, latMin: 40.31, latMax: 40.36 },
-        states: [],
-        labels: [
-          { text: 'STONY BROOK', lon: -74.692, lat: 40.317, kind: 'water', size: 11 },
-        ],
-        dots: [
-          { name: 'Clarke farm, the orchard fight', date: 'January 3, 1777', lat: 40.3308, lon: -74.6748, heavy: true, anchor: 'start', dy: -14, dateBelow: true },
-          { name: 'Thomas Clarke House', date: 'Mercer carried here, died Jan 12', lat: 40.329, lon: -74.677, color: '#8a8175', anchor: 'start', dy: 26, dateBelow: true },
-          { name: 'Stony Brook bridge / Quaker Meeting House', date: 'Worth\'s Mill; the bridge the Americans broke', lat: 40.324, lon: -74.686, color: '#8a8175', anchor: 'start', dy: -2, dateBelow: true },
-          { name: 'Nassau Hall', date: 'the surrender', lat: 40.3487, lon: -74.6594, color: '#8a8175', anchor: 'start', dy: -2, dateBelow: true },
-          { name: 'Princeton Battle Monument', date: 'town end of the field', lat: 40.3479, lon: -74.6659, color: '#8a8175', anchor: 'end', dy: -2, dateBelow: true },
-        ],
-      } },
+      { fig: '/war-img/rev-princeton-tac2.jpg', cap: 'The fight began near William Clarke\'s farm and orchard about 1.5 miles southwest of town, between the Post Road (today\'s US 206) and the back road. It ended in town at Nassau Hall, where cannon were brought up and some 194 British soldiers surrendered.', credit: 'Stuff Happened map' },
       { p: 'Through the night of January 2–3, 1777, the American army was somewhere it had no business being. Trapped the evening before against Assunpink Creek at Trenton by a British army under Lieutenant General Charles, Earl Cornwallis, George Washington\'s Continentals (the rebels\' full-time regular soldiers) and militia (the part-time citizen soldiers) had left their campfires burning behind them and marched a dozen frozen miles by back roads around the British flank, aiming for the lightly held British post at Princeton. The icy march ran late. Sunrise on January 3, a clear, hard-frozen morning, caught the army still short of the town and split into two wings. Major General John Sullivan took the main body right, angling toward Princeton\'s back side. A smaller wing under Major General Nathanael Greene peeled left toward the Post Road (the main Trenton highway) with an errand: break the bridge over Stony Brook and block the road Cornwallis would come back on.' },
       { p: 'At that same hour, the British garrison commander, Lieutenant Colonel Charles Mawhood, was marching the 17th Regiment of Foot (an infantry regiment) and part of the 55th OUT of Princeton, down that same Post Road toward Trenton, under orders to join Cornwallis. In the low winter sun, each column spotted the other across the fields near William Clarke\'s farm, about a mile and a half (2.4 km) southwest of town. Neither commander had expected the other to exist. Mawhood could have run for it. Instead he turned his column around and went straight at the strangers on his flank.' },
       { p: 'Washington detached Brigadier General Hugh Mercer\'s brigade, about 350 men, to deal with the British, and Mercer ran head-on into the 17th Foot at the edge of Clarke\'s orchard. The two lines traded volleys (massed simultaneous musket fire) at close range across a fence line. The Americans got off heavy fire, but many of them carried rifles (hunting weapons, accurate but slow to load and fitted with no bayonet, the long blade on the muzzle of a military musket), and Mawhood ordered a bayonet charge. The 17th came through the orchard with the blades, and Mercer\'s line broke. Mercer\'s horse was shot from under him, and on foot among the enemy he refused to surrender, laying about with his sword. Accounts say the British called on the cornered officer to yield; some traditions hold that they took him for Washington himself. He was clubbed down and bayoneted repeatedly, and left for dead in the orchard. Colonel John Haslet of Delaware, trying to rally the brigade, was shot through the head and killed. Captain Daniel Neil of the New Jersey artillery was bayoneted at his guns.' },
