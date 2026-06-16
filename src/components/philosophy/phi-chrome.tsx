@@ -222,7 +222,7 @@ export function PhiHub({
         {/* the break — what this thinker overturned, before → after (derived from the read) */}
         {breakBlock && (
           <div style={{ padding: '20px 16px 4px' }}>
-            <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: FAINT, marginBottom: 13 }}>{breakBlock.label ?? 'What he changed'}</div>
+            <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: '.1em', textTransform: 'uppercase', color: FAINT, marginBottom: 13 }}>{breakBlock.label ?? 'What changed'}</div>
             <div style={{ borderLeft: `2px solid ${accent}`, paddingLeft: 15, display: 'flex', flexDirection: 'column', gap: 13 }}>
               <div>
                 <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: '.12em', textTransform: 'uppercase', color: FAINT, marginBottom: 4 }}>Before</div>

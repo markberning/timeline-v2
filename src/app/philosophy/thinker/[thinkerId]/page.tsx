@@ -30,10 +30,10 @@ export default async function ThinkerHubPage({ params }: { params: Promise<{ thi
   const works = worksOfThinker(t.id)
   const read = hasRead(t.id)
 
-  // Prototype: the enriched "dossier" hub, assembled from the read's own gated
-  // material (throughline lead + the break + chapter outline). Plato only for now;
-  // roll to all read-backed thinkers once the design is signed off.
-  const narr = t.id === 'plato' ? THINKER_READS[t.id]?.narr : undefined
+  // The enriched "dossier" hub, assembled from the read's own gated material
+  // (throughline lead + the break + chapter outline). Lights up for any thinker
+  // with a shipped read; thinkers without one fall back to the lean layout.
+  const narr = THINKER_READS[t.id]?.narr
   const richMeta = [t.dates, s.name, ERA_NAME[t.era], works.length ? `${works.length} works` : null]
     .filter(Boolean).join('  ·  ')
 

@@ -8,7 +8,9 @@ import { PhiHub, schoolCrumbs, type HubRow } from '@/components/philosophy/phi-c
 import { SCHOOLS, schoolById, thinkersOfSchool, type SchoolId } from '@/lib/philosophy-data'
 import { THINKER_ICON_LABELS, THINKER_ICONS, SCHOOL_ICONS, SCHOOL_ICON_LABELS } from '@/lib/philosophy-icon-labels'
 import { hasRead } from '../../thinker/_reads'
-import { hasSchoolRead } from '../_reads'
+import { hasSchoolRead, SCHOOL_READS } from '../_reads'
+
+const plain = (s: string) => s.replace(/\*+/g, '').replace(/`/g, '')
 
 export function generateStaticParams() {
   return SCHOOLS.map(s => ({ schoolId: s.id }))
@@ -26,6 +28,8 @@ export default async function SchoolHubPage({ params }: { params: Promise<{ scho
   const s = schoolById(schoolId)
   if (!s) notFound()
   const thinkers = thinkersOfSchool(s.id as SchoolId)
+  const narr = SCHOOL_READS[s.id]?.narr
+  const richMeta = [s.range, `${thinkers.length} thinkers`].filter(Boolean).join('  ·  ')
 
   const rows: HubRow[] = thinkers.map(t => ({
     glyph: t.glyph, iconId: THINKER_ICONS.has(t.id) ? t.id : undefined, iconLabel: THINKER_ICON_LABELS[t.id], tint: s.color,
@@ -40,11 +44,14 @@ export default async function SchoolHubPage({ params }: { params: Promise<{ scho
       accent={s.color}
       eyebrow="School"
       title={s.name}
-      meta={s.range}
-      blurb={s.oneLine}
+      meta={narr ? richMeta : s.range}
+      blurb={narr?.throughline ?? s.oneLine}
       glyph={s.name[0]}
       iconId={SCHOOL_ICONS.has(s.id) ? `school-${s.id}` : undefined}
       iconCaption={SCHOOL_ICON_LABELS[s.id]}
+      breakBlock={narr ? { before: plain(narr.brk.beforeLabel), after: plain(narr.brk.afterLabel), label: 'The core claim' } : undefined}
+      outline={narr ? narr.chapters.map(c => ({ num: c.num, title: plain(c.title) })) : undefined}
+      outlineLabel={narr ? 'Inside the read' : undefined}
       note={s.id === 'indep' ? 'These thinkers founded no school and joined none. They are listed together only because they refused every other label: the source, the loner, the dynamite.' : undefined}
       readButton={hasSchoolRead(s.id) ? {
         href: `/philosophy/school/${s.id}/read`,
