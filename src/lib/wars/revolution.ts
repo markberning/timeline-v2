@@ -148,14 +148,80 @@ export const REVOLUTION: WarConfig = {
     // by region (each chronological inside) and the map dots are coloured by region. The
     // 'wider' catch-all holds the off-map naval + frontier fights (no dot on the seaboard
     // frame). Colours are the reserved theatre palette + one slate for the catch-all.
+    // Each land region carries its own tight LANDSCAPE frame + state outlines, so the
+    // Battles map swaps to the active battle's region as the reader scrolls (saves the
+    // vertical space the one tall Quebec-to-Savannah map ate). The 'wider' region's two
+    // battles sit on different continents, so each gets a per-battle view in battleViews.
     battleRegions: [
-      { id: 'new-england', label: 'New England & Canada', range: '1775', color: { light: '#2c7d99', dark: '#5fb0cc', dot: '#2c7d99' } },
-      { id: 'middle', label: 'New York & New Jersey', range: '1776–79', color: { light: '#8a5b86', dark: '#c79cd0', dot: '#8a5b86' } },
-      { id: 'saratoga', label: 'The Hudson & Saratoga', range: '1777', color: { light: '#b3852f', dark: '#d8b25a', dot: '#b3852f' } },
-      { id: 'pennsylvania', label: 'Pennsylvania', range: '1777', color: { light: '#4e8a52', dark: '#84c089', dot: '#4e8a52' } },
-      { id: 'south', label: 'The South', range: '1779–81', color: { light: '#b3502f', dark: '#d98a5a', dot: '#b3502f' } },
+      { id: 'new-england', label: 'New England & Canada', range: '1775', color: { light: '#2c7d99', dark: '#5fb0cc', dot: '#2c7d99' },
+        frame: { lonMin: -78, lonMax: -64.5, latMin: 41.7, latMax: 47.3 },
+        states: [
+          { name: 'Massachusetts', label: 'MASS.', labelLon: -72.0, labelLat: 42.2, labelSize: 11 },
+          { name: 'Quebec', label: 'QUÉBEC', labelLon: -72.6, labelLat: 46.8, labelSize: 12 },
+          { name: 'Maine', label: 'MAINE', labelLon: -69.2, labelLat: 45.2, labelSize: 11 },
+          { name: 'New Hampshire', label: 'N.H.', labelLon: -71.6, labelLat: 43.9, labelSize: 10 },
+          { name: 'Vermont', label: 'VT.', labelLon: -72.8, labelLat: 44.2, labelSize: 10 },
+          { name: 'New York' }, { name: 'Connecticut' }, { name: 'Rhode Island' },
+        ],
+        labels: [{ text: 'ATLANTIC OCEAN', lon: -68.3, lat: 42.6, kind: 'water', size: 12 }] },
+      { id: 'middle', label: 'New York & New Jersey', range: '1776–79', color: { light: '#8a5b86', dark: '#c79cd0', dot: '#8a5b86' },
+        frame: { lonMin: -76.4, lonMax: -72.3, latMin: 39.8, latMax: 41.6 },
+        states: [
+          { name: 'New York', label: 'NEW YORK', labelLon: -74.25, labelLat: 41.45, labelSize: 12 },
+          { name: 'New Jersey', label: 'N.J.', labelLon: -74.6, labelLat: 40.3, labelSize: 11 },
+          { name: 'Pennsylvania', label: 'PENN.', labelLon: -75.4, labelLat: 40.95, labelSize: 10 },
+          { name: 'Connecticut', label: 'CONN.', labelLon: -73.0, labelLat: 41.5, labelSize: 10 },
+        ],
+        labels: [{ text: 'ATLANTIC', lon: -73.1, lat: 39.95, kind: 'water', size: 11 }] },
+      { id: 'saratoga', label: 'The Hudson & Saratoga', range: '1777', color: { light: '#b3852f', dark: '#d8b25a', dot: '#b3852f' },
+        frame: { lonMin: -75.5, lonMax: -71.5, latMin: 42.5, latMax: 44.2 },
+        states: [
+          { name: 'New York', label: 'NEW YORK', labelLon: -74.3, labelLat: 43.2, labelSize: 12 },
+          { name: 'Vermont', label: 'VT.', labelLon: -72.7, labelLat: 43.7, labelSize: 11 },
+          { name: 'Massachusetts', label: 'MASS.', labelLon: -72.5, labelLat: 42.6, labelSize: 10 },
+          { name: 'New Hampshire' },
+        ],
+        labels: [{ text: 'HUDSON R.', lon: -73.82, lat: 42.62, kind: 'water', size: 10 }] },
+      { id: 'pennsylvania', label: 'Pennsylvania', range: '1777', color: { light: '#4e8a52', dark: '#84c089', dot: '#4e8a52' },
+        frame: { lonMin: -76.85, lonMax: -73.95, latMin: 39.3, latMax: 40.6 },
+        states: [
+          { name: 'Pennsylvania', label: 'PENNSYLVANIA', labelLon: -75.95, labelLat: 40.45, labelSize: 11 },
+          { name: 'New Jersey', label: 'N.J.', labelLon: -74.6, labelLat: 40.05, labelSize: 10 },
+          { name: 'Delaware', label: 'DEL.', labelLon: -75.5, labelLat: 39.5, labelSize: 9 },
+          { name: 'Maryland' },
+        ],
+        labels: [{ text: 'DELAWARE R.', lon: -75.3, lat: 39.95, kind: 'water', size: 9 }] },
+      { id: 'south', label: 'The South', range: '1779–81', color: { light: '#b3502f', dark: '#d98a5a', dot: '#b3502f' },
+        frame: { lonMin: -85.3, lonMax: -73.0, latMin: 31.4, latMax: 37.7 },
+        states: [
+          { name: 'Virginia', label: 'VIRGINIA', labelLon: -78.8, labelLat: 37.4, labelSize: 11 },
+          { name: 'North Carolina', label: 'N. CAROLINA', labelLon: -79.6, labelLat: 35.4, labelSize: 11 },
+          { name: 'South Carolina', label: 'S. CAROLINA', labelLon: -81.1, labelLat: 34.0, labelSize: 11 },
+          { name: 'Georgia', label: 'GEORGIA', labelLon: -83.0, labelLat: 32.6, labelSize: 11 },
+        ],
+        labels: [{ text: 'ATLANTIC OCEAN', lon: -76.7, lat: 32.5, kind: 'water', size: 12 }] },
       { id: 'wider', label: 'At Sea & the Frontier', range: '1779', color: { light: '#5b6b80', dark: '#93a6c0', dot: '#5b6b80' } },
     ],
+    battleViews: {
+      // Vincennes — George Rogers Clark's western campaign, in the Illinois country.
+      'rev-vincennes': {
+        label: 'The Western Frontier · 1779',
+        frame: { lonMin: -93, lonMax: -81, latMin: 36.5, latMax: 41.5 },
+        states: [
+          { name: 'Indiana', label: 'INDIANA', labelLon: -86.3, labelLat: 40.0, labelSize: 11 },
+          { name: 'Illinois', label: 'ILLINOIS', labelLon: -89.4, labelLat: 39.6, labelSize: 11 },
+          { name: 'Ohio', label: 'OHIO', labelLon: -82.7, labelLat: 40.2, labelSize: 11 },
+          { name: 'Kentucky', label: 'KENTUCKY', labelLon: -85.0, labelLat: 37.4, labelSize: 11 },
+          { name: 'Virginia' }, { name: 'West Virginia' },
+        ],
+        labels: [{ text: 'THE ILLINOIS COUNTRY', lon: -88.4, lat: 41.4, kind: 'faint', size: 10 }, { text: 'OHIO R.', lon: -85.0, lat: 38.4, kind: 'water', size: 9 }],
+      },
+      // Bonhomme Richard vs. Serapis — off Flamborough Head, England. No British coastline
+      // geometry exists in the dotted-map engine, so this is a captioned sea panel.
+      'rev-bonhomme-richard': {
+        seaPanel: { title: 'The North Sea · off Flamborough Head', sub: 'A sea fight off the east coast of England, an ocean beyond the American theatre.' },
+      },
+    },
     battleMap: {
       eyebrow: 'The seaboard · 1775–1783',
       accent: '#7bbf80',

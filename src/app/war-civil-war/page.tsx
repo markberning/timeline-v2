@@ -384,6 +384,12 @@ export default function WarHome() {
             ))}
           </div>
         )}
+        {locked && (
+          <button onClick={() => { setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }}
+            style={{ display: 'block', width: '100%', padding: '7px 0 2px', margin: 0, border: 'none', background: 'transparent', color: 'var(--muted)', font: '600 11px/1 var(--sans)', letterSpacing: '.09em', textTransform: 'uppercase', cursor: 'pointer' }}>
+            ⌄ Show intro
+          </button>
+        )}
       </div>
 
       {/* active tab */}

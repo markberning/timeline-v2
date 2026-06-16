@@ -91,6 +91,10 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
   const map = cfg.home!.battleMap!
   const regions = cfg.home!.battleRegions
   const regionById = useMemo(() => Object.fromEntries((regions ?? []).map(r => [r.id, r])), [regions])
+  const battleViews = cfg.home!.battleViews
+  // View-swap mode: tight landscape maps that swap to the active battle's region as you
+  // scroll (the Revolution). Off → one all-theatre map (F&I). On when any region has a frame.
+  const useViews = !!(battleViews || regions?.some(r => r.frame))
   const laneDot = (id: string) => cfg.lanes.find(l => l.id === id)?.color?.dot
   const dotFor = (b: WarBattle) => (b.region && regionById[b.region]?.color.dot) || laneDot(b.theatre)
   const list = useMemo(() => [...cfg.battles].sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m)), [cfg])
@@ -129,7 +133,21 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
   }, [mapTop])
 
   const activeB = list.find(b => b.id === active)
-  const dots: Dot[] = list.map(b => {
+  // Resolve the active map view: a per-battle override (frontier / at-sea), else the
+  // active battle's region. Falls back to the single all-theatre map when views are off.
+  const activeView = activeB ? (battleViews?.[activeB.id] ?? (activeB.region ? regionById[activeB.region] : undefined)) : undefined
+  const isOverride = !!(activeB && battleViews?.[activeB.id])
+  const viewId = !useViews ? 'all' : isOverride ? `b:${activeB!.id}` : `r:${activeB?.region ?? 'all'}`
+  // Dots shown: the active region's battles (so a region reads cleanly), just the one
+  // battle for a per-battle override, or the whole roster when views are off.
+  const viewBattles = useViews && activeB
+    ? (isOverride ? [activeB] : list.filter(b => b.region === activeB.region))
+    : list
+  const viewFrame = (useViews && activeView?.frame) || map.frame
+  const viewStates = (useViews && activeView?.states) || map.states
+  const viewLabels = useViews ? activeView?.labels : undefined
+  const seaPanel = useViews ? activeView?.seaPanel : undefined
+  const dots: Dot[] = viewBattles.map(b => {
     const ll = map.coords[b.id]; if (!ll) return null
     const isA = b.id === active
     return { lat: ll[0], lon: ll[1], active: isA, plain: !isA, color: isA ? '#e23bd6' : (dotFor(b) ?? '#6b6170') }
@@ -160,7 +178,16 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
     <div className="p-page">
       <div ref={mapRef} className="fi-stickymap" style={{ position: 'sticky', top: mapTop, zIndex: 10, background: 'var(--paper)' }}>
         <div className="fi-mapwrap">
-          <DottedMap eyebrow={map.eyebrow} accent={map.accent} frame={map.frame} states={map.states} dots={dots} />
+          <div key={viewId} style={{ animation: 'fi-mapswap .28s ease' }}>
+            {seaPanel ? (
+              <div className="fi-seapanel">
+                <span className="sp-eye">{seaPanel.title}</span>
+                <span className="sp-sub">{seaPanel.sub}</span>
+              </div>
+            ) : (
+              <DottedMap accent={map.accent} frame={viewFrame} states={viewStates} labels={viewLabels} dots={dots} />
+            )}
+          </div>
           {activeB && (
             <a className="fi-mapcap" href={activeB.href ?? undefined} style={{ pointerEvents: activeB.href ? 'auto' : 'none' }}>
               <b className="p-serif">{activeB.name}</b>
@@ -182,6 +209,12 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
           </div>
         ))}
       </div>
+      <style>{`
+        @keyframes fi-mapswap { from { opacity: .25 } to { opacity: 1 } }
+        .war-skin .fi-seapanel { display:flex; flex-direction:column; gap:6px; align-items:center; justify-content:center; text-align:center; min-height:148px; padding:22px 18px; border:1px solid var(--line-soft); border-radius:10px; background: color-mix(in srgb, #4a6b86 13%, var(--paper)); }
+        .war-skin .fi-seapanel .sp-eye { font:700 12.5px/1.3 var(--sans); letter-spacing:.03em; color:var(--ink); }
+        .war-skin .fi-seapanel .sp-sub { font:400 12.5px/1.5 var(--serif); color:var(--muted); max-width:330px; }
+      `}</style>
     </div>
   )
 }
@@ -276,6 +309,12 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
             <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>{t.label}</button>
           ))}
         </div>
+        {locked && (
+          <button onClick={() => { setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }}
+            style={{ display: 'block', width: '100%', padding: '7px 0 2px', margin: 0, border: 'none', background: 'transparent', color: 'var(--muted)', font: '600 11px/1 var(--sans)', letterSpacing: '.09em', textTransform: 'uppercase', cursor: 'pointer' }}>
+            ⌄ Show intro
+          </button>
+        )}
       </div>
 
       {tab === 'story' && <StoryTab cfg={cfg} />}

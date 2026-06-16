@@ -90,6 +90,19 @@ export interface WarCommander {
 // lists) is derived from the WarConfig itself by the shared <WarHome>. A war with this
 // block set renders through <WarHome>; the Civil War (with its extra Theatres/Facts tabs)
 // stays on its own page for now.
+// A single map "view" on the Battles tab — a landscape frame (its own state outlines +
+// free labels) that the all-battles map swaps to as the reader scrolls into the matching
+// region or battle. `seaPanel` is the no-geometry fallback for an at-sea fight outside
+// the map's land coverage (the dotted-map engine has only US/Canada outlines), e.g.
+// Bonhomme Richard off England.
+export interface BattleMapView {
+  label?: string
+  frame?: { lonMin: number; lonMax: number; latMin: number; latMax: number }
+  states?: { name: string; label?: string; labelLon?: number; labelLat?: number; labelSize?: number }[]
+  labels?: { text: string; lon: number; lat: number; kind?: 'accent' | 'water' | 'faint'; size?: number; anchor?: 'start' | 'middle' | 'end' }[]
+  seaPanel?: { title: string; sub: string }
+}
+
 export interface WarHomeConfig {
   eyebrow: string                       // 'War · 1754–1763'
   title: string[]                       // masthead title lines, joined by <br/> — e.g. ['The French &', 'Indian War']
@@ -115,7 +128,14 @@ export interface WarHomeConfig {
   // region's battles chronological) and the map dots are coloured by region, instead of
   // the default by-year grouping with flat-grey dots. Each region carries a year-range
   // sublabel and a light/dark/dot colour. Omit for a chronological war (F&I).
-  battleRegions?: { id: string; label: string; range: string; color: { light: string; dark: string; dot: string } }[]
+  // When a region carries a `frame` (+ states/labels), the Battles map becomes a set of
+  // tight LANDSCAPE maps that swap to the active battle's region as the reader scrolls,
+  // instead of one tall all-theatre map (the Revolution). Without frames it stays a single
+  // map (F&I).
+  battleRegions?: ({ id: string; label: string; range: string; color: { light: string; dark: string; dot: string } } & BattleMapView)[]
+  // Per-battle map-view overrides keyed by battle id, for battles that sit outside their
+  // region's frame (the frontier; a fight at sea). Falls back to the region view when absent.
+  battleViews?: Record<string, BattleMapView>
 }
 
 export interface WarConfig {
