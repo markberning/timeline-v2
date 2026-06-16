@@ -279,7 +279,7 @@ export function PhilosophyReader({ narr, eyebrow, backHref, crumbs }: { narr: Ph
       {active && <IsmSheet entry={active} onClose={() => setActive(null)} />}
 
       <style>{`
-        .phi-root { --bg:#ede5d3; --ink:#2b2722; --soft:#6b6357; --rule:#d8cdb6; --card:#f6f0e2;
+        .phi-root { --bg:#f4efe4; --ink:#2b2722; --soft:#6b6357; --rule:#e0d7c4; --card:#fdfaf3;
           --phi-accent:#6b5d2e;
           background:var(--bg); color:var(--ink); min-height:100vh;
           font-family: Lora, Georgia, 'Times New Roman', serif;
