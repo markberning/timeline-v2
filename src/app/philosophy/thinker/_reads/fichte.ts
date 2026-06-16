@@ -3,7 +3,7 @@
 // audits/philosophy-pipeline/fichte-thinker-fact-ledger.md; any claim not in that ledger
 // would carry a [VERIFY] tag for the r2 fact-checker (none were needed). This is thinker
 // altitude — it goes DEEPER than the era-4 German Idealism era read and never restates it.
-// Inline *italics* / **bold** markdown is rendered by the page. Figure captions are gated
+// Inline *italics* / bold markdown is rendered by the page. Figure captions are gated
 // fact-ledger content; alt text is presentational.
 // Quotes are A.E. Kroeger (1868, Science of Knowledge) and William Smith (1848, The
 // Vocation of Man) ONLY, both public domain, cited by section/book and named translator.

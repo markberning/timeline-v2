@@ -92,8 +92,12 @@ function scanFile(path) {
     const isEpigraph = /"(text|attribution)":/.test(line)
     const isAlt = /"alt":/.test(line) // presentational, not prose
     if (isEpigraph || isAlt) continue
+    // blank out inline verified quotes (\"...\") so quoted source text is exempt —
+    // we never rewrite a quotation, so it must not trip the rules (e.g. "You cannot
+    // step twice into the same river"). Report the original snippet, lint the scrub.
+    const scrub = line.replace(/\\"[^"]*?\\"/g, '\\"\\"')
     for (const [re, label] of RULES) {
-      const m = line.match(re)
+      const m = scrub.match(re)
       if (m) {
         // ignore matches inside an inline quoted passage \"...\" within a "p" (verified quote)
         hits.push({ line: i + 1, label, snippet: line.trim().slice(0, 130) })

@@ -106,7 +106,7 @@ export const MEDITATIONS: PhiNarr = {
     },
     {
       "num": 4,
-      "title": "You will die soon: impermanence and the use of it",
+      "title": "Death is close: impermanence and the use of it",
       "epigraph": {
         "text": "\"Time is like a river made up of the events which happen, and a violent stream; for as soon as a thing has been seen, it is carried away, and another comes in its place.\"",
         "attribution": "— Marcus Aurelius, *Meditations* 4.43, trans. George Long"
@@ -166,7 +166,7 @@ export const MEDITATIONS: PhiNarr = {
           "p": "That conviction produces the book's most quoted practical idea, in Book 5, about the very things that obstruct action. The mind, Marcus writes, \"converts and changes every hindrance to its activity into an aid; and so that which is a hindrance is made a furtherance to an act; and that which is an obstacle on the road helps us on this road.\" The argument is precise. When the goal is some external outcome, an obstacle defeats it. But when the goal is to act with virtue, the obstacle becomes the exact occasion to do so: an injustice is the chance to be just, a hardship the chance to be brave, an interruption the chance to be patient. The thing blocking the road becomes the road, because the road was never really to the outcome. It was always to the right response, and the obstacle supplies one."
         },
         {
-          "p": "Modern readers know this passage through the slogan \"the obstacle is the way,\" which became the title of a bestselling book in 2014 and is now stamped on Marcus's name everywhere. The slogan is a fair compression of the idea, but it is a recent paraphrase, not a line Marcus wrote. His own sentence is the longer, more careful one above, and the distinction matters because the slogan loses the crucial qualifier. Marcus is not promising that every setback secretly works out for the best. He is making the narrower, tougher claim that no setback can stop a man from responding to it well, which is the only kind of success the notebook ever counts. That is the whole of the *Meditations* in one move: strip ambition down to the one thing fully in a person's power, the quality of his own action, and then nothing the world does can cancel the work, because the work was always his alone to do."
+          "p": "Modern readers know this passage through the slogan \"the obstacle is the way,\" which became the title of a bestselling book in 2014 and is now stamped on Marcus's name everywhere. The slogan is a fair compression of the idea, but it is a recent paraphrase, not a line Marcus wrote. His own sentence is the longer, more careful one above, and the slogan loses its crucial qualifier. Marcus is not promising that every setback secretly works out for the best. He is making the narrower, tougher claim that no setback can stop a man from responding to it well, which is the only kind of success the notebook ever counts. That is the whole of the *Meditations* in one move: strip ambition down to the one thing fully in a person's power, the quality of his own action, and then nothing the world does can cancel the work, because the work was always his alone to do."
         }
       ]
     }
