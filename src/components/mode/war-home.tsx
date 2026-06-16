@@ -9,11 +9,10 @@
 // its own page for now, for its extra Theatres/Facts tabs (warranted by its content).
 
 import '../../app/war-civil-war/war-skin.css'
-import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
+import { Fragment, useEffect, useMemo, useState } from 'react'
 import { WarHeader, WAR_ICONS } from '@/components/mode/war-header'
 import { WarBreadcrumb } from '@/components/mode/war-chrome'
 import { warCrumbs } from '@/components/mode/theatre-page'
-import { DottedMap, type Dot } from '@/components/mode/dotted-map'
 import type { WarConfig, WarBattle } from '@/lib/wars/types'
 
 const soonPill = <span className="fi-soon">Soon</span>
@@ -81,83 +80,20 @@ function CastTab({ cfg }: { cfg: WarConfig }) {
   )
 }
 
-// The Battles tab with the scroll-linked all-battles map (one-theatre wars). The map
-// and list are scroll-linked — whichever battle is at the top of the list is "active":
-// its dot lights up + shows its title, switching as you scroll. Only one label at a
-// time, so dense clusters never collide. When the war defines `battleRegions` (a war
-// that travels, like the Revolution), the list groups by GEOGRAPHIC region and the dots
-// are coloured by region; otherwise it groups by year with flat-grey dots (F&I).
-function BattlesTab({ cfg, locked }: { cfg: WarConfig; locked: boolean }) {
-  const map = cfg.home!.battleMap!
+// The Battles tab: just the grouped list of battles (no map, no scroll-linking, no
+// lock). When the war defines `battleRegions` (a war that travels, like the Revolution)
+// the list groups by GEOGRAPHIC region with each region's accent; otherwise it groups by
+// year. Row bullets are coloured by region/lane.
+function BattlesTab({ cfg }: { cfg: WarConfig }) {
   const regions = cfg.home!.battleRegions
   const regionById = useMemo(() => Object.fromEntries((regions ?? []).map(r => [r.id, r])), [regions])
-  const battleViews = cfg.home!.battleViews
-  // View-swap mode: tight landscape maps that swap to the active battle's region as you
-  // scroll (the Revolution). Off → one all-theatre map (F&I). On when any region has a frame.
-  const useViews = !!(battleViews || regions?.some(r => r.frame))
   const laneDot = (id: string) => cfg.lanes.find(l => l.id === id)?.color?.dot
   const dotFor = (b: WarBattle) => (b.region && regionById[b.region]?.color.dot) || laneDot(b.theatre)
   const list = useMemo(() => [...cfg.battles].sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m)), [cfg])
   const years = [...new Set(list.map(b => b.year))]
-  const [active, setActive] = useState<string | undefined>(list[0]?.id)
-  const [mapTop, setMapTop] = useState(154)
-  const mapRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    const sub = document.querySelector('.p-subnav') as HTMLElement | null
-    if (!sub) return
-    const stuck = parseFloat(getComputedStyle(sub).top) || 102
-    setMapTop(Math.round(stuck + sub.offsetHeight))
-  }, [])
-
-  useEffect(() => {
-    const rows = Array.from(document.querySelectorAll<HTMLElement>('.p-bt[data-id]'))
-    if (rows.length < 2) return
-    let raf = 0
-    const onScroll = () => {
-      cancelAnimationFrame(raf)
-      raf = requestAnimationFrame(() => {
-        const mapBottom = mapRef.current?.getBoundingClientRect().bottom ?? mapTop
-        const line = mapBottom + 84
-        let cur = rows[0].dataset.id
-        for (const r of rows) {
-          if (r.getBoundingClientRect().top <= line) cur = r.dataset.id
-          else break
-        }
-        if (cur) setActive(cur)
-      })
-    }
-    onScroll()
-    // capture:true so the active-battle tracker also fires when the inner list scrolls
-    // (locked mode) — scroll events don't bubble, but capturing ancestors still see them.
-    window.addEventListener('scroll', onScroll, { passive: true, capture: true })
-    return () => { window.removeEventListener('scroll', onScroll, true); cancelAnimationFrame(raf) }
-  }, [mapTop, locked])
-
-  const activeB = list.find(b => b.id === active)
-  // Resolve the active map view: a per-battle override (frontier / at-sea), else the
-  // active battle's region. Falls back to the single all-theatre map when views are off.
-  const activeView = activeB ? (battleViews?.[activeB.id] ?? (activeB.region ? regionById[activeB.region] : undefined)) : undefined
-  const isOverride = !!(activeB && battleViews?.[activeB.id])
-  const viewId = !useViews ? 'all' : isOverride ? `b:${activeB!.id}` : `r:${activeB?.region ?? 'all'}`
-  // Dots shown: the active region's battles (so a region reads cleanly), just the one
-  // battle for a per-battle override, or the whole roster when views are off.
-  const viewBattles = useViews && activeB
-    ? (isOverride ? [activeB] : list.filter(b => b.region === activeB.region))
-    : list
-  const viewFrame = (useViews && activeView?.frame) || map.frame
-  const viewStates = (useViews && activeView?.states) || map.states
-  const viewLabels = useViews ? activeView?.labels : undefined
-  const viewLakes = useViews ? activeView?.lakes : undefined
-  const seaPanel = useViews ? activeView?.seaPanel : undefined
-  const dots: Dot[] = viewBattles.map(b => {
-    const ll = map.coords[b.id]; if (!ll) return null
-    const isA = b.id === active
-    return { lat: ll[0], lon: ll[1], active: isA, plain: !isA, color: isA ? '#e23bd6' : (dotFor(b) ?? '#6b6170') }
-  }).filter(Boolean) as Dot[]
 
   // Grouped rendering: by GEOGRAPHIC region (each chronological inside) when the war
-  // defines regions, else by year. Same row markup + scroll-link data-id either way.
+  // defines regions, else by year.
   const groups = regions
     ? regions.map(r => ({ key: r.id, label: r.label, sub: r.range, color: r.color.dot, items: list.filter(b => b.region === r.id) })).filter(g => g.items.length)
     : years.map(y => ({ key: String(y), label: String(y), sub: undefined as string | undefined, color: undefined as string | undefined, items: list.filter(b => b.year === y) }))
@@ -171,79 +107,27 @@ function BattlesTab({ cfg, locked }: { cfg: WarConfig; locked: boolean }) {
         <span className="note">{b.href ? b.hook : soonPill}</span>
       </>
     )
-    const cls = 'p-bt' + (b.size === 'l' || b.size === 'xl' ? ' key' : '') + (b.href ? '' : ' fi-dim') + (b.id === active ? ' fi-active' : '')
+    const cls = 'p-bt' + (b.size === 'l' || b.size === 'xl' ? ' key' : '') + (b.href ? '' : ' fi-dim')
     return b.href
-      ? <a className={cls} key={b.id} data-id={b.id} href={b.href} style={{ ['--dot' as string]: dot }}>{row}</a>
-      : <div className={cls} key={b.id} data-id={b.id} style={{ ['--dot' as string]: dot }}>{row}</div>
+      ? <a className={cls} key={b.id} href={b.href} style={{ ['--dot' as string]: dot }}>{row}</a>
+      : <div className={cls} key={b.id} style={{ ['--dot' as string]: dot }}>{row}</div>
   }
 
   return (
-    <div className="p-page" style={locked ? { flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' } : undefined}>
-      <div ref={mapRef} className="fi-stickymap" style={{ position: 'sticky', top: mapTop, zIndex: 10, background: 'var(--paper)', ...(locked ? { flexShrink: 0 } : {}) }}>
-        <div className="fi-mapwrap">
-          <div key={viewId} style={{ animation: 'fi-mapswap .28s ease' }}>
-            {seaPanel ? (
-              // Schematic locator for an at-sea fight outside the dotted-map engine's
-              // US/Canada geometry (Bonhomme Richard, off England). A hand-drawn coast +
-              // headland + offshore dot — stylized, not geo-exact, but it reads as a map
-              // instead of a blank card. Top-left is left clear for the fi-mapcap overlay.
-              <div className="fi-seapanel">
-                <svg viewBox="0 0 680 420" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
-                  {[70, 160, 250, 340].map(y => (
-                    <line key={y} x1={330} y1={y} x2={648} y2={y} stroke="color-mix(in srgb, #0ea5e9 28%, transparent)" strokeWidth={1} strokeDasharray="2 8" />
-                  ))}
-                  <path d="M 130,-20 C 160,70 210,140 295,200 C 210,260 160,330 130,440 L -20,440 L -20,-20 Z" fill="color-mix(in srgb, var(--ink) 6%, transparent)" />
-                  <path d="M 130,-20 C 160,70 210,140 295,200 C 210,260 160,330 130,440" fill="none" stroke="color-mix(in srgb, var(--ink) 36%, transparent)" strokeWidth={2} strokeDasharray="1.5 5.5" strokeLinecap="round" />
-                  <text x={92} y={258} fontFamily="var(--sans)" fontSize={17} fontWeight={700} letterSpacing={2} fill="color-mix(in srgb, var(--ink) 52%, transparent)" textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--paper)" strokeWidth={4}>ENGLAND</text>
-                  <text x={540} y={104} fontFamily="var(--sans)" fontSize={13.5} fontWeight={600} letterSpacing={1.4} fill="#2f93c4" textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--paper)" strokeWidth={4}>NORTH SEA</text>
-                  <line x1={297} y1={201} x2={462} y2={206} stroke="color-mix(in srgb, #e23bd6 55%, transparent)" strokeWidth={1.4} />
-                  <text x={300} y={236} fontFamily="var(--serif)" fontSize={13} fontStyle="italic" fill="var(--muted)" textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--paper)" strokeWidth={3.6}>Flamborough Head</text>
-                  <circle cx={470} cy={206} r={9} fill="none" stroke="#e23bd6" strokeWidth={2.5}>
-                    <animate attributeName="r" values="9;22" dur="1.6s" repeatCount="indefinite" />
-                    <animate attributeName="opacity" values="0.75;0" dur="1.6s" repeatCount="indefinite" />
-                  </circle>
-                  <circle cx={470} cy={206} r={7.5} fill="#e23bd6" stroke="var(--paper)" strokeWidth={2} />
-                  <text x={340} y={400} fontFamily="var(--serif)" fontSize={12.5} fill="var(--muted)" textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--paper)" strokeWidth={3.4}>{seaPanel.sub}</text>
-                </svg>
-              </div>
-            ) : (
-              <DottedMap accent={map.accent} frame={viewFrame} states={viewStates} labels={viewLabels} lakes={viewLakes} dots={dots}
-                {...(useViews ? { vbHeight: 400, inset: false, geoInset: { t: 0.05, b: 0.05, l: 0.02, r: 0.02 } } : {})} />
-            )}
-          </div>
-          {activeB && (
-            <a className="fi-mapcap" href={activeB.href ?? undefined} style={{ pointerEvents: activeB.href ? 'auto' : 'none', ...(useViews ? { top: 12, left: 14, right: 'auto' as const, bottom: 'auto' as const, alignItems: 'flex-start' as const, textAlign: 'left' as const, maxWidth: '46%' } : {}) }}>
-              <b className="p-serif">{activeB.name}</b>
-              <span>{activeB.place} · {activeB.year}{activeB.href ? '' : ' · soon'}</span>
-            </a>
-          )}
-        </div>
-      </div>
-      <div className="fi-listscroll" style={locked ? { flex: 1, minHeight: 0, overflowY: 'auto', WebkitOverflowScrolling: 'touch', paddingBottom: 28 } : undefined}>
-        <div className="p-sechead"><h2 className="p-label">Every battle</h2><span className="ct">{list.length} battles</span></div>
-        <div className="p-tl">
-          {groups.map(g => (
-            <div key={g.key}>
-              <div className="p-yr">
-                <span className="ylab" style={g.color ? { color: g.color } : undefined}>{g.label}</span>
-                <span className="yline" />
-                {g.sub && <span className="p-mono" style={{ fontSize: 11, color: g.color ?? 'var(--muted)' }}>{g.sub}</span>}
-              </div>
-              {g.items.map(renderRow)}
+    <div className="p-page">
+      <div className="p-sechead"><h2 className="p-label">Every battle</h2><span className="ct">{list.length} battles</span></div>
+      <div className="p-tl">
+        {groups.map(g => (
+          <div key={g.key}>
+            <div className="p-yr">
+              <span className="ylab" style={g.color ? { color: g.color } : undefined}>{g.label}</span>
+              <span className="yline" />
+              {g.sub && <span className="p-mono" style={{ fontSize: 11, color: g.color ?? 'var(--muted)' }}>{g.sub}</span>}
             </div>
-          ))}
-        </div>
+            {g.items.map(renderRow)}
+          </div>
+        ))}
       </div>
-      <style>{`
-        @keyframes fi-mapswap { from { opacity: .25 } to { opacity: 1 } }
-        /* aspect/height tracks the dotted maps (~landscape) so swapping to an adjacent
-           battle's sea panel doesn't shift the list height (which ping-ponged the
-           scroll-linked active battle — Bonhomme Richard ⇄ Vincennes). */
-        /* aspect 1.7 == the dotted maps' fixed vbHeight (680/400), so map↔sea swaps never
-           resize the list area (that resize was the bottom-of-list scroll glitch). */
-        .war-skin .fi-seapanel { position:relative; aspect-ratio:1.7/1; min-height:150px; max-height:40vh; border:1px solid var(--line-soft); border-radius:10px; overflow:hidden; background: color-mix(in srgb, #4a6b86 12%, var(--paper)); }
-        .war-skin .fi-seapanel svg { position:absolute; inset:0; width:100%; height:100%; display:block; }
-      `}</style>
     </div>
   )
 }
@@ -282,12 +166,7 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
   // The breadcrumb's jump rung reads the generic "Jump to" on load (its dropdown lists
   // every section), switching to the section's name only once the reader picks a tab.
   const [picked, setPicked] = useState(false)
-  // Focused browsing: a lock toggle on the Battles tab collapses the masthead/hero so the
-  // sticky tab bar pins to the top and only the battle list scrolls. Off by default; only
-  // the Battles tab carries the control. Switching to any other tab releases the lock.
-  const [locked, setLocked] = useState(false)
-  const pick = (k: string) => { setTab(k); setPicked(true); if (k !== 'battles') setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
-  const toggleLock = () => { setPicked(true); setTab('battles'); setLocked(v => !v); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
+  const pick = (k: string) => { setTab(k); setPicked(true) }
 
   // Tabs: the four core sections. Commanders only when the war has a cast.
   const tabs = [
@@ -314,51 +193,36 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
   }, [])
 
   return (
-    <div className={'war-skin' + (locked ? ' p-locked' : '')} style={locked ? { position: 'fixed', inset: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column' } : undefined}>
+    <div className="war-skin">
       <WarHeader backHref="/war" title={cfg.name} />
 
       <WarBreadcrumb crumbs={warCrumbs(cfg, picked && tabLane[tab] ? { lane: tabLane[tab] } : undefined)} accent={cfg.accent} bare />
 
-      {!locked && (
-        <>
-          <div className="p-mast">
-            <div className="p-eyebrow">{home.eyebrow}</div>
-            <h1 className="p-mast-title p-serif">{home.title.map((line, i) => <Fragment key={i}>{i > 0 && <br />}{line}</Fragment>)}</h1>
-            <p className="p-stand">{home.standfirst}</p>
-          </div>
-          <div className="p-heroband">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={home.heroImg} alt="" />
-          </div>
-          <div className="p-credit">{home.heroCredit}</div>
-        </>
-      )}
+      <div className="p-mast">
+        <div className="p-eyebrow">{home.eyebrow}</div>
+        <h1 className="p-mast-title p-serif">{home.title.map((line, i) => <Fragment key={i}>{i > 0 && <br />}{line}</Fragment>)}</h1>
+        <p className="p-stand">{home.standfirst}</p>
+      </div>
+      <div className="p-heroband">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={home.heroImg} alt="" />
+      </div>
+      <div className="p-credit">{home.heroCredit}</div>
 
       <div className="p-subnav below-crumb">
         <div className="p-seg">
           {tabs.map(t => (
-            <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>
-              {t.label}
-              {t.k === 'battles' && (
-                <span role="button" tabIndex={0}
-                  aria-label={locked ? 'Unlock — show the full page' : 'Lock the tab bar to the top'}
-                  onClick={e => { e.stopPropagation(); toggleLock() }}
-                  onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); toggleLock() } }}
-                  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', marginLeft: 6, verticalAlign: 'middle', opacity: locked ? 1 : 0.65, cursor: 'pointer' }}>
-                  {locked ? WAR_ICONS.lock : WAR_ICONS.unlock}
-                </span>
-              )}
-            </button>
+            <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>{t.label}</button>
           ))}
         </div>
       </div>
 
       {tab === 'story' && <StoryTab cfg={cfg} />}
-      {tab === 'battles' && <BattlesTab cfg={cfg} locked={locked} />}
+      {tab === 'battles' && <BattlesTab cfg={cfg} />}
       {tab === 'cast' && <CastTab cfg={cfg} />}
       {tab === 'offfield' && <OffFieldTab cfg={cfg} />}
 
-      {home.footer && !locked && (
+      {home.footer && (
         <div className="bp-foot">
           <a href="/war">
             <span>Part of <b className="p-serif">the American wars</b><span className="sub">Every war the country has fought</span></span>

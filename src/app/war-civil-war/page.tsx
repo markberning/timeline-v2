@@ -117,7 +117,7 @@ function StoryTab() {
   )
 }
 
-function BattlesTab({ theatre, query, locked }: { theatre: string; query: string; locked: boolean }) {
+function BattlesTab({ theatre, query }: { theatre: string; query: string }) {
   const q = query.trim().toLowerCase()
   const list = useMemo(() => {
     let l = [...MAJORS].sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))
@@ -128,13 +128,13 @@ function BattlesTab({ theatre, query, locked }: { theatre: string; query: string
   const years = [...new Set(list.map(b => b.year))]
 
   return (
-    <div className="p-page" style={locked ? { flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' } : undefined}>
-      <div className="p-sechead" style={locked ? { flexShrink: 0 } : undefined}>
+    <div className="p-page">
+      <div className="p-sechead">
         <h2 className="p-label">{q ? `Matching “${query}”` : (theatre === 'All' ? 'Every battle' : `${THEATRE[theatre]?.label} theatre`)}</h2>
         <span className="ct">{list.length} battle{list.length !== 1 ? 's' : ''}</span>
       </div>
       {list.length ? (
-        <div className="p-tl" style={locked ? { flex: 1, minHeight: 0, overflowY: 'auto', WebkitOverflowScrolling: 'touch' } : undefined}>
+        <div className="p-tl">
           {years.map(yr => (
             <div key={yr}>
               <div className="p-yr"><span className="ylab">{yr}</span><span className="yline" /></div>
@@ -313,12 +313,7 @@ export default function WarHome() {
   const [search, setSearch] = useState(false)
   const [bq, setBq] = useState('')
   const [thFilter, setThFilter] = useState('All')
-  // Focused browsing: a lock toggle on the Battles tab collapses the masthead/hero so the
-  // sticky tab bar pins to the top and only the battle list scrolls. Off by default; only
-  // the Battles tab carries the control. Switching to any other tab releases the lock.
-  const [locked, setLocked] = useState(false)
-  const pick = (k: string) => { setTab(k); if (k !== 'battles') setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
-  const toggleLock = () => { setTab('battles'); setLocked(v => !v); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
+  const pick = (k: string) => { setTab(k); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
 
   // Deep link from the breadcrumb "Theatre" crumb: /war-civil-war?theatre=east
   // lands on the Theatres tab with that theatre's chip selected, scrolled to the
@@ -333,7 +328,7 @@ export default function WarHome() {
   }, [])
 
   return (
-    <div className={'war-skin' + (locked ? ' p-locked' : '')} style={locked ? { position: 'fixed', inset: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column' } : undefined}>
+    <div className="war-skin">
       {/* sticky header */}
       <header className="p-hdr">
         <a className="back" href="/war" aria-label="All wars">{I.back}</a>
@@ -346,44 +341,23 @@ export default function WarHome() {
       <WarBreadcrumb crumbs={warCrumbs(CIVIL_WAR, thFilter !== 'All' ? { lane: thFilter } : undefined)} bare />
 
       {/* editorial masthead */}
-      {!locked && (
-        <>
-          <div className="p-mast">
-            <div className="p-eyebrow">War · 1861&ndash;1865</div>
-            <h1 className="p-mast-title p-serif">American<br />Civil War</h1>
-            <p className="p-stand">{STANDFIRST}</p>
-          </div>
-          <div className="p-heroband">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/war-img/civil-war-hero.jpg" alt="" />
-          </div>
-          <div className="p-credit">Storming Fort Wagner · Kurz &amp; Allison · public domain</div>
-        </>
-      )}
+      <div className="p-mast">
+        <div className="p-eyebrow">War · 1861&ndash;1865</div>
+        <h1 className="p-mast-title p-serif">American<br />Civil War</h1>
+        <p className="p-stand">{STANDFIRST}</p>
+      </div>
+      <div className="p-heroband">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/war-img/civil-war-hero.jpg" alt="" />
+      </div>
+      <div className="p-credit">Storming Fort Wagner · Kurz &amp; Allison · public domain</div>
 
       {/* sticky two-row tab bar (+ battle filter on the Battles tab) */}
       <div className="p-subnav below-crumb">
-        {locked && (
-          <button onClick={() => { setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }}
-            style={{ display: 'block', width: '100%', padding: '2px 0 7px', margin: 0, border: 'none', background: 'transparent', color: 'var(--muted)', font: '600 11px/1 var(--sans)', letterSpacing: '.09em', textTransform: 'uppercase', cursor: 'pointer' }}>
-            ⌃ Expand
-          </button>
-        )}
         {TAB_ROWS.map((row, ri) => (
           <div className="p-seg" key={ri}>
             {row.map(t => (
-              <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>
-                {t.label}
-                {t.k === 'battles' && (
-                  <span role="button" tabIndex={0}
-                    aria-label={locked ? 'Unlock — show the full page' : 'Lock the tab bar to the top'}
-                    onClick={e => { e.stopPropagation(); toggleLock() }}
-                    onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); toggleLock() } }}
-                    style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', marginLeft: 6, verticalAlign: 'middle', opacity: locked ? 1 : 0.65, cursor: 'pointer' }}>
-                    {locked ? I.lock : I.unlock}
-                  </span>
-                )}
-              </button>
+              <button key={t.k} className={tab === t.k ? 'on' : ''} onClick={() => pick(t.k)}>{t.label}</button>
             ))}
           </div>
         ))}
@@ -408,7 +382,7 @@ export default function WarHome() {
 
       {/* active tab */}
       {tab === 'story' && <StoryTab />}
-      {tab === 'battles' && <BattlesTab theatre={thFilter} query={bq} locked={locked} />}
+      {tab === 'battles' && <BattlesTab theatre={thFilter} query={bq} />}
       {tab === 'offfield' && <OffFieldTab />}
       {tab === 'theatres' && <TheatresTab active={thFilter} goBattles={k => { setThFilter(k); pick('battles') }} />}
       {tab === 'commanders' && <CommandersTab />}
