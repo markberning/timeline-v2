@@ -100,6 +100,9 @@ export interface BattleMapView {
   frame?: { lonMin: number; lonMax: number; latMin: number; latMax: number }
   states?: { name: string; label?: string; labelLon?: number; labelLat?: number; labelSize?: number }[]
   labels?: { text: string; lon: number; lat: number; kind?: 'accent' | 'water' | 'faint'; size?: number; anchor?: 'start' | 'middle' | 'end' }[]
+  // Named lakes from LAKE_OUTLINES, drawn as soft water shapes under the dots — the
+  // geography that defines a battle (Champlain/George for the Saratoga corridor).
+  lakes?: { name: string; label?: string; labelLon?: number; labelLat?: number; labelSize?: number; labelAnchor?: 'start' | 'middle' | 'end' }[]
   seaPanel?: { title: string; sub: string }
 }
 

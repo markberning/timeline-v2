@@ -146,6 +146,7 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
   const viewFrame = (useViews && activeView?.frame) || map.frame
   const viewStates = (useViews && activeView?.states) || map.states
   const viewLabels = useViews ? activeView?.labels : undefined
+  const viewLakes = useViews ? activeView?.lakes : undefined
   const seaPanel = useViews ? activeView?.seaPanel : undefined
   const dots: Dot[] = viewBattles.map(b => {
     const ll = map.coords[b.id]; if (!ll) return null
@@ -185,11 +186,11 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
                 <span className="sp-sub">{seaPanel.sub}</span>
               </div>
             ) : (
-              <DottedMap accent={map.accent} frame={viewFrame} states={viewStates} labels={viewLabels} dots={dots} />
+              <DottedMap accent={map.accent} frame={viewFrame} states={viewStates} labels={viewLabels} lakes={viewLakes} dots={dots} />
             )}
           </div>
           {activeB && (
-            <a className="fi-mapcap" href={activeB.href ?? undefined} style={{ pointerEvents: activeB.href ? 'auto' : 'none' }}>
+            <a className="fi-mapcap" href={activeB.href ?? undefined} style={{ pointerEvents: activeB.href ? 'auto' : 'none', ...(useViews ? { top: 12, left: 14, right: 'auto' as const, bottom: 'auto' as const, alignItems: 'flex-start' as const, textAlign: 'left' as const, maxWidth: '46%' } : {}) }}>
               <b className="p-serif">{activeB.name}</b>
               <span>{activeB.place} · {activeB.year}{activeB.href ? '' : ' · soon'}</span>
             </a>
@@ -211,7 +212,10 @@ function BattlesTab({ cfg }: { cfg: WarConfig }) {
       </div>
       <style>{`
         @keyframes fi-mapswap { from { opacity: .25 } to { opacity: 1 } }
-        .war-skin .fi-seapanel { display:flex; flex-direction:column; gap:6px; align-items:center; justify-content:center; text-align:center; min-height:148px; padding:22px 18px; border:1px solid var(--line-soft); border-radius:10px; background: color-mix(in srgb, #4a6b86 13%, var(--paper)); }
+        /* aspect/height tracks the dotted maps (~landscape) so swapping to an adjacent
+           battle's sea panel doesn't shift the list height (which ping-ponged the
+           scroll-linked active battle — Bonhomme Richard ⇄ Vincennes). */
+        .war-skin .fi-seapanel { display:flex; flex-direction:column; gap:6px; align-items:center; justify-content:center; text-align:center; aspect-ratio:1.7/1; min-height:180px; max-height:40vh; padding:22px 18px; border:1px solid var(--line-soft); border-radius:10px; background: color-mix(in srgb, #4a6b86 13%, var(--paper)); }
         .war-skin .fi-seapanel .sp-eye { font:700 12.5px/1.3 var(--sans); letter-spacing:.03em; color:var(--ink); }
         .war-skin .fi-seapanel .sp-sub { font:400 12.5px/1.5 var(--serif); color:var(--muted); max-width:330px; }
       `}</style>

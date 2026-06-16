@@ -174,14 +174,20 @@ export const REVOLUTION: WarConfig = {
         ],
         labels: [{ text: 'ATLANTIC', lon: -73.1, lat: 39.95, kind: 'water', size: 11 }] },
       { id: 'saratoga', label: 'The Hudson & Saratoga', range: '1777', color: { light: '#b3852f', dark: '#d8b25a', dot: '#b3852f' },
-        frame: { lonMin: -75.5, lonMax: -71.5, latMin: 42.5, latMax: 44.2 },
+        // Frame widened + pushed north so Lake George and the southern reach of Lake
+        // Champlain — the water highway Burgoyne's army came down — are both in view.
+        frame: { lonMin: -76.0, lonMax: -71.0, latMin: 42.5, latMax: 44.7 },
         states: [
-          { name: 'New York', label: 'NEW YORK', labelLon: -74.3, labelLat: 43.2, labelSize: 12 },
-          { name: 'Vermont', label: 'VT.', labelLon: -72.7, labelLat: 43.7, labelSize: 11 },
-          { name: 'Massachusetts', label: 'MASS.', labelLon: -72.5, labelLat: 42.6, labelSize: 10 },
-          { name: 'New Hampshire' },
+          { name: 'New York', label: 'NEW YORK', labelLon: -74.7, labelLat: 43.35, labelSize: 12 },
+          { name: 'Vermont', label: 'VT.', labelLon: -72.75, labelLat: 43.95, labelSize: 11 },
+          { name: 'Massachusetts', label: 'MASS.', labelLon: -72.4, labelLat: 42.7, labelSize: 10 },
+          { name: 'New Hampshire', label: 'N.H.', labelLon: -71.55, labelLat: 43.7, labelSize: 10 },
         ],
-        labels: [{ text: 'HUDSON R.', lon: -73.82, lat: 42.62, kind: 'water', size: 10 }] },
+        lakes: [
+          { name: 'Lake Champlain', label: 'LAKE CHAMPLAIN', labelLon: -73.05, labelLat: 44.45, labelSize: 11, labelAnchor: 'start' },
+          { name: 'Lake George', label: 'L. GEORGE', labelLon: -73.95, labelLat: 43.62, labelSize: 9.5, labelAnchor: 'end' },
+        ],
+        labels: [{ text: 'HUDSON R.', lon: -73.95, lat: 42.85, kind: 'water', size: 10 }] },
       { id: 'pennsylvania', label: 'Pennsylvania', range: '1777', color: { light: '#4e8a52', dark: '#84c089', dot: '#4e8a52' },
         frame: { lonMin: -76.85, lonMax: -73.95, latMin: 39.3, latMax: 40.6 },
         states: [
