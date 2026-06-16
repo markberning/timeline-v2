@@ -20,24 +20,7 @@ const LEXINGTON_NARR: Record<string, Narr> = {
     eyebrow: 'Lexington & Concord · The night before',
     title: 'The regulars are coming out',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · April 18–19, 1775',
-        caption: 'Smith\'s column rowed from Boston to Lechmere Point on the night of April 18 and marched some 11 miles to Lexington and 6 to 7 more to Concord; the fighting retreat ran the same road back, about 16 miles (26 km), ending at Charlestown Neck under the guns of the warship HMS Somerset.',
-        frame: { lonMin: -71.42, lonMax: -71.00, latMin: 42.33, latMax: 42.50 },
-        states: [
-          { name: 'Massachusetts', tone: 'focus', label: 'MASSACHUSETTS', labelLon: -71.36, labelLat: 42.35, labelSize: 12 },
-        ],
-        dots: [
-          { name: 'Barrett\'s Farm', lat: 42.475, lon: -71.374, color: '#8a8175', anchor: 'start', dy: -8 },
-          { name: 'North Bridge', lat: 42.4692, lon: -71.3505, heavy: true, anchor: 'start', dy: -2 },
-          { name: 'Concord', lat: 42.4604, lon: -71.3489, anchor: 'end', dy: 10 },
-          { name: 'Lexington', date: 'dawn, April 19, 1775', lat: 42.4496, lon: -71.2310, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Menotomy', lat: 42.4154, lon: -71.1565, color: '#8a8175', anchor: 'start', dy: -4 },
-          { name: 'Lechmere Point landing', lat: 42.371, lon: -71.077, color: '#8a8175', anchor: 'end', dy: 2 },
-          { name: 'Charlestown Neck', lat: 42.3776, lon: -71.0680, color: '#8a8175', anchor: 'end', dy: -10 },
-          { name: 'Boston', lat: 42.3601, lon: -71.0589, anchor: 'end', dy: 12 },
-        ],
-      } },
+      { fig: '/war-img/rev-lexington-tac1.jpg', cap: 'Smith\'s column rowed from Boston to Lechmere Point on the night of April 18 and marched some 11 miles to Lexington and 6 to 7 more to Concord; the fighting retreat ran the same road back, about 16 miles (26 km), ending at Charlestown Neck under the guns of HMS Somerset.', credit: 'Stuff Happened map' },
       { p: 'In the spring of 1775 Boston was an occupied city, and very nearly an island: a peninsula town joined to the mainland by a single narrow neck of land. After years of escalating quarrel between Britain and its American colonies, the town was garrisoned by regiments of regulars (the king\'s professional, full-time soldiers) and a force of Royal Marines (Britain\'s sea-service soldiers), all under General Thomas Gage (British), and the occupation was exactly the problem it was meant to solve. Outside Boston, the Massachusetts countryside had been organizing for months for the day the troops marched out of it. Every town kept a militia (the part-time citizen soldiery of farmers and tradesmen, mustered into companies under their own officers), and the towns had built a designated rapid-response tier on top of it: the minute companies, roughly a quarter to a third of the militia rolls, picked men expected to turn out at a minute\'s warning. None of this was spontaneous. It was a system, drilled and re-drilled, waiting for a trigger.' },
       { pill: '/war-revolution/off-the-battlefield/boston-massacre', plabel: 'An army in Boston: the Townshend Acts & the Massacre' },
       { p: 'The trigger was a warehouse town. The Provincial Congress (the assembly the Massachusetts rebels had set up in defiance of Gage\'s government) had been stockpiling arms and supplies at Concord, about 18 miles from Boston, and Gage\'s spies knew it in detail. On the night of April 18 he handed Lieutenant Colonel Francis Smith (British), a heavy, methodical, thirty-year professional of the 10th Regiment of Foot, written orders to take about 700 men drawn from the garrison\'s grenadier and light infantry companies (the two picked "flank companies" every regiment kept: the grenadiers its biggest men, for assaults; the light infantry its fastest, for skirmishing and flank work) and march on the stockpile.' },
@@ -56,23 +39,7 @@ const LEXINGTON_NARR: Record<string, Narr> = {
     eyebrow: 'Lexington & Concord · April 19',
     title: 'The green, the bridge, and the road',
     blocks: [
-      { locator: {
-        eyebrow: 'The road home · April 19, 1775',
-        caption: 'The first 6 miles of the road home, where the column was nearly destroyed: ambush sites at Meriam\'s Corner, the Bloody Angle, Parker\'s Revenge, and Fiske Hill, before Percy\'s brigade met the survivors east of Lexington green. Road-fight site positions are approximate.',
-        frame: { lonMin: -71.40, lonMax: -71.19, latMin: 42.41, latMax: 42.50 },
-        states: [
-          { name: 'Massachusetts', tone: 'focus' },
-        ],
-        dots: [
-          { name: 'Concord', lat: 42.4604, lon: -71.3489, anchor: 'end', dy: 4 },
-          { name: 'Meriam\'s Corner', lat: 42.4596, lon: -71.3218, color: '#8a8175', anchor: 'middle', dy: -14 },
-          { name: 'The Bloody Angle', lat: 42.450, lon: -71.292, color: '#8a8175', anchor: 'middle', dy: 18 },
-          { name: 'Parker\'s Revenge', lat: 42.448, lon: -71.266, color: '#8a8175', anchor: 'middle', dy: -14 },
-          { name: 'Fiske Hill', lat: 42.446, lon: -71.252, color: '#8a8175', anchor: 'middle', dy: 18 },
-          { name: 'Lexington', lat: 42.4496, lon: -71.2310, heavy: true, anchor: 'middle', dy: -16 },
-          { name: 'Munroe Tavern', lat: 42.444, lon: -71.217, color: '#8a8175', anchor: 'middle', dy: 18 },
-        ],
-      } },
+      { fig: '/war-img/rev-lexington-tac2.jpg', cap: 'The first 6 miles of the road home, where the column was nearly destroyed: ambush sites at Meriam\'s Corner, the Bloody Angle, Parker\'s Revenge, and Fiske Hill, before Percy\'s brigade met the survivors east of Lexington green. Road-fight site positions are approximate.', credit: 'Stuff Happened map' },
       { p: 'Major John Pitcairn (British), the Royal Marines officer leading the column\'s advance companies of regulars (the king\'s professional soldiers), reached Lexington, a town astride the road about 11 miles out of Boston and 6 to 7 short of Concord, a little before 5 a.m. On the town green he found about 77 militiamen (the town\'s part-time citizen soldiers) drawn up in parade-ground lines under Captain John Parker (American), a 45-year-old farmer, a French and Indian War veteran, and a man dying of tuberculosis. He had not formed them across the Concord road. They stood off to the side of it, a presence rather than a barricade, and not an ambush. Six days later Parker swore a deposition (a formal statement made under oath) about his intentions.' },
       { p: 'concluded not to be discovered, nor meddle or make with said Regular Troops (if they should approach) unless they should insult or molest us; and upon their sudden Approach, I immediately ordered our Militia to disperse and not to fire', q: true },
       { p: 'Mounted officers, commonly said to include Pitcairn, rode forward shouting at the militia to disperse ("Disperse, you rebels!" in the colonial accounts). The men were filing off, though not grounding their arms, when a shot came from somewhere. Nobody has ever established who fired it: a regular, a militiaman, an onlooker, an accident. Some regulars swore it came from behind a hedge or a tavern corner, and a captured British officer, Lieutenant Edward Gould, gave the most honest contemporary answer, deposing that he could not say which side fired first. What followed is certain. The regulars fired volleys and charged with bayonets, and their officers needed some minutes to beat the firing back down. Eight Americans were killed and ten wounded, against one regular lightly wounded. Jonathan Harrington dragged himself to his own doorstep and died at his wife\'s feet. It took minutes.' },

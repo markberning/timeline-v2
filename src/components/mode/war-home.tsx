@@ -207,7 +207,8 @@ function BattlesTab({ cfg, locked }: { cfg: WarConfig; locked: boolean }) {
                 </svg>
               </div>
             ) : (
-              <DottedMap accent={map.accent} frame={viewFrame} states={viewStates} labels={viewLabels} lakes={viewLakes} dots={dots} />
+              <DottedMap accent={map.accent} frame={viewFrame} states={viewStates} labels={viewLabels} lakes={viewLakes} dots={dots}
+                {...(useViews ? { vbHeight: 400, inset: false, geoInset: { t: 0.05, b: 0.05, l: 0.02, r: 0.02 } } : {})} />
             )}
           </div>
           {activeB && (
@@ -218,7 +219,7 @@ function BattlesTab({ cfg, locked }: { cfg: WarConfig; locked: boolean }) {
           )}
         </div>
       </div>
-      <div className="fi-listscroll" style={locked ? { flex: 1, minHeight: 0, overflowY: 'auto', WebkitOverflowScrolling: 'touch' } : undefined}>
+      <div className="fi-listscroll" style={locked ? { flex: 1, minHeight: 0, overflowY: 'auto', WebkitOverflowScrolling: 'touch', paddingBottom: 28 } : undefined}>
         <div className="p-sechead"><h2 className="p-label">Every battle</h2><span className="ct">{list.length} battles</span></div>
         <div className="p-tl">
           {groups.map(g => (
@@ -238,7 +239,9 @@ function BattlesTab({ cfg, locked }: { cfg: WarConfig; locked: boolean }) {
         /* aspect/height tracks the dotted maps (~landscape) so swapping to an adjacent
            battle's sea panel doesn't shift the list height (which ping-ponged the
            scroll-linked active battle — Bonhomme Richard ⇄ Vincennes). */
-        .war-skin .fi-seapanel { position:relative; aspect-ratio:1.62/1; min-height:180px; max-height:40vh; border:1px solid var(--line-soft); border-radius:10px; overflow:hidden; background: color-mix(in srgb, #4a6b86 12%, var(--paper)); }
+        /* aspect 1.7 == the dotted maps' fixed vbHeight (680/400), so map↔sea swaps never
+           resize the list area (that resize was the bottom-of-list scroll glitch). */
+        .war-skin .fi-seapanel { position:relative; aspect-ratio:1.7/1; min-height:150px; max-height:40vh; border:1px solid var(--line-soft); border-radius:10px; overflow:hidden; background: color-mix(in srgb, #4a6b86 12%, var(--paper)); }
         .war-skin .fi-seapanel svg { position:absolute; inset:0; width:100%; height:100%; display:block; }
       `}</style>
     </div>
@@ -286,15 +289,6 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
   const pick = (k: string) => { setTab(k); setPicked(true); if (k !== 'battles') setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
   const toggleLock = () => { setPicked(true); setTab('battles'); setLocked(v => !v); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
 
-  // When locked, freeze the page so only the battle list scrolls (the root becomes a
-  // fixed full-viewport flex column below; this kills the document scroll behind it).
-  useEffect(() => {
-    if (!locked) return
-    const html = document.documentElement, prev = html.style.overflow
-    html.style.overflow = 'hidden'
-    return () => { html.style.overflow = prev }
-  }, [locked])
-
   // Tabs: the four core sections. Commanders only when the war has a cast.
   const tabs = [
     { k: 'story', label: 'Story' },
@@ -320,7 +314,7 @@ export function WarHome({ cfg }: { cfg: WarConfig }) {
   }, [])
 
   return (
-    <div className={'war-skin' + (locked ? ' p-locked' : '')} style={locked ? { position: 'fixed', inset: 0, display: 'flex', flexDirection: 'column' } : undefined}>
+    <div className={'war-skin' + (locked ? ' p-locked' : '')} style={locked ? { position: 'fixed', inset: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column' } : undefined}>
       <WarHeader backHref="/war" title={cfg.name} />
 
       <WarBreadcrumb crumbs={warCrumbs(cfg, picked && tabLane[tab] ? { lane: tabLane[tab] } : undefined)} accent={cfg.accent} bare />

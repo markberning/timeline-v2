@@ -320,15 +320,6 @@ export default function WarHome() {
   const pick = (k: string) => { setTab(k); if (k !== 'battles') setLocked(false); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
   const toggleLock = () => { setTab('battles'); setLocked(v => !v); requestAnimationFrame(() => window.scrollTo({ top: 0 })) }
 
-  // When locked, freeze the document so only the battle list scrolls (root becomes a
-  // fixed full-viewport flex column below).
-  useEffect(() => {
-    if (!locked) return
-    const html = document.documentElement, prev = html.style.overflow
-    html.style.overflow = 'hidden'
-    return () => { html.style.overflow = prev }
-  }, [locked])
-
   // Deep link from the breadcrumb "Theatre" crumb: /war-civil-war?theatre=east
   // lands on the Theatres tab with that theatre's chip selected, scrolled to the
   // tab bar.
@@ -342,7 +333,7 @@ export default function WarHome() {
   }, [])
 
   return (
-    <div className={'war-skin' + (locked ? ' p-locked' : '')} style={locked ? { position: 'fixed', inset: 0, display: 'flex', flexDirection: 'column' } : undefined}>
+    <div className={'war-skin' + (locked ? ' p-locked' : '')} style={locked ? { position: 'fixed', inset: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column' } : undefined}>
       {/* sticky header */}
       <header className="p-hdr">
         <a className="back" href="/war" aria-label="All wars">{I.back}</a>
