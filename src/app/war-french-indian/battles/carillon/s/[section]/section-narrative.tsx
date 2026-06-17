@@ -15,23 +15,7 @@ const CARILLON_NARR: Record<string, Narr> = {
     eyebrow: 'Carillon · The army on the lake',
     title: 'The largest army in America',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · July 1758',
-        caption: 'Fort Carillon sat on the narrow neck of land between Lake George and Lake Champlain, the great water corridor from the British colonies up toward the French heart of Canada. Abercromby’s army rowed the length of Lake George from Fort William Henry, landed at the north end, and marched overland to the French works.',
-        frame: { lonMin: -74.05, lonMax: -72.95, latMin: 43.30, latMax: 44.20 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -73.85, labelLat: 43.95 },
-        ],
-        lakes: [
-          { name: 'Lake George', label: 'LAKE GEORGE', labelLon: -73.78, labelLat: 43.55, labelSize: 12 },
-          { name: 'Lake Champlain', label: 'LAKE CHAMPLAIN', labelLon: -73.18, labelLat: 44.05, labelSize: 12 },
-        ],
-        dots: [
-          { name: 'Fort Carillon (Ticonderoga)', date: 'July 8, 1758', lat: 43.84, lon: -73.39, heavy: true, anchor: 'end', dateBelow: true },
-          { name: 'Lake George landing', lat: 43.62, lon: -73.51, color: '#8a8175', anchor: 'start' },
-          { name: 'Fort William Henry', lat: 43.42, lon: -73.71, color: '#8a8175', anchor: 'start' },
-        ],
-      } },
+      { fig: '/war-img/fi-carillon-tac1.jpg', cap: 'Fort Carillon sat on the narrow neck of land between Lake George and Lake Champlain, the great water corridor from the British colonies up toward the French heart of Canada. Abercromby’s army rowed the length of Lake George from Fort William Henry, landed at the north end, and marched overland to the French works.', credit: 'Stuff Happened map' },
       { p: 'In the summer of 1758 the British were done losing. For three years the war in North America had gone badly, a string of frontier disasters that began at the Monongahela and never quite let up. Then a new minister, William Pitt, took hold of the war from London and changed how it was fought, pouring men and money into the colonies and aiming three great blows at New France all at once: one at Louisbourg, the French fortress guarding the mouth of the St. Lawrence; one at Fort Duquesne in the west; and one straight up the middle, at the French fort the British meant to use as a doorway into Canada itself.' },
       { fig: '/war-img/fi-carillon-jefferys-plan.jpg', cap: 'Thomas Jefferys’s 1758 plan of the fort and town of Carillon at Ticonderoga, marking the attack Abercromby’s army made on July 8. It is the first published plan of the battle.', credit: 'Thomas Jefferys · engraved plan · 1758 · Bibliothèque et Archives nationales du Québec / Wikimedia Commons · public domain' },
       { pill: '/war-french-indian/pitts-turn', plabel: 'Pitt takes hold of the war: the 1758 offensive' },

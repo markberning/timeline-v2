@@ -15,23 +15,7 @@ const LOUISBOURG_NARR: Record<string, Narr> = {
     eyebrow: 'Louisbourg · The sea gate to Canada',
     title: 'The fortress by the sea',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · Summer 1758',
-        caption: 'Louisbourg sat on the rocky southeast coast of Cape Breton Island, a walled town and naval base guarding the Gulf of St. Lawrence and the river road to Quebec. Amherst’s fleet staged out of Halifax, landed in the surf at Gabarus Bay, and closed a seven-week siege around the fortress.',
-        frame: { lonMin: -64.6, lonMax: -59.2, latMin: 44.3, latMax: 47.2 },
-        states: [
-          { name: 'Nova Scotia', tone: 'focus', label: 'NOVA SCOTIA', labelLon: -63.2, labelLat: 45.2, labelSize: 13 },
-          { name: 'New Brunswick', label: 'NEW BRUNSWICK', labelLon: -64.0, labelLat: 46.6, labelSize: 11 },
-        ],
-        dots: [
-          { name: 'Louisbourg', date: 'Jun–Jul 1758', lat: 45.89, lon: -59.98, heavy: true, anchor: 'end', dateBelow: true },
-          { name: 'Gabarus Bay (the landing)', lat: 45.87, lon: -60.06, color: '#8a8175', anchor: 'start' },
-          { name: 'Halifax', lat: 44.65, lon: -63.57, color: '#8a8175', anchor: 'start' },
-        ],
-        labels: [
-          { text: 'TO THE ST. LAWRENCE & QUEBEC', lon: -62.8, lat: 47.0, kind: 'faint', size: 11, anchor: 'middle' },
-        ],
-      } },
+      { fig: '/war-img/fi-louisbourg-tac1.jpg', cap: 'Louisbourg sat on the rocky southeast coast of Cape Breton Island, a walled town and naval base guarding the Gulf of St. Lawrence and the river road to Quebec. Amherst’s fleet staged out of Halifax, landed in the surf at Gabarus Bay, and closed a seven-week siege around the fortress.', credit: 'Stuff Happened map' },
       { p: 'On the rocky southeast shore of Cape Breton Island, where the cold Atlantic breaks against Nova Scotia, the French had built the strongest place in their North American empire. They called it Louisbourg, a walled town and naval base on Île Royale (the French name for Cape Breton), and it sat across the throat of the continent. Behind it, past the Gulf of St. Lawrence, lay the St. Lawrence River, the one great water road into the heart of New France (French Canada). Quebec, the capital, sat far up that river. Montreal sat farther still. To sail a fleet against them, you first had to get past Louisbourg. That is why the British called it the Gibraltar of the North. It was the lock on the door, and whoever held it held the way in.' },
       { fig: '/war-img/fi-louisbourg-view-lighthouse.jpg', cap: 'A view of Louisbourg taken near the lighthouse while the town was under siege in 1758, the walled sea fortress and its harbor that any fleet bound for the St. Lawrence and Quebec had to pass.', credit: 'Pierre-Charles Canot · engraving · 1762 · John Carter Brown Library · public domain' },
       { p: 'For Britain, by 1758, getting in was the whole point. The man driving the war from London, Secretary of State William Pitt, had a plan for that summer: three blows against New France at once. One army would push west to take Fort Duquesne at the Ohio forks. A second would drive up the Lake Champlain corridor at Fort Carillon (also called Ticonderoga). And the third, the one that mattered for everything that came after, would cross the ocean and take Louisbourg. Take the fortress, and the St. Lawrence opened. With the river open, a fleet could be sent against Quebec itself the following year. Carillon would fail bloodily that summer. Louisbourg and Fort Duquesne would not.' },
