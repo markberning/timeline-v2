@@ -16,23 +16,7 @@ const JUMONVILLE_NARR: Record<string, Narr> = {
     eyebrow: 'Jumonville Glen · The march in',
     title: 'The road to the glen',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · May 1754',
-        caption: 'Washington marched out from Great Meadows in the dark and surrounded a French party in a glen in the Pennsylvania backcountry, about ten miles off, beyond Laurel Ridge. The French had come up from Fort Duquesne at the Forks of the Ohio.',
-        frame: { lonMin: -81.0, lonMax: -78.0, latMin: 39.2, latMax: 40.85 },
-        states: [
-          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -78.6, labelLat: 40.6 },
-          { name: 'Maryland', label: 'MARYLAND', labelLon: -78.5, labelLat: 39.45, labelSize: 13 },
-          { name: 'Virginia', label: 'VIRGINIA', labelLon: -79.7, labelLat: 39.3, labelSize: 13 },
-          { name: 'Ohio', label: 'OHIO', labelLon: -80.7, labelLat: 40.4, labelSize: 13 },
-          { name: 'West Virginia' },
-        ],
-        dots: [
-          { name: 'Jumonville Glen', date: 'May 28, 1754', lat: 39.85, lon: -79.62, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Fort Duquesne', lat: 40.44, lon: -80.01, color: '#8a8175', anchor: 'end' },
-          { name: 'Fort Cumberland', lat: 39.65, lon: -78.76, color: '#8a8175', anchor: 'start' },
-        ],
-      } },
+      { fig: '/war-img/fi-jumonville-tac1.jpg', cap: 'Washington marched out from Great Meadows in the dark and surrounded a French party in a glen in the Pennsylvania backcountry, about ten miles off, beyond Laurel Ridge. The French had come up from Fort Duquesne at the Forks of the Ohio.', credit: 'Stuff Happened map' },
       { p: 'Two rivers, the Allegheny and the Monongahela, run together in the wilderness of western Pennsylvania to make a third, the Ohio, the river road into the whole interior of the continent. At their junction, the Forks of the Ohio (present-day Pittsburgh), sat the most valuable ground on the frontier: the gateway to the fur trade and to millions of acres beyond the mountains. The prize in this war was control of that country, the upper Ohio valley, and what it meant was empire, trade, and above all land. Both Britain, through the colony of Virginia, and France claimed it. Neither would let it go. And the land was not theirs. It belonged to the Native nations who lived on it, the Shawnee, the Lenape (also called Delaware), the Mingo and others, and underneath the two flags this was, from the start, a fight over their country and who would get to keep settlers off it.' },
       { p: 'A group of wealthy Virginians had organized the Ohio Company in 1748 to develop the region, and the British crown had granted it some five hundred thousand acres. The French answered with forts. They built Fort Le Boeuf in 1753, and Venango, and pushed toward the Forks. Robert Dinwiddie, the lieutenant governor of Virginia, sent a twenty-one-year-old militia major named George Washington (British) out through the winter woods with the frontiersman Christopher Gist to warn the French off. Washington reached Fort Le Boeuf in December 1753 and delivered the summons, a formal written demand that the French withdraw. The French commander, Jacques Legardeur de Saint-Pierre, refused it with perfect courtesy. "As to the summons you send me to retire," he answered, "I do not think myself obliged to obey it."' },
       { fig: '/war-img/fi-washington-mission-map.jpg', cap: 'Washington’s 1753 mission into the Ohio Country to warn the French off, the journey that set up the clash at the glen.', credit: 'Stuff Happened map' },
