@@ -15,23 +15,7 @@ const FWH_NARR: Record<string, Narr> = {
     eyebrow: 'Fort William Henry · The corridor',
     title: 'The fort that could not be held',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · August 1757',
-        caption: 'Fort William Henry sat at the south end of Lake George, the British south anchor on the corridor between Albany and Montreal. Montcalm came down the lake from Fort Carillon (Ticonderoga); the relief that never came waited sixteen miles south at Fort Edward, on the Hudson.',
-        frame: { lonMin: -74.25, lonMax: -72.95, latMin: 43.05, latMax: 44.15 },
-        states: [
-          { name: 'New York', tone: 'focus', label: 'NEW YORK', labelLon: -74.05, labelLat: 43.5 },
-        ],
-        lakes: [
-          { name: 'Lake George', label: 'LAKE GEORGE', labelLon: -73.95, labelLat: 43.62, labelSize: 12 },
-          { name: 'Lake Champlain', label: 'LAKE CHAMPLAIN', labelLon: -73.02, labelLat: 43.78, labelSize: 12 },
-        ],
-        dots: [
-          { name: 'Fort Carillon (Ticonderoga)', lat: 43.84, lon: -73.39, color: '#8a8175', anchor: 'end' },
-          { name: 'Fort William Henry', date: 'Aug 3–9, 1757', lat: 43.42, lon: -73.71, heavy: true, anchor: 'start', dateBelow: true },
-          { name: 'Fort Edward', lat: 43.27, lon: -73.59, color: '#8a8175', anchor: 'start' },
-        ],
-      } },
+      { fig: '/war-img/fi-william-henry-tac1.jpg', cap: 'Fort William Henry sat at the south end of Lake George, the British south anchor on the corridor between Albany and Montreal. Montcalm came down the lake from Fort Carillon (Ticonderoga); the relief that never came waited sixteen miles south at Fort Edward, on the Hudson.', credit: 'Stuff Happened map' },
       { p: 'There is a narrow seam of water and land running from Albany north to Montreal, a chain of rivers and lakes threaded through the mountains, and for most of a century it was the only practical road by which a European army could march from the British colonies into the heart of French Canada, or the other way around. The Hudson River carried you up from Albany. Then came a portage, then Lake George, then Lake Champlain, then the Richelieu River, and at the far end, Montreal. Whoever held this Lake George–Champlain corridor held the door between the two empires. So both sides nailed forts across it, like men slamming bolts on a contested gate.' },
       { fig: '/war-img/fi-lake-champlain-corridor-map.jpg', cap: 'The Lake Champlain and Lake George corridor, the war road between New France and New York. Fort William Henry sat at the south end of Lake George, sixteen miles from the relief that never came.', credit: 'public domain' },
       { p: 'Fort William Henry was one of those bolts. The British built it in the fall of 1755 at the southern tip of Lake George, the work of an engineer named William Eyre of the 44th Foot, on the orders of Sir William Johnson, who had just won the Battle of Lake George there that September and wanted to plant the victory in timber and earth. They named it for a son and a grandson of King George II, Prince William, Duke of Cumberland, and Prince William Henry, Duke of Gloucester. Sixteen miles (26 km) to the south, on the Hudson, sat its larger partner, Fort Edward. Together the two forts were supposed to be the British south anchor of the corridor: hold these, and a French army could not come down the lake and out into the colonies. Lose them, and the road to Albany lay open.' },
