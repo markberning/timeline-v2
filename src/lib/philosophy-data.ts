@@ -632,7 +632,13 @@ export const WORKS: Record<string, Work> = {
       { title:'The form itself', where:'every article', teaser:'State the strongest objections to its own answer first, then reply to them point by point.' },
       { title:'“Like straw”', where:'after 6 Dec 1273', teaser:'The mystical experience that stopped him: “all that I have written seems like straw to me.” He never wrote again.' },
     ] },
-  discourse:  { id:'discourse',  title:'Discourse on the Method',  year:'1637',     thinker:'descartes', form:'Six parts', blurb:'How to throw out everything you were taught and rebuild belief on certainty alone — in plain French.', sections:[] },
+  discourse:  { id:'discourse',  title:'Discourse on the Method',  year:'1637',     thinker:'descartes', form:'Six parts', blurb:'How to throw out everything you were taught and rebuild belief on certainty alone — in plain French.', read:true, sections:[],
+    stats: [
+      { value:'1637', label:'Published (in French)' },
+      { value:'6', label:'Parts' },
+      { value:'Je pense, donc je suis', label:'The cogito, first stated' },
+    ],
+  },
   meditations:{ id:'meditations',title:'Meditations on First Philosophy', year:'1641', thinker:'descartes', form:'Six meditations',
     blurb:'Descartes shuts himself in a warm room, resolves to doubt absolutely everything, and rebuilds knowledge from the one thing he cannot doubt.', read:true, sections:[],
     stats: [
@@ -673,7 +679,13 @@ export const WORKS: Record<string, Work> = {
       { title:'The two proofs of God', where:'Meditations III, V', teaser:'The trademark argument (the idea of perfection needs a perfect cause) and the ontological argument (existence belongs to God’s essence).' },
       { title:'Mind and body', where:'Meditation VI', teaser:'The real distinction: a thinking, unextended thing and an extended, unthinking thing, “entirely and truly distinct,” able to exist apart.' },
     ] },
-  principles: { id:'principles', title:'Principles of Philosophy',  year:'1644',     thinker:'descartes', form:'A textbook of the whole system', blurb:'Descartes lays out his entire physics and metaphysics as one teachable structure.', sections:[] },
+  principles: { id:'principles', title:'Principles of Philosophy',  year:'1644',     thinker:'descartes', form:'A textbook of the whole system', blurb:'Descartes lays out his entire physics and metaphysics as one teachable structure.', read:true, sections:[],
+    stats: [
+      { value:'1644', label:'Published (Latin)' },
+      { value:'4', label:'Parts' },
+      { value:'Cogito ergo sum', label:'Where the Latin slogan lives (I.7)' },
+    ],
+  },
   ethics:     { id:'ethics',     title:'Ethics',                    year:'1677',     thinker:'spinoza',   form:'Geometric proofs', blurb:'God-or-Nature, proved like Euclid: definitions, axioms, and propositions, all the way to blessedness.', read:true, sections:[],
     stats: [
       { value:'5', label:'Parts' },
@@ -711,7 +723,13 @@ export const WORKS: Record<string, Work> = {
       { title:'The bondage of the passions', where:'Part IV', teaser:'Being governed by emotions whose causes one does not understand is not weakness but being out-muscled.' },
       { title:'The intellectual love of God', where:'Part V', teaser:'The highest knowing carries a joy directed at the whole of which the mind knows itself a part, and that joy is blessedness itself.' },
     ] },
-  monadology: { id:'monadology', title:'The Monadology',           year:'1714',     thinker:'leibniz',   form:'Ninety numbered points', blurb:'Reality is built of monads — windowless points of perception — in pre-established harmony.', sections:[] },
+  monadology: { id:'monadology', title:'The Monadology',           year:'1714',     thinker:'leibniz',   form:'Ninety numbered points', blurb:'Reality is built of monads — windowless points of perception — in pre-established harmony.', read:true, sections:[],
+    stats: [
+      { value:'90', label:'Numbered sections' },
+      { value:'1714', label:'Written (in French)' },
+      { value:'No windows', label:'Monads, each mirroring all' },
+    ],
+  },
   leviathan:  { id:'leviathan',  title:'Leviathan',                year:'1651',     thinker:'hobbes',    form:'Four parts', blurb:'Why we trade our freedom to an absolute sovereign rather than live in the war of all against all.', read:true, sections:[],
     stats: [
       { value:'4', label:'Parts' },
@@ -1204,7 +1222,13 @@ export const WORKS: Record<string, Work> = {
       { title:'The working day', where:'Part III', teaser:'The documented horror of the factory: capital as dead labour that, vampire-like, lives by sucking living labour.' },
       { title:'Primitive accumulation', where:'Part VIII', teaser:'Capital comes into the world dripping, from head to foot, from every pore, with blood and dirt.' },
     ] },
-  zarathustra:{ id:'zarathustra',title:'Thus Spoke Zarathustra',   year:'1883–1885',thinker:'nietzsche', form:'A prophet’s tale', blurb:'God is dead; behold the Übermensch and the eternal recurrence — philosophy as scripture and song.', sections:[] },
+  zarathustra:{ id:'zarathustra',title:'Thus Spoke Zarathustra',   year:'1883–1885',thinker:'nietzsche', form:'A prophet’s tale', blurb:'God is dead; behold the Übermensch and the eternal recurrence — philosophy as scripture and song.', read:true, sections:[],
+    stats: [
+      { value:'4', label:'Parts (1883–1885)' },
+      { value:'Übermensch', label:'The meaning of the earth' },
+      { value:'Eternal recurrence', label:'The heaviest weight' },
+    ],
+  },
   beyondgood: { id:'beyondgood', title:'Beyond Good and Evil',     year:'1886',     thinker:'nietzsche', form:'Nine parts', blurb:'An assault on every inherited certainty, and the will to power beneath our talk of truth and morals.', read:true, sections:[],
     stats: [
       { value:'1886', label:'Published' },
