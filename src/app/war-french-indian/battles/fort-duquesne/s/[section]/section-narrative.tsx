@@ -15,24 +15,7 @@ const DUQUESNE_NARR: Record<string, Narr> = {
     eyebrow: 'Fort Duquesne · The ground everything came back to',
     title: 'The forks, the prize',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · 1758',
-        caption: 'Forbes cut a brand-new road west across Pennsylvania, from Carlisle through Fort Bedford (Raystown) and Fort Ligonier toward the French stronghold of Fort Duquesne at the Forks of the Ohio (today Pittsburgh), building a fort every stretch and advancing only from cover behind him.',
-        frame: { lonMin: -80.7, lonMax: -76.9, latMin: 39.8, latMax: 41.15 },
-        states: [
-          { name: 'Pennsylvania', tone: 'focus', label: 'PENNSYLVANIA', labelLon: -77.9, labelLat: 40.95 },
-          { name: 'Maryland', label: 'MARYLAND', labelLon: -78.2, labelLat: 39.55, labelSize: 13 },
-          { name: 'Virginia', label: 'VIRGINIA', labelLon: -79.6, labelLat: 39.4, labelSize: 13 },
-          { name: 'Ohio', label: 'OHIO', labelLon: -80.55, labelLat: 40.6, labelSize: 13 },
-          { name: 'West Virginia' },
-        ],
-        dots: [
-          { name: 'Fort Duquesne', lat: 40.44, lon: -80.01, heavy: true, anchor: 'end' },
-          { name: 'Fort Ligonier', lat: 40.24, lon: -79.24, color: '#8a8175', anchor: 'start' },
-          { name: 'Fort Bedford (Raystown)', lat: 40.02, lon: -78.50, color: '#8a8175', anchor: 'start' },
-          { name: 'Carlisle', lat: 40.20, lon: -77.19, color: '#8a8175', anchor: 'start' },
-        ],
-      } },
+      { fig: '/war-img/fi-duquesne-tac1.jpg', cap: 'Forbes cut a brand-new road west across Pennsylvania, from Carlisle through Fort Bedford (Raystown) and Fort Ligonier toward the French stronghold of Fort Duquesne at the Forks of the Ohio (today Pittsburgh), building a fort every stretch and advancing only from cover behind him.', credit: 'Stuff Happened map' },
       { p: 'Two rivers, the Allegheny coming down from the north and the Monongahela coming up from the south, meet in the western Pennsylvania wilderness and join to become the Ohio, the great river road into the whole interior of the continent. That junction, the Forks of the Ohio, was the most valuable piece of ground on the frontier, the gateway to the fur trade and to millions of acres beyond the mountains. Both Britain and France claimed it. Today the city of Pittsburgh stands on the point where the two rivers run together. But the land was not empty and it was not theirs to claim. Living on it and around it were Native nations, the Lenape (also called the Delaware), the Shawnee, the Mingo and others, and underneath the imperial flags this war was, from the start, a fight over their country and who would get to keep settlers out of it.' },
       { p: 'By 1758 men had been dying for this junction for four years. A young Virginia officer named George Washington (British) had fired the first shots of the whole contest in 1754 at a place called Jumonville Glen, then been cornered and forced to surrender his own little stockade, Fort Necessity, that July. The next year London sent a professional army under Major General Edward Braddock to take the Forks of the Ohio, and on July 9, 1755 that army was destroyed on the road to the fort, two of every three men killed or wounded in a few hours of fighting at the Monongahela, Braddock himself mortally wounded. The French held the prize and held it hard. They had built Fort Duquesne there, a timber stronghold at the Forks of the Ohio, and from behind its walls they sent out raiding parties that bled the British borders for years.' },
       { pill: '/war-french-indian/battles/monongahela', plabel: 'Braddock’s army destroyed on the same road in 1755' },

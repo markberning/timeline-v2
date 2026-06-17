@@ -17,20 +17,7 @@ const QUEBEC_NARR: Record<string, Narr> = {
     eyebrow: 'Quebec · The long siege',
     title: 'The summer before the walls',
     blocks: [
-      { locator: {
-        eyebrow: 'Where and when · 1759',
-        caption: 'Quebec sat on a high rock above the St. Lawrence, the capital and heart of New France. Wolfe based his army on Île d’Orléans below the city, failed against the Beauport lines at Montmorency in July, and in September slipped his men up the cliff at the Anse au Foulon onto the Plains of Abraham at the city’s gate.',
-        frame: { lonMin: -73.8, lonMax: -68.5, latMin: 45.4, latMax: 48.6 },
-        states: [
-          { name: 'Quebec', tone: 'focus', label: 'QUEBEC (NEW FRANCE)', labelLon: -72.6, labelLat: 48.3, labelSize: 13 },
-        ],
-        dots: [
-          { name: 'Plains of Abraham / Quebec City', date: 'Sep 13, 1759', lat: 46.80, lon: -71.21, heavy: true, anchor: 'end', dateBelow: true },
-          { name: 'Anse au Foulon', lat: 46.79, lon: -71.23, color: '#8a8175', anchor: 'start', dx: 14, dy: 22 },
-          { name: 'Montmorency', lat: 46.89, lon: -71.15, color: '#8a8175', anchor: 'end', dy: -10 },
-          { name: 'Île d’Orléans', lat: 46.95, lon: -70.95, color: '#8a8175', anchor: 'start' },
-        ],
-      } },
+      { fig: '/war-img/fi-quebec-tac1.jpg', cap: 'Quebec sat on a high rock above the St. Lawrence, the capital and heart of New France. Wolfe based his army on Île d’Orléans below the city, failed against the Beauport lines at Montmorency in July, and in September slipped his men up the cliff at the Anse au Foulon onto the Plains of Abraham at the city’s gate.', credit: 'Stuff Happened map' },
       { p: 'Quebec was the capital and the heart of New France, the French colony of Canada, and in the summer of 1759 it was the prize the whole war had been circling toward. The city sat on a high rock above the St. Lawrence River, walled on its landward side, guarded on the river side by cliffs, and ringed below by the farms and parishes that fed it. Take Quebec and you cut the colony’s head off. So the British came for it, and 1759 was the year they could, because the year before they had taken the great fortress of Louisbourg at the mouth of the river, the lock on the door, and the door now stood open all the way upstream.' },
       { fig: '/war-img/fi-siege-of-quebec-map.jpg', cap: 'The summer siege: Wolfe based his army below the city and pounded the rock from the river all season without getting any nearer the walls.', credit: 'Period plan of the siege of Quebec · Wikimedia Commons · public domain' },
       { pill: '/war-french-indian/battles/louisbourg', plabel: 'Louisbourg, the 1758 siege that opened the river' },
