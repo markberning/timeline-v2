@@ -24,6 +24,7 @@
 // Proclamation Line, the road to taxation).
 
 import { WAR_STORY_COLOR, WAR_OFFFIELD_COLOR, THEATRE_PALETTE } from './layer-colors'
+import { REVOLUTION_COMMANDERS, revCastIdForName } from '../revolution-commanders'
 import type { WarConfig } from './types'
 
 const WAR_ACCENT = '#42597b' // Continental slate-blue — the war's identity hue
@@ -119,7 +120,9 @@ export const REVOLUTION: WarConfig = {
     { id: 'southern-turn', name: 'The Southern Turn & Yorktown', phase: 'total', type: 'MILITARY', size: 'l', date: '1780–1781', year: 1780, m: 1, hook: 'Greene loses every battle and wins the map, and five strands meet at a tobacco port.', href: '/war-revolution/southern-turn' },
     { id: 'the-peace', name: 'The Peace', phase: 'after', type: 'MILITARY', size: 'l', date: '1782–1783', year: 1782, m: 1, hook: 'Two years of waiting, leaving, and almost breaking, ended by a commission handed back.', href: '/war-revolution/the-peace' },
   ],
-  commanders: {},
+  commanders: REVOLUTION_COMMANDERS,
+  castHref: '/war-revolution/cast',
+  castIdForName: revCastIdForName,
   home: {
     eyebrow: 'War · 1775–1783',
     title: ['The American', 'Revolution'],
@@ -132,6 +135,11 @@ export const REVOLUTION: WarConfig = {
       heading: 'Six chapters, 1775 to 1783',
       body: 'The whole war as one through-line: the shot at Lexington, the near-collapse around New York, the turn at Saratoga, the war that went global and then went south, and the trap at Yorktown. The connective tissue between the causes and the battles.',
       meta: '6 chapters that connect 22 battles and 13 chapters off the battlefield.',
+    },
+    castCard: {
+      kicker: 'Follow a commander',
+      heading: 'The commanders',
+      body: 'Twelve men carry the whole war, battle to battle, from the first shots at Lexington to the surrender at Yorktown. Pick one and watch their arc unfold, command to command.',
     },
     offfieldCard: {
       kicker: 'Off the battlefield',

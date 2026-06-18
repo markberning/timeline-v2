@@ -53,6 +53,7 @@ function StoryTab({ cfg }: { cfg: WarConfig }) {
 
 function CastTab({ cfg }: { cfg: WarConfig }) {
   const cc = cfg.home!.castCard
+  const chipVar = cfg.lanes.find(l => l.kind === 'theatre')?.skinVar ?? '--fi-battles'
   const list = Object.values(cfg.commanders).slice().sort((a, b) => b.appearances.length - a.appearances.length || a.name.localeCompare(b.name))
   return (
     <div className="p-page">
