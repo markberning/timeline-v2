@@ -3304,7 +3304,211 @@ export const GRANDE_JATTE: ArtWorkContent = {
   },
 }
 
+// ─────────────────────────────────────────────────────────────
+// Work, Bathers at Asnières (Seurat, 1884). The first POST-IMPRESSIONISM
+// work read. Authored through the art content pipeline (fact pack →
+// Opus draft → 5 gates → revise); narrative in art-section-reader.tsx
+// under 'bathers-asnieres' (Ba… prefix).
+// ─────────────────────────────────────────────────────────────
+export const BATHERS_ASNIERES: ArtWorkContent = {
+  id: 'bathers-asnieres',
+  name: 'Bathers at Asnières',
+  shortName: 'Bathers at Asnières',
+  year: 1884,
+  artist: 'Georges Seurat',
+  artistId: 'seurat',
+  movement: 'Post-Impressionism',
+  movementId: 'postimp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '6 ft 7 in × 9 ft 10 in',
+  location: 'The National Gallery, London',
+  acquired: 'Acquired for the British national collection through the Courtauld Fund, 1924',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Post-Impressionism', index: 1, total: 9 },
+  hook: 'A working-class riverbank afternoon, painted nearly ten feet wide at the scale the Salon kept for kings, and then rejected by it, which started a jury-free rebel show.',
+  heroImage: ART_IMG.seuratBathersAsnieres,
+  heroCredit: 'Seurat, Bathers at Asnières, 1884 · The National Gallery, London',
+  heroAspect: 1.49, // ~201 × 300 cm → W/H ≈ 1.49
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1883–84', k: 'Painted' },
+    { v: '6′7″ × 9′10″', k: 'Dimensions' },
+    { v: 'National Gallery', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'riverbank', eyebrow: 'Asnières · 1883', dateLabel: '1883', title: 'A bid at the scale of kings', blurb: 'Seurat, barely 24 and just out of art school, decides his first monumental canvas will be a working-class suburb cooling off in the Seine, with the factory chimneys of Clichy smoking across the water.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The canvas', dateLabel: '1883–84', title: 'Built from cigar-box sketches', blurb: 'About fourteen little oil studies on the riverbank, then a huge studio canvas brushed in long woven strokes Seurat called balayé, and, years later, a few pointillist dots added back in.', progress: 0.34 },
+    { id: 'salon', eyebrow: 'Paris · 1884', dateLabel: '1884', title: 'Rejected, so he built his own Salon', blurb: 'The official Salon jury throws it out. In answer Seurat helps found a jury-free, prize-free rebel exhibition, the show that becomes the Salon des Indépendants.', progress: 0.58 },
+    { id: 'reception', eyebrow: 'The verdict', dateLabel: '1884–86', title: 'A false Puvis, or a monster', blurb: 'Hung at the Indépendants as no. 261, shown in New York in 1886, and met with the usual mix: one critic calls it a false Puvis de Chavannes, another simply calls it monstrous.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1924–today', title: 'The launch of Neo-Impressionism', blurb: 'The critic who coined Neo-Impressionism owned it; the Courtauld Fund brought it to Britain in 1924; it is now a National Gallery centerpiece and the prelude to La Grande Jatte.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1884–c.1900', who: 'Seurat’s family / estate', place: 'Paris', note: 'Rejected by the 1884 Salon and shown instead at the inaugural Indépendants, the canvas stayed with the artist and, after his early death in 1891, with his family and circle. The exact intermediate owners are not fully pinned.', price: null },
+    { year: 'c.1900', who: 'Félix Fénéon (the critic who coined “Neo-Impressionism”)', place: 'Paris', note: 'The champion of Seurat’s circle acquired it; he is the key early collector on the chain.', price: null },
+    { year: '1924', who: 'The British national collection, via the Courtauld Fund', place: 'London', note: 'Bought for the nation through the fund Samuel Courtauld endowed to bring French modern art into British public collections.', price: 'acquired for the nation', museum: true },
+    { year: '1924–1961', who: 'Tate Gallery', place: 'London', note: 'Hung at the Tate after the 1924 acquisition.', price: null, museum: true },
+    { year: '1961–today', who: 'The National Gallery, London', place: 'London', note: 'Transferred from the Tate to the National Gallery in 1961, where it is a centerpiece of the collection (NG3908). On permanent view.', price: 'never sold', museum: true },
+  ],
+  figures: [
+    { name: 'Georges Seurat', role: 'The painter', palette: ['#5a7a8a', '#8a8048', '#1c2630'] },
+    { name: 'Félix Fénéon', role: 'Coined “Neo-Impressionism”; early owner', palette: ['#5a7042', '#3a3c28', '#14140e'] },
+    { name: 'The Indépendants', role: 'The jury-free show he helped found', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+    { name: 'Paul Durand-Ruel', role: 'Dealer who showed it in New York', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Samuel Courtauld', role: 'His fund brought it to Britain', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  annotations: [
+    { label: 'The two techniques on one canvas', where: 'The boy in the water, right of center, hands cupped at his mouth', detail: 'The orange-red hat on his head carries the clearest patch of pointillist dots, tiny separate touches of orange against blue, that Seurat added back in years later. It is the one spot where you can see his two methods, the early woven brushwork and the later dot, sitting side by side on a single picture.' },
+    { label: 'This is not Arcadia', where: 'The far bank, upper-left to center along the horizon', detail: 'Thin factory chimneys at Clichy, smoking. They are the tell that these bathers are not nymphs in a myth but clerks and workers on a hot day off, in an industrial suburb of Paris.' },
+    { label: 'Modern infrastructure behind soft bodies', where: 'The bridge spanning the river in the background', detail: 'The railway bridge at Asnières, a hard horizontal of iron and modern transport stretched behind the still, rounded swimmers. The river that carries them is also the river the trains cross.' },
+    { label: 'The man who is not swimming', where: 'The seated figure in the foreground, in a bowler hat, fully clothed', detail: 'The most prominent person in the picture is dressed, not bathing: a clerk on his day off, sitting on the bank. He anchors the whole social reading, that this is a picture of who gets to rest, and how.' },
+    { label: 'Everyone alone, no one talking', where: 'Across the spaced-out figures along the bank', detail: 'Notice that the bathers do not interact. Each is isolated, still, set apart with the calm spacing of figures on an ancient frieze, which is why people compare the painting’s stillness to Piero della Francesca and to Puvis de Chavannes.' },
+    { label: 'Woven strokes, not dabs', where: 'Across the grass and the water', detail: 'Look at the brushwork itself: long, controlled, criss-crossing strokes Seurat called balayé, “swept.” This is the smooth, hatched method he used before he invented the dot, and it is proof the canvas began before pointillism existed.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Puvis de Chavannes', mode: 'art' }, { label: 'Impressionism', mode: 'art' }, { label: 'Industrial Paris', mode: 'civ' } ],
+    children: [ { label: 'Neo-Impressionism', mode: 'art' }, { label: 'A Sunday on La Grande Jatte', mode: 'art' }, { label: 'The Salon des Indépendants', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, The Card Players (Cézanne, c.1894–95). The Musée d'Orsay
+// two-player version (smallest, generally read as last of five).
+// Authored through the art content pipeline; narrative in
+// art-section-reader.tsx under 'card-players' (Cp… prefix).
+// ─────────────────────────────────────────────────────────────
+export const CARD_PLAYERS: ArtWorkContent = {
+  id: 'card-players',
+  name: 'The Card Players',
+  shortName: 'The Card Players',
+  year: 1895,
+  artist: 'Paul Cézanne',
+  artistId: 'cezanne',
+  movement: 'Post-Impressionism',
+  movementId: 'postimp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '1 ft 6½ in × 1 ft 10½ in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Camondo bequest to the French State, 1911',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Post-Impressionism', index: 6, total: 9 },
+  hook: 'Two estate laborers at a small table, a bottle between them, looking at their cards in total silence, the quiet gravity of men at work given the seriousness a history painter would save for a saint.',
+  heroImage: ART_IMG.cezanneCardPlayers,
+  heroCredit: 'Cézanne, The Card Players, 1894–95 · Musée d’Orsay, Paris',
+  heroAspect: 1.2, // ~47.5 × 57 cm → W/H ≈ 1.2
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1894–95', k: 'Painted' },
+    { v: '1′6½″ × 1′10½″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'estate', eyebrow: 'Aix-en-Provence', dateLabel: '1890s', title: 'The men from the estate', blurb: 'Cézanne in his fifties at the family estate near Aix, posing the local farm laborers he knew, men he set down playing cards in a plain rustic room with no story and no stakes, only weight.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The canvas', dateLabel: 'c.1894–95', title: 'Form built from patches', blurb: 'Over a dozen single-figure studies of seated smokers first, then a canvas built not from line and shadow but from flat modulated planes of color, the smallest, most distilled of five versions.', progress: 0.34 },
+    { id: 'reception', eyebrow: 'The verdict', dateLabel: 'Then & now', title: 'The genre painting with the joke removed', blurb: 'Tavern card scenes were comedy, cheating and grimaces. Cézanne drained every anecdote out and left only two men and their concentration, and that stillness became a cornerstone of his late genius.', progress: 0.58 },
+    { id: 'versions', eyebrow: 'Five canvases', dateLabel: '1890–95', title: 'Five versions, and the famous price', blurb: 'The series runs from a crowded five-figure canvas down to this stripped two-player one. A different two-player version sold to Qatar around 2011 for a reported sum that made headlines worldwide.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1911–today', title: 'Ancestor of Cubism', blurb: 'Bequeathed to France in 1911, stolen and recovered in the 1960s, reunited with its siblings in a 2010–11 exhibition, and read ever since as a direct ancestor of Cubism.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: 'c.1895', who: 'Ambroise Vollard (Cézanne’s dealer)', place: 'Paris', note: 'Vollard handled most of Cézanne’s late sales after 1895; the exact first-sale date for this canvas is not pinned.', price: null },
+    { year: 'before 1911', who: 'Count Isaac de Camondo (collector)', place: 'Paris', note: 'Entered the celebrated Camondo collection in Paris.', price: null },
+    { year: '1911', who: 'The French State (Camondo bequest)', place: 'Paris', note: 'Bequeathed to the nation on Camondo’s death and accepted for the national museums in 1911; entered the Louvre, later the Jeu de Paume.', price: 'bequest to the nation', museum: true },
+    { year: '1961', who: 'Stolen, then recovered', place: 'Paris', note: 'Stolen in 1961 while in the French national collection (then held at the Jeu de Paume), and recovered after a ransom was paid. (Reported via secondary sources; kept light.)', price: null },
+    { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'Crossed into the Musée d’Orsay when it opened in 1986 to hold the national 19th-century collection. On permanent view.', price: 'never sold', museum: true },
+  ],
+  figures: [
+    { name: 'Paul Cézanne', role: 'The painter', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'The estate laborers', role: 'The sitters', palette: ['#6a5a3a', '#3a3020', '#14100a'] },
+    { name: 'Ambroise Vollard', role: 'His dealer', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Count Isaac de Camondo', role: 'Bequeathed it to France', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Picasso & Braque', role: 'Heirs to the method', palette: ['#5a7042', '#3a3c28', '#14140e'] },
+  ],
+  annotations: [
+    { label: 'The axis of the whole picture', where: 'The wine bottle standing dead-center on the table', detail: 'A single bottle stands upright at the exact middle, splitting the canvas cleanly into two halves and acting as the pivot the two men are balanced around. It is the most pointed-to thing in the painting, a still vertical holding the composition together.' },
+    { label: 'A study in balanced opposites', where: 'The left player against the right player', detail: 'On the left, a man sits upright in a dark coat with a taller hat, pipe and posture formal. On the right, a man in lighter, looser clothes and a shorter hat hunches forward over his cards. The two are deliberate opposites, weighed against each other across the table.' },
+    { label: 'No stakes, no faces meeting', where: 'The hands and the cards, held low', detail: 'The cards are held close to the body and low; no eyes meet, no money is shown, no winner is hinted. Cézanne has stripped out every bit of anecdote that a tavern card scene usually carries. The stillness itself is the subject.' },
+    { label: 'Solidity made from flat patches', where: 'The tablecloth and the table edge', detail: 'Look at how the cloth and table are built: not modeled with smooth gradual shadow but assembled from flat planes of color set side by side. Cézanne makes a thing feel solid out of patches, the method that would feed straight into Cubism.' },
+    { label: 'Shapes that rhyme', where: 'The drape or curtain behind the left man', detail: 'The folds of the hanging cloth behind the left player echo the bulk and curve of the seated bodies. Cézanne rhymes shapes across the canvas instead of describing a real, measured room; the picture is built on visual echoes.' },
+    { label: 'Weight in concentration, not action', where: 'The downcast eyes of both men', detail: 'Nothing happens, and that is the power of it. Both men look down, completely absorbed, and all the psychological weight of the picture sits in that quiet concentration rather than in any event.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Le Nain brothers', mode: 'art' }, { label: 'Impressionism', mode: 'art' }, { label: 'Provençal peasant life', mode: 'civ' } ],
+    children: [ { label: 'Cubism', mode: 'art' }, { label: 'Picasso', mode: 'art' }, { label: 'Braque', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Mont Sainte-Victoire seen from Les Lauves (Cézanne, 1902–04).
+// The Philadelphia Museum of Art version. Authored through the art
+// content pipeline; narrative in art-section-reader.tsx under
+// 'mont-sainte-victoire-lauves' (Mv… prefix).
+// ─────────────────────────────────────────────────────────────
+export const MONT_SAINTE_VICTOIRE_LAUVES: ArtWorkContent = {
+  id: 'mont-sainte-victoire-lauves',
+  name: 'Mont Sainte-Victoire seen from Les Lauves',
+  shortName: 'Mont Sainte-Victoire',
+  year: 1904,
+  artist: 'Paul Cézanne',
+  artistId: 'cezanne',
+  movement: 'Post-Impressionism',
+  movementId: 'postimp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 4¾ in × 3 ft ¼ in',
+  location: 'Philadelphia Museum of Art',
+  acquired: 'George W. Elkins Collection, 1936',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Post-Impressionism', index: 9, total: 9 },
+  hook: 'A mountain he painted about eleven times from one hillside, dissolved here into a mosaic of color patches with the bare canvas left showing, the picture the next generation called the start of everything.',
+  heroImage: ART_IMG.cezanneMontSainteVictoireLauves,
+  heroCredit: 'Cézanne, Mont Sainte-Victoire seen from Les Lauves, 1902–04 · Philadelphia Museum of Art',
+  heroAspect: 1.26, // ~73 × 91.9 cm → W/H ≈ 1.26
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1902–04', k: 'Painted' },
+    { v: '2′4¾″ × 3′¼″', k: 'Dimensions' },
+    { v: 'Philadelphia', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'lauves', eyebrow: 'Les Lauves · 1902', dateLabel: '1902', title: 'A studio on the hill', blurb: 'In 1902 Cézanne built a studio on the rise of Les Lauves above Aix, and from the slope behind it he had a sweeping view east to Mont Sainte-Victoire, the limestone ridge that had been his lifelong motif.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The canvas', dateLabel: '1902–04', title: 'A mountain made of color', blurb: 'Overlapping semi-transparent patches of green, ochre, blue and violet, areas of bare canvas left showing, near and far knit into one plane, the work that read as proto-Cubist to the next generation.', progress: 0.34 },
+    { id: 'reception', eyebrow: 'Cézanne’s idea', dateLabel: '1904', title: 'The cylinder, the sphere, the cone', blurb: 'In an April 1904 letter, Cézanne wrote the line that became modern art’s most quoted instruction. This is the period and the method it describes.', progress: 0.58 },
+    { id: 'death', eyebrow: 'Aix · October 1906', dateLabel: '1906', title: 'Caught in a storm', blurb: 'On 15 October 1906 Cézanne was caught in a storm while out painting, collapsed, and died of pneumonia a week later. Not, despite the legend, at his easel before the mountain.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1907–today', title: 'The father of modern art', blurb: 'The 1907 retrospective the year after his death hit Picasso, Braque and Matisse; the late Mont Sainte-Victoires became the recognized bridge from Impressionism to Cubism.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1906', who: 'Left in Cézanne’s studio at his death', place: 'Aix-en-Provence', note: 'The late Les Lauves canvases were in the studio when Cézanne died in 1906 and were dispersed afterward, largely through Vollard and the heirs.', price: null },
+    { year: '1936', who: 'Philadelphia Museum of Art (George W. Elkins Collection)', place: 'Philadelphia', note: 'Entered the Philadelphia Museum of Art through the George W. Elkins Collection in 1936, where it is now part of the permanent collection. On permanent view.', price: 'in the collection', museum: true },
+  ],
+  figures: [
+    { name: 'Paul Cézanne', role: 'The painter', palette: ['#5a7042', '#8a7848', '#1c1a12'] },
+    { name: 'Émile Bernard', role: 'Got the “cylinder, sphere, cone” letter', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Mont Sainte-Victoire', role: 'The lifelong motif', palette: ['#6a7a8a', '#3a4250', '#14181e'] },
+    { name: 'Picasso & Braque', role: 'Heirs at the 1907 retrospective', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Henri Matisse', role: 'Also marked by the retrospective', palette: ['#b44d3b', '#5a2a20', '#150a08'] },
+  ],
+  annotations: [
+    { label: 'The mountain dissolving into the sky', where: 'The peak, upper right, against the sky', detail: 'The summit is built from blue and violet patches whose edge does not draw a hard line against the sky but breaks up into it. The mountain and the air share the same touches of color, so the solid ridge and the empty sky are made of the same paint.' },
+    { label: 'The gaps Cézanne left on purpose', where: 'Small bare spots showing between the strokes, across the canvas', detail: 'Look for patches of unpainted canvas left showing between the color touches. Cézanne stopped before filling them. The picture is openly, deliberately unfinished-looking, and those gaps are a concrete thing you can point to.' },
+    { label: 'A valley made of colored blocks', where: 'The plain in the middle ground', detail: 'The fields, houses and viaduct of the valley are reduced to a mosaic of small green and ochre blocks. Representation is boiled down to color-architecture; you read “a plain with buildings” from an arrangement of patches, not from drawn detail.' },
+    { label: 'The valley tipped up toward you', where: 'The relationship of near ground to far mountain', detail: 'Try to find a single vanishing point and you cannot. Near and far are pulled into one shallow plane, so the valley seems to tip up toward you instead of receding correctly into depth. This flatness is the proto-Cubist move.' },
+    { label: 'The picture as stacked bands', where: 'Read top to bottom: plain, valley, mountain, sky', detail: 'The composition reads as horizontal zones stacked one above another, foreground plain, mid-valley, mountain, sky, like colored bands. That quiet banding is the scaffolding the whole picture hangs on.' },
+    { label: 'Strokes that knit everything together', where: 'The repeated parallel diagonal touches across the surface', detail: 'Cézanne’s constructive stroke, parallel diagonal marks, runs across unrelated things, a roof, a tree, the slope, and ties them into one continuous fabric of paint. The same brush-rhythm binds the whole landscape into a single surface.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Impressionism', mode: 'art' }, { label: 'Poussin’s landscape', mode: 'art' }, { label: 'Provence', mode: 'civ' } ],
+    children: [ { label: 'Cubism', mode: 'art' }, { label: 'Abstraction', mode: 'art' }, { label: 'Modern painting', mode: 'art' } ],
+  },
+}
+
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
