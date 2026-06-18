@@ -4854,6 +4854,476 @@ const SurExileNarrative: Narrative = ({ accent, onZoom }) => (
   </>
 )
 
+// ─────────────────────────────────────────────────────────────
+// Movement, Pop Art (1956–1970). Mass culture made into art, done cool. Gated
+// pipeline; narrative under 'pop'. The app's worst image case: NO Pop work is
+// inlineable (all post-1930, in copyright); the only images are US-PD period
+// photos of consumer culture, captioned as context. Famous works = RestrictedFigure
+// "Under copyright" cards. No em-dashes in shippable prose.
+// ─────────────────────────────────────────────────────────────
+const P_CTX = ['#bf2f6a', '#d6cf3f', '#1c1c1c'] as [string, string, string]
+
+// ── 1. Britain saw it first ─────────────────────────────────
+const PopBritainNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="London · 1947–1956" title="Grey island, glossy dream" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the thing almost everybody gets wrong. Pop Art did not start in America with Andy Warhol. It
+        started in Britain, years earlier, and for a very British reason: envy. In the late 1940s and early
+        1950s Britain was still digging out of the Second World War. Food was rationed (some of it until 1954),
+        cities were bombed flat, money was tight, and everything was, by every account, grey. Across the
+        Atlantic sat America, fat and bright and undamaged, pumping out a flood of glossy mass culture that
+        washed up in British magazines and movies: Hollywood stars, enormous chrome cars, full-color advertising,
+        pulp sci-fi, comics, supermarket packaging in colors Britain had not seen on its own shelves in years. To
+        a young British artist, all that abundance was a fantasy, half-loved and half-suspicious, beamed in from
+        a richer planet. That mixture, hunger plus a cool analytical distance, is where Pop was born.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={P_CTX}
+        imageUrl={ART_IMG.popTimesSquare}
+        ratio="5/4"
+        alt="Times Square advertising, 1953"
+        caption={<>The glossy American abundance British Pop watched from across the Atlantic: a 1953 Times Square wall of advertising and marquees. A period photograph, not a Pop artwork, the raw material the movement was about to make art of.</>}
+        credit={<>Times Square, New York, 1953 · Library of Congress · period context, not a Pop artwork</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        The people who first turned it into art were a loose circle of young artists, critics and architects who
+        met at the Institute of Contemporary Arts in London. They called themselves the{' '}
+        <strong>Independent Group</strong>{' '}(an informal discussion club, not a school or a gallery), first
+        convening in the winter of 1952. Two of them carry this chapter: the sculptor and collagist{' '}
+        <strong>Eduardo Paolozzi</strong>, who had the eye, and the painter{' '}<strong>Richard Hamilton</strong>,
+        who supplied the theory. Around them sat photographers, designers and critics, including{' '}
+        <strong>Lawrence Alloway</strong>, usually credited with first attaching the phrase &ldquo;Pop art&rdquo;
+        to all this. What bound them was a refusal to sneer. The respectable view was that American mass culture
+        was junk, beneath serious art. The Independent Group looked at the junk and got fascinated, studying car
+        styling and ad layouts with the seriousness others gave old masters, and asked the question that became
+        Pop: why is this not art?
+      </p>
+
+      <SectionHeader accent={accent} label="Paolozzi · 1947" title="A toy gun that fires the word “POP”" />
+      <p style={proseStyle}>
+        The first to act on it was Paolozzi, a Scottish-Italian sculptor who had hoarded American magazines for
+        years. As early as{' '}<strong>1947</strong>, a full decade before anyone used the term, he was cutting up
+        that hoard into{' '}<strong>collage</strong>{' '}(an image built by pasting found scraps of printed paper
+        onto a surface, a technique inherited from Dada). The one to picture is{' '}
+        <em>I was a Rich Man&rsquo;s Plaything</em>: a dense sheet of cuttings, a pulp-romance cover, a
+        Coca-Cola ad, a cherry-pie ad, a pin-up, an Army recruiting hand, and in the corner, cut from the
+        packaging of a toy gun, a pistol firing a little puff of smoke with one word printed inside it,
+        &ldquo;POP!&rdquo; That puff is often called the first appearance of the very word in this art, a
+        comic-book gunshot that happens to spell out the name of a movement that did not yet exist.
+      </p>
+      <RestrictedFigure
+        title={<>Paolozzi, <em>I was a Rich Man&rsquo;s Plaything</em></>}
+        year="1947 · Tate, London"
+        note="American magazine cuttings glued together by a man on a grey, rationed island, with a toy gun firing a puff of smoke lettered “POP!” in the corner. Proto-Pop, a decade early. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/I_was_a_Rich_Man%27s_Plaything"
+      />
+
+      <SectionHeader accent={accent} label="Hamilton · 1956" title="The whole consumer dream in one room" />
+      <p style={proseStyle}>
+        The picture usually called the first iconic Pop work came nine years later, from Hamilton, the most
+        deliberate thinker in the group. For the 1956 London exhibition{' '}<strong>This Is Tomorrow</strong>{' '}he
+        made a tiny collage, about ten inches square, with a title as long as a sentence:{' '}
+        <em>Just what is it that makes today&rsquo;s homes so different, so appealing?</em>{' '}It is a single
+        modern living room pasted from magazine cuttings and stuffed with every shiny promise of 1950s life at
+        once: a bodybuilder flexing in the center, holding a giant Tootsie Pop the size of a tennis racket with
+        the word &ldquo;POP&rdquo; up its wrapper (there it is again); a pin-up in a lampshade hat; a television,
+        a tape recorder, a vacuum cleaner, a tinned ham on the coffee table like a centerpiece, a comic-book
+        cover framed on the wall as if it were a painting. The entire dream of postwar abundance, deadpan, in one
+        room, assembled from the ads, a piece of consumer culture made of consumer culture.
+      </p>
+      <RestrictedFigure
+        title={<>Hamilton, <em>Just what is it that makes today&rsquo;s homes so different, so appealing?</em></>}
+        year="1956 · Kunsthalle Tübingen"
+        note="The first iconic Pop work: the whole 1950s consumer dream crammed into one tiny living-room collage, a flexing bodybuilder holding a giant lollipop lettered “POP.” Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Just_what_is_it_that_makes_today%27s_homes_so_different,_so_appealing%3F"
+      />
+      <p style={proseStyle}>
+        The year after, Hamilton wrote the nearest thing Pop ever had to a creed, and it was a private letter,
+        not a manifesto: a 1957 note to the architects Alison and Peter Smithson listing the
+        &ldquo;characteristics of pop art.&rdquo; The list reads exactly like the advertising it describes,
+        popular, transient, expendable, low cost, mass produced, young, witty, sexy, gimmicky, glamorous, big
+        business. Nothing about the soul, beauty or genius. A product spec sheet for a movement, and that
+        flatness is the message. British Pop kept going (Peter Blake, who would later design the{' '}
+        <em>Sgt. Pepper</em>{' '}sleeve; the young Hockney; and one woman, Pauline Boty, whom a later chapter will
+        not let the story forget), but by the late 1950s the center of gravity was shifting west. The British had
+        the idea first. The Americans were about to make it loud.
+      </p>
+    </article>
+  </>
+)
+
+// ── 2. Killing the lone genius ──────────────────────────────
+const PopBridgeNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · the 1950s" title="The painting on top of the heap" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o see why American Pop hit like a thrown brick, you have to know what it was thrown at. In the New York
+        of the 1950s the most serious painting in the world was{' '}<strong>Abstract Expressionism</strong>{' '}(the
+        first art movement America could call its own, which pulled the center of the art world from Paris to New
+        York). It was huge, abstract and made entirely of feeling: Jackson Pollock poured and flung house paint
+        across canvas on the floor; Mark Rothko stacked enormous soft rectangles of glowing color; Willem de
+        Kooning slashed at the canvas until a woman&rsquo;s face half-emerged from the violence. Hot, gestural,
+        heroic and deadly serious, and under all of it ran one faith: real art comes from inside the artist,
+        poured out raw, and the painter is a lone genius wrestling his own soul onto the wall. (The Abstract
+        Expressionism read tells that story; here it is the giant Pop had to knock over.)
+      </p>
+      <p style={proseStyle}>
+        That faith had hardened into an orthodoxy, and orthodoxies invite revolt. The first cracks came from two
+        slightly older New Yorkers who loved the everyday world too much to leave it out. They are filed under{' '}
+        <strong>Neo-Dada</strong>{' '}(literally &ldquo;new Dada,&rdquo; art reviving the old Dada trick of
+        dragging real objects and found images back into fine art), and they are the bridge: the door from
+        Abstract Expressionism that Pop would walk through.
+      </p>
+
+      <SectionHeader accent={accent} label="Johns" title="A flag that is only a flag" />
+      <p style={proseStyle}>
+        The quieter was{' '}<strong>Jasper Johns</strong>, and the picture that broke the spell was a flag.
+        Between 1954 and 1955 he painted{' '}<em>Flag</em>, the Stars and Stripes, life-size, filling the whole
+        canvas with nothing else, no sky, no pole, no story. Abstract Expressionism insisted a painting be a
+        window into the artist&rsquo;s inner life; Johns picked the single most familiar, flattest public image
+        he could think of (one that is already a flat design before anybody paints it) and painted that. A flag
+        is not a feeling. He even painted it in{' '}<strong>encaustic</strong>{' '}(pigment mixed into hot wax) over
+        scraps of newspaper, so the surface up close is thick, handmade and lovingly textured while the image it
+        adds up to stays as impersonal as the flag on a post-office wall. Is it a painting of a flag, or just a
+        flag? Johns will not say, and that refusal is the seed of Pop.
+      </p>
+      <RestrictedFigure
+        title={<>Johns, <em>Flag</em></>}
+        year="1954–55 · MoMA, New York"
+        note="The Stars and Stripes, life-size, edge to edge, in pigmented hot wax over newsprint. By painting the flattest public image there is, Johns drained the personal soul out of painting. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Flag_(Jasper_Johns)"
+      />
+
+      <SectionHeader accent={accent} label="Rauschenberg" title="A bed on the wall" />
+      <p style={proseStyle}>
+        The louder was{' '}<strong>Robert Rauschenberg</strong>, Johns&rsquo;s friend and studio neighbor, who
+        attacked the same orthodoxy from the opposite direction. He dragged actual three-dimensional junk into
+        the picture and coined a word for the result: the{' '}<strong>combine</strong>{' '}(a work that combines
+        painting with real found objects bolted, glued or hung onto it, half-painting, half-sculpture). The one
+        to picture is{' '}<em>Bed</em>{' '}(1955): he took his own bedding, a quilt, a sheet, a pillow, hung it
+        upright on the wall like a canvas, and splashed paint down it in a way that looks deliberately exactly
+        like a Pollock. He keeps Abstract Expressionism&rsquo;s gestural paint, but pours it onto the most
+        intimate ordinary object in any life, and the spell breaks. Real life is back in the painting, literally
+        stitched into it.
+      </p>
+      <RestrictedFigure
+        title={<>Rauschenberg, <em>Bed</em></>}
+        year="1955 · MoMA, New York"
+        note="His own quilt, sheet and pillow hung upright and splashed with paint that mimics a Pollock. The heroic gesture lands on a household object, and Abstract Expressionism’s spell breaks. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Bed_(Rauschenberg)"
+      />
+      <p style={proseStyle}>
+        None of this went down quietly. The critic Clement Greenberg, the most powerful voice in American art,
+        had spent years arguing Abstract Expressionism was the high point of all painting, and to him dragging a
+        flag or a bed back into a picture looked like a betrayal, a step back into the ordinary world serious
+        painting had finally escaped. But hold Johns and Rauschenberg side by side and the hinge is clear:
+        Abstract Expressionism looked inward at the soul; these two turned the painting back outward, toward the
+        shared, ordinary, public world. They reopened the door between art and the everyday object, and through
+        it, in 1962, walked Andy Warhol, still paying his bills drawing shoe ads, about to push the cool, flat
+        and mechanical further than either of them dared.
+      </p>
+    </article>
+  </>
+)
+
+// ── 3. The supermarket walks into the museum ────────────────
+const PopMachineNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Andy Warhol" title="The man who wanted to be a machine" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he center of the American wave is{' '}<strong>Andy Warhol</strong>. Before he was a fine artist he was a
+        hugely successful commercial illustrator, drawing shoe ads, and he never pretended to outgrow it. The
+        commercial world was his subject and his method, and he flattened the wall between the two on purpose. In
+        1962 he made the work that is shorthand for the whole movement, and it could hardly be more ordinary:
+        thirty-two paintings of soup cans.{' '}<em>Campbell&rsquo;s Soup Cans</em>{' '}is thirty-two separate
+        canvases, each under two feet tall, each a single can, one per variety the company sold. First shown at
+        the Ferus Gallery in Los Angeles, propped on a thin shelf running around the wall exactly the way cans
+        sit in a grocery aisle. That is the entire gesture, and it is enormous: the supermarket walks into the
+        museum and hangs where a Rothko hung. No feeling on display, no brushwork to admire, no story. Just the
+        can, and then the can again.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={P_CTX}
+        imageUrl={ART_IMG.popSupermarket}
+        ratio="3/2"
+        alt="A 1950s American supermarket aisle"
+        caption={<>The literal source world, not the art: a 1950s American supermarket aisle, shelves stacked with branded cans. This is what Warhol&rsquo;s soup cans came from, a period photograph standing in for paintings that are all under copyright.</>}
+        credit={<>&ldquo;Shopping in supermarket,&rdquo; 1957 · Library of Congress · period context, NOT a Pop artwork</>}
+        rights={PD_RIGHTS}
+      />
+      <RestrictedFigure
+        title={<>Warhol, <em>Campbell&rsquo;s Soup Cans</em></>}
+        year="1962 · MoMA, New York"
+        note="Thirty-two near-identical canvases, one per soup variety, first propped on a shelf like a grocery aisle. The dull repetition of the shelf, treated as a subject worthy of a museum wall. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Campbell%27s_Soup_Cans"
+      />
+      <p style={proseStyle}>
+        Warhol was as deadpan as the work. In interviews he answered with &ldquo;yes,&rdquo; &ldquo;no,&rdquo;
+        and &ldquo;I don&rsquo;t know,&rdquo; insisting there was nothing behind the surface and that if you
+        wanted to know him you should just look at the surface of his paintings, and there he was, with nothing
+        behind it. Then he industrialized the art itself. He switched to{' '}<strong>silkscreen</strong>{' '}(a
+        printing technique that pushes ink through a stencil mesh to lay an image down fast and identically, over
+        and over, the same process used for commercial posters), set up a studio he called{' '}
+        <strong>the Factory</strong>{' '}(a real silver-foiled loft, and the name is the point: a place where art
+        is manufactured, not agonized over), and turned out work in editions. When Marilyn Monroe died in August
+        1962 he made{' '}<em>Marilyn Diptych</em>, fifty silkscreened Marilyns from one publicity still, the left
+        half in hot color, the right fading to smeared grays until she nearly disappears: celebrity, mass
+        reproduction and death at once, the star copied until she wears out. Asked why he worked this way, in a
+        1963 interview, he gave the movement&rsquo;s motto, at least as it was printed at the time:
+        &ldquo;I want to be a machine.&rdquo;
+      </p>
+      <RestrictedFigure
+        title={<>Warhol, <em>Marilyn Diptych</em></>}
+        year="1962 · Tate, London"
+        note="Fifty silkscreened Marilyns from a single publicity still, made weeks after her death, vivid on the left and fading to ghostly grays on the right. The star reduced to a repeatable product. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Marilyn_Diptych"
+      />
+      <p style={proseStyle}>
+        The most provocative thing Warhol made was a box. In 1964 he showed the{' '}<strong>Brillo Boxes</strong>:
+        plywood boxes silkscreened so carefully they looked exactly like the cardboard Brillo shipping cartons in
+        any stockroom. Not a painting of a box. A box, indistinguishable from the real thing, presented as
+        sculpture. The question it forced is the one Pop kept asking and never answering: if a work of art is
+        identical to a grocery carton, what makes one art and the other trash? The gallery, the signature, the
+        price, the intention? It put a philosophical bomb under the whole idea of art, with a twist at its center
+        a later chapter returns to: the design Warhol copied was the work of a real, named commercial artist.
+      </p>
+
+      <SectionHeader accent={accent} label="Lichtenstein, Oldenburg, Rosenquist" title="Comics, soft giants, billboard scale" />
+      <p style={proseStyle}>
+        If Warhol made art out of the supermarket,{' '}<strong>Roy Lichtenstein</strong>{' '}made it out of the
+        comic book, taking single panels from cheap war and romance comics and blowing them up huge in flat
+        primary colors. The signature detail is the dots: cheap comics were printed with{' '}
+        <strong>Ben-Day dots</strong>{' '}(a commercial process that builds shades out of tiny evenly spaced
+        colored dots), and Lichtenstein kept them, then painted them by hand through a stencil, faking the look
+        of cheap mechanical printing with slow craft. His{' '}<em>Whaam!</em>{' '}(1963) is thirteen feet wide: a
+        fighter fires a rocket, the enemy plane erupting in a yellow-and-red &ldquo;WHAAM!&rdquo; lettered across
+        the panel.{' '}<strong>Claes Oldenburg</strong>{' '}attacked the everyday object by making it huge and
+        soft, his{' '}<em>Floor Burger</em>{' '}(1962) a hamburger the size of a sofa, slumping under its own
+        weight, the most familiar thing in the world made monstrous. And{' '}<strong>James Rosenquist</strong>,
+        who had painted actual billboards, brought their scale: his{' '}<em>F-111</em>{' '}wraps a whole room,
+        eighty-six feet of a fighter-bomber spliced with spaghetti, a tire, and a child under a hair-dryer.
+      </p>
+      <RestrictedFigure
+        title={<>Lichtenstein, <em>Whaam!</em></>}
+        year="1963 · Tate, London"
+        note="A thirteen-foot war-comic panel: a fighter fires a rocket, the enemy plane erupting in a hand-painted Ben-Day-dot “WHAAM!” The cheapest storytelling in America, hung at the scale of history painting. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Whaam!"
+      />
+      <p style={proseStyle}>
+        So the manner is complete, and it is the exact opposite of Abstract Expressionism on every axis. Cool,
+        not hot. Flat, not gestural. Mechanical, not handmade (or, in Lichtenstein&rsquo;s case, handmade to look
+        mechanical). Impersonal, not soul-baring. Outward, at the shared world of the store and the screen, not
+        inward at the artist. The lone genius wrestling his soul onto the canvas has been replaced by a man who
+        says he wants to be a machine, and means it as a compliment.
+      </p>
+    </article>
+  </>
+)
+
+// ── 4. Celebration or indictment? ───────────────────────────
+const PopDebateNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="A designer walks into a gallery" title="Whose box is it?" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n April 1964 a commercial artist named{' '}<strong>James Harvey</strong>{' '}walked into the Stable Gallery
+        in New York and found his own work hanging on the wall as art, with another man&rsquo;s name on it. Three
+        years earlier Harvey had designed the cardboard shipping carton for Brillo soap pads, the red, white and
+        blue box in any stockroom. Now here it was, rebuilt in plywood, silkscreened to look exactly like his
+        carton, stacked in a gallery, selling as a Warhol. None of the money, and none of the credit, was coming
+        to him. Hold that scene, because it is the whole argument of this chapter in one room: a piece of
+        throwaway commercial design, lifted without credit, turned into expensive fine art, and nobody quite able
+        to say whether that is theft, homage, a brilliant idea, or all three at once.
+      </p>
+
+      <SectionHeader accent={accent} label="The question Pop will not answer" title="Love letter or burial?" />
+      <p style={proseStyle}>
+        Here is the strangest thing about Pop, and the reason it stays interesting long after the soup can stopped
+        being shocking: nobody can agree on what it thinks. Stand in front of Warhol&rsquo;s cans or
+        Lichtenstein&rsquo;s explosion and ask the obvious question, is this for consumer culture or against it,
+        and the work just stares back. There are two opposite readings, both serious, and the art refuses to
+        settle between them. The first is{' '}<strong>celebration</strong>: Pop as a genuine love letter to the
+        modern world, democratic and honest about what people actually look at and enjoy, putting the supermarket
+        and the comic on the wall without sneering. Warhol said he loved Coca-Cola precisely because the president
+        and the poorest person drink the same Coke, and meant it warmly. The second is{' '}
+        <strong>critique</strong>: Pop as a cold, deadpan indictment of the same world, the endless repetition
+        (fifty Marilyns, thirty-two identical cans) a portrait of a culture grinding everything, even a dead movie
+        star, into interchangeable product. The same Marilyns that look like a tribute look, tilted the other
+        way, like an autopsy.
+      </p>
+      <p style={proseStyle}>
+        The trap is to pick one. The artists mostly refused to, on purpose. Warhol built a public persona out of
+        saying nothing meaningful, insisting there was nothing behind the surface, that he wanted to be a machine
+        and machines do not have opinions. Whether that blankness was a profound statement or a brilliant evasion
+        is exactly the question Pop leaves open. So hold both at once. A soup can can be a hymn and a diagnosis in
+        the same instant, and the deadpan that makes it impossible to tell which is the most modern thing about
+        it.
+      </p>
+
+      <SectionHeader accent={accent} label="Appropriation" title="The names the machine left off" />
+      <p style={proseStyle}>
+        There is a second debate folded inside the first, with a sharper moral edge, because here Pop did do
+        something concrete: it took. The engine of the movement is{' '}<strong>appropriation</strong>{' '}(copying or
+        reusing an image somebody else made, and re-presenting it as your own art). It descends from Dada&rsquo;s{' '}
+        <strong>readymade</strong>, Duchamp&rsquo;s signed urinal (the Dada read tells that story), but goes a
+        step further: appropriation remakes someone else&rsquo;s image inside a new work, which is what Warhol
+        did with a soup label and Lichtenstein with a comic panel. And once you ask where the material came from,
+        real people appear whose names got left off. Warhol&rsquo;s Brillo box lifted James Harvey&rsquo;s paid
+        design. Lichtenstein&rsquo;s comics were drawn by working artists:{' '}<em>Whaam!</em>{' '}came from a panel
+        by Irv Novick, with an element from Russ Heath; the weeping woman of{' '}<em>Drowning Girl</em>{' '}from a
+        romance comic drawn by Tony Abruzzo. Lichtenstein cropped, recolored and recomposed, so it was never
+        simple copying, but the original artists were not credited and not paid while the paintings sold for
+        fortunes. None of this is a reason to throw Pop out. It is a reason to tell the whole truth: a movement
+        built on appropriating commercial imagery was, by the same logic, built on other people&rsquo;s
+        uncredited work, and those names belong in the story.
+      </p>
+    </article>
+  </>
+)
+
+// ── 5. Who got left out ─────────────────────────────────────
+const PopLeftOutNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The boys’ club" title="The women it wrote out" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        op is remembered as a boys&rsquo; club, and the memory is mostly accurate, but the reason it is so clean
+        a boys&rsquo; club is that the women were there and got written out afterward. Putting them back is not a
+        takedown of the movement; it is telling the rest of what happened. British Pop&rsquo;s one prominent
+        woman was{' '}<strong>Pauline Boty</strong>{' '}(1938 to 1966), a founding figure who painted female desire
+        and the male gaze head-on, from a woman&rsquo;s side, at a time when Pop&rsquo;s women were mostly painted
+        by men as objects. In{' '}<em>It&rsquo;s a Man&rsquo;s World</em>{' '}she turned the tables, assembling the
+        icons of male culture seen plainly from a woman looking back, the gaze running the other way for once. She
+        was glamorous and well known in her brief life, then died of cancer at twenty-eight, and within a
+        generation was so thoroughly dropped from the history that her paintings were literally lost for decades,
+        some rediscovered in a barn.
+      </p>
+      <RestrictedFigure
+        title={<>Pauline Boty, <em>It&rsquo;s a Man&rsquo;s World</em></>}
+        year="1965–66 · estate / various"
+        note="British Pop’s lone prominent woman turns the male gaze around. Dropped from the history for decades, some of her paintings literally lost and later found in a barn. Under copyright, so it lives here in words."
+        linkLabel="See her on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Pauline_Boty"
+      />
+      <p style={proseStyle}>
+        The American side had its own roster, every one a serious artist, every one marginalized.{' '}
+        <strong>Marisol</strong>{' '}(Marisol Escobar) made boxy carved-wood figures, part folk totem and part Pop
+        portrait, and was famous in the 1960s; Warhol called her, in a line that says everything about how the
+        era saw its women, &ldquo;the first girl artist with glamour.&rdquo;{' '}<strong>Rosalyn Drexler</strong>{' '}
+        made vivid paintings over collaged pulp and film images;{' '}<strong>Idelle Weber</strong>{' '}painted flat
+        silhouetted businessmen on escalators;{' '}<strong>Marjorie Strider</strong>{' '}made reliefs where the
+        figure pushed physically out of the canvas; and the Belgian{' '}<strong>Evelyne Axell</strong>{' '}painted
+        female pleasure frankly from the woman&rsquo;s point of view. Name them as artists, not wives or muses or
+        footnotes, because that is what they were and what the record long refused to say.
+      </p>
+
+      <SectionHeader accent={accent} label="The blind spots" title="The objectified nude, and Pop’s whiteness" />
+      <p style={proseStyle}>
+        There is a related problem inside the art itself. A great deal of Pop, when it did put women in the
+        picture, reduced them to flat, faceless objects interchangeable with the products around them. The
+        clearest case is{' '}<strong>Tom Wesselmann</strong>&rsquo;s long{' '}<em>Great American Nude</em>{' '}series:
+        bright, flat, often faceless female nudes arranged among branded packaging and patriotic color, the woman
+        as one more consumer object on the shelf. You can read it generously as a deadpan diagnosis of how
+        advertising already treated women&rsquo;s bodies, or plainly as Pop doing the same thing advertising did,
+        with a museum&rsquo;s blessing. Both are fair, and Pop&rsquo;s gender politics sit in that uncomfortable
+        overlap. And then there is who is almost entirely absent: the Pop canon, British and American alike, is
+        very nearly all white, a movement that claimed to mirror American mass culture somehow reflecting a
+        culture with almost no Black faces in it, at the exact moment the civil rights movement was reshaping the
+        country. That gap is part of the truth about Pop, not a distraction from it.
+      </p>
+      <p style={proseStyle}>
+        Finally, the machine itself. Warhol&rsquo;s whole persona was the artist as factory, and the Factory was
+        a real place full of real people doing the actual labor: assistants pulling the silkscreens, a rotating
+        cast making the films and keeping it running. &ldquo;I want to be a machine&rdquo; sounds like a statement
+        about style, and it is, but a machine needs operators, and Warhol&rsquo;s ran on many hands besides his
+        own, most of them not famous and not credited the way he was. Saying so does not diminish his genuine
+        reinvention of what an artist could be. It just refuses to let the &ldquo;machine&rdquo; pose hide the
+        people inside it.
+      </p>
+    </article>
+  </>
+)
+
+// ── 6. What Pop left us ─────────────────────────────────────
+const PopLegacyNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="After Pop" title="The wall that never went back up" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        op Art did not last long as a named movement; by around 1970 the moment had passed and the artists had
+        scattered into separate later careers. But almost nothing else in twentieth-century art changed the basic
+        rules as permanently, because the thing it broke never got fixed back. Before Pop there was a wall, taken
+        for granted, between fine art on one side and commercial, mass, low culture on the other: the museum and
+        the supermarket spoke different visual languages, and serious art was defined partly by not being the
+        other thing. Pop knocked that wall down so completely that it never went back up. After Pop, a soup label,
+        a comic panel, a brand logo and a movie star are all legitimate raw material for serious art,
+        permanently, and we now live so far inside that change it is hard to feel how radical it was.
+      </p>
+      <p style={proseStyle}>
+        The other permanent legacy is a method:{' '}<strong>appropriation</strong>{' '}and mechanical reproduction
+        made fully respectable. After Warhol, an artist could take an existing image, copy it, repeat it, and the
+        taking itself could be the art. That ran straight into{' '}<strong>Conceptual art</strong>{' '}(where the
+        idea matters more than the handmade object, the Brillo-box question pushed to its end); into{' '}
+        <strong>the Pictures Generation</strong>{' '}of the late 1970s and 80s (Sherrie Levine, Richard Prince,
+        Cindy Sherman), who turned appropriation into a sharp critical tool; and into{' '}<strong>Neo-Pop</strong>,
+        above all Jeff Koons, who took consumer kitsch and branding and made them fine art again. The line runs
+        unbroken from Warhol&rsquo;s shelf of soup cans to a present where advertising, street art, graphic design
+        and the gallery all draw from the same image bank.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={P_CTX}
+        imageUrl={ART_IMG.popBillboards}
+        ratio="5/4"
+        alt="A 1950s wall of illuminated advertising"
+        caption={<>The world Pop saw coming: a wall of illuminated advertising, brands and signs competing for the eye. A period photograph, not a Pop artwork. We now live so completely inside Pop&rsquo;s outcome, where ad, museum piece and phone-screen image all speak one language, that it is invisible.</>}
+        credit={<>Broadway at night, 1953 · Library of Congress · period context, not a Pop artwork</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="The verdict" title="Both halves of the truth" />
+      <p style={proseStyle}>
+        So hold both halves of Pop at the end, because both are true and the movement is more interesting if you
+        refuse to flatten it. On one side, it was a genuine, permanent rethinking of what art can be made of: it
+        dragged the most public, most despised everyday imagery into the museum, killed the lone-genius mystique
+        with a single deadpan gesture, dissolved a wall that had stood for centuries, and asked a question (what
+        makes a thing art rather than a grocery carton?) that art is still answering. On the other, it was a
+        movement with real blind spots: it wrote its women out of its own history, was near-totally white in a
+        country it claimed to mirror, deadpan about an objectified female nude, and built, for all its
+        &ldquo;machine&rdquo; talk, on a great deal of uncredited labor. The cool surface that made Pop possible
+        is the same cool surface that let it look past all of that without blinking.
+      </p>
+      <p style={proseStyle}>
+        And the question it was built around it still has not answered, on purpose. Is the soup can a love letter
+        to consumer abundance or a deadpan burial under it? Pop hangs the can on the wall, refuses to tell you,
+        and lets you keep arguing. Sixty years later, in a world where the museum and the supermarket genuinely do
+        speak the same visual language, that refusal looks less like an evasion and more like the most honest
+        thing the movement ever did.
+      </p>
+    </article>
+  </>
+)
+
 export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
   cubism: {
     before: BeforeNarrative,
@@ -4862,6 +5332,14 @@ export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
     paper: PaperNarrative,
     public: PublicNarrative,
     after: AfterNarrative,
+  },
+  pop: {
+    britain: PopBritainNarrative,
+    bridge: PopBridgeNarrative,
+    machine: PopMachineNarrative,
+    debate: PopDebateNarrative,
+    leftout: PopLeftOutNarrative,
+    legacy: PopLegacyNarrative,
   },
   sur: {
     manifesto: SurManifestoNarrative,

@@ -153,6 +153,15 @@ export const ART_IMG = {
   chiricoSoothsayer: 'https://upload.wikimedia.org/wikipedia/en/3/3c/Giorgio_de_Chirico_-_The_Soothsayer%27s_Recompense.jpg',
   chiricoNostalgiaInfinite: 'https://upload.wikimedia.org/wikipedia/en/6/69/TheNostalgiaoftheInfinite.jpg',
   chiricoEnigmaHour: 'https://upload.wikimedia.org/wikipedia/en/6/68/The_Enigma_of_the_Hour.jpg',
+  // ── Abstract Expressionism + Pop Art: US-PD period photos (LoC, "no known
+  // restrictions") — the ONLY inlineable images for these two movements, since
+  // every canonical work is post-1940 and in copyright. Used as captioned
+  // PERIOD CONTEXT (the world the art came out of / mirrored), never as the art.
+  abexNYC: 'https://tile.loc.gov/storage-services/service/pnp/ppmsca/69700/69726v.jpg',
+  popSupermarket: 'https://tile.loc.gov/storage-services/service/pnp/ppmsca/51700/51713v.jpg',
+  popFrozenFoods: 'https://tile.loc.gov/storage-services/service/pnp/ppmsca/51700/51714v.jpg',
+  popTimesSquare: 'https://tile.loc.gov/storage-services/service/pnp/ppmsca/69600/69617v.jpg',
+  popBillboards: 'https://tile.loc.gov/storage-services/service/pnp/ppmsca/69600/69697v.jpg',
   boccioniCity: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_City_Rises_by_Umberto_Boccioni_1910.jpg/1280px-The_City_Rises_by_Umberto_Boccioni_1910.jpg',
   duchampFountain: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg/1280px-Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg',
   grisBreakfast: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/1914_Gris_Le_Petit_D%C3%A9jeuner.jpg',
@@ -400,7 +409,7 @@ export const MODERN_ERA: ArtEraContent = {
     { id: 'dada', name: 'Dada', range: '1916–1924', accent: ART_ACCENTS.amber, size: 'm', hook: 'A war in the background and a urinal in the foreground.', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'], imageUrl: ART_IMG.duchampFountain, credit: 'Stieglitz, Duchamp’s Fountain, 1917 · The Blind Man' },
     { id: 'sur', name: 'Surrealism', range: '1924–1966', accent: ART_ACCENTS.green, size: 'l', hook: 'The unconscious gets a paintbrush. Freud and a clock that won’t hold its shape.', palette: ['#1c3a6a', '#c8a72a', '#0e1224'], imageUrl: ART_IMG.chiricoRedTower, credit: 'de Chirico, The Red Tower, 1913 · the dream-world Surrealism grew out of' },
     { id: 'abex', name: 'Abstract Expressionism', range: '1943–1960', accent: ART_ACCENTS.blue, size: 'l', hook: 'The action stops being something the painting shows and starts being what makes it.', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'] },
-    { id: 'pop', name: 'Pop Art', range: '1956–1970', accent: ART_ACCENTS.violet, size: 'm', hook: 'A soup can, but with conviction. Warhol’s factory; Lichtenstein’s dots.', palette: ['#ff3e7f', '#1f1f1f', '#7adff0'] },
+    { id: 'pop', name: 'Pop Art', range: '1956–1970', accent: ART_ACCENTS.violet, size: 'm', hook: 'A soup can, but with conviction. Warhol’s factory; Lichtenstein’s dots.', palette: ['#ff3e7f', '#1f1f1f', '#7adff0'], imageUrl: ART_IMG.popSupermarket, credit: 'A 1950s supermarket aisle (period photo) · the world Pop made art of' },
   ],
   anchorPainters: [
     { name: 'Cézanne', role: 'The bridge', palette: ['#5a7042', '#8a7848', '#1c1a12'] },
@@ -4399,6 +4408,128 @@ export const SURREALISM: ArtMovementContent = {
   ],
 }
 
-export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, dada: DADA, sur: SURREALISM, cubism: CUBISM }
+// ─────────────────────────────────────────────────────────────
+// Movement, Pop Art (1956–1970). Mass/commercial culture made into art, done
+// cool, the flat mechanical answer to Abstract Expressionism. Gated pipeline;
+// narrative under 'pop'. THE APP'S WORST IMAGE CASE: not one Pop work is
+// inlineable (all post-1930, in copyright); the only images are US-PD period
+// photos of consumer culture, captioned as context. No whatChanged block (the
+// "before" = AbEx has no PD image); the break is carried in the prose. Honesty
+// axes plain: celebration-vs-critique held open, the erased women, Pop's
+// whiteness, uncredited labor/appropriation (James Harvey's Brillo box).
+// ─────────────────────────────────────────────────────────────
+export const POP_ART: ArtMovementContent = {
+  id: 'pop',
+  name: 'Pop Art',
+  range: '1956–1970',
+  span: '~14 years',
+  era: 'Modern',
+  eraId: 'mod',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Movements of the Modern era', index: 10, total: 10 },
+  hook: 'Where Abstract Expressionism flung paint from the soul, Pop hung a soup can on the wall and refused to say whether it was a joke.',
+  hookLong:
+    'Pop Art took the cheapest, most public images anybody saw every day, soup labels, comic strips, advertising, movie stars, supermarket packaging, and made them the content of serious art, done cold. It was the cool, flat, mechanical answer to Abstract Expressionism’s hot, gestural, soul-baring painting, and it started in Britain first, not America: a London discussion club called the Independent Group got obsessed with glossy American mass culture in grey, rationed postwar Britain years before Warhol picked up a silkscreen. Then America made it enormous, Warhol’s grids of soup cans and silkscreened Marilyns, Lichtenstein’s giant comic panels, Oldenburg’s saggy soft hamburgers. The deepest question Pop poses it never answers on purpose: is this a love letter to consumer abundance or a deadpan burial under it, and the same deadpan also hid, for decades, the women it wrote out, the near-total whiteness of its canon, and the uncredited people whose designs and labor the machine ran on.',
+  heroImage: ART_IMG.popSupermarket,
+  heroFit: 'cover',
+  heroFocus: '50% 50%',
+  heroCredit: 'A 1950s American supermarket aisle (period photograph, NOT a Pop artwork) · Library of Congress · the world Pop made art of',
+  stats: [
+    { v: '~14 yrs', k: 'Span' },
+    { v: '18', k: 'Canonical works' },
+    { v: 'Britain → USA', k: 'Born in' },
+  ],
+  factions: [
+    { side: 'british', label: 'British Pop (the Independent Group)', color: ART_ACCENTS.violet, members: ['Hamilton', 'Paolozzi', 'Blake', 'Boty'], detail: 'It started here, in grey postwar London. A circle of young artists, critics and architects (the Independent Group) at the ICA got hypnotized by the glossy American abundance flooding in from across the Atlantic, and built art out of it. Paolozzi’s 1947 magazine collages, Hamilton’s tiny 1956 living-room collage, and the 1957 letter that defined Pop like an ad slogan. Cooler and more analytical than the American wave, and years earlier.' },
+    { side: 'american', label: 'American Pop', color: '#bf2f6a', members: ['Warhol', 'Lichtenstein', 'Oldenburg', 'Rosenquist'], detail: 'The second wave, and the bigger one. America took the British idea and made it huge, brash and unmissable: Warhol’s soup-can grids and silkscreened Marilyns out of the Factory, Lichtenstein’s comic panels at billboard size, Oldenburg’s giant soft hamburgers, Rosenquist’s room-length splices. Where the British circle studied mass culture, the Americans matched its scale and gloss head-on.' },
+  ],
+  works: [
+    { id: 'just-what-is-it', year: 1956, name: 'Just what is it that makes today’s homes so different, so appealing?', artist: 'Hamilton', place: 'London', size: 'm', blurb: 'The first iconic Pop work: the entire 1950s consumer dream crammed into one tiny living-room collage, a flexing bodybuilder holding a giant Tootsie Pop. (Under copyright; shown in words.)', palette: ['#bf2f6a', '#1f1f1f', '#7adff0'] },
+    { id: 'rich-mans-plaything', year: 1947, name: 'I was a Rich Man’s Plaything', artist: 'Paolozzi', place: 'London', size: 'm', blurb: 'Proto-Pop a full decade early: American magazine cuttings glued together, with a toy gun firing a puff of smoke lettered “POP!”, often called the first appearance of the word. (Under copyright; shown in words.)', palette: ['#d6483a', '#3a3030', '#100c08'] },
+    { id: 'flag', year: 1954, name: 'Flag', artist: 'Johns', place: 'New York', size: 'm', blurb: 'The Stars and Stripes, life-size, edge to edge, in pigmented hot wax over newsprint. The bridge out of Abstract Expressionism: is it a painting of a flag, or just a flag? (Under copyright; shown in words.)', palette: ['#3a4a8a', '#a83232', '#15110c'] },
+    { id: 'soup-cans', year: 1962, name: 'Campbell’s Soup Cans', artist: 'Warhol', place: 'Los Angeles', size: 'l', blurb: 'Thirty-two near-identical canvases, one per soup variety, first propped on a shelf like a grocery aisle. The supermarket walks into the museum and hangs where a Rothko hung. (Under copyright; shown in words.)', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'] },
+    { id: 'marilyn', year: 1962, name: 'Marilyn Diptych', artist: 'Warhol', place: 'New York', size: 'l', blurb: 'Fifty silkscreened Marilyns from one publicity still, made weeks after her death, vivid on the left and fading to ghostly grays on the right. Celebrity, mass reproduction and death at once. (Under copyright; shown in words.)', palette: ['#bf2f6a', '#d6cf3f', '#1c1c1c'] },
+    { id: 'brillo', year: 1964, name: 'Brillo Boxes', artist: 'Warhol', place: 'New York', size: 'm', blurb: 'Plywood boxes silkscreened to look exactly like Brillo shipping cartons. If the art is identical to a grocery box, what makes it art? (The real carton was designed by James Harvey.) (Under copyright; shown in words.)', palette: ['#bf2f25', '#3a4a8a', '#f0f0f0'] },
+    { id: 'whaam', year: 1963, name: 'Whaam!', artist: 'Lichtenstein', place: 'New York', size: 'l', blurb: 'A thirteen-foot war-comic panel: a fighter fires a rocket, the enemy plane erupting in a yellow-and-red “WHAAM!”, hand-painted Ben-Day dots and all. (Under copyright; shown in words.)', palette: ['#d6cf3f', '#bf2f25', '#1c1c1c'] },
+    { id: 'floor-burger', year: 1962, name: 'Floor Burger', artist: 'Oldenburg', place: 'New York', size: 'm', blurb: 'A hamburger the size of a sofa, soft and sagging, painted canvas stuffed with foam. The most familiar object in the world made monstrous and absurd. (Under copyright; shown in words.)', palette: ['#a8702a', '#3a2a1c', '#15100a'] },
+    { id: 'its-a-mans-world', year: 1965, name: 'It’s a Man’s World', artist: 'Boty', place: 'London', size: 'm', blurb: 'The lone prominent woman of British Pop turns the gaze around, assembling the icons of male culture seen plainly from a woman looking back. Lost for decades, some works found in a barn. (Under copyright; shown in words.)', palette: ['#bf3a6a', '#3a5a4a', '#15140e'] },
+  ],
+  artists: [
+    { id: 'hamilton', name: 'Hamilton', role: 'Father of British Pop', years: '1922–2011', palette: ['#bf2f6a', '#1f1f1f', '#7adff0'] },
+    { id: 'paolozzi', name: 'Paolozzi', role: 'The proto-Pop collagist', years: '1924–2005', palette: ['#d6483a', '#3a3030', '#100c08'] },
+    { id: 'warhol', name: 'Warhol', role: 'The icon and the machine', years: '1928–1987', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'] },
+    { id: 'lichtenstein', name: 'Lichtenstein', role: 'The comic-strip painter', years: '1923–1997', palette: ['#d6cf3f', '#bf2f25', '#1c1c1c'] },
+    { id: 'oldenburg', name: 'Oldenburg', role: 'Maker of giant soft things', years: '1929–2022', palette: ['#a8702a', '#3a2a1c', '#15100a'] },
+    { id: 'rosenquist', name: 'Rosenquist', role: 'The billboard painter', years: '1933–2017', palette: ['#3a6a8a', '#bf2f6a', '#15110c'] },
+    { id: 'boty', name: 'Boty', role: 'The woman British Pop erased', years: '1938–1966', palette: ['#bf3a6a', '#3a5a4a', '#15140e'] },
+  ],
+  parallels: [
+    { year: 1957, movement: 'The consumer boom', place: 'USA / UK', blurb: 'Pop is inseparable from the supermarket, the suburb, the TV set and Madison Avenue. Postwar prosperity flooded America with branded goods and ads; the British fascination was sharper because Britain was still grey and rationed while American abundance glittered from across the Atlantic.' },
+    { year: 1952, movement: 'Abstract Expressionism’s reign', place: 'New York', blurb: 'While Pop was being born, AbEx (Pollock, Rothko, de Kooning) was the establishment avant-garde, the hot lone genius baring his soul. Pop’s rise is the story of AbEx being dethroned by the cool machine.' },
+    { year: 1962, movement: 'The celebrity machine', place: 'the West', blurb: 'Television, glossy magazines and Hollywood’s star machine peaked in these years, manufacturing fame as a product. Warhol’s Marilyns (made the month she died) ride that wave: fame, repetition, image-as-merchandise.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Abstract Expressionism', mode: 'art', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'], note: 'gave: the foil, inverted on every axis' },
+      { label: 'Neo-Dada (Johns, Rauschenberg)', mode: 'art', palette: ['#3a4a8a', '#a83232', '#15110c'], note: 'gave: the door, the everyday object back in' },
+      { label: 'Dada & the readymade', mode: 'art', img: ART_IMG.duchampFountain, palette: ['#b8b4ac', '#6a665e', '#2a2824'], note: 'gave: collage, appropriation, the readymade' },
+      { label: 'Mass culture', mode: 'civ', img: ART_IMG.popTimesSquare, palette: ['#bf2f6a', '#d6cf3f', '#1c1c1c'], note: 'gave: the raw material and the subject' },
+    ],
+    children: [
+      { label: 'Conceptual art', mode: 'art', palette: ['#5a5a5a', '#2a2a2a', '#0c0c0c'], note: 'took: the idea, not the object, is the art' },
+      { label: 'The Pictures Generation', mode: 'art', palette: ['#3a3a44', '#1c1c24', '#0a0a10'], note: 'took: appropriation as a critical weapon' },
+      { label: 'Neo-Pop (Koons)', mode: 'art', palette: ['#bf2f6a', '#d6cf3f', '#1c1c1c'], note: 'took: consumer kitsch and branding as fine art' },
+      { label: 'Today’s image world', mode: 'civ', img: ART_IMG.popBillboards, palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'], note: 'took: the high/low wall, gone for good' },
+    ],
+  },
+  influenceSummary: 'Pop took Abstract Expressionism’s scale and Dada’s readymade, turned art outward to the cheapest, most public mass imagery and rendered it cool and mechanical, and handed appropriation and mechanical reproduction forward as legitimate art, dissolving the wall between fine art and the commercial image so completely that the museum and the supermarket now speak the same visual language.',
+  manifesto: {
+    title: 'The “characteristics of pop art” (Hamilton’s 1957 letter)',
+    author: 'Richard Hamilton',
+    dateLabel: '1957',
+    venue: 'a private letter to the architects Alison and Peter Smithson, fellow members of the Independent Group; later reprinted so often it became the de-facto definition of the movement',
+    quotes: [
+      'Pop Art is: Popular (designed for a mass audience), Transient (short-term solution), Expendable (easily forgotten), Low cost, Mass produced, Young (aimed at youth), Witty, Sexy, Gimmicky, Glamorous, Big business.',
+      'The reason I’m painting this way is that I want to be a machine. (Andy Warhol, 1963)',
+    ],
+    prose: [
+      'Pop never got a manifesto. It got a letter. Most movements announce themselves with a public declaration nailed to the door of the art world. Pop had no founding document and no signatures, which fits a movement that was deadpan and noncommittal on principle. What it had instead was a private letter: in 1957 Richard Hamilton wrote to his friends Alison and Peter Smithson, two architects in the Independent Group, and listed what “pop art” should be.',
+      'The list is the closest thing the movement ever had to a creed, and it reads exactly like the advertising it was about: popular, transient, expendable, low cost, mass produced, young, witty, sexy, gimmicky, glamorous, big business. That is not a call to arms. It is a product description, and that flatness is the message. There is nothing in it about the soul, beauty, or genius.',
+      'Andy Warhol gave the movement its other famous lines, but they are color, not a creed. “I want to be a machine,” he told an interviewer in 1963, and meant it as a compliment. (A line about everyone being world-famous for fifteen minutes is also attached to him, but it was first printed in 1968 and he may never actually have said it, two facts worth keeping straight.)',
+    ],
+    sourceUrl: 'https://www.tate.org.uk/art/art-terms/p/pop-art',
+    sourceLabel: 'Read Hamilton’s list on Tate’s Pop art page (1957)',
+  },
+  canon: [
+    { year: 1947, name: 'I was a Rich Man’s Plaything (BUNK!)', artist: 'Paolozzi', wiki: 'I was a Rich Man’s Plaything' },
+    { year: 1954, name: 'Flag', artist: 'Johns', wiki: 'Flag (Jasper Johns)' },
+    { year: 1955, name: 'Bed', artist: 'Rauschenberg', wiki: 'Bed (Rauschenberg)' },
+    { year: 1955, name: 'On the Balcony', artist: 'Blake', wiki: 'On the Balcony (Blake)' },
+    { year: 1956, name: 'Just what is it that makes today’s homes so different, so appealing?', artist: 'Hamilton', wiki: 'Just what is it that makes today’s homes so different, so appealing?' },
+    { year: 1961, name: 'The Store', artist: 'Oldenburg', wiki: 'The Store (Oldenburg)' },
+    { year: 1961, name: 'Great American Nude series', artist: 'Wesselmann', wiki: 'Tom Wesselmann' },
+    { year: 1962, name: 'Campbell’s Soup Cans', artist: 'Warhol', wiki: 'Campbell’s Soup Cans' },
+    { year: 1962, name: 'Marilyn Diptych', artist: 'Warhol', wiki: 'Marilyn Diptych' },
+    { year: 1962, name: 'Floor Burger', artist: 'Oldenburg', wiki: 'Floor Burger' },
+    { year: 1963, name: 'Whaam!', artist: 'Lichtenstein', wiki: 'Whaam!' },
+    { year: 1963, name: 'Drowning Girl', artist: 'Lichtenstein', wiki: 'Drowning Girl' },
+    { year: 1963, name: 'Standard Station, Amarillo, Texas', artist: 'Ruscha', wiki: 'Standard Station' },
+    { year: 1964, name: 'Brillo Boxes', artist: 'Warhol', wiki: 'Brillo Boxes' },
+    { year: 1965, name: 'F-111', artist: 'Rosenquist', wiki: 'F-111 (painting)' },
+    { year: 1965, name: 'It’s a Man’s World I', artist: 'Boty', wiki: 'Pauline Boty' },
+    { year: 1967, name: 'Sgt. Pepper’s album cover', artist: 'Blake', wiki: 'Sgt. Pepper’s Lonely Hearts Club Band' },
+    { year: 1964, name: 'Marisol’s carved-wood Pop figures', artist: 'Marisol' },
+  ],
+  sections: [
+    { id: 'britain', eyebrow: 'London', dateLabel: '1947–1957', title: 'Britain saw it first', blurb: 'In grey, rationed postwar London, a circle of young artists, critics and architects gets hypnotized by glossy American abundance, Paolozzi glues it into collage from 1947, Hamilton crams it into one tiny living room in 1956, and a 1957 letter defines Pop like an ad slogan.', progress: 1 / 6 },
+    { id: 'bridge', eyebrow: 'New York', dateLabel: '1954–1955', title: 'Killing the lone genius', blurb: 'Why Abstract Expressionism ruled American art, hot, gestural, inward, heroic, and how two younger New Yorkers, Johns with his flag and Rauschenberg with his bed, cracked it open by dragging the everyday object back in.', progress: 2 / 6 },
+    { id: 'machine', eyebrow: 'The big wave', dateLabel: '1961–1965', title: 'The supermarket walks into the museum', blurb: 'America makes Pop enormous: Warhol’s soup cans and Marilyns, the Factory, silkscreen, “I want to be a machine,” the Brillo boxes; Lichtenstein’s comic panels; Oldenburg’s soft giants; Rosenquist’s billboard scale.', progress: 3 / 6 },
+    { id: 'debate', eyebrow: 'Love letter or burial?', dateLabel: '1962–1968', title: 'Celebration or indictment?', blurb: 'The question Pop refuses to answer: is this a love letter to consumer abundance or a deadpan burial under it? Both readings held open, plus the appropriation question and the uncredited Brillo-box designer James Harvey.', progress: 4 / 6 },
+    { id: 'leftout', eyebrow: 'The blind spots', dateLabel: '1960s', title: 'Who got left out', blurb: 'The erased women named as real artists (Boty, Marisol, Drexler, Weber, Strider, Axell) and the erasure named; the objectified female nude; Pop’s near-total whiteness; the uncredited Factory labor behind the “machine.”', progress: 5 / 6 },
+    { id: 'legacy', eyebrow: 'After Pop', dateLabel: '1970–today', title: 'What Pop left us', blurb: 'Appropriation and mechanical reproduction made legitimate, the high/low wall gone for good, and the line out to Conceptual art, the Pictures Generation and Koons. Both halves held: a real rethinking of art, and a movement with real blind spots.', progress: 1 },
+  ],
+}
+
+export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, dada: DADA, sur: SURREALISM, pop: POP_ART, cubism: CUBISM }
 export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
