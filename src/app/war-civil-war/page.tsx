@@ -41,6 +41,7 @@ const MENU = [
   { k: 'war', n: 'War', s: 'American Civil War', href: '/war' },
   { k: 'art', n: 'Art', s: 'Movements & works', href: '/art' },
   { k: 'music', n: 'Music', s: 'Eras & composers', href: '/music' },
+  { k: 'philosophy', n: 'Philosophy', s: 'Thinkers & ideas', href: '/philosophy' },
 ]
 
 const STANDFIRST = 'Four years, some ten thousand engagements, and three-quarters of a million dead settled whether the United States would survive, and whether it would survive half-slave.'
