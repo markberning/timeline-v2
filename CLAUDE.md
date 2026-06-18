@@ -20,7 +20,7 @@ NOT gated (run freely): free byte-downloads from public-domain sources (Wikimedi
 - **Framework**: Next.js 16 + React 19 + TypeScript
 - **Styling**: Tailwind 4 + @tailwindcss/typography
 - **Build**: `npm run parse` runs automatically as `prebuild`; `npm run build` calls `scripts/build-static.mjs` which temporarily stashes dev-only routes (`/api/*`, `/candidates`, `/review`) and runs `next build` with `output: 'export'` to produce a fully static `out/` directory.
-- **Deploy**: Cloudflare Workers + Static Assets via `wrangler.jsonc`. `stuffhappened.com` is the v2 production domain; `v1.stuffhappened.com` is the legacy Vite explorer. Auto-deploy from GitHub on push to `main`. Manual fallback: `npx wrangler deploy`.
+- **Deploy**: Cloudflare Workers + Static Assets via `wrangler.jsonc`. **v2 is OFF LIVE since 2026-06-11** (`memory/project_off_live_dev_domain`): the reviewable URL is `dev.stuffhappened.com`; the apex `stuffhappened.com` serves a 404 placeholder (one worker carries both domains, routing by hostname via `worker/index.mjs`). `v1.stuffhappened.com` is the legacy Vite explorer. Auto-deploy from GitHub on push to `main`. Manual fallback: `npx wrangler deploy`. Go-live reversal steps are in `wrangler.jsonc` + `worker/index.mjs`.
 - **Dev**: `npm run dev` → localhost:3000. Dev server keeps the dev-only api routes and dynamic review pages for local image curation.
 
 ## Authoring — the critic pipeline is MANDATORY in EVERY vertical (locked 2026-05-25)
@@ -182,8 +182,8 @@ index + thread-home when a 2nd chapter/thread lands. See `memory/project_threads
 - **The informal voice is the product** — don't sand it down
 
 ## Civilization Roadmap
-**100 of 100 navigator TLs shipped** (every `navigator-tls.ts` entry has
-`hasContent: true`); all 100 have chapter maps that pass the locked acceptance
+**109 of 109 navigator TLs shipped** (every `navigator-tls.ts` entry has
+`hasContent: true`); all have chapter maps that pass the locked acceptance
 criteria. The **live source of truth is `src/lib/navigator-tls.ts` (what's shipped) +
 `reference-data/tl-chains.ts` (chain order)** — query those, not a hand-maintained
 list. The per-chain snapshot (every chain + chapter counts) is in
@@ -200,9 +200,11 @@ list. The per-chain snapshot (every chain + chapter counts) is in
 At the end of every task or set of changes, always provide a **Changes made this pass** section.
 
 ## Git — PUBLISH POLICY (ask-gate LIFTED 2026-05-17)
-`git push` and `npx wrangler deploy` PUBLISH to stuffhappened.com (Cloudflare
-auto-deploys `main`). Multiple concurrent **same-tree** sessions publishing once
-caused recurring prod regressions (whole civ groups vanishing).
+`git push` and `npx wrangler deploy` deploy the site (Cloudflare auto-deploys
+`main`). While v2 is off live (see Deploy above) deploys reach
+`dev.stuffhappened.com`, not the public apex. Multiple concurrent **same-tree**
+sessions publishing once caused recurring prod regressions (whole civ groups
+vanishing).
 
 **Current rule:** **publish when ship-ready, no need to ask.** Commit locally
 throughout; when a civ/merge has passed the full gated pipeline (ship-check
@@ -212,9 +214,8 @@ wrangler deploy`, and push — autonomously. The user removed the *ask*, not the
 gates: never publish a gate-failing or half-built state.
 
 **Why it's safe to publish unattended now:** concurrent work runs in isolated
-git **worktrees** (the-17 → `feat/the-17`, remediation → `chore/corpus-
-remediation`), never concurrent same-tree sessions; and the shipped-page guard
-makes a stale/partial build structurally undeployable. Those replace the old
+git **worktrees** (one per task), never concurrent same-tree sessions; and the
+shipped-page guard makes a stale/partial build structurally undeployable. Those replace the old
 serialize-under-explicit-approval gate. (A legacy settings.json PreToolUse hook
 may still hard-block pushes — clear/relax it before the first unattended
 publish.)
