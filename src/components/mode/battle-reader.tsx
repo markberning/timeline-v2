@@ -286,7 +286,7 @@ export function BattleSectionReader({
               <div className="k">{endKicker ?? `End of ${battleName}`}</div>
               <div className="t">{endLabel ?? 'Back to the battle'}</div>
             </div>
-            <span className="arr" aria-hidden>↩</span>
+            <span className="arr" aria-hidden>←</span>
           </a>
         )}
       </div>
