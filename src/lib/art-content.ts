@@ -3090,7 +3090,221 @@ export const HORSE_FAIR: ArtWorkContent = {
   },
 }
 
+// ─────────────────────────────────────────────────────────────
+// Work, The Starry Night (Van Gogh, 1889). The flagship Post-Impressionism
+// work read. Authored through the art content pipeline (fact pack → Opus →
+// 5 gates → revise). Chapter prose in art-section-reader.tsx NARRATIVES['starry-night']
+// (Sn… prefix). LEGENDS handled per fact pack: painted BY DAY in the studio
+// (depicts the east-window view, village largely invented), not "from the window
+// at night" and not "from memory"; "sold only one painting" is a myth (one
+// DOCUMENTED sale, The Red Vineyard).
+// ─────────────────────────────────────────────────────────────
+export const STARRY_NIGHT: ArtWorkContent = {
+  id: 'starry-night',
+  name: 'The Starry Night',
+  shortName: 'The Starry Night',
+  year: 1889,
+  artist: 'Vincent van Gogh',
+  artistId: 'vangogh',
+  movement: 'Post-Impressionism',
+  movementId: 'postimp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 5 in × 3 ft 1/4 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Acquired through the Lillie P. Bliss Bequest (by exchange), 1941',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Post-Impressionism', index: 5, total: 9 },
+  hook: 'A swirling night sky over a sleeping village, painted by daylight in an asylum studio, that its own maker called a failure.',
+  heroImage: ART_IMG.starryNight,
+  heroCredit: 'Van Gogh, The Starry Night, 1889 · Museum of Modern Art, New York',
+  heroAspect: 1.25, // 73.7 × 92.1 cm → W/H ≈ 1.25
+  heroFit: 'contain', // whole canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: 'June 1889', k: 'Painted' },
+    { v: '2′5″ × 3′¼″', k: 'Dimensions' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'asylum', eyebrow: 'Saint-Rémy · 1889', dateLabel: 'May 1889', title: 'The man at the barred window', blurb: 'After the breakdown in Arles, Van Gogh checks himself into the Saint-Paul asylum and is given a ground-floor room as a studio and an east-facing bedroom that looks out over the valley.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '~17–18 June 1889', title: 'Painted by day, from a dawn he remembered', blurb: 'Not painted at the window at night. Made in the studio in daylight, working up the pre-dawn view he had watched with the morning star big over the hills, the village largely invented.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 5 in × 3 ft ¼ in', title: 'The stars and a rolling sky', blurb: 'The cypress, the crescent moon, the one star he named, the invented steeple, the real Alpilles, and the great curling eddies that have no model in any real sky.', progress: 0.56 },
+    { id: 'reception', eyebrow: 'His own verdict', dateLabel: 'Nov 1889', title: 'The picture he called a failure', blurb: 'Van Gogh thought it a near-miss, told Bernard he had reached for stars too big, and it sold no better than the rest. He did not sell only one painting in his life, but he never sold this one.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1890–today', title: 'How a failure became a touchstone', blurb: 'His brother dead within months, the estate carried by Theo’s widow Jo, the canvas passing through dealers to MoMA in 1941, where the 20th century made it one of the most recognizable paintings on Earth.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1889–1890', who: 'Vincent van Gogh (the artist)', place: 'Saint-Rémy / Auvers', note: 'Painted in June 1889 at the Saint-Paul-de-Mausole asylum. Never sold in his lifetime; passed to his brother Theo on Vincent’s death in July 1890.', price: null },
+    { year: '1890–1900', who: 'Theo van Gogh, then Johanna (Jo) van Gogh-Bonger', place: 'Paris / Netherlands', note: 'Theo died in January 1891; his widow Jo inherited the estate and spent her life building Van Gogh’s posthumous reputation.', price: null },
+    { year: '1900–1906', who: 'Julien Leclercq · Émile Schuffenecker · (repurchased by Jo van Gogh-Bonger)', place: 'Paris', note: 'Sold to the poet Leclercq in 1900, to the painter-collector Schuffenecker in 1901, then bought back by Jo in 1905 before passing to the Oldenzeel Gallery, Rotterdam, in 1906.', price: null },
+    { year: '1906–1938', who: 'Georgette P. van Stolk', place: 'Rotterdam', note: 'Held in a Rotterdam collection for some three decades.', price: null },
+    { year: '1938–1941', who: 'Paul Rosenberg (dealer)', place: 'Paris / New York', note: 'Acquired by the dealer Rosenberg, who fled France for the United States in 1940.', price: null },
+    { year: '1941–today', who: 'Museum of Modern Art', place: 'New York', note: 'Acquired through the Lillie P. Bliss Bequest, by exchange (traded for rather than bought with cash). Accession 472.1941. There the 20th century made it canonical. On permanent view.', price: 'by exchange', museum: true },
+  ],
+  figures: [
+    { name: 'Vincent van Gogh', role: 'The painter', palette: ['#2a3a6a', '#c8b84a', '#0e1428'] },
+    { name: 'Theo van Gogh', role: 'Brother · first owner', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Jo van Gogh-Bonger', role: 'Built the reputation', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+    { name: 'Émile Bernard', role: 'Painter · letter on the “failure”', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Anna Boch', role: 'Bought The Red Vineyard', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+  ],
+  annotations: [
+    { label: 'The one star he actually named', where: 'The single largest, brightest “star,” out toward the center of the sky, just to the right of the central cypress', detail: 'This is not a star at all but the planet Venus, the morning star, the one celestial body Van Gogh names in his letter to Theo, where he wrote that he had seen the countryside before sunrise with nothing but the morning star, which looked very big. It is the single element on the canvas you can tie to a documented observation, and astronomical records confirm Venus was prominent at dawn in Provence that spring.' },
+    { label: 'The moon that is astronomically wrong', where: 'Upper right, the glowing yellow-orange crescent', detail: 'The moon glows as a thin crescent, but on the real date the moon over Saint-Rémy was a waning gibbous, nearly full. So the crescent is an invention, not a record. It is the cleanest proof on the canvas that this is a composed picture, not a transcription of one night’s sky.' },
+    { label: 'The flame that is a tree', where: 'Foreground left, the dark spire that climbs the whole left edge', detail: 'A cypress, pushed far larger and closer than life until it reads like a dark green flame licking up into the stars. Cypresses were a Saint-Rémy obsession Van Gogh painted again and again that year. Nothing forces it to that size; he chose to exaggerate it, and the deliberate distortion is the heart of why the picture feels modern rather than observed.' },
+    { label: 'The village that was never there', where: 'Lower center, the cluster of houses around a tall, thin church steeple', detail: 'The sleeping town sits under the sky with a tall narrow steeple rising from it, and that steeple is more Dutch and northern than anything in Provence. The village is largely invented, not the actual view from his barred window. It is the tell that the whole picture is synthesized in the studio, the real and the imagined stitched together.' },
+    { label: 'The sky that no sky has ever done', where: 'Across the whole upper half, the great curling eddies and the scattered stars', detail: 'The stars (roughly a dozen, by the usual count) sit inside enormous rolling spirals of paint that no real night sky has ever produced. This is pure expressive invention, laid on in thick ridges of pigment (impasto, paint heaped so high the brush leaves standing furrows you can read as texture). The swirls are often read as a vision of his illness, but that is interpretation, not fact; Van Gogh himself denied a romantic or religious program for the picture.' },
+    { label: 'The one real thing along the bottom of the sky', where: 'The low band of rolling blue hills along the horizon, behind the village', detail: 'These are the Alpilles, the low mountain range just south of Saint-Rémy, and they are the one topographically real backdrop element in the painting. Everything above them swirls into invention; the hills are the thin thread of the actual valley he could see.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Impressionism', mode: 'art' }, { label: 'Japanese prints', mode: 'art' }, { label: 'The asylum at Saint-Rémy', mode: 'civ' } ],
+    children: [ { label: 'Expressionism', mode: 'art' }, { label: 'Fauvism', mode: 'art' }, { label: 'Modern painting', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, The Bedroom (Bedroom in Arles), Van Gogh, FIRST version, Oct 1888,
+// Van Gogh Museum, Amsterdam (F482 / JH1608). Three autograph versions exist;
+// this read covers ONLY the first. Authored through the art content pipeline.
+// Chapter prose in art-section-reader.tsx NARRATIVES['bedroom-arles'] (Bd… prefix).
+// LEGEND handled: painted "quickly, mid-Oct 1888," NOT "in one day."
+// ─────────────────────────────────────────────────────────────
+export const BEDROOM_ARLES: ArtWorkContent = {
+  id: 'bedroom-arles',
+  name: 'The Bedroom',
+  shortName: 'Bedroom in Arles',
+  year: 1888,
+  artist: 'Vincent van Gogh',
+  artistId: 'vangogh',
+  movement: 'Post-Impressionism',
+  movementId: 'postimp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 4 in × 2 ft 11 1/2 in',
+  location: 'Van Gogh Museum, Amsterdam',
+  acquired: 'Vincent van Gogh Foundation, 1962 (on permanent loan)',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Post-Impressionism', index: 4, total: 9 },
+  hook: 'His own small room at the Yellow House, painted flat as a Japanese print, where the color was meant to do all the work and make the mind rest.',
+  heroImage: ART_IMG.vanGoghBedroomArles,
+  heroCredit: 'Van Gogh, The Bedroom (first version), 1888 · Van Gogh Museum, Amsterdam',
+  heroAspect: 1.25, // 72 × 90 cm → W/H = 1.25
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: 'Oct 1888', k: 'Painted' },
+    { v: '2′4″ × 2′11½″', k: 'Dimensions' },
+    { v: 'Van Gogh Museum', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'yellow-house', eyebrow: 'Arles · 1888', dateLabel: 'Oct 1888', title: 'The Yellow House, waiting for Gauguin', blurb: 'Van Gogh has rented a little house on the Place Lamartine and dreams of a “Studio of the South,” a colony of painters. Worn out and bedridden for days, he paints his own bedroom as a picture of rest, just before Gauguin arrives.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: 'mid-Oct 1888', title: 'Where the color does the job', blurb: 'Painted quickly over a few days, not in one day. Flat, plain tints with the shadows removed, the way of the Japanese prints he loved, with a color scheme he wrote out for Theo line by line.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 4 in × 2 ft 11½ in', title: 'A tilted room for one sleeper', blurb: 'The bed, the two chairs, the two pillows, the friends’ portraits on the wall, the shuttered window, and a floor that tilts up at you, which is part real, because the room itself was a trapezoid.', progress: 0.56 },
+    { id: 'flood', eyebrow: 'Why there are three', dateLabel: '1889', title: 'A flood, and two copies', blurb: 'While Van Gogh is hospitalized in 1889, river flooding water-damages this first canvas in storage, and it is relined to save it. That is why he later painted a full-size copy and a smaller one. This is the original.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1890–today', title: 'The room that never left the family', blurb: 'No great sale, no key exhibition in his lifetime; fame built by the estate. The first version passed down through the family to the Van Gogh Foundation in 1962 and the Van Gogh Museum, and is now among the most reproduced images he ever made.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1888–1890', who: 'Vincent van Gogh (the artist)', place: 'Arles', note: 'Painted mid-October 1888 in the Yellow House. The first version never left the family estate. To his brother Theo on Vincent’s death in 1890.', price: null },
+    { year: '1890s–1962', who: 'Jo van Gogh-Bonger, then V. W. van Gogh (nephew)', place: 'Netherlands', note: 'Theo’s widow Jo, then the artist’s nephew Vincent Willem van Gogh, kept the canvas in the family across two generations.', price: null },
+    { year: '1962–today', who: 'Vincent van Gogh Foundation', place: 'Amsterdam', note: 'The nephew established the Vincent van Gogh Foundation in 1962, which has held the painting since and placed it on permanent loan to the Van Gogh Museum (opened 1973). Inv. s0047V1962; catalogue F482 / JH1608. On permanent view.', price: 'never sold', museum: true },
+  ],
+  figures: [
+    { name: 'Vincent van Gogh', role: 'The painter', palette: ['#c8a72a', '#3a4a8a', '#1a1408'] },
+    { name: 'Theo van Gogh', role: 'Brother · received the letters', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Paul Gauguin', role: 'The painter he was waiting for', palette: ['#6a5a3a', '#332820', '#0e0a06'] },
+    { name: 'Eugène Boch', role: 'Painter friend, portrait on the wall', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Paul-Eugène Milliet', role: 'Soldier friend, portrait on the wall', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+  ],
+  annotations: [
+    { label: 'A floor that tilts, for a real reason', where: 'The whole lower half, the red-tiled floor running up toward the bed', detail: 'The floor tips up at you and the walls seem to lean, and the lazy reading is that Van Gogh simply could not do perspective. He could. The real bedroom was not rectangular; it was a trapezoid, with an obtuse angle at the front-left and an acute angle at the right, so part of the “wrong” perspective is the genuinely odd shape of the room, and part is his deliberate flattening. Both at once.' },
+    { label: 'A bed for one, framed as rest', where: 'Right side, the wooden bed with two pillows and a turned-down red coverlet', detail: 'Two pillows lie on a bed turned down for a single sleeper. It would be easy to read the empty single bed as loneliness, but that is later interpretation laid over the picture. In his own letter Van Gogh framed the whole room as an image of rest and sleep, made while he was worn out and recovering, not as a portrait of isolation.' },
+    { label: 'The butter-yellow furniture he named', where: 'The pair of rush-seated chairs, one at the foot of the bed and one by the wall', detail: 'The two simple chairs with woven rush seats are the “fresh butter” yellow Van Gogh listed by name in his letter to Theo, where he wrote out the color of every object in the room. They let you point straight at his documented palette: the chairs and bed butter-yellow, the floor red tiles, the basin blue, the window green.' },
+    { label: 'Two friends on the wall', where: 'Upper right, the pair of small framed portraits above the bed', detail: 'In this first version the pictures on the wall are small portraits of two friends, usually identified as the poet Eugène Boch and the soldier Paul-Eugène Milliet (the exact which-is-which differs between sources, so read them simply as portraits of friends). These wall pictures are the tell that tells the three versions of the Bedroom apart.' },
+    { label: 'The room’s one opening', where: 'The back wall, the green shuttered casement window', detail: 'At the back, a shuttered casement window in green looks out onto the Place Lamartine and the public garden outside the Yellow House. It is the single opening to the world in an otherwise closed, snug room, the seam between Van Gogh’s private space of rest and the street.' },
+    { label: 'Color instead of shadow', where: 'Everywhere, the broad flat areas of unmodelled color', detail: 'Look for the cast shadows under the bed, the chairs, the table, and you will not find them. Van Gogh wrote that he had removed the shadows and cast shadows and colored the room in flat, plain tints “like the Japanese prints.” The flatness is his own stated technique, not a failing, and it is why the room reads as a pattern of pure color rather than a modelled, three-dimensional box.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Japanese prints', mode: 'art' }, { label: 'Impressionism', mode: 'art' }, { label: 'The Yellow House, Arles', mode: 'civ' } ],
+    children: [ { label: 'Expressionism', mode: 'art' }, { label: 'Fauvism', mode: 'art' }, { label: 'Flat-color modern painting', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, A Sunday on La Grande Jatte — 1884 (Seurat, 1884–86). Founding monument
+// of Neo-Impressionism / Divisionism / Pointillism. Art Institute of Chicago.
+// Authored through the art content pipeline. Chapter prose in
+// art-section-reader.tsx NARRATIVES['grande-jatte'] (Gj… prefix).
+// PRECISION handled: Pointillism vs Divisionism are NOT synonyms (Seurat preferred
+// Divisionism for the method); "~48 figures" / monkey-fishing puns are approximate /
+// interpretive; the grass has darkened from a degraded zinc-yellow pigment.
+// ─────────────────────────────────────────────────────────────
+export const GRANDE_JATTE: ArtWorkContent = {
+  id: 'grande-jatte',
+  name: 'A Sunday on La Grande Jatte — 1884',
+  shortName: 'La Grande Jatte',
+  year: 1886,
+  artist: 'Georges Seurat',
+  artistId: 'seurat',
+  movement: 'Post-Impressionism',
+  movementId: 'postimp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '6 ft 9 3/4 in × 10 ft 1 1/4 in',
+  location: 'Art Institute of Chicago',
+  acquired: 'Helen Birch Bartlett Memorial Collection, 1926',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Post-Impressionism', index: 2, total: 9 },
+  hook: 'Two years of work and countless tiny separate dots of pure color, building a frozen Sunday crowd, the founding monument of a whole new science of painting.',
+  heroImage: ART_IMG.seuratGrandeJatte,
+  heroCredit: 'Seurat, A Sunday on La Grande Jatte — 1884, 1884–86 · Art Institute of Chicago',
+  heroAspect: 1.48, // 207.5 × 308.1 cm → W/H ≈ 1.485
+  heroFit: 'contain', // the whole ~7×10 ft panorama, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1884–86', k: 'Painted' },
+    { v: '6′9¾″ × 10′1¼″', k: 'Dimensions' },
+    { v: 'Art Institute', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'island', eyebrow: 'Paris · 1884', dateLabel: '1884', title: 'A science to replace Impressionism', blurb: 'Seurat, in his mid-20s, is building a rigorous, systematic alternative to Impressionism out of contemporary color theory. His subject: a real leisure island in the Seine where Parisians of every class stroll on Sundays.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1884–1886', title: 'Two years, and the dots', blurb: 'Dozens of preparatory studies, then two years building the surface out of countless small dots meant to mix in the eye, not on the palette. Two names get used for the method, Divisionism and Pointillism, and they do not mean the same thing.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '6 ft 9¾ in × 10 ft 1¼ in', title: 'A frozen Sunday, seven by ten feet', blurb: 'About forty-eight stiff figures, a woman with a pet monkey, a girl in white at the optical center, the painted dotted border, and grass that has darkened with age from a failing pigment.', progress: 0.56 },
+    { id: 'reception', eyebrow: 'May 1886', dateLabel: '15 May 1886', title: 'The eighth and last Impressionist show', blurb: 'It debuts at the final Impressionist exhibition to a divided room, some seeing the future, some put off by its airless, frozen calm. The critic Félix Fénéon champions it and coins the word “Neo-Impressionism.”', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1891–today', title: 'The icon, and the fade', blurb: 'Seurat dies suddenly at 31; the canvas passes through his brother to French collectors and reaches the Art Institute of Chicago in 1926, where it becomes a signature work, even as the sunlit lawn quietly browns.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1886–1891', who: 'Georges Seurat (the artist)', place: 'Paris', note: 'Worked 1884–86, with the painted dotted border reworked around 1888–89. Held by Seurat until his sudden death in 1891, then passed to his family.', price: null },
+    { year: '1891–1900', who: 'Émile Seurat (the artist’s brother)', place: 'Paris', note: 'The artist’s brother held it, then in 1900 sold it for about 800 francs to Léon-Casimir Bru, who bought on the advice of his daughter, the painter Lucie Cousturier.', price: '~800 francs' },
+    { year: '1900–1924', who: 'Léon-Casimir Bru, then Lucie Cousturier', place: 'Paris', note: 'Cousturier inherited it from her father, then sold it in 1924 to the Paris gallery of Charles Vildrac.', price: null },
+    { year: '1924', who: 'Charles Vildrac (gallery) → Frederic Clay & Helen Birch Bartlett', place: 'Paris / Chicago', note: 'Vildrac resold it the same year to the Chicago collectors Frederic Clay Bartlett and his wife Helen Birch Bartlett.', price: null },
+    { year: '1926–today', who: 'Art Institute of Chicago', place: 'Chicago', note: 'Given to the Art Institute in 1926 as the Helen Birch Bartlett Memorial Collection (acc. 1926.224). A condition reportedly restricts external loans. On permanent view.', price: 'gift in memoriam', museum: true },
+  ],
+  figures: [
+    { name: 'Georges Seurat', role: 'The painter', palette: ['#3a6a4a', '#c8b84a', '#1c2a18'] },
+    { name: 'Félix Fénéon', role: 'Coined “Neo-Impressionism”', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Paul Signac', role: 'Painter who worked alongside Seurat with the dot method', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+    { name: 'Camille Pissarro', role: 'Older painter who joined the method', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+    { name: 'Émile Seurat', role: 'Brother who held / sold it', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Helen Birch Bartlett', role: 'Whose memorial gift it became', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  annotations: [
+    { label: 'The border that is painted, not framed', where: 'The band of dots running all the way around the edge of the image, just inside the white wooden frame', detail: 'Around the whole picture runs a border made of painted dots, which Seurat added around 1888–89, a few years after the main canvas. It is not the frame; the plain white wooden frame sits outside it. The dotted border is part of the artwork itself, painted to control the transition from the image to the wall, and the Art Institute still shows it that way.' },
+    { label: 'The woman with a monkey', where: 'Foreground right, the elegant couple, at the woman’s feet on a leash', detail: 'A fashionably dressed woman stands at the right holding a leash, and at the end of it is a small pet monkey, the detail most viewers miss entirely. In French a monkey is a singe, and in this era the animal carried a sly pun on female impropriety, so some read the monkey as the picture’s quiet social joke. Treat that reading as interpretation, not fact; the monkey on the leash is simply, verifiably there.' },
+    { label: 'The girl in white at the center', where: 'Near the middle of the canvas, a small brightly lit child in a white dress', detail: 'Near the center stands a little girl in white, and she is rendered almost without dots, brightly and smoothly lit, so she becomes the one still, clear point in a canvas built entirely from broken color. She is the optical and compositional focus, the eye’s resting place in the dazzle.' },
+    { label: 'The dots, up close and far back', where: 'Anywhere across the surface, but easiest to test in the broad sunlit lawn', detail: 'Stand close and the whole picture dissolves into countless separate dots and short strokes of pure, unmixed color. Step back and they fuse: the grass that looked like a confetti of green, yellow, orange, and blue up close reads as one luminous sunlit lawn from across the room. That fusing-in-the-eye is the entire method and the single best demonstration of why the painting was a break.' },
+    { label: 'A woman seeming to fish', where: 'Left edge, at the waterline, a standing woman holding a rod', detail: 'At the left, by the water, a standing woman holds a fishing rod. Some scholars make a pun of it, since the French for “to fish” sounds close to the word for “to sin,” and read her as a hint at the area’s reputation. That is a reading, not a fact; at minimum she anchors the left edge of the composition.' },
+    { label: 'The grass you see is partly faded', where: 'The broad areas of sunlit lawn, where the green is patched with dull brown', detail: 'Look for dull brownish patches in what should be brilliant sunlit grass. Those are not Seurat’s intention; he used a zinc yellow pigment that has chemically darkened to brown over the decades, so the lawn was meant to be far brighter and more golden than it now appears. What you are seeing is partly faded, a real conservation fact, not the original effect.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Impressionism', mode: 'art' }, { label: 'Color science (Chevreul · Rood)', mode: 'civ' }, { label: 'Bathers at Asnières', mode: 'art' } ],
+    children: [ { label: 'Neo-Impressionism', mode: 'art' }, { label: 'Fauvism', mode: 'art' }, { label: 'Abstract color painting', mode: 'art' } ],
+  },
+}
+
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

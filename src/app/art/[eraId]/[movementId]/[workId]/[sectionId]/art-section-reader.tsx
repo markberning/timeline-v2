@@ -16,6 +16,8 @@ import { useState } from 'react'
 import { useScrollMemory } from '@/lib/use-scroll-memory'
 import Link from 'next/link'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
+import { WarHeader } from '@/components/mode/war-header'
+import '../../../../../war-civil-war/war-skin.css'
 import {
   artWorkCrumbs, artAlpha,
   SANS, SERIF, INK, MUTED, FAINT, BORDER, CARD_BG,
@@ -27,7 +29,7 @@ import { Lightbox } from '@/components/lightbox'
 // ─────────────────────────────────────────────────────────────
 // Prose primitives
 // ─────────────────────────────────────────────────────────────
-const proseStyle: React.CSSProperties = { margin: '0 0 14px', fontFamily: SERIF, fontSize: 16, lineHeight: 1.62, color: INK, letterSpacing: -0.01 }
+const proseStyle: React.CSSProperties = { margin: '0 0 14px', fontFamily: SERIF, fontSize: 18, lineHeight: 1.62, color: INK, letterSpacing: -0.01 }
 const proseMutedStyle: React.CSSProperties = { ...proseStyle, color: MUTED }
 const italicStyle: React.CSSProperties = { ...proseStyle, fontStyle: 'italic', color: MUTED }
 
@@ -38,8 +40,8 @@ function DropCap({ children, accent }: { children: React.ReactNode; accent: stri
 function SectionHeader({ accent, label, title, first }: { accent: string; label: string; title: string; first?: boolean }) {
   return (
     <div style={{ margin: first ? '4px 0 18px' : '36px 0 18px', paddingTop: first ? 0 : 18, borderTop: first ? 'none' : `1px solid ${BORDER}` }}>
-      <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.6, fontWeight: 700, color: accent, textTransform: 'uppercase' }}>{label}</div>
-      <h2 style={{ margin: '6px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 22, lineHeight: 1.15, letterSpacing: -0.3, color: INK }}>{title}</h2>
+      <div style={{ fontFamily: SANS, fontSize: 11.5, letterSpacing: 1.6, fontWeight: 700, color: accent, textTransform: 'uppercase' }}>{label}</div>
+      <h2 style={{ margin: '6px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 22, lineHeight: 1.18, letterSpacing: -0.3, color: INK }}>{title}</h2>
     </div>
   )
 }
@@ -50,8 +52,8 @@ function SectionHeader({ accent, label, title, first }: { accent: string; label:
 function ChapterHeader({ accent, eyebrow, title, progress }: { accent: string; eyebrow: string; title: string; progress: number }) {
   return (
     <div style={{ padding: '16px 18px 0' }}>
-      <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.5, fontWeight: 700, color: accent, textTransform: 'uppercase' }}>{eyebrow}</div>
-      <h1 style={{ margin: '4px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 26, lineHeight: 1.1, letterSpacing: -0.4, color: INK }}>{title}</h1>
+      <div style={{ fontFamily: SANS, fontSize: 11, letterSpacing: 1.5, fontWeight: 700, color: accent, textTransform: 'uppercase' }}>{eyebrow}</div>
+      <h1 style={{ margin: '5px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 28, lineHeight: 1.1, letterSpacing: -0.4, color: INK }}>{title}</h1>
       <div style={{ height: 3, background: BORDER, borderRadius: 2, marginTop: 12 }}>
         <div style={{ height: '100%', width: `${Math.round(progress * 100)}%`, background: accent, borderRadius: 2 }} />
       </div>
@@ -5185,7 +5187,420 @@ function GslAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
   )
 }
 
+function SnAsylum({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Saint-Rémy · 1889" title="The man at the barred window" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the spring of 1889 a Dutch painter walked, of his own free will, into a mental asylum in the south of France and asked to be let in. He was <strong>Vincent van Gogh</strong> (1853&ndash;1890), and his larger life is told in the Post-Impressionism overview one level up in this app (the school that took the Impressionists&rsquo; bright broken color and pushed it back toward structure and feeling). What matters here is the state he was in. The previous December, in the town of Arles, he had suffered a breakdown so severe that he cut off part of his own ear, the crisis that ended his short, doomed attempt to live and work alongside <strong>Paul Gauguin</strong> (the French painter whose dream of a shared &ldquo;Studio of the South&rdquo; Van Gogh had bought into completely, and who is a major figure in the Post-Impressionism overview one level up). On <strong>8 May 1889</strong> he admitted himself to the <strong>Saint-Paul-de-Mausole asylum</strong> at <strong>Saint-R&eacute;my-de-Provence</strong>, a former monastery in the hills.
+      </p>
+      <p style={proseStyle}>
+        He was not, however, a man who had stopped working. The asylum gave him two rooms: a bedroom with an east-facing window, fitted with iron bars, that looked out over the valley, and a separate ground-floor room he could use as a studio. That arrangement is the whole geography of this painting, so hold it: he <em>saw</em> the night sky from the barred bedroom window, and he <em>painted</em> in the studio downstairs. The two were not the same room.
+      </p>
+
+      <SectionHeader accent={accent} label="The view, not the cell" title="What the window actually framed" />
+      <p style={proseStyle}>
+        Out that east window lay the valley of Saint-R&eacute;my and, low along the horizon, the <strong>Alpilles</strong> (al-PEE), a small rolling mountain range. Before dawn the sky over those hills filled with stars and, that particular spring, with one very bright point of light low in the east. The night sky of this valley became a recurring subject for him through the months he spent locked up here. So the famous story that <em>The Starry Night</em> shows &ldquo;the view from his asylum window&rdquo; is true in one careful sense and badly misleading in another, and untangling that is the next chapter. The short version: he was looking at a real piece of sky, and he was about to do something to it that no window ever showed.
+      </p>
+    </article>
+  )
+}
+
+function SnMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making" title="Not at night, not from the window" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the legend, and here is the fact, and they are worth keeping apart, because almost everyone gets this picture&rsquo;s making wrong. The legend says Van Gogh stood at his barred asylum window in the dark and painted the night as he watched it. He did not. <em>The Starry Night</em> was painted <strong>by day, in his ground-floor studio</strong>, in the week of about <strong>17&ndash;18 June 1889</strong>. It depicts a reworked version of the view from his east-facing bedroom window <em>before sunrise</em>, but it was made downstairs, in daylight, from observation and memory and a great deal of invention. It was not painted at the window, it was not painted at night, and it was not simply &ldquo;painted from memory&rdquo; either. The honest description is the dull one: a daytime studio picture worked up from a dawn he had watched.
+      </p>
+      <p style={proseStyle}>
+        We can be this exact because he wrote it down. In a letter to his brother Theo of about 18 June 1889 he described the dawn that fed the picture: <em>&ldquo;this morning I saw the countryside from my window a long time before sunrise, with nothing but the morning star, which looked very big.&rdquo;</em> That &ldquo;morning star&rdquo; is the planet <strong>Venus</strong>, which astronomical records confirm hung bright at dawn over Provence that spring; it is the one thing in the picture you can pin to a documented observation. In the same stretch of letters he mentions, almost in passing, that he now had <em>&ldquo;a new study of a starry sky&rdquo;</em> (a <em>study</em>, note, not a masterpiece).
+      </p>
+
+      <SectionHeader accent={accent} label="How long, and what was invented" title="A week, and a village from nowhere" />
+      <p style={proseStyle}>
+        It came together inside roughly that single week of June 1889. Resist the temptation to make it more romantic than that: there is no evidence it was painted &ldquo;in one night&rdquo; or in one feverish sitting, and the &ldquo;one night&rdquo; story is exactly the kind of thing that gets attached to famous pictures after the fact. It was a daytime studio work, made over days, and the exact hours are simply unknown.
+      </p>
+      <p style={proseStyle}>
+        And it was heavily <em>composed</em>, not transcribed. The valley and the Alpilles were real. The sleeping village beneath the sky, with its tall thin church steeple, was largely <strong>invented</strong>, and the steeple in particular looks more like a northern Dutch church than anything in Provence. The great rolling spirals of the sky have no model in any sky that has ever existed. The cypress in the foreground is pushed far past life-size. Van Gogh took a real dawn and built an unreal night out of it, which is the whole reason the picture matters and the whole reason &ldquo;the view from his window&rdquo; is only half the truth.
+      </p>
+    </article>
+  )
+}
+
+function SnLooking({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Eleven stars and a rolling sky" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the size, because it surprises people: <em>The Starry Night</em> is not a wall-filler. It is about <strong>2 feet 5 inches tall and 3 feet a quarter-inch wide</strong> (73.7 by 92.1 centimeters, the museum&rsquo;s measurement), an easel-sized oil on canvas. All of that turbulence is packed into a picture you could carry under one arm. Now walk through it, top to bottom.
+      </p>
+      <p style={proseStyle}>
+        The sky is the event. It is built in thick <strong>impasto</strong> (paint heaped on so heavily that the brush leaves standing ridges and furrows you can read as texture) in deep ultramarine and cobalt blue, with the stars and moon scratched in warm yellow. The whole upper half rolls and curls in enormous spirals, eddies of paint that no real night sky has ever produced. They are pure invention, the single most important fact about the picture: this is a sky <em>felt</em> and <em>made</em>, not a sky observed.
+      </p>
+
+      <SectionHeader accent={accent} label="The marks that are real, and the marks that aren't" title="Venus, the wrong moon, the cypress" />
+      <p style={proseStyle}>
+        Find the brightest point first. Out toward the center of the sky, just to the right of the dark central tree, sits the largest and warmest &ldquo;star.&rdquo; That is not a star but the planet <strong>Venus</strong>, the morning star Van Gogh named in his letter, and the one celestial body here you can tie to something he actually saw. Then look upper right, at the glowing crescent <strong>moon</strong>: it is astronomically wrong. On the real date the moon was a waning gibbous, nearly full, not a thin crescent. The crescent is a choice, not a record, one more proof the picture is composed.
+      </p>
+      <p style={proseStyle}>
+        Down the left edge climbs the <strong>cypress</strong>, a dark green spire pushed far larger and closer than life until it reads like a flame. Cypresses were a Saint-R&eacute;my obsession he painted over and over that year, and they carry an old freight: across Provence the cypress is the tree of graveyards and mourning, the dark spire that stands over the dead. Van Gogh exaggerates its scale on purpose and stands it in the foreground so that the one plant most tied to death rises straight up through the picture, the single living thing tall enough to bridge the sleeping earth and the churning sky.
+      </p>
+
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#2a3a6a', '#c8b84a', '#0e1428']}
+        imageUrl={ART_IMG.starryNight}
+        ratio="5/4"
+        alt="Van Gogh, The Starry Night, the whole canvas"
+        caption={<>Van Gogh,{' '}<em>The Starry Night</em>, 1889. Museum of Modern Art, New York.</>}
+        rights="Public domain in the US (painting 1889). Wikimedia Commons (Google Art Project)."
+      />
+
+      <SectionHeader accent={accent} label="The earth below" title="The invented village, the one real range" />
+      <p style={proseStyle}>
+        Now the lower band. The sleeping <strong>village</strong> sits in the dead center, small houses with little yellow windows clustered around a <strong>tall, thin church steeple</strong>. The village is largely invented, and the steeple in particular is more northern-Dutch than Proven&ccedil;al, the clearest sign that the picture is synthesized rather than transcribed. Behind the town runs the one topographically real element: the low <strong>rolling blue hills of the Alpilles</strong>, the range just south of Saint-R&eacute;my. Above them, the <strong>stars</strong> (roughly a dozen, by the usual count) blaze inside their spirals. Real range, real planet, real cypress motif; invented village, invented moon-phase, invented sky. That mixture is the whole picture.
+      </p>
+    </article>
+  )
+}
+
+function SnReception({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="His own verdict" title="The picture he called a failure" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he strangest thing about the most reproduced night sky in the world is that the man who painted it did not think it had worked. Van Gogh called it a &ldquo;night study,&rdquo; and in a letter of late November 1889 to his fellow painter <strong>&Eacute;mile Bernard</strong> he described it as a relative <strong>failure</strong>, saying he had &ldquo;reached for stars that are too big.&rdquo; That self-criticism was not modesty; it was a position in a real argument. He and Gauguin had quarreled for months about whether to paint from the imagination or from nature, and Van Gogh, who distrusted painting purely from the head, suspected that in <em>The Starry Night</em> he had drifted too far into invention. The picture we treat as his triumph, he treated as a warning to himself.
+      </p>
+      <p style={proseStyle}>
+        It was certainly no triumph in the market. The Starry Night was <strong>never sold in his lifetime</strong>, and it sold no better than the rest of his work, which is to say not at all. Its entire fame is posthumous; in 1889 it was a study a sick painter half-disowned.
+      </p>
+
+      <SectionHeader accent={accent} label="The myth to put down" title="“He only ever sold one painting”" />
+      <p style={proseStyle}>
+        Which is the moment to kill a famous line, because it always attaches itself here. You will hear that Van Gogh &ldquo;only ever sold one painting in his whole life.&rdquo; That is a <strong>myth</strong>. What is true is narrower: <em>The Red Vineyard</em> is the only painting we can <strong>document</strong> being sold, bought by the Belgian painter Anna Boch for about 400 francs out of the Les XX exhibition in Brussels in early 1890. But the Van Gogh Museum itself records that he also <em>traded</em> works, that an uncle commissioned some, and that there is evidence of at least one other sale. So &ldquo;only one <em>documented</em> sale&rdquo; is fair; the flat &ldquo;he sold only one painting ever&rdquo; is not. Either way, it does not change this picture&rsquo;s fate: nobody bought <em>The Starry Night</em> while he lived.
+      </p>
+    </article>
+  )
+}
+
+function SnAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="After" title="How a failure became a touchstone" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>T</DropCap>
+          he afterlife of <em>The Starry Night</em> is almost entirely a 20th-century story, and it begins with a death and a widow. Van Gogh died in July 1890; his brother <strong>Theo</strong>, who had supported him and held his work, died only six months later, in January 1891. The estate (hundreds of unsold canvases, this one among them) passed to Theo&rsquo;s widow, <strong>Johanna van Gogh-Bonger</strong>, usually called Jo. It is no exaggeration to say she invented Van Gogh&rsquo;s reputation: she spent her life placing, lending, and promoting the work until the world caught up.
+        </p>
+        <p style={proseStyle}>
+          The Starry Night itself then took the long way to the wall it hangs on now. It passed through a chain of European hands: sold to the poet Julien Leclercq in 1900, to the painter Schuffenecker in 1901, bought back by Jo in 1905, then on to a Rotterdam gallery and a Rotterdam collector for three decades, then to the dealer Paul Rosenberg in 1938, who fled France for the United States as the war closed in.
+        </p>
+
+        <SectionHeader accent={accent} label="1941" title="To MoMA, by exchange" />
+        <p style={proseStyle}>
+          In <strong>1941</strong> it reached the <strong>Museum of Modern Art</strong> in New York, acquired &ldquo;through the Lillie P. Bliss Bequest, by exchange,&rdquo; which means MoMA did not pay cash for it but traded other works, funded by a bequest, to get it. And there, in the institution built to canonize modern art, the picture its own maker had called a failure became, in MoMA&rsquo;s own words, a touchstone of modern art and one of the most recognizable paintings in the Western canon.
+        </p>
+        <p style={proseStyle}>
+          That is the whole arc, worth stating flat: a daytime studio study, worked up by a sick man in an asylum from a dawn he had watched through a barred window, half-disowned by its maker as reaching for stars too big, unsold in his lifetime, then carried by a widow&rsquo;s devotion through forty years of European collections to a New York museum, where the century that came after Van Gogh made it immortal. The fame is real. He never saw any of it.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={accent}
+        region="Paris"
+        when="1889 · the same summer"
+        title="Paris builds a tower nobody asked for."
+        body="As Van Gogh paints his swirling sky in a Provence asylum, Paris opens the 1889 Exposition Universelle, the world’s fair whose centerpiece is Gustave Eiffel’s new iron tower, denounced by critics as a monstrous eyesore and destined to become the symbol of the city. The art world is gathering in the capital a few hundred miles north to celebrate itself, while the painter who will outshine all of it works quietly in a locked institution in the south."
+        palette={['#5a6a72', '#2e3a42', '#0e1014']}
+        ctaLabel="Read ‘Belle Époque Paris’"
+      />
+    </>
+  )
+}
+
+function BdYellowHouse({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Arles · 1888" title="The Yellow House, waiting for Gauguin" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n 1888 <strong>Vincent van Gogh</strong> (1853&ndash;1890), whose larger story is told in the Post-Impressionism overview one level up, rented a small house at <strong>2, Place Lamartine</strong> in <strong>Arles</strong>, a town in the south of France. He painted its outside walls and called it the <strong>Yellow House</strong>, and he had a dream for it: it would become a &ldquo;Studio of the South,&rdquo; a colony where painters lived and worked together. The first painter he hoped to lure was <strong>Paul Gauguin</strong>, and through the autumn of 1888 Van Gogh furnished and decorated the house to be ready for him.
+      </p>
+      <p style={proseStyle}>
+        It was while preparing the house and waiting for a friend that he painted his own bedroom. By his own account he had just been <strong>worn out and bedridden for several days</strong>, and he conceived the picture as an image of <strong>rest</strong>. This is the detail that corrects every gloomy reading of the painting that came later: he did not paint the room as a cell or a symbol of his loneliness. He painted it as a place to sleep, made by a tired man, just weeks before Gauguin actually arrived (the two months that followed, which ended in the breakdown and the severed ear, are another story; this picture comes <em>before</em> all that).
+      </p>
+
+      <SectionHeader accent={accent} label="A note on which Bedroom this is" title="One of three" />
+      <p style={proseStyle}>
+        One thing to fix before you look. There are <strong>three</strong> versions of this painting, all by Van Gogh&rsquo;s own hand, and they look nearly identical. This read is about the <strong>first</strong> one, painted in mid-October 1888 and now in the <strong>Van Gogh Museum in Amsterdam</strong>. He painted the other two the following year (a full-size copy now in Chicago and a smaller one now in Paris), and a later chapter explains exactly why. For now: everything described here is the original, the one he made in the Yellow House while he still had hopes for it.
+      </p>
+    </article>
+  )
+}
+
+function BdMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making" title="Where the color does the job" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        e know more about how Van Gogh made this picture than almost any other, because he wrote it all down for his brother Theo in a letter as he was painting it, in mid-October 1888. (One legend to put down first: you will read that he painted the Bedroom &ldquo;in a single day.&rdquo; That is not firmly documented and is best not asserted. The safe version, the one the record supports, is that he painted it <strong>quickly, over a short span in mid-October 1888</strong>.)
+      </p>
+      <p style={proseStyle}>
+        His stated aim was startlingly simple. The picture, he told Theo, was &ldquo;simply my bedroom, but <strong>the color has to do the job here</strong>,&rdquo; meant &ldquo;to be suggestive of rest or of sleep in general,&rdquo; so that &ldquo;looking at the painting should rest the mind, or rather the imagination.&rdquo; In other words, the room is not really the subject. The <em>color</em> is the subject, and the color&rsquo;s job is to make you feel calm. That is the whole intention of the painting, in his own words.
+      </p>
+
+      <SectionHeader accent={accent} label="Flat as a print" title="Shadows off, the Japanese way" />
+      <p style={proseStyle}>
+        In the same letter he names his technique just as plainly: &ldquo;the shadows and cast shadows are removed; it&rsquo;s colored in flat, plain tints like the <strong>Japanese prints</strong>.&rdquo; This matters. The standard European way to make a room look real is to model every object with light and shadow so it bulges into three dimensions. Van Gogh did the opposite on purpose. He stripped the cast shadows out and laid the room down in broad, flat areas of unmixed color, the way the Japanese woodblock prints he collected and admired handled space: as pattern, not as modeled volume. The flatness people sometimes mistake for clumsiness is a deliberate borrowing, and it is his own description, not a later art-historian&rsquo;s guess.
+      </p>
+      <p style={proseStyle}>
+        He even wrote out the color scheme object by object, which lets us see exactly what he <em>intended</em> (some of it has shifted with age, and the walls now read bluer than the &ldquo;pale violet&rdquo; he names). His list: walls pale violet, floor red tiles, bed and chairs fresh-butter yellow, sheets and pillows a very pale lemon green, the coverlet scarlet, the window green, the washstand orange, the basin blue, the doors lilac. To make sure Theo could picture it, he drew small sketches of the composition right inside the letters, to Theo and to Gauguin both.
+      </p>
+    </article>
+  )
+}
+
+function BdLooking({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A tilted room for one sleeper" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it and you feel the tilt before you understand it. The red-tiled floor rushes up toward you as if the whole room were tipping forward to spill its furniture into your lap; the far wall leans; the bed and chairs sit at angles that do not quite agree with one another. It is a small canvas for all that motion, about <strong>2 feet 4 inches tall and 2 feet 11&frac12; inches wide</strong> (72 by 90 centimeters), a picture you could carry under one arm, and yet the little room inside it will not hold still.
+      </p>
+
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#c8a72a', '#3a4a8a', '#1a1408']}
+        imageUrl={ART_IMG.vanGoghBedroomArles}
+        ratio="5/4"
+        alt="Van Gogh, The Bedroom (first version), the whole canvas"
+        caption={<>Van Gogh,{' '}<em>The Bedroom</em> (first version), 1888. Van Gogh Museum, Amsterdam.</>}
+        rights="Public domain in the US (painting 1888). Wikimedia Commons."
+      />
+
+      <SectionHeader accent={accent} label="The shape of the box" title="Why the corner won't sit square" />
+      <p style={proseStyle}>
+        Track the line where the two walls meet at the back, then follow each wall forward, and you will see why the box never reads as square: the room narrows and widens at the wrong rate, the corners refusing to behave. The easy verdict is that Van Gogh could not draw perspective. He could. The real bedroom was a <strong>trapezoid</strong> (a four-sided shape with no right angles), wider at the front-left corner and pinched sharper on the right, so the genuine geometry of the room was already odd before he touched it. He then flattened what was left, pressing the depth out of it. The leaning walls are part true measurement, part deliberate squash, and watching the two fight each other is most of the picture&rsquo;s strange energy.
+      </p>
+
+      <SectionHeader accent={accent} label="The one way out" title="The window, and the single recession" />
+      <p style={proseStyle}>
+        Now find the one place the eye is allowed to travel <em>back</em> rather than up. At the rear wall sits a green shuttered <strong>casement window</strong>, and it is the only opening in the room, the single seam where the snug box lets in the outside (it looks onto the Place Lamartine and the public garden). Above the bed hang two small <strong>framed portraits</strong>, in this first version two friends, usually named as the painter Eug&egrave;ne Boch and the soldier Paul-Eug&egrave;ne Milliet (sources disagree on which is which, so read them simply as friends). Those wall pictures are tiny, but they are load-bearing: the pictures on the wall are the detail that tells the three versions of the Bedroom apart.
+      </p>
+
+      <SectionHeader accent={accent} label="What flatness looks like" title="No shadow anywhere" />
+      <p style={proseStyle}>
+        Here is the experiment the last chapter promised, run on the actual paint. Go looking for a cast shadow: under the bed, beneath the two rush-seated chairs, around the legs of the table. You will not find one. Every object is a flat slab of its own color, the bed and chairs in the &ldquo;fresh butter&rdquo; yellow he listed, the basin blue on its orange washstand, the doors lilac, each shape laid down whole with no darkening at its edges to round it out. In description &ldquo;flat, plain tints like the Japanese prints&rdquo; sounds like a technical note; on the canvas it is the thing you see, a room built like a stack of colored paper rather than a modeled three-dimensional box. The bed itself, turned down for one and carrying its <strong>two pillows</strong>, could read as lonely; resist that, because the flatness is not melancholy, it is the calm he was after, the color doing its quiet job.
+      </p>
+    </article>
+  )
+}
+
+function BdFlood({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Why there are three" title="A flood, and two copies" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        here are three versions of the Bedroom, and the reason is not artistic restlessness. It is water. In the spring of 1889, while Van Gogh was hospitalized and the canvas sat in storage, <strong>river flooding in Arles</strong> reached his stored works, and the first version (the one this read is about) <strong>suffered water damage</strong>. He discovered it in late April as he was packing pictures to send to his brother Theo, who had it <strong>relined</strong> to save it (relining means gluing a fresh canvas to the back of a weakened one to hold it together). The original survived, but only after that rescue.
+      </p>
+      <p style={proseStyle}>
+        Because the first canvas had been hurt, Van Gogh painted a <strong>second, full-size version</strong> in September 1889 as a faithful copy; that one is now in the Art Institute of Chicago. He also made a <strong>smaller third version</strong> the same autumn, for his mother and his sister Wil, and that one is now in the Mus&eacute;e d&rsquo;Orsay in Paris. So the famous &ldquo;three Bedrooms&rdquo; all trace back to a flood: one original, water-damaged and relined, plus a full-size and a small replacement made by the same hand. They are told apart, as the previous chapter noted, by the pictures on the wall. Everything in this read is the first, the original, the one that got wet and was saved.
+      </p>
+    </article>
+  )
+}
+
+function BdAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="After" title="The room that never left the family" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>L</DropCap>
+          ike <em>The Starry Night</em>, the Bedroom was not sold to acclaim or hung in a famous show in Van Gogh&rsquo;s lifetime. There is no single key exhibition, no headline sale, that made it canonical. Its fame, again, was built after his death, by the family estate, and unlike the Starry Night, this first version <strong>never left the family at all</strong>.
+        </p>
+        <p style={proseStyle}>
+          The chain is short and unbroken. Vincent to his brother <strong>Theo</strong> in 1890; Theo&rsquo;s widow <strong>Jo van Gogh-Bonger</strong>, who built the whole reputation; the artist&rsquo;s nephew <strong>Vincent Willem van Gogh</strong>; and then, in <strong>1962</strong>, the <strong>Vincent van Gogh Foundation</strong> the nephew established, which placed it on permanent loan to the <strong>Van Gogh Museum</strong> in Amsterdam when the museum opened in 1973. It hangs there now.
+        </p>
+
+        <SectionHeader accent={accent} label="Why it lasts" title="A small room, endlessly reproduced" />
+        <p style={proseStyle}>
+          Today the Bedroom is among the most reproduced images Van Gogh ever made, printed on everything, recognized everywhere, the snug tilted room with the yellow bed instantly familiar. The strange thing to hold onto is how plain its ambition was. He did not set out to make an icon. He set out, in his own words, to make a picture where the color does the job and looking at it rests the mind. He flattened the shadows the way a Japanese print would, wrote the whole scheme out for his brother, and painted it quickly in a house he was decorating for a friend. The room outlived the Yellow House, the friendship, and the painter. The calm he was reaching for is still the first thing it gives you.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={accent}
+        region="Arles"
+        when="Late Oct 1888 · weeks later"
+        title="Gauguin arrives, and the dream begins to break."
+        body="Within weeks of this picture, Paul Gauguin moves into the Yellow House to begin the “Studio of the South.” The two painters work side by side for about nine weeks of mounting tension that ends in December 1888 with Van Gogh’s breakdown and the severed ear. The room painted as an image of rest was made on the very edge of the worst crisis of his life."
+        palette={['#6a5a3a', '#332820', '#0e0a06']}
+        ctaLabel="Read ‘Van Gogh & Gauguin in Arles’"
+      />
+    </>
+  )
+}
+
+function GjIsland({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1884" title="A science to replace Impressionism" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he Impressionists painted fast. They stood in front of a thing and caught the flicker of light on it before it changed, in loose, quick dabs, trusting the hand and the moment. To a serious young Frenchman in his mid-twenties, that looked less like a method than like luck, and he set out to replace the luck with a rule. He was <strong>Georges Seurat</strong> (1859&ndash;1891), and his larger story sits in the Post-Impressionism overview one level up in this app (the generation that came after the Impressionists and tried, each in their own way, to put structure and rigor back into the bright, loose painting they had inherited). Seurat&rsquo;s version of &ldquo;putting it back&rdquo; was the most systematic anyone around him attempted: he wanted painting built on laws, not instinct.
+      </p>
+      <p style={proseStyle}>
+        The laws came from real science. He had read the color research of the French chemist <strong>Michel Eug&egrave;ne Chevreul</strong>, who had shown that any color looks different depending on what sits beside it (a gray next to red drifts greenish; the same gray next to green drifts reddish), and of the American physicist <strong>Ogden Rood</strong>, who had worked out that two colors set side by side and mixed in the eye stay brighter than the same two stirred together on a palette, where they only go muddy. Out of those two findings Seurat built his whole technique: never mix the paint, place the pure colors next to each other, and let the viewer&rsquo;s eye do the blending. He had already tried it at large scale once, in <em>Bathers at Asni&egrave;res</em> (1884), his first big canvas. The Grande Jatte was to be its monumental companion and the full proof of the system.
+      </p>
+
+      <SectionHeader accent={accent} label="A real island" title="Where Paris went on Sundays" />
+      <p style={proseStyle}>
+        For all that theory, the subject was utterly ordinary, and real. <strong>La Grande Jatte</strong> (&ldquo;the big bowl,&rdquo; roughly) is an actual island in the river Seine just west of Paris, a long thin sliver of grass and trees between the suburbs of Neuilly and Levallois. On a hot Sunday it filled up with Parisians of every class let out of the city for the afternoon, the top-hatted and the shop-girl side by side, strolling the shade, lying on the grass, taking a boat out, courting, dozing, fishing off the bank. It was the most unremarkable scene in France: a public park on a day off. Seurat went out to it again and again with small panels and crayons, studying the real light through the real trees and the real bodies arranged across the lawn, and then carried all of it back to the studio to be rebuilt, dot by dot, into something that looks nothing like a snapshot of a lazy afternoon and everything like a cathedral of one.
+      </p>
+    </article>
+  )
+}
+
+function GjMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making" title="Two years, and the dots" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        his is not a picture anyone painted in an afternoon. Seurat worked on it for roughly <strong>two years</strong> (from May 1884 to March 1885, then again from October 1885 to May 1886), and that was after a long campaign of preparation. He made <strong>dozens of preparatory studies</strong>: small oil panels the French called <em>croquetons</em>, painted out on the island, and conté-crayon drawings (conté is a hard, greasy chalk-and-graphite stick, good for soft dense shading), plus a near-full-size painted study (now at the Met in New York). The huge final canvas was built slowly on top of all that groundwork.
+      </p>
+
+      <SectionHeader accent={accent} label="How the surface works" title="Color that mixes in your eye" />
+      <p style={proseStyle}>
+        Now the famous part, and it needs care. The surface is built from <strong>countless small dots and short strokes of pure, unmixed color</strong>, placed side by side. The idea is that the colors mix not on the palette but in the viewer&rsquo;s <em>eye</em>: put a dot of blue next to a dot of yellow and, from across the room, the eye fuses them into a shimmering green that is more alive than any green you could premix. This is <strong>optical mixing</strong>, and it is the whole engine of the painting.
+      </p>
+      <p style={proseStyle}>
+        Two words get used for this, and they are <em>not</em> the same thing, so it is worth getting right. <strong>Pointillism</strong> names the visible technique (the dots, the facture, the literal business of dotting paint on). <strong>Divisionism</strong> names the underlying <em>principle</em>: dividing each color into its separate components and letting them recombine in the eye. Seurat himself <strong>preferred &ldquo;Divisionism&rdquo;</strong> for what he was doing, because he cared about the method, not the dots for their own sake; &ldquo;Pointillism&rdquo; was a label others pinned on, at first half-mockingly. The Grande Jatte is the founding monument of both terms, and of the movement they belong to, <strong>Neo-Impressionism</strong>, the name the critics would soon give this whole new scientific school of painting (the next-but-one chapter tells exactly who coined it and when).
+      </p>
+
+      <SectionHeader accent={accent} label="The border he added later" title="Dots around the dots" />
+      <p style={proseStyle}>
+        One more making-detail, because it surprises people. A few years after the main canvas, around <strong>1888&ndash;89</strong>, Seurat went back and added a <strong>border of painted dots</strong> all the way around the image itself, to control how the picture met the wall. That dotted border is part of the artwork, framed in turn by a plain white wooden frame, and the Art Institute still displays it exactly that way. The painting, in other words, includes its own painted edge.
+      </p>
+    </article>
+  )
+}
+
+function GjLooking({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A frozen Sunday, seven by ten feet" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        irst, the scale, because it is part of the shock. The Grande Jatte is enormous: about <strong>6 feet 9&frac34; inches tall and 10 feet 1&frac14; inches wide</strong> (207.5 by 308.1 centimeters), call it roughly seven feet by ten. It fills a wall. And what fills that wall is, strangely, the calmest, most frozen crowd in art. Roughly <strong>forty-eight people</strong> (the commonly cited count, so call it &ldquo;about forty-eight,&rdquo; not a hard official number) stand and sit across a sunlit lawn, and almost none of them move. Look at how they are posed: nearly every figure stands bolt upright or sits perfectly straight, faces turned in profile or dead away from us, and not one of them is touching, gesturing to, or even looking at another. A real park on a Sunday is full of slouch and motion and people leaning in to talk; here the bodies are spaced out like chess pieces and held in place, each sealed in its own column of air. People in 1886 found that stillness unsettling, and it is still the first thing you feel: a holiday crowd rendered as motionless as a row of statues.
+      </p>
+
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#3a6a4a', '#c8b84a', '#1c2a18']}
+        imageUrl={ART_IMG.seuratGrandeJatte}
+        ratio="3/2"
+        alt="Seurat, A Sunday on La Grande Jatte, the whole panorama"
+        caption={<>Seurat,{' '}<em>A Sunday on La Grande Jatte &mdash; 1884</em>, 1884&ndash;86. Art Institute of Chicago.</>}
+        rights="Public domain in the US (painting 1886). Wikimedia Commons (Google Art Project)."
+      />
+
+      <SectionHeader accent={accent} label="The cast" title="The monkey, the girl, the fisher" />
+      <p style={proseStyle}>
+        Now hunt for the details. Foreground right: an elegant couple, and at the woman&rsquo;s feet, on a leash, a small pet <strong>monkey</strong>, the thing nearly everyone misses. Some scholars read the monkey as a sly social note (the French <em>singe</em> carried a pun about loose morals), but treat that as interpretation; the animal itself is verifiably there. Among the figures are several dogs, people fishing, a man playing a horn. At the left waterline, a standing woman holds a <strong>fishing rod</strong>, and some make a pun of that too, since the French for &ldquo;to fish&rdquo; sounds like &ldquo;to sin,&rdquo; but again, that is a reading, not a fact. And near the center stands a little <strong>girl in white</strong>, painted almost without dots, brightly lit, the one clear, still point the eye rests on in all the shimmer.
+      </p>
+
+      <SectionHeader accent={accent} label="The dots, and the fade" title="Optical mixing, and a darkened lawn" />
+      <p style={proseStyle}>
+        Get close and the whole picture falls apart into separate dots of pure color; step back and they fuse into solid, glowing form. That is optical mixing in action, and the broad sunlit lawn is the best place to test it: up close it is a confetti of green, yellow, orange, and blue, and from across the room it reads as one luminous field of grass. But a warning about that grass: look for dull <strong>brownish patches</strong> in it. Those are not what Seurat intended. He used a <strong>zinc yellow</strong> pigment that has <strong>chemically darkened to brown</strong> over the decades, so the lawn was meant to be much brighter and more golden than it now appears. What you are looking at is, in part, a faded picture, a real conservation fact, not the original effect.
+      </p>
+    </article>
+  )
+}
+
+function GjReception({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="May 1886" title="The eighth and last Impressionist show" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he Grande Jatte made its public debut at a loaded moment: the <strong>eighth and final Impressionist exhibition</strong>, which opened on <strong>15 May 1886</strong>. There is real drama in that timing. The Impressionists had been the rebels; now, at their last group show, a younger painter walked in with a method that quietly proposed to <em>replace</em> them, cooler and more systematic and more frozen. Seurat hung his giant canvas alongside two allies: the painter <strong>Paul Signac</strong>, his closest collaborator in the dot method, and the older <strong>Camille Pissarro</strong>, an established founding Impressionist who had startled everyone by converting to Seurat&rsquo;s scientific system. The three were given a separate room to hang together.
+      </p>
+      <p style={proseStyle}>
+        And the split was not just in the reviews; it ran straight through the group itself. The fracture was so real that two of the founding Impressionists, <strong>Claude Monet</strong> and <strong>Auguste Renoir</strong>, refused to take part in this final show at all, in part because they would not exhibit beside Seurat and the newcomers. So the &ldquo;last Impressionist exhibition&rdquo; was missing two of the original Impressionists, who had walked out of their own movement&rsquo;s farewell rather than share a wall with the thing replacing them. Among those who did come, the verdict was <strong>divided</strong>. Some saw the next step for painting, a rigorous future built on color science. Others were put off by exactly the quality we still feel first: its airless, frozen, emotionless calm, a crowd turned to statues. To a public raised even on the Impressionists&rsquo; warmth, the Grande Jatte could look cold.
+      </p>
+
+      <SectionHeader accent={accent} label="The critic who named it" title="Fénéon and “Neo-Impressionism”" />
+      <p style={proseStyle}>
+        Its great champion was the critic <strong>F&eacute;lix F&eacute;n&eacute;on</strong>, who defended the painting and the circle around it and who, writing about this group in <strong>1886</strong>, <strong>coined the term &ldquo;Neo-Impressionism&rdquo;</strong> for what they were doing. That is the moment a method became a movement with a name. The Grande Jatte did not just join Neo-Impressionism; it was the canvas in front of which the word was invented.
+      </p>
+    </article>
+  )
+}
+
+function GjAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="After" title="The icon, and the fade" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>S</DropCap>
+          eurat did not live to see the painting become an icon. He died <strong>suddenly in 1891, aged just thirty-one</strong>, with the Grande Jatte still in his hands, and it passed to his family. The canvas went down through Seurat&rsquo;s brother, <strong>&Eacute;mile Seurat</strong>, who held it and then, in <strong>1900</strong>, sold it for about <strong>800 francs</strong> to a collector named L&eacute;on-Casimir Bru, who bought it on the advice of his daughter, the painter Lucie Cousturier.
+        </p>
+        <p style={proseStyle}>
+          Cousturier inherited it, then sold it in <strong>1924</strong> to the Paris gallery of Charles Vildrac, who resold it that same year to the Chicago collectors <strong>Frederic Clay Bartlett and Helen Birch Bartlett</strong>. In <strong>1926</strong> it entered the <strong>Art Institute of Chicago</strong> as the Helen Birch Bartlett Memorial Collection, where it has been a signature work of the museum ever since, with a condition that reportedly keeps it from traveling, so it effectively never leaves.
+        </p>
+
+        <SectionHeader accent={accent} label="Why it lasts" title="The monument that is quietly browning" />
+        <p style={proseStyle}>
+          Today the Grande Jatte is the canonical image of Neo-Impressionism and the dot technique, saturated into popular culture: it anchors a whole Broadway musical (Stephen Sondheim&rsquo;s <em>Sunday in the Park with George</em>) and turns up in the movies. But the honest closing note is the one about the paint. The lawn you stand in front of is not the lawn Seurat made: that zinc-yellow pigment has darkened to brown, so the brilliant golden-green Sunday he built, dot by dot, over two years, is slowly fading toward something duller. The most scientific painting of its age is, in the end, at the mercy of its own chemistry. What you see is a great monument, and a partly faded one, at the same time.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={accent}
+        region="New York"
+        when="1886 · the same year"
+        title="A statue of Liberty rises in the harbor."
+        body="In the year the Grande Jatte debuts in Paris, France ships another, far larger work across the Atlantic: the Statue of Liberty, dedicated in New York Harbor in October 1886. The same French confidence that produced Seurat’s rigorous color-science is, that very year, handing a colossus of modern engineering to a young republic across the sea."
+        palette={['#3a6a8a', '#c8c050', '#1c2a30']}
+        ctaLabel="Read ‘The Gilded Age’"
+      />
+    </>
+  )
+}
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  'starry-night': {
+    asylum: SnAsylum,
+    making: SnMaking,
+    looking: SnLooking,
+    reception: SnReception,
+    afterlife: SnAfterlife,
+  },
+  'bedroom-arles': {
+    'yellow-house': BdYellowHouse,
+    making: BdMaking,
+    looking: BdLooking,
+    flood: BdFlood,
+    afterlife: BdAfterlife,
+  },
+  'grande-jatte': {
+    island: GjIsland,
+    making: GjMaking,
+    looking: GjLooking,
+    reception: GjReception,
+    afterlife: GjAfterlife,
+  },
   demoiselles: {
     setting: SettingNarrative,
     making: MakingNarrative,
@@ -5317,7 +5732,10 @@ export function ArtSectionReader({ workId, sectionId }: { eraId: string; movemen
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)', ['--accent' as string]: accent }}>
-      <WarBreadcrumb crumbs={crumbs} accent={accent} />
+      <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
+        <WarHeader active="art" title="Art" subtitle="Stuff Happened · Art" backHref={base} />
+      </div>
+      <WarBreadcrumb crumbs={crumbs} accent={accent} bare />
       <div ref={scrollRef} style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>
         <ChapterHeader accent={accent} eyebrow={`${w.shortName} · ${section.eyebrow}`} title={section.title} progress={section.progress} />
         <Narrative accent={accent} onZoom={onZoom} />
@@ -5326,14 +5744,14 @@ export function ArtSectionReader({ workId, sectionId }: { eraId: string; movemen
         <div style={{ padding: '28px 18px 8px', display: 'flex', gap: 10 }}>
           {prev ? (
             <Link href={`${base}/${prev.id}`} style={{ flex: 1, minWidth: 0, display: 'block', textDecoration: 'none', border: `1px solid ${BORDER}`, borderRadius: 10, padding: '12px 14px', color: INK, background: CARD_BG }}>
-              <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.2, fontWeight: 700, color: FAINT, textTransform: 'uppercase' }}>← Previous</div>
-              <div style={{ fontFamily: SERIF, fontSize: 14, fontWeight: 500, marginTop: 3, color: INK, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{prev.title}</div>
+              <div style={{ fontFamily: SANS, fontSize: 11, letterSpacing: 1.2, fontWeight: 700, color: FAINT, textTransform: 'uppercase' }}>← Previous</div>
+              <div style={{ fontFamily: SERIF, fontSize: 16.5, fontWeight: 500, marginTop: 4, color: INK, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{prev.title}</div>
             </Link>
           ) : <div style={{ flex: 1 }} />}
           {next ? (
             <Link href={`${base}/${next.id}`} style={{ flex: 1, minWidth: 0, display: 'block', textDecoration: 'none', border: `1px solid ${BORDER}`, borderRadius: 10, padding: '12px 14px', color: INK, background: CARD_BG, textAlign: 'right' }}>
-              <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.2, fontWeight: 700, color: artAlpha(accent, 0.95), textTransform: 'uppercase' }}>Next →</div>
-              <div style={{ fontFamily: SERIF, fontSize: 14, fontWeight: 500, marginTop: 3, color: INK, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{next.title}</div>
+              <div style={{ fontFamily: SANS, fontSize: 11, letterSpacing: 1.2, fontWeight: 700, color: artAlpha(accent, 0.95), textTransform: 'uppercase' }}>Next →</div>
+              <div style={{ fontFamily: SERIF, fontSize: 16.5, fontWeight: 500, marginTop: 4, color: INK, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{next.title}</div>
             </Link>
           ) : <div style={{ flex: 1 }} />}
         </div>
