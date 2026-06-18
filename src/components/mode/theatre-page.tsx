@@ -105,7 +105,15 @@ export function warCrumbs(cfg: WarConfig, { lane, battleId }: { lane?: string; b
   // a "The Cast" entry that joins the Story + Off-the-Battlefield group, in war accent.
   const castOpt: CrumbOption[] = cfg.castHref ? [{ label: 'The Cast', href: cfg.castHref, color: cfg.accent }] : []
   const beyondOptions = [...beyondLanes.map(laneOpt), ...castOpt]
+  // When a war has SEVERAL geographic theatres (the Civil War), the theatres
+  // group only ever scopes you to one theatre; a "The Battles" entry above them
+  // jumps straight to the full chronological battle list. (A one-lane war like the
+  // Revolution already names its single lane "The Battles", so skip it there.)
+  const allBattlesOpt: CrumbOption[] = battleLanes.length > 1
+    ? [{ label: 'The Battles', href: `${cfg.routeBase}?tab=battles`, color: warColor }]
+    : []
   const laneOptions: CrumbOption[] = [
+    ...allBattlesOpt,
     ...battleLanes.map(laneOpt),
     ...(battleLanes.length && beyondOptions.length ? [{ label: 'Beyond the battles', heading: true } as CrumbOption] : []),
     ...beyondOptions,

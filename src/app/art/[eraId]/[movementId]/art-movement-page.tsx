@@ -67,7 +67,7 @@ function WorksCord({ works, accent, eraId, movementId }: { works: MovementWork[]
   return (
     <div style={{ position: 'relative', paddingTop: 26, paddingBottom: 4 }}>
       <div style={{ position: 'absolute', left: CORD_X, top: 8, bottom: 8, width: 1, background: BORDER_STRONG }} />
-      <div style={{ position: 'absolute', left: 70, top: 12, fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: accent, textTransform: 'uppercase', background: 'var(--background)', padding: '0 6px' }}>
+      <div style={{ position: 'absolute', left: 70, top: 12, fontFamily: SANS, fontSize: 11, letterSpacing: 1.6, fontWeight: 700, color: accent, textTransform: 'uppercase', background: 'var(--background)', padding: '0 6px' }}>
         {works.length} featured works
       </div>
       <div style={{ paddingTop: 14 }}>
@@ -110,8 +110,8 @@ function NodeCard({ chip, accent }: { chip: ArtLineageChip; accent: string }) {
         )}
       </div>
       <div style={{ minWidth: 0, flex: 1 }}>
-        <div style={{ fontFamily: SANS, fontSize: 12, fontWeight: 600, lineHeight: 1.15, color: INK }}>{chip.label}</div>
-        {chip.note && <div style={{ fontFamily: SANS, fontSize: 9.5, lineHeight: 1.25, color: MUTED, fontStyle: 'italic', marginTop: 2 }}>{chip.note}</div>}
+        <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 600, lineHeight: 1.18, color: INK }}>{chip.label}</div>
+        {chip.note && <div style={{ fontFamily: SANS, fontSize: 10.5, lineHeight: 1.3, color: MUTED, fontStyle: 'italic', marginTop: 2 }}>{chip.note}</div>}
       </div>
     </div>
   )
@@ -137,7 +137,7 @@ function Funnel({ chips, accent, dir }: { chips: ArtLineageChip[]; accent: strin
 }
 
 function BandLabel({ children }: { children: React.ReactNode }) {
-  return <div style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 600, letterSpacing: 1, textTransform: 'uppercase', color: FAINT, marginBottom: 10 }}>{children}</div>
+  return <div style={{ fontFamily: SANS, fontSize: 10.5, fontWeight: 600, letterSpacing: 1, textTransform: 'uppercase', color: FAINT, marginBottom: 10 }}>{children}</div>
 }
 
 // THE INFLUENCE FLOW — artwork-node lineage in a converge → hub → fan-out
@@ -170,8 +170,8 @@ function InfluenceFlow({ accent, lineage, title, range, hubImage, hubPalette, su
             </div>
           </div>
           <div style={{ marginTop: 9, display: 'inline-flex', alignItems: 'baseline', gap: 7, padding: '5px 13px', borderRadius: 999, background: artAlpha(accent, 0.16), border: `1px solid ${artAlpha(accent, 0.5)}` }}>
-            <span style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: INK }}>{title}</span>
-            <span style={{ fontFamily: MONO, fontSize: 9, letterSpacing: 0.4, color: accent }}>{range}</span>
+            <span style={{ fontFamily: SANS, fontSize: 13, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: INK }}>{title}</span>
+            <span style={{ fontFamily: MONO, fontSize: 10.5, letterSpacing: 0.4, color: accent }}>{range}</span>
           </div>
         </div>
 
@@ -182,7 +182,7 @@ function InfluenceFlow({ accent, lineage, title, range, hubImage, hubPalette, su
       </div>
 
       {summary && (
-        <div style={{ marginTop: 16, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.45, color: MUTED, textWrap: 'pretty' }}>
+        <div style={{ marginTop: 16, fontFamily: SERIF, fontStyle: 'italic', fontSize: 13.5, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>
           {summary}
         </div>
       )}
@@ -197,18 +197,18 @@ function InfluenceFlow({ accent, lineage, title, range, hubImage, hubPalette, su
 function ParallelsList({ parallels }: { parallels: { year: number; movement: string; place: string; blurb: string }[] }) {
   return (
     <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
-      <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 12 }}>
+      <div style={{ marginBottom: 12 }}>
         <Eyebrow>Meanwhile, elsewhere</Eyebrow>
-        <div style={{ fontFamily: SANS, fontSize: 10, color: FAINT, letterSpacing: 0.3 }}>Other movements in the same years</div>
+        <div style={{ marginTop: 4, fontFamily: SANS, fontSize: 11, color: FAINT, letterSpacing: 0.3 }}>Other movements in the same years</div>
       </div>
       <div style={{ position: 'relative', marginTop: 6 }}>
         <div style={{ position: 'absolute', left: 7, top: 6, bottom: 6, width: 1, background: BORDER_STRONG }} />
         {parallels.map(p => (
-          <div key={p.movement} style={{ position: 'relative', padding: '6px 0 10px 26px', opacity: 0.6 }}>
+          <div key={p.movement} style={{ position: 'relative', padding: '6px 0 10px 26px' }}>
             <span style={{ position: 'absolute', left: 3, top: 8, width: 8, height: 8, borderRadius: 999, background: CARD_BG, border: `1px solid ${BORDER_STRONG}` }} />
-            <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 0.3, fontWeight: 700, color: FAINT, textTransform: 'uppercase' }}>{p.year} · {p.place}</div>
-            <div style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.2, letterSpacing: -0.1, color: INK, marginTop: 1 }}>{p.movement}</div>
-            <div style={{ marginTop: 3, fontFamily: SERIF, fontSize: 12.5, lineHeight: 1.4, color: MUTED, textWrap: 'pretty' }}>{p.blurb}</div>
+            <div style={{ fontFamily: SANS, fontSize: 10.5, letterSpacing: 0.3, fontWeight: 700, color: 'color-mix(in srgb, var(--foreground) 72%, transparent)', textTransform: 'uppercase' }}>{p.year} · {p.place}</div>
+            <div style={{ fontFamily: SERIF, fontSize: 15, lineHeight: 1.2, letterSpacing: -0.1, color: INK, marginTop: 5 }}>{p.movement}</div>
+            <div style={{ marginTop: 6, fontFamily: SERIF, fontSize: 14, lineHeight: 1.45, color: 'color-mix(in srgb, var(--foreground) 90%, transparent)', textWrap: 'pretty' }}>{p.blurb}</div>
           </div>
         ))}
       </div>
@@ -222,7 +222,7 @@ function ParallelsList({ parallels }: { parallels: { year: number; movement: str
 // ─────────────────────────────────────────────────────────────
 type CanonEntry = { year: number; name: string; artist: string; wiki?: string; img?: string; nsfw?: boolean; note?: string }
 function NsfwTag() {
-  return <span style={{ marginLeft: 7, fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: FAINT, border: `1px solid ${BORDER_STRONG}`, borderRadius: 4, padding: '1px 4px', verticalAlign: 'middle', whiteSpace: 'nowrap' }}>explicit</span>
+  return <span style={{ marginLeft: 7, fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: FAINT, border: `1px solid ${BORDER_STRONG}`, borderRadius: 4, padding: '1px 5px', verticalAlign: 'middle', whiteSpace: 'nowrap' }}>explicit</span>
 }
 // Square canon thumbnail. Tapping opens the lightbox; a load failure (or no
 // image at all) degrades to a subtle dashed placeholder rather than a broken icon.
@@ -254,15 +254,15 @@ function CanonList({ canon, accent, onZoom }: { canon: CanonEntry[]; accent: str
             <div style={{ flex: 1, minWidth: 0 }}>
               <div style={{ display: 'flex', gap: 8, alignItems: 'baseline' }}>
                 <span style={{ flexShrink: 0, fontFamily: MONO, fontSize: 11, fontWeight: 700, letterSpacing: 0.2, color: accent }}>{w.year}</span>
-                <span style={{ flex: 1, minWidth: 0, fontFamily: SERIF, fontSize: 14, lineHeight: 1.25, textWrap: 'pretty' }}>
+                <span style={{ flex: 1, minWidth: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.3, textWrap: 'pretty' }}>
                   {w.wiki
                     ? <a href={wikiHref(w.wiki)} target="_blank" rel="noopener noreferrer" style={{ color: INK, textDecoration: 'none', borderBottom: `1px solid ${artAlpha(accent, 0.45)}` }}>{w.name}</a>
                     : <span style={{ color: INK }}>{w.name}</span>}
                   {w.nsfw && <NsfwTag />}
                 </span>
-                <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{w.artist}</span>
+                <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11.5, letterSpacing: 0.2, color: FAINT }}>{w.artist}</span>
               </div>
-              {w.note && <div style={{ marginTop: 4, fontFamily: SERIF, fontSize: 12.5, lineHeight: 1.5, color: wWhy, textWrap: 'pretty' }}>{w.note}</div>}
+              {w.note && <div style={{ marginTop: 5, fontFamily: SERIF, fontSize: 14, lineHeight: 1.5, color: wWhy, textWrap: 'pretty' }}>{w.note}</div>}
             </div>
           </div>
         )
@@ -291,7 +291,7 @@ function ComingSoon({ eraId, movementId }: { eraId: string; movementId: string }
           palette={['#3a3a4a', '#1c1c2a', '#0a0a14']}
           accent={accent}
         />
-        <div style={{ padding: '24px 18px', fontFamily: SERIF, fontSize: 15, lineHeight: 1.55, color: MUTED, textWrap: 'pretty' }}>
+        <div style={{ padding: '24px 18px', fontFamily: SERIF, fontSize: 16, lineHeight: 1.58, color: MUTED, textWrap: 'pretty' }}>
           This movement hasn&rsquo;t been written yet. Cubism is the first fully-built
           movement in the Art vertical — start there.
         </div>
@@ -350,7 +350,7 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
             accent={accent}
           />
           <div style={{ padding: '16px 18px 4px' }}>
-            <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{mv.hookLong}</p>
+            <p style={{ margin: 0, fontFamily: SERIF, fontSize: 16, lineHeight: 1.55, color: MUTED, textWrap: 'pretty' }}>{mv.hookLong}</p>
           </div>
           {/* primary doorway into the movement's chaptered narrative */}
           {mv.sections.length > 0 && (
@@ -391,7 +391,7 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
         </div>
         {hasCanon && (
           <div id="sec-canon" ref={canonRef} style={secStyle}>
-            <div style={{ padding: '16px 16px 2px', borderTop: `1px solid ${BORDER}` }}><Eyebrow color={accent}>{`The full canon · ${mv.canon!.length} works`}</Eyebrow></div>
+            <div style={{ padding: '16px 16px 2px', borderTop: `1px solid ${BORDER}` }}><Eyebrow color={accent}>{`Canonical works · ${mv.canon!.length}`}</Eyebrow></div>
             <CanonList canon={mv.canon!} accent={accent} onZoom={(src, cap) => setLb({ src, cap })} />
           </div>
         )}

@@ -26,7 +26,7 @@ const DATA: BattleData = {
   title: 'Brandywine',
   date: 'September 11, 1777',
   place: 'Chadds Ford, Pennsylvania',
-  note: 'By most counts the largest single-day battle of the war. Howe\'s six-week sea move landed his army barely closer to Philadelphia than when it started, and then he beat Washington the same way he had won at Long Island the year before: fake an attack in front, march the real force around the end of the enemy line. He took the field and, fifteen days later, the rebel capital; the army he needed to destroy marched away intact.',
+  note: 'By most counts the largest single-day battle of the war: Howe faked an attack at Chadds Ford, marched the real force around the unguarded American right, took the field and, fifteen days later, the rebel capital, while the army he needed to destroy marched away intact.',
   hero: { img: '/war-img/rev-brandywine-hero.jpg', pal: ['#3b352a', '#6e5638', '#15110c'], credit: 'F. C. Yohn · photomechanical print · 1898 · Library of Congress / Wikimedia Commons · public domain' },
   sideNames: { u: 'AMERICAN', c: 'BRITISH–GERMAN' },
   sideColors: { u: 'var(--rev-us)', c: 'var(--rev-gb)' },
@@ -36,14 +36,14 @@ const DATA: BattleData = {
     { label: 'Winner', value: 'Britain: the field and the road to Philadelphia; the American army escapes to fight again', win: 'c' },
   ],
   sides: [
-    { side: 'u', tag: 'American', force: 'The main Continental Army', str: '~14,600 (Continentals + militia; perhaps ~11,000 effectives actually engaged)', cmd: 'Gen. George Washington', note: 'Washington put the army behind Brandywine Creek, the last good defensive line covering the roads to Philadelphia, and set guards on every ford (shallow crossing place) he knew about. His maps were poor, he had been in this country only days, and the two fords above the forks of the creek went unguarded.' },
-    { side: 'c', tag: 'British–German', force: 'Howe\'s Philadelphia expedition', str: '~15,500 engaged (~8,400 with Cornwallis, ~6,800 with Knyphausen)', cmd: 'Gen. Sir William Howe', note: 'A six-week sea move to the Chesapeake, then the Long Island play run again: Knyphausen\'s column demonstrating at Chadds Ford to look like the whole army while Cornwallis and Howe swung some fifteen to seventeen miles around the unguarded American right, guided by local Loyalists.' },
+    { side: 'u', tag: 'American', force: 'The main Continental Army', str: '~14,600 (~11,000 effectives engaged)', cmd: 'Gen. George Washington', note: 'Washington guarded every ford he knew about on the last good defensive line before Philadelphia; his maps were poor and the two fords above the creek\'s forks went unguarded.' },
+    { side: 'c', tag: 'British–German', force: 'Howe\'s Philadelphia expedition', str: '~15,500 engaged (~8,400 with Cornwallis, ~6,800 with Knyphausen)', cmd: 'Gen. Sir William Howe', note: 'Knyphausen\'s column pinned the American center at Chadds Ford while Cornwallis and Howe swung fifteen to seventeen miles around the unguarded right, guided by local Loyalists.' },
   ],
   casualties: {
     union: 1200, csa: 590,
     unionLabel: 'American ~1,100–1,300',
     csaLabel: 'British–German ~580–600',
-    footnote: 'American: NO official return was ever issued; every figure is an estimate. Best ranges: ~200–300 killed, ~500–750 wounded, ~350–400 captured, total ~1,100–1,300 (Greene himself estimated 1,200–1,300; Howe claimed ~300 killed, 600 wounded, ~400 prisoners). Eleven of fourteen American guns lost. British–German: official return 587 (93 killed, 488 wounded, 6 missing), call it around 580–600; only about 40 of them Hessians (the German troops in British service). Some modern scholars suspect the return modestly undercounts; American claims of ~2,000 were distant-observation guesses.',
+    footnote: 'American: no official return was ever issued. Best estimates: ~200–300 killed, ~500–750 wounded, ~350–400 captured, total ~1,100–1,300; eleven of fourteen guns lost. British–German: official return 587 (93 killed, 488 wounded, 6 missing), about 580–600 total, only ~40 of them Hessians.',
   },
   commanders: [
     { name: 'George Washington', role: 'Cmdr. in chief, American', side: 'u', img: '/war-img/rev-trenton-washington.jpg', bio: 'Forty-five years old and fresh off the winter triumphs at Trenton and Princeton, Washington chose to stand and fight for the capital rather than give it up unfought. At Brandywine he read the battlefield wrong, with bad maps, a creek he had known for only days, and scouting reports that cancelled each other out, and Howe turned his flank exactly as at Long Island. His redemption was the evening: the army he had built came off the field intact and in order, and he had it attacking again within four weeks.' },

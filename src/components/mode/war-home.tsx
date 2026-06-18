@@ -33,17 +33,28 @@ function SpineRow({ no, title, sub, right, href, dot }: { no?: string; title: st
 
 function StoryTab({ cfg }: { cfg: WarConfig }) {
   const sc = cfg.home!.storyCard
+  // The story card is the entry to the full "How the War Happened" spine landing
+  // page (the war's `story` lane). When that page exists, the card links to it
+  // instead of showing a dead "Soon" pill.
+  const storyHref = cfg.lanes.find(l => l.kind === 'story')?.href
+  const cardBody = (
+    <>
+      <div className="row">
+        <span className="chip"><span className="sq" /><span className="p-label">{sc.kicker}</span></span>
+        {storyHref
+          ? <span className="p-mono" style={{ fontSize: 12, fontWeight: 600, color: cfg.accent }}>Read {WAR_ICONS.arr}</span>
+          : soonPill}
+      </div>
+      <h3 className="p-serif">{sc.heading}</h3>
+      <p>{sc.body}</p>
+      {sc.meta && <div className="sc-meta">{sc.meta}</div>}
+    </>
+  )
   return (
     <div className="p-page story-spine">
-      <div className="p-storycard story fi-dim">
-        <div className="row">
-          <span className="chip"><span className="sq" /><span className="p-label">{sc.kicker}</span></span>
-          {soonPill}
-        </div>
-        <h3 className="p-serif">{sc.heading}</h3>
-        <p>{sc.body}</p>
-        {sc.meta && <div className="sc-meta">{sc.meta}</div>}
-      </div>
+      {storyHref
+        ? <a className="p-storycard story" href={storyHref}>{cardBody}</a>
+        : <div className="p-storycard story fi-dim">{cardBody}</div>}
       {cfg.chapters.map((c, i) => (
         <SpineRow key={c.id} no={String(i + 1).padStart(2, '0')} title={c.short ?? c.name} sub={c.hook} right={(c.date.match(/\d{4}/) || [''])[0]} href={c.href} />
       ))}

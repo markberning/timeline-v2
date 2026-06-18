@@ -3167,6 +3167,589 @@ const AirGoesOutNarrative: Narrative = ({ accent, onZoom }) => (
   </>
 )
 
+// ─────────────────────────────────────────────────────────────
+// Movement, Futurism (1909–1918). The first movement launched as a manifesto:
+// paint motion and the machine, burn the past. Authored through the art content
+// pipeline (fact pack → Opus draft → 5 critic gates → reconcile). The fascism +
+// misogyny honesty axis is carried plain. No em-dashes in shippable prose.
+// ─────────────────────────────────────────────────────────────
+const T_GROUP = ['#6a6a5a', '#3a3a30', '#14140e'] as [string, string, string]
+const T_CITY = ['#bf3a25', '#3a4a6a', '#1c1208'] as [string, string, string]
+const T_BRAQUE = ['#9a8458', '#4a3f28', '#15110a'] as [string, string, string]
+const T_SEVERINI = ['#bf3a6a', '#3a6a8a', '#1c1418'] as [string, string, string]
+const T_DOG = ['#5a4a2a', '#2a2218', '#0e0a06'] as [string, string, string]
+const T_GALLI = ['#bf2f25', '#1c1c1c', '#6a1414'] as [string, string, string]
+const T_UNIQUE = ['#7a6a4a', '#3a3020', '#100c08'] as [string, string, string]
+const T_NOISE = ['#3a3a44', '#1c1c24', '#0a0a10'] as [string, string, string]
+const T_CITTA = ['#5a5a64', '#2a2a30', '#0e0e12'] as [string, string, string]
+const PD_BOCCIONI = 'Public domain worldwide (Umberto Boccioni died 1916). Wikimedia Commons.'
+const PD_SANTELIA = 'Public domain worldwide (Antonio Sant’Elia died 1916). Wikimedia Commons.'
+
+// ── 1. The press release that started a movement ────────────
+const FuturismPressNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 20 February 1909" title="A movement with no paintings" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>M</DropCap>
+        ost art movements begin in a studio, and you can read the rest of this era to watch them do it: a few
+        painters quietly working out a new way of seeing, then a critic arriving years later to give the thing a
+        name, usually as an insult. Futurism begins the opposite way. It begins on a newspaper&rsquo;s front
+        page, with a man who could not paint at all.
+      </p>
+      <p style={proseStyle}>
+        On 20 February 1909 the readers of{' '}<em>Le Figaro</em>, the most respectable daily in Paris, opened
+        the most respectable position in their paper, the front page, and found a roar. It was a{' '}
+        <strong>manifesto</strong>, a public declaration of beliefs and intentions, the form a political party
+        or a religious sect uses to announce itself to the world. This one announced an art movement. It was
+        titled the{' '}<em>Founding and Manifesto of Futurism</em>, and it was signed by an Italian poet named{' '}
+        <strong>Filippo Tommaso Marinetti</strong>, who was thirty-two, wealthy, Paris-educated, born in
+        Alexandria in Egypt in 1876, and who had, as yet, not a single painter behind him and not one Futurist
+        painting in existence. He announced the movement first. He went and found the artists afterward.
+      </p>
+      <p style={proseStyle}>
+        That order, words before art, is the whole reason Futurism matters as much for its method as for its
+        pictures. It is widely called the first movement launched by manifesto, the prototype of the way the
+        twentieth-century{' '}<strong>avant-garde</strong>{' '}(the experimental, rule-breaking front edge of art)
+        would announce itself: not by quietly painting but by issuing a printed declaration of war on the old.
+        Be careful with the superlative. It was not the first manifesto ever written, and the text had in fact
+        already appeared in an Italian paper, the{' '}<em>Gazzetta dell&rsquo;Emilia</em>{' '}in Bologna, two weeks
+        earlier. But Paris was the capital of the art world, the place a thing had to happen to become world
+        news, and that is exactly why Marinetti spent his money on the front page of a Paris daily. The Bologna
+        printing was the first ink. The{' '}<em>Le Figaro</em>{' '}front page was the launch that mattered.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={T_GROUP}
+        imageUrl={ART_IMG.futuristsGroup}
+        ratio="3/2"
+        alt="The Futurists in front of Le Figaro, Paris, 1912"
+        caption={<>The movement arrived this way: not in a gallery but through the press. Here the five Futurists pose in front of the Le Figaro building in Paris. From left, Russolo, Carr&agrave;, Marinetti, Boccioni and Severini.</>}
+        credit={<>Russolo, Carr&agrave;, Marinetti, Boccioni and Severini in front of Le Figaro, Paris, 9 February 1912 · photograph</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="The program" title="Speed, the machine, burn the museums" />
+      <p style={proseStyle}>
+        The manifesto comes in two parts. The first is a swaggering prose preamble, a kind of origin myth, in
+        which Marinetti and his friends argue all night under hanging lamps, then storm out at dawn and tear off
+        through Milan in their motorcars, drunk on speed. Swerving to miss two cyclists, Marinetti flips his car
+        into a factory drainage ditch and goes nose-down into the muck. He hauls himself out covered in
+        industrial sludge and treats the crash not as bad luck but as a baptism: the old, careful world is the
+        ditch, and he has just been reborn fast and modern. Then comes the program proper, eleven numbered
+        points fired off like rounds.
+      </p>
+      <p style={proseStyle}>
+        What they demand is a clean break with everything old and a worship of everything fast. The proper
+        subjects of art, the manifesto says, are no longer the nude and the myth and the saint but the things of
+        modern life at full throttle: the car, the tram, the electric arc-lamp, the factory, the railway station,
+        the great machine-made crowd, and above all speed itself, treated as a new kind of beauty. Point four
+        says it most famously: a roaring racing car, it claims, is more beautiful than the{' '}
+        <em>Winged Victory of Samothrace</em>, the celebrated ancient Greek statue of a winged goddess that
+        stands at the top of the great staircase in the Louvre. A machine beats a goddess. And the past has to
+        go: the museums and libraries and academies are graveyards, the manifesto says, and the right response
+        to them is demolition. It is genuinely thrilling to read, which is part of the trouble, because the same
+        document carries its rot right out in the open.
+      </p>
+
+      <SectionHeader accent={accent} label="The ugly core" title="&ldquo;The world&rsquo;s only hygiene&rdquo;" />
+      <p style={proseStyle}>
+        You cannot quote the manifesto honestly and quietly drop the ninth point. Point nine is where Marinetti
+        writes that the movement wishes to glorify war, which he calls the sole cleanser of the world (the line
+        is more often quoted in the older English translation as &ldquo;war, the world&rsquo;s only
+        hygiene&rdquo;), along with militarism, patriotism, and, in the same breath, scorn for women. Point ten
+        adds that the movement means to fight against feminism. This is not a slip of the pen or a young
+        man&rsquo;s pose that the rest of the story walks back. Marinetti meant it. He spent the next years
+        agitating for Italy to go to war, and ten years after the manifesto he helped write the founding
+        document of Italian{' '}<strong>Fascism</strong>{' '}(the violent nationalist movement that would put Italy
+        under the dictator Benito Mussolini in 1922, abolish elections, and become the model Hitler&rsquo;s
+        Nazis followed in Germany). Marinetti served that regime for the rest of his life.
+      </p>
+      <p style={proseStyle}>
+        So Futurism is two things at once from its very first sentence. On one side, a real and electrifying
+        revolution in art, the movement that taught Western painting how to show motion. On the other, the
+        movement that turned art into a recruiting poster for war and, in its founder&rsquo;s case, for fascism.
+        The chapters that follow keep both in view, and the last one has to put them back together.
+      </p>
+    </article>
+
+    <MeanwhileSheet
+      region="Paris"
+      title="Cubism, quietly, a few streets away"
+      body="While Marinetti was buying the loudest page in Paris, Picasso and Braque were a short walk off doing the exact opposite: inventing Cubism in near-total silence, publishing nothing, letting the paintings argue. The two movements would collide in person in 1911. The Cubism read covers what Cubism actually did; here it is enough to note the contrast in volume."
+    />
+  </>
+)
+
+// ── 2. Finding the painters ─────────────────────────────────
+const FuturismPaintersNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Milan → Rome · 1910" title="A cause goes looking for its artists" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        manifesto with no art is a stunt. To become a movement, Futurism needed people who could actually make
+        things, and within a year Marinetti had them. He gathered a handful of young painters, mostly in Milan,
+        some in Rome, and signed them up to his cause. What Marinetti gave them was not a technique, which he did
+        not have, but a banner, a publicity machine, and permission to be as loud and modern as they wanted.
+      </p>
+      <p style={proseStyle}>
+        They were not interchangeable, and it is worth telling them apart, because the rest of the story keeps
+        splitting along their differences.{' '}<strong>Umberto Boccioni</strong>{' '}(born 1882) was the engine of
+        the group, an intense, theoretical man who argued in print as hard as he painted and who wanted, as he
+        put it, to show that everything moves and runs and turns at top speed; he would push furthest, all the
+        way into sculpture.{' '}<strong>Giacomo Balla</strong>{' '}(born 1871) was the odd one out by a decade, the
+        eldest, the teacher, a patient experimenter who had taught the younger men their craft and would end up
+        chasing the painted blur further toward pure abstraction than anyone.{' '}<strong>Carlo Carr&agrave;</strong>{' '}
+        (born 1881) was the political one, drawn to crowds, riots and funerals, the painter of the mob.{' '}
+        <strong>Gino Severini</strong>{' '}(born 1883) was the cosmopolitan, the one who actually lived in Paris
+        and knew everybody. And{' '}<strong>Luigi Russolo</strong>{' '}(born 1885) was the youngest and the
+        strangest, a painter who would soon get bored of paint and walk off to invent a new kind of music. Five
+        very different men, one borrowed banner.
+      </p>
+      <p style={proseStyle}>
+        In 1910 they paid Marinetti back in the only currency the movement traded in: manifestos. In February
+        they issued the{' '}<em>Manifesto of the Futurist Painters</em>, signed by all five, and in April the{' '}
+        <em>Technical Manifesto of Futurist Painting</em>, largely written by Boccioni. The April document is
+        the one that actually says how to paint. It demands the painting of what it calls the dynamic sensation,
+        the felt energy of things in motion, and a &ldquo;universal dynamism&rdquo; in which nothing is ever
+        truly at rest. It rejects the nude. It is, for the first time, an aesthetic program and not just a
+        slogan, the painters working out what the poet&rsquo;s noise was supposed to look like on canvas.
+      </p>
+
+      <SectionHeader accent={accent} label="The starting point" title="Italian Divisionism" />
+      <p style={proseStyle}>
+        Here is the thing the textbooks often skip: at this moment, in 1910, these men were not yet doing
+        anything that looks like the Futurism you have seen. They were not Cubists, they had not yet been to
+        Paris, and their canvases shimmer with an entirely Italian technique called{' '}
+        <strong>Divisionism</strong>. Divisionism is the Italian cousin of the French pointillism of Georges
+        Seurat: instead of mixing colors on the palette and laying down a smooth field, you paint in many small
+        separated dots and strokes of pure unmixed color and let the viewer&rsquo;s eye blend them, which makes
+        the surface vibrate with a peculiar inner light. The Italians had their own line of it through Previati,
+        Segantini and Pellizza da Volpedo, and Balla had learned the method and taught it to the younger men. So
+        early Futurist pictures shimmer with little broken strokes of bright color before they ever learn to
+        fracture into planes. The light comes first. The motion comes later.
+      </p>
+      <p style={proseStyle}>
+        There was a second pull on them too, this one from a machine. In the years just before Futurism, the
+        photographers &Eacute;tienne-Jules Marey in France and Eadweard Muybridge in America had been making
+        what are called chronophotographs, sequences that froze a galloping horse or a running man into a row of
+        separate instants on one plate, the body caught in a dozen positions at once. Those motion studies were
+        famous and widely reproduced, and they prefigure the most recognizable Futurist trick of all, the
+        multiplied limb, the single body shown in many positions across one image. The camera had already
+        chopped motion into frames. The Futurists would paint the frames back into a blur. By 1910 the painters
+        had their shimmering color and a head full of motion studies, but still no way to make a canvas actually
+        move. That tool was about to be handed to them, by their rivals, on a train trip to Paris.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={T_CITY}
+        imageUrl={ART_IMG.boccioniCity}
+        ratio="3/2"
+        alt="Boccioni, The City Rises"
+        caption={<>Boccioni&rsquo;s first major Futurist canvas still glows with broken Divisionist strokes, the bright separated touches of color the painters carried over from their Italian training before Paris taught them to fracture.</>}
+        credit={<>Boccioni,{' '}<em>The City Rises</em>, 1910 · Museum of Modern Art, New York</>}
+        rights={PD_BOCCIONI}
+      />
+    </article>
+  </>
+)
+
+// ── 3. Paris, 1911: borrowing the broken plane ──────────────
+const FuturismParisNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Autumn 1911" title="The train ride that changed the look" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he single most important journey in Futurist history is a train ride to Paris in the autumn of 1911.{' '}
+        <strong>Severini</strong>{' '}was the group&rsquo;s man in France; he actually lived in Paris, among the
+        painters, and he understood that his Milan friends, for all their noise, had not yet seen the most
+        advanced painting in Europe. So he brought Boccioni, Carr&agrave; and Russolo to the city and introduced
+        them to Pablo Picasso and Georges Braque, and to{' '}<strong>Cubism</strong>, the movement (covered in
+        full in this era&rsquo;s Cubism reads) that had found a way to break an object into faceted, overlapping
+        planes and show it from several angles at once.
+      </p>
+      <p style={proseStyle}>
+        The encounter rewired them. The Futurists looked at that fractured surface and saw exactly the tool they
+        had been missing. Several of them went home and reworked canvases they had already started, breaking
+        their shimmering Divisionist surfaces into hard Cubist planes. The look of mature Futurism, the thing you
+        picture when you hear the word, is born in the months after this trip.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={T_BRAQUE}
+        imageUrl={ART_IMG.portuguese}
+        ratio="4/5"
+        alt="Braque, The Portuguese"
+        caption={<>The tool the Futurists went to Paris to borrow: a Cubist canvas broken into faceted brown and grey planes, the object turned and studied from several angles at once. What the Italians added was time, the planes set in motion.</>}
+        credit={<>Braque,{' '}<em>The Portuguese</em>, 1911 · Kunstmuseum Basel (shown in the Cubism read)</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="The one big difference" title="&ldquo;Cubism stands still&rdquo;" />
+      <p style={proseStyle}>
+        But they did not simply copy. The Futurists picked a fight with their own teachers, and the fight is the
+        key to the whole movement. Cubism, they complained, was motionless: it took its broken planes and aimed
+        them at a guitar, a bottle, a newspaper, a person sitting still in a studio. The Futurists wanted to aim
+        the same broken planes at the opposite target. They wanted to use fracture not to anatomize a still thing
+        but to depict{' '}<strong>motion</strong>, the rush and blur of a thing moving through space and time.
+        Same tool, opposite job. The way the Futurists told it, with the swagger they told everything, Cubism
+        had invented a marvelous machine and then wasted it painting a fruit bowl.
+      </p>
+      <p style={proseStyle}>
+        So the debt is real and it is large, the biggest single visual debt Futurism owes anyone, and it is
+        only honest to say so plainly rather than pretend the Italians invented the fractured plane. What the
+        Italians added was time. They took Cubism&rsquo;s still, faceted space and set it spinning.
+      </p>
+
+      <SectionHeader accent={accent} label="Bernheim-Jeune · February 1912" title="Futurism goes international" />
+      <p style={proseStyle}>
+        They announced the result with another piece of theater. In February 1912 the{' '}
+        <em>First Exhibition of Futurist Painting</em>{' '}opened at the Bernheim-Jeune gallery in Paris, one of
+        the city&rsquo;s leading dealers in modern art, then toured to London, Berlin, Brussels and beyond. It
+        put Futurism in front of the whole international avant-garde at once, and provoked the obvious charge,
+        which was half fair: that the Italians were just Cubist imitators who had arrived late and turned up the
+        volume. The Futurists&rsquo; answer was the one they always gave. Yes, we took your planes. No, we are
+        not doing your painting. You froze the world. We are going to make it move.
+      </p>
+      <p style={proseStyle}>
+        The tour did real work. The London leg in particular is where Futurism lit a fuse under the English
+        avant-garde: a young painter named Wyndham Lewis saw the show and the noise around it, and within two
+        years he had launched his own hard-edged, machine-worshipping British movement, Vorticism, with a
+        magazine called{' '}<em>BLAST</em>{' '}(1914). It is the clearest case of Futurism&rsquo;s most durable
+        export, which was never really a style but a method: the manifesto, the scandal, the touring
+        provocation, copied movement by movement across Europe.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={T_SEVERINI}
+        imageUrl={ART_IMG.severiniBalTabarin}
+        ratio="1/1"
+        alt="Severini, Dynamic Hieroglyphic of the Bal Tabarin"
+        caption={<>Severini, the group&rsquo;s Paris man, puts Cubism&rsquo;s faceting straight to Futurist work: a Montmartre night club shattered into spinning dancers and cancan legs, with real sequins glued to the surface for glitter.</>}
+        credit={<>Severini,{' '}<em>Dynamic Hieroglyphic of the Bal Tabarin</em>, 1912 · Museum of Modern Art, New York</>}
+        rights={PD_RIGHTS}
+      />
+    </article>
+  </>
+)
+
+// ── 4. Painting speed ───────────────────────────────────────
+const FuturismSpeedNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The machine city" title="Boccioni&rsquo;s The City Rises" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the building site. Boccioni&rsquo;s{' '}<em>The City Rises</em>{' '}(1910) is his first big
+        Futurist canvas, almost ten feet wide, and it shows the modern city under construction, which is to say
+        it shows the city literally rising. In the foreground a huge red dray-horse, an enormous working draft
+        animal, strains and rears, and around it men haul and heave, and the whole surface, horse and men and
+        scaffolding and dust, dissolves into one churning, swirling surge of labor and energy. You do not read
+        it as a horse and some workers. You read it as force. The subject is not a scene; the subject is the
+        energy of a city being built.
+      </p>
+
+      <SectionHeader accent={accent} label="Emotion as motion" title="The States of Mind triptych" />
+      <p style={proseStyle}>
+        Then the railway station. Boccioni&rsquo;s{' '}<em>States of Mind</em>{' '}(1911) is a set of three panels
+        about a parting at a train station, and it tries to do something almost impossible: to paint feelings as
+        movement. Stand in front of the first panel,{' '}<em>The Farewells</em>, and you are inside the goodbye:
+        a steam-choked platform, embracing couples half-dissolved in the churn, and floating through the fog a
+        giant locomotive number stenciled on the side of the engine, a banal stamped numeral turned into the one
+        solid thing in a swimming world. The second panel,{' '}<em>Those Who Go</em>, drives the departing
+        passengers into hard slanting streaks, faces and window frames smeared sideways by the speed of the
+        carriage. The third,{' '}<em>Those Who Stay</em>, drops into long, sagging verticals, like a downpour of
+        grief. Three kinds of motion for three states of feeling. Emotion painted as direction.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={T_DOG}
+        imageUrl={ART_IMG.ballaDog}
+        ratio="5/4"
+        alt="Balla, Dynamism of a Dog on a Leash"
+        caption={<>The textbook image of painted motion: a dachshund&rsquo;s legs and the swinging leash multiplied into a blur of repeated shapes, the same legs in a dozen places in a single still picture.</>}
+        credit={<>Balla,{' '}<em>Dynamism of a Dog on a Leash</em>, 1912 · Buffalo AKG Art Museum</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="The textbook of motion" title="Balla&rsquo;s dog" />
+      <p style={proseStyle}>
+        Now the famous one, and the easiest to read on a phone. Balla&rsquo;s{' '}
+        <em>Dynamism of a Dog on a Leash</em>{' '}(1912), painted while he was staying out in the Tuscan
+        countryside, shows a little dachshund being walked along a sunlit path, and it is the single clearest
+        demonstration of what painted motion even means. Balla does not paint one dog; he paints the blur of a
+        trotting dog, the four short legs smeared into a fan, the swinging leash repeated into a stack of arcs,
+        the lady&rsquo;s walking feet stuttered into a little row of steps. It is what your eye actually does
+        when something moves too fast to fix, multiplied and laid out on the canvas. A camera could freeze that
+        dog in one crisp instant; what a camera cannot do, and what Balla is after, is to hold all the instants
+        at once. If you only remember one Futurist image, this is the one.
+      </p>
+
+      <SectionHeader accent={accent} label="The riot" title="Carr&agrave;&rsquo;s Funeral of the Anarchist Galli" />
+      <p style={proseStyle}>
+        If Boccioni took the machine city and Balla took the trotting dog,{' '}<strong>Carr&agrave;</strong>{' '}
+        took the mob. His{' '}<em>Funeral of the Anarchist Galli</em>{' '}(1910&ndash;11) paints a real event he
+        had witnessed: the funeral of Angelo Galli, an anarchist worker, which the police tried to break up, so
+        that the mourners&rsquo; procession turned into a brawl. Carr&agrave; gives you the clash itself, a storm
+        of red flags and black-clad bodies and raised poles, everything tilted and slashing, the violence
+        rendered as so many lines of force crossing and colliding. It is the third of the Futurists&rsquo; chosen
+        modern subjects, alongside labor and travel: political violence in the street, painted with the same
+        churning energy as the building site.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={T_GALLI}
+        imageUrl={ART_IMG.carraGalli}
+        ratio="5/4"
+        alt="Carrà, Funeral of the Anarchist Galli"
+        caption={<>A real police-broken funeral turned into a storm of red banners, bodies and raised poles, the riot rendered as crossing lines of force. The Futurists&rsquo; third modern subject, political violence in the street.</>}
+        credit={<>Carr&agrave;,{' '}<em>Funeral of the Anarchist Galli</em>, 1910&ndash;11 · Museum of Modern Art, New York</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="The line of force" title="The cyclist, and the figure made of wind" />
+      <p style={proseStyle}>
+        Push the idea further and the subject starts to disappear into pure energy. Boccioni&rsquo;s{' '}
+        <em>Dynamism of a Cyclist</em>{' '}(1913) takes a man on a bicycle and abstracts him almost out of
+        existence: no clear face, no clear wheel, just a tight knot of slashing blue and ochre wedges leaning
+        hard to one side, the body and the machine and the rushing air fused into one diagonal streak of effort.
+        What you are looking at is a picture made almost entirely of what the Futurists called{' '}
+        <strong>lines of force</strong>, the imaginary lines along which a moving thing&rsquo;s energy seems to
+        travel and bend the space around it. The man has become his own speed. By the time Balla paints{' '}
+        <em>Abstract Speed + Sound</em>{' '}(1913&ndash;14), even the body is gone; there is no car and no rider
+        left at all, just the swoosh of speed and the wedge of noise it leaves behind.
+      </p>
+
+      <SectionHeader accent={accent} label="Sculpture" title="Unique Forms of Continuity in Space" />
+      <p style={proseStyle}>
+        And then the single most famous Futurist object, which is not a painting at all. Boccioni, never content
+        to stay in one medium, had written a{' '}<em>Technical Manifesto of Futurist Sculpture</em>{' '}in 1912,
+        arguing that statues too should be opened up and set in motion instead of standing there like polished
+        idols, and{' '}<em>Unique Forms of Continuity in Space</em>{' '}(1913) is that argument made solid. It is a
+        striding human figure remade as flame and wind made solid, the muscles peeled back and pulled out into
+        wings and ridges of motion, as if the figure were leaving streaks of its own movement in the air as it
+        walked. Italy put it on the twenty-cent euro coin. One honest footnote: Boccioni made the work in 1913,
+        but he made it in plaster, and that original plaster survives in S&atilde;o Paulo, Brazil. Every famous
+        bronze you have seen is a later, posthumous cast, the earliest from 1931, fifteen years after Boccioni
+        was dead. So when people say &ldquo;Boccioni&rsquo;s 1913 bronze,&rdquo; they are using shorthand: the
+        sculpture is 1913, the bronze is posthumous.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={T_UNIQUE}
+        imageUrl={ART_IMG.boccioniUniqueFormsStudy}
+        ratio="3/4"
+        alt="Boccioni, study for Unique Forms of Continuity in Space"
+        caption={<>Boccioni&rsquo;s own 1913 study for the striding figure, drawn rather than cast. (The famous bronzes are posthumous casts from 1931 onward, so we show the artist&rsquo;s own pre-1930 drawing of it.)</>}
+        credit={<>Boccioni, study for{' '}<em>Unique Forms of Continuity in Space</em>, 1913 · public domain</>}
+        rights={PD_BOCCIONI}
+      />
+    </article>
+  </>
+)
+
+// ── 5. A total program, and a woman answers back ────────────
+const FuturismProgramNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1912–1914" title="Not just painting, a way of living" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        uturism never stayed inside the picture frame, because it was never really about painting alone.
+        Marinetti&rsquo;s idea was a total program, a wholesale remaking of modern life, and so the manifestos
+        kept coming, for sculpture, for photography, for theatre, for cooking, even for clothing. The point was
+        to drag every corner of life into the machine age.
+      </p>
+      <p style={proseStyle}>
+        It even had a live arm. The Futurists staged what they called{' '}<em>serate</em>, &ldquo;evenings,&rdquo;
+        rowdy stage events at theatres in Milan, Turin, Rome and beyond. A serata was not a performance so much
+        as a scripted ambush: the Futurists would take the stage in front of a paying crowd, read incendiary
+        manifestos and free-word poems, insult the audience and the city&rsquo;s most sacred local heroes, and
+        wait for the room to turn. It usually did, into jeering, then thrown vegetables and coins, then outright
+        brawls and the occasional arrest. That was the goal; the riot was the art. The serata was Futurism&rsquo;s
+        most direct invention, the artistic event staged to provoke, and it became the template for the noisy
+        public provocations of Dada a few years later.
+      </p>
+
+      <SectionHeader accent={accent} label="Sound" title="Russolo and the noise machines" />
+      <p style={proseStyle}>
+        Start with sound.{' '}<strong>Russolo</strong>, who had begun as a painter, put down his brushes and
+        effectively invented noise music. In 1913 he wrote a manifesto called{' '}<em>The Art of Noises</em>,
+        which argued that the modern ear, raised on factories and engines and trams, was bored by the polite
+        sounds of the orchestra and craved the actual noise of the machine age. Then he built the instruments to
+        make it. He called them{' '}<strong>intonarumori</strong>, which means &ldquo;noise intoners,&rdquo; a
+        family of boxes with cranks and levers and horns that produced rumbles, hisses, roars and shrieks on
+        command, a machine-age orchestra of pure noise. It sounds like a joke and it was a foundation:
+        Russolo&rsquo;s noise machines are one of the starting points of twentieth-century experimental and
+        electronic music.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={T_NOISE}
+        imageUrl={ART_IMG.russoloIntonarumori}
+        ratio="2/3"
+        alt="Russolo and Piatti with the intonarumori"
+        caption={<>Russolo (left) and his assistant Ugo Piatti with the intonarumori: a machine-age orchestra of cranks and horns built to play the rumbles and roars of the modern city.</>}
+        credit={<>Luigi Russolo and Ugo Piatti with the intonarumori, Milan, about 1913 · photograph</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="Architecture" title="Sant&rsquo;Elia&rsquo;s New City" />
+      <p style={proseStyle}>
+        Then architecture, and the drawings are extraordinary objects in their own right.{' '}
+        <strong>Antonio Sant&rsquo;Elia</strong>, a young architect, drew a visionary metropolis he called the{' '}
+        <em>Citt&agrave; Nuova</em>, the &ldquo;New City,&rdquo; and wrote a{' '}
+        <em>Manifesto of Futurist Architecture</em>{' '}(1914) to go with it. Look at one of the sheets and you
+        see a single colossal building drawn at a steep upward angle, like a tower photographed from the gutter:
+        a stepped, set-back power station, sheer and many storeys tall, its elevators run up the outside of the
+        wall in glass and steel shafts instead of being hidden inside, and below it the streets, the tramlines
+        and the railways stacked in open layers one above another. No columns, no domes, no ornament, no nod to
+        a single thing built before. It is a city designed for speed and electricity rather than for monuments,
+        and it looks like nothing that existed in 1914. Almost none of it was built, and Sant&rsquo;Elia did not
+        live to build any of it, but the drawings shaped how the whole twentieth century pictured the city of
+        the future.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={T_CITTA}
+        imageUrl={ART_IMG.santeliaCitta}
+        ratio="2/3"
+        alt="Sant'Elia, La Città Nuova"
+        caption={<>The machine city on paper: a stepped power-station tower drawn from below, elevators run up the outside in glass shafts, the streets and railways stacked in open layers. None of it was built.</>}
+        credit={<>Antonio Sant&rsquo;Elia,{' '}<em>La Citt&agrave; Nuova</em>{' '}(study), 1914 · drawing</>}
+        rights={PD_SANTELIA}
+      />
+
+      <SectionHeader accent={accent} label="Words" title="Marinetti&rsquo;s words in freedom" />
+      <p style={proseStyle}>
+        Marinetti, for his own part, kept writing, but he attacked the page itself. He pushed a style he called{' '}
+        <em>parole in libert&agrave;</em>, &ldquo;words in freedom&rdquo;: poems with the grammar torn out, the
+        words scattered across the page at different sizes and angles and typefaces, sometimes mixed with
+        mathematical signs and onomatopoeia, the layout doing the work that sentences used to do. His showpiece
+        was{' '}<em>Zang Tumb Tumb</em>{' '}(1914), a book-length sound-poem about a battle he had reported on in
+        the Balkans, in which the title itself is the noise of the artillery and the typography lurches and
+        explodes to mime the bombardment. It reads less like a poem than like a page trying to be an engine.
+      </p>
+
+      <SectionHeader accent={accent} label="A woman answers back" title="Valentine de Saint-Point" />
+      <p style={proseStyle}>
+        Now the part the movement&rsquo;s admirers tend to skip. The manifesto&rsquo;s scorn for women was not
+        an accident, and it did not go unanswered. In 1912 a French writer and performer named{' '}
+        <strong>Valentine de Saint-Point</strong>{' '}published a{' '}<em>Manifesto of the Futurist Woman</em>, and
+        she pointedly subtitled it &ldquo;An Answer to F.T. Marinetti.&rdquo; What makes her interesting is that
+        she did not simply scold him. She out-radicalized him: she rejected the soft, muse-like idea of woman
+        just as fiercely as he did, and demanded a fierce, strong, even violent womanhood to match the violent
+        age, and the next year she pushed further with a scandalous{' '}<em>Futurist Manifesto of Lust</em>{' '}
+        (1913). She took Futurism&rsquo;s own logic and turned it back on its misogyny.
+      </p>
+      <p style={proseStyle}>
+        Marinetti himself later offered a defense, worth reporting precisely so it can be measured. He claimed
+        that &ldquo;scorn for woman&rdquo; had been aimed at the old sentimental-muse cliché and not at actual
+        women. That is his after-the-fact gloss, and it does not survive contact with point ten of the founding
+        manifesto, which calls in plain words to fight against feminism. You do not get to scorn the cliché and
+        outlaw the movement for women&rsquo;s rights in the same breath and then say you only meant the cliché.
+        And the movement leaned on women even as it scorned them in print: Benedetta Cappa, a serious painter who
+        would become one of the leading figures of Futurism&rsquo;s aerial-painting second phase, was also
+        Marinetti&rsquo;s wife. Futurism scorned women on the page and depended on them in fact.
+      </p>
+    </article>
+
+    <MeanwhileSheet
+      region="Munich"
+      title="The opposite road out of the modern moment"
+      body="In the same years the German painters of Der Blaue Reiter (The Blue Rider, a Munich group around Kandinsky, Marc and Klee) were chasing abstraction too, but toward the inner and the spiritual rather than the outer and the mechanical (Kandinsky's book Concerning the Spiritual in Art came out in 1911). Two opposite escapes from the same modern present. Like Boccioni, the painter Franz Marc would die in the coming war."
+    />
+  </>
+)
+
+// ── 6. The war it wanted ────────────────────────────────────
+const FuturismWarNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1914–1916" title="Begging for the war" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        oint nine was not a metaphor. When the First World War broke out in the summer of 1914, the Futurists did
+        exactly what the manifesto had promised: they campaigned, loudly, for Italy to abandon its neutrality
+        and join the fighting. This is the movement called interventionism, the push to get Italy into the war,
+        and the Futurists threw their whole publicity machine behind it. Carr&agrave; made the case in paint with
+        his{' '}<em>Interventionist Demonstration</em>{' '}(1914), a spinning collage of torn newspaper, slogans
+        and shouting words, a picture that is literally war propaganda made of headlines. Many Futurists did not
+        just agitate. They volunteered.
+      </p>
+
+      <SectionHeader accent={accent} label="1916" title="The war kills the movement" />
+      <p style={proseStyle}>
+        And then the war they had begged for destroyed them. In 1916 it killed two of the most important men in
+        the movement in a single year.{' '}<strong>Boccioni</strong>, the best painter and the sharpest mind
+        Futurism had, died on 17 August 1916, near Verona, and the manner of it is a cruelty almost too neat to
+        believe. He had volunteered for the war he had spent years demanding. He was not killed in combat. He was
+        on a cavalry exercise, a training ride, when his horse bolted; he was thrown and trampled, and he died
+        the next day, aged thirty-three. The &ldquo;died gloriously in battle&rdquo; version that sometimes
+        attaches to him is simply wrong, and the truth is worse: a training accident, not a heroic charge. And
+        one detail makes it unbearable. He had named the horse Vermiglia, after the red dray-horse churning up
+        the building site in{' '}<em>The City Rises</em>. The red horse that announced the movement threw and
+        killed the man who painted it.
+      </p>
+      <p style={proseStyle}>
+        The same year,{' '}<strong>Sant&rsquo;Elia</strong>, the architect of the New City, was killed in action.
+        The heroic group did not survive the peace. Carr&agrave; drifted away into a still, dreamlike,
+        classicizing manner called Metaphysical painting; Severini moved toward a calmer, more classical Cubism;
+        the first and greatest phase of Futurism, the painters&rsquo; Futurism, was effectively over by 1918,
+        gutted by the very catastrophe it had cheered on.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={T_CITY}
+        imageUrl={ART_IMG.boccioniCity}
+        ratio="3/2"
+        alt="Boccioni, The City Rises (the red horse)"
+        caption={<>The red dray-horse that gives the movement its first masterpiece. Boccioni named the cavalry horse that would throw and kill him after it.</>}
+        credit={<>Boccioni,{' '}<em>The City Rises</em>{' '}(detail), 1910 · Museum of Modern Art, New York</>}
+        rights={PD_BOCCIONI}
+      />
+
+      <SectionHeader accent={accent} label="The rot" title="Marinetti and fascism" />
+      <p style={proseStyle}>
+        That is the tragedy. Here is the disgrace, and the read does not get to skip it. Marinetti did not stop.
+        In 1919, with Alceste De Ambris, he co-wrote the{' '}<strong>Fascist Manifesto</strong>, the founding
+        platform of Benito Mussolini&rsquo;s new movement, published in Mussolini&rsquo;s own paper that June.
+        Marinetti had been there at the founding meeting in Milan that March. He was a genuine, founding-era
+        fascist, and Futurism&rsquo;s whole worldview, its romance with violence, with the machine, with
+        national rebirth and the cleansing power of war, fed straight into the aesthetics of the regime. In the
+        1920s and 1930s he rebuilt a &ldquo;second Futurism,&rdquo; chiefly a style called{' '}
+        <em>aeropittura</em>, aerial painting: pictures made from the dizzying viewpoint of an airplane, the
+        ground tilting and rushing up at the viewer. Marinetti called it the daughter of fascist aviation and
+        Italian Futurism, which tells you exactly whom it was painted for. He took a seat in the regime&rsquo;s
+        official academy of honored intellectuals in 1929, and he died in 1944 still serving Mussolini.
+      </p>
+      <p style={proseStyle}>
+        Hold the contradiction, because flattening it in either direction is a lie. Do not pretend Marinetti was
+        anything other than a fascist who helped build fascism; the man earned the label. But do not run the
+        disgrace backward over everything, either. Not every Futurist was a fascist; some had been anarchists or
+        socialists, and some drifted away from both the movement and the politics. The masterpieces of the last
+        chapter, the churning city and the blurred dog and the striding bronze, were painted between 1910 and
+        1913, years before the Fascist party existed. Even Marinetti&rsquo;s own arc has a complication worth
+        keeping: in 1920 he actually walked out on the fascists, calling them reactionary, before reconciling and
+        serving them for the rest of his life. The dog on the leash is not a fascist object, and saying so is not
+        laundering anything.
+      </p>
+      <p style={proseStyle}>
+        So the verdict is double and it has to stay double. Futurism taught Western art to show time and motion,
+        the blur, the multiplied limb, the line of force, and it made the manifesto the avant-garde&rsquo;s
+        weapon, art launched by media campaign, so that Dada and Surrealism and Constructivism and Vorticism,
+        every later movement that announced itself with a printed program, are downstream of one poet&rsquo;s
+        stunt on the front page of{' '}<em>Le Figaro</em>. And it is the movement that made art a recruiting
+        poster for war, and whose founder helped write fascism into being. Both of those are true at the same
+        time, and the reason Futurism is worth this much trouble is that you are not allowed to keep only the
+        half you like.
+      </p>
+    </article>
+  </>
+)
+
 export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
   cubism: {
     before: BeforeNarrative,
@@ -3175,6 +3758,14 @@ export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
     paper: PaperNarrative,
     public: PublicNarrative,
     after: AfterNarrative,
+  },
+  fut: {
+    press: FuturismPressNarrative,
+    painters: FuturismPaintersNarrative,
+    paris: FuturismParisNarrative,
+    speed: FuturismSpeedNarrative,
+    program: FuturismProgramNarrative,
+    war: FuturismWarNarrative,
   },
   fauv: {
     oldjob: ColorsOldJobNarrative,

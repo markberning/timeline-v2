@@ -90,6 +90,32 @@ export const ART_IMG = {
   derainPhoto: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Andr%C3%A9_Derain_1928.jpg',
   dufyPhoto: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Raoul_Dufy%2C_portrait_photograph.jpg',
   vanDongenPhoto: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Kees_van_Dongen_1923.jpg',
+  // ── Futurism movement figures (born-verified 2026-06-18; subjects eyeballed) ──
+  // Works are 1901–1915; pre-1930 reproductions = US-PD. Boccioni d.1916 +
+  // Pellizza d.1907 = PD worldwide; Balla d.1958 / Carrà + Severini d.1966 /
+  // Russolo d.1947 works are US-PD via pre-1930 publication (several hosted on
+  // en.wikipedia rather than Commons because they are not yet PD in Italy).
+  boccioniStatesFarewells: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Boccioni_-_States_of_Mind_The_Farewells%2C_1911.jpg',
+  ballaDog: 'https://upload.wikimedia.org/wikipedia/en/3/36/Giacomo_Balla%2C_1912%2C_Dynamism_of_a_Dog_on_a_Leash%2C_oil_on_canvas%2C_89.8_x_109.8_cm%2C_Albright-Knox_Art_Gallery.jpg',
+  severiniBalTabarin: 'https://upload.wikimedia.org/wikipedia/en/3/38/Gino_Severini%2C_1912%2C_Dynamic_Hieroglyphic_of_the_Bal_Tabarin%2C_oil_on_canvas_with_sequins%2C_161.6_x_156.2_cm_%2863.6_x_61.5_in.%29%2C_Museum_of_Modern_Art%2C_New_York.jpg',
+  carraGalli: 'https://upload.wikimedia.org/wikipedia/en/7/7f/Funeraloftheanarchistgalli.jpg',
+  boccioniCyclist: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Umberto_Boccioni%2C_1913%2C_Dynamism_of_a_Cyclist_%28Dinamismo_di_un_ciclista%29%2C_oil_on_canvas%2C_70_x_95_cm%2C_Gianni_Mattioli_Collection%2C_on_long-term_loan_to_the_Peggy_Guggenheim_Collection%2C_Venice.jpg',
+  ballaAbstractSpeed: 'https://upload.wikimedia.org/wikipedia/en/1/12/GBallaArt.jpg',
+  russoloAutomobile: 'https://upload.wikimedia.org/wikipedia/commons/5/55/Luigi_Russolo_dynamism-of-a-car-1913.jpg',
+  boccioniMateria: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Boccioni_materia_1912.jpg',
+  // Unique Forms: the 1913 ORIGINAL is plaster (São Paulo); every bronze is a
+  // posthumous 1931+ cast (NOT US-PD), so we show Boccioni's own 1913 study drawing.
+  boccioniUniqueFormsStudy: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Boccioni_-_Study_for_Unique_Forms_of_Continuity_in_Space%2C_1913.jpg',
+  santeliaCitta: 'https://upload.wikimedia.org/wikipedia/commons/0/06/Centrale_elettrica_Sant%27Elia.jpg',
+  russoloIntonarumori: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Luigi_Russolo_and_Ugo_Piatti_in_Milan%2C_Italy%2C_1913.jpg',
+  // The break "before": a calm Divisionist tableau that freezes people mid-stride.
+  futuQuartoStato: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Quarto_Stato.jpg',
+  // The five Futurists in front of Le Figaro, Paris, 9 Feb 1912 (US-PD pre-1931).
+  futuristsGroup: 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Russolo%2C_Carr%C3%A0%2C_Marinetti%2C_Boccioni_and_Severini_in_front_of_Le_Figaro%2C_Paris%2C_9_February_1912.jpg',
+  marinettiPhoto: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Emilio_Sommariva_%281883_-_1956%29_Ritratto_di_Filippo_Tommaso_Marinetti%2C_intellettuale_futurista_%281913%29.jpg',
+  boccioniPhoto: 'https://upload.wikimedia.org/wikipedia/commons/8/81/Emilio_Sommariva_%281883_-_1956%29_Ritratto_del_pittore_Umberto_Boccioni_%281914%29.jpg',
+  severiniPhoto: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Gino_Severini.jpg',
+  carraPhoto: 'https://upload.wikimedia.org/wikipedia/commons/2/20/Carr%C3%A0_in_front_of_Le_Figaro%2C_Paris%2C_9_February_1912_%28cropped%29.jpg',
   boccioniCity: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_City_Rises_by_Umberto_Boccioni_1910.jpg/1280px-The_City_Rises_by_Umberto_Boccioni_1910.jpg',
   duchampFountain: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg/1280px-Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg',
   grisBreakfast: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/1914_Gris_Le_Petit_D%C3%A9jeuner.jpg',
@@ -333,7 +359,7 @@ export const MODERN_ERA: ArtEraContent = {
     { id: 'postimp', name: 'Post-Impressionism', range: '1886–1905', accent: ART_ACCENTS.green, size: 'm', hook: 'Putting the structure back. Cézanne in Aix, Van Gogh in Arles, Gauguin in Tahiti.', palette: ['#5a7042', '#8a7848', '#1c1a12'], imageUrl: ART_IMG.vanGoghSelf, portrait: true, credit: 'Van Gogh, Self-Portrait, 1889 · Musée d’Orsay, Paris' },
     { id: 'fauv', name: 'Fauvism', range: '1905–1908', accent: ART_ACCENTS.rust, size: 's', hook: 'Color off the leash. Matisse, three years, four canvases, done.', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'], imageUrl: ART_IMG.matisseHat, portrait: true, credit: 'Matisse, Woman with a Hat, 1905 · SFMOMA, San Francisco' },
     { id: 'cubism', name: 'Cubism', range: '1907–1922', accent: ART_ACCENTS.violet, size: 'xl', hook: 'A face has six sides now. A guitar shows you its strings and its back.', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], imageUrl: ART_IMG.demoiselles, imageAspect: '4500 / 4661', credit: 'Picasso, Les Demoiselles d’Avignon · MoMA, New York' },
-    { id: 'fut', name: 'Futurism', range: '1909–1944', accent: ART_ACCENTS.rust, size: 's', hook: 'Italian painters in love with motorcars. It ended badly.', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'] },
+    { id: 'fut', name: 'Futurism', range: '1909–1918', accent: ART_ACCENTS.rust, size: 's', hook: 'Italian painters in love with motorcars and speed. It ended in the trenches, and in fascism.', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'], imageUrl: ART_IMG.boccioniCity, credit: 'Boccioni, The City Rises, 1910 · MoMA, New York' },
     { id: 'dada', name: 'Dada', range: '1916–1924', accent: ART_ACCENTS.amber, size: 'm', hook: 'A war in the background and a urinal in the foreground.', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
     { id: 'sur', name: 'Surrealism', range: '1924–1966', accent: ART_ACCENTS.green, size: 'l', hook: 'The unconscious gets a paintbrush. Freud and a clock that won’t hold its shape.', palette: ['#1c3a6a', '#c8a72a', '#0e1224'] },
     { id: 'abex', name: 'Abstract Expressionism', range: '1943–1960', accent: ART_ACCENTS.blue, size: 'l', hook: 'The action stops being something the painting shows and starts being what makes it.', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'] },
@@ -3786,7 +3812,7 @@ export const FAUVISM: ArtMovementContent = {
   heroCredit: 'Matisse, Le Bonheur de vivre (detail), 1905–06 · Barnes Foundation, Philadelphia',
   stats: [
     { v: '3 yrs', k: 'Span' },
-    { v: '12', k: 'Canonical works' },
+    { v: '32', k: 'Canonical works' },
     { v: 'France', k: 'Centered on' },
   ],
   factions: [
@@ -3865,14 +3891,34 @@ export const FAUVISM: ArtMovementContent = {
     { year: 1905, name: 'Woman with a Hat', artist: 'Matisse', wiki: 'Woman with a Hat', img: ART_IMG.matisseHat },
     { year: 1905, name: 'The Green Stripe', artist: 'Matisse', wiki: 'The Green Stripe', img: ART_IMG.matisseGreenStripe },
     { year: 1905, name: 'Open Window, Collioure', artist: 'Matisse', wiki: 'Open Window, Collioure', img: ART_IMG.matisseOpenWindow },
-    { year: 1906, name: 'The Seine at Chatou', artist: 'Vlaminck', img: ART_IMG.vlaminckChatou },
+    { year: 1905, name: 'View of Collioure', artist: 'Matisse', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Matisse_-_View_of_Collioure_%281905%29.jpg/800px-Matisse_-_View_of_Collioure_%281905%29.jpg' },
+    { year: 1905, name: 'Boats in the Harbor of Collioure', artist: 'Derain', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Boats_in_the_Harbor_of_Collioure_%28Bateaux_dans_le_port_de_Collioure%29_by_Andr%C3%A9_Derain.jpg/960px-Boats_in_the_Harbor_of_Collioure_%28Bateaux_dans_le_port_de_Collioure%29_by_Andr%C3%A9_Derain.jpg' },
+    { year: 1905, name: 'Mountains at Collioure', artist: 'Derain', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Montagnes_%C3%A0_Collioure%2C_par_Andr%C3%A9_Derain.jpg/960px-Montagnes_%C3%A0_Collioure%2C_par_Andr%C3%A9_Derain.jpg' },
+    { year: 1905, name: 'The Drying Sails', artist: 'Derain', img: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Andr%C3%A9_Derain%2C_1905%2C_Le_s%C3%A9chage_des_voiles_%28The_Drying_Sails%29%2C_oil_on_canvas%2C_82_x_101_cm%2C_Pushkin_Museum%2C_Moscow._Exhibited_at_the_1905_Salon_d%27Automne.jpg' },
+    { year: 1905, name: 'La Sieste', artist: 'Manguin', img: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Henri_Manguin%2C_1905%2C_La_Sieste_%28Le_repos%2C_Jeanne%29%2C_oil_on_canvas%2C_88.9_x_116.84_cm%2C_Villa_Flora%2C_Winterthur.jpg' },
+    { year: 1905, name: 'The Port of Cassis', artist: 'Camoin', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/%28Bemberg_Foundation%29_-_Charles_Camoin_-_The_Port_of_Cassis_%28Sunrise%29._Oil_on_canvas_%281905%29.jpg/960px-%28Bemberg_Foundation%29_-_Charles_Camoin_-_The_Port_of_Cassis_%28Sunrise%29._Oil_on_canvas_%281905%29.jpg' },
+    { year: 1905, name: 'Matisse in Manguin’s Studio', artist: 'Marquet', img: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Matisse_in_Manguin%27s_Studio_Albert_Marquet_%281905%29.jpg' },
     { year: 1906, name: 'Le Bonheur de vivre', artist: 'Matisse', wiki: 'Le bonheur de vivre', img: ART_IMG.matisseBonheur },
+    { year: 1906, name: 'The Gypsy', artist: 'Matisse', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/La_Gitane%2C_par_Henri_Matisse.jpg/800px-La_Gitane%2C_par_Henri_Matisse.jpg' },
+    { year: 1906, name: 'The Young Sailor II', artist: 'Matisse', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Young_Sailor_II.jpg/800px-Young_Sailor_II.jpg' },
+    { year: 1906, name: 'Self-Portrait in a Striped T-shirt', artist: 'Matisse', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Henri_Matisse_Self-Portrait_in_a_Striped_T-shirt_%281906%29.jpg/960px-Henri_Matisse_Self-Portrait_in_a_Striped_T-shirt_%281906%29.jpg' },
+    { year: 1906, name: 'The Seine at Chatou', artist: 'Vlaminck', img: ART_IMG.vlaminckChatou },
+    { year: 1906, name: 'Barges on the Seine', artist: 'Vlaminck', img: 'https://upload.wikimedia.org/wikipedia/en/6/60/Maurice_de_Vlaminck%2C_1905-06%2C_Barges_on_the_Seine_%28Bateaux_sur_la_Seine%29%2C_oil_on_canvas%2C_81_x_100_cm%2C_Pushkin_Museum%2C_Moscow.jpg' },
     { year: 1906, name: 'Charing Cross Bridge, London', artist: 'Derain', img: ART_IMG.derainCharingCross },
+    { year: 1906, name: 'The Pool of London', artist: 'Derain', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Le_Bassin_de_Londres%2C_par_Andr%C3%A9_Derain.jpg/800px-Le_Bassin_de_Londres%2C_par_Andr%C3%A9_Derain.jpg' },
     { year: 1906, name: 'The Turning Road, L’Estaque', artist: 'Derain', img: ART_IMG.derainTurningRoad },
     { year: 1906, name: 'Street Decked with Flags, Le Havre', artist: 'Dufy', img: ART_IMG.dufyRuePavoisee },
-    { year: 1907, name: 'Blue Nude (Souvenir de Biskra)', artist: 'Matisse', wiki: 'Blue Nude (Souvenir de Biskra)', img: ART_IMG.matisseBlueNude },
-    { year: 1908, name: 'Modjesko, Soprano Singer', artist: 'van Dongen' },
+    { year: 1906, name: 'The Beach at Sainte-Adresse', artist: 'Dufy', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Barberini_August_2023-Raoul_Dufy_-_Der_Strand_von_Sainte-Adresse%2C_1906_-_Sammlung_Hasso_Plattner.jpg/960px-Barberini_August_2023-Raoul_Dufy_-_Der_Strand_von_Sainte-Adresse%2C_1906_-_Sammlung_Hasso_Plattner.jpg' },
+    { year: 1906, name: 'Honfleur', artist: 'Dufy', img: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/Raoul_Dufy_Honfleur_1906.jpg' },
     { year: 1906, name: 'Posters at Trouville', artist: 'Marquet', img: ART_IMG.marquetFauve },
+    { year: 1906, name: 'The Beach at Fécamp', artist: 'Marquet', img: 'https://upload.wikimedia.org/wikipedia/commons/b/b1/The_Beach_at_F%C3%A9camp_Albert_Marquet_%281906%29.jpg' },
+    { year: 1907, name: 'Portrait of Marguerite', artist: 'Matisse', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Henri_Matisse%2C_1906-07%2C_Portrait_de_Marguerite%2C_oil_on_canvas%2C_65_x_54_cm%2C_Mus%C3%A9e_Picasso%2C_Paris.jpg/800px-Henri_Matisse%2C_1906-07%2C_Portrait_de_Marguerite%2C_oil_on_canvas%2C_65_x_54_cm%2C_Mus%C3%A9e_Picasso%2C_Paris.jpg' },
+    { year: 1907, name: 'Blue Nude (Souvenir de Biskra)', artist: 'Matisse', wiki: 'Blue Nude (Souvenir de Biskra)', img: ART_IMG.matisseBlueNude },
+    { year: 1907, name: 'White Sailboat at Chatou', artist: 'Vlaminck', img: 'https://upload.wikimedia.org/wikipedia/en/8/80/Maurice_de_Vlaminck%2C_1907%2C_Le_bassin_%C3%A0_Chatou_%28White_Sailboat_at_Chatou%29%2C_oil_on_canvas%2C_60.2_x_73.7_cm%2C_private_collection.jpg' },
+    { year: 1907, name: 'Paysage de La Ciotat', artist: 'Friesz', img: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Paysage_de_La_Ciotat.jpg' },
+    { year: 1907, name: 'Bay of Anthéor', artist: 'Valtat', img: 'https://upload.wikimedia.org/wikipedia/commons/9/9b/Louis_Valtat_-_Bay_of_Anth%C3%A9or.jpg' },
+    { year: 1908, name: 'The Dessert: Harmony in Red', artist: 'Matisse', wiki: 'The Dessert: Harmony in Red', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Matisse-The-Dessert-Harmony-in-Red-Henri-1908-fast.jpg/960px-Matisse-The-Dessert-Harmony-in-Red-Henri-1908-fast.jpg' },
+    { year: 1908, name: 'Modjesko, Soprano Singer', artist: 'van Dongen' },
   ],
   sections: [
     { id: 'oldjob', eyebrow: 'Setting', dateLabel: 'Before 1905', title: 'Color’s old job', blurb: 'For four hundred years color described; even the Impressionists chased the real light. Here is the rule that is about to break.', progress: 1 / 6 },
@@ -3884,6 +3930,152 @@ export const FAUVISM: ArtMovementContent = {
   ],
 }
 
-export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, cubism: CUBISM }
+// ─────────────────────────────────────────────────────────────
+// Movement, Futurism (1909–1918). The first movement launched as a manifesto:
+// paint motion and the machine, burn the past. Authored through the art content
+// pipeline (fact pack → Opus draft → 5 critic gates → reconcile → born-verified
+// images); narrative in movement-narratives.tsx under 'fut'. The honesty axis
+// (Marinetti's war-worship + fascism, the manifesto's misogyny) is carried plain.
+// ─────────────────────────────────────────────────────────────
+export const FUTURISM: ArtMovementContent = {
+  id: 'fut',
+  name: 'Futurism',
+  range: '1909–1918',
+  span: '~9 years',
+  era: 'Modern',
+  eraId: 'mod',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Movements of the Modern era', index: 6, total: 10 },
+  hook: 'A poet who could not paint buys the front page of a Paris newspaper and announces a movement that has, as yet, not a single painting.',
+  hookLong:
+    'In 1909 Filippo Tommaso Marinetti launched Futurism the way other people launch a product: with a press release. The art came later, when he went and recruited the painters, who then taught Western painting something it had never managed, how to show motion happening over time, the dog’s legs blurred into a fan, the building site churning, the body dissolved into lines of force. Their subject was the machine age at full throttle, the car and the tram and the electric light and the crowd. It is also the movement whose founder glorified war as the world’s only hygiene and went on to help write the founding manifesto of Italian Fascism, so the story has to carry both halves at once.',
+  heroImage: ART_IMG.boccioniCity,
+  heroFit: 'cover',
+  heroFocus: '50% 45%',
+  heroCredit: 'Boccioni, The City Rises (detail), 1910 · Museum of Modern Art, New York',
+  stats: [
+    { v: '~9 yrs', k: 'First phase' },
+    { v: '27', k: 'Canonical works' },
+    { v: 'Milan', k: 'Centered on' },
+  ],
+  factions: [
+    { side: 'futurists', label: 'The Futurists', color: ART_ACCENTS.rust, members: ['Marinetti', 'Boccioni', 'Balla', 'Carrà', 'Severini', 'Russolo'], detail: 'Not a quiet studio circle but a one-poet publicity machine and the young painters he recruited, united by a single demand: paint speed, the machine and modern life, and do it louder than anyone.' },
+    { side: 'past', label: 'The dead weight of the past', color: '#7c6f5a', members: ['The museums', 'The academies', 'The Greek statue', 'The nude'], detail: 'Everything the manifesto wanted demolished: the museums Marinetti called graveyards, the academic ladder, the old subjects (the nude, the myth, the portrait), and the idea that a Greek statue could be lovelier than a racing car.' },
+  ],
+  works: [
+    { id: 'city-rises', year: 1910, name: 'The City Rises', artist: 'Boccioni', place: 'Milan', size: 'xl', blurb: 'The modern city under construction, a huge red dray-horse and the workers around it dissolved into one churning surge of labor and energy. Not a scene, a force.', palette: ['#bf3a25', '#3a4a6a', '#1c1208'], imageUrl: ART_IMG.boccioniCity, credit: 'Boccioni, The City Rises, 1910 · Museum of Modern Art, New York' },
+    { id: 'farewells', year: 1911, name: 'States of Mind: The Farewells', artist: 'Boccioni', place: 'Milan', size: 'l', blurb: 'A parting at a train station painted as feeling: a steam-choked platform, embracing couples half-dissolved in the churn, a stenciled locomotive number floating in the fog.', palette: ['#3a7a8a', '#7a6a3a', '#14201c'], imageUrl: ART_IMG.boccioniStatesFarewells, credit: 'Boccioni, States of Mind: The Farewells, 1911 · Museum of Modern Art, New York' },
+    { id: 'dog', year: 1912, name: 'Dynamism of a Dog on a Leash', artist: 'Balla', place: 'Tuscany', size: 'm', blurb: 'A dachshund trotting on a leash, its four legs and the swinging chain multiplied into a blur of repeated shapes. The single clearest picture of what painted motion means.', palette: ['#5a4a2a', '#2a2218', '#0e0a06'], imageUrl: ART_IMG.ballaDog, credit: 'Balla, Dynamism of a Dog on a Leash, 1912 · Buffalo AKG Art Museum' },
+    { id: 'bal-tabarin', year: 1912, name: 'Dynamic Hieroglyphic of the Bal Tabarin', artist: 'Severini', place: 'Paris', size: 'l', blurb: 'A Montmartre night club shattered into spinning dancers and cancan legs, with real sequins glued to the surface for glitter. Cubist faceting put to Futurist work.', palette: ['#bf3a6a', '#3a6a8a', '#1c1418'], imageUrl: ART_IMG.severiniBalTabarin, credit: 'Severini, Dynamic Hieroglyphic of the Bal Tabarin, 1912 · Museum of Modern Art, New York' },
+    { id: 'galli', year: 1911, name: 'Funeral of the Anarchist Galli', artist: 'Carrà', place: 'Milan', size: 'l', blurb: 'A real police-broken funeral turned into a storm of red banners, black-clad bodies and raised poles, the riot rendered as crossing lines of force.', palette: ['#bf2f25', '#1c1c1c', '#6a1414'], imageUrl: ART_IMG.carraGalli, credit: 'Carrà, Funeral of the Anarchist Galli, 1910–11 · Museum of Modern Art, New York' },
+    { id: 'cyclist', year: 1913, name: 'Dynamism of a Cyclist', artist: 'Boccioni', place: 'Milan', size: 'm', blurb: 'A man on a bicycle abstracted almost out of existence: a tight knot of slashing blue and ochre wedges, body and machine and rushing air fused into one diagonal of effort.', palette: ['#2a4a8a', '#a07a3a', '#0e1422'], imageUrl: ART_IMG.boccioniCyclist, credit: 'Boccioni, Dynamism of a Cyclist, 1913 · Museo del Novecento, Milan (Mattioli Collection)' },
+    { id: 'automobile', year: 1913, name: 'Dynamism of an Automobile', artist: 'Russolo', place: 'Milan', size: 'm', blurb: 'A car driven into a wedge of overlapping blue arcs, pure speed turned into geometry, by the painter who would soon put down his brushes and invent noise music.', palette: ['#2a5a8a', '#bf3a25', '#0e1420'], imageUrl: ART_IMG.russoloAutomobile, credit: 'Russolo, Dynamism of a Car, 1912–13 · Centre Pompidou, Paris' },
+    { id: 'unique-forms', year: 1913, name: 'Unique Forms of Continuity in Space', artist: 'Boccioni', place: 'Milan', size: 'm', blurb: 'A striding human figure remade as wind made solid, the muscles pulled out into wings of motion. (Shown here as Boccioni’s 1913 study; the 1913 original is plaster, the famous bronzes are posthumous casts.)', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.boccioniUniqueFormsStudy, credit: 'Boccioni, study for Unique Forms of Continuity in Space, 1913 · public domain' },
+    { id: 'abstract-speed', year: 1914, name: 'Abstract Speed + Sound', artist: 'Balla', place: 'Rome', size: 'm', blurb: 'No car and no rider left at all, just the swoosh of speed and the wedge of noise it leaves behind. Futurism arriving at near-total abstraction.', palette: ['#3a8a6a', '#bf3a25', '#14201a'], imageUrl: ART_IMG.ballaAbstractSpeed, credit: 'Balla, Abstract Speed + Sound, 1913–14 · Peggy Guggenheim Collection, Venice' },
+  ],
+  artists: [
+    { id: 'marinetti', name: 'Marinetti', role: 'The impresario', years: '1876–1944', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'], photo: ART_IMG.marinettiPhoto },
+    { id: 'boccioni', name: 'Boccioni', role: 'Painter-sculptor, theorist', years: '1882–1916', palette: ['#bf3a25', '#3a4a6a', '#1c1208'], photo: ART_IMG.boccioniPhoto },
+    { id: 'balla', name: 'Balla', role: 'The elder; toward abstraction', years: '1871–1958', palette: ['#5a4a2a', '#2a2218', '#0e0a06'] },
+    { id: 'carra', name: 'Carrà', role: 'Painter of the crowd', years: '1881–1966', palette: ['#bf2f25', '#1c1c1c', '#6a1414'], photo: ART_IMG.carraPhoto },
+    { id: 'severini', name: 'Severini', role: 'The Paris man', years: '1883–1966', palette: ['#bf3a6a', '#3a6a8a', '#1c1418'], photo: ART_IMG.severiniPhoto },
+    { id: 'russolo', name: 'Russolo', role: 'Painter turned composer', years: '1885–1947', palette: ['#2a5a8a', '#bf3a25', '#0e1420'] },
+  ],
+  parallels: [
+    { year: 1911, movement: 'Cubism', place: 'Paris', blurb: 'While Marinetti shouts, Picasso and Braque are quietly inventing Cubism a few streets away. The 1911 Paris trip is where the two movements collide.' },
+    { year: 1914, movement: 'The Great War', place: 'Europe', blurb: 'Futurism’s worship of speed and violence lands in the exact years Europe arms for the First World War. The Futurists campaigned for Italy to join, then died in it.' },
+    { year: 1911, movement: 'Der Blaue Reiter', place: 'Munich', blurb: 'Kandinsky, Marc and Klee push toward spiritual abstraction. Where the Germans sought the inner and spiritual, the Italians worshipped the outer and mechanical.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Italian Divisionism', mode: 'art', img: ART_IMG.futuQuartoStato, palette: ['#7a6a4a', '#3a3020', '#14100a'], note: 'gave: separated strokes of pure color' },
+      { label: 'Cubism', mode: 'art', img: ART_IMG.portuguese, palette: ['#9a8458', '#4a3f28', '#15110a'], note: 'gave: the fractured, faceted plane' },
+      { label: 'The machine age', mode: 'civ', palette: ['#5a5a64', '#2a2a30', '#0e0e12'], note: 'gave: the subject, car, tram, electric light' },
+      { label: 'Marinetti’s politics', mode: 'civ', img: ART_IMG.marinettiPhoto, palette: ['#bf2f25', '#1c1c1c', '#6a1414'], note: 'gave: nationalism and the cult of speed' },
+    ],
+    children: [
+      { label: 'Vorticism', mode: 'art', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'], note: 'took: machine art and the manifesto (BLAST)' },
+      { label: 'Constructivism', mode: 'art', img: ART_IMG.lissitzkyWedge, palette: ['#a83232', '#1c1c1c', '#d6cf3f'], note: 'took: the machine and the speed-line' },
+      { label: 'Dada', mode: 'art', img: ART_IMG.duchampFountain, palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'], note: 'took: the manifesto as a weapon' },
+      { label: 'Noise music', mode: 'art', img: ART_IMG.russoloIntonarumori, palette: ['#3a3a44', '#1c1c24', '#0a0a10'], note: 'took: Russolo, sound from the machine age' },
+    ],
+  },
+  influenceSummary: 'Futurism grabbed Cubism’s fractured planes and Divisionism’s broken color, taught painting to show speed and the machine, and made the manifesto-launch the weapon of the avant-garde, so that nearly every later movement that announced itself with a printed manifesto is downstream of Marinetti’s Le Figaro stunt.',
+  manifesto: {
+    title: 'Founding and Manifesto of Futurism',
+    author: 'Filippo Tommaso Marinetti',
+    dateLabel: '20 February 1909',
+    venue: 'front page of Le Figaro, Paris',
+    quotes: [
+      'A roaring motorcar, which seems to race on like machine-gun fire, is more beautiful than the Winged Victory of Samothrace.',
+      'We wish to glorify war, the sole cleanser of the world, militarism, patriotism, the destructive act of the libertarian, beautiful ideas worth dying for, and scorn for woman.',
+      'We wish to destroy museums, libraries, academies of any sort, and fight against moralism, feminism, and every kind of materialistic, self-serving cowardice.',
+    ],
+    prose: [
+      'Most movements get named after the fact, by a critic, usually as an insult. Futurism arrived as a press release. In 1909 a poet who had never picked up a brush bought the front page of a Paris newspaper and announced a movement, then went and found the painters.',
+      'The manifesto is gorgeous, brutal, and not safely quotable. It wants to burn the museums; it calls a racing car lovelier than a Greek goddess; and in the same breath it glorifies war as the world’s only hygiene and preaches scorn for woman. Those last lines are not a youthful slip you can skip past. Marinetti meant them.',
+      'Ten years later he helped write the founding manifesto of Italian Fascism and served Mussolini for the rest of his life. The manifesto that launched a thrilling revolution in art is the same document that turned art into a recruiting poster for war. Both halves are true at once, and the page below is where you can read it whole.',
+    ],
+    sourceUrl: 'https://www.moma.org/interactives/exhibitions/2009/futurism/',
+    sourceLabel: 'Read the Manifesto of Futurism (MoMA, Words in Freedom)',
+  },
+  whatChanged: {
+    heading: 'Why it was a break',
+    before: {
+      img: ART_IMG.futuQuartoStato,
+      title: 'Before · Pellizza da Volpedo, The Fourth Estate (1901)',
+      caption: 'How painting handled a moving crowd: freeze it. The workers stride toward you, but the canvas holds them in one posed, monumental instant, the way a photograph stops a clock. (It is also the Italian Divisionist tradition the Futurists came out of.)',
+    },
+    after: {
+      img: ART_IMG.ballaDog,
+      title: 'After · Balla, Dynamism of a Dog on a Leash (1912)',
+      caption: 'What Futurism did instead: a dachshund’s legs and the leash multiplied into a fan of repeated shapes, painting movement happening across time instead of a single frozen instant.',
+    },
+    prose: [
+      'For as long as there had been painting, a picture froze a single instant. A horse, a dancer, a train were each caught in one fixed pose, in one fixed light, the way a photograph stops a clock. Even the most modern pictures, the bright Impressionist boulevards, the wild Fauve colors, the early Cubist still lifes, showed a world that was standing still, however oddly. And the proper subjects of serious art were still the old ones: the nude, the portrait, the landscape, the myth.',
+      'Look at Balla’s dachshund instead. The little dog trots along a sunlit path at the end of a lady’s leash, and Balla paints not one dog but the smear of a dog in motion: the four legs multiplied into a blur, the swinging leash repeated into a fan of arcs, the lady’s own feet stuttered into a row of steps. Nothing is frozen. The picture is trying to show the same legs in many positions at once, time itself laid out across the canvas.',
+      'Two moves stack to make it. First, the Futurists borrowed Cubism’s trick of breaking an object into faceted planes, but aimed those planes at speed and motion instead of a static studio object; they thought Cubism, for all its cleverness, stood perfectly still. Second, they threw out the old subjects entirely and painted the machine age, the car, the tram, the arc-lamp, the construction site, the rioting crowd, as the only fit subjects for modern art. Motion and the machine become the content.',
+    ],
+  },
+  canon: [
+    { year: 1910, name: 'The City Rises', artist: 'Boccioni', wiki: 'The City Rises', img: ART_IMG.boccioniCity },
+    { year: 1910, name: 'Riot in the Galleria', artist: 'Boccioni', img: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Rissa_in_galleria_boccioni_1910.jpg' },
+    { year: 1910, name: 'Perfume', artist: 'Russolo', img: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Luigi_Russolo_-_Profumo_%281910%29.jpg' },
+    { year: 1911, name: 'Street Light', artist: 'Balla', img: 'https://upload.wikimedia.org/wikipedia/en/2/2b/Street_Light_Giacomo_Balla_1909.jpg' },
+    { year: 1911, name: 'States of Mind: The Farewells', artist: 'Boccioni', wiki: 'States of Mind (Boccioni)', img: ART_IMG.boccioniStatesFarewells },
+    { year: 1911, name: 'States of Mind: Those Who Go', artist: 'Boccioni', img: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/UmbertoBoccioniStatesofMindIIThoseWhoGo1911.jpg' },
+    { year: 1911, name: 'States of Mind: Those Who Stay', artist: 'Boccioni', img: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/%27States_of_Mind_III%3B_Those_Who_Stay%27%2C_oil_on_canvas_painting_by_Umberto_Boccioni%2C_1911.jpg' },
+    { year: 1911, name: 'The Street Enters the House', artist: 'Boccioni', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Umberto_Boccioni%2C_1911%2C_The_Street_Enters_the_House%2C_oil_on_canvas%2C_100_x_100.6_cm%2C_Sprengel_Museum.jpg/960px-Umberto_Boccioni%2C_1911%2C_The_Street_Enters_the_House%2C_oil_on_canvas%2C_100_x_100.6_cm%2C_Sprengel_Museum.jpg' },
+    { year: 1911, name: 'Modern Idol', artist: 'Boccioni', img: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Modern_Idol_by_Umberto_Boccioni%2C_1911_Estorick_Collection.jpeg' },
+    { year: 1911, name: 'The Revolt', artist: 'Russolo', img: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Luigi_Russolo_La_Rivolta_1911.jpg' },
+    { year: 1911, name: 'Music', artist: 'Russolo', img: 'https://upload.wikimedia.org/wikipedia/commons/c/c0/La_musica%2C_Luigi_Russolo.jpg' },
+    { year: 1911, name: 'Le Boulevard', artist: 'Severini', img: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Gino_Severini%2C_1911%2C_Le_Boulevard%2C_oil_on_canvas%2C_63.5_x_91.5_cm%2C_Estorick_Collection%2C_London.jpg/960px-Gino_Severini%2C_1911%2C_Le_Boulevard%2C_oil_on_canvas%2C_63.5_x_91.5_cm%2C_Estorick_Collection%2C_London.jpg' },
+    { year: 1911, name: 'Funeral of the Anarchist Galli', artist: 'Carrà', wiki: 'Funeral of the Anarchist Galli', img: ART_IMG.carraGalli },
+    { year: 1912, name: 'Dynamism of a Dog on a Leash', artist: 'Balla', wiki: 'Dynamism of a Dog on a Leash', img: ART_IMG.ballaDog },
+    { year: 1912, name: 'Girl Running on a Balcony', artist: 'Balla', img: 'https://upload.wikimedia.org/wikipedia/en/4/4b/Girl_Running_on_a_Balcony_1912_Balla.jpg' },
+    { year: 1912, name: 'Dynamic Hieroglyphic of the Bal Tabarin', artist: 'Severini', wiki: 'Dynamic Hieroglyphic of the Bal Tabarin', img: ART_IMG.severiniBalTabarin },
+    { year: 1912, name: 'Dynamism of a Dancer', artist: 'Severini', img: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Gino_Severini%2C_1912%2C_Dynamism_of_a_Dancer%2C_oil_on_canvas%2C_60_x_45_cm%2C_Jucker_Collection%2C_Pinacoteca_di_Brera%2C_Milan.jpg/960px-Gino_Severini%2C_1912%2C_Dynamism_of_a_Dancer%2C_oil_on_canvas%2C_60_x_45_cm%2C_Jucker_Collection%2C_Pinacoteca_di_Brera%2C_Milan.jpg' },
+    { year: 1912, name: 'Elasticity', artist: 'Boccioni', img: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Umberto_Boccioni%2C_1912%2C_Elasticity_%28Elasticit%C3%A0%29%2C_oil_on_canvas%2C_100_x_100_cm%2C_Museo_del_Novecento.jpg' },
+    { year: 1912, name: 'Materia', artist: 'Boccioni', img: ART_IMG.boccioniMateria },
+    { year: 1913, name: 'Dynamism of a Cyclist', artist: 'Boccioni', wiki: 'Dynamism of a Cyclist', img: ART_IMG.boccioniCyclist },
+    { year: 1913, name: 'Dynamism of an Automobile', artist: 'Russolo', img: ART_IMG.russoloAutomobile },
+    { year: 1913, name: 'Unique Forms of Continuity in Space', artist: 'Boccioni', wiki: 'Unique Forms of Continuity in Space', img: ART_IMG.boccioniUniqueFormsStudy },
+    { year: 1914, name: 'Abstract Speed + Sound', artist: 'Balla', img: ART_IMG.ballaAbstractSpeed },
+    { year: 1914, name: 'La Città Nuova (the power station)', artist: 'Sant’Elia', img: ART_IMG.santeliaCitta },
+    { year: 1914, name: 'La Città Nuova (the stepped house)', artist: 'Sant’Elia', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Casa_a_gradinata_%28La_Citt%C3%A0_Nuova%29_1914_ART_Antonio_Sant%27Elia_2023_RET_WjArendshorst.png/960px-Casa_a_gradinata_%28La_Citt%C3%A0_Nuova%29_1914_ART_Antonio_Sant%27Elia_2023_RET_WjArendshorst.png' },
+    { year: 1914, name: 'Interventionist Demonstration', artist: 'Carrà' },
+    { year: 1915, name: 'Charge of the Lancers', artist: 'Boccioni', img: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Umberto_Boccioni_-_Charge_of_the_Lancers.jpg' },
+  ],
+  sections: [
+    { id: 'press', eyebrow: 'The launch', dateLabel: '1909', title: 'The press release that started a movement', blurb: 'A poet buys the front page of a Paris newspaper and announces a painting movement that has, as yet, not a single painting.', progress: 1 / 6 },
+    { id: 'painters', eyebrow: 'Recruitment', dateLabel: '1910', title: 'Finding the painters', blurb: 'Marinetti gathers five young men, hands them a cause, and they write the manifestos that turn a slogan into a way to paint.', progress: 2 / 6 },
+    { id: 'paris', eyebrow: 'The Cubist debt', dateLabel: '1911–1912', title: 'Paris, 1911: borrowing the broken plane', blurb: 'They go to Paris, meet Picasso and Braque, grab Cubism’s fractured planes, and bend them to do the one thing Cubism would not: move.', progress: 3 / 6 },
+    { id: 'speed', eyebrow: 'The masterpieces', dateLabel: '1910–1914', title: 'Painting speed', blurb: 'The churning building site, the railway-station goodbye, the dog’s blurred legs, the night club spun into sequins, the striding figure made of wind.', progress: 4 / 6 },
+    { id: 'program', eyebrow: 'The total program', dateLabel: '1912–1914', title: 'A total program, and a woman answers back', blurb: 'Riotous staged evenings, noise machines, a machine city, words torn loose on the page, and the woman who answered Marinetti’s scorn in his own form.', progress: 5 / 6 },
+    { id: 'war', eyebrow: 'The reckoning', dateLabel: '1914–1944', title: 'The war it wanted', blurb: 'The Futurists got the war they begged for, and it killed them, and then their founder helped build fascism. Both halves are true.', progress: 1 },
+  ],
+}
+
+export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, cubism: CUBISM }
 export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

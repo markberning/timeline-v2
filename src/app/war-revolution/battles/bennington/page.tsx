@@ -28,7 +28,7 @@ const DATA: BattleData = {
   title: 'Bennington',
   date: 'August 16, 1777',
   place: 'Walloomsac, New York',
-  note: 'Burgoyne, the British invasion commander, sent a column of horseless German cavalry to seize an American supply depot. The militia the column was told would scatter destroyed the column instead, twice in one afternoon, on a battlefield that is not in Bennington and not in Vermont.',
+  note: 'Burgoyne sent a column of horseless German cavalry to seize an American supply depot; the militia they were told would scatter destroyed the column twice in one afternoon, on a battlefield not in Bennington and not in Vermont.',
   hero: { img: '/war-img/rev-bennington-hero.jpg', pal: ['#3b342a', '#6e5638', '#15110c'], credit: 'engraving after Alonzo Chappel · 1874 · National Archives and Records Administration / Wikimedia Commons · public domain' },
   sideNames: { u: 'AMERICAN', c: 'BRITISH-GERMAN' },
   sideColors: { u: 'var(--rev-us)', c: 'var(--rev-gb)' },
@@ -38,14 +38,14 @@ const DATA: BattleData = {
     { label: 'Winner', value: 'America, decisively', win: 'u' },
   ],
   sides: [
-    { side: 'u', tag: 'American', force: 'Stark\'s militia army', str: '~2,000–2,500 engaged across the day', cmd: 'Brig. Gen. John Stark', note: 'About 1,500 New Hampshire militia (part-time citizen soldiers, not professional troops) raised in roughly a week in July, plus Vermont rangers under Samuel Herrick, Massachusetts militia, and some Stockbridge Mohican allies. Col. Seth Warner\'s ~330-man Continental regiment (the Green Mountain Boys) marched from Manchester and decided the second fight.' },
-    { side: 'c', tag: 'British-German', force: 'Burgoyne\'s foraging expedition', str: '~800 under Baum, then ~550–650 relief under Breymann', cmd: 'Lt. Col. Friedrich Baum', note: 'A polyglot column: dismounted Brunswick dragoons (German cavalry marching on foot to find horses), British marksmen, German light infantry and gunners with two cannon, Loyalists, Canadians, and about 100 Native warriors. Roughly half the column did not speak English; orders moved through translation.' },
+    { side: 'u', tag: 'American', force: 'Stark\'s militia army', str: '~2,000–2,500 engaged across the day', cmd: 'Brig. Gen. John Stark', note: 'About 1,500 New Hampshire militia raised in roughly a week, plus Vermont rangers, Massachusetts militia, and Stockbridge Mohican allies; Warner\'s ~330-man Continental regiment marched from Manchester and decided the second fight.' },
+    { side: 'c', tag: 'British-German', force: 'Burgoyne\'s foraging expedition', str: '~800 under Baum, then ~550–650 relief under Breymann', cmd: 'Lt. Col. Friedrich Baum', note: 'A polyglot column of dismounted Brunswick dragoons, British marksmen, German light infantry and gunners with two cannon, Loyalists, Canadians, and about 100 Native warriors; roughly half did not speak English.' },
   ],
   casualties: {
     union: 70, csa: 950,
     unionLabel: 'American ~70',
     csaLabel: 'British-German ~900–1,000',
-    footnote: 'British-German: about 900 to 1,000 total lost to Burgoyne across both fights (roughly 200–230 killed and wounded left on the field; about 700 captured, the firmest single number), with all four cannon taken. Among the dead: Baum, mortally wounded leading his dragoons\' saber charge. The captured included most of the surviving Brunswick dragoons; the regiment effectively ceased to exist as a field unit. American: about 70, commonly given as roughly 30 killed and 40 wounded (some accounts reverse the split). Crown totals vary by source (the American Battlefield Trust counts 907; other standard tallies run from nearly 900 to about 1,000). The ~700 prisoners are the firmest number in the battle\'s arithmetic.',
+    footnote: 'British-German: about 900 to 1,000 total lost across both fights, roughly 200–230 killed and wounded plus about 700 captured (the firmest single number), all four cannon taken, and Baum dead of wounds. American: about 70, commonly given as roughly 30 killed and 40 wounded.',
   },
   commanders: [
     { name: 'John Stark', role: 'Cmdr., New Hampshire militia, American', side: 'u', img: '/war-img/rev-bennington-stark.jpg', bio: 'The Bunker Hill veteran whose New Hampshire men held the rail fence in 1775 (his fuller story lives on that page). In early 1777 Congress promoted junior officers over him; Stark resigned his Continental commission and went home. When New Hampshire raised a militia brigade in July he took command only on the condition that he answer to New Hampshire alone, which is why, days before the battle, he refused orders to march to the Hudson and stayed to cover Bennington. Congress made him a brigadier general on October 4, 1777.' },

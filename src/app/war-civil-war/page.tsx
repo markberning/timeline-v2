@@ -319,10 +319,16 @@ export default function WarHome() {
   // lands on the Theatres tab with that theatre's chip selected, scrolled to the
   // tab bar.
   useEffect(() => {
-    const th = new URLSearchParams(window.location.search).get('theatre')
+    const params = new URLSearchParams(window.location.search)
+    const th = params.get('theatre')
     if (th && THEATRE[th]) {
       setThFilter(th)
       setTab('theatres')
+      requestAnimationFrame(() => document.querySelector('.p-subnav')?.scrollIntoView({ block: 'start' }))
+    } else if (params.get('tab') === 'battles') {
+      // "The Battles" jump from the breadcrumb: the full chronological list.
+      setThFilter('All')
+      setTab('battles')
       requestAnimationFrame(() => document.querySelector('.p-subnav')?.scrollIntoView({ block: 'start' }))
     }
   }, [])
