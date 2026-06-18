@@ -138,6 +138,21 @@ export const ART_IMG = {
   tzaraPhoto: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Tristan_Tzara_Photo_of_Artist_in_Zurich.jpg',
   arpPhotoDada: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Hans_Arp.JPG',
   duchampPhoto: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Five-Way_Portrait_of_Marcel_Duchamp%2C_21_June_1917%2C_New_York_City.jpg',
+  // ── Surrealism: de Chirico Metaphysical anchors (born-verified 2026-06-18) ──
+  // de Chirico d.1978, but his 1909–1919 works reproduced before 1930 are US-PD;
+  // all en-hosted (still in copyright in Italy until 2049). They are the ONLY
+  // inlineable images on the Surrealism page: every actual Surrealist work
+  // (Dalí, Magritte, Miró, Ernst, the women) is post-1930 / in-copyright and
+  // ships as a RestrictedFigure card or prose only.
+  chiricoSongLove: 'https://upload.wikimedia.org/wikipedia/en/1/1b/De_Chirico%27s_Love_Song.jpg',
+  chiricoMysteryStreet: 'https://upload.wikimedia.org/wikipedia/en/5/5b/Giorgio_de_Chirico_-_Mystery_and_Melancholy_of_a_Street_(1914).jpg',
+  chiricoChildBrain: 'https://upload.wikimedia.org/wikipedia/en/0/07/Giorgio_de_Chirico_-_The_Child%27s_Brain.jpg',
+  chiricoGreatMetaphysician: 'https://upload.wikimedia.org/wikipedia/en/4/4a/Giorgio_de_Chirico%2C_1917%2C_Il_grande_metafisico%2C_oil_on_canvas%2C_104.8_x_69.5_cm.jpg',
+  chiricoGareMontparnasse: 'https://upload.wikimedia.org/wikipedia/en/2/2d/Gare_Montparnasse_%28The_Melancholy_of_Departure%29_by_Giorgio_de_Chirico.jpg',
+  chiricoRedTower: 'https://upload.wikimedia.org/wikipedia/en/b/b2/The_Red_Tower_by_Giorgio_de_Chirico.jpg',
+  chiricoSoothsayer: 'https://upload.wikimedia.org/wikipedia/en/3/3c/Giorgio_de_Chirico_-_The_Soothsayer%27s_Recompense.jpg',
+  chiricoNostalgiaInfinite: 'https://upload.wikimedia.org/wikipedia/en/6/69/TheNostalgiaoftheInfinite.jpg',
+  chiricoEnigmaHour: 'https://upload.wikimedia.org/wikipedia/en/6/68/The_Enigma_of_the_Hour.jpg',
   boccioniCity: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_City_Rises_by_Umberto_Boccioni_1910.jpg/1280px-The_City_Rises_by_Umberto_Boccioni_1910.jpg',
   duchampFountain: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg/1280px-Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg',
   grisBreakfast: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/1914_Gris_Le_Petit_D%C3%A9jeuner.jpg',
@@ -383,7 +398,7 @@ export const MODERN_ERA: ArtEraContent = {
     { id: 'cubism', name: 'Cubism', range: '1907–1922', accent: ART_ACCENTS.violet, size: 'xl', hook: 'A face has six sides now. A guitar shows you its strings and its back.', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], imageUrl: ART_IMG.demoiselles, imageAspect: '4500 / 4661', credit: 'Picasso, Les Demoiselles d’Avignon · MoMA, New York' },
     { id: 'fut', name: 'Futurism', range: '1909–1918', accent: ART_ACCENTS.rust, size: 's', hook: 'Italian painters in love with motorcars and speed. It ended in the trenches, and in fascism.', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'], imageUrl: ART_IMG.boccioniCity, credit: 'Boccioni, The City Rises, 1910 · MoMA, New York' },
     { id: 'dada', name: 'Dada', range: '1916–1924', accent: ART_ACCENTS.amber, size: 'm', hook: 'A war in the background and a urinal in the foreground.', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'], imageUrl: ART_IMG.duchampFountain, credit: 'Stieglitz, Duchamp’s Fountain, 1917 · The Blind Man' },
-    { id: 'sur', name: 'Surrealism', range: '1924–1966', accent: ART_ACCENTS.green, size: 'l', hook: 'The unconscious gets a paintbrush. Freud and a clock that won’t hold its shape.', palette: ['#1c3a6a', '#c8a72a', '#0e1224'] },
+    { id: 'sur', name: 'Surrealism', range: '1924–1966', accent: ART_ACCENTS.green, size: 'l', hook: 'The unconscious gets a paintbrush. Freud and a clock that won’t hold its shape.', palette: ['#1c3a6a', '#c8a72a', '#0e1224'], imageUrl: ART_IMG.chiricoRedTower, credit: 'de Chirico, The Red Tower, 1913 · the dream-world Surrealism grew out of' },
     { id: 'abex', name: 'Abstract Expressionism', range: '1943–1960', accent: ART_ACCENTS.blue, size: 'l', hook: 'The action stops being something the painting shows and starts being what makes it.', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'] },
     { id: 'pop', name: 'Pop Art', range: '1956–1970', accent: ART_ACCENTS.violet, size: 'm', hook: 'A soup can, but with conviction. Warhol’s factory; Lichtenstein’s dots.', palette: ['#ff3e7f', '#1f1f1f', '#7adff0'] },
   ],
@@ -4239,6 +4254,151 @@ export const DADA: ArtMovementContent = {
   ],
 }
 
-export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, dada: DADA, cubism: CUBISM }
+// ─────────────────────────────────────────────────────────────
+// Movement, Surrealism (1924–c.1950). Art of the unconscious and the dream.
+// Authored through the art content pipeline (fact pack → Opus author → 5 critic
+// gates → reconcile → born-verified images); narrative under 'sur'. THE IMAGE-
+// RIGHTS WORST CASE: almost every famous Surrealist work is post-1930 and in
+// copyright, so the only inlineable images are de Chirico's pre-1930 metaphysical
+// paintings (the movement's visual DNA). The actual Surrealist works ship as
+// palette cards in the strip + name-only canon entries, vivid in the prose.
+// Honesty axes carried plain: the women (muse vs maker), Dalí's fascism, Breton's
+// authoritarianism, Freud's skepticism, colonial primitivism (Wifredo Lam).
+// ─────────────────────────────────────────────────────────────
+export const SURREALISM: ArtMovementContent = {
+  id: 'sur',
+  name: 'Surrealism',
+  range: '1924–1950',
+  span: '~26 years',
+  era: 'Modern',
+  eraId: 'mod',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Movements of the Modern era', index: 8, total: 10 },
+  hook: 'A poet wrote a rulebook for making art with the reasoning mind switched off, and a generation started painting their dreams.',
+  hookLong:
+    'Surrealism was at once a real attempt to map the unconscious and a personality cult with a pope. In Paris in 1924 the poet André Breton published a manifesto declaring Surrealism to be “pure psychic automatism,” art made with the rational, editing mind turned off, the hand running free the way Freud’s patients free-associated on the couch. Out of that one idea grew two streams that look nothing alike: the automatists (Miró, Masson, Ernst) who let chance and the wandering line do the composing, and the dream-image painters (Dalí, Magritte, Tanguy) who rendered impossible scenes with photographic precision, a clock melting over a branch, a pipe that insists it is not a pipe. Where Dada burned art down with a laugh, Surrealism rebuilt on the ashes with a program, ran itself like a church, and leaked into film, advertising, and the everyday word “surreal” so completely it never really ended.',
+  heroImage: ART_IMG.chiricoRedTower,
+  heroFit: 'cover',
+  heroFocus: '50% 45%',
+  heroCredit: 'de Chirico, The Red Tower (detail), 1913 · the metaphysical dream-world Surrealism grew out of',
+  stats: [
+    { v: '~26 yrs', k: 'Span' },
+    { v: '22', k: 'Canonical works' },
+    { v: 'Paris', k: 'Born in' },
+  ],
+  factions: [
+    { side: 'automatists', label: 'The automatists', color: ART_ACCENTS.green, members: ['Masson', 'Miró', 'Ernst'], detail: 'Let the unconscious do the drawing. The pen or hand runs with no plan and no editing, the way Freud’s patients free-associated, so chance composes the picture. Masson’s automatic drawings, Miró’s nursery-bright biomorphs, Ernst’s rubbed-and-scraped frottage. This stream drifts toward abstraction.' },
+    { side: 'veristic', label: 'The dream-image painters', color: ART_ACCENTS.violet, members: ['Dalí', 'Magritte', 'Tanguy'], detail: 'Paint the impossible as if it were a photograph. Hyper-real, sign-painter-precise scenes that make the irrational utterly convincing. Dalí’s melting clocks, Magritte’s deadpan pipe-that-is-not-a-pipe, Tanguy’s stone-littered nowhere-lands. Also called the veristic (truth-to-appearance) stream.' },
+  ],
+  works: [
+    { id: 'song-of-love', year: 1914, name: 'The Song of Love', artist: 'de Chirico', place: 'Paris', size: 'l', blurb: 'A Greek head and a red rubber glove nailed side by side to a wall, a green ball below, a train on the horizon. Painted a decade early, the calm dreadful empty square the whole movement grew out of.', palette: ['#3a5a6a', '#7a6a4a', '#1c1a14'], imageUrl: ART_IMG.chiricoSongLove, credit: 'de Chirico, The Song of Love, 1914 · MoMA, New York' },
+    { id: 'harlequin', year: 1925, name: 'The Harlequin’s Carnival', artist: 'Miró', place: 'Paris', size: 'm', blurb: 'A nursery-bright room boiling over with dancing biomorphic shapes, painted, Miró said, out of hunger hallucinations. The founding picture of the automatist stream. (Under copyright; shown in words.)', palette: ['#bf2f25', '#1d4ed8', '#c8b84a'] },
+    { id: 'masson-auto', year: 1924, name: 'Automatic Drawing', artist: 'Masson', place: 'Paris', size: 'm', blurb: 'A pen let loose with no plan, the line tangling into half-figures you only find afterward. As pure a picture of “psychic automatism” as the movement made. (Under copyright; shown in words.)', palette: ['#5a5a64', '#2a2a30', '#0e0e12'] },
+    { id: 'persistence', year: 1931, name: 'The Persistence of Memory', artist: 'Dalí', place: 'Paris', size: 'l', blurb: 'The melting watches draped over a branch and a table edge on a deserted Catalan shore, time gone soft, painted jewel-small and exact. The most famous Surrealist image. (Under copyright; shown in words.)', palette: ['#3a6a7a', '#c8a04a', '#1c2422'] },
+    { id: 'treachery', year: 1929, name: 'The Treachery of Images', artist: 'Magritte', place: 'Brussels', size: 'm', blurb: 'A carefully painted pipe over the tidy line “Ceci n’est pas une pipe,” this is not a pipe. The cleanest lesson in art about the gap between a word, an image, and the thing. (Under copyright; shown in words.)', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { id: 'object-fur', year: 1936, name: 'Object (the fur teacup)', artist: 'Oppenheim', place: 'Paris', size: 'm', blurb: 'A teacup, saucer and spoon covered in gazelle fur, the genteel ritual of tea turned animal and faintly revolting. MoMA’s first acquisition of a work by a woman. (Under copyright; shown in words.)', palette: ['#6a5038', '#3a2a1c', '#15100a'] },
+    { id: 'carrington-self', year: 1938, name: 'Self-Portrait (Inn of the Dawn Horse)', artist: 'Carrington', place: 'Paris', size: 'm', blurb: 'The artist in jodhpurs with a lactating hyena beside her, a white rocking-horse floating behind her head, a real horse galloping out the window. A woman painting her own dream, not posing in a man’s. (Under copyright; shown in words.)', palette: ['#3a5a4a', '#8a7a52', '#15140e'] },
+    { id: 'ernst-histoire', year: 1926, name: 'Histoire Naturelle (frottage)', artist: 'Ernst', place: 'Paris', size: 'm', blurb: 'Thirty-four “natural history” plates conjured by frottage: paper rubbed over grainy wood so leaves and creatures surface by chance. A field guide to things a floorboard dreamed up. (Under copyright; shown in words.)', palette: ['#5a4a2a', '#2a2218', '#0e0a06'] },
+    { id: 'tanguy-divis', year: 1942, name: 'Indefinite Divisibility', artist: 'Tanguy', place: 'New York', size: 'm', blurb: 'A vast, evenly lit nowhere-plain littered with smooth pale shapes like bones worn round by an invisible sea. The single landscape Tanguy painted for life. (Under copyright; shown in words.)', palette: ['#5a6a6a', '#33403e', '#0e1412'] },
+  ],
+  artists: [
+    { id: 'breton', name: 'Breton', role: 'The pope', years: '1896–1966', palette: ['#3a5a4a', '#2a3630', '#0e1410'] },
+    { id: 'ernst', name: 'Ernst', role: 'The inventor', years: '1891–1976', palette: ['#5a4a2a', '#2a2218', '#0e0a06'] },
+    { id: 'dali', name: 'Dalí', role: 'The showman', years: '1904–1989', palette: ['#3a6a7a', '#c8a04a', '#1c2422'] },
+    { id: 'magritte', name: 'Magritte', role: 'The deadpan philosopher', years: '1898–1967', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { id: 'miro', name: 'Miró', role: 'Automatist of shape', years: '1893–1983', palette: ['#bf2f25', '#1d4ed8', '#c8b84a'] },
+    { id: 'carrington', name: 'Carrington', role: 'Muse turned master', years: '1917–2011', palette: ['#3a5a4a', '#8a7a52', '#15140e'] },
+    { id: 'oppenheim', name: 'Oppenheim', role: 'The object-maker', years: '1913–1985', palette: ['#6a5038', '#3a2a1c', '#15100a'] },
+  ],
+  parallels: [
+    { year: 1933, movement: 'The rise of fascism', place: 'Europe', blurb: 'Surrealism’s whole life runs between the wars, against Mussolini, Hitler and Franco. The group was militantly left (Breton joined the Communist Party, broke with Stalin, later co-wrote a manifesto with Trotsky), which is exactly why Dalí’s refusal to condemn Hitler got him expelled.' },
+    { year: 1924, movement: 'Freud goes mainstream', place: 'Vienna', blurb: 'Freud’s ideas spread across Europe in these decades. Surrealism took him most literally, turning a clinical theory into a studio program. Freud privately called them cranks and only reconsidered, about Dalí, after meeting him in 1938.' },
+    { year: 1925, movement: 'The drive to abstraction', place: 'Northern Europe', blurb: 'While the Surrealists mined the dream, Mondrian’s De Stijl and the Bauhaus pushed the opposite way, pure geometry, no story, no unconscious. Two avant-gardes at once, one diving into the mind, one purging it.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Dada', mode: 'art', img: ART_IMG.duchampFountain, palette: ['#b8b4ac', '#6a665e', '#2a2824'], note: 'gave: chance, collage, provocation' },
+      { label: 'de Chirico', mode: 'art', img: ART_IMG.chiricoSongLove, palette: ['#3a5a6a', '#7a6a4a', '#1c1a14'], note: 'gave: the dreamlit empty square' },
+      { label: 'Freud', mode: 'civ', palette: ['#5a5048', '#2a2520', '#0e0c0a'], note: 'gave: the unconscious and free association' },
+      { label: 'Symbolism', mode: 'art', img: ART_IMG.gauguinVision, palette: ['#8a3a3a', '#3a5a4a', '#15110a'], note: 'gave: the inner vision over the seen world' },
+    ],
+    children: [
+      { label: 'Abstract Expressionism', mode: 'art', img: ART_IMG.kandinskyComp7, palette: ['#1d4ed8', '#d6cf3f', '#bf2f25'], note: 'took: automatism, made into gesture' },
+      { label: 'Film', mode: 'civ', palette: ['#3a3a44', '#1c1c24', '#0a0a10'], note: 'took: dream-logic on screen' },
+      { label: 'Magical realism', mode: 'civ', palette: ['#5a4a2a', '#2a2218', '#0e0a06'], note: 'took: the dream folded into the everyday' },
+      { label: 'Advertising', mode: 'civ', palette: ['#bf2f6a', '#d6cf3f', '#1c1c1c'], note: 'took: the surreal juxtaposition as a sales grammar' },
+    ],
+  },
+  influenceSummary: 'Surrealism took Dada’s chance and collage, de Chirico’s dreamlit empty square, and Freud’s unconscious, made the dream and the accident serious artistic subjects with working methods to match, and handed automatism forward to Abstract Expressionism and the word “surreal” to everyone else.',
+  manifesto: {
+    title: 'Manifesto of Surrealism',
+    author: 'André Breton',
+    dateLabel: '1924',
+    venue: 'published in Paris by Éditions du Sagittaire, 15 October 1924',
+    quotes: [
+      'SURREALISM, n. m. Pure psychic automatism by means of which one intends to express, either verbally, or in writing, or in any other manner, the actual functioning of thought. Dictated by thought, in the absence of any control exercised by reason, free of any aesthetic or moral concern.',
+      'Surrealism is based on the belief in the superior reality of certain forms of previously neglected association, in the omnipotence of dream, in the disinterested play of thought.',
+    ],
+    prose: [
+      'Most movements get a manifesto after the fact, written to defend work already hanging on walls. Surrealism is the rare case where the document came first and named the thing into being. In October 1924 André Breton published the Manifesto of Surrealism, and its heart is a joke that is also dead serious: a mock-dictionary entry, complete with the abbreviation for a masculine noun, defining the new word the way a dictionary would.',
+      'The whole program lives in that definition: art made with the conscious, rational, editing mind switched off, so thought flows out unsupervised. Breton called it “psychic automatism” (psychic here meaning of the mind, from the Greek psyche, nothing supernatural), and he took the method straight from Freud’s couch, where patients free-associated, saying whatever surfaced with no filter.',
+      'He borrowed the word itself from the poet Guillaume Apollinaire, who had coined “surréalisme” back in 1917, seven years before the movement it would name. Breton founded the movement and wrote its rulebook; the name is Apollinaire’s. And writing the rules brought a power Breton would use, for the next forty years, to decide who counted as a Surrealist and who did not.',
+    ],
+    sourceUrl: 'https://www.poetsofmodernity.xyz/POMBR/French/Manifesto.php',
+    sourceLabel: 'Read the Manifesto of Surrealism (Breton, 1924)',
+  },
+  whatChanged: {
+    heading: 'Why it was a break',
+    before: {
+      img: ART_IMG.demoiselles,
+      title: 'Before · Cubism (Picasso, Les Demoiselles d’Avignon, 1907)',
+      caption: 'Even the most radical pre-1924 art still worked the world you can see, or the picture itself. Cubism shattered a visible room into planes, but it was a room, built by a wide-awake, deciding mind.',
+    },
+    after: {
+      img: ART_IMG.chiricoSongLove,
+      title: 'After · de Chirico, The Song of Love (1914)',
+      caption: 'What the movement turned toward instead: an eerie, dreamlit nowhere where a Greek head and a red rubber glove hang nailed to a wall and nothing follows the rules of waking life. The subject of art is no longer what you see. It is what you dream.',
+    },
+    prose: [
+      'For all their quarrels, the radical movements before 1924 agreed on one thing: art works the world you can see, or the picture itself, and a wide-awake, deciding mind is in charge of the job. The Impressionists chased light; Cubism broke a visible room into planes; even Dada, in the read right before this one, aimed its insults at public targets. Whatever they did, they did it with the conscious, editing mind switched on.',
+      'Surrealism turned the camera around. It went after the inside, the unconscious, the dream, desire, the irrational, and it deliberately switched the conscious mind off to get there. Breton borrowed the method from Freud’s consulting room: free association, where a patient says whatever surfaces with no filter, and the unfiltered flow tells you what the reasoning mind has buried. He called it “psychic automatism,” and it is the whole movement in two words.',
+      'From that one idea grew two methods that look like opposites. Automatism lets the hand run with no plan, so chance and the unconscious compose: Masson’s tangled drawings, Miró’s drifting shapes, Ernst’s rubbed surfaces. The dream image does the reverse, painting an impossible scene with hyper-real precision so the irrational looks convincing: Dalí’s soft watches, Magritte’s pipe that denies being a pipe, Tanguy’s deserts of stones. One stream slides toward abstraction, the other toward a too-clear nightmare, but they share a single new subject. Not the seen world. The dreaming mind.',
+    ],
+  },
+  canon: [
+    { year: 1911, name: 'The Nostalgia of the Infinite', artist: 'de Chirico', wiki: 'The Nostalgia of the Infinite', img: ART_IMG.chiricoNostalgiaInfinite },
+    { year: 1913, name: 'The Red Tower', artist: 'de Chirico', wiki: 'The Red Tower (de Chirico)', img: ART_IMG.chiricoRedTower },
+    { year: 1913, name: 'The Soothsayer’s Recompense', artist: 'de Chirico', wiki: 'The Soothsayer’s Recompense', img: ART_IMG.chiricoSoothsayer },
+    { year: 1914, name: 'The Song of Love', artist: 'de Chirico', wiki: 'The Song of Love', img: ART_IMG.chiricoSongLove },
+    { year: 1914, name: 'Mystery and Melancholy of a Street', artist: 'de Chirico', wiki: 'Mystery and Melancholy of a Street', img: ART_IMG.chiricoMysteryStreet },
+    { year: 1914, name: 'The Child’s Brain', artist: 'de Chirico', wiki: 'The Child’s Brain', img: ART_IMG.chiricoChildBrain },
+    { year: 1914, name: 'Gare Montparnasse (The Melancholy of Departure)', artist: 'de Chirico', img: ART_IMG.chiricoGareMontparnasse },
+    { year: 1917, name: 'The Great Metaphysician', artist: 'de Chirico', img: ART_IMG.chiricoGreatMetaphysician },
+    { year: 1916, name: 'The Disquieting Muses', artist: 'de Chirico', wiki: 'The Disquieting Muses' },
+    { year: 1924, name: 'Automatic Drawing', artist: 'Masson' },
+    { year: 1924, name: 'Two Children Are Threatened by a Nightingale', artist: 'Ernst', wiki: 'Two Children Are Threatened by a Nightingale' },
+    { year: 1925, name: 'The Harlequin’s Carnival', artist: 'Miró', wiki: 'Harlequin’s Carnival' },
+    { year: 1926, name: 'Histoire Naturelle (frottage portfolio)', artist: 'Ernst' },
+    { year: 1929, name: 'Un Chien Andalou (film, with Buñuel)', artist: 'Dalí', wiki: 'Un Chien Andalou' },
+    { year: 1929, name: 'The Treachery of Images', artist: 'Magritte', wiki: 'The Treachery of Images' },
+    { year: 1931, name: 'The Persistence of Memory', artist: 'Dalí', wiki: 'The Persistence of Memory' },
+    { year: 1936, name: 'Object (the fur teacup)', artist: 'Oppenheim', wiki: 'Object (Oppenheim)' },
+    { year: 1937, name: 'Self-Portrait (Inn of the Dawn Horse)', artist: 'Carrington', wiki: 'Self-Portrait (Carrington)' },
+    { year: 1938, name: 'Lobster Telephone', artist: 'Dalí', wiki: 'Lobster Telephone' },
+    { year: 1939, name: 'The Two Fridas', artist: 'Kahlo', wiki: 'The Two Fridas' },
+    { year: 1942, name: 'Birthday', artist: 'Tanning', wiki: 'Birthday (Tanning)' },
+    { year: 1964, name: 'The Son of Man', artist: 'Magritte', wiki: 'The Son of Man' },
+  ],
+  sections: [
+    { id: 'manifesto', eyebrow: 'Paris', dateLabel: '1924', title: 'A word, a pope, and a manifesto', blurb: 'Breton turns Dada’s serious wing into a program, writes the rulebook for art made with the reasoning mind switched off, and gives himself the power that comes with writing the rules.', progress: 1 / 6 },
+    { id: 'automatism', eyebrow: 'The wandering hand', dateLabel: '1924–1929', title: 'Letting the hand run', blurb: 'Masson lets a pen loose with no plan, Miró paints out of hunger hallucinations, and Ernst rubs an image up out of the grain of a floor. Chance becomes the composer.', progress: 2 / 6 },
+    { id: 'dream', eyebrow: 'The hyper-real dream', dateLabel: '1929–1938', title: 'Painting the dream like a photograph', blurb: 'The other stream renders the impossible with a sign-painter’s finish: melting clocks, a pipe that is not a pipe, deserts of smooth stone. The irrational, made convincing.', progress: 3 / 6 },
+    { id: 'women', eyebrow: 'Muse and maker', dateLabel: '1930s', title: 'Woman as muse, woman as artist', blurb: 'The movement worshipped “woman” while keeping women out of the room as colleagues. Name the real ones: Carrington, Oppenheim, Varo, Tanning, Sage, Fini, Cahun, and Kahlo, who rejected the label.', progress: 4 / 6 },
+    { id: 'pope', eyebrow: 'The purges', dateLabel: '1926–1939', title: 'The pope and the excommunications', blurb: 'Breton’s authoritarianism: the trials, the expulsions (Artaud, then Dalí and “Avida Dollars”), the recorded homophobia, and the politics of the 1930s that fractured the group.', progress: 5 / 6 },
+    { id: 'exile', eyebrow: 'New York and after', dateLabel: '1939–1950s', title: 'Exile, and what leaked out', blurb: 'The war scatters the group to New York, their automatism lights the fuse for Abstract Expressionism, and the dream-logic leaks into film, advertising, and the word “surreal.”', progress: 1 },
+  ],
+}
+
+export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, dada: DADA, sur: SURREALISM, cubism: CUBISM }
 export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

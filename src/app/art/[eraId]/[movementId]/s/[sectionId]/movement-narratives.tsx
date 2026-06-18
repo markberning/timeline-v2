@@ -10,7 +10,7 @@
 // Registered by movement id in MOVEMENT_NARRATIVES at the bottom.
 
 import {
-  DropCap, SectionHeader, PaintingFigure, MeanwhileSheet,
+  DropCap, SectionHeader, PaintingFigure, RestrictedFigure, MeanwhileSheet,
   proseStyle, italicStyle, PD_RIGHTS, AMBER, BLUE,
   type Narrative,
 } from '@/components/mode/art-reader'
@@ -4286,6 +4286,574 @@ const DadaLeftNarrative: Narrative = ({ accent, onZoom }) => (
   </>
 )
 
+// ─────────────────────────────────────────────────────────────
+// Movement, Surrealism (1924–c.1950). Art of the unconscious and the dream.
+// Gated pipeline; narrative under 'sur'. The image-rights worst case: only
+// de Chirico's pre-1930 metaphysical paintings are inlineable; every actual
+// Surrealist work is post-1930 / in copyright and appears as a RestrictedFigure
+// "under copyright" card or in prose. Honesty axes carried plain. No em-dashes.
+// ─────────────────────────────────────────────────────────────
+const S_CHIRICO = ['#3a5a6a', '#7a6a4a', '#1c1a14'] as [string, string, string]
+const S_TOWER = ['#a8482a', '#5a4a2a', '#1c1208'] as [string, string, string]
+
+// ── 1. A word, a pope, and a manifesto ──────────────────────
+const SurManifestoNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1924" title="After the bonfire" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>D</DropCap>
+        ada, the anarchic anti-art movement that came just before, had burned art down, and a fire that consumes
+        everything eventually runs out of things to consume. By 1923 the Paris wing was tearing itself apart over
+        what came next. The Romanian poet Tristan Tzara wanted to keep Dada a pure machine for nonsense with no
+        destination. A young French poet named{' '}<strong>André Breton</strong>{' '}wanted to point all that energy
+        somewhere. Breton was a man of imperious certainty, the kind who states a definition as if it were a
+        command and dares you to disagree, and he won the Paris circle. The read right before this one tells that
+        fight in full. What matters here is the handoff: Surrealism is Dada&rsquo;s serious wing. It kept the
+        chance, the collage and the appetite for scandal, and it pointed them at a target Dada never had, the
+        unconscious mind.
+      </p>
+      <p style={proseStyle}>
+        A word about that word, because the story usually gets it wrong. Breton did not invent the term
+        &ldquo;surr&eacute;alisme.&rdquo; The French poet{' '}<strong>Guillaume Apollinaire</strong>{' '}(1880&ndash;1918)
+        coined it back in 1917, using it in the program note for a ballet and as the subtitle of one of his own
+        plays. Breton took the existing word, gave it his own definition, and tipped his hat to Apollinaire while
+        doing it. The name is seven years older than the movement it would label.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={S_TOWER}
+        imageUrl={ART_IMG.chiricoNostalgiaInfinite}
+        ratio="3/4"
+        alt="de Chirico, The Nostalgia of the Infinite"
+        caption={<>The dreamlit, depopulated world the Italian painter Giorgio de Chirico had been making since before the war: the empty square, the long shadow, the tiny figures. The visual country Surrealism was about to claim (Chapter 3).</>}
+        credit={<>de Chirico,{' '}<em>The Nostalgia of the Infinite</em>, c.1911 · MoMA, New York</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="The manifesto" title="The rulebook nobody asked for" />
+      <p style={proseStyle}>
+        On 15 October 1924 Breton published the{' '}<strong>Manifesto of Surrealism</strong>{' '}(a manifesto being a
+        public declaration of what a movement stands for, here how it intends to make art), through a small
+        press. Most movements get a manifesto after they already exist, to defend work already on walls.
+        Surrealism is the rare case where the document came first and named the thing into being. The heart of it
+        is a joke that is also dead serious: Breton wrote a mock-dictionary entry, complete with the abbreviation
+        for a masculine noun, defining the new word.{' '}
+        <strong>&ldquo;SURREALISM, n. m.,&rdquo;</strong>{' '}it reads,{' '}
+        <strong>&ldquo;Pure psychic automatism by means of which one intends to express ... the actual
+        functioning of thought ... in the absence of any control exercised by reason, free of any aesthetic or
+        moral concern.&rdquo;</strong>
+      </p>
+      <p style={proseStyle}>
+        Unpack the key phrase, because the whole program lives in it.{' '}<strong>Automatism</strong>, in
+        Breton&rsquo;s sense, means making art with the conscious, rational, editing mind switched off, so thought
+        flows out unsupervised. He called his version{' '}<strong>psychic automatism</strong>; &ldquo;psychic&rdquo;
+        here just means &ldquo;of the mind&rdquo; (from the Greek{' '}<em>psyche</em>), nothing supernatural. The
+        model was sitting in the consulting rooms of the day.
+      </p>
+
+      <SectionHeader accent={accent} label="Freud" title="The foundation, who called them cranks" />
+      <p style={proseStyle}>
+        That model was{' '}<strong>Sigmund Freud</strong>, the Viennese doctor whose{' '}<strong>psychoanalysis</strong>{' '}
+        (his method of treating the mind by digging up what it has buried) had spread across Europe in exactly
+        these decades. Two of his ideas became Surrealism&rsquo;s bedrock. The first is{' '}
+        <strong>the unconscious</strong>: the part of the mind you do not control or even know about, where
+        buried desires and fears keep running. The second is{' '}<strong>free association</strong>, Freud&rsquo;s
+        technique of having a patient say whatever floats up, no filter, no shame, on the theory that the
+        unfiltered flow leads to the buried material. Breton had seen it work: in the First World War he served as
+        a medical orderly and used Freud-derived methods on shell-shocked soldiers. He took free association off
+        the couch and made it a studio technique: do not compose, do not plan, do not edit, just let it come.
+      </p>
+      <p style={proseStyle}>
+        One caveat, because the movement liked to claim more than it invented. Automatic writing was not new in
+        1924; nineteenth-century spiritualist mediums had scrawled it, and Freud&rsquo;s free association is the
+        direct model. Breton&rsquo;s real contribution was making psychic automatism the defining method of an
+        organized movement, with a manifesto, a headquarters and a membership list. It got all three fast, and
+        the headquarters actually came first: on 11 October 1924, four days before the manifesto, the group
+        opened the{' '}<strong>Bureau of Surrealist Research</strong>{' '}in Paris, put under the direction of the
+        poet and actor{' '}<strong>Antonin Artaud</strong>. In December they launched a journal. Within weeks
+        Surrealism had a manifesto, an HQ, a magazine and a man at the center deciding who belonged. Breton would
+        be called the &ldquo;Pope of Surrealism&rdquo; before long. From his one idea now grew two streams that
+        run through the next two chapters: the{' '}<strong>automatists</strong>, who let chance compose (Chapter
+        2), and the{' '}<strong>dream-image</strong>{' '}painters, who rendered the impossible with photographic
+        precision (Chapter 3). One idea, two methods.
+      </p>
+    </article>
+
+    <MeanwhileSheet
+      region="Vienna"
+      title="Freud thought they were cranks"
+      body="The Surrealists took Freud more literally than anyone, building a studio program out of his clinical theory. The feeling was not mutual. Freud privately wrote that he was inclined to look on the Surrealists as absolute cranks. Only after Dalí came to see him in London in July 1938, bringing his Metamorphosis of Narcissus, did the doctor revise his view upward, and only about that one painter, writing that the young Spaniard's candid, fanatical eyes and undeniable technical mastery had made him reconsider."
+    />
+  </>
+)
+
+// ── 2. Letting the hand run ─────────────────────────────────
+const SurAutomatismNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The first stream" title="Hand off the wheel" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        reton had defined the method. Now somebody had to figure out how to actually paint or draw with the
+        reasoning mind switched off. This is the first of Surrealism&rsquo;s two streams, the{' '}
+        <strong>automatist</strong>{' '}stream, and its rule is simple to state and very hard to do: let the
+        unconscious make the marks. Hand off the wheel. Whatever shows up, keep.
+      </p>
+      <p style={proseStyle}>
+        The purest demonstration came from{' '}<strong>André Masson</strong>, whom Breton brought in in 1924.
+        Masson had been bayoneted and badly wounded in the war, and he kept the pen moving even when the line
+        frightened him. He made what he called{' '}<strong>automatic drawing</strong>: he put a pen to paper and
+        let it run with no subject, no plan, no control, the line tangling across the sheet, and only afterward
+        looked for the half-figures, the limbs and beaks and torsos, that had surfaced in the snarl. The picture
+        was not designed and then executed. It was let happen and then read.
+      </p>
+      <RestrictedFigure
+        title={<>Masson, <em>Automatic Drawing</em></>}
+        year="1924 · MoMA, New York"
+        note="A pen let loose with no plan, the line tangling into half-figures you only find afterward. As pure a picture of psychic automatism as the movement made. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Andr%C3%A9_Masson"
+      />
+
+      <SectionHeader accent={accent} label="Miró" title="A carnival out of hunger" />
+      <p style={proseStyle}>
+        The automatist stream&rsquo;s founding painting belongs to the Catalan painter{' '}<strong>Joan Miró</strong>,
+        and by his own account it came out of an empty stomach.{' '}<em>The Harlequin&rsquo;s Carnival</em>{' '}(1924&ndash;25)
+        is a nursery-bright room boiling over with dancing shapes: a winged die, a cat with a guitar, a ladder, a
+        single staring eye, a crowd of little creatures that are not quite animals and not quite toys. Mir&oacute;
+        said he painted it out of hallucinations brought on by hunger, the visions of a poor young artist who
+        could not afford to eat. The shapes are what get called{' '}<strong>biomorphic</strong>, meaning they look
+        like living forms, blobs and cells and limbs, without being any creature you can name. From here
+        Mir&oacute; keeps simplifying, and his stream of Surrealism slides, picture by picture, toward pure
+        abstraction.
+      </p>
+      <RestrictedFigure
+        title={<>Miró, <em>The Harlequin&rsquo;s Carnival</em></>}
+        year="1924–25 · Buffalo AKG Art Museum"
+        note="A teeming, nursery-bright room of dancing biomorphic shapes, a winged die, a guitar-playing cat, a staring eye. Miró said he painted it out of hunger hallucinations. The founding picture of the automatist stream."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Harlequin%27s_Carnival"
+      />
+
+      <SectionHeader accent={accent} label="Ernst" title="Rubbing an image up out of the floor" />
+      <p style={proseStyle}>
+        The most inventive automatist was the German painter{' '}<strong>Max Ernst</strong>, who had crossed over
+        from Dada and treated chance as a machine to be engineered. His great invention was{' '}
+        <strong>frottage</strong>, from the French{' '}<em>frotter</em>, &ldquo;to rub.&rdquo; Lay a sheet of paper
+        over something with a strong grain, a plank floor, weathered wood, and rub a soft pencil across the top so
+        the texture comes up through the paper. Ernst would then look into the random grain the way you look for
+        faces in clouds, and coax out forests, leaves, birds and beasts the wood had suggested. He collected
+        thirty-four of these into a portfolio,{' '}<em>Histoire Naturelle</em>{' '}(1926), a deadpan field guide to
+        creatures no naturalist ever catalogued because the grain of a floorboard dreamed them up. He had a
+        companion trick for paint,{' '}<strong>grattage</strong>, scraping wet paint off a textured surface so
+        chance shaped what stayed.
+      </p>
+      <p style={proseStyle}>
+        Hold all three side by side and the stream comes clear. Masson hands the composition to the running line,
+        Mir&oacute; to the drifting shape, Ernst to the grain of the wood. None of them sat down to paint a thing
+        they had already pictured. They built methods for getting the conscious mind out of the way, and then read
+        what was left. It is the part of Surrealism that points forward most directly, because twenty years later,
+        in New York, this exact instinct would become the engine of an entirely American movement.
+      </p>
+
+      <SectionHeader accent={accent} label="The exquisite corpse" title="Automatism as a party game" />
+      <p style={proseStyle}>
+        Automatism did not stay solitary. From about 1925 Breton&rsquo;s circle turned it into a group game called
+        the{' '}<strong>exquisite corpse</strong>{' '}(in French{' '}<em>cadavre exquis</em>): players take a folded
+        sheet and each, in turn, draws or writes one section of a figure, the head, then the torso, then the legs,
+        without seeing what the others did, passing it along folded so the next hand works blind. Then the paper
+        is unfolded and an absurd composite stares back, a creature no single mind designed. The game took its
+        name from the very first sentence it produced, assembled the same blind way:{' '}
+        <em>&ldquo;Le cadavre exquis boira le vin nouveau,&rdquo;</em>{' '}the exquisite corpse shall drink the new
+        wine. It is automatism made social, chance composing the whole room&rsquo;s picture at once. The American{' '}
+        <strong>Man Ray</strong>{' '}ran the same instinct through the camera, making cameraless{' '}
+        <strong>rayographs</strong>{' '}(objects laid on light-sensitive paper and exposed, so the picture forms by
+        chance) and eerie solarized portraits, the camera as an unconscious instrument.
+      </p>
+    </article>
+
+    <MeanwhileSheet
+      region="Northern Europe"
+      title="The opposite of the dream"
+      body="While the Surrealists taught the hand to wander, Piet Mondrian and the De Stijl group, and the teachers at the Bauhaus, were pushing the opposite way: pure geometry, the grid, primary colors, no story and no unconscious at all. Two avant-gardes at the same moment, one diving into the dreaming mind, the other scrubbing every trace of it out."
+    />
+  </>
+)
+
+// ── 3. Painting the dream like a photograph ─────────────────
+const SurDreamNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The second stream" title="The too-clear nightmare" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he automatists let the picture happen. The other half of Surrealism did the reverse. The{' '}
+        <strong>dream-image</strong>{' '}painters (their other name is the{' '}<strong>veristic</strong>{' '}stream,
+        from the same root as &ldquo;verity&rdquo;; veristic means truth-to-appearance) planned and executed
+        impossible scenes with the slow, exact, photographic finish of an old master, precisely so the irrational
+        would look undeniable. A melting clock painted as a smear is just a smear; a melting clock painted with
+        every reflection in place, on a real-looking table on a real-looking shore, forces your eye to believe a
+        thing your mind knows is impossible.
+      </p>
+      <p style={proseStyle}>
+        The visual grandfather of this stream had been working a decade before Surrealism had a name. The Italian
+        painter Giorgio de Chirico, in his{' '}<strong>Metaphysical painting</strong>{' '}(in Italian{' '}
+        <em>pittura metafisica</em>, his term for an art of dream-logic and dread built from ordinary things),
+        painted empty Italian squares with long raking shadows, classical statues, distant trains and faceless
+        tailor&rsquo;s dummies.{' '}<em>The Song of Love</em>{' '}(1914) nails a Greek head and a red surgeon&rsquo;s
+        rubber glove side by side to a wall, a green ball below, a train on the horizon, an utterly calm picture
+        of an utterly impossible arrangement. Nothing melts and nothing screams; the dread comes from the silence
+        and the wrongness of the light. Ernst, Tanguy, Dal&iacute; and Magritte all drank from de Chirico. He is
+        the literal visual DNA of the movement, which is exactly why his pictures, and not the more famous later
+        ones, are the images you can actually see in this read.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={S_CHIRICO}
+        imageUrl={ART_IMG.chiricoSongLove}
+        ratio="4/5"
+        alt="de Chirico, The Song of Love"
+        caption={<>A Greek head and a red surgeon&rsquo;s rubber glove nailed side by side to a wall, a green ball below, a train slipping along the horizon. De Chirico&rsquo;s dream-logic a full decade before Surrealism had a name, the calm, dreadful empty square the whole dream-image stream grew out of.</>}
+        credit={<>de Chirico,{' '}<em>The Song of Love</em>, 1914 · MoMA, New York</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="Dalí" title="The clocks, and the man who would not stop talking" />
+      <p style={proseStyle}>
+        The showman of the stream was the Spaniard{' '}<strong>Salvador Dal&iacute;</strong>, who joined around
+        1929 and painted the single most famous Surrealist image. Here we hit the central problem of this read:
+        the picture cannot be shown, because{' '}<em>The Persistence of Memory</em>{' '}(1931) is still under
+        copyright. So take it in words, and it is worth the slow look. The light is hard and clear, a deserted
+        luminous shoreline running back to the gold cliffs of Dal&iacute;&rsquo;s own Catalan coast. At the left
+        edge stands a plain table, its hard corner jutting forward. Now the watches, one at a time. One pocket
+        watch drapes limp over the table edge, drooping like something left too long in the sun. A second hangs
+        off the dead branch of a leafless olive tree, melted soft and folded over the wood like wax. A third
+        slumps across a strange pale shape on the sand, an eyeless, sleeping-face creature, half a face and half a
+        slug. The fourth, the only firm one, is a closed orange watch crawling with black ants. Take in the
+        whole: hard light, hard ground, and time itself gone soft, the scene held in a dream-stillness. And it is
+        tiny, about nine inches by thirteen, painted with a jeweler&rsquo;s precision, the impossible softness
+        sitting inside a world rendered exact.
+      </p>
+      <p style={proseStyle}>
+        Dal&iacute; had a name for his method: the{' '}<strong>paranoiac-critical method</strong>. The idea was to
+        deliberately induce in himself a paranoid, hallucinatory way of seeing, the kind of mind that reads a
+        hidden second image into everything, and then paint both images at once so the canvas flickers between
+        them. As for the watches, Dal&iacute; said they came to him contemplating a runny Camembert cheese at the
+        end of a meal. File that exactly where it belongs, as Dal&iacute;&rsquo;s own story; he was a relentless
+        self-mythologizer who never let a fact get in the way of a better line about himself. Before the clocks,
+        he had already proved the dream image would work in any medium. With the filmmaker Luis Bu&ntilde;uel he
+        made{' '}<em>Un Chien Andalou</em>{' '}(1929), a short film of pure dream-logic whose opening shot, a straight
+        razor drawn across a woman&rsquo;s eye, still lands like an assault. The dream image, now moving on a wall.
+      </p>
+      <RestrictedFigure
+        title={<>Dalí, <em>The Persistence of Memory</em></>}
+        year="1931 · MoMA, New York"
+        note="The melting watches on a deserted Catalan shore, time gone soft, painted jewel-small and exact. The most famous Surrealist image, and one of the most reproduced paintings of the century. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/The_Persistence_of_Memory"
+      />
+
+      <SectionHeader accent={accent} label="Magritte" title="The pipe that is not a pipe" />
+      <p style={proseStyle}>
+        Where Dal&iacute; performed, the Belgian{' '}<strong>René Magritte</strong>{' '}sat perfectly still. His
+        paintings are flat, sober and as plainly painted as a shop sign, which is exactly what makes them
+        unsettling: he renders the impossible in the bland, reasonable voice of an instruction manual. His most
+        quoted picture is a lesson in one image.{' '}<em>The Treachery of Images</em>{' '}(1929) shows a single brown
+        pipe, carefully painted, and beneath it, in tidy cursive,{' '}<em>&ldquo;Ceci n&rsquo;est pas une pipe,&rdquo;</em>{' '}
+        this is not a pipe. The first reaction is to object: of course it is. But Magritte is right and you are
+        wrong. It is not a pipe. It is a picture of a pipe. You cannot pack it with tobacco; the word, the painted
+        image, and an actual pipe you could hold are three different things, and we go through life cheerfully
+        confusing them. He delivers the cleanest one-line lesson in modern art with the straightest face
+        imaginable. (He kept worrying the same theme for decades; his later{' '}<em>The Son of Man</em>{' '}(1964) shows
+        a man in a bowler hat whose face is blocked by a hovering green apple, a self-portrait that hides the
+        self.)
+      </p>
+      <RestrictedFigure
+        title={<>Magritte, <em>The Treachery of Images</em></>}
+        year="1929 · LACMA"
+        note="A carefully painted pipe over the line “Ceci n’est pas une pipe.” It is not a pipe; it is a picture of a pipe. The cleanest lesson in modern art about the gap between a word, an image, and the thing. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/The_Treachery_of_Images"
+      />
+
+      <SectionHeader accent={accent} label="Tanguy" title="A desert of stones" />
+      <p style={proseStyle}>
+        The third dream-image painter worth knowing is the Frenchman{' '}<strong>Yves Tanguy</strong>, entirely
+        self-taught, who decided to become a painter on the spot in 1923 after glimpsing a de Chirico in the
+        window of a Paris gallery from a passing bus and leaping off to look. He never trained and he never
+        strayed: Tanguy invented a single landscape and painted it for the rest of his life, a vast, evenly lit
+        plain receding to a far low horizon, the ground littered with smooth pale shapes like bones or pebbles
+        worn round by some invisible sea. Nothing in it is nameable and nothing is alive, but the light is so
+        consistent and the space so deep that you believe in the place completely. Breton thought him the most
+        faithful of all of them to Surrealist principles. His mature work is all from the 1930s and 1940s, so,
+        like Dal&iacute;&rsquo;s and Magritte&rsquo;s, it lives here in words only.
+      </p>
+    </article>
+  </>
+)
+
+// ── 4. Woman as muse, woman as artist ───────────────────────
+const SurWomenNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The contradiction" title="Woman everywhere, women nowhere" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        urrealism had a problem it never solved and mostly never noticed. The Surrealists were obsessed with
+        &ldquo;woman.&rdquo; She was their great subject and symbol: the muse, the gateway to the marvelous, the
+        embodiment of desire and the irrational. They had a special idol, the{' '}<strong>femme-enfant</strong>,
+        the &ldquo;woman-child,&rdquo; an ideal of a young woman supposedly closer to the unconscious precisely
+        because she was naive and unschooled. On canvas and in the manifestos, woman was everywhere and exalted.
+        In the studio and on the membership lists, real women were mostly somewhere else, welcomed as lovers,
+        models and muses, and slow to be treated as serious artists. That is the contradiction: a movement that
+        put woman at the dead center of its art while keeping actual women out of the room where the art was
+        discussed.
+      </p>
+
+      <SectionHeader accent={accent} label="The artists they kept calling muses" title="Name them" />
+      <p style={proseStyle}>
+        And yet the women were there, they were good, and several made work that outlasted the men&rsquo;s.{' '}
+        <strong>Leonora Carrington</strong>{' '}came into the orbit through a relationship with Max Ernst,
+        twenty-six years her senior, and was treated as the femme-enfant ideal made flesh. She was also a painter
+        and writer of ferocious originality who built an entire private mythology of alchemy, animals and dream.
+        Her{' '}<em>Self-Portrait (Inn of the Dawn Horse)</em>{' '}(c.1937&ndash;38) shows her seated in jodhpurs
+        with a lactating hyena beside her, a white rocking-horse floating behind her head, and a real horse
+        galloping free out the window, a woman painting her own dream-world rather than posing inside a
+        man&rsquo;s. She left Europe, settled in Mexico, and worked for another seventy years.
+      </p>
+      <RestrictedFigure
+        title={<>Carrington, <em>Self-Portrait (Inn of the Dawn Horse)</em></>}
+        year="c.1937–38 · The Metropolitan Museum of Art"
+        note="The artist in jodhpurs with a lactating hyena beside her, a white rocking-horse floating behind her head, a real horse galloping out the window. A woman painting her own dream, not posing in a man’s. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Leonora_Carrington"
+      />
+      <p style={proseStyle}>
+        <strong>Meret Oppenheim</strong>, Swiss-German, made the single most famous Surrealist object of them all,
+        and she made it at twenty-two. The men around her tended to condescend to her as a pretty young
+        prot&eacute;g&eacute;e; the object answered them.{' '}<em>Object</em>{' '}(1936), often called{' '}
+        <em>Breakfast in Fur</em>, is a teacup, saucer and spoon entirely covered in gazelle fur. It started as a
+        caf&eacute; joke in Paris with Picasso and the photographer Dora Maar about covering anything in fur, and
+        it turns the most genteel ritual imaginable, taking tea, into something animal and faintly revolting: a
+        cup you cannot drink from without putting fur to your lips. It was the very first work by a woman artist
+        the Museum of Modern Art ever acquired, and its sudden total fame so overwhelmed Oppenheim that she walked
+        away from the Paris scene for years.
+      </p>
+      <RestrictedFigure
+        title={<>Oppenheim, <em>Object</em> (the fur teacup)</>}
+        year="1936 · MoMA, New York"
+        note="A teacup, saucer and spoon covered in gazelle fur: the genteel ritual of tea turned animal and faintly revolting. The most-cited Surrealist sculpture, and MoMA’s first acquisition of a work by a woman. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Object_(Oppenheim)"
+      />
+      <p style={proseStyle}>
+        The list runs on, and each deserves better than a name.{' '}<strong>Dorothea Tanning</strong>{' '}painted her
+        own arrival: her{' '}<em>Birthday</em>{' '}(1942) is a self-portrait staged like a dream, the artist
+        bare-breasted in a narrow corridor where door after door swings open into a receding infinity of rooms,
+        her skirt dissolving into a tangle of writhing roots, a small winged lemur-like creature at her feet.{' '}
+        <strong>Remedios Varo</strong>, the Spanish-Mexican painter, worked in a wholly different key: meticulous,
+        jewel-like interiors that look like pages from an alchemist&rsquo;s manual, hooded figures in narrow
+        towers spinning thread out of moonlight, every panel painted with the patience of a Renaissance
+        miniature.{' '}<strong>Claude Cahun</strong>, the French photographer, turned the self-portrait into a
+        laboratory of identity decades before the vocabulary existed, shaving the head bald, posing as a
+        weightlifter, a doll, a masked androgyne, insisting the self was a costume you could change.{' '}
+        <strong>Leonor Fini</strong>{' '}painted commanding sphinx-women and pointedly refused to formally join
+        Breton&rsquo;s group, keeping the imagery and declining the membership;{' '}<strong>Kay Sage</strong>{' '}
+        painted austere architectural dreamscapes stranded in empty light.
+      </p>
+
+      <SectionHeader accent={accent} label="Kahlo, who said no" title="The artist who refused the label" />
+      <p style={proseStyle}>
+        And then there is{' '}<strong>Frida Kahlo</strong>, the Mexican painter, whom Breton met and promptly tried
+        to claim for Surrealism, declaring her work surrealist as if that settled it. Kahlo declined flatly.
+        &ldquo;I never painted dreams,&rdquo; she said. &ldquo;I painted my own reality.&rdquo; It is the cleanest
+        rebuke the movement ever got: the most famous painter Breton tried to absorb looked at the label and
+        refused it, on the grounds that her work was not fantasy at all but the literal facts of her own broken
+        body and divided life. Include her here not as a Surrealist but as the artist who saw the label clearly
+        and walked away. The summary is the one the men of the movement could never quite make: Surrealism
+        worshipped woman and sidelined women, and the women it sidelined were, several of them, the equals or
+        betters of the men idolizing them.
+      </p>
+    </article>
+  </>
+)
+
+// ── 5. The pope and the excommunications ────────────────────
+const SurPopeNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The purges" title="A movement run like a church" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        urrealism was the most organized of the{' '}<strong>avant-gardes</strong>{' '}(the experimental artists out
+        ahead of the mainstream), and the price of that organization was a single man deciding who counted.
+        André Breton did not just write the manifesto and edit the journal; he policed the membership, and he was
+        ruthless about it. The nickname he earned, half in awe and half in mockery, was &ldquo;the Pope of
+        Surrealism,&rdquo; and the joke had teeth. He convened meetings that functioned as doctrinal courts, and
+        when a member strayed, in art, in politics or in private life, Breton excommunicated him the way a church
+        casts out a heretic.
+      </p>
+      <p style={proseStyle}>
+        The expulsions started early and never really stopped.{' '}<strong>Antonin Artaud</strong>, the visionary
+        actor and theorist who had directed the movement&rsquo;s own Bureau of Surrealist Research, was expelled
+        in 1926. His case stings the most: he was too extreme even for a movement of extremes, a man who wanted
+        theater to be cruelty and convulsion and who pushed the irrational past where even Breton would follow,
+        and so the man who had run Surrealism&rsquo;s headquarters was read out of it. The bloodiest purge came
+        with the{' '}<strong>Second Manifesto of Surrealism</strong>{' '}(1930), in which Breton settled scores in
+        print and read a long list of members out of the movement, often staging the reckonings as collective
+        &ldquo;trials&rdquo; where the accused answered before the assembled faithful and the verdict was rarely
+        in question.
+      </p>
+
+      <SectionHeader accent={accent} label="1928–1932" title="The sex sessions, and what they recorded" />
+      <p style={proseStyle}>
+        One episode deserves to be named plainly, because it is documented in the movement&rsquo;s own pages.
+        Beginning in January 1928 and continuing through 1932, the group held a series of recorded discussions
+        about sex, the{' '}<em>Recherches sur la sexualité</em>{' '}(Researches on Sexuality), and published them in
+        their journal. Across the sessions Breton repeatedly and aggressively denounced male homosexuality,
+        shutting down the topic and the men who raised it. A movement that prided itself on liberating desire from
+        bourgeois rules turned out to have firm rules of its own about which desires were acceptable, and
+        Breton&rsquo;s homophobia is there in black and white in the group&rsquo;s own pages.
+      </p>
+
+      <SectionHeader accent={accent} label="Between Stalin and Trotsky" title="The politics that fractured the group" />
+      <p style={proseStyle}>
+        The purges were never only about art, because Surrealism was always also political, and its politics were
+        the real fault line. Breton joined the{' '}<strong>French Communist Party</strong>{' '}(the French branch of
+        the international Communist movement, taking its line from Moscow) in 1927, convinced a revolution of the
+        mind needed a revolution of the state. It did not go well: the Party wanted art subordinated to its
+        program, and Breton would not bend, so he was expelled in 1933. He turned hard against{' '}
+        <strong>Stalin</strong>, the Soviet dictator, and in 1938 traveled to Mexico to meet the exiled{' '}
+        <strong>Leon Trotsky</strong>, Stalin&rsquo;s great rival, then living under Diego Rivera&rsquo;s roof.
+        There the two drafted a manifesto,{' '}<em>Pour un art révolutionnaire indépendant</em>{' '}(Manifesto for an
+        Independent Revolutionary Art, 1938), arguing that art must be utterly free of state control; Rivera
+        signed as co-author so Trotsky&rsquo;s name would not sink it. This is the real political story of
+        Surrealism: not a movement that simply was Communist, but one caught between Stalinism and anti-fascism,
+        whose Marxism turned out to be fiercely anti-Stalinist.
+      </p>
+
+      <SectionHeader accent={accent} label="Dalí" title="Fascism, and &ldquo;Avida Dollars&rdquo;" />
+      <p style={proseStyle}>
+        The most famous expulsion was Dal&iacute;&rsquo;s, and it turned on exactly that politics. The Surrealists
+        took it as given that an artist of conscience stood against fascism as Mussolini, Hitler and Franco rose
+        across Europe. Dal&iacute; would not. He refused to condemn Hitler and was openly fascinated by him, a
+        fascination he kept painting (his{' '}<em>The Enigma of Hitler</em>, 1939, broods over a photograph of the
+        dictator), and after the Spanish Civil War he supported{' '}<strong>Franco</strong>, the general turned
+        dictator who had just crushed his own country. To his Marxist peers this was unforgivable, compounded by
+        Dal&iacute;&rsquo;s gleeful commercialism, a lesser second charge. Breton drove him out, the break
+        formalized by around 1939, and as a parting shot coined an anagram of &ldquo;Salvador Dal&iacute;&rdquo;
+        that rearranges into{' '}<strong>&ldquo;Avida Dollars,&rdquo;</strong>{' '}which reads in French as{' '}
+        <em>avide à dollars</em>, greedy for dollars. Dal&iacute;, never one to lose the last word, said the
+        nickname had &ldquo;a certain magical value&rdquo; and answered the group with his motto,{' '}
+        <em>&ldquo;Le surréalisme, c&rsquo;est moi&rdquo;</em>{' '}(Surrealism, it&rsquo;s me). Both lines are
+        Dal&iacute;&rsquo;s own self-mythology, not neutral history.
+      </p>
+
+      <SectionHeader accent={accent} label="What they collected" title="The colonial gaze, and Wifredo Lam" />
+      <p style={proseStyle}>
+        One more thing belongs in the account. Like many European artists of their generation, the Surrealists
+        avidly collected non-Western art, masks and carvings from Africa, Oceania and Native America, prizing them
+        as windows onto &ldquo;the marvelous.&rdquo; The admiration was real, but filtered through the colonial
+        assumptions of the time, treating whole living cultures as a quarry of exotic raw material for European
+        dreams, with little interest in what the objects meant to the people who made them. The living example of
+        the tension was the Cuban painter{' '}<strong>Wifredo Lam</strong>, of African, Chinese and Spanish
+        descent, who moved inside the circle, embraced and exoticized in nearly the same gesture, prized for the
+        very &ldquo;primitive&rdquo; otherness the group projected onto him. Lam turned the Surrealist vocabulary
+        the other way, against the colonial gaze: his great canvas{' '}<em>The Jungle</em>{' '}(1943) claims the
+        marvelous for the colonized rather than borrowing it from them.
+      </p>
+      <p style={proseStyle}>
+        For all the in-fighting, the movement was reaching a real public. The International Surrealist Exhibition
+        opened in London in June 1936 and drew some 23,000 visitors in six weeks; two years later the{' '}
+        <em>Exposition Internationale du Surréalisme</em>{' '}in Paris (January 1938) turned the gallery into
+        theater, Marcel Duchamp suspending 1,200 coal sacks from the ceiling over a brazier so visitors moved
+        through a dim, sooty cavern. Hold the two halves together. Surrealism produced genuinely liberating art,
+        and filled galleries doing it, and it also ran like a sect, with a pope, heresy trials, recorded
+        prejudice, and a tangle with the worst politics of its century. The second does not cancel the first.
+      </p>
+    </article>
+  </>
+)
+
+// ── 6. Exile, and what leaked out ───────────────────────────
+const SurExileNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1940" title="The war scatters the group" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hat finally broke up the Paris group was not Breton&rsquo;s trials but the German army. When France fell
+        in 1940, the Surrealists, many of them Jewish, foreign, leftist, or all three, were in obvious danger, and
+        they scattered. A rescue operation run out of Marseille by{' '}<strong>Varian Fry</strong>{' '}(an American
+        journalist who ran an underground network smuggling thousands of refugees out of Vichy France, the
+        collaborationist regime in the unoccupied south), with money from the American heiress and collector Peggy
+        Guggenheim, helped get endangered artists to safety. Across 1940 and 1941 Breton, Ernst, Masson, Tanguy,
+        the Chilean painter Matta and more reached New York. The capital of the avant-garde had, for the duration
+        of the war, moved across the Atlantic.
+      </p>
+      <p style={proseStyle}>
+        The &eacute;migr&eacute;s announced themselves with a 1942 show whose title was a grim immigrant joke,{' '}
+        &ldquo;First Papers of Surrealism,&rdquo; named for the first documents an immigrant files toward
+        citizenship. Its most memorable feature was not a painting but an installation by Marcel Duchamp, the old
+        Dada provocateur, who webbed the galleries with something like a mile of string strung crisscross through
+        the rooms, so visitors had to peer at the paintings through a literal tangle. It was a fitting welcome:
+        the movement of the irrational, in exile, hanging its dreams behind a maze. And it is worth registering
+        how far Surrealism had already spread: by the mid-1930s organized groups existed in Belgium (Magritte,
+        Paul Delvaux), Britain, Czechoslovakia (a formal Prague group founded in 1934, one of the most active
+        anywhere), and as far as Japan. No other modern movement traveled so wide or lasted so long.
+      </p>
+
+      <SectionHeader accent={accent} label="The fuse" title="Lighting Abstract Expressionism" />
+      <p style={proseStyle}>
+        The deepest mark the exiles left on America was not their own pictures but their method. The young New
+        York painters circling them, Jackson Pollock, Arshile Gorky, Robert Motherwell and the rest, latched onto
+        the one idea that traveled best across the language barrier:{' '}<strong>automatism</strong>, making marks
+        straight from the unconscious with the editing mind switched off. They took Masson&rsquo;s running line
+        and Ernst&rsquo;s chance procedures and pushed them past any recognizable image at all, into pure gesture.
+        Pollock laying a canvas on the floor and pouring paint across it in long automatic arcs is Breton&rsquo;s
+        psychic automatism carried to its limit, the hand running free with no plan, only now the line never
+        resolves into a figure. Surrealism&rsquo;s most forward-looking idea became the engine of the first
+        American movement to lead the world, Abstract Expressionism, taken up in its own read. The center of art
+        moved, for good, to New York.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={S_CHIRICO}
+        imageUrl={ART_IMG.chiricoMysteryStreet}
+        ratio="4/5"
+        alt="de Chirico, Mystery and Melancholy of a Street"
+        caption={<>Where it began, visually: de Chirico&rsquo;s empty arcaded street, a girl with a hoop, a long raking shadow. The dreamlit silence the whole movement was an attempt to enter, painted before any of it had a name.</>}
+        credit={<>de Chirico,{' '}<em>Mystery and Melancholy of a Street</em>, 1914 · private collection</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="What leaked out" title="The most complete victory" />
+      <p style={proseStyle}>
+        Breton went home to Paris in 1946 and kept the group going, but its moment as the avant-garde was over.
+        And yet, of all the movements in this era, Surrealism may have won the most completely, because it did not
+        stay in the galleries. It leaked. It leaked into{' '}<strong>film</strong>, where Bu&ntilde;uel and
+        Dal&iacute;&rsquo;s{' '}<em>Un Chien Andalou</em>{' '}had already proved dream-logic could run on a screen,
+        and where the line runs on through David Lynch and a thousand music videos. It leaked into{' '}
+        <strong>advertising and fashion</strong>, where the surreal juxtaposition, two things that have no
+        business together jammed into one image, became and remains a default grammar of selling. It leaked into{' '}
+        <strong>magical realism</strong>{' '}in literature. And it leaked into the language itself:
+        &ldquo;surreal&rdquo; is now an everyday word, used a million times a day by people who have never heard of
+        André Breton.
+      </p>
+      <p style={proseStyle}>
+        So measure the movement by what it left behind. Surrealism set out to make the dream, the accident and the
+        irrational into real artistic subjects, and it won that argument so completely that its instincts are now
+        the common air. The same movement ran like a church, idolized woman while shutting women out, and tangled
+        with the worst politics of its century. Those are not two stories competing for the verdict; they are the
+        same story, the melting clock and the heresy trial cut from one cloth. Taking the dream seriously turned
+        out to be one of the most consequential ideas in modern art, and the people who had it were as human, as
+        petty, and as flawed as the dreams they painted.
+      </p>
+    </article>
+  </>
+)
+
 export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
   cubism: {
     before: BeforeNarrative,
@@ -4294,6 +4862,14 @@ export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
     paper: PaperNarrative,
     public: PublicNarrative,
     after: AfterNarrative,
+  },
+  sur: {
+    manifesto: SurManifestoNarrative,
+    automatism: SurAutomatismNarrative,
+    dream: SurDreamNarrative,
+    women: SurWomenNarrative,
+    pope: SurPopeNarrative,
+    exile: SurExileNarrative,
   },
   dada: {
     cabaret: DadaCabaretNarrative,
