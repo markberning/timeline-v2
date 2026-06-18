@@ -3508,7 +3508,237 @@ export const MONT_SAINTE_VICTOIRE_LAUVES: ArtWorkContent = {
   },
 }
 
+// ─────────────────────────────────────────────────────────────
+// Work, Vision after the Sermon (Gauguin, 1888). The breakthrough
+// Synthetist / Cloisonnist picture. Authored through the art content
+// pipeline; narrative under 'vision-sermon' (Vs… prefix).
+// ─────────────────────────────────────────────────────────────
+export const VISION_SERMON: ArtWorkContent = {
+  id: 'vision-sermon',
+  name: 'Vision after the Sermon',
+  shortName: 'Vision after the Sermon',
+  year: 1888,
+  artist: 'Paul Gauguin',
+  artistId: 'gauguin',
+  movement: 'Post-Impressionism',
+  movementId: 'postimp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 4 in × 3 ft 0 in',
+  location: 'Scottish National Gallery, Edinburgh',
+  acquired: 'Purchased by the gallery, 1925',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Post-Impressionism', index: 3, total: 9 },
+  hook: 'Breton women come out of mass with their eyes shut, and the thing they pray about, Jacob wrestling the angel, appears on a field of flat, impossible red.',
+  heroImage: ART_IMG.gauguinVision,
+  heroCredit: 'Gauguin, Vision after the Sermon, 1888 · Scottish National Gallery, Edinburgh',
+  heroAspect: 1.26, // 72.2 × 91 cm → W/H ≈ 1.26
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1888', k: 'Painted' },
+    { v: '2′4″ × 3′0″', k: 'Dimensions' },
+    { v: 'Edinburgh', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'pont-aven', eyebrow: 'Pont-Aven · 1888', dateLabel: '1888', title: 'A Breton village and a younger painter with theories', blurb: 'Summer in a Brittany artists’ colony, where Gauguin and the younger painter Émile Bernard argue Impressionism into the ground and a new method, Synthetism, comes out of it.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The canvas', dateLabel: '1888', title: 'Two worlds in one frame', blurb: 'Praying women in white coiffes in front, Jacob and the angel wrestling behind, a tree slicing the canvas in two, and a ground of pure flat red that is not a meadow but a vision.', progress: 0.34 },
+    { id: 'reception', eyebrow: 'The first viewers', dateLabel: '1888', title: 'A letter to Van Gogh, a parish that said no', blurb: 'Gauguin sketches the picture for Van Gogh by post, and (by Émile Bernard’s later account) offers it to a Breton church, which refuses the gift.', progress: 0.58 },
+    { id: 'cloisonnism', eyebrow: 'Why it broke the rules', dateLabel: 'Then & now', title: 'Painting the inside of a head', blurb: 'Flat color bounded by dark outline, stained-glass and cloisonné enamel made into oil paint, and a picture that puts imagination on the canvas as its own zone instead of describing the world.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1925–today', title: 'Edinburgh buys the heresy', blurb: 'Through private hands after Gauguin’s death, then bought by the Scottish National Gallery in 1925 while British taste still recoiled from Post-Impressionism. Now read as the first complete Synthetist picture.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1888', who: 'Paul Gauguin (the artist)', place: 'Pont-Aven, Brittany', note: 'Painted in the summer of 1888. Gauguin offered it as a gift to a local Breton parish church, which turned it down, so it stayed with him.', price: null },
+    { year: '1888–1903', who: 'Paul Gauguin', place: 'France / the Pacific', note: 'Retained by the artist through his later years and his move to the Pacific; he died in the Marquesas in 1903.', price: null },
+    { year: 'after 1903', who: 'Private hands (chain not fully documented)', place: 'Europe', note: 'Passed through private owners and dealers after Gauguin’s death; the full intermediate chain is not reliably recorded.', price: null },
+    { year: '1925–today', who: 'Scottish National Gallery (National Galleries of Scotland)', place: 'Edinburgh', note: 'Purchased by the gallery in 1925, a bold acquisition given the strong British hostility to Post-Impressionism after Roger Fry’s London shows of 1910 and 1912. On permanent view (NG 1643).', price: 'purchased', museum: true },
+  ],
+  figures: [
+    { name: 'Paul Gauguin', role: 'The painter', palette: ['#a8322a', '#5a1c14', '#1a0808'] },
+    { name: 'Émile Bernard', role: 'The younger painter with the prior claim on the method', palette: ['#5a6a4a', '#2e3a26', '#0e120a'] },
+    { name: 'The Breton women', role: 'The sitters, fresh from a sermon', palette: ['#cfc8bc', '#5a5650', '#1a1814'] },
+    { name: 'Jacob and the angel', role: 'The vision, from Genesis 32', palette: ['#a8322a', '#c79338', '#1a0808'] },
+  ],
+  annotations: [
+    { label: 'The red that is not a field', where: 'The entire ground behind and between the figures', detail: 'The whole stretch of ground is one flat, saturated red, not grass, not earth, not a meadow at any hour of any day. Gauguin makes the color itself do the work of telling you this is a vision and not the world. Nothing in nature is this red, which is exactly the point: you are looking at what is happening inside these women’s shut eyes, and inside a head there is no rule that the ground has to be green.' },
+    { label: 'A wall of white headdresses', where: 'The foreground, the heads and shoulders of the women', detail: 'The tall, starched white caps the women wear are Breton coiffes, the regional headdress, and Gauguin lines them up across the front of the canvas as a rhythm of pale curved shapes against black dresses. They are painted as flat cut-out forms, not rounded with light and shade, so they read almost like a row of paper sculptures, the largest and nearest things in the picture.' },
+    { label: 'The tree that splits the canvas', where: 'A diagonal trunk running corner to corner across the picture', detail: 'A single tree trunk cuts on a diagonal straight across the canvas and divides it into two countries: the real one (the praying women, near and low) and the imagined one (the wrestling match, far and high). It is the seam between the world and the vision, drawn as one bold line. (Some readers call it an apple tree and tie it to the Garden of Eden; that is one interpretation, not something Gauguin spelled out.)' },
+    { label: 'The actual subject, shrunk and shoved back', where: 'Upper right area, Jacob and the angel locked together', detail: 'Jacob wrestling the angel is, on paper, the holy subject of the painting, the thing the sermon was about. Gauguin paints the two struggling figures small and pushes them up into the far corner, smaller than the women’s heads and backs in front. The sacred event is deliberately made less important-looking than the ordinary people watching it in their minds. This scale-inversion is exactly what got the picture called irreligious.' },
+    { label: 'A cow, wandered in from real life', where: 'Small, near the dividing tree', detail: 'A little cow turns up near the splitting tree, a scrap of ordinary Breton field life that has strayed into the holy vision. It is the kind of small, unbothered animal Gauguin liked to leave in: proof that the everyday world keeps going on, cattle and all, even while a miracle is being imagined a few feet away.' },
+    { label: 'Hard outlines around everything', where: 'Every coiffe, face, hand and limb', detail: 'Look at any edge: each shape is bounded by a firm dark contour line, with flat color inside and almost no blended shading. This is the cloisonné and stained-glass effect made literal, the dark lines doing the job that modeling and shadow do in ordinary painting. It is what flattens the whole picture into bright sealed compartments of color.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Japanese woodblock prints', mode: 'art' },
+      { label: 'Stained glass & cloisonné', mode: 'art' },
+      { label: 'Émile Bernard', mode: 'art' },
+    ],
+    children: [
+      { label: 'Synthetism', mode: 'art' },
+      { label: 'The Nabis', mode: 'art' },
+      { label: 'Symbolism', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Where Do We Come From? What Are We? Where Are We Going?
+// (Gauguin, 1897–98). The twelve-foot Tahitian testament.
+// Authored through the art content pipeline; narrative under
+// 'where-do-we-come-from' (Wd… prefix).
+// ─────────────────────────────────────────────────────────────
+export const WHERE_DO_WE_COME_FROM: ArtWorkContent = {
+  id: 'where-do-we-come-from',
+  name: 'Where Do We Come From? What Are We? Where Are We Going?',
+  shortName: 'Where Do We Come From?',
+  year: 1898,
+  artist: 'Paul Gauguin',
+  artistId: 'gauguin',
+  movement: 'Post-Impressionism',
+  movementId: 'postimp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '4 ft 7 in × 12 ft 4 in',
+  location: 'Museum of Fine Arts, Boston',
+  acquired: 'Tompkins Collection, Arthur Gordon Tompkins Fund, 1936',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Post-Impressionism', index: 8, total: 9 },
+  hook: 'A twelve-foot mural Gauguin painted in Tahiti as his last word, three French questions lettered in the corner and no answers anywhere on the canvas.',
+  heroImage: ART_IMG.gauguinWhereDoWeComeFrom,
+  heroCredit: 'Gauguin, Where Do We Come From? What Are We? Where Are We Going?, 1897–98 · Museum of Fine Arts, Boston',
+  heroAspect: 2.69, // 139.1 × 374.6 cm → W/H ≈ 2.69
+  heroFit: 'contain', // the work hero shows the WHOLE wide frieze, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1897–98', k: 'Painted' },
+    { v: '4′7″ × 12′4″', k: 'Dimensions' },
+    { v: 'MFA Boston', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'tahiti', eyebrow: 'Tahiti · 1897', dateLabel: '1897', title: 'A colony Gauguin called paradise', blurb: 'Gauguin’s second and final Tahitian years, sick and broke and grieving, and the romantic "primitive" Tahiti he sold to Europe set honestly against the colonized island it actually was.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The canvas', dateLabel: '1897–98', title: 'A life read right to left', blurb: 'A twelve-foot band of figures meant to be read backwards: a sleeping baby on the right, an adult reaching to pick fruit in the center, an old woman near death on the left, with a blue idol Gauguin called "the Beyond" standing behind it all.', progress: 0.34 },
+    { id: 'reception', eyebrow: 'Paris · 1898', dateLabel: '1898', title: 'The suicide story, and a cool room at Vollard’s', blurb: 'Gauguin’s own claim, in a letter, that he tried to poison himself after finishing it, weighed for what it is, and the picture’s mixed reception when it was first shown in Paris.', progress: 0.58 },
+    { id: 'symbolism', eyebrow: 'Why it broke the rules', dateLabel: 'Then & now', title: 'A painting built to ask, not to tell', blurb: 'Symbolism over storytelling, flat decorative color, a deliberately unreadable subject, and an artist who wanted a picture to work like scripture instead of like an illustration.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1898–today', title: 'From Vollard’s wall to a Boston masterpiece', blurb: 'A long chain of dealers and collectors carries it from Paris to Norway to New York, and in 1936 the Museum of Fine Arts, Boston buys it for $80,000. Now the centerpiece of Gauguin’s late myth.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1898', who: 'Galerie Vollard · first exhibition', place: 'Paris', note: 'Sent to Paris from Tahiti and shown at Ambroise Vollard’s gallery, 17 November to 10 December 1898, to mixed reviews.', price: null },
+    { year: '1901', who: 'Gabriel Frizeau', place: 'Paris', note: 'Bought from the dealer Ambroise Vollard for 2,500 francs.', price: '2,500 fr' },
+    { year: 'c.1913', who: 'Galerie Barbazanges', place: 'Paris', note: 'Passed to the Barbazanges gallery around 1913.', price: null },
+    { year: 'by 1920', who: 'Jørgen Breder Stang', place: 'Norway', note: 'Owned by the Norwegian collector Jørgen Breder Stang.', price: null },
+    { year: '1935', who: 'Alfred Gold (dealer)', place: 'Europe', note: 'Sold through the dealer Alfred Gold in 1935.', price: null },
+    { year: '1936', who: 'Marie Harriman Gallery', place: 'New York', note: 'Handled by the Marie Harriman Gallery in New York before its museum sale.', price: null },
+    { year: '1936–today', who: 'Museum of Fine Arts, Boston', place: 'Boston', note: 'Acquired by the MFA on 16 April 1936 for $80,000 (Tompkins Collection, Arthur Gordon Tompkins Fund). One of the museum’s signature holdings. On permanent view (36.270).', price: '$80,000', museum: true },
+  ],
+  figures: [
+    { name: 'Paul Gauguin', role: 'The painter', palette: ['#3a5a4a', '#8a7848', '#1c2418'] },
+    { name: 'The sleeping infant', role: 'The right edge, where the life begins', palette: ['#e4d6c0', '#a08858', '#3a2a14'] },
+    { name: 'The figure picking fruit', role: 'The center, young adulthood', palette: ['#8a7848', '#5a4a2a', '#1c1408'] },
+    { name: 'The old woman', role: 'The far left, near death', palette: ['#6a6258', '#3a342c', '#14110c'] },
+    { name: 'The blue idol', role: 'Behind the figures, Gauguin’s "Beyond"', palette: ['#3a5a72', '#22384a', '#0c1620'] },
+  ],
+  annotations: [
+    { label: 'The questions, lettered on the canvas', where: 'Upper-left corner, in a pale yellow field', detail: 'Gauguin painted the title straight onto the picture in the top-left corner, the three French questions ("D’où venons-nous / Que sommes-nous / Où allons-nous") in plain capitals, with no question marks. It is rare for a painting to print its own title inside itself; it tells you Gauguin wanted you reading the canvas as a stated riddle, not just looking at a scene.' },
+    { label: 'Where the life starts (so read backwards)', where: 'The far right edge, a sleeping baby with three crouched women', detail: 'At the right edge a baby sleeps near three crouching women. This is the beginning of the human life the painting traces, which means the whole frieze is meant to be read right to left, against the direction you normally scan a picture. Start here, at birth, and travel left toward death.' },
+    { label: 'The reach for the fruit', where: 'Dead center, a standing figure with an arm raised', detail: 'In the middle a standing figure stretches an arm up to pick fruit. It is the central act of the picture and an old gesture of knowledge and "sin," the Eve reach, dropped into a Tahitian setting. This is the daily life of young adulthood, the busy middle of a life, placed at the literal center of the canvas.' },
+    { label: 'The blue idol Gauguin called "the Beyond"', where: 'Left of center, in the background, arms raised', detail: 'Behind the central figures stands a tall blue statue with its arms lifted. Gauguin said it represents "the Beyond," the world past this one. It is worth knowing it is largely an invention: not a real Tahitian deity Gauguin found and recorded, but an image he made up to look ancient and sacred for a European audience.' },
+    { label: 'The old woman, folded in on herself', where: 'The far left, hunched, hands near her face', detail: 'At the very left an old woman draws into herself, hands near her face, beside a white bird. She is the end of the life-cycle, death, and Gauguin paints her as resigned rather than terrified. The white bird clutching a small lizard at her feet, he said, stands for the uselessness of empty words, the painting’s quiet shrug at its own grand questions.' },
+    { label: 'Corners aged like an old fresco', where: 'The two upper corners, painted gold-yellow', detail: 'Gauguin painted the two top corners a worn gold-yellow, as if the canvas were a damaged old fresco (a painting done straight into wet plaster, the medium of Renaissance church walls) or a faded tapestry. It is a deliberate antiquing effect, meant to make a brand-new painting feel like something dug up from a far older, sacred tradition.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Symbolism', mode: 'art' },
+      { label: 'Synthetism', mode: 'art' },
+      { label: 'French colonial Tahiti', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Primitivism', mode: 'art' },
+      { label: 'The Fauves', mode: 'art' },
+      { label: 'Modern painting', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, At the Moulin Rouge (Toulouse-Lautrec, 1892–95). The
+// Montmartre cabaret group portrait. Authored through the art
+// content pipeline; narrative under 'moulin-rouge' (Mr… prefix).
+// ─────────────────────────────────────────────────────────────
+export const MOULIN_ROUGE: ArtWorkContent = {
+  id: 'moulin-rouge',
+  name: 'At the Moulin Rouge',
+  shortName: 'At the Moulin Rouge',
+  year: 1895,
+  artist: 'Henri de Toulouse-Lautrec',
+  artistId: 'lautrec',
+  movement: 'Post-Impressionism',
+  movementId: 'postimp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '4 ft 0 in × 4 ft 7 in',
+  location: 'Art Institute of Chicago',
+  acquired: 'Helen Birch Bartlett Memorial Collection, 1928',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Post-Impressionism', index: 7, total: 9 },
+  hook: 'A cabaret table at midnight, painted by a man who had his own reserved seat there, with a dancer’s face lunging in at the edge lit a poisonous green.',
+  heroImage: ART_IMG.lautrecMoulinRouge,
+  heroCredit: 'Toulouse-Lautrec, At the Moulin Rouge, 1892–95 · Art Institute of Chicago',
+  heroAspect: 1.15, // 123 × 141 cm → W/H ≈ 1.15
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1892–95', k: 'Painted' },
+    { v: '4′0″ × 4′7″', k: 'Dimensions' },
+    { v: 'Chicago', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'montmartre', eyebrow: 'Montmartre · 1890s', dateLabel: '1892–95', title: 'The cabaret, and the man with his own table', blurb: 'The Moulin Rouge, the Montmartre cabaret (a Paris nightclub with dancing, singing and drink) that defined Paris nightlife in the 1890s, and the aristocratic painter who had his own table there, met plainly, neither romanticized nor sensationalized.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The canvas', dateLabel: '1892–95', title: 'A group portrait of the regulars', blurb: 'Not a generic crowd but specific, nameable people around one table, lit by harsh electric light, pitched at you down a steep diagonal railing in the tipped, cropped framing borrowed from Japanese prints.', progress: 0.34 },
+    { id: 'reception', eyebrow: 'The cut canvas', dateLabel: 'then & later', title: 'The piece that was sliced off', blurb: 'For reasons no one has established, an L-shaped strip was cut from the canvas, taking May Milton’s green-lit face with it, and was reattached by 1914. The off-balance right edge is the scar.', progress: 0.58 },
+    { id: 'looking', eyebrow: 'Why it broke the rules', dateLabel: 'Then & now', title: 'Modern night, modern light', blurb: 'A snapshot composition instead of a posed scene, the acid colors of artificial electric light, ordinary nightlife treated as a fit subject, and a painter pointing his eye at the margins of his own city.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1901–today', title: 'A short life, an immortal picture', blurb: 'Lautrec died in 1901 at thirty-six. The painting passed through dealers to Chicago, given to the Art Institute in 1928, and became one of the most reproduced images of fin-de-siècle Paris.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: 'by 1902', who: 'Maurice Joyant', place: 'Paris', note: 'Held by Lautrec’s friend and champion Maurice Joyant after the artist’s death in 1901.', price: null },
+    { year: 'through 1926', who: 'Manzi, then Jean Laroche', place: 'Paris', note: 'Passed through the collector Manzi and then to Jean Laroche by 1926.', price: null },
+    { year: '1926–1928', who: 'Paul Rosenberg, then Reid & Lefevre', place: 'Paris / London', note: 'Handled by the dealer Paul Rosenberg and then by Reid & Lefevre in London in 1928.', price: null },
+    { year: '1928', who: 'Frederick Clay Bartlett', place: 'Chicago', note: 'Bought by the Chicago collector Frederick Clay Bartlett.', price: null },
+    { year: '1928–today', who: 'Art Institute of Chicago', place: 'Chicago', note: 'Given to the Art Institute in 1928 as part of the Helen Birch Bartlett Memorial Collection, in memory of Bartlett’s late wife. On permanent view (1928.610).', price: 'gift', museum: true },
+  ],
+  figures: [
+    { name: 'Henri de Toulouse-Lautrec', role: 'The painter (himself, tiny, in the back)', palette: ['#8a7a4a', '#4a3a22', '#15110a'] },
+    { name: 'Jane Avril', role: 'Dancer, seen from behind, the red-orange hair', palette: ['#c4602a', '#7a3818', '#1c0e06'] },
+    { name: 'La Goulue', role: 'The Moulin Rouge’s star can-can dancer', palette: ['#b08a4a', '#5a4222', '#1a1208'] },
+    { name: 'May Milton', role: 'English dancer, the green-lit face at the right edge', palette: ['#5a7a4a', '#2e3a26', '#0e160a'] },
+    { name: 'Gabriel Tapié de Céleyran', role: 'Lautrec’s tall cousin, the physician in the back', palette: ['#5a5a52', '#32322c', '#121210'] },
+  ],
+  annotations: [
+    { label: 'The green-lit face at the edge', where: 'Far right foreground, a woman’s face lunging into the frame', detail: 'A woman’s face crowds in at the right edge, her chin and cheek washed a lurid, unnatural acid green by the cabaret’s electric light from below. This is the English dancer May Milton, and the shocking color is not symbolism, it is honest reporting of what artificial light does to skin. The way she is cut off by the frame, mid-lunge, is the most modern thing in the picture.' },
+    { label: 'The burst of orange hair', where: 'Center, above the dark table group, seen from behind', detail: 'Rising over the dark-clad people at the table is a head of flaming red-orange hair, seen from behind. It belongs to the dancer and entertainer Jane Avril, and it is the visual anchor of the whole canvas, the one hot note your eye keeps returning to in a scene of murky greens and browns.' },
+    { label: 'The painter, tiny, in the back', where: 'Background, a short top-hatted figure beside a very tall one', detail: 'Crossing the back of the room is a short man in a top hat walking just ahead of a conspicuously tall companion. The short one is Lautrec himself, the tall one his cousin, the physician Gabriel Tapié de Céleyran. Lautrec puts himself in his own painting as a small background figure and makes the height gap part of the joke, a dry, unsentimental self-insertion.' },
+    { label: 'La Goulue at the mirror', where: 'Back right, a woman fixing her hair, reflected in glass', detail: 'At the back on the right a woman arranges her hair, half-caught in a greenish mirror. She is La Goulue ("The Glutton"), the Moulin Rouge’s famous can-can star, shown not mid-performance but in an offhand, backstage moment, fixing herself up like anyone else.' },
+    { label: 'The diagonal that pitches you in', where: 'Lower left, a long balustrade sweeping back into the room', detail: 'A long railing cuts in from the lower-left corner on a steep diagonal and drives your eye back to the table. This tipped-up, cropped, off-center framing comes straight from Japanese woodblock prints, and it throws you into the room as if you had just walked up to the rail yourself, rather than looking at a tidy, posed picture.' },
+    { label: 'The off-balance right edge', where: 'The right side, where the canvas feels oddly cut', detail: 'The right edge feels slightly wrong, lopsided, as if part of the composition is missing. It is: an L-shaped strip was cut from the canvas at some point (taking May Milton’s green face with it) and reattached by 1914. Who cut it, and why, is not known. The faint seam and the off-kilter crop are the record of that lost-and-recovered piece.' },
+    { label: 'The monogram, lower left', where: 'Lower left corner, a small interlocked mark', detail: 'Down in the lower-left corner is Lautrec’s monogram, his initials stamped together in a small interlocked mark, the period’s version of a signature.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Japanese woodblock prints', mode: 'art' },
+      { label: 'Degas', mode: 'art' },
+      { label: 'Belle Époque Montmartre', mode: 'civ' },
+    ],
+    children: [
+      { label: 'The modern poster', mode: 'art' },
+      { label: 'Expressionism', mode: 'art' },
+      { label: 'Nightlife as a subject', mode: 'art' },
+    ],
+  },
+}
+
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

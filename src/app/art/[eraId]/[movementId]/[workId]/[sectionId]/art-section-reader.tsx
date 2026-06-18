@@ -5975,7 +5975,356 @@ function MvAfterlife({ accent, onZoom }: { accent: string; onZoom: (src: string,
   )
 }
 
+// ─────────────────────────────────────────────────────────────
+// Vision after the Sermon (Gauguin, 1888), the five chapters (Vs…)
+// ─────────────────────────────────────────────────────────────
+function VsPontAven({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Pont-Aven · 1888" title="A Breton village and a younger painter with theories" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the summer of 1888, in a small village called <strong>Pont-Aven</strong> (pohn-ta-VEN) in <strong>Brittany</strong>, a Celtic-rooted region in the far northwest of France with its own old language and costume, a cheap, scenic place where painters gathered because the living was cheap and the local women still wore traditional dress, <strong>Paul Gauguin</strong> (1848 to 1903) was at work and out of patience with Impressionism. The Impressionists had taught everyone to chase the look of light on real things. Gauguin wanted to paint the opposite: not what the eye sees out a window, but what goes on behind it, memory, feeling, belief, the inside of a head.
+      </p>
+      <p style={proseStyle}>
+        He had help arriving at it. That summer the much younger painter <strong>Émile Bernard</strong> (1868 to 1941) turned up at Pont-Aven carrying theories aimed squarely at overturning Impressionism, and out of their arguments came a method called <strong>Synthetism</strong>, of which <em>Vision after the Sermon</em> is generally called the first complete statement. The credit for it would become a lifelong sore point. Bernard had been developing the flat, hard-outlined manner before that summer, and he spent the rest of his life insisting the breakthrough had been his; most accounts grant him the prior claim, even as it was Gauguin’s paintings that became the famous examples and Gauguin’s name the method got attached to.
+      </p>
+
+      <SectionHeader accent={accent} label="The new method" title="Synthetism, and the look it borrowed" />
+      <p style={proseStyle}>
+        <strong>Synthetism</strong> means roughly what it sounds like: instead of copying nature, you <em>synthesize</em>, you boil the scene down and fuse three things into one image, the thing you are looking at, the feeling it gives you, and pure flat decorative shape. The rules that came with it were blunt. Stop trying to reproduce the world faithfully. Build from memory and emotion. Lay down bold, flat areas of pure color. Drop perspective and the careful modeling of light and shade.
+      </p>
+      <p style={proseStyle}>
+        The look that carried all that has its own name: <strong>Cloisonnism</strong>. Picture <em>cloisonné</em> enamelwork, the old craft where thin metal strips are bent into little compartments and each compartment is filled with a single color of glassy enamel, so the finished object is a mosaic of flat colors held apart by hard metal lines. Or picture a <strong>stained-glass window</strong>, flat panes of pure color with dark lead between them. Cloisonnism is painting done that way: flat areas of unmixed color, each one bounded by a firm dark outline, with the outlines doing the work that shadow and shading do in ordinary painting. Bernard had been working in exactly this manner, drawing it partly from Japanese prints and partly from medieval glass and enamel, and it is the direct spur for the picture you are about to look at.
+      </p>
+    </article>
+  )
+}
+
+function VsMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Two feet four by three feet" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t is a modest object for so famous a picture, about <strong>2 feet 4 inches tall and 3 feet wide</strong>, oil on canvas, the kind of size you could carry under one arm. What Gauguin does inside that small frame is jam two worlds into it and draw the seam between them in a single tree trunk.
+      </p>
+      <p style={proseStyle}>
+        In the foreground, near and large, a crowd of <strong>Breton peasant women</strong> in tall, starched white headdresses (the regional caps called <em>coiffes</em>) and black Sunday dresses bow their heads with their eyes shut. They have just come out of a sermon, and they are praying about what they heard. Behind and above them, small and pushed up into the corner, is the thing they are praying about: <strong>Jacob wrestling the angel</strong>, the episode from the Book of Genesis where the patriarch Jacob grapples all night with a divine stranger.
+      </p>
+
+      <SectionHeader accent={accent} label="The red" title="A ground that is not the ground" />
+      <p style={proseStyle}>
+        And the whole thing happens on a field of <strong>flat, saturated red</strong>. This is the move that makes the painting. The red is not a meadow, not earth, not a field at sunset; nothing in nature is this red. Gauguin makes the color itself announce that you are no longer in the real world. The praying women are real, standing in real Brittany; the wrestling match is a vision, happening inside their shut eyes; and the impossible red is the color of the boundary between the two. Color here is not describing a place. It is telling you which reality you are in.
+      </p>
+      <p style={proseStyle}>
+        A single <strong>tree trunk</strong> cuts on a hard diagonal straight across the canvas and divides it cleanly: the women and their real world below and near, the vision above and far. (It is often called an apple tree and read as the tree of knowledge from the Garden of Eden; that is an interpretation later viewers added, not something Gauguin himself spelled out, so hold it loosely.) The two wrestling figures are widely said to be borrowed from a print by <strong>Hokusai</strong> (the nineteenth-century Japanese woodblock master whose prints Gauguin and the Paris painters collected and studied); Bernard pointed out the source, so take it as a credible attribution rather than a proven fact.
+      </p>
+
+      <SectionHeader accent={accent} label="The inversion" title="The miracle, made small" />
+      <p style={proseStyle}>
+        Look at the scale and you find the quiet outrage. Jacob and the angel, the <em>holy subject</em> of the picture, are painted <em>small</em> and shoved into the far corner, smaller than the women’s white caps and black backs in front of them. The sacred event is deliberately made to look less important than the ordinary villagers imagining it. Every edge in the painting, every cap, face and hand, is sealed in a dark contour with flat color inside and almost no shading: the cloisonné and stained-glass method made literal. The result is less a window onto a scene than a picture of a state of mind, faith, painted as its own bright, flat, sealed-off zone.
+      </p>
+    </article>
+  )
+}
+
+function VsReception({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The first viewers" title="A letter to Van Gogh" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>G</DropCap>
+        auguin knew at once he had made something new, and he said so to the one correspondent who would understand. In late September 1888 he wrote to <strong>Vincent van Gogh</strong>, with whom he was about to go live in Arles in the south of France, and sketched the picture out in the letter: the praying women, the red ground, the wrestling figures. The letter survives, which means we have Gauguin’s own description of the painting from the very year he made it. Among the Pont-Aven painters and the younger circle who would later call themselves the <strong>Nabis</strong> (a group of Paris painters who took Synthetism in a flat, decorative direction; the name means "prophets"), it became an early banner for the new method.
+      </p>
+
+      <SectionHeader accent={accent} label="The gift refused" title="The church that said no" />
+      <p style={proseStyle}>
+        There is a famous story about what Gauguin did next, and it needs telling carefully, because the bones of it are solid and the details are not. The solid part: Gauguin tried to <strong>give the painting to a local Breton parish church</strong>, and the church <strong>turned the gift down</strong>. That much is well attested.
+      </p>
+      <p style={proseStyle}>
+        The colorful version, the one usually retold, comes almost entirely from a single account that <strong>Émile Bernard</strong> wrote down in 1904, sixteen years after the fact. By Bernard’s telling, Gauguin offered it to the priest of a specific nearby parish, who refused it on the grounds that it was not a religious picture at all, objecting that giant peasant bonnets and the backs of villagers filled the canvas while the sacred subject shrank away to nothing. It is a great story, and it is exactly the objection the painting invites, but it rests on one witness recalling it long afterward. So: the refusal happened, take that as fact; the priest’s exact words are Bernard’s memory, not gospel.
+      </p>
+    </article>
+  )
+}
+
+function VsCloisonnism({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Why it broke the rules" title="Painting the inside of a head" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he Impressionists had trained themselves to record the truth of the eye, the exact color of light on water at a particular minute, the world as it actually looks. Gauguin, in one picture, threw that out and pointed in the opposite direction.
+      </p>
+      <p style={proseStyle}>
+        The break is in four parts. First, the subject is <em>imagination itself</em>: the painting shows not a scene in the world but a vision inside people’s heads, and gives that vision its own zone on the canvas, fenced off by the diagonal tree. Second, the <strong>color is freed from description</strong>: the red ground answers to feeling and meaning, not to anything you could photograph. Third, the form is <strong>flat</strong>, built from sealed areas of pure color bounded by dark lines, the flat physical surface of the canvas (its <strong>picture plane</strong>) frankly admitted as flat instead of faked into deep space. Fourth, it leans on sources the academy despised, Japanese prints, medieval glass, enamel, instead of the Greek-and-Roman tradition.
+      </p>
+      <p style={proseStyle}>
+        Put together, those four moves make the case the rest of modern painting would build on: that a picture does not owe the world a faithful copy, that color and flat shape can carry meaning on their own, and that what happens inside a head is as fit a subject as anything you can see out a window. That is why <em>Vision after the Sermon</em> gets called the first complete statement of Synthetism rather than just one more pretty Brittany scene.
+      </p>
+    </article>
+  )
+}
+
+function VsAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="From the artist to a national gallery" title="Edinburgh buys the heresy" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        ecause the church had turned it down, the painting stayed with Gauguin, and after his death in the Marquesas Islands in the Pacific in 1903 it moved through private hands in Europe, by a chain the record does not fully preserve. Its public home arrived in <strong>1925</strong>, when the <strong>Scottish National Gallery</strong> in Edinburgh bought it.
+      </p>
+      <p style={proseStyle}>
+        That was a braver purchase than it sounds. British taste had been openly hostile to Post-Impressionism ever since the English critic Roger Fry put Gauguin, Van Gogh and Cézanne on London walls in 1910 and 1912 and the public recoiled. For a national gallery to spend real money on a flat-red Gauguin in 1925 was to bet, against the prevailing taste, that this odd little picture was a landmark. The bet paid off.
+      </p>
+
+      <SectionHeader accent={accent} label="Why it still matters" title="The first Synthetist masterpiece" />
+      <p style={proseStyle}>
+        It hangs in Edinburgh now, and it is read as exactly what Gauguin hoped: the first fully Synthetist picture, one of the foundational works of the turn away from Impressionism toward flat, symbolic, emotionally charged color. The line that runs out of it is long, the Nabis who flattened color into decorative interiors, the Symbolists (who wanted art to suggest feeling and meaning rather than illustrate stories), and past them the twentieth-century painters who took for granted that a canvas can be a state of mind rather than a copy of a room. It all starts with some Breton women praying with their eyes shut, and a red that exists nowhere on Earth.
+      </p>
+    </article>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// Where Do We Come From? (Gauguin, 1897–98), the five chapters (Wd…)
+// ─────────────────────────────────────────────────────────────
+function WdTahiti({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Tahiti · 1897" title="A colony Gauguin called paradise" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n 1897 <strong>Paul Gauguin</strong> was in <strong>Tahiti</strong>, in the South Pacific, on his second and final stay. He was poor, he was sick, and he was grieving a daughter, Aline, who had died early that year. He had built his career on leaving: Europe, his old job, the family he started there. Out of this last stretch he set out to paint a single enormous summing-up, a mural-scale statement he ranked above everything else he had done and described, in his letters, in almost biblical terms.
+      </p>
+      <p style={proseStyle}>
+        Before the painting, a word about the place, because the painting cannot be understood without it. Gauguin sold Europe a picture of Tahiti as an unspoiled "primitive" paradise, a world of innocence outside money and modern life. That picture was largely his invention. The real Tahiti was a <strong>French colony</strong>, and French colonial rule and missionary Christianity were already busy dismantling the island’s own culture. Much of the "authentic" imagery Gauguin painted, the idols and rituals, was made up or imported rather than living Tahitian religion. He was exoticizing a colonized people for a European art audience, and the paradise on his canvases is a romantic fiction laid over a society his own civilization was taking apart.
+      </p>
+      <p style={proseStyle}>
+        And the honest version of Gauguin’s Tahiti has to include this, even if she never appears in this particular canvas. During his Tahitian years he took a series of very young local girls as "wives." <strong>Teha’amana</strong>, the model behind several of his Tahiti pictures, was <strong>about thirteen</strong> by his own account, the arrangement made in a single afternoon. Such arrangements were common among French colonists, which made them ordinary, not innocent: the power gap between a middle-aged European man and a colonized child was total, and whether the girls consented in any meaningful sense is unknowable. The "paradise" this painting depicts is inseparable from that, and the tortured-genius-in-paradise legend should not be allowed to paint over it.
+      </p>
+    </article>
+  )
+}
+
+function WdMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A twelve-foot frieze, read backwards" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he picture is huge and wide, about <strong>4 feet 7 inches tall and 12 feet 4 inches across</strong>, painted on a coarse, heavy sackcloth-type canvas. It is a <strong>frieze</strong> (a long horizontal band of figures, the word borrowed from the carved strips that run along the tops of Greek temples), and Gauguin meant it to be read <em>right to left</em>, against the way your eye normally travels. Read that way, it traces a single human life from birth to death.
+      </p>
+      <p style={proseStyle}>
+        Start at the <strong>right edge</strong>: a <strong>sleeping infant</strong> with three crouching women. That is the beginning, birth. Move to the <strong>center</strong> and a standing figure reaches up to <strong>pick a fruit</strong>, an Eve-like gesture of knowledge and "sin," standing for the busy daily life of young adulthood. Move to the <strong>far left</strong> and an <strong>old woman</strong> draws into herself, hands near her face, near death and seemingly reconciled to it. Birth, life, death, laid out across twelve feet.
+      </p>
+
+      <SectionHeader accent={accent} label="The symbols" title="The idol, the bird, the questions" />
+      <p style={proseStyle}>
+        Behind the central figures stands a tall <strong>blue idol</strong> with its arms raised, which Gauguin said represents <strong>"the Beyond"</strong>, the world past this one. (It is one of his inventions, an image built to look ancient and sacred rather than a real deity he found.) Near the old woman a <strong>white bird</strong> clutches a lizard, which he said stands for the uselessness of empty words, the painting’s wry comment on its own grand ambitions.
+      </p>
+      <p style={proseStyle}>
+        And Gauguin lettered the work’s questions directly onto the canvas, in the <strong>upper-left corner</strong>, in a pale yellow field: the three French questions in plain capitals, with no question marks. He <strong>signed and dated</strong> the opposite corner, upper right ("P. Gauguin / 1897"). He even aged the two top corners to a worn gold, as if the whole thing were an old fresco pulled from some older, sacred tradition. Everything about it is built to feel less like a scene and more like scripture.
+      </p>
+    </article>
+  )
+}
+
+function WdReception({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The suicide story" title="What Gauguin claimed he did" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he most repeated story about this painting needs handling with tongs. In a letter to his friend and Paris go-between <strong>Daniel de Monfreid</strong> in February 1898, Gauguin <em>wrote that</em> he had finished the picture, gone up into the mountains, and tried to kill himself with arsenic, and that the dose failed because he vomited it back up. He had even foreshadowed the plan in a December 1897 letter. So it is certain that <em>Gauguin said this</em>.
+      </p>
+      <p style={proseStyle}>
+        Whether it happened is another matter. The entire account is <strong>self-reported, written after the fact, and dramatized</strong>, and Gauguin was a relentless self-mythologizer; his biographer noted that few men worked harder at building their own legend. The arsenic story fits the painting’s life-and-death theme almost too neatly. No independent witness ever confirmed the attempt, and modern forensic work on teeth attributed to Gauguin found no arsenic. So the right way to carry it is the careful way: Gauguin <em>claimed</em> he tried to take his own life after finishing the picture, the only source is his own letter, and scholars treat it as part fact and part self-promotion, neither swallowed whole nor waved away.
+      </p>
+
+      <SectionHeader accent={accent} label="Paris · 1898" title="A cool room at Vollard’s" />
+      <p style={proseStyle}>
+        The painting itself was shipped to Paris and first shown at the gallery of the dealer <strong>Ambroise Vollard</strong>, from mid-November to early December 1898, to <strong>mixed reviews</strong>. The deliberate unreadability that Gauguin prized, the refusal to spell out a single clear story, divided the critics from the start. Some saw a masterpiece; others saw a riddle with the answer left out. That split has more or less followed the picture ever since.
+      </p>
+    </article>
+  )
+}
+
+function WdSymbolism({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Why it broke the rules" title="A painting built to ask, not to tell" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or centuries a big, serious painting was expected to <em>tell a story</em> you could follow, a clear episode from scripture or myth or history, legible to anyone who knew the tale. Gauguin built a twelve-foot canvas that flatly refuses to do that. There is no single event, no clear plot, no caption that resolves it. It is built to leave you with the three questions it prints in its own corner, not with an answer.
+      </p>
+      <p style={proseStyle}>
+        That is <strong>Symbolism</strong> at full mural scale: the idea that a painting should suggest, evoke and ask rather than describe, that its meaning lives in mood and symbol instead of in a readable scene. Gauguin pairs it with the flat, decorative, non-naturalistic color he had developed years earlier in Brittany, color and shape arranged for feeling rather than for accuracy. He wanted a picture that worked the way a sacred text works, something you return to and never quite finish, rather than an illustration you read once and understand.
+      </p>
+      <p style={proseStyle}>
+        Go back to the old woman at the far left, folded in on herself. She is the death station of the life-cycle, and you expect this figure, of all of them, to deliver something: peace, terror, a verdict on what the whole painting believes. She delivers a posture and nothing more. The white bird at her feet clutches a lizard, and Gauguin even told us what it means, the uselessness of empty words, but knowing the symbol does not close the question; it pries it open wider. The painting hands you its own caption and the caption refuses to settle anything. That refusal to land, right where you most want an answer, is the whole method in one corner.
+      </p>
+      <p style={proseStyle}>
+        The cost and the achievement are the same thing. By refusing to explain itself, the painting frustrates anyone looking for a tidy lesson, which is exactly why some 1898 critics shrugged. But that refusal is also why it became the high-water mark of Symbolist ambition in paint, and why it fed directly into the next generation’s freedom, the Fauves and beyond (the painters who, from about 1905, pushed pure expressive color even further), to treat a canvas as a field of expressive color and symbol rather than a faithful report on the world.
+      </p>
+    </article>
+  )
+}
+
+function WdAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="From Vollard’s wall to Boston" title="A long road to a museum" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        fter its first showing the painting changed hands many times. The collector <strong>Gabriel Frizeau</strong> bought it from Vollard for 2,500 francs in 1901; from there it passed through a Paris gallery, then to the Norwegian collector <strong>Jørgen Breder Stang</strong>, then through the dealer Alfred Gold, then to a New York gallery. In <strong>1936</strong> it reached its permanent home: the <strong>Museum of Fine Arts, Boston</strong> bought it on the sixteenth of April for <strong>$80,000</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="Why it still matters" title="The testament, and what hangs beside it" />
+      <p style={proseStyle}>
+        It is now one of the MFA’s signature holdings and the centerpiece of Gauguin’s late legend, routinely read as his testament, the painting where he tried to put the whole arc of a human life and its unanswerable questions onto a single wall. It is one of the most ambitious pictures of its era.
+      </p>
+      <p style={proseStyle}>
+        And the honest way to stand in front of it is to hold two things at once. It is a masterpiece of Symbolist ambition, and it is the product of a man who built a romantic "paradise" on top of a colonized island and took adolescent girls as partners while he did it. The greatness does not cancel the rest, and the rest does not cancel the greatness. A modern viewer is allowed, and probably required, to see both.
+      </p>
+    </article>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// At the Moulin Rouge (Toulouse-Lautrec, 1892–95), the five chapters (Mr…)
+// ─────────────────────────────────────────────────────────────
+function MrMontmartre({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Montmartre · 1890s" title="The cabaret, and the man with his own table" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he <strong>Moulin Rouge</strong> ("Red Mill") opened in <strong>1889</strong> in <strong>Montmartre</strong>, the hilly district on the north edge of Paris that was the city’s nightlife quarter, and it quickly became the icon of <strong>Belle Époque</strong> Paris (the glittering decades before the First World War). It was a <strong>Montmartre cabaret</strong>, a nightclub built around drinking, dancing and stage acts, famous above all for the <strong>can-can</strong>, the high-energy dance in which a line of women kicked their legs above their heads in unison, scandalous and thrilling in equal measure. And one of its fixtures, with his own reserved table, was the painter <strong>Henri de Toulouse-Lautrec</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="The man" title="An aristocrat at the cabaret table" />
+      <p style={proseStyle}>
+        Lautrec is worth meeting plainly, without legend. He was born in 1864 into an <strong>old aristocratic family</strong>, the counts of Toulouse, at Albi in the south of France; his parents were first cousins. As a teenager he broke both thigh bones, at thirteen and again at fourteen, and they did not heal properly. His legs stopped growing while his torso did not, leaving him an adult of about <strong>five feet</strong> tall. Modern medicine attributes this to a genetic bone disorder rather than to the falls alone. State it for what it is: a condition he lived with, which sharpened rather than caused his eye for the people at the edges of Montmartre society, the performers and night people and outsiders. It is not a freak show and it is not the secret of his genius.
+      </p>
+      <p style={proseStyle}>
+        He trained under serious academic teachers, then spent his short career embedded in the dance halls, cafés and brothels of Montmartre, which became his real subject. <em>At the Moulin Rouge</em>, painted across roughly <strong>1892 to 1895</strong>, is the great picture of that world, and crucially it is a <strong>group portrait of the cabaret’s actual regulars and performers</strong>, not a generic crowd. Lautrec painted the people he drank with.
+      </p>
+
+      <SectionHeader accent={accent} label="The street, not the gallery" title="The poster that made him famous" />
+      <p style={proseStyle}>
+        And here is the thing most people miss about Lautrec: in his own lifetime he was famous less for paintings like this one than for <strong>posters</strong>. He was the man who turned the printed advertising poster into real art, using <strong>lithography</strong> (a printing method that pulls many copies of an image off a prepared stone or metal plate), and in <strong>1891</strong> his first poster, advertising the dancer La Goulue at the Moulin Rouge, went up on walls all over Paris. People stopped in the street to look at it. For most Parisians alive then, Lautrec <em>was</em> the poster artist; the oil paintings were the private, gallery side of the same eye. His posters of La Goulue and Jane Avril did as much to make those performers stars as their own dancing did.
+      </p>
+      <p style={proseStyle}>
+        It is worth holding that alongside the painting, because the two halves explain each other. The flat color, the bold cropping, the figures cut off at the edge, all the moves that make <em>At the Moulin Rouge</em> feel so modern are the same moves a poster needs to grab a passerby from across the street. Lautrec was working out one visual language and using it in two places at once: on the wall of a gallery and on the wall of a building.
+      </p>
+    </article>
+  )
+}
+
+function MrMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A tipped-up room full of real people" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he picture is roughly <strong>4 feet tall and 4 feet 7 inches wide</strong>, and the first thing it does is throw you off balance on purpose. A long <strong>balustrade</strong> (a railing) sweeps in from the lower-left corner on a steep diagonal and drives your eye back into the room toward a table of people. Nothing is centered, nothing is posed; the whole scene is tipped up and cropped as if you had just walked up to the rail. This snapshot framing, off-center, cut at the edges, comes from two sources Lautrec had absorbed: <strong>Japanese woodblock prints</strong> (the flat, boldly cropped color prints that flooded into Europe after trade with Japan opened in the 1850s, which his whole generation pored over) and the older painter <strong>Degas</strong>, who had already made the tipped-up floor and the figure sliced by the frame his own.
+      </p>
+
+      <SectionHeader accent={accent} label="The cast" title="Naming the table" />
+      <p style={proseStyle}>
+        These are specific, nameable people. Around the central table sit the writer <strong>Édouard Dujardin</strong>, the dancer La Macarona, the photographers Paul Sescau and Maurice Guibert, and, seen from behind with a burst of flaming <strong>orange-red hair</strong>, the dancer and entertainer <strong>Jane Avril</strong>, the visual anchor of the whole canvas. Crossing the back of the room, a short top-hatted figure walks just in front of a conspicuously tall one: that is <strong>Lautrec himself</strong>, tiny, ahead of his much taller cousin, the physician Gabriel Tapié de Céleyran, the height gap played as a dry joke. At the back on the right, fixing her hair in a greenish mirror, is <strong>La Goulue</strong> ("The Glutton"), the Moulin Rouge’s star can-can dancer. And at the right edge, lunging into the frame, is the face of the English dancer <strong>May Milton</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="The light" title="What electric light does to a face" />
+      <p style={proseStyle}>
+        The whole room is lit by the harsh <strong>artificial electric light</strong> of the venue, and that, more than any choice of palette, is what gives the picture its acid greens and chalky faces. May Milton’s face at the right edge is washed a shocking, poisonous green, lit from below. It looks expressionistic, almost lurid, but it is really honest reporting: this is what the new electric glare actually did to skin at midnight. Lautrec did not invent the color. He just refused to soften it.
+      </p>
+    </article>
+  )
+}
+
+function MrReception({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The cut canvas" title="The piece that was sliced off" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        here is something faintly wrong with the right side of this painting, and once you see it you cannot unsee it. The composition feels lopsided on the right, as if a chunk is missing. A chunk <em>was</em> missing. At some point an <strong>L-shaped strip</strong> was cut from the bottom and right of the canvas, and that strip contained the green-lit face of <strong>May Milton</strong> lunging in at the edge, along with part of the foreground.
+      </p>
+      <p style={proseStyle}>
+        The strip was later <strong>reattached</strong>, and by 1914 the canvas had been put back to the full extent you see today. The honest gap in the record is the <em>why</em> and the <em>who</em>: nobody has established who cut it down or for what reason. A common guess is that it was trimmed to make the picture easier to sell, by Lautrec or a dealer, but that is a guess, not a documented fact. The right way to say it is the plain way: for reasons that are not known, the canvas was cut down and then, by 1914, rejoined. The slightly off-balance crop on the right is the scar of that surgery.
+      </p>
+      <p style={proseStyle}>
+        It is a useful thing to notice, because the off-center edge is also exactly the kind of cropped, unbalanced framing Lautrec liked on purpose, which is partly why the damage went unremarked for so long. The cut accident and the deliberate Japanese-print crop happen to pull in the same direction.
+      </p>
+    </article>
+  )
+}
+
+function MrLooking({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Why it broke the rules" title="Modern night, modern light" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        et this against a proper Salon picture, the official, polished, idealized painting the French art establishment rewarded, and the breaks line up fast. A Salon picture posed its figures, lit them flatteringly, set them in a clear stage space and finished every surface to a porcelain smoothness. <em>At the Moulin Rouge</em> does the opposite on every count.
+      </p>
+      <p style={proseStyle}>
+        The break is fourfold. First, the <strong>composition is a snapshot</strong>, tipped, cropped and off-center, pitched in from a diagonal rail, instead of a balanced, posed arrangement. Second, the <strong>color is the truth of modern light</strong>: the acid greens and chalky faces are what electric glare really does, not what the eye finds flattering. Third, the <strong>subject is ordinary nightlife</strong>, cabaret regulars and performers caught off guard, treated as worth a serious four-foot canvas, where the academy reserved that seriousness for gods and history. Fourth, the <strong>painter aims his eye at the margins</strong> of his own city, the entertainers, the night people, the social edges, and paints them as individuals rather than types.
+      </p>
+      <p style={proseStyle}>
+        Together those moves make it one of the truest pictures of its moment, <strong>fin-de-siècle</strong> Paris (literally "end of the century," the giddy, restless Paris of the 1890s) seen from the inside by someone who was there every night. It points forward, too: the flattened, cropped, expressive handling of color and edge here runs straight into Lautrec’s own posters and on into <strong>Expressionism</strong>, the early-twentieth-century approach that distorted and intensified color to project inner feeling rather than copy reality, where the honest, unlovely color of modern life becomes the whole point.
+      </p>
+    </article>
+  )
+}
+
+function MrAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="A short life" title="Dead at thirty-six" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>L</DropCap>
+        autrec did not get old. He <strong>died on the ninth of September 1901, aged thirty-six</strong>, at his mother’s estate, of the combined toll of alcoholism and syphilis. State it plainly and humanely: a brilliant, hard-living man burned out young, having packed an entire vision of a city’s nightlife into about fifteen working years. He left behind a body of paintings, prints and posters that more or less define how we picture Belle Époque Paris.
+      </p>
+
+      <SectionHeader accent={accent} label="Chicago" title="The picture’s permanent home" />
+      <p style={proseStyle}>
+        After his death the painting passed through the hands of his friend and champion Maurice Joyant and then a chain of dealers, from Paris to London to the United States. In <strong>1928</strong> the Chicago collector <strong>Frederick Clay Bartlett</strong> gave it to the <strong>Art Institute of Chicago</strong>, as part of the Helen Birch Bartlett Memorial Collection, named for his late wife. It has been a cornerstone of the museum’s Post-Impressionist holdings ever since.
+      </p>
+
+      <SectionHeader accent={accent} label="Why it still matters" title="The night, from the inside" />
+      <p style={proseStyle}>
+        It is now one of the most reproduced images of fin-de-siècle Paris, and for good reason. It is not a tourist’s idea of the Moulin Rouge but an insider’s, a group portrait of named regulars under the real, unflattering electric light, framed like a glance rather than a pose, with the painter himself slipped into the back of the room. It took the most modern subject available, the artificial-lit city at midnight, and treated it with the seriousness art had saved for far grander things, which is exactly the Post-Impressionist bet: that the real, contemporary, ordinary world, seen clearly, was the great subject after all.
+      </p>
+    </article>
+  )
+}
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  'vision-sermon': {
+    'pont-aven': VsPontAven,
+    making: VsMaking,
+    reception: VsReception,
+    cloisonnism: VsCloisonnism,
+    afterlife: VsAfterlife,
+  },
+  'where-do-we-come-from': {
+    tahiti: WdTahiti,
+    making: WdMaking,
+    reception: WdReception,
+    symbolism: WdSymbolism,
+    afterlife: WdAfterlife,
+  },
+  'moulin-rouge': {
+    montmartre: MrMontmartre,
+    making: MrMaking,
+    reception: MrReception,
+    looking: MrLooking,
+    afterlife: MrAfterlife,
+  },
   'bathers-asnieres': {
     riverbank: BaRiverbank,
     making: BaMaking,
