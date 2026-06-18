@@ -408,7 +408,7 @@ export const MODERN_ERA: ArtEraContent = {
     { id: 'fut', name: 'Futurism', range: '1909–1918', accent: ART_ACCENTS.rust, size: 's', hook: 'Italian painters in love with motorcars and speed. It ended in the trenches, and in fascism.', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'], imageUrl: ART_IMG.boccioniCity, credit: 'Boccioni, The City Rises, 1910 · MoMA, New York' },
     { id: 'dada', name: 'Dada', range: '1916–1924', accent: ART_ACCENTS.amber, size: 'm', hook: 'A war in the background and a urinal in the foreground.', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'], imageUrl: ART_IMG.duchampFountain, credit: 'Stieglitz, Duchamp’s Fountain, 1917 · The Blind Man' },
     { id: 'sur', name: 'Surrealism', range: '1924–1966', accent: ART_ACCENTS.green, size: 'l', hook: 'The unconscious gets a paintbrush. Freud and a clock that won’t hold its shape.', palette: ['#1c3a6a', '#c8a72a', '#0e1224'], imageUrl: ART_IMG.chiricoRedTower, credit: 'de Chirico, The Red Tower, 1913 · the dream-world Surrealism grew out of' },
-    { id: 'abex', name: 'Abstract Expressionism', range: '1943–1960', accent: ART_ACCENTS.blue, size: 'l', hook: 'The action stops being something the painting shows and starts being what makes it.', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'] },
+    { id: 'abex', name: 'Abstract Expressionism', range: '1943–1960', accent: ART_ACCENTS.blue, size: 'l', hook: 'The action stops being something the painting shows and starts being what makes it.', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'], imageUrl: ART_IMG.abexNYC, credit: '1950s New York (period photo) · where painting’s center moved' },
     { id: 'pop', name: 'Pop Art', range: '1956–1970', accent: ART_ACCENTS.violet, size: 'm', hook: 'A soup can, but with conviction. Warhol’s factory; Lichtenstein’s dots.', palette: ['#ff3e7f', '#1f1f1f', '#7adff0'], imageUrl: ART_IMG.popSupermarket, credit: 'A 1950s supermarket aisle (period photo) · the world Pop made art of' },
   ],
   anchorPainters: [
@@ -4530,6 +4530,122 @@ export const POP_ART: ArtMovementContent = {
   ],
 }
 
-export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, dada: DADA, sur: SURREALISM, pop: POP_ART, cubism: CUBISM }
+// ─────────────────────────────────────────────────────────────
+// Movement, Abstract Expressionism (1943–1960). The first American movement to
+// lead world art; pure abstraction at mural scale, the canvas as "an arena in
+// which to act." Gated pipeline (fact pack -> author -> 5 critics -> Opus
+// reconcile); narrative under 'abex'. THE APP'S WORST IMAGE CASE: not one work
+// is inlineable (all post-1940) and even the milieu photos are encumbered, so the
+// only image is a US-PD 1950s New York streetscape used as atmosphere; the works
+// ship as "Under copyright" cards + prose. Manifesto ABSENT (key-text surrogates).
+// No whatChanged block (the "after" = an AbEx work has no PD image; break in prose).
+// Honesty axes plain: the women written out, the genius-myth, the documented CIA
+// Cold-War promotion (precise), Pollock's death unromanticized.
+// ─────────────────────────────────────────────────────────────
+export const ABSTRACT_EXPRESSIONISM: ArtMovementContent = {
+  id: 'abex',
+  name: 'Abstract Expressionism',
+  range: '1943–1960',
+  span: '~17 years',
+  era: 'Modern',
+  eraId: 'mod',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Movements of the Modern era', index: 9, total: 10 },
+  hook: 'After the war, painting crossed the Atlantic: New York decided a picture did not have to be of anything.',
+  hookLong:
+    'For the first time an American movement led the world, or so the standard account goes, and Paris handed the avant-garde to New York. A loose group later called the New York School made the canvas, in one critic’s phrase, “an arena in which to act,” big enough to swallow the viewer and built to record the body, the gesture and the unconscious directly. The single idea split into two wings that look nothing alike: the gesture painters who put the act of painting on the wall, and the color-field painters who built vast glowing fields aimed at the sublime. Almost none of the actual paintings can be shown here, because the whole movement is still under copyright, so the words have to carry the pictures.',
+  heroImage: ART_IMG.abexNYC,
+  heroFit: 'cover',
+  heroFocus: '50% 50%',
+  heroCredit: 'Washington Square, Greenwich Village, 1953 (period photograph) · Library of Congress · the city where this happened, not the art',
+  stats: [
+    { v: '~17 yrs', k: 'Span' },
+    { v: '17', k: 'Canonical works' },
+    { v: 'New York', k: 'Centered on' },
+  ],
+  factions: [
+    { side: 'gesture', label: 'The gesture wing (“action”)', color: ART_ACCENTS.blue, members: ['Pollock', 'de Kooning', 'Kline', 'Gorky'], detail: 'The painting as the record of an event: the artist’s body and unconscious moving across the canvas, edge to edge, no focal point. “Action painting” is the critic Harold Rosenberg’s 1952 term, and it means THIS wing only.' },
+    { side: 'field', label: 'The color-field wing', color: '#7a4d8a', members: ['Rothko', 'Newman', 'Still', 'Frankenthaler'], detail: 'The opposite move: a vast, enveloping field of color built for stillness and scale, meant to deliver something like the sublime. The names listed are the core, not the full roster (Frankenthaler’s soak-stain is the bridge into Color Field). Never call these painters “action painters.”' },
+  ],
+  works: [
+    { id: 'autumn-rhythm', year: 1950, name: 'Autumn Rhythm (Number 30)', artist: 'Pollock', place: 'New York', size: 'xl', blurb: 'A wall of poured and dripped line in black, white and tan, almost nine feet tall and seventeen wide, made on the floor from all four sides. No figure, no center: the subject is the act of painting itself. (Under copyright; shown in words.)', palette: ['#2a2620', '#a8966a', '#0e0c08'] },
+    { id: 'woman-i', year: 1952, name: 'Woman I', artist: 'de Kooning', place: 'New York', size: 'l', blurb: 'A ferocious, toothy, more-than-life-size female figure built of slashing strokes, reworked over months. De Kooning kept the human body when his peers dropped it, and made both camps angry. (Under copyright; shown in words.)', palette: ['#bf6a5a', '#3a4a6a', '#15110c'] },
+    { id: 'chief', year: 1950, name: 'Chief', artist: 'Kline', place: 'New York', size: 'l', blurb: 'A few enormous black girders of house-paint crossing a white ground, blown up so large they read like architecture, named after a locomotive Kline knew as a boy. (Under copyright; shown in words.)', palette: ['#1c1c1c', '#e8e4dc', '#3a3a3a'] },
+    { id: 'orange-yellow', year: 1956, name: 'Orange and Yellow', artist: 'Rothko', place: 'New York', size: 'l', blurb: 'A luminous yellow block hovering above an orange one, soft-edged so the color seems to float and pulse, meant to be seen up close so it fills your whole field of vision. (Under copyright; shown in words.)', palette: ['#d6a23a', '#bf5a2a', '#3a2a1c'] },
+    { id: 'vir-heroicus', year: 1951, name: 'Vir Heroicus Sublimis', artist: 'Newman', place: 'New York', size: 'xl', blurb: 'A vast red field nearly eight feet tall and almost eighteen wide, crossed by a few thin vertical “zips.” An abstract American painting reaching for the sublime. (Under copyright; shown in words.)', palette: ['#a8322a', '#6a1c18', '#1c0c0a'] },
+    { id: 'still-cliff', year: 1957, name: '1957-D No. 1', artist: 'Still', place: 'Buffalo', size: 'l', blurb: 'Huge and dark, built from torn, ragged vertical sheets of thick paint like cliffs or peeling bark, with flashes of color stranded violent against the gloom. (Under copyright; shown in words.)', palette: ['#2a2620', '#a83232', '#0c0a08'] },
+    { id: 'liver-cocks-comb', year: 1944, name: 'The Liver Is the Cock’s Comb', artist: 'Gorky', place: 'New York', size: 'l', blurb: 'A large turbulent canvas of biomorphic near-shapes in acid color, somewhere between a body-map and a hallucination. The literal hinge from Surrealist automatism to Abstract Expressionism. (Under copyright; shown in words.)', palette: ['#bf4a6a', '#3a6a4a', '#15120e'] },
+    { id: 'mountains-sea', year: 1952, name: 'Mountains and Sea', artist: 'Frankenthaler', place: 'New York', size: 'l', blurb: 'Thinned paint poured into raw, unprimed canvas so the color soaks in like a stain: soft luminous veils suggesting a landscape without depicting one. Painted at 23, it launched Color Field. (Under copyright; shown in words.)', palette: ['#7aa6c8', '#d6a87a', '#2a3640'] },
+    { id: 'krasner-seasons', year: 1957, name: 'The Seasons', artist: 'Krasner', place: 'New York', size: 'l', blurb: 'Surging fields of organic pink-and-green forms, nearly seventeen feet wide. Krasner did some of her boldest work after Pollock’s death, in the years the legend had decided she was a footnote. (Under copyright; shown in words.)', palette: ['#bf6a8a', '#5a8a4a', '#1c1810'] },
+  ],
+  artists: [
+    { id: 'pollock', name: 'Pollock', role: 'The drip; “action” painting', years: '1912–1956', palette: ['#2a2620', '#a8966a', '#0e0c08'] },
+    { id: 'dekooning', name: 'de Kooning', role: 'The figure that would not die', years: '1904–1997', palette: ['#bf6a5a', '#3a4a6a', '#15110c'] },
+    { id: 'rothko', name: 'Rothko', role: 'The color-field mystic', years: '1903–1970', palette: ['#d6a23a', '#bf5a2a', '#3a2a1c'] },
+    { id: 'newman', name: 'Newman', role: 'The man with one stripe', years: '1905–1970', palette: ['#a8322a', '#6a1c18', '#1c0c0a'] },
+    { id: 'krasner', name: 'Krasner', role: 'Written out as “the wife”', years: '1908–1984', palette: ['#bf6a8a', '#5a8a4a', '#1c1810'] },
+    { id: 'frankenthaler', name: 'Frankenthaler', role: 'Inventor of the soak-stain', years: '1928–2011', palette: ['#7aa6c8', '#d6a87a', '#2a3640'] },
+    { id: 'gorky', name: 'Gorky', role: 'The bridge from Surrealism', years: '1904–1948', palette: ['#bf4a6a', '#3a6a4a', '#15120e'] },
+  ],
+  parallels: [
+    { year: 1947, movement: 'The early Cold War', place: 'Washington & Moscow', blurb: 'The Marshall Plan, NATO, McCarthyism, the bomb. The documented CIA covert promotion of this art abroad made it a showcase of “American freedom” against Soviet socialist realism. But the CIA did not create the movement, the painters had invented it years earlier, and most of them never knew their work was being used this way.' },
+    { year: 1945, movement: 'New York takes the crown', place: 'New York', blurb: 'The war broke Europe and emptied Paris of its avant-garde, many of them to New York; American money, a booming gallery and museum scene, and a confident superpower culture shifted the center of art across the Atlantic for the first time.' },
+    { year: 1950, movement: 'Existentialism', place: 'Paris & New York', blurb: 'Sartre, Camus, the bomb, a culture of anxiety and individual authenticity, running in parallel with Rosenberg’s idea of the canvas as an existential “act,” the painting as the record of a self facing the void.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Surrealist automatism', mode: 'art', img: ART_IMG.chiricoSongLove, palette: ['#3a5a6a', '#7a6a4a', '#1c1a14'], note: 'gave: marks straight from the unconscious' },
+      { label: 'Arshile Gorky', mode: 'art', palette: ['#bf4a6a', '#3a6a4a', '#15120e'], note: 'gave: the hinge from automatism to abstraction' },
+      { label: 'Hans Hofmann', mode: 'art', palette: ['#3a6a8a', '#c8a04a', '#1c2a30'], note: 'gave: “push and pull,” the émigré teacher' },
+      { label: 'The WPA', mode: 'civ', palette: ['#5a5048', '#2a2520', '#0e0c0a'], note: 'gave: the survival and the New York milieu' },
+    ],
+    children: [
+      { label: 'Color Field', mode: 'art', palette: ['#d6a23a', '#bf5a2a', '#3a2a1c'], note: 'took: the soak-stain and the pure field' },
+      { label: 'Pop Art', mode: 'art', img: ART_IMG.popSupermarket, palette: ['#bf2f6a', '#d6cf3f', '#1c1c1c'], note: 'took (by reaction): cool mass-culture surfaces' },
+      { label: 'Minimalism', mode: 'art', palette: ['#5a5a5a', '#2a2a2a', '#0c0c0c'], note: 'took (by reaction): the scale, minus the gesture' },
+      { label: 'The NY art world', mode: 'civ', img: ART_IMG.abexNYC, palette: ['#5a6a7a', '#33414c', '#12161a'], note: 'took: the scale, the market, the critic machine' },
+    ],
+  },
+  influenceSummary: 'Abstract Expressionism took Surrealist automatism, Hofmann’s classroom and the survival the WPA had bought, pushed abstraction to its largest and most ambitious scale, and in doing so moved the center of world art from Paris to New York for good.',
+  manifesto: {
+    absent: true,
+    prose: [
+      'Surrealism got a manifesto and a pope. Abstract Expressionism got neither. It was never a club with a rulebook; it was a loose set of New York painters who mostly distrusted programs, plus two critics who fought over what they were doing. There is no founding document that names the movement and lays down its rules. The nearest thing is a letter two of them sent the New York Times in 1943, and after that the key texts arrive one at a time, by individual hands, often years apart.',
+      'Adolph Gottlieb and Mark Rothko wrote that letter (with Barnett Newman a co-editor), published on 13 June 1943 in reply to a critic, Edward Alden Jewell, who had dismissed their work. Its most-quoted line draws the whole future of the movement in one sentence: “There is no such thing as good painting about nothing.” The subject, they insisted, is everything, and only the tragic and timeless will do. Note the attribution: it is Gottlieb and Rothko’s, with Newman, and it is a letter, not a manifesto.',
+      'After that, four voices and no chorus. Pollock published a short statement, “My Painting” (in the journal Possibilities, which Robert Motherwell co-edited, winter 1947–48), describing how he worked on the floor so he could “literally be in the painting.” Newman published “The Sublime Is Now” (1948), the color-field wing’s credo. And the critic Harold Rosenberg published “The American Action Painters” (1952), the essay that coined “action painting” and called the canvas “an arena in which to act.” Two painters’ statements, two critics’ framings, and no manifesto.',
+    ],
+    sourceUrl: 'https://www.gottliebfoundation.org/about-the-artist',
+    sourceLabel: 'Read about the 1943 Gottlieb-Rothko letter',
+  },
+  canon: [
+    { year: 1944, name: 'The Liver Is the Cock’s Comb', artist: 'Gorky', wiki: 'The Liver Is the Cock’s Comb' },
+    { year: 1948, name: 'Onement I', artist: 'Newman', wiki: 'Onement I' },
+    { year: 1950, name: 'Autumn Rhythm (Number 30)', artist: 'Pollock', wiki: 'Autumn Rhythm' },
+    { year: 1950, name: 'One: Number 31, 1950', artist: 'Pollock', wiki: 'One: Number 31, 1950' },
+    { year: 1950, name: 'Chief', artist: 'Kline', wiki: 'Chief (painting)' },
+    { year: 1951, name: 'Vir Heroicus Sublimis', artist: 'Newman', wiki: 'Vir Heroicus Sublimis' },
+    { year: 1952, name: 'Woman I', artist: 'de Kooning', wiki: 'Woman I' },
+    { year: 1952, name: 'Mountains and Sea', artist: 'Frankenthaler', wiki: 'Mountains and Sea' },
+    { year: 1956, name: 'Orange and Yellow', artist: 'Rothko', wiki: 'Mark Rothko' },
+    { year: 1957, name: 'The Seasons', artist: 'Krasner', wiki: 'Lee Krasner' },
+    { year: 1957, name: '1957-D No. 1', artist: 'Still', wiki: 'Clyfford Still' },
+    { year: 1958, name: 'The Seagram Murals', artist: 'Rothko', wiki: 'Seagram murals' },
+    { year: 1960, name: 'No. 14, 1960', artist: 'Rothko', wiki: 'Mark Rothko' },
+    { year: 1961, name: 'Elegy to the Spanish Republic (series)', artist: 'Motherwell', wiki: 'Elegy to the Spanish Republic' },
+    { year: 1957, name: 'Blast, I', artist: 'Gottlieb', wiki: 'Adolph Gottlieb' },
+    { year: 1957, name: 'a late gestural abstraction', artist: 'Joan Mitchell', wiki: 'Joan Mitchell' },
+    { year: 1971, name: 'The Rothko Chapel', artist: 'Rothko', wiki: 'Rothko Chapel' },
+  ],
+  sections: [
+    { id: 'crown', eyebrow: 'New York', dateLabel: 'c.1943', title: 'The center of art crosses the ocean', blurb: 'The war empties Paris, the Surrealist émigrés arrive with automatism, Hofmann teaches, the WPA had kept the painters alive, and the bomb pushes toward “tragic and timeless” subjects. Paris hands the avant-garde to New York.', progress: 1 / 6 },
+    { id: 'arena', eyebrow: 'The gesture wing', dateLabel: '1947–1952', title: 'The canvas as an arena', blurb: 'Pollock pours and drips on the floor, the all-over web with no center; de Kooning slashes his Woman into being; Kline paints wall-sized black girders. The act of painting goes on the wall.', progress: 2 / 6 },
+    { id: 'fields', eyebrow: 'The color-field wing', dateLabel: '1948–1960', title: 'Fields of color', blurb: 'Rothko’s floating rectangles and his refusal of the Seagram money; Newman’s single zip and “the sublime is now”; Still’s torn cliffs. Stillness and scale instead of gesture, the same ambition aimed the opposite way.', progress: 3 / 6 },
+    { id: 'critics', eyebrow: 'The reputation machine', dateLabel: '1950–1955', title: 'Two critics, one fight', blurb: 'The movement goes public (the Irascibles, the 9th Street Show); Rosenberg says the painting is an event, Greenberg says it is a flat object of pure color and shape; and the critics and dealers, not just the painters, manufactured the canon.', progress: 4 / 6 },
+    { id: 'cut', eyebrow: 'The half that got cut', dateLabel: '1948–1959', title: 'The women written out', blurb: 'The heroic-male-genius myth crowned a few men and buried the rest. Name them as major artists: Krasner, Frankenthaler (whose soak-stain built Color Field), Mitchell, Elaine de Kooning, Hartigan.', progress: 5 / 6 },
+    { id: 'weapon', eyebrow: 'A weapon and a wreck', dateLabel: '1950–1967', title: 'A weapon and a wreck', blurb: 'The documented CIA promotion of AbEx abroad, told straight; Pollock’s worsening drinking and his 1956 death at 44; and the afterlife: New York as the new center, Color Field as the heir, Pop and Minimalism as the reaction.', progress: 1 },
+  ],
+}
+
+export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, dada: DADA, sur: SURREALISM, abex: ABSTRACT_EXPRESSIONISM, pop: POP_ART, cubism: CUBISM }
 export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

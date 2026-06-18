@@ -5324,6 +5324,500 @@ const PopLegacyNarrative: Narrative = ({ accent, onZoom }) => (
   </>
 )
 
+// ─────────────────────────────────────────────────────────────
+// Movement, Abstract Expressionism (1943–1960). The first American movement to
+// lead world art. Gated pipeline; narrative under 'abex'. The app's worst image
+// case: NO work is inlineable (all post-1940) and even milieu photos are
+// encumbered, so the only image is the hero (a PD 1950s NYC streetscape); the
+// works are RestrictedFigure "Under copyright" cards + vivid prose. Manifesto
+// absent. No em-dashes in shippable prose.
+// ─────────────────────────────────────────────────────────────
+
+// ── 1. The center of art crosses the ocean ──────────────────
+const AbexCrownNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · the 1940s" title="The capital moves" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or three centuries, if you wanted the newest thing in painting, you went to Europe, usually to Paris.
+        The Impressionists, the Cubists, the Surrealists were all Paris stories. Then the war broke Europe, and
+        the capital of art moved across an ocean. By the late 1940s the new thing in painting came out of New
+        York, and for the first time the rest of the world looked to America to see what came next. That, at
+        least, is the standard account, and it is the one large fact this read sits on (it is a widely held
+        judgment more than a measured fact, but by the early 1950s the art world was unmistakably watching New
+        York). How it happened is a story of refugees, a New Deal jobs program, a teacher with a German accent,
+        and a bomb. It is also, fair warning, a movement whose painters held a frankly enormous opinion of what
+        they were doing; a little of that self-belief is the price of admission.
+      </p>
+      <p style={proseStyle}>
+        Start with the refugees. As the Nazis overran Europe its artists ran, many of them to New York: the
+        Surrealists almost as a group (André Breton, Max Ernst, André Masson, the young Matta), plus the
+        abstract painters Mondrian and Léger. The Surrealism read tells that exile in full. What matters is what
+        the émigrés (people forced into exile) carried in their luggage: a method.{' '}<strong>Automatism</strong>,
+        the Surrealist practice of making marks straight from the unconscious with the editing, reasoning mind
+        switched off, so chance and buried impulse do the composing. The goal was{' '}<strong>abstraction</strong>{' '}
+        (painting with no recognizable objects or scenes), and the refugees handed the Americans the tool to get
+        there.
+      </p>
+
+      <SectionHeader accent={accent} label="Gorky" title="The human hinge" />
+      <p style={proseStyle}>
+        If you want one person who is the bridge from Surrealism into this new American painting, it is{' '}
+        <strong>Arshile Gorky</strong>, and he deserves more than the word &ldquo;bridge.&rdquo; He was born
+        Vostanik Manoug Adoian around 1904 in Ottoman Armenia, survived the Armenian Genocide (the mass killing
+        and deportation of Armenians during the First World War), reached America as a young man, and reinvented
+        himself wholesale, taking the name Arshile Gorky and a half-invented past to go with it. He spent the
+        1930s working through Cézanne and Picasso almost like a syllabus, and in the 1940s found his own voice by
+        fusing automatism with abstraction. Then his luck collapsed: a 1946 studio fire destroyed much of his
+        work, cancer followed, and in 1948 he died by suicide, just as the movement he had done so much to seed
+        was taking off. He opened the door and did not live to walk through it.
+      </p>
+      <RestrictedFigure
+        title={<>Gorky, <em>The Liver Is the Cock&rsquo;s Comb</em></>}
+        year="1944 · Buffalo AKG Art Museum"
+        note="A large, turbulent canvas of biomorphic near-shapes in acid color, somewhere between a body-map and a hallucination. The literal hinge from Surrealist automatism to Abstract Expressionism. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/The_Liver_Is_the_Cock%27s_Comb"
+      />
+
+      <SectionHeader accent={accent} label="The teacher, the WPA, the bomb" title="The ground it grew from" />
+      <p style={proseStyle}>
+        The Americans changed automatism on the way. The Surrealists used it to dredge up dream-images; the
+        Americans (Pollock, Gorky, the young Robert Motherwell) kept the part where the hand runs unsupervised
+        but dropped the dream-pictures. What was left was pure{' '}<strong>gesture</strong>{' '}(the physical mark of
+        the artist&rsquo;s moving hand and body, the brushstroke or poured line as a direct trace of motion).
+        There was a second European who stayed:{' '}<strong>Hans Hofmann</strong>, who ran an art school in New
+        York and Provincetown that nearly every American modernist passed through. He preached &ldquo;push and
+        pull,&rdquo; that flat patches of color, arranged right, can make a flat canvas seem to advance and
+        recede without ever pretending to be a window. He taught the Americans to treat a painting as an object
+        in its own right rather than a picture of something. (Lee Krasner, important later in this read, studied
+        with him.)
+      </p>
+      <p style={proseStyle}>
+        None of these painters could have kept working through the 1930s without help, and it came from the
+        government. The{' '}<strong>WPA</strong>{' '}Federal Art Project (part of the Works Progress
+        Administration, the New Deal program that put millions of unemployed Americans to work in the
+        Depression) paid artists a modest salary to make art. Pollock, de Kooning, Gorky, Krasner and Rothko all
+        drew WPA paychecks, and it kept them alive and, just as important, in the same city, broke and ambitious
+        together. Then came the war&rsquo;s end and the bomb. Painters who had lived through a global slaughter
+        and a weapon that could erase a city wanted a painting equal to that weight, and many turned to myth,
+        ritual and the unconscious. Their ambition got a public statement in 1943, when Adolph Gottlieb and Mark
+        Rothko, with Barnett Newman, wrote to the New York Times in reply to a critic, Edward Alden Jewell, who
+        had dismissed their work. The line they all stood on:{' '}<em>there is no such thing as good painting
+        about nothing.</em>
+      </p>
+
+      <SectionHeader accent={accent} label="The bar and the Club" title="The room where it got argued" />
+      <p style={proseStyle}>
+        A movement is not only paintings; it is the room where the painters argue, and for this one there were
+        two, a block apart in Greenwich Village. The first was a bar. The{' '}<strong>Cedar Tavern</strong>{' '}(the
+        Cedar Street Tavern, 24 University Place) was the social engine from about 1950: a plain, smoky place
+        where Pollock, de Kooning, Kline, Joan Mitchell, Krasner and Frankenthaler drank, argued theory and
+        money, threw punches, slept with each other, and made and broke reputations over a night. Pollock once
+        tore the men&rsquo;s-room door off its hinges. The second room was the brain.{' '}
+        <strong>The Artists&rsquo; Club</strong>, known as &ldquo;the Club&rdquo; (founded 1949, 39 East 8th
+        Street), held Friday-night panels and debates: artists and critics hashing out what abstraction was for
+        and what &ldquo;the sublime&rdquo; meant in a Manhattan loft. The Cedar supplied the heat and the Club
+        the talk, and between them they were the movement&rsquo;s Montmartre.
+      </p>
+      <p style={proseStyle}>
+        That is the ground: refugees with a method, a hinge-figure who fused it with abstraction, a teacher with
+        a theory, a jobs program that kept everyone together, a war that demanded a heavy painting, and a bar
+        and a club where it got argued into shape. Out of it grew one idea, that a painting need not be{' '}
+        <em>of</em>{' '}anything, which is what people meant by{' '}<strong>Abstract Expressionism</strong>:
+        abstract, with no recognizable subject, and expressionist, made to deliver raw feeling. That one idea
+        promptly split into two wings that look like opposites. The next two chapters take them one at a time.
+      </p>
+    </article>
+
+    <MeanwhileSheet
+      region="Paris"
+      title="The capital that did not come back"
+      body="The city that had been the capital of art for a century came out of the Occupation exhausted and broke, its leading avant-garde scattered or in exile. The center of gravity did not so much leave Paris as fail to return to it. Critics still argue about exactly when New York won, but by the early 1950s the international art world was watching New York, not Paris, for the next move."
+    />
+  </>
+)
+
+// ── 2. The canvas as an arena ───────────────────────────────
+const AbexArenaNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The floor" title="Pollock and the pour" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he picture most people have in their heads when they hear &ldquo;Abstract Expressionism&rdquo; is one
+        man flinging paint, and the man is{' '}<strong>Jackson Pollock</strong>{' '}(1912&ndash;1956). He was a
+        Westerner, born in Cody, Wyoming, raised in Arizona and California, and he carried a cowboy-loner persona
+        into the New York art world, romanticizing Native American sand-painting (made by trickling colored sand
+        onto the ground) as a model for an art made flat on the floor. The heavy drinking that would eventually
+        kill him was already part of his life during these peak years, not just at the end. Around 1947 he did
+        something that sounds simple and was not: he took the canvas off the easel and laid it on the floor of
+        his barn studio on Long Island, then walked around all four sides and flung, dripped and poured thinned
+        house enamel from a stick, letting the paint fall in long looping skeins. In his statement
+        &ldquo;My Painting&rdquo; he said the floor let him feel nearer the work, able to walk around it and
+        &ldquo;literally be in the painting.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        Picture the result.{' '}<em>Autumn Rhythm (Number 30)</em>{' '}of 1950 is almost nine feet tall and more
+        than seventeen wide, a wall of poured and dripped line in black, white and tan, threads crossing and
+        looping over the whole surface. There is no figure, no horizon, no center; your eye cannot rest on a
+        main thing because there is no main thing, the density the same in the corners as in the middle. Critics
+        named it the{' '}<strong>all-over composition</strong>{' '}(a picture with no focal point and no hierarchy,
+        the same all the way across, more like a field or a weather system than a scene).{' '}
+        <em>One: Number 31, 1950</em>, from the same peak year, is an even denser tangle of black, white and grey
+        drips at the same mural scale.
+      </p>
+      <RestrictedFigure
+        title={<>Pollock, <em>Autumn Rhythm (Number 30)</em></>}
+        year="1950 · The Metropolitan Museum of Art"
+        note="A web of poured and dripped paint running edge to edge with no center, almost nine feet tall and seventeen wide, made on the floor from all four sides. The subject is no longer what you see; it is the act of painting itself. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Autumn_Rhythm_(Number_30)"
+      />
+
+      <SectionHeader accent={accent} label="“Action painting”" title="A critic’s word, one wing only" />
+      <p style={proseStyle}>
+        The critic Harold Rosenberg gave this kind of work a name that stuck:{' '}<strong>action painting</strong>.
+        The phrase means what it says: the painting is the record of an action, the physical act of the artist
+        moving and marking, frozen on the surface. The canvas, Rosenberg wrote, had become &ldquo;an arena in
+        which to act.&rdquo; Two warnings, both load-bearing. First, it is a critic&rsquo;s word, coined in 1952,
+        not a name the painters chose; Pollock never called himself an action painter. Second, it describes this
+        wing only. The color-field painters in the next chapter are not action painters, and calling them that
+        gets the whole movement wrong. And the legend oversells the originality: pouring paint had been tried
+        before, and the deeper idea, letting the unconscious and chance compose, came straight from Surrealist
+        automatism. What Pollock did was build a whole new way of painting out of it, at a scale and commitment
+        nobody had matched. That is the honest claim, and it is plenty.
+      </p>
+
+      <SectionHeader accent={accent} label="de Kooning, Kline" title="The Woman, and the girders" />
+      <p style={proseStyle}>
+        The gesture wing was not all abstraction.{' '}<strong>Willem de Kooning</strong>{' '}(1904&ndash;1997), a
+        Dutchman who had stowed away to America in 1926, kept the human figure when nearly everyone dropped it.
+        His{' '}<em>Woman I</em>{' '}(1950&ndash;52) is a ferocious, toothy, more-than-life-size female figure
+        built of slashing, scraping strokes, the paint dragged and reworked over months until the whole surface
+        looks fought-over. It scandalized both camps at once: the avant-garde thought he had betrayed abstraction
+        by keeping a recognizable woman, traditionalists thought the woman a monstrous insult to painting. He had
+        managed to be figurative and abstract in the same picture, and to make everyone angry, which is one
+        definition of being ahead of your time.
+      </p>
+      <RestrictedFigure
+        title={<>de Kooning, <em>Woman I</em></>}
+        year="1950–52 · MoMA, New York"
+        note="A ferocious, toothy, more-than-life-size female figure built of slashing strokes, reworked over months. Figurative and abstract at once, it made the avant-garde and the traditionalists equally furious. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Woman_I"
+      />
+      <p style={proseStyle}>
+        <strong>Franz Kline</strong>{' '}(1910&ndash;1962) went the other way, into pure black-and-white
+        abstraction at the scale of a wall. His{' '}<em>Chief</em>{' '}(1950) looks like a few enormous brush-marks,
+        thick black girders of house-paint crossing a white ground, blown up so large they read like
+        architecture or the skeleton of a bridge. The title is the name of a locomotive Kline knew as a boy, and
+        the pictures have that heavy, mechanical weight, as if a single calligrapher&rsquo;s stroke had been
+        enlarged until you could walk into it. Pollock&rsquo;s web, de Kooning&rsquo;s slashing figure,
+        Kline&rsquo;s black beams: three painters who agreed only that the act of painting, the gesture itself,
+        was now the thing worth putting on the wall.
+      </p>
+    </article>
+
+    <MeanwhileSheet
+      region="Long Island, 1950"
+      title="The camera makes a legend"
+      body="A photographer named Hans Namuth filmed and photographed Pollock at work in the barn, circling a canvas on the floor with paint trailing from the stick, even shooting up through a sheet of glass so the camera looked through the painting as it was made. The films turned the studio into a stage and made Pollock a celebrity, fixing the image of the heroic male genius in his element, which is part of why the myth attached so hard to this one man."
+    />
+  </>
+)
+
+// ── 3. Fields of color ──────────────────────────────────────
+const AbexFieldsNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The opposite move" title="Rothko’s rectangles" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he other half of Abstract Expressionism looks like the calm after Pollock&rsquo;s storm, and it is just
+        as radical. The{' '}<strong>color-field</strong>{' '}painters (the term means painting built from large,
+        simple, mostly unbroken areas of color rather than from gesture or drawing) wanted not the trace of a
+        frantic act but stillness, vastness, and a kind of glow. Their patron saint is{' '}
+        <strong>Mark Rothko</strong>{' '}(1903&ndash;1970). A mature Rothko is two or three soft-edged rectangles
+        of color, stacked and hovering on a larger field of a different color, the edges feathered so the blocks
+        seem to float and pulse rather than sit flat.{' '}<em>Orange and Yellow</em>{' '}(1956) is a luminous yellow
+        block above an orange one, serene and radiant.
+      </p>
+      <p style={proseStyle}>
+        The point was scale and closeness. Rothko made the canvases big and wanted them hung low and seen from a
+        few feet away, so the color fills your whole field of vision and you stand inside it rather than in front
+        of it. He hated being called an abstractionist or a colorist; he insisted his real subject was raw human
+        emotion, tragedy and ecstasy and doom, and that a person who wept in front of his paintings had
+        understood them better than one admiring the color relationships. The rectangles were the door, not the
+        subject. You can read the man straight off the canvas: over the years his palette darkened with his mood,
+        from the glowing orange-and-yellow of the mid-1950s to the near-black of his last work as his depression
+        deepened, so the pigment itself becomes a record of where he was.
+      </p>
+      <RestrictedFigure
+        title={<>Rothko, <em>Orange and Yellow</em></>}
+        year="1956 · Buffalo AKG Art Museum"
+        note="A luminous yellow block hovering above an orange one, soft-edged so the color seems to float and pulse, built big and meant to be seen up close so it fills your whole vision. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Mark_Rothko"
+      />
+
+      <SectionHeader accent={accent} label="The Seagram refusal" title="Walking away from the money" />
+      <p style={proseStyle}>
+        Two stories show how seriously Rothko meant it. In 1958 he took a lucrative commission to paint murals
+        for the Four Seasons, an expensive restaurant in the new Seagram Building, worked over a year on dark,
+        wine-colored canvases built around looming portal shapes, then walked away from the money and pulled the
+        commission, unwilling to let his art hang as decor for rich diners. He later gave nine of the Seagram
+        murals to the Tate in London, where, by a grim coincidence, they arrived on 25 February 1970, the day he
+        was found dead in his studio, having taken his own life. His final project was the{' '}
+        <strong>Rothko Chapel</strong>{' '}in Houston, an eight-sided, octagonal room holding fourteen of his
+        canvases, nearly black, made not as pictures to look at but as an environment to sit inside: a place, not
+        a painting.
+      </p>
+
+      <SectionHeader accent={accent} label="Newman, Still" title="The zip and the cliffs" />
+      <p style={proseStyle}>
+        If Rothko was the wing&rsquo;s mystic,{' '}<strong>Barnett Newman</strong>{' '}(1905&ndash;1970) was its
+        theorist of the void. His whole art turns on a single device he called the{' '}<strong>&ldquo;zip&rdquo;</strong>:
+        one thin vertical band of color running the full height of the canvas, dividing and charging an otherwise
+        empty field. He found it in 1948 in a modest maroon canvas,{' '}<em>Onement I</em>, split top to bottom by
+        a single ragged orange stripe (the title is an old root of &ldquo;atonement,&rdquo; the state of being
+        made one). The masterpiece is{' '}<em>Vir Heroicus Sublimis</em>{' '}(1950&ndash;51), a vast red field
+        nearly eight feet tall and almost eighteen wide, crossed by a few thin zips, meant to be stood in front
+        of so close it fills your sight. The Latin means roughly &ldquo;man, heroic and sublime,&rdquo; and that
+        is the claim: that an abstract American painting could reach the{' '}<strong>sublime</strong>{' '}(the old
+        idea of a beauty so vast it tips past pleasure into awe and dread). Newman wrote the wing&rsquo;s credo
+        in 1948 and titled it, with no hedging, &ldquo;The Sublime Is Now.&rdquo;
+      </p>
+      <RestrictedFigure
+        title={<>Newman, <em>Vir Heroicus Sublimis</em></>}
+        year="1950–51 · MoMA, New York"
+        note="A vast red field nearly eight feet tall and almost eighteen wide, crossed by a few thin vertical “zips,” meant to be stood in front of so close it fills your sight. An abstract painting reaching for the sublime. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Vir_Heroicus_Sublimis"
+      />
+      <p style={proseStyle}>
+        The most extreme of the field painters, and arguably the first of them to the pure field, was{' '}
+        <strong>Clyfford Still</strong>{' '}(1904&ndash;1980). He arrived at the large vertical color-field format
+        early, in the early-to-mid 1940s, before either Rothko or Newman had settled into theirs, which makes him
+        a founder of color-field painting and not merely its hermit. His canvases are huge and dark, built from
+        torn, ragged vertical sheets of thick paint that look like cliffs or peeling bark, with bright flashes of
+        color stranded and violent against the charcoal dark, like a torn map of a country that does not exist.
+        He despised the market, hoarded most of his own output, and arranged for it to go to a single dedicated
+        museum (now in Denver) rather than be scattered and sold. Three painters, one wing: Rothko&rsquo;s
+        floating veils, Newman&rsquo;s single charged line, Still&rsquo;s torn cliffs, all aiming at stillness
+        and immensity, the same towering ambition as the gesture painters pointed the opposite way. Not the
+        record of an act. The field itself.
+      </p>
+    </article>
+  </>
+)
+
+// ── 4. Two critics, one fight ───────────────────────────────
+const AbexCriticsNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Going public" title="The Irascibles and the 9th Street Show" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore the critics crowned anyone, the painters announced themselves. In May 1950 eighteen of them signed
+        an open letter protesting the Metropolitan Museum&rsquo;s conservative jury for a big exhibition of
+        American art, and the magazine LIFE photographed the group, a glowering huddle of painters in suits that
+        ran in January 1951 under the nickname the{' '}<strong>Irascibles</strong>. It was the movement&rsquo;s
+        first public collective act, the moment it cohered into a recognizable group. The next year they did it
+        with art. In the spring of 1951 the painters themselves, with help from the dealer Leo Castelli, rented
+        an empty storefront at 60 East 9th Street and hung the{' '}<strong>9th Street Show</strong>{' '}(the
+        &ldquo;9th Street Exhibition of Paintings and Sculpture&rdquo;), a sprawling self-organized group show of
+        Pollock, de Kooning, Kline, Rothko, Newman, Krasner, Frankenthaler and some sixty others. It was the
+        public declaration that a New York School now existed, mounted not by a museum but by the artists in a
+        rented room.
+      </p>
+
+      <SectionHeader accent={accent} label="Rosenberg" title="The painting as an event" />
+      <p style={proseStyle}>
+        Here is a thing the legend leaves out: the painters did not make their own reputations alone. Two New
+        York critics did much of it for them, and they could not stand each other. The first was{' '}
+        <strong>Harold Rosenberg</strong>, the poet-critic of the pair, who drank with the painters at the Cedar
+        and wrote about painting as if he were flinging the paint himself, all heat and motion. In December 1952
+        he published &ldquo;The American Action Painters&rdquo; in ARTnews, the single most influential piece of
+        writing the movement produced, and its core idea is that a painting is no longer a picture but an{' '}
+        <strong>event</strong>. The canvas had become &ldquo;an arena in which to act&rdquo;; what ends up on the
+        wall is the trace of a man facing a blank surface and doing something on it, an existential act more than
+        an image. (Existential here points to the philosophy of the day, that a person&rsquo;s choices and acts,
+        made in the face of a meaningless universe, are what define them.) For Rosenberg the drama was the doing;
+        the painting was the leftover proof. &ldquo;Action painting&rdquo; was his coinage, and it fit the
+        gesture wing like a glove and Rothko&rsquo;s still fields not at all, which is why it belongs to one wing
+        only.
+      </p>
+
+      <SectionHeader accent={accent} label="Greenberg" title="The painting as an object" />
+      <p style={proseStyle}>
+        The rival was{' '}<strong>Clement Greenberg</strong>, the opposite kind of man and critic: a cold-eyed
+        ex-Trotskyist (once a follower of the revolutionary Leon Trotsky) turned the most exacting formalist of
+        his generation, who believed, simply and without much doubt, that he was right, and had the power to
+        match it, since a Greenberg review could make or break a career. He was a{' '}<strong>formalist</strong>,
+        meaning he held that the meaning of a painting lives in its physical form, its color, shape and surface,
+        not in any story, emotion or &ldquo;act&rdquo; behind it. His big idea was{' '}<strong>flatness</strong>:
+        painting had spent five centuries pretending a flat canvas was a deep space, and the whole march of
+        modern art was painting slowly admitting the one thing that made it itself, that it is flat, a stretched
+        cloth covered in color. Abstract Expressionism, in his reading, was the next step in that purification.
+        He championed Pollock early (from the early 1940s, writing the &ldquo;Art&rdquo; column in The Nation, he
+        was praising Pollock by 1943, before the drip paintings and the fame) and, years later, turned on him,
+        backing instead the staining color painters who came after. He laid out the theory in
+        &ldquo;American-Type Painting&rdquo; (1955).
+      </p>
+
+      <SectionHeader accent={accent} label="The machine" title="Why the rivalry matters" />
+      <p style={proseStyle}>
+        So two clean opposites fought over the same pictures. Rosenberg: the painting is an event, the record of
+        a self in action. Greenberg: the painting is an object, pure flat optical form, the next move in
+        modernism&rsquo;s logic. They backed different artists, wrote in different magazines, and their dislike
+        was personal and vicious, not merely a clash of theories, and that quarrel is not a footnote. It is part
+        of how the canon got built. And the dealers were the other half of the machine. The single most
+        important early platform was the{' '}<strong>Betty Parsons Gallery</strong>, which opened in 1946 and gave
+        the movement its first real commercial home: Pollock (from 1947), Rothko, Newman and Still all showed
+        there between 1947 and 1952, before Sidney Janis lured several away to a more established gallery. A
+        movement that distrusted the market still ran on it. A painting did not become a masterpiece by hanging
+        on a wall; someone with a typewriter and a magazine, and someone with a gallery and a price list, had to
+        say so first.
+      </p>
+    </article>
+  </>
+)
+
+// ── 5. The women written out ────────────────────────────────
+const AbexCutNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The myth and the names" title="Half the people in the room" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he story Abstract Expressionism told about itself starred a handful of heroic men: the lone genius in his
+        studio, fighting paint, drinking hard, making history with his body. It is a thrilling story, and it is
+        missing half the people who were in the room. A whole cohort of serious women painters helped make this
+        movement and were written out of it, dismissed as wives or &ldquo;lady painters,&rdquo; left out of the
+        big shows and the big essays, and largely forgotten until art historians went looking again in recent
+        decades. Naming them is not a courtesy. It is correcting the record.
+      </p>
+      <p style={proseStyle}>
+        Start with{' '}<strong>Lee Krasner</strong>{' '}(1908&ndash;1984), the textbook case. A rigorously trained
+        painter who had studied with Hofmann and a major artist in her own right, she happened to marry Jackson
+        Pollock, and for decades the art world filed her under &ldquo;Pollock&rsquo;s wife,&rdquo; which suited
+        the genius myth and buried a real career. In fact she kept painting at full power for nearly thirty years
+        after Pollock&rsquo;s death, and some of her boldest, largest work, surging fields of organic
+        pink-and-green forms like{' '}<em>The Seasons</em>{' '}(1957), came in exactly the years the legend had
+        decided she was a footnote.
+      </p>
+      <RestrictedFigure
+        title={<>Lee Krasner, <em>The Seasons</em></>}
+        year="1957 · Whitney Museum of American Art"
+        note="Surging fields of organic pink-and-green forms, nearly seventeen feet wide, painted in the years after Pollock’s death when the legend had filed her under “the wife.” Under copyright, so it lives here in words."
+        linkLabel="See her on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Lee_Krasner"
+      />
+
+      <SectionHeader accent={accent} label="The soak-stain" title="Frankenthaler, and the credit" />
+      <p style={proseStyle}>
+        The single most consequential thing any woman did in this movement may be the most consequential thing
+        anyone did for what came after it. In 1952, at the age of twenty-three,{' '}
+        <strong>Helen Frankenthaler</strong>{' '}(1928&ndash;2011) made{' '}<em>Mountains and Sea</em>{' '}by pouring
+        thinned-down paint directly onto raw, unprimed canvas, so the color soaked into the weave like a stain on
+        cloth rather than sitting on top of it as a brushed skin. The result was soft, luminous veils of color,
+        suggesting a landscape without depicting one. She had invented the{' '}<strong>soak-stain</strong>, and it
+        became the literal bridge from Abstract Expressionism to the next movement.
+      </p>
+      <RestrictedFigure
+        title={<>Frankenthaler, <em>Mountains and Sea</em></>}
+        year="1952 · National Gallery of Art (long-term loan)"
+        note="Thinned paint poured into raw, unprimed canvas so the color soaks in like a stain: soft luminous veils suggesting a landscape without depicting one. Painted at 23, it founded the soak-stain and launched Color Field. Under copyright, so it lives here in words."
+        linkLabel="See it on Wikipedia"
+        href="https://en.wikipedia.org/wiki/Mountains_and_Sea"
+      />
+      <p style={proseStyle}>
+        There were more.{' '}<strong>Joan Mitchell</strong>{' '}(1925&ndash;1992) made lush, slashing gestural
+        abstractions that turn memories of landscape into storms of color, working much of her life in France.{' '}
+        <strong>Elaine de Kooning</strong>{' '}(1918&ndash;1989) was a painter and a sharp, widely read art critic
+        at once, writing the reviews that shaped opinion in the very scene that overlooked her own canvases.{' '}
+        <strong>Grace Hartigan</strong>{' '}(1922&ndash;2008) was among the most respected painters of the younger
+        New York generation in the 1950s. Each was a central New York School artist; each was, for decades,
+        treated as a minor character in a story about men.
+      </p>
+      <p style={proseStyle}>
+        Here is the sharpest version of the injustice. Two younger painters, Morris Louis and Kenneth Noland, saw{' '}
+        <em>Mountains and Sea</em>, picked up Frankenthaler&rsquo;s soak-stain, and built it into Color Field
+        painting, and it was those two men, not the woman who invented the method, who collected most of the
+        founding credit for the movement that grew straight out of her experiment. A young woman worked out how
+        paint should meet cloth, and two men walked through the door she opened and got their names on it.
+      </p>
+    </article>
+  </>
+)
+
+// ── 6. A weapon and a wreck ─────────────────────────────────
+const AbexWeaponNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The CIA, told straight" title="A weapon nobody asked to be" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the 1950s Abstract Expressionism became a tool of American foreign policy, and most of the painters
+        never knew. This is a real story with a documented record, and it is easy to tell badly in either
+        direction, so here it is carefully. During the early Cold War the United States was competing with the
+        Soviet Union in culture as well as weapons, and the Soviets pointed to their official art,{' '}
+        <strong>socialist realism</strong>{' '}(heroic, legible, propagandistic paintings of happy workers and
+        strong leaders), as proof of a healthy society. American officials wanted a counter-image, and Abstract
+        Expressionism made a perfect one: free, individual, expressive, abstract, the visual opposite of
+        state-dictated realism.
+      </p>
+      <p style={proseStyle}>
+        The promotion was covert. Working largely through a front organization called the{' '}
+        <strong>Congress for Cultural Freedom</strong>{' '}and a web of foundations, the CIA secretly funded
+        exhibitions and magazines that showcased this American painting abroad, roughly from 1950 into the late
+        1960s; the historian Frances Stonor Saunders documented the operation in{' '}<em>The Cultural Cold War</em>{' '}
+        (1999). Now the careful part, both ways. The CIA did not create Abstract Expressionism; the painters had
+        invented it on their own years earlier, and most of them never learned their work had been used this way,
+        and they were not agents of anything. The accurate statement is narrow and strange enough on its own: a
+        secret arm of the American state quietly used these paintings, made by mostly left-leaning artists who
+        would have been horrified, as a Cold War advertisement for American freedom. Not a fake movement, not a
+        conspiracy that painted the pictures. State patronage that hijacked art the painters thought was nobody&rsquo;s
+        business but their own.
+      </p>
+
+      <SectionHeader accent={accent} label="Pollock’s wreck" title="The end of the man at the center" />
+      <p style={proseStyle}>
+        The man at the center of the myth did not get to enjoy it for long. Jackson Pollock was a lifelong
+        alcoholic, and his drinking got worse as his fame grew and his painting stalled. On the night of 11
+        August 1956, drunk, he drove his car off a road near his home in Springs and crashed into the trees. He
+        was killed, and so was a young woman riding with him, Edith Metzger; a second passenger, Ruth Kligman,
+        survived. Pollock was forty-four. There is nothing romantic in it, and it is worth resisting the urge to
+        make the death part of the legend, the way the legend wants. A man whose drinking had worsened as his
+        fame grew drank himself into a state where he killed himself and an innocent passenger with a car. The
+        heroic-genius story tends to launder that into tragic poetry, which is one more thing the honest version
+        refuses to do.
+      </p>
+
+      <SectionHeader accent={accent} label="What it left" title="The center, and the reaction" />
+      <p style={proseStyle}>
+        What the movement left behind is enormous, and it outlasted every one of these quarrels. Abstract
+        Expressionism moved the center of the art world to New York and kept it there for a generation, and it
+        set the terms everything afterward had to answer: the giant scale, the abstraction, the heroic gesture,
+        and the whole modern machinery of dealers, critics and a market that turns living artists into stars. Its
+        direct heir was{' '}<strong>Color Field</strong>{' '}painting, which ran straight out of
+        Frankenthaler&rsquo;s soak-stain through Morris Louis and Kenneth Noland and gave you the pure glowing
+        field with the gesture drained out.
+      </p>
+      <p style={proseStyle}>
+        The two movements that came next had a simpler choice: match this art&rsquo;s huge, earnest,
+        self-serious scale, or mock it.{' '}<strong>Pop Art</strong>, built in a read parallel to this one, chose
+        mockery, trading the heroic inward self for the cool surfaces of advertising, comics and the supermarket.{' '}
+        <strong>Minimalism</strong>{' '}kept the scale and dumped the soul, holding onto the big empty field but
+        stripping out the drama and the personality for something impersonal, industrial and literal. Either way,
+        the next generation needed something enormous to push against, and Abstract Expressionism was it.
+      </p>
+    </article>
+  </>
+)
+
 export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
   cubism: {
     before: BeforeNarrative,
@@ -5332,6 +5826,14 @@ export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
     paper: PaperNarrative,
     public: PublicNarrative,
     after: AfterNarrative,
+  },
+  abex: {
+    crown: AbexCrownNarrative,
+    arena: AbexArenaNarrative,
+    fields: AbexFieldsNarrative,
+    critics: AbexCriticsNarrative,
+    cut: AbexCutNarrative,
+    weapon: AbexWeaponNarrative,
   },
   pop: {
     britain: PopBritainNarrative,
