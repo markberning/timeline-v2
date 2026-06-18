@@ -2600,6 +2600,573 @@ const FryPostImpNarrative: Narrative = ({ accent, onZoom }) => (
   </>
 )
 
+// ─────────────────────────────────────────────────────────────
+// Movement, Fauvism (1905–1908). The Modern era's first 20th-century revolt:
+// color cut loose from describing anything. Authored through the art content
+// pipeline (fact pack → Opus draft → 5 critic gates → reconcile); narrative
+// under 'fauv'. No em-dashes in shippable prose (house rule).
+// ─────────────────────────────────────────────────────────────
+const F_MONET = ['#3a6a8a', '#c8c050', '#1c2a30'] as [string, string, string]
+const F_GREEN = ['#8a7a3a', '#7a3a52', '#1c1810'] as [string, string, string]
+const F_VANGOGH = ['#7a1c1c', '#1c5a3a', '#0e0a06'] as [string, string, string]
+const F_LUXE = ['#3a6a8a', '#c8a04a', '#1c2a30'] as [string, string, string]
+const F_WINDOW = ['#d06a7a', '#3a8a8a', '#1c2a2a'] as [string, string, string]
+const F_HAT = ['#4a7a4a', '#8a4a7a', '#15110c'] as [string, string, string]
+const F_VLAMINCK = ['#bf2f25', '#1d4ed8', '#1c1c14'] as [string, string, string]
+const F_DUFY = ['#1d4ed8', '#bf2f25', '#c8b84a'] as [string, string, string]
+const F_DERAIN = ['#d06a2a', '#3a8a6a', '#d04a7a'] as [string, string, string]
+const F_BONHEUR = ['#d08a3a', '#3a8a5a', '#1c2218'] as [string, string, string]
+const F_DANCE = ['#bf3a52', '#1d4ed8', '#2a6a3a'] as [string, string, string]
+const PD_MONET = 'Public domain worldwide (Claude Monet died 1926). Wikimedia Commons.'
+const PD_VANGOGH_F = 'Public domain worldwide (Vincent van Gogh died 1890). Wikimedia Commons.'
+
+// ── 1. Color's old job ──────────────────────────────────────
+const ColorsOldJobNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The rule" title="The job color was hired to do" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or about four hundred years, color in a European painting was a servant, and everybody knew its
+        duties. Its first job was to tell you what things were: this fabric is blue, this apple red, this
+        cheek pink. Painters even had a word for that,{' '}<strong>local color</strong>, meaning the actual
+        settled color a thing is when you name it, the green of grass, the brown of a table, before any trick
+        of light gets to it. Color&rsquo;s second job was to fake roundness. By easing a hue from light into
+        shadow, a painter could make a flat smear of paint swell into an apple you feel you could pick up.
+        Color described, and color modeled. That was the whole of the assignment, and for four centuries it
+        never came up for review.
+      </p>
+      <p style={proseStyle}>
+        Even the great rule-breakers of the generation just before our story were still loyal to it. The
+        Impressionists, working in France from the 1870s, had done something that looked radical at the time:
+        instead of mixing a tidy brown on the palette, they shattered a scene into thousands of small bright
+        separate touches of pure color and let your eye blend them at a distance. It feels like a revolution,
+        and in handling it was. But look at what those touches are{' '}<em>for</em>. They are chasing real
+        light, the exact glitter of sun on a river at eleven in the morning, the specific blue a shadow turns
+        on snow. The Impressionists broke color into pieces in order to describe light more truthfully than
+        anyone ever had. They sped color up; they never let it off the leash.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={F_MONET}
+        imageUrl={ART_IMG.monetRegatta}
+        ratio="3/2"
+        alt="Monet, Regatta at Argenteuil"
+        caption={<>Color already broken into bright dabs, and still completely loyal: every touch of blue and white is reporting on real water and real sail in real sun.</>}
+        credit={<>Monet,{' '}<em>Regatta at Argenteuil</em>, c.1872 · Mus&eacute;e d&rsquo;Orsay, Paris</>}
+        rights={PD_MONET}
+      />
+
+      <SectionHeader accent={accent} label="The one move nobody had made" title="A face was never, ever green" />
+      <p style={proseStyle}>
+        So here is the rule, stated plainly, because the whole movement is one move against it: a painter could
+        be as bold, as bright, as broken-up as the Impressionists, and color still answered to the world. You
+        did not get to paint a thing a color it was not. A face was some shade of flesh. A tree trunk was some
+        shade of brown. The sky was not, under any circumstances, pink because you felt like it.
+      </p>
+      <p style={proseStyle}>
+        And then, over a few weeks in the summer of 1905, in a fishing port most people had never heard of, two
+        painters decided otherwise. A face could carry a green stripe. The stripe was allowed to mean nothing
+        but itself. Everything that follows in this story, the studios, the scandal, the wild band, the fast
+        death, turns on that single hinge.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={F_GREEN}
+        imageUrl={ART_IMG.matisseGreenStripe}
+        ratio="4/5"
+        alt="Matisse, The Green Stripe (Portrait of Madame Matisse)"
+        caption={<>The hinge itself: a vertical green stripe straight down a living face, cool side against warm. No face is green; the picture wanted it.</>}
+        credit={<>Matisse,{' '}<em>The Green Stripe</em>, 1905 · Statens Museum for Kunst, Copenhagen</>}
+        rights={PD_RIGHTS}
+      />
+    </article>
+  </>
+)
+
+// ── 2. Two studios, one fuse ────────────────────────────────
+const TwoStudiosNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris" title="The teacher who let go of the wheel" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>M</DropCap>
+        ost movements grow out of one circle. This one grew out of two, and they did not fully merge until a
+        train wreck and a dead painter pushed them together.
+      </p>
+      <p style={proseStyle}>
+        The first circle formed inside the{' '}<strong>&Eacute;cole des Beaux-Arts</strong>, the State art
+        school in Paris, in the studio of a teacher named{' '}<strong>Gustave Moreau</strong>. Moreau painted
+        lush, jewel-encrusted mythological scenes that have almost nothing to do with what his students became,
+        and that is exactly the point: he was unusually willing to leave his pupils alone. Where the academy
+        drilled students to sand every brushstroke smooth and copy the approved masters, Moreau told them to go
+        to the Louvre, yes, but also to go look at the street, and to paint how they actually saw. Through his
+        studio in the 1890s passed{' '}<strong>Henri Matisse</strong>, and around him a knot of friends,{' '}
+        <strong>Albert Marquet</strong>,{' '}<strong>Charles Camoin</strong>,{' '}<strong>Henri Manguin</strong>,{' '}
+        <strong>Jean Puy</strong>. These were the patient, schooled half of the future band, men who had been
+        drilled in the academy and were now being quietly let off the leash, as against the self-taught street
+        painters down the river at Chatou. Their wildness, when it came, would be the wildness of trained
+        painters deciding to misbehave on purpose.
+      </p>
+
+      <SectionHeader accent={accent} label="Chatou" title="A derailment near the river" />
+      <p style={proseStyle}>
+        The second circle had no school at all. In{' '}<strong>1900</strong>, on a stalled train near{' '}
+        <strong>Chatou</strong> (a riverside town just west of Paris, where the Seine loops through boating
+        country), two young men got to talking after a derailment:{' '}<strong>Andr&eacute; Derain</strong> and{' '}
+        <strong>Maurice de Vlaminck</strong>. They took a studio together on the riverbank and painted the
+        Seine side by side. Vlaminck was the opposite of the Moreau crowd, self-taught, broke, a part-time
+        racing cyclist and novelist who was loudly proud of never having set foot in a proper art school and
+        was hostile to museums on principle. Derain was younger, more curious, the one who would eventually
+        carry messages between the two worlds.
+      </p>
+
+      <SectionHeader accent={accent} label="Bernheim-Jeune · 1901" title="The dead Dutchman who lit the fuse" />
+      <p style={proseStyle}>
+        What welded the two circles was a show of a man who had been dead eleven years. In{' '}
+        <strong>1901</strong> the Bernheim-Jeune gallery in Paris mounted a{' '}<strong>retrospective</strong>{' '}
+        of{' '}<strong>Vincent van Gogh</strong> (a{' '}<em>retrospective</em>{' '}being a backward-looking survey
+        of a whole career, usually staged after the artist is gone). For the young painters it was a detonation.
+        Van Gogh had used color as raw feeling, a sky clawed in churning blue, a wall slapped down in acid
+        yellow, color cranked far past what the eye reports because the emotion demanded it. Vlaminck came out
+        of that room saying, in his famous remark, that he loved Van Gogh more than his own father. And it was
+        at the Van Gogh show that{' '}<strong>Matisse met Derain</strong>, the introduction that would, four
+        years later, take the two of them to a fishing port and make the movement.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={F_VANGOGH}
+        imageUrl={ART_IMG.vanGoghNightCafe}
+        ratio="5/4"
+        alt="Van Gogh, The Night Cafe"
+        caption={<>Color used as raw feeling, not description: Van Gogh said he tried to paint &ldquo;the terrible passions of humanity&rdquo; with clashing red and green. This is the fuse the young French painters lit themselves from.</>}
+        credit={<>Van Gogh,{' '}<em>The Night Caf&eacute;</em>, 1888 · Yale University Art Gallery</>}
+        rights={PD_VANGOGH_F}
+      />
+      <p style={proseStyle}>
+        Van Gogh was one of three dead or fading fathers feeding the fuse. The second was{' '}
+        <strong>Paul Gauguin</strong>, who had laid color down in flat unbroken areas of hot, saturated, almost
+        arbitrary hue, a method he called{' '}<strong>Synthetism</strong> (boiling a scene down to a few
+        simplified flat shapes and bold colors rather than copying every detail). Many of those flat-color
+        pictures came out of Tahiti, where Gauguin had gone by way of France&rsquo;s colonial Pacific empire,
+        painting the islands and their people through a romanticizing, outsider&rsquo;s lens. It is worth saying
+        plainly, because the Fauves and their admirers rarely did: the &ldquo;freedom&rdquo; the young French
+        painters inherited from him as a purely formal trick (color let off the leash) reached them carrying a
+        colonial context none of them named. Gauguin&rsquo;s flat saturated patches shaped Derain in
+        particular. The third influence was the most disciplined of all, and Matisse went and lived inside it
+        for a summer.
+      </p>
+
+      <SectionHeader accent={accent} label="Saint-Tropez · 1904" title="The summer of dots" />
+      <p style={proseStyle}>
+        In the summer of{' '}<strong>1904</strong> Matisse went south to{' '}<strong>Saint-Tropez</strong> and
+        spent it with{' '}<strong>Paul Signac</strong>, the surviving champion of a method called{' '}
+        <strong>Divisionism</strong> (the technical name) or{' '}<strong>pointillism</strong> (the nickname that
+        stuck), the system Georges Seurat had invented in the 1880s of building a picture entirely out of small
+        separate dots of pure, unmixed pigment placed side by side so the eye fuses them. Matisse tried it
+        wholesale. The picture that came out,{' '}<em>Luxe, calme et volupt&eacute;</em>{' '}(1904), is a beach
+        scene of bathers stippled all over in tidy dots of pure color.
+      </p>
+      <p style={proseStyle}>
+        It matters because of what Matisse did{' '}<em>next</em>. He kept the lesson and threw away the rule.
+        The lesson was the pure unmixed color, pigment straight and bright, never muddied toward a
+        &ldquo;realistic&rdquo; tone. The rule he ditched was the tidy little dots and the patient optical
+        science behind them. What if you kept the pure tube color but laid it on in big, loose, emotional
+        strokes, with no obligation to describe the real light at all? That question is Fauvism, one summer
+        early, still in Matisse&rsquo;s head. The next summer he took it, and Derain, to the Mediterranean and
+        answered it on canvas.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={F_LUXE}
+        imageUrl={ART_IMG.matisseLuxe}
+        ratio="6/5"
+        alt="Matisse, Luxe, calme et volupté"
+        caption={<>The proto-Fauve picture: pure color, but still parceled into Signac&rsquo;s tidy dots. Matisse keeps the pure pigment and is about to throw the dots away.</>}
+        credit={<>Matisse,{' '}<em>Luxe, calme et volupt&eacute;</em>, 1904 · Mus&eacute;e d&rsquo;Orsay, Paris</>}
+        rights={PD_RIGHTS}
+      />
+    </article>
+
+    <MeanwhileSheet
+      region="Dresden"
+      title="A second wild band, forming blind"
+      body="In June 1905, the very year the French scandal breaks, four German architecture students in Dresden (Kirchner, Heckel, Schmidt-Rottluff and Bleyl) form a group they call Die Brucke and start pushing almost exactly the same idea, raw, anti-naturalistic, emotional color and deliberately crude force, with no knowledge of what is happening in Paris. They were lighting themselves from the same fuses, Van Gogh and Gauguin. The notion that color could be cut loose to carry feeling was in the European air, and it ignited in two countries at once."
+    />
+  </>
+)
+
+// ── 3. Collioure ────────────────────────────────────────────
+const CollioureNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Summer 1905" title="A fishing port near the border" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he movement was not made in Paris and not made at a Salon. It was made over a few weeks of one summer
+        in a small Mediterranean fishing port called{' '}<strong>Collioure</strong>, tucked against the Spanish
+        border in the far south of France. In{' '}<strong>early summer 1905</strong> Matisse, then in his
+        mid-thirties and badly short of money, invited Derain, eleven years younger, to come paint with him
+        there. They worked side by side in a southern light far harder and more saturated than anything in gray
+        Paris, and in those weeks they did the thing the whole fuse had been building toward: they pushed color
+        past description entirely.
+      </p>
+
+      <SectionHeader accent={accent} label="The method" title="Squeezing it straight from the tube" />
+      <p style={proseStyle}>
+        The method was almost insultingly simple, which is part of why it scandalized people. These were oil
+        paintings (oil paint being pigment ground into linseed oil, the standard medium of the era) made on
+        canvas, the stretched cloth that is both the surface a painter works on and, finished, the thing we mean
+        when we call a picture &ldquo;a canvas.&rdquo; Matisse and Derain squeezed{' '}
+        <strong>pure color straight from the tube</strong>{' '}onto that cloth, vermilion, cobalt, chrome yellow,
+        with little or no mixing to soften it toward anything a real harbor wears. They left bare white canvas
+        showing between the strokes, so the picture breathes and flickers instead of sealing shut like a window.
+        And they keyed the color to sensation rather than fact: if the heat and dazzle of the port made Matisse
+        want a pink wall and a turquoise boat next to an orange sail, he painted a pink wall and a turquoise boat
+        and an orange sail, and let the real local colors go hang.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={F_WINDOW}
+        imageUrl={ART_IMG.matisseOpenWindow}
+        ratio="4/5"
+        alt="Matisse, Open Window, Collioure"
+        caption={<>Painted that summer: a window onto pink and turquoise boats, the whole picture built of patches of pure color with no shading, no modeling, no window-illusion.</>}
+        credit={<>Matisse,{' '}<em>Open Window, Collioure</em>, 1905 · National Gallery of Art, Washington</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        <em>Open Window, Collioure</em>{' '}is the clean demonstration. You are looking through a window frame at
+        masts and water, and there is not one passage of &ldquo;realistic&rdquo; color in it: the inner wall is
+        a screen of pink and pistachio verticals, the boats are dabs of pink, the sea and sky are streaks of
+        pure blue, green and rose. Nothing is modeled into roundness. The whole canvas reads as a flat, bright,
+        patterned surface, a wall of color that happens to add up to a harbor. (This particular subject, a
+        window thrown open onto the world, becomes a Matisse signature he will paint for the next forty years;
+        it starts here.)
+      </p>
+
+      <SectionHeader accent={accent} label="Before the name" title="Made before it was named" />
+      <p style={proseStyle}>
+        By the end of that summer the thing existed. Back in Paris that autumn, carrying the Collioure
+        breakthrough with him, Matisse painted the portrait that would soon detonate at the Salon,{' '}
+        <em>Woman with a Hat</em>, his wife Am&eacute;lie shown with her face stroked in greens, violets and
+        oranges. Derain, for his part, had painted the Collioure harbor that summer in the same blaze. None of
+        it had a name yet, no critic had insulted it, no group had formed, no word like &ldquo;Fauvism&rdquo;
+        existed. That is the quiet fact this read most wants you to keep: the movement was fully invented, on
+        canvas, in a fishing port, before the art world had any idea what to call it or any chance to be
+        appalled. The appalling came in the autumn, in Paris, in a room that would get a nickname.
+      </p>
+    </article>
+  </>
+)
+
+// ── 4. The cage of wild beasts ──────────────────────────────
+const CageNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Autumn 1905" title="Room VII" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he pictures from Collioure, and from the other future Fauves, went on the wall that autumn at the{' '}
+        <strong>Salon d&rsquo;Automne</strong>, the &ldquo;Autumn Salon,&rdquo; a newer, more adventurous yearly
+        exhibition set up in 1903 by artists tired of the stuffy official Salon. (A{' '}<em>Salon</em>, in this
+        whole era, is the big public art exhibition where reputations were made or destroyed; by 1905 there were
+        several rival ones, the official Salon, the no-jury{' '}<strong>Salon des Ind&eacute;pendants</strong>,
+        and this Autumn Salon.) The 1905 edition opened on 18 October at the Grand Palais in Paris and hung the
+        new work together in one space,{' '}<strong>Room VII</strong>: Matisse, Derain, Vlaminck, Marquet,
+        Manguin, Camoin, the Dutchman{' '}<strong>Kees van Dongen</strong>{' '}and others, wall after wall of raw,
+        clashing, unmixed color with no shading to calm it down.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={F_HAT}
+        imageUrl={ART_IMG.matisseHat}
+        ratio="3/4"
+        alt="Matisse, Woman with a Hat"
+        caption={<>One wall of Room VII: a portrait of the artist&rsquo;s wife with her face stroked in green, violet and orange, hat and background built of pure color slabs. This is what the public walked in on.</>}
+        credit={<>Matisse,{' '}<em>Woman with a Hat</em>, 1905 · SFMOMA, San Francisco</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="Gil Blas · 17 October 1905" title="A polite marble caught in the wild" />
+      <p style={proseStyle}>
+        In the middle of that room, by chance, sat something from another world entirely: a small,
+        Renaissance-style marble{' '}<strong>bust</strong>{' '}by a sculptor named{' '}<strong>Albert Marque</strong>{' '}
+        (paired in Vauxcelles&rsquo;s own account with a child&rsquo;s torso nearby), all smooth classical
+        restraint, marooned in the blaze of color around it. The critic{' '}<strong>Louis Vauxcelles</strong>,
+        writing in the newspaper{' '}<em>Gil Blas</em>{' '}on{' '}<strong>17 October 1905</strong>{' '}(a preview, the
+        day before the Salon opened its doors to the public on the 18th), looked at the polite little marble
+        surrounded by the riot and wrote the line that named a movement:{' '}
+        <strong>&ldquo;Donatello chez les fauves.&rdquo;</strong>{' '}<em>Donatello among the wild beasts</em>,
+        Donatello being the great gentle sculptor of the Italian Renaissance,{' '}<em>les fauves</em>{' '}meaning
+        literally the wild beasts, the big predatory cats. The joke was that a civilized old-master sculpture
+        had wandered into a den of savages. The word{' '}<em>fauves</em>{' '}stuck. The room itself picked up a
+        nickname,{' '}<em>la cage aux fauves</em>, the cage of wild beasts. And so the movement got its name the
+        way it got everything else, from the outside, from an enemy, as an insult, and the painters kept it
+        because it was the only thing anyone agreed to call them.
+      </p>
+      <p style={italicStyle}>
+        The coinage has its own legend layer, which is fitting for a movement built on stories. In a 1939 book
+        Vauxcelles recalled that the comparison may have first come from an unknown bystander who muttered
+        something like it on the spot. Treat the 1905{' '}<em>Gil Blas</em>{' '}line as the documented origin and
+        the bystander as Vauxcelles&rsquo;s own much later memory.
+      </p>
+
+      <SectionHeader accent={accent} label="The rescue" title="The scandal, and the Steins" />
+      <p style={proseStyle}>
+        The public reaction was real and ugly. The work was called infantile, deranged, barely paintings at
+        all; critics reached for the oldest insult in the box, the idea of a picture as a pot of paint simply
+        flung in the public&rsquo;s face. (That exact &ldquo;pot of paint&rdquo; jeer is most securely
+        Ruskin&rsquo;s, hurled at Whistler back in 1877, and critics in 1905 were reaching for an off-the-shelf
+        insult more than coining a fresh one; the air was full of it.) The French president,
+        &Eacute;mile Loubet, reportedly declined to formally inaugurate the Salon, a small official cold
+        shoulder. Matisse, already poor and now publicly mocked, was demoralized.
+      </p>
+      <p style={proseStyle}>
+        And then, out of that same hostile room, came the rescue. Two Americans living in Paris,{' '}
+        <strong>Leo and Gertrude Stein</strong>, bought{' '}<em>Woman with a Hat</em>, the very portrait people
+        were laughing at, straight off the Salon wall for{' '}<strong>500 francs</strong>. (The face they bought
+        was Matisse&rsquo;s wife Am&eacute;lie, who modeled for him through these poverty years and helped keep
+        the household afloat while he painted; she is the woman in the hat, not a hired model.) For the broke and
+        stung Matisse it was a lifeline, and for modern art it was the start of something larger. The{' '}
+        <strong>avant-garde</strong>{' '}(the term, borrowed from the military, means the scouts who ride out
+        ahead of the main army, and it got pinned to the artists who got somewhere first) was acquiring its
+        first serious patrons. The Steins were really two households, Leo and Gertrude, and Henri&rsquo;s
+        brother Michael with his wife{' '}<strong>Sarah Stein</strong>, and it was Sarah and Michael who became
+        the more committed Matisse collectors of the two, Sarah even studying with him. Soon the Russian
+        collector{' '}<strong>Sergei Shchukin</strong>{' '}in Moscow began buying, and would end up Matisse&rsquo;s
+        single most prolific patron. A picture the public found unbearable, several people wanted enough to fight
+        over.
+      </p>
+    </article>
+  </>
+)
+
+// ── 5. The wild band ────────────────────────────────────────
+const WildBandNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1905–1907" title="Not a club, and not two men" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t is easy to shrink Fauvism to Matisse and Derain at Collioure, but the band that filled Room VII was
+        real and various, and the lazy labels (the angry one, the quiet one) do them a disservice. What held
+        them together was not a creed, there wasn&rsquo;t one, but a shared permission: color chosen for effect.
+        What they did with that permission ran from violent to decorative to almost shy.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={F_VLAMINCK}
+        imageUrl={ART_IMG.vlaminckChatou}
+        ratio="4/3"
+        alt="Vlaminck, The Seine at Chatou"
+        caption={<>A Seine-side town in pure, rhythmic, tube-fresh color, painted by the most violent colorist of the band, proudly self-taught and hostile to museums.</>}
+        credit={<>Vlaminck,{' '}<em>The Seine at Chatou</em>, 1906 · The Metropolitan Museum of Art, New York</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        <strong>Maurice de Vlaminck</strong>{' '}pushed the color hardest of anyone. He squeezed cobalt,
+        vermilion and chrome onto the canvas barely tamed, in thick, rhythmic, almost aggressive strokes,
+        painting the riverside towns west of Paris as if the landscape were on fire from inside. At the other
+        end stood{' '}<strong>Albert Marquet</strong>, who carried the bright Fauve key for only a season and
+        then quietly stepped back into calm, tonal, gray-blue harbor and river views that he painted serenely
+        for the rest of his life, the Fauve who tried the wildness on, found it wasn&rsquo;t him, and folded it
+        away.
+      </p>
+
+      <SectionHeader accent={accent} label="Le Havre, and cabaret" title="From the port, and from the stage" />
+      <p style={proseStyle}>
+        The label kept pulling in more. From the port city of{' '}<strong>Le Havre</strong>{' '}came two friends,{' '}
+        <strong>Raoul Dufy</strong>{' '}and{' '}<strong>Othon Friesz</strong>, both swept up after seeing
+        Matisse&rsquo;s work. Dufy became the most purely joyful of the Fauves: his{' '}
+        <em>Street Decked with Flags, Le Havre</em>{' '}(1906) takes an ordinary street strung with French
+        tricolor flags on a holiday and dissolves the whole thing into a confetti of bright Fauve patches, color
+        as sheer celebration. His friend Othon Friesz, drilled in the dull browns of the academy, said the hot
+        Fauve color came to him as a release, and for a few years he painted his home coast of Normandy in the
+        same bright key before the pull of C&eacute;zanne&rsquo;s structure drew him back toward weighed planes
+        and quieter tones.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={F_DUFY}
+        imageUrl={ART_IMG.dufyRuePavoisee}
+        ratio="4/5"
+        alt="Dufy, Street Decked with Flags, Le Havre"
+        caption={<>A holiday street of tricolor flags dissolved into bright Fauve patches, the buoyant, ornamental, purely happy wing of the movement.</>}
+        credit={<>Dufy,{' '}<em>La Rue pavois&eacute;e</em>, 1906 · Centre Pompidou, Paris</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        Then there was{' '}<strong>Kees van Dongen</strong>, a Dutchman in Paris who took Fauve color somewhere
+        none of the others did, into the world of glamour. He aimed the wild palette at fashionable society
+        portraits, dancers and cabaret performers, hot greens and acid pinks on the faces of singers under stage
+        light. (He was, for a time, even a member of the German Die Br&uuml;cke group, a living bridge between
+        the French and German strands of the same impulse.)
+      </p>
+
+      <SectionHeader accent={accent} label="London" title="Derain&rsquo;s burning Thames" />
+      <p style={proseStyle}>
+        Monet had already painted the Thames, famously, a few years before: bridges and water dissolved into
+        soft gray and lilac fog, the very breath of London weather. Then Derain went to London and painted the
+        same river flaming. The dealer{' '}<strong>Ambroise Vollard</strong>, sensing a market, had sent him
+        over in{' '}<strong>1906</strong>, and he came back with around thirty canvases, Charing Cross Bridge,
+        the Pool of London, Big Ben, in colors London simply does not wear: the Thames in orange and pink and
+        green, the sky a pure rose. It is one of the cleanest demonstrations of the whole point. The same city,
+        the same bridge, two painters, and the only difference is that one let the place choose the colors and
+        the other let the picture choose them.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={F_DERAIN}
+        imageUrl={ART_IMG.derainCharingCross}
+        ratio="5/4"
+        alt="Derain, Charing Cross Bridge, London"
+        caption={<>The Thames in flaming orange, pink and green, a Fauve answer to Monet&rsquo;s misty gray London: same river, colors it does not own.</>}
+        credit={<>Derain,{' '}<em>Charing Cross Bridge, London</em>, 1906 · National Gallery of Art, Washington</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="Salon des Indépendants · 1906" title="The high-water mark" />
+      <p style={proseStyle}>
+        The biggest single statement came from Matisse, at the spring 1906{' '}
+        <strong>Salon des Ind&eacute;pendants</strong>{' '}(the no-jury exhibition where anyone could show).{' '}
+        <em>Le Bonheur de vivre</em>, &ldquo;The Joy of Life,&rdquo; is enormous, nearly six feet by eight, and
+        it is the movement at full volume: a dreamy clearing full of nude figures lounging, dancing, embracing,
+        the bodies drawn in flowing simplified outlines and the whole scene flooded with flat, saturated,
+        clashing color, grass that goes orange and pink, trees that curl like ribbons, no shadow doing any
+        honest work anywhere. It was the grandest thing Fauvism produced, an entire imaginary arcadia built out
+        of the new freedom. It is also worth seeing clearly what that arcadia is: a European fantasy of a golden
+        age outside civilization, the kind of &ldquo;natural&rdquo; paradise the period routinely imagined
+        through non-Western bodies and landscapes. The art-historical name for that habit is primitivism, and it
+        is part of the colonial picture (the same one Gauguin sits inside) that Fauvism&rsquo;s &ldquo;freedom&rdquo;
+        has had to be reckoned with against, not waved away.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={F_BONHEUR}
+        imageUrl={ART_IMG.matisseBonheur}
+        ratio="4/3"
+        alt="Matisse, Le Bonheur de vivre"
+        caption={<>The movement at full volume: an arcadia of nudes in flat, saturated, clashing color, nearly six feet by eight. Many have read it as Picasso&rsquo;s prompt toward the Demoiselles.</>}
+        credit={<>Matisse,{' '}<em>Le Bonheur de vivre</em>, 1905&ndash;06 · Barnes Foundation, Philadelphia</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        It also became a turning point in a rivalry, though here the story has to be told carefully.{' '}
+        <em>Le Bonheur de vivre</em>{' '}was the sensation of 1906, and the following year Picasso unveiled{' '}
+        <em>Les Demoiselles d&rsquo;Avignon</em>{' '}(covered in depth in this era&rsquo;s Cubism reads). Many
+        people, then and since, have read the{' '}<em>Demoiselles</em>{' '}as Picasso&rsquo;s answer to
+        Matisse&rsquo;s arcadia, his attempt to outdo the reigning shock-picture of Paris. The rivalry was real
+        and the chronology fits, but no one can show that Picasso set out to beat Matisse; it is a reading the
+        pictures invite, not a plan anyone recorded. And the picture that supposedly provoked the{' '}
+        <em>Demoiselles</em>{' '}points, by the same stroke, at the thing about to kill Fauvism, because the{' '}
+        <em>Demoiselles</em>{' '}belongs to what came next.
+      </p>
+    </article>
+  </>
+)
+
+// ── 6. The air goes out ─────────────────────────────────────
+const AirGoesOutNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1907" title="Two events, one direction" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        auvism is the shortest of the great modern movements, and the reason it died so fast is almost as clean
+        as the reason it was born. Two events, both in 1907, pulled the air out of the room, and both pointed
+        the same way, away from color and toward{' '}<strong>structure</strong>.
+      </p>
+      <p style={proseStyle}>
+        The first was a dead painter&rsquo;s homecoming. In 1907 the Salon d&rsquo;Automne, the same Autumn
+        Salon that had birthed the scandal two years earlier, mounted a large{' '}
+        <strong>retrospective of Paul C&eacute;zanne</strong>, who had died the previous autumn. C&eacute;zanne
+        had spent his life doing the near-opposite of the Fauves: building a picture out of carefully weighed
+        planes, treating a landscape or a still life as a kind of architecture, the canvas as a solid
+        construction rather than a flush of feeling. He would let a single tabletop tilt at two angles at once,
+        or stack a hillside of houses into a pile of blocks, so that a painting felt assembled rather than
+        glimpsed. Seeing his whole career laid out at once swung the most ambitious young painters hard toward
+        that idea. Suddenly the live question was not &ldquo;what color does the picture want?&rdquo; but
+        &ldquo;how is the picture built?&rdquo;
+      </p>
+      <p style={proseStyle}>
+        The second event was that roomful of impossible women.{' '}
+        <strong>Picasso&rsquo;s{' '}<em>Les Demoiselles d&rsquo;Avignon</em></strong>{' '}(1907) cracked open the
+        door to{' '}<strong>Cubism</strong>, the movement that would take C&eacute;zanne&rsquo;s structural
+        obsession and run it to its limit, faceting the world into geometric planes. (The Cubism reads in this
+        era cover the{' '}<em>Demoiselles</em>{' '}and Cubism&rsquo;s birth in full; here it is enough that it
+        pulled the avant-garde the same direction C&eacute;zanne did, toward structure and away from hot
+        emotional color.)
+      </p>
+
+      <SectionHeader accent={accent} label="1908" title="The band scatters" />
+      <p style={proseStyle}>
+        With the wind blowing toward structure, the loose Fauve band came apart fast, because there was nothing
+        holding it together but a shared mood.{' '}<strong>Georges Braque</strong>, who had been a late and brief
+        Fauve (he caught the color only around 1906&ndash;07), spent the summer of{' '}<strong>1908</strong>{' '}at
+        L&rsquo;Estaque in the south shedding Fauve color and painting hard, blocky, cube-like landscapes. Those
+        very pictures gave the next movement its name, and the man who named it was Matisse: looking at
+        Braque&rsquo;s L&rsquo;Estaque canvases, he reportedly remarked to Vauxcelles that they were built of
+        little{' '}<em>cubes</em>, and the critic who had coined &ldquo;fauves&rdquo; now coined
+        &ldquo;Cubism.&rdquo; The leader of Fauvism had named the movement that would help kill it. Braque
+        became Picasso&rsquo;s Cubist partner.{' '}<strong>Derain</strong>, Matisse&rsquo;s Collioure partner,
+        cooled toward a darker, more structured, near-classical manner.{' '}<strong>Dufy</strong>{' '}and{' '}
+        <strong>Friesz</strong>{' '}also took up C&eacute;zanne&rsquo;s architecture. By around 1908 the group,
+        as a group, had effectively dissolved.
+      </p>
+      <p style={proseStyle}>
+        That endpoint is a soft one, worth saying plainly: the intense group phase runs roughly 1905 to 1908,
+        the last group-ish showings trail off around then, and stray pictures people still call &ldquo;Fauve&rdquo;
+        turn up a little later. The movement did not so much end on a date as evaporate, as one by one its
+        painters found a different question more interesting.
+      </p>
+
+      <SectionHeader accent={accent} label="25 December 1908" title="A creed that arrived too late" />
+      <p style={proseStyle}>
+        And it was in the middle of this scattering, on{' '}<strong>25 December 1908</strong>, that the nearest
+        thing Fauvism ever had to a statement finally appeared, far too late to be one. Matisse published an
+        essay,{' '}<strong>&ldquo;Notes of a Painter,&rdquo;</strong>{' '}in the Paris journal{' '}
+        <em>La Grande Revue</em>, answering the critics who still found the new painting baffling.{' '}
+        <strong>&ldquo;What I am after, above all, is expression,&rdquo;</strong>{' '}he wrote, and what he meant
+        by it was the whole arrangement of a picture, not any one thing in it:{' '}
+        <strong>&ldquo;Composition is the art of arranging in a decorative manner the diverse elements at the
+        painter&rsquo;s command to express his feelings.&rdquo;</strong>{' '}It is a clear, generous account of
+        how to paint, and it spoke for exactly one painter. By the time it ran, the band it might have rallied
+        had already walked off toward C&eacute;zanne and Cubism. The closest thing Fauvism had to a flag was
+        raised over an empty field.
+      </p>
+
+      <SectionHeader accent={accent} label="The afterlife" title="Matisse alone, and the permission that stays" />
+      <p style={proseStyle}>
+        So Fauvism ends almost the way it began, with no ceremony and no document, just a handful of painters
+        quietly walking off in a new direction. But one of them did not walk off. Matisse never went Cubist. He
+        carried the color project forward by himself for another forty-five years,{' '}<em>Dance</em>,{' '}
+        <em>The Red Studio</em>, and at the very end the great paper cut-outs, the single longest line drawn out
+        of those weeks at Collioure.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={F_DANCE}
+        imageUrl={ART_IMG.matisseDance}
+        ratio="3/2"
+        alt="Matisse, Dance (I)"
+        caption={<>Matisse alone carried the color project forward for another forty-five years: five figures, a few flat colors, the whole world reduced to blue, green and the red of moving bodies.</>}
+        credit={<>Matisse,{' '}<em>Dance (I)</em>, 1909 · Museum of Modern Art, New York</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        And the idea outlived the movement by a century. In the story Western painting tells about itself,
+        Fauvism is the first movement of the twentieth century and the first one made almost entirely by
+        scandal, and for all its looseness it did one enormous thing once and permanently: it broke the bond
+        between a color and the thing it was supposed to report. German Expressionism took that freedom and made
+        it anguished; Kandinsky took it and walked off the edge of the visible world into abstraction; Matisse
+        himself rode it for forty more years into the flat, glowing paper cut-outs of his old age. The band
+        lasted three years. What it won never went back.
+      </p>
+    </article>
+  </>
+)
+
 export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
   cubism: {
     before: BeforeNarrative,
@@ -2608,6 +3175,14 @@ export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
     paper: PaperNarrative,
     public: PublicNarrative,
     after: AfterNarrative,
+  },
+  fauv: {
+    oldjob: ColorsOldJobNarrative,
+    twostudios: TwoStudiosNarrative,
+    collioure: CollioureNarrative,
+    cage: CageNarrative,
+    band: WildBandNarrative,
+    airgoesout: AirGoesOutNarrative,
   },
   real: {
     why: WhyRealismNarrative,

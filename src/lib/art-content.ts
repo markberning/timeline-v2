@@ -67,6 +67,29 @@ export const ART_IMG = {
   monetCathedral: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Claude_Monet%2C_Rouen_Cathedral%2C_West_Fa%C3%A7ade%2C_Sunlight%2C_1894%2C_NGA_46654.jpg/1280px-Claude_Monet%2C_Rouen_Cathedral%2C_West_Fa%C3%A7ade%2C_Sunlight%2C_1894%2C_NGA_46654.jpg',
   apollinaire: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Guillaume_Apollinaire_1914.jpg',
   matisseDance: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Henri_Matisse%2C_1909%2C_La_danse_%28I%29%2C_Museum_of_Modern_Art.jpg/1280px-Henri_Matisse%2C_1909%2C_La_danse_%28I%29%2C_Museum_of_Modern_Art.jpg',
+  // ── Fauvism movement figures (born-verified 2026-06-18; subjects eyeballed) ──
+  // Paintings are 1872–1908; pre-1930 reproductions = US-PD. Monet d.1926 / Van
+  // Gogh d.1890 = PD worldwide; the Fauve painters (Matisse/Derain/Vlaminck/Dufy
+  // d.1953–58) are US-PD via pre-1930 publication.
+  monetRegatta: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Claude_Monet_-_Regattas_at_Argenteuil_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_Regattas_at_Argenteuil_-_Google_Art_Project.jpg',
+  matisseGreenStripe: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Matisse_-_Green_Line.jpeg/1280px-Matisse_-_Green_Line.jpeg',
+  matisseLuxe: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Matisse-Luxe.jpg/1280px-Matisse-Luxe.jpg',
+  matisseOpenWindow: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Matisse-Open-Window.jpg/960px-Matisse-Open-Window.jpg',
+  matisseBonheur: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Bonheur_Matisse.jpg',
+  matisseBlueNude: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Matisse_Souvenir_de_Biskra.jpg',
+  derainCharingCross: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Derain_CharingCrossBridge.png',
+  derainTurningRoad: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/The_Turning_Road%2C_L%C2%B4Estaque.jpg',
+  // The exact "Restaurant de la Machine at Bougival" is not on Wikimedia; a sibling
+  // 1906 Vlaminck Fauve canvas (the Seine at Chatou, where he had his studio) stands in.
+  vlaminckChatou: 'https://upload.wikimedia.org/wikipedia/en/2/21/SeineChatou.JPG',
+  dufyRuePavoisee: 'https://upload.wikimedia.org/wikipedia/commons/4/40/La_Rue_pavois%C3%A9e.jpg',
+  marquetFauve: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Posters_at_Trouville_Albert_Marquet_%281906%29.jpg',
+  // Artist portrait photos (pre-1930 = US-PD). Vlaminck + Marquet have no PD photo
+  // on Commons → gradient fallback in the artists row.
+  matissePhoto: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Henri_Matisse_photo_taken_by_Carl_Van_Vechten.jpg',
+  derainPhoto: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Andr%C3%A9_Derain_1928.jpg',
+  dufyPhoto: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Raoul_Dufy%2C_portrait_photograph.jpg',
+  vanDongenPhoto: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Kees_van_Dongen_1923.jpg',
   boccioniCity: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_City_Rises_by_Umberto_Boccioni_1910.jpg/1280px-The_City_Rises_by_Umberto_Boccioni_1910.jpg',
   duchampFountain: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg/1280px-Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg',
   grisBreakfast: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/1914_Gris_Le_Petit_D%C3%A9jeuner.jpg',
@@ -3739,6 +3762,128 @@ export const MOULIN_ROUGE: ArtWorkContent = {
 }
 
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
-export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, cubism: CUBISM }
+// ─────────────────────────────────────────────────────────────
+// Movement, Fauvism (1905–1908). The first 20th-century movement: color cut
+// loose from describing anything. Authored through the art content pipeline
+// (fact pack → Opus draft → 5 critic gates → reconcile → born-verified images);
+// narrative in movement-narratives.tsx under 'fauv'.
+// ─────────────────────────────────────────────────────────────
+export const FAUVISM: ArtMovementContent = {
+  id: 'fauv',
+  name: 'Fauvism',
+  range: '1905–1908',
+  span: '3 years',
+  era: 'Modern',
+  eraId: 'mod',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Movements of the Modern era', index: 4, total: 10 },
+  hook: 'Matisse paints a green stripe down his wife’s living face, and color stops having to tell the truth.',
+  hookLong:
+    'For roughly four hundred years in European painting, color had a job: tell you the dress is blue, the apple red, the shadow cool. For about three years after 1905, a loose band in France fired color from that job. A face could carry a green stripe, a road could run orange, a harbor could be pink and turquoise, not because anything was that color but because the picture wanted it. A hostile critic called them les fauves, the wild beasts. They never chose the name and never quite shook it, and the freedom it mocked outlasted everyone who laughed.',
+  heroImage: ART_IMG.matisseBonheur,
+  heroFit: 'cover',
+  heroFocus: '50% 50%',
+  heroCredit: 'Matisse, Le Bonheur de vivre (detail), 1905–06 · Barnes Foundation, Philadelphia',
+  stats: [
+    { v: '3 yrs', k: 'Span' },
+    { v: '12', k: 'Canonical works' },
+    { v: 'France', k: 'Centered on' },
+  ],
+  factions: [
+    { side: 'fauves', label: 'The wild beasts', color: ART_ACCENTS.rust, members: ['Matisse', 'Derain', 'Vlaminck', 'Marquet', 'Dufy', 'van Dongen'], detail: 'No manifesto, no meeting, no membership card. A loose band who agreed on one thing, color chosen for effect instead of accuracy, and who never picked the name they are now famous under.' },
+    { side: 'critics', label: 'The critics and patrons', color: '#7c6f5a', members: ['Louis Vauxcelles', 'the Salon public', 'the Steins', 'Ambroise Vollard'], detail: 'The hostile press that coined the insult les fauves, the public that called the room a scandal, and the dealers and American collectors who quietly turned that scandal into a market.' },
+  ],
+  works: [
+    { id: 'luxe', year: 1904, name: 'Luxe, calme et volupté', artist: 'Matisse', place: 'Saint-Tropez', size: 'm', blurb: 'The proto-Fauve picture, painted in pointillist dabs after a summer with Signac. Matisse keeps the pure color and is about to throw the dots away.', palette: ['#3a6a8a', '#c8a04a', '#1c2a30'], imageUrl: ART_IMG.matisseLuxe, credit: 'Matisse, Luxe, calme et volupté, 1904 · Musée d’Orsay, Paris' },
+    { id: 'green-stripe', year: 1905, name: 'The Green Stripe', artist: 'Matisse', place: 'Paris', size: 'm', blurb: 'A vertical green stripe straight down a living face, cool side against warm. The single most legible picture of color cut loose from description.', palette: ['#8a7a3a', '#7a3a52', '#1c1810'], imageUrl: ART_IMG.matisseGreenStripe, credit: 'Matisse, The Green Stripe, 1905 · Statens Museum for Kunst, Copenhagen' },
+    { id: 'hat', year: 1905, name: 'Woman with a Hat', artist: 'Matisse', place: 'Paris', size: 'l', blurb: 'The 1905 Salon scandal-piece: his wife Amélie, her face stroked in green, violet and orange. The Steins bought it off the wall for 500 francs.', palette: ['#4a7a4a', '#8a4a7a', '#15110c'], imageUrl: ART_IMG.matisseHat, credit: 'Matisse, Woman with a Hat, 1905 · SFMOMA, San Francisco' },
+    { id: 'open-window', year: 1905, name: 'Open Window, Collioure', artist: 'Matisse', place: 'Collioure', size: 'm', blurb: 'Painted that decisive summer: a window onto pink and turquoise boats, the whole picture built of pure-color patches with no modeling.', palette: ['#d06a7a', '#3a8a8a', '#1c2a2a'], imageUrl: ART_IMG.matisseOpenWindow, credit: 'Matisse, Open Window, Collioure, 1905 · National Gallery of Art, Washington' },
+    { id: 'chatou', year: 1906, name: 'The Seine at Chatou', artist: 'Vlaminck', place: 'Chatou', size: 'm', blurb: 'A Seine-side town in pure, rhythmic, tube-fresh color by the band’s most violent colorist, proudly self-taught and hostile to museums.', palette: ['#bf2f25', '#1d4ed8', '#1c1c14'], imageUrl: ART_IMG.vlaminckChatou, credit: 'Vlaminck, The Seine at Chatou, 1906 · The Metropolitan Museum of Art, New York' },
+    { id: 'bonheur', year: 1906, name: 'Le Bonheur de vivre', artist: 'Matisse', place: 'Paris', size: 'xl', blurb: 'The movement at full volume: an arcadia of nudes in flat, saturated, clashing color, nearly six feet by eight. Often read as the spark for Picasso’s Demoiselles.', palette: ['#d08a3a', '#3a8a5a', '#1c2218'], imageUrl: ART_IMG.matisseBonheur, credit: 'Matisse, Le Bonheur de vivre, 1905–06 · Barnes Foundation, Philadelphia' },
+    { id: 'charing-cross', year: 1906, name: 'Charing Cross Bridge, London', artist: 'Derain', place: 'London', size: 'l', blurb: 'The Thames in flaming orange, pink and green, a Fauve answer to Monet’s misty gray London. Same river, colors it does not own.', palette: ['#d06a2a', '#3a8a6a', '#d04a7a'], imageUrl: ART_IMG.derainCharingCross, credit: 'Derain, Charing Cross Bridge, London, 1906 · National Gallery of Art, Washington' },
+    { id: 'rue-pavoisee', year: 1906, name: 'Street Decked with Flags, Le Havre', artist: 'Dufy', place: 'Le Havre', size: 'm', blurb: 'A holiday street of tricolor flags dissolved into bright Fauve patches, the buoyant, ornamental, purely happy wing of the movement.', palette: ['#1d4ed8', '#bf2f25', '#c8b84a'], imageUrl: ART_IMG.dufyRuePavoisee, credit: 'Dufy, La Rue pavoisée, 1906 · Centre Pompidou, Paris' },
+    { id: 'blue-nude', year: 1907, name: 'Blue Nude (Souvenir de Biskra)', artist: 'Matisse', place: 'Paris', size: 'l', blurb: 'A reclining nude in harsh blue, distorted and angular, late-Fauve Matisse pushing past pretty color. It scandalized the 1907 Salon des Indépendants.', palette: ['#2a5a8a', '#8a6a3a', '#0e141c'], imageUrl: ART_IMG.matisseBlueNude, credit: 'Matisse, Blue Nude (Souvenir de Biskra), 1907 · Baltimore Museum of Art' },
+  ],
+  artists: [
+    { id: 'matisse', name: 'Matisse', role: 'The leader', years: '1869–1954', palette: ['#4a7a4a', '#8a4a7a', '#15110c'], photo: ART_IMG.matissePhoto },
+    { id: 'derain', name: 'Derain', role: 'The co-leader', years: '1880–1954', palette: ['#d06a2a', '#3a8a6a', '#15110a'], photo: ART_IMG.derainPhoto },
+    { id: 'vlaminck', name: 'Vlaminck', role: 'The wild man', years: '1876–1958', palette: ['#bf2f25', '#1d4ed8', '#1c1c14'] },
+    { id: 'marquet', name: 'Marquet', role: 'The one who stepped back', years: '1875–1947', palette: ['#5a6a7a', '#33414c', '#12161a'] },
+    { id: 'dufy', name: 'Dufy', role: 'The decorative Fauve', years: '1877–1953', palette: ['#1d4ed8', '#bf2f25', '#c8b84a'], photo: ART_IMG.dufyPhoto },
+    { id: 'vandongen', name: 'van Dongen', role: 'The glamour wing', years: '1877–1968', palette: ['#bf3a6a', '#3a7a5a', '#1c1014'], photo: ART_IMG.vanDongenPhoto },
+  ],
+  parallels: [
+    { year: 1905, movement: 'Die Brücke', place: 'Dresden', blurb: 'The same year as the Paris scandal, four German architecture students form Die Brücke and push the same idea, raw anti-naturalistic color, independently.' },
+    { year: 1906, movement: 'Cubism brewing', place: 'Paris', blurb: 'While the Fauves peak, Picasso builds toward Les Demoiselles d’Avignon and the 1907 Cézanne retrospective swings the avant-garde from color to structure.' },
+    { year: 1905, movement: 'The dealers and collectors', place: 'Paris', blurb: 'Vollard commissions Derain’s London series; the American Steins buy Matisse out of the Salon. The network that turned a scandal into a market.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Van Gogh', mode: 'art', img: ART_IMG.vanGoghNightCafe, palette: ['#7a1c1c', '#1c5a3a', '#0e0a06'], note: 'gave: emotional, arbitrary color' },
+      { label: 'Gauguin', mode: 'art', img: ART_IMG.gauguinVision, palette: ['#8a3a3a', '#3a5a4a', '#15110a'], note: 'gave: flat saturated symbolic color' },
+      { label: 'Neo-Impressionism', mode: 'art', img: ART_IMG.seuratGrandeJatte, palette: ['#3a6a4a', '#c8b84a', '#1c2a18'], note: 'gave: pure unmixed pigment' },
+      { label: 'Cézanne', mode: 'art', img: ART_IMG.cezanneBathers, palette: ['#5a7042', '#8a7848', '#1c1a12'], note: 'gave: structure (then ended Fauvism)' },
+    ],
+    children: [
+      { label: 'Cubism', mode: 'art', img: ART_IMG.demoiselles, palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], note: 'took: a Fauve named Braque' },
+      { label: 'German Expressionism', mode: 'art', img: ART_IMG.kirchnerStreet, palette: ['#bf2f4a', '#1c5a6a', '#1c1414'], note: 'took: Fauve color as raw emotion' },
+      { label: 'Abstraction', mode: 'art', img: ART_IMG.kandinskyComp7, palette: ['#1d4ed8', '#d6cf3f', '#bf2f25'], note: 'took: color cut free from description' },
+      { label: 'Matisse alone', mode: 'art', img: ART_IMG.matisseDance, palette: ['#bf3a52', '#1d4ed8', '#2a6a3a'], note: 'took: the whole project, for 45 more years' },
+    ],
+  },
+  influenceSummary: 'Fauvism took Van Gogh’s and Gauguin’s arbitrary color and Seurat’s pure unmixed pigment, cut color loose from describing anything, and handed that permission on to Cubism, German Expressionism, and nearly every later painter who ever used a color the world wasn’t wearing.',
+  manifesto: {
+    absent: true,
+    prose: [
+      'Fauvism is the movement with nothing to quote. There was no founding manifesto (a manifesto being a public declaration of a movement’s program and principles), no founding meeting, no program, no membership list, not even a name the painters chose for themselves. A hostile critic named them, as an insult, and they kept the insult because it was the only label anyone could agree on. A movement defined entirely from the outside has no statement of its own, and that absence is the honest record.',
+      'The closest thing to a creed is a single essay, and it is Matisse speaking only for himself. “Notes of a Painter” (Notes d’un peintre) appeared in the Paris journal La Grande Revue on 25 December 1908, written as a reply to critics of the new painting. It is a personal account of one man’s aims, not a platform spoken for a group, and its timing gives the game away: by December 1908 the 1907 Cézanne retrospective and Braque’s Cubist summer had already pulled the band apart. The essay reads less as Fauvism’s flag than as Matisse-the-individual, published just as the thing it might have spoken for was breaking up.',
+      'Two lines carry the whole of his thinking. The first is almost a slogan: “What I am after, above all, is expression.” The second tells you what expression meant to him, that a picture is built, not transcribed: “Composition is the art of arranging in a decorative manner the diverse elements at the painter’s command to express his feelings.” A creed for one painter, arriving too late to be a flag for the rest.',
+    ],
+    sourceUrl: 'https://www.arthistoryproject.com/artists/henri-matisse/notes-of-a-painter/',
+    sourceLabel: 'Read Matisse’s “Notes of a Painter” (1908)',
+  },
+  whatChanged: {
+    heading: 'Why it was a break',
+    before: {
+      img: ART_IMG.monetRegatta,
+      title: 'Before · Monet, Regatta at Argenteuil (c.1872)',
+      caption: 'Color already broken into bright touches, but still doing its old job: describing the real light on real water. The blue is the sky’s blue, the white is sail in sun.',
+    },
+    after: {
+      img: ART_IMG.matisseGreenStripe,
+      title: 'After · Matisse, The Green Stripe (1905)',
+      caption: 'A vertical green stripe runs straight down the center of a living face, splitting a cool side from a warm one. No face is green. The picture wanted it there, so it is there.',
+    },
+    prose: [
+      'For something like four hundred years, color in European painting had one assignment: describe. It told you the local color of things (the flesh is pink, the sea is blue-green) and it modeled light and shadow so a flat cloth read as a round, solid world. Even the Impressionists, who shattered color into thousands of bright separate touches, were still chasing the same prize, the real light falling on real things. Monet’s regatta is color at its most liberated and still completely loyal: every dab of blue and white is reporting on actual water and actual sky.',
+      'The Green Stripe fires color from that job. Matisse paints his wife Amélie with a band of pure green running down the middle of her face, one cheek cool, one cheek warm, the background slammed in as slabs of orange and pink. Nobody’s face is green. The stripe is not a shadow, not a reflection, not anything you could photograph. It is there because the composition needed a cool axis to push the warm flesh against. Three moves are doing the work: color chosen for effect, not accuracy; pure unmixed color laid on straight (no blending toward “realistic” hues); and flatness, the shading that used to fake roundness simply dropped, so the canvas reads as a bright patterned surface instead of a window.',
+      'That is why Fauvism counts as a new movement and not just a louder palette (a painter’s palette being the range of colors they work in). It did not improve how color described the world. It cut the cord between color and description entirely. After 1905, in the Western tradition this story maps, a painter no longer owed the world its real colors, and every later use of arbitrary, expressive, or purely decorative color is spending the permission the Fauves bought.',
+    ],
+  },
+  canon: [
+    { year: 1904, name: 'Luxe, calme et volupté', artist: 'Matisse', wiki: 'Luxe, Calme et Volupté', img: ART_IMG.matisseLuxe },
+    { year: 1905, name: 'Woman with a Hat', artist: 'Matisse', wiki: 'Woman with a Hat', img: ART_IMG.matisseHat },
+    { year: 1905, name: 'The Green Stripe', artist: 'Matisse', wiki: 'The Green Stripe', img: ART_IMG.matisseGreenStripe },
+    { year: 1905, name: 'Open Window, Collioure', artist: 'Matisse', wiki: 'Open Window, Collioure', img: ART_IMG.matisseOpenWindow },
+    { year: 1906, name: 'The Seine at Chatou', artist: 'Vlaminck', img: ART_IMG.vlaminckChatou },
+    { year: 1906, name: 'Le Bonheur de vivre', artist: 'Matisse', wiki: 'Le bonheur de vivre', img: ART_IMG.matisseBonheur },
+    { year: 1906, name: 'Charing Cross Bridge, London', artist: 'Derain', img: ART_IMG.derainCharingCross },
+    { year: 1906, name: 'The Turning Road, L’Estaque', artist: 'Derain', img: ART_IMG.derainTurningRoad },
+    { year: 1906, name: 'Street Decked with Flags, Le Havre', artist: 'Dufy', img: ART_IMG.dufyRuePavoisee },
+    { year: 1907, name: 'Blue Nude (Souvenir de Biskra)', artist: 'Matisse', wiki: 'Blue Nude (Souvenir de Biskra)', img: ART_IMG.matisseBlueNude },
+    { year: 1908, name: 'Modjesko, Soprano Singer', artist: 'van Dongen' },
+    { year: 1906, name: 'Posters at Trouville', artist: 'Marquet', img: ART_IMG.marquetFauve },
+  ],
+  sections: [
+    { id: 'oldjob', eyebrow: 'Setting', dateLabel: 'Before 1905', title: 'Color’s old job', blurb: 'For four hundred years color described; even the Impressionists chased the real light. Here is the rule that is about to break.', progress: 1 / 6 },
+    { id: 'twostudios', eyebrow: 'The roots', dateLabel: '1898–1904', title: 'Two studios, one fuse', blurb: 'A teacher who let his students run loose, two strangers thrown together by a train wreck, a dead Dutchman’s blazing canvases, and Matisse’s summer of dots.', progress: 2 / 6 },
+    { id: 'collioure', eyebrow: 'The birthplace', dateLabel: 'Summer 1905', title: 'Collioure', blurb: 'Matisse and Derain in the southern light, squeezing color straight from the tube. The movement is made before anyone names it.', progress: 3 / 6 },
+    { id: 'cage', eyebrow: 'The scandal', dateLabel: 'Autumn 1905', title: 'The cage of wild beasts', blurb: 'Room VII at the Salon d’Automne, a polite marble bust adrift in a sea of raw color, and the insult that became a name.', progress: 4 / 6 },
+    { id: 'band', eyebrow: 'The wider band', dateLabel: '1905–1907', title: 'The wild band', blurb: 'Vlaminck’s violence, Marquet’s restraint, Dufy’s flags, van Dongen’s cabaret, Derain’s burning London, and the biggest canvas of them all.', progress: 5 / 6 },
+    { id: 'airgoesout', eyebrow: 'The end', dateLabel: '1907–1908', title: 'The air goes out', blurb: 'A dead man’s retrospective and a roomful of impossible women swing everyone toward structure. The band scatters; Matisse keeps the color.', progress: 1 },
+  ],
+}
+
+export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, cubism: CUBISM }
 export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
