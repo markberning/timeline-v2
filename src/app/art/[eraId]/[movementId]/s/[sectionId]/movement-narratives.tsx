@@ -3750,6 +3750,542 @@ const FuturismWarNarrative: Narrative = ({ accent, onZoom }) => (
   </>
 )
 
+// ─────────────────────────────────────────────────────────────
+// Movement, Dada (1916–1924). Art turning on the idea of art, born in Zurich out
+// of disgust at WWI. Gated pipeline; narrative under 'dada'. Honesty axes carried
+// plain (women of Dada; the Fountain authorship debate). Figures are limited to
+// works with clean US-PD images, so several name-only readymades/destroyed works
+// are discussed in prose without a picture. No em-dashes in shippable prose.
+// ─────────────────────────────────────────────────────────────
+const D_BALL = ['#3a4a6a', '#2a3048', '#0e1422'] as [string, string, string]
+const D_PICABIA = ['#3a3a44', '#1c1c24', '#0a0a10'] as [string, string, string]
+const D_FOUNTAIN = ['#b8b4ac', '#6a665e', '#2a2824'] as [string, string, string]
+const D_LHOOQ = ['#7a6a4a', '#3a3020', '#100c08'] as [string, string, string]
+const D_HAUSMANN = ['#6a5a3a', '#33291a', '#100c08'] as [string, string, string]
+const D_HOCH = ['#8a7a52', '#4a3c22', '#15110a'] as [string, string, string]
+const D_ERNST = ['#5a4a8a', '#2a2440', '#100c1c'] as [string, string, string]
+const D_GROUP = ['#6a6a5a', '#3a3a30', '#14140e'] as [string, string, string]
+const D_CELEBES = ['#3a5a6a', '#2a3640', '#100c08'] as [string, string, string]
+const PD_LEONARDO = 'Public domain worldwide (Leonardo da Vinci died 1519). Wikimedia Commons.'
+
+// ── 1. The cabaret at the end of the world ──────────────────
+const DadaCabaretNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Zurich · 1916" title="An island in the war" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n February 1916, while the armies of Europe were settling into the second year of grinding each other
+        to paste, two German refugees opened a nightclub in Zurich. One was the writer and theater director
+        Hugo Ball. The other was the poet, singer and performer Emmy Hennings, a published author in her own
+        right before any of this began and the equal co-founder of what they were about to make, not a hired
+        act. (She tends to get filed under &ldquo;Ball&rsquo;s partner who sang,&rdquo; which is the first small
+        injustice in a story that has several.) Both had seen enough of the war&rsquo;s logic up close to
+        conclude that the whole civilization producing it had gone insane. Switzerland was neutral, an island
+        of peace in a continent at war, which is exactly why the artists, the deserters, the pacifists and the
+        exiles had all washed up there.
+      </p>
+      <p style={proseStyle}>
+        So on 5 February 1916 the two of them opened the{' '}<strong>Cabaret Voltaire</strong> (a cabaret being
+        a small nightclub with a stage), tucked into a back room of a tavern at Spiegelgasse 1. They named it
+        after Voltaire, the eighteenth-century French writer who had spent his life mocking the powerful, which
+        tells you the program before the curtain even goes up. A press notice invited &ldquo;young Zurich
+        artists of all tendencies&rdquo; to come and contribute. What turned up was stranger than anyone
+        advertised.
+      </p>
+
+      <SectionHeader accent={accent} label="The acts" title="Verses without words" />
+      <p style={proseStyle}>
+        A circle gathered fast: the Romanian poet{' '}<strong>Tristan Tzara</strong>, who would become the
+        movement&rsquo;s loudest mouth and tireless impresario; the Romanian painter Marcel Janco; the Alsatian
+        artist{' '}<strong>Hans Arp</strong> (he also went by the French &ldquo;Jean&rdquo;); the German writer
+        Richard Huelsenbeck; and the Swiss artist{' '}<strong>Sophie Taeuber</strong>, later Taeuber-Arp, who
+        was making some of the most formally rigorous work in the room. What they did on the little stage had no
+        precedent and was meant to have none. Poems were shouted in three languages at once, deliberately
+        drowning each other out. There were chants and drumming, Hennings singing her cabaret songs, Janco&rsquo;s
+        jagged cardboard masks, and Ball&rsquo;s{' '}<strong>sound poems</strong>, which he called &ldquo;verses
+        without words&rdquo;: strings of invented syllables that meant nothing and were arranged purely for their
+        noise. If that sounds like a child banging pots, that was rather the idea. Sense, they had decided, was
+        what had built the trenches. Nonsense was the cure.
+      </p>
+      <p style={proseStyle}>
+        The most famous night came in June 1916, when Ball performed his sound poem &ldquo;Karawane&rdquo;
+        dressed in a costume of stiff blue cardboard tubes for legs and a huge gold cardboard collar he flapped
+        like wings. He could not walk in it. He had to be carried onto the stage and off again, intoning his
+        made-up syllables like a priest of a religion that did not exist. It is the founding image of Dada: total
+        seriousness and total absurdity wearing the same costume, and you genuinely cannot tell which one is the
+        joke.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={D_BALL}
+        imageUrl={ART_IMG.ballCostume}
+        ratio="3/4"
+        alt="Hugo Ball reciting Karawane at the Cabaret Voltaire, 1916"
+        caption={<>Hugo Ball intoning a sound poem (a poem of invented, meaningless syllables) in a costume of blue cardboard tubes and a flapping gold collar. He could not walk in it and had to be carried on and off the stage.</>}
+        credit={<>Hugo Ball performing at the Cabaret Voltaire, Zurich, 1916 (publicity photograph)</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        There was a verbal version of the nonsense too, and it became one of Dada&rsquo;s most quoted recipes.
+        Tzara&rsquo;s instruction for making a Dada poem was, roughly: take a newspaper, cut out every word of an
+        article, shake the words up in a bag, then draw them out one by one and copy them down in the order they
+        come. The poem is whatever chance hands you. Remove the author&rsquo;s taste and judgment from the work
+        and let accident write it instead. Off to one side, quietly, Sophie Taeuber-Arp was making the most
+        disciplined objects in the whole circle, spare geometric abstractions that were the opposite of the
+        cabaret&rsquo;s chaos, and the fact that she is most often remembered under her husband&rsquo;s name is
+        the same injustice the movement kept running, one we will hit again.
+      </p>
+
+      <SectionHeader accent={accent} label="The name" title="A word born no one knows how" />
+      <p style={proseStyle}>
+        At some point that spring the group needed a name, and they chose the word{' '}<strong>Dada</strong>.
+        Where it came from is the most-disputed fact in the whole movement, and the honest thing is to tell the
+        famous story as a legend rather than a fact. The legend goes that someone stabbed a paper-knife blindly
+        into a French-German dictionary and hit &ldquo;dada,&rdquo; which in French is a child&rsquo;s word for a
+        hobby-horse. It is a wonderful story. It may even be true. But Tzara later claimed he invented the name
+        himself, which set off a lifelong feud over who &ldquo;owned&rdquo; Dada, and the most reputable accounts
+        simply shrug. What is not in doubt is that the word was chosen because it means nothing, or rather
+        because its meanings are all trivial: a child&rsquo;s toy in French, a brush-off in German, &ldquo;yes,
+        yes&rdquo; in Romanian. A movement that had decided sense was the enemy could hardly march under a
+        sensible banner. On Bastille Day, 14 July 1916, at the first public Dada soir&eacute;e, Ball read the
+        first Dada manifesto, which announced &ldquo;Dada is a new tendency in art&rdquo; and then gleefully
+        explained that the whole point was that it meant nothing. A manifesto that argues itself out of
+        existence. It would not be the last.
+      </p>
+    </article>
+
+    <MeanwhileSheet
+      region="Europe, 1916"
+      title="The war that built the cabaret"
+      body="Twenty feet of stage in Zurich is hard to understand without the thing it was reacting to. In 1916 the war the Dadaists had fled was at its worst: the battles of Verdun and the Somme between them killed or wounded well over a million men, much of it for a few miles of churned ground. The Dadaists were not painting the war. They were refusing the entire mindset, reason, order, patriotism, beauty, that they believed had marched a generation into it. The nonsense on the cabaret stage was a moral position."
+    />
+  </>
+)
+
+// ── 2. A urinal in New York ─────────────────────────────────
+const DadaUrinalNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York" title="Dada before Dada" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hile Zurich was inventing the cabaret, a parallel version of the same revolt was already running in New
+        York, and it had started even earlier. Two French artists,{' '}<strong>Marcel Duchamp</strong> and{' '}
+        <strong>Francis Picabia</strong>, had crossed the Atlantic to escape the war, and in New York they found
+        a small{' '}<strong>avant-garde</strong> scene (the avant-garde being art&rsquo;s experimental front
+        edge) with two hubs: the gallery &ldquo;291&rdquo; run by the photographer Alfred Stieglitz, and the
+        apartment of the collectors Walter and Louise Arensberg, where artists argued, drank and played chess
+        most nights. With the American photographer Man Ray and the painter Beatrice Wood, they made a New York
+        Dada every bit as anti-everything as Zurich&rsquo;s but cooler in temperature, drier, the quiet sabotage
+        of a single well-placed object.
+      </p>
+      <p style={proseStyle}>
+        Picabia&rsquo;s specialty was machines. He drew people as deadpan mechanical diagrams, a portrait of
+        Stieglitz as a broken bellows camera, the &ldquo;mechanomorphic&rdquo; (man-as-machine) style. The joke
+        was bleak and exact: in the age that had just industrialized killing, maybe a person really was just a
+        machine, and a badly made one. He poured his energy into a magazine,{' '}<em>391</em>, which he kept
+        publishing across four cities from 1917 to 1924. Dada&rsquo;s journals were artworks in their own right,
+        and they are how the scattered cities stayed one movement.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={D_PICABIA}
+        imageUrl={ART_IMG.picabiaStieglitz}
+        ratio="3/4"
+        alt="Picabia, Ici, c'est ici Stieglitz"
+        caption={<>Picabia draws his friend Alfred Stieglitz not as a man but as a broken bellows camera, the bellows slack. His &ldquo;mechanomorphic&rdquo; style: a person rendered as a deadpan machine schematic, made as a mock magazine cover.</>}
+        credit={<>Picabia,{' '}<em>Ici, c&rsquo;est ici Stieglitz</em>, cover of 291, 1915</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="The readymade" title="Choosing instead of making" />
+      <p style={proseStyle}>
+        Duchamp&rsquo;s specialty was the single well-placed object, and it is the most consequential idea in
+        modern art, so it is worth slowing down. In 1913 he bolted a bicycle wheel upside-down onto a kitchen
+        stool. The next year he bought a galvanized iron bottle rack from a department store and declared that,
+        untouched, exactly as the shop sold it, to be art. He coined the actual word{' '}
+        <strong>readymade</strong> around 1915. (So the dates need honesty: the first readymade object is usually
+        dated to the 1913 wheel, but Duchamp did not yet have the concept or the word when he made it. He arrived
+        at the idea by doing it, then named what he had done.)
+      </p>
+      <p style={proseStyle}>
+        Here is the idea, stated plainly. A readymade is an ordinary, mass-produced object that an artist
+        declares to be a work of art simply by choosing it and presenting it as one. No carving, no painting, no
+        skill, no making. The whole artistic act is the choice. That sounds like a shrug, and it nearly is, but
+        follow it through: if choosing is enough, then art is not a craft you practice with your hands. It is a
+        decision you make with your mind, and anything at all can be art the moment an artist points at it.
+        Nearly every Conceptual artist and most of what came after is downstream of that sentence.
+      </p>
+
+      <SectionHeader accent={accent} label="Fountain · 1917" title="A urinal called sculpture" />
+      <p style={proseStyle}>
+        In 1917 a new exhibiting society started up in New York, the Society of Independent Artists, on the
+        radical principle of &ldquo;no jury, no prizes&rdquo;: anyone who paid the fee could exhibit anything.
+        Duchamp was on the board. To test whether they meant it, someone in his circle submitted a work, a
+        standard porcelain urinal, laid on its back, signed &ldquo;R. Mutt 1917,&rdquo; and titled{' '}
+        <em>Fountain</em>. The &ldquo;no jury, no prizes&rdquo; society panicked and hid it. Duchamp and
+        Arensberg resigned the board in protest. And an anonymous defense ran in the little magazine{' '}
+        <em>The Blind Man</em>, laying out the whole philosophy of the readymade in two sentences: whether Mr.
+        Mutt made the fountain with his own hands or not has no importance, the writer said; he chose it. That is
+        the argument in full. The skill is irrelevant. The choice is the art.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={D_FOUNTAIN}
+        imageUrl={ART_IMG.duchampFountain}
+        ratio="4/5"
+        alt="Duchamp, Fountain, 1917, photographed by Stieglitz"
+        caption={<>The single most argued-over object in modern art: a factory-made urinal laid on its back, signed &ldquo;R. Mutt 1917,&rdquo; submitted to a show that promised to reject nothing, then hidden. The original was soon lost; this 1917 photograph by Alfred Stieglitz is the only surviving image of it.</>}
+        credit={<>Alfred Stieglitz, photograph of Duchamp&rsquo;s{' '}<em>Fountain</em>, 1917 ·{' '}<em>The Blind Man</em>{' '}no. 2</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="The dispute" title="Who really sent it?" />
+      <p style={proseStyle}>
+        Now the part most books skip. We do not actually know for certain who sent{' '}<em>Fountain</em> in. In a
+        letter to his sister dated 11 April 1917 Duchamp wrote that &ldquo;one of my female friends under a
+        masculine pseudonym, Richard Mutt, sent in a porcelain urinal as a sculpture.&rdquo; A female friend. A
+        vocal scholarly minority reads that letter to mean the work was the idea of the German-born artist-poet
+        Baroness Elsa von Freytag-Loringhoven, a wild performance artist before the term existed, who was central
+        to the New York circle and entirely capable of the gesture. The counter-case reads the same letter the
+        other way: Duchamp openly told his own sister a woman had fronted the entry, which is hardly what a man
+        covering up a stolen idea would do, and identifies the friend as another associate, Louise Norton.
+        Mainstream museums still credit Duchamp; the Baroness case rests on stylistic affinity and circumstantial
+        ties. The honest position is that the debate is real and unresolved, and this read will not pretend to
+        settle it. What it does cleanly is puncture the myth of the lone male genius: the most famous artwork of
+        the century may not even have a single sure author.
+      </p>
+
+      <SectionHeader accent={accent} label="L.H.O.O.Q. · 1919" title="A moustache on the Mona Lisa" />
+      <p style={proseStyle}>
+        If the urinal asked &ldquo;what counts as art,&rdquo; Duchamp&rsquo;s next provocation asked &ldquo;what
+        do we worship, and why.&rdquo; In 1919 he took a cheap printed postcard of Leonardo&rsquo;s{' '}
+        <em>Mona Lisa</em>, the most revered painting in the world, and drew a moustache and a goatee on her in
+        pencil, captioned with five letters,{' '}<em>L.H.O.O.Q.</em>, that sound out a rude French pun when read
+        aloud. He called it a &ldquo;rectified readymade,&rdquo; a found object the artist has altered. With a
+        pencil and a dirty joke he had defaced the most worshipped image in Western art, and the target was not
+        Leonardo but the worship itself: the museum cult, the idea that a painting becomes holy because enough
+        people agree to genuflect.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={D_LHOOQ}
+        imageUrl={ART_IMG.duchampLhooq}
+        ratio="4/5"
+        alt="Duchamp, L.H.O.O.Q., 1919"
+        caption={<>The most worshipped painting in the world, on a cheap postcard, with a pencilled moustache and goatee and a five-letter dirty pun. The target is not Leonardo but the reverence itself.</>}
+        credit={<>Duchamp,{' '}<em>L.H.O.O.Q.</em>, 1919 · rectified readymade</>}
+        rights={PD_RIGHTS}
+      />
+    </article>
+  </>
+)
+
+// ── 3. Berlin cuts it up ────────────────────────────────────
+const DadaBerlinNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Berlin · 1918" title="From nonsense to fury" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hen Richard Huelsenbeck carried Dada from Zurich back to Berlin, it landed in a completely different
+        country and turned into a completely different thing. Zurich Dada had been nonsense as an end in itself,
+        refusal made in a safe neutral bubble. Berlin in 1918 was no bubble: Germany had lost the war, the
+        Kaiser had fled, the streets were full of demobilized soldiers and revolutionaries, people were
+        genuinely starving, and a fragile new republic (later called the Weimar Republic) was being born in
+        chaos. Dada here could not afford to be a private joke. It got savagely political, pointed squarely at
+        the militarists who had run the war and the new establishment papering over the wreckage. The Berlin
+        circle constituted itself as &ldquo;Club Dada&rdquo; and ran hard left: Raoul Hausmann, the
+        self-styled &ldquo;Dadasoph&rdquo;; Hannah Höch; John Heartfield, who had anglicized his German name as
+        a protest against wartime nationalism and would become the great anti-Nazi photomontagist; the savage
+        caricaturist George Grosz; and others.
+      </p>
+
+      <SectionHeader accent={accent} label="The technique" title="Scissors and the daily paper" />
+      <p style={proseStyle}>
+        Their weapon was{' '}<strong>photomontage</strong>. A{' '}<strong>collage</strong> (a technique Cubism
+        had developed a few years earlier) is any picture assembled by gluing found materials onto a surface.
+        Photomontage is the special case where the found materials are photographs, cut out of newspapers and
+        magazines and reassembled into a new, jarring, satirical image: a general&rsquo;s head on a baby&rsquo;s
+        body, a machine where a brain should be. Berlin Dada used scissors and the daily paper to make pictures
+        that attacked the people in the daily paper. (Hedge the famous claim: both Grosz and Heartfield, and
+        separately Hausmann and Höch, said they invented photomontage, but cut-and-pasted photographs went back
+        to the 1850s. Nobody in Dada invented it. What Berlin Dada did was seize the technique and turn it into a
+        political weapon, an art made from the same mass media it was attacking.)
+      </p>
+      <p style={proseStyle}>
+        Hausmann made the same indictment in three dimensions. His{' '}<em>Mechanical Head</em>, subtitled{' '}
+        <em>The Spirit of Our Time</em>, is a wig-maker&rsquo;s wooden dummy head with objects screwed to it: a
+        folding ruler, a tape measure curled over one ear, a tin cup, the works of a pocket watch. The head has
+        no thoughts of its own. Its only contents are the measuring and counting instruments bolted to the
+        outside of it. That, Hausmann is saying, is what the war-machine society has produced: a person who is
+        nothing but the gadgets done to him.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={D_HAUSMANN}
+        imageUrl={ART_IMG.hausmannHead}
+        ratio="4/5"
+        alt="Hausmann, Mechanical Head"
+        caption={<>A wig-maker&rsquo;s wooden dummy head studded with measuring instruments, a ruler, a tape measure, a watch movement, a tin cup. A head whose only thoughts are the gadgets clamped to its outside.</>}
+        credit={<>Hausmann,{' '}<em>The Spirit of Our Time (Mechanical Head)</em>, c.1920 · Centre Pompidou, Paris</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="Höch · 1919–20" title="The whole republic, cut up" />
+      <p style={proseStyle}>
+        The masterpiece of the form has one of the longest titles in art:{' '}
+        <em>Cut with the Kitchen Knife Dada through the Last Weimar Beer-Belly Cultural Epoch of Germany</em>,
+        made by{' '}<strong>Hannah Höch</strong> in 1919&ndash;20. The title is itself a sneer at the comfortable
+        respectability of the new republic, the well-fed politicians and generals who had survived the war and
+        now ran things as if nothing had happened. Stand in front of it (it is large, nearly four feet tall) and
+        it is overwhelming on purpose: a teeming field of hundreds of cut-out fragments from the illustrated
+        press, generals&rsquo; heads and dancers&rsquo; legs and machine cogs, the whole republic shredded and
+        reassembled, with the words &ldquo;the great dada world&rdquo; and &ldquo;anti-dada&rdquo; scattered to
+        sort the figures into camps. And down in one corner, easy to miss, she pasted a little map of the
+        European countries where women had won the vote, a quiet flag planted by one of the very few women the
+        movement let near its center.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={D_HOCH}
+        imageUrl={ART_IMG.hochKnife}
+        ratio="4/5"
+        alt="Höch, Cut with the Kitchen Knife"
+        caption={<>A nearly four-foot photomontage that shreds and reassembles the whole Weimar republic, generals, dancers, machine parts and crowds cut from the illustrated press, sorted into &ldquo;dada&rdquo; and &ldquo;anti-dada.&rdquo; In one corner, a small map marks where women could vote.</>}
+        credit={<>Höch,{' '}<em>Cut with the Kitchen Knife&hellip;</em>, 1919&ndash;20 · Nationalgalerie, Berlin</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="1920" title="The Fair, and the women shoved aside" />
+      <p style={proseStyle}>
+        In the summer of 1920 the Berlin group staged its great spectacle, the First International Dada Fair:
+        around two hundred works, slogans on every wall, and a stuffed dummy in a German officer&rsquo;s uniform
+        with a papier-mache pig&rsquo;s head hanging from the ceiling, a gesture so contemptuous of the military
+        it later drew prosecution. But the Fair is also where one of Dada&rsquo;s ugliest truths shows clearly.
+        Hannah Höch, who made the work that became the emblem of the whole movement, was nearly left out
+        entirely. Grosz and Heartfield wanted her excluded; she got in only after Hausmann, her partner,
+        threatened to withdraw his own work. Years later the Dadaist Hans Richter summed up Höch&rsquo;s
+        contribution to the group as &ldquo;the sandwiches, beer and coffee she managed somehow to conjure up
+        despite the shortage of money.&rdquo; The line was both contemptuous and false: Höch held a paying day
+        job at the Ullstein publishing house and was a working artist the whole time, not the group&rsquo;s
+        hostess. She wrote that the men &ldquo;continued, into their old age, to look on us women artists as
+        charming and gifted amateurs, denying us any real professional status.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        She was not alone in being written out. In Zurich, Sophie Taeuber-Arp was a serious abstract artist
+        usually filed under her husband&rsquo;s name; Emmy Hennings co-founded the entire Cabaret Voltaire and
+        is remembered mostly as a singer; and in New York the Baroness Elsa von Freytag-Loringhoven turned her
+        own body and apartment into art years before the men got around to it, and is now best remembered for a
+        urinal that may be hers and is credited to a man. The movement that wanted to tear up every hierarchy
+        kept one of them carefully intact. Name them, because their own colleagues mostly did not.
+      </p>
+    </article>
+  </>
+)
+
+// ── 4. Trash and one-man movements ──────────────────────────
+const DadaTrashNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Hannover" title="Schwitters and Merz" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>D</DropCap>
+        ada had no headquarters and no membership card, and nowhere is that clearer than in the smaller German
+        cities, where it splintered into private versions that barely resembled each other. Not everyone even
+        got to be a Dadaist.{' '}<strong>Kurt Schwitters</strong>, working in Hannover, wanted into Berlin Dada
+        and was blackballed: the Berliners thought his art was too pretty, too crafted, too bourgeois to count.
+        So he did the most Dada thing imaginable. Rejected for caring about beauty, he founded his own one-man
+        movement, made it out of garbage, and called it{' '}<strong>Merz</strong>. The name is pure Dada
+        accident: a meaningless fragment, the middle of the words &ldquo;Commerz und Privatbank&rdquo; (a
+        German bank), which had turned up on a scrap of paper in one of his collages. He liked the sound and
+        named his entire life&rsquo;s work after a piece of a bank&rsquo;s signage.
+      </p>
+      <p style={proseStyle}>
+        Merz meant art made from literal garbage. Where Berlin Dada cut up the glossy printed press, Schwitters
+        worked from the street and the gutter: tram tickets, candy wrappers, bits of wood and wire, broken junk,
+        glued and nailed into collages and assemblages (an assemblage being a collage that comes off the wall
+        into three dimensions). His most ambitious work no longer exists. Starting in the mid-1920s he built the
+        Merzbau inside his own house, an architectural sculpture of white plaster grottoes and niches that he
+        never stopped adding to, until it broke through walls and the ceiling and ate through the building, a
+        single sculpture you could walk inside. It was destroyed in an Allied air raid on Hannover in October
+        1943, and only photographs survive. The most extraordinary Dada object became, fittingly for a movement
+        born out of the First World War, a casualty of the Second.
+      </p>
+
+      <SectionHeader accent={accent} label="Cologne · 1920" title="Enter past the urinal" />
+      <p style={proseStyle}>
+        A short train ride away, in Cologne, another cell ran the rawest Dada show of all.{' '}
+        <strong>Max Ernst</strong>, Hans Arp and Johannes Baargeld staged an exhibition in April 1920 in the
+        courtyard of a pub. Visitors had to enter past the men&rsquo;s urinal, where a girl in a child&rsquo;s
+        communion dress recited lewd verse. One of Ernst&rsquo;s sculptures was displayed with a hatchet
+        attached, an open invitation for the public to smash it. The police shut the show for obscenity, then
+        dropped the charges when the supposedly obscene image turned out to be a four-hundred-year-old print of
+        Albrecht D&uuml;rer&rsquo;s{' '}<em>Adam and Eve</em>. The show reopened in triumph. Ernst&rsquo;s own
+        work here pointed somewhere new. His 1920 collage{' '}<em>The Hat Makes the Man</em> stacks rows of
+        catalogue-cut hats into wobbly, faintly human, faintly absurd columns. It is funny, but it is also
+        dreamlike in a way the cooler Dada objects were not, an early sign of where Ernst was heading.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={D_ERNST}
+        imageUrl={ART_IMG.ernstHatMan}
+        ratio="5/4"
+        alt="Ernst, The Hat Makes the Man"
+        caption={<>Rows of hats cut from a commercial catalogue, stacked into wobbly, faintly human columns and captioned with a pun. Cologne Dada collage already tilting toward the dream logic of Surrealism.</>}
+        credit={<>Max Ernst,{' '}<em>The Hat Makes the Man</em>, 1920 · MoMA, New York</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="Arp · chance" title="Letting the scraps fall where they may" />
+      <p style={proseStyle}>
+        Running through Zurich and Cologne both was Hans Arp, and his great contribution was the third durable
+        Dada idea after the readymade and photomontage:{' '}<strong>chance</strong>. The story is that Arp,
+        frustrated with a drawing, tore it up and let the pieces drop to the floor, then noticed that the way
+        they fell pleased him more than anything he had arranged on purpose, so he glued them down where they had
+        landed. His{' '}<em>Collage with Squares Arranged according to the Laws of Chance</em> (1916&ndash;17) is
+        a field of pale torn-paper squares scattered with no pattern you can name, a snapshot of where gravity
+        left the scraps. Handing the picture to accident sounds like the least effort possible, and that is half
+        the point: if the artist&rsquo;s skilled judgment was the thing that made art, then deliberately removing
+        it was the perfect Dada sabotage. (One honest caveat: the actual collage looks rather tidy and balanced,
+        which strongly suggests Arp kept a hand in. Even Dada&rsquo;s purest surrender to randomness had a human
+        thumb on the scale.) Chance as a working method was now loose in art, and it would run straight into
+        Surrealist automatism, John Cage&rsquo;s music and Fluxus decades later.
+      </p>
+      <p style={proseStyle}>
+        So by 1921 Dada had no single style and barely a single city. It was a readymade in New York, a political
+        photomontage in Berlin, a cathedral of trash in Hannover, an axe in a Cologne courtyard, and a pile of
+        dropped paper in Zurich. It was less a movement than a shared refusal, wearing a different costume in
+        every town, which made it very hard to kill and, as it turned out, very hard to hold together.
+      </p>
+    </article>
+  </>
+)
+
+// ── 5. Paris, and the family feud ───────────────────────────
+const DadaParisNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1920" title="The ringmaster arrives" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he last great Dada chapter, and the one that ended it, was Paris. In 1920 Tristan Tzara moved there and
+        was welcomed like a prophet by a group of young French writers gathered around a journal called{' '}
+        <em>Littérature</em>:{' '}<strong>André Breton</strong>, the most serious-minded and imperious of them, a
+        born organizer who wanted a cause to lead; Louis Aragon; Philippe Soupault; and the poet Paul &Eacute;luard.
+        For a couple of years Paris Dada was the loudest avant-garde act in the city, almost pure provocation,
+        much of it staged as theater meant to detonate the audience. Man Ray, over from New York, fit right in.
+        On the afternoon of his first Paris show he built an object he called{' '}<em>Gift</em>: he glued a single
+        neat row of fourteen pointed tacks down the smooth sole of a clothes-iron. The one surface whose entire
+        job is to be flat and harmless now shreds whatever it touches, a domestic tool turned useless and faintly
+        menacing, and the title twists the knife: he made it as a gift.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={D_GROUP}
+        imageUrl={ART_IMG.dadaGroup1920}
+        ratio="3/2"
+        alt="The Paris Dada group, 1920"
+        caption={<>The Paris Dadaists who would soon tear the movement apart: Tzara, Picabia, Breton, &Eacute;luard, Aragon, Soupault and others. Within three years Breton and Tzara would be calling the police on each other.</>}
+        credit={<>Dada artists, group photograph, Paris, 1920</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="1921" title="The trial of a living man" />
+      <p style={proseStyle}>
+        The strangest event of Paris Dada was a mock trial. In May 1921 the group put a real, living, famous
+        French writer, the nationalist Maurice Barr&egrave;s, on trial in absentia for &ldquo;crimes against the
+        security of the spirit,&rdquo; with Breton presiding as a black-robed judge, other Dadaists as
+        prosecution and defense, and a dummy standing in for the accused. But look at who was running it. A
+        solemn judge, a structured trial, a real political target, a verdict to be reached: this was Dada being
+        organized, serious, even moralistic, and that was Breton&rsquo;s instinct, not Tzara&rsquo;s. The trial
+        that was supposed to mock authority had quietly built a little authority of its own, and that small crack
+        would split the movement open.
+      </p>
+
+      <SectionHeader accent={accent} label="1922–23" title="Two men who could not share a room" />
+      <p style={proseStyle}>
+        The split was, at bottom, a disagreement about what Dada was for. Breton wanted to turn it into a serious
+        instrument pointed at remaking art and the mind. Tzara wanted it to stay pure negation, pure nonsense, an
+        attack with no program and no future, because a program and a future were precisely the bourgeois things
+        Dada existed to refuse. To Tzara, a Dada with goals was a contradiction in terms. To Breton, a Dada with
+        no goals was a machine that could only smash, never build, and he was tired of smashing. In 1922 Breton
+        tried to organize a grand &ldquo;Congress of Paris&rdquo; to federate the whole modern spirit and decide,
+        in an orderly way, where art should go next, a thoroughly un-Dada idea, and Tzara refused to take part.
+        Breton attacked him in print, reviving the old Zurich feud over whether Tzara had even invented Dada. It
+        came to blows the next year: in July 1923, at a soir&eacute;e built around Tzara&rsquo;s play{' '}
+        <em>The Gas Heart</em>, Breton and his allies stormed the stage mid-show, a brawl broke out that
+        reportedly left one performer with a broken arm, and Tzara called the police on his former comrades. You
+        cannot run a movement that ends in its leaders calling the police on each other. Dada in Paris, and
+        effectively everywhere, was finished by 1923, killed less by the bourgeois world it had attacked than by
+        its own argument about whether nonsense could be put to serious use.
+      </p>
+    </article>
+  </>
+)
+
+// ── 6. What Dada left ───────────────────────────────────────
+const DadaLeftNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1924" title="Surrealism takes the inheritance" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>D</DropCap>
+        ada did not so much die as get reorganized by the man who had broken it. Having driven Tzara out, André
+        Breton took Dada&rsquo;s best tools, its love of chance, its collage, its appetite for provocation, and
+        pointed them somewhere new: at the unconscious mind and the dream. In 1924 he published the Surrealist
+        Manifesto and{' '}<strong>Surrealism</strong> was born, a movement that kept Dada&rsquo;s methods but gave
+        them a purpose Dada had refused to have. The Paris Dada circle simply walked across the bridge: Ernst,
+        Arp, Man Ray, &Eacute;luard, Aragon, Breton himself all became Surrealists. Ernst&rsquo;s strange
+        Cologne pictures had been pointing this way all along. Look at his 1921{' '}<em>Celebes</em>: a vast,
+        rounded, dark body like a cast-iron boiler on legs, a ribbed tube curling up like a trunk ending in a
+        blunt mechanical head, a small headless mannequin beside it, an empty sky behind. It is part machine,
+        part beast, part nightmare, and it makes no rational sense at all, which is the point. This is
+        Dada&rsquo;s nonsense turning into the Surrealist dream, and it is often called the first masterpiece of
+        Surrealist painting. Dada had hatched the movement that ate it.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={D_CELEBES}
+        imageUrl={ART_IMG.ernstCelebes}
+        ratio="6/5"
+        alt="Ernst, The Elephant Celebes"
+        caption={<>A monstrous, boiler-bodied &ldquo;elephant&rdquo; looming on a bare plain, half Dada absurdity and half dream. Often called the first masterpiece of Surrealist painting, it shows Cologne Dada tipping fully into the uncanny.</>}
+        credit={<>Max Ernst,{' '}<em>Celebes</em>, 1921 · Tate, London</>}
+        rights={PD_RIGHTS}
+      />
+
+      <SectionHeader accent={accent} label="The legacy" title="The three things that outlived the joke" />
+      <p style={proseStyle}>
+        Strip away the clowning and three of Dada&rsquo;s inventions ran forward and changed everything
+        downstream. The{' '}<strong>readymade</strong>, Duchamp&rsquo;s claim that choosing can be art, became
+        the foundation of Conceptual art and of Pop Art, and is, in a real sense, the seed of much of the art
+        made after 1950.{' '}<strong>Photomontage</strong>, the political cut-and-paste, found its full power in
+        the 1930s when John Heartfield (Berlin Dada&rsquo;s own) used it for savage anti-Nazi covers on a
+        mass-circulation weekly, the same cut-up-the-daily-press weapon turned on fascism in the daily press
+        itself, and from there the line runs straight to the protest poster and the punk record sleeve. And{' '}
+        <strong>chance</strong> fed Surrealist automatism, the music of John Cage, the events of Fluxus and the
+        whole idea of art as a procedure rather than a craft. There is a clean way to measure how far the joke
+        traveled: in 2004 a poll of five hundred art-world professionals, asked to name the single most
+        influential artwork of the twentieth century, did not choose a Picasso. They chose Duchamp&rsquo;s
+        urinal.
+      </p>
+
+      <SectionHeader accent={accent} label="The verdict" title="The gag and the earthquake" />
+      <p style={proseStyle}>
+        It is tempting to tidy Dada up into one thing or the other, to call it either a silly prank or a profound
+        revolution, but it was emphatically both, and the refusal to choose is the point. The Dadaists genuinely
+        meant the horse-laugh. They genuinely believed that after the trenches, reason and beauty and seriousness
+        were a fraud, and that the only honest art was an art that attacked art. And it really was the seedbed of
+        everything that came after. Hold both halves at once, the prank that felt like an ending and the idea
+        that turned out to be a beginning, because that double nature is exactly what Dada built and exactly what
+        it left behind. A movement whose name means nothing turned out to mean almost everything.
+      </p>
+    </article>
+  </>
+)
+
 export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
   cubism: {
     before: BeforeNarrative,
@@ -3758,6 +4294,14 @@ export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
     paper: PaperNarrative,
     public: PublicNarrative,
     after: AfterNarrative,
+  },
+  dada: {
+    cabaret: DadaCabaretNarrative,
+    urinal: DadaUrinalNarrative,
+    berlin: DadaBerlinNarrative,
+    trash: DadaTrashNarrative,
+    paris: DadaParisNarrative,
+    left: DadaLeftNarrative,
   },
   fut: {
     press: FuturismPressNarrative,

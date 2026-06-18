@@ -116,6 +116,28 @@ export const ART_IMG = {
   boccioniPhoto: 'https://upload.wikimedia.org/wikipedia/commons/8/81/Emilio_Sommariva_%281883_-_1956%29_Ritratto_del_pittore_Umberto_Boccioni_%281914%29.jpg',
   severiniPhoto: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Gino_Severini.jpg',
   carraPhoto: 'https://upload.wikimedia.org/wikipedia/commons/2/20/Carr%C3%A0_in_front_of_Le_Figaro%2C_Paris%2C_9_February_1912_%28cropped%29.jpg',
+  // ── Dada movement figures (born-verified 2026-06-18; subjects eyeballed) ──
+  // Works 1913–1921; pre-1930 reproductions = US-PD. Several are en-hosted (non-free
+  // in source country, US-PD by pre-1930 publication). Many canonical Dada works
+  // survive only as post-1930 replicas / destroyed (Bicycle Wheel, Man Ray Gift +
+  // Indestructible Object, Merzbau, Cherry Picture, Arp's chance collage, Taeuber's
+  // Dada Head) so they are listed name-only with no inlineable PD image.
+  monaLisa: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%2C_Paris%29.jpg/960px-Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%2C_Paris%29.jpg',
+  picabiaStieglitz: 'https://upload.wikimedia.org/wikipedia/commons/3/30/Francis_Picabia%2C_Ici%2C_c%27est_ici_Stieglitz%2C_foi_et_amour%2C_cover_of_291%2C_No1%2C_1915.jpg',
+  duchampLhooq: 'https://upload.wikimedia.org/wikipedia/en/7/74/Marcel_Duchamp%2C_1919%2C_L.H.O.O.Q.jpg',
+  hochKnife: 'https://upload.wikimedia.org/wikipedia/en/6/6b/Hoch-Cut_With_the_Kitchen_Knife.jpg',
+  hausmannHead: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Mechanical_Head_%28The_Spirit_of_Our_Time%29%2C_assemblage_circa_1920.png',
+  ernstHatMan: 'https://upload.wikimedia.org/wikipedia/en/0/02/The_Hat_Makes_the_Man.jpg',
+  ernstCelebes: 'https://upload.wikimedia.org/wikipedia/en/2/2b/The_Elephant_Celebes.jpg',
+  picabiaVierge: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Francis_Picabia%2C_1920%2C_La_Sainte_Vierge_%28The_Blessed_Virgin%29%2C_ink_and_graphite_on_paper%2C_33_x_24_cm%2C_Mus%C3%A9e_National_d%27Art_Moderne%2C_Paris.jpg',
+  groszDaum: 'https://upload.wikimedia.org/wikipedia/en/d/d0/George_Grosz%2C_Daum_marries_her_pedantic_automaton_George_in_May_1920%2C_John_Heartfield_is_very_glad_of_it%2C_Berlinische_Galerie.jpg',
+  picabiaTresRare: 'https://upload.wikimedia.org/wikipedia/commons/3/30/Francis_Picabia%2C_1915_-_Tr%C3%A8s_rare_tableau_sur_la_terre.jpg',
+  picabiaFlamenca: 'https://upload.wikimedia.org/wikipedia/commons/b/b6/Francis_Picabia%2C_Flamenca%2C_391%2C_n._3%2C_March_1%2C_1917.jpg',
+  dadaGroup1920: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Dada_artists%2C_group_photograph%2C_1920%2C_Paris.jpg',
+  ballCostume: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Hugo_Ball_Cabaret_Voltaire.jpg',
+  tzaraPhoto: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Tristan_Tzara_Photo_of_Artist_in_Zurich.jpg',
+  arpPhotoDada: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Hans_Arp.JPG',
+  duchampPhoto: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Five-Way_Portrait_of_Marcel_Duchamp%2C_21_June_1917%2C_New_York_City.jpg',
   boccioniCity: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_City_Rises_by_Umberto_Boccioni_1910.jpg/1280px-The_City_Rises_by_Umberto_Boccioni_1910.jpg',
   duchampFountain: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg/1280px-Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg',
   grisBreakfast: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/1914_Gris_Le_Petit_D%C3%A9jeuner.jpg',
@@ -360,7 +382,7 @@ export const MODERN_ERA: ArtEraContent = {
     { id: 'fauv', name: 'Fauvism', range: '1905–1908', accent: ART_ACCENTS.rust, size: 's', hook: 'Color off the leash. Matisse, three years, four canvases, done.', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'], imageUrl: ART_IMG.matisseHat, portrait: true, credit: 'Matisse, Woman with a Hat, 1905 · SFMOMA, San Francisco' },
     { id: 'cubism', name: 'Cubism', range: '1907–1922', accent: ART_ACCENTS.violet, size: 'xl', hook: 'A face has six sides now. A guitar shows you its strings and its back.', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], imageUrl: ART_IMG.demoiselles, imageAspect: '4500 / 4661', credit: 'Picasso, Les Demoiselles d’Avignon · MoMA, New York' },
     { id: 'fut', name: 'Futurism', range: '1909–1918', accent: ART_ACCENTS.rust, size: 's', hook: 'Italian painters in love with motorcars and speed. It ended in the trenches, and in fascism.', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'], imageUrl: ART_IMG.boccioniCity, credit: 'Boccioni, The City Rises, 1910 · MoMA, New York' },
-    { id: 'dada', name: 'Dada', range: '1916–1924', accent: ART_ACCENTS.amber, size: 'm', hook: 'A war in the background and a urinal in the foreground.', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
+    { id: 'dada', name: 'Dada', range: '1916–1924', accent: ART_ACCENTS.amber, size: 'm', hook: 'A war in the background and a urinal in the foreground.', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'], imageUrl: ART_IMG.duchampFountain, credit: 'Stieglitz, Duchamp’s Fountain, 1917 · The Blind Man' },
     { id: 'sur', name: 'Surrealism', range: '1924–1966', accent: ART_ACCENTS.green, size: 'l', hook: 'The unconscious gets a paintbrush. Freud and a clock that won’t hold its shape.', palette: ['#1c3a6a', '#c8a72a', '#0e1224'] },
     { id: 'abex', name: 'Abstract Expressionism', range: '1943–1960', accent: ART_ACCENTS.blue, size: 'l', hook: 'The action stops being something the painting shows and starts being what makes it.', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'] },
     { id: 'pop', name: 'Pop Art', range: '1956–1970', accent: ART_ACCENTS.violet, size: 'm', hook: 'A soup can, but with conviction. Warhol’s factory; Lichtenstein’s dots.', palette: ['#ff3e7f', '#1f1f1f', '#7adff0'] },
@@ -4076,6 +4098,147 @@ export const FUTURISM: ArtMovementContent = {
   ],
 }
 
-export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, cubism: CUBISM }
+// ─────────────────────────────────────────────────────────────
+// Movement, Dada (1916–1924). Art turning on the idea of art, born in neutral
+// Zurich out of disgust at WWI. Authored through the art content pipeline (fact
+// pack → Opus draft → 5 critic gates → reconcile → born-verified images);
+// narrative in movement-narratives.tsx under 'dada'. Honesty axes carried plain:
+// the women of Dada (Höch's sidelining), the Fountain authorship debate (left
+// unresolved). Many canonical works survive only as post-1930 replicas / are
+// destroyed, so they are listed name-only (no inlineable PD image).
+// ─────────────────────────────────────────────────────────────
+export const DADA: ArtMovementContent = {
+  id: 'dada',
+  name: 'Dada',
+  range: '1916–1924',
+  span: '~8 years',
+  era: 'Modern',
+  eraId: 'mod',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Movements of the Modern era', index: 7, total: 10 },
+  hook: 'A handful of refugees in neutral Zurich answered a war chewing up Europe with a urinal, a moustache on the Mona Lisa, and a name that means nothing.',
+  hookLong:
+    'Dada is the moment art turned on itself. Born in Zurich in 1916, in the middle of a war feeding a generation into the mud, a few exiled poets and painters decided the civilization that had produced both the Mona Lisa and the machine gun no longer deserved to be taken seriously, so they made an art of nonsense, accident and provocation. Under the clowning sat a deadly serious invention: the idea that the artist’s choice, not the artist’s hand, is what makes a thing art. It jumped from Zurich to New York, Berlin, Hannover, Cologne and Paris, burned out around 1923, and was swallowed by the movement it had hatched, Surrealism.',
+  heroImage: ART_IMG.hochKnife,
+  heroFit: 'cover',
+  heroFocus: '50% 38%',
+  heroCredit: 'Höch, Cut with the Kitchen Knife (detail), 1919–20 · Nationalgalerie, Berlin',
+  stats: [
+    { v: '~8 yrs', k: 'Span' },
+    { v: '20', k: 'Canonical works' },
+    { v: 'Zurich', k: 'Born in' },
+  ],
+  factions: [
+    { side: 'dadaists', label: 'The Dadaists', color: ART_ACCENTS.amber, members: ['Tzara', 'Ball', 'Arp', 'Duchamp', 'Picabia', 'Höch'], detail: 'Not a school with a style but a scattered international gang of refugee poets and painters across six cities, united by one demand: make an art that attacks the idea of art, with nonsense, accident, the readymade and the cut-up photograph.' },
+    { side: 'bourgeois', label: 'The bourgeois world', color: '#7c6f5a', members: ['The museum', 'The Salon jury', 'Good taste', 'The war-making nation'], detail: 'Everything Dada set out to insult: the gallery and museum cult, polite respectable taste, the idea that art needs skill or beauty or sense, and the patriotic, war-making civilization the Dadaists blamed for the trenches.' },
+  ],
+  works: [
+    { id: 'fountain', year: 1917, name: 'Fountain', artist: 'Duchamp', place: 'New York', size: 'l', blurb: 'A factory-made urinal laid on its back, signed “R. Mutt,” submitted as sculpture to a show that promised to reject nothing, then hid it. The whole artistic act is the choice.', palette: ['#b8b4ac', '#6a665e', '#2a2824'], imageUrl: ART_IMG.duchampFountain, credit: 'Alfred Stieglitz, photograph of Duchamp’s Fountain, 1917 · The Blind Man no. 2' },
+    { id: 'lhooq', year: 1919, name: 'L.H.O.O.Q.', artist: 'Duchamp', place: 'Paris', size: 'm', blurb: 'A cheap Mona Lisa postcard with a pencilled moustache and a five-letter dirty pun, aimed not at Leonardo but at the worship of the masterpiece.', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.duchampLhooq, credit: 'Duchamp, L.H.O.O.Q., 1919 · rectified readymade' },
+    { id: 'kitchen-knife', year: 1920, name: 'Cut with the Kitchen Knife', artist: 'Höch', place: 'Berlin', size: 'xl', blurb: 'A nearly four-foot photomontage that shreds and reassembles the whole Weimar republic, generals and dancers and machine parts cut from the illustrated press, with a corner map of where women could vote.', palette: ['#8a7a52', '#4a3c22', '#15110a'], imageUrl: ART_IMG.hochKnife, credit: 'Höch, Cut with the Kitchen Knife…, 1919–20 · Nationalgalerie, Berlin' },
+    { id: 'mechanical-head', year: 1920, name: 'Mechanical Head', artist: 'Hausmann', place: 'Berlin', size: 'm', blurb: 'A wig-maker’s dummy head studded with a ruler, a tape measure and a watch movement, a head whose only thoughts are the gadgets clamped to its outside.', palette: ['#6a5a3a', '#33291a', '#100c08'], imageUrl: ART_IMG.hausmannHead, credit: 'Hausmann, The Spirit of Our Time (Mechanical Head), c.1920 · Centre Pompidou' },
+    { id: 'hat-makes-man', year: 1920, name: 'The Hat Makes the Man', artist: 'Ernst', place: 'Cologne', size: 'm', blurb: 'Rows of catalogue-cut hats stacked into wobbly, faintly human columns, Cologne Dada collage already tilting toward the dream logic of Surrealism.', palette: ['#5a4a8a', '#2a2440', '#100c1c'], imageUrl: ART_IMG.ernstHatMan, credit: 'Ernst, The Hat Makes the Man, 1920 · MoMA, New York' },
+    { id: 'stieglitz', year: 1915, name: 'Ici, c’est ici Stieglitz', artist: 'Picabia', place: 'New York', size: 'm', blurb: 'A portrait of the photographer Alfred Stieglitz drawn as a broken bellows camera, the deadpan “man as machine” style.', palette: ['#3a3a44', '#1c1c24', '#0a0a10'], imageUrl: ART_IMG.picabiaStieglitz, credit: 'Picabia, Ici, c’est ici Stieglitz, cover of 291, 1915' },
+    { id: 'celebes', year: 1921, name: 'The Elephant Celebes', artist: 'Ernst', place: 'Cologne', size: 'l', blurb: 'A monstrous, boiler-bodied “elephant” looming on a bare plain, half Dada absurdity and half dream. Often called the first masterpiece of Surrealist painting.', palette: ['#3a5a6a', '#2a3640', '#100c08'], imageUrl: ART_IMG.ernstCelebes, credit: 'Ernst, Celebes, 1921 · Tate, London' },
+    { id: 'sainte-vierge', year: 1920, name: 'La Sainte Vierge', artist: 'Picabia', place: 'Paris', size: 'm', blurb: 'An ink splatter captioned “The Blessed Virgin,” the most economical blasphemy in modern art and a Paris-Dada provocation in a single flick of the wrist.', palette: ['#5a5a5a', '#2a2a2a', '#0c0c0c'], imageUrl: ART_IMG.picabiaVierge, credit: 'Picabia, La Sainte Vierge, 1920 · Centre Pompidou, Paris' },
+    { id: 'daum', year: 1920, name: 'Daum Marries…', artist: 'Grosz', place: 'Berlin', size: 'm', blurb: 'A savage Berlin watercolor-collage of a bride and a pedantic clockwork man, the city’s sexual and mechanical rot pinned to the page.', palette: ['#8a4a3a', '#3a2018', '#100805'], imageUrl: ART_IMG.groszDaum, credit: 'Grosz, Daum Marries Her Pedantic Automaton George…, 1920 · Berlinische Galerie' },
+  ],
+  artists: [
+    { id: 'tzara', name: 'Tzara', role: 'The ringmaster', years: '1896–1963', palette: ['#8a7a52', '#4a3c22', '#15110a'], photo: ART_IMG.tzaraPhoto },
+    { id: 'ball', name: 'Hugo Ball', role: 'The founder', years: '1886–1927', palette: ['#3a4a6a', '#2a3048', '#0e1422'], photo: ART_IMG.ballCostume },
+    { id: 'arp', name: 'Arp', role: 'Chance', years: '1886–1966', palette: ['#5a6a4a', '#33402a', '#101408'], photo: ART_IMG.arpPhotoDada },
+    { id: 'duchamp', name: 'Duchamp', role: 'The readymade', years: '1887–1968', palette: ['#7a6a4a', '#3a3020', '#100c08'], photo: ART_IMG.duchampPhoto },
+    { id: 'picabia', name: 'Picabia', role: 'The machine-painter', years: '1879–1953', palette: ['#3a3a44', '#1c1c24', '#0a0a10'] },
+    { id: 'hoch', name: 'Höch', role: 'Photomontage', years: '1889–1978', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  parallels: [
+    { year: 1916, movement: 'The First World War', place: 'Europe', blurb: 'Not background but cause: while the Western Front fed millions into the trenches, the Dadaists in neutral Zurich answered the civilization that built the machine gun with nonsense and ridicule.' },
+    { year: 1917, movement: 'Revolution & Constructivism', place: 'Russia', blurb: 'The Bolshevik Revolution and Constructivism tried to build a brand-new machine-age art for a new society. Where Berlin Dada used photomontage to attack, the Constructivists used it to build.' },
+    { year: 1924, movement: 'Surrealism', place: 'Paris', blurb: 'Less “meanwhile” than “next”: Paris Dada’s split handed straight off to Surrealism, which kept Dada’s chance and collage but aimed them at the unconscious and the dream.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Futurism', mode: 'art', img: ART_IMG.boccioniCity, palette: ['#bf3a25', '#3a4a6a', '#1c1208'], note: 'gave: the manifesto and the provocation evening' },
+      { label: 'Cubism', mode: 'art', img: ART_IMG.portuguese, palette: ['#9a8458', '#4a3f28', '#15110a'], note: 'gave: collage, the cut-and-pasted fragment' },
+      { label: 'The First World War', mode: 'civ', palette: ['#5a5048', '#2a2520', '#0e0c0a'], note: 'gave: the engine, disgust at reason and beauty' },
+      { label: 'Duchamp’s readymades', mode: 'art', img: ART_IMG.duchampFountain, palette: ['#b8b4ac', '#6a665e', '#2a2824'], note: 'gave: choosing, not making, as the art' },
+    ],
+    children: [
+      { label: 'Surrealism', mode: 'art', img: ART_IMG.ernstCelebes, palette: ['#3a5a6a', '#2a3640', '#100c08'], note: 'took: chance and collage, aimed at the dream' },
+      { label: 'Pop Art', mode: 'art', palette: ['#bf2f6a', '#d6cf3f', '#1c1c1c'], note: 'took: the found commercial image, deadpan' },
+      { label: 'Conceptual art', mode: 'art', palette: ['#5a5a5a', '#2a2a2a', '#0c0c0c'], note: 'took: art is a decision, not a craft' },
+      { label: 'Punk', mode: 'civ', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'], note: 'took: the cut-up, the DIY collage, the provocation' },
+    ],
+  },
+  influenceSummary: 'Dada took Futurism’s manifesto-as-weapon and Cubism’s collage, set them against a civilization that had just produced the trenches, and out of the wreckage handed forward three ideas that changed art permanently, the readymade, photomontage and chance, and bred Surrealism outright.',
+  manifesto: {
+    title: 'Dada Manifesto 1918',
+    author: 'Tristan Tzara (and Hugo Ball, 1916)',
+    dateLabel: '1918',
+    venue: 'read at a Zurich soirée, 23 March 1918; published in Dada no. 3, December 1918',
+    quotes: [
+      'Dada is a new tendency in art. One can tell this from the fact that until now nobody knew anything about it, and tomorrow everyone in Zurich will be talking about it.',
+      'DADA DOES NOT MEAN ANYTHING.',
+      'I write a manifesto and I want nothing, yet I say certain things, and in principle I am against manifestos, as I am also against principles.',
+    ],
+    prose: [
+      'Most movements write a manifesto to explain themselves earnestly. (A manifesto is a public declaration of a movement’s aims; Futurism, in the read next door, had practically invented the art-world version, and Dada took the weapon straight from it.) Dada wrote manifestos to prove that manifestos were worthless.',
+      'In 1916 Hugo Ball stood up in a Zurich guildhall and announced “Dada is a new tendency in art,” then cheerfully explained that the whole point was that it meant nothing. Two years later Tzara wrote the most famous one of all, which partway through flatly declares “DADA DOES NOT MEAN ANYTHING,” and elsewhere admits he is writing a manifesto while being against manifestos and against principles.',
+      'It is a manifesto that argues itself out of existence, which is exactly the joke and exactly the point. There is no creed to sign, no program to follow, only the refusal of creeds and programs. That is as close to a founding statement as a movement built on negation can get.',
+    ],
+    sourceUrl: 'https://391.org/manifestos/1918-dada-manifesto-tristan-tzara/',
+    sourceLabel: 'Read Tzara’s Dada Manifesto 1918 in full',
+  },
+  whatChanged: {
+    heading: 'Why it was a break',
+    before: {
+      img: ART_IMG.monaLisa,
+      title: 'Before · Leonardo, Mona Lisa (c.1503)',
+      caption: 'What art had always been: a thing made with skill, aimed at beauty and meaning, revered enough to become the most worshipped painting in the world. Even the wildest pre-1916 modern art still believed in the picture and the artist’s hand.',
+    },
+    after: {
+      img: ART_IMG.duchampFountain,
+      title: 'After · Duchamp, Fountain (1917)',
+      caption: 'What Dada did instead: a factory-made urinal, signed “R. Mutt,” laid on its back and called sculpture. The skill is gone, the beauty is gone, the hand is gone. What is left is the choice, and the argument that the choice is the art.',
+    },
+    prose: [
+      'For centuries a work of art was something an artist made with skill, that aimed at beauty or meaning or at least craft, and earned its place by hanging where the public took it seriously. Even the wildest modern art before 1916 still believed in all of that. Fauvism’s screaming colors, Cubism’s broken planes, Futurism’s blurred speed (all in the reads alongside this one) were violent quarrels with how to make a picture, but they never doubted that a picture was the thing to make, by hand.',
+      'Dada doubted exactly that. Duchamp bought a mass-produced piece of plumbing, signed it with a fake name, laid it on its back, called it sculpture, and argued that his choosing it was the entire artistic act. There is no skill, no beauty, no subject. The only thing the artist did was point at an object and say “this.” That single move, the readymade, is the most disruptive idea in modern art, and it is the whole break in one glance.',
+      'Three more moves stack behind it. Chance: Arp tore up paper, let the scraps fall, and glued them where they landed. Photomontage: in Berlin, Hannah Höch and John Heartfield cut up news photographs into political weapons. And nonsense: sound poems with no words, a name chosen because it means nothing, a moustache on the Mona Lisa. The skill, the beauty, even the made-by-hand part are thrown out. What is left is the idea and the gesture, and almost everything in art that comes after is built on that.',
+    ],
+  },
+  canon: [
+    { year: 1913, name: 'Bicycle Wheel', artist: 'Duchamp', wiki: 'Bicycle Wheel' },
+    { year: 1915, name: 'Très rare tableau sur la terre', artist: 'Picabia', img: ART_IMG.picabiaTresRare },
+    { year: 1915, name: 'Ici, c’est ici Stieglitz', artist: 'Picabia', img: ART_IMG.picabiaStieglitz },
+    { year: 1916, name: 'Collage with Squares (Laws of Chance)', artist: 'Arp', wiki: 'Untitled (Collage with Squares Arranged according to the Laws of Chance)' },
+    { year: 1917, name: 'Fountain', artist: 'Duchamp', wiki: 'Fountain (Duchamp)', img: ART_IMG.duchampFountain },
+    { year: 1917, name: 'Flamenca (391 cover)', artist: 'Picabia', img: ART_IMG.picabiaFlamenca },
+    { year: 1919, name: 'L.H.O.O.Q.', artist: 'Duchamp', wiki: 'L.H.O.O.Q.', img: ART_IMG.duchampLhooq },
+    { year: 1920, name: 'The Art Critic', artist: 'Hausmann', wiki: 'The Art Critic (Hausmann)' },
+    { year: 1920, name: 'Cut with the Kitchen Knife', artist: 'Höch', wiki: 'Cut with the Kitchen Knife', img: ART_IMG.hochKnife },
+    { year: 1920, name: 'Mechanical Head (The Spirit of Our Time)', artist: 'Hausmann', img: ART_IMG.hausmannHead },
+    { year: 1920, name: 'The Hat Makes the Man', artist: 'Ernst', img: ART_IMG.ernstHatMan },
+    { year: 1920, name: 'La Sainte Vierge', artist: 'Picabia', img: ART_IMG.picabiaVierge },
+    { year: 1920, name: 'Daum Marries Her Pedantic Automaton George', artist: 'Grosz', img: ART_IMG.groszDaum },
+    { year: 1920, name: 'Republican Automatons', artist: 'Grosz', wiki: 'Republican Automatons' },
+    { year: 1920, name: 'Tête dada (Dada Head)', artist: 'Taeuber-Arp' },
+    { year: 1921, name: 'The Cherry Picture (Merz 32 A)', artist: 'Schwitters', wiki: 'The Cherry Picture' },
+    { year: 1921, name: 'The Elephant Celebes', artist: 'Ernst', wiki: 'The Elephant Celebes', img: ART_IMG.ernstCelebes },
+    { year: 1921, name: 'Gift', artist: 'Man Ray', wiki: 'Gift (Man Ray)' },
+    { year: 1923, name: 'Indestructible Object', artist: 'Man Ray', wiki: 'Indestructible Object' },
+    { year: 1933, name: 'Merzbau', artist: 'Schwitters', wiki: 'Merzbau' },
+  ],
+  sections: [
+    { id: 'cabaret', eyebrow: 'Zurich', dateLabel: '1916', title: 'The cabaret at the end of the world', blurb: 'In neutral Zurich, with Europe at war, a refugee poet opens a nightclub of nonsense, and a movement that means nothing on purpose gets its name.', progress: 1 / 6 },
+    { id: 'urinal', eyebrow: 'New York', dateLabel: '1913–1919', title: 'A urinal in New York', blurb: 'Across the ocean, Duchamp turns a piece of plumbing into the most argued-over object in modern art, and we cannot even be sure who really sent it.', progress: 2 / 6 },
+    { id: 'berlin', eyebrow: 'Berlin', dateLabel: '1918–1920', title: 'Berlin cuts it up', blurb: 'In a defeated, starving Germany, Dada turns savagely political and invents its sharpest weapon out of scissors and the daily paper, while the men shove the women aside.', progress: 3 / 6 },
+    { id: 'trash', eyebrow: 'Hannover & Cologne', dateLabel: '1919–1921', title: 'Trash and one-man movements', blurb: 'A blackballed artist builds his own movement out of street garbage, a Cologne show hands you an axe, and Arp lets chance compose the picture.', progress: 4 / 6 },
+    { id: 'paris', eyebrow: 'Paris', dateLabel: '1920–1923', title: 'Paris, and the family feud', blurb: 'Tzara brings Dada to the young writers who will become the Surrealists, then the movement tears itself apart over whether nonsense should be put to serious use.', progress: 5 / 6 },
+    { id: 'left', eyebrow: 'The afterlife', dateLabel: '1924 on', title: 'What Dada left', blurb: 'Surrealism inherits it outright, and the readymade, photomontage and chance run forward into Pop, Conceptual art, Fluxus and punk.', progress: 1 },
+  ],
+}
+
+export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, dada: DADA, cubism: CUBISM }
 export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
