@@ -11,6 +11,8 @@ import { useState, useEffect, useRef, Fragment } from 'react'
 import Link from 'next/link'
 import { useScrollMemory } from '@/lib/use-scroll-memory'
 import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
+import { WarHeader } from '@/components/mode/war-header'
+import '../../app/war-civil-war/war-skin.css'
 import { ART_ACCENT, artAlpha } from '@/lib/art-data'
 import { ART_ERAS } from '@/lib/art-data'
 import { ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT, type ArtStat, type ArtSide, type Palette, type HeroImage, type WhatChanged, type Manifesto } from '@/lib/art-content'
@@ -21,8 +23,8 @@ export const MONO = 'var(--font-geist-mono, ui-monospace, monospace)'
 
 // CSS-var theme tokens (translations of the mockup's `t.*`).
 export const INK = 'var(--foreground)'
-export const MUTED = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
-export const FAINT = 'color-mix(in srgb, var(--foreground) 38%, transparent)'
+export const MUTED = 'color-mix(in srgb, var(--foreground) 76%, transparent)'
+export const FAINT = 'color-mix(in srgb, var(--foreground) 58%, transparent)'
 export const BORDER = 'color-mix(in srgb, var(--foreground) 11%, transparent)'
 export const BORDER_STRONG = 'color-mix(in srgb, var(--foreground) 22%, transparent)'
 export const CARD_BG = 'color-mix(in srgb, var(--foreground) 4%, transparent)'
@@ -43,6 +45,7 @@ function eraOptions(): CrumbOption[] {
 function movementOptions(eraId: string): CrumbOption[] {
   return Object.values(ART_MOVEMENT_CONTENT)
     .filter(m => m.eraId === eraId)
+    .sort((a, b) => a.chain.index - b.chain.index)
     .map(m => ({ label: m.name, href: `/art/${eraId}/${m.id}`, color: m.accent }))
 }
 function workOptions(eraId: string, movementId: string): CrumbOption[] {
@@ -55,6 +58,7 @@ function workOptions(eraId: string, movementId: string): CrumbOption[] {
 function eraWorkOptions(eraId: string): CrumbOption[] {
   return Object.values(ART_MOVEMENT_CONTENT)
     .filter(m => m.eraId === eraId)
+    .sort((a, b) => a.chain.index - b.chain.index)
     .flatMap(m => m.works.filter(w => ART_WORK_CONTENT[w.id]).map(w => ({ label: w.name, href: `/art/${eraId}/${m.id}/${w.id}` })))
 }
 
@@ -97,10 +101,19 @@ export function artArtistCrumbs(artistName: string): Crumb[] {
 export type ArtView = 'left' | 'right'
 
 export function ArtChrome({ crumbs, accent = ART_ACCENT }: { crumbs: Crumb[]; accent?: string }) {
-  // Single-view drilldown: just the breadcrumb. The Timeline/Dossier toggle was
-  // removed — the page leads with its signature visual and tucks the secondary
-  // detail blocks into a closed ArtAccordion (user direction 2026-05-23).
-  return <WarBreadcrumb crumbs={crumbs} accent={accent} />
+  // The shared app header (back · wordmark · theme · search · menu) sits above the
+  // breadcrumb so every art drilldown page matches civ/war/philosophy. The header
+  // lives in a `.war-skin` wrapper (its styles come from war-skin.css). Below it,
+  // the single-view drilldown breadcrumb (the Timeline/Dossier toggle was removed
+  // 2026-05-23 — the page leads with its signature visual + a closed ArtAccordion).
+  return (
+    <>
+      <div className="war-skin" style={{ flexShrink: 0, minHeight: 0, background: 'transparent' }}>
+        <WarHeader active="art" title="Art" subtitle="Stuff Happened · Art" backHref="/art" />
+      </div>
+      <WarBreadcrumb crumbs={crumbs} accent={accent} bare />
+    </>
+  )
 }
 
 // Stats row (the "at a glance" numbers), standalone so it can sit inside an
@@ -114,7 +127,7 @@ export function StatsRow({ stats, accent = ART_ACCENT, actions }: { stats: ArtSt
         const body = (
           <>
             <div style={{ fontFamily: SERIF, fontSize: 20, lineHeight: 1, letterSpacing: -0.4, color: onClick ? accent : INK, fontWeight: 500 }}>{s.v}</div>
-            <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 600, color: onClick ? accent : FAINT, textTransform: 'uppercase' }}>{s.k}{onClick ? ' ↓' : ''}</div>
+            <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 11, letterSpacing: 1.4, fontWeight: 600, color: onClick ? accent : FAINT, textTransform: 'uppercase' }}>{s.k}{onClick ? ' ↓' : ''}</div>
           </>
         )
         return onClick
@@ -165,7 +178,7 @@ export function ReadStoryButton({ href, label = 'Read the full story', accent = 
       }}>
         <span style={{ minWidth: 0 }}>
           <span style={{ display: 'block', fontFamily: SANS, fontSize: 14, fontWeight: 600, letterSpacing: 0.1, color: INK }}>{label}</span>
-          {sub && <span style={{ display: 'block', marginTop: 2, fontFamily: SANS, fontSize: 11.5, color: MUTED }}>{sub}</span>}
+          {sub && <span style={{ display: 'block', marginTop: 2, fontFamily: SANS, fontSize: 12.5, color: MUTED }}>{sub}</span>}
         </span>
         <span style={{ flexShrink: 0, width: 30, height: 30, borderRadius: 999, background: accent, color: '#fff', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 15, fontWeight: 700 }}>→</span>
       </Link>
@@ -177,7 +190,7 @@ export function ReadStoryButton({ href, label = 'Read the full story', accent = 
 // Primitives
 // ─────────────────────────────────────────────────────────────
 export function Eyebrow({ children, color }: { children: React.ReactNode; color?: string }) {
-  return <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: color || FAINT }}>{children}</div>
+  return <div style={{ fontFamily: SANS, fontSize: 14.5, letterSpacing: 1.2, fontWeight: 700, textTransform: 'uppercase', color: color || FAINT }}>{children}</div>
 }
 
 // Image tile with a 3-colour gradient fallback (the mockup's PaintingTile).
@@ -226,14 +239,14 @@ export function ArtHero({ eyebrow, title, sub, palette, imageUrl, images, credit
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.05) 30%, rgba(0,0,0,0.72) 100%)' }} />
       <div style={{ position: 'absolute', left: 18, right: 18, bottom: 14 }}>
         {/* eyebrow stays white for contrast over any painting (accent purple was unreadable on dark images) */}
-        <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.5, fontWeight: 700, textTransform: 'uppercase', color: 'rgba(255,255,255,0.9)', textShadow: '0 1px 3px rgba(0,0,0,0.75)' }}>{eyebrow}</div>
+        <div style={{ fontFamily: SANS, fontSize: 11, letterSpacing: 1.5, fontWeight: 700, textTransform: 'uppercase', color: 'rgba(255,255,255,0.9)', textShadow: '0 1px 3px rgba(0,0,0,0.75)' }}>{eyebrow}</div>
         <h1 style={{ margin: '4px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 28, lineHeight: 1.05, letterSpacing: -0.4, color: '#fff', textShadow: '0 1px 4px rgba(0,0,0,0.55)' }}>{title}</h1>
-        {sub && <div style={{ marginTop: 6, fontFamily: SANS, fontSize: 12.5, color: 'rgba(255,255,255,0.85)', textShadow: '0 1px 3px rgba(0,0,0,0.55)' }}>{sub}</div>}
+        {sub && <div style={{ marginTop: 6, fontFamily: SANS, fontSize: 13, color: 'rgba(255,255,255,0.85)', textShadow: '0 1px 3px rgba(0,0,0,0.55)' }}>{sub}</div>}
       </div>
       </div>
       {/* credit goes UNDER the image, museum-label style, with the work's current location */}
       {credit && (
-        <div style={{ padding: '8px 16px 2px', fontFamily: SANS, fontSize: 11, lineHeight: 1.45, color: MUTED, letterSpacing: 0.2 }}>{credit}</div>
+        <div style={{ padding: '8px 16px 2px', fontFamily: SANS, fontSize: 12, lineHeight: 1.45, color: MUTED, letterSpacing: 0.2 }}>{credit}</div>
       )}
     </>
   )
@@ -248,12 +261,12 @@ export function ArtFaceoff({ items, vsLabel = 'vs', topBorder = false }: { items
         <div key={it.side || it.label} style={{ padding: i === 0 ? '0 18px 0 0' : '0 0 0 18px', textAlign: i === 0 ? 'left' : 'right' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8, justifyContent: i === 0 ? 'flex-start' : 'flex-end' }}>
             <div style={{ width: 22, height: 14, borderRadius: 2, background: it.color, boxShadow: 'inset 0 0 0 1px rgba(0,0,0,0.25)', order: i === 0 ? 0 : 1 }} />
-            <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: it.color, textTransform: 'uppercase' }}>{it.side || ''}</div>
+            <div style={{ fontFamily: SANS, fontSize: 11, letterSpacing: 1.4, fontWeight: 700, color: it.color, textTransform: 'uppercase' }}>{it.side || ''}</div>
           </div>
-          <div style={{ marginTop: 6, fontFamily: SERIF, fontSize: 15, lineHeight: 1.2, letterSpacing: -0.15, color: INK, fontWeight: 500 }}>{it.label}</div>
-          {it.members && <div style={{ marginTop: 6, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12, lineHeight: 1.45, color: MUTED }}>{it.members.join(' · ')}</div>}
-          {it.motto && <div style={{ marginTop: 6, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.45, color: FAINT }}>&ldquo;{it.motto}&rdquo;</div>}
-          {it.detail && <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 11, color: MUTED, lineHeight: 1.5 }}>{it.detail}</div>}
+          <div style={{ marginTop: 6, fontFamily: SERIF, fontSize: 16, lineHeight: 1.2, letterSpacing: -0.15, color: INK, fontWeight: 500 }}>{it.label}</div>
+          {it.members && <div style={{ marginTop: 6, fontFamily: SERIF, fontStyle: 'italic', fontSize: 13, lineHeight: 1.45, color: MUTED }}>{it.members.join(' · ')}</div>}
+          {it.motto && <div style={{ marginTop: 6, fontFamily: SERIF, fontStyle: 'italic', fontSize: 13.5, lineHeight: 1.45, color: FAINT }}>&ldquo;{it.motto}&rdquo;</div>}
+          {it.detail && <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 12.5, color: MUTED, lineHeight: 1.5 }}>{it.detail}</div>}
         </div>
       ))}
     </div>
@@ -267,8 +280,8 @@ export function ArtAtAGlance({ summary, stats, faceoff, extras }: { summary: str
     <div style={{ borderBottom: `1px solid ${BORDER}` }}>
       <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ width: '100%', appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', padding: '12px 14px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: INK, textAlign: 'left', gap: 12 }}>
         <div style={{ display: 'flex', alignItems: 'baseline', gap: 10, minWidth: 0, flex: 1 }}>
-          <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: FAINT, textTransform: 'uppercase', flexShrink: 0 }}>At a glance</span>
-          {!open && <span style={{ fontFamily: SERIF, fontSize: 13, letterSpacing: -0.05, color: MUTED, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', minWidth: 0 }}>{summary}</span>}
+          <span style={{ fontFamily: SANS, fontSize: 11, letterSpacing: 1.4, fontWeight: 700, color: FAINT, textTransform: 'uppercase', flexShrink: 0 }}>At a glance</span>
+          {!open && <span style={{ fontFamily: SERIF, fontSize: 14, letterSpacing: -0.05, color: MUTED, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', minWidth: 0 }}>{summary}</span>}
         </div>
         <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 22, height: 22, borderRadius: 999, background: CHIP, color: MUTED, border: `1px solid ${BORDER}`, transition: 'transform 200ms ease', transform: open ? 'rotate(180deg)' : 'rotate(0deg)', flexShrink: 0 }}>
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
@@ -280,7 +293,7 @@ export function ArtAtAGlance({ summary, stats, faceoff, extras }: { summary: str
             {stats.map((s, i) => (
               <div key={s.k} style={{ flex: 1, padding: '14px 12px', borderLeft: i === 0 ? 'none' : `1px solid ${BORDER}`, textAlign: 'center' }}>
                 <div style={{ fontFamily: SERIF, fontSize: 20, lineHeight: 1, letterSpacing: -0.4, color: INK, fontWeight: 500 }}>{s.v}</div>
-                <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 600, color: FAINT, textTransform: 'uppercase' }}>{s.k}</div>
+                <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 11, letterSpacing: 1.4, fontWeight: 600, color: FAINT, textTransform: 'uppercase' }}>{s.k}</div>
               </div>
             ))}
           </div>
@@ -318,8 +331,8 @@ export function ArtistsStrip({ artists, label = 'Artists' }: { artists: { id?: s
           <div key={a.id || a.name} style={{ flexShrink: 0, width: 84, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }}>
             <ArtistAvatar photo={a.photo} palette={a.palette} />
             <div style={{ textAlign: 'center' }}>
-              <div style={{ fontFamily: SERIF, fontSize: 12.5, lineHeight: 1.15, letterSpacing: -0.1, color: INK }}>{a.name}</div>
-              <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 9.5, letterSpacing: 0.2, color: FAINT }}>{a.role || a.years}</div>
+              <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.18, letterSpacing: -0.1, color: INK }}>{a.name}</div>
+              <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{a.role || a.years}</div>
             </div>
           </div>
         ))}
@@ -373,7 +386,7 @@ export function SectionNav({ items, accent = ART_ACCENT }: { items: { id: string
         // Compact, content-sized chips (tight font/padding) so the whole row fits one
         // screen with NO horizontal scroll — keep labels short (≤8 chars) to stay safe.
         return (
-          <button key={it.id} onClick={() => jump(it)} style={{ flexShrink: 0, fontFamily: SANS, fontSize: 10.5, fontWeight: 600, letterSpacing: 0.2, padding: '4px 7px', borderRadius: 999, cursor: 'pointer', whiteSpace: 'nowrap', border: `1px solid ${on ? artAlpha(accent, 0.5) : BORDER}`, background: on ? artAlpha(accent, 0.14) : 'transparent', color: on ? INK : MUTED }}>{it.label}</button>
+          <button key={it.id} onClick={() => jump(it)} style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11.5, fontWeight: 600, letterSpacing: 0.2, padding: '5px 8px', borderRadius: 999, cursor: 'pointer', whiteSpace: 'nowrap', border: `1px solid ${on ? artAlpha(accent, 0.5) : BORDER}`, background: on ? artAlpha(accent, 0.14) : 'transparent', color: on ? INK : MUTED }}>{it.label}</button>
         )
       })}
     </div>
@@ -402,8 +415,8 @@ export function WhatChangedBlock({ wc, accent, onZoom }: { wc: WhatChanged; acce
   )
   const Caption = ({ side, dim }: { side: WhatChanged['before']; dim: boolean }) => (
     <div>
-      <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.3, color: dim ? MUTED : INK, textTransform: 'uppercase' }}>{side.title}</div>
-      <div style={{ marginTop: 3, fontFamily: SERIF, fontSize: 11.5, lineHeight: 1.4, color: MUTED, textWrap: 'pretty' }}>{side.caption}</div>
+      <div style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: 0.3, color: dim ? MUTED : INK, textTransform: 'uppercase' }}>{side.title}</div>
+      <div style={{ marginTop: 4, fontFamily: SERIF, fontSize: 13, lineHeight: 1.45, color: MUTED, textWrap: 'pretty' }}>{side.caption}</div>
     </div>
   )
   return (
@@ -424,7 +437,7 @@ export function WhatChangedBlock({ wc, accent, onZoom }: { wc: WhatChanged; acce
       {/* the passage — what concretely changed */}
       <div style={{ marginTop: 16 }}>
         {wc.prose.map((p, i) => (
-          <p key={i} style={{ margin: i === 0 ? 0 : '10px 0 0', fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'var(--foreground)', textWrap: 'pretty' }}>{p}</p>
+          <p key={i} style={{ margin: i === 0 ? 0 : '11px 0 0', fontFamily: SERIF, fontSize: 16.5, lineHeight: 1.6, color: 'var(--foreground)', textWrap: 'pretty' }}>{p}</p>
         ))}
       </div>
     </div>
@@ -443,10 +456,10 @@ export function ManifestoBlock({ m, accent }: { m: Manifesto; accent: string }) 
       {hasQuotes && (
         <figure style={{ margin: '14px 0 0', padding: '2px 0 2px 16px', borderLeft: `3px solid ${artAlpha(accent, 0.6)}` }}>
           {m.quotes!.map((q, i) => (
-            <p key={i} style={{ margin: i === 0 ? 0 : '8px 0 0', fontFamily: SERIF, fontStyle: 'italic', fontSize: 16, lineHeight: 1.5, color: INK, textWrap: 'pretty' }}>{`“${q}”`}</p>
+            <p key={i} style={{ margin: i === 0 ? 0 : '10px 0 0', fontFamily: SERIF, fontStyle: 'italic', fontSize: 18.5, lineHeight: 1.5, color: INK, textWrap: 'pretty' }}>{`“${q}”`}</p>
           ))}
           {attribution && (
-            <figcaption style={{ marginTop: 11, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: MUTED }}>
+            <figcaption style={{ marginTop: 11, fontFamily: SANS, fontSize: 11.5, letterSpacing: 0.2, color: MUTED }}>
               {`— ${attribution}`}{meta ? <span style={{ color: FAINT }}>{` · ${meta}`}</span> : null}
             </figcaption>
           )}
@@ -454,12 +467,12 @@ export function ManifestoBlock({ m, accent }: { m: Manifesto; accent: string }) 
       )}
       <div style={{ marginTop: m.absent ? 12 : 16 }}>
         {m.prose.map((p, i) => (
-          <p key={i} style={{ margin: i === 0 ? 0 : '10px 0 0', fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'var(--foreground)', textWrap: 'pretty' }}>{p}</p>
+          <p key={i} style={{ margin: i === 0 ? 0 : '11px 0 0', fontFamily: SERIF, fontSize: 16.5, lineHeight: 1.6, color: 'var(--foreground)', textWrap: 'pretty' }}>{p}</p>
         ))}
       </div>
       {m.sourceUrl && (
         <a href={m.sourceUrl} target="_blank" rel="noopener noreferrer"
-          style={{ display: 'inline-flex', alignItems: 'center', gap: 5, marginTop: 14, fontFamily: SANS, fontSize: 12.5, fontWeight: 600, color: accent, textDecoration: 'none', borderBottom: `1px solid ${artAlpha(accent, 0.45)}`, paddingBottom: 1 }}>
+          style={{ display: 'inline-flex', alignItems: 'center', gap: 5, marginTop: 14, fontFamily: SANS, fontSize: 13, fontWeight: 600, color: accent, textDecoration: 'none', borderBottom: `1px solid ${artAlpha(accent, 0.45)}`, paddingBottom: 1 }}>
           {m.sourceLabel ?? 'Read the full manifesto'} <span aria-hidden style={{ fontSize: 14 }}>↗</span>
         </a>
       )}

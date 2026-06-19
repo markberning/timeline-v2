@@ -4411,7 +4411,8 @@ const SurAutomatismNarrative: Narrative = ({ accent }) => (
       <RestrictedFigure
         title={<>Masson, <em>Automatic Drawing</em></>}
         year="1924 · MoMA, New York"
-        note="A pen let loose with no plan, the line tangling into half-figures you only find afterward. As pure a picture of psychic automatism as the movement made. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.massonAuto}
+        note="A pen let loose with no plan, the line tangling into half-figures you only find afterward. As pure a picture of psychic automatism as the movement made."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Andr%C3%A9_Masson"
       />
@@ -4549,7 +4550,8 @@ const SurDreamNarrative: Narrative = ({ accent, onZoom }) => (
       <RestrictedFigure
         title={<>Dalí, <em>The Persistence of Memory</em></>}
         year="1931 · MoMA, New York"
-        note="The melting watches on a deserted Catalan shore, time gone soft, painted jewel-small and exact. The most famous Surrealist image, and one of the most reproduced paintings of the century. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.daliPersistence}
+        note="The melting watches on a deserted Catalan shore, time gone soft, painted jewel-small and exact. The most famous Surrealist image, and one of the most reproduced paintings of the century."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/The_Persistence_of_Memory"
       />
@@ -4572,7 +4574,8 @@ const SurDreamNarrative: Narrative = ({ accent, onZoom }) => (
       <RestrictedFigure
         title={<>Magritte, <em>The Treachery of Images</em></>}
         year="1929 · LACMA"
-        note="A carefully painted pipe over the line “Ceci n’est pas une pipe.” It is not a pipe; it is a picture of a pipe. The cleanest lesson in modern art about the gap between a word, an image, and the thing. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.magrittePipe}
+        note="A carefully painted pipe over the line “Ceci n’est pas une pipe.” It is not a pipe; it is a picture of a pipe. The cleanest lesson in modern art about the gap between a word, an image, and the thing."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/The_Treachery_of_Images"
       />
@@ -4586,8 +4589,7 @@ const SurDreamNarrative: Narrative = ({ accent, onZoom }) => (
         plain receding to a far low horizon, the ground littered with smooth pale shapes like bones or pebbles
         worn round by some invisible sea. Nothing in it is nameable and nothing is alive, but the light is so
         consistent and the space so deep that you believe in the place completely. Breton thought him the most
-        faithful of all of them to Surrealist principles. His mature work is all from the 1930s and 1940s, so,
-        like Dal&iacute;&rsquo;s and Magritte&rsquo;s, it lives here in words only.
+        faithful of all of them to Surrealist principles. His mature work is all from the 1930s and 1940s.
       </p>
     </article>
   </>
@@ -4625,7 +4627,8 @@ const SurWomenNarrative: Narrative = ({ accent }) => (
       <RestrictedFigure
         title={<>Carrington, <em>Self-Portrait (Inn of the Dawn Horse)</em></>}
         year="c.1937–38 · The Metropolitan Museum of Art"
-        note="The artist in jodhpurs with a lactating hyena beside her, a white rocking-horse floating behind her head, a real horse galloping out the window. A woman painting her own dream, not posing in a man’s. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.carringtonSelf}
+        note="The artist in jodhpurs with a lactating hyena beside her, a white rocking-horse floating behind her head, a real horse galloping out the window. A woman painting her own dream, not posing in a man’s."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Leonora_Carrington"
       />
@@ -4643,7 +4646,8 @@ const SurWomenNarrative: Narrative = ({ accent }) => (
       <RestrictedFigure
         title={<>Oppenheim, <em>Object</em> (the fur teacup)</>}
         year="1936 · MoMA, New York"
-        note="A teacup, saucer and spoon covered in gazelle fur: the genteel ritual of tea turned animal and faintly revolting. The most-cited Surrealist sculpture, and MoMA’s first acquisition of a work by a woman. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.oppenheimObject}
+        note="A teacup, saucer and spoon covered in gazelle fur: the genteel ritual of tea turned animal and faintly revolting. The most-cited Surrealist sculpture, and MoMA’s first acquisition of a work by a woman."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Object_(Oppenheim)"
       />
@@ -4919,7 +4923,8 @@ const PopBritainNarrative: Narrative = ({ accent, onZoom }) => (
       <RestrictedFigure
         title={<>Paolozzi, <em>I was a Rich Man&rsquo;s Plaything</em></>}
         year="1947 · Tate, London"
-        note="American magazine cuttings glued together by a man on a grey, rationed island, with a toy gun firing a puff of smoke lettered “POP!” in the corner. Proto-Pop, a decade early. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.paolozziPlaything}
+        note="American magazine cuttings glued together by a man on a grey, rationed island, with a toy gun firing a puff of smoke lettered “POP!” in the corner. Proto-Pop, a decade early."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/I_was_a_Rich_Man%27s_Plaything"
       />
@@ -4940,7 +4945,8 @@ const PopBritainNarrative: Narrative = ({ accent, onZoom }) => (
       <RestrictedFigure
         title={<>Hamilton, <em>Just what is it that makes today&rsquo;s homes so different, so appealing?</em></>}
         year="1956 · Kunsthalle Tübingen"
-        note="The first iconic Pop work: the whole 1950s consumer dream crammed into one tiny living-room collage, a flexing bodybuilder holding a giant lollipop lettered “POP.” Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.hamiltonHomes}
+        note="The first iconic Pop work: the whole 1950s consumer dream crammed into one tiny living-room collage, a flexing bodybuilder holding a giant lollipop lettered “POP.”"
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Just_what_is_it_that_makes_today%27s_homes_so_different,_so_appealing%3F"
       />
@@ -4999,7 +5005,8 @@ const PopBridgeNarrative: Narrative = ({ accent }) => (
       <RestrictedFigure
         title={<>Johns, <em>Flag</em></>}
         year="1954–55 · MoMA, New York"
-        note="The Stars and Stripes, life-size, edge to edge, in pigmented hot wax over newsprint. By painting the flattest public image there is, Johns drained the personal soul out of painting. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.johnsFlag}
+        note="The Stars and Stripes, life-size, edge to edge, in pigmented hot wax over newsprint. By painting the flattest public image there is, Johns drained the personal soul out of painting."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Flag_(Jasper_Johns)"
       />
@@ -5068,7 +5075,8 @@ const PopMachineNarrative: Narrative = ({ accent, onZoom }) => (
       <RestrictedFigure
         title={<>Warhol, <em>Campbell&rsquo;s Soup Cans</em></>}
         year="1962 · MoMA, New York"
-        note="Thirty-two near-identical canvases, one per soup variety, first propped on a shelf like a grocery aisle. The dull repetition of the shelf, treated as a subject worthy of a museum wall. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.warholSoup}
+        note="Thirty-two near-identical canvases, one per soup variety, first propped on a shelf like a grocery aisle. The dull repetition of the shelf, treated as a subject worthy of a museum wall."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Campbell%27s_Soup_Cans"
       />
@@ -5090,7 +5098,8 @@ const PopMachineNarrative: Narrative = ({ accent, onZoom }) => (
       <RestrictedFigure
         title={<>Warhol, <em>Marilyn Diptych</em></>}
         year="1962 · Tate, London"
-        note="Fifty silkscreened Marilyns from a single publicity still, made weeks after her death, vivid on the left and fading to ghostly grays on the right. The star reduced to a repeatable product. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.warholMarilyn}
+        note="Fifty silkscreened Marilyns from a single publicity still, made weeks after her death, vivid on the left and fading to ghostly grays on the right. The star reduced to a repeatable product."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Marilyn_Diptych"
       />
@@ -5122,7 +5131,8 @@ const PopMachineNarrative: Narrative = ({ accent, onZoom }) => (
       <RestrictedFigure
         title={<>Lichtenstein, <em>Whaam!</em></>}
         year="1963 · Tate, London"
-        note="A thirteen-foot war-comic panel: a fighter fires a rocket, the enemy plane erupting in a hand-painted Ben-Day-dot “WHAAM!” The cheapest storytelling in America, hung at the scale of history painting. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.lichtWhaam}
+        note="A thirteen-foot war-comic panel: a fighter fires a rocket, the enemy plane erupting in a hand-painted Ben-Day-dot “WHAAM!” The cheapest storytelling in America, hung at the scale of history painting."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Whaam!"
       />
@@ -5376,7 +5386,8 @@ const AbexCrownNarrative: Narrative = ({ accent }) => (
       <RestrictedFigure
         title={<>Gorky, <em>The Liver Is the Cock&rsquo;s Comb</em></>}
         year="1944 · Buffalo AKG Art Museum"
-        note="A large, turbulent canvas of biomorphic near-shapes in acid color, somewhere between a body-map and a hallucination. The literal hinge from Surrealist automatism to Abstract Expressionism. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.gorkyLiver}
+        note="A large, turbulent canvas of biomorphic near-shapes in acid color, somewhere between a body-map and a hallucination. The literal hinge from Surrealist automatism to Abstract Expressionism."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/The_Liver_Is_the_Cock%27s_Comb"
       />
@@ -5471,7 +5482,8 @@ const AbexArenaNarrative: Narrative = ({ accent }) => (
       <RestrictedFigure
         title={<>Pollock, <em>Autumn Rhythm (Number 30)</em></>}
         year="1950 · The Metropolitan Museum of Art"
-        note="A web of poured and dripped paint running edge to edge with no center, almost nine feet tall and seventeen wide, made on the floor from all four sides. The subject is no longer what you see; it is the act of painting itself. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.pollockAutumn}
+        note="A web of poured and dripped paint running edge to edge with no center, almost nine feet tall and seventeen wide, made on the floor from all four sides. The subject is no longer what you see; it is the act of painting itself."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Autumn_Rhythm_(Number_30)"
       />
@@ -5504,7 +5516,8 @@ const AbexArenaNarrative: Narrative = ({ accent }) => (
       <RestrictedFigure
         title={<>de Kooning, <em>Woman I</em></>}
         year="1950–52 · MoMA, New York"
-        note="A ferocious, toothy, more-than-life-size female figure built of slashing strokes, reworked over months. Figurative and abstract at once, it made the avant-garde and the traditionalists equally furious. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.deKooningWoman}
+        note="A ferocious, toothy, more-than-life-size female figure built of slashing strokes, reworked over months. Figurative and abstract at once, it made the avant-garde and the traditionalists equally furious."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Woman_I"
       />
@@ -5541,8 +5554,8 @@ const AbexFieldsNarrative: Narrative = ({ accent }) => (
         frantic act but stillness, vastness, and a kind of glow. Their patron saint is{' '}
         <strong>Mark Rothko</strong>{' '}(1903&ndash;1970). A mature Rothko is two or three soft-edged rectangles
         of color, stacked and hovering on a larger field of a different color, the edges feathered so the blocks
-        seem to float and pulse rather than sit flat.{' '}<em>Orange and Yellow</em>{' '}(1956) is a luminous yellow
-        block above an orange one, serene and radiant.
+        seem to float and pulse rather than sit flat.{' '}<em>No. 61 (Rust and Blue)</em>{' '}(1953) stacks a band of rust
+        and a band of deep blue on a brooding grey-mauve field, the kind of layered, smoldering color he meant you to stand inside.
       </p>
       <p style={proseStyle}>
         The point was scale and closeness. Rothko made the canvases big and wanted them hung low and seen from a
@@ -5555,11 +5568,12 @@ const AbexFieldsNarrative: Narrative = ({ accent }) => (
         deepened, so the pigment itself becomes a record of where he was.
       </p>
       <RestrictedFigure
-        title={<>Rothko, <em>Orange and Yellow</em></>}
-        year="1956 · Buffalo AKG Art Museum"
-        note="A luminous yellow block hovering above an orange one, soft-edged so the color seems to float and pulse, built big and meant to be seen up close so it fills your whole vision. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.rothkoNo61}
+        title={<>Rothko, <em>No. 61 (Rust and Blue)</em></>}
+        year="1953 · Museum of Contemporary Art, Los Angeles"
+        note="Bands of rust and deep blue stacked on a brooding grey-mauve field, the soft-feathered edges making the color float and pulse, built big and meant to be seen up close so it fills your whole vision."
         linkLabel="See it on Wikipedia"
-        href="https://en.wikipedia.org/wiki/Mark_Rothko"
+        href="https://en.wikipedia.org/wiki/No._61_(Rust_and_Blue)"
       />
 
       <SectionHeader accent={accent} label="The Seagram refusal" title="Walking away from the money" />
@@ -5592,7 +5606,8 @@ const AbexFieldsNarrative: Narrative = ({ accent }) => (
       <RestrictedFigure
         title={<>Newman, <em>Vir Heroicus Sublimis</em></>}
         year="1950–51 · MoMA, New York"
-        note="A vast red field nearly eight feet tall and almost eighteen wide, crossed by a few thin vertical “zips,” meant to be stood in front of so close it fills your sight. An abstract painting reaching for the sublime. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.newmanVir}
+        note="A vast red field nearly eight feet tall and almost eighteen wide, crossed by a few thin vertical “zips,” meant to be stood in front of so close it fills your sight. An abstract painting reaching for the sublime."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Vir_Heroicus_Sublimis"
       />
@@ -5729,7 +5744,8 @@ const AbexCutNarrative: Narrative = ({ accent }) => (
       <RestrictedFigure
         title={<>Frankenthaler, <em>Mountains and Sea</em></>}
         year="1952 · National Gallery of Art (long-term loan)"
-        note="Thinned paint poured into raw, unprimed canvas so the color soaks in like a stain: soft luminous veils suggesting a landscape without depicting one. Painted at 23, it founded the soak-stain and launched Color Field. Under copyright, so it lives here in words."
+        imageUrl={ART_IMG.frankenthalerMtns}
+        note="Thinned paint poured into raw, unprimed canvas so the color soaks in like a stain: soft luminous veils suggesting a landscape without depicting one. Painted at 23, it founded the soak-stain and launched Color Field."
         linkLabel="See it on Wikipedia"
         href="https://en.wikipedia.org/wiki/Mountains_and_Sea"
       />
