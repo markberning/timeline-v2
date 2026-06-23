@@ -46,7 +46,7 @@ function movementOptions(eraId: string): CrumbOption[] {
   return Object.values(ART_MOVEMENT_CONTENT)
     .filter(m => m.eraId === eraId)
     .sort((a, b) => a.chain.index - b.chain.index)
-    .map(m => ({ label: m.name, href: `/art/${eraId}/${m.id}`, color: m.accent }))
+    .map(m => ({ label: m.name, href: `/art/${eraId}/${m.id}`, color: m.accent, date: m.range }))
 }
 function workOptions(eraId: string, movementId: string): CrumbOption[] {
   const mv = ART_MOVEMENT_CONTENT[movementId]

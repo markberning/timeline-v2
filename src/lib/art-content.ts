@@ -452,8 +452,8 @@ export const MODERN_ERA: ArtEraContent = {
     { id: 'fut', name: 'Futurism', range: '1909–1918', accent: ART_ACCENTS.rust, size: 's', hook: 'Italian painters in love with motorcars and speed. It ended in the trenches, and in fascism.', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'], imageUrl: ART_IMG.boccioniCity, credit: 'Boccioni, The City Rises, 1910 · MoMA, New York' },
     { id: 'dada', name: 'Dada', range: '1916–1924', accent: ART_ACCENTS.amber, size: 'm', hook: 'A war in the background and a urinal in the foreground.', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'], imageUrl: ART_IMG.duchampFountain, credit: 'Stieglitz, Duchamp’s Fountain, 1917 · The Blind Man' },
     { id: 'sur', name: 'Surrealism', range: '1924–1966', accent: ART_ACCENTS.green, size: 'l', hook: 'The unconscious gets a paintbrush. Freud and a clock that won’t hold its shape.', palette: ['#1c3a6a', '#c8a72a', '#0e1224'], imageUrl: ART_IMG.chiricoRedTower, credit: 'de Chirico, The Red Tower, 1913 · the dream-world Surrealism grew out of' },
-    { id: 'abex', name: 'Abstract Expressionism', range: '1943–1960', accent: ART_ACCENTS.blue, size: 'l', hook: 'The action stops being something the painting shows and starts being what makes it.', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'], imageUrl: ART_IMG.abexNYC, credit: '1950s New York (period photo) · where painting’s center moved' },
-    { id: 'pop', name: 'Pop Art', range: '1956–1970', accent: ART_ACCENTS.violet, size: 'm', hook: 'A soup can, but with conviction. Warhol’s factory; Lichtenstein’s dots.', palette: ['#ff3e7f', '#1f1f1f', '#7adff0'], imageUrl: ART_IMG.popSupermarket, credit: 'A 1950s supermarket aisle (period photo) · the world Pop made art of' },
+    { id: 'abex', name: 'Abstract Expressionism', range: '1943–1960', accent: ART_ACCENTS.blue, size: 'l', hook: 'The action stops being something the painting shows and starts being what makes it.', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'], imageUrl: ART_IMG.pollockAutumn, credit: 'Pollock, Autumn Rhythm, 1950 · Met · shown small, fair use' },
+    { id: 'pop', name: 'Pop Art', range: '1956–1970', accent: ART_ACCENTS.violet, size: 'm', hook: 'A soup can, but with conviction. Warhol’s factory; Lichtenstein’s dots.', palette: ['#ff3e7f', '#1f1f1f', '#7adff0'], imageUrl: ART_IMG.warholSoup, credit: 'Warhol, Campbell’s Soup Cans, 1962 · MoMA · shown small, fair use' },
   ],
   anchorPainters: [
     { name: 'Cézanne', role: 'The bridge', palette: ['#5a7042', '#8a7848', '#1c1a12'] },
@@ -4474,10 +4474,10 @@ export const POP_ART: ArtMovementContent = {
   hook: 'Where Abstract Expressionism flung paint from the soul, Pop hung a soup can on the wall and refused to say whether it was a joke.',
   hookLong:
     'Pop Art took the cheapest, most public images anybody saw every day, soup labels, comic strips, advertising, movie stars, supermarket packaging, and made them the content of serious art, done cold. It was the cool, flat, mechanical answer to Abstract Expressionism’s hot, gestural, soul-baring painting, and it started in Britain first, not America: a London discussion club called the Independent Group got obsessed with glossy American mass culture in grey, rationed postwar Britain years before Warhol picked up a silkscreen. Then America made it enormous, Warhol’s grids of soup cans and silkscreened Marilyns, Lichtenstein’s giant comic panels, Oldenburg’s saggy soft hamburgers. The deepest question Pop poses it never answers on purpose: is this a love letter to consumer abundance or a deadpan burial under it, and the same deadpan also hid, for decades, the women it wrote out, the near-total whiteness of its canon, and the uncredited people whose designs and labor the machine ran on.',
-  heroImage: ART_IMG.popSupermarket,
+  heroImage: ART_IMG.lichtWhaam,
   heroFit: 'cover',
   heroFocus: '50% 50%',
-  heroCredit: 'A 1950s American supermarket aisle (period photograph, NOT a Pop artwork) · Library of Congress · the world Pop made art of',
+  heroCredit: 'Roy Lichtenstein, Whaam!, 1963 · Tate, London · in copyright, shown small under fair use',
   stats: [
     { v: '~14 yrs', k: 'Span' },
     { v: '18', k: 'Canonical works' },
@@ -4598,10 +4598,10 @@ export const ABSTRACT_EXPRESSIONISM: ArtMovementContent = {
   hook: 'After the war, painting crossed the Atlantic: New York decided a picture did not have to be of anything.',
   hookLong:
     'For the first time an American movement led the world, or so the standard account goes, and Paris handed the avant-garde to New York. A loose group later called the New York School made the canvas, in one critic’s phrase, “an arena in which to act,” big enough to swallow the viewer and built to record the body, the gesture and the unconscious directly. The single idea split into two wings that look nothing alike: the gesture painters who put the act of painting on the wall, and the color-field painters who built vast glowing fields aimed at the sublime. Almost none of the actual paintings can be shown here, because the whole movement is still under copyright, so the words have to carry the pictures.',
-  heroImage: ART_IMG.abexNYC,
+  heroImage: ART_IMG.pollockAutumn,
   heroFit: 'cover',
   heroFocus: '50% 50%',
-  heroCredit: 'Washington Square, Greenwich Village, 1953 (period photograph) · Library of Congress · the city where this happened, not the art',
+  heroCredit: 'Jackson Pollock, Autumn Rhythm (Number 30), 1950 · The Metropolitan Museum of Art · in copyright, shown small under fair use',
   stats: [
     { v: '~17 yrs', k: 'Span' },
     { v: '17', k: 'Canonical works' },
@@ -4645,7 +4645,7 @@ export const ABSTRACT_EXPRESSIONISM: ArtMovementContent = {
     ],
     children: [
       { label: 'Color Field', mode: 'art', palette: ['#d6a23a', '#bf5a2a', '#3a2a1c'], note: 'took: the soak-stain and the pure field' },
-      { label: 'Pop Art', mode: 'art', img: ART_IMG.popSupermarket, palette: ['#bf2f6a', '#d6cf3f', '#1c1c1c'], note: 'took (by reaction): cool mass-culture surfaces' },
+      { label: 'Pop Art', mode: 'art', img: ART_IMG.warholSoup, palette: ['#bf2f6a', '#d6cf3f', '#1c1c1c'], note: 'took (by reaction): cool mass-culture surfaces' },
       { label: 'Minimalism', mode: 'art', palette: ['#5a5a5a', '#2a2a2a', '#0c0c0c'], note: 'took (by reaction): the scale, minus the gesture' },
       { label: 'The NY art world', mode: 'civ', img: ART_IMG.abexNYC, palette: ['#5a6a7a', '#33414c', '#12161a'], note: 'took: the scale, the market, the critic machine' },
     ],
