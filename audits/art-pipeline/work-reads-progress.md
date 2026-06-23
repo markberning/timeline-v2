@@ -24,7 +24,7 @@ Waves of ~3 works to keep gate concurrency safe (≤~6 agents; 5 concurrent gate
 is the API ceiling — agents die silently above it).
 
 ## Status
-### Fauvism (3/9 LIVE)
+### Fauvism (8/9 LIVE; Dufy in reconcile)
 - [x] hat — Woman with a Hat (Matisse, 1905) — LIVE, gated, Sarah-Stein blocker fixed
 - [x] bonheur — Le Bonheur de vivre (Matisse, 1905–06) — LIVE, gated, male-gaze blocker fixed
 - [x] green-stripe — The Green Stripe (Matisse, 1905) — LIVE, gated

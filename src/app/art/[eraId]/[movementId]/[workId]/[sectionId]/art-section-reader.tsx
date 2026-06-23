@@ -6735,7 +6735,716 @@ function BonAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
 // REGISTRY (coordinator splices into NARRATIVES):
 //  bonheur: { salon: BonSalon, making: BonMaking, looking: BonLooking, reception: BonReception, afterlife: BonAfterlife },
 
+// ─────────────────────────────────────────────────────────────
+// Luxe, calme et volupté (Matisse, 1904) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function LuxSaintTropez({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Saint-Tropez · 1904" title="The summer at Signac&rsquo;s elbow" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the summer of <strong>1904</strong>, <strong>Henri Matisse</strong> (1869&ndash;1954), thirty-four years old and not yet famous, packed up and left Paris for the south. He went to <strong>Saint-Tropez</strong>, then a small fishing town on the <strong>Côte d&rsquo;Azur</strong> (the French Mediterranean coast), and he went there for a specific reason. Living and working in Saint-Tropez was <strong>Paul Signac</strong> (1863&ndash;1935), the leading living practitioner of a method of painting that Matisse wanted to learn from the inside. Nearby lived <strong>Henri-Edmond Cross</strong> (1856&ndash;1910), another painter of the same school. Matisse spent the summer working at their elbow.
+      </p>
+      <p style={proseStyle}>
+        The method had a founder who was already dead. <strong>Georges Seurat</strong> (1859&ndash;1891) had invented it in the 1880s and died young; <strong>Signac</strong> had carried it forward as its chief living theorist. The idea was to build a picture not by mixing colors on the palette but by laying down small, separate touches of <em>unmixed</em> color side by side, on the theory that the eye, at a distance, would blend them into something brighter and more luminous than any mixed paint could be. The movement had a name, <strong>Neo-Impressionism</strong> (literally &ldquo;new Impressionism&rdquo;), and the labels around it (Divisionism, Pointillism) get used so loosely that they are worth pulling apart on their own. For now, hold the picture of it: a canvas covered in thousands of tiny separate dabs of pure color that fuse, when you step back, into shimmering light.
+      </p>
+      <p style={proseStyle}>
+        Matisse did not arrive cold. He had already read Signac&rsquo;s book on the subject, a treatise with the heavy title <em>D&rsquo;Eugène Delacroix au néo-impressionnisme</em> (&ldquo;From Eugène Delacroix to Neo-Impressionism,&rdquo; serialized in 1898, published as a book in 1899). It was, in effect, the method&rsquo;s manifesto, an argument for divided color dressed up as art history. So Matisse came to Saint-Tropez primed by the theory; the summer was where he finally <em>practiced</em> it, under the eye of the man who had written the rulebook. The picture that came out of that summer is one of the strangest things in his whole career, because it is both a faithful piece of homework and the door he was about to walk through and slam behind him.
+      </p>
+    </article>
+  )
+}
+
+function LuxMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Three words for one idea" title="Neo-Impressionism, Divisionism, Pointillism" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore we look at the canvas, three words, because they get used as if they mean the same thing and they do not. The first is <strong>Neo-Impressionism</strong>, the name of the whole <em>movement</em>, the loose group around Seurat and then Signac. The second is <strong>Divisionism</strong>, the name of the <em>theory</em>: divide each color into its components and lay the parts side by side so the eye, not the brush, does the mixing. (Signac himself preferred this word.) The third is <strong>Pointillism</strong>, the name of the <em>technique</em>, strictly the business of doing all that with regular round <strong>dots</strong>. People throw &ldquo;pointillist&rdquo; around as a synonym for the whole thing, but it really describes only the look.
+      </p>
+      <p style={proseStyle}>
+        And here is the catch that makes Matisse&rsquo;s picture odd: he did not use neat round dots. Look closely at the surface and the marks are <strong>short, blocky dashes</strong>, little squarish strokes of color, much coarser and looser than Seurat&rsquo;s fine, even points. So the most precise way to describe the picture is this. The method is Divisionism; the word &ldquo;pointillist&rdquo; fits the look but not the marks, because the marks are dashes, not points. A small distinction, but it is the visible fingerprint of a painter who is borrowing a system rather than living inside it.
+      </p>
+
+      <SectionHeader accent={accent} label="Autumn–Winter 1904" title="A summer study, a winter canvas" />
+      <p style={proseStyle}>
+        Matisse made the picture in two stages. That summer at Saint-Tropez he painted an <strong>oil study</strong> on the spot, a smaller working version (it survives, in the collection of the Museum of Modern Art in New York, and it is a <em>different object</em> from the painting we are looking at, so do not let the two get confused). Then, back in Paris over the following autumn and winter, he worked the full canvas up to its finished size. The museum that owns it dates the finished picture to <strong>&ldquo;Autumn&ndash;Winter 1904,&rdquo;</strong> which is why we call it a 1904 painting, with the understanding that the brush was still moving over the winter of 1904&ndash;05.
+      </p>
+      <p style={proseStyle}>
+        The finished canvas is not large for what it attempts, a little over three feet tall and just under four feet wide (about <strong>3 ft 2¾ in by 3 ft 10⅝ in</strong>). Onto that modest surface Matisse laid an entire imagined world, stroke by separate stroke. It is worth pausing on the sheer labor of the method: every patch of sand, every inch of sky, every limb is built from individual dabs, none of them blended into the next. That is the discipline Signac&rsquo;s theory demanded, and Matisse, the dutiful summer student, gave it to him, just barely.
+      </p>
+    </article>
+  )
+}
+
+function LuxLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Stand back, then walk in" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart from across the room. From a distance the picture reads instantly: a sun-struck Mediterranean beach, a calm bay, a scatter of pale nude figures resting at the water&rsquo;s edge under a high golden light. It looks, from there, like a dream of a perfect afternoon, which is exactly what it is. The title, lifted from a Baudelaire poem, means roughly &ldquo;luxury, calm and pleasure,&rdquo; and the whole canvas glows with all three. Now walk toward it, because up close it becomes something else entirely.
+      </p>
+      <p style={proseStyle}>
+        Up close, the beach dissolves. There is no smooth sand and no smooth sky. There is, instead, a <strong>mosaic of separate dabs</strong>, thousands of short, blocky strokes of unmixed color set side by side and never blended: a stroke of orange next to a stroke of pink next to a stroke of pale violet, all of which, from six feet back, your eye had fused into &ldquo;sunlit sand.&rdquo; This is the divisionist trick made visible. The picture is two pictures at once, a serene golden idyll from across the room and a shimmering field of distinct colored marks at arm&rsquo;s length, and the round trip between them is the clearest way to see what the whole Neo-Impressionist method was for.
+      </p>
+
+      <SectionHeader accent={accent} label="The shore" title="A naked picnic in a golden nowhere" />
+      <p style={proseStyle}>
+        Now read the scene. In the <strong>center and right foreground</strong>, on and around a cloth spread on the sand, sits a cluster of <strong>nude women</strong>, one toweling off, one reclining, one standing, arranged in the relaxed poses of bodies at rest. They are not portraits of real bathers caught on a real beach; they descend from the long European tradition of <em>bathers in a landscape</em>, and most directly from a picture Matisse actually owned, Cézanne&rsquo;s small <em>Three Bathers</em>, which he had bought from the dealer Vollard in 1899 and would keep for some thirty years, later saying he drew from it his faith and his perseverance. Cézanne&rsquo;s awkward, monumental nudes are the real ancestor of these poses. It is worth naming the convention squarely: a male painter setting idealized female nudes in an imagined golden-age landscape was, by 1904, a centuries-old European genre, a tradition built by men and aimed first at male viewers, and Matisse is working inside it, not inventing it.
+      </p>
+      <p style={proseStyle}>
+        Drop your eye to the <strong>lower center</strong>, to the white cloth on the sand: a <strong>teapot</strong> stands on it, with food set out around it, the small still-life of a picnic that turns this from a row of nudes into people who came to spend an idle afternoon. (This bathers-and-picnic setup is widely read as Matisse&rsquo;s answer to Manet&rsquo;s notorious <em>Le Déjeuner sur l&rsquo;herbe</em> of 1863, the picnic with the clothed men and the naked woman, though that is the verdict of later scholars rather than anything Matisse said, and a secondary echo beside the Cézanne behind the figures.)
+      </p>
+      <p style={proseStyle}>
+        Behind the figures, in the <strong>background</strong>, a calm bay opens out. A single small <strong>sailboat</strong> sits far out on the flat water, and the bay closes at the back with a low line of hills meeting the sky, no town, no harbor wall, nothing to fix it to a real place. This is the &ldquo;calm&rdquo; of the title made into a place, an idealized, sun-struck nowhere, an <strong>Arcadia</strong> (the ancient poets&rsquo; name for an imagined pastoral paradise, a perfect countryside out of time), the golden-age daydream the poem promised.
+      </p>
+
+      <SectionHeader accent={accent} label="The color that won&rsquo;t behave" title="Green and blue in the skin" />
+      <p style={proseStyle}>
+        Here is the thing to look hardest for, because it is the reason this picture matters beyond being a pretty beach. Look at the <strong>skin of the figures</strong>. It is not flesh-colored. It carries <strong>green and blue and pink</strong>, colors no body actually is, and the sand and water around them run hotter and stranger than any real shore. Even working inside Signac&rsquo;s strict, orderly method, Matisse has let the color slip its leash from description. The green in a thigh, the blue in a shoulder, these are chosen for <em>feeling</em>, not accuracy. That impulse, color picked for effect rather than truth, is the seed of <strong>Fauvism</strong>, the movement Matisse would help launch, and you can watch it here, already restless inside the discipline that was supposed to contain it.
+      </p>
+      <p style={proseStyle}>
+        One last look, at the marks themselves. Compare a tightly stippled patch of sky or water, where the dabs are tiny and dense, against the bodies, where the strokes grow broad and loose. Matisse varies the touch across the canvas, which means the <em>method</em> is on display, not hidden. That unevenness is the tell of a painter testing a borrowed system rather than a true believer in it, which is precisely what he was. He would keep the freed color. The dots, he was about to throw away.
+      </p>
+    </article>
+  )
+}
+
+function LuxIndependants({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · spring 1905" title="The debut, in a jury-free room" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the spring of <strong>1905</strong>, the finished picture went on the wall at the <strong>Salon des Indépendants</strong> in Paris. A word on that venue, because it matters. The official Salon, the state-backed annual exhibition, had a jury that decided who got in, and it had a long history of throwing out anything new. In answer, a group of artists (Seurat and Signac among the founders) had set up in 1884 a rival show with no jury and no prizes: anyone who paid the small fee could hang. That was the <strong>Salon des Indépendants</strong>, the &ldquo;independents,&rdquo; and it was where the new painting got seen. Matisse&rsquo;s big divisionist beach hung there in the spring of 1905, and it read as exactly what it was: an ambitious, accomplished <strong>Neo-Impressionist</strong> picture by a serious painter working in Signac&rsquo;s manner.
+      </p>
+
+      <SectionHeader accent={accent} label="The timeline that matters" title="This is not the first Fauve painting" />
+      <p style={proseStyle}>
+        Here is the fact this picture is most often gotten wrong. It is constantly called the doorway to Fauvism, and that is fair. But it is <strong>not itself a Fauve painting</strong>, and it was not received as one, for a simple reason of the calendar. <strong>Fauvism</strong> got its name later that same year, in the <em>autumn</em> of 1905, at a different exhibition, the Salon d&rsquo;Automne (the &ldquo;autumn Salon&rdquo;). There, Matisse and his friends hung canvases of hot, arbitrary, undisguised color, and a critic named <strong>Louis Vauxcelles</strong>, seeing a conventional marble sculpture standing among them, quipped that it was like <em>&ldquo;Donatello parmi les fauves,&rdquo;</em> &ldquo;Donatello among the wild beasts.&rdquo; The phrase stuck. <strong>Les fauves</strong>, the wild beasts, became the name of the movement.
+      </p>
+      <p style={proseStyle}>
+        But all of that happened in the <em>autumn</em>. <em>Luxe, calme et volupté</em> had debuted in the <em>spring</em>, months earlier, painted in careful divisionist dabs and read as Neo-Impressionism. So the honest way to place it is this: it points <em>toward</em> Fauvism, it does not yet belong to it. It is the doorway Matisse was about to step through, photographed just before he opened the door. Call it the first Fauve painting and you have your seasons backwards.
+      </p>
+    </article>
+  )
+}
+
+function LuxAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The title" title="A line borrowed from Baudelaire" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he title is not Matisse&rsquo;s invention. It comes straight out of a poem by <strong>Charles Baudelaire</strong> (1821&ndash;1867), the great French poet of modern city life, whose 1857 collection <em>Les Fleurs du mal</em> (&ldquo;The Flowers of Evil&rdquo;) is one of the founding books of modern poetry. In one of its most famous poems, <em>L&rsquo;Invitation au voyage</em> (&ldquo;Invitation to the Voyage&rdquo;), a man dreams of carrying his beloved away to a perfect, ordered, sensual elsewhere, and the dream closes on a refrain: <em>&ldquo;Là, tout n&rsquo;est qu&rsquo;ordre et beauté, / Luxe, calme et volupté&rdquo;</em> (&ldquo;There, all is order and beauty, / luxury, calm and pleasure&rdquo;). Matisse took the last line whole and made it the name of his picture. The painting is that dreamed elsewhere, rendered in paint: the calm, the luxury, the pleasure, an invented Arcadia on a Mediterranean shore.
+      </p>
+
+      <SectionHeader accent={accent} label="from 1905" title="The mentor buys the homage" />
+      <p style={proseStyle}>
+        The painting&rsquo;s first owner was the one person who would most appreciate it: <strong>Signac</strong> himself bought it, around the time of its 1905 debut, directly out of the avant-garde&rsquo;s own show. There is a quiet pleasure in that, the older master buying the younger man&rsquo;s homage to his own method, his rulebook turned into a beach. (No purchase price is recorded, so we will not invent one. A popular detail has Signac hanging it in his Saint-Tropez villa, named <em>La Hune</em>; that is reported rather than confirmed by the museum record, so take it lightly.) The picture then stayed in Signac&rsquo;s family; the museum that owns it today lists its earlier home as the former collection of <strong>Mme Cachin-Signac</strong>, Signac&rsquo;s daughter.
+      </p>
+
+      <SectionHeader accent={accent} label="1982 · 1985" title="Into the nation, by dation" />
+      <p style={proseStyle}>
+        It entered the French national collections in <strong>1982</strong> by a mechanism worth glossing, because it explains why two museums have a claim on it. The painting came to the state by <strong>dation</strong>, a French arrangement that lets an heir pay inheritance tax with a work of art instead of cash. By that route it became the property of the <strong>Centre Pompidou</strong>, Paris&rsquo;s national museum of modern art (inventory number AM 1982-96), which is the painting&rsquo;s legal owner to this day. Then, in <strong>1985</strong>, just before the <strong>Musée d&rsquo;Orsay</strong> opened, the Pompidou placed the picture on long-term <strong>deposit</strong> at the Orsay, the museum on the Left Bank devoted to nineteenth-century and early-modern French art. So the situation is a little unusual: the Centre Pompidou owns it; the Musée d&rsquo;Orsay shows it, where it normally hangs among the Neo-Impressionist and Fauve pictures it helped bridge.
+      </p>
+
+      <SectionHeader accent={accent} label="After" title="The door Matisse closed behind him" />
+      <p style={proseStyle}>
+        And then Matisse walked away from the very method he had just mastered. Within months of finishing this picture he <strong>abandoned the systematic dot</strong>, and his reason was as much about form as about color. He found that dividing the color also divided the <em>form</em>: all those separate dabs dissolved the firm outline and the flat, solid area of color he was beginning to want. The discipline that made the surface shimmer also broke up the very shapes he was trying to hold together. (He later put the idea something like this, that the broken-up color broke up the form along with it. The exact wording is not securely his, so we will keep it as the substance of his complaint rather than a quotation.)
+      </p>
+      <p style={proseStyle}>
+        So he dropped the dots and kept the freed color, and that combination, flat areas of pure, arbitrary, emotional color with firm shapes, is <strong>Fauvism</strong>. The next year he made it whole in <em>Le Bonheur de vivre</em> (&ldquo;The Joy of Life,&rdquo; 1905&ndash;06), the same Arcadian-bather dream painted now in broad sheets of unbroken color, the fully radical canvas that <em>Luxe</em> only points toward. Which is why this earlier painting, for all that it is built in someone else&rsquo;s technique, is repeatedly called the <em>starting point of Fauvism</em>: not because it is Fauve, but because making it taught Matisse exactly what he had to leave behind. He learned the dot in order to throw it away. The picture is the doorway, painted just before he stepped through it and closed it for good.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  luxe: { 'saint-tropez': LuxSaintTropez, making: LuxMaking, looking: LuxLooking, independants: LuxIndependants, afterlife: LuxAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Open Window, Collioure (Matisse, 1905) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function WinCollioure({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Collioure · summer 1905" title="A fishing port and a younger painter" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the <strong>summer of 1905</strong>, <strong>Henri Matisse</strong> (1869&ndash;1954), thirty-five years old and not yet famous, took his family south to a small town called <strong>Collioure</strong> (pronounced &ldquo;koll-YOOR&rdquo;). It sits on France&rsquo;s Mediterranean coast, down near the Spanish border in the old region of Roussillon, where the Pyrenees come down to meet the sea. And it was a working fishing town, not a postcard: in 1905 Collioure was a major anchovy-and-sardine port, with a fleet of more than a hundred boats and the salting sheds the catch went into ranged through the streets, all under a light that is harder and brighter than anything in Paris. Matisse rented an apartment overlooking the harbor. The picture we&rsquo;re going to look at is, quite literally, the view out of one of its windows, and the boats in it are that fishing fleet.
+      </p>
+      <p style={proseStyle}>
+        Matisse did not go down there to be alone. In <strong>early July</strong> he was joined by a younger painter, <strong>André Derain</strong> (1880&ndash;1954; pronounced &ldquo;deh-RANN&rdquo;), then twenty-four. The two of them spent the summer painting side by side, out in the hard southern light, pushing each other further than either would have gone alone. They are the reason Collioure gets called, in nearly every art-history book that mentions it, &ldquo;the birthplace of Fauvism.&rdquo; Treat that phrase gently. Fauvism (we&rsquo;ll get to the name and where it came from in a later chapter) was not born on a particular Tuesday in a particular doorway. It was a way of painting that came together over a summer, in two men working in the same town on the same problem, and Collioure is the place where it happened. It is a where, not a when.
+      </p>
+      <p style={proseStyle}>
+        So hold the setting. A small anchovy port. A rented room over the water. The Mediterranean sun. A friend painting in the next street. And a window, thrown open onto the harbor, that Matisse decided to paint exactly as it stood, except in colors that no harbor on Earth has ever actually worn.
+      </p>
+    </article>
+  )
+}
+
+function WinMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making" title="The view he chose, and the view he didn’t" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he subject could not be simpler. Matisse stood (or sat) inside his room and painted what was in front of him: a tall French window, its two leaves swung open, framing the harbor below and the sea beyond. People had been painting the view-out-the-window for centuries. What makes this one a turning point is not the motif. It is what he did to the color.
+      </p>
+      <p style={proseStyle}>
+        Up to this summer, the rule of European painting, even the rebel painting, was that color described the world. A sky was some version of blue because skies are blue; a shadow was a darker, cooler version of the thing it fell on. Matisse threw that rule out. He chose his colors for what they did to each other and to you, not for what the harbor actually looked like. The water is laid in with strokes that are nothing like real water; the walls of his own room are not the color of any plaster. This is the single decision that defines Fauvism: the color here is <em>expressive</em>, meaning it is picked to carry feeling rather than to copy what the eye reports.
+      </p>
+      <p style={proseStyle}>
+        He made one more decision, just as radical and easier to miss: instead of painting the whole canvas in one consistent touch, he handled each zone of the picture in a different kind of brushstroke, and let the picture hold the mismatch together by sheer color. That is the technical argument of the whole thing, made on a canvas under two feet tall: drop the job of describing the world, give it to color instead, and let color do the describing on its own terms. What that actually looks like, zone by zone, is something you have to be standing in front of the canvas to see, so that is where we go next.
+      </p>
+    </article>
+  )
+}
+
+function WinLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A small, vertical, explosive thing" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        irst, the size and shape, because both surprise people. The painting is <strong>small</strong>, under two feet tall, about <strong>one foot nine and three-quarter inches high by one foot six and one-eighth inches wide</strong>, roughly the size of a large open book or a serving tray. And it is a <strong>portrait</strong>, taller than it is wide. That last fact catches almost everyone out: this is a picture of a harbor, and harbors are wide, so the mind expects a long horizontal canvas. It isn&rsquo;t. It stands up tall and narrow, which is the first clue that the real subject here is not the harbor sprawling out sideways but the <em>window</em>, standing upright in the wall, with the harbor seen through it.
+      </p>
+      <SectionHeader accent={accent} label="Frames within frames" title="The window holding the harbor" />
+      <p style={proseStyle}>
+        Now let your eye build the picture from the outside in, because that is how it is constructed: as a set of <strong>frames within frames</strong>. The outermost frame is the <strong>wall of the room</strong>, two flat vertical bands of color running down the far left and far right edges of the canvas. Inside those, swinging in toward you from each edge, are the two leaves of an <strong>open French window</strong>, their cross-bars and little panes of glass visible, dabs of green scribbled down their sides like climbing vines. Inside the window opening is a shallow <strong>balcony</strong> with a low rail. And beyond the balcony, framed by all of that, is the <strong>harbor</strong>, with its boats, reaching back to a band of <strong>water and sky</strong> at the top. Wall holds window; window frames balcony; balcony crops harbor; harbor runs to the sea. You are looking through a stack of openings, and the window is the one you look through first.
+      </p>
+      <SectionHeader accent={accent} label="The flower pots" title="The detail that opens up the distance" />
+      <p style={proseStyle}>
+        Before you go out to the water, look down at the <strong>flower pots</strong> on the balcony floor, a little cluster of potted plants with their pots dabbed in red, orange and blue. They are easy to skip past, and they are doing more structural work than anything else in the picture. They are the <strong>near foreground</strong>, the closest thing in the whole view to where you are standing, right under your eye. And because they sit so close, they shove everything behind them backward: the harbor drops away into deep space, and the middle of the canvas opens up. A few pots on a sill, holding open the entire distance to the sea.
+      </p>
+      <SectionHeader accent={accent} label="The boats" title="The one thing that stays a thing" />
+      <p style={proseStyle}>
+        Out on the water, in the middle band of the picture, ride a few small <strong>sailing boats</strong>. Find them, because they are the anchor of the whole view, and they are the town&rsquo;s living trade: this was a working anchovy port, and these are its fishing fleet. Their <strong>masts are rust orange-red</strong>, thin verticals standing up off the water; their <strong>hulls are blue, pink, green and orange</strong>; and each boat sits over its own little smear of <strong>colored reflection</strong>, the same hues doubled and broken on the surface below. They are the one clearly readable real subject in the picture. Everything else, the walls, the vines, the water, loosens toward pure pattern, but the boats stay boats. They are the proof, if you need one, that you are looking through a window at a working harbor and not at an abstraction.
+      </p>
+      <SectionHeader accent={accent} label="The color, up close" title="Pure patches, set to clash" />
+      <p style={proseStyle}>
+        Here is the part you have to look at the actual canvas to feel, and it is where Matisse&rsquo;s zone-by-zone decision finally shows itself. Get close and watch how the surface is made, because it is made differently in every zone. The <strong>side walls</strong> are flat, calm slabs of pure color, laid in as broad unbroken planes with no shading and no modeling (the National Gallery&ndash;affiliated reading names them fuchsia pink and peacock blue, the same careful account that goes through the whole canvas hue by hue). The <strong>sky and water</strong> are nothing like that: they are built from short, broken <strong>dashes</strong> of separate color laid side by side (this is what gets called the <em>divided touch</em>, the technique of building a surface out of small separate strokes that Matisse had picked up from the dot painters, the Neo-Impressionists). Up close those zones read as a flicker of separate touches rather than a smooth wash. The <strong>vines</strong> on the window leaves are quick green <strong>scribbles</strong>. The boats are <strong>dabs</strong>. And the colors are chosen to fight, set in <strong>complementary pairs</strong> (the colors that sit opposite each other on the color wheel and make each other vibrate when placed side by side): <strong>orange masts against blue hulls, red blossoms against green leaves</strong>, each pair set so the two colors make each other louder. Pull back six feet and the whole small canvas hums. Step in close and it falls apart into dozens of separate, deliberate, pure-color marks. That double life, a coherent harbor far off and a patchwork of raw color near to, is the entire Fauve experiment in one little frame.
+      </p>
+      <SectionHeader accent={accent} label="The dissolved threshold" title="Where the room and the sea become one color-field" />
+      <p style={proseStyle}>
+        Now the move that matters most, and the one easiest to walk past. Look at the <strong>seam</strong> in the middle of the canvas, where the balcony rail and the window opening meet the water. You will not find a firm line there between <em>inside</em> and <em>outside</em>. The same pinks and greens that paint the interior wall run across the sill, down the vines, and straight out onto the harbor and into the sky. The color does not change its character when it crosses the threshold. So although the picture is built as a window, a literal frame separating a room from a view, the <em>paint</em> refuses to keep them apart. Inside and outside fuse into one continuous field of color. The window is wide open, and Matisse has answered the open window by letting the world flood in until you can&rsquo;t say where the room ends and the sea begins. That collapse, more than any single bright color, is the picture&rsquo;s quiet thesis: a window is not a barrier, it is an invitation, and color is what pours through it.
+      </p>
+    </article>
+  )
+}
+
+function WinSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · autumn 1905" title="The rebel autumn show" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        hat autumn the picture travelled up to Paris for the <strong>Salon d&rsquo;Automne</strong> (the &ldquo;Autumn Salon&rdquo;), the young alternative exhibition that had started two years earlier as a looser, more adventurous rival to the stuffy official Salon. It was held at the <strong>Grand Palais</strong>, the great glass-and-iron exhibition hall on the Champs-&Eacute;lys&eacute;es, and it ran from <strong>18 October to 25 November 1905</strong>. <em>Open Window, Collioure</em> hung in <strong>Room VII</strong> (Salle VII), and it did not hang there alone.
+      </p>
+      <p style={proseStyle}>
+        Room VII was a concentration of the wildest new painting in France: canvases by Matisse, by his summer companion <strong>Derain</strong>, by <strong>Maurice de Vlaminck</strong> and others, all of them painted in the same off-the-leash color. And in the middle of this roomful of violent canvases stood two small, prim, <strong>Renaissance-style marble busts</strong> by a conventional sculptor named <strong>Albert Marque</strong>, sober little things that looked as if they had wandered in from a different century. Hung in the same room was Matisse&rsquo;s other 1905 lightning rod, <strong>Woman with a Hat</strong> (a portrait of his wife with her face built of green and mauve), which drew the loudest noise of all. The two Matisses, the open window and the woman in the hat, were the room&rsquo;s twin scandals.
+      </p>
+      <SectionHeader accent={accent} label="The naming" title="Donatello among the wild beasts" />
+      <p style={proseStyle}>
+        Here is where a famous story gets told badly, so we&rsquo;ll tell it carefully. On <strong>17 October 1905</strong>, the day before the show even opened to the public, the critic <strong>Louis Vauxcelles</strong> (pronounced &ldquo;voh-SELL&rdquo;) previewed it in the newspaper <em>Gil Blas</em>, looked at those gentle Marque busts surrounded by all that howling color, and wrote a line that stuck: <em>&ldquo;Donatello chez les fauves&rdquo;</em>, &ldquo;Donatello among the wild beasts.&rdquo; (Donatello was a great sculptor of the Italian Renaissance; <em>les fauves</em> is French for &ldquo;the wild beasts.&rdquo;) That printed phrase is what gave the movement its name: <strong>Fauvism</strong>, the art of <em>les fauves</em>, the wild beasts.
+      </p>
+      <p style={proseStyle}>
+        And then the story gets embroidered, so keep three things straight. The line was about the <em>whole room</em>, prompted by the contrast between the calm Marque busts and the savage canvases around them; it was not aimed at this one painting, so do not let anyone tell you that <em>Open Window, Collioure</em> &ldquo;named Fauvism,&rdquo; because the room did, and the busts did. Nor did the painters coin the word: a hostile critic did, and they only later wore the insult as a badge. And the most beloved version of all, in which an unnamed passer-by supposedly turned to Matisse in front of the room and said &ldquo;Donatello in the cage with the wild beasts,&rdquo; comes from Vauxcelles himself, but only in a book he wrote in <strong>1939</strong>, thirty-four years after the fact. So the printed 1905 line is solid, documented history; the live, spoken &ldquo;cage&rdquo; quote is the critic&rsquo;s own much-later retelling, and it should be held at arm&rsquo;s length, a story rather than a scene we know happened.
+      </p>
+      <p style={proseStyle}>
+        One more clean separation, because the two pictures get blurred constantly. It was <em>Woman with a Hat</em>, not this canvas, that the American collectors <strong>Leo and Gertrude Stein</strong> bought off the wall at the close of the 1905 Salon, for somewhere around five hundred francs. That purchase belongs to the woman in the hat. <em>Open Window, Collioure</em> went its own quieter way out of the show, which is the next chapter.
+      </p>
+    </article>
+  )
+}
+
+function WinAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The motif" title="The window that never closed" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he most important thing about <em>Open Window, Collioure</em> is not what happened to the object afterward, but what happened to the <strong>subject</strong>. The open window turned out to be the one motif Matisse came back to, again and again, for the rest of his long working life. He painted windows in Paris, then in <strong>Nice</strong> on the south coast and at <strong>&Eacute;tretat</strong> on the Channel, on into the late 1940s. The window, the threshold where an interior meets the world outside, became his lifelong subject and, in a way, his lifelong metaphor for what a painting even is: a frame opening onto color. This small 1905 canvas is the early, foundational statement of that idea. It is where the window first swings open.
+      </p>
+      <SectionHeader accent={accent} label="Provenance" title="From a Paris dealer to Washington" />
+      <p style={proseStyle}>
+        The painting&rsquo;s life as an <strong>object</strong>, its <strong>provenance</strong> (the documented chain of who owned a work of art, from the painter&rsquo;s hand to where it hangs now), is short and a little hazy in the middle, and worth getting exactly right because the easy version is wrong. It did <em>not</em> go straight from Matisse into a great museum. The first hands in the National Gallery&rsquo;s chain are a Paris dealer, the <strong>Galerie Druet</strong>; from there, in <strong>1906</strong>, the year after the Salon, it went to a collector in <strong>Le Havre</strong> named <strong>Pieter Van der Velde</strong>. Sometime around <strong>1915&ndash;1918</strong> it was, in the National Gallery&rsquo;s own carefully hedged words, <em>probably given</em> to Van der Velde&rsquo;s son-in-law, a <strong>General R&eacute;quin</strong>. (When a museum says &ldquo;probably,&rdquo; keep the &ldquo;probably.&rdquo; The record genuinely isn&rsquo;t certain here.)
+      </p>
+      <p style={proseStyle}>
+        By <strong>1949</strong> it had surfaced in a Paris private collection. In <strong>1952</strong> two New York dealers, the <strong>Carstairs Gallery</strong> and the <strong>Sidney Janis Gallery</strong>, bought it jointly, and on <strong>6 August 1952</strong> they sold it to <strong>Mr. and Mrs. John Hay Whitney</strong>. (John Hay Whitney, 1904&ndash;1982, was an American businessman, collector and diplomat; his wife was Betsey Cushing Whitney, 1908&ndash;1998.) Note what that 1952 line tells you: the Whitneys bought it from dealers, not from the artist. No dollar prices survive in the public record for any of these sales, in 1906, 1949, or 1952, so there are no figures to give, and inventing one would be worse than leaving the blank.
+      </p>
+      <p style={proseStyle}>
+        Then, in <strong>1998</strong>, the painting came to rest. The estate of <strong>Mrs. John Hay Whitney</strong> bequeathed it, with the rest of the Whitneys&rsquo; collection, to the <strong>National Gallery of Art</strong> in Washington, D.C. (accession number 1998.74.7), where it hangs today under the credit line &ldquo;Collection of Mr. and Mrs. John Hay Whitney.&rdquo; A small, vertical, under-two-feet canvas of a window thrown open onto a Mediterranean fishing harbor, painted in a single summer in colors no harbor ever wore, that helped earn a roomful of painters the name <em>wild beasts</em>, now hangs quietly on a wall in Washington with the window still open.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  open-window: { collioure: WinCollioure, making: WinMaking, looking: WinLooking, salon: WinSalon, afterlife: WinAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Blue Nude (Souvenir de Biskra) (Matisse, 1907) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function BluBiskra({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Algeria · spring 1906" title="The two weeks in the oasis" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the spring of <strong>1906</strong>, <strong>Henri Matisse</strong> (the French painter, then thirty-six and a year past the 1905 &ldquo;wild beasts&rdquo; scandal that had made him famous, when his violently colored canvases got him and his circle nicknamed the <em>Fauves</em>) got on a boat and spent about <strong>two weeks in Algeria</strong>, the French colony across the Mediterranean. Part of that fortnight he spent in <strong>Biskra</strong> (pronounced &ldquo;BIS-kra&rdquo;), a desert oasis town on the northern edge of the Sahara, the kind of place the French press had been selling back home for sixty years as a postcard, a green spot of palms and water in an ocean of sand, taken by French troops in the 1840s and run as a winter resort ever since.
+      </p>
+      <p style={proseStyle}>
+        And <strong>he did not paint this picture there.</strong> He painted very little of consequence in Biskra at all. He looked, he sketched a street, he bought a few local textiles and pots, and then he came home to France. The trip mattered, but it mattered the way a trip matters a year later, when you are back in your own cold studio and the heat and the palms and the light have cooked down in your memory into something simpler and stranger than the actual place.
+      </p>
+      <p style={proseStyle}>
+        That is exactly what the title tells you. The French is <em>Nu bleu, Souvenir de Biskra</em>, and the operative word is <em>souvenir</em>, which in French means a <strong>memory, a recollection</strong>, the thing you carry home, not the trinket you buy. The picture is not a scene of Biskra. It is a <strong>memory of Biskra</strong>, made back in France in early 1907, and the difference is the whole point. A reader who expects a travel painting, an oasis with a figure in it, is going to be confused by what actually arrives. What arrives is a single distorted body on a band of impossible blue grass, with one stylized palm behind it, standing in for a whole country remembered.
+      </p>
+      <p style={proseStyle}>
+        And it is worth being honest about what that move is. A French painter takes a town in a country France had conquered, carries it home in his memory, and turns it into a single available female body lying in the sun, a thing to be looked at and kept. That is the old logic art historians call <strong>Orientalism</strong>, the European habit of painting the colonized East as exotic, sensual, and there for the taking. Some scholars read this picture squarely inside it, arguing it treats North Africa the way it treats the woman, as a place to possess. Others argue Matisse is straining against that tradition, roughing the body up until it stops being a pretty object to consume. The painting will not settle the question for you, but the question is real, and the title, a colonized place repackaged as a souvenir, is where it starts.
+      </p>
+
+      <SectionHeader accent={accent} label="The blue, and a guess about it" title="A detail people love, and probably overrun" />
+      <p style={proseStyle}>
+        One detail about Biskra has attached itself to this painting and refuses to let go. The local weavers of the region worked with <strong>indigo</strong>, the deep-blue plant dye, and indigo stains the hands: dyers in indigo towns famously go about with <strong>blue-stained arms and legs</strong>. Some writers connect that blue-stained skin straight to the blue body in the painting, as if Matisse had seen blue people in Biskra and painted what he saw.
+      </p>
+      <p style={proseStyle}>
+        It is a lovely idea and it is almost certainly too neat. The blue in the painting, as we will see up close, is not the color of anyone&rsquo;s skin. It is <strong>shadow</strong>, the blue a sculptor would push into the hollows of a body to make it look carved. So the indigo story is a real and vivid fact about a real place, which some people like to read into the picture, not a proven recipe for it. The sure link between the painting and Biskra is the one word in the title. The rest is a memory of heat and a body, worked out in oil paint, in France, the following year.
+      </p>
+    </article>
+  )
+}
+
+function BluSculpture({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The studio · 1906–07" title="The sculpture that broke into a painting" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        his is the best story in the painting, and the core of it is documented, so it is worth telling carefully. <strong>Blue Nude is a painting that exists because a sculpture broke.</strong>
+      </p>
+      <p style={proseStyle}>
+        Back in his studio after Algeria, Matisse was not, at first, making a painting at all. He was <strong>modeling in clay</strong>, building up a small <strong>reclining figure</strong>, a nude woman lying on her side, working the form with his hands. Clay at that stage is wet and heavy and fragile, held up on an armature, and at some point the thing <strong>broke</strong>. (The exact way it broke is one of those details every account tells slightly differently, dropped, fallen, the stand giving way, so we will not pretend to a cinematic crash; the sure fact is that the clay broke before he had finished it.)
+      </p>
+      <p style={proseStyle}>
+        Most sculptors, faced with a broken figure, would have patched it or started the clay over. Matisse did something stranger and more revealing. Rather than repair it on the spot, he <strong>turned to oil paint and worked out the same figure on a canvas instead</strong>, solving in two dimensions the problem his hands had been solving in three. <em>Blue Nude</em> is that canvas. He did, eventually, go back and finish the sculpture: it survives as a small bronze called <strong><em>Reclining Nude I (Aurore)</em></strong> (in French, <em>Nu couché I</em>; &ldquo;Aurore&rdquo; means &ldquo;dawn&rdquo;), and if you stand the bronze and the painting side by side they are obviously the same body in the same twisted pose. The painting and the sculpture are siblings, born of the same broken lump of clay.
+      </p>
+
+      <SectionHeader accent={accent} label="Why this matters" title="A sculptor’s problem, solved in paint" />
+      <p style={proseStyle}>
+        That origin is not a charming anecdote, it explains how the picture is actually made. Because this is a body Matisse first tried to build <strong>as a sculptor builds</strong>, by pushing mass around and shoving shadow into hollows with a thumb, he paints it the same way. The blue in <em>Blue Nude</em> is doing a sculptor&rsquo;s job. It is <strong>modeling</strong> the body, which is the painter&rsquo;s trick of using light and shade to make a flat painted shape read as a rounded, three-dimensional thing. It is not describing the color of a woman; it is pushing the dark into the underside of a breast or the crook of an arm to make a painted shape bulge forward off the canvas like clay.
+      </p>
+      <p style={proseStyle}>
+        So when you hear the picture described as crude, or unfinished, or badly drawn (and in 1907 a great many people described it exactly that way), hold this in mind: it is a painting that is thinking like a sculpture. The heaviness is on purpose. The thick dark outline is on purpose. The body is built, not described. A man who could draw a graceful Salon nude in his sleep chose instead to make something with the blunt weight of a carved object, because that is what the broken clay had taught him to want. Two years earlier, the Fauves had been about pure color thrown at a landscape; here Matisse turns that same freedom onto a single body, and that shift, from colored places to a built, distorted figure, is the door out of Fauvism.
+      </p>
+    </article>
+  )
+}
+
+function BluLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A wide canvas with one body in it" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it. The painting is <strong>landscape format</strong>, about <strong>three feet tall by four and a half feet wide</strong>, wider than it is high, and almost the whole of that width is given over to a <strong>single reclining body</strong>. There is no room, no furniture, no story, no other figure. One woman, lying on her side, fills the canvas nearly corner to corner, with a strip of vegetation and a stylized plant behind her. Everything the picture has to say it says through that one body and the few flat bands of color around it.
+      </p>
+
+      <SectionHeader accent={accent} label="The pose" title="Front and back of one body at once" />
+      <p style={proseStyle}>
+        Find her. Her <strong>head is up at the left</strong>, tipped back, with one <strong>arm bent up and around behind it</strong> so the elbow points to the upper-left corner. From there your eye travels right, along the body, and this is where the picture does the thing that makes it strange. She is lying on her side, which should mean you see one continuous profile of a body, hip and shoulder in a single plane. <strong>But her torso wrenches.</strong> The chest and breasts twist <strong>up and toward you</strong>, turning to face out of the canvas, while the <strong>hips and buttocks stay rolled away</strong>, turned to the back. So in one body, read left to right, you are somehow seeing the <strong>front of her</strong> (the twisted-up chest) and the <strong>back of her</strong> (the rolled-away hip) at the same time. No real person can hold that pose. It is a long, impossible <strong>S-curve</strong> of a spine, and it is exactly the twist Matisse had been pushing around in wet clay (chapter two). Once you see the wrench, you cannot unsee it: the woman is turning two ways at once, and the whole body has the quality of something modeled and revolved in the hand rather than glimpsed across a studio.
+      </p>
+
+      <SectionHeader accent={accent} label="The blue" title="The shadow, not the skin" />
+      <p style={proseStyle}>
+        Now the blue, because the painting is named for it. The title makes you expect a blue woman. <strong>She is not blue.</strong> Her body is a warm, ruddy, pinkish flesh color. The <strong>blue is the shadow.</strong> Look along the <strong>underside of the torso</strong>, the <strong>far breast</strong>, the <strong>crook of that bent arm</strong>, the <strong>hollows where the body folds</strong>, and you will find that every shaded place, every spot that would simply be a darker flesh-tone in an ordinary nude, Matisse has painted a frank, unmixed <strong>blue</strong>. He is using blue the way a sculptor uses shadow, packing it into the hollows to make the lit parts bulge forward. That is why a flat painting reads as something with real weight: the blue does the modeling. And here is the move that ties the whole picture together: <strong>the same blue runs straight out of the body and into the grass.</strong> The shadow under her and the ground she lies on are the same blue paint, so the figure does not sit cleanly in front of a background. She is welded to it. Body and oasis are made of one color.
+      </p>
+
+      <SectionHeader accent={accent} label="The hip and the outline" title="Where the academy’s finish goes to die" />
+      <p style={proseStyle}>
+        Let your eye go to the <strong>center of the canvas</strong>, to the <strong>hip and buttock</strong>. This is the high point of the whole composition, the body&rsquo;s great upward curve, swelling up larger than anything else in the picture. It is exaggerated on purpose, pushed past anatomy into pure swelling shape. And ringing the entire figure, head to feet, is a <strong>thick, dark, deliberate contour line</strong>, a drawn outline you are absolutely meant to see. A Salon nude of 1907 would have hidden every edge in soft blended shadow so the body seemed to melt into air; that smooth invisibility was what &ldquo;finished&rdquo; meant. Matisse threw it out. He drew a heavy line around his nude like a child or a carver would, and let it show. Get close and you can see how little he hid the labor: the paint is laid on in visible, dragging strokes, the blue grass scrubbed in with a loaded brush, the dark contour pulled around the hip in one rough, ropy band you can almost feel the bristles in. Then look from the curve of the buttock up to the <strong>hollow under the palm fronds</strong> behind her: the two curves <strong>rhyme</strong>. The shape of her body is answered by the shape of the plant. The picture is built out of a few repeated curves bounced between the woman and the oasis.
+      </p>
+
+      <SectionHeader accent={accent} label="The oasis behind her" title="A memory of a place, in two bands of color" />
+      <p style={proseStyle}>
+        Finally, the setting, which is barely a setting at all. Behind her, at the <strong>upper right</strong>, stands a single <strong>stylized palm or palmette</strong>, its fronds curling over, and beneath and around her runs a band of <strong>vegetation</strong>, the <strong>blue grass</strong> the hostile critics could not get past. That is the entire Biskra in this <em>Souvenir de Biskra</em>: one plant and a strip of blue ground. It is not a desert you could walk into. It is flat, frontal, decorative, a couple of color-bands standing in for a remembered country. And the colors there are not new colors; they are the body&rsquo;s colors thrown backward into the plant. <strong>Red</strong> turns up in the palm stem and again in her lips and nipples. <strong>Pink</strong> sits in her flesh and again at the base of the palm. <strong>Blue</strong> is in her shadows and in the grass. Step back and the whole thing reads as one built surface of a handful of colors, traded back and forth between a woman and an oasis until you cannot say where one stops and the other starts. That, and not any blue skin, is what the title is really pointing at: a body and a memory, painted out of the same paint.
+      </p>
+    </article>
+  )
+}
+
+function BluSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · spring 1907" title="The ugliest thing at the Indépendants" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the spring of <strong>1907</strong>, around March, Matisse hung the new picture at the <strong>Salon des Indépendants</strong> in Paris, the big jury-free, prize-free annual show where any artist could exhibit by paying a fee, the open exhibition the avant-garde used to put its rawest work in front of the public. And the public recoiled. The reaction was not bafflement; it was something closer to disgust. The painting was read as <strong>gratuitously ugly</strong>, savage, brutal, unfinished, a deliberate insult, a competent painter throwing away everything that made a nude beautiful in order to shock.
+      </p>
+      <p style={proseStyle}>
+        It helps to remember what a Salon nude was supposed to be in 1907. It was supposed to be <strong>smooth, idealized, graceful, flattering</strong>, a beautiful woman painted beautifully, with every edge softened and every shadow tucked away, a body arranged to please the (overwhelmingly male) viewer who paid to look. That was the whole long tradition of the academic nude, and audiences read it almost without thinking. Matisse&rsquo;s nude was the opposite of all of it: a heavy, twisted, ungainly body, drawn around with a thick black line, modeled in blunt blue shadow, lying on grass that was the wrong color, under a flat cardboard palm. To a viewer trained on the academic nude it did not look like a failed attempt at beauty. It looked like an <strong>attack</strong> on beauty, and it was taken personally.
+      </p>
+
+      <SectionHeader accent={accent} label="The critic" title="Blue grass and palm trees" />
+      <p style={proseStyle}>
+        The line that has stuck to the painting ever since came from <strong>Louis Vauxcelles</strong> (pronounced &ldquo;voh-SELL&rdquo;), the Paris critic with a real gift for the wounding phrase: he is the same man who, two years earlier, had christened Matisse and his circle the <em>Fauves</em>, the &ldquo;wild beasts,&rdquo; and who would later hand Cubism its name too. Faced with the <em>Blue Nude</em>, he reached for ridicule, and his jeer fastened on exactly the three things a hostile eye saw first: <strong>that the woman was ugly</strong>, that she was <strong>stretched out on blue grass</strong>, and that the whole thing sat <strong>under palm trees</strong>. (The exact wording of his line varies from translation to translation, so take that as the gist of his sneer rather than a quotation carved in stone. The contempt is not in doubt; only the precise syllables are.) The detail to notice is that his insults were accurate. There <em>is</em> a frankly ugly-on-purpose body. The grass <em>is</em> blue. There <em>is</em> a flat palm. He named the picture&rsquo;s real features and meant every one as a crime. Matisse had simply decided those features were not crimes.
+      </p>
+      <p style={proseStyle}>
+        And that is the thing about the 1907 scandal: <strong>the ugliness was the point, not an accident.</strong> Matisse was not failing to paint a pretty nude. He was deliberately refusing to, building a body out of weight and blue shadow and a hard outline because that, and not prettiness, was what he was after. The Salon read a refusal as an incompetence, and a deliberate provocation as a tantrum. Six years later, across an ocean, a crowd of Chicago students would read it exactly the same way, and act on it.
+      </p>
+    </article>
+  )
+}
+
+function BluAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris → New York" title="The Steins, and the rivalry on one wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        traight off the scandal, the picture found the best possible owners. <strong>Leo and Gertrude Stein</strong>, the American brother-and-sister collectors living in Paris at <strong>27 rue de Fleurus</strong>, bought it. The Steins were Matisse&rsquo;s earliest serious patrons, and they were also Picasso&rsquo;s, and they hung the two men in the same rooms, which means the rivalry that ran through twentieth-century painting was, for a while, literally on one wall of one Paris apartment.
+      </p>
+      <p style={proseStyle}>
+        That matters here because of a date. <em>Blue Nude</em> is from <strong>1907</strong>. So is <strong><em>Les Demoiselles d&rsquo;Avignon</em></strong>, the savage, faceted brothel scene Picasso was making across town, the picture usually called the doorway to Cubism. Both are nudes pushed through deliberate distortion and the same new pressure of African and other non-European sculpture then entering Paris through colonial channels (a turn art historians call <strong>primitivism</strong>, Western modernists borrowing the forms of non-European art whose makers they rarely named or understood). Picasso saw the <em>Blue Nude</em>; it is commonly said to have <strong>fed into</strong> the <em>Demoiselles</em>. Be careful with the chain of cause, because Picasso&rsquo;s picture was largely worked out that same year and you cannot cleanly say one made the other. The honest version is a <strong>rivalry</strong>: two men, the same year, the same city, the same dealers and patrons, each watching the other shove the human body further than anyone thought a painting could take it.
+      </p>
+
+      <SectionHeader accent={accent} label="Chicago · April 16, 1913" title="The copies that were burned" />
+      <p style={proseStyle}>
+        Now the famous part, which gets garbled almost every time it is told, so we will tell it precisely. In <strong>1913</strong>, the Steins lent <em>Blue Nude</em> to the <strong>Armory Show</strong> (the International Exhibition of Modern Art), the giant exhibition that opened in New York in February and detonated American modern art. (Note the lender: in 1913 the painting was still the <strong>Steins&rsquo;</strong>. John Quinn, whom we will meet in a moment, did not own it yet.) From New York the show traveled to the <strong>Art Institute of Chicago</strong>, where the students were, to put it mildly, not persuaded.
+      </p>
+      <p style={proseStyle}>
+        On <strong>April 16, 1913</strong>, the show&rsquo;s last day in Chicago, Art Institute students staged a protest, and this is the fact to get exactly right. They <strong>burned cheap copies, reproductions, of three Matisse paintings</strong>, the <em>Blue Nude</em> among them. They <strong>did not burn the painting.</strong> The original canvas, the actual oil the Steins had lent, hung untouched; what went up in flames were photographic copies. They also held a <strong>mock trial</strong> of the painter, whom they nicknamed <strong>&ldquo;Henri Hairmattress,&rdquo;</strong> indicting him for a long string of joke crimes (artistic murder, pictorial arson, criminal misuse of line, total degeneracy of color), a student jury &ldquo;condemned&rdquo; him, and a student &ldquo;chaplain&rdquo; intoned that they regretted he had only one life to give for his principles. There was also an attempt to <strong>burn Matisse himself in effigy</strong>, a stuffed figure of the man, but by the local reports that effigy was <strong>stopped before it was lit.</strong> So the accurate sentence, the one to hold onto past every breathless retelling, is this: <strong>copies of the paintings were burned; the burning of the artist in effigy was attempted and reportedly halted; and the original <em>Blue Nude</em> was never harmed.</strong> It is alive and well, which is the whole reason you can go look at it today.
+      </p>
+
+      <SectionHeader accent={accent} label="Quinn, and the Quinn sale" title="From a New York lawyer to a Paris auction" />
+      <p style={proseStyle}>
+        After the Armory Show, the painting changed hands. In <strong>1920</strong>, Leo Stein sold it to <strong>John Quinn</strong>, the New York lawyer who had been the single most important American backer of the 1913 show. Quinn died in <strong>1924</strong>, and his enormous modern collection was broken up and sold. <em>Blue Nude</em> came up at the <strong>Quinn estate sale in Paris</strong>, at the <strong>Hôtel Drouot</strong> auction house, on <strong>28 October 1926</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="The Cone sisters" title="Two women from Baltimore" />
+      <p style={proseStyle}>
+        And the buyer at that Paris sale is how the painting ends up where it is: a city not many people would guess, <strong>Baltimore</strong>. The buyer was <strong>Dr. Claribel Cone</strong> (1864–1929), and her story is worth a paragraph, because she is not a footnote. Claribel was a <strong>Johns Hopkins-trained pathologist</strong>, a practicing scientist at a time when that was almost unheard of for a woman, and she and her younger sister <strong>Etta Cone</strong> (1870–1949) had been friends of Gertrude Stein back in their shared Baltimore-and-Hopkins days. Through the Steins, the Cone sisters had started buying Matisse early, and they kept at it for decades, with a seriousness and a checkbook that most museums of the time could not match. At the Quinn sale, Claribel bought the <em>Blue Nude</em> for a reported <strong>120,760 francs</strong> (about <strong>$4,830</strong>; that figure comes from secondary accounts, so hold it loosely). Claribel died in 1929, her holdings passed to Etta, and Etta spent the rest of her life consolidating what the two of them had built into one of the great private collections of modern art in the world.
+      </p>
+      <p style={proseStyle}>
+        When Etta died in <strong>1949</strong>, she left the whole thing, <strong>the Cone Collection</strong>, to her hometown museum, the <strong>Baltimore Museum of Art</strong>, which accessioned it the next year. That bequest is the reason a mid-sized American city holds <strong>one of the largest Matisse collections on Earth</strong>, and the reason the <em>Blue Nude</em>, the picture a Paris Salon called gratuitously ugly and a Chicago crowd burned in cheap copy, hangs today in Baltimore, the original paint intact, gathered up and saved by two sisters who saw, long before the crowds did, exactly what it was.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'blue-nude': { biskra: BluBiskra, sculpture: BluSculpture, looking: BluLooking, salon: BluSalon, afterlife: BluAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// The Seine at Chatou (Vlaminck, 1906) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function ChaTown({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Chatou · 1906" title="A river town just outside Paris" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>C</DropCap>
+        hatou (pronounced &ldquo;sha-TOO&rdquo;) is a small town on the <strong>Seine</strong>, the river that runs through Paris, about <strong>nine miles</strong> (roughly fourteen kilometers) west of the city center. It was, in <strong>1906</strong>, the kind of place a Parisian went on a Sunday to get out of the city: a riverside town with boats and a bend of green water and an island in the middle of the river, the <strong>Île de Chatou</strong>, where you could rent a skiff, eat lunch by the water, and pretend for an afternoon that you did not live in a city of three million people. This was leisure infrastructure, more or less, for the working and middle classes of Paris, fifteen minutes out on the train.
+      </p>
+      <p style={proseStyle}>
+        Painters had been here before. A generation earlier, in the 1870s and early 1880s, this exact stretch of the Seine had been the Impressionists&rsquo; outdoor studio. <strong>Pierre-Auguste Renoir</strong> painted his great river-party picture, the <em>Luncheon of the Boating Party</em>, at the <strong>Maison Fournaise</strong>, a boating restaurant on the Île de Chatou, with the same bridge and the same water in the background. So when our painter set up his easel on this riverbank in 1906, he was not discovering virgin ground. He was painting a postcard view that other, gentler painters had already made famous. The whole point of what he did to it is that he did not paint it gently.
+      </p>
+
+      <SectionHeader accent={accent} label="The subject" title="Tugboats, sailboats, and white houses" />
+      <p style={proseStyle}>
+        The painter is <strong>Maurice de Vlaminck</strong> (1876&ndash;1958; pronounced &ldquo;vla-MANK&rdquo;), and he was not visiting. He lived in the area, and he <strong>spent the summer of 1906 painting in and around Chatou</strong>, the river and its traffic over and over. The same handful of things turn up across his canvases of these two years: the Seine itself, the <strong>tugboats</strong> hauling barges up and down a working commercial river, the <strong>sailboats</strong>, and the white riverbank houses with trees rising behind them. He painted this view so many times that the museums now hold several near-identical canvases with near-identical names, which is a problem for cataloguers and a sign of how hard he was hammering one motif. The one we are looking at, the version that hangs in <strong>New York</strong>, shows a tugboat and sailboats on the water, white houses on the bank, and a stand of trees, all of it rendered in colours that the river never actually wore.
+      </p>
+      <p style={proseStyle}>
+        Hold the place in your mind before we get to the paint: a quiet, pretty, well-worn leisure spot, the sort of view a hundred Sunday painters had set down in tasteful greens and silvery blues. That is the room Vlaminck walked into. What he did with it is the rest of this story.
+      </p>
+    </article>
+  )
+}
+
+function ChaTube({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The man" title="The ex-cyclist who would not be taught" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o understand the paint you have to understand the man holding the tube, because Vlaminck made a point of being unlike every other serious painter in France. He was <strong>self-taught</strong>, and proud of it to the point of belligerence. He took a few drawing lessons and studied briefly with a local painter as a young man, but he <strong>refused formal academic training</strong> and built a whole identity out of being the untaught outsider, the man who never went to the schools. Before he painted for a living he had two earlier lives: he was a <strong>professional racing cyclist</strong> (a career ended by a bout of typhoid in his early twenties), and he was a <strong>violinist and music teacher</strong> who played in bands for money. He came to painting as a big, physical, self-made man with no patience for the academy, and it shows in every stroke.
+      </p>
+      <p style={proseStyle}>
+        It is worth being honest that this was partly a performance. Of all the Fauves, Vlaminck leaned hardest into the wild-man label, and he cultivated the untaught-rebel image as deliberately as he lived it. A 2024&ndash;25 retrospective at the Museum Barberini in Potsdam even took the title <em>Maurice de Vlaminck: Modern Art Rebel</em>, the persona made into a show. And he modeled that persona, knowingly, on <strong>van Gogh</strong>, the unschooled outsider whose own legend, the genius nobody recognised, he had fallen for in 1901. Vlaminck did not just admire van Gogh&rsquo;s painting; he borrowed van Gogh&rsquo;s myth and wore it.
+      </p>
+      <p style={proseStyle}>
+        He is famous for a line about the academy. By his own telling, Vlaminck wanted to <strong>burn down the École des Beaux-Arts</strong>, the official state art school in Paris, the gatekeeper of respectable French painting, and burn it down specifically with his colours, with his cobalts and his vermilions. It is the sort of thing he said, and it has been quoted of him for a century, though the exact words drift from book to book and no clean original source pins them down, so take it as the boast it was rather than a verbatim manifesto. The feeling behind it, though, is real and is right there on the Chatou canvas: a man who thought the way to attack good taste was to out-colour it.
+      </p>
+
+      <SectionHeader accent={accent} label="Paris · 1901" title="The van Gogh that hit him" />
+      <p style={proseStyle}>
+        The thing that turned that temperament into a method was a show. In <strong>1901</strong>, a large early retrospective of <strong>Vincent van Gogh</strong> (1853&ndash;1890), the Dutch painter who had died unknown and unsold a decade earlier, opened at the <strong>Bernheim-Jeune gallery</strong> in Paris, around seventy of his canvases hung together. Vlaminck saw it, and it knocked him sideways. Van Gogh painted with undisguised, expressive brushwork and colour pushed past the truth for the sake of feeling, and that was exactly the permission Vlaminck had been looking for. He is widely reported to have said, of that day, that he <strong>loved van Gogh better than his own father</strong>, a line that gets repeated everywhere without a clean original behind it, so read it as the kind of thing he said rather than a sourced quotation. The point it carries is solid: van Gogh, more than any living teacher, is the painter standing behind the Chatou canvas. The Met says as much of this exact picture, that Vlaminck emulated the undisguised brushwork and the intuitive application of paint of van Gogh&rsquo;s late, expressive style, which he so admired.
+      </p>
+      <p style={proseStyle}>
+        That same room did something else, too. It was here that <strong>André Derain</strong>, the friend Vlaminck already painted alongside at Chatou, introduced him to <strong>Henri Matisse</strong>. So the show that lit Vlaminck up also, in passing, assembled the three painters, Matisse, Derain, and Vlaminck, who would be the core of Fauvism four years later. The movement&rsquo;s social origin and its deepest influence are the same afternoon.
+      </p>
+
+      <SectionHeader accent={accent} label="The method" title="Straight from the tube" />
+      <p style={proseStyle}>
+        So here is the method, and it is gloriously simple. Vlaminck did not labour over delicate mixtures on a palette to find the exact right grey-green of a real riverbank. He took the <strong>colour straight from the tube</strong> and put it on the canvas. The Met&rsquo;s own catalogue says of this painting that he <strong>applied the colours directly from the tube in daubs and swirls of pigment</strong>, combining the primaries of blue and red with white, and using those frank, unmixed hues for the white houses, the green leaves, the reddish-orange tree trunks, and the small boat in the distance. That is the whole technical engine of the picture. No careful local colour (the true, observed colour of a thing under ordinary light), no atmospheric softening, no greying-down to suggest distance and air. Squeeze, daub, swirl. The pigment goes on at nearly the strength it had in the tube, and the brush leaves its ridges where it passed.
+      </p>
+      <p style={proseStyle}>
+        It is worth saying plainly what that buys him. Working straight from the tube is fast, and it keeps every colour at its maximum voltage instead of letting it settle into the muted truth of a real landscape. A painter trained at the École would have called it crude, and that was, more or less, the idea. Vlaminck was not trying to record the Seine at Chatou. He was trying to hit you with it.
+      </p>
+    </article>
+  )
+}
+
+function ChaLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A landscape painted at full volume" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it. The painting is a <strong>landscape format</strong>, wider than it is tall, about <strong>two feet eight inches high by three feet four inches wide</strong>, a comfortable easel size, nothing monumental. The layout under all the colour is ordinary, almost humble, and it helps to map it before the colour takes over. The near <strong>riverbank rises up the left edge</strong>, with the trees and a yellow rowboat stacked in the lower-left foreground; the broad surface of the <strong>Seine</strong> opens out across the center and to the right; a larger dark <strong>boat</strong> sits on the water toward the right, the white houses cluster on the far bank in the upper right, and a bright sky runs across the top. If you squint past the colour, it is a perfectly conventional river view, the kind of thing you have seen on a thousand calendars. Now stop squinting, because the colour is the entire point, and it is doing things no calendar river ever did.
+      </p>
+
+      <SectionHeader accent={accent} label="The bank" title="Reddish-orange trees that no tree ever wore" />
+      <p style={proseStyle}>
+        Go first to the <strong>left bank and the trees</strong>. This is where the picture announces what it is. The <strong>tree trunks are a frank reddish-orange</strong>, the colour of hot embers, not of bark. No tree on the actual Chatou riverbank was ever that colour. Vlaminck chose it because orange against the blues and greens around it <em>burns</em>, because it carries force the true brown could never carry. This is the cleanest single thing to point at on the whole canvas if you want to understand Fauvism in one stroke: a tree painted the wrong colour <em>on purpose</em>, because the right colour was too quiet. The Met names these &ldquo;reddish-orange tree trunks&rdquo; outright, so you are not imagining the choice; it is documented, deliberate, and the heart of the picture.
+      </p>
+      <p style={proseStyle}>
+        And look at <em>how</em> the paint is laid down, because the touch matters as much as the colour. The bank is not smoothed into a tidy surface. It is built from <strong>thick, separate daubs and swirls of pigment</strong>, the paint squeezed on nearly straight from the tube and dragged across the canvas in short, visible strokes. This is <strong>impasto</strong>, paint heaped so high the brush leaves standing ridges, little furrows of colour you could almost read with your fingertips. Each stroke stays itself. The orange does not melt into the green beside it; it sits next to it, raw, so the whole bank reads as a mosaic of separate loaded touches rather than a blended scene. That broken, ridged, restless surface is the van-Gogh inheritance made physical, and it is everywhere on the canvas: the bank, the foliage, the houses, even the water.
+      </p>
+
+      <SectionHeader accent={accent} label="The river" title="A Seine of broken colour, and the boats on it" />
+      <p style={proseStyle}>
+        Now the <strong>water</strong>, opening out across the center of the canvas. A timid painter would have made the Seine a smooth pane, a calm grey-blue mirror to settle the busy bank against. Vlaminck would not give you the rest. The <strong>river is built from the same short, separate, coloured strokes as the bank beside it</strong>, so its surface reads as a field of broken colour, bands and dashes of blue and green and pale light, not a glassy reflection. The reflections do not mirror; they vibrate. The result is that the whole picture sits on one flat, active, worked plane, with no quiet patch for your eye to rest in. The water is as busy as the land.
+      </p>
+      <p style={proseStyle}>
+        Out on that water are the <strong>boats</strong>. Toward the right sits a <strong>remorqueur</strong>, which is the French word for a tugboat, the kind that hauled barges along a working commercial river, plus <strong>sailboats</strong>, and a yellow rowboat is pulled up in the near foreground at lower left. The Met singles out one small craft in the background painted in <strong>blue, red, and white</strong>, which is worth noticing because blue and red are two of the <strong>primary colours</strong> (the basic hues you cannot mix from any others), the very ones the whole canvas runs on. The boat is a little knot where the painting&rsquo;s charged palette is concentrated. These are not pleasure yachts prettied up for the picture; they are the actual traffic of a real river, set down in the same hot colour as everything else.
+      </p>
+
+      <SectionHeader accent={accent} label="Houses and sky" title="White houses, green leaves, and a sky that will not recede" />
+      <p style={proseStyle}>
+        On the far bank, upper right, sit the <strong>white houses</strong> and, around them, the <strong>green leaves</strong>. These are the places the Met points to where ordinary, expected local colour, white for a house, green for a leaf, is laid on raw and bright instead of softened. Even the colours that happen to be &ldquo;correct&rdquo; here are pushed to full strength, so the white blazes and the green is a green you would call charged. Nothing in the picture is allowed to be muted.
+      </p>
+      <p style={proseStyle}>
+        And above all of it, the <strong>sky</strong>. This is where you can feel the Fauve idea of <strong>high key</strong>, which means keeping colours near their full intensity rather than darkening or greying them down to fake distance and atmosphere. The top of the canvas does not soften into a hazy pale blue the way a traditional landscape sky recedes into air. It stays bright, stays charged, stays as present as the bank below it. That refusal to let the top of the picture calm down is a big part of why the whole thing feels intense from edge to edge instead of building to a quiet horizon.
+      </p>
+      <p style={proseStyle}>
+        Pull back and take the whole canvas at once. There is no soothing passage anywhere in it, no smooth water, no soft sky, no true colour to rest on. A quiet Sunday river town has been painted at the absolute top of its voice, with the paint squeezed straight from the tube, the trees on fire, the water broken into dashes, and the sky refusing to fade. That is the picture&rsquo;s whole argument, made in nothing but colour and the marks of a loaded brush: that a landscape does not have to be the colour of the world, and that the feeling of a place can be louder than its facts.
+      </p>
+    </article>
+  )
+}
+
+function ChaSchool({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="A train, 1900" title="How Vlaminck met Derain" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>V</DropCap>
+        laminck did not paint Chatou alone, and the second name in this story is <strong>André Derain</strong> (1880&ndash;1954; pronounced &ldquo;duh-RANN&rdquo;). The two met, by the standard account, in <strong>1900</strong>, after a <strong>train accident</strong>: their train derailed near Chatou, and the two young men got to talking. They became close, and for a stretch around 1900 and 1901 they <strong>shared a studio at Chatou</strong>, painting the same river you have just been looking at. Derain was the younger of the two and would soon become a central Fauve in his own right, but for a few years he and Vlaminck were a two-man operation on this exact riverbank.
+      </p>
+      <p style={proseStyle}>
+        That pairing has a nickname. The two of them are remembered together as the <strong>&ldquo;School of Chatou&rdquo;</strong> (in French, <em>l&rsquo;École de Chatou</em>), which is an art-historian&rsquo;s tidy label for what was really just two friends with two easels. It was never a formal school with members and a doctrine; it was a nickname for a two-man precursor to Fauvism, the pair of them painting the Seine&rsquo;s riverbanks in bold, anti-naturalistic colour before the movement had a name. Several years before the wild beasts were christened, the School of Chatou was already doing the thing.
+      </p>
+
+      <SectionHeader accent={accent} label="Paris · autumn 1905" title="The room where the wild beasts got their name" />
+      <p style={proseStyle}>
+        The name came at a show. In the autumn of <strong>1905</strong>, both Vlaminck and Derain exhibited at the <strong>Salon d&rsquo;Automne</strong>, an annual Paris exhibition, in a room full of painters working in this same hot, unnatural colour, Matisse and Derain among them. A critic named <strong>Louis Vauxcelles</strong> (pronounced &ldquo;voh-SELL&rdquo;), looking at the room, called these bright-colour painters <strong>&ldquo;fauves,&rdquo;</strong> French for <strong>&ldquo;wild beasts.&rdquo;</strong> It was an insult, and it stuck the way good insults do. The painters never chose the name, never signed a manifesto under it, and never quite shook it. <strong>Fauvism</strong> takes its name from that one critic&rsquo;s jab in that one room, and Vlaminck, with his tube colour and his burning trees, was about as wild a beast as the room contained.
+      </p>
+      <p style={proseStyle}>
+        So the Chatou canvas of 1906 sits one year on from the naming, painted by one of the two men of the School of Chatou, at the very peak of the brief movement that the room of 1905 had accidentally christened. It is, in a real sense, a Fauve painting made on the home ground where this kind of bold, anti-naturalistic colour had been worked out early, years before anyone thought to call it anything.
+      </p>
+    </article>
+  )
+}
+
+function ChaAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1905–1907" title="The short, bright peak" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he Chatou pictures came at the top of a very short arc. Vlaminck&rsquo;s high-key, pure-colour landscapes belong almost entirely to the years <strong>1905 to 1907</strong>, and the Chatou canvases are his signature output from that peak. There was a commercial reason he could paint so freely in 1906: the powerful dealer <strong>Ambroise Vollard</strong> had, around 1905 and 1906, <strong>reportedly bought out Vlaminck&rsquo;s studio stock</strong> (the figures get quoted as several thousand francs, but treat the amount as reported, not carved), along with an option on future work. With his back catalogue sold in one stroke, Vlaminck could paint full-time, and the loudest Chatou canvases are partly the product of that freedom.
+      </p>
+
+      <SectionHeader accent={accent} label="After 1907" title="The man who turned on modern painting" />
+      <p style={proseStyle}>
+        And then, almost as fast as it had arrived, the brightness drained out of his work. From around <strong>1907 and 1908</strong> Vlaminck&rsquo;s <strong>palette darkened</strong>. He moved gradually toward the sober, structured influence of <strong>Paul Cézanne</strong> (the older painter had died in 1906, and a wave of attention to his work followed), and left behind the high-key Fauve colour that the Chatou pictures live in. This was an evolution, not a public recantation; the man who had wanted to burn down the academy with his vermilions simply put the vermilions away as his eye changed.
+      </p>
+      <p style={proseStyle}>
+        The real turn to hostility came later, and against a different target. In his later decades Vlaminck became openly <strong>hostile to modern painting</strong>, and to <strong>Cubism and Picasso</strong> in particular, blaming Picasso for dragging French art into a dead end. The wild beast of 1906 ended up one of modernism&rsquo;s loudest scolds. The Chatou canvas, then, is a snapshot of a man at a moment he would not stay in, the brief year or two when he believed, completely, that colour straight from the tube was the whole future of painting.
+      </p>
+
+      <SectionHeader accent={accent} label="Provenance" title="To New York, with the Gelmans" />
+      <p style={proseStyle}>
+        The painting&rsquo;s life as an object is the <strong>provenance</strong>, the documented chain of who owned a work from the artist&rsquo;s hand to where it hangs now, and for this canvas the honest version of that chain is short, because the middle of it is not securely documented and we are not going to invent it. What is certain is the end. The picture came to the <strong>Metropolitan Museum of Art</strong> in New York as part of the <strong>Jacques and Natasha Gelman Collection</strong> in <strong>1998</strong>, accession number 1999.363.84.
+      </p>
+      <p style={proseStyle}>
+        There is a quiet symmetry in where it landed. The same museum holds <strong>van Gogh</strong>, the painter whose 1901 retrospective had set Vlaminck on fire in the first place, and whose late, expressive style the Met itself names as the engine behind this very canvas. The Chatou riverbank now hangs a few rooms from its own ancestor, in a city its painter never needed to see, still squeezed straight from the tube, still burning.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  chatou: { 'chatou-town': ChaTown, 'tube-color': ChaTube, looking: ChaLooking, 'school-of-chatou': ChaSchool, afterlife: ChaAfterlife },
+
+function CrxAssignment({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1906" title="A dealer sends him to beat Monet" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n 1906 a 26-year-old French painter named <strong>André Derain</strong> (1880&ndash;1954; pronounced &ldquo;deh-RANN&rdquo;) got on a boat to London because a dealer told him to. The dealer was <strong>Ambroise Vollard</strong> (1866&ndash;1939), one of the great talent-spotters of the Paris art trade, the man who had given Cézanne and Picasso early shows and who made his living betting on painters before the rest of the world caught up. This trip was a business decision, not a holiday. Vollard wanted a series of London paintings, and he wanted them from a young man working in the loudest new style in France.
+      </p>
+      <p style={proseStyle}>
+        That style was <strong>Fauvism</strong> (from the French <em>fauves</em>, &ldquo;wild beasts,&rdquo; the larger story told in the Fauvism overview one level up in this app). The short version you need here: at the Paris Salon of 1905, Derain and his friend <strong>Henri Matisse</strong> and a few others had hung paintings in colors that did not match the world, faces with green stripes, harbors in pink and turquoise, color chosen for effect instead of accuracy. A hostile critic called them wild beasts, and the name stuck. By 1906 Derain was one of the wild beasts in good standing, and that is exactly why Vollard picked him.
+      </p>
+
+      <SectionHeader accent={accent} label="The Monet trigger" title="Why London, why now" />
+      <p style={proseStyle}>
+        To understand the assignment you have to know what had just happened across town. <strong>Claude Monet</strong> (1840&ndash;1926), the most famous of the Impressionists (the older generation who painted light and weather outdoors, also covered one level up), had spent years painting the Thames, the Houses of Parliament and the London fog, over and over, the same views under changing light. In the summer of 1904 a big group of those London canvases went on show at the <strong>Durand-Ruel</strong> gallery in Paris and were a sensation. Everyone who mattered in the Paris art world had just stood in front of Monet&rsquo;s misty, silvery London and been amazed by it.
+      </p>
+      <p style={proseStyle}>
+        So Vollard did the commercially obvious thing: he sent his own young painter to the same river to do it differently. The instruction, in effect, was to go to London, paint the Thames Monet had painted, and come back with something Monet could never have made. Derain went over a couple of stays in this period (sources disagree on whether it was two trips or three, so we will not pretend to know), and he came back with a series. How big a series is itself uncertain, the counts conflict, but the honest shape of it is this: Vollard commissioned <strong>dozens</strong> of views and Derain delivered <strong>around thirty</strong>. The painting in front of you is one of them.
+      </p>
+    </article>
+  )
+}
+
+function CrxSubject({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The Thames" title="Standing where Monet stood" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>L</DropCap>
+        ook first at what Derain chose to paint, because he chose it on purpose. This is the <strong>River Thames</strong> in central London, the wide river that runs through the middle of the city. The painting&rsquo;s title points at a bridge: the <strong>Charing Cross Bridge</strong>, also called the <strong>Hungerford Bridge</strong>, a railway bridge that carries trains across the Thames into Charing Cross station on the north bank. (One word of warning, because the alt-titles cause it: the bridge in the picture is the railway bridge. It is not Westminster Bridge, even though some old catalogues loosely call it that.) On the far bank, in the distance, sits Westminster, and you can pick out the clock tower of <strong>Big Ben</strong> and the <strong>Houses of Parliament</strong>, the seat of the British government.
+      </p>
+      <p style={proseStyle}>
+        Now the point that makes the whole series make sense: this is, more or less, <strong>Monet&rsquo;s river</strong>. The bridge, the barges, the bend of the Thames toward Parliament, these were the same London motifs Monet had painted in his celebrated series. Derain chose similar views and, in some cases, painted from vantage points close to Monet&rsquo;s own. He was not stumbling onto fresh subject matter. He was walking up to a subject another, older, hugely successful painter had just made famous, and standing in nearly the same spot.
+      </p>
+
+      <SectionHeader accent={accent} label="On the spot, then in the studio" title="Sketches home to France" />
+      <p style={proseStyle}>
+        He did not, however, paint most of these on a London riverbank. Like a lot of the series, this kind of canvas was worked up <strong>back in France</strong> from sketches and drawings made in London, with only some of the group painted in front of the motif. That matters, because it tells you the color was never a transcription of what stood in front of him. A painter back in his French studio, building a London out of sketchbooks and memory, is free to make the river any color he likes, and Derain took that freedom all the way, which is the subject of the next section.
+      </p>
+    </article>
+  )
+}
+
+function CrxLooking({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A river that exists only in paint" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the size, because it surprises people who know the painting only from a screen. This is not a mural. It is about <strong>2 feet 7 inches tall and 3 feet 3 inches wide</strong> (the museum&rsquo;s measurement, an easel-sized oil on canvas in <strong>landscape</strong> format, wider than it is tall). All of that heat is packed into a picture you could carry under one arm. Now walk into it. Before you sort anything into names, take it in whole: it is warm, the whole lower half glows, and nothing in it is the color London actually is.
+      </p>
+      <p style={proseStyle}>
+        Now look at the <strong>river</strong> across the bottom half of the picture. It is yellow. Not yellow-tinted gray, not yellow where the sun catches it, just yellow, a bumblebee yellow run through with stripes and dots of <strong>bubblegum pink</strong> and pale <strong>burnt-orange</strong>, much of it laid straight over the bare off-white canvas so the weave shows through. There is <strong>no blue in this river. There is no gray.</strong> A real river, on any day, in any weather, gives you some version of blue, green, brown or gray, the colors of water and sky and silt. Derain gives you none of them. He has painted the Thames in colors the Thames does not own, and that single refusal is the whole point of the picture. This is a river that exists only in paint.
+      </p>
+      <p style={proseStyle}>
+        Now lift your eye to the <strong>sky</strong>, the broad band across the top. London is famous for one kind of weather: low gray cloud and fog, the very thing Monet had spent years painting. Here the gray is simply gone. The sky is built from short and long vertical strokes of <strong>butter yellow, rose pink and pale orange</strong>, with patches of watermelon pink, a warm glow with no hour of the day attached to it and no weather in it at all. There is no fog here because the painting was never about fog. It was about color.
+      </p>
+
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#d06a2a', '#3a8a6a', '#d04a7a']}
+        imageUrl={ART_IMG.derainCharingCross}
+        ratio="5/4"
+        alt="Derain, Charing Cross Bridge, London, the whole canvas"
+        caption={<>Derain,{' '}<em>Charing Cross Bridge, London</em>, 1906. National Gallery of Art, Washington (John Hay Whitney Collection).</>}
+        rights="Public domain in the US (painting 1906). Wikimedia Commons."
+      />
+
+      <SectionHeader accent={accent} label="The structure" title="The bridge, the barges, and one true landmark" />
+      <p style={proseStyle}>
+        With the color in your eye, find the structure that holds it together. Across the middle of the picture runs the <strong>bridge</strong>, the Charing Cross railway bridge, drawn not as modeled ironwork but as a flattened horizontal band laid across the canvas. The architecture is asserted, not described; Derain tells you a bridge is there and refuses to fuss over its rivets. On the colored water below it sit small dark <strong>barges and river craft</strong>, and they earn their place: they read as dark accents against the pink-and-yellow flood, they give the bridge its scale, and they quietly insist this is a working river, not an abstract pattern.
+      </p>
+      <p style={proseStyle}>
+        Then, on the far bank, the one thing that tells you where you are. Among the massed buildings in the distance you can pick out <strong>Big Ben and the Houses of Parliament</strong>, glowing orange and turquoise instead of stone-gray. They are the painting&rsquo;s single anchor to a real place, the one landmark that turns &ldquo;a yellow river under a pink sky&rdquo; back into &ldquo;London.&rdquo; Everything else in the picture is color let off its leash; this one cluster of buildings is the leash.
+      </p>
+
+      <SectionHeader accent={accent} label="How it is painted" title="The dot and the patch, at once" />
+      <p style={proseStyle}>
+        One last thing to see, in the handling itself. Look closely at the water and the sky and you will find they are built from <strong>separate spots and short dashes</strong> of unmixed color sitting side by side, a loosened version of the technique called <strong>divisionism</strong> (the method of Georges Seurat and Paul Signac, who laid down small dots of pure color meant to mix in the viewer&rsquo;s eye rather than on the palette, covered in the Post-Impressionism overview a couple of levels up). Then look at the broader, flatter areas, and that dotting drops away into solid Fauve <strong>patches</strong> of color. Derain is using two touches at once: the flickering divisionist spot for shimmer, the flat patch for structure. In his hands the strict divisionist dot relaxes into intermittent spots and lines, never quite a system, which is why the surface seems to vibrate between order and freedom.
+      </p>
+    </article>
+  )
+}
+
+function CrxBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break" title="Monet painted the air; Derain painted the feeling" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the comparison the whole series was built to provoke, so set the two painters side by side on the same river and let them argue. <strong>Monet</strong> went to the Thames to paint the <em>air</em>. His London is a series about atmosphere, fog, the dissolving moment of light, the same view studied again and again as the weather changed; the bridge and the Parliament half-vanish into mist, and the real subject is the silvery haze itself. Monet was, in a sense, a recording instrument of extraordinary sensitivity, set up to catch exactly how the light fell on one particular afternoon.
+      </p>
+      <p style={proseStyle}>
+        <strong>Derain</strong> stood at nearly the same river and did the opposite. He threw out the weather entirely. There is no fog, no hour, no changing light in his picture, because none of that was the point. He laid down <strong>arbitrary, non-naturalistic color</strong>, the Thames pink, the sky yellow, chosen to stir a feeling in you, not to tell you what London looked like. Where Monet dissolved the city into atmosphere, Derain asserted it in flat patches and bright spots of pure hue, the structure held firm and the color set free. The blunt way to keep them apart, and it holds up: <strong>Monet painted the air; Derain painted the feeling.</strong>
+      </p>
+
+      <SectionHeader accent={accent} label="What Derain was after" title="To translate, not to copy" />
+      <p style={proseStyle}>
+        That is what Fauvism wagered, and Derain&rsquo;s London is one of its clearest test cases, precisely because it picks a fight with a master on the master&rsquo;s own ground. The wager was that a painting&rsquo;s job is not to reproduce how a scene looks but to <strong>translate</strong> how it feels, and that color is the tool for the job, color used to stir emotion rather than to describe a surface. (That is a paraphrase of the idea Derain worked by; the neat sentence you sometimes see quoted has no reliable dated source, so take the idea as real and the exact wording as not his.)
+      </p>
+      <p style={proseStyle}>
+        So the break, the thing that makes this picture matter beyond being a pretty riverscape, is this: Derain took the most respectable subject available, a famous river already claimed by a famous painter, and used it to prove that color no longer had to obey the world. Monet had pushed painting toward the truth of light. Derain pushed it past truth altogether, into a London that no eye ever saw and that exists only because a young man with a pot of pink paint decided it should.
+      </p>
+    </article>
+  )
+}
+
+function CrxAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="After" title="Vollard’s bet, and where it landed" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>T</DropCap>
+          he London series did what Vollard had paid for it to do, in the long run. <strong>Vollard bought the series effectively in its entirety</strong>, and over the following decades the individual canvases scattered out into the international art trade, from dealer to collector to dealer, the way a bought-up series does. Today these London paintings are among Derain&rsquo;s most prized works, and in 2005 and 2006 the Courtauld Gallery in London gathered them for a full exhibition, &ldquo;André Derain: The London Paintings,&rdquo; a century after he made them. The young man Vollard had shipped across the Channel had, it turned out, made something that outlasted the dealer who commissioned it.
+        </p>
+        <p style={proseStyle}>
+          There is one more thing worth knowing, because it changes how you see the picture. Derain&rsquo;s wild-beast period was short. Within about two years he had cooled on Fauvism&rsquo;s pure color entirely, turning toward the more measured, structured painting of <strong>Cézanne</strong> and the new ideas of Cubism stirring nearby. After the First World War he became one of the leaders of a broad &ldquo;return to order,&rdquo; painting careful nudes, portraits and landscapes in a deliberately classical, traditional manner for the rest of his life. The man who burned the Thames pink spent his later decades as one of the more conservative painters of his generation. That is part of what makes this canvas worth standing in front of: it is a high point of a style its own maker treated as a phase and left behind.
+        </p>
+        <p style={proseStyle}>
+          The painting itself, meanwhile, had a long and well-traveled life as an object. It went from Derain to Vollard in 1906, and then began a journey through some of the biggest names in the 20th-century art market. The American collector <strong>John Quinn</strong>, the New York lawyer whose pioneering modern collection helped bankroll the legendary 1913 Armory Show, bought it in 1918. After his estate it probably passed to the Paris dealer Paul Guillaume, then through the London and Paris trade, then to the New York firm <strong>Knoedler</strong>, and possibly into the collection of <strong>Walter P. Chrysler, Jr.</strong> (the &ldquo;probably&rdquo; and &ldquo;possibly&rdquo; are the museum&rsquo;s own honest hedges, kept here on purpose). At the Chrysler sale in New York in February 1950 it changed hands again.
+        </p>
+
+        <SectionHeader accent={accent} label="1950 → 1982" title="Whitney, and the gift to Washington" />
+        <p style={proseStyle}>
+          In <strong>April 1950</strong> the painting was bought by <strong>John Hay Whitney</strong> (1904&ndash;1982), an American businessman, diplomat and one of the great collectors of his generation. It stayed with him for the rest of his life. In <strong>1982</strong> it was deeded to the John Hay Whitney Charitable Trust and given the same year to the <strong>National Gallery of Art</strong> in Washington, where it hangs now under the credit line &ldquo;John Hay Whitney Collection.&rdquo; Notice the honest gap in this record: the museum publishes no sale prices along the chain, so neither will we. &ldquo;From the artist to Vollard,&rdquo; &ldquo;sold to Whitney,&rdquo; with no figures attached, is the true account, and inventing francs and dollars to make it sound exact would be a lie dressed up as scholarship.
+        </p>
+        <p style={proseStyle}>
+          That is the whole arc, worth stating flat. A dealer&rsquo;s commercial bet sent a 26-year-old to London to out-paint Monet; the painter came back with a river the color of a sunrise that never happened; the wild-color style that produced it he abandoned within two years; the canvas wandered for forty years through the great collections of two continents; and it ended up on a wall in Washington, where people who have never heard of Ambroise Vollard stand in front of a pink Thames and feel, exactly as Derain wanted, something the real river could never have made them feel.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={accent}
+        region="Paris"
+        when="1906–07 · the same moment"
+        title="A young Spaniard starts breaking the figure apart."
+        body="While Derain is painting his pink Thames, a 25-year-old Pablo Picasso is at work in a Montmartre studio on a large, ugly, deliberately shocking canvas of five women, the picture that will become Les Demoiselles d’Avignon. Fauvism’s liberation of color is barely three years old and already the next revolution is starting a few streets away, this one aimed not at color but at form. The wild beasts had freed the palette; Picasso and Braque were about to dismantle the whole idea of a single, fixed view, and Cubism would soon make Fauvism look almost gentle, the same pull toward structure that would soon draw Derain himself away from pure color."
+        palette={['#c0a06c', '#3d3a2e', '#8a6b3a']}
+      />
+    </>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'charing-cross': { assignment: CrxAssignment, subject: CrxSubject, looking: CrxLooking, break: CrxBreak, afterlife: CrxAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  luxe: { 'saint-tropez': LuxSaintTropez, making: LuxMaking, looking: LuxLooking, independants: LuxIndependants, afterlife: LuxAfterlife },
+  'open-window': { collioure: WinCollioure, making: WinMaking, looking: WinLooking, salon: WinSalon, afterlife: WinAfterlife },
+  'blue-nude': { biskra: BluBiskra, sculpture: BluSculpture, looking: BluLooking, salon: BluSalon, afterlife: BluAfterlife },
+  chatou: { 'chatou-town': ChaTown, 'tube-color': ChaTube, looking: ChaLooking, 'school-of-chatou': ChaSchool, afterlife: ChaAfterlife },
+  'charing-cross': { assignment: CrxAssignment, subject: CrxSubject, looking: CrxLooking, break: CrxBreak, afterlife: CrxAfterlife },
   hat: { salon: HatSalon, making: HatMaking, looking: HatLooking, scandal: HatScandal, afterlife: HatAfterlife },
   'green-stripe': { collioure: GrnCollioure, making: GrnMaking, looking: GrnLooking, reception: GrnReception, afterlife: GrnAfterlife },
   bonheur: { salon: BonSalon, making: BonMaking, looking: BonLooking, reception: BonReception, afterlife: BonAfterlife },

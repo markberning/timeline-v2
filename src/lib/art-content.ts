@@ -4947,5 +4947,454 @@ export const BONHEUR: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR }
+// ─────────────────────────────────────────────────────────────
+// Work, Luxe, calme et volupté (Matisse, 1904). The Divisionist threshold of
+// Fauvism: painted in pointillist dabs after the summer of 1904 at Saint-Tropez
+// with Signac, debuted at the spring 1905 Salon des Indépendants, BEFORE "fauves"
+// was coined that autumn. POINTS TOWARD Fauvism; is NOT itself a Fauve painting.
+// Authored through the art content pipeline. Chapter prose in
+// art-section-reader.tsx NARRATIVES['luxe'] (Lux… prefix).
+// FACT HANDLING (honor every flag):
+//   - Owner is the CENTRE POMPIDOU (inv. AM 1982-96, dation 1982), ON DEPOSIT at
+//     the Musée d'Orsay since 1985. Say both.
+//   - Title from Baudelaire, "L'Invitation au voyage" (Les Fleurs du mal, 1857).
+//   - Neo-Impressionist / Divisionist (pointillist); never "first Fauve painting."
+//   - The "breaking up of colour leads to breaking up of form" line is UNVERIFIED
+//     → PARAPHRASE only, never quote.
+//   - No purchase price documented (Signac's buy OR the 1982 dation) → invent none.
+//   - Marks are short blocky DASHES, coarser than Seurat's neat dots.
+//   - The MoMA oil study is a DIFFERENT object; don't bleed its stats in.
+//   - Bathers' best-documented source = Cézanne's Three Bathers (Matisse OWNED it,
+//     Vollard 1899, kept ~30 yrs); Manet Déjeuner echo is SECONDARY interpretation.
+//   - "broke toward Fauvism," never "invented Fauvism" (group, critic-named).
+// heroImage = ART_IMG.matisseLuxe (Commons file Matisse-Luxe.jpg, load-checked).
+// ─────────────────────────────────────────────────────────────
+export const LUXE: ArtWorkContent = {
+  id: 'luxe',
+  name: 'Luxe, calme et volupté',
+  shortName: 'Luxe, calme et volupté',
+  year: 1904,
+  artist: 'Henri Matisse',
+  artistId: 'matisse',
+  movement: 'Fauvism',
+  movementId: 'fauv',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '3 ft 2 3/4 in × 3 ft 10 5/8 in',
+  location: 'Musée d’Orsay, Paris (on deposit from the Centre Pompidou)',
+  acquired: 'Centre Pompidou (Musée national d’art moderne), by dation 1982; on deposit at the Musée d’Orsay since 1985',
+  accent: ART_ACCENTS.rust, // copied from FAUVISM
+  chain: { name: 'Works of Fauvism', index: 1, total: 9 },
+  hook: 'A naked picnic on a golden Mediterranean shore, built entirely from separate flecks of color after one summer at Signac’s elbow, and the last picture Matisse made before he threw the dot away and broke toward Fauvism.',
+  heroImage: ART_IMG.matisseLuxe,
+  heroCredit: 'Matisse, Luxe, calme et volupté, 1904 · Musée d’Orsay, Paris (on deposit from the Centre Pompidou)',
+  heroAspect: 1.2, // 118.5 × 98.5 cm → W/H ≈ 1.20 (landscape; see note in draft header)
+  heroFit: 'contain', // whole canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1904', k: 'Painted' },
+    { v: '3′2¾″ × 3′10⅝″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'saint-tropez', eyebrow: 'Saint-Tropez · 1904', dateLabel: 'Summer 1904', title: 'The summer at Signac’s elbow', blurb: 'Matisse, 34 and restless, leaves Paris for the Côte d’Azur and works beside Paul Signac, the leading living Neo-Impressionist, learning to build a picture out of separate touches of pure color. He arrives already primed by Signac’s book on the method.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The method', dateLabel: 'Autumn–Winter 1904', title: 'Divisionism, and a coarser dot', blurb: 'Neo-Impressionism, Divisionism, Pointillism, three words for one idea kept carefully distinct. Matisse paints an on-the-spot study, then works the full canvas up over the winter, laying it down not in Seurat’s neat dots but in short blocky dashes of unmixed color.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '3 ft 2¾ in × 3 ft 10⅝ in', title: 'An Arcadian shore, made of dashes', blurb: 'A group of nudes on a spread cloth at the water’s edge, a teapot and a picnic, a calm bay with a sailboat, and skin that already carries green and blue, the whole golden-age daydream assembled from thousands of separate strokes.', progress: 0.56 },
+    { id: 'independants', eyebrow: 'Paris · spring 1905', dateLabel: 'Spring 1905', title: 'The debut, before the wild beasts', blurb: 'Shown at the jury-free Salon des Indépendants in the spring of 1905, where it read as an ambitious Neo-Impressionist picture. This is months BEFORE the autumn Salon where a critic’s jibe gave Fauvism its name, so at its debut this is not yet a Fauve painting.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1905–today', title: 'Signac buys it, and the door opens', blurb: 'Signac himself bought the homage to his own method, and it stayed in his family. Within months Matisse abandoned the systematic dot, finding it broke up the very form he wanted, and the break led straight into Fauvism, which is why this picture is called its starting point.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1904–1905', who: 'Henri Matisse (the artist)', place: 'Saint-Tropez / Paris', note: 'Begun after the summer 1904 stay near Signac at Saint-Tropez and finished over the winter of 1904–05. Shown at the Salon des Indépendants in the spring of 1905.', price: null },
+    { year: 'from 1905', who: 'Paul Signac', place: 'Paris / Saint-Tropez', note: 'Signac, the older master whose method the picture honors, bought it from Matisse around its 1905 debut. No purchase price is documented. (Popularly said to have hung it in his Saint-Tropez villa, La Hune; that detail is reported, not confirmed by the museum record.)', price: null },
+    { year: 'to mid-20th c.', who: 'Mme Cachin-Signac (Ginette Signac, Signac’s daughter)', place: 'France', note: 'The painting stayed in Signac’s family; the Centre Pompidou records the prior owner as the former collection of Mme Cachin-Signac, Signac’s daughter.', price: null },
+    { year: '1982', who: 'Centre Pompidou (Musée national d’art moderne)', place: 'Paris', note: 'Entered the French national collections by dation, the payment of inheritance tax with an artwork instead of cash, in 1982. Inv. AM 1982-96. No cash price.', price: 'dation (no cash price)', museum: true },
+    { year: '1985–today', who: 'Musée d’Orsay (on deposit from the Centre Pompidou)', place: 'Paris', note: 'Placed on long-term deposit at the Musée d’Orsay in 1985, a year before that museum opened, where it normally hangs as a cornerstone of the Neo-Impressionist and Fauve rooms. The Centre Pompidou remains the legal owner.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Henri Matisse', role: 'The painter · 34 that summer', palette: ['#3a6a8a', '#c8a04a', '#1c2a30'] },
+    { name: 'Paul Signac', role: 'Mentor · theorist of Divisionism · first owner', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+    { name: 'Henri-Edmond Cross', role: 'Neo-Impressionist who drew him south', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+    { name: 'Georges Seurat', role: 'Founder of the dot method, learned second-hand', palette: ['#3a6a4a', '#c8b84a', '#1c2a18'] },
+    { name: 'Charles Baudelaire', role: 'The poet whose refrain gave the title', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+  ],
+  annotations: [
+    { label: 'The bathers on the shore', where: 'Center and right foreground, the cluster of nude women on and around a spread cloth at the water’s edge', detail: 'The subject is a group of nude bathers relaxing on a Mediterranean beach, a timeless golden-age idyll rather than a real moment. The poses, toweling off, reclining, standing, descend from the long tradition of bathers in a landscape, and they owe most to a picture Matisse actually owned: Cézanne’s small Three Bathers, bought from the dealer Vollard in 1899 and kept for some thirty years as a touchstone. Matisse stages them as a pastoral fantasy, not a Saint-Tropez snapshot.' },
+    { label: 'The picnic spread', where: 'Lower center, the cloth laid on the sand with figures gathered around it', detail: 'A picnic on the shore, a teapot and food set out on a white cloth, turns the scene into a leisure ritual. Later scholars often read it as Matisse answering Manet’s Le Déjeuner sur l’herbe (1863) and the whole bather-picnic theme, though that is a critics’ reading rather than anything Matisse said, and a secondary one beside the Cézanne source.' },
+    { label: 'The divisionist marks (really dashes)', where: 'Everywhere across the surface, easiest to test in the sand and sky', detail: 'The whole picture is built from separate touches of unmixed color meant to blend in the eye rather than on the palette. But Matisse’s marks are short, blocky dashes, coarser than Seurat’s neat round dots. Stand back and they fuse into shimmering light; step close and the surface is a mosaic of distinct strokes.' },
+    { label: 'Arbitrary color creeping in', where: 'The figures’ skin (greens, blues and pinks no body is) and the heightened sand and water', detail: 'The color has already slipped its leash from description: the flesh carries green and blue, and the shore and sky run hotter and stranger than nature. This is the Fauvist impulse, color chosen for feeling rather than accuracy, already at work inside the orderly dot, the tendency that would soon burst the method even though this is not yet a settled Fauve picture.' },
+    { label: 'The Arcadian shore and the boat', where: 'The background, the bay, the distant sailboat, and the line of hills meeting the sky', detail: 'A calm bay with a single sailboat and a low line of hills sets the scene in an idealized, sun-struck nowhere, the calm and luxury of Baudelaire’s refrain turned into a place. The landscape is a generalized golden-age coast (an Arcadia, the ancient poets’ name for an imagined pastoral paradise), not a topographic view of Saint-Tropez.' },
+    { label: 'The painted touch on display', where: 'Compare a tightly stippled passage in the sky or water against the looser, larger strokes on the bodies', detail: 'Matisse varies the stroke, denser and smaller touches in the atmosphere, broader ones on the figures, so the method itself is on show. The unevenness reads as a young painter testing a borrowed system rather than a doctrinaire pointillist, which fits the fact that he would abandon it within months.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Neo-Impressionism', mode: 'art' }, { label: 'Cézanne, Three Bathers', mode: 'art' }, { label: 'A Sunday on La Grande Jatte', mode: 'art' }, { label: 'Baudelaire’s “L’Invitation au voyage”', mode: 'civ' } ],
+    children: [ { label: 'Fauvism', mode: 'art' }, { label: 'Le Bonheur de vivre', mode: 'art' }, { label: 'Arbitrary color', mode: 'art' } ],
+  },
+}
+
+// REGISTRY (coordinator splices into ART_WORK_CONTENT):
+//   luxe: LUXE,
+
+// ─────────────────────────────────────────────────────────────
+// Work, Open Window, Collioure (Matisse, summer 1905). The Fauvism work-read
+// that pairs with Woman with a Hat (the two Matisse lightning rods of the same
+// 1905 Salon d'Automne room). Authored through the art content pipeline.
+// Chapter prose in art-section-reader.tsx NARRATIVES['open-window'] (Win… prefix).
+// PORTRAIT-format canvas (55.3 × 46 cm → heroAspect ≈ 0.83), even though it shows
+// a harbor — do NOT default to landscape. heroImage = ART_IMG.matisseOpenWindow
+//   (born-verified Commons file Matisse-Open-Window.jpg; the 960px thumb the key
+//    already serves is the inline copy).
+// LEGENDS handled per fact pack: do NOT pin the naming of Fauvism on this canvas
+//   ("Donatello chez les fauves" was about the whole Salle VII / the Marque busts;
+//    the "cage with the wild beasts" backstory is Vauxcelles's 1939 retelling).
+//   The Stein 500-franc purchase belongs to Woman with a Hat, NOT this. No sale
+//   prices documented for this canvas (1906/1949/1952) — none invented. The
+//   granular named hues (peacock blue, fuchsia, etc.) are the ngabiographies.org
+//   highlight essay's reading, attributed, not asserted as canonical fact.
+// PROVENANCE: NGA chain begins with Galerie Druet, Paris (the artist's Paris
+//   dealer), THEN Pieter Van der Velde, Le Havre, 1906 — so Van der Velde is NOT
+//   the first owner. Do not call him that.
+// ─────────────────────────────────────────────────────────────
+export const OPEN_WINDOW: ArtWorkContent = {
+  id: 'open-window',
+  name: 'Open Window, Collioure',
+  shortName: 'Open Window, Collioure',
+  year: 1905,
+  artist: 'Henri Matisse',
+  artistId: 'matisse',
+  movement: 'Fauvism',
+  movementId: 'fauv',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '1 ft 9 3/4 in × 1 ft 6 1/8 in',
+  location: 'National Gallery of Art, Washington',
+  acquired: 'Collection of Mr. and Mrs. John Hay Whitney, 1998',
+  accent: ART_ACCENTS.rust, // copied from FAUVISM
+  chain: { name: 'Works of Fauvism', index: 4, total: 9 },
+  hook: 'A small canvas of a window thrown open onto a Mediterranean fishing harbor, painted in colors no harbor ever wore, from the summer that produced Fauvism.',
+  heroImage: ART_IMG.matisseOpenWindow,
+  heroCredit: 'Matisse, Open Window, Collioure, 1905 · National Gallery of Art, Washington',
+  heroAspect: 0.83, // 55.3 × 46 cm → W/H ≈ 0.83 (PORTRAIT — taller than wide)
+  heroFit: 'contain', // whole canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1905', k: 'Painted' },
+    { v: '1′9¾″ × 1′6⅛″', k: 'Dimensions' },
+    { v: 'NGA Washington', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'collioure', eyebrow: 'Collioure · summer 1905', dateLabel: 'Summer 1905', title: 'A fishing port and a younger painter', blurb: 'Matisse, 35, takes rooms over the harbor in a working anchovy-and-sardine port near the Spanish border. The younger André Derain joins him in early July, and the two paint side by side through the summer that produced Fauvism.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: 'Summer 1905', title: 'Color let off the leash', blurb: 'The view straight out of his window, with the color cut loose from describing the world and chosen for feeling instead. The single decision that defines Fauvism, made on a canvas under two feet tall.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1 ft 9¾ in × 1 ft 6⅛ in', title: 'A harbor framed in a window', blurb: 'Read the small portrait canvas itself: the open casement leaves swinging in, the flower pots shoving the harbor into depth, the masted boats over their own colored reflections, the flat side-walls, and the seam where inside dissolves into outside.', progress: 0.56 },
+    { id: 'salon', eyebrow: 'The Salon · 1905', dateLabel: 'Oct 1905', title: 'The cage of wild beasts', blurb: 'Shown at the rebel Salon d’Automne in the same room as Woman with a Hat, around a pair of prim marble busts. A critic’s printed line about that room hands a whole movement its name.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1906–today', title: 'The window that never closed', blurb: 'The open window became a subject Matisse returned to for the rest of his life. The canvas itself passed from a Paris dealer through a Le Havre collector and New York galleries to the Whitneys, and on to Washington by bequest in 1998.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1905', who: 'Henri Matisse (the artist)', place: 'Collioure / Paris', note: 'Painted at Collioure in the summer of 1905; shown at the Salon d’Automne in Paris that autumn.', price: null },
+    { year: 'by 1906', who: 'Galerie Druet', place: 'Paris', note: 'Handled by the Paris dealer Galerie Druet, the first owner in the National Gallery’s chain; the picture went to a private collector the following year. (The Gallery’s record gives Druet no acquisition date, so none is stated here.)', price: null },
+    { year: '1906', who: 'Pieter Van der Velde', place: 'Le Havre', note: 'Acquired by the Le Havre collector Van der Velde (1848–1922) in 1906. It did not pass straight from the artist into a museum; it went from the artist’s Paris dealer to this private collector.', price: null },
+    { year: '1915–1918', who: 'General Réquin', place: 'Paris', note: 'Probably given to Van der Velde’s son-in-law, General Réquin, between 1915 and 1918 (the National Gallery’s own record hedges the gift as “probably”).', price: null },
+    { year: '1949', who: 'A private collection', place: 'Paris', note: 'Entered a Paris private collection by 1949.', price: null },
+    { year: '1952', who: 'Carstairs Gallery & Sidney Janis Gallery', place: 'New York', note: 'Bought jointly by the two New York dealers in 1952.', price: null },
+    { year: '1952–1998', who: 'Mr. and Mrs. John Hay Whitney', place: 'New York', note: 'Sold by the dealers to the Whitneys on 6 August 1952. John Hay Whitney (1904–1982) and his wife Betsey Cushing Whitney (1908–1998) held it for nearly half a century.', price: null },
+    { year: '1998–today', who: 'National Gallery of Art', place: 'Washington, D.C.', note: 'Bequest of the estate of Mrs. John Hay Whitney, 1998. Accession 1998.74.7. Collection of Mr. and Mrs. John Hay Whitney. On view.', price: 'bequest to the museum', museum: true },
+  ],
+  figures: [
+    { name: 'Henri Matisse', role: 'The painter', palette: ['#4a7a4a', '#8a4a2a', '#15110c'] },
+    { name: 'André Derain', role: 'Painted beside him at Collioure', palette: ['#bf6a2a', '#3a5a7a', '#140e0a'] },
+    { name: 'Louis Vauxcelles', role: 'The critic who named the wild beasts', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+    { name: 'John Hay Whitney', role: 'Owner, 1952–1998', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Betsey Cushing Whitney', role: 'Her 1998 bequest brought it to Washington', palette: ['#6a5a3a', '#332820', '#0e0a06'] },
+  ],
+  annotations: [
+    { label: 'The boats over their own reflections', where: 'Center, the middle band, out on the water beyond the balcony rail', detail: 'Small masted sailing boats ride the harbor, their masts a rust orange-red, their hulls picked out in blue, pink, green and orange, each one sitting over its own smear of colored reflection on the water. They are the one clearly readable “real subject” of the whole view: everything around them loosens toward pure pattern, but the boats stay boats. They are also the literal trade of the town: Collioure in 1905 was a working anchovy-and-sardine port with a fleet of more than a hundred boats, and these are that fishing fleet. If you want to prove to yourself that this is a window onto an actual working harbor and not an abstraction, the boats are where you look.' },
+    { label: 'The flower pots on the balcony', where: 'Lower center, on the floor of the shallow balcony just inside the window opening', detail: 'A little cluster of potted plants sits on the balcony floor, the pots themselves dabbed in red, orange and blue. They are a near foreground, the closest thing in the picture to where you’re standing, and they do quiet structural work: by sitting right under your eye they shove the harbor back and turn the middle of the canvas into deep space. A small domestic detail, a few pots on a sill, holding open the whole distance to the sea.' },
+    { label: 'The open casement window', where: 'The two tall leaves swinging in from the left and right edges, with their cross-bars and small panes', detail: 'A large French window stands open, its two casement leaves swung inward toward you from either edge, carrying scribbled dabs of green that read as climbing vines down their sides. This window frame is the literal skeleton of the picture: the wall holds the window, the window frames the middle ground, the balcony crops the harbor, the harbor runs out to the horizon. It is a structure of frames within frames, and the casement is the frame you look through first.' },
+    { label: 'The flat pink and green side-walls', where: 'The flat vertical bands at the far left and far right edges, the interior wall to one side, the window-leaf to the other', detail: 'Down each edge of the canvas runs a flat slab of color, the interior wall on one side and the open leaf on the other, laid in as broad unbroken planes (the National Gallery–affiliated reading names them peacock blue and fuchsia pink). These calm side-bands frame the busy center, and the point to take from them is that the color is invented: this is not the actual paint of an actual room, it is whatever hue Matisse decided the picture needed there.' },
+    { label: 'The patchwork of pure, unmixed color', where: 'Across the whole canvas, comparing the broken dashes of sky and water to the flat slabs of the walls and the scribbled dabs of the vines', detail: 'Every zone of the picture is built from a different mark: flat planes for the interior, short broken dashes (the divided touch Matisse borrowed from the dot painters) for the sky and water, quick scribbled strokes for the foliage. The colors go down pure and unmixed, set in complementary pairs that make each other ring, orange against blue in the masts and hulls, red against green in the blossoms and leaves. The whole surface is a patchwork of separate, deliberate, non-naturalistic touches.' },
+    { label: 'The dissolved line between inside and outside', where: 'The seam where the balcony rail and window opening meet the water, the middle of the canvas', detail: 'There is no firm line where the room stops and the harbor begins. The same pinks and greens run from the interior wall, across the sill and the vines, and straight out onto the water and the sky, so inside and outside fuse into one continuous field of color. That collapse of the threshold is the picture’s core move: the window is wide open, and the painting refuses to treat the view through it as a separate, distant thing.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Post-Impressionism', mode: 'art' }, { label: 'Pointillism', mode: 'art' }, { label: 'The summer at Collioure', mode: 'civ' } ],
+    children: [ { label: 'Fauvism', mode: 'art' }, { label: 'Matisse’s window pictures', mode: 'art' }, { label: 'Modern color painting', mode: 'art' } ],
+  },
+}
+
+// REGISTRY (coordinator splices into ART_WORK_CONTENT):
+//   open-window: OPEN_WINDOW,
+
+// ─────────────────────────────────────────────────────────────
+// Work, Blue Nude (Souvenir de Biskra) (Matisse, 1907). Late-Fauve
+// proto-primitivist nude. The Baltimore Museum of Art (The Cone Collection).
+// Authored through the art content pipeline (fact pack → Opus → 5 gates →
+// revise). Chapter prose in art-section-reader.tsx NARRATIVES['blue-nude']
+// (Blu… prefix). FACTS handled per fact pack: it began as a CLAY SCULPTURE
+// that broke, then was worked out in oil (mechanism of the break DISPUTED →
+// "the clay broke," not a cinematic crash); the bronze Reclining Nude I
+// (Aurore) was finished later from the same pose. The 1913 Armory anecdote is
+// written PRECISELY: Art Institute of Chicago students burned CHEAP COPIES /
+// reproductions of three Matisse works (incl. this one) and staged a mock
+// trial of "Henri Hairmattress" on April 16, 1913 (the show's last day in
+// Chicago); the attempt to burn Matisse himself IN EFFIGY was reportedly
+// stopped, and the ORIGINAL CANVAS was never harmed (it later entered the Cone
+// Collection). The Steins, NOT Quinn, owned it in 1913 and lent it to the
+// Armory Show (Quinn bought it in 1920). Vauxcelles' "ugly … blue grass …
+// palm trees" line is PARAPHRASED, not quoted, per the fact pack (wording not
+// letter-for-letter confirmable; it ran in Gil Blas, 20 Mar 1907). The
+// indigo-dyers-stained-blue → blue-body link is framed as "some read," not
+// asserted; the body's blue is shadow/modeling. The ORIENTALIST reading (a
+// colonized place packaged as an available female souvenir) is stated plainly
+// in chapter 1, attributed as a contested scholarly reading.
+// ─────────────────────────────────────────────────────────────
+export const BLUE_NUDE: ArtWorkContent = {
+  id: 'blue-nude',
+  name: 'Blue Nude (Souvenir de Biskra)',
+  shortName: 'Blue Nude',
+  year: 1907,
+  artist: 'Henri Matisse',
+  artistId: 'matisse',
+  movement: 'Fauvism',
+  movementId: 'fauv',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '3 ft 1/4 in × 4 ft 7 1/4 in',
+  location: 'The Baltimore Museum of Art',
+  acquired: 'The Cone Collection, Baltimore Museum of Art (bequest of Etta Cone, 1950; acc. 1950.228)',
+  accent: ART_ACCENTS.rust, // copied from FAUVISM
+  chain: { name: 'Works of Fauvism', index: 9, total: 9 },
+  hook: 'A reclining nude Matisse painted only because the clay sculpture of her broke in his studio, sent to the 1907 Salon so ugly on purpose that six years later a Chicago crowd burned copies of it and put the painter on mock trial.',
+  heroImage: ART_IMG.matisseBlueNude,
+  heroCredit: 'Matisse, Blue Nude (Souvenir de Biskra), 1907 · The Baltimore Museum of Art (The Cone Collection)',
+  heroAspect: 1.52, // 92.1 × 140.3 cm → W/H ≈ 1.52 (landscape)
+  heroFit: 'contain', // the whole landscape canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1907', k: 'Painted' },
+    { v: '3′¼″ × 4′7¼″', k: 'Dimensions' },
+    { v: 'Baltimore (BMA)', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'biskra', eyebrow: 'Algeria · 1906', dateLabel: 'Spring 1906', title: 'The two weeks in the oasis', blurb: 'Matisse spends about two weeks in French Algeria, including the desert oasis town of Biskra. He paints nothing major there. A year later, back in France, he makes a picture out of the memory and calls it a souvenir.', progress: 0.08 },
+    { id: 'sculpture', eyebrow: 'The studio · 1906–07', dateLabel: '1906–07', title: 'The sculpture that broke into a painting', blurb: 'He was modeling a small reclining figure in clay when the fragile thing broke. Rather than repair it at once, he worked the same twisted pose out in oil. Blue Nude is that painting, a sculptor’s problem solved in paint.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '3 ft ¼ in × 4 ft 7¼ in', title: 'A body modeled in blue', blurb: 'Read the painting itself: the wrenched reclining pose that shows front and back at once, the blue that is shadow and not skin, the heavy dark contour, the swelling hip, the remembered palm and the band of blue grass.', progress: 0.56 },
+    { id: 'salon', eyebrow: 'Paris · spring 1907', dateLabel: 'March 1907', title: 'The ugliest thing at the Indépendants', blurb: 'Shown at the Salon des Indépendants, the picture is read as gratuitously ugly, savage, unfinished. The critic who had coined “Fauves” sneers at the nude on its blue grass under palm trees. The scandal is the point.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1907–today', title: 'Burned in copy, bought by a sister', blurb: 'The Steins buy it and lend it to the 1913 Armory Show, where Chicago students burn copies and try the painter in absentia. It passes to Quinn, then to the Baltimore sisters Claribel and Etta Cone, and the original survives, unharmed, at the BMA.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1907', who: 'Henri Matisse (the artist)', place: 'Paris', note: 'Painted in early 1907 and shown that spring at the Salon des Indépendants, where the public read it as gratuitously ugly. Sold soon after to the Steins.', price: null },
+    { year: '1907–1920', who: 'Leo & Gertrude Stein', place: 'Paris (27 rue de Fleurus)', note: 'The American expatriate siblings, Matisse’s earliest serious patrons, bought it not long after the Salon. They still owned it in 1913 and lent it to the Armory Show, which is why older accounts correctly call it “on loan from Leo and Gertrude Stein.”', price: 'acquired early, direct' },
+    { year: '1920–1924', who: 'John Quinn', place: 'New York', note: 'Leo Stein sold it to the New York lawyer John Quinn in 1920. Quinn had been the single most important American backer of the 1913 Armory Show.', price: null },
+    { year: '1924–1926', who: 'Estate of John Quinn', place: 'New York / Paris', note: 'Quinn died in 1924 and his vast modern collection was dispersed.', price: null },
+    { year: '1926', who: 'Quinn estate sale (Hôtel Drouot, Paris) → Dr. Claribel Cone', place: 'Paris → Baltimore', note: 'At the Quinn sale in Paris on 28 October 1926, the Baltimore collector Dr. Claribel Cone bought it for a reported 120,760 francs (about $4,830). (Price reported via secondary sources; kept attributed.)', price: '~120,760 francs (≈ $4,830, reported)' },
+    { year: '1929–1949', who: 'Etta Cone', place: 'Baltimore', note: 'Claribel died in 1929; her holdings passed to her sister Etta, who consolidated the Cone Collection of Baltimore.', price: 'inherited' },
+    { year: '1950–today', who: 'The Baltimore Museum of Art', place: 'Baltimore', note: 'Bequeathed by Etta Cone (d. 1949) and accessioned in 1950 as part of The Cone Collection. Acc. 1950.228. On view, in one of the world’s largest Matisse holdings.', price: 'bequest', museum: true },
+  ],
+  figures: [
+    { name: 'Henri Matisse', role: 'The painter', palette: ['#4a7a4a', '#3a5a8a', '#15110c'] },
+    { name: 'Leo & Gertrude Stein', role: 'First owners · lent it to the 1913 Armory Show', palette: ['#6a5a3a', '#332820', '#0e0a06'] },
+    { name: 'John Quinn', role: 'New York lawyer · owned it 1920–24', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Dr. Claribel Cone', role: 'Bought it at the 1926 Quinn sale', palette: ['#7a3a52', '#3a2630', '#140e10'] },
+    { name: 'Etta Cone', role: 'Sister · bequeathed the collection to Baltimore', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Pablo Picasso', role: 'The 1907 rival, toward the Demoiselles', palette: ['#bf6a2f', '#5a2c12', '#1a0e06'] },
+  ],
+  annotations: [
+    { label: 'The twisted, impossible pose', where: 'The whole reclining figure, head at upper left, legs at right', detail: 'She lies on her side, but her torso wrenches up and around toward us while her hips stay turned away, so you read the front and the back of one body at the same time. One arm bends up behind the head; the spine makes a long S-curve. This is a sculptor’s pose, not a life-class one, the same twist Matisse was modeling in clay, which is why it feels carved into the canvas rather than observed across a studio.' },
+    { label: 'Blue shadow doing the modeling', where: 'Along the underside of the torso, the far breast, the crook of the bent arm, the hollows of the body', detail: 'The “blue” of the title is not her skin; it is the shadow. Matisse pushes passages of blue into the hollows and undersides of the body the way a sculptor pushes shadow into clay with a thumb, so a flat painting reads as something with weight and volume. The same blue bleeds out of the body and into the grass, which ties the figure and the ground into one surface instead of a figure set in front of a background.' },
+    { label: 'The remembered palm and the oasis', where: 'Upper right and behind the figure, the fronded plant and the band of “grass”', detail: 'A stylized palm and a strip of vegetation set her in an oasis, the Biskra of the title, remembered rather than observed. The ground she lies on is the “opaque blue grass” the hostile critics fixed on. It is not a window onto a real desert; it is a flat band of color, a memory of a place stitched in behind a studio nude.' },
+    { label: 'The swelling hip and the heavy contour', where: 'Center of the canvas, the great upward curve of the hip and buttock, and the dark line around the whole body', detail: 'The hip swells up to the highest point of the whole composition, and a thick, deliberate dark contour rings the figure like a drawn outline. Academic “finish,” the smooth invisible blending of a Salon nude, is simply gone. Look how the curve of the buttock is echoed by the hollow under the palm fronds: body and plant rhyme with each other, the picture built on repeated shapes.' },
+    { label: 'The bulked, simplified body and its sources', where: 'The whole mass of the figure, the broad shoulders, the blunt simplified features, the weightiness', detail: 'The body is broadened and simplified into mass over grace, closer to a carved idol than to a graceful Salon nude. This is the moment Matisse and his circle (Picasso, Derain, Vlaminck) were looking hard at African and other non-European sculpture arriving in Paris through colonial channels, their makers unnamed, a turn art historians call primitivism. Scholars split on what Matisse meant by it, whether he is critiquing or reinforcing Western ideals of the nude in the colony, and that reading is a live argument, not a settled fact.' },
+    { label: 'Color that recurs across body and plant', where: 'Everywhere, the skin, the plants, the lips and nipples', detail: 'The paint is laid on visibly and roughly, and the colors repeat across the whole surface: red turns up in the palm stem and again in the lips and nipples, pink in both the figure and the base of the palm, blue in both the body’s shadows and the grass. Nothing pretends to be a faithful copy of nature. It is a built surface of a few colors thrown back and forth between the woman and the oasis until the two are made of the same paint.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Cézanne’s bathers', mode: 'art' },
+      { label: 'African & non-European sculpture', mode: 'civ' },
+      { label: 'Ingres’ odalisques', mode: 'art' },
+    ],
+    children: [
+      { label: 'Les Demoiselles d’Avignon', mode: 'art' },
+      { label: 'Cubism', mode: 'art' },
+      { label: 'The modern primitivist nude', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, The Seine at Chatou (Vlaminck, 1906). A Fauvism work read.
+// The Metropolitan Museum of Art, Jacques and Natasha Gelman Collection,
+// 1998 (acc. 1999.363.84). NOT the Whitney gift, NOT one of the other
+// near-named Chatou canvases. Authored through the art content pipeline
+// (fact pack → Opus → 5 gates → revise). Chapter prose in
+// art-section-reader.tsx NARRATIVES['chatou'] (Cha… prefix).
+// LEGENDS: the "burn down the École des Beaux-Arts with my cobalts and
+// vermilions" line and the "loved van Gogh better than my own father" line
+// are FRAMED as reported boasts, never quoted-and-dated.
+// Provenance MINIMAL: only Gelman→Met is confirmed; Vollard is NOT asserted
+// as an owner of this canvas (the Vollard studio-buyout lives only in the
+// afterlife prose, as commercial backdrop).
+// RIGHTS: rights:'pd-us' (adjudicated). Published 1906 → US public domain;
+// the app already inlines this image. The Met records the object as in
+// copyright (© ARS, the EU life+70 term to 2029) — a reproduction/EU-term
+// status, not US copyright; US display tier = pd-us.
+// ─────────────────────────────────────────────────────────────
+export const CHATOU: ArtWorkContent = {
+  id: 'chatou',
+  name: 'The Seine at Chatou',
+  shortName: 'The Seine at Chatou',
+  year: 1906,
+  artist: 'Maurice de Vlaminck',
+  artistId: 'vlaminck',
+  movement: 'Fauvism',
+  movementId: 'fauv',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 8 1/8 in × 3 ft 3 3/4 in',
+  location: 'The Metropolitan Museum of Art, New York',
+  acquired: 'Jacques and Natasha Gelman Collection, 1998',
+  accent: ART_ACCENTS.rust, // copied from FAUVISM
+  chain: { name: 'Works of Fauvism', index: 5, total: 9 },
+  hook: 'A self-taught ex-bicycle-racer squeezing cobalt and vermilion straight from the tube onto a quiet bend of the Seine outside Paris, turning a Sunday-painters’ river town into the highest-pitched landscape of the Fauve year.',
+  heroImage: ART_IMG.vlaminckChatou,
+  heroCredit: 'Vlaminck, The Seine at Chatou, 1906 · The Metropolitan Museum of Art, New York',
+  heroAspect: 1.24, // 81.6 × 101 cm → W/H ≈ 1.238
+  heroFit: 'contain', // the whole canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1906', k: 'Painted' },
+    { v: '2′8⅛″ × 3′3¾″', k: 'Dimensions' },
+    { v: 'The Met', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'chatou-town', eyebrow: 'Chatou · 1906', dateLabel: 'Summer 1906', title: 'A river town just outside Paris', blurb: 'Chatou sits on the Seine about nine miles west of central Paris, a Sunday-leisure spot the Impressionists had painted a generation earlier. Vlaminck lived nearby and spent the summer of 1906 painting its tugboats, sailboats, and riverbank houses.', progress: 0.08 },
+    { id: 'tube-color', eyebrow: 'The making', dateLabel: '1906', title: 'Color straight from the tube', blurb: 'A self-taught ex-bicycle-racer and bandstand violinist who shunned the academy, Vlaminck applied his pigment, by the Met’s own account, directly from the tube in daubs and swirls, with the expressive touch he took from the van Gogh he had seen in 1901.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 8 1/8 in × 3 ft 3 3/4 in', title: 'Reddish-orange trees and a river of broken color', blurb: 'Reddish-orange tree trunks up the left bank, white houses on the far shore, a blue-red-and-white boat on the water, and a river built from the same broken coloured strokes as the bank, all laid on near full strength.', progress: 0.56 },
+    { id: 'school-of-chatou', eyebrow: 'The two-man school', dateLabel: '1900–1906', title: 'Vlaminck and Derain on the riverbank', blurb: 'Met after a train accident in 1900, sharing a studio at Chatou, the two are remembered as the informal “School of Chatou,” a precursor to Fauvism, both in the 1905 room where the critic Louis Vauxcelles named the wild beasts.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1906–today', title: 'The high key, then the turn against modern art', blurb: 'The Fauve years were Vlaminck’s peak; within a year or two his palette darkened toward Cézanne, and decades later he turned openly hostile to Cubism and Picasso. The canvas reached the Met in 1998 with the Gelman Collection.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1906', who: 'Maurice de Vlaminck (the artist)', place: 'Chatou / Paris', note: 'Painted in 1906, during the summer Vlaminck spent working in and around Chatou.', price: null },
+    { year: '…', who: 'Earlier owners (not documented here)', place: '—', note: 'The full owner-by-owner chain between the artist and the Gelmans is not established in the source record and is deliberately left blank rather than invented.', price: null },
+    { year: 'by 1998', who: 'Jacques and Natasha Gelman', place: 'Mexico City / New York', note: 'The film producer Jacques Gelman and his wife Natasha assembled a major collection of European modern art in the mid-20th century. The canvas was part of the Gelman holdings that came to the Met.', price: null },
+    { year: '1998–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Entered the Met as the Jacques and Natasha Gelman Collection, 1998 (accession 1999.363.84).', price: 'collection gift', museum: true },
+  ],
+  figures: [
+    { name: 'Maurice de Vlaminck', role: 'The painter', palette: ['#bf2f25', '#1d4ed8', '#1c1c14'] },
+    { name: 'André Derain', role: 'The other half of the School of Chatou', palette: ['#d06a2a', '#3a8a6a', '#15110a'] },
+    { name: 'Vincent van Gogh', role: 'The decisive influence (1901 retrospective)', palette: ['#2a3a6a', '#c8b84a', '#0e1428'] },
+    { name: 'Louis Vauxcelles', role: 'Critic who named the “fauves”', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Jacques & Natasha Gelman', role: 'Collectors; their gift to the Met', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  annotations: [
+    { label: 'The reddish-orange tree trunks', where: 'Rising up the near bank along the left edge of the canvas', detail: 'The tree trunks are a frank reddish-orange, a colour no tree wears, chosen for force rather than accuracy. This is the cleanest single proof on the canvas that Vlaminck is using colour as a feeling, not a fact. The Met names the “reddish-orange tree trunks” outright in its own description of this picture, so it is documented, not interpretation.' },
+    { label: 'Paint laid straight from the tube', where: 'Across the whole surface, thickest on the bank and the foliage', detail: 'The paint sits in thick, separate touches, what the Met calls “daubs and swirls of pigment,” squeezed on, by its account, directly from the tube. That is impasto, paint heaped so high the brush leaves standing ridges you can read as texture. It is the van-Gogh-style touch: each stroke stays visibly itself instead of blending into its neighbours, so the surface reads as built rather than smoothed.' },
+    { label: 'The boats, a tugboat and sailboats', where: 'Out on the water, the larger dark vessel to the right, a yellow rowboat in the near foreground at lower left', detail: 'Out on the Seine sits a remorqueur (the French word for a tugboat) along with sailboats. The Met singles out a small boat in the background painted in blue, red, and white. These are working river craft on a real commercial river, not pleasure boats dressed up for a picture.' },
+    { label: 'A river of broken colour, not a mirror', where: 'The Seine’s surface, opening across the centre of the canvas below the boats and bank', detail: 'The water is built from the same short, separate, coloured strokes as the riverbank, so the reflections read as bands of pure colour rather than a smooth mirror. There is no glassy surface here; the river is as worked and as visibly brushed as the land, which keeps the whole picture sitting on one flat, active plane.' },
+    { label: 'The high-key sky', where: 'The upper register, above the trees and the far-bank houses', detail: 'The sky is kept light and bright, the “high key” of Fauve painting, meaning colours held near full intensity instead of being darkened or greyed down to imitate distance and air. Nothing in the upper register recedes into a soft haze; the top of the canvas stays as charged as the bottom.' },
+    { label: 'White houses and green leaves at full strength', where: 'The cluster of houses on the far bank and the foliage around them', detail: 'The white riverbank houses and the green leaves are the places the Met points to where ordinary local colour is laid on raw and bright. Vlaminck combined the primaries of blue and red with white, the Met writes, using these conventional hues for the white houses, the green leaves, the reddish-orange trunks, and the boat. The whole canvas is a demonstration of pigment used at near-full saturation, a quiet river town painted at the top of its voice.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Vincent van Gogh', mode: 'art' },
+      { label: 'The School of Chatou', mode: 'art' },
+      { label: 'Pure tube color', mode: 'art' },
+    ],
+    children: [
+      { label: 'Fauvism', mode: 'art' },
+      { label: 'Expressionism', mode: 'art' },
+      { label: 'Color cut loose from description', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Charing Cross Bridge, London (Derain, 1906). The Fauve "answer to
+// Monet": same Thames, non-natural color. National Gallery of Art, Washington
+// (John Hay Whitney Collection, acc. 1982.76.3) — NOT MoMA's Charing Cross
+// Bridge and NOT MoMA's London Bridge. Authored through the art content
+// pipeline (fact pack → Opus → 5 gates → revise). Chapter prose in
+// art-section-reader.tsx NARRATIVES['charing-cross'] (Crx… prefix).
+// HEDGES handled per fact pack: series = "dozens commissioned, ~30 delivered"
+// (never a hard number); trips hedged; the "translate not reproduce" aim is
+// PARAPHRASED, never quoted (no dated primary cite). The spanned bridge is the
+// Charing Cross / Hungerford railway bridge; Westminster/Big Ben sit on the far
+// bank, never the span itself. Afterlife now closes Derain's BRIEF Fauve arc
+// (broke w/ Fauvism ~1908 → Cézanne → post-WWI "return to order" classicism).
+// ─────────────────────────────────────────────────────────────
+export const CHARING_CROSS: ArtWorkContent = {
+  id: 'charing-cross',
+  name: 'Charing Cross Bridge, London',
+  shortName: 'Charing Cross Bridge',
+  year: 1906,
+  artist: 'André Derain',
+  artistId: 'derain',
+  movement: 'Fauvism',
+  movementId: 'fauv',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 7 5/8 in × 3 ft 3 1/2 in',
+  location: 'National Gallery of Art, Washington',
+  acquired: 'John Hay Whitney Collection, 1982 (accession 1982.76.3)',
+  accent: ART_ACCENTS.rust, // copied from FAUVISM
+  chain: { name: 'Works of Fauvism', index: 7, total: 9 },
+  hook: 'A London the eye never saw, the Thames running pink and the sky burning butter-yellow, painted by a 26-year-old whom a dealer had shipped to England on purpose to beat Monet at his own river.',
+  heroImage: ART_IMG.derainCharingCross,
+  heroCredit: 'Derain, Charing Cross Bridge, London, 1906 · National Gallery of Art, Washington (John Hay Whitney Collection)',
+  heroAspect: 1.25, // 100.3 × 80.3 cm → W/H ≈ 1.25
+  heroFit: 'contain', // whole canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1906', k: 'Painted' },
+    { v: '2′7⅝″ × 3′3½″', k: 'Dimensions' },
+    { v: 'NGA, Washington', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'assignment', eyebrow: 'Paris · 1906', dateLabel: '1906', title: 'A dealer sends him to beat Monet', blurb: 'The Paris dealer Ambroise Vollard ships a 26-year-old young wild-color (Fauve) painter to London on purpose, to paint a Thames series that can rival the Monet London paintings everyone in Paris had just gone mad for.', progress: 0.08 },
+    { id: 'subject', eyebrow: 'The Thames', dateLabel: '1906', title: 'Monet’s river, Derain’s vantage', blurb: 'The same stretch of the Thames Monet had painted: the railway bridge, the barges, the far bank bending toward Westminster, with Big Ben in the distance. Same motif, opposite method.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 7⅝ in × 3 ft 3½ in', title: 'A river that exists only in paint', blurb: 'Read the painting itself: the flattened bridge band, the pink-and-yellow Thames laid in dots and dashes over bare canvas, the butter-yellow sky, the dark barges, and Big Ben glowing on the far bank.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1905–06', title: 'Monet painted the air; Derain painted the feeling', blurb: 'Fauvism’s wager on Monet’s own subject: where the Impressionist dissolved London in fog and the moment of light, Derain threw down arbitrary, unblended color meant to stir feeling, not record weather.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1906–today', title: 'Vollard’s bet, and where it landed', blurb: 'Vollard bought the London series and the canvases scattered into the trade over decades, through Quinn, Knoedler and Chrysler, until John Hay Whitney bought this one in 1950 and gave it, through his trust, to Washington in 1982, long after Derain himself had walked away from the wild-color style that made it.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1906', who: 'André Derain (the artist) → Ambroise Vollard (dealer)', place: 'Paris', note: 'From the artist to the Paris dealer Ambroise Vollard in 1906, as part of the London series Vollard had commissioned and effectively bought up entire. No public sale price.', price: null },
+    { year: '1918', who: 'John Quinn', place: 'New York', note: 'Sold in December 1918 through Walter Pach and the Carroll Galleries, New York, to the American collector John Quinn.', price: null },
+    { year: 'after Quinn', who: 'Paul Guillaume (probably)', place: 'Paris', note: 'From Quinn’s estate, probably acquired by the Paris dealer Paul Guillaume. (The “probably” is the museum’s own hedge.)', price: null },
+    { year: '1927–1932', who: 'Alex. Reid & Lefèvre · Galerie Étienne Bignou · G. Keller for M. Knoedler & Co.', place: 'London / Paris', note: 'Through the trade: sold by Alex. Reid & Lefèvre in 1927, by Galerie Étienne Bignou in 1931, and in 1932 to G. Keller in Paris for the New York firm M. Knoedler and Co.', price: null },
+    { year: '1932–Feb 1950', who: 'Mme. Kaethe Perls, then Walter P. Chrysler, Jr. (possibly)', place: 'Paris / New York', note: 'Acquired by Mme. Kaethe Perls in Paris between 1932 and 1938, then possibly sold to Walter P. Chrysler, Jr., who owned it by 1939. (The “possibly” is the museum’s own hedge.) Sold at the Chrysler sale, Parke-Bernet Galleries, 16 February 1950, then held by the dealer Julius H. Weitzner.', price: null },
+    { year: '1950', who: 'John Hay Whitney', place: 'New York', note: 'Sold on 12 April 1950 to the collector John Hay Whitney.', price: null },
+    { year: '1982–today', who: 'National Gallery of Art', place: 'Washington', note: 'Deeded in 1982 to the John Hay Whitney Charitable Trust and given the same year to the National Gallery of Art. Credit line: John Hay Whitney Collection, accession 1982.76.3. On view.', price: 'gift to the museum', museum: true },
+  ],
+  figures: [
+    { name: 'André Derain', role: 'The painter', palette: ['#c87a2a', '#7a3a52', '#1c140a'] },
+    { name: 'Ambroise Vollard', role: 'Dealer; sent him to London', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'Claude Monet', role: 'The benchmark, not a participant', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+    { name: 'Henri Matisse', role: 'Fellow Fauve', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'] },
+    { name: 'John Hay Whitney', role: 'Collector; gave it to the NGA', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+  ],
+  annotations: [
+    { label: 'The bridge that names the painting', where: 'The long horizontal band crossing the middle of the canvas, river below, far bank beyond', detail: 'The structure spanning the river is the Charing Cross / Hungerford railway bridge, the painting’s namesake (which is why the picture is also catalogued as “Hungerford Bridge at Charing Cross”). Derain draws it not as modeled iron but as a flattened band laid across the canvas, the architecture asserted rather than described. Note what it is NOT: this is the railway bridge, not Westminster Bridge, and the building you can pick out beyond it is on the far bank, a separate thing entirely.' },
+    { label: 'A river with no blue in it', where: 'The broad lower band of water beneath the bridge', detail: 'The Thames is built from short broken horizontal strokes and separate dots, mostly bumblebee yellow shot through with bubblegum pink and pale burnt-orange, much of it laid straight over bare off-white canvas. There is no blue and no gray anywhere in the water. This is the single fact that tells you what kind of painting you are in: a river that exists only in paint, not a river anyone ever looked at and saw.' },
+    { label: 'A sky that replaced the weather', where: 'The whole upper band, above the far bank', detail: 'London’s famous gray is gone outright. The sky is built from short and long vertical strokes of butter yellow, rose pink, pale orange, and patches of watermelon pink, a warm glow stretched across the top of the picture. It is the clearest sign that this is sensation set down, not weather recorded. Hold this against Monet’s London, where the whole subject is the fog and the changing light; here there is no fog and no hour of the day, only color.' },
+    { label: 'The dark barges that fix the scale', where: 'On the water, in the mid- and foreground', detail: 'Small river craft and barges sit on the colored water (the museum tags the picture “Boats”). They read as dark accents against the pink-and-yellow river, and they do quiet work: they give the bridge its size and tell you this glowing field is a working Thames, a real river of commerce, not an abstract pattern. They are the human, ordinary note inside the unnatural color.' },
+    { label: 'Big Ben, the one thing that says “London”', where: 'The far bank, behind and beyond the bridge', detail: 'The riverfront bends away toward Westminster, and among the massed buildings on the far bank you can pick out Big Ben and the Houses of Parliament. They are the single anchor that tells you this is London at all, and Derain paints them glowing orange and turquoise rather than stone-gray. Everything else is color set free; this one landmark is the leash that keeps the picture tied to a real place.' },
+    { label: 'Two touches at once: the dot and the patch', where: 'Compare the broken, dotted water and sky against the broader flat color areas', detail: 'Derain mixes two ways of laying down paint. In the water and sky he uses separate spots and lines of pure color, a loosened version of the Neo-Impressionist “divisionism” of Seurat and Signac (small dots of unmixed color meant to blend in the viewer’s eye). Elsewhere he drops that for flatter, broader Fauve patches. In his hands the strict divisionist dot relaxes into intermittent spots and dashes, so the surface flickers between two methods, structure and shimmer at the same time.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Monet’s London series', mode: 'art' },
+      { label: 'Seurat & Signac’s divisionism', mode: 'art' },
+      { label: 'Van Gogh’s charged color', mode: 'art' },
+    ],
+    children: [
+      { label: 'German Expressionism', mode: 'art' },
+      { label: 'Color as pure feeling', mode: 'art' },
+      { label: 'The dealer-made series', mode: 'civ' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
