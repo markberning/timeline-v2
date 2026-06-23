@@ -7570,7 +7570,689 @@ function RueAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
 // REGISTRY (coordinator splices into NARRATIVES):
 //  'rue-pavoisee': { 'le-havre': RueLeHavre, making: RueMaking, looking: RueLooking, break: RueBreak, afterlife: RueAfterlife },
 
+// ─────────────────────────────────────────────────────────────
+// The City Rises (Boccioni, 1910) — the five sections
+// ─────────────────────────────────────────────────────────────
+function CtyManifestos({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Milan · 1909" title="A movement that announced itself before it could paint" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        uturism is the rare art movement that arrived as a press release. On <strong>20 February 1909</strong>, the front page of the Paris newspaper <em>Le Figaro</em> carried a furious, ecstatic text by an Italian poet named <strong>Filippo Tommaso Marinetti</strong> (1876&ndash;1944), the <em>Manifesto of Futurism</em>. It declared that a racing automobile was more beautiful than an ancient Greek statue, that museums were graveyards, and that the only fit subjects for art were speed, machines, and the modern city. (One detail worth getting right, because popular accounts garble it: that famous <em>Le Figaro</em> front page was not the manifesto&rsquo;s first appearance. It had already run in Italian printings in January and February of 1909. The Paris splash is the version everyone remembers, but it was the loud second act, not the debut.)
+      </p>
+      <p style={proseStyle}>
+        It also said uglier things, and they are not incidental to it. The same manifesto glorified war as <em>&ldquo;the world&rsquo;s only hygiene,&rdquo;</em> cheered militarism and violence and &ldquo;the destructive gesture,&rdquo; and listed, flatly, among its principles, <em>&ldquo;scorn for woman.&rdquo;</em> Futurism was an exhilarating idea about painting and a nasty politics in the same breath, and you cannot really take the first without reading the second on the page right next to it. Hold both as we go.
+      </p>
+      <p style={proseStyle}>
+        Here is what made it strange as a launch. <strong>Marinetti was a poet, not a painter.</strong> He launched a movement of painting (and, eventually, sculpture, music, architecture, and cooking) without, as yet, a single Futurist painting in the world. The manifesto was pure ambition with no canvases under it. So Marinetti did the next thing an impresario does: he went and recruited the painters who would have to make the words true.
+      </p>
+
+      <SectionHeader accent={accent} label="February–April 1910" title="The painters sign, twice" />
+      <p style={proseStyle}>
+        The man who answered most seriously was <strong>Umberto Boccioni</strong> (1882&ndash;1916), a young painter trained in Rome under <strong>Giacomo Balla</strong> (1871&ndash;1958), the older artist who had introduced him to the modern color techniques we&rsquo;ll come to in a moment. On <strong>11 February 1910</strong>, Boccioni and four others (Balla, plus <strong>Carlo Carr&agrave;, Luigi Russolo</strong>, and <strong>Gino Severini</strong>) signed the <em>Manifesto of the Futurist Painters</em>, first read aloud to a rowdy theater crowd in Turin that March. Two months later, on <strong>11 April 1910</strong>, the same five signed a second, more practical document, the <em>Technical Manifesto of Futurist Painting</em>. This one was the how-to. It is largely Boccioni&rsquo;s thinking, and it asked for things painting had never quite managed: to put the spectator <em>inside</em> the picture, to paint not a frozen pose but a body still moving, and to render what it called <strong>&ldquo;lines of force,&rdquo;</strong> the invisible energy a moving thing throws off into the air around it.
+      </p>
+      <p style={proseStyle}>
+        (Keep these straight, because the internet does not. The <em>Manifesto of the Futurist Painters</em>, February 1910, is the loud declaration. The <em>Technical Manifesto of Futurist Painting</em>, April 1910, is the recipe. A third document with a similar name, the <em>Technical Manifesto of Futurist Sculpture</em>, comes two years later, in 1912, and is Boccioni&rsquo;s alone. The painting we&rsquo;re about to look at belongs to the 1910 pair.)
+      </p>
+      <p style={proseStyle}>
+        Where that politics led is worth saying plainly, because it is easy to launder a movement into pure style. Marinetti would go on, in 1919, to help write the founding manifesto of Italian Fascism, and to spend the 1920s as a noisy backer of Mussolini. Boccioni did not follow him there: he was dead by 1916, before Fascism existed. But the militarism was in the movement from the very first manifesto, years before this painting, and it is part of what &ldquo;worship of force&rdquo; meant to these men. Keep it in mind in front of the great red horse, because the raw energy Boccioni found beautiful is the same energy the manifesto wanted pointed at war.
+      </p>
+      <p style={proseStyle}>
+        So by spring 1910 the theory was complete and the manifestos were stacked up like promissory notes. What did not yet exist was the painting that would cash them. Marinetti had announced a revolution in pictures; the pictures had to follow. The first big one was Boccioni&rsquo;s, and he made it that same year.
+      </p>
+    </article>
+  )
+}
+
+function CtySite({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1910" title="The most modern subject he could find" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        occioni had spent his twenties painting in a careful, dappled, modern-but-polite manner. Now he had signed his name to a manifesto demanding speed, machines, and the present tense. So he went looking for a subject that was, in 1910, the most aggressively modern thing in Italy, and he found it on the edge of his own city. <strong>Milan was under construction.</strong> Out past the old center, in the growing industrial suburbs, fields were becoming factories, and the painting&rsquo;s subject is exactly this: a <strong>building site</strong>, men and horses doing heavy labor amid scaffolding, smokestacks, and the raw skeleton of buildings going up.
+      </p>
+      <p style={proseStyle}>
+        For four centuries a canvas this big (it is nearly ten feet wide) was reserved for the important subjects: a battle, a coronation, a saint, a myth. A construction site full of sweating workmen and dray-horses was the opposite of important. It was the kind of scene a respectable academic painter would never have stretched ten feet of canvas for. Boccioni took that lowly, ordinary, modern subject (men at heavy work, building the future) and gave it the scale, the violence, and the seriousness the old academy had saved for war.
+      </p>
+
+      <SectionHeader accent={accent} label="Il lavoro" title="A title that says it plainly: “The Work”" />
+      <p style={proseStyle}>
+        We should be careful about dates, because the painting carries two. The canvas was painted in <strong>1910</strong>. The following year, in <strong>1911</strong>, Boccioni showed it at an exhibition in Milan called the Mostra d&rsquo;arte libera, and there he gave it a different, blunter title: <em>Il lavoro</em>, which is simply Italian for <strong>&ldquo;The Work&rdquo;</strong> or <strong>&ldquo;Labour.&rdquo;</strong> (You&rsquo;ll sometimes see the painting dated &ldquo;1910&ndash;11&rdquo; because of this, but that 1911 is the exhibition, not a second year of painting. The picture is a 1910 picture.)
+      </p>
+      <p style={proseStyle}>
+        That early title is a useful key, because it tells you what Boccioni thought the painting was about before any critic decided for him. Not &ldquo;the city,&rdquo; not yet. <em>The Work.</em> Labor itself, the physical job of dragging the modern world into being, made monumental. The grander title we use now, <em>The City Rises</em>, came later and points at the scaffolding in the back; Boccioni&rsquo;s own first title points at the straining bodies in the front. Both are in the picture. Hold the second one (the labor) as you walk up to the canvas, because the men are easy to miss next to the thing standing over them.
+      </p>
+      <p style={proseStyle}>
+        Because the thing standing over them is a horse. And it is enormous, and it is red, and it is the engine of the whole picture. That is what we look at next.
+      </p>
+    </article>
+  )
+}
+
+function CtyLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A horse the color of energy" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it. The painting is large, about <strong>six and a half feet tall by nearly ten feet wide</strong>, a wide landscape canvas you cannot take in with a glance. And the first thing that happens, before you read a single label, is that your eye is seized by the center and dragged left. There is a <strong>horse</strong> there, and it is the largest single thing in the picture, and it is <strong>red</strong>.
+      </p>
+      <p style={proseStyle}>
+        Look at it directly. It is a huge draft horse (the heavy work-breed that hauls loads), reared up and lunging forward and to the left, its neck straining, its body caught mid-surge. It is far bigger than any human in the painting, out of all natural proportion. And the color is the tell: it is not a horse-color. Real workhorses are brown and grey and black. This one is a hot red-brown, the red of a forge, the red of effort. Boccioni hasn&rsquo;t painted the horse&rsquo;s <em>appearance</em>; he&rsquo;s painted what the horse <em>is doing</em>. The red is not skin. It is energy made visible, a charge of force given the shape of an animal. Once you&rsquo;ve seen that, you can&rsquo;t un-see it: the painting&rsquo;s subject is not a horse at all but raw power, and the horse is just where the power is standing. (And look closely later, because all of this hot red is not laid down as one color: up close it breaks into hundreds of separate dabs, which is the trick we&rsquo;ll come back to.)
+      </p>
+
+      <SectionHeader accent={accent} label="The workers" title="Small men, hauling against a thing too big to hold" />
+      <p style={proseStyle}>
+        Now find the people, because they are easy to lose. Clustered around the horse and below it, in the foreground, are <strong>small human figures</strong> (the workers), and they are tiny next to the animal, deliberately so. Watch what they&rsquo;re doing: they grip the harness and the ropes and lean their entire body weight backward, heels dug in, hauling against the lunging horse like men in a tug-of-war they are losing. Their bodies make a counter-pull to the horse&rsquo;s surge. The drama of the picture is right here, in that strain: force against force, a few small men trying to control a power far larger than they are. (You&rsquo;ll read elsewhere that the horse is &ldquo;knocking the workers to the ground.&rdquo; What&rsquo;s literally painted is men leaning back and hauling while the horse lunges; whether they&rsquo;re winning or being dragged is left for you to feel.) This is the &ldquo;work&rdquo; of <em>Il lavoro</em>: labor painted not as a peaceful trade but as a wrestling match with the energy of the modern age.
+      </p>
+
+      <SectionHeader accent={accent} label="The city behind" title="The faint scaffolds, doing the title’s job" />
+      <p style={proseStyle}>
+        Behind the horse and the men, mostly to the right and up, the city is going up. You can make out <strong>thin scaffolding</strong>, the bare skeletons of buildings under construction, and <strong>factory chimneys</strong> rising into the haze. Notice the choice Boccioni made here: the architecture is faint, blurred, drained of color, kept far quieter than the blazing horse in front of it. The literal &ldquo;city rising&rdquo; of the title is back there, in the scaffolds, but he has refused to let it compete with the energy in the foreground. The building of the city is the setting. The <em>force</em> of it is the subject.
+      </p>
+
+      <SectionHeader accent={accent} label="The motion" title="Not a moment, but a movement" />
+      <p style={proseStyle}>
+        Now soften your focus and look at the painting as a whole, the way you&rsquo;d watch something move rather than read something still. Notice that almost nothing in it has a hard edge. The horse&rsquo;s legs, the men&rsquo;s arms, the dust at the bottom: it all <strong>smears</strong>, dissolving into the air around it. This is the manifesto made visible. Boccioni did not want to paint a single frozen instant the way a photograph freezes one. He wanted to paint the <em>passage</em> of movement, the idea (straight from his Technical Manifesto) that a thing in motion blurs and multiplies and merges with the space it&rsquo;s tearing through. So a lunging horse is shown not as a sharp snapshot but as a haze of force, its own motion rubbed into the air. That haze peeling off the horse&rsquo;s body, the streaks of energy thrown into the space around it, is exactly the thing the manifesto called &ldquo;lines of force.&rdquo; Here it is, on the canvas, no longer an abstract phrase.
+      </p>
+      <p style={proseStyle}>
+        And the whole composition obeys this. There is no calm horizontal where your eye can come to rest. Instead, everything <strong>wheels inward</strong> toward the central horse: the diagonal lines of the ropes, the leaning bodies of the workers, the long curving strokes of the dust and ground all spiral in, like water turning down a drain, toward the surging animal at the heart of it. The picture has a current. You don&rsquo;t look at <em>The City Rises</em> so much as get caught in it. That inward whirl, with no still place for the eye, is the thing the manifesto called <strong>dynamism</strong>: not a picture <em>of</em> motion, but a picture that <em>moves</em>. Step back from the canvas and the horse, the men, the scaffolds, and the dust stop being separate objects and become one churning surge, which is exactly what Boccioni was after. Not a scene. A force.
+      </p>
+    </article>
+  )
+}
+
+function CtyDivisionism({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · technique" title="Up close, it’s made of dots" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        alk right up to the surface, closer than is polite in a museum, and the churning haze you just saw breaks apart into something surprising: <strong>thousands of small, separate strokes of bright color</strong>, set down side by side and not blended. A patch of the horse&rsquo;s flank is not one red; it is dabs of red and orange and pink and even green and blue, laid next to each other so your eye, from a few steps back, mixes them into a single vibrating tone. This technique has a name. It is <strong>Divisionism</strong>: the Italian descendant of the French method called <strong>Pointillism</strong>, the dot-by-dot method the painter <strong>Georges Seurat</strong> built in the 1880s out of color science. Instead of mixing colors on the palette, you &ldquo;divide&rdquo; them into separate touches on the canvas and let the eye do the mixing, which keeps the color brighter and gives the whole surface a faint, restless shimmer.
+      </p>
+      <p style={proseStyle}>
+        This was not new to Boccioni; it was where he came from. He had been raised in this technique through his teacher Balla and the older Italian Divisionists, painters like <strong>Gaetano Previati</strong> (1852&ndash;1920), who theorized the method, and <strong>Giovanni Segantini</strong> (1858&ndash;1899). When Boccioni signed the Futurist manifestos in 1910, the Divisionist dab was still the language his hand knew best. So <em>The City Rises</em> is painted, surprisingly, in a slightly old technique, the careful optical color he&rsquo;d been doing for years.
+      </p>
+
+      <SectionHeader accent={accent} label="The hinge" title="The same dots, pulled into speed" />
+      <p style={proseStyle}>
+        Here is the move that makes the painting matter, and it is small and enormous at once. <strong>Boccioni took the Divisionist stroke and stretched it.</strong> In Seurat&rsquo;s pictures, and in Boccioni&rsquo;s own earlier work, the touches are short, dotty, and static; they sit in place and shimmer, building calm, sunlit, frozen scenes. In <em>The City Rises</em>, the strokes are pulled <strong>long, feathered, and directional</strong>. They run with the motion. They follow the lunge of the horse and the curve of the dust and the haul of the men&rsquo;s arms, so the very brushwork is moving in the direction the picture is moving.
+      </p>
+      <p style={proseStyle}>
+        That is the whole break, in one technical decision. Boccioni didn&rsquo;t throw out the old method; he bent it to a new purpose. The optical-color trick that used to make a sunlit lawn vibrate in place was now made to carry <em>speed</em>. The flicker that had served stillness was set to serve motion. So the painting stands with one foot in each world: it is still made of Divisionist dabs (the past Boccioni came from) and it is already doing Futurist dynamism (the future the manifesto demanded). That hinge, an old surface bent to a new energy, is why this picture, and not the manifesto, is where Futurist painting actually begins.
+      </p>
+      <p style={proseStyle}>
+        Which is exactly the claim that follows it around, and the claim is true if you scope it carefully: this is <strong>Boccioni&rsquo;s first major Futurist painting</strong>, the first time the theory became a monumental picture. Not the first modern painting, not the first painting of motion in all of art, just the first big one of <em>this</em> movement. From here Boccioni would go much further, fracturing his subjects far more violently in the <em>States of Mind</em> series of 1911 and the sculpture <em>Unique Forms of Continuity in Space</em> of 1913. <em>The City Rises</em> is the doorway, still half in the old technique, that all of that walks through.
+      </p>
+    </article>
+  )
+}
+
+function CtyAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · 1912" title="The composer who bought it in London" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n 1912, three years after Marinetti&rsquo;s manifesto, Futurism went on tour. The painters mounted a travelling exhibition that moved through Paris, London, Berlin, and beyond, carrying their canvases to audiences who had read about the movement but never seen it. <em>The City Rises</em> was one of the headline pictures. And at the London stop, at a gallery called the Sackville Gallery in <strong>March 1912</strong>, the painting found its first private owner, and an unexpected one. The buyer was <strong>Ferruccio Busoni</strong> (1866&ndash;1924), one of the most famous concert pianists and composers in Europe. (The <em>provenance</em>, by the way, is the documented chain of who has owned a work of art, in order, from the artist&rsquo;s hand to now. We can&rsquo;t give you what Busoni paid, because no figure for the 1912 sale survives in the record. Better to leave that blank than to invent it.)
+      </p>
+      <p style={proseStyle}>
+        From Busoni the painting passed, by around 1950, to his son <strong>Raffaello Busoni</strong>, who had emigrated to <strong>New York</strong>. And in <strong>1951</strong>, the <strong>Museum of Modern Art</strong> bought it from the son, with money from a fund called the Mrs. Simon Guggenheim Fund. That is where it hangs today: a Milan building site, by way of a London gallery and a composer&rsquo;s family, on permanent view in New York. For a painting about the modern industrial city, it is fitting that it ended up in the city that, by 1951, was the modern industrial city.
+      </p>
+
+      <SectionHeader accent={accent} label="The painter" title="The horse, and the irony history hands out" />
+      <p style={proseStyle}>
+        And then there is Boccioni himself, who did not live to see any of that. When Italy entered the First World War, Boccioni (who, like the other Futurists, had loudly glorified war as a cleansing modern force) volunteered. He was stationed near Verona. On <strong>16 August 1916</strong>, during a cavalry training exercise, he was <strong>thrown from his horse and trampled</strong>. He died the next day, <strong>17 August 1916</strong>, in a Verona military hospital, at the age of <strong>thirty-three</strong>.
+      </p>
+      <p style={proseStyle}>
+        The man who put a violent, surging horse at the dead center of his first great painting (and another charging horse in his last great one, the <em>Charge of the Lancers</em> of 1915) was killed by a horse. It is not a prophecy; the painting foretold nothing. It is the blunt, authorless kind of irony that real history hands out, a coincidence and a sad fact and nothing more. The horse in <em>The City Rises</em> was always a symbol of the city&rsquo;s raw energy and the danger of modern force; that its maker would later die under a real one only sharpens the point without changing it.
+      </p>
+      <p style={proseStyle}>
+        What he left is the doorway. <em>The City Rises</em> is the first big Futurist painting, the one where a movement that had announced itself in a newspaper finally proved, in nine feet of straining red and churning dust, that you could paint not a thing but its motion, not a moment but a force. Everything Futurism did afterward came through this canvas. The man was gone at thirty-three; the surge he painted is still moving.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'city-rises': { manifestos: CtyManifestos, site: CtySite, looking: CtyLooking, divisionism: CtyDivisionism, afterlife: CtyAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Dynamism of a Dog on a Leash (Balla, 1912) - the five chapters
+// ─────────────────────────────────────────────────────────────
+function DogTeacher({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Rome · 1910" title="The teacher who joined his students’ revolution" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with a fact that the painting itself never lets on: the man who made this giddy little picture of a dog on a walk was the grown-up in the room. <strong>Giacomo Balla</strong> (1871&ndash;1958; pronounced &ldquo;JAH-ko-mo BAH-lah&rdquo;) was born in Turin, in the industrial north of Italy, and by his late thirties he was an established, respectable painter working in Rome. He was the older one. He was the teacher. The hot young avant-garde painters of Rome came to <em>him</em> to learn how to handle paint.
+      </p>
+      <p style={proseStyle}>
+        What he taught them was a technique called <strong>Divisionism</strong> (the Italian cousin of French <strong>Pointillism</strong>). Both are the same basic idea: instead of mixing your colors on the palette and laying down a smooth blended green, you lay down separate little strokes and dots of pure unmixed color, a stroke of yellow next to a stroke of blue, and you let them mix in the viewer&rsquo;s eye when they step back. The painting does its blending at a distance, optically, inside your head. (Hold onto that, because the divided-color habit never quite leaves Balla, and you&rsquo;ll see it again in the dust of the road two chapters from now.) Among the students Balla taught this method were two names that matter a great deal to what happens next: <strong>Umberto Boccioni</strong> (1882&ndash;1916) and <strong>Gino Severini</strong> (1883&ndash;1966), both of whom would become major figures of the movement we&rsquo;re heading toward.
+      </p>
+      <p style={proseStyle}>
+        Now the movement. In <strong>1909</strong>, a Milanese poet named <strong>Filippo Tommaso Marinetti</strong> (1876&ndash;1944) bought himself the front page of the Paris newspaper <em>Le Figaro</em> and published the <strong>Manifesto of Futurism</strong>, a roaring, deliberately outrageous declaration that the past was a tomb, museums were cemeteries, and the future belonged to speed, machines, the racing car, the airplane, the electric age. Futurism, the movement it kicked off, was the loudest of all the early-twentieth-century avant-gardes (the catch-all term for the experimental painters and writers who set out to break with everything that came before; literally French for &ldquo;advance guard,&rdquo; the soldiers who go out ahead of the army). Marinetti was its showman and its theorist. He wasn&rsquo;t a painter. The painters wrote their own document the next year.
+      </p>
+      <p style={proseStyle}>
+        And here is the lovely inversion at the root of this whole picture. In <strong>1910</strong>, Balla&rsquo;s own former students, Boccioni and Severini among them, invited their old teacher to sign on to <em>their</em> new movement. He did. Balla is one of the five painters who signed the <strong>Technical Manifesto of Futurist Painting</strong> (published in April 1910), alongside Boccioni, Severini, <strong>Carlo Carr&agrave;</strong> and <strong>Luigi Russolo</strong>. So the older man who had taught the rebels their craft turned around and joined their rebellion. And of those five painter-signers, Balla would push the furthest of all toward pure abstraction, later canvases (the iridescent compositions, the <em>Abstract Speed</em> series) that drop the object entirely and paint only speed and light. Which is worth holding onto, because it makes the friendly, perfectly legible little dog you are about to meet an early, still-figurative moment from the most abstract painter the movement produced.
+      </p>
+    </article>
+  )
+}
+
+function DogMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Montepulciano · May 1912" title="A dachshund, a lady in black, a Tuscan road" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>May 1912</strong>, Balla was not in a city full of motorcars. He was in <strong>Montepulciano</strong> (pronounced &ldquo;mon-teh-pull-CHA-no&rdquo;), a small hilltop town in <strong>Tuscany</strong>, the rolling green region of central Italy near Siena, the kind of place with stone streets and a slow afternoon light and almost nothing the Futurists claimed to love. He was there as the guest of one of his pupils, <strong>the Contessa Nerazzini</strong>, in whose Tuscan house he was staying. And what he chose to paint, in this most un-mechanical of settings, was about the least futuristic subject imaginable: a woman walking her little dog.
+      </p>
+      <p style={proseStyle}>
+        The subject is a <strong>dachshund</strong> (the long-bodied, short-legged German breed, the &ldquo;sausage dog&rdquo;) on a leash, and the stepping feet of its owner, an elegant woman usually described as dressed in black. The museum&rsquo;s own record supports the bones of the scene: the dachshund, the leash, the owner&rsquo;s staccato steps, the month, the Tuscan road. (The black dress is the touch the popular literature adds, not the museum, which says only &ldquo;the woman&rdquo;; it is a fine and widely-repeated detail, just not a curatorial fact.) Where the popular books go further than anyone can is the next step: you will often see the walking lady identified <em>as</em> the Contessa and the dog called hers. That leap the record does not actually make. The museum names the Contessa as Balla&rsquo;s host, not as the figure in the picture, and is careful to call the dog only &ldquo;his or her owner&rsquo;s.&rdquo; So: the host has a name, the scene has a dog and a leash and a lady in black, and whose dog it specifically was is the open part. That is the whole cast. There is no event, no drama, no machine. There is a person taking a small animal for a walk, and a painter watching the feet.
+      </p>
+      <p style={proseStyle}>
+        And then there is the ground they walk on. The bottom of the canvas is not a flat brown floor but a shimmer of <strong>pink-and-green strokes</strong>, which is usually read as the <strong>pale dust of the Tuscan road</strong> caught in the summer sun. This is the place giving itself away. A movement that prided itself on smoke and steel and the boulevard got one of its signature pictures out of country dust on a quiet road, painted by the <strong>divided-color habit</strong> (those separate strokes of pure color, meant to mix in your eye) Balla had been teaching for years. The technique is the avant-garde&rsquo;s; the subject is a wiener dog in the Tuscan afternoon. The gap between those two things is the whole charm of the thing.
+      </p>
+    </article>
+  )
+}
+
+function DogLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Twenty legs on a wiener dog" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting is not large. It is about <strong>three feet by three and a half feet</strong>, a bit wider than it is tall, roughly the size of a coffee-table top, and it is hung the wide way, landscape orientation, which gives the little dog room to travel across it. Stand in front of it and let your eye go where the picture pulls it, which is straight down to the bottom center, to the dog. So that&rsquo;s where we&rsquo;ll start.
+      </p>
+      <p style={proseStyle}>
+        Look at the <strong>legs</strong> first, because the legs are the whole joke and the whole argument at once. Under the dog&rsquo;s body, where you expect to see four short dachshund legs, there is instead a <strong>dense brown blur</strong>, a fan of feet, a haze of paws, far too many of them, smeared into one another at the bottom of the canvas like the dog has sprouted a centipede&rsquo;s worth of legs and is using all of them. Count them and you can&rsquo;t; that is the point. Balla has painted not the four legs the dog has at any one instant but <strong>every position those four legs pass through</strong> in a fast little trot, all laid down on top of each other at once. The legs nearest the ground go to pure motion-blur, a brown smear; the ones higher up are slightly more distinct. The eye reads the whole fan, correctly, as feet moving too fast to freeze. You are looking at speed itself, painted.
+      </p>
+      <p style={proseStyle}>
+        Now follow the <strong>leash</strong>, the line that climbs up and to the right, from somewhere near the dog&rsquo;s collar, angling across the picture toward the lady&rsquo;s hand. Balla has done the same thing to it. It is not one taut line. It is a <strong>fan of curved arcs</strong>, a set of loops drawn one over another, because a leash on a walking dog swings, and Balla has caught several positions of that swing together. A single slack lead becomes a little nest of curves in the middle of the picture. This is the easiest place to watch the method work on something simple: the leash has no body, no fur, no anatomy to confuse you, just a thin moving line multiplied into the shape of its own motion. Once you see what he did to the leash, you understand what he did to the legs.
+      </p>
+      <p style={proseStyle}>
+        Lift your eye now to the <strong>top of the canvas</strong>, where the <strong>lady</strong> is. Or rather, where the lady almost isn&rsquo;t. There is no face. There is no body. There is no figure standing there at all. There is only a <strong>staccato row of small dark shoes</strong> and the <strong>black hem of a skirt</strong>, the feet multiplied into a quick rhythm of steps moving left to right, the same trick as the dog&rsquo;s legs but slower and tidier, a person&rsquo;s stride rather than a dog&rsquo;s scramble. The leash you just followed climbs from the dog up to her unseen hand, tying the two together across the picture. Balla has shown you a walking woman using nothing but her feet and the swing of her hem. You supply the rest of her yourself. It is a small, witty piece of restraint: he could have painted her whole and chose to paint her only as her motion.
+      </p>
+      <p style={proseStyle}>
+        So why does any of this read as a dog and not as a brown explosion? Because of one steady thing in the middle of all the blur. The dog&rsquo;s <strong>long low body</strong>, the sausage itself, stays <strong>relatively solid and whole</strong>, a single dark recognizable shape, while the legs and the leash dissolve into repeated copies around it. That contrast is the engine of the picture. The still core holds the shape together; the moving parts fly apart into motion-blur around it. Your eye locks onto the solid body, reads &ldquo;dog,&rdquo; and then accepts the surrounding haze as the dog&rsquo;s movement rather than as chaos.
+      </p>
+      <p style={proseStyle}>
+        And under all of it, the <strong>ground</strong>: not a flat color but a field of small <strong>pink-and-green strokes</strong>, the divided color of Balla&rsquo;s Divisionist training (separate touches of color meant to mix in your eye, the thing he&rsquo;d been teaching for years), usually read as the pale road dust of a Tuscan summer shimmering in the heat. The dog and the lady move across it and the road shimmers under them.
+      </p>
+      <p style={proseStyle}>
+        Now pull back and notice the rule, because once you see it the whole picture clicks open. <strong>Anything that moves, Balla paints as many overlapping copies of itself. Anything that stays still, he paints once.</strong> The legs move, so there are twenty of them. The leash swings, so it is a fan of arcs. The feet step, so they are a row of shoes. The body holds steady, so it stays single and solid. Multiply the moving, hold the still. That one rule, applied with a perfectly straight face to a small dog on a leash, is the entire method, and it is the simplest demonstration anywhere in the movement of what the Futurists meant by their favorite word, <strong>dynamism</strong>: not a picture of a moving thing, but a picture of the movement itself.
+      </p>
+    </article>
+  )
+}
+
+function DogScience({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The idea" title="A running horse has twenty legs" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he blur of legs wasn&rsquo;t a whim. It was almost a literal illustration of something the Futurist painters had written down two years earlier. The <strong>Technical Manifesto of Futurist Painting</strong> (1910), the one Balla signed, declared, in its own words, that <strong>&ldquo;all things move, all things run, all things are rapidly changing&rdquo;</strong> and, in the line this picture all but acts out, that <strong>&ldquo;a running horse has not four legs, but twenty, and their movements are triangular.&rdquo;</strong> Balla simply swapped the racehorse for a dachshund. (One thing the manifesto does <em>not</em> say, despite what you&rsquo;ll sometimes read, is anything at all about dogs. There is no &ldquo;dog passage&rdquo; the painting illustrates. The documented example is the horse, and the dog is Balla&rsquo;s own affectionate downsizing of it.)
+      </p>
+      <p style={proseStyle}>
+        The idea underneath the slogan is something you can test on yourself right now. It is called <strong>persistence of vision</strong>: a moving object doesn&rsquo;t register on your eye as a clean snapshot but smears, briefly, into the positions it just left, which is why a waved sparkler draws a line of light and a fast-spinning wheel looks like a transparent disc. Your eye holds each image for a fraction of a second after it&rsquo;s gone, so a fast-moving thing piles its recent positions on top of one another. The Futurists took that smear, that pile-up of positions, and decided it was more honest than a frozen outline. A photograph stops time, which is a lie, because nothing in the world actually holds still. They wanted to paint the smear. Balla&rsquo;s swarm of dog-legs is exactly the &ldquo;twenty legs&rdquo; idea: not how the dog looks in one stopped instant, but how its trotting feet pile up in the eye that watches them.
+      </p>
+      <p style={proseStyle}>
+        And here the painters had help from an unlikely place: science. Back in the <strong>1880s</strong>, decades before Futurism, two men had already photographed exactly this pile-up. In France, the scientist <strong>&Eacute;tienne-Jules Marey</strong> (1830&ndash;1904) invented <strong>chronophotography</strong> (from the Greek <em>chronos</em>, &ldquo;time&rdquo;: literally &ldquo;time-photography&rdquo;). He rigged cameras to fire many exposures onto a single photographic plate, so that one running man or one flying bird came out as a row of overlapping ghost-figures across one frame, a single body caught in a dozen successive positions at once. In America, the photographer <strong>Eadweard Muybridge</strong> (1830&ndash;1904) did a related thing with a bank of cameras tripped one after another, and famously settled a bet about whether a galloping horse ever has all four hooves off the ground at once (it does). Marey&rsquo;s single-plate overlap is the closer cousin of what Balla painted: one body, many positions, all on one surface.
+      </p>
+      <p style={proseStyle}>
+        How directly Balla worked from these motion studies is worth being careful about. He was demonstrably fascinated by them, and the dog picture reads like a chronophotograph turned into oil paint, the same overlapping ghost-positions, the same row of phases of one moving body. But whether he sat down with a specific Marey or Muybridge plate and copied from it is not something we can pin to anything Balla himself said, so the dog is not a copy of any one photograph. What is not in doubt, though, is the genealogy. Chronophotography is the documented source of the entire motion-painting toolkit the Futurists worked with: the blur, the multiplication, the overlapping phases all came out of the photographs first. Balla didn&rsquo;t need a particular plate. He inherited the idea the plates had already made visible, and arrived at the same truth in paint, by a man who had clearly looked at the photographs.
+      </p>
+    </article>
+  )
+}
+
+function DogAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="Berlin, then a MoMA founder’s wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting&rsquo;s life as an object, the <strong>provenance</strong> (the documented chain of who owned a work, from the painter&rsquo;s hand to where it hangs now), starts where a lot of early Futurism started: <strong>Berlin</strong>. In <strong>1913</strong> the dog made its international debut at the <strong>Erster Deutscher Herbstsalon</strong> (the &ldquo;First German Autumn Salon&rdquo;), a big survey of new European art mounted by the dealer <strong>Herwarth Walden</strong> at his <strong>Galerie Der Sturm</strong>, the gallery and magazine that did more than almost anyone to carry the new movements across Europe. And there is a small perfect irony in where it ended up on that wall: the painting that had learned everything it knew about motion from photography was hung, on its debut, right beside a photograph.
+      </p>
+      <p style={proseStyle}>
+        Then a crossing. In <strong>1938</strong>, the painting was bought <strong>directly from Balla</strong> by <strong>A. Conger Goodyear</strong> (1877&ndash;1964), an American industrialist who happened to be the <strong>first president of the Museum of Modern Art</strong> in New York. (No purchase price is documented, so we won&rsquo;t invent one. The popular shortcut that the painting went straight from the artist to its museum is also wrong: it went through the Berlin gallery and then through Goodyear&rsquo;s private collection first.) When Goodyear died in <strong>1964</strong>, his bequest split the work, a life interest to <strong>George F. Goodyear</strong> and the painting itself to the <strong>Albright-Knox Art Gallery</strong> in <strong>Buffalo, New York</strong>, which assigned it the accession number 1964:16. George F. Goodyear completed the gift, handing over his life interest, in December <strong>1984</strong>. And in <strong>2023</strong> the Albright-Knox reopened after a major expansion under a new name, the <strong>Buffalo AKG Art Museum</strong>, which is where the dog trots today, accession number unchanged.
+      </p>
+
+      <SectionHeader accent={accent} label="The verdict" title="Crude, then beloved" />
+      <p style={proseStyle}>
+        The picture&rsquo;s reputation took a while to settle. Mid-century critics were unimpressed: in the 1940s it was dismissed as crude and as a cliché of modern art, the multiplied legs read by some as a gimmick that had dated. By <strong>2014</strong> the mood had flipped, and the same device was being called one of the most elegant and accurate things ever painted in the Futurist tradition. What didn&rsquo;t change is that this became, by a wide margin, the Futurist painting that ordinary people actually love, the one that gets onto the postcards and the tote bags, which is worth sitting with for a moment, because it is genuinely strange.
+      </p>
+      <p style={proseStyle}>
+        Here is the strangeness, and it should not be sanded off. Futurism was not a gentle movement. Marinetti&rsquo;s <strong>1909 founding Manifesto of Futurism</strong> didn&rsquo;t just praise the racing car; it glorified violence, the machine gun, contempt for the past, and war, which it called <strong>&ldquo;the world&rsquo;s only hygiene.&rdquo;</strong> Several of the Futurists, Marinetti among them, would later attach themselves to Italian Fascism. This was an avant-garde that meant the aggression in its slogans. And out of that same movement, with the same multiply-the-motion technique meant to capture the speed of the modern machine, came a charming, almost comic picture of a <strong>dachshund out for a walk</strong>. The cuteness and the ideology sit in the same body of work, and the honest thing is to hold both: the dog really is delightful, and the movement that made it really did cheer for war. The picture is not innocent of its movement. It is just the friendliest face that movement ever put on.
+      </p>
+      <p style={proseStyle}>
+        And maybe that is exactly why it lasts. Most Futurist paintings ask you to thrill to a force you may not actually want to thrill to, the speeding car, the surging crowd, the war as cleansing. The dog asks nothing of the kind. It takes the movement&rsquo;s one genuinely new idea, that you can paint movement itself rather than a thing that happens to be moving, and spends it on the smallest, most harmless, most universally recognizable scene there is: somebody&rsquo;s little dog, hurrying to keep up, on a leash, on a sunny road. The twenty legs are doing serious avant-garde work. They are also, unmistakably, a wiener dog in a hurry. That is the joke, and it is a good one, and it has outlasted nearly everything louder around it.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  dog: { teacher: DogTeacher, making: DogMaking, looking: DogLooking, science: DogScience, afterlife: DogAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Funeral of the Anarchist Galli (Carrà, 1910–11) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function GalStreet({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Milan · May 1906" title="The funeral the police would not let through" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the spring of <strong>1906</strong>, the city of <strong>Milan</strong> &mdash; the industrial capital of northern Italy, all factories and tram lines and smoke &mdash; was in the grip of a <strong>general strike</strong>. A general strike is what it sounds like: not one trade walking off one job, but workers across a whole city downing tools at once, shutting the place down to force a demand. Milan in 1906 had a large, militant labor movement, and inside it a hard core of <strong>anarchists</strong> &mdash; radicals who wanted to abolish the state and the bosses outright, not bargain with them &mdash; and the strike had turned the streets into something closer to a running battle than a negotiation.
+      </p>
+      <p style={proseStyle}>
+        One of those anarchists was a young strike organizer named <strong>Angelo Galli</strong>, born around <strong>1883</strong>, so a man of about twenty-three. On <strong>10 May 1906</strong>, Galli was <strong>stabbed to death</strong> by security guards of the Macchi and Pessoni factory as he and a small group of fellow anarchists, among them his comrades <strong>Enrico Recalcati</strong> and <strong>Carlo Gelosa</strong>, approached a picket line. He was a real young man on his way to a strike, not a symbol, and that is worth holding before the painting turns him into one. The killing landed in a city already on a knife&rsquo;s edge. (You will sometimes read that the strike itself had begun after the authorities fired on a crowd, killing one and wounding several more; that specific casualty count traces to a single source, so hold it loosely. What is not in doubt is the temperature of the streets that week, or that a man on the strikers&rsquo; side was now dead.)
+      </p>
+      <p style={proseStyle}>
+        Three days later, on <strong>13 May 1906</strong>, came the funeral, and the funeral is the picture. Hundreds of anarchists turned out to bury Galli, marching behind his coffin, and the authorities sent <strong>police on horseback</strong> to watch them do it. Then the authorities did something that turned a funeral into a riot: they <strong>refused to let the anarchist procession enter the cemetery</strong>. A crowd that has come to bury its own and is told it cannot does not quietly disperse. The mourners pushed forward, the mounted police charged, and a violent melee broke out around the coffin itself, in the open street, with the dead man still overhead on his bearers&rsquo; shoulders.
+      </p>
+      <p style={proseStyle}>
+        And in that crowd, getting shoved and trampled along with everyone else, was a young painter named <strong>Carlo Carrà</strong>. This matters more than it might sound: in these years Carrà was <strong>himself an anarchist</strong>, not a sympathetic onlooker but a believer, and on the day Galli was buried he was not an artist observing a subject from a safe distance. He was a man in a brawl, on his own side. That is the difference that makes this painting what it is: the picture is not a scene Carrà witnessed. It is a scene he was inside.
+      </p>
+    </article>
+  )
+}
+
+function GalMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making" title="A calm study, then Cubism breaks it open" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        here are, in a sense, two versions of this painting, and the gap between them is the whole story of how it got made. The first is a <strong>charcoal-and-pastel study</strong> Carrà drew in <strong>1910</strong>, and the surprising thing about it is how <em>orderly</em> it is. It uses traditional, near one-point perspective &mdash; the old Renaissance trick of letting all the receding lines aim at a single vanishing point, so the scene sits in a deep, believable box of space, the way a stage set does. Carrà had come up through <strong>Divisionism</strong>, the Italian cousin of the French <strong>Pointillism</strong> &mdash; both build an image out of separate small strokes of pure, unmixed color and let the eye blend them at a distance. He knew how to make a calm, deep, well-mannered picture of a chaotic event. The 1910 study is exactly that.
+      </p>
+      <p style={proseStyle}>
+        It is also, by then, the wrong kind of picture for the man making it. By 1910 Carrà was a <strong>Futurist</strong>. He had put his name to the two founding documents of Futurist painting that year, the <strong>Manifesto of the Futurist Painters</strong> and the <strong>Technical Manifesto of Futurist Painting</strong>, alongside <strong>Umberto Boccioni, Luigi Russolo, Giacomo Balla</strong> and <strong>Gino Severini</strong>. Futurism, the loud Milanese movement founded a year earlier by the poet <strong>Filippo Tommaso Marinetti</strong>, worshipped speed, machines, crowds, energy, the modern city at full throttle &mdash; and, from its very first 1909 manifesto, it openly worshipped <em>violence</em> too, glorifying war and force as a kind of cleansing power. (Marinetti launched the whole thing with a manifesto on the front page of a Paris newspaper; he is the impresario behind the movement, not a hand on this particular canvas, so file him as background for now. We will have to come back to where he and his movement went.) A movement built on motion and force could not very well be content with a tidy one-point-perspective drawing of a riot.
+      </p>
+      <p style={proseStyle}>
+        What broke the picture open was a trip. In <strong>1911</strong> the Futurists went to <strong>Paris</strong>, and in Paris they got their first real look at <strong>Cubism</strong> &mdash; Picasso and Braque&rsquo;s recent work, in which a single object is shattered into facets and shown from several angles at once, so the picture stops being a window onto a scene and becomes a built surface of interlocking planes. For a painter trying to put a riot on canvas, this was a gift. Carrà went home and <strong>rebuilt the painting from the study up.</strong> He fractured the figures the way Cubism had taught him, and then he did the thing that makes it Futurist rather than merely Cubist: he drove hard diagonal <strong>&ldquo;lines of force&rdquo;</strong> (in Italian, <em>linee-forza</em>) straight through the scene, sheaves of rays that cut across every body and bend the whole composition into one explosive surge.
+      </p>
+      <p style={proseStyle}>
+        Those lines of force were not decoration, and they were not a neutral tool either. They were the movement&rsquo;s politics made visible. The Futurists&rsquo; own <strong>catalogue statement</strong>, written for their 1912 Paris exhibition, demanded that such force-lines must <strong>&ldquo;encircle and involve the spectator so that he will&hellip; be forced to struggle himself with the persons in the picture.&rdquo;</strong> That is the design brief for this canvas, and it is also a confession of what Futurism wanted from art: not to depict the riot but to put <em>you</em> in it, to deny you the safe spot outside the frame from which you would normally watch a painting. The exaltation of crowds, collision and energy was never just a way of arranging shapes; it was the same appetite for force that ran through the manifestos, turned into a method. A funeral that Carrà had been physically unable to stand outside of became a painting you are not allowed to stand outside of either. The chaos is the subject, and the structure is built to make the chaos reach out and grab you.
+      </p>
+    </article>
+  )
+}
+
+function GalLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Red coffin, black crowd, lines of force" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting is big &mdash; about <strong>six and a half feet tall by eight and a half feet wide</strong>, a wide landscape canvas roughly the size of a garage door laid on its side. That width matters. A riot is a thing that spreads sideways, surging left and right across a street, and Carrà gave himself a frame shaped like the street. Stand back from it and the first impression is not of a scene at all. It is of an <strong>explosion of red and black</strong>, lit from inside, as if something had gone off in the middle of the canvas and you are seeing it at the instant of the blast.
+      </p>
+      <p style={proseStyle}>
+        Now find the one red thing. Up in the <strong>upper center</strong>, riding above everything on the mourners&rsquo; shoulders, is the single brightest, reddest passage in the picture: <strong>Galli&rsquo;s coffin</strong>, a hot red mass that Carrà remembered as a heap of <strong>red carnations</strong> draped over the box. Here is the move that organizes the whole canvas: Carrà does not light the coffin, he makes the coffin the <em>source</em> of light. Red flares out of it and washes across the bodies below, the way the sun would in an ordinary picture. So on this canvas the dead man is not the still, sad center of a funeral. He is the hot core of an explosion. It is worth being clear-eyed about what that is: a real murdered young man, turned by the painter into a pictorial device, a light source. That coldness is Carrà&rsquo;s choice, not the funeral&rsquo;s, and your eye obeys it &mdash; it goes there first and keeps being pulled back.
+      </p>
+      <p style={proseStyle}>
+        Around and below the coffin, the <strong>crowd</strong>. Almost everyone is in <strong>anarchist black</strong>, and Carrà paints them not as a row of individual mourners but as a single dark, heaving mass, a churn of fractured backs and heads and arms that you read the way you read a real crowd, all at once and a little alarmed, never one face at a time. Pressing into that black mass from the <strong>left</strong> are the <strong>mounted police</strong> &mdash; the line that would not let the coffin through &mdash; and at the flashpoint, just left of the coffin, a <strong>horse rears up</strong> into the bodies while the figures nearest it bend backward away from the hooves. That rearing horse is the literal hinge of the painting, the exact spot where a funeral became a fight, and Carrà has set it close enough to the coffin that you take in the violence and the dead man in the same glance.
+      </p>
+      <p style={proseStyle}>
+        Look up, into the <strong>top third</strong> of the canvas, and the whole upper register bristles with <strong>hard black diagonals stabbing into the light</strong> &mdash; the <strong>lances</strong> of the police, the <strong>flag-poles and banner-staffs</strong> of the anarchists, and behind them the <strong>cranes</strong> of the factory district, the working city that all this is happening in front of. They are half real objects and half pure direction, a thicket of lines pointing every which way, and they keep the violence from settling: even the sky is full of weapons.
+      </p>
+      <p style={proseStyle}>
+        And then the thing that makes it Futurist rather than just a vivid riot picture: the <strong>lines of force</strong>. Light does not arrive in this painting from any one place. It <strong>bursts outward in sheaves of diagonal rays</strong>, a sunburst radiating from the coffin and the sky across the entire upper canvas, and crucially those rays <strong>cut through the figures they cross</strong>, slicing a shoulder here, splintering a head there, so that body and beam and banner are all made of the same fractured stuff. This is the single clearest fingerprint of the 1911 Cubist-charged rework sitting on top of the calmer 1910 drawing. Trace one of those rays with your eye and you will feel it do exactly what the Futurists wanted: it runs off the edge of the canvas, toward you, and pulls your attention into the brawl instead of letting it rest on a tidy scene.
+      </p>
+      <p style={proseStyle}>
+        Last, step in close, right up to the surface, and watch the people dissolve. Down in the central and lower zone the <strong>figures stop being separate</strong> &mdash; an arm runs into a back, a head passes through a shoulder, one body interpenetrates the next the way Cubism allowed. Carrà has fractured the crowd on purpose, so that the surge reads as <strong>one continuous motion</strong> rather than a count of mourners. That is why the funeral feels like a single enormous body convulsing in the street, red at its heart and black at its edges, with lances and light flying off it in every direction. Pull back out to six feet and the explosion reassembles. Walk in close and it comes apart in your hands. The whole argument of the painting &mdash; a funeral that was a battle, a crowd that was one animal, a dead man at the center of a blast &mdash; is made in red, in black, and in the crossing lines, with not one word of caption needed.
+      </p>
+    </article>
+  )
+}
+
+function GalMemory({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="His own account · 1945" title="The riot Carrà remembered, and misdated" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        e know what Carrà saw in that crowd because, late in his life, he wrote it down. In his <strong>1945 autobiography</strong>, <em>La mia vita</em> (&ldquo;My Life&rdquo;), the painter looked back on the day of Galli&rsquo;s funeral and described being swept into the heart of the riot:
+      </p>
+      <p style={{ ...proseStyle, fontStyle: 'italic', paddingLeft: '14px', borderLeft: `3px solid ${accent}` }}>
+        &ldquo;I found myself unwillingly in the centre of it, before me I saw the coffin, covered in red carnations, sway dangerously on the shoulders of the pallbearers; I saw horses go mad, sticks and lances clash, it seemed to me that the corpse could have fallen to the ground at any moment and the horses would have trampled it.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        You can read the painting straight off that paragraph. The red carnations are the red coffin. The horses gone mad are the rearing clash. The sticks and lances are the black diagonals overhead. The terror that the body might pitch off its bearers and under the hooves is the whole vertiginous, off-balance feel of the canvas, the sense that the coffin up there is one shove from falling. He went home, he tells us, and <strong>made a drawing immediately.</strong>
+      </p>
+      <p style={proseStyle}>
+        It is a memoir, though, not a notebook. It is not a reporter&rsquo;s account written in 1906; it is a memory of the riot set down in <strong>1945</strong>, some thirty-nine years after the fact, by the same man who had turned that memory into a famous painting in between. It is vivid and it is his, and it is the documented source the picture comes from, but it is recollection, not transcript. Read it as Carrà telling you, decades later, what the day felt like to him &mdash; which is, conveniently, also what the painting is for.
+      </p>
+      <p style={proseStyle}>
+        And memory, as memory does, slipped. In the very same memoir, Carrà attributes Galli&rsquo;s death to the <strong>general strike of 1904</strong>, not the 1906 one in which it actually happened. The error is documented; <em>Corriere della Sera</em>, the Milan newspaper, was first to flag the slip. Some have since suggested that Carrà conflated the killing with the larger, more famous <strong>1904</strong> general strike &mdash; a bigger, nationwide walkout &mdash; in order to hitch his picture to a more historic moment; but that is a guess at his motive, not an established fact, and the simpler explanation, that a man in his sixties misremembered a date from his twenties, will do fine. Either way, the picture itself is not in question. It is the funeral of Angelo Galli, killed on <strong>10 May 1906</strong> and buried three days later. The painter got the year wrong in print; the painting got the day right.
+      </p>
+    </article>
+  )
+}
+
+function GalAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · February 1912" title="The riot goes on the wall, and the fault line under it" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he finished painting made its public debut not in Milan but in <strong>Paris</strong>, in <strong>February 1912</strong>, at the <strong>Galerie Bernheim-Jeune</strong>. This was the Futurists&rsquo; landmark group exhibition, the show that introduced the Italians to the French avant-garde &mdash; the experimental new art &mdash; organized with help from the critic <strong>Félix Fénéon</strong>, the same sharp-eyed dealer-critic who turns up all over this period of modern art. Carrà&rsquo;s riot, hung in Paris a year after Paris had handed him the Cubism that rebuilt it, went out into the world.
+      </p>
+      <p style={proseStyle}>
+        From there the canvas took the route a lot of early modern art took, which runs through <strong>Germany</strong>. By later in 1912 it had been bought in <strong>Berlin</strong> through <strong>Galerie Der Sturm</strong>, the gallery of <strong>Herwarth Walden</strong>, who was to German modernism roughly what an evangelist is to a faith, the man tirelessly putting the new art in front of new audiences. It passed into the German collection of <strong>Franz Kluxen</strong>, back through Walden&rsquo;s Der Sturm, and then in 1920 to the artist-collector <strong>Paul Citroen</strong> in Holland, who held it for nearly thirty years.
+      </p>
+      <p style={proseStyle}>
+        In <strong>1948</strong> it crossed to New York, to the <strong>Museum of Modern Art</strong>, acquired through the <strong>Lillie P. Bliss Bequest, by exchange</strong> &mdash; meaning MoMA traded other works for it rather than paying cash, the same quiet mechanism that brought the museum its <em>Starry Night</em>. It hangs there still, and it is at MoMA that the painting picked up its most durable reading. That reading came from <strong>Alfred H. Barr Jr.</strong>, MoMA&rsquo;s founding director and one of the people who effectively wrote the standard story of modern art in the twentieth century. Barr looked at all that red-and-black chaos and saw, underneath it, something almost paradoxically calm. He called the painting <strong>&ldquo;as classically organized as a fifteenth-century battle piece by Paolo Uccello,&rdquo;</strong> likening it to Uccello&rsquo;s famous <em>Battle of San Romano</em>, the Renaissance war picture in which a tangle of lances and rearing horses is in fact pinned to a strict, almost geometric order. Keep that labeled as <em>Barr&rsquo;s</em> observation rather than the artist&rsquo;s stated plan; the scholar Rosalind McKever has since argued Carrà likely did know the Uccello. The point that lands is the one Barr was making: the riot only <em>looks</em> like pure pandemonium. Hold the canvas at arm&rsquo;s length and you can feel the diagonals bracing each other, the explosion held in a frame as taut as an old master&rsquo;s.
+      </p>
+      <p style={proseStyle}>
+        There is a harder thing to say about this painting, though, and it is worth saying plainly. In 1906 Carrà meant it. He was an anarchist, he was in that crowd, and the grief on the canvas is real. But the movement whose language he used to paint it did not stay where it started. <strong>Futurism</strong>, from its first 1909 manifesto, had openly glorified violence and war as a kind of cleansing energy, and its founder, <strong>Marinetti</strong>, went on to help launch <strong>Italian Fascism</strong> &mdash; founding a Futurist political party, folding it into Mussolini&rsquo;s movement, and co-writing the <strong>1919 Fascist Manifesto</strong>. <strong>Carrà himself made the same turn.</strong> The young anarchist of 1906 became an ultranationalist around the First World War and then a supporter of the Fascist-era order, lending his name in the 1930s to art in the service of the state. So the picture sits on a fault line. It is a sincere monument to a murdered worker, painted in the idiom of a movement that would soon supply the aesthetics of the very nationalism that crushed movements like Galli&rsquo;s. Both halves are true, and the painting is more honest, not less, once you hold them at the same time. That is finally the trick of it: Carrà took the most disordered thing he had ever lived through and gave it a structure, and the structure outlasted the politics that he and his movement carried into much darker rooms. It is why a street fight from 1906 still stops you a century on, and why it should also unsettle you.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  galli: { street: GalStreet, making: GalMaking, looking: GalLooking, memory: GalMemory, afterlife: GalAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Dynamism of a Cyclist (Boccioni, 1913) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function CycMilan({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1909" title="A movement announced before it had a single painting" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        uturism began as a press release. On <strong>20 February 1909</strong>, an Italian poet named <strong>Filippo Tommaso Marinetti</strong> (1876&ndash;1944; pronounced &ldquo;ma-ree-NET-tee&rdquo;) bought space on the front page of the big Paris newspaper <em>Le Figaro</em> and published the <strong>Manifesto of Futurism</strong>, a noisy declaration that the past was a museum to be burned down, that speed and machines and danger were beautiful, and that Italy should stop worshipping its own ruins and start worshipping the motorcar. Popular books get this backwards, so be precise: <strong>Marinetti founded Futurism. He was a poet, not a painter.</strong> When he launched the movement, it did not yet contain a single Futurist painting. The pictures had to be recruited.
+      </p>
+      <p style={proseStyle}>
+        So Marinetti went and found his painters in <strong>Milan</strong>, the industrial capital of northern Italy, all smoke and trams and electric light, the most modern city in a country famous for being old. Chief among the recruits was a young artist named <strong>Umberto Boccioni</strong> (1882&ndash;1916; pronounced &ldquo;boh-CHO-nee&rdquo;), who had moved to Milan in 1907 and fallen in with Marinetti&rsquo;s circle. Boccioni would become the movement&rsquo;s foremost painter and its sharpest thinker, the man who took Marinetti&rsquo;s slogans about speed and turned them into actual oil paint on actual canvas. He is the one we are following here.
+      </p>
+
+      <SectionHeader accent={accent} label="Milan · 1913" title="The year the subject almost vanished" />
+      <p style={proseStyle}>
+        Now jump four years, to <strong>1913</strong>. By this point Boccioni has stopped painting recognizable scenes. Only a little earlier, in <em>The City Rises</em> (1910&ndash;11), he had painted a legible picture: laborers, rearing horses, a city going up, all of it churning but all of it readable as <em>things</em>. By 1913 the readable thing is nearly gone. He is in the middle of a run of canvases he calls his &ldquo;dynamism&rdquo; pictures, <em>Dynamism of a Human Body</em>, <em>Dynamism of a Soccer Player</em>, <em>Plastic Dynamism: Horse + Houses</em>, and the one we are here for, <em>Dynamism of a Cyclist</em> (in Italian, <em>Dinamismo di un ciclista</em>). They came in a concentrated burst across 1913, and across the series the readable subject thins out canvas by canvas: the palette gets more vivid, the paint goes on thicker and denser, and the subject is pushed closer to dissolving than at any earlier point in his work.
+      </p>
+      <p style={proseStyle}>
+        The choice of subject is itself the argument. Not a saint, not a king, not a landscape: <strong>a man on a racing bicycle.</strong> The bicycle, by 1913, was already a decades-old machine, but Futurism had decided the modern world, the bike, the tram, the car, the crowd, was the only fit subject for a modern painting. And Boccioni did not want to paint a portrait of a cyclist. He wanted to paint <strong>cycling itself</strong>: the event of speeding, not the person doing the speeding. That distinction, cycling rather than the cyclist, is the whole picture. The hard part was making it: how do you take a man on a bike and turn him into a burst of pure motion without losing the fact that he is a man on a bike?
+      </p>
+    </article>
+  )
+}
+
+function CycMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The problem" title="How do you paint speed on a thing that cannot move?" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        painting is, by definition, a frozen thing. It hangs on a wall and does not move. For most of Western art history that was fine, because painters were trying to catch a single perfect instant, the moment the spear strikes, the second the smile holds. Futurism wanted the opposite. It wanted the <em>blur</em>, the whole duration of a motion smeared into one image, the way a galloping dog looks like it has twenty legs or a spinning wheel looks like a transparent disc. The Futurists had said so in print three years earlier. Their <strong>Technical Manifesto of Futurist Painting</strong>, published in Milan on <strong>11 April 1910</strong> and signed by Boccioni and four other painters, declared that the gesture they would paint &ldquo;shall no longer be a fixed moment in universal dynamism. It shall simply be <strong>the dynamic sensation itself.</strong>&rdquo;
+      </p>
+      <p style={proseStyle}>
+        That is a beautiful sentence and a genuinely hard assignment. &ldquo;The dynamic sensation itself,&rdquo; not the cyclist but the <em>feeling</em> of speeding, the world taken as motion rather than as still things, is not a thing you can point a brush at. The <em>Cyclist</em> is Boccioni&rsquo;s attempt, three years later, to actually deliver on it. To do it he reached for three tools and welded them together.
+      </p>
+
+      <SectionHeader accent={accent} label="The toolkit" title="Dots from Balla, planes from Paris, lines of his own" />
+      <p style={proseStyle}>
+        The first tool was the brushstroke itself. Boccioni had learned from the older painter <strong>Giacomo Balla</strong> (1871&ndash;1958) a technique called <strong>Divisionism</strong>, building a picture out of small separate dabs and strokes of unmixed color rather than smooth blended areas, so the surface vibrates. (It is the Italian cousin of the French dot-painting you may have met under the name Pointillism.) The second tool came from <strong>Paris</strong>, where Boccioni had gone to look at <strong>Cubism</strong>, the Picasso-and-Braque method of shattering an object into flat geometric facets and showing several of its angles at once. Boccioni took that faceting, the breaking-into-flat-planes, and threw away the calm: Cubism broke a guitar or a bottle apart while it sat perfectly still on a table, and Boccioni thought that was a waste of a good idea. He wanted the facets <em>moving</em>.
+      </p>
+      <p style={proseStyle}>
+        The third tool was the Futurists&rsquo; own invention, and it is the key to the whole canvas: <strong>force lines</strong>, in Italian <em>linee-forza</em>. These were lines the Futurists claimed showed &ldquo;how an object would resolve itself if it followed the tendencies of its own forces,&rdquo; long diagonal and curving strokes that carry an object&rsquo;s motion right out into the space around it. Think of the speed lines a cartoonist draws streaming off a running character, except taken seriously and made the literal structure of the picture. In the <em>Cyclist</em>, the force lines are not decoration added on top of the rider. They <em>are</em> the rider, more than his body is. The motion has become the subject and the man has become a side effect of it.
+      </p>
+
+      <SectionHeader accent={accent} label="The theory underneath" title="A philosopher who said nothing stands still" />
+      <p style={proseStyle}>
+        Boccioni had a word for the goal of all this: <strong>plastic dynamism</strong> (<em>dinamismo plastico</em>). &ldquo;Plastic&rdquo; here is the old art-school sense, having to do with shaping solid form, nothing to do with the material. <strong>Plastic dynamism</strong>, then, is his name for a single idea: that a moving body and the space it tears through are one continuous solid form, not a figure parked in front of a background. Behind that idea sat a real philosopher the Futurists admired, the Frenchman <strong>Henri Bergson</strong> (1859&ndash;1941), who argued that material objects are never truly static, that everything is in constant flux and flow, and that our habit of seeing the world as a set of fixed, separate things is a convenient lie our minds tell us. Paint <em>that</em>, the world as flow rather than as objects, and you get something close to the <em>Cyclist</em>: a picture in which the most solid-seeming thing, a man on a bike, has been caught in the act of coming apart into pure energy.
+      </p>
+      <p style={proseStyle}>
+        So that is the recipe. Vivid dabbed color, Cubist facets set in motion, force lines doing the real work, all in the service of a philosophy that says nothing ever holds still. The canvas is where it lands, and on it you can watch a human body dissolve into speed in real time.
+      </p>
+    </article>
+  )
+}
+
+function CycLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Small, wide, and almost without a subject" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting is not large. It runs about <strong>two feet three inches tall by three feet one inch wide</strong>, a <strong>landscape</strong> format, wider than it is tall, roughly the size of a modest framed window. That horizontal shape matters: it gives the motion somewhere to go, a track to run left-to-right across, which a tall format would have choked off. Walk up to it and the first thing to register is how little of it is anything you can name. There is no clear man. There is no clear bicycle. There is a wide, charged tangle of curving and slashing shapes in vivid, clashing color, and your eye has to go to work to find the rider inside it. That difficulty is not a problem to be solved. It is the experience the painting is built to produce.
+      </p>
+
+      <SectionHeader accent={accent} label="Find the rider" title="A lean, not a man" />
+      <p style={proseStyle}>
+        So start by finding what is left of the human being. Look to the <strong>upper part of the canvas, left of center</strong>, where the strongest forward thrust is. You are not going to find a face, or a torso, or two legs pumping. What you will find is a <strong>direction</strong>, a steep forward lean, a sense of a body folded down over handlebars and pitched into the rush. Boccioni&rsquo;s preparatory drawings show the cyclist as a head-down racer, crouched and &ldquo;behind in the air,&rdquo; and on the finished canvas that entire human being has been reduced to the single fact of <em>leaning forward fast</em>. You read him the way you read a sprinter glimpsed from the far side of a stadium: as a posture and an angle, recognized before any feature. That is the man. He is a lean. Hold onto him, because everything else in the picture is going to try to pull him apart.
+      </p>
+
+      <SectionHeader accent={accent} label="The wheel" title="A circle smeared into the arc of its own spin" />
+      <p style={proseStyle}>
+        Now drop your eye to the <strong>lower portion</strong> of the canvas and look for the bicycle. Again: do not expect to find one. There is no drawn wheel, no frame, no spokes you can count. What there is, low down, is a cluster of <strong>rounded, repeating arc-forms</strong>, curves that echo a wheel without ever closing into one. Boccioni has done to the wheel exactly what a real spinning wheel does to itself: at speed, a wheel stops being a circle of spokes and becomes a transparent blur, a sweep of curvature with no edges you can pin. He paints the wheel <em>as the moving eye sees it</em>, not as it sits in a bicycle shop. The most mechanical, most precisely circular object in the world has been smeared into the arc of its own rotation.
+      </p>
+
+      <SectionHeader accent={accent} label="The force lines" title="The slashes that carry the speed" />
+      <p style={proseStyle}>
+        Now stop hunting for objects and just let your eye ride the <strong>long diagonal lines</strong> that drive across the whole picture, running from the lower left up toward the right. These are the <strong>force lines</strong>, the device from the last chapter, the lines that supposedly trace how the object &ldquo;resolves itself&rdquo; along its own momentum. Here is the thing to actually <em>feel</em>: they move your eye for you. You do not look at this painting so much as get swept across it, lower-left to upper-right, the same way the cyclist is moving. The force lines are the painting&rsquo;s engine. They are what makes a stationary rectangle of canvas feel like it is already a body-length down the road and accelerating. Trace one with your eye and you will notice it does not stay inside the rider; it carries his motion out past him, into the space he hasn&rsquo;t reached yet.
+      </p>
+
+      <SectionHeader accent={accent} label="The dissolve" title="Where the man stops and the machine starts, and you can’t tell" />
+      <p style={proseStyle}>
+        Now go to the <strong>center mass</strong>, where the lean and the wheel and the force lines all collide, and try to do one simple thing: trace the outline of the cyclist. Trace where the man ends and the bicycle begins. <strong>You will not be able to do it.</strong> Your finger will start on what feels like a shoulder and slide off into a wedge that might be a thigh, might be a section of frame, might be a gust of displaced air. Rider and bicycle have been broken into interlocking planes and cones and fused into a single shape; the sources say it plainly: the bicycle, the figure, and the surrounding space &ldquo;seemingly fuse together in a single form.&rdquo; This is the heart of the whole canvas, and it is worth sitting with. We are used to a painting telling us, with a clean contour, &ldquo;this is the person; that is the background.&rdquo; This one refuses. Man, machine, and the rushing air have been welded into one speeding object, and the welding is so complete that you cannot reverse it with your eye.
+      </p>
+
+      <SectionHeader accent={accent} label="The color and the open edge" title="Clashing planes, and a body with no outline" />
+      <p style={proseStyle}>
+        Two last things, and they finish the dissolve. First, the <strong>color</strong>. The whole form is built from separate planes and strokes of vivid, clashing hue, the dabbed Divisionist touch pushed into faceted segments, and you should not go looking for it to harmonize. It doesn&rsquo;t. The Futurists never worked out a coherent color theory, and you can see them not having one: the cool tones and the warm earth tones jostle and refuse to settle. But read the discord as <em>energy</em>, as a deliberate loudness, and it does its job, color used as friction, the visual version of a noise that is loud on purpose. Second, and most important, look at the <strong>outer edges</strong> of the whole form, where it meets the ground around it. There is <strong>no closed outline</strong>. Nothing seals the cyclist off from the space he is in. His body opens into, and is continued by, the air he is cutting through. This is Boccioni&rsquo;s &ldquo;plastic dynamism&rdquo; made literal: the object and its environment as one continuous whole. A portrait draws a hard line and says <em>the person stops here</em>. This painting draws no such line on principle. And that is the final move, the one that makes the dissolve complete: <strong>the cyclist does not end. He bleeds out into his own motion.</strong> A flat canvas in 1913 had come about as close as a flat canvas can to painting not a fast thing, but speed itself.
+      </p>
+    </article>
+  )
+}
+
+function CycBoccioni({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Umberto Boccioni · 1882–1916" title="The painter who turned slogans into pictures" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>U</DropCap>
+        mberto Boccioni was born on <strong>19 October 1882</strong> in Reggio Calabria, at the far southern tip of Italy, and moved north to Milan in 1907, where he joined the circle around Marinetti and signed on to Futurism near its very beginning. It is the single most common mistake made about him, so it is worth saying flatly: <strong>Boccioni did not found Futurism.</strong> Marinetti did, with a newspaper manifesto, in 1909. Boccioni was a <strong>founding signatory of the painters&rsquo; manifestos</strong>, one of the artists who put his name to the documents, and he became the movement&rsquo;s leading visual artist and its chief theorist. The difference is real. Marinetti supplied the noise and the philosophy of speed; Boccioni was the one who could actually make a brush do it.
+      </p>
+      <p style={proseStyle}>
+        And he did not stop at painting. The same restless idea that drives the <em>Cyclist</em>, an object dissolving into its own motion, body and space made one continuous whole, he carried straight into sculpture, in the same year, 1913. His most famous object is a striding bronze figure whose muscles seem pulled out into wings of wind, a man remade as motion made solid. Painter and sculptor at once, writing the theory as he went, Boccioni was the rare artist who was also the movement&rsquo;s best explainer of itself.
+      </p>
+
+      <SectionHeader accent={accent} label="The end" title="Killed by a horse, at thirty-three" />
+      <p style={proseStyle}>
+        The career was short, and it ended with a bitter irony for a man who had spent it glorifying the machine age. When the First World War came, Boccioni, like Marinetti, who had cheerfully called war &ldquo;the world&rsquo;s only hygiene,&rdquo; was an enthusiast for it. He enlisted, and was drafted in May 1916. On <strong>17 August 1916</strong>, near Verona, during a cavalry and artillery training exercise, he was <strong>thrown from his horse and trampled</strong>, and died the next day. He was <strong>thirty-three</strong>. The prophet of the motorcar and the speeding bicycle was killed by the oldest machine of war there is, an animal, in a training accident, before the movement he had given its best pictures was a decade old.
+      </p>
+      <p style={proseStyle}>
+        It is hard not to read the <em>Cyclist</em> a little differently once you know that, a young man&rsquo;s ecstatic painting of speed and force and a body hurtling forward, made by someone who had only three years left. But the picture does not need the biography to work. It needed Boccioni to make it, and then it stood on its own, which is the last part of the story.
+      </p>
+    </article>
+  )
+}
+
+function CycAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1913" title="One short step from abstraction" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand back from the <em>Cyclist</em> and you can see how close it is sitting to the edge of a cliff. Strip away the last few clues, the lean, the arc of the wheel, and there would be no subject at all, just colored force moving across a rectangle. This is <strong>abstraction</strong> (painting that has given up on showing recognizable things and presents pure shape and color instead), a frontier several painters were crossing at almost the same moment, among them Kandinsky, Kupka, and Delaunay, and the <em>Cyclist</em> is one short step away from it. What is fascinating is that Boccioni refused to take that step. He kept the real cyclist in the real modern world, the bicycle as an emblem of modern speed, even as he pushed the figure almost out of existence. The picture insists on being <em>about</em> something even as it nearly becomes about nothing but motion.
+      </p>
+      <p style={proseStyle}>
+        The idea did not stay on the canvas. That same year, 1913, Boccioni took this exact thought, an object dissolving into its motion, body and space fused, into three dimensions, in his striding sculpture <em>Unique Forms of Continuity in Space</em>, a walking figure whose body is pulled out into the wind it is making. And the larger ambition behind the <em>Cyclist</em>, to paint not a fast thing but movement itself, fed straight into a century of artists trying to do the same: the painting of speed, of the machine, of the world as flow rather than as fixed objects. Whatever else Futurism got wrong (and it got plenty wrong, not least its founder&rsquo;s love affair with war and, later, with Fascism), it taught Western painting a genuinely new trick, how to show motion happening over time, and the <em>Cyclist</em> is among the cleanest demonstrations of it.
+      </p>
+
+      <SectionHeader accent={accent} label="Provenance" title="From the artist to a great Milan collection" />
+      <p style={proseStyle}>
+        Now the life of the object. Boccioni painted the <em>Cyclist</em> in 1913 and died in 1916, and the early chain of ownership, how it traveled from the artist to its great collector, is not documented in the accessible record, so we will leave that gap honestly empty rather than invent a story to fill it. What is documented is where it ended up: in the hands of <strong>Gianni Mattioli</strong> (1903&ndash;1977), a Milan textile businessman who assembled one of the finest private collections of early-twentieth-century Italian art, especially Futurism, with Boccioni at its center. Mattioli built the collection mainly across the late 1930s and 1940s, including a big 1949 purchase of eighty-seven works from another collector, Pietro Feroldi. (The exact date he acquired the <em>Cyclist</em> is, again, not recorded.)
+      </p>
+      <p style={proseStyle}>
+        On Mattioli&rsquo;s death in 1977 the collection passed to his daughter, the art historian <strong>Laura Mattioli</strong>, and it is here that the most famous, and most misquoted, line in the painting&rsquo;s record comes from. In <strong>1997</strong>, Laura Mattioli arranged for twenty-six of the family&rsquo;s Futurist masterpieces to go on <strong>long-term loan to the Peggy Guggenheim Collection in Venice</strong>, the small canal-side museum of modern art that the American heiress Peggy Guggenheim had left to the city. The loan opened on 6 September 1997, and the Guggenheim&rsquo;s own curators called this canvas &ldquo;his most beautiful.&rdquo; That is the line you will see attached to the painting everywhere: &ldquo;on long-term loan to the Peggy Guggenheim Collection, Venice.&rdquo; <strong>It is worth being clear that this describes a loan, not a sale, and that the loan has ended.</strong> The Mattioli Collection remained the owner the whole time, and around <strong>2015 or 2016</strong> the loan came to a close and the picture left Venice.
+      </p>
+
+      <SectionHeader accent={accent} label="Where it is now" title="Back in Milan, at the Museo del Novecento" />
+      <p style={proseStyle}>
+        So where does the <em>Cyclist</em> hang today? In <strong>Milan</strong>, where it started. After the Venice loan ended, the Mattioli Collection&rsquo;s twenty-six Futurist works, this canvas among them, went on a renewable long-term loan to the <strong>Museo del Novecento</strong>, Milan&rsquo;s museum of twentieth-century art, beginning in the spring of <strong>2022</strong>. The owner is still the <strong>Gianni Mattioli Collection</strong>; the painting simply hangs in the city it was made in rather than across the water in Venice. The old &ldquo;now at the Peggy Guggenheim, Venice&rdquo; label you may still see is out of date: that loan ran from 1997 to about 2015 and is over.
+      </p>
+      <p style={proseStyle}>
+        Which is a fitting place to leave it. A picture about a thing that will not hold still has, true to form, refused to hold still itself: from a young painter&rsquo;s studio in 1913, through one of the great private collections of Italian modernism, across two decades on the wall of a Venetian palazzo, and back to Milan, the smoky industrial city where Marinetti first went looking for someone who could paint his slogans. He found Boccioni, and Boccioni gave him this: a man on a bicycle abstracted almost out of existence, still hammering forward, more than a century later, and not slowing down.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  cyclist: { milan: CycMilan, making: CycMaking, looking: CycLooking, boccioni: CycBoccioni, afterlife: CycAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Unique Forms of Continuity in Space (Boccioni, 1913) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function UnqManifesto({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Milan · 1909" title="The movement that announced itself before it had any art" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        n <strong>20 February 1909</strong>, the front page of the Paris newspaper <em>Le Figaro</em> carried a manifesto by an Italian poet named <strong>Filippo Tommaso Marinetti</strong>. It announced a movement called <strong>Futurism</strong> (Italian <em>Futurismo</em>), and it was less an art program than a war cry. It worshipped the new century&rsquo;s machines, its speed, its electric cities, and its noise, and it sneered at everything old, slow, and revered. Its single most famous line declares that &ldquo;a roaring car&hellip; is more beautiful than the Victory of Samothrace&rdquo; &mdash; meaning the <strong>Nike of Samothrace</strong>, the celebrated headless, winged, striding Greek statue in the Louvre that stood, in 1909, for the unquestioned glory of ancient art. Hold that statue in mind.
+      </p>
+      <p style={proseStyle}>
+        Marinetti was the impresario. The man who would become Futurism&rsquo;s leading visual artist, and its only real sculptor, was <strong>Umberto Boccioni</strong> (1882&ndash;1916). Boccioni was a painter first, and a furiously ambitious one, but he came to believe that the thing Futurism most needed to do &mdash; show <em>motion</em>, show a moving body fused with the air and the speed around it &mdash; might be done even better in three dimensions than on a flat canvas. So he turned to sculpture, a medium that, in 1912, looked to him completely exhausted: marble nudes and bronze generals standing dead still on tall pedestals, exactly the kind of revered, frozen thing the manifesto had declared war on.
+      </p>
+
+      <SectionHeader accent={accent} label="The theory before the object" title="A statue with no closed surface and no pedestal" />
+      <p style={proseStyle}>
+        Boccioni did the theory first. On <strong>11 April 1912</strong> he published the <strong>Technical Manifesto of Futurist Sculpture</strong>, and it reads like a demolition order. He called for &ldquo;the complete abolition of the finished line and the closed statue&rdquo; &mdash; meaning a sculpture should no longer be a sealed, self-contained lump that stops cleanly at its own outline. He wanted to &ldquo;open up the figure like a window and enclose within it the environment in which it lives.&rdquo; He wanted, in his own phrase, to &ldquo;model the atmosphere&rdquo; &mdash; to make the air around a thing part of the thing itself. A traditional statue was a solid object sitting in space, sealed off from it. Boccioni wanted a sculpture that grabbed the space it moved through and dragged it along.
+      </p>
+      <p style={proseStyle}>
+        That is a lot to ask of a chunk of bronze, and on the page it sounds like the kind of thing manifestos say and objects never deliver. The remarkable thing about the figure is that it actually does it. Before that, two facts to carry in, because both get garbled constantly. First: the version Boccioni made in 1913 was <strong>plaster</strong>, not bronze. Second: he <strong>never cast it in metal himself</strong>. Every shining bronze you have ever seen of this figure was made after he was dead. Theory in 1912, plaster in 1913, and the artist gone by 1916.
+      </p>
+    </article>
+  )
+}
+
+function UnqMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The studio · 1913" title="Plaster, not bronze" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>1913</strong>, with the manifesto a year behind him, Boccioni made the figure. He modeled it in <strong>plaster</strong> &mdash; a soft white material you build up wet and let set hard, the standard way a sculptor works out a form before it is ever cast into permanent metal. (You will occasionally see it claimed that he made it in wax; that is a minority story, and the strong consensus, including the original that actually survives, is plaster.) This matters more than a footnote, because plaster is the version Boccioni himself shaped with his own hands, and it is the only version he ever saw. It survives, today, in a museum in <strong>São Paulo, Brazil</strong>. The famous gleaming metal ones came later, and not from him.
+      </p>
+      <p style={proseStyle}>
+        What he built was a single human figure in mid-stride &mdash; and then he attacked the human figure with his own manifesto. He gave it <strong>no fixed outline</strong>: its surfaces do not close over the body the way skin does, but peel back and stream off it in curved fins and blades. And he <strong>stripped the arms away entirely</strong>. There are no arms. Where they should hang, there are flanges of metal flaring out into the space behind. A walking man, opened up like a window, with the environment he moves through built right into him: the manifesto, made solid. (We will stand in front of the figure and read it properly in the next section.)
+      </p>
+
+      <SectionHeader accent={accent} label="The word he wanted" title="“Plastic dynamism”" />
+      <p style={proseStyle}>
+        Boccioni had a name for what he was reaching for: <strong>dynamism</strong>, and specifically <em>plastic dynamism</em> &mdash; &ldquo;plastic&rdquo; here in its old art-school sense, meaning <em>to do with shaping and modeling form</em>, not the material plastic, which did not yet exist as we mean it. Plastic dynamism was not a snapshot of a moving thing, the way a photograph freezes a runner. It was the <strong>fusion of a body with the motion and the space it generates</strong> &mdash; the moving man and the rushing air and the trailing wake all made into one continuous form.
+      </p>
+      <p style={proseStyle}>
+        He was clear that this was not done by piling up more body parts. Writing about exactly this work, he said the continuity he wanted was &ldquo;not to be found in repetition of legs, arms and faces&rdquo; but was achieved &ldquo;through the intuitive search for the unique form which gives continuity in space.&rdquo; Read those last words again, because they are not a description of the sculpture. They <em>are</em> the sculpture. <strong>Forme uniche della continuit&agrave; nello spazio</strong> &mdash; <em>Unique Forms of Continuity in Space</em>. The title is lifted, almost word for word, out of the artist&rsquo;s own statement of what he was after. The flanges streaming off the figure are not decoration and not damage. They are the wake of the stride, motion made solid, the one unique form that gives a body continuity into the space around it.
+      </p>
+    </article>
+  )
+}
+
+function UnqLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The figure" title="A man with no outline" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        his is a <strong>sculpture in the round</strong>, so there is no single front the way there is with a painting; you walk around it. But there is a standard view &mdash; the three-quarter striding profile, the one the museums photograph and the one on the coin &mdash; and it is the view to hold in your head while you read. The figure is not large: a little under four feet tall, roughly chest height on an adult, small enough to stand on a table. Picture it the size of a striding child, cast in heavy bronze, and start, as the figure itself does, from the ground up.
+      </p>
+      <p style={proseStyle}>
+        Begin with the <strong>legs</strong>, because the legs are the engine. They are thick, frankly muscular, planted in a deep mid-stride: one driving leg forward with the weight thrown onto it, the other trailing behind, the whole posture caught at the instant of pushing off. This is the most human part of the figure, the part that reads, unmistakably, as a body walking. Everything above the legs is what that walking <em>does</em> to a body, so you have to feel the stride first or the rest looks like abstraction for its own sake. It is not. It is a man, mid-step, going somewhere with force.
+      </p>
+
+      <SectionHeader accent={accent} label="The flanges" title="The skin that won’t close" />
+      <p style={proseStyle}>
+        Now look at what is happening to the <strong>body</strong>. The figure&rsquo;s surface does not seal over it. Off the torso, the back, and the thighs, the metal splits open and streams backward into curved <strong>flanges</strong> &mdash; fins and blades that flare out like wings, or like flame bent flat by a wind, or like the wake peeling off the hull of a boat. This is the single most important thing to see in the whole sculpture, and it is the literal form Boccioni&rsquo;s manifesto demanded: <strong>no finished line, no closed surface</strong>. The body is opened up and the air it is shoving through has been built right into it. Trace one flange with your eye from where it leaves the thigh to where it streams off behind, and you are tracing the path of the air around a running man, frozen in bronze.
+      </p>
+      <p style={proseStyle}>
+        And here is the thing your eye keeps reaching for and not finding: the <strong>arms</strong>. There are none. Boccioni cut them off. Where a striding figure would swing its arms, this one has only the flanges flaring from the torso. The missing arms are the reason the figure is so often <strong>read against</strong> two famous armless ancestors &mdash; the ancient <strong>Nike of Samothrace</strong>, the winged, headless, striding Greek Victory in the Louvre that Marinetti had sneered at next to a racing car, and <strong>Rodin&rsquo;s <em>Walking Man</em></strong>, a striding bronze with no arms and no head. That comparison is a reading by later scholars, not something Boccioni is documented to have intended &mdash; so hold it as a likeness, not a confession. But the effect of removing the arms is plain enough: with nothing to gesture or balance or reach, the figure becomes <strong>pure forward force</strong>, a body that is nothing but the act of moving.
+      </p>
+
+      <SectionHeader accent={accent} label="The wake, and the torso" title="Half man, half engine" />
+      <p style={proseStyle}>
+        Look behind and around the figure, at the curves that seem to belong to the air rather than the man. Those backward-streaming forms are not clothing and not muscle. They are the <strong>wake of the stride</strong> made solid &mdash; the trail a moving body leaves in the space it disturbs, which Boccioni insisted was part of the body itself. This is &ldquo;continuity in space&rdquo; you can see: the figure does not stop at its own edge. It bleeds into the air. Where a normal statue ends cleanly at its outline and the world begins, this one has no clean edge at all; man and motion and space are one continuous shape. (Move around it and the same forms shift their story: from straight on the flanges read as wings; from the side, as a wake streaming off a hull.)
+      </p>
+      <p style={proseStyle}>
+        Last, the <strong>torso</strong> and chest &mdash; and read them as machinery. The midsection is swept and streamlined, faceted into hard planes, less a ribcage than a <strong>hull or a fuselage</strong>, a thing built to part the air. Futurism was in love with the machine, and this figure is half man and half engine: a human body redesigned by speed until it looks aerodynamic. On the polished bronze casts, the metal makes that machine quality glint and sharpen &mdash; which is a small irony worth holding, because the metal that suits the work so perfectly is metal the artist never chose. Then drop your eye to the very bottom. The figure does not rise from a grand pedestal. It strides off <strong>two small block footings</strong>, one under each foot &mdash; not floating, not baseless, but deliberately denied the tall plinth of a traditional statue, so that it reads as a man going somewhere, not a monument standing still. Boccioni&rsquo;s manifesto had declared war on the sealed statue on its column. Here, at the figure&rsquo;s feet, is the war won.
+      </p>
+    </article>
+  )
+}
+
+function UnqDeath({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Verona · 1916" title="The man who worshipped the machine, killed by a horse" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        uturism had glorified war. Marinetti&rsquo;s founding manifesto had promised to &ldquo;glorify war &mdash; the world&rsquo;s only hygiene,&rdquo; and when the First World War came, several of the Futurists, Boccioni among them, volunteered. It is one of the bleak facts of the movement that the men who had spent years celebrating speed, force, and violence got the real thing, and it killed some of them. Boccioni enlisted, served, and in <strong>1916</strong> was in a cavalry training unit near <strong>Verona</strong>, in northern Italy.
+      </p>
+      <p style={proseStyle}>
+        He died in a way that reads almost as a grim joke at the movement&rsquo;s expense. The artist who had remade the human body as an aerodynamic engine, who had put a racing car above a Greek goddess, was not killed by any machine. He was <strong>thrown from a horse</strong> during a cavalry training exercise, and died of his injuries. He was <strong>thirty-three</strong>. The most modern artist in Italy, the prophet of the machine age, was undone by the oldest transport there is.
+      </p>
+      <p style={proseStyle}>
+        And here is what he left behind, where this figure is concerned. He left the <strong>plaster</strong>. That was all. He had modeled <em>Unique Forms</em> in 1913, exhibited his Futurist sculptures, written the theory that the figure fulfilled &mdash; and then he was gone, at thirty-three, with the sculpture that would become his masterpiece still a white plaster cast, never once committed to permanent bronze by the hand that made it. Whatever the figure was going to become in metal, he would have no part in it. The version of this sculpture that hangs in the world&rsquo;s great museums, the gleaming bronze on the coin, is a thing he never saw and never made.
+      </p>
+      <p style={proseStyle}>
+        Nor did he live to see where the movement went. A few years after his death, Futurism&rsquo;s founder Marinetti would help launch Italian Fascism and tie the movement to Mussolini&rsquo;s regime. Boccioni, dead in 1916, had no part in that; the Fascism came three years after he was buried. But the worship of war and force that ran through Futurism from the very first manifesto did not stay on the page, and the man who wrote those words lived long enough to put them into politics.
+      </p>
+    </article>
+  )
+}
+
+function UnqAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1931" title="The bronzes begin, fifteen years too late" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he bronze story starts in <strong>1931</strong> &mdash; fifteen years after Boccioni&rsquo;s death. That year the first two bronze casts were made from the plaster. A bronze cast is made by taking a mold off the original and pouring molten metal into it, so the bronze is a metal copy of the plaster &mdash; which is exactly why it could be done at all after Boccioni was dead, and why the same mold can yield copy after copy. One of those first two is now in the <strong>Museum of Modern Art</strong> in New York, which dates its cast, with admirable honesty, &ldquo;1913, cast 1931 or 1934&rdquo; &mdash; the museum itself is not certain of the exact year. Note what that means: the most famous version of this sculpture is a posthumous metal copy whose own owner cannot pin its birthday to the year. This is normal for posthumous casts, and it is exactly the kind of thing the careful version of art history says out loud rather than smoothing over.
+      </p>
+      <p style={proseStyle}>
+        More casts followed. Around mid-century there were further bronzes &mdash; the one in the <strong>Metropolitan Museum of Art</strong> in New York, which the Met dates to <strong>1950</strong>, came to that museum in 1989 as a bequest; another went to the <strong>Museo del Novecento</strong> in Milan. Then in <strong>1972</strong> a larger group was cast, and this is where it gets genuinely thorny: several of the 1972 bronzes were made <strong>not from Boccioni&rsquo;s plaster but from one of the existing bronzes</strong> &mdash; a cast taken from a cast. The <strong>Tate</strong> in London holds one of the 1972 casts. So &ldquo;the Boccioni in the museum&rdquo; may be one step, or two steps, removed from anything the artist ever touched.
+      </p>
+
+      <SectionHeader accent={accent} label="The wrinkle" title="The most famous version is the one he never made" />
+      <p style={proseStyle}>
+        The strangeness here is real and rarely said plainly: every bronze of <em>Unique Forms</em> is <strong>posthumous</strong>. Not one was cast, finished, or approved by Boccioni. Some are copies of copies. The version the entire world recognizes &mdash; the gleaming, museum-lit, machine-perfect bronze &mdash; is precisely the version the artist had no hand in. The thing he actually made, the plaster, sits comparatively unseen in São Paulo, while its metal afterimages stand in New York, London, and Milan.
+      </p>
+      <p style={proseStyle}>
+        And there is a deeper irony folded inside that one. Futurism prized the <strong>new</strong>, the <strong>unique</strong>, the once-only burst of modern life &mdash; the title of this very work begins with the word <em>unique</em>. Yet the work survives, and is loved, through <strong>mechanical bronze multiples</strong>: a dozen-odd identical metal copies, manufactured after the fact, several of them copied from each other. A movement that hated the museum and the monument is now famous through monuments in museums. The artist would have had opinions.
+      </p>
+
+      <SectionHeader accent={accent} label="The coin" title="A striding bronze, small enough to spend" />
+      <p style={proseStyle}>
+        The last chapter of the figure&rsquo;s afterlife is the smallest and the widest. In the late 1990s, when Italy was choosing the designs for its new <strong>euro coins</strong>, it put <em>Unique Forms of Continuity in Space</em> on the <strong>20-cent coin</strong> &mdash; the striding figure, in profile, on a piece of metal you can carry loose in a pocket. The coins entered circulation in <strong>2002</strong>. So the most reproduced Futurist sculpture in the world is now reproduced again, by the hundreds of millions, in a soft gold-colored alloy, riding around in the change of anyone who has ever bought a coffee in Italy.
+      </p>
+      <p style={proseStyle}>
+        It is a fitting and faintly absurd resting place for the work. A figure built to embody pure forward motion now travels constantly, hand to hand, across a whole currency union. A sculpture that began as one fragile plaster, made by an artist who died at thirty-three and never cast it, ended up &mdash; by way of the coin &mdash; as one of the most widely circulated images of any twentieth-century artwork. And you can still feel, in the small striding figure on the coin, the legs driving forward and the body torn open into wings of speed, exactly as Boccioni shaped it in plaster, more than a century ago, before he had any idea where it would go.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'unique-forms': { manifesto: UnqManifesto, making: UnqMaking, looking: UnqLooking, death: UnqDeath, afterlife: UnqAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  'city-rises': { manifestos: CtyManifestos, site: CtySite, looking: CtyLooking, divisionism: CtyDivisionism, afterlife: CtyAfterlife },
+  dog: { teacher: DogTeacher, making: DogMaking, looking: DogLooking, science: DogScience, afterlife: DogAfterlife },
+  galli: { street: GalStreet, making: GalMaking, looking: GalLooking, memory: GalMemory, afterlife: GalAfterlife },
+  cyclist: { milan: CycMilan, making: CycMaking, looking: CycLooking, boccioni: CycBoccioni, afterlife: CycAfterlife },
+  'unique-forms': { manifesto: UnqManifesto, making: UnqMaking, looking: UnqLooking, death: UnqDeath, afterlife: UnqAfterlife },
   'rue-pavoisee': { 'le-havre': RueLeHavre, making: RueMaking, looking: RueLooking, break: RueBreak, afterlife: RueAfterlife },
   luxe: { 'saint-tropez': LuxSaintTropez, making: LuxMaking, looking: LuxLooking, independants: LuxIndependants, afterlife: LuxAfterlife },
   'open-window': { collioure: WinCollioure, making: WinMaking, looking: WinLooking, salon: WinSalon, afterlife: WinAfterlife },

@@ -5477,5 +5477,442 @@ export const RUE_PAVOISEE: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE }
+// ─────────────────────────────────────────────────────────────
+// Work, The City Rises (La città che sale), Boccioni, 1910. MoMA.
+// Boccioni's first major Futurist canvas (scope: Futurism, not a universal first).
+// Authored through the art content pipeline (fact pack → Opus → 5 gates → revise).
+// Chapter prose in art-section-reader.tsx NARRATIVES['city-rises'] (Cty… prefix).
+// FACT HANDLING per fact pack: DATE 1910 (1911 = the Il lavoro exhibition only).
+// Manifesto: do NOT write "first published in Le Figaro" (Italian printings preceded
+// the 20 Feb 1909 Le Figaro front page). Marinetti FOUNDED Futurism (1909); Boccioni
+// wrote the Technical Manifesto of Futurist Painting (1910). 1912 Busoni purchase
+// price UNDOCUMENTED → price: null, never invented. Death-by-horse: thrown 16 Aug 1916,
+// died 17 Aug 1916, age 33 — stated as fact and framed as irony, never prophecy.
+// FRAMING (gate F1): Futurism's manifesto glorified war/violence/"scorn for woman";
+// Marinetti later co-wrote the 1919 Fascist Manifesto. Boccioni died 1916, BEFORE
+// Fascism (1919) — frame the war/violence/misogyny as contemporaneous with the
+// painting, Marinetti's Fascism as a LATER turn the dead Boccioni did not follow.
+// ─────────────────────────────────────────────────────────────
+export const CITY_RISES: ArtWorkContent = {
+  id: 'city-rises',
+  name: 'The City Rises',
+  shortName: 'The City Rises',
+  year: 1910,
+  artist: 'Umberto Boccioni',
+  artistId: 'boccioni',
+  movement: 'Futurism',
+  movementId: 'fut',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '6 ft 6 1/2 in × 9 ft 10 1/2 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Mrs. Simon Guggenheim Fund, 1951',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Works of Futurism', index: 1, total: 9 },
+  hook: 'A nine-foot building site where a giant red workhorse lunges out of the dust and drags the men trying to hold it, Boccioni’s first all-out Futurist canvas, painting labor and the rising city with the violence the academy saved for battle scenes.',
+  heroImage: ART_IMG.boccioniCity,
+  heroCredit: 'Boccioni, The City Rises (La città che sale), 1910 · Museum of Modern Art, New York',
+  heroAspect: 1.51, // 301 × 199.3 cm → W/H ≈ 1.51, landscape
+  heroFit: 'contain', // the whole ~6½ × 10 ft canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1910', k: 'Painted' },
+    { v: '6′6½″ × 9′10½″', k: 'Dimensions' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'manifestos', eyebrow: 'Milan · 1909–1910', dateLabel: '1909–1910', title: 'A movement before it had a single painting', blurb: 'The poet Marinetti launches Futurism with a press release on the front page of a Paris newspaper, then recruits the painters. The same manifesto that worshipped speed and machines also glorified war and despised women, and Marinetti would later carry the movement into Fascism. Boccioni and four others sign two 1910 manifestos and have to go and prove, in paint, what the words promised.', progress: 0.08 },
+    { id: 'site', eyebrow: 'The making', dateLabel: '1910', title: 'Boccioni paints the theory: a building site', blurb: 'He takes the most modern subject he can find, a suburb of Milan under construction, men and horses straining at heavy work amid scaffolding and chimneys, and gives it the heroic scale a history painter saved for a battle. When it was shown in 1911 he titled it, plainly, Il lavoro: “The Work.”', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '6 ft 6 1/2 in × 9 ft 10 1/2 in', title: 'The great red horse, and work made into motion', blurb: 'The huge red dray-horse lunging at the center, the small men hauling against it, the faint scaffolds rising behind, and the long feathered strokes that smear the whole thing into one churning surge of movement.', progress: 0.56 },
+    { id: 'divisionism', eyebrow: 'The break', dateLabel: '1910', title: 'Old dots, new speed', blurb: 'The surface is still Divisionism, the small separate strokes of pure color Boccioni came up in, the Italian heir of Seurat’s dot. But here he stretches the stroke long and directional so the optical-color method stops vibrating in place and starts moving. That bend is the hinge of the picture.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1912–today', title: 'The doorway into Futurism', blurb: 'It headlined Futurism’s 1912 tour of Europe, was bought in London by a famous composer, passed to his son in New York, and reached MoMA in 1951. The man who put a violent horse at the center of it would be killed by one in 1916.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1910–1912', who: 'Umberto Boccioni (the artist)', place: 'Milan', note: 'Painted in 1910. Shown as Il lavoro (“The Work”) at the Mostra d’arte libera, Milan, 1911, then sent on Futurism’s touring European exhibitions of 1912.', price: null },
+    { year: '1912', who: 'Ferruccio Busoni (composer and pianist)', place: 'London', note: 'Bought from the Futurists’ London showing at the Sackville Gallery in March 1912 by the composer-pianist Ferruccio Busoni; it then lived with the Busoni family. No purchase figure is documented in the sources.', price: null },
+    { year: 'c. 1950–1951', who: 'Raffaello Busoni (the composer’s son)', place: 'New York', note: 'Passed to Ferruccio’s son, Raffaello Busoni, who had emigrated to the United States.', price: null },
+    { year: '1951–today', who: 'Museum of Modern Art', place: 'New York', note: 'Purchased from Raffaello Busoni in 1951, Mrs. Simon Guggenheim Fund. Accession 507.1951. On view.', price: 'Mrs. Simon Guggenheim Fund (museum purchase)', museum: true },
+  ],
+  figures: [
+    { name: 'Umberto Boccioni', role: 'The painter', palette: ['#bf3a25', '#3a4a6a', '#1c1208'] },
+    { name: 'Filippo Tommaso Marinetti', role: 'Founded Futurism', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'] },
+    { name: 'Giacomo Balla', role: 'His teacher; brought him Divisionism', palette: ['#5a4a2a', '#2a2218', '#0e0a06'] },
+    { name: 'Gaetano Previati', role: 'Italian Divisionist he came out of', palette: ['#6a6354', '#39322a', '#120f0c'] },
+    { name: 'Ferruccio Busoni', role: 'Composer; first private owner', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+  ],
+  annotations: [
+    { label: 'The great red horse', where: 'Center / center-left, the massive animal lunging forward and to the left, filling the heart of the canvas', detail: 'The picture’s engine: a huge red-brown draft horse, far larger than any worker, caught mid-surge. It is not a true horse-color so much as a charge of energy, and everything in the composition is dragged into its motion. The literal fact on the canvas is the lunging red horse; the reading of it as the city’s own growth, a power the men can barely hold, is a reading, and a fair one.' },
+    { label: 'The straining workers', where: 'Clustered around and below the horse, in the foreground, leaning hard against it', detail: 'Small human figures grip harness and rope and throw their whole weight backward, hauling against the animal. Boccioni shrinks the men and enlarges the beast so that the labor reads as force against force. (You will see it described as the horse “knocking the workers down”; what is plainly on the canvas is men leaning back and hauling while the horse lunges, so keep the knock-down as interpretation.) The dignity and the danger of modern work, given the scale of a battle scene.' },
+    { label: 'The construction scaffolding', where: 'Background, to the right and upper-right, behind the dust', detail: 'Thin scaffolds, the skeleton of buildings going up, with factory chimneys behind them. This is the literal “city rising”: a Milan suburb under construction. Notice that the architecture is kept faint and hazed against the horse, deliberately secondary to the energy in front of it. The title is not a metaphor; the city is physically being built in the background.' },
+    { label: 'The blurred motion', where: 'Throughout, strongest around the horse’s body and the workers’ limbs', detail: 'Edges dissolve and the figures smear into the air around them. Boccioni is not painting a frozen instant but the passage of movement, the idea from his Technical Manifesto of Futurist Painting that a body in motion multiplies and merges with its surroundings. A horse in mid-lunge is shown as a haze of force, not a snapshot.' },
+    { label: 'The Divisionist strokes', where: 'Anywhere across the surface; clearest in the open ground and the horse’s flank', detail: 'The whole picture is built from countless small, separate strokes of bright, often complementary color. This is Divisionism, the Italian heir of Seurat’s dot: up close it is a flicker of distinct touches, and from a few steps back they fuse into a vibrating glow. Here the strokes are pulled long and directional so the optical-color method also carries the motion.' },
+    { label: 'The swirling composition', where: 'The overall design, figures, dust, and color wheeling around the central horse', detail: 'Rather than a calm horizontal scene, everything spirals inward toward the lunging horse: diagonals of rope, hauling bodies, and feathered strokes all curve into one inward whirl. There is no still place for the eye to rest. The design itself enacts dynamism, which is the whole Futurist point.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Divisionism', mode: 'art' },
+      { label: 'Marinetti’s manifesto', mode: 'art' },
+      { label: 'The industrial city', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Futurist dynamism', mode: 'art' },
+      { label: 'Boccioni’s States of Mind', mode: 'art' },
+      { label: 'The machine age in art', mode: 'civ' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Dynamism of a Dog on a Leash (Dinamismo di un cane al
+// guinzaglio), Giacomo Balla, 1912, Buffalo AKG Art Museum (was the
+// Albright-Knox Art Gallery; renamed 2023). A flagship Futurism work
+// read. Authored through the art content pipeline (fact pack → Opus →
+// 5 gates → revise). Chapter prose in art-section-reader.tsx
+// NARRATIVES['dog'] (Dog… prefix). FACT HANDLING (gate-corrected):
+// the motion idea ties to the manifesto's HORSE line ("a running horse
+// has not four legs, but twenty"), NOT a nonexistent "dogs in movement"
+// passage. The museum's own page NAMES the Contessa Nerazzini as the
+// student Balla was visiting/staying with at Montepulciano — so that is
+// ASSERTED; what is hedged is only whether the walking woman in the
+// picture is her and the dog is hers (the museum says "his or her
+// owner," gender-neutral). Chronophotography (Marey/Muybridge) is the
+// DOCUMENTED precedent for the motion toolkit, but no specific copied
+// plate is claimed. PD-US only (Balla d. 1958 → worldwide PD 2029) →
+// /en/ tier figure, rights: 'pd-us'.
+// ─────────────────────────────────────────────────────────────
+export const DOG: ArtWorkContent = {
+  id: 'dog',
+  name: 'Dynamism of a Dog on a Leash',
+  shortName: 'Dynamism of a Dog on a Leash',
+  year: 1912,
+  artist: 'Giacomo Balla',
+  artistId: 'balla',
+  movement: 'Futurism',
+  movementId: 'fut',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 11 3/8 in × 3 ft 7 1/4 in',
+  location: 'Buffalo AKG Art Museum, Buffalo, New York',
+  acquired: 'Bequest of A. Conger Goodyear and Gift of George F. Goodyear, 1964 (acc. 1964:16)',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Works of Futurism', index: 3, total: 9 },
+  hook: 'A little dachshund out for a walk, its legs blurred into a brown fan of motion and its leash a swarm of swinging arcs, made by the movement that worshipped the racing car and the machine gun. Futurism’s most beloved, and most unexpectedly funny, picture of pure speed.',
+  heroImage: ART_IMG.ballaDog,
+  heroCredit: 'Balla, Dynamism of a Dog on a Leash, 1912 · Buffalo AKG Art Museum, Buffalo, New York',
+  heroAspect: 1.22, // 89.9 × 109.9 cm → W/H ≈ 1.22 (museum dims); en-scan 2304 × 1902 ≈ 1.21
+  heroFit: 'contain', // whole canvas, never cropped
+  rights: 'pd-us', // published 1912 → US public domain; Balla d. 1958 → NOT PD worldwide until 2029 → /en/ tier only
+  stats: [
+    { v: '1912', k: 'Painted' },
+    { v: '2′11⅜″ × 3′7¼″', k: 'Dimensions' },
+    { v: 'Buffalo AKG', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'teacher', eyebrow: 'Rome · 1910', dateLabel: '1910', title: 'The teacher who joined his own students’ revolution', blurb: 'Balla was the older, established painter who taught the young Roman avant-garde the divided-color technique, then signed on to the Futurist movement his own pupils, Boccioni and Severini, had started, and would go further into pure abstraction than any of them.', progress: 0.08 },
+    { id: 'making', eyebrow: 'Montepulciano · 1912', dateLabel: 'May 1912', title: 'A dachshund, a lady in black, a Tuscan road', blurb: 'Painted while staying with a student, the Contessa Nerazzini, in a Tuscan hill town: a small dog on a leash and the stepping feet of its owner, dissolved into a flicker of repeated forms over the pale summer dust.', progress: 0.30 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 11⅜ in × 3 ft 7¼ in', title: 'Twenty legs on a wiener dog', blurb: 'The blurred multiplied legs, the swinging leash drawn as a fan of arcs, the staccato row of the lady’s feet, the solid sausage body the motion radiates from, and the pink-and-green road underneath.', progress: 0.54 },
+    { id: 'science', eyebrow: 'The idea', dateLabel: '1880s–1912', title: 'Persistence of vision, and the cameras that proved it', blurb: 'The manifesto’s program (a running horse has twenty legs, not four) and the chronophotography of Marey and Muybridge, the multiple-exposure motion photographs that are the documented source of the whole motion-painting toolkit, turned into paint.', progress: 0.76 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1913–today', title: 'The charming picture from a violent movement', blurb: 'Debuted in Berlin in 1913, bought from the artist by a MoMA founder, dismissed mid-century as crude, later loved as the friendly face of a movement that openly glorified war. On view in Buffalo.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1912', who: 'Giacomo Balla (the artist)', place: 'Montepulciano / Rome', note: 'Painted May 1912 while staying at Montepulciano, near Siena, in Tuscany, as the guest of one of his students, the Contessa Nerazzini.', price: null },
+    { year: '1913', who: 'Galerie Der Sturm (Herwarth Walden)', place: 'Berlin', note: 'Shown internationally at the Erster Deutscher Herbstsalon (First German Autumn Salon), Berlin, September–December 1913, hung beside a photograph; Walden’s Sturm-Galerie handled it.', price: null },
+    { year: '1938', who: 'A. Conger Goodyear', place: 'Buffalo / New York', note: 'Bought directly from the artist in 1938 by the industrialist A. Conger Goodyear, the first president of the Museum of Modern Art. No purchase price is documented.', price: null },
+    { year: '1964', who: 'George F. Goodyear (life interest) & the Albright-Knox Art Gallery', place: 'Buffalo', note: 'A. Conger Goodyear’s 1964 bequest split the work: a life interest to George F. Goodyear and the painting to the gallery. Accession 1964:16 assigned.', price: 'bequest', museum: true },
+    { year: '1984', who: 'Albright-Knox Art Gallery (full title)', place: 'Buffalo', note: 'George F. Goodyear gave his life interest to the gallery in December 1984, completing the transfer.', price: 'gift', museum: true },
+    { year: '2023–today', who: 'Buffalo AKG Art Museum', place: 'Buffalo, New York', note: 'The same institution reopened in 2023, after a major expansion, renamed the Buffalo AKG Art Museum. Accession unchanged (1964:16). On view.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Giacomo Balla', role: 'The painter', palette: ['#8a4a2a', '#4a2c18', '#15100a'] },
+    { name: 'Filippo Tommaso Marinetti', role: 'Launched Futurism, 1909', palette: ['#bf2f25', '#3a1410', '#120806'] },
+    { name: 'Étienne-Jules Marey', role: 'Chronophotography, the precedent', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Eadweard Muybridge', role: 'The galloping-horse photographs', palette: ['#6a6354', '#39322a', '#120f0c'] },
+    { name: 'A. Conger Goodyear', role: 'Bought it from Balla, 1938', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  annotations: [
+    { label: 'The multiplied dog legs', where: 'Lower center, the dense brown blur beneath the dachshund’s body, where the legs should be', detail: 'The dog’s four short legs are smeared into a fan of maybe twenty overlapping positions, a brown haze of feet. This is the painting’s clearest single illustration of the manifesto’s claim that a running horse has not four legs but twenty: every leg-position the eye would catch in a fast trot, laid down at once. Persistence of vision made paint.' },
+    { label: 'The swinging leash arcs', where: 'Center, the curving lines running from the lady’s hand down to the dog', detail: 'The leash is not one line but a set of repeated curves, the arcs of its swing captured together, so a single slack lead becomes a fan of loops. It is the same multiply-the-moving device applied to a thin moving object instead of a body, and it is the easiest place to watch Balla’s whole method work on something simple.' },
+    { label: 'The lady’s stepping feet', where: 'Upper register, the row of small dark shoes and the black skirt-hem moving left to right', detail: 'Above the dog, the owner is present only as a flicker of feet and the black hem of her skirt, her steps multiplied into a staccato row of shoes. There is no face, no body, no figure, just the rhythm of the walking. Balla shows the walker by her motion alone.' },
+    { label: 'The trotting dachshund body', where: 'Center, the single fairly solid dark sausage-shaped form the legs hang from', detail: 'Unlike the dissolved legs and the smeared leash, the dog’s long low body stays relatively whole and recognizable, the still core the motion-blur radiates out from. That contrast, solid body and exploded legs, is exactly how the eye reads the whole shape as one trotting dog rather than a brown smudge.' },
+    { label: 'The pavement, the Tuscan road', where: 'The whole ground plane the figures cross, streaked pink and green', detail: 'The ground is not a flat color but a field of pink-and-green strokes, often read as the pale summer dust of the Montepulciano road catching the light. It also keeps Balla’s old divided-color habit alive: color built from separate strokes meant to mix in the viewer’s eye rather than on the palette.' },
+    { label: 'Repetition as the whole method', where: 'Everywhere at once, comparing the blurred legs, leash and feet against the solid body', detail: 'Step back and the trick is the same all over the canvas: anything moving is painted as many overlapping copies of itself, and anything still stays single. Multiply the moving, hold the still. That one rule is the entire engine of the picture, and the simplest demonstration of why Futurism called this dynamism.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Divisionism', mode: 'art' },
+      { label: 'Chronophotography (Marey · Muybridge)', mode: 'civ' },
+      { label: 'The Futurist manifestos', mode: 'art' },
+    ],
+    children: [
+      { label: 'Abstraction of motion', mode: 'art' },
+      { label: 'Marcel Duchamp’s Nude Descending', mode: 'art' },
+      { label: 'The image of speed', mode: 'civ' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Funeral of the Anarchist Galli (I funerali dell'anarchico Galli),
+// Carlo Carrà, 1910–11, Museum of Modern Art, New York. The Futurism work read.
+// Authored through the art content pipeline (fact pack → Opus → 5 gates → revise).
+// Chapter prose in art-section-reader.tsx NARRATIVES['galli'] (Gal… prefix).
+// FACTS handled per fact pack: Galli died 10 May 1906 (NOT 1904 — Carrà's own
+// memoir misdated it; Corriere della Sera corrected it; prose uses 1906, notes the
+// slip). The "I found myself unwillingly in the centre of it…" passage is from
+// Carrà's 1945 memoir La mia vita, framed as recollection, not live reportage.
+// The "Royal Guard killed one, injured eight" casualty figure is single-sourced
+// (hedged). Marinetti is movement context only, no role in this canvas; the
+// closing beat names the Futurism→Fascism arc (1906–11 Carrà WAS an anarchist;
+// the right-turn is later). The force-lines quote is attributed to the Futurists'
+// own 1912 Bernheim-Jeune catalogue preface, not the 1910 Technical Manifesto.
+// rights: pd-us (Carrà d.1966 → PD-US only, self-host tier like the Demoiselles).
+// ─────────────────────────────────────────────────────────────
+export const GALLI: ArtWorkContent = {
+  id: 'galli',
+  name: 'Funeral of the Anarchist Galli',
+  shortName: 'Funeral of the Anarchist Galli',
+  year: 1911,
+  artist: 'Carlo Carrà',
+  artistId: 'carra',
+  movement: 'Futurism',
+  movementId: 'fut',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '6 ft 6 1/4 in × 8 ft 6 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Acquired through the Lillie P. Bliss Bequest (by exchange), 1948',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Works of Futurism', index: 5, total: 9 },
+  hook: 'A street fight Carrà was swept into himself, an anarchist’s red-draped coffin pitching above the crowd while mounted police charged, repainted years later as a red-and-black explosion you are not allowed to watch from outside.',
+  heroImage: ART_IMG.carraGalli,
+  heroCredit: 'Carrà, Funeral of the Anarchist Galli, 1910–11 · Museum of Modern Art, New York',
+  heroAspect: 1.3, // 259.1 × 198.7 cm → W/H ≈ 1.30
+  heroFit: 'contain', // the whole landscape canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1910–11', k: 'Painted' },
+    { v: '6′6¼″ × 8′6″', k: 'Dimensions' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'street', eyebrow: 'Milan · May 1906', dateLabel: '10–13 May 1906', title: 'The funeral the police would not let through', blurb: 'A general strike convulses Milan; the young anarchist organizer Angelo Galli is stabbed to death on 10 May 1906, and at his funeral days later the police on horseback refuse to let the procession reach the cemetery. Carrà, an anarchist himself, is caught in the crush.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1910–1911', title: 'A calm study, then Cubism breaks it open', blurb: 'Carrà’s 1910 charcoal study still uses old-fashioned, near one-point perspective. After the Futurists’ 1911 trip to Paris and a face-to-face with Picasso’s Cubism, he goes back and fractures the whole canvas, driving diagonal “lines of force” through the riot.', progress: 0.30 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '6 ft 6 1/4 in × 8 ft 6 in', title: 'Red coffin, black crowd, lines of force', blurb: 'One blazing red coffin riding above a churning black mass, a horse rearing into the crowd, a thicket of lances and flag-poles overhead, and a sunburst of diagonal rays that fractures every figure it crosses and drags you bodily into the fight.', progress: 0.55 },
+    { id: 'memory', eyebrow: 'His own account', dateLabel: '1945', title: 'The riot Carrà remembered, and misdated', blurb: 'In his 1945 memoir Carrà recalls the coffin swaying and “horses go mad,” the source the whole painting comes from. The same memoir gets the year wrong, dating it to the 1904 strike; a newspaper later caught the slip.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1912–today', title: 'Paris, Berlin, and the fault line under the picture', blurb: 'First shown in Paris in 1912 at the Futurists’ landmark group exhibition, the canvas passes through Berlin and Dutch collections before MoMA acquires it in 1948, where Alfred Barr reads its chaos as secretly classical, ordered like a fifteenth-century battle piece. And then the harder thing: the movement and the painter both turned toward Fascism.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1911–1912', who: 'Carlo Carrà (the artist)', place: 'Milan', note: 'Completed 1911; first exhibited at Galerie Bernheim-Jeune, Paris, in February 1912, the Futurists’ landmark group show organized with Félix Fénéon.', price: null },
+    { year: '1912', who: 'Borchardt Collection', place: 'Berlin', note: 'Purchased in Berlin in 1912 through Galerie Der Sturm, Herwarth Walden’s avant-garde gallery and the German staging-post for Futurism.', price: null },
+    { year: 'by 1914', who: 'Franz Kluxen', place: 'Germany', note: 'Into the collection of the German collector Franz Kluxen.', price: null },
+    { year: 'by 1920', who: 'Herwarth Walden · Galerie Der Sturm', place: 'Berlin', note: 'Back through Walden’s Der Sturm gallery in Berlin.', price: null },
+    { year: '1920–1948', who: 'Paul Citroen', place: 'Wassenaar, Holland', note: 'Purchased from Der Sturm in 1920 by the artist-collector Paul Citroen, who held it for nearly three decades.', price: null },
+    { year: '1948–today', who: 'Museum of Modern Art', place: 'New York', note: 'Acquired through the Lillie P. Bliss Bequest, by exchange (traded for rather than bought with cash). Accession 235.1948. On permanent view.', price: 'by exchange', museum: true },
+  ],
+  figures: [
+    { name: 'Carlo Carrà', role: 'The painter · anarchist in 1906, Fascist-era nationalist later', palette: ['#bf2f25', '#1c1c1c', '#6a1414'] },
+    { name: 'Angelo Galli', role: 'The murdered anarchist (b. ~1883, killed at ~23)', palette: ['#8a1c1c', '#3a1010', '#120606'] },
+    { name: 'Umberto Boccioni', role: 'Futurist · theorist of force-lines', palette: ['#bf3a25', '#3a4a6a', '#1c1208'] },
+    { name: 'Filippo Tommaso Marinetti', role: 'Founder of Futurism · later co-founder of Fascism', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'] },
+    { name: 'Alfred H. Barr Jr.', role: 'MoMA’s founder · the Uccello reading', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
+  ],
+  annotations: [
+    { label: 'The red coffin at the heart of it', where: 'Upper center, raised on the mourners’ shoulders, the one blazing red mass', detail: 'The single brightest, reddest passage in the whole picture is Galli’s coffin, draped and, in Carrà’s memory, heaped with red carnations, hoisted up on the pallbearers’ shoulders. Carrà treats it almost as a source of light, red flaring out of it across the black figures. It is the still pivot the whole brawl turns around, and the first thing the eye finds. A murdered young man, turned by the canvas into the hot core of a blast.' },
+    { label: 'Black mourners, mounted police', where: 'Massed across the lower and central canvas, the cavalry pressing in from the left', detail: 'Almost everyone wears anarchist black, so the crowd reads as a single dark, churning mass rather than a row of individuals. Pushing into them from the left are the police on horseback, the line that would not let the coffin reach the cemetery. The whole picture is built as that collision: black crowd against red coffin against charging horse.' },
+    { label: 'The rearing clash', where: 'Left and center, where horse and figures buckle into each other', detail: 'Carrà remembered “horses go mad,” and on the canvas a horse rears up into the crowd while bodies bend back away from it. This is the literal flashpoint of the riot, the instant the funeral became a fight, and it sits just left of the coffin so you read violence and stillness in the same glance.' },
+    { label: 'The lances, poles and banners overhead', where: 'The upper third, a thicket of dark diagonals stabbing up into the light', detail: 'Across the top, hard black lines shoot skyward: the police lances, the anarchists’ flag-poles and banner-staffs, with the cranes of the factory district behind them. These are the “sticks and lances clash” of Carrà’s account, abstracted into a bristle of diagonals that are half real objects, half pure direction.' },
+    { label: 'The sunburst of force-lines', where: 'Radiating out from the coffin and the sky across the whole upper canvas', detail: 'Light does not fall on this scene from any one place; it explodes outward in sheaves of diagonal rays, the Futurist “lines of force” (linee-forza). They slice through every figure they cross, and they are meant, by the Futurists’ own catalogue statement, to drag you bodily into the fight rather than let you watch from outside. They are the clearest mark of the 1911 Cubist-charged rework over the calmer 1910 study, and a reminder that for Futurism this worship of force was a creed, not just a way to arrange a picture.' },
+    { label: 'The chaos of bodies', where: 'Throughout the central and lower zone, where limbs and torsos fuse and overlap', detail: 'Step in close and the figures stop being separate people. Arms, backs and heads splinter and pass through one another, the way Cubism let one form interpenetrate the next. Carrà fractures the crowd so the surge reads as one continuous motion, which is why the funeral feels like a single body convulsing rather than a gathering of mourners.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Divisionism', mode: 'art' },
+      { label: 'Cubism', mode: 'art' },
+      { label: 'Milanese anarchism', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Futurist “lines of force”', mode: 'art' },
+      { label: 'Political modern painting', mode: 'art' },
+      { label: 'The crowd as a subject', mode: 'civ' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Dynamism of a Cyclist (Boccioni, 1913). The Futurism WORK read.
+// Authored through the art content pipeline (fact pack → Opus → 5 gates →
+// revise). Chapter prose in art-section-reader.tsx NARRATIVES['cyclist']
+// (Cyc… prefix). FACT-TRAPS handled per fact pack + gates: OWNER is the
+// Gianni Mattioli Collection — the famous "on long-term loan to the Peggy
+// Guggenheim, Venice" credit describes a 1997–c.2016 loan that HAS ENDED
+// (never present-tense). CURRENT WALL is now firmly documented: the
+// Mattioli Collection's Futurist works (this one included) moved to the
+// Museo del Novecento, Milan, on a renewable long-term loan from spring
+// 2022 (The Art Newspaper; Wikipedia infobox). Marinetti FOUNDED Futurism,
+// not Boccioni. Dims 70 × 95 cm = landscape ~1.36, never flipped portrait.
+// No invented early provenance / price. The 1910 Technical Manifesto
+// "dynamic sensation itself" line is the one verbatim-safe quotation.
+// ─────────────────────────────────────────────────────────────
+export const CYCLIST: ArtWorkContent = {
+  id: 'cyclist',
+  name: 'Dynamism of a Cyclist',
+  shortName: 'Dynamism of a Cyclist',
+  year: 1913,
+  artist: 'Umberto Boccioni',
+  artistId: 'boccioni',
+  movement: 'Futurism',
+  movementId: 'fut',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 3 1/2 in × 3 ft 1 1/2 in',
+  location: 'Museo del Novecento, Milan (long-term loan from the Gianni Mattioli Collection)',
+  acquired: 'Gianni Mattioli Collection, Milan; on long-term loan to the Peggy Guggenheim Collection, Venice, 1997 to c.2016; on long-term loan to the Museo del Novecento, Milan, from 2022',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Works of Futurism', index: 6, total: 9 },
+  hook: 'A racing cyclist, head down and hammering forward, with no man and no bicycle left to find, only a single burst of curving force where rider, machine, and rushing air have fused into one speeding shape.',
+  heroImage: ART_IMG.boccioniCyclist,
+  heroCredit: 'Boccioni, Dynamism of a Cyclist, 1913 · Gianni Mattioli Collection, on long-term loan to the Museo del Novecento, Milan',
+  heroAspect: 1.36, // 70 × 95 cm → W/H = 95/70 ≈ 1.357, LANDSCAPE
+  heroFit: 'contain', // whole canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1913', k: 'Painted' },
+    { v: '2′3½″ × 3′1½″', k: 'Dimensions' },
+    { v: 'Mattioli Coll.', k: 'Owner' },
+  ],
+  sections: [
+    { id: 'milan', eyebrow: 'Milan · 1913', dateLabel: '1913', title: 'A poet’s movement, four years on', blurb: 'A Paris newspaper had announced Futurism in 1909; by 1913 the painter Marinetti recruited is in Milan, in a run of "dynamism" canvases, pushing the recognizable subject closer to vanishing than anyone yet had.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1913', title: 'Force lines and a body coming apart', blurb: 'A Divisionist stroke learned from Balla, Cubist faceting picked up in Paris, and the Futurists’ own "force lines," all aimed at one target: not a cyclist, but cycling itself. The theory, made paint.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 3½ in × 3 ft 1½ in', title: 'Watch the body dissolve into speed', blurb: 'Read the painting itself: the head-down lean that is all that survives of the man, the wheel smeared into the arc of its own spin, the diagonal force lines tearing across, the open edges where the rider bleeds into the air he is cutting.', progress: 0.58 },
+    { id: 'boccioni', eyebrow: 'Umberto Boccioni', dateLabel: '1882–1916', title: 'The movement’s foremost painter, dead at 33', blurb: 'Not the founder of Futurism (that was Marinetti) but its leading visual artist and chief theorist, the man who turned the slogans into pictures and a famous striding bronze, killed in a training accident in 1916.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1913–today', title: 'One short step from abstraction', blurb: 'The near-abstract treatment of motion fed straight into Boccioni’s sculpture of the same year and into a century of trying to paint movement itself; the canvas passed to the great collector Gianni Mattioli, was loaned to Venice for two decades, and now hangs at the Museo del Novecento in Milan.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1913–1916', who: 'Umberto Boccioni (the artist), then his estate', place: 'Milan', note: 'Painted in 1913 during the run of "dynamism" canvases. Boccioni died in August 1916. The early chain of ownership from the artist to Mattioli is not documented in accessible sources, so it is left as a gap rather than invented.', price: null },
+    { year: 'by 1949–1977', who: 'Gianni Mattioli', place: 'Milan', note: 'The Milan textile businessman Gianni Mattioli built one of the great private collections of early-twentieth-century Italian art, especially Futurism, with Boccioni at its center. He assembled it mainly in the late 1930s and 1940s, including a major 1949 purchase of 87 works from the Pietro Feroldi collection. The exact date he acquired the Cyclist is not documented.', price: null },
+    { year: '1977–today', who: 'Laura Mattioli (Rossi), heir / Gianni Mattioli Collection', place: 'Milan', note: 'Inherited on her father’s death in 1977. An art historian, she arranged the long-term loan of the family’s Futurist masterpieces to Venice.', price: 'inherited' },
+    { year: '1997–c.2016', who: 'On long-term loan to the Peggy Guggenheim Collection', place: 'Venice', note: 'Twenty-six works from the Mattioli Collection went on long-term loan to the Peggy Guggenheim Collection, opening 6 September 1997; the Guggenheim’s curators called this canvas "his most beautiful." The loan ran to about 2015 or 2016. It was a loan, not a change of ownership: the Mattioli Collection remained the owner throughout.', price: 'loan, not sale', museum: true },
+    { year: '2022–today', who: 'On long-term loan to the Museo del Novecento (Gianni Mattioli Collection)', place: 'Milan', note: 'After the Venice loan ended, the Mattioli Collection’s 26 Futurist works, this canvas among them, went to the Museo del Novecento in Milan on a renewable long-term loan beginning in spring 2022. The Mattioli Collection remains the owner; the painting hangs in Milan.', price: 'loan, not sale', museum: true },
+  ],
+  figures: [
+    { name: 'Umberto Boccioni', role: 'The painter', palette: ['#bf3a25', '#3a4a6a', '#1c1208'] },
+    { name: 'Filippo Tommaso Marinetti', role: 'Founded Futurism', palette: ['#6a3a2a', '#33231a', '#0e0a06'] },
+    { name: 'Giacomo Balla', role: 'Taught Boccioni the Divisionist stroke', palette: ['#8a6a3a', '#3a3020', '#100c08'] },
+    { name: 'Henri Bergson', role: 'Philosopher of constant flux', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Gianni Mattioli', role: 'Collector; built the Futurist collection', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+  ],
+  annotations: [
+    { label: 'The rider, bent into the speed', where: 'Upper area, center-left: the strongest forward-leaning thrust, reading left to right', detail: 'The one foothold of the human subject. Boccioni’s preparatory drawings show a head-down racer crouched forward, "behind in the air," and on the canvas that pose survives only as a direction and a lean, not as a drawn man. You read the rider the way you read a sprinter from across a stadium, as posture and angle before face: a body folded over the bars, all of it pitched forward into the rush. There is no portrait here, no readable face. The man has been boiled down to the single fact of where he is going.' },
+    { label: 'The wheel, smeared into its own spin', where: 'Lower portion: the rounded, repeating arc-forms', detail: 'Curved and circular shapes echo the spinning wheel, but go looking for a complete drawn wheel and you will not find one. The circle has been smeared into the arc of its own rotation, the way a spoked wheel turns into a transparent blur the instant it gets up to speed. This is Boccioni refusing to draw the bicycle as a thing standing still long enough to be drawn. He paints the wheel as it actually appears to a moving eye, which is to say, as no fixed wheel at all but as a sweep of curvature.' },
+    { label: 'The diagonal force lines', where: 'Driving across the whole canvas, from the lower left up toward the right', detail: 'These long diagonal and curving strokes are the Futurists’ signature device, the linee-forza, or "force lines": lines they claimed showed how an object would resolve itself if it simply followed the tendencies of its own forces. Forget the jargon and just follow them with your eye. They carry the motion across the picture for you, lower-left to upper-right, so that looking at the painting is itself a small act of speeding. The lines are the engine. They are what makes a still canvas feel like it is already three feet down the road.' },
+    { label: 'The near-dissolved body', where: 'The center mass, where figure and machine meet', detail: 'Here is the crux of the whole picture. Rider and bicycle are broken into interlocking planes and cones and fused into one shape, and you cannot cleanly say where the man stops and the machine starts. The sources put it flatly: the bicycle, the figure, and the surrounding space "seemingly fuse together in a single form." Try to trace the outline of the cyclist and your finger keeps wandering off into wedges that could be a knee, a frame, a gust of air. That confusion is not a failure of your looking. It is the entire point. Boccioni has welded man and machine into one speeding object.' },
+    { label: 'The color planes of speed', where: 'Throughout: the patches of contrasting, clashing hue', detail: 'The form is built from separate planes and strokes of vivid, often clashing color, the dabbed Divisionist touch Boccioni learned from Balla pushed into Cubist faceting. Do not look for a tidy color scheme; there isn’t one. The Futurists never settled a coherent color theory, and it shows, the hues collide rather than harmonize. But read it as energy and the discord starts to work for you: the cool tones and the warm earth tones jostle and refuse to sit still, exactly like the thing they describe. This is color used as a kind of friction, the visual equivalent of a sound that is loud on purpose.' },
+    { label: 'No fixed contour', where: 'The outer edges of the form, where it bleeds into the ground around it', detail: 'Look at the outside edge of the cyclist and notice what is missing: there is no closed outline sealing him off from the space around him. The body opens into, and is continued by, the air it is tearing through. This is the idea Boccioni called "plastic dynamism," the object and its environment treated as one continuous whole rather than a figure parked in front of a background. A still portrait draws a hard line and says "the person stops here." This painting refuses that line on principle. The cyclist does not end. He dissolves into his own motion, which is the closest a flat canvas in 1913 had come to painting speed itself.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Cubism', mode: 'art' },
+      { label: 'Divisionism (Balla)', mode: 'art' },
+      { label: 'Bergson’s philosophy', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Unique Forms of Continuity in Space', mode: 'art' },
+      { label: 'Painting motion itself', mode: 'art' },
+      { label: 'Abstraction', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Unique Forms of Continuity in Space (Boccioni, 1913). The flagship
+// Futurism work read — and the only SCULPTURE in the art works so far.
+// Authored through the art content pipeline (fact pack → Opus → 5 gates → revise).
+// Chapter prose in art-section-reader.tsx NARRATIVES['unique-forms'] (Unq… prefix).
+// FACTS handled per fact pack: the 1913 original is PLASTER (now MAC USP, São Paulo);
+// Boccioni NEVER cast it in metal — ALL bronzes are POSTHUMOUS (first two 1931;
+// Met cast 1950 per the live Met API, into the Met 1990 via the Malbin bequest;
+// 1972 group incl. Tate, some casts-of-casts). Boccioni d. 1916, age 33, after a fall
+// from a horse in WWI cavalry training. The Nike of Samothrace / Rodin "Walking Man"
+// link is a SCHOLARLY READING, framed "is often read against," not documented homage
+// intent. Marinetti (founder) later co-founded Fascism — Boccioni, dead 1916, had no
+// part in it. On the Italian 20-cent euro coin since 2002. Hero = a born-verified
+// Commons photo of the Met bronze cast (design PD-US); heroFit 'contain', portrait aspect.
+// ─────────────────────────────────────────────────────────────
+export const UNIQUE_FORMS: ArtWorkContent = {
+  id: 'unique-forms',
+  name: 'Unique Forms of Continuity in Space',
+  shortName: 'Unique Forms',
+  year: 1913,
+  artist: 'Umberto Boccioni',
+  artistId: 'boccioni',
+  movement: 'Futurism',
+  movementId: 'fut',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Bronze (cast posthumously from the 1913 plaster)',
+  dimensions: 'About 3 ft 8 in tall (figure); 3 ft 11¾ in with base (Met bronze)',
+  location: 'Casts at MoMA and the Metropolitan Museum, New York; the Tate, London; the Museo del Novecento, Milan; and elsewhere. Original 1913 plaster at MAC USP, São Paulo.',
+  acquired: 'Met bronze: Bequest of Lydia Winston Malbin, 1989 (accession 1990.38.3)',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Works of Futurism', index: 8, total: 9 },
+  hook: 'A bronze man caught mid-stride, his body torn open into wings of flame by his own speed, built in plaster in 1913 by an artist who died three years later and never saw it cast in metal, and now small enough to ride in your pocket on the Italian 20-cent coin.',
+  heroImage: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Unique_Forms_of_Continuity_in_Space_MET_DT6411.jpg',
+  heroCredit: 'Boccioni, Unique Forms of Continuity in Space, modeled 1913, this bronze cast 1950 · The Metropolitan Museum of Art, New York',
+  heroAspect: 0.8, // 2978 × 3722 → W/H ≈ 0.80, a tall striding figure (portrait)
+  heroFit: 'contain', // a sculpture in the round — show the whole figure, never crop
+  rights: 'pd-us',
+  stats: [
+    { v: '1913', k: 'Modeled' },
+    { v: '~3 ft 8 in', k: 'Figure height' },
+    { v: 'Bronze (posthumous)', k: 'Now known as' },
+  ],
+  sections: [
+    { id: 'manifesto', eyebrow: 'Milan · 1909–12', dateLabel: '1909–12', title: 'The movement that wanted to sculpt speed', blurb: 'Marinetti launches Futurism with a front-page manifesto worshipping the machine and the racing car, and Boccioni, the movement’s chief sculptor, writes the theory of a statue with no closed surface and no pedestal before he ever makes one.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The studio', dateLabel: '1913', title: 'Plaster, not bronze', blurb: 'Boccioni models the figure in plaster in 1913: a striding human form with no fixed outline, the arms stripped away, the surfaces peeling back into flame-shaped flanges. He never casts it in metal. He calls what he is after “plastic dynamism.”', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The figure', dateLabel: '~3 ft 8 in tall', title: 'A man with no outline', blurb: 'Read the sculpture itself: the heavy striding legs, the flame- and wind-like flanges streaming off the body, the missing arms, the aerodynamic torso, the wake of motion made solid, and the two block footings instead of a grand plinth.', progress: 0.56 },
+    { id: 'death', eyebrow: 'Verona · 1916', dateLabel: '1916', title: 'Dead at thirty-three', blurb: 'Boccioni goes to war, and the man who glorified speed and the machine is killed not by a machine but by a horse, thrown during a cavalry training exercise, dead of his injuries at thirty-three, with the figure still only plaster.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1931–today', title: 'The bronzes he never saw, and the coin in your pocket', blurb: 'The first bronzes are cast in 1931, fifteen years after his death; more follow, some cast from other bronzes. The version the world knows is one the artist never authorized, and Italy put it on the 20-cent euro coin, so the most reproduced Futurist sculpture rides in millions of pockets.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1913', who: 'Umberto Boccioni (the artist)', place: 'Milan', note: 'Modeled in plaster in 1913. Boccioni never cast the work in bronze in his lifetime; the only version he made was the plaster.', price: null },
+    { year: '1916', who: 'Boccioni dies', place: 'near Verona', note: 'Killed at thirty-three of injuries after being thrown from a horse during a cavalry training exercise in the First World War. The work still existed only as plaster.', price: null },
+    { year: '1913–today', who: 'The original plaster', place: 'São Paulo', note: 'The surviving 1913 plaster is at the Museu de Arte Contemporânea da Universidade de São Paulo (MAC USP), Brazil. It is the only version Boccioni himself made.', price: 'the original', museum: true },
+    { year: '1931', who: 'First bronzes (posthumous)', place: 'New York', note: 'The first two bronze casts are made in 1931, fifteen years after Boccioni’s death. One is at the Museum of Modern Art, which dates its cast “1913, cast 1931 or 1934,” keeping its own hedge on the exact year.', price: 'posthumous cast', museum: true },
+    { year: '1950', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'The Met’s bronze, which the Met dates “1913, cast 1950,” came to the museum as the Bequest of Lydia Winston Malbin, 1989 (accession 1990.38.3): 47¾ × 35 × 15¾ in, 200 lb. A second mid-century cast went to the Museo del Novecento, Milan.', price: 'bequest', museum: true },
+    { year: '1972–today', who: 'Further casts, and the euro coin', place: 'London / Milan / Rome', note: 'A further group of bronzes was cast in 1972. The Tate, London, cast is associated with this batch, and several 1972 casts were taken not from the plaster but from one of the existing mid-century bronzes, a cast of a cast. In the late 1990s Italy chose the figure for the 20-cent euro coin, in circulation since 2002.', price: 'posthumous casts', museum: true },
+  ],
+  figures: [
+    { name: 'Umberto Boccioni', role: 'The sculptor; Futurism’s chief artist', palette: ['#bf3a25', '#3a4a6a', '#1c1208'] },
+    { name: 'F. T. Marinetti', role: 'Founded Futurism, 1909; later co-founded Fascism', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'] },
+    { name: 'The 1913 plaster', role: 'The only version he made', palette: ['#cabfa6', '#8a7a5a', '#3a3020'] },
+    { name: 'The posthumous bronzes', role: 'Cast 1931 onward, never by him', palette: ['#8a7448', '#5a4a2a', '#1c1408'] },
+    { name: 'The 20-cent euro coin', role: 'The figure in your pocket', palette: ['#b8902c', '#7a5e1c', '#2a1e08'] },
+  ],
+  annotations: [
+    { label: 'The striding muscular legs', where: 'The lower half: the two thick legs, one driving forward, one trailing behind.', detail: 'The legs are the engine of the whole figure: heavy, frankly muscular, mid-stride with the weight thrown forward onto the leading foot. Everything above them is being dragged and reshaped by that motion. This is where the sculpture is most plainly a body walking rather than an abstract shape, so start here, and the rest of the figure reads as what the walking does to a body.' },
+    { label: 'The flame- and wind-like flanges', where: 'The torso, back, and thighs, where curved fins and blades of metal peel off the body’s surface and stream backward.', detail: 'The figure’s skin does not close. It splits open into wing- or flame-shaped flanges that flare and stream behind the body, as if the air is carving the man as he pushes through it. This is the work’s signature feature, and it is the literal form Boccioni’s manifesto demanded: no finished line, no sealed surface, the body opened out into the space around it.' },
+    { label: 'The arms that aren’t there', where: 'The shoulders and sides, where arms would hang, there are none.', detail: 'Boccioni left the figure armless. The flanges flare from the torso and thighs where arms should be. The work is often read against two famous armless precedents, the ancient Greek Winged Victory (Nike) of Samothrace and Rodin’s striding Walking Man, though that is a reading by later scholars, not a documented statement of Boccioni’s intent. The effect of cutting the arms is to turn a man into pure forward force.' },
+    { label: 'The wake of motion', where: 'Behind and around the figure, the trailing curves that seem to belong to the air, not the man.', detail: 'These backward-streaming forms are not clothing and not anatomy. They are the trail of the stride made solid, Boccioni’s “plastic dynamism,” the idea that a moving body and the space it disturbs are one continuous form. The “continuity in space” of the title is exactly this: the figure does not stop at its own edge.' },
+    { label: 'The aerodynamic torso', where: 'The chest and midsection, swept and streamlined as if built to move through air.', detail: 'The torso reads less like a ribcage than like a hull or a fuselage: streamlined, faceted, shoved by speed. Futurism loved the machine, and the body here is half man, half engine. On the polished bronze casts the metal sharpens that machine quality further, which is one more reason the bronze, however unauthorized, fits the work so well.' },
+    { label: 'The two block footings, not a plinth', where: 'The base, where the figure rises off two small block-like supports rather than a single grand pedestal.', detail: 'Boccioni’s manifesto attacked the statue sealed onto its pedestal, shut off from the world. Here the figure strides off two small blocks, one under each foot, not a grand plinth, so it reads as going somewhere rather than posed for display. It is not floating or baseless; it has those minimal footings. But the difference from a traditional statue on its column is the whole point.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'The Nike of Samothrace', mode: 'art' },
+      { label: 'Rodin’s Walking Man', mode: 'art' },
+      { label: 'The Technical Manifesto of Futurist Sculpture', mode: 'art' },
+    ],
+    children: [
+      { label: 'Sculpture of motion', mode: 'art' },
+      { label: 'The machine age in art', mode: 'civ' },
+      { label: 'The euro coin', mode: 'civ' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
