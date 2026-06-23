@@ -5396,5 +5396,86 @@ export const CHARING_CROSS: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS }
+// ─────────────────────────────────────────────────────────────
+// Work, La Rue pavoisée (Street Decked with Flags), Raoul Dufy, 1906,
+// Musée national d'art moderne, Centre Pompidou (inv. AM 4113 P). The
+// Fauvism work read. Authored through the art content pipeline (fact pack
+// → Opus → 5 gates → revise). Chapter prose in art-section-reader.tsx
+// NARRATIVES['rue-pavoisee'] (Rue… prefix). LEGENDS handled per fact pack:
+// Matisse's Luxe, calme et volupté turned Dufy toward Fauvism (stated as
+// EFFECT, no flat "a revelation" quote); the street is "a Le Havre street,"
+// NOT named "Rue des Drapiers"; this is the 1906 Pompidou canvas, NOT the
+// 1907 MoMA or NGA Washington versions; no lettering/signs annotation
+// (unconfirmed); the Monet flag-street precedent named generically.
+// ─────────────────────────────────────────────────────────────
+export const RUE_PAVOISEE: ArtWorkContent = {
+  id: 'rue-pavoisee',
+  name: 'Street Decked with Flags',
+  shortName: 'La Rue pavoisée',
+  year: 1906,
+  artist: 'Raoul Dufy',
+  artistId: 'dufy',
+  movement: 'Fauvism',
+  movementId: 'fauv',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 7 7/8 in × 2 ft 1 5/8 in',
+  location: 'Musée national d’art moderne, Centre Pompidou, Paris',
+  acquired: 'Bequest of Mme Raoul Dufy, 1963 (inv. AM 4113 P)',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Works of Fauvism', index: 8, total: 9 },
+  hook: 'His home port’s street dressed for Bastille Day, where Dufy let a wall of tricolor flags do the radical work, flat patches of pure red, white and blue that flatten the whole street into pattern.',
+  heroImage: ART_IMG.dufyRuePavoisee,
+  heroCredit: 'Dufy, La Rue pavoisée (Street Decked with Flags), 1906 · Musée national d’art moderne, Centre Pompidou, Paris',
+  heroAspect: 0.8, // 81 × 65 cm (H × W), portrait → W/H = 65/81 ≈ 0.80
+  heroFit: 'contain', // the whole canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1906', k: 'Painted' },
+    { v: '2′8″ × 2′1½″', k: 'Dimensions' },
+    { v: 'Pompidou (MNAM)', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'le-havre', eyebrow: 'Le Havre · 1906', dateLabel: '1906', title: 'The painter who came from the port', blurb: 'Dufy was born in Le Havre, the big Norman port at the mouth of the Seine, and grew up among its harbor basins, yachts and regattas. The flag motif came straight out of his sea pictures, and this is his own hometown painted on its festival day.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: 'summer 1906', title: 'Matisse’s shock, and Marquet at the next window', blurb: 'Seeing Matisse’s Luxe, calme et volupté at the 1905 Indépendants turned Dufy toward Fauvism. The next summer he worked the Normandy coast beside Albert Marquet, the two painting the same flag-decked Le Havre streets side by side for the 14th of July.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 7 7/8 in × 2 ft 1 5/8 in', title: 'A street that is all pure color', blurb: 'The frontal tricolor at the center, the cascade of red-white-blue flag-patches strung up the receding street, the green-and-pink houses running back in steep perspective, the festival crowd massed below, and a high-key holiday palette (bright, light-filled color) that builds the space out of flat color, not light.', progress: 0.56 },
+    { id: 'break', eyebrow: 'Why it matters', dateLabel: '1906', title: 'The festival doing the Fauve’s work', blurb: 'The Pompidou’s own point: by hanging a French flag frontally at the center, Dufy radically emphasizes the flatness of the picture surface. The subject is already abstract color, and the picture lets that color, independent of the motif, generate the space.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1906–today', title: 'The breakthrough he kept his whole life', blurb: 'Dufy’s Fauve period was brief; Cézanne soon pulled him a different way and the famous decorative style, including his textile work, came later. He never sold this canvas. It went to his widow, who bequeathed it to the French national modern-art museum in 1963.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1906–1953', who: 'Raoul Dufy (the artist)', place: 'Le Havre / Paris', note: 'Painted in Le Havre for the 14th of July celebrations of 1906. Never sold; kept by Dufy himself his whole life, a painter’s own bookmark of a breakthrough. To his widow on his death on 23 March 1953.', price: null },
+    { year: '1953–1963', who: 'Émilienne Dufy (the artist’s widow, “Mme Raoul Dufy”)', place: 'Paris', note: 'Passed to his widow, who held it for the decade after his death.', price: null },
+    { year: '1963–today', who: 'Musée national d’art moderne (Centre Pompidou)', place: 'Paris', note: 'Bequest of Mme Raoul Dufy, 1963 (“Legs de Mme Raoul Dufy”). Inv. AM 4113 P. It never went to market; artist → widow → national bequest. On permanent view.', price: 'bequest to the museum', museum: true },
+  ],
+  figures: [
+    { name: 'Raoul Dufy', role: 'The painter; Le Havre native', palette: ['#bf2f25', '#1d4ed8', '#0e0c0a'] },
+    { name: 'Henri Matisse', role: 'Turned him toward Fauvism', palette: ['#c8b84a', '#3a6a8a', '#14120a'] },
+    { name: 'Albert Marquet', role: 'Painted the same flagged streets beside him', palette: ['#6a6a74', '#2e3a42', '#0e1014'] },
+    { name: 'Claude Monet', role: 'Precedent: the 1878 flag-street fête', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+    { name: 'Mme Raoul Dufy', role: 'Bequeathed it to the nation, 1963', palette: ['#8a4d3b', '#3e3320', '#12100a'] },
+  ],
+  annotations: [
+    { label: 'The tricolor that flattens the street', where: 'Hung frontally near the center of the composition, a French flag parallel to the canvas', detail: 'This is the documented heart of the picture. By placing a French flag frontally at the center, the Pompidou catalogue says, Dufy “radically emphasizes the flatness of the picture surface.” It is a flat bar of pure blue, white and red, parallel to the canvas, that Dufy does not model in light and shade; he lets it sit as a flat patch. It is the festival’s own ready-made piece of pure color, and it does the most radical thing in the painting.' },
+    { label: 'A street that is all flags', where: 'The upper register, the flags strung and hung along the street', detail: 'The whole upper picture is the pavoisement, the act of dressing a street in flags for the national holiday. Run your eye up from the central tricolor and the buildings give way to a scatter of red, white and blue patches, flag after flag, that turns the top of the canvas into a confetti of pure color rather than a row of façades. The subject hands Dufy a whole street’s worth of unmixed color, already cut into shapes.' },
+    { label: 'Green-and-pink houses in steep perspective', where: 'The receding houses lining the street, behind and around the central flag', detail: 'Behind the tricolor the houses run back in green and pink (the colors the museum names) along a steep, raised perspective, the street tipping away from a high viewpoint. The cool greens and warm pinks of the buildings set off the foreground flag, so the whole picture is built as broad areas of flat, contrasting color, the houses as much a pattern as the flags.' },
+    { label: 'The festival crowd below', where: 'The lower street, beneath the flags', detail: 'Down under the flags is the holiday throng, handled as loose patches rather than drawn-out figures. The high, raised viewpoint, one source notes, “accentuates the animated character” of the scene, looking down onto the crowd from above. They are not portraits; they are the moving life of the festival, brushed in as color and motion.' },
+    { label: 'Color making the space, not light', where: 'Across the whole surface, the broad flat areas (aplats, broad flat zones of unmodulated color) of vivid color', detail: 'There is almost no Impressionist atmosphere here, no shimmer dissolving the edges. Instead, as the French study of the picture puts it, “color, independent of the subject, generates the space.” The street is built from flat areas of vivid color (aplats, broad flat zones of unmodulated color) laid side by side, each shape its own clean patch. Compare it to Monet’s flag streets, where the flags melt into atmosphere; Dufy’s stay as flat shapes you could cut out with scissors.' },
+    { label: 'The high-key holiday palette', where: 'Overall, the saturation across the entire canvas', detail: 'Take in the whole surface at once and the key is bright and festive: this is high key (the whole palette pitched bright and light, near full strength, with the darks kept out), vivid reds, blues, greens and pinks the opposite of muted Impressionist tone. The palette itself carries the celebration; the picture feels like a holiday before you have named a single object in it. This high, saturated chord is the festival’s mood made into paint.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Matisse’s Fauvism', mode: 'art' },
+      { label: 'Monet’s flag streets', mode: 'art' },
+      { label: 'The port of Le Havre', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Flat-color modern painting', mode: 'art' },
+      { label: 'Dufy’s decorative style', mode: 'art' },
+      { label: 'Textile & pattern design', mode: 'civ' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
