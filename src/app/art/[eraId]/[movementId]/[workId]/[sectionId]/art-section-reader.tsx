@@ -6303,7 +6303,442 @@ function MrAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
   )
 }
 
+// ─────────────────────────────────────────────────────────────
+// Woman with a Hat (Matisse, 1905) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function HatSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1905" title="The rebel autumn show" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the autumn of <strong>1905</strong>, Henri Matisse was thirty-five years old, broke, the father of three, and not remotely famous. He had been at painting for more than a decade with very little to show for it. He had spent <strong>1904</strong> trying on the dotted technique of the painter <strong>Paul Signac</strong>, covering a canvas in tiny separate touches of pure color, then spent the summer of <strong>1905</strong> in the small Mediterranean port of <strong>Collioure</strong> (pronounced &ldquo;koll-YOOR&rdquo;), near the Spanish border, pushing color further off the leash than he or anyone else had dared. He came back to Paris with a head full of impossible color and an empty bank account. He needed, very badly, to sell something.
+      </p>
+      <p style={proseStyle}>
+        The place to do it was the <strong>Salon</strong>. You should know what that word meant, because in France a painter&rsquo;s whole career ran through it. A Salon was the big public exhibition where paintings were hung for the city to come and judge, and being accepted into one (or rejected from it) could make or break you. For most of the nineteenth century there was one that mattered, the official state Salon, run by a conservative jury that liked its paintings smooth, finished, and well-behaved. By 1905 a rebel alternative had appeared. The <strong>Salon d&rsquo;Automne</strong> (pronounced &ldquo;sa-LOHN doh-TUN,&rdquo; French for &ldquo;the Autumn Salon&rdquo;) had been founded just two years earlier, in 1903, as a show by and for the painters the official Salon would never let in. It was juried, but the jury was sympathetic. It was independent. And it was held in the grandest room in Paris.
+      </p>
+      <p style={proseStyle}>
+        That room was the <strong>Grand Palais</strong>, the enormous glass-and-iron exhibition hall built for the 1900 World&rsquo;s Fair, just off the Champs-Élysées. The 1905 edition of the Salon d&rsquo;Automne ran there from <strong>October into late November</strong>. This is where a painter who had no patron, no reputation, and no money could still, in theory, hang a picture on a wall where the whole art world would walk past it. Matisse decided to hang a portrait of his wife.
+      </p>
+      <p style={proseStyle}>
+        It was not, by all accounts, an easy decision, and not everyone thought he should. According to the museum that owns the painting today, colleagues and even the Salon&rsquo;s own organizers <strong>urged Matisse not to show it</strong>, by one account &ldquo;for fear that he would really embarrass himself.&rdquo; (You will sometimes read a juicier version, that the President of France refused to inaugurate the show because of pictures like this one. That story floats around but does not rest on solid ground, so set it aside. The documented version is quieter and more telling: the people who knew him best looked at the picture and winced.) He showed it anyway. He had a sale to make, and nothing left to lose.
+      </p>
+    </article>
+  )
+}
+
+function HatMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The sitter" title="The woman who made hats, painted with one" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he woman in the picture is <strong>Amélie Matisse</strong>, born Amélie Noélie Parayre (1872&ndash;1958), the painter&rsquo;s wife. They had married in 1898, and for the rest of his early, hungry years she was his household manager, his business partner, and his model. There is a small, perfect irony folded into this particular painting, and it is worth slowing down to land it. Before she married Matisse, Amélie had worked as a <strong>milliner</strong> (a maker and seller of women&rsquo;s hats), first in her aunt&rsquo;s Paris boutique and then in <strong>her own hat shop</strong> on the rue de Châteaudun, which she ran from 1899 to 1902. So the woman in the most famous painting ever titled <em>Woman with a Hat</em> had herself made and sold hats for a living. That is not invented for the sake of a good line. It is in the record.
+      </p>
+      <p style={proseStyle}>
+        Matisse began the portrait around <strong>September 1905</strong> and finished it in a rush, just before the Salon opened. He had been at work on a large, ambitious landscape; by the museum&rsquo;s account he <strong>set that project aside</strong> to make this instead, a smaller, faster, riskier thing. It is not a grand machine of a painting. It is an ordinary easel portrait, a little over two and a half feet tall, the kind of size that hangs in a parlor. The scandal it caused had nothing to do with its scale. It had everything to do with its color.
+      </p>
+      <p style={proseStyle}>
+        Here is the technique, plainly. Matisse used <strong>pure, unmixed color</strong>, laid on in loose, visible strokes, leaving whole areas looking sketchy and half-done. And, crucially, he used what is called <strong>arbitrary color</strong>, color chosen for the effect he wanted rather than for what the eye actually saw. The opposite of arbitrary color is <em>local color</em>, the real color a thing has in daylight (grass is green, a brick is red, a cheek is pinkish). For four centuries European painters had treated local color as the floor under their feet. You could light it dramatically, you could push it warm or cool, but a face was still painted in the colors a face has. Matisse kicked that floor out. He painted Amélie&rsquo;s face in greens and mauves and yellows that no face has ever worn, not to record her, but to make the picture do something.
+      </p>
+      <p style={proseStyle}>
+        There is a famous story about exactly this, and it deserves to be told the way it actually comes down to us, as a story. As the tale comes down from Matisse&rsquo;s circle, studio colleagues looked at the riot of color in the picture and asked what color the dress and hat had really been. Matisse, exasperated, is said to have snapped <strong>&ldquo;Black, of course&rdquo;</strong> (or &ldquo;Black, obviously&rdquo;), as if the question missed the entire point. It is a charming line and probably true, but it is a reported studio anecdote passed down by people who knew him, not a thing anyone wrote down at the time, so hold it loosely. What it captures, though, is exactly right. The dress Amélie actually wore was a plain black one. The riot of color is pure invention. The painter was not telling you what she looked like. He was using her as the occasion for an argument about paint.
+      </p>
+    </article>
+  )
+}
+
+function HatLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A perfectly ordinary portrait, on fire" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tep back and take in the picture whole before you walk into its details, because the first thing to understand is how <em>conventional</em> the bones of it are. This is a half-length portrait of a fashionable well-to-do woman (the kind a French writer of the day would have called <em>bourgeois</em>, meaning prosperous and respectable middle-class), turned slightly, looking out at you. She wears a long glove. She holds a fan in her raised hand. On her head sits an enormous flowered hat. Every one of those things, the pose, the glove, the fan, the hat, is the standard furniture of a respectable society portrait, the kind a banker might commission of his wife. If you described the picture over the telephone, element by element, it would sound completely unremarkable. That ordinariness is the trap. The whole bomb of the picture is the gap between what is depicted (a perfectly conventional lady) and how it is painted (in colors from another planet). Hold both halves in your head at once, because the friction between them is the entire point.
+      </p>
+      <p style={proseStyle}>
+        Now walk into the face, where the worst of the offense lives. Start at the nose. A <strong>long green streak runs straight down the bridge of it</strong>, finishing in a little blot of pale yellow at the tip. A nose is not green. Matisse painted this one green anyway. (A caution here, because this is the single most-confused fact about the painting: that nose streak is <strong>not</strong> the famous full vertical green stripe that splits a whole face into a warm half and a cool half. That stripe is in a <em>different</em> Matisse portrait of the same wife from the same year, called <em>The Green Stripe</em>, which lives in Copenhagen. People merge the two into one painting constantly. They are siblings, not twins. <em>Woman with a Hat</em> has a green <em>streak down the nose</em> and a green smear on the forehead, not the face-bisecting stripe.) Move up to the forehead and you find that smear, a <strong>horizontal swipe of green</strong> just under the hat brim. It is almost certainly meant to be the shadow the wide brim throws across her brow, except a shadow should be a darker, cooler flesh tone, and Matisse made it frank green. Color is doing the work of shadow while flatly refusing to behave like shadow.
+      </p>
+      <p style={proseStyle}>
+        Read the rest of the face the same way and it falls apart into pure color. The cheeks and chin are assembled from <strong>streaks of green and blots of gray, mauve and yellow</strong>. The <strong>upper lip is tomato red</strong>; the lower lip is a <strong>slash of peachy pink</strong> with a short strip of light green tucked under it; the chin is another slash of pink. And you can see the speed of it in the paint: the strokes are <strong>dragged on thick and wet and left there</strong>, not blended away, so a cheek is a few swipes of color sitting side by side rather than a smooth modeled surface. There is almost no gentle dark-to-light shading to round the face into a solid head. It reads instead as a patchwork of flat patches, a face built like a mosaic out of colors no face has ever had. This is what made 1905 viewers feel slightly ill. We are wired to read a human face very precisely, and Matisse fed our face-reading machinery a set of wrong signals on purpose. And yet, for all the violence of the color, the face itself is composed, almost serene: she looks steadily out, mouth set, as if entirely unbothered that she has been painted in green.
+      </p>
+      <p style={proseStyle}>
+        Lift your eye to the hat, which takes up the entire top of the canvas and is the most riotous passage in the picture. A <strong>wide blue brim</strong> sits straight across her brow, and above it rises a great mass of <strong>orange, green and blue puffs</strong>, swirling around one another like blown smoke, with a small patch of her <strong>red hair</strong> showing beneath. It is a tower of pure color stacked on her head. And it is, again, that small earned joke: the most extravagant hat in modern painting, sitting on the head of a woman who once made hats for a living.
+      </p>
+      <p style={proseStyle}>
+        Drop back down to her hands and the props of respectability. She wears a <strong>long green glove speckled with pink</strong>, the pink flecks reading almost like embroidery, and her gloved hand holds a <strong>fan</strong>, painted as thick splashes of white and peach flecked with violet and green. A glove and a fan are exactly what a proper society sitter holds. Painting them in this clashing color is what turned a conventional commission into a provocation. The accessories say &ldquo;respectable lady.&rdquo; The paint says something else entirely.
+      </p>
+      <p style={proseStyle}>
+        Finally, notice that there is nowhere for your eye to rest. The <strong>background is not a room</strong>. It is broad, loose areas of clashing color, patches of green and violet and orange that refuse to settle into the back of a space the way a painted wall normally would. The figure and her surroundings sit together on one bright, flat, restless surface, and in places you can see <strong>bare or thinly painted canvas</strong> showing through, part of the unfinished look that horrified the Salon. The usual deal a portrait offers (here is a person, standing in a believable space, lit by believable light) has been quietly torn up. And here is the move that makes the picture matter, the thing worth fixing in your mind before you leave it: <strong>color is now carrying the structure</strong>. It builds the head, it stands in for the shadow and the light, it does the job that for four centuries belonged to drawing and tonal modeling. What is left is a flat field of pure color with the shape of a fashionable woman pressed into it. That, in 1905, was the most radical thing in Paris.
+      </p>
+    </article>
+  )
+}
+
+function HatScandal({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Grand Palais · Room VII" title="The cage of wild beasts" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hen the Salon d&rsquo;Automne opened, <em>Woman with a Hat</em> did not hang alone. It hung in <strong>Room VII</strong>, a single gallery that had become, more or less by accident, the loudest room in the building. On its walls were Matisse and a loose band of like-minded painters, <strong>André Derain, Maurice de Vlaminck, Albert Marquet, Henri Manguin, Charles Camoin, Kees van Dongen</strong>, all of them working in the same key of raw, unmixed, untruthful color. Walk into Room VII and the wall hit you as a single blaze of clashing pigment. To a public raised on the smooth, brown-gravy finish of the official Salon, it looked less like an exhibition than an accident in a paint factory.
+      </p>
+      <p style={proseStyle}>
+        And then there was the bust. Sitting in the middle of all that visual noise was a small, demure marble bust of a child, carved in a polite old-fashioned style by an unrelated sculptor named <strong>Albert Marque</strong>. The contrast, a prim classical sculpture marooned in a sea of wild color, was too good for a critic to pass up. The critic in question was <strong>Louis Vauxcelles</strong> (1870&ndash;1943; pronounced &ldquo;voh-SELL&rdquo;), writing in the newspaper <em>Gil Blas</em> on <strong>17 October 1905</strong>. Looking at the gentle marble surrounded by the savage canvases, he wrote a line that would name a movement: <strong>&ldquo;Donatello chez les fauves&rdquo;</strong>, &ldquo;Donatello among the wild beasts.&rdquo; (Donatello was a celebrated sculptor of the Italian Renaissance, the great rebirth of classical art in the 1400s; the gentle bust stood in for him. <em>Les fauves</em> is French for &ldquo;the wild beasts.&rdquo;)
+      </p>
+      <p style={proseStyle}>
+        The word stuck. The room became known as <strong>&ldquo;la cage aux fauves&rdquo;</strong>, the cage of wild beasts, and the painters in it became <strong>the Fauves</strong>, and their way of working became <strong>Fauvism</strong>. It is worth noticing that they never chose the name. It was an insult, coined by a hostile critic, and they wore it for the rest of art history because the insult was too vivid to shake. (Vauxcelles would do it again three years later, sneering at &ldquo;little cubes&rdquo; in a Braque show and accidentally naming Cubism too. He had a real talent for it.) Of all the canvases in that cage, <em>Woman with a Hat</em> was the single most notorious. It was the picture people stopped in front of, the one they argued about.
+      </p>
+      <p style={proseStyle}>
+        The arguments were not kind. The public found the painting crude, mad, even infantile, the work of someone who either could not paint or was mocking the people who could. What undid them was the green nose, the mauve cheek, the shadow painted the wrong color, paint that refused to match anything a viewer could actually see, smeared across a human face. Viewers were, in the museum&rsquo;s flat summary, &ldquo;utterly shocked.&rdquo; This was not the gentle bafflement that had greeted the Impressionists a generation earlier. It was closer to insult, as if the painter had walked up to the idea of a respectable portrait and spat on it.
+      </p>
+      <p style={proseStyle}>
+        One thing to be careful about, because the histories sometimes overreach. It is tempting to call this &ldquo;the first Fauve painting&rdquo; or to say it &ldquo;began Fauvism,&rdquo; and you should resist both. Fauvism was not born in this one canvas. It was worked out over the summer of 1905 at Collioure, across several painters, Matisse and Derain chief among them, and it was <em>named</em> here at the Salon by Vauxcelles&rsquo;s jibe. What <em>Woman with a Hat</em> truly was is the picture that became <strong>the face of the scandal</strong>, the single image the whole uproar gathered around. That is a large enough claim, and it has the advantage of being true.
+      </p>
+    </article>
+  )
+}
+
+function HatAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The Steins" title="The nastiest smear of paint they had ever seen" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        nto this hostile room walked the people who would change everything for the painting and for Matisse: the <strong>Stein family</strong>, American expatriates living in Paris, about to become the avant-garde&rsquo;s first great patrons. The 1905 purchase is recorded as the work of the siblings <strong>Leo and Gertrude Stein</strong>. Leo (1872&ndash;1947) was the connoisseur, the one with the eye and the opinions, and he did the haggling; Gertrude (1874&ndash;1946) was the writer, whose memoir would later become one of the famous accounts of these years. But the Stein who would prove the most devoted and durable champion Matisse ever had was Leo&rsquo;s sister-in-law, <strong>Sarah Stein</strong>, the wife of his brother Michael, and she is the reason the painting (and Matisse himself) eventually reached America at all. When the family first saw <em>Woman with a Hat</em> hanging in the cage of wild beasts, Leo&rsquo;s reaction was not love. By his own description it was a thing <strong>&ldquo;brilliant and powerful, but the nastiest smear of paint I had ever seen.&rdquo;</strong>
+      </p>
+      <p style={proseStyle}>
+        That is the detail worth dwelling on, because it is the whole story in miniature. The Steins did not buy the picture in a flash of taste. They <strong>recoiled</strong> from it first, then could not stop coming back. By the accounts that survive they returned to the Salon again and again over something like five weeks, standing in front of the thing they had called the nastiest paint they had ever seen, until the recoil curdled into conviction and they bought it. They bought it <strong>straight off the Salon wall</strong>, the first major modern picture the family ever owned and the cornerstone of what became one of the most important private collections of modern art in the world.
+      </p>
+      <p style={proseStyle}>
+        What they paid is genuinely unsettled, so here is the honest version rather than a tidy one. The headline figure is <strong>around 500 francs</strong> (roughly $100 at the time). But the accounts diverge. In her own memoir, <em>The Autobiography of Alice B. Toklas</em>, Gertrude wrote that the picture was listed at 500 and that Matisse <strong>accepted their offer of 400</strong>. The Matisse family told it the other way around: that the Steins offered 300 and Matisse <strong>held out for the full 500</strong>. Each party, you will notice, remembered the haggle in the way that flattered them. So the truthful thing to say is that it sold for somewhere in the neighborhood of 400 to 500 francs, and that the exact number depends on whose memory you trust.
+      </p>
+      <p style={proseStyle}>
+        Whatever the figure, the sale put money in the pocket of a demoralized painter at the lowest moment of his career, and it <strong>launched the Steins as collectors</strong>. And here is what that launch actually meant. The Steins ran two famous Saturday-evening open houses (Leo and Gertrude on the rue de Fleurus, Michael and Sarah on the rue Madame), and those crowded rooms became the place where a whole generation first saw Matisse and Picasso on the wall, years before any museum would touch either man. <em>Woman with a Hat</em> was the founding purchase of that collection. A single small portrait, jeered at by the public and called nasty by its own buyer, turned out to be the first stone of the room where the future of painting got introduced to itself.
+      </p>
+      <p style={proseStyle}>
+        From there the painting traveled, and the journey is its own quiet story. Around 1913 or 1914 Leo and Gertrude divided their holdings (Leo took the older pictures, Gertrude kept the Picassos), and <em>Woman with a Hat</em> passed to Michael and <strong>Sarah Stein</strong>, the family&rsquo;s fiercest believer in Matisse. Sarah was no passive heir: she had persuaded Matisse to open his own painting school in 1908 and kept the best surviving record of his teaching, and it was Sarah and Michael who, in <strong>1935</strong>, carried the painting across the Atlantic to the <strong>San Francisco Bay Area</strong>. In <strong>1948</strong> it was bought from Sarah Stein, along with several other Matisses, by <strong>Elise S. Haas</strong>, a San Francisco–born collector who happened to be a grandniece of Levi Strauss, the blue-jeans manufacturer, and her husband Walter. And on Elise Haas&rsquo;s death the painting came at last to the <strong>San Francisco Museum of Modern Art</strong> as her <strong>1991 bequest</strong> (a <em>bequest</em> is a gift made through a will), accession number 91.161, where it hangs on permanent view.
+      </p>
+      <p style={proseStyle}>
+        It is a strange arc to sit with. The picture that respectable Paris called crude and mad, that its own buyer first called the nastiest smear of paint he had ever seen, is now read as one of the founding documents of modern art, the canvas where <strong>color took over the structural job that drawing had always done</strong>. After Matisse, a face could be built out of green and a shadow could be any color the picture wanted, and no one had to apologize for it. The German Expressionists of the next decade (the Brücke and Blaue Reiter painters in Dresden and Munich), and more broadly almost every later painter who used color to mean something instead of to copy something, were building on the door this picture kicked open. Not bad for a hasty portrait of a former hat-maker, painted to make a sale.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  hat: { salon: HatSalon, making: HatMaking, looking: HatLooking, scandal: HatScandal, afterlife: HatAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// The Green Stripe (Matisse, 1905) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function GrnCollioure({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Collioure · summer 1905" title="The summer color slipped its leash" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the summer of <strong>1905</strong>, <strong>Henri Matisse</strong> (the painter who would lead the movement called Fauvism) took his family south to <strong>Collioure</strong> &mdash; a small fishing port on the French Mediterranean coast, almost at the Spanish border &mdash; and spent the season painting beside a younger painter named <strong>André Derain</strong>. What the two of them did there is the subject of the movement read, so we will be brief: they pushed color off its leash. Pigment straight from the tube, bare canvas left showing between the strokes, and above all color chosen for the feeling it gave rather than the thing it described &mdash; a pink boat, a turquoise hillside, a road run orange because the picture wanted it orange. This is where <strong>Fauvism</strong> &mdash; from <em>les fauves</em>, &ldquo;the wild beasts,&rdquo; an insult a hostile critic was about to coin &mdash; is actually made.
+      </p>
+      <p style={proseStyle}>
+        Hold one fact lightly, because the popular books muddle it: <em>The Green Stripe</em> was most likely <strong>not</strong> painted at Collioure. The Statens Museum for Kunst in Copenhagen, which owns it, dates it to <strong>the autumn of 1905</strong>, after Matisse had returned to <strong>Paris</strong>. So picture the sequence. A summer on the coast inventing a method out of harbors and hillsides. Then the trip home. Then, back in the Paris studio, the painter turns that brand-new, sunstruck way of using color away from boats and rocks and onto the one face he knew best in the world &mdash; his wife&rsquo;s.
+      </p>
+
+      <SectionHeader accent={accent} label="The sitter" title="Amélie, who was not a passive prop" />
+      <p style={proseStyle}>
+        The face is <strong>Amélie Matisse</strong>, born Amélie Noellie Parayre, whom Matisse had married in 1898. It is worth saying plainly who she was, because the picture is going to do something a little merciless to her and the temptation is to read her as a victim of it. She was not a passive prop. Before the marriage she had run her own hat shop in Paris. For some four decades she was Matisse&rsquo;s business manager, his household manager, his most frequent model, and his fiercest advocate &mdash; the person who kept the enterprise of being Matisse afloat in the years when almost nobody was buying. She was, in short, the most-painted face of early Matisse and a full partner in his career, and you should keep both of those facts in your head while you look at what he did to her here.
+      </p>
+
+      <SectionHeader accent={accent} label="The Salon, that same autumn" title="The scandal next door" />
+      <p style={proseStyle}>
+        That same autumn, the <strong>1905 Salon d&rsquo;Automne</strong> &mdash; one of the big annual juried art exhibitions in Paris, this one founded to give newer painting a wall &mdash; opened at the Grand Palais and put Matisse&rsquo;s Collioure canvases in a room the critic <strong>Louis Vauxcelles</strong> mocked as a cage of wild beasts. That is the show that gave the movement its name. But the picture at the center of that scandal, the one of Amélie that the public recoiled from, was a different portrait: <em>Woman with a Hat</em>, her face stroked in green and violet and orange, which Matisse&rsquo;s American patrons <strong>Leo and Gertrude Stein</strong> bought off the wall for 500 francs. <em>The Green Stripe</em> is its quieter, harder, more intimate companion &mdash; same wife, same year, same idea taken further. It belongs to that moment, in dialogue with it. It just was not the painting on the wall that caused the uproar. Keep the two straight; almost everyone gets them tangled.
+      </p>
+    </article>
+  )
+}
+
+function GrnMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="One idea" title="A green stripe down the middle of a face" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he whole picture turns on a single structural decision, and you can state it in one sentence: a <strong>vertical band of pure green runs down the center of the face</strong>, from the hairline, down the bridge of the nose, to the top lip. That is the title &mdash; <em>The Green Stripe</em>, in French <em>La Raie verte</em> &mdash; and it is also, literally, the skeleton the rest of the painting hangs on. Everything else in the picture is arranged around that stripe. (The museum that owns it, by the way, prefers the English title <em>The Green Line</em>, so you will find it under that name at SMK.)
+      </p>
+      <p style={proseStyle}>
+        To see why it matters, you have to know the job it is quietly doing. In a normal portrait, a painter gives a face its roundness and weight through <strong>modelling</strong> &mdash; the gradual shading from light into shadow, lit cheek easing into shaded jaw, that fools the eye into reading a flat patch of paint as a solid, three-dimensional head. It is the oldest trick in Western painting. Matisse throws it out. There is no gradual shading anywhere on this canvas. Instead, the green stripe does the modelling&rsquo;s work: it marks the turn of the form, the ridge of the nose where a face catches and loses the light, and it splits the head into a <strong>warm half and a cool half</strong> the way light and shadow would split a real face. The stripe is not a green shadow that was really there on Amélie&rsquo;s nose &mdash; nobody&rsquo;s nose is green &mdash; it is color standing in for the whole apparatus of light and modelling.
+      </p>
+      <p style={proseStyle}>
+        Matisse said as much himself. His standing program for color was blunt: &ldquo;When I apply green, that does not mean grass. When I apply blue, that does not mean sky.&rdquo; The green down his wife&rsquo;s nose is exactly that principle made visible &mdash; a color picked for the job it does in the picture, not for anything it names in the world.
+      </p>
+
+      <SectionHeader accent={accent} label="The two halves" title="Warm light, cool shadow, no blend" />
+      <p style={proseStyle}>
+        So look at what the stripe builds: a warm half and a cool half, two flat temperatures of color set side by side, with the green band as the only seam between them. In an ordinary portrait those two would melt into each other across the curve of the face. Here they do not melt at all &mdash; light and shadow have been translated, completely, into two patches of color with a green line down the join. That is the entire engine of the picture. There is a reason it is a <em>green</em> line and not some other color: green is the complement of the pink-and-red of flesh, the maximum cool set against the maximum warm, so it rings hardest where the two halves meet and reads as the coolest possible seam.
+      </p>
+
+      <SectionHeader accent={accent} label="The method" title="Collioure, applied to a head" />
+      <p style={proseStyle}>
+        The technique is the Collioure method turned on a portrait. The paint is laid in firm, flat <strong>blocks</strong> of pure, unmixed, deliberately arbitrary color &mdash; each block defining a feature or a zone &mdash; rather than blended into the soft, broken light the Impressionists chased. It is much closer to the flat saturated color-areas of <strong>Gauguin</strong> and <strong>Van Gogh</strong> (the two painters whose example stands behind all of Fauvism) than to anything Impressionist. Matisse has stepped fully past painting the flicker of real light. He is building a head out of slabs of color the way you might build a small stained-glass window: piece against piece, each one chosen for how it sounds against its neighbor.
+      </p>
+      <p style={proseStyle}>
+        And this, more than any other single picture, is the textbook demonstration of the thing Fauvism is famous for &mdash; color cut loose from description. A harbor painted in colors it does not own is striking. A living human face, split top to bottom by a stripe of green that no face has ever worn, is unforgettable. It is the clearest, most legible proof that color had quit its old job of telling you what things look like and taken up a new one: building the picture.
+      </p>
+    </article>
+  )
+}
+
+function GrnLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A face you could carry under one arm" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the scale, because it is genuinely surprising. The most famous green stripe in modern art sits on a tiny canvas: about <strong>sixteen inches tall by thirteen wide</strong>, roughly the size of a sheet of legal paper. You could carry it under one arm. There is no grand machine here, no wall-filling statement; it is a small, intense, portrait-shaped picture, taller than it is wide, and all of its force is packed into that small surface. Hold the size in mind as you look, because part of the shock is how much disruption Matisse gets out of so little real estate.
+      </p>
+      <p style={proseStyle}>
+        Now let your eye go where the picture sends it, which is straight down the middle. The first thing it hits is <strong>the green stripe</strong> &mdash; a vertical band running from the hairline, down the ridge of the nose, to the top lip. Do not read it as decoration laid over the face. Read it as the <em>spine</em> of the face. Everything to the left of it is one country and everything to the right of it is another, and the stripe is the border between them. Once you have seen it that way &mdash; as structure, not as a green smear &mdash; the whole picture clicks into place, because the entire canvas is organized around it.
+      </p>
+
+      <SectionHeader accent={accent} label="The two halves" title="A warm country and a cool one" />
+      <p style={proseStyle}>
+        Travel across that border. On one side of the stripe the face is <strong>warm</strong> &mdash; flushed pink, with hotter notes of orange and red along the chin and the ear &mdash; the side that reads as catching the light. Cross the green seam and the face goes <strong>cool</strong>: a flat, dry <strong>yellow-ochre</strong> (a dull earth-yellow), the side in half-shadow. These are not blended. There is no transition. If you covered the stripe with your thumb the two halves would simply collide, two unrelated patches of color stuck against each other. The green is what makes the collision read as a face turning in light instead of a mistake. That is the thing to actually see: the stripe is not describing a feature, it is performing the join between light and shadow, doing in pure color what a lifetime of painters did in graduated grays.
+      </p>
+
+      <SectionHeader accent={accent} label="The surface" title="Hard seams, no blending" />
+      <p style={proseStyle}>
+        Get close and look at the edges &mdash; at the actual paint. Find any place where one color meets the next: where the pink cheek butts the ochre, where the blue hair butts the green stripe, where the warm background meets the cool. At none of them is there a soft transition. Each is a hard seam, one flat block of unbroken color set straight against another, with nothing easing between them &mdash; exactly like the leading that holds the panes of a stained-glass window apart. That hard-edged, unblended handling is what makes the head read as built rather than breathed, a thing assembled out of slabs of color rather than rounded out of light.
+      </p>
+
+      <SectionHeader accent={accent} label="The blue and the teal" title="Colors chosen for their neighbors" />
+      <p style={proseStyle}>
+        Now the smaller shocks, which all confirm the same logic. The <strong>hair, the eyebrows, and the eyes</strong> are a deep <strong>blue</strong> &mdash; a color no hair is &mdash; set hard against the green stripe and the warm flesh below. It is the clearest single tell that Matisse is choosing every color for how it rings against the ones beside it, not for what the object actually is; the blue cools and weights the top of the head against the heat in the cheeks. Drop to the bottom of the picture and you reach the <strong>collar</strong>: she wears an orange-and-pink blouse closed with a <strong>teal</strong> (blue-green) neckline &mdash; the same blue-green family as the stripe and the cool green elsewhere in the picture, rhyming the bottom with the top. (And note what is absent: there is no hat. The hat is the <em>other</em> 1905 portrait of Amélie.)
+      </p>
+
+      <SectionHeader accent={accent} label="The background" title="The room repeats the face" />
+      <p style={proseStyle}>
+        Then step back and take in the <strong>background</strong>, and watch it do the most telling thing in the whole picture. It is not a single backdrop. It is <strong>split into two zones</strong>, exactly the way the face is split: pink and orange on one side, teal-green on the other. The warm-and-cool division of her head is carried straight out into the room behind her, so the wall echoes the structure of the face. There is nothing back there to describe &mdash; no furniture, no window, no place &mdash; only color, organizing the surface. The face sets up a warm side and a cool side, and the room obediently answers in the same two temperatures. The whole little canvas, edge to edge, is governed by one idea.
+      </p>
+      <p style={proseStyle}>
+        Pull back one last time and feel the total effect. It is intense, flat, and frankly <strong>mask-like</strong> &mdash; almost nonhuman. There is no soft, rounded, breathing likeness here, no flattery, barely a personality. And yet it is unmistakably <em>alive</em>, and the life does not come from resemblance. It comes from the purity of the colors and the tension between them &mdash; the green against the pink, the blue against the ochre, the warm half straining against the cool. This is the picture&rsquo;s whole argument, made in oil paint and nothing else: that a face can be built entirely out of color set against color, and that the result can be more arresting than any careful likeness. You read it without a word of caption. You just have to let the stripe be the spine.
+      </p>
+    </article>
+  )
+}
+
+function GrnReception({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1905–1906" title="The wild color, and a face that would not flatter" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he Fauve color was attacked, that autumn and after, as outrageous and unnatural &mdash; the whole point of the &ldquo;wild beasts&rdquo; insult. But <em>The Green Stripe</em> carried an extra offense beyond the color, and it unsettled even people on Matisse&rsquo;s side. It is a portrait of a real, living woman that makes no attempt whatsoever to flatter her, or even to be warm about her. The mask-like flatness we have been looking at &mdash; the refusal of likeness, the green stripe down the nose &mdash; reads, to a viewer expecting a portrait, as something close to an assault on the sitter. A friend of <strong>Michael and Sarah Stein</strong>, the American collectors who would soon own it, reportedly called the picture <strong>&ldquo;a demented caricature of a portrait.&rdquo;</strong>
+      </p>
+
+      <SectionHeader accent={accent} label="1910 · the &ldquo;punishment&rdquo; reading" title="A reading, not a fact" />
+      <p style={proseStyle}>
+        Then, in <strong>1910</strong>, the American critic <strong>Gelett Burgess</strong> reached for the most loaded reading of all. He wrote that <em>The Green Stripe</em> was Matisse&rsquo;s <strong>&ldquo;punishment&rdquo;</strong> of Amélie &mdash; that the painter had made the viewer &ldquo;see in her a strange and terrible aspect,&rdquo; as if the portrait were an act of marital revenge dressed up as art. It is a vivid line, and it has clung to the picture ever since. Treat it as exactly what it is: <strong>one 1910 critic&rsquo;s interpretation</strong>, not anything Matisse said or recorded. Much later, the art historian <strong>John Klein</strong> <em>suggested</em> that strain in the marriage might lie behind the portrait&rsquo;s cold, impersonal, mask-like character. That too is a suggestion, carefully hedged in the scholarship, and it is worth flagging plainly: there is no documented basis for reading this canvas as a record of a failing marriage. The phrase &ldquo;the painting shows their troubled marriage&rdquo; is something people say; it is not something we know.
+      </p>
+      <p style={proseStyle}>
+        The reading that <em>is</em> documented is the artistic one, and it is colder in a different way. As far as the painting&rsquo;s own logic is concerned, Amélie was simply a model &mdash; a face to hang the color experiment on. On this canvas the idea comes first; the green stripe matters more, pictorially, than the woman&rsquo;s mood. That is the picture&rsquo;s priority, not a verdict on the marriage &mdash; a painter following a discovery wherever it leads, even straight down his wife&rsquo;s nose.
+      </p>
+
+      <SectionHeader accent={accent} label="The record on Amélie" title="Not the long-suffering wife" />
+      <p style={proseStyle}>
+        And because the &ldquo;punishment&rdquo; story makes it so easy to flatten Amélie into a long-suffering wife who got a green stripe for her trouble, it is worth ending the chapter with the rest of her. Long before she was anyone&rsquo;s model she ran her own hat shop in Paris, and once married she became the engine of the whole enterprise &mdash; for some four decades Matisse&rsquo;s business manager, household manager, and chief advocate, the person who kept his career running through the years when nobody was buying. She sat for this picture; she was not done to by it. Whatever a critic in 1910 decided he could see in her face, the woman behind the face was a full partner in the work that made Matisse possible.
+      </p>
+    </article>
+  )
+}
+
+function GrnAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · 1906" title="The other Steins, and the other transaction" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the picture&rsquo;s life as an object &mdash; its <strong>provenance</strong>, the documented chain of who owned it from the painter&rsquo;s hand to where it hangs now &mdash; and the first step is the one most often confused. <em>The Green Stripe</em> was <strong>not</strong> the painting the Steins bought off the Salon wall for 500 francs; that was <em>Woman with a Hat</em>, and the buyers were <strong>Leo and Gertrude Stein</strong>. <em>The Green Stripe</em> went to a different pair of Steins entirely &mdash; <strong>Michael and Sarah Stein</strong>, Michael being Leo and Gertrude&rsquo;s eldest brother &mdash; and it came to them not off a Salon wall but through a Paris gallery, <strong>Galerie Druet</strong>, in the spring of <strong>1906</strong>. The Michael Steins were among the most important American patrons of the new painting, and the portrait hung in their Paris flat. Two Stein households, two Matisse portraits of the same wife, two separate purchases &mdash; keep them apart and the rest of the story stays clear.
+      </p>
+
+      <SectionHeader accent={accent} label="Across war-time Europe" title="Germany, then Copenhagen" />
+      <p style={proseStyle}>
+        From the Steins the picture made an unsettled journey across war-time Europe, and this is the least-documented stretch of its life, so we will keep it to what is reasonably held. With the outbreak of the First World War it ended up <strong>stored in Germany</strong>; sale negotiations in 1917&ndash;18 led to a temporary seizure by a German dealer before it found its way back to <strong>Paris</strong> around <strong>1919</strong>. Then it went north. Around <strong>1920</strong> the Danish grain merchant and collector <strong>Christian Tetzen-Lund</strong> &mdash; one of the serious buyers of French modern painting in Copenhagen &mdash; acquired it. He sold off most of his collection over the 1920s, but he kept this small portrait. He held it until his death in <strong>1936</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="1936 · SMK" title="A purchase, not a bequest" />
+      <p style={proseStyle}>
+        And here we must correct the story you will most often hear, because it is wrong in a specific and tidy way. <em>The Green Stripe</em> did <strong>not</strong> come to the Statens Museum for Kunst &mdash; SMK, the National Gallery of Denmark &mdash; as a gift or bequest. When Tetzen-Lund died in 1936, his collection went to auction, and SMK <strong>bought</strong> the painting at that estate sale. The money came from the <strong>Ingeniør J. Rump and Elisabeth Rump Fund</strong> &mdash; the Rump fund &mdash; which is why the painting&rsquo;s inventory number carries the prefix <strong>KMSr</strong> (it is KMSr171), the &ldquo;r&rdquo; standing for the Rump collection.
+      </p>
+      <p style={proseStyle}>
+        The confusion is understandable, because there really was a great Danish collector named <strong>Johannes Rump</strong>, and his roughly one-hundred-work donation in <strong>1928</strong> is the spine of SMK&rsquo;s whole collection of French modernism. So the museum&rsquo;s French rooms are, broadly, the house that Rump built. But <em>this</em> picture is not part of Rump&rsquo;s own gift &mdash; he never owned it. It entered the museum in 1936 as a <strong>fund-financed purchase</strong> from someone else&rsquo;s estate, paid for with money from the foundation that bears Rump&rsquo;s name. A purchase, not a bequest. The distinction is small and the picture hangs in the same rooms either way, but it is the kind of thing this pipeline exists to get right.
+      </p>
+      <p style={proseStyle}>
+        It is there still, on permanent view, one of SMK&rsquo;s signature works of French modernism. The museum&rsquo;s chief curator, <strong>Dorthe Aagesen</strong>, has put its quality plainly: &ldquo;Every brush stroke is very deliberately placed, and the painting is a good example of how you can experiment with the portrait format.&rdquo; Which is, in the end, the whole story of the green stripe &mdash; a deliberately placed band of color, in a small experiment on a portrait, that turned out to be one of the most legible breaks in the history of painting.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'green-stripe': { collioure: GrnCollioure, making: GrnMaking, looking: GrnLooking, reception: GrnReception, afterlife: GrnAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Le Bonheur de vivre (Matisse, 1905–06) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function BonSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · autumn 1905" title="The year after the wild beasts" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the autumn of <strong>1905</strong>, Henri Matisse had just survived the worst public mauling of his life. At that year&rsquo;s big Paris art show, the <strong>Salon d&rsquo;Automne</strong>, he and a few friends had hung a roomful of paintings done in raw, unmixed, screaming color, and a critic, walking through the room and spotting a tame little classical sculpture marooned among them, had quipped that it was like a Donatello among <em>les fauves</em>, the wild beasts. The name stuck to the painters, and the laughter stuck to Matisse. (The Fauvism movement read tells that story.) Most people, after a public drubbing, get cautious. Matisse did the opposite. He decided his answer to the mockery would be to go <em>bigger</em>: one enormous, deliberate, planned-to-the-inch canvas that would carry the wild color further than anyone, including the wild beasts, had dared.
+      </p>
+      <p style={proseStyle}>
+        That canvas is <em>Le bonheur de vivre</em>, French for <strong>&ldquo;the joy of life&rdquo;</strong> (and that is the title in lowercase, the way the French write it; in English it is usually called simply <em>The Joy of Life</em>). He painted it over the winter, between roughly October 1905 and March 1906, and when it was finished it was nearly <strong>six feet tall and almost eight feet wide</strong>, a wall-sized field of naked figures lazing, kissing, piping music, and dancing in a meadow lit by colors no meadow has ever worn. It is, in plain terms, a picture of careless pleasure, painted at the size museums reserve for battles and saints.
+      </p>
+
+      <SectionHeader accent={accent} label="The jury-free show" title="Where there was no jury to throw it out" />
+      <p style={proseStyle}>
+        Matisse unveiled it in the spring of <strong>1906</strong> at the <strong>Salon des Indépendants</strong>, and where he chose to show it is part of the story. In Paris there were two kinds of art show. There was the official, juried <strong>Salon</strong>, where a committee of established painters decided what got hung and what got rejected, the gatekeeper that had set French taste for two centuries. And there was the <strong>Salon des Indépendants</strong>, founded in 1884 by painters tired of being thrown out: no jury, no prizes, no committee. Pay your fee and your picture goes on the wall. It was the natural home for work too new or too rude for the official jury, which is exactly what Matisse had made. The show ran from about March 20 to April 20, 1906.
+      </p>
+      <p style={proseStyle}>
+        It became the sensation of the season, and not in a flattering way. The <strong>cadmium</strong> colors (the intense, modern, factory-made pigments, cadmium yellows and reds, that let painters hit a brightness older paints could not) and the warped, perspective-free space drew a public outcry; visitors protested, critics fumed, and some genuinely worried that this kind of thing was the <em>end</em> of French painting, that the great national tradition was being thrown overboard for a children&rsquo;s-paintbox dream. Which, in a sense, it was. That was the point. Matisse had not made a peace offering. He had doubled the bet.
+      </p>
+    </article>
+  )
+}
+
+function BonMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Studio · 1905–06" title="It looks improvised. It was built." first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he first thing to get straight about <em>Le bonheur de vivre</em> is that, for all its loose, dreamy ease, it is one of the most carefully constructed pictures Matisse ever made. The casual look is engineered. He worked it up through many preparatory sketches of the individual figures, and then drew a <strong>cartoon</strong> of the whole thing, which in painting does not mean anything funny: a cartoon is a full-size preparatory drawing, the entire composition mapped out at the scale of the final canvas before a drop of color goes down. He was not splashing out a vision. He was assembling a machine, piece by piece, to look like a vision.
+      </p>
+
+      <SectionHeader accent={accent} label="From dots to flat fields" title="A small study you can watch turn into the painting" />
+      <p style={proseStyle}>
+        The single best window into how he got there is a little oil sketch, the <strong>Sketch for &ldquo;Le Bonheur de vivre&rdquo;</strong> (1905&ndash;06), now at the San Francisco Museum of Modern Art. The final painting is more than four times its size, and the two look strikingly different. The sketch is still painted in loose dabs of broken color, the technique of <strong>Neo-Impressionism</strong> (the method, also called pointillism, of building an image out of small separate touches of pure color meant to mix in the viewer&rsquo;s eye). The big final canvas has thrown all that out: flat, wide expanses of color and clean, linear figures. You can stand the two side by side and literally watch Matisse move, between study and painting, from dots to flat fields. (A second study is held by the Barnes itself.) That shift, from broken color to flat color, is the whole drama of the picture in miniature.
+      </p>
+
+      <SectionHeader accent={accent} label="The old masters behind it" title="One documented source, and a crowd of likely ones" />
+      <p style={proseStyle}>
+        A picture this radical did not come from nowhere, and art historians have spent a century naming its ancestors. Here it pays to be careful, because some of those ancestors are documented and some are educated guesses. The one source that is genuinely nailed down, argued by the historian James Cuno in 1980 and Thomas Puttfarken soon after, is an old engraving: <strong>Agostino Carracci&rsquo;s <em>Love in the Golden Age</em></strong> (after the painter Paolo Fiammingo). It shares the very same setup, a pastoral golden-age idyll with naked figures at ease and, crucially, <strong>a ring of dancers in the background</strong>, the exact motif Matisse uses. That one is a real lineage, not a hunch.
+      </p>
+      <p style={proseStyle}>
+        The others are reasonable family resemblances rather than proven debts, so the honest words are &ldquo;drew on&rdquo; and &ldquo;in the tradition of.&rdquo; In its form and date the painting sits closest to <strong>Cézanne&rsquo;s last great <em>Bathers</em></strong>, nudes built into a landscape, a picture Matisse revered. The long sensual curve of the bodies belongs to the world of <strong>Ingres</strong> and his odalisques (the reclining harem nudes Ingres painted, all flowing contour). And behind all of it stands the whole old <strong>pastoral</strong> tradition, the dream of Arcadia, the mythic carefree countryside, painted for centuries by Titian, Poussin, and Watteau. Since the 1980s, though, scholars have warned that chasing sources can become a parlor game that distracts from what matters, which is what Matisse actually <em>did</em> with all of it. He took the oldest, most respectable subject in European art, the golden-age idyll, and painted it in colors that would have made Titian drop his brush.
+      </p>
+    </article>
+  )
+}
+
+function BonLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A meadow in impossible color" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it. The first thing that hits you, before you can sort out a single figure, is the <strong>color</strong>, and the fact that none of it is true. The ground is not green; it runs hot <strong>pink and orange</strong>, the color of a sunset spread out under your feet. The tree trunks are not brown; they go <strong>violet and green</strong>. The sky is not blue; it shades from lemon-yellow to rose. There is no shading, no careful light-and-dark to round the forms out, just big flat areas of saturated color butted up against each other. This is the <strong>Fauve move</strong> at full volume: color set free from the job of describing the world, free to answer only to feeling and to the design of the surface. The mockery Matisse had taken the year before for one small green stripe down a face, he has here turned into an entire luminous world.
+      </p>
+      <p style={proseStyle}>
+        Now find the people, because the meadow is full of them. This is an <strong>Arcadia</strong>, an idealized, dreamlike countryside out of myth, and it is populated with nude figures both at rest and in motion. There is no story, no event, nothing happening that you could narrate. There is only ease. The &ldquo;joy of life&rdquo; of the title is not a plot; it is a mood, the pure bodily pleasure of lying in the sun with nowhere to be.
+      </p>
+
+      <SectionHeader accent={accent} label="The cast" title="Loungers, a piper, a kiss, and a distant dance" />
+      <p style={proseStyle}>
+        Let your eye move through them. In the <strong>foreground</strong>, at the left and center, figures <strong>recline</strong> on the rose-and-orange ground, stretched out in pure leisure. Their bodies are drawn as long, snaking, sinuous curves, what artists call <strong>arabesques</strong> (a flowing serpentine line, the visual equivalent of a slow exhale). Look closely and you will see that the limbs lengthen and bend past anything a real body does. That is not a mistake. Matisse cared more about the music of that curving line than about anatomy, and he rhymes it everywhere, so that a hip and a tree branch and the edge of the sky all seem to belong to the same slow rhythm.
+      </p>
+      <p style={proseStyle}>
+        Now look at how each body is held. Every figure is fenced by a single dark <strong>contour line</strong>, drawn thick, the way the leading in a stained-glass window holds a pane of color. There is no soft, brushy modeling inside that line, no shadow rounding the form; Matisse lets the bounding outline do all the work that shading used to do, and then fills it with one flat, even field of paint. Once you see those heavy dark edges you cannot unsee them, and they will matter when we get to what one furious viewer said about them.
+      </p>
+      <p style={proseStyle}>
+        At the <strong>bottom center</strong>, a seated nude plays a <strong>double pipe</strong>, a kind of double flute, the unmistakable signal of the pastoral, the music of shepherds. Off in the <strong>lower-right corner</strong>, a pair of figures <strong>embrace</strong>, the frankly sensual note that, together with all the lounging and the piping, makes the picture a hymn to pleasure rather than a polite mythology. And far back, in the <strong>center distance</strong>, on the open meadow, a small <strong>ring of figures dances</strong>, joined hand to hand in a circle. Hold that little round-dance in your mind; it is going to grow up into one of the most famous paintings of the twentieth century.
+      </p>
+
+      <SectionHeader accent={accent} label="The deliberate wrongness" title="Why the piper might be a giant or a child" />
+      <p style={proseStyle}>
+        Here is where the picture rewards a slow look. Compare the piper at the bottom center to the kissing couple at the bottom right. Their relative sizes only make sense if you decide the piper is a small child. But then look at the figures standing just <em>behind</em> them, who are suddenly enormous, giants by comparison. The scale does not hold together, and it is not supposed to. Matisse sized his figures for the <strong>composition</strong>, for how they balance and rhyme across the surface, not for where they stand in space. A painter obeying perspective makes far things small. Matisse makes things whatever size the design wants them. The embracing couple, tiny against the looming figures behind, is the clearest single spot to catch him doing it.
+      </p>
+      <p style={proseStyle}>
+        And the space itself is flattened on purpose. Notice the two big <strong>trees</strong> at the upper left and right, whose curved trunks and heavy foliage bend <em>inward</em> over the scene, arching across the top like a <strong>stage curtain</strong>. They do not open a deep view into the distance; they close the picture off and press everything forward, flat against the surface. The same serpentine line that shapes the bodies shapes the trees, so the whole canvas reads as one woven, shallow, decorative pattern. You are not looking through a window at a real meadow. You are looking at a beautifully designed flat surface that has been <em>made</em> to feel like joy. That is the radical thing under the pretty thing: Matisse has taken the most traditional subject in European painting and rebuilt it as pure decoration in the highest sense, a surface tuned for pleasure, color, and line.
+      </p>
+      <p style={proseStyle}>
+        It is worth naming plainly what this Arcadia is made of. Almost every figure in it is a nude woman, and the picture belongs to a long European line of male painters staging the female body as an emblem of ease and pleasure, the same line that runs back through the Titian, Ingres, and Cézanne nudes Matisse was drawing on. The buyers were men too: Leo Stein first, then Christian Tetzen-Lund, then Albert Barnes, the male connoisseurs for whom such pictures had long been made. Matisse was working squarely inside that convention rather than questioning it. What was radical here was the color and the design, not the choice of subject.
+      </p>
+    </article>
+  )
+}
+
+function BonReception({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Spring 1906" title="Jeers, and a fear for French painting" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hen the picture went up at the Indépendants, the public reaction was loud and hostile. Visitors jeered; critics recoiled. As we saw, some of them genuinely feared they were watching the death of French painting, the abandonment of everything that had made the tradition great. A wall-sized field of pink-and-violet nudes painted with no respect for color, light, or perspective looked, to a great many serious people in 1906, less like a masterpiece than like vandalism. What is striking, looking back, is that the most wounding verdict came not from the conservative enemies you would expect, but from inside Matisse&rsquo;s own camp.
+      </p>
+
+      <SectionHeader accent={accent} label="The mentor recoils" title="Signac says he has gone to the dogs" />
+      <p style={proseStyle}>
+        Two summers earlier, in 1904 at the Mediterranean town of Saint-Tropez, Matisse had spent a season learning the dot-by-dot Neo-Impressionist method from its leading practitioner, the painter <strong>Paul Signac</strong>. (That apprenticeship is told in the Fauvism movement read.) Signac had been a mentor and a champion. And when he saw what Matisse had done with <em>Le bonheur de vivre</em>, throwing the careful pure-color dots overboard for great flat slabs of tint, he turned. In a private letter dated <strong>January 14, 1906</strong>, Signac wrote:
+      </p>
+      <p style={proseStyle}>
+        <em>&ldquo;Matisse, whose attempts I have liked up to now, seems to me to have gone to the dogs. Upon a canvas of two-and-a-half meters, he has surrounded some strange characters with a line as thick as your thumb. Then he has covered the whole thing with flat, well-defined tints, which&mdash;however pure&mdash;seem disgusting.&rdquo;</em>
+      </p>
+      <p style={proseStyle}>
+        It is one of the very few juicy quotes in this whole story that is securely documented, a real letter, not a legend, which is why it is worth quoting in full and attributing precisely: this is Signac, in private, to a fellow painter. And read it closely. The &ldquo;line as thick as your thumb&rdquo; is the very dark bounding contour you just traced around every figure, and the &ldquo;flat, well-defined tints&rdquo; are the unmodeled fields of color it fences in. Signac was naming the two exact moves that make the picture what it is, and recoiling from both. You can feel the personal injury under the insult, too. Signac&rsquo;s entire art was built on those small pure dots of color. Matisse had spent a summer learning the method at Signac&rsquo;s feet, and then used a vast canvas to declare that he was done with it, that the future was flat fields, not dots. The mentor was not just criticizing a picture. He was watching his own method get thrown out by his most gifted student.
+      </p>
+
+      <SectionHeader accent={accent} label="The Steins step in" title="A scandal becomes a centerpiece" />
+      <p style={proseStyle}>
+        And then, against the jeering, came the rescue. <strong>Leo and Gertrude Stein</strong>, the American brother and sister who had moved to Paris and become the avant-garde&rsquo;s sharpest and earliest patrons, bought it. Leo, the connoisseur of the pair, is widely quoted as calling it <strong>&ldquo;the most important painting done in our time.&rdquo;</strong> Gertrude, the writer, ran the salon as much as Leo did, and made it the room where modern writing and modern painting met; her own taste tilted toward Picasso while Leo&rsquo;s tilted toward Matisse, a fault line that would eventually split both the household and the collection. Together the two made their apartment at <strong>27 rue de Fleurus</strong> the single most important room in modern art, the place where, on a given evening, you might find Matisse and Picasso in the same crowd, looking at the newest pictures in Paris on the Steins&rsquo; own walls. Matisse himself installed <em>Le bonheur de vivre</em> there at the close of the Salon.
+      </p>
+      <p style={proseStyle}>
+        And it was not only Leo and Gertrude. Of the wider Stein circle, it was their sister-in-law <strong>Sarah Stein</strong>, married to the third Stein sibling, Michael, who became Matisse&rsquo;s most relentless early champion, promoting him from her own salon nearby and helping launch the short-lived school where he taught. The picture that the public had jeered and Signac had called disgusting now hung as the prize of the most influential private collection in the city, with a circle of believers around it. The scandal had become the centerpiece.
+      </p>
+    </article>
+  )
+}
+
+function BonAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="Not the Steins to the Barnes" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        f you read the short version of this picture&rsquo;s life, it usually says the Steins owned it and then it went to the Barnes Foundation in Philadelphia. That skips a country and a bankruptcy. The full <strong>provenance</strong> (the documented chain of who owned a work, hand to hand) runs through Copenhagen. When the Stein siblings divided their collection in 1914, Leo kept <em>Le bonheur de vivre</em>; over the next few years it was handled through the Paris dealers, and in <strong>1919</strong> it was bought by a Danish grain merchant named <strong>Christian Tetzen-Lund</strong>, one of the great early collectors of Matisse and Picasso, who took it home to Copenhagen. For three years the most important Fauve painting in the world hung in Denmark.
+      </p>
+      <p style={proseStyle}>
+        Then a bank failed. In <strong>1922</strong> the Danish <strong>Landmandsbanken</strong>, the country&rsquo;s largest bank, collapsed, and Tetzen-Lund, caught in the wreckage, had to break up his collection. He wrote to a wealthy American chemist who was buying modern pictures by the trainload: <strong>Albert C. Barnes</strong> of Philadelphia, who had made a fortune on an antiseptic and was assembling one of the greatest private collections of modern art anywhere. Barnes bought it through the Paris dealer <strong>Paul Guillaume</strong> for roughly <strong>45,000 francs</strong> (about $3,700 at the time), and the purchase was recorded in <strong>January 1923</strong>. So the honest sentence is not &ldquo;the Steins sold it to Barnes.&rdquo; It is: a Copenhagen collector sat between them, and a bank collapse, not a sale at the Salon, is what carried the picture to America.
+      </p>
+
+      <SectionHeader accent={accent} label="The least familiar masterpiece" title="Hidden in plain sight for decades" />
+      <p style={proseStyle}>
+        Where it landed is its own small irony. The <strong>Barnes Foundation</strong>, in suburban Merion, Pennsylvania (it moved into central Philadelphia in 2012), was a famously closed and idiosyncratic place, and that was written into law. Barnes&rsquo;s founding <strong>1922 trust</strong> (the indenture that governs the Foundation) forbade it from ever lending its pictures or even rehanging them, fixing every work in its assigned spot in perpetuity as a teaching ensemble; for decades it also barred color reproductions of the works in its care. That meant one of the pillars of modern painting was effectively bolted to a single wall and almost impossible to see in print. The critic <strong>Hilton Kramer</strong> called <em>Le bonheur de vivre</em> &ldquo;the least familiar of modern masterpieces.&rdquo; The no-loan rule was loosened only by a 2023 court ruling; for most of the twentieth century, a picture that had once been the loudest scandal in Paris sat where almost no one could see it, by the order of one collector&rsquo;s will.
+      </p>
+
+      <SectionHeader accent={accent} label="What it grew into" title="A dance, a rivalry, and a fading yellow" />
+      <p style={proseStyle}>
+        And yet its influence ran everywhere. Remember the little ring of dancers far back in the meadow. Matisse pulled that single motif out of the crowded canvas, blew it up, and made it the whole subject of <strong>The Dance</strong> (1909&ndash;10), one of the most famous images he ever painted. <em>Le bonheur de vivre</em> was the seedbed of his next forty years, the source he kept mining all the way to the late paper cut-outs.
+      </p>
+      <p style={proseStyle}>
+        It also fed the rivalry that would define the next decade of painting. <strong>Picasso&rsquo;s <em>Les Demoiselles d&rsquo;Avignon</em></strong> (1907) is widely read as his answer to the sensation Matisse had made. (That reading is interpretation, not documented intent, so take it as the way the rivalry is usually told, not as Picasso&rsquo;s stated plan; the <em>Demoiselles</em> work read covers the picture itself.) The split ran right through the Stein household, where Gertrude came down on Picasso&rsquo;s side and Leo on Matisse&rsquo;s. Together, the two men and their two canvases are usually counted as the twin poles early modern painting in the West was built between.
+      </p>
+      <p style={proseStyle}>
+        One last, oddly moving fact. The color you see today is already not quite the color of 1906. Some of Matisse&rsquo;s heavy <strong>cadmium-yellow</strong> passages are slowly degrading, the bright pigment turning chalky and brown as its chemistry breaks down, a decay that conservators have studied closely. (It is the same quiet tragedy that has dulled the sunlit grass of Seurat&rsquo;s <em>Grande Jatte</em>.) The great hymn to the joy of life is, very gently, fading, which only makes the loud, impossible color we can still see feel more worth looking at.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  bonheur: { salon: BonSalon, making: BonMaking, looking: BonLooking, reception: BonReception, afterlife: BonAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  hat: { salon: HatSalon, making: HatMaking, looking: HatLooking, scandal: HatScandal, afterlife: HatAfterlife },
+  'green-stripe': { collioure: GrnCollioure, making: GrnMaking, looking: GrnLooking, reception: GrnReception, afterlife: GrnAfterlife },
+  bonheur: { salon: BonSalon, making: BonMaking, looking: BonLooking, reception: BonReception, afterlife: BonAfterlife },
   'vision-sermon': {
     'pont-aven': VsPontAven,
     making: VsMaking,

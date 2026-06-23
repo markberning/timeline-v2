@@ -4691,5 +4691,261 @@ export const ABSTRACT_EXPRESSIONISM: ArtMovementContent = {
 }
 
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, dada: DADA, sur: SURREALISM, abex: ABSTRACT_EXPRESSIONISM, pop: POP_ART, cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM }
+// ─────────────────────────────────────────────────────────────
+// Work, Woman with a Hat (Femme au chapeau), Matisse, 1905, SFMOMA (acc. 91.161).
+// The card image + flagship WORK read for Fauvism. Authored through the art content
+// pipeline. Chapter prose in art-section-reader.tsx NARRATIVES['hat'] (Hat… prefix).
+// CRITICAL legend handling: the famous full vertical face-splitting green stripe is a
+// DIFFERENT painting (The Green Stripe, SMK Copenhagen). THIS one has a green streak
+// DOWN THE NOSE + a green smear on the forehead. Never write "the green stripe down
+// her face" for Woman with a Hat. Price disputed (~500 fr; Gertrude said paid 400) —
+// give the range, never one settled number. "Black, of course" = a reported studio
+// story from Matisse's circle, framed as such (NOT pinned to a named source).
+// BUYERS: the 1905 purchase is credited to Leo & Gertrude in the record; the wider
+// Stein family/circle (incl. Michael & Sarah) were the patrons, and Sarah Stein is the
+// agent who carried the picture west to San Francisco — do NOT assert "Sarah bought it."
+// heroImage = ART_IMG.matisseHat → born-verified Commons file Matisse-Woman-with-a-Hat.jpg
+//   (full-res https://upload.wikimedia.org/wikipedia/commons/f/fb/Matisse-Woman-with-a-Hat.jpg,
+//    load-checked 200 image/jpeg; the 960px thumb the key already serves is the inline copy).
+// ─────────────────────────────────────────────────────────────
+export const WOMAN_WITH_A_HAT: ArtWorkContent = {
+  id: 'hat',
+  name: 'Woman with a Hat',
+  shortName: 'Woman with a Hat',
+  year: 1905,
+  artist: 'Henri Matisse',
+  artistId: 'matisse',
+  movement: 'Fauvism',
+  movementId: 'fauv',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 7 3/4 in × 1 ft 11 1/2 in',
+  location: 'San Francisco Museum of Modern Art',
+  acquired: 'Bequest of Elise S. Haas, 1991',
+  accent: ART_ACCENTS.rust, // copied from FAUVISM
+  chain: { name: 'Works of Fauvism', index: 3, total: 9 },
+  hook: 'A small portrait of the painter’s wife, her face built of green and mauve, that detonated the first modern-art scandal, and was bought by the two Americans who first called it the nastiest smear of paint they had ever seen.',
+  heroImage: ART_IMG.matisseHat,
+  heroCredit: 'Matisse, Woman with a Hat, 1905 · San Francisco Museum of Modern Art',
+  heroAspect: 0.74, // 80.65 × 59.69 cm → W/H ≈ 0.74 (portrait)
+  heroFit: 'contain', // whole canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1905', k: 'Painted' },
+    { v: '2′7¾″ × 1′11½″', k: 'Dimensions' },
+    { v: 'SFMOMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'salon', eyebrow: 'Paris · 1905', dateLabel: 'Oct 1905', title: 'The rebel autumn show', blurb: 'Matisse is 35, broke, and not yet famous. The young Salon d’Automne, the alternative to the stuffy official show, is about to open at the Grand Palais, and he needs a sale.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '~Sept–Oct 1905', title: 'The woman who made hats, painted with one', blurb: 'Begun in September, finished in a rush. The sitter is his wife Amélie, a former milliner who once ran her own hat shop, painted in pure unmixed color with shadow turned to green and the dress’s real black thrown away.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 7¾ in × 1 ft 11½ in', title: 'A face no face has ever had', blurb: 'A conventional society portrait, gloved hand, fan, an enormous flowered hat, painted in colors that have nothing to do with how she looked: green down the nose, mauve in the cheeks, a tower of orange and blue overhead.', progress: 0.56 },
+    { id: 'scandal', eyebrow: 'The reception', dateLabel: 'Oct 1905', title: 'The cage of wild beasts', blurb: 'Hung in Room VII among Derain and Vlaminck and a prim marble bust, the picture is called crude, mad, infantile. A critic christens the room with the word that names a whole movement.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1905–today', title: 'From nastiest smear to icon', blurb: 'Bought off the Salon wall by the Stein family, who first recoiled then converted, and carried west by Sarah Stein to Elise Haas and SFMOMA. The picture where color took over the work of drawing.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1905', who: 'Henri Matisse (the artist)', place: 'Paris', note: 'Shown at the Salon d’Automne, October–November 1905, in the room a critic dubbed the cage of wild beasts. Sold straight out of the exhibition.', price: null },
+    { year: '1905', who: 'Leo & Gertrude Stein', place: 'Paris', note: 'The American expatriate siblings bought it out of the Salon, the first major modern purchase of the Stein family collection. Leo’s first reaction was recoil, then he went back for weeks and bought it. Price disputed: around 500 francs, though Gertrude later wrote they talked him down to 400, while the Matisse family says he held out for the full 500. Roughly $100 at the time.', price: '~400–500 francs (disputed)' },
+    { year: '~1915', who: 'Michael & Sarah Stein', place: 'Paris', note: 'After Leo and Gertrude divided the collection around 1913–14, the painting passed to Leo’s brother Michael and his wife Sarah Stein, who were the most devoted Matisse patrons in the family.', price: null },
+    { year: '1935', who: 'Michael & Sarah Stein', place: 'San Francisco Bay Area', note: 'The Steins carried the painting from France to the San Francisco Bay Area in 1935.', price: null },
+    { year: '1948', who: 'Elise S. & Walter A. Haas', place: 'San Francisco', note: 'Elise Haas, a San Francisco–born grandniece of Levi Strauss, and her husband Walter bought it, with several other Matisses, from Sarah Stein in 1948.', price: 'purchase' },
+    { year: '1991–today', who: 'San Francisco Museum of Modern Art', place: 'San Francisco', note: 'Bequest of Elise S. Haas (d. 1990; entered the collection 1991). Accession 91.161. On permanent view.', price: 'bequest', museum: true },
+  ],
+  figures: [
+    { name: 'Henri Matisse', role: 'The painter', palette: ['#4a7a4a', '#8a4a2a', '#15110c'] },
+    { name: 'Amélie Matisse', role: 'The sitter · his wife, a former milliner', palette: ['#7a3a52', '#3a6a5a', '#140e10'] },
+    { name: 'Leo Stein', role: 'The buyer who first recoiled', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Gertrude Stein', role: 'The buyer · the writer', palette: ['#6a5a3a', '#332820', '#0e0a06'] },
+    { name: 'Sarah Stein', role: 'The patron who carried it to San Francisco', palette: ['#3a6a5a', '#274a40', '#0a1410'] },
+    { name: 'Louis Vauxcelles', role: 'The critic who named the wild beasts', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+  ],
+  annotations: [
+    { label: 'The green that runs down her nose', where: 'Center of the face, a vertical streak along the bridge of the nose, with a pale blob at the tip', detail: 'A long green streak defines the nose, capped by a little blot of pale yellow at the tip. This is the painting’s clearest move into arbitrary color, green where a nose has no business being green. Note carefully what it is and is not: it is a streak running down the nose, not the famous full vertical stripe that splits the whole face into a warm half and a cool half. That stripe belongs to a different 1905 portrait of the same sitter, The Green Stripe, in Copenhagen. People mix the two up constantly. They are sisters, not the same picture.' },
+    { label: 'The forehead smear, a shadow painted green', where: 'Across the forehead, just under the brim of the hat', detail: 'A horizontal green smear sits on the forehead, most likely the shadow thrown by the wide hat brim. Except a shadow should be a darker, cooler version of the flesh under it, and Matisse painted it green instead. Color is doing the job of shadow without obeying any of the rules of shadow. Once you see it, the whole logic of the picture opens up: every patch of color is chosen for effect, not for accuracy.' },
+    { label: 'A face built from colors no face has', where: 'The cheeks, lips and chin', detail: 'The face is assembled from streaks of green and blots of gray, mauve and yellow, with almost no smooth rounding. The upper lip is tomato red, the lower lip a slash of peachy pink, a short strip of light green sits under it, and the chin is another slash of pink. There is barely any modeling, the gentle dark-to-light shading that makes a painted face look like a rounded solid. Instead of drawing the head and tinting it, Matisse builds the whole head out of color itself, which is exactly the thing 1905 viewers could not forgive.' },
+    { label: 'The hat, a tower of pure color', where: 'The top half of the canvas, above her forehead', detail: 'A wide blue brim sits straight across, and above it rise exuberant puffs of orange, green and blue swirling around one another, with a small patch of her red hair peeking out beneath. It is the most riotous passage in the picture, which is its own small joke, since the sitter, Amélie, had herself made and sold hats for a living before she married the painter.' },
+    { label: 'The glove and the fan, society props painted wild', where: 'Lower portion, her raised arm and the fan it holds', detail: 'She wears a long green glove speckled with pink, like a row of embroidery, and holds a fan of thick white and peach splashes flecked with violet and green. Gloves and a fan are the standard accessories of a respectable society portrait, which is exactly why painting them in clashing color was so provocative. The subject is utterly conventional. Only the paint is a riot.' },
+    { label: 'The background that won’t sit still', where: 'The space around and behind the figure', detail: 'The background is not a described room but broad, loose areas of clashing color, patches of green, violet and orange that refuse to recede into depth. The figure and her surroundings sit on one bright, flat, restless surface instead of in a window-like space, and bare or thinly painted canvas shows through in places, part of the unfinished look that scandalized the Salon. There is nowhere for the eye to rest.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Post-Impressionism', mode: 'art' }, { label: 'Pointillism', mode: 'art' }, { label: 'The summer at Collioure', mode: 'civ' } ],
+    children: [ { label: 'Fauvism', mode: 'art' }, { label: 'German Expressionism', mode: 'art' }, { label: 'Modern color painting', mode: 'art' } ],
+  },
+}
+
+// REGISTRY (coordinator splices into ART_WORK_CONTENT):
+//   hat: WOMAN_WITH_A_HAT,
+
+// ─────────────────────────────────────────────────────────────
+// Work, The Green Stripe (Portrait of Madame Matisse / La Raie verte),
+// Matisse, 1905, Statens Museum for Kunst (SMK), Copenhagen (inv. KMSr171).
+// Authored through the art content pipeline. Chapter prose in
+// art-section-reader.tsx NARRATIVES['green-stripe'] (Grn… prefix).
+// LEGEND handled: NOT a "Rump bequest" — SMK BOUGHT it in 1936 at the
+//   Tetzen-Lund estate sale, paid from the Rump fund (KMSr = Rump collection).
+//   The 1905 Salon Room-VII scandal piece is Woman with a Hat, NOT this; dated
+//   to autumn 1905 in Paris (after Collioure), not "painted at Collioure".
+//   The 500-franc Salon purchase belongs to Woman with a Hat (Leo & Gertrude
+//   Stein); The Green Stripe went to Michael & Sarah Stein via Druet, 1906.
+//   The "punishment of Amélie" / troubled-marriage reading is interpretation
+//   (Burgess 1910, Klein) — framed, never asserted.
+//   Background = TWO-zone split (warm side / cool side), not "thirds".
+//   SMK's own preferred English title is "The Green Line".
+// ─────────────────────────────────────────────────────────────
+export const GREEN_STRIPE: ArtWorkContent = {
+  id: 'green-stripe',
+  name: 'The Green Stripe',
+  shortName: 'The Green Stripe',
+  year: 1905,
+  artist: 'Henri Matisse',
+  artistId: 'matisse',
+  movement: 'Fauvism',
+  movementId: 'fauv',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '1 ft 4 in × 1 ft 1 in',
+  location: 'Statens Museum for Kunst, Copenhagen',
+  acquired: 'Purchased 1936 at the Tetzen-Lund estate sale, by the Ingeniør J. Rump and Elisabeth Rump Fund',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Works of Fauvism', index: 2, total: 9 },
+  hook: 'A small portrait of his wife with a band of pure green straight down her face, where Matisse used color to do the work of light and shadow, so it stops describing the face and starts building it.',
+  heroImage: ART_IMG.matisseGreenStripe,
+  heroCredit: 'Matisse, The Green Stripe (Portrait of Madame Matisse), 1905 · Statens Museum for Kunst, Copenhagen',
+  heroAspect: 0.8, // 32.5 × 40.5 cm → W/H ≈ 0.80 (portrait canvas)
+  heroFit: 'contain', // the whole small portrait, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: 'Autumn 1905', k: 'Painted' },
+    { v: '1′4″ × 1′1″', k: 'Dimensions' },
+    { v: 'SMK Copenhagen', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'collioure', eyebrow: 'Collioure & Paris · 1905', dateLabel: '1905', title: 'A breakthrough summer, and the autumn after', blurb: 'Matisse and Derain spend the summer at Collioure firing color off its leash. Most likely that autumn, back in Paris, he turns the new method on a portrait of his own wife, Amélie.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: 'Autumn 1905', title: 'A green stripe as the spine of a face', blurb: 'One structural idea: a vertical band of pure green runs down the center of the face, splitting it into a warm half and a cool half, and doing the job a shadow does, turning the form, giving volume, with no shading anywhere.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1 ft 4 in × 1 ft 1 in', title: 'How to see the stripe as structure', blurb: 'The green meridian, the two-tone face, the blue hair, the teal collar, and a background split warm-and-cool just like the head, a whole picture organized by color, on a canvas the size of a sheet of legal paper.', progress: 0.56 },
+    { id: 'reception', eyebrow: 'The reception', dateLabel: '1905–1910', title: 'A mask the friends recoiled from', blurb: 'Part of the Fauve color uproar, and harder than its famous companion Woman with a Hat. A friend of Michael and Sarah Stein called it a demented caricature; in 1910 a critic called it Matisse’s punishment of Amélie. Both are readings, not facts.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1906–today', title: 'The road to Copenhagen', blurb: 'Bought by the American collectors Michael and Sarah Stein through a Paris gallery in 1906, then across war-time Europe into a great Danish collection, and finally to SMK in 1936, bought at an estate sale, paid for by the Rump fund.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1905–1906', who: 'Henri Matisse (the artist)', place: 'Paris', note: 'Painted in 1905, most likely that autumn back in Paris after the Collioure summer. Sold within months through the Paris dealer Galerie Druet.', price: null },
+    { year: '1906–c.1914', who: 'Michael and Sarah Stein', place: 'Paris', note: 'The American collectors (Michael was Gertrude and Leo Stein’s eldest brother) bought it through Galerie Druet, in the spring of 1906. The Steins were the avant-garde’s key American patrons; the portrait hung in their Paris flat. (Keep distinct from Leo and Gertrude, who bought Woman with a Hat for 500 francs off the Salon wall.)', price: null },
+    { year: 'c.1914–1919', who: 'Stored in Germany (the Moll circle, Berlin)', place: 'Berlin', note: 'With the outbreak of the First World War the painting was left in Germany; sale negotiations in 1917–18 led to a temporary seizure by the dealer Fritz Gurlitt before it returned to Paris around 1919. (The German-storage years are the least documented link in the chain.)', price: null },
+    { year: 'c.1920–1936', who: 'Christian Tetzen-Lund', place: 'Copenhagen', note: 'The Danish grain merchant and major collector of French modernism brought it to Copenhagen around 1920. He dispersed most of his collection in the 1920s but kept this portrait until his death in 1936.', price: null },
+    { year: '1936–today', who: 'Statens Museum for Kunst', place: 'Copenhagen', note: 'Purchased at the Tetzen-Lund estate auction in 1936, financed by the Ingeniør J. Rump and Elisabeth Rump Fund (the Rump fund). Inv. KMSr171, the KMSr prefix marks the Rump collection. This was a fund-financed purchase, not part of Johannes Rump’s own 1928 gift. On permanent view.', price: 'estate-sale purchase', museum: true },
+  ],
+  figures: [
+    { name: 'Henri Matisse', role: 'The painter', palette: ['#4a7a4a', '#8a4a7a', '#15110c'] },
+    { name: 'Amélie Matisse', role: 'His wife · the sitter', palette: ['#3a7a5a', '#8a5a3a', '#14110a'] },
+    { name: 'Michael & Sarah Stein', role: 'Bought it through Druet, 1906', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Christian Tetzen-Lund', role: 'Danish collector · owned it to 1936', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Johannes Rump', role: 'Namesake of the fund that bought it', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  annotations: [
+    { label: 'The green stripe down the nose and forehead', where: 'Dead center of the face, a vertical band running from the hairline, down the bridge of the nose, to the top lip', detail: 'This green band is the painting’s title and its whole structure. It splits the face into two halves and does the job a shadow would do in an ordinary portrait, turning the form, giving it volume, except there is no shading anywhere on the canvas, just a stripe of flat green standing in for the modelling (the gradual light-to-dark shading painters use to fake a round, solid form). It is the single clearest example in early modern art of color taking over a job that drawing and tonal shading used to own.' },
+    { label: 'The two-tone face: a warm half and a cool half', where: 'Either side of the green stripe, the side carrying the orange-and-red chin and ear reads as the lit, warm half; the other side is a cooler yellow-ochre', detail: 'One side of the face is keyed warm, pink with orange and red worked along the chin and the ear, reading as the side in direct light. The other side is a cooler yellow-ochre (a dull earth-yellow), reading as half-light. There is no gradual blend between them; the green stripe is the only seam. Light and shadow have been translated entirely into two flat temperatures of color, side by side, with the stripe as the hinge.' },
+    { label: 'The background split warm and cool', where: 'The flat field behind the head, divided into a warm zone on one side and a cool zone on the other', detail: 'The background is not a single backdrop but is divided into two zones, just like the face: pink and orange on one side, teal-green on the other. Matisse carries the warm-and-cool split of the head out into the whole picture, so the room behind her echoes the structure of her face. Color is organizing the entire surface, not just describing a wall, there is nothing behind her to describe at all.' },
+    { label: 'The hair, brows and eyes in deep blue', where: 'The hair piled up top, plus the eyebrows and the eyes', detail: 'Hair, brows and eyes are all a deep blue, a color no hair is, set against the green stripe and the warm flesh. It is the clearest tell that Matisse is choosing colors for how they ring against their neighbors, not for what the thing actually looks like. The blue cools and anchors the top of the head against the heat of the cheeks.' },
+    { label: 'The high collar in teal', where: 'At the base of the portrait, the neckline of her blouse or dress', detail: 'She wears an orange-and-pink blouse or dress closed with a teal (blue-green) neckline, the same blue-green family as the green stripe and the cool side of the background, tying the bottom of the picture back to its top. And note what is not here: no hat. The hat belongs to the other 1905 portrait of Amélie, Woman with a Hat.' },
+    { label: 'The brushwork: flat blocks, not blended modelling', where: 'Anywhere across the face and background, the broad areas of unbroken color', detail: 'The paint is laid in firm, flat sections of pure unmixed color, each one defining a feature or a zone, with hard edges between them rather than soft, blended transitions. This is closer to the flat color-areas of Gauguin and Van Gogh than to Impressionism’s flicker, and it is why the head reads as a built construction, almost a mask, rather than a soft, rounded, lifelike face.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Fauvism', mode: 'art' }, { label: 'Van Gogh', mode: 'art' }, { label: 'Gauguin', mode: 'art' } ],
+    children: [ { label: 'Color cut loose from description', mode: 'art' }, { label: 'German Expressionism', mode: 'art' }, { label: 'Matisse alone', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Le Bonheur de vivre (The Joy of Life), Matisse, 1905–06.
+// The high-water canvas of Fauvism. The Barnes Foundation, Philadelphia (BF719).
+// Authored through the art content pipeline (fact pack → Opus → 5 gates → revise).
+// Chapter prose in art-section-reader.tsx NARRATIVES['bonheur'] (Bon… prefix).
+// FLAGS handled per fact pack: provenance is NOT Stein → Barnes direct, it ran
+// Stein → Christian Tetzen-Lund, Copenhagen (1919) → Albert Barnes via dealer
+// Paul Guillaume (forced sale after the 1922 Landmandsbanken collapse; recorded
+// Jan 1923). Signac's "gone to the dogs" IS documented (letter, 14 Jan 1906) and is
+// quoted WITH attribution. Picasso "answered it with the Demoiselles" is DISPUTED
+// interpretation and is hedged. Of the visual sources only Carracci's engraving
+// "Love in the Golden Age" is firmly documented (Cuno/Puttfarken); Ingres/Cézanne are
+// "drew on / in the tradition of"; Bellini dropped. The back-center ring of dancers
+// PREFIGURES The Dance (1909–10), it is not "The Dance."
+// FRAME pass: male-gaze/Arcadian-nude convention named historically in BonLooking;
+// no-loan reason (1922 Barnes indenture, loosened 2023) added; Sarah Stein restored
+// and Gertrude given real agency; Picasso heroics cooled (hedge intact).
+// ─────────────────────────────────────────────────────────────
+export const BONHEUR: ArtWorkContent = {
+  id: 'bonheur',
+  name: 'Le Bonheur de vivre',
+  shortName: 'The Joy of Life',
+  year: 1906,
+  artist: 'Henri Matisse',
+  artistId: 'matisse',
+  movement: 'Fauvism',
+  movementId: 'fauv',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '5 ft 9 1/2 in × 7 ft 10 3/4 in',
+  location: 'The Barnes Foundation, Philadelphia',
+  acquired: 'Acquired by Albert C. Barnes through the dealer Paul Guillaume, 1922–23 (recorded January 1923); BF719',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Works of Fauvism', index: 6, total: 9 },
+  hook: 'A wall-sized Arcadia of nudes lounging, piping, and dancing in colors no real meadow ever wore, the canvas Leo Stein called the most important picture of its moment and the one Picasso is said to have answered with Les Demoiselles d’Avignon.',
+  heroImage: ART_IMG.matisseBonheur,
+  heroCredit: 'Matisse, Le Bonheur de vivre, 1905–06 · The Barnes Foundation, Philadelphia',
+  heroAspect: 1.36, // 176.5 × 240.7 cm → W/H ≈ 1.36
+  heroFit: 'contain', // the whole ~6 × 8 ft canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1905–06', k: 'Painted' },
+    { v: '5′9½″ × 7′10¾″', k: 'Dimensions' },
+    { v: 'The Barnes', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'salon', eyebrow: 'Paris · 1906', dateLabel: 'Salon des Indépendants, spring 1906', title: 'After the wild beasts, the statement', blurb: 'A year after the “wild beasts” scandal, Matisse answers not by retreating but by going enormous: one deliberate, wall-sized canvas, unveiled at the jury-free Salon des Indépendants, where it becomes the sensation and the outrage of the season.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: 'Oct 1905 – Mar 1906', title: 'A built picture, not an improvised one', blurb: 'Many sketches, a full-size cartoon, and a small dotted oil study that you can watch turn into the flat-color final. Old masters stand behind the wild surface, one of them documented: Carracci’s engraving of a golden-age idyll, with the same ring of dancers in the back.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '5 ft 9½ in × 7 ft 10¾ in', title: 'Hot-pink ground, violet trees, a ring of dancers', blurb: 'Read the painting itself: the reclining nudes, the piper at the bottom, the embracing couple, the little round-dance far back, the dark contour fencing each figure, the trees that arch like a stage curtain, and a meadow painted in colors that answer to feeling, not to any real place.', progress: 0.56 },
+    { id: 'reception', eyebrow: 'The reception', dateLabel: '1906', title: 'The dogs, the dazzle, and the Steins’ rescue', blurb: 'The public jeers; some critics fear the end of French painting. Matisse’s old pointillist mentor Paul Signac, in a private letter, writes that Matisse has “gone to the dogs.” Then the Steins buy it and hang it in the most famous room in the avant-garde.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1906–today', title: 'From the Steins to the Barnes', blurb: 'A Copenhagen collector, a bank collapse, and a Philadelphia chemist carry the picture to a museum whose own trust kept it fixed in place and out of print for decades. Matisse spins its ring of dancers into The Dance; Picasso’s Demoiselles is widely read as the answer; and the cadmium yellow quietly decays.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1905–1906', who: 'Henri Matisse (the artist)', place: 'Paris', note: 'Painted between October 1905 and March 1906, then first shown at the Salon des Indépendants in spring 1906, where it was the season’s great scandal.', price: null },
+    { year: '1906–1914', who: 'Leo & Gertrude Stein', place: 'Paris (27 rue de Fleurus)', note: 'The American expatriate siblings, the avant-garde’s key early patrons, bought it from the 1906 Salon; Matisse himself installed it in their apartment, turning a scandal into the centerpiece of the most famous salon in modern art. Leo is widely quoted calling it “the most important painting done in our time.” Gertrude ran that salon as much as Leo did; her taste later tilted toward Picasso, his toward Matisse, a fault line that eventually split the household and the collection.', price: null },
+    { year: '1914–1919', who: 'Leo Stein', place: 'Paris', note: 'On the 1914 division of the Stein collection, Leo kept it; in these years it is recorded as on deposit at / handled through the Galerie Bernheim-Jeune.', price: null },
+    { year: '1919–1922', who: 'Christian Tetzen-Lund', place: 'Copenhagen', note: 'Acquired in 1919 (through Bernheim-Jeune and the dealer Paul Guillaume) by the Danish grain merchant Tetzen-Lund, a major collector of Matisse and Picasso. The painting did NOT pass straight from the Steins to Barnes; a Copenhagen owner sat between them.', price: null },
+    { year: '1922–1923', who: 'Albert C. Barnes (through the dealer Paul Guillaume)', place: 'Philadelphia', note: 'The 1922 collapse of the Danish Landmandsbanken forced Tetzen-Lund to break up his collection; he wrote to Barnes offering Matisse and Picasso works. Bought through Paul Guillaume for roughly 45,000 francs (about $3,700 at the 1922 rate); the official Barnes purchase is recorded January 27, 1923.', price: '~45,000 francs (≈ $3,700)' },
+    { year: '1923–today', who: 'The Barnes Foundation', place: 'Merion, PA → Philadelphia (2012)', note: 'BF719. Albert Barnes’s 1922 Indenture of Trust forbade the Foundation from lending or rehanging its works, and for decades it barred color reproductions; the no-loan rule was loosened only by a 2023 court ruling. Held first in suburban Merion, then moved to central Philadelphia in 2012. On permanent view.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Henri Matisse', role: 'The painter', palette: ['#d08a3a', '#3a8a5a', '#1c2218'] },
+    { name: 'Leo Stein', role: 'Buyer; called it the picture of its time', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Gertrude Stein', role: 'Co-host of the rue de Fleurus salon', palette: ['#7a6a44', '#3e3320', '#12100a'] },
+    { name: 'Sarah Stein', role: 'Matisse’s most relentless early champion', palette: ['#7a5a4a', '#3e2c22', '#12100a'] },
+    { name: 'Paul Signac', role: 'The mentor who recoiled', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+    { name: 'Albert C. Barnes', role: 'Bought it for Philadelphia, 1922–23', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'Pablo Picasso', role: 'The rival said to have answered it', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
+  ],
+  annotations: [
+    { label: 'The ring of dancers that became a painting', where: 'Center background, on the far meadow: a small circle of figures joining hands', detail: 'Far back in the meadow, a little round-dance turns, figures linked hand to hand. This is the seed of an entire other canvas. Matisse pulled the motif out, blew it up, and made it The Dance (1909–10), one of the most famous images he ever painted. It is also the element art historians tie most firmly to his documented source: Agostino Carracci’s engraving Love in the Golden Age, which has the same ring of dancers off in the back of a pastoral idyll.' },
+    { label: 'The piper in the foreground', where: 'Bottom center, a seated nude playing a double pipe', detail: 'A figure sits and plays a double pipe, the kind of double flute that signals Arcadia, the mythic countryside of shepherds and ease. It is the pastoral note that tells you the whole scene is a golden-age dream, not a real afternoon. Watch the scale: read the player as a child and it sits comfortably beside the couple to the right; read it as an adult and the figures just behind become giants. The mismatch is on purpose.' },
+    { label: 'The reclining nudes', where: 'Foreground, left and center, figures stretched out on the rose-and-orange ground', detail: 'The lounging nudes are pure leisure, and that is the point. The “joy of life” in the title is bodily ease, not a story with a moral. They are also, like nearly every figure here, women, painted by a man for the male connoisseurs who would buy the canvas, squarely inside the old European convention of the idealized female nude. Their bodies are drawn as long serpentine curves, what art historians call arabesques, a flowing snaking line, and each is fenced by a single dark contour. Matisse cared more about that line than about anatomy, which is why limbs lengthen and bend past anything a real body does.' },
+    { label: 'Color that answers to nothing in nature', where: 'Everywhere: the orange-and-pink earth, the violet and green tree trunks, the lemon-and-rose sky', detail: 'There is no real meadow this color. The ground runs hot pink and orange, tree trunks go violet, the sky shades from lemon to rose, all in big flat fields with no modeling. Color here serves feeling and the design of the surface, not the look of any actual place. This is the core Fauve move, the wild-beast freedom Matisse had been mocked for the year before, now carried out at wall scale.' },
+    { label: 'The embracing couple', where: 'Bottom right, a pair of nudes locked together', detail: 'Down in the lower-right corner two figures embrace, the frankly sensual note that, with all the lounging and the piping, makes the picture a hymn to pleasure. Their small size against the looming figures just behind them is one of the clearest places to catch Matisse sizing his figures for the composition rather than for distance. Nothing in this picture obeys perspective; everything obeys the design.' },
+    { label: 'The trees that arch like a curtain', where: 'Upper edges, left and right, two large trees whose foliage bends inward over the scene', detail: 'The big trees do not recede into depth. Their curved trunks and overhanging branches arc inward and frame the meadow like a stage curtain, pressing the whole scene flat against the surface. The same snaking line that shapes the bodies shapes the trees, so figure and landscape rhyme. The canvas reads as one woven, shallow pattern, a decorated surface, not a deep window you look through.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Carracci · the golden-age idyll', mode: 'art' },
+      { label: 'Cézanne’s Large Bathers', mode: 'art' },
+      { label: 'Ingres · the arabesque', mode: 'art' },
+    ],
+    children: [
+      { label: 'The Dance (1909–10)', mode: 'art' },
+      { label: 'Les Demoiselles d’Avignon', mode: 'art' },
+      { label: 'Flat-color modern painting', mode: 'art' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
