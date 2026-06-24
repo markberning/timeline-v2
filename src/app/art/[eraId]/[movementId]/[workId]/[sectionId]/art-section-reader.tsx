@@ -12113,7 +12113,543 @@ function StlAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
 // REGISTRY (coordinator splices into NARRATIVES):
 //  'still-cliff': { independent: StlIndependent, making: StlMaking, looking: StlLooking, break: StlBreak, afterlife: StlAfterlife },
 
+// ─────────────────────────────────────────────────────────────
+// The Liver Is the Cock's Comb (Gorky, 1944) — the five chapters.
+// In-copyright: no full inline figure of the work; the hero (shown small,
+// credited under fair use) carries the image. The title was SUPPLIED BY
+// BRETON (evocative, not a description, never decoded as a key). The
+// Surrealism→AbEx claim is a SYNTHESIS and influence, scoped, never sole-cause.
+// Key statement = Breton's 1945 "nature as cryptogram" intro (cleanly sourced,
+// closed with a marked ellipsis so no words are dropped silently); the
+// unverified "most important paintings made in America" line is not used.
+// Genocide/lost-mother biography kept proportionate; the heirs are the New
+// York School (de Kooning, Pollock, Rothko), not de Kooning alone.
+// ─────────────────────────────────────────────────────────────
+function LvrSetting({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York / Virginia · 1944" title="The apprentice who took twenty years to become himself" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        rshile Gorky spent most of his painting life openly learning out loud. Born <strong>Vosdanig Manoug Adoian</strong> around 1904 near Lake Van, in the Armenian provinces of the Ottoman Empire, he reached the United States as a young immigrant and remade himself, new name and all, into a New York painter. (He sometimes hinted he was kin to the Russian writer Maxim Gorky. He was not.) Through the 1930s he painted, frankly and on purpose, <em>through</em> the masters he loved: a long C&eacute;zanne phase, then a long Picasso phase, then Joan Mir&oacute;, the Spanish Surrealist whose soft floating shapes Gorky studied like scripture. For two decades he was one of the most gifted apprentices in America, and he knew it, and it bothered him.
+      </p>
+      <p style={proseStyle}>
+        Two things have to be set down before the picture, both quietly, because the picture is not a caption to either. The first is a wound. Gorky lived the <strong>Armenian genocide</strong>, the mass killing and forced expulsion of Ottoman Armenians during the First World War, and in <strong>1919</strong> his mother died of starvation in its aftermath. That loss runs underneath his art for the rest of his life. But it is not a key that unlocks each shape, and the museum that holds this canvas is careful to frame the homeland in it as <em>remembered gardens</em>, not literal autobiography. The loss is named once; the forms stay open.
+      </p>
+      <p style={proseStyle}>
+        The second thing is a stretch of happiness, which matters because this is a happy picture. In <strong>1941</strong> Gorky married <strong>Agnes Magruder</strong>, whom everyone called &ldquo;Mougouch,&rdquo; and the couple began spending long stretches on her family&rsquo;s <strong>farm in Virginia</strong>. Out in that countryside, drawing plants and dirt and light, Gorky finally stopped painting through other men and started painting through himself. The early-to-mid 1940s were his breakthrough years. <em>The Liver Is the Cock&rsquo;s Comb</em>, made in <strong>1944</strong>, sits right in the middle of them.
+      </p>
+      <p style={proseStyle}>
+        And he had company that pushed him. The Second World War had driven the leading European <strong>Surrealists</strong> into exile, and a good number of them, including their leader Andr&eacute; Breton, were in New York during the war years. (Surrealism is the movement, launched in 1920s Paris, that tried to put the unconscious mind directly into art: dreams, accidents, free association.) Gorky met them. They took him seriously. Breton in particular decided that this Armenian American was a genuine Surrealist discovery, and began to champion him. So in 1944 Gorky stands at a hinge: a fully formed draftsman who has finally found his own voice, encouraged by the very Europeans whose method he was bending to a new purpose.
+      </p>
+    </article>
+  )
+}
+
+function LvrMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1944" title="Two layers: the wash, then the line" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he making of this picture is really the meeting of two habits Gorky had spent twenty years building separately, finally allowed to happen on the same surface. The first is <strong>automatism</strong>. The word comes straight out of Surrealism, and it means letting the hand move freely, fed by the unconscious, without a plan: you start drawing or painting and you follow where the marks go rather than deciding in advance what to depict. The Surrealists used automatism to fish images up out of the parts of the mind that conscious control keeps quiet. Gorky took the technique and made it his own engine. The teeming shapes in this canvas were not designed and then executed; they were found, in the act, by a free hand.
+      </p>
+      <p style={proseStyle}>
+        The second habit is the opposite of free: it is <strong>drawing</strong>, the most disciplined thing Gorky did. He was a superb draftsman, and in his late work he carried that line directly into the painting rather than burying it. The mechanics on this canvas are unusually clear. He worked the color <strong>thin and wet</strong>, letting it wash, stain, soak and bleed into the canvas so that edges run and the weave shows through, much closer to watercolor than to thick oil paint. Then, over that flowing colored ground, he laid a <strong>nervous, dark, drawn line</strong> that defines the shapes. The painting is built in two passes: the unconscious wash underneath, the drawing on top. Neither cancels the other.
+      </p>
+      <p style={proseStyle}>
+        What those shapes are <em>made of</em> is two things fused. The Buffalo AKG describes the work as joining the artist&rsquo;s <strong>physical surroundings</strong>, the Virginia farm and its plants, with his <strong>memories of the gardens of his homeland</strong>, the remembered Armenia of his childhood. So the forms are organic, fertile, growing things, half-recalled and half-seen, neither a portrait of Virginia nor an illustration of Armenia but a single image-world distilled out of both. The thinning, the staining, the freely found shapes and the drawn line all serve that one aim: to get growth and memory onto the canvas as feeling rather than as a depicted place.
+      </p>
+      <p style={proseStyle}>
+        This is also one of the <strong>largest canvases Gorky ever painted</strong>, roughly six by eight feet, mural-scale. That decision is not incidental to the making. The intimate, doodled, watercolor-like marks he was discovering are blown up here to the size of a wall, and holding that scale steady across a surface built from free, accidental, bleeding shapes is most of the difficulty and most of the achievement.
+      </p>
+    </article>
+  )
+}
+
+function LvrLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A field with no horizon" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he first thing the picture does is refuse to give you a scene. There is <strong>no horizon line</strong>, no floor, no sky, no single object the painting is &ldquo;of.&rdquo; A traditional picture hands you a place to stand in. This one hands you a wide colored field with <strong>dozens of soft shapes</strong> scattered and clustered across it, and lets you wander. Read it as a swarm of growing things rather than a place. The eye has nowhere fixed to land, which is the point: the whole surface is alive and equally weighted, edge to edge.
+      </p>
+      <p style={proseStyle}>
+        The shapes themselves are <strong>biomorphic</strong>, a useful word that just means &ldquo;shaped like living things&rdquo;: soft, rounded, organic forms that suggest bodies, plants and organs without being any of them exactly. There are petal-like forms, flame-like forms, limb-like and organ-like forms, drifting and overlapping. The Buffalo AKG notes that some carry clear allusions to <strong>female and male genitalia</strong>, and the picture is frankly about fertility and the body. Yet every shape stays just shy of being nameable: never quite a flower, never quite an organ. That deliberate indefiniteness is not failure or shyness. It is the subject. Gorky wanted growth and the body <em>felt</em>, not catalogued.
+      </p>
+      <p style={proseStyle}>
+        The surface tells you how it was made. Much of the color is <strong>thin and watery</strong>, washed on so the canvas shows through, with edges that <strong>run, seep and bleed</strong> rather than sit in hard outlines. Over that soft flooded ground rides a separate layer: <strong>thin, dark, nervous drawn lines</strong>, the draftsman&rsquo;s contour laid on top of the painting rather than filled in by it. Those two layers, the wash below and the drawing above, are the meeting of Gorky&rsquo;s free unconscious hand and his trained one.
+      </p>
+      <p style={proseStyle}>
+        Finally, the color. The field is mostly soft and muted, but a few <strong>hot accents</strong>, reds and yellows, flare out against the quieter surroundings. Because so much of the canvas is washed-down and pale, those small bright passages carry real weight: they pull the eye and walk it across the long, wide surface. Taken in whole, at mural scale, the doodled, intimate forms become a single teeming wall of growth. There is no scene, no story, no fixed thing. There is a field, and it is full of life.
+      </p>
+    </article>
+  )
+}
+
+function LvrBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="Two things that sat apart" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore this canvas, two strands of modern painting sat in separate rooms. On one side was <strong>Surrealism</strong>, with its automatism and its soft biomorphic dream imagery: Mir&oacute;, Andr&eacute; Masson, Yves Tanguy, Matta. It had the free hand and the organic shape, but it stayed largely European, often small in scale, and often illustrative, a depicted dream, a scene from the unconscious. On the other side was <strong>American abstraction</strong>, which before the war was mostly geometric, derived from Cubism (the Picasso-and-Braque method of breaking objects into faceted planes), or else it was plain regionalist realism. Gorky himself had spent the 1930s as a magnificent apprentice inside all of this, painting openly through C&eacute;zanne, Picasso and Mir&oacute; in turn. The pieces existed. Nobody had fused them.
+      </p>
+      <SectionHeader accent={accent} label="The break" title="Automatism, biomorphism, scale, drawing, memory, fused" />
+      <p style={proseStyle}>
+        Gorky put them together. He kept Surrealism&rsquo;s <strong>automatism</strong> (the free unconscious hand) and its <strong>biomorphic form</strong> (the soft organic shape), but he scaled them up to <strong>mural-size, all-over abstraction</strong> with no fixed scene, and he carried his draftsman&rsquo;s <strong>line drawing directly into the painting</strong>, thin contours laid over washed, bled, stained color. The result is <strong>abstraction fed by the unconscious and by personal memory</strong> rather than by Cubist geometry. That particular hybrid, organic form plus automatism plus scale plus drawing-into-paint plus the unconscious-and-memory as the actual subject, is one of the seeds of the movement that would shortly be called <strong>Abstract Expressionism</strong>.
+      </p>
+      <p style={proseStyle}>
+        The painter who put all this in motion had a champion to name it, and the cleanest words about Gorky&rsquo;s method are Breton&rsquo;s. In <strong>March 1945</strong> Andr&eacute; Breton, the founder of Surrealism, wrote the introduction to Gorky&rsquo;s first solo show at the <strong>Julien Levy Gallery</strong> in New York, and described what Gorky was doing this way:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        &ldquo;Here for the first time nature is treated as a cryptogram. The artist has a code by reason of his own sensitive anterior impressions, and can decode nature to reveal the very rhythm of life &hellip;&rdquo;
+      </blockquote>
+      <p style={proseStyle}>
+        That is Breton, in his introduction to Gorky&rsquo;s 1945 Julien Levy show, and it is almost a description of how <em>The Liver Is the Cock&rsquo;s Comb</em> works. A <strong>cryptogram</strong> is a coded message, something written so that only a holder of the key can read it. Breton&rsquo;s claim is that Gorky carries the key, his own &ldquo;anterior impressions,&rdquo; the gardens and bodies and losses already inside him, and uses it to turn nature into a private code on the canvas: not a picture of the world but a decoding of it into the rhythm of life itself. That is the memory-into-form move the painting makes.
+      </p>
+      <p style={proseStyle}>
+        Two things from the record. First, the bridge is a <strong>synthesis</strong>, not a sole cause. Gorky is <em>a</em> decisive hinge between Surrealism and Abstract Expressionism, the shorthand &ldquo;last of the Surrealists and first of the Abstract Expressionists&rdquo; is useful, but he did not single-handedly invent the movement, and he never fully swallowed Surrealist doctrine: he kept its automatism and its forms while rejecting its dream-illustration and its pure-unconscious dogma, bending the method toward his own memory-and-nature abstraction. Second, the very <strong>title</strong> you have been reading is Breton&rsquo;s, not Gorky&rsquo;s. The Surrealists liked to hand works poetic, deliberately strange names, and Breton supplied this one. &ldquo;Liver&rdquo; carries old associations with the soul and the seat of life; &ldquo;cock&rsquo;s comb&rdquo; is at once a flower, a rooster&rsquo;s crest, and a jester&rsquo;s cap, with a crude pun underneath. They are layered allusions, not a key. The title is not a label for particular shapes; it is a spell cast over the picture from outside it.
+      </p>
+      <SectionHeader accent={accent} label="The break · after" title="The doorway the next generation walked through" />
+      <p style={proseStyle}>
+        What came after is the proof. The younger New York painters took exactly these moves. <strong>Willem de Kooning</strong> built his biomorphic abstraction out of them; <strong>Jackson Pollock</strong> ran with the all-over automatist field, the large unhierarchical canvas of pure feeling with no fixed scene; <strong>Mark Rothko</strong> and the rest of the emerging New York School moved the same way, toward abstraction made of feeling rather than of geometry. The standard line, that <em>Gorky is where Surrealism becomes Abstract Expressionism</em>, is true if you scope it as influence and synthesis rather than as a one-man invention. This canvas is one of the doors that the whole next movement walked through.
+      </p>
+    </article>
+  )
+}
+
+function LvrAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1946–1948" title="The short, bright window, and the fall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        his picture sits inside a window that did not stay open long. The years <strong>1943 to 1947</strong> were Gorky&rsquo;s breakthrough, the stretch in which he finally painted as himself. Then a cascade of disasters closed over him in barely two years. In <strong>1946</strong> a fire in his studio destroyed many of his works. Around the same time came a diagnosis of <strong>rectal cancer</strong> and the surgery that followed. In <strong>1948</strong> a car accident broke his neck and, for a time, paralyzed his painting arm. His marriage broke down. On <strong>21 July 1948</strong>, at roughly forty-four, Gorky hanged himself in Sherman, Connecticut, leaving the chalked words &ldquo;Goodbye My Loveds.&rdquo; The 1944 canvas was painted, then, in the last clear light before all of that.
+      </p>
+      <SectionHeader accent={accent} label="Provenance" title="Through two hands to Buffalo" />
+      <p style={proseStyle}>
+        The painting&rsquo;s life as an object, its <strong>provenance</strong> (the documented chain of who has owned a work, in order, from the artist&rsquo;s hand to now), is short and clean. From Gorky it went into the collection of <strong>Jean Lamson Hebbeln</strong>, and then to the <strong>Sidney Janis Gallery</strong> in New York, one of the central dealers of the new American painting. On <strong>13 March 1956</strong> the picture was acquired by the <strong>Albright Art Gallery</strong> in Buffalo as the <strong>Gift of Seymour H. Knox, Jr.</strong> (accession K1956:4). Knox was the museum&rsquo;s great modern-art patron, the man who funded much of its postwar collection. The Albright Art Gallery later became the Albright-Knox Art Gallery, and after a 2023 expansion the <strong>Buffalo AKG Art Museum</strong>, where the canvas hangs today.
+      </p>
+      <SectionHeader accent={accent} label="A note on the image" title="Why this one is shown small" />
+      <p style={proseStyle}>
+        A word on why this picture is reproduced small here. It is <strong>still under copyright</strong>: Gorky painted it in 1944, and a published work of that era holds US copyright for about ninety-five years from publication, which keeps this one protected through roughly 2040. (The term is keyed to the publication date, not the artist&rsquo;s death, so Gorky&rsquo;s death in 1948 does not free it.) The rights are actively held by the Gorky estate (&copy; Estate of Arshile Gorky / Artists Rights Society, New York). So unlike the older paintings in these readings, which have passed into the public domain, this one is shown small and credited to the Buffalo AKG and the estate, for the purpose of talking about it. The teeming field is free to grow without end; the picture of it is not quite free in the same way.
+      </p>
+      <p style={proseStyle}>
+        What Gorky left, in the few good years before the fall, is the door. <em>The Liver Is the Cock&rsquo;s Comb</em> is the canvas most often used to show the turn, the picture where Surrealism&rsquo;s free hand and the gardens of a lost homeland become a wide, mural-sized field of pure organic life, and where the next great American movement finds one of its beginnings. The man was gone at forty-four. The field he painted is still teeming.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'liver-cocks-comb': { setting: LvrSetting, making: LvrMaking, looking: LvrLooking, break: LvrBreak, afterlife: LvrAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Mountains and Sea (Frankenthaler, 1952) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function MtsNovaScotia({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · 1952" title="A twenty-three-year-old back from the coast" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the fall of <strong>1952</strong>, a painter who is <strong>twenty-three years old</strong> walks back into her New York studio carrying a coast in her head. Her name is <strong>Helen Frankenthaler</strong> (1928&ndash;2011). That summer she had traveled up to <strong>Cape Breton, on the Atlantic shore of Nova Scotia, Canada</strong>, and painted from nature there, in front of the rock and the water. She is not going to paint what she saw. She is going to paint what it left in her.
+      </p>
+      <p style={proseStyle}>
+        The picture did not arrive out of nowhere. Frankenthaler had a serious schooling. She had absorbed <strong>Cubism</strong> (the Picasso-and-Braque way of breaking a subject into flat, overlapping planes) and the lessons of modern abstraction, and she had been taken up by the critic <strong>Clement Greenberg</strong> (1909&ndash;1994), the most powerful art writer in New York, who was both her champion and, for several years, her companion. Through that world she had watched the reigning giants of the new American painting at close range.
+      </p>
+      <p style={proseStyle}>
+        She was also, at twenty-three, a young woman entering a New York scene whose reigning style prized exactly the things she was about to drop, the big, muscular, visibly male gesture of <strong>Willem de Kooning</strong>&rsquo;s brush and <strong>Jackson Pollock</strong>&rsquo;s flung arm. The move she made here ran the other way, toward soaked, quiet, drawn color, and it is part of why the picture read as a break.
+      </p>
+      <p style={proseStyle}>
+        Of the giants she had watched, one mattered most: <strong>Pollock</strong> (1912&ndash;1956). In 1951 Frankenthaler had seen Pollock&rsquo;s poured paintings and been knocked sideways by them. Pollock did something nobody before him had quite done: he took the canvas off the easel, tacked it to the floor, and walked around it, trailing and flinging liquid house paint off sticks so the picture was built from his whole body moving over it rather than a hand at a wall. Pouring paint was Pollock&rsquo;s precedent, not Frankenthaler&rsquo;s invention, and that distinction will matter shortly. She wanted in on what he had opened, but she did not want to copy it. She later said of Pollock&rsquo;s work that she wanted to <em>&ldquo;live in this land,&rdquo;</em> not move into his house but find her own way across the same ground.
+      </p>
+      <p style={proseStyle}>
+        So here is the situation in the studio. A young painter, fluent in abstraction, stirred by Pollock&rsquo;s floor-bound pours, and freshly full of the cliffs and sea of Nova Scotia, is standing over a length of canvas looking for a way to get the landscape out of her arms and into the cloth. What she did next was so simple, and so consequential, that it has its own name.
+      </p>
+    </article>
+  )
+}
+
+function MtsMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1952" title="Thin the paint until it runs like watercolor" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        rankenthaler took her <strong>oil paint and thinned it heavily with turpentine</strong> (the solvent painters use to loosen oil paint) until it stopped behaving like paint and started behaving like watercolor or dye, runny enough to pour and flow. In <strong>1952</strong> she was working in <strong>thinned oil</strong>. Her stain pictures are often described as acrylic, which is true of her <em>later</em> work, once acrylics became available, but wrong for this one. <em>Mountains and Sea</em> is turpentine-thinned oil and charcoal, full stop.
+      </p>
+      <p style={proseStyle}>
+        Next, she laid the canvas <strong>flat on the studio floor</strong>, the way Pollock did. And then, the move that changes everything, she did it on <strong>raw canvas</strong>. The full, exact description from the people who own the picture is <em>&ldquo;oil and charcoal on unsized, unprimed canvas.&rdquo;</em> Both technical words matter. <strong>Unsized</strong> means the cloth has no <em>size</em>, the glue-like sealant that is normally brushed into raw fabric to stop it drinking up liquid. <strong>Unprimed</strong> means it has no <em>primer</em>, no white gesso ground laid on top to give paint a smooth, sealed surface to sit on. So this is bare, thirsty cloth, sealed by nothing.
+      </p>
+      <p style={proseStyle}>
+        Pour the thinned color onto that bare cloth and the result is the whole point. On a normal primed canvas the paint would sit on the surface as a film you could see and touch. Here there is nothing to hold it on top, so the color <strong>soaks down into the weave of the fabric and stains it</strong>, the way wine soaks a tablecloth. The pigment becomes part of the cloth itself rather than a layer resting on it. It is a little like <em>fresco</em>, the old wall-painting method where pigment is laid into wet plaster and fuses with the wall as it dries, becoming the wall instead of a coat on it. To steer the color once it was down, she <strong>tilted and lifted the canvas</strong> so the pools ran, and worked them with sponges, squeegee-like wipers, and rollers, drawing into and around it all in charcoal.
+      </p>
+      <p style={proseStyle}>
+        That technique has a name: the <strong>soak-stain</strong>. Paint thinned enough to sink into raw, unprimed canvas and dye the cloth, rather than lie on the surface. The scope of it is easy to overshoot, so be exact: Frankenthaler did <strong>not</strong> invent pouring. Pollock had been pouring enamel for years, and she worked from his precedent openly. What she pioneered is the <strong>soak-stain</strong>, the pour that sinks in and becomes a stain. <em>Mountains and Sea</em> is the first painting she made this way. She was twenty-three.
+      </p>
+    </article>
+  )
+}
+
+function MtsLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Watercolor, at the size of a wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it. The first surprise is the scale. The picture is large, about <strong>seven feet two inches tall by nine feet nine inches wide</strong> (219 × 298 cm), a wide landscape canvas you cannot take in at a glance. The second surprise is that, at that mural size, the color behaves like the most delicate thing in painting: <strong>watercolor</strong>. The stains are thin, pooled, see-through, luminous, the kind of diaphanous wash you expect on a small sheet of paper, blown up to the scale of a wall. That collision, an intimate medium handled like a monument, is the whole effect.
+      </p>
+      <p style={proseStyle}>
+        The color does not sit on the surface; it sits <em>in</em> it. The edge of each stain <strong>feathers and bleeds</strong> into the bare cloth instead of ending in a clean brushed line. There is no ridge, no glint, no raised film. The color is dyed into the weave, matte and flat, so the eye seems to look <em>through</em> the wash to the fabric underneath. That is the soak-stain made visible: paint fused with cloth into a single plane.
+      </p>
+
+      <SectionHeader accent={accent} label="Drawing and bare cloth" title="Charcoal lines, and the canvas left to breathe" />
+      <p style={proseStyle}>
+        Loose dark <strong>charcoal contours</strong> wander across and through the color, drawn straight onto the canvas. They are not hidden under the paint and they are not erased; they sit on the same surface as the stains, so drawing and color coexist in plain view. This is why the official medium reads <em>&ldquo;oil and charcoal&rdquo;</em>: the drawing is a finished part of the picture, not scaffolding to be painted over.
+      </p>
+      <p style={proseStyle}>
+        And much of the canvas is simply <strong>left bare</strong>. Large stretches of pale, untouched raw fabric run between the stained passages. This empty ground is not unfinished and it is not a gap waiting to be filled; it breathes between the pools of color and is part of the composition. Leaving raw canvas active and on view is one of the quiet radical moves here, and it is a direct inheritance: Pollock, too, let bare cloth show through the gaps in his poured webs.
+      </p>
+
+      <SectionHeader accent={accent} label="The landscape that isn’t one" title="A shore you can feel but not point to" />
+      <p style={proseStyle}>
+        And the color resolves, gently, into a place. A <strong>green passage descends toward a band of blue</strong> and reads as a rocky shore meeting water; <strong>pinks and blues</strong> scatter through like spray and sky. It hovers between pure abstraction and a remembered coast, and it never quite settles into a literal view: there is no horizon line you could measure, no rock you could name. This is the Nova Scotia of the first chapter, carried in the body of the painting rather than drawn in it. Frankenthaler put it best when she said, of making this picture, <em>&ldquo;The landscapes were in my arms as I did it.&rdquo;</em> Not a view out a window. A place that had soaked into her, poured back out into the cloth.
+      </p>
+    </article>
+  )
+}
+
+function MtsBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="When paint sat on top of the canvas" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o feel why this picture was a break, set it against what came right before it. <strong>Abstract Expressionism</strong> (the bold, large-scale American abstraction that dominated New York painting after the Second World War) had two great modes, and both kept paint <em>on top of</em> the surface, and both put the painter&rsquo;s body and touch front and center. <strong>Willem de Kooning</strong> worked in loaded, slashing brushstrokes, paint heaped up thick (<em>impasto</em>, paint piled so high it stands in ridges), dragged and scraped, every gesture of the hand left visible. <strong>Jackson Pollock</strong> poured liquid enamel, but it dried as a raised <em>skein</em>, a tangle of line lying on top of the cloth like dried glue. In both, paint was a worked, three-dimensional, surface event, and the canvas underneath was a support to be covered.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="When the stain became the image" />
+      <p style={proseStyle}>
+        <em>Mountains and Sea</em> makes the <strong>stain itself the image</strong>. Because the thinned color soaks into raw, unprimed cloth and fuses with it, there is essentially <strong>no raised paint, no impasto, no visible brush &ldquo;handwriting.&rdquo;</strong> Color and ground stop being two things and become one flat optical plane; the eye looks through the wash to the fabric; whole areas of bare canvas are left active rather than &ldquo;unfinished.&rdquo; The picture flattens out, and the painterly drama, the loaded stroke, the heroic gesture, drains away. Attention shifts from the <em>act</em> of painting to the thing itself: <strong>color, and field</strong>. This is the door into what gets called <strong>Color Field painting</strong>: abstraction built from large, open areas (fields) of flat, soaked color, with the artist&rsquo;s touch all but invisible.
+      </p>
+
+      <SectionHeader accent={accent} label="The hinge" title="Pollock’s pour, pushed one step further" />
+      <p style={proseStyle}>
+        Here is the hinge, and it is one decisive move. Frankenthaler took Pollock&rsquo;s breakthrough, <strong>paint poured rather than brushed</strong>, and pushed it a single step past him: from <em>pour-on-surface</em> to <em>pour-as-stain-into-surface</em>. Pollock&rsquo;s enamel sat on the cloth; her thinned oil sinks into it. That one decision, the pour that becomes a stain, is what opened the path from Pollock&rsquo;s action painting (the canvas as a record of the body in motion) to Color Field (the canvas as a soaked plane of pure color). It is not the first abstract painting, not the first poured painting, not the first to leave canvas bare. It is the first <strong>soak-stain</strong>, and the bridge it built. The painter who would put that most memorably was on his way to her studio, and he is the next chapter.
+      </p>
+    </article>
+  )
+}
+
+function MtsAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1953" title="The visitors Greenberg let into the studio" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he year after she made it, the painting did something paintings rarely do: it changed other painters on sight. In <strong>1953</strong>, the critic <strong>Clement Greenberg</strong> brought two visitors from Washington, D.C., to see <em>Mountains and Sea</em>: the painters <strong>Morris Louis</strong> (1912&ndash;1962) and <strong>Kenneth Noland</strong> (1924&ndash;2010). The visit is commonly dated to <strong>4 April 1953</strong>, and several accounts say Greenberg let the two men into Frankenthaler&rsquo;s studio while she was out; the precise day is uncertain, and &ldquo;one weekend in 1953&rdquo; is as far as the record firmly goes. Both men were struck hard by what they saw.
+      </p>
+      <p style={proseStyle}>
+        They took it home and ran with it. Back in Washington, Louis and Noland began <strong>staining thinned color into raw canvas</strong> themselves, and out of that work grew <strong>Color Field painting</strong> and the loose group known as the <strong>Washington Color School</strong>. The technique Frankenthaler had pioneered in one studio in New York became a whole strand of postwar American abstraction. Louis later gave her the line her work has carried ever since, calling Frankenthaler <em>&ldquo;the bridge between Pollock and what was possible.&rdquo;</em> The line is often mis-told. It is <strong>Morris Louis</strong>&rsquo;s characterization of Frankenthaler herself, reported later and popularized through the scholar Karen Wilkin, not a saying of Frankenthaler&rsquo;s and not Greenberg&rsquo;s; and it circulates in two forms, &ldquo;what <em>was</em> possible&rdquo; and &ldquo;what <em>is</em> possible.&rdquo;
+      </p>
+
+      <SectionHeader accent={accent} label="Reception · later" title="The picture some people called a paint rag" />
+      <p style={proseStyle}>
+        It was not loved on contact by everyone. Frankenthaler herself, with characteristic dryness, noted that the picture <em>&ldquo;looks to many people like a large paint rag, casually accidental and incomplete.&rdquo;</em> The thinness, the bare canvas, the absence of heroic brushwork, all the things that made it new, read to some early viewers as a picture that had not been finished. That charge, that a soaked, flat, understated canvas was somehow not a real painting, is exactly the resistance every genuine break runs into, and exactly what Louis and Noland saw past.
+      </p>
+
+      <SectionHeader accent={accent} label="Where it lives now" title="Owned by the Foundation, on loan to the nation" />
+      <p style={proseStyle}>
+        Frankenthaler kept the painting through her long life; it first went on public view at her second solo show at the <strong>Tibor de Nagy Gallery</strong> in New York in early 1953. After her death in 2011, it passed to the <strong>Helen Frankenthaler Foundation</strong>, her estate foundation, which owns it today. The Foundation has placed it on <strong>extended loan to the National Gallery of Art in Washington, D.C.</strong>, so that is where you can stand in front of it, though it is a loan, not a museum purchase, and the painting has never been sold on the open market. The standard line on its importance is the cleanest one: <em>Mountains and Sea</em> is to Color Field roughly what Monet&rsquo;s <em>Impression, Sunrise</em> is to Impressionism, the painting the whole thing is dated from. A twenty-three-year-old poured it onto the floor, and a strand of American painting walked through the door she had opened.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'mountains-sea': { 'nova-scotia': MtsNovaScotia, making: MtsMaking, looking: MtsLooking, break: MtsBreak, afterlife: MtsAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Chief (Franz Kline, 1950) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function ChfRailroad({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · 1950" title="The painter who threw out everything but black and white" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or most of his working life, <strong>Franz Kline</strong> (1910&ndash;1962) was a representational painter, and not an especially celebrated one. Through the 1930s and 1940s he painted what painters were supposed to paint: city scenes, crowded interiors, a famous local barroom mural, portraits, the rocking landscape of the coal country he came from. He drew constantly, small and fast, in black ink. He sold a little, won a little, and was, by the end of the 1940s, a skilled and stuck painter in his late thirties, watching younger and louder friends rewrite what American art could be.
+      </p>
+      <p style={proseStyle}>
+        Those friends were the painters later grouped as the <strong>Abstract Expressionists</strong>, or the <strong>New York School</strong>: a loose downtown crowd, many of them with studios around <strong>Tenth Street</strong>, with <strong>Jackson Pollock</strong> pouring paint on the floor, <strong>Willem de Kooning</strong> tearing the figure apart, <strong>Mark Rothko</strong> stacking great soft rectangles of color. What they shared was a bet that a painting did not have to be a picture <em>of</em> anything, that it could be abstract and still carry real feeling and real seriousness. By 1950 they were the most exciting thing happening in painting anywhere, and New York, not Paris, was suddenly where it was happening.
+      </p>
+      <p style={proseStyle}>
+        Then, around <strong>1949&ndash;1950</strong>, Kline did the thing that made him. He threw out color. He threw out the depicted world, the rooms and streets and faces. And he bet everything on the one thing he had always been good at, the black brush mark, blown up huge: a few enormous black strokes slashed across a white field, fast and loaded and wider than his own arm. <em>Chief</em> is one of the first major paintings of that breakthrough, made in <strong>1950</strong>, and it announced a Kline nobody had seen before: not a painter of things, but a painter of the stroke itself.
+      </p>
+    </article>
+  )
+}
+
+function ChfProjector({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1948" title="The story everyone tells about how it started" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        here is a story about how Kline found his way to the black-and-white style, and it is worth telling, because MoMA itself tells it and almost everyone repeats it. It goes like this. One evening in <strong>1948</strong>, in the studio of his friend <strong>Willem de Kooning</strong> (1904&ndash;1997), Kline borrowed a projector (a <strong>Bell-Opticon</strong>, a device that throws an enlarged image of a small picture onto a wall) and used it to project one of his own tiny brush drawings, a thing only about four or five inches across. (In the most-repeated version, told by de Kooning&rsquo;s wife, the painter <strong>Elaine de Kooning</strong> [1918&ndash;1989], the little drawing was of a rocking chair.) Thrown up onto the wall many times its real size, the small, casual marks <em>changed</em>. They stopped being a drawing of anything and became, in the standard phrasing, gigantic black strokes that wiped out any image, pure abstract force, the swept line made huge. And in that moment, the story says, Kline saw his future and walked into it.
+      </p>
+      <p style={proseStyle}>
+        It is a good story, and the part that matters is true: many of Kline&rsquo;s black-and-white canvases really are a small, improvised drawing brought up to the scale of a wall, the offhand gesture fused with the deliberate decision to enlarge it. That is a real and useful way to understand what you are looking at in <em>Chief</em>.
+      </p>
+      <p style={proseStyle}>
+        The eureka-moment framing, though, takes some salt, because the people closest to it took it that way. The neat version compresses what was almost certainly a gradual shift into a single overnight conversion. De Kooning himself, asked about it, said the change &ldquo;took quite a while to work it out,&rdquo; which describes a slow working-out, not a thunderclap. So the projector holds best as the <em>standard account</em>, the one MoMA repeats and the one that genuinely captures the method (a tiny mark made monumental), with the memory that it is a story that has been tidied up over the years, not a documented record of one instant when everything changed.
+      </p>
+    </article>
+  )
+}
+
+function ChfLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A few black girders, blown up to the size of a wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it. <em>Chief</em> is large, roughly <strong>five feet tall by six feet wide</strong> (4 ft 10&frac38; in by 6 ft 1&frac12; in, a wide landscape canvas), and the first thing that registers, before any label, is a handful of <strong>broad black strokes</strong> laid across a white field. There are not many of them. A few wide, loaded black bars dominate the whole picture, and the rest is white. That is the entire vocabulary: black, white, and the speed of the brush. After a century of paintings crowded with color and detail, the bareness of it is the shock.
+      </p>
+      <p style={proseStyle}>
+        The black bars are not doing what marks usually do. They do not outline anything; they do not spell anything. They <strong>cross, brace, and lean on one another like beams or girders</strong>. They bear weight. The thick black forms swell, taper, and run off the edges of the canvas, and the whole thing reads like a built structure, framing or trusses or track or the side of a freight car, a weight-bearing scaffold standing in the room with you. Nothing is depicted. There is no train, no figure, no scene. And yet the picture feels <em>constructed</em>, architectural, as if you were looking at the steel skeleton of something rather than a painting of it. The stroke is not describing a structure. The stroke <em>is</em> the structure.
+      </p>
+
+      <SectionHeader accent={accent} label="The white" title="It isn’t blank, and it isn’t background" />
+      <p style={proseStyle}>
+        The move that changes the whole painting is to stop reading the black and start reading the <strong>white</strong>. The easy assumption, the one nearly everyone makes, is that <em>Chief</em> is black signs drawn on a blank white ground, the way you&rsquo;d write on a clean page. It is not. Up close the white is <strong>painted</strong>, brushed and worked, and at the edges of the black bars it pushes back <em>into</em> them and even over them, white laid on top of black to bite a stroke down to the shape Kline wanted. The white is not the paper the black sits on. It is a second set of strokes, fighting the first.
+      </p>
+      <p style={proseStyle}>
+        This is the load-bearing fact about the picture, and it is why the black and the white seem to keep <strong>trading places</strong> as you look: sometimes the black reads as a shape on white, and then the white reads as a shape cutting into black, and there is no settled answer about which is figure and which is ground. Both are doing the structural work. Neither is &ldquo;just background.&rdquo; Kline said this himself, as plainly as he ever put it:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: 0 }}>I paint the white as well as the black, and the white is just as important.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        That is not a stray remark; it is MoMA&rsquo;s own anchor for the painting, the line the museum quotes to explain that Kline did not see himself as drawing black signs on a white ground. Taken at his word, the picture opens up. There are two colors here, and <em>both of them are painted</em>, and the bet of the whole canvas is that the white pulls exactly as much weight as the black.
+      </p>
+
+      <SectionHeader accent={accent} label="The speed" title="The edges that record how fast the brush moved" />
+      <p style={proseStyle}>
+        One more thing lives at the <strong>edges</strong>. Along the borders of the black bars the line gets ragged: the brush dragged, ran dry, broke into streaks, threw small drips. Those edges are a record of <strong>velocity</strong>. The strokes were not slowly filled in; they were <em>thrown</em>, a wide brush heavy with paint moving fast across the canvas, and the dry-brushed, dripping margins are the fingerprint of that speed. The painting does not just show a structure. It carries the <strong>physical act</strong> of its own making, the trace of a body moving quickly, which is the thing that will matter most when we ask why <em>Chief</em> was a break.
+      </p>
+      <p style={proseStyle}>
+        With one caution, because MoMA itself raises it: what reads as velocity is partly staged. Like many of these so-called action paintings, <em>Chief</em> was very likely worked up deliberately from a small preliminary drawing, the thrown-looking stroke scaled up and reproduced rather than necessarily made in one fast pass. The speed is real <em>in the mark</em>; it is not a promise that the canvas was painted fast. That tension, a studied picture of a fast gesture, is not a flaw in the work. It is close to the center of what action painting actually was.
+      </p>
+    </article>
+  )
+}
+
+function ChfBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="What ambitious abstraction looked like in 1950" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o feel why <em>Chief</em> was new, picture what serious American abstraction looked like around it. It was, mostly, <strong>full</strong>. <strong>Jackson Pollock</strong> wove whole fields of poured line edge to edge, color and tangle everywhere, no center and no rest. <strong>Mark Rothko</strong> and <strong>Adolph Gottlieb</strong> worked in color and atmosphere, soft glowing rectangles or pictographic signs. <strong>Willem de Kooning</strong> churned the figure into thick, color-loaded paint. Even the most gestural of this painting kept a great deal of <em>stuff</em> on the canvas: color, depth, light, a crowd of marks. The reigning idea of an ambitious abstract picture was richness.
+      </p>
+      <p style={proseStyle}>
+        Kline did the opposite. He performed a <strong>radical subtraction</strong>. Out went color. Out went atmosphere and depth. Out went any depicted object, and out went the crowd of marks. What he kept was a handful of huge black strokes against white, and he bet the entire painting on them, at the scale of a wall. <em>Chief</em> is almost <strong>one gesture, enlarged</strong>: a small drawing&rsquo;s worth of marks blown up until it is monumental. Where his peers added, Kline took away, until almost nothing was left but the stroke and the room it filled.
+      </p>
+      <SectionHeader accent={accent} label="The break · the stroke as structure" title="A mark that builds instead of describes" />
+      <p style={proseStyle}>
+        Here is the genuinely new move. In nearly all painting before this, a mark is in service to something else: it is a <strong>contour</strong> (the outline of a thing), or a <strong>sign</strong> (a letter, a character, a symbol that stands for a thing). Kline&rsquo;s black bar is neither. It does not outline an object and it does not write a word. It is <strong>structure itself</strong>: it spans, braces, bears weight, holds the picture up the way a girder holds up a building. The architecture you feel in <em>Chief</em> is not a depicted building; it is the strokes <em>behaving</em> like architecture. And because, as we already saw, the white is painted too, this is a real two-way structure of black and white, not signs on a blank.
+      </p>
+      <SectionHeader accent={accent} label="The break · speed and the body" title="The painting as the trace of an act" />
+      <p style={proseStyle}>
+        And then there is the speed, which is the deepest part of the break. Because the strokes are thrown, fast and wide and loaded, with those dragging, dripping edges, the painting registers the <strong>physical event</strong> of making it. You are not looking at a careful image so much as at the frozen record of a body moving quickly across a canvas. This is exactly the territory the critic <strong>Harold Rosenberg</strong> (1906&ndash;1978) would name in <strong>1952</strong>, two years after <em>Chief</em>, when he coined the phrase <strong>&ldquo;action painting.&rdquo;</strong> His idea was that for these painters the canvas had become an arena to act in, and the painting was the trace of that act, paint as the record of a bodily event rather than a picture of the world. <em>Chief</em>, made in 1950, is one of the defining early proofs of it: a painting whose real subject is the speed and force of the hand that made it.
+      </p>
+    </article>
+  )
+}
+
+function ChfAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The title" title="Named after a train, not a chief" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        o why is it called <em>Chief</em>? Not for a person, and not for a Native American chief, though the word invites that read. <strong>&ldquo;Chief&rdquo; was the name of a locomotive</strong>, a train Kline remembered from his childhood. He grew up in the coal-and-railroad country of <strong>Pennsylvania</strong>, around Wilkes-Barre and Lehighton, and loved the railway, the engines and the speed and the sheer iron weight of it. Many of his black-and-white canvases carry titles of this kind: names of trains, places, mechanical things he knew. Viewers have always read engines and bridges and girders into them, which is fair, given how the strokes look. But the title is not a caption. It does not mean the painting is a picture of the locomotive. It points at a <strong>feeling</strong> of power and speed and built iron, the thing the train and the painting have in common, not at the train itself.
+      </p>
+      <SectionHeader accent={accent} label="The reading he refused" title="Not calligraphy, not Zen" />
+      <p style={proseStyle}>
+        There is one reading of <em>Chief</em> that follows it everywhere, and it is one <strong>Kline himself rejected</strong>. Because the paintings are black marks on white, people compared them, endlessly, to <strong>East Asian calligraphy</strong> (the art of beautiful brush-writing in Chinese and Japanese) and to <strong>Zen brushwork</strong>, all that spare, swept ink on a pale ground. The resemblance is real to the eye, and Kline did know the Japanese avant-garde calligraphy world of the day. But he denied the equation flatly. He said he was not &ldquo;painting black signs on a white ground,&rdquo; and in a 1960 interview he pushed back directly, pointing out that <em>&ldquo;calligraphy is simply the art of writing,&rdquo;</em> and his pictures were not writing. The honest way to carry this is as a comparison Kline <em>refused</em>, not a fact about the work. Part of why he refused it is the thing already in front of us: calligraphy is black signs on a blank page, and in <em>Chief</em> the white is painted too. Both colors are active, which is precisely <em>not</em> how calligraphy works.
+      </p>
+      <SectionHeader accent={accent} label="Provenance" title="The collector who gave it to MoMA" />
+      <p style={proseStyle}>
+        <em>Chief</em> did not wander far. It was painted in 1950, at the very start of Kline&rsquo;s fame, and was acquired early by the New York lawyer and modern-art collector <strong>David M. Solinger</strong> (later president of the Whitney Museum of American Art, the first head of the museum from outside the Whitney family). In <strong>1952</strong>, Solinger and his wife gave the painting to the <strong>Museum of Modern Art</strong> in New York, where it has hung ever since. MoMA&rsquo;s credit line records it precisely, the way these things should be recorded: <em>Gift of Mr. and Mrs. David M. Solinger.</em> (The <strong>provenance</strong>, the documented chain of who has owned a work and when, is short and clean here: artist to collector to museum, no auction, no recorded price. Where a figure isn&rsquo;t in the record, we leave it blank rather than invent one.)
+      </p>
+      <p style={proseStyle}>
+        What Kline left, in <em>Chief</em> and the canvases like it, was a new thing a painting could be: a few black strokes and a worked white field at the scale of a wall, a tiny drawing made monumental, the speed of the body left on the surface, and not a single thing depicted. He was a stuck representational painter into his late thirties. By 1950 he had found the one move that was entirely his, and a locomotive&rsquo;s name to hang on it, and with it one of the defining American paintings of its decade.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  chief: { railroad: ChfRailroad, projector: ChfProjector, looking: ChfLooking, break: ChfBreak, afterlife: ChfAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// The Seasons (Krasner, 1957) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function KraBarn({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Springs, Long Island · 1956" title="The painter who already had her own work" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>L</DropCap>
+        ee Krasner (1908&ndash;1984) was a serious abstract painter long before most people had heard her name, and long before the events that frame this picture. Born in Brooklyn to a Russian-Jewish immigrant family, she trained at the National Academy of Design, worked through the 1930s on the federal art projects of the Depression, and in the late 1930s studied under <strong>Hans Hofmann</strong> (1880&ndash;1966), the German &eacute;migr&eacute; teacher who drilled a generation of New York painters in modern color and structure. By the early 1940s she was already showing alongside the artists who would become the Abstract Expressionists, the loose group of postwar American painters (Pollock, de Kooning, Rothko, Newman, the rest) now lumped under that name. She was, in other words, a working modernist with her own decade of pictures behind her before the part of the story everyone knows begins.
+      </p>
+      <p style={proseStyle}>
+        The part everyone knows is the marriage. In 1945 she married <strong>Jackson Pollock</strong> (1912&ndash;1956), and over the next decade he became the most famous painter in America, the man pouring and flinging house paint across canvases on the floor in the barn behind their house in <strong>Springs</strong>, on the east end of Long Island. Krasner kept painting through all of it, in a small upstairs bedroom of the house, in the space and at the scale that were left to her. And she kept being folded into his shadow: a 1949 review of her own work billed her, in print, as &ldquo;Lee Krasner (Mrs. Jackson Pollock).&rdquo; That is the thing she spent her life fighting, and it matters here, because the picture in front of us is one of the answers she gave.
+      </p>
+
+      <SectionHeader accent={accent} label="August 1956" title="The crash, and the empty studio" />
+      <p style={proseStyle}>
+        On <strong>11 August 1956</strong>, Pollock was killed in a car crash near the house in Springs. Krasner was in Europe when it happened and came home to bury him. What follows is factual and it is part of this painting, so it should be said plainly, and then kept in proportion. In the months after his death, Krasner moved her own work <strong>out of the small bedroom and into the barn</strong> behind the house, the far larger room that had been Pollock&rsquo;s studio. For the first time in her life she had the wall and the floor to work at <strong>mural scale</strong>, and she used it.
+      </p>
+      <p style={proseStyle}>
+        The lazy reading of what came next is &ldquo;the grieving widow paints her way through her loss,&rdquo; and that reading is too small. The grief is real and the studio is real; both belong in the story. But Krasner had been a committed abstract painter for nearly twenty years <em>before</em> this moment, and she would go on painting for nearly thirty years <em>after</em> it (she died in 1984). The pictures she began making in that barn are not a catharsis so much as an arrival: a painter who had finally been handed the room she needed, taking the scale and the ambition that had been kept from her, and making something with it. The first great result is the one we&rsquo;re about to walk up to.
+      </p>
+    </article>
+  )
+}
+
+function KraMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1957" title="The largest canvas of her life so far" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the barn, in <strong>1957</strong>, Krasner built <em>The Seasons</em>, and it was the biggest thing she had attempted to that point: a canvas a full <strong>seventeen feet wide and more than seven and a half feet tall</strong>. The date matters, because the dust of 1956 clings to it. Pollock died in August 1956, and the move into the barn and the start of this body of work belong to that year; but the canvas itself is a 1957 painting, dated firmly 1957 by the Whitney Museum, which owns it. The famous death-year is the year before, not the year of the picture.
+      </p>
+      <p style={proseStyle}>
+        The medium is worth getting exactly right, because it ties Krasner to the circle she came out of. It is <strong>oil and house paint on canvas</strong>, not oil alone. Like Pollock, Krasner reached for commercial <strong>house paint</strong>, the cheap industrial enamel sold for walls and doors, alongside her artist&rsquo;s oils. That choice is a quiet piece of the AbEx story in itself: these painters were building heroic pictures out of hardware-store material, and the surface of <em>The Seasons</em> carries both the slow body of oil and the flatter, faster flow of house paint.
+      </p>
+
+      <SectionHeader accent={accent} label="The Earth Green series" title="A run of green, swelling pictures" />
+      <p style={proseStyle}>
+        <em>The Seasons</em> is not a one-off. It is the centerpiece of a body of work now called the <strong>&ldquo;Earth Green&rdquo; series</strong>, the run of large, biomorphic, vegetal, brightly colored canvases Krasner painted in the barn studio in roughly <strong>1956 to 1959</strong> (related canvases include <em>Sun Woman I</em> and the painting that gave the series its name). <em>Biomorphic</em> means built from rounded, organic, living-looking shapes, the curves of bodies and plants rather than the straight lines of geometry; that is the language of these pictures, and <em>The Seasons</em> is the largest and most ambitious of them.
+      </p>
+      <p style={proseStyle}>
+        One thing stays easy to blur, so it is worth separating: the Earth Green pictures are the <em>green</em> ones, full of pink and foliage and growth. They are not the dark night paintings. A couple of years after this, Krasner could not sleep, and she began a different series in the same barn, the <strong>&ldquo;Night Journey&rdquo;</strong> or umber paintings of about 1959 to 1962, worked in browns and off-whites by artificial light because she could not face color in the small hours. Those are a separate, darker run. <em>The Seasons</em> belongs to the green ones, the daylight ones, the ones about ripeness and growth.
+      </p>
+    </article>
+  )
+}
+
+function KraLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A field of ripe pink forms" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it. The painting is wide before it is anything else, about <strong>seven feet nine inches tall and a full seventeen feet across</strong> (235.6 by 517.8 cm), a mural-scale landscape canvas too big to take in with a single glance; it has to be walked. And the first thing that fills the eye, before any label, is a rolling field of <strong>swelling pink and rose forms</strong>: full, bulbous, ripened shapes, with off-white bulbs among them, the color of bodies and of fruit at its peak.
+      </p>
+      <p style={proseStyle}>
+        Held in the eye directly, any one of those forms refuses to settle into a single thing. The same rounded pink shape reads as a <strong>torso</strong>, then as a <strong>breast</strong>, then as a <strong>bud about to open</strong>, then as a <strong>piece of fruit about to fall</strong>; some read frankly as sexual or plant organs. Krasner keeps them unresolved on purpose, hovering between abstraction and the figurative, so the picture stays about life-force in general rather than any one body. What the canvas is overwhelmingly <em>about</em> is not grief. It is <strong>ripeness</strong>: growth, fertility, the turn of the seasons toward renewal.
+      </p>
+
+      <SectionHeader accent={accent} label="The color" title="The earth green that names the series" />
+      <p style={proseStyle}>
+        Threaded through and around the pinks are passages of <strong>lush green and earthy ochre</strong>. This is the &ldquo;earth green&rdquo; the whole series is named for, and it does real work: it grounds the bright, fleshy bodies in something like leaf and soil, so the picture reads as bodies <em>in</em> a landscape of growth rather than bodies floating in a void. The warm pinks are the figures; the greens and ochres are the ground they grow out of. Krasner sets them so close in pitch that the field stays warm and overflowing all the way across.
+      </p>
+
+      <SectionHeader accent={accent} label="The drawing" title="The black lines that hold it together" />
+      <p style={proseStyle}>
+        The structure is there once you hunt for it, because a field this full needs holding. It is held by <strong>heavy black contour lines</strong>: sweeping dark brush-strokes that wrap each form and separate it from its neighbor, drawing the bodies and giving the whole surface its swing. This is the drawing inside the painting, and it is where Krasner&rsquo;s long training as a draftsman shows. Without those black lines the swelling colors would dissolve into one warm blur; with them, the picture has a beat. They are the bones under all that ripe flesh.
+      </p>
+
+      <SectionHeader accent={accent} label="The rhythm" title="No center, one rolling beat" />
+      <p style={proseStyle}>
+        Soften the focus and the picture refuses one thing: a center. There is no single focal point, no climax, nowhere the eye is meant to land and rest. Instead the forms <strong>recur across the whole width</strong> in a steady, rolling beat, so the eye travels the full seventeen feet left to right the way it would scan a field or read a frieze. This is <strong>allover composition</strong>, a term out of Pollock&rsquo;s drip pictures (where the poured line covers the whole surface evenly, edge to edge, with no middle), but Krasner has bent it toward something living. Pollock&rsquo;s allover field was woven line; hers is bodily rhythm, the same swelling forms repeating like the verses of a season. The huge surface is organized not as a scene but as a <em>pulse</em>, read the way you&rsquo;d watch something grow.
+      </p>
+    </article>
+  )
+}
+
+function KraBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="The big statement was men’s territory" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o see what <em>The Seasons</em> broke, look at how Abstract Expressionism was carved up by 1957. Its signature gesture was the <strong>heroic, mural-scale, full-arm canvas</strong>, the wall-sized painting made with the whole moving body, and that gesture was coded male and, in practice, made almost entirely by men: Pollock&rsquo;s poured fields, de Kooning&rsquo;s slashing women, Kline&rsquo;s black girders, the great glowing rectangles of Rothko and Newman. A handful of women in the first generation (Krasner among the very few) showed and were taken seriously. But the <em>big</em> statement, the ambitious, museum-scale, wall-claiming painting, was treated as a man&rsquo;s preserve. Krasner herself had been working smaller, partly for lack of a large studio and partly inside Pollock&rsquo;s shadow.
+      </p>
+      <p style={proseStyle}>
+        And the dominant emotional key of that big male statement trended one way: toward the brooding, the sublime, the anxious, the void. The wall-sized AbEx canvas was, again and again, a picture about <strong>dread</strong>, or about nothing at all.
+      </p>
+
+      <SectionHeader accent={accent} label="The break" title="A woman, at mural scale, painting growth" />
+      <p style={proseStyle}>
+        The break of <em>The Seasons</em> is not a new technique. It is <strong>who is allowed the big statement, and what that statement is allowed to be about</strong>, and it lands in three ways at once. The first is a woman painting AbEx at full mural scale and ambition: <em>The Seasons</em> is a seventeen-foot canvas made by a woman, on her own terms, in the very studio where Pollock had made his largest drip paintings. Krasner did not make a reduced, modest, &ldquo;feminine&rdquo; version of the wall-sized picture; she claimed the wall itself, at the full scale the men had reserved for themselves.
+      </p>
+      <p style={proseStyle}>
+        The second is a life-affirming abstraction. Where the dominant AbEx mode reached for dread and the void, Krasner answered the worst year of her life with a <strong>green, swelling, fertile</strong> image, abstraction as growth and renewal rather than anxiety. Out of loss she built a picture of ripeness, close to the opposite of what the heroic canvas was supposed to be about. And the third is the body-and-nature rhythm that carries both: she built the huge surface out of bud-, fruit-, and body-suggesting forms in steady, rolling repetition, a way of organizing a wall that is gestural and abstract yet rooted in living, organic shape. It is not Pollock&rsquo;s poured skein and it is not the color-field stain; it is allover composition bent toward the rhythms of a body and a season. That is a distinct way to fill a mural, and it is hers.
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="“This was my answer”" />
+      <p style={proseStyle}>
+        Krasner herself, in an oral-history interview years later, tied the painting directly to the question Pollock&rsquo;s death had forced on her. The line is widely reported in this form:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        &ldquo;Jackson died in &rsquo;56 so the question came up whether one would continue painting at all and I guess this was my answer.&rdquo;
+      </blockquote>
+      <p style={proseStyle}>
+        The remark is attributed to her <strong>oral-history interview for the Archives of American Art</strong> at the Smithsonian (the interviewer was Dorothy Seckler, in sessions of the mid-1960s), and it is reported consistently across the sources, though the primary transcript was not directly accessible to confirm the exact wording. Taken as reported, it says the thing plainly: making this enormous canvas <em>was</em> her answer to whether she would keep painting at all. Not a memorial to Pollock. A painter&rsquo;s declaration that she was still here, and working bigger than ever.
+      </p>
+    </article>
+  )
+}
+
+function KraAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="After · the critics" title="“Derivative,” “too decorative”" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or all that <em>The Seasons</em> claimed, recognition did not come quickly, and the way it was withheld is part of the picture&rsquo;s story. When the Earth Green canvases were shown, a strand of criticism waved them off as <strong>derivative of Pollock&rsquo;s work and &ldquo;too decorative.&rdquo;</strong> In the art writing of the period, &ldquo;decorative&rdquo; carried a coded charge: it filed a woman&rsquo;s large, colorful, ambitious painting under pretty-and-minor rather than serious-and-major, a polite way of saying &ldquo;feminine.&rdquo; Krasner spent her career under exactly this kind of dismissal, the one that had once printed her name as &ldquo;Mrs. Jackson Pollock.&rdquo; She was blunt about what it cost her, and the line most often quoted has the dryness of someone who had heard it all:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        &ldquo;I was a woman, Jewish, a widow, a damn good painter, thank you, and a little too independent.&rdquo;
+      </blockquote>
+      <p style={proseStyle}>
+        The remark, recounted by her biographer Gail Levin from their first meeting, in 1971, circulates widely as Krasner&rsquo;s own summary of why the art world kept her at arm&rsquo;s length. Taken as reported, it is the whole fight in one sentence: she knew exactly how good she was, and she knew exactly which of the things on that list were being held against her.
+      </p>
+
+      <SectionHeader accent={accent} label="The reappraisal" title="London, the Whitney, and the 1980s" />
+      <p style={proseStyle}>
+        The independent recognition she had earned arrived slowly and then, in the end, fully. A 1965 retrospective at the <strong>Whitechapel Gallery</strong> in London put her work in front of a serious European audience, and it was received more warmly there than at home, where the marginalization was sharpest. In 1973 the <strong>Whitney Museum of American Art</strong> in New York mounted <em>Lee Krasner: Large Paintings</em>, a show built precisely around the mural-scale ambition <em>The Seasons</em> embodies. And in the 1980s came the full reappraisal, including a major touring retrospective that finally set her among the first-generation Abstract Expressionists rather than in the margin beside one of them, and made her a standing precedent for the later women who claimed large-scale gestural and biomorphic abstraction as their own ground. Krasner died in <strong>1984</strong>, having lived to see at least the beginning of that turn.
+      </p>
+
+      <SectionHeader accent={accent} label="The object" title="Where it lives now" />
+      <p style={proseStyle}>
+        <em>The Seasons</em> itself entered the <strong>Whitney Museum of American Art</strong> by purchase. The credit line records the museum&rsquo;s purchase &ldquo;with funds from Frances and Sydney Lewis by exchange, the Mrs. Percy Uris Purchase Fund and the Painting and Sculpture Committee,&rdquo; and the work carries the accession number <strong>87.7</strong>. The Whitney&rsquo;s record prints no explicit acquisition year; the &ldquo;87&rdquo; at the front of the accession number conventionally points to an acquisition around 1987, but that is an inference from the numbering, not a stated fact, so it sits as &ldquo;roughly 1987&rdquo; rather than a hard date. The painting is still in copyright (Krasner died in 1984; the rights sit with the Pollock-Krasner Foundation and the Artists Rights Society), which is why it appears here small and credited rather than reproduced freely.
+      </p>
+      <p style={proseStyle}>
+        So the picture comes to rest as what it always was: a true seventeen feet of swelling pink and green, made by a woman who had been told, for decades, that the big statement was not hers to make. She made it anyway, in the studio where her husband had made his, the year after he died, and she titled it for the thing it is most about. Not an ending. The seasons turning over, toward growth.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'krasner-seasons': { barn: KraBarn, making: KraMaking, looking: KraLooking, break: KraBreak, afterlife: KraAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  'liver-cocks-comb': { setting: LvrSetting, making: LvrMaking, looking: LvrLooking, break: LvrBreak, afterlife: LvrAfterlife },
+  'mountains-sea': { 'nova-scotia': MtsNovaScotia, making: MtsMaking, looking: MtsLooking, break: MtsBreak, afterlife: MtsAfterlife },
+  chief: { railroad: ChfRailroad, projector: ChfProjector, looking: ChfLooking, break: ChfBreak, afterlife: ChfAfterlife },
+  'krasner-seasons': { barn: KraBarn, making: KraMaking, looking: KraLooking, break: KraBreak, afterlife: KraAfterlife },
+
   'autumn-rhythm': { floor: ArhFloor, making: ArhMaking, looking: ArhLooking, break: ArhBreak, afterlife: ArhAfterlife },
   'woman-i': { figure: WmnFigure, making: WmnMaking, looking: WmnLooking, break: WmnBreak, afterlife: WmnAfterlife },
   'orange-yellow': { idiom: RthIdiom, making: RthMaking, looking: RthLooking, break: RthBreak, afterlife: RthAfterlife },

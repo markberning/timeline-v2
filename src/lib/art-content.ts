@@ -190,6 +190,9 @@ export const ART_IMG = {
   newmanVir: 'https://upload.wikimedia.org/wikipedia/en/0/06/Vir_Heroicus_Sublimis.jpg',
   newmanOnement: 'https://upload.wikimedia.org/wikipedia/en/2/29/Newman-Onement_1.jpg',
   stillCliff: 'https://upload.wikimedia.org/wikipedia/en/f/f6/Still_1957_D1.jpg',
+  // in-copyright AbEx works with no Wikimedia file; small fair-use thumbnails from WikiArt / the Whitney CDN
+  klineChief: 'https://uploads2.wikiart.org/images/franz-kline/chief-1950.jpg',
+  krasnerSeasons: 'https://whitneymedia.org/assets/artwork/6153/87_7_cropped.jpg',
   gorkyLiver: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/The_Liver_is_the_Cock%27s_Comb_y_Arshile_Gorky%2C_1944.jpg/500px-The_Liver_is_the_Cock%27s_Comb_y_Arshile_Gorky%2C_1944.jpg',
   frankenthalerMtns: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Frankenthaler_Helen_Mountains_and_Sea_1952.jpg/500px-Frankenthaler_Helen_Mountains_and_Sea_1952.jpg',
   motherwellElegy: 'https://upload.wikimedia.org/wikipedia/en/3/32/Robert_Motherwell%27s_%27Elegy_to_the_Spanish_Republic_No._110%27.jpg',
@@ -4617,13 +4620,13 @@ export const ABSTRACT_EXPRESSIONISM: ArtMovementContent = {
   works: [
     { id: 'autumn-rhythm', year: 1950, name: 'Autumn Rhythm (Number 30)', artist: 'Pollock', place: 'New York', size: 'xl', blurb: 'A wall of poured and dripped line in black, white and tan, almost nine feet tall and seventeen wide, made on the floor from all four sides. No figure, no center: the subject is the act of painting itself.', palette: ['#2a2620', '#a8966a', '#0e0c08'], imageUrl: ART_IMG.pollockAutumn },
     { id: 'woman-i', year: 1952, name: 'Woman I', artist: 'de Kooning', place: 'New York', size: 'l', blurb: 'A ferocious, toothy, more-than-life-size female figure built of slashing strokes, reworked over months. De Kooning kept the human body when his peers dropped it, and made both camps angry.', palette: ['#bf6a5a', '#3a4a6a', '#15110c'], imageUrl: ART_IMG.deKooningWoman },
-    { id: 'chief', year: 1950, name: 'Chief', artist: 'Kline', place: 'New York', size: 'l', blurb: 'A few enormous black girders of house-paint crossing a white ground, blown up so large they read like architecture, named after a locomotive Kline knew as a boy. (Under copyright; shown in words.)', palette: ['#1c1c1c', '#e8e4dc', '#3a3a3a'] },
+    { id: 'chief', year: 1950, name: 'Chief', artist: 'Kline', place: 'New York', size: 'l', blurb: 'A few enormous black girders of house-paint crossing a white ground, blown up so large they read like architecture, named after a locomotive Kline knew as a boy.', palette: ['#1c1c1c', '#e8e4dc', '#3a3a3a'], imageUrl: ART_IMG.klineChief, credit: 'Kline, Chief, 1950 · MoMA · in copyright, shown small under fair use' },
     { id: 'orange-yellow', year: 1953, name: 'No. 61 (Rust and Blue)', artist: 'Rothko', place: 'Los Angeles', size: 'l', blurb: 'Bands of rust and deep blue stacked on a brooding grey-mauve field, the soft edges feathered so the color seems to float and pulse, meant to be seen up close so it fills your whole field of vision.', palette: ['#a85a3a', '#3a4a6a', '#4a3a3a'], imageUrl: ART_IMG.rothkoNo61 },
     { id: 'vir-heroicus', year: 1951, name: 'Vir Heroicus Sublimis', artist: 'Newman', place: 'New York', size: 'xl', blurb: 'A vast red field nearly eight feet tall and almost eighteen wide, crossed by a few thin vertical “zips.” An abstract American painting reaching for the sublime.', palette: ['#a8322a', '#6a1c18', '#1c0c0a'], imageUrl: ART_IMG.newmanVir },
     { id: 'still-cliff', year: 1957, name: '1957-D No. 1', artist: 'Still', place: 'Buffalo', size: 'l', blurb: 'Huge and dark, built from torn, ragged vertical sheets of thick paint like cliffs or peeling bark, with flashes of color stranded violent against the gloom.', palette: ['#2a2620', '#a83232', '#0c0a08'], imageUrl: ART_IMG.stillCliff },
     { id: 'liver-cocks-comb', year: 1944, name: 'The Liver Is the Cock’s Comb', artist: 'Gorky', place: 'New York', size: 'l', blurb: 'A large turbulent canvas of biomorphic near-shapes in acid color, somewhere between a body-map and a hallucination. The literal hinge from Surrealist automatism to Abstract Expressionism.', palette: ['#bf4a6a', '#3a6a4a', '#15120e'], imageUrl: ART_IMG.gorkyLiver },
     { id: 'mountains-sea', year: 1952, name: 'Mountains and Sea', artist: 'Frankenthaler', place: 'New York', size: 'l', blurb: 'Thinned paint poured into raw, unprimed canvas so the color soaks in like a stain: soft luminous veils suggesting a landscape without depicting one. Painted at 23, it launched Color Field.', palette: ['#7aa6c8', '#d6a87a', '#2a3640'], imageUrl: ART_IMG.frankenthalerMtns },
-    { id: 'krasner-seasons', year: 1957, name: 'The Seasons', artist: 'Krasner', place: 'New York', size: 'l', blurb: 'Surging fields of organic pink-and-green forms, nearly seventeen feet wide. Krasner did some of her boldest work after Pollock’s death, in the years the legend had decided she was a footnote. (Under copyright; shown in words.)', palette: ['#bf6a8a', '#5a8a4a', '#1c1810'] },
+    { id: 'krasner-seasons', year: 1957, name: 'The Seasons', artist: 'Krasner', place: 'New York', size: 'l', blurb: 'Surging fields of organic pink-and-green forms, nearly seventeen feet wide. Krasner did some of her boldest work after Pollock’s death, in the years the legend had decided she was a footnote.', palette: ['#bf6a8a', '#5a8a4a', '#1c1810'], imageUrl: ART_IMG.krasnerSeasons, credit: 'Krasner, The Seasons, 1957 · Whitney Museum of American Art (87.7) · in copyright, shown small under fair use' },
   ],
   artists: [
     { id: 'pollock', name: 'Pollock', role: 'The drip; “action” painting', years: '1912–1956', palette: ['#2a2620', '#a8966a', '#0e0c08'] },
@@ -8208,5 +8211,374 @@ export const STILL_CLIFF: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM, 'song-of-love': SONG_OF_LOVE, harlequin: HARLEQUIN, 'masson-auto': MASSON_AUTO, treachery: TREACHERY, persistence: PERSISTENCE, 'object-fur': OBJECT_FUR, 'carrington-self': CARRINGTON_SELF, 'tanguy-divis': TANGUY_DIVIS, 'ernst-histoire': ERNST_HISTOIRE, 'autumn-rhythm': AUTUMN_RHYTHM, 'woman-i': WOMAN_I, 'orange-yellow': ORANGE_YELLOW, 'vir-heroicus': VIR_HEROICUS, 'still-cliff': STILL_CLIFF }
+export const LIVER_COCKS_COMB: ArtWorkContent = {
+  id: 'liver-cocks-comb',
+  name: "The Liver Is the Cock's Comb",
+  shortName: 'The Liver Is the Cock\'s Comb',
+  year: 1944,
+  artist: 'Arshile Gorky',
+  artistId: 'gorky',
+  movement: 'Abstract Expressionism',
+  movementId: 'abex',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '6 ft 1 in × 8 ft 2 in',
+  location: 'Buffalo AKG Art Museum',
+  acquired: 'Gift of Seymour H. Knox, Jr., 1956',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Abstract Expressionism', index: 7, total: 9 },
+  hook: 'A mural-sized field of soft, teeming, half-organic shapes, drawn over washed and bled color, where Surrealism’s automatic hand and the Armenian gardens of Gorky’s memory turn into one of the seeds of Abstract Expressionism.',
+  heroImage: ART_IMG.gorkyLiver,
+  heroCredit: 'Gorky, The Liver Is the Cock’s Comb, 1944 · Buffalo AKG Art Museum · in copyright, shown small under fair use.',
+  heroAspect: 1.34, // 249.87 × 186.06 cm → W/H ≈ 1.34, landscape
+  heroFit: 'contain', // the whole ≈6×8 ft canvas, never cropped
+  rights: 'in-copyright',
+  stats: [
+    { v: '6′1″ × 8′2″', k: 'Dimensions' },
+    { v: '1956', k: 'To the museum' },
+    { v: 'Buffalo AKG', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'setting', eyebrow: 'New York / Virginia · 1944', dateLabel: '1944', title: 'The apprentice who took twenty years to become himself', blurb: 'Gorky has spent the 1930s as a brilliant apprentice, painting openly through Cézanne, Picasso and Miró. Married, summering on his wife’s Virginia farm, with the exiled Surrealists arriving in wartime New York, he reaches his own voice at last, in the short bright window before the fall.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1944', title: 'Drawing carried into the paint', blurb: 'On one of his largest canvases he works wet and thin, letting color wash, stain and bleed, then lays a draftsman’s nervous line over the top. Automatism, the free unconscious hand, builds the shapes; the gardens of remembered Armenia and the Virginia present feed them.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '6 ft 1 in × 8 ft 2 in', title: 'A teeming field, not a scene', blurb: 'No horizon, no ground, no subject: dozens of soft, living-thing shapes scattered across a wide washed field, organic and faintly sexual but kept deliberately indefinable, with a few hot accents flaring against the quieter ground.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1944', title: 'Where Surrealism turns into Abstract Expressionism', blurb: 'Gorky fuses Surrealism’s automatism and biomorphic form with mural-scale, all-over abstraction and his own drawing-into-paint, abstraction fed by the unconscious and by memory rather than by Cubist geometry. Breton, the leader of Surrealism, championed him and supplied this very title.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: '1946–1948 · then Buffalo', dateLabel: '1946–1948', title: 'The short window, then Buffalo', blurb: 'A 1946 studio fire, a cancer diagnosis, a 1948 car crash and a broken marriage close in fast; Gorky takes his own life in 1948 at about forty-four. The canvas passes through two hands to the Albright Art Gallery, given by Seymour H. Knox, Jr. in 1956, and hangs there, now the Buffalo AKG, today.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1944–c.1950', who: 'Arshile Gorky (the artist), then Jean Lamson Hebbeln', place: 'New York', note: 'Painted in 1944 in Gorky’s most fertile years. From the artist into the Jean Lamson Hebbeln collection.', price: null },
+    { year: 'c.1953–1956', who: 'Sidney Janis Gallery', place: 'New York', note: 'Handled by the dealer Sidney Janis, one of the central New York galleries for the new American painting and the European modernists alike.', price: null },
+    { year: '1956–today', who: 'Buffalo AKG Art Museum (then the Albright Art Gallery)', place: 'Buffalo, New York', note: 'Acquired by the Albright Art Gallery on 13 March 1956 as the Gift of Seymour H. Knox, Jr. (accession K1956:4). The Albright Art Gallery became the Albright-Knox Art Gallery and, after its 2023 expansion, the Buffalo AKG Art Museum. On view.', price: 'gift', museum: true },
+  ],
+  figures: [
+    { name: 'Arshile Gorky', role: 'The painter', palette: ['#2a3a6a', '#b44d3b', '#0e1428'] },
+    { name: 'André Breton', role: 'Surrealist leader; supplied the title', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Joan Miró', role: 'Biomorphic Surrealist he came through', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+    { name: 'Agnes Magruder (“Mougouch”)', role: 'Wife; the Virginia farm', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+    { name: 'The New York School', role: 'De Kooning, Pollock, Rothko: the heirs', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+  ],
+  annotations: [
+    { label: 'A field, not a scene', where: 'The whole canvas: no horizon line, no ground, no single subject', detail: 'The first thing to register is what is missing. There is no horizon, no floor, no sky, no one thing the picture is "of." Instead the eye finds dozens of soft shapes scattered and clustered across a wide colored field, a swarm of growing things rather than a place. That refusal of a fixed scene, an all-over field with no center and no story, is half of what makes the picture point forward to Abstract Expressionism rather than back to Surrealist dream-illustration.' },
+    { label: 'Drawing laid over color', where: 'Across the surface: thin dark contour lines riding on top of the painted washes', detail: 'Thin, dark, nervous contour lines run on top of the color, not filled in by it. Gorky was a master draftsman, and here the drawing rides on the painting: line and paint are two separate layers, the line laid last. That carrying of a draftsman’s line straight into a large painting is one of the tells of his late method and one of the moves the next generation took from him.' },
+    { label: 'Thin washes, stains and bleeds', where: 'The colored ground, where edges run and the canvas shows through', detail: 'Much of the color is soft and watery, thinned so the weave of the canvas shows through, with edges that seep and run rather than sit in hard shapes. This is automatism left visible: accidents of the flowing paint allowed to stay, the unplanned bleed treated as part of the picture instead of something to tidy.' },
+    { label: 'Organic and sexual forms, kept indefinable', where: 'Throughout: petal-, organ-, flame- and limb-like shapes', detail: 'The shapes suggest fertility and the body: petals, organs, flames, limbs. The Buffalo AKG notes clear allusions to female and male genitalia. But every form stays ambiguous, never quite a flower, never quite an organ, and that ambiguity is the point. The picture is not a picture of something so much as growth and the body felt rather than depicted.' },
+    { label: 'Bright passages against a quieter field', where: 'Scattered hot accents of red and yellow against the more muted, washed surroundings', detail: 'A few hot, saturated notes (reds, yellows) flare out against the softer, washed-down field around them. Because so much of the canvas is muted, those small bright passages pull the eye and carry it across the long, wide surface, the way Gorky wanted you to travel the whole field rather than rest on one shape.' },
+    { label: 'The mural scale', where: 'The size itself: roughly 6 by 8 feet, the intimate marks blown up to a wall', detail: 'This is one of Gorky’s largest paintings, roughly 6 by 8 feet, mural-sized. The forms are intimate, doodle-like, the kind of mark you would make small and private; here they are blown up to the scale of a wall. That mismatch, a private organic mark at public monumental size, is part of why the canvas reads as a step toward Abstract Expressionism.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Surrealist automatism', mode: 'art' },
+      { label: 'Biomorphism (Miró, Masson)', mode: 'art' },
+      { label: 'The gardens of Armenia, remembered', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Abstract Expressionism', mode: 'art' },
+      { label: 'The New York School (de Kooning, Pollock, Rothko)', mode: 'art' },
+      { label: 'The all-over field', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Mountains and Sea (Helen Frankenthaler, 1952), Helen Frankenthaler
+// Foundation, on extended loan to the National Gallery of Art, Washington.
+// Flagship Abstract Expressionism → Color Field work-read. Authored through the
+// art content pipeline (fact pack → Opus → 5 gates → reconcile/revise). Chapter
+// prose in art-section-reader.tsx NARRATIVES['mountains-sea'] (Mts… prefix).
+// FACT HANDLING (gate-corrected, per work-mountains-sea-factpack.md + gates):
+//  • She PIONEERED the soak-stain; she did NOT invent pouring (Pollock precedent,
+//    c.1947 on) — scoped everywhere it appears.
+//  • Medium = "Oil and charcoal on unprimed canvas" (Foundation's exact line is
+//    "oil and charcoal on unsized, unprimed canvas"). This 1952 work is
+//    turpentine-thinned OIL, NOT acrylic (acrylic is her LATER work) — never
+//    soften "unsized/unprimed" to "on canvas," never call this one acrylic.
+//  • Dimensions = 219.4 × 297.8 cm = 7 ft 2 3/8 in × 9 ft 9 1/4 in, LANDSCAPE
+//    (Foundation figures, not Wikipedia's rounded 220 cm / 87 in).
+//  • The "bridge between Pollock and what was possible" line is MORRIS LOUIS's
+//    reported description OF FRANKENTHALER THE ARTIST ("the bridge…"), popularized
+//    via Karen Wilkin; variant "was"/"is" — do NOT attribute to Frankenthaler or
+//    Greenberg as speaker, and do NOT attach it to the painting as the referent.
+//  • The Louis/Noland studio visit dated "1953"; the April 4, 1953 date is widely
+//    repeated but not nailed down.
+//  • First public showing = her SECOND solo show (Tibor de Nagy, early 1953); never
+//    call it her "first professionally exhibited work" (her first solo was 1951).
+//  • rights: 'in-copyright' (Frankenthaler d. 2011; © Helen Frankenthaler
+//    Foundation / ARS, New York) — hero shown small + credited, fair use.
+//  • Owned by the Foundation, on long-term loan to the NGA — NOT an NGA
+//    acquisition; no purchase, no price.
+// ─────────────────────────────────────────────────────────────
+export const MOUNTAINS_SEA: ArtWorkContent = {
+  id: 'mountains-sea',
+  name: 'Mountains and Sea',
+  shortName: 'Mountains and Sea',
+  year: 1952,
+  artist: 'Helen Frankenthaler',
+  artistId: 'frankenthaler',
+  movement: 'Abstract Expressionism',
+  movementId: 'abex',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil and charcoal on unprimed canvas',
+  dimensions: '7 ft 2 3/8 in × 9 ft 9 1/4 in',
+  location: 'Helen Frankenthaler Foundation (on extended loan to the National Gallery of Art, Washington)',
+  acquired: 'On extended loan to the National Gallery of Art, Washington, from the Helen Frankenthaler Foundation (not an NGA acquisition)',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Abstract Expressionism', index: 8, total: 9 },
+  hook: 'A 23-year-old pours turpentine-thinned paint onto raw, unprimed canvas on the floor, and instead of sitting on top it soaks in and stains the cloth like watercolor at mural scale. The soak-stain she pioneered here became the bridge from Pollock to Color Field.',
+  heroImage: ART_IMG.frankenthalerMtns,
+  heroCredit: 'Frankenthaler, Mountains and Sea, 1952 · Helen Frankenthaler Foundation (on loan to the National Gallery of Art) · in copyright, shown small under fair use.',
+  heroAspect: 1.37, // 219.4 × 297.8 cm → W/H ≈ 1.357, landscape
+  heroFit: 'contain', // the whole ~7 × 10 ft canvas, never cropped
+  rights: 'in-copyright', // Frankenthaler d. 2011; © Helen Frankenthaler Foundation / ARS, New York; NOT pd-us
+  stats: [
+    { v: '1952', k: 'Painted' },
+    { v: '7′2⅜″ × 9′9¼″', k: 'Dimensions' },
+    { v: 'On loan to the NGA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'nova-scotia', eyebrow: 'New York · 1952', dateLabel: 'Fall 1952', title: 'A 23-year-old back from the coast', blurb: 'Fresh from a summer painting the cliffs and water of Cape Breton, Nova Scotia, Helen Frankenthaler returns to her New York studio carrying the landscape in her head. She is 23, schooled on Cubism and on Pollock’s floor-bound pours, and a young woman entering a scene whose reigning style prized exactly the muscular gesture she was about to drop.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: 'Fall 1952', title: 'Thin the paint, lay the canvas flat, let it soak', blurb: 'She thins her oil paint with turpentine until it runs like watercolor, lays an unprimed, unsized (raw) canvas on the floor, and pours. With no gesso ground to stop it, the color sinks into the weave and stains the cloth. This is the first soak-stain painting.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '7 ft 2 3/8 in × 9 ft 9 1/4 in', title: 'Watercolor washes at the scale of a wall', blurb: 'Thin translucent stains of blue, green, and pink soaking into raw fabric; loose charcoal lines drawn straight on the canvas; large stretches of bare cloth left showing; a remembered shoreline that never resolves into a real view.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: 'Abstract Expressionism → Color Field', title: 'When the stain became the image', blurb: 'Pollock poured paint onto the surface as a raised skein of line. Frankenthaler thins it until it sinks in and fuses with the canvas. No impasto, no brush “handwriting,” color and cloth one flat plane. That single move opens the door from action painting to Color Field.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1953–today', title: 'The studio visit that seeded a school', blurb: 'In 1953 the critic Clement Greenberg brings the Washington painters Morris Louis and Kenneth Noland to see it; both go home and begin staining raw canvas, launching Color Field and the Washington Color School. Louis later called Frankenthaler the bridge between Pollock and what was possible.', progress: 0.96 },
+  ],
+  // Provenance: made 1952, held by the artist, debuted at her SECOND solo show at
+  // Tibor de Nagy (1953), now owned by the Helen Frankenthaler Foundation and on
+  // extended loan to the NGA. It is a LOAN, not an NGA acquisition. No prices: the
+  // work has not been sold on the open market, so every price field is null.
+  provenance: [
+    { year: '1952–2011', who: 'Helen Frankenthaler (the artist)', place: 'New York', note: 'Painted in the fall of 1952. First publicly shown at her second solo exhibition at the Tibor de Nagy Gallery, New York, in early 1953 (catalogue dates flagged for primary confirmation). Held by Frankenthaler until her death in 2011.', price: null },
+    { year: '2011–today', who: 'Helen Frankenthaler Foundation, Inc.', place: 'New York', note: 'The artist’s estate foundation. It owns the painting; the work has not been sold on the open market, so no purchase figure exists. © Helen Frankenthaler Foundation, Inc. / Artists Rights Society (ARS), New York.', price: null },
+    { year: 'present', who: 'National Gallery of Art (on extended loan)', place: 'Washington, D.C.', note: 'On long-term loan to the National Gallery of Art from the Foundation. It is a loan, not an NGA acquisition, and is not in the NGA’s owned collection.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Helen Frankenthaler', role: 'The painter', palette: ['#7aa6c8', '#d6a87a', '#2a3640'] },
+    { name: 'Jackson Pollock', role: 'The floor-bound pour she built on', palette: ['#2a2620', '#a8966a', '#0e0c08'] },
+    { name: 'Clement Greenberg', role: 'Critic; brought Louis and Noland to see it', palette: ['#5a6354', '#39322a', '#120f0c'] },
+    { name: 'Morris Louis', role: 'Took the stain home to Washington', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+    { name: 'Kenneth Noland', role: 'The other Washington visitor', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+  ],
+  annotations: [
+    { label: 'The thin, translucent stains soaking into raw canvas', where: 'Everywhere the color lies, the soft veils of blue, green, and pink', detail: 'The paint is not laid on top; it sits in the cloth as a dyed, matte wash, the way ink soaks into blotting paper. The edge of each color feathers and bleeds into the bare fabric instead of stopping at a hard brushed line. The pigment is embedded in the weave itself, which is why nothing in the picture casts the small shadow a ridge of brushed paint would. This soaking-in is the soak-stain, and it is what Frankenthaler pioneered with this canvas.' },
+    { label: 'The visible charcoal drawing lines', where: 'Loose dark contours running across and through the stained color', detail: 'Sketched directly onto the canvas in charcoal, these lines read as drawing left in plain view, not erased under paint. They wander over and through the washes so that line and stain coexist on the same surface rather than one hiding the other. That is part of why the medium line is “oil and charcoal,” not oil alone: the drawing is a finished element of the picture, not buried scaffolding.' },
+    { label: 'The bare canvas left showing', where: 'The large untouched stretches of pale raw fabric between the stained passages', detail: 'Wide areas of the cloth are simply left alone, the natural color of the unprimed fabric. This empty ground is not a gap waiting to be filled; it breathes between the pools of color and does real work in the composition. Leaving raw canvas active and on view, rather than covering it, is one of the quiet shocks of the picture, and a direct inheritance from the bare fabric Pollock let show through his poured webs.' },
+    { label: 'The watercolor-like washes at large scale', where: 'The pooled, diaphanous color across the whole roughly 7-by-10-foot canvas', detail: 'The pours behave like watercolor: pooled, luminous, see-through. But they are blown up to mural size, about 7 feet tall by nearly 10 feet wide (219 × 298 cm). That collision is the surprise of the work, an intimate, fragile medium handled at the scale Abstract Expressionism reserved for its biggest statements. The wash stays see-through to the cloth, the way a watercolor stays see-through to the paper.' },
+    { label: 'The landscape suggestion of blue, green, and pink', where: 'The green passage descending toward a band of blue, with pinks scattered through', detail: 'A green area dropping to a blue band reads as a rocky shore meeting water; pinks and blues scatter like spray and sky. It hovers between abstraction and a remembered coast and never resolves into a literal view. The picture grew from cliffs and sea Frankenthaler had painted that summer in Nova Scotia; she said the landscapes “were in my arms” as she made it, meaning the place is carried in the body of the painting, not depicted in it.' },
+    { label: 'No impasto, no gesture', where: 'The surface as a whole, the absence of any raised paint, drag, or brush “handwriting”', detail: 'There is almost no ridge of heaped paint, no scraped drag, no loaded brushstroke. The surface is flat and stained, color fused into the plane of the cloth. That flatness is exactly the break from Pollock’s raised drips and de Kooning’s troweled, gestural paint: the drama of the painter’s touch is gone, and attention shifts to pure color and field.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Pollock’s poured canvases', mode: 'art' },
+      { label: 'Cubism (her early training)', mode: 'art' },
+      { label: 'The cliffs of Cape Breton, Nova Scotia', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Color Field painting', mode: 'art' },
+      { label: 'The Washington Color School (Louis · Noland)', mode: 'art' },
+      { label: 'Stained, flat-field abstraction', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Chief (Franz Kline, 1950), Museum of Modern Art, New York
+// (accession 2.1952; Gift of Mr. and Mrs. David M. Solinger). Flagship
+// Abstract Expressionism work-read. Authored through the art content
+// pipeline (fact pack → Opus → 5 gates → reconcile/revise). Chapter prose
+// in art-section-reader.tsx NARRATIVES['chief'] (Chf… prefix).
+// FACT HANDLING (per work-chief-factpack.md + gates):
+//  • The white is PAINTED, not blank ground — black AND white are both
+//    active; figure and ground trade places. Load-bearing correction;
+//    carries the KEY STATEMENT.
+//  • KEY STATEMENT = the verbatim MoMA-anchored Kline line, "I paint the
+//    white as well as the black, and the white is just as important."
+//    No year/venue asserted (the floated "1958" is unconfirmed).
+//  • NOT calligraphy / not Zen — a reading Kline REJECTED despite the
+//    look ("calligraphy is simply the art of writing"); present as refused.
+//  • Bell-Opticon projector "discovery" (1948, de Kooning's studio) =
+//    the STANDARD ACCOUNT, hedged (de Kooning: it "took quite a while to
+//    work it out"); not a documented single eureka instant. The finished
+//    canvas was very likely worked up deliberately from a small study, so
+//    the thrown-looking stroke is studied and enlarged, not made in one pass.
+//  • "Chief" = the name of a LOCOMOTIVE from Kline's Pennsylvania
+//    railroad-town childhood; not a person, not a portrait. Don't
+//    over-specify the rail line.
+//  • Dimensions = 148.3 × 186.7 cm = 4 ft 10 3/8 in × 6 ft 1 1/2 in,
+//    LANDSCAPE. Credit line verbatim: "Gift of Mr. and Mrs. David M.
+//    Solinger" (acc. 2.1952, acquired 1952). No prices invented.
+//  • rights: 'in-copyright' (1950, Kline d. 1962; © Kline estate / ARS) —
+//    hero shown small + credited, fair use; NOT pd-us.
+// ─────────────────────────────────────────────────────────────
+export const CHIEF: ArtWorkContent = {
+  id: 'chief',
+  name: 'Chief',
+  shortName: 'Chief',
+  year: 1950,
+  artist: 'Franz Kline',
+  artistId: 'kline',
+  movement: 'Abstract Expressionism',
+  movementId: 'abex',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '4 ft 10 3/8 in × 6 ft 1 1/2 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Gift of Mr. and Mrs. David M. Solinger, 1952 (acc. 2.1952)',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Abstract Expressionism', index: 3, total: 9 },
+  hook: 'A handful of huge black strokes laid across a white field, a tiny brush drawing blown up to the scale of a wall, named after a locomotive Kline knew as a boy. The white is painted as hard as the black, and that is the whole point.',
+  heroImage: ART_IMG.klineChief,
+  heroCredit: 'Kline, Chief, 1950 · Museum of Modern Art, New York · in copyright, shown small under fair use; rights with the Franz Kline estate / ARS.',
+  heroAspect: 1.27, // 148.3 × 186.7 cm → W/H ≈ 1.26, landscape
+  heroFit: 'contain', // the whole ~5 × 6 ft canvas, never cropped
+  rights: 'in-copyright', // 1950, Kline d.1962; © Kline estate / ARS; NOT pd-us
+  stats: [
+    { v: '1950', k: 'Painted' },
+    { v: '4′10⅜″ × 6′1½″', k: 'Dimensions' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'railroad', eyebrow: 'New York · 1950', dateLabel: '1950', title: 'The painter who started over in black and white', blurb: 'Kline had spent twenty years as a representational painter, cityscapes, interiors, small ink drawings, and was getting nowhere. Then, around 1949 to 1950, he threw out color and the depicted world and bet everything on a few huge black strokes against white. Chief is from that breakthrough.', progress: 0.08 },
+    { id: 'projector', eyebrow: 'The making', dateLabel: '1948–1950', title: 'A small drawing, thrown huge on a wall', blurb: 'The standard story: in de Kooning’s studio Kline projects a tiny brush drawing with a borrowed projector, and the little marks, blown up, become enormous abstract strokes. It is the account MoMA repeats, and it is probably tidied up; de Kooning said it took quite a while to work out.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '4 ft 10 3/8 in × 6 ft 1 1/2 in', title: 'A few black girders, and the white between them', blurb: 'The broad black bars that brace and lean like beams, the dragging, dripped edges that carry the speed of the stroke, the architecture without any building, and the white, which is painted, not blank, and is doing half the work.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: 'Abstract Expressionism', title: 'When the stroke became the structure', blurb: 'Ambitious American abstraction around 1950 still carried color, atmosphere, all-over fields, signs. Kline throws all of it out and bets on a handful of black strokes at wall scale, where the mark is not a contour or a letter but the building itself, and the speed of the body is on the canvas. This is what Rosenberg would call action painting.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1950–today', title: 'The locomotive, the calligraphy, and the gift', blurb: 'The title is a train Kline remembered, not a chief and not a Zen character, and he spent years rejecting the calligraphy reading the look invited. The collector David M. Solinger and his wife gave the canvas to MoMA in 1952, where it has hung ever since.', progress: 0.96 },
+  ],
+  // Provenance is short and clean: painted 1950, gift of Mr. and Mrs.
+  // David M. Solinger to MoMA, accession 2.1952 (the "1952" suffix = the
+  // acquisition year). No auction/dealer chain or price surfaced; a missing
+  // figure is left null, never invented. © Franz Kline estate / ARS.
+  provenance: [
+    { year: '1950–c.1951', who: 'Franz Kline (the artist)', place: 'New York', note: 'Painted in 1950, at the start of the black-and-white breakthrough that made him famous, and first shown in his early-1950s New York exhibitions. Acquired soon after by the collector David M. Solinger.', price: null },
+    { year: 'c.1951–1952', who: 'David M. Solinger', place: 'New York', note: 'The New York lawyer and modern-art collector David M. Solinger (later president of the Whitney Museum of American Art) acquired the canvas early, while Kline was just becoming known. No purchase figure is documented in the sources.', price: null },
+    { year: '1952–today', who: 'Museum of Modern Art', place: 'New York', note: 'Given to MoMA in 1952 by Mr. and Mrs. David M. Solinger. Accession 2.1952. © The Franz Kline estate / Artists Rights Society (ARS), New York. On view.', price: 'Gift of Mr. and Mrs. David M. Solinger', museum: true },
+  ],
+  figures: [
+    { name: 'Franz Kline', role: 'The painter', palette: ['#1c1c1c', '#e8e4dc', '#3a3a3a'] },
+    { name: 'Willem de Kooning', role: 'Friend; in whose studio the projector story is set', palette: ['#5a5a5a', '#2a2a2a', '#0e0e0e'] },
+    { name: 'Elaine de Kooning', role: 'Painter and writer; told the rocking-chair version of the story', palette: ['#6a6354', '#39322a', '#120f0c'] },
+    { name: 'Harold Rosenberg', role: 'Critic; coined action painting, 1952', palette: ['#8a4a2a', '#4a2c18', '#15100a'] },
+    { name: 'David M. Solinger', role: 'Collector; gave Chief to MoMA in 1952', palette: ['#5a6354', '#39322a', '#120f0c'] },
+  ],
+  annotations: [
+    { label: 'The broad black bars', where: 'Across the whole canvas, the few wide, loaded black strokes that dominate it', detail: 'A handful of broad black strokes carry the entire picture. They do not outline anything; they are the structure itself. Follow how they cross, brace, and lean on one another like beams or girders bearing weight against each other and spanning the canvas. The painting is almost one big gesture, enlarged, drawing made monumental.' },
+    { label: 'The white is painted, not blank', where: 'In and around the black, the worked white field', detail: 'This is the thing most people get wrong about the picture. The white is brushed and worked, and at the edges it pushes back into and overlaps the black. It is not bare canvas and not a neutral background. Kline painted the white as actively as the black, so figure and ground trade places and both are doing structural work. His own line, "I paint the white as well as the black, and the white is just as important," is a description of exactly this surface.' },
+    { label: 'Speed at the stroke edges', where: 'Along the edges of the black bars, the ragged and dripped margins', detail: 'The edges where the loaded brush moved fast drag, go dry and broken, and trail drips. Those edges record the velocity of the gesture. The strokes look thrown, and the picture carries the physical act of making them, the trace of a body moving at speed, not a slowly drawn shape. That said, the velocity is in the mark and not a guarantee about the making: like many of these canvases, Chief was very likely worked up deliberately from a small drawing, a fast gesture studied and enlarged rather than made in one pass.' },
+    { label: 'Architecture without a building', where: 'The overall design, the bars framing and spanning like a structure', detail: 'The whole thing reads like framing, trusses, track, or rolling stock, a built, weight-bearing scaffold, even though nothing at all is depicted. The black behaves like architecture: it spans, braces, and holds. That structural feeling, and not any pictured object, is what the marks are about.' },
+    { label: 'No depicted object', where: 'The whole canvas, where a viewer looks for a figure, a thing, a locomotive', detail: 'There is no train, no figure, no scene to find. There is no picture of anything here. The forms run off the edges of the canvas, implying motion continuing past the frame, but the title points at a feeling of power and speed, not at an image of the locomotive it is named for.' },
+    { label: 'The scale, and your body', where: 'The full span of the work, about 4 ft 10 in tall and 6 ft 1 in wide', detail: 'At roughly five by six feet, a small drawing’s single gesture has been blown up to room and body scale. The strokes are wider than your arm, so your whole body, not just your eye, reads them. The bigness is the argument: the same mark that would be a flick on a sketchbook page becomes a girder you stand in front of.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Kline’s small ink drawings', mode: 'art' },
+      { label: 'de Kooning’s gestural line', mode: 'art' },
+      { label: 'Pennsylvania railroad country', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Action painting', mode: 'art' },
+      { label: 'Black-and-white gestural abstraction', mode: 'art' },
+      { label: 'Minimalism’s scale and literal mark', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, The Seasons (Lee Krasner, 1957), Whitney Museum of American Art,
+// New York (accession 87.7). Flagship Abstract Expressionism work-read; last
+// in the AbEx chain (9/9). Authored through the art content pipeline
+// (fact pack → Opus → 5 gates → revise). Chapter prose in art-section-reader.tsx
+// NARRATIVES['krasner-seasons'] (Kra… prefix). FACT HANDLING (per
+// work-krasner-seasons-factpack.md + the three gate passes):
+//  • Date = 1957 firmly (Whitney). The barn move + Earth Green series began 1956;
+//    do NOT backdate the canvas to 1956.
+//  • Medium = "Oil and house paint on canvas" (Whitney's exact line); keep BOTH —
+//    not oil alone. Krasner, like Pollock, used commercial house paint.
+//  • Dimensions = 235.6 × 517.8 cm = 92 3/4 × 203 7/8 in = 7 ft 8 3/4 in × 17 ft 0 in,
+//    LANDSCAPE. Width 517.8 cm is a TRUE ~17 ft 0 in; "nearly 17 feet" rounds down.
+//  • acquired: credit line VERBATIM + acc. 87.7; NO hard year — the Whitney page
+//    prints no year, "87" prefix only implies ~1987 (inference, never asserted).
+//  • rights: 'in-copyright' (Krasner d. 1984; © Pollock-Krasner Foundation / ARS) —
+//    shown small + credited, fair use. NOT pd-us.
+//  • Part of the "Earth Green" series (c. 1956–59); kept DISTINCT from the later
+//    dark "Night Journey"/umber night paintings (c. 1959–62).
+//  • "this was my answer" quote = AAA Seckler oral history (1964–68); transcript 403
+//    on fetch, so presented as REPORTED/attributed, not hard verbatim.
+//  • "a damn good painter, thank you, and a little too independent" = recounted by
+//    biographer Gail Levin from their first meeting, in 1971; widely quoted. (NOT
+//    Pollock-Krasner House materials — corrected at the fact gate.)
+// ─────────────────────────────────────────────────────────────
+export const KRASNER_SEASONS: ArtWorkContent = {
+  id: 'krasner-seasons',
+  name: 'The Seasons',
+  shortName: 'The Seasons',
+  year: 1957,
+  artist: 'Lee Krasner',
+  artistId: 'krasner',
+  movement: 'Abstract Expressionism',
+  movementId: 'abex',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil and house paint on canvas',
+  dimensions: '7 ft 8 3/4 in × 17 ft 0 in',
+  location: 'Whitney Museum of American Art',
+  acquired: 'Purchase, with funds from Frances and Sydney Lewis by exchange, the Mrs. Percy Uris Purchase Fund and the Painting and Sculpture Committee (acc. 87.7)',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Abstract Expressionism', index: 9, total: 9 },
+  hook: 'Seventeen feet of swelling pink-and-rose forms, lush green and ochre, drawn together by sweeping black lines: bodies, buds, and fruit in one rolling field. Painted by a woman at full mural scale, in the barn studio that had been Pollock’s, an image of growth and ripeness made out of loss.',
+  heroImage: ART_IMG.krasnerSeasons,
+  heroCredit: 'Krasner, The Seasons, 1957 · Whitney Museum of American Art (87.7) · in copyright, shown small under fair use.',
+  heroAspect: 2.20, // 517.8 × 235.6 cm → W/H ≈ 2.198, landscape
+  heroFit: 'contain', // the whole ~7 ft 9 in × 17 ft canvas, never cropped
+  rights: 'in-copyright', // Krasner d. 1984; © Pollock-Krasner Foundation / ARS; NOT pd-us
+  stats: [
+    { v: '1957', k: 'Painted' },
+    { v: '7′8¾″ × 17′0″', k: 'Dimensions' },
+    { v: 'Whitney', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'barn', eyebrow: 'Springs, Long Island · 1956–57', dateLabel: '1956–57', title: 'Into the big studio, at last', blurb: 'After Pollock’s death in August 1956, Krasner moves her own work out of the small bedroom she had been painting in and into the barn behind the house that had been his studio. For the first time she has the wall and floor to work at mural scale, and she takes it.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1957', title: 'The biggest canvas she had ever attempted', blurb: 'She builds The Seasons at a true seventeen feet across, the largest work of her life to that point, in oil and the commercial house paint she and Pollock both used. It belongs to her "Earth Green" series, the run of large, vegetal, brightly colored canvases she paints in the barn in these years.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '7 ft 8 3/4 in × 17 ft 0 in', title: 'Bodies, buds, and fruit in one rolling field', blurb: 'Swelling pink-and-rose organic forms, off-white bulbs, passages of lush green and earthy ochre, all wrapped and separated by heavy black contour lines, repeating in a steady allover beat across the whole mural width. A picture of ripeness, not grief.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: 'Abstract Expressionism', title: 'Who gets the big statement, and what it’s about', blurb: 'The heroic mural-scale AbEx canvas was coded male and made almost entirely by men. Krasner claims that scale and wall on her own terms, and answers grief with a green, swelling, life-affirming abstraction built out of body and nature rather than dread or the void.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1957–today', title: 'Out of "Mrs. Jackson Pollock"’s shadow', blurb: 'Critics dismissed the Earth Green works as derivative and "too decorative"; recognition came slowly, through a 1965 London retrospective and a 1973 Whitney show, and full reappraisal in the 1980s. The Seasons enters the Whitney by purchase, accession 87.7, where it hangs as a landmark of the movement.', progress: 0.96 },
+  ],
+  // Provenance: endpoints only. Made 1957 → Whitney by purchase, accession 87.7,
+  // credit line VERBATIM. No hard acquisition year (page prints none; "87" prefix
+  // implies ~1987, stated as inference). No prices; no unsourced intermediate chain.
+  provenance: [
+    { year: '1957', who: 'Lee Krasner (the artist)', place: 'Springs, East Hampton, New York', note: 'Painted in 1957 in the barn studio behind the house in Springs, the room that had been Jackson Pollock’s studio. The centerpiece of Krasner’s "Earth Green" series of c. 1956–59. © The Pollock-Krasner Foundation / Artists Rights Society (ARS), New York.', price: null },
+    { year: '~1987–today', who: 'Whitney Museum of American Art', place: 'New York', note: 'Acquired by the Whitney by purchase, accession 87.7 (the "87" accession prefix implies an acquisition of around 1987, but the museum’s record prints no explicit year, so the date is an inference). Credit line: Purchase, with funds from Frances and Sydney Lewis by exchange, the Mrs. Percy Uris Purchase Fund and the Painting and Sculpture Committee. The chain between Krasner’s studio and the Whitney purchase is not detailed in the public record. © The Pollock-Krasner Foundation / ARS, New York.', price: 'Purchase (museum acquisition)', museum: true },
+  ],
+  figures: [
+    { name: 'Lee Krasner', role: 'The painter', palette: ['#bf5a6a', '#3a6a4a', '#15110c'] },
+    { name: 'Jackson Pollock', role: 'Husband; whose barn studio she moved into', palette: ['#2a2620', '#a8966a', '#0e0c08'] },
+    { name: 'Hans Hofmann', role: 'Her teacher in the late 1930s; the modernist grounding', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Frances and Sydney Lewis', role: 'Collectors; funds by exchange behind the Whitney purchase', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Barbara Rose', role: 'Curator; her career retrospective (1983–85) drove the reappraisal', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  annotations: [
+    { label: 'The swelling pink and rose forms', where: 'Across the whole field, the dominant note: full, bulbous, ripened pink-and-rose shapes', detail: 'The painting’s engine is a field of full, swelling pink-and-rose forms, read at once as bodies, breasts, buds about to open, and fruit about to fall. They are the emotional center of the picture, and what they carry is ripeness, not mourning. The literal fact on the canvas is the rounded rose-pink shapes; the reading of them as a fertility image, growth answering loss, is a reading, and a fair one.' },
+    { label: 'The green and the ochre', where: 'Threaded through and around the pinks, in passages of foliage-green and earthy ochre', detail: 'Lush green and earthy ochre run through and around the pink forms, grounding the bright bodies in something like leaf and soil. This is the "earth green" that names the whole series Krasner painted in these barn-studio years: bodies rooted in vegetation, the warm and the growing together rather than the cool and abstract.' },
+    { label: 'The rhythmic, allover repetition', where: 'The composition as a whole, scanned left to right for a place to rest', detail: 'There is no single focal point. The forms recur across the entire seventeen-foot width in a steady, rolling beat, so the eye travels the full canvas the way it would scan a field or a frieze rather than landing on one center. This is allover composition (a term out of Pollock’s drip pictures) bent toward organic, bodily rhythm: the weight spread evenly to all the edges.' },
+    { label: 'Body, bud, and fruit at once', where: 'In the individual forms, anywhere the shapes hover between abstraction and a recognizable thing', detail: 'The shapes are kept deliberately unresolved: the same form can be read as a torso, a seed-pod, a piece of fruit, or a sexual organ, and Krasner does not settle which. That hovering between abstraction and the figurative is on purpose. It is how the picture stays a picture of life-force in general rather than an illustration of any one body.' },
+    { label: 'The heavy black contour lines', where: 'Wrapping and dividing the colored forms throughout, the sweeping dark brush-lines', detail: 'Sweeping black brush-lines wrap and separate the colored forms, drawing the bodies and giving the whole surface its swing. This is the drawing inside the painting: the line that organizes the rolling field, sets the rhythm, and keeps the swelling colors from dissolving into one another. Krasner’s training as a draftsman is right here, structuring an otherwise overflowing surface.' },
+    { label: 'The mural width', where: 'The full span of the work, about 7 ft 9 in tall and a true 17 ft 0 in wide', detail: 'Step back: the canvas is a true seventeen feet across and more than seven and a half feet tall. It is built to be walked, not glanced at, a wall-sized statement that asks for the same physical scale as the big AbEx canvases of its moment. The size is doing argumentative work, claiming a mural ambition that, in that circle and that year, was almost entirely a man’s preserve.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Gestural abstraction', mode: 'art' },
+      { label: 'Hofmann’s color teaching', mode: 'art' },
+      { label: 'Matisse’s cut-out forms', mode: 'art' },
+      { label: 'The barn studio at Springs', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Biomorphic abstraction', mode: 'art' },
+      { label: 'Feminist art history’s recovery', mode: 'civ' },
+      { label: 'Large-scale women’s abstraction', mode: 'art' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM, 'song-of-love': SONG_OF_LOVE, harlequin: HARLEQUIN, 'masson-auto': MASSON_AUTO, treachery: TREACHERY, persistence: PERSISTENCE, 'object-fur': OBJECT_FUR, 'carrington-self': CARRINGTON_SELF, 'tanguy-divis': TANGUY_DIVIS, 'ernst-histoire': ERNST_HISTOIRE, 'autumn-rhythm': AUTUMN_RHYTHM, 'woman-i': WOMAN_I, 'orange-yellow': ORANGE_YELLOW, 'vir-heroicus': VIR_HEROICUS, 'still-cliff': STILL_CLIFF, 'liver-cocks-comb': LIVER_COCKS_COMB, 'mountains-sea': MOUNTAINS_SEA, chief: CHIEF, 'krasner-seasons': KRASNER_SEASONS }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
