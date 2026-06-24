@@ -8247,7 +8247,602 @@ function UnqAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
 // REGISTRY (coordinator splices into NARRATIVES):
 //  'unique-forms': { manifesto: UnqManifesto, making: UnqMaking, looking: UnqLooking, death: UnqDeath, afterlife: UnqAfterlife },
 
+// ─────────────────────────────────────────────────────────────
+// States of Mind: The Farewells (Boccioni, 1911, MoMA) &mdash; five chapters
+// ─────────────────────────────────────────────────────────────
+function FarStation({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Milan · 1911" title="Paint the feeling, not the train" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>1911</strong>, in Milan, a twenty-eight-year-old painter named <strong>Umberto Boccioni</strong> (1882&ndash;1916) set out to do something most painters would have called a contradiction in terms. He wanted to paint a goodbye at a railway station. Not the station, though. Not the train. The <em>goodbye</em>. The actual feeling of it, the lurch in the chest when someone you love climbs onto a train and you do not, painted directly onto canvas as if a feeling were a thing you could see.
+      </p>
+      <p style={proseStyle}>
+        That ambition is sitting right there in the title. The whole set is called <em>Stati d&rsquo;animo</em> &mdash; Italian for <strong>States of Mind</strong>, meaning, quite literally, the conditions of the soul, the inner weather of a person. The title is a promise and a dare at once: this picture is not going to show you an event, it is going to show you a mood. A train station is just the place Boccioni chose because, in 1911, nothing in modern life was more loaded with arrivals and partings than a platform under a great iron shed.
+      </p>
+      <p style={proseStyle}>
+        Boccioni belonged to a brand-new movement called <strong>Futurism</strong>, an Italian avant-garde &mdash; that is, a self-consciously radical art group out ahead of the mainstream &mdash; that had announced itself two years earlier and was in love with everything fast, loud, and mechanical: motorcars, electric light, factories, and trains. (We will come back to Futurism, and to its harder edges, in a later chapter.) A railway goodbye was the perfect Futurist subject. It is built out of a machine, and it is drenched in feeling, and Boccioni wanted both at once.
+      </p>
+
+      <SectionHeader accent={accent} label="One feeling in three panels" title="The embrace, those who go, those who stay" />
+      <p style={proseStyle}>
+        He did not try to cram the whole experience into one picture. He built it as a <strong>triptych</strong> &mdash; a single work made of three separate panels, three physical canvases, meant to hang side by side, the format old altarpieces used. The three panels split the goodbye into its three movements. <em>Gli addii</em> (<strong>The Farewells</strong>) is the embrace and the chaos of the parting itself. <em>Quelli che vanno</em> (<strong>Those Who Go</strong>) is the ones who board and are carried off into the dark. <em>Quelli che restano</em> (<strong>Those Who Stay</strong>) is the ones left standing on the platform, watching the train shrink.
+      </p>
+      <p style={proseStyle}>
+        It is a small, exact piece of psychology. A station goodbye really does have those three parts, and they really do feel different from the inside: the swirl of the last hug, the wrench of being taken away, the heavy stillness of staying behind. Boccioni gave each its own panel, and its own kind of line. <em>The Farewells</em>, the panel this read is about, is the first of the three and the most turbulent: it is the moment of the embrace, when the parting is still happening and nobody has gone anywhere yet.
+      </p>
+      <p style={proseStyle}>
+        And here is the strange fact that the rest of this story turns on. The version of <em>The Farewells</em> that hangs in New York, the famous one, is not the first one Boccioni painted. It is the <strong>second</strong>. He painted the whole triptych twice in a single year, and the reason he did it is a train trip of his own.
+      </p>
+    </article>
+  )
+}
+
+function FarParis({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Milan, then Paris" title="The first version, and why it wasn’t enough" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        occioni painted the first version of <em>States of Mind</em> in the late summer of <strong>1911</strong>, before he had ever really seen the newest art coming out of Paris. He painted it in the style he had grown up in, called <strong>Divisionism</strong> &mdash; a technique of building a picture out of many small, separate strokes of pure color set side by side, so the eye mixes them at a distance. (It is a close Italian cousin of the dotted French method, tiny dots of pure color, behind Seurat&rsquo;s <em>Grande Jatte</em>.) That first <em>Farewells</em> is a swirling, hazy, atmospheric thing, all shimmer and steam, pure Futurism before any outside influence got to it.
+      </p>
+      <p style={proseStyle}>
+        Then, in the <strong>autumn of 1911</strong>, Boccioni got on a train himself. He went to Paris with two fellow Futurist painters, <strong>Carlo Carr&agrave;</strong> and <strong>Luigi Russolo</strong>, urged on and shown around by a fourth, <strong>Gino Severini</strong>, who actually lived in Paris and knew the scene. (Sources split on whether the trip was October or November, so call it late 1911.) Severini wanted his Italian friends to see what was happening in the French capital with their own eyes, because something was happening there that no description could quite carry.
+      </p>
+
+      <SectionHeader accent={accent} label="Cubism, in the flesh" title="A new way to take a thing apart" />
+      <p style={proseStyle}>
+        What they saw was <strong>Cubism</strong>. This was the radical Paris invention of <strong>Pablo Picasso</strong> and <strong>Georges Braque</strong>, and the simplest way to describe it is this: instead of painting an object from one fixed viewpoint, the Cubists broke it into flat, hard, intersecting planes, faceted shards, and showed several of its angles at once, as if you could see around a thing and through it in the same glance. It looked like reality run through a cracked pane of glass. To a young painter obsessed with motion, that fracturing was electric, because a thing seen from several angles at once is, in a sense, a thing caught moving.
+      </p>
+      <p style={proseStyle}>
+        Boccioni came home and did something a less restless painter would never have done. He had a finished triptych already. He painted the whole thing <strong>again</strong>. The second version keeps the same scene, the same embrace, the same engine, but it rebuilds the soft Divisionist haze with the hard Cubist faceting he had just seen: the swirling waves are now cut across by sharp intersecting planes, the station broken into shards. He took the feeling of the first version and gave it a new skeleton.
+      </p>
+
+      <SectionHeader accent={accent} label="Two cities, two pictures" title="Which one is which, and where they are now" />
+      <p style={proseStyle}>
+        So there are two <em>Farewells</em>, and the difference between them is the whole point. The <strong>first</strong>, Divisionist, pre-Paris version &mdash; the haze without the faceting &mdash; stayed in Italy and is now <strong>in Milan</strong>. (Sources disagree on exactly which Milan museum, so we will leave it at the city.) The <strong>second</strong>, post-Paris, Cubist-inflected version &mdash; the one with the hard cut planes &mdash; is the more famous one, and it is the one that hangs in the <strong>Museum of Modern Art in New York</strong>. When you stand in front of the MoMA <em>Farewells</em>, you are looking at a picture that records, inside its own surface, a young painter&rsquo;s mind being changed by a trip to Paris. The faceting is the souvenir.
+      </p>
+    </article>
+  )
+}
+
+function FarLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Emotion drawn as lines" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting is small, about <strong>two feet three inches tall by three feet two inches wide</strong>, a modest landscape rectangle a little wider than a serving tray laid flat. That smallness matters, because what is packed into it is the opposite of modest: a whole emotional weather system, a parting felt as a storm, compressed into less than a yard of canvas. Stand close. This is a picture you read by following lines, not by naming objects, and the first thing to do is let your eye stop trying to find the edges of things.
+      </p>
+      <p style={proseStyle}>
+        Because the edges are mostly gone. The whole surface is swept into long, <strong>curving, swirling arcs</strong> of paint, great waves that wheel across the canvas, and almost everything in the picture &mdash; people, steam, station &mdash; is caught up in them and dissolving. This is the engine of the whole thing, so look at it directly: those curves are not decoration around the scene, they <em>are</em> the scene. Boccioni is drawing the feeling itself. A swirling line is what a chaotic goodbye feels like from the inside, and he has put the feeling on the canvas as a direction your eye is forced to travel, round and round, with no resting place. You do not look at a sad picture here. You get pulled into a spinning one, and the spin is the sadness.
+      </p>
+
+      <SectionHeader accent={accent} label="The line is the whole argument" title="Curves here, slants and verticals next door" />
+      <p style={proseStyle}>
+        Here is the device that makes this work, and once you see it you cannot unsee it. Boccioni gave each of the three panels its <strong>own kind of line</strong>, matched to its own feeling. In <em>The Farewells</em>, the panel in front of you, the lines <strong>swirl and curve</strong> &mdash; the churning confusion of the embrace. In its neighbor <em>Those Who Go</em>, the lines slant <strong>oblique</strong>, all leaning one way, the pull and rush of departure. In the third, <em>Those Who Stay</em>, the lines fall <strong>strictly vertical</strong>, straight down like rain or bars, the dead heavy weight of the people left on the platform. Three feelings, three geometries. The emotion is in the direction of the strokes before it is in anything you could call a picture of a person.
+      </p>
+      <p style={proseStyle}>
+        (This idea later got a formal name in Futurist theory, the <strong>lines of force</strong> &mdash; in Italian <em>linee-forza</em> &mdash; directional lines that carry an object&rsquo;s energy and feeling out into everything around it. The term was nailed down in the catalogue of the Futurists&rsquo; big Paris exhibition the following year, in 1912, so it is the name that arrived just after these pictures, not the slogan Boccioni was painting under. But the thing the name describes is exactly what your eye is doing right now.)
+      </p>
+
+      <SectionHeader accent={accent} label="The embrace" title="Two people, dissolving into the storm" />
+      <p style={proseStyle}>
+        Now find the people. At the heart of the picture, low and central, is the densest knot of paint: the <strong>embracing couple</strong>, two figures bent into each other in the parting hug. But notice how Boccioni paints them, because it is the opposite of how a normal painter would. He does not set them cleanly in front of the scene like actors on a stage. He lets the swirling waves run <em>straight through them</em>, so their bodies and the steam and the station are all made of the same churning stuff. They are not standing in the vortex; they are coming apart into it, a knot that is about to be pulled loose. The composition tells you the goodbye has already half-happened: the two people are dissolving even as they hold on.
+      </p>
+
+      <SectionHeader accent={accent} label="The one cold thing" title="A number that refuses to move" />
+      <p style={proseStyle}>
+        And then, in the middle of all that motion, there is one thing that does not move. Toward the center-right, half-buried in the swirl, sits the dark mechanical mass of the <strong>locomotive</strong>, the train engine, sunk to its shoulders in steam and curved line. On its body Boccioni painted the single steadiest, coldest mark on the whole canvas: a <strong>stencilled number</strong>, read by the usual account as <strong>6943</strong>. (The digits are small and worked into the paint, so that reading is the standard one rather than something you can crisply count off a photograph.) This is the trick of the picture. Everything in the painting is spinning &mdash; the people, the air, the building &mdash; except four cold machine-stamped numerals, which sit there perfectly still. The number is the one thing in the goodbye that feels nothing. It is the indifferent machine in the middle of all the human feeling, and Boccioni makes it the calm eye of the whole storm.
+      </p>
+
+      <SectionHeader accent={accent} label="The grid and the shards" title="Poles, wires, and the Paris souvenir" />
+      <p style={proseStyle}>
+        Two last things to find. Look up through the upper haze and you will catch the thin, hard, straight uprights of the station&rsquo;s ironwork, the <strong>telegraph poles and wires</strong>, cutting against the curving waves. They are the man-made grid of the railway, the proof that this whole emotional storm is happening at a real platform and not in pure abstraction. And then look at how the <strong>station itself</strong> is built: not as solid walls and roof but broken into hard, intersecting, faceted shards, sharp planes slicing across the curves. That faceting is the souvenir from Paris, the Cubism Boccioni brought home and laid over the haze. The curves are the feeling; the shards are the new structure he found to carry it.
+      </p>
+      <p style={proseStyle}>
+        Pull all the way back now and read the whole thing as one shape. It is a <strong>vortex</strong>, a whirlpool, waves and lines radiating outward, and the still point they all wheel around is the engine and its number. That is the picture&rsquo;s entire thesis, made in paint and needing no caption: a parting is a storm of motion with one cold, unmoved machine at its heart. You feel it before you can explain it, which is exactly what a <em>state of mind</em> is supposed to do.
+      </p>
+    </article>
+  )
+}
+
+function FarFuturism({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Futurism · 1909" title="A movement in love with the machine" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o understand why a man would paint a train station as a spiritual event, you have to know the movement he belonged to. <strong>Futurism</strong> was launched in <strong>1909</strong> by an Italian poet named <strong>Filippo Tommaso Marinetti</strong> (1876&ndash;1944), who published a fiery <em>Manifesto of Futurism</em> &mdash; a manifesto being a public declaration of what a movement believes and intends &mdash; on the front page of a Paris newspaper. Its message was a kind of intoxicated worship of the modern, machine-driven world: speed, electricity, the motorcar, the factory, the roar of engines. The Futurists thought the museums were tombs and the past was a weight, and they wanted an art made of energy and velocity instead of marble and nostalgia.
+      </p>
+      <p style={proseStyle}>
+        That is why a goodbye at a railway station, of all the human partings there are, became <em>this</em> goodbye. The train is not just the vehicle in <em>The Farewells</em>; it is the whole reason the subject appealed to Boccioni at all. A station is where modern feeling and modern machinery meet, where the speed the Futurists loved reaches into ordinary lives and pulls people apart. Boccioni was the movement&rsquo;s sharpest painter and its leading theorist of how to do all this in pictures, and the lines of force we traced on the canvas are his contribution to it: a method for putting pure motion and pure feeling onto a flat surface.
+      </p>
+
+      <SectionHeader accent={accent} label="The darker edge" title="What the manifesto also said" />
+      <p style={proseStyle}>
+        Futurism was not only a cheerful festival of fast cars. Its founding document had a genuinely ugly side, and it is part of the honest history of this picture. Marinetti&rsquo;s 1909 manifesto did not only glorify speed and machines; it also <strong>glorified war and violence</strong>, calling war (in the famous phrase) the world&rsquo;s only hygiene, and in the same breath named a &ldquo;scorn for woman,&rdquo; sneering at the weak and the old. That worship of force and contempt was woven into Futurism from the start, and Marinetti would later, in 1919, help found the Italian <strong>Fascist</strong> movement, tying the avant-garde he had created to one of the catastrophes of the century.
+      </p>
+      <p style={proseStyle}>
+        One line of fairness has to be drawn carefully here. <strong>Boccioni did not live to see any of that.</strong> He died in <strong>1916</strong>, at thirty-three, after a fall from a horse during military training in the First World War &mdash; the same war the manifesto had romanticized, which is its own bleak irony. He was gone three years before Marinetti turned toward Fascism, and well over a decade before it took power. So the ideology is real and it belongs in the story, but it is the movement&rsquo;s later road, not a verdict on the man who painted this particular parting. What Boccioni himself put on this canvas is not a politics; it is a feeling, the oldest human one there is, of watching someone you love be carried away.
+      </p>
+    </article>
+  )
+}
+
+function FarAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="Straight to the man who started it all" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the painting&rsquo;s life as an object, its <strong>provenance</strong> &mdash; meaning the documented chain of who has owned a work, from the artist&rsquo;s hand to wherever it hangs now. The MoMA <em>Farewells</em> has a short, clean one, and it begins with the most fitting owner imaginable. The three panels went straight from Boccioni to <strong>Filippo Tommaso Marinetti</strong>, the poet who had invented Futurism in the first place; the museum records him owning them from at least 1912. The founder of the movement owned the movement&rsquo;s masterpiece of feeling, acquired directly from the painter. No price is recorded, and we will not invent one.
+      </p>
+      <p style={proseStyle}>
+        After Marinetti died in 1944, the triptych passed to his widow, <strong>Benedetta Cappa Marinetti</strong>, a Futurist painter in her own right, who held it until she sold it on in <strong>1949</strong>. The buyer was the American collector and politician <strong>Nelson A. Rockefeller</strong> (1908&ndash;1979), who had a deep appetite for modern art and the fortune to indulge it; he acquired the panels in October 1949 and kept them in his New York collection for the next three decades.
+      </p>
+
+      <SectionHeader accent={accent} label="MoMA · 1979" title="The gift, and the panel left in Milan" />
+      <p style={proseStyle}>
+        In <strong>1979</strong>, the panels entered the <strong>Museum of Modern Art</strong> in New York as the <strong>Gift of Nelson A. Rockefeller</strong> (accession number 64.1979), where the three of them hang together to this day, the embrace and those who go and those who stay, reunited on one wall. It is a tidy ending for a set of pictures about being parted: the triptych, at least, never has to say goodbye to itself.
+      </p>
+      <p style={proseStyle}>
+        Except, of course, for its twin. Remember that there are two of everything here. While the second, Cubist version made its way to New York, the <strong>first</strong>, Divisionist version &mdash; the hazy pre-Paris original &mdash; stayed behind <strong>in Milan</strong>, where it remains. So the two <em>States of Mind</em> triptychs are themselves parted across an ocean, the before and the after of a single year in a young painter&rsquo;s life, hanging in two cities that never see each other. Boccioni painted a picture about separation, twice, and the two pictures ended up separated. He would, one suspects, have appreciated the symmetry.
+      </p>
+      <p style={proseStyle}>
+        And there is the harder grace note under it. Boccioni was dead by 1916, at thirty-three, with most of his career still ahead of him. The painter who wanted, above all, to put pure motion onto a still canvas was stopped almost before he had started, and yet this small, swirling goodbye outlived him by more than a century, still spinning, still holding its one cold number perfectly still at the center of all that motion. It turns out you can paint a feeling after all. He proved it, and then he was carried away himself, on the very kind of machine he had spent his short life trying to make beautiful.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  farewells: { station: FarStation, paris: FarParis, looking: FarLooking, futurism: FarFuturism, afterlife: FarAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Abstract Speed + Sound (Balla, 1913–14) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function AbsDog({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Rome · 1912" title="From the dog to nothing you can name" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>1912</strong>, Giacomo Balla painted a dog. Not a noble dog, not a hunting dog &mdash; a <strong>dachshund</strong>, a little long-bodied sausage of a dog, trotting along on a leash beside its owner&rsquo;s feet. He called it <em>Dynamism of a Dog on a Leash</em> (<em>Dinamismo di un cane al guinzaglio</em>; it hangs today in the <strong>Buffalo AKG Art Museum</strong> in New York State). And it is one of the clearest pictures ever made of what it means to paint <em>motion</em>. The dog&rsquo;s four little legs are blurred into a fan of repeated legs, the swinging chain of the leash is multiplied into a smear of arcs, the owner&rsquo;s skittering feet are doubled and tripled. Balla had been looking hard at <strong>Étienne-Jules Marey</strong>, a French scientist who in the 1880s photographed animals and people in motion by catching many phases of one movement on a single plate &mdash; <strong>chronophotography</strong>, the ancestor of the flip-book and the film strip. The dog is Balla doing in oil paint what Marey did with a camera: showing a moving thing as all its positions at once.
+      </p>
+      <p style={proseStyle}>
+        Here is the thing to hold onto, because the whole story of the painting we are about to look at is in the gap. The dog is a picture of <em>a thing in motion</em>. You can still see the thing. It is recognizably a dachshund; you could pick it out of a line-up. Within roughly a year, Balla does something that sounds small and is in fact enormous: he keeps the motion and throws away the thing. By <strong>1913&ndash;14</strong> the dog is gone, the leash is gone, the feet are gone. The car is gone too, as we will see, which is a problem, because the picture is about a car. What is left is the motion itself, lifted clean off any object &mdash; pure forces, pure lines, pure planes. That arrival point is the painting in front of us, <em>Abstract Speed + Sound</em>.
+      </p>
+      <p style={proseStyle}>
+        Balla was, at this point, the eldest of the Futurist painters. <strong>Futurism</strong> was the Italian art movement launched in 1909 that worshipped the modern machine age &mdash; the car, the tram, the electric light, the racing crowd &mdash; and demanded that painting stop showing gods and goddesses and start showing speed. (We will come to the uglier half of what else it demanded.) Balla had signed its painting manifestos in 1910 alongside younger men like <strong>Umberto Boccioni</strong> and <strong>Gino Severini</strong>. He was past forty, the patient one, the one who taught the others as much as he learned. And he was the one who took the movement&rsquo;s slogan &mdash; paint speed &mdash; further toward its logical end than anyone else. The dog was a long stride in that direction. <em>Abstract Speed + Sound</em> is where he runs out of road and keeps going anyway.
+      </p>
+    </article>
+  )
+}
+
+function AbsMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making" title="A car implied, never shown" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        o here is the subject of the painting, stated plainly: <strong>a car, speeding along a road.</strong> An automobile in 1913 was still a loud, expensive, slightly dangerous novelty, the exact emblem of everything Futurism loved &mdash; new, fast, mechanical, a little reckless. Balla wanted to paint one going fast. And then he did the thing that makes the picture what it is. <strong>He did not paint the car.</strong>
+      </p>
+      <p style={proseStyle}>
+        Think about how strange that is. If I ask you to paint a fast car, you paint a car, and then you add some speed-lines behind it, the way a comic strip does, little marks trailing off the bumper to say <em>this is moving</em>. That is painting the thing and labeling it fast. Balla did the opposite. He kept the speed-lines and deleted the car. What he painted instead was <strong>everything the car disturbs</strong>: the white road it tears down, the green earth it races across, the blue sky it sweeps through, and the buzzing trail of noise it drags behind it. The car is present in the picture the way a stone is present in a pond ten seconds after it sank &mdash; not as the stone, but as the rings still spreading on the water.
+      </p>
+      <p style={proseStyle}>
+        It helps to think of it as the difference between a <strong>photograph of a runner</strong> and a <strong>recording of footsteps in an empty hallway</strong>. The photograph shows you the runner; you know exactly what made the motion. The recording gives you only the consequence, the sound left in the air, and your mind builds the runner backward from the evidence. Balla&rsquo;s picture is the second kind. The forces are all there &mdash; the trajectory, the wind, the disturbed ground &mdash; and the object that caused them has stepped out of the frame. You assemble the car yourself, out of its own wake.
+      </p>
+      <p style={proseStyle}>
+        And then there is the second word in the title, the one people skip: <strong>Sound</strong> (<em>rumore</em>, Italian for &ldquo;noise&rdquo;). The <strong>+ Sound</strong> is not decoration. Balla genuinely tried to <em>paint the noise the car makes</em> &mdash; the roar and rattle of an early engine &mdash; by laying a buzzing <strong>crisscross of lines</strong> over the speed-forms, a kind of visual static, like the texture of a sound rather than its picture. This was a very Futurist ambition. The movement wanted a painting to deliver <em>all</em> the sensations of a modern moment at once &mdash; the speed and the noise and even the smell of it &mdash; fused into one image, the way the moment itself hits you all at once on a real street. (Around the same time, the Futurist painter Luigi Russolo took this idea out of paint entirely and began building noise-instruments to compose music out of engine-roar and factory-clatter.) So the title is doing exactly what it says: <em>velocità astratta + rumore</em>, abstract speed plus noise. Two things you cannot normally see, both made visible, in a picture with no car in it.
+      </p>
+    </article>
+  )
+}
+
+function AbsLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A small board, about a foot and a half by two and a half feet" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting is <strong>small</strong> &mdash; about <strong>a foot and a half tall by two and a half feet wide</strong>, roughly the size of a large drawing board you might prop on your knees. It is painted in oil, not on canvas but on <strong>millboard</strong> (a stiff, heavy paperboard), and it is <strong>landscape orientation</strong>, wider than it is tall, which matters: a road runs sideways, and so does this picture. This is not a wall-sized declaration. It is a hand-sized one, and most of its force is packed into how the marks are laid down rather than into any grand scale.
+      </p>
+      <p style={proseStyle}>
+        Now the hard part: <strong>there is no car.</strong> You are going to look at a picture called <em>Abstract Speed + Sound</em>, about an automobile, and you will not find an automobile. So we have to learn to read it the way Balla built it &mdash; from the wake backward. Let your eye settle, and we&rsquo;ll find the speed and the noise one piece at a time.
+      </p>
+
+      <SectionHeader accent={accent} label="Earth and sky" title="Green below, blue swept above" />
+      <p style={proseStyle}>
+        Start with the two big color zones, because they are the only steady ground you get. Low across the picture runs a <strong>band of green</strong>. That green is the <strong>earth</strong> &mdash; not a field, not a meadow, no grass or furrow you could name, just the single fact of <em>land</em>, reduced to its color. Above it, the <strong>blue</strong> is the <strong>sky</strong>. These are the same two landscape colors that, as we&rsquo;ll see, run unbroken across all three panels of the larger work: green for ground, blue for air. But look at what the blue is <em>doing</em>. It does not lie flat like a real horizon. It bends. It curves into <strong>arcs</strong>, as if the sky itself has been grabbed and dragged into sweeping curves by something rushing through it. That is your first piece of the car: the air is bent. Something fast went through here and pulled the atmosphere out of shape behind it.
+      </p>
+
+      <SectionHeader accent={accent} label="The road" title="The white channel, and the lines of force" />
+      <p style={proseStyle}>
+        Now find the <strong>white</strong>. A pale channel cuts diagonally through the composition, and that is the <strong>road</strong> &mdash; the road the car you cannot see is traveling. (The road runs sideways across this landscape-format board, but Balla paints the channel itself as a diagonal slash, so the eye reads both at once: a sideways route, raked on a slant.) Laid along and around it are long, hard, <strong>directional strokes</strong>, all leaning the same way, all pointing down the road&rsquo;s line. Balla called these the <strong>lines of force</strong> &mdash; his term for the trajectory of speed itself, the path the motion takes drawn as a thing you can see. This is the most important move in the picture, so let it land: those strokes <em>are the car</em>. Not a picture of the car &mdash; the car&rsquo;s motion, made into marks. Follow the lines of force with your eye and you are physically tracing the route of the automobile, because the route is all that&rsquo;s left of it.
+      </p>
+
+      <SectionHeader accent={accent} label="The thrust" title="Why your eye gets pushed down the road" />
+      <p style={proseStyle}>
+        Pull back and notice that <strong>almost everything in the picture leans the same direction.</strong> The lines lean; the planes &mdash; the flat shape-facets the forms break into &mdash; lean; the arcs of sky curve the same way the road runs. And here is the trick of it &mdash; it is a trick about repetition. One tilted line is just a tilted line. But Balla multiplies them, dozens of marks all raked the same way, and the repetition does something to your eye that a single mark never could: it <em>shoves</em> the gaze along, faster and faster, the way a row of evenly spaced posts seen from a moving train seems to accelerate. The museum&rsquo;s own description of what sets this central panel apart from its neighbors is exactly this, &ldquo;the multiplication of the number of lines and planes.&rdquo; More repetitions, more velocity. You are not being shown speed; you are being made to feel it, because your eye cannot rest and keeps getting flung forward.
+      </p>
+
+      <SectionHeader accent={accent} label="The noise" title="The crisscross that is the “+ Sound”" />
+      <p style={proseStyle}>
+        Now look for where the lines stop agreeing with each other. Look for the marks that <em>cross</em> the speed-lines rather than running with them &mdash; a <strong>buzzing crisscross</strong> lattice, densest across the busiest stretch of the board where the forms pile up thickest. That crisscross is the <strong>noise</strong> &mdash; the &ldquo;+ Sound&rdquo; of the title, the roar of the engine made visible. It works precisely because it cuts against the grain: the speed-lines all flow one way, smooth, fast, and then this gridded buzz interrupts them, the way a loud noise interrupts a smooth motion in real life. You read it as <em>texture</em> rather than as picture, a kind of visual hum laid over the rush. The speed is in the strokes that flow; the sound is in the strokes that snag.
+      </p>
+
+      <SectionHeader accent={accent} label="The frame" title="The picture that runs off its own edge" />
+      <p style={proseStyle}>
+        Last, do the thing nobody does: <strong>look at the frame.</strong> We are trained to treat a frame as the wall the painting lives behind, a neutral border, furniture. This one is not furniture. Balla <strong>painted his own frame</strong>, continuing the picture&rsquo;s forms and colors right out onto it, so the green and the lines and the thrust do not stop at the canvas edge &mdash; they spill over onto the border and keep going. The museum describes the effect as implying &ldquo;the overflow of the painting&rsquo;s reality into the spectator&rsquo;s own space.&rdquo; Think about why that is the perfect ending for <em>this</em> picture. Everything in it is about motion that will not be contained &mdash; speed, the car that won&rsquo;t hold still long enough to be drawn, sound leaking everywhere. So the painting refuses to be contained either. It climbs out of its frame and into your room.
+      </p>
+      <p style={proseStyle}>
+        Pull all the way back now and take it in as one thing. No car, and yet a car &mdash; assembled out of the bent sky, the white road, the raking lines of force, the buzzing noise, the thrust that pushes your eye down the road and off the frame. This is the proof that the picture is <strong>pure abstraction</strong> and not a stylized drawing of an object: Balla painted the <em>event</em> &mdash; a fast loud thing passing &mdash; without painting the thing at all. You read the speed and you hear the noise, and there is nothing there to make either one except the marks.
+      </p>
+    </article>
+  )
+}
+
+function AbsTriptych({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="One landscape, three panels" title="The middle of a picture that runs off its own frame" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is a fact that changes how you see everything we just looked at, and it comes with a warning attached. By the <strong>leading scholarly reconstruction</strong>, this is not a standalone picture at all. It is the <strong>central panel of a three-part work</strong> &mdash; a <strong>triptych</strong> (a picture made of three panels meant to be read together, a format that goes back to medieval altarpieces). The three panels show <em>one continuous landscape</em> &mdash; the same green earth, the same blue sky, the same white road &mdash; with a car passing through all three. This middle panel is the stretch where the multiplied lines and planes pile up thickest, which is exactly why it reads as the most intense of the three.
+      </p>
+      <p style={proseStyle}>
+        Now the warning. <strong>The triptych reading is proposed, not proven.</strong> The Peggy Guggenheim itself hedges carefully: it says the three-panel arrangement &ldquo;has been proposed&rdquo; and that this work &ldquo;may have been&rdquo; the central section. The titles wobble too. This panel is usually called <em>Abstract Speed + Sound</em>, but the Tate&rsquo;s catalogue calls <strong>this same central panel</strong> <em>Lines of Force + Noise</em>, and the various panels get named differently from source to source. The whereabouts of the left-hand panel are not firmly documented. So treat the triptych the way you should treat any elegant reconstruction of something a century old &mdash; as the best current account, told by careful people, not as a fact carved in stone.
+      </p>
+      <p style={proseStyle}>
+        What <em>is</em> solid is the right-hand panel, and it is worth knowing about. It is called <strong><em>Abstract Speed &mdash; The Car has Passed</em></strong> (<em>Velocità astratta &mdash; l&rsquo;auto è passata</em>), and it hangs in the <strong>Tate</strong> in London. The title alone tells you how the sequence reads: the car has <em>passed</em>, it is already gone, and on that panel the Tate notes <strong>pinkish areas that suggest the exhaust fumes</strong> the vanished car left hanging in the air. Read the three together and you get a little narrative of an automobile crossing a landscape &mdash; the car coming, the car at full pitch, the car gone but for its fumes &mdash; told entirely without ever drawing the car. The wake on the left, the roar in the middle, the smell on the right.
+      </p>
+      <p style={proseStyle}>
+        And this is where the painted frame, the thing we ended the last chapter on, stops being a clever flourish and becomes the structural idea of the whole work. <strong>Balla painted the frames of the panels too</strong>, carrying the forms and colors out across the borders, so that the landscape does not break at each frame edge but flows on &mdash; panel to frame to next panel &mdash; one unbroken sweep of speed across all three. The frames, which would normally <em>divide</em> three pictures, instead <em>connect</em> them. The most distinctive feature of the single panel turns out to be the engineering of the whole.
+      </p>
+      <p style={proseStyle}>
+        (One more thing to keep straight, because it is a genuine trap. Balla painted a <em>whole group</em> of these abstract-speed pictures in 1913&ndash;14, not one canvas, and the <strong>Philadelphia Museum of Art</strong> owns a different <em>Velocità astratta + rumore</em> from the same years &mdash; a related work, not this one. They are cousins, not the same painting. The one we are reading is the Venice panel.)
+      </p>
+    </article>
+  )
+}
+
+function AbsAbstraction({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="After" title="Among the first, not the first" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        o how big a deal is this picture? Big, and it pays to be exact about why, because the easy claim is the wrong one. Balla is the Futurist who went furthest toward <strong>pure abstraction</strong> earliest, and these 1913&ndash;14 speed pictures are <strong>among the first fully abstract works in Italian painting</strong> &mdash; works with no recognizable object in them at all, built entirely from line, color and force. That is a real distinction and worth saying clearly.
+      </p>
+      <p style={proseStyle}>
+        What it is <em>not</em> is &ldquo;the first abstract painting.&rdquo; You will see that claim made, for this picture and for a dozen others, and it is always too neat. <strong>Abstraction did not have one inventor; it arrived in several places at nearly the same moment.</strong> In Munich, <strong>Wassily Kandinsky</strong> was pushing toward paintings of pure color and shape around 1910&ndash;13. In Paris, <strong>František Kupka</strong> and <strong>Robert Delaunay</strong> were doing their own versions of the same leap in the same years. (A generation of later artists &mdash; Malevich and others &mdash; would carry it further still.) Abstraction was less a single door someone opened than a tide that came in along the whole European coast at once. Balla&rsquo;s speed pictures are one of the earliest waves, the Italian one, the one driven by the worship of the machine rather than by Kandinsky&rsquo;s spiritual searching. When New York&rsquo;s Museum of Modern Art mounted its great 2012 survey <em>Inventing Abstraction</em>, mapping all these simultaneous origins, <em>this very work</em> was in it &mdash; as one of many beginnings, which is the honest place to put it.
+      </p>
+      <p style={proseStyle}>
+        There is a harder half of the story that this picture cannot quite leave behind, and it would be dishonest to end on the pure beauty of the speed-lines without it. Futurism was not only an art movement; it was an ideology, and a violent one. Its founder, the poet <strong>Filippo Tommaso Marinetti</strong>, launched it in 1909 with a manifesto that did not just celebrate speed and the machine &mdash; it <strong>glorified war as the world&rsquo;s only hygiene</strong>, exalted danger and aggression, and sneered at museums as graveyards. That cult of speed-and-violence did not stay on the page. The Futurists campaigned for Italy to enter the First World War, and several of them died in it. And Marinetti himself went on, a decade later, to <strong>help write the 1919 founding manifesto of Italian Fascism</strong> (with the syndicalist Alceste De Ambris, for Mussolini&rsquo;s new movement). The thrill of the racing car in Balla&rsquo;s picture &mdash; the worship of pure forward motion, the impatience with everything old and slow and human &mdash; runs out of the same engine that powered all of that. The beauty is real. So is what it was harnessed to.
+      </p>
+      <p style={proseStyle}>
+        The painting itself, mercifully, can be allowed to be itself. It hangs now in the <strong>Peggy Guggenheim Collection</strong> in Venice &mdash; the modern-art museum the American collector Peggy Guggenheim built in her palazzo on the Grand Canal &mdash; a small board, about a foot and a half by two and a half feet, with its painted frame intact, on view. Stand in front of it and the politics fall away for a moment and you are left with the original astonishment: a man in 1913 looked at a noise and a speed, two things you cannot see, and found a way to make you see them both, in a picture of a car with no car in it, that refuses to stop at its own edge.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'abstract-speed': { dog: AbsDog, making: AbsMaking, looking: AbsLooking, triptych: AbsTriptych, abstraction: AbsAbstraction },
+
+// ─────────────────────────────────────────────────────────────
+// Dynamic Hieroglyphic of the Bal Tabarin (Severini, 1912) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function BalParis({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · November 1906" title="The one Futurist who lived in Paris" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        uturism &mdash; the loud, fast, machine-mad Italian art movement &mdash; was Italian. Its painters lived in Milan and Rome and Turin. Its founder banged the drum from Italy. And the one Futurist who painted the picture in front of you was living, the entire time, in <strong>Paris</strong>. His name was <strong>Gino Severini</strong> (1883&ndash;1966; pronounced &ldquo;JEE-no seh-veh-REE-nee&rdquo;), he was born in the Tuscan hill town of Cortona, and in <strong>November 1906</strong>, at twenty-three, he packed up and moved to France. He once said the two cities he felt most bound to were Cortona and Paris, and that he was born physically in the first and intellectually and spiritually in the second. Take him at his word, because it was Paris, not Italy, that taught his hand what to do.
+      </p>
+      <p style={proseStyle}>
+        Understand what he walked into. Paris in 1906 was the laboratory where modern painting was being invented, week by week, in a few cheap studios on the hill of <strong>Montmartre</strong>. Within a couple of years Severini knew, and drank with, more or less everyone who mattered: <strong>Pablo Picasso</strong> and <strong>Georges Braque</strong>, the two young men who were taking the visible world apart and rebuilding it as faceted planes in the style soon called <strong>Cubism</strong>; the poet and critic <strong>Guillaume Apollinaire</strong>, the movement&rsquo;s loudest cheerleader; the painter <strong>Amedeo Modigliani</strong>. He had a studio in the same building cluster as Braque and the painter Suzanne Valadon. He was, in other words, a Parisian insider years before the Italian movement he would join even existed.
+      </p>
+      <p style={proseStyle}>
+        Then the movement found him. In <strong>February 1910</strong> Severini co-signed the <em>Manifesto of the Futurist Painters</em>, and that April the <em>Technical Manifesto of Futurist Painting</em> (a manifesto being a public declaration in which a movement announces its program and picks its fights; Futurism announced itself in print before it had any paintings to show). He signed alongside four men working back in Italy: <strong>Giacomo Balla</strong> (who had been his teacher), <strong>Umberto Boccioni</strong>, <strong>Carlo Carr&agrave;</strong> and <strong>Luigi Russolo</strong>. Futurism wanted to paint the modern world&rsquo;s <strong>speed and energy</strong>: motorcars, electric light, the crowd, the machine, the city in motion. Its founder, the poet <strong>Filippo Tommaso Marinetti</strong>, had launched it in 1909 with a manifesto that didn&rsquo;t just love the racing car. It glorified war as &ldquo;the world&rsquo;s only hygiene,&rdquo; sneered at museums as graveyards, and, in the same breath, professed &ldquo;scorn for woman.&rdquo; Hold those two things together, because they led somewhere dark and they bear on this very painting. The friendliest, most sequinned thing the movement ever made is a glittering picture of women, painted by a member of a movement whose founding text held women in contempt. We&rsquo;ll come back to where that worship of violence led, because Severini went part of the way down the road himself.
+      </p>
+
+      <SectionHeader accent={accent} label="The bridge" title="He chose the dancer over the machine" />
+      <p style={proseStyle}>
+        Severini&rsquo;s peculiar position, an Italian Futurist living among the French Cubists, made him the single most important <strong>bridge</strong> between the two movements, and the painting in front of you is what that bridge looks like in oil. Futurism supplied the <em>ambition</em>: paint motion, paint energy, dissolve the solid world into force. But it was Cubism, watched up close in Paris, that handed Severini the <em>grammar</em> to do it, the faceting that shatters a form into planes, and one trick in particular that you will see all over this canvas: <strong>collaging real words and letters into the picture</strong>, a device Picasso and Braque had just started using. In 1911 Severini helped bring his Italian colleagues to Paris to see Cubism for themselves. He was the connector.
+      </p>
+      <p style={proseStyle}>
+        And here is where he split from the rest of them. Boccioni and the Italians loved the <strong>machine</strong>, the engine, the girder, the speeding car, hard metal in motion. Severini, living in the city of cabarets, loved something softer and just as fast: the <strong>dancer</strong>. The body in a crowd, light breaking on a spinning gown, the blur of a quadrille, this was his way of painting energy, and it is a far warmer way than a steel chassis. So while his friends were painting factories rising and trains charging, Severini went, in his memory, back to a Paris dance hall. He went back to the Bal Tabarin.
+      </p>
+    </article>
+  )
+}
+
+function BalHall({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Pigalle, not quite Montmartre" title="A dance hall at the foot of the hill" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he <strong>Bal Tabarin</strong> was a real place, and you could have walked into it. It sat at <strong>36 rue Victor-Mass&eacute;</strong>, in the district called <strong>Pigalle</strong> (pronounced &ldquo;pee-GAL&rdquo;), at the foot of the Montmartre hill rather than up on it. People loosely say &ldquo;Montmartre,&rdquo; and the spirit is right (this is the cheap, raffish, painters-and-pleasure quarter on the city&rsquo;s northern edge), but the hall itself stood just below the hill, in Pigalle proper. Worth being precise, since the address is the point: this is the nightlife belt, the strip of cabarets and dance halls where Paris went after dark. A <strong>bal</strong>, in this period, simply meant a public dance hall, a room you paid to enter and dance in, with a band and a bar and, at the fancy ones, a floor show.
+      </p>
+      <p style={proseStyle}>
+        It opened on <strong>20 December 1904</strong>, run by a composer and bandleader named <strong>Auguste Bosc</strong>, and it was an instant hit. Costume balls. Floor shows. Electric light, which in 1904 was still novel enough to be a draw in itself. And dancing, of every kind the era did: the waltz, the polka, and the high-kicking, skirt-flinging <strong>cancan</strong>, the riotous chorus-line dance that was Montmartre&rsquo;s signature export and that the Bal Tabarin took on more fully after the nearby Moulin Rouge burned down in 1915. This was a loud, bright, slightly disreputable, thoroughly modern room, exactly the kind of place a young painter in love with motion and light would haunt. The hall ran until <strong>1953</strong>, when the owners of the nearby Moulin Rouge bought it and shut it down; the building was pulled down after a final gala in <strong>1963</strong>. By then it was the painting, not the building, that kept the name alive.
+      </p>
+
+      <SectionHeader accent={accent} label="Method" title="He is not painting it from a chair in the room" />
+      <p style={proseStyle}>
+        Now the move that makes this a Futurist painting and not a postcard. Severini did <strong>not</strong> set up an easel at the Bal Tabarin and paint what he saw. He painted what he <em>remembered</em>, the whole sensation of a night there, recalled and reassembled in the studio. A snapshot of a dance hall would freeze the dancers at a single beat. Severini wanted the opposite: the spin <em>and</em> the music <em>and</em> the lights <em>and</em> the drink <em>and</em> the odd thing you half-saw across the room, all of it, all at once. The picture is not a record of one instant. It is a record of an experience that happened over an evening, compressed into one image.
+      </p>
+      <p style={proseStyle}>
+        He had philosophy on his side for this. The ideas of the French thinker <strong>Henri Bergson</strong> (1859&ndash;1941) were everywhere in Severini&rsquo;s Paris circle. Bergson argued that real lived time isn&rsquo;t a row of separate frozen instants but a continuous, flowing <strong>duration</strong> that memory holds all together, the past bleeding into the present. You don&rsquo;t experience a dance as a series of stills; you experience it as one swimming whole, and your memory of it later is even more fused than that. Severini set out to paint exactly that fused whole. Which is why, instead of a tidy scene, you are about to get a controlled explosion.
+      </p>
+    </article>
+  )
+}
+
+function BalLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Roughly five feet square" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it first and just take the size and shape. It is big, about <strong>five feet three inches tall by five feet one and a half inches wide</strong>, so call it a five-foot square, very slightly taller than it is wide. Square is the right shape for this picture, because a square has no built-in direction. A wide canvas wants to be read left to right, like a sentence; a tall one wants to be read top to bottom. A square just sits there and spins, and that is what this one does. There is no obvious place to start, no line to follow to the end. Your eye is dropped into the middle of a whirl and left to find its own way out. That disorientation is not a flaw. It is the subject.
+      </p>
+      <p style={proseStyle}>
+        Now let your eye land where the picture wants it to: dead center, on the <strong>two dancing women</strong>. They are the one piece of the canvas that holds still enough to read. Two figures, mid-whirl, one with pale blond curls a little to the left, one with darker hair a little to the right, locked together in a swirling <strong>flounced dress</strong>, pink and purple, mostly, though the sources squabble over whether there&rsquo;s white and blue in there too, and frankly the squabble is the right response to a dress painted in motion. These two are the still-turning hub. Everything else in the picture is the energy thrown off them, flung out to the corners like water off a spun umbrella. Those flung diagonals are the cancan&rsquo;s own move, the high kick and the whipped skirt, broken loose from any one pair of legs and thrown across the whole canvas.
+      </p>
+
+      <SectionHeader accent={accent} label="The shimmer is real" title="He didn't paint the spangles. He glued them on." />
+      <p style={proseStyle}>
+        Lean in on that dress, because this is the thing about the painting nobody warns you about and everybody remembers. Running over the gown in <strong>looping lines</strong> are small bright discs that flash and shift as you move your head, and they are not painted. They are <strong>actual sequins</strong>, real reflective spangles, fixed into the paint while it was wet. The official medium line of the work is, word for word, <em>oil on canvas with sequins</em>, and that &ldquo;with sequins&rdquo; is doing enormous work. Severini didn&rsquo;t want to <em>depict</em> the glitter of a dance-hall gown under electric light. He wanted the glitter itself, the literal bouncing of real light off real metal, on the wall of the gallery, in your eyes, a hundred years later.
+      </p>
+      <p style={proseStyle}>
+        Think of how strange and how right that is. A painting is normally a flat surface pretending to be a deep world, pretending the light in it is real. Severini cut out the pretending. He made part of the light real. It is the difference between a photograph of a disco ball and a disco ball, and once you know the sequins are physically there, the whole picture changes: it stops being a picture of a glamorous night and becomes, in one small region, a piece of the glamour itself. The medium is the subject. That is about as Futurist as a quiet idea can get: the energy isn&rsquo;t represented, it&rsquo;s delivered.
+      </p>
+
+      <SectionHeader accent={accent} label="The words" title="VALSE and POLKA, floating in the spin" />
+      <p style={proseStyle}>
+        Now hunt for letters, because they&rsquo;re in here. Scattered through the swirl, painted right into the picture, are <strong>words</strong>, the trick Severini took from Picasso and Braque, who had recently started gluing and stenciling real type into their Cubist canvases. The two you can actually read are <strong>VALSE</strong> (French for waltz) and <strong>POLKA</strong>, toward the lower right. Two dances, named on the canvas. And think about what that does: a painting can show you motion, but it cannot make a sound, and a dance is half music. By writing the names of the dances into the spin, Severini smuggles the <em>music</em> into a silent medium. You see VALSE, and somewhere behind your eyes a three-beat rhythm starts up. The picture becomes a kind of score for a night you weren&rsquo;t at. (Read only those two. There&rsquo;s a temptation to find more words in the chaos, but VALSE and POLKA are the ones that are really there.)
+      </p>
+
+      <SectionHeader accent={accent} label="The strange detail" title="The nude on the scissors, and the rest of the odd cast" />
+      <p style={proseStyle}>
+        Here is where the painting gets genuinely weird, and you have to go looking for it. High up in the <strong>upper jumble</strong>, much smaller and much more carefully, realistically drawn than anything around it, is a <strong>nude woman astride an open pair of scissors</strong>, riding them like a child on a hobbyhorse. No, that is not a typo, and no, it is not a goose or a swan, whatever you may have read; it is a small realistic nude sitting on an open pair of scissors, dropped into the abstraction like a single sharp photograph pasted into a smear of paint. What is it doing there? Nobody is certain, and the useful way to read it is the way you&rsquo;d read the whole night: a cabaret turn, a costume-ball gag, a flash of nonsense remembered through several drinks. It is the jolt of the plainly figurative inside the swirl, and it&rsquo;s the detail that tells you this is a remembered night and not a designed pattern.
+      </p>
+      <p style={proseStyle}>
+        It&rsquo;s worth remembering what kind of room this was. A commercial dance hall lived by its floor shows, the high-kicking cancan, the costume turns, and those shows put women on display for a paying crowd that was largely men. Severini paints the dancers and the nude with real delight, but they belong to that older convention of woman-as-spectacle, the body staged as entertainment, and the painting takes the convention as a given rather than questioning it.
+      </p>
+      <p style={proseStyle}>
+        Once your eye is tuned to find the odd things, the rest of the cast surfaces. Strung across the top of the canvas are <strong>national flags and streamers</strong>, festive bunting of the kind a hall hangs up for a party. Lower down: a small <strong>North-African man riding a camel</strong>, a <strong>black cat&rsquo;s head</strong>, and the slim stems of <strong>martini glasses</strong>, the night&rsquo;s drink. The cat and the glasses are plainly the night&rsquo;s nonsense, separate sights from across one evening shuffled together like a deck of snapshots and dealt face-up at once. But the flags, and the camel-rider with them, let the world outside the hall leak in. 1912 fell in the middle of Italy&rsquo;s colonial war against the Ottomans in North Africa, and Severini was a committed Italian nationalist, so scholars often read the man on the camel as a topical glance at that war rather than a pure cabaret gag. The picture isn&rsquo;t only a happy blur; some of the era&rsquo;s nationalism drifts through it too. (Some scholars also read the man in the <strong>straw hat at lower right</strong> as Severini himself, sneaking into his own memory. Treat that as a clever guess, not a settled fact; the canvas doesn&rsquo;t sign it.)
+      </p>
+
+      <SectionHeader accent={accent} label="The lights" title="A glare broken into a thousand pieces" />
+      <p style={proseStyle}>
+        Pull back one last time and look at the whole upper half, where the picture turns into a storm of <strong>bright, splintered facets</strong>. This is the hall&rsquo;s electric lighting, but Severini refuses to give you a single lamp or a named chandelier to fix on. Instead the glare is shattered, broken into shards that ricochet off mirrors and glasses and spangles and spread across the whole top of the canvas, so the light feels less like a thing in the room and more like a condition of the room, a brilliance you&rsquo;re inside of. And here is the closing trick, the one that ties the looking together: because the sequins down in the dress are <em>real</em>, part of all this light is not painted at all. It is the gallery&rsquo;s own light, bouncing off the canvas and back at you. Severini built a painting of dazzle that actually dazzles. You don&rsquo;t just see the night&rsquo;s light. A little of it is genuinely in your eyes.
+      </p>
+    </article>
+  )
+}
+
+function BalSimultaneity({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The Futurist idea" title="Many moments at once" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        here&rsquo;s a word for what you were just looking at: <strong>simultaneity</strong>. It was Futurism&rsquo;s favorite idea, and it is the key that unlocks why this picture doesn&rsquo;t behave like an ordinary one. Most paintings show you a single instant, a frozen second, a window onto one moment of one place. Simultaneity threw that out. The Futurists wanted to pack <em>many</em> moments, and many viewpoints, of the same subject into one canvas at the same time, the dancer as she was a beat ago and a beat from now and right now, all overlaid, plus the lights and the music and the crowd, all happening together. A night, not a second.
+      </p>
+      <p style={proseStyle}>
+        The tool they used to organize that flood was something they called <strong>lines of force</strong>, the idea that every object throws off invisible lines of energy and movement, and that a painting should show those lines rather than the still, solid object. Look back at the canvas with that in mind and the diagonal shards stop looking like random debris. They are the dancers&rsquo; motion drawn out into the air, the spin made visible as streaks of energy radiating from the center. Severini isn&rsquo;t painting where the dancers <em>are</em>. He&rsquo;s painting where their movement is going. It is the difference between a photograph of a sparkler and a long-exposure photograph of a sparkler, where you see the whole loop the light traced. He gives you the loop.
+      </p>
+
+      <SectionHeader accent={accent} label="The name" title="Why he called it a hieroglyph" />
+      <p style={proseStyle}>
+        Which brings us, finally, to the strange word in the title: <em>Dynamic <strong>Hieroglyphic</strong> of the Bal Tabarin</em>. That word is Severini&rsquo;s own, not a museum&rsquo;s later label, and it is exactly chosen. A <strong>hieroglyph</strong> is a single picture-sign that stands for a whole word or idea, one compact symbol that stores a great deal of meaning, the way ancient Egyptian writing packed a concept into one carved image. Severini is telling you what his painting <em>is</em>: not a scene of the Bal Tabarin but a single dense <strong>sign</strong> that encodes the entire sensation of a night there. Dynamic, because it&rsquo;s in motion. Hieroglyphic, because it&rsquo;s one packed symbol, not a description. He has compressed an evening into a glyph and handed it to you to decode, which, looking at it, is precisely what you find yourself doing.
+      </p>
+      <p style={proseStyle}>
+        And this is where the two halves of Severini meet: Cubism gave him the means, Futurism the goal. Boccioni used the same toolkit to paint a city under construction and a man striding through space like a wind-blasted bronze. Severini used it to paint a dance. The remarkable thing is that the dance survived the theory. You can know nothing about Bergson or lines of force or simultaneity and still stand in front of this picture and feel, immediately, the spin and the noise and the glare of a good night out. The ideas built it. The night is what comes off it.
+      </p>
+    </article>
+  )
+}
+
+function BalAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="From Marinetti's hands to a London collection" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the painting&rsquo;s life as an object, its <strong>provenance</strong>, the documented chain of who owned it, from the studio to the wall it hangs on now. It starts where a lot of Futurist things start: with <strong>Filippo Tommaso Marinetti</strong>, the movement&rsquo;s founder and tireless impresario, the man who wrote the 1909 manifesto and ran Futurism like a one-man publicity machine. The canvas was held on <strong>consignment</strong> to Marinetti in <strong>Milan</strong> (meaning he kept it to show and to sell on the artist&rsquo;s behalf, not as his outright property) from 1912 until around <strong>1925</strong>.
+      </p>
+      <p style={proseStyle}>
+        There is a wrinkle worth flagging, because museums are usually too proud to print this kind of thing and MoMA, to its credit, does. Severini himself later told a different early story: that he first sold the painting to the Paris dealer <strong>L&eacute;once Rosenberg</strong>, who then sold it on to its next owner. Severini did sign a contract with Rosenberg, in 1919, so the names aren&rsquo;t invented. But MoMA states plainly that this part of the artist&rsquo;s account <strong>could not be confirmed</strong>. So we do what a careful record does: we follow the documented chain, Marinetti&rsquo;s consignment, and we keep Severini&rsquo;s Rosenberg version where it belongs, as the artist&rsquo;s own unverified recollection. Memory, fittingly for this painting, is not quite the same as the record.
+      </p>
+
+      <SectionHeader accent={accent} label="London · 1935–1948" title="Richard Wyndham, and a sale after a death" />
+      <p style={proseStyle}>
+        By <strong>1935</strong> the painting was in <strong>England</strong>, in the collection of <strong>Richard Wyndham</strong> (1896&ndash;1948), a British painter and collector. It stayed with him until he died in 1948, and then his estate did what estates do: it sold. On <strong>24 November 1948</strong>, the canvas went up at <strong>Sotheby&rsquo;s</strong> in London, and it was there that the <strong>Museum of Modern Art</strong> in New York acquired it. (The hammer price isn&rsquo;t published in MoMA&rsquo;s record, so we won&rsquo;t guess at one.) The museum dates the <strong>accession</strong> to <strong>1949</strong>, the year just after the sale closed, under a credit line you will see on other great MoMA pictures: <em>Acquired through the Lillie P. Bliss Bequest (by exchange)</em>, meaning it was funded not by fresh cash but by trading away or selling other works from a founding donor&rsquo;s gift. Its accession number is <strong>288.1949</strong>, and it has hung in New York ever since.
+      </p>
+
+      <SectionHeader accent={accent} label="The road not taken" title="Futurism's friendliest picture, and the road it didn't take" />
+      <p style={proseStyle}>
+        It is worth ending honestly, because Futurism does not have a clean afterlife and this picture is the gentle face of a movement that turned ugly. Marinetti&rsquo;s founding manifesto had glorified <strong>war</strong> as &ldquo;the world&rsquo;s only hygiene&rdquo; and sang the praises of violence and contempt for the past; the worship of force was baked in from the first sentence. When the First World War came, the Futurists cheered it on, and several of them marched into it. Boccioni, the movement&rsquo;s strongest painter, died in 1916 after a fall from a horse in training. Marinetti himself went further still: in <strong>1919 he helped found</strong> the political movement that became Italian <strong>Fascism</strong>, the authoritarian, violence-celebrating nationalist movement Mussolini would ride to power in 1922. Marinetti co-wrote its first manifesto and tied Futurism&rsquo;s name to Mussolini&rsquo;s. The cult of speed and force found its terrible logical home in politics.
+      </p>
+      <p style={proseStyle}>
+        Severini&rsquo;s own path was milder but not clean. He drifted away from Futurism after the war, swung back toward a calmer, more classical kind of painting, and lived a long, productive, much-honored life; in the 1920s and &rsquo;30s he took official commissions, murals and mosaics, from the Fascist state, as many Italian artists of his generation did. None of that is in the painting on the wall. <em>Dynamic Hieroglyphic of the Bal Tabarin</em> was made in 1912, before the war, before the fascism, by a young man in Paris remembering a good night dancing, and it remains the warmest thing the whole hard-edged movement ever produced. A movement that loved machines and war left, as its friendliest monument, a picture of a dance hall with real sequins in the paint. There are worse epitaphs, and there are far worse paintings to be remembered by.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'bal-tabarin': { paris: BalParis, hall: BalHall, looking: BalLooking, simultaneity: BalSimultaneity, afterlife: BalAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Dynamism of an Automobile (Russolo, 1912–13) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function AutPainter({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Milan · 1910" title="The painter who would become the noise man" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>L</DropCap>
+        uigi Russolo was born into sound. His father was a church organist; two of his older brothers studied at the <strong>Milan Conservatory</strong>, the city&rsquo;s great music school. By every reasonable expectation he should have ended up at a keyboard. Instead he picked up a brush, moved to Milan, and trained as a <strong>painter</strong>. Hold that fact in one hand, because in the other hand we are going to put the thing he is famous for, which is not painting at all, and the gap between the two is the whole story of this picture.
+      </p>
+      <p style={proseStyle}>
+        At the very end of <strong>1909</strong> Russolo fell in with a young painter named <strong>Umberto Boccioni</strong> (pronounced &ldquo;boh-CHOH-nee&rdquo;), who would become the most important Futurist artist of them all, and through Boccioni he joined the founding circle of a brand-new movement. The movement was <strong>Futurism</strong>, and it had been launched the way you launch a product, with an announcement, by a poet named <strong>Filippo Tommaso Marinetti</strong> (&ldquo;ma-ree-NET-tee&rdquo;). In <strong>1910</strong> Russolo put his signature on the two documents that turned Futurism from a poet&rsquo;s press release into a painters&rsquo; program: the <em>Manifesto of the Futurist Painters</em> (February 1910) and the <em>Technical Manifesto of Futurist Painting</em> (1910), signing alongside Boccioni and three others, <strong>Carlo Carr&agrave;, Giacomo Balla, and Gino Severini</strong>.
+      </p>
+      <p style={proseStyle}>
+        One small precision, because the popular books get it wrong. Russolo did <strong>not</strong> sign Marinetti&rsquo;s famous <strong>1909</strong> manifesto, the literary one that launched the whole thing in a Paris newspaper. That was Marinetti&rsquo;s own solo opening shot. Russolo&rsquo;s name is on the <em>painters&rsquo;</em> manifestos of <strong>1910</strong>, a year later. The poet went first and alone; the painters signed up afterward.
+      </p>
+
+      <SectionHeader accent={accent} label="The creed" title="The machine, the city, and above all speed" />
+      <p style={proseStyle}>
+        So what had Russolo signed up for? Futurism was, in plain terms, a movement in love with the modern industrial world and impatient with everything old. It worshipped the machine, the electric-lit city, the factory, the crowd, and <strong>above all speed</strong>. Its painters wanted to do something painting had never quite managed: to show <em>motion happening over time</em>, not a single frozen instant but the whole rushing passage of a thing through space, a dog&rsquo;s legs blurred into a fan, a building site churning, a body smeared into the lines of its own movement.
+      </p>
+      <p style={proseStyle}>
+        This was not a gentle program. The 1909 manifesto did not only celebrate cars and cities; it glorified war as &ldquo;the world&rsquo;s only hygiene&rdquo; and preached &ldquo;scorn for woman,&rdquo; in the same breath as militarism, and rang with a violence that was part of the appeal. Marinetti would go on, after the First World War, to help found the Italian Fascist movement. The art is genuinely thrilling and the worship of force genuinely ugly, both at the same time. For now keep the part that built this painting: the cult of speed, and the conviction that the racing car was the new century&rsquo;s most beautiful object.
+      </p>
+    </article>
+  )
+}
+
+function AutMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The idea" title="A racing car, more beautiful than a goddess" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he most quoted line Futurism ever produced is about a car. In the <em>Manifesto of Futurism</em>, published in French on the front page of the Paris newspaper <em>Le Figaro</em> on <strong>20 February 1909</strong>, Marinetti wrote, in point four:
+      </p>
+      <p style={{ ...proseStyle, margin: '0 0 14px', paddingLeft: 16, borderLeft: `3px solid ${accent}` }}>
+        &ldquo;We affirm that the world&rsquo;s magnificence has been enriched by a new beauty: the beauty of speed. A racing car whose hood is adorned with great pipes, like serpents of explosive breath&mdash;a roaring car that seems to ride on grapeshot&mdash;is more beautiful than the <em>Victory of Samothrace</em>.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        The <strong><em>Victory of Samothrace</em></strong> is one of the most beloved sculptures on Earth, a winged marble goddess from the second century B.C. that stands at the top of a grand staircase in the <strong>Louvre</strong>, the great Paris museum, with her robes blown back as if she had just landed. To say a <em>motorcar</em> was more beautiful than <em>her</em> was a calculated outrage, the kind of sentence engineered to make a respectable reader spit out his coffee. The &ldquo;grapeshot&rdquo; in the quote is clustered iron shot blasted from a cannon, so the car seems to ride on an explosion. (Translators have fought over the exact words ever since, &ldquo;grapeshot&rdquo; or &ldquo;machine-gun fire,&rdquo; &ldquo;Victory&rdquo; or &ldquo;Winged Victory,&rdquo; so the version above is one careful published rendering, not a fact carved in marble.) But the provocation underneath is clear enough: the new age has a new beauty, and it has an engine.
+      </p>
+      <p style={proseStyle}>
+        This painting is Russolo taking that sentence at its word. The Futurist program had declared the racing car the most beautiful thing of the modern age; Russolo set out to <strong>paint the car&rsquo;s beauty, which is its speed</strong>. Not a portrait of a car, the way a coachbuilder might want it, gleaming and parked. The opposite. He wanted the thing you cannot photograph, the roar and the rush, the way a car at full throttle stops being an object and becomes a streak of force tearing a hole in the air.
+      </p>
+
+      <SectionHeader accent={accent} label="The method" title="The force-line, or how to paint a verb" />
+      <p style={proseStyle}>
+        To do it, Russolo reached for the device the Futurist painters had invented for exactly this problem: the <strong>force-line</strong>, in Italian the <em>linea-forza</em>. A force-line is a directional line that carries an object&rsquo;s movement and energy out past the edges of the object itself, into the space all around it, so that the painting shows not a frozen pose but the <em>passage</em> of a thing through space. Boccioni&rsquo;s <em>Technical Manifesto</em> of 1910 had called for putting &ldquo;the spectator in the centre of the picture&rdquo; and rendering &ldquo;universal dynamism&rdquo;, by which they meant: stop painting nouns, start painting verbs. A normal painter draws a car. A Futurist draws <em>driving</em>.
+      </p>
+      <p style={proseStyle}>
+        Picture the difference with a humbler example. If you wanted to paint a thrown stone the ordinary way, you would paint a stone, sitting still, and trust the title to tell us it was thrown. The Futurist way is to paint the whole arc, the streak, the wind it shoves aside, so the throw is on the canvas and the stone is almost beside the point. Russolo built this picture out of force-lines the same way, repeated wedges and arrowheads driving across the canvas, each one a little vector of the car&rsquo;s push. By the time he was done, the car had nearly disappeared into the speed it was making, which was precisely the plan.
+      </p>
+      <p style={proseStyle}>
+        And here is the wry footnote the catalogue keeps. Russolo signed and dated the canvas <strong>1911</strong>, in paint, in his own hand. The museum that owns it today does not believe him; it dates the work <strong>1912&ndash;13</strong> and marks his painted date with a flat little scholarly <em>[sic]</em>, the curatorial equivalent of a raised eyebrow. So the picture carries two dates at once, the artist&rsquo;s and the museum&rsquo;s, and we go with the museum&rsquo;s, while enjoying the small fact that even the date on a Futurist painting refuses to sit still.
+      </p>
+    </article>
+  )
+}
+
+function AutLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Find the car. You can’t." first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the size and shape, because the shape is doing work before any of the paint does. The canvas is about <strong>three and a half feet tall and four and a half feet wide</strong>, noticeably wider than it is tall, a <strong>landscape format</strong>. That is not an accident. A car drives <em>across</em>, and Russolo gave it a canvas built like a stretch of road, a wide horizontal field for the thing to cross. The format itself is a runway.
+      </p>
+      <p style={proseStyle}>
+        Now try, honestly, to find the car. Go ahead and look for a wheel, a hood, a headlamp, a windscreen, the way you would in any normal picture of an automobile. You will not really find one. The vehicle has been <strong>shattered into faceted planes</strong>, broken into overlapping shards of form the way a sheet of glass breaks, so that there is no clean fender to point at and say <em>there, that is the car</em>. You read &ldquo;car&rdquo; from the title, and from the thrust, and from a denser knot of planes near the heart of the picture, but the machine as a recognizable object has nearly been let go. This is deliberate, and it is the first thing to surrender to: the subject of this painting is not a car. It is what a car <em>does</em>.
+      </p>
+
+      <SectionHeader accent={accent} label="The wedges" title="A picture built out of arrowheads" />
+      <p style={proseStyle}>
+        {/* COORDINATOR (fact FIX-1): if the born-verified image confirms left-to-right thrust, "one way" / "the same way" may be sharpened to "left to right" in one place here. Stays agnostic until the image is opened. */}
+        So what <em>is</em> on the canvas, if not a car? Wedges. Arrowheads. The picture is built, over and over, out of a single repeated shape: a <strong>V-shaped wedge</strong>, a chevron, nested and stacked and fanned out, all of them aimed the same way, in the direction the car is travelling. These are the <strong>force-lines</strong> from the last chapter made visible, the <em>linee-forza</em>, and here is how to actually <em>see</em> them do their job. Pick one wedge near the dense core of the picture, the busy knot the arrowheads seem to spring <em>from</em>. Follow the arrowheads outward from it, the way you would follow a row of road signs, each one a little farther along, a little more open. You are not looking at the shape of a car. You are looking at the shape of its <em>push</em>, the energy peeling off the front of the machine and spraying out into the air ahead of it. The car is not <em>in</em> the picture so much as the picture is the car&rsquo;s <strong>wake</strong>.
+      </p>
+      <p style={proseStyle}>
+        And the wedges all lean. The whole composition tilts and drives one way across that wide canvas, so your eye does not get to sit calmly in the middle and admire; it gets <em>caught</em> by the slant of the wedges and pulled along the same line the car takes, shoved from the denser, busier end toward the open field ahead. You travel the painting the way the car travels the road. That is the trick of the thing. A still image, oil dried hard on cloth a century ago, has been engineered to make your eye accelerate.
+      </p>
+
+      <SectionHeader accent={accent} label="The color" title="Motion laid down in steps, like a stack of stills" />
+      <p style={proseStyle}>
+        Look next at how the color is handled, because it is the other half of the illusion. The hues are laid in <strong>flat-ish bands and planes</strong>, not modelled into rounded, lit, three-dimensional solids the way a traditional painter would shape an apple or a face. Each plane steps back from the leading edges like a stage in the car&rsquo;s passage, one position, then the next, then the next. If you have ever seen a strip of film held up to the light, the same figure caught in a row of slightly-shifted frames, you already understand what Russolo is after. (That trick has a name and an ancestor: the <strong>chronophotograph</strong>, the late-1800s motion-study photographs, like Eadweard Muybridge&rsquo;s galloping horse, that froze a moving body into a row of stills.) He is stacking the car&rsquo;s positions into a single image, so that one canvas holds several instants at once. It is less a portrait of a thing than a <strong>diagram of motion</strong>, a blueprint of acceleration with the engineering left showing.
+      </p>
+      <p style={proseStyle}>
+        Pull back and take in the whole. There is no automobile to find, only the unmistakable sensation of one tearing past, built out of wedges that push, planes that step, and a slant that drags your eye down the road. That refusal, to drop the recognizable object entirely in favor of the pure experience of speed, is exactly how close this canvas comes to <strong>abstraction</strong>, painting that has stopped showing recognizable things at all. Russolo never quite crosses the line into total abstraction here, but he stands right on it, one foot over, in the same years that his fellow Futurist Giacomo Balla was painting the same speeding car into near-abstraction in his own 1913 speed studies.
+      </p>
+
+      <SectionHeader accent={accent} label="The point" title="A painting trying to make a noise" />
+      <p style={proseStyle}>
+        Here is the last thing to feel, standing in front of it, and it is the thing that makes this particular speed painting worth a second look. Most pictures of motion want you to <em>see</em> the motion. This one seems to want you to <em>hear</em> it. The wedges have the quality of a sound spreading out, the planes pile up like a chord, the whole canvas reads like a visual transcription of a <strong>roar</strong>, the noise a car makes at full throttle. That is not a coincidence, and it is not a stretch. The man who painted this was about to stop painting altogether and spend the rest of his life on exactly that problem, how to capture the roar of the modern world, only with the brush put down and machines that actually made the sound picked up instead. That is the next chapter, and once you know it, you cannot un-see it here: this is a painting straining to become a noise.
+      </p>
+    </article>
+  )
+}
+
+function AutNoise({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1913" title="He puts down the brush" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>1913</strong>, the same stretch of years he painted this car, Russolo did something almost no painter at the peak of a movement ever does. He largely <strong>set the brush aside</strong>. Not forever, he painted again late in life, but as his main work, for the next decade or more, he stopped being a painter. The man who had just figured out how to paint the roar of a car decided that paint could not actually <em>make</em> the roar, and went looking for something that could.
+      </p>
+      <p style={proseStyle}>
+        On <strong>11 March 1913</strong> he wrote it down, in the form of a letter to the Futurist composer <strong>Francesco Balilla Pratella</strong>. The letter became a manifesto, and the manifesto has a title you should remember: <strong><em>The Art of Noises</em></strong> (in Italian <em>L&rsquo;arte dei rumori</em>). Its argument was simple and, in 1913, startling. The industrial age, Russolo wrote, had remade the human ear. We now lived among engines, factories, trams, crowds, machine guns, a whole new orchestra of <em>noise</em> that no symphony contained. Music, he argued, had to &ldquo;break out of this limited circle of [pure] sounds and conquer the infinite variety of noise-sounds.&rdquo; In other words: the same machine age that gave the painters the racing car had given music a whole new palette, and nobody was using it.
+      </p>
+
+      <SectionHeader accent={accent} label="The intonarumori" title="Boxes that howled, roared, gurgled, and hummed" />
+      <p style={proseStyle}>
+        Then, with a fellow painter named <strong>Ugo Piatti</strong>, Russolo did the thing that makes him a genuine ancestor instead of just a manifesto-writer. He <strong>built the instruments</strong>. They were called <strong>intonarumori</strong> (&ldquo;in-toh-nah-roo-MOH-ree&rdquo;), which means roughly &ldquo;noise-tuners&rdquo;, plain wooden boxes, each with a horn out the front and a hand-crank and a lever on top. Turn the crank, work the lever, and the box produced a tuned family of noises, closer to a factory floor tuned to pitch than to anything you would call an orchestra. He gave the families names that tell you exactly what they did: <strong>howlers, roarers, cracklers, hummers, gurglers</strong>, and more, more than twenty of them in the end. They were, by every account including his own, rudimentary, mechanical things, but they were the first instruments ever built deliberately to play <em>noise</em> as music.
+      </p>
+      <p style={proseStyle}>
+        The first concert of these noise instruments was given in <strong>Modena</strong>, in Italy, on <strong>2 June 1913</strong>; a bigger, rowdier series followed in <strong>London in 1914</strong>. Audiences did roughly what you would expect audiences to do when a man cranks a box of howls at them and calls it a symphony, and the noise on the stage was sometimes outdone by the noise in the hall. But the door was open. Russolo is now counted a founding ancestor of <strong>noise music</strong>, of <em>musique concr&egrave;te</em> (music built from recorded real-world sounds), and of <strong>electronic music</strong>, cited as an influence on composers from <strong>Edgard Var&egrave;se</strong> to <strong>John Cage</strong> to <strong>Pierre Schaeffer</strong>. Half a century before a synthesizer, an Italian painter cranked the future out of a wooden box.
+      </p>
+
+      <SectionHeader accent={accent} label="The through-line" title="Two attacks on the same target" />
+      <p style={proseStyle}>
+        Now go back, for a moment, and stand in front of the painting again with all this in your head. The wedges that push, the planes that step, the whole canvas straining to <em>sound</em>, this is the same man, in the same year, hunting the same thing from two directions at once. The painting is an attempt to put the roar of a machine into oil and cloth. The intonarumori were an attempt to put the same roar into the air, where a roar actually lives. The car canvas and the noise machines are not two careers; they are <strong>two attacks on a single target</strong>, the energy of the modern machine, one with a brush and one with a crank. He just decided, in 1913, that the crank stood a better chance.
+      </p>
+    </article>
+  )
+}
+
+function AutAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="The picture’s life as an object" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting&rsquo;s <strong>provenance</strong>, meaning the documented chain of who has owned it from the artist&rsquo;s hand to where it hangs now, is mostly a clean line with one honest hole in the middle of the museum&rsquo;s file. Before the war the picture was alive in the world: it hung at the <strong>Futurist exhibition in Florence</strong> in 1913&ndash;14, the show the magazine <em>Lacerba</em> put on at the Galleria Gonnelli, and the Futurist group exhibited again in <strong>London</strong>, at the <strong>Dor&eacute; Gallery</strong>, in 1914, the same London season that met Russolo&rsquo;s howling instruments. Over those years it also picked up and shed a small drift of titles, <em>Velocit&agrave;</em> (&ldquo;Speed&rdquo;), <em>Composition</em>, <em>Full Speed</em>, before settling, more or less, on the dynamism of a car.
+      </p>
+      <p style={proseStyle}>
+        Then comes the gap. Somewhere between Russolo&rsquo;s studio and the year <strong>1949</strong>, the painting passed into the hands of the painter <strong>Sonia Delaunay</strong>, and the museum&rsquo;s file does not record how or when it got there. One secondary account says her husband, <strong>Robert Delaunay</strong>, bought it out of that Florence show, which would tidily explain how it reached her hands; but the museum does not confirm that link, so we note it and do not lean on it. A missing link in a provenance beats a wrong one, and we are not going to upgrade a maybe into a fact to bridge the years.
+      </p>
+
+      <SectionHeader accent={accent} label="Sonia Delaunay" title="A gift, from one painter of speed to a nation" />
+      <p style={proseStyle}>
+        The end of the line, though, is documented and worth dwelling on. In <strong>1949</strong>, Sonia Delaunay <strong>gave the painting to the French nation</strong>, to the Mus&eacute;e national d&rsquo;art moderne, now part of the <strong>Centre Pompidou</strong> in Paris, where it has lived ever since under the inventory number AM 2917 P. And the donor is not a footnote. <strong>Sonia Delaunay</strong> (1885&ndash;1979) was a major painter in her own right, a co-founder, with her husband Robert Delaunay, of <strong>Orphism</strong>, an offshoot of Cubism that built whole pictures out of pure color and rhythm and, like the Futurists, was hungry to paint modern speed and light. So the canvas that tried to paint a car&rsquo;s roar was handed to France by a woman who had spent her own life painting motion and color, one speed-painter passing another speed-painter&rsquo;s work into a great public collection. It is a quietly perfect custody.
+      </p>
+
+      <SectionHeader accent={accent} label="The verdict" title="The car that drove into the future" />
+      <p style={proseStyle}>
+        A small closing thought. Russolo was a painter who decided painting was not loud enough, and walked away from it into a wooden box full of howls. It would be easy to read this canvas as the work he abandoned, a road not taken. It is the opposite. This is the painting where he had already half-left, where the car is dissolving into pure force and the whole picture is leaning toward a sound it cannot quite make. The intonarumori are not a break from this painting; they are this painting finishing its sentence. Stand in front of it in Paris today and you are looking at the exact moment a painter felt the limits of paint, the canvas straining at the edge of abstraction and the edge of noise at once, a year before he picked up the crank and made the future audible.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  automobile: { painter: AutPainter, making: AutMaking, looking: AutLooking, noise: AutNoise, afterlife: AutAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  farewells: { station: FarStation, paris: FarParis, looking: FarLooking, futurism: FarFuturism, afterlife: FarAfterlife },
+  'abstract-speed': { dog: AbsDog, making: AbsMaking, looking: AbsLooking, triptych: AbsTriptych, abstraction: AbsAbstraction },
+  'bal-tabarin': { paris: BalParis, hall: BalHall, looking: BalLooking, simultaneity: BalSimultaneity, afterlife: BalAfterlife },
+  automobile: { painter: AutPainter, making: AutMaking, looking: AutLooking, noise: AutNoise, afterlife: AutAfterlife },
+
   'city-rises': { manifestos: CtyManifestos, site: CtySite, looking: CtyLooking, divisionism: CtyDivisionism, afterlife: CtyAfterlife },
   dog: { teacher: DogTeacher, making: DogMaking, looking: DogLooking, science: DogScience, afterlife: DogAfterlife },
   galli: { street: GalStreet, making: GalMaking, looking: GalLooking, memory: GalMemory, afterlife: GalAfterlife },

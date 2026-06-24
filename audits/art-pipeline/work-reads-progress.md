@@ -35,4 +35,19 @@ is the API ceiling — agents die silently above it).
 - [ ] charing-cross — Charing Cross Bridge (Derain, 1906, NGA Whitney) — factpack DONE; series count hedge
 - [ ] rue-pavoisee — Street Decked with Flags, Le Havre (Dufy, 1906) — factpack OWED
 
-### Futurism / Dada / Surrealism / AbEx / Pop — pending (9 each)
+### Futurism (9/9 LIVE ✓ COMPLETE)
+- [x] city-rises, dog, galli, cyclist, unique-forms — wave 1, LIVE gated
+- [x] farewells, bal-tabarin, automobile, abstract-speed — wave 2, gated, spliced+tsc-clean
+      - bal-tabarin: flags + Turco-Italian-War nationalist reading added (FRAME blocker)
+      - abstract-speed: "alongside Mussolini" → De Ambris (FRAME+FACT blocker)
+      - all 4 hero images visually verified born-verified PD-US
+- Cyclist works[]-strip credit already corrected to Museo del Novecento, Milan
+
+### Dada (in progress) — 9 works, all PD-US (1915–21)
+ids match the movement works[] strip: fountain, lhooq, kitchen-knife,
+mechanical-head, hat-makes-man (wave 1); stieglitz, celebes, sainte-vierge,
+daum (wave 2). All hero images already wired in ART_IMG.
+- [ ] wave 1 (fountain, lhooq, kitchen-knife, mechanical-head, hat-makes-man) — FACT PACKS RUNNING
+- [ ] wave 2 (stieglitz, celebes, sainte-vierge, daum) — queued
+
+### Surrealism / AbEx / Pop — pending (9 each)

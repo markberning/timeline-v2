@@ -5914,5 +5914,353 @@ export const UNIQUE_FORMS: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS }
+// ─────────────────────────────────────────────────────────────
+// Work, States of Mind: The Farewells (Stati d'animo: Gli addii),
+// Boccioni, 1911, MoMA (acc. 64.1979, gift of Nelson A. Rockefeller, 1979).
+// Panel 1 of the three-part States of Mind triptych (The Farewells /
+// Those Who Go / Those Who Stay). Authored through the art content pipeline
+// (fact pack -> Opus -> 5 gates -> revise). Chapter prose in
+// art-section-reader.tsx NARRATIVES['farewells'] (Far... prefix).
+// TWO-VERSION FINDING handled per fact pack: MoMA holds the SECOND version,
+// reworked AFTER Boccioni's autumn-1911 Paris trip with a Cubist faceting;
+// the FIRST, Divisionist, pre-Paris version is in Milan (exact museum left
+// open, sources split GAM vs Museo del Novecento). "Lines of force"
+// (linee-forza) is the 1912 Paris-catalogue term, NOT dated to 1911. The
+// "loneliness, anguish, dazed confusion" line belongs to Those Who Go,
+// not The Farewells. Locomotive number 6943 given "by the usual reading."
+// ─────────────────────────────────────────────────────────────
+export const FAREWELLS: ArtWorkContent = {
+  id: 'farewells',
+  name: 'States of Mind: The Farewells',
+  shortName: 'The Farewells',
+  year: 1911,
+  artist: 'Umberto Boccioni',
+  artistId: 'boccioni',
+  movement: 'Futurism',
+  movementId: 'fut',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 3 3/4 in × 3 ft 1 7/8 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Gift of Nelson A. Rockefeller, 1979',
+  accent: ART_ACCENTS.rust, // Futurism's movement accent
+  chain: { name: 'Works of Futurism', index: 2, total: 9 },
+  hook: 'A railway-station goodbye painted not as a scene but as a feeling, the figures swept into a vortex of steam around the one cold-sober thing in it, a locomotive’s stencilled number, and the version in New York is the second one Boccioni painted, redone after Paris taught him Cubism.',
+  heroImage: ART_IMG.boccioniStatesFarewells,
+  heroCredit: 'Boccioni, States of Mind: The Farewells (second version), 1911 · Museum of Modern Art, New York',
+  heroAspect: 1.36, // 70.5 × 96.2 cm → W/H ≈ 1.36
+  heroFit: 'contain', // the whole landscape canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1911', k: 'Painted' },
+    { v: '2′3¾″ × 3′1⅞″', k: 'Dimensions' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'station', eyebrow: 'Milan · 1911', dateLabel: '1911', title: 'Paint the feeling, not the train', blurb: 'A young Futurist sets out to paint a railway-station goodbye as a state of mind rather than a scene, and builds it as a three-panel set: the embrace, those who leave, those who stay behind.', progress: 0.08 },
+    { id: 'paris', eyebrow: 'Paris · autumn 1911', dateLabel: 'autumn 1911', title: 'The trip that made the second version', blurb: 'Boccioni, Carrà and Russolo go to Paris on Severini’s urging, see Cubism in the flesh, and come home. Boccioni reworks the whole triptych, and that reworked, Cubist-inflected set is the one that hangs in New York.', progress: 0.3 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 3 3/4 in × 3 ft 1 7/8 in', title: 'Emotion drawn as lines', blurb: 'Read the painting: the embrace dissolving into the haze, the half-buried engine with its number, the swirling lines that carry the feeling, the poles and wires, the faceted station spun into one vortex.', progress: 0.56 },
+    { id: 'futurism', eyebrow: 'Futurism', dateLabel: '1909–1916', title: 'Speed, machines, and a darker creed', blurb: 'What Futurism wanted, the speed and the machine and the noise, and the harder edge under it, the 1909 manifesto’s love of war and its scorn for women, with the line carefully drawn at Boccioni’s own death in 1916.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1911–today', title: 'From Marinetti’s wall to New York', blurb: 'The panels go straight to Marinetti, pass to his widow, are bought by Nelson Rockefeller after the war, and reach MoMA as his gift in 1979, while the first version stays behind in Milan.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1911', who: 'Umberto Boccioni (the artist)', place: 'Milan', note: 'Painted the second version in late 1911, reworked after his autumn trip to Paris. This is the Cubist-inflected version; the first, Divisionist version stayed in Italy and is now in Milan.', price: null },
+    { year: 'from at least 1912', who: 'Filippo Tommaso Marinetti', place: 'Milan / Rome', note: 'The poet who founded Futurism owned the three panels, acquired directly from Boccioni; MoMA records his ownership from at least 1912 until his death in 1944. No price is recorded.', price: null },
+    { year: 'to 1949', who: 'Benedetta Cappa Marinetti (Marinetti’s widow, a Futurist painter)', place: 'Italy', note: 'Held the triptych after Marinetti’s death in 1944, then sold it to Rockefeller. No price is recorded.', price: null },
+    { year: '1949–1979', who: 'Nelson A. Rockefeller', place: 'New York', note: 'Acquired the panels from Marinetti’s widow in October 1949 and held them in his New York collection. No price is recorded.', price: null },
+    { year: '1979–today', who: 'Museum of Modern Art', place: 'New York', note: 'Gift of Nelson A. Rockefeller, 1979. Accession 64.1979. On view, with the two companion panels of the triptych.', price: 'gift to the museum', museum: true },
+  ],
+  figures: [
+    { name: 'Umberto Boccioni', role: 'The painter', palette: ['#b44d3b', '#5a2418', '#160a07'] },
+    { name: 'Filippo Tommaso Marinetti', role: 'Futurism’s founder · first owner', palette: ['#9a4a36', '#4a2018', '#14090a'] },
+    { name: 'Gino Severini', role: 'The Paris-based Futurist who urged the trip', palette: ['#8a5a44', '#3e2820', '#120c0a'] },
+    { name: 'The Cubists in Paris', role: 'What the autumn-1911 trip exposed him to', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'Nelson A. Rockefeller', role: 'Bought the panels · gave them to MoMA', palette: ['#7a6a44', '#3e3320', '#12100a'] },
+  ],
+  annotations: [
+    { label: 'The embracing couple, fused into the haze', where: 'Center, low, the densest knot of figures, locked together and bleeding into the waves around them', detail: 'Find the clasped pair at the heart of the picture, two figures bent into a parting embrace. The thing to notice is what Boccioni refuses to do: he does not stand them clear of the scene like actors on a stage. He lets the curving waves of paint run straight through them, so the bodies and the steam and the station are the same substance, a vortex that looks like it is about to crumble. They are not people in a setting; they are people dissolving into one.' },
+    { label: 'The locomotive, and its number', where: 'Center-right, the dark mechanical mass half-buried in the swirl, carrying a row of painted digits', detail: 'The one solid, mechanical thing in the picture is the train engine, sunk to its shoulders in steam and curved line. On its body sits the single coldest, steadiest mark on the canvas: a stencilled number, read by the usual account as 6943. Everything else is in motion; the number is not. It is the one element that holds still while the world around it spins, the painting’s fixed point. (The digits are small and worked into the paint, so the exact reading is the standard one rather than a thing you can count off cleanly from a photograph.)' },
+    { label: 'The swirling lines of departure', where: 'Sweeping across the whole picture, the long curved arcs of paint that carry the figures up and around', detail: 'These long, curving, swirling arcs are the painting’s engine of feeling. Across the three panels Boccioni gives each its own kind of line: here in The Farewells the lines swirl and curve, the chaos of a goodbye; in Those Who Go they slant oblique, the pull of leaving; in Those Who Stay they fall strictly vertical, the dead weight of being left. Trace these curves and you are reading the emotion directly, drawn as a direction rather than described as a face.' },
+    { label: 'The telegraph poles and wires', where: 'Rising through the upper haze, the thin straight verticals of the station’s ironwork against the curved storm', detail: 'Look up through the swirl and you find the thin, hard, straight uprights of the station’s infrastructure, its poles and wires, cutting against the curving waves. They are the man-made grid of the railway, the proof that this storm of feeling is happening at a real platform and not in pure abstraction. (Sources describe a “railway post” here; on the canvas it reads as the pole-and-wire ironwork rising through the steam.)' },
+    { label: 'The fragmented, faceted station', where: 'Throughout, the platform and its structures broken into hard intersecting planes inside the curves', detail: 'Notice that the station itself is not drawn as solid architecture but broken into hard, intersecting, faceted shards, planes that cut across the curves. This faceting is the tell that you are looking at the second version. It is what Boccioni brought back from Paris and Cubism, laid over the softer Divisionist haze of the original. The whole environment, platform and building and crowd, is swept into one tumbling vortex.' },
+    { label: 'The radiating composition', where: 'The overall design, everything wheeling outward from the calm of the engine’s number', detail: 'Step back and read the whole picture as one shape. It is organized as a vortex, waves and lines radiating out, and the still center they wheel around is the engine and its number. Everything in the painting has been set spinning except that one stencilled mark. The composition itself is the argument: a parting felt as a whirlpool of motion with a single cold, unmoved point at its heart.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Divisionism', mode: 'art' },
+      { label: 'Cubism', mode: 'art' },
+      { label: 'The railway age', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Painting motion itself', mode: 'art' },
+      { label: 'Boccioni’s sculpture', mode: 'art' },
+      { label: 'The machine aesthetic', mode: 'civ' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Abstract Speed + Sound (Velocità astratta + rumore), Balla, 1913–14.
+// The 9th and final work of the Futurism chain. Authored through the art content
+// pipeline (fact pack → Opus → 5 gates → revise). Chapter prose in
+// art-section-reader.tsx NARRATIVES['abstract-speed'] (Abs… prefix).
+// FACT-HANDLING per fact pack: this is the CENTRAL panel of a THREE-PART work (a
+// narrative triptych) — framed as the leading scholarly reconstruction, NOT settled
+// fact (the Guggenheim itself hedges: the triptych "has been proposed"). The Tate
+// holds the right panel (Abstract Speed — The Car has Passed) and names this same
+// central panel "Lines of Force + Noise". Panel titles + the left panel's
+// whereabouts are DISPUTED. The PAINTED FRAME is part of the work. PURE
+// ABSTRACTION: no car is depicted; speed is implied by landscape, force-lines and
+// noise. NO "first abstract painting" overclaim (abstraction had simultaneous
+// origins — Kandinsky, Kupka, Delaunay). Marinetti later co-wrote the 1919 Fascist
+// Manifesto with the syndicalist Alceste De Ambris (NOT with Mussolini, who founded
+// the movement and published it). The Philadelphia "Velocità astratta + rumore" is
+// a SEPARATE related work, never conflated with this Guggenheim panel.
+// ─────────────────────────────────────────────────────────────
+export const ABSTRACT_SPEED: ArtWorkContent = {
+  id: 'abstract-speed',
+  name: 'Abstract Speed + Sound',
+  shortName: 'Abstract Speed + Sound',
+  year: 1914,
+  artist: 'Giacomo Balla',
+  artistId: 'balla',
+  movement: 'Futurism',
+  movementId: 'fut',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on millboard, in the artist’s painted frame',
+  dimensions: '1 ft 9½ in × 2 ft 6 in',
+  location: 'Peggy Guggenheim Collection, Venice',
+  acquired: 'Peggy Guggenheim Collection (Solomon R. Guggenheim Foundation), accession 76.2553 PG 31',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Works of Futurism', index: 9, total: 9 },
+  hook: 'A speeding car you never see: only the green earth, the blue sky, the white road and the buzzing crisscross of its noise, painted right out onto the frame so the motion never stops at the edge.',
+  heroImage: ART_IMG.ballaAbstractSpeed,
+  heroCredit: 'Balla, Abstract Speed + Sound, 1913–14 · Peggy Guggenheim Collection, Venice',
+  heroAspect: 1.4, // 76.5 × 54.5 cm → W/H ≈ 1.40 (landscape)
+  heroFit: 'contain', // whole work including the painted frame, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1913–14', k: 'Painted' },
+    { v: '1′9½″ × 2′6″', k: 'Dimensions' },
+    { v: 'Peggy Guggenheim', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'dog', eyebrow: 'Rome · 1912', dateLabel: '1912', title: 'From the dog to nothing you can name', blurb: 'A year earlier Balla had painted a dachshund’s blurred legs to show a thing in motion. By 1913–14 the thing is gone and only the motion is left, the eldest Futurist racing past his own dog toward pure abstraction.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1913–14', title: 'A car implied, never shown', blurb: 'The subject is an automobile tearing down a white road past green earth and blue sky. Balla paints not the car but everything the car disturbs, so the picture becomes forces and planes with no machine in it at all.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1 ft 9½ in × 2 ft 6 in', title: 'How to see speed and hear noise with no car present', blurb: 'The green band, the white road slashing through, the swept blue arcs, the buzzing crisscross that is the “+ Sound,” the directional thrust, and the painted frame that refuses to let the picture stop.', progress: 0.56 },
+    { id: 'triptych', eyebrow: 'One landscape, three panels', dateLabel: '1913–14', title: 'The middle of a picture that runs off its own frame', blurb: 'This is, by the leading reconstruction, the central section of a three-part work, one continuous landscape across all three, with the Tate holding the right-hand panel. The story is proposed, not settled, and the frames are part of the picture.', progress: 0.78 },
+    { id: 'abstraction', eyebrow: 'After', dateLabel: '1914–today', title: 'Among the first, and the politics underneath', blurb: 'These speed pictures are among the earliest fully abstract works in Western painting, arriving at the same moment as Kandinsky, Kupka and Delaunay elsewhere. The movement that drove them also glorified war, a half of the story the picture can’t leave out.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1913–14', who: 'Giacomo Balla (the artist)', place: 'Rome', note: 'Painted in Rome in 1913–14, the painted frame made as part of the work. No documented intermediate owner or sale is recorded between Balla and the Peggy Guggenheim collection.', price: null },
+    { year: '?', who: 'Peggy Guggenheim', place: 'Europe / New York', note: 'Entered Peggy Guggenheim’s collection of modern European art (assembled chiefly 1939–1942, advised by Herbert Read and Marcel Duchamp). The exact year, seller and price for this panel are not documented in the museum’s public record.', price: null },
+    { year: '1976–today', who: 'Peggy Guggenheim Collection (Solomon R. Guggenheim Foundation)', place: 'Venice', note: 'Held under the Solomon R. Guggenheim Foundation (master accession 76.2553), full effect on Peggy Guggenheim’s death in 1979; on view at the Peggy Guggenheim Collection, Venice. Accession 76.2553 PG 31.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Giacomo Balla', role: 'The painter', palette: ['#5a4a2a', '#2a2218', '#0e0a06'] },
+    { name: 'Filippo Tommaso Marinetti', role: 'Founder of Futurism', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'] },
+    { name: 'Umberto Boccioni', role: 'Co-signatory; painter-sculptor', palette: ['#bf3a25', '#3a4a6a', '#1c1208'] },
+    { name: 'Peggy Guggenheim', role: 'Collector', palette: ['#3a5a6a', '#22323a', '#0c1216'] },
+    { name: 'Étienne-Jules Marey', role: 'Motion photographer behind the Dog', palette: ['#6b6354', '#39322a', '#120f0c'] },
+  ],
+  annotations: [
+    { label: 'The green landscape band', where: 'The lower zone, the broad green forms beneath the speed-lines', detail: 'The green stands for the earth the car races across, one of the two landscape colors (green for land, blue for sky) carried through all three panels of the triptych. It is a form, not a depicted field, no furrows, no fence, no farm. This is the giveaway that you are looking at abstraction and not scenery: the land has been reduced to the single fact of its color.' },
+    { label: 'The white road and the lines of force', where: 'The pale diagonal channel cutting through the composition', detail: 'The pale channel slicing across the picture is the white road the unseen car travels, and the long directional strokes laid along it are Balla’s lines of force, his name for the trajectory of speed itself. Follow them with your eye and you are following the car, because the strokes are all the car you are ever going to get.' },
+    { label: 'The swept sky arcs', where: 'The upper zone, the curving blue forms', detail: 'Blue is the second landscape color, the sky, but it does not sit still like a real horizon. The arcs read as atmosphere bent and swept by the car’s passage, the air itself dragged into curves by something moving through it fast. You are seeing wind, in a picture with no flag and no leaf to show it.' },
+    { label: 'The painted frame that won’t stop the picture', where: 'The border all the way around the panel', detail: 'This is the single most distinctive thing in the work, and it is easy to miss because we are trained to ignore frames. Balla painted his own frame as a continuation of the picture’s forms and colors, so the composition runs off the canvas and onto its border, what the museum describes as implying the overflow of the painting’s reality into the spectator’s own space. The motion is not allowed to end at the edge. That is the whole Futurist point about speed, built into the carpentry.' },
+    { label: 'The directional thrust', where: 'Across the whole field, the repeated lines and planes all leaning the same way', detail: 'Almost every line and plane leans the same direction, and the repetition does the work: multiply a tilt enough times and the eye is shoved along it whether it wants to go or not. The museum’s own phrase for how this central panel differs from its flanking ones is the multiplication of the number of lines and planes. More repetitions, more velocity. The picture pushes you down the road.' },
+    { label: 'The car that is not there', where: 'Look for the car, and there isn’t one', detail: 'The entire subject is a speeding automobile, and there is no car. No wheel, no headlamp, no road-sign, no driver, no figure of any kind. Speed is carried only by the force-lines, the disturbed green and blue, and the crisscross of noise, with pinkish exhaust appearing on the Tate’s right-hand panel. This absence is the proof the work is pure abstraction and not a stylized picture of a thing: Balla painted the event without painting the object.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Dynamism of a Dog on a Leash', mode: 'art' },
+      { label: 'Marey’s motion photography', mode: 'civ' },
+      { label: 'Marinetti’s cult of speed', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Pure abstraction', mode: 'art' },
+      { label: 'Constructivism’s speed-line', mode: 'art' },
+      { label: 'The machine aesthetic', mode: 'civ' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Dynamic Hieroglyphic of the Bal Tabarin (Severini, 1912). The flagship
+// Futurism work read. Authored through the art content pipeline (fact pack →
+// Opus → 5 gates → revise). Chapter prose in art-section-reader.tsx
+// NARRATIVES['bal-tabarin'] (Bal… prefix). FACTS handled per fact pack + gates:
+// title spelling "Hieroglyphic" (MoMA owns it); the figure rides an open pair of
+// SCISSORS (NOT a goose), placed high in the upper jumble (NOT pinned left, per
+// fact gate F1); the only verified painted words are VALSE + POLKA (NO "bowling");
+// real sequins are fixed into the paint; NATIONAL FLAGS / streamers are draped
+// across the upper portion (firmly documented, added per frame BLOCKER); the
+// camel-rider is left open between cabaret-gag and a topical glance at Italy's
+// 1911–12 colonial war in North Africa (the war attribution hedged as scholars'
+// reading per the frame gate); the hall is in Pigalle at the FOOT of Montmartre;
+// the "self-portrait in a straw hat" reading is a disputed scholars' guess; the
+// documented provenance is Marinetti(consignment)→Wyndham→MoMA, Rosenberg account
+// UNCONFIRMED per MoMA; venue closed 1953 / demolished after a 1963 gala (fact B1).
+// ─────────────────────────────────────────────────────────────
+export const BAL_TABARIN: ArtWorkContent = {
+  id: 'bal-tabarin',
+  name: 'Dynamic Hieroglyphic of the Bal Tabarin',
+  shortName: 'Bal Tabarin',
+  year: 1912,
+  artist: 'Gino Severini',
+  artistId: 'severini',
+  movement: 'Futurism',
+  movementId: 'fut',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas with sequins',
+  dimensions: '5 ft 3 5/8 in × 5 ft 1 1/2 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Acquired through the Lillie P. Bliss Bequest (by exchange), 1949',
+  accent: ART_ACCENTS.rust,
+  chain: { name: 'Works of Futurism', index: 4, total: 9 },
+  hook: 'A Paris dance hall remembered from the inside out, with real sequins glued into the paint, the words VALSE and POLKA floating in the spin, national flags strung across the top, and a tiny nude riding an open pair of scissors.',
+  heroImage: ART_IMG.severiniBalTabarin,
+  heroCredit: 'Severini, Dynamic Hieroglyphic of the Bal Tabarin, 1912 · Museum of Modern Art, New York',
+  heroAspect: 0.97, // 156.2 × 161.6 cm → W/H ≈ 0.97, very slightly taller than wide
+  heroFit: 'contain', // near-square; the whole canvas, never cropped, stays on top
+  rights: 'pd-us',
+  stats: [
+    { v: '1912', k: 'Painted' },
+    { v: '5′3⅝″ × 5′1½″', k: 'Dimensions' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'paris', eyebrow: 'Paris · 1906–11', dateLabel: '1906–11', title: 'The one Futurist who lived in Paris', blurb: 'Severini leaves Italy for Paris at twenty-three, falls in with Picasso and Braque and Apollinaire, co-signs the Futurist manifestos from a distance, and becomes the bridge between Italian speed-worship and French Cubist grammar.', progress: 0.08 },
+    { id: 'hall', eyebrow: 'Pigalle', dateLabel: '1904 on', title: 'A dance hall at the foot of the hill', blurb: 'The Bal Tabarin was a real cabaret on the rue Victor-Massé, in the Pigalle district below Montmartre. Costume balls, floor shows, electric light, the cancan. This is the night Severini is remembering, and he is not painting it from a chair in the room.', progress: 0.3 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '5 ft 3⅝ in × 5 ft 1½ in', title: 'The whole night shattered into one sign', blurb: 'Read the painting itself: the two whirling dancers at the core, the looping lines of real sequins, the painted words VALSE and POLKA, the nude on the scissors, the broken blaze of the lights, the flags across the top, the camel and the cat and the glasses, all happening at once.', progress: 0.54 },
+    { id: 'simultaneity', eyebrow: 'The idea', dateLabel: '1912', title: 'Painted from memory, all at once', blurb: 'Severini did not sketch at the hall. He built the memory of it, fusing many moments of the same night into a single field, the Futurist idea called simultaneity. He named the result a hieroglyph, one packed sign that stores the whole sensation.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1912–today', title: 'From Marinetti to MoMA', blurb: 'Held on consignment to the Futurist impresario Marinetti in Milan, then into a British collection, then sold at Sotheby’s after the owner’s death, the canvas reached MoMA in 1949, where it is Futurism’s friendliest masterpiece and a movement’s warning label both.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1912–c.1925', who: 'On consignment to Filippo Tommaso Marinetti (Futurism’s founder)', place: 'Milan', note: 'Held on consignment in Milan to the impresario who wrote the 1909 Founding Manifesto, until around 1925. Severini also later said he first sold the picture to the Paris dealer Léonce Rosenberg, who sold it on to Richard Wyndham, but MoMA states that account could not be confirmed.', price: null },
+    { year: 'by 1935–1948', who: 'Richard Wyndham (British painter and collector)', place: 'London', note: 'In Wyndham’s English collection by 1935. (Severini’s contract with the dealer Rosenberg was real, signed 1919, but the claimed Rosenberg sale of this canvas is the unconfirmed part of the chain.)', price: null },
+    { year: '24 Nov 1948', who: 'Estate of Richard Wyndham → MoMA, via Sotheby’s, London', place: 'London → New York', note: 'On Wyndham’s death in 1948 his estate sold the painting through Sotheby’s in London, where MoMA acquired it. (The auction price is not published in the MoMA record.)', price: null },
+    { year: '1949–today', who: 'Museum of Modern Art', place: 'New York', note: 'Accessioned 1949; credit line “Acquired through the Lillie P. Bliss Bequest (by exchange).” Acc. 288.1949. Department of Painting and Sculpture. On view.', price: 'by exchange', museum: true },
+  ],
+  figures: [
+    { name: 'Gino Severini', role: 'The painter', palette: ['#bf6a3a', '#5a2e1a', '#1a0f08'] },
+    { name: 'F. T. Marinetti', role: 'Futurism’s founder; held it on consignment', palette: ['#bf2f25', '#5a1c18', '#160a08'] },
+    { name: 'Picasso & Braque', role: 'The Cubists whose lettering he borrowed', palette: ['#c0a06c', '#3d3a2e', '#14110a'] },
+    { name: 'Henri Bergson', role: 'Philosopher of memory behind “simultaneity”', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Richard Wyndham', role: 'British collector; his estate sold it to MoMA', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+  ],
+  annotations: [
+    { label: 'The two dancers at the heart of it', where: 'Center, the pair of whirling women in a flounced dress', detail: 'Two dancing women hold the middle of the canvas, one with light, blond curls toward the left and one with darker hair toward the right, caught mid-whirl in a swirling, flounced dress (sources read its color as pink-and-purple, or as white, blue and pink, so trust the spin more than any one swatch). They are the still-turning core the whole picture flies apart from, and they are doing what the hall did best, dancing. The Bal Tabarin’s signature act, the high-kicking French cancan, is the world they belong to, even if no single set of legs here is captioned “the cancan.”' },
+    { label: 'The real sequins, set into the paint', where: 'Across the center, in looping lines over the dancers’ dress', detail: 'Look closely at the dress and the looping patterns over it are not painted dots. They are actual sequins, small reflective discs fixed into the wet paint, so the surface physically catches and throws the room’s light back at you as you move past it. This is the work’s signature trick and the reason its full medium line reads “oil on canvas with sequins.” Most painters render glamour. Severini glued it on. The shimmer of a dance-hall gown is not described here; it is the literal, three-dimensional truth of the object on the wall.' },
+    { label: 'The words floating in the spin', where: 'Scattered through the swirl; “VALSE” reads toward the lower right', detail: 'Painted words drift through the chaos, the Cubist lettering device Severini lifted straight from Picasso and Braque, who had started gluing and stenciling real type into their canvases a year or two earlier. The two clearest are VALSE (French for waltz) and POLKA, two dances named right on the surface, sound made into something you can read. They turn the picture into a kind of score: not just the look of the night but the names of the music it moved to. (No other word is reliably legible here; read these two and resist the urge to find more.)' },
+    { label: 'The small nude riding an open pair of scissors', where: 'High in the upper jumble, a small, realistic figure', detail: 'Up in the upper jumble, far smaller and far more lifelike than anything around it, a realistic nude woman sits astride an open pair of scissors, riding them like a hobbyhorse. It is the strangest of all the dream-fragments, a jolt of plain figurative drawing dropped into the abstraction, and it reads the way the night itself ran, as a cabaret turn or a costume-ball gag remembered through several drinks. (Yes, scissors. Not a goose, not a bird, an open pair of scissors, which every source that reads the figure agrees on.)' },
+    { label: 'The broken blaze of the lights', where: 'Throughout the upper field, the brilliant shattered facets', detail: 'The hall’s electric lighting is everywhere and nowhere, splintered into bright faceted shards that ricochet off mirrors, glasses and spangles across the whole upper half of the picture. There is no single chandelier you can point to and name; the light has been broken into pieces and scattered, which is exactly the point, a remembered glare rather than one fixture. And because the sequins are real, part of that light is not depicted at all. It is actually bouncing off the canvas, the only painting in this movement where the glare is partly the room’s and partly yours.' },
+    { label: 'The night’s odd cast: flags, a camel, a cat, the glasses', where: 'Across the top, national flags and streamers; among the fragments a camel-rider, a cat’s head, martini glasses', detail: 'Strung across the top of the canvas are national flags and streamers, the kind of bunting a festive hall hangs up. Hunt through the rest of the swirl and more legible little incidents surface: a North-African man riding a camel, a black cat’s head, and the slim stems of martini glasses, the night’s drink. The cat and the glasses are plainly the night’s nonsense, snapshots shuffled together. But the flags, and the man on the camel with them, also let the world outside the hall leak in: 1912 sat in the middle of Italy’s colonial war against the Ottomans in North Africa, and Severini was a committed Italian nationalist, so scholars often read the camel as a topical glance at that war rather than a pure cabaret gag. (Some also read the straw-hatted figure at lower right as Severini himself. Treat that as a reading the experts float, not a fact the canvas confirms.)' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Cubist lettering (Picasso · Braque)', mode: 'art' },
+      { label: 'Futurist “lines of force”', mode: 'art' },
+      { label: 'Paris nightlife', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Collage and mixed media', mode: 'art' },
+      { label: 'Words on the canvas', mode: 'art' },
+      { label: 'Painting motion itself', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Dynamism of an Automobile (Automobile in corsa / Dynamisme
+// d'une automobile), Luigi Russolo, 1912–13, Centre Pompidou (MNAM),
+// Paris. The Futurism chain's near-abstract speed canvas, by the painter
+// who quit the brush in 1913 to invent noise music (The Art of Noises +
+// the intonarumori). Authored through the art content pipeline
+// (fact pack → Opus → 5 gates → revise). Chapter prose in
+// art-section-reader.tsx NARRATIVES['automobile'] (Aut… prefix).
+// FACT HANDLING per fact pack + gates: DATE it 1912–13 (canvas signed "1911" [sic],
+// museum dates 1912–13 — note the discrepancy); Russolo signed the 1910
+// PAINTERS' manifestos, NOT Marinetti's 1909 founding text; quote ONE cited
+// Marinetti translation, never a composite. PROVENANCE: the museum record
+// confirms only Russolo → … → Sonia Delaunay gift 1949; a SECONDARY,
+// UNCORROBORATED source attributes a Robert-Delaunay acquisition out of the
+// 1913–14 Florence show — note it as a hedged possibility, NEVER assert it.
+// Exhibition: Florence = Lacerba/Galleria Gonnelli 1913–14; London = the
+// Futurist group's 1914 Doré Gallery show (singular "Gallery"; the canvas's
+// own presence there is not individually confirmed — group framing only).
+// ─────────────────────────────────────────────────────────────
+export const AUTOMOBILE: ArtWorkContent = {
+  id: 'automobile',
+  name: 'Dynamism of an Automobile',
+  shortName: 'Dynamism of an Automobile',
+  year: 1913,
+  artist: 'Luigi Russolo',
+  artistId: 'russolo',
+  movement: 'Futurism',
+  movementId: 'fut',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '3 ft 5 3/4 in × 4 ft 7 1/8 in',
+  location: 'Centre Pompidou (Musée national d’art moderne), Paris',
+  acquired: 'Gift of Sonia Delaunay, 1949 (inv. AM 2917 P)',
+  accent: FUTURISM.accent, // ART_ACCENTS.rust
+  chain: { name: 'Works of Futurism', index: 7, total: 9 },
+  hook: 'A car dissolving into the speed it makes, painted by the Futurist who would soon quit the brush, build machines that howled and roared, and invent noise music.',
+  heroImage: ART_IMG.russoloAutomobile,
+  heroCredit: 'Russolo, Dynamism of an Automobile, 1912–13 · Centre Pompidou, Paris',
+  heroAspect: 1.32, // 106 × 140 cm → W/H ≈ 1.32 (landscape)
+  heroFit: 'contain', // the whole canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1912–13', k: 'Painted' },
+    { v: '3′5¾″ × 4′7⅛″', k: 'Dimensions' },
+    { v: 'Centre Pompidou', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'painter', eyebrow: 'Milan · 1910', dateLabel: '1910', title: 'The painter who would become the noise man', blurb: 'A boy from a musical family who picked up a brush instead of an organ, befriended Boccioni, and signed the Futurist painters’ manifestos of 1910, joining a movement that worshipped the machine, the city, and above all speed.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1912–13', title: 'Painting the roar', blurb: 'Futurism’s founder said a roaring racing car was more beautiful than an ancient Greek goddess. This canvas is Russolo trying to put that idea in oil paint, using the movement’s own invention, the force-line, to paint not a car but the speed a car makes.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '3 ft 5¾ in × 4 ft 7⅛ in', title: 'Find the car. You can’t.', blurb: 'Nested arrowheads driving across a wide canvas, a body shattered into faceted planes, color laid in flat stepping bands, and a structure built out of one repeated shape, the wedge, until the painting itself becomes a diagram of acceleration.', progress: 0.58 },
+    { id: 'noise', eyebrow: 'The bridge', dateLabel: '1913', title: 'He quits painting to play the roar', blurb: 'In 1913 Russolo largely set the brush aside, wrote The Art of Noises, and built the intonarumori, hand-cranked boxes that howled and gurgled and roared. The painting and the noise machines are two attacks on the same target: the modern machine’s energy.', progress: 0.80 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1914–today', title: 'The car, the canvas, and the gift', blurb: 'Shown in Florence and London before the war, signed with a date the museum won’t accept, and given to the French nation in 1949 by a woman who was herself a great painter of speed and color, Sonia Delaunay.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1912–13 → ?', who: 'Luigi Russolo (the artist)', place: 'Milan / Italy', note: 'Painted 1912–13 (the canvas is signed and dated “1911,” which the museum marks [sic] and dates the work two years later). Shown at the Lacerba-organized Futurist exhibition at the Galleria Gonnelli, Florence, 1913–14, and exhibited with the Futurist group at the Doré Gallery, London, in 1914. Between Russolo and Sonia Delaunay the museum file records no owners; one secondary account says Robert Delaunay bought it out of the Florence show, but the museum does not confirm that, so it is noted, not asserted.', price: null },
+    { year: '? – 1949', who: 'Sonia Delaunay', place: 'Paris', note: 'Held by the painter Sonia Delaunay-Terk, a co-founder of Orphism, before her gift. How and when she acquired it is not in the museum’s file; a secondary source says it came through her husband Robert Delaunay, which would explain it, but that link is uncorroborated, so it is left as a hedged possibility rather than a fact.', price: null },
+    { year: '1949 – today', who: 'Musée national d’art moderne (Centre Pompidou)', place: 'Paris', note: 'Gift of Sonia Delaunay, 1949. Inv. AM 2917 P. On the Pompidou collection.', price: 'gift to the museum', museum: true },
+  ],
+  figures: [
+    { name: 'Luigi Russolo', role: 'The painter, then the noise man', palette: ['#bf2f25', '#3a2a24', '#140d0a'] },
+    { name: 'F. T. Marinetti', role: 'Founded Futurism, 1909', palette: ['#8a2018', '#2e2018', '#120c08'] },
+    { name: 'Umberto Boccioni', role: 'Lead painter · force-line theory', palette: ['#6a3a2a', '#332420', '#0e0a08'] },
+    { name: 'Ugo Piatti', role: 'Co-built the noise machines', palette: ['#7a6a44', '#3e3320', '#12100a'] },
+    { name: 'Sonia Delaunay', role: 'Painter · gave it to France, 1949', palette: ['#c79338', '#8a1c1c', '#0d0606'] },
+  ],
+  annotations: [
+    { label: 'The arrow / chevron force-lines', where: 'Repeated across the canvas, the nested V-shaped wedges all pointing the way the car is going', detail: 'These nested arrowheads are the force-lines (linee-forza), the Futurist device for carrying an object’s energy out into the space around it. Stacked like a row of chevrons, they do not describe the car; they describe its push. They are the single most important thing on the canvas, because they are how a still painting is made to move.' },
+    { label: 'The dissolved car body', where: 'The denser knot of faceted, overlapping planes from which the wedges spring', detail: 'The actual vehicle is barely a vehicle. Its body shatters into overlapping shards and planes, so you read “car” more from the title and the thrust than from any fender, wheel, or windscreen. The subject is the speed, not the machine, and the machine has been let go almost entirely.' },
+    { label: 'The thrust, driving one way', where: 'The overall lean and sweep of the wedges and planes across the wide canvas', detail: 'The whole composition leans and drives in one direction, so your eye is pulled along the very path the car takes. On a canvas wider than it is tall, the landscape format itself becomes a runway, and the picture spends its width the way the car spends a straightaway.' },
+    { label: 'The color planes', where: 'The bands and shards of color stepping back from the leading edges', detail: 'Color is laid in flat-ish planes rather than modelled into rounded, solid form, each plane reading like a stage in the car’s passage, one position after another. It is closer to a diagram of motion, a stop-frame stack, than to a portrait of a thing sitting still.' },
+    { label: 'The wedge composition', where: 'The way the wedges fan out from the dense core toward the open field ahead', detail: 'The picture is built out of one shape, the wedge, multiplied and rotated and fanned forward, so the structure of the painting is the structure of acceleration itself. Find the repeated wedge and you have found the picture’s skeleton; everything else hangs on it.' },
+    { label: 'Speed as form', where: 'Anywhere you try, and fail, to find a recognizable automobile', detail: 'Step back and there is no clear car to point at, only the sensation of one tearing past. That refusal to render the object, in favor of rendering the experience of the object moving, is the whole Futurist wager, and it pushes this canvas right up to the edge of pure abstraction.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Cubism’s faceted planes', mode: 'art' },
+      { label: 'The chronophotograph', mode: 'civ' },
+      { label: 'Boccioni’s dynamism', mode: 'art' },
+    ],
+    children: [
+      { label: 'Abstract art', mode: 'art' },
+      { label: 'Noise music', mode: 'civ' },
+      { label: 'The machine aesthetic', mode: 'civ' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
